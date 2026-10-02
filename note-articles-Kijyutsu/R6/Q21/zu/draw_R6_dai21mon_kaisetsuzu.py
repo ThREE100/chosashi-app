@@ -1,4 +1,4 @@
-"""令和6年度 第21問（土地）会話形式note記事の解説図9枚を、座標値から作図する。
+"""令和6年度 第21問（土地）会話形式note記事の解説図12枚を、座標値から作図する。
 
 `../prompt_R6_dai21mon_kaiwa_kaisetsuzu.md`（基本フォーム `../../../prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作成）
 の指示を、そのままPythonにしたもの。図に書く数値はすべて座標から計算し直し、記事の数値と一致しなければ止まる。
@@ -381,5 +381,112 @@ fig.text(0.5, 0.035, '地図の「区画」と、地図に準ずる図面の「�
 path = os.path.join(OUT, 'R6_dai21mon_zu09_chizu_teisei.png')
 fig.savefig(path, dpi=100, facecolor='white')
 print('[重なり検査] 図9: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図10：問題文の注の仕分け（毎年同じ注と今年だけの注、調査図素図の注。整理図。固定配置）
+# 2026-10-02追加（予備校の解説と見比べて記事に足した読み方の図）
+# =====================================================================
+fig = plt.figure(figsize=(16, 10), dpi=100)
+fig.patch.set_facecolor('white')
+fig.suptitle('図10　問題文の注の仕分け（毎年同じ注と、今年だけの注）', fontsize=24, weight='bold', y=0.965)
+ax = fig.add_axes([0.03, 0.14, 0.94, 0.76])
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 100)
+ax.axis('off')
+COLS = [
+    (1, '毎年ほぼ同じ決まり文句', GRAY,
+     ['注1　行為は全て適法、書類も適法', '注2　書面申請', '注3　座標値は小数第3位を四捨五入',
+      '注4　地積測量図は250分の1、\n　　　筆界点間の距離は小数第3位を四捨五入', '注9　答案用紙の字画・訂正の方法']),
+    (34, '今年だけ①　地積測量図に書かないもの', BLUE,
+     ['注5　座標値、平面直角座標系の番号又は記号、\n　　　地積及びその求積方法、測量年月日', '注6　A市基準点は位置と点名だけ\n　　　（座標値は書かない）']),
+    (67, '今年だけ②　分筆後の地番', RED,
+     ['注7　甲土地を分筆する場合は\n　　　面積の小さい土地を2番3', '注8　乙土地を分筆する場合は\n　　　面積の小さい土地を3番3',
+      '→ 両方あるのは、どちらを分筆するかを\n　 迷わせるため（分筆するのは乙土地）']),
+]
+for x0, head, col, items in COLS:
+    ax.add_patch(FancyBboxPatch((x0, 22), 31, 70, boxstyle='round,pad=0.5', fc='white', ec=col, lw=2.2))
+    ax.text(x0 + 15.5, 88, head, ha='center', va='center', fontsize=16, color=col, weight='bold')
+    for k, it in enumerate(items):
+        ax.text(x0 + 1.5, 79 - k * 12.5, it, ha='left', va='top', fontsize=14, linespacing=1.4,
+                color=RED if it.startswith('→') else BLACK)
+ax.add_patch(FancyBboxPatch((1, 2), 97, 12, boxstyle='round,pad=0.5', fc='white', ec=PURPLE, lw=2.2))
+ax.text(49.5, 8, '調査図素図の（注）：D点からJ点は直線であり、I点はその直線上にある（P点を求める直線D→Jの根拠）',
+        ha='center', va='center', fontsize=15, color=PURPLE, weight='bold')
+fig.text(0.5, 0.06, '問題文の注と調査図素図の（注）は別物なので、記事では「問題文の注7」「調査図素図の注」と言い分ける。', ha='center',
+         va='center', fontsize=16)
+path = os.path.join(OUT, 'R6_dai21mon_zu10_chuu_shiwake.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図10: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図11：問3　四角形B・P・I・Hの面積を対角線で出す別解
+# 2026-10-02追加（予備校の解説と見比べて記事に足した別解の図）
+# =====================================================================
+dd = (B - I).conjugate() * (PP - H)
+assert f'{dd.real:.4f}' == '-13.2849' and f'{dd.imag:.4f}' == '75.0658'
+assert abs(dd.imag / 2 - area(I_31)) < 1e-9
+fig, (ax,) = new_figure('図11　問3　四角形B・P・I・Hの面積を対角線で出す（別解）',
+                        '倍面積 ＝ Conjg(B − I) × (P − H) のiの係数 75.0658（4点を順に回る式と同じ）。75.0658 ÷ 2 ＝ 37.5329 → （イ）37.53㎡\n'
+                        '分筆後の地積の合計 37.53 ＋ 8.34 ＝ 45.87㎡。登記記録の45.88㎡との差 0.01㎡は、参考の甲2の公差（約0.51㎡）の範囲内。')
+z = Zu(ax)
+XD = intersect(B, I, PP, H)[0]                         # 対角線の交点
+fit(ax, [B, D, PP, I, H, P(24.6, 50.2)], margin=0.12, pad_aspect=True)
+z.poly(I_31, fill=BLUE)
+z.poly(RO_33, fill=ORANGE)
+z.line(B, I, color=RED, lw=2.2, ls='--')
+z.line(PP, H, color=RED, lw=2.2, ls='--')
+z.north_arrow()
+for p_, n_ in [(B, 'B'), (D, 'D'), (PP, 'P'), (I, 'I'), (H, 'H')]:
+    z.point(p_, 'dot')
+    z.point_label(p_, n_, away=centroid([B, D, I, H]))
+z.free_text(centroid([B, H, XD]), '（イ）3番1\n37.5329\n→ 37.53㎡', fs=14, offsets=((0, 0), (-10, 0), (-10, 10)))
+z.callout(centroid(RO_33), '（ロ）3番3　8.34775 → 8.34㎡', dirs=(60, 40, 80, 20), color=ORANGE, dists=(70, 95, 120))
+z.callout((B + I) / 2 + (I - B) * 0.18, '対角線 B − I', dirs=(-150, -130, -170), color=RED, dists=(70, 95))
+z.callout((PP + H) / 2 + (PP - H) * 0.22, '対角線 P − H', dirs=(-30, -50, -10), color=RED, dists=(70, 95))
+z.free_text(P(24.6, 51.6), 'Conjg(B − I) × (P − H)\n＝ −13.2849 ＋ 75.0658i', fs=15, color=RED,
+            offsets=((0, 0), (0, -20), (20, 0), (-20, 0)))
+ALL_PROBLEMS += save(fig, [z], 'R6_dai21mon_zu11_taikakusen.png')
+
+# =====================================================================
+# 図12：本番で解く順番（P点と面積がいちばん重い）
+# 2026-10-02追加
+# =====================================================================
+fig = plt.figure(figsize=(16, 8), dpi=100)
+fig.patch.set_facecolor('white')
+fig.suptitle('図12　本番で解く順番　P点と（イ）（ロ）の面積は後に回す', fontsize=24, weight='bold', y=0.965)
+ax = fig.add_axes([0.03, 0.20, 0.94, 0.70])
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 100)
+ax.axis('off')
+STEPS = [
+    ('①', '問1と問5\n（計算なし）', '第1欄・第5欄', BLUE),
+    ('②', 'B点・D点の\n放射', '第2欄 B・D', BLUE),
+    ('③', '申請書の\n地積以外の欄', '第3欄\n（1行目の45.88も）', GREEN),
+    ('④', 'P点の交点', '第2欄 P', RED),
+    ('⑤', '（イ）（ロ）の\n面積', '第3欄の地積', RED),
+    ('⑥', '地積測量図の\n辺長と作図', '第4欄', ORANGE),
+]
+w, h, gap = 14.2, 42, 2.2
+for i, (no, t, ran, col) in enumerate(STEPS):
+    x = 1 + i * (w + gap)
+    ax.add_patch(FancyBboxPatch((x, 22), w, h, boxstyle='round,pad=0.4', facecolor=col, alpha=0.14, edgecolor=col,
+                                lw=2))
+    ax.text(x + w / 2, 22 + h - 3, no, ha='center', va='top', fontsize=26, color=col, weight='bold')
+    ax.text(x + w / 2, 22 + h / 2 - 4, t, ha='center', va='center', fontsize=17, linespacing=1.5)
+    ax.text(x + w / 2, 17, ran, ha='center', va='top', fontsize=14, color=col, weight='bold', linespacing=1.4)
+    if i < len(STEPS) - 1:
+        ax.annotate('', xy=(x + w + gap - 0.3, 43), xytext=(x + w + 0.3, 43),
+                    arrowprops=dict(arrowstyle='-|>', lw=1.6, color=GRAY))
+ax.text(1 + 1.5 * (w + gap) - gap / 2, 76, 'P点がなくても書ける', ha='center', fontsize=15, color=GREEN, weight='bold')
+ax.annotate('', xy=(1 + 3 * (w + gap) - gap, 72), xytext=(1, 72), arrowprops=dict(arrowstyle='<->', lw=1.5, color=GREEN))
+ax.text(1 + 4 * (w + gap) - gap / 2, 76, 'いちばん時間を食う', ha='center', fontsize=15, color=RED, weight='bold')
+ax.annotate('', xy=(1 + 5 * (w + gap) - gap, 72), xytext=(1 + 3 * (w + gap), 72),
+            arrowprops=dict(arrowstyle='<->', lw=1.5, color=RED))
+fig.text(0.5, 0.09, '申請書は、登記の目的・添付書類・申請人・登録免許税・所在・1行目の45.88・（ロ）の地番と地目・2つの登記原因を先に書ける。\n'
+         '途中で時間が切れても、書ける欄は全部埋まっているようにする。',
+         ha='center', va='center', fontsize=15)
+path = os.path.join(OUT, 'R6_dai21mon_zu12_toku_junban.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図12: 解く順番（固定配置）\n  →', path)
 
 print('重なりの合計:', len(ALL_PROBLEMS))

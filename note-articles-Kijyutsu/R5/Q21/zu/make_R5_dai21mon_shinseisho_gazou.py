@@ -2,6 +2,9 @@
 
 - 完成形：`../prompt_R5_dai21mon_toukishinseisho_gazou.md` どおり（問4・令和5年10月16日の土地地目変更・分合筆登記）。縦長（横1200px）
 - 添削　：`../prompt_R5_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄（問1のア〜エ）・第5欄（問5の①〜④）：申請書でない解答欄も、記号ごとの記入欄の形で別の画像にする（横1200pxの横長。
+  2026-10-02追加）。試験の答案用紙そのものはリポジトリにないので、同じ時期の令和6年度・令和7年度の第21問の答案用紙
+  （`public/kijutsu/R06-tochi/a1.webp`・`R07-tochi/a1.png`）の穴埋めの欄（記号と記入欄を1行に2組ずつ並べた表）にならった仮の形にしている
 
 R6/Q21の `make_R6_dai21mon_shinseisho_gazou.py` の様式（CSS・土地の表示の表）を使い、地番の列を広げた（「（イ）１番４」が折り返さないように）。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP。なければIPA明朝・IPAゴシック）
@@ -155,11 +158,42 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">令和5年度 第21問｜合筆には印鑑証明書、地積の端数は地積測量図から援用</div>''')
 
+# ---- 第1欄・第5欄（申請書でない解答欄。2026-10-02追加） ----
+RAN_CSS = '''
+.ranpage { padding: 50px 60px 34px; }
+.ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 14px; }
+table.ran { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }
+table.ran td { border: 1.5px solid #111; height: 84px; font-size: 22px; vertical-align: middle; }
+table.ran td.k { text-align: center; }
+table.ran td.v { padding-left: 22px; }
+table.ran td.v .ink { font-size: 28px; }
+'''
+
+
+def ran_image(head, pairs, caption):
+    """記号と記入欄を1行に2組ずつ並べた穴埋めの欄（令和6年度・令和7年度の答案用紙の形）"""
+    trs = ''
+    for i in range(0, len(pairs), 2):
+        cells = ''.join(f'<td class="k">{k}</td><td class="v">{ink(v)}</td>' for k, v in pairs[i:i + 2])
+        trs += f'<tr>{cells}</tr>'
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{RAN_CSS}</style></head><body>'
+            f'<div class="ranpage"><div class="ranhead">{head}</div>'
+            f'<table class="ran"><colgroup><col style="width:9%"><col style="width:41%"><col style="width:9%">'
+            f'<col style="width:41%"></colgroup>{trs}</table>'
+            f'<div class="caption">{caption}</div></div></body></html>')
+
+
+DAI1 = [('ア', '一筆'), ('イ', '測量'), ('ウ', 'Ｆ点'), ('エ', 'Ｊ点')]
+DAI5 = [('①', '表題部所有者'), ('②', '所有権'), ('③', '異議'), ('④', '職権')]
+dai1 = ran_image('第1欄', DAI1, '令和5年度 土地家屋調査士試験 第21問 第1欄（問1）解答例')
+dai5 = ran_image('第5欄', DAI5, '令和5年度 土地家屋調査士試験 第21問 第5欄（問5）解答例')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('R5_dai21mon_toukishinseisho_kansei', kansei), ('R5_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+    for name, html in [('R5_dai21mon_dai1ran_kansei', dai1), ('R5_dai21mon_toukishinseisho_kansei', kansei),
+                       ('R5_dai21mon_toukishinseisho_machigai', machigai), ('R5_dai21mon_dai5ran_kansei', dai5)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -167,5 +201,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長'))
     browser.close()

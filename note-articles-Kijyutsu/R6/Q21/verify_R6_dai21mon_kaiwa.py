@@ -209,13 +209,14 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-n_fig = len(re.findall(r'^- \*\*図\d：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（9枚）', n_fig == 9)
-for i in range(1, 10):
-    judge(f'作図済みPNG 図{i}', any(f.startswith(f'R6_dai21mon_zu0{i}_') and f.endswith('.png')
+N_FIG = 12
+n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
+judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
+for i in range(1, N_FIG + 1):
+    judge(f'作図済みPNG 図{i}', any(f.startswith(f'R6_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
-nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\()'図(\d)　", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, 10)))
+nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\()'図(\d+)　", draw)]
+judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, N_FIG + 1)))
 for s in ['（27.39, 54.17）', '（30.00, 60.78）', '（27.49, 60.82）', '193°46′25.18″', '−166°13′34.82″', '78°58′08″',
           '118°24′27″', '104.76㎡', '37.81㎡', '96.29㎡', '45.86㎡', '0.0064㎡', '46.28㎡', '8.34㎡', '37.53㎡',
           '45.88065', '67.6152 ÷ 68.6625', '7.1066', '横約27mm・縦約33mm']:
@@ -270,18 +271,22 @@ lines = text.splitlines()
 bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 judge(f'話者名の行（ハードブレーク）: 不備 {bad_speaker}', not bad_speaker)
-# 同じ話者のセリフが、間に何も挟まずに続いていないか
+# 同じ話者のセリフの連続（画像挿入マーカーをはさむものも。2026-10-02、マーカーを読み飛ばす形に直した）
 same = []
 for i, l in enumerate(lines):
     if l.rstrip() in ('**トリ先生**', '**藍子**'):
-        j = i + 2
-        while j < len(lines) and not lines[j].strip():
+        j = i + 1
+        while j < len(lines) and not lines[j].rstrip().endswith('」'):   # セリフの終わり（複数段落も）
+            j += 1
+        j += 1
+        while j < len(lines) and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
             j += 1
         if j < len(lines) and lines[j].rstrip() == l.rstrip():
             same.append(i + 1)
-judge(f'同じ話者のセリフの連続: {same}', not same)
+judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図9＋添削1＋完成形1＝計11か所の想定）', n_marker == 11)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＋第1欄・第5欄2＝計{N_FIG + 4}か所の想定）',
+      n_marker == N_FIG + 4)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和6年度問題21（土地）〜'
@@ -292,5 +297,63 @@ check('見出し画像のタイトル', '令和6年度問題21（土地）', thu
 check('見出し画像のラベル', '土地家屋調査士受験生向け', thumb, '見出し画像')
 check('解説図プロンプトのタイトル', title[2:], fig, '解説図')
 check('添削プロンプトのタイトル', title[2:], fix, '添削')
+check('登場人物（トリ先生）', '**トリ先生**：見た目はぽっちゃりした鳥のキャラクター。調査士試験の要点と受験生の弱点を熟知している。口調は辛辣だが、初学者への愛は深い。')
+check('登場人物（藍子）', '**藍子（アイコ）**：ブルーの細い縦じまが入ったブラウスにネイビーのスーツをパリッと着こなす受験生。まじめで素直だが、問題作成者の仕掛けたワナに見事に引っかかる猪突猛進な面も。')
+
+# ---- 2026-10-02の照らし直し：画像挿入マーカーと zu/ のPNGが記事の順に対応しているか ----
+ZU = os.path.join(HERE, 'zu')
+markers = [l for l in lines if l.startswith('> 【画像挿入】')]
+PNGS = [('R6_dai21mon_zu10_chuu_shiwake', '問題文の注の仕分けの図', 'fig'),
+        ('R6_dai21mon_zu01_zentaizu', '全体図', 'fig'),
+        ('R6_dai21mon_zu02_B_housha', 'B点を求める図', 'fig'),
+        ('R6_dai21mon_zu03_D_housha', 'D点を求める図', 'fig'),
+        ('R6_dai21mon_zu04_hikkai_handan', '筆界の判断の比較図', 'fig'),
+        ('R6_dai21mon_zu05_P_kousa', 'P点の求め方の図', 'fig'),
+        ('R6_dai21mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
+        ('R6_dai21mon_zu06_hitsuyou_touki', '必要な登記の流れの図', 'fig'),
+        ('R6_dai21mon_zu11_taikakusen', '対角線で出す別解の図', 'fig'),
+        ('R6_dai21mon_zu07_bunpitsu_chiban', '分筆後の区画と地番の図', 'fig'),
+        ('R6_dai21mon_toukishinseisho_machigai', '誤答→添削→正解の3コマ', 'tall'),
+        ('R6_dai21mon_toukishinseisho_kansei', '登記申請書（問3）の完成形', 'tall'),
+        ('R6_dai21mon_zu08_chiseki_sokuryouzu', '地積測量図（3番1・3番3）の完成見本', 'fig'),
+        ('R6_dai21mon_zu09_chizu_teisei', '地図に準ずる図面の訂正の申出の整理図', 'fig'),
+        ('R6_dai21mon_dai5ran_kansei', '第5欄（問5）の完成形', 'wide'),
+        ('R6_dai21mon_zu12_toku_junban', '本番で解く順番の図', 'fig')]
+judge(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
+for (name, key, kind), m in zip(PNGS, markers):
+    png = os.path.join(ZU, name + '.png')
+    ok = os.path.exists(png) and key in m
+    if ok:
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        ok = (w == 1200 and h > w) if kind == 'tall' else (w == 1200 and h < w) if kind == 'wide' else w >= 1200
+    judge(f'PNG（マーカー順・大きさ） : {name}', ok)
+    src, sname = (fig, '解説図') if '_zu' in name else (fix, '添削') if 'machigai' in name else (form, '登記申請書')
+    check('プロンプトにファイル名', f'zu/{name}.png', src, sname)
+extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for n, _, _ in PNGS})
+judge(f'zu/ に記事で使わないPNGがない : {extra}', not extra)
+
+# ---- 穴埋めの答えの語を会話の中で言っているか（2026-10-02追加）----
+for s in ['やっぱり（ア）は2です！', 'だから（イ）は9の野原花子、（ウ）は5の乙土地', '（エ）は6の分筆の登記の申請よ',
+          '第1欄は、アが2、イが9、ウが5、エが6。',
+          '①が『土地の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人』',
+          '②はアが『地番』、イが『職権』、ウが『土地所在図又は地積測量図』ですね']:
+    check('穴埋めの答えの語（会話）', s)
+for name, needles in [('R6_dai21mon_dai1ran_kansei', ['第1欄', '>ア<', '>イ<', '>ウ<', '>エ<', '２', '９', '５', '６']),
+                      ('R6_dai21mon_dai5ran_kansei', ['第5欄', '>①<', '土地の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人',
+                                                      '地番', '職権', '土地所在図又は地積測量図'])]:
+    h_ = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
+    for n in needles:
+        check(f'{name}.html', n, h_, '欄の完成形HTML')
+for s in ['ア「２」、イ「９」、ウ「５」、エ「６」', 'ア「地番」、イ「職権」、ウ「土地所在図又は地積測量図」']:
+    check('欄の完成形プロンプト', s, form, '登記申請書')
+
+# ---- 図10〜図12（注の仕分け・対角線の別解・解く順番）の文言（2026-10-02追加）----
+for s in ['今年だけ②　分筆後の地番', 'Conjg(B − I) × (P − H)', '−13.2849 ＋ 75.0658i', '37.53 ＋ 8.34 ＝ 45.87㎡',
+          'P点がなくても書ける', 'いちばん時間を食う']:
+    check('図10〜図12のプロンプト', s, fig, '解説図')
+    check('図10〜図12の作図スクリプト', s, draw, '作図')
+for s in ['分筆と一緒に地積更正をする必要もありません', '今年だけの注5〜8に印を付けておきます']:
+    check('図10・図11の挿入位置の文言', s)
+    check('図10・図11の挿入位置の文言（プロンプト側）', s, fig, '解説図')
 
 print('NG件数:', ng)

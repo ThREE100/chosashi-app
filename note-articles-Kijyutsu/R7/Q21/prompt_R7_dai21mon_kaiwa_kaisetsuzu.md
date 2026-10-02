@@ -4,7 +4,9 @@
 
 これは共通の基本フォーム（`../../prompt_kaisetsuzu-gazou_kihon-form_tochi.md`）の本文を写し、末尾の差し替えデータを令和7年度 第21問の値で埋めたものです。基本フォームを直したら、本文の部分もここへ写し直すこと（`verify_R7_dai21mon_kaiwa.py` が本文の一致を確認する）。
 
-このプロンプトをそのままPythonにした参照実装が `zu/draw_R7_dai21mon_kaisetsuzu.py`、書き出したPNGが `zu/R7_dai21mon_zu01〜09_*.png` です（2026-09-29作成。重なりの自動検査0件、目視確認済み）。
+このプロンプトをそのままPythonにした参照実装が `zu/draw_R7_dai21mon_kaisetsuzu.py`、書き出したPNGが `zu/R7_dai21mon_zu01〜12_*.png` です（2026-09-29作成。図10〜図12は同日の追加作業で追加。重なりの自動検査0件、目視確認済み）。
+
+**生成済みのPNG**（`zu/`、図の番号順）：`zu/R7_dai21mon_zu01_zentaizu.png`、`zu/R7_dai21mon_zu02_D_housha.png`、`zu/R7_dai21mon_zu03_hikkai_D.png`、`zu/R7_dai21mon_zu04_K_nitoubun.png`、`zu/R7_dai21mon_zu05_kousa.png`、`zu/R7_dai21mon_zu06_chiseki_sokuryouzu.png`、`zu/R7_dai21mon_zu07_J_heikousen.png`、`zu/R7_dai21mon_zu08_L_souji.png`、`zu/R7_dai21mon_zu09_bunpitsu_chiban.png`、`zu/R7_dai21mon_zu10_K_menseki_hi.png`、`zu/R7_dai21mon_zu11_jikeiretsu.png`、`zu/R7_dai21mon_zu12_kaku_junban.png`
 
 2026-09-29追記（最新の基本フォームに合わせた作り直し）：表示範囲をすべて `fit(..., pad_aspect=True)`（パネルの縦横比に合わせて範囲を広げる）に改め、全9枚を書き出し直した。広げた分だけ図形が小さくなり、図3（2パネル）で注記が線に、図8でL点の吹き出しが辺長「KL ＝ 3.66」に重なったので、図3の余白を0.22→0.08、図8右パネルの余白を0.50→0.30に詰め、L点の吹き出しを北東へ出すように直した（重なりの自動検査0件、目視確認済み）。登記申請書の完成形と添削画像は `zu/make_R7_dai21mon_shinseisho_gazou.py` で生成済み。
 

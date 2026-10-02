@@ -2,6 +2,9 @@
 
 - 完成形：`../prompt_R6_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ）どおり。縦長（横1200px）
 - 添削　：`../prompt_R6_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄（問1のア〜エ）・第5欄（問5の①と②のア〜ウ）：申請書でない解答欄も、試験の答案用紙の欄の形で別の画像にする
+  （横1200pxの横長。2026-10-02追加）。欄の形は答案用紙（`public/kijutsu/R06-tochi/a1.webp` と同じ形）にならう：
+  第1欄は「ア｜イ」「ウ｜エ」の2行、第5欄は①の横長の1行と、②の「ア｜イ」「ウ」の2行
 
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
 実行: python3 note-articles-Kijyutsu/R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py [出力フォルダ]
@@ -75,15 +78,15 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
 
 def land_table(rows, n_rows=5, shozai='Ａ市Ｂ町一丁目', compact=False):
     """土地の表示の表。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。各値は HTML（記入部分は呼び出し側で .ink を付ける）"""
-    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:16%"><col style="width:15%">'
-         '<col style="width:13%"><col style="width:7%"><col style="width:43%"></colgroup>',
+    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:19%"><col style="width:13%">'
+         '<col style="width:13%"><col style="width:7%"><col style="width:42%"></colgroup>',
          f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
          f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地　　番</td>'
          '<td class="head">②地　　目</td><td class="head" colspan="2">③地　積　（m²）</td>'
          '<td class="head">登記原因及びその日付</td></tr>']
     for i in range(n_rows):
         c, m, a, b, g = rows[i] if i < len(rows) else ('', '', '', '', '')
-        h.append(f'<tr><td>{c}</td><td class="chimoku">{m}</td><td class="int">{a}</td><td class="dec">{b}</td>'
+        h.append(f'<tr><td style="white-space:nowrap">{c}</td><td class="chimoku">{m}</td><td class="int">{a}</td><td class="dec">{b}</td>'
                  f'<td>{g}</td></tr>')
     h.append('</table>')
     return ''.join(h)
@@ -146,11 +149,57 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">令和6年度 第21問｜申請人は分筆する土地の所有者、分筆前の地積は登記記録どおり</div>''')
 
+# ---- 第1欄・第5欄（申請書でない解答欄。2026-10-02追加） ----
+RAN_CSS = '''
+.ranpage { padding: 50px 60px 34px; }
+.ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 14px; }
+.ransub { font-size: 24px; margin: 22px 0 10px; }
+table.ran { width: 100%; border-collapse: collapse; table-layout: fixed; }
+table.ran td { border: 1.5px solid #111; height: 84px; font-size: 22px; vertical-align: middle; }
+table.ran td.k { text-align: center; }
+table.ran td.v { padding-left: 22px; }
+table.ran td.none { border: none; }
+table.ran td.v .ink { font-size: 28px; }
+table.ran td.v.small .ink { font-size: 22px; }
+'''
+COLS4 = '<colgroup><col style="width:9%"><col style="width:41%"><col style="width:9%"><col style="width:41%"></colgroup>'
+
+
+def ran_rows(rows):
+    trs = ''
+    for row in rows:
+        cells = ''
+        for k, v, *opt in row:
+            if k is None:
+                cells += '<td class="none" colspan="2"></td>'
+                continue
+            span = f' colspan="{opt[0]}"' if opt else ''
+            small = ' small' if opt and opt[0] > 1 else ''
+            cells += f'<td class="k">{k}</td><td class="v{small}"{span}>{ink(v)}</td>'
+        trs += f'<tr>{cells}</tr>'
+    return trs
+
+
+def ran_page(body, caption):
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{RAN_CSS}</style></head><body>'
+            f'<div class="ranpage">{body}<div class="caption">{caption}</div></div></body></html>')
+
+
+dai1 = ran_page(f'<div class="ranhead">第1欄</div><table class="ran">{COLS4}'
+                + ran_rows([[('ア', '２'), ('イ', '９')], [('ウ', '５'), ('エ', '６')]]) + '</table>',
+                '令和6年度 土地家屋調査士試験 第21問 第1欄（問1）解答例')
+dai5 = ran_page(f'<div class="ranhead">第5欄</div><table class="ran">{COLS4}'
+                + ran_rows([[('①', '土地の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人', 3)]])
+                + f'</table><div class="ransub">②</div><table class="ran">{COLS4}'
+                + ran_rows([[('ア', '地番'), ('イ', '職権')], [('ウ', '土地所在図又は地積測量図'), (None, None)]]) + '</table>',
+                '令和6年度 土地家屋調査士試験 第21問 第5欄（問5）解答例')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('R6_dai21mon_toukishinseisho_kansei', kansei), ('R6_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+    for name, html in [('R6_dai21mon_dai1ran_kansei', dai1), ('R6_dai21mon_toukishinseisho_kansei', kansei),
+                       ('R6_dai21mon_toukishinseisho_machigai', machigai), ('R6_dai21mon_dai5ran_kansei', dai5)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -158,5 +207,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長'))
     browser.close()

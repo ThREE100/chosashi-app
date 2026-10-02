@@ -211,12 +211,21 @@ lines = text.splitlines()
 bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 judge(f'話者名の行（ハードブレーク）: 不備 {bad_speaker}', not bad_speaker)
-seq = [(i, l.rstrip()) for i, l in enumerate(lines) if l.strip()]
-dup = [seq[k][0] + 1 for k in range(1, len(seq)) if seq[k][1] in ('**トリ先生**', '**藍子**')
-       and k >= 2 and seq[k - 2][1] == seq[k][1] and seq[k - 1][1].startswith('「')]
-judge(f'同じ話者のセリフが間に何も挟まずに続いていない: {dup}', not dup)
+# 同じ話者のセリフの連続（画像挿入マーカーをはさむものも。2026-10-02、マーカーを読み飛ばす形に直した）
+dup = []
+for i, l in enumerate(lines):
+    if l.rstrip() in ('**トリ先生**', '**藍子**'):
+        j = i + 1
+        while j < len(lines) and not lines[j].rstrip().endswith('」'):   # セリフの終わり（複数段落も）
+            j += 1
+        j += 1
+        while j < len(lines) and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
+            j += 1
+        if j < len(lines) and lines[j].rstrip() == l.rstrip():
+            dup.append(i + 1)
+judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも）: {dup}', not dup)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図12＋添削1＋完成形1＝計14か所の想定）', n_marker == 14)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図12＋添削1＋完成形1＋第2欄1＝計15か所の想定）', n_marker == 15)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和7年度問題21（土地）〜'
@@ -244,5 +253,49 @@ for s_ in ['223.99265㎡', '56.6026㎡', 'KG＝6.48', '9月20日に10番1が一�
     check('図10〜12のマーカー・本文', s_)
 for s_ in ['四角形DGFE 223.99265㎡', '△DKG 56.6026㎡', '10番1が一郎の名義に', '第5欄〈地積は「（略）」〉']:
     check('図10〜12のプロンプト', s_, fig, '解説図')
+
+# ---- 2026-10-02の照らし直し ----
+check('登場人物（トリ先生）', '**トリ先生**：見た目はぽっちゃりした鳥のキャラクター。調査士試験の要点と受験生の弱点を熟知している。口調は辛辣だが、初学者への愛は深い。')
+check('登場人物（藍子）', '**藍子（アイコ）**：ブルーの細い縦じまが入ったブラウスにネイビーのスーツをパリッと着こなす受験生。まじめで素直だが、問題作成者の仕掛けたワナに見事に引っかかる猪突猛進な面も。')
+check('解説図プロンプトのタイトル', title[2:], fig, '解説図')
+# 画像挿入マーカーと zu/ のPNGが記事の順に対応しているか
+ZU = os.path.join(HERE, 'zu')
+markers = [l for l in lines if l.startswith('> 【画像挿入】')]
+PNGS = [('R7_dai21mon_zu01_zentaizu', '全体図', 'fig'),
+        ('R7_dai21mon_zu02_D_housha', 'D点を求める図', 'fig'),
+        ('R7_dai21mon_zu03_hikkai_D', '杭D（生垣の間）の比較図', 'fig'),
+        ('R7_dai21mon_zu04_K_nitoubun', 'K点の求め方の図', 'fig'),
+        ('R7_dai21mon_zu10_K_menseki_hi', 'K点の別解の図', 'fig'),
+        ('R7_dai21mon_zu05_kousa', '公差の判定図', 'fig'),
+        ('R7_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
+        ('R7_dai21mon_zu06_chiseki_sokuryouzu', '地積測量図（10番1・10番2）の完成見本', 'fig'),
+        ('R7_dai21mon_zu07_J_heikousen', 'J点の求め方の図', 'fig'),
+        ('R7_dai21mon_zu08_L_souji', 'L点・M点の求め方の図', 'fig'),
+        ('R7_dai21mon_zu09_bunpitsu_chiban', '10月30日の分筆の図', 'fig'),
+        ('R7_dai21mon_toukishinseisho_machigai', '誤答→添削→正解の3コマ', 'tall'),
+        ('R7_dai21mon_zu11_jikeiretsu', '10月30日の申請までの時系列の図', 'fig'),
+        ('R7_dai21mon_toukishinseisho_kansei', '登記申請書（問5）の完成形', 'tall'),
+        ('R7_dai21mon_zu12_kaku_junban', '本番で解く順番の図', 'fig')]
+judge(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
+for (name, key, kind), m in zip(PNGS, markers):
+    png = os.path.join(ZU, name + '.png')
+    ok = os.path.exists(png) and key in m
+    if ok:
+        w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
+        ok = (w == 1200 and h > w) if kind == 'tall' else (w == 1200 and h < w) if kind == 'wide' else w >= 1200
+    judge(f'PNG（マーカー順・大きさ） : {name}', ok)
+    src, sname = (fig, '解説図') if '_zu' in name else (fix, '添削') if 'machigai' in name else (form, '登記申請書')
+    check('プロンプトにファイル名', f'zu/{name}.png', src, sname)
+extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for n, _, _ in PNGS})
+judge(f'zu/ に記事で使わないPNGがない : {extra}', not extra)
+# 穴埋めの答えの語を会話の中で言っているか
+for s in ['（ア）は280.59です', '（イ）は2.32㎡よ', 'だから（ウ）は『超えています』',
+          '（エ）は登記原因の『錯誤』、（オ）は『土地の地積の更正』、（カ）は『必要があります』です！',
+          '答案の第2欄は、アが280.59、イが2.32、ウが『超えています』、エが『錯誤』、オが『土地の地積の更正』、カが『必要があります』ですね']:
+    check('穴埋めの答えの語（会話）', s)
+h_ = open(os.path.join(ZU, 'R7_dai21mon_dai2ran_kansei.html'), encoding='utf-8').read()
+for n in ['第2欄', '>ア<', '>カ<', '280.59', '2.32', '超えています', '錯誤', '土地の地積の更正', '必要があります']:
+    check('R7_dai21mon_dai2ran_kansei.html', n, h_, '欄の完成形HTML')
+check('欄の完成形プロンプト', 'ア「280.59」、イ「2.32」、ウ「超えています」、エ「錯誤」、オ「土地の地積の更正」、カ「必要があります」', form, '登記申請書')
 
 print('NG件数:', ng)

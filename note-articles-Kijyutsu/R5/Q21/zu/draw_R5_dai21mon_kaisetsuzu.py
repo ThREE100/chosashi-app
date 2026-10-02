@@ -1,4 +1,4 @@
-"""令和5年度 第21問（土地）会話形式note記事の解説図8枚を、座標値から作図する。
+"""令和5年度 第21問（土地）会話形式note記事の解説図10枚を、座標値から作図する。
 
 `../prompt_R5_dai21mon_kaiwa_kaisetsuzu.md`（基本フォーム `../../../prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作成）
 の指示を、そのままPythonにしたもの。図に書く数値はすべて座標から計算し直し、記事の数値と一致しなければ止まる。
@@ -343,5 +343,77 @@ fig.text(0.5, 0.10, '第39条第2項（1筆の一部が別の地目・別の地�
 path = os.path.join(OUT, 'R5_dai21mon_zu08_shokken_bungouhitsu.png')
 fig.savefig(path, dpi=100, facecolor='white')
 print('[重なり検査] 図8: 流れ図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図9：問2 B点の別解（CGから西へ1.00mの点 C − 1i を通る南北の線とACの交点）
+# 2026-10-02追加（予備校の解説と見比べて記事に足した別解の図）
+# =====================================================================
+M1 = C - 1j                                            # CGから西へ1.00mの点
+assert abs(M1 - P(702.79, 702.62)) < 1e-9
+assert r2(A + (C - A) * (M1.imag - A.imag) / (C.imag - A.imag)) == B
+fig, (ax,) = new_figure('図9　問2　B点の別解（CGから西へ1.00mの点を作って、ACとの交点を出す）',
+                        'CGは真北向きなので、CGから西へ直角に1.00m離れた点は C − 1i ＝（702.79, 702.62）。この点を通る南北の線（Y＝702.62）と直線ACの交点がB。\n'
+                        '結果は本解（B ＝ A ＋ (C − A) × 9.86 ÷ 10.86）と同じ（702.67, 702.62）。線が南北なら、Y座標の差の比で進むほうがキーが少ない。')
+z = Zu(ax, fontsize=14)
+Q1 = A + (C - A) * 0.55                                # 直線ACの途中（ここから西はAへ続く）
+S1, S2 = P(700.6, C.imag), P(700.6, M1.imag)          # CGとBHの線を南へ伸ばした端
+fit(ax, [Q1, C, M1, S1, S2], margin=0.16, pad_aspect=True)
+z.line(Q1, C, lw=2.4)
+z.line(C, S1, lw=2.4)
+z.line(M1, S2, color=RED, lw=2.0, ls='--')
+z.dim_line(M1, C, color=RED)
+z.north_arrow(length=0.08)
+z.point(C, 'metal')
+z.point_label(C, 'C', away=C + P(-3, -3))
+z.point(M1, 'dot', color=RED)
+z.point(B, 'dot', color=RED)
+z.callout(M1, 'C − 1i ＝（702.79, 702.62）\nCGから西へ直角に1.00m', dirs=(70, 50, 90, 110), color=RED, dists=(70, 95, 120))
+z.callout(B, 'B（702.67, 702.62）\n直線ACとY＝702.62の交点', dirs=(-140, -120, -160, 160), color=RED, dists=(90, 115, 140))
+z.free_text((M1 + C) / 2, '1.00', fs=15, color=RED, offsets=((0, -20), (0, -28), (0, 20)))
+z.free_text(P(701.3, C.imag), 'CG（Y＝703.62）', fs=14, offsets=((70, 0), (80, 0)))
+z.free_text(P(701.3, M1.imag), 'BHの線（Y＝702.62）', fs=14, color=RED, offsets=((-85, 0), (-95, 0)))
+z.free_text((Q1 + B) / 2, '直線AC（北の筆界。西のAへ続く）', fs=14, offsets=((0, 24), (0, 34), (0, -24)))
+ALL_PROBLEMS += save(fig, [z], 'R5_dai21mon_zu09_B_betsukai.png')
+
+# =====================================================================
+# 図10：本番で解く順番（いちばん重い問3の作図を最後に）
+# 2026-10-02追加
+# =====================================================================
+fig = plt.figure(figsize=(16, 8), dpi=100)
+fig.patch.set_facecolor('white')
+fig.suptitle('図10　本番で解く順番　問3の作図は最後に回す', fontsize=24, weight='bold', y=0.965)
+ax = fig.add_axes([0.03, 0.20, 0.94, 0.70])
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 100)
+ax.axis('off')
+STEPS = [
+    ('1', '問5と問1のア・イ\n（条文と定義）', '第5欄・第1欄', BLUE),
+    ('2', '問1のウ・エ\n（X座標の引き算と\n辺長の足し算）', '第1欄', BLUE),
+    ('3', '問2のB点・H点と\n辺長8本', '第2欄', BLUE),
+    ('4', '問4の申請書\n（台形と問題文の注9）', '第4欄', GREEN),
+    ('5', '問3の作図\n（点を落として線を引く）', '第3欄', RED),
+]
+w, h, gap = 17.6, 44, 2.5
+for i, (no, t, ran, col) in enumerate(STEPS):
+    x = 1 + i * (w + gap)
+    ax.add_patch(FancyBboxPatch((x, 22), w, h, boxstyle='round,pad=0.4', facecolor=col, alpha=0.14, edgecolor=col,
+                                lw=2))
+    ax.text(x + w / 2, 22 + h - 3, no, ha='center', va='top', fontsize=26, color=col, weight='bold')
+    ax.text(x + w / 2, 22 + h / 2 - 4, t, ha='center', va='center', fontsize=16, linespacing=1.55)
+    ax.text(x + w / 2, 17, ran, ha='center', va='top', fontsize=15, color=col, weight='bold')
+    if i < len(STEPS) - 1:
+        ax.annotate('', xy=(x + w + gap - 0.3, 44), xytext=(x + w + 0.3, 44),
+                    arrowprops=dict(arrowstyle='-|>', lw=1.6, color=GRAY))
+ax.text(1 + 1.5 * (w + gap) - gap / 2, 78, '電卓はB点と斜めの辺（AB・BC・FJ）だけ', ha='center', fontsize=15, color=BLUE,
+        weight='bold')
+ax.annotate('', xy=(1 + 3 * (w + gap) - gap, 74), xytext=(1, 74), arrowprops=dict(arrowstyle='<->', lw=1.5, color=BLUE))
+ax.text(1 + 3 * (w + gap) + w / 2, 78, '地積測量図がなくても書ける', ha='center', fontsize=15, color=GREEN, weight='bold')
+ax.text(1 + 4 * (w + gap) + w / 2, 78, 'いちばん重い', ha='center', fontsize=15, color=RED, weight='bold')
+fig.text(0.5, 0.09, '問4の地積は、斜線部分22.09・細長い部分3.5295を台形で出し、1番1は 335.5096500 ＋ 22.09 ＝ 357.59965 → 357.59（問題文の注9）。\n'
+         '作図に手間取っても、座標・穴埋め・申請書は取りこぼさない順番にする。',
+         ha='center', va='center', fontsize=15)
+path = os.path.join(OUT, 'R5_dai21mon_zu10_toku_junban.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図10: 解く順番（固定配置）\n  →', path)
 
 print('重なりの合計:', len(ALL_PROBLEMS))

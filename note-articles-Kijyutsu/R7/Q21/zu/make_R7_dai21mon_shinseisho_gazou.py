@@ -3,6 +3,8 @@
 - 完成形：`../prompt_R7_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ）どおり。縦長（横1200px）。
   答案用紙のとおり、土地の表示の記入行2〜5の③地積は4行を結合したセルで、印刷の「（略）」が入る
 - 添削　：`../prompt_R7_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第2欄（問2のア〜カ）：申請書でない解答欄も、試験の答案用紙（`public/kijutsu/R07-tochi/a1.png`）の第2欄の形
+  （「ア｜イ」「ウ｜エ」「オ｜カ」の3行）で別の画像にする（横1200pxの横長。2026-10-02追加）
 
 見本は `R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`（CSSと部品を同じ形にしている）。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
@@ -151,11 +153,31 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">令和7年度 第21問｜申請人の住所は、申請の日の登記記録の住所</div>''')
 
+# ---- 第2欄（申請書でない解答欄。2026-10-02追加） ----
+RAN_CSS = '''
+.ranpage { padding: 50px 60px 34px; }
+.ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 14px; }
+table.ran { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }
+table.ran td { border: 1.5px solid #111; height: 84px; font-size: 22px; vertical-align: middle; }
+table.ran td.k { text-align: center; }
+table.ran td.v { padding-left: 22px; }
+table.ran td.v .ink { font-size: 28px; }
+'''
+DAI2 = [('ア', '280.59'), ('イ', '2.32'), ('ウ', '超えています'), ('エ', '錯誤'), ('オ', '土地の地積の更正'),
+        ('カ', '必要があります')]
+trs = ''.join('<tr>' + ''.join(f'<td class="k">{k}</td><td class="v">{ink(v)}</td>' for k, v in DAI2[i:i + 2]) + '</tr>'
+              for i in range(0, len(DAI2), 2))
+dai2 = (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{RAN_CSS}</style></head><body>'
+        f'<div class="ranpage"><div class="ranhead">第2欄</div><table class="ran"><colgroup><col style="width:9%">'
+        f'<col style="width:41%"><col style="width:9%"><col style="width:41%"></colgroup>{trs}</table>'
+        f'<div class="caption">令和7年度 土地家屋調査士試験 第21問 第2欄（問2）解答例</div></div></body></html>')
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
-    pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('R7_dai21mon_toukishinseisho_kansei', kansei), ('R7_dai21mon_toukishinseisho_machigai', machigai)]:
+    pg = browser.new_page(viewport={'width': 1200, 'height': 200})
+    for name, html in [('R7_dai21mon_dai2ran_kansei', dai2), ('R7_dai21mon_toukishinseisho_kansei', kansei),
+                       ('R7_dai21mon_toukishinseisho_machigai', machigai)]:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
         pg.set_content(html)
@@ -163,5 +185,5 @@ with sync_playwright() as p:
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長'))
     browser.close()
