@@ -12,9 +12,55 @@
     - 「表示：」の行の一覧（値の照合は calc_helpers.py で行う）
     - 「…」の付いていない4桁小数の表示値（切り捨て・「…」付け忘れの候補）
     - 電卓操作のコードブロックで、[ALPHA] の後に使われている変数の一覧（変数の割り当てと照合する）
+    - 会話形式の長すぎるセリフ（2026-10-02追加）：noteの本文の1行を全角44字（半角は0.5字）とみなし、
+      260字（約6行。目安は5行＝220字）を超える段落と、3段落を超える1つのセリフを違反として出す
+      （執筆プロンプトの「セリフの長さ」。セリフの続きの段落は空行のあとに話者名なしで続き、最後の段落が」で閉じる）
 """
 import re
 import sys
+import unicodedata
+
+LINE_W = 44          # noteの本文の1行（全角の字数）
+TARGET = LINE_W * 5  # 1段落の目安（5行＝220字）
+MAX_PARA = 260       # 1段落の上限（ユーザーの見本の長いほうの段落）
+MAX_PARAS = 3        # 1つのセリフの段落の数の上限
+
+
+def width(s):
+    """全角を1、半角を0.5として数える。"""
+    return sum(0.5 if unicodedata.east_asian_width(c) in ('H', 'Na', 'N') else 1 for c in s)
+
+
+def long_lines(lines):
+    """話者名の行（**トリ先生**  ／**藍子**  ）に続くセリフを段落ごとに調べ、長すぎるものを (行番号, 内容) で返す。
+    セリフは「で始まり、」で終わる段落まで（途中の段落は空行で区切られ、話者名がない）。"""
+    out = []
+    for i, line in enumerate(lines):
+        if line.rstrip() not in ('**トリ先生**', '**藍子**') or i + 1 >= len(lines) or not lines[i + 1].startswith('「'):
+            continue
+        paras, cur, j = [], [], i + 1
+        while j < len(lines):
+            t = lines[j].rstrip()
+            if not cur and j > i + 1 and t.startswith(('**', '> ', '#', '---', '- ', '```')):
+                break                          # 」で閉じないまま次の要素が来たら、そこで打ち切る
+            if t.strip():
+                cur.append((j, t))
+            elif cur:
+                paras.append(cur)
+                if cur[-1][1].endswith('」'):
+                    cur = []
+                    break
+                cur = []
+            j += 1
+        if cur:
+            paras.append(cur)
+        for p in paras:
+            w = width(''.join(t for _, t in p))
+            if w > MAX_PARA:
+                out.append((p[0][0] + 1, f'1段落が約{w / LINE_W:.1f}行（全角換算{w:g}字。目安{TARGET}字・上限{MAX_PARA}字）'))
+        if len(paras) > MAX_PARAS:
+            out.append((i + 2, f'1つのセリフが{len(paras)}段落（上限{MAX_PARAS}段落）'))
+    return out
 
 EMOJI = re.compile('[\U0001F300-\U0001FAFF☀-➿]')
 
@@ -40,6 +86,8 @@ def lint(path):
             problems.append(f'{i}: LaTeXらしき記法があります')
         if EMOJI.search(line):
             problems.append(f'{i}: 絵文字があります')
+    for n, msg in long_lines(lines):
+        problems.append(f'{n}: セリフが長すぎます（{msg}）。相手の短い受け答えをはさむ・箇条書きに出す・「。」の後ろで改行する')
     n_shiki = text.count('式（点名）')
     n_dentaku = len(re.findall(r'^電卓操作', text, re.M))
     print(f'== {path}')
