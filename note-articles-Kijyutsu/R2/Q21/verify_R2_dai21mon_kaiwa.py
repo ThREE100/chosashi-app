@@ -320,10 +320,55 @@ for name, needles in [('R2_dai21mon_dai1ran_kansei', ['第1欄', 'Ｂ点', 'Ｇ�
     for n_ in needles:
         check(f'{name}.html', n_, h_, '解答欄の画像')
 for s_ in ['「Ｂ点」「25.18」「5.48」', '「Ｇ点」「14.34」「12.64」', '「Ｈ点」「23.34」「3.64」',
-           '「ア」「不動産」「イ」「登記名義人」／「ウ」「書面」「エ」「合筆」／「オ」「合併」', '仮のもの']:
+           '上から「ア」「不動産」／「イ」「登記名義人」／「ウ」「書面」／「エ」「合筆」／「オ」「合併」',
+           '試験の答案用紙（`touan_youshi/R2_dai21mon_touan_youshi.pdf` の1ページ目）で確かめた形']:
     check('解答欄の画像のプロンプト', s_, form, '登記申請書')
 check('作図の図の番号（図3が対角線の別解）', "'図3　問1　四角形の面積を対角線で出す別解", draw, '作図')
 bare_p = [m.group(0) for m in re.finditer(r'(?<!問題文の)注[0-9]', fig.split('## 差し替えデータ')[-1])]
 judge(f'解説図プロンプトの差し替えデータの注も書き分けている（{bare_p}）', not bare_p)
+
+
+# ---- 2026-10-02 追加：試験の答案用紙（実物、touan_youshi/）と欄の形を照らす ----
+import pymupdf  # noqa: E402
+TY = os.path.join(HERE, 'touan_youshi', 'R2_dai21mon_touan_youshi.pdf')
+doc = pymupdf.open(TY)
+judge(f'答案用紙は2ページ（{doc.page_count}）', doc.page_count == 2)
+nz = lambda t: re.sub(r'[\s　]', '', t)  # noqa: E731
+t1, t2 = nz(doc[0].get_text()), nz(doc[1].get_text())
+for s_ in ['第1欄', 'Ｘ座標（m）', 'Ｙ座標（m）', 'Ｂ点', 'Ｇ点', 'Ｈ点', '登記申請書', '登記の目的', '添付書類', '登録免許税',
+           '申請人', '代理人', '（略）', '令和2年10月18日申請Ａ地方法務局', '第2欄', '所在', '土地の表示', '①地番', '②地目',
+           '③地積', '登記原因及びその日付', '第3欄', 'アイウエオ']:
+    check('答案用紙1ページ目の印刷', s_, t1, '答案用紙')
+for s_ in ['第4欄', '地番', '地積測量図', '土地の所在', '作成者', '（略）（令和2年○月○日作成）', '申請人（略）', '縮尺1250']:
+    check('答案用紙2ページ目の印刷', s_, t2, '答案用紙')
+# 欄の順序（1ページ目）：目的→添付書類→登録免許税→申請人→代理人→（略）→申請の日付
+o1 = [t1.index(x) for x in ['登記の目的', '添付書類', '登録免許税', '申請人', '代理人', '（略）', '令和2年10月18日']]
+judge('答案用紙の申請書の欄の順序（目的→添付書類→登録免許税→申請人→代理人（略）→申請日）', o1 == sorted(o1))
+judge('答案用紙の第3欄の記号は ア〜オ の5つ（縦に1組ずつ）', 'アイウエオ' in t1 and 'カ' not in t1.split('第3欄')[-1])
+judge('答案用紙の欄名は「添付書類」（「添付情報」ではない）', '添付情報' not in t1)
+judge('答案用紙の第4欄に方位記号の印刷はない（N・北の文字なし）', 'Ｎ' not in t2 and 'N' not in t2 and '北' not in t2)
+# 画像（HTML）が答案用紙の形どおりか
+h1 = open(os.path.join(ZU, 'R2_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
+h3 = open(os.path.join(ZU, 'R2_dai21mon_dai3ran_kansei.html'), encoding='utf-8').read()
+check('第1欄の見出し（答案用紙どおり）', 'Ｘ座標（m）', h1, '解答欄の画像')
+check('第1欄の見出し（答案用紙どおり）', 'Ｙ座標（m）', h1, '解答欄の画像')
+check('第1欄の左上の斜線のセル', 'class="head diag"', h1, '解答欄の画像')
+judge('第1欄の点名の行は Ｂ点→Ｇ点→Ｈ点 の順', h1.index('Ｂ点') < h1.index('Ｇ点') < h1.index('Ｈ点'))
+rows3 = re.findall(r'<tr><td>([アイウエオ])</td><td class="ans">', h3)
+judge(f'第3欄の画像は答案用紙どおり ア〜オ を1組ずつ縦に5行（{rows3}）', rows3 == list('アイウエオ'))
+n_land_k = html_k.count('<td class="cause">')
+n_land_m = html_m.count('<td class="cause">')
+judge(f'完成形の土地の表示は記入行6行（{n_land_k}）', n_land_k == 6)
+judge(f'添削の土地の表示も答案用紙どおり記入行6行×3コマ（{n_land_m}）', n_land_m == 18)
+check('完成形の代理人の行の（略）', '<div class="ryaku">（略）</div>', html_k, '完成形画像')
+judge('完成形の申請書に「添付情報」の欄名がない', '添付情報' not in html_k)
+check('記事：第4欄の印刷済みのもの', '- **答案用紙に印刷済み**：縮尺「1／250」、作成者・申請人の欄の「（略）」。方位記号は印刷されていないので自分で描く')
+check('図8の説明文：第4欄の印刷', '答案用紙の第4欄には縮尺1/250と作成者・申請人の（略）が印刷済み。方位記号は印刷されていないので描く。', draw, '作図')
+check('解説図プロンプト：第4欄の印刷', '答案用紙の第4欄には縮尺1/250と作成者・申請人の（略）が印刷済み。方位記号は印刷されていないので描く。', fig, '解説図')
+make = open(os.path.join(ZU, 'make_R2_dai21mon_shinseisho_gazou.py'), encoding='utf-8').read()
+for name_, src_ in [('記事', text), ('解説図プロンプト', fig), ('申請書プロンプト', form), ('添削プロンプト', fix),
+                    ('見出し画像プロンプト', thumb), ('作図スクリプト', draw), ('画像スクリプト', make)]:
+    for bad in ['仮のもの', '仮の形', 'リポジトリにない', '試験の答案用紙で確かめたら直す']:
+        absent(f'「仮」の記述が残っていない（{name_}）', bad, src_, name_)
 
 print('NG件数:', ng)

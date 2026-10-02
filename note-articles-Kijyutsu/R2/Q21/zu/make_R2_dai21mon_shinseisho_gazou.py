@@ -3,10 +3,13 @@
 - 完成形：`../prompt_R2_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ）どおり。縦長（横1200px）。
   R2の答案用紙のとおり、項目の順序は 登記の目的 → 添付書類 → 登録免許税 → 申請人 → 代理人 → 申請の日付と提出先。
   土地の表示は記入行6行で、③地積はすべての行で点線により整数部・小数部に分け、「（略）」の印刷はない
+  （2026-10-02、試験の答案用紙〈`../touan_youshi/`〉の第2欄と照らして確かめた。代理人の行の「（略）」と、
+  その下の「令和２年10月18日　申請　Ａ地方法務局」は印刷）
 - 添削　：`../prompt_R2_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第1欄（問1のB点・G点・H点）・第3欄（問3のア〜オ）：申請書でない解答欄も、別の画像にする（横1200pxの横長。2026-10-02追加）。
-  試験の答案用紙そのものはリポジトリにないので、欄の見出しと記号・記入欄だけの簡素な形（令和6年度の答案用紙の第1欄・第2欄の
-  形にならった仮のもの）にしている
+  欄の形は試験の答案用紙（`../touan_youshi/R2_dai21mon_touan_youshi.pdf`）で確かめた形：第1欄は左上が斜線のセルと
+  「Ｘ座標（m）」「Ｙ座標（m）」の見出し、Ｂ点・Ｇ点・Ｈ点の3行（3列とも同じ幅）。第3欄はア〜オの記号と記入欄を1組ずつ縦に5行
+- 添削の「土地の表示」欄も、答案用紙どおり記入行6行（6行目は空欄）にする
 - 完成形の表の下に、相続証明書の今の扱い（法定相続情報番号）の注を入れる（2026-10-02追加。記事の本文の注と同じ文言）
 
 見本は `R6/Q21/zu/`・`R7/Q21/zu/` の生成スクリプト（CSSと部品を同じ形にしている）。
@@ -151,12 +154,12 @@ kansei = page(f'''<div class="page">
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ） ----
 FIXCSS = ('<style>.redfix { color: ' + RED + '; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; '
           'font-size: 24px; margin-left: 8px; }</style>')
-ng = land_table(rows('107', '68', '156', '53'), n_rows=5, shozai=ink('Ａ市Ｂ町一丁目'))
+ng = land_table(rows('107', '68', '156', '53'), shozai=ink('Ａ市Ｂ町一丁目'))
 fix = land_table(rows('107', '', '156', '',
                       red={'i': '<span class="ink strike">68</span><span class="redfix">73</span>',
                            'g': '<span class="ink strike">53</span><span class="redfix">12</span>'}),
-                 n_rows=5, shozai=ink('Ａ市Ｂ町一丁目'))
-ok = land_table(rows('107', '73', '156', '12'), n_rows=5, shozai=ink('Ａ市Ｂ町一丁目'))
+                 shozai=ink('Ａ市Ｂ町一丁目'))
+ok = land_table(rows('107', '73', '156', '12'), shozai=ink('Ａ市Ｂ町一丁目'))
 machigai = page(FIXCSS + f'''
 <div class="panel"><div class="ptitle ng">①誤答</div>{ng}</div>
 <div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix}
@@ -174,6 +177,7 @@ RAN_CSS = (
     'table.rz { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }'
     'table.rz td { border: 1.5px solid #111; height: 84px; font-size: 22px; text-align: center; vertical-align: middle; }'
     'table.rz td.head { height: 60px; font-size: 21px; }'
+    'table.rz td.ans { text-align: left; padding-left: 28px; }'
     'table.rz td.diag { background: linear-gradient(to top right, transparent calc(50% - 1px), #111 50%, transparent calc(50% + 1px)); }'
     f'.ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; }}'
     '.cap { text-align: center; font-size: 17px; color: #555; margin-top: 22px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }')
@@ -187,22 +191,16 @@ def ran_page(title, table, caption):
 def zahyou_table(rows_):
     """座標の欄。rows_: [(点名, X, Y)]"""
     trs = ''.join(f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows_)
-    return ('<table class="rz"><colgroup><col style="width:30%"><col style="width:35%"><col style="width:35%"></colgroup>'
-            '<tr><td class="head diag"></td><td class="head">Ｘ座標（ｍ）</td><td class="head">Ｙ座標（ｍ）</td></tr>'
+    return ('<table class="rz"><colgroup><col style="width:33.3%"><col style="width:33.3%"><col style="width:33.4%"></colgroup>'
+            '<tr><td class="head diag"></td><td class="head">Ｘ座標（m）</td><td class="head">Ｙ座標（m）</td></tr>'
             f'{trs}</table>')
 
 
 def anaume_table(items):
-    """穴埋めの欄。記号と記入欄を2組ずつ横に並べる。items: [(記号, 答え)]"""
-    trs = ''
-    for k in range(0, len(items), 2):
-        pair = items[k:k + 2]
-        tds = ''.join(f'<td>{m}</td><td>{ink(a)}</td>' for m, a in pair)
-        if len(pair) == 1:
-            tds += '<td></td><td></td>'
-        trs += f'<tr>{tds}</tr>'
-    return ('<table class="rz"><colgroup><col style="width:8%"><col style="width:42%"><col style="width:8%">'
-            f'<col style="width:42%"></colgroup>{trs}</table>')
+    """穴埋めの欄。答案用紙の第3欄のとおり、記号と記入欄を1組ずつ縦に並べる（ア〜オの5行）。items: [(記号, 答え)]"""
+    trs = ''.join(f'<tr><td>{m}</td><td class="ans">{ink(a)}</td></tr>' for m, a in items)
+    return ('<table class="rz"><colgroup><col style="width:15%"><col style="width:85%"></colgroup>'
+            f'{trs}</table>')
 
 
 DAI1 = [('Ｂ点', '25.18', '5.48'), ('Ｇ点', '14.34', '12.64'), ('Ｈ点', '23.34', '3.64')]
