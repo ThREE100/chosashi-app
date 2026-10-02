@@ -99,6 +99,7 @@ Dは、Aから筆界特定1について正式に代理する事務を受任し�
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和6年度第20問・令和7年度第20問（本シリーズで既に note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md、note-articles/r7-mondai/q20-chousashihou.md として執筆済み）はいずれも「土地家屋調査士又は土地家屋調査士法人」という同じ法律をテーマとしていますが、具体的な出題内容（令和6年度：業務の依頼拒否・秘密保持・補助者への測量業務・法人設立要件、令和7年度：定款変更届出・補助者廃止届出・複数事務所設置・社員の当然脱退・登録取消事由）は、本問（筆界特定手続における代理・書類作成受任の利益相反、22条の2の業務制限）とは異なります。重複はありません。
 - **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：土地家屋調査士法22条の2（業務を行い得ない事件）・36条の3（特定の事件についての業務の制限）・37条（社員の競業の禁止）の現行条文構造を確認しました。令和2年（2020年）8月1日施行の同法改正は懲戒権者の変更（法務局長等→法務大臣）や清算結了後の法人への懲戒手続に関するものであり、本問が扱う業務制限（代理・書類作成の受任制限、競業禁止）そのものへの実体的な変更ではないため、本問の内容への影響はありません。
 - **適用法令の現行性チェック（2026-10-01実施）**：`note-articles/laws/chousashi-hou.md`（2026-08-04取得。e-Govの現行版で、デジタル社会形成基本法等の一部改正による2026-05-21施行分まで反映）で、土地家屋調査士法3条1項・22条の2第2項・36条の3第1項・37条1項を条文原文で確認しました。本文の条文番号・用語・要件は現行法と整合しており、本文の変更はありません（正誤判定も変わりません）。取得日（2026-08-04）以降に施行された改正の有無は、e-Govで再確認していません。補足は次の3点です。（1）同意で受任できる例外は、個人の調査士は22条の2第2項3号と7号、調査士法人は36条の3第1項3号だけです。イ（37条1項の競業禁止）・ウ（22条の2第2項4号）・エ（36条の3第1項2号）・オ（同項4号）は、いずれもただし書の対象外で、同意があっても受任できません。（2）導入文・まとめの末尾・②のタイトルは、当初「代理か書類作成かで、同意による例外が使えるかどうかが変わる」という言い回し（3号かっこ書〈3条1項5号の書類作成として受任している事件は3号の対象から除かれる〉に由来する簡略化）でしたが、ウ・エ・オの結論（同意があっても受任できない）は代理か書類作成かでは変わらないため、2026-10-01に「同意で受任できる例外は限られる」という整理に改めました（図解も本文と揃えています）。（3）図解の整合の面では、②のカード4（エ）が本文の要件「協議の程度及び方法が信頼関係に基づくと認められるもの」を落とさないよう、見出し・結論タグ・図解に「信頼関係」を入れました。⑤のパネル1では、問題文に登場しない人物（丁土地の名義人）を描かせないようにし、パネル4では「正式な受任がない」ことを、取消しの✕ではなく薄い点線の矢印で表しました。⑤の共有決定木は、法人自身の枝のひし形を「どの号に該当するか」という条文を問うメタな問いから、法人側が相手方から先に何を受けているかを問う事実の問いに改めました。
+- **⑤作図ガイドの構成変更（2026-10-02実施）**：ア〜オの各パネルに同じ決定木のミニチュアを入れる構成をやめ、①ヘッダー直下に共有フローチャートを1枚だけ大きく描き（ひし形4つ・結論5つ。ア〜オの記号付きの結論ボックスを全部同時にフルカラーで表示）、②その下にア〜オの5枚の解説カード（見出し・「道すじ」の文字帯・系統図・着眼点・結論タグ）を並べる構成に作り直しました。カードの着眼点・結論タグ・系統図の描写は従来のままで、本文との整合も変わりません。画像は作り直しが必要です（縦長1080×4200）。
 
 ---
 
@@ -257,64 +258,79 @@ takeaway must read as a short heading + a short conclusion tag, at a glance — 
 ## インフォグラフィック プロンプト（作図ガイド）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x4200 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article, but
-built as a set of 5 diagram-drawing panels (a "how to sketch this fact
-pattern, in the right order" study reference) rather than a
-quick-reference conclusion poster.
+built as a "how to sketch this fact pattern, in the right order" study
+reference with TWO ZONES in this fixed top-to-bottom order: ZONE 1 is ONE
+large decision flowchart shared by all five 肢 (drawn exactly once, at
+the top, right under the header), and ZONE 2 is a column of five
+explanation cards (ア〜オ) placed below it. The flowchart must NOT be
+repeated or re-drawn in miniature inside any card.
 
-DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
-reader exactly what relationship diagram they should draw on scratch
-paper while reading this type of事例問題, AND the order in which they
-should check conditions to get there — a relay of labelled arrows
-connecting the people A・B・C・D・E and the two matters 筆界特定1 and
-筆界特定2, a raised hand-shake / 同意 speech-bubble stamp for consent, a
-small office-building icon for the調査士法人D with a person icon E
-inside it, and a red ✕ icon for a blocked competing-business (37条) or
-blocked-consent situation. Where a 肢 requires checking multiple
-conditions in sequence before reaching a conclusion, draw the panel's
-diagram as an actual decision flowchart: diamond-shaped branch nodes with
-the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
-conclusion node. Where a panel reuses a decision tree shared with other
-panels in this set, render the branch relevant to THIS panel with a
-thick highlighted border and full color, and render the other,
-unrelated branches in a faded, greyed-out, or dotted-outline style
-rather than omitting them — the reader should be able to see at a
-glance which part of the shared tree this panel is about. Unlike a
-glanceable summary poster, each panel MAY include a short「着眼点」
-callout box with 1-2 sentences that state the checking ORDER in words
-(e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do
-not include case or precedent numbers (article/regulation numbers are
-fine); keep the callout text as written below verbatim, and keep every
+DIAGRAM-GUIDE REQUIREMENT (critical): The purpose of this image is to
+show the reader (1) the single decision flowchart they should run in
+their head for every 肢 of this type of事例問題, and (2) for each 肢, the
+relationship diagram they should draw on scratch paper and the order in
+which they should check conditions. In ZONE 2, each card's relationship
+diagram (系統図) is a relay of labelled arrows connecting the people
+A・B・C・D・E and the two matters 筆界特定1 and 筆界特定2, with a raised
+hand-shake / 同意 speech-bubble stamp for consent, a small office-building
+icon for the調査士法人D with a person icon E inside it, and a red ✕ icon
+for a blocked competing-business (37条) or blocked-consent situation.
+Do not include case or precedent numbers (article/regulation numbers are
+fine); keep every callout text as written below verbatim, and keep every
 condition each callout describes faithful to the article's own body
-text — do not drop or merge a required element. All five panels share
-one three-level decision tree. The first diamond asks 新たに受任しよう
-としている者は個人の調査士か、調査士法人自身か. Its 個人 branch leads
-to a second diamond asking その個人は法人の業務範囲に属する仕事を自己
-または第三者のために行おうとしているか(競業か): a はい leaf concludes
-37条1項の競業禁止、同意があっても不可 (highlighted in panel 2, イ); a
-いいえ leaf leads to a third diamond asking 受任しようとする事件は自ら
-が関与した事件そのものか、それとも無関係な別の事件か, whose 無関係な別
-の事件 leaf concludes 22条の2第2項3号、同意があれば受任できる
-(highlighted in panel 1, ア) and whose 自ら関与した事件そのもの leaf
-concludes 22条の2第2項4号、同意があっても不可（脱退後も同じ）
-(highlighted in panel 3, ウ). The root's 法人自身 branch leads to a
-second diamond asking 法人側は、相手方のAから先に何を受けているか (a
-two-way question, so label the two outgoing branches instead of Yes/No),
-whose 相手方から協議を受け信頼関係が認められる事件 leaf concludes 36条
-の3第1項2号、同意があっても不可 (highlighted in panel 4, エ) and whose
-使用人が相手方から受任している事件 leaf concludes 36条の3第1項4号、同意
-があっても不可 (highlighted in panel 5, オ). Draw only these five
-leaves; do NOT add any other leaf and do NOT write any article or item
-number other than those given. Every panel must render this full
-five-leaf tree in miniature at the bottom of the panel with its own leaf
-highlighted in a thick colored border and the other four leaves rendered
-faded/greyed-out rather than omitted, alongside a larger relationship
-diagram (系統図) specific to that panel showing which of A・B・C・D・E is
-asking to represent or file documents for whom, and for which 事件
-(筆界特定1 or 筆界特定2).
+text — do not drop or merge a required element.
+
+ZONE 1 — THE LARGE SHARED FLOWCHART (draw it first, big, occupying about
+the top 1450 pixels below the header, with generous spacing, large
+readable text, and no overlapping arrows). Draw a decision tree with four
+diamond-shaped branch nodes and exactly five leaf boxes:
+- ROOT diamond (top center): 新たに受任しようとしている者は個人の調査士
+か、調査士法人自身か. Two outgoing branches labelled 個人の調査士 (to the
+left) and 調査士法人自身 (to the right).
+- LEFT side, second diamond: その個人は法人の業務範囲に属する仕事を自己
+または第三者のために行おうとしているか(競業か). Outgoing branches: はい
+leads to leaf イ; いいえ leads to the third diamond.
+- LEFT side, third diamond: 受任しようとする事件は自らが関与した事件そ
+のものか、それとも無関係な別の事件か (a two-way question, so label the
+two outgoing branches 自ら関与した事件そのもの and 無関係な別の事件
+instead of Yes/No). 無関係な別の事件 leads to leaf ア; 自ら関与した事件
+そのもの leads to leaf ウ.
+- RIGHT side, second diamond: 法人側は、相手方のAから先に何を受けている
+か (a two-way question, so label the two outgoing branches 相手方から協
+議を受け信頼関係が認められる事件 and 使用人が相手方から受任している事
+件 instead of Yes/No). The first leads to leaf エ; the second leads to
+leaf オ.
+- The five leaves, each a rounded box carrying a filled circle badge with
+the kana in it (ア, イ, ウ, エ, オ) so the reader can match it to the
+card below, and the conclusion text exactly as follows:
+  leaf ア (green box): 22条の2第2項3号、同意があれば受任できる
+  leaf イ (red-orange box): 37条1項の競業禁止、同意があっても不可
+  leaf ウ (red-orange box): 22条の2第2項4号、同意があっても不可（脱退後も同じ）
+  leaf エ (red-orange box): 36条の3第1項2号、同意があっても不可
+  leaf オ (red-orange box): 36条の3第1項4号、同意があっても不可
+Draw only these five leaves; do NOT add any other leaf, do NOT add any
+other diamond, and do NOT write any article or item number other than
+those given. Every arrow must have a clear arrowhead, every diamond
+must show both of its outgoing branches with labels, and no two arrows
+may cross or overlap. In this ZONE 1 flowchart ALL five leaves are shown
+in full color at the same time (no fading) — this is the overview, and
+the individual 肢 are picked out by the cards in ZONE 2. Put a small
+caption just under the flowchart, verbatim:
+下の各カードのア〜オは、このフローチャートの同じ記号の結論にたどり着く道すじです。
+
+ZONE 2 — FIVE EXPLANATION CARDS (below the flowchart, stacked
+vertically, same width, each about 520 pixels tall). Each card contains,
+top to bottom: the badge + heading line; a small "道すじ" strip showing
+that 肢's route through the flowchart as a one-line chain of small
+rounded text pills joined by right-pointing arrows (text given below;
+this is a plain text chain, NOT a miniature copy of the flowchart); the
+card-specific relationship diagram (系統図); the 着眼点 callout; and the
+conclusion tag. Use the same badge kana (ア〜オ) and the same leaf color
+as in ZONE 1 so each card visibly matches its leaf.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -350,13 +366,19 @@ Title (large, bold, 2行):
 Subtitle (smaller, centered, 1行):
 平成23年度午後第20問 作図ガイド（土地家屋調査士法の業務制限）
 
-（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
-ブロックは置かない。）
+（タイトル・サブタイトルのすぐ下に、ZONE 1のフローチャートを置く。導入イラス
+ト・導入文のブロックは置かない。）
 
---- PANEL 1（ア） ---
-Badge: a filled circle in green containing the number 1.
+--- ZONE 1: FLOWCHART ---
+(Draw the large shared flowchart exactly as specified above, then the
+caption line.)
+
+--- CARD ア ---
+Badge: a filled circle in green containing the kana ア.
 Heading (bold, ONE line):
 別の無関係事件なら同意で受任できる
+道すじ strip (text pills, left to right):
+個人の調査士 → 競業にあたらない → 無関係な別の事件 → 同意があれば受任できる
 Diagram: A relationship diagram (系統図): A(甲土地の名義人) and C(個人の
 調査士) connected by a solid 代理 arrow from A to C labelled 筆界特定1,
 with B(乙土地の名義人) drawn on the opposite side as the 相手方. To the
@@ -364,11 +386,7 @@ right, B(丙土地の名義人) and C connected by a dotted 代理 arrow from B 
 labelled 筆界特定2, with a 丁土地 land-plot icon on the other side (draw a
 land plot only; do NOT draw any additional person for 丁土地), and a 同意
 speech-bubble stamp from A reaching toward C and turning the dotted arrow
-solid. Below
-this, the shared five-leaf miniature decision tree with the leaf 個人の
-調査士 → 競業にあたらない → 無関係な別の事件 → 22条の2第2項3号、同意が
-あれば受任できる drawn with a thick highlighted border, and the other
-four leaves rendered faded/greyed-out.
+solid.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Cが新たに引き受けようとしているのが、個人の調査士としての受任であ
 り、法人の競業にあたる話ではないことを確認します。次に、その事件がCが現
@@ -378,33 +396,33 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 同意で受任できる
 
---- PANEL 2（イ） ---
-Badge: a filled circle in green containing the number 2.
+--- CARD イ ---
+Badge: a filled circle in red-orange containing the kana イ.
 Heading (bold, ONE line):
 社員は法人の仕事を個人で受任できない
+道すじ strip (text pills, left to right):
+個人の調査士 → 法人の業務範囲内の競業にあたる → 同意があっても不可
 Diagram: A relationship diagram (系統図): A and D(調査士法人、建物アイコン
 の中にEを小さく配置) connected by a solid 代理 arrow from A to D labelled
 筆界特定1, with B drawn on the opposite side as the 相手方, and with E drawn inside D's office-building icon surrounded by a
 faded dotted circle labelled 筆界特定1には関与していない. A second arrow
 from B to E labelled 筆界特定2の代理を個人として受任 has a 同意 speech-
 bubble stamp from A reaching toward it, yet a red ✕ blocks the arrow.
-Below this, the shared five-leaf miniature decision tree with the leaf
-個人の調査士 → 法人業務範囲内の競業にあたる → 37条1項の競業禁止、同意が
-あっても不可 drawn with a thick highlighted border, and the other four
-leaves rendered faded/greyed-out.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Eが新たに引き受けようとしているのが、法人Dの業務範囲に属する仕事
 を自己のために個人として行うことにあたるかを確認します。次に、この競業
 禁止は依頼者の同意の有無にかかわらず及ぶため、Aの同意があってもEは受任
 できないと判断します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+Conclusion tag (a short colored banner/pill, red-orange, 5-15 Japanese
 characters):
 同意があっても不可
 
---- PANEL 3（ウ） ---
-Badge: a filled circle in green containing the number 3.
+--- CARD ウ ---
+Badge: a filled circle in red-orange containing the kana ウ.
 Heading (bold, ONE line):
 自ら関与した事件は脱退後も不可
+道すじ strip (text pills, left to right):
+個人の調査士 → 競業にあたらない → 自ら関与した事件そのもの → 脱退後も不可
 Diagram: A relationship diagram (系統図): A and D connected by a solid
 代理 arrow from A to D labelled 筆界特定1, with B drawn on the opposite
 side as the 相手方, and with E drawn inside D's office-building
@@ -412,66 +430,58 @@ icon surrounded by a solid highlighted circle labelled 自ら関与した. A
 second drawing shows E walking out of D's office building through a door
 labelled 脱退. A third arrow from B to the now-independent E labelled
 筆界特定1についての書類作成事務 has a 同意 speech-bubble stamp from A
-reaching toward it, yet a red ✕ blocks the arrow. Below this, the shared
-five-leaf miniature decision tree with the leaf 個人の調査士 → 競業にあ
-たらない → 自ら関与した事件そのもの → 22条の2第2項4号、同意があっても
-不可（脱退後も同じ）drawn with a thick highlighted border, and the
-other four leaves rendered faded/greyed-out.
+reaching toward it, yet a red ✕ blocks the arrow.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Eが法人D在職中に筆界特定1の事件に自ら関与していたことを確認しま
 す。次に、この制限にはただし書の例外がないため、Dを脱退した後であって
 も、Aの同意があってもEはBから同じ事件を受任できないと判断します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+Conclusion tag (a short colored banner/pill, red-orange, 5-15 Japanese
 characters):
 脱退後も不可
 
---- PANEL 4（エ） ---
-Badge: a filled circle in green containing the number 4.
+--- CARD エ ---
+Badge: a filled circle in red-orange containing the kana エ.
 Heading (bold, ONE line):
 協議だけの信頼関係でも制限の対象になる
+道すじ strip (text pills, left to right):
+調査士法人自身 → 協議を受け信頼関係が認められる事件 → 同意があっても不可
 Diagram: A relationship diagram (系統図): A — D connected not by a solid
 代理 arrow (draw only a faded dotted empty arrow labelled 正式な受任なし,
 with NO red ✕ on it) but by several repeated 協議 speech-bubble icons and
 a handshake/heart icon labelled 信頼関係が認められる, labelled 筆界特定1. A second arrow from B to D labelled 筆界特定
 1についての書類作成事務 has a 同意 speech-bubble stamp from A reaching
-toward it, yet a red ✕ blocks the arrow. Below this, the shared
-five-leaf miniature decision tree with the leaf 調査士法人自身 → 相手方
-から協議を受け信頼関係が認められる事件 → 36条の3第1項2号、同意があって
-も不可 drawn with a thick highlighted border, and the other four leaves
-rendered faded/greyed-out.
+toward it, yet a red ✕ blocks the arrow.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Dが正式にAから代理する事務を受任していなくても、何度も協議を受け
 て信頼関係が認められる事件であるかを確認します。次に、この制限にはただ
 し書の例外がないため、Aの同意があってもDはBから同じ事件を受任できない
 と判断します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+Conclusion tag (a short colored banner/pill, red-orange, 5-15 Japanese
 characters):
 同意があっても不可
 
---- PANEL 5（オ） ---
-Badge: a filled circle in green containing the number 5.
+--- CARD オ ---
+Badge: a filled circle in red-orange containing the kana オ.
 Heading (bold, ONE line):
 使用人が受任済みなら法人も不可
+道すじ strip (text pills, left to right):
+調査士法人自身 → 使用人が相手方から受任している事件 → 同意があっても不可
 Diagram: A relationship diagram (系統図): A — E(Dの使用人、Dの建物アイ
 コンの中に配置) connected by a solid 書類作成事務 arrow labelled
 筆界特定1. A second arrow from B to D自身(建物アイコン全体) labelled同
 じ筆界特定1についての書類作成事務 has a 同意 speech-bubble stamp from A
-reaching toward it, yet a red ✕ blocks the arrow. Below this, the shared
-five-leaf miniature decision tree with the leaf 調査士法人自身 → 使用人
-が相手方から受任している事件 → 36条の3第1項4号、同意があっても不可
-drawn with a thick highlighted border, and the other four leaves
-rendered faded/greyed-out.
+reaching toward it, yet a red ✕ blocks the arrow.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、法人Dの使用人Eが、Aから筆界特定1についての書類作成事務を既に受任
 していることを確認します。次に、この制限にはただし書の例外がないため、
 法人D自身がBから同じ事件を受任しようとしても、Aの同意があっても受任で
 きないと判断します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+Conclusion tag (a short colored banner/pill, red-orange, 5-15 Japanese
 characters):
 同意があっても不可
 
 --- FOOTER ---
-Small footnote text (bottom of panel, small font, verbatim):
+Small footnote text (bottom of the last card, small font, verbatim):
 土地家屋調査士法22条の2（業務を行い得ない事件）・36条の3（調査士法人の
 業務の制限）・37条1項（社員の競業の禁止）に基づく整理です。
 
@@ -484,19 +494,24 @@ for any character that is not standard Japanese hiragana, katakana, or
 Jōyō kanji — including any Chinese-only character, Korean Hangul, other
 non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image.
-Confirm the panel count equals 5 exactly, badge numbers run 1-5
-continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every panel renders the full five-leaf
-shared decision tree in miniature with only its own leaf highlighted and
-the other four leaves faded rather than omitted, that each panel's
-larger relationship diagram clearly shows which of A・B・C・D・E is
-asking to represent or file documents for whom and for which 事件, that
-each 着眼点 callout states a checking order rather than only a
-conclusion and keeps every required element from the source article
-distinct (no merged or dropped requirements), confirm nothing is
-rendered below the last panel's footnote text (no summary recap panel,
-no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
-additional text block of any kind), and confirm the entire canvas, edge
-to edge, is filled with a fully opaque background with no transparency
-or alpha channel anywhere.
+Confirm the flowchart appears exactly once, at the top directly under the
+header, large and fully readable, with exactly four diamonds and exactly
+five leaves (ア・イ・ウ・エ・オ) whose conclusion texts match the strings
+above, every diamond showing both outgoing branches with labels, and no
+arrows crossing or overlapping; confirm NO miniature copy of the
+flowchart appears inside any card; confirm the card count equals 5
+exactly, in the order ア・イ・ウ・エ・オ, with each card's badge kana and
+color matching its leaf in the flowchart, and each card showing its 道す
+じ text strip, its relationship diagram, its 着眼点 callout (stating a
+checking order rather than only a conclusion and keeping every required
+element from the source article distinct, with no merged or dropped
+requirements), and its conclusion tag; confirm there is no intro
+illustration or paragraph block between the header and the flowchart;
+confirm each card's relationship diagram clearly shows which of
+A・B・C・D・E is asking to represent or file documents for whom and for
+which 事件; confirm nothing is rendered below the last card's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind); and confirm
+the entire canvas, edge to edge, is filled with a fully opaque
+background with no transparency or alpha channel anywhere.
 ```
