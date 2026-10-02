@@ -163,6 +163,9 @@ def parse_article(md_text):
             buf_paragraph.append(l.strip())
     flush_paragraph()
 
+    # 解説文とまとめの間の区切り線
+    body_parts.append("<hr>")
+
     # まとめ表 → 箇条書き
     # tail_text の先頭のテーブル部分を抽出(次の空行2連続、または次の見出しまで)
     table_match = re.search(r"(\|.+\|(?:\n\|.+\|)*)", tail_text)
@@ -194,6 +197,21 @@ def parse_article(md_text):
                 body_parts.append(f"<p>{inline_md_to_html(l)}</p>")
         body_parts.append(f"<p>{inline_md_to_html(conclusion_match.group(0).strip())}</p>")
         rest_after_conclusion = after_table[conclusion_match.end():]
+        # 正解の直後の区切り線と、改題の注記（※本記事は…改題です）を出力する
+        post = rest_after_conclusion
+        ck = post.find("**このまま使える点")
+        post_block = post if ck < 0 else post[:ck]
+        segs = [x.strip() for x in re.split(r"^\s*---\s*$", post_block, flags=re.M)]
+        # 先頭の「正解」直後の区切り線（segs[0]は通常空）
+        if len(segs) > 1:
+            body_parts.append("<hr>")
+            for seg in segs[1:]:
+                if seg and not seg.startswith("##"):
+                    for l in seg.splitlines():
+                        if l.strip():
+                            body_parts.append(f"<p>{inline_md_to_html(l.strip())}</p>")
+                    body_parts.append("<hr>")
+            # 末尾が<hr>の場合は、直後に見出し画像用フレーズが続くため残す
     else:
         rest_after_conclusion = after_table
 
