@@ -5,9 +5,10 @@ HTML＋ヘッドレスブラウザでPNGに書き出す。
   第1欄は建物の表示の表の下に、住所変更の登記の義務化（不動産登記法第76条の5。出題当時はなかった）の注を入れる。
   欄の形は試験の答案用紙に合わせる：登記の目的・添付書類・申請人は記入枠、その下に代理人の「（略）」と
   「令和2年10月16日　申請　Ａ地方法務局」が印刷。建物の表示は所在の行、家屋番号の行（第1欄は記入、第3欄は「（記載不要）」が印刷）、
-  見出し行「主である建物又は附属建物・①種類・②構造・③床面積（m²）・原因及びその日付」、記入行（第1欄は2行、第3欄は大きな1行）。
-  登録免許税の欄はない
-- 第2欄：①「解体移転の場合／えい行移転の場合」に印刷の「有・無」と記入欄、②理由の欄
+  見出し行「主である建物又は附属建物・①種類・②構造・③床面積（右下に小さくm²）・原因及びその日付」、記入行（第1欄は2行、第3欄は大きな1行）。
+  登録免許税の欄はない。以上は試験の答案用紙（`../touan_youshi/R2_dai22mon_touan_youshi.pdf` の1ページ目）で確かめた
+- 第2欄：①「解体移転の場合／えい行移転の場合」に印刷の「有・無」と記入欄（「有・無」と同じ欄の右側に書く）、②理由の欄
+  （答案用紙では①の枠が第1欄の下、②の枠が右の列の上にある。画像では2つの枠を縦に並べる）
 - 添削：`../prompt_R2_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 
 CSSと部品の作りは `R6/Q22/zu/make_R6_dai22mon_shinseisho_gazou.py` と同じ形にしている。
@@ -52,6 +53,7 @@ table.bldg td.val {{ height: 64px; }}
 table.bldg td.entry {{ height: 170px; }}
 table.bldg td.entry.big {{ height: 330px; }}
 table.bldg td.center {{ text-align: center; }}
+table.bldg td.head .m2 {{ display: block; text-align: right; padding-right: 22%; font-size: 15px; line-height: 1.2; }}
 table.bldg td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }}
 table.bldg td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }}
 table.bldg td.genin {{ font-size: 17px; }}
@@ -95,7 +97,7 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
 COLS = ('<colgroup><col style="width:5%"><col style="width:11%"><col style="width:12%"><col style="width:21%">'
         '<col style="width:14%"><col style="width:7%"><col style="width:30%"></colgroup>')
 HEAD = ('<tr><td class="head lab2">主である<br>建物又は<br>附属建物</td><td class="head">①種　類</td>'
-        '<td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>（m²）</td>'
+        '<td class="head">②構　造</td><td class="head" colspan="2">③床面積<br><span class="m2">m²</span></td>'
         '<td class="head">原因及びその日付</td></tr>')
 
 
@@ -198,7 +200,7 @@ def snippet(genin_html, good=False, floor_html=None):
     return (f'<div class="okwrap"><table class="bldg"{g}>{COLS}'
             f'<tr><td class="vert tight" rowspan="2">建物の表示</td>'
             '<td class="head lab2">主である<br>建物又は<br>附属建物</td><td class="head">①種　類</td><td class="head">②構　造</td>'
-            f'<td class="head" colspan="2">③床　面　積<br>（m²）</td><td class="head">原因及びその日付</td></tr>{row}</table>{chk}</div>')
+            f'<td class="head" colspan="2">③床面積<br><span class="m2">m²</span></td><td class="head">原因及びその日付</td></tr>{row}</table>{chk}</div>')
 
 
 ng_panel = snippet(ink('令和２年９月18日新築'))

@@ -289,11 +289,11 @@ PNGS = [('R2_dai22mon_zu01_kaoku_bangou', '建物図面3枚と〔調査図〕を
         ('R2_dai22mon_toukishinseisho_kansei_toi1', '問1（第1欄）の建物滅失登記の申請書の完成形'),
         ('R2_dai22mon_dai2ran_kansei', '問2（第2欄）の完成形'),
         ('R2_dai22mon_zu02_shikichi_ichi', '確認図（作図チェック用）'),
-        ('R2_dai22mon_zu03_tatemono_zumen', '第4欄の建物図面の枠（家屋番号は空欄、建物の所在「A市B区T町三丁目42番地2、42番地1」'),
+        ('R2_dai22mon_zu03_tatemono_zumen', '第4欄の右半分の建物図面の枠（家屋番号と申請人は「（略）」と印刷、建物の所在「A市B区T町三丁目42番地2、42番地1」'),
         ('R2_dai22mon_zu04_1kai2kai_kyuuseki', '1階・2階の床面積求積図'),
         ('R2_dai22mon_zu05_3kai_ayamari_hikaku', '左に「誤り＝全部の寸法から0.10を引いた'),
         ('R2_dai22mon_zu06_3kai_kyuuseki', '3階の床面積求積図'),
-        ('R2_dai22mon_zu07_kakukai_heimenzu', '第4欄の各階平面図の枠（作成者、縮尺1/250）の中に描いた各階平面図の完成形'),
+        ('R2_dai22mon_zu07_kakukai_heimenzu', '第4欄の左半分の各階平面図の枠（作成者は「（略）」「（令和2年○月○日作成）」と印刷、縮尺1/250）の中に描いた各階平面図の完成形'),
         ('R2_dai22mon_toukishinseisho_machigai', '「原因及びその日付」欄の①誤答'),
         ('R2_dai22mon_toukishinseisho_kansei_toi3', '問3（第3欄）の建物表題登記の申請書の完成形'),
         ('R2_dai22mon_zu08_toku_junban', '本番で解く順番の図')]
@@ -363,15 +363,69 @@ for a in ['round(area(F3), 2) == 64.02', 'round(area(W3_NG) + area(E3), 2) == 63
 
 
 # ---- 2026-10-02 最新の執筆プロンプトに合わせた追加分：図面の完成形は答案用紙の第4欄の枠の中、各階平面図の完成形 ----
-check('第4欄の上の欄', '家屋番号の欄は、登記所が付ける番号だから空けておくの。建物の所在の欄は、問3の申請書の所在と同じものを書く')
+check('第4欄の上の欄', '建物図面の上の家屋番号の欄には、はじめから『（略）』と印刷してあるから何も書かない。下の申請人の欄も『（略）』と印刷済み。書くのは建物の所在の欄だけで、問3の申請書の所在と同じものを書く')
 check('第4欄の所在の順', '第4欄の建物図面の建物の所在の欄も、この順で書きます')
 check('各階平面図の求積方法', '床面積とその求積方法も記録する決まりだもの（不動産登記規則第83条第1項）')
 check('各階同型', '（不動産登記事務取扱手続準則第53条第2項）')
-for s_ in ["'A市B区T町三丁目42番地2、42番地1'", "'（略）'", "'1/500'", "'1/250'", "'R2_dai22mon_zu07_kakukai_heimenzu'",
+for s_ in ["'A市B区T町三丁目42番地2、42番地1'", "'（略）'", "'500')", "'250')", "'R2_dai22mon_zu07_kakukai_heimenzu'",
            "'R2_dai22mon_zu08_toku_junban.png'", "'1階・2階（各階同型）'", '床面積　64.02㎡', '床面積　71.40㎡',
            'round(area(F12), 4) == 71.40 and round(area(F3), 4) == 64.02']:
     check('作図スクリプト（図3・図7の枠と記入）', s_, drw, '作図')
-check('枠の形は仮', '欄の形の出典：**仮のもの**', fig, '解説図')
+check('枠の形は試験の答案用紙で確かめた', '欄の形の出典：**試験の答案用紙（`touan_youshi/R2_dai22mon_touan_youshi.pdf` の2ページ目）で確かめた**', fig, '解説図')
+
+# ---- 2026-10-02 試験の答案用紙（touan_youshi/）の実物で確かめた欄の形 ----
+import pymupdf as fitz  # noqa: E402
+TY = os.path.join(HERE, 'touan_youshi', 'R2_dai22mon_touan_youshi.pdf')
+_doc = fitz.open(TY)
+sheet = [re.sub(r'\s+', '', pg.get_text()) for pg in _doc]
+mkp = open(os.path.join(ZU, 'make_R2_dai22mon_shinseisho_gazou.py'), encoding='utf-8').read()
+# 1ページ目：第1欄・第2欄・第3欄（申請書2件と問2）
+for n_ in ['第1欄', '第2欄', '第3欄', '登記の目的', '添付書類', '申請人', '代理人（略）', '令和2年10月16日申請Ａ地方法務局',
+           '家屋番号（記載不要）', '主である建物又は附属建物', '①種類', '②構造', '③床面積', '原因及びその日付',
+           '解体移転の場合有・無', 'えい行移転の場合有・無']:
+    ok = n_ in sheet[0]
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'[答案用紙p1] 印刷 : {n_}')
+for n_ in ['登録免許税', '課税価格', '添付情報', '登記原因及びその日付']:
+    ok = n_ not in sheet[0]
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'[答案用紙p1] 欄なし : {n_}')
+ok = sheet[0].count('（略）') == 2 and sheet[0].count('（記載不要）') == 1   # 代理人の（略）が2件分、記載不要は第3欄だけ
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '[答案用紙p1] 「（略）」は代理人の2か所、「（記載不要）」は第3欄の家屋番号だけ')
+# 代理人 → 申請の日付と提出先 の順（R2は代理人の下に日付の行）
+ok = sheet[0].count('代理人（略）令和2年10月16日申請Ａ地方法務局所在建物の表示') == 2
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '[答案用紙p1] 申請の日付と提出先の行は代理人の下')
+# 2ページ目：第4欄（左半分が各階平面図、右半分が建物図面）
+for n_ in ['第4欄', '各階平面図', '家屋番号（略）', '建物図面', '建物の所在', '作成者（略）', '（令和2年○月○日作成）', '申請人（略）']:
+    ok = n_ in sheet[1]
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'[答案用紙p2] 印刷 : {n_}')
+ok = sheet[1].count('（略）') == 3 and '縮尺1250' in sheet[1] and '縮尺1500' in sheet[1]
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '[答案用紙p2] 「（略）」は家屋番号・作成者・申請人の3か所、縮尺は1/250（各階平面図）と1/500（建物図面）')
+# 作図・申請書の画像がその形どおりか
+for n_ in ["'家　屋　番　号'", "cell(fig, 0.252, 0.865, 0.474, 0.915, '（略）'", "'建物の所在'", "'申　請　人'", "'作　成　者'",
+           "'（令和2年○月○日作成）'", "scale_cell(fig, 0.813, 0.055, 0.94, 0.115, '500')", "scale_cell(fig, 0.766, 0.07, 0.910, 0.15, '250')",
+           'divider_edge(fig, 0.06,', 'divider_edge(fig, 0.96,', '1枚の枠の左半分が各階平面図、右半分が建物図面']:
+    check('作図スクリプト（答案用紙の第4欄の形）', n_, drw, '作図')
+absent('作成日の仮の印刷', '令和何年何月何日', drw, '作図')
+absent('家屋番号を空欄とする古い形', '家屋番号は空欄', drw, '作図')
+for n_ in ['③床面積<br><span class="m2">m²</span>', '（記載不要）', '代　　理　　人', '令和２年10月16日　申請　Ａ地方法務局']:
+    check('申請書の画像（答案用紙の印刷）', n_, mkp, '申請書')
+absent('床面積の見出しの古い形', '③床　面　積<br>（m²）', mkp, '申請書')
+for name_ in ['R2_dai22mon_toukishinseisho_kansei_toi1', 'R2_dai22mon_toukishinseisho_kansei_toi3', 'R2_dai22mon_toukishinseisho_machigai']:
+    h_ = open(os.path.join(ZU, name_ + '.html'), encoding='utf-8').read()
+    ok = '③床面積<br><span class="m2">m²</span>' in h_ and '登録免許税' not in h_
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'{name_}.html : 床面積の見出しが答案用紙どおり・登録免許税の欄なし')
+check('記事：家屋番号は（略）', '家屋番号と申請人は「（略）」と印刷')
+check('記事：作成者の印刷', '作成者は「（略）」「（令和2年○月○日作成）」と印刷')
+absent('記事：家屋番号を空ける', '空けておくの')
+for src_, nm_ in [(text, '記事'), (fig, '解説図'), (form, '申請書'), (fix, '添削'), (drw, '作図'), (mkp, '申請書スクリプト')]:
+    for w_ in ['仮のもの', '仮の形', 'リポジトリにない', '手元になかった']:
+        absent('仮の文言', w_, src_, nm_)
 check('図7の点線', '(0, 4.2)→(0, 6)→(4.1, 6)', fig, '解説図')
 check('図7の求積表', '3階／4.10×4.20＝17.2200／7.80×6.00＝46.8000／計　64.0200／床面積　64.02㎡', fig, '解説図')
 check('第1欄の画像の注', '不動産登記法第76条の5。令和3年の改正で新設され、出題当時はなかった', form, '申請書')

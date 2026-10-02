@@ -1,8 +1,10 @@
 """令和2年度 第22問（建物）の解説図8枚を、座標値・頂点座標から作図してPNGに書き出す。
 
 `../prompt_R2_dai22mon_kaisetsuzu.md` の図1〜図8どおり（番号は記事の挿入順）。作図の共通部品は `tools/zu_helpers.py`。
-図3（建物図面）と図7（各階平面図）の完成形は、答案用紙の第4欄の欄（家屋番号・建物の所在・申請人・作成者・縮尺）の形の枠の中に描く
-（試験の答案用紙がリポジトリにないため、欄の形は令和4年度・平成29年度の答案用紙にならった仮のもの）。
+図3（建物図面）と図7（各階平面図）の完成形は、答案用紙の第4欄の欄（家屋番号・建物の所在・申請人・作成者・縮尺）の形の枠の中に描く。
+欄の形は試験の答案用紙（`../touan_youshi/R2_dai22mon_touan_youshi.pdf` の2ページ目）で確かめた：第4欄はA3横の1枚の枠の左半分が各階平面図、
+右半分が建物図面（中央の上下に短い仕切りの線）。建物図面の上に「家屋番号（略）」の箱が枠の外に、「建物の所在」の記入欄が枠の中の上端にあり、
+下に「申請人（略）」「縮尺 1/500」。各階平面図の下に「作成者（略）（令和2年○月○日作成）」「縮尺 1/250」。縮尺は分数の形で印刷。
 敷地は〔調査図〕の〔座標一覧表〕の (X, Y)＝(北, 東) をそのまま使う。
 本件新建物の各階は (東, 南) で持ち（原点は壁の中心線で囲んだ建物の北西の角）、zu_helpers の (北, 東) には B() で変換する。
 図1の旧建物3棟の形・位置だけは、〔調査図〕と【建物図面】の図から読み取った模式（寸法は目安）。
@@ -190,11 +192,28 @@ INK = '#1a3a8f'   # 記入（濃い青）
 
 
 def cell(fig, x0, y0, x1, y1, text='', fs=14, ha='center', lw=1.6, color=BLACK):
-    """答案用紙の欄（図の座標 0〜1）。欄の形は令和4年度・平成29年度の答案用紙にならった仮のもの（プロンプトの図3・図7に注記）。"""
+    """答案用紙の欄（図の座標 0〜1）。欄の形は試験の答案用紙（touan_youshi/）の第4欄で確かめたもの（プロンプトの図3・図7に注記）。"""
     fig.add_artist(Rectangle((x0, y0), x1 - x0, y1 - y0, transform=fig.transFigure, fill=False, lw=lw, ec=BLACK))
     if text:
         x = (x0 + x1) / 2 if ha == 'center' else x0 + 0.01
         fig.text(x, (y0 + y1) / 2, text, ha=ha, va='center', fontsize=fs, color=color)
+
+
+def scale_cell(fig, x0, y0, x1, y1, denom, fs=15):
+    """答案用紙の縮尺の欄の印刷（左上に「1」、右下に分母、その間に左下から右上への斜線）。"""
+    fig.add_artist(Rectangle((x0, y0), x1 - x0, y1 - y0, transform=fig.transFigure, fill=False, lw=1.6, ec=BLACK))
+    w, h = x1 - x0, y1 - y0
+    fig.add_artist(plt.Line2D([x0 + 0.15 * w, x0 + 0.85 * w], [y0 + 0.15 * h, y0 + 0.85 * h], transform=fig.transFigure,
+                              color=BLACK, lw=1.2))
+    fig.text(x0 + 0.42 * w, y0 + 0.74 * h, '1', ha='center', va='center', fontsize=fs)
+    fig.text(x0 + 0.72 * w, y0 + 0.27 * h, denom, ha='center', va='center', fontsize=fs)
+
+
+def divider_edge(fig, x, y0, y1, tick):
+    """第4欄の左右の境（中央の仕切り）。答案用紙では上下の短い線だけが印刷されているので、間は薄い点線で示す。"""
+    fig.add_artist(plt.Line2D([x, x], [y0, y1], transform=fig.transFigure, color=GRAY, lw=1.0, ls=(0, (4, 4))))
+    for a, b in [(y1 - tick, y1), (y0, y0 + tick)]:
+        fig.add_artist(plt.Line2D([x, x], [a, b], transform=fig.transFigure, color=BLACK, lw=1.8))
 
 
 def zu03():
@@ -202,20 +221,25 @@ def zu03():
     fig = plt.figure(figsize=(16, 14), dpi=100)
     fig.patch.set_facecolor('white')
     fig.suptitle('建物図面の完成形（答案用紙の第4欄・縮尺1/500で描く内容）', fontsize=22, weight='bold', y=0.985)
-    # 答案用紙の欄（家屋番号・建物の所在・申請人・縮尺）
-    cell(fig, 0.06, 0.885, 0.20, 0.935, '家屋番号', fs=15)
-    cell(fig, 0.20, 0.885, 0.46, 0.935)                                   # 家屋番号は空欄（登記所が付ける）
-    fig.text(0.70, 0.910, '建　物　図　面', ha='center', va='center', fontsize=20)
-    cell(fig, 0.06, 0.835, 0.20, 0.885, '建物の所在', fs=15)
-    cell(fig, 0.20, 0.835, 0.94, 0.885, 'A市B区T町三丁目42番地2、42番地1', fs=16, ha='left', color=INK)
-    cell(fig, 0.06, 0.115, 0.94, 0.835, lw=1.8)
-    cell(fig, 0.06, 0.065, 0.20, 0.115, '申　請　人', fs=15)
-    cell(fig, 0.20, 0.065, 0.74, 0.115, '（略）', fs=15)
-    cell(fig, 0.74, 0.065, 0.83, 0.115, '縮尺', fs=15)
-    cell(fig, 0.83, 0.065, 0.94, 0.115, '1/500', fs=15)
-    fig.text(0.5, 0.03, '筆界から外壁までの距離は小数第1位（問題文の注4）。42番1と42番2の境の線は建物の北寄りを横切る。敷地の辺長と〔3.2〕は書かない',
+    # 答案用紙の第4欄の右半分（試験の答案用紙どおり）：枠の外の上に「家屋番号（略）」の箱と表題、枠の中の上端に「建物の所在」の記入欄、
+    # 枠の下に「申請人（略）」「縮尺 1/500」。左の縁は各階平面図との中央の仕切り（上下の短い線だけが印刷）
+    for xs, ys in [([0.06, 0.94], [0.865, 0.865]), ([0.94, 0.94], [0.115, 0.865]), ([0.06, 0.94], [0.115, 0.115])]:
+        fig.add_artist(plt.Line2D(xs, ys, transform=fig.transFigure, color=BLACK, lw=1.8))
+    divider_edge(fig, 0.06, 0.115, 0.865, 0.06)
+    cell(fig, 0.113, 0.865, 0.252, 0.915, '家　屋　番　号', fs=15)
+    cell(fig, 0.252, 0.865, 0.474, 0.915, '（略）', fs=15)                  # 家屋番号は「（略）」と印刷済み（書かない）
+    fig.text(0.677, 0.885, '建　物　図　面', ha='center', va='center', fontsize=20)
+    cell(fig, 0.113, 0.815, 0.252, 0.865, '建物の所在', fs=15)
+    cell(fig, 0.252, 0.815, 0.94, 0.865, 'A市B区T町三丁目42番地2、42番地1', fs=16, ha='left', color=INK)
+    cell(fig, 0.107, 0.055, 0.217, 0.115, '申　請　人', fs=15)
+    cell(fig, 0.217, 0.055, 0.754, 0.115, '（略）', fs=15)
+    cell(fig, 0.754, 0.055, 0.813, 0.115, '縮尺', fs=15)
+    scale_cell(fig, 0.813, 0.055, 0.94, 0.115, '500')
+    fig.text(0.5, 0.030, '筆界から外壁までの距離は小数第1位（問題文の注4）。42番1と42番2の境の線は建物の北寄りを横切る。敷地の辺長と〔3.2〕は書かない',
              ha='center', va='center', fontsize=14)
-    ax = fig.add_axes([0.08, 0.13, 0.84, 0.69])
+    fig.text(0.5, 0.010, '答案用紙の第4欄は1枚の枠の左半分が各階平面図、右半分が建物図面（この図は右半分。左の縁の点線は中央の仕切り）',
+             ha='center', va='center', fontsize=12, color=GRAY)
+    ax = fig.add_axes([0.08, 0.13, 0.84, 0.67])
     z = Zu(ax, fontsize=14)
     fit(ax, [complex(6, 0), PT['J']], margin=0.06, extra=[(-6, -22), (26, 8)], pad_aspect=True)
     z.north_arrow()
@@ -358,14 +382,22 @@ def zu07():
     fig = plt.figure(figsize=(18, 9.5), dpi=100)
     fig.patch.set_facecolor('white')
     fig.suptitle('各階平面図の完成形（答案用紙の第4欄・縮尺1/250で描く内容）', fontsize=22, weight='bold', y=0.97)
-    fig.text(0.5, 0.895, '各　階　平　面　図', ha='center', va='center', fontsize=20)
-    cell(fig, 0.04, 0.15, 0.96, 0.86, lw=1.8)
-    cell(fig, 0.04, 0.07, 0.14, 0.15, '作　成　者', fs=15)
-    cell(fig, 0.14, 0.07, 0.78, 0.15, '（略）　　　　　　　　　　　　（令和何年何月何日作成）', fs=15)
-    cell(fig, 0.78, 0.07, 0.86, 0.15, '縮尺', fs=15)
-    cell(fig, 0.86, 0.07, 0.96, 0.15, '1/250', fs=15)
-    fig.text(0.5, 0.03, '壁の中心線の寸法（小数点以下第2位まで）。1階・2階は各階同型で1つの図にまとめ、3階には3階と重ならない1階の部分を点線で示す。'
+    # 答案用紙の第4欄の左半分（試験の答案用紙どおり）：枠の上に表題、枠の下に「作成者（略）（令和2年○月○日作成）」「縮尺 1/250」。
+    # 右の縁は建物図面との中央の仕切り（上下の短い線だけが印刷）
+    fig.text(0.50, 0.895, '各　階　平　面　図', ha='center', va='center', fontsize=20)
+    for xs, ys in [([0.04, 0.96], [0.86, 0.86]), ([0.04, 0.04], [0.15, 0.86]), ([0.04, 0.96], [0.15, 0.15])]:
+        fig.add_artist(plt.Line2D(xs, ys, transform=fig.transFigure, color=BLACK, lw=1.8))
+    divider_edge(fig, 0.96, 0.15, 0.86, 0.07)
+    cell(fig, 0.04, 0.07, 0.155, 0.15, '作　成　者', fs=15)
+    cell(fig, 0.155, 0.07, 0.704, 0.15)
+    fig.text(0.254, 0.125, '（略）', ha='center', va='center', fontsize=15)
+    fig.text(0.698, 0.090, '（令和2年○月○日作成）', ha='right', va='center', fontsize=14)
+    cell(fig, 0.704, 0.07, 0.766, 0.15, '縮尺', fs=15)
+    scale_cell(fig, 0.766, 0.07, 0.910, 0.15, '250')
+    fig.text(0.5, 0.035, '壁の中心線の寸法（小数点以下第2位まで）。1階・2階は各階同型で1つの図にまとめ、3階には3階と重ならない1階の部分を点線で示す。'
              '求積表と床面積を各階の横に書く', ha='center', va='center', fontsize=14)
+    fig.text(0.5, 0.012, '答案用紙の第4欄は1枚の枠の左半分が各階平面図、右半分が建物図面（この図は左半分。右の縁の点線は中央の仕切り）',
+             ha='center', va='center', fontsize=12, color=GRAY)
     axes = [fig.add_axes([0.05, 0.20, 0.31, 0.60]), fig.add_axes([0.50, 0.20, 0.31, 0.60])]
     zs = []
     tables = ['1階\n11.90×6.00＝71.4000\n床面積　71.40㎡\n\n2階\n11.90×6.00＝71.4000\n床面積　71.40㎡',
