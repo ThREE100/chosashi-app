@@ -5,7 +5,7 @@
 - 添削　：`../prompt_R4_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第1欄（問1のI点・J点）・第2欄（問2のア〜エ）・第5欄（問5の①〜⑤）：申請書でない解答欄も、記号ごとの記入欄の形で
   別の画像にする（横1200pxの横長。2026-10-02追加）。欄の形は試験の答案用紙（`../touan_youshi/`）で確かめた：
-  第1欄は左上が斜線のセル・「Ｘ座標（ｍ）」「Ｙ座標（ｍ）」の見出しとＩ点・Ｊ点の2行、第2欄はア・イ／ウ・エの2組2行、
+  第1欄は左上が斜線のセル・「Ｘ座標（m）」「Ｙ座標（m）」の見出しとＩ点・Ｊ点の2行、第2欄はア・イ／ウ・エの2組2行、
   第5欄は①・②／③・④／⑤の3行で、⑤の行は左の1組だけ（右の2セルはなく、枠が段になる）。見出しは印刷どおり「第○欄」だけ
 - 申請書の欄の名前・順序・印刷文字も試験の答案用紙（第3欄）で確かめた。答案用紙では左の列に登記の目的〜登録免許税、
   右の列に所在と土地の表示（記入行5行、③地積は点線で整数部・小数部）が並ぶので、画像では左の列の下に右の列を積む
@@ -194,7 +194,7 @@ def zahyou_table(rows):
     """座標の欄。rows: [(点名, X, Y)]"""
     trs = ''.join(f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows)
     return ('<table class="rz"><colgroup><col style="width:30%"><col style="width:35%"><col style="width:35%"></colgroup>'
-            '<tr><td class="head diag"></td><td class="head">Ｘ座標（ｍ）</td><td class="head">Ｙ座標（ｍ）</td></tr>'
+            '<tr><td class="head diag"></td><td class="head">Ｘ座標（m）</td><td class="head">Ｙ座標（m）</td></tr>'
             f'{trs}</table>')
 
 

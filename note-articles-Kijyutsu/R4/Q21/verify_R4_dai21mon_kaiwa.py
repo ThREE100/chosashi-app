@@ -309,7 +309,7 @@ for (name, key, kind), m in zip(PNGS, markers):
     judge(f'プロンプトにファイル名 : zu/{name}.png', f'zu/{name}.png' in src)
 extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for n, _, _ in PNGS})
 judge(f'zu/ に記事で使わないPNGがない : {extra}', not extra)
-for name, needles in [('R4_dai21mon_dai1ran_kansei', ['第1欄', 'Ｉ点', 'Ｊ点', '300.13', '279.30', '293.12', 'Ｘ座標（ｍ）']),
+for name, needles in [('R4_dai21mon_dai1ran_kansei', ['第1欄', 'Ｉ点', 'Ｊ点', '300.13', '279.30', '293.12', 'Ｘ座標（m）']),
                       ('R4_dai21mon_dai2ran_kansei', ['第2欄', '表題登記', '隣接', '位置', '範囲']),
                       ('R4_dai21mon_dai5ran_kansei', ['第5欄', '日時', '場所', 'その状況', '申請の権限', '登記名義人', '①〜③は順不同'])]:
     h_ = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
