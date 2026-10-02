@@ -230,9 +230,9 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-ok = n_marker == 10
+ok = n_marker == 11
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図7＋第1欄1＋添削1＋第2欄完成形1＝計10か所の想定）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図8＋第1欄1＋添削1＋第2欄完成形1＝計11か所の想定）')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
@@ -313,7 +313,7 @@ print(('OK ' if not cont else 'NG ') + f'同じ話者の連続 : {cont}')
 for bad in ['奥側', '手前側', '見取図の注', '調査図素図の注']:
     absent('向き・注の書き方', bad)
 
-# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー10か所に対応するPNGがそろっているか ----
+# ---- 画像（2026-09-29生成、2026-10-02に図3の描き直しと図7の新設）：記事の画像挿入マーカー11か所に対応するPNGがそろっているか ----
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
@@ -321,8 +321,9 @@ PNGS = [('分割の前後比較図', 'H29_dai22mon_zu01_bunkatsu_zengo'), ('答�
         ('辺長確認図（作図チェック用）', 'H29_dai22mon_zu02_shikichi_henchou'), ('建物図面の完成形', 'H29_dai22mon_zu03_tatemono_zumen'),
         ('甲建物（主である建物）の床面積求積図', 'H29_dai22mon_zu04_kou_kyuuseki'), ('丙建物の誤り比較図', 'H29_dai22mon_zu05_hei_ayamari_hikaku'),
         ('丙建物（附属建物符号2）の床面積求積図', 'H29_dai22mon_zu06_hei_kyuuseki'),
+        ('各階平面図の完成形', 'H29_dai22mon_zu07_kakukai_heimenzu'),
         ('「所在」欄と附属建物の行の①誤答', 'H29_dai22mon_toukishinseisho_machigai'),
-        ('登記申請書（問2）の完成形', 'H29_dai22mon_toukishinseisho_kansei'), ('本番で解く順番の図', 'H29_dai22mon_zu07_toku_junban')]
+        ('登記申請書（問2）の完成形', 'H29_dai22mon_toukishinseisho_kansei'), ('本番で解く順番の図', 'H29_dai22mon_zu08_toku_junban')]
 ok = len(markers) == len(PNGS) and all(k in m for m, (k, _) in zip(markers, PNGS))
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'画像挿入マーカーとPNGの対応（記事の順） : {len(markers)}か所')
@@ -377,5 +378,36 @@ for n in ['assert round(area(LOT1), 2) == 1417.00 and round(area(LOT2), 2) == 17
     check('作図スクリプトの検算', n, drw, '作図')
 for bad in ['✕', '✓', '右上', '左下']:
     absent('作図スクリプトの文字', bad, drw, '作図')
+
+
+# ---- 2026-10-02の照らし直し（図面の完成形は答案用紙の第3欄の枠の中、各階平面図の完成形、穴埋め・記述の答えの明示） ----
+extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - set(n for _, n in PNGS))
+ng += bool(extra)
+print(('OK ' if not extra else 'NG ') + f'zu/ に記事で使わないPNGがない : {extra}')
+for name in ['H29_dai22mon_zu03_tatemono_zumen', 'H29_dai22mon_zu07_kakukai_heimenzu']:
+    w, h_ = Image.open(os.path.join(ZU, name + '.png')).size
+    ok = w >= 1600 and h_ >= 1100
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'PNGの大きさ : {name} {w}×{h_}')
+# 答案用紙の第3欄の欄（試験の答案用紙 public/kijutsu/H29-tatemono/a2.webp の印刷どおり）
+z03 = drw[drw.index('def zu03():'):drw.index('def zu04():')]
+z07 = drw[drw.index('def zu07():'):drw.index('def zu08():')]
+for n in ["'家屋番号'", "'1番1'", "'建物の所在'", "'A市B町三丁目1番地1'", "'申　請　人'", "'（略）'", "'縮尺'", "'1/500'",
+          "'建　物　図　面'"]:
+    check('建物図面の欄（図3）', n, z03, '作図')
+absent('建物図面の所在に1番地2', '1番地1、1番地2', z03, '作図')
+for n in ["'作　成　者'", "（平成29年○月○日作成）", "'1/250'", "'各　階　平　面　図'",
+          "主である建物\\n3.64×7.28＝26.4992\\n14.54×10.92＝158.7768\\n計　185.2760\\n床面積　185.27㎡",
+          "附属建物　符号2\\n8.00×7.50＝60.0000\\n床面積　60.00㎡",
+          "assert round(area(k), 4) == 185.276 and round(area(h), 4) == 60.0"]:
+    check('各階平面図の欄（図7）', n, z07, '作図')
+check('答案用紙の欄（プロンプト）', '`public/kijutsu/H29-tatemono/a2.webp`', fig, '解説図')
+check('各階平面図の完成形（記事のマーカー）', '主である建物（甲建物）と附属建物符号2（丙建物）の外形と周りの長さを同じ縮尺で描き、それぞれの横に求積表と床面積（185.27㎡・60.00㎡）')
+check('建物図面の完成形（記事のマーカー）', '答案用紙の第3欄の建物図面の欄（家屋番号「1番1」・建物の所在「A市B町三丁目1番地1」・申請人（略）・縮尺1/500）の枠の中')
+# 問1（第1欄）の①②③の答えを、会話の中で語のまま言っているか（穴埋め・記述の答えの明示。R5/Q22の照らし直しの教訓）
+for lbl, w_ in [('①', '登記の目的は『建物分割登記』ですね'), ('②の語句', '一個の建物'), ('③', '③は『添付しなければならない』です')]:
+    check('問1の答えの明示 ' + lbl, w_)
+for lbl, w_ in [('①', '建物分割登記'), ('③', '添付しなければならない。')]:
+    check('第1欄の画像の答え ' + lbl, w_, open(os.path.join(ZU, 'H29_dai22mon_dai1ran_kansei.html'), encoding='utf-8').read(), '第1欄HTML')
 
 print('NG件数:', ng)

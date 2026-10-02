@@ -193,9 +193,9 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-ok = n_marker == 11
+ok = n_marker == 12
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図8＋第2欄1＋添削1＋完成形1＝計11か所の想定）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図9＋第2欄1＋添削1＋完成形1＝計12か所の想定）')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
@@ -251,7 +251,7 @@ for bad in ['✕', '✓', '○ ']:
     absent('記号（解説図プロンプト）', bad, fig, '解説図')
     absent('記号（添削プロンプト）', bad, fix, '添削')
 
-# ---- 画像（2026-09-29生成）：記事の画像挿入マーカー11か所に対応するPNGがそろっているか ----
+# ---- 画像（2026-09-29生成、2026-10-02に図4の描き直しと図8の新設）：記事の画像挿入マーカー12か所に対応するPNGがそろっているか ----
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
@@ -259,8 +259,9 @@ PNGS = [('第2欄（問2）の完成形', 'H28_dai22mon_dai2ran_kansei'), ('出�
         ('階の数え方の誤り比較図', 'H28_dai22mon_zu02_kai_ayamari_hikaku'), ('本件土地5番27を描いた長方形', 'H28_dai22mon_zu03_shikichi_henchou'),
         ('建物図面の完成形', 'H28_dai22mon_zu04_tatemono_zumen'), ('1階の床面積求積図', 'H28_dai22mon_zu05_1kai_kyuuseki'),
         ('2階の床面積求積図', 'H28_dai22mon_zu06_2kai_kyuuseki'), ('3階の床面積求積図', 'H28_dai22mon_zu07_3kai_kyuuseki'),
+        ('各階平面図の完成形', 'H28_dai22mon_zu08_kakukai_heimenzu'),
         ('変更後の行の①誤答', 'H28_dai22mon_toukishinseisho_machigai'), ('登記申請書（問1）の完成形', 'H28_dai22mon_toukishinseisho_kansei'),
-        ('本番で解く順番の図', 'H28_dai22mon_zu08_toku_junban')]
+        ('本番で解く順番の図', 'H28_dai22mon_zu09_toku_junban')]
 ok = len(markers) == len(PNGS) and all(k in m for m, (k, _) in zip(markers, PNGS))
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'画像挿入マーカーとPNGの対応（記事の順） : {len(markers)}か所')
@@ -309,5 +310,43 @@ print(('OK ' if ok else 'NG ') + f'作図の fit はすべて pad_aspect=True : 
 for s_ in ["assert round(area([P(*v) for v in F2]), 4) == 118.0825", "assert round(area(SITE), 4) == 298.0296",
            "assert round(area(BLD), 4) == 89.1"]:
     check('作図スクリプトの面積の検算', s_, draw, '作図')
+
+
+# ---- 2026-10-02の照らし直し（図面の完成形は答案用紙の第3欄の枠の中、各階平面図の完成形、問ごとの答えの明示） ----
+# zu/ に記事で使わないPNGが残っていないこと（図の番号を振り直したので、古い zu08_toku_junban などが残らない）
+extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - set(n for _, n in PNGS))
+ng += bool(extra)
+print(('OK ' if not extra else 'NG ') + f'zu/ に記事で使わないPNGがない : {extra}')
+for name in ['H28_dai22mon_zu04_tatemono_zumen', 'H28_dai22mon_zu08_kakukai_heimenzu']:
+    w, h = Image.open(os.path.join(ZU, name + '.png')).size
+    ok = w >= 1600 and h >= 1100
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'PNGの大きさ : {name} {w}×{h}')
+# 答案用紙の第3欄の欄（試験の答案用紙 public/kijutsu/H28-tatemono/a2.webp の印刷どおり）
+z04 = draw[draw.index('def zu04():'):draw.index('def zu05():')]
+z08 = draw[draw.index('def zu08():'):draw.index('def zu09():')]
+for n in ["'家屋番号'", "'5番27'", "'建物の所在'", "'A市B町二丁目5番地27'", "'申　請　人'", "'（略）'", "'縮尺'", "'1/500'",
+          "fig.text(0.70, 0.900, '建　物　図　面'"]:
+    check('建物図面の欄（図4）', n, z04, '作図')
+for n in ["'作　成　者'", "'（略）'", "'1/250'", "'各　階　平　面　図'",
+          "1階\\n9.00×9.00＝81.0000\\n4.50×1.80＝8.1000\\n計　89.1000\\n床面積　89.10㎡",
+          "2階\\n9.00×7.20＝64.8000\\n3.39×1.52＝5.1528\\n6.93×6.63＝45.9459\\n",
+          "'0.61×3.58＝2.1838\\n計　118.0825\\n床面積　118.08㎡'",
+          "3階\\n6.63×6.63＝43.9569\\n0.91×3.05＝2.7755\\n計　46.7324\\n床面積　46.73㎡",
+          "DOT2[1:] + DOT2[:1]", "for v in F1], color=BLACK, lw=1.4, ls=':')",
+          "assert round(area(f1), 4) == 89.1 and round(area(f2), 4) == 118.0825 and round(area(f3), 4) == 46.7324"]:
+    check('各階平面図の欄（図8）', n, z08, '作図')
+absent('作成者欄の作成日（この年度の答案用紙にはない）', '何月何日作成', z08, '作図')
+check('建物図面の欄（記事）', '上の欄に家屋番号『5番27』と建物の所在『A市B町二丁目5番地27』を書くこと。下の申請人の欄は（略）と印刷済みよ')
+check('各階平面図の完成形（記事）', '第3欄の左半分に、1階・2階・3階を同じ縮尺で並べて、それぞれの横に求積表と床面積')
+check('各階平面図の作成者欄（記事）', '作成者の欄は（略）と印刷済みなので、書くのは図と求積表だけですね')
+check('答案用紙の欄（プロンプト）', '`public/kijutsu/H28-tatemono/a2.webp`', fig, '解説図')
+check('図8の求積表（プロンプト）', '2階：9.00×7.20＝64.8000、3.39×1.52＝5.1528、6.93×6.63＝45.9459、0.61×3.58＝2.1838、計　118.0825、床面積　118.08㎡', fig, '解説図')
+# 問ごとの答えの明示（この年度に穴埋めはない。問2は3つの語句を使う記述、問1は申請書、問3は図面）
+ans2 = text[text.index('問2は、こう書きます。'):text.index('> 【画像挿入】第2欄')]
+for w_ in ['構造上の独立性', '利用上の独立性', '一不動産一登記記録の原則']:
+    check('問2の答えに語句', w_, ans2, '記事（問2の答え）')
+check('問1の登記の目的を会話で', '『建物表題部変更登記』です')
+check('問3の建物図面の距離を会話で', '西の0.90と0.90、南の0.80を書きます')
 
 print('NG件数:', ng)
