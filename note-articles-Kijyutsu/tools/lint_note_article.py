@@ -15,6 +15,9 @@
     - 会話形式の長すぎるセリフ（2026-10-02追加）：noteの本文の1行を全角44字（半角は0.5字）とみなし、
       260字（約6行。目安は5行＝220字）を超える段落と、3段落を超える1つのセリフを違反として出す
       （執筆プロンプトの「セリフの長さ」。セリフの続きの段落は空行のあとに話者名なしで続き、最後の段落が」で閉じる）
+    - 会話形式の同じ話者の連続（2026-10-02追加）：話者名の行が同じ話者で続くもの。画像挿入マーカーとセリフの続きの段落は
+      読み飛ばし、箇条書き・表・コードブロック・計算の結果の行（**▶ 〜**、表示：）・見出し・区切り線をはさむものは数えない
+      （年度ごとの照合スクリプトで判定がまちまちで、マーカーをはさむ連続の見逃しが多かったため、全記事で共通に確かめる）
 """
 import re
 import sys
@@ -62,6 +65,25 @@ def long_lines(lines):
             out.append((i + 2, f'1つのセリフが{len(paras)}段落（上限{MAX_PARAS}段落）'))
     return out
 
+SPEAKERS = ('**トリ先生**', '**藍子**')
+
+
+def same_speaker(lines):
+    """同じ話者が続く話者名の行を (行番号, 話者) で返す。"""
+    out, prev, broken = [], None, False
+    for i, line in enumerate(lines, 1):
+        t = line.rstrip()
+        if t in SPEAKERS:
+            if t == prev and not broken:
+                out.append((i, t.strip('*')))
+            prev, broken = t, False
+        elif t.startswith(('#', '---')):
+            prev = None
+        elif re.match(r'^(\s*[-*] |\s*\d+\. |\||```|\*\*▶|表示：)', t):
+            broken = True
+    return out
+
+
 EMOJI = re.compile('[\U0001F300-\U0001FAFF☀-➿]')
 
 
@@ -88,6 +110,8 @@ def lint(path):
             problems.append(f'{i}: 絵文字があります')
     for n, msg in long_lines(lines):
         problems.append(f'{n}: セリフが長すぎます（{msg}）。相手の短い受け答えをはさむ・箇条書きに出す・「。」の後ろで改行する')
+    for n, who in same_speaker(lines):
+        problems.append(f'{n}: 同じ話者（{who}）のセリフが続いています。相手の短い受け答えをはさむか、1つのセリフにまとめる')
     n_shiki = text.count('式（点名）')
     n_dentaku = len(re.findall(r'^電卓操作', text, re.M))
     print(f'== {path}')
