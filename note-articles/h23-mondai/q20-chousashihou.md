@@ -100,6 +100,7 @@ Dは、Aから筆界特定1について正式に代理する事務を受任し�
 - **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：土地家屋調査士法22条の2（業務を行い得ない事件）・36条の3（特定の事件についての業務の制限）・37条（社員の競業の禁止）の現行条文構造を確認しました。令和2年（2020年）8月1日施行の同法改正は懲戒権者の変更（法務局長等→法務大臣）や清算結了後の法人への懲戒手続に関するものであり、本問が扱う業務制限（代理・書類作成の受任制限、競業禁止）そのものへの実体的な変更ではないため、本問の内容への影響はありません。
 - **適用法令の現行性チェック（2026-10-01実施）**：`note-articles/laws/chousashi-hou.md`（2026-08-04取得。e-Govの現行版で、デジタル社会形成基本法等の一部改正による2026-05-21施行分まで反映）で、土地家屋調査士法3条1項・22条の2第2項・36条の3第1項・37条1項を条文原文で確認しました。本文の条文番号・用語・要件は現行法と整合しており、本文の変更はありません（正誤判定も変わりません）。取得日（2026-08-04）以降に施行された改正の有無は、e-Govで再確認していません。補足は次の3点です。（1）同意で受任できる例外は、個人の調査士は22条の2第2項3号と7号、調査士法人は36条の3第1項3号だけです。イ（37条1項の競業禁止）・ウ（22条の2第2項4号）・エ（36条の3第1項2号）・オ（同項4号）は、いずれもただし書の対象外で、同意があっても受任できません。（2）導入文・まとめの末尾・②のタイトルは、当初「代理か書類作成かで、同意による例外が使えるかどうかが変わる」という言い回し（3号かっこ書〈3条1項5号の書類作成として受任している事件は3号の対象から除かれる〉に由来する簡略化）でしたが、ウ・エ・オの結論（同意があっても受任できない）は代理か書類作成かでは変わらないため、2026-10-01に「同意で受任できる例外は限られる」という整理に改めました（図解も本文と揃えています）。（3）図解の整合の面では、②のカード4（エ）が本文の要件「協議の程度及び方法が信頼関係に基づくと認められるもの」を落とさないよう、見出し・結論タグ・図解に「信頼関係」を入れました。⑤のパネル1では、問題文に登場しない人物（丁土地の名義人）を描かせないようにし、パネル4では「正式な受任がない」ことを、取消しの✕ではなく薄い点線の矢印で表しました。⑤の共有決定木は、法人自身の枝のひし形を「どの号に該当するか」という条文を問うメタな問いから、法人側が相手方から先に何を受けているかを問う事実の問いに改めました。
 - **⑤作図ガイドの構成変更（2026-10-02実施）**：ア〜オの各パネルに同じ決定木のミニチュアを入れる構成をやめ、①ヘッダー直下に共有フローチャートを1枚だけ大きく描き（ひし形4つ・結論5つ。ア〜オの記号付きの結論ボックスを全部同時にフルカラーで表示）、②その下にア〜オの5枚の解説カード（見出し・「道すじ」の文字帯・系統図・着眼点・結論タグ）を並べる構成に作り直しました。カードの着眼点・結論タグ・系統図の描写は従来のままで、本文との整合も変わりません。画像は作り直しが必要です（縦長1080×4200）。
+- **⑤完成画像の検査（2026-10-02実施）**：生成画像を本文・プロンプトと照合し、フローチャート（ひし形4つ・結論5つ）と5枚のカードの文言・着眼点・結論タグは一致していることを確認しました。見つかった不備は3点で、プロンプトに対策を足しました。（1）カードイで、筆界特定2の依頼人Bが「乙土地の名義人」と表示されていた（正しくは丙土地の名義人。カードアと不一致）。（2）カードアで、同意を得て実線になるはずの筆界特定2の矢印が点線のまま。（3）カードオで、着眼点の文末と結論タグが近接・接触。
 
 ---
 
@@ -330,7 +331,7 @@ rounded text pills joined by right-pointing arrows (text given below;
 this is a plain text chain, NOT a miniature copy of the flowchart); the
 card-specific relationship diagram (系統図); the 着眼点 callout; and the
 conclusion tag. Use the same badge kana (ア〜オ) and the same leaf color
-as in ZONE 1 so each card visibly matches its leaf.
+as in ZONE 1 so each card visibly matches its leaf. Layout rule for every card: the conclusion tag must be placed in its own reserved space BELOW the 着眼点 callout (or clearly outside it) with a visible gap, and it must never overlap or touch the callout text; make the last card tall enough (and keep the footer on its own line below the tag) so that the callout, the tag and the footer never collide.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -385,8 +386,9 @@ with B(乙土地の名義人) drawn on the opposite side as the 相手方. To th
 right, B(丙土地の名義人) and C connected by a dotted 代理 arrow from B to C
 labelled 筆界特定2, with a 丁土地 land-plot icon on the other side (draw a
 land plot only; do NOT draw any additional person for 丁土地), and a 同意
-speech-bubble stamp from A reaching toward C and turning the dotted arrow
-solid.
+speech-bubble stamp from A reaching toward C; draw the B-to-C 筆界特定2
+arrow itself as a SOLID arrow (consent has been given), while keeping it
+visibly linked to the 同意 stamp, and do not leave it dotted.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Cが新たに引き受けようとしているのが、個人の調査士としての受任であ
 り、法人の競業にあたる話ではないことを確認します。次に、その事件がCが現
@@ -404,8 +406,8 @@ Heading (bold, ONE line):
 個人の調査士 → 法人の業務範囲内の競業にあたる → 同意があっても不可
 Diagram: A relationship diagram (系統図): A and D(調査士法人、建物アイコン
 の中にEを小さく配置) connected by a solid 代理 arrow from A to D labelled
-筆界特定1, with B drawn on the opposite side as the 相手方, and with E drawn inside D's office-building icon surrounded by a
-faded dotted circle labelled 筆界特定1には関与していない. A second arrow
+筆界特定1 (draw no other person on the 相手方 side of this first arrow; leave it simple), and with E drawn inside D's office-building icon surrounded by a
+faded dotted circle labelled 筆界特定1には関与していない. On the right, B drawn as 丙土地の名義人 with a 丙土地 land-plot icon (do NOT label B 乙土地の名義人 here, because 筆界特定2 concerns 丙土地 and 丁土地, not 乙土地). A second arrow
 from B to E labelled 筆界特定2の代理を個人として受任 has a 同意 speech-
 bubble stamp from A reaching toward it, yet a red ✕ blocks the arrow.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
