@@ -68,6 +68,7 @@ table.land td .ink {{ font-size: 24px; }}
 table.land td.cause .ink {{ font-size: 22px; line-height: 1.45; }}
 .shokuin {{ text-align: right; font-size: 22px; margin: 10px 0 0; letter-spacing: 0.3em; }}
 .shokuin span {{ border: 1.5px solid #111; padding: 0 4px; letter-spacing: 0; }}
+.tnote {{ font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px; font-family: {SANS}; }}
 /* 添削画像 */
 .panel {{ padding: 26px 70px 28px; border-bottom: 2px solid #bbb; }}
@@ -169,6 +170,7 @@ kansei = page(f'''<div class="page">
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="addr">Ａ市Ｂ町一丁目２番３号</div><div class="name">東田太郎　㊞</div></div>
 <div class="renraku">（連絡先　＊＊－＊＊＊＊－＊＊＊＊）</div>
 {land_table(ROWS)}
+<div class="tnote">※相続証明書は、今は法定相続情報一覧図の写し又は法定相続情報番号の提供で代えることもできる（不動産登記規則第37条の3第1項）。出題当時は法定相続情報番号の制度がなかった</div>
 <div class="shokuin">土地家屋調査士　東田太郎　<span>職印</span></div>
 <div class="caption">平成20年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
 </div>''')
