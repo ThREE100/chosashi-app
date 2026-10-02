@@ -179,9 +179,9 @@ check('別解の打ち込む値（Bの離れ）', '0 [−] 18.4313 [÷] [Abs]')
 dz = (I - A).conjugate() * (E - H)
 check('（ロ）の対角線 表示', '表示：' + disp(dz))
 judge('対角線の倍面積と4点の倍面積のiの係数が一致', abs(abs(dz.imag) - abs(double_area_sum(RO).imag)) < 1e-9)
-check('図9のtの値（H・切り捨て）', fmt_num((11.5680 - 1) / (11.5680 + 3.0272)), draw.replace('{fmt_num(tH2)}', fmt_num((11.5680 - 1) / (11.5680 + 3.0272))), '作図')
-check('図9のtの値（プロンプト）', 'H：t ＝ ' + fmt_num((11.5680 - 1) / (11.5680 + 3.0272)), fig, '解説図')
-check('図9のtの値（I・プロンプト）', 'I：t ＝ ' + fmt_num((11.3225 - 1) / (11.3225 + 9.0605)), fig, '解説図')
+check('図6のtの値（H・切り捨て）', fmt_num((11.5680 - 1) / (11.5680 + 3.0272)), draw.replace('{fmt_num(tH2)}', fmt_num((11.5680 - 1) / (11.5680 + 3.0272))), '作図')
+check('図6のtの値（プロンプト）', 'H：t ＝ ' + fmt_num((11.5680 - 1) / (11.5680 + 3.0272)), fig, '解説図')
+check('図6のtの値（I・プロンプト）', 'I：t ＝ ' + fmt_num((11.3225 - 1) / (11.3225 + 9.0605)), fig, '解説図')
 for s in ['問題文の注3', '問題文の注4', '問題文の注5', '問題文の注6', '観測値の表の注1', '調査図素図の注',
           '毎年ほぼ同じ', '今年の答えに効く']:
     check('注の書き分け', s)
@@ -288,16 +288,19 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 judge(f'話者名の行（ハードブレーク）: 不備 {bad_speaker}', not bad_speaker)
 same = []
-for i, l in enumerate(lines):
-    if l.rstrip() in ('**トリ先生**', '**藍子**'):
-        j = i + 2
-        while j < len(lines) and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
-            j += 1
-        if j < len(lines) and lines[j].rstrip() == l.rstrip():
-            same.append(i + 1)
+# 同じ話者のセリフが、空行・画像挿入マーカー・セリフの続きの段落だけをはさんで続いていないか（2026-10-02、マーカーを読み飛ばす形に直した）。
+# 箇条書き・計算（式・電卓操作・表示・答えの行・コードブロック）・区切り線・見出しをはさむものは数えない。
+spk_ = [(k_, l_.rstrip()) for k_, l_ in enumerate(lines) if l_.rstrip() in ('**トリ先生**', '**藍子**')]
+for (i_, a_), (j_, b_) in zip(spk_, spk_[1:]):
+    if a_ != b_:
+        continue
+    mid_ = [l_ for l_ in lines[i_ + 2:j_] if l_.strip()]
+    if not any(l_.startswith(('- ', '```', '表示：', '式（', '電卓操作', '**▶', '---', '#')) or re.match(r'^\d+\. ', l_)
+               for l_ in mid_):
+        same.append(j_ + 1)
 judge(f'同じ話者のセリフの連続: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋完成形1＝計{N_FIG + 2}か所の想定）', n_marker == N_FIG + 2)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋第1欄・第2欄の完成形2＋添削1＋申請書の完成形1）', n_marker == N_FIG + 4)
 all_png = [f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png')]
 judge(f'画像挿入マーカーの数とzu/のPNGの数が一致（{n_marker}・{len(all_png)}）', n_marker == len(all_png))
 judge('記事の最後が区切り線', lines[-1] == '---')
@@ -311,5 +314,78 @@ check('見出し画像のラベル', '土地家屋調査士受験生向け', thu
 check('見出し画像の半角英字の例外', 'the Latin\nletter "m" (meters)', thumb, '見出し画像')
 check('解説図プロンプトのタイトル', title[2:], fig, '解説図')
 check('添削プロンプトのタイトル', title[2:], fix, '添削')
+
+PNGS = [('H29_dai21mon_zu01_zentaizu', '全体図', 'fig'),
+        ('H29_dai21mon_zu02_chuu_shiwake', '注の仕分けの図', 'fig'),
+        ('H29_dai21mon_zu03_C_housha', 'C点を求める図', 'fig'),
+        ('H29_dai21mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
+        ('H29_dai21mon_zu04_H_kouten', 'H点の求め方の図', 'fig'),
+        ('H29_dai21mon_zu05_I_kouten', 'I点の求め方の図', 'fig'),
+        ('H29_dai21mon_zu06_HI_betsukai', 'H点・I点の別解の図', 'fig'),
+        ('H29_dai21mon_zu07_ro_taikakusen', '対角線で出す図', 'fig'),
+        ('H29_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
+        ('H29_dai21mon_zu08_kousa', '公差の判定図', 'fig'),
+        ('H29_dai21mon_toukishinseisho_machigai', '誤答→添削→正解', 'tall'),
+        ('H29_dai21mon_zu09_bunpitsu_chiban', '分筆後の区画と地番の図', 'fig'),
+        ('H29_dai21mon_toukishinseisho_kansei', '登記申請書（問3）の完成形', 'tall'),
+        ('H29_dai21mon_zu10_chiseki_sokuryouzu', '地積測量図（100番1、100番2）の完成見本', 'fig'),
+        ('H29_dai21mon_zu11_toku_junban', '本番で解く順番の図', 'fig')]
+# ---- 画像（2026-10-02追加）：記事の画像挿入マーカーと zu/ のPNGが、記事の順に対応しているか ----
+# 解説図の番号を記事の挿入順に振り直し、申請書でない解答欄（第1欄・第2欄）の完成形を足した。
+from PIL import Image  # noqa: E402
+ZU = os.path.join(HERE, 'zu')
+markers = [l for l in text.splitlines() if l.startswith('> 【画像挿入】')]
+judge(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
+for (name_, key_, kind_), m_ in zip(PNGS, markers):
+    path_ = os.path.join(ZU, name_ + '.png')
+    ok_ = os.path.exists(path_) and key_ in m_
+    if ok_:
+        w_, h_ = Image.open(path_).size
+        ok_ = {'tall': w_ == 1200 and h_ > w_, 'wide': w_ == 1200 and h_ < w_, 'fig': w_ == 1600}[kind_]
+    judge(f'PNG（マーカー順・大きさ） : {name_}（{key_}）', ok_)
+    src_ = fig if '_zu' in name_ else (fix if 'machigai' in name_ else form)
+    judge(f'プロンプトにファイル名 : zu/{name_}.png', f'zu/{name_}.png' in src_)
+extra_ = sorted(set(f_[:-4] for f_ in os.listdir(ZU) if f_.endswith('.png')) - {n_ for n_, _, _ in PNGS})
+judge(f'zu/ に記事で使わないPNGがない {extra_}', not extra_)
+fig_order = [int(x_) for x_ in re.findall(r'^- \*\*図(\d+)：', fig, re.M)]
+judge(f'解説図プロンプトの図の一覧が番号順（{fig_order}）', fig_order == sorted(fig_order))
+zu_order = [int(n_.split('_zu')[1][:2]) for n_, _, _ in PNGS if '_zu' in n_]
+judge(f'解説図の番号が記事の挿入順（{zu_order}）', zu_order == list(range(1, len(zu_order) + 1)))
+lines_ = text.splitlines()
+
+
+def after_(key, prev):
+    """マーカー（key を含む）の直前の空行でない行に prev があるか（その問の答えの直後に置いたか）"""
+    i_ = [k_ for k_, l_ in enumerate(lines_) if l_.startswith('> 【画像挿入】') and key in l_]
+    j_ = i_[0] - 1 if i_ else -1
+    while j_ >= 0 and not lines_[j_].strip():
+        j_ -= 1
+    judge(f'「{key}」のマーカーが答えの直後（直前の行に「{prev}」）', j_ >= 0 and prev in lines_[j_])
+
+
+after_('第1欄（問1）の完成形', '**▶ I点（366.75, 297.27）**')
+after_('第2欄（問2）の完成形', '根拠の条文（準則第72条第1項）も最後に添えておきます')
+html_1 = open(os.path.join(ZU, 'H29_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
+html_2 = open(os.path.join(ZU, 'H29_dai21mon_dai2ran_kansei.html'), encoding='utf-8').read()
+for s_ in ['第１欄　Ｃ点，Ｈ点及びＩ点の座標値', 'Ｘ座標（m）', 'Ｙ座標（m）', '>379.06<', '>310.02<', '>380.99<', '>299.87<',
+           '>366.75<', '>297.27<', '第1欄（問1）解答例']:
+    check('第1欄の画像（HTML）', s_, html_1, '第1欄画像')
+for s_ in ['第２欄　地積の更正の登記を申請することの要否及びその理由について', '地積の更正の登記を申請することの要否',
+           '>地積の更正の登記を申請する必要がある<', '要否の理由',
+           '合筆後の分筆前の地積297.52㎡を基準にした公差は1.57㎡であり、分筆後の地積の合計299.84㎡との差2.32㎡は、この公差を超えるため',
+           '第2欄（問2）解答例']:
+    check('第2欄の画像（HTML）', s_, html_2, '第2欄画像')
+for s_ in ['Ｃ点「379.06」「310.02」、Ｈ点「380.99」「299.87」、Ｉ点「366.75」「297.27」', '「地積の更正の登記を申請する必要がある」',
+           'public/kijutsu/H29-tochi/a1.webp']:
+    check('第1欄・第2欄の画像のプロンプト', s_, form, '登記申請書')
+# 法改正（3-0：法定相続情報番号）：答えは「相続証明書」のまま、今の法令の注を記事・プロンプト・画像にそろえる
+NOTE_ = ('相続証明書は、今は法定相続情報一覧図の写し又は法定相続情報番号の提供で代えることもできる'
+         '（不動産登記規則第37条の3第1項）。出題当時は法定相続情報番号の制度がなかった')
+check('法定相続情報番号の注（記事）', '今は、法定相続情報一覧図の写し又は法定相続情報番号を提供して、相続証明書に代えることもできる（不動産登記規則第37条の3第1項。出題当時は法定相続情報番号の制度がなかった）')
+check('法定相続情報番号の注（プロンプト）', NOTE_, form, '登記申請書')
+check('法定相続情報番号の注（完成形の画像）', NOTE_, html_k, '完成形画像')
+check('問題文の注6の書き分け', '問題文の注6でA201・A202も描くから')
+absent('どの注か分からない書き方（解説図プロンプトの差し替えデータ）', '（注3）', fig[fig.index('## 差し替えデータ'):], '解説図')
+absent('どの注か分からない書き方（登記申請書プロンプト）', '不要（注9）', form, '登記申請書')
 
 print('NG件数:', ng)

@@ -7,6 +7,7 @@
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
 見本：`../../../R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`
 実行: python3 note-articles-Kijyutsu/R1/Q21/zu/make_R1_dai21mon_shinseisho_gazou.py [出力フォルダ]
+第1欄・第2欄の画像：問1・問2（欄の形は平成30年度にならった仮のもの）の、申請書でない解答欄の完成形（横1200px。2026-10-02追加）
 """
 import glob
 import os
@@ -160,17 +161,69 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">令和元年度 第21問｜地積更正と分筆は一の申請情報で、（イ）は5番１に①③</div>''')
 
+
+# ---- 申請書でない解答欄（第1欄・第2欄など）の完成形（2026-10-02追加。執筆ルール「申請書でない解答欄の画像」） ----
+RAN_CSS = f"""
+* {{ box-sizing: border-box; margin: 0; padding: 0; }}
+body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }}
+.ran {{ padding: 50px 60px 34px; }}
+.ran h2 {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 22px; }}
+table.ans {{ width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }}
+table.ans td {{ border: 1.5px solid #111; font-size: 22px; height: 68px; padding: 0 18px; vertical-align: middle; }}
+table.ans td.c {{ text-align: center; }}
+table.ans td.lab {{ height: 46px; font-size: 20px; }}
+table.ans td.long {{ height: auto; padding: 16px 18px; line-height: 1.75; }}
+table.ans .ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 24px; }}
+.ran .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 26px;
+                font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
+"""
+
+
+def ran_page(title, table_html, caption):
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{RAN_CSS}</style></head><body>'
+            f'<div class="ran"><h2>{title}</h2>{table_html}<div class="caption">{caption}</div></div></body></html>')
+
+
+def zahyou_table(rows):
+    """座標値の表（答案用紙どおり：見出し行は空欄・X座標（m）・Y座標（m））。rows: [(点名, X, Y)]"""
+    h = ['<table class="ans"><colgroup><col style="width:30%"><col style="width:35%"><col style="width:35%"></colgroup>',
+         '<tr><td class="c"></td><td class="c">Ｘ座標（m）</td><td class="c">Ｙ座標（m）</td></tr>']
+    for n, x, yy in rows:
+        h.append(f'<tr><td class="c">{n}</td><td class="c"><span class="ink">{x}</span></td>'
+                 f'<td class="c"><span class="ink">{yy}</span></td></tr>')
+    return ''.join(h) + '</table>'
+
+
+def kigou_table(rows, w=30, center=True):
+    """記号（ア〜エ、（1）〜（3）など）と記入欄の2列の表。rows: [(記号, 答え)]"""
+    cls = 'c' if center else ''
+    h = [f'<table class="ans"><colgroup><col style="width:{w}%"><col style="width:{100 - w}%"></colgroup>']
+    for k, v in rows:
+        h.append(f'<tr><td class="{cls}">{k}</td><td class="long"><span class="ink">{v}</span></td></tr>')
+    return ''.join(h) + '</table>'
+
+# 令和元年度の試験の答案用紙はリポジトリにないため、欄の形は同じ時期（平成30年度）の答案用紙の座標値の表・記号の表にならった仮のもの。
+# 欄の番号が確かめられないので、見出しは「問１」「問２」にした（試験の答案用紙で確かめたら合わせて直す）。
+dai1 = ran_page('問１　Ｄ点及びＧ点の座標値', zahyou_table([('Ｄ点', '289.00', '300.00'), ('Ｇ点', '290.18', '310.80')]),
+                '令和元年度 土地家屋調査士試験 第21問 問1 解答例')
+dai2 = ran_page('問２　筆界特定（平成18年9月の申請）',
+                kigou_table([('（1）対象土地の地番', '6番、5番'), ('（2）関係土地の地番', '2番32、3番3、100番'),
+                             ('（3）関係人の氏名又は名称', '北冬子、山川一郎、東春男、東春子、西秋男、Ａ市')], w=34, center=False),
+                '令和元年度 土地家屋調査士試験 第21問 問2 解答例')
+RAN = [('R1_dai21mon_dai1ran_kansei', dai1), ('R1_dai21mon_dai2ran_kansei', dai2)]
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
     pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('R1_dai21mon_toukishinseisho_kansei', kansei), ('R1_dai21mon_toukishinseisho_machigai', machigai)]:
+    for name, html in [('R1_dai21mon_toukishinseisho_kansei', kansei), ('R1_dai21mon_toukishinseisho_machigai', machigai)] + RAN:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
+        pg.set_viewport_size({'width': 1200, 'height': 200 if 'ran_kansei' in name else 800})
         pg.set_content(html)
         pg.wait_for_timeout(300)
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長'))
     browser.close()

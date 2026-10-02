@@ -174,7 +174,7 @@ for i in range(1, 14):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'R1_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\(|seiri_zu\()'図(\d+)　", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, 14)))
+judge(f'作図スクリプトの図のタイトル番号が1から13まで（{sorted(nums)}）', sorted(nums) == list(range(1, 14)))
 for s in ['（289.00, 300.00）', '（290.18, 310.80）', '（281.77, 300.07）', '（290.18, 310.62）', '89°27′54.92″', '310°01′45″',
           '399°29′39.92″', '39°29′39.92″', '0.6001… − 0.6111…i', '112.51', '18.72', '82.78', '214.01', '214.02', '111.51',
           '83.76', '1.31', '1.28', '2.57', '7.4254', '10.6853', '18.0013', '横約72mm・縦約52mm', '横約84mm・縦約67mm',
@@ -249,16 +249,19 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 judge(f'話者名の行（ハードブレーク）: 不備 {bad_speaker}', not bad_speaker)
 same = []
-for i, l in enumerate(lines):
-    if l.rstrip() in ('**トリ先生**', '**藍子**'):
-        j = i + 2
-        while j < len(lines) and not lines[j].strip():
-            j += 1
-        if j < len(lines) and lines[j].rstrip() == l.rstrip():
-            same.append(i + 1)
+# 同じ話者のセリフが、空行・画像挿入マーカー・セリフの続きの段落だけをはさんで続いていないか（2026-10-02、マーカーを読み飛ばす形に直した）。
+# 箇条書き・計算（式・電卓操作・表示・答えの行・コードブロック）・区切り線・見出しをはさむものは数えない。
+spk_ = [(k_, l_.rstrip()) for k_, l_ in enumerate(lines) if l_.rstrip() in ('**トリ先生**', '**藍子**')]
+for (i_, a_), (j_, b_) in zip(spk_, spk_[1:]):
+    if a_ != b_:
+        continue
+    mid_ = [l_ for l_ in lines[i_ + 2:j_] if l_.strip()]
+    if not any(l_.startswith(('- ', '```', '表示：', '式（', '電卓操作', '**▶', '---', '#')) or re.match(r'^\d+\. ', l_)
+               for l_ in mid_):
+        same.append(j_ + 1)
 judge(f'同じ話者のセリフの連続: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図13＋添削1＋完成形1＝計15か所の想定）', n_marker == 15)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図13＋第1欄・第2欄の完成形2＋添削1＋申請書の完成形1）', n_marker == 17)
 pngs = [f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png')]
 judge(f'画像挿入マーカーの数だけPNGが zu/ にある（{len(pngs)}枚）', len(pngs) == n_marker)
 judge('記事の最後が区切り線', lines[-1] == '---')
@@ -271,5 +274,74 @@ check('見出し画像のタイトル', '令和元年度問題21（土地）', t
 check('見出し画像のラベル', '土地家屋調査士受験生向け', thumb, '見出し画像')
 check('解説図プロンプトのタイトル', title[2:], fig, '解説図')
 check('添削プロンプトのタイトル', title[2:], fix, '添削')
+
+PNGS = [('R1_dai21mon_zu01_chuu_shiwake', '注の仕分けの図', 'fig'),
+        ('R1_dai21mon_zu02_zentaizu', '全体図', 'fig'),
+        ('R1_dai21mon_zu03_D_housha', 'D点を求める図', 'fig'),
+        ('R1_dai21mon_dai1ran_kansei', '問1の完成形', 'wide'),
+        ('R1_dai21mon_zu04_G_suisen', 'G点の求め方の図', 'fig'),
+        ('R1_dai21mon_zu05_G_betsukai', 'G点の別解の図', 'fig'),
+        ('R1_dai21mon_zu06_taishou_kankei_tochi', '問2（1）（2）の図', 'fig'),
+        ('R1_dai21mon_dai2ran_kansei', '問2の完成形', 'wide'),
+        ('R1_dai21mon_zu07_kankeinin', '関係人の整理図', 'fig'),
+        ('R1_dai21mon_zu08_bunpitsu_chiseki', '分筆後の区画と地積の図', 'fig'),
+        ('R1_dai21mon_zu09_taikakusen', '対角線で出す別解の図', 'fig'),
+        ('R1_dai21mon_zu10_kousa', '公差の判定図', 'fig'),
+        ('R1_dai21mon_zu11_chimoku', '地目の判断の図', 'fig'),
+        ('R1_dai21mon_toukishinseisho_machigai', '誤答→添削→正解', 'tall'),
+        ('R1_dai21mon_toukishinseisho_kansei', '登記申請書（問3）の完成形', 'tall'),
+        ('R1_dai21mon_zu12_chiseki_sokuryouzu', '地積測量図（5番1・5番2・5番3）の完成見本', 'fig'),
+        ('R1_dai21mon_zu13_toku_junban', '解く順番と時間配分の図', 'fig')]
+# ---- 画像（2026-10-02追加）：記事の画像挿入マーカーと zu/ のPNGが、記事の順に対応しているか ----
+# 解説図の番号を記事の挿入順に振り直し、申請書でない解答欄（第1欄・第2欄）の完成形を足した。
+from PIL import Image  # noqa: E402
+ZU = os.path.join(HERE, 'zu')
+markers = [l for l in text.splitlines() if l.startswith('> 【画像挿入】')]
+judge(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
+for (name_, key_, kind_), m_ in zip(PNGS, markers):
+    path_ = os.path.join(ZU, name_ + '.png')
+    ok_ = os.path.exists(path_) and key_ in m_
+    if ok_:
+        w_, h_ = Image.open(path_).size
+        ok_ = {'tall': w_ == 1200 and h_ > w_, 'wide': w_ == 1200 and h_ < w_, 'fig': w_ == 1600}[kind_]
+    judge(f'PNG（マーカー順・大きさ） : {name_}（{key_}）', ok_)
+    src_ = fig if '_zu' in name_ else (fix if 'machigai' in name_ else form)
+    judge(f'プロンプトにファイル名 : zu/{name_}.png', f'zu/{name_}.png' in src_)
+extra_ = sorted(set(f_[:-4] for f_ in os.listdir(ZU) if f_.endswith('.png')) - {n_ for n_, _, _ in PNGS})
+judge(f'zu/ に記事で使わないPNGがない {extra_}', not extra_)
+fig_order = [int(x_) for x_ in re.findall(r'^- \*\*図(\d+)：', fig, re.M)]
+judge(f'解説図プロンプトの図の一覧が番号順（{fig_order}）', fig_order == sorted(fig_order))
+zu_order = [int(n_.split('_zu')[1][:2]) for n_, _, _ in PNGS if '_zu' in n_]
+judge(f'解説図の番号が記事の挿入順（{zu_order}）', zu_order == list(range(1, len(zu_order) + 1)))
+lines_ = text.splitlines()
+
+
+def after_(key, prev):
+    """マーカー（key を含む）の直前の空行でない行に prev があるか（その問の答えの直後に置いたか）"""
+    i_ = [k_ for k_, l_ in enumerate(lines_) if l_.startswith('> 【画像挿入】') and key in l_]
+    j_ = i_[0] - 1 if i_ else -1
+    while j_ >= 0 and not lines_[j_].strip():
+        j_ -= 1
+    judge(f'「{key}」のマーカーが答えの直後（直前の行に「{prev}」）', j_ >= 0 and prev in lines_[j_])
+
+
+after_('問1の完成形', '**▶ G点（290.18, 310.80）**')
+after_('問2の完成形', '- **（3）関係人の氏名又は名称**：北冬子、山川一郎、東春男、東春子、西秋男、A市')
+# 問2の答えを、会話の中で語として言っているか（2026-10-02、R5/Q22の照らし直しから）
+for s_ in ['だから（1）は5番と6番', '（2）は2番32、3番3、100番', '北冬男さんを外して、北冬子、山川一郎、東春男、東春子、西秋男、A市']:
+    check('問2の答えを会話で明示', s_)
+html_1 = open(os.path.join(ZU, 'R1_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
+html_2 = open(os.path.join(ZU, 'R1_dai21mon_dai2ran_kansei.html'), encoding='utf-8').read()
+for s_ in ['問１　Ｄ点及びＧ点の座標値', 'Ｘ座標（m）', 'Ｙ座標（m）', '>289.00<', '>300.00<', '>290.18<', '>310.80<', '問1 解答例']:
+    check('問1の画像（HTML）', s_, html_1, '問1画像')
+for s_ in ['（1）対象土地の地番', '>6番、5番<', '（2）関係土地の地番', '>2番32、3番3、100番<', '（3）関係人の氏名又は名称',
+           '>北冬子、山川一郎、東春男、東春子、西秋男、Ａ市<', '問2 解答例']:
+    check('問2の画像（HTML）', s_, html_2, '問2画像')
+absent('問2の画像に申請人の北冬男がない', '北冬男', html_2, '問2画像')
+for s_ in ['Ｄ点「289.00」「300.00」、Ｇ点「290.18」「310.80」', '「（3）関係人の氏名又は名称」に「北冬子、山川一郎、東春男、東春子、西秋男、Ａ市」',
+           '**仮のもの**']:
+    check('問1・問2の画像のプロンプト', s_, form, '登記申請書')
+check('問題文の注の書き分け', '今年だけなのは問題文の注5と注6')
+absent('どの注か分からない書き方（解説図プロンプトの差し替えデータ）', '（注3）', fig[fig.index('## 差し替えデータ'):], '解説図')
 
 print('NG件数:', ng)

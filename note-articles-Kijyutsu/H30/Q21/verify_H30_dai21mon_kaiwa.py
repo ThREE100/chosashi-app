@@ -213,7 +213,7 @@ for i in range(1, 12):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'H30_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\()'図(\d+)　", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, 12)))
+judge(f'作図スクリプトの図のタイトル番号が1から11まで（{sorted(nums)}）', sorted(nums) == list(range(1, 12)))
 for s in ['271°16′26.04″', '−88°43′33.96″', '116°50′31″', '4°00′58.26″', '848.5619 ÷ 399.4435', '2.1243…',
           '（−50744.12, −14869.40）', '（−50731.33, −14879.67）', '0.79', '187.18645', '191.65', '4.47',
           '253.60035', '1.43', '4.13', '253.03', '244.561', '9.03935', '0.8050…', '約90mm', '約54mm', '約94mm', '約67mm',
@@ -272,16 +272,19 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
                if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
 judge(f'話者名の行（ハードブレーク）: 不備 {bad_speaker}', not bad_speaker)
 same = []
-for i, l in enumerate(lines):
-    if l.rstrip() in ('**トリ先生**', '**藍子**'):
-        j = i + 2
-        while j < len(lines) and not lines[j].strip():
-            j += 1
-        if j < len(lines) and lines[j].rstrip() == l.rstrip():
-            same.append(i + 1)
+# 同じ話者のセリフが、空行・画像挿入マーカー・セリフの続きの段落だけをはさんで続いていないか（2026-10-02、マーカーを読み飛ばす形に直した）。
+# 箇条書き・計算（式・電卓操作・表示・答えの行・コードブロック）・区切り線・見出しをはさむものは数えない。
+spk_ = [(k_, l_.rstrip()) for k_, l_ in enumerate(lines) if l_.rstrip() in ('**トリ先生**', '**藍子**')]
+for (i_, a_), (j_, b_) in zip(spk_, spk_[1:]):
+    if a_ != b_:
+        continue
+    mid_ = [l_ for l_ in lines[i_ + 2:j_] if l_.strip()]
+    if not any(l_.startswith(('- ', '```', '表示：', '式（', '電卓操作', '**▶', '---', '#')) or re.match(r'^\d+\. ', l_)
+               for l_ in mid_):
+        same.append(j_ + 1)
 judge(f'同じ話者のセリフの連続: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図11＋添削1＋完成形1＝計13か所の想定）', n_marker == 13)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図11＋第1欄・第2欄の完成形2＋添削1＋申請書の完成形1）', n_marker == 15)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成30年度問題21（土地）〜'
@@ -297,5 +300,71 @@ check('添削プロンプトのタイトル', title[2:], fix, '添削')
 for s in ['- **X**：T1′（D点を求めた後は、H′に使い回す）', '- **Y**：T2′（D点を求めた後は、I′に使い回す）',
           '変数XはH′に使い回します', '変数YはI′に使い回すわ']:
     check('変数の割り当て', s)
+
+PNGS = [('H30_dai21mon_zu01_zentaizu', '全体図', 'fig'),
+        ('H30_dai21mon_zu02_D_housha', 'D点を求める図', 'fig'),
+        ('H30_dai21mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
+        ('H30_dai21mon_zu03_I_kouten', 'I点の求め方の図', 'fig'),
+        ('H30_dai21mon_zu04_kou_menseki', '甲土地の面積による裏付けの図', 'fig'),
+        ('H30_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
+        ('H30_dai21mon_zu05_hikkai_teigi', '筆界の定義の整理図', 'fig'),
+        ('H30_dai21mon_zu06_hitsuyou_touki', '必要な登記の図', 'fig'),
+        ('H30_dai21mon_zu07_kousa', '公差の判定図', 'fig'),
+        ('H30_dai21mon_zu08_obi_taikakusen', '対角線2本で出す別解の図', 'fig'),
+        ('H30_dai21mon_zu09_bunpitsu_chiban', '分筆後の区画と地番の図', 'fig'),
+        ('H30_dai21mon_toukishinseisho_machigai', '誤答→添削→正解', 'tall'),
+        ('H30_dai21mon_toukishinseisho_kansei', '登記申請書（問3）の完成形', 'tall'),
+        ('H30_dai21mon_zu10_chiseki_sokuryouzu', '地積測量図（11番1・11番2）の完成見本', 'fig'),
+        ('H30_dai21mon_zu11_toku_junban', '本番の解く順番の流れ図', 'fig')]
+# ---- 画像（2026-10-02追加）：記事の画像挿入マーカーと zu/ のPNGが、記事の順に対応しているか ----
+# 解説図の番号を記事の挿入順に振り直し、申請書でない解答欄（第1欄・第2欄）の完成形を足した。
+from PIL import Image  # noqa: E402
+ZU = os.path.join(HERE, 'zu')
+markers = [l for l in text.splitlines() if l.startswith('> 【画像挿入】')]
+judge(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
+for (name_, key_, kind_), m_ in zip(PNGS, markers):
+    path_ = os.path.join(ZU, name_ + '.png')
+    ok_ = os.path.exists(path_) and key_ in m_
+    if ok_:
+        w_, h_ = Image.open(path_).size
+        ok_ = {'tall': w_ == 1200 and h_ > w_, 'wide': w_ == 1200 and h_ < w_, 'fig': w_ == 1600}[kind_]
+    judge(f'PNG（マーカー順・大きさ） : {name_}（{key_}）', ok_)
+    src_ = fig if '_zu' in name_ else (fix if 'machigai' in name_ else form)
+    judge(f'プロンプトにファイル名 : zu/{name_}.png', f'zu/{name_}.png' in src_)
+extra_ = sorted(set(f_[:-4] for f_ in os.listdir(ZU) if f_.endswith('.png')) - {n_ for n_, _, _ in PNGS})
+judge(f'zu/ に記事で使わないPNGがない {extra_}', not extra_)
+fig_order = [int(x_) for x_ in re.findall(r'^- \*\*図(\d+)：', fig, re.M)]
+judge(f'解説図プロンプトの図の一覧が番号順（{fig_order}）', fig_order == sorted(fig_order))
+zu_order = [int(n_.split('_zu')[1][:2]) for n_, _, _ in PNGS if '_zu' in n_]
+judge(f'解説図の番号が記事の挿入順（{zu_order}）', zu_order == list(range(1, len(zu_order) + 1)))
+lines_ = text.splitlines()
+
+
+def after_(key, prev):
+    """マーカー（key を含む）の直前の空行でない行に prev があるか（その問の答えの直後に置いたか）"""
+    i_ = [k_ for k_, l_ in enumerate(lines_) if l_.startswith('> 【画像挿入】') and key in l_]
+    j_ = i_[0] - 1 if i_ else -1
+    while j_ >= 0 and not lines_[j_].strip():
+        j_ -= 1
+    judge(f'「{key}」のマーカーが答えの直後（直前の行に「{prev}」）', j_ >= 0 and prev in lines_[j_])
+
+
+after_('第1欄（問1）の完成形', '**▶ I点（−50731.24, −14880.46）**')
+after_('第2欄（問2）の完成形', '- **エ**：意思')
+# 穴埋めの答えの語を、会話の中で語として言っているか（2026-10-02、R5/Q22の照らし直しから）
+for s_ in ['（ア）は表題登記', '（イ）は『これに隣接する』', '（ウ）は登記された', '（エ）は意思']:
+    check('穴埋めの答えの語を会話で明示', s_)
+html_1 = open(os.path.join(ZU, 'H30_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
+html_2 = open(os.path.join(ZU, 'H30_dai21mon_dai2ran_kansei.html'), encoding='utf-8').read()
+for s_ in ['>第１欄<', 'Ｘ座標（m）', 'Ｙ座標（m）', '>−50720.53<', '>−14868.88<', '>−50731.24<', '>−14880.46<', '第1欄（問1）解答例']:
+    check('第1欄の画像（HTML）', s_, html_1, '第1欄画像')
+for s_ in ['>第２欄<', '>ア<', '>表題登記<', '>イ<', '>隣接する<', '>ウ<', '>登記された<', '>エ<', '>意思<', '第2欄（問2）解答例']:
+    check('第2欄の画像（HTML）', s_, html_2, '第2欄画像')
+absent('第2欄の画像に「合意」がない', '合意', html_2, '第2欄画像')
+for s_ in ['Ｄ点「−50720.53」「−14868.88」、Ｉ点「−50731.24」「−14880.46」', 'ア「表題登記」、イ「隣接する」、ウ「登記された」、エ「意思」',
+           'public/kijutsu/H30-tochi/a1.webp']:
+    check('第1欄・第2欄の画像のプロンプト', s_, form, '登記申請書')
+# 冒頭は照合済みの一文だけ（2026-09-30のルール）
+judge('冒頭は「照合済みです。」の一文だけ', text.splitlines()[2] == '※本記事の数値は、アガルートアカデミーの解答例と照合済みです。')
 
 print('NG件数:', ng)

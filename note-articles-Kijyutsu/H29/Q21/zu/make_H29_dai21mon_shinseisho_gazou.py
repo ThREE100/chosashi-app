@@ -2,6 +2,7 @@
 
 - 完成形：`../prompt_H29_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ）どおり。縦長（横1200px）
 - 添削　：`../prompt_H29_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 第1欄・第2欄：申請書でない解答欄の完成形（横1200px。2026-10-02追加）
 
 見本は `R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`。欄の順序・所在の2段・土地の表示の最後の空欄の段は、平成29年度の答案用紙（第3欄）に合わせた。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
@@ -49,6 +50,8 @@ table.land td.gen {{ line-height: 1.5; }}
 table.land td.blank {{ height: 70px; }}
 table.land td .ink, .box .ink {{ font-size: 26px; }}
 table.land td.gen .ink {{ font-size: 23px; }}
+.tnote {{ font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6;
+          font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
@@ -115,6 +118,8 @@ HIS = '（被相続人　甲野一郎）'
 TARO = 'Ａ市Ｂ町100番地　甲野太郎'
 JIRO = 'Ａ市Ｄ町210番地　甲野次郎'
 APPLICANT = f'{ink(HIS)}<br>{ink("相続人　" + TARO)}<br>{ink("　　　　" + JIRO)}'
+NOTE = ('※相続証明書は、今は法定相続情報一覧図の写し又は法定相続情報番号の提供で代えることもできる'
+        '（不動産登記規則第37条の3第1項）。出題当時は法定相続情報番号の制度がなかった')
 ROWS = [(ink('100番'), ink('宅地'), ink('297'), ink('52'), ''),
         (ink('（イ）100番１'), '', ink('146'), ink('62'), f'{ink("③錯誤")}<br>{ink("①③100番１、100番２に分筆")}'),
         (ink('（ロ）100番２'), ink('宅地'), ink('153'), ink('22'), ink('100番から分筆'))]
@@ -127,6 +132,7 @@ kansei = page(f'''<div class="page">
 <div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:150px">{APPLICANT}</div></div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
 {land_table(ROWS, shozai=ink(SHOZAI))}
+<div class="tnote">{NOTE}</div>
 <div class="sign">土地家屋調査士　法 務　民 子</div>
 <div class="caption">平成29年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
 </div>''')
@@ -162,17 +168,74 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成29年度 第21問｜申請人は被相続人と相続人2人、分筆前の地積は合筆後の297.52</div>''')
 
+
+# ---- 申請書でない解答欄（第1欄・第2欄など）の完成形（2026-10-02追加。執筆ルール「申請書でない解答欄の画像」） ----
+RAN_CSS = f"""
+* {{ box-sizing: border-box; margin: 0; padding: 0; }}
+body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }}
+.ran {{ padding: 50px 60px 34px; }}
+.ran h2 {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 22px; }}
+table.ans {{ width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }}
+table.ans td {{ border: 1.5px solid #111; font-size: 22px; height: 68px; padding: 0 18px; vertical-align: middle; }}
+table.ans td.c {{ text-align: center; }}
+table.ans td.lab {{ height: 46px; font-size: 20px; }}
+table.ans td.long {{ height: auto; padding: 16px 18px; line-height: 1.75; }}
+table.ans .ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 24px; }}
+.ran .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 26px;
+                font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
+"""
+
+
+def ran_page(title, table_html, caption):
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{RAN_CSS}</style></head><body>'
+            f'<div class="ran"><h2>{title}</h2>{table_html}<div class="caption">{caption}</div></div></body></html>')
+
+
+def zahyou_table(rows):
+    """座標値の表（答案用紙どおり：見出し行は空欄・X座標（m）・Y座標（m））。rows: [(点名, X, Y)]"""
+    h = ['<table class="ans"><colgroup><col style="width:30%"><col style="width:35%"><col style="width:35%"></colgroup>',
+         '<tr><td class="c"></td><td class="c">Ｘ座標（m）</td><td class="c">Ｙ座標（m）</td></tr>']
+    for n, x, yy in rows:
+        h.append(f'<tr><td class="c">{n}</td><td class="c"><span class="ink">{x}</span></td>'
+                 f'<td class="c"><span class="ink">{yy}</span></td></tr>')
+    return ''.join(h) + '</table>'
+
+
+def kigou_table(rows, w=30, center=True):
+    """記号（ア〜エ、（1）〜（3）など）と記入欄の2列の表。rows: [(記号, 答え)]"""
+    cls = 'c' if center else ''
+    h = [f'<table class="ans"><colgroup><col style="width:{w}%"><col style="width:{100 - w}%"></colgroup>']
+    for k, v in rows:
+        h.append(f'<tr><td class="{cls}">{k}</td><td class="long"><span class="ink">{v}</span></td></tr>')
+    return ''.join(h) + '</table>'
+
+dai1 = ran_page('第１欄　Ｃ点，Ｈ点及びＩ点の座標値',
+                zahyou_table([('Ｃ点', '379.06', '310.02'), ('Ｈ点', '380.99', '299.87'), ('Ｉ点', '366.75', '297.27')]),
+                '平成29年度 土地家屋調査士試験 第21問 第1欄（問1）解答例')
+RIYUU = ('対象土地は市街地地域に属するので、地積測量図の誤差の限度は精度区分甲2までである。'
+         '合筆後の分筆前の地積297.52㎡を基準にした公差は1.57㎡であり、分筆後の地積の合計299.84㎡との差2.32㎡は、'
+         'この公差を超えるため（不動産登記事務取扱手続準則第72条第1項）')
+dai2 = ran_page('第２欄　地積の更正の登記を申請することの要否及びその理由について',
+                '<table class="ans">'
+                '<tr><td class="lab">地積の更正の登記を申請することの要否</td></tr>'
+                '<tr><td class="long"><span class="ink">地積の更正の登記を申請する必要がある</span></td></tr>'
+                '<tr><td class="lab">要否の理由</td></tr>'
+                f'<tr><td class="long" style="height:190px;vertical-align:top"><span class="ink">{RIYUU}</span></td></tr></table>',
+                '平成29年度 土地家屋調査士試験 第21問 第2欄（問2）解答例')
+RAN = [('H29_dai21mon_dai1ran_kansei', dai1), ('H29_dai21mon_dai2ran_kansei', dai2)]
+
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
     pg = browser.new_page(viewport={'width': 1200, 'height': 800})
-    for name, html in [('H29_dai21mon_toukishinseisho_kansei', kansei), ('H29_dai21mon_toukishinseisho_machigai', machigai)]:
+    for name, html in [('H29_dai21mon_toukishinseisho_kansei', kansei), ('H29_dai21mon_toukishinseisho_machigai', machigai)] + RAN:
         hp = os.path.join(OUT, name + '.html')
         open(hp, 'w', encoding='utf-8').write(html)
+        pg.set_viewport_size({'width': 1200, 'height': 200 if 'ran_kansei' in name else 800})
         pg.set_content(html)
         pg.wait_for_timeout(300)
         png = os.path.join(OUT, name + '.png')
         pg.screenshot(path=png, full_page=True)
         w, h = pg.evaluate('[document.documentElement.scrollWidth, document.documentElement.scrollHeight]')
-        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長（要確認）'))
+        print(f'{png}  {w}×{h}px  ' + ('縦長' if h > w else '横長'))
     browser.close()
