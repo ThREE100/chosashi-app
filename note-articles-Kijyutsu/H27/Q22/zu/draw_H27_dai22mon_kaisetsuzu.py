@@ -5,7 +5,7 @@
 zu_helpers の (北, 東) には B() で変換する（北 ＝ −南）。
 敷地は座標値一覧表がないので、〔見取図〕の距離と1階の寸法から組み立てた座標（西側の線を東0、南側の線を北0）を使う。
 図3（建物図面）と図8（各階平面図）は、試験の答案用紙の第3欄の欄（家屋番号・建物の所在・申請人〈略〉・作成者〈略〉・縮尺）
-の枠の中に描く。
+の枠の中に描く。欄の形は試験の答案用紙の実物（../touan_youshi/H27_dai22mon_touan_youshi.pdf の2ページ目）で確かめた（2026-10-02）。
 実行: python3 note-articles-Kijyutsu/H27/Q22/zu/draw_H27_dai22mon_kaisetsuzu.py [出力フォルダ]
 """
 import os
@@ -121,6 +121,16 @@ def cell(fig, x0, y0, x1, y1, text='', fs=14, ha='center', lw=1.6, color=BLACK):
         fig.text(x, (y0 + y1) / 2, text, ha=ha, va='center', fontsize=fs, color=color)
 
 
+def scale_cell(fig, x0, y0, x1, y1, den, fs=15):
+    """答案用紙の縮尺の欄（「1」と分母を斜線で区切る印刷の形）。"""
+    cell(fig, x0, y0, x1, y1)
+    w, h = x1 - x0, y1 - y0
+    fig.text(x0 + w * 0.40, y0 + h * 0.74, '1', ha='center', va='center', fontsize=fs)
+    fig.add_artist(plt.Line2D([x0 + w * 0.18, x0 + w * 0.82], [y0 + h * 0.18, y0 + h * 0.82],
+                              transform=fig.transFigure, lw=1.0, color=BLACK))
+    fig.text(x0 + w * 0.66, y0 + h * 0.28, den, ha='center', va='center', fontsize=fs)
+
+
 INK = '#1a3a8f'   # 記入（濃い青）
 
 
@@ -183,16 +193,18 @@ def zu03():
     fig.patch.set_facecolor('white')
     fig.suptitle('建物図面（イ）の完成形（答案用紙の第3欄・縮尺1/500で描く内容）', fontsize=22, weight='bold', y=0.985)
     # 答案用紙の欄
-    cell(fig, 0.06, 0.885, 0.20, 0.935, '家屋番号', fs=15)
+    # 試験の答案用紙（touan_youshi/ の2ページ目、第3欄の右半分）どおり：家屋番号の欄は枠の上に出て、その右に
+    # 「建物図面（イ）」の印刷。建物の所在の欄は枠の上端の内側に右端まで。枠の下に「申請人（略）」と縮尺「1／500」
+    cell(fig, 0.06, 0.085, 0.94, 0.885, lw=1.8)
+    cell(fig, 0.06, 0.885, 0.20, 0.935, '家　屋　番　号', fs=15)
     cell(fig, 0.20, 0.885, 0.46, 0.935, 'B町二丁目5番27の1', fs=16, color=INK)
     fig.text(0.70, 0.910, '建　物　図　面　（イ）', ha='center', va='center', fontsize=20)
     cell(fig, 0.06, 0.835, 0.20, 0.885, '建物の所在', fs=15)
     cell(fig, 0.20, 0.835, 0.94, 0.885, 'A市B町二丁目5番地27', fs=16, ha='left', color=INK)
-    cell(fig, 0.06, 0.085, 0.94, 0.835, lw=1.8)
     cell(fig, 0.06, 0.035, 0.20, 0.085, '申　請　人', fs=15)
     cell(fig, 0.20, 0.035, 0.74, 0.085, '（略）', fs=15)
     cell(fig, 0.74, 0.035, 0.83, 0.085, '縮尺', fs=15)
-    cell(fig, 0.83, 0.035, 0.94, 0.085, '1/500', fs=15)
+    scale_cell(fig, 0.83, 0.035, 0.94, 0.085, '500')
     ax = fig.add_axes([0.08, 0.10, 0.84, 0.72])
     z = Zu(ax, fontsize=14)
     fit(ax, SITE, margin=0.10, extra=[(-4.0, -3.8), (22.8, 17.0)], pad_aspect=True)
@@ -387,10 +399,14 @@ def zu08():
     fig.suptitle('各階平面図（イ）の完成形（答案用紙の第3欄・縮尺1/250で描く内容）', fontsize=22, weight='bold', y=0.975)
     fig.text(0.5, 0.905, '各　階　平　面　図', ha='center', va='center', fontsize=20)
     cell(fig, 0.04, 0.13, 0.96, 0.88, lw=1.8)
+    # 試験の答案用紙（touan_youshi/ の2ページ目、第3欄の左半分）どおり：見出しは「各階平面図」（（イ）は付かない）、
+    # 家屋番号・建物の所在の欄はない（建物図面の側に1つだけ）。作成者の欄は「（略）」と、右下に「（平成何年何月何日作成）」の印刷
     cell(fig, 0.04, 0.06, 0.14, 0.13, '作　成　者', fs=15)
-    cell(fig, 0.14, 0.06, 0.78, 0.13, '（略）　　　　　　　　　　　　（平成何年何月何日作成）', fs=15)
+    cell(fig, 0.14, 0.06, 0.78, 0.13)
+    fig.text(0.30, 0.103, '（略）', ha='center', va='center', fontsize=15)
+    fig.text(0.77, 0.075, '（平成何年何月何日作成）', ha='right', va='center', fontsize=15)
     cell(fig, 0.78, 0.06, 0.86, 0.13, '縮尺', fs=15)
-    cell(fig, 0.86, 0.06, 0.96, 0.13, '1/250', fs=15)
+    scale_cell(fig, 0.86, 0.06, 0.96, 0.13, '250')
     fig.text(0.5, 0.025, '内法の寸法で「1階部分」「2階部分」「3階部分」を書き分け、1階以外の階には1階の位置を点線で示す。'
              '問3のなお書きどおり、求積方法と床面積は書かない', ha='center', va='center', fontsize=14)
     axes = [fig.add_axes([0.05, 0.16, 0.16, 0.64]), fig.add_axes([0.23, 0.16, 0.35, 0.64]),

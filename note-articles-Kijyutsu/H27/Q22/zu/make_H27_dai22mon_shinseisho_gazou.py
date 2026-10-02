@@ -7,6 +7,7 @@
     右の列に区分した建物の表示欄（ロ）と敷地権の表示が印刷されている。第2欄を左の列 → 右の列の順に縦に積む。
     項目の順序は答案用紙の印刷どおり「登記の目的 → 添付情報 → 平成27年8月21日　申請　Ａ地方法務局 → 申請人（略） → 代理人（略）」。
     この答案用紙には登録免許税・一棟の建物の表示の欄がないので描かない
+    （欄の形・名前・順序・印刷文字は試験の答案用紙の実物 ../touan_youshi/H27_dai22mon_touan_youshi.pdf の1ページ目で確かめた。2026-10-02）
 - H27_dai22mon_toukishinseisho_machigai：「敷地権の表示」欄の添削。①誤答・②添削・③正解の3コマを縦に積んだ縦長
 
 記入データは `../prompt_H27_dai22mon_toukishinseisho_gazou.md`・`../prompt_H27_dai22mon_toukishinseisho_machigai.md` と同じ。
