@@ -3,7 +3,8 @@
 `../prompt_H25_dai22mon_kaisetsuzu.md` の図1〜図10どおり（番号は記事の挿入順）。作図の共通部品は `tools/zu_helpers.py`。
 図4（建物図面）と図8（各階平面図）の完成形は、答案用紙の第4欄（建物図面及び各階平面図）の欄の形
 （家屋番号・建物の所在、建物図面の側は「申請人」〈（略）の印刷なし〉と縮尺1/500、各階平面図の側は「作成者（略）
-（平成何年何月何日作成）」と縮尺1/250）の枠の中に描く。答案用紙は `public/kijutsu/H25-tatemono/a2.webp`（試験の答案用紙）で確かめた。
+（平成何年何月何日作成）」と縮尺1/250）の枠の中に描く。答案用紙は試験の答案用紙の原本
+（`../touan_youshi/H25_dai22mon_touan_youshi.pdf` の2ページ目。`public/kijutsu/H25-tatemono/a2.webp` と同じもの）で確かめた。
 敷地は〔筆界点の座標成果〕の (X＝北, Y＝東)。建物の平面は (東, 南)（原点＝建物の1階の北西の角の壁の中心線）で持ち、
 zu_helpers の (北, 東) には P()（求積図）・B_()（敷地の上に置く）で変換する。
 実行: python3 note-articles-Kijyutsu/H25/Q22/zu/draw_H25_dai22mon_kaisetsuzu.py [出力フォルダ]

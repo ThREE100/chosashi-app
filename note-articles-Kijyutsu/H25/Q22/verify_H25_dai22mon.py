@@ -3,6 +3,8 @@
 （解答例の日付は、作業の中でだけ本試験の問題文・答案用紙の日付に対応させて照合した。記事・プロンプト・画像は本試験の日付）。
 2026-10-02：最新の執筆ルールとの照らし直しで、注の書き分け、建物図面の申請人欄、各階平面図の完成形、本番で解く順番、
 画像挿入マーカー14か所と zu/ のPNG14枚の対応、生成したHTMLの記入内容の確認を加えた。
+同日、試験の答案用紙の原本（touan_youshi/）を受け取り、欄の名前・順序・印刷（不動産番号の行、添付情報、登録免許税の欄なし、
+第4欄の作成者（略）・申請人の欄・縮尺）との照合と、解答例（第1欄・第2欄・第3欄。年だけ読み替え）との項目ごとの照合を加えた。
 実行: python3 note-articles-Kijyutsu/H25/Q22/verify_H25_dai22mon.py"""
 import math
 import os
@@ -386,5 +388,143 @@ check('見出し画像のサブタイトル', '〜' + sub + '〜', thumb, '見�
 check('見出し画像のタイトル', '平成25年度問題22（建物）', thumb, '見出し画像')
 for src, name in [(fig, '解説図'), (form, '申請書'), (fix, '添削')]:
     check('記事タイトルの引用', title[2:], src, name)
+
+# ---- 試験の答案用紙の原本（touan_youshi/、2026-10-02受領）との照合 ----
+# 原本はテキスト層のない画像PDF（A3横2ページ。1ページ目はPDF上で180°回転）。印刷文字は目で読んで下の表に書き出し、
+# 画像（第1欄・第2欄・第3欄・添削・第4欄の枠）の欄の名前・順序・印刷と照らす。これまで欄の形を確かめていた
+# public/kijutsu/H25-tatemono/a1.webp・a2.webp が原本と同じものであることも、縮小画像の差で確かめる。
+import unicodedata
+TY = os.path.join(HERE, 'touan_youshi')
+try:
+    import pymupdf
+    doc = pymupdf.open(os.path.join(TY, 'H25_dai22mon_touan_youshi.pdf'))
+    ok = len(doc) == 2 and all(round(pg.rect.width) == 1191 and round(pg.rect.height) == 842 for pg in doc)
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + '答案用紙の原本：A3横2ページ')
+except ImportError:
+    print('-- pymupdf がないので原本PDFのページ数の確認は省略')
+from PIL import ImageChops, ImageStat
+for n in (1, 2):
+    a = Image.open(os.path.join(TY, f'H25_dai22mon_touan_youshi_p{n}.png')).convert('L').resize((350, 247))
+    b = Image.open(os.path.join(HERE, '..', '..', '..', 'public', 'kijutsu', 'H25-tatemono', f'a{n}.webp')).convert('L').resize((350, 247))
+    d = ImageStat.Stat(ImageChops.difference(a, b)).mean[0]
+    ok = d < 2.0
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'答案用紙の原本 p{n} と a{n}.webp が同じ用紙（縮小画像の平均差 {d:.2f}）')
+# 原本1ページ目（第1欄・第2欄・第3欄）の印刷：見出し・項目の順序
+GENPON_P1 = {
+    '第1欄': ['本件旧建物に関する登記の申請書', '登記の目的', '添　付　情　報', '平成25年８月23日申請　　Ｃ地方法務局', '申　　請　　人', '代　　理　　人', '（略）',
+             '不動産番号', '所　　在', '家屋番号', '主である建物', '又は附属建物', '①種類', '②構造', '③床面積', '登記原因及びその日付'],
+    '第2欄': ['本件新建物に関する登記の申請書', '登記の目的', '添　付　情　報', '平成25年８月23日申請　　Ｃ地方法務局', '申　　請　　人', '代　　理　　人', '（略）',
+             '不動産番号', '所　　在', '家屋番号', '主である建物', '又は附属建物', '①種類', '②構造', '③床面積', '登記原因及びその日付'],
+    '第3欄': ['土地家屋調査士民事花子の説明'],
+}
+GENPON_NAI = ['登録免許税', '添付書類', '課税価格']        # 原本の第1欄・第2欄にない欄
+
+
+def strip_tags(h):
+    return re.sub(r'<[^>]+>', '', h)
+
+
+for ran, name in [('第1欄', 'H25_dai22mon_dai1ran_kansei'), ('第2欄', 'H25_dai22mon_dai2ran_kansei'), ('第3欄', 'H25_dai22mon_dai3ran_kansei')]:
+    h = strip_tags(open(os.path.join(ZU, name + '.html'), encoding='utf-8').read())
+    norm = lambda t: re.sub(r'[\s　]', '', unicodedata.normalize('NFKC', t))
+    pos, order_ok = -1, True
+    for lab in GENPON_P1[ran]:
+        i = norm(h).find(norm(lab), pos + 1)
+        if i < 0 or i < pos:
+            order_ok = False
+            print(f'   NG 欄名がない・順序が違う：{lab}')
+        pos = max(pos, i)
+    ng += (not order_ok)
+    print(('OK ' if order_ok else 'NG ') + f'{name}.html : 原本の{ran}の印刷（見出し・項目名）が原本の順に並ぶ')
+    if ran != '第3欄':
+        ok = not any(norm(x) in norm(h) for x in GENPON_NAI)
+        ng += (not ok)
+        print(('OK ' if ok else 'NG ') + f'{name}.html : 原本にない欄（登録免許税・添付書類・課税価格）を描いていない')
+# 記入行が3行（原本の表の記入行は3行）
+mk = open(os.path.join(ZU, 'make_H25_dai22mon_shinseisho_gazou.py'), encoding='utf-8').read()
+check('原本の表の形（記入行3行）', '記入行3行', mk, '申請書スクリプト')
+check('原本の確かめ（申請書スクリプト）', 'touan_youshi/H25_dai22mon_touan_youshi.pdf', mk, '申請書スクリプト')
+check('不動産番号は原本に印刷された行', '不動産番号（試験の答案用紙に印刷されている行。記入は空欄）', mk, '申請書スクリプト')
+check('原本の確かめ（申請書プロンプト）', '`touan_youshi/H25_dai22mon_touan_youshi.pdf` の1ページ目', form, '申請書')
+check('原本の確かめ（解説図プロンプト）', '`touan_youshi/H25_dai22mon_touan_youshi.pdf` の2ページ目', fig, '解説図')
+check('原本の確かめ（作図スクリプト）', 'touan_youshi/H25_dai22mon_touan_youshi.pdf', draw, '作図')
+check('原本の確かめ（添削プロンプト）', 'touan_youshi/H25_dai22mon_touan_youshi.pdf', fix, '添削')
+h_fix = strip_tags(open(os.path.join(ZU, 'H25_dai22mon_toukishinseisho_machigai.html'), encoding='utf-8').read())
+for lab in ['申　請　人', '所　　在', '（抜粋）']:
+    ok = re.sub(r'[\s　]', '', lab) in re.sub(r'[\s　]', '', h_fix)
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'添削画像の項目名（原本の第2欄の印刷どおり）: {lab}')
+# 原本2ページ目（第4欄）の印刷：家屋番号・建物の所在は1組、作成者は（略）と作成日の印刷あり・縮尺1/250、
+# 申請人は（略）の印刷なし・縮尺1/500、「（単位：m）」。図4・図8の枠の印刷と照らす。
+for n in ["'家屋番号'", "'建物の所在'", "'申　請　人'", "'作　成　者'", '（略）　', '（平成何年何月何日作成）', "'1/500'", "'1/250'", '（単位：m）',
+          '甲野春男　甲野冬子']:
+    check('原本の第4欄の印刷・記入', n, draw, '作図')
+m = re.search(r"cell\(fig[^\n]*'甲野春男　甲野冬子'", draw)
+ok = m is not None and '（略）' not in m.group()
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '第4欄：申請人の欄は原本に（略）の印刷がないので氏名を記入（不動産登記規則第74条第2項）')
+for src, name in [(text, '記事'), (fig, '解説図'), (form, '申請書'), (fix, '添削'), (draw, '作図'), (mk, '申請書スクリプト')]:
+    for bad in ['仮の形', '（仮）', '答案用紙がリポジトリにない', 'ならった仮']:
+        absent('「仮」の欄の形の文言が残っていない', bad, src, name)
+
+# ---- アガルートの解答例（照合用。第1欄・第2欄・第3欄）との一致 ----
+# 解答例は年を平成30年に置き換えた版（月日は同じ）。作業の中だけで「平成30年」→「平成25年」と読み替える。
+# 解答例の欄名「添付書類」（書・証書）は試験の答案用紙の欄名「添付情報」に合わせて「〜情報」に読み替える（中身の項目は同じ）。
+# 第4欄（建物図面・各階平面図）は今回の解答例の画像に含まれていないので、ここでは照らさない。
+NENDO = {'平成30年': '平成25年'}
+TENPU = {'所有権証明書': '所有権証明情報', '住所証明書': '住所証明情報', '代理権限証書': '代理権限証明情報'}
+KAITOUREI = {
+    'H25_dai22mon_dai1ran_kansei': {
+        '登記の目的': ['建物表題部変更登記'],
+        '添付': ['建物図面', '各階平面図', '所有権証明書', '代理権限証書'],
+        '申請人': ['Ｃ市Ｄ町一丁目３番２号　甲野春男', 'Ｃ市Ｄ町一丁目３番２号　甲野冬子'],
+        '所在': ['Ｃ市Ｄ町一丁目12番地', 'Ｃ市Ｄ町一丁目12番地１', '平成30年８月５日分筆により変更'],
+        '家屋番号': ['12番の１'],
+        '表': ['主', '倉庫', '軽量鉄骨造亜鉛メッキ鋼板ぶき２階建', '148', '22', '119', '24', '平成30年７月26日取壊し',
+              '店舗', '鉄骨造陸屋根平家建', '38', '25', '平成30年７月26日主である建物に変更、平成30年８月18日種類変更、増築',
+              '符号１', '物置', '22', '50', '平成30年７月26日主である建物に変更'],
+    },
+    'H25_dai22mon_dai2ran_kansei': {
+        '登記の目的': ['建物表題登記'],
+        '添付': ['建物図面', '各階平面図', '所有権証明書', '住所証明書', '代理権限証書'],
+        '申請人': ['Ｃ市Ｄ町一丁目３番２号　持分２分の１　甲野春男', 'Ｃ市Ｄ町一丁目３番２号　２分の１　甲野冬子'],
+        '所在': ['Ｃ市Ｄ町一丁目11番地、10番地'],
+        '表': ['倉庫', '軽量鉄骨造亜鉛メッキ鋼板ぶき２階建', '148', '22', '119', '24', '平成30年８月22日新築'],
+    },
+}
+
+
+def nk(t):
+    return re.sub(r'[\s　]', '', unicodedata.normalize('NFKC', t))
+
+
+for name, items in KAITOUREI.items():
+    h = nk(strip_tags(open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()))
+    for ran, vals in items.items():
+        for v in vals:
+            w = v
+            for a_, b_ in list(NENDO.items()) + list(TENPU.items()):
+                w = w.replace(a_, b_)
+            ok = nk(w) in h
+            ng += (not ok)
+            print(('OK ' if ok else 'NG ') + f'解答例と一致 [{name}・{ran}] : {v}' + (f' → {w}' if w != v else ''))
+h1n = nk(strip_tags(open(os.path.join(ZU, 'H25_dai22mon_dai1ran_kansei.html'), encoding='utf-8').read()))
+h2n = nk(strip_tags(open(os.path.join(ZU, 'H25_dai22mon_dai2ran_kansei.html'), encoding='utf-8').read()))
+ok = '住所証明' not in h1n and '持分' not in h1n and '12番の1' not in h2n
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '解答例と一致：第1欄は住所証明・持分なし、第2欄は家屋番号空欄（12番の1を書かない）')
+ok = '不動産番号' in h1n and '不動産番号' in h2n and not re.search(r'不動産番号\d', h1n + h2n)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '解答例と一致：不動産番号の行は空欄（原本に印刷された行）')
+# 第3欄：解答例の要旨（必要な登記・可否・根拠）を、自分の言葉の説明文が全部含んでいるか（文言は流用しない）
+h3 = nk(strip_tags(open(os.path.join(ZU, 'H25_dai22mon_dai3ran_kansei.html'), encoding='utf-8').read()))
+for v in ['建物滅失登記を申請する必要がある', '甲野春男が単独で申請することができる', '報告的登記', '保存行為']:
+    ok = nk(v) in h3
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'解答例と一致 [第3欄の要旨] : {v}')
+for v in ['甲野春男から申請することは可能である', '理由としては', '法的な性質は報告的登記であり']:
+    absent('解答例の文言を流用していない', v, setsumei, '第3欄')
 
 print('NG件数:', ng)
