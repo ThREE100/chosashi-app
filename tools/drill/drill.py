@@ -12,6 +12,9 @@
   drill.py save                        記録をコミットして drill-log ブランチに push
   drill.py report [--json]             苦手分析（論点別の 未習得／誤解／定着）
   drill.py explain <ID>                その肢の出典と解説記事の場所を表示
+  drill.py mark <ID> <miscon|unknown|known> [--note ..]   直前の回答の判定を訂正（正解でも理解が誤っていたとき）
+  drill.py tag <ID> <タグ> [--note ..]  肢にタグを付ける（例: nigate＝苦手分析シリーズ候補）
+  drill.py tags [タグ] [--json]        タグ付けした肢を一括で表示（タグ省略で件数）
 
 回答は 〇(o)・×(x)・？(?) の3択。
   〇/× が正解   → 定着(known)
@@ -26,6 +29,7 @@ BANK = os.path.join(HERE, 'data', 'items.json')
 LOGDIR = os.path.join(ROOT, '.drill-log')
 LOG = os.path.join(LOGDIR, 'log.jsonl')
 SESSION = os.path.join(LOGDIR, 'session.json')
+TAGS = os.path.join(LOGDIR, 'tags.jsonl')
 BRANCH = 'drill-log'
 SUBJECTS = ['民法', '不動産登記法', '土地家屋調査士法']
 SUBJ_ALIAS = {'調査士法': '土地家屋調査士法', '不登法': '不動産登記法'}
@@ -82,7 +86,14 @@ def read_log():
         ln = ln.strip()
         if ln:
             out.append(json.loads(ln))
-    return out
+    # 訂正（amend）レコード: 直前の同じ肢の回答の判定を上書きする（正解でも理解が誤っていたときなど）
+    recs = [r for r in out if not r.get('amend')]
+    for a in [r for r in out if r.get('amend')]:
+        for r in reversed(recs):
+            if r['id'] == a['id'] and r['t'] <= a['t']:
+                r['res'] = a['res']; r['amended'] = True; r['amend_note'] = a.get('note', '')
+                break
+    return recs
 
 
 def item_state(logs):
@@ -259,6 +270,8 @@ def cmd_answer(a):
 def cmd_save(a):
     ensure_log_branch()
     sh('git', 'add', 'log.jsonl', cwd=LOGDIR)
+    if os.path.exists(TAGS):
+        sh('git', 'add', 'tags.jsonl', cwd=LOGDIR)
     r = sh('git', 'diff', '--cached', '--quiet', check=False, cwd=LOGDIR)
     if r.returncode == 0:
         print('変更なし（保存済み）')
@@ -306,8 +319,8 @@ def cmd_report(a):
     # 繰り返し誤解している肢
     chronic = sorted([(i, s) for i, s in st.items() if s['miscon'] >= 2 and i in bank], key=lambda x: -x[1]['miscon'])[:10]
     # 〇×の癖: 正しい記述を×にする／誤り記述を〇にする
-    biasT = sum(1 for r in logs if r['truth'] and r['res'] == 'miscon'); nT = sum(1 for r in logs if r['truth'] and r['ans'] != '?')
-    biasF = sum(1 for r in logs if (not r['truth']) and r['res'] == 'miscon'); nF = sum(1 for r in logs if (not r['truth']) and r['ans'] != '?')
+    biasT = sum(1 for r in logs if r['truth'] and r['res'] == 'miscon' and not r.get('amended')); nT = sum(1 for r in logs if r['truth'] and r['ans'] != '?')
+    biasF = sum(1 for r in logs if (not r['truth']) and r['res'] == 'miscon' and not r.get('amended')); nF = sum(1 for r in logs if (not r['truth']) and r['ans'] != '?')
     # 対比ペアの混同: 同じ pair に属する肢を両方間違えた
     out = {'total_answers': len(logs), 'items_seen': len(st), 'items_total': len(bank),
            'topics': rows, 'chronic': [{'id': i, 'miscon': s['miscon'], 'statement': bank[i]['statement']} for i, s in chronic],
@@ -327,6 +340,73 @@ def cmd_report(a):
     print(f'\n■ 〇×の癖: 正しい記述を×にした {biasT}/{nT}、誤った記述を〇にした {biasF}/{nF}')
 
 
+def cmd_mark(a):
+    """直前の回答の判定を訂正する（例: 〇×は合っていたが理解が誤っていた → miscon）。同じ肢は復習に戻る。"""
+    ensure_log_branch()
+    bank = load_bank()
+    if a.id not in bank:
+        raise SystemExit(f'ID不明: {a.id}')
+    if not any(r['id'] == a.id for r in read_log()):
+        raise SystemExit('この肢の回答記録がありません')
+    rec = {'t': now().isoformat(timespec='seconds'), 'id': a.id, 'amend': True, 'res': a.res, 'note': a.note or ''}
+    with open(LOG, 'a', encoding='utf-8') as f:
+        f.write(json.dumps(rec, ensure_ascii=False) + '\n')
+    st = item_state(read_log())[a.id]
+    print(f'訂正しました: {a.id} → {a.res}（{"誤解" if a.res == "miscon" else "未習得" if a.res == "unknown" else "定着"}扱い）')
+    d = due_at(st)
+    print('次の復習: ' + (d.astimezone(JST).strftime('%Y-%m-%d %H:%M JST') if d else 'なし'))
+
+
+def read_tags():
+    if not os.path.exists(TAGS):
+        return []
+    return [json.loads(l) for l in open(TAGS, encoding='utf-8') if l.strip()]
+
+
+def cmd_tag(a):
+    """肢にタグを付ける（例: nigate = 苦手分析シリーズの候補）。drill-log ブランチの tags.jsonl に追記。"""
+    ensure_log_branch()
+    bank = load_bank()
+    if a.id not in bank:
+        raise SystemExit(f'ID不明: {a.id}')
+    rec = {'t': now().isoformat(timespec='seconds'), 'id': a.id, 'tag': a.tag, 'note': a.note or ''}
+    with open(TAGS, 'a', encoding='utf-8') as f:
+        f.write(json.dumps(rec, ensure_ascii=False) + '\n')
+    print(f'タグを付けました: {a.id} #{a.tag}' + (f'（{a.note}）' if a.note else ''))
+
+
+def cmd_tags(a):
+    """タグ付けした肢を一括で呼び出す。タグ名を省略すると、タグごとの件数を表示。"""
+    ensure_log_branch()
+    bank = load_bank()
+    tags = read_tags()
+    if not a.tag:
+        c = collections.Counter(t['tag'] for t in tags)
+        for k, v in c.items():
+            print(f'#{k}: {len(set(t["id"] for t in tags if t["tag"] == k))}肢')
+        if not c:
+            print('タグはありません')
+        return
+    seen = {}
+    for t in tags:
+        if t['tag'] == a.tag:
+            seen[t['id']] = t   # 同じ肢は最後のメモを採用
+    if a.json:
+        print(json.dumps([{'id': i, 'subject': bank[i]['subject'], 'topic': bank[i]['topic'], 'statement': bank[i]['statement'],
+                           'truth': bank[i]['truth'], 'sources': bank[i].get('sources', []), 'note': t['note'], 't': t['t']}
+                          for i, t in seen.items() if i in bank], ensure_ascii=False, indent=1))
+        return
+    for i, t in seen.items():
+        it = bank.get(i)
+        if not it:
+            continue
+        srcs = '、'.join(f'{x["q"]}{x.get("label", "")}' for x in it.get('sources', [])[:4])
+        print(f'({i}) {it["subject"]}／{it["topic"]}  出典: {srcs}')
+        print(f'  {it["statement"]}')
+        print(f'  正解: {"〇" if it["truth"] else "×"}' + (f'  メモ: {t["note"]}' if t['note'] else ''))
+        print()
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest='cmd', required=True)
@@ -337,8 +417,11 @@ def main():
     sub.add_parser('save')
     r = sub.add_parser('report'); r.add_argument('--json', action='store_true')
     e = sub.add_parser('explain'); e.add_argument('id')
+    m = sub.add_parser('mark'); m.add_argument('id'); m.add_argument('res', choices=['miscon', 'unknown', 'known']); m.add_argument('--note')
+    tg = sub.add_parser('tag'); tg.add_argument('id'); tg.add_argument('tag'); tg.add_argument('--note')
+    ts = sub.add_parser('tags'); ts.add_argument('tag', nargs='?'); ts.add_argument('--json', action='store_true')
     a = p.parse_args()
-    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain}[a.cmd](a)
+    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain, 'mark': cmd_mark, 'tag': cmd_tag, 'tags': cmd_tags}[a.cmd](a)
 
 
 if __name__ == '__main__':
