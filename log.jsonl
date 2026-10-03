@@ -35,3 +35,13 @@
 {"t": "2026-10-03T13:38:09+00:00", "id": "D1723", "ans": "o", "truth": true, "res": "known"}
 {"t": "2026-10-03T13:38:09+00:00", "id": "D1821", "ans": "o", "truth": true, "res": "known"}
 {"t": "2026-10-03T13:38:09+00:00", "id": "D1424", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-03T13:42:45+00:00", "id": "D1441", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-03T13:42:45+00:00", "id": "D2091", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-03T13:42:45+00:00", "id": "D0364", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-03T13:42:46+00:00", "id": "D0606", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-03T13:42:46+00:00", "id": "D1514", "ans": "o", "truth": false, "res": "miscon"}
+{"t": "2026-10-03T14:03:15+00:00", "id": "D1394", "ans": "o", "truth": false, "res": "miscon"}
+{"t": "2026-10-03T14:03:15+00:00", "id": "D1400", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-03T14:03:15+00:00", "id": "D2085", "ans": "?", "truth": true, "res": "unknown"}
+{"t": "2026-10-03T14:03:15+00:00", "id": "D0899", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-03T14:03:16+00:00", "id": "D1515", "ans": "o", "truth": true, "res": "known"}
