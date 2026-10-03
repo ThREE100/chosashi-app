@@ -114,7 +114,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登録免許税の5肢を「課税されないケース」と「個数×1,000円で計算するケース」という2つの軸に沿って、すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+登録免許税の5肢を「課税されないケース（課税範囲外・非課税）」と「個数×1,000円で計算するケース」という2つの軸に沿って、すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。左の列の中では「課税範囲外」（ア・ウ：別表第一に掲げられていない）と「非課税」（イ：法5条1号）をスタンプの色と形で描き分ける。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -150,7 +150,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 録・地・建・物・登・記・所・錯・誤 — these must be rendered in their standard
+kanji 録・税・課・範・囲・免・地・建・物・登・記・所・錯・誤・抹・個・区・筆・嘱・託 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -165,8 +165,8 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-登録免許税、
-「非課税」と「個数×千円」の見分け方
+登録免許税、課税されない場合と
+「個数×千円」の見分け方
 
 Subtitle (smaller, centered, 1行):
 令和7年度 午後の部 第19問
@@ -182,8 +182,9 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 表題部所有者の住所更正は課税範囲外
 Illustration: an isometric building icon with a small document tag
-labeled "表題部" and "住所" attached to it; a red "課税範囲外" stamp is
-overlaid on top; no yen coin icons anywhere near this card.
+labeled "表題部" and "住所" attached to it; a gray-teal dashed-outline
+"課税範囲外" stamp is overlaid on top (this stamp style is used for
+課税範囲外 only, never for 非課税); no yen coin icons anywhere near this card.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 住所更正は課税範囲外
 
@@ -194,7 +195,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: an isometric land plot split into two parcels by a dotted
 line (分筆を表す); a small municipal-building icon (地方公共団体) and a
 person icon (私人) connected by a dashed arrow labeled "代位"; a
-"非課税" stamp badge over the plot.
+solid green "非課税" stamp badge over the plot (a different stamp style
+from the dashed gray-teal 課税範囲外 stamp).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代位でも非課税
 
@@ -203,7 +205,8 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 合筆登記の錯誤抹消は課税範囲外
 Illustration: an isometric view of three land parcels merged into one
-(合筆), overlaid with a red cancellation line/X mark (抹消) and a
+(合筆), overlaid with a thin dark cancellation line (抹消; not a red X,
+because red is reserved for wrong answers) and a gray-teal dashed-outline
 "課税範囲外" stamp badge beside it.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 表題部抹消は課税範囲外
@@ -238,7 +241,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with
+correct Japanese form. Confirm the stamp style is consistent: dashed gray-teal for 課税範囲外 (cards 1 and 3) and solid green for 非課税 (card 2), and no card shows both stamps. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
@@ -342,7 +345,7 @@ above verbatim, with no paraphrasing and no substituted characters. Confirm noth
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、「そもそも課税されない（課税範囲外・非課税）か」「登記の種類ではなく個数を数える」を見抜けるようにする5パネル構成。オは既存の間違いノート型と同じ「誤った数え方（3個）」対「正しい数え方（2個）」の正誤対比枠を使う。②の色分け（課税されないケース＝緑、個数×1,000円で計算するケース＝青）を引き継いでいる。
+問題文を読んだ瞬間に、「そもそも課税されない（ア・ウは別表第一に掲げられていない課税範囲外、イは法5条1号の非課税）か」「登記の種類ではなく個数を数える」を見抜けるようにする5パネル構成。オは既存の間違いノート型と同じ「誤った数え方（3個）」対「正しい数え方（2個）」の正誤対比枠を使う。②の色分け（課税されないケース＝緑、個数×1,000円で計算するケース＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -357,7 +360,7 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric building and land-plot icons, a
-「非課税」stamp, a municipal-building icon for 地方公共団体, a splitting
+solid green「非課税」stamp, a municipal-building icon for 地方公共団体, a splitting
 building icon for 再区分, price tags — adapt icon set to the topic of
 登録免許税. Where a 肢 requires checking multiple conditions in sequence
 before reaching a conclusion, draw the panel's diagram as an actual
@@ -365,8 +368,8 @@ decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 2
-（イ）must be drawn as a two-step flowchart, checking「本来課税対象か」
-first and then「代位する主体が別表第二に掲げる者か」. Panel 5（オ）
+（イ）must be drawn as a flowchart whose start box states「本来課税対象」
+and whose single diamond asks「代位する主体が別表第二に掲げる者か」. Panel 5（オ）
 uses a 正誤対比型（left/right contrast frame）instead of a flowchart:
 LEFT「誤った数え方（3個）」、RIGHT「正しい数え方（2個）」. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
@@ -417,7 +420,7 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 表題部所有者の住所更正は課税範囲外
 Diagram: An isometric building icon with a small document tag labeled
-「表題部」「住所」attached, a red「課税範囲外」stamp overlaid on top, with no
+「表題部」「住所」attached, a dashed gray-teal「課税範囲外」stamp overlaid on top (this dashed style is for 課税範囲外 only, never for 非課税), with no
 yen coin icons anywhere near the panel.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この変更・更正の登記が「表題部所有者」に関するものか、それとも
@@ -432,7 +435,7 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 別表第二の者が代位すれば非課税
-Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond): 分筆登記は本来は
+Diagram: A decision flowchart with one start box and one diamond. Start box (a plain rounded rectangle, NOT a diamond): 分筆登記は本来は
 課税対象（分筆後の個数×1,000円）, with an arrow down to the only diamond
 node
 (highlighted with a thick border): 代位する主体は登録免許税法別表第二
@@ -454,7 +457,8 @@ Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 表題部の登記の抹消は課税範囲外
 Diagram: An isometric view of three land parcels merged into one（合筆）,
-overlaid with a red cancellation line/✕ mark（抹消）and a「課税範囲外」stamp
+overlaid with a thin dark cancellation line（抹消; not a red mark, because
+red is reserved for wrong answers）and a dashed gray-teal「課税範囲外」stamp
 badge beside it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、抹消の対象が「土地又は建物の表題部の登記」であることを確認しま
@@ -486,7 +490,7 @@ Diagram: A 正誤対比型(left/right contrast frame, NOT a flowchart)。LEFT
 box（faded, red border）labeled「誤った数え方（3個）」: 甲建物・切り離
 された附属建物・乙建物の3つの建物アイコンが並び、それぞれに「1,000円」
 のタグ、合計「3,000円」のsum bubble。RIGHT box（highlighted with a thick
-colored border, green）labeled「正しい数え方（2個）」: 甲建物・乙建物の
+blue border; blue here marks the correct side, matching this panel's badge）labeled「正しい数え方（2個）」: 甲建物・乙建物の
 2つの建物アイコンのみ、それぞれ「1,000円」のタグ、合計「2,000円」の
 sum bubble。切り離された附属建物は乙建物にそのまま吸収される矢印で
 示す（独立した価格タグを付けない）。
@@ -501,20 +505,20 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-登録免許税法5条1号、別表第一（十三）イ・ロ・（十五）に基づく整理です。
+登録免許税法5条1号、別表第一（十三）イ・ロ・（十四）・（十五）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 課, 税, 免, 許, 抹, 消, 建, 物, 登, 記, 個 and any
+attention to 課, 税, 免, 許, 範, 囲, 抹, 消, 建, 物, 登, 記, 個, 代, 位 and any
 character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 2 is drawn
-as a two-step flowchart with both branches of its second diamond node
-leading to distinct conclusion nodes, that Panel 5 is drawn as a
+as a flowchart with exactly one diamond node whose two branches
+lead to distinct conclusion nodes, that Panel 5 is drawn as a
 left/right contrast frame rather than a flowchart, that each 着眼点
-callout states a checking order rather than only a conclusion, confirm
+callout states a checking order rather than only a conclusion, confirm that the dashed gray-teal 課税範囲外 stamp appears only on panels 1 and 3 and the solid green 非課税 stamp only on panel 2, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
 and no additional text block of any kind), and confirm the entire
