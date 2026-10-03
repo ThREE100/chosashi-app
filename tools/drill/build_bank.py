@@ -78,6 +78,16 @@ def main():
                 cands.append({'qid': q['id'], 'label': it['label'], 'statement': it['statement'], 'context': q.get('stem_short'),
                               'truth': bool(it['truth']), 'basis': it.get('basis', ''), 'status': st, 'note_path': r['note_path'],
                               'note_hint': it.get('note_hint', ''), 'issues': q.get('issues', '')})
+    # 2.5) 個別の上書き（現行法の結論に確認が必要な肢を保留にする等）。data/overrides.json
+    ov_path = os.path.join(OUT, 'overrides.json')
+    if os.path.exists(ov_path):
+        ov = {(o['q'], o['label']): o for o in json.load(open(ov_path, encoding='utf-8'))}
+        for c in cands:
+            o = ov.get((c['qid'], c['label']))
+            if o:
+                c['status'] = o['status']
+                if o.get('reason'):
+                    c['basis'] = (c['basis'] + ' ／ ' if c['basis'] else '') + '【要確認】' + o['reason']
     # 3) 重複の統合
     for c in cands:
         c['n'] = norm(c['statement']); c['g'] = grams(c['n'])
