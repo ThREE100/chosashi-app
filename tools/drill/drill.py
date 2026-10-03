@@ -16,6 +16,7 @@
   drill.py tag <ID> <タグ> [--note ..]  肢にタグを付ける（例: nigate＝苦手分析シリーズ候補）
   drill.py tags [タグ] [--json]        タグ付けした肢を一括で表示（タグ省略で件数）
   drill.py untag <ID> <タグ>           タグを解除
+  drill.py checks [--severity error|warn|unverified]   事前の条文照合の結果（指摘）を一覧
   drill.py issue <ID> "問題点" [--proposal "訂正案"]   引用した記事の解説の誤りの指摘と訂正案を記録（記事は書き換えない）
 
 回答は 〇(o)・×(x)・？(?) の3択。
@@ -258,6 +259,41 @@ def article_quote(note_path, label):
     return {'section': section, 'summary': summary}
 
 
+CHECKS = os.path.join(HERE, 'data', 'article_checks.json')
+_CHECKS_CACHE = {}
+
+
+def load_checks():
+    if not _CHECKS_CACHE:
+        if os.path.exists(CHECKS):
+            _CHECKS_CACHE.update(json.load(open(CHECKS, encoding='utf-8')))
+        else:
+            _CHECKS_CACHE.update({'meta': {}, 'checked': {}, 'findings': []})
+    return _CHECKS_CACHE
+
+
+def print_checks(note_path, label):
+    """事前に行った条文照合の結果。指摘があるときだけ詳しく出し、なければ1行。"""
+    ck = load_checks()
+    key = re.sub(r'[正誤]$', '', label)
+    cov = ck['checked'].get(note_path)
+    if cov is None:
+        print('条文照合: 未実施（事前照合の対象外）')
+        return
+    fs = [f for f in ck['findings'] if f['note_path'] == note_path and f['label'] in (key, '')]
+    if not fs:
+        print('条文照合: 指摘なし（事前に法令DBと照合済み）')
+        return
+    icon = {'error': '⚠️ 誤り', 'warn': '⚠️ 要修正', 'unverified': '❔ 根拠を確認できない'}
+    print('【条文照合（事前確認）— 解説に指摘があります】')
+    for f in fs:
+        print(f'{icon.get(f["severity"], f["severity"])}: {f["problem"]}')
+        if f.get('law_ref'):
+            print(f'  照合した原文: {f["law_ref"]}')
+        if f.get('proposal'):
+            print(f'  訂正案（提案）: {f["proposal"]}')
+
+
 def print_explanation(it, limit=1):
     srcs = it.get('sources', [])
     print('【記事の解説（note-articles／mainから引用。独自の解説ではありません）】')
@@ -274,6 +310,7 @@ def print_explanation(it, limit=1):
                 print(q['section'])
             if q['summary']:
                 print('記事のまとめ: ' + q['summary'].lstrip('-・ ').strip())
+        print_checks(sr.get('note_path', ''), sr.get('label', ''))
         shown += 1
     if len(srcs) > shown:
         print(f'（ほか{len(srcs) - shown}件の出典は explain で表示）')
@@ -490,6 +527,24 @@ def cmd_tags(a):
         print()
 
 
+def cmd_checks(a):
+    """事前の条文照合の結果を表示する。"""
+    ck = load_checks()
+    m = ck['meta']
+    if not m:
+        print('照合結果がありません（data/article_checks.json）'); return
+    print(f'照合: {m.get("articles")}記事 / 指摘 {m.get("findings")} / 法令DB: {m.get("law_db")} / 実施日 {m.get("checked_at")}')
+    sev = a.severity
+    rows = [f for f in ck['findings'] if not sev or f['severity'] == sev]
+    for f in rows:
+        print(f'\n[{f["severity"]}] {f["note_path"]} {f["label"]}')
+        print(f'  {f["problem"]}')
+        if f.get('law_ref'):
+            print(f'  原文: {f["law_ref"]}')
+        if f.get('proposal'):
+            print(f'  訂正案: {f["proposal"]}')
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest='cmd', required=True)
@@ -503,10 +558,11 @@ def main():
     m = sub.add_parser('mark'); m.add_argument('id'); m.add_argument('res', choices=['miscon', 'unknown', 'known']); m.add_argument('--note')
     tg = sub.add_parser('tag'); tg.add_argument('id'); tg.add_argument('tag'); tg.add_argument('--note')
     ts = sub.add_parser('tags'); ts.add_argument('tag', nargs='?'); ts.add_argument('--json', action='store_true')
+    ck = sub.add_parser('checks'); ck.add_argument('--severity', choices=['error', 'warn', 'unverified'])
     ut = sub.add_parser('untag'); ut.add_argument('id'); ut.add_argument('tag')
     isu = sub.add_parser('issue'); isu.add_argument('id'); isu.add_argument('problem'); isu.add_argument('--proposal')
     a = p.parse_args()
-    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain, 'mark': cmd_mark, 'tag': cmd_tag, 'tags': cmd_tags, 'untag': cmd_untag, 'issue': cmd_issue}[a.cmd](a)
+    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain, 'mark': cmd_mark, 'tag': cmd_tag, 'tags': cmd_tags, 'untag': cmd_untag, 'checks': cmd_checks, 'issue': cmd_issue}[a.cmd](a)
 
 
 if __name__ == '__main__':
