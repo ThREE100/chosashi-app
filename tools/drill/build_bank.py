@@ -87,6 +87,8 @@ def main():
             if o:
                 if o.get('status'):
                     c['status'] = o['status']
+                if o.get('statement'):
+                    c['statement'] = o['statement']
                 if o.get('suffix'):
                     c['statement'] += o['suffix']
                 if o.get('reason') and o.get('status') == 'hold':
