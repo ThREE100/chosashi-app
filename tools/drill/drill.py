@@ -29,11 +29,11 @@ SESSION = os.path.join(LOGDIR, 'session.json')
 BRANCH = 'drill-log'
 SUBJECTS = ['民法', '不動産登記法', '土地家屋調査士法']
 SUBJ_ALIAS = {'調査士法': '土地家屋調査士法', '不登法': '不動産登記法'}
-# 復習間隔（日）。連続正解数(streak)ごと。誤答・？は streak=0 に戻る。
-INTERVALS = [0, 1, 3, 7, 21, 60]
+# 復習間隔（暦日）。連続正解数(streak)ごと。誤答・？は streak=0 に戻る。期限は日本時間の午前0時。
+INTERVALS = [1, 1, 3, 7, 21, 60]   # 誤答・？は翌日（日付をまたいだ後）から復習に出す。同じ日には出さない
 FIRST_TRY_STREAK = 4      # 初見で正解した肢は streak=4（21日後に確認）から始める
 RETIRE_STREAK = 6         # これ以上は復習に出さない（定着）
-MIN_GAP = 6               # 誤答・？の肢を同じセッションで再出題するまでに挟む最低問数
+JST = dt.timezone(dt.timedelta(hours=9))   # 「日付をまたぐ」は日本時間の午前0時で数える
 
 
 def sh(*args, check=True, cwd=ROOT):
@@ -110,7 +110,8 @@ def due_at(s):
     if s['streak'] >= RETIRE_STREAK:
         return None
     days = INTERVALS[min(s['streak'], len(INTERVALS) - 1)]
-    return s['last'] + dt.timedelta(days=days)
+    last_day = s['last'].astimezone(JST).date()
+    return dt.datetime.combine(last_day + dt.timedelta(days=days), dt.time(0, 0), tzinfo=JST)
 
 
 def topic_stats(bank, st):
@@ -252,7 +253,7 @@ def cmd_answer(a):
     st = item_state(read_log())[a.id]
     print(f'この肢: {st["n"]}回目（定着{st["known"]}／誤解{st["miscon"]}／未習得{st["unknown"]}）')
     if res != 'known':
-        print('→ 同じセッション内でも間隔を空けて再出題されます。')
+        print('→ 復習には、日付をまたいだ翌日（日本時間0時）以降に出ます。')
 
 
 def cmd_save(a):
