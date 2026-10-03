@@ -1,6 +1,6 @@
 {
  "meta": {
-  "note_articles_commit": "75d721dd61a52c3931e6ec4da088844d1a5f0058",
+  "note_articles_commit": "e7c06ee0500862013916330f4c6bb37d1f92968b",
   "checked_at": "2026-10-03",
   "law_db": "note-articles/laws/（e-Gov取得 2026-08-04）",
   "years": [
@@ -3239,7 +3239,7 @@
     "エ",
     "オ"
    ],
-   "sha": "3a69a268cff13f91"
+   "sha": "e8398c1cddac22bb"
   },
   "note-articles/r2-mondai/q20-chousashihou.md": {
    "labels_checked": [
