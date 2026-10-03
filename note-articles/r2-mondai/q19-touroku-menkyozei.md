@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】令和2年度 第19問〜区分建物の合併は課税、でも合体は非課税なんです〜
+## 【土地家屋調査士受験生向け】令和2年度 第19問〜区分建物の合併は課税、でも合体は課税されないんです〜
 
 **出題年度：令和2年度　午後の部　第19問**
 
@@ -18,7 +18,9 @@
 
 ---
 
-表示に関する登記の登録免許税は、「非課税のもの」と「不動産1個（1筆）につき1,000円などの定額のもの」を正確に区別できるかがポイントです。
+表示に関する登記の登録免許税は、「そもそも課税されないもの」と「不動産1個（1筆）につき1,000円などの定額のもの」を正確に区別できるかがポイントです。
+
+なお「課税されない」には2種類あります。①登録免許税法別表第一に掲げられていないため、そもそも課税の対象にならない**課税範囲外**（表題部所有者の住所変更、表題部の登記の抹消など）と、②別表第一に掲げられているが法5条などで免除される**非課税**（国・別表第二に掲げる者の代位登記、墳墓地に関する登記など）です。本問の第3欄の「非課税」は、この2つを区別せず「課税されない」という意味で使われています。
 
 この問題は、第1欄と第2欄の登記の税額が**どちらも**第3欄の金額と一致するかを問い、一致しない（誤っている）組合せを選ばせます。
 
@@ -26,9 +28,9 @@
 
 ### ア：合筆1,000円／一部地目変更・分筆も1,000円で、いずれも第3欄と一致（正）
 
-第1欄の「2筆の土地の合筆」は、合筆後の土地1筆につき1,000円です（登録免許税法別表第一1（13）ロ）。
+第1欄の「2筆の土地の合筆」は、「合筆又は合併後の不動産の個数」に1個につき1,000円で、合筆後の土地は1筆なので1,000円です（登録免許税法別表第一（十三）ロ）。
 
-第2欄の「一部地目変更＋2筆にする分筆」は、墓地になった部分の土地は非課税ですが、もう一方の分筆後の土地には1,000円が課され、地目変更部分は非課税なので、合計1,000円です（先例による）。
+第2欄の「一部地目変更＋2筆にする分筆」は、墓地になった部分の土地は、法5条10号（墳墓地に関する登記）により非課税とされ、もう一方の分筆後の土地に1,000円が課されるため、合計1,000円です（先例による）。なお、一部地目変更の登記そのものは別表第一に掲げられておらず、課税範囲外です。
 
 どちらも1,000円で、第3欄の「1,000円」と一致します。
 
@@ -36,37 +38,39 @@
 
 ### イ：再区分2,000円／共有地の分筆2,000円で、いずれも第3欄と一致（正）
 
-第1欄の「1個の区分建物を2個にする再区分」は、区分後の建物1個につき1,000円なので、2個で2,000円です（登録免許税法別表第一1（13）イ）。
+第1欄の「1個の区分建物を2個にする再区分」は、別表第一（十三）イの「分筆又は分割若しくは区分後の不動産の個数」に1個につき1,000円で、区分後は2個なので2,000円です。敷地権の目的である土地の筆数（2筆）は数えません。
 
-第2欄の「国と私人が共有する土地を2筆にする分筆」は、分筆後の土地1筆につき1,000円で2筆分の2,000円が課されます（国の持分があっても通常どおり課税されます）。どちらも2,000円で、第3欄の「2,000円」と一致します。
+第2欄の「国と私人が共有する土地を2筆にする分筆」は、分筆後の不動産の個数2筆分、1,000円×2＝2,000円が課されます（国の持分があっても通常どおり課税されます）。どちらも2,000円で、第3欄の「2,000円」と一致します。
 
 **たとえば**、1つの部屋を2つに分ける再区分は「2部屋分」で2,000円。国と私人の共有地を2筆に分ける分筆も、国が入っていても「2筆分」で2,000円かかります。
 
 ### ウ：区分建物の合併は1,000円で「非課税」ではない → 第3欄と不一致（誤り）
 
-第2欄の「所有権の保存の登記を含まない合体による登記等」は非課税ですが、第1欄の「2個の区分建物を1個の非区分建物とする区分建物の合併」は、合併後の建物1個につき1,000円が課されます（登録免許税法別表第一1（13）ロ）。
+第2欄の「所有権の保存の登記を含まない合体による登記等」は課税されません（別表第一に掲げられていない表示に関する登記で、第3欄の「非課税」はこの意味です）。一方、第1欄の「2個の区分建物を1個の非区分建物とする区分建物の合併」は、「合筆又は合併後の不動産の個数」に1個につき1,000円で、合併後は1個なので1,000円が課されます（登録免許税法別表第一（十三）ロ）。
 
 第1欄が1,000円である以上、第3欄の「非課税」とは一致しません。したがって、この組合せは誤りです。
 
 **たとえば**、2つの部屋を1つの建物にまとめる合併には1,000円かかります。同じ「1つになる」でも、合体（増築などで物理的にくっつく）の方は非課税なのに対し、合併は課税される、という違いに注意です。
 
-### エ：合筆の抹消は非課税／地方公共団体の代位分筆も非課税で、いずれも第3欄と一致（正）
+### エ：合筆の抹消は課税範囲外／地方公共団体の代位分筆は非課税で、いずれも第3欄と一致（正）
 
-第1欄の「錯誤を原因とする合筆の抹消の登記」は非課税です。
+第1欄の「錯誤を原因とする合筆の抹消の登記」は、合筆の登記が表題部の登記であり、別表第一（十五）が「土地又は建物の表題部の登記の抹消」を除いているため、別表第一に掲げられておらず**課税範囲外**です（法5条の非課税登記ではありません）。
 
-第2欄の「土地の一部を取得した地方公共団体が私人に代位して行う分筆の嘱託」も、国又は地方公共団体等がこれらの者以外の者に代わってする登記は非課税とされているため（登録免許税法5条1号）、非課税です。どちらも非課税で、第3欄の「非課税」と一致します。
+第2欄の「土地の一部を取得した地方公共団体が私人に代位して行う分筆の嘱託」は、分筆の登記が本来は課税対象（別表第一（十三）イ）ですが、国又は別表第二に掲げる者がこれらの者以外の者に代位してする登記は法5条1号により**非課税**です。
 
-**たとえば**、間違ってした合筆を「錯誤」で取り消す抹消は税金がかかりません。市などが道路用地として土地の一部を取得し、その分筆を代位して嘱託する場合も、非課税になります。
+どちらも課税されず、第3欄の「非課税」と一致します。
+
+**たとえば**、間違ってした合筆を「錯誤」で取り消す抹消は、そもそも課税の対象になっていないので税金がかかりません。市などが道路用地として土地の一部を取得し、その分筆を代位して嘱託する場合も、非課税になります。
 
 ### オ：宗教法人の土地の分筆は2,000円で「非課税」ではない → 第3欄と不一致（誤り）
 
-第1欄の「表題部所有者の住所の変更の登記」は非課税です。
+第1欄の「表題部所有者の住所の変更の登記」は、別表第一（十四）が「土地又は建物の表示に関するもの」を除いており、別表第一に掲げられていないため、**課税範囲外**です。
 
 しかし第2欄の「宗教法人が所有権の登記名義人である土地を2筆にする分筆」は、所有権の登記がある土地の分筆として、分筆後の土地1筆につき1,000円、2筆分で2,000円が課されます（登録免許税法別表第一1（13）イ）。
 
 宗教法人であっても、通常の分筆の登記が非課税になるわけではありません。第2欄が2,000円である以上、第3欄の「非課税」とは一致しないため、この組合せは誤りです。
 
-**たとえば**、表題部所有者の引っ越しに伴う住所変更の登記は非課税ですが、お寺（宗教法人）名義の土地を2筆に分ける分筆は、宗教法人だからといって免除されず、2,000円かかります。
+**たとえば**、表題部所有者の引っ越しに伴う住所変更の登記は課税範囲外ですが、お寺（宗教法人）名義の土地を2筆に分ける分筆は、宗教法人だからといって免除されず、2,000円かかります。
 
 ---
 
@@ -75,10 +79,10 @@
 - **ア（正）**　合筆1,000円／一部地目変更・分筆1,000円で、いずれも第3欄「1,000円」と一致
 - **イ（正）**　再区分2,000円／共有地の分筆2,000円で、いずれも第3欄「2,000円」と一致
 - **ウ（誤）**　区分建物の合併は1,000円（課税）で、第3欄「非課税」と不一致
-- **エ（正）**　合筆の抹消・地方公共団体の代位分筆はいずれも非課税で第3欄と一致
+- **エ（正）**　合筆の抹消は課税範囲外、地方公共団体の代位分筆は非課税（法5条1号）で、いずれも第3欄と一致
 - **オ（誤）**　宗教法人の土地の分筆は2,000円（課税）で、第3欄「非課税」と不一致
 
-「合筆・分筆・区分・合併＝不動産1個につき1,000円の定額」「合体（表題部分）や錯誤の抹消、国・地方公共団体の登記＝非課税」という基本の色分けが、税額問題を解く土台になります。
+「合筆・分筆・区分・合併＝不動産1個につき1,000円の定額」「表題部所有者の住所変更・合体・錯誤による合筆の抹消＝課税範囲外」「国・別表第二に掲げる者の代位登記・墳墓地に関する登記＝非課税」という基本の色分けが、税額問題を解く土台になります。
 
 **正解：ウオの組合せ（選択肢5番）**
 
@@ -94,14 +98,15 @@
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。令和7年度第19問も「登録免許税」がテーマで、特に本問イ（敷地権とする区分建物の再区分の登記＝区分後の建物1個につき1,000円で合計2,000円）と令和7年度第19問エ（土地の筆数は異なるが同じ再区分のパターンで2,000円）、および本問エ（地方公共団体が私人に代位して行う分筆の嘱託＝非課税）と令和7年度第19問イ（同じ代位分筆の嘱託＝登録免許税は課されない）は、同一の課税ルールをほぼ同じ数値・結論で問うものです。もっとも、本問は第1欄・第2欄・第3欄を対照させる表形式、令和7年度第19問は単独の記述式という出題形式の違いがあり、他の肢（合筆・地目変更・区分建物の合併・宗教法人の分筆）も具体的な数値や事案が異なるため、出題全体としては別の問題です。noteでの執筆・公開に際しては、上記2肢に対応する箇所の「たとえば」の具体例が令和7年度分の記事と似た内容にならないよう注意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **法令条文の再検証（2026-08-13実施）**：登録免許税法はlaws/未収録のためWebSearchで再確認しました。エ肢の解説文が「国・地方公共団体等が自己のために受ける登記や、これらの者が代位してする登記は非課税」とまとめて登録免許税法5条を根拠に挙げていましたが、「自己のために受ける登記等の非課税」は登録免許税法**4条1項**（別表第二掲記の公共法人等が対象）であり、本問エの場面（地方公共団体が私人に代位してする分筆の嘱託）は登録免許税法**5条1号**（国又は別表第二に掲げる者がこれらの者以外の者に代わってする登記等の非課税）が根拠です。本問エの事案自体は5条1号の場面のみなので、関係のない4条1項の記述を削除し、5条1号に条文番号を訂正しました。別表第一1（13）の分筆・合筆・区分・合併＝不動産1個につき1,000円という税額自体、および合体による登記等が同項に列挙されていないため非課税となる点は、複数の税務・法律専門サイトの記載と整合しており、変更していません。
 - **確認事項ブロックの表記統一（2026-08-18実施）**：C〜F観点の再点検の際、上記の各肢根拠一覧のうちエの代位登記の非課税規定が「登録免許税法5条」（号なし）のままになっており、2026-08-13の訂正後の本文（5条1号）と食い違っていたため、「5条1号」に統一しました。内容面の変更はありません。
+- **2026-10-03の改善（課税範囲外と非課税の区別）**：R7-Q19の訂正（登録免許税法別表第一（十四）が表示に関するものを除き、（十五）が表題部の登記の抹消を除くため、表題部所有者の住所変更・表題部の登記の抹消は「非課税」ではなく「課税範囲外」）を受けて本記事を見直し、オの第1欄（表題部所有者の住所変更）とエの第1欄（錯誤による合筆の抹消）を課税範囲外に、エの第2欄（代位分筆）を法5条1号の非課税に書き分けました。アの墓地になった部分は法5条10号（墳墓地に関する登記）、イ・ウの個数は別表第一（十三）の文言（区分後・合併後の不動産の個数）に揃えました。本問の第3欄の「非課税」は問題文の表記で、課税範囲外も含めて「課税されない」の意味で使われているため、結論（ウ・オが誤り）は変わりません。ウの第2欄（合体による登記等）が課税されない点は、別表第一に掲げられていない表示に関する登記という整理で、個別の先例番号までは法令DBで確認できていません。
 
 ---
 
 ## 見出し画像用フレーズ
 
-- 合筆は「合筆後1筆につき1,000円」なんです
-- 区分建物の合併は課税、でも合体は非課税って知ってた？
-- 錯誤による合筆の抹消は、非課税なんです
+- 合筆は「合筆後の個数×1,000円」なんです
+- 区分建物の合併は課税、でも合体は課税されないって知ってた？
+- 錯誤による合筆の抹消は、課税の対象外なんです
 - 市が代位してする分筆の嘱託は、非課税なんです
 - お寺の土地でも、ふつうの分筆は非課税にならないんです
 
@@ -160,7 +165,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 1行):
-登録免許税、課税・非課税を見分ける5つのポイント
+登録免許税、課税の有無を見分ける5つのポイント
 
 Subtitle (smaller, centered, 1行):
 令和2年度 午後の部 第19問－第3欄と一致するもの・しないもの
@@ -198,12 +203,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-合筆の抹消も代位分筆も非課税
+合筆の抹消は範囲外、代位分筆は非課税
 Illustration: A merged land plot with a red 錯誤 stamp being split back
-apart (合筆を抹消する登記), with a torn-paper 非課税 tag and "0円" stamp;
+apart (合筆を抹消する登記), with a dashed gray-teal 課税範囲外 tag and "0円" stamp;
 beside it, a city-hall/government-building icon (地方公共団体) handing a
 document labeled 代位して行う分筆の嘱託 for a privately-owned land plot
-（私人名義）, also marked with a torn-paper 非課税 tag and "0円" stamp.
+（私人名義）, marked with a solid green torn-paper 非課税 tag and "0円" stamp
+(a different tag style from the dashed gray-teal 課税範囲外 tag).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 第3欄と一致
 
@@ -217,7 +223,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: Two isometric condo units merging into one non-divided
 unit (区分建物の合併) with a price tag "1,000円"; beside it, two separate
 small houses physically joining into one building (合体による登記等) with
-a torn-paper 非課税 tag and a "0円" stamp; a red "≠" symbol sits between
+a dashed gray-teal 課税範囲外 tag and a "0円" stamp; a red "≠" symbol sits between
 the two scenes.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 第3欄と不一致
@@ -227,7 +233,7 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 宗教法人の土地分筆は2,000円で課税
 Illustration: A 表題部所有者 icon changing its address label (住所変更)
-with a torn-paper 非課税 tag and "0円" stamp; beside it, a shrine/temple-
+with a dashed gray-teal 課税範囲外 tag and "0円" stamp; beside it, a shrine/temple-
 shaped icon (宗教法人) owning a land plot that is split into two plots
 (分筆) each with a price tag "1,000円" stacked to total "2,000円", with a
 red "×" over a 非課税 tag to show it is not tax-exempt.
@@ -240,7 +246,7 @@ Card list for self-verification (do not duplicate, omit, or reword any of
 these 5 headings):
 1. 合筆は1,000円、分筆も1,000円
 2. 再区分も共有地分筆も2,000円
-3. 合筆の抹消も代位分筆も非課税
+3. 合筆の抹消は範囲外、代位分筆は非課税
 4. 区分建物の合併は1,000円で課税
 5. 宗教法人の土地分筆は2,000円で課税
 
@@ -267,7 +273,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article（区分
-建物の合併は課税、でも合体は非課税なんです）, but built as a set of 5
+建物の合併は課税、でも合体は課税されないんです）, but built as a set of 5
 diagram-drawing panels (a "how to sketch this fact pattern, in the right
 order" study reference) rather than a quick-reference conclusion poster.
 
@@ -275,7 +281,7 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric land plots and buildings, coin/
-price-tag icons, torn「非課税」paper labels, and a balance-scale comparison
+price-tag icons, torn「非課税」paper labels (solid green) and dashed gray-teal「課税範囲外」labels, and a balance-scale comparison
 icon — adapt icon set to the topic of registration tax amounts. Every
 panel in this set requires checking multiple conditions in sequence
 before reaching a conclusion, so draw every panel's diagram as an actual
@@ -345,7 +351,7 @@ Diagram: The shared three-step flowchart. Box 1: 第1欄「いずれも所有権
 登記のある2筆の土地の合筆の登記」→ diamond「不動産1個につき1,000円の定
 額課税（登録免許税法別表第一1(13)ロ）に該当するか」→ はい →「合筆後の
 土地1筆で1,000円」. Box 2: 第2欄「一部地目変更（墓地）及び分筆の登記」→
-diamond「同様の定額課税に該当するか」→ 墓地になった部分は非課税、残る
+diamond「同様の定額課税に該当するか」→ 墓地になった部分は法5条10号で非課税、残る
 分筆後の土地1筆は1,000円で、合計「1,000円」. Final comparison diamond
 「第1欄・第2欄の税額はいずれも第3欄『1,000円』と一致するか」with the
 はい branch（highlighted with a thick colored border, full color）leading
@@ -355,8 +361,8 @@ to a conclusion node「第3欄と一致（正しい組合せ）」, and the い�
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、第1欄の合筆の登記の税額を確認します。合筆後の土地1筆につき1,000
 円です。次に、第2欄の一部地目変更・分筆の登記の税額を確認すると、墓地
-になった部分は非課税、残る分筆後の土地には1,000円が課され、合計1,000
-円になります。両方とも第3欄の「1,000円」と一致するため、この組合せは
+になった部分は法5条10号により非課税、残る分筆後の土地には1,000円が課され、
+合計1,000円になります。両方とも第3欄の「1,000円」と一致するため、この組合せは
 正しい記述です。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
@@ -368,7 +374,7 @@ Heading (bold, ONE line):
 第1欄の再区分も第2欄の分筆も2,000円
 Diagram: The same shared three-step flowchart shape. Box 1: 第1欄「2筆の
 土地の所有権を敷地権とする所有権の登記のある1個の区分建物を2個の区分
-建物とする再区分の登記」→ diamond「区分後の建物1個につき1,000円の定額
+建物とする再区分の登記」→ diamond「区分後の不動産の個数1個につき1,000円の定額
 課税に該当するか」→ はい →「2個で合計2,000円」. Box 2: 第2欄「国と私人
 が共有する所有権の登記のある土地を2筆にする分筆の登記」→ diamond「分筆
 後の土地1筆につき1,000円の定額課税に該当するか（国の持分があっても通常
@@ -379,8 +385,8 @@ to a conclusion node「第3欄と一致（正しい組合せ）」, and the い�
 （faded, greyed-out, dotted-outline）leading to a conclusion node「第3欄
 と不一致（誤った組合せ）」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、第1欄の再区分の登記の税額を確認します。区分後の建物1個につき
-1,000円なので、2個で2,000円です。次に、第2欄の共有地の分筆の税額を確
+まず、第1欄の再区分の登記の税額を確認します。区分後の不動産の個数1個につき
+1,000円で、区分後は2個なので2,000円です。次に、第2欄の共有地の分筆の税額を確
 認すると、国の持分があっても通常どおり課税され、分筆後の土地1筆につき
 1,000円で2筆分の2,000円になります。両方とも第3欄の「2,000円」と一致す
 るため、この組合せは正しい記述です。
@@ -397,17 +403,17 @@ Diagram: The same shared three-step flowchart shape. Box 1: 第1欄「一棟の
 の登記」→ diamond「不動産1個につき1,000円の定額課税（登録免許税法別表
 第一1(13)ロ）に該当するか」→ はい →「合併後の建物1個で1,000円（課税）」.
 Box 2: 第2欄「2個の建物が合体して1個の建物となったためにする合体による
-登記等」→ diamond「同様の定額課税に該当するか」→ いいえ、同項に列挙され
-ていないため →「非課税」. Final comparison diamond「第1欄・第2欄の税額は
+登記等」→ diamond「同様の定額課税に該当するか」→ いいえ、別表第一に掲げら
+れていないため →「課税されない」. Final comparison diamond「第1欄・第2欄の税額は
 いずれも第3欄『非課税』と一致するか」with the いいえ branch（highlighted
 with a thick colored border, full color, red accent）leading to a
 conclusion node「第3欄と不一致（誤った組合せ、第1欄は1,000円で課税）」,
 and the はい branch（faded, greyed-out, dotted-outline）leading to a
 conclusion node「第3欄と一致（正しい組合せ）」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、第1欄の区分建物の合併の登記の税額を確認します。合併後の建物1個
-につき1,000円が課され、非課税ではありません。次に、第2欄の合体による
-登記等の税額を確認すると、こちらは非課税です。第1欄が1,000円である以
+まず、第1欄の区分建物の合併の登記の税額を確認します。合併後の不動産の個数
+1個につき1,000円が課され、課税されます。次に、第2欄の合体による
+登記等の税額を確認すると、こちらは課税されません。第1欄が1,000円である以
 上、第3欄の「非課税」とは一致しないため、この組合せは誤りです。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
@@ -416,11 +422,11 @@ characters):
 --- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
-第1欄の合筆抹消も第2欄の代位分筆も非課税
+合筆抹消は課税範囲外、代位分筆は非課税
 Diagram: The same shared three-step flowchart shape. Box 1: 第1欄「いず
 れも所有権の登記のある2筆の土地の合筆の登記を、錯誤を原因として抹消す
-る登記」→ diamond「不動産1個につき1,000円の定額課税に該当するか」→
-いいえ、錯誤による抹消のため →「非課税」. Box 2: 第2欄「私人を所有権の
+る登記」→ diamond「別表第一（十五）に掲げられているか」→
+いいえ、表題部の登記の抹消は除外されているため →「課税範囲外（課税されない）」. Box 2: 第2欄「私人を所有権の
 登記名義人とする土地の一部を取得した地方公共団体が、私人に代位して行
 う当該土地を2筆にする分筆の嘱託」→ diamond「国又は地方公共団体等がこれ
 ら以外の者に代わってする登記（登録免許税法5条1号）に該当するか」→ はい
@@ -431,10 +437,10 @@ colored border, full color）leading to a conclusion node「第3欄と一致
 dotted-outline）leading to a conclusion node「第3欄と不一致（誤った組合
 せ）」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、第1欄の錯誤を原因とする合筆の抹消の登記の税額を確認すると、非課
-税です。次に、第2欄の地方公共団体が私人に代位して行う分筆の嘱託の税額
+まず、第1欄の錯誤を原因とする合筆の抹消の登記の税額を確認すると、表題部の
+登記の抹消は別表第一（十五）が除いているため、課税範囲外です。次に、第2欄の地方公共団体が私人に代位して行う分筆の嘱託の税額
 を確認すると、国又は地方公共団体等がこれら以外の者に代わってする登記
-として非課税です。両方とも第3欄の「非課税」と一致するため、この組合せ
+として非課税です。両方とも課税されず、第3欄の「非課税」と一致するため、この組合せ
 は正しい記述です。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
@@ -446,8 +452,8 @@ Heading (bold, ONE line):
 第2欄の宗教法人の土地分筆は2,000円で課税
 Diagram: The same shared three-step flowchart shape. Box 1: 第1欄「1個の
 建物の表題部所有者の住所の変更の登記」→ diamond「不動産1個につき
-1,000円の定額課税に該当するか」→ いいえ、住所の変更登記のため →「非課
-税」. Box 2: 第2欄「宗教法人が所有権の登記名義人である土地を2筆にする分
+1,000円の定額課税に該当するか」→ いいえ、表示に関するものは別表第一（十四）が除いているため →「課税範囲外
+（課税されない）」. Box 2: 第2欄「宗教法人が所有権の登記名義人である土地を2筆にする分
 筆の登記」→ diamond「分筆後の土地1筆につき1,000円の定額課税に該当する
 か（宗教法人であっても通常どおり課税）」→ はい →「2筆で合計2,000円」.
 Final comparison diamond「第1欄・第2欄の税額はいずれも第3欄『非課税』と
@@ -457,8 +463,8 @@ border, full color, red accent）leading to a conclusion node「第3欄と不
 （faded, greyed-out, dotted-outline）leading to a conclusion node「第3欄
 と一致（正しい組合せ）」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、第1欄の表題部所有者の住所の変更の登記の税額を確認すると、非課税
-です。次に、第2欄の宗教法人名義の土地の分筆の税額を確認すると、宗教法
+まず、第1欄の表題部所有者の住所の変更の登記の税額を確認すると、別表第一（十四）
+が表示に関するものを除いているため、課税範囲外です。次に、第2欄の宗教法人名義の土地の分筆の税額を確認すると、宗教法
 人であっても通常の分筆と同じく分筆後の土地1筆につき1,000円、2筆分で
 2,000円が課されます。第2欄が2,000円である以上、第3欄の「非課税」とは
 一致しないため、この組合せは誤りです。
@@ -468,12 +474,12 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-登録免許税法別表第一1(13)・5条1号に基づく整理です。
+登録免許税法別表第一（十三）・（十四）・（十五）、5条1号・10号に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 録, 権, 登, 記, 筆, 分, 併, 錯, 誤, 墓, 宗, 教, 私, 団, 体,
-致 and any character that has a visually similar Simplified Chinese
+致, 範, 囲, 抹, 消 and any character that has a visually similar Simplified Chinese
 variant. If any character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
