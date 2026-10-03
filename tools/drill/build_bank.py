@@ -83,10 +83,10 @@ def main():
     if os.path.exists(ov_path):
         ov = {(o['q'], o['label']): o for o in json.load(open(ov_path, encoding='utf-8'))}
         for c in cands:
-            o = ov.get((c['qid'], c['label']))
+            o = ov.get((c['qid'], c['label'])) or ov.get((c['qid'], '*'))
             if o:
                 c['status'] = o['status']
-                if o.get('reason'):
+                if o.get('reason') and o['status'] == 'hold':
                     c['basis'] = (c['basis'] + ' ／ ' if c['basis'] else '') + '【要確認】' + o['reason']
     # 3) 重複の統合
     for c in cands:
