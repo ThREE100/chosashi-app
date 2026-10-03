@@ -1,6 +1,6 @@
 {
  "meta": {
-  "note_articles_commit": "770997a635a6b6b376be93a51cc33cef2eca09b9",
+  "note_articles_commit": "9f0f80c93b96e681c5afbaa4623f4c3d34fdb650",
   "checked_at": "2026-10-03",
   "law_db": "note-articles/laws/（e-Gov取得 2026-08-04）",
   "years": [
@@ -29,7 +29,7 @@
   "articles": 420,
   "findings": {
    "error": 16,
-   "warn": 150,
+   "warn": 149,
    "unverified": 216
   }
  },
@@ -4239,7 +4239,7 @@
     "エ",
     "オ"
    ],
-   "sha": "a5aefed10dc7eb03"
+   "sha": "5e9879c82072d95d"
   },
   "note-articles/r7-mondai/q20-chousashihou.md": {
    "labels_checked": [
@@ -7680,15 +7680,6 @@
    "problem": "「登録免許税法別表第一（十三）は…いずれも「その登記の結果、登記事項が変わる不動産の個数×1,000円」で課税すると定めています」。条文の文言は、イ「分筆又は分割若しくは区分後の不動産の個数」、ロ「合筆又は合併後の不動産の個数」。",
    "law_ref": "touroku-menkyozei-hou 別表第一（十三）イ・ロ:分割若しくは区分後／合併後の不動産の個数 一個につき千円",
    "proposal": "条文の文言どおり「分割後・合併後の不動産の個数」と書き直したうえで、2個とする数え方（甲建物1個＋乙建物1個。切り離した附属建物は乙建物の一部）は取扱い・解釈であることを示す。",
-   "confidence": "medium"
-  },
-  {
-   "note_path": "note-articles/r7-mondai/q19-touroku-menkyozei.md",
-   "label": "ア",
-   "severity": "warn",
-   "problem": "「表題部所有者の氏名・住所についての変更・更正の登記は、登録免許税法上、非課税とされています」。別表第一（十四）は表示に関するものを除いており、別表第一に掲げられていない課税範囲外であって、法5条の非課税登記ではない。",
-   "law_ref": "touroku-menkyozei-hou 別表第一（十四）:土地又は建物の表示に関するものを除く",
-   "proposal": "「非課税」を「課税範囲外（別表第一に掲げられておらず、（十四）も表示に関するものを除く）」に改める。ウの表題部登記の抹消も同様。",
    "confidence": "medium"
   }
  ]
