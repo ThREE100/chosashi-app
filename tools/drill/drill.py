@@ -148,8 +148,35 @@ def weakness(t):
     return (w + prior_n * prior_w) / (t['n'] + prior_n)
 
 
+def sync_main():
+    """origin/main の最新を取得する（記事はここから読む）。失敗してもドリルは動く。"""
+    try:
+        r = subprocess.run(['git', 'fetch', 'origin', 'main'], cwd=ROOT, capture_output=True, text=True, timeout=30)
+        ok = r.returncode == 0
+    except Exception:
+        ok = False
+    sha = subprocess.run(['git', 'rev-parse', '--short', 'origin/main'], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    when = subprocess.run(['git', 'log', '-1', '--format=%cd', '--date=format:%Y-%m-%d %H:%M', 'origin/main'], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    if ok and sha:
+        print(f'記事の参照元: origin/main {sha}（最終更新 {when}）— 取得しました')
+    elif sha:
+        print(f'⚠️ mainの最新を取得できませんでした。取得済みの origin/main {sha}（最終更新 {when}）を参照します')
+    else:
+        print('⚠️ origin/main がありません。ローカルのファイルを参照します（古い可能性があります）')
+    # 照合結果を出した時点から、mainで更新された記事の数
+    ck = load_checks()
+    cur = subprocess.run(['git', 'log', '-1', '--format=%H', 'origin/main', '--', 'note-articles'], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    if cur and cur == ck.get('meta', {}).get('note_articles_commit'):
+        stale = []   # note-articles/ に照合後の変更がない → 全記事が照合した版のまま
+    else:
+        stale = [pth for pth, v in ck.get('checked', {}).items() if v.get('sha') and article_hash(read_article(pth)) != v['sha']]
+    if stale:
+        print(f'⚠️ 条文照合のあとにmainで更新された記事: {len(stale)}本（その記事の照合結果は参考値）')
+
+
 def cmd_start(a):
     ensure_log_branch()
+    sync_main()
     bank = load_bank(); logs = read_log(); st = item_state(logs)
     total = len(bank)
     seen = len(st)
@@ -236,12 +263,40 @@ def cmd_next(a):
         print()
 
 
+_ART_CACHE = {}
+
+
+def read_article(note_path):
+    """記事の本文を返す。**origin/main の最新**を優先して読む（git show。作業ツリーのコピーは使わない）。
+    取得できないとき（オフライン等）だけ、ローカルのファイルにフォールバックする。記事は編集しない。"""
+    if note_path in _ART_CACHE:
+        return _ART_CACHE[note_path]
+    text = None
+    try:
+        r = subprocess.run(['git', 'show', f'origin/main:{note_path}'], cwd=ROOT, capture_output=True, timeout=10)
+        if r.returncode == 0:
+            text = r.stdout.decode('utf-8')
+    except Exception:
+        text = None
+    if text is None:
+        path = os.path.join(ROOT, note_path)
+        if os.path.exists(path):
+            text = open(path, encoding='utf-8').read()
+    _ART_CACHE[note_path] = text
+    return text
+
+
+def article_hash(text):
+    import hashlib
+    return hashlib.sha256(text.encode('utf-8')).hexdigest()[:16] if text is not None else None
+
+
 def article_quote(note_path, label):
-    """記事（note-articles/、main）の該当肢の解説を、そのまま取り出す。独自の解説は作らない。"""
-    path = os.path.join(ROOT, note_path)
-    if not os.path.exists(path):
+    """記事（note-articles/、origin/main）の該当肢の解説を、そのまま取り出す。独自の解説は作らない。"""
+    text = read_article(note_path)
+    if text is None:
         return None
-    lines = open(path, encoding='utf-8').read().split('\n')
+    lines = text.split('\n')
     key = re.sub(r'[正誤]$', '', label)
     head = re.compile(r'^###\s*(?:肢|空欄)?[（(【]?' + re.escape(key) + r'(?![0-9])')
     summ = re.compile(r'^[-・]\s*\*\*' + re.escape(key) + r'[（(].*')
@@ -280,6 +335,8 @@ def print_checks(note_path, label):
     if cov is None:
         print('条文照合: 未実施（事前照合の対象外）')
         return
+    if cov.get('sha') and article_hash(read_article(note_path)) != cov['sha']:
+        print('⚠️ 条文照合: この記事は、照合したあとにmainで更新されています。以下の照合結果は古い版に対するものです（再照合が必要）。')
     fs = [f for f in ck['findings'] if f['note_path'] == note_path and f['label'] in (key, '')]
     if not fs:
         print('条文照合: 指摘なし（事前に法令DBと照合済み）')

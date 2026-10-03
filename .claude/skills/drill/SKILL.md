@@ -9,7 +9,8 @@ description: 択一式の一問一答ドリル（〇×？の3択）を出題・�
 エンジンは `python3 tools/drill/drill.py`。**正誤の判定はこのスクリプトの出力だけを正とし、自分の法律知識で変えない。** 正誤の基準は現行法令（note-articlesの解説記事の結論）で、出題当時の公式正答とは違うことがある。
 
 ## 手順
-1. 開始: `python3 tools/drill/drill.py start`（記録ブランチを用意し、進捗を表示）。結果を1〜2行で伝える。
+1. 開始: `python3 tools/drill/drill.py start`（記録ブランチを用意し、**origin/mainの最新を取得**して、進捗を表示）。結果を1〜2行で伝える。
+   「記事の参照元」の行（取得できたか／古い版を参照していないか）と、「mainで更新された記事」の警告があれば、それも伝える。
 2. 出題: `python3 tools/drill/drill.py next -n 10`（既定は復習と新規の混合）。
    - ユーザーが科目を指定したら `--subject 民法|不動産登記法|調査士法`、論点なら `--topic`、
      弱点集中なら `--mode weak`、復習のみ `--mode review`。
@@ -39,6 +40,11 @@ description: 択一式の一問一答ドリル（〇×？の3択）を出題・�
 - 「苦手分析シリーズの候補」など、あとで一括で呼び出したい肢は `drill.py tag <ID> nigate --note "理由"`（タグ名は nigate）。
   一覧は `drill.py tags nigate`（`--json` も可）。タグは記録ブランチ drill-log の tags.jsonl に保存され、`save` で push される。
 - タグの解除は `drill.py untag <ID> nigate`。判定を戻すには `drill.py mark <ID> known`。
+
+## 記事の参照元と編集の禁止
+- 解説の引用は、**origin/main の `note-articles/`** から読む（`git show origin/main:…`）。作業ツリーのコピーは使わない（取得できないときだけローカルにフォールバックし、警告が出る）。
+- **`note-articles/` の記事は編集しない**（修正が必要なときは、指摘と訂正案の提示までにとどめ、ユーザーの指示を待つ）。
+- 照合結果は、照合した時点の記事の版に対するもの。記事がmainで更新されると「照合のあとにmainで更新されています」と警告が出る（再照合が必要）。
 
 ## 注意
 - 誤解・？の肢の復習は、日付をまたいだ翌日（日本時間0時）以降に出る。同じ日の再出題は仕様上ない（「また出ます」と言わない）。
