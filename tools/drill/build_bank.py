@@ -85,8 +85,11 @@ def main():
         for c in cands:
             o = ov.get((c['qid'], c['label'])) or ov.get((c['qid'], '*'))
             if o:
-                c['status'] = o['status']
-                if o.get('reason') and o['status'] == 'hold':
+                if o.get('status'):
+                    c['status'] = o['status']
+                if o.get('suffix'):
+                    c['statement'] += o['suffix']
+                if o.get('reason') and o.get('status') == 'hold':
                     c['basis'] = (c['basis'] + ' ／ ' if c['basis'] else '') + '【要確認】' + o['reason']
     # 3) 重複の統合
     for c in cands:
