@@ -465,4 +465,4 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 問題バンクは`tools/drill/data/items.json`、エンジンは`tools/drill/drill.py`、操作手順はスキル`/drill`（`.claude/skills/drill/SKILL.md`）、
 仕様・データの確かさは`tools/drill/README.md`。回答は〇・×・？（？＝わからない）。学習記録はコードと分けて専用ブランチ`drill-log`の`log.jsonl`に残す
 （`main`統一ルールの例外。記録専用でnote記事は置かない）。正誤は**現行法令を正**とし、`note-articles/`の解説記事の結論に従う（出題当時の公式正答とは食い違うことがある）。
-バンクの値だけを正とし、会話中に自分の判断で変えない。記事が不確実と注記している肢などは`tools/drill/REVIEW_HOLD.md`に保留してある。
+バンクの値だけを正とし、会話中に自分の判断で変えない。解説は`note-articles/`の該当肢の解説を**そのまま引用**して出し（`drill.py answer`・`explain`）、Claudeが独自の解答・解説を作ることは禁止。引用した解説に誤りがあれば、その場で指摘して訂正案を添える（`drill.py issue`で記録）。記事が不確実と注記している肢などは`tools/drill/REVIEW_HOLD.md`に保留してある。

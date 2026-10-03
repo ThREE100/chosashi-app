@@ -15,13 +15,15 @@
   drill.py mark <ID> <miscon|unknown|known> [--note ..]   直前の回答の判定を訂正（正解でも理解が誤っていたとき）
   drill.py tag <ID> <タグ> [--note ..]  肢にタグを付ける（例: nigate＝苦手分析シリーズ候補）
   drill.py tags [タグ] [--json]        タグ付けした肢を一括で表示（タグ省略で件数）
+  drill.py untag <ID> <タグ>           タグを解除
+  drill.py issue <ID> "問題点" [--proposal "訂正案"]   引用した記事の解説の誤りの指摘と訂正案を記録（記事は書き換えない）
 
 回答は 〇(o)・×(x)・？(?) の3択。
   〇/× が正解   → 定着(known)
   〇/× が不正解 → 誤解(miscon)   間違って覚えている（最優先で復習）
   ？            → 未習得(unknown) 知らない（正誤は問わない）
 """
-import argparse, collections, datetime as dt, json, math, os, random, subprocess, sys
+import argparse, collections, re, datetime as dt, json, math, os, random, subprocess, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
@@ -30,6 +32,7 @@ LOGDIR = os.path.join(ROOT, '.drill-log')
 LOG = os.path.join(LOGDIR, 'log.jsonl')
 SESSION = os.path.join(LOGDIR, 'session.json')
 TAGS = os.path.join(LOGDIR, 'tags.jsonl')
+ISSUES = os.path.join(LOGDIR, 'issues.jsonl')
 BRANCH = 'drill-log'
 SUBJECTS = ['民法', '不動産登記法', '土地家屋調査士法']
 SUBJ_ALIAS = {'調査士法': '土地家屋調査士法', '不登法': '不動産登記法'}
@@ -232,6 +235,50 @@ def cmd_next(a):
         print()
 
 
+def article_quote(note_path, label):
+    """記事（note-articles/、main）の該当肢の解説を、そのまま取り出す。独自の解説は作らない。"""
+    path = os.path.join(ROOT, note_path)
+    if not os.path.exists(path):
+        return None
+    lines = open(path, encoding='utf-8').read().split('\n')
+    key = re.sub(r'[正誤]$', '', label)
+    head = re.compile(r'^###\s*(?:肢|空欄)?[（(【]?' + re.escape(key) + r'(?![0-9])')
+    summ = re.compile(r'^[-・]\s*\*\*' + re.escape(key) + r'[（(].*')
+    section = ''
+    for i, ln in enumerate(lines):
+        if head.match(ln):
+            j = i + 1
+            while j < len(lines) and not re.match(r'^(###\s|##\s|---)', lines[j]):
+                j += 1
+            section = '\n'.join(lines[i:j]).strip()
+            break
+    summary = next((ln for ln in lines if summ.match(ln)), '')
+    if not section and not summary:
+        return None
+    return {'section': section, 'summary': summary}
+
+
+def print_explanation(it, limit=1):
+    srcs = it.get('sources', [])
+    print('【記事の解説（note-articles／mainから引用。独自の解説ではありません）】')
+    shown = 0
+    for sr in srcs:
+        if shown >= limit:
+            break
+        q = article_quote(sr.get('note_path', ''), sr.get('label', ''))
+        print(f'― {sr["q"]}{sr.get("label", "")}（{sr.get("note_path", "")}）')
+        if q is None:
+            print('  該当肢の解説が記事から取り出せませんでした。記事を直接開いて確認してください。')
+        else:
+            if q['section']:
+                print(q['section'])
+            if q['summary']:
+                print('記事のまとめ: ' + q['summary'].lstrip('-・ ').strip())
+        shown += 1
+    if len(srcs) > shown:
+        print(f'（ほか{len(srcs) - shown}件の出典は explain で表示）')
+
+
 def cmd_answer(a):
     ensure_log_branch()
     bank = load_bank()
@@ -254,12 +301,11 @@ def cmd_answer(a):
     mark = {'known': '✅ 定着（正解）', 'miscon': '❌ 誤解（逆に覚えている）', 'unknown': '❔ 未習得（？）'}[res]
     print(mark)
     print(f'正解: {"〇（正しい記述）" if truth else "×（誤った記述）"}')
-    if it.get('basis'):
-        print(f'根拠: {it["basis"]}')
     srcs = '、'.join(f'{s["q"]}{s.get("label", "")}' for s in it.get('sources', [])[:4])
     print(f'出典: {srcs}' + (f'（ほか {len(it["sources"]) - 4}）' if len(it.get('sources', [])) > 4 else ''))
     if it.get('pair'):
         print(f'対比: {", ".join(it["pair"][:2])}（逆の結論になる類似肢）')
+    print_explanation(it, limit=1)
     # 履歴
     st = item_state(read_log())[a.id]
     print(f'この肢: {st["n"]}回目（定着{st["known"]}／誤解{st["miscon"]}／未習得{st["unknown"]}）')
@@ -270,8 +316,9 @@ def cmd_answer(a):
 def cmd_save(a):
     ensure_log_branch()
     sh('git', 'add', 'log.jsonl', cwd=LOGDIR)
-    if os.path.exists(TAGS):
-        sh('git', 'add', 'tags.jsonl', cwd=LOGDIR)
+    for fn, pth in (('tags.jsonl', TAGS), ('issues.jsonl', ISSUES)):
+        if os.path.exists(pth):
+            sh('git', 'add', fn, cwd=LOGDIR)
     r = sh('git', 'diff', '--cached', '--quiet', check=False, cwd=LOGDIR)
     if r.returncode == 0:
         print('変更なし（保存済み）')
@@ -303,7 +350,12 @@ def cmd_explain(a):
     bank = load_bank(); it = bank.get(a.id)
     if not it:
         raise SystemExit('ID不明')
-    print(json.dumps({k: it.get(k) for k in ('id', 'subject', 'topic', 'statement', 'truth', 'basis', 'sources', 'pair')}, ensure_ascii=False, indent=1))
+    print(f'({a.id}) {it["subject"]}／{it["topic"]}')
+    print(it['statement'])
+    print(f'正解: {"〇（正しい記述）" if it["truth"] else "×（誤った記述）"}')
+    if it.get('pair'):
+        print(f'対比: {", ".join(it["pair"])}（逆の結論になる類似肢）')
+    print_explanation(it, limit=len(it.get('sources', [])))
 
 
 def cmd_report(a):
@@ -358,9 +410,40 @@ def cmd_mark(a):
 
 
 def read_tags():
+    """解除（removed）を反映した、現在有効なタグの一覧。"""
     if not os.path.exists(TAGS):
         return []
-    return [json.loads(l) for l in open(TAGS, encoding='utf-8') if l.strip()]
+    cur = {}
+    for l in open(TAGS, encoding='utf-8'):
+        if not l.strip():
+            continue
+        r = json.loads(l)
+        if r.get('removed'):
+            cur.pop((r['id'], r['tag']), None)
+        else:
+            cur[(r['id'], r['tag'])] = r
+    return list(cur.values())
+
+
+def cmd_untag(a):
+    ensure_log_branch()
+    rec = {'t': now().isoformat(timespec='seconds'), 'id': a.id, 'tag': a.tag, 'removed': True}
+    with open(TAGS, 'a', encoding='utf-8') as f:
+        f.write(json.dumps(rec, ensure_ascii=False) + '\n')
+    print(f'タグを解除しました: {a.id} #{a.tag}')
+
+
+def cmd_issue(a):
+    """引用した解説（記事）の誤りの指摘と訂正案を記録する。記事そのものは書き換えない。"""
+    ensure_log_branch()
+    bank = load_bank()
+    if a.id not in bank:
+        raise SystemExit(f'ID不明: {a.id}')
+    rec = {'t': now().isoformat(timespec='seconds'), 'id': a.id, 'sources': [f'{x["q"]}{x.get("label", "")}' for x in bank[a.id].get('sources', [])],
+           'problem': a.problem, 'proposal': a.proposal or ''}
+    with open(ISSUES, 'a', encoding='utf-8') as f:
+        f.write(json.dumps(rec, ensure_ascii=False) + '\n')
+    print(f'記事の指摘を記録しました: {a.id}')
 
 
 def cmd_tag(a):
@@ -420,8 +503,10 @@ def main():
     m = sub.add_parser('mark'); m.add_argument('id'); m.add_argument('res', choices=['miscon', 'unknown', 'known']); m.add_argument('--note')
     tg = sub.add_parser('tag'); tg.add_argument('id'); tg.add_argument('tag'); tg.add_argument('--note')
     ts = sub.add_parser('tags'); ts.add_argument('tag', nargs='?'); ts.add_argument('--json', action='store_true')
+    ut = sub.add_parser('untag'); ut.add_argument('id'); ut.add_argument('tag')
+    isu = sub.add_parser('issue'); isu.add_argument('id'); isu.add_argument('problem'); isu.add_argument('--proposal')
     a = p.parse_args()
-    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain, 'mark': cmd_mark, 'tag': cmd_tag, 'tags': cmd_tags}[a.cmd](a)
+    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain, 'mark': cmd_mark, 'tag': cmd_tag, 'tags': cmd_tags, 'untag': cmd_untag, 'issue': cmd_issue}[a.cmd](a)
 
 
 if __name__ == '__main__':
