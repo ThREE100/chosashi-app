@@ -299,7 +299,7 @@ def article_quote(note_path, label):
     lines = text.split('\n')
     key = re.sub(r'[正誤]$', '', label)
     head = re.compile(r'^###\s*(?:肢|空欄)?[（(【]?' + re.escape(key) + r'(?![0-9])')
-    summ = re.compile(r'^[-・]\s*\*\*' + re.escape(key) + r'[（(].*')
+    summ = re.compile(r'^[-・]\s*\*\*' + re.escape(key) + r'(?:[（(]|\*\*).*')
     section = ''
     for i, ln in enumerate(lines):
         if head.match(ln):
