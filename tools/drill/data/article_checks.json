@@ -1,6 +1,6 @@
 {
  "meta": {
-  "note_articles_commit": "022ecdc0181c31a0a7d4132e3ff54c97edb54701",
+  "note_articles_commit": "d254d03041d224f452107c7db24a27ae10be4b2e",
   "checked_at": "2026-10-03",
   "law_db": "note-articles/laws/（e-Gov取得 2026-08-04）",
   "years": [
@@ -512,7 +512,7 @@
     "エ",
     "オ"
    ],
-   "sha": "323b658955ba6e00"
+   "sha": "66125bc15c6bad8a"
   },
   "note-articles/h19-mondai/q08-hyoudaibu-henko.md": {
    "labels_checked": [
