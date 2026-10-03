@@ -1,6 +1,6 @@
 {
  "meta": {
-  "note_articles_commit": "e7c06ee0500862013916330f4c6bb37d1f92968b",
+  "note_articles_commit": "022ecdc0181c31a0a7d4132e3ff54c97edb54701",
   "checked_at": "2026-10-03",
   "law_db": "note-articles/laws/（e-Gov取得 2026-08-04）",
   "years": [
@@ -582,7 +582,7 @@
     "エ",
     "オ"
    ],
-   "sha": "dfd24e6248003d8e"
+   "sha": "09a1e198a3f7b185"
   },
   "note-articles/h19-mondai/q15-oin.md": {
    "labels_checked": [
@@ -2016,7 +2016,7 @@
     "エ",
     "オ"
    ],
-   "sha": "3bc75d815c65e666"
+   "sha": "a3a8223c2cf898bd"
   },
   "note-articles/h26-mondai/q18-toukijikou-shoumei.md": {
    "labels_checked": [
