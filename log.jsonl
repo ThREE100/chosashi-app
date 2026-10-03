@@ -1,0 +1,10 @@
+{"t": "2026-10-03T07:02:43+00:00", "id": "D1614", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-03T07:03:14+00:00", "id": "D1086", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-03T07:03:32+00:00", "id": "D1805", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-03T07:04:18+00:00", "id": "D1289", "ans": "?", "truth": true, "res": "unknown"}
+{"t": "2026-10-03T07:05:05+00:00", "id": "D0457", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-03T07:05:27+00:00", "id": "D0607", "ans": "x", "truth": true, "res": "miscon"}
+{"t": "2026-10-03T07:10:42+00:00", "id": "D1973", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-03T07:11:13+00:00", "id": "D1182", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-03T07:11:41+00:00", "id": "D1266", "ans": "x", "truth": true, "res": "miscon"}
+{"t": "2026-10-03T07:13:02+00:00", "id": "D1184", "ans": "x", "truth": false, "res": "known"}
