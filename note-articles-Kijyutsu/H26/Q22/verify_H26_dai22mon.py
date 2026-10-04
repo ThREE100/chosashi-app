@@ -3,6 +3,9 @@
 （照合の作業の中では、予備校の版の日付を試験問題本文の日付に戻して突き合わせた。下の shift はその対応表で、記事・画像には使わない）。
 2026-10-02、最新の執筆プロンプト・チェックリストとの照らし直しで、画像挿入マーカー14か所と zu/ のPNG14枚の対応、
 第1欄・第2欄の画像の分割、解く順番・注の書き分け・所在の確認・区分所有法第31条第1項の今の条文と出題当時の注の確認を加えた。
+2026-10-04、記事の本文に対して図が足りないというユーザーの指摘を受け、本文で説明しているのに図がなかった5か所の図
+（図2 敷地権のしくみ、図3 共用部分の規約廃止と表題登記、図4 合併の制限、図7 建物の位置の確認、第3欄の登記原因の添削）を加え、
+解説図の番号を記事の挿入順に振り直した（マーカー19か所とPNG19枚）。
 実行: python3 note-articles-Kijyutsu/H26/Q22/verify_H26_dai22mon.py"""
 import math
 import os
@@ -226,9 +229,9 @@ SITE = {'1番3': ([(-40, 0), (0, 0), (0, 50), (-40, 50)], 2000.00),
         '1番8': ([(0, 0), (20, 0), (20, 23.47), (0, 23.47)], 469.40),
         '1番9': ([(20, 23.47), (40, 23.47), (40, 50), (20, 50)], 530.60),
         '1番10': ([(20, 0), (40, 0), (40, 23.47), (20, 23.47)], 469.40)}
-figs = [('図2・図4 事務所の1階', main_site, 159.8233), ('図2・図4 倉庫', gar_site, 90.0),
-        ('図5 1階', F1, 159.8233), ('図5 符号1', FA, 90.0), ('図6左 誤り', F2_wrong, 85.2943),
-        ('図6右・図7 2階', F2, 85.2943)] + [('図3 ' + k, v[0], v[1]) for k, v in SITE.items()]
+figs = [('図5・図8 事務所の1階', main_site, 159.8233), ('図5・図8 倉庫', gar_site, 90.0),
+        ('図9 1階', F1, 159.8233), ('図9 符号1', FA, 90.0), ('図10左 誤り', F2_wrong, 85.2943),
+        ('図10右・図11 2階', F2, 85.2943)] + [('図6 ' + k, v[0], v[1]) for k, v in SITE.items()]
 for label, pts, want in figs:
     assert round(poly_area(pts), 4) == round(want, 4), label
     s = ' → '.join(f'({y:g}, {x:g})' for y, x in pts + [pts[0]])
@@ -288,7 +291,8 @@ import struct as _struct
 _ZU = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'zu')
 for _name, _tate in [('H26_dai22mon_dai1ran_kansei', False), ('H26_dai22mon_dai2ran_kansei', False),
                      ('H26_dai22mon_dai4ran_kansei', False),
-                     ('H26_dai22mon_toukishinseisho_kansei', True), ('H26_dai22mon_toukishinseisho_machigai', True)]:
+                     ('H26_dai22mon_toukishinseisho_kansei', True), ('H26_dai22mon_toukishinseisho_machigai', True),
+                     ('H26_dai22mon_toukishinseisho_machigai_dai3ran', True)]:
     _png = _os.path.join(_ZU, _name + '.png')
     if _os.path.exists(_png):
         _w, _h = _struct.unpack('>II', open(_png, 'rb').read()[16:24])
@@ -300,7 +304,8 @@ for _name, _tate in [('H26_dai22mon_dai1ran_kansei', False), ('H26_dai22mon_dai2
     ng += (not _ok)
 _html = {n: open(_os.path.join(_ZU, n + '.html'), encoding='utf-8').read() for n in
          ['H26_dai22mon_dai1ran_kansei', 'H26_dai22mon_dai2ran_kansei', 'H26_dai22mon_dai4ran_kansei',
-          'H26_dai22mon_toukishinseisho_kansei', 'H26_dai22mon_toukishinseisho_machigai']}
+          'H26_dai22mon_toukishinseisho_kansei', 'H26_dai22mon_toukishinseisho_machigai',
+          'H26_dai22mon_toukishinseisho_machigai_dai3ran']}
 _plain = {n: re.sub(r'<[^>]+>', '', h) for n, h in _html.items()}
 _NOTE = ('※添付情報は今の法令による。出題当時は会社法人等番号の制度（平成27年11月施行）がなく、会社法人等番号の代わりに'
          '代表者の資格を証する情報（資格証明書）を付け、印鑑証明書も省略せずに付けていた')
@@ -316,7 +321,11 @@ for _n, _words in [
                                                  '1番8を合併', '符号１', '1階　159', '2階　85', _NOTE]),
         ('H26_dai22mon_toukishinseisho_machigai', ['①誤答', '②添削（赤ペン）', '③正解', '建物表題部変更登記（共用部分である旨の抹消）',
                                                    '平成26年４月30日共用部分の規約廃止', '建物表題登記（共用部分廃止）',
-                                                   '平成26年６月30日共用部分の規約廃止'])]:
+                                                   '平成26年６月30日共用部分の規約廃止']),
+        ('H26_dai22mon_toukishinseisho_machigai_dai3ran', ['①誤答', '②添削（赤ペン）', '③正解', '2行目', '5行目', '符号１',
+                                                          '平成26年８月10日種類変更、1番10に合併', '平成26年８月22日1番8を合併',
+                                                          '①平成26年８月10日種類変更', '1番10に合併', '1番8を合併',
+                                                          '変更した欄の番号を頭に付ける（種類は①）', '形成的登記'])]:
     for _w in _words:
         _ok = _w in _plain[_n]
         ng += (not _ok)
@@ -331,23 +340,36 @@ _ok = '建物表題登記' not in _plain['H26_dai22mon_dai1ran_kansei'] and '非
 ng += (not _ok)
 print(('OK ' if _ok else 'NG ') + '第1欄・第2欄は別の画像')
 
-# ---- 画像（2026-10-02追加）：記事の画像挿入マーカー14か所と zu/ のPNGが、記事の順に対応しているか ----
+# ---- 画像（2026-10-02追加、2026-10-04に19か所へ）：記事の画像挿入マーカーと zu/ のPNGが、記事の順に対応しているか ----
 from PIL import Image
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
 PNGS = [('H26_dai22mon_zu01_jikeiretsu', '1本の時系列', (1600, 900)),
+        ('H26_dai22mon_zu02_shikichiken_shikumi', '敷地権のしくみの図', (1600, 950)),
         ('H26_dai22mon_dai1ran_kansei', '答案用紙の第1欄', 'wide'),
-        ('H26_dai22mon_toukishinseisho_machigai', '①誤答', 'tall'),
+        ('H26_dai22mon_zu03_kyouyou_hyoudai', '共用部分の規約廃止が表題登記になる理由の図', (1600, 950)),
+        ('H26_dai22mon_toukishinseisho_machigai', '答案用紙の第2欄（登記の目的・登記原因及びその日付）の①誤答', 'tall'),
         ('H26_dai22mon_dai2ran_kansei', '答案用紙の第2欄（建物表題登記', 'wide'),
-        ('H26_dai22mon_zu02_shujuu_hikaku', '主従の比較図', (1600, 900)),
+        ('H26_dai22mon_zu04_gappei_seigen', '合併の制限の確認表', (1600, 1050)),
+        ('H26_dai22mon_zu05_shujuu_hikaku', '主従の比較図', (1600, 900)),
         ('H26_dai22mon_dai4ran_kansei', '答案用紙の第4欄', 'wide'),
+        ('H26_dai22mon_toukishinseisho_machigai_dai3ran', '答案用紙の第3欄の「登記原因及びその日付」欄（2行目・5行目）の①誤答', 'tall'),
         ('H26_dai22mon_toukishinseisho_kansei', '答案用紙の第3欄（登記申請書）', 'tall'),
-        ('H26_dai22mon_zu03_shikichi_henchou', '作図チェック用の確認図', (1600, 1100)),
-        ('H26_dai22mon_zu04_tatemono_zumen', '建物図面の完成形（答案用紙の第5欄の右半分の枠の中', (1600, 1300)),
-        ('H26_dai22mon_zu05_1kai_fuzoku_kyuuseki', '附属建物符号1（15.00m×6.00m）の求積図', (1600, 1000)),
-        ('H26_dai22mon_zu06_2kai_ayamari_hikaku', '2階の誤り比較図', (1600, 950)),
-        ('H26_dai22mon_zu07_2kai_kyuuseki', '主である建物の2階の求積図', (1600, 1100)),
-        ('H26_dai22mon_zu08_kakukai_heimenzu', '各階平面図の完成形（答案用紙の第5欄の左半分の枠の中', (1800, 1050)),
-        ('H26_dai22mon_zu09_toku_junban', '本番で解く順番の図', (1600, 800))]
+        ('H26_dai22mon_zu06_shikichi_henchou', '作図チェック用の確認図', (1600, 1100)),
+        ('H26_dai22mon_zu07_tatemono_ichi', '建物が自分の筆の中に収まるかの確認図', (1600, 1200)),
+        ('H26_dai22mon_zu08_tatemono_zumen', '建物図面の完成形（答案用紙の第5欄の右半分の枠の中', (1600, 1300)),
+        ('H26_dai22mon_zu09_1kai_fuzoku_kyuuseki', '附属建物符号1（15.00m×6.00m）の求積図', (1600, 1000)),
+        ('H26_dai22mon_zu10_2kai_ayamari_hikaku', '2階の誤り比較図', (1600, 950)),
+        ('H26_dai22mon_zu11_2kai_kyuuseki', '主である建物の2階の求積図', (1600, 1100)),
+        ('H26_dai22mon_zu12_kakukai_heimenzu', '各階平面図の完成形（答案用紙の第5欄の左半分の枠の中', (1800, 1050)),
+        ('H26_dai22mon_zu13_toku_junban', '本番で解く順番の図', (1600, 800))]
+# 2026-10-04に加えた図の数値・文言（記事の本文と同じか）
+for s_ in ['「2.93」（事務所の西の外壁から西の1番8との境まで', '「7.19」（事務所の南の外壁から南の道路まで',
+           '「3.15」（倉庫の西の外壁から西の1番3との境まで', '「16.06」（倉庫の北の外壁から北の1番7との境まで',
+           '「正しい：非敷地権」', '「誤り：敷地権消滅」', '（法第58条第4項）', '（法第58条第6項）',
+           '「第1号　共用部分である旨の登記がある建物」', '「準則第86条第1号　附属合併で主従の関係にない建物」']:
+    check('追加した図（2026-10-04）', s_, fig, '解説図')
+for s_ in ['2.93', '7.19', '3.15', '16.06']:
+    check('図7の数値が記事にある', s_)
 ok = len(markers) == len(PNGS)
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}')

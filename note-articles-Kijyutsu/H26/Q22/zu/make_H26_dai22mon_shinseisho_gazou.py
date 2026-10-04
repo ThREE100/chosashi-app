@@ -6,7 +6,8 @@ HTML＋ヘッドレスブラウザでPNGに書き出す。
   2026-10-02、第1欄・第2欄を1枚にしていたのを、問1・問2それぞれの答えの直後に置けるように2枚に分けた）
 - 画像4の項目の順序は答案用紙の印刷どおり「登記の目的 → 添付情報 → 平成26年8月22日　申請　Ｇ地方法務局 → 申請人（略） → 代理人（略） → 建物の表示」。
   登録免許税の欄はない。添付情報は今の法令（会社法人等番号）で書き、建物の表示の表の下に出題当時の扱いの注を入れる
-- 添削：`../prompt_H26_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 添削：`../prompt_H26_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）。
+  添削1は第2欄の登記の目的・登記原因及びその日付、添削2は第3欄の建物の表示の2行目・5行目の登記原因及びその日付（2026-10-04追加）
 
 CSSと部品の作りは `H27/Q22/zu/make_H27_dai22mon_shinseisho_gazou.py` と同じ形にしている。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP、なければIPA明朝・IPAゴシック）
@@ -224,6 +225,44 @@ machigai = page(f'''
 <div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成26年度 第22問｜共用部分の規約を廃止したら表題部変更じゃなく表題登記、日付は総会の日</div>''')
 
+
+# ---- 添削2（①誤答 → ②添削 → ③正解）：第3欄の建物の表示の「登記原因及びその日付」（2行目・5行目） ----
+GCOLS = ('<colgroup><col style="width:24%"><col style="width:17%"><col style="width:12%">'
+         '<col style="width:47%"></colgroup>')
+GHEAD = ('<tr><td class="head">行</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td>'
+         '<td class="head">①種類</td><td class="head">登記原因及び<br>その日付</td></tr>')
+
+
+def dai3_panel(g2, g5, bub2='', bub5='', good=False):
+    """第3欄の建物の表示のうち、2行目（変更後の本件建物）と5行目（合併後の附属建物）だけを取り出した表"""
+    chk = CHECK_SVG if good else ''
+    wrap = 'okwrap good' if good else 'okwrap'
+
+    def tb(label, shu, kind, genin, first):
+        head = GHEAD if first else ''
+        mt = '' if first else 'margin-top:18px'
+        return (f'<table class="t" style="{mt}">{GCOLS}{head}<tr><td class="entry" style="font-size:17px">{label}</td>'
+                f'<td class="entry center">{shu}</td><td class="entry center">{kind}</td>'
+                f'<td class="entry genin" style="font-size:19px">{genin}</td></tr></table>')
+    b2 = f'<div class="bubrow" style="margin-left:330px"><span class="bubble">{bub2}</span></div>' if bub2 else ''
+    b5 = f'<div class="bubrow" style="margin-left:330px"><span class="bubble">{bub5}</span></div>' if bub5 else ''
+    return (f'<div class="sec" style="margin-top:0">第3欄　建物の表示（2行目・5行目だけ）</div>'
+            f'<div class="{wrap}">{tb("2行目<br>（変更後の本件建物）", "", ink("倉庫"), g2, True)}{b2}'
+            f'{tb("5行目<br>（合併後の附属建物）", ink("符号１"), ink("倉庫"), g5, False)}{chk}</div>{b5}')
+
+
+ng3 = dai3_panel(ink('平成26年８月10日種類変更、1番10に合併'), ink('平成26年８月22日1番8を合併'))
+fix3 = dai3_panel(red('①') + ink('平成26年８月10日種類変更') + st('、') + '<br>' + ink('1番10に合併'),
+                  st('平成26年８月22日') + ink('1番8を合併'),
+                  bub2='変更した欄の番号を頭に付ける（種類は①）。<br>種類変更は工事の完了を報告する登記なので日付を書く',
+                  bub5='合併は登記をして初めて1個になる形成的登記。<br>日付は書かない（申請日の８月22日も書かない）')
+ok3 = dai3_panel(ink('①平成26年８月10日種類変更<br>1番10に合併'), ink('1番8を合併'), good=True)
+machigai3 = page(f'''
+<div class="panel"><div class="ptitle ng">①誤答</div>{ng3}</div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix3}</div>
+<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div>{ok3}</div>
+<div class="caption" style="margin:10px 0 30px">平成26年度 第22問｜種類変更には①と日付、合併には日付を付けない</div>''')
+
 if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
     with sync_playwright() as p:
@@ -233,7 +272,8 @@ if __name__ == '__main__':
                            ('H26_dai22mon_dai2ran_kansei', dai2ran),
                            ('H26_dai22mon_dai4ran_kansei', gazou2),
                            ('H26_dai22mon_toukishinseisho_kansei', gazou3),
-                           ('H26_dai22mon_toukishinseisho_machigai', machigai)]:
+                           ('H26_dai22mon_toukishinseisho_machigai', machigai),
+                           ('H26_dai22mon_toukishinseisho_machigai_dai3ran', machigai3)]:
             hp = os.path.join(OUT, name + '.html')
             open(hp, 'w', encoding='utf-8').write(html)
             pg.set_content(html)

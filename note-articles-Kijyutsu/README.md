@@ -145,11 +145,12 @@ note-articles-Kijyutsu/
 │   │   └── zu/                                          解説図12枚のPNGと作図スクリプト draw_H26_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H26_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_H26_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例〈改題版〉と照合済み）
-│       ├── prompt_H26_dai22mon_kaisetsuzu.md                  解説図7枚（時系列図・主従比較図・敷地辺長図・建物図面・1階と附属の求積図・2階の誤り比較図・2階求積図）作成プロンプト
-│       ├── prompt_H26_dai22mon_toukishinseisho_gazou.md       登記申請書等の画像プロンプト（完成形3枚。第1欄・第2欄、第4欄、第3欄）
-│       ├── prompt_H26_dai22mon_toukishinseisho_machigai.md    第2欄「登記の目的」「登記原因及びその日付」の誤答→添削→正解の画像プロンプト
+│       ├── prompt_H26_dai22mon_kaisetsuzu.md                  解説図13枚（時系列図・敷地権のしくみ・共用部分の規約廃止と表題登記・合併の制限の確認表・主従比較図・敷地辺長図・建物の位置の確認図・建物図面・1階と附属の求積図・2階の誤り比較図・2階求積図・各階平面図・解く順番）作成プロンプト
+│       ├── prompt_H26_dai22mon_toukishinseisho_gazou.md       登記申請書等の画像プロンプト（完成形4枚。第1欄、第2欄、第4欄、第3欄）
+│       ├── prompt_H26_dai22mon_toukishinseisho_machigai.md    誤答→添削→正解の画像プロンプト2枚（第2欄の登記の目的・登記原因及びその日付、第3欄の2行目・5行目の登記原因及びその日付）
 │       ├── prompt_H26_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
-│       └── verify_H26_dai22mon.py                             記事・付属プロンプトの数値・求積・体裁の照合スクリプト
+│       ├── verify_H26_dai22mon.py                             記事・付属プロンプト・生成画像の数値・求積・体裁の照合スクリプト（画像挿入マーカー19か所とPNG19枚の対応）
+│       └── zu/                                                解説図13枚のPNGと作図スクリプト draw_H26_dai22mon_kaisetsuzu.py、答案用紙の完成形4枚・添削2枚のPNG・HTMLと生成スクリプト make_H26_dai22mon_shinseisho_gazou.py
 ├── H27/
 │   ├── Q21/
 │   │   ├── note_H27_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた改題版〉と照合済み）
