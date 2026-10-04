@@ -118,6 +118,7 @@
 - 本文には判例番号を書いていません。各年度の既存記事の内容に基づいています。
 - 範囲：占有権の取得の方法は⑪、取得時効のなかの占有は⑧・⑨、所有権に基づく物権的請求権は扱っていません。
 - 図解プロンプト2枚は、フローチャートをノードと矢印の1つずつまで機械的に点検してから作成しました（全ダイヤの出口がそろい、経路数が一致）。画像生成AIでの生成・目視確認はまだ行っていません。
+- 会話式解説の項の、型A〜型Eのイメージ図1枚は、フローチャートではなく場面の絵です。機械点検の対象外で、画像生成AIでの生成・目視確認はまだ行っていません。会話式解説の事実関係は、上の本文と同じ条文の原文に基づいています。「訴えの提起の時」（189条2項）は、会話では「訴えを起こされた日」と言い換えています。
 
 ---
 
@@ -430,6 +431,282 @@ of any kind), and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
 
+
+---
+
+## 会話でつかむ占有権：型A〜型Eを具体的な場面で
+
+フローチャートだとピンとこない人向けに、場面を頭に思い浮かべて、型A〜型Eを見分ける練習をします。ここからは、トリ先生と藍子の会話です。
+
+---
+
+【登場人物】
+
+**トリ先生**：見た目はぽっちゃりした鳥のキャラクター。調査士試験の要点と受験生の弱点を熟知している。口調は辛辣だが、初学者への愛は深い。
+
+**藍子（アイコ）**：ブルーの細い縦じまが入ったブラウスにネイビーのスーツをパリッと着こなす受験生。まじめで素直だが、問題作成者の仕掛けたワナに見事に引っかかる猪突猛進な面も。
+
+---
+
+### 型A：占有の訴えは、「何が起きたか」を絵にして決める
+
+**藍子**  
+「トリ先生、占有の訴えって回収、保持、保全と3つもあって、どれがどれだかこんがらがります。しかも、貸した家を返してくれない借主にも使えそうな気がして……」
+
+**トリ先生**  
+「出たわね、『使えそうな気がする』病。法律は、気がするで使うものじゃないの！ まず絵を描きなさい。3つの絵よ」
+
+- 自転車が盗まれた：奪われたので、占有回収の訴え
+- 家の前に他人の車が停めっぱなし：今まさに邪魔されているので、占有保持の訴え
+- 隣の木が自分の庭に倒れそう：まだ何も起きていないが、おそれがあるので、占有保全の訴え
+
+**藍子**  
+「じゃあ、契約が終わっても借主が居座っているのは、取られたも同然ですよね？」
+
+**トリ先生**  
+「同然じゃなくて、取られてないの！ 鍵を渡して貸したのは、アンタ自身でしょ。自分の意思で渡した物を返してもらえないのは、ひったくりじゃなくて、ただの契約違反。ひったくりの被害者と同じ扱いにしたら、被害者が泣くわよ。
+
+占有回収の訴えの決め手は、『自分の意思に反して』所持を失ったかどうか。貸主は、占有の訴えじゃなく、契約や所有権で返還を求めるの」
+
+**藍子**  
+「あっ、居座られても、自分の意思で貸したんだから、奪われたことにはならないんですね。じゃあ、盗まれた自転車を、盗んだBさんが事情を知らないCさんに売ったら、Cさんにも取り返せますか？」
+
+**トリ先生**  
+「そこは引っかけの王道よ。バトンリレーで想像しなさい。盗んだBさんには取り返す訴えが届く。でも、事情を知らずにバトンを受け取ったCさんには届かないの。Cさんが盗品と知っていたなら届くわ。
+
+それと期限。『奪われた時から1年』よ。Cさんが買った日から数えたりしたら、アンタの合格までの時間が1年延びるわよ」
+
+**藍子**  
+「もうひとつ、悪意の占有者でも訴えを起こせるって聞いて、悪い人なのに、と混乱しました」
+
+**トリ先生**  
+「占有の訴えはね、占有者がいい人かどうかを審査する制度じゃないの。力ずくで取り返すのを禁じて、まず今の平和を守る仕組み。だから悪意でも、他人のために預かっているだけの人でも訴えられる。
+
+転貸の例でいくわよ。賃借人Aさんが、転借人Bさんに貸している間に、Bさんの占有を第三者が奪ったら？ 預けた荷物を奪われた預け主も被害者でしょ。Aさんも回収の訴えを起こせるの」
+
+### 型B：本権との関係は、「入口を間違えない」と覚える
+
+**藍子**  
+「占有の訴えを起こされたら、『この土地は俺のものだ！』って言い返したくなります。でも、通らないんですよね。納得いかなくて……」
+
+**トリ先生**  
+「その気持ちは分かるわ。でもね、占有の訴えは、『今、誰がどう持っているか』だけを片付ける簡単な仲裁なの。そこに所有権の議論を持ち込んだら、簡単な仲裁が、大げさな裁判に化けちゃうでしょ。
+
+だから、占有の訴えは、所有権などの本権に関する理由では裁判できないの。防御方法として所有権は使えない。理由はそれだけ」
+
+**藍子**  
+「じゃあ、本当の所有者は泣き寝入りなんですか？」
+
+**トリ先生**  
+「誰が泣き寝入りって言ったのよ。別のドアから入りなさいって話！ 所有者が、別に所有権に基づいて反訴を起こすのは自由。占有の訴えと本権の訴えは、互いに邪魔しない。同じ入口から入ろうとするから止められるだけ」
+
+**藍子**  
+「もうひとつ。占有を奪われて、占有回収の訴えで勝って取り戻したとき、奪われていた間の占有はどうなるんですか？」
+
+**トリ先生**  
+「勝って、現実に取り戻したなら、途切れていなかったことになるの。空白期間はなかったことにしてくれる優しいルールよ。『主張できない』と答えたら、優しさを無駄にしてるわよ」
+
+### 型C：承継と善意・悪意は、「バトン」と「訴えを起こされた日」で見る
+
+**藍子**  
+「占有を引き継いだ人は、前の人の占有を足して主張できると習いました。でも、足さなきゃいけない、と思い込んでました」
+
+**トリ先生**  
+「足し算は義務じゃなくて、選択制よ。リレーで、前の走者のタイムを自分の記録に足してもいいし、自分が走った分だけ申告してもいい。相続人も同じ。
+
+ただし、足すなら、前の走者の失敗も一緒に背負うわよ。前の人が悪意なら、悪意込みで引き継ぐの。いいとこ取りはできないの」
+
+**藍子**  
+「善意の占有者が、所有者との裁判で負けたら、占有を始めた時から悪意者になる、と答えてしまいました」
+
+**トリ先生**  
+「始めた時までさかのぼったら、それまで食べた果実を全部返す羽目になるでしょ。法律はそこまで鬼じゃないの。分かれ目は、訴えを起こされた日。お花畑は、訴えを起こされた日に終わる。そう覚えなさい」
+
+**藍子**  
+「管理を任せた人が、他人の土地と知っていたら、本人が善意でも悪意になるんでしょうか」
+
+**トリ先生**  
+「なるわよ。現場にいる管理人が知っているのに、社長だけ『知りませ〜ん』は通らないでしょ。善意か悪意かは、現場にいる占有代理人で見るの」
+
+### 型D：果実と費用は、「普段」と「臨時」を分ける
+
+**藍子**  
+「善意の占有者でも、占有していた間の使用料みたいなものは、あとで返すのかな、と思ってしまいます」
+
+**トリ先生**  
+「返さなくていいの。善意の占有者は、果実をもらえる。使用利益も同じ扱い。他人の土地を自分の土地だと信じて畑にして、収穫して売った。あとで他人の土地と分かっても、その収穫は返さなくていい。
+
+ただし、さっきの話よ。本権の訴えで負けたら、訴えを起こされた日から悪意。その日から先は、返すことになるわ」
+
+**藍子**  
+「じゃあ、修繕費はどうですか？ 果実をもらっているから、請求できないのかなと」
+
+**トリ先生**  
+「アンタ、普段のお掃除代と、災害の修理代を一緒にしてるでしょ。通常の必要費は、果実をもらった代わりに自分持ち。でも、落雷で屋根が壊れたような臨時の必要費は別。返してもらえるの。
+
+『普段』と『臨時』。この2つを分けて考えるだけで、迷わなくなるわよ」
+
+### 型E：占有権の取得の方法は、「誰が承諾するか」で見る
+
+**藍子**  
+「占有改定と指図による占有移転、名前が似ていて、頭の中で混ざります」
+
+**トリ先生**  
+「名前は覚えなくていいの。登場人物の動きで見なさい。売った時計を、そのまま売主が預かっておく。『今日から買主のために持ってます』と言う。これが占有改定」
+
+**藍子**  
+「じゃあ、倉庫に預けている荷物を売るときは？」
+
+**トリ先生**  
+「それが指図による占有移転。売主が倉庫業者に『今後は買主のために持っていて』と命じる。ここで引っかかるのが、承諾するのは誰か。倉庫業者じゃなくて、新しいご主人様になる買主よ。
+
+詳しい引渡しの4類型は、⑪で整理したから、そっちも見ておきなさい」
+
+### 型A〜型Eのまとめ
+
+**藍子**  
+「ここまでを自分の言葉でまとめます。型Aは、奪われたら回収、邪魔されているなら保持、おそれなら保全。借主が返さないだけでは、奪われたことになりません。善意の承継人には、回収の訴えは届きません。
+
+型Bは、所有権は防御方法にならないけれど、反訴は別の入口として使えます。型Cは、承継は選べて、善意の占有者は訴えを起こされた日から悪意。型Dは、善意なら果実も使用利益も返さず、臨時の必要費は請求できます。型Eは、承諾するのは新しい持ち主です」
+
+**トリ先生**  
+「まあまあ、合格点ね。ほめてるのよ、ちゃんと。5つの絵を思い浮かべるだけで、迷うことは、かなり減るわ。次の過去問で、ちゃんと絵を描きなさいよ」
+
+> 【画像挿入】型A〜型Eのイメージ図（5つの場面を1枚に並べた図解）。画像のプロンプトは、この下の「図解プロンプト（型A〜型Eのイメージ図1枚）」にあります。
+
+---
+
+### 図解プロンプト（型A〜型Eのイメージ図1枚）
+
+この図は、フローチャートではなく、場面のイメージを5つ並べる構成です。上のフローチャート2枚とは別で、機械点検の対象ではありません。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2900 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic, built as a set of 5 panels (a "scene
+illustrations that make the five question types of possession (占有権) easy
+to picture" study reference). Each panel is one scene illustration, not a
+flowchart.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Each panel shows concrete everyday scenes drawn as isometric illustrations,
+with only the short captions written below, verbatim. Two small recurring
+guide characters may appear in the corner of each panel as silent observers
+and must not carry any speech or text: トリ先生 (a chubby bird character who
+looks sharp-tongued but caring) and 藍子 (a young woman exam candidate in a
+blouse with thin blue vertical stripes and a navy suit). The arrow symbol
+that appears inside a caption (for example 奪われた → 占有回収の訴え) is part of
+the caption text and must be reproduced as written. Do not draw ✓ or ✕
+marks anywhere in this image. Do not include case or precedent numbers.
+Keep the text inside each panel to the captions and labels given below;
+make each caption fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+占有権のイメージを
+5つの場面でつかむ
+
+Subtitle (smaller, centered, 1行):
+苦手分析シリーズ⑬ 占有権 型A〜型E
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+型A　占有の訴え
+Scene: a 2 x 2 grid of four small isometric scenes inside one panel. Each scene has one short caption under it, verbatim.
+  Scene 1: a sneaky figure wheeling away a bicycle while the owner watches in shock. Caption: 奪われた → 占有回収の訴え
+  Scene 2: a car parked in front of a house gate so the resident cannot get out. Caption: 邪魔されている → 占有保持の訴え
+  Scene 3: a tall tree leaning toward a neighbor's garden fence. Caption: おそれがある → 占有保全の訴え
+  Scene 4: a tenant standing inside a house holding a lease paper while the landlord waits outside. Caption: 返さないだけ → 奪われていない
+Below the grid, one wide strip showing a relay: the thief hands a bicycle to a buyer who looks innocent, and a thin barrier stands in front of the buyer. Caption (verbatim): 善意の承継人には回収の訴えは届かない
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+奪われたら回収の訴え
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+型B　本権との関係
+Scene: a small courtroom table. On the left an occupant sits behind a table with a house model. On the right an owner holds a land deed and shouts, with a speech bubble that says: ここは俺の土地だ . A transparent wall stands in front of the owner, with a label on the wall (verbatim): 防御方法には使えない . Beside the wall, a separate door with a sign (verbatim): 別の入口：反訴 . The owner is shown walking toward that door. In a small corner scene, a calendar with a bridge over a gap between two dates, caption (verbatim): 勝って取り戻せば占有は途切れない
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+防御ではなく反訴
+
+--- PANEL 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+型C　承継と善意・悪意
+Scene: a relay race. A runner hands a baton to the next runner. Above the second runner two thought bubbles with these labels, verbatim: 自分の分だけ ／ 前の分も足す（失敗も一緒に）. On the right, a flower field on one side of a calendar page and a bare dry field on the other side, divided by a date marker labeled (verbatim): 訴えを起こされた日から悪意 . In a small corner scene, a site manager standing in a field who looks guilty while a company president far away smiles, caption (verbatim): 善意か悪意かは現場の代理人で見る
+Conclusion tag (a short orange banner, 5-15 Japanese characters):
+承継人は選べる
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+型D　果実と費用
+Scene: two scenes side by side. Left: a farmer with a basket of harvested vegetables on a field. Caption (verbatim): 善意なら収穫は返さない . Right: a house whose roof was hit by lightning, with a repair worker on the roof. Caption (verbatim): 臨時の必要費は請求できる . Under the right scene, a small broom and bucket icon with caption (verbatim): 普段の費用は自分持ち
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+善意は返還不要
+
+--- PANEL 5 ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+型E　取得の方法
+Scene: two scenes side by side. Left: a seller behind a shop counter keeping a wristwatch that was already sold, while the buyer smiles. Caption (verbatim): 預けたまま：占有改定 . Right: a warehouse worker standing next to boxes, the seller pointing at the boxes, and the new owner raising a hand. Caption (verbatim): 倉庫業者に命じる：指図による占有移転 . A small label near the raised hand (verbatim): 承諾するのは新しい持ち主
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+承諾するのは新しい持ち主
+
+--- FOOTER ---
+Small footnote text (bottom of the image, small font, verbatim):
+民法183条 184条 187条 189条 196条 198条 199条 200条 201条 202条 203条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 権, 占, 訴, 継, 善, 悪, 実, 還, 請, 収, 保, 承, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5 continuously, that every panel is a scene illustration, and that no flowchart, diamond or connecting arrow between boxes appears anywhere. Confirm there is no intro illustration or paragraph
+block between the header and the panels, that no ✓ or ✕ mark appears
+anywhere, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the footnote text (no
+summary recap panel, no trophy or medal icon, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
 
 ---
 
