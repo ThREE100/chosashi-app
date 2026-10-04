@@ -1,7 +1,7 @@
 {
  "meta": {
-  "note_articles_commit": "fb60146db242967534ce823a463d75426f6357da",
-  "checked_at": "2026-10-03",
+  "note_articles_commit": "b507e54108f739ff260de670879feed460d677ab",
+  "checked_at": "2026-10-04",
   "law_db": "note-articles/laws/（e-Gov取得 2026-08-04）",
   "years": [
    "h17",
@@ -62,7 +62,7 @@
     "エ",
     "オ"
    ],
-   "sha": "1bb74e681c2dd04d"
+   "sha": "f3338e95693d3583"
   },
   "note-articles/h17-mondai/q04-yukamenseki.md": {
    "labels_checked": [
