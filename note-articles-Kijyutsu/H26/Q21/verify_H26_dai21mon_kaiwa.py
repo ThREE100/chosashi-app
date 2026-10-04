@@ -261,7 +261,7 @@ for s in ['今年いちばん時間を食うのは、P→D・E→V・Wと1点ず
           '- **2**：問3の甲区・乙区と、問4の登記の目的', '- **3**：P → D・E → V・W の座標', '- **4**：本件土地の面積とED・DCで公差',
           '- **5**：（イ）（ロ）の面積と100番5の三斜', '- **6**：地積測量図（問5）', '答案用紙の最下欄に鉛筆で小さく『地役権』と印を付けておく']:
     check('具体的な時間配分と解く順番', s)
-for s in ['図12　本番で解く順番', '座標の連鎖（問1・問2）', '第5欄の枠は横約30cm・縦約20cm', '（問題文の注5）', '（問題文の注6）']:
+for s in ['図18　本番で解く順番', '座標の連鎖（問1・問2）', '第5欄の枠は横約30cm・縦約20cm', '（問題文の注5）', '（問題文の注6）']:
     check('作図スクリプトの追加', s, draw, '作図')
 n_fit = len(re.findall(r'\bfit\(', draw))
 n_pad = len(re.findall(r'pad_aspect=True', draw))
@@ -276,13 +276,14 @@ b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋め
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（12枚）', n_fig == 12)
-for i in range(1, 13):
+judge(f'解説図プロンプトの図の数 {n_fig}枚（18枚）', n_fig == 18)
+for i in range(1, 19):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'H26_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\()'図(\d+)　", draw)]
 nums += [int(m) for m in re.findall(r"housha_fig\((\d+), ", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から12まで（{sorted(nums)}）', sorted(nums) == list(range(1, 13)))
+nums += [int(m) for m in re.findall(r"box_figure\('図(\d+)　", draw)]
+judge(f'作図スクリプトの図のタイトル番号が1から18まで（{sorted(nums)}）', sorted(nums) == list(range(1, 19)))
 for s in ['（246.09, 183.49）', '（195.56, 183.27）', '270°14′41.03″', '−89°45′18.97″', '135°50′52.50″', '116°43′41.50″',
           '476°43′41.50″', '208°13′29.50″', '−151°46′30.50″', '（240.38, 194.83）', '（239.31, 179.85）', '239.3055…',
           '（251.80, 172.15）', '（252.87, 187.13）', '（236.35, 178.39）', '（236.44, 198.85）', '（226.38, 173.48）',
@@ -385,24 +386,31 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図12＋添削1＋完成形1＋第1欄・第2欄1＋第3欄1＝計16か所の想定）', n_marker == 16)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図18＋添削1＋完成形1＋第1欄・第2欄1＋第3欄1＝計22か所の想定）', n_marker == 22)
 n_png = len([f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png')])
 judge(f'zu/ のPNGがマーカーの数だけある（{n_png}枚）', n_png == n_marker)
 
 # ---- 画像挿入マーカーと zu/ のPNGが記事の順に対応しているか（2026-10-02追加。R5/Q22の照合スクリプトにならう） ----
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
-PNGS = [('H26_dai21mon_zu01_zentaizu', '全体図', 'fig'), ('H26_dai21mon_zu02_P_housha', 'P点を求める図', 'fig'),
-        ('H26_dai21mon_zu03_D_housha', 'D点を求める図', 'fig'), ('H26_dai21mon_zu04_E_housha', 'E点を求める図', 'fig'),
-        ('H26_dai21mon_zu05_V', 'V点の求め方', 'fig'), ('H26_dai21mon_zu06_W', 'W点の求め方', 'fig'),
+PNGS = [('H26_dai21mon_zu01_mochibun', '甲区の持分を1つずつ追いかける図', 'fig'),
+        ('H26_dai21mon_zu02_zentaizu', '全体図', 'fig'), ('H26_dai21mon_zu03_P_housha', 'P点を求める図', 'fig'),
+        ('H26_dai21mon_zu04_D_housha', 'D点を求める図', 'fig'), ('H26_dai21mon_zu05_E_housha', 'E点を求める図', 'fig'),
+        ('H26_dai21mon_zu06_V', 'V点の求め方', 'fig'), ('H26_dai21mon_zu07_W', 'W点の求め方', 'fig'),
         ('H26_dai21mon_dai1ran_dai2ran_kansei', '第1欄（点Pの座標値）・第2欄', 'wide'),
-        ('H26_dai21mon_zu07_kousa', '公差の判断の図', 'fig'), ('H26_dai21mon_zu08_menseki', '（イ）（ロ）の面積の図', 'fig'),
+        ('H26_dai21mon_zu08_kousa', '公差の判断の図', 'fig'),
+        ('H26_dai21mon_zu09_kyori_kousa', '100番5の地積測量図の辺長と今回の測量を比べる図', 'fig'),
+        ('H26_dai21mon_zu10_menseki', '（イ）（ロ）の面積の図', 'fig'),
+        ('H26_dai21mon_zu11_gouhitsugo_254', '合筆後の100番5の地積の図', 'fig'),
+        ('H26_dai21mon_zu12_gouhitsu_seigen', '合筆できるかの整理図', 'fig'),
         ('H26_dai21mon_toukishinseisho_machigai', '誤答→添削→正解', 'tall'),
-        ('H26_dai21mon_zu09_bungouhitsu', '分合筆の前と後の図', 'fig'),
+        ('H26_dai21mon_zu13_souzoku_jikeiretsu', '申請人の山川次郎の時系列の図', 'fig'),
+        ('H26_dai21mon_zu14_menkyozei', '登録免許税の図', 'fig'),
+        ('H26_dai21mon_zu15_bungouhitsu', '分合筆の前と後の図', 'fig'),
         ('H26_dai21mon_toukishinseisho_kansei', '登記申請書（問4）の完成形', 'tall'),
         ('H26_dai21mon_dai3ran_kansei', '第3欄（甲区及び乙区に記録される事項）の完成形', 'wide'),
-        ('H26_dai21mon_zu10_kouku_otsuku', '問3の整理図', 'fig'),
-        ('H26_dai21mon_zu11_chiseki_sokuryouzu', '地積測量図（100番1）の完成見本', 'fig'),
-        ('H26_dai21mon_zu12_toku_junban', '本番で解く順番の図', 'fig')]
+        ('H26_dai21mon_zu16_kouku_otsuku', '問3の整理図', 'fig'),
+        ('H26_dai21mon_zu17_chiseki_sokuryouzu', '地積測量図（100番1）の完成見本', 'fig'),
+        ('H26_dai21mon_zu18_toku_junban', '本番で解く順番の図', 'fig')]
 judge(f'画像挿入マーカーの数とPNGの対応表の数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
 for (name, key, kind), m in zip(PNGS, markers):
     path = os.path.join(HERE, 'zu', name + '.png')
@@ -432,5 +440,37 @@ check('完成形プロンプトのタイトル', title[2:], form, '登記申請�
 # 公差は分筆後の地積の合計でも確かめる（準則第72条第1項。3-1。2026-10-02追加）
 for s in ['380と、314 ＋ 67 ＝ 381 の差は1㎡で、乙1の5.39㎡の内側']:
     check('分筆後の地積の合計と公差', s)
+
+# ---- 記事本文に対して足りなかった図（2026-10-04追加）：図の中の事実・数値と挿入位置の文言 ----
+for s in ['順位2　昭和47年7月27日売買', '順位3　昭和47年8月7日売買', '順位4　昭和50年7月26日売買', '順位5　平成15年1月26日相続',
+          '株式会社丁野不動産', '丙山三郎', '受付は平成15年3月11日', 'B市L三丁目4番5号', 'B市K町213番地', 'K市B町135番地']:
+    check('図1の甲区の事実（試験問題本文の別紙1）', s, draw, '作図')
+    check('図1の甲区の事実（プロンプト）', s, fig, '解説図')
+for s in ['差 0.03m ＜ 35cm', '差 0.01m ＜ 27cm', 'G・Fは今回は測っていない']:
+    check('図9の距離の公差', s, draw, '作図')
+    check('図9の距離の公差（プロンプト）', s, fig, '解説図')
+judge('図11：模式のG・Fから引いた三斜の高さが地積測量図の値と合うことを作図で確かめている',
+      'abs(abs(E - H1) - 8.37) < 0.02' in draw and 'abs(abs(D - H2) - 9.25) < 0.02' in draw and 'abs(abs(D - H3) - 3.78) < 0.02' in draw)
+for s in ['① 18.64 × 8.37 ÷ 2 ＝ 78.0084', '② 19.40 × 9.25 ÷ 2 ＝ 89.725', '③ 10.00 × 3.78 ÷ 2 ＝ 18.9',
+          '186.6334 ＋ 67.9542 ＝ 254.5876 → 254㎡', '（誤り）186 ＋ 67 ＝ 253']:
+    check('図11の三斜と合筆後の地積', s, draw, '作図')
+    check('図11の三斜と合筆後の地積（プロンプト）', s, fig, '解説図')
+for s in ['第1号　相互に接続していない土地', '第5号　所有権の登記がない土地とある土地', '不動産登記規則第105条第1号「承役地についてする地役権の登記」',
+          '不動産登記令別表9の項申請情報欄ロ', '登記の目的は土地分合筆登記（不動産登記規則第35条第1号）']:
+    check('図12の合筆の制限', s, draw, '作図')
+    check('図12の合筆の制限（プロンプト）', s, fig, '解説図')
+for s in ['平成15年1月26日', '平成15年3月11日', '受付第4602号', '平成26年8月22日', '（不動産登記法第30条の一般承継人による申請）',
+          '（不動産登記令第7条第1項第4号）']:
+    check('図13の時系列', s, draw, '作図')
+    check('図13の時系列（プロンプト）', s, fig, '解説図')
+check('記事：相続を証する情報が要る場合の根拠', '相続人が不動産登記法第30条で申請するとき。不動産登記令第7条第1項第4号')
+for s in ['2個 × 1,000円', '＝ 金2,000円', '合計 3,000円（1,000円多い）', '登録免許税法別表第一の一の（十三）イ（分筆）・ロ（合筆）']:
+    check('図14の登録免許税', s, draw, '作図')
+    check('図14の登録免許税（プロンプト）', s, fig, '解説図')
+for s in ['今の共有者は、乙野二郎さん、甲野明子さん、山川次郎さんの3人で、3分の1ずつです', '登記の目的は、地積更正を付けない分合筆だけです',
+          '差はVとWを丸めた分ですね', '添付情報は答案用紙に『（略）』と印刷されているので、書きません',
+          'それに今年の答案用紙は、添付情報が『（略）』と印刷済み', '持分を確かめる癖は、ここでも役に立つのよ']:
+    check('新しい図の挿入位置の文言', s)
+    check('新しい図の挿入位置の文言（プロンプト側）', s, fig, '解説図')
 
 print('NG件数:', ng)
