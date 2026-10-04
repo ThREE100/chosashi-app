@@ -327,7 +327,7 @@ def load_checks():
     return _CHECKS_CACHE
 
 
-def print_checks(note_path, label):
+def print_checks(note_path, label, item_id=None):
     """事前に行った条文照合の結果。指摘があるときだけ詳しく出し、なければ1行。"""
     ck = load_checks()
     key = re.sub(r'[正誤]$', '', label)
@@ -335,7 +335,8 @@ def print_checks(note_path, label):
     if cov is None:
         print('条文照合: 未実施（事前照合の対象外）')
         return
-    if cov.get('sha') and article_hash(read_article(note_path)) != cov['sha']:
+    stale = bool(cov.get('sha') and article_hash(read_article(note_path)) != cov['sha'])
+    if stale:
         print('⚠️ 条文照合: この記事は、照合したあとにmainで更新されています。以下の照合結果は古い版に対するものです（再照合が必要）。')
     fs = [f for f in ck['findings'] if f['note_path'] == note_path and f['label'] in (key, '')]
     if not fs:
@@ -349,6 +350,24 @@ def print_checks(note_path, label):
             print(f'  照合した原文: {f["law_ref"]}')
         if f.get('proposal'):
             print(f'  訂正案（提案）: {f["proposal"]}')
+    if item_id and not stale:
+        auto_tag_article_fix(item_id, note_path, label, fs)
+
+
+def auto_tag_article_fix(item_id, note_path, label, fs):
+    """条文照合に指摘のある肢に、記事修正対象のタグ（article-fix）を自動で付ける（同じ肢に重複して付けない）。"""
+    try:
+        ensure_log_branch()
+        if any(t['id'] == item_id and t['tag'] == 'article-fix' for t in read_tags()):
+            return
+        f = fs[0]
+        note = f'{os.path.basename(note_path)} {label}: ' + (f.get('problem', '')[:90]) + ' → ' + (f.get('proposal', '')[:120])
+        rec = {'t': now().isoformat(timespec='seconds'), 'id': item_id, 'tag': 'article-fix', 'note': '【自動】' + note}
+        with open(TAGS, 'a', encoding='utf-8') as fh:
+            fh.write(json.dumps(rec, ensure_ascii=False) + '\n')
+        print('🏷 記事修正対象として自動タグ付けしました（#article-fix）')
+    except Exception as e:  # タグ付けの失敗で出題を止めない
+        print(f'（自動タグ付けに失敗: {e}）')
 
 
 def print_explanation(it, limit=1):
@@ -367,7 +386,7 @@ def print_explanation(it, limit=1):
                 print(q['section'])
             if q['summary']:
                 print('記事のまとめ: ' + q['summary'].lstrip('-・ ').strip())
-        print_checks(sr.get('note_path', ''), sr.get('label', ''))
+        print_checks(sr.get('note_path', ''), sr.get('label', ''), it.get('id'))
         shown += 1
     if len(srcs) > shown:
         print(f'（ほか{len(srcs) - shown}件の出典は explain で表示）')
