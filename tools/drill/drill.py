@@ -32,6 +32,7 @@ BANK = os.path.join(HERE, 'data', 'items.json')
 LOGDIR = os.path.join(ROOT, '.drill-log')
 LOG = os.path.join(LOGDIR, 'log.jsonl')
 SESSION = os.path.join(LOGDIR, 'session.json')
+FOCUS = os.path.join(LOGDIR, 'focus.json')
 TAGS = os.path.join(LOGDIR, 'tags.jsonl')
 ISSUES = os.path.join(LOGDIR, 'issues.jsonl')
 BRANCH = 'drill-log'
@@ -190,6 +191,46 @@ def cmd_start(a):
         print('直近の記録: ' + logs[-1]['t'][:16])
 
 
+def read_focus():
+    if os.path.exists(FOCUS):
+        try:
+            d = json.load(open(FOCUS, encoding='utf-8'))
+            return d if d.get('remaining', 0) > 0 else None
+        except Exception:
+            return None
+    return None
+
+
+def count_focus():
+    """回答を1件記録したとき、出題フォーカスの残りを減らす。0になったらランダム出題に戻す。"""
+    fo = read_focus()
+    if not fo:
+        return
+    fo['remaining'] -= 1
+    if fo['remaining'] <= 0:
+        os.remove(FOCUS)
+        print('🔔 出題フォーカス（除外指定）が終わりました。次の出題から、全分野のランダム出題に戻ります。')
+    else:
+        json.dump(fo, open(FOCUS, 'w', encoding='utf-8'), ensure_ascii=False)
+
+
+def cmd_focus(a):
+    ensure_log_branch()
+    if a.action == 'off':
+        if os.path.exists(FOCUS):
+            os.remove(FOCUS)
+        print('出題フォーカスを解除しました（全分野のランダム出題）。')
+    elif a.action == 'on':
+        subs = [SUBJ_ALIAS.get(x, x) for x in (a.exclude_subject or [])]
+        fo = {'exclude_subjects': subs, 'exclude_topics': a.exclude_topic or [], 'remaining': a.count,
+              'started': now().isoformat(timespec='seconds')}
+        json.dump(fo, open(FOCUS, 'w', encoding='utf-8'), ensure_ascii=False)
+        print(f'出題フォーカスを開始: 除外 科目={subs} 論点={fo["exclude_topics"]}、残り{a.count}問')
+    else:
+        fo = read_focus()
+        print('出題フォーカス: ' + (json.dumps(fo, ensure_ascii=False) if fo else 'なし（全分野ランダム）'))
+
+
 def pick(bank, st, n, subject, topic, mode):
     nowt = now()
     last_session = []
@@ -202,6 +243,10 @@ def pick(bank, st, n, subject, topic, mode):
             if x.get('status', 'verified') in ('verified', 'provisional')
             and (not subject or x['subject'] == subject)
             and (not topic or x['topic'] == topic)}
+    fo = read_focus()
+    if fo and not subject and not topic:   # 出題フォーカス中は、除外した科目・論点を新規にも復習にも出さない（復習の期限は変えない）
+        pool = {i: x for i, x in pool.items()
+                if x['subject'] not in fo.get('exclude_subjects', []) and x['topic'] not in fo.get('exclude_topics', [])}
     ts = topic_stats(bank, st)
     answered_topics = collections.Counter()
     for iid, s in st.items():
@@ -412,6 +457,7 @@ def cmd_answer(a):
     rec = {'t': now().isoformat(timespec='seconds'), 'id': a.id, 'ans': ans, 'truth': truth, 'res': res}
     with open(LOG, 'a', encoding='utf-8') as f:
         f.write(json.dumps(rec, ensure_ascii=False) + '\n')
+    count_focus()
     mark = {'known': '✅ 定着（正解）', 'miscon': '❌ 誤解（逆に覚えている）', 'unknown': '❔ 未習得（？）'}[res]
     print(mark)
     print(f'正解: {"〇（正しい記述）" if truth else "×（誤った記述）"}')
@@ -637,9 +683,14 @@ def main():
     ts = sub.add_parser('tags'); ts.add_argument('tag', nargs='?'); ts.add_argument('--json', action='store_true')
     ck = sub.add_parser('checks'); ck.add_argument('--severity', choices=['error', 'warn', 'unverified'])
     ut = sub.add_parser('untag'); ut.add_argument('id'); ut.add_argument('tag')
+    fc = sub.add_parser('focus')
+    fc.add_argument('action', choices=['on', 'off', 'status'])
+    fc.add_argument('--exclude-subject', action='append')
+    fc.add_argument('--exclude-topic', action='append')
+    fc.add_argument('--count', type=int, default=100)
     isu = sub.add_parser('issue'); isu.add_argument('id'); isu.add_argument('problem'); isu.add_argument('--proposal')
     a = p.parse_args()
-    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain, 'mark': cmd_mark, 'tag': cmd_tag, 'tags': cmd_tags, 'untag': cmd_untag, 'checks': cmd_checks, 'issue': cmd_issue}[a.cmd](a)
+    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain, 'mark': cmd_mark, 'tag': cmd_tag, 'tags': cmd_tags, 'untag': cmd_untag, 'checks': cmd_checks, 'issue': cmd_issue, 'focus': cmd_focus}[a.cmd](a)
 
 
 if __name__ == '__main__':
