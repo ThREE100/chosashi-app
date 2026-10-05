@@ -93,6 +93,39 @@
 
 ---
 
+## 補足解説：なぜ「表題部所有者についての変更登記」という手続自体が存在しないのか（イ肢）
+
+イ肢は、「ＡからＢ、ＢからＣへと順次売却されたのだから、途中のＢを省略して『ＡからＣへ』とまとめて直せばよいのでは」という発想が誤りの原因になっています。ここでいったん立ち止まって、なぜそもそも「表題部所有者についての変更登記」という手続自体が用意されていないのかを、順番に確認します。
+
+### 登記記録は「表題部」と「権利部」の2階建てになっている
+
+不動産の登記記録は、大きく分けて表題部と権利部の2つから成り立っています。表題部に記録されるのは、所在・地目・地積・種類・構造・床面積といった、その不動産そのものの物理的な現況です。表題登記がされた直後で、まだ誰も所有権の保存の登記をしていない間は、この表題部に「表題部所有者」として所有者の氏名・住所が仮に記録されますが、これはあくまで物理的な現況の記録に付随する扱いにすぎません。
+
+これに対して権利部（甲区）は、所有権という権利そのものの変動を記録する欄です。所有権の保存の登記がされて初めて、その不動産について「誰が所有者か」という権利関係が、権利部という独立した記録として扱われるようになります。
+
+### なぜ名前の書き換えでは済まされないのか
+
+表題部所有者としての記録は、権利部にくらべて手続上の保護が薄い、いわば仮の記録です。たとえば、所有権の移転の登記は、売主と買主が共同で申請し、登記識別情報や印鑑証明書などの添付情報を提供することが求められますが、こうした厳格な手続は、権利部に記録される所有権の変動について用意されたものです。
+
+もし「表題部所有者についての変更の登記」という形で、単に名前を書き換えるだけで売買による所有権の移転を反映できてしまうと、権利部で本来求められているはずの共同申請や添付情報といった仕組みを素通りしてしまうことになります。そこで、表題部所有者またはその持分についての変更は、まず所有権の保存の登記をして権利部という土台を作ったうえで、その後の権利の移転はすべて所有権の移転の登記によって反映する、という一本道の手続だけが用意されています（不動産登記法32条）。「変更登記」という名前の手続自体が、売買による承継を反映する方法として存在しないのです。
+
+### 具体例で手続の流れを追うと
+
+Ａが新築した建物を例に、実際にたどる手続を順番に並べると、次のようになります。
+
+1. Ａが表題登記を申請し、表題部にＡが表題部所有者として記録される。
+2. Ａが所有権の保存の登記を申請し、権利部（甲区）にＡが所有権の登記名義人として記録される。
+3. ＡがＢに売却し、ＡとＢが共同で所有権の移転の登記を申請する。
+4. ＢがＣに売却し、ＢとＣが共同で所有権の移転の登記を申請する。
+
+この4段階のどこにも、「表題部所有者についての変更の登記」が入り込む場面はありません。2の所有権の保存の登記がされた時点で、表題部所有者としての記録はいわば役目を終え、以後の所有者の変動はすべて権利部での所有権の移転の登記として記録されていきます。
+
+### 本問（イ肢）への当てはめ
+
+本肢の事実関係をこの流れに当てはめると、ＡからＢ、ＢからＣへの売却は、いずれも手続3・4の所有権の移転の登記によって反映されるべき場面です。ところが本肢は、これを「ＡからＣへの表題部所有者についての変更の登記」として申請できるとしています。しかし、そのような変更登記という手続自体がそもそも存在しないため、Ｃが単独でこれを申請することはできず、申請人がＣであるという点も誤っています。「中間のＢを省略しているから誤り」ではなく、「段階を踏んでも省略しても、表題部所有者についての変更の登記という手続そのものが使えない」というのが、イ肢が誤りである理由です。
+
+---
+
 ## 見出し画像用フレーズ
 
 - 住所と名字の訂正、まとめて1回でできるんです
@@ -262,6 +295,246 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（イ肢・間違いノート）
+
+イ肢だけを深掘りし、「中間を省略したから誤り」という誤解ではなく「表題部所有者についての変更登記という手続自体が存在しない」という誤りの核心を補足する2枚組。1枚目は登記記録が表題部と権利部の2階建てであることを対比枠で示し、2枚目は表題登記から2回の所有権の移転の登記に至るまでの正しい手続の流れを、Ｃが単独でできる場面がどこにもないことが分かる形で示す。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: Unlike the glanceable whole-problem
+poster, this panel is allowed to include short explanatory sentences
+(1-3 sentences per text block) and a legal-article citation, because its
+purpose is to walk the reader through a single frequently-misunderstood
+point (イ肢) in depth, not to summarize all 5 肢 at a glance. Do not add
+a decision flowchart in this panel — use the left/right comparison layout
+described below instead.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 題・権・利・部・保・
+存・移・証・録, which have visibly different Simplified Chinese forms.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+登記記録は2階建て
+表題部と権利部はルールが違う
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第8問 イ肢・間違いノート
+なぜ「表題部所有者についての変更登記」は存在しないのか
+
+--- COMPARISON (左右2パネルの対比型) ---
+
+Left panel (beige background, labeled "1階" in a small corner tag):
+Panel label (bold):
+表題部（物理的な現況の記録）
+Illustration: A simple memo-pad or clipboard icon representing a casual,
+easily-rewritten record. Inside it, small labels read "所在・地目・
+地積・種類・構造・床面積" and, in a slightly separated sub-box, "表題部
+所有者（仮の記録）" with a person icon labeled Ａ. Do not draw any lock,
+vault, or seal icon on this panel — it should look comparatively light
+and unprotected.
+Panel short text (1-2 sentences):
+表題登記がされた直後、まだ所有権の保存の登記がされていない間だけ、
+所有者の氏名・住所が仮に記録される欄です。
+
+Right panel (blue background, labeled "2階" in a small corner tag):
+Panel label (bold):
+権利部・甲区（所有権の記録）
+Illustration: A vault or ledger-with-lock icon representing a protected,
+formal record. Inside or beside it, small icons represent the
+protections this record carries: two person icons shaking hands labeled
+"共同申請", a document icon labeled "登記識別情報・印鑑証明書等の添付
+情報", and a small shield icon labeled "対抗力". A person icon labeled
+Ａ sits inside the vault as "所有権の登記名義人".
+Panel short text (1-2 sentences):
+所有権の保存の登記がされて初めて設けられる欄で、売買による所有権の
+移転はすべてここで、共同申請と添付情報を伴って記録されます。
+
+--- CALLOUT: 誤りやすいポイント ---
+Callout box (rounded rectangle, soft yellow background, positioned below
+the two panels):
+Heading (bold, one line):
+誤りやすいポイント
+Body text (verbatim, 2-3 sentences):
+売買による所有権の移転は、1階（表題部）の名前を書き換えるだけでは
+反映できません。2階（権利部）に生まれ変わるための唯一の入口が所有権
+の保存の登記であり、それより後の移転はすべて2階の中だけで、所有権の
+移転の登記として記録されます。
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font):
+根拠：不動産登記法32条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese — pay special attention to 題・権・利・部・保・存・移・証・録.
+Also scan the entire canvas for any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only
+character, Korean Hangul, other non-Japanese script, or stray decorative
+glyph — and remove or redraw it so that only standard Japanese text
+appears anywhere in the image. Confirm every heading, panel label, and
+callout text matches the Japanese text given above verbatim. Confirm
+nothing is rendered below the footer (no summary recap panel, no trophy
+or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
+block of any kind). Confirm the entire canvas, edge to edge, is filled
+with a fully opaque background with no transparency or alpha channel
+anywhere.
+```
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: Unlike the glanceable whole-problem
+poster, this panel is allowed to include short explanatory sentences
+(1-3 sentences per text block) and a legal-article citation, because its
+purpose is to walk the reader through a single frequently-misunderstood
+point (イ肢) in depth, not to summarize all 5 肢 at a glance. This panel's
+diagram IS a flowchart (a fixed 4-step timeline with no branching), used
+to show that there is no step at which Ｃ can act alone.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 題・保・存・移・証・
+単・独, which have visibly different Simplified Chinese forms.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+Ｃが単独でできる場面は
+どの段階にもない
+
+Subtitle (smaller, centered, 2行):
+令和3年度 午後の部 第8問 イ肢・間違いノート
+表題登記から2回の所有権移転までの正しい手続の流れ
+
+--- FLOWCHART (縦1本、固定4ステップ、分岐なし) ---
+Draw four rounded step-boxes stacked vertically, each connected to the
+next by a bold downward arrow, with generous spacing so none overlap.
+
+STEP 1 box:
+Small step number badge "1"。
+Illustration: 建物アイコンとＡの人物アイコン。
+Label (bold, one line):
+Ａが表題登記を申請
+Sub-label (small):
+表題部にＡが表題部所有者として記録される
+
+STEP 2 box:
+Small step number badge "2"。
+Illustration: 建物アイコンの上に金庫（権利部）アイコンが新たに現れ、
+Ａの人物アイコンがその中に入る。
+Label (bold, one line):
+Ａが所有権の保存の登記を申請
+Sub-label (small):
+権利部（甲区）にＡが所有権の登記名義人として記録される
+
+STEP 3 box:
+Small step number badge "3"。
+Illustration: Ａ・Ｂの人物アイコンが握手し、2人の間に申請書アイコン
+（ラベル「共同申請」）を置く。
+Label (bold, one line):
+ＡとＢが共同で所有権の移転の登記を申請
+Sub-label (small):
+権利部の名義がＡからＢに移る
+
+STEP 4 box:
+Small step number badge "4"。
+Illustration: Ｂ・Ｃの人物アイコンが握手し、2人の間に申請書アイコン
+（ラベル「共同申請」）を置く。
+Label (bold, one line):
+ＢとＣが共同で所有権の移転の登記を申請
+Sub-label (small):
+権利部の名義がＢからＣに移る
+
+Below step 4, draw a small red ✕ icon beside a faded, dotted-outline
+document icon labeled「ＡからＣへの表題部所有者についての変更の登記
+（Ｃが単独で申請）」, with a short label beside it reading「このような
+手続・申請人はどの段階にも現れない」。
+
+--- CALLOUT: 誤りやすいポイント ---
+Callout box (rounded rectangle, soft yellow background, positioned below
+the flowchart):
+Heading (bold, one line):
+誤りやすいポイント
+Body text (verbatim, 2-3 sentences):
+ＡからＢ、ＢからＣへの承継は、ステップ3・4の所有権の移転の登記として
+それぞれ共同で申請されるべきものです。Ｃが単独で「ＡからＣへ」とまとめ
+て申請できる段階は、この4ステップのどこにも存在しません。
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font):
+根拠：不動産登記法32条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese — pay special attention to 題・保・存・移・証・単・独. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the flowchart has exactly 4 step-boxes connected by
+straight downward arrows with no branching and no loop back to an earlier
+step. Confirm every heading, label, and callout text matches the Japanese
+text given above verbatim. Confirm nothing is rendered below the footer
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind). Confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
 
 ---
