@@ -8,7 +8,8 @@ HTML＋ヘッドレスブラウザでPNGに書き出す。
   登録免許税の欄はない。一棟の建物の表示の所在は2段、建物の名称は2つのセル、②床面積は整数部｜小数部に分けたセルが左右に2つ
   （解答例どおり左のセルに1階・2階を書き、右のセルは空欄）
 - 第2欄：問3の説明文（答案用紙の右下の罫線入りの欄）
-- 添削　：`../prompt_H24_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 添削　：`../prompt_H24_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）。
+  記事で藍子が誤答した申請書の欄ごとに1枚（一棟の建物の所在・代位原因・添付書類・一棟の建物の床面積・区分した建物の構造の5枚）
 
 CSSと部品の作りは `R3/Q22/zu/make_R3_dai22mon_shinseisho_gazou.py` と同じ形にしている。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP、なければIPA明朝・IPAゴシック）
@@ -111,8 +112,9 @@ ITTOU_COLS = ('<colgroup><col style="width:5%"><col style="width:10%"><col style
               '<col style="width:7%"><col style="width:20%"><col style="width:7%"><col style="width:21%"></colgroup>')
 
 
-def ittou(shozai, extra_cls=''):
-    """一棟の建物の表示（所在は2段、建物の名称は2つのセル、②床面積は左右2つのセル）。"""
+def ittou(shozai, extra_cls='', yuka=None):
+    """一棟の建物の表示（所在は2段、建物の名称は2つのセル、②床面積は左右2つのセル）。
+    yuka：左の床面積のセル（整数部・小数部の2つのtd）を差し替えるときのHTML（添削画像用）。"""
     return (
         f'<table class="t{extra_cls}">{ITTOU_COLS}'
         '<tr><td class="vert" rowspan="5">一棟の建物の表示</td>'
@@ -123,7 +125,7 @@ def ittou(shozai, extra_cls=''):
         '<span style="display:inline-block;width:48%">m²</span><span style="display:inline-block;width:48%">m²</span></td>'
         '<td class="head">原因及びその日付</td></tr>'
         f'<tr><td class="entry center" colspan="2">{ink(KOUZOU)}</td>'
-        f'{area([("1階", "142", "50"), ("2階", "120", "00")])}'
+        f'{yuka or area([("1階", "142", "50"), ("2階", "120", "00")])}'
         '<td class="entry int"></td><td class="entry dec"></td>'
         '<td class="entry genin"></td></tr></table>')
 
@@ -201,6 +203,105 @@ machigai = page(f'''
 <div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成24年度 第22問｜一棟の建物の所在は一棟全体の２筆</div>''')
 
+# ---- 添削の追加（2026-10-05。記事の本文で藍子が誤答した申請書の欄ごとに1枚） ----
+CSS2 = f"""
+.dstrike {{ position: relative; }}
+.dstrike::before, .dstrike::after {{ content: ""; position: absolute; left: -3px; right: -3px; border-top: 2.5px solid {RED}; }}
+.dstrike::before {{ top: 42%; }} .dstrike::after {{ top: 60%; }}
+.redink {{ color: {RED}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }}
+"""
+
+
+def page2(body):
+    """追加の添削画像用（取消線の二重線のCSSを足す）。"""
+    return f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{CSS2}</style></head><body>{body}</body></html>'
+
+
+def three(ng, fix, ok, caption):
+    return page2(f"""
+<div class="panel"><div class="ptitle ng">①誤答</div>{ng}</div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix}</div>
+<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div>{ok}</div>
+<div class="caption" style="margin:10px 0 30px">{caption}</div>""")
+
+
+def okwrap(html):
+    return f'<div class="okwrap good" style="padding:14px 4px 2px">{html}{CHECK_SVG}</div>'
+
+
+def bubble(*lines, note=''):
+    s = f'<div class="bubrow"><span class="bubble">{"<br>".join(lines)}</span></div>'
+    return s + (f'<div class="note">{note}</div>' if note else '')
+
+
+# (1) 代位原因（民法第423条 → 不動産登記法第48条第２項）
+def dai_i(genin):
+    return (f"{box('所　有　者<br>（被代位者）', ink('Ａ市Ｂ町三丁目３番５号　乙川夏子'), 76)}"
+            f"{box('申　請　人<br>（代　位　者）', ink('Ａ市Ｂ町三丁目３番４号　甲野春男'), 76)}"
+            f"{box('代　位　原　因', genin, 76)}")
+
+
+GENIN_NG, GENIN_OK = '民法第423条', '不動産登記法第48条第２項'
+machigai_daiigenin = three(
+    dai_i(ink(GENIN_NG)),
+    dai_i(f'<span class="ink dstrike">{GENIN_NG}</span>　<span class="redink">{GENIN_OK}</span>') +
+    bubble('債権者代位（民法第423条）は、自分の債権を守るための代位。',
+           '甲野春男は乙川夏子の債権者ではない → 区分建物の所有者どうしの代位を',
+           '不動産登記法が直接認めた第48条第２項（一棟の全部をあわせて申請するため）',
+           note='（参考）不動産登記令第３条第４号「民法第四百二十三条その他の法令の規定により」の「その他の法令」に当たる'),
+    okwrap(dai_i(ink(GENIN_OK))),
+    '平成24年度 第22問｜代位原因は不動産登記法第48条第２項')
+
+# (2) 添付書類（代理権限証書を落とす）
+TENPU5 = '建物図面　各階平面図　所有権証明書　住所証明書<br>代位原因証書'
+MOKUTEKI = box('登記の目的', ink('区分建物表題登記'))
+machigai_tenpu = three(
+    MOKUTEKI + box('添　付　書　類', ink(TENPU5), 112),
+    MOKUTEKI + box('添　付　書　類', ink(TENPU5) + '<span class="caret">∧</span><span class="add">　代理権限証書</span>', 112) +
+    bubble('乙川夏子は申請人ではないので、乙川夏子の委任状はそもそも要らない。',
+           '申請人（代位者）の甲野春男から代理人の民事花子への委任状が',
+           'この申請の代理権限証書（不動産登記令第７条第１項第２号）',
+           note='（参考）代位原因証書（同項第３号）は、甲野春男が同じ一棟に属するⒷの所有者であることを証する書面'),
+    okwrap(MOKUTEKI + box('添　付　書　類', ink(TENPU5 + '　代理権限証書'), 112)),
+    '平成24年度 第22問｜代理権限証書は誰が誰に頼んだかで考える')
+
+# (3) 一棟の建物の表示の床面積（Ⓐの内法の２倍 → 壁心）
+YUKA_NG = area([('1階', '137', '14'), ('2階', '115', '38')])
+YUKA_FIX = (f'<td class="entry int">{ink("1階　")}<span class="ink dstrike">137</span> <span class="redink">142</span><br>'
+            f'{ink("2階　")}<span class="ink dstrike">115</span> <span class="redink">120</span></td>'
+            f'<td class="entry dec"><span class="ink dstrike">14</span> <span class="redink">50</span><br>'
+            f'<span class="ink dstrike">38</span> <span class="redink">00</span></td>')
+machigai_yukamenseki = three(
+    ittou(ink(SHOZAI_OK), yuka=YUKA_NG),
+    ittou(ink(SHOZAI_OK), yuka=YUKA_FIX) +
+    bubble('内法で測るのは区分建物（専有部分）だけ。一棟の建物は区分建物ではない',
+           '→ 普通の建物と同じ壁心で外形全体を測る',
+           '1階 16.00×6.50＋5.50×3.50×2＝142.50　2階 16.00×7.50＝120.00',
+           note='（参考）137.14・115.38は、Ⓐの内法（68.57・57.69）を２倍した数'),
+    okwrap(ittou(ink(SHOZAI_OK))),
+    '平成24年度 第22問｜一棟の建物の床面積は壁心')
+
+
+# (4) 区分した建物の表示の構造（屋根の種類を省く → 縦割りなので書く）
+def kubun_one(kouzou, extra_cls=''):
+    """区分した建物の表示（答案用紙どおり3行。1行目だけ記入）。"""
+    return (f'<table class="t{extra_cls}">{KUBUN_COLS}'
+            f'<tr><td class="vert" rowspan="4">区分した建物の表示</td>{KUBUN_HEAD}</tr>'
+            f'<tr><td class="entry"></td><td class="entry"></td><td class="entry"></td>'
+            f'<td class="entry center">{ink("居宅")}</td><td class="entry center">{kouzou}</td>'
+            f'{area([("1階", "68", "57"), ("2階", "57", "69")])}'
+            f'<td class="entry genin">{ink("平成24年７月30日新築")}</td></tr>{EMPTY_ROW}{EMPTY_ROW}</table>')
+
+
+machigai_kouzou = three(
+    kubun_one(ink('木造２階建')),
+    kubun_one(ink('木造') + '<span class="caret">∧</span><br><span class="add" style="white-space:nowrap">かわらぶき</span><br>' + ink('２階建')) +
+    bubble('屋根の種類を書かなくてよいのは、建物を階層的に区分したとき（下の階と上の階で',
+           '持ち主が違う）だけ（不動産登記事務取扱手続準則第81条第３項）。',
+           'Ⓐは１階の床から屋根まで丸ごと乙川夏子のものの縦割り → 屋根の種類まで書く'),
+    okwrap(kubun_one(ink(KOUZOU))),
+    '平成24年度 第22問｜縦割りの専有部分は構造に屋根の種類まで書く')
+
 if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
     with sync_playwright() as p:
@@ -208,7 +309,11 @@ if __name__ == '__main__':
         pg = browser.new_page(viewport={'width': 1200, 'height': 300})
         for name, html in [('H24_dai22mon_toukishinseisho_kansei', kansei),
                            ('H24_dai22mon_dai2ran_kansei', dai2),
-                           ('H24_dai22mon_toukishinseisho_machigai', machigai)]:
+                           ('H24_dai22mon_toukishinseisho_machigai', machigai),
+                           ('H24_dai22mon_toukishinseisho_machigai_daiigenin', machigai_daiigenin),
+                           ('H24_dai22mon_toukishinseisho_machigai_tenpu', machigai_tenpu),
+                           ('H24_dai22mon_toukishinseisho_machigai_yukamenseki', machigai_yukamenseki),
+                           ('H24_dai22mon_toukishinseisho_machigai_kouzou', machigai_kouzou)]:
             hp = os.path.join(OUT, name + '.html')
             open(hp, 'w', encoding='utf-8').write(html)
             pg.set_content(html)
