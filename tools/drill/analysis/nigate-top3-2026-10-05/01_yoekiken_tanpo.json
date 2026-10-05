@@ -1,0 +1,387 @@
+{
+ "rank": 1,
+ "theme_id": "yoekiken-tanpo",
+ "topic_label_in_bank": "民法／用益権・担保物権",
+ "title_proposal": "何度も同じところで間違える人へ〜苦手分析シリーズ〜質権と地上権、「賃貸借のイメージ」で考えると間違える",
+ "summary": "不動産質権（H20 第1問）と地上権（H21 第2問）の10肢。10肢すべてを解答済みで、定着は最新結果で10肢中4肢（40%）。誤答の多くは「？（わからない）」で、知識の空白が大きい。誤解（逆に覚えている）は、「地上権者は所有者の承諾なく譲渡・抵当権設定ができる」で2回連続、「不動産質権の順位は登記の前後」で1回。",
+ "overlap_with_existing_articles": "苦手分析シリーズ⑬（占有権）・①〜⑭には質権・地上権の独立回がない。note-articles/topics/shitchiken-bunrishobun-kanou-kiyaku.md は質権の分離処分の別論点（テーマが異なる）。新規回として書ける。",
+ "stats": {
+  "bank_items": 10,
+  "items_answered": 10,
+  "answers_total": 17,
+  "result_counts_all_answers": {
+   "未習得（？）": 10,
+   "誤解（逆に覚えている）": 3,
+   "定着": 4
+  },
+  "latest_result_per_item": {
+   "未習得（？）": 5,
+   "定着": 4,
+   "誤解（逆に覚えている）": 1
+  },
+  "first_result_per_item": {
+   "未習得（？）": 5,
+   "誤解（逆に覚えている）": 2,
+   "定着": 3
+  }
+ },
+ "why_this_is_top": "論点別の誤解・未習得の割合が全テーマで最も高い（定着24%、誤解18%、未習得59%。答え合わせの延べ17回）。母数は小さい（10肢）が、10肢中7肢が「？」か誤解を経験している。",
+ "core_misconception": "賃借権（債権）の感覚を、物権である地上権・不動産質権にそのまま持ち込んでいる。「使うには所有者の承諾が要る」「使ったら地代（対価）を払う」「他人に回すには承諾が要る」という賃貸借の発想が先に立ち、物権が持つ「自分の権利として自由に処分・使用できる」性格と、設定行為で別に定めた場合だけ対価・制限が生じる構造を落としている。",
+ "misconceptions": [
+  {
+   "id": "M1",
+   "point": "地上権は、所有者の承諾がなくても、譲渡も抵当権の設定もできる",
+   "what_you_thought": "賃借権と同じく、譲渡・転貸には承諾が要ると考えた（D0418 を2回連続で誤解）",
+   "correct": "地上権は物権なので、権利者が自由に処分できる。賃借権は、譲渡・転貸に賃貸人の承諾が要る点が違う。",
+   "items": [
+    "D0418"
+   ]
+  },
+  {
+   "id": "M2",
+   "point": "地上権の地代は、設定契約に定めがあって初めて生じる。定めがなければ無償の地上権もあり、地代の額を裁判所が定める制度はない",
+   "what_you_thought": "地上権＝有償（賃貸借のように地代を払うもの）という前提で「裁判所が地代を定める」を正しそうに感じた（D0419 を2回とも「？」）",
+   "correct": "地代は当事者が約束したときだけ生じる。賃貸借の賃料とは違う。",
+   "items": [
+    "D0419",
+    "D0420"
+   ]
+  },
+  {
+   "id": "M3",
+   "point": "不動産質権者は、設定者の承諾なしに、目的不動産を用法に従って使用・収益できる",
+   "what_you_thought": "承諾が必要だと迷った（D0315 を2回とも「？」）。使用収益は動産質・抵当権との違いが整理できていない",
+   "correct": "不動産質権者は、民法356条により、設定者の承諾なく使用収益できる。",
+   "items": [
+    "D0315"
+   ]
+  },
+  {
+   "id": "M4",
+   "point": "不動産質でも、質権者は設定者の承諾なく転質できる（責任転質）",
+   "what_you_thought": "転質には設定者の承諾が要ると迷った（D0314 を2回とも「？」）",
+   "correct": "質権者は、権利の存続期間内であれば、自己の責任で、設定者の承諾なく転質できる（民法348条）。転質をした場合の損失は、不可抗力についても責任を負う。",
+   "items": [
+    "D0314"
+   ]
+  },
+  {
+   "id": "M5",
+   "point": "質権の不可分性。全額の弁済を受けるまで、目的物の全部に権利を行使できる",
+   "what_you_thought": "一部弁済に応じて質権が縮むのか迷った（D0313 を2回とも「？」）",
+   "correct": "被担保債権の全部の弁済を受けるまで、目的物の全部に権利を行使できる（民法350条・296条）。",
+   "items": [
+    "D0313"
+   ]
+  },
+  {
+   "id": "M6",
+   "point": "不動産質権の順位は登記の前後で決まる（動産質は設定の前後）",
+   "what_you_thought": "最初は逆に覚えていた（D0316：誤解→次は正解）",
+   "correct": "不動産質権の順位は登記の前後（民法361条・373条）。動産質権は設定の前後（民法355条）。",
+   "items": [
+    "D0316"
+   ]
+  },
+  {
+   "id": "M7",
+   "point": "地上権を時効取得するには、外形的事実と、地上権行使の意思の客観的表現が必要",
+   "what_you_thought": "単に使っていただけで足りるのか分からず「？」を2回（D0417）",
+   "correct": "継続的な使用という外形的事実と、その使用が地上権行使の意思に基づくことが客観的に表現されていることの両方が要る（判例）。賃借人や単なる占有者と区別するための要件。",
+   "items": [
+    "D0417"
+   ]
+  }
+ ],
+ "key_knowledge_for_article": [
+  "不動産質権の特徴（民法350条・296条の不可分性、356条の使用収益、348条の責任転質、361条・373条の順位、動産質は355条）。各条文の原文は note-articles/laws/ の民法で確認する。",
+  "地上権の特徴（物権としての自由な処分、地代は設定行為で定めて初めて生じる、工作物が滅失しても地上権は消滅しない、2年以上の地代滞納で消滅請求ができる）。",
+  "賃借権（債権）との対比：譲渡・転貸に承諾が要るか、賃料の支払が当然か、使用の対価・存続期間の定めがどうなるか。",
+  "取得時効の対象になる権利（所有権のほか、地上権・地役権・賃借権など）。賃借権の時効取得は別テーマ（時効の回）にもつながる。",
+  "出題は、H20 第1問（不動産質）とH21 第2問（地上権）の2問だけ。全10肢が正答の型の違うパターンで、判定の手がかりは「物権か債権か」「承諾が要るか」「対価（地代）が当然に生じるか」の3つ。",
+  "追加で触れる場合の注意：質権の利息請求の制限や存続期間（10年）などは、年度別記事の本文にないため、条文を確認してから書く（記事に書くなら根拠条文を原文で照合する）。"
+ ],
+ "decision_flow_proposal": [
+  "入口：問われているのは、物権（地上権・質権）か、債権（賃借権）か。",
+  "物権なら：その権利者が自分の権利として自由に処分・使用できるか（承諾の要否）を見る。承諾が要るとする肢は疑う。",
+  "対価について：地代・利息が当然に発生するか。地上権の地代は設定行為の定めで初めて発生する。",
+  "質権なら：不可分性（全額弁済まで全部に及ぶ）→転質（責任転質）→使用収益（不動産質）→順位（登記の前後）の順に確認する。",
+  "消滅について：工作物が滅失しても地上権は消滅しない／地代2年分の滞納で消滅請求できる。"
+ ],
+ "diagram_proposals": [
+  {
+   "name": "4種比較表（地上権・賃借権・不動産質権・動産質権）",
+   "type": "表",
+   "content": "行：譲渡・転貸に承諾が要るか／対価（地代・賃料）が当然に生じるか／使用収益できるか／順位の決まり方／消滅のしかた。列：地上権、賃借権、不動産質権、動産質権。誤答の多い欄（地上権の承諾・地代、不動産質の使用収益・転質）を色で目立たせる。"
+  },
+  {
+   "name": "「物権はまず自由、制限は設定行為で」の構造図",
+   "type": "概念図",
+   "content": "左に所有者、右に権利者。矢印の上に「物権＝承諾なしで処分・使用」、矢印の下に「地代・使用の制限は設定契約で定めた分だけ」と書く。賃借権は逆向き（承諾が必要）に描いて対比する。"
+  },
+  {
+   "name": "質権の4つの特徴アイコン図",
+   "type": "アイコン図",
+   "content": "不可分性（全額弁済まで全部）／転質（承諾不要・責任転質）／使用収益（不動産質は承諾不要）／順位（不動産は登記の前後、動産は設定の前後）の4枠。"
+  },
+  {
+   "name": "地上権の時効取得フロー",
+   "type": "フローチャート",
+   "content": "外形的事実はあるか→使用が地上権行使の意思に基づくことが客観的に表現されているか→両方あれば時効取得の対象になる。「通り道として使っていただけ」は足りない例、「建物を建てて地代を払い続けている」は足りる例として添える。"
+  }
+ ],
+ "editor_notes": [
+  "10肢と少ないため、記事は「型」ではなく、物権の特徴5〜7項目のチェックリストと、賃借権との対比表を中心にするのが向く。",
+  "過去の誤答の癖：誤解は1肢（地上権の承諾）だけで、残りは「？」。「知識がない」状態なので、導入の例え（具体例）を多くする。",
+  "条文照合の指摘は、このテーマの肢にはない。"
+ ],
+ "items": [
+  {
+   "id": "D0313",
+   "group": "不動産質（H20-Q01）",
+   "statement": "〔不動産質〕質権者は、被担保債権の全部の弁済を受けるまで、目的である不動産の全部について、その権利を行使することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H20-Q01 ア",
+   "article": "note-articles/h20-mondai/q01-fudousan-shichi.md",
+   "article_summary_line": "- **ア（正）**　質権の不可分性。全部弁済まで目的物全部に権利が及ぶ",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0314",
+   "group": "不動産質（H20-Q01）",
+   "statement": "〔不動産質〕質権者は、設定者の承諾を得なければ、その目的である不動産について転質をすることができない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H20-Q01 イ",
+   "article": "note-articles/h20-mondai/q01-fudousan-shichi.md",
+   "article_summary_line": "- **イ（誤）**　不動産質でも転質は設定者の承諾不要（責任転質）",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0315",
+   "group": "不動産質（H20-Q01）",
+   "statement": "〔不動産質〕質権者は、設定者の承諾を得なければ、その目的である不動産の用法に従って、その使用及び収益をすることができない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H20-Q01 ウ",
+   "article": "note-articles/h20-mondai/q01-fudousan-shichi.md",
+   "article_summary_line": "- **ウ（誤）**　不動産質権者は承諾なく使用・収益ができる",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0316",
+   "group": "不動産質（H20-Q01）",
+   "statement": "〔不動産質〕同一の不動産について数個の質権が設定されたときは、その質権の順位は、登記の前後による。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H20-Q01 エ",
+   "article": "note-articles/h20-mondai/q01-fudousan-shichi.md",
+   "article_summary_line": "- **エ（正）**　不動産質権の順位は登記の前後による（動産質は「設定の前後」で決まる点と対比）",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0317",
+   "group": "不動産質（H20-Q01）",
+   "statement": "〔不動産質〕質権は、金銭以外の物の引渡しを目的とする債権を被担保債権として、これを設定することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H20-Q01 オ",
+   "article": "note-articles/h20-mondai/q01-fudousan-shichi.md",
+   "article_summary_line": "- **オ（正）**　被担保債権は金銭債権に限られない",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0416",
+   "group": "地上権（H21-Q02）",
+   "statement": "【判例】工作物の所有を目的として設定された地上権は、設定後にその工作物が滅失したときは、消滅する。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H21-Q02 ア",
+   "article": "note-articles/h21-mondai/q02-chijouken.md",
+   "article_summary_line": "- **ア（誤）**　工作物が滅失しても地上権は消滅しない（土地利用権として存続）",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0417",
+   "group": "地上権（H21-Q02）",
+   "statement": "【判例】地上権を時効によって取得するためには、土地の継続的な使用という外形的事実が存在し、かつ、その使用が地上権行使の意思に基づくものであることが客観的に表現されていることが必要である。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H21-Q02 イ",
+   "article": "note-articles/h21-mondai/q02-chijouken.md",
+   "article_summary_line": "- **イ（正）**　時効取得には外形的事実＋地上権行使意思の客観的表現が必要",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0418",
+   "group": "地上権（H21-Q02）",
+   "statement": "【判例】地上権者は、土地の所有者の承諾を得ないで、地上権を譲渡し、又は地上権を目的とする抵当権を設定することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H21-Q02 ウ",
+   "article": "note-articles/h21-mondai/q02-chijouken.md",
+   "article_summary_line": "- **ウ（正）**　物権なので所有者の承諾なく譲渡・抵当権設定ができる",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0419",
+   "group": "地上権（H21-Q02）",
+   "statement": "【判例】地上権者は、設定契約において特段の定めがない場合であっても、土地の所有者に対して地代の支払義務を負い、その場合の地代の額は、当事者の請求により裁判所が定める。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H21-Q02 エ",
+   "article": "note-articles/h21-mondai/q02-chijouken.md",
+   "article_summary_line": "- **エ（誤）**　特段の定めがなければ地代支払義務は生じず、裁判所が定める制度もない",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0420",
+   "group": "地上権（H21-Q02）",
+   "statement": "【判例】定期の地代を支払うべき地上権者が、引き続き２年以上地代の支払を怠ったときは、土地の所有者は、地上権の消滅を請求することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H21-Q02 オ",
+   "article": "note-articles/h21-mondai/q02-chijouken.md",
+   "article_summary_line": "- **オ（正）**　2年以上の地代滞納で所有者は地上権消滅を請求できる",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  }
+ ],
+ "_meta": {
+  "generated": "2026-10-05",
+  "data_as_of": "drill 500 answers",
+  "how_to_read": "このJSONは、択一式ドリル（500問時点、2026-10-05）の解答記録を分析した、苦手分析記事の素材。正誤は現行法令を正とし、note-articles/の年度別記事の結論に従っている。引用してよいのは年度別記事（article欄）の本文と法令DB（note-articles/laws/）。article_check_findingsは、記事の条文照合で見つかった指摘（記事側の修正候補）で、苦手分析記事に転記するときは根拠の書き方に注意する。"
+ }
+}
