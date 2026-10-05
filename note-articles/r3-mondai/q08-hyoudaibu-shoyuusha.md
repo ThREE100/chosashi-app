@@ -188,7 +188,7 @@ sentence, NOT a legal citation):
 --- COLUMN B, CARD 2 ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-表題部所有者の変更登記は存在しない
+表題部所有者の変更登記はできない
 Illustration: A single vertical flow, top to bottom, inside one card
 (not two separate clusters — connect every element with a visible
 downward arrow so the eye reads it as one continuous story). ROW 1 (top):
@@ -368,7 +368,7 @@ characters):
 --- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
-表題部所有者の変更登記という手続は存在しない
+表題部所有者の変更登記はできない
 Diagram: 決定木として描く。上部のひし形分岐ノードに「表題部所有者につ
 いて売買等による承継が生じているか？（Ａ→Ｂ→Ｃ）」と書く。「はい」の
 矢印の先に第2のひし形分岐ノード「表題部所有者についての変更の登記で
