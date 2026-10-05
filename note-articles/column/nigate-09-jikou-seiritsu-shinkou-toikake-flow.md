@@ -109,6 +109,7 @@
 - 占有の性質は期間を通じて、善意無過失は開始時、承継では最初の占有者を基準にする、相続人は自己の占有のみも主張できる、賃借権は対抗要件前に抵当権が登記されると買受人に対抗できない、建物の一部は独立性が必要、所有権の物権的請求権は消滅時効にかからない、といった点は、判例により確立した考え方です。本文には判例番号を書いていません。各年度の既存記事の内容に基づいています。
 - 範囲：時効の援用（誰が援用できるか、完成後の承認、援用の効果、取得時効と登記）は、⑧の記事で扱っています。起算点が任意に選べないことは、⑧でも触れています。
 - 図解プロンプト4枚は、フローチャートをノードと矢印の1つずつまで機械的に点検してから作成しました（全ダイヤの出口がそろい、経路数が一致）。画像生成AIでの生成・目視確認はまだ行っていません。
+- 会話式解説の項の、型F〜型Hのイメージ図と、誤解を正しい理解に変える図は、フローチャートではなく場面の絵です。機械点検の対象外で、画像生成AIでの生成・目視確認はまだ行っていません。
 
 ---
 
@@ -119,6 +120,84 @@
 - 悪意の占有者でも、20年たてば時効取得できるんです
 - 一部弁済をすると、時効はやり直しになるんです
 - 催告で時効が止まるのは、一度だけなんです
+
+---
+
+## 会話式の見出し画像プロンプト（キャラクターあり）
+
+noteの見出し画像（アイキャッチ）用です。会話式の解説の記事に添える画像で、図解の画像とは違い、トリ先生と藍子を描きます。キャラクターは、別に渡すキャラクターシートに合わせます。サイズは1280x670pxです。
+
+```
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky
+(light blue, cream, fresh green), gentle clouds, clean outlines, consistent with
+the supplied reference header image. Keep exactly the same overall layout:
+the title block at the top center, the two characters at the bottom center,
+and topic scenes fading softly into the left and right edges.
+
+CHARACTERS (critical): follow the supplied character sheet exactly and do not
+redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue
+shirt, red neckerchief) standing at the lower left of center with one wing
+raised as if explaining. 藍子 is the young woman exam candidate (long wavy
+brown hair, blouse with thin blue vertical stripes) at the lower right of
+center, resting her chin on one hand with a pen, looking up at トリ先生
+with a curious smile, an open textbook on the desk in front of her. Keep
+both characters facing each other and fully visible, with their faces
+clear of the title text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese
+title in two lines at the top center, over a soft white cloud-shaped glow
+so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke
+behind it:
+時効の成立と進行のイメージを
+Line 2 is larger; the phrase 5つの場面 is red-orange and the rest is dark navy:
+5つの場面でつかむ
+Below the title, a light blue rounded pill-shaped subtitle band with navy
+text:
+苦手分析シリーズ⑨ 時効の成立と進行 型F〜型H
+Do not write any other text anywhere in the image: no captions, no labels,
+no signs with letters, no watermark, no panel numbers.
+
+BACKGROUND SCENES (illustration only, no text on any object; keep them soft
+and slightly faded so they never compete with the title or the characters):
+Left side: a long timeline of ten year markers beside a plot of land with a small house
+Right side: an hourglass on a stand, a wall calendar, and a gavel
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep
+the characters and the title away from the extreme edges so the image
+survives center cropping. Do not draw any flowchart, diamond, arrow between
+boxes, or ✓ or ✕ mark.
+
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 分, 時, 効, 分, which have visually similar but structurally different Simplified or Traditional Chinese counterparts. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji, and remove it. Confirm the title and subtitle are reproduced exactly as written, that the image is 1280x670 landscape, that the characters match the supplied character sheet, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
 
 ---
 
@@ -722,6 +801,433 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere in
 the image. Confirm the panel count equals 2 exactly, badge numbers run 1-2 continuously, that panel 1 is a flowchart with three diamonds, four result nodes and 4 paths, and that panel 2 has exactly six rows matching the list above. Confirm there is no intro illustration or paragraph
+block between the header and the panels, that no ✓ or ✕ mark appears
+anywhere, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the footnote text (no
+summary recap panel, no trophy or medal icon, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## 会話でつかむ時効の成立と進行：型F〜型Hを具体的な場面で
+
+フローチャートだとピンとこない人向けに、場面を頭に思い浮かべて、型F〜型Hを見分ける練習をします。舞台は、他人の土地を使い続けるAさん、Aさんの占有を譲り受けるBさん、お金を貸したCさんと借りたDさんです。ここからは、トリ先生と藍子の会話です。
+
+---
+
+【登場人物】
+
+**トリ先生**：見た目はぽっちゃりした鳥のキャラクター。調査士試験の要点と受験生の弱点を熟知している。口調は辛辣だが、初学者への愛は深い。
+
+**藍子（アイコ）**：ブルーの細い縦じまが入ったブラウスにネイビーのスーツをパリッと着こなす受験生。まじめで素直だが、問題作成者の仕掛けたワナに見事に引っかかる猪突猛進な面も。
+
+---
+
+### 型F（成立）：「いつの時点で見るか」を取り違えると、結論が逆になる
+
+**藍子**  
+「トリ先生、取得時効の10年って、占有を始めてから終わるまで、ずっと善意無過失でないとだめなんですよね。途中で『ここは他人の土地だった』と気づいたら、その時点で10年の時効は使えなくなる、と思っていました」
+
+**トリ先生**  
+「ずっと善意無過失、ね。あんた、取り調べの厳しい刑事みたいな審査をするじゃない。残念、善意無過失を見るのは、占有を始めた『その一瞬』だけよ（162条2項）。
+
+Aさんが、自分の土地だと信じて、確認もきちんとしたうえで占有を始めたとする。7年目に、登記簿を見て、他人の土地だったと知った。それでも、残りの3年そのまま占有を続ければ、開始から10年で時効は成立するの。途中で悪意に変わっても、開始時の善意無過失が守ってくれるのよ」
+
+**藍子**  
+「それなら、所有の意思や、平穏・公然も、始めた時だけ備わっていればいいんですか？」
+
+**トリ先生**  
+「そこは逆。所有の意思、平穏、公然は、占有している期間を通じて必要なの。始めた時だけでいい善意無過失と、ずっと必要な占有の性質。この2つを、ごちゃ混ぜにするのが、出題者の狙いよ。
+
+たとえば、Aさんが占有の途中から、人目を避けるように、塀で囲って隠して使い始めたとする。公然という要件を欠くことになるから、10年たっても時効は成立しないわ。時点が違う、と頭にたたき込みなさい」
+
+**藍子**  
+「それじゃあ、他人の物と知っていて占有を始めた悪意の人は、時効取得できないんですよね。ずるをした人に、権利を与えるのは変ですから」
+
+**トリ先生**  
+「出たわね、勝手に道徳心を足す病。悪意でも、20年占有を続ければ時効取得できるの（162条1項）。使えなくなるのは、短い10年のほうだけ。他人の物と知って買った場合でも、20年たてば成立するわ。
+
+ちなみに、無過失は『推定されない』。所有の意思、善意、平穏、公然は推定されるけれど（186条1項）、無過失までは推定されないの。10年の時効を主張する人が、自分に過失がなかったことを示さなきゃいけない。20年は、そもそも善意無過失が要らないから、気楽なものよ」
+
+> 【画像挿入】型F〜型Hのイメージ図の、パネル1（型F・取得時効の成立）。画像のプロンプトは、この下の「図解プロンプト（型F〜型Hのイメージ図1枚）」にあります。
+
+---
+
+### 型F（承継）：占有を引き継ぐときは、「併せるか、併せないか」で基準が変わる
+
+**藍子**  
+「Aさんが3年占有した土地を、事情を知っているBさんが譲り受けて、さらに7年占有しました。Bさんは悪意だから、短い10年の時効は使えないですよね」
+
+**トリ先生**  
+「Bさんの気持ちだけで見たでしょ。承継人には選択肢があるの。自分の占有だけを主張するか、前の人の占有を併せて主張するか（187条1項）。
+
+併せて主張するなら、善意無過失は、最初の占有者で判断する。最初のAさんが善意無過失なら、3年と7年を足した10年で、短い時効が成立するの。Bさんが事情を知っていても関係ないわ。ただし、前の人の占有の欠点も一緒に引き継ぐ。それが、併せるということよ」
+
+**藍子**  
+「逆に、最初のAさんが悪意で、あとから譲り受けたBさんが善意無過失だったら、どうなりますか？」
+
+**トリ先生**  
+「前の占有を併せる限り、最初が悪意だから、10年の時効は成立しない。Bさんが善意無過失の占有を、自分だけで10年続けたのなら、自分の占有のみを主張して成立する。併せるのと、併せないのとで、判断する人が変わる。これだけ覚えておけば、承継の肢は怖くないわ」
+
+**藍子**  
+「相続のときは、どうなりますか。亡くなった父が、他人から頼まれて土地を預かっていただけで、所有の意思はなかったんです」
+
+**トリ先生**  
+「相続人も、被相続人の占有を併せて主張することも、自分の占有だけを主張することもできる。お父さんに所有の意思がなくても、相続した子が、その土地を新たに事実上支配して、自分のものとして管理を始めたなら、子は自分の占有だけを主張して時効取得できるの。『被相続人に所有の意思がなかったから、もうだめ』と決めつけるのは、早とちりよ」
+
+> 【画像挿入】型F〜型Hのイメージ図の、パネル2（型F・占有の承継）。
+
+---
+
+### 型F（起算点・対象・対抗）：起算点は動かせず、賃借権も取れるが、買受人には負ける
+
+**藍子**  
+「時効の起算点って、時効を主張する人が、自分に有利な日を選べるものだと思っていました。完成の時期を、早めたいときもあるので」
+
+**トリ先生**  
+「自分に都合のいい日を選べる時効なんて、あったらみんな選ぶでしょ。起算点は、占有を開始した時に固定。主張する人が、好きな日に動かすことはできないの。
+
+あと、取得時効の対象は、所有権だけじゃない。賃借権や地上権のような、所有権以外の財産権も取れる（163条）。たとえば、他人の土地を、無権利者から借りたつもりで、賃借の意思をもって、平穏かつ公然に使い続けた。それなら、賃借権を時効取得できるの。
+
+地上権のほうは、土地を継続して使っているという外形的な事実と、その使い方が地上権を行使する意思に基づくことが、客観的に表れていることの両方が必要。ただ通っていただけでは足りないのよ」
+
+**藍子**  
+「アパートの1室の、そのまた一部のスペースを、何年も使い続けた場合は、その部分だけ時効取得できませんか？」
+
+**トリ先生**  
+「建物の一部は、区分建物としての独立性がなければ、その部分だけを取得することはできない。土地の一部とは扱いが違うのよ。『一部だけ取れる』と思い込むのは、土地のイメージを建物に持ち込んだワナね」
+
+**藍子**  
+「賃借権を時効取得できたなら、その賃借権は、あとから現れた人にも勝てるんですか？」
+
+**トリ先生**  
+「できることと、勝てることは別の話。賃借権が対抗要件を備える前に、その土地に抵当権が登記されていたら、時効取得に必要な期間が過ぎたあとでも、抵当権の実行による買受人には対抗できない。先に登記を備えた権利が強い、という世界に戻るの」
+
+> 【画像挿入】型F〜型Hのイメージ図の、パネル3（型F・起算点・対象・対抗）。
+
+---
+
+### 型G：「やり直し」と「待ってもらう」は、別物
+
+**藍子**  
+「Dさんの債務の時効が、もうすぐ完成しそうなんです。Cさんが『早く返してください』と催告書を送りました。これで時効はゼロに戻って、また一から数え直しですよね。5か月目にもう一度送れば、さらにそこから6か月もらえると思います」
+
+**トリ先生**  
+「催告で時効がゼロに戻るなら、毎日催告を出せば、誰も時効にならないわね。催告は『更新』じゃない。時効の完成が、催告の時から6か月を経過するまで『猶予』されるだけ（150条1項）。しかも、その猶予の間に出した2回目の催告には、新たな猶予の効力はない（同条2項）。5か月目に送った2通目で、さらに6か月もらえるなんて甘い話は、ないのよ」
+
+**藍子**  
+「じゃあ、やり直しになるのは、どんなときですか？」
+
+**トリ先生**  
+「承認と、確定判決。債務者が、債務があることを認めたら、その時から新たに進行する（152条1項）。借金の一部を弁済するのも、残りの債務を認めることだから承認で、残りの債務全体について更新よ。
+
+訴えを起こした場合は、その手続が続いている間は完成が猶予されて、確定判決で権利が確定すれば、確定した時から新たに進行する（147条2項）。ここは、更新になるわね」
+
+**藍子**  
+「訴えを起こしたあとで取り下げたら、起こさなかったことと同じで、何も起きないんですよね」
+
+**トリ先生**  
+「取下げでも、手続が終わった時から6か月を経過するまでは、完成が猶予される（147条1項かっこ書）。何も起きない、は誤り。
+
+もう1つ、法定代理人のいない未成年者や成年被後見人。時効の期間が満了する前の6か月以内に、法定代理人がいない場合は、本人が行為能力者になった時か、法定代理人が就職した時から6か月を経過するまで、時効は完成しない（158条1項）。猶予よ。
+
+迷ったら、ゼロから数え直しなら更新、満了を待ってもらうなら猶予。承認と確定判決が更新で、残りの催告、取下げ、法定代理人なしは猶予、と分けなさい」
+
+> 【画像挿入】型F〜型Hのイメージ図の、パネル4（型G・完成猶予と更新）。
+
+---
+
+### 型H：時効にかかる権利と、かからない権利を見分ける
+
+**藍子**  
+「土地の所有権も、何十年も使わずに放っておいたら、消滅時効で消えますよね。所有者が不法占拠者に『出て行きなさい』と求める権利も、使わないで長い時間がたてば、同じように消えると思います」
+
+**トリ先生**  
+「放っておいたら消える所有権なんて、持ち主がかわいそうよ。所有権は、消滅時効にかからない。所有権に基づく物権的請求権も、所有権と運命を共にするから、消滅時効にかからないの。
+
+時効にかかるのは、債権と、所有権以外の財産権。債権は、権利を行使できると知った時から5年、行使できる時から10年（166条1項）。所有権以外の財産権、たとえば地上権は、権利を行使できる時から20年よ（166条2項）」
+
+**藍子**  
+「取消権は、取消しの原因になっていた状況が消えて、それを知った後でないと、時効は進まないですよね」
+
+**トリ先生**  
+「それは、5年のほうの話しか見ていない。取消権は、追認できる時から5年、行為の時から20年（126条）。行為の時から20年は、本人が事情を知ったかどうかと関係なく進行する。
+
+『知った後でなければ消滅しない』は、決めつけ。5年と20年、2本の時計が同時に動いているの。先に鳴ったほうで消えるのよ」
+
+> 【画像挿入】型F〜型Hのイメージ図の、パネル5（型H・期間と対象）。
+
+---
+
+### 誤解を正しい理解に変える
+
+**藍子**  
+「今のお話で、私が思い込んでいたことを、整理したいです」
+
+**トリ先生**  
+「いい心がけよ。あんたの頭の中は、『ずっと』『やり直し』『何でも消える』だらけ。1つずつ直しなさい。
+
+『善意無過失はずっと必要』は、誤り。善意無過失は、占有を始めた時だけ見る。ずっと必要なのは、所有の意思と平穏と公然のほう。『悪意の人は時効取得できない』も誤り。10年は使えなくても、20年たてば成立する。
+
+『催告で時効はゼロに戻る』も、誤り。催告は6か月の完成猶予で、再度の催告に新たな猶予はない。ゼロに戻る更新は、承認と確定判決。最後に、『所有権も使わなければ時効で消える』も、誤り。所有権と、所有権に基づく物権的請求権は、消滅時効にかからないの」
+
+> 【画像挿入】誤解を正しい理解に変える図（4つの思い込みと、その訂正）。画像のプロンプトは、この下の「図解プロンプト（誤解を正しい理解に変える図1枚）」にあります。
+
+---
+
+### 型F〜型Hのまとめ
+
+**藍子**  
+「自分の言葉でまとめます。型Fは、所有の意思、平穏、公然は期間を通じて必要で、善意無過失は占有を開始した時に見ます。悪意でも20年で成立します。承継では、前の占有を併せるなら最初の占有者で判断し、相続人は自分の占有だけも主張できます。起算点は占有の開始時に固定されます。
+
+型Gは、承認と確定判決が更新で、催告、訴えの取下げ、法定代理人のいない未成年者・成年被後見人が完成猶予です。再度の催告に新たな猶予はありません。
+
+型Hは、所有権と物権的請求権は消滅時効にかかりません。債権は5年と10年、取消権は5年と20年、所有権以外の財産権は20年です」
+
+**トリ先生**  
+「合格点よ。ほめてるの、ちゃんと。迷ったら、まず『この要件は、いつの時点で見るのか』。それから『やり直しなのか、待ってもらうだけなのか』。次の過去問で、ちゃんと場面を思い浮かべなさいよ」
+
+---
+
+### 図解プロンプト（型F〜型Hのイメージ図1枚）
+
+この図は、フローチャートではなく、場面のイメージを5つ並べる構成です。上のフローチャートとは別で、機械点検の対象ではありません。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3800 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic, built as a set of 5 panels (a "scene illustrations that make the three question types of acquisitive prescription, suspension and renewal, and prescription periods easy to picture" study reference). Each panel is one scene illustration, not a
+flowchart.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Each panel shows concrete everyday scenes drawn as isometric illustrations,
+with only the short captions written below, verbatim. Do not draw any recurring guide characters, mascots or portrait characters
+(no bird character, no woman exam candidate) in any panel; show only the scenes and captions. Reproduce every caption exactly as written. Do not draw ✓ or ✕
+marks anywhere in this image. Do not include case or precedent numbers.
+Keep the text inside each panel to the captions and labels given below;
+make each caption fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+時効の成立と進行を
+5つの場面でつかむ
+
+Subtitle (smaller, centered, 1行):
+苦手分析シリーズ⑨ 時効の成立と進行 型F〜型H
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+型F　取得時効の成立
+Scene: a 3-scene row inside one panel. Scene 1: a person standing at a field with a calendar showing the first day circled; a few years later a notice board with another owner's name appears, but the person keeps standing there, and the calendar reaches ten pages. Caption (verbatim): 開始時に善意無過失なら10年 . Scene 2: a person hiding a hut behind a high fence in the middle of the calendar. Caption (verbatim): 占有の性質は期間を通じて必要 . Scene 3: a person with a title deed of someone else's field and a calendar of twenty pages. Caption (verbatim): 悪意でも20年で取得できる
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+時点を取り違えない
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+型F　占有の承継
+Scene: two scenes side by side inside one panel. Left: person A with a three-page calendar passes a key to person B who holds a seven-page calendar, and the two calendars are stacked into one ten-page calendar. Caption (verbatim): 併せるなら最初の占有者で判断する . Right: a son in front of a house that his late father only looked after, now putting up his own name plate on the gate. Caption (verbatim): 相続人は自己の占有だけも主張できる
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+併せるなら最初の人で
+
+--- PANEL 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+型F　起算点・対象・対抗
+Scene: a 2 x 2 grid of four small isometric scenes inside one panel. Each scene has one short caption under it, verbatim.
+  Scene 1: a calendar with the first day circled firmly and a hand trying to move the pin to another date, but it cannot move. Caption: 起算点は占有を始めた時に固定
+  Scene 2: a person using a rented plot and a plate marked 賃借権 beside a small plot with a plate marked 地上権. Caption: 賃借権や地上権も時効取得できる
+  Scene 3: an apartment building cut open, with only a small corner of one room fenced off by a thin dotted outline that is not a separate unit. Caption: 建物の一部は独立性がなければ取れない
+  Scene 4: a land registry book with a mortgage stamp placed earlier than a lease paper. Caption: 先に抵当権が登記されると買受人に負ける
+Conclusion tag (a short orange banner, 5-15 Japanese characters):
+取れても勝てるとは限らない
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+型G　完成猶予と更新
+Scene: a 2 x 2 grid of four small isometric scenes inside one panel. Each scene has one short caption under it, verbatim.
+  Scene 1: a debtor handing a few coins to a creditor while a calendar is turned back to its first page. Caption: 承認と確定判決は更新でゼロから進む
+  Scene 2: a creditor posting a letter, and a calendar showing a six-month band added at the end; a second letter in the middle of the band adds nothing. Caption: 催告は6か月の猶予で再度の催告は猶予にならない
+  Scene 3: a court building door with a withdrawn paper falling out and a six-month band added to a calendar. Caption: 訴えの取下げでも6か月は猶予される
+  Scene 4: a young person standing alone with an empty chair beside, and a six-month band on a calendar. Caption: 法定代理人のいない未成年者は猶予される
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+やり直しと猶予は別物
+
+--- PANEL 5 ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+型H　時効の対象と期間
+Scene: a 2 x 2 grid of four small isometric scenes inside one panel. Each scene has one short caption under it, verbatim.
+  Scene 1: a title deed of land and a returned-claim paper both standing untouched while a calendar with many pages passes beside them. Caption: 所有権と物権的請求権は時効にかからない
+  Scene 2: a promissory paper with two calendars, one of five pages and one of ten pages. Caption: 債権は5年と10年
+  Scene 3: a paper marked with a cancel stamp and two calendars, one of five pages and one of twenty pages. Caption: 取消権は5年と20年
+  Scene 4: a certificate marked 地上権 with a twenty-page calendar. Caption: 所有権以外の財産権は20年
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+権利の種類で見分ける
+
+--- FOOTER ---
+Small footnote text (bottom of the image, small font, verbatim):
+民法126条 147条 150条 152条 158条 162条 163条 166条 186条 187条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 時, 効, 取, 得, 善, 意, 過, 失, 承, 継, 占, 有, 登, 記, 完, 成, 猶, 予, 更, 新, 承, 認, 催, 告, 抵, 当, 賃, 借, 権, 地, 上, 併, 相, 続, 債, 権, 消, 取, 消, 認, 判, 決, 確, 定, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5 continuously, that every panel is a scene illustration, and that no flowchart, diamond or connecting arrow between boxes appears anywhere. Confirm there is no intro illustration or paragraph
+block between the header and the panels, that no ✓ or ✕ mark appears
+anywhere, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the footnote text (no
+summary recap panel, no trophy or medal icon, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
+
+### 図解プロンプト（誤解を正しい理解に変える図1枚）
+
+この図は、フローチャートではなく、「思い込み」と「正しくは」を左右に並べる構成です。上の図とは別で、機械点検の対象ではありません。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic, built as a set of 4 panels (a "corrections that turn four easy misunderstandings about prescription into correct understanding" study reference). Each panel is one scene illustration, not a
+flowchart.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Each panel shows concrete everyday scenes drawn as isometric illustrations,
+with only the short captions written below, verbatim. Do not draw any recurring guide characters, mascots or portrait characters
+(no bird character, no woman exam candidate) in any panel; show only the scenes and captions. Reproduce every caption exactly as written. Do not draw ✓ or ✕
+marks anywhere in this image. Do not include case or precedent numbers.
+Keep the text inside each panel to the captions and labels given below;
+make each caption fully visible and not covered by any shape.
+Each panel is divided into a left half and a right half. The left half is drawn in a muted gray tone and carries a caption beginning with the word 思い込み. The right half is drawn in a fresh green tone and carries a caption beginning with the word 正しくは. Do not draw any arrow between the two halves.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+時効の思い込みを
+正しい理解に直す
+
+Subtitle (smaller, centered, 1行):
+苦手分析シリーズ⑨ 時効の成立と進行 誤解を正す
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+善意無過失はずっと必要という思い込み
+Scene: left half (gray): a calendar of ten pages with a magnifying glass over every page. Caption (verbatim): 思い込み　善意無過失はずっと必要 . Right half (green): the same calendar with a magnifying glass only over the first page, the other pages plain. Caption (verbatim): 正しくは　善意無過失は開始時だけ見る
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+開始時だけ見る
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+悪意なら取得できないという思い込み
+Scene: left half (gray): a person with a title deed of someone else's field, blocked by a closed gate. Caption (verbatim): 思い込み　悪意の占有者は時効取得できない . Right half (green): the same person, with a twenty-page calendar, opening the gate. Caption (verbatim): 正しくは　悪意でも20年で取得できる
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+悪意でも20年
+
+--- PANEL 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+催告でやり直しという思い込み
+Scene: left half (gray): a creditor posting a letter and a calendar being turned back to its first page. Caption (verbatim): 思い込み　催告で時効はゼロに戻る . Right half (green): a calendar with a single six-month band added, and a second letter inside the band adding no further band. Caption (verbatim): 正しくは　催告は6か月の猶予で再度の催告は猶予にならない
+Conclusion tag (a short orange banner, 5-15 Japanese characters):
+催告は猶予だけ
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+所有権も消えるという思い込み
+Scene: left half (gray): a title deed of land fading away like a faded photograph while calendar pages fall. Caption (verbatim): 思い込み　所有権も使わなければ時効で消える . Right half (green): the same title deed standing firmly while the calendar pages fall around it. Caption (verbatim): 正しくは　所有権と物権的請求権は消滅時効にかからない
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+所有権は消えない
+
+--- FOOTER ---
+Small footnote text (bottom of the image, small font, verbatim):
+民法126条 147条 150条 152条 162条 166条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 時, 効, 取, 得, 善, 意, 過, 失, 占, 有, 猶, 予, 催, 告, 権, 権, 消, 滅, 取, 消, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image. Confirm the panel count equals 4 exactly, badge numbers run 1-4 continuously, that every panel is a scene illustration, and that no flowchart, diamond or connecting arrow between boxes appears anywhere. Confirm there is no intro illustration or paragraph
 block between the header and the panels, that no ✓ or ✕ mark appears
 anywhere, that each 着眼点 callout states a checking order rather than only
 a conclusion, confirm nothing is rendered below the footnote text (no

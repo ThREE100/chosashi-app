@@ -129,6 +129,7 @@
 - 不法占拠者・無権利者・包括承継人が第三者に当たらないこと、単純悪意者が第三者から外れないこと、背信的悪意者とその転得者の扱い、解除後・取消し後の第三者が登記の先後で決まること、袋地の通行権に登記が不要なことは、判例により確立した考え方です。本文には判例番号を書いていません。各年度の既存記事の内容に基づいています。
 - 範囲：取消し前の第三者（94条2項・95条4項・96条3項）は⑦、取得時効と登記は⑧で扱っています。動産・立木、登記請求権の保全のための債権者代位、中間省略登記の合意（平成24年度 第3問 ウ・エ、平成19年度 第2問 オ、平成30年度 第2問 ウ）は、型Eとして入口だけを載せ、別の回で扱います。
 - 図解プロンプト4枚は、フローチャートをノードと矢印の1つずつまで機械的に点検してから作成しました（全ダイヤの出口がそろい、経路数が一致）。画像生成AIでの生成・目視確認はまだ行っていません。
+- 会話式解説の項の、型A〜型Dのイメージ図と、誤解を正しい理解に変える図は、フローチャートではなく場面の絵です。機械点検の対象外で、画像生成AIでの生成・目視確認はまだ行っていません。
 
 ---
 
@@ -139,6 +140,84 @@
 - 取消し後の第三者とは、登記の先後で決まるんです
 - 法定相続分を超える部分は、登記が必要なんです
 - 相続放棄は、登記がなくても誰にでも対抗できるんです
+
+---
+
+## 会話式の見出し画像プロンプト（キャラクターあり）
+
+noteの見出し画像（アイキャッチ）用です。会話式の解説の記事に添える画像で、図解の画像とは違い、トリ先生と藍子を描きます。キャラクターは、別に渡すキャラクターシートに合わせます。サイズは1280x670pxです。
+
+```
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky
+(light blue, cream, fresh green), gentle clouds, clean outlines, consistent with
+the supplied reference header image. Keep exactly the same overall layout:
+the title block at the top center, the two characters at the bottom center,
+and topic scenes fading softly into the left and right edges.
+
+CHARACTERS (critical): follow the supplied character sheet exactly and do not
+redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue
+shirt, red neckerchief) standing at the lower left of center with one wing
+raised as if explaining. 藍子 is the young woman exam candidate (long wavy
+brown hair, blouse with thin blue vertical stripes) at the lower right of
+center, resting her chin on one hand with a pen, looking up at トリ先生
+with a curious smile, an open textbook on the desk in front of her. Keep
+both characters facing each other and fully visible, with their faces
+clear of the title text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese
+title in two lines at the top center, over a soft white cloud-shaped glow
+so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke
+behind it:
+対抗要件（177条）のイメージを
+Line 2 is larger; the phrase 4つの場面 is red-orange and the rest is dark navy:
+4つの場面でつかむ
+Below the title, a light blue rounded pill-shaped subtitle band with navy
+text:
+苦手分析シリーズ⑩ 対抗要件（177条） 型A〜型D
+Do not write any other text anywhere in the image: no captions, no labels,
+no signs with letters, no watermark, no panel numbers.
+
+BACKGROUND SCENES (illustration only, no text on any object; keep them soft
+and slightly faded so they never compete with the title or the characters):
+Left side: a registry office counter with a stamp and a thick registry book
+Right side: two buyers at the gate of a house, and a narrow path leading to a landlocked plot
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep
+the characters and the title away from the extreme edges so the image
+survives center cropping. Do not draw any flowchart, diamond, arrow between
+boxes, or ✓ or ✕ mark.
+
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 分, 条, 件, 対, 抗, 要, 件, 分, which have visually similar but structurally different Simplified or Traditional Chinese counterparts. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji, and remove it. Confirm the title and subtitle are reproduced exactly as written, that the image is 1280x670 landscape, that the characters match the supplied character sheet, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
 
 ---
 
@@ -734,6 +813,391 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere in
 the image. Confirm the panel count equals 2 exactly, badge numbers run 1-2 continuously, that panel 1 is a flowchart with three diamonds, four result nodes and 4 paths, and that panel 2 has exactly four cards. Confirm there is no intro illustration or paragraph
+block between the header and the panels, that no ✓ or ✕ mark appears
+anywhere, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the footnote text (no
+summary recap panel, no trophy or medal icon, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## 会話でつかむ対抗要件（177条）：型A〜型Dを具体的な場面で
+
+フローチャートだとピンとこない人向けに、場面を頭に思い浮かべて、型A〜型Dを見分ける練習をします。舞台は、土地を売るAさん、買って登記がまだのBさん、そこに現れるCさん（二重に買った人、勝手に住み着いた人など）です。ここからは、トリ先生と藍子の会話です。
+
+---
+
+【登場人物】
+
+**トリ先生**：見た目はぽっちゃりした鳥のキャラクター。調査士試験の要点と受験生の弱点を熟知している。口調は辛辣だが、初学者への愛は深い。
+
+**藍子（アイコ）**：ブルーの細い縦じまが入ったブラウスにネイビーのスーツをパリッと着こなす受験生。まじめで素直だが、問題作成者の仕掛けたワナに見事に引っかかる猪突猛進な面も。
+
+---
+
+### 型A：Cが「第三者」に当たるかを、順に見る
+
+**藍子**  
+「トリ先生、Bさんは、Aさんから土地を買って代金も払ったのに、登記をしていないんです。そこへ、赤の他人のCさんが勝手に住み着きました。登記がないと誰にも対抗できないから、Bさんは『出て行って』と言えないですよね」
+
+**トリ先生**  
+「登記がないと誰にも言えない、って、あんた、登記を魔法のお札だと思ってるでしょ。177条の『第三者』は、登記がないことを主張する正当な利益のある人だけ。勝手に住み着いた不法占拠者には、その正当な利益がないの。だから、Bさんは登記なしで、出て行ってと言える。
+
+この『不法占拠者や無権利者は第三者でない』は、7回も出た最頻出の肢よ。見たら、ほぼ当たりと思いなさい」
+
+**藍子**  
+「無権利者というのは、どんな人ですか？」
+
+**トリ先生**  
+「たとえば、兄弟2人が相続した土地で、お兄さんが勝手に自分1人の名義にして、Cさんに売ったとする。Cさんは、弟の持分については無権利者から買っただけ。弟は、自分の持分を、登記なしでCさんに対抗できるの。
+
+ほかにも、登記の申請を詐欺や強迫で妨げた人や、他人のために登記を申請する義務を負う人は、登記がないことを主張できない（不動産登記法5条）。売主や前の所有者、その相続人のような当事者と包括承継人も、第三者じゃないわ」
+
+**藍子**  
+「逆に、登記が必要な相手は誰ですか。Cさんが、Bさんの購入を知っていたなら、悪意だから、登記なしで対抗できると思います」
+
+**トリ先生**  
+「悪意だから勝てる、は、あんたの正義感ね。それがワナよ。売買を知っていたというだけの単純悪意者は、第三者から外れないの。Aさんから二重に買ったCさんが、先にBさんの購入を聞いていても、先に登記を備えたほうが勝つ。
+
+登記が必要な相手は、二重譲受人、単純悪意者、仮差押えをした一般債権者、抵当権の実行による買受人。登記を持ってる者勝ち、という世界の人たちよ」
+
+**藍子**  
+「袋地を買った人も、登記がないと、通行する権利を主張できないですか？」
+
+**トリ先生**  
+「袋地は、公道に通じていない土地。袋地の所有者は、周りの土地を通って公道に出られる（210条1項）。この通行権は、法律が認めた権利で、登記を成立の要件にしていない。だから、袋地の所有権を取得した人は、所有権移転の登記がなくても、周りの土地の所有者に通行権を主張できる。所有権の話と混ぜないこと」
+
+> 【画像挿入】型A〜型Dのイメージ図の、パネル1（型A・第三者かどうか）。画像のプロンプトは、この下の「図解プロンプト（型A〜型Dのイメージ図1枚）」にあります。
+
+---
+
+### 型B：背信的悪意者と、その転得者
+
+**藍子**  
+「単純悪意者は第三者なんですよね。では、悪意の中でも、すごく悪い人だけが、第三者から外れるんでしょうか」
+
+**トリ先生**  
+「そう。それが背信的悪意者。Bさんが登記を済ませていないのを知っていて、Bさんを困らせるためだけに、Aさんから二重に買った。そんなCさんが登記の欠缺を主張するのは、信義に反するわよね。だから、Bさんは登記なしで、Cさんに対抗できる。
+
+単純悪意者と背信的悪意者は、まるで別物。『知っていた』だけで背信的悪意者に飛ばす人が多いけど、嫌がらせという事情が加わって、初めてよ」
+
+**藍子**  
+「Cさんが背信的悪意者なら、そのCさんから買ったDさんも、同じように登記なしで対抗できる相手になりますか？」
+
+**トリ先生**  
+「Cさんの悪い血が、Dさんにも流れてるはず、って考えたでしょ。そうはいかない。転得者のDさんは、Dさん自身が背信的悪意者かどうかで判断する。
+
+Bさんの登記がまだなのを知らず、嫌がらせとも無関係なDさんが、Cさんから買って先に登記を備えたら、Bさんは、Dさんに登記なしでは対抗できない。Cさんの事情は、Dさんには関係ないの」
+
+> 【画像挿入】型A〜型Dのイメージ図の、パネル2（型B・背信的悪意者と転得者）。
+
+---
+
+### 型C：取消し・解除・時効の「前か後か」を見る
+
+**藍子**  
+「Aさんが詐欺にあってBさんに土地を売ったので、Aさんは売買を取り消しました。取り消したら、初めからなかったことになるので、その後にBさんから買ったCさんにも、Aさんは登記なしで土地を返せと言えると思います」
+
+**トリ先生**  
+「取り消した、という事実に、安心しすぎ。問題は、Cさんが取消しの『前』に現れたか、『後』に現れたか。取消しの後に現れたCさんとAさんは、実は二重譲渡に似た関係になる。Aさんは、取消しで土地が自分に戻ったのに、登記をBさんのままにしている。そこへ、Bさんから買ったCさんが現れた。登記を先に備えたほうが勝つ、という争いになるの。
+
+解除も同じ。解除した後に現れた第三者とは、登記の先後で決まって、解除をした人も、登記がなければ対抗できない」
+
+**藍子**  
+「じゃあ、時効のときは、どうなりますか？」
+
+**トリ先生**  
+「時効の『完成前』に現れた第三者に対しては、時効取得者は登記なしで時効取得を主張できる。『完成後』に現れた第三者とは、登記の先後。取得時効と登記の細かい整理は、⑧でやったわ。取消しの『前』に現れた第三者の扱いは、⑦よ。この回では、まず『取消し後、解除後、時効の完成後は、登記の先後』とだけ、頭に置きなさい」
+
+> 【画像挿入】型A〜型Dのイメージ図の、パネル3（型C・取消し・解除・時効の前か後か）。
+
+---
+
+### 型D：相続は、「原因」ごとに登記の要否が違う
+
+**藍子**  
+「遺産分割で『実家は全部、兄のもの』と決まりました。遺産分割の結果は、相続のとおりに決まるので、兄は登記なしで、誰にでも全部主張できますよね」
+
+**トリ先生**  
+「遺産分割だから特別、って考えたでしょ。古い感覚よ。今は、法定相続分を超える部分は、遺産分割で決まったのか、遺言で決まったのかを問わず、登記その他の対抗要件を備えないと、第三者に対抗できない（899条の2第1項）。
+
+兄が登記をしないでいる間に、弟が自分の持分を第三者に売って、先に登記してしまったら、兄は、法定相続分を超える部分を、その第三者に主張できない。法定相続分の範囲は、登記なしで対抗できるけれど、超えた部分は別よ」
+
+**藍子**  
+「相続の放棄をした人は、どうなりますか？ 放棄した人の持分を、債権者が仮差押えしてきたとします」
+
+**トリ先生**  
+「放棄した人は、初めから相続人でなかったものとみなされる（939条）。効力は絶対的で、登記がなくても、誰にでも対抗できる。放棄した人の持分への仮差押えの登記は、無効。登記が要る遺贈とは、きっぱり別ものよ。
+
+遺贈は、遺言による個別の権利の移転だから、通常の物権変動と同じ。登記がなければ、第三者に対抗できない（177条）。放棄は登記なし、遺贈は登記あり、法定相続分を超える部分は登記あり。3つを分けなさい」
+
+**藍子**  
+「もう1つ。亡くなった人から生前に土地を買ったBさんが、まだ登記をしていないうちに、売主の相続人がその土地をCさんに売って、登記しました。Bさんは、先に買ったのだから、Cさんに登記なしで勝てますよね？」
+
+**トリ先生**  
+「先に買ったほうが強い、と読んだわね。そうじゃない。相続人が登記を通して売った場合は、二重譲渡に似た関係になる。Bさんは、登記がなければ、Cさんに対抗できないの。
+
+なお、型Eの動産、立木、登記請求権の保全のための代位などは、この回では入口だけ。動産は引渡し（178条）、立木は登記と明認方法の先後、とだけ頭に置いて、詳しくは別の回で勉強しましょう」
+
+> 【画像挿入】型A〜型Dのイメージ図の、パネル4（型D・相続・遺贈・放棄）。
+
+---
+
+### 誤解を正しい理解に変える
+
+**藍子**  
+「今のお話で、私が思い込んでいたことを、整理したいです」
+
+**トリ先生**  
+「いい心がけよ。あんたの頭の中は、『登記がなければ負け』『悪い相手には勝てる』だらけ。1つずつ直しなさい。
+
+『登記がないと誰にも対抗できない』は、誤り。不法占拠者や無権利者には、登記なしで対抗できる。『相手が悪意なら、登記なしで勝てる』も、誤り。単純悪意者は第三者で、嫌がらせの目的がある背信的悪意者だけが、第三者から外れる。
+
+『取り消したら、あとの人にも登記なしで勝てる』も、誤り。取消し後の第三者とは、登記の先後。最後に、『遺産分割や遺言で決まれば、登記なしで全部主張できる』も、誤り。法定相続分を超える部分は、登記が必要よ。放棄だけが、登記なしで誰にでも対抗できるの」
+
+> 【画像挿入】誤解を正しい理解に変える図（4つの思い込みと、その訂正）。画像のプロンプトは、この下の「図解プロンプト（誤解を正しい理解に変える図1枚）」にあります。
+
+---
+
+### 型A〜型Dのまとめ
+
+**藍子**  
+「自分の言葉でまとめます。型Aは、当事者、前主、包括承継人、不法占拠者、無権利者、登記の申請を妨げた人や申請義務のある人、袋地を囲む土地の所有者への通行権の主張は、登記なしで対抗できます。二重譲受人、単純悪意者、仮差押えをした債権者、抵当権の実行による買受人には、登記が必要です。
+
+型Bは、背信的悪意者には登記なしで対抗できますが、単純悪意者は第三者です。転得者は自分で判断します。型Cは、取消し後、解除後、時効の完成後は、登記の先後です。型Dは、放棄は登記なしで対抗でき、遺贈は登記が必要で、法定相続分を超える部分は、遺産分割でも遺言でも登記が必要です」
+
+**トリ先生**  
+「合格点よ。ほめてるの、ちゃんと。迷ったら、まず『物権変動は有効に起きたのか』『Cは第三者か』『登記を先に備えたのは誰か』の3つを、別々に見なさい。次の過去問で、ちゃんと登場人物を並べて、頭の中で場面を作りなさいよ」
+
+---
+
+### 図解プロンプト（型A〜型Dのイメージ図1枚）
+
+この図は、フローチャートではなく、場面のイメージを4つ並べる構成です。上のフローチャートとは別で、機械点検の対象ではありません。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3300 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic, built as a set of 4 panels (a "scene illustrations that make the four question types of the registration requirement for third parties under Article 177 easy to picture" study reference). Each panel is one scene illustration, not a
+flowchart.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Each panel shows concrete everyday scenes drawn as isometric illustrations,
+with only the short captions written below, verbatim. Do not draw any recurring guide characters, mascots or portrait characters
+(no bird character, no woman exam candidate) in any panel; show only the scenes and captions. Reproduce every caption exactly as written. Do not draw ✓ or ✕
+marks anywhere in this image. Do not include case or precedent numbers.
+Keep the text inside each panel to the captions and labels given below;
+make each caption fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+対抗要件のイメージを
+4つの場面でつかむ
+
+Subtitle (smaller, centered, 1行):
+苦手分析シリーズ⑩ 対抗要件（177条） 型A〜型D
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+型A　第三者かどうか
+Scene: a 2 x 2 grid of four small isometric scenes inside one panel. Each scene has one short caption under it, verbatim.
+  Scene 1: a stranger putting up a tent on a lot, and the buyer pointing at the gate to ask the stranger to leave. Caption: 不法占拠者には登記なしで対抗できる
+  Scene 2: two buyers rushing toward a land registry window, and the one who arrives first holds the registry book. Caption: 二重譲受人は登記の先後で決まる
+  Scene 3: a person who knew about the first sale, standing at the registry window with a plain face and no scheming look. Caption: 売買を知っていただけの人は第三者
+  Scene 4: a landlocked lot surrounded by other lots, with a footpath running through a neighbor's lot to the public road. Caption: 袋地の通行権は登記なしで主張できる
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+不法占拠者は第三者でない
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+型B　背信的悪意者
+Scene: a 2-scene row inside one panel. Scene 1: a person who sneers while buying a lot only to annoy the first buyer, who stands sadly with a half-finished registration paper. Caption (verbatim): 嫌がらせで買った人は登記なしで対抗できる . Scene 2: that person selling the lot on to another person, who is calmly holding a registry book and has no scheme at all. Caption (verbatim): 転得者は自分自身で判断する
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+悪意と背信的悪意は別
+
+--- PANEL 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+型C　取消し・解除・時効の前か後か
+Scene: a 2-scene row inside one panel. Scene 1: a timeline strip with a cancel stamp in the middle; a new buyer standing to the right of the stamp and a registry window further right. Caption (verbatim): 取消し・解除・時効の完成の後は登記の先後 . Scene 2: the same strip with a new buyer standing to the left of the stamp. Caption (verbatim): 取消し前と時効の完成前は別の回で確認する
+Conclusion tag (a short orange banner, 5-15 Japanese characters):
+後の第三者は登記の先後
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+型D　相続・遺贈・放棄
+Scene: a 2 x 2 grid of four small isometric scenes inside one panel. Each scene has one short caption under it, verbatim.
+  Scene 1: a house cut into two halves by a dotted line, with the brothers each standing in one half; the half beyond the share is marked with a small registry book. Caption: 法定相続分を超える部分は登記が必要
+  Scene 2: a person tearing up an inheritance paper while a creditor with a seizure paper stands behind a closed door. Caption: 放棄は登記なしで誰にでも対抗できる
+  Scene 3: a will paper handing a house over to another person, with a registry book beside it. Caption: 遺贈は登記がなければ対抗できない
+  Scene 4: a buyer holding a sales contract and an heir's buyer holding a registry book, standing in a row. Caption: 生前の譲受人も登記がなければ負ける
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+原因ごとに登記の要否が違う
+
+--- FOOTER ---
+Small footnote text (bottom of the image, small font, verbatim):
+民法177条 210条 899条の2 939条 不動産登記法5条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 第, 三, 者, 悪, 意, 背, 信, 転, 得, 取, 消, 解, 除, 時, 効, 登, 記, 対, 抗, 相, 続, 遺, 贈, 放, 棄, 分, 譲, 占, 拠, 袋, 地, 通, 行, 権, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image. Confirm the panel count equals 4 exactly, badge numbers run 1-4 continuously, that every panel is a scene illustration, and that no flowchart, diamond or connecting arrow between boxes appears anywhere. Confirm there is no intro illustration or paragraph
+block between the header and the panels, that no ✓ or ✕ mark appears
+anywhere, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the footnote text (no
+summary recap panel, no trophy or medal icon, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
+
+### 図解プロンプト（誤解を正しい理解に変える図1枚）
+
+この図は、フローチャートではなく、「思い込み」と「正しくは」を左右に並べる構成です。上の図とは別で、機械点検の対象ではありません。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic, built as a set of 4 panels (a "corrections that turn four easy misunderstandings about registration requirements into correct understanding" study reference). Each panel is one scene illustration, not a
+flowchart.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Each panel shows concrete everyday scenes drawn as isometric illustrations,
+with only the short captions written below, verbatim. Do not draw any recurring guide characters, mascots or portrait characters
+(no bird character, no woman exam candidate) in any panel; show only the scenes and captions. Reproduce every caption exactly as written. Do not draw ✓ or ✕
+marks anywhere in this image. Do not include case or precedent numbers.
+Keep the text inside each panel to the captions and labels given below;
+make each caption fully visible and not covered by any shape.
+Each panel is divided into a left half and a right half. The left half is drawn in a muted gray tone and carries a caption beginning with the word 思い込み. The right half is drawn in a fresh green tone and carries a caption beginning with the word 正しくは. Do not draw any arrow between the two halves.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+対抗要件の思い込みを
+正しい理解に直す
+
+Subtitle (smaller, centered, 1行):
+苦手分析シリーズ⑩ 対抗要件（177条） 誤解を正す
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+登記がないと誰にも勝てないという思い込み
+Scene: left half (gray): a buyer without a registry book looking down in front of a stranger on his lot. Caption (verbatim): 思い込み　登記がないと誰にも対抗できない . Right half (green): the same buyer pointing at the gate and the stranger leaving. Caption (verbatim): 正しくは　不法占拠者や無権利者には登記なしで対抗できる
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+不法占拠者には勝てる
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+悪意なら勝てるという思い込み
+Scene: left half (gray): a first buyer facing a second buyer who has a knowing look, with a gavel in the first buyer's favor. Caption (verbatim): 思い込み　相手が悪意なら登記なしで勝てる . Right half (green): the same scene, but the second buyer holds the registry book and the gavel goes the other way, while a third person who sneers stands apart on the far side. Caption (verbatim): 正しくは　単純悪意者は第三者で背信的悪意者だけが外れる
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+悪意だけでは足りない
+
+--- PANEL 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+取消し後も勝てるという思い込み
+Scene: left half (gray): a seller who has cancelled the sale, standing on his lot with a smile and a later buyer standing outside the gate. Caption (verbatim): 思い込み　取り消したら後の人にも登記なしで勝てる . Right half (green): the seller and the later buyer racing to a land registry window. Caption (verbatim): 正しくは　取消し後の第三者とは登記の先後で決まる
+Conclusion tag (a short orange banner, 5-15 Japanese characters):
+取消し後は登記の先後
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+遺産分割なら登記は要らないという思い込み
+Scene: left half (gray): a family around a table with a signed division paper and a person confidently holding up the whole house. Caption (verbatim): 思い込み　遺産分割や遺言なら登記なしで全部主張できる . Right half (green): the same house with the half beyond the legal share marked by a small registry book, and a separate person tearing up an inheritance paper. Caption (verbatim): 正しくは　法定相続分を超える部分は登記が必要で放棄は不要
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+超える部分は登記が必要
+
+--- FOOTER ---
+Small footnote text (bottom of the image, small font, verbatim):
+民法177条 899条の2 939条 不動産登記法5条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 第, 三, 者, 悪, 意, 背, 信, 取, 消, 登, 記, 対, 抗, 相, 続, 遺, 放, 棄, 分, 割, 占, 拠, 無, 権, 利, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image. Confirm the panel count equals 4 exactly, badge numbers run 1-4 continuously, that every panel is a scene illustration, and that no flowchart, diamond or connecting arrow between boxes appears anywhere. Confirm there is no intro illustration or paragraph
 block between the header and the panels, that no ✓ or ✕ mark appears
 anywhere, that each 着眼点 callout states a checking order rather than only
 a conclusion, confirm nothing is rendered below the footnote text (no
