@@ -332,6 +332,22 @@ for _, v in ORDER:
 bare = [m.start() for m in re.finditer(r'注\d', text) if not (text[max(0, m.start() - 4):m.start()] == '問題文の'
         or text[max(0, m.start() - 5):m.start()] == '調査素図の')]
 judge(f'注の番号の前に「問題文の」「調査素図の」がある（なし: {[text[p - 8:p + 2] for p in bare]}）', not bare)
+# まとめの「わな」の一覧の各項目に、記事の中で図があるか（2026-10-05追加。図のなかった論点に図を足したときの再発防止）
+TRAPS = [('観測角は時計回りに足す', ['A101からの放射でB点を求める図']),
+         ('正弦定理は向かい合う角', ['三角形G・D・Fの正弦定理でF点を求める図']),
+         ('水平角が省略された観測は検算用', ['C点とE点を延長で求め']),
+         ('一筆に地目は一つ', ['一筆に地目は一つの図', '「わずかな差異」ではない図']),
+         ('申請人は所有権の登記名義人', ['申請人は誰かの図']),
+         ('（ロ）は座標で求積', ['（ロ）の面積の図', '（イ）の面積と地積の端数の図']),
+         ('（イ）の原因は①③', ['登記記録の行き先の図']),
+         ('登録免許税は分筆後の個数', ['登録免許税の図']),
+         ('地積測量図には測量年月日を書く', ['地積測量図に書くもの・書かないものの図'])]
+matome = text[text.index('今日のわなをおさらいするわよ'):]
+matome = matome[:matome.index('**藍子**')]
+trap_lines = [l for l in matome.splitlines() if l.startswith('- **')]
+judge(f'まとめのわなの数と対応表の数が同じ（{len(trap_lines)}・{len(TRAPS)}）', len(trap_lines) == len(TRAPS))
+for (head, keys), l in zip(TRAPS, trap_lines):
+    judge(f'わな「{head}」に図がある（{"・".join(keys)}）', l.startswith('- **' + head) and all(any(m.startswith(k) for m in markers) for k in keys))
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成25年度問題21（土地）〜'

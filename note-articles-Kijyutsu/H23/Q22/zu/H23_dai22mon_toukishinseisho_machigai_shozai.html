@@ -1,0 +1,57 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 70px 60px 40px; min-height: 1650px; display: flex; flex-direction: column; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 48px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 26px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.dateline { font-size: 22px; margin: 0 0 26px; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 26px; }
+.plainrow .ryaku { padding-left: 20px; padding-top: 10px; }
+table.bldg { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.bldg td { border: 1.5px solid #111; font-size: 19px; padding: 8px 10px; vertical-align: middle; line-height: 1.5; }
+table.bldg td.lab2 { text-align: center; font-size: 19px; }
+table.bldg td.head { text-align: center; font-size: 18px; height: 70px; }
+table.bldg td.val { height: 64px; }
+table.bldg td.entry { height: 150px; }
+table.bldg td.center { text-align: center; }
+table.bldg td.struct { font-size: 17px; }
+table.bldg td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.bldg td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.bldg td.genin { font-size: 17px; }
+table.bldg td .ink { font-size: 20px; }
+table.bldg td.struct .ink, table.bldg td.genin .ink { font-size: 18px; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 第2欄 */
+.ran2 { border: 3px solid #111; margin: 0 40px; padding: 6px 24px 20px; }
+.ran2 .line { border-bottom: 1.5px dashed #777; height: 46px; font-size: 22px; line-height: 46px; white-space: nowrap; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.tall .panel { padding: 50px 60px 54px; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -4px; right: -4px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-3deg); }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; right: 120px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; text-align: right; }
+.bubrow .bubble { text-align: left; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body><div class="tall" style="min-height:1320px; display:flex; flex-direction:column; justify-content:space-between">
+<div class="panel"><div class="ptitle ng">①誤答</div><div class="okwrap"><table class="bldg"><colgroup><col style="width:13%"><col style="width:9%"><col style="width:31%"><col style="width:12%"><col style="width:8%"><col style="width:27%"></colgroup><tr><td class="lab2" rowspan="2">所　在</td><td class="val" colspan="5"><span class="ink">Ａ市Ｂ町二丁目５番地２</span></td></tr><tr><td class="val" colspan="3"><span class="ink">Ａ市Ｂ町二丁目５番地２、Ａ市Ｂ町五丁目10番地１</span></td><td class="val genin" colspan="2"><span class="ink">平成23年8月2日変更</span></td></tr><tr><td class="lab2 val">家屋番号</td><td class="val" colspan="5"><span class="ink">５番２</span></td></tr></table></div></div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="okwrap"><table class="bldg"><colgroup><col style="width:13%"><col style="width:9%"><col style="width:31%"><col style="width:12%"><col style="width:8%"><col style="width:27%"></colgroup><tr><td class="lab2" rowspan="2">所　在</td><td class="val" colspan="5"><span class="ink">Ａ市Ｂ町二丁目５番地２</span></td></tr><tr><td class="val" colspan="3"><span class="ink strike">Ａ市Ｂ町二丁目５番地２、Ａ市Ｂ町五丁目10番地１</span></td><td class="val genin" colspan="2"><span class="ink strike">平成23年8月2日変更</span></td></tr><tr><td class="lab2 val">家屋番号</td><td class="val" colspan="5"><span class="ink">５番２</span></td></tr></table></div><div class="bubrow"><span class="bubble">区分建物である附属建物は、一棟の建物の所在を登記する（法第44条第1項第5号かっこ書き）。<br>その所在は符号1の「構造」の欄に書く（規則別表二）ので、所在の欄は5番地2のまま。<br>所在の変更は起きていないので、2段目も原因も空欄（建物図面の所在だけ2筆）</span></div></div>
+<div class="panel"><div class="ptitle ok">③正解</div><div class="okwrap"><table class="bldg" class="good"><colgroup><col style="width:13%"><col style="width:9%"><col style="width:31%"><col style="width:12%"><col style="width:8%"><col style="width:27%"></colgroup><tr><td class="lab2" rowspan="2">所　在</td><td class="val" colspan="5"><span class="ink">Ａ市Ｂ町二丁目５番地２</span></td></tr><tr><td class="val" colspan="3"></td><td class="val genin" colspan="2"></td></tr><tr><td class="lab2 val">家屋番号</td><td class="val" colspan="5"><span class="ink">５番２</span></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="caption" style="margin:10px 0 30px">平成23年度 第22問｜申請書の所在の欄は主である建物の5番地2のまま</div></div></body></html>
