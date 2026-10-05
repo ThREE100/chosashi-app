@@ -328,6 +328,16 @@ def pick(bank, st, n, subject, topic, mode):
     return chosen
 
 
+def stmt_text(it):
+    """肢の文。元の出題に前提条件・図があるものは、先頭に前提を付ける。"""
+    out = ''
+    if it.get('premise'):
+        out += '【前提条件】' + it['premise'].replace('\n', '\n  ') + '\n  【肢】'
+    if it.get('figure_missing'):
+        out += '（※元の出題には図があります。図は省略されています）'
+    return out + it['statement']
+
+
 def cmd_next(a):
     ensure_log_branch()
     bank = load_bank(); st = item_state(read_log())
@@ -342,7 +352,7 @@ def cmd_next(a):
         it = bank[i]
         tag = '復習' if i in st else '新規'
         print(f'[{k}/{len(ids)}] ({i}) {tag}・{it["subject"]}／{it["topic"]}')
-        print(f'  {it["statement"]}')
+        print(f'  {stmt_text(it)}')
         print()
 
 
@@ -548,7 +558,7 @@ def cmd_explain(a):
     if not it:
         raise SystemExit('ID不明')
     print(f'({a.id}) {it["subject"]}／{it["topic"]}')
-    print(it['statement'])
+    print(stmt_text(it))
     print(f'正解: {"〇（正しい記述）" if it["truth"] else "×（誤った記述）"}')
     if it.get('pair'):
         print(f'対比: {", ".join(it["pair"])}（逆の結論になる類似肢）')
@@ -682,7 +692,7 @@ def cmd_tags(a):
             continue
         srcs = '、'.join(f'{x["q"]}{x.get("label", "")}' for x in it.get('sources', [])[:4])
         print(f'({i}) {it["subject"]}／{it["topic"]}  出典: {srcs}')
-        print(f'  {it["statement"]}')
+        print(f'  {stmt_text(it)}')
         print(f'  正解: {"〇" if it["truth"] else "×"}' + (f'  メモ: {t["note"]}' if t['note'] else ''))
         print()
 
