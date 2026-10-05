@@ -95,12 +95,12 @@ note-articles-Kijyutsu/
 │   │   └── zu/                                          解説図13枚のPNGと作図スクリプト draw_H23_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H23_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_H23_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた改題版〉と照合済み。主である建物の増築と区分建物である附属建物〈車庫〉の新築、敷地権）
-│       ├── prompt_H23_dai22mon_kaisetsuzu.md                  解説図7枚（一棟の車庫と所有者・敷地の辺長確認図・建物図面・主である建物の求積図・符号1の誤り比較図・各階平面図の完成形・解く順番）作成プロンプト
+│       ├── prompt_H23_dai22mon_kaisetsuzu.md                  解説図17枚（判定の流れ・一棟の車庫と所有者・時系列メモ・注の仕分け・敷地の辺長確認図・東の距離7.0→4.5・筆の中に収まるかの確認・建物図面・主である建物の求積図・符号1の誤り比較図・壁心と内法・所在の載る欄・敷地権の条文の流れ・添付書類の要否・各階平面図の完成形・附属建物の判定・解く順番）作成プロンプト
 │       ├── prompt_H23_dai22mon_toukishinseisho_gazou.md       答案用紙の画像プロンプト（第1欄の登記申請書と第2欄〈問3の記述〉の完成形）
-│       ├── prompt_H23_dai22mon_toukishinseisho_machigai.md    符号1の行（一棟の建物・内法・敷地権）の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
+│       ├── prompt_H23_dai22mon_toukishinseisho_machigai.md    符号1の行（一棟の建物・内法・敷地権）と所在の欄の誤答→添削→正解の画像プロンプト（2枚。3コマを縦に積んだ縦長）
 │       ├── prompt_H23_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       ├── verify_H23_dai22mon.py                             記事・付属プロンプト・生成画像の数値・求積・所在・体裁の照合スクリプト
-│       └── zu/                                                解説図7枚のPNGと作図スクリプト draw_H23_dai22mon_kaisetsuzu.py、登記申請書の完成形・第2欄・添削のPNG・HTMLと生成スクリプト make_H23_dai22mon_shinseisho_gazou.py
+│       └── zu/                                                解説図17枚のPNGと作図スクリプト draw_H23_dai22mon_kaisetsuzu.py、登記申請書の完成形・第2欄・添削2枚のPNG・HTMLと生成スクリプト make_H23_dai22mon_shinseisho_gazou.py
 ├── H24/
 │   ├── Q21/
 │   │   ├── note_H24_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた改題版〉と照合済み。延長線上のK点・面積比1.087倍を三角形の比例で満たすL点・交換のための分筆→移転→合筆・合筆の申請書・地積更正では筆界は動かない）
