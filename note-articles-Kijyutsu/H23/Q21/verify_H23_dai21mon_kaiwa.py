@@ -204,7 +204,7 @@ a0 = base.index('あなたは土地家屋調査士試験の教材デザイナー
 b0 = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a0:b0].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-N_FIG = 13
+N_FIG = 18
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))   # 2桁の図番号も数える
 judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
 for i in range(1, N_FIG + 1):
@@ -307,10 +307,35 @@ judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_
 ORDER = [('北を上にして座標どおりに描き直した全体図', 'zu01_zentaizu'), ('T1からの放射でA点', 'zu02_A_housha'),
          ('T1からの放射でM点', 'zu03_M_housha'), ('T2からの放射でK点', 'zu04_K_housha'), ('C点の求め方の図', 'zu05_C_menseki_hi'),
          ('C点の比較図', 'zu06_C_hikaku'), ('C点の別解の図', 'zu07_C_betsukai'), ('H点の求め方の図', 'zu08_H_kousa'),
-         ('問2の完成形', 'toi2_kansei'), ('問1の完成形', 'toi1_kansei'), ('問1の整理図', 'zu09_jikou_youken'),
-         ('本件土地の面積と地目の図', 'zu10_menseki_chimoku'), ('登記申請書の「添付書類」欄', 'toukishinseisho_machigai'),
-         ('問3の整理図', 'zu11_shinseisho_seiri'), ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'),
-         ('土地所在図（1／500）と地積測量図（1／250）の完成見本', 'zu12_shozaizu_sokuryouzu'), ('本番で解く順番の図', 'zu13_toku_junban')]
+         ('問2の完成形', 'toi2_kansei'), ('民法第162条第1項と第2項の比較図', 'zu09_jikou_1kou_2kou'),
+         ('問1の完成形', 'toi1_kansei'), ('問1の整理図', 'zu10_jikou_youken'), ('申請する登記の図', 'zu11_hyoudai_touki'),
+         ('地目の比較図', 'zu12_chimoku_keidaichi'), ('本件土地の面積と地目の図', 'zu13_menseki_chimoku'),
+         ('登記原因の図', 'zu14_touki_genin'), ('登記申請書の「添付書類」欄', 'toukishinseisho_machigai'),
+         ('問3の整理図', 'zu15_shinseisho_seiri'), ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'),
+         ('縮尺の図', 'zu16_shukushaku'),
+         ('土地所在図（1／500）と地積測量図（1／250）の完成見本', 'zu17_shozaizu_sokuryouzu'), ('本番で解く順番の図', 'zu18_toku_junban')]
+# ---- 藍子が誤答する論点の図（2026-10-05追加、ユーザー指摘「記事本文に対して必要図が足りない」） ----
+WANA_FIG = [
+    ('図9　問1　民法第162条第1項の20年か、第2項の10年か', ['占有開始年月日　昭和26年8月19日', '時効完成年月日　昭和46年8月19日', '→ 第2項（10年）では書かない'],
+     '雨堤天満宮が所有の意思をもって占有を始めたのは'),
+    ('図11　問3　50番1の地積の更正ではなく、土地表題登記', ['50番1の筆界 D→H→J', '取得した者が申請（不動産登記法第36条）', '（同法第74条第1項第1号）'],
+     'これが依頼の『所有権の登記を行うために必要となる土地の表示に関する登記』の答えよ'),
+    ('図12　問3　地目は境内地（宅地・公衆用道路ではない）', ['宅地（第3号）', '公衆用道路（第21号）', '境内地（第13号）', '→ 地目は境内地（1筆の土地に地目は1つ）'],
+     '本件土地は、まさに神社の境内に属する土地よ'),
+    ('図14　問3　登記原因は「不詳」（取得原因の「時効取得」ではない）', ['＝ 土地が生じた原因とその日付', '→ 申請書の登記原因には書かない', '（不動産登記令別表4の項添付情報欄ハ）'],
+     '申請書では所有権証明書と書くの'),
+    ('図16　問4　縮尺が違うので兼用にしない（土地所在図1／500・地積測量図1／250）', ['（不動産登記規則第76条第2項）', '（不動産登記規則第77条第4項）',
+     '縮尺が同じなら兼用できる（準則第51条第4項）', '地積測量図の用紙の余白に土地所在図を描く（準則第51条第3項）'], '印刷の『1／250』は地積測量図の縮尺だからね'),
+]
+for title, words, before in WANA_FIG:
+    check('追加した図のタイトル（作図）', title, draw, '作図')
+    check('追加した図のタイトル（解説図プロンプト）', title.replace('　', '：', 1), fig, '解説図')
+    for w in words:
+        check('追加した図の文言（作図）', w, draw, '作図')
+        check('追加した図の文言（解説図プロンプト）', w, fig, '解説図')
+    i = text.index(before)
+    nxt = text[i:].split('\n\n')
+    judge(f'{title[:3]}のマーカーが該当の会話の直後', len(nxt) > 1 and nxt[1].startswith('> 【画像挿入】'))
 markers = [l[len('> 【画像挿入】'):] for l in lines if l.startswith('> 【画像挿入】')]
 judge('マーカーの順がPNGの対応表どおり', len(markers) == len(ORDER) and all(m.startswith(k) for m, (k, _) in zip(markers, ORDER)))
 pngs = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
