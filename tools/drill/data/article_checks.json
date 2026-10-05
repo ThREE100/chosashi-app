@@ -1,7 +1,7 @@
 {
  "meta": {
-  "note_articles_commit": "b507e54108f739ff260de670879feed460d677ab",
-  "checked_at": "2026-10-04",
+  "note_articles_commit": "a7551b93de26c591c604e1829891e2683657e4d8",
+  "checked_at": "2026-10-05",
   "law_db": "note-articles/laws/（e-Gov取得 2026-08-04）",
   "years": [
    "h17",
@@ -30,7 +30,7 @@
   "findings": {
    "error": 16,
    "warn": 149,
-   "unverified": 216
+   "unverified": 215
   }
  },
  "checked": {
@@ -42,7 +42,7 @@
     "エ",
     "オ"
    ],
-   "sha": "be6e6c99f4e57b13"
+   "sha": "18df7e89cab8ab73"
   },
   "note-articles/h17-mondai/q02-ishihyouji.md": {
    "labels_checked": [
@@ -2256,7 +2256,7 @@
     "エ",
     "オ"
    ],
-   "sha": "81c33824b992c060"
+   "sha": "fe9c19bd860d427a"
   },
   "note-articles/h28-mondai/q02-souringkankei.md": {
    "labels_checked": [
@@ -5997,15 +5997,6 @@
    "problem": "「登記の『処分』には当たらず、…審査請求をすることはできないというのが判例の立場です。」 記事末尾の注記では、挙げられていた判例（最判昭39.10.29）は筆界特定を扱ったものではなく行政処分性の一般基準にすぎないとされており、本文の「判例の立場」と整合しない。法令DBでは法132条2項（申請の却下のみ登記官の処分とみなす）は確認できるが、筆界特定自体の処分性を否定する明文は確認できない。",
    "law_ref": "fudousan-touki-hou.md 第132条2項「筆界特定の申請の却下は、登記官の処分とみなす」／第156条1項「登記官の処分に不服がある者…審査請求」",
    "proposal": "「判例の立場です」を削り、根拠の種類（筆界特定制度の趣旨・法132条2項は却下のみを処分とみなしていること、または実務の取扱い）を明示するか、確認できない旨を書く。",
-   "confidence": "medium"
-  },
-  {
-   "note_path": "note-articles/h28-mondai/q01-shoumetsujikou.md",
-   "label": "エ",
-   "severity": "unverified",
-   "problem": "「一部弁済は、…「承認」にあたると解されています」と断定するが、法令DBに規定がなく、判例等の出典の種類も示されていない。",
-   "law_ref": "民法152条1項は「権利の承認があったとき」とのみ規定（一部弁済への言及なし）",
-   "proposal": "「一部弁済が承認にあたる」のは条文ではなく判例・解釈による旨と出典の種類（判例）を明示する。",
    "confidence": "medium"
   },
   {
