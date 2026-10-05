@@ -235,8 +235,9 @@ def pick(bank, st, n, subject, topic, mode):
         cand = [i for i in pool if i not in last_session and (i not in st or (st[i]['streak'] < RETIRE_STREAK))]
         cand.sort(key=lambda i: -(weakness(ts[(pool[i]['subject'], pool[i]['topic'])]) if (pool[i]['subject'], pool[i]['topic']) in ts else 0.35) - random.random() * 0.3)
         chosen = cand[:n]
-    else:  # mixed: 復習期限が来たものを最大半分、残りは新規
-        k = min(len(due), max(1, n // 2) if due else 0)
+    else:  # mixed: 1周目（全肢を1回解く）が終わるまでは復習は5問中1問まで、残りは新規
+        cap = max(1, n // 5) if new else max(1, n // 2)
+        k = min(len(due), cap if due else 0)
         chosen = due[:k] + new[:n - k]
         if len(chosen) < n:
             chosen += [i for i in due[k:]][:n - len(chosen)]
