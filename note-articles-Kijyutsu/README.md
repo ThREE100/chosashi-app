@@ -87,12 +87,12 @@ note-articles-Kijyutsu/
 ├── H23/
 │   ├── Q21/
 │   │   ├── note_H23_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例〈日付と問題文の注5を書き換えた改題版〉と照合済み。放射3点・51番3の三斜から出すC点・真南の線との交点から測るH点・時効取得の要件事実・境内地の土地表題登記・1/500の土地所在図と1/250の地積測量図）
-│   │   ├── prompt_H23_dai21mon_kaiwa_kaisetsuzu.md      解説図13枚（全体図・A点/M点/K点の放射・C点の面積の比・C点の比較（ブロック塀の10.05m）・C点の別解・H点・時効取得の要件・面積と地目・申請書の考え方・土地所在図と地積測量図・解く順番）作成プロンプト（土地の基本フォームの記入済み）
+│   │   ├── prompt_H23_dai21mon_kaiwa_kaisetsuzu.md      解説図18枚（全体図・A点/M点/K点の放射・C点の面積の比・C点の比較（ブロック塀の10.05m）・C点の別解・H点・第162条第1項と第2項・時効取得の要件・地積の更正ではなく土地表題登記・地目は境内地・面積と地目・登記原因は不詳・申請書の考え方・縮尺の決まり・土地所在図と地積測量図・解く順番）作成プロンプト（土地の基本フォームの記入済み）
 │   │   ├── prompt_H23_dai21mon_toukishinseisho_gazou.md 登記申請書画像プロンプト（完成形。土地表題登記。答案用紙どおり登録免許税の欄なし）
 │   │   ├── prompt_H23_dai21mon_toukishinseisho_machigai.md  登記申請書「添付書類」欄と土地の表示の記入行1の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
 │   │   ├── prompt_H23_dai21mon_miidashi_gazou.md         note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_H23_dai21mon_kaiwa.py                 記事・付属プロンプト・生成画像の数値・体裁の照合スクリプト
-│   │   └── zu/                                          解説図13枚のPNGと作図スクリプト draw_H23_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H23_dai21mon_shinseisho_gazou.py
+│   │   └── zu/                                          解説図18枚のPNGと作図スクリプト draw_H23_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H23_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_H23_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた改題版〉と照合済み。主である建物の増築と区分建物である附属建物〈車庫〉の新築、敷地権）
 │       ├── prompt_H23_dai22mon_kaisetsuzu.md                  解説図7枚（一棟の車庫と所有者・敷地の辺長確認図・建物図面・主である建物の求積図・符号1の誤り比較図・各階平面図の完成形・解く順番）作成プロンプト
@@ -104,12 +104,12 @@ note-articles-Kijyutsu/
 ├── H24/
 │   ├── Q21/
 │   │   ├── note_H24_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた改題版〉と照合済み。延長線上のK点・面積比1.087倍を三角形の比例で満たすL点・交換のための分筆→移転→合筆・合筆の申請書・地積更正では筆界は動かない）
-│   │   ├── prompt_H24_dai21mon_kaiwa_kaisetsuzu.md       解説図11枚（全体図・登記の順序・注の仕分け・K点・イの面積・L点・L点の別解・地積測量図・合筆の地積・問4の整理図・本番で解く順番）作成プロンプト（土地の基本フォームの記入済み）
+│   │   ├── prompt_H24_dai21mon_kaiwa_kaisetsuzu.md       解説図17枚（時系列・全体図・登記の順序・注の仕分け・K点・イの面積・L点・L点の別解・基準点の選び方・地積測量図・合筆の制限・5番2の地積の時点・登録免許税・申請人と添付書類・合筆の地積・問4の整理図・本番で解く順番）作成プロンプト（土地の基本フォームの記入済み）
 │   │   ├── prompt_H24_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。土地合筆登記。項目の順序は平成24年度の答案用紙どおり）
 │   │   ├── prompt_H24_dai21mon_toukishinseisho_machigai.md  土地の表示の1行目・2行目の原因・3行目の地積の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
 │   │   ├── prompt_H24_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_H24_dai21mon_kaiwa.py                  記事・付属プロンプト・生成画像の数値・体裁の照合スクリプト（解答例46項目）
-│   │   └── zu/                                          解説図11枚のPNGと作図スクリプト draw_H24_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H24_dai21mon_shinseisho_gazou.py
+│   │   └── zu/                                          解説図17枚のPNGと作図スクリプト draw_H24_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H24_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_H24_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた改題版〉と照合済み。代位による区分建物表題登記・縦割りの内法・分有なら敷地権なし）
 │       ├── prompt_H24_dai22mon_kaisetsuzu.md                  解説図9枚（全体像と代位の関係・敷地辺長図・建物図面・1階の誤り比較図・1階求積図・2階求積図・各階平面図の完成形・敷地権の比較図・本番で解く順番）作成プロンプト
