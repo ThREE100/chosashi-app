@@ -592,11 +592,8 @@ flowchart.
 SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
 diamond-shaped branch node, or any arrows that connect boxes to each other.
 Each panel shows concrete everyday scenes drawn as isometric illustrations,
-with only the short captions written below, verbatim. Two small recurring
-guide characters may appear in the corner of each panel as silent observers
-and must not carry any speech or text: トリ先生 (a chubby bird character who
-looks sharp-tongued but caring) and 藍子 (a young woman exam candidate in a
-blouse with thin blue vertical stripes and a navy suit). The arrow symbol
+with only the short captions written below, verbatim. Do not draw any recurring guide characters, mascots or portrait characters
+(no bird character, no woman exam candidate) in any panel; show only the scenes and captions. The arrow symbol
 that appears inside a caption (for example 奪われた → 占有回収の訴え) is part of
 the caption text and must be reproduced as written. Do not draw ✓ or ✕
 marks anywhere in this image. Do not include case or precedent numbers.
