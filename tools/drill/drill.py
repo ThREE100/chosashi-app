@@ -231,6 +231,38 @@ def cmd_focus(a):
         print('出題フォーカス: ' + (json.dumps(fo, ensure_ascii=False) if fo else 'なし（全分野ランダム）'))
 
 
+PRIORITY_MIN_YEAR = 28   # 新規は R7〜H28 を先に出し、H27以前はそれが終わってから（2026-10-05ユーザー指示）
+
+
+def item_year(it):
+    """肢の出典のうち最も新しい年度を平成換算で返す（R元年=平成31年）。出典に年度がなければ0。"""
+    best = 0
+    for src in it.get('sources', []):
+        m = re.match(r'([RH])(\d+)', src.get('q', ''))
+        if m:
+            y = int(m.group(2)) + (30 if m.group(1) == 'R' else 0)
+            best = max(best, y)
+    return best
+
+
+def spread_by_topic(cands, bank, st, n):
+    """候補（優先順）から、論点が偏らないよう論点ごとの出題数が少ない順に n 問選ぶ。"""
+    answered = collections.Counter()
+    for iid, s in st.items():
+        if iid in bank:
+            answered[(bank[iid]['subject'], bank[iid]['topic'])] += s['n']
+    chosen, used = [], collections.Counter()
+    rest = list(cands)
+    while rest and len(chosen) < n:
+        # 今回すでに選んだ数が少ない論点を優先し、同数なら解答済みの少ない論点、さらに元の優先順
+        best = min(range(len(rest)), key=lambda k: (used[(bank[rest[k]]['subject'], bank[rest[k]]['topic'])],
+                                                    answered[(bank[rest[k]]['subject'], bank[rest[k]]['topic'])] // 5, k))
+        iid = rest.pop(best)
+        chosen.append(iid)
+        used[(bank[iid]['subject'], bank[iid]['topic'])] += 1
+    return chosen
+
+
 def pick(bank, st, n, subject, topic, mode):
     nowt = now()
     last_session = []
@@ -271,10 +303,15 @@ def pick(bank, st, n, subject, topic, mode):
         return explore * 1.5 + weak * 1.5 + 0.15 * min(it.get('freq', 1), 5) + random.random() * 0.6
 
     new.sort(key=prio_new, reverse=True)
+    # 年度の優先：R7〜H28の未出題が残っている間は、H27以前の新規は出さない（科目・論点の指定時は適用しない）
+    if not subject and not topic:
+        recent_new = [i for i in new if item_year(pool[i]) >= PRIORITY_MIN_YEAR]
+        if recent_new:
+            new = recent_new
     if mode == 'review':
         chosen = due[:n]
     elif mode == 'new':
-        chosen = new[:n]
+        chosen = spread_by_topic(new, bank, st, n)
     elif mode == 'weak':
         # 弱い論点の肢（未出題＋復習が近いもの）を弱さ順に
         cand = [i for i in pool if i not in last_session and (i not in st or (st[i]['streak'] < RETIRE_STREAK))]
@@ -283,7 +320,7 @@ def pick(bank, st, n, subject, topic, mode):
     else:  # mixed: 1周目（全肢を1回解く）が終わるまでは復習は5問中1問まで、残りは新規
         cap = max(1, n // 5) if new else max(1, n // 2)
         k = min(len(due), cap if due else 0)
-        chosen = due[:k] + new[:n - k]
+        chosen = due[:k] + spread_by_topic(new, bank, st, n - k)
         if len(chosen) < n:
             chosen += [i for i in due[k:]][:n - len(chosen)]
     # 同じ論点が連続しないよう軽く散らす
