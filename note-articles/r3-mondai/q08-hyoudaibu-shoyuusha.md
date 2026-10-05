@@ -189,12 +189,27 @@ sentence, NOT a legal citation):
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 表題部所有者の変更登記は存在しない
-Illustration: Three person icons in a row labeled Ａ・Ｂ・Ｃ. A document
-icon labeled "表題部所有者についての変更の登記" sits above the row with
-a large red X covering the entire icon. Below it, a separate pair of
-document icons labeled "所有権の保存の登記" and "所有権の移転の登記"
-sit in sequence with a green checkmark, showing the only route that
-actually reflects A→B→C.
+Illustration: A single vertical flow, top to bottom, inside one card
+(not two separate clusters — connect every element with a visible
+downward arrow so the eye reads it as one continuous story). ROW 1 (top):
+three small isometric person icons in a horizontal row labeled Ａ・Ｂ・Ｃ,
+each connected to the next by a short plain arrow (Ａ→Ｂ→Ｃ) to establish
+that ownership has passed along this chain — keep this row visually
+separate from, and above, the document icon in ROW 2, with clear empty
+space between them (do not stack the document icon directly on top of
+the person row). ROW 2 (center): one single document icon, clearly
+labeled above or below it "表題部所有者についての変更の登記", with one
+large red ✕ drawn diagonally across the document itself only (not
+touching or overlapping ROW 1's figures). A bold downward arrow leads
+from this crossed-out document straight down to ROW 3, with a small
+label on the arrow itself reading "正しくは". ROW 3 (bottom): two
+document icons side by side, connected to each other by a short arrow,
+the first labeled "所有権の保存の登記" and the second labeled "所有権の
+移転の登記（Ａ→Ｂ、Ｂ→Ｃの順に2回）", both sharing a single green
+checkmark badge placed above the pair to show this is the one valid
+route. Keep generous vertical spacing between all three rows so the
+card reads top-to-bottom as: 承継の事実 → 使えない手続 → 正しい手続,
+rather than as cluttered, overlapping icons.
 Conclusion tag (blue, 5-15 Japanese characters, a keyword phrase — NOT a
 sentence, NOT a legal citation):
 変更登記自体が不可
