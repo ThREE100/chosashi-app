@@ -207,7 +207,7 @@ a0 = base.index('あなたは土地家屋調査士試験の教材デザイナー
 b0 = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a0:b0].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body.rstrip('\n') in fig)
-N_FIG = 17
+N_FIG = 23
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
 judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
 for i in range(1, N_FIG + 1):
@@ -232,7 +232,13 @@ for s in ['北を上にして描き直すと、こうなるわ', '数字の裏�
           'Cは、7－1と7－2の境の南の端で、6番1と6番2の境の北の端よ', 'メモの形をそのまま今の座標に移せると言い切れるわ',
           '平成8年の地積測量図の線が今も筆界だという、数字の裏付けよ', '(B)が6番2のまま、(C)が新しい6番4ですね',
           '申請人の欄は、被相続人の杉山太郎さんを書いて、良子さん、その下に成年後見人の木村さん、それから健二さんの順ですね',
-          '基準点まで入れても楽に収まります', '次の年度も、この調子でいくわよ！']:
+          '基準点まで入れても楽に収まります', '次の年度も、この調子でいくわよ！',
+          # 2026-10-05 追加（藍子の誤答のわなごとに図をそろえた）
+          '道路として使われるようになるのは、工事に着工して、完成してからの話なんですね。今の帯は、杉山太郎さんの家の敷地の一部のまま',
+          '北へも東へも320.04。これをA1に足せばCです', '865.5284 ÷ 2 ＝ 432.7642。登記記録の6番2の地積は、切り捨てて432.76㎡です',
+          '合計が432.77で1つ多いのは、Kを丸めた分とそれぞれの切り捨ての分よ。問題ないわ',
+          '6番3の次で、6番4」', '分筆を申請するのは、この2人よ」', '3行目は元の地番から『6番2から分筆』よ」',
+          'Hは直線DEの途中、JはX＝513.27の南の辺の途中に乗っている杭なんですね。Iは6番2の中。どれも6番2の筆界を折り曲げる点じゃない']:
     check('図の挿入位置の文言', s)
     check('図の挿入位置の文言（プロンプト側）', s, fig, '解説図')
 for s in ['平成22年8月22日申請　Ａ地方法務局', '土地分筆登記', '申請人（被相続人　杉山太郎）', '相続人　Ｃ市Ｄ町二丁目５番６号　杉山良子',
@@ -337,32 +343,55 @@ judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_
       n_marker == N_FIG + 4)
 # 記事の画像挿入マーカーの順と zu/ のPNGの対応（マーカーの文言 → PNG）。2026-10-02 追加
 ORDER = [('北を上にして座標どおりに描き直した全体図', 'H22_dai21mon_zu01_zentaizu.png'),
-         ('問1の整理図', 'H22_dai21mon_zu02_mon1_seiri.png'),
+         ('帯H→E→F→J→Iの地目の図', 'H22_dai21mon_zu02_obi_chimoku.png'),
+         ('問1の整理図', 'H22_dai21mon_zu03_mon1_seiri.png'),
          ('答案用紙（その一）の問1の欄の完成形', 'H22_dai21mon_toukishinseisho_kansei_toi1.png'),
-         ('T3からの放射でG点を求める図', 'H22_dai21mon_zu03_G_housha.png'),
-         ('T3からの放射でL点を求める図', 'H22_dai21mon_zu04_L_housha.png'),
-         ('T1からの放射でF点を求める図', 'H22_dai21mon_zu05_F_housha.png'),
-         ('T1からの放射でJ点を求める図', 'H22_dai21mon_zu06_J_housha.png'),
-         ('座標変換の確かめの図', 'H22_dai21mon_zu07_zahyou_henkan.png'),
-         ('C点の求め方の図', 'H22_dai21mon_zu08_C_heikou.png'),
-         ('D点の求め方の図', 'H22_dai21mon_zu09_D_heikou.png'),
-         ('K点の求め方の図', 'H22_dai21mon_zu10_K_ten.png'),
+         ('T3からの放射でG点を求める図', 'H22_dai21mon_zu04_G_housha.png'),
+         ('T3からの放射でL点を求める図', 'H22_dai21mon_zu05_L_housha.png'),
+         ('T1からの放射でF点を求める図', 'H22_dai21mon_zu06_F_housha.png'),
+         ('T1からの放射でJ点を求める図', 'H22_dai21mon_zu07_J_housha.png'),
+         ('座標変換の確かめの図', 'H22_dai21mon_zu08_zahyou_henkan.png'),
+         ('C点の求め方の図', 'H22_dai21mon_zu09_C_heikou.png'),
+         ('D点の求め方の図', 'H22_dai21mon_zu10_D_heikou.png'),
+         ('K点の求め方の図', 'H22_dai21mon_zu11_K_ten.png'),
          ('答案用紙（その一）の問2の欄の完成形', 'H22_dai21mon_toukishinseisho_kansei_toi2.png'),
-         ('(B)(C)の面積の求め方の図', 'H22_dai21mon_zu11_menseki.png'),
-         ('東の道路境界の比較図', 'H22_dai21mon_zu12_kyoukai_hikaku.png'),
-         ('誤差の限度の判定図', 'H22_dai21mon_zu13_kousa.png'),
-         ('分筆後の区画と地番の図', 'H22_dai21mon_zu14_bunpitsu_chiban.png'),
-         ('申請人の整理図', 'H22_dai21mon_zu15_shinseinin.png'),
+         ('(B)(C)の面積の求め方の図', 'H22_dai21mon_zu12_menseki.png'),
+         ('伏せてある6番2の地積を出す図', 'H22_dai21mon_zu13_bunpitsumae_chiseki.png'),
+         ('誤差の限度の判定図', 'H22_dai21mon_zu14_kousa.png'),
+         ('東の道路境界の比較図', 'H22_dai21mon_zu15_kyoukai_hikaku.png'),
+         ('新しい地番の図', 'H22_dai21mon_zu16_chiban_6ban4.png'),
+         ('分筆後の区画と地番の図', 'H22_dai21mon_zu17_bunpitsu_chiban.png'),
+         ('申請人の整理図', 'H22_dai21mon_zu18_souzokunin.png'),
+         ('成年後見人の図', 'H22_dai21mon_zu19_kouken.png'),
          ('誤答→添削→正解の3コマ', 'H22_dai21mon_toukishinseisho_machigai.png'),
+         ('土地の表示の行ごとの書き方の図', 'H22_dai21mon_zu20_genin.png'),
          ('登記申請書（問3）の完成形', 'H22_dai21mon_toukishinseisho_kansei.png'),
-         ('地積測量図の完成見本', 'H22_dai21mon_zu16_sokuryouzu.png'),
-         ('本番で解く順番の図', 'H22_dai21mon_zu17_toku_junban.png')]
+         ('H・Jは筆界点ではない図', 'H22_dai21mon_zu21_HJ.png'),
+         ('地積測量図の完成見本', 'H22_dai21mon_zu22_sokuryouzu.png'),
+         ('本番で解く順番の図', 'H22_dai21mon_zu23_toku_junban.png')]
 mk = [l for l in lines if l.startswith('> 【画像挿入】')]
 judge(f'マーカーの数とPNGの対応表の数が同じ（{len(mk)}・{len(ORDER)}）', len(mk) == len(ORDER))
 for n_, ((key, png_), m_) in enumerate(zip(ORDER, mk), 1):
     judge(f'マーカー{n_}「{key}」→ {png_}（記事の順）', key in m_ and os.path.exists(os.path.join(HERE, 'zu', png_)))
 zu_png = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
 judge(f'zu/ のPNGが対応表と過不足なし（{len(zu_png)}枚）', zu_png == sorted(p_ for _, p_ in ORDER))
+# まとめの「わな」の一覧の各項目に、記事の中で図があるか（2026-10-05 追加。藍子の誤答のわなに図がなかった6か所を足したときの再発防止）
+TRAPS = [('東の道路境界は地積測量図の線', ['問1の整理図', '東の道路境界の比較図']),
+         ('帯H→E→F→J→Iは宅地のまま', ['帯H→E→F→J→Iの地目の図']),
+         ('向きの注がない放射は時計回りで', ['T3からの放射でG点を求める図', 'T3からの放射でL点を求める図', 'T1からの放射でF点を求める図']),
+         ('任意座標は2点で確かめてから平行移動', ['座標変換の確かめの図']),
+         ('K点はCが出発点', ['K点の求め方の図']),
+         ('伏せてある登記記録の地積は', ['伏せてある6番2の地積を出す図', '誤差の限度の判定図']),
+         ('新しい地番は6番4', ['新しい地番の図']),
+         ('申請人は6番2を取得した相続人', ['申請人の整理図', '成年後見人の図']),
+         ('原因は「③6番2、6番4に分筆」と「6番2から分筆」', ['土地の表示の行ごとの書き方の図']),
+         ('地積測量図にH・Jは描かない', ['H・Jは筆界点ではない図'])]
+matome = text[text.index('## 第9章'):]
+trap_lines = [l for l in matome.splitlines() if l.startswith('- **')]
+judge(f'まとめのわなの数と対応表の数が同じ（{len(trap_lines)}・{len(TRAPS)}）', len(trap_lines) == len(TRAPS))
+for (head, keys), l in zip(TRAPS, trap_lines):
+    judge(f'わな「{head}」に図がある（{"・".join(keys)}）',
+          l.startswith('- **' + head) and all(any(k in m_ for m_ in mk) for k in keys))
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成22年度問題21（土地）〜'

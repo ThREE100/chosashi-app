@@ -179,11 +179,11 @@ check('正解', '「平成23年8月2日新築」と改行して「平成23年8�
 check('縦に積む', '横1200pxの縦長の1枚の画像に、上から「①誤答」「②添削（赤ペン）」「③正解」の3コマ', fix, '添削')
 
 # ---- 解説図プロンプトの頂点座標（面積が求積表と一致すること）----
-RECTS = [('図4 1階', [(0, 0), (12.51, 0), (12.51, 6.37), (10.01, 6.37), (10.01, 9.1), (4.55, 9.1), (4.55, 7.28), (0, 7.28)], 98.735),
-         ('図4 2階', [(0.91, 0), (10.01, 0), (10.01, 7.28), (0.91, 7.28)], 66.248),
-         ('図5 誤り1', [(0, 0), (4.5, 0), (4.5, 5.5), (0, 5.5)], 24.75),
-         ('図5 誤り2', [(0.06, 0.06), (4.44, 0.06), (4.44, 5.44), (0.06, 5.44)], 23.5644),
-         ('図5 正解', [(0.06, 0), (4.44, 0), (4.44, 5.44), (0.06, 5.44)], 23.8272)]
+RECTS = [('図9 1階', [(0, 0), (12.51, 0), (12.51, 6.37), (10.01, 6.37), (10.01, 9.1), (4.55, 9.1), (4.55, 7.28), (0, 7.28)], 98.735),
+         ('図9 2階', [(0.91, 0), (10.01, 0), (10.01, 7.28), (0.91, 7.28)], 66.248),
+         ('図10 誤り1', [(0, 0), (4.5, 0), (4.5, 5.5), (0, 5.5)], 24.75),
+         ('図10 誤り2', [(0.06, 0.06), (4.44, 0.06), (4.44, 5.44), (0.06, 5.44)], 23.5644),
+         ('図10 正解', [(0.06, 0), (4.44, 0), (4.44, 5.44), (0.06, 5.44)], 23.8272)]
 for label, pts, want in RECTS:
     truth(f'{label} の面積 {want}', round(poly_area(pts), 4) == want)
     check(label + ' 頂点座標', ' → '.join(f'({a:g}, {b:g})' for a, b in pts + [pts[0]]), fig, '解説図')
@@ -234,21 +234,35 @@ truth(f'タイトル形式（見出し{len(sub)}文字）: {title}', title.start
 check('見出し画像のサブタイトル', '〜' + sub + '〜', thumb, '見出し画像')
 check('見出し画像のタイトル', '平成23年度問題22（建物）', thumb, '見出し画像')
 
-# ---- 画像：画像挿入マーカー10か所と zu/ のPNGの対応 ----
+# ---- 画像：画像挿入マーカー21か所と zu/ のPNGの対応（2026-10-05、本文に対して足りなかった図10枚と所在の欄の添削を足し、図の番号を記事の挿入順に振り直した）----
 from PIL import Image  # noqa: E402
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
-PNGS = [('H23_dai22mon_zu01_ittou_kankei', 'コンクリートブロック造の車庫の平面図'),
-        ('H23_dai22mon_zu02_shikichi_kakunin', '敷地確認図'),
-        ('H23_dai22mon_zu03_tatemono_zumen', '建物図面の完成形'),
-        ('H23_dai22mon_zu04_omoya_kyuuseki', '主である建物の求積図'),
-        ('H23_dai22mon_zu05_shako_ayamari_hikaku', '誤り比較図'),
-        ('H23_dai22mon_toukishinseisho_machigai', '①誤答'),
+PNGS = [('H23_dai22mon_zu01_hantei_nagare', '判定の流れ'),
+        ('H23_dai22mon_zu02_ittou_kankei', 'コンクリートブロック造の車庫の平面図'),
+        ('H23_dai22mon_zu03_jikeiretsu', '時系列メモの図'),
+        ('H23_dai22mon_zu04_chuu_shiwake', '注の仕分けの図'),
+        ('H23_dai22mon_zu05_shikichi_kakunin', '敷地確認図'),
+        ('H23_dai22mon_zu06_higashi_kyori', '東の距離の比較図'),
+        ('H23_dai22mon_zu07_shozai_kakunin', '筆の中に収まるかの確認図'),
+        ('H23_dai22mon_zu08_tatemono_zumen', '建物図面の完成形'),
+        ('H23_dai22mon_zu09_omoya_kyuuseki', '主である建物の求積図'),
+        ('H23_dai22mon_zu10_shako_ayamari_hikaku', '誤り比較図'),
+        ('H23_dai22mon_zu11_uchinori_kabeshin', '壁心と内法が混ざる'),
+        ('H23_dai22mon_zu12_touki_kiroku', '登記記録のどこに載るか'),
+        ('H23_dai22mon_toukishinseisho_machigai_shozai', '所在の欄の①誤答'),
+        ('H23_dai22mon_zu13_shikichiken', '敷地権が生じるまで'),
+        ('H23_dai22mon_toukishinseisho_machigai', '符号1の行の①誤答'),
+        ('H23_dai22mon_zu14_tenpu_shorui', '添付書類の要否の表'),
         ('H23_dai22mon_toukishinseisho_kansei', '問1の完成した登記申請書'),
-        ('H23_dai22mon_zu06_kakai_heimenzu', '各階平面図の完成形'),
+        ('H23_dai22mon_zu15_kakai_heimenzu', '各階平面図の完成形'),
+        ('H23_dai22mon_zu16_fuzoku_hantei', '使い方で決まる'),
         ('H23_dai22mon_toukishinseisho_kansei_dai2ran', '答案用紙第2欄の完成形'),
-        ('H23_dai22mon_zu07_toku_junban', '本番で解く順番の図')]
-truth(f'画像挿入マーカーの数 {len(markers)}（解説図7・添削1・完成形2）', len(markers) == len(PNGS))
+        ('H23_dai22mon_zu17_toku_junban', '本番で解く順番の図')]
+truth(f'画像挿入マーカーの数 {len(markers)}（解説図17・添削2・完成形2）', len(markers) == len(PNGS) == 21)
+truth('解説図の番号が記事の挿入順', [int(re.search(r'_zu(\d\d)_', n).group(1)) for n, _ in PNGS if '_zu' in n] == list(range(1, 18)))
+zu_files = sorted(f for f in os.listdir(ZU) if f.endswith('.png'))
+truth(f'zu/ のPNGはマーカーと1対1（{len(zu_files)}枚）', zu_files == sorted(n + '.png' for n, _ in PNGS))
 for (name, key), m in zip(PNGS, markers):
     path = os.path.join(ZU, name + '.png')
     ok = os.path.exists(path) and key in m
@@ -261,7 +275,7 @@ for (name, key), m in zip(PNGS, markers):
         else:
             ok = w >= 1600 and h >= 800
     truth(f'PNG（マーカー順） : {name}', ok)
-    check('生成済みファイル名', name.replace('H23_dai22mon_', ''), fig if 'zu0' in name else (fix if 'machigai' in name else form),
+    check('生成済みファイル名', name.replace('H23_dai22mon_', ''), fig if re.search(r'_zu\d\d_', name) else (fix if 'machigai' in name else form),
           '付属プロンプト')
 
 
@@ -283,6 +297,9 @@ html_has('H23_dai22mon_toukishinseisho_kansei', '建物表題部変更登記', '
          bad=('登録免許税', '平成30年', '>74<', '>75<', '会社法人等番号', '住所証明書', '規約証明書'))
 html_has('H23_dai22mon_toukishinseisho_kansei_dai2ran', '附属建物と認められない', '不動産登記法第2条第23号',
          '準則第78条第1項', '第三者に賃貸')
+html_has('H23_dai22mon_toukishinseisho_machigai_shozai', '①誤答', '②添削（赤ペン）', '③正解', 'Ａ市Ｂ町二丁目５番地２',
+         'Ａ市Ｂ町二丁目５番地２、Ａ市Ｂ町五丁目10番地１', '平成23年8月2日変更', '法第44条第1項第5号かっこ書き', '規則別表二',
+         '2段目も原因も空欄')
 html_has('H23_dai22mon_toukishinseisho_machigai', '①誤答', '②添削（赤ペン）', '③正解', '>24<', '>75<',
          '平成23年8月4日敷地権', '一棟の建物の所在・構造・床面積と敷地権も書く')
 drw = open(os.path.join(ZU, 'draw_H23_dai22mon_kaisetsuzu.py'), encoding='utf-8').read()
@@ -310,15 +327,40 @@ for s_ in ['答案用紙（その2）の建物図面の欄の枠', '答案用紙
            'public/kijutsu/H23-tatemono/a2.webp']:
     check('図のプロンプトに欄の枠', s_, fig, '解説図')
 # fit は文字より先（2026-09-30、H21/Q22）：各関数の中で fit が最初の文字の配置より前にあるか
-for fn in re.findall(r'def (zu0[1-6]|garage_panel)\(.*?\):(.*?)(?=\ndef )', drw, re.S):
+for fn in re.findall(r'def (zu02|zu05|zu06|zu07|zu08|zu09|zu15|garage_panel)\(.*?\):(.*?)(?=\ndef )', drw, re.S):
     body = fn[1]
     i_fit = body.find('fit(')
     i_txt = min([body.find(k) for k in ['free_text(', 'edge_label(', 'callout(', 'dims(', 'point_label('] if body.find(k) >= 0]
                 or [10 ** 9])
-    if 'garage_panel(' in body and i_fit < 0:      # 図5は garage_panel の中で fit する
+    if 'garage_panel(' in body and i_fit < 0:      # 図10は garage_panel の中で fit する
         continue
     truth(f'作図 {fn[0]}：fit が文字の配置より先', 0 <= i_fit < i_txt)
 for s_ in ['== 98.735', '== 66.24', '== 49.50', '== 23.8272', '== 23.5644', '== 24.75', '== 4.50', '== 352.9084', '== 792.72795']:
     check('作図スクリプトの assert', s_, drw, '作図')
+
+# ---- 2026-10-05追加の図：記事の会話の事実・数値と作図スクリプト・プロンプトの一致 ----
+check('所在の欄の誤答', '1段目の『A市B町二丁目5番地2』の下の2段目に『A市B町二丁目5番地2、A市B町五丁目10番地1』、所在が増えたので右の枠に原因『平成23年8月2日変更』も書くんですよね？')
+for s_ in ["'H23_dai22mon_zu01_hantei_nagare'", "'問い1　既存の車庫と構造上・利用上の\\n独立性があるか（問題文の注9）'",
+           "'5番2の符号1の附属建物\\n（不動産登記法第2条第23号、\\n準則第78条第1項）",
+           "'H23_dai22mon_zu03_jikeiretsu'", "主：③平成23年8月2日増築\\n符号1：平成23年8月2日新築", "'符号1：平成23年8月4日敷地権'",
+           "'H23_dai22mon_zu04_chuu_shiwake'", "'H23_dai22mon_zu06_higashi_kyori'", "'7.0'", "'4.5'",
+           "'H23_dai22mon_zu07_shozai_kakunin'", "'約6.3'", "'約5.0'", "'約20.7'", "'約4.2'", "'約18.7'",
+           "== 6.25", "== 4.96", "== 20.7", "== 4.2", "== 18.7",
+           "'H23_dai22mon_zu11_uchinori_kabeshin'", "'9.00×5.50＝49.50㎡\\n（構造の欄に書く）'", "'4.38×5.44＝23.82㎡\\n（床面積の欄に書く）'",
+           "'H23_dai22mon_zu12_touki_kiroku'", "'所在　A市B町二丁目5番地2　　（ここは変わらない）'",
+           "'H23_dai22mon_zu13_shikichiken'", "第22条第1項本文", "（区分所有法第2条第5項）",
+           "'原因：平成23年8月2日新築　平成23年8月4日敷地権　／　敷地権の表示：所有権6分の2'",
+           "'H23_dai22mon_zu14_tenpu_shorui'", "床面積の変更（不動産登記令別表14の項添付情報欄ロ（1））", "'代理人による申請（同令第7条第1項第2号）'",
+           "'H23_dai22mon_zu16_fuzoku_hantei'", "'藍子の誤答：「道路の向こうの別の町にあるときは、附属建物にできない」'"]:
+    check('追加の図（作図スクリプト）', s_, drw, '作図')
+# 記事の本文の数値が図にもある（本文にだけある数値を残さない）
+for s_ in ['約6.3', '約5.0', '約20.7', '約4.2', '7.0 − 2.5 ＝ 4.5', '6分の2', '8月4日']:
+    check('本文の数値', s_)
+for s_ in ['## 図1：車庫の「増築」はどの登記になるかの判定の流れ', '## 図6：東の距離の比較図', '## 図7：建物が自分の筆の中に収まるかの確認図',
+           '## 図12：一棟の建物の所在が登記記録のどこに載るかの図', '## 図13：敷地権が生じるまでの図', '## 図14：添付書類の要否の表',
+           '## 図16：附属建物と認められるかの図', '西約6.3（170.10 − 0.06 − 163.79 ＝ 6.25）', '南約18.7（226.69 − 208.01）']:
+    check('解説図プロンプト', s_, fig, '解説図')
+check('添削2', '# 添削2：「所在」欄の誤答→添削→正解（2026-10-05追加）', fix, '添削')
+check('添削2の誤答', '所在の2段目の右の枠（原因）：「平成23年8月2日変更」', fix, '添削')
 
 print('NG件数:', ng)
