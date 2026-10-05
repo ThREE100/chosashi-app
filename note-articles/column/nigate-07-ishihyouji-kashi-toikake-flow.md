@@ -138,6 +138,7 @@
 - 制限行為能力者の「詐術」（21条）、意思表示の到達（97条2項）、代理権の濫用は、別の論点なのでこの記事では扱っていません。
 - 苦手分析⑤（詐欺・強迫の第三者保護と、無効と取消しの違い）とは、第三者保護の結論が重なります。⑦は、意思表示の5つの制度全体と「問いの型の見分け方」を扱う上位の整理です。
 - 記事末尾の図解プロンプト4枚は、画像生成AIでの生成・目視確認はまだ行っていません。
+- 会話式解説の項の、型A〜型Cのイメージ図と、誤解を正しい理解に変える図は、フローチャートではなく場面の絵です。機械点検の対象外で、画像生成AIでの生成・目視確認はまだ行っていません。
 
 ---
 
@@ -148,6 +149,84 @@
 - だまされたより、脅された方が手厚く守られるんです
 - 取消しの前か後か、第三者は時期で結論が変わるんです
 - 最後の一文を読めば、解く型が決まるんです
+
+---
+
+## 会話式の見出し画像プロンプト（キャラクターあり）
+
+noteの見出し画像（アイキャッチ）用です。会話式の解説の記事に添える画像で、図解の画像とは違い、トリ先生と藍子を描きます。キャラクターは、別に渡すキャラクターシートに合わせます。サイズは1280x670pxです。
+
+```
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky
+(light blue, cream, fresh green), gentle clouds, clean outlines, consistent with
+the supplied reference header image. Keep exactly the same overall layout:
+the title block at the top center, the two characters at the bottom center,
+and topic scenes fading softly into the left and right edges.
+
+CHARACTERS (critical): follow the supplied character sheet exactly and do not
+redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue
+shirt, red neckerchief) standing at the lower left of center with one wing
+raised as if explaining. 藍子 is the young woman exam candidate (long wavy
+brown hair, blouse with thin blue vertical stripes) at the lower right of
+center, resting her chin on one hand with a pen, looking up at トリ先生
+with a curious smile, an open textbook on the desk in front of her. Keep
+both characters facing each other and fully visible, with their faces
+clear of the title text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese
+title in two lines at the top center, over a soft white cloud-shaped glow
+so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke
+behind it:
+意思表示の瑕疵のイメージを
+Line 2 is larger; the phrase 3つの場面 is red-orange and the rest is dark navy:
+3つの場面でつかむ
+Below the title, a light blue rounded pill-shaped subtitle band with navy
+text:
+苦手分析シリーズ⑦ 意思表示の瑕疵 型A〜型C
+Do not write any other text anywhere in the image: no captions, no labels,
+no signs with letters, no watermark, no panel numbers.
+
+BACKGROUND SCENES (illustration only, no text on any object; keep them soft
+and slightly faded so they never compete with the title or the characters):
+Left side: a signed contract paper beside a hand-held mirror, and a person whispering into another person's ear
+Right side: a magnifying glass over a blank form, and a cracked seal stamp on a document
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep
+the characters and the title away from the extreme edges so the image
+survives center cropping. Do not draw any flowchart, diamond, arrow between
+boxes, or ✓ or ✕ mark.
+
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 分, 意, 意, 分, 表, 示, 瑕, 疵, which have visually similar but structurally different Simplified or Traditional Chinese counterparts. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji, and remove it. Confirm the title and subtitle are reproduced exactly as written, that the image is 1280x670 landscape, that the characters match the supplied character sheet, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
 
 ---
 
@@ -818,6 +897,393 @@ header and the table, that no row contains any text beyond what is
 specified for that row, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
+```
+
+---
+
+## 会話でつかむ意思表示の瑕疵：型A〜型Cを具体的な場面で
+
+文章だけだとピンとこない人向けに、場面を頭に思い浮かべて、型A〜型Cを見分ける練習をします。舞台は、土地を売るAさん、それを買うBさん、さらにBさんから土地を買うCさんです。ここからは、トリ先生と藍子の会話です。
+
+---
+
+【登場人物】
+
+**トリ先生**：見た目はぽっちゃりした鳥のキャラクター。調査士試験の要点と受験生の弱点を熟知している。口調は辛辣だが、初学者への愛は深い。
+
+**藍子（アイコ）**：ブルーの細い縦じまが入ったブラウスにネイビーのスーツをパリッと着こなす受験生。まじめで素直だが、問題作成者の仕掛けたワナに見事に引っかかる猪突猛進な面も。
+
+---
+
+### 型A：「取り消せるか」は、本人と相手方だけの話で、相手方の認識を見る場面がある
+
+**藍子**  
+「トリ先生、意思表示の問題って、パターンが多すぎます。たとえば錯誤です。Aさんが、道路が通ると思い込んで土地を売ったのに、実際は通らなかった。しかも、ちょっと調べればわかることを調べなかった。これは重大な過失があるので、取り消せないですよね？」
+
+**トリ先生**  
+「出たわね、重過失と読んだ瞬間に自業自得と決めて、頭を止める病！ あんたは問題文の半分しか読んでないの。残りの半分に、取り消せる道が隠れているのに」
+
+**藍子**  
+「残りの半分、ですか？」
+
+**トリ先生**  
+「そう。錯誤は、表意者に重大な過失があると、原則は取り消せない。でも例外が2つあるの（95条3項）。1つ目は、相手方が、Aさんが勘違いしていることを知っていた、または重大な過失で知らなかったとき。2つ目は、相手方も同じ勘違いをしていたとき。
+
+買主のBさんも『ここは道路が通るから高く売れる』と同じ思い込みをしていたなら、Aさんの重過失があっても取り消せる。（なお、動機の勘違いの場合は、それを契約の基礎にしていると表示していたことも要る。95条2項。今回は表示していた前提で考えて。）だから、重過失と読んだら、必ず次の一言を足しなさい。『で、相手方はどうだったの？』」
+
+**藍子**  
+「なるほど。相手方まで見るんですね。じゃあ、詐欺はどうですか。見知らぬ人に『この土地は今すぐ売らないと値下がりする』とだまされて、Aさんが土地をBさんに売ってしまった場合です」
+
+**トリ先生**  
+「ここで見るのは、だました人が誰か。Bさん本人や、Bさんの代理人がだましたのなら、Bさんが知っていようがいまいが、取り消せる（96条1項）。でも、今回は、BさんともAさんとも無関係の見知らぬ人がだました。これが第三者による詐欺。この場合は、相手方の買主Bさんがだましを知っていた、または知ることができたときに限って取り消せるの（96条2項）」
+
+**藍子**  
+「じゃあ、買主のBさんが、だましに全く気づいていなかったら、Aさんは取り消せないんですね。代理人がだました場合も、同じ扱いでいいですか？」
+
+**トリ先生**  
+「そこで足をすくわれる人が多いのよ。代理人は、相手方の側に立つ人。だから、代理人がだましたのは、第三者による詐欺じゃない。相手方本人がだましたのと同じに扱われて、相手方が知らなくても取り消せるの。
+
+『だました人は誰か』を、毎回、名前で確かめなさい。相手方の側の人なら取消し自由、無関係の第三者なら、相手方の認識が要る。2つに1つよ」
+
+**藍子**  
+「強迫は、どうなりますか？ 見知らぬ人に脅されて、土地を売ったときです」
+
+**トリ先生**  
+「強迫は、詐欺と違って、一番シンプル。誰が脅しても、買主のBさんが何も知らなくても、取り消せる。詐欺にあった『第三者がやったら相手方の認識を見る』という条件は、強迫には、ない。詐欺と同じ形で覚えようとするから、迷うのよ」
+
+> 【画像挿入】型A〜型Cのイメージ図の、パネル1（型A　取り消せるか・無効か）。画像のプロンプトは、この下の「図解プロンプト（型A〜型Cのイメージ図1枚）」にあります。
+
+---
+
+### 型B：「Cに主張できるか」は、取消しの前か後か、そして制度を見る
+
+**藍子**  
+「第三者のCさんが出てくると、頭が真っ白になります。AさんがBさんに土地を売って、Bさんがそれを善意のCさんに転売しました。Aさんが、あとから詐欺を理由に取り消したら、Cさんは土地を取られてしまうんですか？」
+
+**トリ先生**  
+「落ち着きなさい。最初に確かめるのは、Cさんが現れたのは、Aさんが取り消す前なのか、後なのか。ここを飛ばすから、結論が逆になるの」
+
+**藍子**  
+「取消しの後だったら、どうなるんですか？ 取り消したのだから、土地はAさんに戻りますよね」
+
+**トリ先生**  
+「そう、取り消すと、土地はBからAに戻る。そのあとで、まだ登記がBのままなのをいいことに、BがCに売ったら、AとCは同じ土地を取り合う二重譲渡のような関係になる。こうなると、どちらが先に登記を備えたかで決まるの（177条）。
+
+つまり、Aさんが取消しをしたのに登記を戻さないでいるうちに、Cさんが先に登記を備えたら、Cさんが勝つ。これは、善意か悪意かの話じゃないのよ」
+
+**藍子**  
+「では、Cさんが取消しの前に現れたときは？」
+
+**トリ先生**  
+「ここで、制度ごとの3段階が出てくる。
+
+1段階目は、表意者が自分で偽った虚偽表示と心裡留保。Cさんが善意であれば足りる。過失があっても、登記がなくても、Cさんが勝つ（94条2項、93条2項）。
+
+2段階目は、詐欺と錯誤。Cさんが善意で、しかも過失がないことが必要。登記は要らない（96条3項、95条4項）」
+
+**藍子**  
+「3段階目は、強迫ですよね？」
+
+**トリ先生**  
+「そう。強迫は、第三者を守る規定が、ない。Cさんが善意無過失でも、Aさんが勝つ」
+
+**藍子**  
+「それは、脅されたAさんが、一番手厚く守られている、ということですか？」
+
+**トリ先生**  
+「その通り。ただし、これは条文に書かれた理由じゃなくて、条文の並びを覚えやすくするための整理よ。『脅された人が一番手厚い』とだけ覚えておけば、迷ったときに、すぐ思い出せる」
+
+**藍子**  
+「もう1つ。Bさんが死亡して、善意のCさんがBさんを単独で相続した場合も、Cさんは第三者として守られますか？」
+
+**トリ先生**  
+「相続人は、被相続人の立場をそのまま引き継ぐだけ。新しく利害関係を持った第三者じゃないの。だから、善意でも、守られない。
+
+逆に、善意のCさんが権利を取得したあとで、Cさんから買ったDさんが事情を知っていたとしても、Dさんは権利を取得できる。善意のCさんを経由すれば、悪意のDさんも守られるのよ」
+
+> 【画像挿入】型A〜型Cのイメージ図の、パネル2（型B　第三者に対抗できるか）。
+
+---
+
+### 型C：「さかのぼるか」「追認できるか」は、効果と期間の話
+
+**藍子**  
+「最後の型Cは、取り消したら、いつの時点に戻るのかを聞かれる問題ですよね。無効と取消しが、ごちゃごちゃになります」
+
+**トリ先生**  
+「まず、取り消したら、初めから無効だったことになる（121条）。Aさんが取り消した瞬間から無効になるんじゃなくて、売買した時にさかのぼって、なかったことになるの」
+
+**藍子**  
+「では、もともと無効だった行為は、あとから追認すれば、有効になりますか？ 取消しのできる行為は、追認すれば確定するので、同じように考えていました」
+
+**トリ先生**  
+「そこが、はまりどころ。無効な行為は、追認しても、初めに戻って有効にはならない（119条）。取り消せる行為は追認すれば確定する。でも、無効なものは追認しても、さかのぼって有効にはならないの。
+
+取消しと無効を同じ棚に入れた時点で、あんたは負けよ。それぞれ別の棚に入れなさい」
+
+**藍子**  
+「期間はどうですか？ 取り消せる状態は、いつまでも続くんですか？」
+
+**トリ先生**  
+「続かない。取消権は、追認できる時から5年、行為の時から20年で消える（126条）。『気づいたときから5年』と『大もとの契約から20年』の2本立て。どちらかが先に来たら、そこで終わりよ」
+
+> 【画像挿入】型A〜型Cのイメージ図の、パネル3（型C　効果と期間）。
+
+---
+
+### 誤解を正しい理解に変える
+
+**藍子**  
+「今のお話で、私が思い込んでいたことを、整理したいです」
+
+**トリ先生**  
+「いい心がけよ。あんたがはまっていたのは、4つ。1つずつ直しなさい。
+
+1つ目。重過失があったら取り消せない、は半分だけ。相手方が錯誤を知っていた、または同じ錯誤だったなら、重過失があっても取り消せる。
+
+2つ目。取り消せたら、第三者にも主張できる、も違う。取り消せることと、第三者に対抗できることは、別の問い。詐欺なら、善意無過失の第三者には対抗できない」
+
+**藍子**  
+「あとの2つも、お願いします」
+
+**トリ先生**  
+「3つ目。取消しは何でも同じ、も違う。取消しの後に出た第三者とは登記の先後。取消しの前なら、虚偽表示・心裡留保は善意で足り、詐欺・錯誤は善意無過失、強迫は保護なし。
+
+4つ目。無効も追認すれば有効になる、は逆。無効な行為は、追認してもさかのぼって有効にはならない」
+
+> 【画像挿入】誤解を正しい理解に変える図（4つの思い込みと、その訂正）。画像のプロンプトは、この下の「図解プロンプト（誤解を正しい理解に変える図1枚）」にあります。
+
+---
+
+### 型A〜型Cのまとめ
+
+**藍子**  
+「自分の言葉でまとめます。型Aは、取り消せるかを聞かれたら、錯誤は重過失があっても相手方の認識を見て、詐欺は、だました人が相手方の側か無関係の第三者かを見ます。強迫は誰が脅しても取り消せます。
+
+型Bは、第三者に対抗できるかを聞かれたら、まず取消しの前か後かを見ます。後なら登記の先後です。前なら、虚偽表示・心裡留保は善意、詐欺・錯誤は善意無過失、強迫は保護なしです。相続人は第三者ではありません。
+
+型Cは、取り消すと初めから無効で、無効は追認してもさかのぼって有効にならず、取消権は追認できる時から5年、行為の時から20年で消えます」
+
+**トリ先生**  
+「合格点よ。ほめてるの、ちゃんと。迷ったら、まず問いの最後の一文を読んで、『取り消せるか』なのか『Cに主張できるか』なのかを決めなさい。この2つを混ぜた時点で、あんたの負けだから。次の過去問で、ちゃんと絵を描きなさいよ」
+
+---
+
+### 図解プロンプト（型A〜型Cのイメージ図1枚）
+
+この図は、フローチャートではなく、場面のイメージを3つ並べる構成です。上のフローチャート3枚と早見表1枚とは別で、機械点検の対象ではありません。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2900 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic, built as a set of 3 panels (a "scene illustrations that make the three question types of defective declarations of intent easy to picture" study reference). Each panel is one scene illustration, not a
+flowchart.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Each panel shows concrete everyday scenes drawn as isometric illustrations,
+with only the short captions written below, verbatim. Do not draw any recurring guide characters, mascots or portrait characters
+(no bird character, no woman exam candidate) in any panel; show only the scenes and captions. Reproduce every caption exactly as written. Do not draw ✓ or ✕
+marks anywhere in this image. Do not include case or precedent numbers.
+Keep the text inside each panel to the captions and labels given below;
+make each caption fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+意思表示の瑕疵を
+3つの場面でつかむ
+
+Subtitle (smaller, centered, 1行):
+苦手分析シリーズ⑦ 意思表示の瑕疵 型A〜型C
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+型A　取り消せるか・無効か
+Scene: a 3-scene row inside one panel. Scene 1: a seller A hands a land certificate to a buyer B (a blank thought bubble with only a small road icon), and both of them stare at the same empty field with the same hopeful look. Caption (verbatim): 相手方も同じ勘違いなら重過失でも取り消せる . Scene 2: a stranger whispering to seller A while buyer B stands on the other side, looking at a plain land certificate and unaware. Caption (verbatim): 無関係の第三者がだました：相手方が知らなければ取り消せない . Scene 3: buyer B's agent (a person with a badge marked 代理人) whispering to seller A. Caption (verbatim): 相手方の側の人がだました：取り消せる
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+相手方の認識を見る
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+型B　第三者に対抗できるか
+Scene: a 3-scene row inside one panel. Scene 1: a timeline with a flag marked 取消し in the middle; a buyer C stands on the left side of the flag holding a land certificate and a buyer C2 stands on the right side holding a registration receipt. Caption (verbatim): 取消しの前か後かをまず見る . Scene 2: three small shields in a row, the first small, the second medium, the third absent, each drawn beside a house icon. Caption (verbatim): 善意で足りる、善意無過失が必要、保護なし . Scene 3: a person B who has passed away, and his heir sitting in the same chair (drawn without any extra text). Caption (verbatim): 相続人は第三者に当たらない
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+取消しの前か後か
+
+--- PANEL 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+型C　効果と期間
+Scene: a 2-scene row inside one panel. Scene 1: a calendar page of a past date, with a contract paper being erased from that date forward to the present. Caption (verbatim): 取り消すと初めから無効になる . Scene 2: two hourglasses side by side, one marked 5年 and one marked 20年, with a land certificate between them. Caption (verbatim): 追認できる時から5年、行為の時から20年
+Conclusion tag (a short orange banner, 5-15 Japanese characters):
+さかのぼって無効
+
+--- FOOTER ---
+Small footnote text (bottom of the image, small font, verbatim):
+民法93条 94条 95条 96条 119条 121条 126条 177条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 保, 取, 消, 無, 効, 追, 認, 対, 抗, 過, 失, 重, 善, 意, 第, 三, 者, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image. Confirm the panel count equals 3 exactly, badge numbers run 1-3 continuously, that every panel is a scene illustration, and that no flowchart, diamond or connecting arrow between boxes appears anywhere. Confirm there is no intro illustration or paragraph
+block between the header and the panels, that no ✓ or ✕ mark appears
+anywhere, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the footnote text (no
+summary recap panel, no trophy or medal icon, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
+
+### 図解プロンプト（誤解を正しい理解に変える図1枚）
+
+この図は、フローチャートではなく、「思い込み」と「正しくは」を左右に並べる構成です。上の図とは別で、機械点検の対象ではありません。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3100 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic, built as a set of 4 panels (a "corrections that turn four easy misunderstandings about defective declarations of intent into correct understanding" study reference). Each panel is one scene illustration, not a
+flowchart.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Each panel shows concrete everyday scenes drawn as isometric illustrations,
+with only the short captions written below, verbatim. Do not draw any recurring guide characters, mascots or portrait characters
+(no bird character, no woman exam candidate) in any panel; show only the scenes and captions. Reproduce every caption exactly as written. Do not draw ✓ or ✕
+marks anywhere in this image. Do not include case or precedent numbers.
+Keep the text inside each panel to the captions and labels given below;
+make each caption fully visible and not covered by any shape.
+Each panel is divided into a left half and a right half. The left half is drawn in a muted gray tone and carries a caption beginning with the word 思い込み. The right half is drawn in a fresh green tone and carries a caption beginning with the word 正しくは. Do not draw any arrow between the two halves.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+意思表示の瑕疵の思い込みを
+正しい理解に直す
+
+Subtitle (smaller, centered, 1行):
+苦手分析シリーズ⑦ 意思表示の瑕疵 誤解を正す
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+重過失なら取り消せないという思い込み
+Scene: left half (gray): a seller A at a desk next to a closed door, a magnifying glass dropped on the floor. Caption (verbatim): 思い込み　重過失があれば取り消せない . Right half (green): the same seller A, and next to him the buyer B who also looks at a wrong map in the same confused way, a door standing open. Caption (verbatim): 正しくは　相手方が知っていた、または同じ錯誤なら取り消せる
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+相手方まで見る
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+取り消せば第三者にも主張できるという思い込み
+Scene: left half (gray): a seller A raising a notice of cancellation toward a buyer C who is holding a house key. Caption (verbatim): 思い込み　取り消せれば第三者にも主張できる . Right half (green): a shield held by buyer C blocking the notice. Caption (verbatim): 正しくは　詐欺なら善意無過失の第三者には対抗できない
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+別々の問い
+
+--- PANEL 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+取消しの前も後も同じという思い込み
+Scene: left half (gray): one timeline with a single buyer C standing in the middle, and no flag. Caption (verbatim): 思い込み　取消しの前も後も同じ扱い . Right half (green): a timeline with a flag marked 取消し; before the flag a row of three shields of different sizes, after the flag a land registry book with a registration receipt. Caption (verbatim): 正しくは　後は登記の先後、前は制度ごとに3段階
+Conclusion tag (a short orange banner, 5-15 Japanese characters):
+前か後かで決まる
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+無効も追認すれば有効になるという思い込み
+Scene: left half (gray): a person trying to re-ink a faded contract paper, as if turning it valid again. Caption (verbatim): 思い込み　無効も追認すれば有効になる . Right half (green): a faded contract paper that stays faded even with a stamp beside it, and an hourglass beside a second, cancellable contract paper. Caption (verbatim): 正しくは　無効は追認してもさかのぼって有効にならない
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+無効と取消しは別
+
+--- FOOTER ---
+Small footnote text (bottom of the image, small font, verbatim):
+民法93条 94条 95条 96条 119条 121条 177条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 錯, 誤, 詐, 欺, 取, 消, 無, 効, 追, 認, 対, 抗, 過, 失, 重, 善, 意, 第, 三, 者, 登, 記, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image. Confirm the panel count equals 4 exactly, badge numbers run 1-4 continuously, that every panel is a scene illustration, and that no flowchart, diamond or connecting arrow between boxes appears anywhere. Confirm there is no intro illustration or paragraph
+block between the header and the panels, that no ✓ or ✕ mark appears
+anywhere, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the footnote text (no
+summary recap panel, no trophy or medal icon, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---

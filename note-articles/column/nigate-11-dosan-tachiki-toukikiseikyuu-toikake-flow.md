@@ -133,6 +133,7 @@
 - 令和7年度 第2問 エ（建物の指図による占有移転）は、動産の対抗要件の肢ではなく、占有権の取得を問う肢ですが、型1の引渡しの見分け方を確認する例として載せました。
 - 範囲：取消し前の第三者は⑦、取得時効と登記は⑧、177条の第三者・背信的悪意者・相続と登記は⑩で扱っています。
 - 図解プロンプト3枚は、フローチャートをノードと矢印の1つずつまで機械的に点検してから作成しました（全ダイヤの出口がそろい、経路数が一致）。画像生成AIでの生成・目視確認はまだ行っていません。
+- 会話式解説の項の、型1〜型4のイメージ図と、誤解を正しい理解に変える図は、フローチャートではなく場面の絵です。機械点検の対象外で、画像生成AIでの生成・目視確認はまだ行っていません。
 
 ---
 
@@ -143,6 +144,84 @@
 - 指図による占有移転は、承諾するのが第三者なんです
 - 立木は、登記か明認方法の先後で決まるんです
 - 登記請求権の代位は、無資力でもできるんです
+
+---
+
+## 会話式の見出し画像プロンプト（キャラクターあり）
+
+noteの見出し画像（アイキャッチ）用です。会話式の解説の記事に添える画像で、図解の画像とは違い、トリ先生と藍子を描きます。キャラクターは、別に渡すキャラクターシートに合わせます。サイズは1280x670pxです。
+
+```
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky
+(light blue, cream, fresh green), gentle clouds, clean outlines, consistent with
+the supplied reference header image. Keep exactly the same overall layout:
+the title block at the top center, the two characters at the bottom center,
+and topic scenes fading softly into the left and right edges.
+
+CHARACTERS (critical): follow the supplied character sheet exactly and do not
+redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue
+shirt, red neckerchief) standing at the lower left of center with one wing
+raised as if explaining. 藍子 is the young woman exam candidate (long wavy
+brown hair, blouse with thin blue vertical stripes) at the lower right of
+center, resting her chin on one hand with a pen, looking up at トリ先生
+with a curious smile, an open textbook on the desk in front of her. Keep
+both characters facing each other and fully visible, with their faces
+clear of the title text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese
+title in two lines at the top center, over a soft white cloud-shaped glow
+so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke
+behind it:
+動産・立木・代位のイメージを
+Line 2 is larger; the phrase 4つの場面 is red-orange and the rest is dark navy:
+4つの場面でつかむ
+Below the title, a light blue rounded pill-shaped subtitle band with navy
+text:
+苦手分析シリーズ⑪ 動産・立木・代位 型1〜型4
+Do not write any other text anywhere in the image: no captions, no labels,
+no signs with letters, no watermark, no panel numbers.
+
+BACKGROUND SCENES (illustration only, no text on any object; keep them soft
+and slightly faded so they never compete with the title or the characters):
+Left side: a bicycle handed from one hand to another, and a small forest of trees with wooden name tags
+Right side: a house deed passing along a line of three people, and a thick registry book
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep
+the characters and the title away from the extreme edges so the image
+survives center cropping. Do not draw any flowchart, diamond, arrow between
+boxes, or ✓ or ✕ mark.
+
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 分, 分, 代, 位, 動, 産, 立, 木, which have visually similar but structurally different Simplified or Traditional Chinese counterparts. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji, and remove it. Confirm the title and subtitle are reproduced exactly as written, that the image is 1280x670 landscape, that the characters match the supplied character sheet, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
 
 ---
 
@@ -590,6 +669,460 @@ of any kind), and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
 
+---
+
+## 会話でつかむ動産・立木・登記請求権の代位：型1〜型4を具体的な場面で
+
+フローチャートだとピンとこない人向けに、場面を頭に思い浮かべて、型1〜型4を見分ける練習をします。舞台は、動産や不動産を売り買いするAさん、Bさん、Cさんと、杉の山を持つDさんです。場面ごとに、3人の役割は入れ替わります。ここからは、トリ先生と藍子の会話です。
+
+---
+
+【登場人物】
+
+**トリ先生**：見た目はぽっちゃりした鳥のキャラクター。調査士試験の要点と受験生の弱点を熟知している。口調は辛辣だが、初学者への愛は深い。
+
+**藍子（アイコ）**：ブルーの細い縦じまが入ったブラウスにネイビーのスーツをパリッと着こなす受験生。まじめで素直だが、問題作成者の仕掛けたワナに見事に引っかかる猪突猛進な面も。
+
+---
+
+### 型1：引渡しの4つの方法は、「誰が物を持っているか」で見分ける
+
+**藍子**  
+「トリ先生、動産の引渡しって、結局、物を手渡すことですよね。指図による占有移転は、占有代理人が『わかりました』と承諾すれば成立すると覚えました。これで合ってますか？」
+
+**トリ先生**  
+「出たわね、承諾する人を取り違える病！ 手渡しだけが引渡しなら、条文は4つも要らないでしょ。引渡しは4通りあって、見分けるコツは1つ。『今、その物を誰が持っているか』よ。
+
+そして、あんたの『占有代理人が承諾する』は、間違い。承諾するのは、新しく占有権を手に入れる第三者のほう。ここは本当によく引っかけられるから、赤ペンで囲っておきなさい（184条）」
+
+**藍子**  
+「では、具体的な場面で教えてください」
+
+**トリ先生**  
+「Aさんが時計をBさんに売ったとする。まず、Bさんがすでにその時計を借りて持っていた。この場合は、手渡す必要がないでしょ。当事者の意思表示だけで足りる。これが簡易の引渡し（182条2項）。
+
+次、Aさんが時計を手元に置いたまま、『これからはBさんのために預かっておく』と約束した。持ち主は変わったのに、時計は動かない。これが占有改定（183条）。
+
+そして、時計がGさんの時計店に預けてあった場合。Aさんが店のGさんに、『今後はBさんのために持っていなさい』と命じ、Bさんがそれを承諾する。これが指図による占有移転（184条）。どれにも当たらず、ふつうに手渡したなら、現実の引渡し（182条1項）よ」
+
+**藍子**  
+「見分ける順番は、ありますか？」
+
+**トリ先生**  
+「あるわよ。1つ目、買う人がすでに物を持っているか。持っているなら簡易の引渡し。2つ目、売る人が物を持ち続けるか。持ち続けるなら占有改定。3つ目、物を預かっている人に、第三者のために持つよう命じたか。命じたなら指図による占有移転。どれでもなければ、現実の引渡し。この順に、場面を頭に描いて確かめなさい」
+
+**藍子**  
+「令和7年度の問題は、建物の話でした。それでも指図による占有移転は使えるんでしょうか？ 動産だけの話かと思っていました」
+
+**トリ先生**  
+「動産だけだと思い込んでたわね。指図による占有移転は、占有権の取得の方法だから、動産にも不動産にも使える。178条が『動産の対抗要件は引渡し』と動産だけに言っているのとは、別の話なの。
+
+問題文を読むときは、『占有権の取得』を聞かれているのか、『動産の対抗要件』を聞かれているのか、そこで線を引きなさい」
+
+**藍子**  
+「平成25年度の問題は、指図による占有移転で、『占有代理人が承諾する』と書いた肢でした。問題文では、誰が誰に何を命じたかが、ごちゃごちゃしていました」
+
+**トリ先生**  
+「ごちゃごちゃに見えるのは、人物を頭の中で並べてないからよ。登場人物は3人。物を売るAさん、物を買うBさん、物を預かっているGさん。Aさんは、Gさんに『これからはBさんのために持て』と命じる。ここでBさんがうなずく。命じる人はAさん、うなずく人はBさん、預かっているGさんは、命じられる側。
+
+その肢は、うなずく人をGさんに入れ替えていた。人物に名前を付けて、役割を3つに分けて書き出せば、入れ替えには、まず引っかからないわ」
+
+> 【画像挿入】型1〜型4のイメージ図の、パネル1（引渡しの4つの方法）。画像のプロンプトは、この下の「図解プロンプト（型1〜型4のイメージ図1枚）」にあります。
+
+---
+
+### 型2：二重譲渡では、「占有改定を受けただけの人」は即時取得できない
+
+**藍子**  
+「同じ骨董品が、AさんとCさんに二重に売られた場面ですよね。占有改定は、物が動いていないので、引渡しに入らない気がします。そうすると、先に占有改定を受けたAさんは、まだ何も備えていないことになりませんか？」
+
+**トリ先生**  
+「物が動いていないから『引渡しじゃない』って、見た目で決めたわね。残念。占有改定も、178条の『引渡し』に含まれるの。だから、先に占有改定を受けたAさんは、先に対抗要件を備えたことになる」
+
+**藍子**  
+「では、後から買ったCさんは、事情を知らなければ、即時取得で守られるんですよね？」
+
+**トリ先生**  
+「ここが今日の山場よ。即時取得（192条）には、平穏、公然、善意、無過失で、占有を始めることが要る。そして判例は、占有改定による占有の取得は、この『占有を始めた』にあたらないとしているの。
+
+理由は、外から見て、物の状況が何も変わらないから。骨董品は、ずっと売主の棚に載ったまま。そこで『私が取得しました』と言っても、世の中に何の変化も出ていないでしょ」
+
+**藍子**  
+「同じ占有改定なのに、引渡しには含まれて、即時取得には足りないんですね。混乱します」
+
+**トリ先生**  
+「混乱するのは、2つの条文を1つの話にしてるからよ。178条は、先に権利を備えたのは誰かという話。192条は、無権利者から取引した人を守る話。守る話のほうが、要件は厳しいの。
+
+場面で確かめましょう。Aさんが骨董品をBさんから買って、『預かっておいて』と頼んだ。これが占有改定。その後、Bさんが同じ骨董品を事情を知らないCさんにも売り、Cさんの頼みで、そのまま預かり続けた。Cさんも占有改定を受けただけだから、即時取得は成立しない。先に対抗要件を備えたAさんが、Cさんに所有権を主張できる」
+
+**藍子**  
+「確認する順番は、どうなりますか？」
+
+**トリ先生**  
+「1つ目、Cさんは占有改定で占有を得たか。そうなら、Cさんは即時取得できず、先のAさんの勝ち。2つ目、占有改定でないなら、Cさんは善意で、かつ過失がなかったか。そうならCさんが取得し、そうでなければAさんの勝ち。最初に『占有改定かどうか』を見る。これだけで、半分は片付くわ」
+
+**藍子**  
+「では、Cさんが占有改定ではなくて、現実の引渡しを受けていたらどうなりますか？ 骨董品をちゃんと手渡してもらって、自分の家に持ち帰った場合です」
+
+**トリ先生**  
+「いい質問。その場合は、Cさんは占有を始めたと言える。そこで初めて、善意かどうか、過失がなかったかを見るの。Cさんが、Aさんが先に買ったことを知らず、知らないことに落ち度もなければ、Cさんが即時取得する。Aさんは、先に占有改定を受けていても、負けることになる。
+
+だから、骨董品を買ったら、売主に預けっぱなしにしないで、自分の手元に持ち帰る。それが身を守るやり方よ。占有改定は、対抗要件の勝負ならいいけれど、即時取得の守りには役に立たない、と覚えなさい」
+
+> 【画像挿入】型1〜型4のイメージ図の、パネル2（二重譲渡と占有改定）。
+
+---
+
+### 型3：立木は、「名札」か「登記」を、どちらが先に備えたかで決まる
+
+**藍子**  
+「立木って、土地に生えている木ですよね。木は土地の一部だから、土地を買った人のものになると思っていました。Bさんが木だけを買っていても、土地を買ったCさんが勝ちますか？」
+
+**トリ先生**  
+「原則は、あんたの言うとおり、木は土地の一部。でも、木だけを土地と別に売ることもできるの。そのとき、木だけを買ったBさんが、第三者に対して自分の木だと言うには、対抗要件が要る。それが、立木の登記か、明認方法」
+
+**藍子**  
+「明認方法って、何ですか？」
+
+**トリ先生**  
+「第三者が一目で、誰の木か分かる方法のこと。木に名札を付ける、幹を削って持ち主の名前を書く、そんなものよ。登記簿は見に行かないと分からないけれど、名札なら、通りかかった人でも目に入るでしょ。
+
+具体的に行くわよ。Dさんの山の杉を、Bさんが木だけ買った。Bさんは、その場で杉に名札を立てた。後日、Cさんが、杉ごと山を買って、土地の登記を備えた。さて、杉は誰のもの？」
+
+**藍子**  
+「Cさんは、名札が立った後に買ったんですよね。登記を備えたのも、後です。あれ、先に備えたのは、Bさんの名札ですか？」
+
+**トリ先生**  
+「そう。Cさんが土地の登記を備える前に、Bさんが明認方法を備えていた。だからBさんが、杉の所有権を主張できる。順番が逆、つまり、Cさんが先に登記して、Bさんが名札を立てたのが後なら、Bさんは負ける。見るのは、登記と名札の先後だけ」
+
+**藍子**  
+「平成30年度の問題は、『対抗要件を備えていなくても主張できる』という肢でした。これは、間違いですよね」
+
+**トリ先生**  
+「その通り。杉の苗を植えた人が、名札を立てないまま、別の人が土地を木ごと買って先に登記したら、あとから『自分が植えた』と言っても、立木の所有権は主張できない。植えた事実は、対抗要件の代わりにはならないの。
+
+名札が、土地の登記と、立木の先後の勝負に出る切符よ。名札のない人は、土俵に上がれないと思いなさい」
+
+**藍子**  
+「名札の話ですが、Bさんが名札を立てたのが、Cさんが登記した後だったら、どうなりますか？ Bさんが木だけ買った日付は、Cさんより前だったとします」
+
+**トリ先生**  
+「日付は関係ないの。木を買った日が早くても、対抗要件を備えたのが遅ければ、遅れたほうが負け。Cさんが先に土地の登記を備えて、あとからBさんが名札を立てても、もうBさんは間に合わない。
+
+契約の日ではなく、『世間に向かって分かるようにした日』の勝負。登記は、土地の登記。名札は、木の上の目印。早い者勝ちと言っても、先に買った者勝ちではなくて、先に分かるようにした者勝ちよ」
+
+> 【画像挿入】型1〜型4のイメージ図の、パネル3（立木と名札）。
+
+---
+
+### 型4：登記請求権の代位は、「誰の請求権を、誰が代わりに行使するか」で見る
+
+**藍子**  
+「債権者代位権は、債務者が無資力でないと使えないんですよね。AからB、BからCへ土地が売られて、登記がAのままのとき、Cさんが代わりに登記を請求するなら、Bさんが無資力かどうかも調べなきゃいけないと思います」
+
+**トリ先生**  
+「原則は、あんたの言うとおり。債権者代位権は、債務者の財産が足りないとき、自分の債権を守るために使うもの。でも、今回は特別扱い。登記請求権を守るための代位（423条の7）は、無資力かどうかを問わない」
+
+**藍子**  
+「どうして、無資力の要件が要らないんですか？」
+
+**トリ先生**  
+「Cさんが守りたいのは、お金の回収じゃなくて、『土地の登記を自分に移してもらう権利』でしょ。Bさんがお金持ちかどうかは、関係ないの。BさんがAさんに登記を請求しないで放っておく限り、Cさんは、Bさんに代わって、Aさんに『Bさんへ移転登記をしなさい』と請求できる。
+
+場面で確かめるわよ。Aさんが土地をBさんに売った。Bさんは、Cさんに転売した。登記は、まだAさんのまま。Cさんは、Bさんが大金持ちでも、Bさんに代わってAさんに登記を請求できる」
+
+**藍子**  
+「では、AさんからCさんへ、直接登記する合意があったらどうなりますか？ 中間省略登記を合意したら、Bさんの請求権はなくなるのでは？」
+
+**トリ先生**  
+「合意しただけで、権利が消えるわけないでしょ。A、B、Cの三人で『Aから直接Cへ登記しましょう』と決めても、それは登記の手順を決めただけ。BさんのAさんに対する登記請求権は、そのまま残る。だから、Bさんにお金を貸しているEさんは、Bさんに代わって、Aさんに請求できる。平成24年度 第3問の2つの肢は、この線引きで解けるわ」
+
+**藍子**  
+「確認する順番は、まず、請求する人が不動産を譲り受けた人かどうか、ですね」
+
+**トリ先生**  
+「その通り。譲り受けた人なら、無資力でなくても代位できる。そうでなければ、Bさんの債権者として、無資力など、通常の債権者代位権の要件を満たすかを見る。満たすならできる、満たさないならできない。この順番を、頭に叩き込みなさい」
+
+**藍子**  
+「Bさんにお金を貸しているEさんが、Bさんに代わってAさんに登記を請求するときは、どうなるんですか？ さっきは、無資力でなくてもできると言っていましたが」
+
+**トリ先生**  
+「落ち着きなさい。さっきの話は、不動産を譲り受けた人が、自分の登記請求権を守るための代位。Eさんは、土地を買ったわけじゃなく、お金を貸しているだけの人でしょ。
+
+Eさんが『Bさんの債権者』として代位するなら、通常の債権者代位権の要件、つまり、Bさんが無資力かどうかなどを見ることになる。誰が請求する人かで、使える手が変わるの。まず請求する人を見る。これが、さっきの順番の1つ目よ」
+
+> 【画像挿入】型1〜型4のイメージ図の、パネル4（登記請求権の代位）。
+
+---
+
+### 誤解を正しい理解に変える
+
+**藍子**  
+「今のお話で、私が思い込んでいたことが何なのか、整理したいです」
+
+**トリ先生**  
+「いい心がけよ。あんたの頭の中の思い込みを、1つずつ直しなさい。
+
+1つ目。指図による占有移転は、占有代理人が承諾する、は間違い。承諾するのは、新しく占有権を取得する第三者。
+
+2つ目。占有改定は、物が動かないから、何の役にも立たない、も間違い。占有改定は、178条の引渡しに含まれて、対抗要件にはなる。ただし、占有改定を受けただけでは、即時取得はできない。」
+
+**藍子**  
+「あと2つ、あるんですよね。続けてお願いします」
+
+**トリ先生**  
+「ええ、まだ半分よ。
+
+3つ目。立木は、土地と一緒に動くから、木だけ買っても主張できない、も違う。登記か明認方法を、土地の登記よりも先に備えていれば、主張できる。
+
+最後。代位は、無資力でないとできない、これも間違い。登記請求権を守るための代位は、無資力でなくてもできる。中間省略登記の合意があっても、妨げられない」
+
+> 【画像挿入】誤解を正しい理解に変える図（4つの思い込みと、その訂正）。画像のプロンプトは、この下の「図解プロンプト（誤解を正しい理解に変える図1枚）」にあります。
+
+---
+
+### 型1〜型4のまとめ
+
+**藍子**  
+「自分の言葉でまとめます。型1は、引渡しは4つで、買う人がすでに持っていれば簡易の引渡し、売る人が持ち続けるなら占有改定、預かっている人に第三者のために持つよう命じるなら指図による占有移転です。承諾するのは、第三者です。
+
+型2は、占有改定も178条の引渡しに含まれますが、占有改定で占有を得た人は、即時取得できません。最初に、占有改定かどうかを見ます。
+
+型3は、立木は、登記と明認方法の先後で決まります。対抗要件がなければ主張できません。型4は、登記請求権を守るための代位は、請求する人が不動産の譲受人なら、無資力でなくてもできます。中間省略登記の合意があっても、代位は妨げられません」
+
+**トリ先生**  
+「合格点よ。ほめてるの、ちゃんと。迷ったら、まず『動産か、不動産か、立木か』と、『誰が何を持っているか』を絵に描きなさい。次の過去問で、ちゃんと絵を描きなさいよ」
+
+---
+
+### 図解プロンプト（型1〜型4のイメージ図1枚）
+
+この図は、フローチャートではなく、場面のイメージを4つ並べる構成です。上のフローチャート3枚とは別で、機械点検の対象ではありません。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic, built as a set of 4 panels (a "scene illustrations that make the four question types of movables, standing trees and subrogation of a registration claim easy to picture" study reference). Each panel is one scene illustration, not a
+flowchart.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Each panel shows concrete everyday scenes drawn as isometric illustrations,
+with only the short captions written below, verbatim. Do not draw any recurring guide characters, mascots or portrait characters
+(no bird character, no woman exam candidate) in any panel; show only the scenes and captions. Reproduce every caption exactly as written. Do not draw ✓ or ✕
+marks anywhere in this image. Do not include case or precedent numbers.
+Keep the text inside each panel to the captions and labels given below;
+make each caption fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+動産・立木・登記請求権の代位を
+4つの場面でつかむ
+
+Subtitle (smaller, centered, 1行):
+苦手分析シリーズ⑪ 動産・立木・登記請求権の代位 型1〜型4
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+型1　引渡しの4つの方法
+Scene: a 2 x 2 grid of four small isometric scenes inside one panel. Each scene has one short caption under it, verbatim.
+  Scene 1: a buyer who already holds a watch in his hand while the seller shakes hands with him. Caption: 買う人がすでに持っていれば簡易の引渡し
+  Scene 2: a seller keeping an antique vase on his own shelf while a buyer stands nearby holding a receipt. Caption: 売る人が持ち続けるなら占有改定
+  Scene 3: a seller pointing at a watch shop clerk who holds the watch, and the buyer nodding in agreement. Caption: 第三者のために持つよう命じて買う人が承諾すれば指図による占有移転
+  Scene 4: a seller handing a watch straight into the buyer's hands. Caption: 手渡しなら現実の引渡し
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+承諾するのは新しく取得する人
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+型2　二重譲渡と即時取得
+Scene: a 3-scene row. Scene 1: the same antique vase on a shelf with two receipts on one side, one dated earlier and one later, with no date text. Caption (verbatim): 同じ物が二重に譲渡された . Scene 2: a later buyer receiving the vase only by a spoken promise while the vase stays on the seller's shelf. Caption (verbatim): 占有改定を受けただけでは即時取得できない . Scene 3: a later buyer carrying the vase home in his own arms. Caption (verbatim): 手元に受け取って善意無過失なら即時取得できる
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+最初に占有改定かを見る
+
+--- PANEL 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+型3　立木と名札
+Scene: a 3-scene row. Scene 1: a cedar tree on a hillside with a name plate nailed to its trunk. Caption (verbatim): 名札が明認方法 . Scene 2: the name plate on the trunk and, next to it, a land registry book that is still closed. Caption (verbatim): 先に備えたほうが勝つ . Scene 3: a land registry book opened first, and a name plate lying on the ground behind it. Caption (verbatim): 土地の登記が先なら名札は間に合わない
+Conclusion tag (a short orange banner, 5-15 Japanese characters):
+登記と名札の先後
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+型4　登記請求権の代位
+Scene: a 3-scene row. Scene 1: three houses in a line labeled with three people, a registry book still showing the first owner. Caption (verbatim): 登記が最初の人のままになっている . Scene 2: the last buyer stepping forward in place of the middle owner, to ask the first owner to move the registration. Caption (verbatim): 譲り受けた人が代わりに請求できる . Scene 3: the middle owner standing calmly with a full wallet. Caption (verbatim): 無資力でなくてもできる
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+譲受人は無資力不要
+
+--- FOOTER ---
+Small footnote text (bottom of the image, small font, verbatim):
+民法178条 182条 183条 184条 192条 423条の7
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 立, 木, 引, 渡, 簡, 易, 占, 有, 改, 定, 指, 図, 即, 時, 取, 得, 明, 認, 方, 法, 登, 記, 代, 位, 請, 求, 権, 無, 資, 力, 譲, 受, 承, 諾, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image. Confirm the panel count equals 4 exactly, badge numbers run 1-4 continuously, that every panel is a scene illustration, and that no flowchart, diamond or connecting arrow between boxes appears anywhere. Confirm there is no intro illustration or paragraph
+block between the header and the panels, that no ✓ or ✕ mark appears
+anywhere, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the footnote text (no
+summary recap panel, no trophy or medal icon, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
+
+### 図解プロンプト（誤解を正しい理解に変える図1枚）
+
+この図は、フローチャートではなく、「思い込み」と「正しくは」を左右に並べる構成です。上の図とは別で、機械点検の対象ではありません。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x3400 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with a
+modern explainer-graphic aesthetic, built as a set of 4 panels (a "corrections that turn four easy misunderstandings about movables, standing trees and subrogation into correct understanding" study reference). Each panel is one scene illustration, not a
+flowchart.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Each panel shows concrete everyday scenes drawn as isometric illustrations,
+with only the short captions written below, verbatim. Do not draw any recurring guide characters, mascots or portrait characters
+(no bird character, no woman exam candidate) in any panel; show only the scenes and captions. Reproduce every caption exactly as written. Do not draw ✓ or ✕
+marks anywhere in this image. Do not include case or precedent numbers.
+Keep the text inside each panel to the captions and labels given below;
+make each caption fully visible and not covered by any shape.
+Each panel is divided into a left half and a right half. The left half is drawn in a muted gray tone and carries a caption beginning with the word 思い込み. The right half is drawn in a fresh green tone and carries a caption beginning with the word 正しくは. Do not draw any arrow between the two halves.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+動産・立木・代位の思い込みを
+正しい理解に直す
+
+Subtitle (smaller, centered, 1行):
+苦手分析シリーズ⑪ 動産・立木・登記請求権の代位 誤解を正す
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in blue containing the number 1.
+Heading (bold, ONE line):
+指図による占有移転の承諾
+Scene: left half (gray): a watch shop clerk holding a watch and nodding. Caption (verbatim): 思い込み　預かっている人が承諾する . Right half (green): a buyer nodding while the seller points at the clerk who holds the watch. Caption (verbatim): 正しくは　承諾するのは新しく取得する人
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+承諾するのは譲受人
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+占有改定の働き
+Scene: left half (gray): a vase staying on a shelf with a blank certificate beside it. Caption (verbatim): 思い込み　物が動かないから役に立たない . Right half (green): the same vase on the shelf with a receipt in the buyer's hand, and a second buyer standing outside the shop. Caption (verbatim): 正しくは　引渡しには含まれるが即時取得はできない
+Conclusion tag (a short green banner, 5-15 Japanese characters):
+引渡しにはなる
+
+--- PANEL 3 ---
+Badge: a filled circle in orange containing the number 3.
+Heading (bold, ONE line):
+立木の主張
+Scene: left half (gray): a cedar tree with a land registry book alone beside it. Caption (verbatim): 思い込み　木だけ買っても主張できない . Right half (green): the same tree with a name plate nailed to the trunk and a registry book beside it. Caption (verbatim): 正しくは　登記か明認方法を先に備えれば主張できる
+Conclusion tag (a short orange banner, 5-15 Japanese characters):
+名札も対抗要件
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+代位の資力
+Scene: left half (gray): a middle owner with an empty wallet standing in front of a house. Caption (verbatim): 思い込み　無資力でないと代位できない . Right half (green): the same house, the last buyer asking the first owner to move the registration, and the middle owner with a full wallet. Caption (verbatim): 正しくは　登記請求権の保全なら無資力でなくてもできる
+Conclusion tag (a short blue banner, 5-15 Japanese characters):
+無資力は要らない
+
+--- FOOTER ---
+Small footnote text (bottom of the image, small font, verbatim):
+民法178条 183条 184条 192条 423条の7
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 動, 立, 木, 引, 渡, 占, 有, 改, 定, 指, 図, 即, 時, 取, 得, 明, 認, 方, 法, 登, 記, 代, 位, 請, 求, 権, 無, 資, 力, 譲, 受, 承, 諾, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image. Confirm the panel count equals 4 exactly, badge numbers run 1-4 continuously, that every panel is a scene illustration, and that no flowchart, diamond or connecting arrow between boxes appears anywhere. Confirm there is no intro illustration or paragraph
+block between the header and the panels, that no ✓ or ✕ mark appears
+anywhere, that each 着眼点 callout states a checking order rather than only
+a conclusion, confirm nothing is rendered below the footnote text (no
+summary recap panel, no trophy or medal icon, and no additional text block
+of any kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
+```
 
 ---
 
