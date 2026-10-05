@@ -8,7 +8,7 @@
 
 ### 制度A：登記官の処分に対する審査請求（不動産登記法156条〜158条）
 
-登記官の処分に不服がある者は、監督法務局長等に対して審査請求をすることができます。監督法務局長等は、審査請求を理由があると認めても自ら処分をするのではなく、登記官に相当の処分を命じるにとどまります（157条3項）。申請を却下すべきものと認めるときも同様に、登記官に却下する処分を命じます（157条5項）。
+登記官の処分に不服がある者は、監督法務局長等に対して審査請求をすることができます。監督法務局長等は、審査請求を理由があると認めても自ら処分をするのではなく、登記官に相当の処分を命じるにとどまります（157条3項）。登記官の不作為（処分をしないこと）についての審査請求で、その申請を却下すべきものと認めるときは、登記官に却下する処分を命じます（157条5項）。
 
 裁決をしたときは、裁決書の謄本及び審理員意見書の写しを、審査請求人と登記官の双方に交付します（不動産登記事務取扱手続準則145条1項）。
 
@@ -28,7 +28,7 @@
 
 調査士が引き続き2年以上業務を行わないときの登録取消しは、義務ではなく裁量です（同法16条1項1号）。
 
-懲戒処分の内容は、調査士（個人）には戒告・2年以内の業務の停止・業務の禁止の3種類があります（同法42条）。調査士法人にはこれに加えて業務の全部又は一部の停止、解散という処分があります（同法43条1項）。「業務の一部停止」と「解散」は、法人だけに認められた処分です。
+懲戒処分の内容は、調査士（個人）には戒告・2年以内の業務の停止・業務の禁止の3種類があります（同法42条）。調査士法人には戒告・2年以内の業務の全部又は一部の停止・解散の3種類があります（同法43条1項）。個人にはない「業務の一部停止」と「解散」は、法人だけに認められた処分です。
 
 調査士法人の解散及び清算は、法務局長等ではなく裁判所の監督に属します（同法39条の3第1項）。裁判所は職権でいつでも検査でき、法務大臣に意見照会・調査嘱託もできます（同条2項・3項）。
 
@@ -46,7 +46,7 @@
 - 制度Cの内容は`note-articles/h30-mondai/q20-chousashi-touroku.md`、`note-articles/r3-mondai/q20-chousashihou.md`、`note-articles/h19-mondai/q20-chosashi-gimu.md`、`note-articles/topics/chousashi-houjin-gyoumu-seigen-05-choukai.md`、`note-articles/topics/chousashi-todokede-matrix.md`の内容に基づいています。
 
 - 会話式解説の項は、`note-articles/laws/fudousan-touki-hou.md`（123条・132条2項・140条・156条・157条・158条）、`fudousan-touki-jimu-junsoku.md`（145条1項）、`chousashi-hou.md`（12条2項・16条1項1号・39条の3・42条・43条1項）の原文で確かめました。調査士法人の懲戒は、原文では戒告・2年以内の業務の全部又は一部の停止・解散の3つです。
-- 行政不服審査法の原文は`note-articles/laws/`にないため、18条（審査請求期間）と53条（証拠書類等の返還）の内容は未確認です。会話式の項では、158条の適用除外の列挙に18条があり53条がないこと（原文で確認）と、本文の記述にとどめています。また、筆界特定の結果そのものに審査請求ができない点は、本文の記述に従っており、原文での個別の確認はしていません。
+- 行政不服審査法の原文は`note-articles/laws/`になく、e-Gov法令検索も今回の環境から取得できなかったため、13条（参加人）・18条（審査請求期間）・53条（証拠書類等の返還）の内容は原文では未確認です（見立てでは本文の記述どおり）。157条5項は、原文では「審査請求に係る不作為に係る処分についての申請を却下すべきもの」と認めるときの規定のため、本文・会話式を不作為の場合に直しました。調査士法人の懲戒は原文（43条1項）どおり、戒告・2年以内の業務の全部又は一部の停止・解散の3つに直しました。会話式の項では、158条の適用除外の列挙に18条があり53条がないこと（原文で確認）と、本文の記述にとどめています。また、筆界特定の結果そのものに審査請求ができない点は、本文の記述に従っており、原文での個別の確認はしていません。
 - 会話式の項の、意見聴取等の期日を現地で開ける点・同席させられる点・地位の承継があっても手続を続ける点は、`note-articles/h30-mondai/q19-hikkai-tokutei.md`など既存の年度別記事の整理（先例によるもの）に従っています。
 - 会話式解説の項の、イメージ図と、誤解を正しい理解に変える図は、フローチャートではなく場面の絵です。機械点検の対象外で、画像生成AIでの生成・目視確認はまだ行っていません。
 
@@ -349,7 +349,7 @@ anywhere.
 「監督法務局長等が、理由があると認めたら、自分で登記をやり直すんですか？」
 
 **トリ先生**  
-「そこが引っかけどころ。監督法務局長等は、自分では処分しないの。登記官に、相当の処分をしなさいと命じるだけ（157条3項）。申請を却下すべきだと認めたときも同じで、登記官に却下の処分をしなさいと命じる（157条5項）。
+「そこが引っかけどころ。監督法務局長等は、自分では処分しないの。登記官に、相当の処分をしなさいと命じるだけ（157条3項）。登記官が処分をしない（不作為）ことへの審査請求で、申請を却下すべきだと認めたときは、登記官に却下の処分をしなさいと命じる（157条5項）。
 
 審査庁が自分で登記するわけじゃない。命令を出して、手を動かすのは登記官。この役割分担を、絵で覚えなさい」
 
@@ -557,7 +557,7 @@ Heading (bold, ONE line):
 Scene: a 2 x 2 grid of four small isometric scenes inside one panel. Each scene has one short caption under it, verbatim.
   Scene 1: an applicant for the surveyor register waiting by a calendar with three months crossed off, then an appeal letter going to a ministry building. Caption: 3か月何もなければ法務大臣に審査請求
   Scene 2: a surveyor with an empty desk and a calendar showing two years, with a registration card that may be taken away or kept. Caption: 2年以上業務をしないと登録を取り消すことができる
-  Scene 3: two columns of stamp tags, the left column with three tags for an individual surveyor and the right column with three tags for a surveyor corporation, with one extra tag at the bottom of the right column. Caption: 業務の一部停止と解散は法人だけ
+  Scene 3: two columns of stamp tags, the left column with three tags for an individual surveyor (戒告, 業務の停止, 業務の禁止) and the right column with three tags for a surveyor corporation (戒告, 業務の全部又は一部の停止, 解散), with the 一部 and 解散 tags highlighted as corporation-only. Caption: 業務の一部停止と解散は法人だけ
   Scene 4: a courthouse building with a magnifying glass over a closing corporation. Caption: 法人の解散と清算は裁判所の監督
 Conclusion tag (a short orange banner, 5-15 Japanese characters):
 登録と懲戒は法務大臣
