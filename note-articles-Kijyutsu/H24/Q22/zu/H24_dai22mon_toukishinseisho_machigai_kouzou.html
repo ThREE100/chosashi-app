@@ -1,0 +1,61 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 60px 60px 40px; display: flex; flex-direction: column; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 40px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 24px; }
+.lab { width: 190px; font-size: 22px; padding-top: 10px; white-space: nowrap; line-height: 1.4; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.dateline { font-size: 22px; margin: 2px 0 22px 0; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 20px; }
+.plainrow .ryaku { flex: 1; padding: 10px 0 0 20px; }
+.sec { font-size: 24px; margin: 34px 0 0; }
+table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-top: 18px; }
+table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }
+table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.35em; padding: 0; font-size: 21px; }
+table.t td.lab2 { text-align: center; font-size: 18px; }
+table.t td.head { text-align: center; font-size: 17px; height: 76px; }
+table.t td.val { height: 52px; }
+table.t td.entry { height: 110px; }
+table.t td.center { text-align: center; }
+table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.t td.genin { font-size: 17px; }
+table.t td .ink { font-size: 19px; }
+table.t td.genin .ink { font-size: 18px; }
+.diag { height: 330px; background: linear-gradient(to top right, transparent calc(50% - 1px), #111 calc(50% - 1px),
+          #111 calc(50% + 1px), transparent calc(50% + 1px)); }
+.lined { border: 2px solid #111; margin-top: 18px; }
+.lined div { border-bottom: 1.2px dashed #777; min-height: 50px; padding: 8px 18px; font-size: 21px; line-height: 1.55; }
+.lined div:last-child { border-bottom: none; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 34px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.add { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold;
+        border-bottom: 3px solid #d0021b; }
+.caret { color: #d0021b; font-weight: bold; font-size: 26px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 160px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; }
+.note { margin-top: 12px; font-size: 19px; color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+
+.dstrike { position: relative; }
+.dstrike::before, .dstrike::after { content: ""; position: absolute; left: -3px; right: -3px; border-top: 2.5px solid #d0021b; }
+.dstrike::before { top: 42%; } .dstrike::after { top: 60%; }
+.redink { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+</style></head><body>
+<div class="panel"><div class="ptitle ng">①誤答</div><table class="t"><colgroup><col style="width:5%"><col style="width:11%"><col style="width:8%"><col style="width:10%"><col style="width:9%"><col style="width:15%"><col style="width:13%"><col style="width:6%"><col style="width:23%"></colgroup><tr><td class="vert" rowspan="4">区分した建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①<br>種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>m²</td><td class="head">原因及び<br>その日付</td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">木造２階建</span></td><td class="entry int"><span class="ink">1階　68</span><br><span class="ink">2階　57</span></td><td class="entry dec"><span class="ink">57</span><br><span class="ink">69</span></td><td class="entry genin"><span class="ink">平成24年７月30日新築</span></td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr></table></div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><table class="t"><colgroup><col style="width:5%"><col style="width:11%"><col style="width:8%"><col style="width:10%"><col style="width:9%"><col style="width:15%"><col style="width:13%"><col style="width:6%"><col style="width:23%"></colgroup><tr><td class="vert" rowspan="4">区分した建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①<br>種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>m²</td><td class="head">原因及び<br>その日付</td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">木造</span><span class="caret">∧</span><br><span class="add" style="white-space:nowrap">かわらぶき</span><br><span class="ink">２階建</span></td><td class="entry int"><span class="ink">1階　68</span><br><span class="ink">2階　57</span></td><td class="entry dec"><span class="ink">57</span><br><span class="ink">69</span></td><td class="entry genin"><span class="ink">平成24年７月30日新築</span></td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr></table><div class="bubrow"><span class="bubble">屋根の種類を書かなくてよいのは、建物を階層的に区分したとき（下の階と上の階で<br>持ち主が違う）だけ（不動産登記事務取扱手続準則第81条第３項）。<br>Ⓐは１階の床から屋根まで丸ごと乙川夏子のものの縦割り → 屋根の種類まで書く</span></div></div>
+<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div><div class="okwrap good" style="padding:14px 4px 2px"><table class="t"><colgroup><col style="width:5%"><col style="width:11%"><col style="width:8%"><col style="width:10%"><col style="width:9%"><col style="width:15%"><col style="width:13%"><col style="width:6%"><col style="width:23%"></colgroup><tr><td class="vert" rowspan="4">区分した建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①<br>種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床　面　積<br>m²</td><td class="head">原因及び<br>その日付</td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">木造かわら<br>ぶき２階建</span></td><td class="entry int"><span class="ink">1階　68</span><br><span class="ink">2階　57</span></td><td class="entry dec"><span class="ink">57</span><br><span class="ink">69</span></td><td class="entry genin"><span class="ink">平成24年７月30日新築</span></td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr><tr><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry"></td><td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="caption" style="margin:10px 0 30px">平成24年度 第22問｜縦割りの専有部分は構造に屋根の種類まで書く</div></body></html>
