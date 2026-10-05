@@ -1,4 +1,4 @@
-"""平成25年度 第21問（土地）会話形式note記事の解説図10枚を、座標値から作図する。
+"""平成25年度 第21問（土地）会話形式note記事の解説図20枚を、座標値から作図する。
 
 `../prompt_H25_dai21mon_kaiwa_kaisetsuzu.md`（基本フォーム `../../../prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作成）
 の指示を、そのままPythonにしたもの。図に書く数値はすべて座標から計算し直し、記事の数値と一致しなければ止まる。
@@ -104,6 +104,32 @@ def fixed_figure(title):
     ax.set_ylim(0, 100)
     ax.axis('off')
     return fig, ax
+
+
+def box(ax, x, y, w, h, head, lines, col, fs_head=19, fs=15.5, fc='#f7f7f7', step=4.2, head_gap=5.0):
+    """整理図の角丸の枠（左上に見出し、その下に本文の行）。座標は 0〜100 の固定配置。"""
+    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle='round,pad=0.5', fc=fc, ec=col, lw=2.2))
+    ax.text(x + 1.5, y + h - 2.6, head, fontsize=fs_head, weight='bold', va='center', color=col)
+    for i, (s, c) in enumerate(lines):
+        ax.text(x + 2.5, y + h - 2.6 - head_gap - i * step, s, fontsize=fs, va='center', color=c)
+
+
+def arrow(ax, x1, y1, x2, y2, col=BLACK, lw=2.2):
+    ax.annotate('', xy=(x2, y2), xytext=(x1, y1),
+                arrowprops=dict(arrowstyle='-|>', color=col, lw=lw, mutation_scale=22))
+
+
+def side_panel(ax, blocks):
+    """右側の説明パネル（図形の横に、計算と判断を上から並べる。固定配置）。blocks: [(見出し, [(行, 色)], 枠の色)]"""
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 100)
+    ax.axis('off')
+    y = 98
+    for head, lines, col in blocks:
+        h = 7.5 + 5.2 * len(lines)
+        y -= h
+        box(ax, 2, y, 96, h - 1.5, head, lines, col, fs_head=16, fs=14, step=5.2, head_gap=5.6)
+        y -= 2.0
 
 
 ALL_PROBLEMS = []
@@ -388,12 +414,194 @@ zs[1].callout(B + (F - B) * 0.5, 'ブロック塀', dirs=(-100, -80, -120), colo
 ALL_PROBLEMS += save(fig, zs, 'H25_dai21mon_zu07_ippitsu_ichimoku.png')
 
 # =====================================================================
-# 図8：問3 分筆後の区画と地番・地目・地積
+# 図8：問2 「わずかな差異」ではない（西側は区画された一部が別の地目）
 # =====================================================================
-fig, (ax,) = new_figure('図8　問3　分筆後の区画と地番（5番 → （イ）5番1 ＋ （ロ）5番2）',
-                        '（ロ）5番2（A・B・F・G）は座標法で113.9083 → 宅地なので小数第2位未満を切り捨てて113.90㎡。255−141.69730＝113.30 と引き算しない。\n'
-                        '（イ）5番1（B・C・D・E・F）は調査素図の注4の141.69730と一致 → 雑種地なので1㎡未満を切り捨てて141㎡。\n'
-                        '参考：全体の実測255.6056㎡と登記記録255㎡の差0.6056㎡、分筆後の合計254.90㎡との差0.10㎡（甲2の公差の約1.44㎡の範囲内）。')
+PCT_RO, PCT_I = area(RO) / area(LOT) * 100, area(I_) / area(LOT) * 100
+assert round(PCT_RO) == 45 and round(PCT_I) == 55
+fig, (ax, axr) = new_figure('図8　問2　「部分的にわずかな差異」ではない（一部が別の地目になった）',
+                            '不動産登記事務取扱手続準則第68条の「部分的にわずかな差異の存するときでも、土地全体としての状況を観察して定める」は、\n'
+                            '一つの用途の土地の中のわずかな違いの話。本件は西側の約45%をブロック塀で区画し、建物の敷地として使っている。\n'
+                            '一筆の土地の一部が別の地目になった場面なので、登記官が職権で分筆しなければならないほど（不動産登記法第39条第2項）。',
+                            ncols=2, width_ratios=[1.25, 1])
+z = Zu(ax)
+fit(ax, LOT, margin=0.14, pad_aspect=True)
+z.poly(RO, fill=ORANGE, alpha=0.25)
+z.poly(I_, fill=GREEN, alpha=0.25)
+z.line(B, F, color=RED, lw=5.0)
+z.north_arrow()
+z.free_text(centroid(RO), '西側\n建物の敷地\n113.9083㎡\n全体の約45%', fs=16)
+z.free_text(centroid(I_), '東側\n資材置場\n141.6973㎡\n約55%', fs=16)
+for p, n in ALL7:
+    z.point(p, 'dot', size=6)
+    z.point_label(p, n, away=cl)
+z.callout(B + (F - B) * 0.25, 'ブロック塀で区画', dirs=(15, 30, 0), color=RED, dists=(60, 80, 100))
+side_panel(axr, [
+    ('わずかな差異（全体として観察）', [('一つの用途の土地の中の、', BLACK), ('ごく一部の違い', BLACK), ('→ 一筆に一つの地目のまま', GRAY)], GRAY),
+    ('本件（一部が別の地目）', [('西側の約45%が建物の敷地（宅地）', BLACK), ('ブロック塀で区画して利用', BLACK),
+                            ('→ 分筆して一部の地目を変更', RED), ('（法第39条第2項の場面）', RED)], RED),
+])
+ALL_PROBLEMS += save(fig, [z], 'H25_dai21mon_zu08_wazuka_sai.png')
+
+# =====================================================================
+# 図9：問2 申請人は誰か（関係図。固定配置）
+# =====================================================================
+fig, ax = fixed_figure('図9　問2　申請人は所有権の登記名義人の海川二郎')
+box(ax, 26, 78, 48, 13, '本件土地　A市B町二丁目5番', [('雑種地　255㎡（甲区3番　所有権　海川二郎）', BLACK)], BLACK)
+box(ax, 2, 38, 30, 30, '海川二郎', [('A市B町三丁目4番5号', BLACK), ('所有権の登記名義人', BLACK), ('（土地の所有者）', BLACK),
+                                 ('→ 申請人になる', GREEN)], GREEN)
+box(ax, 35, 38, 30, 30, '山川一郎', [('平成8年10月から借りている', BLACK), ('建物（家屋番号5番）の所有者', BLACK),
+                                 ('今回の依頼者', BLACK), ('→ 申請人にならない', RED)], RED)
+box(ax, 68, 38, 30, 30, '甲信用金庫', [('乙区5番　抵当権者', BLACK), ('（共同担保 目録（や）第7061号）', BLACK), ('',BLACK),
+                                    ('→ 申請人にならない', RED)], RED)
+for x in (17, 50, 83):
+    arrow(ax, 50 + (x - 50) * 0.3, 77, x, 69.5, GRAY)
+box(ax, 2, 5, 96, 25, '根拠', [
+    ('不動産登記法第37条第1項：地目に変更があったときは、表題部所有者又は所有権の登記名義人が、', BLACK),
+    ('　　変更があった日から1月以内に、地目に関する変更の登記を申請しなければならない', BLACK),
+    ('不動産登記法第39条第1項：分筆の登記は、表題部所有者又は所有権の登記名義人以外の者は申請できない', BLACK),
+], BLUE, step=5.0)
+path = os.path.join(OUT, 'H25_dai21mon_zu09_shinseinin.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図9: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図10：問2 時系列と申請の期限（整理図。固定配置）
+# =====================================================================
+fig, ax = fixed_figure('図10　問2　時系列と申請の期限（地目が変わったのは6月21日）')
+import datetime as _dt  # noqa: E402
+D0 = _dt.date(2013, 1, 1)
+xd = lambda m, d: 22 + 72 * (_dt.date(2013, m, d) - D0).days / 243  # noqa: E731  平成25年1月1日〜9月1日を x＝22〜94 に
+assert (_dt.date(2013, 7, 21) - _dt.date(2013, 6, 21)).days == 30
+YL = 52
+ax.plot([5, 15], [YL, YL], color=GRAY, lw=3)
+ax.plot([15.6, 16.6], [YL - 2, YL + 2], color=GRAY, lw=2)
+ax.plot([16.6, 17.6], [YL - 2, YL + 2], color=GRAY, lw=2)
+ax.annotate('', xy=(97, YL), xytext=(18, YL), arrowprops=dict(arrowstyle='-|>', color=BLACK, lw=3, mutation_scale=24))
+ax.add_patch(plt.Rectangle((xd(6, 21), YL - 3), xd(7, 21) - xd(6, 21), 6, color=ORANGE, alpha=0.30, lw=0))
+ax.text((xd(6, 21) + xd(7, 21)) / 2, YL - 6.5, '1か月', fontsize=14, ha='center', va='center', color=ORANGE, weight='bold')
+EV = [  # (x, 上下, ラベル, 色, 行の高さ)
+    (8, -1, '平成8年10月\n山川一郎が借りる\n（資材置場）', GRAY, 24),
+    (xd(1, 15), 1, '平成25年1月\n建物を建てることにした\n（地目はまだ雑種地）', GRAY, 22),
+    (xd(6, 21), 1, '6月21日　建物の新築\n西側が建物の敷地（宅地）に\n＝ 地目が変わった日', RED, 34),
+    (xd(7, 21), -1, '7月21日\n1か月の期限\n（法第37条第1項）', ORANGE, 30),
+    (xd(8, 19), -1, '8月19日\n測量', BLUE, 18),
+    (xd(8, 23), 1, '8月23日　申請\n期限は過ぎても義務は残る\n（法第164条第1項）', GREEN, 20),
+]
+for x, s, lab, col, dy in EV:
+    ax.plot([x], [YL], 'o', ms=12, color=col, zorder=5)
+    ax.plot([x, x], [YL + s * 2, YL + s * (dy - 1)], color=col, lw=1.4)
+    ha = 'right' if x > 85 else ('left' if x < 12 else 'center')
+    ax.text(x, YL + s * dy, lab, fontsize=15, ha=ha, va='bottom' if s > 0 else 'top', color=col, linespacing=1.3)
+fig.text(0.5, 0.035, '地目の変更の日は、建物を建てることにした1月ではなく、建物ができて敷地になった6月21日（建物の登記記録の新築の日付）。\n'
+         '1か月の期限（7月21日）を過ぎても申請の義務はなくならない。正当な理由なく怠ると10万円以下の過料。',
+         ha='center', va='center', fontsize=16)
+path = os.path.join(OUT, 'H25_dai21mon_zu10_jikeiretsu_kigen.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図10: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図11：問3 （ロ）の面積（座標法・対角線。登記記録から引き算しない）
+# =====================================================================
+S_RO = sum(p * q.conjugate() for p, q in zip(RO, RO[1:] + RO[:1]))
+S_DG = (A - F).conjugate() * (B - G)
+assert f'{abs(S_RO.imag):.4f}' == '227.8166' and f'{S_DG.imag:.4f}' == '227.8166' and f'{S_DG.real:.4f}' == '88.6454'
+assert f'{255 - 141.69730:.4f}' == '113.3027' and f'{area(RO) - (255 - 141.69730):.4f}' == '0.6056'
+fig, (ax, axr) = new_figure('図11　問3　（ロ）5番2の面積は座標法で（登記記録から引き算しない）',
+                            '問3のただし書き「地積は測量成果である座標値を用いて座標法により求積する」。（ロ）はA・B・F・Gの座標法で113.9083㎡。\n'
+                            '255 − 141.69730 ＝ 113.3027 は、登記記録の255㎡と今回の実測255.6056㎡の差0.6056の分だけ小さくなる。\n'
+                            '四角形は、対角線AF・BGを使った Conjg(A − F) × (B − G) のiの係数でも同じ227.8166が出る（検算）。',
+                            ncols=2, width_ratios=[1.25, 1])
+z = Zu(ax)
+fit(ax, LOT, margin=0.14, pad_aspect=True)
+z.poly(I_, color=GRAY, lw=1.1, fill=GRAY, alpha=0.10)
+z.poly(RO, fill=ORANGE, alpha=0.28)
+z.line(A, F, color=BLUE, lw=1.6, ls='--')
+z.line(B, G, color=BLUE, lw=1.6, ls='--')
+z.north_arrow()
+z.free_text(centroid(RO), '（ロ）\n113.9083㎡', fs=17, offsets=((0, 70), (0, -70), (0, 85), (0, -85), (-60, 0)))
+z.free_text(centroid(I_), '（イ）\n141.69730㎡\n（調査素図の注4）', fs=14, color=GRAY)
+for p, txt, dirs in [(A, 'A（151.43, 162.08）', (80, 60, 100)), (B, 'B（151.63, 171.42）', (70, 90, 50)),
+                     (F, 'F（138.08, 170.37）', (-80, -60, -100)), (G, 'G（139.19, 162.08）', (-80, -60, -100))]:
+    z.point(p, 'dot', size=7)
+    z.callout(p, txt, dirs=dirs, color=BLACK, dists=(45, 65, 85))
+side_panel(axr, [
+    ('座標法（A→B→F→G）', [('表示：195067.3732 − 227.8166i', BLACK), ('227.8166 ÷ 2 ＝ 113.9083', BLACK),
+                         ('宅地 → 113.90㎡', ORANGE)], ORANGE),
+    ('対角線で検算', [('Conjg(A − F) × (B − G)', BLACK), ('表示：88.6454 ＋ 227.8166i', BLACK), ('iの係数が同じ227.8166', BLUE)], BLUE),
+    ('誤り：登記記録から引き算', [('255 − 141.69730 ＝ 113.3027', GRAY), ('→ 113.30（0.6056小さい）', RED)], RED),
+])
+ALL_PROBLEMS += save(fig, [z], 'H25_dai21mon_zu11_ro_menseki.png')
+
+# =====================================================================
+# 図12：問3 （イ）の面積と地積の端数（地目で決まる）
+# =====================================================================
+S_I = sum(p * q.conjugate() for p, q in zip(I_, I_[1:] + I_[:1]))
+assert f'{abs(S_I.imag):.4f}' == '283.3946'
+fig, (ax, axr) = new_figure('図12　問3　（イ）5番1の面積と、地目で決まる地積の端数',
+                            '（イ）はB・C・D・E・Fの座標法で141.6973㎡。調査素図の注4の141.69730と一致する（E点が合っていることの検算にもなる）。\n'
+                            '地積の端数は地目で決まる（不動産登記規則第100条）。宅地は小数第2位未満、宅地・鉱泉地以外で10㎡を超える土地は1㎡未満を切り捨てる。\n'
+                            '雑種地の（イ）は141（141.69ではない）、宅地の（ロ）は113.90。',
+                            ncols=2, width_ratios=[1.25, 1])
+z = Zu(ax)
+fit(ax, LOT, margin=0.14, pad_aspect=True)
+z.poly(RO, color=GRAY, lw=1.1, fill=GRAY, alpha=0.10)
+z.poly(I_, fill=GREEN, alpha=0.28)
+z.north_arrow()
+z.free_text(centroid(I_), '（イ）5番1\n雑種地\n141.6973㎡', fs=17)
+z.free_text(centroid(RO), '（ロ）5番2\n宅地\n113.9083㎡', fs=14, color=GRAY)
+for p, n in [(B, 'B'), (C, 'C'), (D, 'D'), (E, 'E'), (F, 'F')]:
+    z.point(p, 'dot', size=7)
+    z.point_label(p, n, away=centroid(I_))
+side_panel(axr, [
+    ('座標法（B→C→D→E→F）', [('表示：257780.102 − 283.3946i', BLACK), ('283.3946 ÷ 2 ＝ 141.6973', BLACK),
+                           ('＝ 調査素図の注4の141.69730', GREEN)], GREEN),
+    ('雑種地（10㎡を超える）', [('1㎡未満を切り捨て', BLACK), ('141.6973 → 141', GREEN), ('141.69 と書くのは誤り', RED)], GREEN),
+    ('宅地', [('小数第2位未満を切り捨て', BLACK), ('113.9083 → 113.90', ORANGE)], ORANGE),
+])
+ALL_PROBLEMS += save(fig, [z], 'H25_dai21mon_zu12_i_menseki_hasuu.png')
+
+# =====================================================================
+# 図13：問3 地積更正が要るか（参考の判定。数直線）
+# =====================================================================
+KOU = (0.05 + 0.01 * 255 ** 0.25) * math.sqrt(255)
+assert f'{KOU:.2f}' == '1.44' and str(KOU).startswith('1.4365')
+fig, ax = fixed_figure('図13　問3　地積更正が要るか（参考の判定）')
+xv = lambda v: 10 + (v - 253.0) * 20  # noqa: E731  253㎡〜257㎡を x＝10〜90 に
+YN = 55
+ax.annotate('', xy=(93, YN), xytext=(7, YN), arrowprops=dict(arrowstyle='-|>', color=BLACK, lw=2.4, mutation_scale=22))
+for v in range(253, 258):
+    ax.plot([xv(v), xv(v)], [YN - 1.2, YN + 1.2], color=BLACK, lw=1.4)
+    ax.text(xv(v), YN - 3.2, f'{v}', fontsize=14, ha='center', va='top', color=GRAY)
+ax.add_patch(plt.Rectangle((xv(255 - 1.44), YN - 2.5), xv(255 + 1.44) - xv(255 - 1.44), 5, color=BLUE, alpha=0.18, lw=0))
+ax.text(xv(255 - 1.44), YN + 13, '253.56', fontsize=15, ha='center', color=BLUE)
+ax.text(xv(255 + 1.44), YN + 13, '256.44', fontsize=15, ha='center', color=BLUE)
+for v in (255 - 1.44, 255 + 1.44):
+    ax.plot([xv(v), xv(v)], [YN - 2.5, YN + 11], color=BLUE, lw=1.2, ls='--')
+ax.text(xv(255), YN + 27, '公差の範囲　255 ± 1.44（参考：市街地地域の甲2）', fontsize=17, ha='center', color=BLUE, weight='bold')
+PTS = [(255, '登記記録\n255㎡', BLACK, 'o', 9), (255.6056, '全体の実測\n255.6056㎡\n（差 0.6056）', RED, 'v', 9),
+       (254.90, '分筆後の合計\n113.90 ＋ 141 ＝ 254.90㎡\n（差 0.10）', GREEN, '^', -9)]
+for v, lab, col, mk, dy in PTS:
+    ax.plot([xv(v)], [YN], mk, ms=15, color=col, zorder=6)
+    if v != 255:
+        ax.plot([xv(v), xv(v) + (1.5 if v == 255.6056 else -1.5)], [YN + (2.5 if dy > 0 else -2.5),
+                                                                  YN + dy + (1 if dy > 0 else -7)], color=col, lw=1.2)
+    ax.text(xv(v) + (2 if v == 255.6056 else (-2 if v == 254.90 else 0)), YN + dy + (0 if dy > 0 else -6), lab,
+            fontsize=15, ha='left' if v == 255.6056 else ('right' if v == 254.90 else 'center'),
+            va='bottom' if dy > 0 else 'top', color=col, linespacing=1.3)
+fig.text(0.5, 0.06, '問題文に公差の表も地域の区分もないので、あくまで参考。甲2の式 (0.05 ＋ 0.01 × Fの4乗根) × √F に F＝255 を入れると 1.4365…（約1.44㎡）。\n'
+         'どちらの差も範囲内で、問題文も「1件の申請で行い」と言っているので、地積更正は入れない（不動産登記事務取扱手続準則第72条第1項）。',
+         ha='center', va='center', fontsize=16)
+path = os.path.join(OUT, 'H25_dai21mon_zu13_kousa_sankou.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図13: 数直線（固定配置）\n  →', path)
+
+# =====================================================================
+# 図14：問3 分筆後の区画と地番・地目・地積
+# =====================================================================
+fig, (ax,) = new_figure('図14　問3　分筆後の区画と地番（5番 → （イ）5番1 ＋ （ロ）5番2）',
+                        '本番の5番を分筆するので、分筆前の地番に支号を付けて5番1・5番2にする（不動産登記事務取扱手続準則第67条第1項第4号）。\n'
+                        '地目が変わらない東側（資材置場）を元の登記記録に残して（イ）5番1・雑種地141㎡、\n'
+                        '宅地になった西側（建物の敷地）を新しい登記記録の（ロ）5番2・宅地113.90㎡にする。')
 z = Zu(ax)
 fit(ax, LOT, margin=0.18, pad_aspect=True)
 z.poly(RO, fill=ORANGE, alpha=0.25)
@@ -403,19 +611,118 @@ z.north_arrow()
 z.free_text(centroid(RO), '（ロ）5番2\n宅地\n113.90㎡', fs=18)
 z.free_text(centroid(I_), '（イ）5番1\n雑種地\n141㎡', fs=18)
 marks(z, ALL7, cl)
-z.free_text(centroid(RO) + P(-3.6, 0), '誤り：255 − 141.69730 ＝ 113.30\n（登記記録から引き算しない）', color=GRAY, fs=14,
-            offsets=((0, 0), (0, -15), (0, 15)))
 z.edge_label(A, C, '道路', cl, fs=15, color=GRAY, dists=(30, 40), rotate=False)
 z.edge_label(G, A, '道路', cl, fs=15, color=GRAY, dists=(34, 44), rotate=False, ts=(0.7, 0.8, 0.6))
 z.edge_label(C, D, '6', cl, fs=15, color=GRAY, dists=(30, 40), rotate=False)
 z.edge_label(D, E, '3', cl, fs=15, color=GRAY, dists=(30, 40), rotate=False)
 z.edge_label(F, G, '2', cl, fs=15, color=GRAY, dists=(30, 40), rotate=False)
-ALL_PROBLEMS += save(fig, [z], 'H25_dai21mon_zu08_bunpitsu_chiban.png')
+ALL_PROBLEMS += save(fig, [z], 'H25_dai21mon_zu14_bunpitsu_chiban.png')
 
 # =====================================================================
-# 図9：問4 地積測量図（5番1・5番2）の完成見本
+# 図15：問3 登記記録の行き先（（イ）の原因は①③。整理図。固定配置）
 # =====================================================================
-fig, (ax,) = new_figure('図9　問4　地積測量図（5番1・5番2）の完成見本',
+fig, ax = fixed_figure('図15　問3　5番の登記記録は（イ）5番1として続く（原因は①③）')
+box(ax, 2, 47, 27, 34, '分筆前', [('5番の登記記録', BLACK), ('①地番　5番', BLACK), ('②地目　雑種地', BLACK), ('③地積　255', BLACK)], BLACK)
+box(ax, 37, 52, 61, 40, '（イ）5番1　同じ登記記録が続く', [
+    ('①地番　5番 → 5番1（変わる）', RED), ('②地目　雑種地のまま（変わらない → 書かない）', GRAY),
+    ('③地積　255 → 141（変わる）', RED), ('原因：平成25年6月21日一部地目変更', BLACK),
+    ('　　　①③5番1、5番2に分筆', RED)], GREEN, step=4.8)
+box(ax, 37, 18, 61, 28, '（ロ）5番2　新しい登記記録', [
+    ('①地番　5番2　②地目　宅地　③地積　113.90', BLACK), ('原因：5番から分筆（元の地番）', BLACK),
+    ('分筆で生まれた時から宅地', ORANGE)], ORANGE, step=4.8)
+arrow(ax, 30, 70, 36, 74, GREEN)
+arrow(ax, 30, 58, 36, 36, ORANGE)
+box(ax, 2, 2, 96, 12, '比べる場合', [('支号のある土地（例：10番1）を分筆して10番1が残るときは、地番が変わらないので③だけ', GRAY)],
+    GRAY, step=4.6)
+fig.text(0.5, 0.045, '本番の5番を分筆すると、分筆前の地番に支号を付けるので元の土地も5番1に変わる（不動産登記事務取扱手続準則第67条第1項第4号）。\n'
+         '変わった欄の番号を冠記する（同準則第73条）ので、（イ）の原因は「①③」。（イ）の行は変わる事項だけを書き、地目の欄は空欄にする。',
+         ha='center', va='center', fontsize=15.5)
+path = os.path.join(OUT, 'H25_dai21mon_zu15_touki_kiroku_yukisaki.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図15: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図16：問3 登録免許税（分筆後の土地の個数で数える）
+# =====================================================================
+fig, (ax, axr) = new_figure('図16　問3　登録免許税は分筆後の土地の個数 × 1,000円',
+                            '登録免許税法別表第一の一の（十三）イ：分筆による登記事項の変更の登記は、分筆後の不動産の個数1個につき1,000円。\n'
+                            '元の地番の5番1も分筆後の土地の1つなので、5番1と5番2の2個で金2,000円。新しくできた5番2だけ数えた1,000円は誤り。\n'
+                            '一部地目変更（表示の変更）には登録免許税はかからない。',
+                            ncols=2, width_ratios=[1.25, 1])
+z = Zu(ax)
+fit(ax, LOT, margin=0.14, pad_aspect=True)
+z.poly(RO, fill=ORANGE, alpha=0.25)
+z.poly(I_, fill=GREEN, alpha=0.25)
+z.line(B, F, color=RED, lw=3.0)
+z.north_arrow()
+z.free_text(centroid(RO), '（ロ）5番2\n1個', fs=20)
+z.free_text(centroid(I_), '（イ）5番1\n1個', fs=20)
+side_panel(axr, [
+    ('正しい数え方', [('5番1（1個）＋ 5番2（1個）＝ 2個', BLACK), ('2個 × 1,000円 ＝ 金2,000円', GREEN)], GREEN),
+    ('誤り', [('新しくできた5番2だけ数える', BLACK), ('→ 金1,000円', RED)], RED),
+    ('一部地目変更', [('登録免許税はかからない', GRAY)], GRAY),
+])
+ALL_PROBLEMS += save(fig, [z], 'H25_dai21mon_zu16_tourokumenkyozei.png')
+
+# =====================================================================
+# 図17：問3 抵当権は分筆後の両方に残る（承諾を証する情報は要らない。整理図。固定配置）
+# =====================================================================
+fig, ax = fixed_figure('図17　問3　抵当権は5番1・5番2の両方に残る（承諾書は添付しない）')
+box(ax, 2, 50, 30, 38, '分筆前　5番', [('甲区3番　所有権', BLACK), ('　海川二郎', BLACK), ('乙区5番　抵当権', BLACK),
+                                    ('　甲信用金庫', BLACK), ('　共同担保 目録（や）第7061号', BLACK)], BLACK, step=5.2)
+box(ax, 40, 70, 58, 20, '分筆後　（イ）5番1', [('乙区5番の抵当権（甲信用金庫）はそのまま', BLACK)], GREEN)
+box(ax, 40, 44, 58, 20, '分筆後　（ロ）5番2', [('抵当権が転写され、共同担保目録（や）第7061号に記録される', BLACK)], ORANGE)
+arrow(ax, 33, 74, 39, 80, GREEN)
+arrow(ax, 33, 64, 39, 54, ORANGE)
+box(ax, 2, 5, 96, 33, '添付情報', [
+    ('分筆の登記：分筆後の土地の地積測量図（不動産登記令別表8の項）', BLACK),
+    ('承諾を証する情報が要るのは、分筆後の一方の土地で抵当権を消滅させるとき（不動産登記法第40条）', BLACK),
+    ('本件はそのような話がないので、甲信用金庫の承諾書は添付しない', RED),
+    ('問題文の「利害関係人から、申請すべき登記をすることの承諾が得られた」につられない', GRAY),
+], BLUE, step=5.6)
+fig.text(0.5, 0.04, '転写と共同担保目録への記録は、登記官が行う（不動産登記規則第102条第1項・第2項）。',
+         ha='center', va='center', fontsize=16)
+path = os.path.join(OUT, 'H25_dai21mon_zu17_teitouken.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図17: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図18：問4 地積測量図に書くもの・書かないもの（不動産登記規則第77条第1項。整理図。固定配置）
+# =====================================================================
+fig, ax = fixed_figure('図18　問4　地積測量図に書くもの・書かないもの（不動産登記規則第77条第1項）')
+ROWS77 = [
+    ('第1号', '地番区域の名称', '書く', '土地の所在の欄に「A市B町二丁目」'),
+    ('第2号', '方位', '書く', ''),
+    ('第3号', '縮尺', '書く', '1/250（答案用紙に印刷済み）'),
+    ('第4号', '地番（隣接地の地番を含む）', '書く', '（イ）5－1・（ロ）5－2、隣接地2・3・6（地番の欄は（略））'),
+    ('第5号', '地積及びその求積方法', '書かない', '問題文の注5'),
+    ('第6号', '筆界点間の距離', '書く', '辺長8本（AB 9.34 … BF 13.59）'),
+    ('第7号', '平面直角座標系の番号又は記号', '書かない', '問題文の注5'),
+    ('第8号', '筆界点の座標値', '書かない', '問題文の注5'),
+    ('第9号', '境界標', '書く', 'コンクリート杭・石杭・金属標'),
+    ('第10号', '測量の年月日', '書く', '平成25年8月19日（問題文の注5に入っていない）'),
+]
+y = 90
+for no, item, yn, note in ROWS77:
+    col = GREEN if yn == '書く' else RED
+    ax.add_patch(FancyBboxPatch((2, y - 3.2), 96, 6.4, boxstyle='round,pad=0.3',
+                                fc='#eef7ef' if yn == '書く' else '#fbeeee', ec=col, lw=1.2))
+    ax.text(4, y, no, fontsize=15, va='center', weight='bold')
+    ax.text(13, y, item, fontsize=15, va='center')
+    ax.text(47, y, yn, fontsize=15, va='center', color=col, weight='bold')
+    ax.text(57, y, note, fontsize=13.5, va='center', color=BLACK if yn == '書く' else GRAY)
+    y -= 8.0
+fig.text(0.5, 0.035, '問題文の注5で省くのは第5号・第7号・第8号だけ。第10号の測量の年月日は書く。\n'
+         '基準点A100・A101・A102は位置と名称を書き、座標値は書かない（問題文の注6）。',
+         ha='center', va='center', fontsize=16)
+path = os.path.join(OUT, 'H25_dai21mon_zu18_chiseki_kisaijikou.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図18: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図19：問4 地積測量図（5番1・5番2）の完成見本
+# =====================================================================
+fig, (ax,) = new_figure('図19　問4　地積測量図（5番1・5番2）の完成見本',
                         '縮尺1/250で1m＝4mm。本件土地は横約77mm・縦約57mm、基準点まで入れて横約92mm・縦約67mm（第4欄の枠は横約29cm・縦約21cm）。\n'
                         '辺長は小数第3位を四捨五入（FG は 8.3639… なので 8.36）。座標値・平面直角座標系の番号・地積と求積方法は書かない（問題文の注5）。\n'
                         '基準点A100・A101・A102は位置と名称だけ（問題文の注6）。測量年月日（平成25年8月19日）は注で省かれていないので書く。\n'
@@ -441,13 +748,13 @@ z.edge_label(D, E, '3', cl, fs=16, dists=(40, 50), rotate=False)
 z.edge_label(F, G, '2', cl, fs=16, dists=(40, 50), rotate=False)
 z.free_text(P(133.2, 172.5), '（単位：ｍ）\n◎ コンクリート杭：A・C・G\n□ 石杭：D・E\n● 金属標：B・F\n△ 基準点：A100・A101・A102\n'
             '測量年月日：平成25年8月19日', fs=13, ha='left', va='bottom', offsets=((0, 0), (0, 30), (-40, 0), (0, 60)))
-ALL_PROBLEMS += save(fig, [z], 'H25_dai21mon_zu09_chiseki_sokuryouzu.png')
+ALL_PROBLEMS += save(fig, [z], 'H25_dai21mon_zu19_chiseki_sokuryouzu.png')
 
 
 # =====================================================================
-# 図10：本番で解く順番（整理図。固定配置）
+# 図20：本番で解く順番（整理図。固定配置）
 # =====================================================================
-fig, ax = fixed_figure('図10　本番で解く順番（F点と地積測量図がいちばん時間を食う）')
+fig, ax = fixed_figure('図20　本番で解く順番（F点と地積測量図がいちばん時間を食う）')
 STEPS = [
     ('①', '問を先に読み、注を仕分ける', ['問3のただし書き「1件の申請」「座標法で求積」と、調査素図の注4の141.69730に印を付ける'], GRAY),
     ('②', '問2（第2欄）　計算なし', ['一筆に地目は一つ → 一部が宅地 → 分筆して地目変更、申請人は所有者の海川二郎'], GREEN),
@@ -468,8 +775,8 @@ for num, head, lines, col in STEPS:
     y -= 1.4
 fig.text(0.5, 0.035, '①〜③は座標がなくても書ける。F点で詰まっても、第2欄と申請書の大部分は点になる。',
          ha='center', va='center', fontsize=16)
-path = os.path.join(OUT, 'H25_dai21mon_zu10_toku_junban.png')
+path = os.path.join(OUT, 'H25_dai21mon_zu20_toku_junban.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図10: 整理図（固定配置）\n  →', path)
+print('[重なり検査] 図20: 整理図（固定配置）\n  →', path)
 
 print('重なりの合計:', len(ALL_PROBLEMS))

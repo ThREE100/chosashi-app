@@ -121,12 +121,12 @@ note-articles-Kijyutsu/
 ├── H25/
 │   ├── Q21/
 │   │   ├── note_H25_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた版〉と照合済み。B点の放射・F点の正弦定理・一部地目変更・分筆）
-│   │   ├── prompt_H25_dai21mon_kaiwa_kaisetsuzu.md      解説図7枚（全体図・B点の放射・F点の正弦定理・C点とE点の裏付け・一筆に地目は一つ・分筆後の区画と地番・地積測量図）作成プロンプト（土地の基本フォームの記入済み）
+│   │   ├── prompt_H25_dai21mon_kaiwa_kaisetsuzu.md      解説図20枚（全体図・注の仕分け・B点の放射・F点の正弦定理・真数表の別解・C点とE点の裏付け・一筆に地目は一つ・わずかな差異ではない・申請人・時系列と期限・（ロ）の面積・（イ）の面積と端数・地積更正の参考判定・分筆後の区画と地番・登記記録の行き先〈①③〉・登録免許税・抵当権と承諾・地積測量図の記録事項・地積測量図・解く順番）作成プロンプト（土地の基本フォームの記入済み）
 │   │   ├── prompt_H25_dai21mon_toukishinseisho_gazou.md 登記申請書画像プロンプト（完成形。土地一部地目変更・分筆登記）
 │   │   ├── prompt_H25_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」欄と土地の表示（イ）（ロ）の行の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
 │   │   ├── prompt_H25_dai21mon_miidashi_gazou.md         note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_H25_dai21mon_kaiwa.py                 記事・付属プロンプト・生成画像の数値・体裁の照合スクリプト
-│   │   └── zu/                                          解説図7枚のPNGと作図スクリプト draw_H25_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H25_dai21mon_shinseisho_gazou.py
+│   │   └── zu/                                          解説図20枚のPNGと作図スクリプト draw_H25_dai21mon_kaisetsuzu.py、第1欄・第2欄の完成形、登記申請書の完成形・添削（縦長）のPNG・HTMLと生成スクリプト make_H25_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_H25_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例〈日付を平成30年に置き換えた版〉と照合済み）
 │       ├── prompt_H25_dai22mon_kaisetsuzu.md                  解説図8枚（時系列と3つの建物の行き先・敷地辺長図・所在の誤り比較図・建物図面・1階求積図・2階の誤り比較図・2階求積図・附属建物の増改築前後図）作成プロンプト
