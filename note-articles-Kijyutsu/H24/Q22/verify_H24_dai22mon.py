@@ -322,29 +322,38 @@ for src, name in [(fig, '解説図'), (form, '申請書'), (fix, '添削'), (thu
     check('記事のタイトル', title[2:], src, name)
 check('照合済みの一文', '※本記事の数値は、アガルートアカデミーの解答例と照合済みです')
 
-# ---- 画像：記事の画像挿入マーカー12か所と zu/ のPNGの対応 ----
+# ---- 画像：記事の画像挿入マーカー21か所と zu/ のPNGの対応（2026-10-05、本文に対して足りなかった図9か所を追加） ----
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
 PNGS = [('H24_dai22mon_zu01_zentaizou', '全体像の図'),
         ('H24_dai22mon_zu02_shikichi_henchou', '辺長確認図'),
-        ('H24_dai22mon_zu03_tatemono_zumen', '建物図面の完成形'),
-        ('H24_dai22mon_zu04_ayamari_hikaku', '誤り比較図'),
-        ('H24_dai22mon_zu05_1kai_kyuuseki', '1階の床面積求積図'),
-        ('H24_dai22mon_zu06_2kai_kyuuseki', '2階の床面積求積図'),
-        ('H24_dai22mon_zu07_kakai_heimenzu', '各階平面図の完成形'),
-        ('H24_dai22mon_toukishinseisho_machigai', '①誤答'),
+        ('H24_dai22mon_zu03_ichi_kakunin', '建物の位置と所在の確認図'),
+        ('H24_dai22mon_zu04_tatemono_zumen', '建物図面の完成形'),
+        ('H24_dai22mon_zu05_ayamari_hikaku', '誤り比較図'),
+        ('H24_dai22mon_zu06_1kai_kyuuseki', '1階の床面積求積図'),
+        ('H24_dai22mon_zu07_hasuu', '床面積の端数の処理の図'),
+        ('H24_dai22mon_zu08_2kai_kyuuseki', '2階の床面積求積図'),
+        ('H24_dai22mon_zu09_kakai_heimenzu', '各階平面図の完成形'),
+        ('H24_dai22mon_toukishinseisho_machigai_daiigenin', '「代位原因」欄の①誤答'),
+        ('H24_dai22mon_toukishinseisho_machigai_tenpu', '「添付書類」欄の①誤答'),
+        ('H24_dai22mon_toukishinseisho_machigai', '「一棟の建物の表示」欄の①誤答'),
+        ('H24_dai22mon_toukishinseisho_machigai_yukamenseki', '床面積欄の①誤答'),
+        ('H24_dai22mon_zu10_ittou_kyuuseki', '一棟の建物の床面積求積図'),
+        ('H24_dai22mon_zu11_tatewari_kaisou', '縦割りと階層的な区分の比較図'),
+        ('H24_dai22mon_toukishinseisho_machigai_kouzou', '構造欄の①誤答'),
         ('H24_dai22mon_toukishinseisho_kansei', '問1の完成した登記申請書'),
-        ('H24_dai22mon_zu08_shikichiken', '敷地権になるかどうかの比較図'),
+        ('H24_dai22mon_zu12_shikichiken', '敷地権になるかどうかの比較図'),
+        ('H24_dai22mon_zu13_atehame', '敷地権の要件の当てはめ表'),
         ('H24_dai22mon_dai2ran_kansei', '第2欄の完成形'),
-        ('H24_dai22mon_zu09_toku_junban', '本番で解く順番の図')]
+        ('H24_dai22mon_zu14_toku_junban', '本番で解く順番の図')]
 ok_if(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
 for (name, key), m in zip(PNGS, markers):
     path = os.path.join(ZU, name + '.png')
     ok = os.path.exists(path) and key in m
     if ok:
         w, h = Image.open(path).size
-        if name.endswith(('toukishinseisho_kansei', 'machigai')):
+        if name.endswith('toukishinseisho_kansei') or 'machigai' in name:
             ok = w == 1200 and h > w          # 申請書・添削は横1200pxの縦長
         elif 'dai2ran' in name:
             ok = w == 1200                    # 第2欄は罫線の欄だけなので横1200px
@@ -373,10 +382,22 @@ html_has('H24_dai22mon_dai2ran_kansei', '敷地権とは', '登記されたも�
          '（使用借権）は登記することができない', '権は敷地権に当たらず、敷地権は登記されない。')
 html_has('H24_dai22mon_toukishinseisho_machigai', 'Ａ市Ｂ町三丁目120番地１', '、120番地２', 'class="caret"',
          '一棟の建物全体が建っている土地の地番', '<svg class="check"')
+html_has('H24_dai22mon_toukishinseisho_machigai_daiigenin', '民法第423条', 'dstrike', '不動産登記法第48条第２項',
+         '債権者代位（民法第423条）', '不動産登記令第３条第４号', '<svg class="check"')
+html_has('H24_dai22mon_toukishinseisho_machigai_tenpu', '代位原因証書</span><span class="caret">∧</span>', '　代理権限証書',
+         '乙川夏子の委任状はそもそも要らない', '不動産登記令第７条第１項第２号', '<svg class="check"')
+html_has('H24_dai22mon_toukishinseisho_machigai_yukamenseki', '1階　137', '>14<', '2階　115', '>38<', 'dstrike',
+         '16.00×6.50＋5.50×3.50×2＝142.50', '16.00×7.50＝120.00', 'Ⓐの内法（68.57・57.69）を２倍', '<svg class="check"')
+html_has('H24_dai22mon_toukishinseisho_machigai_kouzou', '木造２階建', 'かわらぶき</span>', '木造かわら<br>ぶき２階建',
+         '不動産登記事務取扱手続準則第81条第３項', '縦割り', '<svg class="check"')
+for a_, b_ in [(68.5725, 57.6975)]:
+    assert trunc2(a_) == 68.57 and round(a_ + 1e-9, 2) == 68.57 and trunc2(b_) == 57.69 and round(b_ + 1e-9, 2) == 57.70
+assert round(trunc2(a1) * 2, 2) == 137.14 and round(trunc2(a2) * 2, 2) == 115.38
 drw = open(os.path.join(ZU, 'draw_H24_dai22mon_kaisetsuzu.py'), encoding='utf-8').read()
 fits = re.findall(r'\bfit\((?:ax|axes\[\d\])[^\n]*', drw)
 ok_if(f'作図の fit はすべて pad_aspect=True（{len(fits)}か所）', bool(fits) and all('pad_aspect=True' in f for f in fits))
-for s in ['== 71.25', '== 142.50', '== 120.00', '== 68.5725', '== 57.6975', '== 212.50', '== 206.50']:
+for s in ['== 71.25', '== 142.50', '== 120.00', '== 68.5725', '== 57.6975', '== 212.50', '== 206.50', '== 1.925', '== 10.075',
+          '[1.0, 1.8, 1.8, 1.5]']:
     check('作図スクリプトの面積の assert', s, drw, '作図')
 for n, _ in PNGS:
     if n.startswith('H24_dai22mon_zu'):
@@ -395,6 +416,19 @@ for s_ in ["cell(fig, 0.06, 0.900, 0.20, 0.945, '家屋番号'", "'建物の所�
 for s_ in ['答案用紙（その2）の右半分の欄の形の枠の中に描く', '答案用紙（その2）の左半分の欄の形の枠の中に', 'public/kijutsu/H24-tatemono/a2.webp']:
     check('図面の欄の枠（プロンプト）', s_, fig, '解説図')
 check('解く順番の図（いちばん時間を食う）', '「いちばん時間を食う」', fig, '解説図')
+for s_ in ["'1.925'", "'約1.0'", "'約1.8'", "'約1.5（2階の南東の角）'", "'約10'", "'計算 1.925'", "'配置図 2.00（外壁まで）'",
+           "差 0.075（7.5センチ）", "'16.00×6.50＝104.00'", "'16.00×7.50＝120.00'", "'104.00＋19.25＋19.25＝142.50㎡'",
+           "'切り捨ての57.69が正しい", "屋根の種類まで書く：木造かわらぶき2階建", "'当たらない', '使用貸借の権利は登記"]:
+    check('追加の図の数値（作図）', s_, drw, '作図')
+for s_ in ['西1.925、北西の角約1.0、北東の角約1.8、東の北の端約1.8、2階の南東の角約1.5、南約10',
+           '2階57.6975は切り捨てで57.69（正しい）・四捨五入で57.70（誤り）',
+           '北の帯16.00×6.50＝104.00と、ⒶとⒷの南の帯5.50×3.50＝19.25が2つで142.50㎡']:
+    check('追加の図のマーカー', s_)
+for n_ in ['図3：建物の位置と所在の確認図', '図7：床面積の端数', '図10：一棟の建物の床面積求積図', '図11：縦割りと階層的な区分',
+           '図13：敷地権の要件の当てはめ表']:
+    check('追加の図のプロンプト', n_, fig, '解説図')
+for n_ in ['代位原因', '添付書類', '一棟の建物の表示の床面積', '区分した建物の表示の構造']:
+    check('追加の添削のプロンプト', n_, fix, '添削')
 extra_png = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for n, _ in PNGS})
 ok_if(f'zu/ に記事のマーカーと対応しないPNGがない : {extra_png}', not extra_png)
 

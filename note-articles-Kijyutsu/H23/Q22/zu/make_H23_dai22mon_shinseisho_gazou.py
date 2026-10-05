@@ -6,6 +6,7 @@
   表の左に縦書きの「建物の表示」の列はない）
 - 添削　：`../prompt_H23_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第2欄：問3の記述欄（点線の罫線の枠）
+- 添削2：所在の欄の①誤答・②添削・③正解（2026-10-05追加。記事の所在の欄の誤答に添削画像がなかった）
 
 CSSと部品の作りは `R7/Q22/zu/make_R7_dai22mon_shinseisho_gazou.py` と同じ形にしている。
 実行: python3 note-articles-Kijyutsu/H23/Q22/zu/make_H23_dai22mon_shinseisho_gazou.py [出力フォルダ]
@@ -56,6 +57,7 @@ table.bldg td.struct .ink, table.bldg td.genin .ink {{ font-size: 18px; }}
 .ran2 .line {{ border-bottom: 1.5px dashed #777; height: 46px; font-size: 22px; line-height: 46px; white-space: nowrap; }}
 /* 添削画像 */
 .panel {{ padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }}
+.tall .panel {{ padding: 50px 60px 54px; }}
 .panel:last-of-type {{ border-bottom: none; }}
 .ptitle {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
            margin-bottom: 20px; }}
@@ -179,6 +181,33 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成23年度 第22問｜区分建物の附属建物は、一棟の建物と敷地権まで書く</div>''')
 
+
+# ---- 添削2（2026-10-05追加）：所在の欄（①誤答 → ②添削 → ③正解 を縦に3コマ） ----
+SHOZAI_NG = 'Ａ市Ｂ町二丁目５番地２、Ａ市Ｂ町五丁目10番地１'
+G_SHOZAI_NG = '平成23年8月2日変更'
+
+
+def shozai_snippet(row2_left, row2_right, good=False):
+    g = ' class="good"' if good else ''
+    chk = CHECK_SVG if good else ''
+    return (f'<div class="okwrap"><table class="bldg"{g}>{COLS}'
+            f'<tr><td class="lab2" rowspan="2">所　在</td><td class="val" colspan="5">{ink(SHOZAI)}</td></tr>'
+            f'<tr><td class="val" colspan="3">{row2_left}</td><td class="val genin" colspan="2">{row2_right}</td></tr>'
+            f'<tr><td class="lab2 val">家屋番号</td><td class="val" colspan="5">{ink("５番２")}</td></tr></table>{chk}</div>')
+
+
+ng2_panel = shozai_snippet(ink(SHOZAI_NG), ink(G_SHOZAI_NG))
+fix2_panel = (shozai_snippet(f'<span class="ink strike">{SHOZAI_NG}</span>', f'<span class="ink strike">{G_SHOZAI_NG}</span>')
+              + ('<div class="bubrow"><span class="bubble">区分建物である附属建物は、一棟の建物の所在を登記する（法第44条第1項第5号かっこ書き）。<br>'
+                 'その所在は符号1の「構造」の欄に書く（規則別表二）ので、所在の欄は5番地2のまま。<br>'
+                 '所在の変更は起きていないので、2段目も原因も空欄（建物図面の所在だけ2筆）</span></div>'))
+ok2_panel = shozai_snippet('', '', good=True)
+machigai_shozai = page(f'''<div class="tall" style="min-height:1320px; display:flex; flex-direction:column; justify-content:space-between">
+<div class="panel"><div class="ptitle ng">①誤答</div>{ng2_panel}</div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix2_panel}</div>
+<div class="panel"><div class="ptitle ok">③正解</div>{ok2_panel}</div>
+<div class="caption" style="margin:10px 0 30px">平成23年度 第22問｜申請書の所在の欄は主である建物の5番地2のまま</div></div>''')
+
 if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
     with sync_playwright() as p:
@@ -186,7 +215,8 @@ if __name__ == '__main__':
         pg = browser.new_page(viewport={'width': 1200, 'height': 800})
         for name, html in [('H23_dai22mon_toukishinseisho_kansei', kansei),
                            ('H23_dai22mon_toukishinseisho_kansei_dai2ran', dai2ran),
-                           ('H23_dai22mon_toukishinseisho_machigai', machigai)]:
+                           ('H23_dai22mon_toukishinseisho_machigai', machigai),
+                           ('H23_dai22mon_toukishinseisho_machigai_shozai', machigai_shozai)]:
             hp = os.path.join(OUT, name + '.html')
             open(hp, 'w', encoding='utf-8').write(html)
             pg.set_content(html)

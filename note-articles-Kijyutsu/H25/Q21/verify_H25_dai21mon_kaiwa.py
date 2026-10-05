@@ -199,12 +199,12 @@ b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋め
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（10枚）', n_fig == 10)
-for i in range(1, 11):
+judge(f'解説図プロンプトの図の数 {n_fig}枚（20枚）', n_fig == 20)
+for i in range(1, 21):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'H25_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 nums = [int(m) for m in re.findall(r"(?:new_figure\(|fixed_figure\(|fig\.suptitle\()'図(\d+)　", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から10まで（{sorted(nums)}）', sorted(nums) == list(range(1, 11)))
+judge(f'作図スクリプトの図のタイトル番号が1から20まで（{sorted(nums)}）', sorted(nums) == list(range(1, 21)))
 judge('作図スクリプトの fit がすべて pad_aspect=True', all('pad_aspect=True' in l for l in draw.splitlines()
                                                          if re.match(r'\s*fit\(', l)))
 for s in ['（151.63, 171.42）', '（138.08, 170.37）', '（151.84, 181.30）', '（137.52, 174.55）', '（151.37, 148.18）',
@@ -215,11 +215,35 @@ for s in ['（151.63, 171.42）', '（138.08, 170.37）', '（151.84, 181.30）'
     check('解説図プロンプトの数値', s, fig, '解説図')
     check('作図スクリプトの数値', s, draw, '作図')
     check('記事の数値', s.replace('㎡', ''), text)
+# ---- 記事本文に対して足りなかった図（2026-10-05追加、ユーザー指摘）の数値・事実 ----
+import datetime  # noqa: E402
+judge('（ロ）の割合 約45%・（イ）約55%', round(area(RO) / tot * 100) == 45 and round(area(I_) / tot * 100) == 55)
+judge('255 − 141.69730 ＝ 113.3027、（ロ）との差0.6056＝登記記録と実測の差',
+      f'{255 - 141.69730:.4f}' == '113.3027' and f'{area(RO) - (255 - 141.69730):.4f}' == f'{tot - 255:.4f}' == '0.6056')
+judge('1か月の期限は7月21日', datetime.date(2013, 7, 21) - datetime.date(2013, 6, 21) == datetime.timedelta(30))
+judge('公差（甲2の式、F＝255）1.4365… → 約1.44、範囲 253.56〜256.44',
+      fmt_num(kousa_kou2(255)) == '1.4365…' and f'{255 - 1.44:.2f}' == '253.56' and f'{255 + 1.44:.2f}' == '256.44')
+for s in ['全体の約45%', '約55%', '113.3027', '0.6056', '1.4365…', '253.56', '256.44', '7月21日', '法第164条第1項', '法第37条第1項',
+          '不動産登記法第39条第1項', '①③5番1、5番2に分筆', '2個 × 1,000円 ＝ 金2,000円', '不動産登記令別表8の項', '不動産登記法第40条',
+          '不動産登記規則第102条第1項・第2項', '共同担保目録（や）第7061号', '第5号・第7号・第8号だけ',
+          '平成25年8月19日（問題文の注5に入っていない）', '不動産登記事務取扱手続準則第67条第1項第4号', '同準則第73条',
+          '不動産登記事務取扱手続準則第72条第1項', '不動産登記規則第100条']:
+    check('追加した図の数値・事実（作図）', s, draw, '作図')
+for s in ['113.3027', '0.6056', '1.44', '253.56', '256.44', '7月21日', '約45%', '約55%', '第5号・第7号・第8号だけ',
+          '不動産登記規則第102条第1項・第2項']:
+    check('追加した図の数値・事実（解説図プロンプト）', s, fig, '解説図')
+for s in ['0.6056', '7月21日', '約45%', '約55%', '±1.44']:
+    check('追加した図の数値・事実（記事のマーカー）', s)
 # 画像挿入の位置の文言が記事にあるか
 for s in ['GDが真東向きなのが、F点の計算を楽にしてくれるわ', '座標を出す前から（イ）の地積が分かるのよ',
+          '今度は東側の現況が登記記録に表れなくなるわ', 'それほど、一筆の中に二つの地目が混ざったままにはしておけないんですね',
+          '二人に説明するときも、そこをはっきり伝えるの', '8月23日の申請はそれを過ぎていても、申請の義務は残るんですね',
+          '（ロ）は宅地なので、小数第2位未満を切り捨てて113.90㎡！', '（イ）は141㎡です', '登記の目的は第4章のとおり『土地一部地目変更・分筆登記』ね',
+          '地目『宅地』、登記原因は『5番から分筆』よ', '一部地目変更には登録免許税はかからないわ', '今回はそんな話はないわ',
+          'G→F→E→Dは折れているから、一直線に描かないこと',
           '2.50m！ 観測データの平面距離とぴったりです。',
           '塀がほぼ南北に通っているのも調査素図どおりです', 'どちらの解き方でも同じ点に着く、と知っておくことが大事よ',
-          '距離が合えば十分よ', '登記記録と現況の違いも、図で並べておきます',
+          '距離が合えば十分よ',
           '（ロ）の行は最初から宅地で書けるわ', '基準点まで縮尺どおりに十分入るわ',
           'F点で詰まっても、①〜④で第2欄と申請書の大部分とB点が先に点になるんですね']:
     check('図の挿入位置の文言', s)
@@ -280,15 +304,20 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図10＋第1欄・第2欄2＋添削1＋完成形1＝計14か所の想定）', n_marker == 14)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図20＋第1欄・第2欄2＋添削1＋完成形1＝計24か所の想定）', n_marker == 24)
 # マーカーの順とPNGの対応（2026-10-02追加）。マーカーの文言の頭で、記事の順にPNGと1対1に対応させる
 ORDER = [('北を上にして座標どおりに描き直した全体図', 'zu01_zentaizu'), ('注の仕分けの整理図', 'zu02_chu_shiwake'),
          ('A101からの放射でB点を求める図', 'zu03_B_housha'), ('三角形G・D・Fの正弦定理でF点を求める図', 'zu04_F_seigen'),
          ('三角関数真数表の値で解く別解の図', 'zu05_shinsuuhyou_betsukai'), ('第1欄の完成形', 'dai1ran_kansei'),
-         ('C点とE点を延長で求め', 'zu06_C_E_uradzuke'), ('第2欄の完成形', 'dai2ran_kansei'),
-         ('一筆に地目は一つの図', 'zu07_ippitsu_ichimoku'), ('分筆後の区画と地番・地目・地積の図', 'zu08_bunpitsu_chiban'),
-         ('登記申請書「申請人」欄と土地の表示', 'toukishinseisho_machigai'), ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'),
-         ('地積測量図（5番1・5番2）の完成見本', 'zu09_chiseki_sokuryouzu'), ('本番で解く順番の図', 'zu10_toku_junban')]
+         ('C点とE点を延長で求め', 'zu06_C_E_uradzuke'), ('一筆に地目は一つの図', 'zu07_ippitsu_ichimoku'),
+         ('「わずかな差異」ではない図', 'zu08_wazuka_sai'), ('申請人は誰かの図', 'zu09_shinseinin'),
+         ('時系列と申請の期限の図', 'zu10_jikeiretsu_kigen'), ('第2欄の完成形', 'dai2ran_kansei'),
+         ('（ロ）の面積の図', 'zu11_ro_menseki'), ('（イ）の面積と地積の端数の図', 'zu12_i_menseki_hasuu'),
+         ('地積更正が要るかの参考の判定図', 'zu13_kousa_sankou'), ('分筆後の区画と地番・地目・地積の図', 'zu14_bunpitsu_chiban'),
+         ('登記記録の行き先の図', 'zu15_touki_kiroku_yukisaki'), ('登記申請書「申請人」欄と土地の表示', 'toukishinseisho_machigai'),
+         ('登録免許税の図', 'zu16_tourokumenkyozei'), ('抵当権と承諾の図', 'zu17_teitouken'),
+         ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('地積測量図に書くもの・書かないものの図', 'zu18_chiseki_kisaijikou'),
+         ('地積測量図（5番1・5番2）の完成見本', 'zu19_chiseki_sokuryouzu'), ('本番で解く順番の図', 'zu20_toku_junban')]
 markers = [l[len('> 【画像挿入】'):] for l in lines if l.startswith('> 【画像挿入】')]
 judge('マーカーの順がPNGの対応表どおり', len(markers) == len(ORDER) and all(m.startswith(k) for m, (k, _) in zip(markers, ORDER)))
 pngs = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
@@ -303,6 +332,22 @@ for _, v in ORDER:
 bare = [m.start() for m in re.finditer(r'注\d', text) if not (text[max(0, m.start() - 4):m.start()] == '問題文の'
         or text[max(0, m.start() - 5):m.start()] == '調査素図の')]
 judge(f'注の番号の前に「問題文の」「調査素図の」がある（なし: {[text[p - 8:p + 2] for p in bare]}）', not bare)
+# まとめの「わな」の一覧の各項目に、記事の中で図があるか（2026-10-05追加。図のなかった論点に図を足したときの再発防止）
+TRAPS = [('観測角は時計回りに足す', ['A101からの放射でB点を求める図']),
+         ('正弦定理は向かい合う角', ['三角形G・D・Fの正弦定理でF点を求める図']),
+         ('水平角が省略された観測は検算用', ['C点とE点を延長で求め']),
+         ('一筆に地目は一つ', ['一筆に地目は一つの図', '「わずかな差異」ではない図']),
+         ('申請人は所有権の登記名義人', ['申請人は誰かの図']),
+         ('（ロ）は座標で求積', ['（ロ）の面積の図', '（イ）の面積と地積の端数の図']),
+         ('（イ）の原因は①③', ['登記記録の行き先の図']),
+         ('登録免許税は分筆後の個数', ['登録免許税の図']),
+         ('地積測量図には測量年月日を書く', ['地積測量図に書くもの・書かないものの図'])]
+matome = text[text.index('今日のわなをおさらいするわよ'):]
+matome = matome[:matome.index('**藍子**')]
+trap_lines = [l for l in matome.splitlines() if l.startswith('- **')]
+judge(f'まとめのわなの数と対応表の数が同じ（{len(trap_lines)}・{len(TRAPS)}）', len(trap_lines) == len(TRAPS))
+for (head, keys), l in zip(TRAPS, trap_lines):
+    judge(f'わな「{head}」に図がある（{"・".join(keys)}）', l.startswith('- **' + head) and all(any(m.startswith(k) for m in markers) for k in keys))
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成25年度問題21（土地）〜'
