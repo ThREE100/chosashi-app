@@ -899,6 +899,8 @@ Cさんが、うっかり自分の保証債務を承認していたとしても�
 
 平成13年に、Eさんから買ったIさんなら、完成の後に現れた第三者。EさんからDさんへの移転と、EさんからIさんへの売却は、二重譲渡のような関係になる。だから、先に登記を備えた方が勝つ（177条）。Dさんは、登記がなければ主張できない」
 
+> 【画像挿入】取得時効と登記の事例図（D・E・H・Iの時系列）。画像のプロンプトは、この下の「図解プロンプト（取得時効と登記の事例図1枚）」にあります。
+
 **藍子**  
 「起算点を、都合のいい日に選んでもいいですか？ Hさんが現れる前に完成したことにしたいんです」
 
@@ -1542,6 +1544,105 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere in
 the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+### 図解プロンプト（取得時効と登記の事例図1枚）
+
+型Dの会話のトリ先生の事例（Dさんの占有、Eさんからの売買、完成の前後）を、1本の時系列にして示す図です。フローチャートではなく時系列の図で、機械点検の対象ではありません。キャラクターは描きません。
+
+```
+Create a Japanese-language explanatory infographic, landscape layout,
+1280x960 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), rounded card frame, consistent
+with a modern explainer-graphic aesthetic. This is a single standalone
+diagram that explains one worked example of acquisitive prescription (取得時効)
+and registration, meant to be inserted directly below one passage of the
+article text.
+
+DIAGRAM REQUIREMENT (critical): The core of the image is ONE horizontal
+timeline that runs from left to right, with four tick marks in this order.
+This is a timeline, not a flowchart: do not draw any diamond-shaped branch
+node and do not draw arrows between boxes, other than the single arrowhead at
+the right end of the timeline. Do not draw any recurring guide characters,
+mascots or portrait characters (no bird character, no woman exam candidate).
+Show the people only as simple isometric person icons, each with a single
+letter badge (D, E, H, I). Do not draw ✓ or ✕ marks anywhere in this image.
+Do not include case or precedent numbers (the article number in a caption is
+fine). Reproduce every text string exactly as written, and make each one
+fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADING ---
+Heading (bold, ONE line, at the top):
+取得時効と登記：完成の前か後か
+
+--- TIMELINE ---
+Draw the timeline in the middle of the canvas. Put these four tick labels
+under the timeline, in this order from left to right, verbatim:
+Tick 1: 平成2年1月1日 / Dさんが善意無過失で占有を始める
+Tick 2: 平成10年 / EさんからHさんが買う
+Tick 3: 平成12年1月1日 / 時効が完成する（10年）
+Tick 4: 平成13年 / EさんからIさんが買う
+(a slash means a line break inside the same label). Above tick 1, draw the
+person icon D standing on a small plot of land with a house. Draw the person
+icon E (the original owner) at the far left above the timeline, a little
+apart from D. Tick 3 is drawn as a tall vertical marker line labeled with the
+tick text, and it divides the canvas into a left zone and a right zone.
+
+--- LEFT ZONE (before the completion marker, pale green background) ---
+Zone label (verbatim): 完成の前に現れた第三者
+Above tick 2, draw the person icon H holding a sale contract.
+Caption (verbatim): Hさんは、Eさんと同じ立場とみる
+Result banner (green), verbatim: Dさんは登記なしでHさんに主張できる
+Small note under the banner (verbatim): Hさんが先に登記を備えたあとで完成した場合も同じ
+
+--- RIGHT ZONE (after the completion marker, pale orange background) ---
+Zone label (verbatim): 完成の後に現れた第三者
+Above tick 4, draw the person icon I holding a sale contract and a registry
+book. Caption (verbatim): EさんからDさんへの移転と、EさんからIさんへの売却は、二重譲渡のような関係
+Result banner (orange), verbatim: 先に登記を備えた方が勝つ（177条）
+Small note under the banner (verbatim): Dさんは、登記がなければ主張できない
+
+--- CONCLUSION TAG ---
+Conclusion tag (a short blue banner at the bottom, a keyword phrase, not a sentence):
+完成の前なら登記不要、完成の後なら登記の先後
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 取, 得, 時, 効, 善, 意, 過, 失, 占, 有, 完, 成, 登, 記, 主, 張, 第, 三, 者, 買, 二, 重, 譲, 渡, 備, 先, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image.  Confirm the canvas shows exactly one timeline with four ticks, exactly two zones, exactly two result banners and one conclusion tag, that no flowchart or diamond appears, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
