@@ -47,7 +47,7 @@ CHARACTERS: The attached character-specification images are the single authorita
 
 FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生.
 
-STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Affirmative marks (check marks) are BLUE. Negative marks (crosses) are RED. Do not use green.
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps.
 
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
@@ -67,8 +67,8 @@ PANEL 2 (the flow; 藍子 surprised, トリ先生 explaining with a wing-pointer
 - Three SEPARATE numbered cards in a row, left to right. Do NOT connect the cards with arrows, and do NOT draw any arrow from Ｂ to Ｃ. Arrows exist only inside card 1 (Ａ to Ｄ) and card 2 (Ｄ to Ｂ).
   - Card 1: pictograms 「Ａ」 and 「Ｄ」 with one arrow from Ａ to Ｄ; text 「①ＡがＤに売却（Ｃの同意なし）」.
   - Card 2: pictograms 「Ｄ」 and 「Ｂ」 with one arrow from Ｄ to Ｂ; text 「②ＤがＢに売却（Ｂは善意）」.
-  - Card 3: NOT a sale. It shows the adult pictogram 「Ｃ」 holding a large red round stamp that reads 「取消し」; text 「③Ｃが①の売買を取消し」.
-- One curved RED arrow starts at the stamp in card 3 and points back to the Ａ-to-Ｄ arrow in card 1 (cancelling that sale). Its label 「取消しは当初にさかのぼる」 has a yellow highlighter marker. Next to the pictogram 「Ａ」 in card 1 add the small label 「Ａの所有権が回復」.
+  - Card 3: NOT a sale. It shows the adult pictogram 「Ｃ」 holding a large dark navy round stamp that reads 「取消し」; text 「③Ｃが①の売買を取消し」.
+- One curved dark navy arrow starts at the stamp in card 3 and points back to the Ａ-to-Ｄ arrow in card 1 (cancelling that sale). Its label 「取消しは当初にさかのぼる」 has a yellow highlighter marker. Next to the pictogram 「Ａ」 in card 1 add the small label 「Ａの所有権が回復」.
 - 藍子 bubble (left, spoken first): 「取り消すと、どうなるんですか？」
 - トリ先生 bubble (right, spoken as the answer): 「取消しの効果は、当初にさかのぼるのよ」 with 「当初にさかのぼる」 highlighted in yellow.
 
@@ -112,7 +112,7 @@ Final check before rendering: confirm there are exactly four panels in one verti
 ```text
 直前に表示された最新版（v01）を基準に、以下の修正だけ行ってください。
 1. コマ1：Ａ→Ｄの矢印に小さなラベル「Ｃの同意なし」を付ける。Ａの後ろに、背の高い大人のピクトグラム（タグ「Ｃ」）を立たせ、小さなラベル「Ｃ（Ａの法定代理人）」を付ける。
-2. コマ2の流れ図を、矢印でつながない3つの別カードに描き直す。矢印はカード1の中のＡ→Ｄ、カード2の中のＤ→Ｂだけにし、Ｂ→Ｃの矢印は描かない。カード1「①ＡがＤに売却（Ｃの同意なし）」、カード2「②ＤがＢに売却（Ｂは善意）」、カード3は売買ではなく、ピクトグラム「Ｃ」が赤い丸い「取消し」のスタンプを持つ図にして、文言は「③Ｃが①の売買を取消し」。赤い曲がった矢印はカード3のスタンプからカード1のＡ→Ｄの矢印へ戻し、ラベル「取消しは当初にさかのぼる」（黄色マーカー）を付ける。カード1のＡの横に小さなラベル「Ａの所有権が回復」を足す。
+2. コマ2の流れ図を、矢印でつながない3つの別カードに描き直す。矢印はカード1の中のＡ→Ｄ、カード2の中のＤ→Ｂだけにし、Ｂ→Ｃの矢印は描かない。カード1「①ＡがＤに売却（Ｃの同意なし）」、カード2「②ＤがＢに売却（Ｂは善意）」、カード3は売買ではなく、ピクトグラム「Ｃ」がネイビーの丸い「取消し」のスタンプを持つ図にして、文言は「③Ｃが①の売買を取消し」。ネイビーの曲がった矢印はカード3のスタンプからカード1のＡ→Ｄの矢印へ戻し、ラベル「取消しは当初にさかのぼる」（黄色マーカー）を付ける。カード1のＡの横に小さなラベル「Ａの所有権が回復」を足す。
 3. コマ2の藍子（左）の吹き出し全体を、「えっ、Ｂが買う前にもどるんですか？」から「取り消すと、どうなるんですか？」へ変更する。
 4. コマ3の藍子（左）の吹き出し全体を、「同じ取消しなのに、第三者の扱いが違うんですね」から「詐欺取消しだと、第三者は守られるのに…」へ変更する。
 
