@@ -92,8 +92,12 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> surprised (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels; confirm the characters 権, 売, 買, 当, 初, 詐, 欺, 規, 対, 抗, 無, 過, 効, 張 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm the left comparison card in panel 3 has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels; confirm the characters 権, 所, 売, 買, 当, 初, 詐, 欺, 規, 対, 抗, 無, 過, 効, 張, 解, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm the left comparison card in panel 3 has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
+
+## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
+- [x] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0520_prompt.md` が NG 0件・WARN 0件（2026-10-06）
+- [x] 工程C：登場人物Ｃは1コマ目で紹介／取消しは売買の鎖の外（別カード）／藍子の質問→トリ先生の答えの順／青＝はい・赤＝いいえ・ネイビー＝中立
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり

@@ -472,3 +472,7 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 仕様・データの確かさは`tools/drill/README.md`。回答は〇・×・？（？＝わからない）。学習記録はコードと分けて専用ブランチ`drill-log`の`log.jsonl`に残す
 （`main`統一ルールの例外。記録専用でnote記事は置かない）。正誤は**現行法令を正**とし、`note-articles/`の解説記事の結論に従う（出題当時の公式正答とは食い違うことがある）。
 解説の引用は**origin/mainの`note-articles/`**を直接読み（`drill.py start`が`git fetch origin main`で最新を取得）、**`note-articles/`の記事は編集しない**。ドリル関連（`tools/drill/`・スキル）の変更は、ユーザーの指示なしに`main`へpushしてよい（2026-10-03許可）。バンクの値だけを正とし、会話中に自分の判断で変えない。解説は`note-articles/`の該当肢の解説を**そのまま引用**して出し（`drill.py answer`・`explain`）、Claudeが独自の解答・解説を作ることは禁止。引用した解説に誤りがあれば、その場で指摘して訂正案を添える（`drill.py issue`で記録）。記事が不確実と注記している肢などは`tools/drill/REVIEW_HOLD.md`に保留してある。条文照合に指摘のある肢は、出題時に自動で`#article-fix`のタグが付く（`drill.py tags article-fix`で一括表示。記事の修正は、ユーザーの指示があったときだけ行う）。
+
+## 誤解の多い肢の4コマ解説図解プロンプトの作成について(2026-10-06追加)
+
+一問一答ドリルで何度も誤解している肢を、トリ先生・藍子の4コマ図解（1080×1920px）にする仕組みは`tools/drill/manga/`にある。規則は`MANGA_RULES.md`、見本は`D0520_prompt.md`、マガジン用は`MAGAZINE_header_prompt.md`。プロンプトを作る・検品するときはスキル`/manga-prompt`に従い、ユーザーに渡す前に必ず`python3 tools/drill/manga/check_prompt.py <プロンプト>`でNG 0件にする（登場人物の初出・矢印の意味・会話順・配色などの品質ゲート。検品で新種の不具合が出たらルールとチェックの両方へ追加する）。フローチャートの配色は、はい＝青・いいえ＝赤（緑には触れない）。
