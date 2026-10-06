@@ -1,4 +1,4 @@
-# D0520 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0520 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0520（民法／物権変動・対抗要件、出典 H22-Q02オ）。正解＝〇。誤解4回。
 - 記事：`note-articles/h22-mondai/q02-taikou-youken-177.md` オ「未成年者の取消しは、その前に現れた善意の買主にも対抗できる」
@@ -11,21 +11,22 @@
 |---|---|---|---|
 | タイトル帯 | — | 未成年者の取消しは、善意のＢにも対抗できる | 「善意のＢにも対抗できる」を黄色マーカー |
 | コマ1 見出し | ラベル | ①　よくある思い込み | — |
-| コマ1 | 藍子（左） | Ｂは未成年だと知らなかったんです。だから守られますよね？ | 「守られますよね？」 |
+| コマ1 | 藍子（左） | Ｂは未成年だと知らなかった。守られますよね？ | 「守られますよね？」 |
 | コマ1 | トリ先生（右） | 出たわね、その思い込み。Ａが取り消す前にＢが買った場合よ | — |
-| コマ1 | 図ラベル | Ａ（未成年者）→Ｄ→Ｂ（善意） | — |
+| コマ1 | 図ラベル | Ａ（未成年者）→Ｄ→Ｂ（善意）／Ｃ（Ａの法定代理人）／矢印ラベル「Ｃの同意なし」 | — |
 | コマ2 見出し | ラベル | ②　流れを整理 | — |
-| コマ2 | 図 | ①ＡがＤに売却（Ｃの同意なし） / ②ＤがＢに売却（Ｂは善意） / ③Ｃが取消し | — |
+| コマ2 | 図（3つの別カード。取引の矢印はＡ→Ｄ、Ｄ→Ｂのみ） | ①ＡがＤに売却（Ｃの同意なし） / ②ＤがＢに売却（Ｂは善意） / ③Ｃが①の売買を取消し（スタンプ「取消し」） | — |
+| コマ2 | 図ラベル | Ａの所有権が回復 | — |
 | コマ2 | 図の矢印ラベル | 取消しは当初にさかのぼる | 黄色マーカー |
-| コマ2 | トリ先生（右） | 取消しの効果は、当初にさかのぼるのよ | 「当初にさかのぼる」 |
-| コマ2 | 藍子（左） | えっ、Ｂが買う前にもどるんですか？ | — |
+| コマ2 | 藍子（左・先に話す） | 取り消すと、どうなるんですか？ | — |
+| コマ2 | トリ先生（右・答える） | 取消しの効果は、当初にさかのぼるのよ | 「当初にさかのぼる」 |
 | コマ3 見出し | ラベル | ③　詐欺取消しとの違い | — |
 | コマ3 左カード | 見出し | 詐欺取消し | — |
 | コマ3 左カード | 本文／タグ | 善意無過失の第三者は守られる ／ 民法96条3項 | 青チェック✓ |
 | コマ3 右カード | 見出し | 制限行為能力の取消し | — |
 | コマ3 右カード | 本文 | 善意のＢでも守られない | 赤✕ |
-| コマ3 | 藍子（左） | 同じ取消しなのに、第三者の扱いが違うんですね | — |
-| コマ3 | トリ先生（右） | 違いは、第三者を守る規定があるかどうかよ | 「守る規定」 |
+| コマ3 | 藍子（左・先に話す） | 詐欺取消しだと、第三者は守られるのに… | — |
+| コマ3 | トリ先生（右・答える） | 違いは、第三者を守る規定があるかどうかよ | 「守る規定」 |
 | コマ4 見出し | ラベル | ④　結論は〇 | — |
 | コマ4 | 藍子（左） | Ａは善意のＢにも所有権を主張できるんですね！ | — |
 | コマ4 | トリ先生（右） | そのとおり。取消し前に現れた善意の買主にも対抗できるのよ | 「対抗できる」 |
@@ -59,22 +60,25 @@ PANEL 1 (the common misconception; 藍子 confident, トリ先生 exasperated bu
 - Label tab: 「①　よくある思い込み」
 - 藍子 bubble (left): 「Ｂは未成年だと知らなかった。守られますよね？」 with the part 「守られますよね？」 highlighted in yellow.
 - トリ先生 bubble (right): 「出たわね、その思い込み。Ａが取り消す前にＢが買った場合よ」
-- Small diagram in the middle: three faceless pictograms in a row with arrows: a small young pictogram with tag 「Ａ」, then a pictogram with tag 「Ｄ」, then a pictogram with tag 「Ｂ」. Caption under the diagram: 「Ａ（未成年者）→Ｄ→Ｂ（善意）」.
+- Small diagram in the middle: three faceless pictograms in a row with arrows: a small young pictogram with tag 「Ａ」, then a pictogram with tag 「Ｄ」, then a pictogram with tag 「Ｂ」. The arrow from Ａ to Ｄ carries the small label 「Ｃの同意なし」. Standing right behind 「Ａ」 is a taller adult pictogram with tag 「Ｃ」 and the small label 「Ｃ（Ａの法定代理人）」, so that Ｃ is introduced here. Caption under the diagram: 「Ａ（未成年者）→Ｄ→Ｂ（善意）」.
 
 PANEL 2 (the flow; 藍子 surprised, トリ先生 explaining with a wing-pointer):
 - Label tab: 「②　流れを整理」
-- A three-step horizontal timeline diagram with pictograms and arrows, the step texts exactly: 「①ＡがＤに売却（Ｃの同意なし）」, 「②ＤがＢに売却（Ｂは善意）」, 「③Ｃが取消し」. Include a small faceless pictogram tagged 「Ｃ」 near step ③.
-- A curved return arrow from step ③ back to step ① with the label 「取消しは当初にさかのぼる」 highlighted in yellow.
-- トリ先生 bubble (right): 「取消しの効果は、当初にさかのぼるのよ」 with 「当初にさかのぼる」 highlighted in yellow.
-- 藍子 bubble (left): 「えっ、Ｂが買う前にもどるんですか？」
+- Three SEPARATE numbered cards in a row, left to right. Do NOT connect the cards with arrows, and do NOT draw any arrow from Ｂ to Ｃ. Arrows exist only inside card 1 (Ａ to Ｄ) and card 2 (Ｄ to Ｂ).
+  - Card 1: pictograms 「Ａ」 and 「Ｄ」 with one arrow from Ａ to Ｄ; text 「①ＡがＤに売却（Ｃの同意なし）」.
+  - Card 2: pictograms 「Ｄ」 and 「Ｂ」 with one arrow from Ｄ to Ｂ; text 「②ＤがＢに売却（Ｂは善意）」.
+  - Card 3: NOT a sale. It shows the adult pictogram 「Ｃ」 holding a large red round stamp that reads 「取消し」; text 「③Ｃが①の売買を取消し」.
+- One curved RED arrow starts at the stamp in card 3 and points back to the Ａ-to-Ｄ arrow in card 1 (cancelling that sale). Its label 「取消しは当初にさかのぼる」 has a yellow highlighter marker. Next to the pictogram 「Ａ」 in card 1 add the small label 「Ａの所有権が回復」.
+- 藍子 bubble (left, spoken first): 「取り消すと、どうなるんですか？」
+- トリ先生 bubble (right, spoken as the answer): 「取消しの効果は、当初にさかのぼるのよ」 with 「当初にさかのぼる」 highlighted in yellow.
 
 PANEL 3 (the contrast; both characters point together at the same comparison cards):
 - Label tab: 「③　詐欺取消しとの違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
 - Left card, heading 「詐欺取消し」, body 「善意無過失の第三者は守られる」, small tag 「民法96条3項」, with ONE blue check mark only (no cross on this card).
 - Right card, heading 「制限行為能力の取消し」, body 「善意のＢでも守られない」, with ONE red cross only (no check mark on this card).
-- 藍子 bubble (left): 「同じ取消しなのに、第三者の扱いが違うんですね」
-- トリ先生 bubble (right): 「違いは、第三者を守る規定があるかどうかよ」 with 「守る規定」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「詐欺取消しだと、第三者は守られるのに…」
+- トリ先生 bubble (right, spoken as the answer): 「違いは、第三者を守る規定があるかどうかよ」 with 「守る規定」 highlighted in yellow.
 
 PANEL 4 (the conclusion; 藍子 relieved, トリ先生 smiling proudly):
 - Label tab: 「④　結論は〇」
@@ -99,3 +103,19 @@ Final check before rendering: confirm there are exactly four panels in one verti
 - [ ] コマ3：左＝青✓のみ、右＝赤✕のみ。カード文言が別々
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+
+## v01の検品結果と修正（2026-10-06）
+- v01（生成画像）の問題：①Ｃが初出なのにコマ2で突然登場し、Ｂ→Ｃの矢印で「ＢがＣに売った」ように見える。②赤い戻り矢印の起点がＣの人物で、「取消し」という出来事の矢印になっていない。③コマ1で藍子の吹き出しの文言が構成表と違った（表を現状の画像に合わせた）。④コマ2・3で藍子の反応が先に読まれ、トリ先生の説明より前に「気づき」が来る順序のずれ。⑤コマ2の「Ｂが買う前にもどる」は遡及の説明として不正確。
+- 修正：Ｃをコマ1で「Ａの法定代理人」として登場させる。コマ2は3つの独立したカードにし、③は売買ではなく「取消し」のスタンプとして描く。藍子は質問、トリ先生は答えの順にする。
+
+### ChatGPTへの修正依頼文（v01の画像を基準に貼る）
+```text
+直前に表示された最新版（v01）を基準に、以下の修正だけ行ってください。
+1. コマ1：Ａ→Ｄの矢印に小さなラベル「Ｃの同意なし」を付ける。Ａの後ろに、背の高い大人のピクトグラム（タグ「Ｃ」）を立たせ、小さなラベル「Ｃ（Ａの法定代理人）」を付ける。
+2. コマ2の流れ図を、矢印でつながない3つの別カードに描き直す。矢印はカード1の中のＡ→Ｄ、カード2の中のＤ→Ｂだけにし、Ｂ→Ｃの矢印は描かない。カード1「①ＡがＤに売却（Ｃの同意なし）」、カード2「②ＤがＢに売却（Ｂは善意）」、カード3は売買ではなく、ピクトグラム「Ｃ」が赤い丸い「取消し」のスタンプを持つ図にして、文言は「③Ｃが①の売買を取消し」。赤い曲がった矢印はカード3のスタンプからカード1のＡ→Ｄの矢印へ戻し、ラベル「取消しは当初にさかのぼる」（黄色マーカー）を付ける。カード1のＡの横に小さなラベル「Ａの所有権が回復」を足す。
+3. コマ2の藍子（左）の吹き出し全体を、「えっ、Ｂが買う前にもどるんですか？」から「取り消すと、どうなるんですか？」へ変更する。
+4. コマ3の藍子（左）の吹き出し全体を、「同じ取消しなのに、第三者の扱いが違うんですね」から「詐欺取消しだと、第三者は守られるのに…」へ変更する。
+
+変更しない箇所：上記以外のすべての文字・色・人物・表情・背景・吹き出しの位置と形、タイトル帯、コマ3の比較カード、コマ4、結論帯。
+指定文言を一字ずつ正確に入れ、指定外の文字を追加しないでください。完成画像全体を1枚で表示してください。
+```
