@@ -710,7 +710,7 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 ただし、委任状のほうは別。委任状に押すのは、いつでも申請人よ。委任状の話に、『委任による代理人の署名』は出てこない。委任状は、本人が代理人に権限を与える書類だから、書く人は本人なの」
 
-> 【画像挿入】型A〜型Cのイメージ図の、パネル1（申請書と委任状の押印）。画像のプロンプトは、この下の「図解プロンプト（型A〜型Cのイメージ図1枚）」にあります。
+> 【画像挿入】型A〜型Cのイメージ図の、パネル1（申請書と委任状の押印）。画像のプロンプトは、この下の「図解プロンプト（型A〜型Cのイメージ図1枚）」にあります。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面1。
 
 ---
 
@@ -740,7 +740,7 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 押印を問われたら、まず『それは申請人の話か、作成者の話か』を確認すること。申請人なら、そもそも押印を求められていない。作成者なら、署名か記名押印のどちらか。これで、図面の肢は、ほぼ片付くわ」
 
-> 【画像挿入】型A〜型Cのイメージ図の、パネル2（図面の記名と署名）。
+> 【画像挿入】型A〜型Cのイメージ図の、パネル2（図面の記名と署名）。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面2。
 
 ---
 
@@ -776,7 +776,7 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 もう1つ、図面や地図の訂正の申出は、署名するか記名押印するかのどちらかは要るけれど、印鑑証明書は要らない。令16条2項・18条2項が準用されていないから。平成24年度 第9問のエがその形よ」
 
-> 【画像挿入】型A〜型Cのイメージ図の、パネル3（印鑑証明書）。
+> 【画像挿入】型A〜型Cのイメージ図の、パネル3（印鑑証明書）。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面3。
 
 ---
 
@@ -1035,6 +1035,214 @@ a conclusion, confirm nothing is rendered below the footnote text (no
 summary recap panel, no trophy or medal icon, and no additional text block
 of any kind), and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+### 図解プロンプト（場面ごとに1枚ずつ使う場合）
+
+上の「場面のイメージ図1枚」は、場面を1枚に並べた図です。会話式の記事に、場面ごとの画像を1枚ずつ差し入れるときは、次のプロンプトを使います。場面の番号は、記事の「画像挿入」の指示にある「パネル」の番号と同じです。図の中の事実と文言は、上の1枚の図と同じです。キャラクターは描きません。
+
+**場面1：型A　申請書と委任状の押印**
+
+```
+Create a Japanese-language explanatory illustration, landscape layout,
+1280x720 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), rounded card frame, consistent
+with a modern explainer-graphic aesthetic. This is a single standalone scene
+illustration (one scene only, no other panels), meant to be inserted
+directly below one passage of the article text. It belongs to the series
+苦手分析シリーズ⑫ 書面申請の記名押印・署名 型A〜型C.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Draw concrete everyday scenes as isometric illustrations, with only the
+short captions written below, verbatim. Do not draw any recurring guide
+characters, mascots or portrait characters (no bird character, no woman exam
+candidate); show only the scene and the captions. Reproduce every caption
+exactly as written. Do not draw ✓ or ✕ marks anywhere in this image. Do not
+include case or precedent numbers. Keep the text inside the image to the
+heading, the captions and the conclusion tag given below; make each caption
+fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- SCENE ---
+Heading (bold, ONE line):
+型A　申請書と委任状の押印
+Scene: a 3-scene row. Scene 1: a desk with an application form on which a name is only stamped by a rubber stamp, no seal. Caption (verbatim): 記名だけなら押印が必要 . Scene 2: a form signed by hand with a pen, and a notary desk in the background. Caption (verbatim): 署名か認証があれば押印は要らない . Scene 3: a property owner signing by hand while a document marked 合筆 lies on the desk and a red seal stamp waits beside it. Caption (verbatim): 合筆・合体・合併は署名でも記名押印
+Conclusion tag (a short blue banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
+署名でも例外がある
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 要, 記, 請, 筆, 合, 併, 体, 認, 名, 押, 印, 署, 証, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+**場面2：型B　図面の記名と署名**
+
+```
+Create a Japanese-language explanatory illustration, landscape layout,
+1280x720 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), rounded card frame, consistent
+with a modern explainer-graphic aesthetic. This is a single standalone scene
+illustration (one scene only, no other panels), meant to be inserted
+directly below one passage of the article text. It belongs to the series
+苦手分析シリーズ⑫ 書面申請の記名押印・署名 型A〜型C.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Draw concrete everyday scenes as isometric illustrations, with only the
+short captions written below, verbatim. Do not draw any recurring guide
+characters, mascots or portrait characters (no bird character, no woman exam
+candidate); show only the scene and the captions. Reproduce every caption
+exactly as written. Do not draw ✓ or ✕ marks anywhere in this image. Do not
+include case or precedent numbers. Keep the text inside the image to the
+heading, the captions and the conclusion tag given below; make each caption
+fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- SCENE ---
+Heading (bold, ONE line):
+型B　図面の記名と署名
+Scene: a 2-scene row. Scene 1: a land survey drawing with one name line where the applicant's name is printed, and no seal. Caption (verbatim): 申請人は記名だけ . Scene 2: the same drawing with a second name line where a surveyor signs by hand, and a seal stamp lying unused beside it. Caption (verbatim): 作成者は署名なら押印は要らない
+Conclusion tag (a short green banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
+申請人と作成者は別
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 要, 記, 請, 者, 面, 名, 押, 印, 署, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+**場面3：型C　印鑑証明書**
+
+```
+Create a Japanese-language explanatory illustration, landscape layout,
+1280x720 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), rounded card frame, consistent
+with a modern explainer-graphic aesthetic. This is a single standalone scene
+illustration (one scene only, no other panels), meant to be inserted
+directly below one passage of the article text. It belongs to the series
+苦手分析シリーズ⑫ 書面申請の記名押印・署名 型A〜型C.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Draw concrete everyday scenes as isometric illustrations, with only the
+short captions written below, verbatim. Do not draw any recurring guide
+characters, mascots or portrait characters (no bird character, no woman exam
+candidate); show only the scene and the captions. Reproduce every caption
+exactly as written. Do not draw ✓ or ✕ marks anywhere in this image. Do not
+include case or precedent numbers. Keep the text inside the image to the
+heading, the captions and the conclusion tag given below; make each caption
+fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- SCENE ---
+Heading (bold, ONE line):
+型C　印鑑証明書
+Scene: a 3-scene row. Scene 1: a property owner at a desk holding a seal certificate together with a power of attorney, and a document marked 合筆 on the desk. Caption (verbatim): 合筆・合体・合併のときだけ必要 . Scene 2: a notary desk with a stamped power of attorney, and a clerk saying no certificate is needed, with no text in the bubble. Caption (verbatim): 認証を受けたときは不要 . Scene 3: a surveyor holding a professional seal certificate while the owner's seal certificate slot remains empty. Caption (verbatim): 職印証明書では代わりにならない
+Conclusion tag (a short orange banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
+証明書は少数派
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 要, 代, 筆, 合, 併, 体, 明, 認, 印, 鑑, 証, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---

@@ -356,7 +356,7 @@ Cさんは、善意と無過失の両方がそろって初めて勝てるの。�
 
 ちなみに、ここで話しているのは、取消しの前にCさんが登場したときの話。取消しのあとにCさんが登場したときは、別の整理になるの。本記事の範囲では混ぜないから、今は取消しの前の話だと、頭の中に札を立てておきなさい」
 
-> 【画像挿入】詐欺と強迫のイメージ図の、パネル1（詐欺と第三者保護）。画像のプロンプトは、この下の「図解プロンプト（詐欺・強迫・無効と取消しのイメージ図1枚）」にあります。
+> 【画像挿入】詐欺と強迫のイメージ図の、パネル1（詐欺と第三者保護）。画像のプロンプトは、この下の「図解プロンプト（詐欺・強迫・無効と取消しのイメージ図1枚）」にあります。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面1。
 
 ---
 
@@ -384,7 +384,7 @@ Cさんは、善意と無過失の両方がそろって初めて勝てるの。�
 **トリ先生**  
 「その調子。Dさんが詐欺をしたのなら96条2項、Cさんに対抗できるかを聞いているのなら96条3項。想像のしかたは、これで足りるはずよ」
 
-> 【画像挿入】詐欺と強迫のイメージ図の、パネル2（第三者による詐欺）。
+> 【画像挿入】詐欺と強迫のイメージ図の、パネル2（第三者による詐欺）。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面2。
 
 ---
 
@@ -412,7 +412,7 @@ Cさんは、善意と無過失の両方がそろって初めて勝てるの。�
 **トリ先生**  
 「絵にするのはいいけど、結論の向きを間違えないこと。逆にしたら、全部不正解よ」
 
-> 【画像挿入】詐欺と強迫のイメージ図の、パネル3（強迫と第三者）。
+> 【画像挿入】詐欺と強迫のイメージ図の、パネル3（強迫と第三者）。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面3。
 
 ---
 
@@ -448,7 +448,7 @@ Cさんは、善意と無過失の両方がそろって初めて勝てるの。�
 
 取消権のほうは、追認をすることができる時から5年、行為の時から20年のうち、どちらかが先に来たら消える（126条）。砂時計が2つぶら下がっていて、先に落ちたほうで終わり、と思い浮かべなさい」
 
-> 【画像挿入】詐欺と強迫のイメージ図の、パネル4（無効と取消し）。
+> 【画像挿入】詐欺と強迫のイメージ図の、パネル4（無効と取消し）。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面4。
 
 ---
 
@@ -717,6 +717,286 @@ a conclusion, confirm nothing is rendered below the footnote text (no
 summary recap panel, no trophy or medal icon, and no additional text block
 of any kind), and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+### 図解プロンプト（場面ごとに1枚ずつ使う場合）
+
+上の「場面のイメージ図1枚」は、場面を1枚に並べた図です。会話式の記事に、場面ごとの画像を1枚ずつ差し入れるときは、次のプロンプトを使います。場面の番号は、記事の「画像挿入」の指示にある「パネル」の番号と同じです。図の中の事実と文言は、上の1枚の図と同じです。キャラクターは描きません。
+
+**場面1：詐欺と第三者保護**
+
+```
+Create a Japanese-language explanatory illustration, landscape layout,
+1280x720 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), rounded card frame, consistent
+with a modern explainer-graphic aesthetic. This is a single standalone scene
+illustration (one scene only, no other panels), meant to be inserted
+directly below one passage of the article text. It belongs to the series
+苦手分析シリーズ⑤ 詐欺・強迫 詐欺・強迫・無効と取消し.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Draw concrete everyday scenes as isometric illustrations, with only the
+short captions written below, verbatim. Do not draw any recurring guide
+characters, mascots or portrait characters (no bird character, no woman exam
+candidate); show only the scene and the captions. Reproduce every caption
+exactly as written. Do not draw ✓ or ✕ marks anywhere in this image. Do not
+include case or precedent numbers. Keep the text inside the image to the
+heading, the captions and the conclusion tag given below; make each caption
+fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- SCENE ---
+Heading (bold, ONE line):
+詐欺と第三者保護
+Scene: a 2-scene row. Scene 1: a seller A being tricked by a smiling buyer B who holds a fake document, then B passing the land to a third party C who holds a land title and looks calm and unaware. Caption (verbatim): 詐欺の取消しは善意無過失の第三者に対抗できない . Scene 2: a third party C who is looking at a small magnifying glass and a faint warning note on the land, showing he could have noticed. Caption (verbatim): 知っていた人や過失のある人は守られない
+Conclusion tag (a short green banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
+第三者が優先
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 対, 抗, 取, 消, 善, 意, 過, 失, 第, 三, 者, 詐, 欺, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+**場面2：第三者による詐欺**
+
+```
+Create a Japanese-language explanatory illustration, landscape layout,
+1280x720 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), rounded card frame, consistent
+with a modern explainer-graphic aesthetic. This is a single standalone scene
+illustration (one scene only, no other panels), meant to be inserted
+directly below one passage of the article text. It belongs to the series
+苦手分析シリーズ⑤ 詐欺・強迫 詐欺・強迫・無効と取消し.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Draw concrete everyday scenes as isometric illustrations, with only the
+short captions written below, verbatim. Do not draw any recurring guide
+characters, mascots or portrait characters (no bird character, no woman exam
+candidate); show only the scene and the captions. Reproduce every caption
+exactly as written. Do not draw ✓ or ✕ marks anywhere in this image. Do not
+include case or precedent numbers. Keep the text inside the image to the
+heading, the captions and the conclusion tag given below; make each caption
+fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- SCENE ---
+Heading (bold, ONE line):
+第三者による詐欺
+Scene: a 2-scene row. Scene 1: a bystander D whispering a lie into the ear of seller A, while buyer B stands beside them looking surprised and unaware. Caption (verbatim): 詐欺をしたのは相手方ではなく第三者 . Scene 2: the same buyer B now looking at D with a knowing face and a small thought bubble showing he could have noticed, while seller A holds a cancel stamp. Caption (verbatim): 相手方が知っていたか知ることができたときだけ取り消せる
+Conclusion tag (a short blue banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
+取消しできるかの話
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 取, 消, 第, 三, 者, 相, 詐, 欺, 方, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+**場面3：強迫と第三者**
+
+```
+Create a Japanese-language explanatory illustration, landscape layout,
+1280x720 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), rounded card frame, consistent
+with a modern explainer-graphic aesthetic. This is a single standalone scene
+illustration (one scene only, no other panels), meant to be inserted
+directly below one passage of the article text. It belongs to the series
+苦手分析シリーズ⑤ 詐欺・強迫 詐欺・強迫・無効と取消し.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Draw concrete everyday scenes as isometric illustrations, with only the
+short captions written below, verbatim. Do not draw any recurring guide
+characters, mascots or portrait characters (no bird character, no woman exam
+candidate); show only the scene and the captions. Reproduce every caption
+exactly as written. Do not draw ✓ or ✕ marks anywhere in this image. Do not
+include case or precedent numbers. Keep the text inside the image to the
+heading, the captions and the conclusion tag given below; make each caption
+fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- SCENE ---
+Heading (bold, ONE line):
+強迫と第三者
+Scene: a 2-scene row. Scene 1: a seller A with a frightened face being pressed by a stern buyer B who holds a heavy stick, signing a contract. Caption (verbatim): 強迫された表意者は自由な判断ができない . Scene 2: buyer B passing the land to a calm third party C, while seller A holds a stamp and stands firmly in front of the land. Caption (verbatim): 善意無過失の第三者にも対抗できる
+Conclusion tag (a short orange banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
+表意者が優先
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 対, 抗, 善, 意, 過, 失, 第, 三, 者, 強, 迫, 表, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+**場面4：無効と取消し**
+
+```
+Create a Japanese-language explanatory illustration, landscape layout,
+1280x720 pixels, clean flat-design isometric illustration style with soft
+pastel colors (blue, green, beige, gray), rounded card frame, consistent
+with a modern explainer-graphic aesthetic. This is a single standalone scene
+illustration (one scene only, no other panels), meant to be inserted
+directly below one passage of the article text. It belongs to the series
+苦手分析シリーズ⑤ 詐欺・強迫 詐欺・強迫・無効と取消し.
+
+SCENE-ILLUSTRATION REQUIREMENT (critical): Do NOT draw any flowchart, any
+diamond-shaped branch node, or any arrows that connect boxes to each other.
+Draw concrete everyday scenes as isometric illustrations, with only the
+short captions written below, verbatim. Do not draw any recurring guide
+characters, mascots or portrait characters (no bird character, no woman exam
+candidate); show only the scene and the captions. Reproduce every caption
+exactly as written. Do not draw ✓ or ✕ marks anywhere in this image. Do not
+include case or precedent numbers. Keep the text inside the image to the
+heading, the captions and the conclusion tag given below; make each caption
+fully visible and not covered by any shape.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- SCENE ---
+Heading (bold, ONE line):
+無効と取消し
+Scene: a 2 x 2 grid of four small isometric scenes in the illustration. Each scene has one short caption under it, verbatim.
+  Scene 1: a contract paper with a big stamp on it from the very beginning, and a person trying to repaint it but the stamp stays. Caption: 無効は追認しても遡って有効にならない
+  Scene 2: a contract paper still alive, with a pending green stamp waiting to be decided. Caption: 取消しは取り消されるまでは一応有効
+  Scene 3: a contract paper being cancelled and a clock hand turning back to the very beginning. Caption: 取り消すと初めから無効とみなされる
+  Scene 4: an hourglass with two timer tags 5年 and 20年 on its sides, the earlier one dropping. Caption: 取消権だけに5年と20年の期間がある
+Conclusion tag (a short green banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
+取消権だけに時効
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to the kanji 有, 権, 時, 効, 取, 消, 認, which have visually
+similar but structurally different Simplified or Traditional Chinese
+counterparts. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also
+scan the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere in
+the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
