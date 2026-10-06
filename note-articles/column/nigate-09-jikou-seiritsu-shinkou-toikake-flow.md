@@ -23,7 +23,7 @@
 
 この分野の肢は、最後の一文を読むと、次の3つの型に分かれます（この記事では型F・型G・型Hと呼びます。⑧の型A〜型Eの続きです）。
 
-- **型F「取得時効は成立するか」と聞かれている**：占有の性質、善意無過失、占有の承継、起算点、対象、対抗のうち、どの軸を聞かれているかを見分けます。手順1〜3で判定します。
+- **型F「取得時効は成立するか」と聞かれている**（型Fは1つの型です。軸が多いので、会話式の解説では型F-1〜F-3の3つの場面に分けています）：占有の性質、善意無過失、占有の承継、起算点、対象、対抗のうち、どの軸を聞かれているかを見分けます。手順1〜3で判定します。
 - **型G「時効は完成するか。止まるか。やり直しか」と聞かれている**：時効の完成猶予と更新の問いです。手順4で判定します。
 - **型H「時効の期間はいくつか。その権利は時効にかかるか」と聞かれている**：権利の種類の問いです。手順5で判定します。
 
@@ -87,9 +87,9 @@
 
 ### まとめ
 
-- **型F（成立）**：所有の意思・平穏・公然は期間を通じて。善意無過失は開始時（無過失は推定されない）。悪意でも20年で成立。
-- **型F（承継）**：相続人は自己の占有のみも、併せても主張できる。譲受人が併せるときは、最初の占有者で判断。
-- **型F（起算点・対象・対抗）**：起算点は占有開始時に固定。賃借権・地上権も時効取得できる。建物の一部は独立性が必要。賃借権は対抗要件前に抵当権が登記されていれば買受人に対抗できない。
+- **型F-1（成立）**：所有の意思・平穏・公然は期間を通じて。善意無過失は開始時（無過失は推定されない）。悪意でも20年で成立。
+- **型F-2（承継）**：相続人は自己の占有のみも、併せても主張できる。譲受人が併せるときは、最初の占有者で判断。
+- **型F-3（起算点・対象・対抗）**：起算点は占有開始時に固定。賃借権・地上権も時効取得できる。建物の一部は独立性が必要。賃借権は対抗要件前に抵当権が登記されていれば買受人に対抗できない。
 - **型G（完成猶予・更新）**：承認と確定判決は更新。訴えの取下げ、催告、法定代理人のいない未成年者・成年被後見人は完成猶予。再度の催告に新たな猶予はない。
 - **型H（期間と対象）**：所有権・物権的請求権は消滅時効にかからない。債権は5年と10年、取消権は5年と20年、所有権以外の財産権は20年。
 
@@ -825,7 +825,7 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 ---
 
-### 型F（成立）：「いつの時点で見るか」を取り違えると、結論が逆になる
+### 型F-1（成立）：「いつの時点で見るか」を取り違えると、結論が逆になる
 
 **藍子**  
 「トリ先生、取得時効の10年って、占有を始めてから終わるまで、ずっと善意無過失でないとだめなんですよね。途中で『ここは他人の土地だった』と気づいたら、その時点で10年の時効は使えなくなる、と思っていました」
@@ -851,11 +851,11 @@ Aさんが、自分の土地だと信じて、確認もきちんとしたうえ�
 
 ちなみに、無過失は『推定されない』。所有の意思、善意、平穏、公然は推定されるけれど（186条1項）、無過失までは推定されないの。10年の時効を主張する人が、自分に過失がなかったことを示さなきゃいけない。20年は、そもそも善意無過失が要らないから、気楽なものよ」
 
-> 【画像挿入】型F〜型Hのイメージ図の、パネル1（型F・取得時効の成立）。画像のプロンプトは、この下の「図解プロンプト（型F〜型Hのイメージ図1枚）」にあります。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面1。
+> 【画像挿入】型F〜型Hのイメージ図の、パネル1（型F-1・取得時効の成立）。画像のプロンプトは、この下の「図解プロンプト（型F〜型Hのイメージ図1枚）」にあります。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面1。
 
 ---
 
-### 型F（承継）：占有を引き継ぐときは、「併せるか、併せないか」で基準が変わる
+### 型F-2（承継）：占有を引き継ぐときは、「併せるか、併せないか」で基準が変わる
 
 **藍子**  
 「Aさんが3年占有した土地を、事情を知っているBさんが譲り受けて、さらに7年占有しました。Bさんは悪意だから、短い10年の時効は使えないですよね」
@@ -877,11 +877,11 @@ Aさんが、自分の土地だと信じて、確認もきちんとしたうえ�
 **トリ先生**  
 「相続人も、被相続人の占有を併せて主張することも、自分の占有だけを主張することもできる。お父さんに所有の意思がなくても、相続した子が、その土地を新たに事実上支配して、自分のものとして管理を始めたなら、子は自分の占有だけを主張して時効取得できるの。『被相続人に所有の意思がなかったから、もうだめ』と決めつけるのは、早とちりよ」
 
-> 【画像挿入】型F〜型Hのイメージ図の、パネル2（型F・占有の承継）。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面2。
+> 【画像挿入】型F〜型Hのイメージ図の、パネル2（型F-2・占有の承継）。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面2。
 
 ---
 
-### 型F（起算点・対象・対抗）：起算点は動かせず、賃借権も取れるが、買受人には負ける
+### 型F-3（起算点・対象・対抗）：起算点は動かせず、賃借権も取れるが、買受人には負ける
 
 **藍子**  
 「時効の起算点って、時効を主張する人が、自分に有利な日を選べるものだと思っていました。完成の時期を、早めたいときもあるので」
@@ -905,7 +905,7 @@ Aさんが、自分の土地だと信じて、確認もきちんとしたうえ�
 **トリ先生**  
 「できることと、勝てることは別の話。賃借権が対抗要件を備える前に、その土地に抵当権が登記されていたら、時効取得に必要な期間が過ぎたあとでも、抵当権の実行による買受人には対抗できない。先に登記を備えた権利が強い、という世界に戻るの」
 
-> 【画像挿入】型F〜型Hのイメージ図の、パネル3（型F・起算点・対象・対抗）。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面3。
+> 【画像挿入】型F〜型Hのイメージ図の、パネル3（型F-3・起算点・対象・対抗）。この場面だけを1枚で使う画像のプロンプトは、下の「図解プロンプト（場面ごとに1枚ずつ使う場合）」の場面3。
 
 ---
 
@@ -1051,7 +1051,7 @@ Subtitle (smaller, centered, 1行):
 --- PANEL 1 ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
-型F　取得時効の成立
+型F-1　取得時効の成立
 Scene: a 3-scene row inside one panel. Scene 1: a person standing at a field with a calendar showing the first day circled; a few years later a notice board with another owner's name appears, but the person keeps standing there, and the calendar reaches ten pages. Caption (verbatim): 開始時に善意無過失なら10年 . Scene 2: a person hiding a hut behind a high fence in the middle of the calendar. Caption (verbatim): 占有の性質は期間を通じて必要 . Scene 3: a person with a title deed of someone else's field and a calendar of twenty pages. Caption (verbatim): 悪意でも20年で取得できる
 Conclusion tag (a short blue banner, 5-15 Japanese characters):
 時点を取り違えない
@@ -1059,7 +1059,7 @@ Conclusion tag (a short blue banner, 5-15 Japanese characters):
 --- PANEL 2 ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
-型F　占有の承継
+型F-2　占有の承継
 Scene: two scenes side by side inside one panel. Left: person A with a three-page calendar passes a key to person B who holds a seven-page calendar, and the two calendars are stacked into one ten-page calendar. Caption (verbatim): 併せるなら最初の占有者で判断する . Right: a son in front of a house that his late father only looked after, now putting up his own name plate on the gate. Caption (verbatim): 相続人は自己の占有だけも主張できる
 Conclusion tag (a short green banner, 5-15 Japanese characters):
 併せるなら最初の人で
@@ -1067,7 +1067,7 @@ Conclusion tag (a short green banner, 5-15 Japanese characters):
 --- PANEL 3 ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
-型F　起算点・対象・対抗
+型F-3　起算点・対象・対抗
 Scene: a 2 x 2 grid of four small isometric scenes inside one panel. Each scene has one short caption under it, verbatim.
   Scene 1: a calendar with the first day circled firmly and a hand trying to move the pin to another date, but it cannot move. Caption: 起算点は占有を始めた時に固定
   Scene 2: a person using a rented plot and a plate marked 賃借権 beside a small plot with a plate marked 地上権. Caption: 賃借権や地上権も時効取得できる
@@ -1240,7 +1240,7 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 上の「場面のイメージ図1枚」は、場面を1枚に並べた図です。会話式の記事に、場面ごとの画像を1枚ずつ差し入れるときは、次のプロンプトを使います。場面の番号は、記事の「画像挿入」の指示にある「パネル」の番号と同じです。図の中の事実と文言は、上の1枚の図と同じです。キャラクターは描きません。
 
-**場面1：型F　取得時効の成立**
+**場面1：型F-1　取得時効の成立**
 
 ```
 Create a Japanese-language explanatory illustration, landscape layout,
@@ -1290,7 +1290,7 @@ area, and no unpainted canvas edge anywhere in the final image.
 
 --- SCENE ---
 Heading (bold, ONE line):
-型F　取得時効の成立
+型F-1　取得時効の成立
 Scene: a 3-scene row in the illustration. Scene 1: a person standing at a field with a calendar showing the first day circled; a few years later a notice board with another owner's name appears, but the person keeps standing there, and the calendar reaches ten pages. Caption (verbatim): 開始時に善意無過失なら10年 . Scene 2: a person hiding a hut behind a high fence in the middle of the calendar. Caption (verbatim): 占有の性質は期間を通じて必要 . Scene 3: a person with a title deed of someone else's field and a calendar of twenty pages. Caption (verbatim): 悪意でも20年で取得できる
 Conclusion tag (a short blue banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
 時点を取り違えない
@@ -1308,7 +1308,7 @@ remove or redraw it so that only standard Japanese text appears anywhere in
 the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-**場面2：型F　占有の承継**
+**場面2：型F-2　占有の承継**
 
 ```
 Create a Japanese-language explanatory illustration, landscape layout,
@@ -1358,7 +1358,7 @@ area, and no unpainted canvas edge anywhere in the final image.
 
 --- SCENE ---
 Heading (bold, ONE line):
-型F　占有の承継
+型F-2　占有の承継
 Scene: two scenes side by side in the illustration. Left: person A with a three-page calendar passes a key to person B who holds a seven-page calendar, and the two calendars are stacked into one ten-page calendar. Caption (verbatim): 併せるなら最初の占有者で判断する . Right: a son in front of a house that his late father only looked after, now putting up his own name plate on the gate. Caption (verbatim): 相続人は自己の占有だけも主張できる
 Conclusion tag (a short green banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
 併せるなら最初の人で
@@ -1376,7 +1376,7 @@ remove or redraw it so that only standard Japanese text appears anywhere in
 the image.  Confirm the image contains one scene only, that no flowchart, diamond or connecting arrow between boxes appears anywhere, that no ✓ or ✕ mark appears, that nothing is rendered below the conclusion tag, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-**場面3：型F　起算点・対象・対抗**
+**場面3：型F-3　起算点・対象・対抗**
 
 ```
 Create a Japanese-language explanatory illustration, landscape layout,
@@ -1426,7 +1426,7 @@ area, and no unpainted canvas edge anywhere in the final image.
 
 --- SCENE ---
 Heading (bold, ONE line):
-型F　起算点・対象・対抗
+型F-3　起算点・対象・対抗
 Scene: a 2 x 2 grid of four small isometric scenes in the illustration. Each scene has one short caption under it, verbatim.
   Scene 1: a calendar with the first day circled firmly and a hand trying to move the pin to another date, but it cannot move. Caption: 起算点は占有を始めた時に固定
   Scene 2: a person using a rented plot and a plate marked 賃借権 beside a small plot with a plate marked 地上権. Caption: 賃借権や地上権も時効取得できる
