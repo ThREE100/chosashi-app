@@ -1,0 +1,59 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 50px 60px 40px; display: flex; flex-direction: column; }
+.row { display: flex; align-items: flex-start; margin-bottom: 24px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.nw { white-space: nowrap; }
+.dateline { font-size: 22px; margin: 2px 0 14px 0; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 20px; }
+.plainrow .ryaku { flex: 1; padding-left: 60px; }
+.sec { font-size: 24px; margin: 34px 0 0; }
+table.k { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-top: 16px; }
+table.k td { border: 1.5px solid #111; font-size: 22px; padding: 16px 16px; vertical-align: middle; line-height: 1.6; }
+table.k td.klab { width: 290px; text-align: center; white-space: nowrap; }
+table.k td.tall { height: 130px; vertical-align: top; }
+table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-top: 18px; }
+table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }
+table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.6em; padding: 0; font-size: 21px; }
+table.t td.shozai-lab { text-align: center; font-size: 19px; }
+table.t td.shozai { height: 52px; }
+table.t td.head { text-align: center; font-size: 17px; height: 76px; }
+table.t td.entry { height: 118px; }
+table.t td.blank { height: 60px; }
+table.t td.center { text-align: center; }
+table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.t td.genin { font-size: 17px; }
+table.t td .ink { font-size: 19px; }
+.tnote { font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6;
+          font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.essay { border: 3px solid #111; padding: 22px 26px; min-height: 460px; font-size: 24px; line-height: 1.95;
+          text-indent: 1em; margin-top: 18px; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 34px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 36px 60px 42px; border-bottom: 2px solid #bbb; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 14px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -3px; right: -3px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-2deg); }
+.red { color: #d0021b; font-weight: bold; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 21px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 60px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0 290px; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body>
+<div class="panel"><div class="ptitle ng">①誤答</div><div class="sec" style="margin-top:0">第3欄　建物の表示（2行目・5行目だけ）</div><div class="okwrap"><table class="t" style=""><colgroup><col style="width:24%"><col style="width:17%"><col style="width:12%"><col style="width:47%"></colgroup><tr><td class="head">行</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①種類</td><td class="head">登記原因及び<br>その日付</td></tr><tr><td class="entry" style="font-size:17px">2行目<br>（変更後の本件建物）</td><td class="entry center"></td><td class="entry center"><span class="ink">倉庫</span></td><td class="entry genin" style="font-size:19px"><span class="ink">平成26年８月10日種類変更、1番10に合併</span></td></tr></table><table class="t" style="margin-top:18px"><colgroup><col style="width:24%"><col style="width:17%"><col style="width:12%"><col style="width:47%"></colgroup><tr><td class="entry" style="font-size:17px">5行目<br>（合併後の附属建物）</td><td class="entry center"><span class="ink">符号１</span></td><td class="entry center"><span class="ink">倉庫</span></td><td class="entry genin" style="font-size:19px"><span class="ink">平成26年８月22日1番8を合併</span></td></tr></table></div></div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="sec" style="margin-top:0">第3欄　建物の表示（2行目・5行目だけ）</div><div class="okwrap"><table class="t" style=""><colgroup><col style="width:24%"><col style="width:17%"><col style="width:12%"><col style="width:47%"></colgroup><tr><td class="head">行</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①種類</td><td class="head">登記原因及び<br>その日付</td></tr><tr><td class="entry" style="font-size:17px">2行目<br>（変更後の本件建物）</td><td class="entry center"></td><td class="entry center"><span class="ink">倉庫</span></td><td class="entry genin" style="font-size:19px"><span class="red">①</span><span class="ink">平成26年８月10日種類変更</span><span class="ink strike">、</span><br><span class="ink">1番10に合併</span></td></tr></table><div class="bubrow" style="margin-left:330px"><span class="bubble">変更した欄の番号を頭に付ける（種類は①）。<br>種類変更は工事の完了を報告する登記なので日付を書く</span></div><table class="t" style="margin-top:18px"><colgroup><col style="width:24%"><col style="width:17%"><col style="width:12%"><col style="width:47%"></colgroup><tr><td class="entry" style="font-size:17px">5行目<br>（合併後の附属建物）</td><td class="entry center"><span class="ink">符号１</span></td><td class="entry center"><span class="ink">倉庫</span></td><td class="entry genin" style="font-size:19px"><span class="ink strike">平成26年８月22日</span><span class="ink">1番8を合併</span></td></tr></table></div><div class="bubrow" style="margin-left:330px"><span class="bubble">合併は登記をして初めて1個になる形成的登記。<br>日付は書かない（申請日の８月22日も書かない）</span></div></div>
+<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div><div class="sec" style="margin-top:0">第3欄　建物の表示（2行目・5行目だけ）</div><div class="okwrap good"><table class="t" style=""><colgroup><col style="width:24%"><col style="width:17%"><col style="width:12%"><col style="width:47%"></colgroup><tr><td class="head">行</td><td class="head" style="font-size:15px">主である<br>建物又は<br>附属建物</td><td class="head">①種類</td><td class="head">登記原因及び<br>その日付</td></tr><tr><td class="entry" style="font-size:17px">2行目<br>（変更後の本件建物）</td><td class="entry center"></td><td class="entry center"><span class="ink">倉庫</span></td><td class="entry genin" style="font-size:19px"><span class="ink">①平成26年８月10日種類変更<br>1番10に合併</span></td></tr></table><table class="t" style="margin-top:18px"><colgroup><col style="width:24%"><col style="width:17%"><col style="width:12%"><col style="width:47%"></colgroup><tr><td class="entry" style="font-size:17px">5行目<br>（合併後の附属建物）</td><td class="entry center"><span class="ink">符号１</span></td><td class="entry center"><span class="ink">倉庫</span></td><td class="entry genin" style="font-size:19px"><span class="ink">1番8を合併</span></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="caption" style="margin:10px 0 30px">平成26年度 第22問｜種類変更には①と日付、合併には日付を付けない</div></body></html>

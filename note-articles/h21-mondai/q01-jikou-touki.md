@@ -2,51 +2,75 @@
 
 **出題年度：平成21年度　午後の部　第1問**
 
-> Aは、平成2年1月1日、B所有の甲土地を、自己の所有地であると過失なく信じて占有を開始し、以後、所有の意思をもって、平穏に、かつ、公然と甲土地を占有している。次の対話は、この事例における取得時効と登記に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　Aは、所有権の移転の登記をしなくても、Cに対して甲土地の時効取得を主張することができます。（教授設問：平成10年1月1日に甲土地がBからCに譲渡された事例で、Aは平成15年1月1日にCに対して甲土地の時効取得を主張することができるか）
->
-> イ　この場合には、Aは、所有権の移転の登記をしなければ、Cに対して時効取得を主張することができません。（教授設問：CがBから甲土地を譲り受けたのが平成13年1月1日であった事例で、Aは平成15年1月1日にCに対して甲土地の時効取得を主張することができるか）
->
-> ウ　この場合も、Aは、所有権の移転の登記をしなければ、Bに対して時効取得を主張することができません。（教授設問：同じ事例で、Aが平成15年1月1日にBに対して甲土地の時効取得を主張する場合）
->
-> エ　そのような主張は許されません。（教授設問：同じ事例で、Aは平成5年1月1日から10年間の占有に基づいて、平成15年1月1日にCに対して甲土地の時効取得を主張することはできるか）
->
-> オ　Aは、自己の所有地であると過失なく信じて甲土地の占有を開始したので、20年の取得時効を主張することはできません。（教授設問：同じ事例で、Aが平成2年1月1日から20年が経過するのを待って、その後に、20年間の占有に基づいて、Cに対して甲土地の時効取得を主張することはできるか）
->
+> Aは、平成2年1月1日、B所有の甲土地を、自己の所有地であると過失なく信じて占有を開始し、以後、所有の意思をもって、平穏に、かつ、公然と甲土地を占有している。次の対話は、この事例における取得時効と登記に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　Aは、所有権の移転の登記をしなくても、Cに対して甲土地の時効取得を主張することができます。（教授設問：平成10年1月1日に甲土地がBからCに譲渡された事例で、Aは平成15年1月1日にCに対して甲土地の時効取得を主張することができるか）  
+>　  
+> イ　この場合には、Aは、所有権の移転の登記をしなければ、Cに対して時効取得を主張することができません。（教授設問：CがBから甲土地を譲り受けたのが平成13年1月1日であった事例で、Aは平成15年1月1日にCに対して甲土地の時効取得を主張することができるか）  
+>　  
+> ウ　この場合も、Aは、所有権の移転の登記をしなければ、Bに対して時効取得を主張することができません。（教授設問：同じ事例で、Aが平成15年1月1日にBに対して甲土地の時効取得を主張する場合）  
+>　  
+> エ　そのような主張は許されません。（教授設問：同じ事例で、Aは平成5年1月1日から10年間の占有に基づいて、平成15年1月1日にCに対して甲土地の時効取得を主張することはできるか）  
+>　  
+> オ　Aは、自己の所有地であると過失なく信じて甲土地の占有を開始したので、20年の取得時効を主張することはできません。（教授設問：同じ事例で、Aが平成2年1月1日から20年が経過するのを待って、その後に、20年間の占有に基づいて、Cに対して甲土地の時効取得を主張することはできるか）  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-取得時効と登記は、判例の理解が結論を左右する頻出テーマです。この事例ではAが平成2年1月1日に善意・無過失で占有を開始しているので、10年の取得時効は平成12年1月1日に完成します。この「完成日」を基準に、第三者が登場したのが完成の前なのか後なのか、そして相手が第三者なのか元所有者なのかで、登記が必要かどうかがきれいに切り替わります。この軸を押さえていきましょう。
+---
+
+取得時効と登記は、判例の理解が結論を左右する頻出テーマです。この事例ではAが平成2年1月1日に善意・無過失で占有を開始しているので、10年の取得時効は平成12年1月1日に完成します。
+
+この「完成日」を基準に、第三者が登場したのが完成の前なのか後なのか、そして相手が第三者なのか元所有者なのかで、登記が必要かどうかがきれいに切り替わります。この軸を押さえていきましょう。
 
 ### ア：時効完成前に現れた第三者には、登記がなくても時効取得を主張できる
 
-この事例では、CがBから甲土地を譲り受けたのが平成10年1月1日で、Aの時効完成日（平成12年1月1日）より前です。時効完成前に権利を取得した第三者は、時効取得者から見れば「元の所有者と同じ立場」に立つにすぎず、当事者類似の関係になります。そのため、時効取得者Aは登記をしなくてもCに対して時効取得を対抗できるというのが判例の立場です。学生の解答は正しい内容です。
+この事例では、CがBから甲土地を譲り受けたのが平成10年1月1日で、Aの時効完成日（平成12年1月1日）より前です。時効完成前に権利を取得した第三者は、時効取得者から見れば「元の所有者と同じ立場」に立つにすぎず、当事者類似の関係になります。
 
-**たとえば**、あなたが自分の土地だと信じて長年畑を耕してきた土地について、時効が完成するより前に、その土地の名義が親から子へと引き継がれていたとします。この場合、名義が変わったといっても新しい持ち主はあくまで「元の持ち主の続き」の立場なので、あなたは登記を持っていなくても「もう時効で自分のものです」と言えるわけです。
+そのため、時効取得者Aは登記をしなくてもCに対して時効取得を対抗できるというのが判例の立場です。学生の解答は正しい内容です。
+
+**たとえば**、あなたが自分の土地だと信じて長年畑を耕してきた土地について、時効が完成するより前に、その土地の名義が親から子へと引き継がれていたとします。
+
+この場合、名義が変わったといっても新しい持ち主はあくまで「元の持ち主の続き」の立場なので、あなたは登記を持っていなくても「もう時効で自分のものです」と言えるわけです。
 
 ### イ：時効完成後に現れた第三者には、登記をしなければ時効取得を主張できない
 
-こちらの設問では、CがBから譲り受けたのが平成13年1月1日で、Aの時効完成日（平成12年1月1日）より後です。時効完成後に元所有者から土地を譲り受けた第三者と、時効取得者との関係は、同じ土地をめぐる「二重譲渡に似た対抗関係」になります。そのため、民法177条により、先に登記を備えた方が勝つことになり、Aは登記をしなければCに時効取得を対抗できません。学生の解答は正しい内容です。
+こちらの設問では、CがBから譲り受けたのが平成13年1月1日で、Aの時効完成日（平成12年1月1日）より後です。時効完成後に元所有者から土地を譲り受けた第三者と、時効取得者との関係は、同じ土地をめぐる「二重譲渡に似た対抗関係」になります。
 
-**たとえば**、あなたの時効が完成した後になって、元の持ち主が「まだ自分名義だから」と第三者にその土地を売ってしまったとします。この場合は早い者勝ちの登記競争になり、あなたが先に登記を入れていなければ、買った相手に「この土地は時効で自分のものだ」と主張できなくなってしまうのです。
+そのため、民法177条により、先に登記を備えた方が勝つことになり、Aは登記をしなければCに時効取得を対抗できません。学生の解答は正しい内容です。
+
+**たとえば**、あなたの時効が完成した後になって、元の持ち主が「まだ自分名義だから」と第三者にその土地を売ってしまったとします。
+
+この場合は早い者勝ちの登記競争になり、あなたが先に登記を入れていなければ、買った相手に「この土地は時効で自分のものだ」と主張できなくなってしまうのです。
 
 ### ウ：元所有者Bに対しては、登記がなくても時効取得を主張できる
 
-学生は「Bに対しても登記をしなければ主張できない」と答えていますが、これは誤りです。時効取得者と元の所有者Bとは、時効の効果をめぐって直接向き合う「当事者」の関係にあり、対抗関係には立ちません。したがって、Aは登記を備えていなくても、元所有者Bに対しては当然に時効取得を主張することができます。登記が問題になるのは、あくまで第三者との関係においてです。
+学生は「Bに対しても登記をしなければ主張できない」と答えていますが、これは誤りです。時効取得者と元の所有者Bとは、時効の効果をめぐって直接向き合う「当事者」の関係にあり、対抗関係には立ちません。
 
-**たとえば**、あなたが時効で取得した土地について、元の持ち主本人から「返してくれ」と言われた場面を考えてください。相手は取引で新しく入ってきた第三者ではなく、まさに時効の相手方本人です。この場合、あなたは登記を持っていなくても「時効で自分のものになりました」と正面から言い返すことができます。
+したがって、Aは登記を備えていなくても、元所有者Bに対しては当然に時効取得を主張することができます。登記が問題になるのは、あくまで第三者との関係においてです。
+
+**たとえば**、あなたが時効で取得した土地について、元の持ち主本人から「返してくれ」と言われた場面を考えてください。
+
+相手は取引で新しく入ってきた第三者ではなく、まさに時効の相手方本人です。この場合、あなたは登記を持っていなくても「時効で自分のものになりました」と正面から言い返すことができます。
 
 ### エ：時効の起算点は占有開始時に固定され、任意にずらすことはできない
 
-学生は、Aが平成5年1月1日を起算点にして10年の時効を主張することは「許されません」と答えており、これは正しい内容です。判例は、時効の起算点は現実に占有を開始した時点に固定され、時効を援用する者が任意に起算点を選ぶことはできないとしています。Aの占有開始は平成2年1月1日なので、そこを起算点にするほかなく、都合の良い平成5年をスタート地点に選び直すことはできません。
+学生は、Aが平成5年1月1日を起算点にして10年の時効を主張することは「許されません」と答えており、これは正しい内容です。判例は、時効の起算点は現実に占有を開始した時点に固定され、時効を援用する者が任意に起算点を選ぶことはできないとしています。
+
+Aの占有開始は平成2年1月1日なので、そこを起算点にするほかなく、都合の良い平成5年をスタート地点に選び直すことはできません。
 
 **たとえば**、マラソンのスタート地点を自分の好きな場所にずらせないのと同じです。あなたが実際に走り始めた地点（占有を始めた日）がスタートと決まっているので、「途中のこの地点から数え直したい」と勝手に基準をずらすことは認められないのです。
 
 ### オ：善意無過失で占有を始めても、20年の取得時効を主張できる
 
-学生は「善意・無過失で占有を開始したので20年の取得時効は主張できない」と答えていますが、これは誤りです。善意・無過失の占有者は10年で時効取得できますが、だからといって20年の取得時効を主張してはいけないというルールはありません。占有者は、10年の時効（善意無過失）と20年の時効のいずれも援用でき、20年が経過するのを待ってから20年の占有に基づいて時効取得を主張することも認められます。
+学生は「善意・無過失で占有を開始したので20年の取得時効は主張できない」と答えていますが、これは誤りです。善意・無過失の占有者は10年で時効取得できますが、だからといって20年の取得時効を主張してはいけないというルールはありません。
 
-**たとえば**、特急にも各駅停車にも乗れる切符を持っている人が、あえて各駅停車を選んでもよいのと同じです。善意・無過失のAは10年という「特急」に乗れますが、20年という「各駅停車」で目的地に着くことも自由にできるので、「特急に乗れるから各駅停車には乗れない」ということにはならないのです。
+占有者は、10年の時効（善意無過失）と20年の時効のいずれも援用でき、20年が経過するのを待ってから20年の占有に基づいて時効取得を主張することも認められます。
+
+**たとえば**、特急にも各駅停車にも乗れる切符を持っている人が、あえて各駅停車を選んでもよいのと同じです。
+
+善意・無過失のAは10年という「特急」に乗れますが、20年という「各駅停車」で目的地に着くことも自由にできるので、「特急に乗れるから各駅停車には乗れない」ということにはならないのです。
+
+---
 
 ### まとめ
 
@@ -83,7 +107,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -106,10 +130,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 KANJI ACCURACY WARNING: the characters 登・記・権・効・占・者・第・三・過・失
 appear repeatedly in this poster. These are especially easy to render as
@@ -192,18 +234,18 @@ Conclusion tag (short green banner/pill):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 (取得時効と登記の5原則: 完成前の第三者・完成後の第三者・元所有者・起算点の固定・
 20年時効の重畳主張), with no duplicated or missing cards, confirm there is no
 intro illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -220,12 +262,12 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — an isometric horizontal timeline with a small
 flag marking 時効完成, figure icons for the occupier and any third party
 placed to the left or right of the flag, and a registry-book icon marking
-登記済み／未登記. Panels 1（肢ア）・2（肢イ）・3（肢ウ）share the same
+登記済み／未登記. Panels 1（ア）・2（イ）・3（ウ）share the same
 underlying two-diamond decision tree, rooted in a first diamond ("相手は
 元の所有者か、第三者か") and, when the answer is 第三者, a second diamond
 ("その第三者が権利を取得したのは時効完成の前か後か"), with the branch
 relevant to that panel's 肢 highlighted (thicker border, distinct color)
-and the other branches drawn smaller/greyed out. Panels 4（肢エ）・5（肢オ）
+and the other branches drawn smaller/greyed out. Panels 4（エ）・5（オ）
 are each resolved by a single check unrelated to that tree (起算点の固定と
 二重の時効主張の可否), so draw a labeled illustrative diagram for them
 instead of forcing a flowchart. Do not include case or precedent numbers
@@ -235,7 +277,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -259,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 完成前の第三者になら登記なしで勝てる
@@ -279,7 +329,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 完成前なら登記不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 完成後の第三者には登記が必要
@@ -299,7 +349,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 完成後は登記の先後
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 元所有者には登記なしで主張できる
@@ -319,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 元所有者には登記不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 起算点は占有開始時に固定される
@@ -336,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 起算点はずらせない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 善意無過失でも20年時効を選べる
@@ -360,11 +410,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 畳的主張の判例法理を含む）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 登・記・効・占・者・完・成 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panels 1・2・3 visibly share the
 same root diamond shape with different branches highlighted while Panels

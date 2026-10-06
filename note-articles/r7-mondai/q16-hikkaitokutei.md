@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第16問**
 
-> 筆界特定に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　対象土地の共有者の一人が筆界特定の申請人である場合には、申請人でない対象土地の他の共有者は、筆界特定登記官に対し、対象土地の筆界について意見又は資料を提出することができる。
->
-> イ　甲土地を所有するＡが、隣接する乙土地を所有するＢに対し、Ａが所有する範囲について所有権の確認の訴えを提起し、その判決が確定した場合には、Ａは、甲土地及び乙土地を対象土地として筆界特定の申請をすることができない。
->
-> ウ　筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料の閲覧を請求することができない。
->
-> エ　筆界特定の申請人は、書面申請の方法により筆界特定の申請をする際に対象土地の所有権を有することを証する書面として売買契約書の原本を添付したときは、当該売買契約書の原本の還付を請求することができる。
->
-> オ　甲土地と乙土地の筆界について既に甲土地の所有者を申請人とする筆界特定登記官による筆界特定がされていた場合であっても、当該筆界特定登記官が当該申請人の叔父であったという事情が判明したときは、乙土地の所有者は、改めて甲土地を対象土地として筆界特定の申請をすることができる。
->
+> 筆界特定に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　対象土地の共有者の一人が筆界特定の申請人である場合には、申請人でない対象土地の他の共有者は、筆界特定登記官に対し、対象土地の筆界について意見又は資料を提出することができる。  
+>　  
+> イ　甲土地を所有するＡが、隣接する乙土地を所有するＢに対し、Ａが所有する範囲について所有権の確認の訴えを提起し、その判決が確定した場合には、Ａは、甲土地及び乙土地を対象土地として筆界特定の申請をすることができない。  
+>　  
+> ウ　筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料の閲覧を請求することができない。  
+>　  
+> エ　筆界特定の申請人は、書面申請の方法により筆界特定の申請をする際に対象土地の所有権を有することを証する書面として売買契約書の原本を添付したときは、当該売買契約書の原本の還付を請求することができる。  
+>　  
+> オ　甲土地と乙土地の筆界について既に甲土地の所有者を申請人とする筆界特定登記官による筆界特定がされていた場合であっても、当該筆界特定登記官が当該申請人の叔父であったという事情が判明したときは、乙土地の所有者は、改めて甲土地を対象土地として筆界特定の申請をすることができる。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
 ---
@@ -28,13 +28,19 @@
 
 ### イ：所有権確認訴訟の判決があっても、筆界特定は申請できる
 
-不動産登記法132条1項6号は、筆界特定の却下事由として、民事訴訟の手続により筆界の確定を求める訴え（いわゆる筆界確定訴訟）の判決が確定しているときを定めています。ここで問題となっているのは所有権の範囲についての所有権確認訴訟であり、筆界確定訴訟ではありません。筆界は当事者の合意や判決によって変更できるものではなく、所有権の範囲とは別次元のものなので、所有権確認訴訟の判決が確定していても、それとは別に筆界特定の申請をすることができます。
+不動産登記法132条1項6号は、筆界特定の却下事由として、民事訴訟の手続により筆界の確定を求める訴え（いわゆる筆界確定訴訟）の判決が確定しているときを定めています。
+
+ここで問題となっているのは所有権の範囲についての所有権確認訴訟であり、筆界確定訴訟ではありません。
+
+筆界は当事者の合意や判決によって変更できるものではなく、所有権の範囲とは別次元のものなので、所有権確認訴訟の判決が確定していても、それとは別に筆界特定の申請をすることができます。
 
 **たとえば**、AさんとBさんの間で「どこまでがAさんの所有地か」という裁判が決着していたとしても、それとは別に「公法上の筆界がどこにあるか」を明らかにするための筆界特定の申請は妨げられません。
 
 ### ウ：筆界特定の途中でも、関係人は調書・資料の閲覧を請求できる
 
-不動産登記法141条は、筆界特定の申請人及び関係人は、公告があった時から筆界特定登記官による通知がされるまでの間、作成された調書及び提出された資料の閲覧を請求することができると定めています。筆界が特定される前の手続の途中段階であっても閲覧を請求できます。
+不動産登記法141条は、筆界特定の申請人及び関係人は、公告があった時から筆界特定登記官による通知がされるまでの間、作成された調書及び提出された資料の閲覧を請求することができると定めています。
+
+筆界が特定される前の手続の途中段階であっても閲覧を請求できます。
 
 **たとえば**、筆界特定の手続が進行中であっても、関係者は「今どんな資料が提出されているか」を確認するために、途中経過の調書や資料を閲覧することができます。
 
@@ -46,9 +52,17 @@
 
 ### オ：判断者に利害関係があったときは、改めて申請できる
 
-不動産登記法126条2号は、対象土地又は関係土地の所有権の登記名義人等の配偶者又は四親等内の親族に当たる者は、筆界特定登記官として筆界特定の手続を行うことができない（除斥）と定めています。叔父は三親等の傍系血族であり「四親等内の親族」に該当するため、原筆界特定を行った登記官は本来除斥されるべき立場にありました。また、不動産登記法132条1項7号は、対象土地について既に筆界特定がされていることを却下事由としていますが、そのただし書は「対象土地について更に筆界特定をする特段の必要があると認められる場合」にはこの限りでないと定めています。除斥事由のある登記官が原筆界特定を行っていたという事情は、この「特段の必要」に当たるため、乙土地の所有者は改めて甲土地を対象土地として筆界特定の申請をすることができます。
+不動産登記法126条2号は、対象土地又は関係土地の所有権の登記名義人等の配偶者又は四親等内の親族に当たる者は、筆界特定登記官として筆界特定の手続を行うことができない（除斥）と定めています。
+
+叔父は三親等の傍系血族であり「四親等内の親族」に該当するため、原筆界特定を行った登記官は本来除斥されるべき立場にありました。
+
+また、不動産登記法132条1項7号は、対象土地について既に筆界特定がされていることを却下事由としていますが、そのただし書は「対象土地について更に筆界特定をする特段の必要があると認められる場合」にはこの限りでないと定めています。
+
+除斥事由のある登記官が原筆界特定を行っていたという事情は、この「特段の必要」に当たるため、乙土地の所有者は改めて甲土地を対象土地として筆界特定の申請をすることができます。
 
 **たとえば**、以前の筆界特定を担当した登記官が、実は申請人の親戚だったと後から分かった場合、その判断の公正さに疑問が残るため、隣の土地の所有者は、改めて公正な立場の登記官による筆界特定をやり直すよう申請することができます。
+
+---
 
 ### まとめ
 
@@ -107,13 +121,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・記・続・証・対・閲・覧・還・号・登・地・所 — these must be
+kanji 権・続・閲・覧・還・地・所 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -132,11 +164,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 申請人でない共有者も意見可
-Illustration: A shared piece of land with two boundary stakes; two
-siblings (brother and sister icons) stand side by side. The brother has
-already submitted an application document to a registrar-officer icon.
-The sister hands over a folder labeled 資料 to the same registrar-officer,
-with a speech bubble icon above her (no text needed inside the bubble,
+Illustration: A shared piece of land with two boundary stakes; two co-owner figures stand side by side, one labeled 共有者（申請人）
+and the other labeled 共有者（申請人でない）. The 申請人 has already
+submitted an application document to a registrar-officer icon labeled
+筆界特定登記官. The other co-owner hands over a folder labeled 資料 to the
+same registrar-officer, with a speech bubble icon above them (no text needed inside the bubble,
 just a speech-bubble shape).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 意見・資料を提出可
@@ -190,20 +222,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「関係人に当たるか」「所有権確認訴訟か筆界確定訴訟か」「除斥事由・特段の必要に当たるか」を見抜けるようにする5パネル構成。イは所有権確認訴訟と筆界確定訴訟を対比する枠、オは除斥事由の確認から特段の必要の確認へ進む2段階の決定木にしている。②の色分け（訴訟とは別次元＝緑、関係人の権利保障＝青）を引き継いでいる。
 
@@ -228,9 +260,9 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 2（肢イ）uses a side-by-side comparison frame（LEFT: 所有
+flowchart. Panel 2（イ）uses a side-by-side comparison frame（LEFT: 所有
 権確認訴訟の判決（本肢）＝却下事由に当たらない、RIGHT: 筆界確定訴訟の
-判決＝却下事由に当たる）instead of a flowchart. Panel 5（肢オ）must be
+判決＝却下事由に当たる）instead of a flowchart. Panel 5（オ）must be
 drawn as a two-step flowchart, checking the 除斥事由 first and then the
 「特段の必要」exception. Unlike a glanceable summary poster, each panel
 MAY include a short「着眼点」callout box with 1-2 sentences that state
@@ -242,7 +274,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -268,13 +308,14 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申請人でない共有者も意見を提出できる
-Diagram: A shared piece of land with two boundary stakes; two sibling
-figures stand side by side. One has already submitted an application
-document to a registrar-officer figure. The other hands over a folder
+Diagram: A shared piece of land with two boundary stakes; two co-owner figures stand side by side, labeled 共有者（申請人）and
+共有者（申請人でない）. The 申請人 has already submitted an application
+document to a registrar-officer figure labeled 筆界特定登記官. The other
+co-owner hands over a folder
 labeled「資料」to the same registrar-officer, with a speech-bubble icon
 above them.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -285,7 +326,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 意見・資料を提出可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 所有権確認訴訟は筆界と別次元
@@ -304,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 筆界は別次元
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 手続の途中でも調書を閲覧できる
@@ -319,7 +360,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 閲覧できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 売買契約書の原本は還付を請求できる
@@ -334,13 +375,14 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 還付請求できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 除斥事由があれば改めて申請できる
-Diagram: A two-step decision flowchart. Start node: 原筆界特定を行った
-登記官は、対象土地の所有権登記名義人等の四親等内の親族（除斥事由）に
-当たるか？with a はい arrow down to a diamond node（highlighted with a
+Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond, since this 肢
+always starts from this fact): 原筆界特定を行った筆界特定登記官は、申請人
+の叔父（四親等内の親族＝除斥事由）だった, with an arrow down to the only
+diamond node（highlighted with a
 thick border): 既に筆界特定がされていることは通常却下事由だが、この
 事情は「特段の必要」の例外に当たるか？with a green はい branch leading
 to a conclusion node reading 改めて筆界特定の申請をすることができる, and
@@ -362,10 +404,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記規則213条1項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 筆, 界, 権, 訴, 訟, 却, 閲, 覧, 還, 付, 除, 斥, 親, 族 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 2 is drawn

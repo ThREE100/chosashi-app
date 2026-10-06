@@ -2,21 +2,25 @@
 
 **出題年度：平成21年度　午後の部　第18問**
 
-> 合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（以下「合体による登記等」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　一棟の建物を区分した数個の建物が隔壁部分の取壊しの工事をしたことによって区分建物の要件を欠くこととなった場合には、合体による登記等を申請しなければならない。
->
-> イ　所有権の登記名義人が異なる数個の建物を合体した場合の合体による登記等の申請は、合体前の建物の所有権の登記名義人全員が共同してしなければならない。
->
-> ウ　合体前の建物が区分建物であり、合体後の建物も区分建物である場合において、その所有者が当該合体後の区分建物が属する一棟の建物の所在する土地の所有権の登記名義人であったにもかかわらず、合体前の区分建物のいずれについても敷地権の登記がないときは、合体による登記等の申請をするに当たって、所有権が敷地権でないことを証する情報の添付は要しない。
->
-> エ　既登記の建物に接続して構造上は独立しているが利用上は独立していない建物を新築した場合の登記は、建物の合体による登記等の申請によらなければすることができない。
->
-> オ　合体前の一方の建物に抵当証券が発行されている抵当権の登記があり、かつ、合体後の建物の持分について当該抵当権に係る権利が存続する場合において、合体による登記等を申請するときは、当該抵当権に関する添付情報としては、当該抵当権の登記名義人が合体後の建物の持分についてする当該抵当権の登記と同一の登記をすることを承諾したことを証する当該抵当権の登記名義人が作成した情報又は当該抵当権の登記名義人に対抗することができる裁判があったことを証する情報を添付情報として提供すれば足りる。
->
+> 合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（以下「合体による登記等」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　一棟の建物を区分した数個の建物が隔壁部分の取壊しの工事をしたことによって区分建物の要件を欠くこととなった場合には、合体による登記等を申請しなければならない。  
+>　  
+> イ　所有権の登記名義人が異なる数個の建物を合体した場合の合体による登記等の申請は、合体前の建物の所有権の登記名義人全員が共同してしなければならない。  
+>　  
+> ウ　合体前の建物が区分建物であり、合体後の建物も区分建物である場合において、その所有者が当該合体後の区分建物が属する一棟の建物の所在する土地の所有権の登記名義人であったにもかかわらず、合体前の区分建物のいずれについても敷地権の登記がないときは、合体による登記等の申請をするに当たって、所有権が敷地権でないことを証する情報の添付は要しない。  
+>　  
+> エ　既登記の建物に接続して構造上は独立しているが利用上は独立していない建物を新築した場合の登記は、建物の合体による登記等の申請によらなければすることができない。  
+>　  
+> オ　合体前の一方の建物に抵当証券が発行されている抵当権の登記があり、かつ、合体後の建物の持分について当該抵当権に係る権利が存続する場合において、合体による登記等を申請するときは、当該抵当権に関する添付情報としては、当該抵当権の登記名義人が合体後の建物の持分についてする当該抵当権の登記と同一の登記をすることを承諾したことを証する当該抵当権の登記名義人が作成した情報又は当該抵当権の登記名義人に対抗することができる裁判があったことを証する情報を添付情報として提供すれば足りる。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-「合体」とは、物理的に別々だった二以上の建物が、工事などによって一棟の建物になることをいいます。この場合、合体後の建物について表題登記を、合体前の各建物について表題部の登記の抹消を、あわせて申請します（合体による登記等）。似て非なる「合併」「附属建物」との違いを意識しながら、各肢を確認していきましょう。
+---
+
+「合体」とは、物理的に別々だった二以上の建物が、工事などによって一棟の建物になることをいいます。
+
+この場合、合体後の建物について表題登記を、合体前の各建物について表題部の登記の抹消を、あわせて申請します（合体による登記等）。似て非なる「合併」「附属建物」との違いを意識しながら、各肢を確認していきましょう。
 
 ### ア：隔壁の取壊しで区分建物の要件を欠いたときは、合体による登記等を申請する
 
@@ -32,21 +36,29 @@
 
 ### ウ：合体前の区分建物に敷地権の登記がなければ、「敷地権でない旨の証明情報」は不要
 
-合体前後とも区分建物であり、その所有者が合体後の区分建物の属する一棟の建物の所在する土地の所有権の登記名義人であった場合でも、合体前の区分建物のいずれにも敷地権の登記がないときは、「所有権が敷地権でないことを証する情報」を添付する必要はありません。もともと敷地権の登記がない以上、あらためて敷地権でないことを証明させる必要がないからです。
+合体前後とも区分建物であり、その所有者が合体後の区分建物の属する一棟の建物の所在する土地の所有権の登記名義人であった場合でも、合体前の区分建物のいずれにも敷地権の登記がないときは、「所有権が敷地権でないことを証する情報」を添付する必要はありません。
+
+もともと敷地権の登記がない以上、あらためて敷地権でないことを証明させる必要がないからです。
 
 **たとえば**、土地の名義人が自分の土地の上に建てた区分建物同士を合体させるとき、その区分建物にまだ敷地権の登記がされていなければ、「これは敷地権ではありません」という証明書を用意しなくてよい、ということです。
 
 ### エ：構造上独立・利用上非独立の建物の新築は、「合体」ではなく附属建物等の問題
 
-既登記の建物に接続して、構造上は独立しているが利用上は独立していない建物を新築した場合は、合体による登記等の問題ではありません。これは附属建物の新築による表題部の変更（または合併）として処理される場面であり、「合体による登記等の申請によらなければできない」とする本肢は誤りです。合体は、もともと別個に存在していた建物が一個になる場合を指します。
+既登記の建物に接続して、構造上は独立しているが利用上は独立していない建物を新築した場合は、合体による登記等の問題ではありません。
+
+これは附属建物の新築による表題部の変更（または合併）として処理される場面であり、「合体による登記等の申請によらなければできない」とする本肢は誤りです。合体は、もともと別個に存在していた建物が一個になる場合を指します。
 
 **たとえば**、母屋に接続する形で、それだけでは独立して使えない離れ（渡り廊下でつながった物置など）を新しく建てた場合は、合体ではなく、母屋の附属建物として登記する問題になります。
 
 ### オ：抵当証券が発行されている抵当権では、承諾情報等の提供だけでは足りない
 
-合体前の一方の建物に、抵当証券が発行されている抵当権の登記がある場合、合体後の建物の持分についてその抵当権を存続させるには、抵当権の登記名義人が作成した承諾情報（または対抗できる裁判があったことを証する情報）の提供だけでは足りません。抵当証券が発行されているときは、その抵当証券の提供が別途必要となるため、「提供すれば足りる」とする本肢は誤りです。
+合体前の一方の建物に、抵当証券が発行されている抵当権の登記がある場合、合体後の建物の持分についてその抵当権を存続させるには、抵当権の登記名義人が作成した承諾情報（または対抗できる裁判があったことを証する情報）の提供だけでは足りません。
+
+抵当証券が発行されているときは、その抵当証券の提供が別途必要となるため、「提供すれば足りる」とする本肢は誤りです。
 
 **たとえば**、合体前の建物に付いていた抵当権について抵当証券が発行されている場合、名義人の承諾書だけを出しても登記はできず、抵当証券そのものも一緒に提出する必要がある、ということです。
+
+---
 
 ### まとめ
 
@@ -69,8 +81,8 @@
 - 合体による登記等の制度は不動産登記法49条に規定があり、これは条文で確認できます。エの「合体か附属建物か」の区別は制度の趣旨からの説明です。断定に慎重を要する箇所は、条文・先例で各自ご確認ください。
 - ローカルのアガルート教材フォルダは、この実行環境からは参照できないため、今回は参照していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（隔壁取壊しによる区分建物要件喪失時の申請義務・所有権登記名義人が異なる場合の共同申請・敷地権登記のない区分建物の合体と証明情報省略・構造上独立利用上非独立の新築建物の扱い・抵当証券発行済み抵当権の承諾情報を組み合わせた合体による登記等の問題）と同一・類似の問題が再出題されていないかを確認しました。「合体による登記等」を主題とする問題は他年度にも存在します（R05、R04、R02、H28、H26等）が、R04第15問ウが隔壁除去による申請義務（本問ア）と同一論点を扱う以外、敷地権登記省略（ウ）・抵当証券承諾（オ）等に一致する再出題はなく、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文を現行法（2026年8月時点）と照合しました。合体による登記等の中心規定である**不動産登記法49条**（2以上の建物が合体して1個の建物となった場合に、合体の日から1か月以内に、合体後の建物についての表題登記と合体前の建物についての表題部の登記の抹消を申請すべきことを定める規定）は、平成21年当時から改正されておらず、項・号の構成を含めて現行のままです。令和3年法律第24号による一連の不動産登記法改正（相続登記の申請義務化、相続人申告登記、所有不動産記録証明制度、令和8年4月1日施行の住所等変更登記の義務化など）は、いずれも権利に関する登記および表題部所有者の氏名等の変更に関する規律が中心で、49条および合体の登記に関する不動産登記令・同令別表の規律には及んでいません。抵当証券に関する取扱い（肢オ）の前提となる抵当証券法も存続しています。したがって**各肢の正誤の結論および本記事の条文引用に変更はなく、修正は行っていません**。
-- **添付情報の根拠条文の追加確認（2026-08-16実施）**：肢ウ・オの添付情報の扱いについて、従前は「不動産登記令の別表等の運用に基づく説明であり、個別の別表項番号までは特定していない」としていましたが、`note-articles/laws/fudousan-touki-rei-betsuhyou.md`のローカル法令データベースで**不動産登記令別表十三の項（合体による登記等の添付情報）**を確認したところ、いずれも条文レベルで裏付けが取れたため、次のとおり訂正・補記します。肢ウ（敷地権でない旨の証明情報の要否）は、同別表の添付情報欄ホの括弧書き「合体前の二以上の建物がいずれも敷地権の登記がない区分建物であり、かつ、合体後の建物も敷地権の登記がない区分建物となるときを除く。」により、合体前に敷地権の登記がない区分建物同士の合体で合体後も敷地権のない区分建物となる場合には、当該事由（所有権が敷地権でないこと）を証する情報の提供が明文で除外されており、本文の結論と一致することを条文上確認しました。肢オ（抵当証券発行時の取扱い）は、同別表の添付情報欄チ「トの存続登記に係る権利が抵当証券の発行されている抵当権であるときは、当該抵当証券の所持人若しくは裏書人が当該存続登記と同一の登記を承諾したことを証するこれらの者が作成した情報又はこれらの者に対抗することができる裁判があったことを証する情報及び当該抵当証券」により、抵当証券が発行されている抵当権については、登記名義人が作成した承諾情報等（欄ト）だけでは足りず、抵当証券の所持人・裏書人の承諾情報および抵当証券そのものの提供が別途必要であることが明文で定められており、本文の結論と一致することを条文上確認しました。いずれも**各肢の判定に変更はありません**。
+- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文を現行法（2026年8月時点）と照合しました。合体による登記等の中心規定である**不動産登記法49条**（2以上の建物が合体して1個の建物となった場合に、合体の日から1か月以内に、合体後の建物についての表題登記と合体前の建物についての表題部の登記の抹消を申請すべきことを定める規定）は、平成21年当時から改正されておらず、項・号の構成を含めて現行のままです。令和3年法律第24号による一連の不動産登記法改正（相続登記の申請義務化、相続人申告登記、所有不動産記録証明制度、令和8年4月1日施行の住所等変更登記の義務化など）は、いずれも権利に関する登記および表題部所有者の氏名等の変更に関する規律が中心で、49条および合体の登記に関する不動産登記令・同令別表の規律には及んでいません。抵当証券に関する取扱い（オ）の前提となる抵当証券法も存続しています。したがって**各肢の正誤の結論および本記事の条文引用に変更はなく、修正は行っていません**。
+- **添付情報の根拠条文の追加確認（2026-08-16実施）**：ウ・オの添付情報の扱いについて、従前は「不動産登記令の別表等の運用に基づく説明であり、個別の別表項番号までは特定していない」としていましたが、`note-articles/laws/fudousan-touki-rei-betsuhyou.md`のローカル法令データベースで**不動産登記令別表十三の項（合体による登記等の添付情報）**を確認したところ、いずれも条文レベルで裏付けが取れたため、次のとおり訂正・補記します。ウ（敷地権でない旨の証明情報の要否）は、同別表の添付情報欄ホの括弧書き「合体前の二以上の建物がいずれも敷地権の登記がない区分建物であり、かつ、合体後の建物も敷地権の登記がない区分建物となるときを除く。」により、合体前に敷地権の登記がない区分建物同士の合体で合体後も敷地権のない区分建物となる場合には、当該事由（所有権が敷地権でないこと）を証する情報の提供が明文で除外されており、本文の結論と一致することを条文上確認しました。オ（抵当証券発行時の取扱い）は、同別表の添付情報欄チ「トの存続登記に係る権利が抵当証券の発行されている抵当権であるときは、当該抵当証券の所持人若しくは裏書人が当該存続登記と同一の登記を承諾したことを証するこれらの者が作成した情報又はこれらの者に対抗することができる裁判があったことを証する情報及び当該抵当証券」により、抵当証券が発行されている抵当権については、登記名義人が作成した承諾情報等（欄ト）だけでは足りず、抵当証券の所持人・裏書人の承諾情報および抵当証券そのものの提供が別途必要であることが明文で定められており、本文の結論と一致することを条文上確認しました。いずれも**各肢の判定に変更はありません**。
 
 ---
 
@@ -84,7 +96,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -108,13 +120,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to these
 characters, which are easily rendered as Simplified Chinese by mistake:
 合・体・隔・壁・抵・当・証・券・敷・権（for example「証」and「券」must never
 be written in their simplified Chinese forms）.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -180,18 +210,18 @@ Conclusion tag (green pill banner below the illustration):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。肢ウは「敷地権登記なし」の2条件をANDでつなぐ決定木、肢エは「合体」と「附属建物」という2つの制度のどちらの話かを見分ける対比枠で示す。5パネル、portrait 1080×2600px。
+問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。ウは「敷地権登記なし」の2条件をANDでつなぐ決定木、エは「合体」と「附属建物」という2つの制度のどちらの話かを見分ける対比枠で示す。5パネル、portrait 1080×2600px。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -268,7 +298,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -287,7 +317,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 合体の登記が義務
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 名義人が違っても一人から申請できる
@@ -305,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一人から申請可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 敷地権登記なしの合体なら証明情報は不要
@@ -327,7 +357,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方満たせば証明不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 接続新築は合体でなく附属建物の話
@@ -349,7 +379,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 合体ではない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 承諾情報だけでなく抵当証券も必要
@@ -382,10 +412,10 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that panel 3 (肢ウ) is drawn as an
+between the header and the panels, that panel 3 (ウ) is drawn as an
 actual flowchart with both required AND conditions kept distinct and both
 outcomes of each branch node ending at their own conclusion node with no
-loop arrow, that panel 4 (肢エ) clearly separates the two different
+loop arrow, that panel 4 (エ) clearly separates the two different
 systems (合体 vs 附属建物) rather than forcing a decision-tree, that no
 肢 with a genuinely hidden second condition has been flattened into a
 single check, that each 着眼点 callout states a checking order rather

@@ -2,31 +2,39 @@
 
 **出題年度：平成20年度　午後の部　第6問**
 
-> 甲土地から乙土地を分筆する場合に、申請情報として提供する乙土地の地積に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　邸宅の敷地及びテニスコートからなる宅地の一部を分筆した。乙土地の実測面積は620.5782平方メートルであったので、地積を620平方メートルとする。
->
-> イ　居宅の敷地である宅地の一部を、公衆用道路として分筆した。乙土地の実測面積は9.0025平方メートルであったので、地積を9.00平方メートルとする。
->
-> ウ　畑の一部を、高圧線下の地役権の目的となる土地として分筆した。乙土地の実測面積は34.9471平方メートルであったので、地積を34.94平方メートルとする。
->
-> エ　保安林の一部を、温泉の湧出口の部分として分筆した。乙土地の実測面積は56.8703平方メートルであったので、地積を56.87平方メートルとする。
->
-> オ　畑の一部を、宅地造成工事中の土地として分筆した。乙土地の実測面積は215.4766平方メートルであったので、地積を215平方メートルとする。
->
+> 甲土地から乙土地を分筆する場合に、申請情報として提供する乙土地の地積に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　邸宅の敷地及びテニスコートからなる宅地の一部を分筆した。乙土地の実測面積は620.5782平方メートルであったので、地積を620平方メートルとする。  
+>　  
+> イ　居宅の敷地である宅地の一部を、公衆用道路として分筆した。乙土地の実測面積は9.0025平方メートルであったので、地積を9.00平方メートルとする。  
+>　  
+> ウ　畑の一部を、高圧線下の地役権の目的となる土地として分筆した。乙土地の実測面積は34.9471平方メートルであったので、地積を34.94平方メートルとする。  
+>　  
+> エ　保安林の一部を、温泉の湧出口の部分として分筆した。乙土地の実測面積は56.8703平方メートルであったので、地積を56.87平方メートルとする。  
+>　  
+> オ　畑の一部を、宅地造成工事中の土地として分筆した。乙土地の実測面積は215.4766平方メートルであったので、地積を215平方メートルとする。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-地積の記録の細かさは、不動産登記規則100条で決まっています。カギは、①宅地と鉱泉地は常に小数点第2位まで、②それ以外の地目は1平方メートル単位（整数）、③ただし10平方メートル以下なら地目を問わず小数点第2位まで、という3つのルールです。「地目は何か」「10㎡を超えるか」を毎回確認するのがコツです。
+---
+
+地積の記録の細かさは、不動産登記規則100条で決まっています。
+
+カギは、①宅地と鉱泉地は常に小数点第2位まで、②それ以外の地目は1平方メートル単位（整数）、③ただし10平方メートル以下なら地目を問わず小数点第2位まで、という3つのルールです。「地目は何か」「10㎡を超えるか」を毎回確認するのがコツです。
 
 ### ア：宅地は小数点第2位まで。620平方メートルは誤り
 
-宅地は、面積の大小にかかわらず1平方メートルの100分の1（小数点第2位）未満を切り捨てて記録します（不動産登記規則100条）。宅地に接続するテニスコートも宅地なので（準則69条（9））、実測620.5782平方メートルなら地積は620.57平方メートルとすべきで、「620平方メートル」とする本肢は誤りです。
+宅地は、面積の大小にかかわらず1平方メートルの100分の1（小数点第2位）未満を切り捨てて記録します（不動産登記規則100条）。
+
+宅地に接続するテニスコートも宅地なので（準則69条（9））、実測620.5782平方メートルなら地積は620.57平方メートルとすべきで、「620平方メートル」とする本肢は誤りです。
 
 **たとえば**、住宅の敷地（宅地）を分けたとき、その面積が620.5782平方メートルなら、登記される地積は「620.57平方メートル」。宅地なのに整数の「620平方メートル」で登記してしまうのは、細かさが足りず誤りなのです。
 
 ### イ：10平方メートル以下なので小数点第2位まで。9.00平方メートルは正しい
 
-公衆用道路は宅地・鉱泉地以外の地目なので原則は整数ですが、面積が10平方メートル以下の土地は、地目を問わず小数点第2位まで記録します。実測9.0025平方メートルは10平方メートル以下なので、地積は9.00平方メートルとするのが正しく、本肢は正しい記述です。
+公衆用道路は宅地・鉱泉地以外の地目なので原則は整数ですが、面積が10平方メートル以下の土地は、地目を問わず小数点第2位まで記録します。
+
+実測9.0025平方メートルは10平方メートル以下なので、地積は9.00平方メートルとするのが正しく、本肢は正しい記述です。
 
 **たとえば**、宅地の一部をちょっとした通り抜けの公衆用道路として9平方メートルほど分けたとき、「道路だから整数の9平方メートル」ではなく、10平方メートル以下の小さな土地なので「9.00平方メートル」と小数点第2位まで記録します。
 
@@ -38,7 +46,9 @@
 
 ### エ：保安林で10平方メートル超なので整数。56.87平方メートルは誤り
 
-「温泉の湧出口＝鉱泉地」（不動産登記事務取扱手続準則68条（7））を思い出させて小数点第2位まで書かせようとする肢ですが、地目変更を伴わない分筆では地目は保安林のままです。10平方メートルを超える保安林は整数で記録するので、地積は56平方メートルとすべきであり、「56.87平方メートル」とする本肢は誤りです。
+「温泉の湧出口＝鉱泉地」（不動産登記事務取扱手続準則68条（7））を思い出させて小数点第2位まで書かせようとする肢ですが、地目変更を伴わない分筆では地目は保安林のままです。
+
+10平方メートルを超える保安林は整数で記録するので、地積は56平方メートルとすべきであり、「56.87平方メートル」とする本肢は誤りです。
 
 **たとえば**、保安林の一部に温泉が湧いている場所を分けたとき、「温泉＝鉱泉地だから小数点第2位まで」と思いがちですが、地目を鉱泉地に変更しない限り地目は保安林。10平方メートルを超えているので、地積は整数の「56平方メートル」で記録します。
 
@@ -47,6 +57,8 @@
 宅地造成工事「中」の土地は、まだ宅地にはなっていません。地目は元の畑のままなので、10平方メートルを超える畑として整数で記録します。実測215.4766平方メートルなら、地積は215平方メートルとするのが正しく、本肢は正しい記述です。
 
 **たとえば**、畑を宅地にするために造成工事をしている最中の土地を分けたとき、「もうすぐ宅地だから小数点第2位まで」ではなく、まだ地目は畑なので、地積は整数の「215平方メートル」で記録します。
+
+---
 
 ### まとめ
 
@@ -67,8 +79,8 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝イ・オが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
 - **【2026年8月4日 現行法との整合性を再確認しました。修正は不要でした】** 不動産登記規則100条は現行でも「地積は、水平投影面積により、平方メートルを単位として定め、一平方メートルの百分の一（宅地及び鉱泉地以外の土地で十平方メートルを超えるものについては、一平方メートル）未満の端数は、切り捨てる。」という文言であることを確認しました。記事本文の3つのルール（①宅地・鉱泉地は常に小数点第2位まで、②それ以外の地目は原則1平方メートル単位、③ただし10平方メートル**以下**なら地目を問わず小数点第2位まで）は、この条文の「十平方メートルを**超える**もの」という書きぶりと一致しています。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、肢ア・エに準則の根拠を補いました】** `fudousan-touki-kisoku-1.md`で**規則100条**（地積）の全文が上記引用のとおりであること、**規則99条**が地目を田・畑・宅地…**鉱泉地**…**保安林**・**公衆用道路**…雑種地の23種類に区分していることを確認しました。さらに`fudousan-touki-jimu-junsoku.md`で、**準則68条（7）**が鉱泉地を「鉱泉（**温泉を含む。**）の湧出口及びその維持に必要な土地」と定義していること（肢エがひっかけになる理由そのもの）、**準則69条（9）**が「テニスコートは宅地に接続するものは宅地」としていること（肢アが宅地である根拠）、**準則69条（13）**が「高圧線の下の土地で他の目的に使用することができない区域は雑種地」としていること（肢ウは畑でも雑種地でも宅地・鉱泉地以外なので結論は同じ）を確認し、本文に反映しました。正誤の結論はいずれも変わりません。
-- 一方、**肢オの「宅地造成工事中の土地は、工事完了まで従前の地目（畑）のまま」という取扱いは、`laws/`収録の規則・準則には明文の規定が見当たりませんでした**（準則68条・69条にも造成中の土地に関する定めはありません）。実務上定着した取扱い・先例に基づくものと考えられますが、先例番号までは特定できていません。断定的に引用する前に一次資料の確認をおすすめします。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、ア・エに準則の根拠を補いました】** `fudousan-touki-kisoku-1.md`で**規則100条**（地積）の全文が上記引用のとおりであること、**規則99条**が地目を田・畑・宅地…**鉱泉地**…**保安林**・**公衆用道路**…雑種地の23種類に区分していることを確認しました。さらに`fudousan-touki-jimu-junsoku.md`で、**準則68条（7）**が鉱泉地を「鉱泉（**温泉を含む。**）の湧出口及びその維持に必要な土地」と定義していること（エがひっかけになる理由そのもの）、**準則69条（9）**が「テニスコートは宅地に接続するものは宅地」としていること（アが宅地である根拠）、**準則69条（13）**が「高圧線の下の土地で他の目的に使用することができない区域は雑種地」としていること（ウは畑でも雑種地でも宅地・鉱泉地以外なので結論は同じ）を確認し、本文に反映しました。正誤の結論はいずれも変わりません。
+- 一方、**オの「宅地造成工事中の土地は、工事完了まで従前の地目（畑）のまま」という取扱いは、`laws/`収録の規則・準則には明文の規定が見当たりませんでした**（準則68条・69条にも造成中の土地に関する定めはありません）。実務上定着した取扱い・先例に基づくものと考えられますが、先例番号までは特定できていません。断定的に引用する前に一次資料の確認をおすすめします。
 - エの「温泉の湧出口＝鉱泉地との思い込みを誘うが、地目変更を伴わなければ保安林のまま」という出題趣旨の理解は、公式正答（イオ）と規則100条から整合的に導いた説明で、当時の先例そのものの確認まではしていません。
 - アプリのデータベースの補足解説（kaisetsu_plus.json）では「宅地は㎡以下1桁」と記載されていましたが、規則100条の正しい内容は「宅地・鉱泉地は小数点第2位まで」ですので、本記事では正しく修正しています。
 - 【重要】データベース（takuitsu.json）に保存されていた各肢の原文は、「邸宅敷地とテニスコート部分の分筆。実測面積620.5782㎡→地積620㎡」のような簡潔な事例メモの形式でした。上記の引用部分（問題文全文）は、この事例メモをもとに一般的な試験問題の文体で再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
@@ -86,7 +98,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -109,10 +121,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -182,19 +212,19 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -215,7 +245,7 @@ measured value being rounded to its recorded value, a shovel-car icon for
 5 panels share the same two-step decision tree (地目は宅地または鉱泉地か
 → 面積は10平方メートルを超えるか), so render that shared tree in every
 panel and highlight only the branch relevant to that panel, fading the
-rest; Panel 4 (肢エ) additionally prepends one extra diamond node (地目
+rest; Panel 4 (エ) additionally prepends one extra diamond node (地目
 変更の登記を伴うか)before entering the shared tree, to show why a 温泉の
 湧出口 does not automatically become 鉱泉地. Where a 肢 requires checking
 multiple conditions in sequence before reaching a conclusion, draw the
@@ -280,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft beige containing the number 1.
 Heading (bold, ONE line):
 宅地は面積によらず常に細かく記録
@@ -299,7 +329,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 宅地は常に細かく
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft beige containing the number 2.
 Heading (bold, ONE line):
 10平方メートル以下は地目問わず細かく
@@ -319,7 +349,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 10㎡以下は例外
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3.
 Heading (bold, ONE line):
 宅地・鉱泉地以外は10㎡超で整数
@@ -340,7 +370,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 超えたら切り捨て
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft beige containing the number 4.
 Heading (bold, ONE line):
 温泉の湧出口でも地目変更なければ保安林
@@ -355,7 +385,7 @@ highlighted, leading to a conclusion node「1平方メートル単位(整数)で
 録」; the はい arrow of the extra diamond(地目が鉱泉地に変わる場合)and
 all other unrelated branches of the shared tree are rendered in a faded,
 greyed-out style without being omitted. An isometric保安林のイラストに
-温泉の湧出口アイコンを添え、「鉱泉地?」の吹き出しに✕マーク、「保安林の
+温泉の湧出口アイコンを添え、「鉱泉地？」の吹き出しに✕マーク、「保安林の
 まま」のラベルにチェックマーク、「56.8703→56㎡」のラベル。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、地目変更の登記を伴うかどうかを確認します。伴わなければ地目は保安
@@ -365,7 +395,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 現況だけでは変わらず
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft beige containing the number 5.
 Heading (bold, ONE line):
 造成中の土地はまだ元の地目のまま

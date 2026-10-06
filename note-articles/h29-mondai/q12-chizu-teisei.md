@@ -2,25 +2,31 @@
 
 **出題年度：平成29年度　午後の部　第12問**
 
-> 地図等の訂正に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　地図に準ずる図面に表示された土地の地番に誤りがある場合において，その訂正の申出をするときは，地図訂正申出情報と併せて土地所在図又は地積測量図を提供しなければならない。
->
-> イ　地図に準ずる図面に表示された土地の形状に誤りがある場合において，その訂正の申出をするときは，地図訂正申出情報と併せて土地所在図又は地積測量図を提供しなければならない。
->
-> ウ　地図に表示された隣接する二筆の土地の区画の誤りの訂正の申出をする場合において，当該土地が同一の登記所の管轄区域内にあるときは，一の地図訂正申出情報により申出をすることができる。
->
-> エ　地図に表示された土地の区画に誤りがある場合に，当該土地の所有権を売買により取得した者は，所有権の移転の登記を受ける前であっても，当該土地の区画の誤りの訂正の申出をすることができる。
->
-> オ　地図に表示された土地の区画に誤りがある場合において，当該土地の登記記録の地積に錯誤があるときは，当該土地の区画の誤りの訂正の申出は，地積に関する更正の登記の申請と併せてしなければならない。
->
+> 地図等の訂正に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　地図に準ずる図面に表示された土地の地番に誤りがある場合において，その訂正の申出をするときは，地図訂正申出情報と併せて土地所在図又は地積測量図を提供しなければならない。  
+>　  
+> イ　地図に準ずる図面に表示された土地の形状に誤りがある場合において，その訂正の申出をするときは，地図訂正申出情報と併せて土地所在図又は地積測量図を提供しなければならない。  
+>　  
+> ウ　地図に表示された隣接する二筆の土地の区画の誤りの訂正の申出をする場合において，当該土地が同一の登記所の管轄区域内にあるときは，一の地図訂正申出情報により申出をすることができる。  
+>　  
+> エ　地図に表示された土地の区画に誤りがある場合に，当該土地の所有権を売買により取得した者は，所有権の移転の登記を受ける前であっても，当該土地の区画の誤りの訂正の申出をすることができる。  
+>　  
+> オ　地図に表示された土地の区画に誤りがある場合において，当該土地の登記記録の地積に錯誤があるときは，当該土地の区画の誤りの訂正の申出は，地積に関する更正の登記の申請と併せてしなければならない。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
 
-登記所には、土地の位置・形状を示す「地図」や、それに準ずる図面が備え付けられています。これらに誤りがあるときの「地図訂正の申出」について、①どんな誤りのときにどの図面を添えるのか、②複数の土地をまとめて申出できるか、③誰が申出できるのか、④地積の錯誤があるときの取扱いを整理できているかが問われます。
+---
+
+登記所には、土地の位置・形状を示す「地図」や、それに準ずる図面が備え付けられています。
+
+これらに誤りがあるときの「地図訂正の申出」について、①どんな誤りのときにどの図面を添えるのか、②複数の土地をまとめて申出できるか、③誰が申出できるのか、④地積の錯誤があるときの取扱いを整理できているかが問われます。
 
 ### ア：地番の誤りの訂正には、土地所在図・地積測量図は不要
 
-地図に準ずる図面の訂正申出で、土地所在図または地積測量図の提供が必要となるのは、土地の位置や形状に誤りがある場合です（不動産登記規則16条5項2号）。地番の誤りを訂正する場合には、これらの図面を提供する必要はありません。「土地所在図又は地積測量図を提供しなければならない」とする本肢は誤りです。
+地図に準ずる図面の訂正申出で、土地所在図または地積測量図の提供が必要となるのは、土地の位置や形状に誤りがある場合です（不動産登記規則16条5項2号）。
+
+地番の誤りを訂正する場合には、これらの図面を提供する必要はありません。「土地所在図又は地積測量図を提供しなければならない」とする本肢は誤りです。
 
 **たとえば**、図面上で土地に振られている「地番」の番号だけが間違っているようなケースでは、土地の形や位置は正しいのですから、わざわざ測量してつくる土地所在図や地積測量図まで用意する必要はありません。番号の取り違えを直すだけだからです。
 
@@ -32,13 +38,17 @@
 
 ### ウ：複数の土地の区画訂正を、一の申出情報でまとめることはできない
 
-地図訂正の申出は、通常の登記手続とは異なり、同一の登記所の管轄区域内にある土地であっても、複数の土地の訂正を一の申出情報によってまとめて申し出ることはできません。1筆の土地についてする区画の訂正と地番の訂正など、異なる訂正の申出を一の申出情報でまとめることもできません。したがって「一の地図訂正申出情報により申出をすることができる」とする本肢は誤りです。
+地図訂正の申出は、通常の登記手続とは異なり、同一の登記所の管轄区域内にある土地であっても、複数の土地の訂正を一の申出情報によってまとめて申し出ることはできません。
+
+1筆の土地についてする区画の訂正と地番の訂正など、異なる訂正の申出を一の申出情報でまとめることもできません。したがって「一の地図訂正申出情報により申出をすることができる」とする本肢は誤りです。
 
 **たとえば**、隣り合う2筆の土地の区画がどちらも間違っていて、同じ登記所の管轄内にあったとしても、「2筆まとめて1枚の申出で直してください」とはできません。土地ごとに申出をする必要があるのです。
 
 ### エ：移転登記を受ける前の買主は、訂正の申出をできない
 
-地図に表示された土地の区画または地番に誤りがあるとき、その訂正の申出ができるのは、その土地の表題部所有者・所有権の登記名義人、またはそれらの相続人その他の一般承継人です（不動産登記規則16条1項）。土地を売買で取得しても、所有権の移転の登記を受ける前の買主は、まだこれらにあたらないため、訂正の申出をすることができません。「移転の登記を受ける前であっても申出をすることができる」とする本肢は誤りです。
+地図に表示された土地の区画または地番に誤りがあるとき、その訂正の申出ができるのは、その土地の表題部所有者・所有権の登記名義人、またはそれらの相続人その他の一般承継人です（不動産登記規則16条1項）。
+
+土地を売買で取得しても、所有権の移転の登記を受ける前の買主は、まだこれらにあたらないため、訂正の申出をすることができません。「移転の登記を受ける前であっても申出をすることができる」とする本肢は誤りです。
 
 **たとえば**、区画に誤りのある土地をＡさんから買ったＢさんでも、まだ自分名義への移転登記をしていない段階では、地図の訂正を申し出る資格がありません。まずは所有権の移転登記を受けて、登記名義人になってから申し出ることになります。
 
@@ -46,7 +56,11 @@
 
 地図の土地の区画に誤りがある場合において、その土地の登記記録の地積にも錯誤があるときは、地図訂正の申出を、地積に関する更正の登記の申請と併せてしなければなりません（不動産登記規則16条2項）。本肢は正しい記述です。
 
-**たとえば**、地図上の区画（形）が間違っていて、その結果、登記記録に載っている地積（面積）まで実際と食い違っているとします。この場合は、地図の訂正だけをしても面積が合わないままになってしまうので、地積を正しく直す更正登記と一緒に申し出て、図面と面積の両方をそろえる必要があるのです。
+**たとえば**、地図上の区画（形）が間違っていて、その結果、登記記録に載っている地積（面積）まで実際と食い違っているとします。
+
+この場合は、地図の訂正だけをしても面積が合わないままになってしまうので、地積を正しく直す更正登記と一緒に申し出て、図面と面積の両方をそろえる必要があるのです。
+
+---
 
 ### まとめ
 
@@ -67,9 +81,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア・イ（不動産登記規則16条5項2号）、ウ（登記研究696号）、エ（不動産登記規則16条1項）、オ（不動産登記規則16条2項）は、いずれもデータベースのexplanationフィールドで条文番号・先例番号まで明記されているものです。
-- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、肢ア・イの条文引用に誤りを発見し修正しました。「土地所在図・地積測量図の提供要否」の根拠として「不動産登記規則16条6項〜9項」を挙げていましたが、この範囲は電子申出方式に関する準用規定であり、当該論点とは無関係でした。正しくは、地図訂正申出の際に土地所在図・地積測量図の提供が必要な場合を定める**規則16条5項2号**です（条文原文「地図又は地図に準ずる図面に表示された土地の区画又は位置若しくは形状に誤りがあるときは、土地所在図又は地積測量図」で確認済み）。結論（ア誤・イ正の判定）自体に誤りはありませんでした。
+- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、ア・イの条文引用に誤りを発見し修正しました。「土地所在図・地積測量図の提供要否」の根拠として「不動産登記規則16条6項〜9項」を挙げていましたが、この範囲は電子申出方式に関する準用規定であり、当該論点とは無関係でした。正しくは、地図訂正申出の際に土地所在図・地積測量図の提供が必要な場合を定める**規則16条5項2号**です（条文原文「地図又は地図に準ずる図面に表示された土地の区画又は位置若しくは形状に誤りがあるときは、土地所在図又は地積測量図」で確認済み）。結論（ア誤・イ正の判定）自体に誤りはありませんでした。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和1年度第17問アで、本問の肢エとほぼ同じ規律が異なる事案で再出題されている、中程度の重複が見つかりました**。本問の肢エ「地図に表示された土地の区画に誤りがある場合、売買により所有権を取得した者は、移転登記を受ける前でも訂正の申出をすることができる」（誤り＝実際は申出できない）に対し、令和1年度第17問ア「相続によって所有権を取得した者は、相続による移転登記を経なければ訂正の申出をすることができない」（正しい）は、事案が売買から相続に変わっているだけで、「登記名義人になっていない取得者には訂正の申出資格がない」という同じ規律を問うています。noteで令和1年度第17問の解説記事を作成する際は、この点の説明が本記事の肢エと重なりやすいことに留意してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和1年度第17問アで、本問のエとほぼ同じ規律が異なる事案で再出題されている、中程度の重複が見つかりました**。本問のエ「地図に表示された土地の区画に誤りがある場合、売買により所有権を取得した者は、移転登記を受ける前でも訂正の申出をすることができる」（誤り＝実際は申出できない）に対し、令和1年度第17問ア「相続によって所有権を取得した者は、相続による移転登記を経なければ訂正の申出をすることができない」（正しい）は、事案が売買から相続に変わっているだけで、「登記名義人になっていない取得者には訂正の申出資格がない」という同じ規律を問うています。noteで令和1年度第17問の解説記事を作成する際は、この点の説明が本記事のエと重なりやすいことに留意してください。
 
 ---
 
@@ -110,13 +124,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・図・訂・正・所・在・積・測・量・形・状・要・申・出・情・報・複・数・区・画・買・主・移・転・登・記・名・義・人・更・錯・誤
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -200,20 +232,20 @@ these 5 headings):
 5. 地積の錯誤は更正登記とセットで申出
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 地番の誤りと形状の誤りで図面の要否が分かれるア・イは、同じ対比枠を使い回してどちらの誤りかで見比べられるようにし、複数土地の合算不可（ウ）と地積更正とのセット要否（オ）は「よくある勘違い」と「正しい実務の流れ」の対比、または実務の流れそのものを図解し、移転登記前の買主が申出できない理由（エ）は資格の有無を見分ける関係図で示した。
 
@@ -239,11 +271,11 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
 and a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-This article's 肢ア and 肢イ reuse one shared 対比枠（左右2枠）diagram
+This article's ア and イ reuse one shared 対比枠（左右2枠）diagram
 contrasting「地番の誤り」と「形状の誤り」: the panel's own error type is
 drawn in full color with a thick border, while the other error type is
 faded to a lighter tint with a thin border, so the two panels read as one
-comparison seen from two angles; 肢ウ・肢エ・肢オ are each designed
+comparison seen from two angles; ウ・エ・オ are each designed
 independently around their own fact pattern. Unlike a glanceable summary
 poster, each panel MAY include a short「着眼点」callout box with 1-2
 sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
@@ -257,7 +289,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -287,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地番の誤りは図面提供不要
@@ -307,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 図面提供は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 形状の誤りには測量図面が必要
@@ -326,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 測量図面が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 同一管轄でも土地ごとに申出
@@ -344,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 土地ごとに申出
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 移転登記前の買主は申出できない
@@ -365,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 移転登記後に申出可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地積の錯誤は更正登記とセットで
@@ -392,17 +428,16 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
 Chinese variant, paying special attention to
-地・番・図・訂・正・所・在・積・測・量・形・状・複・数・区・画・買・主・
-移・転・登・記・名・義・人・更・錯・誤. If any character renders as a
+地・番・図・訂・正・所・在・積・測・量・形・状・数・区・画・買・主・移・転・登・記・名・義・人・更・錯・誤. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the
-correct Japanese form. Also confirm that no character outside hiragana,
+correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Also confirm that no character outside hiragana,
 katakana, Jōyō kanji, and the Arabic numerals explicitly used above
 appears anywhere in the image — no Latin letters, no other non-Japanese
 scripts. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢ア・肢イ share one 対比枠 with the
+the header and the panels, that ア・イ share one 対比枠 with the
 highlight swapped between panels rather than being drawn as unrelated
-scenes, that 肢ウ・肢エ・肢オ have not been forced into an unnecessary
+scenes, that ウ・エ・オ have not been forced into an unnecessary
 decision-tree flowchart since each is resolved by a single check, that
 each 着眼点 callout states a checking order rather than only a
 conclusion and keeps every required element from the source article

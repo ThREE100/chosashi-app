@@ -2,19 +2,21 @@
 
 **出題年度：令和2年度　午後の部　第14問**
 
-> 敷地権に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　敷地権の設定がある規約敷地を分筆する場合において，当該規約敷地が区分建物と異なる登記所の管轄区域内にあるときは，添付情報として，当該規約を設定したことを証する情報を提供することを要しない。
->
-> イ　敷地権が存在していたがその登記をしないで区分建物の表題登記がされていた場合において，建物の表題部の更正の登記を申請するときは，敷地権の表示の登記原因及びその日付も申請情報の内容としなければならない。
->
-> ウ　敷地権となる土地の所有権の登記名義人の表示と専有部分の所有権の登記名義人の表示が一致していないときは，敷地権の発生を原因とする区分建物の表題部の変更の登記の申請は，添付情報として，各所有者の同一性を証する情報を提供してすることができる。
->
-> エ　区分建物の表題登記を申請する場合において，当該区分建物が属する一棟の建物の敷地について登記された所有権の登記名義人が当該区分建物の所有者であり，かつ，規約によりその専有部分と敷地利用権との分離処分を可能とする旨を定めたことにより所有権が当該区分建物の敷地権とならないときは，添付情報として，当該規約の定めを証する情報を提供することを要しない。
->
-> オ　いずれも敷地権付き区分建物である甲区分建物と乙区分建物を合体し，合体後の建物も敷地権付き区分建物になる場合において，合体前の甲区分建物と乙区分建物のそれぞれの敷地権の割合を合算したものが合体後の建物の敷地権の割合となるときであっても，添付情報として，敷地権の割合に係る規約を設定したことを証する情報を提供しなければならない。
->
+> 敷地権に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　敷地権の設定がある規約敷地を分筆する場合において，当該規約敷地が区分建物と異なる登記所の管轄区域内にあるときは，添付情報として，当該規約を設定したことを証する情報を提供することを要しない。  
+>　  
+> イ　敷地権が存在していたがその登記をしないで区分建物の表題登記がされていた場合において，建物の表題部の更正の登記を申請するときは，敷地権の表示の登記原因及びその日付も申請情報の内容としなければならない。  
+>　  
+> ウ　敷地権となる土地の所有権の登記名義人の表示と専有部分の所有権の登記名義人の表示が一致していないときは，敷地権の発生を原因とする区分建物の表題部の変更の登記の申請は，添付情報として，各所有者の同一性を証する情報を提供してすることができる。  
+>　  
+> エ　区分建物の表題登記を申請する場合において，当該区分建物が属する一棟の建物の敷地について登記された所有権の登記名義人が当該区分建物の所有者であり，かつ，規約によりその専有部分と敷地利用権との分離処分を可能とする旨を定めたことにより所有権が当該区分建物の敷地権とならないときは，添付情報として，当該規約の定めを証する情報を提供することを要しない。  
+>　  
+> オ　いずれも敷地権付き区分建物である甲区分建物と乙区分建物を合体し，合体後の建物も敷地権付き区分建物になる場合において，合体前の甲区分建物と乙区分建物のそれぞれの敷地権の割合を合算したものが合体後の建物の敷地権の割合となるときであっても，添付情報として，敷地権の割合に係る規約を設定したことを証する情報を提供しなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+---
 
 「敷地権」とは、マンションの専有部分（部屋）と、その敷地を使う権利（所有権・地上権・賃借権など）を一体化し、分離して処分できないようにした権利です。区分建物特有の論点で、規約敷地や分離処分、合体といった応用場面のルールが問われています。
 
@@ -26,27 +28,39 @@
 
 ### イ：敷地権の登記漏れを更正するときは、敷地権の登記原因・日付も申請情報にする
 
-敷地権が存在していたのに、その登記をしないまま区分建物の表題登記がされていた場合、後から建物の表題部の更正の登記を申請するときは、敷地権の表示の登記原因及びその日付も申請情報の内容としなければなりません。敷地権の目的である土地1筆ごとに、符号・敷地権の種類・割合・原因及びその日付を記録する必要があるからです。本肢は正しい記述です。
+敷地権が存在していたのに、その登記をしないまま区分建物の表題登記がされていた場合、後から建物の表題部の更正の登記を申請するときは、敷地権の表示の登記原因及びその日付も申請情報の内容としなければなりません。
+
+敷地権の目的である土地1筆ごとに、符号・敷地権の種類・割合・原因及びその日付を記録する必要があるからです。本肢は正しい記述です。
 
 **たとえば**、本来は敷地権付きで登記すべきだったのに敷地権の表示が抜けていたマンションについて、後から更正の登記で敷地権を加えるときは、「いつ敷地権が生じたのか」という原因と日付もあわせて申請情報に記載します。
 
 ### ウ：表示が一致していなければ、まず住所変更・更正登記が必要
 
-敷地となる土地の所有権登記名義人の表示と、専有部分の所有権登記名義人の表示が一致していない場合（住所変更等が片方の登記記録にだけ反映されていないケースなど）、単に「同一人物である」ことを証する情報を添付するだけでは足りません。敷地権の発生を原因とする区分建物の表題部の変更の登記を申請する前提として、まず住所（または氏名）の変更・更正の登記を別途行い、両者の表示を一致させる必要があります。本肢は「同一性を証する情報を提供してすることができる」としており、誤りです。
+敷地となる土地の所有権登記名義人の表示と、専有部分の所有権登記名義人の表示が一致していない場合（住所変更等が片方の登記記録にだけ反映されていないケースなど）、単に「同一人物である」ことを証する情報を添付するだけでは足りません。
+
+敷地権の発生を原因とする区分建物の表題部の変更の登記を申請する前提として、まず住所（または氏名）の変更・更正の登記を別途行い、両者の表示を一致させる必要があります。
+
+本肢は「同一性を証する情報を提供してすることができる」としており、誤りです。
 
 **たとえば**、マンションの持ち主が引っ越しをしていて、土地側の登記簿の住所と部屋側の登記簿の住所が違っている場合、「同じ人です」という証明書を添えるだけでは済まず、まずどちらかの住所を正しく直す登記をしてから、敷地権発生の変更登記の手続に進む必要があります。
 
 ### エ：分離処分を可能とする規約で敷地権にしないなら、その規約の証明情報が必要
 
-区分建物の表題登記において、敷地の所有権登記名義人が区分建物の所有者であり、規約で「専有部分と敷地利用権とを分離して処分できる」と定めたために所有権が敷地権とならない場合には、その規約の定めを証する情報を提供しなければなりません（不動産登記令別表12項）。本肢は「提供することを要しない」としており、誤りです。
+区分建物の表題登記において、敷地の所有権登記名義人が区分建物の所有者であり、規約で「専有部分と敷地利用権とを分離して処分できる」と定めたために所有権が敷地権とならない場合には、その規約の定めを証する情報を提供しなければなりません（不動産登記令別表12項）。
+
+本肢は「提供することを要しない」としており、誤りです。
 
 **たとえば**、本来なら敷地権になるはずの土地の権利を、規約で「部屋とは別々に売買できる」と定めて敷地権にしない場合、その規約が本当にあることを示す証明情報を添付する必要があります。
 
 ### オ：合算で割合が出せる合体なら、敷地権割合の規約証明情報は不要
 
-いずれも敷地権付きの区分建物どうしが合体し、合体後も敷地権付き区分建物になる場合において、合体前の各敷地権の割合を合算したものが合体後の敷地権の割合となるときは、その割合が計算で導けるため、改めて敷地権の割合に係る規約を設定したことを証する情報を提供する必要はありません。本肢は「提供しなければならない」としており、誤りです。
+いずれも敷地権付きの区分建物どうしが合体し、合体後も敷地権付き区分建物になる場合において、合体前の各敷地権の割合を合算したものが合体後の敷地権の割合となるときは、その割合が計算で導けるため、改めて敷地権の割合に係る規約を設定したことを証する情報を提供する必要はありません。
+
+本肢は「提供しなければならない」としており、誤りです。
 
 **たとえば**、敷地権の割合が「3分の1」と「6分の1」の2つの区分建物を合体して、合体後の割合がその合算（2分の1）になるようなときは、その割合は足し算で出せるので、割合についての規約証明情報を新たに付ける必要はありません。
+
+---
 
 ### まとめ
 
@@ -68,7 +82,7 @@
 - 出典（令和2年度午後の部 第14問）・正解番号（アイ＝1番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠のうち、エ（不動産登記令別表12項の規約証明情報）・オ（合体時の敷地権割合と規約証明情報）は、データベースのexplanationフィールドに取扱いが記載されています。ア（管轄が異なる規約敷地の分筆と規約証明情報の要否）・イ（敷地権の表示の更正での登記原因・日付）は、敷地権に関する登記手続の一般的な取扱いからの説明であり、個別の先例番号までの条文レベルの確定は本記事では行っていません。ウ（表示不一致と同一性証明情報）は、当初「土地所有者と専有部分所有者が別人なら敷地権は発生しない」という理由づけで作成しましたが、重複出題チェックの過程で令和7年度第13問イ（レビュー済みのnote-articles/r7-mondai/q13-shikichiken.mdで採用されている理由づけ）と同一の論点であることが判明したため、「表示不一致は同一性証明情報だけでは足りず、先に住所・氏名の変更/更正登記が必要」という、より正確な理由づけに修正しています。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
-- **QAチェックリスト再検証（2026-08-18実施）**：肢ウの理由づけは上記のとおり修正済みでしたが、見出し画像用フレーズの3つ目「土地と部屋の名義が別人なら、敷地権は生まれないんです」が、修正前の古い理由づけのまま取り残されていました。本文・まとめの現在の理由づけ（表示不一致は同一性証明情報だけでは足りず、先に住所・氏名の変更/更正登記が必要）に合わせて修正しました。肢ウの正誤・正解番号への影響はありません。
+- **QAチェックリスト再検証（2026-08-18実施）**：ウの理由づけは上記のとおり修正済みでしたが、見出し画像用フレーズの3つ目「土地と部屋の名義が別人なら、敷地権は生まれないんです」が、修正前の古い理由づけのまま取り残されていました。本文・まとめの現在の理由づけ（表示不一致は同一性証明情報だけでは足りず、先に住所・氏名の変更/更正登記が必要）に合わせて修正しました。ウの正誤・正解番号への影響はありません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。**令和7年度第13問は本問と同じ「敷地権」がテーマで、特に本問ウと令和7年度第13問イは、敷地の所有権登記名義人と専有部分の所有権登記名義人の表示が一致していない場合の変更登記の可否という同一の論点を、ほぼ同じ結論（誤り＝同一性証明情報だけでは足りない）で問うものです**（上記のとおり、本問ウの理由づけは令和7年度第13問の解説と整合するよう修正済みです）。他の肢（規約敷地の分筆・敷地権表示の更正・分離処分規約・合体時の敷地権割合）は令和7年度第13問のア・ウ・エ・オとは異なる出題内容であり、出題全体としては別の問題ですが、上記ウの1肢についてはnoteでの執筆・公開に際して「たとえば」の具体例が似た内容にならないよう注意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -109,13 +123,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 規・約・敷・地・権・証・明・登・記・原・因・変・更・分・離・処・分・合・体・割・合 — these
+kanji 規・約・敷・地・権・証・明・登・記・原・因・変・更・分・離・処・合・体・割 — these
 must be rendered in their standard Japanese (Jōyō) forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -201,20 +233,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ア・イ・オは単一のチェックで完結する肢のため通常の図解で示し、ウは「土地側と専有部分側の名義表示が一致しているか」を起点とする決定木、エは「敷地の所有権登記名義人と区分建物所有者の同一性」「分離処分を可能とする規約の有無」という2条件をANDで満たす必要がある決定木として描く。②の色分け（規約証明情報の要否＝緑、敷地権の表示・前提ルール＝青）を引き継いでいる。
 
@@ -240,12 +272,12 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No（はい／いいえ）branch arrows, and a
 final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panel 3（肢ウ）must be drawn as a decision flowchart starting from a
+Panel 3（ウ）must be drawn as a decision flowchart starting from a
 diamond node asking whether the land-side and unit-side name/address
 displays match; highlight the いいえ branch（太い縁取り・フルカラー）
 because that is the fact pattern this 肢 tests, and give the はい branch
 its own faded conclusion node rather than leaving it blank. Panel 4
-（肢エ）must be drawn as a two-step flowchart with two separate diamond
+（エ）must be drawn as a two-step flowchart with two separate diamond
 nodes — 敷地の所有権登記名義人は区分建物の所有者と同一か, and 規約で
 分離処分を可能とする旨を定めているか — because these are two distinct
 conditions that must both be satisfied, and neither may be compressed
@@ -260,7 +292,15 @@ the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -286,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -306,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 別管轄なら証明不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 更正登記でも敷地権の原因・日付を記録する
@@ -323,7 +363,7 @@ Diagram: マンション（区分建物）のアイソメトリック建物の�
 Conclusion tag (blue, 5-15 Japanese characters):
 原因・日付も記録
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 名義表示が一致しているかをまず確認する
@@ -348,16 +388,14 @@ the article's fact pattern）は、「同一性を証する情報」だけを添
 Conclusion tag (blue, 5-15 Japanese characters):
 証明書だけでは不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 名義人の同一性と分離処分規約を順に確認する
-Diagram: A two-step decision flowchart. 区分建物（専有部分）のアイソ
-メトリック建物とその真下の敷地（土地）を描く。最初のひし形ノード
-（highlighted, thick border）「敷地の所有権登記名義人は区分建物の
-所有者と同一か」。はい側（highlighted）の矢印は2つ目のひし形ノードへ
-進む。いいえ側（faded）の矢印は結論ノード「本肢の場面ではない」へ進む。
-2つ目のひし形ノード（highlighted）「規約で専有部分と敷地利用権との
+Diagram: A decision flowchart. 区分建物（専有部分）のアイソ
+メトリック建物とその真下の敷地（土地）を描く。最初は四角い開始ボックス
+（ひし形にしない）「敷地の所有権登記名義人と区分建物の所有者が同一」。
+そこから矢印でひし形ノード（highlighted）「規約で専有部分と敷地利用権との
 分離処分を可能とする旨を定めているか」。両者をつなぐ鎖アイコンを、この
 場面では「切れた」状態で描く。はい側（highlighted）は結論ノード「規約
 の定めを証する情報が必要」へ、緑のチェックマーク付きの書類アイコンが
@@ -371,7 +409,7 @@ Diagram: A two-step decision flowchart. 区分建物（専有部分）のアイ�
 Conclusion tag (green, 5-15 Japanese characters):
 規約の証明書が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 合算で割合が出るかを計算式で確認する
@@ -397,12 +435,12 @@ Small footnote text (bottom of panel, small font, verbatim):
 個別の条文番号までは本記事では確定していません。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 規・約・敷・地・権・証・明・登・記・原・因・変・更・分・
 離・処・合・体・割・致・住・所・氏 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that Panel 3 and Panel 4 are each drawn as
 actual flowcharts with branch nodes (not bare illustrations with no

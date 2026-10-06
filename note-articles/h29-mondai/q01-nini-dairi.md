@@ -4,100 +4,156 @@
 
 *この記事は、平成29年度本試験で実際に出題された「組合せ選択式」（ア〜オのうち正しいものの組合せを選ぶ）の問題を、現在の民法（2020年施行の債権法改正後）に完全準拠する内容へ作り直し、「単一選択式」（選択肢1〜5がそれぞれア〜オに対応し、正しいものを1つ選ぶ）にアレンジしたものです。出題当時の原文・出題形式・公式正解（組合せ選択式、正解2番＝アオ）は、書き換えていません。記事末尾の確認事項ブロックに、当時の内容を含めた変更の記録を残しています。*
 
-> 任意代理に関する次のアからオまでの記述のうち，正しいものは，後記1から5までのうち，どれか。
->
-> ア　Ａの任意代理人Ｂが，Ａのためにすることを示して，Ｃからその所有する建物を買い受けた場合において，Ｂが当該建物の種類又は品質に関して契約の内容に適合しないもの（契約不適合）があることを知っていたときは，Ａは，Ｃに対し，売主の契約不適合責任を問うことができない。
->
-> イ　Ａから何らの代理権も与えられていないＢが，Ａのためにすることを示して，Ａ所有の不動産をＣに売却した場合において，Ｃが，Ｂに売買契約を締結する代理権があると信じ，そのように信じたことに正当な理由があるときは，表見代理が成立する。
->
-> ウ　未成年者も任意代理人になることができるが，未成年者のした代理行為は，その法定代理人が取り消すことができる。
->
-> エ　本人Ａの許諾を得て任意代理人Ｂが復代理人Ｃを選任した場合には，Ｂは，Ａに対し，Ｃの選任につき責任を負わない。
->
-> オ　代理権を有しない者がした契約の本人による追認は，その契約を相手方が取り消した後は，することができない。
->
+> 任意代理に関する次のアからオまでの記述のうち，正しいものは，後記1から5までのうち，どれか。  
+>　  
+> ア　Ａの任意代理人Ｂが，Ａのためにすることを示して，Ｃからその所有する建物を買い受けた場合において，Ｂが当該建物の種類又は品質に関して契約の内容に適合しないもの（契約不適合）があることを知っていたときは，Ａは，Ｃに対し，売主の契約不適合責任を問うことができない。  
+>　  
+> イ　Ａから何らの代理権も与えられていないＢが，Ａのためにすることを示して，Ａ所有の不動産をＣに売却した場合において，Ｃが，Ｂに売買契約を締結する代理権があると信じ，そのように信じたことに正当な理由があるときは，表見代理が成立する。  
+>　  
+> ウ　未成年者も任意代理人になることができるが，未成年者のした代理行為は，その法定代理人が取り消すことができる。  
+>　  
+> エ　本人Ａの許諾を得て任意代理人Ｂが復代理人Ｃを選任した場合には，Ｂは，Ａに対し，Ｃの選任につき責任を負わない。  
+>　  
+> オ　代理権を有しない者がした契約の本人による追認は，その契約を相手方が取り消した後は，することができない。  
+>　  
 > 1　ア　　2　イ　　3　ウ　　4　エ　　5　オ
 
-任意代理の分野は、「代理行為の瑕疵は誰を基準に判断するのか」「代理権のない者がした行為はどうなるのか」「代理人の資格や復代理人を選んだときの責任はどうなるのか」といった、代理の基本的な枠組みを正確に理解できているかが問われます。ひとつひとつの肢が別々の論点になっているので、条文の趣旨とセットで押さえていきましょう。
+---
+
+任意代理の分野は、「代理行為の瑕疵は誰を基準に判断するのか」「代理権のない者がした行為はどうなるのか」「代理人の資格や復代理人を選んだときの責任はどうなるのか」といった、代理の基本的な枠組みを正確に理解できているかが問われます。
+
+ひとつひとつの肢が別々の論点になっているので、条文の趣旨とセットで押さえていきましょう。
 
 ### ア：買主が契約不適合を知っていても、契約不適合責任は問える
 
-代理行為について、ある事情を知っていたか・知らなかったか（善意・悪意）といった事情の有無は、原則として実際にその行為をした代理人自身について判断されます（民法101条1項）。したがって、代理人Ｂが建物の契約不適合を知っていた（悪意）以上、本人Ａもその事情を知っていたものとして扱われます。
+代理行為について、ある事情を知っていたか・知らなかったか（善意・悪意）といった事情の有無は、原則として実際にその行為をした代理人自身について判断されます（民法101条1項）。
 
-もっとも、現行民法の契約不適合責任（562条以下）は、旧法の瑕疵担保責任と異なり、「隠れた瑕疵」（＝買主が知らなかった瑕疵）であることを要件としていません。買主が引渡し時に契約不適合を知っていたとしても、それだけで責任追及が妨げられることはなく、種類・品質に関する不適合については、買主がその不適合を知った時から1年以内に売主へ通知すれば、追完請求・代金減額請求・損害賠償請求・契約の解除をすることができます（566条本文）。566条は「不適合を知った時から1年以内に通知しなければ権利を失う」という期限を定めているだけで、「知っていたら最初から請求できない」という規定ではありません。
+したがって、代理人Ｂが建物の契約不適合を知っていた（悪意）以上、本人Ａもその事情を知っていたものとして扱われます。
 
-したがって、Ｂが契約不適合を知っていた（＝Ａも知っていたものとして扱われる）としても、Ａは、その契約不適合を知った時から1年以内に通知をすれば、Ｃに対して契約不適合責任を追及することができます。「Ａは、Ｃに対し、売主の契約不適合責任を問うことができない」とするこの肢は誤りです。
+もっとも、現行民法の契約不適合責任（562条以下）は、旧法の瑕疵担保責任と異なり、「隠れた瑕疵」（＝買主が知らなかった瑕疵）であることを要件としていません。
 
-**たとえば**、Ａさんが「建物を買っておいて」と友人のＢさんに頼み、Ｂさんが売主Ｃさんから中古の一戸建てを買ったとします。このときＢさんが「実は雨漏りがあるな」と気づいていたのなら、その事情はＡさんも知っていたものとして扱われます。しかし「知っていたから泣き寝入り」にはなりません。雨漏りに気づいてから1年以内にＣさんへ通知さえすれば、Ａさんは修理を求めたり、代金を減額してもらったり、契約を解除したりすることができるのです。
+買主が引渡し時に契約不適合を知っていたとしても、「知っていた」というだけで責任追及の権利が失われることはなく（買主の善意は要件ではありません）、種類・品質に関する不適合については、買主がその不適合を知った時から1年以内に売主へ通知すれば、追完請求・代金減額請求・損害賠償請求・契約の解除をすることができます（566条本文。ただし、売主が引渡し時に不適合を知り、または重大な過失で知らなかった場合は、この通知自体が不要です）。
+
+566条は「不適合を知った時から1年以内に通知しなければ権利を失う」という期限を定めているだけで、「知っていたら最初から請求できない」という規定ではありません。
+
+したがって、Ｂが契約不適合を知っていた（＝Ａも知っていたものとして扱われる）としても、Ａは、その契約不適合を知った時から1年以内に通知をすれば、Ｃに対して契約不適合責任を追及することができる、と考えるのが基本です。
+
+（なお、買主が契約時に不適合を知っていた場合には、その状態を前提に契約したと評価され、そもそも「契約の内容に適合しない」とはいえないとされる場面もあり得ます。本肢は「問うことができない」と言い切っている点が誤り、という整理です。なお、101条1項が566条の「知った時」の起算点まで直接定めているかは解釈の問題で、条文から直ちに断定できるものではありません。）
+
+「Ａは、Ｃに対し、売主の契約不適合責任を問うことができない」とするこの肢は誤りです。
+
+**たとえば**、Ａさんが「建物を買っておいて」と友人のＢさんに頼み、Ｂさんが売主Ｃさんから中古の一戸建てを買ったとします。このときＢさんが「実は雨漏りがあるな」と気づいていたのなら、その事情はＡさんも知っていたものとして扱われます。
+
+しかし「知っていたから泣き寝入り」にはなりません。雨漏りに気づいてから1年以内にＣさんへ通知さえすれば、Ａさんは修理を求めたり、代金を減額してもらったり、契約を解除したりすることができるのです。
 
 **ここが分かりにくいポイント**：
-「代理人Ｂが悪いところを知っていた→本人Ａも知っていたことになる→知っていて買ったのだから文句は言えないはず」と、ここまで一気に結論を急いでしまう人が少なくありません。「知っていて買ったなら仕方ない」というのは日常の感覚にもよく合っていて、とても自然な考え方に思えるからです。ところが、この直感は現行の民法では通用しません。
+「代理人Ｂが悪いところを知っていた→本人Ａも知っていたことになる→知っていて買ったのだから文句は言えないはず」と、ここまで一気に結論を急いでしまう人が少なくありません。
+
+「知っていて買ったなら仕方ない」というのは日常の感覚にもよく合っていて、とても自然な考え方に思えるからです。ところが、この直感は現行の民法では通用しません。
 
 なぜ通用しないのかを、2つのステップに分けて整理してみましょう。
 
 1. **代理人の知・不知は、誰を基準に判断するか**：ここは直感どおりで大丈夫です。代理人Ｂが知っていた（悪意だった）以上、本人Ａも知っていたものとして扱われます（民法101条1項）。この部分の判断は変わりません。
-2. **「知っていた」ことが、契約不適合責任を追及できない理由になるか**：ここが分かれ道です。実はこの問題を「知っていたら請求できない」と感じてしまう人は、2020年の民法改正より前にあった「瑕疵担保責任」という制度のイメージを、無意識のうちに引きずっています。かつての瑕疵担保責任は、「隠れた瑕疵」――つまり買主が知らなかった欠陥――についてしか成立しない制度でした。だから当時は「知っていた＝隠れていない＝請求できない」という結論で正しかったのです。ところが現行の契約不適合責任（民法562条以下）には、この「知らなかったこと」という条件がそもそもありません。買主が最初から不適合を知っていたとしても、それを知った時から1年以内に売主へ通知しさえすれば、修理や代金の減額、契約解除を求めることができます（566条）。
+2. **「知っていた」ことが、契約不適合責任を追及できない理由になるか**：ここが分かれ道です。
+
+実はこの問題を「知っていたら請求できない」と感じてしまう人は、2020年の民法改正より前にあった「瑕疵担保責任」という制度のイメージを、無意識のうちに引きずっています。
+
+かつての瑕疵担保責任は、「隠れた瑕疵」――つまり買主が知らなかった欠陥――についてしか成立しない制度でした。だから当時は「知っていた＝隠れていない＝請求できない」という結論で正しかったのです。
+
+ところが現行の契約不適合責任（民法562条以下）には、この「知らなかったこと」という条件がそもそもありません。
+
+買主が最初から不適合を知っていたとしても、「知っていたから失権する」という規定はなく、知った時から1年以内に売主へ通知すれば、修理や代金の減額、契約解除を求めることができます（566条）。
 
 つまりこの肢が本当に試しているのは「代理人の知・不知の判断基準」ではなく、「瑕疵担保責任という古い制度と、契約不適合責任という今の制度とで、要件がどう変わったか」なのです。両者を並べて比べてみましょう。
 
 - **旧・瑕疵担保責任（改正前）**：買主が瑕疵を知らなかったこと（＝隠れた瑕疵であること）が必要。知っていたら請求できない。
-- **新・契約不適合責任（現行法）**：買主が不適合を知っていたかどうかは関係ない。知った時から1年以内に通知すれば請求できる。
+- **新・契約不適合責任（現行法）**：買主の善意は要件ではなく、悪意だけで失権することはない。知った時から1年以内に通知すれば請求できる（契約内容の解釈上、不適合にあたらない場合は別論）。
 
-したがって、代理人Ｂが悪意だった（＝本人Ａも悪意扱いになる）という事実は、契約不適合責任の成否そのものには影響しません。「Ａは、Ｃに対し、売主の契約不適合責任を問うことができない」とする本肢は、この点で誤りです。
+したがって、代理人Ｂが悪意だった（＝本人Ａも悪意扱いになる）という事実だけで、契約不適合責任を問えなくなるわけではありません。「Ａは、Ｃに対し、売主の契約不適合責任を問うことができない」とする本肢は、この点で誤りです。
 
 代理の基本的なルール（顕名・代理行為の瑕疵の判断基準など）を一度まとめて整理しておきたい方は、`note-articles/topics/dairi-no-kiso.md`もあわせてご参照ください。
 
 ### イ：まったく代理権のない者に、権限外行為の表見代理は成立しない
 
-権限外の行為の表見代理（民法110条）が成立するためには、その前提として何らかの「基本代理権」が存在していることが必要です。本肢のＢは、Ａから何らの代理権も与えられていないため、基本代理権がまったく存在しません。この場合は、Ｃが「Ｂに代理権がある」と信じ、そう信じたことに正当な理由があったとしても、表見代理は成立しません。よってこの肢は誤りです。
+権限外の行為の表見代理（民法110条）が成立するためには、その前提として何らかの「基本代理権」が存在していることが必要です。本肢のＢは、Ａから何らの代理権も与えられていないため、基本代理権がまったく存在しません。
 
-**たとえば**、Ａさんの土地を、まったく頼まれてもいないＢさんが勝手にＣさんへ売ってしまったとします。Ｃさんが「Ｂさんには売る権限があるはずだ」と真剣に信じ込んでいたとしても、そもそもＢさんに何の代理権も与えられていなかったのなら、その信頼だけを理由にＡさんが契約に縛られることはありません。表見代理でＡさんを守る（＝Ｃさんを保護する）には、少なくとも土台となる代理権が必要なのです。
+この場合は、Ｃが「Ｂに代理権がある」と信じ、そう信じたことに正当な理由があったとしても、表見代理は成立しません。よってこの肢は誤りです。
+
+**たとえば**、Ａさんの土地を、まったく頼まれてもいないＢさんが勝手にＣさんへ売ってしまったとします。
+
+Ｃさんが「Ｂさんには売る権限があるはずだ」と真剣に信じ込んでいたとしても、そもそもＢさんに何の代理権も与えられていなかったのなら、その信頼だけを理由にＡさんが契約に縛られることはありません。
+
+表見代理でＡさんを守る（＝Ｃさんを保護する）には、少なくとも土台となる代理権が必要なのです。
 
 **ここが分かりにくいポイント**：
-問題文の「Ｃが、Ｂに売買契約を締結する代理権があると信じ、そのように信じたことに正当な理由があるとき」という部分だけを読むと、「相手方に正当な理由がある→保護されるべきだ→表見代理は成立する」と、そのまま結論に飛びついてしまいがちです。「正当な理由」という言葉が目立つので、そこにばかり気を取られてしまうのです。
+問題文の「Ｃが、Ｂに売買契約を締結する代理権があると信じ、そのように信じたことに正当な理由があるとき」という部分だけを読むと、「相手方に正当な理由がある→保護されるべきだ→表見代理は成立する」と、そのまま結論に飛びついてしまいがちです。
 
-しかし、権限外の行為の表見代理（民法110条）が成立するには、判定の入り口にもう1つ、見落としやすい関門があります。それは「そもそも代理人に、何かしらの代理権（基本代理権）が本当にあったのか」という点です。正しい判断の手順は、次の2段階に分けて考えます。
+「正当な理由」という言葉が目立つので、そこにばかり気を取られてしまうのです。
+
+しかし、権限外の行為の表見代理（民法110条）が成立するには、判定の入り口にもう1つ、見落としやすい関門があります。
+
+それは「そもそも代理人に、何かしらの代理権（基本代理権）が本当にあったのか」という点です。正しい判断の手順は、次の2段階に分けて考えます。
 
 1. **まず、基本代理権の有無を確認する**：Ｂに、たとえ今回の売買契約とは違う内容であっても、何らかの代理権がＡから与えられていたか。
    - 何も与えられていない（ゼロ）場合 → この時点で表見代理は成立しません。相手方の正当理由は、判断するまでもありません。
    - 何らかの代理権が与えられていた場合 → 次のステップに進みます。
 2. **基本代理権があった場合にかぎり、相手方の正当理由の有無を確認する**：相手方Ｃが、Ｂに今回の契約を結ぶ権限があると信じ、そう信じたことに正当な理由があったか。
 
-本肢のＢは、Ａから「何らの代理権も与えられていない」――つまりステップ1の時点で基本代理権がゼロです。したがって、Ｃがどれほど強く、正当な理由をもって信じていたとしても、ステップ2に進むまでもなく表見代理は成立しません。「正当な理由があるかどうか」という問いにばかり気を取られると見落としがちですが、表見代理はいつも「土台となる代理権があること」が大前提になっている、という点を押さえておきましょう。
+本肢のＢは、Ａから「何らの代理権も与えられていない」――つまりステップ1の時点で基本代理権がゼロです。したがって、Ｃがどれほど強く、正当な理由をもって信じていたとしても、ステップ2に進むまでもなく表見代理は成立しません。
+
+「正当な理由があるかどうか」という問いにばかり気を取られると見落としがちですが、表見代理はいつも「土台となる代理権があること」が大前提になっている、という点を押さえておきましょう。
 
 表見代理の基本代理権や、代理人の行為能力・復代理人の責任まで含めた整理は、`note-articles/topics/dairi-no-kiso.md`もあわせてご参照ください。
 
 ### ウ：未成年者の代理行為を、法定代理人が取り消すことはできない
 
-代理人には行為能力が必要ありません（民法102条本文）。そのため、未成年者も任意代理人になることができます。もっとも、代理行為の効果は本人に帰属するものであって、代理人である未成年者自身の法律行為ではありません。したがって、未成年者のした代理行為を、その法定代理人が行為能力の制限を理由に取り消すことはできません。「法定代理人が取り消すことができる」とする本肢は誤りです。
+代理人には行為能力が必要ありません（民法102条本文）。そのため、未成年者も任意代理人になることができます。もっとも、代理行為の効果は本人に帰属するものであって、代理人である未成年者自身の法律行為ではありません。
 
-**たとえば**、Ａさんが高校生のＢさんに「私の代わりにこの契約をしてきて」と頼み、Ｂさんが代理人として契約を結んだとします。契約の効果はすべて本人のＡさんに帰属します。Ｂさんの親（法定代理人）が後から「うちの子は未成年だから、この契約は取り消す」と言うことはできません。未成年者を代理人に選んだＡさんが、その結果を引き受けるべきだからです。
+したがって、未成年者のした代理行為を、その法定代理人が行為能力の制限を理由に取り消すことはできません。「法定代理人が取り消すことができる」とする本肢は誤りです。
+
+**たとえば**、Ａさんが高校生のＢさんに「私の代わりにこの契約をしてきて」と頼み、Ｂさんが代理人として契約を結んだとします。契約の効果はすべて本人のＡさんに帰属します。
+
+Ｂさんの親（法定代理人）が後から「うちの子は未成年だから、この契約は取り消す」と言うことはできません。未成年者を代理人に選んだＡさんが、その結果を引き受けるべきだからです。
 
 ### エ：許諾を得て復代理人を選任しても、選任・監督に落ち度があれば責任を負う
 
 任意代理人は、本人の許諾を得たとき、またはやむを得ない事由があるときに、復代理人を選任することができます（民法104条）。もっとも、104条が定めているのは「復代理人を選任できる要件」であり、選任した後の責任について定めるものではありません。
 
-かつての民法（旧105条）には、任意代理人が本人の許諾を得て復代理人を選任した場合には、その選任及び監督についての責任を軽減する規定がありました。しかし、2020年施行の債権法改正でこの旧105条は削除されています。削除の理由は、代理人と本人との間には委任契約があり、代理人（受任者）はその委任の本旨に従い善良な管理者の注意をもって事務を処理する義務（民法644条）を負っている以上、復代理人の選任・監督についても、この一般原則と債務不履行の規定（民法415条）で判断すれば足り、特別に責任を軽減する規定を置く必要はない、というものです。
+かつての民法（旧105条）は、代理人が復代理人を選任したときは、（本人の許諾の有無を問わず）本人に対してその選任及び監督についての責任を負うと定めていました（1項）。本人の指名に従って選任した場合は、不適任・不誠実であることを知りながら本人への通知や解任を怠ったときだけ責任を負う、という特則もありました（2項）。
 
-したがって現行法では、本人の許諾を得て復代理人を選任したという事情だけで、代理人が選任・監督の責任を一律に免れるわけではありません。選任・監督に落ち度があれば、委任契約上の善管注意義務違反として、代理人は本人に対して責任を負うことがあります。「Ｃの選任につき責任を負わない」と言い切る本肢は誤りです。
+しかし、2020年施行の債権法改正でこの旧105条は削除されました（旧106条は、法定代理人による復代理人の選任を定める現105条に繰り上がっています。現105条は本肢の任意代理人の事案とは別の規定です）。あわせて、委任の規定に644条の2（復受任者の選任等）が新設されています。
 
-**たとえば**、Ａさんの許諾を得たＢさんが、代わりの人としてＣさんを復代理人に選んだとします。ところがＣさんが明らかに信用できない人物で、Ｂさんもそれを見抜けたはずだったのに任せてしまい、Ａさんに損害が出たとします。この場合、Ｂさんは「許諾をもらっていたから一切関係ない」とは言えず、委任契約上の善管注意義務に違反したとして、選び方・監督のしかたについて責任を問われることがあるのです。
+削除の理由は、代理人と本人との間には委任契約があり、代理人（受任者）はその委任の本旨に従い善良な管理者の注意をもって事務を処理する義務（民法644条）を負っている以上、復代理人の選任・監督についても、この一般原則と債務不履行の規定（民法415条）、復受任者の選任に関する644条の2などで判断すれば足り、旧105条のような特別規定は置かない、という整理です。
+
+したがって現行法では、本人の許諾を得て復代理人を選任したという事情だけで、代理人が選任・監督の責任を一律に免れるわけではありません。
+
+選任・監督に落ち度があれば、委任契約上の善管注意義務違反として、代理人は本人に対して責任を負うことがあります。「Ｃの選任につき責任を負わない」と言い切る本肢は誤りです。
+
+**たとえば**、Ａさんの許諾を得たＢさんが、代わりの人としてＣさんを復代理人に選んだとします。ところがＣさんが明らかに信用できない人物で、Ｂさんもそれを見抜けたはずだったのに任せてしまい、Ａさんに損害が出たとします。
+
+この場合、Ｂさんは「許諾をもらっていたから一切関係ない」とは言えず、委任契約上の善管注意義務に違反したとして、選び方・監督のしかたについて責任を問われることがあるのです。
 
 ### オ：相手方が取り消した後は、本人はもう追認できない
 
-代理権を有しない者（無権代理人）がした契約について、本人は追認することができますが、相手方が先にその契約を取り消してしまった後は、もはや本人が追認することはできません（民法115条本文）。追認権と取消権は、いずれか先に行使された方が優先し、相手方の取消しが先であれば契約は確定的に効力を失うからです。よってこの肢は正しい記述です。
+代理権を有しない者（無権代理人）がした契約について、本人は追認することができますが、相手方が先にその契約を取り消してしまった後は、もはや本人が追認することはできません（民法115条は相手方に取消権を認める規定で、取り消された契約はもはや追認できないというのは、その趣旨からの解釈です）。
 
-**たとえば**、無権代理人Ｂが結んでしまった契約について、相手方のＣさんが「本人が認めてくれるかどうか分からないし、この話はやめます」と先に取り消したとします。その後になって本人のＡさんが「やっぱりあの契約を認めよう」と追認しようとしても、もう手遅れです。Ｃさんが取り消した時点で契約は確定的になくなっているので、Ａさんの追認は効きません。
+追認権と取消権は、いずれか先に行使された方が優先し、相手方の取消しが先であれば契約は確定的に効力を失うからです。よってこの肢は正しい記述です。
+
+**たとえば**、無権代理人Ｂが結んでしまった契約について、相手方のＣさんが「本人が認めてくれるかどうか分からないし、この話はやめます」と先に取り消したとします。
+
+その後になって本人のＡさんが「やっぱりあの契約を認めよう」と追認しようとしても、もう手遅れです。Ｃさんが取り消した時点で契約は確定的になくなっているので、Ａさんの追認は効きません。
+
+---
 
 ### まとめ
 
-- **ア（誤）** 契約不適合責任は買主の善意・悪意を問わない。知った時から1年以内の通知で追及できる
+- **ア（誤）** 契約不適合責任は買主の善意が要件ではなく、悪意だけで失権しない。知った時から1年以内の通知で追及できるのが基本
 - **イ（誤）** 表見代理の成立には基本代理権が必要。代理権皆無なら不成立
 - **ウ（誤）** 未成年者も代理人になれるが、その代理行為を法定代理人は取り消せない
 - **エ（誤）** 復代理人選任の免責規定（旧105条）は削除済み。善管注意義務違反があれば責任を負う
 - **オ（正）** 相手方が取り消した後は、本人はもはや追認できない
 
-代理は「本人・代理人・相手方」の三者関係の中で、誰を基準に判断し、誰を保護するのかを常に意識するのがこの分野を得点源にするコツです。特に肢エのように、かつて条文に明記されていた責任軽減規定が削除され、現在は一般原則で判断する分野に変わった論点もあるので注意しましょう。
+代理は「本人・代理人・相手方」の三者関係の中で、誰を基準に判断し、誰を保護するのかを常に意識するのがこの分野を得点源にするコツです。特にエのように、かつて条文に明記されていた責任軽減規定が削除され、現在は一般原則で判断する分野に変わった論点もあるので注意しましょう。
 
 **正解：オ（選択肢5番）**
 
@@ -107,16 +163,16 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（2番＝ア・オ）は、いずれも**出題当時（平成29年度・改正前民法）の公式正解**として、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
-- **肢アは、出題当時と現行法とで結論が反転する論点です。** 出題当時の原文は「売主の**瑕疵担保責任**を問うことができない」となっていました。出題当時の改正前民法では、瑕疵担保責任（旧570条）は「隠れた瑕疵」（＝買主が知らなかった瑕疵）についてのみ生じるとされていました。代理人Ｂが瑕疵を知っていた（悪意）→民法101条により本人Ａも悪意とみなされる→瑕疵が「隠れて」いない→瑕疵担保責任を問えない、という流れで、肢アは出題当時「正しい（○）」でした。しかし現行民法（2020年施行）の契約不適合責任（562条以下）は「隠れた瑕疵」を要件としておらず、買主が不適合を知っていたとしても、それを知った時から1年以内に通知すれば責任を追及できます（566条）。つまり買主の善意・悪意は、契約不適合責任の成否を左右しません。この改正により、肢アの結論は「正しい」から「誤り」に反転します。この点はWebSearchで契約不適合責任の要件（民法562条・566条）を確認した上で結論づけています。
-- **この反転は、出題当時の「組合せ選択式」の問題としては、正解の組合せ自体を崩します。** 肢イ・ウ・オの判定根拠（民法102条・110条・115条）はいずれも2020年の債権法改正の影響を受けておらず、現行法でも出題当時と同じ結論です。したがって、出題当時の組合せ選択式のまま現行法を当てはめると、正しい肢はオのみとなり、出題当時の選択肢1〜5（アウ・アオ・イウ・イエ・エオ、いずれも2肢の組合せ）のどれとも一致しません。今回、記事を「単一選択式」（1=ア、2=イ、3=ウ、4=エ、5=オ）にアレンジしたのは、この「現行法では答えが一意に定まらない」という状態を解消し、現行法に完全準拠した学習教材として使えるようにするためです。
+- **アは、出題当時と現行法とで結論が反転する論点です。** 出題当時の原文は「売主の**瑕疵担保責任**を問うことができない」となっていました。出題当時の改正前民法では、瑕疵担保責任（旧570条）は「隠れた瑕疵」（＝買主が知らなかった瑕疵）についてのみ生じるとされていました。代理人Ｂが瑕疵を知っていた（悪意）→民法101条により本人Ａも悪意とみなされる→瑕疵が「隠れて」いない→瑕疵担保責任を問えない、という流れで、アは出題当時「正しい（○）」でした。しかし現行民法（2020年施行）の契約不適合責任（562条以下）は「隠れた瑕疵」を要件としておらず、買主が不適合を知っていたとしても、それを知った時から1年以内に通知すれば責任を追及できます（566条）。つまり買主の善意・悪意は、契約不適合責任の成否を左右しません。この改正により、アの結論は「正しい」から「誤り」に反転します。この点はWebSearchで契約不適合責任の要件（民法562条・566条）を確認した上で結論づけています。
+- **この反転は、出題当時の「組合せ選択式」の問題としては、正解の組合せ自体を崩します。** イ・ウ・オの判定根拠（民法102条・110条・115条）はいずれも2020年の債権法改正の影響を受けておらず、現行法でも出題当時と同じ結論です。したがって、出題当時の組合せ選択式のまま現行法を当てはめると、正しい肢はオのみとなり、出題当時の選択肢1〜5（アウ・アオ・イウ・イエ・エオ、いずれも2肢の組合せ）のどれとも一致しません。今回、記事を「単一選択式」（1=ア、2=イ、3=ウ、4=エ、5=オ）にアレンジしたのは、この「現行法では答えが一意に定まらない」という状態を解消し、現行法に完全準拠した学習教材として使えるようにするためです。
 - 各肢の条文根拠について、ア（民法101条1項・566条）、イ（民法110条）、ウ（民法102条本文）、オ（民法115条本文）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているもの、または本記事の現行法チェックでWebSearchにより確認したものです。
-- **全面リニューアル（2026-07-21実施・追記）**：ユーザーの依頼により、本記事を「現行法（2020年施行の債権法改正後の民法）に完全準拠する内容」への全面書き換えを行いました。出題形式も、出題当時の「組合せ選択式」（ア〜オのうち正しいものの組合せを選ぶ）から、「単一選択式」（選択肢1〜5がそれぞれア〜オに対応し、正しいものを1つ選ぶ）にアレンジしています。**これは平成29年度本試験で実際に出題された問題そのものではなく、その内容を現行法に基づいて構成し直した「現行法アレンジ版」であることに注意してください。** 出題当時の原文・出題形式・公式正解（組合せ選択式、正解2番＝アオ）は、このブロック内の記録として保持しています。肢アの文言も、出題当時の「瑕疵担保責任」から現行法の用語である「契約不適合責任」に書き換えています。
-- **肢エについて、今回新たな法令準拠上の発見がありました。** WebSearchで確認したところ、旧民法105条（任意代理人が復代理人を選任した場合の選任・監督責任を定める規定。本人の許諾を得て選任した場合は原則として責任を負わない旨の軽減規定を含む）は、2020年施行の債権法改正で削除されていることが判明しました。削除後は、代理人・本人間の委任契約上の善管注意義務（民法644条）と債務不履行の一般原則（民法415条）によって、復代理人の選任・監督についての代理人の責任が判断されます。前回までの記事本文・確認事項ブロックでは肢エの根拠として「民法104条」のみを挙げていましたが、104条は復代理人を選任できる要件を定めるにすぎず、選任後の責任の根拠条文ではないため、不正確でした。本版ではこの点を訂正し、644条・415条を根拠として明記しています。肢エの結論（「責任を負わない」は誤り）自体は、出題当時・現行法のいずれでも変わりません。
+- **全面リニューアル（2026-07-21実施・追記）**：ユーザーの依頼により、本記事を「現行法（2020年施行の債権法改正後の民法）に完全準拠する内容」への全面書き換えを行いました。出題形式も、出題当時の「組合せ選択式」（ア〜オのうち正しいものの組合せを選ぶ）から、「単一選択式」（選択肢1〜5がそれぞれア〜オに対応し、正しいものを1つ選ぶ）にアレンジしています。**これは平成29年度本試験で実際に出題された問題そのものではなく、その内容を現行法に基づいて構成し直した「現行法アレンジ版」であることに注意してください。** 出題当時の原文・出題形式・公式正解（組合せ選択式、正解2番＝アオ）は、このブロック内の記録として保持しています。アの文言も、出題当時の「瑕疵担保責任」から現行法の用語である「契約不適合責任」に書き換えています。
+- **エについて、今回新たな法令準拠上の発見がありました。** WebSearchで確認したところ、旧民法105条（代理人が復代理人を選任した場合に、許諾の有無を問わず選任及び監督についての責任を負わせる規定〔1項〕と、本人の指名に従った場合の特則〔2項〕。旧106条が現105条〔法定代理人による復代理人の選任〕に繰り上がった）は、2020年施行の債権法改正で削除されていることが判明しました。削除後は、代理人・本人間の委任契約上の善管注意義務（民法644条）と債務不履行の一般原則（民法415条）によって、復代理人の選任・監督についての代理人の責任が判断されます。前回までの記事本文・確認事項ブロックではエの根拠として「民法104条」のみを挙げていましたが、104条は復代理人を選任できる要件を定めるにすぎず、選任後の責任の根拠条文ではないため、不正確でした。本版ではこの点を訂正し、644条・415条を根拠として明記しています（2026-10-03：あわせて復受任者の選任を定める644条の2を根拠に追記し、旧105条の内容説明を正確化しました）。エの結論（「責任を負わない」は誤り）自体は、出題当時・現行法のいずれでも変わりません。
 - **表形式の修正（2026-07-22実施・追記）**：noteの本文エディタはMarkdownの表組みを描画できないため、直接貼り付けると「まとめ表」が崩れて表示される問題がありました。これを受けて、「### まとめ表」（表形式）を「### まとめ」（箇条書き「- **肢（判定）** ポイント」形式）に書き換えました。判定・ポイントの内容自体に変更はありません。この形式は、note.comインポート用のMT変換ツール（`tools/md_to_mt.py`）が箇条書きをそのまま`<li>`に変換するフォールバック処理に対応しているため、変換後の出力にも影響しません。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和3年度第1問（民法上の代理又は無権代理）が、本問と同じ条文群（民法102条・104条・110条・115条）を異なる具体的事例で問う、中程度の重複が見つかりました**。ただし各肢の具体的な事案・結論は本問とは異なっており（例：復代理人選任は本問がAの許諾ありのケース、令和3年度第1問がやむを得ない事由のケース）、一言一句同じ論点の再出題ではありません。noteで令和3年度第1問の解説記事を作成する際は、代理・無権代理の基本原則の説明が本記事と重なりやすい点に留意してください。
-- **肢ア・イに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢ア・肢イの結論に自力でたどり着けなかったというフィードバックを受け、それぞれの「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。肢アは、旧・瑕疵担保責任（隠れた瑕疵が要件）と現行・契約不適合責任（知・不知を問わない）の要件の違いを混同しやすい点、肢イは、相手方の「正当な理由」にばかり気を取られ、その前提となる「基本代理権の存在」という判定の入り口を見落としやすい点を、それぞれ掘り下げています。あわせて、両肢を深掘りする個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは、既に肢ア（現行法改正で結論が反転する最も誤答を誘いやすい論点）を捉えた内容になっており、肢イのテーマ（前提条件の見落とし）とは性質が異なるため、両方を1つの言い回しに無理にまとめず、現行のキャッチフレーズを維持しています。
-- **個別テーマ記事へのリンクを追加（2026-09-15実施）**：`link-map/h29-related-articles.md`の本問の欄で新規作成が推奨されていた個別テーマ記事「代理の基本（顕名・瑕疵の判断基準・表見代理・復代理）まとめ」を`note-articles/topics/dairi-no-kiso.md`として新規作成し、肢ア・肢イの「ここが分かりにくいポイント」末尾に、それぞれ関連する内容へのリンク文を追加しました。既存の解説文・正誤判定・まとめには変更を加えていません。
+- **ア・イに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、ア・イの結論に自力でたどり着けなかったというフィードバックを受け、それぞれの「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。アは、旧・瑕疵担保責任（隠れた瑕疵が要件）と現行・契約不適合責任（知・不知を問わない）の要件の違いを混同しやすい点、イは、相手方の「正当な理由」にばかり気を取られ、その前提となる「基本代理権の存在」という判定の入り口を見落としやすい点を、それぞれ掘り下げています。あわせて、両肢を深掘りする個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは、既にア（現行法改正で結論が反転する最も誤答を誘いやすい論点）を捉えた内容になっており、イのテーマ（前提条件の見落とし）とは性質が異なるため、両方を1つの言い回しに無理にまとめず、現行のキャッチフレーズを維持しています。
+- **個別テーマ記事へのリンクを追加（2026-09-15実施）**：`link-map/h29-related-articles.md`の本問の欄で新規作成が推奨されていた個別テーマ記事「代理の基本（顕名・瑕疵の判断基準・表見代理・復代理）まとめ」を`note-articles/topics/dairi-no-kiso.md`として新規作成し、ア・イの「ここが分かりにくいポイント」末尾に、それぞれ関連する内容へのリンク文を追加しました。既存の解説文・正誤判定・まとめには変更を加えていません。
 
 ---
 
@@ -145,7 +201,15 @@ marks, arrows — adapt icon set to the topic).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -154,22 +218,23 @@ kanji 代・理・権・任・意・責・追・認・者・契・約・不・�
 different stroke shapes — always draw the standard Japanese (Jōyō) form
 of these characters.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 2行):
 任意代理
 瑕疵は誰を基準に判断する？
 
 Subtitle (smaller, centered, 1行):
-代理権の限界と無権代理の後始末(第1問・現行法アレンジ版)
-
---- INTRO BLOCK (left: illustration; right: paragraph text) ---
-Illustration: An isometric flat-design scene showing three simple people
-figures arranged in a triangle — labeled "本人", "代理人", "相手方" — with
-a small contract document icon and a speech bubble floating above the
-"代理人" figure to show the agent is the one acting and speaking on the
-principal's behalf.
-代理行為の瑕疵は誰の基準か、代理権のない者の行為はどうなるか。
-任意代理の基本を確認します。
+代理権の限界と無権代理の後始末(平成29年度 午後の部 第1問)
 
 --- COLUMN A HEADER (pill-shaped badge) ---
 代理権の限界を見極める
@@ -242,16 +307,16 @@ Small credit text in the corner (optional, keep minimal):
 平成29年度 午後の部 第1問(現行法アレンジ版)
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 代・理・権・任・意・責・追・認・者・契・約・不・適・合・
-委・善・管・義・務. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm all
+委・善・管・義・務. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm all
 captions are 1〜2 short lines only, with no long paragraphs. Confirm the
 number of cards equals 5 exactly (3 cards under 代理権の限界を見極める,
 2 cards under 復代理と無権代理の後始末), with no duplicated or missing
 cards, and confirm every heading, illustration label, and caption text
 matches the Japanese text given above verbatim, with no paraphrasing and
-no substituted characters.
+no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -276,10 +341,17 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 契・約・不・適・合・
-責・任・瑕・疵・担・保・代・理・悪・知・誤 — always draw the standard
+any characters. Pay special attention to the kanji 契・約・不・適・合・責・任・瑕・疵・担・保・代・理・知・誤 — always draw the standard
 Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -296,7 +368,7 @@ Title (large, bold):
 「知っていた」は言い訳にならない？
 
 Subtitle (smaller, centered):
-第1問 肢ア－旧・瑕疵担保責任と新・契約不適合責任の違い
+平成29年度 午後の部 第1問 ア－旧・瑕疵担保責任と新・契約不適合責任の違い
 
 --- COMPARISON ---
 Layout: two panels side by side, connected by a small arrow icon labeled
@@ -329,16 +401,16 @@ claim is still possible.
 改正による要件の変化を試しています。
 
 --- FOOTER ---
-平成29年度 午後の部 第1問 肢ア(現行法アレンジ版) / 民法101条1項・562条・
+平成29年度 午後の部 第1問 ア(現行法アレンジ版) / 民法101条1項・562条・
 566条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 契・約・不・適・合・責・任・瑕・疵・担・保・代・理・悪・知・誤.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 契・約・不・適・合・責・任・瑕・疵・担・保・代・理・知・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm every heading, panel label, and callout text matches the Japanese
 text given above verbatim, with no paraphrasing and no substituted
 characters, and confirm the entire canvas, edge to edge, is filled with a
-fully opaque background with no transparency or alpha channel anywhere.
+fully opaque background with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card).
 ```
 
 ---
@@ -363,7 +435,15 @@ and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 代・理・権・限・外・
 表・見・成・立・基・本・正・当・誤 — always draw the standard Japanese
@@ -383,7 +463,7 @@ Title (large, bold):
 「正当な理由」より先に見るもの
 
 Subtitle (smaller, centered):
-第1問 肢イ－表見代理に隠れた前提条件
+平成29年度 午後の部 第1問 イ－表見代理に隠れた前提条件
 
 --- FLOWCHART ---
 A vertical flowchart with two diamond-shaped decision nodes connected top
@@ -412,18 +492,18 @@ without ever reaching Step 2.
 権がゼロであれば、相手方の信頼がどれほど強くても表見代理は成立しません。
 
 --- FOOTER ---
-平成29年度 午後の部 第1問 肢イ(現行法アレンジ版) / 民法110条
+平成29年度 午後の部 第1問 イ(現行法アレンジ版) / 民法110条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 代・理・権・限・外・表・見・成・立・基・本・正・当・誤. Confirm
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 代・理・権・限・外・表・見・成・立・基・本・正・当・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm
 every heading, node label, and callout text matches the Japanese text
 given above verbatim, with no paraphrasing and no substituted characters,
 and confirm the entire canvas, edge to edge, is filled with a fully
-opaque background with no transparency or alpha channel anywhere.
+opaque background with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node).
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -455,7 +535,15 @@ callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -479,16 +567,16 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 代理人が悪意でも契約不適合責任は追及可
 Diagram: A decision-tree flowchart. First diamond node: 代理人Ｂはその事
 情(契約不適合)を知っていたか？ with a はい(悪意)arrow proceeding to a
 label box reading 本人Ａも知っていたものとして扱われる(101条1項), then
-to a second diamond node (drawn with a thicker highlighted border): 買主
-が不適合を知っていたことは、契約不適合責任の成否に影響するか？ with a
-影響しない branch leading to a green conclusion node reading 知った時か
+to a rectangular check box (not a diamond, drawn with a thicker highlighted
+border): 買主が不適合を知っていても、契約不適合責任の成否には影響しない, with
+an arrow leading to a green conclusion node reading 知った時か
 ら1年以内の通知で追及できる(566条)。Illustration: the 代理人Ｂ figure
 with a small "知" (knowing) icon glowing above their head, connected by a
 dotted arrow to the "本人Ａ" figure who also gains the same "知" icon, and
@@ -503,7 +591,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1年以内の通知で追及可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 代理権ゼロなら表見代理は不成立
@@ -525,7 +613,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 基本代理権ゼロで不成立
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 代理人に必要なのは意思能力で足りる
@@ -542,7 +630,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 法定代理人は取消不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 許諾があっても免責規定はもう無い
@@ -560,7 +648,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 善管注意義務で判断
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 相手方の取消しが先なら追認不可
@@ -578,18 +666,18 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法101条1項・566条(肢ア)、110条(肢イ)、102条本文(肢ウ)、644条・415条
-(肢エ)、115条本文(肢オ)に基づく整理です。
+民法101条1項・566条(ア)、110条(イ)、102条本文(ウ)、644条・644条の2・415条
+(エ)、115条本文(オ)に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 代, 理, 権, 任, 追, 認, 契, 約, 善, 管 and any character that
-has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition
-肢(肢ア・肢イ) is drawn as an actual flowchart with branch nodes (not a
+肢(ア・イ) is drawn as an actual flowchart with branch nodes (not a
 bare illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary

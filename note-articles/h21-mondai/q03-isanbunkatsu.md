@@ -2,51 +2,79 @@
 
 **出題年度：平成21年度　午後の部　第3問**
 
-> 遺産分割に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記１から５までのうちどれか。
->
-> ア　遺産分割協議が成立した後であっても、共同相続人全員の合意で分割協議を解除した上で再度分割協議を成立させることができる。
->
-> イ　相続財産中の不動産につき、遺産分割により法定相続分と異なる権利を取得した相続人は、登記を経なくても、当該分割後に当該不動産につき権利を取得した第三者に対し、当該分割による権利の取得を対抗することができる。
->
-> ウ　遺産分割協議が成立したが、相続人Aがこの協議において相続人Bに対して負担した債務を履行しない場合には、Bは、遺産分割協議を解除することができる。
->
-> エ　相続放棄をした者は、他の共同相続人の同意があったとしても、遺産分割協議の当事者となることができない。
->
-> オ　被相続人が「甲不動産は相続人Cに相続させる。」との遺言をしていた場合であっても、他の相続人が甲不動産を取得することとし、Cは遺産中の他の財産を取得することとする旨の遺産分割をすることができる。
->
+> 遺産分割に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　遺産分割協議が成立した後であっても、共同相続人全員の合意で分割協議を解除した上で再度分割協議を成立させることができる。  
+>　  
+> イ　相続財産中の不動産につき、遺産分割により法定相続分と異なる権利を取得した相続人は、登記を経なくても、当該分割後に当該不動産につき権利を取得した第三者に対し、当該分割による権利の取得を対抗することができる。  
+>　  
+> ウ　遺産分割協議が成立したが、相続人Aがこの協議において相続人Bに対して負担した債務を履行しない場合には、Bは、遺産分割協議を解除することができる。  
+>　  
+> エ　相続放棄をした者は、他の共同相続人の同意があったとしても、遺産分割協議の当事者となることができない。  
+>　  
+> オ　被相続人が「甲不動産は相続人Cに相続させる。」との遺言をしていた場合であっても、他の相続人が甲不動産を取得することとし、Cは遺産中の他の財産を取得することとする旨の遺産分割をすることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+---
 
 遺産分割は、「全員の合意」ならどこまでできるのか、逆に「一人の債務不履行」を理由にどこまでできるのか、その線引きが判例で細かく決まっています。似たような場面でも結論が真逆になるので、一つずつ判例の立場を確認していきましょう。
 
 ### ア：全員の合意があれば、分割協議を解除して再度やり直せる
 
-いったん成立した遺産分割協議であっても、共同相続人の全員が合意すれば、その協議を解除した上で改めて分割協議をやり直すことができます。遺産分割は相続人全員の意思に基づくものなので、全員が「もう一度話し合おう」と合意する以上、これを妨げる理由はないというのが判例の立場です。この肢は正しい内容です。
+いったん成立した遺産分割協議であっても、共同相続人の全員が合意すれば、その協議を解除した上で改めて分割協議をやり直すことができます。
+
+遺産分割は相続人全員の意思に基づくものなので、全員が「もう一度話し合おう」と合意する以上、これを妨げる理由はないというのが判例の立場です。この肢は正しい内容です。
 
 **たとえば**、兄弟3人で一度は遺産の分け方を決めたものの、後になって全員が「やっぱりこの分け方は不公平だった」と納得したとします。この場合、3人全員が同意するなら、前の取り決めを白紙に戻して、もう一度分け直すことができるのです。
 
 ### イ：分割後に権利を取得した第三者には、登記がなければ対抗できない
 
-この肢は誤りです。遺産分割によって法定相続分と異なる（超える）権利を取得した相続人は、その超過部分については、遺産分割後にその不動産について権利を取得した第三者に対して、登記を備えなければ対抗することができません。分割後の第三者との関係は対抗問題として処理され、登記が勝敗を分けます。「登記を経なくても対抗できる」とする点が誤りです。なお、出題当時この結論は判例によるものでしたが、平成30年相続法改正で新設された**民法899条の2第1項**（2019年7月1日施行）により、相続による権利の承継は法定相続分を超える部分について登記等の対抗要件を備えなければ第三者に対抗できないことが、遺産分割によるかどうかを問わず条文上明文化されています。
+この肢は誤りです。
 
-**たとえば**、遺産の土地を法定相続分よりも多くもらう分割をした相続人が、登記をせずに放置している間に、別の相続人が自分の持分を第三者に売って登記まで移してしまったとします。この場合、多くもらったはずの相続人は、登記がなければその第三者に「この土地は自分のものだ」と主張しきれないのです。
+遺産分割によって法定相続分と異なる（超える）権利を取得した相続人は、その超過部分については、遺産分割後にその不動産について権利を取得した第三者に対して、登記を備えなければ対抗することができません。
+
+分割後の第三者との関係は対抗問題として処理され、登記が勝敗を分けます。「登記を経なくても対抗できる」とする点が誤りです。
+
+なお、出題当時この結論は判例によるものでしたが、平成30年相続法改正で新設された**民法899条の2第1項**（2019年7月1日施行）により、相続による権利の承継は法定相続分を超える部分について登記等の対抗要件を備えなければ第三者に対抗できないことが、遺産分割によるかどうかを問わず条文上明文化されています。
+
+**たとえば**、遺産の土地を法定相続分よりも多くもらう分割をした相続人が、登記をせずに放置している間に、別の相続人が自分の持分を第三者に売って登記まで移してしまったとします。
+
+この場合、多くもらったはずの相続人は、登記がなければその第三者に「この土地は自分のものだ」と主張しきれないのです。
 
 ### ウ：遺産分割協議は、債務不履行を理由に一方的に解除することはできない
 
-この肢は誤りです。判例は、遺産分割協議において相続人の一人が負担した債務を履行しない場合でも、他の相続人は民法541条（債務不履行による法定解除）の規定によって遺産分割協議を解除することはできないとしています。遺産分割は法的安定性が強く要請される行為なので、一人の不履行で協議全体を巻き戻すことは認められないのです。「Bは解除することができる」とする点が誤りです。
+この肢は誤りです。判例は、遺産分割協議において相続人の一人が負担した債務を履行しない場合でも、他の相続人は民法541条（債務不履行による法定解除）の規定によって遺産分割協議を解除することはできないとしています。
 
-**たとえば**、「土地をもらう代わりに、他の兄弟に現金を渡す」という約束で遺産を分けたのに、土地をもらった人がお金を払わなかったとします。それでも、他の兄弟は「約束を守らないなら遺産分割そのものを取り消す」と一方的に解除することはできず、あくまで約束したお金の支払いを別途請求していくことになります。
+遺産分割は法的安定性が強く要請される行為なので、一人の不履行で協議全体を巻き戻すことは認められないのです。「Bは解除することができる」とする点が誤りです。
+
+**たとえば**、「土地をもらう代わりに、他の兄弟に現金を渡す」という約束で遺産を分けたのに、土地をもらった人がお金を払わなかったとします。
+
+それでも、他の兄弟は「約束を守らないなら遺産分割そのものを取り消す」と一方的に解除することはできず、あくまで約束したお金の支払いを別途請求していくことになります。
 
 ### エ：相続放棄をした者は、全員の同意があっても遺産分割協議の当事者になれない
 
-相続放棄をした者は、初めから相続人でなかったものとみなされます。そのため、他の共同相続人が同意したとしても、相続放棄をした者が遺産分割協議の当事者となることはできません。放棄によって相続人の地位そのものを失っている以上、後から周りが同意しても当事者に復帰させることはできないのです。この肢は正しい内容です。
+相続放棄をした者は、初めから相続人でなかったものとみなされます。そのため、他の共同相続人が同意したとしても、相続放棄をした者が遺産分割協議の当事者となることはできません。
 
-**たとえば**、亡くなった親に多額の借金があったため、子の一人がきっぱり相続放棄をしたとします。その後で他のきょうだいが「やっぱり一緒に話し合いに入ってほしい」と全員で頼んだとしても、いったん放棄した人は法律上「最初から相続人ではなかった」扱いなので、遺産分割の話し合いのメンバーには戻れません。
+放棄によって相続人の地位そのものを失っている以上、後から周りが同意しても当事者に復帰させることはできないのです。この肢は正しい内容です。
+
+**たとえば**、亡くなった親に多額の借金があったため、子の一人がきっぱり相続放棄をしたとします。
+
+その後で他のきょうだいが「やっぱり一緒に話し合いに入ってほしい」と全員で頼んだとしても、いったん放棄した人は法律上「最初から相続人ではなかった」扱いなので、遺産分割の話し合いのメンバーには戻れません。
 
 ### オ：「相続させる」旨の遺言の対象財産は、原則として遺産分割の対象とならない
 
-この肢は誤りです。「甲不動産は相続人Cに相続させる」という遺言（特定財産承継遺言）がある場合、判例は、特段の事情がない限り、その不動産は被相続人の死亡と同時に当然にCに承継され、遺産分割の対象とはならないとしています。なお、「特定財産承継遺言」という概念・用語そのものは、平成30年相続法改正により**民法1014条2項**で「遺産の分割の方法の指定として遺産に属する特定の財産を共同相続人の一人又は数人に承継させる旨の遺言」として明文化されました。したがって、他の相続人が甲不動産を取得しCが別の財産を取得するという遺産分割をすることは、原則としてできません。「そのような遺産分割をすることができる」とする点が誤りです。
+この肢は誤りです。「甲不動産は相続人Cに相続させる」という遺言（特定財産承継遺言）がある場合、判例は、特段の事情がない限り、その不動産は被相続人の死亡と同時に当然にCに承継され、遺産分割の対象とはならないとしています。
 
-**たとえば**、親が「この家は長男に相続させる」とはっきり遺言に書いていた場合、その家は親が亡くなった瞬間に長男のものと確定します。そのため、後から他のきょうだいが「あの家は自分がもらい、長男には預金を渡す」というふうに分け直すことは、原則として認められないのです。
+なお、「特定財産承継遺言」という概念・用語そのものは、平成30年相続法改正により**民法1014条2項**で「遺産の分割の方法の指定として遺産に属する特定の財産を共同相続人の一人又は数人に承継させる旨の遺言」として明文化されました。
+
+したがって、他の相続人が甲不動産を取得しCが別の財産を取得するという遺産分割をすることは、原則としてできません。「そのような遺産分割をすることができる」とする点が誤りです。
+
+**たとえば**、親が「この家は長男に相続させる」とはっきり遺言に書いていた場合、その家は親が亡くなった瞬間に長男のものと確定します。
+
+そのため、後から他のきょうだいが「あの家は自分がもらい、長男には預金を渡す」というふうに分け直すことは、原則として認められないのです。
+
+---
 
 ### まとめ
 
@@ -69,7 +97,7 @@
 - 各肢の根拠のうち、相続放棄者が初めから相続人でなかったものとみなされる点（民法939条）は条文レベルで確認できるものです。一方、全員合意による分割協議の解除・再協議が可能な点、分割後の第三者に対し超過部分は登記なくして対抗できない点、遺産分割協議は債務不履行を理由に法定解除できない点、「相続させる」旨の遺言の対象財産が原則遺産分割の対象とならない点は、いずれも最高裁判例の結論に基づく整理であり、条文に一義的な明文があるわけではありません（一般に最判平2.9.27、最判昭46.1.26、最判平1.2.9、最判平3.4.19が挙げられます）。判例の細部は各自の教材でご確認ください。
 - ローカルのアガルート過去問テキストは本セッションの実行環境には存在せず、参照できませんでした。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（遺産分割協議の合意解除・再分割、法定相続分超過部分の対抗要件、債務不履行による分割協議解除の可否、相続放棄者の地位、「相続させる」遺言と遺産分割を組み合わせた遺産分割の問題）と同一・類似の問題が再出題されていないかを確認しました。令和3年度第3問が法定相続分超過部分の対抗要件という論点は共通して扱っていますが、法定相続分計算・代襲相続等を含む別構成の問題であり、本問の肢の組合せとは一致しないため、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文・判例法理を現行法（2026年8月時点）と照合したところ、**各肢の正誤の結論に変更はありません**が、平成21年当時とは根拠の位置づけが変わった肢があるため、本文とまとめに条文の補足を加えました。肢イ（法定相続分を超える部分は登記がなければ対抗できない）は、当時は判例（最判昭46.1.26）によるものでしたが、平成30年相続法改正で新設された**民法899条の2第1項**（2019年7月1日施行）により、遺産分割によるかどうかを問わず対抗要件が必要であることが条文上明文化されました。肢オの「相続させる」旨の遺言についても、**民法1014条2項**（平成30年改正）で「特定財産承継遺言」という概念・用語自体が明文化されています。肢ウの民法541条は2020年施行の債権法改正でただし書（不履行が軽微であるときは解除できない）が追加されましたが、条番号も本肢の結論も変わりません。また肢アに関連して、令和5年4月1日施行の**民法904条の3**により相続開始から10年を経過した後の遺産分割は原則として法定相続分（または指定相続分）によることとされましたが、共同相続人全員の合意による分割協議の解除・再協議自体は引き続き可能です。
+- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文・判例法理を現行法（2026年8月時点）と照合したところ、**各肢の正誤の結論に変更はありません**が、平成21年当時とは根拠の位置づけが変わった肢があるため、本文とまとめに条文の補足を加えました。イ（法定相続分を超える部分は登記がなければ対抗できない）は、当時は判例（最判昭46.1.26）によるものでしたが、平成30年相続法改正で新設された**民法899条の2第1項**（2019年7月1日施行）により、遺産分割によるかどうかを問わず対抗要件が必要であることが条文上明文化されました。オの「相続させる」旨の遺言についても、**民法1014条2項**（平成30年改正）で「特定財産承継遺言」という概念・用語自体が明文化されています。ウの民法541条は2020年施行の債権法改正でただし書（不履行が軽微であるときは解除できない）が追加されましたが、条番号も本肢の結論も変わりません。またアに関連して、令和5年4月1日施行の**民法904条の3**により相続開始から10年を経過した後の遺産分割は原則として法定相続分（または指定相続分）によることとされましたが、共同相続人全員の合意による分割協議の解除・再協議自体は引き続き可能です。
 
 ---
 
@@ -83,7 +111,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -106,10 +134,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 KANJI ACCURACY WARNING: the characters 産・割・議・遺・相・続・登・記・棄 appear
 repeatedly in this poster. These are especially easy to render as
@@ -189,18 +235,18 @@ Conclusion tag (short green banner/pill):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 (遺産分割の5論点: 全員合意による解除と再協議・超過部分の対抗要件・債務不履行
 による解除の可否・相続放棄者の地位・特定財産承継遺言), with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a full
 sentence of explanatory prose — every card's takeaway must read as a short
-heading + a short conclusion tag, at a glance.
+heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -218,9 +264,9 @@ conditions to get there — isometric family/meeting-table scenes with
 seated relative figures (placed side by side at the same generation level
 when they are co-heirs, per the family-tree rules used elsewhere in this
 series), a will scroll icon, a registry-stamp icon, and a coin/document
-icon for debts. Panels 2（肢イ）・4（肢エ）each require checking two
+icon for debts. Panels 2（イ）・4（エ）each require checking two
 conditions in sequence, so draw them as actual decision flowcharts with
-diamond nodes and Yes/No branch arrows. Panels 1（肢ア）・3（肢ウ）・5（肢オ）
+diamond nodes and Yes/No branch arrows. Panels 1（ア）・3（ウ）・5（オ）
 are each resolved by a single check, so draw a labeled illustrative
 diagram for them instead of forcing a flowchart. Do not include case or
 precedent numbers (article/regulation numbers are fine); keep the callout
@@ -229,7 +275,15 @@ text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -253,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 全員の合意があるかをまず確認する
@@ -271,7 +325,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全員合意なら再協議可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 分割後の第三者には登記の先後で決まる
@@ -291,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 超過部分は登記が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 不履行があっても法定解除はできない
@@ -308,15 +362,16 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 不履行でも解除不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 放棄者は同意があっても当事者に戻れない
 Diagram: An actual decision flowchart: first diamond node 相続放棄をした
-か、with はい highlighted; second diamond node 他の共同相続人全員の同意は
-あるか、drawn with both the はい and いいえ branches converging into the
-same single conclusion node（この条件は結果を左右しないことを示す）遺産分
-割協議の当事者にはなれない. Illustration: an isometric meeting table with
+か、with はい highlighted, leading to a conclusion node 遺産分割協議の当事者
+にはなれない, and a faded いいえ branch leading to a faded conclusion node
+相続人として協議の当事者になる. Beside the highlighted conclusion node, a
+small faded, dotted-outline tag reads 他の共同相続人全員の同意は問わない
+(no ○/✕ mark on the tag) — draw no diamond for the consent. Illustration: an isometric meeting table with
 three seated figures at the same generation level and one faded
 translucent figure standing outside a dashed boundary, labeled「相続放棄
 者」and marked with a red ✕; three small speech bubbles from the seated
@@ -330,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 同意があっても戻れない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 相続させる遺言の対象財産は分割対象外
@@ -353,11 +408,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法541条・899条の2第1項・939条・1014条2項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 産・割・議・遺・相・続・棄・登・記 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panels 2・4 are drawn as actual
 flowcharts with branch nodes while Panels 1・3・5 are simple labeled

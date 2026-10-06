@@ -2,55 +2,81 @@
 
 **出題年度：平成24年度　午後の部　第10問**
 
-> 次の〔図〕に示されている各土地の筆界特定の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> 〔図：公有水面に接する甲土地の北に乙土地、乙土地の東に丙土地が並び、甲土地の南側に無地番の丁水路、さらにその南に無地番の戊道路が接している図〕
->
-> ア　甲土地と乙土地との筆界について既に筆界特定登記官による筆界特定がされている場合においては、当該筆界特定の資料となった文書が偽造されたものであったときでも、甲土地の所有権の登記名義人であるAは、甲土地及び乙土地を対象土地として筆界特定の申請をすることはできない。
->
-> イ　甲土地の所有権の登記名義人であるAから甲土地の公有水面側の一部を譲り受けたBは、甲土地及び丙土地を対象土地として筆界特定の申請をすることはできない。
->
-> ウ　甲土地について登記された抵当権の登記名義人であるCは、甲土地及び乙土地を対象土地として筆界特定の申請をすることができる。
->
-> エ　無地番の丁水路を所有するD市は、丁水路及び隣接する無地番の戊道路を所有するE市を対象土地として筆界特定の申請をすることができる。
->
-> オ　甲土地を所有するAが、隣接する乙土地を所有するFに対し、Aが所有する範囲について所有権の確認の訴えを提起し、その判決が確定した場合であっても、Aは、甲土地及び乙土地を対象土地として筆界特定の申請をすることができる。
->
+> 次の〔図〕に示されている各土地の筆界特定の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> 〔図：公有水面に接する甲土地の北に乙土地、乙土地の東に丙土地が並び、甲土地の南側に無地番の丁水路、さらにその南に無地番の戊道路が接している図〕  
+>　  
+> ア　甲土地と乙土地との筆界について既に筆界特定登記官による筆界特定がされている場合においては、当該筆界特定の資料となった文書が偽造されたものであったときでも、甲土地の所有権の登記名義人であるAは、甲土地及び乙土地を対象土地として筆界特定の申請をすることはできない。  
+>　  
+> イ　甲土地の所有権の登記名義人であるAから甲土地の公有水面側の一部を譲り受けたBは、甲土地及び丙土地を対象土地として筆界特定の申請をすることはできない。  
+>　  
+> ウ　甲土地について登記された抵当権の登記名義人であるCは、甲土地及び乙土地を対象土地として筆界特定の申請をすることができる。  
+>　  
+> エ　無地番の丁水路を所有するD市は、丁水路及び隣接する無地番の戊道路を所有するE市を対象土地として筆界特定の申請をすることができる。  
+>　  
+> オ　甲土地を所有するAが、隣接する乙土地を所有するFに対し、Aが所有する範囲について所有権の確認の訴えを提起し、その判決が確定した場合であっても、Aは、甲土地及び乙土地を対象土地として筆界特定の申請をすることができる。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
+
+---
 
 筆界特定制度は、筆界（登記上の土地の境）を公的に明らかにする手続です。「誰が申請できるか（申請人適格）」「どの土地が対象になるか（対象土地の要件）」「所有権の範囲とは別物であること」を正確に理解できているかがポイントです。
 
 ### ア：資料が偽造されていたなど重大な事由があれば、同じ筆界の再申請ができる
 
-同一の筆界について既に筆界特定がされている場合、原則として同じ筆界についての再度の申請は認められません（不動産登記法132条1項7号本文）。しかし、同号ただし書は「対象土地について更に筆界特定をする特段の必要があると認められる場合」を除外しており、その筆界特定の資料となった文書が偽造されたものであったなど、判断の基礎に重大な瑕疵がある場合はこの「特段の必要」に当たると解されます。このような場合には、あらためて筆界特定の申請をすることができます。
+同一の筆界について既に筆界特定がされている場合、原則として同じ筆界についての再度の申請は認められません（不動産登記法132条1項7号本文）。
 
-**たとえば**、甲土地と乙土地の筆界について過去に筆界特定がされていたものの、その判断の資料として使われた古い図面が実は偽造されたものだったと判明したとします。この場合、甲土地の所有権登記名義人Aさんは、その事情を踏まえて、あらためて甲土地・乙土地を対象とする筆界特定の申請をすることができます。
+しかし、同号ただし書は「対象土地について更に筆界特定をする特段の必要があると認められる場合」を除外しており、その筆界特定の資料となった文書が偽造されたものであったなど、判断の基礎に重大な瑕疵がある場合はこの「特段の必要」に当たると解されます。
+
+このような場合には、あらためて筆界特定の申請をすることができます。
+
+**たとえば**、甲土地と乙土地の筆界について過去に筆界特定がされていたものの、その判断の資料として使われた古い図面が実は偽造されたものだったと判明したとします。
+
+この場合、甲土地の所有権登記名義人Aさんは、その事情を踏まえて、あらためて甲土地・乙土地を対象とする筆界特定の申請をすることができます。
 
 ### イ：直接筆界を接しない土地同士は、対象土地にできない
 
-筆界特定の対象とすることができる「対象土地」は、筆界特定の対象となる筆界で相互に隣接する一筆の土地及び他の土地をいいます（不動産登記法123条1項3号）。図の配置では、甲土地は公有水面に面し、その北に乙土地、乙土地のさらに東に丙土地が位置しており、甲土地と丙土地は直接筆界を接していません。したがって、甲土地の一部を譲り受けたBが、甲土地及び丙土地を対象土地として筆界特定の申請をすることはできません。
+筆界特定の対象とすることができる「対象土地」は、筆界特定の対象となる筆界で相互に隣接する一筆の土地及び他の土地をいいます（不動産登記法123条3号）。
+
+図の配置では、甲土地は公有水面に面し、その北に乙土地、乙土地のさらに東に丙土地が位置しており、甲土地と丙土地は直接筆界を接していません。したがって、甲土地の一部を譲り受けたBが、甲土地及び丙土地を対象土地として筆界特定の申請をすることはできません。
 
 **たとえば**、Bさんが甲土地の一部を買い受けたとしても、甲土地と丙土地の間には乙土地が挟まっており、甲と丙は互いに筆界を接していません。この場合、Bさんは「甲と丙の境目を明らかにしてほしい」という申請をすることはできません。
 
 ### ウ：抵当権者には、筆界特定の申請適格がない
 
-筆界特定の申請をすることができるのは、対象土地の所有権登記名義人等に限られます（不動産登記法131条1項）。「所有権登記名義人等」とは、所有権の登記名義人もしくは表題部所有者、またはこれらの相続人その他の一般承継人をいいます（同法123条1項5号）。抵当権の登記名義人は、対象土地について所有権を有する者ではないため、筆界特定の申請人としての適格を持ちません。
+筆界特定の申請をすることができるのは、対象土地の所有権登記名義人等に限られます（不動産登記法131条1項）。「所有権登記名義人等」とは、所有権の登記名義人もしくは表題部所有者、またはこれらの相続人その他の一般承継人をいいます（同法123条5号）。
+
+抵当権の登記名義人は、対象土地について所有権を有する者ではないため、筆界特定の申請人としての適格を持ちません。
 
 **たとえば**、甲土地に抵当権の登記名義人として登場するCさんは、その抵当権を根拠に「甲土地と乙土地の筆界を明らかにしてほしい」と自ら申請することはできません。
 
 ### エ：無地番の土地同士は、筆界特定の対象土地とすることができない
 
-筆界特定の対象となる「筆界」は、表題登記がある一筆の土地とこれに隣接する他の土地との間において、当該一筆の土地が登記された時にその境界としてすでに存在するもの等を指します（不動産登記法123条1項1号）。丁水路・戊道路のように、いずれも地番の付されていない無地番（表題登記のない）土地同士の間には、そもそも「一筆の土地」自体が観念できず、登記制度上の筆界という概念も成り立たないため、これらを対象土地として筆界特定の申請をすることはできません。
+筆界特定の対象となる「筆界」は、表題登記がある一筆の土地とこれに隣接する他の土地との間において、当該一筆の土地が登記された時にその境界としてすでに存在するもの等を指します（不動産登記法123条1号）。
 
-なお、無地番の土地であっても、隣接する側が地番のある土地（表題登記がある一筆の土地）であれば話は別です。不動産登記法123条1項1号のかっこ書きは、「一筆の土地」に隣接する「他の土地」について「表題登記がない土地を含む」と明記しており、片方が地番のある一筆の土地でありさえすれば、もう一方が無地番であっても筆界特定の対象にすることができます。誤りとなるのはあくまで、隣接する両方の土地がそろって無地番である場合に限られます。
+丁水路・戊道路のように、いずれも地番の付されていない無地番（表題登記のない）土地同士の間には、そもそも「一筆の土地」自体が観念できず、登記制度上の筆界という概念も成り立たないため、これらを対象土地として筆界特定の申請をすることはできません。
+
+なお、無地番の土地であっても、隣接する側が地番のある土地（表題登記がある一筆の土地）であれば話は別です。
+
+不動産登記法123条1号のかっこ書きは、「一筆の土地」に隣接する「他の土地」について「表題登記がない土地を含む」と明記しており、片方が地番のある一筆の土地でありさえすれば、もう一方が無地番であっても筆界特定の対象にすることができます。
+
+誤りとなるのはあくまで、隣接する両方の土地がそろって無地番である場合に限られます。
 
 **たとえば**、無地番の水路を所有するD市が、隣接する無地番の道路を所有するE市との間で境界を明らかにしたいと考えても、両方とも地番のない土地である以上、筆界特定の申請の対象とすることはできません。
 
 ### オ：所有権確認訴訟の判決が確定していても、筆界特定の申請は妨げられない
 
-不動産登記法132条1項6号は、対象土地の筆界について「既に民事訴訟の手続により筆界の確定を求める訴え（筆界確定訴訟）に係る判決が確定しているとき」を筆界特定の申請の却下事由として定めています。所有権の範囲についての確認の訴えとその判決は、この筆界確定訴訟とは異なる、私法上の所有権の及ぶ範囲を確定するものであり、公法上の境界である「筆界」そのものを確定するものではないため、132条1項6号の却下事由に当たりません。したがって、所有権の範囲についての確認訴訟の判決が確定していたとしても、それとは別に、筆界特定の申請をすることは妨げられません。
+不動産登記法132条1項6号は、対象土地の筆界について「既に民事訴訟の手続により筆界の確定を求める訴え（筆界確定訴訟）に係る判決が確定しているとき」を筆界特定の申請の却下事由として定めています。
 
-**たとえば**、Aさんが隣接する乙土地の所有者Fさんとの間で「自分が所有している範囲はここまでだ」という所有権確認の訴えを起こし、その判決が確定したとします。それでもAさんは、あらためて甲土地・乙土地の筆界そのものを明らかにするために、筆界特定の申請をすることができます。
+所有権の範囲についての確認の訴えとその判決は、この筆界確定訴訟とは異なる、私法上の所有権の及ぶ範囲を確定するものであり、公法上の境界である「筆界」そのものを確定するものではないため、132条1項6号の却下事由に当たりません。
+
+したがって、所有権の範囲についての確認訴訟の判決が確定していたとしても、それとは別に、筆界特定の申請をすることは妨げられません。
+
+**たとえば**、Aさんが隣接する乙土地の所有者Fさんとの間で「自分が所有している範囲はここまでだ」という所有権確認の訴えを起こし、その判決が確定したとします。
+
+それでもAさんは、あらためて甲土地・乙土地の筆界そのものを明らかにするために、筆界特定の申請をすることができます。
+
+---
 
 ### まとめ
 
@@ -70,9 +96,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・図の構成・正解番号（4番＝イ・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
-- `note-articles/laws/`のローカル法令データベース（不動産登記法、e-Gov現行法2026-08-04取得）で全肢の条文原文・号数を確認済みです。ア＝132条1項7号ただし書、イ＝123条1項3号（対象土地の定義）、ウ＝131条1項・123条1項5号（所有権登記名義人等の定義）、エ＝123条1項1号（筆界の定義）、オ＝132条1項6号（却下事由は筆界確定訴訟の確定判決のみで、所有権確認訴訟は含まれない）は、いずれも条文の文言に基づく内容です。アの「文書の偽造」という具体的事情そのものは条文に明記された文言ではなく、132条1項7号ただし書の「特段の必要」の当てはめ例として整理しています。
-- **補足説明の追記（2026-08-18実施）**：肢エについて、ユーザーからの質問（「片方だけ無地番の場合は筆界特定できるのか」）を受け、不動産登記法123条1項1号のかっこ書き（「他の土地」には表題登記がない土地を含む）を根拠に、無地番同士の場合のみ対象外となる旨を明確化する一文を追記しました。片方が地番のある一筆の土地であれば、もう一方が無地番でも対象土地にできる点は、実務上も地番のある民有地と無地番の里道・水路との筆界を明らかにする典型的な利用場面です。結論・正解番号に変更はありません。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「筆界特定」がテーマの問題を確認しました。**本問肢オ（甲土地を所有するAが、隣接する乙土地を所有する者に対しAの所有範囲について所有権確認の訴えを提起しその判決が確定した場合であっても、Aは甲土地及び乙土地を対象土地として筆界特定の申請をすることができる、という記述）とほぼ同一の事実関係（登場人物名の一部を除きほぼ同一の文章）が、令和7年度第16問肢イとして出題されており、`note-articles/r7-mondai/q16-hikkaitokutei.md` として既に本シリーズでnote記事化済みです。** 令和7年度第16問は「誤っているものの組合せ」を問う形式で、肢イは「（同じ事実関係のもとで）申請をすることができない」という誤りの記述として登場しており、両問とも「所有権の範囲の確認と筆界の確定は別制度である」という結論は共通しています。**本問（H24第10問）をnoteに投稿する際は、既に公開済みの令和7年度第16問の記事と内容が酷似する可能性があるため、投稿順序をずらす、当該肢の解説を簡略化する、または投稿を見送るなどの対応を検討してください。**それ以外の肢（ア・イ・ウ・エ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- `note-articles/laws/`のローカル法令データベース（不動産登記法、e-Gov現行法2026-08-04取得）で全肢の条文原文・号数を確認済みです。ア＝132条1項7号ただし書、イ＝123条3号（対象土地の定義）、ウ＝131条1項・123条5号（所有権登記名義人等の定義）、エ＝123条1号（筆界の定義）、オ＝132条1項6号（却下事由は筆界確定訴訟の確定判決のみで、所有権確認訴訟は含まれない）は、いずれも条文の文言に基づく内容です。アの「文書の偽造」という具体的事情そのものは条文に明記された文言ではなく、132条1項7号ただし書の「特段の必要」の当てはめ例として整理しています。
+- **補足説明の追記（2026-08-18実施）**：エについて、ユーザーからの質問（「片方だけ無地番の場合は筆界特定できるのか」）を受け、不動産登記法123条1号のかっこ書き（「他の土地」には表題登記がない土地を含む）を根拠に、無地番同士の場合のみ対象外となる旨を明確化する一文を追記しました。片方が地番のある一筆の土地であれば、もう一方が無地番でも対象土地にできる点は、実務上も地番のある民有地と無地番の里道・水路との筆界を明らかにする典型的な利用場面です。結論・正解番号に変更はありません。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「筆界特定」がテーマの問題を確認しました。**本問オ（甲土地を所有するAが、隣接する乙土地を所有する者に対しAの所有範囲について所有権確認の訴えを提起しその判決が確定した場合であっても、Aは甲土地及び乙土地を対象土地として筆界特定の申請をすることができる、という記述）とほぼ同一の事実関係（登場人物名の一部を除きほぼ同一の文章）が、令和7年度第16問イとして出題されており、`note-articles/r7-mondai/q16-hikkaitokutei.md` として既に本シリーズでnote記事化済みです。** 令和7年度第16問は「誤っているものの組合せ」を問う形式で、イは「（同じ事実関係のもとで）申請をすることができない」という誤りの記述として登場しており、両問とも「所有権の範囲の確認と筆界の確定は別制度である」という結論は共通しています。**本問（H24第10問）をnoteに投稿する際は、既に公開済みの令和7年度第16問の記事と内容が酷似する可能性があるため、投稿順序をずらす、当該肢の解説を簡略化する、または投稿を見送るなどの対応を検討してください。**それ以外の肢（ア・イ・ウ・エ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -112,13 +138,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 筆・界・特・定・抵・当・権・番・偽・造・訴・訟・確・認 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -181,18 +225,18 @@ Conclusion tag: 訴訟確定でも申請可
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -216,12 +260,12 @@ actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 1
-（肢ア）and Panel 4（肢エ）each have a genuinely hidden second condition
+（ア）and Panel 4（エ）each have a genuinely hidden second condition
 (原則→「特段の必要」の例外、および無地番同士か片方に地番があるかの区別)
 and are drawn as true decision trees with BOTH branch outcomes given their
 own conclusion node — no branch may loop back to an earlier node. Panel 2
-（肢イ）uses a spatial-arrangement illustration, Panel 3（肢ウ）uses a
-correct-rule-vs-common-misconception layout, and Panel 5（肢オ）uses a
+（イ）uses a spatial-arrangement illustration, Panel 3（ウ）uses a
+correct-rule-vs-common-misconception layout, and Panel 5（オ）uses a
 side-by-side comparison of two different kinds of lawsuits rather than a
 flowchart, since each is resolved by identifying the correct category
 rather than by a sequential multi-step check. Unlike a glanceable summary
@@ -270,7 +314,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 重大な瑕疵があれば同一筆界を再申請できる
@@ -293,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 重大な瑕疵なら再申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 筆界を接しない土地同士は対象外
@@ -312,7 +356,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 隣接土地のみ対象
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 抵当権者には申請人の資格がない
@@ -330,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抵当権者は対象外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 片方に地番があれば無地番でも対象になる
@@ -353,7 +397,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 無地番同士は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 却下事由は筆界確定訴訟の確定のみ
@@ -374,7 +418,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法123条1項1号・3号・5号、131条1項、132条1項6号・7号ただし書に
+不動産登記法123条1号・3号・5号、131条1項、132条1項6号・7号ただし書に
 基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -389,7 +433,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢ア and 肢エ are each drawn as an actual flowchart with a clearly labeled
+ア and エ are each drawn as an actual flowchart with a clearly labeled
 はい side and いいえ side conclusion node (not a bare illustration with no
 visible decision structure) while the other panels use a spatial-
 arrangement illustration, a correct-rule-vs-misconception layout, or a

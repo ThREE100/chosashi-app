@@ -2,19 +2,21 @@
 
 **出題年度：令和2年度　午後の部　第9問**
 
-> 土地の分筆の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　登記官は，地図を作成するため必要があると認めるときは，所有権の登記名義人の異議の有無にかかわらず，職権で，分筆の登記をすることができる。
->
-> イ　一筆の土地の一部が別の地目になったことにより，地目に関する変更の登記と分筆の登記とを一の申請情報により申請するときは，登記原因及びその日付を申請情報の内容としなければならない。
->
-> ウ　一筆の土地の一部が河川法の定める河川区域内の土地となった場合において，その旨の登記を登記所に嘱託するときは，河川管理者は，土地の所有権の登記名義人に代わって，当該土地の分筆の登記を登記所に嘱託することはできない。
->
-> エ　共有に属する土地の一部の持分について，当該持分を有する共有者と国との間で買収協議が成立した場合，国は，その者に代位して分筆の登記を申請することができる。
->
-> オ　共有物分割請求訴訟において2名の共有に属する土地を分割する判決が確定した場合において，一方の所有権の登記名義人が分筆の登記の申請に協力しないときは，他方の所有権の登記名義人がその者に代位してその土地の分筆の登記を申請することができる。
->
+> 土地の分筆の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　登記官は，地図を作成するため必要があると認めるときは，所有権の登記名義人の異議の有無にかかわらず，職権で，分筆の登記をすることができる。  
+>　  
+> イ　一筆の土地の一部が別の地目になったことにより，地目に関する変更の登記と分筆の登記とを一の申請情報により申請するときは，登記原因及びその日付を申請情報の内容としなければならない。  
+>　  
+> ウ　一筆の土地の一部が河川法の定める河川区域内の土地となった場合において，その旨の登記を登記所に嘱託するときは，河川管理者は，土地の所有権の登記名義人に代わって，当該土地の分筆の登記を登記所に嘱託することはできない。  
+>　  
+> エ　共有に属する土地の一部の持分について，当該持分を有する共有者と国との間で買収協議が成立した場合，国は，その者に代位して分筆の登記を申請することができる。  
+>　  
+> オ　共有物分割請求訴訟において2名の共有に属する土地を分割する判決が確定した場合において，一方の所有権の登記名義人が分筆の登記の申請に協力しないときは，他方の所有権の登記名義人がその者に代位してその土地の分筆の登記を申請することができる。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
+
+---
 
 分筆の登記は、一筆の土地を複数に分ける登記です。原則は所有者本人が申請しますが、登記官が職権でする場合や、他人が代位して申請する場合など、例外的な場面のルールが問われています。
 
@@ -38,15 +40,23 @@
 
 ### エ：共有地の「一部持分」の買収では、国は当然には代位分筆できない
 
-一筆の土地の一部（＝物理的な一部分）を売買で取得した者は、所有権移転登記の前提として代位により分筆の登記を申請できます（民法423条、不動産登記令3条4号）。しかし本肢は、共有地の「一部の持分」を国が買収したケースです。持分の取得は共有状態になるだけで、物理的に土地を分ける前提とは異なり、国が当然に代位して分筆の登記を申請できるとする根拠はありません。本肢は誤りです。
+一筆の土地の一部（＝物理的な一部分）を売買で取得した者は、所有権移転登記の前提として代位により分筆の登記を申請できます（民法423条、不動産登記令3条4号）。
+
+しかし本肢は、共有地の「一部の持分」を国が買収したケースです。持分の取得は共有状態になるだけで、物理的に土地を分ける前提とは異なり、国が当然に代位して分筆の登記を申請できるとする根拠はありません。本肢は誤りです。
 
 **たとえば**、Ａ・Ｂが共有する一筆の土地について、Ａの持分だけを国が買い取った場合、土地はＢと国の共有になるだけで、物理的に分ける話ではありません。この場合に国が代位して分筆を申請できるわけではありません。
 
 ### オ：共有物分割判決の確定後、非協力の共有者に代位して分筆を申請できる
 
-共有名義の土地は原則として共有者全員で分筆の登記を申請しますが、共有物分割の判決（または訴訟上の和解）によって共有物が分割された場合において、一方の共有者が分筆の登記の申請に協力しないときは、他方の共有者がその者に代位して分筆の登記を申請することができます（民法423条による債権者代位）。本肢は正しい記述です。
+共有名義の土地の分筆の登記は、現行法では持分の価格の過半数を有する共有者が申請人となって申請します（民法251条1項・252条1項、不動産登記法39条1項）が、共有物分割の判決（または訴訟上の和解）によって共有物が分割された場合において、一方の共有者が分筆の登記の申請に協力しないときは、他方の共有者がその者に代位して分筆の登記を申請することができます（民法423条による債権者代位）。
+
+本肢は正しい記述です。
 
 **たとえば**、Ａ・Ｂ共有の土地を「こう分ける」という判決が確定したのに、Ｂが分筆の申請に協力してくれないとき、Ａは自分の権利を実現するために、Ｂに代位して分筆の登記を申請できます。
+
+※出題当時（令和2年度）は、共有地の分筆の登記は共有者全員で申請するのが原則とされていました。令和5年4月1日施行の民法改正で、分筆のような軽微な変更は持分の価格の過半数で決められるようになり、申請人の範囲が変わっています。持分が各2分の1のＡ・Ｂのように一方だけでは過半数に届かない場合に、判決に基づいて協力しない共有者に代位して申請できるという本肢の結論は変わりません。
+
+---
 
 ### まとめ
 
@@ -109,12 +119,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・図・権・登・記・嘱・託・筆 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -197,19 +225,19 @@ these 5 headings):
 5. 分割判決確定後は代位して申請可
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards and badge numbers running 1-5 without
 resetting, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as a
-short heading + a short conclusion tag, at a glance.
+short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 分筆の登記を「誰が・どんな順序で確認して」申請・嘱託・代位できるかを、肢ごとに最適な図の型（決定木・配置図・対比枠）で示す5パネル構成。5肢はそれぞれ別々の主体・場面を扱うため、②と同様に複数肢で1つの決定木を共有する構成にはしていない。
 
@@ -245,7 +273,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -271,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 職権分筆は異議の有無を確認する
@@ -291,7 +327,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 異議なしが条件
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地目変更との一括申請は登記原因・日付を記載する
@@ -311,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記原因・日付を記載
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 土地の一部が河川区域内になったかを確認する
@@ -330,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代位して嘱託できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 買収されたのは土地の一部か持分かを見分ける
@@ -353,14 +389,14 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位分筆の根拠なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 判決確定後に共有者が協力するかを確認する
 Diagram: A sequence starting with a courthouse icon holding a document
 labeled 共有物分割の判決（または和解）が確定, leading down into a diamond
 decision node reading 他方の共有者（Ｂ）が分筆の登記の申請に協力するか. A
-green はい（協力する）矢印 leads to a conclusion node reading 共有者全員
+green はい（協力する）矢印 leads to a conclusion node reading 持分の過半数を有する共有者
 で通常どおり分筆の登記を申請する. A red いいえ（協力しない）矢印 leads to
 a separate conclusion node reading 他方の共有者（Ａ）がＢに代位して分筆の
 登記を申請できる. Do not draw any arrow that loops back to an earlier
@@ -379,11 +415,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法39条3項・43条4項、民法423条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 職, 異, 議, 権, 図, 筆, 嘱, 託, 買, 収, 譲, 渡, 協, 確, 認,
 続, 訴, 訟, 決 and any character that has a visually similar Simplified
-Chinese variant. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
+Chinese variant. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 panel count equals 5 exactly, badge numbers run 1-5 continuously, there
 is no intro illustration or paragraph block between the header and the
 panels, that every multi-condition 肢 is drawn as an actual flowchart

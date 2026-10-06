@@ -2,51 +2,65 @@
 
 **出題年度：令和2年度　午後の部　第8問**
 
-> 地積に関する更正の登記についての次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　登記記録の地積に錯誤があることが判明した土地の抵当権の登記名義人は，当該土地の地積に関する更正の登記を申請することができる。
->
-> イ　甲土地の地積に関する更正の登記と甲土地を乙土地に合筆する合筆の登記は，一の申請情報により申請することができる。
->
-> ウ　一筆の土地に係る全ての筆界について筆界特定がされた場合において，筆界特定手続記録により，当該土地の登記記録の地積に錯誤があると認められるときは，当該土地の管轄登記所の登記官は，当該土地の表題部所有者又は所有権の登記名義人に対して地積に関する更正の登記の申請を促すことなく，職権で地積に関する更正の登記をしなければならない。
->
-> エ　土地の地積に関する更正の登記を申請する場合において，更正後の土地の地積が増加するときは，添付情報として，増加部分の所有権を有することを証する情報を提供しなければならない。
->
-> オ　土地の所有権の登記名義人が死亡し，その相続人の一人が当該土地の地積に関する更正の登記を申請する場合には，添付情報として，他の相続人の承諾を証する情報を提供することを要しない。
->
+> 地積に関する更正の登記についての次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　登記記録の地積に錯誤があることが判明した土地の抵当権の登記名義人は，当該土地の地積に関する更正の登記を申請することができる。  
+>　  
+> イ　甲土地の地積に関する更正の登記と甲土地を乙土地に合筆する合筆の登記は，一の申請情報により申請することができる。  
+>　  
+> ウ　一筆の土地に係る全ての筆界について筆界特定がされた場合において，筆界特定手続記録により，当該土地の登記記録の地積に錯誤があると認められるときは，当該土地の管轄登記所の登記官は，当該土地の表題部所有者又は所有権の登記名義人に対して地積に関する更正の登記の申請を促すことなく，職権で地積に関する更正の登記をしなければならない。  
+>　  
+> エ　土地の地積に関する更正の登記を申請する場合において，更正後の土地の地積が増加するときは，添付情報として，増加部分の所有権を有することを証する情報を提供しなければならない。  
+>　  
+> オ　土地の所有権の登記名義人が死亡し，その相続人の一人が当該土地の地積に関する更正の登記を申請する場合には，添付情報として，他の相続人の承諾を証する情報を提供することを要しない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
+
+---
 
 「地積更正の登記」は、登記記録に記録された地積が実際の測量結果と食い違っている場合に、それを正しい面積に直す登記です。表示に関する登記の一種なので、「誰が申請できるか」「所有権を証明する情報がいるか」といった、表示登記共通の考え方が問われます。
 
 ### ア：抵当権の登記名義人は、地積更正の登記を申請できない
 
-土地の表示に関する更正の登記を申請できるのは、表題部所有者または所有権の登記名義人です（不動産登記法38条）。抵当権者は、その土地に担保権を持っているにすぎず、表示登記の申請人にはなれません。本肢は「抵当権の登記名義人は申請することができる」としており、誤りです。
+土地の表示に関する更正の登記を申請できるのは、表題部所有者または所有権の登記名義人です（不動産登記法38条）。
+
+抵当権者は、その土地に担保権を持っているにすぎず、表示登記の申請人にはなれません。本肢は「抵当権の登記名義人は申請することができる」としており、誤りです。
 
 **たとえば**、お金を貸して土地に抵当権を設定している銀行が、「登記簿の面積が実際と違うから直したい」と思っても、銀行自身が地積更正の登記を申請することはできません。申請できるのは土地の所有者の方です。
 
 ### イ：地積更正と合筆は、一の申請情報で申請できる
 
-同一の土地についてする二以上の登記が、土地の表題部の変更・更正の登記と、分筆または合筆の登記であるときは、これらを一の申請情報でまとめて申請できます（不動産登記規則35条7号）。したがって、甲土地の地積更正の登記と、甲土地を乙土地に合筆する登記は、一の申請情報で申請できます。本肢は正しい記述です。
+同一の土地についてする二以上の登記が、土地の表題部の変更・更正の登記と、分筆または合筆の登記であるときは、これらを一の申請情報でまとめて申請できます（不動産登記規則35条7号）。
+
+したがって、甲土地の地積更正の登記と、甲土地を乙土地に合筆する登記は、一の申請情報で申請できます。本肢は正しい記述です。
 
 **たとえば**、甲土地の面積を正しい数値に直したうえで、その甲土地を隣の乙土地に合筆したいとき、「地積更正」と「合筆」を別々に申請しなくても、一括で一つの申請書にまとめられます。
 
 ### ウ：筆界特定後の職権による地積更正は、「しなければならない」義務ではない
 
-一筆の土地の全ての筆界について筆界特定がされ、筆界特定手続記録から地積に錯誤があると認められる場合、登記官は、まず所有者等に地積更正の登記の申請を促し、それでも申請がされないときに職権で地積更正の登記をすることが「できる」とされています。いきなり申請を促すことなく、職権で更正を「しなければならない」わけではありません。本肢は誤りです。
+一筆の土地の全ての筆界について筆界特定がされ、筆界特定手続記録から地積に錯誤があると認められる場合、登記官は、まず所有者等に地積更正の登記の申請を促し、それでも申請がされないときに職権で地積更正の登記をすることが「できる」とされています。
+
+いきなり申請を促すことなく、職権で更正を「しなければならない」わけではありません。本肢は誤りです。
 
 **たとえば**、筆界特定の結果、登記簿の面積が違うと分かっても、登記官はまず「正しい面積に直す申請をしてください」と所有者に促します。それでも所有者が動かないときに、はじめて職権での更正という話になります。
 
 ### エ：地積が増える更正でも、所有権を証する情報の提供は不要
 
-地積更正の登記は、あくまで登記記録の面積を実際の面積に「訂正」する登記であって、新たに土地を取得したり、権利の範囲を広げたりするものではありません。したがって、更正の結果として地積が増加する場合でも、増加部分について所有権を有することを証する情報を提供する必要はありません。本肢は「提供しなければならない」としており、誤りです。
+地積更正の登記は、あくまで登記記録の面積を実際の面積に「訂正」する登記であって、新たに土地を取得したり、権利の範囲を広げたりするものではありません。
+
+したがって、更正の結果として地積が増加する場合でも、増加部分について所有権を有することを証する情報を提供する必要はありません。本肢は「提供しなければならない」としており、誤りです。
 
 **たとえば**、測量し直したら登記簿より実際の面積が広かった、という場合でも、その広い部分について「ここは自分の土地です」という所有権証明書を出す必要はありません。もともと一筆の土地の正しい面積に直しているだけだからです。
 
 ### オ：相続人の一人からの地積更正の申請に、他の相続人の承諾は不要
 
-土地が共有（相続によって複数の相続人の共有になった場合を含む）であるとき、地積更正のような表示に関する登記は、保存行為として共有者の一人から申請することができます（民法252条5項）。他の相続人（共有者）の承諾を証する情報を提供する必要はありません。本肢は正しい記述です。
+土地が共有（相続によって複数の相続人の共有になった場合を含む）であるとき、地積更正のような表示に関する登記は、保存行為として共有者の一人から申請することができます（民法252条5項）。
+
+他の相続人（共有者）の承諾を証する情報を提供する必要はありません。本肢は正しい記述です。
 
 **たとえば**、亡くなった父名義の土地の地積更正をしたいとき、相続人が3人いても、そのうちの一人が単独で地積更正の登記を申請できます。他の2人の承諾書を集める必要はありません。
+
+---
 
 ### まとめ
 
@@ -109,12 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・積・権・登・記・所・証・筆・界・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -198,20 +230,20 @@ these 5 headings):
 5. 面積増加でも所有権証明は不要
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、地積更正の登記のルールを思考順序に沿って確認できるようにする5パネル構成。アは「申請しようとしているのが誰か」を分岐点とする決定木、ウは受験生が引っかかりやすい思い込み（職権更正が義務）と正しいルール（できるにとどまる）を対比させる正誤対比型、イ・エ・オは単一チェックの図解にする。②の色分け（申請できる人のルール＝緑、添付情報・手続のルール＝青）を引き継いでいる。
 
@@ -235,11 +267,11 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 1 (肢ア) must be drawn as a decision
+— do not force a flowchart. Panel 1 (ア) must be drawn as a decision
 flowchart, since whether someone may apply for 地積更正 genuinely depends
 on what kind of registered right-holder they are; give both branches
 their own clearly labeled conclusion node and no looping arrow back into
-the flow. Panel 3 (肢ウ) tests a common misconception, so draw it as a
+the flow. Panel 3 (ウ) tests a common misconception, so draw it as a
 side-by-side comparison between the mistaken assumption and the correct
 rule, marking the mistaken side with a red X or strikethrough rather than
 a bare ✕ icon. Unlike a glanceable summary poster, each panel MAY include
@@ -253,7 +285,15 @@ body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -279,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抵当権者は地積更正を申請できない
@@ -302,7 +342,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抵当権者は申請不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地積更正と合筆は一括申請できる
@@ -318,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一の申請情報で可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 職権による更正は義務ではない
@@ -341,7 +381,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 職権はできるに留まる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地積増加でも所有権証明は不要
@@ -357,7 +397,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有権証明は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 相続人の一人だけで申請でき承諾は不要
@@ -378,10 +418,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法38条、不動産登記規則35条7号、民法252条5項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 抵, 当, 権, 筆, 界, 特, 定, 職, 錯, 誤, 証, 承, 諾, 続 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 1 is drawn

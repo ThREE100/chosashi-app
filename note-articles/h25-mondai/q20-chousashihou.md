@@ -2,31 +2,37 @@
 
 **出題年度：平成25年度　午後の部　第20問**
 
-> 土地家屋調査士の業務に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。
->
-> ア　土地家屋調査士は、筆界特定の手続きについての代理の依頼を拒むことはできるが、正当な事由がある場合でなければ、当該代理についての相談の依頼を拒むことはできない。
->
-> イ　土地家屋調査士がその業務に関して虚偽の調査又は測量をしたときは、当該土地家屋調査士は、１年以下の懲役又は１００万円以下の罰金に処せられる。
->
-> ウ　土地家屋調査士は、その業務を行う地域における土地の筆界を明らかにするための方法に関する慣習その他の土地家屋調査士の業務についての知識を深めるよう、努めなければならない。
->
-> エ　土地家屋調査士は、２以上の事務所を設けることができない。
->
-> オ　土地家屋調査士は、会則の定めるところにより、業務上使用する職印を定めなければならない。
->
+> 土地家屋調査士の業務に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。  
+>　  
+> ア　土地家屋調査士は、筆界特定の手続きについての代理の依頼を拒むことはできるが、正当な事由がある場合でなければ、当該代理についての相談の依頼を拒むことはできない。  
+>　  
+> イ　土地家屋調査士がその業務に関して虚偽の調査又は測量をしたときは、当該土地家屋調査士は、１年以下の懲役又は１００万円以下の罰金に処せられる。  
+>　  
+> ウ　土地家屋調査士は、その業務を行う地域における土地の筆界を明らかにするための方法に関する慣習その他の土地家屋調査士の業務についての知識を深めるよう、努めなければならない。  
+>　  
+> エ　土地家屋調査士は、２以上の事務所を設けることができない。  
+>　  
+> オ　土地家屋調査士は、会則の定めるところにより、業務上使用する職印を定めなければならない。  
+>　  
 > 1　1個　2　2個　3　3個　4　4個　5　5個
+
+---
 
 土地家屋調査士法は、実務家としての基本的な義務や罰則を定めた法律で、択一式でも毎年出題される重要分野です。「依頼に応ずる義務」がどこまで及ぶのか、細かい規定の根拠が「法律」なのか「会則」なのか「省令」なのかを区別できるかが、この問題のポイントです。
 
 ### ア：筆界特定手続の代理も、その相談も、正当な事由なく拒める
 
-土地家屋調査士は、正当な事由がある場合でなければ依頼を拒んではならないのが原則です（土地家屋調査士法22条）。しかし、この原則には明文の除外があり、筆界特定の手続についての代理業務（同法3条1項4号）と、その代理についての相談業務（同項6号のうち4号に関する部分）は、民間紛争解決手続代理関係業務とともに、この応諾義務の対象から除外されています（22条かっこ書）。つまり、代理の依頼だけでなく、その代理についての相談の依頼についても、正当な事由がなくても拒むことができます。「代理は拒めるが、相談は正当な事由がなければ拒めない」とする本肢は、相談についての部分が実際の規律と逆であり、誤りです。
+土地家屋調査士は、正当な事由がある場合でなければ依頼を拒んではならないのが原則です（土地家屋調査士法22条）。
+
+しかし、この原則には明文の除外があり、筆界特定の手続についての代理業務（同法3条1項4号）と、その代理についての相談業務（同項6号のうち4号に関する部分）は、民間紛争解決手続代理関係業務とともに、この応諾義務の対象から除外されています（22条かっこ書）。
+
+つまり、代理の依頼だけでなく、その代理についての相談の依頼についても、正当な事由がなくても拒むことができます。「代理は拒めるが、相談は正当な事由がなければ拒めない」とする本肢は、相談についての部分が実際の規律と逆であり、誤りです。
 
 **たとえば**、ある土地家屋調査士が筆界特定手続の代理業務を扱っていない場合、「この筆界特定を代理してほしい」という依頼はもちろん、「筆界特定についてちょっと相談に乗ってほしい」という依頼についても、特別な理由を説明することなく断ることができます。
 
 ### イ：虚偽の調査・測量には、1年以下の拘禁刑又は100万円以下の罰金
 
-土地家屋調査士がその業務に関して虚偽の調査又は測量をしたときは、罰則の対象となり、1年以下の拘禁刑又は100万円以下の罰金に処せられます。これは、土地家屋調査士の調査・測量の正確性に対する社会的信頼を担保するための重要な罰則規定です。
+土地家屋調査士がその業務に関して虚偽の調査又は測量をしたときは、罰則の対象となり、1年以下の拘禁刑又は100万円以下の罰金に処せられます（出題当時は「懲役」。令和7年6月1日から刑法等の改正により拘禁刑に整理されました。結論は変わりません）。これは、土地家屋調査士の調査・測量の正確性に対する社会的信頼を担保するための重要な罰則規定です。
 
 **たとえば**、実際には測量を行っていないのに、測量したかのように装って虚偽の測量図を作成した土地家屋調査士は、この罰則の対象となります。
 
@@ -44,9 +50,13 @@
 
 ### オ：職印は、会則の定めるところにより定める
 
-土地家屋調査士が業務上使用する職印については、土地家屋調査士法施行規則20条により、「会則の定めるところにより」業務上使用する職印を定めなければならないとされています。この施行規則（法務省令）自体が、職印の具体的なルール作りを各土地家屋調査士会の会則に委ねる仕組みになっており、「会則の定めるところにより」という記述は条文の文言どおりで、正しい記述です。
+土地家屋調査士が業務上使用する職印については、土地家屋調査士法施行規則20条により、「会則の定めるところにより」業務上使用する職印を定めなければならないとされています。
+
+この施行規則（法務省令）自体が、職印の具体的なルール作りを各土地家屋調査士会の会則に委ねる仕組みになっており、「会則の定めるところにより」という記述は条文の文言どおりで、正しい記述です。
 
 **たとえば**、業務で使う職印のサイズや形式に関する基本的なルールは、法務省令が直接細かく定めているのではなく、根拠となる法務省令（施行規則）が委ねた先である、所属する調査士会の会則で定められています。
+
+---
 
 ### まとめ
 
@@ -112,12 +122,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・所 — these must be rendered in their standard Japanese forms,
 never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -184,17 +212,17 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading +
-a short conclusion tag, at a glance.
+a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -268,13 +296,14 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 代理も相談も正当な事由なく拒める
 Diagram: An isometric 土地家屋調査士 character standing between two
-separate labeled doors, each with its own diamond-shaped check mark above
-it, drawn as two distinct check points rather than one combined check.
+separate labeled doors, each with its own small rectangular check box
+above it (NOT a diamond), drawn as two distinct check points rather than
+one combined check.
 Left door, with its own check node reading 依頼は筆界特定手続の代理か？,
 labeled 筆界特定手続の代理の依頼, closing freely with a green checkmark
 and no 正当な事由 sign required. Right door, with its own separate check
@@ -290,7 +319,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代理も相談も拒める
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 虚偽の調査測量は拘禁刑や罰金の対象
@@ -304,7 +333,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 拘禁刑・罰金の対象
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 地域慣習を学ぶ努力義務がある
@@ -321,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 研鑽の努力義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 事務所は2以上設けられない
@@ -335,7 +364,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 事務所は1つまで
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 職印の定めは省令から会則への委任
@@ -371,8 +400,8 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢ア clearly shows two separate, distinct check points (代理業務と相談
-業務) rather than one merged check, that 肢オ is drawn as a sequential
+ア clearly shows two separate, distinct check points (代理業務と相談
+業務) rather than one merged check, that オ is drawn as a sequential
 delegation relay rather than forced into a diamond-branch flowchart, that
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no

@@ -2,25 +2,29 @@
 
 **出題年度：令和6年度　午後の部　第7問**
 
-> 地積に関する更正の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲土地の登記記録の地積と申請情報の内容とする地積との差が公差の範囲内である場合であっても、甲土地の地積に関する更正の登記を申請することができる。
->
-> イ　地殻変動によって一筆の土地の一部が常時海面下に没するようになった場合には、当該一筆の土地の地積が減少したことによる地積に関する更正の登記を申請することができる。
->
-> ウ　土地の地積が減少することとなる地積に関する更正の登記を申請する場合において、当該土地に抵当権の登記があるときであっても、当該抵当権の登記名義人が地積を更正することについて承諾したことを証する情報を提供することを要しない。
->
-> エ　土地の地積が増加することとなる地積に関する更正の登記を申請する場合には、当該土地に隣接する土地の所有権の登記名義人が地積を更正することについて承諾したことを証する情報を提供しなければならない。
->
-> オ　土地の登記記録の地積に誤りがあることが判明した後に当該土地の所有権の登記名義人となった者は、その者に係る所有権の登記があった日から1か月以内に、当該土地の地積に関する更正の登記を申請しなければならない。
->
+> 地積に関する更正の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲土地の登記記録の地積と申請情報の内容とする地積との差が公差の範囲内である場合であっても、甲土地の地積に関する更正の登記を申請することができる。  
+>　  
+> イ　地殻変動によって一筆の土地の一部が常時海面下に没するようになった場合には、当該一筆の土地の地積が減少したことによる地積に関する更正の登記を申請することができる。  
+>　  
+> ウ　土地の地積が減少することとなる地積に関する更正の登記を申請する場合において、当該土地に抵当権の登記があるときであっても、当該抵当権の登記名義人が地積を更正することについて承諾したことを証する情報を提供することを要しない。  
+>　  
+> エ　土地の地積が増加することとなる地積に関する更正の登記を申請する場合には、当該土地に隣接する土地の所有権の登記名義人が地積を更正することについて承諾したことを証する情報を提供しなければならない。  
+>　  
+> オ　土地の登記記録の地積に誤りがあることが判明した後に当該土地の所有権の登記名義人となった者は、その者に係る所有権の登記があった日から1か月以内に、当該土地の地積に関する更正の登記を申請しなければならない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
+
+---
 
 地積の更正登記は、「登記当初からの誤り（更正）」なのか「登記後に生じた事情による変化（変更）」なのかを見極めることが出発点です。加えて、抵当権者や隣接地所有者などの利害関係人の承諾の要否も問われる分野です。
 
 ### ア：公差の範囲内でも、地積の更正登記は申請できる
 
-登記記録の地積と申請情報の内容とする地積との差が、地積測量の公差の範囲内であっても、それをもって地積の更正の登記の申請ができないわけではありません。公差は測量誤差の許容範囲を示すものにすぎず、地積が当初から誤っていたという事実がある以上、更正の登記を申請することができます。
+登記記録の地積と申請情報の内容とする地積との差が、地積測量の公差の範囲内であっても、それをもって地積の更正の登記の申請ができないわけではありません。
+
+公差は測量誤差の許容範囲を示すものにすぎず、地積が当初から誤っていたという事実がある以上、更正の登記を申請することができます。
 
 **たとえば**、測量し直した結果、登記簿上の地積との差がわずかで公差の範囲内に収まっていたとしても、「実際の地積が違っていた」という事実に基づいて地積の更正登記を申請することは可能です。
 
@@ -44,9 +48,13 @@
 
 ### オ：地積の更正登記に、申請義務の期間制限はない
 
-更正の登記は錯誤によるものであり、その錯誤がいつ生じたのかを把握するのは困難であることから、法は地積に関する更正の登記について申請義務を定めていません。地目又は地積の変更の登記には変更があった日から1か月以内の申請義務が定められていますが（不動産登記法37条1項）、地積の更正の登記についてはこれに対応する期間制限の規定がなく、不動産登記法38条は更正の登記を申請できる者を表題部所有者又は所有権の登記名義人に限定しているにとどまります。
+更正の登記は錯誤によるものであり、その錯誤がいつ生じたのかを把握するのは困難であることから、法は地積に関する更正の登記について申請義務を定めていません。
+
+地目又は地積の変更の登記には変更があった日から1か月以内の申請義務が定められていますが（不動産登記法37条1項）、地積の更正の登記についてはこれに対応する期間制限の規定がなく、不動産登記法38条は更正の登記を申請できる者を表題部所有者又は所有権の登記名義人に限定しているにとどまります。
 
 **たとえば**、土地を購入した後に地積の誤りに気づいたとしても、「登記から1か月以内に更正登記をしないと違反になる」というルールはなく、義務としての申請期限はありません。
+
+---
 
 ### まとめ
 
@@ -109,12 +117,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -189,20 +215,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。「登記当初からの誤り（更正）なのか、登記後に生じた事情による変化（変更）なのか」という本問の切り口に沿って、直感的な思い込みと正しいルールを対比させる型、更正登記と変更登記の場面を見分ける対比枠型を肢ごとに使い分けて構成する。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
 
@@ -244,7 +270,15 @@ body text - do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
@@ -270,7 +304,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -291,7 +325,7 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 更正登記できる
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -312,7 +346,7 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 更正でなく変更
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -320,10 +354,9 @@ Heading(bold, ONE line):
 Diagram: パネルの中を上下に分割した正誤対比図。上側(誤りやすい思い込
 み、斜線の打ち消し線を重ねる)には、抵当権のスタンプが押された土地が
 縮んでいく様子の横に、抵当権者が「担保価値が減るから承諾が必要」と書
-かれた吹き出しを出しているイラスト。下側(正しいルール、緑のチェック
-マーク)には、同じ土地の更正登記の書類に緑のチェックが付き、抵当権者
-の人物アイコンの前に置かれた「承諾書」に赤い✕印が重なっているイラス
-ト。
+かれた吹き出しを出しているイラスト。下側(正しいルール)には、同じ土地の更正登記の書類と、抵当権者の人物アイコン
+の前に置かれた「承諾書」に赤い✕印と「不要」のラベルが重なっているイラスト
+(この下側の箱に付けるマークは承諾書の✕だけにし、緑のチェックは描かない)。
 着眼点 callout(1-2 sentences, verbatim, must state the checking order):
 まず、その更正登記が地積を減少させるものであることを確認します。次
 に、その土地に抵当権の登記があっても、抵当権者の承諾を証する情報の提
@@ -332,7 +365,7 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾情報は不要
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in green containing the number 4(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -340,10 +373,9 @@ Heading(bold, ONE line):
 Diagram: パネルの中を上下に分割した正誤対比図。上側(誤りやすい思い込
 み、斜線の打ち消し線を重ねる)には、隣り合う2つの土地のうち一方が大き
 くなっていく様子の横に、隣接地の所有者が「境界に関わるから承諾が必
-要」と書かれた吹き出しを出しているイラスト。下側(正しいルール、緑の
-チェックマーク)には、同じ土地の更正登記の書類に緑のチェックが付き、
-隣接地所有者の人物アイコンの前に置かれた「承諾書」に赤い✕印が重なっ
-ているイラスト。
+要」と書かれた吹き出しを出しているイラスト。下側(正しいルール)には、同じ土地の更正登記の書類と、隣接地所有者の人物アイ
+コンの前に置かれた「承諾書」に赤い✕印と「不要」のラベルが重なっているイラ
+スト(この下側の箱に付けるマークは承諾書の✕だけにし、緑のチェックは描かない)。
 着眼点 callout(1-2 sentences, verbatim, must state the checking order):
 まず、その更正登記が地積を増加させるものであることを確認します。次
 に、隣接する土地の所有権の登記名義人の承諾を証する情報の提供を要する
@@ -352,7 +384,7 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 隣地承諾も不要
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -372,17 +404,16 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 申請義務なし
 
-(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
 
 --- FOOTER ---
 Small footnote text(bottom of panel, small font, verbatim):
 根拠：不動産登記法37条1項・38条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese(Jōyō) form, not Simplified Chinese, paying special
+standard Japanese(Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 更・正・変・承・諾・抵・当・誤・差. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that every multi-condition 肢 is
 drawn as an actual flowchart with branch nodes(not a bare illustration

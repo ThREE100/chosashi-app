@@ -2,75 +2,91 @@
 
 **出題年度：令和7年度　午後の部　第19問**
 
-> 登録免許税に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　1個の建物の表題部所有者の住所の更正の登記の申請をする場合には、納付すべき登録免許税の額は1,000円となる。
->
-> イ　私人を所有権の登記名義人とする土地の一部を買い受けた地方公共団体が、私人に代位して当該土地を2筆にする分筆の登記の嘱託をする場合には、登録免許税は課されない。
->
-> ウ　いずれも所有権の登記のある3筆の土地を合筆する旨の登記をした後に、錯誤を原因として当該登記を抹消する旨の登記の申請をする場合には、納付すべき登録免許税の額は3,000円となる。
->
-> エ　5筆の土地の所有権を敷地権とする所有権の登記のある1個の区分建物を2個の区分建物とする再区分の登記の申請をする場合には、納付すべき登録免許税の額は2,000円となる。
->
-> オ　所有権の登記がある附属建物付きの甲建物から当該附属建物を分割して、これを乙建物の附属建物としようとする場合において、建物の分割の登記と建物の合併の登記を一の申請情報によって申請するときは、納付すべき登録免許税の額は3,000円となる。
->
+> 登録免許税に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　1個の建物の表題部所有者の住所の更正の登記の申請をする場合には、納付すべき登録免許税の額は1,000円となる。  
+>　  
+> イ　私人を所有権の登記名義人とする土地の一部を買い受けた地方公共団体が、私人に代位して当該土地を2筆にする分筆の登記の嘱託をする場合には、登録免許税は課されない。  
+>　  
+> ウ　いずれも所有権の登記のある3筆の土地を合筆する旨の登記をした後に、錯誤を原因として当該登記を抹消する旨の登記の申請をする場合には、納付すべき登録免許税の額は3,000円となる。  
+>　  
+> エ　5筆の土地の所有権を敷地権とする所有権の登記のある1個の区分建物を2個の区分建物とする再区分の登記の申請をする場合には、納付すべき登録免許税の額は2,000円となる。  
+>　  
+> オ　所有権の登記がある附属建物付きの甲建物から当該附属建物を分割して、これを乙建物の附属建物としようとする場合において、建物の分割の登記と建物の合併の登記を一の申請情報によって申請するときは、納付すべき登録免許税の額は3,000円となる。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
 ---
 
-表示に関する登記の登録免許税は、「そもそも非課税」なのか「分筆・分割・区分・合併後の個数×1,000円」で計算するのかを見分けるのがポイントです。
+表示に関する登記の登録免許税は、「そもそも課税されない（課税範囲外・非課税）」なのか「分筆・分割・区分・合併後の個数×1,000円」で計算するのかを見分けるのがポイントです。
 
-### ア：表題部所有者の住所の更正は、そもそも非課税
+### ア：表題部所有者の住所の更正は、そもそも課税範囲外
 
-表題部所有者の氏名・住所についての変更・更正の登記は、登録免許税法上、非課税とされています。「1,000円」は権利部の登記名義人の住所変更などに使われる金額であり、表題部所有者に関するものとは異なります。
+表題部所有者の氏名・住所についての変更・更正の登記は、登録免許税の**課税範囲外**です。登録免許税法別表第一（十四）は、登記事項の更正・変更の登記から「土地又は建物の表示に関するもの」を除いており、表題部所有者の氏名・住所の変更・更正は別表第一に掲げられていないため、登録免許税は課されません（法5条の「非課税登記」として免除されるのではなく、そもそも課税の対象になっていません）。「1,000円」は権利部の登記名義人の住所変更などに使われる金額であり、表題部所有者に関するものとは異なります。
 
 **たとえば**、まだ所有権保存登記をしていない建物について、表題部所有者の住所が古いままだったので正しい住所に更正する場合、この手続きに登録免許税はかかりません。
 
 ### イ：地方公共団体の代位による分筆登記の嘱託は、非課税
 
-地方公共団体が、私人に代位して土地の分筆の登記を嘱託する場合、分筆登記のような表示に関する登記は本来課税対象です（登録免許税法別表第一（十三）イにより個数×1,000円が原則）。しかし、登録免許税法5条1号は「国又は別表第二に掲げる者がこれらの者以外の者に代位してする登記又は登録」を非課税としており、登録免許税法別表第二に掲げられている地方公共団体が私人に代位して行う登記はこの非課税規定に該当します。つまり非課税となるのは「登記の種類が表示登記だから」ではなく、「代位する主体が地方公共団体（別表第二該当者）だから」です。
+地方公共団体が、私人に代位して土地の分筆の登記を嘱託する場合、分筆登記のような表示に関する登記は本来課税対象です（登録免許税法別表第一（十三）イにより個数×1,000円が原則）。
+
+しかし、登録免許税法5条1号は「国又は別表第二に掲げる者がこれらの者以外の者に代位してする登記又は登録」を非課税としており、登録免許税法別表第二に掲げられている地方公共団体が私人に代位して行う登記はこの非課税規定に該当します。
+
+つまり非課税となるのは「登記の種類が表示登記だから」ではなく、「代位する主体が地方公共団体（別表第二該当者）だから」です。
 
 **たとえば**、市が道路用地として土地の一部を買い受けた際、地権者に代わって代位で分筆登記を嘱託しても、その手続きに登録免許税はかかりません。
 
-### ウ：合筆登記の錯誤による抹消は、そもそも非課税
+### ウ：合筆登記の錯誤による抹消は、そもそも課税範囲外
 
-登録免許税法別表第一（十五）は登記の抹消について課税する規定ですが、そこには「土地又は建物の**表題部**の登記の抹消を除く」という明確な除外規定があります。合筆登記は表題部の登記であるため、それを錯誤（申請の誤り）を原因として抹消する登記は、この除外規定に該当し、**登録免許税は課されません（非課税）**。3,000円という金額は誤りです。
+登録免許税法別表第一（十五）は登記の抹消について課税する規定ですが、そこには「土地又は建物の**表題部**の登記の抹消を除く」という明確な除外規定があります。
+
+合筆登記は表題部の登記であるため、それを錯誤（申請の誤り）を原因として抹消する登記は、この除外規定により別表第一に掲げられていない**課税範囲外**となり、**登録免許税は課されません**（法5条の非課税登記ではありません）。3,000円という金額は誤りです。
 
 **たとえば**、3筆の土地を合筆して1筆にしたものの、後から手続きの誤りに気づいて合筆登記そのものを取り消す場合、この抹消の登記には登録免許税がかかりません。
 
 ### エ：区分建物の再区分は、再区分後の個数×1,000円
 
-登録免許税法別表第一（十三）イにより、1個の区分建物を2個の区分建物に分ける「再区分の登記」の登録免許税は、再区分後の不動産の個数を基準に、1個につき1,000円で計算されます。1個の建物が2個になるので、2個×1,000円＝2,000円です。
+登録免許税法別表第一（十三）イは、建物の分割又は区分による登記事項の変更の登記について、「分筆又は分割若しくは区分後の不動産の個数」に1個につき1,000円を課すと定めています。本肢のように1個の区分建物を2個の区分建物に分ける場合（再区分）も、区分後の不動産の個数は2個ですから、2個×1,000円＝2,000円です。
+
+本肢の問題文は「5筆の土地の所有権を敷地権とする」区分建物ですが、課税の個数に数えるのは区分後の建物の個数だけで、敷地の筆数は数えません。
 
 **たとえば**、大きな1つの店舗として登記されていた区分建物を、2つの独立した店舗に分け直す場合、登録免許税は再区分後にできる2個分をもとに2,000円となります。
 
 ### オ：分割の登記と合併の登記を一括申請するときは、3,000円ではなく2,000円
 
-建物の分割の登記と合併の登記を一の申請情報によって申請する場合、納付すべき登録免許税の額は、3,000円ではなく2,000円です。登録免許税法別表第一（十三）は、建物の分割による登記事項の変更の登記（イ）と、建物の合併による登記事項の変更の登記（ロ）を、いずれも「その登記の結果、登記事項が変わる不動産の個数×1,000円」で課税すると定めています。本肢の場合、附属建物を切り離される甲建物と、その附属建物を新たに受け入れる乙建物の、あわせて2個の建物について登記事項が変わるため、1,000円×2個＝2,000円となります。
+建物の分割の登記と合併の登記を一の申請情報によって申請する場合、納付すべき登録免許税の額は、3,000円ではなく2,000円です。
 
-**たとえば**、甲建物から附属建物を切り離して乙建物にくっつける手続きを1通の申請書でまとめて行う場合、登記事項が変わるのは甲建物（附属建物がなくなる分）と乙建物（附属建物が増える分）の2個だけなので、登録免許税は2,000円となります。
+登録免許税法別表第一（十三）は、建物の分割による登記事項の変更の登記（イ）について「分筆又は分割若しくは区分後の不動産の個数」、建物の合併による登記事項の変更の登記（ロ）について「合筆又は合併後の不動産の個数」に、それぞれ1個につき1,000円を課すと定めています。
+
+本肢では、附属建物を切り離される甲建物と、その附属建物を新たに受け入れる乙建物の、あわせて2個が対象となる（切り離された附属建物は乙建物の一部になり、独立した1個にはならない）ため、1,000円×2個＝2,000円となります。
+
+**たとえば**、甲建物から附属建物を切り離して乙建物にくっつける手続きを1通の申請書でまとめて行う場合、課税の対象となるのは甲建物（附属建物がなくなる分）と乙建物（附属建物が増える分）の2個だけなので、登録免許税は2,000円となります。
 
 **ここが分かりにくいポイント**：
 
-「分割の登記」と「合併の登記」という2種類の登記をまとめて申請しているのだから、1,000円の登記が都合3個分（甲建物からの分割で生まれる建物1個＋分割後の甲建物1個＋合併後の乙建物1個、というように）発生していると数えてしまい、3,000円という答えにたどり着いてしまいがちです。
+「分割の登記」と「合併の登記」という2種類の登記をまとめて申請しているのだから、条文の文言（分割後の個数、合併後の個数）だけを見て、甲建物からの分割で生まれる建物1個＋分割後の甲建物1個＋合併後の乙建物1個の合計3個と数え、3,000円という答えにたどり着いてしまいがちです。
 
-しかし、ここで数えるべきなのは「登記の種類がいくつあるか」でも「申請書の通数」でもなく、あくまで「この登記全体の結果として、登記事項が変わる不動産の個数」です。今回のケースでは、甲建物から附属建物が切り離され、それがそのまま乙建物に合体する、という一連の流れを、分割の登記と合併の登記という2つの登記に分けて、1通の申請情報でまとめて申請しています。切り離された附属建物が、独立した建物として別途登記されることはなく、そのまま乙建物の一部として記録されるため、最終的に登記事項が変わる建物は、甲建物（附属建物がなくなる）と乙建物（附属建物が増える）の、あわせて2個だけです。
+しかし本肢では、分割で一度独立した建物になった附属建物は、すぐに合併の登記で乙建物の附属建物となり、申請の結果として独立した1個の建物としては残りません。最終的に課税の対象となるのは、甲建物と乙建物の、あわせて2個です。
 
-1. 「登記の種類がいくつあるか」ではなく、「登記の結果、登記事項が変わる不動産は何個か」を数える。
-2. 切り離された附属建物は、独立した建物として登記されることなく、そのまま乙建物に合体するため、別途1個として数える場面がない。
-3. 登記事項が変わるのは、甲建物と乙建物の2個だけなので、1,000円×2個＝2,000円となる。
+なお、この「結果として2個になる」という数え方は、条文の文言から自動的に出る結論ではなく、取扱い・解釈によるものです。
+
+1. 「登記の種類がいくつあるか」ではなく、分割後・合併後に残る不動産が何個かを数える。
+2. 切り離された附属建物は、合併の登記で乙建物の附属建物となり、独立した1個としては数えない。
+3. 残るのは、甲建物と乙建物の2個だけなので、1,000円×2個＝2,000円となる。
 
 この数え方に注意すれば、「3,000円」という記述が誤りであり、正しくは2,000円であることが分かります。
 
+---
+
 ### まとめ
 
-- **ア（誤）**　表題部所有者の住所更正は非課税（1,000円ではない）
+- **ア（誤）**　表題部所有者の住所更正は課税範囲外（1,000円ではない）
 - **イ（正）**　地方公共団体の代位による分筆登記の嘱託は非課税
-- **ウ（誤）**　合筆登記の錯誤抹消は非課税（表題部登記の抹消は非課税とする除外規定に該当するため）
+- **ウ（誤）**　合筆登記の錯誤抹消は課税範囲外（別表第一（十五）が表題部の登記の抹消を除いているため）
 - **エ（正）**　区分建物の再区分は再区分後の個数×1,000円＝2,000円
 - **オ（誤）**　分割＋合併の一括申請は3,000円ではなく2,000円
 
-登録免許税は、「非課税の除外規定に当たるか」「個数×1,000円で計算するか」を条文ごとに切り分けて覚えることが得点への近道です。
+登録免許税は、「そもそも課税されないか（別表第一の課税範囲外、または法5条の非課税登記）」「個数×1,000円で計算するか」を条文ごとに切り分けて覚えることが得点への近道です。
 
 **正解：イ・エの組合せ（選択肢3番）**
 
@@ -79,7 +95,8 @@
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題番号・正解番号（3番＝イ・エ）は法務省公表の試験問題原本・正答資料で確認済みです。ア（表題部所有者の住所更正は非課税）、ウ（表題部登記の抹消は別表第一（十五）の除外規定により非課税）、エ（再区分後の個数×1,000円という計算式）はいずれも登録免許税法別表第一の条文構造で確認済みです。オについては、公式の正答（3番＝イ・エ、オは誤り）から「3,000円ではない」ことは確定しています。正しい税額を「2,000円」とする点は、同一の場面設定（分割の登記と合併の登記を一の申請情報で申請する場合の税額）を扱う平成28年度午後第19問エ（`h28-mondai/q19-touroku-menkyozei.md`）と、個別テーマ記事「表示に関する登記の登録免許税、早見表で一気に整理」（`topics/touroku-menkyozei-hayamihyou.md`）が、いずれも登録免許税法別表第一（十三）イ・ロに基づき「甲建物1個（分割の分）＋乙建物1個（合併の分）＝2個×1,000円＝2,000円」であることを確認済みであり、これによって独立に裏付けられています。
+- 出題番号・正解番号（3番＝イ・エ）は法務省公表の試験問題原本・正答資料で確認済みです。ア（表題部所有者の住所更正は、別表第一（十四）が表示に関するものを除いているため課税範囲外）、ウ（表題部登記の抹消は、別表第一（十五）の除外規定により課税範囲外）、エ（再区分後の個数×1,000円という計算式）はいずれも登録免許税法別表第一の条文構造で確認済みです。オについては、公式の正答（3番＝イ・エ、オは誤り）から「3,000円ではない」ことは確定しています。正しい税額を「2,000円」とする点は、同一の場面設定（分割の登記と合併の登記を一の申請情報で申請する場合の税額）を扱う平成28年度午後第19問エ（`h28-mondai/q19-touroku-menkyozei.md`）と、個別テーマ記事「表示に関する登記の登録免許税、早見表で一気に整理」（`topics/touroku-menkyozei-hayamihyou.md`）が、いずれも登録免許税法別表第一（十三）イ・ロに基づき「甲建物1個（分割の分）＋乙建物1個（合併の分）＝2個×1,000円＝2,000円」であることを確認済みであり、これによって独立に裏付けられています。
+- **2026-10-03の訂正（アとウの「非課税」→「課税範囲外」）**：一問一答ドリルの条文照合で、アとウを「非課税」としていた点が、原文と合わないと指摘された。登録免許税法別表第一（十四）は「土地又は建物の表示に関するもの」を除き、（十五）は「土地又は建物の表題部の登記の抹消」を除いているため、アの表題部所有者の氏名・住所の変更・更正と、ウの表題部の登記の抹消は、別表第一に掲げられていない**課税範囲外**である（法5条の非課税登記ではない）。イ（代位による分筆の嘱託）は、法5条1号の**非課税**のままである。本文・まとめ・見出し画像用フレーズ・図解プロンプトのア・ウの該当箇所を直した。結論（アは誤、ウは誤、正解はイ・エ）は変わらない。図解を生成済みの場合は、ア・ウのパネルの文言（「非課税」のスタンプ）の再生成が必要である。
 - **重複出題チェック**：本問イ（地方公共団体による代位分筆嘱託は非課税）はR02年度第19問エ・H28年度第19問オと、本問オ（分割・合併後の建物2個で2,000円）はH28年度第19問エとほぼ同一の場面設定・結論で出題されています。
 - 読者から「なぜ3,000円ではなく2,000円になるのか」というご質問があったため、オの本文に計算過程（別表第一（十三）イ・ロに基づき、甲建物1個＋乙建物1個＝2個×1,000円）を追記し、「ここが分かりにくいポイント」として、切り離された附属建物を独立した建物として別途カウントしてしまい3,000円と数え間違えやすい点を整理しました。オの正誤判定・条文根拠（結論）自体は変更していません。あわせて、実際に読者が疑問を持たれたオの論点を反映し、タイトルのキャッチフレーズを「市が代位で分筆しても、税金はゼロ」から「3,000円に見えても、実は2,000円なんです」に変更しました。
 
@@ -87,9 +104,9 @@
 
 ## 見出し画像用フレーズ
 
-- 表題部所有者の住所更正、実は非課税です
+- 表題部所有者の住所更正、実は課税されません
 - 代位で分筆しても、税金はかかりません
-- 合筆の抹消は、実は非課税なんです
+- 合筆の抹消は、実は課税されないんです
 - 再区分の税額、後の個数で決まるんです
 - まとめて申請したら、実は2,000円でした
 
@@ -97,7 +114,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-登録免許税の5肢を「非課税になるケース」と「個数×1,000円で計算するケース」という2つの軸に沿って、すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。
+登録免許税の5肢を「課税されないケース（課税範囲外・非課税）」と「個数×1,000円で計算するケース」という2つの軸に沿って、すべての正しい結論を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。左の列の中では「課税範囲外」（ア・ウ：別表第一に掲げられていない）と「非課税」（イ：法5条1号）をスタンプの色と形で描き分ける。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -121,17 +138,35 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 録・地・建・物・登・記・所・錯・誤 — these must be rendered in their standard
+kanji 録・税・課・範・囲・免・地・建・物・登・記・所・錯・誤・抹・個・区・筆・嘱・託 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-登録免許税、
-「非課税」と「個数×千円」の見分け方
+登録免許税、課税されない場合と
+「個数×千円」の見分け方
 
 Subtitle (smaller, centered, 1行):
 令和7年度 午後の部 第19問
@@ -140,17 +175,18 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。）
 
 --- COLUMN A HEADER (pill-shaped badge, color: green) ---
-非課税になるケース
+課税されないケース
 
 --- COLUMN A, CARD 1 ---
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
-表題部所有者の住所更正は非課税
+表題部所有者の住所更正は課税範囲外
 Illustration: an isometric building icon with a small document tag
-labeled "表題部" and "住所" attached to it; a red "非課税" stamp is
-overlaid on top; no yen coin icons anywhere near this card.
+labeled "表題部" and "住所" attached to it; a gray-teal dashed-outline
+"課税範囲外" stamp is overlaid on top (this stamp style is used for
+課税範囲外 only, never for 非課税); no yen coin icons anywhere near this card.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-住所更正は非課税
+住所更正は課税範囲外
 
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
@@ -159,19 +195,21 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: an isometric land plot split into two parcels by a dotted
 line (分筆を表す); a small municipal-building icon (地方公共団体) and a
 person icon (私人) connected by a dashed arrow labeled "代位"; a
-"非課税" stamp badge over the plot.
+solid green "非課税" stamp badge over the plot (a different stamp style
+from the dashed gray-teal 課税範囲外 stamp).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代位でも非課税
 
 --- COLUMN A, CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-合筆登記の錯誤抹消も非課税
+合筆登記の錯誤抹消は課税範囲外
 Illustration: an isometric view of three land parcels merged into one
-(合筆), overlaid with a red cancellation line/X mark (抹消) and a
-"非課税" stamp badge beside it.
+(合筆), overlaid with a thin dark cancellation line (抹消; not a red X,
+because red is reserved for wrong answers) and a gray-teal dashed-outline
+"課税範囲外" stamp badge beside it.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-表題部抹消は非課税
+表題部抹消は課税範囲外
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 個数×1,000円で計算するケース
@@ -201,15 +239,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Confirm the stamp style is consistent: dashed gray-teal for 課税範囲外 (cards 1 and 3) and solid green for 非課税 (card 2), and no card shows both stamps. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -234,11 +272,29 @@ completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 建・物・分・割・合・併・
 登・記・個・数・附・属・登録・免・許・税・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold):
@@ -266,30 +322,30 @@ Illustration: Two isometric building icons only: 甲建物（附属建物が外�
 ことなく、点線の矢印でそのまま乙建物に吸収されていく様子を描く（吸収され
 る部分には価格タグを付けない）。下に合計のsum bubble reading 2,000円.
 Panel takeaway (short line below the illustration):
-登記事項が変わる建物は甲・乙の2個だけ
+残る建物は甲・乙の2個だけ
 
 --- CALLOUT: 誤りやすいポイント ---
 「分割の登記」と「合併の登記」の2種類をまとめて申請しているのだから、
 1,000円の登記が3個分発生していると考えて、3,000円と数えてしまいがちです。
-しかし数えるべきなのは登記の種類の数ではなく、登記の結果、登記事項が変わ
-る不動産の個数です。切り離された附属建物は独立した建物として別途登記され
-ることなく、そのまま乙建物に合体するため、登記事項が変わるのは甲建物と乙
-建物の2個だけです。
+しかし数えるべきなのは登記の種類の数ではなく、分割後・合併後に残る不動産
+の個数です。切り離された附属建物は、合併の登記で乙建物の附属建物となり、
+独立した1個としては残らないため、課税の対象は甲建物と乙建物の2個だけで
+す。
 
 --- FOOTER ---
 登録免許税法別表第一（十三）イ・ロ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、「そもそも非課税の除外規定に当たるか」「登記の種類ではなく個数を数える」を見抜けるようにする5パネル構成。オは既存の間違いノート型と同じ「誤った数え方（3個）」対「正しい数え方（2個）」の正誤対比枠を使う。②の色分け（非課税になるケース＝緑、個数×1,000円で計算するケース＝青）を引き継いでいる。
+問題文を読んだ瞬間に、「そもそも課税されない（ア・ウは別表第一に掲げられていない課税範囲外、イは法5条1号の非課税）か」「登記の種類ではなく個数を数える」を見抜けるようにする5パネル構成。オは既存の間違いノート型と同じ「誤った数え方（3個）」対「正しい数え方（2個）」の正誤対比枠を使う。②の色分け（課税されないケース＝緑、個数×1,000円で計算するケース＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -304,7 +360,7 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric building and land-plot icons, a
-「非課税」stamp, a municipal-building icon for 地方公共団体, a splitting
+solid green「非課税」stamp, a municipal-building icon for 地方公共団体, a splitting
 building icon for 再区分, price tags — adapt icon set to the topic of
 登録免許税. Where a 肢 requires checking multiple conditions in sequence
 before reaching a conclusion, draw the panel's diagram as an actual
@@ -312,8 +368,8 @@ decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 2
-（肢イ）must be drawn as a two-step flowchart, checking「本来課税対象か」
-first and then「代位する主体が別表第二に掲げる者か」. Panel 5（肢オ）
+（イ）must be drawn as a flowchart whose start box states「本来課税対象」
+and whose single diamond asks「代位する主体が別表第二に掲げる者か」. Panel 5（オ）
 uses a 正誤対比型（left/right contrast frame）instead of a flowchart:
 LEFT「誤った数え方（3個）」、RIGHT「正しい数え方（2個）」. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
@@ -325,7 +381,15 @@ are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -351,29 +415,30 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
-表題部所有者の住所更正は非課税
+表題部所有者の住所更正は課税範囲外
 Diagram: An isometric building icon with a small document tag labeled
-「表題部」「住所」attached, a red「非課税」stamp overlaid on top, with no
+「表題部」「住所」attached, a dashed gray-teal「課税範囲外」stamp overlaid on top (this dashed style is for 課税範囲外 only, never for 非課税), with no
 yen coin icons anywhere near the panel.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この変更・更正の登記が「表題部所有者」に関するものか、それとも
 「権利部の登記名義人」に関するものかを確認します。表題部所有者の氏名・
-住所についての変更・更正の登記は非課税であり、1,000円という金額は
-当てはまりません。
+住所についての変更・更正の登記は、別表第一（十四）が表示に関するものを
+除いているため課税範囲外であり、1,000円という金額は当てはまりません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-住所更正は非課税
+住所更正は課税範囲外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 別表第二の者が代位すれば非課税
-Diagram: A two-step decision flowchart. Start node: この分筆登記は本来
-課税対象（個数×1,000円）か？with a はい arrow down to a diamond node
-（highlighted with a thick border): 代位する主体は登録免許税法別表第二
+Diagram: A decision flowchart with one start box and one diamond. Start box (a plain rounded rectangle, NOT a diamond): 分筆登記は本来は
+課税対象（分筆後の個数×1,000円）, with an arrow down to the only diamond
+node
+(highlighted with a thick border): 代位する主体は登録免許税法別表第二
 に掲げる者（地方公共団体等）か？with a green はい branch leading to a
 conclusion node reading 登記の種類にかかわらず非課税, and a faded いいえ
 branch leading to a separate conclusion node reading 通常どおり個数×
@@ -387,22 +452,23 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代位でも非課税
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-表題部の登記の抹消は非課税
+表題部の登記の抹消は課税範囲外
 Diagram: An isometric view of three land parcels merged into one（合筆）,
-overlaid with a red cancellation line/✕ mark（抹消）and a「非課税」stamp
+overlaid with a thin dark cancellation line（抹消; not a red mark, because
+red is reserved for wrong answers）and a dashed gray-teal「課税範囲外」stamp
 badge beside it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、抹消の対象が「土地又は建物の表題部の登記」であることを確認しま
 す。表題部の登記の抹消は、登録免許税法別表第一（十五）の除外規定に
-当たるため非課税です。
+当たるため課税範囲外です。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-表題部抹消は非課税
+表題部抹消は課税範囲外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 再区分後の個数×1,000円を数える
@@ -416,43 +482,43 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 合計2,000円
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 数えるのは登記の種類でなく個数
-Diagram: A 正誤対比型（left/right contrast frame, NOT a flowchart)。LEFT
+Diagram: A 正誤対比型(left/right contrast frame, NOT a flowchart)。LEFT
 box（faded, red border）labeled「誤った数え方（3個）」: 甲建物・切り離
 された附属建物・乙建物の3つの建物アイコンが並び、それぞれに「1,000円」
 のタグ、合計「3,000円」のsum bubble。RIGHT box（highlighted with a thick
-colored border, green）labeled「正しい数え方（2個）」: 甲建物・乙建物の
+blue border; blue here marks the correct side, matching this panel's badge）labeled「正しい数え方（2個）」: 甲建物・乙建物の
 2つの建物アイコンのみ、それぞれ「1,000円」のタグ、合計「2,000円」の
 sum bubble。切り離された附属建物は乙建物にそのまま吸収される矢印で
 示す（独立した価格タグを付けない）。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、数えるべきなのは「登記の種類の数」ではなく「登記の結果、登記事項
-が変わる不動産の個数」であることを確認します。切り離された附属建物は
-独立した建物として別途登記されることなく、そのまま乙建物に合体するた
-め、登記事項が変わるのは甲建物と乙建物の2個だけです。
+まず、数えるべきなのは「登記の種類の数」ではなく「分割後・合併後に残る
+不動産の個数」であることを確認します。切り離された附属建物は、合併の
+登記で乙建物の附属建物となり、独立した1個としては残らないため、課税
+の対象は甲建物と乙建物の2個だけです。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 正しくは2,000円
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-登録免許税法5条1号、別表第一（十三）イ・ロ・（十五）に基づく整理です。
+登録免許税法5条1号、別表第一（十三）イ・ロ・（十四）・（十五）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 課, 税, 免, 許, 抹, 消, 併, 建, 物, 登, 記, 個 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 課, 税, 免, 許, 範, 囲, 抹, 消, 建, 物, 登, 記, 個, 代, 位 and any
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 2 is drawn
-as a two-step flowchart with both branches of its second diamond node
-leading to distinct conclusion nodes, that Panel 5 is drawn as a
+as a flowchart with exactly one diamond node whose two branches
+lead to distinct conclusion nodes, that Panel 5 is drawn as a
 left/right contrast frame rather than a flowchart, that each 着眼点
-callout states a checking order rather than only a conclusion, confirm
+callout states a checking order rather than only a conclusion, confirm that the dashed gray-teal 課税範囲外 stamp appears only on panels 1 and 3 and the solid green 非課税 stamp only on panel 2, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
 and no additional text block of any kind), and confirm the entire

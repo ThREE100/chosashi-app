@@ -2,51 +2,75 @@
 
 **出題年度：平成23年度　午後の部　第2問**
 
-> 時効の援用に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記１から５までのうちどれか。
->
-> ア　ＡのＢに対する売買代金債務を連帯保証したＣは、Ａの売買代金債務について消滅時効が完成した後にＢから連帯保証債務の履行を求められた場合にはＡの売買代金債務についての消滅時効が完成する前に自らの連帯保証債務を承認していたときであっても、Ａの売買代金債務についての消滅時効を援用してＢからの請求を拒むことができる。
->
-> イ　Ａを抵当権者として先順位の抵当権が設定されている不動産の後順位の抵当権者であるＢは、Ａの先順位の抵当権の被担保債権について消滅時効が完成した場合であっても、その消滅時効を援用することができない。
->
-> ウ　甲土地上に乙建物を所有しているＡから乙建物を賃借しているＢが、甲土地の所有者であるＣから、所有権に基づき乙建物から退去して甲土地を明け渡すよう求められた場合において、Ａの占有による甲土地の所有権の取得時効が完成しているときは、Ｂは、その取得時効を援用してＣからの請求を拒むことができる。
->
-> エ　被相続人Ａの占有により甲土地の取得時効が完成していた場合には、Ａの共同相続人の一人であるＢは、甲土地の全部について取得時効を援用することができる。
->
-> オ　Ａに対する貸金債務を承認したＢが、Ａから貸金返還請求を受けた場合には、Ｂは、その承認の際に、その貸金債務について消滅時効が完成していることを知らなかったときであっても、貸金債務の消滅時効を援用してＡからの請求を拒むことができない。
->
+> 時効の援用に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　ＡのＢに対する売買代金債務を連帯保証したＣは、Ａの売買代金債務について消滅時効が完成した後にＢから連帯保証債務の履行を求められた場合にはＡの売買代金債務についての消滅時効が完成する前に自らの連帯保証債務を承認していたときであっても、Ａの売買代金債務についての消滅時効を援用してＢからの請求を拒むことができる。  
+>　  
+> イ　Ａを抵当権者として先順位の抵当権が設定されている不動産の後順位の抵当権者であるＢは、Ａの先順位の抵当権の被担保債権について消滅時効が完成した場合であっても、その消滅時効を援用することができない。  
+>　  
+> ウ　甲土地上に乙建物を所有しているＡから乙建物を賃借しているＢが、甲土地の所有者であるＣから、所有権に基づき乙建物から退去して甲土地を明け渡すよう求められた場合において、Ａの占有による甲土地の所有権の取得時効が完成しているときは、Ｂは、その取得時効を援用してＣからの請求を拒むことができる。  
+>　  
+> エ　被相続人Ａの占有により甲土地の取得時効が完成していた場合には、Ａの共同相続人の一人であるＢは、甲土地の全部について取得時効を援用することができる。  
+>　  
+> オ　Ａに対する貸金債務を承認したＢが、Ａから貸金返還請求を受けた場合には、Ｂは、その承認の際に、その貸金債務について消滅時効が完成していることを知らなかったときであっても、貸金債務の消滅時効を援用してＡからの請求を拒むことができない。  
+>　  
 > 1　アイ　2　アオ　3　イエ　4　ウエ　5　ウオ
+
+---
 
 時効の援用の分野は、「時効の完成によって直接利益を受ける者は誰か」という援用権者の範囲と、いったん承認した後に援用できるかという信義則の問題が中心です。誰が援用でき、誰ができないのかを、利益が直接的か間接的かで見分けていきましょう。
 
 ### ア：連帯保証人は、主債務の消滅時効を援用できる
 
-保証人は、消滅時効について「正当な利益を有する者」として援用権者に含まれます（民法145条かっこ書）。時効完成「前」に自分の保証債務を承認していても、それは保証債務についての話にすぎず、主債務の時効を援用することとは別問題です。したがってCは、Aの売買代金債務の消滅時効を援用して請求を拒めます。
+保証人は、消滅時効について「正当な利益を有する者」として援用権者に含まれます（民法145条かっこ書）。
+
+時効完成「前」に自分の保証債務を承認していても、それは保証債務についての話にすぎず、主債務の時効を援用することとは別問題です。したがってCは、Aの売買代金債務の消滅時効を援用して請求を拒めます。
 
 **たとえば**、友人Aさんの借金の連帯保証人になったCさんが、以前「私が保証しています」と認めていたとしても、Aさん本体の借金が時効で消えたなら、Cさんは「もとの借金が消えたのだから私も払いません」と言えるのです。
 
+※出題当時（平成23年）の民法145条には括弧書がなく、判例が「時効により直接利益を受ける者」を援用権者とし、保証人もこれに含まれるとしていました。令和2年4月1日施行の民法改正で、「保証人、物上保証人、第三取得者その他権利の消滅について正当な利益を有する者」が条文に明記されました（結論自体は変わりません）。
+
 ### イ：後順位抵当権者は、先順位の被担保債権の時効を援用できない
 
-後順位抵当権者Bが、先順位抵当権の被担保債権の消滅によって得るのは、抵当権の順位が上がって配当が増えるかもしれないという期待にすぎません。これは時効による反射的・間接的な利益であって、直接利益を受ける立場とはいえないため、援用権者に当たらないというのが判例の立場です。この判例の考え方は、令和2年民法改正後の145条（当事者の範囲を「権利の消滅について正当な利益を有する者」に限定する明文）の解釈においても、後順位抵当権者を援用権者から除外する結論として維持されています。「援用することができない」とする記述は正しいものです。
+後順位抵当権者Bが、先順位抵当権の被担保債権の消滅によって得るのは、抵当権の順位が上がって配当が増えるかもしれないという期待にすぎません。
+
+これは時効による反射的・間接的な利益であって、直接利益を受ける立場とはいえないため、援用権者に当たらないというのが判例の立場です。
+
+民法145条の括弧書は、保証人・物上保証人・第三取得者などを挙げる一方で後順位抵当権者を明記しておらず、この判例の結論は現行法の下でも維持されていると解されています。「援用することができない」とする記述は正しいものです。
 
 **たとえば**、同じ土地に一番手・二番手で抵当権を持つ人がいて、一番手の借金が時効で消えれば二番手のBさんは順位が繰り上がって得をしますが、それは棚ぼたのようなもの。Bさんが自分から「一番手の借金は時効だ」と言い出すことはできないのです。
 
+※令和2年4月1日施行の民法改正で145条に括弧書が加わりましたが（アの※メモ参照）、後順位抵当権者が援用権者に当たらないという結論は変わりません。
+
 ### ウ：建物の賃借人は、敷地の取得時効を援用できない
 
-土地の取得時効によって直接利益を受けるのは、その土地を占有している建物所有者Aです。建物賃借人Bが受ける利益は、Aが土地を取得すれば結果として建物に住み続けられるという間接的なものにとどまり、援用権者には当たりません。したがって、Bは甲土地の取得時効を援用してCの明渡請求を拒むことはできません。「拒むことができる」とする記述は誤りです。
+土地の取得時効によって直接利益を受けるのは、その土地を占有している建物所有者Aです。建物賃借人Bが受ける利益は、Aが土地を取得すれば結果として建物に住み続けられるという間接的なものにとどまり、援用権者には当たりません。
 
-**たとえば**、他人の土地の上に建った建物を借りて住んでいるBさんは、大家のAさんがその土地を時効で手に入れられる状況でも、自分で「この土地は時効だから出て行きません」と主張することはできません。時効を使えるのはあくまで土地を占有してきたAさんの側です。
+したがって、Bは甲土地の取得時効を援用してCの明渡請求を拒むことはできません。「拒むことができる」とする記述は誤りです。
+
+**たとえば**、他人の土地の上に建った建物を借りて住んでいるBさんは、大家のAさんがその土地を時効で手に入れられる状況でも、自分で「この土地は時効だから出て行きません」と主張することはできません。
+
+時効を使えるのはあくまで土地を占有してきたAさんの側です。
 
 ### エ：共同相続人は、自分の相続分の範囲でしか援用できない
 
-被相続人Aの取得時効が完成していた場合、共同相続人の一人Bは、自己の相続分に応じた範囲でのみその取得時効を援用でき、甲土地の全部について援用することはできません。時効の利益は各相続人に相続分に応じて帰属するからです。「甲土地の全部について取得時効を援用することができる」とする記述は誤りです。
+被相続人Aの取得時効が完成していた場合、共同相続人の一人Bは、自己の相続分に応じた範囲でのみその取得時効を援用でき、甲土地の全部について援用することはできません。
 
-**たとえば**、亡くなったお父さんがある土地を時効で取得できる状態で亡くなり、子どもが3人いたとします。そのうちの一人Bさんは、自分の取り分（相続分）の範囲でしか「これは時効で我が家のものだ」と主張できず、土地まるごとについて一人で援用することはできません。
+時効の利益は各相続人に相続分に応じて帰属するからです。「甲土地の全部について取得時効を援用することができる」とする記述は誤りです。
+
+**たとえば**、亡くなったお父さんがある土地を時効で取得できる状態で亡くなり、子どもが3人いたとします。
+
+そのうちの一人Bさんは、自分の取り分（相続分）の範囲でしか「これは時効で我が家のものだ」と主張できず、土地まるごとについて一人で援用することはできません。
 
 ### オ：時効完成後に承認したら、もう援用できない
 
-時効完成後に債務を承認した者は、たとえその承認の際に時効が完成していることを知らなかったとしても、その後に時効を援用することは信義則上許されないというのが判例の立場です。承認したことで相手方が「もう時効は主張されない」と信頼するからです。したがってBは援用できず、「拒むことができない」とする記述は正しいものです。
+時効完成後に債務を承認した者は、たとえその承認の際に時効が完成していることを知らなかったとしても、その後に時効を援用することは信義則上許されないというのが判例の立場です。
+
+承認したことで相手方が「もう時効は主張されない」と信頼するからです。したがってBは援用できず、「拒むことができない」とする記述は正しいものです。
 
 **たとえば**、Bさんが「借りたお金はちゃんと返します」と言ってしまったあとで、実はその時点ですでに時効が完成していたと気づいても、もう「あれは時効でした」と手のひらを返すことはできないのです。
+
+---
 
 ### まとめ
 
@@ -68,7 +92,7 @@
 - 出題年度・問題番号・正解番号（第2問＝ウエ／4番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
 - 各肢の法的根拠のうち、イ（最判平11.10.21）、オ（最判昭41.4.20）は判例レベルで確認済みです。ウ（建物賃借人の援用権否定）、エ（共同相続人の相続分の範囲での援用）は、時効の援用権者は「時効により直接利益を受ける者」に限られるという一般原則からの整理にとどまります。
 - なお、アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため、本記事では採用せず、正解番号と条文・判例から独立に構成しています。
-- **最新法令準拠チェック（2026-08-04実施）**：出題当時（平成23年）、援用権者の範囲（肢ア・イに関連）は民法145条の解釈上の判例法理にとどまっていましたが、令和2年4月1日施行の民法改正により、145条に「当事者（消滅時効にあっては、保証人、物上保証人、第三取得者その他権利の消滅について正当な利益を有する者を含む。）」という文言が追加され、判例法理が明文化されました。連帯保証人（肢ア）が援用権者に含まれること、後順位抵当権者（肢イ）が除外されることは、この現行145条の解釈としても維持されていることを確認しました。本記事の各肢の根拠説明にこの現行条文の明文化を反映するよう更新しています。
+- **適用法令の現行性チェック（2026-10-01実施）**：2026-08-04の前回チェックに続き、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）で現行の民法145条を条文原文で確認しました。令和2年4月1日施行の民法改正（債権法改正、平成29年法律第44号）で、145条に「当事者（消滅時効にあっては、保証人、物上保証人、第三取得者その他権利の消滅について正当な利益を有する者を含む。）」という括弧書が加わり、判例法理が一部明文化されました。アの連帯保証人（保証人）が援用権者に含まれる点は、この条文で確認できました。後順位抵当権者（イ）・建物賃借人（ウ）・共同相続人（エ）の扱いと、時効完成後の承認の効果（オ）は条文に明記がなく、判例の解釈によるものです。令和2年の改正後も判例の結論は維持されていると考えられますが、改正後の裁判例・解説までは確認できていません。各肢の正誤の結論は変わらないため、出題当時との違いはア・イの※メモにしました。令和5年共有制度改正・相続登記義務化・住所変更登記義務化は本問に関係しません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成24年度以降令和7年度までの試験で「時効の援用」を単独テーマとする問題が再出題されていないかを確認しました。該当する出題は見つからず、重複はありません。
 
 ---
@@ -109,13 +133,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・続・証・約・相 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 権 not 权, 続 not 续,
-証 not 证, 約 not 约).
+kanji 権・証・売・続・賃・認 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -134,22 +175,23 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 連帯保証人は援用できる
-Illustration: A guarantor character standing behind a debtor character,
-both connected to a torn-up loan-contract icon with a "時効" stamp on
-it. A green checkmark appears above the guarantor's raised hand.
+Illustration: A guarantor character (連帯保証人) standing behind a debtor
+character (主債務者), both connected to a torn-up sales-contract icon
+(売買代金, NOT a loan) with a "時効" stamp on it. A green checkmark appears
+above the guarantor's raised hand, which holds a "援用" stamp.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 直接利益あり
 
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-相続人は自分の持分だけ援用可
-Illustration: A land plot divided into three equal wedge slices, each
-with a small heir character standing only on their own slice, planting
-a small flag, with a red X over one heir reaching across into another
-slice.
+相続人は自分の相続分だけ援用可
+Illustration: A land plot divided into wedge slices labeled 相続分, with
+each small heir character standing only on their own slice, planting a
+small flag, and a red X over one heir reaching across into another
+slice. Do NOT write any fraction or number on the slices.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-持分の範囲内
+相続分の範囲内
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 援用できない・制限される
@@ -159,15 +201,17 @@ Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 後順位抵当権者は援用できない
 Illustration: Two stacked mortgage-stamp icons on one land plot, labeled
-1番抵当権 and 2番抵当権. The 1番抵当権 stamp fades away, and the
-2番抵当権 holder reaches up hopefully but is blocked by a padlock icon.
+1番抵当権 and 2番抵当権. A small clock icon labeled 時効完成 sits next to
+the 1番抵当権 stamp (its secured debt has expired). The 2番抵当権 holder
+reaches up hopefully toward a "援用" stamp but is blocked by a padlock
+icon over that stamp.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 反射的利益のみ
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-建物賃借人は敷地の時効を援用不可
+建物賃借人は敷地の取得時効を援用不可
 Illustration: A house icon on a land plot, with a renter character
 inside holding a 賃借 tag, disconnected by a dashed line and a red X
 from a "時効取得" stamp on the land, while the building-owner character
@@ -178,29 +222,28 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-承認後は時効を主張できない
+完成後に承認すると援用できない
 Illustration: A character signing a "承認します" paper next to a clock
-icon that has already struck "時効完成", with a padlock icon over a
-"援用" stamp the character tries to reach afterward.
+icon that has already struck "時効完成" (the clock is shown first, the
+signing second), with a small question-mark icon above the character's
+head (unaware that the time limit had already passed), and a padlock
+icon over a "援用" stamp the character tries to reach afterward.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 信義則で不可
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 権・続・証・約・相. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・証・売・続・賃・認. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm badge numbers run 1-5 continuously across both
 columns without resetting, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
-takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+takeaway must read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -216,17 +259,18 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a guarantor-and-debtor pair for 連帯保証人, a
 stacked two-mortgage icon for 後順位抵当権者, a house-on-land icon for
-建物賃借人, a three-way pie-sliced land plot for 共同相続人の持分, and a
-承認する document with a clock for 時効完成後の承認. Where a 肢 requires
-checking multiple conditions in sequence before reaching a conclusion,
-draw the panel's diagram as an actual decision flowchart: diamond-shaped
-branch nodes with the condition written on them, Yes/No（はい／いいえ）
-branch arrows, and a final conclusion node. Panels 1（肢ア）and 5（肢オ）
-each hide a timing-based trap behind an initial fact, so they are drawn
-as two-diamond flowcharts; Panels 2・3・4（肢イ・ウ・エ）are each resolved
-by a single check（直接利益か反射的・間接的利益か、または援用の範囲），so
-a labeled illustrative diagram is sufficient for them — do not force a
-flowchart. Unlike a glanceable summary poster, each panel MAY include a
+建物賃借人, a pie-sliced land plot for 共同相続人の相続分, and a timeline
+with a 承認 flag for 時効完成後の承認. In this problem every 肢 is
+resolved by a single check（援用権者に当たるか、直接利益か反射的・間接的
+利益か、援用の範囲、承認の時期），so all five panels are labeled
+illustrative diagrams, not flowcharts — do not force a flowchart, and do
+not draw any diamond-shaped decision node, Yes/No branch arrows, or
+dangling arrow anywhere in this image. Panels 1（ア）and 5（オ）each
+contain a distractor fact that does NOT change the conclusion（ア：保証
+人が時効完成前にした自分の保証債務の承認、オ：承認の際に時効完成を
+知っていたかどうか）; draw each distractor as a faded, dotted-outline tag
+marked as irrelevant, with no ○/✕ mark, so the reader sees it is not a
+condition being checked. Unlike a glanceable summary poster, each panel MAY include a
 short「着眼点」callout box with 1-2 sentences that state the checking
 ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
 conclusion. Do not include case or precedent numbers (article/regulation
@@ -235,9 +279,19 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters.
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -259,37 +313,43 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 保証債務の承認は主債務と別問題
-Diagram: A decision-tree flowchart. First diamond node: Cが時効完成前に
-承認していたのは、Aの主債務そのものか、それとも自分自身の連帯保証債務
-か？with the 保証債務自体 branch (drawn with a thicker highlighted
-border, since this is本肢の事実) proceeding downward to a second diamond
-node: 保証人は、145条かっこ書の「正当な利益を有する者」に当たるか？with
-a はい arrow leading to a green checkmark and a conclusion node reading
-Cは主債務の消滅時効を援用してBの請求を拒める. Beside the flowchart, show
-a guarantor character (C) standing behind a debtor character (A), both
-connected to a torn-up loan-contract icon with a 時効 stamp on it.
+Diagram: A single-check labeled diagram (NOT a flowchart — draw no
+diamond-shaped node, no Yes/No branch arrows, and no dangling arrow). A
+creditor character (B) and a debtor character (A) face each other across
+a torn contract document labeled 売買代金債務（主債務） and stamped 時効,
+and a guarantor character (C) stands behind A wearing a badge reading
+連帯保証人. A single numbered step marker ① with a green checkmark sits
+on C's badge, reading 保証人は「正当な利益を有する者」. Beside C, a
+separate small document icon labeled Cの保証債務 carries a faded,
+dotted-outline stamp reading 時効完成前に承認, joined to the main
+document by a faded dotted line labeled 別の債務で援用を妨げない (drawn
+faded, with no ○/✕ mark, to show that this earlier acknowledgment is not
+a condition being checked). The diagram ends in one conclusion node
+reading Cは主債務の消滅時効を援用してBの請求を拒める.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、Cが時効完成前に承認していたのは主債務そのものではなく、自分自身
-の保証債務にすぎないことを確認します。次に、保証人は145条かっこ書の
-「正当な利益を有する者」に当たるため、主債務の消滅時効を援用できると
-判断します。
+まず、連帯保証人Cが145条かっこ書の「正当な利益を有する者」に当たるか
+を確認します。当たる以上、時効完成前にCがした承認は自分自身の保証債務
+についてのものにすぎず、主債務の消滅時効の援用は妨げられないと判断し
+ます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保証債務の承認は無関係
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 順位上昇の期待は反射的利益
 Diagram: An isometric scene of two stacked mortgage-stamp icons on one
-land plot, labeled 1番抵当権 and 2番抵当権. The 1番抵当権 stamp fades
-away (時効消滅), and the 2番抵当権 holder (B) reaches up hopefully
-toward the vacated slot but is blocked by a padlock icon labeled 反射的
-利益にすぎない.
+land plot, labeled 1番抵当権 (held by a character labeled 先順位抵当権者A)
+and 2番抵当権 (held by a character labeled 後順位抵当権者B). A small clock
+icon labeled 時効完成 sits next to the 1番抵当権 stamp; the stamp itself
+stays fully drawn and is NOT faded out, because nobody has invoked the
+time limit. The 2番抵当権 holder (B) reaches up hopefully toward a 援用
+stamp but is blocked by a padlock icon labeled 反射的利益にすぎない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Bが得る利益が、時効による直接の利益なのか、それとも順位が上がる
 かもしれないという間接的・反射的な利益にすぎないのかを確認します。反射
@@ -299,15 +359,19 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 反射的利益のみ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 時効の利益を受けるのは占有者本人
 Diagram: An isometric house icon on a land plot, with a renter character
-(B) inside holding a 賃借 tag, disconnected by a dashed line and a red ✕
-from a 時効取得 stamp on the land, while the building-owner character
-(A) below — who is the one actually occupying the land — holds the stamp
-directly with a green checkmark.
+labeled 建物賃借人B inside holding a 賃借 tag. The building-owner
+character labeled 建物所有者A — the one actually occupying the land —
+stands on the land and holds a 時効取得 stamp directly, with a green
+checkmark. A dashed arrow runs from B toward the 時効取得 stamp itself
+(not toward A) and is blocked by a red ✕, showing that B cannot invoke
+the stamp. At the edge of the land, the land owner character labeled
+甲土地の所有者C points at B with a 明渡請求 tag (the demand that B is
+trying to refuse).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲土地を実際に占有して時効取得の要件を満たしているのは誰か（建物
 所有者A）を確認します。建物賃借人Bの利益はAが土地を取得すれば住み続け
@@ -317,36 +381,45 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 間接的利益
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 援用できるのは自分の相続分だけ
-Diagram: A land plot divided into three equal wedge slices, each with a
-small heir character standing only on their own slice and planting a
-small flag, with a red ✕ drawn over one heir (B) reaching across into
-another slice labeled 甲土地の全部.
+Diagram: A single-check labeled diagram. A land plot divided into
+slices (not necessarily equal in size): one slice for the heir B and the
+remaining slices for the other co-heirs, each slice carrying a small flag.
+B's flag reads Bの相続分 and the other flags read 他の相続人の相続分 (do
+NOT label any heir A or C — A is the deceased original possessor, not an
+heir). Above the plot, a faded ghost-outline figure with a halo and a tag
+reading 被相続人A（取得時効が完成） is joined to the plot by a thin
+dotted arrow. A red ✕ is drawn over B's arm reaching across into the
+other heirs' slices, next to a label 甲土地の全部.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Bが援用しようとしているのが「甲土地の全部」なのか、「自分の相続
 分の範囲」なのかを確認します。時効の利益は各相続人に相続分に応じて帰属
 するため、次に、Bは自己の相続分の範囲でしか援用できないと判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-持分の範囲内
+相続分の範囲内
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
-承認後は知らなくても援用不可
-Diagram: A decision-tree flowchart. First diamond node: Bが「返します」
-と承認したのは、時効完成の前か、後か？with the 完成後 branch (drawn with
-a thicker highlighted border) proceeding downward to a second diamond
-node: 承認の際、Bはその時効が完成していることを知らなかったか？with the
-はい（知らなかった）branch leading to a padlock icon over a 援用 stamp
-and a conclusion node reading 知らなくても、信義則上もう援用できない.
+完成後に承認したら知らなくても援用不可
+Diagram: A single-check labeled diagram drawn as a left-to-right
+timeline (NOT a flowchart — draw no diamond-shaped node, no Yes/No
+branch arrows, and no dangling arrow). Three flag icons in order: flag①
+時効完成, flag② Bが「返します」と承認, flag③ 援用. The 承認 flag（②）
+comes after the 時効完成 flag（①）and carries a green checkmark reading
+完成後の承認. At flag③, a padlock icon sits over a 援用 stamp. Beside
+flag②, a small faded, dotted-outline tag with a question-mark icon reads
+完成を知っていたかは問わない (drawn faded, with no ○/✕ mark, to show
+that this is not a condition being checked). The timeline ends in one
+conclusion node reading 知らなくても、信義則上もう援用できない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、Bが承認したのが時効完成の前か後かを確認します。完成後の承認であ
-れば、次に、その際に時効完成を知らなかったとしても、信義則上もはや援用
-できないと判断します。
+まず、Bが承認したのが時効完成の前か後かを確認します。完成後の承認で
+あれば、その際にBが時効完成を知らなかったとしても結論は変わらず、信義
+則上もはや援用できないと判断します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 信義則で不可
@@ -357,16 +430,21 @@ Small footnote text (bottom of panel, small font, verbatim):
 判断は、判例上確立した理解によります。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 援, 承, 認, 抵, 当, 続, 相 and any character that has a visually
-similar Simplified Chinese variant. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 図, 証, 認, 売, 請, 権, 賃, 続, 変 and any character that has
+a visually similar Simplified or Traditional Chinese variant. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢ア・肢オ are each drawn as an actual
-flowchart with two branch nodes (not a bare illustration with no visible
-decision structure) while the other three panels use a single labeled
-illustrative diagram, that each 着眼点 callout states a checking order
+the header and the panels, that all five panels use a single labeled
+illustrative diagram with no diamond-shaped node, no Yes/No branch arrows
+and no dangling arrow anywhere in the image, that the distractor tags in
+Panels 1 and 5 are drawn faded and marked as irrelevant, that the heirs
+in Panel 4 are not labeled A or C, that each 着眼点 callout states a checking order
 rather than only a conclusion, confirm nothing is rendered below the
 last panel's footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid of all 肢, and no additional text block of

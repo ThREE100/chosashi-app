@@ -2,51 +2,73 @@
 
 **出題年度：令和5年度　午後の部　第17問**
 
-> 共用部分である旨の登記又は団地共用部分である旨の登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　表題登記のある建物について共用部分とする旨の規約を定めた場合には、当該建物の表題部所有者は、当該規約を定めた日から1か月以内に、共用部分である旨の登記を申請しなければならない。
->
-> イ　所有権の登記がない建物について共用部分である旨の登記がされる場合には、当該建物の表題部所有者に関する登記事項を抹消する記号が記録される。
->
-> ウ　共用部分である旨の登記がある建物について、当該建物の種類を倉庫から車庫に変更した場合には、規約により共用部分の所有者と定められた者は、当該建物の表題部の変更の登記を申請しなければならない。
->
-> エ　団地共用部分である旨の登記がある区分建物でない建物について、建物の区分の登記を申請する場合には、当該建物の所有者を証する情報を添付情報として提供しなければならない。
->
-> オ　団地共用部分を共用すべき者の所有する区分建物でない建物について、団地共用部分である旨の登記を申請する場合において、当該建物の不動産番号を申請情報の内容とするときであっても、当該建物の家屋番号を申請情報の内容としなければならない。
->
+> 共用部分である旨の登記又は団地共用部分である旨の登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　表題登記のある建物について共用部分とする旨の規約を定めた場合には、当該建物の表題部所有者は、当該規約を定めた日から1か月以内に、共用部分である旨の登記を申請しなければならない。  
+>　  
+> イ　所有権の登記がない建物について共用部分である旨の登記がされる場合には、当該建物の表題部所有者に関する登記事項を抹消する記号が記録される。  
+>　  
+> ウ　共用部分である旨の登記がある建物について、当該建物の種類を倉庫から車庫に変更した場合には、規約により共用部分の所有者と定められた者は、当該建物の表題部の変更の登記を申請しなければならない。  
+>　  
+> エ　団地共用部分である旨の登記がある区分建物でない建物について、建物の区分の登記を申請する場合には、当該建物の所有者を証する情報を添付情報として提供しなければならない。  
+>　  
+> オ　団地共用部分を共用すべき者の所有する区分建物でない建物について、団地共用部分である旨の登記を申請する場合において、当該建物の不動産番号を申請情報の内容とするときであっても、当該建物の家屋番号を申請情報の内容としなければならない。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
 
-マンションの管理人室や集会所のように、みんなで使う建物・部屋には「共用部分である旨の登記」という特別な登記があります。この分野は、その登記に「申請義務があるのか」「登記記録にどう反映されるのか」「不動産番号を書けば何を省略できるのか」といった細かいルールが問われます。義務があるものとないものを丁寧に切り分けるのがカギです。
+---
+
+マンションの管理人室や集会所のように、みんなで使う建物・部屋には「共用部分である旨の登記」という特別な登記があります。
+
+この分野は、その登記に「申請義務があるのか」「登記記録にどう反映されるのか」「不動産番号を書けば何を省略できるのか」といった細かいルールが問われます。義務があるものとないものを丁寧に切り分けるのがカギです。
 
 ### ア：共用部分である旨の登記に、申請義務はない
 
-共用部分である旨の登記（および団地共用部分である旨の登記）は、その建物が共用部分であることを第三者に対抗するためにする登記であって、法律上の申請義務が課されているわけではありません（区分所有法4条2項）。そのため、「規約を定めた日から1か月以内に申請しなければならない」という本肢は誤りです。
+共用部分である旨の登記（および団地共用部分である旨の登記）は、その建物が共用部分であることを第三者に対抗するためにする登記であって、法律上の申請義務が課されているわけではありません（区分所有法4条2項）。
 
-**たとえば**、マンションの住民が集会で「1階の集会室をみんなの共用部分にしよう」と規約を決めたとしても、表題部所有者が「1か月以内に必ず登記しなさい」と義務づけられるわけではありません。登記するかどうかは、第三者に共用部分だと主張する必要があるかどうかで判断されます。
+そのため、「規約を定めた日から1か月以内に申請しなければならない」という本肢は誤りです。
+
+**たとえば**、マンションの住民が集会で「1階の集会室をみんなの共用部分にしよう」と規約を決めたとしても、表題部所有者が「1か月以内に必ず登記しなさい」と義務づけられるわけではありません。
+
+登記するかどうかは、第三者に共用部分だと主張する必要があるかどうかで判断されます。
 
 ### イ：所有権の登記がない建物では、表題部所有者の登記事項が抹消される
 
-建物に規約共用部分である旨の登記がされると、登記記録の表題部の「原因及びその日付」欄に共用部分である旨が記録されます。そのうえで、所有権の登記がない建物では表題部所有者に関する登記事項が抹消され、所有権の登記がある建物では所有権その他の権利に関する登記が職権で抹消されます（不動産登記法58条4項）。
+建物に規約共用部分である旨の登記がされると、登記記録の表題部の「原因及びその日付」欄に共用部分である旨が記録されます。
+
+そのうえで、所有権の登記がない建物では表題部所有者に関する登記事項が抹消され、所有権の登記がある建物では所有権その他の権利に関する登記が職権で抹消されます（不動産登記法58条4項）。
 
 **たとえば**、Aさん名義の表題部所有者欄しかない（所有権の登記まではしていない）建物を共用部分にした場合、その「表題部所有者A」という記録には抹消の記号がつけられます。共用部分は特定の人の所有物として扱わないための処理です。
 
 ### ウ：表題部の変更事由が生じたら、1か月以内に変更登記を申請する
 
-表題部所有者または所有権の登記名義人は、建物の表題部の登記事項に変更があったときは、変更があった日から1か月以内に変更の登記を申請しなければなりません（不動産登記法51条1項）。これは共用部分である旨の登記がされた建物でも同じで、規約により共用部分の所有者と定められた者が申請義務を負います。
+表題部所有者または所有権の登記名義人は、建物の表題部の登記事項に変更があったときは、変更があった日から1か月以内に変更の登記を申請しなければなりません（不動産登記法51条1項）。
 
-**たとえば**、共用部分になっている建物の種類を「倉庫」から「車庫」に使い方を変えたら、共用部分の所有者と定められた人は、その日から1か月以内に種類変更の登記を申請しなければなりません。共用部分だからといって、表題部の変更登記まで免除されるわけではないのです。
+これは共用部分である旨の登記がされた建物でも同じで、規約により共用部分の所有者と定められた者が申請義務を負います。
+
+**たとえば**、共用部分になっている建物の種類を「倉庫」から「車庫」に使い方を変えたら、共用部分の所有者と定められた人は、その日から1か月以内に種類変更の登記を申請しなければなりません。
+
+共用部分だからといって、表題部の変更登記まで免除されるわけではないのです。
 
 ### エ：区分登記の申請には、所有者を証する情報が必要
 
 団地共用部分である旨の登記がある区分建物でない建物であっても、建物の区分の登記をすることはできます。その場合には、添付情報として当該建物の所有者を証する情報を提供しなければなりません（不動産登記令別表16項添付情報ロ）。
 
-**たとえば**、団地共用部分として登記されている一棟の建物を、あとから複数の区分建物に分ける区分登記をするとき、「この建物は誰のものか」を示す所有者証明情報をつけて申請する必要があります。共用部分だからといって、この添付情報が省けるわけではありません。
+**たとえば**、団地共用部分として登記されている一棟の建物を、あとから複数の区分建物に分ける区分登記をするとき、「この建物は誰のものか」を示す所有者証明情報をつけて申請する必要があります。
+
+共用部分だからといって、この添付情報が省けるわけではありません。
 
 ### オ：不動産番号を書けば、家屋番号は省略できる
 
-申請の際に不動産番号を申請情報の内容とした場合、その不動産を特定するための情報の一部を省略することができます。建物であれば所在・地番・家屋番号などがこれにあたります（不動産登記令6条1項、不動産登記規則34条2項）。したがって、団地共用部分である旨の登記を申請する場合でも、不動産番号を提供したときは家屋番号を省略できます。「家屋番号を申請情報の内容としなければならない」とする本肢は誤りです。
+申請の際に不動産番号（不動産識別事項。不動産登記規則34条2項）を申請情報の内容とした場合、その不動産を特定するための情報の一部を省略することができます。土地ならば所在、地番、地目および地積、建物ならば所在、地番および家屋番号などがこれにあたります（不動産登記令6条1項）。
+
+さらに、団地共用部分である旨の登記（令別表十九の項）については、申請情報欄イの「建物の所在する市、区、郡、町、村、字及び土地の地番並びに当該建物の家屋番号」も、不動産番号を申請情報の内容としたときは省略できます（令6条2項4号）。
+
+したがって、団地共用部分である旨の登記を申請する場合でも、不動産番号を提供したときは家屋番号を省略できます。「家屋番号を申請情報の内容としなければならない」とする本肢は誤りです。
 
 **たとえば**、団地共用部分である旨の登記を申請するとき、その建物の不動産番号（12桁の番号）を申請書に書いておけば、わざわざ家屋番号まで重ねて書く必要はありません。不動産番号は、物件を一発で特定できる「マイナンバー」のような役割を果たすからです。
+
+---
 
 ### まとめ
 
@@ -68,8 +90,8 @@
 - 出題番号・正解番号（2番＝ア・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の条文根拠のうち、ア（区分所有法4条2項）、イ（法58条4項）、ウ（法51条1項）、エ（不動産登記令別表16項添付情報ロ）、オ（令6条1項・不動産登記規則34条2項）は、データベースのexplanationフィールドで条文番号まで明記されているものです。一般原則からの推論にとどまる肢は特にありません。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonでR06・R07年度の全問題と本問の各肢を文字列類似度で突き合わせました。肢ア（共用部分とする旨の規約を定めた場合の登記申請義務の有無）は、**令和7年度午後の部第15問肢イとほぼ同一の文言・同一の論点**（文字列類似度0.92）であることを確認しました。noteへの投稿順序によっては同じ論点の解説が重複するため、投稿時はどちらか一方に寄せる、または相互リンクで誘導するなどの対応を検討してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令への準拠チェック（2026-08-03実施）**：不動産登記法51条1項・58条2項・58条4項、不動産登記令6条1項、不動産登記規則34条2項は、令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonでR06・R07年度の全問題と本問の各肢を文字列類似度で突き合わせました。ア（共用部分とする旨の規約を定めた場合の登記申請義務の有無）は、**令和7年度午後の部第15問イとほぼ同一の文言・同一の論点**（文字列類似度0.92）であることを確認しました。noteへの投稿順序によっては同じ論点の解説が重複するため、投稿時はどちらか一方に寄せる、または相互リンクで誘導するなどの対応を検討してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令への準拠チェック（2026-08-03実施）**：不動産登記法51条1項・58条2項・58条4項、不動産登記令6条1項・2項4号、不動産登記規則34条2項は、令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
 - **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の不動産登記法・不動産登記令・不動産登記規則・区分所有法の条文原文と照合しました。アの根拠として引用していた「不動産登記法58条2項」は、原文を確認したところ「共用部分である旨の登記等をする建物の表題部所有者又は所有権の登記名義人以外の者は、申請することができない」という申請適格者の限定規定であり、「対抗要件であって申請義務がない」という本文の説明内容とは対応していませんでした。この説明内容の実際の根拠は区分所有法4条2項（「その旨の登記をしなければ、これをもつて第三者に対抗することができない」）であるため、本文・確認事項の引用を「区分所有法4条2項」に修正しました。イ（法58条4項）、ウ（法51条1項）、エ（不動産登記令別表十六の項添付情報ロ）、オ（令6条1項・不動産登記規則34条2項・3条8号ロ）は原文と照合し、相違なしでした。
 ---
 
@@ -109,12 +131,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・所・権・番・号・証 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -191,21 +231,21 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 共用部分である旨の登記について、①申請義務の有無、②所有権登記の有無による抹消先の分岐、③変更登記の期限と義務者、④区分登記の添付情報、⑤不動産番号の記載による省略の可否という5つの判定を、「まず何を確認するか」から順に描けるよう5パネルに整理した。イ・オはどちらも、はい/いいえの両方の行き先が実際の結論として意味を持つ決定木として描く。
 
@@ -243,7 +283,15 @@ or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -269,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申請義務ではなく対抗要件
@@ -286,14 +334,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 義務ではなく対抗要件
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 所有権登記の有無で抹消先が変わる
 Diagram: A decision flowchart. Start node: 共用部分である旨の登記がされ
 る. Diamond node: 所有権の登記があるか？ A plain blue はい branch leads
 to a conclusion node reading「所有権その他の権利に関する登記を職権で抹
-消」. A green branch with a thick highlighted border (本肢イの対象) for
+消」. A green branch with a thick highlighted border (本イの対象) for
 いいえ leads to a conclusion node showing an isometric 登記記録 ledger
 page with「表題部所有者Ａ」crossed out by a red 抹消 stamp/line.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -304,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部所有者を抹消
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 種類変更も1か月以内に申請する
@@ -321,7 +369,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規約所有者が1か月以内に申請
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 区分登記には所有者証明が必要
@@ -337,13 +385,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有者証明が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 不動産番号の記載で家屋番号を省略
 Diagram: A decision flowchart. Start node: 団地共用部分である旨の登記の
 申請. Diamond node: 申請情報の内容として不動産番号を記載したか？ A green
-branch with a thick highlighted border (本肢オの対象) for はい leads to a
+branch with a thick highlighted border (本オの対象) for はい leads to a
 conclusion node showing an application form with a「不動産番号」
 barcode/tag icon highlighted and a dotted, crossed-out「家屋番号」label
 beside it. A plain blue いいえ branch leads to its own conclusion node
@@ -363,10 +411,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 項添付情報ロ・6条1項、不動産登記規則34条2項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権, 証, 義, 務, 抹, 消, 規, 約, 号, 建, 物, 登, 記 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
@@ -381,3 +429,5 @@ icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
 any kind), and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
+
+- **2026-10-03の訂正（オの根拠条文）**：一問一答ドリルの条文照合で、団地共用部分の登記で家屋番号を省略できる直接の根拠は令6条2項4号（別表十九の項申請情報欄イ）であり、令6条1項は令3条7号・8号等の一般的な省略規定であるとの指摘があり、法令DB（`note-articles/laws/`）の原文で確認して本文を直しました。結論（オ＝誤）は変わりません。

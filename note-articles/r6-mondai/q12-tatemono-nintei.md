@@ -2,33 +2,41 @@
 
 **出題年度：令和6年度　午後の部　第12問**
 
-> 建物の認定に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　上屋を有する駅のホーム内にある売店は、基礎工事が施されてホームに定着しており、周壁により外気と分断されている場合には、建物として登記することができる。
->
-> イ　次の〔図〕のとおり、鋼管製の脚柱により土地に定着し、鉄板により外気と分断されている家畜の飼料の貯蔵所であるサイロは、建物として登記することができる。
->
-> ウ　廃車となった鉄道車両は、基礎工事が施されて土地に定着しており、店舗の用途に供されている場合には、建物として登記することができる。
->
-> エ　開閉式円形ドーム屋根を有する野球場は、当該屋根の開閉可能部分の下にある観客席及びフィールド部分を除き、建物として登記することができる。
->
-> オ　円柱状の形をした大型の石油備蓄用の石油タンクは、建物として登記することができる。
->
-> 〔図〕
->
+> 建物の認定に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　上屋を有する駅のホーム内にある売店は、基礎工事が施されてホームに定着しており、周壁により外気と分断されている場合には、建物として登記することができる。  
+>　  
+> イ　次の〔図〕のとおり、鋼管製の脚柱により土地に定着し、鉄板により外気と分断されている家畜の飼料の貯蔵所であるサイロは、建物として登記することができる。  
+>　  
+> ウ　廃車となった鉄道車両は、基礎工事が施されて土地に定着しており、店舗の用途に供されている場合には、建物として登記することができる。  
+>　  
+> エ　開閉式円形ドーム屋根を有する野球場は、当該屋根の開閉可能部分の下にある観客席及びフィールド部分を除き、建物として登記することができる。  
+>　  
+> オ　円柱状の形をした大型の石油備蓄用の石油タンクは、建物として登記することができる。  
+>　  
+> 〔図〕  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
-建物として登記できるかどうかは、①外気分断性、②土地への定着性、③用途性（人や物がとどまることができるか）という3要件を満たすかで決まります。加えて、他の工作物と一体とみなされず独立した構造物といえるかも判断のポイントになります。一風変わった構造物ほど、これらのどれが欠けているかを見極めることが大切です。
+---
+
+建物として登記できるかどうかは、①外気分断性、②土地への定着性、③用途性（人や物がとどまることができるか）という3要件を満たすかで決まります。
+
+加えて、他の工作物と一体とみなされず独立した構造物といえるかも判断のポイントになります。一風変わった構造物ほど、これらのどれが欠けているかを見極めることが大切です。
 
 ### ア：駅ホーム内の売店は、独立性がなく建物として登記できない
 
-駅のホーム内にある売店は、コンクリートで基礎工事が施されていたとしても、停車場（ホーム）の一部であって独立性がないことから、建物として登記することはできません。外気分断性や定着性が備わっていても、ホームと一体の構造物とみなされる以上、独立した建物とは認定されないのです。
+駅のホーム内にある売店は、コンクリートで基礎工事が施されていたとしても、停車場（ホーム）の一部であって独立性がないことから、建物として登記することはできません。
+
+外気分断性や定着性が備わっていても、ホームと一体の構造物とみなされる以上、独立した建物とは認定されないのです。
 
 **たとえば**、駅のホームに設けられた売店が壁と屋根でしっかり囲われ、コンクリート基礎で固定されていたとしても、それはホーム設備の一部として扱われ、独立の建物として登記することはできません。
 
 ### イ：家畜飼料用サイロは、3要件を満たせば建物として登記できる
 
-鋼管製の脚柱により土地に定着し、鉄板により外気と分断されている家畜の飼料の貯蔵所であるサイロは、建物として登記することができます。定着性・外気分断性に加え、飼料を貯蔵するという用途性も認められるためです。なお、家畜飼料用サイロやセメント貯蔵用サイロは、建物の種類を「サイロ」と表示することもできます。
+鋼管製の脚柱により土地に定着し、鉄板により外気と分断されている家畜の飼料の貯蔵所であるサイロは、建物として登記することができます。
+
+定着性・外気分断性に加え、飼料を貯蔵するという用途性も認められるためです。なお、家畜飼料用サイロやセメント貯蔵用サイロは、建物の種類を「サイロ」と表示することもできます。
 
 **たとえば**、牧場を営む鈴木さんが、鋼管の脚で地面にしっかり固定し、鉄板で覆われた飼料貯蔵用のサイロを設置した場合、このサイロは建物として登記することができます。
 
@@ -49,6 +57,8 @@
 ガスタンクや石油タンクは、建物として登記することができません（準則77条2号ア）。円柱状の外壁により外気と分断されているように見えても、内部に人や物が通常出入りしてとどまるという用途性を欠くためです。
 
 **たとえば**、円柱状の大きな石油備蓄タンクは、外気とはしっかり分断されていますが、人が中に入って生活したり物を保管する用途には使われないため、建物として登記することはできません。
+
+---
 
 ### まとめ
 
@@ -110,18 +120,36 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・独・鋼・飼・貯・蔵・槽・積・認・定・要・件・地 —
+kanji 建・物・登・記・独・鋼・飼・積・認・定・要・件・地 —
 these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
 建物認定の3要件
-サイロは建物?石油タンクは建物じゃない?
+サイロは建物？石油タンクは建物じゃない？
 
 Subtitle (smaller, centered, 1行):
 令和6年度 午後の部 第12問－外気分断性・定着性・用途性で判断する
@@ -186,19 +214,19 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、ア〜オの各肢について「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに1枚のパネルで示す作図ガイド。上記の②俯瞰カードポスターとは別物で、結論そのものではなく、結論に至るまでの思考の手順を可視化することを目的とする。
 
@@ -247,7 +275,15 @@ a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
@@ -273,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -295,7 +331,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 独立性なく登記不可
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in blue containing the number 2(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -316,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 3要件満たし登記可
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -337,16 +373,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 定着性等満たし登記可
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 開閉部分の下も床面積に算入する
 Diagram: 開閉式の屋根を持つドーム球場の断面をアイソメトリックで描く。屋
-根が半分開いた状態を示す。ひし形の分岐ノード(1)「屋根は開閉式屋根か」→
-はい(実線矢印)→ひし形の分岐ノード(2)「開いている間、真下の観客席・フィ
-ールド部分を床面積から除外できるか」→いいえ(太い赤色の実線矢印)→結論
-ノード「除外できない・全体を床面積に算入する」。屋根の開閉可能部分の真下
+根が半分開いた状態を示す。この肢は単一のチェックで完結するため、ひし形の分岐ノードは描かない。屋根の
+開閉部分の真下に「開いている間も床面積から除外しない」というラベルを置き、
+その横に結論ノード「全体を床面積に算入する」を置く。屋根の開閉可能部分の真下
 にある観客席とフィールド全体を点線の枠で囲み、屋根が開いている部分の真下
 にも同じ点線の枠がかかっていることを強調する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -356,17 +391,18 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全体を床面積に算入
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 石油タンクは用途性を欠き登記不可
 Diagram: 円柱状の大型の石油備蓄タンクをアイソメトリックで描く。タンクの
-外壁はしっかり閉じた状態で描く。ひし形の分岐ノード(1)「外気分断性:円柱状
-の外壁で外気と分断されているか」→はい(薄いグレーの実線矢印。この肢では
-決め手ではないため控えめに表示する)→ひし形の分岐ノード(2)「用途性:人や
-物が出入りしてとどまることができるか」→いいえ(太い赤色の実線矢印)→結論
-ノード「登記できない(用途性なし)」。タンクの断面を透過表現で描き、内部が
+外壁はしっかり閉じた状態で描く。図の左側に小さな確認ラベル(1)「外気分断性:円柱状の外壁で外気と分断されて
+いるか」にチェックマーク(この肢では決め手ではないため控えめに表示する)を
+置き、その下にひし形の分岐ノード(2)「用途性:人や物が出入りしてとどまるこ
+とができるか」を描く。「いいえ」の矢印は太い赤色の実線で結論ノード「登記
+できない(用途性なし)」へ、「はい」の矢印は薄いグレーの点線で薄いグレーの
+結論ノード「登記できる」へつなぐ。タンクの断面を透過表現で描き、内部が
 完全に空洞で人や物のアイコンが一切ないことを示す。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず外気分断性を確認すると分断されているように見えますが、次に人や物が
@@ -380,10 +416,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 建物認定の3要件(外気分断性・定着性・用途性)と独立性、準則77条2号ア(オ)
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 建・物・登・記・独・立・気・分・断・定・着・用・途・貯・蔵・
-槽・積・確・認. If any character renders as a Simplified Chinese variant,
-redraw that character in the correct Japanese form. Confirm the panel
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 建・物・登・記・独・立・気・分・断・定・着・用・途・貯・蔵・積・確・認. If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
 that every multi-condition 肢 is drawn as an actual flowchart with branch

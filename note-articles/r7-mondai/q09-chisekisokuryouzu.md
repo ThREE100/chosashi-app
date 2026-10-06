@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第9問**
 
-> 地積測量図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地の所有権の登記名義人の氏名が登記記録上の氏名と異なる場合であっても、当該氏名についての変更があったことを証する市町村長が職務上作成した情報を提供することにより、当該土地に係る地積測量図の訂正の申出をすることができる。
->
-> イ　書面を提出する方法により地積に関する更正の登記を申請した場合に、作成者が署名した地積測量図には、その作成者の押印は要しない。
->
-> ウ　筆界点に永続性のある石杭又は金属標があるときは、地積測量図にその表示を記録しなければならない。
->
-> エ　分筆の登記を申請する際に添付する地積測量図には、分筆前の土地が広大であって、分筆後の土地の一方がわずかであるときは、地積の記録を便宜省略することができる。
->
-> オ　地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときであっても、当該地積測量図をもって土地所在図を兼ねることはできない。
->
+> 地積測量図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地の所有権の登記名義人の氏名が登記記録上の氏名と異なる場合であっても、当該氏名についての変更があったことを証する市町村長が職務上作成した情報を提供することにより、当該土地に係る地積測量図の訂正の申出をすることができる。  
+>　  
+> イ　書面を提出する方法により地積に関する更正の登記を申請した場合に、作成者が署名した地積測量図には、その作成者の押印は要しない。  
+>　  
+> ウ　筆界点に永続性のある石杭又は金属標があるときは、地積測量図にその表示を記録しなければならない。  
+>　  
+> エ　分筆の登記を申請する際に添付する地積測量図には、分筆前の土地が広大であって、分筆後の土地の一方がわずかであるときは、地積の記録を便宜省略することができる。  
+>　  
+> オ　地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときであっても、当該地積測量図をもって土地所在図を兼ねることはできない。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
 ---
@@ -40,17 +40,29 @@
 
 ### エ：省略できるのは「求積方法」であって、「地積」そのものではない
 
-不動産登記事務取扱手続準則72条2項は、分筆前の土地が広大な土地であって、分筆後の土地の一方がわずかであるなど特別の事情があるときに限り、分筆後の土地のうち1筆の土地について、規則77条1項5号から8号までに掲げる事項（同項5号の地積を除く）を記録することを便宜省略して差し支えないと定めています。つまり省略できるのは、**求積方法**のほか、**筆界点間の距離**・**平面直角座標系の番号又は記号**・**筆界点の座標値**であって、**地積（面積の数値そのもの）**は登記事項である以上、省略することはできません。また、省略が認められるのは分筆後の土地のうち1筆についてのみであり、かつ上記のような特別の事情がある場合に限られます。
+不動産登記事務取扱手続準則72条2項は、分筆前の土地が広大な土地であって、分筆後の土地の一方がわずかであるなど特別の事情があるときに限り、分筆後の土地のうち1筆の土地について、規則77条1項5号から8号までに掲げる事項（同項5号の地積を除く）を記録することを便宜省略して差し支えないと定めています。
+
+つまり省略できるのは、**求積方法**のほか、**筆界点間の距離**・**平面直角座標系の番号又は記号**・**筆界点の座標値**であって、**地積（面積の数値そのもの）**は登記事項である以上、省略することはできません。
+
+また、省略が認められるのは分筆後の土地のうち1筆についてのみであり、かつ上記のような特別の事情がある場合に限られます。
 
 **たとえば**、広い畑の隅を少しだけ切り取って分筆する場合、その「残りの広い方」の土地について、改めて測量し直して細かい求積表や座標値・筆界点間の距離を記録し直す作業は省略してよいとされていますが、「その土地の面積が何㎡である」という数値そのものは、登記事項として必ず地積測量図に記載しなければなりません。
 
 **ここが分かりにくいポイント**：
 
-本肢は「分筆前の土地が広大であって、分筆後の土地の一方がわずかであるとき」という、準則72条2項が定める特別の事情の要件を正確になぞっているため、いかにも正しそうに読めてしまいます。しかし、この要件のもとで実際に何が省略できるのかを見誤ると、逆の結論を導いてしまいます。
+本肢は「分筆前の土地が広大であって、分筆後の土地の一方がわずかであるとき」という、準則72条2項が定める特別の事情の要件を正確になぞっているため、いかにも正しそうに読めてしまいます。
 
-不動産登記規則77条1項5号は、「**地積**及び**その求積方法**」という2つの異なる情報を、1つの号の中にまとめて規定しています。準則72条2項は、5号から8号までに掲げる事項の記録を省略できるとしながら、括弧書きで「同項第5号の**地積**を除く」と定めており、5号の中身のうち「地積」の部分だけをピンポイントで除外しています。つまり、5号の中で実際に省略できるのは、地積の数値ではなく、その計算過程である「**求積方法**」の部分だけです。
+しかし、この要件のもとで実際に何が省略できるのかを見誤ると、逆の結論を導いてしまいます。
 
-本肢は「地積の記録を便宜省略することができる」としていますが、実際には地積（面積の数値そのもの）はまさにこの除外の対象そのものであり、省略することはできません。「5号の記録を省略できる」という大枠だけを覚えて、その中に「地積は除く」という括弧書きの限定が付いていることを見落とすと、この肢に引っかかってしまいます。
+不動産登記規則77条1項5号は、「**地積**及び**その求積方法**」という2つの異なる情報を、1つの号の中にまとめて規定しています。
+
+準則72条2項は、5号から8号までに掲げる事項の記録を省略できるとしながら、括弧書きで「同項第5号の**地積**を除く」と定めており、5号の中身のうち「地積」の部分だけをピンポイントで除外しています。
+
+つまり、5号の中で実際に省略できるのは、地積の数値ではなく、その計算過程である「**求積方法**」の部分だけです。
+
+本肢は「地積の記録を便宜省略することができる」としていますが、実際には地積（面積の数値そのもの）はまさにこの除外の対象そのものであり、省略することはできません。
+
+「5号の記録を省略できる」という大枠だけを覚えて、その中に「地積は除く」という括弧書きの限定が付いていることを見落とすと、この肢に引っかかってしまいます。
 
 - **省略できる**：求積方法（5号のうち）、筆界点間の距離（6号）、平面直角座標系の番号又は記号（7号）、筆界点の座標値（8号）
 - **省略できない**：地積そのもの（5号のうち、括弧書きで明示的に除外）
@@ -59,9 +71,15 @@
 
 ### オ：縮尺が同じで所在を明確に表示できれば、地積測量図は土地所在図を兼ねられる
 
-地積測量図の縮尺が、その土地について作成すべき土地所在図の縮尺と同一で、地積測量図によって土地の所在を明確に表示できるときは、便宜、当該地積測量図をもって土地所在図を兼ねることができます（不動産登記事務取扱準則51条4項）。この場合、図面の標記は「土地所在図兼地積測量図」となります。なお、準則51条4項は、規則74条3項の用紙を用いて余白がある場合に作成するという準則51条3項の前提を踏まえた規定であり、常に自由に兼用できるというものではありません。
+地積測量図の縮尺が、その土地について作成すべき土地所在図の縮尺と同一で、地積測量図によって土地の所在を明確に表示できるときは、便宜、当該地積測量図をもって土地所在図を兼ねることができます（不動産登記事務取扱準則51条4項）。
+
+この場合、図面の標記は「土地所在図兼地積測量図」となります。
+
+なお、準則51条4項は、規則74条3項の用紙を用いて余白がある場合に作成するという準則51条3項の前提を踏まえた規定であり、常に自由に兼用できるというものではありません。
 
 **たとえば**、縮尺250分の1で作られた地積測量図が、たまたま土地所在図として必要な縮尺とも一致していて、その図面だけで土地の場所もはっきり分かる場合には、別に土地所在図を新しく作る必要はなく、1枚の図面に「土地所在図兼地積測量図」と書いて兼用することができます。
+
+---
 
 ### まとめ
 
@@ -121,13 +139,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 測・図・証・訂・署・押・続・略・兼・義・務・境・標・積・録・登・記・所
+kanji 測・図・証・訂・署・押・続・略・兼・義・務・境・標・積・録・記・所
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -146,9 +182,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 氏名が違っても証明書があればOK
-Illustration: An isometric scene of a person handing a certificate to a
-city hall clerk at a counter, with a small land plot icon and a document
-labeled 訂正 nearby, suggesting a name-change certificate being submitted.
+Illustration: An isometric scene in two steps: on the left, a person
+receives a certificate labeled 氏名変更の証明 from a city hall building
+(市町村長); on the right, the same person submits that certificate
+together with a document labeled 訂正申出 at a registry-office counter
+(登記所), with a small land plot icon nearby.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 訂正申出が可能
 
@@ -201,15 +239,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -241,11 +279,29 @@ exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 地・積・求・省・略・分・筆・広・大・除・座・標・値・誤 — always draw the
 standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -294,20 +350,20 @@ width) ---
 72条2項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-地・積・求・省・略・分・筆・広・大・除・座・標・値・誤. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+地・積・求・省・略・分・筆・広・大・除・座・標・値・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm both quoted article text boxes at the top
 match the Japanese text given above verbatim character-for-character,
 confirm the box-splitting diagram clearly shows the left half (地積)
 stamped red/除外 and the right half（求積方法）stamped green/省略可, and
 confirm the callout box text matches verbatim with no paraphrasing and no
-substituted characters.
+substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「何が省略・兼用の条件になっているか」を見抜けるようにする5パネル構成。エは「地積」と「求積方法」を分解して対比する正誤対比型、イ・オは両方の分岐先が意味を持つ決定木として示す。②の色分け（作成・訂正・記録＝緑、省略・兼用＝青）を引き継いでいる。
 
@@ -332,10 +388,10 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 4（肢エ）uses a 正誤対比型（left/right contrast frame）
+flowchart. Panel 4（エ）uses a 正誤対比型（left/right contrast frame）
 instead of a flowchart, splitting 規則77条1項5号 into its two components
 （地積・求積方法）so the reader sees which one is actually excluded.
-Panels 2 and 5（肢イ・肢オ）must show BOTH branches of their decision
+Panels 2 and 5（イ・オ）must show BOTH branches of their decision
 node with their own distinct conclusion node（no looping arrow back into
 the diagram), because both outcomes are meaningful real conclusions
 discussed in the source article. Unlike a glanceable summary poster, each
@@ -348,7 +404,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -374,13 +438,15 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 証明書があれば氏名不一致でも訂正可
-Diagram: An isometric scene of a person handing a certificate labeled
-氏名変更証明 to a city-hall clerk at a counter, with a small land-plot
-icon and a document labeled 訂正申出 beside them.
+Diagram: An isometric two-step scene: the person first receives a
+certificate labeled 氏名変更の証明 from a city-hall building (市町村長が作成),
+then submits that certificate together with a document labeled 訂正申出 at
+a registry-office counter labeled 登記所, with a small land-plot icon
+beside them. The 訂正申出 must go to the 登記所, NOT to the city hall.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、登記記録上の氏名と現在の氏名が食い違っているかを確認します。市町
 村長が職務上作成した氏名変更の証明情報を提供できれば、地積測量図の
@@ -389,7 +455,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 証明書があれば申出可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 署名なら押印不要、記名なら押印必要
@@ -408,7 +474,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 署名なら押印不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 永続性ある境界標は記録が義務
@@ -423,11 +489,11 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 存在すれば記録義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地積は除外されず求積方法だけ省略可
-Diagram: A 正誤対比型（left/right contrast frame, NOT a flowchart). LEFT
+Diagram: A 正誤対比型(left/right contrast frame, NOT a flowchart). LEFT
 box labeled「誤りやすい思い込み」: 規則77条1項5号の欄全体に大きな
 「省略可」の丸印が重なり、地積の数値部分にも取り消し線が引かれている
 （誤った理解）。RIGHT box labeled「正しいルール」: 規則77条1項5号の欄
@@ -444,13 +510,15 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地積は省略できない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 縮尺と所在表示の両方が条件
-Diagram: A decision flowchart. Start node: 地積測量図の縮尺は、その土地
-の土地所在図の縮尺と同一か？with a はい arrow down to a diamond node
-（highlighted with a thick border): その地積測量図によって、土地の所在
+Diagram: A decision flowchart. First diamond: 地積測量図の縮尺は、その土地の土地所在図の縮尺と同一か？
+with a はい arrow down to a second diamond node, and an いいえ arrow to the
+same end node 通常どおり別々に作成する必要がある used by the second
+diamond's いいえ branch (no loop arrows). Second diamond node
+(highlighted with a thick border): その地積測量図によって、土地の所在
 を明確に表示できるか？with a green はい branch leading to a conclusion
 node reading「土地所在図兼地積測量図」として兼用できる, and an equally
 clear いいえ branch leading to a separate conclusion node reading 通常
@@ -470,10 +538,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 4項・72条2項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 氏, 証, 訂, 署, 押, 筆, 界, 標, 積, 縮, 尺, 兼, 併 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 氏, 証, 訂, 署, 押, 筆, 界, 標, 積, 縮, 尺, 兼 and any
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 4 is drawn

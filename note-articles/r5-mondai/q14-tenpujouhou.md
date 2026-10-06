@@ -2,61 +2,91 @@
 
 **出題年度：令和5年度　午後の部　第14問**
 
-> 次の対話は、建物の表示に関する登記の添付情報に関する土地家屋調査士（以下「調査士」という。）と補助者との対話である。調査士の質問に対する次のアからオまでの補助者の解答のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> 調査士：建物の表題登記を申請する場合を考えてみましょう。申請人が建物の敷地を所有していない場合には、当該申請人に当該敷地を利用することについて正当な権原があることを証する情報を提供しなければなりませんか。
->
-> 補助者：ア　はい。当該敷地を利用することについての正当な権原があることを証する情報を添付する必要があります。
->
-> 調査士：建物の表題登記を申請する際に、所有権を証する情報として工事施工会社作成に係る工事完了引渡証明書を提供し、これに当該会社の印鑑に関する証明書を添付した場合には、当該印鑑に関する証明書は、作成後3か月以内のものでなければなりませんか。
->
-> 補助者：イ　いいえ。当該印鑑に関する証明書は、作成後3か月以内のものである必要はありません。
->
-> 調査士：Ａ株式会社の支店の支配人として登記された者が、Ａ株式会社が所有する建物の表題登記の申請に係る申請人となる場合には、Ａ株式会社の会社法人等番号と併せて当該支配人の権限を証する情報を提供しなければなりませんか。
->
-> 補助者：ウ　いいえ。支配人の権限を証する情報を提供する必要はありません。
->
-> 調査士：建物の表題登記を申請する場合には、申請人の住所を証する情報は、作成後3か月以内のものでなければなりませんか。
->
-> 補助者：エ　いいえ。当該住所を証する情報は、作成後3か月以内のものである必要はありません。
->
-> 調査士：2棟の建物が合体して1個の建物になったことにより、合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請する場合において、合体前の各建物について所有権の登記があるときは、当該各建物の所有権の登記名義人の住所を証する情報を提供しなければなりませんか。
->
-> 補助者：オ　いいえ。登記記録から所有権者の住所が明らかなので、住所を証する情報は必要ありません。
->
+> 次の対話は、建物の表示に関する登記の添付情報に関する土地家屋調査士（以下「調査士」という。）と補助者との対話である。調査士の質問に対する次のアからオまでの補助者の解答のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> 調査士：建物の表題登記を申請する場合を考えてみましょう。申請人が建物の敷地を所有していない場合には、当該申請人に当該敷地を利用することについて正当な権原があることを証する情報を提供しなければなりませんか。  
+>　  
+> 補助者：ア　はい。当該敷地を利用することについての正当な権原があることを証する情報を添付する必要があります。  
+>　  
+> 調査士：建物の表題登記を申請する際に、所有権を証する情報として工事施工会社作成に係る工事完了引渡証明書を提供し、これに当該会社の印鑑に関する証明書を添付した場合には、当該印鑑に関する証明書は、作成後3か月以内のものでなければなりませんか。  
+>　  
+> 補助者：イ　いいえ。当該印鑑に関する証明書は、作成後3か月以内のものである必要はありません。  
+>　  
+> 調査士：Ａ株式会社の支店の支配人として登記された者が、Ａ株式会社が所有する建物の表題登記の申請に係る申請人となる場合には、Ａ株式会社の会社法人等番号と併せて当該支配人の権限を証する情報を提供しなければなりませんか。  
+>　  
+> 補助者：ウ　いいえ。支配人の権限を証する情報を提供する必要はありません。  
+>　  
+> 調査士：建物の表題登記を申請する場合には、申請人の住所を証する情報は、作成後3か月以内のものでなければなりませんか。  
+>　  
+> 補助者：エ　いいえ。当該住所を証する情報は、作成後3か月以内のものである必要はありません。  
+>　  
+> 調査士：2棟の建物が合体して1個の建物になったことにより、合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請する場合において、合体前の各建物について所有権の登記があるときは、当該各建物の所有権の登記名義人の住所を証する情報を提供しなければなりませんか。  
+>　  
+> 補助者：オ　いいえ。登記記録から所有権者の住所が明らかなので、住所を証する情報は必要ありません。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-この問題は、調査士の質問に補助者が答えていく対話形式で、「補助者の解答のうち誤っているもの」を探す出題です。テーマは建物の表示に関する登記の添付情報。所有権を証する情報や住所を証する情報、期間制限のルールなど、実務でも頻出のポイントが並んでいます。補助者の答えが正しいのか誤りなのか、一つずつ確認していきましょう。
+---
+
+この問題は、調査士の質問に補助者が答えていく対話形式で、「補助者の解答のうち誤っているもの」を探す出題です。テーマは建物の表示に関する登記の添付情報。
+
+所有権を証する情報や住所を証する情報、期間制限のルールなど、実務でも頻出のポイントが並んでいます。補助者の答えが正しいのか誤りなのか、一つずつ確認していきましょう。
 
 ### ア：正当な権原を証する情報は「必ず提供」ではない（補助者の解答は誤り）
 
-建物の表題登記では、申請人が表題部所有者となる者の「所有権を証する情報」を提供します。申請人が敷地を所有していない場合、敷地の所有者による証明などを所有権を証する情報として添付「することができる」場面はありますが、これは「敷地利用の正当な権原を証する情報を必ず提供しなければならない」というものではありません。建物の所有権の帰属を証明できれば足り、敷地の権原を証する情報が一律に必要とされるわけではないのです。したがって「はい、必要です」と言い切った補助者の解答は誤りです。
+建物の表題登記では、申請人が表題部所有者となる者の「所有権を証する情報」を提供します。
 
-**たとえば**、Aさんが他人の土地を借りてその上に建物を新築したとします。表題登記で証明すべきなのは「その建物がAさんのものだ」ということであって、「Aさんに土地を使う権利があること」を証する書面を必ず出さなければならないわけではありません。補助者は必須であるかのように答えてしまったので、この点が誤りになります。
+申請人が敷地を所有していない場合、敷地の所有者による証明などを所有権を証する情報として添付「することができる」場面はありますが、これは「敷地利用の正当な権原を証する情報を必ず提供しなければならない」というものではありません。
+
+建物の所有権の帰属を証明できれば足り、敷地の権原を証する情報が一律に必要とされるわけではないのです。したがって「はい、必要です」と言い切った補助者の解答は誤りです。
+
+**たとえば**、Aさんが他人の土地を借りてその上に建物を新築したとします。
+
+表題登記で証明すべきなのは「その建物がAさんのものだ」ということであって、「Aさんに土地を使う権利があること」を証する書面を必ず出さなければならないわけではありません。補助者は必須であるかのように答えてしまったので、この点が誤りになります。
 
 ### イ：所有権を証する情報に添付する印鑑証明書に、3か月の期間制限はない（補助者の解答は正しい）
 
-作成後3か月以内という期間制限がかかるのは、権利に関する登記で提供する印鑑証明書などです。建物の表題登記のような表示に関する登記で、所有権を証する情報（工事施工会社作成の工事完了引渡証明書）に添付する印鑑証明書には、この3か月以内という期間制限はありません。したがって「3か月以内である必要はありません」という補助者の解答は正しい取扱いです。
+作成後3か月以内という期間制限がかかるのは、権利に関する登記で提供する印鑑証明書などです。
 
-**たとえば**、新築した家の表題登記のために、施工会社から「この建物は間違いなくAさんに引き渡しました」という工事完了引渡証明書をもらい、それに会社の印鑑証明書を添えるとします。この印鑑証明書は、たとえ発行から半年前のものでも表示登記では使えます。3か月ルールは権利の登記の話であって、表示登記のこの場面には及ばないのです。
+建物の表題登記のような表示に関する登記で、所有権を証する情報（工事施工会社作成の工事完了引渡証明書）に添付する印鑑証明書には、この3か月以内という期間制限はありません。
+
+したがって「3か月以内である必要はありません」という補助者の解答は正しい取扱いです。
+
+**たとえば**、新築した家の表題登記のために、施工会社から「この建物は間違いなくAさんに引き渡しました」という工事完了引渡証明書をもらい、それに会社の印鑑証明書を添えるとします。
+
+この印鑑証明書は、たとえ発行から半年前のものでも表示登記では使えます。3か月ルールは権利の登記の話であって、表示登記のこの場面には及ばないのです。
 
 ### ウ：会社法人等番号があれば、支配人の権限を証する情報は別途不要（補助者の解答は正しい）
 
-支配人は、その営業に関して包括的な代理権を持つ者として登記されます。法人の代表者から申請する場合に会社法人等番号でその資格を確認できるのと同じように、支配人から申請する場合も、会社法人等番号を提供すれば支配人の資格・権限を確認することができます。そのため、支配人の権限を証する情報を別途提供する必要はありません。「不要です」という補助者の解答は正しい取扱いです。
+支配人は、その営業に関して包括的な代理権を持つ者として登記されます。法人の代表者から申請する場合に会社法人等番号でその資格を確認できるのと同じように、支配人から申請する場合も、会社法人等番号を提供すれば支配人の資格・権限を確認することができます。
 
-**たとえば**、A株式会社の支店の支配人として登記されたBさんが、会社の建物の表題登記を申請するとします。登記官はA社の会社法人等番号から「Bさんが支配人として登記されている」ことを確認できるので、わざわざ支配人の権限を示す別の書面を添える必要はありません。番号ひとつで裏が取れる、というわけです。
+そのため、支配人の権限を証する情報を別途提供する必要はありません。「不要です」という補助者の解答は正しい取扱いです。
+
+**たとえば**、A株式会社の支店の支配人として登記されたBさんが、会社の建物の表題登記を申請するとします。
+
+登記官はA社の会社法人等番号から「Bさんが支配人として登記されている」ことを確認できるので、わざわざ支配人の権限を示す別の書面を添える必要はありません。番号ひとつで裏が取れる、というわけです。
 
 ### エ：申請人の住所を証する情報にも、3か月の期間制限はない（補助者の解答は正しい）
 
-建物の表題登記で提供する申請人の住所を証する情報（住所証明書）についても、作成後3か月以内という期間制限はありません。3か月ルールは権利に関する登記の場面で問題になるもので、表示に関する登記の住所証明書には及びません。したがって「3か月以内である必要はありません」という補助者の解答は正しい取扱いです。
+建物の表題登記で提供する申請人の住所を証する情報（住所証明書）についても、作成後3か月以内という期間制限はありません。
+
+不動産登記令が作成後3か月以内と定めているのは、申請書や委任状に押印した者の印鑑証明書（令16条3項・18条3項）と、官公署が作成した代表者の資格を証する書面・代理権限を証する書面（令17条1項）であり、住所を証する情報はこれに含まれていません。
+
+したがって「3か月以内である必要はありません」という補助者の解答は正しい取扱いです。
 
 **たとえば**、Aさんが新築した家の表題登記をするために住民票を添付するとき、その住民票が発行から4か月前のものであっても、表示登記では問題なく使えます。イの印鑑証明書と同じく、ここでも3か月の期間制限は登場しないのです。
 
 ### オ：合体前の各建物の所有権登記名義人の住所を証する情報は提供が必要（補助者の解答は誤り）
 
-2棟の建物が合体して1個になったことによる合体による登記等を申請する場合、合体前の各建物に所有権の登記があるときは、その所有権登記名義人の住所を証する情報を提供しなければなりません。これは、住所が実際と異なっていたり、架空名義人からの申請だったりすることを防ぐためです。「登記記録から明らかだから不要」というわけにはいきません。したがって「必要ありません」という補助者の解答は誤りです。
+2棟の建物が合体して1個になったことによる合体による登記等を申請する場合、合体前の各建物に所有権の登記があるときは、その所有権登記名義人の住所を証する情報を提供しなければなりません。
 
-**たとえば**、AさんとBさんがそれぞれ持っていた2棟の建物が増築でつながって1個の建物になり、合体による登記等をするとします。このとき、AさんとBさんが本当にその住所に実在する登記名義人なのかを確かめるため、それぞれの住所を証する情報を出す必要があります。登記記録に住所が書いてあるからといって省略はできないのです。
+これは、住所が実際と異なっていたり、架空名義人からの申請だったりすることを防ぐためです。「登記記録から明らかだから不要」というわけにはいきません。したがって「必要ありません」という補助者の解答は誤りです。
+
+**たとえば**、AさんとBさんがそれぞれ持っていた2棟の建物が増築でつながって1個の建物になり、合体による登記等をするとします。
+
+このとき、AさんとBさんが本当にその住所に実在する登記名義人なのかを確かめるため、それぞれの住所を証する情報を出す必要があります。登記記録に住所が書いてあるからといって省略はできないのです。
+
+---
 
 ### まとめ
 
@@ -77,6 +107,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（2番＝ア・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠のうち、イ・エ（表示に関する登記の印鑑証明書・住所証明書には作成後3か月以内の期間制限がないこと）、ウ（会社法人等番号による支配人の資格確認）は、不動産登記令・不動産登記規則の添付情報に関する一般的な取扱いから確認できるものです。ア（正当な権原を証する情報が必須ではないこと）とオ（合体による登記等での住所証明の要否）は、所有権を証する情報の趣旨や架空名義防止の趣旨といった一般原則からの説明にとどまる部分があり、細部は登記実務の取扱いの確認をおすすめします。
+- 2026-10-01の図解プロンプト点検で、エの本文が「3か月ルールは権利に関する登記の場面で問題になる」としていた点を、ローカル法令データベース（`laws/fudousan-touki-rei.md`）の不動産登記令16条3項・17条1項・18条3項で確認し、作成後3か月以内の期限があるのは印鑑証明書と官公署作成の資格証明・代理権限証明の書面であって、住所を証する情報には（権利に関する登記でも）期限の規定がないという説明に改めました（エの判定・正解番号は変わりません）。作図ガイドのパネル4も同じ内容に直しました。
 - なお、この設問の解説データはOCR起因で別問と入れ替わりが生じていたため、一次情報をもとに整理し直したうえで執筆しています。
 - あわせて、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（建物の表示登記の添付情報）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
@@ -119,12 +150,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・番・号・建・物・登・記・所・誤 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -203,19 +252,19 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 補助者の対話形式の問題文を読んだ瞬間に、「この登記は権利に関する登記か、表示に関する登記か」をまず見分ければ、期間制限の有無や添付情報の要否に迷わなくなる5パネル構成。ア・オは「思い込みがちな誤り」と「正しいルール」を対比する正誤対比型、イ・エは同じ「表示登記だから3か月ルールが及ばない」という対比枠を共有し、ウは会社法人等番号1つで足りる流れを示す。
 
@@ -241,7 +290,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or はい/いいえ) branch arrows, and a final conclusion node. Where a 肢
 is resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 2 and 4 (肢イ・肢エ) share
+sufficient — do not force a flowchart. Panels 2 and 4 (イ・エ) share
 the same underlying left/right contrast frame (左：権利に関する登記、
 3か月以内が必要／右：表示に関する登記、期間制限なし); draw both panels
 with the same two-frame layout, changing only the document icon on the
@@ -261,7 +310,15 @@ to the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -287,7 +344,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 敷地の権原証明は必須ではない
@@ -307,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権証明で足りる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 表示登記の印鑑証明に期間制限なし
@@ -327,7 +384,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 期間制限なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 会社法人等番号で支配人証明は不要
@@ -343,24 +400,27 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 番号確認で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 住所証明書にも期間制限は及ばない
-Diagram: The same left/right contrast frame as Panel 2 (権利に関する
-登記／表示に関する登記), but the right frame shows an isometric住民票
-(住所を証する情報)document icon instead of印鑑証明書, with an old
-calendar date and a checkmark, and a「3か月」ruler icon crossed out,
-drawn in the same visual style as Panel 2 to show the parallel rule.
+Diagram: A left/right contrast frame. Left frame labeled「3か月の期限が
+ある書面」(faded, for reference only): small icons of an 印鑑証明書 and
+an official 資格証明 document, each beside a「3か月」ruler icon. Right
+frame labeled「住所を証する情報（今回のケース）」(highlighted): an
+isometric 住民票 document icon with an old calendar date and a
+checkmark, and a「3か月」ruler icon crossed out. Do NOT label the left
+frame「権利に関する登記」— the 住民票 has no 3か月 limit in either kind
+of registration.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まずこの登記が権利に関する登記か、表示に関する登記かを確認します。
-表示に関する登記であれば、住所を証する情報についても作成後3か月以内
-という期間制限は及びません。
+まず、提供する書面が3か月の期限が定められている印鑑証明書等なのか、
+住所を証する情報なのかを確認します。住所を証する情報には、作成後3か月
+以内という期間制限はありません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 期間制限なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 合体時は住所証明を省略できない
@@ -386,10 +446,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 関する定めに基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権, 地, 番, 号, 建, 物, 登, 記, 所, 証, 誤 and any character
-that has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that Panels 2 and 4 visibly

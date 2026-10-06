@@ -2,83 +2,119 @@
 
 **出題年度：令和6年度　午後の部　第2問**
 
-> Ａがその所有する甲土地をＢに売却した場合に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　Ａが甲土地をＢに売却した後、その旨の登記がされない間に、更に甲土地をＣに売却した場合において、ＡＣ間の売買の時点で、ＡＢ間の売買についてＣが悪意であったときは、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃに対し、甲土地の所有権の取得を対抗することができる。
->
-> イ　Ａが甲土地をＢに売却した後、その旨の登記がされない間に、Ｃのために抵当権を設定した場合には、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃの抵当権が実行されて買受人となったＤに対し、甲土地の所有権の取得を対抗することができる。
->
-> ウ　Ｂが甲土地を更にＣに売却した場合には、Ｃは、甲土地について所有権の移転の登記を備えなくても、Ａに対し、甲土地の所有権の取得を対抗することができる。
->
-> エ　Ａが甲土地をＢに売却した後、その旨の登記がされない間に、Ａが死亡し、Ａの唯一の相続人である子Ｃが甲土地を相続した場合には、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃに対し、甲土地の所有権の取得を対抗することができる。
->
-> オ　Ｂは、甲土地について所有権の移転の登記を備えなければ、甲土地を無権原で占有するＣに対し、甲土地の明渡しを請求することができない。
->
+> Ａがその所有する甲土地をＢに売却した場合に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　Ａが甲土地をＢに売却した後、その旨の登記がされない間に、更に甲土地をＣに売却した場合において、ＡＣ間の売買の時点で、ＡＢ間の売買についてＣが悪意であったときは、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃに対し、甲土地の所有権の取得を対抗することができる。  
+>　  
+> イ　Ａが甲土地をＢに売却した後、その旨の登記がされない間に、Ｃのために抵当権を設定した場合には、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃの抵当権が実行されて買受人となったＤに対し、甲土地の所有権の取得を対抗することができる。  
+>　  
+> ウ　Ｂが甲土地を更にＣに売却した場合には、Ｃは、甲土地について所有権の移転の登記を備えなくても、Ａに対し、甲土地の所有権の取得を対抗することができる。  
+>　  
+> エ　Ａが甲土地をＢに売却した後、その旨の登記がされない間に、Ａが死亡し、Ａの唯一の相続人である子Ｃが甲土地を相続した場合には、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃに対し、甲土地の所有権の取得を対抗することができる。  
+>　  
+> オ　Ｂは、甲土地について所有権の移転の登記を備えなければ、甲土地を無権原で占有するＣに対し、甲土地の明渡しを請求することができない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
+
+---
 
 不動産物権変動の対抗要件（民法177条）は、「登記がなければ対抗できない相手」がどこまで広がるのかを問う分野です。この「第三者」の範囲を、判例のルールに沿って正確に線引きできるかがポイントになります。
 
 ### ア：単純悪意の第三者にも、登記がなければ対抗できない
 
-177条でいう「第三者」とは、契約の当事者やその立場をそのまま引き継いだ人以外で、「相手が登記をしていないことにつけこんで、"登記がないなら自分を優先しろ"と文句を言える、まっとうな理由のある人」を指すと考えられています。単に「AB間の売買があったことを知っていただけ」の悪意者（相手を妨害する意図まではない人）も、この「第三者」に含まれるというのが判例の立場です。そのため、Bは登記をしていなければ、Cに対して所有権の取得を主張することができません。
+177条でいう「第三者」とは、契約の当事者やその立場をそのまま引き継いだ人以外で、「相手が登記をしていないことにつけこんで、"登記がないなら自分を優先しろ"と文句を言える、まっとうな理由のある人」を指すと考えられています。
 
-**たとえば**、地主のAさんが甲土地をBさんに売ったのに登記をしないまま放置していたところ、Aさんが同じ土地を知人のCさんにも売却したとします。Cさんが「実はAB間の売買があったことを知っていた」という単なる悪意者にすぎない場合でも、Bさんが登記をしていなければ、Cさんに所有権の取得を対抗することはできません。
+単に「AB間の売買があったことを知っていただけ」の悪意者（相手を妨害する意図まではない人）も、この「第三者」に含まれるというのが判例の立場です。
+
+そのため、Bは登記をしていなければ、Cに対して所有権の取得を主張することができません。
+
+**たとえば**、地主のAさんが甲土地をBさんに売ったのに登記をしないまま放置していたところ、Aさんが同じ土地を知人のCさんにも売却したとします。
+
+Cさんが「実はAB間の売買があったことを知っていた」という単なる悪意者にすぎない場合でも、Bさんが登記をしていなければ、Cさんに所有権の取得を対抗することはできません。
 
 **ここが分かりにくいポイント**：
 
 「Cは事情を知っていて買ったのだから、いわば"横取り"をしたずるい人だ。ずるい人が保護されるのはおかしい」と感じて、Bが登記なしでもCに勝てるはずだと考えてしまいがちです。しかし、この直感は「背信的悪意者」の話と混同しています。
 
-判例上、177条の「第三者」から除外されるのは、①当事者本人、②包括承継人（相続人等）、③前主・後主の関係にある者、④不法占拠者、⑤自由競争の範囲を逸脱してもっぱら相手を害する目的で買い受けるような「背信的悪意者」に限られます。単に「AB間の売買があったことを知っていただけ」の単純悪意者は、この①〜⑤のどれにも当てはまりません。
+判例上、177条の「第三者」から除外されるのは、①当事者本人、②包括承継人（相続人等）、③前主・後主の関係にある者、④不法占拠者、⑤自由競争の範囲を逸脱してもっぱら相手を害する目的で買い受けるような「背信的悪意者」に限られます。
 
-「知っていた」というだけでは、まだ自由な取引の範囲内にとどまり、信義則に反するとまではいえないため、単純悪意者は原則どおり「第三者」に含まれます。結果として、Bは登記をしていなければCに対抗することができません。①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
+単に「AB間の売買があったことを知っていただけ」の単純悪意者は、この①〜⑤のどれにも当てはまりません。
+
+「知っていた」というだけでは、まだ自由な取引の範囲内にとどまり、信義則に反するとまではいえないため、単純悪意者は原則どおり「第三者」に含まれます。結果として、Bは登記をしていなければCに対抗することができません。
+
+①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
 
 ### イ：抵当権が実行されて買受人となった者にも、登記がなければ対抗できない
 
 Aが甲土地をBに売却した後、登記未了の間にCのために抵当権が設定され、その抵当権が実行されて買受人となったDは、新たに所有権を取得する者です。Bは登記をしなければ、このDに対抗することができません。
 
-**たとえば**、Bさんが土地を買ったのに登記をしないでいたところ、元の所有者Aさんがその土地に銀行Cのための抵当権を設定してしまい、後日その抵当権が実行されて競売にかけられ、Dさんがその土地を競落したとします。この場合、Bさんは登記をしていなければ、Dさんに対して所有権の取得を対抗することができません。
+**たとえば**、Bさんが土地を買ったのに登記をしないでいたところ、元の所有者Aさんがその土地に銀行Cのための抵当権を設定してしまい、後日その抵当権が実行されて競売にかけられ、Dさんがその土地を競落したとします。
+
+この場合、Bさんは登記をしていなければ、Dさんに対して所有権の取得を対抗することができません。
 
 **ここが分かりにくいポイント**：
 
 「Cは抵当権者（お金を貸しているだけの人）にすぎず、Bと同じ土地を取り合う関係ではないから、対抗関係の話は関係ないのでは」と考えてしまいがちです。しかし、この肢で実際に登場するのはCではなく、抵当権が実行された結果として競売で土地を買い受けたDです。
 
-Dは、抵当権者Cとは別に、競売によって新たに甲土地の所有権を取得した人です。①当事者本人、②包括承継人、③前主・後主、④不法占拠者、⑤背信的悪意者のいずれにも当てはまらない以上、Dは原則どおり「第三者」に含まれます。抵当権の設定・実行という一見遠回りな経路をたどっていても、最終的に「新たに所有権を取得した人」が現れた時点で、Bはその人に対して登記なしでは対抗できないと考えると整理しやすくなります。
+Dは、抵当権者Cとは別に、競売によって新たに甲土地の所有権を取得した人です。①当事者本人、②包括承継人、③前主・後主、④不法占拠者、⑤背信的悪意者のいずれにも当てはまらない以上、Dは原則どおり「第三者」に含まれます。
+
+抵当権の設定・実行という一見遠回りな経路をたどっていても、最終的に「新たに所有権を取得した人」が現れた時点で、Bはその人に対して登記なしでは対抗できないと考えると整理しやすくなります。
 
 ### ウ：前主・後主の関係にある者には、登記なしで対抗できる
 
 所有権が転々移転した場合の前主・後主の関係にある者は、177条の「第三者」にあたりません。そのため、Bからさらに甲土地を買ったCは、登記をしなくても元の所有者Aに対抗することができるというのが判例の立場です。
 
-**たとえば**、Aさんから土地を買ったBさんが、その土地をさらにCさんに転売したとします。この場合、CさんはAさんとの関係では「前主・後主」の連続する当事者の関係にあるにすぎないため、登記をしていなくても、元のAさんに対して所有権を主張することができます。
+**たとえば**、Aさんから土地を買ったBさんが、その土地をさらにCさんに転売したとします。
+
+この場合、CさんはAさんとの関係では「前主・後主」の連続する当事者の関係にあるにすぎないため、登記をしていなくても、元のAさんに対して所有権を主張することができます。
 
 **ここが分かりにくいポイント**：
 
-「Cは、Aと直接契約したわけではない、Bとは別の人だから、AC間は対抗関係になるはずだ」と考えてしまいがちです。しかし、A→B→Cという所有権の流れを図にすると、これは単に1本の線がAからCまでつながっているだけであり、AとCが同じ土地を取り合っている（二重譲渡のような）対抗関係にはなっていません。
+「Cは、Aと直接契約したわけではない、Bとは別の人だから、AC間は対抗関係になるはずだ」と考えてしまいがちです。
 
-③前主・後主の関係にある者は、177条の「第三者」から明確に除外されます。「別人だから第三者」ではなく、「取り合う関係にあるかどうか」で考えるのがコツです。①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
+しかし、A→B→Cという所有権の流れを図にすると、これは単に1本の線がAからCまでつながっているだけであり、AとCが同じ土地を取り合っている（二重譲渡のような）対抗関係にはなっていません。
+
+③前主・後主の関係にある者は、177条の「第三者」から明確に除外されます。「別人だから第三者」ではなく、「取り合う関係にあるかどうか」で考えるのがコツです。
+
+①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
 
 ### エ：売主の相続人には、登記なしで対抗できる
 
-被相続人からの譲受人は、相続人に対しては登記なくして不動産の所有権を主張することができます。これは、相続人が被相続人を包括承継する（民法896条本文）ため、相続人と被相続人を同一人とみなすことができ、譲受人との関係は当事者の関係となり、対抗関係にはならないと考えられるからです。
+被相続人からの譲受人は、相続人に対しては登記なくして不動産の所有権を主張することができます。
 
-**たとえば**、Aさんが土地をBさんに売った後、登記をしないうちにAさんが亡くなり、Aさんの唯一の相続人である子Cさんがその土地を相続したとします。この場合、Cさんは亡きAさんの立場をそのまま引き継ぐ者にすぎないため、Bさんは登記をしていなくても、Cさんに対して所有権の取得を対抗することができます。
+これは、相続人が被相続人を包括承継する（民法896条本文）ため、相続人と被相続人を同一人とみなすことができ、譲受人との関係は当事者の関係となり、対抗関係にはならないと考えられるからです。
+
+**たとえば**、Aさんが土地をBさんに売った後、登記をしないうちにAさんが亡くなり、Aさんの唯一の相続人である子Cさんがその土地を相続したとします。
+
+この場合、Cさんは亡きAさんの立場をそのまま引き継ぐ者にすぎないため、Bさんは登記をしていなくても、Cさんに対して所有権の取得を対抗することができます。
 
 **ここが分かりにくいポイント**：
 
 「Cは、Aとは別の人格（別人）なのだから、Bとの関係では第三者にあたるはずだ」と考えてしまいがちです。しかし、相続は単なる「別人への財産の受け渡し」ではなく、被相続人の法律上の地位をそのまま引き継ぐ包括承継（民法896条本文）です。
 
-②包括承継人は、被相続人と法的に同一視され、当事者本人と同じ立場に立つため、177条の「第三者」からは除外されます。Cは「Aとは別の新しい買主」ではなく「Aそのものの立場を引き継いだ人」と考えると、Bが登記なしで対抗できる理由がつかみやすくなります。①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
+②包括承継人は、被相続人と法的に同一視され、当事者本人と同じ立場に立つため、177条の「第三者」からは除外されます。Cは「Aとは別の新しい買主」ではなく「Aそのものの立場を引き継いだ人」と考えると、Bが登記なしで対抗できる理由がつかみやすくなります。
+
+①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
 
 ### オ：不法占拠者には、登記なしで明渡しを請求できる
 
 不法占拠者は177条の「第三者」にあたらないため、Bは登記をしなくてもCに対抗することができ、明渡しを請求することができるというのが判例の立場です。
 
-**たとえば**、Bさんが買った土地に、何の権原もないCさんが勝手に住み着いてしまったとします。この場合、Cさんは登記の有無を主張できる正当な利益を持つ「第三者」ではないため、Bさんは登記をしていなくても、Cさんに対して土地の明渡しを求めることができます。
+**たとえば**、Bさんが買った土地に、何の権原もないCさんが勝手に住み着いてしまったとします。
+
+この場合、Cさんは登記の有無を主張できる正当な利益を持つ「第三者」ではないため、Bさんは登記をしていなくても、Cさんに対して土地の明渡しを求めることができます。
 
 **ここが分かりにくいポイント**：
 
-「登記さえしっかり備えておかないと、どんな相手にも対抗できなくなってしまうのでは」という漠然とした不安から、不法占拠者に対しても登記が必要だと考えてしまいがちです。しかし、177条の「第三者」として保護されるのは、あくまで「登記の欠缺を主張するにつき正当な利益を有する者」に限られます。
+「登記さえしっかり備えておかないと、どんな相手にも対抗できなくなってしまうのでは」という漠然とした不安から、不法占拠者に対しても登記が必要だと考えてしまいがちです。
 
-④不法占拠者は、そもそも土地に対する何の権原も持たない以上、「登記がないなら自分を優先しろ」と文句を言える立場自体がありません。文句を言う資格のない相手に対しては、登記の有無にかかわらず所有権を主張できると考えると整理しやすくなります。①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
+しかし、177条の「第三者」として保護されるのは、あくまで「登記の欠缺を主張するにつき正当な利益を有する者」に限られます。
+
+④不法占拠者は、そもそも土地に対する何の権原も持たない以上、「登記がないなら自分を優先しろ」と文句を言える立場自体がありません。文句を言う資格のない相手に対しては、登記の有無にかかわらず所有権を主張できると考えると整理しやすくなります。
+
+①〜⑤の枠組みを整理した個別記事（`note-articles/topics/taikouyouken-daisansha-5ruikei.md`）もあわせてご参照ください。
+
+---
 
 ### まとめ
 
@@ -104,8 +140,8 @@ Dは、抵当権者Cとは別に、競売によって新たに甲土地の所有
 - **判例citationの再検証（2026-08-14実施）**：ウ（前主・後主の関係）についてデータベースは「最判昭43.11.19」としていましたが、Web検索では該当日付の判例を確認できず、誤citationの疑いが強いと判断しました。前主・後主の関係にある者が177条の「第三者」にあたらないとした判例は、複数の情報源（裁判所判例検索の該当ページの検索結果概要を含む）で最判昭39.2.13（集民72号145頁）であることを確認できたため、これに訂正しています。ア（単純悪意者も「第三者」にあたる）の根拠としてデータベースが挙げていた「最判昭32.9.19」については、この作業環境からのアクセス制限（courts.go.jp・note.com等への直接アクセスがブロックされている）により、日付レベルでの実在確認が完了していません。結論（単純悪意者は177条の「第三者」に含まれるという通説・判例の立場）自体は複数の実務解説サイトと整合しており誤りではありませんが、この具体的な判決日は未確認である旨をご留意ください。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（対抗要件・民法177条の「第三者」）に関する記述（「177条」「対抗要件」等のキーワード）を含む問題がないか確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **2026-09-16追記（肢ア〜オ・間違いノート型補足の追加）**：読者から各肢の結論に自力でたどり着けなかったというフィードバックを受け、肢ア〜オすべてに「ここが分かりにくいポイント」を追加しました。ア（単純悪意者と背信的悪意者の混同）、イ（抵当権者Cと買受人Dの取り違え）、ウ（別人だから対抗関係になるはずという誤解）、エ（別人格だから第三者にあたるはずという誤解）、オ（登記さえあれば安全という漠然とした不安）と、5肢それぞれで異なるつまずきの構造を整理しています。あわせて、まとめの末尾に177条の「第三者」の判例上の定義（当事者及びその包括承継人以外の者で、登記の欠缺を主張するにつき正当な利益を有する者）と、①当事者本人・②包括承継人・③前主後主・④不法占拠者・⑤背信的悪意者という除外パターンを明示し、この枠組みを深掘りした個別テーマ記事（`topics/taikouyouken-daisansha-5ruikei.md`）を新設して各肢・まとめから相互リンクしました。①〜⑤の分類・背信的悪意者の除外根拠については、`note-articles/h19-mondai/q02-daisansha-hogo.md`の既存の解説（最判平成8年10月29日、相対的構成）と整合していることを確認済みです。5肢を機械的に俯瞰できる間違いノート型インフォグラフィック（①〜⑤への当てはめ一覧）も記事末尾に新規追加しました。本文中の各肢の正誤判定・まとめの表・正解番号はいずれも変更していません。
-- **2026-09-16追記（肢ア〜オ・個別インフォグラフィックの追加）**：上記の「ここが分かりにくいポイント」5件それぞれについて、対比型（直感的な誤解／正しい思考の2パネル構成）の個別インフォグラフィックを1枚ずつ、計5枚新規作成しました。5肢共通の一覧インフォグラフィックとは別に、各肢固有のつまずき（ア＝単純悪意と背信的悪意の混同、イ＝抵当権者Cと買受人Dの取り違え、ウ＝別人か同一人かではなく取り合う関係かどうかで判断する視点、エ＝民法896条本文の引用を交えた包括承継の図解、オ＝「正当な利益」の有無で判断する視点）を、それぞれ条文引用・説明文を制限なく配置した`infographic-prompt-template.md`の「④ 間違いノート型」に基づいて図解しています。
+- **2026-09-16追記（ア〜オ・間違いノート型補足の追加）**：読者から各肢の結論に自力でたどり着けなかったというフィードバックを受け、ア〜オすべてに「ここが分かりにくいポイント」を追加しました。ア（単純悪意者と背信的悪意者の混同）、イ（抵当権者Cと買受人Dの取り違え）、ウ（別人だから対抗関係になるはずという誤解）、エ（別人格だから第三者にあたるはずという誤解）、オ（登記さえあれば安全という漠然とした不安）と、5肢それぞれで異なるつまずきの構造を整理しています。あわせて、まとめの末尾に177条の「第三者」の判例上の定義（当事者及びその包括承継人以外の者で、登記の欠缺を主張するにつき正当な利益を有する者）と、①当事者本人・②包括承継人・③前主後主・④不法占拠者・⑤背信的悪意者という除外パターンを明示し、この枠組みを深掘りした個別テーマ記事（`topics/taikouyouken-daisansha-5ruikei.md`）を新設して各肢・まとめから相互リンクしました。①〜⑤の分類・背信的悪意者の除外根拠については、`note-articles/h19-mondai/q02-daisansha-hogo.md`の既存の解説（最判平成8年10月29日、相対的構成）と整合していることを確認済みです。5肢を機械的に俯瞰できる間違いノート型インフォグラフィック（①〜⑤への当てはめ一覧）も記事末尾に新規追加しました。本文中の各肢の正誤判定・まとめの表・正解番号はいずれも変更していません。
+- **2026-09-16追記（ア〜オ・個別インフォグラフィックの追加）**：上記の「ここが分かりにくいポイント」5件それぞれについて、対比型（直感的な誤解／正しい思考の2パネル構成）の個別インフォグラフィックを1枚ずつ、計5枚新規作成しました。5肢共通の一覧インフォグラフィックとは別に、各肢固有のつまずき（ア＝単純悪意と背信的悪意の混同、イ＝抵当権者Cと買受人Dの取り違え、ウ＝別人か同一人かではなく取り合う関係かどうかで判断する視点、エ＝民法896条本文の引用を交えた包括承継の図解、オ＝「正当な利益」の有無で判断する視点）を、それぞれ条文引用・説明文を制限なく配置した`infographic-prompt-template.md`の「④ 間違いノート型」に基づいて図解しています。
 
 ---
 
@@ -145,12 +181,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -221,20 +275,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (2
 cards in Column A, 3 cards in Column B), with no duplicated or missing
 cards, that badge numbers run 1-5 continuously across both columns
 without resetting, confirm there is no intro illustration or paragraph
 block between the header and the cards, and confirm that no card contains
 a full sentence of explanatory prose — every card's takeaway must read
-as a short heading + a short conclusion tag, at a glance.
+as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 5肢すべてに共通する「177条の第三者にあたるか」という1つの決定木を土台に、各肢が①〜⑤のどの除外パターンに当てはまるか（またはどれにも当てはまらないか）だけが変わることを、5パネル通して同じ木の形で示す構成。
 
@@ -243,7 +297,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-（登記なしで対抗できる相手・できない相手), but built as a set of 5
+（登記なしで対抗できる相手・できない相手）, but built as a set of 5
 diagram-drawing panels (a "how to sketch this fact pattern, in the right
 order" study reference) rather than a quick-reference conclusion poster.
 
@@ -275,7 +329,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -299,7 +361,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 単純悪意者は①〜⑤に当てはまらない
@@ -316,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 悪意でも対抗不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 問題になるのは抵当権者でなく買受人
@@ -334,7 +396,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 買受人にも対抗不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 前主後主は③に当てはまる
@@ -351,7 +413,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 前主後主は対抗可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 相続人は②に当てはまる
@@ -368,7 +430,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 包括承継だから対抗可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 不法占拠者は④に当てはまる
@@ -391,10 +453,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 後主・④不法占拠者・⑤背信的悪意者はいずれも「第三者」から除外されます。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権, 登, 記, 承, 継, 占, 拠, 背, 信, 欠, 缺, 相, 続 and any character
-that has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権, 登, 記, 承, 継, 占, 拠, 背, 信, 相, 続 and any character
+that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that all 5 panels visibly share
@@ -435,11 +497,29 @@ out exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 権・登・記・者・承・継・占・拠・背・信・欠・缺・誤・相・続 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -486,14 +566,14 @@ background, full width) ---
 根拠：民法177条、民法896条本文
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
 権・登・記・者・承・継・占・拠・背・信・欠・缺・誤・相・続. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm there are exactly 5 rows (ア・イ・ウ・エ・オ) with
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly 5 rows (ア・イ・ウ・エ・オ) with
 no duplicated or missing rows, confirm the quoted definition text matches
 the Japanese text given above verbatim character-for-character, and
 confirm the callout box text matches verbatim with no paraphrasing and no
-substituted characters.
+substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -525,11 +605,29 @@ as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 悪・意・背・信・登・記・欠・缺・者・誤 — always draw the standard Japanese
 (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -546,9 +644,11 @@ Panel heading (bold):
 
 Illustration (isometric scene inside the panel):
 An isometric figure Ｃ with a small speech-bubble icon reading「知ってて
-買った」, standing next to figure Ｂ who holds a shield icon with a red ✕
-mark on it (representing the incorrect assumption that Ｂ can win without
-registration because Ｃ acted unfairly).
+買った」, standing next to figure Ｂ who holds a shield icon with a green checkmark
+on it (representing the incorrect assumption that Ｂ can win without
+registration because Ｃ acted unfairly). IMPORTANT: this left panel shows
+the mistaken belief with a ✓, while the right panel shows the actual rule
+for Ｃ（単純悪意）with a ✕ — do not draw the same mark on both sides.
 
 Panel conclusion (bold, red banner):
 ずるいから保護されないはず
@@ -586,14 +686,14 @@ background, full width) ---
 根拠：民法177条（判例上の「第三者」の定義）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
 悪・意・背・信・登・記・欠・缺・者・誤. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 条文・判例が見ている条件 on the right), confirm the
 quoted text box matches the Japanese text given above verbatim
 character-for-character, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters.
+verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -624,11 +724,36 @@ callout text into short tags — write it out exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 抵・当・権・買・受・競・売・登・記・誤 — always draw the standard Japanese
 (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+問題になるのは抵当権者ではなく買受人
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問 イ－競売の買受人Ｄは第三者に含まれる
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
 Panel heading (bold):
@@ -675,14 +800,14 @@ background, full width) ---
 根拠：民法177条（判例上の「第三者」の定義）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
 抵・当・権・買・受・競・売・登・記・誤. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 実際に登場する人物 on the right), confirm the quoted
 text box matches the Japanese text given above verbatim
 character-for-character, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters.
+verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -712,11 +837,36 @@ exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-前・主・後・主・承・継・登・記・者・誤 — always draw the standard Japanese
+前・主・後・承・継・登・記・者・誤 — always draw the standard Japanese
 (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+前主・後主は取り合う関係ではないんです
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問 ウ－一直線につながる承継
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
 Panel heading (bold):
@@ -762,14 +912,14 @@ background, full width) ---
 根拠：民法177条（判例上の「第三者」の定義）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-前・主・後・主・承・継・登・記・者・誤. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+前・主・後・承・継・登・記・者・誤. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 実際の関係 on the right), confirm the quoted text box
 matches the Japanese text given above verbatim character-for-character,
 and confirm the callout box text matches verbatim with no paraphrasing
-and no substituted characters.
+and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -799,11 +949,36 @@ out exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-相・続・人・被・相・続・人・承・継・登・記・誤 — always draw the standard
+相・続・人・被・承・継・登・記・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+相続人は売主と同じ立場なんです
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問 エ－包括承継人は第三者に当たらない
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
 Panel heading (bold):
@@ -849,14 +1024,14 @@ background, full width) ---
 根拠：民法177条（判例上の「第三者」の定義）、民法896条本文
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-相・続・人・被・相・続・人・承・継・登・記・誤. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+相・続・人・被・承・継・登・記・誤. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 包括承継の実際 on the right), confirm the quoted text
 box matches the Japanese text given above verbatim character-for-character,
 and confirm the callout box text matches verbatim with no paraphrasing and
-no substituted characters.
+no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -887,11 +1062,36 @@ below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 占・拠・権・原・登・記・者・欠・缺・誤 — always draw the standard Japanese
 (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+不法占拠者には登記がなくても対抗できる
+
+Subtitle (smaller, centered, 1行):
+令和6年度 午後の部 第2問 オ－正当な利益のない者は第三者に当たらない
 
 --- LEFT PANEL (red background, 直感的な誤解) ---
 Panel heading (bold):
@@ -937,12 +1137,12 @@ background, full width) ---
 根拠：民法177条（判例上の「第三者」の定義）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
 占・拠・権・原・登・記・者・欠・缺・誤. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm there are exactly two side-by-side panels (red 直感的な誤解
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly two side-by-side panels (red 直感的な誤解
 on the left, green 「正当な利益」の有無で判断する on the right), confirm
 the quoted text box matches the Japanese text given above verbatim
 character-for-character, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters.
+verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

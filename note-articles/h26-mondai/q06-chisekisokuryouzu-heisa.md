@@ -2,25 +2,27 @@
 
 **出題年度：平成26年度　午後の部　第6問**
 
-> 次のような登記事項の記録（抜粋）がある甲土地及び乙土地に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> なお，甲土地及び乙土地は，その地番区域及び所有権の登記名義人が同一であり，また，いずれも乙区に記録されている事項はないものとする。
->
-> （甲土地）157番（山林2,851㎡）→157番1（1,025㎡、157番1ないし157番7に分筆〔平成18年3月15日〕）→（993㎡、錯誤〔平成21年6月3日〕）→（591㎡、157番1，157番16に分筆〔平成24年11月9日〕）→（宅地591.61㎡、平成26年8月8日地目変更〔平成26年8月19日〕）
->
-> （乙土地）157番6（山林310㎡、157番から分筆〔平成18年3月15日〕）→（428㎡、157番7を合筆〔平成26年8月19日〕）
->
-> ア　甲土地について錯誤による地積の更正の登記が平成21年6月3日にされたことによっても，平成18年3月15日にされた分筆の登記において登記所に備え付けられた地積測量図は閉鎖されない。
->
-> イ　甲土地について分筆の登記が平成24年11月9日にされたことにより，平成21年6月3日にされた錯誤による地積の更正の登記において登記所に備え付けられた地積測量図は閉鎖される。
->
-> ウ　乙土地について合筆の登記が平成26年8月19日にされたことにより，平成18年3月15日にされた分筆の登記において登記所に備え付けられた地積測量図は閉鎖される。
->
-> エ　甲土地及び乙土地が相互に接続している場合であっても，甲土地を乙土地に合筆する合筆の登記を申請することはできない。
->
-> オ　甲土地について地目の変更の登記が平成26年8月19日にされた際に，甲土地の所有権の登記名義人に対し，当該地目の変更の登記に係る登記識別情報が通知されている。
->
+> 次のような登記事項の記録（抜粋）がある甲土地及び乙土地に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> なお，甲土地及び乙土地は，その地番区域及び所有権の登記名義人が同一であり，また，いずれも乙区に記録されている事項はないものとする。  
+>　  
+> （甲土地）157番（山林2,851㎡）→157番1（1,025㎡、157番1ないし157番7に分筆〔平成18年3月15日〕）→（993㎡、錯誤〔平成21年6月3日〕）→（591㎡、157番1，157番16に分筆〔平成24年11月9日〕）→（宅地591.61㎡、平成26年8月8日地目変更〔平成26年8月19日〕）  
+>　  
+> （乙土地）157番6（山林310㎡、157番から分筆〔平成18年3月15日〕）→（428㎡、157番7を合筆〔平成26年8月19日〕）  
+>　  
+> ア　甲土地について錯誤による地積の更正の登記が平成21年6月3日にされたことによっても，平成18年3月15日にされた分筆の登記において登記所に備え付けられた地積測量図は閉鎖されない。  
+>　  
+> イ　甲土地について分筆の登記が平成24年11月9日にされたことにより，平成21年6月3日にされた錯誤による地積の更正の登記において登記所に備え付けられた地積測量図は閉鎖される。  
+>　  
+> ウ　乙土地について合筆の登記が平成26年8月19日にされたことにより，平成18年3月15日にされた分筆の登記において登記所に備え付けられた地積測量図は閉鎖される。  
+>　  
+> エ　甲土地及び乙土地が相互に接続している場合であっても，甲土地を乙土地に合筆する合筆の登記を申請することはできない。  
+>　  
+> オ　甲土地について地目の変更の登記が平成26年8月19日にされた際に，甲土地の所有権の登記名義人に対し，当該地目の変更の登記に係る登記識別情報が通知されている。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　ウオ
+
+---
 
 登記記録の変遷を時系列で追いながら、地積測量図の閉鎖ルールと合筆の制限、登記識別情報の通知範囲を確認する問題です。表を使って土地の履歴を整理する練習にもなります。
 
@@ -28,7 +30,13 @@
 
 平成18年3月15日の分筆の登記の際に備え付けられた地積測量図は、平成21年6月3日に錯誤による地積の更正の登記がされたとしても、それによって当然に閉鎖されるわけではありません。
 
-**たとえば**、ある土地を分筆した際に地積測量図が登記所に保存されたあと、しばらくしてその土地の地積に誤りがあったことが判明し、地積の更正の登記がされたとします。この更正登記がされたからといって、最初の分筆のときの地積測量図が自動的に閉鎖されるわけではありません。
+地積の更正の登記には更正後の地積測量図が提供されますが（不動産登記令別表6項）、平成18年の分筆の際の地積測量図は、157番1だけでなく分筆後の157番2から157番7までの土地もまとめて表示した図面です。
+
+157番1の地積を更正しても他の土地の部分まで効力を失うわけではないため、この分筆の図面は閉鎖されないと解されています。
+
+**たとえば**、ある土地を分筆した際に地積測量図が登記所に保存されたあと、しばらくしてその土地の地積に誤りがあったことが判明し、地積の更正の登記がされたとします。
+
+この更正登記がされたからといって、最初の分筆のときの地積測量図が自動的に閉鎖されるわけではありません。
 
 ### イ：後の分筆の登記があっても、更正の登記の地積測量図は閉鎖されない
 
@@ -38,21 +46,29 @@
 
 ### ウ：合筆の登記があっても、別の土地の分筆の登記の地積測量図は閉鎖されない
 
-乙土地について合筆の登記が平成26年8月19日にされたとしても、それによって甲土地側で平成18年3月15日にされた分筆の登記の地積測量図が閉鎖されるわけではありません。合筆による影響は、合筆される土地自体の記録に関するものであり、他の土地（ここでは甲土地）の過去の分筆の際の地積測量図にまで及ぶものではありません。
+乙土地について合筆の登記が平成26年8月19日にされたとしても、それによって甲土地側で平成18年3月15日にされた分筆の登記の地積測量図が閉鎖されるわけではありません。
+
+合筆による影響は、合筆される土地自体の記録に関するものであり、他の土地（ここでは甲土地）の過去の分筆の際の地積測量図にまで及ぶものではありません。
 
 **たとえば**、隣の土地どうしを合筆する登記をしたとしても、それとは別の土地について過去に行われた分筆のときの地積測量図が、この合筆をきっかけに閉鎖されることはありません。
 
 ### エ：地番区域と所有権登記名義人が同一でも、条件を満たさなければ合筆できないことがある
 
-甲土地と乙土地が相互に接続していたとしても、それだけで合筆の登記が当然にできるわけではありません。合筆の登記には、地番区域・所有権登記名義人の同一性に加えて、地目の同一性など不動産登記法上定められた制限があり、これらの制限に抵触する事情があれば、接続していても合筆の登記を申請することはできません。
+甲土地と乙土地が相互に接続していたとしても、それだけで合筆の登記が当然にできるわけではありません。
+
+合筆の登記には、地番区域・所有権登記名義人の同一性に加えて、地目の同一性など不動産登記法上定められた制限があり、これらの制限に抵触する事情があれば、接続していても合筆の登記を申請することはできません。
 
 **たとえば**、甲土地と乙土地が地番区域・所有権登記名義人ともに同一で、物理的にも接していたとしても、地目が異なるなど合筆の制限に該当する事情があれば、両者を1つの土地にまとめる合筆の登記を申請することはできません。
 
 ### オ：地目の変更の登記では、登記識別情報は通知されない
 
-地目の変更の登記は、権利に関する登記ではなく表示に関する登記であるため、この登記がされたことによって所有権の登記名義人に登記識別情報が通知されることはありません。登記識別情報は、所有権の保存・移転などの権利に関する登記がされた際に、その登記名義人となった申請人に通知されるものです。
+地目の変更の登記は、権利に関する登記ではなく表示に関する登記であるため、この登記がされたことによって所有権の登記名義人に登記識別情報が通知されることはありません。
+
+登記識別情報は、所有権の保存・移転などの権利に関する登記がされた際に、その登記名義人となった申請人に通知されるものです。
 
 **たとえば**、山林として登記されていた土地が宅地に地目変更されたとしても、この地目変更の登記に関連して、土地の所有者に新しい登記識別情報（いわゆる権利証に代わるもの）が発行されることはありません。
+
+---
 
 ### まとめ
 
@@ -81,7 +97,7 @@
 
 ### 補足：合筆の登記ができない6つのケース（不動産登記法41条）
 
-肢エで問題になっている「合筆の制限」は、不動産登記法41条に定められています。まずは条文の原文を見てみましょう。
+エで問題になっている「合筆の制限」は、不動産登記法41条に定められています。まずは条文の原文を見てみましょう。
 
 > 次に掲げる合筆の登記は、することができない。
 > 一　相互に接続していない土地の合筆の登記
@@ -94,13 +110,13 @@
 この6つのうち、どれか1つにでも当てはまると、合筆の登記を申請することはできません。初学者向けに、それぞれを噛み砕いて説明します。
 
 ・1号（接続していない土地）：合筆は「隣り合っている土地どうしを1つにまとめる」手続なので、離れた場所にある土地どうしを合筆することはそもそもできません。
-・2号（地目又は地番区域が異なる土地）：Q6の肢エは、まさにこの2号のケースです。地番区域・所有権登記名義人が同じでも、一方が「宅地」でもう一方が「山林」というように地目が違っていれば、合筆できません。登記記録は地目ごとに整理されているため、性質の違う土地をそのまま1つにまとめることは想定されていないのです。
+・2号（地目又は地番区域が異なる土地）：Q6のエは、まさにこの2号のケースです。地番区域・所有権登記名義人が同じでも、一方が「宅地」でもう一方が「山林」というように地目が違っていれば、合筆できません。登記記録は地目ごとに整理されているため、性質の違う土地をそのまま1つにまとめることは想定されていないのです。
 ・3号（表題部所有者又は所有権の登記名義人が異なる土地）：持ち主が違う土地どうしを、勝手に1つの土地にまとめることはできません。
 ・4号（持分を異にする土地）：たとえばA・Bが共有する土地（持分2分の1ずつ）と、同じA・Bが共有していても持分の割合が違う土地（持分3分の1・3分の2）は、名義人こそ同じA・Bでも、持分の割合が違うために合筆できません。
 ・5号（所有権登記の有無が異なる土地）：所有権の登記がまだされていない土地と、既に所有権の登記がされている土地とでは、権利の公示状況が異なるため合筆できません。
 ・6号（所有権以外の権利に関する登記がある土地）：たとえば一方の土地にだけ抵当権や地上権の登記が付いている場合、そのままでは合筆できません（ただし、合筆後も登記記録にそのまま引き継げるものとして法務省令で定められた権利については、この限りではありません）。
 
-Q6の肢エは、このうち2号「地目又は地番区域が相互に異なる土地の合筆の登記」にあたる場面（地目が異なる場合）を問うものです。地番区域・所有権登記名義人が同一で、しかも物理的に接続していても、「地目」という別の要素で制限に引っかかることがある、という点が本問のポイントです。
+Q6のエは、このうち2号「地目又は地番区域が相互に異なる土地の合筆の登記」にあたる場面（地目が異なる場合）を問うものです。地番区域・所有権登記名義人が同一で、しかも物理的に接続していても、「地目」という別の要素で制限に引っかかることがある、という点が本問のポイントです。
 
 ---
 
@@ -108,10 +124,10 @@ Q6の肢エは、このうち2号「地目又は地番区域が相互に異な�
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・エ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
-- ア・イ・ウ（地積測量図の閉鎖事由）は、不動産登記規則85条2項で明確に確認できました。同項は、①表題部の登記事項に関する変更の登記又は更正の登記をした場合（変更後又は更正後の図面がある場合に限る）、②滅失の登記又は表題部の抹消をした場合、③換地処分の登記をした場合、の3つに限って図面の閉鎖事由を列挙しており、分筆の登記・合筆の登記はこの列挙に含まれていません。したがって、肢イ（後の分筆の登記により先行する更正登記の地積測量図が閉鎖される）、肢ウ（合筆の登記により別の土地の分筆の登記の地積測量図が閉鎖される）は、いずれも85条2項の閉鎖事由に該当しないため誤りです。肢ア（更正の登記があっても先行する分筆の登記の地積測量図は閉鎖されない）についても、本問の更正が単純な錯誤による地積の訂正であり、更正後の新たな地積測量図の提出を伴わない場合は「変更後又は更正後の図面がある場合に限る」という85条2項1号の要件を満たさず、閉鎖事由に該当しません。オ（地目の変更の登記では登記識別情報が通知されないこと）は不動産登記法21条（登記識別情報の通知は「申請人自らが登記名義人となる場合」に限られ、表示に関する登記である地目変更はこれに該当しない）で、エ（合筆の制限）は不動産登記法41条2号で、それぞれ条文上確認できています。
+- ア・イ・ウ（地積測量図の閉鎖事由）は、不動産登記規則85条2項で明確に確認できました。同項は、①表題部の登記事項に関する変更の登記又は更正の登記をした場合（変更後又は更正後の図面がある場合に限る）、②滅失の登記又は表題部の抹消をした場合、③換地処分の登記をした場合、の3つに限って図面の閉鎖事由を列挙しており、分筆の登記・合筆の登記はこの列挙に含まれていません。したがって、イ（後の分筆の登記により先行する更正登記の地積測量図が閉鎖される）、ウ（合筆の登記により別の土地の分筆の登記の地積測量図が閉鎖される）は、いずれも85条2項の閉鎖事由に該当しないため誤りです。ア（更正の登記があっても先行する分筆の登記の地積測量図は閉鎖されない）についても、本問の更正が単純な錯誤による地積の訂正であり、更正後の新たな地積測量図の提出を伴わない場合は「変更後又は更正後の図面がある場合に限る」という85条2項1号の要件を満たさず、閉鎖事由に該当しません。オ（地目の変更の登記では登記識別情報が通知されないこと）は不動産登記法21条（登記識別情報の通知は「申請人自らが登記名義人となる場合」に限られ、表示に関する登記である地目変更はこれに該当しない）で、エ（合筆の制限）は不動産登記法41条2号で、それぞれ条文上確認できています。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。登記事項の記録の変遷（地積測量図の閉鎖・合筆の制限・登記識別情報の通知）がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-16再実施）**：保存済みの法令データ（不動産登記規則85条2項、不動産登記法41条2号、同法21条、同規則28条13号）を通じて、ア・イ・ウ・エ・オすべての結論と、閉鎖されなかった地積測量図の保存期間（規則28条13号「永久（閉鎖したものにあっては、閉鎖した日から三十年間）」）を条文上確認しました。直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。
-- **補足（2026-08-16追記）**：肢エの根拠である不動産登記法41条（合筆の登記の制限）について、6号までの条文原文を引用し、初学者向けに各号を噛み砕いた補足解説を本文に追加しました。
+- **補足（2026-08-16追記）**：エの根拠である不動産登記法41条（合筆の登記の制限）について、6号までの条文原文を引用し、初学者向けに各号を噛み砕いた補足解説を本文に追加しました。
 - **書式の修正（2026-09-18）**：既存の2つの補足（地積測量図の保存期間、合筆の登記ができない6つのケース）が、まとめ・結論文と正解の明記の間に配置されており、`format-template.md`の「正解の明記は先出し厳禁・必ず本文の最後」というルールから外れた並びになっていたため、正解の明記をまとめ・結論文の直後に移動し、2つの補足はその下（正解の明記より後）に並べる構成に修正しました。あわせて、この2つの補足を図解する「インフォグラフィック プロンプト（補足）」（保存期間の判定フロー、合筆の制限6号の早見表）を新規に作成・追加しました。内容自体（各肢の正誤・正解・補足の説明文）に変更はありません。
 - **作図ガイドの追加（2026-09-18）**：`infographic-prompt-template.md`「⑤ 作図ガイド型」に従い、「インフォグラフィック プロンプト（ア〜オ 作図ガイド）」を新規に作成・追加しました。ア・イ・ウは「あとにされた登記が規則85条2項の3類型（変更後・更正後の図面を伴う変更・更正登記／滅失登記・表題部抹消／換地処分の登記）に当たるか」という共通の判定フローを、それぞれ異なる事実関係にあてはめる構成にそろえています。エは接続・地番区域・登記名義人・地目の4条件を順に確認する決定木、オは権利の登記か表示の登記かを見分ける2段階の決定木としました。既存の②俯瞰カードポスター（問題全体）・③補足の各インフォグラフィックは変更していません。
 - **パネル4・5の分岐の訂正（2026-09-27）**：生成された画像で、パネル4（地目が同一の場合、＝「はい」側の分岐）とパネル5（権利に関する登記の場合、＝もう一方の分岐）の行き先が指定されておらず、矢印が宙に浮いた状態になってしまう不具合が見つかりました。パネル4は、4つの判定ノードそれぞれの「いいえ」分岐に個別の結論ノード（不動産登記法41条の号数付き）を用意したうえで、最後のノード（地目の同一性）の「はい」分岐にも「ここまでの4条件はすべて満たされる（他の要件次第であり、これだけで合筆できるとは断定できない）」という結論ノードを追加しました。パネル5は、「権利に関する登記」側の分岐にも、薄いグレーで示す第2の判定ノード（21条の「申請人自ら登記名義人となるか」）とその両方の結論を明記し、実際にはこの肢では通らない経路であることが視覚的にわかるようにしました。あわせてFOOTERのFinal checkに、すべての分岐ノードの両方の矢印が明示的な結論ノードに到達していることを確認する一文を追加しました。内容（各肢の正誤・条文根拠）自体に変更はありません。
@@ -154,12 +170,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 図・権・記・登・閉・鎖・識・別 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -241,15 +275,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -278,17 +312,35 @@ full-sentence explanation or legal citation anywhere on the poster.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 図・閉・鎖・保・存・期・
 間・久 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 地積測量図、保存期間はここで決まる
 
 Subtitle (smaller, centered, 1行):
-不動産登記規則28条13号
+不動産登記規則28条13号（平成26年度 午後の部 第6問）
 
 （タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
 導入文のブロックは置かない。）
@@ -313,7 +365,7 @@ Result node: 永久保存（現に効力を持つ図面として保存され続�
 根拠条文：不動産登記規則28条13号。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 flowchart has exactly one decision node with two branches (閉鎖されている
 ／閉鎖されていない), confirm each branch's result node matches the
 Japanese text given above verbatim, confirm nothing is rendered below the
@@ -344,17 +396,35 @@ short phrases given below anywhere on the poster.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 号・筆・地・目・番・区・
 域・持・分・権 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 合筆の登記ができない6つのケース
 
 Subtitle (smaller, centered, 1行):
-不動産登記法41条
+不動産登記法41条（平成26年度 午後の部 第6問）
 
 （タイトル・サブタイトルのすぐ下に表を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -392,23 +462,23 @@ monospace font.
 
 --- FOOTER ---
 
-Q6の肢エは、このうち二号（地目が異なる場合）にあたる。根拠条文：不動産
+Q6のエは、このうち二号（地目が異なる場合）にあたる。根拠条文：不動産
 登記法41条。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the table has exactly 6 rows with no
 duplicated or missing rows, confirm the row order is 一号→六号 top to
 bottom, and confirm there is no intro illustration or paragraph block
-between the header and the table.
+between the header and the table. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、「どの土地の・いつの地積測量図の話か」「あとにされた登記が規則85条2項の3類型に当たるか」「合筆・登記識別情報の各要件を満たすか」を、どの順番で確認すればよいかを示す解き方ガイド。肢ア・イ・ウは、あとにされた登記が閉鎖の3類型に当たるかという同じ判定木を共有し、それぞれ異なる事実関係にあてはめる構成にそろえてある。
+問題文を読んだ瞬間に、「どの土地の・いつの地積測量図の話か」「あとにされた登記が規則85条2項の3類型に当たるか」「合筆・登記識別情報の各要件を満たすか」を、どの順番で確認すればよいかを示す解き方ガイド。ア・イ・ウは、あとにされた登記が閉鎖の3類型に当たるかという同じ判定木を共有し、それぞれ異なる事実関係にあてはめる構成にそろえてある。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x3200 pixels,
@@ -481,35 +551,36 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 更正登記は先行する分筆の図面を閉鎖しない
 Diagram: A timeline strip showing two events in order:「H18.3.15 分筆の
 登記（地積測量図あり）」→「H21.6.3 錯誤による地積の更正の登記」. Below the
-timeline, a diamond-shaped decision node labeled「あとにされた登記は、規則
-85条2項の3類型（①変更後・更正後の図面を伴う変更・更正登記／②滅失登記・
-表題部抹消／③換地処分の登記）のいずれかに当たるか？」with two branch
-arrows: a「あたる」branch (faded, greyed-out — not this case) leading to a
-small grey conclusion node「先行する図面は閉鎖される」, and an「あたらな
-い」branch (highlighted, thick border, full color — because today's 更正
-is a simple correction of a clerical error that does not involve
-submitting a new 地積測量図, so it does not meet the requirement) leading
-to the main conclusion node「先行する分筆の登記の地積測量図は閉鎖されな
-い」.
+timeline, a rectangular check box (NOT a diamond):「地積の更正の登記には
+更正後の地積測量図が提供される（規則85条2項1号の場面）」. A single arrow
+leads to a diamond-shaped decision node labeled「閉鎖が問題になっている図面
+は、157番1だけを描いた図面か、分筆後の157番1〜157番7をまとめて描いた
+分筆の図面か？」with two branch arrows: a「157番1だけの図面（更正前の図
+面）」branch (faded, greyed-out — not this case) leading to a small grey
+conclusion node「更正前の図面として閉鎖される」, and a「分筆後の各土地を
+まとめて描いた分筆の図面」branch (highlighted, thick border, full color —
+because the H18 drawing also shows 157番2〜157番7, which the 更正 of 157番1
+does not touch) leading to the main conclusion node「先行する分筆の登記の
+地積測量図は閉鎖されない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、あとにされた登記が地積の更正の登記であることを確認します。次に、そ
-の更正が新しい地積測量図の提出を伴うものかを確認し、伴わない単純な訂正で
-あれば先行する図面は閉鎖されないと判断します。
+まず、あとにされた登記が地積の更正の登記で、更正後の地積測量図が提供され
+ることを確認します。次に、先行する図面が分筆後の他の土地もまとめて描いた
+分筆の図面であれば、157番1の更正によって閉鎖されないと判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 先行図面は閉鎖されない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 分筆の登記は先行する更正の図面を閉鎖しない
-Diagram: The same shared decision tree as Panel 1, with a timeline
+Diagram: A decision tree shared by Panels 2 and 3, with a timeline
 showing「H21.6.3 錯誤による地積の更正の登記（地積測量図あり）」→「H24.
 11.9 分筆の登記」. The decision node「あとにされた登記は、規則85条2項の3
 類型のいずれかに当たるか？」has its「あたる」branch rendered faded and
@@ -524,11 +595,11 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 分筆だけでは閉鎖されない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 合筆の登記は別の土地の図面を閉鎖しない
-Diagram: The same shared decision tree as Panels 1-2, with a timeline for
+Diagram: The same shared decision tree as Panel 2, with a timeline for
 乙土地 showing「H18.3.15 分筆の登記（地積測量図あり）」→「H26.8.19 合筆の
 登記（157番7を合筆）」. The decision node「あとにされた登記は、規則85条2
 項の3類型のいずれかに当たるか？」has its「あたる」branch faded and
@@ -544,7 +615,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 他の土地には影響なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 接続していても4条件を順に確認する
@@ -561,7 +632,7 @@ the「いいえ」arrow branches off to a red conclusion node「✕ 合筆でき
 to a red conclusion node「✕ 合筆できない（不動産登記法41条3号）」. Node
 (4)「地目は同一か？」(the case actually tested by this 肢, so render this
 node with a thick highlighted border): the「いいえ」arrow (甲＝宅地、乙＝
-山林、highlighted as the case in 肢エ) leads to a red conclusion node
+山林、highlighted as the case in エ) leads to a red conclusion node
 「✕ 合筆できない（不動産登記法41条2号に該当）→ 合筆の登記を申請すること
 はできない」; the「はい」arrow leads to a separate green conclusion node
 「ここまでの4条件はすべて満たされる（41条にはこの他にも持分・所有権登記
@@ -579,7 +650,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地目が違えば合筆不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地目変更登記は表示登記か権利登記かをまず見分ける
@@ -640,7 +711,7 @@ condition has been flattened into a single check, that each 着眼点
 callout states a checking
 order rather than only a conclusion and keeps every required element
 from the source article distinct (no merged or dropped requirements),
-that panels 1-3 share the same decision tree and each clearly
+that panels 2-3 share the same decision tree and each clearly
 distinguishes its own highlighted branch from the other, faded branches,
 confirm nothing is rendered below panel 5's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and

@@ -2,33 +2,43 @@
 
 **出題年度：令和2年度　午後の部　第13問**
 
-> 附属建物の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　附属建物がある主である建物について，当該主である建物のみが取壊しにより滅失した場合，取壊しを登記原因として，建物の表題部の登記の抹消を申請しなければならない。
->
-> イ　主である建物の登記記録から附属建物を分割する建物の分割の登記を申請する場合において，当該附属建物が共有名義であるときは，他の共有者の承諾を証する情報を提供すれば，当該申請は，共有者の一人からすることができる。
->
-> ウ　主である建物と附属建物がいずれも同一の一棟の建物を区分した敷地権がある区分建物である場合において，当該主である建物及び当該附属建物の表題登記を申請するときは，主である建物に係る敷地権と附属建物に係る敷地権とを区別してしなければならない。
->
-> エ　物置として登記されていた附属建物を，その基礎部分を残して取り壊し，その基礎上に種類，構造及び床面積が同一である附属建物を新築した場合に行う登記申請においては，添付情報として，建物図面を提供することを要しない。
->
-> オ　附属建物を新築した場合において，建物の表題部の変更の登記を申請するときは，添付情報として，附属建物について表題部所有者又は所有権の登記名義人が所有権を有することを証する情報を提供しなければならない。
->
+> 附属建物の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　附属建物がある主である建物について，当該主である建物のみが取壊しにより滅失した場合，取壊しを登記原因として，建物の表題部の登記の抹消を申請しなければならない。  
+>　  
+> イ　主である建物の登記記録から附属建物を分割する建物の分割の登記を申請する場合において，当該附属建物が共有名義であるときは，他の共有者の承諾を証する情報を提供すれば，当該申請は，共有者の一人からすることができる。  
+>　  
+> ウ　主である建物と附属建物がいずれも同一の一棟の建物を区分した敷地権がある区分建物である場合において，当該主である建物及び当該附属建物の表題登記を申請するときは，主である建物に係る敷地権と附属建物に係る敷地権とを区別してしなければならない。  
+>　  
+> エ　物置として登記されていた附属建物を，その基礎部分を残して取り壊し，その基礎上に種類，構造及び床面積が同一である附属建物を新築した場合に行う登記申請においては，添付情報として，建物図面を提供することを要しない。  
+>　  
+> オ　附属建物を新築した場合において，建物の表題部の変更の登記を申請するときは，添付情報として，附属建物について表題部所有者又は所有権の登記名義人が所有権を有することを証する情報を提供しなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+---
 
 「附属建物」は、主である建物に付属して一体で利用される物置・車庫などの建物です。主と附属の関係が変わったとき（片方だけ滅失、分割など）にどう登記するか、添付情報として何が必要か、が問われています。
 
 ### ア：主である建物だけが滅失した場合は、抹消ではなく「表題部の変更」で処理する
 
-附属建物がある主である建物について、主である建物のみが取壊しで滅失した場合、附属建物は残っています。この場合は、残った附属建物を新たな主である建物とする「建物の表題部の変更の登記」を申請します（不動産登記事務取扱手続準則102条）。新しい登記記録が作られるわけではなく、従前の登記記録の内容が変更されます。表題部の登記の抹消を申請するわけではないので、本肢は誤りです。
+附属建物がある主である建物について、主である建物のみが取壊しで滅失した場合、附属建物は残っています。この場合は、残った附属建物を新たな主である建物とする「建物の表題部の変更の登記」を申請します（不動産登記事務取扱手続準則102条）。
+
+新しい登記記録が作られるわけではなく、従前の登記記録の内容が変更されます。表題部の登記の抹消を申請するわけではないので、本肢は誤りです。
 
 **たとえば**、母屋と物置が一つの登記記録になっている建物で、母屋だけを取り壊した場合、登記記録ごと消す（抹消する）のではなく、物置を新たな主である建物とする「変更」の登記をします。
 
-### イ：附属建物が共有名義の建物分割は、共有者全員から申請する
+### イ：共有名義の附属建物の分割は、他の共有者の承諾書を添えるだけでは一人で申請できない
 
-建物の分割の登記は、所有者の意思に基づいて登記記録を分ける登記であり、所有者（表題部所有者または所有権の登記名義人）全員（またはその相続人を含む全員）の意思に基づいてされる性質のものです。附属建物が共有名義のときに、他の共有者の承諾を証する情報を提供して共有者の一人から申請できるわけではありません。本肢は誤りです。
+建物の分割の登記は、表題部所有者または所有権の登記名義人が申請する登記です（不動産登記法54条1項）。附属建物が共有名義のときに、共有者の一人が「他の共有者の承諾を証する情報」を添えれば単独で申請できる、という仕組みはありません。
 
-**たとえば**、共有名義の附属建物を分割して独立の建物にしたいときは、共有者の一人が他の共有者の承諾書を用意して単独で申請するのではなく、共有者全員が申請人となる必要があります。
+現行法では、建物の分割は共有物の形状又は効用の著しい変更を伴わない軽微な変更として、共有者の持分の価格の過半数で決することができ（民法251条1項・252条1項）、持分の価格の過半数を有する共有者が申請人となって申請します。
+
+承諾書を添えるかどうかではなく、申請人となる共有者の持分が過半数に達しているかで決まるので、本肢は誤りです。
+
+※出題当時（令和2年度）は、建物の分割の登記は共有者全員から申請するものと解されていました。令和5年4月1日施行の民法改正で「軽微な変更」が管理行為として持分の価格の過半数で決められるようになり、申請人の範囲が変わっています。「承諾書を添えれば一人で申請できる」とする本肢が誤りである点は、出題当時も現行法でも変わりません。
+
+**たとえば**、Ａ・Ｂ・Ｃの3人が3分の1ずつ共有する附属建物を分割したいとき、Ａが一人でＢ・Ｃの承諾書を添えて申請することはできませんが、ＡとＢが申請人になれば持分の合計が3分の2（過半数）になるので、Ｃが申請人にならなくても申請できます。
 
 ### ウ：敷地権付き区分建物では、主と附属の敷地権を区別して表示する
 
@@ -38,20 +48,26 @@
 
 ### エ：基礎を残して同じ物置を建て直しても、「再築＝新築」扱いで建物図面が必要
 
-既存の建物を取り壊し（基礎を残す場合を含む）、新たに建物を建築するいわゆる再築の場合は、既存の建物との同一性が認められず、既存の建物が滅失して新たな建物が建築されたものとして取り扱われます（不動産登記事務取扱手続準則83条）。したがって、種類・構造・床面積が同一であっても、新築した以上、添付情報として建物図面が必要です。「建物図面を提供することを要しない」とする本肢は誤りです。
+既存の建物を取り壊し（基礎を残す場合を含む）、新たに建物を建築するいわゆる再築の場合は、既存の建物との同一性が認められず、既存の建物が滅失して新たな建物が建築されたものとして取り扱われます（不動産登記事務取扱手続準則83条）。
+
+したがって、種類・構造・床面積が同一であっても、新築した以上、添付情報として建物図面が必要です。「建物図面を提供することを要しない」とする本肢は誤りです。
 
 **たとえば**、古くなった物置を基礎だけ残して壊し、同じ大きさ・同じ造りで建て直した場合でも、それは「新しい物置を建てた」ことになるので、建物図面を添付する必要があります。
 
 ### オ：附属建物を新築したときの変更登記には、附属建物の所有権証明情報が必要
 
-附属建物を新築したことによる建物の表題部の変更の登記を申請するときは、その附属建物について、表題部所有者または所有権の登記名義人が所有権を有することを証する情報（所有権証明情報）を提供しなければなりません（不動産登記令別表14項添付情報ハ）。本肢は正しい記述です。
+附属建物を新築したことによる建物の表題部の変更の登記を申請するときは、その附属建物について、表題部所有者または所有権の登記名義人が所有権を有することを証する情報（所有権証明情報）を提供しなければなりません（不動産登記令別表14項添付情報ハ）。
+
+本肢は正しい記述です。
 
 **たとえば**、母屋に新しく車庫を増築して附属建物として登記するときは、その車庫が自分のものであることを示す所有権証明情報を添付する必要があります。
+
+---
 
 ### まとめ
 
 - **ア（誤）**　主のみ滅失は抹消でなく「表題部の変更」で処理
-- **イ（誤）**　共有名義の附属建物の分割は共有者全員から申請する
+- **イ（誤）**　共有名義の附属建物の分割は承諾書を添えても一人では申請できない（現行法では持分の過半数を有する共有者が申請）
 - **ウ（正）**　敷地権付き区分建物では主と附属の敷地権を区別して表示する
 - **エ（誤）**　基礎を残した再築も「新築」扱いで建物図面が必要
 - **オ（正）**　附属建物新築の変更登記には附属建物の所有権証明情報が必要
@@ -69,6 +85,7 @@
 - 各肢の根拠のうち、ア・エ（準則83条）・オ（不動産登記令別表14項添付情報ハ）は、データベースのexplanationフィールドに条文番号まで明記されています。イ（共有名義の附属建物分割の申請人）・ウ（主と附属の敷地権の区別）は、建物分割の登記および敷地権付き区分建物の表題登記の一般的な取扱いからの説明です。
 - **法令再検証（2026-08-04実施）**：アの根拠条文をlaws/fudousan-touki-kisoku-1.md（不動産登記規則）およびlaws/fudousan-touki-jimu-junsoku.md（不動産登記事務取扱手続準則）で確認したところ、「不動産登記規則102条」は分筆の登記における権利部の記録方法を定めた条文であり、附属建物がある主たる建物の滅失による表題部の変更の登記の記録方法を定めているのは「不動産登記事務取扱手続準則102条」でした。誤った法令名（規則→準則）を修正しています。アの結論（主のみ滅失は抹消でなく表題部の変更で処理する）自体に誤りはなく、正解番号（ウオ＝5番）に変更はありません。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
+- **最新法令チェック（2026-10-01実施）**：イの本文は「共有者全員から申請する」としていましたが、令和5年4月1日施行の民法改正（民法251条1項の「形状又は効用の著しい変更を伴わないもの」の除外、252条1項）と、これに伴う不動産登記事務の取扱いの通達（令和5年3月28日付け法務省民二第538号）により、分筆・合筆と同様に建物の分割の登記も持分の価格の過半数を有する共有者から申請できる扱いと解されるため、本文・まとめ・図解を現行法に合わせて書き直しました。通達の原文はこの環境からは閲覧できなかったため、建物の分割が通達の対象に含まれる点は、同じ扱いを前提とする本リポジトリの関連記事（topics/kyouyuubutsu-3dankai-bunpitsu.md、令和3年度第11問）と民法の条文からの整理であり、通達本文での確認は未了です。イが誤りであるという結論と正解（5番）は変わりません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。**本問ウ（主である建物と附属建物がいずれも敷地権のある区分建物である場合、両者の敷地権を区別して記録する＝正しい）は、令和4年度第14問イとほぼ同一の文言・同一の結論（正しい）で再出題されています**。他の肢（主のみ滅失した場合の処理・共有名義の附属建物の分割・再築時の建物図面・附属建物新築時の所有権証明情報）は令和4年度の問題には見当たらず、出題全体としては別の問題ですが、上記ウの1肢についてはnoteでの執筆・公開に際して「たとえば」の具体例が似た内容にならないよう注意してください。他に重複する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -76,7 +93,7 @@
 ## 見出し画像用フレーズ
 
 - 母屋だけ壊しても、抹消じゃなく「変更」なんです
-- 共有の附属建物の分割は、全員で申請するんです
+- 共有の附属建物の分割、承諾書だけじゃ一人で申請できないんです
 - 主と附属の敷地権、区別して表示するんです
 - 基礎を残した建て直しも「新築」扱いって知ってた？
 - 附属建物の増築、所有権証明がいるんです
@@ -108,13 +125,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 附・属・建・物・滅・失・変・更・分・割・共・有・敷・地・権・区・別・基・礎・新・築・所・証・明 — these
 must be rendered in their standard Japanese (Jōyō) forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -174,15 +209,16 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-共有の附属建物の分割は全員で
+承諾書だけでは一人で分割不可
 Illustration: Isometric shed (附属建物) with three person icons
-standing around it representing co-owners (共有者), all three holding
-pens and signing a form together labeled "建物の分割の登記" with a
-checkmark above them. Beside this, a single person icon signing alone
-is shown crossed out, representing one co-owner applying without the
-others.
+around it representing co-owners (共有者), each with a small tag
+"持分3分の1". LEFT: one person icon alone holding a paper labeled
+"他の共有者の承諾書" and a form labeled "建物の分割の登記", crossed out with
+a red ✕. RIGHT: two of the three person icons signing the same form
+together, with a small tag "持分の合計3分の2（過半数）" and a green
+checkmark; the third person stands aside, not signing.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-共有者全員で申請
+持分の過半数で申請
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
@@ -198,20 +234,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 附属建物の登記で誤りやすい思い込みを、ア・イ・エの3肢は正誤対比型で、
 ウ・オの2肢は配置図型で示す5パネル構成。②の色分け（登記の扱い方＝緑、
@@ -241,7 +277,7 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panels 1, 2, and 4（肢ア・肢イ・肢エ）must each be drawn as a
+flowchart. Panels 1, 2, and 4（ア・イ・エ）must each be drawn as a
 正誤対比型 side-by-side comparison, because each of these 肢 corrects a
 specific intuitive-but-wrong assumption: draw a red-background 誤りやすい
 イメージ side with a large ✕ next to a green-background 正しい仕組み side
@@ -255,7 +291,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -281,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 母屋滅失後は抹消か変更かを見分ける
@@ -302,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抹消でなく変更
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 附属建物の分割は申請人が誰かを確認する
@@ -310,19 +354,20 @@ Diagram: A 正誤対比型 side-by-side comparison. LEFT box（誤りやすい�
 ジ、red background）: one co-owner figure alone holding a document
 labeled 他の共有者の承諾を証する情報 and a form labeled 建物の分割の登
 記, walking to a registry counter alone, with a large red ✕. RIGHT box
-（正しい仕組み、green background）: all co-owner figures standing
-together, each holding a pen and signing the same form labeled 建物の分
-割の登記 together, with a large green checkmark.
+（正しい仕組み、green background）: co-owner figures whose 持分 add up to
+more than half (two figures tagged 持分3分の1 each, with a small tag
+持分の合計3分の2＝過半数) signing the same form labeled 建物の分割の登記
+together as 申請人, with a large green checkmark; the third co-owner
+stands aside.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、分割の対象となる附属建物が共有名義であるかどうかを確認します。共
-有名義である場合は、他の共有者の承諾を証する情報を提供すれば共有者の一
-人から申請できるわけではなく、共有者全員の意思に基づいて申請する必要が
-あることを確認します。
+まず、分割の対象となる附属建物が共有名義であるかどうかを確認します。共有名義である場合は、他の共有者の承諾を証する情報を提供しても共有者の一
+人からは申請できず、申請人となる共有者の持分の合計が過半数に達している
+かを確認します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-共有者全員で申請
+持分の過半数で申請
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 主と附属、それぞれの敷地権の記載を確認する
@@ -341,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 敷地権は区別表示
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 基礎を残した再築が新築扱いかを確認する
@@ -362,7 +407,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新築として扱う
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 附属建物新築時の添付情報を確認する
@@ -385,10 +430,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 滅, 失, 抹, 消, 敷, 礎, 築, 証, 附, 属 and any character that
-has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢 is

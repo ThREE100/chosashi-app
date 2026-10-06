@@ -2,33 +2,49 @@
 
 **出題年度：平成29年度　午後の部　第17問**
 
-> 区分建物の登記の申請に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　Ａを表題部所有者とする区分建物ではない甲建物に接続してＢにより乙区分建物が新築されて一棟の建物となったことによって，甲建物が区分建物になった場合において，甲建物の表題部の変更の登記及び乙区分建物についての表題登記を申請するときは，Ａ及びＢは，住所を証する情報を提供しなければならない。
->
-> イ　甲区分建物が属する一棟の建物が所在する土地を分筆したことにより当該一棟の建物が所在する土地の地番が変更した場合において，甲区分建物についての表題部の変更の登記を申請するときは，添付情報として変更後の建物図面及び各階平面図を提供しなければならない。
->
-> ウ　いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には，甲建物及び乙建物についての表題部の変更の登記の申請は，一括してしなければならない。
->
-> エ　所有権が敷地権として登記されているいずれも主である甲区分建物及び乙区分建物を区分合併して，これらの区分建物が属する一棟の建物が区分建物ではない建物になった場合におけるこれらの区分建物の区分合併の登記の申請は，敷地権の表示を抹消するための区分建物の表題部の変更の登記の申請と併せてしなければならない。
->
-> オ　甲区分建物の所有権の原始取得者が甲区分建物の表題登記を申請しない場合には，甲区分建物の転得者は，当該原始取得者に代位して甲区分建物の表題登記を申請することができる。
->
+> 区分建物の登記の申請に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　Ａを表題部所有者とする区分建物ではない甲建物に接続してＢにより乙区分建物が新築されて一棟の建物となったことによって，甲建物が区分建物になった場合において，甲建物の表題部の変更の登記及び乙区分建物についての表題登記を申請するときは，Ａ及びＢは，住所を証する情報を提供しなければならない。  
+>　  
+> イ　甲区分建物が属する一棟の建物が所在する土地を分筆したことにより当該一棟の建物が所在する土地の地番が変更した場合において，甲区分建物についての表題部の変更の登記を申請するときは，添付情報として変更後の建物図面及び各階平面図を提供しなければならない。  
+>　  
+> ウ　いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には，甲建物及び乙建物についての表題部の変更の登記の申請は，一括してしなければならない。  
+>　  
+> エ　所有権が敷地権として登記されているいずれも主である甲区分建物及び乙区分建物を区分合併して，これらの区分建物が属する一棟の建物が区分建物ではない建物になった場合におけるこれらの区分建物の区分合併の登記の申請は，敷地権の表示を抹消するための区分建物の表題部の変更の登記の申請と併せてしなければならない。  
+>　  
+> オ　甲区分建物の所有権の原始取得者が甲区分建物の表題登記を申請しない場合には，甲区分建物の転得者は，当該原始取得者に代位して甲区分建物の表題登記を申請することができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-区分建物（マンションの一室など）の登記は、非区分建物とは異なる独特のルールがいくつもあります。この分野では、①非区分建物が区分建物に変わるときの一括申請義務、②建物図面・各階平面図の提供が必要な場面、③敷地権と区分合併の関係、④転得者による代位申請の可否を整理できているかが問われます。
+---
+
+区分建物（マンションの一室など）の登記は、非区分建物とは異なる独特のルールがいくつもあります。
+
+この分野では、①非区分建物が区分建物に変わるときの一括申請義務、②建物図面・各階平面図の提供が必要な場面、③敷地権と区分合併の関係、④転得者による代位申請の可否を整理できているかが問われます。
 
 ### ア：非区分建物から区分建物への変更登記に、既存所有者の住所証明情報は不要
 
-区分建物でない甲建物に乙区分建物が接続して新築され、全体が一棟の区分建物になったことで甲建物も区分建物になった場合、甲建物の表題部変更登記と乙区分建物の表題登記は一括して申請しなければなりません（不動産登記法52条1項）。このとき、新たに登記名義人となるわけではない甲建物の表題部所有者Ａについては、住所を証する情報の提供は必要ありません。必要なのは、新たに区分建物の表題登記をするＢの住所証明情報だけです。「Ａ及びＢは、住所を証する情報を提供しなければならない」とする本肢は誤りです。
+区分建物でない甲建物に乙区分建物が接続して新築され、全体が一棟の区分建物になったことで甲建物も区分建物になった場合、甲建物の表題部変更登記と乙区分建物の表題登記は一括して申請しなければなりません（不動産登記法52条1項）。
 
-**たとえば**、もともと独立した建物だったＡさん名義の甲建物に、Ｂさんが新しく乙区分建物を建て増して、全体が1つの区分建物になったとします。この場合、新たに登場するＢさんの住所を証する情報は必要ですが、もともと登記されていたＡさんについて改めて住所証明情報を出す必要はありません。
+このとき、新たに登記名義人となるわけではない甲建物の表題部所有者Ａについては、住所を証する情報の提供は必要ありません。
+
+必要なのは、新たに区分建物の表題登記をするＢの住所証明情報だけです。「Ａ及びＢは、住所を証する情報を提供しなければならない」とする本肢は誤りです。
+
+**たとえば**、もともと独立した建物だったＡさん名義の甲建物に、Ｂさんが新しく乙区分建物を建て増して、全体が1つの区分建物になったとします。
+
+この場合、新たに登場するＢさんの住所を証する情報は必要ですが、もともと登記されていたＡさんについて改めて住所証明情報を出す必要はありません。
 
 ### イ：土地の分筆による地番変更だけなら、必要なのは建物図面だけで各階平面図は不要
 
-不動産登記令別表14項添付情報イは、「建物の所在する市、区、郡、町、村、字及び土地の地番を変更…するときは、変更後…の建物図面」を提供しなければならないと定めています。地番の変更は、建物図面のみが必要な場面であり、床面積の変更・更正のとき（同ロ）とは異なり、各階平面図までは要求されていません。本肢は「変更後の建物図面**及び各階平面図**を提供しなければならない」と、両方をまとめて必要としている点が誤りです（建物図面だけを提供すれば足り、各階平面図は不要）。
+不動産登記令別表14項添付情報イは、「建物の所在する市、区、郡、町、村、字及び土地の地番を変更…するときは、変更後…の建物図面」を提供しなければならないと定めています。
 
-**たとえば**、マンションの敷地となっている土地が分筆されて地番だけが変わったとします。建物そのものの形や面積は何も変わっていないので、各階平面図まで作り直して提出する必要はありませんが、地番が変わったことを反映した変更後の建物図面は提供しなければなりません。
+地番の変更は、建物図面のみが必要な場面であり、床面積の変更・更正のとき（同ロ）とは異なり、各階平面図までは要求されていません。
+
+本肢は「変更後の建物図面**及び各階平面図**を提供しなければならない」と、両方をまとめて必要としている点が誤りです（建物図面だけを提供すれば足り、各階平面図は不要）。
+
+**たとえば**、マンションの敷地となっている土地が分筆されて地番だけが変わったとします。
+
+建物そのものの形や面積は何も変わっていないので、各階平面図まで作り直して提出する必要はありませんが、地番が変わったことを反映した変更後の建物図面は提供しなければなりません。
 
 ### ウ：非区分建物同士が接続して区分建物になったら、一括申請しなければならない
 
@@ -37,34 +53,66 @@
 **たとえば**、もともと別々に登記されていた甲建物と乙建物が、増築工事でつながって1つの区分建物になったとします。この場合、甲建物と乙建物の変更登記をバラバラに申請するのではなく、まとめて1つの手続として一括で申請しなければなりません。
 
 **ここが分かりにくいポイント**：
-甲建物・乙建物は、この肢の時点でどちらも既に別々に表題登記が済んでいる、独立した不動産です。そのため、「登記の申請は、原則として不動産ごとに1件」という一登記一申請の原則（不動産登記令4条）を知っている人ほど、「まとめて申請できる例外は、不動産登記規則35条が号数で限定列挙している。甲・乙建物の変更登記はそのどの号にも当てはまらなさそうだから、この場合はまとめて申請できず、それぞれ別々に申請すべきなのでは」と考えてしまいがちです。
+甲建物・乙建物は、この肢の時点でどちらも既に別々に表題登記が済んでいる、独立した不動産です。
 
-しかし、この肢が問うているのは、規則35条の「まとめて申請してもよい」という任意の例外の話ではありません。区分建物になったことにともなう建物の表題部の変更の登記については、不動産登記法52条という別の条文が、規則35条の枠組みとはまったく独立に、一括申請そのものを義務づけています。
+そのため、「登記の申請は、原則として不動産ごとに1件」という一登記一申請の原則（不動産登記令4条）を知っている人ほど、「まとめて申請できる例外は、不動産登記規則35条が号数で限定列挙している。甲・乙建物の変更登記はそのどの号にも当てはまらなさそうだから、この場合はまとめて申請できず、それぞれ別々に申請すべきなのでは」と考えてしまいがちです。
+
+しかし、この肢が問うているのは、規則35条の「まとめて申請してもよい」という任意の例外の話ではありません。
+
+区分建物になったことにともなう建物の表題部の変更の登記については、不動産登記法52条という別の条文が、規則35条の枠組みとはまったく独立に、一括申請そのものを義務づけています。
 
 - **規則35条（一の申請情報による任意的な併合）**：まとめて申請してもよい場合を号数で限定列挙。当てはまらなければ、それぞれ別々に申請する。
 - **法52条3項（区分建物化にともなう義務的な一括申請）**：いずれも表題登記がある2つ以上の建物が、増築その他の工事により相互に接続して区分建物になった場合には、それらの表題部変更登記を一括して申請「しなければならない」。規則35条の号に当てはまるかどうかとは無関係に、52条3項が直接そう命じている。
 
-つまり、「規則35条のリストに載っていないから、まとめて申請できない」と即断するのは誤りです。区分建物になる場面には、規則35条とは別の専用の条文（52条）が用意されており、そちらが一括申請を義務づけています。したがって本肢のとおり、甲建物・乙建物の表題部変更登記は一括して申請しなければならず、本肢は正しい記述です。
+つまり、「規則35条のリストに載っていないから、まとめて申請できない」と即断するのは誤りです。区分建物になる場面には、規則35条とは別の専用の条文（52条）が用意されており、そちらが一括申請を義務づけています。
 
-一の申請情報でまとめられる場合の原則と、規則35条が限定列挙する例外については、個別テーマ記事「申請は不動産ごとに1件が原則、規則35条の例外10パターンを整理」（`note-articles/topics/ittouki-isshinsei-gensoku.md`）もあわせてご参照ください。ただし、本肢の一括申請義務は、同記事が扱う規則35条の枠組みとは別に、不動産登記法52条が区分建物化の場面に限って特別に定めているものである点に注意してください。
+したがって本肢のとおり、甲建物・乙建物の表題部変更登記は一括して申請しなければならず、本肢は正しい記述です。
+
+一の申請情報でまとめられる場合の原則と、規則35条が限定列挙する例外については、個別テーマ記事「申請は不動産ごとに1件が原則、規則35条の例外10パターンを整理」（`note-articles/topics/ittouki-isshinsei-gensoku.md`）もあわせてご参照ください。
+
+ただし、本肢の一括申請義務は、同記事が扱う規則35条の枠組みとは別に、不動産登記法52条が区分建物化の場面に限って特別に定めているものである点に注意してください。
 
 ### エ：区分合併による敷地権抹消は、変更登記を併せて申請する必要はない
 
-敷地権が登記されている甲・乙区分建物を区分合併して、その一棟の建物が区分建物でなくなった場合、区分合併の登記を申請すると、登記官の職権によって、敷地権の目的であった土地の登記記録に敷地権が抹消された旨とその年月日が記録されます（不動産登記規則134条3項・124条）。そのため、敷地権の表示を抹消するための区分建物の表題部変更登記を、区分合併の登記と併せて申請する必要はありません。「併せてしなければならない」とする本肢は誤りです。
+敷地権が登記されている甲・乙区分建物を区分合併して、その一棟の建物が区分建物でなくなった場合、区分合併の登記を申請すると、登記官の職権によって、敷地権の目的であった土地の登記記録に敷地権が抹消された旨とその年月日が記録されます（不動産登記規則134条3項・124条）。
 
-**たとえば**、敷地権付きの甲・乙区分建物を1つに合わせる区分合併をした結果、その建物が区分建物でなくなったとします。このとき、敷地権を抹消する処理は登記官が職権でしてくれるので、申請人がわざわざ別途「敷地権抹消のための変更登記」を一緒に出す必要はないのです。
+そのため、敷地権の表示を抹消するための区分建物の表題部変更登記を、区分合併の登記と併せて申請する必要はありません。「併せてしなければならない」とする本肢は誤りです。
 
-**実務ではこうなります**：敷地権は、区分建物の専有部分とその敷地利用権を分離して処分できないとする「分離処分禁止の原則」（区分所有法22条1項）を、登記記録の上でも実現するための仕組みです。建物（専有部分）の登記記録に「敷地権」として記録することで、その建物の権利変動（売買・抵当権設定など）が自動的に敷地の権利にも及ぶようにしてあり、土地側の登記記録には「敷地権である旨の登記」という、いわば建物側の記録を映し出す付記だけが置かれています。
+**たとえば**、敷地権付きの甲・乙区分建物を1つに合わせる区分合併をした結果、その建物が区分建物でなくなったとします。
 
-そのため、建物の側で区分合併のように「もうこの建物は敷地権付きの区分建物ではない」という表示登記がされると、土地側の記録もそれに合わせて訂正しないと、両方の登記記録が食い違ってしまいます。この食い違いを防ぐための後始末は、当事者の意思に委ねるべき実体的な権利変動ではなく、登記記録の整合性を保つための事務的な処理にすぎません。だからこそ、通常の権利に関する登記で必要となる登記権利者・登記義務者の共同申請（不動産登記法60条）を経ずに、登記官が職権で処理することが認められています。実際、抹消後は敷地権であった権利がそのまま同じ名義人の権利として土地の登記記録に記録し直されるため（不動産登記規則124条2項）、誰の実体的な権利も変わりません。
+このとき、敷地権を抹消する処理は登記官が職権でしてくれるので、申請人がわざわざ別途「敷地権抹消のための変更登記」を一緒に出す必要はないのです。
 
-ここで初学者が意識しておきたいのが、土地家屋調査士が担当するのはあくまで建物の表示に関する登記（区分合併の登記）のみだという点です。敷地権抹消にともなう土地側の登記記録の変更は、そもそも申請自体が不要な登記官の職権事項なので、依頼者に「土地について別途手続きは必要ですか」と聞かれても、「区分合併の登記さえ済めば、敷地権の抹消は登記官が自動的に処理してくれるので、追加の手続きも司法書士への依頼も不要です」と説明できます。これは、共有者の死亡にともなう表題部所有者の変更（第11問で扱った、権利部で保存登記＋相続による移転登記が別途必要になるケース）とは対照的です。「表示登記に伴って権利部の変更が自動的に処理されるか、それとも別途申請が必要か」を見極めることは、依頼者への説明や見積もりの精度に直結する実務上の視点です。
+**実務ではこうなります**：敷地権は、区分建物の専有部分とその敷地利用権を分離して処分できないとする「分離処分禁止の原則」（区分所有法22条1項）を、登記記録の上でも実現するための仕組みです。
+
+建物（専有部分）の登記記録に「敷地権」として記録することで、その建物の権利変動（売買・抵当権設定など）が自動的に敷地の権利にも及ぶようにしてあり、土地側の登記記録には「敷地権である旨の登記」という、いわば建物側の記録を映し出す付記だけが置かれています。
+
+そのため、建物の側で区分合併のように「もうこの建物は敷地権付きの区分建物ではない」という表示登記がされると、土地側の記録もそれに合わせて訂正しないと、両方の登記記録が食い違ってしまいます。
+
+この食い違いを防ぐための後始末は、当事者の意思に委ねるべき実体的な権利変動ではなく、登記記録の整合性を保つための事務的な処理にすぎません。
+
+だからこそ、通常の権利に関する登記で必要となる登記権利者・登記義務者の共同申請（不動産登記法60条）を経ずに、登記官が職権で処理することが認められています。
+
+実際、抹消後は敷地権であった権利がそのまま同じ名義人の権利として土地の登記記録に記録し直されるため（不動産登記規則124条2項）、誰の実体的な権利も変わりません。
+
+ここで初学者が意識しておきたいのが、土地家屋調査士が担当するのはあくまで建物の表示に関する登記（区分合併の登記）のみだという点です。
+
+敷地権抹消にともなう土地側の登記記録の変更は、そもそも申請自体が不要な登記官の職権事項なので、依頼者に「土地について別途手続きは必要ですか」と聞かれても、「区分合併の登記さえ済めば、敷地権の抹消は登記官が自動的に処理してくれるので、追加の手続きも司法書士への依頼も不要です」と説明できます。
+
+これは、共有者の死亡にともなう表題部所有者の変更（第11問で扱った、権利部で保存登記＋相続による移転登記が別途必要になるケース）とは対照的です。
+
+「表示登記に伴って権利部の変更が自動的に処理されるか、それとも別途申請が必要か」を見極めることは、依頼者への説明や見積もりの精度に直結する実務上の視点です。
 
 ### オ：原始取得者が申請しない表題登記を、転得者が代位して申請できる
 
-区分建物の表題登記は、原則として原始取得者に申請義務があり、非区分建物と異なり、その転得者には申請義務も申請適格もありません。もっとも、甲区分建物の原始取得者が表題登記を申請しない場合には、その転得者が原始取得者に代位して、原始取得者を表題部所有者とする表題登記を申請することができます（民法423条）。本肢は正しい記述です。
+区分建物の表題登記は、原則として原始取得者に申請義務があり、非区分建物と異なり、その転得者には申請義務も申請適格もありません。
 
-**たとえば**、マンションの部屋を最初に建てたデベロッパー（原始取得者）が表題登記をしないまま放置していて、その部屋を買ったＣさん（転得者）が困っているとします。この場合、Ｃさんは自分で表題登記の名義人になれるわけではありませんが、デベロッパーに代わって（代位して）、デベロッパー名義の表題登記を申請することができます。
+もっとも、甲区分建物の原始取得者が表題登記を申請しない場合には、その転得者が原始取得者に代位して、原始取得者を表題部所有者とする表題登記を申請することができます（民法423条）。本肢は正しい記述です。
+
+**たとえば**、マンションの部屋を最初に建てたデベロッパー（原始取得者）が表題登記をしないまま放置していて、その部屋を買ったＣさん（転得者）が困っているとします。
+
+この場合、Ｃさんは自分で表題登記の名義人になれるわけではありませんが、デベロッパーに代わって（代位して）、デベロッパー名義の表題登記を申請することができます。
+
+---
 
 ### まとめ
 
@@ -85,12 +133,12 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（不動産登記法52条1項）、ウ（不動産登記法52条3項）、エ（不動産登記規則134条3項・124条）、オ（民法423条、不動産登記法59条7号）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。
-- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、肢オの補足条文引用に誤りを発見し修正しました。「不動産登記法16条2項の準用」としていましたが、16条2項は「官庁又は公署の嘱託による登記の手続」への準用規定であり、代位申請とは無関係でした。代位者に関する規定は、権利に関する登記の登記事項として代位者の氏名・住所・代位原因を挙げる**法59条7号**です（条文原文で確認済み）。肢オ本文の結論・民法423条の引用自体は元々正しく、影響はありません。
-- **肢エの実務補足を追記（2026-08-08実施）**：ユーザーの依頼により、肢エの解説に「実務ではこうなります」の段落を追加しました。追加した内容の根拠は、（a）分離処分禁止の原則を定める区分所有法22条1項（条文原文で確認済み）、（b）権利に関する登記の共同申請原則を定める不動産登記法60条、（c）敷地権抹消後に権利をそのまま同一名義人の権利として土地の登記記録に記録し直す旨を定める不動産登記規則124条2項（いずれも条文原文で確認済み）です。「表示登記に伴って権利部の変更が自動的に処理されるか、別途申請が必要か」という実務上の視点は、第11問（表題部所有者の相続）との対比として述べたものであり、個別の先例・通達までは確認していません。
-- **2026-08-04追記（肢イの解説を訂正）**：肢イの解説を当初「地番変更のみでは建物図面・各階平面図が不要」としていましたが、個別テーマ記事「建物図面・各階平面図の提供要否 早見表」（`topics/tatemonozumen-teikyou-yohi.md`）執筆時に不動産登記令別表14項添付情報イ（`laws/fudousan-touki-rei-betsuhyou.md`）を条文原文で確認したところ、地番の変更・更正のときは「変更後の建物図面」の提供が必要と明記されており、「建物図面・各階平面図いずれも不要」という当初の解説は誤りでした。本肢は「建物図面**及び各階平面図**の両方が必要」と主張している点で誤り（正しくは建物図面のみ必要、各階平面図は不要）であり、肢イ自体の正誤判定（誤）・最終的な正解番号（4番＝ウオ）に変更はありません。同じ場面を非区分建物で扱う`h28-mondai/q17-tatemonozumen-kakukaiheimenzu.md`の肢イ（建物図面のみを求める記述を正しいとする）とも整合します。
+- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、オの補足条文引用に誤りを発見し修正しました。「不動産登記法16条2項の準用」としていましたが、16条2項は「官庁又は公署の嘱託による登記の手続」への準用規定であり、代位申請とは無関係でした。代位者に関する規定は、権利に関する登記の登記事項として代位者の氏名・住所・代位原因を挙げる**法59条7号**です（条文原文で確認済み）。オ本文の結論・民法423条の引用自体は元々正しく、影響はありません。
+- **エの実務補足を追記（2026-08-08実施）**：ユーザーの依頼により、エの解説に「実務ではこうなります」の段落を追加しました。追加した内容の根拠は、（a）分離処分禁止の原則を定める区分所有法22条1項（条文原文で確認済み）、（b）権利に関する登記の共同申請原則を定める不動産登記法60条、（c）敷地権抹消後に権利をそのまま同一名義人の権利として土地の登記記録に記録し直す旨を定める不動産登記規則124条2項（いずれも条文原文で確認済み）です。「表示登記に伴って権利部の変更が自動的に処理されるか、別途申請が必要か」という実務上の視点は、第11問（表題部所有者の相続）との対比として述べたものであり、個別の先例・通達までは確認していません。
+- **2026-08-04追記（イの解説を訂正）**：イの解説を当初「地番変更のみでは建物図面・各階平面図が不要」としていましたが、個別テーマ記事「建物図面・各階平面図の提供要否 早見表」（`topics/tatemonozumen-teikyou-yohi.md`）執筆時に不動産登記令別表14項添付情報イ（`laws/fudousan-touki-rei-betsuhyou.md`）を条文原文で確認したところ、地番の変更・更正のときは「変更後の建物図面」の提供が必要と明記されており、「建物図面・各階平面図いずれも不要」という当初の解説は誤りでした。本肢は「建物図面**及び各階平面図**の両方が必要」と主張している点で誤り（正しくは建物図面のみ必要、各階平面図は不要）であり、イ自体の正誤判定（誤）・最終的な正解番号（4番＝ウオ）に変更はありません。同じ場面を非区分建物で扱う`h28-mondai/q17-tatemonozumen-kakukaiheimenzu.md`のイ（建物図面のみを求める記述を正しいとする）とも整合します。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**肢ウとほぼ同一の論点が令和4年度第17問で再出題されている、強い重複が見つかりました**。本問の肢ウ「いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には、甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない」は、令和4年度第17問アとほぼ一言一句同じ記述・結論です。このほか、令和1年度第18問・令和6年度第18問も区分建物の登記に関する問題ですが、これらは「乙区分建物のみ滅失した場合の甲区分建物の非区分建物化」という別の論点を扱っており、本問との具体的な重複は確認できませんでした。noteで令和4年度第17問の解説記事を作成する際は、本記事の肢ウと内容がほぼ重複するため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
-- **肢ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢ウの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。甲・乙建物がいずれも既に別々に表題登記済みであることから、「まとめて申請できる例外は規則35条が限定列挙しており、当てはまらなければ別々に申請すべき」という一登記一申請の原則の知識をそのまま当てはめてしまい、規則35条とは別に不動産登記法52条3項が区分建物化の場面専用の義務的一括申請を定めていることを見落としやすい点を掘り下げています。個別テーマ記事「申請は不動産ごとに1件が原則、規則35条の例外10パターンを整理」（`note-articles/topics/ittouki-isshinsei-gensoku.md`）へのリンクを本文に追加し、同記事の枠組み（規則35条の任意的併合）と本肢の根拠（法52条3項の義務的一括申請）が別物であることを明記しました。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは肢エ（敷地権抹消の職権処理）を捉えた内容のままとし、変更していません。肢ウのつまずきどころ（規則35条と法52条3項という別条文の混同）は肢エのテーマ（職権処理の範囲）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**ウとほぼ同一の論点が令和4年度第17問で再出題されている、強い重複が見つかりました**。本問のウ「いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には、甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない」は、令和4年度第17問アとほぼ一言一句同じ記述・結論です。このほか、令和1年度第18問・令和6年度第18問も区分建物の登記に関する問題ですが、これらは「乙区分建物のみ滅失した場合の甲区分建物の非区分建物化」という別の論点を扱っており、本問との具体的な重複は確認できませんでした。noteで令和4年度第17問の解説記事を作成する際は、本記事のウと内容がほぼ重複するため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
+- **ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、ウの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。甲・乙建物がいずれも既に別々に表題登記済みであることから、「まとめて申請できる例外は規則35条が限定列挙しており、当てはまらなければ別々に申請すべき」という一登記一申請の原則の知識をそのまま当てはめてしまい、規則35条とは別に不動産登記法52条3項が区分建物化の場面専用の義務的一括申請を定めていることを見落としやすい点を掘り下げています。個別テーマ記事「申請は不動産ごとに1件が原則、規則35条の例外10パターンを整理」（`note-articles/topics/ittouki-isshinsei-gensoku.md`）へのリンクを本文に追加し、同記事の枠組み（規則35条の任意的併合）と本肢の根拠（法52条3項の義務的一括申請）が別物であることを明記しました。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズはエ（敷地権抹消の職権処理）を捉えた内容のままとし、変更していません。ウのつまずきどころ（規則35条と法52条3項という別条文の混同）はエのテーマ（職権処理の範囲）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。
 
 ---
 
@@ -131,12 +179,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 証・図・権・職・請・積・建・区・分・番 — these must be rendered in their
+kanji 証・図・権・職・請・建・区・分・番 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -211,15 +277,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -247,11 +313,18 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-登・記・申・請・規・則・限・定・列・挙・義・務・括・接・続・建・物・条・
-文・原・則・誤 — always draw the standard Japanese (Jōyō) form.
+登・記・申・請・規・則・限・定・列・挙・義・務・括・接・続・建・物・条・文・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -317,19 +390,19 @@ Between the two panels, a small connecting label:
 根拠条文：不動産登記令4条／不動産登記規則35条／不動産登記法52条3項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, panel label, quoted rule text, and callout text matches the
 Japanese text given above verbatim, with no paraphrasing and no
 substituted characters, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
-channel anywhere.
+channel anywhere. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card).
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-添付情報の要否が単純に「誰が新規に登場するか」だけで決まる肢（ア）はラベル付きの図解1枚で示し、条件を2つ以上つないで初めて結論に至る肢（イ・ウ）は分岐ノードを持つ決定木フローチャートとして描き、単一の事実確認で完結する肢（エ）は図解1枚、時系列で進む代位申請の場面（オ）はタイムライン型で描き分けた。既存の④間違いノート（肢ウ）は規則35条と法52条3項の対比そのものを深掘りする内容のため、ここでは重複を避け、⑤では「どの事実をどの順で確認すれば52条3項にたどり着くか」という手順に焦点を絞った。
+添付情報の要否が単純に「誰が新規に登場するか」だけで決まる肢（ア）はラベル付きの図解1枚で示し、条件を2つ以上つないで初めて結論に至る肢（イ・ウ）は分岐ノードを持つ決定木フローチャートとして描き、単一の事実確認で完結する肢（エ）は図解1枚、時系列で進む代位申請の場面（オ）はタイムライン型で描き分けた。既存の④間違いノート（ウ）は規則35条と法52条3項の対比そのものを深掘りする内容のため、ここでは重複を避け、⑤では「どの事実をどの順で確認すれば52条3項にたどり着くか」という手順に焦点を絞った。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -366,7 +439,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -396,7 +473,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 既存の表題部所有者に住所証明情報は不要
@@ -416,7 +493,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新規のＢのみ必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地番変更は建物図面のみ、床面積変更は各階平面図も
@@ -435,14 +512,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建物図面のみ必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 表題登記済みかつ接続工事なら一括申請義務
-Diagram: A decision-tree flowchart. Start node:「甲建物・乙建物は、いず
-れも表題登記がある区分建物ではない建物か？」はい branch leads down to a
-second diamond node:「増築等の工事により相互に接続して、区分建物になった
-か？」はい branch leads to a conclusion node showing two application-
+Diagram: A top-to-bottom check flow with rectangular boxes (no diamonds). Box 1:
+「甲建物・乙建物は、いずれも表題登記がある区分建物ではない建物」→ arrow down
+to Box 2:「増築等の工事により相互に接続して、区分建物になった」→ arrow to a
+conclusion node showing two application-
 document icons bound together with a clip, labeled「一括して申請しなけれ
 ばならない（不動産登記法52条3項）」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -454,7 +531,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一括申請が義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 区分合併による敷地権抹消は登記官の職権で処理
@@ -471,7 +548,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 併せ申請は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 原始取得者が申請しない表題登記は転得者が代位申請できる
@@ -500,13 +577,13 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
 Chinese variant, paying special attention to 証・図・権・職・請・積・建・
 区・分・番. If any character renders as a Simplified or Traditional
-Chinese variant, redraw that character in the correct Japanese form. Also
+Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Also
 confirm that no character outside hiragana, katakana, Jōyō kanji, and the
 Arabic numerals explicitly used above appears anywhere in the image — no
 Latin letters, no other non-Japanese scripts. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-every multi-condition 肢（肢イ・肢ウ）is drawn as an actual flowchart with
+every multi-condition 肢（イ・ウ）is drawn as an actual flowchart with
 branch nodes (not a bare illustration with no visible decision
 structure), that no 肢 with a genuinely hidden second condition has been
 flattened into a single check, that each 着眼点 callout states a checking

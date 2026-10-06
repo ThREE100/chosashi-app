@@ -2,51 +2,67 @@
 
 **出題年度：令和2年度　午後の部　第4問**
 
-> 申請人Ａが土地家屋調査士Ｂに対して土地の合筆の登記の申請を委任し，Ａ作成の委任状には委任事項として，「土地の合筆の登記申請に関する一切の権限」とのみ記載されている。ＢがＡを代理して土地の合筆の登記を申請するに際し，この委任状を代理権を証する情報として提供した場合におけるＢの権限に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。なお，いずれの場合もＢはＡから特別の委任を受けていないものとする。
->
-> ア　Ｂは，土地の合筆の登記を申請した後にＡが登記申請意思を撤回した場合，当該申請を取り下げることはできない。
->
-> イ　Ｂは，土地の合筆の登記の申請の際に納付した登録免許税に過誤納があった場合，その還付金を受領することができない。
->
-> ウ　Ｂは，電子申請の方法により，土地の合筆の登記を申請する場合，添付情報として，登記識別情報を提供することができる。
->
-> エ　Ｂは，電子申請の方法により，土地の合筆の登記を申請し，当該登記が完了した場合，Ｂの使用に係る電子計算機に備え付けられたファイルに記録する方法で，登記識別情報の通知を受けることができる。
->
-> オ　Ｂは，土地の合筆の登記を申請した後，当該申請が却下された場合，却下処分に対し，Ａの代理人として審査請求をすることができる。
->
+> 申請人Ａが土地家屋調査士Ｂに対して土地の合筆の登記の申請を委任し，Ａ作成の委任状には委任事項として，「土地の合筆の登記申請に関する一切の権限」とのみ記載されている。ＢがＡを代理して土地の合筆の登記を申請するに際し，この委任状を代理権を証する情報として提供した場合におけるＢの権限に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。なお，いずれの場合もＢはＡから特別の委任を受けていないものとする。  
+>　  
+> ア　Ｂは，土地の合筆の登記を申請した後にＡが登記申請意思を撤回した場合，当該申請を取り下げることはできない。  
+>　  
+> イ　Ｂは，土地の合筆の登記の申請の際に納付した登録免許税に過誤納があった場合，その還付金を受領することができない。  
+>　  
+> ウ　Ｂは，電子申請の方法により，土地の合筆の登記を申請する場合，添付情報として，登記識別情報を提供することができる。  
+>　  
+> エ　Ｂは，電子申請の方法により，土地の合筆の登記を申請し，当該登記が完了した場合，Ｂの使用に係る電子計算機に備え付けられたファイルに記録する方法で，登記識別情報の通知を受けることができる。  
+>　  
+> オ　Ｂは，土地の合筆の登記を申請した後，当該申請が却下された場合，却下処分に対し，Ａの代理人として審査請求をすることができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
-土地家屋調査士が依頼者から受け取る委任状に「登記申請に関する一切の権限」とだけ書かれているとき、どこまでの行為が代理権に含まれ、どこからは別途「特別の委任」が必要になるのかを問う問題です。「申請に付随する行為か／申請とは別の手続か」という視点で切り分けるのがコツです。
+---
+
+土地家屋調査士が依頼者から受け取る委任状に「登記申請に関する一切の権限」とだけ書かれているとき、どこまでの行為が代理権に含まれ、どこからは別途「特別の委任」が必要になるのかを問う問題です。
+
+「申請に付随する行為か／申請とは別の手続か」という視点で切り分けるのがコツです。
 
 ### ア：依頼者が意思を撤回したときの「取下げ」には、特別の委任が必要
 
-登記申請の取下げのうち、補正のための取下げは特別の委任がなくてもできますが、申請意思の撤回（＝登記を中止するための取下げ）は、申請人の意思にかかわる重要な行為であり、そのための特別の委任が必要とされています（先例による）。したがって、Ａが申請意思を撤回した場合、特別の委任を受けていないＢは、その取下げをすることができません。本肢は正しい記述です。
+登記申請の取下げのうち、補正のための取下げは特別の委任がなくてもできますが、申請意思の撤回（＝登記を中止するための取下げ）は、申請人の意思にかかわる重要な行為であり、そのための特別の委任が必要とされています（先例による）。
+
+したがって、Ａが申請意思を撤回した場合、特別の委任を受けていないＢは、その取下げをすることができません。本肢は正しい記述です。
 
 **たとえば**、依頼者Ａが「やっぱり合筆をやめたい」と言い出しても、「合筆の登記申請に関する一切の権限」しか委任されていないＢは、Ａから改めて取下げの委任をもらわない限り、勝手に申請を取り下げることはできません。
 
 ### イ：過誤納の登録免許税の還付金受領にも、特別の委任が必要
 
-納めすぎた登録免許税（過誤納金）の還付金を代理人が受領するには、「登記に係る登録免許税の還付金を受領すること」という特別の委任が必要です（先例による）。金銭の受領は、登記申請そのものとは別の重要な行為だからです。したがって特別の委任のないＢは還付金を受領できず、本肢は正しい記述です。
+納めすぎた登録免許税（過誤納金）の還付金を代理人が受領するには、「登記に係る登録免許税の還付金を受領すること」という特別の委任が必要です（先例による）。
+
+金銭の受領は、登記申請そのものとは別の重要な行為だからです。したがって特別の委任のないＢは還付金を受領できず、本肢は正しい記述です。
 
 **たとえば**、合筆の申請で登録免許税を多く納めすぎていた場合でも、Ｂは「一切の権限」だけでは還付金を代わりに受け取ることはできません。Ａ本人が受け取るか、Ａから還付金受領の特別の委任を受ける必要があります。
 
 ### ウ：電子申請で登記識別情報を提供するには、特別の委任が必要
 
-電子申請の方法で登記識別情報を提供する場合、その暗号化を行うことになるため、「登記識別情報の暗号化に関する一切の権限」という特別の委任が必要とされています（先例による）。したがって、特別の委任のないＢは登記識別情報を提供することができず、「提供することができる」とする本肢は誤りです。
+電子申請の方法で登記識別情報を提供する場合、その暗号化を行うことになるため、「登記識別情報の暗号化に関する一切の権限」という特別の委任が必要とされています（先例による）。
+
+したがって、特別の委任のないＢは登記識別情報を提供することができず、「提供することができる」とする本肢は誤りです。
 
 **たとえば**、Ｂがオンラインで合筆を申請する際に登記識別情報を添付する場面では、暗号化に関する特別の委任がなければその作業を代理できません。「一切の権限」だけでは足りないのです。
 
 ### エ：電子申請で登記識別情報の通知を受けるにも、特別の委任が必要
 
-電子申請で登記が完了し、代理人が登記識別情報の通知を受ける場合には、その復号（暗号を元に戻す処理）を伴うため、「登記識別情報の復号に関する一切の権限」という特別の委任が必要です（先例による）。特別の委任のないＢは自分のパソコンのファイルに記録する方法で通知を受けることができず、本肢は誤りです。
+電子申請で登記が完了し、代理人が登記識別情報の通知を受ける場合には、その復号（暗号を元に戻す処理）を伴うため、「登記識別情報の復号に関する一切の権限」という特別の委任が必要です（先例による）。
+
+特別の委任のないＢは自分のパソコンのファイルに記録する方法で通知を受けることができず、本肢は誤りです。
 
 **たとえば**、合筆が完了して新しい登記識別情報が発行されても、復号に関する特別の委任のないＢは、自分の使うパソコンでそれを受け取ることはできません。
 
 ### オ：却下処分に対する審査請求にも、特別の授権が必要
 
-登記申請が代理人によってされた場合でも、審査請求は登記申請とは別個の不服申立ての手続です。したがって、審査請求を代理するには、審査請求についての特別の授権（委任）が必要になります（行政不服審査法12条1項参照）。「登記申請に関する一切の権限」だけでは審査請求まで代理できないため、本肢は誤りです。
+登記申請が代理人によってされた場合でも、審査請求は登記申請とは別個の不服申立ての手続です。
+
+したがって、審査請求を代理するには、審査請求についての特別の授権（委任）が必要になります（行政不服審査法12条1項参照）。「登記申請に関する一切の権限」だけでは審査請求まで代理できないため、本肢は誤りです。
 
 **たとえば**、合筆の申請が却下されたとき、Ｂが「一切の権限」だけを根拠にＡの代理人として審査請求をすることはできません。審査請求をするには、Ａから改めてその委任を受ける必要があります。
+
+---
 
 ### まとめ
 
@@ -109,12 +125,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・登・記・号・識 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -175,20 +209,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「一切の権限」という包括的な委任状だけでは、取下げ・金銭の受領・登記識別情報の暗号化復号・審査請求といった重要な行為までは代理できないことを見抜けるようにする5パネル構成。全パネルが同じ決定木（Ａから当該行為について特別の委任を受けているか）を共有し、本問の前提（Ｂは特別の委任を受けていない）に当たる「いいえ」側の枝を毎回強調し、「はい」側（特別の委任があればその行為ができる）は薄いグレーで示す。②の色分け（金銭・手続系＝緑、登記識別情報の暗号化復号＝青）を引き継いでいる。
 
@@ -230,7 +264,15 @@ describes faithful to the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -256,7 +298,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 取下げの特別委任の有無を確認する
@@ -278,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取下げ不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 還付金受領の特別委任の有無を確認する
@@ -298,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 受領には特別委任
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 識別情報提供の特別委任の有無を確認する
@@ -319,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 暗号化に特別委任
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 識別情報受領の特別委任の有無を確認する
@@ -341,7 +383,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 復号に特別委任
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 審査請求の特別委任の有無を確認する
@@ -369,10 +411,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 ています（審査請求につき行政不服審査法12条1項参照）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権, 限, 委, 任, 撤, 回, 還, 付, 識, 別, 暗, 号, 復, 審, 査 and
-any character that has a visually similar Simplified Chinese variant. If
-any character renders as a Simplified Chinese variant, redraw that
+any character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

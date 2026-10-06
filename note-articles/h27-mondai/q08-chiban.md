@@ -2,25 +2,29 @@
 
 **出題年度：平成27年度　午後の部　第8問**
 
-> 土地の地番又は地番区域に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　地番に数字でない符号がある土地について地積の更正の登記を申請するときであっても，当該符号を含む土地の地番を申請情報の内容としなければならない。
->
-> イ　土地の地番区域である字に登記記録上の誤りがあるときであっても，当該土地の所有権の登記名義人は，当該土地の表題部の更正の登記を申請することができない。
->
-> ウ　地積測量図に記録された地番に誤りがある場合において，その訂正の申出をするときは，訂正後の地積測量図を提供しなければならない。
->
-> エ　土地の分筆の登記を申請する場合には，当該土地の不動産番号を提供したときであっても，分筆前の土地の地番を申請情報の内容としなければならない。
->
-> オ　地番区域が相互に異なる土地であっても，相互に接続していれば土地の合筆の登記をすることができる。
->
+> 土地の地番又は地番区域に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　地番に数字でない符号がある土地について地積の更正の登記を申請するときであっても，当該符号を含む土地の地番を申請情報の内容としなければならない。  
+>　  
+> イ　土地の地番区域である字に登記記録上の誤りがあるときであっても，当該土地の所有権の登記名義人は，当該土地の表題部の更正の登記を申請することができない。  
+>　  
+> ウ　地積測量図に記録された地番に誤りがある場合において，その訂正の申出をするときは，訂正後の地積測量図を提供しなければならない。  
+>　  
+> エ　土地の分筆の登記を申請する場合には，当該土地の不動産番号を提供したときであっても，分筆前の土地の地番を申請情報の内容としなければならない。  
+>　  
+> オ　地番区域が相互に異なる土地であっても，相互に接続していれば土地の合筆の登記をすることができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+
+---
 
 地番は土地を特定するための“住所のような記号”です。「申請時にそのまま書くのか」「不動産番号があれば省略できるのか」「地番区域が違う土地を合筆できるのか」など、地番まわりの基本ルールを整理しておきましょう。
 
 ### ア：符号を含む地番でも、申請時はその地番をそのまま記載する
 
-数字でない符号を含む地番など、そのままでは土地を特定しにくい地番については、登記の際に登記官が職権で変更することがあります（不動産登記事務取扱手続準則67条2項参照）。もっとも、申請人が申請する段階では、現に登記記録に記録されている地番（符号を含むもの）を申請情報の内容として記載しなければなりません。したがって本肢は正しい記述です。
+数字でない符号を含む地番など、そのままでは土地を特定しにくい地番については、登記の際に登記官が職権で変更することがあります（不動産登記事務取扱手続準則67条2項参照）。
+
+もっとも、申請人が申請する段階では、現に登記記録に記録されている地番（符号を含むもの）を申請情報の内容として記載しなければなりません。したがって本肢は正しい記述です。
 
 **たとえば**、地番が「1番イ」のように数字でない符号を含む土地の地積更正登記を申請するときは、申請人はその「1番イ」をそのまま申請情報に書きます。書き直すかどうかは、申請を受けた登記官が職権で判断します。
 
@@ -32,52 +36,86 @@
 
 **ここが分かりにくいポイント**：
 
-「表題部の更正登記」と聞くと、「表題部」という言葉につられて、「表題部に関する登記の申請人は表題部所有者に決まっている」と思い込んでしまいがちです。そのうえで、本肢に出てくるのは「所有権の登記名義人」であって「表題部所有者」ではないため、「この人は申請人にあたらないから、更正登記は申請できないはずだ」と考えて、そこで思考を止めてしまうのが典型的なつまずき方です。
+「表題部の更正登記」と聞くと、「表題部」という言葉につられて、「表題部に関する登記の申請人は表題部所有者に決まっている」と思い込んでしまいがちです。
+
+そのうえで、本肢に出てくるのは「所有権の登記名義人」であって「表題部所有者」ではないため、「この人は申請人にあたらないから、更正登記は申請できないはずだ」と考えて、そこで思考を止めてしまうのが典型的なつまずき方です。
 
 しかし、「表題部所有者」と「所有権の登記名義人」は、まったく別の2種類の人を指しているわけではありません。次の順番で考えると整理しやすくなります。
 
 1. 表題部所有者とは、その不動産についてまだ所有権の登記（保存登記）がされていない段階で、表題部に「所有者らしい」と記録されている人のことです（不動産登記法2条10号）。
-2. その後、所有権保存登記がされると、その人は権利部甲区に「所有権の登記名義人」として記録されるようになります。つまり、同じ人物が、所有権登記の有無によって「表題部所有者」と呼ばれたり「所有権の登記名義人」と呼ばれたりしているだけで、別人に交代しているわけではありません。
-3. 不動産登記法38条は、地番区域である字を含む一定の登記事項の更正登記について、「表題部所有者又は所有権の登記名義人以外の者は、申請することができない」と定めています。この書き方は、所有権登記の有無にかかわらず、どちらの立場の人でもこの更正登記を申請できることを前提にしたものです。
+2. その後、所有権保存登記がされると、その人は権利部甲区に「所有権の登記名義人」として記録されるようになります。
 
-つまり、本肢の「所有権の登記名義人」は、38条がまさに申請人として想定している立場そのものであり、「表題部所有者でなければ申請できない」という理由づけは成り立ちません。「表題部」という名前に引っ張られず、「その不動産の所有者としての地位にある人」というくくりで考えると、迷わず判断できます。
+つまり、同じ人物が、所有権登記の有無によって「表題部所有者」と呼ばれたり「所有権の登記名義人」と呼ばれたりしているだけで、別人に交代しているわけではありません。
+3. 不動産登記法38条は、地番区域である字を含む一定の登記事項の更正登記について、「表題部所有者又は所有権の登記名義人以外の者は、申請することができない」と定めています。
+
+この書き方は、所有権登記の有無にかかわらず、どちらの立場の人でもこの更正登記を申請できることを前提にしたものです。
+
+つまり、本肢の「所有権の登記名義人」は、38条がまさに申請人として想定している立場そのものであり、「表題部所有者でなければ申請できない」という理由づけは成り立ちません。
+
+「表題部」という名前に引っ張られず、「その不動産の所有者としての地位にある人」というくくりで考えると、迷わず判断できます。
 
 「表題部所有者」と「所有権の登記名義人」の違いをより詳しく知りたい方は、個別テーマ記事「『表題部所有者』と『所有権の登記名義人』、何がどう違う？」（`note-articles/column/hyoudaibu-shoyuusha-vs-toukimeigijin.md`）もあわせてご参照ください。
 
 ### ウ：地積測量図の地番の誤りを直す申出では、訂正後の図面を提供する
 
-土地所在図や地積測量図に誤りがあるときは、表題部所有者もしくは所有権の登記名義人またはその相続人その他の一般承継人が、そのうちの1人から訂正の申出をすることができます（不動産登記規則88条1項）。そして、この訂正の申出をする際には、訂正後の図面を提供しなければなりません（同条2項）。本肢は正しい記述です。
+土地所在図や地積測量図に誤りがあるときは、表題部所有者もしくは所有権の登記名義人またはその相続人その他の一般承継人が、そのうちの1人から訂正の申出をすることができます（不動産登記規則88条1項）。
+
+そして、この訂正の申出をする際には、訂正後の図面を提供しなければなりません（同条2項）。本肢は正しい記述です。
 
 **たとえば**、備え付けられている地積測量図の地番が間違っていたときは、「ここが誤りです」と指摘するだけでなく、正しく直した地積測量図を作って添えて申し出ます。
 
 **ここが分かりにくいポイント**：
 
-イの解説を読んだ直後だと、「地番の誤り」と聞いて「これも同じように更正の登記をするのだろう」と考えてしまいがちです。しかし、本肢が扱っているのは、登記記録（表題部）そのものの記載ではなく、登記所に備え付けられている「地積測量図」という図面上の記載の誤りです。この違いに気づかないまま読み進めると、「訂正の申出」という別の手続きがあることに気づけず、判断に迷ってしまいます。
+イの解説を読んだ直後だと、「地番の誤り」と聞いて「これも同じように更正の登記をするのだろう」と考えてしまいがちです。
 
-さらに、「訂正の申出」という言葉から、「誤りを指摘すれば、あとは登記所側が直してくれる」というイメージを持ってしまうのも、もう一つのつまずきどころです。実際には逆で、訂正の申出をする側が「訂正後の正しい図面」自体を作成して提供しなければなりません（不動産登記規則88条2項）。「誤りを指摘するだけの手続き」ではなく、「正しい図面を用意して置き換えてもらうための手続き」だとイメージすると理解しやすくなります。
+しかし、本肢が扱っているのは、登記記録（表題部）そのものの記載ではなく、登記所に備え付けられている「地積測量図」という図面上の記載の誤りです。
+
+この違いに気づかないまま読み進めると、「訂正の申出」という別の手続きがあることに気づけず、判断に迷ってしまいます。
+
+さらに、「訂正の申出」という言葉から、「誤りを指摘すれば、あとは登記所側が直してくれる」というイメージを持ってしまうのも、もう一つのつまずきどころです。
+
+実際には逆で、訂正の申出をする側が「訂正後の正しい図面」自体を作成して提供しなければなりません（不動産登記規則88条2項）。
+
+「誤りを指摘するだけの手続き」ではなく、「正しい図面を用意して置き換えてもらうための手続き」だとイメージすると理解しやすくなります。
 
 この2つの手続きの関係を整理すると、次のようになります。
 
 - 登記記録（表題部の登記事項）そのものに誤りがある場合：更正の登記で正します（イで見たとおり、申請できるのは表題部所有者または所有権の登記名義人です）。
 - 添付されている図面（土地所在図・地積測量図・建物図面・各階平面図）だけに誤りがあり、登記記録自体は誤っていない場合：訂正の申出で正します。しかも、その誤りについて更正の登記をすることができるときは、訂正の申出を使うことはできません（不動産登記規則88条1項ただし書）。
 
-つまり、「登記記録の誤りか、添付図面だけの誤りか」をまず切り分けることが、更正の登記と訂正の申出のどちらを選ぶべきかを判断する第一歩になります。また、訂正の申出をすることができる人には、表題部所有者・所有権の登記名義人に加えて、これらの相続人その他の一般承継人も含まれており（同条1項）、更正の登記の申請人よりもやや範囲が広いことも押さえておきましょう。
+つまり、「登記記録の誤りか、添付図面だけの誤りか」をまず切り分けることが、更正の登記と訂正の申出のどちらを選ぶべきかを判断する第一歩になります。
+
+また、訂正の申出をすることができる人には、表題部所有者・所有権の登記名義人に加えて、これらの相続人その他の一般承継人も含まれており（同条1項）、更正の登記の申請人よりもやや範囲が広いことも押さえておきましょう。
 
 図面の訂正の申出のルールについては、個別テーマ記事「建物図面・各階平面図の提供要否 早見表」（`note-articles/topics/tatemonozumen-teikyou-yohi.md`）でも扱っていますので、あわせてご参照ください。
 
 ### エ：不動産番号を提供すれば、分筆前の土地の地番の記載は省略できる
 
-各不動産には不動産番号（不動産識別事項）が付されており（不動産登記法27条4号）、申請情報の内容として不動産番号を提供したときは、所在・地番・地目・地積など、その不動産を特定するための事項の記載を省略できます（不動産登記令6条1項、規則34条2項）。したがって、不動産番号を提供したときでも地番を「記載しなければならない」とする本肢は誤りです。
+各不動産には不動産番号（不動産識別事項）が付されており（不動産登記法27条4号）、申請情報の内容として不動産番号を提供したときは、所在・地番・地目・地積など、その不動産を特定するための事項の記載を省略できます（不動産登記令6条1項、規則34条2項）。
+
+したがって、不動産番号を提供したときでも地番を「記載しなければならない」とする本肢は誤りです。
 
 **たとえば**、分筆の登記を申請するときに、その土地の不動産番号を書いておけば、分筆前の地番などをあらためて書き込む手間を省くことができます。
 
-**なぜこの仕組みが有効なのか**：不動産番号は、登記されている一つ一つの不動産に対して個別に振られている番号で、登記所のコンピューターシステムでは、この番号だけでその不動産の登記記録（所在・地番・地目・地積など）を一意に特定できます。つまり不動産番号を伝えるということは、「この番号の記録を見てください」と登記記録そのものを直接指し示すのと同じことなので、申請人が改めて所在・地番等を手書きで書き写す必要がなくなるのです。実務では、枝番（支号）が何度も分かれている土地や、過去に地番の更正を経た土地など、地番の記載が複雑になりやすい土地ほど、この不動産番号を使った省略が役に立ちます。土地家屋調査士が分筆登記を申請する際は、あらかじめ取得しておいた登記事項証明書に記載されている不動産番号を確認し、地番を一字一句正確に転記する代わりにその番号を申請情報に記載することで、記載ミスによる不一致のリスクを避けられます。ただし、この省略が使えるのは、その不動産がすでに登記されていて不動産番号が付いている場合に限られます。表題登記のように、まだ登記記録自体が存在しない不動産を新たに登記する場合には、参照すべき番号がまだ存在しないため、所在・地番などを省略せずに記載しなければなりません（不動産登記規則34条4項）。
+**なぜこの仕組みが有効なのか**：不動産番号は、登記されている一つ一つの不動産に対して個別に振られている番号で、登記所のコンピューターシステムでは、この番号だけでその不動産の登記記録（所在・地番・地目・地積など）を一意に特定できます。
+
+つまり不動産番号を伝えるということは、「この番号の記録を見てください」と登記記録そのものを直接指し示すのと同じことなので、申請人が改めて所在・地番等を手書きで書き写す必要がなくなるのです。
+
+実務では、枝番（支号）が何度も分かれている土地や、過去に地番の更正を経た土地など、地番の記載が複雑になりやすい土地ほど、この不動産番号を使った省略が役に立ちます。
+
+土地家屋調査士が分筆登記を申請する際は、あらかじめ取得しておいた登記事項証明書に記載されている不動産番号を確認し、地番を一字一句正確に転記する代わりにその番号を申請情報に記載することで、記載ミスによる不一致のリスクを避けられます。
+
+ただし、この省略が使えるのは、その不動産がすでに登記されていて不動産番号が付いている場合に限られます。
+
+表題登記のように、まだ登記記録自体が存在しない不動産を新たに登記する場合には、参照すべき番号がまだ存在しないため、所在・地番などを省略せずに記載しなければなりません（不動産登記規則34条4項）。
 
 ### オ：地番区域が異なる土地は、接続していても合筆できない
 
 合筆の登記は、複数の登記記録を1つにまとめるものなので、地目または地番区域が相互に異なる土地についてはすることができません（不動産登記法41条2号）。土地が物理的に接続していても、地番区域が違えば合筆できません。したがって本肢は誤りです。
 
 **たとえば**、隣り合っていても、一方が「A町」、他方が「B町」と地番区域（町・字）が違う土地どうしは、くっついていても1筆にまとめる合筆はできません。
+
+---
 
 ### まとめ
 
@@ -101,7 +139,7 @@
 - **現行法チェック（条文原文で確認）**：イの根拠条文について、法令原文（`note-articles/laws/fudousan-touki-hou.md`）で確認したところ、不動産登記法38条は「第27条第1号・第2号・第4号又は第34条第1項第1号・第3号・第4号に掲げる登記事項に関する更正の登記は、表題部所有者又は所有権の登記名義人以外の者は、申請することができない」と規定しており、34条1項1号（土地の所在する市・区・郡・町・村及び字＝地番区域を構成する字）が含まれているため、地番区域（字）の誤りについても所有権の登記名義人が更正の登記を申請できることが条文上確認できました。結論は変わりません。
 - **エの補足説明について**：不動産番号による省略の仕組みが有効な理由（登記記録を一意に特定できるため、所在・地番等の転記が不要になること）と、土地家屋調査士の実務での使い方（登記事項証明書の不動産番号を確認して地番の転記ミスを避ける）を補足しました。あわせて、この省略が使えるのは既に不動産番号が付いている既登記の不動産に限られ、表題登記のように登記記録が存在しない不動産には使えないこと（不動産登記規則34条4項）も付記しています。結論（本肢は誤り＝地番の記載は省略できる）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（地番・地番区域の取扱い）と同一・類似の問題が再出題されていないかを確認しました。「地番」を扱う問題は令和3年度第9問（地番又は家屋番号）・令和元年度第19問（合筆の履歴と地番）にもありますが、いずれも具体的な数字を用いた地番の変遷や家屋番号との関係を問う内容で、本問の5つの論点（符号を含む地番の申請時の記載、地番区域の誤りに対する更正の申請適格、地積測量図の地番訂正、不動産番号による記載省略、地番区域が異なる土地の合筆の可否）とは異なるものでした。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **肢イ・ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：肢イ・ウの結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。肢イは、「表題部」という言葉に引きずられて「表題部の更正登記は表題部所有者にしかできない」と思い込みやすい点を、表題部所有者と所有権の登記名義人が同一人物の所有権登記前後の呼び方に過ぎないという説明（不動産登記法2条10号・38条）で整理しています。肢ウは、イの「更正の登記」との混同、および「訂正の申出をすれば登記所側が直してくれる」という誤ったイメージを、更正の登記（登記記録自体の誤り）と訂正の申出（添付図面だけの誤り、かつ申出人が訂正後の図面を自ら用意する必要があること）の違い（不動産登記規則88条1項ただし書・2項）として整理し、イとの対比も盛り込んでいます。あわせて、肢イには個別テーマ記事「『表題部所有者』と『所有権の登記名義人』、何がどう違う？」（`note-articles/column/hyoudaibu-shoyuusha-vs-toukimeigijin.md`）へ、肢ウには個別テーマ記事「建物図面・各階平面図の提供要否 早見表」（`note-articles/topics/tatemonozumen-teikyou-yohi.md`）へのリンクを本文中に追加しています（`note-articles/link-map/h27-related-articles.md`の第8問の「個別テーマ記事」欄も更新済み）。それぞれの肢に対応する個別インフォグラフィック（間違いノート型）も記事末尾に追加しました。タイトルのキャッチフレーズは、従来オ肢（地番区域が違えば隣でも合筆不可）の論点を捉えたものでしたが、実際に読者がつまずいたのはイ・ウであり、両肢に共通する論点（登記記録自体の誤りと、添付図面だけの誤りとで、直し方＝更正の登記／訂正の申出が異なること）を捉えたキャッチフレーズに差し替えました。なお、正誤判定・正解の組合せ（2番＝ア・ウ）自体は変更していません。
+- **イ・ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：イ・ウの結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。イは、「表題部」という言葉に引きずられて「表題部の更正登記は表題部所有者にしかできない」と思い込みやすい点を、表題部所有者と所有権の登記名義人が同一人物の所有権登記前後の呼び方に過ぎないという説明（不動産登記法2条10号・38条）で整理しています。ウは、イの「更正の登記」との混同、および「訂正の申出をすれば登記所側が直してくれる」という誤ったイメージを、更正の登記（登記記録自体の誤り）と訂正の申出（添付図面だけの誤り、かつ申出人が訂正後の図面を自ら用意する必要があること）の違い（不動産登記規則88条1項ただし書・2項）として整理し、イとの対比も盛り込んでいます。あわせて、イには個別テーマ記事「『表題部所有者』と『所有権の登記名義人』、何がどう違う？」（`note-articles/column/hyoudaibu-shoyuusha-vs-toukimeigijin.md`）へ、ウには個別テーマ記事「建物図面・各階平面図の提供要否 早見表」（`note-articles/topics/tatemonozumen-teikyou-yohi.md`）へのリンクを本文中に追加しています（`note-articles/link-map/h27-related-articles.md`の第8問の「個別テーマ記事」欄も更新済み）。それぞれの肢に対応する個別インフォグラフィック（間違いノート型）も記事末尾に追加しました。タイトルのキャッチフレーズは、従来オ肢（地番区域が違えば隣でも合筆不可）の論点を捉えたものでしたが、実際に読者がつまずいたのはイ・ウであり、両肢に共通する論点（登記記録自体の誤りと、添付図面だけの誤りとで、直し方＝更正の登記／訂正の申出が異なること）を捉えたキャッチフレーズに差し替えました。なお、正誤判定・正解の組合せ（2番＝ア・ウ）自体は変更していません。
 
 ---
 
@@ -142,13 +180,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 番・符・号・積・更・正・誤・字・町・筆・図・証・録・登・記・権 — these must be
+kanji 番・符・号・積・更・正・誤・字・町・筆・図・録・登・記・権 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -240,15 +296,15 @@ these 5 headings):
 5. 地番区域が違えば隣でも合筆不可
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -280,14 +336,32 @@ frame.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
-to the kanji 番・号・録・登・記・所・在・地・積・特・定・転・記・証・題・存 —
+to the kanji 番・号・録・登・記・所・在・地・積・特・定・転・証・題・存 —
 these have Simplified Chinese look-alike forms with visibly different
 stroke shapes, or are easily confused in this context — always draw the
 standard Japanese (Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -344,22 +418,22 @@ Small credit text in the corner (optional, keep minimal):
 平成27年度 午後の部 第8問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 番・号・録・登・記・所・在・地・積・特・定・転・記・証・題・存. If
-any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 番・号・録・登・記・所・在・地・積・特・定・転・証・題・存. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm there are exactly 3
 panels, stacked vertically and connected by two downward arrows showing
 the flow from Panel 1 to Panel 2 to Panel 3, with no duplicated or
 missing panels, and confirm every heading and caption text matches the
 Japanese text given above verbatim, with no paraphrasing and no
-substituted characters.
+substituted characters. Confirm nothing is rendered below the last panel (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last panel). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
 ## インフォグラフィック プロンプト（イ肢・間違いノート）
 
-肢イの結論（地番区域である字の誤りは、所有権の登記名義人も表題部の更正登記を申請できる）に自力でたどり着けなかった読者向けに、「表題部所有者」と「所有権の登記名義人」が同一人物の呼び方の違いに過ぎないことを、所有権保存登記の前後というタイムラインで示す間違いノート型の解説図解。②の俯瞰ポスターとは別物で、文字量・条文引用の制限を設けていない。
+イの結論（地番区域である字の誤りは、所有権の登記名義人も表題部の更正登記を申請できる）に自力でたどり着けなかった読者向けに、「表題部所有者」と「所有権の登記名義人」が同一人物の呼び方の違いに過ぎないことを、所有権保存登記の前後というタイムラインで示す間違いノート型の解説図解。②の俯瞰ポスターとは別物で、文字量・条文引用の制限を設けていない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -380,10 +454,18 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-表・題・部・所・有・者・権・登・記・名・義・人・地・番・域・字・誤・更・正・申・請 —
+表・題・部・所・有・者・権・登・記・名・義・人・誤・更・正・申・請 —
 always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -432,9 +514,9 @@ Small credit text in the corner (optional, keep minimal):
 平成27年度 午後の部 第8問　イ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 表・題・部・所・有・者・権・登・記・名・義・人・地・番・域・字・誤・更・正・申・請.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 表・題・部・所・有・者・権・登・記・名・義・人・誤・更・正・申・請. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm both timeline stages show
 the identical person icon (not two different-looking people), confirm
 nothing is rendered below the FOOTER's small footnote text (no summary
@@ -448,7 +530,7 @@ alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（ウ肢・間違いノート）
 
-肢ウの結論（地積測量図の地番訂正の申出には訂正後の図面の提供が必要）に自力でたどり着けなかった読者向けに、イ肢の「更正の登記」との違いを対比型で示す間違いノート型の解説図解。②の俯瞰ポスターとは別物で、文字量・条文引用の制限を設けていない。
+ウの結論（地積測量図の地番訂正の申出には訂正後の図面の提供が必要）に自力でたどり着けなかった読者向けに、イ肢の「更正の登記」との違いを対比型で示す間違いノート型の解説図解。②の俯瞰ポスターとは別物で、文字量・条文引用の制限を設けていない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -468,10 +550,18 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-登・記・録・更・正・訂・図・面・積・測・量・申・出・提・供・誤・続・題・存 —
+登・記・録・更・正・訂・図・面・積・測・量・申・出・提・供・誤・続・題 —
 always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -523,9 +613,9 @@ Small credit text in the corner (optional, keep minimal):
 平成27年度 午後の部 第8問　ウ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 登・記・録・更・正・訂・図・面・積・測・量・申・出・提・供・誤・続・題・存.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 登・記・録・更・正・訂・図・面・積・測・量・申・出・提・供・誤・続・題. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm there are exactly two
 comparison panels divided by a vertical line labeled 対して, with no
 duplicated or missing panels, confirm nothing is rendered below the
@@ -537,16 +627,16 @@ opaque background with no transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、`infographic-prompt-template.md`の
 「⑤ 作図ガイド型」ルールに基づき、問題文を読んだときに実際に手を動かして
 描くべき図と、その図にたどり着くまでにどの順番で何を確認するかを肢ごとに
 示す作図ガイド。②が5肢の結論を俯瞰するのに対し、⑤は思考順序そのものを
-可視化する。肢ア（符号を含む地番の記載）と肢オ（地番区域が異なる土地の
+可視化する。ア（符号を含む地番の記載）とオ（地番区域が異なる土地の
 合筆可否）は「正しいルール」と「誤りやすい思い込み」を対比させる正誤対比
-型、肢イ（更正の登記の申請人適格）・肢ウ（登記記録の誤りか添付図面の誤り
-かの見分け）・肢エ（不動産番号による記載省略の可否）は分岐点をひし形で
+型、イ（更正の登記の申請人適格）・ウ（登記記録の誤りか添付図面の誤り
+かの見分け）・エ（不動産番号による記載省略の可否）は分岐点をひし形で
 示す決定木型とした。各パネルの着眼点コールアウトは「まず〜を確認し、次に
 〜を確認する」という確認の順序を明示する文にしている。
 
@@ -629,7 +719,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -655,7 +745,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 符号もそのまま記載
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 表題部所有者か名義人かをまず確認する
@@ -680,7 +770,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 名義人も更正できる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 誤りが登記記録か図面かを確認する
@@ -705,7 +795,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 訂正後の図面が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in orange containing the number 4.
 Heading (bold, ONE line):
 不動産番号が付いているかを確認する
@@ -730,7 +820,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 番号で記載省略
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 接続していても地番区域が違えば合筆できない

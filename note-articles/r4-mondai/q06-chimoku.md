@@ -2,19 +2,21 @@
 
 **出題年度：令和4年度　午後の部　第6問**
 
-> 地目に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　石油タンクの敷地の地目を宅地とすることはできない。
->
-> イ　別の土地にある湧出口から温泉を引き込んだ源泉かけ流しの温泉宿の敷地の地目は、鉱泉地とする。
->
-> ウ　河川管理施設である防水のために築造された堤防の天端の部分が一般交通の用に供する道路として利用されている場合には、当該堤防の占める土地の地目は、堤とする。
->
-> エ　村落の間にある通水路が占める土地の地目は、井溝とする。
->
-> オ　公衆の遊楽のために供する一筆の土地内にテニスコートが設置されている場合には、当該土地の地目を公園とすることはできない。
->
+> 地目に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　石油タンクの敷地の地目を宅地とすることはできない。  
+>　  
+> イ　別の土地にある湧出口から温泉を引き込んだ源泉かけ流しの温泉宿の敷地の地目は、鉱泉地とする。  
+>　  
+> ウ　河川管理施設である防水のために築造された堤防の天端の部分が一般交通の用に供する道路として利用されている場合には、当該堤防の占める土地の地目は、堤とする。  
+>　  
+> エ　村落の間にある通水路が占める土地の地目は、井溝とする。  
+>　  
+> オ　公衆の遊楽のために供する一筆の土地内にテニスコートが設置されている場合には、当該土地の地目を公園とすることはできない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
+
+---
 
 地目の分野は、不動産登記事務取扱手続準則68条・69条に列挙された23種類の地目の定義を、具体的な土地の使われ方に当てはめられるかが問われます。「見た目の施設」ではなく「土地の主な用途」で判断するのがコツです。
 
@@ -26,7 +28,9 @@
 
 ### イ：温泉を引き込んだ温泉宿の敷地は、「宅地」
 
-鉱泉地とは、鉱泉（温泉を含む）のわき出し口およびその維持に必要な土地の地目です（準則68条7号）。別の土地から温泉を引き込んでいる温泉宿の敷地は、わき出し口ではなく建物の敷地なので、地目は宅地です（準則68条3号）。本肢は「鉱泉地とする」としていますが、正しくは宅地なので誤りです。
+鉱泉地とは、鉱泉（温泉を含む）のわき出し口およびその維持に必要な土地の地目です（準則68条7号）。
+
+別の土地から温泉を引き込んでいる温泉宿の敷地は、わき出し口ではなく建物の敷地なので、地目は宅地です（準則68条3号）。本肢は「鉱泉地とする」としていますが、正しくは宅地なので誤りです。
 
 **たとえば**、山の中の源泉から湯を引いて営業している温泉旅館の建物の敷地は「宅地」であり、「鉱泉地」になるのは湯がわき出している源泉そのものとその維持に必要な土地の方です。
 
@@ -44,9 +48,13 @@
 
 ### オ：テニスコートがあっても、公園にできる
 
-公衆の遊楽のために供する土地は「公園」とします（準則68条22号）。公園内にある運動施設などの公園施設の敷地も、一体として公園になります。本肢は「テニスコートがあれば公園にできない」としていますが、テニスコートも公園施設として一体で公園になるので誤りです。
+公衆の遊楽のために供する土地は「公園」とします（準則68条22号）。公園内にある運動施設などの公園施設の敷地も、一体として公園になります。
+
+本肢は「テニスコートがあれば公園にできない」としていますが、テニスコートも公園施設として一体で公園になるので誤りです。
 
 **たとえば**、市民が自由に遊べる一筆の公園の中にテニスコートが設けられていても、そのテニスコート部分を切り分ける必要はなく、その土地全体を地目「公園」とすることができます。
+
+---
 
 ### まとめ
 
@@ -108,12 +116,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・宅・鉱・泉・堤・溝・園・建・物 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -192,18 +218,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（石油タンクの敷地・温泉のわき出し口と宿の敷地・堤防の断面・村落間の通水路・公園とテニスコートの位置関係）を肢ごとに示す作図ガイドを追加した。地目の認定は多くの場合1回の当てはめで判定できるが、イ（鉱泉地と宅地の見分け）だけは「どちらの土地の話をしているか」を先に切り分ける必要があるため決定木として描き、他の4肢は「見た目の施設に惑わされず本来の用途で判定する」着眼点を添えた図解にしている。
 
@@ -242,7 +268,15 @@ body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 地・宅・鉱・泉・堤・
 溝・園・建・物・設・記・準・則・続・実, which have visibly different
@@ -271,7 +305,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -279,7 +313,7 @@ Heading (bold, ONE line):
 Diagram: Draw an isometric bare land plot with a large cylindrical oil
 tank standing alone on it and no building anywhere on the plot. Above the
 tank, draw a small thought-bubble icon reading "建物がない→宅地ではな
-い?" with a red ✕ mark crossing it out. Below the crossed-out bubble,
+い？" with a red ✕ mark crossing it out. Below the crossed-out bubble,
 draw an arrow pointing to the land plot, which is tagged with a wooden
 label reading "宅地", with a small caption "石油タンク・ガスタンクの敷
 地" pinned beside the tag.
@@ -292,13 +326,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 建物なしでも宅地
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 わき出し口か建物の敷地かを見分ける
 Diagram: Draw an actual decision flowchart. A diamond-shaped branch node
 reads「その土地は温泉のわき出し口そのものと、その維持に必要な土地
-か?」. The Yes branch (green arrow, labeled ○) leads to a conclusion node
+か？」. The Yes branch (green arrow, labeled ○) leads to a conclusion node
 showing an isometric bubbling-spring plot tagged with a wooden label
 reading "鉱泉地". The No branch (labeled ✕, meaning it is a separate
 building's site) leads to a different conclusion node showing an
@@ -314,7 +348,7 @@ separate plots.
 Conclusion tag (blue, 5-15 Japanese characters):
 引き込み先は宅地
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 道路利用されても堤防の地目は堤のまま
@@ -322,7 +356,7 @@ Diagram: Draw an isometric cross-section of a levee (dike) built for
 flood prevention, with a small paved road and pedestrians walking along
 its flat top (天端). The whole levee land plot is tagged with a wooden
 label reading "堤". Beside the tag, draw a small thought-bubble icon
-reading "天端が道路→地目は道路?" with a red ✕ mark crossing it out, and
+reading "天端が道路→地目は道路？" with a red ✕ mark crossing it out, and
 an arrow pointing back to the "堤" tag.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この土地が防水のために築造された堤防かどうかを確認します。次
@@ -332,7 +366,7 @@ an arrow pointing back to the "堤" tag.
 Conclusion tag (blue, 5-15 Japanese characters):
 地目は堤のまま
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 村落間の通水路の地目は井溝
@@ -347,7 +381,7 @@ wooden label reading "井溝".
 Conclusion tag (blue, 5-15 Japanese characters):
 地目は井溝
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 テニスコートも一体で地目は公園のまま
@@ -369,9 +403,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 （ウ）／準則68条19号（エ）／準則68条22号（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 地・宅・鉱・泉・堤・溝・園・建・物・設・記・準・則・続・実.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 地・宅・鉱・泉・堤・溝・園・建・物・設・記・準・則・続・実. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢 is

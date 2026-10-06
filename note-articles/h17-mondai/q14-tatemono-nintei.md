@@ -1,69 +1,98 @@
 ## 【土地家屋調査士受験生向け】平成17年度 第14問〜電車も山門も建物、売店だけは違うんです〜
 
-**出題年度：平成17年度　午後の部　第14問**
+**出題年度：平成17年度　第14問**
 
-> 次の１から５までのうち、表題登記をすることができる建物と認定することができないものはどれか。
->
-> ア　土地の上に電車の車体を置き、これにコンクリートで基礎工事を施し、居室として利用されているもの
->
-> イ　寺院の山門で、上部が宝物庫として利用されているもの
->
-> ウ　骨組みの部分に鉄材が使用され、屋根及び周壁に当たる部分にガラス板がはめられている強固な建造物であって、温室として利用されているもの
->
-> エ　上屋を有する駅のホーム内にあり、コンクリートで基礎工事が施されている売店
->
-> オ　永久的な建造物である桟橋の上に構築され、コンクリートで基礎工事が施されている事務所
->
-> 1　ア　　2　イ　　3　ウ　　4　エ　　5　オ
+> 次の１から５までのうち、表題登記をすることができる建物と認定することができないものはどれか。  
+>　  
+> １　土地の上に電車の車体を置き、これにコンクリートで基礎工事を施し、居室として利用されているもの  
+>　  
+> ２　寺院の山門で、上部が宝物庫として利用されているもの  
+>　  
+> ３　骨組みの部分に鉄材が使用され、屋根及び周壁に当たる部分にガラス板がはめられている強固な建造物であって、温室として利用されているもの  
+>　  
+> ４　上屋を有する駅のホーム内にあり、コンクリートで基礎工事が施されている売店  
+>　  
+> ５　永久的な建造物である桟橋の上に構築され、コンクリートで基礎工事が施されている事務所
 
-表題登記の対象となる「建物」かどうかは、見た目の材質や場所の珍しさではなく、「定着性」「外気分断性」「用途性」という3つの要件を満たすかどうかで判断されます。この問題は、電車の車体・寺院の山門・ガラス張りの温室・駅のホームの売店・桟橋の上の事務所という、一見どれも「建物っぽくない」工作物を並べて、この3要件をどう当てはめるかを試す典型的な出題です。順番に見ていきましょう。
+---
 
-### ア：電車の車体でも、基礎工事で土地に定着していれば建物と認定できる
+表題登記の対象となる「建物」かどうかは、見た目の材質や場所の珍しさではなく、「定着性」「外気分断性」「用途性」という3つの要件を満たすかどうかで判断されます。
 
-建物として登記できるかどうかは、①土地への定着性、②屋根・周壁による外気分断性、③居住・作業・貯蔵等の用途性、という3要件を満たすかで判断されます（不動産登記規則111条）。電車の車体はもともと移動する乗り物ですが、これを土地の上に置いてコンクリートで基礎工事を施せば、土地への定着性が認められます。車体には屋根と周壁があり外気分断性も備わっており、居室として利用されていれば用途性もあります。したがって、電車の車体を利用した工作物であっても、3要件を満たせば建物として認定することができます。
+この問題は、電車の車体・寺院の山門・ガラス張りの温室・駅のホームの売店・桟橋の上の事務所という、一見どれも「建物っぽくない」工作物を並べて、この3要件をどう当てはめるかを試す典型的な出題です。順番に見ていきましょう。
 
-**たとえば**、廃車になった電車の車両を庭に運び込んで、コンクリートの土台にしっかり固定し、中を改装して離れの部屋として使っている、という状況をイメージしてください。見た目は「電車」ですが、土地にどっしりと固定され、壁と屋根に囲まれ、実際に部屋として使われている以上、法律上は「建物」として登記の対象になり得ます。
+### 1：電車の車体でも、基礎工事で土地に定着していれば建物と認定できる
 
-### イ：寺院の山門でも、上部が宝物庫として使われていれば建物と認定できる
+建物として登記できるかどうかは、①土地への定着性、②屋根・周壁による外気分断性、③居住・作業・貯蔵等の用途性、という3要件を満たすかで判断されます（不動産登記規則111条）。
 
-山門は本来、寺院の入口に建てられる門ですが、上部が宝物庫として利用されている場合、その部分は屋根・周壁を備え、宝物を収蔵するという用途性を持ち、土地に定着した恒久的な建造物として建てられています。3要件（定着性・外気分断性・用途性）をいずれも満たすため、単なる「門」ではなく建物として認定することができます。
+電車の車体はもともと移動する乗り物ですが、これを土地の上に置いてコンクリートで基礎工事を施せば、土地への定着性が認められます。
 
-**たとえば**、古い寺院の山門の2階部分が、実は仏具や古い経典を保管する蔵として使われている、というケースを考えてみてください。1階部分は人が通り抜けるだけの門であっても、上部が収蔵目的でしっかりと囲われた空間になっていれば、その建造物全体を建物として登記できる場合があります。
+車体には屋根と周壁があり外気分断性も備わっており、居室として利用されていれば用途性もあります。したがって、電車の車体を利用した工作物であっても、3要件を満たせば建物として認定することができます。
 
-### ウ：ガラス張りの温室でも、強固な構造であれば建物と認定できる
+**たとえば**、廃車になった電車の車両を庭に運び込んで、コンクリートの土台にしっかり固定し、中を改装して離れの部屋として使っている、という状況をイメージしてください。
 
-外気分断性というと「壁で完全に囲われている」イメージを持ちがちですが、要件が求めているのは屋根・周壁「又はこれらに類するもの」による独立した外気の遮断であり、素材がガラスであることは妨げになりません。鉄材の骨組みにガラス板がはめられた強固な建造物であれば、風雨をしのげる外気分断性を備えていると評価できます。土地に固定され（定着性）、温室として植物を育てる用途に使われている（用途性）以上、3要件を満たし建物として認定することができます。
+見た目は「電車」ですが、土地にどっしりと固定され、壁と屋根に囲まれ、実際に部屋として使われている以上、法律上は「建物」として登記の対象になり得ます。
 
-**たとえば**、鉄骨をがっちり組んで、その周りをガラス板で囲った大型の温室で、トマトやランを栽培している農園を思い浮かべてください。「ガラス張りだから壁とは言えないのでは」と思いがちですが、強固な構造で外気をしっかり遮断できていれば、ビニールハウスのような簡易なものとは区別され、建物として登記できる対象になります。
+### 2：寺院の山門でも、上部が宝物庫として使われていれば建物と認定できる
 
-### エ：駅ホーム内の売店は、単独の外気分断性がなく建物と認定できない
+山門は本来、寺院の入口に建てられる門ですが、上部が宝物庫として利用されている場合、その部分は屋根・周壁を備え、宝物を収蔵するという用途性を持ち、土地に定着した恒久的な建造物として建てられています。
 
-駅のホームの売店は「上屋を有する」と問題文にありますが、この上屋はホーム全体を覆うためのものであって、売店という工作物自体が独自に備えている屋根・周壁ではありません。外気分断性は、その工作物自体が独立して風雨をしのげる構造になっているかどうかで判断されるため、ホームの上屋に間借りしているだけの売店は、単独では外気分断性の要件を満たさないと評価されます。基礎工事によって定着性があり、販売行為という用途性があっても、外気分断性を欠く以上、建物として認定することはできません。
+3要件（定着性・外気分断性・用途性）をいずれも満たすため、単なる「門」ではなく建物として認定することができます。
 
-**たとえば**、駅のホームの屋根の下に、コンクリートの土台の上に置かれた小さな売店があるとします。屋根はホーム全体にかかっているものであって、売店そのものが独自の壁と屋根で囲まれているわけではありません。このように、全体を覆う大きな屋根の恩恵を受けているだけで、その工作物自身が独立して外気を遮断できていない場合には、表題登記の対象となる建物とは認定されません。
+**たとえば**、古い寺院の山門の2階部分が、実は仏具や古い経典を保管する蔵として使われている、というケースを考えてみてください。
 
-### オ：桟橋の上の事務所でも、基礎工事で定着していれば建物と認定できる
+1階部分は人が通り抜けるだけの門であっても、上部が収蔵目的でしっかりと囲われた空間になっていれば、その建造物全体を建物として登記できる場合があります。
 
-桟橋自体が永久的な建造物として土地（水底等）に固定されている上に、事務所がコンクリートで基礎工事を施して構築されているため、事務所は土地（桟橋を介して）にしっかりと定着していると評価できます。事務所であれば通常、屋根・周壁を備えて外気分断性があり、事務作業を行うという用途性も認められます。したがって、桟橋の上に建てられた事務所であっても、3要件を満たせば建物として認定することができます。
+### 3：ガラス張りの温室でも、強固な構造であれば建物と認定できる
 
-**たとえば**、港の埠頭にある恒久的な桟橋の上に、コンクリートの基礎を打って建てられた小さな事務所を思い浮かべてください。「桟橋の上だから水上の建物では」と不安になりそうですが、桟橋自体が永久的に固定された構造物であり、その上に事務所がしっかり基礎工事で固定されている以上、通常の建物と同様に登記の対象となり得ます。
+外気分断性というと「壁で完全に囲われている」イメージを持ちがちですが、要件が求めているのは屋根・周壁「又はこれらに類するもの」による独立した外気の遮断であり、素材がガラスであることは妨げになりません。
+
+鉄材の骨組みにガラス板がはめられた強固な建造物であれば、風雨をしのげる外気分断性を備えていると評価できます。土地に固定され（定着性）、温室として植物を育てる用途に使われている（用途性）以上、3要件を満たし建物として認定することができます。
+
+**たとえば**、鉄骨をがっちり組んで、その周りをガラス板で囲った大型の温室で、トマトやランを栽培している農園を思い浮かべてください。
+
+「ガラス張りだから壁とは言えないのでは」と思いがちですが、強固な構造で外気をしっかり遮断できていれば、ビニールハウスのような簡易なものとは区別され、建物として登記できる対象になります。
+
+### 4：駅ホーム内の売店は、単独の外気分断性がなく建物と認定できない
+
+駅のホームの売店は「上屋を有する」と問題文にありますが、この上屋はホーム全体を覆うためのものであって、売店という工作物自体が独自に備えている屋根・周壁ではありません。
+
+外気分断性は、その工作物自体が独立して風雨をしのげる構造になっているかどうかで判断されるため、ホームの上屋に間借りしているだけの売店は、単独では外気分断性の要件を満たさないと評価されます。
+
+基礎工事によって定着性があり、販売行為という用途性があっても、外気分断性を欠く以上、建物として認定することはできません。
+
+**たとえば**、駅のホームの屋根の下に、コンクリートの土台の上に置かれた小さな売店があるとします。屋根はホーム全体にかかっているものであって、売店そのものが独自の壁と屋根で囲まれているわけではありません。
+
+このように、全体を覆う大きな屋根の恩恵を受けているだけで、その工作物自身が独立して外気を遮断できていない場合には、表題登記の対象となる建物とは認定されません。
+
+### 5：桟橋の上の事務所でも、基礎工事で定着していれば建物と認定できる
+
+桟橋自体が永久的な建造物として土地（水底等）に固定されている上に、事務所がコンクリートで基礎工事を施して構築されているため、事務所は土地（桟橋を介して）にしっかりと定着していると評価できます。
+
+事務所であれば通常、屋根・周壁を備えて外気分断性があり、事務作業を行うという用途性も認められます。したがって、桟橋の上に建てられた事務所であっても、3要件を満たせば建物として認定することができます。
+
+**たとえば**、港の埠頭にある恒久的な桟橋の上に、コンクリートの基礎を打って建てられた小さな事務所を思い浮かべてください。
+
+「桟橋の上だから水上の建物では」と不安になりそうですが、桟橋自体が永久的に固定された構造物であり、その上に事務所がしっかり基礎工事で固定されている以上、通常の建物と同様に登記の対象となり得ます。
+
+---
 
 ### まとめ
 
-- **ア（できる）** 電車の車体でも基礎工事による定着性があれば建物
-- **イ（できる）** 山門の上部が宝物庫として用途性・外気分断性を備えれば建物
-- **ウ（できる）** ガラス張りでも強固な構造なら外気分断性を満たし建物
-- **エ（できない）** 売店単独の外気分断性がなく、ホームの上屋に依存するだけでは建物と認定できない
-- **オ（できる）** 永久的な桟橋の上に基礎工事で定着していれば建物
+- **1（できる）** 電車の車体でも基礎工事による定着性があれば建物
+- **2（できる）** 山門の上部が宝物庫として用途性・外気分断性を備えれば建物
+- **3（できる）** ガラス張りでも強固な構造なら外気分断性を満たし建物
+- **4（できない）** 売店単独の外気分断性がなく、ホームの上屋に依存するだけでは建物と認定できない
+- **5（できる）** 永久的な桟橋の上に基礎工事で定着していれば建物
 
 ア・イ・ウ・オはいずれも「一見建物らしくない」姿をしていても、定着性・外気分断性・用途性の3要件を満たすため建物と認定できます。これに対しエだけは、売店自体に独立した外気分断性がないため、建物と認定することができません。この問題は「建物として認定できないもの」を選ぶ設問なので、正解はエです。
 
-**正解：エ（選択肢4番）**
+**正解：4（選択肢4番）**
 
 ---
 
 **このまま使える点／使う前に確認したい点**
 
+- **問題文の差し替え（2026-10-02）**：問題文は、提供された原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）の表記に置き換えました。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、上記データベースの記述を主たる根拠としています。
 - 条文レベルで確認できたもの：建物認定の3要件（定着性・外気分断性・用途性）は不動産登記規則111条「建物は、屋根及び周壁又はこれらに類するものを有し、土地に定着した建造物であって、その目的とする用途に供し得る状態にあるものでなければならない。」という定義に基づくものであることを、今回`note-articles/laws/fudousan-touki-kisoku-1.md`の条文原文で直接確認しました。また、不動産登記事務取扱手続準則77条を同じくローカル法令データベース（`note-articles/laws/fudousan-touki-jimu-junsoku.md`）の条文原文で確認したところ、①建物として取り扱うものの例示として「停車場の乗降場又は荷物積卸場。ただし、上屋を有する部分に限る。」「野球場又は競馬場の観覧席。ただし、屋根を有する部分に限る。」「ガード下を利用して築造した店舗、倉庫等の建造物」「地下停車場、地下駐車場又は地下街の建造物」「園芸又は農耕用の温床施設。ただし、半永久的な建造物と認められるものに限る。」の5例が、②建物として取り扱わないものの例示として「ガスタンク、石油タンク又は給水タンク」「機械上に建設した建造物。ただし、地上に基脚を有し、又は支柱を施したものを除く。」「浮船を利用したもの。ただし、固定しているものを除く。」「アーケード付街路（公衆用道路上に屋根覆いを施した部分）」「容易に運搬することができる切符売場又は入場券売場等」の5例が、それぞれ挙げられていることを確認しました。
@@ -109,13 +138,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・地・気・着・強・固・途・断・根・庫 — these must be
+kanji 建・物・登・記・気・着・強・固・途・断・根・庫 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -123,7 +170,7 @@ Title (large, bold, 2行):
 表題登記ができる建物の3要件
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第14問－定着性・外気分断性・用途性で判断する
+平成17年度 第14問－定着性・外気分断性・用途性で判断する
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -192,18 +239,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -224,8 +271,8 @@ green checkmark or red ✕ mark for each requirement. Where a 肢 requires
 checking multiple conditions in sequence before reaching a conclusion,
 draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
-arrows, and a final conclusion node. Panels 1（肢ア）, 2（肢イ）, 3（肢
-ウ）, 4（肢オ）and 5（肢エ）all share the same underlying three-diamond
+arrows, and a final conclusion node. Panels 1（肢1）, 2（肢2）, 3（肢
+ウ）, 4（肢5）and 5（肢4）all share the same underlying three-diamond
 AND decision tree (first diamond: 土地への定着性はあるか → reached only
 on はい, second diamond: 独立した屋根・周壁による外気分断性はあるか →
 reached only on はい, third diamond: 居住・作業・貯蔵等の用途性はある
@@ -246,7 +293,7 @@ wall still counts if the structure is sturdy; Panel 4: 定着性, since the
 office is fixed to the land only indirectly, through the permanent
 pier), while still showing all three diamonds and leaving the other two
 in a normal (not faded) weight, since this 肢 truly does satisfy all
-three. Panel 5（肢エ）looks at first glance like it might be resolved by
+three. Panel 5（肢4）looks at first glance like it might be resolved by
 定着性 alone (the kiosk does have a concrete foundation), but the source
 article treats it as failing at the SECOND diamond (外気分断性): the
 kiosk itself has no independent roof or walls of its own, only borrowing
@@ -296,12 +343,12 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成17年度午後第14問 作図ガイド（建物認定の3要件）
+平成17年度第14問 作図ガイド（建物認定の3要件）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（肢1） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 電車の車体も基礎工事で定着性を満たす
@@ -316,8 +363,7 @@ distinctive point): 独立した屋根・周壁による外気分断性はある
 へ。Diamond 3 (normal weight): 居住・作業・貯蔵等の用途性はあるか？車
 内で人が暮らす居室のアイコンに緑のチェックマーク。「はい」矢印は結論
 ノード「建物と認定できる」へ。各ダイアモンドの「いいえ」矢印は、共通
-の結論ノード「建物と認定できない」（薄いグレーで縮小表示、今回は使わ
-ない結論）へ。
+の結論ノード「建物と認定できない」(drawn small and faded grey)へ。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、電車の車体が土地にコンクリートの基礎工事で定着しているかを確
 認します。次に、屋根・周壁による外気分断性、そして居室としての用途
@@ -326,7 +372,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 基礎工事で定着性あり
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（肢2） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 山門は宝物庫部分が用途性を満たす
@@ -350,7 +396,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 宝物庫で用途性あり
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（肢3） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 ガラス張り温室も外気分断性を満たす
@@ -373,7 +419,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 ガラスでも外気分断性あり
 
---- PANEL 4（肢オ） ---
+--- PANEL 4（肢5） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 桟橋上の事務所も桟橋経由で定着性あり
@@ -398,7 +444,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 桟橋ごと定着している
 
---- PANEL 5（肢エ） ---
+--- PANEL 5（肢4） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 売店は独自の屋根・周壁がなく認定できない

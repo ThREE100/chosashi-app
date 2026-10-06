@@ -2,25 +2,29 @@
 
 **出題年度：平成24年度　午後の部　第5問**
 
-> 地図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　地図には、縮尺係数が記録される。
->
-> イ　電磁的記録に記録する地図には、各筆界点の座標値が記録される。
->
-> ウ　市街地地域、村落・農耕地域及び山林・原野地域の地域区分により、地図の縮尺が定められている。
->
-> エ　地図に表示された土地の区画又は地番に誤りがあるときは、当該土地の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人は、その訂正の申出をすることができる。
->
-> オ　地図を作成するための一筆地測量及び地積測定における誤差の限度は、市街地地域については、国土調査法施行令別表第四に掲げる精度区分甲三までとされている。
->
+> 地図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　地図には、縮尺係数が記録される。  
+>　  
+> イ　電磁的記録に記録する地図には、各筆界点の座標値が記録される。  
+>　  
+> ウ　市街地地域、村落・農耕地域及び山林・原野地域の地域区分により、地図の縮尺が定められている。  
+>　  
+> エ　地図に表示された土地の区画又は地番に誤りがあるときは、当該土地の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人は、その訂正の申出をすることができる。  
+>　  
+> オ　地図を作成するための一筆地測量及び地積測定における誤差の限度は、市街地地域については、国土調査法施行令別表第四に掲げる精度区分甲三までとされている。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 不動産登記法14条に基づく地図は、いわゆる「14条地図」として、正確な筆界を復元できる基礎資料と位置付けられています。地図の記録事項、縮尺の定め方、精度区分、訂正の申出権者を、それぞれ正確に切り分けて覚える必要があります。
 
 ### ア：縮尺係数は、地図の記録事項ではない
 
-縮尺係数は、平面直角座標系を用いた測量で距離を補正するための係数であり、地図そのものの記録事項として法令上定められているものではありません。地図の記録事項は、不動産登記規則13条1項が①地番区域の名称、②地図の番号、③縮尺、④平面直角座標系の番号又は記号、⑤図郭線及びその座標値、⑥各土地の区画及び地番、⑦基本三角点等の位置、⑧精度区分、⑨隣接図郭との関係、⑩作成年月日の10項目に限定して列挙しており、縮尺係数はこれに含まれません。
+縮尺係数は、平面直角座標系を用いた測量で距離を補正するための係数であり、地図そのものの記録事項として法令上定められているものではありません。
+
+地図の記録事項は、不動産登記規則13条1項が①地番区域の名称、②地図の番号、③縮尺、④平面直角座標系の番号又は記号、⑤図郭線及びその座標値、⑥各土地の区画及び地番、⑦基本三角点等の位置、⑧精度区分、⑨隣接図郭との関係、⑩作成年月日の10項目に限定して列挙しており、縮尺係数はこれに含まれません。
 
 **たとえば**、測量士が現地測量の際に縮尺係数を使って距離を補正して座標計算を行うことはありますが、その「係数」自体が地図に記録項目として載るわけではありません。地図に記録されるのはあくまで筆界や座標値そのものです。
 
@@ -32,7 +36,9 @@
 
 ### ウ：地域区分に応じて、地図の縮尺が定められている
 
-地図の縮尺は、市街地地域、村落・農耕地域、山林・原野地域という地域区分に応じて定められています（不動産登記規則10条2項。市街地地域＝250分の1又は500分の1、村落・農耕地域＝500分の1又は1000分の1、山林・原野地域＝1000分の1又は2500分の1）。土地の利用状況や測量の必要精度に応じて、縮尺が使い分けられる仕組みです。
+地図の縮尺は、市街地地域、村落・農耕地域、山林・原野地域という地域区分に応じて定められています（不動産登記規則10条2項。市街地地域＝250分の1又は500分の1、村落・農耕地域＝500分の1又は1000分の1、山林・原野地域＝1000分の1又は2500分の1）。
+
+土地の利用状況や測量の必要精度に応じて、縮尺が使い分けられる仕組みです。
 
 **たとえば**、住宅が密集する市街地地域の地図は、細かい筆界を正確に表す必要があるため縮尺の分母が小さく（詳細に）設定される一方、広大な山林・原野地域の地図は、より大きな縮尺の分母（粗い表示）で作成されます。
 
@@ -44,9 +50,13 @@
 
 ### オ：市街地地域の誤差の限度は、甲三までではなく、甲二までが上限
 
-地図を作成するための一筆地測量・地積測定における誤差の限度は、国土調査法施行令別表第四に掲げる精度区分に基づいて定められていますが、市街地地域については、精度区分「甲三まで」ではなく、より精度の高い「甲二まで」が上限とされています（不動産登記規則10条4項1号。同項は村落・農耕地域を乙一まで、山林・原野地域を乙三までとしています）。土地の資産価値が高く、筆界の正確性がより強く求められる市街地地域ほど、高精度の測量が必要とされる仕組みになっています。
+地図を作成するための一筆地測量・地積測定における誤差の限度は、国土調査法施行令別表第四に掲げる精度区分に基づいて定められていますが、市街地地域については、精度区分「甲三まで」ではなく、より精度の高い「甲二まで」が上限とされています（不動産登記規則10条4項1号。同項は村落・農耕地域を乙一まで、山林・原野地域を乙三までとしています）。
+
+土地の資産価値が高く、筆界の正確性がより強く求められる市街地地域ほど、高精度の測量が必要とされる仕組みになっています。
 
 **たとえば**、住宅密集地で地積測量を行う場合、山林・原野地域よりもはるかに厳しい誤差の限度（高い精度区分）が要求されます。「市街地だから甲三まで許される」というのは誤りで、実際には甲二までという、より高い精度が求められます。
+
+---
 
 ### まとめ
 
@@ -109,13 +119,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 縮・尺・係・数・座・標・値・訂・正・精・度・街・相・続 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -179,18 +207,18 @@ Conclusion tag: 上限は甲二まで
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -257,7 +285,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 縮尺係数は地図の記録事項に含まれない
@@ -278,7 +306,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記録事項ではない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 電磁的記録の地図には座標値も記録
@@ -294,7 +322,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 座標値も記録される
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地域区分ごとに地図の縮尺が決まる
@@ -313,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地域で縮尺が違う
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 訂正申出は名義人とその相続人もできる
@@ -333,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 相続人も申出できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 市街地地域の上限は甲二まで

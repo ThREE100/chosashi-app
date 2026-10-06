@@ -2,61 +2,91 @@
 
 **出題年度：平成27年度　午後の部　第14問**
 
-> 建物の表題登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　土地の賃借人が，当該土地上に新築した建物の表題登記を申請するときは，添付情報として借地権を有することを証する情報を提供しなければならない。
->
-> イ　電子申請により建物の表題登記を申請する場合において，建物図面及び各階平面図が書面で作成されているときは，当該書面で作成された情報を電磁的記録に記録したものを添付情報とすることができる。
->
-> ウ　建物の表題登記を申請する場合において，表題部所有者となる者が所有権を有することを証する情報として，当該建物の工事を施工した会社が作成した工事完了引渡証明書に併せて当該会社の代表者の資格を証する書面が提供されたときは，当該資格を証する書面は作成後3月以内のものでなければならない。
->
-> エ　地方公共団体の所有する建物について，当該地方公共団体が建物の表題登記を嘱託する場合には，表題部所有者となる者が所有権を有することを証する情報の提供を省略することができる。
->
-> オ　区分建物ではない建物について，二人以上の者を表題部所有者とする建物の表題登記の申請は，そのうちの一人が単独ですることができる。
->
+> 建物の表題登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　土地の賃借人が，当該土地上に新築した建物の表題登記を申請するときは，添付情報として借地権を有することを証する情報を提供しなければならない。  
+>　  
+> イ　電子申請により建物の表題登記を申請する場合において，建物図面及び各階平面図が書面で作成されているときは，当該書面で作成された情報を電磁的記録に記録したものを添付情報とすることができる。  
+>　  
+> ウ　建物の表題登記を申請する場合において，表題部所有者となる者が所有権を有することを証する情報として，当該建物の工事を施工した会社が作成した工事完了引渡証明書に併せて当該会社の代表者の資格を証する書面が提供されたときは，当該資格を証する書面は作成後3月以内のものでなければならない。  
+>　  
+> エ　地方公共団体の所有する建物について，当該地方公共団体が建物の表題登記を嘱託する場合には，表題部所有者となる者が所有権を有することを証する情報の提供を省略することができる。  
+>　  
+> オ　区分建物ではない建物について，二人以上の者を表題部所有者とする建物の表題登記の申請は，そのうちの一人が単独ですることができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+
+---
 
 建物の表題登記は、新築した建物を初めて登記記録に載せる大事な手続です。添付情報の要否・電子申請の可否・嘱託申請の特例・共有者による単独申請の可否といった論点を、条文に沿って整理していきましょう。
 
 ### ア：借地権を有することを証する情報の提供は不要
 
-土地の賃借人が、その土地の上に新築した建物の表題登記を申請するときでも、借地権を有することを証する情報の提供は求められていません。表題登記で証明が必要なのは「建物の所有権を有すること」であって、土地を使う権原（借地権）の有無は別問題だからです。したがって「提供しなければならない」とする本肢は誤りです。
+土地の賃借人が、その土地の上に新築した建物の表題登記を申請するときでも、借地権を有することを証する情報の提供は求められていません。
+
+表題登記で証明が必要なのは「建物の所有権を有すること」であって、土地を使う権原（借地権）の有無は別問題だからです。したがって「提供しなければならない」とする本肢は誤りです。
 
 **たとえば**、他人から借りた土地の上に自分の家を新築した人が表題登記を申請するときも、「この土地を借りている証拠」を別に提出する必要はなく、建物の所有権を証明する書類（工事完了引渡証明書など）だけで足ります。
 
 ### イ：建物図面・各階平面図は、電子申請でも電磁的記録化した書面を添付情報にできない
 
-電子申請で、添付情報がもともと書面で作られている場合には、その書面をスキャナで読み取って電磁的記録に記録し、作成者が電子署名したものを送信して提供することができます（不動産登記令13条1項）。しかし、この方法が認められるのは一定の書類に限られ、申請人等が作成した書面や、土地所在図・地積測量図・地役権図面・建物図面・各階平面図については、この提供方法は認められていません（同項かっこ書）。したがって「電磁的記録に記録したものを添付情報とすることができる」とする本肢は誤りです。
+電子申請で、添付情報がもともと書面で作られている場合には、その書面をスキャナで読み取って電磁的記録に記録し、作成者が電子署名したものを送信して提供することができます（不動産登記令13条1項）。
+
+しかし、この方法が認められるのは一定の書類に限られ、申請人等が作成した書面や、土地所在図・地積測量図・地役権図面・建物図面・各階平面図については、この提供方法は認められていません（同項かっこ書）。
+
+したがって「電磁的記録に記録したものを添付情報とすることができる」とする本肢は誤りです。
 
 **たとえば**、紙で作成した建物図面や各階平面図を電子申請でそのままスキャンして送るという方法は認められておらず、電子申請にふさわしい形式であらためて作成し直す必要があります。
 
-**最初から電子データとして作成した図面は提供できるのか**：ここで禁止されているのは、あくまで「紙で作られた図面をスキャナで読み取って電磁的記録にする」という方法だけです（不動産登記令13条1項は、添付情報が「書面に記載されているとき」に電磁的記録化を認める規定であり、対象がもともと紙の書面であることが前提になっています）。これに対して、最初から電子データとして作成された建物図面・各階平面図は話がまったく別で、電子申請で送信する場合、これらの図面はもともと法務大臣が定める方式（測量座標データ等）に従って電子的に作成しなければならないとされています（不動産登記規則73条1項）。つまり、電子申請であらためて紙をスキャンし直す必要はなく、最初から電子申請専用の方式で作成した図面データをそのまま送信するのが、電子申請における正しい提供方法です。本肢が扱っているのは、あくまで「紙の図面をスキャンして流用できるか」という限定された論点であり、電子データそのものとして作成した図面が使えないという話ではない点に注意してください。
+**最初から電子データとして作成した図面は提供できるのか**：ここで禁止されているのは、あくまで「紙で作られた図面をスキャナで読み取って電磁的記録にする」という方法だけです（不動産登記令13条1項は、添付情報が「書面に記載されているとき」に電磁的記録化を認める規定であり、対象がもともと紙の書面であることが前提になっています）。
+
+これに対して、最初から電子データとして作成された建物図面・各階平面図は話がまったく別で、電子申請で送信する場合、これらの図面はもともと法務大臣が定める方式（測量座標データ等）に従って電子的に作成しなければならないとされています（不動産登記規則73条1項）。
+
+つまり、電子申請であらためて紙をスキャンし直す必要はなく、最初から電子申請専用の方式で作成した図面データをそのまま送信するのが、電子申請における正しい提供方法です。
+
+本肢が扱っているのは、あくまで「紙の図面をスキャンして流用できるか」という限定された論点であり、電子データそのものとして作成した図面が使えないという話ではない点に注意してください。
 
 ### ウ：工事完了引渡証明書に添える代表者資格証明書には、3か月の期間制限がない
 
-表題部所有者となる者の所有権を証する情報として、施工会社が作成した工事完了引渡証明書とあわせてその会社の代表者の資格を証する書面（登記事項証明書など）を提供する場合、この資格証明書には作成後の期間制限は定められていません。「作成後3月以内のものでなければならない」とする本肢は誤りです。
+表題部所有者となる者の所有権を証する情報として、施工会社が作成した工事完了引渡証明書とあわせてその会社の代表者の資格を証する書面（登記事項証明書など）を提供する場合、この資格証明書には作成後の期間制限は定められていません。
+
+「作成後3月以内のものでなければならない」とする本肢は誤りです。
 
 **たとえば**、ハウスメーカーが発行した工事完了引渡証明書に、その会社の代表者の資格を示す登記事項証明書を添えるとき、その証明書がたとえ半年前に取得したものであっても、期間切れとして扱われることはありません。
 
 ### エ：地方公共団体が嘱託するときは、所有権証明情報を省略できる
 
-地方公共団体が所有する建物について、その地方公共団体が表題登記を嘱託する場合には、公的機関による嘱託であることから、表題部所有者となる者が所有権を有することを証する情報の提供を省略することができます。嘱託は、登記所に対して登記を求めるという点で通常の申請とは異なる特則が設けられているためです。本肢は正しい記述です。
+地方公共団体が所有する建物について、その地方公共団体が表題登記を嘱託する場合には、公的機関による嘱託であることから、表題部所有者となる者が所有権を有することを証する情報の提供を省略することができます。
+
+嘱託は、登記所に対して登記を求めるという点で通常の申請とは異なる特則が設けられているためです。本肢は正しい記述です。
 
 **たとえば**、市が新しく建てた公民館の建物について、市自身が表題登記を嘱託するときは、通常の申請で必要な所有権証明書の提出を省略することができます。
 
 ### オ：区分建物でない建物の共有の表題登記は、共有者の一人から単独で申請できる
 
-区分建物ではない建物について、二人以上の者を表題部所有者とする表題登記の申請は、保存行為として、共有者のうちの一人から単独ですることができます（民法252条5項、不動産登記令3条1項9号参照）。持分は申請情報に記録する必要がありますが、申請自体は一人で足ります。本肢は正しい記述です。
+区分建物ではない建物について、二人以上の者を表題部所有者とする表題登記の申請は、保存行為として、共有者のうちの一人から単独ですることができます（民法252条5項、不動産登記令3条1項9号参照）。
+
+持分は申請情報に記録する必要がありますが、申請自体は一人で足ります。本肢は正しい記述です。
 
 **たとえば**、兄弟2人で共有名義にして新築した家の表題登記は、兄弟のどちらか一人だけで申請することができ、もう一人が申請の場に立ち会う必要はありません。
 
-**区分建物との違いを整理すると**：区分建物（マンションの1室など）についても、1つの専有部分を複数人が共有名義にしている場合は、本肢と同じ考え方で、保存行為として共有者の一人から単独で表題登記を申請できます（民法252条5項）。ここまでは共通のルールです。
+**区分建物との違いを整理すると**：区分建物（マンションの1室など）についても、1つの専有部分を複数人が共有名義にしている場合は、本肢と同じ考え方で、保存行為として共有者の一人から単独で表題登記を申請できます（民法252条5項）。
 
-区分建物で特に注意したいのは、共有とは別の場面です。一棟の建物の中に他の区分建物（他の専有部分）が存在するときは、話が変わります。新築マンションのように、一棟の中に複数の専有部分があり、それぞれ別々の所有者がいる場合には、ある専有部分だけを先に単独で表題登記することはできず、同じ一棟に属する他の専有部分についての表題登記と、まとめて一つの申請でしなければなりません（不動産登記法48条1項）。そして、この一括申請をするときは、専有部分の所有者のうちの一人が、他の専有部分の所有者に代わって、その分もまとめて申請することができます（同条2項）。
+ここまでは共通のルールです。
+
+区分建物で特に注意したいのは、共有とは別の場面です。一棟の建物の中に他の区分建物（他の専有部分）が存在するときは、話が変わります。
+
+新築マンションのように、一棟の中に複数の専有部分があり、それぞれ別々の所有者がいる場合には、ある専有部分だけを先に単独で表題登記することはできず、同じ一棟に属する他の専有部分についての表題登記と、まとめて一つの申請でしなければなりません（不動産登記法48条1項）。
+
+そして、この一括申請をするときは、専有部分の所有者のうちの一人が、他の専有部分の所有者に代わって、その分もまとめて申請することができます（同条2項）。
 
 この「代わって申請できる」という仕組みは、共有者どうしの関係ではなく、別々の専有部分をそれぞれ単独で所有する者どうしの関係で働く点に注意してください。本肢のような共有のケースと、区分建物の一括申請のケースは、似ているようで場面がまったく異なります。
 
-**たとえば**、兄弟2人で共有名義にして新築した一戸建ての表題登記は、区分建物でなければ兄弟のどちらか一人だけで申請できます。これに対して、新築マンションの1階と2階にそれぞれ専有部分を持つことになるＡさんとＢさんの場合は、Ａさんが自分の専有部分だけ先に表題登記を済ませることはできず、Ｂさんに代わってＢさんの専有部分の分もまとめて申請することができます。
+**たとえば**、兄弟2人で共有名義にして新築した一戸建ての表題登記は、区分建物でなければ兄弟のどちらか一人だけで申請できます。
+
+これに対して、新築マンションの1階と2階にそれぞれ専有部分を持つことになるＡさんとＢさんの場合は、Ａさんが自分の専有部分だけ先に表題登記を済ませることはできず、Ｂさんに代わってＢさんの専有部分の分もまとめて申請することができます。
+
+---
 
 ### まとめ
 
@@ -121,13 +151,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 借・地・権・証・明・不・要・建・図・面・各・階・平・磁・記・録・添・付・情・報・資・格・期・間・制・限・地・方・公・共・団・体・嘱・託・所・有・省・略・単・独・申・請
+kanji 借・地・権・証・明・不・要・建・図・面・各・階・平・磁・記・録・添・付・情・報・資・格・期・間・制・限・方・公・共・団・体・嘱・託・所・有・省・略・申・請
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -209,15 +257,15 @@ these 5 headings):
 5. 共有名義でも一人で申請できる
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -250,14 +298,31 @@ composition does not feel cramped in the tall portrait frame.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
-to the kanji 区・分・建・共・有・者・単・独・棟・専・有・部・申・請・登・記・
-括 — these have Simplified Chinese look-alike forms with visibly different
+to the kanji 区・分・建・共・有・者・単・独・棟・専・部・申・請・登・記 — these have Simplified Chinese look-alike forms with visibly different
 stroke shapes, or are easily confused in this context — always draw the
 standard Japanese (Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -303,18 +368,18 @@ Small credit text in the corner (optional, keep minimal):
 平成27年度 午後の部 第14問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 区・分・建・共・有・者・単・独・棟・専・有・部・申・請・登・記・括.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 区・分・建・共・有・者・単・独・棟・専・部・申・請・登・記. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm there are exactly 2
 panels, stacked vertically and separated by one horizontal divider
 labeled 「対して」 (not a time-flow arrow), with no duplicated or missing
 panels, and confirm every heading and caption text matches the Japanese
 text given above verbatim, with no paraphrasing and no substituted
-characters.
+characters. Confirm nothing is rendered below the last panel (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last panel). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「本当に必要な証明は何か」を見分ける5肢のため、ア・イは「証明が必要なもの／不要なもの」を上下2段で対比する対比枠型、ウは一般的な3か月ルールという思い込みと実際のルールを対比する正誤対比型、エ・オは申請の主体や記載の有無で結論が分かれる決定木型にした。エ・オは分岐の両側（通常申請と嘱託、区分建物か否か）がいずれも意味のある結論を持つため、両方の行き先を明記している。
 
@@ -397,7 +462,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -416,7 +481,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 借地権の証明は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -437,7 +502,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 紙のスキャンは不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -456,7 +521,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 期間制限なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -475,7 +540,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有権証明は省略可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

@@ -2,51 +2,71 @@
 
 **出題年度：令和3年度　午後の部　第6問**
 
-> 登記の申請の却下に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　一の申請情報によって二以上の登記の目的に係る登記の申請がされた場合において、当該登記の申請のうち一の登記の目的に係る申請についてのみ却下すべき事由があるときは、当該登記の申請の全部が却下される。
->
-> イ　地積に関する更正の登記の申請について、登記官による調査の結果、当該申請に係る土地の筆界を確認することができない場合には、当該登記の申請は却下される。
->
-> ウ　土地の分筆の登記の申請があった場合において、その添付情報として提供された地積測量図が、基本三角点等の成果を利用することができたにもかかわらず、これを利用することなく作成されたものであるときは、当該登記の申請は却下される。
->
-> エ　登記の申請に不備があっても、その内容が補正することができるものであり、登記官が定めた相当の期間内に申請人がこれを補正したときは、当該登記の申請は却下されない。
->
-> オ　電子申請の方法によってされた登記の申請を却下するときは、その決定書は電磁的記録をもって作成される。
->
+> 登記の申請の却下に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　一の申請情報によって二以上の登記の目的に係る登記の申請がされた場合において、当該登記の申請のうち一の登記の目的に係る申請についてのみ却下すべき事由があるときは、当該登記の申請の全部が却下される。  
+>　  
+> イ　地積に関する更正の登記の申請について、登記官による調査の結果、当該申請に係る土地の筆界を確認することができない場合には、当該登記の申請は却下される。  
+>　  
+> ウ　土地の分筆の登記の申請があった場合において、その添付情報として提供された地積測量図が、基本三角点等の成果を利用することができたにもかかわらず、これを利用することなく作成されたものであるときは、当該登記の申請は却下される。  
+>　  
+> エ　登記の申請に不備があっても、その内容が補正することができるものであり、登記官が定めた相当の期間内に申請人がこれを補正したときは、当該登記の申請は却下されない。  
+>　  
+> オ　電子申請の方法によってされた登記の申請を却下するときは、その決定書は電磁的記録をもって作成される。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-登記申請の「却下」は、登記官が申請を受け付けない場面のルールです。この問題では、どんな場合に却下されるのか、却下の範囲はどこまで及ぶのか、そして却下の手続（決定書の作り方など）が正確に押さえられているかが問われます。ひとつひとつは細かい知識ですが、「全部か一部か」「書面か電磁的記録か」といった対比で覚えると整理しやすい分野です。
+---
+
+登記申請の「却下」は、登記官が申請を受け付けない場面のルールです。この問題では、どんな場合に却下されるのか、却下の範囲はどこまで及ぶのか、そして却下の手続（決定書の作り方など）が正確に押さえられているかが問われます。
+
+ひとつひとつは細かい知識ですが、「全部か一部か」「書面か電磁的記録か」といった対比で覚えると整理しやすい分野です。
 
 ### ア：一部の目的だけに却下事由があるときは、その部分だけが却下される
 
-一つの申請情報で二以上の登記の目的をまとめて申請した場合に、そのうち一つの目的に係る申請だけに却下すべき事由があるときは、申請の全部が却下されるのではなく、却下事由のある部分（その一つの目的に係る申請）だけが却下されます（不動産登記事務取扱準則28条4項）。「一つでもダメなら全部アウト」ではない点がポイントで、「全部が却下される」とする肢アは誤りです。
+一つの申請情報で二以上の登記の目的をまとめて申請した場合に、そのうち一つの目的に係る申請だけに却下すべき事由があるときは、申請の全部が却下されるのではなく、却下事由のある部分（その一つの目的に係る申請）だけが却下されます（不動産登記事務取扱準則28条4項）。
 
-**たとえば**、一枚の申請書で「Aさんへの所有権移転」と「Bさんの抵当権設定」を同時に申請したところ、抵当権設定の部分にだけ書類の不備があったとします。このとき、問題のない所有権移転まで巻き添えで却下されるわけではなく、不備のある抵当権設定の申請部分だけが却下されます。
+「一つでもダメなら全部アウト」ではない点がポイントで、「全部が却下される」とするアは誤りです。
+
+**たとえば**、一枚の申請書で「Aさんへの所有権移転」と「Bさんの抵当権設定」を同時に申請したところ、抵当権設定の部分にだけ書類の不備があったとします。
+
+このとき、問題のない所有権移転まで巻き添えで却下されるわけではなく、不備のある抵当権設定の申請部分だけが却下されます。
 
 ### イ：筆界を確認できないときは、地積更正の申請は却下される
 
-地積に関する更正の登記の申請について、登記官が調査した結果、その土地の筆界（境界線）を確認することができない場合には、その申請は却下されます（不動産登記法25条11号）。正しい地積は筆界が確定して初めて算出できるものなので、筆界が確認できなければ更正のしようがなく、却下されることになります。肢イは正しい記述です。
+地積に関する更正の登記の申請について、登記官が調査した結果、その土地の筆界（境界線）を確認することができない場合には、その申請は却下されます（不動産登記法25条11号）。
+
+正しい地積は筆界が確定して初めて算出できるものなので、筆界が確認できなければ更正のしようがなく、却下されることになります。イは正しい記述です。
 
 **たとえば**、「うちの土地の面積が登記より広いはずだ」と地積更正を申請しても、隣地との境界がはっきりせず、登記官が調べても筆界を確認できなかった場合には、その申請は受け付けられず却下されてしまいます。
 
 ### ウ：基本三角点を使えるのに使わない地積測量図は却下される
 
-分筆の登記の申請で添付された地積測量図が、基本三角点等の成果を利用できたにもかかわらず、これを利用しないで作成されたものであるときは、その申請は却下されます。地積測量図には、基本三角点等に基づく測量の成果による筆界点の座標値や、その前提となる平面直角座標系の番号・記号を記録することが原則とされており（不動産登記規則77条1項7号・8号）、近傍に基本三角点等がない場合など特別の事情がある場合に限り、これに代えて近傍の恒久的な地物に基づく座標値の記録が認められています（同条2項）。利用できる基準点があるのに正当な理由なくこれを使わない図面は、この記録要件を満たさない不備があるものとして扱われます。肢ウは正しい記述です。
+分筆の登記の申請で添付された地積測量図が、基本三角点等の成果を利用できたにもかかわらず、これを利用しないで作成されたものであるときは、その申請は却下されます。
+
+地積測量図には、基本三角点等に基づく測量の成果による筆界点の座標値や、その前提となる平面直角座標系の番号・記号を記録することが原則とされており（不動産登記規則77条1項7号・8号）、近傍に基本三角点等がない場合など特別の事情がある場合に限り、これに代えて近傍の恒久的な地物に基づく座標値の記録が認められています（同条2項）。
+
+利用できる基準点があるのに正当な理由なくこれを使わない図面は、この記録要件を満たさない不備があるものとして扱われます。ウは正しい記述です。
 
 **たとえば**、近くに使える基準点（基本三角点等）がちゃんとあるのに、それを無視して自己流の基準で測った地積測量図を付けて分筆を申請しても、「利用できたのに利用していない」として、その申請は却下されてしまいます。
 
 ### エ：補正できる不備を期間内に直せば、却下されない
 
-登記の申請に不備があっても、それが補正することのできる不備であり、登記官が定めた相当の期間内に申請人がこれを補正したときは、その申請は却下されません（不動産登記法25条ただし書）。軽微で直せる不備まですぐに却下してしまうのは酷なので、直すチャンスが与えられているわけです。肢エは正しい記述です。
+登記の申請に不備があっても、それが補正することのできる不備であり、登記官が定めた相当の期間内に申請人がこれを補正したときは、その申請は却下されません（不動産登記法25条ただし書）。
+
+軽微で直せる不備まですぐに却下してしまうのは酷なので、直すチャンスが与えられているわけです。エは正しい記述です。
 
 **たとえば**、申請書に押す印鑑を押し忘れていた、といった直せる程度の不備であれば、登記官から「◯日までに直してください」と言われた期間内にきちんと補正すれば、その申請が却下されることはありません。
 
 ### オ：電子申請の却下決定書も、電磁的記録ではなく書面で作られる
 
-電子申請（オンライン申請）の方法によってされた登記の申請を却下するときでも、その却下決定書は電磁的記録で作成されるのではなく、書面をもって作成され、申請人ごとに交付または送付されます（不動産登記規則38条1項・2項）。却下は申請人に不利益を与える行政処分であり、行政処分は相手方に到達しなければ効力を生じないため、到達が確実な書面によることとされているのです。「電磁的記録をもって作成される」とする肢オは誤りです。
+電子申請（オンライン申請）の方法によってされた登記の申請を却下するときでも、その却下決定書は電磁的記録で作成されるのではなく、書面をもって作成され、申請人ごとに交付または送付されます（不動産登記規則38条1項・2項）。
+
+却下は申請人に不利益を与える行政処分であり、行政処分は相手方に到達しなければ効力を生じないため、到達が確実な書面によることとされているのです。「電磁的記録をもって作成される」とするオは誤りです。
 
 **たとえば**、オンラインで登記を申請して却下されたとしても、その結果が申請したパソコンの画面に電子データとして届いて終わり、というわけではなく、却下決定書という「紙の書面」が作られて申請人のもとに届く、というイメージです。
+
+---
 
 ### まとめ
 
@@ -67,7 +87,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和3年度　午後の部　第6問）と正解番号（2番＝ア・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 各肢の根拠のうち、条文・通知レベルまで検証済みデータベースに記載があったものは、ア（不動産登記事務取扱準則28条4項による一部却下）、ウ（不動産登記規則77条1項7号・8号、平成18年8月15日民二第1794号通知）、エ（不動産登記法25条ただし書）、オ（不動産登記規則38条1項・2項および行政処分の到達に関する原則）です。イ（筆界を確認できない場合の却下）は、当初データベース上では条文番号が明示されていませんでしたが、WebSearchで確認したところ、不動産登記法25条11号「表示に関する登記の申請に係る不動産の表示が第二十九条の規定による登記官の調査の結果と合致しないとき」が却下事由として該当することを確認し、本文に反映しました。
-- 肢オの条文番号（不動産登記規則38条1項・2項＝却下決定書の作成・交付・送付）についても、WebSearchで複数の情報源から内容が一致することを確認できました。データベースの別フィールド（pitfalls）に規則39条1項への言及もありましたが、結論（電磁的記録ではなく書面で作成される）はいずれも一致しています。
+- オの条文番号（不動産登記規則38条1項・2項＝却下決定書の作成・交付・送付）についても、WebSearchで複数の情報源から内容が一致することを確認できました。データベースの別フィールド（pitfalls）に規則39条1項への言及もありましたが、結論（電磁的記録ではなく書面で作成される）はいずれも一致しています。
 - ウの条文根拠は、note-articles/laws/配下の不動産登記規則（現行）を確認した結果、当初の引用番号（77条1項7号のみ）が実際の条文内容（7号＝平面直角座標系の番号又は記号、8号＝基本三角点等に基づく測量の成果による筆界点の座標値）とずれていたため、8号を追加し、77条2項（基本三角点等が利用できない場合の例外規定）にも触れる形に修正しました。イの確認事項欄の条文引用も、現行条文の文言（「符合しない」ではなく「合致しない」）に合わせて訂正しました。
 - アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記の検証済みデータベースの記載に基づいています。
 
@@ -110,13 +130,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-characters 却・下・申・請・登・記・地・番・建・物・所・権・録・筆・界・測・量・図・補・正・決 — these
+characters 却・下・申・請・登・記・地・建・物・所・権・筆・界・測・量・図・補・正・決 — these
 must be drawn in their standard Japanese (Jōyō) forms, not their
 Simplified Chinese equivalents.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -194,18 +232,18 @@ these 5 headings):
 5. 電子申請の却下決定書も書面で作成される
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア・ウ・エは複数の条件を順に確認しないと結論に至れないため決定木として描き、イは単一チェックで完結するため配置図（境界線を確認する場面）として描いた。オは「電子申請だから却下も電子データで届く」という思い込みを正しいルールと対比させる正誤対比型にした。バッジ色は②のインフォグラフィックと揃え、却下の範囲・方式に関するア・オを青、却下事由の有無を判断するイ・ウ・エを緑とした。
 
@@ -247,7 +285,15 @@ article's own body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -273,17 +319,15 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 目的ごとに却下事由の有無を分けて見る
 Diagram: 一枚の申請書アイコンに「所有権移転」タグと「抵当権設定」タグが
-並ぶ場面から開始する決定木。ひし形ノード1「一の申請情報に二以上の登記目的
-が含まれるか」→「いいえ」の矢印は左へ伸び、薄いグレーの参考結論ノード
-「通常どおり却下事由の有無だけを見る（本肢の対象外）」につながる。「はい」
-の矢印は下へ伸び、ひし形ノード2「却下事由があるのは全部の目的か一部の目的
-だけか」につながる。「全部」の矢印は薄いグレーの参考結論ノード「申請の全部
+並ぶ場面から開始する決定木。最上段は四角い開始ボックス「一の申請情報に二以上の登記目的が含まれる」
+（ひし形にしない）。その下にひし形ノード「却下事由があるのは全部の目的か一部の目的
+だけか」を置く。「全部」の矢印は薄いグレーの参考結論ノード「申請の全部
 を却下」につながる。「一部」の矢印（太い縁取り・強調色）は、強調された
 結論ノード「却下事由がある部分だけを却下（他の部分はそのまま登記される）」
 につながり、そのノードの脇に「抵当権設定」タグに赤い却下スタンプ、
@@ -296,7 +340,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一部だけ却下
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 筆界が確認できるかをまず見る
@@ -315,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 筆界不明は却下
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 基準点を使えたのに使ったかを見る
@@ -337,14 +381,13 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 使えるのに不使用は却下
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 補正可能かと期限内かを順に見る
 Diagram: 「不備あり」の付箋が貼られた申請書アイコンから始まる決定木。
-ひし形ノード1「申請に不備があるか」→「いいえ」の矢印は薄いグレーの
-参考結論ノード「そのまま受理」につながる。「はい」の矢印はひし形ノード2
-「その不備は補正することができるものか」につながる。「いいえ（補正不能
+最上段は四角い開始ボックス「申請に不備がある」（ひし形にしない）。
+その下にひし形ノード2「その不備は補正することができるものか」につながる。「いいえ（補正不能
 な不備）」の矢印は薄いグレーの参考結論ノード「却下」につながる。「はい」
 の矢印はひし形ノード3「登記官が定めた相当の期間内に申請人がこれを補正
 したか」につながる。「いいえ」の矢印は薄いグレーの参考結論ノード「却下」
@@ -360,7 +403,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 期間内補正で却下回避
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 電子申請でも却下決定書は書面で来る
@@ -388,11 +431,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 オ：不動産登記規則38条1項・2項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to the characters 却・下・申・請・登・記・地・積・筆・界・測・量・
 図・補・正・決・三・角・点・書・面・電・磁. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 is drawn as an
 actual flowchart with branch nodes (not a bare illustration with no

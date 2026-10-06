@@ -2,25 +2,29 @@
 
 **出題年度：平成22年度　午後の部　第20問**
 
-> 土地家屋調査士の登録に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　土地家屋調査士となる資格を有する者が、土地家屋調査士となるため日本土地家屋調査士会連合会に登録申請書を提出するときは、その事務所を設けようとする地を管轄する法務局又は地方法務局を経由してしなければならない。
->
-> イ　土地家屋調査士が死亡したときは、その相続人は、遅滞なく、その旨を日本土地家屋調査士会連合会に届け出なければならない。
->
-> ウ　土地家屋調査士が他の法務局又は地方法務局の管轄区域内に事務所を移転しようとするときは、現に所属している土地家屋調査士会を経由して、日本土地家屋調査士会連合会に、所属する土地家屋調査士会の変更の登録の申請をしなければならない。
->
-> エ　所属する土地家屋調査士会の変更の登録の申請をした土地家屋調査士は、その申請の日から3か月を経過しても当該申請に対して何らかの処分がされないときは、当該申請が認められたものとみなすことができる。
->
-> オ　日本土地家屋調査士会連合会により身体又は精神の衰弱により業務を行うことができないことを理由に土地家屋調査士の登録を取り消された者は、当該処分に不服があるときは、法務大臣に対して行政不服審査法による審査請求をすることができる。
->
+> 土地家屋調査士の登録に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　土地家屋調査士となる資格を有する者が、土地家屋調査士となるため日本土地家屋調査士会連合会に登録申請書を提出するときは、その事務所を設けようとする地を管轄する法務局又は地方法務局を経由してしなければならない。  
+>　  
+> イ　土地家屋調査士が死亡したときは、その相続人は、遅滞なく、その旨を日本土地家屋調査士会連合会に届け出なければならない。  
+>　  
+> ウ　土地家屋調査士が他の法務局又は地方法務局の管轄区域内に事務所を移転しようとするときは、現に所属している土地家屋調査士会を経由して、日本土地家屋調査士会連合会に、所属する土地家屋調査士会の変更の登録の申請をしなければならない。  
+>　  
+> エ　所属する土地家屋調査士会の変更の登録の申請をした土地家屋調査士は、その申請の日から3か月を経過しても当該申請に対して何らかの処分がされないときは、当該申請が認められたものとみなすことができる。  
+>　  
+> オ　日本土地家屋調査士会連合会により身体又は精神の衰弱により業務を行うことができないことを理由に土地家屋調査士の登録を取り消された者は、当該処分に不服があるときは、法務大臣に対して行政不服審査法による審査請求をすることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+---
 
 土地家屋調査士の登録手続の分野です。「登録の入口は調査士会を経由する」「会を移るときの経由先はどちらの会か」「連合会の処分に不服があるときの争い方」という3点が、正誤の分かれ目になります。
 
 ### ア：登録申請書は、法務局ではなく所属予定の調査士会を経由して提出する
 
-土地家屋調査士となる資格を有する者が登録を受けるには、事務所を設けようとする地を管轄する法務局又は地方法務局の管轄区域内に設立された土地家屋調査士会を経由して、日本土地家屋調査士会連合会に登録申請書を提出しなければなりません。法務局又は地方法務局を経由するのではありません。したがって、この記述は誤りです。
+土地家屋調査士となる資格を有する者が登録を受けるには、事務所を設けようとする地を管轄する法務局又は地方法務局の管轄区域内に設立された土地家屋調査士会を経由して、日本土地家屋調査士会連合会に登録申請書を提出しなければなりません。
+
+法務局又は地方法務局を経由するのではありません。したがって、この記述は誤りです。
 
 **たとえば**、東京で開業しようとする調査士資格者は、法務局の窓口に登録申請書を出すのではなく、東京の土地家屋調査士会を経由して、連合会に提出することになります。
 
@@ -32,7 +36,9 @@
 
 ### ウ：会の変更の登録は、「移転先の（新しい）」調査士会を経由して申請する
 
-土地家屋調査士が他の法務局又は地方法務局の管轄区域内に事務所を移転しようとするときの、所属する土地家屋調査士会の変更の登録の申請は、移転先の（新たに所属することとなる）土地家屋調査士会を経由してしなければなりません。「現に所属している（移転前の）」調査士会を経由するとする点が誤りです。
+土地家屋調査士が他の法務局又は地方法務局の管轄区域内に事務所を移転しようとするときの、所属する土地家屋調査士会の変更の登録の申請は、移転先の（新たに所属することとなる）土地家屋調査士会を経由してしなければなりません。
+
+「現に所属している（移転前の）」調査士会を経由するとする点が誤りです。
 
 **たとえば**、大阪から東京へ事務所を移す調査士は、これまでの大阪の調査士会ではなく、これから所属する東京の調査士会を経由して、会を変更する登録の申請をします。
 
@@ -44,9 +50,15 @@
 
 ### オ：衰弱を理由に登録を取り消されたら、法務大臣に審査請求できる
 
-日本土地家屋調査士会連合会により、身体又は精神の衰弱により業務を行うことができないことを理由に登録を取り消された者は、その処分に不服があるときは、法務大臣に対して、行政不服審査法による審査請求をすることができます。連合会の処分に対する不服申立ての道が用意されているのです。この記述は正しいものです。
+日本土地家屋調査士会連合会により、身体又は精神の衰弱により業務を行うことができないことを理由に登録を取り消された者は、その処分に不服があるときは、法務大臣に対して、行政不服審査法による審査請求をすることができます。
+
+連合会の処分に対する不服申立ての道が用意されているのです（土地家屋調査士法17条で準用する12条1項）。この記述は正しいものです。
+
+※出題当時（平成22年）の土地家屋調査士法16条1項2号は「身体又は精神の衰弱により業務を行うことができないとき」と定めていましたが、令和元年の改正で現在は「心身の故障により業務を行うことができないとき」という表現に改められています（結論自体は変わりません）。
 
 **たとえば**、体調を理由に登録を取り消された調査士が「その判断には納得できない」というときは、法務大臣に対して審査請求をして争うことができます。
+
+---
 
 ### まとめ
 
@@ -67,9 +79,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第20問）・正解番号（3番＝イオ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の判定（正しいのはイ・オ）は、公式の正解の組合せ「イオ」から確定できるものです。
-- 各肢の根拠は、`note-articles/laws/chousashi-hou.md`で条文原文を確認済みです。肢ア＝土地家屋調査士法9条（登録の申請。事務所を設けようとする地を管轄する調査士会を経由）、肢ウ＝同法13条（所属する調査士会の変更の登録。移転先の調査士会を経由）、肢イ＝同法15条2項（死亡等の届出。本人・法定代理人・相続人が遅滞なく届け出る）。肢オの「身体又は精神の衰弱」による登録取消しは同法16条1項2号（心身の故障により業務を行うことができないとき）に当たり、その審査請求権は同法17条が12条1項（法務大臣への審査請求）を準用する形で根拠づけられています。肢エの「3か月経過でみなし承認」については、12条2項が定めるみなし拒否・審査請求の制度は9条1項の登録申請（新規登録）に限られ、13条の変更登録には準用されていないため、そのような制度は存在しません。なお、登録申請書の経由先が法務局ではなく調査士会である点（肢ア）は、令和6年度午後の部 第20問でも同趣旨が問われている頻出論点です。
+- 各肢の根拠は、`note-articles/laws/chousashi-hou.md`で条文原文を確認済みです。ア＝土地家屋調査士法9条（登録の申請。事務所を設けようとする地を管轄する調査士会を経由）、ウ＝同法13条（所属する調査士会の変更の登録。移転先の調査士会を経由）、イ＝同法15条2項（死亡等の届出。本人・法定代理人・相続人が遅滞なく届け出る）。オの「身体又は精神の衰弱」による登録取消しは同法16条1項2号（心身の故障により業務を行うことができないとき）に当たり、その審査請求権は同法17条が12条1項（法務大臣への審査請求）を準用する形で根拠づけられています。エの「3か月経過でみなし承認」については、12条2項が定めるみなし拒否・審査請求の制度は9条1項の登録申請（新規登録）に限られ、13条の変更登録には準用されていないため、そのような制度は存在しません。なお、登録申請書の経由先が法務局ではなく調査士会である点（ア）は、令和6年度午後の部 第20問でも同趣旨が問われている頻出論点です。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（土地家屋調査士の登録）と同一の問題が再出題されていないかを確認しました。第20問は例年「土地家屋調査士又は土地家屋調査士法人」を主題とする固定枠で、令和3年度第20問・令和6年度第20問でも類似のテーマが扱われています（問題文＋肢全体の類似度0.36〜0.39程度）。肢単位では、本問の肢イ（調査士死亡時に相続人が連合会へ届け出る義務）と令和5年度第20問の肢アがほぼ同一の文言（類似度0.965）、本問の肢ア（登録申請書の提出先を「法務局又は地方法務局」とする誤りの肢）と令和6年度第20問の肢イも類似度0.90と非常に高い一致を示しています。ただし、これらはいずれも他の4肢の組合せ・正解が異なる別問題に組み込まれたものであり、**問題全体としての重複ではありません**。調査士の死亡届出義務・登録申請の経由先（調査士会であり法務局ではないこと）は、形を変えて繰り返し問われる頻出論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（土地家屋調査士の登録）と同一の問題が再出題されていないかを確認しました。第20問は例年「土地家屋調査士又は土地家屋調査士法人」を主題とする固定枠で、令和3年度第20問・令和6年度第20問でも類似のテーマが扱われています（問題文＋肢全体の類似度0.36〜0.39程度）。肢単位では、本問のイ（調査士死亡時に相続人が連合会へ届け出る義務）と令和5年度第20問のアがほぼ同一の文言（類似度0.965）、本問のア（登録申請書の提出先を「法務局又は地方法務局」とする誤りの肢）と令和6年度第20問のイも類似度0.90と非常に高い一致を示しています。ただし、これらはいずれも他の4肢の組合せ・正解が異なる別問題に組み込まれたものであり、**問題全体としての重複ではありません**。調査士の死亡届出義務・登録申請の経由先（調査士会であり法務局ではないこと）は、形を変えて繰り返し問われる頻出論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -108,12 +120,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the kanji 登・録・連・審・相・続 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -191,9 +221,9 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 Badge: a filled circle containing the number 5 (numbers run continuously).
 
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-衰弱による取消しには法務大臣に審査請求
+心身の故障による取消しは審査請求可
 
-Illustration: A 土地家屋調査士 character receiving a 「登録取消し」stamp (身体又は精神の衰弱を理由), then submitting a 「審査請求」document to a 法務大臣 character/building icon, checkmark.
+Illustration: A 土地家屋調査士 character receiving a 「登録取消し」stamp (心身の故障を理由), then submitting a 「審査請求」document to a 法務大臣 character/building icon, checkmark.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
@@ -202,25 +232,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・オはそれぞれ独立した経路・届出関係を示す系統図・関係図型、肢ウ・エは誤りやすい思い込みと正しいルールを対比する正誤対比型とする。5肢はいずれも独立した論点であり、決定木を共有する肢はない。
+ア・イ・オはそれぞれ独立した経路・届出関係を示す系統図・関係図型、ウ・エは誤りやすい思い込みと正しいルールを対比する正誤対比型とする。5肢はいずれも独立した論点であり、決定木を共有する肢はない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -293,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -310,7 +338,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 調査士会を経由する
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -327,7 +355,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 相続人が遅滞なく届出
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -349,7 +377,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 移転先の調査士会経由
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -369,18 +397,18 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 みなし承認の制度はない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
-衰弱による取消しには法務大臣に審査請求できる
+心身の故障による取消しは審査請求できる
 Diagram: A 土地家屋調査士 character receiving a「登録取消し」stamp labeled
-「身体又は精神の衰弱」from a 日本土地家屋調査士会連合会 building icon. An
+「心身の故障」from a 日本土地家屋調査士会連合会 building icon. An
 arrow labeled「不服があるとき」leads from that character to a document
 titled「行政不服審査法による審査請求」, which is then submitted to a 法務
 大臣 character・building icon, with a checkmark.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、登録を取り消された理由が身体又は精神の衰弱により業務を行うことができ
+まず、登録を取り消された理由が心身の故障により業務を行うことができ
 ないことであるかを確認します。その処分に不服があるときは、法務大臣に対して
 行政不服審査法による審査請求をすることができると判定します。
 Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
@@ -390,8 +418,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：土地家屋調査士法9条（ア）、同法15条2項（イ）、同法13条（ウ）、
-同法16条1項2号・17条（オ）。肢エは、みなし承認の制度が存在しないことに
-ついての根拠条文の記載を省略する。判例・先例番号は省略。
+同法16条1項2号・17条・12条1項（オ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

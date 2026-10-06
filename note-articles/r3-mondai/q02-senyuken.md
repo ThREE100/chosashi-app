@@ -2,51 +2,75 @@
 
 **出題年度：令和3年度　午後の部　第2問**
 
-> 占有権に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　他人のために占有をする者であっても、その占有を奪われたときは、占有回収の訴えを提起することができる。
->
-> イ　甲土地の占有者であるＡから占有の訴えを提起されたＢは、その訴えに対する防御方法として、甲土地の所有権が自らにあることを主張することができる。
->
-> ウ　占有者が占有物の所持を失った場合には、その占有者は、占有回収の訴えを提起して勝訴し、現実にその占有物の占有を回復したとしても、その占有物の所持を失っていた間の占有の継続を主張することはできない。
->
-> エ　甲土地を占有していたＡからその占有を承継したＢは、自己の占有にＡの占有を併せて主張することはできるが、自己の占有のみを主張することはできない。
->
-> オ　代理人が自己の占有物について以後本人のために占有する意思を表示したときは、本人は、これにより占有権を取得する。
->
+> 占有権に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　他人のために占有をする者であっても、その占有を奪われたときは、占有回収の訴えを提起することができる。  
+>　  
+> イ　甲土地の占有者であるＡから占有の訴えを提起されたＢは、その訴えに対する防御方法として、甲土地の所有権が自らにあることを主張することができる。  
+>　  
+> ウ　占有者が占有物の所持を失った場合には、その占有者は、占有回収の訴えを提起して勝訴し、現実にその占有物の占有を回復したとしても、その占有物の所持を失っていた間の占有の継続を主張することはできない。  
+>　  
+> エ　甲土地を占有していたＡからその占有を承継したＢは、自己の占有にＡの占有を併せて主張することはできるが、自己の占有のみを主張することはできない。  
+>　  
+> オ　代理人が自己の占有物について以後本人のために占有する意思を表示したときは、本人は、これにより占有権を取得する。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-占有権の分野は、「占有訴権（占有の訴え）」を軸に、誰が訴えを起こせるのか、占有の訴えに対して所有権などの本権をぶつけられるのか、占有をどう引き継ぐのか、そして現実に物を渡さない占有の移転（占有改定）まで、条文の細かいルールが問われます。ひとつひとつは短い条文ですが、ひっかけの角度が決まっているので、そこを押さえれば得点源にできます。
+---
+
+占有権の分野は、「占有訴権（占有の訴え）」を軸に、誰が訴えを起こせるのか、占有の訴えに対して所有権などの本権をぶつけられるのか、占有をどう引き継ぐのか、そして現実に物を渡さない占有の移転（占有改定）まで、条文の細かいルールが問われます。
+
+ひとつひとつは短い条文ですが、ひっかけの角度が決まっているので、そこを押さえれば得点源にできます。
 
 ### ア：他人のために占有する者でも、占有回収の訴えを起こせる
 
-占有者がその占有を奪われたときは、占有回収の訴えによって、その物の返還と損害の賠償を請求することができます（民法200条）。そして占有訴権は、自分のために占有している人だけでなく、他人のために占有をする者（占有代理人）も提起することができます（民法197条）。「他人のために」占有しているからといって、訴えを起こす資格が失われるわけではありません。
+占有者がその占有を奪われたときは、占有回収の訴えによって、その物の返還と損害の賠償を請求することができます（民法200条）。
+
+そして占有訴権は、自分のために占有している人だけでなく、他人のために占有をする者（占有代理人）も提起することができます（民法197条）。「他人のために」占有しているからといって、訴えを起こす資格が失われるわけではありません。
 
 **たとえば**、大家さんから預かった駐車場を管理している管理会社が、勝手に第三者に車を停められて占有を奪われてしまった場合、その管理会社は「自分の土地ではないから」と諦める必要はなく、占有回収の訴えを起こして明渡しを求めることができます。
 
 ### イ：占有の訴えに、所有権を防御方法としてぶつけることはできない
 
-占有の訴えと本権の訴え（所有権・地上権・質権など、占有を法律上正当化する権原に関する訴え）は、別々のものとして扱われます。そのため、占有の訴えに対して、「その物は本当は自分の物だ」という本権の理由に基づいて裁判をすることはできません（民法202条2項）。「所有権が自分にある」と防御方法として主張できるとする肢イは、この分離の原則に反しています。
+占有の訴えと本権の訴え（所有権・地上権・質権など、占有を法律上正当化する権原に関する訴え）は、別々のものとして扱われます。
 
-**たとえば**、Aさんに土地の占有を奪われたと訴えられたBさんが、「そもそもこの土地の登記名義は自分だ、所有者は自分だ」と反論しても、占有の訴えの中ではその所有権の主張は決め手になりません。所有権を争いたいなら、別に本権（所有権）の訴えを起こす必要があります。
+そのため、占有の訴えに対して、「その物は本当は自分の物だ」という本権の理由に基づいて裁判をすることはできません（民法202条2項）。「所有権が自分にある」と防御方法として主張できるとするイは、この分離の原則に反しています。
+
+**たとえば**、Aさんに土地の占有を奪われたと訴えられたBさんが、「そもそもこの土地の登記名義は自分だ、所有者は自分だ」と反論しても、占有の訴えの中ではその所有権の主張は決め手になりません。
+
+所有権を争いたいなら、別に本権（所有権）の訴えを起こす必要があります。
 
 ### ウ：勝訴して物を取り戻せば、失っていた間も占有は続いていたことになる
 
-占有権は、占有者が占有の意思を放棄したり、占有物の所持を失ったりすることで消滅するのが原則です。ただし、占有者が占有回収の訴えを提起したときは、この限りではありません（民法203条ただし書）。さらに判例は、占有者が占有回収の訴えで勝訴し、現実にその物の占有を回復したときは、所持を失っていた間も占有が継続していたものとみなされるとしています。したがって「占有の継続を主張することはできない」とする肢ウは誤りです。
+占有権は、占有者が占有の意思を放棄したり、占有物の所持を失ったりすることで消滅するのが原則です。ただし、占有者が占有回収の訴えを提起したときは、この限りではありません（民法203条ただし書）。
 
-**たとえば**、Bさんが泥棒に物を奪われても、すぐに占有回収の訴えを起こして勝訴し、実際に物を取り戻せば、奪われていた期間もずっと自分が占有し続けていた扱いになります。時効取得のための占有期間などを数えるときに、この「空白」が埋まるのは大きな意味を持ちます。
+さらに判例は、占有者が占有回収の訴えで勝訴し、現実にその物の占有を回復したときは、所持を失っていた間も占有が継続していたものとみなされるとしています。したがって「占有の継続を主張することはできない」とするウは誤りです。
+
+**たとえば**、Bさんが泥棒に物を奪われても、すぐに占有回収の訴えを起こして勝訴し、実際に物を取り戻せば、奪われていた期間もずっと自分が占有し続けていた扱いになります。
+
+時効取得のための占有期間などを数えるときに、この「空白」が埋まるのは大きな意味を持ちます。
 
 ### エ：占有を承継した人は、自分だけの占有を主張することもできる
 
-占有を承継した人（承継人）は、自分の占有だけを主張することもできますし、前の占有者（前主）の占有を併せて主張することもできます。どちらを選ぶかは、承継人が自由に選択できます（民法187条1項）。肢エは「自己の占有のみを主張することはできない」と、選択の自由を否定している点が誤りです。
+占有を承継した人（承継人）は、自分の占有だけを主張することもできますし、前の占有者（前主）の占有を併せて主張することもできます。
 
-**たとえば**、AさんからBさんが土地の占有を引き継いだ場合、Bさんは「Aさんの占有期間も合算して長い占有を主張する」こともできますし、逆に「Aさんの占有には瑕疵（悪意など）があったから、自分の占有期間だけを主張したい」と選ぶこともできます。有利な方を選べるのがポイントです。
+どちらを選ぶかは、承継人が自由に選択できます（民法187条1項）。エは「自己の占有のみを主張することはできない」と、選択の自由を否定している点が誤りです。
+
+**たとえば**、AさんからBさんが土地の占有を引き継いだ場合、Bさんは「Aさんの占有期間も合算して長い占有を主張する」こともできますし、逆に「Aさんの占有には瑕疵（悪意など）があったから、自分の占有期間だけを主張したい」と選ぶこともできます。
+
+有利な方を選べるのがポイントです。
 
 ### オ：代理人が「以後は本人のために」と表示すれば、本人が占有権を取得する
 
-占有権は、代理人によって取得することができます（民法181条）。そして、代理人が自己の占有物について、以後は本人のために占有する意思を表示したときは、本人は現実に物を受け取らなくても、これによって占有権を取得します。これがいわゆる占有改定（民法183条）で、物を実際に動かさずに占有だけを移す方法です。
+占有権は、代理人によって取得することができます（民法181条）。そして、代理人が自己の占有物について、以後は本人のために占有する意思を表示したときは、本人は現実に物を受け取らなくても、これによって占有権を取得します。
 
-**たとえば**、自分の机を友人に売った後も、「これからはあなた（買主）のために預かっておくね」と伝えて手元に置いたままにした場合、机は動いていなくても、買主はその瞬間に机の占有権を取得します。占有を目に見える形で渡さなくても占有が移る、という点がこの肢のキモです。
+これがいわゆる占有改定（民法183条）で、物を実際に動かさずに占有だけを移す方法です。
+
+**たとえば**、自分の机を友人に売った後も、「これからはあなた（買主）のために預かっておくね」と伝えて手元に置いたままにした場合、机は動いていなくても、買主はその瞬間に机の占有権を取得します。
+
+占有を目に見える形で渡さなくても占有が移る、という点がこの肢のキモです。
+
+---
 
 ### まとめ
 
@@ -108,13 +132,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・物・所・訴・承・継・改・提・起, which appear multiple times below and
+kanji 権・所・訴・承・継・改・提・起, which appear multiple times below and
 have Simplified Chinese look-alike forms — render them only in standard
 Japanese Jōyō form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -199,9 +241,8 @@ illustration, blue, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — especially 権・
-物・所・訴・承・継・改・提・起. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — especially 権・所・訴・承・継・改・提・起. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 number of cards equals 5 exactly (Column A: cards 1-3 in green, Column B:
 cards 4-5 in blue, numbers continuous, not restarted in column B), with no
 duplicated or missing cards, confirm there is no intro illustration or
@@ -214,10 +255,10 @@ this list verbatim with no omissions or substitutions:
 2. 占有の訴えに所有権は主張不可 ／ 本権の主張は不可
 3. 勝訴回復で空白期間も継続扱い ／ 占有の継続とみなす
 4. 承継人は自己の占有のみも主張可 ／ 選択は承継人の自由
-5. 占有改定で本人が占有権取得 ／ 占有改定で取得
+5. 占有改定で本人が占有権取得 ／ 占有改定で取得. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -242,7 +283,7 @@ diamond-shaped branch nodes with the condition written on them, Yes/No
 resolved by a single check, a labeled illustrative diagram is
 sufficient — do not force a flowchart. This article's five 肢 do not
 share a single common decision-tree shape, so design each panel's diagram
-independently around its own fact pattern; only Panel 3（肢ウ）needs an
+independently around its own fact pattern; only Panel 3（ウ）needs an
 actual multi-step flowchart, since it is the only 肢 that depends on more
 than one sequential condition. Unlike a glanceable summary poster, each
 panel MAY include a short「着眼点」callout box with 1-2 sentences that
@@ -254,7 +295,15 @@ written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -278,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 占有代理人も訴えを起こせる
@@ -296,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 占有代理人も提起可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 占有の訴えに所有権は使えない
@@ -312,17 +361,17 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 本権の主張は不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 勝訴回復で空白期間も継続扱い
 Diagram: A decision-tree flowchart along an isometric timeline ribbon.
 Start node:「占有者が占有物の所持を失った」leading down to a diamond node:
 「占有回収の訴えを提起して勝訴したか？」An いいえ branch leads to a small
-grayed-out conclusion box reading「占有は原則消滅（この肢の射程外）」. A
+grayed-out conclusion box reading「占有権は消滅する」. A
 はい branch proceeds to a second diamond node:「現実にその占有物の占有を
-回復したか？」An いいえ branch leads to a grayed-out box reading「結論は
-保留」; a はい branch leads to a conclusion node with a trophy/gavel icon
+回復したか？」An いいえ branch leads to a grayed-out box reading「継続
+扱いにはならない」; a はい branch leads to a conclusion node with a trophy/gavel icon
 and a green checkmark reading「所持を失っていた間も占有の継続とみなす」,
 shown reconnecting a dashed, faded gap segment of the timeline back into a
 solid unbroken line.
@@ -334,7 +383,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 空白期間も継続扱い
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 承継人は自己の占有だけでも主張可
@@ -352,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 選択は承継人の自由
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 占有改定は意思表示だけで足りる
@@ -377,12 +426,12 @@ Small footnote text (bottom of panel, small font, verbatim):
 基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権・物・所・訴・承・継・改・提・起. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that the multi-condition 肢（肢ウ）is drawn as
+the header and the panels, that the multi-condition 肢（ウ）is drawn as
 an actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure), that each 着眼点 callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below

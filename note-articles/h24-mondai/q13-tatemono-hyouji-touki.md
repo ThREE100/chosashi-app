@@ -2,39 +2,53 @@
 
 **出題年度：平成24年度　午後の部　第13問**
 
-> 建物の表示に関する登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　登記された建物の床面積に誤りがあることが明らかになった場合には、当該建物の所有権の登記名義人は、誤りがあったことを知った日から1か月以内に、当該建物の表題部の更正の登記を申請しなければならない。
->
-> イ　既に事務所としての表題登記がある建物の用途をAが改築工事により居宅に変更した後にBが当該建物の所有権をAから取得した場合には、Bは、当該改築工事が完了した日から1か月以内に、当該建物の表題部の変更の登記を申請しなければならない。
->
-> ウ　共用部分である旨の登記がある建物について共用部分である旨を定めた規約を廃止した場合には、当該建物の所有者は、当該規約の廃止の日から1か月以内に、当該建物の表題登記を申請しなければならない。
->
-> エ　表題登記がある建物の所在する行政区画の名称に変更があった場合には、当該建物の表題部所有者は、行政区画の名称に変更があった日から1か月以内に、当該建物の表題部の変更の登記を申請しなければならない。
->
-> オ　Aが表題部所有者である甲建物とBが所有者である表題登記がない乙建物が改築工事により1個の建物となった場合には、A又はBは、甲建物と乙建物が1個の建物となった日から1か月以内に、合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請しなければならない。
->
+> 建物の表示に関する登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　登記された建物の床面積に誤りがあることが明らかになった場合には、当該建物の所有権の登記名義人は、誤りがあったことを知った日から1か月以内に、当該建物の表題部の更正の登記を申請しなければならない。  
+>　  
+> イ　既に事務所としての表題登記がある建物の用途をAが改築工事により居宅に変更した後にBが当該建物の所有権をAから取得した場合には、Bは、当該改築工事が完了した日から1か月以内に、当該建物の表題部の変更の登記を申請しなければならない。  
+>　  
+> ウ　共用部分である旨の登記がある建物について共用部分である旨を定めた規約を廃止した場合には、当該建物の所有者は、当該規約の廃止の日から1か月以内に、当該建物の表題登記を申請しなければならない。  
+>　  
+> エ　表題登記がある建物の所在する行政区画の名称に変更があった場合には、当該建物の表題部所有者は、行政区画の名称に変更があった日から1か月以内に、当該建物の表題部の変更の登記を申請しなければならない。  
+>　  
+> オ　Aが表題部所有者である甲建物とBが所有者である表題登記がない乙建物が改築工事により1個の建物となった場合には、A又はBは、甲建物と乙建物が1個の建物となった日から1か月以内に、合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請しなければならない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 建物の表示に関する登記には「1か月以内に申請しなければならない」という申請義務が課される場面が多くありますが、更正の登記や行政区画名称の変更のように、義務が課されない（あるいは職権処理される）例外もあります。この線引きを正確に押さえる問題です。
 
 ### ア：床面積の誤りを正す更正登記には、申請義務の期限はない
 
-登記された建物の床面積に誤りがあることが明らかになった場合の是正は、「更正の登記」にあたります（不動産登記法53条）。表示に関する登記のうち、現況の変化を反映する「変更の登記」には1か月以内の申請義務が課されるものが多い（法51条1項）一方、当初から誤りがあった内容を正す「更正の登記」を定める53条には、そのような申請義務を課す文言がありません。
+登記された建物の床面積に誤りがあることが明らかになった場合の是正は、「更正の登記」にあたります（不動産登記法53条）。
 
-**たとえば**、登記された建物の床面積が、実際の面積と異なっていたことが後から判明したとします。この場合、所有権の登記名義人は表題部の更正登記を申請することができますが、「誤りに気づいてから1か月以内に申請しなければならない」という法律上の義務があるわけではありません。
+表示に関する登記のうち、現況の変化を反映する「変更の登記」には1か月以内の申請義務が課されるものが多い（法51条1項）一方、当初から誤りがあった内容を正す「更正の登記」を定める53条には、そのような申請義務を課す文言がありません。
+
+**たとえば**、登記された建物の床面積が、実際の面積と異なっていたことが後から判明したとします。
+
+この場合、所有権の登記名義人は表題部の更正登記を申請することができますが、「誤りに気づいてから1か月以内に申請しなければならない」という法律上の義務があるわけではありません。
 
 ### イ：所有権を取得した者の申請義務は、取得の日から起算される
 
-建物の用途変更の登記の申請義務は、変更が生じた時点の所有者に課されるのが原則ですが、不動産登記法51条2項は、変更後に所有権を取得した者について、その者に係る所有権の登記があった日から1か月以内に申請しなければならないと定めています。改築工事が完了した日を起算点として1か月以内に申請しなければならない、という記述は正確ではありません。
+建物の用途変更の登記の申請義務は、変更が生じた時点の所有者に課されるのが原則ですが、不動産登記法51条2項は、変更後に所有権を取得した者について、その者に係る所有権の登記があった日から1か月以内に申請しなければならないと定めています。
 
-**たとえば**、事務所として登記されていた建物をAさんが居宅に改築した後、Bさんがその建物の所有権を取得したとします。この場合、Bさんの申請義務の期限は「改築工事が完了した日」からではなく、「Bさんが所有権を取得した日」から1か月以内という扱いになります。
+改築工事が完了した日を起算点として1か月以内に申請しなければならない、という記述は正確ではありません。
+
+**たとえば**、事務所として登記されていた建物をAさんが居宅に改築した後、Bさんがその建物の所有権を取得したとします。
+
+この場合、Bさんの申請義務の期限は「改築工事が完了した日」からではなく、「Bさんが所有権を取得した日」から1か月以内という扱いになります。
 
 ### ウ：共用部分の規約廃止後の表題登記には、1か月以内の申請義務がある
 
-共用部分である旨の登記がある建物について、共用部分である旨を定めた規約を廃止した場合、その建物はあらためて通常の建物として扱われることになります。この場合、当該建物の所有者は、規約の廃止の日から1か月以内に、建物の表題登記を申請しなければなりません（不動産登記法58条6項）。
+共用部分である旨の登記がある建物について、共用部分である旨を定めた規約を廃止した場合、その建物はあらためて通常の建物として扱われることになります。
 
-**たとえば**、マンションの管理事務室が共用部分として登記されていたのを、区分所有者全員の合意で規約を廃止して通常の専有部分として扱うことにしたとします。この場合、所有者は規約を廃止した日から1か月以内に、その建物についての表題登記を申請しなければなりません。
+この場合、当該建物の所有者は、規約の廃止の日から1か月以内に、建物の表題登記を申請しなければなりません（不動産登記法58条6項）。
+
+**たとえば**、マンションの管理事務室が共用部分として登記されていたのを、区分所有者全員の合意で規約を廃止して通常の専有部分として扱うことにしたとします。
+
+この場合、所有者は規約を廃止した日から1か月以内に、その建物についての表題登記を申請しなければなりません。
 
 ### エ：行政区画の名称変更は、当事者の申請義務ではなく、変更があったものとみなされる扱いになる
 
@@ -46,7 +60,11 @@
 
 表題部所有者Aの甲建物と、表題登記のない所有者Bの乙建物が改築工事により1個の建物となった場合、A又はBは、両建物が1個の建物となった日から1か月以内に、合体後の建物についての表題登記、及び合体前の甲建物についての表題部の登記の抹消を申請しなければなりません（不動産登記法49条1項）。
 
-**たとえば**、隣接するAさんの事務所建物とBさんの倉庫が、増改築によって物理的に1つの建物になったとします。この場合、AさんまたはBさんは、1個の建物になった日から1か月以内に、新しくなった建物の表題登記と、もとの甲建物の表題部登記の抹消をあわせて申請しなければなりません。
+**たとえば**、隣接するAさんの事務所建物とBさんの倉庫が、増改築によって物理的に1つの建物になったとします。
+
+この場合、AさんまたはBさんは、1個の建物になった日から1か月以内に、新しくなった建物の表題登記と、もとの甲建物の表題部登記の抹消をあわせて申請しなければなりません。
+
+---
 
 ### まとめ
 
@@ -67,7 +85,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（5番＝ウ・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - `note-articles/laws/`のローカル法令データベース（不動産登記法・規則、e-Gov現行法2026-08-04取得）で全肢の条文原文を確認済みです。ア＝法53条（更正の登記。法51条1項のような申請義務の期限文言を含まない）、イ＝法51条2項（変更後の所有権取得者は取得日から起算）、ウ＝法58条6項（規約廃止後の表題登記は廃止日から1か月以内）、エ＝不登規則92条1項（行政区画・名称変更はみなし変更）、オ＝法49条1項（建物の合体は合体日から1か月以内）は、いずれも条文の文言そのままの内容です。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「建物の表示に関する登記」「共用部分」がテーマの問題を確認しました。**本問肢ウ（共用部分である旨の登記がある建物について規約を廃止した場合の表題登記の申請義務・期限）と同じ書き出しの肢が、令和7年度第10問、令和5年度第17問、令和4年度第13問、令和3年度第13問・第18問、平成30年度第16問、平成28年度第17問、平成27年度第17問など、極めて多くの年度で繰り返し出題されています。**「共用部分の規約廃止後の扱い」は調査士試験で最も頻出のパターンの一つであり、noteでの発信時は他の記事との重複感が出やすい点に注意してください（本問肢エ・第12問肢エとも関連する論点です）。それ以外の肢（ア・イ・エ・オ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「建物の表示に関する登記」「共用部分」がテーマの問題を確認しました。**本問ウ（共用部分である旨の登記がある建物について規約を廃止した場合の表題登記の申請義務・期限）と同じ書き出しの肢が、令和7年度第10問、令和5年度第17問、令和4年度第13問、令和3年度第13問・第18問、平成30年度第16問、平成28年度第17問、平成27年度第17問など、極めて多くの年度で繰り返し出題されています。**「共用部分の規約廃止後の扱い」は調査士試験で最も頻出のパターンの一つであり、noteでの発信時は他の記事との重複感が出やすい点に注意してください（本問エ・第12問エとも関連する論点です）。それ以外の肢（ア・イ・エ・オ）については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -108,13 +126,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 床・面・積・誤・更・正・改・築・共・用・規・約・廃・止・行・政・区・画・合・体
+kanji 床・面・積・誤・更・正・改・築・規・約・廃・止・行・合・体
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -175,18 +211,18 @@ Conclusion tag: 申請不要、みなし変更
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 建物の表示に関する登記の申請義務に関する5肢について、「申請義務があると思い込みやすいが実は義務がない、または扱いが異なる場面」（ア・エ）と、「申請義務はあるが、いつを起算点として1か月を数えるか」（イ・ウ・オ）という2つの視点で、それぞれ最適な図の型で示す作図ガイド。
 
@@ -203,14 +239,14 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a crossed-out mistaken-assumption icon paired
-with a checkmarked correct-rule icon for 肢ア and 肢エ (both test whether
+with a checkmarked correct-rule icon for ア and エ (both test whether
 a 1-month application duty actually exists), and a left-to-right timeline
-of dated events with a circled deadline marker for 肢イ・肢ウ・肢オ (each
+of dated events with a circled deadline marker for イ・ウ・オ (each
 tests when the 1-month clock starts, or what must be filed within it).
 None of the five 肢 requires checking more than one legal condition in
 sequence, so none is forced into a multi-diamond flowchart; each panel
 uses either a labeled mistaken-assumption-vs-correct-rule comparison or a
-labeled timeline instead. For 肢オ, do not compress the two required
+labeled timeline instead. For オ, do not compress the two required
 filings into one icon — draw both the 合体後の建物についての表題登記 AND
 the 合体前の甲建物についての表題部の登記の抹消 as two separate document
 icons, both checkmarked, since the source article requires both within
@@ -258,7 +294,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 床面積の更正登記に申請期限はない
@@ -277,7 +313,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請期限の定めなし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 起算点は所有権取得日で改築完了日でない
@@ -295,7 +331,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取得日から1か月以内
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 規約廃止日から1か月以内に表題登記が必要
@@ -311,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 廃止日から1か月以内
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 名称変更はみなし変更で申請不要
@@ -338,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 申請不要、みなし変更
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 合体日から1か月以内に2つの登記が必要
@@ -376,13 +412,13 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢ア and 肢エ are each drawn as a
+the header and the panels, that ア and エ are each drawn as a
 mistaken-assumption-vs-correct-rule comparison (not a bare flowchart),
-that 肢イ・肢ウ・肢オ are each drawn as a timeline with clearly labeled
-dated events rather than an undated illustration, that 肢オ shows BOTH
+that イ・ウ・オ are each drawn as a timeline with clearly labeled
+dated events rather than an undated illustration, that オ shows BOTH
 required filings as separate checkmarked icons rather than merging them
 into one, that each 着眼点 callout states a checking order rather than
-only a conclusion. Pay special attention to Panel 4 (肢エ): confirm the
+only a conclusion. Pay special attention to Panel 4 (エ): confirm the
 LEFT box (誤った思い込み) shows ONLY a green checkmark with no red ✕
 anywhere inside it, and the RIGHT box (正しいルール) shows ONLY a red ✕
 (on the crossed-out application-form icon) with no green checkmark

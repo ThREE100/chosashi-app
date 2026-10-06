@@ -2,18 +2,18 @@
 
 **出題年度：令和6年度　午後の部　第19問**
 
-> 筆界特定に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　表題登記がある甲土地の所有者は、甲土地及び甲土地と1点のみで接している乙土地を対象土地として筆界特定の申請をすることができない。
->
-> イ　表題登記がない甲土地の所有者が、甲土地とこれに隣接する表題登記がある乙土地との間の筆界について筆界特定の申請をする場合には、甲土地の所有者は、甲土地の所有権を有することを証する情報を提供しなければならない。
->
-> ウ　表題登記がある甲土地に隣接する表題登記のある乙土地の一部の所有権を時効取得した者は、当該乙土地の一部が甲土地と隣接していない場合には、甲土地を対象土地として筆界特定の申請をすることができない。
->
-> エ　表題登記がない水路とこれに隣接する表題登記がない道路を対象土地とする筆界特定の申請は、することができない。
->
-> オ　筆界特定の申請に係る筆界について民事訴訟の手続により筆界の確定を求める訴えに係る訴訟が係属している場合には、当該筆界について筆界特定の申請をすることができない。
->
+> 筆界特定に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　表題登記がある甲土地の所有者は、甲土地及び甲土地と1点のみで接している乙土地を対象土地として筆界特定の申請をすることができない。  
+>　  
+> イ　表題登記がない甲土地の所有者が、甲土地とこれに隣接する表題登記がある乙土地との間の筆界について筆界特定の申請をする場合には、甲土地の所有者は、甲土地の所有権を有することを証する情報を提供しなければならない。  
+>　  
+> ウ　表題登記がある甲土地に隣接する表題登記のある乙土地の一部の所有権を時効取得した者は、当該乙土地の一部が甲土地と隣接していない場合には、甲土地を対象土地として筆界特定の申請をすることができない。  
+>　  
+> エ　表題登記がない水路とこれに隣接する表題登記がない道路を対象土地とする筆界特定の申請は、することができない。  
+>　  
+> オ　筆界特定の申請に係る筆界について民事訴訟の手続により筆界の確定を求める訴えに係る訴訟が係属している場合には、当該筆界について筆界特定の申請をすることができない。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
 ---
@@ -22,7 +22,9 @@
 
 ### ア：1点のみで接する土地どうしは、筆界特定の対象にならない
 
-筆界とは、表題登記がある1筆の土地とこれに隣接する他の土地との間で、その土地が登記されたときに境を構成するものとされた2以上の点およびこれらを結ぶ直線をいいます。1点でしか接していない土地どうしには、共有する筆界線が存在しないため、これらを対象土地として筆界特定の申請をすることはできません。
+筆界とは、表題登記がある1筆の土地とこれに隣接する他の土地との間で、その土地が登記されたときに境を構成するものとされた2以上の点およびこれらを結ぶ直線をいいます。
+
+1点でしか接していない土地どうしには、共有する筆界線が存在しないため、これらを対象土地として筆界特定の申請をすることはできません。
 
 **たとえば**、甲土地と乙土地が、地図上でちょうど一点の角だけが触れ合うような配置になっている場合、その一点の接触をめぐって筆界特定の申請をすることはできません。
 
@@ -40,15 +42,21 @@
 
 ### エ：双方とも表題登記のない土地どうしは、筆界特定の対象にならない
 
-筆界は、表題登記がある1筆の土地を前提とする概念です。表題登記がない水路とこれに隣接する表題登記がない道路のように、双方に表題登記がない場合には、そもそも両者の間には筆界という概念が成立しないため、これらを対象土地とする筆界特定の申請をすることはできません。
+筆界は、表題登記がある1筆の土地を前提とする概念です。
+
+表題登記がない水路とこれに隣接する表題登記がない道路のように、双方に表題登記がない場合には、そもそも両者の間には筆界という概念が成立しないため、これらを対象土地とする筆界特定の申請をすることはできません。
 
 **たとえば**、どちらも登記されていない里道と水路が隣り合っている場所について、その境界を巡って筆界特定を申請することはできません。
 
 ### オ：筆界確定訴訟が係属中でも、筆界特定の申請はできる
 
-筆界特定の申請に係る筆界について民事訴訟の手続により筆界の確定を求める訴え（筆界確定訴訟）が係属している場合であっても、その旨および事件の表示その他これを特定するに足りる事項を提供することで、筆界特定の申請をすることができます。なお、筆界確定訴訟の判決が既に確定しているときは、筆界特定を申請する意味がないため却下されますが、係属中の段階では申請自体は可能です。
+筆界特定の申請に係る筆界について民事訴訟の手続により筆界の確定を求める訴え（筆界確定訴訟）が係属している場合であっても、その旨および事件の表示その他これを特定するに足りる事項を提供することで、筆界特定の申請をすることができます。
+
+なお、筆界確定訴訟の判決が既に確定しているときは、筆界特定を申請する意味がないため却下されますが、係属中の段階では申請自体は可能です。
 
 **たとえば**、隣人と裁判所で筆界確定訴訟を争っている最中のＤさんが、並行して法務局に筆界特定の申請をすることもできます。
+
+---
 
 ### まとめ
 
@@ -110,12 +118,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 筆・界・権・地・登・記・所 — render each in its standard Japanese
 (Jōyō) form, never as a Simplified Chinese variant.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -194,9 +220,9 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay particular
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Pay particular
 attention to 筆・界・権・地・登・記・所 — if any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 5 exactly, with badge numbers
 running 1-5 continuously across both columns without resetting (3 cards
 in column A: 対象土地の要件, 2 cards in column B: 申請手続きの要件), with
@@ -204,12 +230,12 @@ no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 筆界特定について、ア〜オの5肢それぞれで「問題文を読んだ瞬間に何を確認し、どの順番で図を描けば正誤にたどり着けるか」を示す作図ガイド。②の俯瞰カードポスターが5肢の結論を一覧することに主眼を置くのに対し、こちらは結論に至るまでの思考の手順そのものを可視化する目的で作成している。
 
@@ -254,7 +280,15 @@ condition each callout describes faithful to the article's own body text
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -280,7 +314,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -301,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 筆界にならない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 未登記の甲土地の所有者は所有権証明が必要
@@ -322,7 +356,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有権の証明必須
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 時効取得部分は筆界に接していなくても申請可
@@ -344,14 +378,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 双方未登記の土地は筆界という概念が成立しない
 Diagram: An isometric water channel(水路) and road(道路) side by side, each
-with a torn-paper label「表題登記なし」。Above them, a diamond node reads
-「水路・道路はいずれも表題登記のない土地か」with a Yes arrow leading down
-to a small card reading「筆界は表題登記がある土地を前提とする概念」。The
+with a torn-paper label「表題登記なし」。Above them, a plain label box (NOT a diamond) reads「水路・道路はいずれも
+表題登記のない土地」with an arrow leading down to a small card reading
+「筆界は表題登記がある土地を前提とする概念」。The
 shared boundary line between the two is drawn as a faded dashed line,
 crossed by a red X, labeled「筆界という概念が成立しない」。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -363,7 +397,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 対象外になる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 訴訟係属中でも情報を添えれば申請できる
@@ -393,9 +427,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 オ 不動産登記規則207条3項7号・不動産登記法132条1項6号
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 筆・界・権・地・登・記・所・訴・訟・時・効・取・得. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 筆・界・権・地・登・記・所・訴・訟・時・効・取・得. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every

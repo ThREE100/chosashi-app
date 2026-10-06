@@ -2,51 +2,77 @@
 
 **出題年度：平成30年度　午後の部　第3問**
 
-> Ａを被相続人とする代襲相続に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　Ａの死亡時に、その直系卑属がなく、かつ、Ａの父Ｂは既に死亡している場合には、Ｂの母Ｃは、Ｂを代襲してＡの相続人となる。
->
-> イ　Ａの子ＢがＡの死亡の後にＡの相続を放棄した場合には、Ｂの子Ｃは、Ｂを代襲してＡの相続人となる。
->
-> ウ　Ａが家庭裁判所に請求してその子Ｂについて推定相続人の廃除をした後に死亡した場合には、Ｂの廃除後からＡの死亡時までの間に出生したＢの子Ｃは、Ｂを代襲してＡの相続人となる。
->
-> エ　Ａの相続人となるべき者が兄Ｂのみである場合において、Ｂ及びＢの子ＣがＡの死亡時に既に死亡しているときは、Ｃの子Ｄは、Ｂ及びＣを代襲してＡの相続人となる。
->
-> オ　Ａの子Ｂが故意にＡを死亡するに至らせたために刑に処せられた場合には、Ｂの子Ｃは、Ｂを代襲してＡの相続人となる。
->
+> Ａを被相続人とする代襲相続に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　Ａの死亡時に、その直系卑属がなく、かつ、Ａの父Ｂは既に死亡している場合には、Ｂの母Ｃは、Ｂを代襲してＡの相続人となる。  
+>　  
+> イ　Ａの子ＢがＡの死亡の後にＡの相続を放棄した場合には、Ｂの子Ｃは、Ｂを代襲してＡの相続人となる。  
+>　  
+> ウ　Ａが家庭裁判所に請求してその子Ｂについて推定相続人の廃除をした後に死亡した場合には、Ｂの廃除後からＡの死亡時までの間に出生したＢの子Ｃは、Ｂを代襲してＡの相続人となる。  
+>　  
+> エ　Ａの相続人となるべき者が兄Ｂのみである場合において、Ｂ及びＢの子ＣがＡの死亡時に既に死亡しているときは、Ｃの子Ｄは、Ｂ及びＣを代襲してＡの相続人となる。  
+>　  
+> オ　Ａの子Ｂが故意にＡを死亡するに至らせたために刑に処せられた場合には、Ｂの子Ｃは、Ｂを代襲してＡの相続人となる。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-代襲相続は、「何が代襲原因になるのか（死亡・廃除・欠格の3つだけ）」「代襲できるのは被代襲者の直系卑属か（兄弟姉妹系では再代襲までできるか）」の2軸を押さえれば、ほとんどの肢を機械的に判定できる分野です。似た用語が並ぶ本問こそ、この2軸で丁寧に切り分けていきましょう。
+---
+
+代襲相続は、「何が代襲原因になるのか（死亡・廃除・欠格の3つだけ）」「代襲できるのは被代襲者の直系卑属か（兄弟姉妹系では再代襲までできるか）」の2軸を押さえれば、ほとんどの肢を機械的に判定できる分野です。
+
+似た用語が並ぶ本問こそ、この2軸で丁寧に切り分けていきましょう。
 
 ### ア：直系尊属は被代襲者とならない
 
-代襲相続とは、被相続人の死亡以前に、相続人となるべき子・兄弟姉妹が死亡し、または廃除・欠格によって相続権を失った場合に、その者の直系卑属（兄弟姉妹の場合はその者の子に限る）が、その者に代わって相続分を相続する制度です。被相続人の父母などの直系尊属は、そもそも被代襲者にはなりません。したがって、父Ｂを代襲してその母Ｃが相続人となることはなく、本肢は誤りです。
+代襲相続とは、被相続人の死亡以前に、相続人となるべき子・兄弟姉妹が死亡し、または廃除・欠格によって相続権を失った場合に、その者の直系卑属（兄弟姉妹の場合はその者の子に限る）が、その者に代わって相続分を相続する制度です。
 
-**たとえば**、Ａさんに子や孫がなく、父Ｂさんが既に亡くなっていたとします。この場合、Ｂさんのさらに上の親であるＣさん（Ａさんの祖母）が「Ｂさんの代わりに代襲する」ということはありません。祖父母は、自分自身が直系尊属としての相続権を持つかどうかで判断されるのであって、代襲という形では入ってこないのです。
+被相続人の父母などの直系尊属は、そもそも被代襲者にはなりません。したがって、父Ｂを代襲してその母Ｃが相続人となることはなく、本肢は誤りです。
+
+**たとえば**、Ａさんに子や孫がなく、父Ｂさんが既に亡くなっていたとします。この場合、Ｂさんのさらに上の親であるＣさん（Ａさんの祖母）が「Ｂさんの代わりに代襲する」ということはありません。
+
+祖父母は、自分自身が直系尊属としての相続権を持つかどうかで判断されるのであって、代襲という形では入ってこないのです。
 
 ### イ：相続放棄は代襲原因とならない
 
-代襲原因は、①相続開始以前の相続人の死亡、②相続欠格（民法891条）、③廃除（民法892条、893条）の3つに限られます。相続放棄をした者は、初めから相続人とならなかったものとみなされ（民法939条）、その効果は被代襲者としての地位も残さないため、代襲原因にはなりません。したがって、放棄した子Ｂの子Ｃが代襲することはなく、本肢は誤りです。
+代襲原因は、①相続開始以前の相続人の死亡、②相続欠格（民法891条）、③廃除（民法892条、893条）の3つに限られます。
 
-**たとえば**、お父さんＡさんが多額の借金を残して亡くなり、子のＢさんが相続放棄をしたとします。このとき、Ｂさんの子Ｃさん（Ａさんの孫）が「Ｂさんの代わりに」その借金を代襲相続してしまうことはありません。放棄は、その家系を丸ごと相続から外す効果を持つのです。
+相続放棄をした者は、初めから相続人とならなかったものとみなされ（民法939条）、その効果は被代襲者としての地位も残さないため、代襲原因にはなりません。したがって、放棄した子Ｂの子Ｃが代襲することはなく、本肢は誤りです。
+
+**たとえば**、お父さんＡさんが多額の借金を残して亡くなり、子のＢさんが相続放棄をしたとします。
+
+このとき、Ｂさんの子Ｃさん（Ａさんの孫）が「Ｂさんの代わりに」その借金を代襲相続してしまうことはありません。放棄は、その家系を丸ごと相続から外す効果を持つのです。
 
 ### ウ：廃除後に生まれた子も、廃除された者を代襲する
 
-廃除は代襲原因の一つです。子Ｂが廃除によって相続権を失った以上、Ｂの子Ｃは、Ｂを代襲してＡの相続人となります。廃除の後、Ａの死亡までの間に生まれた子であっても、Ａの死亡時に生存していれば代襲相続人となり、出生の時期は結論を左右しません。よって本肢は正しい記述です。
+廃除は代襲原因の一つです。子Ｂが廃除によって相続権を失った以上、Ｂの子Ｃは、Ｂを代襲してＡの相続人となります。
 
-**たとえば**、素行が原因で家庭裁判所によって廃除された息子Ｂさんがいたとします。その廃除の後にＢさんに子Ｃさんが生まれた場合でも、おじいさんＡさんが亡くなったときにＣさんが生きていれば、ＣさんはＢさんに代わってＡさんの代襲相続人になります。「廃除の前に生まれていたかどうか」は問われません。
+廃除の後、Ａの死亡までの間に生まれた子であっても、Ａの死亡時に生存していれば代襲相続人となり、出生の時期は結論を左右しません。よって本肢は正しい記述です。
+
+**たとえば**、素行が原因で家庭裁判所によって廃除された息子Ｂさんがいたとします。
+
+その廃除の後にＢさんに子Ｃさんが生まれた場合でも、おじいさんＡさんが亡くなったときにＣさんが生きていれば、ＣさんはＢさんに代わってＡさんの代襲相続人になります。「廃除の前に生まれていたかどうか」は問われません。
 
 ### エ：兄弟姉妹の系統では、再代襲（甥・姪の子）はできない
 
-兄弟姉妹が相続人となる場合の代襲は、その者の子（甥・姪）までに限られます。子や直系卑属の系統では孫・ひ孫へと再代襲していきますが（民法887条3項）、兄弟姉妹の代襲を定める民法889条2項は、この887条3項（再代襲）を準用していません。したがって、兄Ｂとその子Ｃがともに死亡していても、Ｃの子Ｄが再代襲することはできず、本肢は誤りです。
+兄弟姉妹が相続人となる場合の代襲は、その者の子（甥・姪）までに限られます。子や直系卑属の系統では孫・ひ孫へと再代襲していきますが（民法887条3項）、兄弟姉妹の代襲を定める民法889条2項は、この887条3項（再代襲）を準用していません。
 
-**たとえば**、Ａさんに子も親もなく、相続人が兄Ｂさんだけだったとします。Ｂさんもその子Ｃさん（Ａさんの甥）も先に亡くなっていた場合、Ｃさんの子Ｄさんが「甥の子」としてＡさんを相続することはできません。兄弟姉妹側の代襲は、甥・姪の1代でストップするのです。
+したがって、兄Ｂとその子Ｃがともに死亡していても、Ｃの子Ｄが再代襲することはできず、本肢は誤りです。
+
+**たとえば**、Ａさんに子も親もなく、相続人が兄Ｂさんだけだったとします。
+
+Ｂさんもその子Ｃさん（Ａさんの甥）も先に亡くなっていた場合、Ｃさんの子Ｄさんが「甥の子」としてＡさんを相続することはできません。兄弟姉妹側の代襲は、甥・姪の1代でストップするのです。
 
 ### オ：相続欠格は代襲原因であり、欠格者の子は代襲する
 
-故意に被相続人などを死亡させて刑に処せられた者は、相続欠格に該当します。相続欠格は代襲原因の一つですから、子Ｂが欠格によって相続権を失っても、Ｂの子Ｃは、Ｂを代襲してＡの相続人となります（民法887条2項、889条2項）。欠格の効果はＢ個人に及ぶだけで、その子Ｃの代襲までは奪わないため、本肢は正しい記述です。
+故意に被相続人などを死亡させて刑に処せられた者は、相続欠格に該当します。相続欠格は代襲原因の一つですから、子Ｂが欠格によって相続権を失っても、Ｂの子Ｃは、Ｂを代襲してＡの相続人となります（民法887条2項、889条2項）。
 
-**たとえば**、遺産目当てに親Ａさんを手にかけて刑に処せられた子Ｂさんがいたとします。Ｂさん自身は相続できませんが、Ｂさんの子Ｃさん（Ａさんの孫）は、Ｂさんに代わってＡさんの代襲相続人になります。親の犯した罪で、罪のない孫の相続権まで失わせるわけではないのです。
+欠格の効果はＢ個人に及ぶだけで、その子Ｃの代襲までは奪わないため、本肢は正しい記述です。
+
+**たとえば**、遺産目当てに親Ａさんを手にかけて刑に処せられた子Ｂさんがいたとします。
+
+Ｂさん自身は相続できませんが、Ｂさんの子Ｃさん（Ａさんの孫）は、Ｂさんに代わってＡさんの代襲相続人になります。親の犯した罪で、罪のない孫の相続権まで失わせるわけではないのです。
+
+---
 
 ### まとめ
 
@@ -109,15 +135,59 @@ anywhere on the poster. If a piece of information cannot be expressed as a
 short label (a few words) or drawn as an icon, leave it out rather than
 writing it as prose.
 
+FAMILY-TREE DRAWING RULES (critical — apply to every card): Draw each
+family tree as a strict grid. (1) Each person is ONE isometric person
+figure standing on ONE small square tile that carries the letter label
+(Ａ・Ｂ・Ｃ・Ｄ). The letter belongs only to the tile directly under that
+figure; never draw an extra unlabeled person. (2) Each row of the grid is
+one generation: the oldest generation is the TOP row and the youngest is
+the BOTTOM row. A child is always drawn exactly one row below its parent,
+in the SAME column as the parent, joined by a short SOLID VERTICAL line
+(parent-child line) — never diagonally, never beside or offset from the
+parent. (3) People of the SAME generation (siblings) share the same row,
+side by side with the same tile size, joined by a small ∩-shaped bracket
+line that rises to one shared-parent point above them; a sibling is never
+drawn on a lower row than the other sibling. (4) Succession arrow: a
+dotted arrow that always runs DOWNWARD along the parent-child line from
+the person who lost the right (Ｂ) to that person's own child (Ｃ), and
+never jumps to Ａ or to any other person. A successful succession shows a
+green ○ on the arrow, the label "代襲", and a small green tag "Ａの相続人"
+beside the child's tile; a blocked succession shows a red no-entry circle
+on the arrow and NO "Ａの相続人" tag. (5) Status marks are attached to
+the person tile they describe, not to the connecting lines: tombstone =
+died before Ａ, court gavel + "廃除" tag = disinherited, red no-entry
+circle + "欠格" = disqualified, torn-paper "放棄" tag = renounced. Ａ is
+always the 被相続人 and is drawn with a double-line tile border.
+(6) Keep every tile, tag and arrow inside its card with at least a small
+margin; no figure or label may overlap another figure.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 続・属・尊・廃・欠・格・襲・除・甥・相 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -137,11 +207,12 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 廃除後に生まれた子も代襲する
-Illustration: An isometric family tree with Ａ at top and Ｂ below,
-Ｂ stamped with a small court-gavel icon and the label "廃除". A dotted
-arrow runs from Ｂ down to Ｃ, born after the stamp, and continues up to
-Ａ with the label "代襲". A small calendar icon near Ｃ shows "廃除後に
-出生" to emphasize timing does not matter.
+Illustration: A three-row family tree in ONE column, top to bottom:
+Ａ (double-line tile) / Ｂ (court-gavel icon and "廃除" tag) / Ｃ, each
+joined to the next by a solid vertical line. A dotted arrow runs
+downward from Ｂ to Ｃ with a green ○ and the label "代襲", and a green
+tag "Ａの相続人" sits beside Ｃ. A small calendar icon next to Ｃ shows
+"廃除後に出生" to emphasize that timing does not matter.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 出生時期は不問
 
@@ -149,10 +220,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 欠格した親の子は代襲できる
-Illustration: An isometric family tree with Ａ at top and Ｂ below, Ｂ
-stamped with a red prohibition (no-entry) circle labeled "欠格", the
-prohibition mark stopping exactly at Ｂ and not extending to Ｃ. A
-dotted arrow runs from Ｃ up to Ａ labeled "代襲".
+Illustration: A three-row family tree in ONE column, top to bottom:
+Ａ (double-line tile) / Ｂ (red no-entry circle and "欠格" tag drawn on
+Ｂ's tile only) / Ｃ, joined by solid vertical lines. The red mark stays
+on Ｂ and does not touch the arrow. A dotted arrow runs downward from Ｂ
+to Ｃ with a green ○ and the label "代襲", and a green tag "Ａの相続人"
+sits beside Ｃ.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 子は代襲できる
 
@@ -160,10 +233,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続放棄は代襲原因にならない
-Illustration: An isometric family tree with Ａ at top and Ｂ below, Ｂ
-labeled with a torn-paper tag reading "放棄". A red prohibition
-(no-entry) circle blocks the dotted arrow between Ｂ and Ｃ, showing
-the line is cut and Ｃ does not reach Ａ.
+Illustration: A three-row family tree in ONE column, top to bottom:
+Ａ (double-line tile) / Ｂ (torn-paper tag "放棄") / Ｃ, joined by solid
+vertical lines. The dotted arrow from Ｂ down to Ｃ is blocked by a red
+no-entry circle placed on the arrow, and there is NO "Ａの相続人" tag
+beside Ｃ.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 放棄は代襲不可
 
@@ -174,10 +248,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 直系尊属は被代襲者にならない
-Illustration: An isometric family tree showing Ａ at top, Ａの父Ｂ
-(marked deceased with a tombstone icon) below Ａ, and Ｂの母Ｃ（Ａの
-祖母、"直系尊属"のラベル）further below. A red prohibition (no-entry)
-circle blocks the dotted arrow from Ｃ up to Ａ.
+Illustration: A three-row family tree in ONE column, oldest at the TOP
+(the reverse of cards 1-3): Ｂの母Ｃ（Ａの祖母、"直系尊属" label）in the
+top row / Ａの父Ｂ (tombstone icon, died before Ａ) in the middle row /
+Ａ (被相続人, double-line tile) in the bottom row, joined by solid
+vertical lines. A dotted arrow runs downward from Ｃ past Ｂ's tile to Ａ,
+blocked by a red no-entry circle placed on the arrow, and there is no
+"Ａの相続人" tag beside Ｃ.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 祖母は代襲しない
 
@@ -185,31 +262,37 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 兄弟姉妹の代襲は一代限り
-Illustration: An isometric family tree with Ａ at top, 兄Ｂ (labeled
-"兄弟姉妹") below Ａ, Ｂの子Ｃ（"甥"）below Ｂ, and Ｃの子Ｄ（"甥の子"）
-below Ｃ. A dotted arrow runs from Ｃ up to Ａ, but the arrow from Ｄ up
-to Ｃ is blocked by a red prohibition (no-entry) circle with a small
-"STOP" tag.
+Illustration: A four-row family tree in which Ａ and the elder brother
+Ｂ are SIBLINGS, never parent and child. Row 1: a small shared-parent
+point only (no person figure). Row 2: Ａ (double-line tile, left) and Ｂ
+(label "兄弟姉妹", tombstone icon, right) SIDE BY SIDE on the same row,
+joined by a ∩-shaped sibling bracket to the shared-parent point. Row 3:
+Ｃ (label "甥", tombstone icon) directly below Ｂ, NOT below Ａ. Row 4: Ｄ
+(label "甥の子") directly below Ｃ. Solid vertical lines join Ｂ-Ｃ and
+Ｃ-Ｄ. A dotted arrow runs downward from Ｂ to Ｃ with a green ○, the
+label "代襲" and a green tag "Ａの相続人" beside Ｃ; the dotted arrow from
+Ｃ down to Ｄ is blocked by a red no-entry circle with a small "STOP"
+tag, and there is no "Ａの相続人" tag beside Ｄ.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 再代襲は不可
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
-correct Japanese form. Confirm the number of cards equals 5 exactly, with
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Confirm that in every card each child sits exactly one row below its parent in the same column (card 5: Ａ and Ｂ side by side on the same row, Ｃ under Ｂ, Ｄ under Ｃ; card 4: Ｃ on top, Ａ at the bottom), that every dotted arrow runs from a parent to that parent's own child and never skips to Ａ, and that no figure overlaps another. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、代襲相続の問題文を読んだときに実際に手を動かして描くべき家系図（誰に死亡・廃除・欠格・放棄のタグを付けるか、矢印をどこで止めるか）を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに「着眼点」の短い説明文を添えている。こうした代襲相続の問題を解くとき、まず何を図に落とし込めば正誤判定にたどり着けるかの練習素材として使う。
 
@@ -234,20 +317,38 @@ sentences of guidance on what to check first. Do not include case or
 precedent numbers (article numbers are fine); keep the callout text as
 written below verbatim.
 
+FAMILY-TREE DRAWING RULES (critical): Each person is ONE isometric person
+figure on ONE small square tile carrying the letter label (Ａ・Ｂ・Ｃ・Ｄ);
+the letter belongs only to the tile directly under that figure, and no
+extra unlabeled person is drawn. Rows are generations (oldest on top,
+youngest at the bottom). A child is drawn exactly one row below its
+parent, in the SAME column, joined by a short SOLID VERTICAL parent-child
+line — never diagonally and never offset. Siblings share one row, side by
+side, joined by a ∩-shaped bracket to a shared-parent point. Ａ is the
+被相続人 and is drawn with a double-line tile border; a tombstone means
+died before Ａ. Status marks (tombstone, court gavel, no-entry circle,
+torn-paper tag) are attached to the person tile they describe, never to
+the connecting lines. The dotted succession arrow always runs downward
+along the parent-child line, from the person who lost the right to that
+person's own child; a green ○ marks success (with a small green tag
+"Ａの相続人" beside the child) and a red no-entry circle placed on the
+arrow marks a blocked succession (no tag). No tile, tag, arrow or label
+may overlap another figure.
+
 FAMILY-TREE LAYOUT REQUIREMENT (critical): Do NOT force every panel into
 a single uniform vertical chain. Vertical position must represent
 generation (older generation above, younger generation below); people of
-the SAME generation (siblings such as Ａ and his brother Ｂ in panel 4)
+the SAME generation (siblings such as Ａ and the elder brother Ｂ in panel 4)
 must be drawn SIDE BY SIDE at the same height, joined by a short
 horizontal "sibling" bracket line to a shared-parent point above them —
 never stacked as if one were the other's parent or child. The succession
 arrow must run along the actual parent-child link in the direction
 inheritance passes (from the person who lost the right, down to that
 person's own child), not uniformly "upward" or "toward Ａ" regardless of
-the real relationship. Panel 1 (肢ア) is an ascendant-line case, so its
+the real relationship. Panel 1 (ア) is an ascendant-line case, so its
 column is deliberately the reverse of panels 2-3-5 (the ancestor Ｃ sits
 at the TOP, and Ａ — the youngest person in that panel — sits at the
-BOTTOM); panel 4 (肢エ) is a sibling case and must branch instead of
+BOTTOM); panel 4 (エ) is a sibling case and must branch instead of
 stacking. Follow each panel's Diagram instructions below exactly for
 layout and arrow direction — do not default back to a single straight
 line.
@@ -255,7 +356,15 @@ line.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 続・属・尊・廃・欠・
 格・襲・棄・卑・除・甥・相・誤, which have visibly different Simplified Chinese forms —
@@ -281,7 +390,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -304,14 +413,15 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 祖先へは代襲なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 「放棄」タグは矢印をその場で断ち切る
 Diagram: 縦にＡ（被相続人、tombstone icon, "死亡"、一番上）— Ａの子Ｂ
 （生存、torn-paper tag "相続放棄"、真ん中）— Ｂの子Ｃ（一番下）の順に
 親子関係の家系図を描く。ＢからＣへ向かう下向きの点線矢印（Ｂの相続分が
-Ｃに代襲するかを示す矢印）に、赤い✕を重ねて断ち切る。
+Ｃに代襲するかを示す矢印）に、赤い禁止マークを重ねて断ち切り、Ｃには
+「Ａの相続人」タグを付けない。
 着眼点 callout (1-2 sentences, verbatim):
 死亡マーク（墓石）と、放棄・廃除・欠格の3つのタグを描き分けます。放棄の
 タグからその子へ引く矢印には必ず✕を重ね、廃除・欠格のタグとは違う扱い
@@ -319,15 +429,15 @@ Diagram: 縦にＡ（被相続人、tombstone icon, "死亡"、一番上）— �
 Conclusion tag (blue, 5-15 Japanese characters):
 放棄タグには✕
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 「廃除」タグの横に出生日も描く
 Diagram: 縦にＡ（被相続人、一番上）— Ａの子Ｂ（生存中に court-gavel
 icon, torn-paper tag "廃除"、真ん中）— Ｂの子Ｃ（a small calendar icon
 beside Ｃ labeled "廃除後に出生"、一番下）の順に親子関係の家系図を描く。
-ＢからＣへ向かう下向きの点線矢印に緑の○を重ね、切れ目なくつながって
-いることを示す。カレンダーアイコンの横に「出生時期は無関係」という短い
+ＢからＣへ向かう下向きの点線矢印に緑の○を重ね、Ｃの横に緑の小さな
+タグ「Ａの相続人」を添えて、切れ目なくつながっていることを示す。カレンダーアイコンの横に「出生時期は無関係」という短い
 ラベルを添える。
 着眼点 callout (1-2 sentences, verbatim):
 廃除・欠格のタグを描いたら、その子がいつ生まれたかを示す時計や
@@ -336,16 +446,17 @@ beside Ｃ labeled "廃除後に出生"、一番下）の順に親子関係の�
 Conclusion tag (blue, 5-15 Japanese characters):
 出生時期は無関係
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 兄弟は縦に重ねず、横に並べる
-Diagram: 最上段に、Ａ（被相続人、tombstone icon, "死亡"）と兄Ｂ
-（label "兄弟姉妹", tombstone icon, "死亡"）を左右に並べて同じ高さに
-描き、2人の少し上に小さな∩字型のブラケット線で結んで「共通の親」を
-示す点を描く（Ａ・Ｂを縦に積み重ねない）。Ｂの真下（Ａの真下ではない）
-に、Ｂの子Ｃ（甥、tombstone icon, "死亡"）を配置する。さらにＣの真下に、
-Ｃの子Ｄ（甥の子）を配置する。ＢからＣへ向かう下向きの点線矢印には緑の
+Diagram: 最上段（1行目）に、人物を置かず「共通の親」を示す小さな点だけを描く。
+2行目に、Ａ（被相続人、二重丸の台座、左）と兄Ｂ（label "兄弟姉妹",
+tombstone icon, 右）を同じ高さに左右に並べ、∩字型のブラケット線で
+「共通の親」の点に結ぶ（Ａ・Ｂを縦に積み重ねない）。3行目に、Ｂの真下
+（Ａの真下ではない）に同じ列で、Ｂの子Ｃ（甥、tombstone icon）を配置する。
+4行目に、Ｃの真下に同じ列で、Ｃの子Ｄ（甥の子）を配置する。Ｂ—Ｃ、
+Ｃ—Ｄは実線の縦線で結ぶ。ＢからＣへ向かう下向きの点線矢印には緑の
 ○を重ねる（1代目の代襲は成立）。ＣからＤへ向かう下向きの点線矢印には
 赤い✕と小さな「STOP」の標識アイコンを重ね、そこで図が止まっていること
 を強調する。
@@ -357,7 +468,7 @@ Diagram: 最上段に、Ａ（被相続人、tombstone icon, "死亡"）と兄�
 Conclusion tag (blue, 5-15 Japanese characters):
 甥の子には届かない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 「欠格」の赤丸は本人だけに描く
@@ -365,8 +476,8 @@ Diagram: 縦にＡ（被相続人、tombstone icon, "死亡"、一番上）— �
 （a red prohibition (no-entry) circle icon labeled "欠格"、真ん中）—
 Ｂの子Ｃ（一番下）の順に親子関係の家系図を描く。赤い禁止マークはＢの
 人物アイコンの上だけに重ね、ＢからＣへ向かう下向きの点線矢印そのもの
-には何も重ねず、矢印の先に緑の○を添えて切れ目なくつながっていること
-を示す。
+には何も重ねず、矢印の先に緑の○を添え、Ｃの横に緑の小さなタグ
+「Ａの相続人」を添えて、切れ目なくつながっていることを示す。
 着眼点 callout (1-2 sentences, verbatim):
 欠格・廃除の「不名誉なマーク」は、その本人（Ｂ）の人物アイコンにだけ
 描き、その子へ向かう矢印の線そのものには重ねません。マークが人物に
@@ -377,23 +488,22 @@ Conclusion tag (blue, 5-15 Japanese characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：イ（民法939条）、エ（民法889条2項が887条3項を準用しない
-こと）、オ（民法887条2項・889条2項）。ア・ウは代襲相続制度の一般原則
-によるもので、個別の条文番号までは本記事では確定していません。
+条文根拠：ア（民法887条2項・889条2項）、イ（民法939条）、ウ（民法887条2項・892条）、エ（民法889条2項が887条3項を準用しない
+こと）、オ（民法887条2項・891条）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay particular
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — pay particular
 attention to 続・属・尊・廃・欠・格・襲・棄・卑・除・甥・相・誤. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that panel 1 is drawn with the
 ancestor Ｃ on top and Ａ at the bottom (the reverse of panels 2/3/5),
-that panel 4 draws Ａ and Ｂ side by side as siblings rather than stacked
-as parent and child, that no panel uses a bare uniform "everything points
+that panel 4 draws Ａ and Ｂ side by side on the same row as siblings rather than stacked
+as parent and child (Ｃ under Ｂ, Ｄ under Ｃ, never under Ａ), that in every panel each child sits exactly one row below its parent in the same column and each dotted arrow runs from a parent to that parent's own child, that no panel uses a bare uniform "everything points
 upward" arrow that ignores the actual parent-child direction, that each
 panel's takeaway is legible as heading + diagram + a short 着眼点 callout
 + conclusion tag without turning into a wall of text, and confirm the
 entire canvas, edge to edge, is filled with a fully opaque background
-with no transparency or alpha channel anywhere.
+with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last panel (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last panel).
 ```

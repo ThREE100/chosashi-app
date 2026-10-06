@@ -2,31 +2,39 @@
 
 **出題年度：令和5年度　午後の部　第4問**
 
-> 不動産の表示に関する登記の申請があった場合の登記官による調査に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　建物の表題登記の申請がされた場合には、登記官は、当該建物の所有者に関する事項について調査することができる。
->
-> イ　不動産の表示に関する登記の申請が申請人となるべき者以外の者によってされていると疑うに足りる相当な理由がある場合において、当該申請を却下すべきときであっても、登記官は、当該申請の申請人に対し、その申請の権限の有無を調査しなければならない。
->
-> ウ　土地の表示に関する登記についての実地調査を行う場合には、登記官は、日出から日没までの間に限り、当該実地調査を行うことができる。
->
-> エ　不動産の表示に関する登記の申請があった場合には、登記官は、登記所の職員に当該不動産の実地調査を行わせることはできない。
->
-> オ　不動産の表示に関する登記についての実地調査を行う場合には、登記官は、当該不動産の所有者その他の関係者に対し、文書の提示を求めることができる。
->
+> 不動産の表示に関する登記の申請があった場合の登記官による調査に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　建物の表題登記の申請がされた場合には、登記官は、当該建物の所有者に関する事項について調査することができる。  
+>　  
+> イ　不動産の表示に関する登記の申請が申請人となるべき者以外の者によってされていると疑うに足りる相当な理由がある場合において、当該申請を却下すべきときであっても、登記官は、当該申請の申請人に対し、その申請の権限の有無を調査しなければならない。  
+>　  
+> ウ　土地の表示に関する登記についての実地調査を行う場合には、登記官は、日出から日没までの間に限り、当該実地調査を行うことができる。  
+>　  
+> エ　不動産の表示に関する登記の申請があった場合には、登記官は、登記所の職員に当該不動産の実地調査を行わせることはできない。  
+>　  
+> オ　不動産の表示に関する登記についての実地調査を行う場合には、登記官は、当該不動産の所有者その他の関係者に対し、文書の提示を求めることができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-表示に関する登記は、登記官が職権で調査できる場面が多いのが特徴です。この問題は「誤っているもの」を選ぶ形式なので、実地調査ができる時間帯や、本人確認調査の要否、調査を職員に代行させられるかといったルールを、条文レベルで正確に押さえられているかが問われます。
+---
+
+表示に関する登記は、登記官が職権で調査できる場面が多いのが特徴です。
+
+この問題は「誤っているもの」を選ぶ形式なので、実地調査ができる時間帯や、本人確認調査の要否、調査を職員に代行させられるかといったルールを、条文レベルで正確に押さえられているかが問われます。
 
 ### ア：登記官は、建物の所有者に関する事項も調査することができる
 
-実地調査は、申請があった場合や職権で登記をする際に、必要に応じて行われるもので、調査結果が申請情報と異なれば登記官は申請を却下することになります（不動産登記法25条11号）。建物の表題登記では、表題部所有者となる者が誰かも申請情報の内容になるため、登記官はその所有者に関する事項を調査することができます。
+実地調査は、申請があった場合や職権で登記をする際に、必要に応じて行われるもので、調査結果が申請情報と異なれば登記官は申請を却下することになります（不動産登記法25条11号）。
+
+建物の表題登記では、表題部所有者となる者が誰かも申請情報の内容になるため、登記官はその所有者に関する事項を調査することができます。
 
 **たとえば**、新築した家について「この建物はAさんのものです」という表題登記の申請があったとき、登記官は本当にAさんがその建物の所有者なのかを調べることができます。所有者が誰かは登記簿に載る大事な情報だからです。
 
 ### イ：申請を却下すべきときは、本人確認調査を行う必要はない
 
-登記官は、申請人となるべき者以外の者が申請していると疑うに足りる相当な理由があると認めるときは、申請人の申請権限の有無を調査しなければなりません（不動産登記法24条1項）。これを本人確認調査といいます。ただし、その申請をそもそも却下すべき場合には、本人確認調査を行う必要はありません。却下されて登記されないなら、あらためて権限を調べる意味がないからです。
+登記官は、申請人となるべき者以外の者が申請していると疑うに足りる相当な理由があると認めるときは、申請人の申請権限の有無を調査しなければなりません（不動産登記法24条1項）。
+
+これを本人確認調査といいます。ただし、その申請をそもそも却下すべき場合には、本人確認調査を行う必要はありません。却下されて登記されないなら、あらためて権限を調べる意味がないからです。
 
 **たとえば**、明らかに他人になりすまして出されたと疑われる表題登記の申請があっても、その申請に別の却下事由（形式的な不備など）があって、いずれにせよ却下することになる場合には、登記官はわざわざ本人確認調査までしなくてよいことになっています。
 
@@ -47,6 +55,8 @@
 実地調査では、登記官は不動産の所有者その他の関係者に対し、文書の提示を求めることができます（不動産登記法29条2項）。なお、これに対して虚偽の文書を提示した者は罰金刑に処せられます（同法162条2号）。調査の実効性を確保するための仕組みです。
 
 **たとえば**、登記官が土地の実地調査に来たとき、その土地の所有者に「この土地の権利関係が分かる書類を見せてください」と提示を求めることができます。ここで偽の書類を出せば処罰の対象になるため、関係者は正しい文書を示す必要があります。
+
+---
 
 ### まとめ
 
@@ -109,12 +119,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 登・記・所 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -165,7 +193,7 @@ arc icon in the sky above, with a crossed-out moon/night icon at both
 edges of the arc showing the official cannot be there before sunrise or
 after sunset.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-日出~日没のみ
+日出〜日没のみ
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
@@ -194,18 +222,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「調査してよい範囲はどこまでか」「調査を省略・代行してよい条件は何か」を、問題文を読んだ瞬間に切り分けられるようにする5パネル構成。イ（本人確認調査の要否）とエ（職員への代行）は、いずれも「まず要件Aを確認し、次に要件Bを確認する」という2段階の決定木として描き、要件を1つに圧縮しないことを徹底する。
 
@@ -214,7 +242,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(登記官はどこまで調べられる?), but built as a set of 5 diagram-drawing
+(登記官はどこまで調べられる？), but built as a set of 5 diagram-drawing
 panels (a "how to sketch this fact pattern, in the right order" study
 reference) rather than a quick-reference conclusion poster.
 
@@ -245,7 +273,15 @@ element (e.g. keep "必要があると認めること" and "職員に細部の�
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently throughout, including inside Japanese asides.
@@ -270,7 +306,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 所有者に関する事項も調査対象に含む
@@ -287,14 +323,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有者も調査対象
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 却下すべきときは本人確認調査を省略
 Diagram: A decision flowchart. Start node: 申請人以外の者が申請している
-と疑う相当な理由があるか?. A いいえ arrow leads to its own conclusion
+と疑う相当な理由があるか？. A いいえ arrow leads to its own conclusion
 node reading そもそも本人確認調査は不要. A はい arrow leads to a second
-diamond node: その申請には、いずれにせよ却下すべき事由があるか?. From
+diamond node: その申請には、いずれにせよ却下すべき事由があるか？. From
 this second diamond, a はい arrow leads to a conclusion node reading
 却下するため本人確認調査は不要, and a separate いいえ arrow leads to its
 own conclusion node reading 本人確認調査を行う. No arrow loops back to an
@@ -307,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 本人確認調査は不要
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 実地調査は日出から日没までの間
@@ -322,16 +358,16 @@ official cannot be there before sunrise or after sunset.
 外であれば、登記官は実地調査を行うことができません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-日出~日没のみ可
+日出〜日没のみ可
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 具体的指示があれば職員に代行可
 Diagram: A decision flowchart. Start node: 登記官が実地調査を行わせる
-必要があると認めているか?. A いいえ arrow leads to its own conclusion
+必要があると認めているか？. A いいえ arrow leads to its own conclusion
 node reading 登記官自身が実地調査を行う. A はい arrow leads to a second
-diamond node: 職員に細部の具体的な指示を与えているか?. From this second
+diamond node: 職員に細部の具体的な指示を与えているか？. From this second
 diamond, a はい arrow leads to a conclusion node showing a registry
 official handing a clipboard labeled 指示 to a junior staff figure
 labeled 登記所の職員 who walks toward a land plot, reading 職員が代行
@@ -347,7 +383,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 指示があれば代行可
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 関係者に文書提示を求められる
@@ -370,11 +406,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 手続準則64条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 調, 査, 却, 認, 職, 員, 示, 罰 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers run
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that every multi-condition 肢 (Panels
 2 and 4) is drawn as an actual flowchart with branch nodes each leading to

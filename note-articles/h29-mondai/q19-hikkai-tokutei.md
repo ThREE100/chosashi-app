@@ -2,31 +2,41 @@
 
 **出題年度：平成29年度　午後の部　第19問**
 
-> 筆界特定に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　筆界調査委員は，対象土地の筆界特定のために必要な事実の調査に当たっては，筆界特定が対象土地の所有権の境界の特定をも目的とするものであることに留意しなければならない。
->
-> イ　筆界調査委員は，あらかじめ，筆界特定の申請人及び関係人に対し，対象土地の測量又は実地調査を行う旨並びにその日時及び場所を通知して，これに立ち会う機会を与えた場合には，当該申請人及び関係人が立会いをしないときであっても，当該筆界調査委員は，当該対象土地の測量又は実地調査をすることができる。
->
-> ウ　筆界調査委員は，意見聴取等の期日に立ち会う場合には，筆界特定登記官の許可を得なくとも，筆界特定の申請人若しくは関係人又は参考人に対し質問を発することができる。
->
-> エ　筆界調査委員は，筆界特定のために，柵で囲まれた他人の占有する土地の実地調査をする場合において，当該土地の占有者の承諾があるときは，日出前であっても，当該土地に立ち入ることができる。
->
-> オ　筆界特定の関係人は，筆界が特定されるまでの間は，当該筆界特定の手続において作成された調書及び提出された資料を閲覧することはできない。
->
+> 筆界特定に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　筆界調査委員は，対象土地の筆界特定のために必要な事実の調査に当たっては，筆界特定が対象土地の所有権の境界の特定をも目的とするものであることに留意しなければならない。  
+>　  
+> イ　筆界調査委員は，あらかじめ，筆界特定の申請人及び関係人に対し，対象土地の測量又は実地調査を行う旨並びにその日時及び場所を通知して，これに立ち会う機会を与えた場合には，当該申請人及び関係人が立会いをしないときであっても，当該筆界調査委員は，当該対象土地の測量又は実地調査をすることができる。  
+>　  
+> ウ　筆界調査委員は，意見聴取等の期日に立ち会う場合には，筆界特定登記官の許可を得なくとも，筆界特定の申請人若しくは関係人又は参考人に対し質問を発することができる。  
+>　  
+> エ　筆界調査委員は，筆界特定のために，柵で囲まれた他人の占有する土地の実地調査をする場合において，当該土地の占有者の承諾があるときは，日出前であっても，当該土地に立ち入ることができる。  
+>　  
+> オ　筆界特定の関係人は，筆界が特定されるまでの間は，当該筆界特定の手続において作成された調書及び提出された資料を閲覧することはできない。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
 
-筆界特定制度は、裁判によらずに、公法上の境界（筆界）がどこにあるかを登記官が判断する手続です。この分野では、①筆界特定の目的が何か（所有権の境界の確定ではない点に注意）、②測量・実地調査の進め方、③筆界調査委員の質問権に登記官の許可が要るか、④土地への立入りのルール、⑤手続中の資料閲覧の可否を整理できているかが問われます。
+---
+
+筆界特定制度は、裁判によらずに、公法上の境界（筆界）がどこにあるかを登記官が判断する手続です。
+
+この分野では、①筆界特定の目的が何か（所有権の境界の確定ではない点に注意）、②測量・実地調査の進め方、③筆界調査委員の質問権に登記官の許可が要るか、④土地への立入りのルール、⑤手続中の資料閲覧の可否を整理できているかが問われます。
 
 ### ア：筆界特定は、所有権の境界の特定を目的とするものではない
 
-筆界調査委員が事実の調査をするにあたっては、筆界特定が対象土地の所有権の境界の特定を目的とするものでないことに留意しなければなりません（不動産登記法135条2項）。筆界特定はあくまで公法上の境界である「筆界」を特定する制度であり、私法上の所有権の範囲（所有権の境界）を確定するものではありません。「所有権の境界の特定をも目的とする」とする本肢は誤りです。
+筆界調査委員が事実の調査をするにあたっては、筆界特定が対象土地の所有権の境界の特定を目的とするものでないことに留意しなければなりません（不動産登記法135条2項）。
 
-**たとえば**、隣り合う土地の間で、公的な区画である筆界がどこかを筆界特定で決めてもらったとしても、それは「この土地は誰のものか」という所有権の範囲まで確定するものではありません。所有権をめぐる争いは、あくまで別の民事訴訟などで解決すべき問題なのです。
+筆界特定はあくまで公法上の境界である「筆界」を特定する制度であり、私法上の所有権の範囲（所有権の境界）を確定するものではありません。「所有権の境界の特定をも目的とする」とする本肢は誤りです。
+
+**たとえば**、隣り合う土地の間で、公的な区画である筆界がどこかを筆界特定で決めてもらったとしても、それは「この土地は誰のものか」という所有権の範囲まで確定するものではありません。
+
+所有権をめぐる争いは、あくまで別の民事訴訟などで解決すべき問題なのです。
 
 ### イ：立会いの機会を与えれば、立会いがなくても測量・実地調査ができる
 
-対象土地の測量または実地調査を行うときは、あらかじめその旨・日時・場所を筆界特定の申請人および関係人に通知して、立ち会う機会を与えなければなりません（不動産登記法136条1項）。もっとも、立ち会う機会さえ与えれば、実際に申請人や関係人が立ち会わなかったとしても、筆界調査委員は測量または実地調査を実施することができます。本肢は正しい記述です。
+対象土地の測量または実地調査を行うときは、あらかじめその旨・日時・場所を筆界特定の申請人および関係人に通知して、立ち会う機会を与えなければなりません（不動産登記法136条1項）。
+
+もっとも、立ち会う機会さえ与えれば、実際に申請人や関係人が立ち会わなかったとしても、筆界調査委員は測量または実地調査を実施することができます。本肢は正しい記述です。
 
 **たとえば**、筆界調査委員が「○月○日に測量に伺います」と申請人・関係人にあらかじめ通知していたのに、当日誰も立ち会わなかったとします。それでも通知して機会を与えている以上、筆界調査委員はその日に予定どおり測量や実地調査を進めることができます。
 
@@ -40,13 +50,19 @@
 
 他人の占有する土地への立入りは、原則として日出前・日没後にはすることができません。しかし、その土地の占有者の承諾があるときは、この限りではなく、日出前であっても立ち入ることができます（不動産登記法137条4項）。本肢は正しい記述です。
 
-**たとえば**、柵で囲まれた他人の土地を、筆界調査委員が実地調査のために訪れる場合、通常は夜明け前や日没後に立ち入ることはできません。しかし、その土地の占有者が「早朝からでも構いません」と承諾していれば、日出前であっても立ち入って調査することができます。
+**たとえば**、柵で囲まれた他人の土地を、筆界調査委員が実地調査のために訪れる場合、通常は夜明け前や日没後に立ち入ることはできません。
+
+しかし、その土地の占有者が「早朝からでも構いません」と承諾していれば、日出前であっても立ち入って調査することができます。
 
 ### オ：関係人は、筆界が特定される前でも調書・資料を閲覧できる
 
-筆界特定の申請人および関係人は、筆界特定の申請があった旨の公告から、筆界特定をした旨の通知があるまでの間、筆界特定登記官に対し、その手続において作成された調書および提出された資料の閲覧を請求することができます（不動産登記法141条1項）。「筆界が特定されるまでの間は閲覧することはできない」とする本肢は誤りです。
+筆界特定の申請人および関係人は、筆界特定の申請があった旨の公告から、筆界特定をした旨の通知があるまでの間、筆界特定登記官に対し、その手続において作成された調書および提出された資料の閲覧を請求することができます（不動産登記法141条1項）。
+
+「筆界が特定されるまでの間は閲覧することはできない」とする本肢は誤りです。
 
 **たとえば**、筆界特定の手続がまだ進行中で、最終的な結論が出ていない段階でも、関係人は「今どんな資料や調書が集まっているのか見せてください」と閲覧を請求することができます。結果が出るのを待たなければ何も見られない、というわけではないのです。
+
+---
 
 ### まとめ
 
@@ -68,7 +84,7 @@
 - 出題番号・正解番号（3番＝イ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（法135条2項）、イ（法136条1項）、ウ（法140条3項）、エ（法137条4項）、オ（法141条1項）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです（本記事における「法」は不動産登記法を指します）。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**筆界特定は毎年のように出題されているテーマで、令和7年度第16問ウで肢オとほぼ同一の論点がほぼ同一の文言で再出題されている、強い重複が見つかりました**。具体的には、本問の肢オ「筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料を閲覧することはできない」（誤り＝実際は閲覧できる）に対し、令和7年度第16問ウは「筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料の閲覧を請求することができない」（同じく誤り）と、ほぼ一言一句同じ論点・同じ結論です。このほか、令和3年度第19問エ（対象土地の抵当権登記名義人による資料閲覧の可否）、令和5年度第18問ア（占有者不在時の実地調査の通知先）も、本問の肢オ・エと近い論点を扱っています。noteで令和7年度第16問の解説記事を作成する際は、本記事の肢オと内容がほぼ重複するため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**筆界特定は毎年のように出題されているテーマで、令和7年度第16問ウでオとほぼ同一の論点がほぼ同一の文言で再出題されている、強い重複が見つかりました**。具体的には、本問のオ「筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料を閲覧することはできない」（誤り＝実際は閲覧できる）に対し、令和7年度第16問ウは「筆界特定の関係人は、筆界が特定されるまでの間は、当該筆界特定の手続において作成された調書及び提出された資料の閲覧を請求することができない」（同じく誤り）と、ほぼ一言一句同じ論点・同じ結論です。このほか、令和3年度第19問エ（対象土地の抵当権登記名義人による資料閲覧の可否）、令和5年度第18問ア（占有者不在時の実地調査の通知先）も、本問のオ・エと近い論点を扱っています。noteで令和7年度第16問の解説記事を作成する際は、本記事のオと内容がほぼ重複するため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
 
 ---
 
@@ -110,12 +126,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 筆・界・権・測・量・査・許・覧・登・記 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -189,20 +223,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 筆界特定の5肢のうち、イ（通知・機会付与の有無→当日の立会いの有無）とエ（占有者の承諾の有無を境にした原則・例外）は二段階の条件確認を要するため決定木のフローチャートで描き、ア・ウは「正しいルール」と「よくある誤解」を対比する枠組みで、オは公告から通知までの手続の時系列を示すタイムラインで、それぞれ描くように設計した。
 
@@ -229,7 +263,7 @@ branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not force
 a flowchart. This article's five 肢 do not share a single common
-decision-tree shape (肢イ and 肢エ each have their own distinct two-step
+decision-tree shape (イ and エ each have their own distinct two-step
 structure), so design each panel's diagram independently around its own
 fact pattern. Unlike a glanceable summary poster, each panel MAY include a
 short「着眼点」callout box with 1-2 sentences that state the checking
@@ -243,7 +277,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -273,7 +311,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 目的は所有権ではなく筆界
@@ -291,19 +329,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権は対象外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 通知していれば欠席でも調査続行
-Diagram: A decision-tree flowchart. Start node:「あらかじめ日時・場所を
-通知し、立会いの機会を与えたか？」leading down to a diamond node. An
-いいえ branch is not shown further (this article's fact pattern assumes
-notice was given). A はい branch proceeds to a second diamond node:
-「当日、申請人・関係人は実際に立ち会ったか？」with two branches: はい
-leading to a conclusion node reading「測量・実地調査を実施できる」;
-いいえ leading to a separate conclusion node, also reading「測量・実地
-調査を実施できる」, showing that actual attendance does not change the
-outcome once notice was given.
+Diagram: A simple check flow (no diamonds). A rectangular box「あらかじめ日時・
+場所を通知し、立会いの機会を与えた」→ arrow to a conclusion node reading
+「測量・実地調査を実施できる」. Beside the arrow, add a faint dotted-outline
+tag (not a diamond) reading「当日、申請人・関係人が実際に立ち会ったか：
+問わない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、筆界調査委員が申請人・関係人に対し、あらかじめ日時・場所を通知して
 立ち会う機会を与えたかどうかを確認します。機会を与えていれば、次に、実際
@@ -313,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 機会を与えれば実施可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 質問には登記官の許可が必要
@@ -331,7 +365,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記官の許可が必須
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 承諾があれば日出前でも立入り可
@@ -350,7 +384,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾があれば立入り可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 関係人は特定前でも閲覧できる
@@ -378,7 +412,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
-Chinese variant, paying special attention to 筆・界・許・覧・登・記・占. If
+Chinese variant, paying special attention to 筆・界・許・覧・登・記・占. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
 any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also confirm that no
 character outside hiragana, katakana, Jōyō kanji, and the Arabic numerals
@@ -386,7 +420,7 @@ explicitly used above appears anywhere in the image — no Latin letters, no
 other non-Japanese scripts. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
-multi-condition 肢（肢イ・肢エ）is drawn as an actual flowchart with branch
+multi-condition 肢（イ・エ）is drawn as an actual flowchart with branch
 nodes (not a bare illustration with no visible decision structure), that
 no 肢 with a genuinely hidden second condition has been flattened into a
 single check, that each 着眼点 callout states a checking order rather than

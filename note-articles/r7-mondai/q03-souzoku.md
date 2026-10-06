@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第3問**
 
-> 相続の承認及び放棄に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　相続の放棄をしようとする者は、相続の承認又は放棄をすべき期間内に、その旨を法務局又は地方法務局に申述しなければならない。
->
-> イ　相続人は、相続の承認又は放棄をするまでの期間中、その固有財産におけるのと同一の注意をもって、相続財産を管理しなければならない。
->
-> ウ　限定承認者は、民法の規定に従って各相続債権者に弁済をした後でなければ、受遺者に弁済をすることができない。
->
-> エ　相続人が、自己のために相続が開始した事実を知りながら、相続財産の全部又は一部について保存行為をしたときは、単純承認をしたものとみなされる。
->
-> オ　共同相続人のうちの一人について相続の放棄又は承認をすべき期間が経過した場合であっても、他の相続人について相続の放棄又は承認をすべき期間が経過していないときは、当該共同相続人の全員が共同して限定承認をすることができる。
->
+> 相続の承認及び放棄に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　相続の放棄をしようとする者は、相続の承認又は放棄をすべき期間内に、その旨を法務局又は地方法務局に申述しなければならない。  
+>　  
+> イ　相続人は、相続の承認又は放棄をするまでの期間中、その固有財産におけるのと同一の注意をもって、相続財産を管理しなければならない。  
+>　  
+> ウ　限定承認者は、民法の規定に従って各相続債権者に弁済をした後でなければ、受遺者に弁済をすることができない。  
+>　  
+> エ　相続人が、自己のために相続が開始した事実を知りながら、相続財産の全部又は一部について保存行為をしたときは、単純承認をしたものとみなされる。  
+>　  
+> オ　共同相続人のうちの一人について相続の放棄又は承認をすべき期間が経過した場合であっても、他の相続人について相続の放棄又は承認をすべき期間が経過していないときは、当該共同相続人の全員が共同して限定承認をすることができる。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
 ---
@@ -42,7 +42,9 @@
 
 民法921条1号は「相続財産を処分したとき」は単純承認したものとみなす、としていますが、**ただし書きで保存行為は明確に除外**されています。保存行為（財産価値を維持するための行為）をしても、単純承認にはなりません。
 
-**たとえば**、相続するかどうかまだ決めていない実家について、雨漏りを応急処置したり、空き巣対策に鍵を交換したりする程度の行為（保存行為）をしても、それだけで「単純承認した」とはみなされません。家財を売り払う、預金を引き出して使ってしまうといった「処分行為」をすると単純承認とみなされます。
+**たとえば**、相続するかどうかまだ決めていない実家について、雨漏りを応急処置したり、空き巣対策に鍵を交換したりする程度の行為（保存行為）をしても、それだけで「単純承認した」とはみなされません。
+
+家財を売り払う、預金を引き出して使ってしまうといった「処分行為」をすると単純承認とみなされます。
 
 **ここが分かりにくいポイント**：
 
@@ -51,13 +53,17 @@
 - 原則（本文）：相続財産の全部又は一部を「**処分**」したとき → 単純承認とみなす
 - 例外（ただし書き）：その行為が「**保存行為**」（および602条以内の短期賃貸）であるとき → 単純承認と**みなさない**
 
-つまり、条文が単純承認の引き金として定めているのは「処分」であり、「保存行為」はむしろ、その引き金から明文で除外されている行為です。本肢は、この「原則（処分）」と「例外（保存行為）」を入れ替えて、本来は除外されているはずの保存行為があたかも単純承認の引き金であるかのように述べており、この点で誤りです。
+つまり、条文が単純承認の引き金として定めているのは「処分」であり、「保存行為」はむしろ、その引き金から明文で除外されている行為です。
+
+本肢は、この「原則（処分）」と「例外（保存行為）」を入れ替えて、本来は除外されているはずの保存行為があたかも単純承認の引き金であるかのように述べており、この点で誤りです。
 
 「相続財産に何らかの行為をしたかどうか」だけに注目せず、その行為が財産の価値を維持するもの（保存行為）か、財産を減らす・処分するもの（処分行為）かを見分けることが、この分野を得点源にするコツです。
 
 ### オ：期間切れの相続人がいても、全員での限定承認は可能
 
-限定承認は共同相続人**全員が共同**でなければできません（民法923条）。各相続人の熟慮期間（3か月）は、それぞれが相続開始を知った時から別々に進行するため、開始を知った時期がずれていると、誰かの期間が先に切れてしまうことがあります。しかし、通説・実務上、**他の相続人にまだ期間内の人がいる限り、期間が切れた相続人も含めて全員で限定承認をすることができる**と解されています。
+限定承認は共同相続人**全員が共同**でなければできません（民法923条）。各相続人の熟慮期間（3か月）は、それぞれが相続開始を知った時から別々に進行するため、開始を知った時期がずれていると、誰かの期間が先に切れてしまうことがあります。
+
+しかし、通説・実務上、**他の相続人にまだ期間内の人がいる限り、期間が切れた相続人も含めて全員で限定承認をすることができる**と解されています。
 
 **たとえば**、兄が先に親の死亡を知って3か月が過ぎてしまったが、遠方に住む弟が後から死亡を知ったため弟の3か月はまだ残っている、というケースでも、兄と弟が力を合わせて限定承認の申述をすることができます。
 
@@ -65,11 +71,19 @@
 
 「兄の熟慮期間（3か月）はもう過ぎている→民法921条2号により、期間内に限定承認・放棄をしなかった相続人は単純承認をしたものとみなされる→兄はもう単純承認したことになっているのだから、今さら限定承認に参加することはできないのでは」と考えてしまいがちです。
 
-しかし、限定承認は共同相続人**全員が共同して**でなければすることができません（民法923条）。各相続人の熟慮期間を杓子定規に個別に適用してしまうと、相続の開始を知った時期が相続人ごとにずれているだけで、「共同して」行うべき限定承認そのものが事実上不可能になってしまう場面が出てきます。
+しかし、限定承認は共同相続人**全員が共同して**でなければすることができません（民法923条）。
 
-この不都合を避けるため、通説・実務上、共同相続人のうち一人でも熟慮期間内の者がいる限り、期間が先に尽きてしまった相続人も含めて全員で限定承認をすることができる、と解されています。つまり、921条2号の「期間内にしなければ単純承認とみなす」というルールは、限定承認を共同で行う場面では、他の相続人にまだ期間内の者がいる限り、そのまま単純には適用されません。
+各相続人の熟慮期間を杓子定規に個別に適用してしまうと、相続の開始を知った時期が相続人ごとにずれているだけで、「共同して」行うべき限定承認そのものが事実上不可能になってしまう場面が出てきます。
 
-一方で、注意が必要な場面もあります。もし共同相続人の一人が、単なる期間徒過ではなく、財産の処分行為（921条1号、上記エ参照）のような法定単純承認の事由に該当する行為をしてしまっていた場合は話が別です。その相続人はそもそも限定承認をすることができない状態になっているため、他の相続人も含めて全員での限定承認ができなくなります。本肢はあくまで「期間が経過しただけ」の場面であり、処分行為等の事由がある場面とは区別してください。
+この不都合を避けるため、通説・実務上、共同相続人のうち一人でも熟慮期間内の者がいる限り、期間が先に尽きてしまった相続人も含めて全員で限定承認をすることができる、と解されています。
+
+つまり、921条2号の「期間内にしなければ単純承認とみなす」というルールは、限定承認を共同で行う場面では、他の相続人にまだ期間内の者がいる限り、そのまま単純には適用されません。
+
+一方で、注意が必要な場面もあります。もし共同相続人の一人が、単なる期間徒過ではなく、財産の処分行為（921条1号、上記エ参照）のような法定単純承認の事由に該当する行為をしてしまっていた場合は話が別です。
+
+その相続人はそもそも限定承認をすることができない状態になっているため、他の相続人も含めて全員での限定承認ができなくなります。本肢はあくまで「期間が経過しただけ」の場面であり、処分行為等の事由がある場面とは区別してください。
+
+---
 
 ### まとめ
 
@@ -130,12 +144,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 続・権・産・処・放・棄・認・庭・裁・債・遺・家・判・所・相・受 — these must be rendered
 in their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -211,20 +243,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 相続の承認・放棄の問題文を読んだときに、「誰に」「いつまでに」「何を」確認すべきかをたどれるようにする5パネル構成。オ（期間徒過があっても全員で限定承認できるか）は、共同相続人の期間状況を順に確認する決定木として描く。
 
@@ -233,7 +265,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-（相続の承認及び放棄 重要ポイント整理), but built as a set of 5
+（相続の承認及び放棄 重要ポイント整理）, but built as a set of 5
 diagram-drawing panels (a "how to sketch this fact pattern, in the right
 order" study reference) rather than a quick-reference conclusion poster.
 
@@ -259,7 +291,15 @@ callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -283,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申述先を家庭裁判所か法務局かで確認
@@ -298,7 +338,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 家庭裁判所へ申述
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 決定前の管理基準を確認する
@@ -313,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 固有財産と同一の注意
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 弁済の順序を1・2の番号で確認する
@@ -327,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 債権者が先、遺贈は後
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 処分行為か保存行為かを見分ける
@@ -343,15 +383,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為は対象外
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 期間徒過者がいても他の相続人を確認
 Diagram: A decision-tree flowchart on an isometric timeline with two
-tracks labeled 兄 and 弟. Start node: 共同相続人の一人（兄）の熟慮期間が
-経過したか？with a はい arrow down to a second diamond node（強調表示）:
-他の相続人（弟）はまだ期間内か？with a はい branch leading to a third
-diamond node: 期間徒過者（兄）に処分行為等の法定単純承認の事由がある
+tracks labeled 兄 and 弟. Start box (a plain rounded rectangle, NOT a diamond, because this 肢
+always starts from this fact): 共同相続人の一人（兄）の熟慮期間は経過した
+が、他の相続人（弟）はまだ期間内, with an arrow down to the only diamond
+node（強調表示）: 期間徒過者（兄）に処分行為等の法定単純承認の事由がある
 か？with the いいえ branch leading to a green checkmark conclusion node
 reading 全員で限定承認ができる, and the はい branch leading to a red cross
 conclusion node reading 全員での限定承認はできない。
@@ -369,14 +409,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法918条・921条1号・923条・931条・938条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 続, 権, 産, 処, 放, 棄, 認, 庭, 裁, 債, 遺, 家, 判, 所, 相, 受, 誤 and any character
-that has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that the multi-condition 肢
-（肢オ）is drawn as an actual flowchart with branch nodes (not a bare
+（オ）is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary
@@ -413,11 +453,29 @@ below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 処・分・保・存・単・純・承・認・除・外・相・続・誤 — always draw the standard Japanese
 (Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -473,15 +531,15 @@ width) ---
 根拠条文：民法921条1号
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
 処・分・保・存・単・純・承・認・除・外・相・続・誤. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the quoted article text box at the top matches the Japanese
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the quoted article text box at the top matches the Japanese
 text given above verbatim character-for-character, confirm there are
 exactly two side-by-side panels (red 処分行為 on the left, green 保存行為
 on the right), confirm the word-swap illustration clearly shows「保存」
 circled with an arrow to「処分」, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters.
+verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -511,11 +569,29 @@ as full sentences exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 限・定・承・認・熟・慮・期・間・共・同・徒・過・相・続・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -575,14 +651,14 @@ width) ---
 根拠条文：民法921条2号・923条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
 限・定・承・認・熟・慮・期・間・共・同・徒・過・相・続・誤. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the timeline diagram clearly shows 兄's period
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the timeline diagram clearly shows 兄's period
 ending before 弟's period, confirm the naive-reasoning box and the
 correct-reasoning box are visually distinct (red vs green) and connected
 by a labeled「しかし」arrow, confirm the quoted 923条 text matches the
 Japanese text given above verbatim character-for-character, and confirm
 the callout box text matches verbatim with no paraphrasing and no
-substituted characters.
+substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

@@ -2,51 +2,79 @@
 
 **出題年度：令和5年度　午後の部　第15問**
 
-> 建物の分割の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲建物の附属建物として登記されている2棟の建物について、1棟を主である建物とし、残りの1棟をその附属建物とする場合には、甲建物から当該2棟の建物を乙建物と丙建物にそれぞれ分割する建物の分割の登記がされた後に、丙建物を乙建物の附属建物とする建物の合併の登記を申請しなければならない。
->
-> イ　Ａが所有する甲建物の附属建物として登記されている建物について処分禁止の仮処分命令を得た債権者であるＢは、当該仮処分命令の正本を代位原因を証する情報として提供して、Ａに代位して、当該建物の分割の登記を申請することができる。
->
-> ウ　建物の分割の登記を申請する場合において提供する建物図面及び各階平面図には、分割後の各建物を表示し、これに符号を付さなければならない。
->
-> エ　甲建物に1から3までの符号が付された附属建物が3棟ある場合において、符号2の附属建物を分割したときは、符号3の附属建物の符号は、符号2に変更される。
->
-> オ　家屋番号5番である甲建物の附属建物を分割して乙建物とする場合には、甲建物の登記記録の附属建物の表示欄の原因及びその日付欄に、「5番の1、5番の2に分割」と記録される。
->
+> 建物の分割の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲建物の附属建物として登記されている2棟の建物について、1棟を主である建物とし、残りの1棟をその附属建物とする場合には、甲建物から当該2棟の建物を乙建物と丙建物にそれぞれ分割する建物の分割の登記がされた後に、丙建物を乙建物の附属建物とする建物の合併の登記を申請しなければならない。  
+>　  
+> イ　Ａが所有する甲建物の附属建物として登記されている建物について処分禁止の仮処分命令を得た債権者であるＢは、当該仮処分命令の正本を代位原因を証する情報として提供して、Ａに代位して、当該建物の分割の登記を申請することができる。  
+>　  
+> ウ　建物の分割の登記を申請する場合において提供する建物図面及び各階平面図には、分割後の各建物を表示し、これに符号を付さなければならない。  
+>　  
+> エ　甲建物に1から3までの符号が付された附属建物が3棟ある場合において、符号2の附属建物を分割したときは、符号3の附属建物の符号は、符号2に変更される。  
+>　  
+> オ　家屋番号5番である甲建物の附属建物を分割して乙建物とする場合には、甲建物の登記記録の附属建物の表示欄の原因及びその日付欄に、「5番の1、5番の2に分割」と記録される。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
 
-建物の分割の登記は、1個の建物として登記されている主である建物と附属建物のうち、附属建物を切り離して別の1個の建物にする登記です。この分野では、分割の方法のバリエーション、代位による申請の可否、図面や符号の扱い、登記記録の記載方法など、手続の細かいルールが問われます。イメージしにくいところは、身近な例に置き換えて整理していきましょう。
+---
+
+建物の分割の登記は、1個の建物として登記されている主である建物と附属建物のうち、附属建物を切り離して別の1個の建物にする登記です。
+
+この分野では、分割の方法のバリエーション、代位による申請の可否、図面や符号の扱い、登記記録の記載方法など、手続の細かいルールが問われます。イメージしにくいところは、身近な例に置き換えて整理していきましょう。
 
 ### ア：数棟の附属建物を、主である建物とその附属建物に分割することもできる
 
-建物の分割の方法にはいくつかのパターンがあります。主である建物から1個の附属建物を分割して新たな1個の建物とするのが基本ですが、それだけではありません。主である建物から数棟の附属建物を分割してそれぞれ新たな1個の建物にすることもできますし、数棟の附属建物を分割して、その中の1棟を新たな主である建物、残りをその附属建物とすることもできます。つまり本肢のケースでは、いったん乙建物・丙建物に分割してから合併の登記をする、という2段階を必ず踏まなければならないわけではなく、分割の段階で主・附属の関係を作ることができます。
+建物の分割の方法にはいくつかのパターンがあります。主である建物から1個の附属建物を分割して新たな1個の建物とするのが基本ですが、それだけではありません。
 
-**たとえば**、実家の敷地に母屋の附属建物として「離れ」と「倉庫」の2棟が登記されているとします。この2棟を切り離して、「離れ」を主である建物、「倉庫」をその附属建物という新しいひとまとまりにしたいとき、わざわざ2棟をバラバラの独立建物にしてから合併し直さなくても、分割の登記の中で主・附属の形に整えることができるのです。
+主である建物から数棟の附属建物を分割してそれぞれ新たな1個の建物にすることもできますし、数棟の附属建物を分割して、その中の1棟を新たな主である建物、残りをその附属建物とすることもできます。
+
+つまり本肢のケースでは、いったん乙建物・丙建物に分割してから合併の登記をする、という2段階を必ず踏まなければならないわけではなく、分割の段階で主・附属の関係を作ることができます。
+
+**たとえば**、実家の敷地に母屋の附属建物として「離れ」と「倉庫」の2棟が登記されているとします。
+
+この2棟を切り離して、「離れ」を主である建物、「倉庫」をその附属建物という新しいひとまとまりにしたいとき、わざわざ2棟をバラバラの独立建物にしてから合併し直さなくても、分割の登記の中で主・附属の形に整えることができるのです。
 
 ### イ：仮処分債権者は、代位して建物の分割の登記を申請できる
 
-附属建物について処分禁止の仮処分命令を得た債権者は、その仮処分を実効あるものにする前提として、代位による建物の分割の登記を申請することができます。附属建物のままでは独立した登記の対象にならないため、まず分割して独立の建物にする必要があるからです。このとき、仮処分命令の正本を代位原因を証する情報として提供します。
+附属建物について処分禁止の仮処分命令を得た債権者は、その仮処分を実効あるものにする前提として、代位による建物の分割の登記を申請することができます。
 
-**たとえば**、Aさんが持つ母屋の附属建物（離れ）について、債権者のBさんが「勝手に処分されては困る」と処分禁止の仮処分を取ったとします。この離れを差押えなどの対象にするには、まず母屋から切り離して独立した建物にしておく必要があります。そこでBさんは、Aさんに代わって（代位して）、離れを分割する登記を申請できるのです。
+附属建物のままでは独立した登記の対象にならないため、まず分割して独立の建物にする必要があるからです。このとき、仮処分命令の正本を代位原因を証する情報として提供します。
+
+**たとえば**、Aさんが持つ母屋の附属建物（離れ）について、債権者のBさんが「勝手に処分されては困る」と処分禁止の仮処分を取ったとします。
+
+この離れを差押えなどの対象にするには、まず母屋から切り離して独立した建物にしておく必要があります。そこでBさんは、Aさんに代わって（代位して）、離れを分割する登記を申請できるのです。
 
 ### ウ：分割後の各建物を図面に表示し、符号を付す必要がある
 
-建物の分割の登記や区分の登記を申請する場合に提供する建物図面および各階平面図には、分割後（区分後）の各建物を表示し、これに符号を付さなければなりません（不動産登記規則84条）。分割によって新しく生まれる建物がどれなのかを図面上で明確にするために、符号を付けて区別する必要があるのです。
+建物の分割の登記や区分の登記を申請する場合に提供する建物図面および各階平面図には、分割後（区分後）の各建物を表示し、これに符号を付さなければなりません（不動産登記規則84条）。
 
-**たとえば**、母屋と離れが1個の建物として登記されているものを分割するとき、提出する図面には「分割後の母屋」と「分割後の離れ」の両方を描き、それぞれに符号を付けます。こうしておくことで、図面を見た人が「どの建物がどう分かれたのか」を一目で把握できるようになります。
+分割によって新しく生まれる建物がどれなのかを図面上で明確にするために、符号を付けて区別する必要があるのです。
+
+**たとえば**、母屋と離れが1個の建物として登記されているものを分割するとき、提出する図面には「分割後の母屋」と「分割後の離れ」の両方を描き、それぞれに符号を付けます。
+
+こうしておくことで、図面を見た人が「どの建物がどう分かれたのか」を一目で把握できるようになります。
 
 ### エ：いったん使った符号は、繰り上げて再使用しない
 
-附属建物には「1」「2」などの算用数字による符号を付しますが、いったん使用した符号は再使用することができません。したがって、符号1・2・3の附属建物があるところで符号2の附属建物を分割した場合でも、残った符号3の附属建物が符号2に繰り上がることはありません。符号3はそのまま符号3として残ります。
+附属建物には「1」「2」などの算用数字による符号を付しますが、いったん使用した符号は再使用することができません。
 
-**たとえば**、母屋に附属建物が3棟あって「1・2・3」と符号が付いているとします。このうち2番の附属建物を切り離しても、3番の附属建物がわざわざ「2番」に付け替えられることはありません。欠番になった2番はそのまま空けておき、3番は3番のまま。使った番号を使い回さないのがルールです。
+したがって、符号1・2・3の附属建物があるところで符号2の附属建物を分割した場合でも、残った符号3の附属建物が符号2に繰り上がることはありません。符号3はそのまま符号3として残ります。
+
+**たとえば**、母屋に附属建物が3棟あって「1・2・3」と符号が付いているとします。このうち2番の附属建物を切り離しても、3番の附属建物がわざわざ「2番」に付け替えられることはありません。
+
+欠番になった2番はそのまま空けておき、3番は3番のまま。使った番号を使い回さないのがルールです。
 
 ### オ：分割後の予定家屋番号「5番の2に分割」と記録される
 
-建物の分割の登記では、分割する附属建物の登記原因およびその日付の欄に、分割後の予定家屋番号を用いて「5番の2に分割」のように記録します。本肢は「5番の1、5番の2に分割」と記録されるとしていますが、正しくは分割後の建物の家屋番号（5番の2）を示す形で記録され、「5番の1、5番の2に分割」という書き方にはなりません。
+建物の分割の登記では、分割する附属建物の登記原因およびその日付の欄に、分割後の予定家屋番号を用いて「5番の2に分割」のように記録します。
 
-**たとえば**、家屋番号5番の建物の附属建物を切り離して乙建物にするとき、登記記録の原因・日付欄には「5番の2に分割」と、新しくできる建物の予定家屋番号を書きます。「5番の1と5番の2に分けました」という両方を並べる書き方ではない、というのがポイントです。
+本肢は「5番の1、5番の2に分割」と記録されるとしていますが、正しくは分割後の建物の家屋番号（5番の2）を示す形で記録され、「5番の1、5番の2に分割」という書き方にはなりません。
+
+**たとえば**、家屋番号5番の建物の附属建物を切り離して乙建物にするとき、登記記録の原因・日付欄には「5番の2に分割」と、新しくできる建物の予定家屋番号を書きます。
+
+「5番の1と5番の2に分けました」という両方を並べる書き方ではない、というのがポイントです。
+
+---
 
 ### まとめ
 
@@ -109,12 +137,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 号・録・番・建・物・登・記 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -193,19 +239,19 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 建物の分割の登記の問題文を読んだ瞬間に、「分割の結果どんな建物の関係ができるか」「図面・符号・登記記録にどう書くか」を順番に確認できるようにする5パネル構成。アは「2段階必要だと思いがちだが実は1段階でできる」という正誤対比、イは仮処分債権者が代位申請に至るまでの手順を順序立てて示し、エ・オは登記記録・符号の運用ルールを対比枠で見分ける。
 
@@ -246,7 +292,15 @@ faithful to the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -272,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 分割の段階で主と附属を作れる
@@ -293,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 合併登記は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 仮処分の債権者は代位で申請できる
@@ -314,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代位申請が可能
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 図面に分割後の建物と符号を明記する
@@ -329,7 +383,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 符号を付して表示
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 使用済みの符号は繰り上げて使わない
@@ -347,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 符号3のまま残る
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分割後の予定家屋番号だけを記録する
@@ -370,10 +424,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記規則84条、代位による登記の一般原則に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 号, 録, 番, 建, 物, 登, 記, 符, 附, 属, 代, 位, 証 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panels 1 and 5

@@ -2,21 +2,25 @@
 
 **出題年度：令和2年度　午後の部　第18問**
 
-> 筆界特定に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　筆界特定の申請人が，筆界特定登記官に対し，対象土地の筆界について意見又は資料を提出する場合，その提出を書面により行う必要はない。
->
-> イ　対象土地の共有者の一人が筆界特定の申請人である場合，申請人でない対象土地の他の共有者は，筆界特定登記官に対し，対象土地の筆界について意見又は資料を提出することができる。
->
-> ウ　対象土地の抵当権の登記名義人は，筆界特定登記官に対し，対象土地の筆界について意見又は資料を提出することができる。
->
-> エ　筆界特定登記官は，筆界特定の申請人が対象土地の筆界について意見又は資料を提出しない場合であっても，筆界特定をすることができる。
->
-> オ　筆界特定は，新たな筆界を形成する作用を有する。
->
+> 筆界特定に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　筆界特定の申請人が，筆界特定登記官に対し，対象土地の筆界について意見又は資料を提出する場合，その提出を書面により行う必要はない。  
+>　  
+> イ　対象土地の共有者の一人が筆界特定の申請人である場合，申請人でない対象土地の他の共有者は，筆界特定登記官に対し，対象土地の筆界について意見又は資料を提出することができる。  
+>　  
+> ウ　対象土地の抵当権の登記名義人は，筆界特定登記官に対し，対象土地の筆界について意見又は資料を提出することができる。  
+>　  
+> エ　筆界特定登記官は，筆界特定の申請人が対象土地の筆界について意見又は資料を提出しない場合であっても，筆界特定をすることができる。  
+>　  
+> オ　筆界特定は，新たな筆界を形成する作用を有する。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-「筆界特定」は、土地の境界（筆界）がどこにあるかを、筆界特定登記官が公的に判断してくれる手続です（不動産登記法第6章）。裁判のように白黒つける制度とは少し違い、あくまで「もともとある筆界を明らかにする」ものだという性質を押さえるのが重要です。今回は**誤っているもの**の組合せを選びます。
+---
+
+「筆界特定」は、土地の境界（筆界）がどこにあるかを、筆界特定登記官が公的に判断してくれる手続です（不動産登記法第6章）。
+
+裁判のように白黒つける制度とは少し違い、あくまで「もともとある筆界を明らかにする」ものだという性質を押さえるのが重要です。今回は**誤っているもの**の組合せを選びます。
 
 ### ア：意見・資料の提出は、書面でなく口頭でもよい
 
@@ -32,7 +36,9 @@
 
 ### ウ：対象土地の抵当権の登記名義人は、意見・資料を提出できない
 
-意見または資料を提出できるのは、申請人および関係人に限られます。関係人とは、筆界特定に類型的に大きな利害関係を有する者（対象土地・関係土地の所有権の登記名義人など）を指し、抵当権の登記名義人（担保権者）はこれに含まれません。したがって、対象土地の抵当権の登記名義人は、意見・資料を提出することはできません。本肢は「提出することができる」としており、誤りです。
+意見または資料を提出できるのは、申請人および関係人に限られます。関係人とは、筆界特定に類型的に大きな利害関係を有する者（対象土地・関係土地の所有権の登記名義人など）を指し、抵当権の登記名義人（担保権者）はこれに含まれません。
+
+したがって、対象土地の抵当権の登記名義人は、意見・資料を提出することはできません。本肢は「提出することができる」としており、誤りです。
 
 **たとえば**、対象土地に抵当権を持っている銀行は、その土地の境界がどこかについて利害はあっても、筆界特定の手続で正式に意見や資料を提出できる「関係人」にはあたりません。
 
@@ -47,6 +53,8 @@
 筆界特定は、あくまで既にある土地の筆界（公法上の境界）がどこにあるのかを明らかにする手続であり、新たな筆界を形成する（作り出す）作用は持ちません。本肢は「新たな筆界を形成する作用を有する」としており、誤りです。
 
 **たとえば**、筆界特定によって「境界はここです」と示されても、それは昔からその位置にあった筆界を確認したにすぎず、その手続によって新しい境界線が生み出されるわけではありません。当事者の合意で境界を動かす「筆界の変更」とは性質が異なります。
+
+---
 
 ### まとめ
 
@@ -109,13 +117,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 登・記・権 — these must be rendered in their standard Japanese forms,
-never as Simplified Chinese variants (権 must not become 权; 記 must not
-become 记).
+never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -200,20 +225,20 @@ these 5 headings):
 5. 筆界特定は新たな筆界を作らない
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「意見・資料を提出できるのは誰か」（イ・ウ）は、対象土地に利害関係を持つ者が筆界特定制度上の「関係人」に該当するかという同じ判定基準を共有しているため、2パネルで同じ決定木の形を使い回し、自分の肢に関係する枝だけを強調する。ア・エ・オはそれぞれ独立した単一チェック型の図解とする。②の色分け（意見・資料の提出者＝緑、手続の進め方・制度の性質＝青）を引き継いでいる。
 
@@ -239,7 +264,7 @@ actual decision flowchart: diamond-shaped branch nodes with the
 condition written on them, Yes/No（はい／いいえ）branch arrows, and a
 final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 2 and 3（肢イ・肢ウ）share the same decision-tree shape, because
+Panels 2 and 3（イ・ウ）share the same decision-tree shape, because
 both ask whether the person in question is a「関係人」（対象土地に類型的
 に大きな利害関係を有する者）: draw both panels with the same diamond node
 labeled「意見・資料を提出しようとする者は、類型的に大きな利害関係を有す
@@ -262,7 +287,15 @@ own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -288,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 意見・資料の提出に書面は不要
@@ -305,7 +338,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 口頭でも可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 非申請人の共有者は関係人として提出可
@@ -327,7 +360,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 関係人として提出可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 抵当権者は関係人にあたらず提出不可
@@ -350,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 関係人にあたらない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 申請人が不提出でも筆界特定は実施可
@@ -367,7 +400,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 不提出でも実施可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 筆界特定は新たな筆界を形成しない
@@ -391,10 +424,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法131条以下（筆界特定制度）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 筆, 界, 提, 書, 関, 係, 権, 登, 記, 続, 測, 現
-and any character that has a visually similar Simplified Chinese variant.
-If any character renders as a Simplified Chinese variant, redraw that
+and any character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

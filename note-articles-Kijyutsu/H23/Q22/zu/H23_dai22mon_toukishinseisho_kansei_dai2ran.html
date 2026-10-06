@@ -1,0 +1,54 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 70px 60px 40px; min-height: 1650px; display: flex; flex-direction: column; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 48px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 26px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.dateline { font-size: 22px; margin: 0 0 26px; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 26px; }
+.plainrow .ryaku { padding-left: 20px; padding-top: 10px; }
+table.bldg { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.bldg td { border: 1.5px solid #111; font-size: 19px; padding: 8px 10px; vertical-align: middle; line-height: 1.5; }
+table.bldg td.lab2 { text-align: center; font-size: 19px; }
+table.bldg td.head { text-align: center; font-size: 18px; height: 70px; }
+table.bldg td.val { height: 64px; }
+table.bldg td.entry { height: 150px; }
+table.bldg td.center { text-align: center; }
+table.bldg td.struct { font-size: 17px; }
+table.bldg td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.bldg td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.bldg td.genin { font-size: 17px; }
+table.bldg td .ink { font-size: 20px; }
+table.bldg td.struct .ink, table.bldg td.genin .ink { font-size: 18px; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 第2欄 */
+.ran2 { border: 3px solid #111; margin: 0 40px; padding: 6px 24px 20px; }
+.ran2 .line { border-bottom: 1.5px dashed #777; height: 46px; font-size: 22px; line-height: 46px; white-space: nowrap; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.tall .panel { padding: 50px 60px 54px; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -4px; right: -4px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-3deg); }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; right: 120px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; text-align: right; }
+.bubrow .bubble { text-align: left; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body><div style="padding:50px 20px 30px"><div class="ran2"><div class="line"><span class="ink">車庫が、家屋番号5番2の建物（居宅）の効用を補うために利用されていない場合は、附属建物と</span></div><div class="line"><span class="ink">認められない。附属建物は、表題登記がある建物に附属し、その建物と一体のものとして1個の建</span></div><div class="line"><span class="ink">物として登記される建物であり（不動産登記法第2条第23号）、数棟の建物を1個の建物として</span></div><div class="line"><span class="ink">取り扱うのは、効用上一体として利用される状態にある場合である（不動産登記事務取扱手続準則</span></div><div class="line"><span class="ink">第78条第1項）。所有者が同じで、所有者が附属建物として登記することを望んでも、この状態</span></div><div class="line"><span class="ink">になければ1個の建物にはならないからである。例えば、畑山邦彦が車庫を第三者に賃貸し、その</span></div><div class="line"><span class="ink">第三者が自己の自動車の車庫として利用している場合や、居宅の居住者のためではなく10番1の</span></div><div class="line"><span class="ink">建物の事務所の来客用の車庫として利用されている場合がこれに当たる。この場合、車庫は独立し</span></div><div class="line"><span class="ink">た1個の建物（区分建物）として表題登記をすることになる。</span></div><div class="line"></div><div class="line"></div><div class="line"></div></div>
+<div class="caption">平成23年度 土地家屋調査士試験 第22問 問3（第2欄）解答例</div></div></body></html>

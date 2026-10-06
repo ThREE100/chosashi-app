@@ -2,19 +2,21 @@
 
 **出題年度：平成22年度　午後の部　第8問**
 
-> 登記の申請の取り下げに関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　登記が完了した後は、理由のいかんを問わず、その申請を取り下げることができない。
->
-> イ　書面申請の方法によって行った登記の申請を取り下げる場合には、登記官に対し、その申請書にはり付けた登録免許税の印紙で消印されたものを再使用したい旨の申出をすることができる。
->
-> ウ　電子申請の方法によって行った登記の申請は、その申請を取り下げる旨の情報を記載した書面を登記所に提出する方法によって、取り下げることができる。
->
-> エ　代理人が書面申請の方法によって行った登記の申請を取り下げた場合には、申請書及び代理権限証書を除いた添付書面が還付される。
->
-> オ　一の申請情報により二以上の登記の申請を行った場合であっても、そのうちの一部の申請を取り下げることができる。
->
+> 登記の申請の取り下げに関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　登記が完了した後は、理由のいかんを問わず、その申請を取り下げることができない。  
+>　  
+> イ　書面申請の方法によって行った登記の申請を取り下げる場合には、登記官に対し、その申請書にはり付けた登録免許税の印紙で消印されたものを再使用したい旨の申出をすることができる。  
+>　  
+> ウ　電子申請の方法によって行った登記の申請は、その申請を取り下げる旨の情報を記載した書面を登記所に提出する方法によって、取り下げることができる。  
+>　  
+> エ　代理人が書面申請の方法によって行った登記の申請を取り下げた場合には、申請書及び代理権限証書を除いた添付書面が還付される。  
+>　  
+> オ　一の申請情報により二以上の登記の申請を行った場合であっても、そのうちの一部の申請を取り下げることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+---
 
 登記の申請を途中でやめる「取下げ」のルールです（不動産登記規則39条など）。「いつまで取り下げられるか」「電子申請と書面申請で手続の方法が違う」「取り下げると何が返ってくるか」という3つの角度で、細かい手続を正確に押さえましょう。
 
@@ -32,7 +34,9 @@
 
 ### ウ：電子申請の取下げは、オンラインでしなければならず、書面提出ではできない
 
-電子申請（オンライン申請）の方法によって行った登記の申請を取り下げるには、電子情報処理組織を使用して（＝オンラインで）取下げの情報を送る方法によらなければなりません。取下げの情報を記載した書面を登記所に持ち込む方法では取り下げられません。「書面を提出する方法によって取り下げることができる」とする点は誤りです。
+電子申請（オンライン申請）の方法によって行った登記の申請を取り下げるには、電子情報処理組織を使用して（＝オンラインで）取下げの情報を送る方法によらなければなりません。
+
+取下げの情報を記載した書面を登記所に持ち込む方法では取り下げられません。「書面を提出する方法によって取り下げることができる」とする点は誤りです。
 
 **たとえば**、パソコンからオンラインで出した申請を取り下げたいときは、同じくオンラインで取下げの手続をする必要があり、紙にプリントして窓口に出す、というやり方は認められません。
 
@@ -47,6 +51,8 @@
 一の申請情報によって二以上の登記の申請を行った場合であっても、そのうちの一部の申請だけを取り下げることができます。まとめて申請したからといって、全部まとめてしか取り下げられない、ということはありません。この記述は正しいものです。
 
 **たとえば**、いくつかの登記を一枚の申請でまとめて出したあとで、そのうちの1件だけ問題が見つかった場合には、その1件だけを取り下げて、残りはそのまま進めることができます。
+
+---
 
 ### まとめ
 
@@ -108,10 +114,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -200,25 +224,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢アは登記完了の前後で取り下げの可否が切り替わることを示すタイムライン型、肢イ・ウは「取下げの方法は申請の方法(書面申請か電子申請か)によって決まる」という同じ決定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成、肢エは「代理権限証書は還付されない」という誤った思い込みと正しいルールを対比する対比枠型、肢オは一の申請情報にまとめられた複数の登記のうち一部だけを抜き出せることを示す系統図型とする。
+アは登記完了の前後で取り下げの可否が切り替わることを示すタイムライン型、イ・ウは「取下げの方法は申請の方法(書面申請か電子申請か)によって決まる」という同じ決定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成、エは「代理権限証書は還付されない」という誤った思い込みと正しいルールを対比する対比枠型、オは一の申請情報にまとめられた複数の登記のうち一部だけを抜き出せることを示す系統図型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -295,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -315,7 +337,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 完了後は取下げ不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -336,7 +358,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 消印済み印紙は再使用可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -358,7 +380,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 オンラインでのみ取下げ可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -379,7 +401,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 代理権限証書も還付される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -398,12 +420,11 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記規則39条（ア・ウ・エ）。判例・先例番号は省略。
+条文根拠：不動産登記規則39条（ア・ウ・エ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 完, 了, 印, 紙, 消, 申, 請, 記, 電,
-子, 還, 付, 登, 権, 限, 証, 書, 認, 確, 束, 進. If any character renders as a
+Chinese, paying special attention to 完, 了, 印, 紙, 消, 申, 請, 記, 電, 子, 還, 付, 登, 権, 限, 証, 書, 認, 確, 進. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Also scan the entire canvas for any character that
 is not standard Japanese hiragana, katakana, or Jōyō kanji — including

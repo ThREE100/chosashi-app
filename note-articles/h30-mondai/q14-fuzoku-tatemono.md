@@ -2,51 +2,69 @@
 
 **出題年度：平成30年度　午後の部　第14問**
 
-> 附属建物の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　附属建物がある建物の表題登記をする場合において，附属建物の新築の日が主である建物の新築の日と同一であるときは，附属建物の表示欄の原因及びその日付欄の記録は要しない。
->
-> イ　表題部に附属建物に関する事項を記録する場合において，当該附属建物の種類，構造及び床面積が直前に記録された附属建物の記録と同一のときは，「同上」と記録される。
->
-> ウ　附属建物の種類に関する変更の登記をする場合において，表題部に附属建物に関する記録をするときは，当該変更後の附属建物の種類，構造及び床面積が記録され，当該変更前の附属建物の符号を除くその登記事項の全部が抹消される。
->
-> エ　区分建物でない建物の登記記録において，主である建物が存在する土地の地番と附属建物である地下車庫が存在する土地の地番とが同一ではない場合には，当該附属建物が存在する土地の地番は，主である建物の表示欄の所在欄に記録されない。
->
-> オ　附属建物が主である建物と同一の一棟の建物に属する区分建物である場合において，当該附属建物に関する登記事項を記録するには，その一棟の建物の所在する市，区，郡，町，村，字及び土地の地番並びに構造及び床面積を記録することを要する。
->
+> 附属建物の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　附属建物がある建物の表題登記をする場合において，附属建物の新築の日が主である建物の新築の日と同一であるときは，附属建物の表示欄の原因及びその日付欄の記録は要しない。  
+>　  
+> イ　表題部に附属建物に関する事項を記録する場合において，当該附属建物の種類，構造及び床面積が直前に記録された附属建物の記録と同一のときは，「同上」と記録される。  
+>　  
+> ウ　附属建物の種類に関する変更の登記をする場合において，表題部に附属建物に関する記録をするときは，当該変更後の附属建物の種類，構造及び床面積が記録され，当該変更前の附属建物の符号を除くその登記事項の全部が抹消される。  
+>　  
+> エ　区分建物でない建物の登記記録において，主である建物が存在する土地の地番と附属建物である地下車庫が存在する土地の地番とが同一ではない場合には，当該附属建物が存在する土地の地番は，主である建物の表示欄の所在欄に記録されない。  
+>　  
+> オ　附属建物が主である建物と同一の一棟の建物に属する区分建物である場合において，当該附属建物に関する登記事項を記録するには，その一棟の建物の所在する市，区，郡，町，村，字及び土地の地番並びに構造及び床面積を記録することを要する。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-附属建物の論点というと「効用上の一体性」という実体要件が有名ですが、この問題が問うのはもう一歩進んだ「登記記録への書き方の作法」です。新築日・「同上」表記・変更登記の抹消範囲・所在の記録順・区分建物の場合の扱いという、細かいけれど得点源になる論点を一つずつ整理していきましょう。
+---
+
+附属建物の論点というと「効用上の一体性」という実体要件が有名ですが、この問題が問うのはもう一歩進んだ「登記記録への書き方の作法」です。
+
+新築日・「同上」表記・変更登記の抹消範囲・所在の記録順・区分建物の場合の扱いという、細かいけれど得点源になる論点を一つずつ整理していきましょう。
 
 ### ア：附属建物の新築日が主建物と同日なら、日付の記録は不要
 
-附属建物が新築された日が主である建物と異なれば、附属建物の登記原因及びその日付欄に「年月日新築」と記録することを要します。しかし、主である建物と同日に新築されたものであるときは、あえて附属建物側の原因及びその日付欄に記録する必要はありません。主建物の欄を見れば新築日がわかるため、重複した記録を省く趣旨です。
+附属建物が新築された日が主である建物と異なれば、附属建物の登記原因及びその日付欄に「年月日新築」と記録することを要します。
+
+しかし、主である建物と同日に新築されたものであるときは、あえて附属建物側の原因及びその日付欄に記録する必要はありません。主建物の欄を見れば新築日がわかるため、重複した記録を省く趣旨です。
 
 **たとえば**、母屋と離れ（物置）を同じ日に建てて一緒に表題登記を申請する場合、離れの原因及びその日付欄に改めて「年月日新築」と書き込む必要はありません。
 
 ### イ：附属建物が同一内容でも「同上」ではなく、内容がそのまま記録される
 
-一見すると、直前の附属建物と種類・構造・床面積が同じなら「同上」と略記できそうに思えますが、附属建物についてはこの取扱いをすることができません。なぜなら、附属建物は変更または更正の登記があった場合、従前の符号を除くその登記事項の全部が抹消され、符号の順番に変動が生じる可能性があるためです。「同上」で前の記録に依存させてしまうと、抹消・再記録の際に内容が読み取れなくなってしまいます。
+一見すると、直前の附属建物と種類・構造・床面積が同じなら「同上」と略記できそうに思えますが、附属建物についてはこの取扱いをすることができません。
+
+なぜなら、附属建物は変更または更正の登記があった場合、従前の符号を除くその登記事項の全部が抹消され、符号の順番に変動が生じる可能性があるためです。「同上」で前の記録に依存させてしまうと、抹消・再記録の際に内容が読み取れなくなってしまいます。
 
 **たとえば**、符号1と符号2の物置がまったく同じ木造平屋建の物置であっても、符号2の欄に「同上」と書くのではなく、種類・構造・床面積をそれぞれきちんと記録することになります。
 
 ### ウ：附属建物の種類変更登記では、符号を除く従前の登記事項が全部抹消される
 
-附属建物の種類に関する変更または更正の登記をする場合、表題部に附属建物に関する記録をするときは、当該変更または更正後の種類・構造・床面積が記録され、従前の附属建物の符号を除くその登記事項の全部が抹消されます（準則94条1項）。符号は同一の附属建物を追跡する見出しなので残し、中身の記録は新しいものに置き換える、という処理です。
+附属建物の種類に関する変更または更正の登記をする場合、表題部に附属建物に関する記録をするときは、当該変更または更正後の種類・構造・床面積が記録され、従前の附属建物の符号を除くその登記事項の全部が抹消されます（準則94条1項）。
+
+符号は同一の附属建物を追跡する見出しなので残し、中身の記録は新しいものに置き換える、という処理です。
 
 **たとえば**、符号1の「物置」を「車庫」に用途変更したときは、符号1という見出しはそのままに、旧「物置」の記録を抹消して新しく「車庫」の種類・構造・床面積を記録し直すことになります。
 
 ### エ：主建物と地番が異なる附属建物でも、その土地の地番は所在欄に記録される
 
-区分建物でない建物で、主である建物の存する土地の地番と附属建物（地下車庫など）の存する土地の地番とが異なる場合には、主である建物の存する土地の地番を先に記録し、附属建物が存する他の土地の地番を後ろに記録します。したがって「附属建物が存する土地の地番は所在欄に記録されない」というのは誤りで、順番を後にして記録されるのが正しい扱いです。
+区分建物でない建物で、主である建物の存する土地の地番と附属建物（地下車庫など）の存する土地の地番とが異なる場合には、主である建物の存する土地の地番を先に記録し、附属建物が存する他の土地の地番を後ろに記録します。
+
+したがって「附属建物が存する土地の地番は所在欄に記録されない」というのは誤りで、順番を後にして記録されるのが正しい扱いです。
 
 **たとえば**、母屋が10番の土地に、地下車庫が隣接する11番の土地にまたがって建っている場合、所在欄には10番を先に、11番を後に、いずれも記録されます。
 
 ### オ：主建物と同一の一棟に属する区分建物なら、一棟の表示の記録は不要
 
-附属建物が区分建物である場合、通常はその一棟の建物の所在（市区郡町村字及び土地の地番。法44条1項5号）や構造・床面積（法44条1項7号）などを附属建物の構造欄に加えて記録します。しかし、本肢のように主である建物と附属建物が同じ一棟の建物に属する専有部分であるときは、その一棟の表示はすでに主である建物の表題部に記録されています。そのため、附属建物の構造欄に一棟の所在・構造・床面積を重ねて記録する必要はありません（準則89条）。「記録することを要する」とする本肢は誤りです。
+附属建物が区分建物である場合、通常はその一棟の建物の所在（市区郡町村字及び土地の地番。法44条1項5号）や構造・床面積（法44条1項7号）などを附属建物の構造欄に加えて記録します。
+
+しかし、本肢のように主である建物と附属建物が同じ一棟の建物に属する専有部分であるときは、その一棟の表示はすでに主である建物の表題部に記録されています。
+
+そのため、附属建物の構造欄に一棟の所在・構造・床面積を重ねて記録する必要はありません（準則89条）。「記録することを要する」とする本肢は誤りです。
 
 **たとえば**、同じマンション（一棟の建物）の中で、301号室を主である建物、同じ棟の地下1階の倉庫を附属建物とする場合、一棟の所在や構造・床面積は301号室側にすでに載っているので、倉庫の側で重ねて記録する必要はありません。
+
+---
 
 ### まとめ
 
@@ -68,7 +86,7 @@
 - 出題番号・正解番号（1番＝アウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠のうち、ウ（不動産登記事務取扱準則94条1項）、オ（不動産登記法44条1項5号・7号、準則89条）は、元データの解説に条文番号まで明記されています。ア（新築日が同日の場合の記録省略）、イ（「同上」記録の可否）、エ（附属建物の土地の地番の記録順）については、元データ解説では取扱いの説明のみで具体的な条文番号までは示されておらず、記録実務の一般原則からの説明にとどまる点はご留意ください。
 - 各肢の解説は、元データ（アガルート過去問テキストのOCRに基づくデータベースのexplanationフィールド）を条文根拠の一次情報源として参照しています。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（附属建物の登記）と同一・類似の論点がないか確認しました。**重複が見つかりました。** 令和6年度第14問（既存記事：`r6-mondai/q14-fuzoku-tatemono.md`）の肢エ「附属建物の新築の日が主である建物の新築の日と同一であるときは、附属建物の新築の日を申請情報の内容とすることを要しない」は、本問の肢アと全く同一のルールを扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（附属建物の登記）と同一・類似の論点がないか確認しました。**重複が見つかりました。** 令和6年度第14問（既存記事：`r6-mondai/q14-fuzoku-tatemono.md`）のエ「附属建物の新築の日が主である建物の新築の日と同一であるときは、附属建物の新築の日を申請情報の内容とすることを要しない」は、本問のアと全く同一のルールを扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
 - **条文再検証・最新法令チェック（2026-08-18実施）**：`note-articles/laws/`のローカル法令データベースで全肢を再確認しました。ウ（準則94条1項）、オ（法44条1項5号・7号、準則89条）は条文の文言と完全に一致することを確認しました。エについても、法44条1項5号が「附属建物があるときは、その所在する市、区、郡、町、村、字及び土地の地番…を記録する」と定めており、附属建物の地番が登記事項として記録されることが条文レベルで確認できたため、「元データ解説では条文番号が明示されていない」という留保は残しつつも、結論の正確性は裏付けが取れています。ア・イについては、該当する明文規定を`laws/`内で見つけられず、従来どおり記録実務の一般原則からの説明にとどまる点に変更はありません。半角括弧が複数箇所残っていたため、全角括弧（）に修正しました（URL・コード表記に該当する箇所はなく、全箇所が対象でした）。判例番号・先例番号・専門誌番号、Markdown表の残存は確認されませんでした。
 
 ---
@@ -111,13 +129,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・符・棟・変・更 — these must
+kanji 号・録・地・番・建・物・登・記・所・符・棟・変・更 — these must
 be rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -200,19 +236,19 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、附属建物の登記記録を書くときに実際に手を動かして確認すべき順序（新築日が同じかどうか、内容を省略できるかどうか、符号と登記事項のどちらが残るか、地番が同一かどうか、区分建物が同一棟内かどうか）を、肢ごとに図解する作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに判定の順序を明示する「着眼点」の短い説明文を添えている。
 
@@ -276,8 +312,7 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa. Pay
-special attention to the kanji 号・録・権・地・番・建・物・登・記・所・
-符・棟・変・更・抹・換・倉・庫 — these must be rendered in their standard
+special attention to the kanji 号・録・地・番・建・物・登・記・所・符・棟・変・更・抹・換・倉・庫 — these must be rendered in their standard
 Japanese forms, never as Simplified or Traditional Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -300,7 +335,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -322,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 同日なら記録不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 内容は「同上」に略さず書く
@@ -340,7 +375,7 @@ book page 上の「符号2」の欄に「同上」という文字を書こうと
 Conclusion tag (blue, 5-15 Japanese characters):
 「同上」は使えない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 符号は残し中身だけ差し替える
@@ -358,7 +393,7 @@ Diagram: 対比枠型で描く。左枠に「符号（そのまま残る）」�
 Conclusion tag (blue, 5-15 Japanese characters):
 符号は残る
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地番は違っても両方記録される
@@ -378,7 +413,7 @@ underground garage icon「附属建物（地下車庫）」）とラベルする
 Conclusion tag (blue, 5-15 Japanese characters):
 地番は両方記録される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 同一棟内の区分建物なら省略できる
@@ -409,8 +444,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 号・録・権・地・番・建・物・登・記・
-所・符・棟・変・更・抹・換・倉・庫. If any character renders as a
+Chinese, paying special attention to 号・録・地・番・建・物・登・記・所・符・棟・変・更・抹・換・倉・庫. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Also scan the entire canvas for any character that
 is not standard Japanese hiragana, katakana, or Jōyō kanji — including

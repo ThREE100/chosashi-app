@@ -2,37 +2,47 @@
 
 **出題年度：平成25年度　午後の部　第4問**
 
-> 次のアからオまでの記述における二つの表示に関する登記の各組合せのうち、一の申請情報によってAが申請することができるものは、幾つあるか。なお、各記述における不動産は、いずれも、同一の登記所の管轄区域内に所在するものとする。
->
-> ア　所有権の登記名義人がAである甲土地の分筆の登記と表題部所有者がAである乙土地の分筆の登記
->
-> イ　表題部所有者がAである甲土地の分筆の登記と表題部所有者Aの住所についての更正の登記
->
-> ウ　いずれも所有権の登記名義人がA及びBである甲土地（A及びBの持分は、各２分の１）と乙土地（Aの持分は３分の２、Bの持分は３分の１）が隣接する場合において、地目が山林であった甲土地及び乙土地が同時に宅地に造成されたときにする甲土地の地目の変更の登記と乙土地の地目の変更の登記
->
-> エ　所有権の登記名義人がAである甲建物の登記記録からその附属建物を分割する建物の分割の登記と当該附属建物を所有権の登記名義人がAである乙建物の附属建物とする建物の合併の登記
->
-> オ　Aが婚姻により配偶者の氏を称することとなった場合にする甲建物の表題部所有者Aの氏名についての変更の登記と乙土地の表題部所有者Aの氏名についての変更の登記
->
+> 次のアからオまでの記述における二つの表示に関する登記の各組合せのうち、一の申請情報によってAが申請することができるものは、幾つあるか。なお、各記述における不動産は、いずれも、同一の登記所の管轄区域内に所在するものとする。  
+>　  
+> ア　所有権の登記名義人がAである甲土地の分筆の登記と表題部所有者がAである乙土地の分筆の登記  
+>　  
+> イ　表題部所有者がAである甲土地の分筆の登記と表題部所有者Aの住所についての更正の登記  
+>　  
+> ウ　いずれも所有権の登記名義人がA及びBである甲土地（A及びBの持分は、各２分の１）と乙土地（Aの持分は３分の２、Bの持分は３分の１）が隣接する場合において、地目が山林であった甲土地及び乙土地が同時に宅地に造成されたときにする甲土地の地目の変更の登記と乙土地の地目の変更の登記  
+>　  
+> エ　所有権の登記名義人がAである甲建物の登記記録からその附属建物を分割する建物の分割の登記と当該附属建物を所有権の登記名義人がAである乙建物の附属建物とする建物の合併の登記  
+>　  
+> オ　Aが婚姻により配偶者の氏を称することとなった場合にする甲建物の表題部所有者Aの氏名についての変更の登記と乙土地の表題部所有者Aの氏名についての変更の登記  
+>　  
 > 1　1個　2　2個　3　3個　4　4個　5　5個
 
-表示に関する登記は、同一の登記所の管轄区域内で、申請人（またはこれから登記名義人となるべき者）が同一であり、登記の目的が共通していれば、複数の不動産についてまとめて1つの申請情報で申請できる場合があります。この「一括申請」の可否を判断する力が問われる問題です。
+---
+
+表示に関する登記は、同一の登記所の管轄区域内で、申請人（またはこれから登記名義人となるべき者）が同一であり、登記の目的が共通していれば、複数の不動産についてまとめて1つの申請情報で申請できる場合があります。
+
+この「一括申請」の可否を判断する力が問われる問題です。
 
 ### ア：申請人が同一なら、甲土地と乙土地の分筆をまとめて申請できる
 
-甲土地・乙土地とも申請人はAであり（一方は所有権登記名義人、他方は表題部所有者という違いはありますが、いずれもAが申請適格を有します）、登記の目的（分筆の登記）も共通しています。同一の登記所の管轄区域内にある二以上の不動産について、登記の目的並びに登記原因及びその日付が同一であるときは、一の申請情報でまとめて申請することができます（不動産登記令4条ただし書）。
+甲土地・乙土地とも申請人はAであり（一方は所有権登記名義人、他方は表題部所有者という違いはありますが、いずれもAが申請適格を有します）、登記の目的（分筆の登記）も共通しています。
+
+同一の登記所の管轄区域内にある二以上の不動産について、登記の目的並びに登記原因及びその日付が同一であるときは、一の申請情報でまとめて申請することができます（不動産登記令4条ただし書）。
 
 **たとえば**、Aさんが自分の持っている甲土地と乙土地を同時に分筆したい場合、それぞれ別々に申請書を出す必要はなく、まとめて1通の申請書で両方の分筆登記を済ませることができます。
 
 ### イ：同一の土地についての複数の表示登記も、まとめて申請できる
 
-甲土地についての「分筆の登記」と、同じくAに関する「住所についての更正の登記」は、同一の不動産（甲土地）についての表示に関する登記であり、申請人も同一（A）です。同一の不動産について申請する二以上の登記が、表題部の登記事項に関する更正の登記及び土地の分筆の登記であるときは、一の申請情報でまとめて申請することができます（不動産登記規則35条7号）。
+甲土地についての「分筆の登記」と、同じくAに関する「住所についての更正の登記」は、同一の不動産（甲土地）についての表示に関する登記であり、申請人も同一（A）です。
+
+同一の不動産について申請する二以上の登記が、表題部の登記事項に関する更正の登記及び土地の分筆の登記であるときは、一の申請情報でまとめて申請することができます（不動産登記規則35条7号）。
 
 **たとえば**、Aさんが引っ越しをして住所が変わったタイミングで、たまたま甲土地の分筆も必要になった場合、住所の更正登記と分筆登記を1つの申請でまとめて済ませることができます。
 
 ### ウ：持分の割合が違っても、申請人（共有者）が同じなら一括申請できる
 
-甲土地・乙土地はいずれもA及びBが所有権登記名義人であり、持分の割合こそ異なりますが、申請人はいずれも「A及びB」で共通しています。同時に山林から宅地に造成され、地目の変更という登記の目的・登記原因（造成）・その日付がいずれも共通している以上、同一登記所管轄区域内にある2筆の地目変更登記をまとめて一の申請情報で申請することができます（不動産登記令4条ただし書）。
+甲土地・乙土地はいずれもA及びBが所有権登記名義人であり、持分の割合こそ異なりますが、申請人はいずれも「A及びB」で共通しています。
+
+同時に山林から宅地に造成され、地目の変更という登記の目的・登記原因（造成）・その日付がいずれも共通している以上、同一登記所管轄区域内にある2筆の地目変更登記をまとめて一の申請情報で申請することができます（不動産登記令4条ただし書）。
 
 **たとえば**、A・Bが共有する隣り合った甲土地・乙土地を、持分の比率は違っていても2人でまとめて宅地に造成した場合、地目変更の登記は甲・乙それぞれ別々に出す必要はなく、1通の申請書で済ませられます。
 
@@ -44,9 +54,13 @@
 
 ### オ：婚姻による氏の変更なら、建物と土地の氏名変更登記もまとめて申請できる
 
-甲建物・乙土地のいずれについても、表題部所有者はAであり、氏名変更の原因（婚姻による氏の変更）も共通しています。登記の目的（氏名の変更の登記）・登記原因（婚姻）・その日付（婚姻の日）がいずれも共通していることから、この場合も一の申請情報でまとめて申請することができます（不動産登記令4条ただし書）。
+甲建物・乙土地のいずれについても、表題部所有者はAであり、氏名変更の原因（婚姻による氏の変更）も共通しています。
+
+登記の目的（氏名の変更の登記）・登記原因（婚姻）・その日付（婚姻の日）がいずれも共通していることから、この場合も一の申請情報でまとめて申請することができます（不動産登記令4条ただし書）。
 
 **たとえば**、Aさんが結婚して姓が変わった場合、自分が表題部所有者になっている建物と土地のそれぞれについて別々に氏名変更登記を出す必要はなく、1通の申請書でまとめて手続を済ませることができます。
+
+---
 
 ### まとめ
 
@@ -73,7 +87,7 @@
   - **ア**：甲土地・乙土地の分筆の登記どうしの組合せも、規則35条の10個の列挙事由には直接該当する号がなく（1号は「分筆＋合筆」の組合せを定めるものであり、単純な分筆どうしの組合せは対象外）、ウと同様に不動産登記令4条ただし書本文（目的・登記原因及びその日付の同一性）に基づくものと整理しました。ただし、分筆の登記における「登記原因及びその日付」（不動産登記法27条1号により表示に関する登記の登記事項とされています）が、無関係な別々の土地どうしの分筆でどのように記載・扱われるかは条文だけからは断定できず、この点は確認事項として残ります。
   - **オ**：甲建物・乙土地の表題部所有者Aについての氏名変更登記（婚姻による氏の変更）の組合せは、規則35条8号「同一の登記所の管轄区域内にある一又は二以上の不動産について申請する二以上の登記が、いずれも同一の登記名義人の氏名若しくは名称又は住所についての変更の登記又は更正の登記であるとき」と場面がよく似ています。もっとも、同号の「登記名義人」は不動産登記法2条11号で「登記記録の権利部に…権利者として記録されている者」と定義されており、同条10号で別に定義される「表題部所有者」（オの肢のAはこちら）を文言上含むかは条文だけでは確定できませんでした。そのため記事本文では8号ではなく、目的（氏名の変更の登記）・原因（婚姻）・日付（婚姻の日）が同一であることを理由に、不動産登記令4条ただし書本文を根拠として記載しています。規則35条8号がオの場面にも及ぶかどうかは、確認しきれなかった点として残ります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。「一の申請情報による申請」というテーマ自体はH26・H28〜R07までほぼ毎年のように出題されている頻出分野ですが、本問の5つの具体的な組合せ（甲乙土地の分筆、住所更正との一括、共有持分違いの地目変更、附属建物の分割＋合併、婚姻による氏名変更の一括）そのものが再出題された例は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
-- **最新法令チェック（2026-08-16実施）**：肢イ・オが扱う表題部所有者の住所についての更正の登記・氏名についての変更の登記は、住所変更登記義務化（不動産登記法76条の5、令和8年4月1日施行、既に施行済み）が新設した申請義務の対象ではありません。同条の義務は「所有権の登記名義人」（所有権の登記がある不動産の権利部に記録された名義人）を対象とするものであり、本問の表題部所有者（所有権の登記がない不動産の表題部に記録された所有者、不動産登記法2条10号）には適用されません。また、同改正によって一括申請の可否を定める不動産登記規則35条・不動産登記令4条ただし書の規律自体に変更はなく、本問各肢（一括申請の可否）の結論に影響はありません。相続登記義務化（同法76条の2、令和6年4月1日施行）も、本問には相続に関する記述がないため関係しません。
+- **最新法令チェック（2026-08-16実施）**：イ・オが扱う表題部所有者の住所についての更正の登記・氏名についての変更の登記は、住所変更登記義務化（不動産登記法76条の5、令和8年4月1日施行、既に施行済み）が新設した申請義務の対象ではありません。同条の義務は「所有権の登記名義人」（所有権の登記がある不動産の権利部に記録された名義人）を対象とするものであり、本問の表題部所有者（所有権の登記がない不動産の表題部に記録された所有者、不動産登記法2条10号）には適用されません。また、同改正によって一括申請の可否を定める不動産登記規則35条・不動産登記令4条ただし書の規律自体に変更はなく、本問各肢（一括申請の可否）の結論に影響はありません。相続登記義務化（同法76条の2、令和6年4月1日施行）も、本問には相続に関する記述がないため関係しません。
 
 ---
 
@@ -113,12 +127,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・建・物・登・記・変・併 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -187,17 +219,17 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence
 of explanatory prose — every card's takeaway must read as a short
-heading + a short conclusion tag, at a glance.
+heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -218,12 +250,12 @@ icons for applicants. All 5 panels share the same first decision node in
 their diagram (申請人は同一か。所有権登記名義人か表題部所有者かという
 資格の違いや、持分の割合の違いは問わない); render this node with a thick
 highlighted border in every panel to show it is common ground. From that
-shared node, Panels 2（肢イ）and 4（肢エ）branch into a second node asking
+shared node, Panels 2（イ）and 4（エ）branch into a second node asking
 whether the combination matches one of 不動産登記規則35条の個別列挙事由
 (a specific enumerated pairing such as 更正+分筆 or 分割+合併) — highlight
 this branch in those two panels and render the other branch (登記令4条
-ただし書のルート) in a faded, greyed-out style. Panels 1（肢ア）、3（肢ウ）
-and 5（肢オ）instead branch into a second node asking whether 登記の目的・
+ただし書のルート) in a faded, greyed-out style. Panels 1（ア）、3（ウ）
+and 5（オ）instead branch into a second node asking whether 登記の目的・
 登記原因・その日付がすべて同一か（不動産登記令4条ただし書）— highlight
 this branch in those three panels and render the 規則35条列挙のルート in a
 faded, greyed-out style in those panels. Where a 肢 requires checking
@@ -275,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 資格違っても同じAなら申請人同一
@@ -291,6 +323,10 @@ branch highlighted leading into a third diamond node (thick highlighted
 border): 登記の目的・原因・日付はすべて同一か（分筆の登記で共通）？with
 a はい arrow leading to a conclusion node reading 一の申請情報でまとめて
 申請できる。
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
+The いいえ branch of the third diamond (thin, lighter tone) leads to its own
+conclusion node reading 別々の申請情報で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲土地と乙土地の申請人が同じ人物Aかどうかを確認します。所有権登記
 名義人か表題部所有者かという資格の違いがあっても、次に登記の目的・原因・
@@ -300,7 +336,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 資格違っても同一人物
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 同じ土地の更正と分筆はまとめ可
@@ -316,6 +352,8 @@ a はい arrow leading to a conclusion node reading 規則35条の個別列挙�
 により一の申請情報でまとめて申請できる。Render the alternative branch
 （登記令4条ただし書のルート）in a faded, greyed-out style since it is not
 needed here.
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、2つの登記がいずれも甲土地という同一の不動産についてのものかを確認
 します。同一不動産についての更正の登記と分筆の登記の組み合わせは規則35条
@@ -325,7 +363,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規則35条7号でOK
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 持分違っても共有者同じなら一括可
@@ -342,6 +380,10 @@ branch highlighted leading into a third diamond node (thick highlighted
 border): 登記の目的・原因・日付はすべて同一か（地目の変更・同時の宅地
 造成・同一の日付）？with a はい arrow leading to a conclusion node reading
 一の申請情報でまとめて申請できる。
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
+The いいえ branch of the third diamond (thin, lighter tone) leads to its own
+conclusion node reading 別々の申請情報で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、持分の割合が違っていても、甲土地と乙土地の共有者がA及びBで同じか
 どうかを確認します。持分の大小は申請人の同一性に影響しません。次に、登記
@@ -351,7 +393,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分違っても同一人扱い
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分割と合併も一連の手続でまとめ可
@@ -367,6 +409,8 @@ branch): 規則35条の個別列挙事由（附属建物の分割の登記及び
 a conclusion node reading 規則35条の個別列挙事由により一の申請情報で
 まとめて申請できる。Render the alternative branch（登記令4条ただし書の
 ルート）in a faded, greyed-out style since it is not needed here.
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、分割の登記と合併の登記のいずれも申請人がAで同一かを確認します。次
 に、附属建物を分割してから他の建物の附属建物とする組み合わせが規則35条
@@ -376,7 +420,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規則35条2号でOK
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 建物と土地またいでも同一原因なら可
@@ -391,6 +435,10 @@ branch highlighted leading into a third diamond node (thick highlighted
 border): 登記の目的・原因・日付はすべて同一か（氏名の変更の登記・婚姻・
 同一の日付）？with a はい arrow leading to a conclusion node reading 一の
 申請情報でまとめて申請できる。
+The いいえ branch of the first diamond (thin, lighter tone) leads to a small
+conclusion node reading 申請人が違えば原則として別々に申請する.
+The いいえ branch of the third diamond (thin, lighter tone) leads to its own
+conclusion node reading 別々の申請情報で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、氏名変更の登記の対象が甲建物と乙土地という種類の違う不動産であって
 も、申請人がAで同一であることを確認します。次に、登記の目的（氏名の変更

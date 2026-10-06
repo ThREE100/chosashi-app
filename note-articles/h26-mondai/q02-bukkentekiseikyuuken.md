@@ -2,19 +2,21 @@
 
 **出題年度：平成26年度　午後の部　第2問**
 
-> 物権的請求権に関する次のアからオまでの記述のうち，判例の趣旨に照らし誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　所有権に基づく物権的請求権は，10年の消滅時効により消滅する。
->
-> イ　所有者は，その所有権の取得について対抗要件を備えていなくても，その所有物を不法に占有する者に対して，所有権に基づく返還請求権を行使することができる。
->
-> ウ　所有権に基づく妨害排除請求権を行使するには，妨害状態が発生したことについて相手方に故意又は過失がなければならない。
->
-> エ　占有者が所有者に対して提起した占有の訴えに対して，所有者は，その所有権に基づく反訴を提起することができる。
->
-> オ　所有者は，その所有物について権原を有しない者から賃借して占有する者だけでなく，当該所有物を賃貸した者に対しても，所有権に基づく返還請求権を行使することができる。
->
+> 物権的請求権に関する次のアからオまでの記述のうち，判例の趣旨に照らし誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　所有権に基づく物権的請求権は，10年の消滅時効により消滅する。  
+>　  
+> イ　所有者は，その所有権の取得について対抗要件を備えていなくても，その所有物を不法に占有する者に対して，所有権に基づく返還請求権を行使することができる。  
+>　  
+> ウ　所有権に基づく妨害排除請求権を行使するには，妨害状態が発生したことについて相手方に故意又は過失がなければならない。  
+>　  
+> エ　占有者が所有者に対して提起した占有の訴えに対して，所有者は，その所有権に基づく反訴を提起することができる。  
+>　  
+> オ　所有者は，その所有物について権原を有しない者から賃借して占有する者だけでなく，当該所有物を賃貸した者に対しても，所有権に基づく返還請求権を行使することができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+
+---
 
 物権的請求権（返還請求権・妨害排除請求権・妨害予防請求権）は、所有権という物権から生じる権利です。不法行為に基づく損害賠償請求権など、債権的な請求権との性質の違いを意識しながら整理すると理解しやすい分野です。
 
@@ -22,7 +24,9 @@
 
 所有権そのものが消滅時効にかからない権利である以上、そこから派生する物権的請求権も、所有権が存続している限り時効によって消滅することはありません。所有権と物権的請求権を切り離して考えることはできないのです。
 
-**たとえば**、Aさんが所有する土地に、Bさんが無断で物置を置いたまま10年以上放置していたとします。この場合でも、Aさんの土地の所有権自体が消滅しない限り、Aさんは何年経っていてもBさんに対して物置の撤去を求める返還請求権（妨害排除請求権）を行使することができます。
+**たとえば**、Aさんが所有する土地に、Bさんが無断で物置を置いたまま10年以上放置していたとします。
+
+この場合でも、Aさんの土地の所有権自体が消滅しない限り、Aさんは何年経っていてもBさんに対して物置の撤去を求める返還請求権（妨害排除請求権）を行使することができます。
 
 ### イ：対抗要件がなくても、不法占有者には返還請求できる
 
@@ -38,7 +42,9 @@
 
 ### エ：占有の訴えに対して、所有権に基づく反訴を起こすことができる
 
-占有者が所有者を相手に占有回収の訴えなどを提起した場合、その訴訟の中で所有者の本権（所有権）に基づく主張を防御方法とすることはできませんが、別途、所有権に基づく反訴を提起することは認められています。占有の訴えと本権の訴えは、別個の訴訟として並存できるという考え方です。
+占有者が所有者を相手に占有回収の訴えなどを提起した場合、その訴訟の中で所有者の本権（所有権）に基づく主張を防御方法とすることはできませんが、別途、所有権に基づく反訴を提起することは認められています。
+
+占有の訴えと本権の訴えは、別個の訴訟として並存できるという考え方です。
 
 **たとえば**、Bさんが「Aさんに土地を奪われた」として占有回収の訴えを起こした場合、Aさんはその訴訟の中で「自分に所有権があるから正当だ」と抗弁することはできませんが、これとは別に所有権に基づく明渡請求の反訴を提起して、決着をつけることができます。
 
@@ -46,19 +52,29 @@
 
 所有者が返還請求できる相手は、無権原で直接占有している者だけに限られません。所有物を他人に賃貸して間接的に占有を及ぼしている賃貸人も、返還請求権の相手方となり得るとされています。
 
-**たとえば**、Aさんの所有する建物を、権原のないBさんが、さらに第三者Cさんに賃貸して占有させていたとします。この場合、Aさんは実際に建物を使っているCさんだけでなく、それを貸し出したBさんに対しても、所有権に基づく返還請求権を行使することができます。
+**たとえば**、Aさんの所有する建物を、権原のないBさんが、さらに第三者Cさんに賃貸して占有させていたとします。
+
+この場合、Aさんは実際に建物を使っているCさんだけでなく、それを貸し出したBさんに対しても、所有権に基づく返還請求権を行使することができます。
 
 **ここが分かりにくいポイント**：
-「返還請求は、今実際にその物を持っている人にするもの」と読んだ時点で、Cさんが現に建物に住んでいるのだから、返還請求の相手はCさんだけのはずだ、と考えて、そこで思考を止めてしまいがちです。しかし、民法が定める「占有」には、自分の手元に物を置いて支配する場合だけでなく、人に貸すなどして間接的に物を支配する場合も含まれます（民法181条）。
+「返還請求は、今実際にその物を持っている人にするもの」と読んだ時点で、Cさんが現に建物に住んでいるのだから、返還請求の相手はCさんだけのはずだ、と考えて、そこで思考を止めてしまいがちです。
+
+しかし、民法が定める「占有」には、自分の手元に物を置いて支配する場合だけでなく、人に貸すなどして間接的に物を支配する場合も含まれます（民法181条）。
 
 次の手順で考えると、迷わず結論にたどり着けます。
 
 1. まず、「占有」には2種類あることを思い出します。自分が実際に物を持っている**直接の占有**と、他人（賃借人など）に物を使わせることで間接的に物を支配している**代理占有**（民法181条。一般には「間接占有」とも呼ばれます）です。
 2. 無権原の賃貸人Bは、Cに建物を使わせているという形で、この代理占有を有していると考えられます。物を直接手にしていなくても、法律上は「占有者」として扱われるのです。
 3. 所有権に基づく返還請求権は「占有者」に対して行使できる権利であり、この「占有者」には直接占有している人だけでなく、代理占有している人も含まれます。
-4. したがって、Aさんは実際に建物を使っているCさんだけでなく、それを貸し出したBさん自身に対しても、返還請求権を行使することができます。Bへの請求が認められれば、BがCとの賃貸借契約を解消するなどして、最終的に建物の明渡しが実現されるという仕組みです。
+4. したがって、Aさんは実際に建物を使っているCさんだけでなく、それを貸し出したBさん自身に対しても、返還請求権を行使することができます。
 
-同じ問題の肢イでは、無権原で直接住み着いている不法占有者（直接占有者）1人だけが登場する単純な場面でした。肢オはそこに「直接は持っていないが、占有者として扱われる人（代理占有者）」という発想を1段階加えた応用パターンだと考えると、整理しやすくなります。
+Bへの請求が認められれば、BがCとの賃貸借契約を解消するなどして、最終的に建物の明渡しが実現されるという仕組みです。
+
+同じ問題のイでは、無権原で直接住み着いている不法占有者（直接占有者）1人だけが登場する単純な場面でした。
+
+オはそこに「直接は持っていないが、占有者として扱われる人（代理占有者）」という発想を1段階加えた応用パターンだと考えると、整理しやすくなります。
+
+---
 
 ### まとめ
 
@@ -121,12 +137,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・請・求・占・有・妨・害・排・除・訴・貸・過・失 — these must be rendered
 in their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -211,22 +245,22 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
 ## インフォグラフィック プロンプト（オ肢・間違いノート）
 
-肢オで読者がつまずきやすいのは、「返還請求は、今実際にその物を持っている人にするもの」という思い込みで思考が止まり、貸し出しただけで直接は物を持っていないBさんへの請求を見落としてしまう点です。占有には直接占有と代理占有（民法181条）の2種類があり、代理占有者も「占有者」として返還請求の相手方になるという2段階の判定過程を、決定木の形で示します。
+オで読者がつまずきやすいのは、「返還請求は、今実際にその物を持っている人にするもの」という思い込みで思考が止まり、貸し出しただけで直接は物を持っていないBさんへの請求を見落としてしまう点です。占有には直接占有と代理占有（民法181条）の2種類があり、代理占有者も「占有者」として返還請求の相手方になるという2段階の判定過程を、決定木の形で示します。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -247,10 +281,17 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 占・有・代・理・請・求・
-権・貸・賃・借・誤 — always draw the standard Japanese (Jōyō) form.
+any characters. Pay special attention to the kanji 占・有・代・理・請・求・権・貸・賃・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -272,14 +313,15 @@ Subtitle (smaller, centered):
 Start node (rectangle, isometric building icon):
 Aさんの建物を、無権原のBさんがCさんに賃貸して住まわせている
 
-Down arrow to Decision node 1 (diamond icon):
-Cさんに返還請求できるか？
+Down arrow to Check box 1 (rectangle, NOT a diamond):
+まず、Cさんに返還請求できるか
 
 Branch (green checkmark, short side note):
 Cは実際に建物を使っている「直接占有者」→ 請求できる（○）
 
-Down arrow to Decision node 2 (diamond icon, larger, the main point of
-this panel):
+Down arrow to Question box 2 (rectangle, NOT a diamond, larger, the main
+point of this panel), which splits into a side-by-side comparison of a
+wrong answer and the correct reasoning:
 では、貸し出しただけで実際には住んでいないBさんにも返還請求できるか？
 
 Branch left (labeled「ありがちな誤答」, red X icon, muted gray-red panel):
@@ -303,12 +345,12 @@ highlighted in green):
 「代理占有」（民法181条）があり、代理占有をしている人も「占有者」として
 返還請求の相手方になります。
 
---- COMPARISON: 同じ問題の肢イとの違い ---
-Left panel (heading「肢イ：直接占有者だけが登場する場面」):
+--- COMPARISON: 同じ問題のイとの違い ---
+Left panel (heading「イ：直接占有者だけが登場する場面」):
 不法占有者C本人が土地に住み着いているだけの単純な場面。Cへの直接請求のみ
 が問題になる。
 
-Right panel (heading「肢オ：代理占有者Bも登場する応用パターン」):
+Right panel (heading「オ：代理占有者Bも登場する応用パターン」):
 Cに加えて、Cに使わせているだけのBも登場する。Cへの直接請求だけでなく、
 Bへの請求（代理占有者への請求）まで問われる。
 
@@ -318,7 +360,7 @@ Bへの請求（代理占有者への請求）まで問われる。
 ない。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters,
 confirm nothing is rendered below the FOOTER's small footnote text (no
@@ -328,7 +370,7 @@ edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -345,16 +387,16 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — a land plot with a storage shed for 時効・故意
 過失 panels, an unregistered land-purchase document for 対抗要件, a
 courthouse icon for 反訴, and a building with two occupant figures
-（直接占有者・代理占有者）for the 賃貸人への請求 panel. Panel 5 (肢オ) turns
+（直接占有者・代理占有者）for the 賃貸人への請求 panel. Panel 5 (オ) turns
 on a two-step check（占有には直接占有と代理占有の2種類があること、代理
 占有者も「占有者」として返還請求の相手方になること）, so draw it as an
-actual decision flowchart with two diamond nodes; this same distinction is
+check flow of two rectangular boxes (no diamonds); this same distinction is
 explored in much greater depth elsewhere in this article's「間違いノート」
 image, so keep this panel's flowchart compact and consistent with — but
 simpler than — that fuller version. This article's 5 肢 do not share a
 common fact pattern with each other, so there is no shared tree shape to
 reuse across panels; design each panel independently. Where a 肢 is
-resolved by a single check (肢ア・肢イ・肢ウ・肢エ), a labeled illustrative
+resolved by a single check (ア・イ・ウ・エ), a labeled illustrative
 diagram is sufficient — do not force a flowchart. Unlike a glanceable
 summary poster, each panel MAY include a short「着眼点」callout box with
 1-2 sentences that state the checking ORDER in words (e.g. "まず〜を確認
@@ -365,7 +407,15 @@ text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -389,7 +439,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 所有権がある限り時効で消えない
@@ -408,7 +458,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 何年でも消えない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 登記がなくても不法占有者に勝てる
@@ -424,7 +474,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 対抗要件不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 故意・過失がなくても妨害排除できる
@@ -440,7 +490,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主観要件は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 占有の訴えにも所有権で反訴できる
@@ -457,16 +507,16 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 別訴訟で反撃
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 貸しただけの人にも返還請求できる
-Diagram: A decision-tree flowchart. Start node: 無権原のＢが、Ａの建物を
-Ｃに賃貸してＣが実際に住んでいる。Diamond node: 実際に建物を使っている
-Ｃに返還請求できるか？with a はい arrow（直接占有者）leading to a small
-green checkmark. Second diamond node (highlighted, the main point of this
-panel): 貸し出しただけで実際には住んでいないＢにも返還請求できるか？with
-a はい arrow (Ｂは代理占有者にあたるため) leading to a conclusion node
+Diagram: A check flow of rectangular boxes (no diamonds). Start node:
+無権原のＢが、Ａの建物をＣに賃貸してＣが実際に住んでいる。Check box 1:
+実際に建物を使っているＣ＝直接占有者 → 返還請求の相手方（small green
+checkmark）. A single arrow leads to check box 2 (highlighted, the main
+point of this panel): 貸し出しただけのＢ＝代理占有者（民法181条）→ これも
+「占有者」. A single arrow leads to a conclusion node
 showing two arrows labeled 返還請求 pointing from Ａ to both Ｂ and Ｃ, each
 with a green checkmark.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -480,17 +530,17 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法181条（代理占有）に基づく整理です。肢ア・ウ・エ・オの結論のうち条文
+民法181条（代理占有）に基づく整理です。ア・ウ・エ・オの結論のうち条文
 に直接の定めがない部分は、判例・学説上確立した原則によるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権, 請, 求, 占, 有, 妨, 害, 排, 除, 訴, 貸, 賃, 提, 起. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権, 請, 求, 占, 有, 妨, 害, 排, 除, 訴, 貸, 賃, 提, 起. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that the
-multi-condition 肢 (肢オ) is drawn as an actual flowchart with branch
+multi-condition 肢 (オ) is drawn as an actual flowchart with branch
 nodes (not a bare illustration with no visible decision structure), that
 each 着眼点 callout states a checking order rather than only a conclusion,
 confirm nothing is rendered below the last panel's footnote text (no

@@ -2,58 +2,81 @@
 
 **出題年度：令和5年度　午後の部　第6問**
 
-> 地図に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　地図を作成するための測量は、基本測量の成果である電子基準点を基礎として行うことができる。
->
-> イ　電磁的記録に記録された地図には、基本三角点等の位置のみならず、その名称及びその座標値を記録しなければならない。
->
-> ウ　土地家屋調査士が作成した測量成果である実測図であって、国土調査法第19条第5項の指定を受け、登記所に送付されるものについては、不適当とする特別の事情がある場合を除き、これを地図として登記所に備え付けることができる。
->
-> エ　新たに地図が備え付けられたことにより、電磁的記録に記録されている地図に準ずる図面が閉鎖された場合には、当該地図に準ずる図面の情報の内容を証明した書面の交付を請求することはできない。
->
-> オ　地図に表示された土地の区画に誤りがあることによる地図の訂正の申出をする場合において、当該申出の際に添付する地積測量図に記録された地積と当該土地の登記記録上の地積との差が公差の範囲内であっても、当該申出は、地積に関する更正の登記の申請と併せてしなければならない。
->
-> （参考）
-> 国土調査法
-> 第19条（略）
-> 2～4　（略）
-> 5　国土調査以外の測量及び調査を行った者が当該測量及び調査の結果作成された地図及び簿冊について政令で定める手続により国土調査の成果としての認証を申請した場合においては、国土交通大臣又は事業所管大臣は、これらの地図及び簿冊が第2項の規定により認証を受けた国土調査の成果と同等以上の精度又は正確さを有すると認めたときは、これらを同項の規定によって認証された国土調査の成果と同一の効果があるものとして指定することができる。
-> 6～8　（略）
->
+> 地図に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　地図を作成するための測量は、基本測量の成果である電子基準点を基礎として行うことができる。  
+>　  
+> イ　電磁的記録に記録された地図には、基本三角点等の位置のみならず、その名称及びその座標値を記録しなければならない。  
+>　  
+> ウ　土地家屋調査士が作成した測量成果である実測図であって、国土調査法第19条第5項の指定を受け、登記所に送付されるものについては、不適当とする特別の事情がある場合を除き、これを地図として登記所に備え付けることができる。  
+>　  
+> エ　新たに地図が備え付けられたことにより、電磁的記録に記録されている地図に準ずる図面が閉鎖された場合には、当該地図に準ずる図面の情報の内容を証明した書面の交付を請求することはできない。  
+>　  
+> オ　地図に表示された土地の区画に誤りがあることによる地図の訂正の申出をする場合において、当該申出の際に添付する地積測量図に記録された地積と当該土地の登記記録上の地積との差が公差の範囲内であっても、当該申出は、地積に関する更正の登記の申請と併せてしなければならない。  
+>　  
+> （参考）  
+>　  
+> 国土調査法  
+>　  
+> 第19条（略）  
+>　  
+> 2～4　（略）  
+>　  
+> 5　国土調査以外の測量及び調査を行った者が当該測量及び調査の結果作成された地図及び簿冊について政令で定める手続により国土調査の成果としての認証を申請した場合においては、国土交通大臣又は事業所管大臣は、これらの地図及び簿冊が第2項の規定により認証を受けた国土調査の成果と同等以上の精度又は正確さを有すると認めたときは、これらを同項の規定によって認証された国土調査の成果と同一の効果があるものとして指定することができる。  
+>　  
+> 6～8　（略）  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-地図は、土地の位置や区画を公的に示す、登記制度の土台となる図面です。この問題では、地図を作るための測量の基礎、地図に何を記録するのか、どういう図面が地図として備え付けられるのか、閉鎖された図面はどこまで証明できるのか、そして地図訂正と地積更正の関係まで、地図をめぐる幅広い論点が問われています。
+---
+
+地図は、土地の位置や区画を公的に示す、登記制度の土台となる図面です。
+
+この問題では、地図を作るための測量の基礎、地図に何を記録するのか、どういう図面が地図として備え付けられるのか、閉鎖された図面はどこまで証明できるのか、そして地図訂正と地積更正の関係まで、地図をめぐる幅広い論点が問われています。
 
 ### ア：地図作成の測量は、電子基準点を基礎として行うことができる
 
-地図を作成するための測量は、測量法の規定による基本測量の成果である三角点及び電子基準点、国土調査法の規定により認証もしくは指定された基準点、またはこれらと同等以上の精度を有する基準点を基礎として行うものとされています（規則10条3項）。電子基準点は基本測量の成果ですから、これを基礎として測量を行うことができます。
+地図を作成するための測量は、測量法の規定による基本測量の成果である三角点及び電子基準点、国土調査法の規定により認証もしくは指定された基準点、またはこれらと同等以上の精度を有する基準点を基礎として行うものとされています（規則10条3項）。
+
+電子基準点は基本測量の成果ですから、これを基礎として測量を行うことができます。
 
 **たとえば**、調査士のAさんが地図を作るために測量をするとき、全国に設置されているGNSSの電子基準点を出発点として座標を求めていくことができます。ゼロから独自に基準を決めるのではなく、国が整備した基準点にきちんとつなげて測るわけです。
 
 ### イ：記録するのは基本三角点等の「位置」であって、名称・座標値ではない
 
-地図には、縮尺、図郭線及びその座標値、地番、精度区分などのほか、筆界点の位置を求めるための基準となる基本三角点等の「位置」も記録されます（規則13条1項）。また、地図を電磁的記録に記録する場合は、各筆界点の座標値も記録されます（規則13条2項）。しかし、基本三角点等の「名称及びその座標値」は記録事項とはされていません。「〜しなければならない」とまで言い切っている本肢は誤りです。
+地図には、縮尺、図郭線及びその座標値、地番、精度区分などのほか、筆界点の位置を求めるための基準となる基本三角点等の「位置」も記録されます（規則13条1項）。
+
+また、地図を電磁的記録に記録する場合は、各筆界点の座標値も記録されます（規則13条2項）。しかし、基本三角点等の「名称及びその座標値」は記録事項とはされていません。「〜しなければならない」とまで言い切っている本肢は誤りです。
 
 **たとえば**、電子データの地図を開いたとき、そこには「この筆界点はこの座標」という各筆界点の座標値や、基準となる基本三角点等が図面上のどこにあるか（位置）は載っていますが、その基本三角点の名前や座標値そのものまで必ず記録しておかなければならない、というルールにはなっていません。
 
 ### ウ：指定を受けた実測図は、地図として備え付けることができる
 
-国土調査法の規定により登記所に送付された地籍図は、地図として備え付けることを不適当とする特別の事情がある場合を除き、地図として備え付けられます（規則10条5項）。そして、土地家屋調査士が作成した測量成果である実測図など、国土調査以外の事業により作成された地図であっても、国土調査法19条5項の指定を受ければ、国土調査の成果と同等以上の精度・正確さを有すると認められるため、地籍図と同様に扱われ、地図として備え付けることができます。
+国土調査法の規定により登記所に送付された地籍図は、地図として備え付けることを不適当とする特別の事情がある場合を除き、地図として備え付けられます（規則10条5項）。
+
+そして、土地家屋調査士が作成した測量成果である実測図など、国土調査以外の事業により作成された地図であっても、国土調査法19条5項の指定を受ければ、国土調査の成果と同等以上の精度・正確さを有すると認められるため、地籍図と同様に扱われ、地図として備え付けることができます。
 
 **たとえば**、調査士のAさんが精密に作成した実測図が、国土調査法19条5項の指定を受けて登記所に送られてきた場合、その図面は国土調査で作られた地籍図と肩を並べる扱いを受け、特別の事情がない限り、登記所の地図として備え付けられます。
 
 ### エ：閉鎖された図面でも、証明書の交付を請求できる
 
-新たに地図が備え付けられて古い「地図に準ずる図面（いわゆる公図）」が閉鎖された場合でも、閉鎖された地図・地図に準ずる図面・建物所在図については、閉鎖されたものである旨の認証文が入った写しの交付を請求することができます（不動産登記事務取扱手続準則136条1項9号・10号）。閉鎖されたからといって、その内容を証明した書面がまったく取れなくなるわけではありません。
+新たに地図が備え付けられて古い「地図に準ずる図面（いわゆる公図）」が閉鎖された場合でも、閉鎖された地図・地図に準ずる図面・建物所在図については、閉鎖されたものである旨の認証文が入った写しの交付を請求することができます（不動産登記事務取扱手続準則136条1項9号・10号）。
 
-**たとえば**、ある地区に新しい地図が整備されて、それまで使われていた公図が閉鎖されたとします。それでも、過去の区画がどうなっていたかを確認したいときには、「これは閉鎖された図面です」という認証文付きの写しを請求して、内容を証明してもらうことができます。
+閉鎖されたからといって、その内容を証明した書面がまったく取れなくなるわけではありません。
+
+**たとえば**、ある地区に新しい地図が整備されて、それまで使われていた公図が閉鎖されたとします。
+
+それでも、過去の区画がどうなっていたかを確認したいときには、「これは閉鎖された図面です」という認証文付きの写しを請求して、内容を証明してもらうことができます。
 
 ### オ：地積の差が公差の範囲内なら、地積更正を併せてする必要はない
 
-地図に表示された土地の区画に誤りがあるための地図訂正の申出をする場合において、当該土地の登記記録の地積に錯誤があるときは、地図訂正の申出と併せて土地の地積を更正する登記をしなければなりません（規則16条2項）。ただし、申出の際に添付する地積測量図に記録された地積と登記記録上の地積との差が公差の範囲内であれば、地積の更正の登記を併せてする必要はありません。「公差の範囲内であっても併せてしなければならない」とする本肢は誤りです。
+地図に表示された土地の区画に誤りがあるための地図訂正の申出をする場合において、当該土地の登記記録の地積に錯誤があるときは、地図訂正の申出と併せて土地の地積を更正する登記をしなければなりません（規則16条2項）。
+
+ただし、申出の際に添付する地積測量図に記録された地積と登記記録上の地積との差が公差の範囲内であれば、地積の更正の登記を併せてする必要はありません。「公差の範囲内であっても併せてしなければならない」とする本肢は誤りです。
 
 **たとえば**、Aさんの土地について地図の区画のずれを直す申出をするとき、測り直した地積と登記簿上の地積の差がごくわずかで、法律の許す誤差（公差）の範囲内におさまっているなら、わざわざ地積の更正の登記まで一緒にする必要はなく、地図訂正の申出だけで足ります。
+
+---
 
 ### まとめ
 
@@ -75,7 +98,7 @@
 - 出題番号・正解番号（2番＝ア・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠は、ア（不動産登記規則10条3項）、イ（規則13条1項・2項）、ウ（規則10条5項、国土調査法19条5項）、エ（不動産登記事務取扱手続準則136条1項9号・10号）、オ（規則16条2項）と、いずれもデータベースの解説で条文レベルまで明記されているものです。一般原則からの推論にとどまる肢はありません。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
-- 問題文の引用ブロックには、当初、肢ウが引用する国土調査法19条5項の（参考）条文本文が抜け落ちていました（「第19条（略）」のみで終わっていた）。takuitsu.jsonのexplanationフィールドから同項の正確な条文本文を確認し、追記しています。
+- 問題文の引用ブロックには、当初、ウが引用する国土調査法19条5項の（参考）条文本文が抜け落ちていました（「第19条（略）」のみで終わっていた）。takuitsu.jsonのexplanationフィールドから同項の正確な条文本文を確認し、追記しています。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（地図）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026-08-03実施）**：不動産登記規則10条3項ほか、引用した各条文は令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
 - **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。ア（規則10条3項）・イ（規則13条1項・2項）・ウ（規則10条5項）・オ（規則16条2項）は原文と一致し相違なし。エの根拠条文に誤りがあり、「不動産登記規則136条1項8号・9号」は同条が実際には無関係の建物分割・区分合併登記の規定であるため誤りと判明したため、「不動産登記事務取扱手続準則136条1項9号・10号」（閉鎖された地図等の写し・閉鎖された地図等の電磁的記録内容証明書に関する認証文の規定）に修正しました（本文・確認用の根拠一覧の2箇所）。なお、ウが引用する国土調査法19条5項は同法がローカル法令データベースに未収録のため、今回は照合対象外としそのままにしています。正解番号（②＝ア・ウ）は独立確認済みの公式正解と一致しています。
@@ -117,12 +140,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 録・地・登・記・所・証・図 — these must be rendered in their
+kanji 録・地・登・記・証・図 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -142,9 +183,11 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 測量は電子基準点を基礎にできる
 Illustration: An isometric surveyor character holding a GNSS receiver,
-connected by dotted measurement lines upward to a satellite icon labeled
-"電子基準点" and downward to a ground-based survey pillar icon, with
-measurement lines extending outward to define a land plot boundary.
+receiving signals from small satellite icons labeled "GNSS衛星" in the
+sky, and connected by a dotted measurement line to a tall ground-based
+pillar-shaped station icon labeled "電子基準点" (the 電子基準点 is the
+pillar on the ground, NOT a satellite), with measurement lines extending
+outward to define a land plot boundary.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 電子基準点が基礎
 
@@ -201,18 +244,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「地図に何が記録されるか」という思い込みを正すイ、「指定を受ければ地図になる」「地積差が公差内なら更正不要」という複数条件をどの順で確認するかがカギになるウ・オを中心とした5パネル構成。イは正しいルールと誤りやすい思い込みを左右で対比させる正誤対比型、ウ・オは2段階の決定木として描く。
 
@@ -221,7 +264,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(地図、どうやって作られ証明される?), but built as a set of 5
+(地図、どうやって作られ証明される？), but built as a set of 5
 diagram-drawing panels (a "how to sketch this fact pattern, in the right
 order" study reference) rather than a quick-reference conclusion poster.
 
@@ -253,7 +296,15 @@ body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently throughout, including inside Japanese asides.
@@ -278,14 +329,16 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 電子基準点を基礎に測量できる
 Diagram: An isometric surveyor character holding a GNSS receiver,
-connected by dotted measurement lines upward to a satellite icon labeled
-電子基準点 and downward to a ground survey point, with the measurement
-lines extending outward to define a land plot boundary on the ground.
+receiving signals from small satellite icons labeled GNSS衛星 in the
+sky, and connected by a dotted measurement line to a tall ground-based
+pillar-shaped station icon labeled 電子基準点 (the 電子基準点 is the
+pillar on the ground, NOT a satellite), with the measurement lines
+extending outward to define a land plot boundary on the ground.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず地図を作成するための測量が、どの基準点を基礎にしているかを確認しま
 す。基本測量の成果である電子基準点は、地図作成の測量の基礎として使うこ
@@ -294,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 電子基準点が基礎
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 記録するのは位置だけで名称と座標値は対象外
@@ -312,14 +365,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 名称・座標値は対象外
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 指定を受け特別事情なければ地図になる
 Diagram: A decision flowchart. Start node: 国土調査法19条5項の指定を受
-けた実測図か?. A いいえ arrow leads to its own conclusion node reading
+けた実測図か？. A いいえ arrow leads to its own conclusion node reading
 地図として備え付けられない. A はい arrow leads to a second diamond node:
-これを地図として備え付けるのを不適当とする特別の事情があるか?. From
+これを地図として備え付けるのを不適当とする特別の事情があるか？. From
 this second diamond, a いいえ arrow leads to a conclusion node showing
 the 実測図 scroll being mounted onto a wall display labeled 地図, reading
 地図として備え付けられる, and a separate はい arrow leads to its own
@@ -334,7 +387,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地図として備付可
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 閉鎖後も認証文付きの写しを請求できる
@@ -350,15 +403,15 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 閉鎖後も写し請求可
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 差が公差内なら地積更正は不要
 Diagram: A decision flowchart. Start node: 地図訂正の申出に係る土地の登
-記記録上の地積に錯誤があるか?. A いいえ arrow leads to its own
+記記録上の地積に錯誤があるか？. A いいえ arrow leads to its own
 conclusion node reading 地積更正登記は問題にならない. A はい arrow leads
 to a second diamond node showing a balance-scale icon comparing 測量した
-地積 and 登記記録上の地積: その差は公差の範囲内か?. From this second
+地積 and 登記記録上の地積: その差は公差の範囲内か？. From this second
 diamond, a はい arrow leads to a conclusion node with a crossed-out 地積
 更正登記 form, reading 地積更正登記は併せて不要, and a separate いいえ
 arrow leads to its own conclusion node reading 地積更正登記を併せて申請
@@ -377,11 +430,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記事務取扱手続準則136条1項9号・10号に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 録, 地, 登, 記, 所, 証, 図, 錯 and any character that has a
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 録, 地, 登, 記, 証, 図, 錯 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panel 2 is drawn as a left/right
 comparison with the faded/×'d side clearly distinguished from the

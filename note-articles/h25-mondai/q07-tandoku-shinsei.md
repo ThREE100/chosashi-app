@@ -2,19 +2,21 @@
 
 **出題年度：平成25年度　午後の部　第7問**
 
-> 次のアからオまでの記述のうち、第1欄に記載されている場合において、第2欄に記載されている登記を申請するときに、当該申請をAが単独ですることができないものの組合せは、後記1から5までのうち、どれか。なお、代位による登記の申請は、考慮しないものとする。
->
-> ア　甲土地の表題部所有者としてA及びBが記録され、Aの持分が3分の2と、Bの持分が3分の1と記録されているものの、真正な持分は、Aが4分の3で、Bが4分の1である場合 → 甲土地についてする表題部所有者A及びBの持分の更正の登記
->
-> イ　甲建物及び乙建物の所有権の登記名義人であるCが死亡し、A及びBが共同相続した場合において、その後に甲建物と乙建物が合体して1個の丙建物となったとき → 丙建物の表題登記並びに甲建物及び乙建物の表題登記の抹消の登記
->
-> ウ　甲建物の表題部所有者としてAが記録されているものの、真正な所有者は、Bである場合 → 甲建物の表題部所有者の更正の登記
->
-> エ　甲土地の所有権の登記名義人としてA及びBが記録されている場合 → 更正後の地積が減少することとなる甲土地の地積の更正の登記
->
-> オ　甲区分建物の所有権の登記名義人としてBが記録されているものの、規約により、甲区分建物がA及びBの共用部分とされている場合 → 甲区分建物についてする共用部分である旨の登記
->
+> 次のアからオまでの記述のうち、第1欄に記載されている場合において、第2欄に記載されている登記を申請するときに、当該申請をAが単独ですることができないものの組合せは、後記1から5までのうち、どれか。なお、代位による登記の申請は、考慮しないものとする。  
+>　  
+> ア　甲土地の表題部所有者としてA及びBが記録され、Aの持分が3分の2と、Bの持分が3分の1と記録されているものの、真正な持分は、Aが4分の3で、Bが4分の1である場合 → 甲土地についてする表題部所有者A及びBの持分の更正の登記  
+>　  
+> イ　甲建物及び乙建物の所有権の登記名義人であるCが死亡し、A及びBが共同相続した場合において、その後に甲建物と乙建物が合体して1個の丙建物となったとき → 丙建物の表題登記並びに甲建物及び乙建物の表題登記の抹消の登記  
+>　  
+> ウ　甲建物の表題部所有者としてAが記録されているものの、真正な所有者は、Bである場合 → 甲建物の表題部所有者の更正の登記  
+>　  
+> エ　甲土地の所有権の登記名義人としてA及びBが記録されている場合 → 更正後の地積が減少することとなる甲土地の地積の更正の登記  
+>　  
+> オ　甲区分建物の所有権の登記名義人としてBが記録されているものの、規約により、甲区分建物がA及びBの共用部分とされている場合 → 甲区分建物についてする共用部分である旨の登記  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 表示に関する登記は、不動産登記法16条により原則として単独申請主義がとられています。ただし、その原則にも一定の例外があり、「誰が申請人としての資格を持つか」を正確に見極める力が求められます。
 
@@ -32,7 +34,9 @@
 
 ### ウ：真の所有者と異なる名義人がいる更正登記は、単独申請できない
 
-甲建物の表題部所有者としてAが記録されているものの、実際の所有者はBであるという場合の更正登記は、更正の前後で人格の同一性が失われる（Aから全くの別人であるBへと変わる）ことになります。このような実質的な名義の入れ替えを伴う更正登記は、現在の名義人であるAの単独申請では行うことができません。
+甲建物の表題部所有者としてAが記録されているものの、実際の所有者はBであるという場合の更正登記は、更正の前後で人格の同一性が失われる（Aから全くの別人であるBへと変わる）ことになります。
+
+このような実質的な名義の入れ替えを伴う更正登記は、現在の名義人であるAの単独申請では行うことができません。
 
 **たとえば**、甲建物の登記記録上はAさんの名前になっているのに、実際に建てて所有しているのはBさんだったという場合、Aさんが一人だけの判断で「実は所有者はBさんです」という更正登記を申請することはできません。
 
@@ -47,6 +51,8 @@
 共用部分である旨の登記は、その建物の所有権の登記名義人が申請すべきものです。この事例では、甲区分建物の所有権の登記名義人はBであり、Aは所有権登記名義人ではありません。したがって、Aにはそもそも申請適格がなく、単独で申請することはできません。
 
 **たとえば**、マンションの集会室として使われている部屋（甲区分建物）の登記名義人がBさんだった場合、規約でA・B共用とされていたとしても、Aさんが単独でこの部屋を「共用部分である旨」の登記を申請することはできません。
+
+---
 
 ### まとめ
 
@@ -108,12 +114,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・建・物・登・記・所・権・相・続 — these must be rendered in their standard
+kanji 地・登・記・所・権・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -186,18 +210,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -215,12 +239,12 @@ conditions to get there — isometric buildings, land plots, registry
 desks, application documents, and official stamps. All 5 panels share the
 same root decision node in their diagram: 表示に関する登記の単独申請主義
 （不動産登記法16条）の例外に当たるか？Render this shared diamond with a
-thick highlighted border in every panel. In Panels 1（肢ア）、2（肢イ）and
-4（肢エ）, highlight the いいえ（例外に当たらない）branch and fade the はい
+thick highlighted border in every panel. In Panels 1（ア）、2（イ）and
+4（エ）, highlight the いいえ（例外に当たらない）branch and fade the はい
 branch, since these three 肢 all resolve to 単独で申請できる, but each
 panel's second-level diamond gives its OWN specific reason (a different
 sub-check per panel — do not reuse identical wording across these three
-panels). In Panels 3（肢ウ）and 5（肢オ）, highlight the はい（例外に当たる）
+panels). In Panels 3（ウ）and 5（オ）, highlight the はい（例外に当たる）
 branch and fade the いいえ branch instead, since these two 肢 resolve to
 単独で申請できない, again each with its own specific reason. Where a 肢's
 reasoning requires a second check after the shared root node, draw that
@@ -270,7 +294,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 持分の更正は原則どおり単独可
@@ -282,7 +306,7 @@ highlighted border): 持分の更正は、名義自体の入れ替えを伴う�
 いいえ arrow leading to a conclusion node reading 表題部所有者が単独で
 申請できる, illustrated by A alone stamping a document labeled 持分の更正
 の登記 with a green checkmark while B stands by without objecting. Render
-the はい（例外に当たる）branch in a faded, greyed-out style.
+the はい（例外に当たる）branch in a faded, greyed-out style. The はい branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 名義人単独では申請できない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記が単独申請主義の例外に当たらないかを確認します。持分の更正
 は名義自体の入れ替えを伴わないため、表題部所有者Aが単独で申請できます。
@@ -290,7 +314,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一人で申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 合体登記も保存行為で単独可
@@ -303,7 +327,7 @@ second diamond node (thick highlighted border): 共同相続人の一人によ�
 reading 相続人の一人が単独で申請できる, illustrated by only one of two
 inheriting figures, labeled 相続人A, stamping the registration document
 alone with a green checkmark. Render the はい（例外に当たる）branch in a
-faded, greyed-out style.
+faded, greyed-out style. The いいえ branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 相続人全員で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記が単独申請主義の例外に当たらないかを確認します。建物の合体
 による登記は、共同相続人の一人が保存行為として行うことが認められている
@@ -312,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為で可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 別人への入れ替えは単独不可
@@ -324,7 +348,7 @@ second diamond node (thick highlighted border): 更正の前後で名義人の�
 の同一性が失われるか（全くの別人に入れ替わるか）？with a はい arrow
 leading to a conclusion node reading 名義人単独では申請できない, shown as
 figure A alone trying to stamp the document, blocked by a red X. Render
-the いいえ（例外に当たらない）branch in a faded, greyed-out style.
+the いいえ（例外に当たらない）branch in a faded, greyed-out style. The いいえ branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 表題部所有者が単独で申請できる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この更正登記が単独申請主義の例外に当たらないかを確認します。表題部
 所有者Aから真の所有者Bへと名義が入れ替わり、人格の同一性が失われる更正
@@ -333,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 同一性なし不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 地積減少の更正も保存行為で可
@@ -345,7 +369,7 @@ highlighted leading to a second diamond node (thick highlighted border):
 共有者の一人による保存行為として認められるか？with a はい arrow leading
 to a conclusion node reading 共有者の一人が単独で申請できる, illustrated
 by A alone stamping the update document with a green checkmark. Render
-the はい（例外に当たる）branch in a faded, greyed-out style.
+the はい（例外に当たる）branch in a faded, greyed-out style. The いいえ branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 共有者全員で申請する.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記が単独申請主義の例外に当たらないかを確認します。地積の更正
 登記は、更正後に地積が減少する内容であっても、共有者の一人が保存行為とし
@@ -354,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 共有者一人で可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 共用部分登記は名義人以外不可
@@ -367,7 +391,7 @@ border, shared with all other panels): 単独申請主義（16条）の例外に
 node reading 申請適格がなく単独で申請できない, illustrated by figure B,
 labeled 所有権登記名義人, being able to stamp the document, while figure A
 standing nearby has a red X blocking their attempt to stamp it alone.
-Render the いいえ（例外に当たらない）branch in a faded, greyed-out style.
+Render the いいえ（例外に当たらない）branch in a faded, greyed-out style. The はい branch of the second diamond (thin, lighter tone) leads to its own conclusion node reading 所有権の登記名義人Bが申請できる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記が単独申請主義の例外に当たらないかを確認します。共用部分で
 ある旨の登記は所有権の登記名義人でなければ申請できず、この事例の所有権

@@ -2,51 +2,67 @@
 
 **出題年度：平成27年度　午後の部　第16問**
 
-> 敷地権に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　区分建物の表題登記を申請する場合において，当該区分建物が属する一棟の建物の敷地について登記された所有権の登記名義人が当該区分建物の所有者であり，かつ，規約においてその専有部分と敷地利用権との分離処分を可能とする旨を定めたことにより当該所有権が当該区分建物の敷地権とならないときは，添付情報として，当該規約の定めを証する情報を提供しなければならない。
->
-> イ　甲土地及び乙土地を法定敷地として登記されている敷地権付き区分建物について，甲土地に建築されている建物部分を取り壊したことにより，甲土地の上に建物が存在しないことになった場合には，甲土地について敷地権であった権利が敷地権でない権利となったことによる建物の表題部に関する変更の登記を申請しなければならない。
->
-> ウ　規約により所有権が建物の敷地権である旨の登記がされている土地について，当該規約が廃止されたことにより当該所有権が敷地権でなくなった場合には，そのことによる表題部の変更の登記は，当該土地の所有権の登記名義人が申請することができる。
->
-> エ　甲区分建物の法定敷地として登記されている土地について，甲区分建物が属する一棟の建物に属さない乙区分建物の敷地とする規約を設定したときは，敷地権の発生を原因とする乙区分建物についての表題部の変更の登記を申請することができる。
->
-> オ　登記官は，敷地権についてされた登記としての効力を有する抵当権の設定の登記がある敷地権付き区分建物について，その専有部分と敷地利用権との分離処分を可能とする規約を設定したことにより敷地権の変更の登記をする場合において，当該変更の登記の申請情報と併せてその抵当権の登記名義人が当該敷地権の目的であった土地について当該抵当権を消滅させることを承諾したことを証する情報が提供されたときであっても，当該承諾に係る土地について当該抵当権が消滅した旨を登記することはできない。
->
+> 敷地権に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　区分建物の表題登記を申請する場合において，当該区分建物が属する一棟の建物の敷地について登記された所有権の登記名義人が当該区分建物の所有者であり，かつ，規約においてその専有部分と敷地利用権との分離処分を可能とする旨を定めたことにより当該所有権が当該区分建物の敷地権とならないときは，添付情報として，当該規約の定めを証する情報を提供しなければならない。  
+>　  
+> イ　甲土地及び乙土地を法定敷地として登記されている敷地権付き区分建物について，甲土地に建築されている建物部分を取り壊したことにより，甲土地の上に建物が存在しないことになった場合には，甲土地について敷地権であった権利が敷地権でない権利となったことによる建物の表題部に関する変更の登記を申請しなければならない。  
+>　  
+> ウ　規約により所有権が建物の敷地権である旨の登記がされている土地について，当該規約が廃止されたことにより当該所有権が敷地権でなくなった場合には，そのことによる表題部の変更の登記は，当該土地の所有権の登記名義人が申請することができる。  
+>　  
+> エ　甲区分建物の法定敷地として登記されている土地について，甲区分建物が属する一棟の建物に属さない乙区分建物の敷地とする規約を設定したときは，敷地権の発生を原因とする乙区分建物についての表題部の変更の登記を申請することができる。  
+>　  
+> オ　登記官は，敷地権についてされた登記としての効力を有する抵当権の設定の登記がある敷地権付き区分建物について，その専有部分と敷地利用権との分離処分を可能とする規約を設定したことにより敷地権の変更の登記をする場合において，当該変更の登記の申請情報と併せてその抵当権の登記名義人が当該敷地権の目的であった土地について当該抵当権を消滅させることを承諾したことを証する情報が提供されたときであっても，当該承諾に係る土地について当該抵当権が消滅した旨を登記することはできない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 敷地権は、区分建物の中でも特にルールが細かい論点です。「分離処分を可能にする規約があるかどうか」「一部の建物が取り壊されて敷地の一部に建物がなくなったらどうなるか」「規約敷地を追加できるか」を、条文の立て付けに沿って確認していきましょう。
 
 ### ア：分離処分を可能とする規約があるときは、その規約を証する情報が必要
 
-区分建物の表題登記を申請する際、本来なら敷地権になるはずの土地の所有権について、専有部分と敷地利用権とを分離して処分できる旨の規約を定めたことにより敷地権とならない場合には、添付情報として、その規約の定めを証する情報を提供しなければなりません（不動産登記令別表12項添付情報ホ）。本肢は正しい記述です。
+区分建物の表題登記を申請する際、本来なら敷地権になるはずの土地の所有権について、専有部分と敷地利用権とを分離して処分できる旨の規約を定めたことにより敷地権とならない場合には、添付情報として、その規約の定めを証する情報を提供しなければなりません（不動産登記令別表12項添付情報ホ）。
+
+本肢は正しい記述です。
 
 **たとえば**、マンションの1室を売るとき、通常は敷地利用権も一緒についてきますが、規約で「専有部分と敷地利用権を別々に処分してもよい」と定めた場合には、その規約の存在を証明する書類を表題登記の際にあわせて提出します。
 
 ### イ：法定敷地の一部に建物がなくなっても、それは「みなし規約敷地」となり変更登記は不要
 
-甲土地・乙土地の両方を法定敷地とする敷地権付き区分建物について、甲土地に建っていた建物部分だけを取り壊したことで、甲土地の上に建物が存在しなくなったとします。この場合、区分所有法は、そのような土地を規約で定めた敷地とみなす「みなし規約敷地」という扱いにします（区分所有法5条2項前段）。したがって、甲土地についての権利は引き続き敷地権として扱われ、「敷地権でない権利となったことによる変更の登記を申請しなければならない」とする本肢は誤りです。
+甲土地・乙土地の両方を法定敷地とする敷地権付き区分建物について、甲土地に建っていた建物部分だけを取り壊したことで、甲土地の上に建物が存在しなくなったとします。
+
+この場合、区分所有法は、そのような土地を規約で定めた敷地とみなす「みなし規約敷地」という扱いにします（区分所有法5条2項前段）。
+
+したがって、甲土地についての権利は引き続き敷地権として扱われ、「敷地権でない権利となったことによる変更の登記を申請しなければならない」とする本肢は誤りです。
 
 **たとえば**、2つの土地にまたがって建っていたマンションの、片方の土地の上の部分だけを取り壊したとしても、その土地はそのまま「規約で定めた敷地」とみなされ、敷地権が消えたことによる変更登記をあらためて申請する必要はありません。
 
 ### ウ：規約廃止による敷地権消滅の変更登記は、区分建物の所有者側が申請する
 
-規約により敷地権となっていた土地について、その規約が廃止されて敷地権でなくなった場合、これによる区分建物の表題部の変更の登記は、区分建物の表題部所有者または所有権の登記名義人が申請します（不動産登記法51条1項）。土地の所有権の登記名義人（本肢のような立場）から申請することはできません。したがって本肢は誤りです。
+規約により敷地権となっていた土地について、その規約が廃止されて敷地権でなくなった場合、これによる区分建物の表題部の変更の登記は、区分建物の表題部所有者または所有権の登記名義人が申請します（不動産登記法51条1項）。
+
+土地の所有権の登記名義人（本肢のような立場）から申請することはできません。したがって本肢は誤りです。
 
 **たとえば**、マンションの敷地として規約で定められていた土地について、その規約が廃止されて敷地権でなくなったときの変更登記は、土地の所有者ではなく、マンションの各部屋（区分建物）の所有者が申請することになります。
 
 ### エ：法定敷地を、別の一棟の区分建物の規約敷地として追加することもできる
 
-甲区分建物の法定敷地として登記されている土地について、甲区分建物とは別の一棟の建物に属する乙区分建物の敷地とする規約を新たに設定したときは、その土地が乙区分建物についても敷地としての性質を持つことになるため、敷地権の発生を原因とする乙区分建物についての表題部の変更の登記を申請することができます。1つの土地が、複数の建物の規約敷地となることは認められています。本肢は正しい記述です。
+甲区分建物の法定敷地として登記されている土地について、甲区分建物とは別の一棟の建物に属する乙区分建物の敷地とする規約を新たに設定したときは、その土地が乙区分建物についても敷地としての性質を持つことになるため、敷地権の発生を原因とする乙区分建物についての表題部の変更の登記を申請することができます。
+
+1つの土地が、複数の建物の規約敷地となることは認められています。本肢は正しい記述です。
 
 **たとえば**、甲マンションの敷地として登記されている土地の一部を、隣接する別棟の乙マンションの敷地としても使えるように規約で定めた場合、乙マンション側でも敷地権が発生したとして表題部の変更登記を申請できます。
 
 ### オ：抵当権者の承諾情報があれば、その抵当権は消滅した旨を登記できる
 
-敷地権であった権利を目的とする抵当権など、所有権以外の権利の登記があった場合でも、その権利者（本肢では抵当権の登記名義人）が、敷地権の目的であった土地についてその権利を消滅させることを承諾した旨の情報が提供されたときは、登記官は、その承諾に係る土地についてその権利（抵当権）が消滅した旨を登記しなければなりません（不動産登記法55条1項）。したがって「登記することはできない」とする本肢は誤りです。
+敷地権であった権利を目的とする抵当権など、所有権以外の権利の登記があった場合でも、その権利者（本肢では抵当権の登記名義人）が、敷地権の目的であった土地についてその権利を消滅させることを承諾した旨の情報が提供されたときは、登記官は、その承諾に係る土地についてその権利（抵当権）が消滅した旨を登記しなければなりません（不動産登記法55条1項）。
+
+したがって「登記することはできない」とする本肢は誤りです。
 
 **たとえば**、敷地権について設定されていた抵当権を、敷地権を分離処分可能にする変更の際に消してほしいとその抵当権者自身が承諾する書類を提出すれば、登記官はその土地について抵当権が消えたことを登記に反映させることができます。
+
+---
 
 ### まとめ
 
@@ -107,13 +123,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 敷・地・権・規・約・登・記・分・離・処・建・物・抵・当・承・諾・消・滅 —
 these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -197,20 +231,20 @@ these 5 headings):
 5. 承諾情報があれば抵当権消滅を登記
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。オは「特定登記の有無」→「承諾情報の有無」という2段階の判定があるため決定木（フローチャート）として構成し、ア・イ・ウ・エは1回の確認で完結する肢のため、配置図・対比図として構成した。
 
@@ -289,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled green circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -307,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 規約あれば証明情報必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 取り壊し後の土地はみなし規約敷地になる
@@ -325,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 みなし規約敷地・登記不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line):
 変更登記の申請人は建物所有者側
@@ -343,7 +377,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 申請人は区分建物の所有者
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line):
 法定敷地を別建物の規約敷地に追加できる
@@ -361,7 +395,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 規約敷地の追加は可能
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line):
 特定登記と承諾情報の有無を順に確認する

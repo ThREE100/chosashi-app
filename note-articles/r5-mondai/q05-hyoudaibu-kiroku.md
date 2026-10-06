@@ -2,33 +2,43 @@
 
 **出題年度：令和5年度　午後の部　第5問**
 
-> 表題部の登記記録等に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地区画整理事業により従前の1個の土地に照応して1個の換地を定めた換地処分が行われた場合には、当該換地について表題部の登記記録が新たに作成される。
->
-> イ　建物を新築する場合の不動産工事の先取特権の保存の登記がされている建物の建築が完了した場合において、当該建物の表題登記を申請し、当該登記がされるときは、当該建物の表題部の登記記録が新たに作成される。
->
-> ウ　甲土地の一部を分筆して、これを乙土地に合筆しようとする場合において、分筆の登記及び合筆の登記を一の申請情報により申請し、その旨の登記がされるときは、甲土地から分筆し、乙土地に合筆した土地の表題部の登記記録は作成されない。
->
-> エ　表題登記のある甲建物を隣接する他の土地上に解体移転した場合において、解体移転後の建物の表題部に関する登記を申請したときは、甲建物の表題部の登記記録に解体及び移転した旨が記録される。
->
-> オ　区分建物として表題登記のある甲建物及び乙建物からなる一棟の建物の中間部分を取り壊し、甲建物及び乙建物が区分建物でないそれぞれ別の建物となった場合において、甲建物及び乙建物の表題部に関する登記を申請し、その旨の登記がされるときは、甲建物及び乙建物の表題部の登記記録が新たに作成される。
->
+> 表題部の登記記録等に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地区画整理事業により従前の1個の土地に照応して1個の換地を定めた換地処分が行われた場合には、当該換地について表題部の登記記録が新たに作成される。  
+>　  
+> イ　建物を新築する場合の不動産工事の先取特権の保存の登記がされている建物の建築が完了した場合において、当該建物の表題登記を申請し、当該登記がされるときは、当該建物の表題部の登記記録が新たに作成される。  
+>　  
+> ウ　甲土地の一部を分筆して、これを乙土地に合筆しようとする場合において、分筆の登記及び合筆の登記を一の申請情報により申請し、その旨の登記がされるときは、甲土地から分筆し、乙土地に合筆した土地の表題部の登記記録は作成されない。  
+>　  
+> エ　表題登記のある甲建物を隣接する他の土地上に解体移転した場合において、解体移転後の建物の表題部に関する登記を申請したときは、甲建物の表題部の登記記録に解体及び移転した旨が記録される。  
+>　  
+> オ　区分建物として表題登記のある甲建物及び乙建物からなる一棟の建物の中間部分を取り壊し、甲建物及び乙建物が区分建物でないそれぞれ別の建物となった場合において、甲建物及び乙建物の表題部に関する登記を申請し、その旨の登記がされるときは、甲建物及び乙建物の表題部の登記記録が新たに作成される。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-表題部の登記記録は、土地や建物が「別物になった」ときに新しく作り直されます。逆に、同じ不動産のまま表示が変わっただけなら、既存の登記記録がそのまま使われます。この問題では、換地・先取特権・分合筆・解体移転・区分建物という5つの場面ごとに、「登記記録が新規に作られるのか、それとも既存のものが使われるのか」を切り分けられるかが問われています。
+---
+
+表題部の登記記録は、土地や建物が「別物になった」ときに新しく作り直されます。逆に、同じ不動産のまま表示が変わっただけなら、既存の登記記録がそのまま使われます。
+
+この問題では、換地・先取特権・分合筆・解体移転・区分建物という5つの場面ごとに、「登記記録が新規に作られるのか、それとも既存のものが使われるのか」を切り分けられるかが問われています。
 
 ### ア：1個の土地に1個の換地なら、新しい登記記録は作られない
 
-換地処分の公告があると、換地は公告があった日の翌日から従前地とみなされ、登記官は従前地の登記記録の表題部に換地の表示を記録します（土地区画整理法104条1項）。1個の従前地に対して数個の換地が定められた場合は新たな登記記録が作成されますが（土地区画整理登記規則8条3項）、本肢のように1個の従前地に1個の換地が照応する場合は、従前地の登記記録がそのまま使われ、新たな登記記録は作成されません。
+換地処分の公告があると、換地は公告があった日の翌日から従前地とみなされ、登記官は従前地の登記記録の表題部に換地の表示を記録します（土地区画整理法104条1項）。
+
+1個の従前地に対して数個の換地が定められた場合は新たな登記記録が作成されますが（土地区画整理登記規則8条3項）、本肢のように1個の従前地に1個の換地が照応する場合は、従前地の登記記録がそのまま使われ、新たな登記記録は作成されません。
 
 **たとえば**、Aさんが持っていた1筆の土地が、区画整理で位置や形を変えて1筆の換地になった場合、登記記録そのものはAさんの従前地のものを引き継いで表示だけが書き換えられ、まっさらな新しい登記記録が起こされるわけではありません。
 
 ### イ：先取特権保存済みの建物が完成しても、既存の登記記録が使われる
 
-建物の新築について不動産工事の先取特権の保存の登記がされた場合、建物はまだできていなくても、「種類、構造及び床面積は設計書による」旨とともに表題部が作成されています。建物が完成した後に表題登記を申請すると、設計書による登記事項が抹消され、改めて実際の登記事項と表題部所有者・新築の原因日付が記録されます。この段階で新たな登記記録が作成されるのではなく、先取特権の保存の際に作られた既存の登記記録が使われます。
+建物の新築について不動産工事の先取特権の保存の登記がされた場合、建物はまだできていなくても、「種類、構造及び床面積は設計書による」旨とともに表題部が作成されています。
 
-**たとえば**、Bさんが自宅を新築するために工事の先取特権の保存の登記を先に済ませていた場合、その時点で「設計書による」表題部がすでに存在しています。家が完成して表題登記をしても、その既存の登記記録の中身が実測値に書き換えられるだけで、別に新しい登記記録が起こされるわけではありません。
+建物が完成した後に表題登記を申請すると、設計書による登記事項が抹消され、改めて実際の登記事項と表題部所有者・新築の原因日付が記録されます。この段階で新たな登記記録が作成されるのではなく、先取特権の保存の際に作られた既存の登記記録が使われます。
+
+**たとえば**、Bさんが自宅を新築するために工事の先取特権の保存の登記を先に済ませていた場合、その時点で「設計書による」表題部がすでに存在しています。
+
+家が完成して表題登記をしても、その既存の登記記録の中身が実測値に書き換えられるだけで、別に新しい登記記録が起こされるわけではありません。
 
 ### ウ：分筆して合筆する部分については、登記記録は作成されない
 
@@ -38,15 +48,23 @@
 
 ### エ：解体移転は新築扱いなので、解体・移転した旨は記録されない
 
-既存の建物を解体して他の場所へ移築する解体移転（準則85条）や、既存の建物を全部取り壊してその材料で建て直す再築（準則83条）の場合は、既存の建物との同一性が認められません。そのため、既存の建物は滅失し、新たな建物が建築されたものとして取り扱われます。したがって、甲建物の表題部の登記記録に「解体及び移転した旨」が記録されることはありません。
+既存の建物を解体して他の場所へ移築する解体移転（準則85条）や、既存の建物を全部取り壊してその材料で建て直す再築（準則83条）の場合は、既存の建物との同一性が認められません。
 
-**たとえば**、Aさんが自分の建物をいったんバラして隣の土地に組み直した場合、登記の世界では「元の建物は滅失し、隣の土地に新しい建物ができた」と扱われます。元の建物の登記記録に「解体して引っ越した」と書き足されるのではなく、元の建物は滅失登記、新しい建物は表題登記という別々の処理になるわけです。
+そのため、既存の建物は滅失し、新たな建物が建築されたものとして取り扱われます。したがって、甲建物の表題部の登記記録に「解体及び移転した旨」が記録されることはありません。
+
+**たとえば**、Aさんが自分の建物をいったんバラして隣の土地に組み直した場合、登記の世界では「元の建物は滅失し、隣の土地に新しい建物ができた」と扱われます。
+
+元の建物の登記記録に「解体して引っ越した」と書き足されるのではなく、元の建物は滅失登記、新しい建物は表題登記という別々の処理になるわけです。
 
 ### オ：区分建物が非区分建物になると、新しい登記記録が作成される
 
-区分建物であった建物が非区分建物になった場合は、非区分建物と区分建物とで登記記録の様式そのものが異なります。そのため、従前の区分建物の登記記録は閉鎖され、新たに非区分建物の登記記録が作成されます（規則133条3項・4項、140条4項）。様式が違う以上、既存の登記記録を書き換えて流用することはできないのです。
+区分建物であった建物が非区分建物になった場合は、非区分建物と区分建物とで登記記録の様式そのものが異なります。
+
+そのため、従前の区分建物の登記記録は閉鎖され、新たに非区分建物の登記記録が作成されます（規則133条3項・4項、140条4項）。様式が違う以上、既存の登記記録を書き換えて流用することはできないのです。
 
 **たとえば**、一棟の建物の真ん中を取り壊して、両端の甲建物と乙建物がそれぞれ独立した別々の一戸建てになった場合、区分建物としての登記記録は閉鎖され、甲建物・乙建物それぞれについて非区分建物用の新しい登記記録が起こされます。
+
+---
 
 ### まとめ
 
@@ -109,12 +127,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 録・権・地・建・物・登・記 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -194,18 +230,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「同じ登記記録が流用されるのか、それとも新しい登記記録が作られるのか」を場面ごとに切り分けられるようにする5パネル構成。ア（換地）は「従前地1個に換地がいくつ対応するか」を分岐条件とする決定木、エ（解体移転）は「解体→移動→再築」という時系列を左から右へ追うタイムライン型として描き、単なる完成図の説明ではなく判定の手順そのものが読み取れる構成にする。
 
@@ -214,7 +250,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(その登記記録、新しく作られる?), but built as a set of 5 diagram-drawing
+(その登記記録、新しく作られる？), but built as a set of 5 diagram-drawing
 panels (a "how to sketch this fact pattern, in the right order" study
 reference) rather than a quick-reference conclusion poster.
 
@@ -243,7 +279,15 @@ callout describes faithful to the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently throughout, including inside Japanese asides.
@@ -268,12 +312,12 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 換地が1個対1個なら記録は流用
 Diagram: A decision flowchart. Start node: 1個の従前地に対応する換地は
-いくつか?. A branch arrow labeled 1個 leads to a conclusion node showing
+いくつか？. A branch arrow labeled 1個 leads to a conclusion node showing
 a land plot labeled 従前地 morphing via a curved arrow into a plot
 labeled 換地, with a single unbroken ledger book icon underneath looping
 back onto itself (no second ledger appears), reading 従前地の登記記録を
@@ -289,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1対1なら記録流用
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 先取特権保存時の記録がそのまま使われる
@@ -307,7 +351,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新規作成なし
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 分筆合筆する部分に登記記録は生まれない
@@ -325,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記記録は生まれない
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 解体移転は新築扱いで経過は残らない
@@ -346,7 +390,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 経過は記載されない
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 区分から非区分になると記録は新規作成
@@ -371,11 +415,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 録, 権, 地, 建, 物, 登, 記, 滅, 閉 and any character that has
 a visually similar Simplified Chinese variant. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panel 1 is drawn as an actual
 flowchart with two distinct branches (1個/数個) each leading to its own

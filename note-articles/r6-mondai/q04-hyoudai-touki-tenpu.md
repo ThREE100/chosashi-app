@@ -2,19 +2,21 @@
 
 **出題年度：令和6年度　午後の部　第4問**
 
-> 表題登記の添付情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地の表題登記を申請する場合において、申請人である当該土地の所有者が住民基本台帳法に規定する住民票コードを提供したときは、申請情報と併せて住所を証する情報を提供することを要しない。
->
-> イ　表題登記がない甲土地を所有するＡが死亡し、その相続人がＢである場合において、Ｂの住所が記載されている法定相続情報一覧図の写しを提供して、Ｂを表題部所有者とする甲土地の表題登記を申請するときであっても、Ｂの住所を証する情報を提供しなければならない。
->
-> ウ　複数の者が共有する土地を敷地とする建物の表題登記を申請する場合には、表題部所有者となる者の所有権を有することを証する情報として提供する当該建物の敷地所有者による証明情報は、当該敷地の持分の過半数を有する者によるものでなければならない。
->
-> エ　土地家屋調査士が代理人として電子申請の方法により合同会社を所有者とする建物の表題登記を申請する場合において、当該合同会社による電子署名が付された代理権限を証する情報を提供したときであっても、添付情報として、当該合同会社の会社法人等番号を提供しなければならない。
->
-> オ　区分建物の表題登記を申請する場合において、規約により専有部分と敷地利用権との分離処分を可能とする旨を定めたことにより地上権が当該区分建物の敷地権とならないときであっても、その敷地利用権が地上権であり、かつ、当該区分建物が属する一棟の建物の敷地について登記された地上権の登記名義人が当該区分建物の所有者であるときは、添付情報として、当該規約の定めを証する情報を提供することを要しない。
->
+> 表題登記の添付情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地の表題登記を申請する場合において、申請人である当該土地の所有者が住民基本台帳法に規定する住民票コードを提供したときは、申請情報と併せて住所を証する情報を提供することを要しない。  
+>　  
+> イ　表題登記がない甲土地を所有するＡが死亡し、その相続人がＢである場合において、Ｂの住所が記載されている法定相続情報一覧図の写しを提供して、Ｂを表題部所有者とする甲土地の表題登記を申請するときであっても、Ｂの住所を証する情報を提供しなければならない。  
+>　  
+> ウ　複数の者が共有する土地を敷地とする建物の表題登記を申請する場合には、表題部所有者となる者の所有権を有することを証する情報として提供する当該建物の敷地所有者による証明情報は、当該敷地の持分の過半数を有する者によるものでなければならない。  
+>　  
+> エ　土地家屋調査士が代理人として電子申請の方法により合同会社を所有者とする建物の表題登記を申請する場合において、当該合同会社による電子署名が付された代理権限を証する情報を提供したときであっても、添付情報として、当該合同会社の会社法人等番号を提供しなければならない。  
+>　  
+> オ　区分建物の表題登記を申請する場合において、規約により専有部分と敷地利用権との分離処分を可能とする旨を定めたことにより地上権が当該区分建物の敷地権とならないときであっても、その敷地利用権が地上権であり、かつ、当該区分建物が属する一棟の建物の敷地について登記された地上権の登記名義人が当該区分建物の所有者であるときは、添付情報として、当該規約の定めを証する情報を提供することを要しない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
+
+---
 
 表題登記の添付情報は、「省略できる場面」と「省略できない場面」の見極めが得点の分かれ目になります。住所証明・所有権証明・代理権限証明のそれぞれについて、省略規定が使える条件を正確に押さえておきましょう。
 
@@ -26,36 +28,50 @@
 
 ### イ：住所入りの法定相続情報一覧図があれば、別の住所証明書は不要
 
-登記の申請において、相続人の住所が記載されている法定相続情報一覧図の写しを提供することで、相続人の住所を証する市町村長その他の公務員が職務上作成した情報の提供に代えることができます。「別途Bの住所を証する情報を提供しなければならない」という断定は誤りです。
+登記の申請において、相続人の住所が記載されている法定相続情報一覧図の写しを提供することで、相続人の住所を証する市町村長その他の公務員が職務上作成した情報の提供に代えることができます。
+
+「別途Bの住所を証する情報を提供しなければならない」という断定は誤りです。
 
 **たとえば**、Aさんが亡くなり、唯一の相続人であるBさんが表題登記を申請する場合、Bさんの住所が記載された法定相続情報一覧図の写しを法務局から取得して提出すれば、それだけで住所証明も兼ねることができ、別に住民票を取り寄せる必要はありません。
 
 ### ウ：敷地共有者の証明は、一部の者のものでも足りる
 
-建物の表題登記の申請をする場合において、表題部所有者となる者の所有権を有することを証する情報として当該建物の敷地所有者による証明情報を添付することができますが、敷地が共有であるときは、敷地の共有者の一部の者による証明でも差し支えありません。「持分の過半数を有する者によるものでなければならない」という限定は誤りです。
+建物の表題登記の申請をする場合において、表題部所有者となる者の所有権を有することを証する情報として当該建物の敷地所有者による証明情報を添付することができますが、敷地が共有であるときは、敷地の共有者の一部の者による証明でも差し支えありません。
+
+「持分の過半数を有する者によるものでなければならない」という限定は誤りです。
 
 **たとえば**、甲・乙・丙の3人が共有する土地の上に建物を新築したとき、その建物の所有権を証明する敷地所有者の証明書は、3人全員や過半数の持分を持つ者に限らず、共有者のうち1人だけの証明でも足ります。
 
 **ここが分かりにくいポイント**：
 
-「共有」という言葉を見ると、反射的に「共有物のことなら、みんなで多数決して決めるルールがあったはずだ。だから証明書も過半数の人がそろわないとダメなんだろう」と考えてしまいがちです。実際、共有物をどう管理するかについては、各共有者の持分の価格に従い、その過半数で決めるというルールがあります（民法252条1項）。このルールが頭に残っていると、本肢のような「過半数が必要」という記述を見たときに、つい正しそうだと感じてしまいます。
+「共有」という言葉を見ると、反射的に「共有物のことなら、みんなで多数決して決めるルールがあったはずだ。だから証明書も過半数の人がそろわないとダメなんだろう」と考えてしまいがちです。
+
+実際、共有物をどう管理するかについては、各共有者の持分の価格に従い、その過半数で決めるというルールがあります（民法252条1項）。このルールが頭に残っていると、本肢のような「過半数が必要」という記述を見たときに、つい正しそうだと感じてしまいます。
 
 しかし、ここで整理してほしいのは、「何かを決める場面」と「すでにある事実を証明する場面」はまったく別だという点です。
 
 1. **何かを決める場面**（例：共有している土地を誰にどう貸すか、どんな工事をするか）→ これから先のことを共有者たちの間で話し合って決める話なので、持分の過半数の賛成が必要になります（民法252条1項）。
-2. **すでにある事実を証明する場面**（本肢のケース）→ 「この建物は、この土地の上に建っています」という、すでに起きている事実を書面で伝えるだけの話です。証明する人が共有者の誰であっても、証明される事実（建物がその土地の上に存在すること）そのものは変わりません。そのため、共有者のうち1人が証明しても、証明としてきちんと通用します。
+2. **すでにある事実を証明する場面**（本肢のケース）→ 「この建物は、この土地の上に建っています」という、すでに起きている事実を書面で伝えるだけの話です。
 
-本肢の「敷地所有者による証明情報」は、まさに2の「事実を証明する場面」にあたります。土地をこれからどう使うかを共有者たちが話し合って決めるわけではないので、民法252条1項の「過半数」というハードルを持ち込む必要がありません。「共有＝いつも多数決が必要」と機械的に結びつけず、「これは意思決定の場面か、それとも単なる事実証明の場面か」を一度立ち止まって見分けることが、この分野を得点源にするコツです。
+証明する人が共有者の誰であっても、証明される事実（建物がその土地の上に存在すること）そのものは変わりません。そのため、共有者のうち1人が証明しても、証明としてきちんと通用します。
+
+本肢の「敷地所有者による証明情報」は、まさに2の「事実を証明する場面」にあたります。土地をこれからどう使うかを共有者たちが話し合って決めるわけではないので、民法252条1項の「過半数」というハードルを持ち込む必要がありません。
+
+「共有＝いつも多数決が必要」と機械的に結びつけず、「これは意思決定の場面か、それとも単なる事実証明の場面か」を一度立ち止まって見分けることが、この分野を得点源にするコツです。
 
 ### エ：電子署名付き代理権限情報があっても、会社法人等番号は必要
 
-会社法人等番号を有する法人については、会社法人等番号を提供します。添付情報には「会社法人等番号」と記録することとされています（不動産登記令7条1項1号イ）。合同会社による電子署名が付された代理権限を証する情報を提供した場合であっても、これとは別に会社法人等番号の提供が求められます。
+会社法人等番号を有する法人については、会社法人等番号を提供します。添付情報には「会社法人等番号」と記録することとされています（不動産登記令7条1項1号イ）。
+
+合同会社による電子署名が付された代理権限を証する情報を提供した場合であっても、これとは別に会社法人等番号の提供が求められます。
 
 **たとえば**、合同会社が所有する建物の表題登記を土地家屋調査士が電子申請で代理するとき、その合同会社自身の電子署名が入った委任状を提出したとしても、それとは別に、その合同会社の会社法人等番号を申請情報に記載しなければなりません。
 
 ### オ：地上権が敷地権とならない場合も、規約を証する情報が必要
 
-区分建物表題登記では、規約敷地を定めたとき、敷地権の割合が規約割合であるとき、分離処分可能規約を定めたときには、その旨の規約を証する情報を提供しなければなりません（不動産登記令別表12項添付情報へ・ホ）。本肢は、敷地に登記された地上権の登記名義人が区分建物の所有者と一致しているにもかかわらず、分離処分可能規約によってその地上権が敷地権とならないケースであり、まさにこの「登記名義人が一致するのに敷地権とならない事由」を証する情報の提供が求められる場面に当たるため（同項添付情報ホ）、「提供することを要しない」という結論は誤りです。
+区分建物表題登記では、規約敷地を定めたとき、敷地権の割合が規約割合であるとき、分離処分可能規約を定めたときには、その旨の規約を証する情報を提供しなければなりません（不動産登記令別表12項添付情報へ・ホ）。
+
+本肢は、敷地に登記された地上権の登記名義人が区分建物の所有者と一致しているにもかかわらず、分離処分可能規約によってその地上権が敷地権とならないケースであり、まさにこの「登記名義人が一致するのに敷地権とならない事由」を証する情報の提供が求められる場面に当たるため（同項添付情報ホ）、「提供することを要しない」という結論は誤りです。
 
 **たとえば**、区分建物の敷地利用権が地上権であり、一棟の建物の敷地に登記されている地上権の登記名義人がその区分建物の所有者と同一である場合、名義だけを見れば地上権がそのまま敷地権になりそうな組み合わせですが、分離処分可能規約によって実際には敷地権とならない扱いになっているときは、その理由（規約の定め）を証する情報を提供する必要があり、提供を省略することはできません。
 
@@ -63,9 +79,13 @@
 
 「地上権が敷地権とならないとき**であっても**」という一文を読むと、「敷地権にならないなら、敷地権に関する書類はもう出番がないはずだ。だから規約の証明書もいらないだろう」と考えてしまいがちです。しかし、これは話の順序が逆になっています。
 
-まず押さえておきたいのは、「敷地利用権（地上権）の名義人と、区分建物（部屋）の所有者が同じ人である」という状況は、何も特別な取り決めがなければ、当然に敷地権になる組み合わせだという点です。名義がぴったり一致しているのに、あえて部屋と切り離しておく理由が見当たらないからです。
+まず押さえておきたいのは、「敷地利用権（地上権）の名義人と、区分建物（部屋）の所有者が同じ人である」という状況は、何も特別な取り決めがなければ、当然に敷地権になる組み合わせだという点です。
 
-それにもかかわらず、本肢のケースでは分離処分可能規約によって、あえて敷地権にしない扱いになっています。つまり、「名義が一致しているのに、なぜかセットになっていない」という、登記官から見れば一見不自然な状態が生まれているのです。この不自然さを解消し、「規約でそう決めているから、あえてセットにしていないだけです」ということを裏付けるために、規約を証する情報の提出が必要になります。
+名義がぴったり一致しているのに、あえて部屋と切り離しておく理由が見当たらないからです。
+
+それにもかかわらず、本肢のケースでは分離処分可能規約によって、あえて敷地権にしない扱いになっています。つまり、「名義が一致しているのに、なぜかセットになっていない」という、登記官から見れば一見不自然な状態が生まれているのです。
+
+この不自然さを解消し、「規約でそう決めているから、あえてセットにしていないだけです」ということを裏付けるために、規約を証する情報の提出が必要になります。
 
 まとめると、次の順序で理解するとつまずきません。
 
@@ -73,7 +93,11 @@
 2. しかし規約があるので、実際には敷地権にならない → 登記官からすると「なぜ？」と思う不自然な状態
 3. その「なぜ？」に答えるために、規約を証する情報の提出が必要
 
-「敷地権にならない→書類は不要」ではなく、「本来なら敷地権になるはずなのに、なっていない→その理由を説明する書類が必要」という順序で理解すると、この肢が誤り（規約の証明書は省略できない）である理由がすっと腑に落ちます。より詳しい整理は `note-articles/topics/shitchiken-bunrishobun-kanou-kiyaku.md` もあわせてご参照ください。
+「敷地権にならない→書類は不要」ではなく、「本来なら敷地権になるはずなのに、なっていない→その理由を説明する書類が必要」という順序で理解すると、この肢が誤り（規約の証明書は省略できない）である理由がすっと腑に落ちます。
+
+より詳しい整理は `note-articles/topics/shitchiken-bunrishobun-kanou-kiyaku.md` もあわせてご参照ください。
+
+---
 
 ### まとめ
 
@@ -94,10 +118,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（2番＝ア・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（不動産登記令9条）、ウ（昭37.10.8民甲2885号）、エ（不動産登記令7条1項1号イ）、オ（不動産登記令別表12項添付情報へ・ホ、昭58.11.10民三6400号）はデータベースのexplanationフィールドで条文・先例番号まで明記されているものです。イ（法定相続情報一覧図による住所証明の代用）については、根拠通達（平30.3.29民二166号）は明記されている一方、条文上の明文規定であるかは通達レベルの取扱いであるため、その点を踏まえてご確認ください。
-- **ウ・オの理解補助について**：読者から「ウ・オの結論に自力でたどり着けなかった」というフィードバックを受け、両肢に「ここが分かりにくいポイント」を追加しました。ウについては、民法252条1項の「共有物の管理は持分の過半数で決する」という意思決定のルールと、本肢の「事実を証明するだけの証明情報」を混同しやすい点を整理しています。オについては、「敷地権にならない→書類が不要」という直感的な順序が実際には逆で、「名義が一致しているのに敷地権にならない不自然さを説明するために書類が必要」という正しい順序を示しています。あわせて、この2肢それぞれについて、文章量を絞らず理解を優先した個別の解説インフォグラフィック（間違いノート型）を新規作成しました。タイトルのキャッチフレーズも、元は肢エを指す「電子署名があっても番号は必要」でしたが、読者が実際につまずいたウ・オに共通する論点（一見省略できそうでも実は省略できない）を捉えた表現に差し替えました。
+- **ウ・オの理解補助について**：読者から「ウ・オの結論に自力でたどり着けなかった」というフィードバックを受け、両肢に「ここが分かりにくいポイント」を追加しました。ウについては、民法252条1項の「共有物の管理は持分の過半数で決する」という意思決定のルールと、本肢の「事実を証明するだけの証明情報」を混同しやすい点を整理しています。オについては、「敷地権にならない→書類が不要」という直感的な順序が実際には逆で、「名義が一致しているのに敷地権にならない不自然さを説明するために書類が必要」という正しい順序を示しています。あわせて、この2肢それぞれについて、文章量を絞らず理解を優先した個別の解説インフォグラフィック（間違いノート型）を新規作成しました。タイトルのキャッチフレーズも、元はエを指す「電子署名があっても番号は必要」でしたが、読者が実際につまずいたウ・オに共通する論点（一見省略できそうでも実は省略できない）を捉えた表現に差し替えました。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- 肢オ（敷地権と分離処分可能規約、登記名義人が一致する場合の扱い）は、令和2年度午後の部第14問エ・平成27年度午後の部第16問アでも同一パターンが出題されている頻出論点です。テーマとして横断的に整理した記事を `note-articles/topics/shitchiken-bunrishobun-kanou-kiyaku.md` に追加しましたので、あわせてご参照ください。
-- **重複出題チェック（2026-07-20実施、2026-08-16に「法定相続情報一覧図」キーワードを追加して再実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（表題登記の添付情報）に関する記述と重複する内容がないか確認しました。令和7年度第18問は「法定相続情報一覧図」制度そのもの（保管申出・再交付等の手続的論点）を扱っており、本問肢イ（法定相続情報一覧図による住所証明情報の代用可否）とは制度の一部が重なりますが、問われている個別の論点は異なるため、**内容の重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- オ（敷地権と分離処分可能規約、登記名義人が一致する場合の扱い）は、令和2年度午後の部第14問エ・平成27年度午後の部第16問アでも同一パターンが出題されている頻出論点です。テーマとして横断的に整理した記事を `note-articles/topics/shitchiken-bunrishobun-kanou-kiyaku.md` に追加しましたので、あわせてご参照ください。
+- **重複出題チェック（2026-07-20実施、2026-08-16に「法定相続情報一覧図」キーワードを追加して再実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題について、本問のテーマ（表題登記の添付情報）に関する記述と重複する内容がないか確認しました。令和7年度第18問は「法定相続情報一覧図」制度そのもの（保管申出・再交付等の手続的論点）を扱っており、本問イ（法定相続情報一覧図による住所証明情報の代用可否）とは制度の一部が重なりますが、問われている個別の論点は異なるため、**内容の重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -136,12 +160,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・相・続 — these must be rendered in
+kanji 号・権・地・番・登・記・所・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -219,15 +261,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -256,11 +298,29 @@ write them out exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-共・有・持・分・過・半・数・証・明・決・議・誤 — always draw the standard
+共・有・持・分・過・半・数・証・明・決・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -282,7 +342,7 @@ in the center showing持分の割合を示す円グラフ(pie chart)。
 
 Quoted article text (rendered exactly, in a bordered box):
 「共有物の管理に関する事項は、各共有者の持分の価格に従い、その過半数で
-決する。」（民法252条1項）
+決する。」（民法252条1項の要旨）
 
 Panel conclusion (bold, blue banner):
 これから何をするか決める話 → 持分の過半数が必要
@@ -317,17 +377,17 @@ background, full width) ---
 変わらないため、共有者のうち1人の証明で足ります。
 
 --- FOOTER ---
-根拠：昭37.10.8民甲2885号（先例番号は本文には記載していません）
+根拠：先例（敷地の所有者の証明は、共有者のうち1人のもので足りる）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-共・有・持・分・過・半・数・証・明・決・議・誤. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm there are exactly two side-by-side panels (blue 意思決定の
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+共・有・持・分・過・半・数・証・明・決・誤. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly two side-by-side panels (blue 意思決定の
 場面 on the left, green 事実証明の場面 on the right), confirm both quoted
 text boxes match the Japanese text given above verbatim character-for-
 character, and confirm the callout box text matches verbatim with no
-paraphrasing and no substituted characters.
+paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -357,11 +417,29 @@ as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 敷・地・権・規・約・名・義・逆・順・証・誤 — always draw the standard Japanese
 (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -393,13 +471,12 @@ NODE 3 (amber/orange rounded box, warning icon):
 An arrow continues downward from NODE 3 to NODE 4, with a bold label
 beside the arrow reading「登記官からすると」。
 
-NODE 4 (decision diamond):
+NODE 4 (amber rounded box with a small question-mark icon, NOT a diamond,
+since there is only one path):
 名義は一致しているのに、なぜ敷地権になっていないのか？
 （一見、不自然な状態）
-
 Below NODE 4, a single arrow down to NODE 5 (green rounded box with a
-checkmark icon), drawn as the main conclusion (there is only one path,
-since this is what the correct rule requires):
+checkmark icon):
 
 NODE 5:
 その理由（規約の定め）を証する情報の提出が必要
@@ -421,20 +498,20 @@ arrows) ---
 根拠：不動産登記令別表12項添付情報ホ（区分所有法22条1項ただし書）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
 敷・地・権・規・約・名・義・逆・順・証・誤. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the flowchart has exactly 5 numbered nodes in a single main
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the flowchart has exactly 5 numbered nodes in a single main
 path (no branching, since the conclusion is the same regardless of prior
 assumptions), confirm NODE 5 is visually highlighted in green as the
 answer to 本肢, and confirm every heading, node label, and callout
 sentence matches the Japanese text given above verbatim, with no
-paraphrasing and no substituted characters.
+paraphrasing and no substituted characters. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。②の俯瞰ポスターが5肢の結論を一覧するのに対し、こちらは「省略できる制度が使える場面かどうか」を見極める思考プロセスそのものを、肢ごとに最適な図解（フローチャート・対比枠など）で可視化する。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
 
@@ -481,7 +558,15 @@ a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
@@ -507,7 +592,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -516,7 +601,7 @@ Diagram: 申請人が地方公共団体の窓口で「住民票コード」と�
 差し出している場面。中央にひし形の分岐ノード「住民票コードを提供した
 か」を置き、Yes(緑・太い矢印)は結論ノード(緑)「住所を証する情報の提供
 は不要」へ、No(グレー・細い矢印)はfadedなグレーの結論ボックス「原則ど
-おり住所を証する情報が必要(本肢とは別のケース)」へ導く。
+おり住所を証する情報が必要」へ導く。
 着眼点 callout(1-2 sentences, verbatim, must state the checking order):
 まず、申請人が住民票コードを提供しているかを確認します。提供していれ
 ば、それだけで住所を証する情報の提出を省略できます。
@@ -524,7 +609,7 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 住民票コードで省略可
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -534,7 +619,7 @@ Diagram: 「法定相続情報一覧図」と書かれた家系図風の書類�
 ド「一覧図に相続人の住所が記載されているか」を置き、Yes(緑・太い矢印)
 は結論ノード(緑)「その写しの提供で住所証明に代えられる(別途の証明は不
 要)」へ、No(グレー・細い矢印)はfadedなグレーの結論ボックス「一覧図とは
-別に住所を証する情報が必要(本肢とは別のケース)」へ導く。
+別に住所を証する情報が必要」へ導く。
 着眼点 callout(1-2 sentences, verbatim, must state the checking order):
 まず、提供する法定相続情報一覧図に相続人の住所が記載されているかを確認
 します。記載があれば、それだけで住所証明の提供に代えることができ、別
@@ -543,7 +628,7 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 一覧図で代用可
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -564,7 +649,7 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 1人の証明で足りる
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -585,7 +670,7 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 番号は別途必要
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in green containing the number 5(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -596,7 +681,7 @@ Diagram: 縦方向の決定木。開始点はグレーの四角ノード「地�
 れているか」につながる。Yes(オレンジ・太い強調の矢印)は結論ノード(緑)
 「その理由を裏付ける規約の定めを証する情報の提供が必要(省略できない)」
 へ、No(グレー・細い矢印)はfadedなグレーの結論ボックス「原則どおり敷地
-権になる(規約を証する情報は不要、本肢とは別のケース)」へ導く。
+権になる(規約を証する情報は不要)」へ導く。
 着眼点 callout(1-2 sentences, verbatim, must state the checking order):
 まず、地上権の登記名義人と区分建物の所有者が一致しているかを確認しま
 す。次に、その一致にもかかわらず分離処分可能規約によって敷地権になら
@@ -606,16 +691,15 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 規約証明は省略不可
 
-(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
 
 --- FOOTER ---
 Small footnote text(bottom of panel, small font, verbatim):
 根拠：不動産登記令9条・7条1項1号イ・別表12項添付情報ホ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese(Jōyō) form, not Simplified Chinese, paying special
-attention to 略・証・番・号・約・敷・地・権・登・記・所・続. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese(Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 略・証・番・号・約・敷・地・権・登・記・所・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every

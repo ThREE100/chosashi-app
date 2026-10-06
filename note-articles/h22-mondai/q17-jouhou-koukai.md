@@ -2,25 +2,29 @@
 
 **出題年度：平成22年度　午後の部　第17問**
 
-> 不動産についての登記情報及び地図情報の公開に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　登記事項証明書及び登記事項要約書の交付は、いずれも電子情報処理組織を使用して請求することができる。
->
-> イ　地図が電磁的記録に記録されている場合には、当該記録された地図の内容を証明した書面の交付は、電子情報処理組織を使用して請求することができる。
->
-> ウ　建物の表題登記の申請情報に添付された表題部所有者となる者が所有権を有することを証する情報を記載した書面の閲覧は、請求人が利害関係を有する部分に限り請求することができる。
->
-> エ　登記事項証明書の交付は、法務省令で定める場合を除いて、請求に係る不動産の所在地を管轄する登記所以外の登記所に対しても請求することができる。
->
-> オ　登記されていない不動産については、その不動産が未登記であることの証明書の交付を請求することができる。
->
+> 不動産についての登記情報及び地図情報の公開に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　登記事項証明書及び登記事項要約書の交付は、いずれも電子情報処理組織を使用して請求することができる。  
+>　  
+> イ　地図が電磁的記録に記録されている場合には、当該記録された地図の内容を証明した書面の交付は、電子情報処理組織を使用して請求することができる。  
+>　  
+> ウ　建物の表題登記の申請情報に添付された表題部所有者となる者が所有権を有することを証する情報を記載した書面の閲覧は、請求人が利害関係を有する部分に限り請求することができる。  
+>　  
+> エ　登記事項証明書の交付は、法務省令で定める場合を除いて、請求に係る不動産の所在地を管轄する登記所以外の登記所に対しても請求することができる。  
+>　  
+> オ　登記されていない不動産については、その不動産が未登記であることの証明書の交付を請求することができる。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
+
+---
 
 登記情報や地図情報を「どう取り寄せられるか」を問う問題です。「登記事項証明書はオンラインでも全国どこの登記所からでも取れる」という便利さと、「要約書はオンライン不可」「そもそも存在しない証明は請求できない」という限界を、セットで押さえましょう。
 
 ### ア：登記事項要約書は、オンラインで請求できない
 
-登記事項証明書は、電子情報処理組織を使用して（＝オンラインで）請求することができます。しかし、登記事項要約書は、登記所の窓口で交付を受けるものであり、オンラインで請求することはできません。両方ともオンライン請求できるかのようにいう「いずれも」という点が誤りです。
+登記事項証明書は、電子情報処理組織を使用して（＝オンラインで）請求することができます。
+
+しかし、登記事項要約書は、登記所の窓口で交付を受けるものであり、オンラインで請求することはできません。両方ともオンライン請求できるかのようにいう「いずれも」という点が誤りです。
 
 **たとえば**、登記事項証明書はインターネットから請求して郵送で受け取れますが、その簡易版である登記事項要約書は、登記所の窓口まで行かないと受け取れません。
 
@@ -48,6 +52,8 @@
 
 **たとえば**、「この建物はまだ登記されていません」という証明書を登記所からもらう、ということはできません。登記記録がない以上、記録に基づく証明のしようがないからです。
 
+---
+
 ### まとめ
 
 - **ア（誤）**　登記事項要約書はオンライン請求できない（証明書のみオンライン可）
@@ -67,10 +73,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第17問）・正解番号（2番＝アオ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の判定（誤りはア・オ）は、公式の正解の組合せ「アオ」から確定できるものです。
-- 各肢の根拠は、`note-articles/laws/fudousan-touki-hou.md`の条文原文で確認済みです。肢ア・エ＝不動産登記法119条（1〜2項が登記事項証明書・要約書の交付、5項が管轄外の登記所への請求）、肢イ＝同法120条（地図等の写しの交付・閲覧）、肢ウ＝同法121条（登記簿の附属書類の閲覧。3項が「正当な理由」＝利害関係を要求）。肢オ（未登記の証明制度が存在しないこと）は、これらの条文がいずれも登記記録の存在を前提とした制度であることから確認できるものです。
+- 各肢の根拠は、`note-articles/laws/fudousan-touki-hou.md`の条文原文で確認済みです。ア・エ＝不動産登記法119条（1〜2項が登記事項証明書・要約書の交付、5項が管轄外の登記所への請求）、イ＝同法120条（地図等の写しの交付・閲覧）、ウ＝同法121条（登記簿の附属書類の閲覧。3項が「正当な理由」＝利害関係を要求）。オ（未登記の証明制度が存在しないこと）は、これらの条文がいずれも登記記録の存在を前提とした制度であることから確認できるものです。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
 - **2026年時点の制度変更について（現行法チェック、2026-08-04実施）**：本問の各肢が問う制度の骨格（証明書はオンライン・全国対応、要約書は窓口のみ、閲覧は利害関係部分に限る、未登記の証明制度はない）は、2026年現在も変更されていないことをWebSearchで確認しました。もっとも、平成22年度の出題後、本問と同じ「登記情報の公開」というテーマに関わる制度が2つ新設されています。1つは、DV等被害者保護のための住所非表示措置（2024年4月1日施行、不動産登記法119条に項が追加）で、加害者等からの登記事項証明書等の交付請求があっても、非表示とした住所は開示されません。もう1つは、所有不動産記録証明制度（不動産登記法119条の2、既に施行済み）で、特定の人が名義人となっている不動産の一覧を証明書として交付請求できる新しい制度です。これらは平成22年度の出題時には存在しなかった制度であり、本問の正誤判定には影響しませんが、2026年現在の受験生は「登記情報の公開」の分野でこの2つの新制度も併せて押さえておく必要があります。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（登記情報・地図情報の公開）と同一の問題が再出題されていないかを確認しました。平成26年度第18問「登記事項の証明等」がテーマとして近く（問題文＋肢全体の類似度0.34程度）、本問の肢イ（電磁的記録の地図の証明書のオンライン請求）と同問の肢ウ（地役権図面についての同様の規定）は類似度0.75程度ですが、対象が地図と地役権図面で異なり、他の肢の組合せも異なります。**問題全体としての重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（登記情報・地図情報の公開）と同一の問題が再出題されていないかを確認しました。平成26年度第18問「登記事項の証明等」がテーマとして近く（問題文＋肢全体の類似度0.34程度）、本問のイ（電磁的記録の地図の証明書のオンライン請求）と同問のウ（地役権図面についての同様の規定）は類似度0.75程度ですが、対象が地図と地役権図面で異なり、他の肢の組合せも異なります。**問題全体としての重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -109,10 +115,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -201,25 +225,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢アは登記事項証明書と登記事項要約書のオンライン請求の可否を左右で対比する対比枠型、肢イ・ウ・エはそれぞれ独立した配置図型（電磁的記録の地図の証明書・添付書面の閲覧範囲・管轄外の登記所への請求）、肢オは「未登記であることの証明書」という誤った思い込みと正しいルールを対比する正誤対比型とする。5肢はいずれも独立した論点であり、決定木を共有する肢はない。
+アは登記事項証明書と登記事項要約書のオンライン請求の可否を左右で対比する対比枠型、イ・ウ・エはそれぞれ独立した配置図型（電磁的記録の地図の証明書・添付書面の閲覧範囲・管轄外の登記所への請求）、オは「未登記であることの証明書」という誤った思い込みと正しいルールを対比する正誤対比型とする。5肢はいずれも独立した論点であり、決定木を共有する肢はない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -293,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -315,7 +337,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 要約書は窓口限定
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -332,7 +354,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 地図の証明書もオンライン可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -350,7 +372,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 利害関係部分のみ閲覧可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -370,7 +392,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 管轄外でも交付請求可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -395,8 +417,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法119条（ア・エ）、同法120条（イ）、同法121条（ウ）。
-肢オは、これらの規定がいずれも登記記録の存在を前提とすることによる。判例・
-先例番号は省略。
+オは、これらの規定がいずれも登記記録の存在を前提とすることによる。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

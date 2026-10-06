@@ -2,25 +2,29 @@
 
 **出題年度：令和4年度　午後の部　第3問**
 
-> Aについて相続が開始し、その親族が妻B及び子Cのみである場合の相続に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　BがAを強迫してAに相続に関する遺言をさせ、その後、Aについて相続が開始したときは、Bは、Aの相続人となることができない。
->
-> イ　Bが自己のために相続の開始があったことを知った時から法定の期間内に限定承認又は相続の放棄をしなかった場合には、Bは、単純承認をしたものとみなされる。
->
-> ウ　B及びCが相続人となる場合には、Bのみが単独で、限定承認をすることができる。
->
-> エ　Bが相続の放棄をした場合には、Bは、Aの相続に関しては、初めから相続人とならなかったものとみなされる。
->
-> オ　Cが相続の放棄をした場合には、それがBの強迫によるものであっても、Cは、強迫を理由として相続の放棄を取り消すことができない。
->
+> Aについて相続が開始し、その親族が妻B及び子Cのみである場合の相続に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　BがAを強迫してAに相続に関する遺言をさせ、その後、Aについて相続が開始したときは、Bは、Aの相続人となることができない。  
+>　  
+> イ　Bが自己のために相続の開始があったことを知った時から法定の期間内に限定承認又は相続の放棄をしなかった場合には、Bは、単純承認をしたものとみなされる。  
+>　  
+> ウ　B及びCが相続人となる場合には、Bのみが単独で、限定承認をすることができる。  
+>　  
+> エ　Bが相続の放棄をした場合には、Bは、Aの相続に関しては、初めから相続人とならなかったものとみなされる。  
+>　  
+> オ　Cが相続の放棄をした場合には、それがBの強迫によるものであっても、Cは、強迫を理由として相続の放棄を取り消すことができない。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+
+---
 
 相続の承認・放棄の分野は、「単純承認・限定承認・放棄」の3つの選択肢と、それぞれの手続・効果・取消しの可否を整理できているかが問われます。とくに限定承認の共同性と、放棄の取消しの扱いが定番の論点です。
 
 ### ア：強迫で遺言をさせた者は、相続欠格者になる
 
-詐欺または強迫によって、被相続人に相続に関する遺言をさせ、撤回させ、取り消させ、または変更させた者は、相続欠格者として相続権を剥奪されます（民法891条4号）。なお、逆に遺言をし、撤回し、取り消し、または変更することを詐欺または強迫によって妨げた者は同条3号にあたります。不正な手段で相続に介入した者への制裁です。
+詐欺または強迫によって、被相続人に相続に関する遺言をさせ、撤回させ、取り消させ、または変更させた者は、相続欠格者として相続権を剥奪されます（民法891条4号）。
+
+なお、逆に遺言をし、撤回し、取り消し、または変更することを詐欺または強迫によって妨げた者は同条3号にあたります。不正な手段で相続に介入した者への制裁です。
 
 **たとえば**、妻のBさんが夫のAさんを脅して「自分に有利な遺言を書け」と遺言を作らせた場合、Bさんは相続欠格者となり、Aさんが亡くなってもAさんの相続人にはなれません。
 
@@ -44,9 +48,13 @@
 
 ### オ：強迫による相続放棄は、取り消すことができる
 
-いったん承認・放棄をすると、熟慮期間中でも撤回はできません（民法919条1項）。しかし、承認・放棄を、総則編（制限行為能力・錯誤・詐欺・強迫）や親族編（後見）の規定によって「取り消す」ことは認められています（919条2項）。撤回はできなくても、瑕疵ある意思表示としての取消しは別問題なのです。
+いったん承認・放棄をすると、熟慮期間中でも撤回はできません（民法919条1項）。
+
+しかし、承認・放棄を、総則編（制限行為能力・錯誤・詐欺・強迫）や親族編（後見）の規定によって「取り消す」ことは認められています（919条2項）。撤回はできなくても、瑕疵ある意思表示としての取消しは別問題なのです。
 
 **たとえば**、子のCさんが、母Bさんに脅されて相続放棄をさせられた場合、Cさんは強迫を理由に、その相続放棄を取り消すことができます。「一度放棄したら絶対戻せない」わけではありません。
+
+---
 
 ### まとめ
 
@@ -68,8 +76,8 @@
 - 出題年度・問題番号・正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の条文根拠（ア＝891条4号、イ＝921条2号、ウ＝923条、エ＝939条、オ＝919条1項・2項）は、データベースのexplanationフィールドおよびkaisetsu_plus.jsonに条文番号まで明記されているものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- 【2026-08-04修正】`note-articles/laws/minpou-3-shinzoku-souzoku.md`（e-Gov原文）で条文を突き合わせた結果、肢アの引用条文番号に誤りがあることが判明しました。民法891条3号は「詐欺又は強迫によって、被相続人が相続に関する遺言をし、撤回し、取り消し、又は変更することを妨げた者」（＝遺言をすることを妨げた者）であり、肢アの事例（BがAを強迫して遺言を「させた」）に該当するのは891条4号「詐欺又は強迫によって、被相続人に相続に関する遺言をさせ、撤回させ、取り消させ、又は変更させた者」です。本文・まとめとも891条3号→891条4号に修正しました。他の引用（921条2号、923条、939条、919条1項・2項）は`minpou-3-shinzoku-souzoku.md`の条文原文と完全に一致しており、令和5年4月1日施行の相続法改正（904条の3新設等、及び918条の897条の2への移設）による条番号・内容への影響もないことを確認済みです。
-- **重複出題チェック（2026-08-16実施）**：`note-articles/`配下の他年度記事を検索したところ、本問と同じ「相続の承認及び放棄」分野で条文レベルの重複が2件見つかりました。①肢ウの根拠（民法923条・限定承認は共同相続人全員が共同してのみできる）は、平成29年度第3問イ（一人が単純承認すると他の相続人は限定承認できない）・令和7年度第3問オ（一部の相続人の熟慮期間が経過していても、他の相続人がまだ期間内なら全員で限定承認できる）でも扱われており、同じ923条を3つの異なる角度（本問＝単独ではできない、H29＝単純承認済みの者がいるとできなくなる、R7＝期間徒過者がいてもできる）から問う頻出論点です。②肢エの根拠（民法939条・相続放棄の遡及効）は、平成29年度第3問オ（放棄者の持分への代位登記・仮差押えが無効になる場面）でもほぼ同一の条文・結論が扱われています。いずれも本問の肢の組合せ・結論とは一致しないため正解への影響はありませんが、他年度記事を執筆・修正する際はこれらの重複に留意してください。なお肢オ（民法919条1項・2項、撤回不可だが取消しは可）は、平成29年度第3問アが919条1項の撤回不可のみを扱う点で部分的に関連しますが、取消しの可否（919条2項）まで問うのは本問のみです。
+- 【2026-08-04修正】`note-articles/laws/minpou-3-shinzoku-souzoku.md`（e-Gov原文）で条文を突き合わせた結果、アの引用条文番号に誤りがあることが判明しました。民法891条3号は「詐欺又は強迫によって、被相続人が相続に関する遺言をし、撤回し、取り消し、又は変更することを妨げた者」（＝遺言をすることを妨げた者）であり、アの事例（BがAを強迫して遺言を「させた」）に該当するのは891条4号「詐欺又は強迫によって、被相続人に相続に関する遺言をさせ、撤回させ、取り消させ、又は変更させた者」です。本文・まとめとも891条3号→891条4号に修正しました。他の引用（921条2号、923条、939条、919条1項・2項）は`minpou-3-shinzoku-souzoku.md`の条文原文と完全に一致しており、令和5年4月1日施行の相続法改正（904条の3新設等、及び918条の897条の2への移設）による条番号・内容への影響もないことを確認済みです。
+- **重複出題チェック（2026-08-16実施）**：`note-articles/`配下の他年度記事を検索したところ、本問と同じ「相続の承認及び放棄」分野で条文レベルの重複が2件見つかりました。①ウの根拠（民法923条・限定承認は共同相続人全員が共同してのみできる）は、平成29年度第3問イ（一人が単純承認すると他の相続人は限定承認できない）・令和7年度第3問オ（一部の相続人の熟慮期間が経過していても、他の相続人がまだ期間内なら全員で限定承認できる）でも扱われており、同じ923条を3つの異なる角度（本問＝単独ではできない、H29＝単純承認済みの者がいるとできなくなる、R7＝期間徒過者がいてもできる）から問う頻出論点です。②エの根拠（民法939条・相続放棄の遡及効）は、平成29年度第3問オ（放棄者の持分への代位登記・仮差押えが無効になる場面）でもほぼ同一の条文・結論が扱われています。いずれも本問の肢の組合せ・結論とは一致しないため正解への影響はありませんが、他年度記事を執筆・修正する際はこれらの重複に留意してください。なおオ（民法919条1項・2項、撤回不可だが取消しは可）は、平成29年度第3問アが919条1項の撤回不可のみを扱う点で部分的に関連しますが、取消しの可否（919条2項）まで問うのは本問のみです。
 
 ---
 
@@ -110,12 +118,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 続・認・棄・欠・強・迫・単・裁・相・家・庭・判・所 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -135,11 +161,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 強迫で遺言させたら欠格者
-Illustration: An isometric scene showing a woman character labeled "Ｂ"
-menacingly holding a scroll toward a man character labeled "Ａ" who is
+Illustration: An isometric scene showing a character labeled "Ｂ"
+menacingly holding a scroll toward a character labeled "Ａ" (被相続人) who is
 being forced to write on a document stamped "遺言", with a large red
 prohibition ("✕") icon and a torn "相続人" name-tag falling away from Ｂ
-to show she loses her heir status.
+to show Ｂ loses the heir status.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 相続欠格者になる
 
@@ -197,20 +223,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 続・認・棄・欠・強・迫・単・裁・相・家・庭・判・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, that badge numbers run 1-5 continuously across both
 columns without resetting (3 cards under 相続人の資格と承認に関する原則,
 2 cards under 相続放棄の効果に関する原則), confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -244,7 +270,15 @@ text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -268,16 +302,16 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 強迫で遺言させた者は欠格
-Diagram: An isometric scene of a woman figure labeled「Ｂ」menacingly
-holding a scroll toward a man figure labeled「Ａ」who is being forced to
+Diagram: An isometric scene of a figure labeled「Ｂ」menacingly
+holding a scroll toward a figure labeled「Ａ」(被相続人)who is being forced to
 write on a document stamped「遺言」. A checklist icon beside the scene
 reads「詐欺又は強迫による遺言の強制の有無」with a checkmark placed on it,
 and a torn「相続人」name-tag falls away from Ｂ with a large red「✕」mark
-to show she loses her heir status.
+to show Ｂ loses the heir status.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、相続人になろうとする者が、被相続人に対して詐欺または強迫によって
 遺言をさせる・変更させるなどの不正な行為をしていないかを確認します。
@@ -286,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相続欠格者になる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 3か月放置で単純承認とみなす
@@ -304,7 +338,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単純承認とみなす
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 限定承認は全員共同でのみ
@@ -321,7 +355,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全員共同が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 放棄者は遡って相続人でない
@@ -338,7 +372,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 初めから相続人でない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 撤回は不可でも取消しはできる
@@ -365,12 +399,12 @@ Small footnote text (bottom of panel, small font, verbatim):
 取消しの可否）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 続・認・棄・欠・強・迫・単・裁・撤・相・家・庭・判・所. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that the multi-condition 肢（肢オ）is
+between the header and the panels, that the multi-condition 肢（オ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered

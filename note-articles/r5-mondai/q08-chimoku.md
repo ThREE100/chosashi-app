@@ -2,51 +2,67 @@
 
 **出題年度：令和5年度　午後の部　第8問**
 
-> 地目に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　学校教育法の規定により設置された幼稚園の園舎の敷地である土地の地目は、学校用地とする。
->
-> イ　高圧線の下にある建物の敷地である土地の地目は、雑種地とする。
->
-> ウ　水力発電のためにのみ使用される排水路の地目は、雑種地とする。
->
-> エ　牧場地域内にある牧畜のために使用する牧草栽培地である土地の地目は、畑とする。
->
-> オ　人の遺体又は遺骨を埋葬する規模の大きな墓地の地目は、霊園とする。
->
+> 地目に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　学校教育法の規定により設置された幼稚園の園舎の敷地である土地の地目は、学校用地とする。  
+>　  
+> イ　高圧線の下にある建物の敷地である土地の地目は、雑種地とする。  
+>　  
+> ウ　水力発電のためにのみ使用される排水路の地目は、雑種地とする。  
+>　  
+> エ　牧場地域内にある牧畜のために使用する牧草栽培地である土地の地目は、畑とする。  
+>　  
+> オ　人の遺体又は遺骨を埋葬する規模の大きな墓地の地目は、霊園とする。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
-地目は、土地の用途（現況と利用状況）によって区分される、土地の登記記録の基本的な表示事項です。この問題では、幼稚園・高圧線下・排水路・牧草栽培地・墓地という具体的な土地について、不動産登記事務取扱準則の地目認定のルールに従って正しく地目を判断できるかが問われています。
+---
+
+地目は、土地の用途（現況と利用状況）によって区分される、土地の登記記録の基本的な表示事項です。
+
+この問題では、幼稚園・高圧線下・排水路・牧草栽培地・墓地という具体的な土地について、不動産登記事務取扱準則の地目認定のルールに従って正しく地目を判断できるかが問われています。
 
 ### ア：幼稚園の園舎の敷地は、学校用地とする
 
-学校の校舎、附属設備の敷地及び運動場は、すべて一体として学校用地として取り扱われます。ここでいう「学校」とは、学校教育法により幼稚園、小学校、中学校、高等学校、大学などとされているものを指します。したがって、学校教育法の規定により設置された幼稚園の園舎の敷地の地目は、学校用地となります。
+学校の校舎、附属設備の敷地及び運動場は、すべて一体として学校用地として取り扱われます。ここでいう「学校」とは、学校教育法により幼稚園、小学校、中学校、高等学校、大学などとされているものを指します。
+
+したがって、学校教育法の規定により設置された幼稚園の園舎の敷地の地目は、学校用地となります。
 
 **たとえば**、Aさんの近所にある幼稚園の建物や園庭が建っている土地は、「宅地」でも「雑種地」でもなく、小学校や中学校と同じように「学校用地」として登記されます。幼稚園も学校教育法上の学校の一つだからです。
 
 ### イ：高圧線下でも建物の敷地なら、雑種地ではなく宅地とする
 
-高圧線の下にある土地であっても、そこが建物の敷地として利用されていれば、地目は「宅地」として取り扱われます。雑種地として扱われるのは、高圧線下で他の目的に使用することができない区域などです（準則69条13号）。建物の敷地になっている以上、高圧線が上を通っているという一点だけで雑種地になるわけではありません。
+高圧線の下にある土地であっても、そこが建物の敷地として利用されていれば、地目は「宅地」として取り扱われます。
+
+雑種地として扱われるのは、高圧線下で他の目的に使用することができない区域などです（準則69条13号）。建物の敷地になっている以上、高圧線が上を通っているという一点だけで雑種地になるわけではありません。
 
 **たとえば**、Bさんの家の真上にたまたま高圧線が通っていたとしても、その家が建っている土地の地目は「宅地」です。高圧線の下だからといって、住まいの敷地が「雑種地」に格下げされるわけではないのです。
 
 ### ウ：水力発電のためにのみ使用される排水路は、雑種地とする
 
-かんがい用または悪水排せつ用の水路の土地は「用悪水路」とされます（準則68条16号）。しかし、水力発電のために使用される水路は、これとは別に「雑種地」となります（準則69条5号）。同じ「水を流す路」でも、農業用や排水用ではなく発電のために使われている場合は、地目の扱いが変わる点に注意が必要です。
+かんがい用または悪水排せつ用の水路の土地は「用悪水路」とされます（準則68条16号）。しかし、水力発電のために使用される水路は、これとは別に「雑種地」となります（準則69条5号）。
+
+同じ「水を流す路」でも、農業用や排水用ではなく発電のために使われている場合は、地目の扱いが変わる点に注意が必要です。
 
 **たとえば**、田んぼに水を引くための用水路であれば「用悪水路」ですが、ダムの水力発電のためだけに使われている排水路は、同じ水路でも「雑種地」として登記されます。使われている目的で地目が分かれるわけです。
 
 ### エ：牧場内の牧草栽培地は、畑ではなく牧場とする
 
-家畜を放牧する土地の地目は「牧場」とされます（準則68条10号）。そして、牧場のために使用する建物の敷地や牧草栽培地なども、牧場の中にあればすべて一体として「牧場」として取り扱われます（準則69条4号）。したがって、牧場地域内にある牧畜のための牧草栽培地は、「畑」ではなく「牧場」となります。
+家畜を放牧する土地の地目は「牧場」とされます（準則68条10号）。そして、牧場のために使用する建物の敷地や牧草栽培地なども、牧場の中にあればすべて一体として「牧場」として取り扱われます（準則69条4号）。
+
+したがって、牧場地域内にある牧畜のための牧草栽培地は、「畑」ではなく「牧場」となります。
 
 **たとえば**、牧場の中で牛のエサにする牧草を育てている一角があったとしても、その土地は農作物を育てる「畑」ではなく、牧場全体と一体の「牧場」として扱われます。牧場に付随する土地はまとめて牧場、と覚えておくとよいでしょう。
 
 ### オ：遺体・遺骨を埋葬する土地は、霊園ではなく墓地とする
 
-人の遺体または遺骨を埋葬する土地の地目は「墓地」とされます（準則68条12号）。規模が大きいかどうかは関係なく、遺体・遺骨を埋葬する土地であれば地目は墓地です。「霊園」という地目は存在しないため、規模の大きな墓地だからといって地目が霊園になることはありません。
+人の遺体または遺骨を埋葬する土地の地目は「墓地」とされます（準則68条12号）。規模が大きいかどうかは関係なく、遺体・遺骨を埋葬する土地であれば地目は墓地です。
+
+「霊園」という地目は存在しないため、規模の大きな墓地だからといって地目が霊園になることはありません。
 
 **たとえば**、広大な区画に整備された大きな公園墓地であっても、そこが人の遺骨を埋葬するための土地である以上、登記上の地目は「墓地」です。「霊園」という呼び名は通称であって、地目の種類として用意されているわけではないのです。
+
+---
 
 ### まとめ
 
@@ -109,12 +125,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・電・発 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -191,18 +225,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「その土地・施設が何のために使われているか」を先に見分けることが地目認定のコツであることを示す5パネル構成。エ・オは「畑だと思ったら牧場」「霊園だと思ったら墓地」という、うっかり思い込みやすい地目と正しい地目を左右で対比させる正誤対比型として描く。
 
@@ -211,7 +245,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(その土地、地目はどれ?), but built as a set of 5 diagram-drawing panels
+(その土地、地目はどれ？), but built as a set of 5 diagram-drawing panels
 (a "how to sketch this fact pattern, in the right order" study reference)
 rather than a quick-reference conclusion poster.
 
@@ -243,7 +277,15 @@ to the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently throughout, including inside Japanese asides.
@@ -268,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 幼稚園も学校教育法上の学校に含まれる
@@ -285,12 +327,12 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 学校用地になる
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 建物の敷地として使われていれば宅地
 Diagram: A decision flowchart. Start node: 高圧線の下にある土地が、建物
-の敷地として利用されているか?. A はい arrow leads to its own conclusion
+の敷地として利用されているか？. A はい arrow leads to its own conclusion
 node showing an isometric house with high-voltage power lines and pylons
 passing overhead, the land plot beneath the house bearing a wooden label
 reading 宅地. A separate いいえ arrow (他の目的に使用することができない
@@ -305,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 宅地のまま変わらず
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 発電専用の水路は用悪水路でなく雑種地
@@ -324,7 +366,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 雑種地になる
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 牧場内の牧草栽培地は畑でなく牧場
@@ -343,7 +385,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 畑ではなく牧場
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 規模を問わず埋葬する土地は墓地
@@ -367,11 +409,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 地, 電, 発, 学, 園, 埋, 葬, 牧, 墓 and any character that has
 a visually similar Simplified Chinese variant. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panel 2 is drawn as an actual
 flowchart whose diamond node has exactly two distinct exit arrows (はい

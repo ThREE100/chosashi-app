@@ -2,19 +2,21 @@
 
 **出題年度：令和2年度　午後の部　第12問**
 
-> 建物の構造及び床面積に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　開閉式の屋根を有する野球場については，開閉式屋根の開閉可能部分の下に当たる観客席及びフィールド部分の面積も床面積に算入する。
->
-> イ　4階建の建物で，1階部分及び2階部分が鉄骨鉄筋コンクリート造，3階部分及び4階部分が鉄骨造の場合における構成材料により区分された建物の構造は，「鉄骨鉄筋コンクリート造」である。
->
-> ウ　地上部分が2階層，地下部分が4階層からなる建物の階数により区分された建物の構造は，「地上2階付き地下4階建」である。
->
-> エ　地下街の建物については，常時一般に開放されている通路及び階段部分の面積も床面積に算入する。
->
-> オ　建物に床面積に算入されない部分があり，当該部分の屋根の種類が，他の部分の屋根の種類と異なる場合，当該床面積に算入されない部分の屋根の種類による区分は，表示の対象としない。
->
+> 建物の構造及び床面積に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　開閉式の屋根を有する野球場については，開閉式屋根の開閉可能部分の下に当たる観客席及びフィールド部分の面積も床面積に算入する。  
+>　  
+> イ　4階建の建物で，1階部分及び2階部分が鉄骨鉄筋コンクリート造，3階部分及び4階部分が鉄骨造の場合における構成材料により区分された建物の構造は，「鉄骨鉄筋コンクリート造」である。  
+>　  
+> ウ　地上部分が2階層，地下部分が4階層からなる建物の階数により区分された建物の構造は，「地上2階付き地下4階建」である。  
+>　  
+> エ　地下街の建物については，常時一般に開放されている通路及び階段部分の面積も床面積に算入する。  
+>　  
+> オ　建物に床面積に算入されない部分があり，当該部分の屋根の種類が，他の部分の屋根の種類と異なる場合，当該床面積に算入されない部分の屋根の種類による区分は，表示の対象としない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
+
+---
 
 建物の「構造」（不動産登記規則114条）と「床面積」（同115条）の表示は、実務でも受験でも間違えやすい分野です。開閉式屋根、材料が混ざった建物（混構造）、地上と地下の書き順、地下街の通路など、細かいルールが問われます。
 
@@ -26,19 +28,27 @@
 
 ### イ：材料が混ざった建物は、両方を併記する（「鉄骨鉄筋コンクリート造」一つでは表せない）
 
-柱・梁に鉄骨を主筋として鉄筋で補強しコンクリートを打設したものは「鉄骨鉄筋コンクリート造」、重量型鋼・角型鋼・鋼管などを用いたものは「鉄骨造」です（不動産登記規則114条）。1・2階が鉄骨鉄筋コンクリート造、3・4階が鉄骨造という混構造の建物は、「鉄骨・鉄骨鉄筋コンクリート造」のように両方を併記します。「鉄骨鉄筋コンクリート造」の一語で表すとする本肢は誤りです。
+柱・梁に鉄骨を主筋として鉄筋で補強しコンクリートを打設したものは「鉄骨鉄筋コンクリート造」、重量型鋼・角型鋼・鋼管などを用いたものは「鉄骨造」です（不動産登記規則114条）。
+
+1・2階が鉄骨鉄筋コンクリート造、3・4階が鉄骨造という混構造の建物は、「鉄骨・鉄骨鉄筋コンクリート造」のように両方を併記します。「鉄骨鉄筋コンクリート造」の一語で表すとする本肢は誤りです。
 
 **たとえば**、下の階が鉄骨鉄筋コンクリート造、上の階が鉄骨造という建物は、片方の名前だけで「鉄骨鉄筋コンクリート造」と表示することはできず、両方の構造を併記します。
 
 ### ウ：地下があるときは、地上・地下の階数の大小にかかわらず地下を先に書く（「地下4階付き2階建」）
 
-地下がある建物の階数の表示は、地上と地下の階数の多い少ないにかかわらず、地下の階数を先に書きます。地下に4階、地上に2階がある建物は、「地下4階付き2階建」のように表示します（不動産登記事務取扱手続準則81条1項3号イ）。本肢は「地上2階付き地下4階建」としており、順序が逆で誤りです。
+地下がある建物の階数の表示は、地上と地下の階数の多い少ないにかかわらず、地下の階数を先に書きます。
 
-**たとえば**、地下4層・地上2層のビルは、地下があるので地下を先に書いて「地下4階付き2階建」と表示します。地上の階数が地下より多い建物（例えば地下1階・地上8階のビル）でも、やはり地下を先に書いて「地下1階付き8階建」のように表示し、「地上2階付き地下4階建」のように地上を先に書くことはありません。
+地下に4階、地上に2階がある建物は、「地下4階付き2階建」のように表示します（不動産登記事務取扱手続準則81条1項3号イ）。本肢は「地上2階付き地下4階建」としており、順序が逆で誤りです。
+
+**たとえば**、地下4層・地上2層のビルは、地下があるので地下を先に書いて「地下4階付き2階建」と表示します。
+
+地上の階数が地下より多い建物（例えば地下1階・地上8階のビル）でも、やはり地下を先に書いて「地下1階付き8階建」のように表示し、「地上2階付き地下4階建」のように地上を先に書くことはありません。
 
 ### エ：地下街の常時開放されている通路・階段は、床面積に算入しない
 
-地下停車場・地下駐車場・地下街の建物の床面積は、壁や柱などで区画された部分の面積で定めます。ただし、常時一般に開放されている通路や階段の部分などは、床面積に算入しません（不動産登記事務取扱手続準則82条1項4号）。本肢は「算入する」としており、誤りです。
+地下停車場・地下駐車場・地下街の建物の床面積は、壁や柱などで区画された部分の面積で定めます。
+
+ただし、常時一般に開放されている通路や階段の部分などは、床面積に算入しません（不動産登記事務取扱手続準則82条4号）。本肢は「算入する」としており、誤りです。
 
 **たとえば**、地下街で、誰でも自由に通り抜けできる共用の通路や階段は、特定の店舗の専用部分ではないため、床面積には含めません。
 
@@ -47,6 +57,8 @@
 建物のうち床面積に算入されない部分について、その屋根の種類が他の部分と異なっていても、その部分の屋根の種類による区分は、構造の表示の対象としません。本肢は正しい記述です。
 
 **たとえば**、床面積に算入しない吹き抜けやひさし状の部分の屋根が、本体部分と違う材質でできていても、その屋根の種類をわざわざ構造欄に表示することはしません。
+
+---
 
 ### まとめ
 
@@ -66,10 +78,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（令和2年度午後の部 第12問）・正解番号（アオ＝2番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
-- 各肢の根拠のうち、ア（平5.12.3民三7499号）・イ（不動産登記規則114条）・ウ（準則81条1項3号イ）・エ（準則82条1項4号）は、データベースのexplanationフィールドに条文番号・先例番号まで明記されています。オ（床面積不算入部分の屋根の種類）は、構造表示の一般的な取扱いからの説明です。
+- 各肢の根拠のうち、ア（平5.12.3民三7499号）・イ（不動産登記規則114条）・ウ（準則81条1項3号イ）・エ（準則82条4号）は、データベースのexplanationフィールドに条文番号・先例番号まで明記されています。オ（床面積不算入部分の屋根の種類）は、構造表示の一般的な取扱いからの説明です。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。**本問ア（開閉式屋根の野球場は開閉可能部分の下の観客席・フィールドも床面積に算入する）は、令和6年度第12問エと同一の論点（開閉式屋根部分の床面積の扱い）を裏表の記述で問うものです**（本問は「算入する＝正しい」、令和6年度は「除いて建物として登記できる＝誤り」）。他の肢（混構造の表示・地上地下の階数表示の順序・地下街の床面積・床面積不算入部分の屋根）は令和4年度第12問・令和5年度第12問を含め、いずれも異なる出題内容であり、他に重複する出題は見つかりませんでした。上記アの1肢についてはnoteでの執筆・公開に際して「たとえば」の具体例が似た内容にならないよう注意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **再検証（2026-08-13実施）**：肢別解説本文の条文番号（イ＝不動産登記規則114条、ウ＝準則81条1項3号イ、エ＝準則82条1項4号）をlaws/fudousan-touki-kisoku-1.md・laws/fudousan-touki-jimu-junsoku.mdの条文と突き合わせました。イ・ウは一致を確認しましたが、エの根拠として本文・確認事項ブロックに記載されていた「準則82条1項4号・5号」のうち5号は誤りでした。準則82条1項5号は「停車場の地下道設備は床面積に算入しない」という別内容の規定で、常時開放の通路・階段の不算入を定めているのは4号のみです。本文・確認事項ブロックとも「4号」のみの記載に修正しました（結論・正解に変更はありません）。正解（アオ＝選択肢2番）もtakuitsu.jsonの正解キーと一致することを再確認しました。
+- **再検証（2026-08-13実施）**：肢別解説本文の条文番号（イ＝不動産登記規則114条、ウ＝準則81条1項3号イ、エ＝準則82条4号）をlaws/fudousan-touki-kisoku-1.md・laws/fudousan-touki-jimu-junsoku.mdの条文と突き合わせました。イ・ウは一致を確認しましたが、エの根拠として本文・確認事項ブロックに記載されていた「準則82条4号・5号」のうち5号は誤りでした。準則82条5号は「停車場の地下道設備は床面積に算入しない」という別内容の規定で、常時開放の通路・階段の不算入を定めているのは4号のみです。本文・確認事項ブロックとも「4号」のみの記載に修正しました（結論・正解に変更はありません）。正解（アオ＝選択肢2番）もtakuitsu.jsonの正解キーと一致することを再確認しました。
 - **法令再検証（2026-08-04実施）**：ウの根拠として引用していた不動産登記事務取扱手続準則81条1項3号イ自体は、laws/fudousan-touki-jimu-junsoku.mdで条文番号・内容とも確認済みで誤りはありませんでしたが、旧稿の理由づけ「階数の多い方を先に書く」は不正確だったため修正しました。同準則が示す表示例は「地下何階付き平家建（又は何階建）」のみで、地上・地下の階数の大小比較には言及しておらず、実務上も地下がある建物は地上・地下の階数にかかわらず常に地下を先に書く固定の書式です（本問はたまたま地下4・地上2で地下の方が多い事例だったため、誤った理由づけでも結論〈選択肢の正誤〉自体は変わりません）。タイトル・ウの見出し・本文・たとえば・まとめ・見出し画像用フレーズ・インフォグラフィックのCard4を、この正しい理由づけに沿って修正しています。正解番号（アオ＝2番）に変更はありません。
 
 ---
@@ -109,13 +121,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 開・閉・式・屋・根・床・面・積・算・入・混・構・造・併・記・地・上・下・街・通・路 — these
 must be rendered in their standard Japanese (Jōyō) forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -197,20 +227,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 建物の「構造」と「床面積」の表示ルールを、肢ごとに最適な図の型（配置図・
 決定木・正誤対比）で示す5パネル構成。ウは「地上・地下どちらを先に書く
@@ -241,7 +271,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 3（肢ウ）must be drawn as a 正誤対比型
+— do not force a flowchart. Panel 3（ウ）must be drawn as a 正誤対比型
 side-by-side comparison: one side showing the correct label 地下4階付き
 2階建 with a checkmark, the other side showing the easily-mistaken label
 地上2階付き地下4階建 with a red ✕ and a strikethrough, because the whole
@@ -256,7 +286,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -282,7 +320,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 開閉式屋根の下も床面積に算入する
@@ -299,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 開閉部の下も算入
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 構成材料が混ざっているかを確認する
@@ -320,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 混構造は両方併記
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 地下と地上どちらを先に書くかを見分ける
@@ -338,7 +376,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地下が常に先
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 地下街の通路が常時開放されているかを確認する
@@ -360,7 +398,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 共用通路は不算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 床面積不算入部分の屋根の扱いを確認する
@@ -380,14 +418,14 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記規則114条、不動産登記事務取扱手続準則81条1項3号イ・82条1項4号
+不動産登記規則114条、不動産登記事務取扱手続準則81条1項3号イ・82条4号
 に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 閉, 鉄, 骨, 混, 構, 併, 街, 通, 路, 算, 積 and any character
-that has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢 is

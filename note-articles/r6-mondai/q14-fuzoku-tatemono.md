@@ -2,25 +2,31 @@
 
 **出題年度：令和6年度　午後の部　第14問**
 
-> 附属建物に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　近接して建築されたが、効用上一体として利用される状態にない甲建物及び乙建物について、甲建物を主である建物とし、乙建物を附属建物とする建物の表題登記の申請は、することができない。
->
-> イ　甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合には、添付情報として各階平面図を提供する必要はない。
->
-> ウ　所有権の登記がある甲建物の附属建物を新築する場合における不動産工事の先取特権の保存の登記がされた後に、当該附属建物の建築が完了したときは、甲建物の所有権の登記名義人は、遅滞なく、当該附属建物の新築による建物の表題部の変更の登記を申請しなければならない。
->
-> エ　附属建物がある建物の表題登記を申請する場合において、附属建物の新築の日が主である建物の新築の日と同一であるときは、附属建物の新築の日を申請情報の内容とすることを要しない。
->
-> オ　建物の附属建物を新築した場合において、建物の表題部の変更の登記を申請するときは、変更後の建物図面を添付情報として提供することを要しない。
->
+> 附属建物に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　近接して建築されたが、効用上一体として利用される状態にない甲建物及び乙建物について、甲建物を主である建物とし、乙建物を附属建物とする建物の表題登記の申請は、することができない。  
+>　  
+> イ　甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合には、添付情報として各階平面図を提供する必要はない。  
+>　  
+> ウ　所有権の登記がある甲建物の附属建物を新築する場合における不動産工事の先取特権の保存の登記がされた後に、当該附属建物の建築が完了したときは、甲建物の所有権の登記名義人は、遅滞なく、当該附属建物の新築による建物の表題部の変更の登記を申請しなければならない。  
+>　  
+> エ　附属建物がある建物の表題登記を申請する場合において、附属建物の新築の日が主である建物の新築の日と同一であるときは、附属建物の新築の日を申請情報の内容とすることを要しない。  
+>　  
+> オ　建物の附属建物を新築した場合において、建物の表題部の変更の登記を申請するときは、変更後の建物図面を添付情報として提供することを要しない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
+
+---
 
 附属建物として登記できるかどうかの核心は、「主である建物と効用上一体として利用される状態にあるか」という一点です。この要件を軸に、合併・変更登記の添付情報や申請義務の細目を確認していきましょう。
 
 ### ア：効用上一体でない建物は、附属建物とする登記ができない
 
-附属建物とは、表題登記がある主である建物に附属し、これと一体のものとして1個の建物として登記される建物をいいます（法2条1項23号）。主である建物の利用を補うために建築されるのが附属建物であり、所有者が同一であることに加え、効用上一体をなしていることが必要です（準則78条1項）。したがって、近接して建てられただけで効用上一体として利用される状態にない建物同士は、附属建物とする表題登記を申請することができません。
+附属建物とは、表題登記がある主である建物に附属し、これと一体のものとして1個の建物として登記される建物をいいます（法2条1項23号）。
+
+主である建物の利用を補うために建築されるのが附属建物であり、所有者が同一であることに加え、効用上一体をなしていることが必要です（準則78条1項）。
+
+したがって、近接して建てられただけで効用上一体として利用される状態にない建物同士は、附属建物とする表題登記を申請することができません。
 
 **たとえば**、隣り合って建っているだけで用途上の関連がない甲建物（住宅）と乙建物（まったく無関係の倉庫）について、乙建物を甲建物の附属建物として登記することはできません。
 
@@ -32,7 +38,9 @@
 
 ### ウ：先取特権保存登記後の附属建物完成は「遅滞なく」変更登記が必要
 
-附属建物の新築について不動産工事の先取特権の保存の登記がされた後に、当該附属建物の建築が完了した場合、その建物の所有権の登記名義人は、遅滞なく、附属建物の新築による建物の表題部の変更の登記を申請しなければなりません（法87条2項）。先取特権に関する権利関係を速やかに公示させるため、申請義務の期間が通常の「1か月以内」よりも短い「遅滞なく」とされています。
+附属建物の新築について不動産工事の先取特権の保存の登記がされた後に、当該附属建物の建築が完了した場合、その建物の所有権の登記名義人は、遅滞なく、附属建物の新築による建物の表題部の変更の登記を申請しなければなりません（法87条2項）。
+
+先取特権に関する権利関係を速やかに公示させるため、申請義務の期間が通常の「1か月以内」よりも短い「遅滞なく」とされています。
 
 **たとえば**、増築中の離れについて先取特権の保存登記をしていた場合、離れが完成したら、通常の増築より急いで表題部の変更登記を申請しなければなりません。
 
@@ -47,6 +55,8 @@
 附属建物の新築による建物の表題部変更登記では、登記官が建物所在図に新築した附属建物の形状を書き入れることになるため、変更後の建物図面を添付情報として提供しなければなりません（令別表14項添付情報ハ）。
 
 **たとえば**、既存の住宅に新しく物置（附属建物）を建てた場合の変更登記では、その物置の位置がわかる変更後の建物図面を提供する必要があります。
+
+---
 
 ### まとめ
 
@@ -108,16 +118,34 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・権・建・物・登・記・所・図・積 — these must be rendered in their
+kanji 権・建・物・登・記・図 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
-離れは、いつでも附属建物になれる?
+離れは、いつでも附属建物になれる？
 
 Subtitle (smaller, centered, 1行):
 令和6年度 午後の部 第14問－要件と手続を整理
@@ -188,20 +216,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、ア〜オの各肢について「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに1枚のパネルで示す作図ガイド。上記の②俯瞰カードポスターとは別物で、結論そのものではなく、結論に至るまでの思考の手順を可視化することを目的とする。
 
@@ -251,7 +279,15 @@ own body text - do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
@@ -277,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -299,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 附属建物にできない
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in blue containing the number 2(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -316,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 省略できない
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -336,7 +372,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 遅滞なく申請必要
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -354,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記載省略できる
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -377,10 +413,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 登記令別表14項・16項添付情報
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建・物・附・属・効・用・登・記・積・図・権・遅・滞・築・省・
-略. If any character renders as a Simplified Chinese variant, redraw that
-character in the correct Japanese form. Confirm the panel count equals 5
+略. If any character renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
 every multi-condition 肢 is drawn as an actual flowchart with branch

@@ -2,19 +2,21 @@
 
 **出題年度：平成26年度　午後の部　第5問**
 
-> 地図に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　地図は，一筆又は二筆以上の土地ごとに作成し，各筆土地の区画を明確にし，地番を表示するものである。
->
-> イ　地図訂正の申出をする場合において，その土地の登記記録の地積に錯誤があるときは，当該申出は，地積に関する更正の登記の申請と併せてしなければならない。
->
-> ウ　主に田，畑が占める地域及びその周辺の地域の地図は，2,500分の1の縮尺で作成しなければならない。
->
-> エ　地図には，基本三角点等の位置が記録される。
->
-> オ　地図の閲覧を請求することができるのは，請求する土地の所有者や当該土地の抵当権者及び隣接土地所有者等の利害関係を有する者に限られる。
->
+> 地図に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　地図は，一筆又は二筆以上の土地ごとに作成し，各筆土地の区画を明確にし，地番を表示するものである。  
+>　  
+> イ　地図訂正の申出をする場合において，その土地の登記記録の地積に錯誤があるときは，当該申出は，地積に関する更正の登記の申請と併せてしなければならない。  
+>　  
+> ウ　主に田，畑が占める地域及びその周辺の地域の地図は，2,500分の1の縮尺で作成しなければならない。  
+>　  
+> エ　地図には，基本三角点等の位置が記録される。  
+>　  
+> オ　地図の閲覧を請求することができるのは，請求する土地の所有者や当該土地の抵当権者及び隣接土地所有者等の利害関係を有する者に限られる。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 不動産登記法14条に基づく「地図」（いわゆる17条地図）は、土地の区画を明確に示す精度の高い図面です。この問題では、地図の作成基準（縮尺）と、地図の公開性（誰でも閲覧できるのか）という2つの論点が問われています。
 
@@ -26,13 +28,19 @@
 
 ### イ：地図訂正の申出で地積の錯誤があるときは、地積更正登記の申請と併せて行う
 
-地図訂正の申出をする際、その土地の登記記録上の地積に誤りがあることが分かった場合は、単に地図だけを訂正するのではなく、地積に関する更正の登記の申請と合わせて手続を行わなければなりません。地図の記載と登記記録の地積は連動しているため、両方を整合させる必要があるからです。
+地図訂正の申出をする際、その土地の登記記録上の地積に誤りがあることが分かった場合は、単に地図だけを訂正するのではなく、地積に関する更正の登記の申請と合わせて手続を行わなければなりません。
+
+地図の記載と登記記録の地積は連動しているため、両方を整合させる必要があるからです。
 
 **たとえば**、地図上の土地の形状がずれていることに気づいて訂正を申し出たところ、実際には登記記録上の地積そのものにも誤りがあったことが判明したとします。この場合、地図の訂正申出だけでなく、地積の更正登記の申請も一緒に行う必要があります。
 
 ### ウ：田・畑が占める地域の地図の縮尺は、2,500分の1ではない
 
-地図の縮尺は、その地域の性質によって不動産登記規則で標準となる数値が定められています。市街地地域は250分の1又は500分の1、村落・農耕地域（主に田・畑が占める地域）は500分の1又は1,000分の1、山林・原野地域は1,000分の1又は2,500分の1が標準とされています。つまり「2,500分の1」は山林・原野地域の縮尺であり、田・畑が占める地域の縮尺ではありません。
+地図の縮尺は、その地域の性質によって不動産登記規則で標準となる数値が定められています。
+
+市街地地域は250分の1又は500分の1、村落・農耕地域（主に田・畑が占める地域）は500分の1又は1,000分の1、山林・原野地域は1,000分の1又は2,500分の1が標準とされています。
+
+つまり「2,500分の1」は山林・原野地域の縮尺であり、田・畑が占める地域の縮尺ではありません。
 
 **たとえば**、田んぼや畑が広がる農村地域の地図は、実際には500分の1や1,000分の1程度の縮尺で作られるのが標準であり、山や原野が広がる地域のように2,500分の1という粗い縮尺で作られるわけではありません。
 
@@ -47,6 +55,8 @@
 地図（17条地図）の閲覧請求は、不動産登記法上、特定の利害関係を有する者に限られているわけではなく、誰でも請求することができます。所有者や抵当権者、隣接地所有者といった利害関係人に限定されているという制限はありません。
 
 **たとえば**、その土地に何の権利も持っていない第三者であっても、単に地域の地図を確認したいという理由だけで、登記所に地図の閲覧を請求することができます。
+
+---
 
 ### まとめ
 
@@ -109,12 +119,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 図・縮・尺・訂・正・積・錯・誤・閲・覧 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -191,22 +219,22 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、地図の「作成・記録」に関する肢か「訂正・閲覧の手続」に関する肢かを見分け、どの順番で条件を確認すればよいかを示す解き方ガイド。肢ウは村落・農耕地域と山林・原野地域の縮尺を対比する型、肢オは誤りやすい思い込みと正しいルールを対比する型で構成してある。
+問題文を読んだ瞬間に、地図の「作成・記録」に関する肢か「訂正・閲覧の手続」に関する肢かを見分け、どの順番で条件を確認すればよいかを示す解き方ガイド。ウは村落・農耕地域と山林・原野地域の縮尺を対比する型、オは誤りやすい思い込みと正しいルールを対比する型で構成してある。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2800 pixels,
@@ -275,7 +303,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 区画線と地番を土地ごとに描き込む
@@ -290,7 +318,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 区画と地番を明確化
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地積の錯誤があれば更正登記と同時に申出る
@@ -305,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 更正登記とセットで
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 田畑地域と山林原野地域で標準縮尺は異なる
@@ -313,7 +341,7 @@ Diagram: A two-box contrast layout. Left box: an isometric rice-paddy and
 field landscape labeled「村落・農耕地域（主に田・畑）」with a tag「500分の
 1・1,000分の1」and a green checkmark. Right box: an isometric forest and
 wasteland landscape labeled「山林・原野地域」with a tag「1,000分の1・
-2,500分の1」. An arrow from a small text bubble reading「肢ウの主張：田・
+2,500分の1」. An arrow from a small text bubble reading「ウの主張：田・
 畑＝2,500分の1」points toward the right box's tag with a red X mark,
 showing the claimed scale actually belongs to the other region.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -324,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 山林原野の縮尺
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 基本三角点の位置も地図に記録される
@@ -338,7 +366,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 三角点も記録事項
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地図の閲覧に利害関係の有無は問われない

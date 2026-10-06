@@ -2,49 +2,73 @@
 
 **出題年度：平成29年度　午後の部　第4問**
 
-> 次の〔文章〕中の（①）から（⑦）までの空欄に後記の〔語句群〕の中から適切な語句を選んで入れると，不動産登記に関する文章となる。（②），（③），（⑤）及び（⑦）の空欄に入れるべき語句の組合せとして最も適切なものは，後記1から5までのうち，どれか。ただし，文章中の【Ａ】及び【Ｂ】には適当な語句が入るものとし，同一の数字又は記号には同一の語句が入り，異なる数字又は記号には同一の語句は入らないものとする。
->
-> 〔文章〕
-> 不動産登記法は，不動産の【Ａ】及び不動産に関する【Ｂ】を公示するための登記に関する制度について定めることにより，国民の権利の保全を図り，もって取引の安全と円滑に資することを目的とする。【Ａ】に関する登記は，登記の対象となる不動産の（①）を公示し，当該不動産を特定することを目的としており，【Ｂ】に関する登記は，当該不動産の（②）を公示することを目的としている。【Ａ】に関する登記と【Ｂ】に関する登記は，登記簿に，（③）を一筆の土地又は一個の（④）ごとに（⑤）に区分して，登記記録として記録することにより行う。
-> 民法では，土地及びその（⑥）は不動産とすると規定しているが，不動産登記法では，土地又は（④）を不動産と定義している。さらに，不動産登記規則は，登記の対象となる（④）は，屋根及び周壁又はこれらに類するものを有し，土地に定着した建造物であって，その目的とする（⑦）に供し得る状態にあるものでなければならないとしている。
->
-> 〔語句群〕
-> 登記情報，権利関係，登記事項，不動産番号，物理的状況，表題部と権利部，甲区と乙区，種類，用途，定着物，建物，従物
->
-> 　　　（②）　　　　（③）　　　　　（⑤）　　　　　（⑦）
-> 1　権利関係　　　登記情報　　　表題部と権利部　　種類
-> 2　物理的状況　　登記情報　　　甲区と乙区　　　　種類
-> 3　物理的状況　　登記事項　　　表題部と権利部　　用途
-> 4　権利関係　　　登記情報　　　甲区と乙区　　　　種類
+> 次の〔文章〕中の（①）から（⑦）までの空欄に後記の〔語句群〕の中から適切な語句を選んで入れると，不動産登記に関する文章となる。（②），（③），（⑤）及び（⑦）の空欄に入れるべき語句の組合せとして最も適切なものは，後記1から5までのうち，どれか。ただし，文章中の【Ａ】及び【Ｂ】には適当な語句が入るものとし，同一の数字又は記号には同一の語句が入り，異なる数字又は記号には同一の語句は入らないものとする。  
+>　  
+> 〔文章〕  
+>　  
+> 不動産登記法は，不動産の【Ａ】及び不動産に関する【Ｂ】を公示するための登記に関する制度について定めることにより，国民の権利の保全を図り，もって取引の安全と円滑に資することを目的とする。【Ａ】に関する登記は，登記の対象となる不動産の（①）を公示し，当該不動産を特定することを目的としており，【Ｂ】に関する登記は，当該不動産の（②）を公示することを目的としている。【Ａ】に関する登記と【Ｂ】に関する登記は，登記簿に，（③）を一筆の土地又は一個の（④）ごとに（⑤）に区分して，登記記録として記録することにより行う。  
+>　  
+> 民法では，土地及びその（⑥）は不動産とすると規定しているが，不動産登記法では，土地又は（④）を不動産と定義している。さらに，不動産登記規則は，登記の対象となる（④）は，屋根及び周壁又はこれらに類するものを有し，土地に定着した建造物であって，その目的とする（⑦）に供し得る状態にあるものでなければならないとしている。  
+>　  
+> 〔語句群〕  
+>　  
+> 登記情報，権利関係，登記事項，不動産番号，物理的状況，表題部と権利部，甲区と乙区，種類，用途，定着物，建物，従物  
+>　  
+> 　　　（②）　　　　（③）　　　　　（⑤）　　　　　（⑦）  
+>　  
+> 1　権利関係　　　登記情報　　　表題部と権利部　　種類  
+>　  
+> 2　物理的状況　　登記情報　　　甲区と乙区　　　　種類  
+>　  
+> 3　物理的状況　　登記事項　　　表題部と権利部　　用途  
+>　  
+> 4　権利関係　　　登記情報　　　甲区と乙区　　　　種類  
+>　  
 > 5　権利関係　　　登記事項　　　表題部と権利部　　用途
 
-この問題は、不動産登記法の目的条文（1条）と登記記録の基本構造という、いわば「不動産登記法のいちばん最初のページ」を穴埋め形式で確認するものです。まず【Ａ】＝「表示」、【Ｂ】＝「権利」と読み解けるかがカギで、そこから各空欄が芋づる式に決まっていきます。問われているのは②③⑤⑦の4か所です。
+---
 
-前提として、不動産登記は、不動産の物理的現況を公示する「表示に関する登記」（法2条3号）と、不動産の権利関係を公示する「権利に関する登記」（法2条4号）の2本柱でできています。よって文章中の【Ａ】には「表示」、【Ｂ】には「権利」が入ります。①には「物理的状況」、④には「建物」、⑥には「定着物」が入ります。
+この問題は、不動産登記法の目的条文（1条）と登記記録の基本構造という、いわば「不動産登記法のいちばん最初のページ」を穴埋め形式で確認するものです。
+
+まず【Ａ】＝「表示」、【Ｂ】＝「権利」と読み解けるかがカギで、そこから各空欄が芋づる式に決まっていきます。問われているのは②③⑤⑦の4か所です。
+
+前提として、不動産登記は、不動産の物理的現況を公示する「表示に関する登記」（法2条3号）と、不動産の権利関係を公示する「権利に関する登記」（法2条4号）の2本柱でできています。
+
+よって文章中の【Ａ】には「表示」、【Ｂ】には「権利」が入ります。①には「物理的状況」、④には「建物」、⑥には「定着物」が入ります。
 
 ### 空欄②：権利に関する登記が公示するのは、不動産の「権利関係」
 
-【Ｂ】＝「権利」に関する登記が公示するのは、その不動産の（②）です。権利に関する登記は、所有権や抵当権など、その不動産をめぐる権利のありよう、すなわち「権利関係」を公示することを目的としています（法1条）。物理的な形や広さを公示する「物理的状況」は表示に関する登記の役割なので、②には「権利関係」が入ります。
+【Ｂ】＝「権利」に関する登記が公示するのは、その不動産の（②）です。権利に関する登記は、所有権や抵当権など、その不動産をめぐる権利のありよう、すなわち「権利関係」を公示することを目的としています（法1条）。
+
+物理的な形や広さを公示する「物理的状況」は表示に関する登記の役割なので、②には「権利関係」が入ります。
 
 **たとえば**、ある土地について「所有者は誰か」「抵当権が付いているか」を知りたいとき、その答えを教えてくれるのが権利に関する登記です。まさに土地をめぐる権利の関係＝「権利関係」を世の中に示しているのです。
 
 ### 空欄③：登記記録として記録すべき事項は「登記事項」
 
-表示に関する登記と権利に関する登記は、登記簿に、（③）を一筆の土地・一個の建物ごとに記録して行います。ここで記録される「登記すべき事項」のことを、不動産登記法では「登記事項」といいます（法2条6号）。似た言葉の「登記情報」は、登記記録に記録された情報の内容を指す別概念なので、③には「登記事項」が入ります。
+表示に関する登記と権利に関する登記は、登記簿に、（③）を一筆の土地・一個の建物ごとに記録して行います。ここで記録される「登記すべき事項」のことを、不動産登記法では「登記事項」といいます（法2条6号）。
+
+似た言葉の「登記情報」は、登記記録に記録された情報の内容を指す別概念なので、③には「登記事項」が入ります。
 
 **たとえば**、土地であれば所在・地番・地目・地積、建物であれば所在・家屋番号・種類・構造・床面積などが、登記記録に書き込むべき項目です。これらをまとめて「登記事項」と呼ぶ、と覚えておきましょう。
 
 ### 空欄⑤：登記記録は「表題部と権利部」に区分される
 
-登記記録は、一筆の土地・一個の建物ごとに、（⑤）に区分して記録されます。登記記録は「表題部」と「権利部」で構成されており（法12条）、表題部には表示に関する登記が、権利部には権利に関する登記が記録されます。したがって⑤には「表題部と権利部」が入ります。なお「甲区と乙区」は権利部をさらに区分したもの（甲区＝所有権、乙区＝所有権以外）であり、一段細かい話なのでここでは当てはまりません。
+登記記録は、一筆の土地・一個の建物ごとに、（⑤）に区分して記録されます。登記記録は「表題部」と「権利部」で構成されており（法12条）、表題部には表示に関する登記が、権利部には権利に関する登記が記録されます。
+
+したがって⑤には「表題部と権利部」が入ります。なお「甲区と乙区」は権利部をさらに区分したもの（甲区＝所有権、乙区＝所有権以外）であり、一段細かい話なのでここでは当てはまりません。
 
 **たとえば**、登記事項証明書を取ると、上のほうに土地や建物の物理的な情報（表題部）、下のほうに所有権や抵当権の情報（権利部）が並んでいます。この大きな2つの区分が「表題部と権利部」です。
 
 ### 空欄⑦：建物と認められるには、その目的とする「用途」に供し得る状態が必要
 
-不動産登記規則は、登記の対象となる建物（④）を、屋根および周壁またはこれらに類するものを有し（外気分断性）、土地に定着した建造物であって（定着性）、その目的とする（⑦）に供し得る状態にあるもの（用途性）と定めています。この3要件のうち、⑦に入るのは「用途」です。「種類」は登記記録に記載する事項であって、建物として認められるかどうかの要件そのものではありません。
+不動産登記規則は、登記の対象となる建物（④）を、屋根および周壁またはこれらに類するものを有し（外気分断性）、土地に定着した建造物であって（定着性）、その目的とする（⑦）に供し得る状態にあるもの（用途性）と定めています。
+
+この3要件のうち、⑦に入るのは「用途」です。「種類」は登記記録に記載する事項であって、建物として認められるかどうかの要件そのものではありません。
 
 **たとえば**、屋根と壁があって土地に固定されていても、住むにも商売にも使えないような未完成の箱では、まだ「建物」とは認められません。居宅なら住める、店舗なら商売ができる、というように、その目的の「用途」に使える状態になって初めて建物になるのです。
+
+---
 
 ### まとめ
 
@@ -106,13 +130,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 表・示・権・利・関・係・登・記・事・項・題・部・建・物・用・途
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -177,19 +219,19 @@ these 5 headings):
 5. 建物は「用途」に使える状態が必要
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（①②③⑤⑦ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-本問は肢ア〜オの正誤判定ではなく、不動産登記法の基本用語を穴埋めで確認する問題のため、各パネルは「その空欄に入る語句をどう判断するか」という見分け方の手順を示す作図ガイドにした。空欄①・②は「表示に関する登記」と「権利に関する登記」という同じ対比枠を共有し、パネルごとに強調する側を切り替える。空欄③は紛らわしい別概念（登記情報）との対比、空欄⑤は区分の粒度（表題部と権利部／甲区と乙区）を見分ける決定木、空欄⑦は建物の認定要件を順に確認する決定木として、それぞれ独立に設計した。
+本問はア〜オの正誤判定ではなく、不動産登記法の基本用語を穴埋めで確認する問題のため、各パネルは「その空欄に入る語句をどう判断するか」という見分け方の手順を示す作図ガイドにした。空欄①・②は「表示に関する登記」と「権利に関する登記」という同じ対比枠を共有し、パネルごとに強調する側を切り替える。空欄③は紛らわしい別概念（登記情報）との対比、空欄⑤は区分の粒度（表題部と権利部／甲区と乙区）を見分ける決定木、空欄⑦は建物の認定要件を順に確認する決定木として、それぞれ独立に設計した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -233,7 +275,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -374,7 +420,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
 Chinese variant, paying special attention to 表・示・権・利・関・係・登・
-記・事・項・題・部・甲・乙・区・用・途・種・類・建・造・周・壁・着. If any
+記・事・項・題・部・甲・乙・区・用・途・種・類・建・造・周・壁・着. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also confirm that no
 character outside hiragana, katakana, Jōyō kanji, and the Arabic numerals

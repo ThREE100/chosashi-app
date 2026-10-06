@@ -2,25 +2,29 @@
 
 **出題年度：令和6年度　午後の部　第15問**
 
-> 建物の表示に関する登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　表題部に建物の名称が記録されている区分建物でない建物の滅失の登記を申請する場合において、当該建物の名称を申請情報の内容とするときは、当該建物の構造及び床面積を申請情報の内容とすることを要しない。
->
-> イ　表題部所有者の氏名についての変更の登記の登記原因は、「氏名変更」である。
->
-> ウ　建物の表題部所有者として誤ってＡが登記されているが、当該建物の真実の所有者がＢである場合には、Ａは、当該建物について、表題部所有者の更正の登記を申請することができる。
->
-> エ　2階建ての建物を階層的に区分して1階部分を甲区分建物とし、2階部分を乙区分建物とする区分建物の表題登記を申請する場合には、甲区分建物及び乙区分建物のいずれの専有部分の建物の表示欄中の構造欄にも屋根の種類が記録されない。
->
-> オ　共用部分である旨の登記がされており、複数の者が共有する建物の表題部の更正の登記は、当該建物の共有者全員が申請しなければならない。
->
+> 建物の表示に関する登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　表題部に建物の名称が記録されている区分建物でない建物の滅失の登記を申請する場合において、当該建物の名称を申請情報の内容とするときは、当該建物の構造及び床面積を申請情報の内容とすることを要しない。  
+>　  
+> イ　表題部所有者の氏名についての変更の登記の登記原因は、「氏名変更」である。  
+>　  
+> ウ　建物の表題部所有者として誤ってＡが登記されているが、当該建物の真実の所有者がＢである場合には、Ａは、当該建物について、表題部所有者の更正の登記を申請することができる。  
+>　  
+> エ　2階建ての建物を階層的に区分して1階部分を甲区分建物とし、2階部分を乙区分建物とする区分建物の表題登記を申請する場合には、甲区分建物及び乙区分建物のいずれの専有部分の建物の表示欄中の構造欄にも屋根の種類が記録されない。  
+>　  
+> オ　共用部分である旨の登記がされており、複数の者が共有する建物の表題部の更正の登記は、当該建物の共有者全員が申請しなければならない。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+
+---
 
 建物の表示に関する登記は、滅失・変更・更正・区分といった場面ごとに、申請情報として何を書くべきか、誰が申請できるかが細かく定められています。1問の中に複数の論点が混在している総合問題として、丁寧に切り分けていきましょう。
 
 ### ア：建物名称を記載しても、滅失登記で構造・床面積は省略できない
 
-区分建物でない建物の滅失の登記を申請する場合、表題部に建物の名称が記録されていて、その名称を申請情報の内容としたとしても、それだけで建物の構造及び床面積の記載を省略できるとする規定はありません。滅失登記の申請情報には、対象建物を特定するために必要な事項をきちんと記録する必要があります。
+区分建物でない建物の滅失の登記を申請する場合、表題部に建物の名称が記録されていて、その名称を申請情報の内容としたとしても、それだけで建物の構造及び床面積の記載を省略できるとする規定はありません。
+
+滅失登記の申請情報には、対象建物を特定するために必要な事項をきちんと記録する必要があります。
 
 **たとえば**、「山田ハイツ」という名称が登記されている建物を取り壊して滅失登記を申請する場合、名称を書いたからといって、構造や床面積の記載を省略することはできません。
 
@@ -32,7 +36,9 @@
 
 ### ウ：表題部所有者の更正登記は、真正な所有者Bからのみ申請できる
 
-表題部所有者の更正登記は、真正な表題部所有者から申請することができ、誤って表題部所有者として記録されている者からは申請することができません。建物の真実の所有者がＢであるにもかかわらずＡが誤って登記されている場合、更正登記を申請できるのはＢであって、Ａが申請することはできません。
+表題部所有者の更正登記は、真正な表題部所有者から申請することができ、誤って表題部所有者として記録されている者からは申請することができません。
+
+建物の真実の所有者がＢであるにもかかわらずＡが誤って登記されている場合、更正登記を申請できるのはＢであって、Ａが申請することはできません。
 
 **たとえば**、本当は木村さんが所有している建物なのに、誤って中村さんが表題部所有者として登記されている場合、更正登記を申請できるのは真の所有者である木村さんであり、中村さん自身がこの更正登記を申請することはできません。
 
@@ -44,9 +50,11 @@
 
 ### オ：共用部分である旨の登記がある建物も、共有者の1人から申請できる
 
-建物が共有の場合、その表題部の変更・更正の登記は、保存行為として共有者の1人から申請することができます（民法252条5項）。これは共用部分である旨の登記がされている場合であっても同様であり、共有者全員でしなければならないわけではありません。
+建物が共有の場合、その表題部の変更・更正の登記は、保存行為として共有者の1人から申請することができます。この建物は共用部分である旨の登記がされており、区分所有法上の共用部分として同法の共有に関する規律が及ぶため、その保存行為は各共有者が単独ですることができます（区分所有法18条1項ただし書）。共有者全員でしなければならないわけではありません。
 
 **たとえば**、マンションの集会室のように共用部分である旨の登記がされている建物の表題部を更正する必要がある場合でも、共有者全員がそろわなくても、共有者の1人が申請すれば足ります。
+
+---
 
 ### まとめ
 
@@ -66,7 +74,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（3番＝イエ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）のexplanationフィールドで確認済みです。
-- 各肢の根拠のうち、エ（不動産登記事務取扱準則81条3項）、オ（民法252条5項）は、データベースのexplanationフィールドで条文まで明記されています（データベース上は「252条ただし書」と表記されていますが、令和3年民法改正（2023年4月1日施行）により保存行為の規定は条文移動を経て5項となっているため、現行法に合わせて条文番号を修正しています）。ア（滅失登記での構造・床面積の省略可否）、イ（氏名変更の登記原因）、ウ（表題部所有者の更正登記の申請適格）については、データベース上で明確な条文番号までは示されておらず、登記実務上の一般的な取扱いからの推論にとどまる点は留意してください。
+- 各肢の根拠のうち、エ（不動産登記事務取扱準則81条3項）は、データベースのexplanationフィールドで条文まで明記されています。ア（滅失登記での構造・床面積の省略可否）、イ（氏名変更の登記原因）、ウ（表題部所有者の更正登記の申請適格）については、データベース上で明確な条文番号までは示されておらず、登記実務上の一般的な取扱いからの推論にとどまる点は留意してください。
+- **2026-10-05追記（オの根拠条文の訂正）**：読者から、オの根拠として本文に記載していた「民法252条5項」について、本肢の建物は共用部分である旨の登記がされている以上、区分所有法上の共用部分であり、その管理（保存行為を含む）は区分所有法が定めるという指摘を受けました。区分所有法18条1項を条文原文で確認したところ、「共用部分の管理に関する事項は、前条の場合を除いて、集会の決議で決する。ただし、保存行為は、各共有者がすることができる。」と定められており、共用部分の保存行為を各共有者が単独でできる直接の根拠はこちらです。データベース（takuitsu.json）のexplanationフィールドは「民法252条ただし書」を根拠として挙げていますが、これは共有物一般についての規定であり、本肢のように対象が区分所有法上の共用部分である場合は、区分所有法が民法の特別法として優先して適用されるため、より正確な根拠条文は区分所有法18条1項ただし書です。本文の根拠条文をこちらに訂正しました（結論・正誤判定・正解番号に変更はありません）。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみで、テキスト解説は含まれていなかったため、今回はアガルート教材を参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題を確認しました。本問オ（共用部分である旨の登記がある建物の表題部の**更正**登記は共有者全員の申請を要しない）と、令和7年度第15問エ（共用部分である旨の登記を**新たに申請**する場合は共有者全員の申請を要する）は、テーマが近く紛らわしい肢ですが、前者は既存の共用部分登記がある建物の「更正登記」、後者は「共用部分である旨の登記そのものの申請」であり、対象となる登記の種類が異なるため、**同一問題としての重複ではありません**。他の肢を含め、本問と完全に重複する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -108,19 +117,37 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・所・更・正・権 — these must be rendered in their
+kanji 建・物・登・記・所・更・正 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 建物の表示登記、誰が申請できる？
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後の部 第15問－何を書く?書かない?
+令和6年度 午後の部 第15問－何を書く？書かない？
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -189,20 +216,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、ア〜オの各肢について「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに1枚のパネルで示す作図ガイド。上記の②俯瞰カードポスターとは別物で、結論そのものではなく、結論に至るまでの思考の手順を可視化することを目的とする。
 
@@ -253,7 +280,15 @@ own body text - do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
@@ -279,7 +314,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -295,7 +330,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 省略できない
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in blue containing the number 2(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -311,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記原因は氏名変更
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -329,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 Aは申請不可
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -346,7 +381,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 屋根の種類は不記載
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5(numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -367,13 +402,12 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記事務取扱準則81条3項、民法252条5項
+不動産登記事務取扱準則81条3項、区分所有法18条1項ただし書
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 建・物・登・記・更・正・権・所・有・者・名・変・階・層・区・
-分・構・造・欄・共. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 建・物・登・記・更・正・所・有・者・名・変・階・層・区・分・構・造・欄・共. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 panel count equals 5 exactly, badge numbers run 1-5 continuously, there
 is no intro illustration or paragraph block between the header and the
 panels, that every multi-condition 肢 is drawn as an actual flowchart

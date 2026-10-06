@@ -2,25 +2,29 @@
 
 **出題年度：令和2年度　午後の部　第17問**
 
-> 建物の滅失の登記に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　敷地権の登記がされた後に抵当権の設定の登記がされた区分建物について滅失の登記を申請する場合において，申請情報と併せて，当該抵当権の登記名義人が敷地権の目的である土地について抵当権を消滅させることを承諾したことを証する情報が提供されたときは，建物の登記記録に，その土地について抵当権が消滅した旨が記録される。
->
-> イ　建物の滅失の登記の申請情報及びその添付情報は，受付の日から30年間保存される。
->
-> ウ　焼失した建物に所有権の移転の仮登記がされている場合において，当該仮登記の登記名義人は，消防署の焼失の証明書及び所有権の登記名義人の承諾を証する情報を提供すれば，当該建物の滅失の登記の申請をすることができる。
->
-> エ　建物の所有権の登記名義人が死亡した後に当該建物が滅失した場合，その相続人は，相続による所有権の移転の登記を行った後でなければ，当該建物の滅失の登記を申請することができない。
->
-> オ　所有者が異なる数個の区分建物が属する一棟の建物が滅失した場合において，一棟の建物の滅失の登記の申請は，区分建物の所有者の一人からすることができる。
->
+> 建物の滅失の登記に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　敷地権の登記がされた後に抵当権の設定の登記がされた区分建物について滅失の登記を申請する場合において，申請情報と併せて，当該抵当権の登記名義人が敷地権の目的である土地について抵当権を消滅させることを承諾したことを証する情報が提供されたときは，建物の登記記録に，その土地について抵当権が消滅した旨が記録される。  
+>　  
+> イ　建物の滅失の登記の申請情報及びその添付情報は，受付の日から30年間保存される。  
+>　  
+> ウ　焼失した建物に所有権の移転の仮登記がされている場合において，当該仮登記の登記名義人は，消防署の焼失の証明書及び所有権の登記名義人の承諾を証する情報を提供すれば，当該建物の滅失の登記の申請をすることができる。  
+>　  
+> エ　建物の所有権の登記名義人が死亡した後に当該建物が滅失した場合，その相続人は，相続による所有権の移転の登記を行った後でなければ，当該建物の滅失の登記を申請することができない。  
+>　  
+> オ　所有者が異なる数個の区分建物が属する一棟の建物が滅失した場合において，一棟の建物の滅失の登記の申請は，区分建物の所有者の一人からすることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+---
 
 建物の滅失の登記は、取壊しや焼失などで建物がなくなったときにする登記です。誰が申請できるのか（申請人の範囲）、相続や仮登記がからむとどうなるのか、といった論点が問われます。今回は**誤っているもの**の組合せを選びます。
 
 ### ア：抵当権消滅の承諾情報を出せば、土地について抵当権が消滅した旨が記録される
 
-敷地権の登記がされた後に抵当権が設定された区分建物（＝いわゆる特定登記がある区分建物）について滅失の登記を申請する際、抵当権の登記名義人が敷地権の目的である土地について抵当権を消滅させることを承諾したことを証する情報が提供されたときは、その承諾に係る土地について、当該権利が消滅した旨が記録されます（不動産登記法55条4項）。本肢は正しい記述です。
+敷地権の登記がされた後に抵当権が設定された区分建物（＝いわゆる特定登記がある区分建物）について滅失の登記を申請する際、抵当権の登記名義人が敷地権の目的である土地について抵当権を消滅させることを承諾したことを証する情報が提供されたときは、その承諾に係る土地について、当該権利が消滅した旨が記録されます（不動産登記法55条4項）。
+
+本肢は正しい記述です。
 
 **たとえば**、マンションの一室（敷地権付き）を取り壊すとき、その部屋についていた抵当権を土地についても消してよいという抵当権者の承諾書が出されれば、土地の分の抵当権が消えた旨が登記記録に記録されます。
 
@@ -32,13 +36,19 @@
 
 ### ウ：所有権移転の仮登記名義人は、滅失の登記を申請できない
 
-建物が滅失したときに滅失の登記を申請しなければならないのは、表題部所有者または所有権の登記名義人です（不動産登記法57条）。所有権移転の仮登記の登記名義人は、まだ確定的な所有権を取得しておらず、滅失登記の申請人にはなれません。消防署の焼失証明書や所有権の登記名義人の承諾を得ても、仮登記名義人が自ら滅失の登記を申請することはできません。本肢は「申請をすることができる」としており、誤りです。
+建物が滅失したときに滅失の登記を申請しなければならないのは、表題部所有者または所有権の登記名義人です（不動産登記法57条）。所有権移転の仮登記の登記名義人は、まだ確定的な所有権を取得しておらず、滅失登記の申請人にはなれません。
 
-**たとえば**、Ａ名義の建物についてＢが所有権移転の仮登記をしていた場合、その建物が焼失しても、仮登記名義人Ｂが「焼失証明書とＡの承諾書があるから」といって自分で滅失の登記を申請することはできません。申請するのは所有権の登記名義人であるＡ（またはその相続人）です。
+消防署の焼失証明書や所有権の登記名義人の承諾を得ても、仮登記名義人が自ら滅失の登記を申請することはできません。本肢は「申請をすることができる」としており、誤りです。
+
+**たとえば**、Ａ名義の建物についてＢが所有権移転の仮登記をしていた場合、その建物が焼失しても、仮登記名義人Ｂが「焼失証明書とＡの承諾書があるから」といって自分で滅失の登記を申請することはできません。
+
+申請するのは所有権の登記名義人であるＡ（またはその相続人）です。
 
 ### エ：相続人は、相続登記を経なくても滅失の登記を申請できる
 
-建物の所有権の登記名義人が死亡した後にその建物が滅失した場合、相続人は、相続による所有権移転の登記を経ることなく、自分が相続人であることを証する情報を提供して、滅失の登記を申請できます（不動産登記法30条）。表示に関する登記は、一般承継人が被相続人に代わって申請できるからです。「相続登記を行った後でなければ申請することができない」とする本肢は誤りです。
+建物の所有権の登記名義人が死亡した後にその建物が滅失した場合、相続人は、相続による所有権移転の登記を経ることなく、自分が相続人であることを証する情報を提供して、滅失の登記を申請できます（不動産登記法30条）。
+
+表示に関する登記は、一般承継人が被相続人に代わって申請できるからです。「相続登記を行った後でなければ申請することができない」とする本肢は誤りです。
 
 **たとえば**、父名義の建物が父の死後に取り壊された場合、子は、まず父から自分への相続登記をしなくても、戸籍など相続を証する情報を添えて、その建物の滅失の登記を申請できます。
 
@@ -47,6 +57,8 @@
 所有者が異なる数個の区分建物が属する一棟の建物が滅失した場合、一棟の建物の滅失の登記の申請は、区分建物の所有者の一人からすることができます。本肢は正しい記述です。
 
 **たとえば**、複数の所有者がいるマンション（一棟の建物）が全部取り壊されたとき、その一棟の建物の滅失の登記は、区分所有者全員がそろわなくても、そのうちの一人が申請できます。
+
+---
 
 ### まとめ
 
@@ -109,13 +121,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 登・記・権・建・物・所・続・相 — these must be rendered in their standard
-Japanese forms, never as Simplified Chinese variants (権 must not become
-权; 記 must not become 记).
+Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -202,20 +231,20 @@ these 5 headings):
 5. 滅失登記の書類は30年間保存
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ウ・エ・オは「滅失登記を申請しようとしているのは誰か」という同じ決定木を共有し（仮登記名義人＝ウ、相続人＝エ、区分所有者の一人＝オ）、各パネルは自分の肢に関係する枝だけを強調する。ア・イは単一のチェックで完結する肢のため通常の図解で示す。②の色分け（誰が申請人になれるか＝緑、登記記録・保存にどう扱われるか＝青）を引き継いでいる。
 
@@ -240,12 +269,12 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes
 with the condition written on them, Yes/No（はい／いいえ）branch arrows,
 and a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 3, 4, and 5（肢ウ・エ・オ）share the same three-way decision tree
+Panels 3, 4, and 5（ウ・エ・オ）share the same three-way decision tree
 rooted at a diamond node asking who is trying to apply for the 滅失
 registration（所有権移転の仮登記名義人／相続人／区分所有者の一人）; each
 panel highlights（太い縁取り・フルカラー）only the branch relevant to its
 own肢 and renders the other two branches in a faded, greyed-out, dotted-
-outline style. Panel 4（肢エ）must additionally draw a second diamond
+outline style. Panel 4（エ）must additionally draw a second diamond
 node on its own highlighted branch — 相続による所有権移転の登記を経て
 いるか — with both the はい and いいえ outcomes given their own
 conclusion node (no looping arrow back to an earlier node), since this
@@ -261,7 +290,15 @@ text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -287,7 +324,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -306,7 +343,7 @@ Diagram: 敷地権付き区分建物のアイソメトリック建物と、点�
 Conclusion tag (blue, 5-15 Japanese characters):
 消滅した旨を記録
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 申請情報等の保存期間を確認する
@@ -321,7 +358,7 @@ Diagram: 滅失の登記の申請書類（申請情報・添付情報）のア�
 Conclusion tag (blue, 5-15 Japanese characters):
 30年間保存
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 申請人になろうとしているのは誰かを確認する
@@ -344,7 +381,7 @@ branch）を辿ると、焼失した建物のアイソメトリック建物と�
 Conclusion tag (green, 5-15 Japanese characters):
 申請人になれない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 相続登記を経ていなくても申請できるかを確認する
@@ -368,7 +405,7 @@ fact pattern）は、亡くなった所有権の登記名義人（グレーの�
 Conclusion tag (green, 5-15 Japanese characters):
 相続登記は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 区分所有者の一人から申請できるかを確認する
@@ -397,12 +434,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 個別の条文番号までは本記事では確定していません。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 登・記・権・建・物・所・続・相・仮・焼・失・区と any
-character that has a visually similar Simplified Chinese variant
-(権 must not become 权; 記 must not become 记). If any character renders as
+character that has a visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panels 3, 4, and 5 visibly share
 the same three-way decision tree with only the highlighted branch

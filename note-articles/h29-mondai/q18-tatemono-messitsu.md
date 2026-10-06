@@ -2,21 +2,25 @@
 
 **出題年度：平成29年度　午後の部　第18問**
 
-> 建物の滅失の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　建物の所有権の登記名義人が当該建物を自ら取り壊した場合において，当該建物の滅失の登記の申請をするときは，当該登記名義人の印鑑に関する証明書を添付しなければならない。
->
-> イ　建物図面が備え付けられていない建物を取り壊した場合において，当該建物の滅失の登記の申請をするときは，当該建物が存していた場所を特定するために建物図面を添付しなければならない。
->
-> ウ　団地共用部分である旨の登記がある建物の滅失の登記を申請する場合には，当該建物の所有者を証する情報を添付しなければならない。
->
-> エ　借地上に存する建物の所有権の登記名義人が当該建物を建替えのために取り壊した場合には，当該借地に賃借権の設定の登記がされていないときであっても，当該建物の所有権の登記名義人は，当該建物の滅失の登記を申請しなければならない。
->
-> オ　抵当権の設定の登記がある建物が焼失した場合において，当該建物の滅失の登記の申請をするときは，当該抵当権の登記名義人の承諾を証する情報を添付しなければならない。
->
+> 建物の滅失の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　建物の所有権の登記名義人が当該建物を自ら取り壊した場合において，当該建物の滅失の登記の申請をするときは，当該登記名義人の印鑑に関する証明書を添付しなければならない。  
+>　  
+> イ　建物図面が備え付けられていない建物を取り壊した場合において，当該建物の滅失の登記の申請をするときは，当該建物が存していた場所を特定するために建物図面を添付しなければならない。  
+>　  
+> ウ　団地共用部分である旨の登記がある建物の滅失の登記を申請する場合には，当該建物の所有者を証する情報を添付しなければならない。  
+>　  
+> エ　借地上に存する建物の所有権の登記名義人が当該建物を建替えのために取り壊した場合には，当該借地に賃借権の設定の登記がされていないときであっても，当該建物の所有権の登記名義人は，当該建物の滅失の登記を申請しなければならない。  
+>　  
+> オ　抵当権の設定の登記がある建物が焼失した場合において，当該建物の滅失の登記の申請をするときは，当該抵当権の登記名義人の承諾を証する情報を添付しなければならない。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
 
-建物の滅失の登記は、建物がなくなったという客観的な事実を登記記録に反映させる手続です。この分野では、①滅失登記に印鑑証明書や承諾書が必要か（不要な場面が多い）、②建物図面の添付が必要な場面、③団地共用部分の滅失に必要な添付情報、④借地上の建物の申請義務の有無を整理できているかが問われます。
+---
+
+建物の滅失の登記は、建物がなくなったという客観的な事実を登記記録に反映させる手続です。
+
+この分野では、①滅失登記に印鑑証明書や承諾書が必要か（不要な場面が多い）、②建物図面の添付が必要な場面、③団地共用部分の滅失に必要な添付情報、④借地上の建物の申請義務の有無を整理できているかが問われます。
 
 ### ア：滅失登記の申請に、印鑑証明書は不要
 
@@ -26,7 +30,9 @@
 
 ### イ：建物図面がない建物の滅失登記に、新たに建物図面を添付する必要はない
 
-建物図面が必要になるのは、建物の表題登記、所在・床面積の変更・更正登記、附属建物の新築の登記、建物の分割・区分・合併・合体による登記の申請書です。建物の滅失の登記はこれらに含まれないため、建物図面が備え付けられていない建物を取り壊した場合の滅失登記であっても、新たに建物図面を添付する必要はありません。「建物図面を添付しなければならない」とする本肢は誤りです。
+建物図面が必要になるのは、建物の表題登記、所在・床面積の変更・更正登記、附属建物の新築の登記、建物の分割・区分・合併・合体による登記の申請書です。
+
+建物の滅失の登記はこれらに含まれないため、建物図面が備え付けられていない建物を取り壊した場合の滅失登記であっても、新たに建物図面を添付する必要はありません。「建物図面を添付しなければならない」とする本肢は誤りです。
 
 **たとえば**、古い建物で、そもそも建物図面が備え付けられていなかったとします。この建物を取り壊して滅失登記を申請するときも、今さら建物図面を新しく作って添付する必要はありません。滅失登記はそういう図面の提出を前提としていないのです。
 
@@ -37,30 +43,42 @@
 **たとえば**、マンション団地の集会所（団地共用部分）が取り壊されて滅失登記をする場合、それを申請するのが本当にその共用部分の実質的な所有者であることを証明する情報を添える必要があります。
 
 **ここが分かりにくいポイント**：
-この問題は、肢ア・イ・オがそろって「印鑑証明書は不要」「建物図面は不要」「抵当権者の承諾は不要」と、滅失登記には意思確認書類がほとんど要らないという結論が続きます。そのため「この問題は、滅失登記はどうせ添付書類が要らないパターンだ」という思い込みにつられて、肢ウも「所有者証明なんて不要では」と判断してしまう人が少なくありません。
+この問題は、ア・イ・オがそろって「印鑑証明書は不要」「建物図面は不要」「抵当権者の承諾は不要」と、滅失登記には意思確認書類がほとんど要らないという結論が続きます。
 
-しかし、肢ウの「団地共用部分である旨の登記がある建物」は、他の4肢が前提とする通常の建物とは、登記記録の作られ方そのものが違います。
+そのため「この問題は、滅失登記はどうせ添付書類が要らないパターンだ」という思い込みにつられて、ウも「所有者証明なんて不要では」と判断してしまう人が少なくありません。
+
+しかし、ウの「団地共用部分である旨の登記がある建物」は、他の4肢が前提とする通常の建物とは、登記記録の作られ方そのものが違います。
 
 1. **通常の建物の場合**：登記記録に「表題部所有者」または「所有権の登記名義人」として、具体的な個人（法人）の氏名・住所が記録されています。誰が申請できる立場にあるかは、登記記録を見ればすぐに分かります。
-2. **団地共用部分（共用部分）の場合**：共用部分である旨の登記または団地共用部分である旨の登記をするときは、登記官が職権で、その建物についての表題部所有者の登記または権利に関する登記を抹消しなければなりません（不動産登記法58条4項）。つまり団地共用部分の登記記録には、そもそも「誰が所有者か」という名義自体が載っていないのです。
+2. **団地共用部分（共用部分）の場合**：共用部分である旨の登記または団地共用部分である旨の登記をするときは、登記官が職権で、その建物についての表題部所有者の登記または権利に関する登記を抹消しなければなりません（不動産登記法58条4項）。
+
+つまり団地共用部分の登記記録には、そもそも「誰が所有者か」という名義自体が載っていないのです。
 
 登記記録だけを見ても「申請人が本当に所有者かどうか」を確認できないからこそ、団地共用部分の滅失登記を申請する際には、別途「当該建物の所有者を証する情報」の提供が求められています（不動産登記令別表17項）。
 
-つまり肢ア・イ・オの「不要」は、「登記記録から申請人が明らかな通常の建物について、追加の意思確認書類までは要らない」という話です。これに対して肢ウは、そもそも登記記録に所有者名が載っていない団地共用部分特有の事情にもとづく、まったく別の理由からの要求です。他の4肢の「不要」パターンに引きずられて同じように判断しないよう注意しましょう。したがって本肢は正しい記述です。
+つまりア・イ・オの「不要」は、「登記記録から申請人が明らかな通常の建物について、追加の意思確認書類までは要らない」という話です。
 
-共用部分の登記記録に所有者名が載らない仕組みについては、平成20年度第4問肢エ（`note-articles/h20-mondai/q04-tatemono-messhitsu.md`）で扱った、共用部分である旨の登記をする際に登記官が職権で表題部所有者の登記を抹消する規定（不動産登記法58条4項）の解説もあわせてご参照ください。
+これに対してウは、そもそも登記記録に所有者名が載っていない団地共用部分特有の事情にもとづく、まったく別の理由からの要求です。他の4肢の「不要」パターンに引きずられて同じように判断しないよう注意しましょう。したがって本肢は正しい記述です。
+
+共用部分の登記記録に所有者名が載らない仕組みについては、平成20年度第4問エ（`note-articles/h20-mondai/q04-tatemono-messhitsu.md`）で扱った、共用部分である旨の登記をする際に登記官が職権で表題部所有者の登記を抹消する規定（不動産登記法58条4項）の解説もあわせてご参照ください。
 
 ### エ：借地上の建物の取壊しは、賃借権登記の有無にかかわらず滅失登記義務がある
 
-建物が滅失したときは、表題部所有者または所有権の登記名義人は、1月以内に建物の滅失登記を申請しなければなりません（不動産登記法57条）。この申請義務は、その建物が借地上に存する場合であっても変わらず、借地に賃借権の設定の登記がされているかどうかにかかわらず生じます。本肢は正しい記述です。
+建物が滅失したときは、表題部所有者または所有権の登記名義人は、1月以内に建物の滅失登記を申請しなければなりません（不動産登記法57条）。
+
+この申請義務は、その建物が借地上に存する場合であっても変わらず、借地に賃借権の設定の登記がされているかどうかにかかわらず生じます。本肢は正しい記述です。
 
 **たとえば**、借りている土地の上に建てた建物を、建替えのために取り壊したとします。その借地に賃借権の登記がされていようがいまいが、建物の所有者は取壊しから1か月以内に滅失登記を申請しなければならないのです。
 
 ### オ：滅失登記に、抵当権者の承諾は不要
 
-建物が滅失した場合、権利の客体である建物そのものがなくなるので、その建物に付いていた抵当権も対象を失うことになりますが、滅失登記の申請にあたって抵当権者からの承諾を証する情報は不要です。「抵当権の登記名義人の承諾を証する情報を添付しなければならない」とする本肢は誤りです。
+建物が滅失した場合、権利の客体である建物そのものがなくなるので、その建物に付いていた抵当権も対象を失うことになりますが、滅失登記の申請にあたって抵当権者からの承諾を証する情報は不要です。
+
+「抵当権の登記名義人の承諾を証する情報を添付しなければならない」とする本肢は誤りです。
 
 **たとえば**、抵当権が付いている建物が火事で焼失してしまったとします。滅失は申請人の意思による処分行為ではなく、客観的な事実にすぎないので、抵当権者に「承諾してください」とお願いする必要なく滅失登記を申請できます。
+
+---
 
 ### まとめ
 
@@ -82,8 +100,8 @@
 - 出題番号・正解番号（5番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ウ（不動産登記令別表17項）、エ（不動産登記法57条：滅失登記の申請義務）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。ア・イ・オ（滅失登記に印鑑証明書・建物図面・抵当権者の承諾がいずれも不要であること）は、滅失登記の添付情報に関する一般的な取扱いからの説明です。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**建物の滅失の登記は毎年出題されるテーマで、本問の肢オ・ウとほぼ同一の論点が令和6年度第17問・令和3年度第17問で再出題されている、強い重複が見つかりました**。具体的には、①肢オ（抵当権の設定の登記がある建物が焼失しても抵当権者の承諾を証する情報は不要）は令和6年度第17問アとほぼ同一の論点・結論（表現は逆向きですが同じ規律）、②肢ウ（団地共用部分である旨の登記がある建物の滅失登記には所有者を証する情報が必要）は令和3年度第17問エ（共用部分である旨の登記がある建物の滅失登記に所有権を証する情報が必要）とほぼ同一の論点です。noteで令和3年度第17問・令和6年度第17問の解説記事を作成する際は、本記事の肢ウ・オと内容が重なるため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
-- **肢ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢ウの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。肢ア・イ・オがそろって添付書類「不要」の結論であるため、その流れにつられて肢ウも「所有者証明は不要では」と誤って判断してしまいやすい点を、団地共用部分の登記をする際は登記官が職権で表題部所有者の登記を抹消するため（不動産登記法58条4項）、通常の建物と異なりそもそも登記記録に所有者名が載っていないという理由と対比して整理しています。関連する平成20年度第4問肢エ（58条4項の解説）へのリンクも本文に追加しています。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは「印鑑証明書も承諾書もいらないんです」のまま変更していません。この表現自体が肢ウの「不要ではない」という結論と一見ぶつかるようにも見えますが、キャッチフレーズはあくまで肢ア・イ・オが代表する「意思確認書類は原則不要」という本問全体の骨格を捉えたもので、肢ウはその骨格に対する重要な例外として本文中で明確に区別して説明しているため、無理にタイトルへ例外まで織り込むことはしていません。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**建物の滅失の登記は毎年出題されるテーマで、本問のオ・ウとほぼ同一の論点が令和6年度第17問・令和3年度第17問で再出題されている、強い重複が見つかりました**。具体的には、①オ（抵当権の設定の登記がある建物が焼失しても抵当権者の承諾を証する情報は不要）は令和6年度第17問アとほぼ同一の論点・結論（表現は逆向きですが同じ規律）、②ウ（団地共用部分である旨の登記がある建物の滅失登記には所有者を証する情報が必要）は令和3年度第17問エ（共用部分である旨の登記がある建物の滅失登記に所有権を証する情報が必要）とほぼ同一の論点です。noteで令和3年度第17問・令和6年度第17問の解説記事を作成する際は、本記事のウ・オと内容が重なるため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
+- **ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、ウの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。ア・イ・オがそろって添付書類「不要」の結論であるため、その流れにつられてウも「所有者証明は不要では」と誤って判断してしまいやすい点を、団地共用部分の登記をする際は登記官が職権で表題部所有者の登記を抹消するため（不動産登記法58条4項）、通常の建物と異なりそもそも登記記録に所有者名が載っていないという理由と対比して整理しています。関連する平成20年度第4問エ（58条4項の解説）へのリンクも本文に追加しています。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは「印鑑証明書も承諾書もいらないんです」のまま変更していません。この表現自体がウの「不要ではない」という結論と一見ぶつかるようにも見えますが、キャッチフレーズはあくまでア・イ・オが代表する「意思確認書類は原則不要」という本問全体の骨格を捉えたもので、ウはその骨格に対する重要な例外として本文中で明確に区別して説明しているため、無理にタイトルへ例外まで織り込むことはしていません。
 
 ---
 
@@ -124,12 +142,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 証・図・権・団・記・登・借・賃・共・滅 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -200,15 +236,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -236,7 +272,15 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 登・記・録・名・義・団・地・共・用・部・分・職・権・抹・消・表・題・証・
@@ -296,7 +340,7 @@ Between the two panels, a small connecting label:
 「不要」のパターンに引きずられて、ウも不要と判断しないよう注意
 
 --- CALLOUT: 誤りやすいポイント ---
-肢ア・イ・オがそろって添付書類「不要」という結論のため、その流れで肢ウも
+ア・イ・オがそろって添付書類「不要」という結論のため、その流れでウも
 「所有者証明は不要では」と誤解しがちです。しかし団地共用部分の登記記録は、
 登記官の職権抹消(不動産登記法58条4項)によりそもそも所有者名が載っておらず、
 通常の建物とは前提条件が異なります。
@@ -305,17 +349,17 @@ Between the two panels, a small connecting label:
 根拠条文：不動産登記法58条4項／不動産登記令別表17項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, panel label, quoted rule text, and callout text matches the
 Japanese text given above verbatim, with no paraphrasing and no
 substituted characters, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
-channel anywhere.
+channel anywhere. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card).
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 添付情報が一律に不要となる肢（ア・イ・オ）はチェックリスト形式の図解1枚で示し、建物の種類によって所有者証明の要否が分かれる肢（ウ）は、既存の④間違いノートとは別に「まず建物の種類を確認する」という手順そのものを分岐ノードで示す決定木フローチャートとして描き、賃借権登記の有無にかかわらず同じ結論に至る肢（エ）は両方の場合を並べて同じ結論に収束させる対比図として描き分けた。
 
@@ -354,7 +398,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -384,7 +432,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 滅失登記の申請に印鑑証明書は不要
@@ -399,7 +447,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 印鑑証明書は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 建物図面が必要な登記の種類に滅失登記は含まれない
@@ -419,7 +467,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建物図面の添付不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 団地共用部分の滅失登記だけ所有者証明が必要
@@ -441,7 +489,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有者証明が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 賃借権登記の有無を問わず滅失登記義務が生じる
@@ -460,7 +508,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記の有無を問わず義務あり
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 抵当権付き建物でも滅失登記に承諾は不要
@@ -487,13 +535,13 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
 Chinese variant, paying special attention to 証・図・権・団・記・登・借・
 賃・共・滅・職. If any character renders as a Simplified or Traditional
-Chinese variant, redraw that character in the correct Japanese form. Also
+Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Also
 confirm that no character outside hiragana, katakana, Jōyō kanji, and the
 Arabic numerals explicitly used above appears anywhere in the image — no
 Latin letters, no other non-Japanese scripts. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-every multi-condition 肢（肢ウ）is drawn as an actual flowchart with
+every multi-condition 肢（ウ）is drawn as an actual flowchart with
 branch nodes (not a bare illustration with no visible decision
 structure), that no 肢 with a genuinely hidden second condition has been
 flattened into a single check, that each 着眼点 callout states a checking

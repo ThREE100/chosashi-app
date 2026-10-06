@@ -2,65 +2,107 @@
 
 **出題年度：平成28年度　午後の部　第14問**
 
-> 建物の合併の登記に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　甲建物と乙建物の所有権の登記名義人が同一である場合において，当該所有権の登記名義人が死亡しているときは，相続による所有権の移転の登記をした後でなければ，乙建物を甲建物の附属建物とする建物の合併の登記を申請することはできない。
->
-> イ　甲建物の所有権の登記名義人が住所を移転し，その後に当該所有権の登記名義人が乙建物の所有権を取得し，その旨の登記をした場合において，甲建物について住所の変更の登記がされていないときは，住所の変更を証する情報を提供したとしても，乙建物を甲建物の附属建物とする建物の合併の登記を申請することができない。
->
-> ウ　一棟の建物に属する甲区分建物と乙区分建物について，その所有権の登記名義人が同一で，互いに接続している場合には，効用上一体の関係にないときであっても，区分合併の登記を申請することができる。
->
-> エ　甲建物と乙建物の合併の登記を申請する場合には，従来の各階平面図の床面積に変更がないため，当該合併後の各階平面図を添付することを要しない。
->
-> オ　甲建物と乙建物の表題部所有者が同一である場合において，当該表題部所有者が乙建物を甲建物の附属建物とする建物の合併の登記を申請するときは，その印鑑に関する証明書を添付することを要しない。
->
+> 建物の合併の登記に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　甲建物と乙建物の所有権の登記名義人が同一である場合において，当該所有権の登記名義人が死亡しているときは，相続による所有権の移転の登記をした後でなければ，乙建物を甲建物の附属建物とする建物の合併の登記を申請することはできない。  
+>　  
+> イ　甲建物の所有権の登記名義人が住所を移転し，その後に当該所有権の登記名義人が乙建物の所有権を取得し，その旨の登記をした場合において，甲建物について住所の変更の登記がされていないときは，住所の変更を証する情報を提供したとしても，乙建物を甲建物の附属建物とする建物の合併の登記を申請することができない。  
+>　  
+> ウ　一棟の建物に属する甲区分建物と乙区分建物について，その所有権の登記名義人が同一で，互いに接続している場合には，効用上一体の関係にないときであっても，区分合併の登記を申請することができる。  
+>　  
+> エ　甲建物と乙建物の合併の登記を申請する場合には，従来の各階平面図の床面積に変更がないため，当該合併後の各階平面図を添付することを要しない。  
+>　  
+> オ　甲建物と乙建物の表題部所有者が同一である場合において，当該表題部所有者が乙建物を甲建物の附属建物とする建物の合併の登記を申請するときは，その印鑑に関する証明書を添付することを要しない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
 
-建物の合併の登記は、「表示に関する登記だからこその緩やかさ」と「合併ならではの厳格さ」が同居する分野です。所有権登記名義人の死亡や住所の不一致、区分建物特有の区分合併、添付情報の要否など、原則と例外を丁寧に切り分けられるかが問われます。ア〜オを一つずつ確認していきましょう。
+---
+
+建物の合併の登記は、「表示に関する登記だからこその緩やかさ」と「合併ならではの厳格さ」が同居する分野です。
+
+所有権登記名義人の死亡や住所の不一致、区分建物特有の区分合併、添付情報の要否など、原則と例外を丁寧に切り分けられるかが問われます。ア〜オを一つずつ確認していきましょう。
 
 ### ア：所有権登記名義人が死亡していても、相続登記なしに相続人から合併登記を申請できる
 
-建物の合併の登記は表示に関する登記であり、権利に関する登記（相続による所有権の移転の登記）が済んでいることを前提条件とはしません。所有権の登記名義人が死亡している場合、不動産登記法30条により、相続人その他の一般承継人は、被承継人（亡くなった名義人）の名義のままで表示に関する登記を申請することができます。したがって、相続証明情報を添付すれば、相続による所有権の移転の登記をしていなくても、相続人全員から建物の合併の登記を申請することができ、「相続の登記をした後でなければ申請できない」とする本肢は誤りです。
+建物の合併の登記は表示に関する登記であり、権利に関する登記（相続による所有権の移転の登記）が済んでいることを前提条件とはしません。
 
-**たとえば**、甲建物と乙建物の所有権登記名義人であった父親が亡くなり、まだ相続登記（名義変更）を済ませていない状態だったとします。この場合でも、相続人である子どもたちが全員で、亡くなった父親の名義のまま、相続を証明する戸籍謄本などを添付して、乙建物を甲建物の附属建物とする合併の登記を申請することができます。わざわざ先に相続登記を済ませる必要はありません。
+所有権の登記名義人が死亡している場合、不動産登記法30条により、相続人その他の一般承継人は、被承継人（亡くなった名義人）の名義のままで表示に関する登記を申請することができます。
+
+したがって、相続証明情報を添付すれば、相続による所有権の移転の登記をしていなくても、相続人全員から建物の合併の登記を申請することができ、「相続の登記をした後でなければ申請できない」とする本肢は誤りです。
+
+**たとえば**、甲建物と乙建物の所有権登記名義人であった父親が亡くなり、まだ相続登記（名義変更）を済ませていない状態だったとします。
+
+この場合でも、相続人である子どもたちが全員で、亡くなった父親の名義のまま、相続を証明する戸籍謄本などを添付して、乙建物を甲建物の附属建物とする合併の登記を申請することができます。わざわざ先に相続登記を済ませる必要はありません。
 
 ### イ：甲乙で住所が食い違ったままでは、住所変更を証する情報を出しても合併できない
 
-建物の合併をするためには、合併しようとする各建物の登記記録上の所有権の登記名義人の氏名・住所が完全に一致していることが前提となります。甲建物の所有権登記名義人が住所を移転し、その後に取得した乙建物では移転後の新住所が登記されている一方、甲建物側では住所変更の登記がされていない場合、甲乙の登記記録上の住所は一致していません。この場合、たとえ住所の変更を証する情報（住民票など）を合併登記の申請時に提供したとしても、それだけで登記記録上の不一致が解消されるわけではなく、合併の登記を申請することはできません。甲建物について先に住所の変更の登記を済ませてから合併することになり、本肢は正しい記述です。
+建物の合併をするためには、合併しようとする各建物の登記記録上の所有権の登記名義人の氏名・住所が完全に一致していることが前提となります。
 
-**たとえば**、Aさんが引っ越しをした後に乙建物を購入し、乙建物の登記には新しい住所が記録されたとします。ところが以前から所有していた甲建物の登記には引っ越し前の古い住所が残ったままだと、いくら「新しい住所に引っ越しました」という証明書を合併登記の申請時に添付しても、そのままでは合併の登記はできません。まず甲建物について住所変更の登記を済ませる必要があります。
+甲建物の所有権登記名義人が住所を移転し、その後に取得した乙建物では移転後の新住所が登記されている一方、甲建物側では住所変更の登記がされていない場合、甲乙の登記記録上の住所は一致していません。
+
+この場合、たとえ住所の変更を証する情報（住民票など）を合併登記の申請時に提供したとしても、それだけで登記記録上の不一致が解消されるわけではなく、合併の登記を申請することはできません。
+
+甲建物について先に住所の変更の登記を済ませてから合併することになり、本肢は正しい記述です。
+
+**たとえば**、Aさんが引っ越しをした後に乙建物を購入し、乙建物の登記には新しい住所が記録されたとします。
+
+ところが以前から所有していた甲建物の登記には引っ越し前の古い住所が残ったままだと、いくら「新しい住所に引っ越しました」という証明書を合併登記の申請時に添付しても、そのままでは合併の登記はできません。
+
+まず甲建物について住所変更の登記を済ませる必要があります。
 
 ### ウ：区分合併は、所有権登記名義人が同一で接続していれば足り、効用上一体である必要はない
 
-区分建物どうしの合併（区分合併）に必要なのは、所有権の登記名義人が同一であることと、登記記録上互いに接続していることであり、効用上一体の関係にあることは要件ではありません。不動産登記法2条23号は、区分合併を、表題登記がある区分建物を、これと接続する他の区分建物である表題登記がある建物又は附属建物に合併して一個の建物とする登記としています。あわせて、所有権の登記名義人が異なる建物どうしは合併できないなど、不動産登記法56条各号の制限に触れないことも必要です。したがって、効用上一体の関係にないときであっても、所有権の登記名義人が同一で互いに接続してさえいれば区分合併の登記を申請することができ、本肢は正しい記述です（なお、不動産登記規則133条は、区分合併をする場合の登記記録の記録方法を定める規定です）。
+区分建物どうしの合併（区分合併）に必要なのは、所有権の登記名義人が同一であることと、登記記録上互いに接続していることであり、効用上一体の関係にあることは要件ではありません。
+
+不動産登記規則133条1項は、区分合併を、区分建物である甲建物を、これと接続する区分建物である乙建物又は乙建物の附属建物に合併する建物の合併と定めています（同項かっこ書き）。
+
+あわせて、所有権の登記名義人が異なる建物どうしは合併できないなど、不動産登記法56条各号の制限に触れないことも必要です。
+
+したがって、効用上一体の関係にないときであっても、所有権の登記名義人が同一で互いに接続してさえいれば区分合併の登記を申請することができ、本肢は正しい記述です（なお、同条は本来、区分合併をする場合の登記記録の記録方法を定める規定で、区分合併の定義はそのかっこ書きに置かれています）。
 
 **たとえば**、同じマンションの中にある甲区分建物（住居として使われている部屋）と乙区分建物（同じ人が所有する隣接した納戸のような部屋）が、用途としては特に一体的に使われていなくても、所有者が同じで壁を接して隣り合ってさえいれば、その2つの区分建物を1つに合併する区分合併の登記を申請することができます。
 
 **ここが分かりにくいポイント**：
 
-「合併」と聞くと、建物の個数を判断するときによく出てくる『効用上一体として利用される状態にある数棟の建物は、所有者の意思に反しない限り、1個の建物として取り扱う』というルール（不動産登記事務取扱手続準則78条1項）が思い浮かび、「合併するにも、用途として一体的に使われている必要があるはず」と考えてしまう方が少なくありません。似た場面で「効用上一体」という言葉を先に覚えているぶん、それをそのまま区分合併にも当てはめたくなるのは自然な発想です。
+「合併」と聞くと、建物の個数を判断するときによく出てくる『効用上一体として利用される状態にある数棟の建物は、所有者の意思に反しない限り、1個の建物として取り扱う』というルール（不動産登記事務取扱手続準則78条1項）が思い浮かび、「合併するにも、用途として一体的に使われている必要があるはず」と考えてしまう方が少なくありません。
 
-しかし、準則78条1項の「効用上一体」のルールは、**まだ別々に登記されていない複数の建物を、最初に登記する時点で1個の建物として扱ってよいか**を判断するための基準です。これに対して、本問の区分合併は、**すでに別々に登記されている区分建物どうしの登記記録を、あとから1つにまとめる**登記手続であり、場面がそもそも違います。区分合併を「接続する他の区分建物と合併して一個の建物とする登記」と定義する不動産登記法2条23号には、効用上一体の関係にあることという要件は含まれていません。
+似た場面で「効用上一体」という言葉を先に覚えているぶん、それをそのまま区分合併にも当てはめたくなるのは自然な発想です。
+
+しかし、準則78条1項の「効用上一体」のルールは、**まだ別々に登記されていない複数の建物を、最初に登記する時点で1個の建物として扱ってよいか**を判断するための基準です。
+
+これに対して、本問の区分合併は、**すでに別々に登記されている区分建物どうしの登記記録を、あとから1つにまとめる**登記手続であり、場面がそもそも違います。
+
+区分合併を「接続する区分建物」への合併と定義する不動産登記規則133条1項かっこ書きには、効用上一体の関係にあることという要件は含まれていません。
 
 判断の手順にすると、次のようになります。
 
 1. まず、「まだ登記されていない建物を、最初にいくつの建物として登記するか」という建物の個数の判断の話なのか、「すでに登記されている建物どうしを、あとから1つにまとめる」区分合併の話なのかを区別します。
-2. 区分合併の要件は、①所有権の登記名義人が同一であること、②登記記録上互いに接続していること、の2つです（不動産登記法2条23号）。
+2. 区分合併の要件は、①所有権の登記名義人が同一であること、②登記記録上互いに接続していること、の2つです（不動産登記法56条、不動産登記規則133条1項かっこ書き）。
 3. 効用上一体の関係にあるかどうかは、区分合併の要件には含まれていません。
 
 本肢は、所有権登記名義人が同一で接続してさえいれば、効用上一体の関係になくても区分合併の登記を申請できるとしており、正しい記述です。
 
 ### エ：床面積に変更がなくても、合併後の各階平面図の添付は省略できない
 
-建物の合併の登記を申請する場合、建物図面および各階平面図は、合併後の建物の状態を表すものとして新たに備え付けられる必要があります。従来の各階平面図の床面積に変更がないという事情があっても、それは添付を省略してよい理由にはならず、不動産登記令別表16項添付情報イにより、合併後の各階平面図を添付しなければなりません。「添付することを要しない」とする本肢は誤りです。
+建物の合併の登記を申請する場合、建物図面および各階平面図は、合併後の建物の状態を表すものとして新たに備え付けられる必要があります。
 
-**たとえば**、甲建物と乙建物をそのまま合併しても、それぞれの部屋の床面積の数値自体は変わらないから大丈夫だろう、と考えて各階平面図を省略してしまうと、その申請は通りません。合併後は1つの建物として登記記録が作られ直すため、床面積に変動がなくても、合併後の姿を示す各階平面図を改めて添付する必要があります。
+従来の各階平面図の床面積に変更がないという事情があっても、それは添付を省略してよい理由にはならず、不動産登記令別表16項添付情報イにより、合併後の各階平面図を添付しなければなりません。「添付することを要しない」とする本肢は誤りです。
+
+**たとえば**、甲建物と乙建物をそのまま合併しても、それぞれの部屋の床面積の数値自体は変わらないから大丈夫だろう、と考えて各階平面図を省略してしまうと、その申請は通りません。
+
+合併後は1つの建物として登記記録が作られ直すため、床面積に変動がなくても、合併後の姿を示す各階平面図を改めて添付する必要があります。
 
 **ここが分かりにくいポイント**：
 
-「床面積という数値そのものは変わっていないのだから、わざわざ新しい図面を作り直さなくても、もとの各階平面図をそのまま使い続けられるのでは」と考えてしまう方が少なくありません。「変更がない部分は、手続もそのままでよいはず」という発想は、日常の感覚としてはとても自然です。
+「床面積という数値そのものは変わっていないのだから、わざわざ新しい図面を作り直さなくても、もとの各階平面図をそのまま使い続けられるのでは」と考えてしまう方が少なくありません。
 
-しかし、建物の合併の登記は、甲建物・乙建物という2つの独立した登記記録を、1つの新しい登記記録にまとめ直す手続です。合併後の建物は、床面積の数値が変わらなくても、登記記録上は「新しく生まれた1個の建物」として扱われます。そのため、たとえ床面積の合計に変動がなくても、その新しい建物の姿を示す各階平面図を、改めて作成して添付しなければなりません（不動産登記令別表16項添付情報イ）。「床面積という中身の数字が変わらないこと」と、「登記記録・図面という手続上の書類を作り直す必要がないこと」は、まったく別の話です。
+「変更がない部分は、手続もそのままでよいはず」という発想は、日常の感覚としてはとても自然です。
+
+しかし、建物の合併の登記は、甲建物・乙建物という2つの独立した登記記録を、1つの新しい登記記録にまとめ直す手続です。合併後の建物は、床面積の数値が変わらなくても、登記記録上は「新しく生まれた1個の建物」として扱われます。
+
+そのため、たとえ床面積の合計に変動がなくても、その新しい建物の姿を示す各階平面図を、改めて作成して添付しなければなりません（不動産登記令別表16項添付情報イ）。
+
+「床面積という中身の数字が変わらないこと」と、「登記記録・図面という手続上の書類を作り直す必要がないこと」は、まったく別の話です。
 
 判断の手順にすると、次のようになります。
 
@@ -72,9 +114,13 @@
 
 ### オ：表題部所有者が合併登記を申請するときは、印鑑証明書の添付は不要
 
-印鑑に関する証明書の添付が必要となるのは、所有権の登記名義人（またはその代表者・代理人）が申請人として記名押印する場合です。表題部所有者は所有権の登記がされていない建物の所有者であり、所有権の登記名義人とは立場が異なるため、表題部所有者が乙建物を甲建物の附属建物とする建物の合併の登記を申請するときは、印鑑に関する証明書の添付を要しません。本肢は正しい記述です。
+印鑑に関する証明書の添付が必要となるのは、所有権の登記名義人（またはその代表者・代理人）が申請人として記名押印する場合です。
+
+表題部所有者は所有権の登記がされていない建物の所有者であり、所有権の登記名義人とは立場が異なるため、表題部所有者が乙建物を甲建物の附属建物とする建物の合併の登記を申請するときは、印鑑に関する証明書の添付を要しません。本肢は正しい記述です。
 
 **たとえば**、まだ所有権の保存登記をしていない、表題登記だけが済んでいる甲建物と乙建物を持つ人が、この2つを合併する登記を申請する場合、所有権登記名義人が申請するときのように実印の印鑑証明書を添付する必要はありません。
+
+---
 
 ### まとめ
 
@@ -94,12 +140,13 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（平成28年度午後の部 第14問）・正解番号（アエ＝選択肢1番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（chosashi_H28_q14）と、法務省公式の正答PDF（ユーザー提供、平成28年度午後の部第14問＝1）とを照合済みです。
-- 各肢の根拠（ア：不登法30条、イ：甲乙の登記記録上の住所一致の要否、ウ：不登法2条23号、エ：令別表16項添付情報イ、オ：印鑑証明書の添付要件）は、データベースのexplanationフィールドおよびpitfallsフィールドの解説内容に基づいています。
+- 各肢の根拠（ア：不登法30条、イ：甲乙の登記記録上の住所一致の要否、ウ：不登規則133条1項かっこ書き・不登法56条、エ：令別表16項添付情報イ、オ：印鑑証明書の添付要件）は、データベースのexplanationフィールドおよびpitfallsフィールドの解説内容に基づいています。
 - **再確認・訂正（2026-08-12実施）**：リサーチエージェントによる独立調査で、ウの根拠条文に誤りが見つかりました。訂正前は「不動産登記規則133条」を要件そのものの根拠としていましたが、同条は区分合併をする場合の登記記録の記録方法を定める規定であり、区分合併の「要件」（効用上一体を要しないこと）を定めた条文ではありません。要件の直接の根拠は、区分合併を「接続する」他の区分建物との合併と定義し、効用上一体の関係を要件としていない不動産登記法2条23号です。正誤判定（正）自体は変わりません。同内容の修正はブランチmain（コミット550eb6f）にも別途適用済みです。
-- 肢ウの根拠については、データベースのkeyPointsフィールドに「区分合併の要件（接続かつ効用上一体の関係にあること）」という誤った記載が過去にありましたが、tools/_corrections.jsonに記録された修正内容（「区分合併の要件は所有権登記名義人が同一で互いに接続していることであり、効用上一体の関係にあることは不要」）を反映し、explanation・pitfallsフィールドの記載（効用上一体の関係になくても区分合併できる）と整合する内容で本文を作成しています。
-- なお、肢イの根拠（甲乙の登記記録上の住所が完全一致している必要があるという点）については、データベースの解説には具体的な条文番号の記載がなく、登記実務上の取扱いとして説明しています。この点は投稿前に条文・先例での確認をおすすめします。
+- **再訂正（2026-10-01）**：上記の訂正で根拠とした「不動産登記法2条23号」は附属建物の定義で、区分合併の定義ではありませんでした。区分合併の定義は不動産登記規則133条1項のかっこ書き（区分建物である甲建物を、これと接続する区分建物である乙建物又はその附属建物に合併する建物の合併）にあり、合併の制限は不動産登記法56条です。本文・図解プロンプトの根拠をこの2つに直しました。正誤判定（正）は変わりません。
+- ウの根拠については、データベースのkeyPointsフィールドに「区分合併の要件（接続かつ効用上一体の関係にあること）」という誤った記載が過去にありましたが、tools/_corrections.jsonに記録された修正内容（「区分合併の要件は所有権登記名義人が同一で互いに接続していることであり、効用上一体の関係にあることは不要」）を反映し、explanation・pitfallsフィールドの記載（効用上一体の関係になくても区分合併できる）と整合する内容で本文を作成しています。
+- なお、イの根拠（甲乙の登記記録上の住所が完全一致している必要があるという点）については、データベースの解説には具体的な条文番号の記載がなく、登記実務上の取扱いとして説明しています。この点は投稿前に条文・先例での確認をおすすめします。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（建物の合併の登記）と同一・類似の問題が再出題されていないかを確認しました。**R04年度第16問（本件合併の登記）のア「所有権登記名義人が死亡した場合、相続による所有権の移転の登記をした後でなければ合併の登記を申請することができない」は、本問アとほぼ同一の論点（表示に関する登記は相続登記なしに相続人から申請できること）を扱っており、内容が近い出題**です。R04年度第16問オ（住居表示の実施による住所変更の場合の合併登記）は、本問イ（通常の転居による住所不一致の場合の合併登記）と構造は似ていますが、住居表示実施の場合は特則があり結論が異なる別論点です。ノートに執筆・公開する際は、R04年度分の記事との重複に留意してください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **「間違いノート」補足解説（2026-09-16追加）**：読者から、肢ウ（区分合併は所有権登記名義人が同一で接続していれば足り、効用上一体の関係は不要であること）と肢エ（床面積に変更がなくても合併後の各階平面図の添付は省略できないこと）の結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「ここが分かりにくいポイント」を追加しました。肢ウは、まだ登記されていない建物を最初にいくつの建物として登記するかを判断する「効用上一体」の基準（不動産登記事務取扱手続準則78条1項）と、すでに登記されている区分建物どうしをまとめる区分合併の要件（不動産登記法2条23号）を混同しやすい点を整理しています。肢エは、「床面積という数値の変更の有無」と「合併という登記記録の再編成に必要な図面の話」を同一視しやすい点を整理しています。タイトルのキャッチフレーズについては、以前のセッションで肢ア（死亡・相続）を軸にした「死んだ」という表現を維持する方針が確認されており（クリック率上の判断で保留）、今回新たに判明した肢ウ・エの論点はこのキャッチフレーズには反映されていませんが、その方針を踏まえて今回はタイトルを変更していません。**関連記事へのリンクについて**：`note-articles/topics/`・`column/`配下を検索したところ、`column/tatemono-nintei-3youken.md`（建物認定3要件）が見つかりましたが、これは「定着性・外気分断性・用途性」という**建物として登記できるかどうか**の判定基準であり、肢ウで問題になっている「効用上一体」（準則78条、建物の個数の判定基準）とは異なるテーマのため、誤解を避けるためリンクは埋め込んでいません。肢ウ（準則78条・建物の個数の基準）・肢エ（合併時の図面添付の要否）を直接扱う個別テーマ記事は現時点では見当たらず、今後これらの論点を扱う記事を作成した際は、本記事から参照リンクを追加することをおすすめします。
+- **「間違いノート」補足解説（2026-09-16追加）**：読者から、ウ（区分合併は所有権登記名義人が同一で接続していれば足り、効用上一体の関係は不要であること）とエ（床面積に変更がなくても合併後の各階平面図の添付は省略できないこと）の結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「ここが分かりにくいポイント」を追加しました。ウは、まだ登記されていない建物を最初にいくつの建物として登記するかを判断する「効用上一体」の基準（不動産登記事務取扱手続準則78条1項）と、すでに登記されている区分建物どうしをまとめる区分合併の要件（不動産登記法2条23号）を混同しやすい点を整理しています。エは、「床面積という数値の変更の有無」と「合併という登記記録の再編成に必要な図面の話」を同一視しやすい点を整理しています。タイトルのキャッチフレーズについては、以前のセッションでア（死亡・相続）を軸にした「死んだ」という表現を維持する方針が確認されており（クリック率上の判断で保留）、今回新たに判明したウ・エの論点はこのキャッチフレーズには反映されていませんが、その方針を踏まえて今回はタイトルを変更していません。**関連記事へのリンクについて**：`note-articles/topics/`・`column/`配下を検索したところ、`column/tatemono-nintei-3youken.md`（建物認定3要件）が見つかりましたが、これは「定着性・外気分断性・用途性」という**建物として登記できるかどうか**の判定基準であり、ウで問題になっている「効用上一体」（準則78条、建物の個数の判定基準）とは異なるテーマのため、誤解を避けるためリンクは埋め込んでいません。ウ（準則78条・建物の個数の基準）・エ（合併時の図面添付の要否）を直接扱う個別テーマ記事は現時点では見当たらず、今後これらの論点を扱う記事を作成した際は、本記事から参照リンクを追加することをおすすめします。
 
 ---
 
@@ -139,7 +186,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -225,8 +280,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -245,7 +300,7 @@ alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（ウ肢・間違いノート）
 
-肢ウで読者がつまずいたポイント（「合併にも効用上一体が必要なはず」という思い込み）を、建物の個数を判断する「効用上一体」の基準（すでに登記される前の場面）と、区分合併の要件（すでに登記された建物どうしをまとめる場面）を左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
+ウで読者がつまずいたポイント（「合併にも効用上一体が必要なはず」という思い込み）を、建物の個数を判断する「効用上一体」の基準（すでに登記される前の場面）と、区分合併の要件（すでに登記された建物どうしをまとめる場面）を左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -265,7 +320,15 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 効・用・接・続・区・分・
 合・併・棟・数・誤, which have Simplified Chinese look-alike forms with
@@ -286,7 +349,7 @@ Title (large, bold):
 「効用上一体」が必要な場面、不要な場面
 
 Subtitle (smaller, centered):
-平成28年度 午後の部 第14問 肢ウ－建物の個数の基準と区分合併の要件を混同
+平成28年度 午後の部 第14問 ウ－建物の個数の基準と区分合併の要件を混同
 しやすいポイント
 
 --- COMPARISON ---
@@ -309,7 +372,7 @@ Illustration: Two isometric apartment-style units, each already stamped
 (接続) icon and a matching name-tag (同一の所有権登記名義人), with a small
 crossed-out 効用上一体 label floating beside them to show it is NOT
 required, merging into a single 区分合併後の建物 icon.
-Small caption below: 不動産登記法2条23号。すでに登記された区分建物どうし
+Small caption below: 不動産登記規則133条1項。すでに登記された区分建物どうし
 をまとめる要件
 
 --- CALLOUT: 誤りやすいポイント ---
@@ -322,12 +385,12 @@ Small caption below: 不動産登記法2条23号。すでに登記された区�
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-平成28年度 午後の部 第14問 肢ウ（不動産登記法2条23号・準則78条1項）
+平成28年度 午後の部 第14問 ウ（不動産登記規則133条1項・準則78条1項）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 効・用・接・続・区・分・合・併・棟・数・誤. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 効・用・接・続・区・分・合・併・棟・数・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm every heading, panel label, and callout
 text matches the Japanese text given above verbatim, with no paraphrasing
 and no substituted characters, confirm the left panel shows unregistered
@@ -344,7 +407,7 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（エ肢・間違いノート）
 
-肢エで読者がつまずいたポイント（「床面積が変わらないなら図面の添付も不要なはず」という思い込み）を、床面積という数値の話と、合併という登記記録の再編成に必要な図面の話は別次元であることを左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
+エで読者がつまずいたポイント（「床面積が変わらないなら図面の添付も不要なはず」という思い込み）を、床面積という数値の話と、合併という登記記録の再編成に必要な図面の話は別次元であることを左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -364,7 +427,15 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 床・面・積・図・添・付・
 登・記・録・併・誤, which have Simplified Chinese look-alike forms with
@@ -385,7 +456,7 @@ Title (large, bold):
 数字が同じでも、図面は作り直す
 
 Subtitle (smaller, centered):
-平成28年度 午後の部 第14問 肢エ－床面積の数値と図面添付の要否を同一視
+平成28年度 午後の部 第14問 エ－床面積の数値と図面添付の要否を同一視
 しやすいポイント
 
 --- COMPARISON ---
@@ -416,12 +487,12 @@ Small caption below: 不動産登記令別表16項添付情報イ。合併後の
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-平成28年度 午後の部 第14問 肢エ（不動産登記令別表16項添付情報イ）
+平成28年度 午後の部 第14問 エ（不動産登記令別表16項添付情報イ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 床・面・積・図・添・付・登・記・録・併・誤. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 床・面・積・図・添・付・登・記・録・併・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm every heading, panel label, and callout
 text matches the Japanese text given above verbatim, with no paraphrasing
 and no substituted characters, confirm the left panel shows only the
@@ -436,7 +507,7 @@ background with no transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「合併の登記を申請できるか・要件は何か」と「添付書類は何が要るか」を順番に確認できるようにする5パネル構成。アは「思い込みのルート」と「正しいルート」を並べたタイムラインで、相続登記を飛ばして相続人全員が相続証明情報を添付し被承継人名義のまま申請する手順を示す。イは登記記録上の住所の一致を確認し、一致しなければ先に甲建物の住所の変更の登記を済ませたかを確認する2段の決定木で、どちらの分岐にも行き先を明記する。ウはまず「建物の個数の判断」と「区分合併」の場面を見分け、区分合併なら同一名義と接続の2要件を別々に確認する決定木とし、効用上一体は点線の「要件に含まれない」枠で示す。エは「床面積に変更がないから省略できる」という思い込みとの正誤対比型、オは申請人が所有権の登記名義人か表題部所有者かの1段の分岐で、両方の行き先を明記する。色分けは、②の問題全体ポスターに合わせ、申請できるか・要件は＝緑、添付書類＝青。
 
@@ -464,13 +535,13 @@ actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No (はい/いいえ) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 1
-(肢ア) is a left-to-right timeline with two lanes (a faded mistaken route
-and a highlighted correct route with numbered checkpoints). Panel 2 (肢イ)
+(ア) is a left-to-right timeline with two lanes (a faded mistaken route
+and a highlighted correct route with numbered checkpoints). Panel 2 (イ)
 is a two-step flowchart in which every diamond node shows BOTH outcomes,
-each leading forward to its own separate conclusion node. Panel 3 (肢ウ)
+each leading forward to its own separate conclusion node. Panel 3 (ウ)
 is a flowchart that first sorts the scene into one of two situations and
-then checks two distinct requirements one at a time. Panel 4 (肢エ) is a
-correct-vs-mistaken contrast frame. Panel 5 (肢オ) is a single diamond
+then checks two distinct requirements one at a time. Panel 4 (エ) is a
+correct-vs-mistaken contrast frame. Panel 5 (オ) is a single diamond
 node whose two outcomes each lead to their own conclusion node. In every
 flowchart, every branch arrow must lead forward to a new node — never
 draw a loop arrow that returns from a diamond node back to an earlier
@@ -531,7 +602,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -557,7 +628,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相続登記は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 住所が食い違えば先に住所の変更の登記が必要
@@ -585,7 +656,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 証明情報だけでは不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 区分合併は同一名義と接続で足り効用上一体は不要
@@ -615,7 +686,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 効用上一体は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 床面積が同じでも合併後の各階平面図は添付が必要
@@ -639,7 +710,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 図面の省略は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 表題部所有者が合併を申請するなら印鑑証明書は不要
@@ -664,7 +735,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法30条・2条23号・56条、不動産登記事務取扱手続準則78条1項、不動産登記令別表16項添付情報イ
+不動産登記法30条・56条、不動産登記規則133条1項、不動産登記事務取扱手続準則78条1項、不動産登記令別表16項添付情報イ
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

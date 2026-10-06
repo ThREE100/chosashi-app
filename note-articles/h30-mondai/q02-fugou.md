@@ -2,51 +2,67 @@
 
 **出題年度：平成30年度　午後の部　第2問**
 
-> 付合に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地を使用する権原を有しない者が当該土地に小麦の種をまき、これを育てた場合には、成育した小麦の所有権は、種をまいた者に帰属する。
->
-> イ　建物の賃借人が賃貸人の承諾を得て当該建物を増築した場合であっても、その増築部分が取引上の独立性を有しないときは、当該賃借人は、当該増築部分の所有権を取得しない。
->
-> ウ　ＢがＡからＡの所有する土地を買い受けて立木を植栽した後に、Ｃが当該立木とともに当該土地をＡから買い受けてその所有権の移転の登記を備えた場合には、Ｂは、当該立木につき対抗要件を備えていなくとも、Ｃに対し、当該立木の所有権を主張することができる。
->
-> エ　Ａが所有する甲動産に甲動産の賃借人Ｂが所有する乙動産が付合したときは、甲動産が主たる動産であったとしても、Ｂは、乙動産の所有権を失わない。
->
-> オ　不動産の付合によって付合した物の所有権を喪失し、損失を受けた者は、当該不動産の付合によって所有権を取得した者に対し、その償金を請求することができる。
->
+> 付合に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地を使用する権原を有しない者が当該土地に小麦の種をまき、これを育てた場合には、成育した小麦の所有権は、種をまいた者に帰属する。  
+>　  
+> イ　建物の賃借人が賃貸人の承諾を得て当該建物を増築した場合であっても、その増築部分が取引上の独立性を有しないときは、当該賃借人は、当該増築部分の所有権を取得しない。  
+>　  
+> ウ　ＢがＡからＡの所有する土地を買い受けて立木を植栽した後に、Ｃが当該立木とともに当該土地をＡから買い受けてその所有権の移転の登記を備えた場合には、Ｂは、当該立木につき対抗要件を備えていなくとも、Ｃに対し、当該立木の所有権を主張することができる。  
+>　  
+> エ　Ａが所有する甲動産に甲動産の賃借人Ｂが所有する乙動産が付合したときは、甲動産が主たる動産であったとしても、Ｂは、乙動産の所有権を失わない。  
+>　  
+> オ　不動産の付合によって付合した物の所有権を喪失し、損失を受けた者は、当該不動産の付合によって所有権を取得した者に対し、その償金を請求することができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-付合とは、複数の物がくっついて社会通念上ひとつの物になったとき、その所有権を誰に帰属させるかを定めるルールです。不動産の付合（民法242条）、動産の付合（243条）、そして付合によって損をした人を救う償金請求（248条）が柱になります。「くっついたら、原則として主たる物の所有者のもの」という大原則を軸に、例外と救済手段を整理できているかが問われます。
+---
+
+付合とは、複数の物がくっついて社会通念上ひとつの物になったとき、その所有権を誰に帰属させるかを定めるルールです。不動産の付合（民法242条）、動産の付合（243条）、そして付合によって損をした人を救う償金請求（248条）が柱になります。
+
+「くっついたら、原則として主たる物の所有者のもの」という大原則を軸に、例外と救済手段を整理できているかが問われます。
 
 ### ア：成育した小麦は、土地の所有者に帰属する
 
-不動産の所有者は、その不動産に従として付合した物の所有権を取得します（民法242条）。土地を使用する権原を持たない者が種をまいて育てても、成育した小麦は土地に付合するため、その所有権は種をまいた者ではなく土地の所有者に帰属します。したがって「種をまいた者に帰属する」とする本肢は誤りです。
+不動産の所有者は、その不動産に従として付合した物の所有権を取得します（民法242条）。
+
+土地を使用する権原を持たない者が種をまいて育てても、成育した小麦は土地に付合するため、その所有権は種をまいた者ではなく土地の所有者に帰属します。したがって「種をまいた者に帰属する」とする本肢は誤りです。
 
 **たとえば**、他人の空き地に勝手に入り込んで小麦の種をまき、せっせと育てて立派に実らせたとしても、その小麦は土地に付いてしまっているので、収穫できる権利があるのは種をまいた本人ではなく、あくまでその土地の持ち主のほうなんです。
 
 ### イ：独立性のない増築部分は、賃借人の所有物にならない
 
-建物に増改築がされた場合、その増築部分が既存の建物と別個独立の存在を有せず、建物の構成部分となっているとき（取引上の独立性を有しないとき）は、増築部分は建物に付合し、建物の所有者に帰属するというのが判例の考え方です。賃貸人の承諾を得て増築していても、独立性がなければ賃借人は増築部分の所有権を取得しません。よって本肢は正しい記述です。
+建物に増改築がされた場合、その増築部分が既存の建物と別個独立の存在を有せず、建物の構成部分となっているとき（取引上の独立性を有しないとき）は、増築部分は建物に付合し、建物の所有者に帰属するというのが判例の考え方です。
+
+賃貸人の承諾を得て増築していても、独立性がなければ賃借人は増築部分の所有権を取得しません。よって本肢は正しい記述です。
 
 **たとえば**、アパートを借りている人が大家さんの承諾をもらって部屋を一部広げるリフォームをしても、その広げた部分が既存の部屋と一体化していて単独では出入りも売買もできないような造りなら、その部分は建物とくっついて大家さんのものになり、借りている人の持ち物にはならないんです。
 
 ### ウ：立木の対抗要件を備えなければ、譲受人に所有権を主張できない
 
-同一の立木について、土地の譲渡に伴う立木所有権の譲渡と、立木そのものの譲渡が競合した場合は、登記の具備と明認方法の具備の先後によって優劣を決するというのが判例の立場です。したがってＢは、Ｃが所有権移転登記を備える前に立木について対抗要件（明認方法）を備えていなければ、Ｃに対して立木の所有権を主張することはできません。「対抗要件を備えていなくとも主張できる」とする本肢は誤りです。
+同一の立木について、土地の譲渡に伴う立木所有権の譲渡と、立木そのものの譲渡が競合した場合は、登記の具備と明認方法の具備の先後によって優劣を決するというのが判例の立場です。
+
+したがってＢは、Ｃが所有権移転登記を備える前に立木について対抗要件（明認方法）を備えていなければ、Ｃに対して立木の所有権を主張することはできません。「対抗要件を備えていなくとも主張できる」とする本肢は誤りです。
 
 **たとえば**、山の土地を買って自分で杉の苗を植えた人が、その木に自分の名札を立てるといった「明認方法」をとらないまま放っておいたところ、別の人がその土地を木ごと買って先に登記まで済ませてしまったら、あとから「あの木は自分が植えたものだ」と言っても、もう取り返すことはできないんです。
 
 ### エ：主たる動産の所有者が、付合した動産全体の所有権を取得する
 
-所有者を異にする複数の動産が付合して分離が困難になった場合において、主従の区別ができるときは、その全体が主たる動産の所有者の物になります（民法243条）。甲動産が主たる動産であるならば、これに付合した乙動産の所有権は甲動産の所有者Ａに帰属し、賃借人Ｂは乙動産の所有権を失います。「Ｂは乙動産の所有権を失わない」とする本肢は誤りです。
+所有者を異にする複数の動産が付合して分離が困難になった場合において、主従の区別ができるときは、その全体が主たる動産の所有者の物になります（民法243条）。
+
+甲動産が主たる動産であるならば、これに付合した乙動産の所有権は甲動産の所有者Ａに帰属し、賃借人Ｂは乙動産の所有権を失います。「Ｂは乙動産の所有権を失わない」とする本肢は誤りです。
 
 **たとえば**、レンタルした立派な機械本体（甲）に、借り主が持ち込んだ小さな部品（乙）を溶接して一体化させ、もう外せなくなってしまった場合、主役はあくまで機械本体のほうなので、くっついた全体は機械の持ち主のものになり、部品を出した借り主はその部品の所有権を失ってしまうんです。
 
 ### オ：付合で所有権を失った者は、償金を請求できる
 
-付合・混和・加工の規定の適用によって損失を受けた者は、不当利得の規定（民法703条・704条）に従い、所有権を取得した者に対してその償金を請求することができます（民法248条）。不動産の付合で物の所有権を失った者も、付合によって利益を得た不動産所有者に対し、公平の観点から償金請求ができます。したがって本肢は正しい記述です。
+付合・混和・加工の規定の適用によって損失を受けた者は、不当利得の規定（民法703条・704条）に従い、所有権を取得した者に対してその償金を請求することができます（民法248条）。
+
+不動産の付合で物の所有権を失った者も、付合によって利益を得た不動産所有者に対し、公平の観点から償金請求ができます。したがって本肢は正しい記述です。
 
 **たとえば**、他人の土地に自分が植えて育てた木が土地に付合して土地の持ち主のものになってしまった場合でも、育てた人はタダで損をさせられるわけではなく、「木の分の価値を返してください」と土地の持ち主にお金（償金）を請求できるんです。
+
+---
 
 ### まとめ
 
@@ -69,7 +85,7 @@
 - 各肢の根拠のうち、ア（民法242条）、ウ（最判昭35.3.1）、エ（民法243条）、オ（民法248条）は、いずれも元データの解説に条文番号・判例番号まで明記されているものです。オの償金請求の実質的根拠となる不当利得（民法703条・704条）は、248条が準用する一般規定として補足したもので、元データにも「不当利得の規定に従い」と記載があります。イの判例番号については下記の訂正を参照してください。
 - 本記事は、ローカルのアガルート過去問テキスト（OCRに基づく元データ解説）を条文根拠の一次情報源として参照して作成しています。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験（令和元年度〜令和7年度）の全問題について、本問のテーマ（付合・民法242条〜248条）に関する記述（「付合」「242条」等のキーワード）を含む問題がないか確認しました。**重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **法令根拠・判例確認チェック（2026-08-18実施・訂正あり）**：`note-articles/laws/minpou-1-soukyoku-bukken.md`（民法242条・243条・248条）と本文を突き合わせ、いずれも条文の文言と一致していることを確認しました。あわせてWeb検索で判例番号の実在確認を行ったところ、ウの根拠である最判昭35.3.1（民集14巻3号307頁、立木の二重譲渡と明認方法・登記の先後）は複数の情報源で確認できました。**一方、当初イの根拠として記載していた最判昭38.5.31は誤りであることが判明しました。** 裁判所公式の判例データベース（courts.go.jp）で確認したところ、最高裁判所第二小法廷昭和38年5月31日判決（民集17巻4号600頁）は、民法上の組合における業務執行組合員の代理権の制限が第三者に対抗できるかという、本問とは全く無関係の論点についての判例でした。「賃借人が独立性のない増築をした場合は建物に付合し所有権を取得しない」という本問イの論点で広く引用されているのは、最三小判昭和44年7月25日（最判昭44.7.25）であることを、この論点を専門に扱う法律専門サイトの解説で確認しました。判例番号を最判昭44.7.25に訂正します。なお、この訂正は判例番号のみに関するもので、肢イの結論（正）・条文の考え方自体・正解番号（3番＝イ・オ）・各肢の正誤判定にはいずれも変更ありません（本文には元々判例番号を書いていないため、本文の記述自体への影響もありません）。また、インフォグラフィックプロンプトの説明文1箇所に残っていた半角括弧`()`を全角`（）`に修正しました。判例番号・先例番号・専門誌番号の本文残存、Markdown表の残存は確認されませんでした。
+- **法令根拠・判例確認チェック（2026-08-18実施・訂正あり）**：`note-articles/laws/minpou-1-soukyoku-bukken.md`（民法242条・243条・248条）と本文を突き合わせ、いずれも条文の文言と一致していることを確認しました。あわせてWeb検索で判例番号の実在確認を行ったところ、ウの根拠である最判昭35.3.1（民集14巻3号307頁、立木の二重譲渡と明認方法・登記の先後）は複数の情報源で確認できました。**一方、当初イの根拠として記載していた最判昭38.5.31は誤りであることが判明しました。** 裁判所公式の判例データベース（courts.go.jp）で確認したところ、最高裁判所第二小法廷昭和38年5月31日判決（民集17巻4号600頁）は、民法上の組合における業務執行組合員の代理権の制限が第三者に対抗できるかという、本問とは全く無関係の論点についての判例でした。「賃借人が独立性のない増築をした場合は建物に付合し所有権を取得しない」という本問イの論点で広く引用されているのは、最三小判昭和44年7月25日（最判昭44.7.25）であることを、この論点を専門に扱う法律専門サイトの解説で確認しました。判例番号を最判昭44.7.25に訂正します。なお、この訂正は判例番号のみに関するもので、イの結論（正）・条文の考え方自体・正解番号（3番＝イ・オ）・各肢の正誤判定にはいずれも変更ありません（本文には元々判例番号を書いていないため、本文の記述自体への影響もありません）。また、インフォグラフィックプロンプトの説明文1箇所に残っていた半角括弧`()`を全角`（）`に修正しました。判例番号・先例番号・専門誌番号の本文残存、Markdown表の残存は確認されませんでした。
 
 ---
 
@@ -111,12 +127,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・建・物・登・記・所・対・認・償 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -206,18 +240,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -249,7 +283,15 @@ callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -273,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 土地に生えた小麦は土地所有者のもの
@@ -291,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 土地所有者に帰属
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 独立性のない増築は建物のもの
@@ -310,15 +352,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建物に付合する
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 立木は登記と明認方法の先後で決まる
 Diagram: A decision-tree flowchart on an isometric land scene. Start
-node: 立木と土地の二重譲渡。First diamond node: Ｂは立木について明認方法
-などの対抗要件を先に備えていたか？ with a いいえ arrow proceeding
-downward to a second diamond node (drawn with a thicker highlighted
-border): Ｃは先に所有権移転登記を備えたか？ with a はい branch leading to
+node: 立木と土地の二重譲渡。First rectangular check box (not a
+diamond): Ｂは立木について明認方法などの対抗要件を備えていない. An arrow
+proceeds downward to a second rectangular check box (drawn with a thicker
+highlighted border): Ｃが先に所有権移転登記を備えた. An arrow leads to
 a red conclusion node reading Ｂは対抗要件がなくＣに立木の所有権を主張で
 きない。Illustration: a tree standing on land with no marking at all
 (representing missing 明認方法), beside it a ledger book stamped with a
@@ -334,15 +376,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記した方が優先
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 主従の区別ができれば主の所有者へ
 Diagram: A decision-tree flowchart combined with an isometric welding
-illustration. First diamond node: 付合した動産どうしは分離が可能か？
-with a いいえ arrow proceeding downward to a second diamond node (drawn
-with a thicker highlighted border): 主従の区別ができるか？ with a はい
-（甲動産が主）branch leading to a conclusion node reading 甲動産の所有者
+illustration. First rectangular check box (not a diamond): 付合した動産どうしは損傷
+しなければ分離できない. An arrow proceeds downward to a second rectangular
+check box (drawn with a thicker highlighted border): 主従の区別ができる
+（甲動産が主）. An arrow leads to a conclusion node reading 甲動産の所有者
 Ａが全体の所有権を取得し、乙動産の所有者Ｂは乙動産の所有権を失う。
 Illustration: a large machine labeled "甲動産(主)" with a small part
 labeled "乙動産(従)" welded onto it, sparks and a solid weld line showing
@@ -359,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 主の所有者に帰属
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 損した人は償金を請求できる
@@ -382,14 +424,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 ける償金請求)に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権, 建, 登, 記, 対, 認, 償, 従 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢(肢ウ・
-肢エ) is drawn as an actual flowchart with branch nodes (not a bare
+between the header and the panels, that every multi-condition 肢(ウ・
+エ) is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary

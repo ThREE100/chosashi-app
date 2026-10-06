@@ -2,49 +2,73 @@
 
 **出題年度：平成21年度　午後の部　第11問**
 
-> 建物の合併に関する次の1から5までの記述のうち、誤っているものはどれか。
->
-> 1　所有権の登記名義人が建物の合併の登記を書面により申請する場合において、登記識別情報の通知を希望しないときは、あらかじめこれを希望しない旨の申出をする必要がある。
->
-> 2　区分建物が互いに接続していないときは、これらの区分建物について区分合併の登記をすることができない。
->
-> 3　二つの建物の所在が、それぞれ異なる地番区域であっても、当該建物の合併の登記をすることができる。
->
-> 4　合併する双方の建物に所有権の登記のほかに質権の登記がされていて、その質権の登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であるときは、これらの建物について合併の登記をすることができる。
->
+> 建物の合併に関する次の1から5までの記述のうち、誤っているものはどれか。  
+>　  
+> 1　所有権の登記名義人が建物の合併の登記を書面により申請する場合において、登記識別情報の通知を希望しないときは、あらかじめこれを希望しない旨の申出をする必要がある。  
+>　  
+> 2　区分建物が互いに接続していないときは、これらの区分建物について区分合併の登記をすることができない。  
+>　  
+> 3　二つの建物の所在が、それぞれ異なる地番区域であっても、当該建物の合併の登記をすることができる。  
+>　  
+> 4　合併する双方の建物に所有権の登記のほかに質権の登記がされていて、その質権の登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であるときは、これらの建物について合併の登記をすることができる。  
+>　  
 > 5　表題部所有者が建物の合併の登記を申請する場合には、当該登記の申請書に自己の印鑑に関する証明書を添付しなければならない。
+
+---
 
 建物の合併の登記に関する分野です。合併できる場合・できない場合の制限や、申請の際の添付書面が問われています。この問題は「正しいものの組合せ」ではなく、1から5の記述のうち「誤っているものはどれか」を一つ選ぶ単数選択式である点に注意して読みましょう。
 
 ### 1：登記識別情報の通知を希望しないときは、あらかじめその旨の申出が必要である
 
-所有権の登記名義人が合併の登記を書面により申請する場合において、登記識別情報の通知を希望しないときは、あらかじめその旨の申出をする必要があります（不動産登記規則64条1項1号。この申出をするときは、その旨を申請情報の内容とします＝同条2項）。通知は原則として行われるものなので、不要なら申請人の側から「希望しない」と申し出ておく必要があるわけです。正しい記述です。
+所有権の登記名義人が合併の登記を書面により申請する場合において、登記識別情報の通知を希望しないときは、あらかじめその旨の申出をする必要があります（不動産登記規則64条1項1号。この申出をするときは、その旨を申請情報の内容とします＝同条2項）。
+
+通知は原則として行われるものなので、不要なら申請人の側から「希望しない」と申し出ておく必要があるわけです。正しい記述です。
 
 **たとえば**、合併後の建物について新たな登記識別情報（いわゆる権利証にあたる情報）を受け取りたくない所有者は、申請の際にあらかじめ「通知は希望しません」と申し出ておくことになります。
 
 ### 2：互いに接続していない区分建物については、区分合併の登記をすることができない
 
-区分建物どうしを合併する区分合併の登記は、その区分建物が互いに接続していることが要件です（不動産登記規則133条1項が「乙建物又は乙建物の附属建物が甲建物と接続する区分建物である場合に限る」として区分合併を定義しており、不動産登記事務取扱手続準則86条（2）も、区分された建物が互いに接続していないときは合併の登記をすることができないとしています）。構造上つながっていない区分建物を一個の区分建物として合併することはできません。したがって、互いに接続していないときは区分合併の登記をすることができず、正しい記述です。
+区分建物どうしを合併する区分合併の登記は、その区分建物が互いに接続していることが要件です（不動産登記規則133条1項が「乙建物又は乙建物の附属建物が甲建物と接続する区分建物である場合に限る」として区分合併を定義しており、不動産登記事務取扱手続準則86条（2）も、区分された建物が互いに接続していないときは合併の登記をすることができないとしています）。
+
+構造上つながっていない区分建物を一個の区分建物として合併することはできません。
+
+したがって、互いに接続していないときは区分合併の登記をすることができず、正しい記述です。
 
 **たとえば**、同じマンションでも廊下を挟んで離れた別々の区画になっている二部屋は、物理的に接続していないため、これらをまとめて一つの区分建物にする区分合併はできません。
 
 ### 3：所在の地番区域が異なっていても、建物の合併の登記をすることができる
 
-建物の合併の登記は、二つの建物の所在がそれぞれ異なる地番区域にあっても、（同一の登記所の管轄区域内であれば）申請することができます。土地の合筆については「地目又は地番区域が相互に異なる土地の合筆の登記」が明文で禁止されていますが（不動産登記法41条2号）、建物の合併の制限を定める不動産登記法56条には、これに対応する制限が置かれていません。土地の合筆のように「同一の地番区域内であること」までは要求されていないわけです。正しい記述です。
+建物の合併の登記は、二つの建物の所在がそれぞれ異なる地番区域にあっても、（同一の登記所の管轄区域内であれば）申請することができます。
+
+土地の合筆については「地目又は地番区域が相互に異なる土地の合筆の登記」が明文で禁止されていますが（不動産登記法41条2号）、建物の合併の制限を定める不動産登記法56条には、これに対応する制限が置かれていません。
+
+土地の合筆のように「同一の地番区域内であること」までは要求されていないわけです。正しい記述です。
 
 **たとえば**、道路を境に地番区域（丁目など）が変わる位置に建つ母屋と離れであっても、同じ登記所の管轄内にあれば、これらを一個の建物として合併する登記を申請できます。
 
 ### 4：質権の登記の目的・受付年月日・受付番号・登記原因及び日付が同一なら、合併できる
 
-合併する双方の建物に所有権等の登記以外の権利に関する登記があると原則として合併できません（不動産登記法56条5号）。もっとも、同号は「合併後の建物の登記記録に登記することができるものとして法務省令で定めるもの」を除外しており、その法務省令である不動産登記規則131条1号が「担保権の登記であって、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のもの」を挙げています。先取特権・質権・抵当権といった担保権について、これらがいずれも同一であるときは、例外として合併の登記をすることができます。正しい記述です。
+合併する双方の建物に所有権等の登記以外の権利に関する登記があると原則として合併できません（不動産登記法56条5号）。
+
+もっとも、同号は「合併後の建物の登記記録に登記することができるものとして法務省令で定めるもの」を除外しており、その法務省令である不動産登記規則131条1号が「担保権の登記であって、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のもの」を挙げています。
+
+先取特権・質権・抵当権といった担保権について、これらがいずれも同一であるときは、例外として合併の登記をすることができます。正しい記述です。
 
 **たとえば**、二棟の建物にまったく同じ内容（同じ受付番号・同じ原因日付）の質権が設定されている場合は、合併後も権利関係に混乱が生じないため、これらの建物を合併することができます。
 
 ### 5：表題部所有者が申請する場合は、印鑑証明書の添付を要しない
 
-書面申請では、申請情報を記載した書面に記名押印した者の印鑑に関する証明書を添付するのが原則ですが、「法務省令で定める場合」は添付を要しません（不動産登記令16条2項）。その法務省令が不動産登記規則48条で、同条5号により、申請人が規則47条3号イ〜ニに掲げる者のいずれにも該当しない場合には印鑑証明書の添付を要しないとされています。建物の合併の登記について印鑑証明書が必要となるのは、規則47条3号イ（6）に「合筆の登記、合体による登記等又は建物の合併の登記」が挙げられている**所有権の登記名義人**が申請する場合です。表題部所有者は、まだ所有権の保存登記を経ていない段階であり、この所有権の登記名義人には当たらないため、印鑑証明書の添付は必要ありません。「添付しなければならない」とする記述は誤りです。
+書面申請では、申請情報を記載した書面に記名押印した者の印鑑に関する証明書を添付するのが原則ですが、「法務省令で定める場合」は添付を要しません（不動産登記令16条2項）。
+
+その法務省令が不動産登記規則48条で、同条5号により、申請人が規則47条3号イ〜ニに掲げる者のいずれにも該当しない場合には印鑑証明書の添付を要しないとされています。
+
+建物の合併の登記について印鑑証明書が必要となるのは、規則47条3号イ（6）に「合筆の登記、合体による登記等又は建物の合併の登記」が挙げられている**所有権の登記名義人**が申請する場合です。
+
+表題部所有者は、まだ所有権の保存登記を経ていない段階であり、この所有権の登記名義人には当たらないため、印鑑証明書の添付は必要ありません。「添付しなければならない」とする記述は誤りです。
 
 **たとえば**、まだ所有権保存登記をしていない（表題部所有者にとどまる）人が二棟の建物を合併する登記を申請するときは、所有権登記名義人のように印鑑証明書を添える必要はありません。
+
+---
 
 ### まとめ
 
@@ -80,7 +104,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 建物の合併について「合併できる／できない」の分かれ目と、申請手続における申出・添付書面の要否を、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する1列・5枚のポスター型カードで俯瞰する構成。誤りの肢（肢5）は、正しいルール（表題部所有者には印鑑証明書の添付は不要）として図解する。
 
@@ -106,12 +130,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・権・証・区 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -188,16 +230,16 @@ characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（記述1〜5 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 建物の合併の登記について、「合併できる／できない」の分かれ目と申請手続の添付書面を、記述ごとに思考の手順として示す作図ガイド。本問は「アからオまで」ではなく「1から5までの記述のうち誤っているものはどれか」という単一選択式のため、パネルは記述1〜5の番号にそろえている。②の俯瞰カードポスターとは別物で、判定の手続そのものを可視化する構成。5パネル、portrait 1080×2600px。
 
@@ -276,7 +318,7 @@ Subtitle (smaller, centered, 1行):
 平成21年度 午後の部 第11問 作図ガイド（建物の合併の登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
-ブロックは置かない。本問は記述1から5までの単一選択式であり、肢ア〜オでは
+ブロックは置かない。本問は記述1から5までの単一選択式であり、ア〜オでは
 ないため、バッジ番号と記述番号を一致させる。バッジ・結論タグの色はすべて
 青で統一する。）
 
@@ -406,7 +448,7 @@ Chinese-only character, Korean Hangul, other non-Japanese script, or
 stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously and match the
-記述1〜5 numbering of this problem (not 肢ア〜オ), there is no intro
+記述1〜5 numbering of this problem (not ア〜オ), there is no intro
 illustration or paragraph block between the header and the panels, that
 panel 4 is drawn as an actual chain of four separate AND-condition
 diamond nodes (not one merged node) with every ✕ branch ending at its own

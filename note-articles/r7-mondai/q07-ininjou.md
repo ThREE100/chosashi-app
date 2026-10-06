@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第7問**
 
-> 株式会社Ａは、令和7年3月20日に委任事項に「甲土地の分合筆の登記申請に関する一切の件」とのみ記載された委任状（以下「本件委任状」という。）を作成して、土地家屋調査士Ｂに土地の分合筆の登記の申請（以下「本件登記申請」という。）を委任した。この事例に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　Ｂが、株式会社Ａから登記識別情報の提供を受けて、登記識別情報提供様式を作成して電子申請の方法により本件登記申請をする場合には、登記識別情報の暗号化についての特別の授権は不要である。
->
-> イ　株式会社Ａの代表取締役が令和7年4月1日に替わったときであっても、Ｂは、同月2日に株式会社Ａを代理して本件登記申請をすることができる。
->
-> ウ　Ｂが株式会社Ａの許諾を得て復代理人を選任したときであっても、Ｂは、株式会社Ａを代理して本件登記申請をすることができる。
->
-> エ　Ｂが令和7年4月1日に死亡した場合には、Ｂの相続人である土地家屋調査士Ｃは、Ｂの地位を承継したものとして、株式会社Ａを代理して本件登記申請をすることができる。
->
-> オ　本件登記申請の際に納付した登録免許税に過誤納があった場合には、Ｂは、本件委任状に基づいて、株式会社Ａを代理してその還付金を受領することができる。
->
+> 株式会社Ａは、令和7年3月20日に委任事項に「甲土地の分合筆の登記申請に関する一切の件」とのみ記載された委任状（以下「本件委任状」という。）を作成して、土地家屋調査士Ｂに土地の分合筆の登記の申請（以下「本件登記申請」という。）を委任した。この事例に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　Ｂが、株式会社Ａから登記識別情報の提供を受けて、登記識別情報提供様式を作成して電子申請の方法により本件登記申請をする場合には、登記識別情報の暗号化についての特別の授権は不要である。  
+>　  
+> イ　株式会社Ａの代表取締役が令和7年4月1日に替わったときであっても、Ｂは、同月2日に株式会社Ａを代理して本件登記申請をすることができる。  
+>　  
+> ウ　Ｂが株式会社Ａの許諾を得て復代理人を選任したときであっても、Ｂは、株式会社Ａを代理して本件登記申請をすることができる。  
+>　  
+> エ　Ｂが令和7年4月1日に死亡した場合には、Ｂの相続人である土地家屋調査士Ｃは、Ｂの地位を承継したものとして、株式会社Ａを代理して本件登記申請をすることができる。  
+>　  
+> オ　本件登記申請の際に納付した登録免許税に過誤納があった場合には、Ｂは、本件委任状に基づいて、株式会社Ａを代理してその還付金を受領することができる。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
 ---
@@ -22,13 +22,21 @@
 
 ### ア：登記識別情報の暗号化には「特別の授権」が必要
 
-登記識別情報は、登記済証に代わる重要な符号で、その暗号化・電子申請での取り扱いを代理人に行わせるには、委任状に「登記識別情報の暗号化に関する一切の権限」といった特別の授権文言が必要です。「登記申請に関する一切の件」という一般的な委任だけでは足りません。
+登記識別情報は、登記済証に代わる重要な符号で、その暗号化・電子申請での取り扱いを代理人に行わせるには、委任状に「登記識別情報の暗号化に関する一切の権限」といった特別の授権文言が必要です。
 
-**たとえば**、Ｂが株式会社Ａから登記識別情報を直接受け取り、それを暗号化して電子申請するには、委任状に「登記識別情報の暗号化についても任せます」という趣旨が具体的に書かれている必要があります。本件委任状のように「分合筆の登記申請に関する一切の件」としか書かれていない場合、この特別の権限までは含まれていないと考えるべきです。
+「登記申請に関する一切の件」という一般的な委任だけでは足りません。
+
+**たとえば**、Ｂが株式会社Ａから登記識別情報を直接受け取り、それを暗号化して電子申請するには、委任状に「登記識別情報の暗号化についても任せます」という趣旨が具体的に書かれている必要があります。
+
+本件委任状のように「分合筆の登記申請に関する一切の件」としか書かれていない場合、この特別の権限までは含まれていないと考えるべきです。
 
 ### イ：会社の代表者が交代しても、委任は消滅しない
 
-委任をしたのは代表取締役個人ではなく、株式会社Ａという法人自体です。そのため、代表取締役が交代しても、法人自体が委任者である以上、既にした委任の効力に影響はありません。なお、不動産登記法17条は、登記の申請の代理権が消滅しない事由として①本人の死亡、②本人である法人の合併による消滅、③本人である受託者の信託に関する任務の終了、④法定代理人の死亡又はその代理権の消滅・変更の4つを定めていますが、代表取締役の交代はそもそも「本人」である株式会社Ａ自体に変動が生じる事由ではないため、法17条を持ち出すまでもなく委任の前提に変化はなく、代理権も当然に存続します。
+委任をしたのは代表取締役個人ではなく、株式会社Ａという法人自体です。
+
+そのため、代表取締役が交代しても、法人自体が委任者である以上、既にした委任の効力に影響はありません。
+
+なお、不動産登記法17条は、登記の申請の代理権が消滅しない事由として①本人の死亡、②本人である法人の合併による消滅、③本人である受託者の信託に関する任務の終了、④法定代理人の死亡又はその代理権の消滅・変更の4つを定めていますが、代表取締役の交代はそもそも「本人」である株式会社Ａ自体に変動が生じる事由ではないため、法17条を持ち出すまでもなく委任の前提に変化はなく、代理権も当然に存続します。
 
 **たとえば**、会社の社長が交代したからといって、その会社が以前結んだ契約が無効になるわけではないのと同じで、代表取締役が交代した後も、Ｂは変わらず株式会社Ａの代理人として登記申請を進めることができます。
 
@@ -40,7 +48,11 @@
 
 ### エ：代理人が死亡すると、代理権はそこで消滅する（相続されない）
 
-不動産登記法17条は、登記の申請の代理権が消滅しない事由として①本人の死亡、②本人である法人の合併による消滅、③本人である受託者の信託に関する任務の終了、④法定代理人の死亡又はその代理権の消滅・変更の4つを列挙していますが、この中に「代理人自身の死亡」は含まれていません。したがって、代理人の死亡については民法111条1項2号の原則がそのまま適用され、代理権は消滅します。代理人という地位は、その人自身の信頼を前提に与えられたものなので、たとえ相続人が同じ土地家屋調査士であっても、代理人としての地位を自動的に引き継ぐことはできません。
+不動産登記法17条は、登記の申請の代理権が消滅しない事由として①本人の死亡、②本人である法人の合併による消滅、③本人である受託者の信託に関する任務の終了、④法定代理人の死亡又はその代理権の消滅・変更の4つを列挙していますが、この中に「代理人自身の死亡」は含まれていません。
+
+したがって、代理人の死亡については民法111条1項2号の原則がそのまま適用され、代理権は消滅します。
+
+代理人という地位は、その人自身の信頼を前提に与えられたものなので、たとえ相続人が同じ土地家屋調査士であっても、代理人としての地位を自動的に引き継ぐことはできません。
 
 **たとえば**、Ｂが亡くなった場合、Ｂの子どもが同じく土地家屋調査士だったとしても、「父の代理人としての立場をそのまま引き継ぐ」ということはできません。株式会社Ａが改めて別途委任をし直す必要があります。
 
@@ -49,6 +61,8 @@
 登録免許税の過誤納還付金を代理人が受け取るには、委任状にその受領権限が明記されている必要があります。「登記申請に関する一切の件」という委任だけでは、還付金という金銭を受け取る権限までは当然には含まれません。
 
 **たとえば**、本件委任状には「甲土地の分合筆の登記申請に関する一切の件」としか書かれておらず、還付金の受領についての記載がありません。そのため、Ｂがこの委任状だけを根拠に還付金を受け取ることはできず、別途その受領権限を含む委任状が必要になります。
+
+---
 
 ### まとめ
 
@@ -108,13 +122,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 委・任・代・理・復・授・権・承・継・相・続・還・受・領・消・滅・登・記
+kanji 委・任・代・理・復・授・権・相・続・還・受・領・消・滅・登・記
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -193,20 +225,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「委任状にこの行為の個別の記載があるか」「代理権が消滅しない事由・存続する理由は何か」を見抜けるようにする5パネル構成。ア・オは「一切の件」委任状に個別の記載がなければその行為は含まれない、という同じ判定枠を共有する。②の色分け（個別授権が必要な行為＝緑、代理権の消滅・存続ルール＝青）を引き継いでいる。
 
@@ -231,7 +263,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panels 1 and 5（肢ア・肢オ）share the same
+— do not force a flowchart. Panels 1 and 5（ア・オ）share the same
 decision frame（一枚の委任状の scroll icon の隣に「この行為の個別の記載
 があるか？」という diamond node を置き、はい／いいえ の分岐先を示す）;
 draw both panels with the same layout, but highlight（太い縁取り・フル
@@ -247,7 +279,15 @@ callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -273,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 暗号化の記載がなければ授権されない
@@ -291,7 +331,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特別授権が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 代表者交代でも法人委任は不変
@@ -308,7 +348,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 法人委任は不変
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 復代理人を加えても元の代理権は存続
@@ -325,7 +365,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 元の代理権も存続
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 リストにない代理人の死亡は消滅する
@@ -345,7 +385,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 リストになく消滅
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 還付金受領の記載がなければ受け取れない
@@ -369,10 +409,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法17条、民法104条〜106条・111条1項2号に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 委, 任, 代, 理, 復, 授, 権, 承, 継, 相, 続, 還, 受, 領, 消, 滅
-and any character that has a visually similar Simplified Chinese variant.
-If any character renders as a Simplified Chinese variant, redraw that
+and any character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

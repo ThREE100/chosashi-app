@@ -2,25 +2,29 @@
 
 **出題年度：平成24年度　午後の部　第15問**
 
-> 建物の個数に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　近接して建築された数棟の建物は、効用上一体として利用される状態になくとも、1個の建物として登記することができる。
->
-> イ　区分建物の1棟の建物の内部にある階段室やエレベーター室等、建物の構造上区分所有者の全員の共用に供されるべき建物の部分は、各別に1個の建物として登記することはできない。
->
-> ウ　建物の個数は、建物の物理的現況に変更がない場合であっても、表題部所有者又は所有権の登記名義人の登記の申請により、増加し、又は減少することがある。
->
-> エ　登記記録は、区分建物については1棟の建物ごとに、区分建物でない建物については1個の建物ごとに作成される。
->
-> オ　1棟の建物に構造上区分された数個の部分があり、独立して住居としての用途に供することができるものと倉庫としての用途に供することができるものとがある場合において、これらの2個の部分が隣接していないときは、その所有者が同一であっても、これらを1個の建物として登記することはできない。
->
+> 建物の個数に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　近接して建築された数棟の建物は、効用上一体として利用される状態になくとも、1個の建物として登記することができる。  
+>　  
+> イ　区分建物の1棟の建物の内部にある階段室やエレベーター室等、建物の構造上区分所有者の全員の共用に供されるべき建物の部分は、各別に1個の建物として登記することはできない。  
+>　  
+> ウ　建物の個数は、建物の物理的現況に変更がない場合であっても、表題部所有者又は所有権の登記名義人の登記の申請により、増加し、又は減少することがある。  
+>　  
+> エ　登記記録は、区分建物については1棟の建物ごとに、区分建物でない建物については1個の建物ごとに作成される。  
+>　  
+> オ　1棟の建物に構造上区分された数個の部分があり、独立して住居としての用途に供することができるものと倉庫としての用途に供することができるものとがある場合において、これらの2個の部分が隣接していないときは、その所有者が同一であっても、これらを1個の建物として登記することはできない。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
+
+---
 
 建物の「個数」は、必ずしも建物の物理的な形と一対一で対応しているわけではありません。登記の申請によって個数が変わることもあれば、法定共用部分のように独立した登記の対象にならないものもあります。
 
 ### ア：効用上一体として利用されていなければ、数棟をまとめて1個の建物として登記できない
 
-近接して建築された数棟の建物であっても、それらが効用上一体として利用される状態になければ、1個の建物として登記することはできません。不動産登記事務取扱手続準則78条1項は「効用上一体として利用される状態にある数棟の建物は、所有者の意思に反しない限り、1個の建物として取り扱うものとする」と定めており、効用上一体として利用されていること（互いに連絡し、一体として機能していること）が、複数棟をまとめて1個の建物として認定するための要件になっています。
+近接して建築された数棟の建物であっても、それらが効用上一体として利用される状態になければ、1個の建物として登記することはできません。
+
+不動産登記事務取扱手続準則78条1項は「効用上一体として利用される状態にある数棟の建物は、所有者の意思に反しない限り、1個の建物として取り扱うものとする」と定めており、効用上一体として利用されていること（互いに連絡し、一体として機能していること）が、複数棟をまとめて1個の建物として認定するための要件になっています。
 
 **たとえば**、隣接する2棟の建物がそれぞれ独立して別々の用途に使われ、行き来もできない状態であれば、単に近くに建っているというだけの理由で1個の建物として登記することはできません。
 
@@ -32,21 +36,31 @@
 
 ### ウ：物理的な現況が変わらなくても、登記の申請によって建物の個数は増減する
 
-建物の個数は、建物そのものの物理的な現況に変更がなくても、表題部所有者または所有権の登記名義人の申請によって、増加したり減少したりすることがあります。不動産登記法54条が定める建物の分割・区分・合併の登記や、準則78条2項が所有者の意思に応じて選択を認める1個の建物としての取扱いのように、建物の構造自体は変わらなくても、登記記録上の個数の数え方を変える手続があるためです。
+建物の個数は、建物そのものの物理的な現況に変更がなくても、表題部所有者または所有権の登記名義人の申請によって、増加したり減少したりすることがあります。
+
+不動産登記法54条が定める建物の分割・区分・合併の登記や、準則78条2項が所有者の意思に応じて選択を認める1個の建物としての取扱いのように、建物の構造自体は変わらなくても、登記記録上の個数の数え方を変える手続があるためです。
 
 **たとえば**、これまで1個の建物として登記されていたビルを、区分建物として各フロアごとに登記し直した場合、建物そのものの物理的な姿は変わっていなくても、登記記録上の個数は1個から複数個に増加します。
 
 ### エ：区分建物の登記記録は、専有部分ごとに作成される
 
-登記記録は、一筆の土地又は一個の建物ごとに作成されます（不動産登記法2条5号）。区分建物（専有部分）は、それ自体が一棟の建物の構造上区分された部分で独立して住居等の用途に供することができるもの（同条22号）として、それぞれが「一個の建物」に当たります。したがって、区分建物については「1棟の建物ごと」にまとめて登記記録が作成されるのではなく、各区分建物（専有部分）ごとに独立した登記記録が作成されます。
+登記記録は、一筆の土地又は一個の建物ごとに作成されます（不動産登記法2条5号）。
+
+区分建物（専有部分）は、それ自体が一棟の建物の構造上区分された部分で独立して住居等の用途に供することができるもの（同条22号）として、それぞれが「一個の建物」に当たります。
+
+したがって、区分建物については「1棟の建物ごと」にまとめて登記記録が作成されるのではなく、各区分建物（専有部分）ごとに独立した登記記録が作成されます。
 
 **たとえば**、10戸の専有部分からなるマンションでは、建物全体で1つの登記記録が作られるのではなく、各住戸（専有部分）ごとにそれぞれ独立した登記記録が作られます。
 
 ### オ：構造上区分された部分でも、所有者が同一であれば1個の建物として登記できる
 
-不動産登記事務取扱手続準則78条2項は、1棟の建物に構造上区分された数個の部分で独立して用途に供することができるものがある場合、原則としてその各部分を各別に1個の建物として取り扱うとしつつ、ただし書で「所有者が同一であるときは、その所有者の意思に反しない限り、一棟の建物の全部又は隣接する数個の部分を1個の建物として取り扱う」と定めています。この「一棟の建物の全部」という選択肢により、住居用の部分と倉庫用の部分が隣接していない場合であっても、その所有者が同一であれば、区分登記をせずに1個の建物としてまとめて登記することができます。
+不動産登記事務取扱手続準則78条2項は、1棟の建物に構造上区分された数個の部分で独立して用途に供することができるものがある場合、原則としてその各部分を各別に1個の建物として取り扱うとしつつ、ただし書で「所有者が同一であるときは、その所有者の意思に反しない限り、一棟の建物の全部又は隣接する数個の部分を1個の建物として取り扱う」と定めています。
+
+この「一棟の建物の全部」という選択肢により、住居用の部分と倉庫用の部分が隣接していない場合であっても、その所有者が同一であれば、区分登記をせずに1個の建物としてまとめて登記することができます。
 
 **たとえば**、1棟の建物の1階部分が倉庫、離れた場所にある別の部分が住居として構造上区分されていても、両方ともAさん1人の所有であれば、区分建物として別々に登記せず、まとめて1個の建物として登記することができます。
+
+---
 
 ### まとめ
 
@@ -109,13 +123,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 効・用・棟・階・段・室・区・分・専・有・記・録・倉・庫 — these must be
+kanji 効・用・棟・階・段・区・分・専・有・記・録 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -183,18 +215,18 @@ Conclusion tag: 非区分は1個、区分は専有ごと
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 建物の個数に関する5肢について、「物理的な位置関係で判断する場面」（ア）、「思い込みやすいが実は登記できない・別の単位になる場面」（イ・エ）、「現況不変でも申請で個数が変わる時系列」（ウ）、「所有者同一性と意思という2条件を順に確認する場面」（オ）を、それぞれ最適な図の型で示す作図ガイド。
 
@@ -211,20 +243,20 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a jurisdiction-style map of nearby detached
-buildings for 肢ア, a crossed-out mistaken-assumption icon paired with a
-checkmarked correct-rule icon for 肢イ, a three-part 区分建物 vs 非区分建物
-comparison for 肢エ (see Panel 4 below — this 肢 is specifically about the
+buildings for ア, a crossed-out mistaken-assumption icon paired with a
+checkmarked correct-rule icon for イ, a three-part 区分建物 vs 非区分建物
+comparison for エ (see Panel 4 below — this 肢 is specifically about the
 rule being DIFFERENT for the two building types, so the diagram must show
 both types' correct rules side by side, not just one), a before/after
-timeline of registry-record counts for 肢ウ, and a two-diamond decision
-flowchart for 肢オ (are the owners the same? then does combining them go
-against the owner's intent?). 肢オ is the only 肢 in this problem that
+timeline of registry-record counts for ウ, and a two-diamond decision
+flowchart for オ (are the owners the same? then does combining them go
+against the owner's intent?). オ is the only 肢 in this problem that
 requires checking two conditions in sequence (所有者の同一性 and 所有者の
 意思), so it alone is drawn as a true two-diamond flowchart with a
 distinct conclusion node at the end of every branch; the other four
 panels use a single labeled diagram, a mistaken-assumption-vs-correct-rule
 comparison, a three-part building-type comparison, or a timeline instead
-— do not force them into a flowchart. Do not merge 肢オ's two conditions
+— do not force them into a flowchart. Do not merge オ's two conditions
 into one diamond; keep 所有者の同一性 and 所有者の
 意思に反しないかどうか as two visually separate checks. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
@@ -270,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 効用上一体でなければ1個にできない
@@ -290,7 +322,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一体利用でなければ不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 法定共用部分は独立して登記できない
@@ -310,7 +342,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 独立登記の対象外
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 現況不変でも申請で登記記録数は変わる
@@ -329,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請で個数が変わる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 区分建物と非区分建物でルールが違う
@@ -361,7 +393,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 非区分は1個、区分は専有ごと
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 所有者同一かつ意思に反しなければ1個も可
@@ -400,7 +432,7 @@ script, or stray decorative glyph — and remove or redraw it so that only
 standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
-that 肢オ is drawn as an actual flowchart with two branch nodes each
+that オ is drawn as an actual flowchart with two branch nodes each
 ending in its own conclusion node (not a bare illustration with no
 visible decision structure) while the other panels use a single labeled
 diagram, a mistaken-assumption-vs-correct-rule comparison, a three-part
@@ -410,7 +442,7 @@ checkmark, and 本肢の誤り with a red ✕) rather than collapsing them into
 a single two-box comparison, and that the LEFT and RIGHT correct-rule
 boxes in Panel 4 each carry only a checkmark with no ✕ anywhere inside
 them, that each 着眼点 callout states a checking order rather than only a
-conclusion and keeps 肢オ's two conditions (所有者の同一性・所有者の意思)
+conclusion and keeps オ's two conditions (所有者の同一性・所有者の意思)
 visually distinct rather than merged, confirm nothing is rendered below
 the last panel's footnote text (no summary recap panel, no trophy or
 medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block

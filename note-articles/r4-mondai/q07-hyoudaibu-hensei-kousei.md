@@ -2,43 +2,53 @@
 
 **出題年度：令和4年度　午後の部　第7問**
 
-> 土地の表題部の変更又は更正の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地の地積が誤って登記されていることを知った当該土地の所有権の登記名義人は、地積が誤っていることを知った日から1か月以内に、地積に関する更正の登記を申請しなければならない。
->
-> イ　甲土地の地積に関する更正の登記を申請する場合において、登記所に備え付けられた甲土地の地積測量図に記載された地積と更正後の地積の差が公差の範囲内であるときは、地積測量図の提供を省略することができる。
->
-> ウ　甲土地の表題登記の申請に際して提供された地積測量図の求積計算が誤っていたために誤った地積により表題登記がされたときは、甲土地の表題部所有者は、地積測量図の訂正の申出によって甲土地の登記記録の地積を訂正することができる。
->
-> エ　雑種地として登記されている土地を宅地の用途に変更した場合には、当該土地の所有権の登記名義人は、当該用途に変更があった日から1か月以内に、地目に関する変更の登記を申請しなければならない。
->
-> オ　登記記録の地積が30歩から99平方メートルに換算して書き替えられている土地の地目を宅地に変更する登記を申請する場合には、当該換算による1平方メートルの100分の1までの結果を地積とすることができる。
->
+> 土地の表題部の変更又は更正の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地の地積が誤って登記されていることを知った当該土地の所有権の登記名義人は、地積が誤っていることを知った日から1か月以内に、地積に関する更正の登記を申請しなければならない。  
+>　  
+> イ　甲土地の地積に関する更正の登記を申請する場合において、登記所に備え付けられた甲土地の地積測量図に記載された地積と更正後の地積の差が公差の範囲内であるときは、地積測量図の提供を省略することができる。  
+>　  
+> ウ　甲土地の表題登記の申請に際して提供された地積測量図の求積計算が誤っていたために誤った地積により表題登記がされたときは、甲土地の表題部所有者は、地積測量図の訂正の申出によって甲土地の登記記録の地積を訂正することができる。  
+>　  
+> エ　雑種地として登記されている土地を宅地の用途に変更した場合には、当該土地の所有権の登記名義人は、当該用途に変更があった日から1か月以内に、地目に関する変更の登記を申請しなければならない。  
+>　  
+> オ　登記記録の地積が30歩から99平方メートルに換算して書き替えられている土地の地目を宅地に変更する登記を申請する場合には、当該換算による1平方メートルの100分の1までの結果を地積とすることができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+
+---
 
 この分野は、「変更」と「更正」の違いがカギです。変更は登記後に事実が変わったこと、更正は最初から登記が間違っていたことを直す手続で、申請義務の有無や地積測量図の扱いが変わってきます。
 
 ### ア：地積の更正の登記には、申請義務がない
 
-更正の登記は、もともとの登記に錯誤（誤り）があった場合に直すものです。錯誤がいつ生じたかを把握するのは困難であることから、更正の登記には申請義務が課されていません（不動産登記法38条）。本肢は「1か月以内に申請しなければならない」としていますが、そもそも申請義務がないので誤りです。
+更正の登記は、もともとの登記に錯誤（誤り）があった場合に直すものです。錯誤がいつ生じたかを把握するのは困難であることから、更正の登記には申請義務が課されていません（不動産登記法38条）。
+
+本肢は「1か月以内に申請しなければならない」としていますが、そもそも申請義務がないので誤りです。
 
 **たとえば**、自分の土地の地積が実際より広く登記されていることに気づいても、「気づいた日から1か月以内に直さなければ過料」といったことはありません。地積更正は義務ではなく、必要に応じて申請するものです。
 
 ### イ：地積更正では、公差の範囲内でも地積測量図は省略できない
 
-土地の地積の更正の登記では、登記記録に更正後の地積を記録するため、地積および求積方法を明確にする意味で地積測量図を提供します（不動産登記令別表6項添付情報）。これは、地積の差が公差（許容される誤差）の範囲内であっても同じで、省略はできません。本肢は誤りです。
+土地の地積の更正の登記では、登記記録に更正後の地積を記録するため、地積および求積方法を明確にする意味で地積測量図を提供します（不動産登記令別表6項添付情報）。
+
+これは、地積の差が公差（許容される誤差）の範囲内であっても同じで、省略はできません。本肢は誤りです。
 
 **たとえば**、更正の前後で地積がほんの少ししか変わらず公差の範囲内におさまる場合でも、「差が小さいから図面はいらない」とはならず、地積測量図をきちんと添付する必要があります。
 
 ### ウ：求積計算の誤りは、「地積測量図の訂正の申出」では直せない
 
-表題登記時の地積測量図の求積計算が誤っていて、誤った地積で登記された場合、これは地積更正の登記を申請すべき場面です。地積更正の登記では更正後の地積測量図を新たに提供するため（令別表6項添付情報）、地積測量図の訂正の申出をすることはできません（不動産登記規則88条1項）。本肢は誤りです。
+表題登記時の地積測量図の求積計算が誤っていて、誤った地積で登記された場合、これは地積更正の登記を申請すべき場面です。
+
+地積更正の登記では更正後の地積測量図を新たに提供するため（令別表6項添付情報）、地積測量図の訂正の申出をすることはできません（不動産登記規則88条1項）。本肢は誤りです。
 
 **たとえば**、表題登記のときの図面の計算ミスで地積が違っていた場合、「図面だけこっそり訂正の申出で直す」ことはできず、正式に地積更正の登記を申請して、登記記録の地積を直すことになります。
 
 ### エ：地目を変更したら、1か月以内に変更登記を申請しなければならない
 
-土地の地目または地積に変更が生じたときは、所有権の登記名義人（表題部所有者）は、その変更があった日から1か月以内に、土地の表題部の変更の登記を申請しなければなりません（不動産登記法37条1項）。本肢の「雑種地→宅地」への用途変更もこれにあたり、正しい記述です。
+土地の地目または地積に変更が生じたときは、所有権の登記名義人（表題部所有者）は、その変更があった日から1か月以内に、土地の表題部の変更の登記を申請しなければなりません（不動産登記法37条1項）。
+
+本肢の「雑種地→宅地」への用途変更もこれにあたり、正しい記述です。
 
 **たとえば**、雑種地だった土地に建物を建てて宅地として使い始めた場合、所有者は用途が変わった日から1か月以内に、地目を「宅地」に直す変更の登記を申請しなければなりません。
 
@@ -46,11 +56,19 @@
 
 旧尺貫法（歩・坪）で地積が記録されている土地は、平方メートル単位に換算（1歩＝1坪＝3.305785㎡）して記録します。
 
-ここで注意したいのは、地積をどこまで細かく記録するか（端数の切り捨て単位）は、土地の面積だけでなく地目によっても変わるという点です。不動産登記規則100条によれば、宅地・鉱泉地は面積の大小を問わず1平方メートルの100分の1（小数第2位）まで記録しますが、それ以外の地目の土地は、10平方メートル以下なら同じく100分の1まで、10平方メートルを超えると1平方メートル（整数）までとなり、それ未満の端数は切り捨てられます。
+ここで注意したいのは、地積をどこまで細かく記録するか（端数の切り捨て単位）は、土地の面積だけでなく地目によっても変わるという点です。
 
-本肢は「地目を宅地に変更する登記を申請する場合」の話なので、宅地としての基準（面積の大小を問わず100分の1まで）が適用されます。30歩を換算すると99.17355㎡となり、小数第2位までの「99.17㎡」を地積とすることができるため、本肢は正しい記述です。
+不動産登記規則100条によれば、宅地・鉱泉地は面積の大小を問わず1平方メートルの100分の1（小数第2位）まで記録しますが、それ以外の地目の土地は、10平方メートル以下なら同じく100分の1まで、10平方メートルを超えると1平方メートル（整数）までとなり、それ未満の端数は切り捨てられます。
 
-**たとえば**、昔の登記で「30歩」と記録されていた土地の地目を宅地に変更する際、30×3.305785＝約99.17355㎡と換算し、宅地の基準である小数第2位まで（1平方メートルの100分の1まで）の「99.17㎡」を地積として記録することができます。一方、もしこれが宅地・鉱泉地以外の地目（たとえば雑種地）への変更で、換算後の面積が10平方メートルを超えていた場合には話が変わり、1平方メートル未満は切り捨てられて、地積は整数の「99㎡」までしか記録できません。
+本肢は「地目を宅地に変更する登記を申請する場合」の話なので、宅地としての基準（面積の大小を問わず100分の1まで）が適用されます。
+
+30歩を換算すると99.17355㎡となり、小数第2位までの「99.17㎡」を地積とすることができるため、本肢は正しい記述です。
+
+**たとえば**、昔の登記で「30歩」と記録されていた土地の地目を宅地に変更する際、30×3.305785＝約99.17355㎡と換算し、宅地の基準である小数第2位まで（1平方メートルの100分の1まで）の「99.17㎡」を地積として記録することができます。
+
+一方、もしこれが宅地・鉱泉地以外の地目（たとえば雑種地）への変更で、換算後の面積が10平方メートルを超えていた場合には話が変わり、1平方メートル未満は切り捨てられて、地積は整数の「99㎡」までしか記録できません。
+
+---
 
 ### まとめ
 
@@ -72,7 +90,7 @@
 - 出題年度・問題番号・正解番号（5番＝エ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝法38条、イ＝令別表6項添付情報、ウ＝規則88条1項、エ＝法37条1項、オ＝規則100条・昭54.1.8民三343号）は、データベースのexplanationフィールドおよびkaisetsu_plus.jsonに記載のものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- 公開後のダブルチェックで、肢オの解説が「地積の記録単位（100分の1まで）は面積によってルールが変わるはずでは」というご指摘を受け、不動産登記規則100条を確認しました。同条は「1平方メートルの100分の1（宅地及び鉱泉地以外の土地で10平方メートルを超えるものについては、1平方メートル）未満の端数は、切り捨てる」と定めており、100分の1まで記録できるのは①宅地・鉱泉地（面積を問わず）、②宅地・鉱泉地以外で10平方メートル以下の土地、の場合に限られ、③宅地・鉱泉地以外で10平方メートルを超える土地は整数（1平方メートル単位）までしか記録できません。本肢は「地目を宅地に変更する場合」の設問なので①にあたり、結論（100分の1まで記録できる＝正しい）は変わりませんが、この条件を明記していなかったため、解説に条文（規則100条）と地目・面積による場合分けを追記しました。
+- 公開後のダブルチェックで、オの解説が「地積の記録単位（100分の1まで）は面積によってルールが変わるはずでは」というご指摘を受け、不動産登記規則100条を確認しました。同条は「1平方メートルの100分の1（宅地及び鉱泉地以外の土地で10平方メートルを超えるものについては、1平方メートル）未満の端数は、切り捨てる」と定めており、100分の1まで記録できるのは①宅地・鉱泉地（面積を問わず）、②宅地・鉱泉地以外で10平方メートル以下の土地、の場合に限られ、③宅地・鉱泉地以外で10平方メートルを超える土地は整数（1平方メートル単位）までしか記録できません。本肢は「地目を宅地に変更する場合」の設問なので①にあたり、結論（100分の1まで記録できる＝正しい）は変わりませんが、この条件を明記していなかったため、解説に条文（規則100条）と地目・面積による場合分けを追記しました。
 
 ---
 
@@ -113,12 +131,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・積・登・記・図・宅・鉱・泉・誤 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -198,20 +234,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（更正登記の性質、地積測量図の要否、求積誤りの直し方、地目変更の申請義務、換算地積の記録単位の判定順序など）を肢ごとに示す作図ガイドを追加した。特に肢オは「地目→面積」の2段階の条件判定になっているため、実際の決定木（フローチャート）として描いている。
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（更正登記の性質、地積測量図の要否、求積誤りの直し方、地目変更の申請義務、換算地積の記録単位の判定順序など）を肢ごとに示す作図ガイドを追加した。特にオは「地目→面積」の2段階の条件判定になっているため、実際の決定木（フローチャート）として描いている。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -228,7 +264,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there - isometric land parcels, rolled survey-map
 (地積測量図) icons, calendar icons marking filing deadlines, application
 and registration documents, a registered-owner (登記名義人) character, and
-- for the branching 肢オ - diamond-shaped decision nodes for the 地目 and
+- for the branching オ - diamond-shaped decision nodes for the 地目 and
 面積 checks. Where a 肢 requires checking multiple conditions in sequence
 before reaching a conclusion, draw the panel's diagram as an actual
 decision flowchart: diamond-shaped branch nodes with the condition
@@ -251,7 +287,15 @@ or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
@@ -277,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -299,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請義務なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 公差内でも地積測量図は省略できない
@@ -318,7 +362,7 @@ attached to the application regardless of how small the gap is.
 Conclusion tag (green, 5-15 Japanese characters):
 省略できない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 求積計算の誤りは地積更正の登記で正す
@@ -337,7 +381,7 @@ red ✕ over it; the other arrow leading to a stamped document icon reading
 Conclusion tag (green, 5-15 Japanese characters):
 更正の登記で正す
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地目変更は1か月以内に申請義務がある
@@ -354,7 +398,7 @@ land plot.
 Conclusion tag (blue, 5-15 Japanese characters):
 1か月以内に申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 宅地なら面積を問わず100分の1まで記録
@@ -362,12 +406,12 @@ Diagram: Draw an actual decision flowchart starting from a start node
 labeled「換算した地積をどこまで記録できるか」. From it, draw a
 diamond-shaped branch node①labeled「①変更後の地目は宅地・鉱泉地か？」.
 Render the Yes-branch arrow and its destination conclusion node with a
-thick highlighted border and full color, since this is the path 肢オ
+thick highlighted border and full color, since this is the path オ
 actually follows: the Yes arrow leads to a conclusion node reading
 「面積の大小を問わず1平方メートルの100分の1まで記録」, with a small
 worked-example tag beside it reading「30歩→99.17355平方メートル→99.17
 平方メートル」. Render the No-branch arrow and everything past it in a
-faded, greyed-out, dotted-outline style, since this branch is not 肢オ's
+faded, greyed-out, dotted-outline style, since this branch is not オ's
 own case: the No arrow leads to a second diamond-shaped branch node②
 labeled「②面積は10平方メートル以下か？」, which itself splits into a Yes
 arrow leading to a faded conclusion node reading「100分の1まで記録」and a
@@ -389,14 +433,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 100条（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 記, 積, 誤, 変, 認, 図, 測, 請, 義, 務, 録, 訂, 鉱, 捨, 換, 動,
-産, 規, 項, 報, 囲, 種, 雑, 実, 読, 題, 設, 課, 場, 問, 範, and 計. If any
-character renders as a Simplified Chinese variant, redraw that character
+産, 規, 項, 報, 囲, 種, 雑, 実, 読, 題, 設, 課, 場, 問, 範, and 計. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly
-(肢ア／肢イ／肢ウ／肢エ／肢オ), badge numbers run 1-5 continuously, there
+(ア／イ／ウ／エ／オ), badge numbers run 1-5 continuously, there
 is no intro illustration or paragraph block between the header and the
-panels, that panel 5 (肢オ) is drawn as an actual flowchart with diamond
+panels, that panel 5 (オ) is drawn as an actual flowchart with diamond
 branch nodes and explicit conclusion nodes on every branch with no
 looping arrows back into the diagram, that panels 1-4 each remain a
 single-check illustrative diagram without being forced into an

@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第8問**
 
-> 表題部所有者に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　表題部所有者である株式会社Ａを株式会社Ｂが吸収合併した場合には、株式会社Ｂは、表題部所有者の名称についての変更の登記の申請をすることができる。
->
-> イ　表題部所有者である特例有限会社Ａが株式会社Ａに商号変更をした場合には、株式会社Ａは、表題部所有者の名称についての変更の登記の申請をすることができる。
->
-> ウ　表題部所有者として登記されているＡの住所についての更正の登記と、Ａの氏についての変更の登記とは、一の申請情報によって申請をすることができない。
->
-> エ　表題部所有者であるＡ及びＢの持分が誤って登記されている場合において、当該持分についての更正の登記の申請をするときは、Ａは、Ｂの承諾を証する情報を提供して、単独で当該申請をすることができる。
->
-> オ　表題部所有者の住所が登記記録上の住所から数回にわたって変更している場合には、表題部所有者は直ちに現在の住所に変更する旨の表題部所有者の住所についての変更の登記の申請をすることができる。
->
+> 表題部所有者に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　表題部所有者である株式会社Ａを株式会社Ｂが吸収合併した場合には、株式会社Ｂは、表題部所有者の名称についての変更の登記の申請をすることができる。  
+>　  
+> イ　表題部所有者である特例有限会社Ａが株式会社Ａに商号変更をした場合には、株式会社Ａは、表題部所有者の名称についての変更の登記の申請をすることができる。  
+>　  
+> ウ　表題部所有者として登記されているＡの住所についての更正の登記と、Ａの氏についての変更の登記とは、一の申請情報によって申請をすることができない。  
+>　  
+> エ　表題部所有者であるＡ及びＢの持分が誤って登記されている場合において、当該持分についての更正の登記の申請をするときは、Ａは、Ｂの承諾を証する情報を提供して、単独で当該申請をすることができる。  
+>　  
+> オ　表題部所有者の住所が登記記録上の住所から数回にわたって変更している場合には、表題部所有者は直ちに現在の住所に変更する旨の表題部所有者の住所についての変更の登記の申請をすることができる。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
 ---
@@ -22,21 +22,33 @@
 
 ### ア：吸収合併は「名称変更」ではなく「別の会社への承継」
 
-吸収合併では、消滅する会社（Ａ）の権利義務が、存続する会社（Ｂ）へと丸ごと引き継がれます（包括承継）。これはＡの名前がＢに変わったのではなく、Ａという法人格が消滅し、もともと別に存在していたＢがその地位を引き継いだ、という出来事です。したがって、単純な「名称の変更の登記」では対応できません。
+吸収合併では、消滅する会社（Ａ）の権利義務が、存続する会社（Ｂ）へと丸ごと引き継がれます（包括承継）。
 
-吸収合併存続会社は、消滅会社の一般承継人にあたります。不動産登記法74条1項1号後段は、所有権の保存の登記について、表題部所有者の相続人その他の一般承継人が自己名義で申請できることを認めており、「一般承継人が本来の名義人に代わって登記名義を得る」という考え方は、表題部所有者についても同様に当てはまります。吸収合併により消滅した会社（Ａ）に代わって存続会社（Ｂ）が正しい登記名義を得るための具体的な手続については条文上明確に定められているわけではありませんが、少なくとも、Ａの名前がＢに変わっただけとする単純な「名称の変更の登記」では対応できないという点は、包括承継の性質上明らかです。
+これはＡの名前がＢに変わったのではなく、Ａという法人格が消滅し、もともと別に存在していたＢがその地位を引き継いだ、という出来事です。したがって、単純な「名称の変更の登記」では対応できません。
 
-**たとえば**、甲社と乙社が合併して、甲社が消滅し乙社が存続したとします。これは「甲社の名前が乙社に変わった」のではなく、「甲社が消滅し、乙社という別の会社がその土地を引き継いだ」という扱いです。同じ会社が名前を変えただけの商号変更とは根本的に違う場面なので、単なる名称変更の登記の申請では済みません。
+吸収合併存続会社は、消滅会社の一般承継人にあたります。
+
+不動産登記法74条1項1号後段は、所有権の保存の登記について、表題部所有者の相続人その他の一般承継人が自己名義で申請できることを認めており、「一般承継人が本来の名義人に代わって登記名義を得る」という考え方は、表題部所有者についても同様に当てはまります。
+
+吸収合併により消滅した会社（Ａ）に代わって存続会社（Ｂ）が正しい登記名義を得るための具体的な手続については条文上明確に定められているわけではありませんが、少なくとも、Ａの名前がＢに変わっただけとする単純な「名称の変更の登記」では対応できないという点は、包括承継の性質上明らかです。
+
+**たとえば**、甲社と乙社が合併して、甲社が消滅し乙社が存続したとします。これは「甲社の名前が乙社に変わった」のではなく、「甲社が消滅し、乙社という別の会社がその土地を引き継いだ」という扱いです。
+
+同じ会社が名前を変えただけの商号変更とは根本的に違う場面なので、単なる名称変更の登記の申請では済みません。
 
 **ここが分かりにくいポイント**：
 
-「合併後もＢが同じ土地を使い続けるのだから、単に名義の表示を書き換えるだけの話では」と考えてしまいがちです。しかし、名称の変更の登記が使えるかどうかを決める基準は、「登記されている土地が同じかどうか」ではなく、「登記名義人としての法人格が同一のまま続いているかどうか」です。
+「合併後もＢが同じ土地を使い続けるのだから、単に名義の表示を書き換えるだけの話では」と考えてしまいがちです。
 
-吸収合併では、消滅する会社Ａ自身の法人格が消滅し、もともと別の法人格として存在していたＢがＡの権利義務を丸ごと引き継ぎます（包括承継）。つまり、登記簿の名義欄に表示される「主体」そのものが、Ａという法人格からＢという別の法人格へと切り替わるのです。これは、Ａという同じ人物が名前だけを変えた（改名）という話ではなく、Ａが退場してＢという別人が後を引き継いだ、という話に近いといえます。
+しかし、名称の変更の登記が使えるかどうかを決める基準は、「登記されている土地が同じかどうか」ではなく、「登記名義人としての法人格が同一のまま続いているかどうか」です。
+
+吸収合併では、消滅する会社Ａ自身の法人格が消滅し、もともと別の法人格として存在していたＢがＡの権利義務を丸ごと引き継ぎます（包括承継）。
+
+つまり、登記簿の名義欄に表示される「主体」そのものが、Ａという法人格からＢという別の法人格へと切り替わるのです。これは、Ａという同じ人物が名前だけを変えた（改名）という話ではなく、Ａが退場してＢという別人が後を引き継いだ、という話に近いといえます。
 
 このため、単純な「名称の変更の登記」（＝同じ登記名義人の呼び方が変わっただけ、という手続き）では対応できません。次のイで扱う特例有限会社から株式会社への商号変更のように、法人格そのものは同一のまま続いている場合とは、根本的に扱いが異なります。
 
-- **吸収合併（本肢ア）**：Ａの法人格が消滅し、別の法人格Ｂが引き継ぐ → 法人格の同一性なし → 名称変更の登記では対応不可
+- **吸収合併（本ア）**：Ａの法人格が消滅し、別の法人格Ｂが引き継ぐ → 法人格の同一性なし → 名称変更の登記では対応不可
 - **商号変更・組織変更（次のイ）**：同一の法人格のまま名称・組織形態だけが変わる → 法人格の同一性あり → 名称変更の登記で対応可
 
 「土地がどうなるか」ではなく「登記名義人という法人格が同一のまま続いているか」で判断する、というのがこの分野を得点源にするコツです。
@@ -45,38 +57,50 @@
 
 特例有限会社が株式会社に商号変更する場合は、会社法上の経過措置により、同一の法人格が存続したまま名称と組織形態だけが変わるものとされています。したがって、表題部所有者についても、通常の商号変更と同じく「名称の変更の登記」で対応できます。
 
-**たとえば**、昔からある有限会社が「株式会社」に生まれ変わる手続きをしても、それは会社が一度消滅して新しい会社ができたわけではなく、同じ会社が名前と形を変えただけです。したがって、不動産の表題部所有者欄も、普通の商号変更と同じように名称変更の登記で対応できます。
+**たとえば**、昔からある有限会社が「株式会社」に生まれ変わる手続きをしても、それは会社が一度消滅して新しい会社ができたわけではなく、同じ会社が名前と形を変えただけです。
+
+したがって、不動産の表題部所有者欄も、普通の商号変更と同じように名称変更の登記で対応できます。
 
 **ここが分かりにくいポイント**：
 
 アで「吸収合併は法人格が別のものに変わる」ことを確認したばかりだと、「特例有限会社が株式会社になるのも、会社の種類（有限会社→株式会社）が変わるのだから、同じように法人格が変わるのでは」と、逆方向に誤解してしまうことがあります。
 
-しかし、特例有限会社は、会社法制定時の経過措置により、実質的には「商号中に『有限会社』の文字を用いる株式会社」として位置づけられています。株式会社への移行は、新しい法人を設立して古い法人が消滅するのではなく、定款を変更して商号を「株式会社」に改めるだけの手続きであり、法人格そのものは移行の前後で同一のまま続きます。
+しかし、特例有限会社は、会社法制定時の経過措置により、実質的には「商号中に『有限会社』の文字を用いる株式会社」として位置づけられています。
+
+株式会社への移行は、新しい法人を設立して古い法人が消滅するのではなく、定款を変更して商号を「株式会社」に改めるだけの手続きであり、法人格そのものは移行の前後で同一のまま続きます。
 
 つまり、アの吸収合併とは異なり、法人格の同一性が保たれているため、通常の商号変更と同じように「名称の変更の登記」で対応できるのです。
 
 - **吸収合併（前のア）**：Ａの法人格が消滅し、別の法人格Ｂが引き継ぐ → 法人格の同一性なし → 名称変更の登記では対応不可
-- **特例有限会社から株式会社へ（本肢イ）**：同一の法人格のまま、名称と組織形態だけが変わる → 法人格の同一性あり → 名称変更の登記で対応可
+- **特例有限会社から株式会社へ（本イ）**：同一の法人格のまま、名称と組織形態だけが変わる → 法人格の同一性あり → 名称変更の登記で対応可
 
 「会社の呼び方・種類が変わったかどうか」ではなく、「登記名義人という法人格そのものが同一のまま続いているかどうか」で判断する、というのがこの分野を得点源にするコツです。
 
 ### ウ：住所の更正と氏の変更は、まとめて一つの申請でできる
 
-同一の不動産について申請する二以上の登記が、いずれも不動産の表題部の登記事項に関する変更の登記又は更正の登記であるときは、一の申請情報によって申請することができます（不動産登記規則35条6号）。この規定に「内容が関連するものであれば」といった限定はなく、同一の不動産についての表題部の変更・更正登記であれば足ります。
+同一の不動産について申請する二以上の登記が、いずれも不動産の表題部の登記事項に関する変更の登記又は更正の登記であるときは、一の申請情報によって申請することができます（不動産登記規則35条6号）。
+
+この規定に「内容が関連するものであれば」といった限定はなく、同一の不動産についての表題部の変更・更正登記であれば足ります。
 
 **たとえば**、Ａさんが結婚して姓が変わったのと同時に、以前の登記で住所の記載を間違えていたことにも気づいた場合、この2つを直す作業を、わざわざ別々の書類で2回申請する必要はありません。1通の申請書にまとめて申請することができます。
 
 ### エ：持分の誤りは、相手の承諾があれば単独で直せる
 
-共有の表題部所有者の持分が誤って登記されている場合、他の表題部所有者の承諾を証する情報を提供すれば、単独でその更正の登記を申請することができます（不動産登記法33条3項・4項）。同条3項は、表題部所有者である共有者の持分についての更正の登記は当該共有者以外の者が申請することができないとし、同条4項は、他の共有者の承諾があるときでなければ申請することができないと定めています。
+共有の表題部所有者の持分が誤って登記されている場合、他の表題部所有者の承諾を証する情報を提供すれば、単独でその更正の登記を申請することができます（不動産登記法33条3項・4項）。
+
+同条3項は、表題部所有者である共有者の持分についての更正の登記は当該共有者以外の者が申請することができないとし、同条4項は、他の共有者の承諾があるときでなければ申請することができないと定めています。
 
 **たとえば**、ＡさんとＢさんが共有している土地で、本当は半分ずつのはずが登記上6対4になっていた場合、Ｂさんが「正しくは半分ずつです」と認める書面さえ用意できれば、Ａさん一人だけでも訂正の申請をすることができます。
 
 **ここが分かりにくいポイント**：
 
-「共有者の持分に関わる訂正なのだから、共有者全員で一緒に申請しなければならないはず」と考えてしまいがちです。しかし、この場面で必要なのは「全員が申請人になること」ではなく、「申請するのは共有者のうちの一人でよいが、その申請には他の共有者の承諾（同意）を証する書面が必要」という仕組みです。
+「共有者の持分に関わる訂正なのだから、共有者全員で一緒に申請しなければならないはず」と考えてしまいがちです。
 
-不動産登記法33条3項は「不動産の表題部所有者である共有者の持分についての更正の登記は、当該共有者以外の者は、申請することができない」と定めていますが、これは「共有者でない人は申請できない」という申請人の資格を絞る規定にすぎず、「共有者全員で申請しなければならない」とまでは述べていません。同条4項が、その申請をする共有者に対して、更正によって持分が変わる他の共有者の承諾がなければ申請できない、という条件を追加しています。
+しかし、この場面で必要なのは「全員が申請人になること」ではなく、「申請するのは共有者のうちの一人でよいが、その申請には他の共有者の承諾（同意）を証する書面が必要」という仕組みです。
+
+不動産登記法33条3項は「不動産の表題部所有者である共有者の持分についての更正の登記は、当該共有者以外の者は、申請することができない」と定めていますが、これは「共有者でない人は申請できない」という申請人の資格を絞る規定にすぎず、「共有者全員で申請しなければならない」とまでは述べていません。
+
+同条4項が、その申請をする共有者に対して、更正によって持分が変わる他の共有者の承諾がなければ申請できない、という条件を追加しています。
 
 つまり、「誰が申請書に名前を連ねるか（申請人）」と「誰の同意を取り付ける必要があるか（承諾）」は別の話です。後者は書面（承諾を証する情報）を添付すれば足り、共有者全員が申請人として登記所に出向く必要はありません。
 
@@ -90,6 +114,8 @@
 表題部所有者の住所が登記記録上の住所から複数回変わっている場合でも、そのすべての履歴を経由することなく、直ちに現在の住所へと変更する登記を申請することができます。
 
 **たとえば**、登記簿上の住所が10年前のままで、その後2回引っ越しをしていたとしても、いちいち「引っ越し1回目」「引っ越し2回目」と段階的に登記を直す必要はありません。最初の登記から今の住所へ一気に変更する登記を1回申請するだけで済みます。
+
+---
 
 ### まとめ
 
@@ -150,13 +176,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・登・記・所・変・単・独・請・持・分・承・諾 — these must be
+kanji 登・記・所・変・単・独・請・持・分・承・諾 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -235,15 +279,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -275,11 +319,29 @@ below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 法・人・格・合・併・消・滅・承・継・商・号・変・更・同・相・続・誤 — always draw the
 standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -336,15 +398,15 @@ background, full width) ---
 根拠条文：不動産登記法74条1項1号後段（アの考え方の参照条文）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-法・人・格・合・併・消・滅・承・継・商・号・変・更・相・続・誤. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+法・人・格・合・併・消・滅・承・継・商・号・変・更・相・続・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm there are exactly two side-by-side panels
 (red ア on the left, green イ on the right) beneath a single shared
 criterion box at the top, confirm the quoted article text box matches the
 Japanese text given above verbatim character-for-character, and confirm
 the callout box text matches verbatim with no paraphrasing and no
-substituted characters.
+substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -375,11 +437,29 @@ below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-共・有・者・持・分・更・正・申・請・承・諾・単・独・誤 — always draw the
+共・有・者・持・分・更・正・申・請・承・諾・誤 — always draw the
 standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -431,20 +511,20 @@ width) ---
 根拠条文：不動産登記法33条3項・4項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-共・有・者・持・分・更・正・申・請・承・諾・単・独・誤. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+共・有・者・持・分・更・正・申・請・承・諾・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm there are exactly two side-by-side panels
 (red naive-reasoning panel on the left, green correct-reasoning panel on
 the right), confirm the quoted article text box below the panels matches
 the Japanese text given above verbatim character-for-character (both the
 33条3項 and 33条4項 quotes), and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters.
+verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「法人格が同一のまま続いているか」「誰が申請人で誰の承諾が必要か」を見抜けるようにする5パネル構成。ア・イは「法人格の同一性があるか」という同じ対比枠を共有し、強調する側だけを切り替える。②の色分け（法人格の変動＝緑、手続きルール＝青）を引き継いでいる。
 
@@ -469,12 +549,12 @@ actual decision flowchart: diamond-shaped branch nodes with the
 condition written on them, Yes/No（はい／いいえ）branch arrows, and a
 final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 1 and 2（肢ア・肢イ）share the same side-by-side comparison frame
+Panels 1 and 2（ア・イ）share the same side-by-side comparison frame
 （LEFT: 法人格が別のものに変わる（吸収合併）、RIGHT: 同一の法人格のまま
 （特例有限会社→株式会社）), because this pair is the article's core
 contrast; draw both panels with the same two-box layout, but highlight
 （太い縁取り・フルカラーで強調）the box relevant to that panel's 肢 and
-render the other box in a faded, greyed-out style. Panel 4（肢エ）must be
+render the other box in a faded, greyed-out style. Panel 4（エ）must be
 drawn as a two-step flowchart, because「誰が申請人か」と「誰の承諾が
 必要か」は別々に確認すべき2つの条件である; give both diamond nodes their
 own clearly labeled branch. Unlike a glanceable summary poster, each
@@ -487,7 +567,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -513,7 +601,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 吸収合併は法人格が別物に変わる
@@ -534,7 +622,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 法人格の同一性なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 株式会社への移行は同一法人の名称変更
@@ -556,7 +644,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 同一法人のまま
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 住所更正と氏の変更はまとめて1回で申請可
@@ -571,13 +659,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 まとめて1回で申請可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 承諾があれば持分の誤りは単独で直せる
-Diagram: A two-step decision flowchart. Start node: 申請人は共有者の
-うちの1人（Ａ）でよいか？with a はい arrow down to a diamond node
-（highlighted with a thick border): 持分が変わる他の共有者（Ｂ）の承諾を
+Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond): 共有者のうちの1人
+（Ａ）が更正の登記を申請する, with an arrow down to the only diamond node
+(highlighted with a thick border): 持分が変わる他の共有者（Ｂ）の承諾を
 証する情報があるか？with a green はい branch leading to a conclusion
 node reading Ａが単独で更正の登記を申請できる, and a faded いいえ branch
 leading to a separate conclusion node reading Ａは単独で申請できない.
@@ -589,7 +677,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾があれば単独可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 中間の住所変更を省略して一気に直せる
@@ -610,10 +698,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法33条3項・4項、不動産登記規則35条6号に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 併, 承, 継, 更, 正, 誤, 持, 分, 諾, 単, 独, 住, 所, 変
-and any character that has a visually similar Simplified Chinese variant.
-If any character renders as a Simplified Chinese variant, redraw that
+and any character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

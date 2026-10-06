@@ -2,18 +2,18 @@
 
 **出題年度：平成30年度　午後の部　第20問**
 
-> 土地家屋調査士名簿の登録及び土地家屋調査士会への入会に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　土地家屋調査士が引き続き2年以上業務を行わないときは，日本土地家屋調査士会連合会は，当該土地家屋調査士について土地家屋調査士名簿の登録を取り消さなければならない。
->
-> イ　土地家屋調査士法人は，その成立の日から2週間以内に，その主たる事務所の所在地を管轄する法務局又は地方法務局の管轄区域内に設立された土地家屋調査士会及び日本土地家屋調査士会連合会に成立した旨を届け出なければ，当該土地家屋調査士会の会員となることができない。
->
-> ウ　土地家屋調査士名簿の登録を申請した者は，その申請の日から3月を経過しても日本土地家屋調査士会連合会が当該申請に対して何らの処分をしないときは，当該登録を拒否されたものとして，法務大臣に対して審査請求をすることができる。
->
-> エ　土地家屋調査士が禁錮以上の刑に処せられた場合において，その刑の全部の執行が猶予されているときは，日本土地家屋調査士会連合会は，当該土地家屋調査士について土地家屋調査士名簿の登録を取り消すことができない。
->
-> オ　土地家屋調査士は，所属する土地家屋調査士会を変更する場合を除き，土地家屋調査士名簿に登録を受けた事項に変更が生じたときは，遅滞なく，所属する土地家屋調査士会を経由して，日本土地家屋調査士会連合会にその旨を届け出なければならない。
->
+> 土地家屋調査士名簿の登録及び土地家屋調査士会への入会に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　土地家屋調査士が引き続き2年以上業務を行わないときは，日本土地家屋調査士会連合会は，当該土地家屋調査士について土地家屋調査士名簿の登録を取り消さなければならない。  
+>　  
+> イ　土地家屋調査士法人は，その成立の日から2週間以内に，その主たる事務所の所在地を管轄する法務局又は地方法務局の管轄区域内に設立された土地家屋調査士会及び日本土地家屋調査士会連合会に成立した旨を届け出なければ，当該土地家屋調査士会の会員となることができない。  
+>　  
+> ウ　土地家屋調査士名簿の登録を申請した者は，その申請の日から3月を経過しても日本土地家屋調査士会連合会が当該申請に対して何らの処分をしないときは，当該登録を拒否されたものとして，法務大臣に対して審査請求をすることができる。  
+>　  
+> エ　土地家屋調査士が禁錮以上の刑に処せられた場合において，その刑の全部の執行が猶予されているときは，日本土地家屋調査士会連合会は，当該土地家屋調査士について土地家屋調査士名簿の登録を取り消すことができない。  
+>　  
+> オ　土地家屋調査士は，所属する土地家屋調査士会を変更する場合を除き，土地家屋調査士名簿に登録を受けた事項に変更が生じたときは，遅滞なく，所属する土地家屋調査士会を経由して，日本土地家屋調査士会連合会にその旨を届け出なければならない。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
 ---
@@ -22,7 +22,9 @@
 
 ### ア：2年以上業務を行わないときの登録取消しは、義務ではなく裁量
 
-土地家屋調査士法16条1項1号により、調査士が引き続き2年以上業務を行わないときは、いわゆる裁量的取消しに該当します。したがって、調査士会連合会はその登録を「取り消すことができる」のであって、本肢のように「取り消さなければならない」という義務を負うわけではありません。
+土地家屋調査士法16条1項1号により、調査士が引き続き2年以上業務を行わないときは、いわゆる裁量的取消しに該当します。
+
+したがって、調査士会連合会はその登録を「取り消すことができる」のであって、本肢のように「取り消さなければならない」という義務を負うわけではありません。
 
 **たとえば**、開業したものの実務にほとんど携わらず2年以上が過ぎた調査士がいても、連合会が自動的・強制的に登録を抹消するわけではなく、事情に応じて取り消すかどうかを判断する余地が残されています。
 
@@ -40,7 +42,13 @@
 
 ### エ：執行猶予中も欠格事由に当たり、登録を取り消すことができる
 
-問題文は平成30年当時の「禁錮以上の刑」という区分を前提にしていますが、令和4年の刑法改正により懲役と禁錮は「拘禁刑」に一本化され（令和7年6月1日施行・施行済み）、土地家屋調査士法5条1項の欠格事由も現在は「拘禁刑に処せられ…」という規定に改められています。刑法10条1項本文により、拘禁刑以上の刑とは死刑・拘禁刑の刑をいい、これらに執行猶予が付された場合も欠格事由に該当します。したがって、執行猶予中であっても登録を取り消すことができ、本肢の「取り消すことができない」は誤りである、という結論自体は変わりません。なお、執行猶予期間が満了すると刑の言渡しの効力が消滅するため、期間満了の翌日から欠格事由に該当しなくなります（先例による）。
+問題文は平成30年当時の「禁錮以上の刑」という区分を前提にしていますが、令和4年の刑法改正により懲役と禁錮は「拘禁刑」に一本化され（令和7年6月1日施行・施行済み）、土地家屋調査士法5条1項の欠格事由も現在は「拘禁刑に処せられ…」という規定に改められています。
+
+刑法10条1項本文により、拘禁刑以上の刑とは死刑・拘禁刑の刑をいい、これらに執行猶予が付された場合も欠格事由に該当します。
+
+したがって、執行猶予中であっても登録を取り消すことができ、本肢の「取り消すことができない」は誤りである、という結論自体は変わりません。
+
+なお、執行猶予期間が満了すると刑の言渡しの効力が消滅するため、期間満了の翌日から欠格事由に該当しなくなります（先例による）。
 
 **たとえば**、調査士が拘禁刑に処せられ、その執行が猶予されている状態であっても、まだ欠格事由が残っているため、連合会はその登録を取り消すことができます。執行猶予が付いているからといって取消しが封じられるわけではありません。
 
@@ -49,6 +57,8 @@
 土地家屋調査士法14条により、調査士は、調査士名簿に登録を受けた事項に変更が生じたときは、遅滞なく、所属する調査士会を経由して、調査士会連合会にその旨を届け出なければなりません。届出先は連合会ですが、経由するのは所属の調査士会です。
 
 **たとえば**、事務所の住所や氏名など、名簿に登録されている事項が変わった場合、調査士は速やかに、自分が所属している地元の調査士会を通して、連合会にその変更を届け出る必要があります。
+
+---
 
 ### まとめ
 
@@ -70,7 +80,7 @@
 - 出題年度・問題番号・正解番号（5番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠のうち、ア（法16条1項1号）、イ（法53条1項）、ウ（法12条2項）、エ（刑法10条1項本文・昭26.10.13民甲1999号）、オ（法14条）は、いずれも元データ解説に条文番号・先例番号まで明記されているものをそのまま参照しました。一般原則からの推論にとどまる肢はありません。
 - 本記事の条文根拠は、ローカルのアガルート教材（過去問テキスト）の解説を一次情報源として参照しています（元データの解説はアガルート過去問テキストのOCRに基づきます）。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（土地家屋調査士名簿の登録及び入会）と同一・類似の論点がないか確認しました。**重複が見つかりました（現時点で公開済みの記事との競合はありません）。** 令和5年度第20問（未公開）の肢イ「土地家屋調査士が引き続き2年以上業務を行わないとき、連合会は登録を取り消さなければならない」（誤り）は、本問の肢ア（同じ「取り消さなければならない」という誤った記述）と全く同一のルール（法16条1項1号＝裁量的取消し）を扱っています。令和5年度分の記事を今後作成する際は、この重複に留意し、具体例を差別化してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（土地家屋調査士名簿の登録及び入会）と同一・類似の論点がないか確認しました。**重複が見つかりました（現時点で公開済みの記事との競合はありません）。** 令和5年度第20問（未公開）のイ「土地家屋調査士が引き続き2年以上業務を行わないとき、連合会は登録を取り消さなければならない」（誤り）は、本問のア（同じ「取り消さなければならない」という誤った記述）と全く同一のルール（法16条1項1号＝裁量的取消し）を扱っています。令和5年度分の記事を今後作成する際は、この重複に留意し、具体例を差別化してください。
 - **現行法令チェック（2026-08-03実施）**：本記事が引用する条文（法16条1項1号、法53条1項、法12条2項、法14条、刑法10条1項本文、昭26.10.13民甲1999号）を現行法令に照らして確認しました。ア・イ・ウ・オの条番号・内容は現行法と一致し、修正の必要はありませんでした。**エについては、令和4年の刑法改正（懲役と禁錮を「拘禁刑」に一本化、令和7年6月1日施行・施行済み）により、土地家屋調査士法5条1項の欠格事由の文言も「禁錮に処せられ…」から「拘禁刑に処せられ…」に改められていることが判明したため、本文・まとめ・インフォグラフィックの該当箇所を「禁錮以上の刑」→「拘禁刑以上の刑」に修正しました。問題文（過去問の引用）はそのまま残していますが、これは平成30年当時の刑法上の用語であり、現在は「拘禁刑」に統合されている点にご留意ください。なお、本問の正解（ウ・オ）自体はこの改正の影響を受けません。昭26.10.13民甲1999号（執行猶予期間満了による欠格事由消滅の先例）については、現在も同旨の実務が維持されているとみられますが、先例そのものが現在も廃止されずに有効かどうかまでは一次資料で確実に確認できなかったため、この点は留保します。
 - **条文再検証（2026-08-18実施）**：`note-articles/laws/chousashi-hou.md`を直接Read/Grepし、土地家屋調査士法5条1項1号の現行文言を再確認しました。「一　拘禁刑以上の刑に処せられ、その執行を終わり、又は執行を受けることがなくなつてから三年を経過しない者」と規定されており、本文が使用する「拘禁刑」の語は現行条文と一致しています。あわせて法16条1項1号（裁量的取消し）、法53条1項（調査士法人は成立の時に会員となる）、法12条2項（3月経過による審査請求）、法14条（変更の届出）も同ファイルで再確認し、いずれも本文の記載と一致することを確認しました。本文・確認事項ブロックに残っていた半角括弧2箇所を全角括弧（）に修正しました。判例番号・先例番号（昭26.10.13民甲1999号）は確認事項ブロックにのみ記載されており本文には記載されていないこと、Markdown表が残っていないことも確認しました。
 
@@ -113,12 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 登・録・地・猶・予・審・査・欠・格・請 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -194,19 +222,19 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 土地家屋調査士名簿の登録・入会手続について、ア〜オの各肢を、問題文を読んだ瞬間にどの図を描き、どの順番で条件を確認すればよいかという「作図ガイド」の5パネルで示す構成（義務か裁量かという思い込みやすい肢は正誤対比で、多段階の手続要件は決定木で可視化する）。
 
@@ -291,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -311,7 +339,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 義務ではなく裁量
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -334,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 成立時に当然会員
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -357,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 拒否とみなし審査請求可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -379,7 +407,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 猶予中も取消し可能
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

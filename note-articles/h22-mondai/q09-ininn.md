@@ -2,37 +2,45 @@
 
 **出題年度：平成22年度　午後の部　第9問**
 
-> 登記申請手続の委任に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　土地の分筆の登記の申請の委任をした者がその申請の前に死亡した場合には、代理人は、当該土地の分筆の登記を申請することができない。
->
-> イ　法人から委任を受けて登記の申請を行う場合には、委任を受けた後に法人の代表者が替わったときであっても、代理人は、当該登記の申請をすることができる。
->
-> ウ　市町村から登記の嘱託の委任を受けた代理人が当該登記の申請をする場合には、申請情報に添付すべき市町村長が職務上作成した委任状は、作成後3か月以内のものであることを要しない。
->
-> エ　土地の合筆の登記の申請の委任を受けた代理人が、当該申請を補正のために取り下げるには、委任者から特別の委任を受けなければならない。
->
-> オ　土地の合筆の登記の申請の委任を受けた代理人が死亡した場合には、その一般承継人は、当該代理権を行使して当該登記の申請をすることができる。
->
+> 登記申請手続の委任に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　土地の分筆の登記の申請の委任をした者がその申請の前に死亡した場合には、代理人は、当該土地の分筆の登記を申請することができない。  
+>　  
+> イ　法人から委任を受けて登記の申請を行う場合には、委任を受けた後に法人の代表者が替わったときであっても、代理人は、当該登記の申請をすることができる。  
+>　  
+> ウ　市町村から登記の嘱託の委任を受けた代理人が当該登記の申請をする場合には、申請情報に添付すべき市町村長が職務上作成した委任状は、作成後3か月以内のものであることを要しない。  
+>　  
+> エ　土地の合筆の登記の申請の委任を受けた代理人が、当該申請を補正のために取り下げるには、委任者から特別の委任を受けなければならない。  
+>　  
+> オ　土地の合筆の登記の申請の委任を受けた代理人が死亡した場合には、その一般承継人は、当該代理権を行使して当該登記の申請をすることができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+
+---
 
 登記申請の委任（代理）には、民法の代理のルールとは違う「特則」があります。ふつうなら本人が亡くなれば代理権は消えますが、登記申請の委任ではそうならない――この点を軸に、代理権が消える場面・消えない場面を整理しましょう。
 
 ### ア：委任者が申請前に死亡しても、代理人は分筆の登記を申請できる
 
-登記の申請の委任による代理人の権限は、本人（委任者）の死亡によっては消滅しません（不動産登記法17条1号）。民法の原則（本人の死亡で代理権が消滅する）とは異なる特則です。したがって、委任者が分筆の登記の申請前に亡くなっても、代理人は分筆の登記を申請できます。「申請することができない」とする点は誤りです。
+登記の申請の委任による代理人の権限は、本人（委任者）の死亡によっては消滅しません（不動産登記法17条1号）。民法の原則（本人の死亡で代理権が消滅する）とは異なる特則です。
+
+したがって、委任者が分筆の登記の申請前に亡くなっても、代理人は分筆の登記を申請できます。「申請することができない」とする点は誤りです。
 
 **たとえば**、土地の分筆を土地家屋調査士に依頼した人が、手続の途中で亡くなってしまっても、その調査士は委任に基づいて分筆の登記をそのまま申請することができます。
 
 ### イ：法人の代表者が替わっても、代理人は登記を申請できる
 
-登記申請の委任における本人（委任者）は、法人そのものであって、その代表者個人ではありません。したがって、委任を受けた後に法人の代表者が交代しても、本人である法人自体には何の変更もなく、これはそもそも代理権の消滅事由に当たりません。委任を受けた代理人は、当該登記の申請をすることができます。この記述は正しいものです。
+登記申請の委任における本人（委任者）は、法人そのものであって、その代表者個人ではありません。
+
+したがって、委任を受けた後に法人の代表者が交代しても、本人である法人自体には何の変更もなく、これはそもそも代理権の消滅事由に当たりません。委任を受けた代理人は、当該登記の申請をすることができます。この記述は正しいものです。
 
 **たとえば**、ある会社から登記を頼まれた代理人は、その後に社長が交代しても、あらためて委任状をもらい直さなくても、そのまま登記を申請できます。
 
 ### ウ：市町村長が職務上作成した委任状には、「3か月以内」の制限がない
 
-代理権限を証する情報（委任状）は、原則として作成後3か月以内のものでなければなりません。しかし、市町村長など官公署が職務上作成した委任状については、この3か月以内という制限を受けません。したがって、この記述は正しいものです。
+市町村長などの公務員が職務上作成した代理権限を証する書面は、原則として作成後3か月以内のものでなければなりません（不動産登記令17条1項）。しかし、官庁又は公署が登記の嘱託をする場合には、この制限は適用されません（同条2項）。
+
+市町村から嘱託の委任を受けた代理人が提出する市町村長作成の委任状は、この嘱託の場面のものなので、3か月以内という制限を受けません。したがって、この記述は正しいものです。
 
 **たとえば**、市が登記の嘱託を代理人に委任するときの、市長名で作られた委任状は、作られてから3か月を過ぎていても使うことができます。役所が職務として作った書面は、期限で切り捨てられないのです。
 
@@ -44,9 +52,13 @@
 
 ### オ：代理人が死亡すると、その相続人は代理権を行使できない
 
-代理人の死亡は、代理権の消滅事由です（民法111条1項2号）。代理権は、その代理人個人に与えられたものであり、相続によって一般承継人（相続人）に引き継がれるものではありません。したがって、代理人が死亡した場合、その一般承継人が代理権を行使して登記を申請することはできません。「申請することができる」とする点は誤りです。
+代理人の死亡は、代理権の消滅事由です（民法111条1項2号）。代理権は、その代理人個人に与えられたものであり、相続によって一般承継人（相続人）に引き継がれるものではありません。
+
+したがって、代理人が死亡した場合、その一般承継人が代理権を行使して登記を申請することはできません。「申請することができる」とする点は誤りです。
 
 **たとえば**、合筆の登記を頼まれた代理人が亡くなっても、その相続人が「親の代わりに」その登記を申請することはできません。改めて依頼人が別の人に委任し直す必要があります。
+
+---
 
 ### まとめ
 
@@ -69,7 +81,7 @@
 - 各肢の判定（正しいのはイ・ウ）は、公式の正解の組合せ「イウ」から確定できるものです。
 - 各肢の根拠は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-rei.md`・`minpou-1-soukyoku-bukken.md`で条文原文を確認済みです。ア（登記申請の委任は本人の死亡によって消滅しない）は不動産登記法17条1号、オ（代理人の死亡による代理権の消滅）は民法111条1項2号から確認できます。イ（法人の代表者が交代しても代理権は消滅しない）は、本人＝法人自体であって代表者の交代は本人の変更に当たらないという理解に基づくもので、不動産登記法17条各号（本人の死亡・法人の合併による消滅・受託者の任務終了・法定代理人の死亡等）に直接列挙された事由ではありません。ウ（官公署が職務上作成した委任状の3か月制限の除外）は不動産登記令17条（1項が公務員作成書面の3か月制限、2項が官庁又は公署による嘱託の場合の適用除外）から確認できます。エ（補正のための取下げに特別の委任が不要であること）は、実務上の一般的な理解にとどまり、条文の個別確認はできていません。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（登記申請手続の委任）と同一の問題が再出題されていないかを確認しました。令和7年度第6問（嘱託登記）は問題文＋肢全体の類似度0.35程度ですが、その肢イ「市町村長が職務上作成した委任状は作成後3か月以内であることを要しない」は、本問の肢ウとほぼ同一の文言（類似度0.86）で出題されています。ただし令和7年度第6問は「嘱託登記」全体をテーマとする別問題で、他の4肢の組合せ・正解も異なるため、**問題全体としての重複ではありません**。官公署作成の委任状に関する期限の特例（不動産登記令7条1項5号ロかっこ書き）が、形を変えて繰り返し出題されている一例です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（登記申請手続の委任）と同一の問題が再出題されていないかを確認しました。令和7年度第6問（嘱託登記）は問題文＋肢全体の類似度0.35程度ですが、そのイ「市町村長が職務上作成した委任状は作成後3か月以内であることを要しない」は、本問のウとほぼ同一の文言（類似度0.86）で出題されています。ただし令和7年度第6問は「嘱託登記」全体をテーマとする別問題で、他の4肢の組合せ・正解も異なるため、**問題全体としての重複ではありません**。官公署作成の委任状に関する期限の特例（不動産登記令7条1項5号ロかっこ書き）が、形を変えて繰り返し出題されている一例です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -108,10 +120,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -200,25 +230,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・オは、「代理権に影響する出来事は委任者（本人）側で起きたか、代理人側で起きたか」を出発点とし、委任者側の事情はさらに不動産登記法17条の消滅事由（または本人自体の変更）に当てはまるかを確認する同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウは委任状の作成者に着目した対比枠型、肢エは取下げの目的を確認する単一チェック型とする。
+ア・イ・オは、「代理権に影響する出来事は委任者（本人）側で起きたか、代理人側で起きたか」を出発点とし、委任者側の事情はさらに不動産登記法17条の消滅事由（または本人自体の変更）に当てはまるかを確認する同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。ウは委任状の作成者に着目した対比枠型、エは取下げの目的を確認する単一チェック型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -295,20 +323,18 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 委任者が死亡しても代理権は消滅しない
 Diagram: A first diamond node labeled「代理権に影響する出来事は、委任者
 （本人）側で起きたか、代理人側で起きたか」with a thick highlighted「委任者側」
-branch and a faded, greyed-out「代理人側」branch (labeled in small text
-「肢オへ」). From the highlighted「委任者側」branch, a second diamond node
+branch and a faded, greyed-out「代理人側」branch leading to a faded conclusion node「代理人の死亡なら代理権は消滅する」. From the highlighted「委任者側」branch, a second diamond node
 labeled「不動産登記法17条1号の除外事由（本人の死亡）に当てはまるか、または
 本人自体に変更のない事情か」with two branch stubs: 「本人の死亡」rendered
 thick and highlighted (an elderly 委任者 character fading into a tombstone
-icon) and「法人代表者の交代」rendered faded, greyed-out (labeled in small
-text「肢イへ」). From the highlighted「本人の死亡」branch, an arrow leads to
+icon) and「法人代表者の交代」rendered faded, greyed-out. From the highlighted「本人の死亡」branch, an arrow leads to
 a highlighted final conclusion node「代理権は消滅しない」, next to which a
 代理人 character keeps holding the 委任状 document unaffected and stamps a
 分筆登記 application with a checkmark.
@@ -321,7 +347,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 死亡でも消滅しない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -345,28 +371,28 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 代表者交代でも有効
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 官公署作成の委任状に3か月の期限はない
 Diagram: A contrast panel split into two side-by-side frames. Left frame
-labeled「私人が作成した委任状（原則）」contains a 委任状 document icon
-signed by an ordinary character, with a calendar icon showing an intact
-3か月 countdown ring, rendered in a faded, greyed-out style. Right frame
-labeled「市町村長が嘱託に際し職務上作成した委任状（例外）」contains a
-市町村長 character stamping an official 委任状 document with a government
-seal, and a calendar icon with the 3か月 countdown ring crossed out,
+labeled「公務員が職務上作成した代理権限の証明書（原則）」contains an official
+document icon with a government seal, with a calendar icon showing an
+intact 3か月 countdown ring, rendered in a faded, greyed-out style. Right
+frame labeled「官庁・公署が登記を嘱託する場合（例外）」contains a 市町村長
+character stamping an official 委任状 document with a government seal for
+a 嘱託, and a calendar icon with the 3か月 countdown ring crossed out,
 label「期限なし」. A thick highlighted border surrounds the right frame.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この委任状を作成したのが私人か、市町村長など官公署かを確認します。
-次に、市町村長が嘱託に際し職務上作成したものであれば、作成後3か月以内で
-あることを要しないと判定します。
+まず、この委任状が市町村長など公務員が職務上作成したもの（原則として作成
+後3か月以内）かを確認します。次に、官庁又は公署が登記を嘱託する場合であれ
+ば、この3か月の制限は適用されないと判定します。
 Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 官公署作成は期限なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -385,15 +411,14 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 特別の委任は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 代理人が死亡すると相続人は代理権を行使できない
 Diagram: The same first diamond node as Panel 1（「代理権に影響する出来事は、
 委任者（本人）側で起きたか、代理人側で起きたか」）, this time with a thick
-highlighted「代理人側」branch and a faded「委任者側」branch (labeled in
-small text「肢ア・イへ」). From the highlighted「代理人側」branch, a second
+highlighted「代理人側」branch and a faded「委任者側」branch leading to a faded conclusion node「本人の死亡なら代理権は消滅しない」. From the highlighted「代理人側」branch, a second
 diamond node labeled「民法111条1項2号の消滅事由（代理人の死亡）に当てはまる
 か」with a thick highlighted「はい」arrow leading to a highlighted final
 conclusion node「代理権は消滅する」. Beside it, a代理人 character fades into
@@ -411,7 +436,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法17条1号（ア）、不動産登記令17条（ウ）、民法111条1項2号
-（オ）。判例・先例番号は省略。
+（オ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

@@ -2,19 +2,21 @@
 
 **出題年度：平成20年度　午後の部　第10問**
 
-> 電子申請に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　電子申請により、土地家屋調査士が代理人として表示に関する登記を申請するときは、その土地家屋調査士が申請情報に電子署名をしなければならない。
->
-> イ　電子申請により表題登記を申請する場合において、申請人が電子証明書を提供したときは、住所を証する情報の提供を要しない。
->
-> ウ　登記識別情報が書面で通知されている場合において、電子申請による合筆の登記を申請するときは、所有権の登記名義人がその書面をスキャナで電磁的記録に変換し、電子署名をして添付することができる。
->
-> エ　所有権を証する情報が書面に記載されているときは、申請の代理人がその書面をスキャナで電磁的記録に変換した上で、電子署名をして添付することができる。
->
-> オ　地積測量図が書面で作成されているときは、当該書面をスキャナで電磁的記録に記録し、その図面の作成者が電子署名をして、添付情報として提供しなければならない。
->
+> 電子申請に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　電子申請により、土地家屋調査士が代理人として表示に関する登記を申請するときは、その土地家屋調査士が申請情報に電子署名をしなければならない。  
+>　  
+> イ　電子申請により表題登記を申請する場合において、申請人が電子証明書を提供したときは、住所を証する情報の提供を要しない。  
+>　  
+> ウ　登記識別情報が書面で通知されている場合において、電子申請による合筆の登記を申請するときは、所有権の登記名義人がその書面をスキャナで電磁的記録に変換し、電子署名をして添付することができる。  
+>　  
+> エ　所有権を証する情報が書面に記載されているときは、申請の代理人がその書面をスキャナで電磁的記録に変換した上で、電子署名をして添付することができる。  
+>　  
+> オ　地積測量図が書面で作成されているときは、当該書面をスキャナで電磁的記録に記録し、その図面の作成者が電子署名をして、添付情報として提供しなければならない。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+
+---
 
 オンラインでの登記申請（電子申請）では、「だれが電子署名するか」「書面をスキャンして添付できるか」「そもそも電子で作らなければならないか」がよく問われます。情報の種類ごとに扱いが違う点に注意します。
 
@@ -38,15 +40,21 @@
 
 ### エ：書面の所有権を証する情報は、代理人がスキャンして添付できる
 
-表示に関する登記を電子申請する場合、添付情報（申請人等が自ら作成したもの、および土地所在図・地積測量図・地役権図面・建物図面・各階平面図を除く）が書面に記載されているときは、その内容を記録した電磁的記録を添付情報とすることができ、作成者による電子署名が必要です（不動産登記令13条1項）。所有権を証する情報はこの除外に当たらないため、代理人がスキャンして電子署名を付し提供できます。本肢は正しい記述です。
+表示に関する登記を電子申請する場合、添付情報（申請人等が自ら作成したもの、および土地所在図・地積測量図・地役権図面・建物図面・各階平面図を除く）が書面に記載されているときは、その内容を記録した電磁的記録を添付情報とすることができ、作成者による電子署名が必要です（不動産登記令13条1項）。
+
+所有権を証する情報はこの除外に当たらないため、代理人がスキャンして電子署名を付し提供できます。本肢は正しい記述です。
 
 **たとえば**、紙で用意された「所有権を証する情報」は、代理人の調査士がスキャンしてデータにし、自分の電子署名を付けてオンライン申請に添付できます。
 
 ### オ：地積測量図は、書面のスキャンで提供しなければならないわけではない
 
-地積測量図は、令13条1項が定める「書面をスキャンして電磁的記録にする」方法の対象から明示的に除外されています。地積測量図等の図面は、法務大臣が定める方式に従い電磁的記録として作成するのが原則で（不動産登記規則73条1項）、「書面をスキャンし、図面の作成者が電子署名をして提供しなければならない」という決まりにはなっていません。本肢は誤りです。
+地積測量図は、令13条1項が定める「書面をスキャンして電磁的記録にする」方法の対象から明示的に除外されています。
+
+地積測量図等の図面は、法務大臣が定める方式に従い電磁的記録として作成するのが原則で（不動産登記規則73条1項）、「書面をスキャンし、図面の作成者が電子署名をして提供しなければならない」という決まりにはなっていません。本肢は誤りです。
 
 **たとえば**、オンラインで申請するなら、地積測量図ははじめから図面データとして作って添付するのが原則です。「必ず紙の図面をスキャンして提供しなければならない」というルールがあるわけではないのです。
+
+---
 
 ### まとめ
 
@@ -66,7 +74,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝ウ・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で条文原文を確認し、肢エ・オの根拠条文を訂正しました】** `fudousan-touki-rei.md`（2026-08-04取得の現行不動産登記令）を確認したところ、**書面をスキャンして電磁的記録にし電子署名を付して添付する仕組みは、附則5条ではなく令13条1項（表示に関する登記の添付情報の特則）**でした。附則5条は「添付情報（登記識別情報を除く）が書面に記載されているときは、当該**書面を登記所に提出する**方法により提供できる」という別の仕組み（書面そのものの提出）であり、スキャンして電子的に添付する令13条1項とは別物です。令13条1項は、対象から「申請人等が自ら作成した情報」と「**土地所在図・地積測量図・地役権図面・建物図面・各階平面図**」を明示的に除外しており、これが肢オ（地積測量図はスキャン添付の対象外で、電磁的記録として作成するのが原則＝規則73条1項）の直接の根拠になります。肢エ（所有権を証する情報はこの除外に当たらないためスキャン添付できる）もあわせて修正しました。判定（エは正しい、オは誤り）は変わりません。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で条文原文を確認し、エ・オの根拠条文を訂正しました】** `fudousan-touki-rei.md`（2026-08-04取得の現行不動産登記令）を確認したところ、**書面をスキャンして電磁的記録にし電子署名を付して添付する仕組みは、附則5条ではなく令13条1項（表示に関する登記の添付情報の特則）**でした。附則5条は「添付情報（登記識別情報を除く）が書面に記載されているときは、当該**書面を登記所に提出する**方法により提供できる」という別の仕組み（書面そのものの提出）であり、スキャンして電子的に添付する令13条1項とは別物です。令13条1項は、対象から「申請人等が自ら作成した情報」と「**土地所在図・地積測量図・地役権図面・建物図面・各階平面図**」を明示的に除外しており、これがオ（地積測量図はスキャン添付の対象外で、電磁的記録として作成するのが原則＝規則73条1項）の直接の根拠になります。エ（所有権を証する情報はこの除外に当たらないためスキャン添付できる）もあわせて修正しました。判定（エは正しい、オは誤り）は変わりません。
 - あわせて、**令12条1項**（電子署名）・**規則44条1項**（電子証明書提供による住所証明省略。原文は「当該申請人の**現在の住所**を証する情報の提供に代えることができる」）・**規則66条1項1号**（登記識別情報は電子申請では法務大臣の定める方法で符号自体を提供）・**規則73条1項**（土地所在図等の電磁的記録での作成）の条文本文をすべて`laws/`で直接確認し、記事の記載と一致していることを確かめました。
 - 簡潔性ルールに沿って、令和元年通達（原本提示省略）の紹介など、正誤の結論に直結しない背景説明は本文から削りました。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を「電子署名」「電子証明書」「スキャナ」等のキーワードで確認しました。H22年度第16問が同種の添付情報スキャナ化テーマですが、対象となる添付情報の組み合わせが本問（住所証明情報・登記識別情報・地積測量図作成者の署名）と異なり、同一事例の再出題ではありませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
@@ -83,7 +91,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -106,10 +114,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -179,17 +205,17 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -207,11 +233,11 @@ conditions to get there — icons such as a laptop/screen icon for the オ
 ンライン申請, a digital-signature stamp icon, an electronic-certificate
 ID-card icon, a registry-identification-information notice icon with a
 printed 符号, a scanner icon, and document icons for the 所有権を証する
-情報 and the 地積測量図. Panel 2（肢イ）turns on a single yes/no condition
+情報 and the 地積測量図. Panel 2（イ）turns on a single yes/no condition
 whose both outcomes matter, so draw it as a small decision flowchart
 （電子証明書を提供したか）with both the Yes and the No branch ending in
 their own labeled conclusion node — do not draw a looping arrow back
-into the diagram. Panel 4（肢エ）and Panel 5（肢オ）share the same
+into the diagram. Panel 4（エ）and Panel 5（オ）share the same
 underlying decision tree — whether the attached document is excluded
 from the scan-and-attach method under 不動産登記令13条1項（申請人等が自
 ら作成した情報、または土地所在図・地積測量図・地役権図面・建物図面・各
@@ -219,10 +245,10 @@ from the scan-and-attach method under 不動産登記令13条1項（申請人等
 highlights the「No（除外対象でない）」branch with a thick colored border
 and renders the「Yes」branch faded/greyed-out, while Panel 5 highlights
 the「Yes（除外対象である）」branch with a thick colored border and
-renders the「No」branch faded/greyed-out. Panel 3（肢ウ）contrasts a
+renders the「No」branch faded/greyed-out. Panel 3（ウ）contrasts a
 mistaken belief with the correct rule, so draw it as a LEFT/RIGHT
 true/false comparison with the mistaken side crossed out with a large
-✕. Panel 1（肢ア）is resolved by a single check, so draw a labeled
+✕. Panel 1（ア）is resolved by a single check, so draw a labeled
 illustrative diagram for it instead of forcing a flowchart. Do not
 include case or precedent numbers (article/regulation numbers are
 fine); keep the callout text as written below verbatim, and keep every
@@ -266,7 +292,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft green containing the number 1.
 Heading (bold, ONE line):
 電子署名は代理人がしてもよい
@@ -282,7 +308,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 代理人の署名でよい
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line):
 電子証明書の有無で住所証明の要否が変わる
@@ -299,7 +325,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 電子証明書で省略可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line):
 登記識別情報は符号自体を提供する
@@ -316,7 +342,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 符号自体を入力
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line):
 所有権証明情報はスキャン添付できる
@@ -335,7 +361,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 スキャン添付できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line):
 地積測量図はスキャン添付の対象外

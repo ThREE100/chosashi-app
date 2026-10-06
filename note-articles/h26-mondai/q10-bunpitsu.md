@@ -2,19 +2,21 @@
 
 **出題年度：平成26年度　午後の部　第10問**
 
-> 分筆の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　抵当権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記を申請する場合において，その抵当権の登記名義人が当該抵当権を分筆後の甲土地について消滅させることを承諾したことを証する情報を提供したときは，分筆後の甲土地の登記記録には当該抵当権が消滅した旨が記録され，乙土地の登記記録には当該抵当権の設定の登記が転写される。
->
-> イ　地目が宅地として登記されている土地について，その一部を区画して新たに建物を建築した場合には，その区画した部分につき分筆の登記を申請しなければならない。
->
-> ウ　A，B及びCが表題部所有者である土地について，A，B及びCとDとの間で売買契約が締結され，Dが当該土地の所有権を取得した場合には，Dは，A，B及びCの承諾があったことを証する情報を提供しても，当該土地について分筆の登記の申請をすることはできない。
->
-> エ　A及びBが所有権の登記名義人である土地につき共有物分割を命ずる判決が確定した場合において，Bが当該判決に基づく分筆の登記の申請に協力しないときであっても，Aは，Bに代位して，共有物分割の判決内容に基づく分筆の登記を申請することはできない。
->
-> オ　甲土地の地上権者であるAが甲土地の一部に係る地上権をBに対して譲渡した場合には，甲土地の所有権の登記名義人であるCは，その譲渡部分に係る甲土地についての分筆の登記を申請しなければならない。
->
+> 分筆の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　抵当権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記を申請する場合において，その抵当権の登記名義人が当該抵当権を分筆後の甲土地について消滅させることを承諾したことを証する情報を提供したときは，分筆後の甲土地の登記記録には当該抵当権が消滅した旨が記録され，乙土地の登記記録には当該抵当権の設定の登記が転写される。  
+>　  
+> イ　地目が宅地として登記されている土地について，その一部を区画して新たに建物を建築した場合には，その区画した部分につき分筆の登記を申請しなければならない。  
+>　  
+> ウ　A，B及びCが表題部所有者である土地について，A，B及びCとDとの間で売買契約が締結され，Dが当該土地の所有権を取得した場合には，Dは，A，B及びCの承諾があったことを証する情報を提供しても，当該土地について分筆の登記の申請をすることはできない。  
+>　  
+> エ　A及びBが所有権の登記名義人である土地につき共有物分割を命ずる判決が確定した場合において，Bが当該判決に基づく分筆の登記の申請に協力しないときであっても，Aは，Bに代位して，共有物分割の判決内容に基づく分筆の登記を申請することはできない。  
+>　  
+> オ　甲土地の地上権者であるAが甲土地の一部に係る地上権をBに対して譲渡した場合には，甲土地の所有権の登記名義人であるCは，その譲渡部分に係る甲土地についての分筆の登記を申請しなければならない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
+
+---
 
 分筆の登記は、一筆の土地を複数の土地に分ける表示に関する登記です。この問題では、抵当権が付いた土地を分筆したときの権利の帰趨、そして分筆登記を申請できる者・できない者を丁寧に切り分ける力が問われています。
 
@@ -22,7 +24,9 @@
 
 抵当権の設定の登記がされている甲土地から乙土地を分筆する場合において、抵当権の登記名義人が「分筆後の甲土地について抵当権を消滅させる」ことを承諾したことを証する情報を提供したときは、分筆後の甲土地の登記記録にはその抵当権が消滅した旨が記録され、乙土地の登記記録にはその抵当権の設定の登記がそのまま転写されます。
 
-**たとえば**、抵当権が設定された土地を分筆して2筆に分ける際、抵当権者である銀行が「分筆後にできる甲土地の方については、抵当権を消滅させてよい」と承諾したとします。この場合、甲土地の登記記録には抵当権が消滅した旨が記録され、乙土地の登記記録にだけ抵当権がそのまま引き継がれます。
+**たとえば**、抵当権が設定された土地を分筆して2筆に分ける際、抵当権者である銀行が「分筆後にできる甲土地の方については、抵当権を消滅させてよい」と承諾したとします。
+
+この場合、甲土地の登記記録には抵当権が消滅した旨が記録され、乙土地の登記記録にだけ抵当権がそのまま引き継がれます。
 
 ### イ：宅地の一部に建物を建てても、分筆登記は義務ではない
 
@@ -32,17 +36,27 @@
 
 ### ウ：表題部所有者の土地を取得しても、承諾情報があるだけでは分筆登記を申請できない
 
-A・B・Cが表題部所有者である土地について、Dがその土地の所有権を売買によって取得した場合、DはA・B・Cの承諾を証する情報を提供したとしても、その土地について分筆の登記の申請をすることはできません。表題部所有者名義のままの土地を分筆申請できる立場にあるのは、原則として表題部所有者自身であり、所有権を取得しただけのDがその立場に立つには、承諾情報の提供では足りない手続上の制約があります。
+A・B・Cが表題部所有者である土地について、Dがその土地の所有権を売買によって取得した場合、DはA・B・Cの承諾を証する情報を提供したとしても、その土地について分筆の登記の申請をすることはできません。
+
+表題部所有者名義のままの土地を分筆申請できる立場にあるのは、原則として表題部所有者自身であり、所有権を取得しただけのDがその立場に立つには、承諾情報の提供では足りない手続上の制約があります。
 
 **たとえば**、A・B・C名義のまま表題登記されている土地をDさんが買い取ったとします。この場合、DさんはA・B・Cから「分筆してよい」という承諾書をもらったとしても、それだけでは自分の名前でその土地の分筆登記を申請することはできません。
 
 ### 補足：Dが分筆の登記を申請できるようになるには、どのような手続が必要か
 
-肢ウでは、DがA・B・Cの承諾を証する情報を提供しても分筆の登記を申請できないことを確認しました。それでは、実際にDがこの土地について分筆の登記を申請できるようになるには、どのような手続を経る必要があるのでしょうか。
+ウでは、DがA・B・Cの承諾を証する情報を提供しても分筆の登記を申請できないことを確認しました。それでは、実際にDがこの土地について分筆の登記を申請できるようになるには、どのような手続を経る必要があるのでしょうか。
 
-不動産登記法39条1項は、分筆の登記を申請できるのは「表題部所有者又は所有権の登記名義人」に限られると定めています。Dは売買によってこの土地の所有権を取得しただけで、登記記録上はまだA・B・C名義の表題登記のままであり、所有権の登記もされていません。したがって、Dが分筆の登記を申請できる立場に立つには、まず自分自身が「所有権の登記名義人」にならなければなりません。
+不動産登記法39条1項は、分筆の登記を申請できるのは「表題部所有者又は所有権の登記名義人」に限られると定めています。
 
-ここで問題になるのが、Dが直接自分の名義で所有権保存の登記を申請できるかという点です。不動産登記法74条1項は、所有権保存の登記を申請できる者を、①表題部所有者又はその相続人その他の一般承継人、②所有権を有することが確定判決によって確認された者、③収用によって所有権を取得した者、の3者に限定しています。Dのように売買によって所有権を取得しただけの者（表題部所有者の相続人でも一般承継人でもない者）は、この1号には当たりません。区分建物であれば74条2項に「表題部所有者から所有権を取得した者」も保存登記を申請できるという特則がありますが、本問は土地についての問題であり、この特則は適用されません。
+Dは売買によってこの土地の所有権を取得しただけで、登記記録上はまだA・B・C名義の表題登記のままであり、所有権の登記もされていません。したがって、Dが分筆の登記を申請できる立場に立つには、まず自分自身が「所有権の登記名義人」にならなければなりません。
+
+ここで問題になるのが、Dが直接自分の名義で所有権保存の登記を申請できるかという点です。
+
+不動産登記法74条1項は、所有権保存の登記を申請できる者を、①表題部所有者又はその相続人その他の一般承継人、②所有権を有することが確定判決によって確認された者、③収用によって所有権を取得した者、の3者に限定しています。
+
+Dのように売買によって所有権を取得しただけの者（表題部所有者の相続人でも一般承継人でもない者）は、この1号には当たりません。
+
+区分建物であれば74条2項に「表題部所有者から所有権を取得した者」も保存登記を申請できるという特則がありますが、本問は土地についての問題であり、この特則は適用されません。
 
 そのため、Dがこの土地について分筆の登記を申請できるようになるには、次の2段階の手続を経る必要があります。
 
@@ -51,19 +65,29 @@ A・B・Cが表題部所有者である土地について、Dがその土地の�
 
 この2つの登記を経て初めてDが所有権の登記名義人となり、その時点で不動産登記法39条1項の要件を満たすため、Dは自分の名義で分筆の登記を申請できるようになります。承諾情報の提供だけでこの手続を省略することはできない、という点が本肢のポイントです。
 
-**たとえば**、A・B・C名義のまま表題登記されている土地をDさんが買い取った場合、Dさんがこの土地を分筆したいのであれば、まずA・B・Cさんの名義で所有権保存の登記をしてもらい、そのうえでA・B・CさんからDさんへの所有権移転の登記を済ませる必要があります。この2つの登記が完了して初めて、Dさんは自分の名義でこの土地の分筆の登記を申請できるようになります。
+**たとえば**、A・B・C名義のまま表題登記されている土地をDさんが買い取った場合、Dさんがこの土地を分筆したいのであれば、まずA・B・Cさんの名義で所有権保存の登記をしてもらい、そのうえでA・B・CさんからDさんへの所有権移転の登記を済ませる必要があります。
+
+この2つの登記が完了して初めて、Dさんは自分の名義でこの土地の分筆の登記を申請できるようになります。
 
 ### エ：共有物分割の判決が確定していれば、非協力の共有者に代位して分筆登記を申請できる
 
-A及びBが共有する土地について共有物分割を命ずる判決が確定した場合、Bがその判決に基づく分筆の登記の申請に協力しないときであっても、Aは、Bに代位して、共有物分割の判決内容に基づく分筆の登記を申請することができます。「申請することはできない」とするこの記述は誤りです。
+A及びBが共有する土地について共有物分割を命ずる判決が確定した場合、Bがその判決に基づく分筆の登記の申請に協力しないときであっても、Aは、Bに代位して、共有物分割の判決内容に基づく分筆の登記を申請することができます。
 
-**たとえば**、A・B共有の土地について、裁判所が「この土地をAの部分とBの部分に分割する」という判決を下し、それが確定したとします。Bさんがその後の分筆登記の手続に協力してくれない場合でも、Aさんは判決の内容に基づいて、Bさんに代位して分筆の登記を申請することができます。
+「申請することはできない」とするこの記述は誤りです。
+
+**たとえば**、A・B共有の土地について、裁判所が「この土地をAの部分とBの部分に分割する」という判決を下し、それが確定したとします。
+
+Bさんがその後の分筆登記の手続に協力してくれない場合でも、Aさんは判決の内容に基づいて、Bさんに代位して分筆の登記を申請することができます。
 
 ### オ：地上権の一部譲渡があっても、土地所有者に分筆登記の申請義務は生じない
 
-甲土地の地上権者であるAが、甲土地の一部に係る地上権をBに譲渡したとしても、それによって甲土地の所有権の登記名義人であるCに、その譲渡部分についての分筆の登記の申請義務が生じるわけではありません。地上権者間の権利の一部譲渡は、あくまで地上権者どうしの内部的な処分であり、土地所有者の分筆義務を発生させるものではありません。
+甲土地の地上権者であるAが、甲土地の一部に係る地上権をBに譲渡したとしても、それによって甲土地の所有権の登記名義人であるCに、その譲渡部分についての分筆の登記の申請義務が生じるわけではありません。
+
+地上権者間の権利の一部譲渡は、あくまで地上権者どうしの内部的な処分であり、土地所有者の分筆義務を発生させるものではありません。
 
 **たとえば**、甲土地に地上権を持つAさんが、その地上権の一部をBさんに譲り渡したとします。この場合でも、甲土地の所有者であるCさんが、その譲渡された部分について分筆の登記を申請しなければならない義務を負うことはありません。
+
+---
 
 ### まとめ
 
@@ -86,7 +110,7 @@ A及びBが共有する土地について共有物分割を命ずる判決が確
 - ア（不動産登記法40条：分筆に伴う権利の消滅の登記。抵当権の登記名義人が分筆後の一方の土地について当該権利を消滅させることを承諾したことを証する情報が提供されたときは、当該承諾に係る土地について当該権利が消滅した旨を登記しなければならない）、ウ（不動産登記法39条1項：分筆の登記は表題部所有者又は所有権の登記名義人以外の者は申請することができない）は、`note-articles/laws/fudousan-touki-hou.md`に保存した条文原文で確認済みです。イ（分筆の登記が原則任意であること）、エ（共有物分割判決確定後の代位申請の可否）、オ（地上権の一部譲渡と土地所有者の分筆義務の無関係性）は不動産登記法・実務解説の内容と整合していますが、条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。分筆の登記の申請人・抵当権の帰趨がテーマ。R03第11問も分筆の登記がテーマですが、肢の内容（相続財産管理人・賃借権者の承諾等）は完全に異なり、同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-06実施）**：`note-articles/laws/`に保存した不動産登記法の現行条文（2026-08-04取得）で39条・40条を再確認しました。令和5年4月1日施行の共有制度改正（民法252条等）が本問（分筆の登記の申請人・抵当権の帰趨）に影響しないかも確認しましたが、分筆の登記の申請人・添付情報に関する不動産登記法上のルールには変更がなく、各肢の結論に影響しません。
-- **補足の追加（2026-09-27）**：肢ウについて、Dが実際に分筆の登記を申請できるようになるにはどのような手続が必要かという補足を本文に追加しました。不動産登記法74条1項（所有権保存の登記を申請できる者の限定列挙。表題部所有者の相続人その他の一般承継人は含まれるが、売買による特定承継人は含まれないこと）および同条2項（区分建物に限り、表題部所有者から所有権を取得した者も保存登記を申請できる特則があること。本問は土地なので適用されないこと）は`laws/fudousan-touki-hou.md`（「##### 第74条」の項）から実際にGrep・Readして確認済みです。肢ウ自体の正誤判定・結論に変更はありません。
+- **補足の追加（2026-09-27）**：ウについて、Dが実際に分筆の登記を申請できるようになるにはどのような手続が必要かという補足を本文に追加しました。不動産登記法74条1項（所有権保存の登記を申請できる者の限定列挙。表題部所有者の相続人その他の一般承継人は含まれるが、売買による特定承継人は含まれないこと）および同条2項（区分建物に限り、表題部所有者から所有権を取得した者も保存登記を申請できる特則があること。本問は土地なので適用されないこと）は`laws/fudousan-touki-hou.md`（「##### 第74条」の項）から実際にGrep・Readして確認済みです。ウ自体の正誤判定・結論に変更はありません。
 
 ---
 
@@ -126,12 +150,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・記・登・証・譲・転・協 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -212,20 +254,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、各肢についてどんな図を描き、どの順番で条件を確認すれば正しい結論にたどり着けるかを示す作図ガイド。エは「判決は確定したか」「相手方は協力しないか」という2段階の確認を経て代位申請に至る決定木で示し、オは「地上権者どうしの話」と「土地所有者の話」のどちらの場面かを見分ける対比枠で示す。
 
@@ -299,7 +341,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in teal containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -319,7 +361,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 甲は消滅、乙は転写
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in teal containing the number 2.
 Heading (bold, ONE line):
 建物を建てても分筆登記は義務でない
@@ -335,7 +377,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 分筆登記は任意
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in teal containing the number 3.
 Heading (bold, ONE line):
 Dが申請人になれるかを確認する
@@ -353,14 +395,14 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 Dは申請人になれない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 共有物分割の判決確定の有無を確認する
-Diagram: A decision flowchart with two diamond branch nodes in sequence.
-Node 1: "共有物分割を命ずる判決は確定したか" — Yes branch continues to
-Node 2. Node 2: "Bは分筆の登記の申請に協力しないか" — Yes branch (green,
-highlighted) leads to a final conclusion node reading "Aは、Bに代位し
+Diagram: A check flow of two rectangular check boxes in sequence (no
+diamonds), connected by single straight arrows. Box 1: "共有物分割を命ずる
+判決が確定している". Box 2: "Bは分筆の登記の申請に協力しない". A single
+arrow (green, highlighted) leads to a final conclusion node reading "Aは、Bに代位し
 て、判決内容に基づく分筆の登記を申請できる". An isometric courthouse icon
 issues the "共有物分割の判決" to person A, while person B stands turned
 away with a small label "協力しない".
@@ -373,7 +415,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 代位で申請可能
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 地上権譲渡は所有者の分筆義務を生まない

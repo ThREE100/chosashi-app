@@ -2,27 +2,35 @@
 
 **出題年度：令和元年度　午後の部　第20問**
 
-> 土地家屋調査士の義務に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地家屋調査士は、正当な事由がある場合でなければ、筆界特定の手続についての代理業務及びその相談業務並びに民間紛争解決手続代理関係業務に関するものを除き、依頼を拒んではならない。
->
-> イ　土地家屋調査士は、二以上の事務所を設けることはできない。
->
-> ウ　土地家屋調査士は、その所属する土地家屋調査士会及び日本土地家屋調査士会連合会の会則を守るように努めなければならない。
->
-> エ　土地家屋調査士又は土地家屋調査士であった者は、正当な事由がある場合であっても、業務上取り扱った事件について知ることのできた秘密を他に漏らしてはならない。
->
-> オ　土地家屋調査士は、その所属する土地家屋調査士会及び日本土地家屋調査士会連合会が実施する研修を受け、その資質の向上を図るように努めなければならない。
->
+> 土地家屋調査士の義務に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地家屋調査士は、正当な事由がある場合でなければ、筆界特定の手続についての代理業務及びその相談業務並びに民間紛争解決手続代理関係業務に関するものを除き、依頼を拒んではならない。  
+>　  
+> イ　土地家屋調査士は、二以上の事務所を設けることはできない。  
+>　  
+> ウ　土地家屋調査士は、その所属する土地家屋調査士会及び日本土地家屋調査士会連合会の会則を守るように努めなければならない。  
+>　  
+> エ　土地家屋調査士又は土地家屋調査士であった者は、正当な事由がある場合であっても、業務上取り扱った事件について知ることのできた秘密を他に漏らしてはならない。  
+>　  
+> オ　土地家屋調査士は、その所属する土地家屋調査士会及び日本土地家屋調査士会連合会が実施する研修を受け、その資質の向上を図るように努めなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-土地家屋調査士の義務は、条文の文言が「〜しなければならない」という法的義務なのか、「〜するように努めなければならない」という努力義務なのか、そして例外（正当な事由など）があるのかないのか、という細かな線引きが得点の分かれ目です。似た表現に惑わされず、条文どおりの強さで押さえられているかを確認しましょう。
+---
+
+土地家屋調査士の義務は、条文の文言が「〜しなければならない」という法的義務なのか、「〜するように努めなければならない」という努力義務なのか、そして例外（正当な事由など）があるのかないのか、という細かな線引きが得点の分かれ目です。
+
+似た表現に惑わされず、条文どおりの強さで押さえられているかを確認しましょう。
 
 ### ア：正当な事由がなければ依頼を拒めない（筆界特定代理等は除く）——正しい
 
-土地家屋調査士は、正当な事由がある場合でなければ、依頼を拒んではなりません（調査士法22条）。ただし、依頼者との強い信頼関係を前提とする業務、すなわち筆界特定の手続についての代理業務・その相談業務、および民間紛争解決手続代理関係業務については、この受任義務の適用から除かれます。本肢はこの除外を正確に述べており、正しい記述です。
+土地家屋調査士は、正当な事由がある場合でなければ、依頼を拒んではなりません（調査士法22条）。
 
-**たとえば**、近所の人から「土地の表示に関する登記を頼みたい」と持ち込まれたとき、調査士は正当な理由もなくこれを断ることはできません。もっとも、境界紛争のADR代理のように高い信頼関係を要する業務は別で、そうした依頼まで必ず受けなければならないわけではありません。
+ただし、依頼者との強い信頼関係を前提とする業務、すなわち筆界特定の手続についての代理業務・その相談業務、および民間紛争解決手続代理関係業務については、この受任義務の適用から除かれます。本肢はこの除外を正確に述べており、正しい記述です。
+
+**たとえば**、近所の人から「土地の表示に関する登記を頼みたい」と持ち込まれたとき、調査士は正当な理由もなくこれを断ることはできません。
+
+もっとも、境界紛争のADR代理のように高い信頼関係を要する業務は別で、そうした依頼まで必ず受けなければならないわけではありません。
 
 ### イ：二以上の事務所を設けることはできない——正しい
 
@@ -32,21 +40,29 @@
 
 ### ウ：会則の遵守は「努力義務」ではなく「法的義務」——誤り
 
-土地家屋調査士は、その所属する調査士会および日本土地家屋調査士会連合会の会則を「守らなければならない」とされています（調査士法24条）。これは「守るように努めなければならない」という努力義務ではなく、遵守を求める法的義務です。本肢は会則遵守を努力義務であるかのように述べている点で誤りです。
+土地家屋調査士は、その所属する調査士会および日本土地家屋調査士会連合会の会則を「守らなければならない」とされています（調査士法24条）。
+
+これは「守るように努めなければならない」という努力義務ではなく、遵守を求める法的義務です。本肢は会則遵守を努力義務であるかのように述べている点で誤りです。
 
 **たとえば**、「会則はできるだけ守るよう努めればよい」という程度のものではなく、調査士は所属会・連合会の会則を必ず守らなければなりません。この点は、後述の研修（努力義務）とは義務の強さが違います。
 
 ### エ：正当な事由があれば秘密を漏らしてよい場合がある——誤り
 
-土地家屋調査士またはかつて調査士であった者は、正当な事由がある場合でなければ、業務上取り扱った事件について知ることのできた秘密を他に漏らしてはなりません（調査士法24条の2）。裏を返せば、正当な事由がある場合には、秘密を開示することが許されます。本肢は「正当な事由がある場合であっても」漏らしてはならないとしており、例外を認めていない点で誤りです。
+土地家屋調査士またはかつて調査士であった者は、正当な事由がある場合でなければ、業務上取り扱った事件について知ることのできた秘密を他に漏らしてはなりません（調査士法24条の2）。
+
+裏を返せば、正当な事由がある場合には、秘密を開示することが許されます。本肢は「正当な事由がある場合であっても」漏らしてはならないとしており、例外を認めていない点で誤りです。
 
 **たとえば**、法令に基づいて裁判所から証言を求められた場合など、正当な事由があるときには、業務上知った秘密を明かすことが認められる余地があります。どんな場合でも一切漏らしてはならない、というわけではありません。
 
 ### オ：研修を受け資質向上に努める——努力義務として正しい
 
-土地家屋調査士は、その所属する調査士会および連合会が実施する研修を受け、その資質の向上を図るように努めなければなりません（調査士法25条1項）。これは「〜するように努めなければならない」という努力義務として規定されており、本肢の記述はこれに合致しています。正しい記述です。
+土地家屋調査士は、その所属する調査士会および連合会が実施する研修を受け、その資質の向上を図るように努めなければなりません（調査士法25条1項）。
+
+これは「〜するように努めなければならない」という努力義務として規定されており、本肢の記述はこれに合致しています。正しい記述です。
 
 **たとえば**、調査士は登録して終わりではなく、会の研修に参加して知識や技術を磨き続けるよう努めることが求められています。会則遵守が「絶対」の義務であるのに対し、研修は「努力」の義務、という強さの違いを押さえましょう。
+
+---
 
 ### まとめ
 
@@ -69,7 +85,7 @@
 - 各肢の根拠は、いずれも土地家屋調査士法の各条文で確認しています（ア＝依頼に応ずる義務・筆界特定代理等の除外／イ＝事務所の設置と二以上禁止・施行規則18条／ウ＝会則遵守義務が法的義務であること／エ＝秘密保持義務と正当な事由による例外／オ＝研修受講・資質向上の努力義務）。
 - **最新法令への準拠チェック（2026年8月実施）**：土地家屋調査士法は令和元年6月12日公布・令和2年8月1日施行の改正（法律第29号）を受けていますが、この改正の主眼は第1条を目的規定から使命規定に改める点、懲戒権者を法務局長等から法務大臣に改める点（第42条）、社員一人の調査士法人の設立を可能とする点であり、本問が扱うア〜オの各義務規定（第22条〔依頼応諾義務〕、第20条〔事務所〕、第24条〔会則遵守義務〕、第24条の2〔秘密保持義務〕、第25条1項〔研修の努力義務〕）の条番号・内容は、改正前後を通じて変わっていないことを確認しました。以前の版で「条番号の繰り下げ・再編があり現行法では異なる可能性がある」としていた記載は、確認不足による誤った懸念でしたので訂正します。
 - **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベース（土地家屋調査士法・同施行規則）で、ア（22条・3条1項4号6号）、イ（20条・施行規則18条）、ウ（24条）、エ（24条の2）、オ（25条）の全条文を条文レベルで突き合わせ、いずれも本文の記載どおり一言一句一致することを確認しました。正解番号（takuitsu.jsonのcorrectAnswer＝4）とまとめの判定も一致しています。表形式の残存・判例先例番号の本文記載・文体の不統一・タイトル文字数超過は見つかりませんでした。修正の必要はありませんでした。正誤判定・正解の組合せに変更はありません。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（依頼応諾義務・事務所・会則遵守・秘密保持・研修）と同一・類似の問題が再出題されていないかを確認しました。候補は12件と多かったため、各候補の具体的論点を本問の各肢と照合しました。令和3年度第20問のオ（土地家屋調査士法人は、正当な事由がなければ不動産の表示に関する登記の申請手続の代理の依頼を拒むことはできない、法22条・41条1項）は本問のア（調査士自身の依頼応諾義務、法22条）と、令和7年度第20問のウ（調査士は連合会への届出により複数の都道府県に事務所を設置できるとする記述、誤り）は本問のイ（二以上の事務所を設けることはできない）と、令和6年度第20問のウ（調査士は正当な事由がある場合であっても業務上知った秘密を漏らしてはならないとする記述、誤り、法24条の2）は本問のエとほぼ同一の記述・論点です。一方、会則遵守（ウ）と研修（オ）に対応する候補は見当たりませんでした。**本問5肢のうち3肢について、同一の論点が別の年度・別の組合せで再出題されています**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -110,12 +126,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 所 — it must be rendered in its standard Japanese form, never as a
 Simplified Chinese variant.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -190,20 +224,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「その義務は例外なく守るべき絶対の義務か、それとも努力義務か」「例外（正当な事由）が認められる場面かどうか」を見抜けるようにする5パネル構成。ア・エは正当な事由の有無で結論が分かれる決定木、イは事務所の数だけを確認する単一チェック、ウ・オは「条文の文言が『守らなければならない』か『努めなければならない』か」という同じ対比枠を共有し、ウは法的義務側、オは努力義務側を強調する。
 
@@ -228,7 +262,7 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panels 3 and 5（肢ウ・肢オ）share the same side-by-side
+flowchart. Panels 3 and 5（ウ・オ）share the same side-by-side
 comparison frame（LEFT: 法的義務＝「守らなければならない」、RIGHT: 努力
 義務＝「努めなければならない」); draw both panels with the same two-box
 layout, but highlight（太い縁取り・フルカラーで強調）the box relevant to
@@ -244,7 +278,15 @@ own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -270,7 +312,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 特定業務でなければ正当事由なしに拒否不可
@@ -292,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 原則拒否不可(除外業務は別)
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 事務所はただ一つに限られる
@@ -309,7 +351,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 事務所は一つのみ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 会則遵守は「努力」でなく絶対の義務
@@ -327,7 +369,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 会則は法的義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 秘密保持は正当な事由があれば例外あり
@@ -348,7 +390,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 正当事由で開示可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 研修受講は努力義務にとどまる
@@ -374,11 +416,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 同法25条1項（研修の努力義務）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 拒, 秘, 密, 漏, 努, 遵, 守, 義, 務 and any character that has
 a visually similar Simplified Chinese variant. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panels 3 and 5 visibly share the
 same comparison-frame layout with only the highlighted box differing,

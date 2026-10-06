@@ -2,21 +2,25 @@
 
 **出題年度：令和4年度　午後の部　第10問**
 
-> 建物の認定に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　園芸用の温床施設は、鉄材で骨組みされて地面に固着し、屋根及び周壁が強固なガラスで築造された建造物であっても、建物として登記することはできない。
->
-> イ　円柱状の形をした大型の給水タンクは、建物として登記することはできない。
->
-> ウ　土地の上に鉄骨柱の土台を置いて基礎とし、この上に組立式で容易に移動可能な事務所を設置した場合には、当該事務所は、建物として登記することができる。
->
-> エ　高架鉄道の線路敷地の高架下を屋根として利用し、外気を分断する周壁を築造して高架下と一体化させた店舗は、建物として登記することができる。
->
-> オ　海底からの脚柱によって支えられた永久的な構築物である桟橋の上に建築された屋根及び周壁を有する水族館は、建物として登記することができる。
->
+> 建物の認定に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　園芸用の温床施設は、鉄材で骨組みされて地面に固着し、屋根及び周壁が強固なガラスで築造された建造物であっても、建物として登記することはできない。  
+>　  
+> イ　円柱状の形をした大型の給水タンクは、建物として登記することはできない。  
+>　  
+> ウ　土地の上に鉄骨柱の土台を置いて基礎とし、この上に組立式で容易に移動可能な事務所を設置した場合には、当該事務所は、建物として登記することができる。  
+>　  
+> エ　高架鉄道の線路敷地の高架下を屋根として利用し、外気を分断する周壁を築造して高架下と一体化させた店舗は、建物として登記することができる。  
+>　  
+> オ　海底からの脚柱によって支えられた永久的な構築物である桟橋の上に建築された屋根及び周壁を有する水族館は、建物として登記することができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-建物の認定は、ある構築物が登記できる「建物」といえるかを判断する分野です。判断のものさしは、①外気分断性（屋根と周壁で外気を分断しているか）、②定着性（土地に定着しているか）、③用途性（その目的とする用途に使える状態か）の3要件（不動産登記事務取扱手続準則77条など）です。この3つを各肢に当てはめていきます。
+---
+
+建物の認定は、ある構築物が登記できる「建物」といえるかを判断する分野です。
+
+判断のものさしは、①外気分断性（屋根と周壁で外気を分断しているか）、②定着性（土地に定着しているか）、③用途性（その目的とする用途に使える状態か）の3要件（不動産登記事務取扱手続準則77条など）です。この3つを各肢に当てはめていきます。
 
 ### ア：鉄材・強固なガラスの温床施設は、建物として登記できる
 
@@ -47,6 +51,8 @@
 海底からの脚柱によって支えられた永久的な構築物である桟橋の上に、屋根と周壁を有する水族館が建てられている場合、それは定着性・外気分断性・用途性を備えるため、建物として登記することができます。本肢は正しい記述です。
 
 **たとえば**、海に張り出した頑丈な桟橋の上に、しっかりした構造で恒久的に建てられた水族館の建物は、たとえ土地の上ではなく海上であっても、永久的な構築物に支えられているので建物として登記できます。
+
+---
 
 ### まとめ
 
@@ -107,12 +113,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -192,18 +216,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、建物の認定を分ける3要件（外気分断性・定着性・用途性）を1本の共通の判定ばしご（決定木）として作図し、肢ごとにどの段（どの要件）が決め手になるかを強調表示で示す作図ガイドを追加した。5肢とも同じ3段の決定木を共有しつつ、各パネルでは自分の肢に関係する段だけを太い縁取り・フルカラーで強調し、争点にならない段は薄いグレーの点線で縮小表示することで、問題文を読んだ瞬間にどの要件から確認すればよいかの練習素材とする。
 
@@ -248,7 +272,15 @@ requirements).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -274,7 +306,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in teal containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -307,7 +339,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 3要件がすべて○
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in teal containing the number 2.
 Heading (bold, ONE line):
 給水タンクは人が使う空間がなく建物でない
@@ -331,7 +363,7 @@ directly to a fully highlighted red terminal box labeled「建物として登記
 Conclusion tag (teal, 5-15 Japanese characters):
 用途性がなく建物でない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in teal containing the number 3.
 Heading (bold, ONE line):
 簡単に動かせる組立式事務所は建物でない
@@ -354,7 +386,7 @@ diamond③, showing that the chain stops here).
 Conclusion tag (teal, 5-15 Japanese characters):
 定着性がなく建物でない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 周壁で高架下を囲った店舗は建物になる
@@ -378,7 +410,7 @@ terminal box labeled「建物として登記できる」.
 Conclusion tag (teal, 5-15 Japanese characters):
 一体化で3要件○
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 海上でも脚柱で支えられた水族館は建物になる
@@ -407,12 +439,12 @@ Small footnote text (bottom of panel, small font, verbatim):
 準則77条など）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建, 物, 登, 記, 認, 気, 断, 着, 用, 途, 定, 鉄, 橋, 構, 築,
 給, 舗, 館, 桟, 組, 動, 単, 満, 異, 確, 簡, 結, 続, 準, 則, 務, 産, 態,
 時, 軽, 達, 間, 題, 囲, 論, 読, 強, 問, 図. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that every multi-condition 肢 is
 drawn as an actual flowchart with branch nodes (not a bare illustration

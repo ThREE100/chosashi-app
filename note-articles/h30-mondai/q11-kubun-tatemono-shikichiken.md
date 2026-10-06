@@ -2,40 +2,51 @@
 
 **出題年度：平成30年度　午後の部　第11問**
 
-> 次の〔文章〕の中の（①）から（⑦）までの空欄に後記の〔語句群〕の中から適切な語句を選んで入れると、建物の登記に関する文章となる。（①）から（⑦）までの空欄に入る語句の組合せとして最も適切なものは、後記1から5までのうち、どれか。ただし、文章中の【Ａ】及び【Ｂ】には適当な語句が入るものとし、同一の数字又は記号には同一の語句が入り、異なる数字又は記号には同一の語句は入らないものとする。
->
-> 〔文章〕
->
-> 【Ａ】とは、例えば、マンションやビルの各部屋のように、一棟の建物の（①）区分された部分で独立して（②）、店舗、事務所又は倉庫その他建物としての用途に供することができるものであって、建物の区分所有等に関する法律に規定する（③）であるもの（（④）を含みます。）をいいます。
->
-> したがって、マンションなどの各部屋を【Ａ】として登記するには、次のⅠ及びⅡの要件が必要です。
->
-> Ⅰ　各部屋が（①）の独立性を有していること。
-> 　各部屋が、仕切り壁、床、天井等によって、他の部屋と（①）はっきり区別されていなければなりません。
->
-> Ⅱ　各部屋が（⑤）の独立性を備えていること。
-> 　各部屋が、それだけで（②）、店舗、事務所又は倉庫などの用途に使用できるものでなければなりません。
->
-> 【Ｂ】とは、【Ａ】について（③）を所有するための建物の敷地に関する権利として（⑥）の登記記録に登記されたものであって、（③）と分離して処分することができないものをいいます。
->
-> 登記官は、表示に関する登記のうち、【Ａ】に関する【Ｂ】について表題部に最初に登記をするときは、当該【Ｂ】の目的である（⑥）の登記記録について、（⑦）、当該登記記録中の所有権、地上権その他の権利が【Ｂ】である旨の登記をしなければなりません。これは、【Ｂ】である権利については、その旨を（⑥）の登記記録に明らかにし、その権利変動が建物の登記記録によって公示されていることを示すためです。
->
-> 〔語句群〕
-> 土地、建物、附属建物、住居、家屋、駐車場、専有部分、共用部分、法定共用部分、規約共用部分、構造上、利用上、法令上、申請により、職権で
->
-> 1　①法令上　④規約共用部分　⑥建物
-> 2　②住居　　④法定共用部分　⑦職権で
-> 3　②駐車場　⑤構造上　　　　⑥建物
-> 4　③専有部分　⑤利用上　　　⑦職権で
+> 次の〔文章〕の中の（①）から（⑦）までの空欄に後記の〔語句群〕の中から適切な語句を選んで入れると、建物の登記に関する文章となる。（①）から（⑦）までの空欄に入る語句の組合せとして最も適切なものは、後記1から5までのうち、どれか。ただし、文章中の【Ａ】及び【Ｂ】には適当な語句が入るものとし、同一の数字又は記号には同一の語句が入り、異なる数字又は記号には同一の語句は入らないものとする。  
+>　  
+> 〔文章〕  
+>　  
+> 【Ａ】とは、例えば、マンションやビルの各部屋のように、一棟の建物の（①）区分された部分で独立して（②）、店舗、事務所又は倉庫その他建物としての用途に供することができるものであって、建物の区分所有等に関する法律に規定する（③）であるもの（（④）を含みます。）をいいます。  
+>　  
+> したがって、マンションなどの各部屋を【Ａ】として登記するには、次のⅠ及びⅡの要件が必要です。  
+>　  
+> Ⅰ　各部屋が（①）の独立性を有していること。  
+>　  
+> 　各部屋が、仕切り壁、床、天井等によって、他の部屋と（①）はっきり区別されていなければなりません。  
+>　  
+> Ⅱ　各部屋が（⑤）の独立性を備えていること。  
+>　  
+> 　各部屋が、それだけで（②）、店舗、事務所又は倉庫などの用途に使用できるものでなければなりません。  
+>　  
+> 【Ｂ】とは、【Ａ】について（③）を所有するための建物の敷地に関する権利として（⑥）の登記記録に登記されたものであって、（③）と分離して処分することができないものをいいます。  
+>　  
+> 登記官は、表示に関する登記のうち、【Ａ】に関する【Ｂ】について表題部に最初に登記をするときは、当該【Ｂ】の目的である（⑥）の登記記録について、（⑦）、当該登記記録中の所有権、地上権その他の権利が【Ｂ】である旨の登記をしなければなりません。これは、【Ｂ】である権利については、その旨を（⑥）の登記記録に明らかにし、その権利変動が建物の登記記録によって公示されていることを示すためです。  
+>　  
+> 〔語句群〕  
+>　  
+> 土地、建物、附属建物、住居、家屋、駐車場、専有部分、共用部分、法定共用部分、規約共用部分、構造上、利用上、法令上、申請により、職権で  
+>　  
+> 1　①法令上　④規約共用部分　⑥建物  
+>　  
+> 2　②住居　　④法定共用部分　⑦職権で  
+>　  
+> 3　②駐車場　⑤構造上　　　　⑥建物  
+>　  
+> 4　③専有部分　⑤利用上　　　⑦職権で  
+>　  
 > 5　③共用部分　⑥土地　　　　⑦申請により
 
 ---
 
-この問題は、区分建物（【Ａ】）と敷地権（【Ｂ】）という2つの重要概念の「定義そのもの」を穴埋めで問う一問です。条文の言い回しをそのまま覚えているかが試されるため、暗記の完成度が点差に直結します。空欄①〜⑦に入る語句と、【Ａ】＝区分建物、【Ｂ】＝敷地権の意味を、順に確認していきましょう。
+この問題は、区分建物（【Ａ】）と敷地権（【Ｂ】）という2つの重要概念の「定義そのもの」を穴埋めで問う一問です。
+
+条文の言い回しをそのまま覚えているかが試されるため、暗記の完成度が点差に直結します。空欄①〜⑦に入る語句と、【Ａ】＝区分建物、【Ｂ】＝敷地権の意味を、順に確認していきましょう。
 
 ### 【Ａ】＝区分建物：一棟の建物の中で独立した所有権の対象になる部分
 
-【Ａ】には「区分建物」が入ります。一棟の建物に構造上区分された数個の部分で、独立して住居・店舗・事務所・倉庫などの用途に供することができるものがあるとき、その各部分は各別に1個の建物として取り扱われ、それぞれ独立した所有権の目的とすることができます。このように、一棟の建物の中に独立した所有権の客体となる建物を有するものを区分建物といいます（法2条22号）。
+【Ａ】には「区分建物」が入ります。一棟の建物に構造上区分された数個の部分で、独立して住居・店舗・事務所・倉庫などの用途に供することができるものがあるとき、その各部分は各別に1個の建物として取り扱われ、それぞれ独立した所有権の目的とすることができます。
+
+このように、一棟の建物の中に独立した所有権の客体となる建物を有するものを区分建物といいます（法2条22号）。
 
 **たとえば**、10階建てマンションの「301号室」は、建物全体としては一棟でも、その一室だけを買ったり売ったり抵当に入れたりできますよね。この一室こそが区分建物です。
 
@@ -47,7 +58,9 @@
 
 ### ②住居：建物としての具体的な用途の一つ
 
-②には「住居」が入ります。区分建物は「独立して住居、店舗、事務所又は倉庫その他建物としての用途に供することができるもの」でなければなりません。この列挙の先頭に来るのが「住居」です。語句群には「駐車場」もありますが、条文の文言は「住居、店舗、事務所又は倉庫」であって「駐車場」ではないため、②は住居となります。
+②には「住居」が入ります。区分建物は「独立して住居、店舗、事務所又は倉庫その他建物としての用途に供することができるもの」でなければなりません。
+
+この列挙の先頭に来るのが「住居」です。語句群には「駐車場」もありますが、条文の文言は「住居、店舗、事務所又は倉庫」であって「駐車場」ではないため、②は住居となります。
 
 **たとえば**、マンションの一室を人が生活する場所（住居）として使えることは、区分建物の典型的な用途イメージそのものです。
 
@@ -59,33 +72,45 @@
 
 ### ④規約共用部分：本来は専有部分になれるが規約で共用にした部分
 
-④には「規約共用部分」が入ります。不動産登記法上の区分建物には、区分所有法4条2項の「規約共用部分」を含みます。規約共用部分とは、構造上は専有部分になり得る独立した部分を、規約によってあえて共用部分（みんなで使う部分）と定めたものです。語句群には「法定共用部分」もありますが、廊下や階段のように構造上当然に共用となる法定共用部分は独立性がなく区分建物として登記できないため、区分建物に含まれるのは規約共用部分の方です。
+④には「規約共用部分」が入ります。不動産登記法上の区分建物には、区分所有法4条2項の「規約共用部分」を含みます。規約共用部分とは、構造上は専有部分になり得る独立した部分を、規約によってあえて共用部分（みんなで使う部分）と定めたものです。
+
+語句群には「法定共用部分」もありますが、廊下や階段のように構造上当然に共用となる法定共用部分は独立性がなく区分建物として登記できないため、区分建物に含まれるのは規約共用部分の方です。
 
 **たとえば**、マンションの一室を「集会室」や「管理人室」として規約で共用と定めた場合、その部屋は規約共用部分となり、これも区分建物として登記の対象に含まれます。
 
 ### ⑤利用上：それだけで用途に使える独立性
 
-⑤には「利用上」が入ります。区分建物として登記するための第二の要件は、各部屋がそれだけで住居・店舗・事務所・倉庫などの用途に使用できる「利用上の独立性」を備えていることです。独立して用途に供することができる利用上の独立性がなければ、区分建物として登記することはできません。①の「構造上」の独立性（物理的な区切り）とペアで押さえるのがポイントです。
+⑤には「利用上」が入ります。区分建物として登記するための第二の要件は、各部屋がそれだけで住居・店舗・事務所・倉庫などの用途に使用できる「利用上の独立性」を備えていることです。
+
+独立して用途に供することができる利用上の独立性がなければ、区分建物として登記することはできません。①の「構造上」の独立性（物理的な区切り）とペアで押さえるのがポイントです。
 
 **たとえば**、マンションの一室に専用の玄関があり、その部屋だけで生活が完結する（他の部屋を通らないと入れないような造りではない）なら、利用上の独立性があるといえます。
 
 ### 【Ｂ】＝敷地権：専有部分と一体化した土地の権利
 
-【Ｂ】には「敷地権」が入ります。敷地権とは、区分建物について、専有部分を所有するための建物の敷地に関する権利として土地の登記記録に登記されたものであって、専有部分と分離して処分することができないものをいいます（法44条1項9号）。マンションの部屋と、その建物が建っている土地の権利を一体で扱うための仕組みです。
+【Ｂ】には「敷地権」が入ります。敷地権とは、区分建物について、専有部分を所有するための建物の敷地に関する権利として土地の登記記録に登記されたものであって、専有部分と分離して処分することができないものをいいます（法44条1項9号）。
+
+マンションの部屋と、その建物が建っている土地の権利を一体で扱うための仕組みです。
 
 **たとえば**、マンションの301号室を買うと、その真下の土地の共有持分（敷地利用権）も自動的についてきて、部屋だけを土地と切り離して売ることはできません。この土地側の権利が敷地権です。
 
 ### ⑥土地：敷地権が登記される先の登記記録
 
-⑥には「土地」が入ります。敷地権は「建物の敷地に関する権利」ですから、その権利が登記されているのは土地の登記記録です。空欄⑥はいずれも「⑥の登記記録」という形で登場し、敷地権が登記されている場所（＝土地の登記記録）と、敷地権である旨を明らかにする場所（＝土地の登記記録）を指しています。語句群の「建物」ではなく「土地」が正解です。
+⑥には「土地」が入ります。敷地権は「建物の敷地に関する権利」ですから、その権利が登記されているのは土地の登記記録です。
+
+空欄⑥はいずれも「⑥の登記記録」という形で登場し、敷地権が登記されている場所（＝土地の登記記録）と、敷地権である旨を明らかにする場所（＝土地の登記記録）を指しています。語句群の「建物」ではなく「土地」が正解です。
 
 **たとえば**、マンションの敷地権の内容（誰がどれだけの持分を持つか）は、その敷地となっている土地の登記記録に記録されます。
 
 ### ⑦職権で：登記官が申請なしに敷地権である旨を登記する
 
-⑦には「職権で」が入ります。区分建物に関する敷地権について表題部に最初に登記がされると、登記官は、その敷地権の目的である土地の登記記録について、職権で「敷地権である旨の登記」（法46条）をしなければなりません。当事者の申請を待たずに登記官が自ら行うため、「申請により」ではなく「職権で」が正解です。この登記により、それ以降は建物と土地が1つの不動産のように取り扱われます。
+⑦には「職権で」が入ります。区分建物に関する敷地権について表題部に最初に登記がされると、登記官は、その敷地権の目的である土地の登記記録について、職権で「敷地権である旨の登記」（法46条）をしなければなりません。
+
+当事者の申請を待たずに登記官が自ら行うため、「申請により」ではなく「職権で」が正解です。この登記により、それ以降は建物と土地が1つの不動産のように取り扱われます。
 
 **たとえば**、マンションを新築して敷地権付きの区分建物として最初に登記すると、所有者が別途申請しなくても、登記官がその土地の登記記録に「ここは敷地権になっていますよ」という旨を自動で記録してくれます。
+
+---
 
 ### まとめ
 
@@ -156,13 +181,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・専・棟・職・構・敷 — these
+kanji 号・録・権・地・建・物・登・記・所・専・職・構・敷 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -284,25 +327,25 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 9 exactly, with
 no duplicated or missing cards, that badge numbers run 1-9 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（①〜⑦ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、`infographic-prompt-template.md`の
 「⑤ 作図ガイド型」ルールに基づき、問題文を読んだときに実際に手を動かして
 描くべき図と、その図にたどり着くまでに**どの順番で何を確認するか**を示す
-作図ガイド。本問は肢ア〜オではなく空欄①〜⑦の穴埋め形式のため、見出しと
+作図ガイド。本問はア〜オではなく空欄①〜⑦の穴埋め形式のため、見出しと
 パネル構成は「ア〜オ」ではなく、②の区分建物（【Ａ】空欄①②③④⑤）・敷地
 権（【Ｂ】空欄⑥⑦）の定義を埋めるときに実際にたどる確認順序に沿って、
 5枚のパネルで構成した。パネル1（①構造上・⑤利用上）とパネル3（③専有
@@ -492,8 +535,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 号, 録, 権, 地, 番, 建, 物, 登, 記,
-所, 専, 棟, 職, 構, 敷. If any character renders as a Simplified or
+Chinese, paying special attention to 号, 録, 権, 地, 建, 物, 登, 記, 所, 専, 職, 構, 敷. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not
 standard Japanese hiragana, katakana, or Jōyō kanji — including any

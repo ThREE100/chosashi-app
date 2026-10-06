@@ -2,43 +2,55 @@
 
 **出題年度：平成30年度　午後の部　第4問**
 
-> 表示に関する登記の申請情報及び添付情報に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　同一の登記所に対して同時に二以上の申請をする場合において，各申請に共通する添付情報を一の申請の申請情報と併せて提供するときは，当該添付情報を当該一の申請の申請情報と併せて提供した旨を他の申請の申請情報の内容としなければならない。
->
-> イ　会社法人等番号を有しない法人が土地の地積に関する更正の登記を申請するときは，作成後3月以内の当該法人の代表者の資格を証する情報を添付情報として提供しなければならない。
->
-> ウ　表題部所有者の相続人が土地の分筆の登記を申請する場合において，その相続に関して法定相続情報一覧図の写しを添付情報として提供するときは，当該登記の申請人は，その表題部所有者の相続人である旨を申請情報の内容とする必要はない。
->
-> エ　電子申請により所有権の登記のある土地の合筆の登記の申請をする場合には，電子申請における添付情報の提供方法の特例（不動産登記令附則第5条に規定する添付情報の提供方法に関する特例）により，登記識別情報が記載された書面を添付情報として登記所に提出することができる。
->
-> オ　電子申請をした土地の地目に関する変更の登記の申請情報に補正することができる不備がある場合において，登記官が定めた相当の期間内に当該登記の申請人がその不備を補正するときは，当該登記の申請人は，電子情報処理組織を使用する方法により当該申請情報の補正をしなければならない。
->
+> 表示に関する登記の申請情報及び添付情報に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　同一の登記所に対して同時に二以上の申請をする場合において，各申請に共通する添付情報を一の申請の申請情報と併せて提供するときは，当該添付情報を当該一の申請の申請情報と併せて提供した旨を他の申請の申請情報の内容としなければならない。  
+>　  
+> イ　会社法人等番号を有しない法人が土地の地積に関する更正の登記を申請するときは，作成後3月以内の当該法人の代表者の資格を証する情報を添付情報として提供しなければならない。  
+>　  
+> ウ　表題部所有者の相続人が土地の分筆の登記を申請する場合において，その相続に関して法定相続情報一覧図の写しを添付情報として提供するときは，当該登記の申請人は，その表題部所有者の相続人である旨を申請情報の内容とする必要はない。  
+>　  
+> エ　電子申請により所有権の登記のある土地の合筆の登記の申請をする場合には，電子申請における添付情報の提供方法の特例（不動産登記令附則第5条に規定する添付情報の提供方法に関する特例）により，登記識別情報が記載された書面を添付情報として登記所に提出することができる。  
+>　  
+> オ　電子申請をした土地の地目に関する変更の登記の申請情報に補正することができる不備がある場合において，登記官が定めた相当の期間内に当該登記の申請人がその不備を補正するときは，当該登記の申請人は，電子情報処理組織を使用する方法により当該申請情報の補正をしなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-申請情報と添付情報の細かい取扱いは、「どこに何を書くか」「書面で出せるか、電子で出すのか」を条文レベルで押さえていないと迷います。援用・資格証明・相続人の表示・登記識別情報の提供方法・補正方法という、実務の入口にあたる論点を一つずつ確認していきましょう。
+---
+
+申請情報と添付情報の細かい取扱いは、「どこに何を書くか」「書面で出せるか、電子で出すのか」を条文レベルで押さえていないと迷います。
+
+援用・資格証明・相続人の表示・登記識別情報の提供方法・補正方法という、実務の入口にあたる論点を一つずつ確認していきましょう。
 
 ### ア：援用した添付情報は「前件添付」などと他の申請情報に記載する
 
-同一の登記所に同時に複数の申請をする場合、各申請に共通する添付情報を一つの申請にまとめて提供したときは、その添付情報を援用する旨を他の申請の申請情報の内容としなければなりません。具体的には、添付書面の名称を記載し、添付情報欄に「前件添付」または「後件添付」と記載します（規則37条2項）。
+同一の登記所に同時に複数の申請をする場合、各申請に共通する添付情報を一つの申請にまとめて提供したときは、その添付情報を援用する旨を他の申請の申請情報の内容としなければなりません。
+
+具体的には、添付書面の名称を記載し、添付情報欄に「前件添付」または「後件添付」と記載します（規則37条2項）。
 
 **たとえば**、隣り合う2筆の土地について同じ日に別々の申請をするとき、両方に共通する書面を1件目にまとめて付けたなら、2件目の申請情報には「前件添付」と書いて、1件目に援用した旨を示すことになります。
 
 ### イ：会社法人等番号のない法人は、3月以内の資格証明情報が必要
 
-会社法人等番号を有しない法人が申請するときは、代表者の資格を証する情報として資格証明書を添付します（令7条1項1号ロ）。具体的には当該法人の登記事項証明書がこれにあたり、この登記事項証明書は作成後3月以内のものでなければなりません。添付情報には「資格証明書」と記録します。
+会社法人等番号を有しない法人が申請するときは、代表者の資格を証する情報として資格証明書を添付します（令7条1項1号ロ）。
+
+具体的には当該法人の登記事項証明書がこれにあたり、この登記事項証明書は作成後3月以内のものでなければなりません。添付情報には「資格証明書」と記録します。
 
 **たとえば**、会社法人等番号を持たない特殊な法人が自分名義の土地の地積更正登記を申請するときは、代表者が誰であるかを示すため、作成から3月以内の登記事項証明書を用意しておく必要があります。
 
 ### ウ：相続人が申請するときは、相続人である旨を申請情報の内容とする
 
-申請人が相続人その他の一般承継人である場合には、表題部所有者または所有権の登記名義人の相続人その他の一般承継人である旨を申請情報の内容とします（令3条10号）。法定相続情報一覧図の写しを添付するかどうかにかかわらず、この「相続人である旨」の記載は必要であり、「必要はない」とする本肢は誤りです。
+申請人が相続人その他の一般承継人である場合には、表題部所有者または所有権の登記名義人の相続人その他の一般承継人である旨を申請情報の内容とします（令3条10号）。
+
+法定相続情報一覧図の写しを添付するかどうかにかかわらず、この「相続人である旨」の記載は必要であり、「必要はない」とする本肢は誤りです。
 
 **たとえば**、亡くなった父名義の土地を、相続した子が分筆登記で申請するとき、たとえ法定相続情報一覧図の写しを付けていても、申請情報には「申請人は表題部所有者〇〇の相続人である」旨をきちんと書かなければなりません。
 
 ### エ：電子申請では、登記識別情報を書面で提出することはできない
 
-電子申請の場合、登記識別情報の提供は、登記識別情報を電子情報処理組織を使用して入力する方法によって行います（規則66条1項1号）。添付情報を書面で提出できる特例方式（令附則5条）を使う場合であっても、登記識別情報だけは書面で提出することはできません（令附則5条1項かっこ書）。したがって「書面として提出することができる」とする本肢は誤りです。
+電子申請の場合、登記識別情報の提供は、登記識別情報を電子情報処理組織を使用して入力する方法によって行います（規則66条1項1号）。
+
+添付情報を書面で提出できる特例方式（令附則5条）を使う場合であっても、登記識別情報だけは書面で提出することはできません（令附則5条1項かっこ書）。したがって「書面として提出することができる」とする本肢は誤りです。
 
 **たとえば**、所有権の登記がある土地の合筆登記をオンラインで申請するとき、他の添付書類は特例方式で郵送・持参できても、登記識別情報については画面に入力して電子的に提供するしかなく、紙に書いて登記所に持ち込むことはできません。
 
@@ -47,6 +59,8 @@
 申請の補正の方法は、その申請をした方法によって異なります。電子申請をした場合には、補正もまた電子情報処理組織を使用する方法によってしなければなりません（規則60条2項1号）。
 
 **たとえば**、地目変更登記をオンラインで申請したところ登記官から補正を求められたとき、その手直しは窓口に紙を持って行くのではなく、同じオンラインの仕組みを使って申請情報を補正することになります。
+
+---
 
 ### まとめ
 
@@ -68,7 +82,7 @@
 - 出題年度・問題番号・正解番号（4番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠について、ア（不動産登記規則37条2項）、イ（不動産登記令7条1項1号ロ）、ウ（不動産登記令3条10号）、エ（不動産登記規則66条1項1号、不動産登記令附則5条1項かっこ書）、オ（不動産登記規則60条2項1号）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。一般原則からの推論にとどまる肢はありません。
 - 各肢の根拠は、ローカルのアガルート過去問テキスト（OCR化した解説）を条文根拠の一次情報源として参照しました。上記の条文番号は同解説の記載に基づいています。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（表示登記の申請情報及び添付情報）と同一・類似の論点がないか確認しました。**部分的な重複が見つかりました（現時点で公開済みの記事との競合はありません）。** 本問の肢ア（同一登記所への複数申請での添付情報の援用）は、令和3年度第5問肢ア（未公開）で「前件添付・後件添付」として同じ論点が扱われています。また、法定相続情報一覧図の添付に関する本問肢ウは、令和2年度第5問・令和5年度第19問・令和7年度第18問（いずれも未公開）など、法定相続情報一覧図を主題とする問題群と関連しますが、これらは法定相続情報一覧図を独立の主題として深掘りする問題であり、本問のような複数論点の中の一つとしての扱いとは焦点が異なります。令和3・7年度分の記事を今後作成する際は、この重複に留意してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（表示登記の申請情報及び添付情報）と同一・類似の論点がないか確認しました。**部分的な重複が見つかりました（現時点で公開済みの記事との競合はありません）。** 本問のア（同一登記所への複数申請での添付情報の援用）は、令和3年度第5問ア（未公開）で「前件添付・後件添付」として同じ論点が扱われています。また、法定相続情報一覧図の添付に関する本問ウは、令和2年度第5問・令和5年度第19問・令和7年度第18問（いずれも未公開）など、法定相続情報一覧図を主題とする問題群と関連しますが、これらは法定相続情報一覧図を独立の主題として深掘りする問題であり、本問のような複数論点の中の一つとしての扱いとは焦点が異なります。令和3・7年度分の記事を今後作成する際は、この重複に留意してください。
 
 ---
 
@@ -110,12 +124,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 証・続・識・補・図・登・記・相 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -198,20 +230,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。
 
@@ -293,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -318,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 他の申請情報に前件添付と記載
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 番号なし法人は3月以内の証明書が必要
@@ -337,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 3月以内の証明書のみ有効
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 一覧図を添付しても相続人の旨は記載必須
@@ -358,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一覧図があっても記載必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 登記識別情報だけは書面で出せない
@@ -379,7 +411,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 識別情報は電子入力のみ
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 電子申請の補正は電子情報処理組織で行う

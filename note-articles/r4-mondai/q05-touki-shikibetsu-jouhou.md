@@ -2,42 +2,55 @@
 
 **出題年度：令和4年度　午後の部　第5問**
 
-> 次の対話は、登記識別情報に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> 教授：まず、登記識別情報の通知について考えてみましょう。成年後見人が、いずれも成年被後見人が所有権の登記名義人である甲土地と乙土地について、成年被後見人の法定代理人として合筆の登記を申請し、その登記が完了したときは、登記識別情報は誰に対して通知されますか。
-> 学生：ア　登記識別情報は、成年後見人に対して通知されます。
->
-> 教授：いずれもA及びBが所有権の登記名義人である甲土地と乙土地について、A及びBが合筆の登記を申請し、その登記が完了したときは、登記識別情報はどのように通知されますか。
-> 学生：イ　登記官は、A又はBのいずれか一方に登記識別情報を通知すれば足ります。
->
-> 教授：次に、登記識別情報に関する証明について考えてみましょう。土地家屋調査士が本人を代理して登記識別情報に関する証明を請求する場合には、代理人の権限を証する情報を提供しなければなりませんか。
-> 学生：ウ　はい。代理人の権限を証する情報を提供しなければなりません。
->
-> 教授：それでは、登記識別情報に関する証明の請求は、電子情報処理組織を使用する方法により行うことができますか。
-> 学生：エ　はい。電子情報処理組織を使用する方法により行うことができます。
->
-> 教授：最後に、官庁又は公署が登記識別情報の通知を受けるべき者である場合には、登記識別情報は通知されますか。
-> 学生：オ　いいえ。当該官庁又は公署があらかじめ登記識別情報の通知を希望する旨の申出をした場合を除き、登記識別情報を通知することを要しないものとされています。
->
+> 次の対話は、登記識別情報に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> 教授：まず、登記識別情報の通知について考えてみましょう。成年後見人が、いずれも成年被後見人が所有権の登記名義人である甲土地と乙土地について、成年被後見人の法定代理人として合筆の登記を申請し、その登記が完了したときは、登記識別情報は誰に対して通知されますか。  
+>　  
+> 学生：ア　登記識別情報は、成年後見人に対して通知されます。  
+>　  
+> 教授：いずれもA及びBが所有権の登記名義人である甲土地と乙土地について、A及びBが合筆の登記を申請し、その登記が完了したときは、登記識別情報はどのように通知されますか。  
+>　  
+> 学生：イ　登記官は、A又はBのいずれか一方に登記識別情報を通知すれば足ります。  
+>　  
+> 教授：次に、登記識別情報に関する証明について考えてみましょう。土地家屋調査士が本人を代理して登記識別情報に関する証明を請求する場合には、代理人の権限を証する情報を提供しなければなりませんか。  
+>　  
+> 学生：ウ　はい。代理人の権限を証する情報を提供しなければなりません。  
+>　  
+> 教授：それでは、登記識別情報に関する証明の請求は、電子情報処理組織を使用する方法により行うことができますか。  
+>　  
+> 学生：エ　はい。電子情報処理組織を使用する方法により行うことができます。  
+>　  
+> 教授：最後に、官庁又は公署が登記識別情報の通知を受けるべき者である場合には、登記識別情報は通知されますか。  
+>　  
+> 学生：オ　いいえ。当該官庁又は公署があらかじめ登記識別情報の通知を希望する旨の申出をした場合を除き、登記識別情報を通知することを要しないものとされています。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 登記識別情報は、いわば新しい「権利証」にあたる12桁の符号です。この問題は、誰に・どのように通知されるのか、そして証明請求の手続はどうなるのかを、対話形式で問うものです。学生の解答が正しいか誤りかを一つずつ確かめていきます。
 
 ### ア：法定代理人が申請したときは、代理人（成年後見人）に通知される
 
-登記識別情報は、その登記によって申請人自らが登記名義人となる場合に、その申請人に対して通知されます（不動産登記法21条）。親権者・不在者財産管理人・成年後見人などの法定代理人が申請しているときは、法定代理人に通知されます（規則62条1項1号）。よって学生アの解答は正しい記述です。
+登記識別情報は、その登記によって申請人自らが登記名義人となる場合に、その申請人に対して通知されます（不動産登記法21条）。
+
+親権者・不在者財産管理人・成年後見人などの法定代理人が申請しているときは、法定代理人に通知されます（規則62条1項1号）。よって学生アの解答は正しい記述です。
 
 **たとえば**、成年被後見人の代わりに成年後見人が合筆の登記を申請して完了した場合、登記識別情報は本人（成年被後見人）ではなく、申請した成年後見人に対して通知されます。
 
 ### イ：共有名義の合筆では、A・Bそれぞれに通知される
 
-登記識別情報は、その登記によって申請人自らが登記名義人となる場合に、その申請人に通知されます（不動産登記法21条）。甲土地・乙土地がいずれもA・B共有で、A・Bが合筆の登記を申請したときは、AとBそれぞれに固有の登記識別情報が通知されます。「一方に通知すれば足りる」とする学生イの解答は誤りです。
+登記識別情報は、その登記によって申請人自らが登記名義人となる場合に、その申請人に通知されます（不動産登記法21条）。
+
+甲土地・乙土地がいずれもA・B共有で、A・Bが合筆の登記を申請したときは、AとBそれぞれに固有の登記識別情報が通知されます。「一方に通知すれば足りる」とする学生イの解答は誤りです。
 
 **たとえば**、AさんとBさんの共有地2筆を合筆して1筆にした場合、合筆後の土地の登記識別情報はAさんの分・Bさんの分と別々に通知されます。二人でひとつではなく、名義人ごとに1つずつ発行されるイメージです。
 
 ### ウ：調査士が代理して証明請求するとき、「権限を証する情報」は不要
 
-資格者代理人（土地家屋調査士など）が登記識別情報に関する証明を代理で請求するときは、自分が登記申請の代理を業とできる者であることを証する情報（発行後3か月以内の調査士会発行の職印証明書等）を提供しなければなりません（規則68条14項）。一方で、この場合、代理人の権限を証する情報（委任状）を提供する必要はありません。よって「提供しなければならない」とする学生ウの解答は誤りです。
+資格者代理人（土地家屋調査士など）が登記識別情報に関する証明を代理で請求するときは、自分が登記申請の代理を業とできる者であることを証する情報（発行後3か月以内の調査士会発行の職印証明書等）を提供しなければなりません（規則68条14項）。
+
+一方で、この場合、代理人の権限を証する情報（委任状）を提供する必要はありません。よって「提供しなければならない」とする学生ウの解答は誤りです。
 
 **たとえば**、依頼者から頼まれた調査士が登記識別情報の有効証明を請求する場合、「私は調査士です」と示す職印証明書は必要ですが、委任状などの権限を証する書面までは求められません。
 
@@ -49,9 +62,13 @@
 
 ### オ：官庁・公署は、希望の申出がなければ通知されない
 
-登記識別情報の通知を受けるのが官庁または公署である場合は、私人とは逆に、原則として通知を受けません。あらかじめ通知を希望する旨の申出をした場合を除き、通知することを要しないとされています（規則64条1項4号かっこ書）。よって学生オの解答は正しい記述です。
+登記識別情報の通知を受けるのが官庁または公署である場合は、私人とは逆に、原則として通知を受けません。
+
+あらかじめ通知を希望する旨の申出をした場合を除き、通知することを要しないとされています（規則64条1項4号かっこ書）。よって学生オの解答は正しい記述です。
 
 **たとえば**、国や地方公共団体が登記名義人となる場合、放っておくと登記識別情報は通知されません。通知してほしいなら、官庁・公署の側からあらかじめ「希望します」と申し出ておく必要があります。
+
+---
 
 ### まとめ
 
@@ -113,12 +130,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 識・別・報・権・証・記・庁・処 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -203,20 +238,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 識・別・報・権・証・記・庁・処. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no
 duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting (3 cards under 登記識別情報の通知
 に関する原則, 2 cards under 登記識別情報の証明請求に関する手続), confirm
 there is no intro illustration or paragraph block between the header and
 the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading +
-a short conclusion tag, at a glance.
+a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（通知先が本人か代理人かの分岐、共有者ごとの発行数、証明請求で必要な書類の見分け方など）を肢ごとに示す作図ガイドを追加した。原則と例外が絡む肢（ア・オ）は分岐条件を明示した決定木として、単一の確認や対比で足りる肢（イ・ウ・エ）はチェックリストや思い込み対比図として描き分けている。
 
@@ -258,7 +293,15 @@ one combined check).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -284,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -312,7 +355,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代理人に通知される
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 共有のときは代表者一人でなく全員に通知
@@ -332,7 +375,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 名義人ごとに通知
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 資格者代理人が出す書類は職印証明書のみ
@@ -350,7 +393,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 委任状は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 証明請求は書面でもオンラインでもよい
@@ -369,7 +412,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 オンライン請求も可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 官庁・公署は申出の有無で通知の可否が変わる
@@ -400,17 +443,17 @@ Small footnote text (bottom of panel, small font, verbatim):
 （オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 識・別・報・権・証・記・庁・処・請・筆・書・職. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 識・別・報・権・証・記・庁・処・請・筆・書・職. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
-numbers run 1-5 continuously (肢ア・肢イ・肢ウ・肢エ・肢オ in order), with
+numbers run 1-5 continuously (ア・イ・ウ・エ・オ in order), with
 no duplicated or missing panels, confirm there is no intro illustration
 or paragraph block between the header and the panels, confirm that panels
-1 and 5 (肢ア and 肢オ) are drawn as actual decision flowcharts with
+1 and 5 (ア and オ) are drawn as actual decision flowcharts with
 diamond branch nodes and an explicit conclusion node on BOTH the Yes side
 and the No side, with no arrow looping back into an earlier part of the
-diagram, confirm that panels 2, 3 and 4 (肢イ・肢ウ・肢エ) remain
+diagram, confirm that panels 2, 3 and 4 (イ・ウ・エ) remain
 single-check illustrative diagrams or correct-vs-mistaken-belief
 comparisons rather than being forced into unnecessary flowcharts, confirm
 each 着眼点 callout states a checking order rather than only a conclusion

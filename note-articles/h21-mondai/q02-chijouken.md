@@ -2,51 +2,71 @@
 
 **出題年度：平成21年度　午後の部　第2問**
 
-> 地上権に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記１から５までのうちどれか。
->
-> ア　工作物の所有を目的として設定された地上権は、設定後にその工作物が滅失したときは、消滅する。
->
-> イ　地上権を時効によって取得するためには、土地の継続的な使用という外形的事実が存在し、かつ、その使用が地上権行使の意思に基づくものであることが客観的に表現されていることが必要である。
->
-> ウ　地上権者は、土地の所有者の承諾を得ないで、地上権を譲渡し、又は地上権を目的とする抵当権を設定することができる。
->
-> エ　地上権者は、設定契約において特段の定めがない場合であっても、土地の所有者に対して地代の支払義務を負い、その場合の地代の額は、当事者の請求により裁判所が定める。
->
-> オ　定期の地代を支払うべき地上権者が、引き続き２年以上地代の支払を怠ったときは、土地の所有者は、地上権の消滅を請求することができる。
->
+> 地上権に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　工作物の所有を目的として設定された地上権は、設定後にその工作物が滅失したときは、消滅する。  
+>　  
+> イ　地上権を時効によって取得するためには、土地の継続的な使用という外形的事実が存在し、かつ、その使用が地上権行使の意思に基づくものであることが客観的に表現されていることが必要である。  
+>　  
+> ウ　地上権者は、土地の所有者の承諾を得ないで、地上権を譲渡し、又は地上権を目的とする抵当権を設定することができる。  
+>　  
+> エ　地上権者は、設定契約において特段の定めがない場合であっても、土地の所有者に対して地代の支払義務を負い、その場合の地代の額は、当事者の請求により裁判所が定める。  
+>　  
+> オ　定期の地代を支払うべき地上権者が、引き続き２年以上地代の支払を怠ったときは、土地の所有者は、地上権の消滅を請求することができる。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
+
+---
 
 地上権は、他人の土地に工作物や竹木を所有するための「物権」です。ポイントは、賃借権のような債権とは異なり、土地の持ち主の意向に左右されにくい強い権利であること、そして地代の支払は当然の要素ではないことです。この2つの性質を軸に各肢を見ていきましょう。
 
 ### ア：工作物が滅失しても、地上権は消滅しない
 
-工作物の所有を目的とする地上権であっても、その工作物が滅失したことは地上権の消滅事由ではありません。地上権はあくまで「土地を利用する権利」なので、上に建っていた工作物がなくなっても、権利者はその土地に改めて工作物を建てて使い続けることができます。したがって、「工作物が滅失したときは消滅する」とするこの肢は誤りです。
+工作物の所有を目的とする地上権であっても、その工作物が滅失したことは地上権の消滅事由ではありません。
 
-**たとえば**、他人の土地に倉庫を建てるための地上権を持っていた人が、火事で倉庫を失ってしまったとします。それでも土地を使う権利そのものは残っているので、その人は同じ土地に倉庫を建て直して利用を続けることができます。倉庫が焼けた瞬間に土地の権利まで消えてしまうわけではないのです。
+地上権はあくまで「土地を利用する権利」なので、上に建っていた工作物がなくなっても、権利者はその土地に改めて工作物を建てて使い続けることができます。したがって、「工作物が滅失したときは消滅する」とするこの肢は誤りです。
+
+**たとえば**、他人の土地に倉庫を建てるための地上権を持っていた人が、火事で倉庫を失ってしまったとします。
+
+それでも土地を使う権利そのものは残っているので、その人は同じ土地に倉庫を建て直して利用を続けることができます。倉庫が焼けた瞬間に土地の権利まで消えてしまうわけではないのです。
 
 ### イ：地上権の時効取得には、外形的事実と意思の客観的表現が必要
 
-地上権を時効によって取得するためには、単に土地を使っていたというだけでは足りません。判例は、土地の継続的な使用という外形的事実が存在し、かつ、その使用が地上権を行使する意思に基づくものであることが客観的に表現されていることを要求しています。これは、賃借人や単なる占有者の使用と区別するための要件です。この肢は正しい内容です。
+地上権を時効によって取得するためには、単に土地を使っていたというだけでは足りません。
 
-**たとえば**、他人の土地に自分名義の建物を建てて長年住み続け、しかも地代を払い続けているといった事情があれば、「これは借りているのではなく、地上権を行使しているのだ」という意思が外から見て分かります。ただ通り道として使っていたというだけでは、この「客観的な表現」が足りず、時効取得は認められません。
+判例は、土地の継続的な使用という外形的事実が存在し、かつ、その使用が地上権を行使する意思に基づくものであることが客観的に表現されていることを要求しています。これは、賃借人や単なる占有者の使用と区別するための要件です。この肢は正しい内容です。
+
+**たとえば**、他人の土地に自分名義の建物を建てて長年住み続け、しかも地代を払い続けているといった事情があれば、「これは借りているのではなく、地上権を行使しているのだ」という意思が外から見て分かります。
+
+ただ通り道として使っていたというだけでは、この「客観的な表現」が足りず、時効取得は認められません。
 
 ### ウ：地上権者は、土地所有者の承諾なく譲渡・抵当権設定ができる
 
-地上権は物権であり、権利者が自由に処分できる財産です。そのため、地上権者は土地の所有者の承諾を得ることなく、地上権を第三者に譲渡したり、地上権を目的として抵当権を設定したりすることができます。所有者の承諾がなければ譲渡できない賃借権とは、この点で大きく異なります。この肢は正しい内容です。
+地上権は物権であり、権利者が自由に処分できる財産です。そのため、地上権者は土地の所有者の承諾を得ることなく、地上権を第三者に譲渡したり、地上権を目的として抵当権を設定したりすることができます。
 
-**たとえば**、他人の土地に対する地上権を持っている人が、その権利を別の人に売ったり、地上権を担保に入れてお金を借りたりする場合、土地の持ち主にいちいち「譲ってもいいですか」と許可を求める必要はありません。物権である地上権は、自分の財産として自由に動かせるのです。
+所有者の承諾がなければ譲渡できない賃借権とは、この点で大きく異なります。この肢は正しい内容です。
+
+**たとえば**、他人の土地に対する地上権を持っている人が、その権利を別の人に売ったり、地上権を担保に入れてお金を借りたりする場合、土地の持ち主にいちいち「譲ってもいいですか」と許可を求める必要はありません。
+
+物権である地上権は、自分の財産として自由に動かせるのです。
 
 ### エ：特段の定めがなければ、地上権者は地代の支払義務を負わない
 
-学生の理解を試すこの肢は誤りです。地上権における地代は、設定契約で定めがあって初めて発生する要素であり、特段の定めがなければ地上権者は地代の支払義務を負いません。無償の地上権もあり得るということです。また、「地代の額を当事者の請求により裁判所が定める」という制度もありません。有償であることが前提の賃貸借と混同しないよう注意が必要です。
+学生の理解を試すこの肢は誤りです。地上権における地代は、設定契約で定めがあって初めて発生する要素であり、特段の定めがなければ地上権者は地代の支払義務を負いません。
 
-**たとえば**、親族や知人の好意で、無償でその土地に建物を建てる地上権を設定してもらった場合、契約で地代を決めていなければ、後から「地代を払え」と当然に請求されることはありません。地代はあくまで当事者が約束したときに発生するものであり、黙っていても発生する家賃のようなものではないのです。
+無償の地上権もあり得るということです。また、「地代の額を当事者の請求により裁判所が定める」という制度もありません。有償であることが前提の賃貸借と混同しないよう注意が必要です。
+
+**たとえば**、親族や知人の好意で、無償でその土地に建物を建てる地上権を設定してもらった場合、契約で地代を決めていなければ、後から「地代を払え」と当然に請求されることはありません。
+
+地代はあくまで当事者が約束したときに発生するものであり、黙っていても発生する家賃のようなものではないのです。
 
 ### オ：2年以上地代を怠れば、所有者は地上権の消滅を請求できる
 
 地代を支払うべき地上権について、地上権者が引き続き2年以上地代の支払を怠ったときは、土地の所有者は地上権の消滅を請求することができます。これは、地代が定められている有償の地上権の場合の、所有者側の救済手段です。この肢は正しい内容です。
 
 **たとえば**、地代を払う約束で土地に地上権を設定してもらった人が、2年を超えて地代を滞納し続けたとします。この場合、土地の持ち主は「もうこの地上権は消滅させます」と請求することができ、長期の滞納から土地を取り戻せる仕組みになっています。
+
+---
 
 ### まとめ
 
@@ -83,7 +103,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -106,10 +126,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 KANJI ACCURACY WARNING: the characters 権・地・物・滅・譲・渡・承・諾 appear
 repeatedly in this poster. These are especially easy to render as
@@ -189,18 +227,18 @@ Conclusion tag (short blue banner/pill):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 (地上権の5論点: 工作物の滅失・時効取得の要件・承諾なしの譲渡と抵当権設定・
 地代の任意性・2年滞納による消滅請求), with no duplicated or missing cards,
 confirm there is no intro illustration or paragraph block between the header
 and the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading + a
-short conclusion tag, at a glance.
+short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -217,11 +255,11 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric land-plot scenes with a small
 warehouse icon (工作物), a magnifying glass and checkbox icons (時効取得
 の要件), a contract scroll icon (譲渡・地代の定め), and a calendar/coin
-icon (地代の滞納). Panel 2（肢イ）is the only 肢 in this set that requires
+icon (地代の滞納). Panel 2（イ）is the only 肢 in this set that requires
 checking two conditions together (both must be satisfied at once, not a
 sequence of either/or branches), so draw it as an actual flowchart with
 two diamond nodes in series joined by an AND relationship and a single
-final conclusion node. The other 4 panels（肢ア・肢ウ・肢エ・肢オ）are each
+final conclusion node. The other 4 panels（ア・ウ・エ・オ）are each
 resolved by a single check, so draw a labeled illustrative diagram for
 them instead of forcing a flowchart. Do not include case or precedent
 numbers (article/regulation numbers are fine); keep the callout text as
@@ -230,7 +268,15 @@ written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -254,7 +300,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 工作物が滅失しても地上権は消えない
@@ -271,7 +317,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 土地利用権は残る
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 時効取得には2つの要件がそろって必要
@@ -294,7 +340,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 両方そろって時効取得
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 地主の承諾なく譲渡・抵当権設定できる
@@ -312,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾なしで処分自由
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 定めがなければ地代は発生しない
@@ -329,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 定めなければ地代不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 2年以上の滞納で消滅請求できる
@@ -351,11 +397,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法265条・266条・267条・269条・369条2項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権・地・物・滅・譲・渡・承・諾 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panel 2 alone is drawn as an
 actual two-diamond AND flowchart while Panels 1・3・4・5 are simple

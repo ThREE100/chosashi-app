@@ -2,19 +2,21 @@
 
 **出題年度：平成26年度　午後の部　第18問**
 
-> 登記事項の証明等に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　閉鎖された地図に準ずる図面については，請求人が利害関係を有する部分に限り，その写しの交付を請求することができる。
->
-> イ　一棟の建物に属する全ての区分建物である建物の登記記録に記録されている事項のうち現に効力を有するものを証明した書面の交付を請求することができる。
->
-> ウ　電磁的記録に記録されている地役権図面の内容を証明した書面の交付の請求は，電子情報処理組織を使用して請求情報を登記所に提供する方法によることができる。
->
-> エ　区分建物の表題登記が申請された場合に添付情報として提供された敷地権に関する規約を設定したことを証する情報を記載した書面については，請求人が利害関係を有する部分に限り，その写しの交付を請求することができる。
->
-> オ　登記記録に記録されている事項の概要を記載した書面の交付の請求は，請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してもすることができる。
->
+> 登記事項の証明等に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　閉鎖された地図に準ずる図面については，請求人が利害関係を有する部分に限り，その写しの交付を請求することができる。  
+>　  
+> イ　一棟の建物に属する全ての区分建物である建物の登記記録に記録されている事項のうち現に効力を有するものを証明した書面の交付を請求することができる。  
+>　  
+> ウ　電磁的記録に記録されている地役権図面の内容を証明した書面の交付の請求は，電子情報処理組織を使用して請求情報を登記所に提供する方法によることができる。  
+>　  
+> エ　区分建物の表題登記が申請された場合に添付情報として提供された敷地権に関する規約を設定したことを証する情報を記載した書面については，請求人が利害関係を有する部分に限り，その写しの交付を請求することができる。  
+>　  
+> オ　登記記録に記録されている事項の概要を記載した書面の交付の請求は，請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してもすることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 登記事項の証明・閲覧に関するこの問題は、どの書類が誰でも取得できるものか、どの書類がオンライン請求に対応しているか、どの登記所に請求できるかという3つの角度から、実務上のルールの細部を問うものです。
 
@@ -33,24 +35,34 @@
 **ここが分かりにくいポイント**：
 登記事項証明書は「1つの不動産（1つの区分建物）ごとに、その不動産番号や家屋番号を指定して請求するもの」というイメージが強いため、「一棟の建物に属するすべての区分建物を、まとめて1通の証明書にする」という発想自体が思い浮かばず、「そんな証明書は存在しないはず」と考えて誤りだと判断してしまいがちです。
 
-しかし、不動産登記規則196条1項は、登記事項証明書の種類を6号に分けて定めており、5号「一棟建物全部事項証明書」・6号「一棟建物現在事項証明書」として、一棟の建物に属するすべての区分建物をまとめて証明する書類の存在を明文で認めています。本肢が問うているのは、このうち6号にあたる「現に効力を有するもの」（現在事項）の証明書であり、過去の履歴まで含む5号の「全部」（全部事項）とは範囲が異なる点も、あわせて押さえておくとよいでしょう。
+しかし、不動産登記規則196条1項は、登記事項証明書の種類を6号に分けて定めており、5号「一棟建物全部事項証明書」・6号「一棟建物現在事項証明書」として、一棟の建物に属するすべての区分建物をまとめて証明する書類の存在を明文で認めています。
+
+本肢が問うているのは、このうち6号にあたる「現に効力を有するもの」（現在事項）の証明書であり、過去の履歴まで含む5号の「全部」（全部事項）とは範囲が異なる点も、あわせて押さえておくとよいでしょう。
 
 「証明書は1つの不動産につき1通」という思い込みを外し、区分建物には「一棟まとめて」という特別な証明書の種類が用意されていることを知っていれば、この肢に自信を持って正しいと判断できます。
 
 ### ウ：電磁的記録の地役権図面の証明書交付請求は、オンラインで行うことができる
 
-電磁的記録に記録されている地役権図面の内容を証明した書面の交付の請求は、電子情報処理組織を使用して請求情報を登記所に提供する方法（いわゆるオンライン請求）によることができます。地役権図面が電子データとして保存されている場合、その証明書の交付請求も電子的な手続で完結させることができます。
+電磁的記録に記録されている地役権図面の内容を証明した書面の交付の請求は、電子情報処理組織を使用して請求情報を登記所に提供する方法（いわゆるオンライン請求）によることができます。
+
+地役権図面が電子データとして保存されている場合、その証明書の交付請求も電子的な手続で完結させることができます。
 
 **たとえば**、ある土地に設定された地役権の図面が電磁的記録として登記所に保存されている場合、その図面の証明書の交付を、窓口に出向くことなく、インターネットを通じたオンライン請求によって申請することができます。
 
 ### エ：規約を証する情報を記載した書面は、そもそも写しの交付を請求できる書類ではない
 
-登記簿の附属書類のうち、誰でも手数料を納付して写しの交付を請求できるのは、不動産登記法121条1項・不動産登記令21条1項が列挙する「土地所在図、地積測量図、地役権図面、建物図面及び各階平面図」の5種類の図面に限られます。区分建物の表題登記の添付情報として提供された「敷地権に関する規約を設定したことを証する情報を記載した書面」は、この5種類の図面のいずれにも当たらないため、そもそも写しの交付を請求することはできません（不動産登記法121条3項により、正当な理由があるときに、その正当な理由があると認められる部分に限って閲覧を請求できるにとどまります）。「請求人が利害関係を有する部分に限り、その写しの交付を請求することができる」とする記述は、「写しの交付」自体ができない書類であるという点で誤りです。
+登記簿の附属書類のうち、誰でも手数料を納付して写しの交付を請求できるのは、不動産登記法121条1項・不動産登記令21条1項が列挙する「土地所在図、地積測量図、地役権図面、建物図面及び各階平面図」の5種類の図面に限られます。
+
+区分建物の表題登記の添付情報として提供された「敷地権に関する規約を設定したことを証する情報を記載した書面」は、この5種類の図面のいずれにも当たらないため、そもそも写しの交付を請求することはできません（不動産登記法121条3項により、正当な理由があるときに、その正当な理由があると認められる部分に限って閲覧を請求できるにとどまります）。
+
+「請求人が利害関係を有する部分に限り、その写しの交付を請求することができる」とする記述は、「写しの交付」自体ができない書類であるという点で誤りです。
 
 **たとえば**、あるマンションの敷地権について規約が設定された経緯を確認したい場合、規約を証する情報を記載した書面そのものの写しをもらうことはできず、正当な理由があると認められれば、その書面のうち正当な理由が認められる部分を閲覧することができるにとどまります。
 
 **ここが分かりにくいポイント**：
-本肢の文章は「請求人が利害関係を有する部分に限り、その写しの交付を請求することができる」となっているため、多くの受験生は「利害関係があるかないか」という軸で正誤を判断しようとします。「利害関係があれば写しがもらえて、なければもらえない」という発想自体は、登記簿の附属書類に関する他の論点（正当な理由があれば閲覧できる、等）と似ているため、もっともらしく感じられてしまいます。
+本肢の文章は「請求人が利害関係を有する部分に限り、その写しの交付を請求することができる」となっているため、多くの受験生は「利害関係があるかないか」という軸で正誤を判断しようとします。
+
+「利害関係があれば写しがもらえて、なければもらえない」という発想自体は、登記簿の附属書類に関する他の論点（正当な理由があれば閲覧できる、等）と似ているため、もっともらしく感じられてしまいます。
 
 しかし、この肢の急所は「利害関係の有無」ではなく、そもそも「写しの交付という制度の対象になる書類かどうか」という一段階手前の問題です。次の順序で確認してください。
 
@@ -63,21 +75,33 @@
 
 ### オ：登記事項概要証明書の交付請求は、不動産所在地の登記所に対してのみ行う
 
-登記記録に記録されている事項の概要を記載した書面（登記事項概要証明書）の交付の請求は、請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してもすることができる、という記述は誤りです。不動産登記法119条5項は「第一項の交付の請求は…請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してもすることができる」と定めていますが、これはあくまで同条1項（登記事項証明書）の交付請求について任意の登記所での請求を認めるものであり、2項（登記事項概要証明書）の交付請求には及びません。したがって、登記事項概要証明書は、原則として不動産の所在地を管轄する登記所に対してのみ請求することができます。全国どこの登記所でも取得できる登記事項証明書とは異なり、管轄の制限がある点に注意が必要です。
+登記記録に記録されている事項の概要を記載した書面（登記事項概要証明書）の交付の請求は、請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してもすることができる、という記述は誤りです。
+
+不動産登記法119条5項は「第一項の交付の請求は…請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してもすることができる」と定めていますが、これはあくまで同条1項（登記事項証明書）の交付請求について任意の登記所での請求を認めるものであり、2項（登記事項概要証明書）の交付請求には及びません。
+
+したがって、登記事項概要証明書は、原則として不動産の所在地を管轄する登記所に対してのみ請求することができます。
+
+全国どこの登記所でも取得できる登記事項証明書とは異なり、管轄の制限がある点に注意が必要です。
 
 **たとえば**、東京にある不動産の登記事項概要証明書を取得したい場合、大阪の登記所の窓口では請求することができず、その不動産の所在地を管轄する登記所に対して請求する必要があります。
 
 **ここが分かりにくいポイント**：
-「登記事項証明書は、全国どこの登記所でも取得できる」というのは、実務でもよく知られた有名なルールです。この知識が強く印象に残っているほど、「登記事項概要証明書」という似た名前の書類についても、同じように全国どこでも取得できるはずだと類推してしまい、本肢を正しいと判断しがちです。
+「登記事項証明書は、全国どこの登記所でも取得できる」というのは、実務でもよく知られた有名なルールです。
+
+この知識が強く印象に残っているほど、「登記事項概要証明書」という似た名前の書類についても、同じように全国どこでも取得できるはずだと類推してしまい、本肢を正しいと判断しがちです。
 
 しかし、不動産登記法119条を分けて読むと、この2つは別の項に規定された別の書類です。
 
 1. 119条1項：登記記録に記録されている事項の「全部又は一部」を証明した書面（登記事項証明書）
 2. 119条2項：登記記録に記録されている事項の「概要」を記載した書面（登記事項概要証明書）
 
-そして119条5項は「第一項の交付の請求は…請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してもすることができる」と定めており、この「全国どこでも請求できる」という特則は、あくまで1項（登記事項証明書）についてのものです。2項（登記事項概要証明書）にこの特則が及ぶとは書かれていません。したがって、登記事項概要証明書は、原則どおり不動産の所在地を管轄する登記所に対してのみ請求することができます。
+そして119条5項は「第一項の交付の請求は…請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してもすることができる」と定めており、この「全国どこでも請求できる」という特則は、あくまで1項（登記事項証明書）についてのものです。
+
+2項（登記事項概要証明書）にこの特則が及ぶとは書かれていません。したがって、登記事項概要証明書は、原則どおり不動産の所在地を管轄する登記所に対してのみ請求することができます。
 
 「証明書」という名前が似ているからといって、適用されるルールまで同じとは限りません。条文が「第一項の」と主語を限定している場合は、その限定の範囲を超えて類推しないことが、この手の肢を正しく解く鍵になります。
+
+---
 
 ### まとめ
 
@@ -99,7 +123,7 @@
 - 出題年度・問題番号・正解番号（3番＝イ・ウ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - イ（一棟の建物に属する区分建物全部の証明書交付請求）は、不動産登記規則196条1項6号「一棟建物現在事項証明書　一棟の建物に属するすべての区分建物である建物の登記記録に記録されている事項のうち現に効力を有するもの」で確認済みです。ウ（電磁的記録の地役権図面のオンライン請求）、エ（規約証明情報は121条1項の5種類の図面に当たらず写しの交付を請求できないこと、及び3項の閲覧の限度）、オ（登記事項概要証明書は119条5項の適用対象外で所在地管轄の登記所限定であること）は、`note-articles/laws/fudousan-touki-hou.md`と`note-articles/laws/fudousan-touki-rei.md`に保存した条文原文（不動産登記法119条・120条・121条、不動産登記令21条1項）で確認済みです。ア（閉鎖された地図に準ずる図面の閲覧に利害関係の限定がないこと）は、不動産登記法120条の文言（「地図等」に地図に準ずる図面を含み、閉鎖されたものを除外する規定が見当たらないこと）と整合していますが、閉鎖後の取扱いに関する明文の確認までは至っていません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。登記事項の証明・閲覧の請求方法がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記法・不動産登記令・不動産登記規則の現行条文（2026-08-04取得）で全肢を再確認し、肢イの根拠条文（規則196条1項6号）を新たに条文上確認しました。肢エについては、当初記載していた「利害関係の限定なく誰でも交付請求できる」ではなく、「規約証明情報は不動産登記令21条1項が列挙する5種類の図面に当たらないため、そもそも写しの交付を請求できる書類ではない（閲覧のみ、正当な理由がある場合に限り可能）」が正確な法的根拠であることを既に確認済みで、本文・まとめを訂正済みです。他の肢の結論に影響する法改正は見当たりません。
+- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記法・不動産登記令・不動産登記規則の現行条文（2026-08-04取得）で全肢を再確認し、イの根拠条文（規則196条1項6号）を新たに条文上確認しました。エについては、当初記載していた「利害関係の限定なく誰でも交付請求できる」ではなく、「規約証明情報は不動産登記令21条1項が列挙する5種類の図面に当たらないため、そもそも写しの交付を請求できる書類ではない（閲覧のみ、正当な理由がある場合に限り可能）」が正確な法的根拠であることを既に確認済みで、本文・まとめを訂正済みです。他の肢の結論に影響する法改正は見当たりません。
 - **分かりにくいポイントの追加とインフォグラフィックの修正（2026-09-18）**：イ・エ・オの3肢について、正誤の結論には納得できても、なぜそうなるのか自力でたどり着けなかった、というフィードバックを受け、「ここが分かりにくいポイント」を本文に追加しました。イは規則196条1項5号・6号（一棟建物全部事項証明書・一棟建物現在事項証明書）の存在を、エは121条1項・令21条1項の5種類限定列挙と3項の閲覧規定の関係を、オは119条1項（登記事項証明書）と2項（登記事項概要証明書）の違い、5項の特則が1項にのみ及ぶことを、それぞれ条文本文（`laws/fudousan-touki-hou.md`「第119条」「第121条」の項、`laws/fudousan-touki-rei.md`「第21条」の項、`laws/fudousan-touki-kisoku-2.md`「第百九十六条」の項）を実際にGrep・Readして確認したうえで整理しました。あわせて、問題全体インフォグラフィックのCard3が「規約の証明書も誰でも請求可」となっており、上記エの訂正済みの結論（写しの交付は不可、閲覧のみ）と矛盾したままになっていたことに気づいたため、Card3の内容も訂正しました。3肢それぞれの間違いノート型インフォグラフィックも新規に追加しました。正誤判定・正解の組合せ自体（イウの組合せ、選択肢3番）は変更していません。
 - **結論タグの明確化（2026-09-28）**：問題全体インフォグラフィックCard3、および⑤作図ガイドPanel4の結論タグが、いずれも単に「写しの交付は不可」となっており、「（登記事項証明書や地役権図面等も含め）写しの交付は一切できない」という誤読を招きかねない表現になっていたため、「規約の写しの交付は不可」に修正し、対象が規約証明情報の写しに限られることを明示しました。内容・結論自体に変更はありません。
 
@@ -142,12 +166,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 証・記・権・録・閉・棟・轄・閲・覧 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -231,22 +273,22 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
 ## インフォグラフィック プロンプト（イ肢・間違いノート）
 
-肢イでつまずきやすいのは、「証明書は1つの不動産ごとに請求するもの」という思い込みで、一棟の建物をまとめて証明する特別な種類の存在自体を知らない点です。規則196条1項が定める6種類の証明書を対比で示します。
+イでつまずきやすいのは、「証明書は1つの不動産ごとに請求するもの」という思い込みで、一棟の建物をまとめて証明する特別な種類の存在自体を知らない点です。規則196条1項が定める6種類の証明書を対比で示します。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
@@ -265,7 +307,15 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 棟・証・明・書・現・
 効・力・区・分 — always draw the standard Japanese (Jōyō) form.
@@ -308,7 +358,7 @@ RIGHT PANEL (green, heading「実際の6種類（規則196条1項）」):
 ここには書かない。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, panel label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters,
 confirm the LEFT and RIGHT panels are aligned at the same height item by
@@ -323,7 +373,7 @@ transparency or alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（エ肢・間違いノート）
 
-肢エでつまずきやすいのは、「利害関係があるかどうか」という軸で判断しようとしてしまい、「そもそも写しの交付の対象になる書類かどうか」という一段階手前の確認を飛ばしてしまう点です。2段階の判定フローで示します。
+エでつまずきやすいのは、「利害関係があるかどうか」という軸で判断しようとしてしまい、「そもそも写しの交付の対象になる書類かどうか」という一段階手前の確認を飛ばしてしまう点です。2段階の判定フローで示します。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -343,7 +393,15 @@ and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 附・属・書・類・写・
 閲・覧・理・由 — always draw the standard Japanese (Jōyō) form.
@@ -393,7 +451,7 @@ Result node: 写しの交付はそもそもできない。121条3項により、
 具体的な番号はここには書かない。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters,
 confirm the flowchart has exactly one decision node with two branches,
@@ -408,7 +466,7 @@ transparency or alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（オ肢・間違いノート）
 
-肢オでつまずきやすいのは、「登記事項証明書は全国どこでも取得できる」という有名な原則を、名前の似た「登記事項概要証明書」にもそのまま当てはめてしまう点です。119条1項と2項の違いを対比で示します。
+オでつまずきやすいのは、「登記事項証明書は全国どこでも取得できる」という有名な原則を、名前の似た「登記事項概要証明書」にもそのまま当てはめてしまう点です。119条1項と2項の違いを対比で示します。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
@@ -427,7 +485,15 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 証・明・書・概・要・
 管・轄・登・記・所 — always draw the standard Japanese (Jōyō) form.
@@ -470,7 +536,7 @@ RIGHT PANEL (beige, heading「119条2項：登記事項概要証明書（本肢�
 ここには書かない。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, panel label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters,
 confirm the LEFT and RIGHT panels are aligned at the same height item by
@@ -483,7 +549,7 @@ transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスター、上記の④間違いノート（イ・エ・オ）とは別物で、それらの内容は書き換えない。アは正誤対比型、イ・エ・オは原則と例外・段階を持つ判定のため決定木（フローチャート）、ウは請求の経路を順に確認する配置図として構成した。
 
@@ -563,7 +629,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled blue circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -584,7 +650,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 利害関係は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 一棟まとめの証明書の有無を確認する
@@ -616,7 +682,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一棟まとめも六号で可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line):
 地役権図面が電磁的記録かを確認する
@@ -639,7 +705,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 オンライン請求 可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 写しの交付対象になる書類かを先に確認する
@@ -652,7 +718,7 @@ Diamond branch node, labeled「その書類は、不動産登記令21条1項が�
 のいずれかに当たるか？」("does this document fall under one of the five
 types of drawings listed in Article 21(1) of the Real Property
 Registration Order — 土地所在図, 地積測量図, 地役権図面, 建物図面,
-各階平面図?"). The ○ (yes) arrow leads to a conclusion node reading
+各階平面図？"). The ○ (yes) arrow leads to a conclusion node reading
 「利害関係の有無にかかわらず、誰でも写しの交付を請求できる」("anyone can
 request a copy, regardless of whether they have an interest"). The ✕
 (no — this panel's case, highlighted) arrow leads to a blue-highlighted
@@ -669,7 +735,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規約の写しの交付は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line):
 請求する証明書が1項か2項かを確認する

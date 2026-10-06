@@ -2,18 +2,18 @@
 
 **出題年度：平成30年度　午後の部　第16問**
 
-> 共用部分である旨の登記及び団地共用部分である旨の登記に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記１から５までのうち，どれか。
->
-> ア　共用部分である旨の登記がされる場合には，当該建物の表題部所有者の登記又は権利に関する登記が抹消される。
->
-> イ　規約による共用部分である旨の登記は，登記官が職権ですることができる。
->
-> ウ　共用部分である旨の登記をするときは，表題部の原因及びその日付欄に当該規約の設定の年月日が記録される。
->
-> エ　共用部分である旨の登記がある建物について，共用部分である旨を定めた規約を廃止したことにより当該建物の表題登記の申請がされた場合において，当該申請に基づく表題登記がされるときは，当該建物の登記記録が閉鎖され，新たに登記記録が作成される。
->
-> オ　団地共用部分である旨の登記がある建物について，その種類を物置から集会所に変更した場合には，当該建物の所有者は，当該建物の表題部の変更の登記を申請しなければならない。
->
+> 共用部分である旨の登記及び団地共用部分である旨の登記に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記１から５までのうち，どれか。  
+>　  
+> ア　共用部分である旨の登記がされる場合には，当該建物の表題部所有者の登記又は権利に関する登記が抹消される。  
+>　  
+> イ　規約による共用部分である旨の登記は，登記官が職権ですることができる。  
+>　  
+> ウ　共用部分である旨の登記をするときは，表題部の原因及びその日付欄に当該規約の設定の年月日が記録される。  
+>　  
+> エ　共用部分である旨の登記がある建物について，共用部分である旨を定めた規約を廃止したことにより当該建物の表題登記の申請がされた場合において，当該申請に基づく表題登記がされるときは，当該建物の登記記録が閉鎖され，新たに登記記録が作成される。  
+>　  
+> オ　団地共用部分である旨の登記がある建物について，その種類を物置から集会所に変更した場合には，当該建物の所有者は，当該建物の表題部の変更の登記を申請しなければならない。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
 ---
@@ -40,15 +40,21 @@
 
 ### エ：規約廃止で復活するときは、記録の閉鎖・新設ではなく共用部分の記録が抹消される
 
-共用部分である旨の登記がある建物は、表題部所有者の登記や所有権その他の権利に関する登記がいったんすべて抹消されています（法58条4項）。その規約を廃止して、区分建物について表題登記を申請すると、表題部所有者の登記が復活します（法58条6項）。このとき行われるのは共用部分である旨の記録の抹消であって、登記記録を閉鎖して新たに登記記録を作成するわけではありません。
+共用部分である旨の登記がある建物は、表題部所有者の登記や所有権その他の権利に関する登記がいったんすべて抹消されています（法58条4項）。
+
+その規約を廃止して、区分建物について表題登記を申請すると、表題部所有者の登記が復活します（法58条6項）。このとき行われるのは共用部分である旨の記録の抹消であって、登記記録を閉鎖して新たに登記記録を作成するわけではありません。
 
 **たとえば**、集会室をふつうの居室に戻すため規約を廃止して表題登記を申請すると、その部屋の登記記録はそのまま使われ、「共用部分」の記録が消えて所有者の表示が戻るだけで、記録が丸ごと作り直されるわけではありません。
 
 ### オ：種類が変わったら、所有者は表題部の変更の登記を申請しなければならない
 
-共用部分または団地共用部分である旨の登記がある建物について、表題部の変更の登記を申請すべき登記事項に変更があったときは、当該建物の所有者は、変更があった日から1月以内に申請しなければなりません（法51条1項かっこ書き）。建物の種類の変更も、この申請義務の対象です。
+共用部分または団地共用部分である旨の登記がある建物について、表題部の変更の登記を申請すべき登記事項に変更があったときは、当該建物の所有者は、変更があった日から1月以内に申請しなければなりません（法51条1項かっこ書き）。
+
+建物の種類の変更も、この申請義務の対象です。
 
 **たとえば**、団地の物置として登記されていた共用部分の建物を、みんなで使う集会所に用途変更したら、その所有者は1か月以内に「種類：物置→集会所」の変更登記を申請する必要があります。
+
+---
 
 ### まとめ
 
@@ -58,7 +64,7 @@
 - **エ（誤）**　記録を閉鎖・新設するのではなく共用部分の記録が抹消される
 - **オ（正）**　種類変更なら所有者は1月以内に表題部変更の登記を申請
 
-誤っているのは、職権登記はできないとする点で誤ったイと、記録の閉鎖・新設だとした点で誤ったエです。
+誤っているのは、登記官が職権で登記できるとした点で誤ったイと、記録の閉鎖・新設だとした点で誤ったエです。
 
 **正解：イ・エの組合せ（選択肢3番）**
 
@@ -70,7 +76,7 @@
 - 出題年度・問題番号・正解番号（3番＝イ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠のうち、ア・エ（法58条4項・6項）、オ（法51条1項かっこ書き）は元データ解説に条文番号まで明記されており、条文レベルで確認できています。イ（対抗要件の登記であり申請義務・職権登記がない旨）とウ（原因及びその日付欄の記録内容）は、元データ解説の説明に依拠したもので、条文番号までの明示はなく一般原則・実務からの説明にとどまります。実務で使う際は念のため再確認をおすすめします。
 - 本記事の条文根拠は、ローカルのアガルート教材（過去問テキスト）の解説を一次情報源として参照しています（元データの解説はアガルート過去問テキストのOCRに基づきます）。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（共用部分である旨の登記及び団地共用部分である旨の登記）と同一・類似の論点がないか確認しました。**重複が見つかりました。** 令和7年度第15問（既存記事：`r7-mondai/q15-kyouyoububun.md`）は本問と同じ「共用部分である旨の登記」を主題としています（具体的な肢の内容は異なります）。また、令和5年度第17問（未公開）の肢ウ「共用部分である旨の登記がある建物の種類を変更した場合、規約で定めた所有者は表題部の変更の登記を申請しなければならない」は、本問の肢オ（団地共用部分の種類変更→表題部変更登記の申請義務）と同一のルール（法51条1項かっこ書）を扱っています。令和7年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（共用部分である旨の登記及び団地共用部分である旨の登記）と同一・類似の論点がないか確認しました。**重複が見つかりました。** 令和7年度第15問（既存記事：`r7-mondai/q15-kyouyoububun.md`）は本問と同じ「共用部分である旨の登記」を主題としています（具体的な肢の内容は異なります）。また、令和5年度第17問（未公開）のウ「共用部分である旨の登記がある建物の種類を変更した場合、規約で定めた所有者は表題部の変更の登記を申請しなければならない」は、本問のオ（団地共用部分の種類変更→表題部変更登記の申請義務）と同一のルール（法51条1項かっこ書）を扱っています。令和7年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
 - **条文再検証・最新法令チェック（2026-08-18実施）**：`note-articles/laws/`のローカル法令データベースで全肢を再確認しました。ア・エ（法58条4項・6項）、オ（法51条1項かっこ書き）は条文の文言と完全に一致することを確認しました。イ・ウについても、法58条2項（共用部分である旨の登記は表題部所有者又は所有権の登記名義人以外の者は申請することができない＝申請を前提とした規定であり職権で行う旨の規定はない）と、不動産登記事務取扱手続準則103条1項（共用部分である旨の登記をするときは原因及びその日付欄に「令和何年何月何日規約設定」及び「共用部分」のように記録するものとする）を確認し、本文の説明を裏付ける規定を見つけました。もっとも、元データ解説にこれらの条文番号が明記されていなかった点自体は変わらないため、本文・確認事項ブロックの記載は維持し、この段落に補足として記録します。また、準則103条4項により、規約廃止による表題登記をする場合は「共用部分である旨又は団地共用部分である旨を抹消する」（登記記録を閉鎖・新設しない）ことも確認でき、エの説明を追加で裏付けています。本文中に半角括弧・Markdown表・判例番号等の残存は確認されませんでした。
 
 ---
@@ -113,12 +119,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・登・記・所・規・約・職・変・請・録 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -197,20 +221,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、共用部分である旨の登記の設定・記録・変更・廃止の各場面で、実際にどの順番で何を確認すればよいかを、肢ごとに図解する作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに判定の順序を明示する「着眼点」の短い説明文を添えている。
 
@@ -297,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -318,7 +342,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 職権で抹消される
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 共用部分の登記は申請でのみされる
@@ -336,7 +360,7 @@ icon が document「申請書」を registry office の窓口へ差し出して�
 Conclusion tag (blue, 5-15 Japanese characters):
 職権ではできない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 原因欄に規約設定の日付を記録する
@@ -352,7 +376,7 @@ Diagram: 配置図型で描く。isometric ledger page の表題部にある複�
 Conclusion tag (blue, 5-15 Japanese characters):
 規約設定の日付を記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 記録は抹消のみで閉鎖されない
@@ -370,7 +394,7 @@ isometric ledger page に「閉鎖」の official stamp が押され、その横
 Conclusion tag (blue, 5-15 Japanese characters):
 記録はそのまま使う
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 種類変更は1か月以内に申請する

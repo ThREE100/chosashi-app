@@ -2,51 +2,75 @@
 
 **出題年度：平成29年度　午後の部　第16問**
 
-> 建物の構造に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　主要構造部が鉄骨造であって，壁構造ではない建物で，当該建物の外壁に軽量気泡コンクリートを使用している場合には，建物の構造欄には，「鉄骨・鉄筋コンクリート造」と表示する。
->
-> イ　床面積が100.00平方メートルの平家建の建物で，当該建物の床面積の65.00平方メートルの部分の屋根がスレートでふかれており，残りの床面積の部分の屋根がかわらでふかれているときは，建物の構造欄には，かわら及びスレートをいずれも表示の対象とする。
->
-> ウ　2階層からなる建物の2階層部分の天井の上に，収納式の階段を利用して出入りする構造で物置として使用されている屋根裏部屋がある場合において，当該屋根裏部屋の床から天井までの高さが1.5メートルであるときは，建物の構造欄には，「3階建」と表示する。
->
-> エ　3階層からなる建物の1階層部分の床面が地盤面下にある場合において，1階層部分の床面から地盤面までの高さが1.1メートルで1階層部分の床面から1階層部分の天井までの高さが2.7メートルのときは，建物の構造欄には，「3階建」と表示する。
->
-> オ　店舗として使用されている平家建の建物が鉄骨の柱により地盤面から2.0メートル床上げされている場合において，床上げされた場所が外気と遮断する壁のない店舗用の駐車場として使用されているときは，建物の構造欄には，「平家建」と表示する。
->
+> 建物の構造に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　主要構造部が鉄骨造であって，壁構造ではない建物で，当該建物の外壁に軽量気泡コンクリートを使用している場合には，建物の構造欄には，「鉄骨・鉄筋コンクリート造」と表示する。  
+>　  
+> イ　床面積が100.00平方メートルの平家建の建物で，当該建物の床面積の65.00平方メートルの部分の屋根がスレートでふかれており，残りの床面積の部分の屋根がかわらでふかれているときは，建物の構造欄には，かわら及びスレートをいずれも表示の対象とする。  
+>　  
+> ウ　2階層からなる建物の2階層部分の天井の上に，収納式の階段を利用して出入りする構造で物置として使用されている屋根裏部屋がある場合において，当該屋根裏部屋の床から天井までの高さが1.5メートルであるときは，建物の構造欄には，「3階建」と表示する。  
+>　  
+> エ　3階層からなる建物の1階層部分の床面が地盤面下にある場合において，1階層部分の床面から地盤面までの高さが1.1メートルで1階層部分の床面から1階層部分の天井までの高さが2.7メートルのときは，建物の構造欄には，「3階建」と表示する。  
+>　  
+> オ　店舗として使用されている平家建の建物が鉄骨の柱により地盤面から2.0メートル床上げされている場合において，床上げされた場所が外気と遮断する壁のない店舗用の駐車場として使用されているときは，建物の構造欄には，「平家建」と表示する。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
 
-建物の構造の表示は、「造り（材料）」「屋根の種類」「階数」を、細かなルールに沿って公示するものです。この分野では、①主要構造部と外壁材の違い、②屋根の種類が複数あるときの表示ルール（30％以上ルール）、③屋根裏部屋や地階が階数に算入されるかどうかの基準を、数字（屋根裏部屋・高床式の基準となる1.5メートル、地階の基準となる天井高の3分の1）とセットで押さえられているかが問われます。
+---
+
+建物の構造の表示は、「造り（材料）」「屋根の種類」「階数」を、細かなルールに沿って公示するものです。
+
+この分野では、①主要構造部と外壁材の違い、②屋根の種類が複数あるときの表示ルール（30％以上ルール）、③屋根裏部屋や地階が階数に算入されるかどうかの基準を、数字（屋根裏部屋・高床式の基準となる1.5メートル、地階の基準となる天井高の3分の1）とセットで押さえられているかが問われます。
 
 ### ア：外壁にALC板を使っても、主要構造部が鉄骨造なら「鉄骨造」と表示
 
-建物の構造欄の「造り」は、主要構造部が何かによって決まります。主要構造部が鉄骨造の場合、外壁に軽量気泡コンクリート（ALC板）を使用していても、それだけで「鉄骨・鉄筋コンクリート造」とは表示しません。主要構造部が壁構造としての鉄筋コンクリートで構成されている場合に初めて「鉄骨・鉄筋コンクリート造」と表示します。したがって本肢は誤りです。
+建物の構造欄の「造り」は、主要構造部が何かによって決まります。主要構造部が鉄骨造の場合、外壁に軽量気泡コンクリート（ALC板）を使用していても、それだけで「鉄骨・鉄筋コンクリート造」とは表示しません。
+
+主要構造部が壁構造としての鉄筋コンクリートで構成されている場合に初めて「鉄骨・鉄筋コンクリート造」と表示します。したがって本肢は誤りです。
 
 **たとえば**、骨組みが鉄骨でできている建物の外壁に、軽量な気泡コンクリートのパネルを使ったとします。外壁の見た目が鉄筋コンクリートっぽく見えても、建物の骨組み自体は鉄骨のままなので、構造欄には「鉄骨造」と表示するのです。
 
 ### イ：屋根の種類は、床面積の3割以上を占めるものを表示する
 
-屋根の種類が複数ある場合であっても、必ずしもすべてを表示する必要はありません。床面積に算入する部分の屋根面積のうち、30％未満の種類の屋根は表示しない扱いとされています。本肢では、床面積100.00平方メートルのうち65.00平方メートル（65％）がスレート、残り35.00平方メートル（35％）がかわらであり、いずれも30％以上を占めるため、「かわら・スレートぶき」のように両方を表示する対象になります。本肢は正しい記述です。
+屋根の種類が複数ある場合であっても、必ずしもすべてを表示する必要はありません。床面積に算入する部分の屋根面積のうち、30％未満の種類の屋根は表示しない扱いとされています。
+
+本肢では、床面積100.00平方メートルのうち65.00平方メートル（65％）がスレート、残り35.00平方メートル（35％）がかわらであり、いずれも30％以上を占めるため、「かわら・スレートぶき」のように両方を表示する対象になります。
+
+本肢は正しい記述です。
 
 **たとえば**、ある平家建の屋根が、6割強はスレート、4割弱はかわらでふかれていたとします。どちらも全体の3割以上を占めているので、「この屋根はスレートとかわらの2種類でできています」と両方を構造欄に書き込む必要があるのです。
 
 ### ウ：屋根裏部屋は、天井高1.5メートル以上なら階数に算入する
 
-天井の高さが1.5メートル未満の地階・屋階（特殊階）は、建物の階数には算入されません（不動産登記事務取扱手続準則81条4項）。逆にいえば、天井の高さが1.5メートル以上あれば、階数に算入されます。本肢の屋根裏部屋は床から天井までの高さが1.5メートルちょうどであり、1.5メートル未満ではないため階数に算入され、2階建の建物にこの屋根裏部屋を加えて「3階建」と表示します。本肢は正しい記述です。
+天井の高さが1.5メートル未満の地階・屋階（特殊階）は、建物の階数には算入されません（不動産登記事務取扱手続準則81条4項）。逆にいえば、天井の高さが1.5メートル以上あれば、階数に算入されます。
 
-**たとえば**、2階建の建物の天井裏に、収納式のはしごで出入りする物置スペースがあり、その天井の高さがちょうど1.5メートルだったとします。1.5メートル未満ではないので、単なる「小屋裏収納」として扱われず、独立した1つの階として数えられ、建物全体は「3階建」になるのです。
+本肢の屋根裏部屋は床から天井までの高さが1.5メートルちょうどであり、1.5メートル未満ではないため階数に算入され、2階建の建物にこの屋根裏部屋を加えて「3階建」と表示します。本肢は正しい記述です。
+
+**たとえば**、2階建の建物の天井裏に、収納式のはしごで出入りする物置スペースがあり、その天井の高さがちょうど1.5メートルだったとします。
+
+1.5メートル未満ではないので、単なる「小屋裏収納」として扱われず、独立した1つの階として数えられ、建物全体は「3階建」になるのです。
 
 ### エ：地盤面下の階は、天井高の3分の1以上沈んでいれば地下階として扱う
 
-床面が地盤面より下にある階層については、床面から地盤面までの高さが、その階の天井までの高さの3分の1以上あるときに、地下階として取り扱います。本肢では、1階層部分の天井までの高さが2.7メートルなので、その3分の1は0.9メートルです。床面から地盤面までの高さが1.1メートルとなると、0.9メートル以上地盤面より下にあることになるため、この階層は地下階として扱われ、建物の構造欄には「地下1階付き2階建」と表示すべきことになります。「3階建」とする本肢は誤りです。
+床面が地盤面より下にある階層については、床面から地盤面までの高さが、その階の天井までの高さの3分の1以上あるときに、地下階として取り扱います。
 
-**たとえば**、3層構造の建物の一番下の階が、天井の高さ2.7メートルのうち1.1メートルぶん地面より低い位置にあるとします。2.7メートルの3分の1（0.9メートル）以上沈んでいるので、この階は「普通の1階」ではなく「地下1階」として扱われ、建物全体は「地下1階付き2階建」と表示することになります。
+本肢では、1階層部分の天井までの高さが2.7メートルなので、その3分の1は0.9メートルです。
+
+床面から地盤面までの高さが1.1メートルとなると、0.9メートル以上地盤面より下にあることになるため、この階層は地下階として扱われ、建物の構造欄には「地下1階付き2階建」と表示すべきことになります。「3階建」とする本肢は誤りです。
+
+**たとえば**、3層構造の建物の一番下の階が、天井の高さ2.7メートルのうち1.1メートルぶん地面より低い位置にあるとします。
+
+2.7メートルの3分の1（0.9メートル）以上沈んでいるので、この階は「普通の1階」ではなく「地下1階」として扱われ、建物全体は「地下1階付き2階建」と表示することになります。
 
 ### オ：高床式で外気と遮断されていない床上げ部分は「高床式平家建」と表示
 
-床上げされた建物で、床上げされた部分の1階の床面が地盤面から1.5メートル以上ある平家建は、「高床式平家建」のように表示します。本肢では床上げの高さが地盤面から2.0メートルあり、外気と遮断する壁のない駐車場として使われているので、単なる「平家建」ではなく「高床式平家建」と表示すべきことになります。「平家建」とする本肢は誤りです。
+床上げされた建物で、床上げされた部分の1階の床面が地盤面から1.5メートル以上ある平家建は、「高床式平家建」のように表示します。
+
+本肢では床上げの高さが地盤面から2.0メートルあり、外気と遮断する壁のない駐車場として使われているので、単なる「平家建」ではなく「高床式平家建」と表示すべきことになります。「平家建」とする本肢は誤りです。
 
 **たとえば**、店舗の建物が鉄骨の柱で地面から2メートルも高く持ち上げられていて、その下は壁のない駐車スペースになっているとします。このように高く床上げされた建物は、単に「平家建」とだけ書くのではなく、「高床式平家建」という特別な表示をするのです。
+
+---
 
 ### まとめ
 
@@ -69,8 +93,8 @@
 - 各肢の根拠について、ア・イ・エ・オ（いずれも昭63.3.24民三1826号）、ウ（不動産登記事務取扱手続準則81条4項、昭37.12.15民甲3600号）は、いずれもデータベースのexplanationフィールドで先例番号・準則番号まで明記されているものです。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認しました。「建物の構造及び床面積」を扱う令和2年度第12問は、開閉式屋根の野球場・地下街の通路といった床面積算入の特殊ケースを問うもので、本問（造りの表示・屋根種類の表示ルール・屋根裏部屋の階数算入・地下階の基準・高床式の表示）とは具体的な論点が異なるため、**重複は見つかりませんでした**。
-- **導入文の誤りを修正（2026-08-08実施）**：ユーザーの依頼により、導入文の記述を再確認したところ、2箇所の誤りを発見し修正しました。（a）「屋根の種類が複数あるときの表示ルール（過半数ルール）」は誤りで、正しくは肢イの解説どおり「30％以上ルール」です（過半数＝50%超の意味だと、肢イで65%のスレートのみが表示対象になってしまい、実際には35%のかわらも表示対象になるという結論と矛盾します）。（b）「数字（1.5メートル・1メートル）」の「1メートル」も誤りで、地階の基準は固定の「1メートル」ではなく「天井高の3分の1」という比率であり、この点は記事末尾の結論文（「天井高の3分の1」（地階の基準）と明記）とも整合しない記述でした。両方とも、記事本文（肢イ・肢エの解説、結論文）に合わせて修正しています。
-- **肢イの見出しの誤りを修正（QAチェックリスト再検証）**：肢イの見出しが「屋根の種類は、床面積の過半を占めるものだけを表示する」となっていましたが、本文・まとめは「30％以上を占めるものを表示する」という結論であり、見出しだけが誤って「過半数」のままでした（上記の導入文の誤りと同種の混同が見出しにも残っていました）。見出しを本文・まとめと一致する内容に修正しました。
+- **導入文の誤りを修正（2026-08-08実施）**：ユーザーの依頼により、導入文の記述を再確認したところ、2箇所の誤りを発見し修正しました。（a）「屋根の種類が複数あるときの表示ルール（過半数ルール）」は誤りで、正しくはイの解説どおり「30％以上ルール」です（過半数＝50%超の意味だと、イで65%のスレートのみが表示対象になってしまい、実際には35%のかわらも表示対象になるという結論と矛盾します）。（b）「数字（1.5メートル・1メートル）」の「1メートル」も誤りで、地階の基準は固定の「1メートル」ではなく「天井高の3分の1」という比率であり、この点は記事末尾の結論文（「天井高の3分の1」（地階の基準）と明記）とも整合しない記述でした。両方とも、記事本文（イ・エの解説、結論文）に合わせて修正しています。
+- **イの見出しの誤りを修正（QAチェックリスト再検証）**：イの見出しが「屋根の種類は、床面積の過半を占めるものだけを表示する」となっていましたが、本文・まとめは「30％以上を占めるものを表示する」という結論であり、見出しだけが誤って「過半数」のままでした（上記の導入文の誤りと同種の混同が見出しにも残っていました）。見出しを本文・まとめと一致する内容に修正しました。
 
 ---
 
@@ -111,13 +135,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 造・構・鉄・骨・壁・屋・根・階・建・地・下・床・高・車・駐 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -229,8 +271,8 @@ itself (not just the heading text), redraw it as "2.0m".
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -244,12 +286,12 @@ between the "0m" and "2.7m" ticks on that same ruler (never drawn as a
 second box whose height is separately added to 2.7m, which would
 wrongly total 3.8m), and that only the lower 0m〜1.1m segment of that
 wall has soil texture while the upper 1.1m〜2.7m segment is exposed
-above ground.
+above ground. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 単純に基準値と実測値を比べるだけで結論が出る肢（ア・ウ・オ）はラベル付きの図解1枚で示し、床面積の割合を2つの屋根材について順番に確認する肢（イ）は割合バーを使った2段階の順次チェックとして示し、天井高の3分の1を計算してから沈み込み高さと比較する肢（エ）だけを、計算ステップと分岐ノードを持つ決定木フローチャートとして描き分けた。
 
@@ -287,7 +329,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -317,7 +363,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 外壁材ではなく主要構造部で判断する
@@ -337,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 骨組みで判断
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 屋根材ごとに30%基準を順に確認する
@@ -358,7 +404,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方とも表示対象
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 屋根裏部屋は天井高1.5m以上で階に算入
@@ -374,7 +420,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 3階建と表示
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 沈み込みが天井高の3分の1以上なら地下階
@@ -403,7 +449,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地下1階付き2階建
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 床上げ2.0mは1.5m基準を上回り高床式
@@ -426,20 +472,19 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-昭63.3.24民三1826号（造り・屋根の表示、地階・高床式の基準）・不動産登記
+先例（造り・屋根の表示、地階・高床式の基準）・不動産登記
 事務取扱手続準則81条4項（屋根裏部屋等の階算入基準）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
-Chinese variant, paying special attention to 造・構・鉄・骨・壁・屋・根・
-階・建・地・下・床・高・車・駐. If any character renders as a Simplified
+Chinese variant, paying special attention to 造・構・鉄・骨・壁・屋・根・階・建・地・下・床・高. If any character renders as a Simplified
 or Traditional Chinese variant, redraw that character in the correct
-Japanese form. Also confirm that no character outside hiragana, katakana,
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Also confirm that no character outside hiragana, katakana,
 Jōyō kanji, and the Arabic numerals explicitly used above appears anywhere
 in the image — no Latin letters, no other non-Japanese scripts. Confirm
 the panel count equals 5 exactly, badge numbers run 1-5 continuously,
 there is no intro illustration or paragraph block between the header and
-the panels, that every multi-condition 肢（肢エ）is drawn as an actual
+the panels, that every multi-condition 肢（エ）is drawn as an actual
 flowchart with branch nodes (not a bare illustration with no visible
 decision structure), that no 肢 with a genuinely hidden second condition
 has been flattened into a single check, that each 着眼点 callout states a

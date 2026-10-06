@@ -2,19 +2,21 @@
 
 **出題年度：平成20年度　午後の部　第1問**
 
-> 不動産質に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　質権者は、被担保債権の全部の弁済を受けるまで、目的である不動産の全部について、その権利を行使することができる。
->
-> イ　質権者は、設定者の承諾を得なければ、その目的である不動産について転質をすることができない。
->
-> ウ　質権者は、設定者の承諾を得なければ、その目的である不動産の用法に従って、その使用及び収益をすることができない。
->
-> エ　同一の不動産について数個の質権が設定されたときは、その質権の順位は、登記の前後による。
->
-> オ　質権は、金銭以外の物の引渡しを目的とする債権を被担保債権として、これを設定することができる。
->
+> 不動産質に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　質権者は、被担保債権の全部の弁済を受けるまで、目的である不動産の全部について、その権利を行使することができる。  
+>　  
+> イ　質権者は、設定者の承諾を得なければ、その目的である不動産について転質をすることができない。  
+>　  
+> ウ　質権者は、設定者の承諾を得なければ、その目的である不動産の用法に従って、その使用及び収益をすることができない。  
+>　  
+> エ　同一の不動産について数個の質権が設定されたときは、その質権の順位は、登記の前後による。  
+>　  
+> オ　質権は、金銭以外の物の引渡しを目的とする債権を被担保債権として、これを設定することができる。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
+
+---
 
 不動産質権は、目的物の占有を質権者に移し、質権者がその不動産を使ったり貸したりして収益を上げられる点で、占有を移さない抵当権とは性格が大きく異なります。抵当権のイメージで解こうとすると足をすくわれる分野です。
 
@@ -22,13 +24,17 @@
 
 質権には「不可分性」があり、被担保債権の全部の弁済を受けるまでは、質権者は目的物の全部についてその権利を行使できます（民法350条・296条）。一部だけ返済されても、その割合に応じて質権が縮むわけではありません。
 
-**たとえば**、300万円を借りるために自分の別荘に質権を設定した人が、100万円だけ返済したとしても、質権者は残り200万円が完済されるまで、別荘全体を質にとったまま権利を及ぼし続けることができます。「3分の1返したから別荘の3分の1は解放してほしい」とは言えないのです。
+**たとえば**、300万円を借りるために自分の別荘に質権を設定した人が、100万円だけ返済したとしても、質権者は残り200万円が完済されるまで、別荘全体を質にとったまま権利を及ぼし続けることができます。
+
+「3分の1返したから別荘の3分の1は解放してほしい」とは言えないのです。
 
 ### イ：不動産質でも、設定者の承諾なく転質ができる
 
 質権者は、その権利の存続期間内であれば、自己の責任で質物についてさらに質権を設定する「転質」ができます（民法348条、責任転質）。これは設定者の承諾を必要としません。したがって「承諾を得なければ転質できない」とする本肢は誤りです。
 
-**たとえば**、Aさんの別荘を質にとっているBさんが、今度は自分がCさんからお金を借りるとき、Aさんに断りを入れなくても、その別荘の質権をそのままCさんへの担保として使う（転質する）ことができます。ただし、転質をしたことで生じた損失については、Bさんが不可抗力によるものまで責任を負います。
+**たとえば**、Aさんの別荘を質にとっているBさんが、今度は自分がCさんからお金を借りるとき、Aさんに断りを入れなくても、その別荘の質権をそのままCさんへの担保として使う（転質する）ことができます。
+
+ただし、転質をしたことで生じた損失については、Bさんが不可抗力によるものまで責任を負います。
 
 ### ウ：不動産質権者は、承諾なしで使用・収益ができる
 
@@ -48,6 +54,8 @@
 
 **たとえば**、「毎年、特定の銘柄の米を◯俵引き渡す」という約束（引渡請求権）を担保するために、相手の不動産に質権を設定することもできます。約束が守られなければ、その不履行による損害賠償を質権によって回収することになります。
 
+---
+
 ### まとめ
 
 - **ア（正）**　質権の不可分性。全部弁済まで目的物全部に権利が及ぶ
@@ -66,9 +74,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・ウが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行民法との整合性を再検証し、肢エの根拠条文を修正しました】** 初版では肢エ（不動産質権の順位は登記の前後による）の根拠を「民法355条」としていましたが、**民法355条は第9章第2節「動産質」に置かれた条文で、「同一の動産について数個の質権が設定されたときは、その質権の順位は、設定の前後による」と定めるもの**であり、不動産質権の順位の根拠にはなりません。正しくは、不動産質権について抵当権の規定を準用する**民法361条**と、抵当権の順位を登記の前後によるとする**民法373条**です。記事本文とまとめを修正し、動産質（設定の前後）との対比も加えました。肢エの正誤の結論（正しい）は変わりません。
+- **【2026年8月4日 現行民法との整合性を再検証し、エの根拠条文を修正しました】** 初版ではエ（不動産質権の順位は登記の前後による）の根拠を「民法355条」としていましたが、**民法355条は第9章第2節「動産質」に置かれた条文で、「同一の動産について数個の質権が設定されたときは、その質権の順位は、設定の前後による」と定めるもの**であり、不動産質権の順位の根拠にはなりません。正しくは、不動産質権について抵当権の規定を準用する**民法361条**と、抵当権の順位を登記の前後によるとする**民法373条**です。記事本文とまとめを修正し、動産質（設定の前後）との対比も加えました。エの正誤の結論（正しい）は変わりません。
 - 質権に関する民法の規定は、平成29年の債権法改正（令和2年4月1日施行）でも条文番号・内容ともに実質的な変更がないことを確認しました。**348条**（転質。設定者の承諾がなくても自己の責任で転質できる＝責任転質）、**350条**（296条以下の準用＝不可分性）、**356条**（不動産質権者は用法に従い使用及び収益ができる）、**361条**・**373条**（順位）は、いずれも現行条文どおりです。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証しました】** `minpou-1-soukyoku-bukken.md`（2026-08-04取得の現行民法）で、**296条**（留置権の不可分性）・**348条**（転質）・**350条**（296条〜300条・304条の準用）・**355条**（動産質権の順位＝設定の前後）・**356条**（不動産質権者による使用及び収益）・**361条**（抵当権の規定の準用）・**373条**（抵当権の順位＝登記の前後）の条文番号・見出し・本文をすべて原文で確認し、記事の記載と一致していることを確かめました。条文根拠の修正は不要でした。あわせて、簡潔性ルール（各肢の本文2〜3文）に沿って肢エの説明を圧縮しました。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証しました】** `minpou-1-soukyoku-bukken.md`（2026-08-04取得の現行民法）で、**296条**（留置権の不可分性）・**348条**（転質）・**350条**（296条〜300条・304条の準用）・**355条**（動産質権の順位＝設定の前後）・**356条**（不動産質権者による使用及び収益）・**361条**（抵当権の規定の準用）・**373条**（抵当権の順位＝登記の前後）の条文番号・見出し・本文をすべて原文で確認し、記事の記載と一致していることを確かめました。条文根拠の修正は不要でした。あわせて、簡潔性ルール（各肢の本文2〜3文）に沿ってエの説明を圧縮しました。
 - オ（被担保債権が金銭債権に限られないこと）は明文の規定ではなく、質権の被担保債権について金銭債権に限る旨の制限規定が置かれていないことからの説明です。
 - なお、アプリ製作時のデータベース内の補足解説（kaisetsu_plus.json）では、イの根拠条文が「民法358条」と記載されていましたが、転質の根拠は民法348条であり、この記事では条文を正しました。ローカルのアガルート過去問テキスト等は本問について参照できるテキスト解説が手元になく、参照していません。
 - 【重要】データベース（takuitsu.json）に保存されていた各肢の原文は、「質権者は被担保債権の全部弁済まで、目的不動産全部について権利行使可能」のような短い要約形式でした。上記の引用部分（問題文全文）は、この要約と正解番号・関連条文をもとに、一般的な司法試験・調査士試験の条文体の言い回しで再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
@@ -86,7 +94,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -109,10 +117,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -182,17 +208,17 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -209,10 +235,10 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — an isometric villa/mansion icon (質物である別
 荘）surrounded by a dashed outline representing the scope of the 質権, a
 scroll icon for the 質権証書, a registry-stamp icon, and coin/rice-bale
-icons for the 被担保債権. Panel 4（肢エ）compares two related but distinct
+icons for the 被担保債権. Panel 4（エ）compares two related but distinct
 rules (不動産質権と動産質権の順位のルール), so draw it as a side-by-side
 LEFT/RIGHT comparison rather than a single scene. The other 4 panels（肢
-ア・肢イ・肢ウ・肢オ）are each resolved by a single check, so draw a labeled
+ア・イ・ウ・オ）are each resolved by a single check, so draw a labeled
 illustrative diagram for them instead of forcing a flowchart. Do not
 include case or precedent numbers (article/regulation numbers are fine);
 keep the callout text as written below verbatim.
@@ -220,7 +246,15 @@ keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -244,7 +278,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft green containing the number 1.
 Heading (bold, ONE line):
 全部弁済されたかをまず確認する
@@ -261,7 +295,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 全部弁済まで効力継続
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line):
 転質に設定者の承諾はいらない
@@ -275,7 +309,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 転質に承諾不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line):
 使用収益にも設定者の承諾はいらない
@@ -289,7 +323,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 使用収益も承諾不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line):
 不動産質と動産質で順位の基準が違う
@@ -307,7 +341,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 不動産質は登記の先後
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line):
 金銭以外の債権も担保にできる
@@ -327,11 +361,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法296条・348条・350条・355条・356条・361条・373条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 質・権・転・譲・渡・承・諾・担 and any character that has a
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 質・権・転・渡・承・諾・担 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panel 4 is drawn as a LEFT/RIGHT
 comparison rather than a single scene while Panels 1・2・3・5 are simple

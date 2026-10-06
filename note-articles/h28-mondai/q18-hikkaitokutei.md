@@ -2,21 +2,25 @@
 
 **出題年度：平成28年度　午後の部　第18問**
 
-> 筆界特定に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　対象土地の一を共通にする複数の筆界特定の申請は，一の筆界特定申請情報によって申請することができる。
->
-> イ　筆界特定の申請をする場合において，関係土地の所有者が筆界として特定の線を主張しているときは，その線を筆界特定申請情報の内容としなければならない。
->
-> ウ　筆界特定の申請があった場合において，当該筆界特定の申請人及び関係人が筆界特定登記官に対し対象土地の筆界についての資料を書面で提出するときは，当該書面の原本を提出しなければならない。
->
-> エ　筆界特定登記官が筆界特定書を作成し，筆界特定の申請人に対して筆界特定の通知を発送した後は，当該申請人は，筆界特定の申請を取り下げることができない。
->
-> オ　筆界特定がされた場合において，当該筆界特定に係る筆界について民事訴訟の手続により筆界の確定を求める訴えに係る判決が確定したときは，当該筆界特定は，その全ての効力を失う。
->
+> 筆界特定に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　対象土地の一を共通にする複数の筆界特定の申請は，一の筆界特定申請情報によって申請することができる。  
+>　  
+> イ　筆界特定の申請をする場合において，関係土地の所有者が筆界として特定の線を主張しているときは，その線を筆界特定申請情報の内容としなければならない。  
+>　  
+> ウ　筆界特定の申請があった場合において，当該筆界特定の申請人及び関係人が筆界特定登記官に対し対象土地の筆界についての資料を書面で提出するときは，当該書面の原本を提出しなければならない。  
+>　  
+> エ　筆界特定登記官が筆界特定書を作成し，筆界特定の申請人に対して筆界特定の通知を発送した後は，当該申請人は，筆界特定の申請を取り下げることができない。  
+>　  
+> オ　筆界特定がされた場合において，当該筆界特定に係る筆界について民事訴訟の手続により筆界の確定を求める訴えに係る判決が確定したときは，当該筆界特定は，その全ての効力を失う。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-筆界特定制度は、土地家屋調査士が実務で深く関わる分野でありながら、申請の手続や効力について独自のルールが多く定められています。本問は、複数申請のまとめ方、申請情報の記載事項、資料提出の方法、取下げの制限、そして筆界確定訴訟との関係という5つの角度から、この制度の基本ルールを確認する問題です。
+---
+
+筆界特定制度は、土地家屋調査士が実務で深く関わる分野でありながら、申請の手続や効力について独自のルールが多く定められています。
+
+本問は、複数申請のまとめ方、申請情報の記載事項、資料提出の方法、取下げの制限、そして筆界確定訴訟との関係という5つの角度から、この制度の基本ルールを確認する問題です。
 
 ### ア：対象土地の一を共通にする複数の申請は、一の申請情報でできる
 
@@ -26,27 +30,41 @@
 
 ### イ：関係土地の所有者の主張する線は、申請情報の内容とすることまでは要求されない
 
-不動産登記規則207条3項は、申請人が主張する筆界線（5号）や、申請人以外の対象土地の所有者等が主張する線（6号）を、申請情報の内容とすることができる旨を定めています。しかし、これらはいずれも任意的記載事項であり、必ず記載しなければならない義務的記載事項ではありません（同項柱書）。したがって、申請人以外の関係土地の所有者等が主張する線が申請情報に記載されていなくても、そのことを理由に申請が却下されることはありません。
+不動産登記規則207条3項は、申請人が主張する筆界線（5号）や、申請人以外の対象土地の所有者等が主張する線（6号）を、申請情報の内容とすることができる旨を定めています。
+
+しかし、これらはいずれも任意的記載事項であり、必ず記載しなければならない義務的記載事項ではありません（同項柱書）。
+
+したがって、申請人以外の関係土地の所有者等が主張する線が申請情報に記載されていなくても、そのことを理由に申請が却下されることはありません。
 
 **たとえば**、Aさんが筆界特定を申請するにあたり、隣地の所有者であるBさんが「筆界はこの線だ」と別の主張をしていたとしても、Aさんは自分が主張する筆界線を申請情報に記載すればよく、Bさんの主張する線まで申請情報に書き込む義務はありません。
 
 ### ウ：資料を書面で提出するときは、原本ではなく写し（3部）で足りる
 
-筆界特定の申請人及び関係人が、対象土地の筆界についての意見又は資料を書面で提出するときは、その書面の写しを3部提出すれば足り、原本を提出する必要はありません（不動産登記規則220条1項）。ただし、筆界特定登記官が必要と認めるときは、原本の提示を求めることができます（同条2項）。
+筆界特定の申請人及び関係人が、対象土地の筆界についての意見又は資料を書面で提出するときは、その書面の写しを3部提出すれば足り、原本を提出する必要はありません（不動産登記規則220条1項）。
+
+ただし、筆界特定登記官が必要と認めるときは、原本の提示を求めることができます（同条2項）。
 
 **たとえば**、筆界特定の申請人が、境界に関する古い測量図面を資料として提出したい場合、その図面の原本そのものを提出する必要はなく、写しを3部用意して提出すれば足ります（登記官から原本の提示を求められた場合は別です）。
 
 ### エ：筆界特定の通知を発送した後は、申請を取り下げることができない
 
-筆界特定登記官が筆界特定書を作成し、申請人に対して筆界特定の通知（筆界特定書の写しの交付による。不動産登記規則232条2項）を発送した後は、当該申請人は筆界特定の申請を取り下げることができません（同規則245条2項）。手続がすでに完了に近い段階まで進んでおり、取下げを認めると法的安定性を損なうためです。
+筆界特定登記官が筆界特定書を作成し、申請人に対して筆界特定の通知（筆界特定書の写しの交付による。不動産登記規則232条2項）を発送した後は、当該申請人は筆界特定の申請を取り下げることができません（同規則245条2項）。
+
+手続がすでに完了に近い段階まで進んでおり、取下げを認めると法的安定性を損なうためです。
 
 **たとえば**、筆界特定の手続が進み、筆界特定登記官が結論をまとめた筆界特定書を作成して、申請人に対して通知を発送した後になって、申請人が「やっぱり取り下げたい」と考えても、その時点ではもはや取り下げることはできません。
 
 ### オ：筆界確定訴訟の判決が確定しても、筆界特定は全ての効力を失うわけではない
 
-筆界特定がされた後、当該筆界について民事訴訟の手続により筆界の確定を求める訴えに係る判決が確定した場合、その判決の内容が優先されますが、これによって筆界特定が「全ての効力を失う」わけではありません。筆界特定は、判決の内容と抵触する範囲においてのみ効力を失うにとどまります（不動産登記法148条）。
+筆界特定がされた後、当該筆界について民事訴訟の手続により筆界の確定を求める訴えに係る判決が確定した場合、その判決の内容が優先されますが、これによって筆界特定が「全ての効力を失う」わけではありません。
 
-**たとえば**、ある土地の筆界について筆界特定登記官がいったん筆界を特定した後に、当事者が改めて筆界確定訴訟を提起して判決が確定したとします。この場合、判決と食い違う部分については筆界特定の効力が及ばなくなりますが、それ以外の部分まで含めて筆界特定がまるごと無効になるわけではありません。
+筆界特定は、判決の内容と抵触する範囲においてのみ効力を失うにとどまります（不動産登記法148条）。
+
+**たとえば**、ある土地の筆界について筆界特定登記官がいったん筆界を特定した後に、当事者が改めて筆界確定訴訟を提起して判決が確定したとします。
+
+この場合、判決と食い違う部分については筆界特定の効力が及ばなくなりますが、それ以外の部分まで含めて筆界特定がまるごと無効になるわけではありません。
+
+---
 
 ### まとめ
 
@@ -108,7 +126,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -197,8 +223,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -213,7 +239,7 @@ edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。5パネル、portrait 1080×2600px。
 
@@ -292,7 +318,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -314,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 まとめて1申請でよい
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 関係土地の所有者が主張する線は記載しなくても申請できる
@@ -338,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記載義務なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 書面の資料は原本でなく写し3部の提出で足りる
@@ -363,7 +389,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 写し3部で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 筆界特定の通知を発送した後は申請を取り下げられない
@@ -384,7 +410,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 発送後は取下げ不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 判決確定で筆界特定が効力を失うのは抵触する範囲だけ
@@ -392,10 +418,9 @@ Diagram: A decision flowchart, drawn top to bottom, with a small layout
 sketch at the top: an isometric land plot showing a dashed boundary line
 labeled 筆界特定の線, overlapped by a solid boundary line labeled
 確定判決の線 from a courthouse icon labeled 筆界確定訴訟. Step 1: a
-diamond-shaped branch node labeled 筆界確定訴訟の判決が確定したか; its
-○ branch leads to Step 2 (this 肢 assumes the judgment has become
-final, so draw its ✕ branch only as a short, faded gray, dotted stub
-with no label and no arrow back to any node). Step 2: a diamond-shaped branch node labeled 筆界特定の
+rectangular check box (NOT a diamond) labeled 筆界確定訴訟の判決が確定した,
+with a single straight arrow down to Step 2 (this step does not branch).
+Step 2: a diamond-shaped branch node labeled 筆界特定の
 内容のうち判決と抵触する部分か. The ○ (はい) branch leads to its own
 conclusion node, the overlapping part of the 筆界特定の線 fading out,
 labeled その範囲で効力を失う. The ✕ (いいえ) branch leads to a separate

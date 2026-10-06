@@ -2,43 +2,59 @@
 
 **出題年度：令和5年度　午後の部　第19問**
 
-> 法定相続情報を記載した書面（以下「法定相続情報一覧図」という。）の保管及び法定相続情報一覧図の写しの交付の申出に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　委任を受けた土地家屋調査士が、法定相続情報一覧図の写しの交付の申出をする場合には、代理人の権限を証する書面として、委任状以外の書面を添付する必要はない。
->
-> イ　法定相続情報一覧図の保管の申出は、申出人の住所地を管轄する登記所に申出をすることができる。
->
-> ウ　法定相続情報一覧図の保管の申出をする際に申出書に添付する法定相続情報一覧図には、相続開始の時における同順位の相続人の住所を記載しなければならない。
->
-> エ　法定相続情報一覧図の保管の申出をするには、被相続人が不動産の表題部所有者又は所有権の登記名義人として登記されていることを要する。
->
-> オ　法定相続情報一覧図の写しの再交付の申出は、当該法定相続情報一覧図の保管の申出をした申出人のみがすることができる。
->
+> 法定相続情報を記載した書面（以下「法定相続情報一覧図」という。）の保管及び法定相続情報一覧図の写しの交付の申出に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　委任を受けた土地家屋調査士が、法定相続情報一覧図の写しの交付の申出をする場合には、代理人の権限を証する書面として、委任状以外の書面を添付する必要はない。  
+>　  
+> イ　法定相続情報一覧図の保管の申出は、申出人の住所地を管轄する登記所に申出をすることができる。  
+>　  
+> ウ　法定相続情報一覧図の保管の申出をする際に申出書に添付する法定相続情報一覧図には、相続開始の時における同順位の相続人の住所を記載しなければならない。  
+>　  
+> エ　法定相続情報一覧図の保管の申出をするには、被相続人が不動産の表題部所有者又は所有権の登記名義人として登記されていることを要する。  
+>　  
+> オ　法定相続情報一覧図の写しの再交付の申出は、当該法定相続情報一覧図の保管の申出をした申出人のみがすることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-法定相続情報一覧図は、相続関係を一枚の図にまとめて登記所に保管してもらい、その写しを相続手続に使えるようにする制度です（不動産登記規則247条など）。この分野では「どこの登記所に申出できるのか」「何を記載するのか」「誰が再交付を受けられるのか」といった手続の要件が問われます。相続登記に直結する実務的なテーマです。
+---
+
+法定相続情報一覧図は、相続関係を一枚の図にまとめて登記所に保管してもらい、その写しを相続手続に使えるようにする制度です（不動産登記規則247条など）。
+
+この分野では「どこの登記所に申出できるのか」「何を記載するのか」「誰が再交付を受けられるのか」といった手続の要件が問われます。相続登記に直結する実務的なテーマです。
 
 ### ア：資格者代理人が申出るには、委任状に加えて身分証明書等が必要
 
-法定相続情報一覧図の保管・写しの交付の申出を代理人によってすることはできますが、その代理人は、申出人の法定代理人か、委任による場合は親族または戸籍法10条の2第3項に掲げる者に限られます。土地家屋調査士はこの戸籍法10条の2第3項に掲げる者（弁護士・司法書士・土地家屋調査士・税理士など）にあたるため、委任状に加えて、資格者代理人団体所定の身分証明書の写し等を提供する必要があります。「委任状以外の書面を添付する必要はない」とする本肢は誤りです。
+法定相続情報一覧図の保管・写しの交付の申出を代理人によってすることはできますが、その代理人は、申出人の法定代理人か、委任による場合は親族または戸籍法10条の2第3項に掲げる者に限られます。
+
+土地家屋調査士はこの戸籍法10条の2第3項に掲げる者（弁護士・司法書士・土地家屋調査士・税理士など）にあたるため、委任状に加えて、資格者代理人団体所定の身分証明書の写し等を提供する必要があります。
+
+「委任状以外の書面を添付する必要はない」とする本肢は誤りです。
 
 **たとえば**、相続人のAさんから委任を受けた土地家屋調査士が、Aさんの代わりに写しの交付を申出るとき、Aさんの委任状だけでは足りません。「私は確かに土地家屋調査士です」と示す所定の身分証明書の写しなども一緒に出す必要があります。
 
 ### イ：申出人の住所地を管轄する登記所にも申出ができる
 
-法定相続情報一覧図の保管および写しの交付の申出は、（1）被相続人の本籍地、（2）被相続人の最後の住所地、（3）申出人の住所地、（4）被相続人を表題部所有者もしくは所有権の登記名義人とする不動産の所在地――のいずれかを管轄する登記所の登記官に対してすることができます（不動産登記規則247条1項）。申出人の住所地を管轄する登記所も選べるため、本肢は正しい記述です。
+法定相続情報一覧図の保管および写しの交付の申出は、（1）被相続人の本籍地、（2）被相続人の最後の住所地、（3）申出人の住所地、（4）被相続人を表題部所有者もしくは所有権の登記名義人とする不動産の所在地――のいずれかを管轄する登記所の登記官に対してすることができます（不動産登記規則247条1項）。
+
+申出人の住所地を管轄する登記所も選べるため、本肢は正しい記述です。
 
 **たとえば**、亡くなったお父さんの本籍地が遠方でも、相続人であるAさん自身が住んでいる街を管轄する登記所に申出ることができます。わざわざ被相続人ゆかりの土地まで出向かなくてよいので、相続人にとって使いやすい制度になっています。
 
 ### ウ：他の相続人の住所は、任意的記載事項である
 
-法定相続情報一覧図では、申出人の住所は必ず記載しなければならない事項（必要的記載事項）ですが、他の相続人の住所は任意的記載事項とされています（不動産登記規則247条1項）。したがって「同順位の相続人の住所を記載しなければならない」とする本肢は誤りです。なお、他の相続人の住所を記載した場合は、その住所証明書の提供が必要になります。
+法定相続情報一覧図では、申出人の住所は必ず記載しなければならない事項（必要的記載事項）ですが、他の相続人の住所は任意的記載事項とされています（不動産登記規則247条1項）。
 
-**たとえば**、Aさん・Bさん・Cさんが同順位の相続人であるとき、一覧図に申出人Aさんの住所は必ず書きますが、BさんやCさんの住所まで必ず書かなければならないわけではありません。書くかどうかは任意で、書けばその分の住所証明書が必要になるという関係です。
+したがって「同順位の相続人の住所を記載しなければならない」とする本肢は誤りです。なお、他の相続人の住所を記載した場合は、その住所証明書の提供が必要になります。
+
+**たとえば**、Aさん・Bさん・Cさんが同順位の相続人であるとき、一覧図に申出人Aさんの住所は必ず書きますが、BさんやCさんの住所まで必ず書かなければならないわけではありません。
+
+書くかどうかは任意で、書けばその分の住所証明書が必要になるという関係です。
 
 ### エ：被相続人が登記名義人でなくても、申出ができる
 
-表題部所有者・登記名義人その他の者について相続が開始した場合において、その相続に起因する登記その他の手続のために必要があるときは、法定相続情報一覧図の保管および写しの交付の申出をすることができます（不動産登記規則247条1項）。被相続人が不動産の表題部所有者や所有権の登記名義人として登記されていることは要件ではありません。したがって本肢は誤りです。
+表題部所有者・登記名義人その他の者について相続が開始した場合において、その相続に起因する登記その他の手続のために必要があるときは、法定相続情報一覧図の保管および写しの交付の申出をすることができます（不動産登記規則247条1項）。
+
+被相続人が不動産の表題部所有者や所有権の登記名義人として登記されていることは要件ではありません。したがって本肢は誤りです。
 
 **たとえば**、亡くなったおじいさんが不動産を一切持っておらず、預貯金の相続手続だけが必要という場合でも、法定相続情報一覧図の保管の申出をすることができます。この制度は不動産の登記に限らず、相続手続一般に広く使えるようになっているのです。
 
@@ -46,7 +62,11 @@
 
 法定相続情報一覧図の写しの再交付を受けることもできますが、これは当該保管の申出をした申出人に限られます（不動産登記規則247条7項）。他の相続人が勝手に再交付を受けることはできないため、本肢は正しい記述です。
 
-**たとえば**、相続人Aさんが代表して保管の申出をして写しを受け取った後、書類が足りなくなって追加で写しがほしくなったとします。この再交付を申出られるのは申出人であるAさん自身であって、同じ相続人でも申出をしていないBさんが再交付を受けることはできません。
+**たとえば**、相続人Aさんが代表して保管の申出をして写しを受け取った後、書類が足りなくなって追加で写しがほしくなったとします。
+
+この再交付を申出られるのは申出人であるAさん自身であって、同じ相続人でも申出をしていないBさんが再交付を受けることはできません。
+
+---
 
 ### まとめ
 
@@ -110,12 +130,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 登・記・所・地・証・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -193,21 +231,21 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 法定相続情報一覧図の保管・写しの交付の申出について、①資格者代理人の添付書類、②申出先の登記所、③一覧図の記載事項、④被相続人が名義人であることの要否、⑤再交付を受けられる者という5つの判定を、「まず何を確認するか」から順に描けるよう5パネルに整理した。ウは一覧図そのものを家系図の形で描き、被相続人を上の世代、同順位の相続人（申出人と他の相続人）を下段に横並びで配置する。オ（再交付）は、はい/いいえの両方の行き先が実際の結論として意味を持つ決定木として描く。
 
@@ -251,7 +289,15 @@ own body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -277,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 資格者代理人は委任状だけでは足りない
@@ -295,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 身分証明書も必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 申出人の住所地の登記所でも申出できる
@@ -312,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 4つのいずれかでOK
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 他の相続人の住所は任意記載事項
@@ -332,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 他の相続人は任意記載
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 被相続人が名義人でなくても申出できる
@@ -352,13 +398,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 名義人要件はない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 再交付を頼めるのは申出人本人のみ
 Diagram: A decision flowchart. Start node: 写しの再交付を求める人が現れ
 る. Diamond node: 保管の申出をした申出人本人か？ A green branch with a
-thick highlighted border (本肢オの対象) for はい leads to a conclusion
+thick highlighted border (本オの対象) for はい leads to a conclusion
 node showing 申出人Ａ receiving a duplicate copy of the 一覧図 from a
 登記所 counter window. A plain blue いいえ branch leads to its own
 conclusion node showing another character labeled「Ｂ」standing behind
@@ -376,10 +422,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記規則247条1項・7項、戸籍法10条の2第3項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 相, 続, 登, 記, 権, 証, 義, 務, 籍, 轄, 資, 格 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 相, 続, 登, 記, 権, 証, 義, 籍, 轄, 資, 格 and any
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 3's

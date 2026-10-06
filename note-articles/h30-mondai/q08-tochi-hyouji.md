@@ -2,51 +2,71 @@
 
 **出題年度：平成30年度　午後の部　第8問**
 
-> 土地の表示に関する登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記１から５までのうち，どれか。
->
-> ア　抵当権の設定の登記がされている土地について，地積に関する更正の登記を申請する場合には，その申請情報と併せて，当該抵当権の登記名義人が登記記録上の地積を更正することについて承諾したことを証する情報を提供しなければならない。
->
-> イ　いずれも所有権の登記がある甲土地と乙土地とを合筆する合筆の登記の申請をする場合には，その申請情報と併せて，当該合筆に係る甲土地及び乙土地それぞれの所有権の登記名義人の登記識別情報をいずれも提供しなければならない。
->
-> ウ　地番区域が相互に異なり，所有権の登記名義人が同一である甲土地と乙土地のそれぞれについて，当該登記名義人が地積に関する更正の登記を申請する場合において，甲土地と乙土地とが同一の登記所の管轄区域内にあるときは，一の申請情報により，当該申請をすることができる。
->
-> エ　所有権の登記がある甲土地から乙土地及び丙土地を分筆する分筆の登記を申請した場合において，その登記が完了したときは，分筆後のいずれの土地についても，新たな登記識別情報は通知されない。
->
-> オ　書面申請により分筆の登記を申請する場合において，受領証の交付を請求するときは，申請書の内容と同一の内容を記載した書面に地積測量図の写しを添付したものを提出しなければならない。
->
+> 土地の表示に関する登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記１から５までのうち，どれか。  
+>　  
+> ア　抵当権の設定の登記がされている土地について，地積に関する更正の登記を申請する場合には，その申請情報と併せて，当該抵当権の登記名義人が登記記録上の地積を更正することについて承諾したことを証する情報を提供しなければならない。  
+>　  
+> イ　いずれも所有権の登記がある甲土地と乙土地とを合筆する合筆の登記の申請をする場合には，その申請情報と併せて，当該合筆に係る甲土地及び乙土地それぞれの所有権の登記名義人の登記識別情報をいずれも提供しなければならない。  
+>　  
+> ウ　地番区域が相互に異なり，所有権の登記名義人が同一である甲土地と乙土地のそれぞれについて，当該登記名義人が地積に関する更正の登記を申請する場合において，甲土地と乙土地とが同一の登記所の管轄区域内にあるときは，一の申請情報により，当該申請をすることができる。  
+>　  
+> エ　所有権の登記がある甲土地から乙土地及び丙土地を分筆する分筆の登記を申請した場合において，その登記が完了したときは，分筆後のいずれの土地についても，新たな登記識別情報は通知されない。  
+>　  
+> オ　書面申請により分筆の登記を申請する場合において，受領証の交付を請求するときは，申請書の内容と同一の内容を記載した書面に地積測量図の写しを添付したものを提出しなければならない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
 
-土地の表示に関する登記の添付情報・申請構造をまとめて問う総合問題です。更正登記での承諾情報の要否、合筆時の登記識別情報の提供、一の申請情報でまとめられる条件、分筆完了後に登記識別情報が通知されるか、受領証を請求するときの提出書面など、条文・規則に沿って一つずつ切り分けて確認していきます。
+---
+
+土地の表示に関する登記の添付情報・申請構造をまとめて問う総合問題です。
+
+更正登記での承諾情報の要否、合筆時の登記識別情報の提供、一の申請情報でまとめられる条件、分筆完了後に登記識別情報が通知されるか、受領証を請求するときの提出書面など、条文・規則に沿って一つずつ切り分けて確認していきます。
 
 ### ア：地積更正の登記に、抵当権者の承諾を証する情報は要らない
 
-地積に関する更正の登記は、土地の表示（物理的現況）を実際の状態に合わせて正すものであり、権利関係を変動させる登記ではありません。地積に関する変更の登記又は更正の登記を申請する場合の添付情報は地積測量図のみとされており（不動産登記令別表六）、たとえその土地に抵当権が設定されていても、抵当権の登記名義人が地積の更正について承諾したことを証する情報は、添付情報として求められていません。本肢のように権利の客体である土地の地積が変化する場合であっても、権利者からの承諾書は不要です。
+地積に関する更正の登記は、土地の表示（物理的現況）を実際の状態に合わせて正すものであり、権利関係を変動させる登記ではありません。
+
+地積に関する変更の登記又は更正の登記を申請する場合の添付情報は地積測量図のみとされており（不動産登記令別表六）、たとえその土地に抵当権が設定されていても、抵当権の登記名義人が地積の更正について承諾したことを証する情報は、添付情報として求められていません。
+
+本肢のように権利の客体である土地の地積が変化する場合であっても、権利者からの承諾書は不要です。
 
 **たとえば**、住宅ローンの抵当権が付いている自宅の土地について、実測したら登記記録より地積が少し違っていたので更正するという場合でも、わざわざ銀行（抵当権者）から「地積を直してよい」という承諾書をもらってくる必要はありません。
 
 ### イ：所有権の登記がある土地の合筆では、どれか一つの登記識別情報を提供すれば足りる
 
-所有権の登記がある土地の合筆、建物の合体、建物の合併をおこなう場合には、これらに係る不動産のうち一つの登記識別情報を提供すれば足ります（不動産登記法22条）。本肢は「甲土地及び乙土地それぞれの登記識別情報をいずれも提供しなければならない」としていますが、両方を提供する必要はなく、いずれか一つで足りる点が誤りです。
+所有権の登記がある土地の合筆、建物の合体、建物の合併をおこなう場合には、これらに係る不動産のうち一つの登記識別情報を提供すれば足ります（不動産登記法22条）。
+
+本肢は「甲土地及び乙土地それぞれの登記識別情報をいずれも提供しなければならない」としていますが、両方を提供する必要はなく、いずれか一つで足りる点が誤りです。
 
 **たとえば**、Ａさんが隣り合う甲土地と乙土地を合筆したいとき、甲土地の登記識別情報だけ手元にあれば申請でき、乙土地の分まで両方そろえなくても手続きを進められます。
 
 ### ウ：管轄が同じで目的・原因・日付が同一なら、一の申請情報でまとめられる
 
-同一の管轄登記所の不動産については、登記の目的、登記原因及びその日付が同一であれば、一の申請情報により登記を申請することができます（不動産登記令4条ただし書）。所有権の登記名義人が同一の甲土地と乙土地について、いずれも地積更正の登記という同一の目的で申請し、両土地が同一の登記所の管轄区域内にあるのであれば、一の申請情報でまとめて申請できます。地番区域が相互に異なっていても、管轄が同一であれば差し支えありません。
+同一の管轄登記所の不動産については、登記の目的、登記原因及びその日付が同一であれば、一の申請情報により登記を申請することができます（不動産登記令4条ただし書）。
+
+所有権の登記名義人が同一の甲土地と乙土地について、いずれも地積更正の登記という同一の目的で申請し、両土地が同一の登記所の管轄区域内にあるのであれば、一の申請情報でまとめて申請できます。
+
+地番区域が相互に異なっていても、管轄が同一であれば差し支えありません。
 
 **たとえば**、同じ人が持っている甲土地と乙土地が、地番の区域は別々でも同じ登記所の管轄内にあり、どちらも実測に合わせて地積を更正したいという場合、2件に分けず1つの申請情報でまとめて手続きすることができます。
 
 ### エ：分筆の登記が完了しても、新たな登記識別情報は通知されない
 
-登記官は、申請人が自ら登記名義人となる場合の登記を完了したときに、その申請人へ登記識別情報を通知します（不動産登記法21条）。しかし、不動産の表示に関する登記で登記識別情報が通知されるのは、所有権の登記がある土地の合筆、建物の合体、建物の合併の登記が完了したときに限られます。分筆の登記では、分筆後のいずれの土地についても新たな登記識別情報は通知されません。
+登記官は、申請人が自ら登記名義人となる場合の登記を完了したときに、その申請人へ登記識別情報を通知します（不動産登記法21条）。
+
+しかし、不動産の表示に関する登記で登記識別情報が通知されるのは、所有権の登記がある土地の合筆、建物の合体、建物の合併の登記が完了したときに限られます。分筆の登記では、分筆後のいずれの土地についても新たな登記識別情報は通知されません。
 
 **たとえば**、所有権登記のある甲土地を乙土地・丙土地に分けて3筆にする分筆登記が終わっても、乙土地や丙土地について新しいパスワード（登記識別情報）が発行されて届くことはなく、もとの甲土地の登記識別情報がそのまま各土地に引き継がれます。
 
 ### オ：受領証の交付を請求するときに、地積測量図の写しの添付は要らない
 
-書面による申請で受領証の交付を請求するときは、申請書の内容と同一の内容を記載した書面を提出することで請求できます（不動産登記規則54条）。本肢はこれに加えて「地積測量図の写しを添付したものを提出しなければならない」としていますが、地積測量図の写しの添付までは求められておらず、その点が誤りです。
+書面による申請で受領証の交付を請求するときは、申請書の内容と同一の内容を記載した書面を提出することで請求できます（不動産登記規則54条）。
+
+本肢はこれに加えて「地積測量図の写しを添付したものを提出しなければならない」としていますが、地積測量図の写しの添付までは求められておらず、その点が誤りです。
 
 **たとえば**、分筆の登記を窓口に書面で出したときに「受け取った控えがほしい」と受領証を請求する場合、申請書と同じ内容を書いた紙を1枚添えれば足り、そこに地積測量図のコピーまで貼り付けて出す必要はありません。
+
+---
 
 ### まとめ
 
@@ -68,7 +88,7 @@
 - 出典（平成30年度午後の部 第8問）・正解番号（ウエ＝5番）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠のうち、条文・規則番号まで元データの解説に明記されているのは、イ（法22条）・ウ（令4条ただし書、法21条）・エ（法21条）・オ（規則54条）です。アについては、元データの解説に条文番号の記載がなく、「権利の客体である土地の地積が変化する場合でも権利者からの承諾書は添付情報とならない」という一般原則からの説明にとどめています。
 - 本記事の条文根拠は、ローカルのアガルート教材（過去問テキスト）の解説をOCRした元データを一次情報源として参照しています。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（土地の表示に関する登記）と同一・類似の論点がないか確認しました。**重複が見つかりました。** 令和6年度第7問（既存記事：`r6-mondai/q07-chiseki-kosei.md`）は「地積に関する更正の登記」を主題とし、その肢ウで「地積が減少する更正登記でも、抵当権の登記名義人の承諾を証する情報の提供を要しない」という、本問の肢ア（抵当権者の承諾を証する情報が必要という誤った記述）と同じ論点（地積更正登記における抵当権者の承諾の要否）を扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（土地の表示に関する登記）と同一・類似の論点がないか確認しました。**重複が見つかりました。** 令和6年度第7問（既存記事：`r6-mondai/q07-chiseki-kosei.md`）は「地積に関する更正の登記」を主題とし、そのウで「地積が減少する更正登記でも、抵当権の登記名義人の承諾を証する情報の提供を要しない」という、本問のア（抵当権者の承諾を証する情報が必要という誤った記述）と同じ論点（地積更正登記における抵当権者の承諾の要否）を扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
 - **再検証チェック（2026-08-18実施）**：qa-checklist.mdの19項目に従い再検証しました。`note-articles/laws/`のローカル法令データベース（不動産登記法、不動産登記令、不動産登記規則）と突き合わせたところ、イ（法22条）・ウ（令4条ただし書）・エ（法21条）・オ（規則54条）はいずれも条文原文と文言・項号が一致することを確認しました（なお、上記「このまま使える点」欄の「ウ（令4条ただし書、法21条）」という記載のうち法21条はエの根拠と混同したもので、ウの根拠は令4条ただし書のみです）。さらに、ア「地積更正の登記に抵当権者の承諾を証する情報は不要」という結論について、不動産登記令別表六（地積に関する変更の登記又は更正の登記の添付情報を地積測量図のみと定める規定）に明文の根拠があることを新たに確認できたため、本文に条文根拠として追記しました。半角括弧・判例番号・先例番号・専門誌番号の本文記載、Markdown表の残存は確認されませんでした。正解番号（ウエ＝5番）と各肢の判定の整合性、まとめ・インフォグラフィックプロンプトの内容一致も問題ありませんでした。最新法令チェックとして、直近の法改正が本問（土地の表示に関する登記）の論点に影響しないことも確認しました。
 
 ---
@@ -112,13 +132,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・登・記・所・筆・証・領・識・轄・積・抵・当・権・合・測 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -194,19 +232,19 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence
 of explanatory prose — every card's takeaway must read as a short
-heading + a short conclusion tag, at a glance.
+heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。
 
@@ -288,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -310,7 +348,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾を証する情報は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 合筆の登記識別情報は一つで足りる
@@ -329,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 識別情報はいずれか一つ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 目的・原因・日付と管轄が同じなら一の申請情報
@@ -354,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 条件を満たせば一の申請情報で
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分筆では新たな登記識別情報は通知されない
@@ -376,7 +414,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 分筆では新たな通知なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 受領証請求に地積測量図の写しは不要

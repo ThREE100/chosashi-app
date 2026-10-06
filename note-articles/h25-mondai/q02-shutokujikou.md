@@ -2,19 +2,21 @@
 
 **出題年度：平成25年度　午後の部　第2問**
 
-> A所有の甲土地についての取得時効に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　Bは、甲土地を無権利者Cから賃借した場合には、甲土地の賃借権を時効によって取得することはできない。
->
-> イ　Bは、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始したものの、それから10年が経過する前に当該占有が隠匿のものとなった場合には、当該占有の開始から10年間占有を継続しても、甲土地の所有権を時効によって取得することはできない。
->
-> ウ　Bは、甲土地を無権利者Cから買い受け、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始したものの、それから10年が経過する前に甲土地がAの所有する物であることを知った場合には当該占有の開始から10年間占有を継続しても、甲土地の所有権を時効によって取得することはできない。
->
-> エ　Bは、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始し、その3年後、甲土地がAの所有する物であることを知っているCに対して甲土地を売却した。この場合において、Cは、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、それから7年が経過したときには、甲土地の所有権を時効によって取得することができる。
->
-> オ　Bは、甲土地がAの所有する物であることを知りながら、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、その4年後、甲土地がBの所有する物であると過失なく信じたCに対して甲土地を売却した。この場合において、Cは、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、それから6年が経過したときには、甲土地の所有権を時効により取得することができる。
->
+> A所有の甲土地についての取得時効に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　Bは、甲土地を無権利者Cから賃借した場合には、甲土地の賃借権を時効によって取得することはできない。  
+>　  
+> イ　Bは、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始したものの、それから10年が経過する前に当該占有が隠匿のものとなった場合には、当該占有の開始から10年間占有を継続しても、甲土地の所有権を時効によって取得することはできない。  
+>　  
+> ウ　Bは、甲土地を無権利者Cから買い受け、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始したものの、それから10年が経過する前に甲土地がAの所有する物であることを知った場合には当該占有の開始から10年間占有を継続しても、甲土地の所有権を時効によって取得することはできない。  
+>　  
+> エ　Bは、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始し、その3年後、甲土地がAの所有する物であることを知っているCに対して甲土地を売却した。この場合において、Cは、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、それから7年が経過したときには、甲土地の所有権を時効によって取得することができる。  
+>　  
+> オ　Bは、甲土地がAの所有する物であることを知りながら、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、その4年後、甲土地がBの所有する物であると過失なく信じたCに対して甲土地を売却した。この場合において、Cは、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、それから6年が経過したときには、甲土地の所有権を時効により取得することができる。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
+
+---
 
 取得時効は、「善意無過失は占有開始時だけで判断する」のに対し、「平穏・公然」は占有期間を通じて必要という、要件ごとの性質の違いを理解しているかが最大のポイントです。占有の承継（合算）の場面も絡めて出題されており、応用力が問われます。
 
@@ -26,7 +28,9 @@
 
 ### イ：占有開始時は善意でも、途中で「隠匿」になれば時効は成立しない
 
-10年の短期取得時効に必要な「善意無過失」は占有開始時に備わっていればよいとされていますが、「平穏に、かつ、公然と」という要件は占有期間を通じて必要とされています。占有の途中で人目を忍ぶ「隠匿」の占有に転じた場合には、公然性の要件が失われるため、占有開始から10年間占有を継続しても取得時効は成立しません。
+10年の短期取得時効に必要な「善意無過失」は占有開始時に備わっていればよいとされていますが、「平穏に、かつ、公然と」という要件は占有期間を通じて必要とされています。
+
+占有の途中で人目を忍ぶ「隠匿」の占有に転じた場合には、公然性の要件が失われるため、占有開始から10年間占有を継続しても取得時効は成立しません。
 
 **たとえば**、Bさんが最初は正々堂々と土地を使っていたのに、途中から所有者に見つからないようこっそり隠れて使うようになった場合、たとえ通算の占有期間が10年に達していても、その隠匿していた期間があるために時効取得は認められません。
 
@@ -38,15 +42,21 @@
 
 ### エ：前主の占有と合算する場合、善意無過失は最初の占有者を基準に判断する
 
-占有の承継人は、前の占有者の占有をあわせて主張することができます（民法187条）。判例は、前主の占有をあわせて主張する場合の善意無過失の判断は、最初に占有を開始した者（前主）を基準に行うとしています。この事例では、善意無過失で占有を始めたBの占有（3年）と、悪意のCの占有（7年）を合算すれば10年に達し、最初の占有者Bが善意無過失であった以上、Cは時効によって所有権を取得することができます。
+占有の承継人は、前の占有者の占有をあわせて主張することができます（民法187条）。判例は、前主の占有をあわせて主張する場合の善意無過失の判断は、最初に占有を開始した者（前主）を基準に行うとしています。
+
+この事例では、善意無過失で占有を始めたBの占有（3年）と、悪意のCの占有（7年）を合算すれば10年に達し、最初の占有者Bが善意無過失であった以上、Cは時効によって所有権を取得することができます。
 
 **たとえば**、自分の土地だと信じて3年間使っていたBさんから、実はAさんの土地だと知っているCさんが土地を買い受けて7年間使い続けたとしても、最初のBさんが善意無過失だったおかげで、通算10年でCさんは時効取得できることになります。
 
 ### オ：最初の占有者が悪意なら、合算しても短期（10年）の時効は成立しない
 
-逆に、最初の占有者Bが占有開始時から悪意（Aの所有と知っていた）であった場合、その後を承継した善意無過失のCが自己の占有のみを主張しても占有期間はまだ10年に満たず、Bの占有とあわせて主張しても最初の占有者Bが悪意である以上、10年の短期取得時効は成立しません（20年の長期取得時効の要件を満たす必要があります）。この事例では、Bの占有（4年）とCの占有（6年）をあわせても10年に達していますが、最初の占有者Bが悪意であるため、この時点で時効取得することはできません。
+逆に、最初の占有者Bが占有開始時から悪意（Aの所有と知っていた）であった場合、その後を承継した善意無過失のCが自己の占有のみを主張しても占有期間はまだ10年に満たず、Bの占有とあわせて主張しても最初の占有者Bが悪意である以上、10年の短期取得時効は成立しません（20年の長期取得時効の要件を満たす必要があります）。
+
+この事例では、Bの占有（4年）とCの占有（6年）をあわせても10年に達していますが、最初の占有者Bが悪意であるため、この時点で時効取得することはできません。
 
 **たとえば**、Aさんの土地だと知りながら4年間使っていたBさんから、今度は本当に「自分の土地だ」と信じて買い受けたCさんが6年間使い続けても、最初のBさんが悪意だった以上、この時点ではまだ時効取得は認められません。
+
+---
 
 ### まとめ
 
@@ -108,12 +118,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・継・隠・悪・効・過・失 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -188,18 +216,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -223,10 +251,10 @@ actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 2
-and 3 (肢イ・肢ウ) share the same underlying decision-tree shape (占有開始
+and 3 (イ・ウ) share the same underlying decision-tree shape (占有開始
 時の善意無過失の確認 → その後の要件の変化の確認）; draw both with the same
 two-diamond tree layout, but highlight（太い縁取り・色を変える等で強調）the
-branch relevant to that panel's 肢. Panels 4 and 5 (肢エ・肢オ) likewise
+branch relevant to that panel's 肢. Panels 4 and 5 (エ・オ) likewise
 share the same decision-tree shape (占有の承継の有無の確認 → 最初の占有者
 の善意無過失の確認）; draw both with the same two-diamond tree layout,
 highlighting the branch relevant to that panel's 肢. Unlike a glanceable
@@ -239,7 +267,15 @@ text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -263,7 +299,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 時効取得の対象は所有権だけじゃない
@@ -283,19 +319,18 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 賃借権も時効取得できる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 平穏・公然は期間中ずっと必要
 Diagram: A decision-tree flowchart on an isometric timeline of 甲土地の
-占有. Start node: 占有開始. First diamond node: 開始時、善意無過失か？
-with a はい arrow proceeding downward (いいえ側は薄いグレーで小さく描き、
-今回は関係しないことを示す程度でよい). Second diamond node (drawn with a
-thicker highlighted border since this is the branch this panel is about):
-占有期間中、平穏・公然のままか（隠匿に転じていないか）？with two branch
-arrows: いいえ（隠匿に転じた）leading to a red cross mark and a conclusion
-node reading 10年の時効は不成立; はい leading to a small grayed-out box
-captioned 次のパネルへ (indicating the shared tree continues in Panel 3).
+占有. Start node: 占有開始. A rectangular check box (NOT a diamond): 開始時に
+善意無過失, with a single arrow proceeding downward to a diamond node
+(drawn with a thicker highlighted border since this is the branch this
+panel is about): 占有期間中、平穏・公然のままか（隠匿に転じていないか）？
+with two branch arrows: いいえ（隠匿に転じた）leading to a red cross mark
+and a conclusion node reading 10年の時効は不成立; はい leading to a small,
+lighter-toned conclusion node reading 平穏・公然の要件は満たす.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず占有開始時に善意無過失だったかを確認し、次に、占有している期間中
 ずっと「平穏・公然」の状態が保たれていたかを確認します。途中で隠匿に転じ
@@ -304,20 +339,18 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 隠匿に転じたら不成立
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 善意無過失は「開始時」だけで足りる
-Diagram: The same decision-tree flowchart shape as Panel 2, on the same
-isometric timeline of 占有. Start node: 占有開始. First diamond node:
-開始時、善意無過失か？with a はい arrow proceeding downward. Second
-diamond node (drawn with a thicker highlighted border since this is the
-branch this panel is about, distinct from Panel 2's highlighted diamond):
-占有期間中に悪意に転じたか（真実に気づいてしまったか）？with the はい
-（悪意に転じた）branch leading NOT to a cross mark but to a green
-checkmark and a conclusion node reading 10年の時効は成立する, visually
-contrasting with Panel 2's red-cross outcome to show the two requirements
-behave differently.
+Diagram: A check flow on the same isometric timeline of 占有 (rectangular
+boxes, no diamonds). Start node: 占有開始. Check box 1: 開始時に善意無過失.
+A single arrow leads to check box 2 (thicker highlighted border): 占有
+期間中に悪意に転じた（真実に気づいた）, with a dotted-outline tag beside it
+reading 途中で悪意に転じても問わない. A single arrow leads NOT to a cross
+mark but to a green checkmark and a conclusion node reading 10年の時効は
+成立する, visually contrasting with Panel 2's red-cross outcome to show
+the two requirements behave differently.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず占有開始時に善意無過失だったかを確認します。次に、占有期間中に悪意に
 転じたとしても、善意無過失は「占有開始時点」だけで判断するため、時効の
@@ -326,16 +359,18 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 悪意に転じても成立する
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 承継したら最初の占有者で判断
 Diagram: A decision-tree flowchart combined with a relay-race isometric
-illustration. Start node: 占有を承継したか（前の占有者からのバトンタッチ）？
-with a はい arrow proceeding downward to a second diamond node (drawn
-with a thicker highlighted border): 最初の占有者（バトンを渡した人）は、
-占有開始時に善意無過失だったか？with the はい branch highlighted, leading
-to a conclusion node reading 10年の短期時効のルールを適用。Show the relay
+illustration. Start node (rectangular check box, NOT a diamond): 前の占有者から占有を
+承継し、合算して主張する, with a single arrow proceeding downward to a
+diamond node (drawn with a thicker highlighted border): 最初の占有者（バト
+ンを渡した人）は、占有開始時に善意無過失だったか？with the はい branch
+highlighted, leading to a conclusion node reading 10年の短期時効のルールを
+適用, and the いいえ branch (thin, lighter tone) leading to its own
+conclusion node reading 20年の長期時効が必要。Show the relay
 baton being passed from a first runner figure labeled 善意無過失 to a
 second runner figure labeled 悪意, with a green checkmark at a finish
 line marked 合計10年.
@@ -347,18 +382,19 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 最初が善意なら10年で合算OK
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 最初の占有者が悪意なら20年必要
 Diagram: The same decision-tree flowchart shape as Panel 4, combined with
-a mirrored relay-race isometric illustration. Start node: 占有を承継した
-か（前の占有者からのバトンタッチ）？with a はい arrow proceeding downward
-to a second diamond node (drawn with a thicker highlighted border,
-distinct from Panel 4's highlighted branch): 最初の占有者（バトンを渡した
-人）は、占有開始時に善意無過失だったか？with the いいえ（悪意）branch
-highlighted, leading to a conclusion node reading 20年の長期時効のルール
-が必要。Show the relay baton being passed from a first runner figure
+a mirrored relay-race isometric illustration. Start node (rectangular check box,
+NOT a diamond): 前の占有者から占有を承継し、合算して主張する, with a single
+arrow proceeding downward to a diamond node (drawn with a thicker
+highlighted border, distinct from Panel 4's highlighted branch): 最初の
+占有者（バトンを渡した人）は、占有開始時に善意無過失だったか？with the
+いいえ（悪意）branch highlighted, leading to a conclusion node reading
+20年の長期時効のルールが必要, and the はい branch (thin, lighter tone)
+leading to its own conclusion node reading 10年の短期時効のルールを適用。Show the relay baton being passed from a first runner figure
 labeled 悪意 to a second runner figure labeled 善意無過失, with a red
 cross mark at a finish line marked 合計10年では不足.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -376,14 +412,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 占, 隠, 匿, 継, 悪, 償, 過, 失 and any character that has a visually
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 占, 隠, 匿, 継, 悪, 過, 失 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢 (肢イ・肢ウ・肢
-エ・肢オ) is drawn as an actual flowchart with branch nodes (not a bare
+the header and the panels, that every multi-condition 肢 (イ・ウ・肢
+エ・オ) is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary

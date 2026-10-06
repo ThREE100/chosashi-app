@@ -2,51 +2,73 @@
 
 **出題年度：令和5年度　午後の部　第9問**
 
-> 土地の分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　抵当権の設定の登記がされた土地について分筆の登記がされた後は、錯誤を原因とする当該分筆の登記の抹消をすることはできない。
->
-> イ　抵当権の設定の登記がされた甲土地から乙土地を分筆する分筆の登記をする場合には、分筆後の甲土地及び乙土地の2筆の土地について、抵当権者が当該抵当権を消滅させることを承諾したことを証する情報が提供されたとしても、登記官は、分筆後の甲土地及び乙土地に係る当該抵当権が消滅した旨の登記をすることはできない。
->
-> ウ　甲土地の所有権の登記名義人であるＡが死亡し、その相続人がＢ及びＣである場合において、ＢＣ間で、Ｂが甲土地の所有権を単独で取得することを内容とする遺産分割協議が成立したときであっても、Ｂは、甲土地の分筆の登記を申請することはできない。
->
-> エ　地方公共団体及び私人が所有権の登記名義人である土地について、当該私人が分筆の登記を申請する場合には、登録免許税は課されない。
->
-> オ　甲土地から乙土地を分筆する分筆の登記をする場合において、甲土地に筆界特定がされた旨の記録があるときは、当該記録は、乙土地の登記記録に転写される。
->
+> 土地の分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　抵当権の設定の登記がされた土地について分筆の登記がされた後は、錯誤を原因とする当該分筆の登記の抹消をすることはできない。  
+>　  
+> イ　抵当権の設定の登記がされた甲土地から乙土地を分筆する分筆の登記をする場合には、分筆後の甲土地及び乙土地の2筆の土地について、抵当権者が当該抵当権を消滅させることを承諾したことを証する情報が提供されたとしても、登記官は、分筆後の甲土地及び乙土地に係る当該抵当権が消滅した旨の登記をすることはできない。  
+>　  
+> ウ　甲土地の所有権の登記名義人であるＡが死亡し、その相続人がＢ及びＣである場合において、ＢＣ間で、Ｂが甲土地の所有権を単独で取得することを内容とする遺産分割協議が成立したときであっても、Ｂは、甲土地の分筆の登記を申請することはできない。  
+>　  
+> エ　地方公共団体及び私人が所有権の登記名義人である土地について、当該私人が分筆の登記を申請する場合には、登録免許税は課されない。  
+>　  
+> オ　甲土地から乙土地を分筆する分筆の登記をする場合において、甲土地に筆界特定がされた旨の記録があるときは、当該記録は、乙土地の登記記録に転写される。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
-分筆の登記は、1筆の土地を線引きして複数に分ける登記です。土地の上に抵当権が付いていたり、相続がからんだり、公共団体と私人が共有していたりと、周辺の権利関係が絡むと途端に処理が複雑になります。この問題は、その「絡んだとき」のルールを一つひとつ問うています。
+---
+
+分筆の登記は、1筆の土地を線引きして複数に分ける登記です。土地の上に抵当権が付いていたり、相続がからんだり、公共団体と私人が共有していたりと、周辺の権利関係が絡むと途端に処理が複雑になります。
+
+この問題は、その「絡んだとき」のルールを一つひとつ問うています。
 
 ### ア：分筆前に付いた抵当権なら、錯誤による分筆登記の抹消はできる
 
-分筆登記の抹消ができなくなるのは、分筆と同時に消滅承諾書を添えて、分筆後の一部の土地について抵当権などの権利の登記を消滅させた場合です。この場合は公示関係が複雑になるため、いったんすべての権利を消してから合筆し、改めて登記し直すべきとされます。しかし本肢は、分筆の「前」からすでに抵当権が設定されていたケースなので、そのような複雑化は生じず、錯誤を原因とする分筆登記の抹消をすることができます。
+分筆登記の抹消ができなくなるのは、分筆と同時に消滅承諾書を添えて、分筆後の一部の土地について抵当権などの権利の登記を消滅させた場合です。この場合は公示関係が複雑になるため、いったんすべての権利を消してから合筆し、改めて登記し直すべきとされます。
 
-**たとえば**、Aさんの1筆の土地にB銀行の抵当権がもともと付いていて、その後この土地を測量ミスで誤って分筆してしまったとします。この分筆はあとから消滅承諾がからんだわけではないので、「本当は分ける必要がなかった」として、錯誤を原因に分筆の登記を抹消して元の1筆に戻すことができます。
+しかし本肢は、分筆の「前」からすでに抵当権が設定されていたケースなので、そのような複雑化は生じず、錯誤を原因とする分筆登記の抹消をすることができます。
+
+**たとえば**、Aさんの1筆の土地にB銀行の抵当権がもともと付いていて、その後この土地を測量ミスで誤って分筆してしまったとします。
+
+この分筆はあとから消滅承諾がからんだわけではないので、「本当は分ける必要がなかった」として、錯誤を原因に分筆の登記を抹消して元の1筆に戻すことができます。
 
 ### イ：分筆後の全部の土地について抵当権を消すことはできない
 
-所有権以外の権利（抵当権や地上権、賃借権など）が付いた土地を分筆するとき、権利者が「分割後の1筆を除いた他の土地」について権利消滅を証する書面（消滅承諾書）を添えれば、その他の土地の権利だけを消すことができます（不動産登記法40条、規則104条1項）。ポイントは「1筆を除いた他の土地」という点で、必ずいずれか1筆には権利を残さなければなりません。本肢のように分筆後の甲・乙の2筆すべてについて抵当権を消すことは認められず、登記官は消滅の登記をすることができません。
+所有権以外の権利（抵当権や地上権、賃借権など）が付いた土地を分筆するとき、権利者が「分割後の1筆を除いた他の土地」について権利消滅を証する書面（消滅承諾書）を添えれば、その他の土地の権利だけを消すことができます（不動産登記法40条、規則104条1項）。
 
-**たとえば**、B銀行の抵当権が付いた土地を甲・乙に分けるとき、「乙にだけ抵当権を残して甲は外す」ことはできますが、「甲も乙も両方まとめて抵当権を消す」ことはできません。両方消したいなら、それは分筆手続の中ではなく、別途抵当権抹消の登記で処理すべきものだからです。
+ポイントは「1筆を除いた他の土地」という点で、必ずいずれか1筆には権利を残さなければなりません。
+
+本肢のように分筆後の甲・乙の2筆すべてについて抵当権を消すことは認められず、登記官は消滅の登記をすることができません。
+
+**たとえば**、B銀行の抵当権が付いた土地を甲・乙に分けるとき、「乙にだけ抵当権を残して甲は外す」ことはできますが、「甲も乙も両方まとめて抵当権を消す」ことはできません。
+
+両方消したいなら、それは分筆手続の中ではなく、別途抵当権抹消の登記で処理すべきものだからです。
 
 ### ウ：遺産分割で単独取得した相続人は、分筆の登記を申請できる
 
-共有物である土地の分筆の登記は、原則として持分の価格の過半数を持つ者から申請します。もっとも、遺産分割協議によって土地の一部（あるいは全部）を取得することになった相続人は、遺産分割協議書を添付することで、単独で分筆の登記を申請することができます。したがって、単独取得したBが分筆の登記を申請できないとする本肢は誤りです。
+共有物である土地の分筆の登記は、原則として持分の価格の過半数を持つ者から申請します。
+
+もっとも、遺産分割協議によって土地の一部（あるいは全部）を取得することになった相続人は、遺産分割協議書を添付することで、単独で分筆の登記を申請することができます。したがって、単独取得したBが分筆の登記を申請できないとする本肢は誤りです。
 
 **たとえば**、亡くなったAさんの土地を、相続人BさんとCさんが「この土地はBが一人で取得する」と遺産分割協議でまとめたとします。このときBさんは、その協議書を添えれば、Cさんの関与なしに一人で甲土地の分筆の登記を申請することができます。
 
 ### エ：公共団体と私人の共有地でも、私人が申請すれば登録免許税は課される
 
-国や地方公共団体などが自己のために受ける登記は、登録免許税が非課税とされています（登録免許税法4条）。しかし、非課税になるのはあくまで「公共団体自身のための登記」です。国・地方公共団体と私人が共有している土地について、私人の側が分筆の登記を申請する場合には、通常どおり登録免許税が課されます。したがって「課されない」とする本肢は誤りです。
+国や地方公共団体などが自己のために受ける登記は、登録免許税が非課税とされています（登録免許税法4条）。しかし、非課税になるのはあくまで「公共団体自身のための登記」です。
+
+国・地方公共団体と私人が共有している土地について、私人の側が分筆の登記を申請する場合には、通常どおり登録免許税が課されます。したがって「課されない」とする本肢は誤りです。
 
 **たとえば**、市と個人のAさんが共有している土地を、Aさんが分筆の登記で申請するケースを考えます。相手方が市だからといって丸ごと非課税になるわけではなく、申請人である私人Aさんには通常どおり登録免許税がかかります。
 
 ### オ：筆界特定がされた旨の記録は、分筆後の土地に転写される
 
-筆界特定がされると、対象土地を管轄する登記所に筆界特定手続記録が送付・保管され（不動産登記法145条）、対象土地の登記記録の地図番号欄に「年月日筆界特定（手続番号）」のように記録されます（規則234条）。そして、この記録がある土地を分筆した場合には、分筆後のすべての土地に筆界特定がされた旨が転写されます。したがって、乙土地の登記記録にも転写されるとする本肢は正しい記述です。
+筆界特定がされると、対象土地を管轄する登記所に筆界特定手続記録が送付・保管され（不動産登記法145条）、対象土地の登記記録の地図番号欄に「年月日筆界特定（手続番号）」のように記録されます（規則234条）。
+
+そして、この記録がある土地を分筆した場合には、分筆後のすべての土地に筆界特定がされた旨が転写されます。したがって、乙土地の登記記録にも転写されるとする本肢は正しい記述です。
 
 **たとえば**、境界をめぐる争いがあって筆界特定を受けた甲土地から、乙土地を切り出して分筆したとします。このとき「筆界特定がされた」という履歴は甲土地だけでなく、分けて生まれた乙土地の登記記録にもしっかり引き継がれて記録されます。
+
+---
 
 ### まとめ
 
@@ -110,12 +132,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・錯・誤・相・続 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -192,22 +232,22 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-抵当権が絡む肢ア・イは、「分筆にあわせて消滅承諾書が使われているか」を起点に「1筆を除くか全部か」まで枝分かれする同じ決定木を共有し、アはその手前の分岐（消滅承諾とは無関係な単純な分筆）を、イは先の分岐（全部消せるかどうか）を強調する構成にした。ウ・エも「協議書の有無」「申請人が誰か」を分岐点とする決定木として描き、オは分筆前後で筆界特定の記録がどう転写されるかを配置図で示す。
+抵当権が絡むア・イは、「分筆にあわせて消滅承諾書が使われているか」を起点に「1筆を除くか全部か」まで枝分かれする同じ決定木を共有し、アはその手前の分岐（消滅承諾とは無関係な単純な分筆）を、イは先の分岐（全部消せるかどうか）を強調する構成にした。ウ・エも「協議書の有無」「申請人が誰か」を分岐点とする決定木として描き、オは分筆前後で筆界特定の記録がどう転写されるかを配置図で示す。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -231,7 +271,7 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
 肢 is resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 1 and 2 (肢ア・肢イ) share
+sufficient — do not force a flowchart. Panels 1 and 2 (ア・イ) share
 the same underlying decision tree, starting from a diamond node asking
 whether a 消滅承諾書 was used for this particular 分筆; Panel 1 highlights
 （太い縁取り・フルカラー）the「いいえ」branch (a simple split with no
@@ -253,7 +293,15 @@ callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -279,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 消滅承諾の有無を最初に確認する
@@ -300,7 +348,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 錯誤抹消は可能
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 全部消すか1筆残すかを見分ける
@@ -326,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1筆には残す必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 遺産分割協議書の有無で申請人が変わる
@@ -348,7 +396,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 Ｂのみで申請可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 私人の申請なら登録免許税がかかる
@@ -370,7 +418,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 私人分は課税される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 筆界特定の記録は乙地にも転写される
@@ -393,10 +441,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権, 錯, 誤, 続, 筆, 界, 転, 写, 許, 税, 承, 諾 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panels 1 and 2

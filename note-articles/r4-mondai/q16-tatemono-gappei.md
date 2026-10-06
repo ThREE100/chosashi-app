@@ -2,25 +2,29 @@
 
 **出題年度：令和4年度　午後の部　第16問**
 
-> 乙建物を甲建物の附属建物とする建物の合併の登記（以下「本件合併の登記」という。）に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。なお、他の合併の登記の制限事由は考慮しないものとする。
->
-> ア　甲建物及び乙建物の所有権の登記名義人であるAが死亡した場合には、Aの相続人であるBは、甲建物及び乙建物について相続による所有権の移転の登記をした後でなければ、本件合併の登記を申請することができない。
->
-> イ　甲建物及び乙建物がそれぞれ異なる登記所の管轄に属する場合であっても、本件合併の登記を申請することができる。
->
-> ウ　乙建物の種類に変更が生じている場合には、当該変更に係る建物の表題部の変更の登記及び本件合併の登記の申請は、一の申請情報によってすることができる。
->
-> エ　いずれも同一の一棟の建物に属する区分建物であり、共用部分である旨の登記がされている甲建物及び乙建物について、本件合併の登記を申請することはできない。
->
-> オ　住居表示の実施により甲建物及び乙建物の所有権の登記名義人であるAの住所に変更があったときは、Aは、住所の変更の登記をすることなく、住居表示の実施を証する情報を提供して、本件合併の登記を申請することができる。
->
+> 乙建物を甲建物の附属建物とする建物の合併の登記（以下「本件合併の登記」という。）に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。なお、他の合併の登記の制限事由は考慮しないものとする。  
+>　  
+> ア　甲建物及び乙建物の所有権の登記名義人であるAが死亡した場合には、Aの相続人であるBは、甲建物及び乙建物について相続による所有権の移転の登記をした後でなければ、本件合併の登記を申請することができない。  
+>　  
+> イ　甲建物及び乙建物がそれぞれ異なる登記所の管轄に属する場合であっても、本件合併の登記を申請することができる。  
+>　  
+> ウ　乙建物の種類に変更が生じている場合には、当該変更に係る建物の表題部の変更の登記及び本件合併の登記の申請は、一の申請情報によってすることができる。  
+>　  
+> エ　いずれも同一の一棟の建物に属する区分建物であり、共用部分である旨の登記がされている甲建物及び乙建物について、本件合併の登記を申請することはできない。  
+>　  
+> オ　住居表示の実施により甲建物及び乙建物の所有権の登記名義人であるAの住所に変更があったときは、Aは、住所の変更の登記をすることなく、住居表示の実施を証する情報を提供して、本件合併の登記を申請することができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
+
+---
 
 建物の合併の登記は、複数の建物を1個の建物（主である建物とその附属建物）にまとめる手続です。合筆と似ていますが、表示に関する登記としての性質や、権利関係の一致の要否など、独自の論点があります。
 
 ### ア：表示の登記なので、相続登記をしなくても合併登記を申請できる
 
-不動産の表示に関する登記の申請人となることができる場合に、その者について相続その他の一般承継があったときは、相続人その他の一般承継人が、その表示に関する登記を申請することができます（不動産登記法30条）。合併の登記は表示に関する登記なので、相続人Bは、相続による所有権の移転の登記をしなくても申請できます。本肢は「相続登記後でなければ申請できない」としており誤りです。
+不動産の表示に関する登記の申請人となることができる場合に、その者について相続その他の一般承継があったときは、相続人その他の一般承継人が、その表示に関する登記を申請することができます（不動産登記法30条）。
+
+合併の登記は表示に関する登記なので、相続人Bは、相続による所有権の移転の登記をしなくても申請できます。本肢は「相続登記後でなければ申請できない」としており誤りです。
 
 **たとえば**、甲・乙建物の所有者Aさんが亡くなった場合、相続人のBさんは、まず相続登記（所有権移転登記）を済ませてから、という順序を踏まなくても、いきなり建物の合併の登記を申請することができます。
 
@@ -32,21 +36,29 @@
 
 ### ウ：種類変更の表題部変更登記と合併登記は、一の申請情報でできる
 
-同一の建物についてする2以上の登記が、建物の表題部の変更・更正の登記と、分割・区分・合併の登記であるときは、一の申請情報によってすることができます（不動産登記規則35条7号）。よって、乙建物の種類変更の表題部変更登記と合併登記は、まとめて一の申請情報で申請できます。本肢は正しい記述です。
+同一の建物についてする2以上の登記が、建物の表題部の変更・更正の登記と、分割・区分・合併の登記であるときは、一の申請情報によってすることができます（不動産登記規則35条7号）。
+
+よって、乙建物の種類変更の表題部変更登記と合併登記は、まとめて一の申請情報で申請できます。本肢は正しい記述です。
 
 **たとえば**、乙建物の種類が「居宅」から「事務所」に変わっている場合でも、種類変更の登記と、乙建物を甲建物の附属建物とする合併登記を、1つの申請書でまとめて申請することができます。
 
 ### エ：共用部分である旨の登記がある区分建物は、合併登記を申請できない
 
-共用部分または団地共用部分である旨の登記をすると、表題部所有者の登記や所有権その他の権利に関する一切の登記は抹消され、以後、権利に関する登記が一切できない状態になります（不動産登記法58条4項）。そのため、こうした制限のある建物との合併はできません（法56条1項1号）。本肢は「申請することはできない」としており正しい記述です。
+共用部分または団地共用部分である旨の登記をすると、表題部所有者の登記や所有権その他の権利に関する一切の登記は抹消され、以後、権利に関する登記が一切できない状態になります（不動産登記法58条4項）。
+
+そのため、こうした制限のある建物との合併はできません（法56条1号）。本肢は「申請することはできない」としており正しい記述です。
 
 **たとえば**、マンションの管理人室や集会室として「共用部分である旨の登記」がされている甲・乙建物どうしを、附属建物として合併する登記は、申請することができません。
 
 ### オ：住所が一致しないなら、住所変更登記なしでは合併登記できない
 
-合併に係る建物の所有権の登記名義人の表示が一致していないときは、同一人とは取り扱われず、変更証明書等を提供して申請することもできません。よって、住居表示の実施で所有権登記名義人Aの住所に変更があったときは、住所の変更の登記を先にしないまま、住居表示実施を証する情報を提供して合併登記を申請することはできません。本肢は「住所変更登記をすることなく申請できる」としており誤りです。
+合併に係る建物の所有権の登記名義人の表示が一致していないときは、同一人とは取り扱われず、変更証明書等を提供して申請することもできません。
+
+よって、住居表示の実施で所有権登記名義人Aの住所に変更があったときは、住所の変更の登記を先にしないまま、住居表示実施を証する情報を提供して合併登記を申請することはできません。本肢は「住所変更登記をすることなく申請できる」としており誤りです。
 
 **たとえば**、住居表示の実施でAさんの住所表記が変わり、甲・乙建物の登記上の住所と現在の住所が食い違っている場合、住居表示実施の証明書を付けても、そのままでは合併登記はできず、先に住所の変更の登記をしておく必要があります。
+
+---
 
 ### まとめ
 
@@ -66,7 +78,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
-- 各肢の根拠のうち、ア（不動産登記法30条）、イ（不動産登記事務取扱手続準則78条1項）、ウ（不動産登記規則35条7号）、エ（不動産登記法56条1項1号・58条4項）は、`note-articles/laws/`配下のローカル法令データベースで条文の文言まで確認済みです。オ（名義人の表示が一致しない場合は住所変更登記なしでは合併登記を申請できない）については、具体的な条文番号を確認できておらず、データベース（takuitsu.jsonのexplanationフィールド・kaisetsu_plus.json）に記載された実務上の取扱いの記述に基づいています。公式正解（2番＝ア・オ）とは整合しています。
+- 各肢の根拠のうち、ア（不動産登記法30条）、イ（不動産登記事務取扱手続準則78条1項）、ウ（不動産登記規則35条7号）、エ（不動産登記法56条1号・58条4項）は、`note-articles/laws/`配下のローカル法令データベースで条文の文言まで確認済みです。オ（名義人の表示が一致しない場合は住所変更登記なしでは合併登記を申請できない）については、具体的な条文番号を確認できておらず、データベース（takuitsu.jsonのexplanationフィールド・kaisetsu_plus.json）に記載された実務上の取扱いの記述に基づいています。公式正解（2番＝ア・オ）とは整合しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
 
 ---
@@ -107,12 +119,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・所・併・続・相 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -192,21 +222,21 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建・物・登・記・所・併・続・相. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, that badge numbers run 1-5 continuously across both
 columns without resetting, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（相続人と登記の流れ、管轄をまたぐ建物どうしの関係、種類変更登記との組み合わせ、共用部分の登記の有無、住所の一致・不一致など）と、その図にたどり着くまでの判定順序を肢ごとに示す作図ガイドを追加した。各パネルに判定の順序を明示した「着眼点」の説明文を添え、建物の合併の登記の問題を解くとき、まず何を確認し、どんな図に落とし込めば正誤判定にたどり着けるかの練習素材として使う。
 
@@ -255,7 +285,15 @@ source article treats them as two distinct requirements).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -281,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -304,7 +342,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 相続登記は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 管轄が違っても効用上一体なら合併可
@@ -327,14 +365,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 管轄の違いは無関係
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 種類変更登記と合併登記は一括申請可
 Diagram: Draw 乙建物のアイコンの上に、旧い種類ラベル「居宅」を線で消して
-新しい種類ラベル「事務所」を書き加えた吹き出しを描く。その下にDiamond
-「表題部の変更・更正の登記と、分割・区分・合併の登記の組み合わせか」を
-配置し、Yesの矢印を、2つの書類アイコン「種類変更の表題部変更登記」と
+新しい種類ラベル「事務所」を書き加えた吹き出しを描く。その下に角丸のボックス(ひし形にはしない。この肢では常に当てはまる確認のため)
+「表題部の変更の登記と合併の登記の組み合わせ(規則35条7号)」を配置し、矢印を、2つの書類アイコン「種類変更の表題部変更登記」と
 「合併の登記」が1つの封筒アイコンに吸い込まれていく様子(漏斗状の合流)
 につなげ、その封筒に「一の申請情報」というスタンプと緑の✓を描く。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -345,7 +382,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一の申請情報で可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 共用部分の登記がある建物は合併不可
@@ -364,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 共用部分は合併不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 住所不一致なら先に住所変更登記が必要
@@ -387,15 +424,14 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法30条(ア)／不動産登記事務取扱手続準則78条1項(イ)／
-不動産登記規則35条7号(ウ)／不動産登記法56条1項1号・58条4項(エ)。オは
-名義人の住所表示の不一致に関する実務上の取扱いによる(具体的な条文番号
-は未確認)。
+不動産登記規則35条7号(ウ)／不動産登記法56条1号・58条4項(エ)。オは
+名義人の住所表示の不一致に関する実務上の取扱いによる。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建・物・登・記・所・号・併・続・相・権・証・状・態・抹・消・
-住・変・更・請. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
+住・変・更・請. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 panel count equals 5 exactly, badge numbers run 1-5 continuously, there
 is no intro illustration or paragraph block between the header and the
 panels, that every multi-condition 肢 is drawn as an actual flowchart

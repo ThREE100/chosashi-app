@@ -2,45 +2,55 @@
 
 **出題年度：平成30年度　午後の部　第18問**
 
-> 登記官の処分又は不作為についての審査請求に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。なお、当該処分又は当該不作為に係る処分についての申請は、平成28年4月1日以降にされたものとする。
->
-> ア　当該登記官を監督する法務局又は地方法務局の長（以下「監督法務局長等」という。）は、処分についての審査請求を理由があると認め、又は審査請求に係る不作為に係る処分をすべきものと認めるときは、当該登記官がすべき相当の処分を自らすることができる。
->
-> イ　登記官の処分に不服がある者は、当該処分があったことを知った日の翌日から起算して3月を経過したときは、審査請求をすることができない。
->
-> ウ　監督法務局長等が審査請求につき裁決をしたときは、当該監督法務局長等は、裁決書の謄本及び審理員意見書の写しを審査請求人及び登記官に交付する。
->
-> エ　監督法務局長等は、審査請求に係る不作為に係る処分についての申請を却下すべきものと認めるときは、登記官に当該申請を却下する処分を命じなければならない。
->
-> オ　監督法務局長等が裁決をした場合において、その審査請求について審理員に提出された証拠書類があるときは、当該証拠書類を提出した者が返還しないことに同意している場合を除き、当該監督法務局長等は、当該証拠書類をその提出した者に速やかに返還しなければならない。
->
+> 登記官の処分又は不作為についての審査請求に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。なお、当該処分又は当該不作為に係る処分についての申請は、平成28年4月1日以降にされたものとする。  
+>　  
+> ア　当該登記官を監督する法務局又は地方法務局の長（以下「監督法務局長等」という。）は、処分についての審査請求を理由があると認め、又は審査請求に係る不作為に係る処分をすべきものと認めるときは、当該登記官がすべき相当の処分を自らすることができる。  
+>　  
+> イ　登記官の処分に不服がある者は、当該処分があったことを知った日の翌日から起算して3月を経過したときは、審査請求をすることができない。  
+>　  
+> ウ　監督法務局長等が審査請求につき裁決をしたときは、当該監督法務局長等は、裁決書の謄本及び審理員意見書の写しを審査請求人及び登記官に交付する。  
+>　  
+> エ　監督法務局長等は、審査請求に係る不作為に係る処分についての申請を却下すべきものと認めるときは、登記官に当該申請を却下する処分を命じなければならない。  
+>　  
+> オ　監督法務局長等が裁決をした場合において、その審査請求について審理員に提出された証拠書類があるときは、当該証拠書類を提出した者が返還しないことに同意している場合を除き、当該監督法務局長等は、当該証拠書類をその提出した者に速やかに返還しなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
 ---
 
-登記官の処分に対する審査請求は、「誰が判断するのか」「いつまでにできるのか」「そのあと何をするのか」という手続の流れを正確に覚えているかが問われます。監督法務局長等が"自らやる"のか"登記官に命じる"のか、期間制限があるのかないのか、といった細かい区別が勝負どころです。
+登記官の処分に対する審査請求は、「誰が判断するのか」「いつまでにできるのか」「そのあと何をするのか」という手続の流れを正確に覚えているかが問われます。
+
+監督法務局長等が"自らやる"のか"登記官に命じる"のか、期間制限があるのかないのか、といった細かい区別が勝負どころです。
 
 ### ア：監督法務局長等は自ら処分せず、登記官に「相当の処分」を命じる
 
-不動産登記法157条3項により、監督法務局長等は、審査請求を理由があると認めるとき（または不作為に係る処分をすべきものと認めるとき）は、登記官に相当の処分を命じ、その旨を審査請求人のほか登記上の利害関係人に通知しなければならないとされています。監督法務局長等が「自ら」相当の処分をするのではなく、あくまで登記官に命じる形になります。本肢は「自らすることができる」としている点が誤りです。
+不動産登記法157条3項により、監督法務局長等は、審査請求を理由があると認めるとき（または不作為に係る処分をすべきものと認めるとき）は、登記官に相当の処分を命じ、その旨を審査請求人のほか登記上の利害関係人に通知しなければならないとされています。
+
+監督法務局長等が「自ら」相当の処分をするのではなく、あくまで登記官に命じる形になります。本肢は「自らすることができる」としている点が誤りです。
 
 **たとえば**、ある土地の登記申請が不当に却下されて審査請求が通ったとしても、法務局の長が代わりに自分でその登記をしてしまうわけではありません。「その登記をしなさい」と登記官に命じ、実際の処分は登記官が行います。
 
 ### イ：登記官の処分への審査請求には、期間の制限がない
 
-登記官の処分についての審査請求には、審査請求期間の制限がありません。行政不服審査法18条（審査請求期間）の適用が除外されており、法律上の利益が存在する間は、いつでも審査請求をすることができます。本肢は「3月を経過したときはすることができない」としていますが、そもそも期間で締め切られること自体がないため誤りです。
+登記官の処分についての審査請求には、審査請求期間の制限がありません。行政不服審査法18条（審査請求期間）の適用が除外されており、法律上の利益が存在する間は、いつでも審査請求をすることができます。
+
+本肢は「3月を経過したときはすることができない」としていますが、そもそも期間で締め切られること自体がないため誤りです。
 
 **たとえば**、登記官の処分に納得がいかない場合、「知った日から3か月」といった締切を気にする必要はありません。争う利益がある限り、時間が経ってからでも審査請求に踏み切ることができます。
 
 ### ウ：裁決書の謄本と審理員意見書の写しを、審査請求人・登記官の双方に交付する
 
-不動産登記事務取扱準則145条1項により、監督法務局長等が審査請求につき裁決をしたときは、裁決書の謄本および審理員意見書の写しを、審査請求人および登記官に交付するとされています。請求した本人だけでなく、処分をした登記官の側にも書面が届く点がポイントです。本肢は正しい記述です。
+不動産登記事務取扱準則145条1項により、監督法務局長等が審査請求につき裁決をしたときは、裁決書の謄本および審理員意見書の写しを、審査請求人および登記官に交付するとされています。
+
+請求した本人だけでなく、処分をした登記官の側にも書面が届く点がポイントです。本肢は正しい記述です。
 
 **たとえば**、審査請求の結果が出たときは、請求した本人に「こういう裁決になりました」という書面（謄本）と、審理員の意見をまとめた書面（写し）が届き、同じものが処分をした登記官にも交付されます。
 
 ### エ：不作為の申請を却下すべきときは、登記官に「却下する処分」を命じる
 
-不動産登記法157条5項により、登記官の不作為についての審査請求において、監督法務局長等が、その不作為に係る処分についての申請を却下すべきものと認めるときは、登記官に当該申請を却下する処分を命じなければならないとされています。ここでも監督法務局長等が自ら却下するのではなく、登記官に命じる形をとります。本肢は正しい記述です。
+不動産登記法157条5項により、登記官の不作為についての審査請求において、監督法務局長等が、その不作為に係る処分についての申請を却下すべきものと認めるときは、登記官に当該申請を却下する処分を命じなければならないとされています。
+
+ここでも監督法務局長等が自ら却下するのではなく、登記官に命じる形をとります。本肢は正しい記述です。
 
 **たとえば**、登記官が申請を放置している（不作為）として審査請求がされたものの、審理してみるとその申請自体が却下すべきものだった、という場合、監督法務局長等は「その申請を却下しなさい」と登記官に命じます。
 
@@ -49,6 +59,8 @@
 行政不服審査法53条により、審理員に提出された証拠書類等があるときは、裁決をした後、提出者が返還を要しないことに同意している場合を除き、これを速やかに提出者に返還しなければならないとされています。本肢はこの内容をそのまま述べたもので、正しい記述です。
 
 **たとえば**、審査請求のために自分が持っていた契約書や図面などの原本を提出していた場合、手続が終われば、原則としてそれらは速やかに手元へ返してもらえます。「もう返さなくていいですよ」と自分から同意したときだけ、返還されないことになります。
+
+---
 
 ### まとめ
 
@@ -70,7 +82,7 @@
 - 出題年度・問題番号・正解番号（1番＝アイ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠のうち、ア（不動産登記法157条3項）、ウ（不動産登記事務取扱準則145条1項）、エ（法157条5項）、オ（行政不服審査法53条）は、元データ解説に条文番号まで明記されているものです。イについては、元データ解説が「行政不服審査法18条の適用除外」と記載しており、期間制限がないという結論は明記されています。なお、その適用除外を定めている根拠条文は不動産登記法158条（行政不服審査法の適用除外）ですが、この条文番号自体は元データには示されていないため、条文番号の特定は補足によるものです。
 - 各肢の解説は、ローカルのアガルート教材（過去問テキスト）の解説を条文根拠の一次情報源として参照しています（元データの解説はアガルート過去問テキストのOCRに基づきます）。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（登記官の処分又は不作為についての審査請求）と同一・類似の問題が再出題されていないかを確認しました。**強い重複が見つかりました。** 令和7年度第17問（既存記事：`r7-mondai/q17-shinsaseikyuu.md`）は、本問と全く同じ「登記官の処分又は不作為についての審査請求に関する次のアからオまでの記述」というSTEMで出題されており、肢アの論点（審査請求の期間制限＝法158条による行政不服審査法18条の適用除外で無期限）は本問の肢イと完全に同一のルールです。なお、令和7年度第17問の記事は、本問（平成30年度第18問）の作成過程で条文誤りが発覚し、2026年7月に訂正済みです（詳細は同記事の確認事項ブロック参照）。令和7年度分は既に公開済みのため、noteへの投稿順序を工夫するか、本問側の具体例を差別化することを推奨します。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（登記官の処分又は不作為についての審査請求）と同一・類似の問題が再出題されていないかを確認しました。**強い重複が見つかりました。** 令和7年度第17問（既存記事：`r7-mondai/q17-shinsaseikyuu.md`）は、本問と全く同じ「登記官の処分又は不作為についての審査請求に関する次のアからオまでの記述」というSTEMで出題されており、アの論点（審査請求の期間制限＝法158条による行政不服審査法18条の適用除外で無期限）は本問のイと完全に同一のルールです。なお、令和7年度第17問の記事は、本問（平成30年度第18問）の作成過程で条文誤りが発覚し、2026年7月に訂正済みです（詳細は同記事の確認事項ブロック参照）。令和7年度分は既に公開済みのため、noteへの投稿順序を工夫するか、本問側の具体例を差別化することを推奨します。
 
 ---
 
@@ -111,12 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 登・記・監・督・証・拠・謄・決・請 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -205,20 +235,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 審査請求手続について、ア〜オの各肢を、問題文を読んだ瞬間にどの図を描き、どの順番で条件を確認すればよいかという「作図ガイド」の5パネルで示す構成（パネル1・4は「監督法務局長等は自ら処分せず登記官に命じる」という共通の関係構図を再利用し、パネル5は証拠書類の返還可否を決定木で示す）。
 
@@ -303,7 +333,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -325,7 +355,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 自らはせず登記官に命令
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -345,7 +375,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 期限なくいつでも可能
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -363,7 +393,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 双方に交付
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -382,7 +412,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 却下も登記官に命令
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

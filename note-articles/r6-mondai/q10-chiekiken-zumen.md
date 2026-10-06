@@ -2,19 +2,21 @@
 
 **出題年度：令和6年度　午後の部　第10問**
 
-> 地役権図面に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　書面を提出する方法により地役権図面を提供する場合には、当該地役権図面に地役権者が署名し、又は記名押印しなければならない。
->
-> イ　承役地についてする地役権の登記がある土地の分筆の登記を申請する場合において、その添付情報として地積測量図と併せて地役権図面を提供するときは、当該地役権図面の縮尺を当該地積測量図の縮尺と同一にしなければならない。
->
-> ウ　承役地についてする地役権の登記がある甲土地に地役権図面が備え付けられている場合において、甲土地から乙土地を分筆する分筆の登記を申請し、地役権設定の範囲が分筆後の甲土地の一部のみとなるときは、当該申請の申請情報と併せて地役権図面を提供することを要しない。
->
-> エ　承役地についてする地役権の登記がある甲土地に地役権図面が備え付けられている場合において、新たな地役権図面を添付情報として提供して甲土地から乙土地を分筆する分筆の登記を申請し、当該登記がされたときは、従前の地役権図面は、閉鎖される。
->
-> オ　地役権図面には、要役地の所在地番を記録しなければならない。
->
+> 地役権図面に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　書面を提出する方法により地役権図面を提供する場合には、当該地役権図面に地役権者が署名し、又は記名押印しなければならない。  
+>　  
+> イ　承役地についてする地役権の登記がある土地の分筆の登記を申請する場合において、その添付情報として地積測量図と併せて地役権図面を提供するときは、当該地役権図面の縮尺を当該地積測量図の縮尺と同一にしなければならない。  
+>　  
+> ウ　承役地についてする地役権の登記がある甲土地に地役権図面が備え付けられている場合において、甲土地から乙土地を分筆する分筆の登記を申請し、地役権設定の範囲が分筆後の甲土地の一部のみとなるときは、当該申請の申請情報と併せて地役権図面を提供することを要しない。  
+>　  
+> エ　承役地についてする地役権の登記がある甲土地に地役権図面が備え付けられている場合において、新たな地役権図面を添付情報として提供して甲土地から乙土地を分筆する分筆の登記を申請し、当該登記がされたときは、従前の地役権図面は、閉鎖される。  
+>　  
+> オ　地役権図面には、要役地の所在地番を記録しなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 地役権図面の作成・提供に関するルールをまとめて問う分野です。「誰が署名・記名押印するのか」「縮尺はどこまで自由か」「分筆のときに提供が必要か・従前の図面はどうなるのか」を場面ごとに整理して押さえましょう。
 
@@ -32,7 +34,9 @@
 
 ### ウ：分筆後も地役権の範囲が一部残るなら、地役権図面の提供が必要
 
-地役権の登記がある承役地の分筆の登記を申請する場合において、地役権設定の範囲が分筆後の土地の一部であるときは、地役権図面を提供しなければなりません（不動産登記令別表8項添付情報ロ）。既に分筆前の地役権図面が備え付けられている場合であっても、土地の全部に地役権が及ばなくなる限り、新たな地役権図面の提供を要します。
+地役権の登記がある承役地の分筆の登記を申請する場合において、地役権設定の範囲が分筆後の土地の一部であるときは、地役権図面を提供しなければなりません（不動産登記令別表8項添付情報ロ）。
+
+既に分筆前の地役権図面が備え付けられている場合であっても、土地の全部に地役権が及ばなくなる限り、新たな地役権図面の提供を要します。
 
 **たとえば**、甲土地に設定されていた地役権が、分筆後も甲土地の一部にだけ残る場合には、「もう図面は登記所にあるから」と提供を省略することはできず、新しい地役権図面を提出しなければなりません。
 
@@ -47,6 +51,8 @@
 地役権図面には、地役権設定の範囲、方位、縮尺、承役地の地番及び隣地の地番並びに申請人の氏名又は名称を記録するものとされていますが（不動産登記規則79条1項）、要役地の所在地番は記録事項とされていません。
 
 **たとえば**、地役権図面を作成する際、承役地側の地番はきちんと記載しますが、「この地役権はどこの土地（要役地）のためのものか」という要役地の所在地番までは、図面に書き込む義務はありません。
+
+---
 
 ### まとめ
 
@@ -109,13 +115,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 役・地・権・図・面・縮・尺・積・測・量・閉・鎖 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -189,20 +213,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 地役権図面に関する5肢（ア〜オ）について、問題文を読んだ瞬間にどんな図を描き、どの順序で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。②の俯瞰カードポスターが5肢の結論を一覧化するのに対し、こちらは肢ごとの思考プロセス（提供方法から署名者を絞り込む順序、縮尺規定の対比、地役権図面の記載事項の絞り込み、分筆後に地役権が及ぶ範囲による提供要否の分岐、新図面提供から従前図面の閉鎖までの流れ）を可視化する。
 
@@ -240,7 +264,15 @@ body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -266,7 +298,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 書面提出なら地役権者本人の署名等が必要
@@ -285,7 +317,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 署名・記名押印必須
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 縮尺は地積測量図と揃える必要なし
@@ -303,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 縮尺は自由
 
---- PANEL 3(肢オ) ---
+--- PANEL 3(オ) ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 要役地の所在地番は記載事項でない
@@ -321,7 +353,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 要役地は記載不要
 
---- PANEL 4(肢ウ) ---
+--- PANEL 4(ウ) ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 範囲が一部残るときだけ図面提供必要
@@ -343,7 +375,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 図面提供は必要
 
---- PANEL 5(肢エ) ---
+--- PANEL 5(エ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 新図面提供で分筆登記なら従前図面閉鎖
@@ -369,9 +401,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 別表8項添付情報ロ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 役・地・権・図・面・縮・尺・積・測・量・閉・鎖・署・名・押・印.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 役・地・権・図・面・縮・尺・積・測・量・閉・鎖・署・名・押・印. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

@@ -2,48 +2,76 @@
 
 **出題年度：平成26年度　午後の部　第17問**
 
-> 合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（以下「合体による登記等」と総称する。）に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　賃借権の登記がある甲建物と所有権の登記のみがある乙建物について合体による登記等を申請する場合において，甲建物に設定された賃借権が合体後の建物に存続するときは，その旨を申請情報の内容としなければならない。
->
-> イ　所有権の登記がある建物と表題登記があるが所有権の登記がない建物について合体による登記等を申請する場合において，合体後の建物の価額が6,000万円であり，所有権の登記がない建物の所有者が合体後の建物について有することとなる持分の割合を10分の3としたときは，登録免許税額は9万円である。
->
-> ウ　合体前の各建物の所有者が異なっており，合体前の各建物の所有者が合体後の建物について有することとなる持分の割合を定めなければならない場合において，合体前の各建物の所有者全員が申請人となり，その印鑑に関する証明書の提供があるときは，その合体による登記等の申請情報をもって，当該持分の割合を証する情報を兼ねることができる。
->
-> エ　甲建物の附属建物と乙建物とが合体した場合には，甲建物の附属建物を分割する分割の登記及び合体による登記等を一の申請情報によって申請しなければならない。
->
-> オ　合体前の建物の所有権の登記名義人の住所に変更があった場合でも，変更があったことを証する情報を添付情報として提供すれば，当該所有権の登記名義人の住所の変更の登記をすることなく，合体による登記等を申請することができる。
->
+> 合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（以下「合体による登記等」と総称する。）に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　賃借権の登記がある甲建物と所有権の登記のみがある乙建物について合体による登記等を申請する場合において，甲建物に設定された賃借権が合体後の建物に存続するときは，その旨を申請情報の内容としなければならない。  
+>　  
+> イ　所有権の登記がある建物と表題登記があるが所有権の登記がない建物について合体による登記等を申請する場合において，合体後の建物の価額が6,000万円であり，所有権の登記がない建物の所有者が合体後の建物について有することとなる持分の割合を10分の3としたときは，登録免許税額は9万円である。  
+>　  
+> ウ　合体前の各建物の所有者が異なっており，合体前の各建物の所有者が合体後の建物について有することとなる持分の割合を定めなければならない場合において，合体前の各建物の所有者全員が申請人となり，その印鑑に関する証明書の提供があるときは，その合体による登記等の申請情報をもって，当該持分の割合を証する情報を兼ねることができる。  
+>　  
+> エ　甲建物の附属建物と乙建物とが合体した場合には，甲建物の附属建物を分割する分割の登記及び合体による登記等を一の申請情報によって申請しなければならない。  
+>　  
+> オ　合体前の建物の所有権の登記名義人の住所に変更があった場合でも，変更があったことを証する情報を添付情報として提供すれば，当該所有権の登記名義人の住所の変更の登記をすることなく，合体による登記等を申請することができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 合体による登記等は、複数の建物が物理的に1つになった場合に、合体後の建物について新たに表題登記をし、合体前の建物の表題部の登記を抹消する手続です。この問題では、登録免許税の計算や、持分証明情報の兼用といった実務的な処理が問われています。
 
 ### ア：賃借権の帰趨は、合体による登記等の申請情報の内容とする事項ではない
 
-賃借権の登記がある甲建物と所有権の登記のみがある乙建物について合体による登記等を申請する場合、甲建物に設定された賃借権が合体後の建物に存続するかどうかは、合体による登記等の申請情報の内容として定めるべき事項として条文上規定されているものではありません。合体による登記等の制度が主に想定しているのは、担保権など特定の権利の帰趨の定めであり、賃借権のような債権的な権利の存続・消滅についてまで申請情報として記載を求める規定にはなっていません。
+賃借権の登記がある甲建物と所有権の登記のみがある乙建物について合体による登記等を申請する場合、甲建物に設定された賃借権が合体後の建物に存続するかどうかは、合体による登記等の申請情報の内容として定めるべき事項として条文上規定されているものではありません。
+
+合体による登記等の制度が主に想定しているのは、担保権など特定の権利の帰趨の定めであり、賃借権のような債権的な権利の存続・消滅についてまで申請情報として記載を求める規定にはなっていません。
 
 **たとえば**、賃借権が設定されている建物と、賃借権のない建物とを合体させる登記を申請する際、賃借権をそのまま残したいと考えたとしても、そのことを合体登記等の申請情報の内容として記載しなければならない、という決まりはありません。
 
 ### イ：登録免許税額は9万円ではなく7万2,000円になる
 
-所有権の登記がある建物と、表題登記があるが所有権の登記がない建物とについて合体による登記等を申請する場合、合体後の建物のうち所有権の登記がなかった建物の所有者が取得することになる持分について、所有権の保存の登記に準じた税率（1,000分の4）で登録免許税が課されます。合体後の建物の価額が6,000万円で、持分の割合が10分の3であれば、課税対象となる価額は6,000万円×10分の3＝1,800万円です。この金額に1,000分の4を乗じると、登録免許税額は7万2,000円となり、「9万円」という記述は誤りです。
+所有権の登記がある建物と、表題登記があるが所有権の登記がない建物とについて合体による登記等を申請する場合、合体後の建物のうち所有権の登記がなかった建物の所有者が取得することになる持分について、所有権の保存の登記に準じた税率（1,000分の4）で登録免許税が課されます。
+
+合体後の建物の価額が6,000万円で、持分の割合が10分の3であれば、課税対象となる価額は6,000万円×10分の3＝1,800万円です。
+
+この金額に1,000分の4を乗じると、登録免許税額は7万2,000円となり、「9万円」という記述は誤りです。
 
 **たとえば**、合体後の建物の評価額が6,000万円で、もともと所有権登記のなかった建物の所有者がその3割の持分を取得することになった場合、その持分に対応する1,800万円について、7万2,000円の登録免許税が課されることになります。
 
 ### ウ：印鑑証明書の提供があれば、申請情報自体が持分証明情報を兼ねられる
 
-合体前の各建物の所有者が異なっており、合体後の建物について有することとなる持分の割合を定めなければならない場合において、合体前の各建物の所有者全員が申請人となり、その印鑑に関する証明書の提供があるときは、その合体による登記等の申請情報をもって、持分の割合を証する情報を兼ねることができます。全員が申請人として関与し、印鑑証明書によって本人性が担保されていることから、別途の持分証明書類を要しないという扱いです。
+合体前の各建物の所有者が異なっており、合体後の建物について有することとなる持分の割合を定めなければならない場合において、合体前の各建物の所有者全員が申請人となり、その印鑑に関する証明書の提供があるときは、その合体による登記等の申請情報をもって、持分の割合を証する情報を兼ねることができます。
 
-**たとえば**、もともと別々の所有者であった甲建物と乙建物が合体し、その所有者全員（AさんとBさん）が合体による登記等の申請人となって、それぞれの印鑑証明書を提供したとします。この場合、AさんとBさんの持分の割合は、申請情報自体に記載することで証明でき、別途の持分証明書を用意する必要はありません。
+合体後の建物について各所有者が有することとなる持分の割合を証する情報は、原則として、所有権を有することを証する情報（不動産登記令別表13の項添付情報欄ハ）の一部として提供します。ただし、全員が申請人となって印鑑に関する証明書を提供しているときは、全員が自ら持分の割合を申請しており本人性も担保されているため、申請情報（申請書）が持分の割合を証する情報を兼ね、別途の持分証明書類は不要とされます。
+
+この扱いは、条文ではなく先例（平成5年7月30日民三第5320号通達）によるものです。令別表13の項や不動産登記規則の条文には、申請情報が持分の割合を証する情報を兼ねる旨の規定は見当たりません。したがって、「条文にはないが先例で認められている取扱い」として押さえるのが正確です。
+
+**たとえば**、もともと別々の所有者であった甲建物と乙建物が合体し、その所有者全員（AさんとBさん）が合体による登記等の申請人となって、それぞれの印鑑証明書を提供したとします。
+
+この場合、AさんとBさんの持分の割合は、申請情報自体に記載することで足り、別途の持分証明書を用意する必要はありません（先例による取扱い）。
 
 ### エ：附属建物と他の建物が合体した場合、分割の登記と合体による登記等は別々に申請する（一括申請はできない）
 
-甲建物の附属建物と乙建物とが合体した場合、甲建物の附属建物を分割する分割の登記及び合体による登記等を一の申請情報によって申請しなければならない、という記述は誤りです。不動産登記令4条は、申請情報は「一の不動産ごとに」作成して提供しなければならないという原則（一登記一申請の原則）を定めており、複数の登記を一の申請情報で申請できる例外は不動産登記規則35条が限定的に列挙しています。同条は、建物の分割の登記と建物の合併の登記を一の申請情報で申請できる場合（2号・3号）などを定めていますが、建物の分割の登記と合体による登記等の組合せは、この列挙のいずれにも当たりません。したがって、分割の登記と合体による登記等は、原則どおり別々の申請情報によって個別に申請しなければならず、一の申請情報にまとめて申請すること自体ができません。本肢の「一の申請情報によって申請しなければならない」という記述は、義務であるかどうか以前に、そもそもそのような申請の仕方自体ができないという点で誤りです。
+甲建物の附属建物と乙建物とが合体した場合、甲建物の附属建物を分割する分割の登記及び合体による登記等を一の申請情報によって申請しなければならない、という記述は誤りです。
 
-**たとえば**、甲建物の附属建物である倉庫が、隣接する乙建物と一体化して合体したとします。この場合、甲建物からその附属建物を切り離す分割の登記と、合体による登記等とは、1つの申請情報にまとめて申請することはできず、それぞれ別の申請情報によって個別に申請しなければなりません。
+不動産登記令4条は、申請情報は「一の不動産ごとに」作成して提供しなければならないという原則（一登記一申請の原則）を定めており、複数の登記を一の申請情報で申請できる例外は不動産登記規則35条が限定的に列挙しています。
+
+同条は、建物の分割の登記と建物の合併の登記を一の申請情報で申請できる場合（2号・3号）などを定めていますが、建物の分割の登記と合体による登記等の組合せは、この列挙のいずれにも当たりません。
+
+したがって、分割の登記と合体による登記等は、原則どおり別々の申請情報によって個別に申請しなければならず、一の申請情報にまとめて申請すること自体ができません。
+
+本肢の「一の申請情報によって申請しなければならない」という記述は、義務であるかどうか以前に、そもそもそのような申請の仕方自体ができないという点で誤りです。
+
+**たとえば**、甲建物の附属建物である倉庫が、隣接する乙建物と一体化して合体したとします。
+
+この場合、甲建物からその附属建物を切り離す分割の登記と、合体による登記等とは、1つの申請情報にまとめて申請することはできず、それぞれ別の申請情報によって個別に申請しなければなりません。
 
 **ここが分かりにくいポイント**：
-本肢の文章は「一の申請情報によって申請しなければならない」という、いかにも「義務があるかどうか」を問うているように読めます。この読み方のまま考えると、「一括申請が義務でないなら、この肢は誤り」「一括申請できる場合もあるはずだから、この肢は誤り」というように、あくまで「義務・任意」の軸で正誤を判断してしまいがちです。実はこの記事も、以前の版では同じ理由でこの肢の法的根拠を誤って説明していました。
+本肢の文章は「一の申請情報によって申請しなければならない」という、いかにも「義務があるかどうか」を問うているように読めます。
+
+この読み方のまま考えると、「一括申請が義務でないなら、この肢は誤り」「一括申請できる場合もあるはずだから、この肢は誤り」というように、あくまで「義務・任意」の軸で正誤を判断してしまいがちです。
+
+実はこの記事も、以前の版では同じ理由でこの肢の法的根拠を誤って説明していました。
 
 しかし、この肢の急所は「義務かどうか」ではなく、そもそも「一の申請情報によって申請することができるかどうか」という一段階手前の問題にあります。次の順序で確認してください。
 
@@ -51,30 +79,56 @@
 2. 規則35条を確認すると、建物の分割の登記と建物の合併の登記を一の申請情報で申請できる場合（2号・3号）はありますが、建物の分割の登記と合体による登記等の組合せは、10号のどこにも規定されていません。
 3. 規定がない以上、この組合せはそもそも「一の申請情報で申請すること」自体ができません。「義務ではないが、やろうと思えばできる」という選択肢は存在せず、「常にできない」というのが正しい結論です。
 
-つまり本肢は、「義務ではない」から誤りなのではなく、「そもそもできない」ことを「しなければならない」と述べている点が誤りです。一登記一申請の原則とその例外について基礎から確認したい場合は、[一登記一申請の原則とその例外を解説した記事](../topics/ittouki-isshinsei-gensoku.md)もあわせて参照してください。
+つまり本肢は、「義務ではない」から誤りなのではなく、「そもそもできない」ことを「しなければならない」と述べている点が誤りです。
+
+一登記一申請の原則とその例外について基礎から確認したい場合は、[一登記一申請の原則とその例外を解説した記事](../topics/ittouki-isshinsei-gensoku.md)もあわせて参照してください。
 
 ### 補足：「分割＋合併」はできるのに、「分割＋合体」はできないのはなぜか
 
-不動産登記法54条は、建物の合併の登記を「表題登記がある建物を登記記録上他の表題登記がある建物の附属建物とする登記」と定義しています。つまり合併の登記は、すでに完成している建物の表題登記どうしを、登記記録の上で組み替えるだけの手続であり、新たに表題登記を作成することも、既存の表題登記を抹消することもありません。建物の分割の登記も同様に、附属建物を登記記録上切り分けて独立した一個の建物にするだけの手続です（54条1号）。分割と合併は、どちらも「すでにある登記記録を組み替えるだけ」という共通の性質を持つ手続どうしなので、一の申請情報にまとめることが認められています。
+不動産登記法54条は、建物の合併の登記を「表題登記がある建物を登記記録上他の表題登記がある建物の附属建物とする登記」と定義しています。
 
-これに対して合体による登記等は、合体後の建物について新たに表題登記をし、合体前の各建物の表題部の登記を抹消するという、まったく異なる性質の手続です（不動産登記法49条1項）。物理的に建物どうしが1つになったという事実にあわせて、新しい建物の種類・構造・床面積を一から記録し直し、複数の建物にまたがっていた持分や担保権などの権利関係も整理し直す必要があるため、単なる登記記録の組替えである分割・合併の登記とは、申請情報として要求される内容の重さが根本的に異なります。
+つまり合併の登記は、すでに完成している建物の表題登記どうしを、登記記録の上で組み替えるだけの手続であり、新たに表題登記を作成することも、既存の表題登記を抹消することもありません。
 
-さらに、49条1項が合体の対象としているのは「二以上の建物」、つまりそれぞれが独立した一個の建物として登記されているものに限られます。附属建物は、それ自体では独立した建物として登記されているわけではないため、他の建物と合体させるには、まず分割の登記によって独立した一個の建物にしてからでなければ、合体による登記等の対象にすることができません。分割の登記が完了して初めて合体の登記が可能になるという順序の関係にあるため、両者を一の申請情報として同時に扱うことにはそもそもなじまないのです。
+建物の分割の登記も同様に、附属建物を登記記録上切り分けて独立した一個の建物にするだけの手続です（54条1号）。
 
-**たとえば**、甲建物の附属建物である倉庫を隣の乙建物と合体させたい場合、まずこの倉庫を甲建物から切り離して「独立した一個の建物」にする分割の登記を完了させる必要があります。分割の登記が完了して初めて、この倉庫（独立した建物）と乙建物とが「合体」できる状態になるため、性質のうえでも手続のうえでも、分割の登記と合体による登記等は別々の申請として扱われます。
+分割と合併は、どちらも「すでにある登記記録を組み替えるだけ」という共通の性質を持つ手続どうしなので、一の申請情報にまとめることが認められています。
+
+これに対して合体による登記等は、合体後の建物について新たに表題登記をし、合体前の各建物の表題部の登記を抹消するという、まったく異なる性質の手続です（不動産登記法49条1項）。
+
+物理的に建物どうしが1つになったという事実にあわせて、新しい建物の種類・構造・床面積を一から記録し直し、複数の建物にまたがっていた持分や担保権などの権利関係も整理し直す必要があるため、単なる登記記録の組替えである分割・合併の登記とは、申請情報として要求される内容の重さが根本的に異なります。
+
+さらに、49条1項が合体の対象としているのは「二以上の建物」、つまりそれぞれが独立した一個の建物として登記されているものに限られます。
+
+附属建物は、それ自体では独立した建物として登記されているわけではないため、他の建物と合体させるには、まず分割の登記によって独立した一個の建物にしてからでなければ、合体による登記等の対象にすることができません。
+
+分割の登記が完了して初めて合体の登記が可能になるという順序の関係にあるため、両者を一の申請情報として同時に扱うことにはそもそもなじまないのです。
+
+**たとえば**、甲建物の附属建物である倉庫を隣の乙建物と合体させたい場合、まずこの倉庫を甲建物から切り離して「独立した一個の建物」にする分割の登記を完了させる必要があります。
+
+分割の登記が完了して初めて、この倉庫（独立した建物）と乙建物とが「合体」できる状態になるため、性質のうえでも手続のうえでも、分割の登記と合体による登記等は別々の申請として扱われます。
 
 ### オ：住所変更証明情報があれば、前提の住所変更登記を経ずに合体登記等を申請できる
 
-合体前の建物の所有権の登記名義人の住所に変更があった場合でも、その変更があったことを証する情報を添付情報として提供すれば、あらためて所有権の登記名義人の住所の変更の登記をすることなく、合体による登記等を申請することができます。表示に関する登記に共通する、前提登記省略の取扱いです。
+合体前の建物の所有権の登記名義人の住所に変更があった場合でも、その変更があったことを証する情報を添付情報として提供すれば、あらためて所有権の登記名義人の住所の変更の登記をすることなく、合体による登記等を申請することができます。
 
-**たとえば**、合体前の建物の所有者であるAさんが引っ越しをして住所が変わっていたとします。この場合でも、Aさんの住民票の写しなど住所変更を証する書類を提出すれば、あらためて住所変更の登記を経ることなく、そのまま合体による登記等を申請することができます。
+表示に関する登記に共通する、前提登記省略の取扱いです。
+
+**たとえば**、合体前の建物の所有者であるAさんが引っ越しをして住所が変わっていたとします。
+
+この場合でも、Aさんの住民票の写しなど住所変更を証する書類を提出すれば、あらためて住所変更の登記を経ることなく、そのまま合体による登記等を申請することができます。
 
 **ここが分かりにくいポイント**：
-「登記記録上の情報が古いまま（住所が変わっている）では、次の登記を申請できないはずだ」という感覚から、「まず住所変更の登記を済ませてからでないと、合体による登記等は申請できないのでは」と考えて、本肢の「住所の変更の登記をすることなく…申請することができる」という記述を誤りだと判断してしまいがちです。「前の登記記録を最新の状態にしてから、次の登記に進む」という順序を思い浮かべる感覚は自然なものです。
+「登記記録上の情報が古いまま（住所が変わっている）では、次の登記を申請できないはずだ」という感覚から、「まず住所変更の登記を済ませてからでないと、合体による登記等は申請できないのでは」と考えて、本肢の「住所の変更の登記をすることなく…申請することができる」という記述を誤りだと判断してしまいがちです。
 
-しかし、表示に関する登記の実務では、登記名義人の氏名・住所が変わっていること自体は、あらためて変更登記を経なくても、その変更があったことを証する情報（住民票の写しなど）を添付情報として提供すれば足りる、という扱いが広く採られています。これは、表示に関する登記が「不動産の現況を公示する」ことを主眼としており、登記名義人本人の氏名・住所の同一性さえ書類で確認できれば足り、あらためて別個の変更登記という手続を経由させる必要性が乏しいためです。
+「前の登記記録を最新の状態にしてから、次の登記に進む」という順序を思い浮かべる感覚は自然なものです。
+
+しかし、表示に関する登記の実務では、登記名義人の氏名・住所が変わっていること自体は、あらためて変更登記を経なくても、その変更があったことを証する情報（住民票の写しなど）を添付情報として提供すれば足りる、という扱いが広く採られています。
+
+これは、表示に関する登記が「不動産の現況を公示する」ことを主眼としており、登記名義人本人の氏名・住所の同一性さえ書類で確認できれば足り、あらためて別個の変更登記という手続を経由させる必要性が乏しいためです。
 
 「変更があった事実」と「変更の登記を経ること」は別物であり、前者を証明できれば後者を省略できる場面があるという点を意識すると、同じ発想が問われる他の登記の場面でも迷わず判断できるようになります。
+
+---
 
 ### まとめ
 
@@ -96,8 +150,9 @@
 - 出題年度・問題番号・正解番号（4番＝ウ・オ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - イの登録免許税額（7万2,000円）は、価額6,000万円×持分10分の3×税率1,000分の4という計算に基づくものです。税率1,000分の4は、登録免許税法別表第一・一（一）「所有権の保存の登記」の税率であり、`note-articles/laws/touroku-menkyozei-hou.md`に保存した条文原文で確認済みです（6,000万円×10分の3＝1,800万円、1,800万円×1,000分の4＝7万2,000円）。合体による登記等の全体的な手続の根拠（合体前後の建物の区分に応じた申請義務者、申請期間1か月以内等）は不動産登記法49条で確認済みです。エ（分割の登記と合体による登記等の一括申請の可否）は、不動産登記令4条（一登記一申請の原則）と不動産登記規則35条（一の申請情報によって申請できる場合の限定列挙。建物の分割の登記と建物の合併の登記の組合せ〔2号・3号〕はあるが、建物の分割の登記と合体による登記等の組合せは列挙されていない）で条文上確認できました。あわせて本文の補足で述べた「なぜ分割＋合併はできて分割＋合体はできないのか」という理由づけは、不動産登記法54条（建物の合併の登記・分割の登記はいずれも「登記記録上」の組替えにとどまる旨の定義規定）と同法49条1項（合体による登記等は新たな表題登記と既存の表題部の登記の抹消を要し、かつ対象を「二以上の建物」＝独立した登記済みの建物に限る旨の規定）から導いたものです。ウ（印鑑証明書による持分証明情報の兼用）、オ（住所変更登記の前提省略）は実務解説の内容と整合していますが、根拠条文（不動産登記令の該当箇所）の逐条確認までは至っていない部分があります。アについては、条文の直接的な明文というより、合体による登記等の制度趣旨からの整理となっている点にご留意ください。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。合体による登記等がテーマ。R05第16問も同じ「合体による登記等」がテーマですが、問われている肢の内容（表題登記の申請義務・相続人による単独申請・登録免許税等）は完全に異なり、同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-06再実施）**：保存済みの法令データ（登録免許税法別表第一・一（一）、不動産登記法49条）で肢イの税率と合体による登記等の手続の根拠を条文上確認しました。通常の建物に対するこの税率自体は長期間変更されておらず（住宅用家屋の軽減税率の特例は本問の対象外）、計算結果（7万2,000円）に影響する法改正は見当たりません。他の肢についても、合体による登記等に関する規定に変更された事実は見当たりませんでした。
-- **重要な訂正（2026-08-17）**：肢エについて、以前の版では「分割登記との一括申請が常に必要というわけではない（一括申請できる場合もある）」という趣旨で解説していましたが、これはユーザーからのご指摘を受けて不動産登記令4条・不動産登記規則35条を精査した結果、誤りであったことが判明しました。同規則35条は、複数の登記を一の申請情報で申請できる場合を限定列挙しており、建物の分割の登記と建物の合併の登記の組合せ（2号・3号）は含まれていますが、建物の分割の登記と合体による登記等の組合せは含まれていません。したがって、分割の登記と合体による登記等は、常に別々の申請情報によって個別に申請しなければならず、一括申請という選択肢自体が存在しません（「必須ではないが、できないわけでもない」という以前の解説は誤りで、正しくは「常にできない」です）。肢エ自体の正誤判定（誤り＝選択肢4番に変更なし）と結論の方向性は変わりませんが、その法的根拠と説明が変わりましたので、本文・まとめ・見出し画像用フレーズ・インフォグラフィックを訂正しました。
+- **最新法令チェック（2026-08-06再実施）**：保存済みの法令データ（登録免許税法別表第一・一（一）、不動産登記法49条）でイの税率と合体による登記等の手続の根拠を条文上確認しました。通常の建物に対するこの税率自体は長期間変更されておらず（住宅用家屋の軽減税率の特例は本問の対象外）、計算結果（7万2,000円）に影響する法改正は見当たりません。他の肢についても、合体による登記等に関する規定に変更された事実は見当たりませんでした。
+- **重要な訂正（2026-08-17）**：エについて、以前の版では「分割登記との一括申請が常に必要というわけではない（一括申請できる場合もある）」という趣旨で解説していましたが、これはユーザーからのご指摘を受けて不動産登記令4条・不動産登記規則35条を精査した結果、誤りであったことが判明しました。同規則35条は、複数の登記を一の申請情報で申請できる場合を限定列挙しており、建物の分割の登記と建物の合併の登記の組合せ（2号・3号）は含まれていますが、建物の分割の登記と合体による登記等の組合せは含まれていません。したがって、分割の登記と合体による登記等は、常に別々の申請情報によって個別に申請しなければならず、一括申請という選択肢自体が存在しません（「必須ではないが、できないわけでもない」という以前の解説は誤りで、正しくは「常にできない」です）。エ自体の正誤判定（誤り＝選択肢4番に変更なし）と結論の方向性は変わりませんが、その法的根拠と説明が変わりましたので、本文・まとめ・見出し画像用フレーズ・インフォグラフィックを訂正しました。
+- **2026-10-03の改善（ウの根拠の明示）**：一問一答ドリルの条文照合で、ウの「申請情報が持分の割合を証する情報を兼ねる」という断定の根拠が示されていない、との指摘があり、法令DB（`note-articles/laws/`の令別表13の項・不動産登記規則・準則）を確認したところ、この取扱いを定めた条文は見つかりませんでした。一方、提供いただいた解説資料（過去問集）が根拠として挙げる先例（平成5年7月30日民三第5320号）があるため、本文に「条文ではなく先例による取扱い」であることと、その先例を明記しました。先例の原文そのものは手元にないため、通達の本文との突合は未確認です。結論（ウ＝正）は変わりません。
 - **分かりにくいポイントの追加（2026-09-18）**：エ・オ両肢について、正誤の結論には納得できても、なぜそうなるのか自力でたどり着けなかった、というフィードバックを受け、「ここが分かりにくいポイント」を本文に追加しました。エは、上記「重要な訂正」で実際にこの記事自身が陥った「義務・任意」の軸で読んでしまう誤読パターンを取り上げ、「そもそも一の申請情報で申請できるかどうか」という一段階手前の問題であることを整理しました。あわせて、一登記一申請の原則を基礎から解説する個別テーマ記事へのリンクを追加しました。オは、「前の登記記録を最新化してから次の登記に進むはず」という順序の思い込みに焦点を当て、表示に関する登記では変更の事実を証する情報の提供によって前提の変更登記を省略できる場面があることを説明しました。オの根拠条文については、本文中の既存の確認事項に記載のとおり、逐条的な引用元までは特定できていません。あわせて、この2肢を図解する「インフォグラフィック プロンプト（エ肢・間違いノート）」「インフォグラフィック プロンプト（オ肢・間違いノート）」を追加しました。正誤判定・正解の組合せ自体（ウオの組合せ、選択肢4番）は変更していません。
 
 ---
@@ -139,12 +194,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・記・証・変・額 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -225,21 +298,21 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（肢エ補足）
+## インフォグラフィック プロンプト（エ補足）
 
-肢エ（附属建物と他の建物との合体）は、問題全体のインフォグラフィックのCard4では結論タグ1つに圧縮されているため、「通常の建物どうしの合体」と「附属建物が絡む合体」で手続がどう違うのか、そして「分割＋合併」はできるのに「分割＋合体」はできないのはなぜかを示す3枚組の補足インフォグラフィック。
+エ（附属建物と他の建物との合体）は、問題全体のインフォグラフィックのCard4では結論タグ1つに圧縮されているため、「通常の建物どうしの合体」と「附属建物が絡む合体」で手続がどう違うのか、そして「分割＋合併」はできるのに「分割＋合体」はできないのはなぜかを示す3枚組の補足インフォグラフィック。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -263,7 +336,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -271,12 +352,22 @@ kanji 属・建・物・合・体・割・請・併・組・替・独 — these 
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 附属建物がからむ合体、手続はどう変わる？
 
 Subtitle (smaller, centered, 1行):
-平成26年度　午後の部　第17問　肢エ－分割の登記と合体による登記等の関係
+平成26年度　午後の部　第17問　エ－分割の登記と合体による登記等の関係
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -328,21 +419,21 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 3 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
 ## インフォグラフィック プロンプト（エ肢・間違いノート）
 
-肢エでつまずきやすいのは、「一の申請情報によって申請しなければならない」という文言を「義務があるかどうか」の問題だと誤読してしまう点です。「義務・任意」の軸ではなく「そもそもできるかどうか」の軸で判断すべきことを対比で示します。
+エでつまずきやすいのは、「一の申請情報によって申請しなければならない」という文言を「義務があるかどうか」の問題だと誤読してしまう点です。「義務・任意」の軸ではなく「そもそもできるかどうか」の軸で判断すべきことを対比で示します。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
@@ -361,7 +452,15 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 義・務・任・意・申・請・
 情・報・限・定・列・挙 — always draw the standard Japanese (Jōyō) form.
@@ -406,7 +505,7 @@ RIGHT PANEL (green, heading「正しい読み方」):
 判例・先例の具体的な番号はここには書かない。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, panel label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters,
 confirm the LEFT and RIGHT panels are aligned at the same height item by
@@ -421,7 +520,7 @@ transparency or alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（オ肢・間違いノート）
 
-肢オでつまずきやすいのは、「前の登記記録を最新の状態にしてから、次の登記に進むはず」という手続の順序に関する思い込みです。権利に関する登記の感覚と、表示に関する登記における前提登記省略の扱いとの違いを対比で示します。
+オでつまずきやすいのは、「前の登記記録を最新の状態にしてから、次の登記に進むはず」という手続の順序に関する思い込みです。権利に関する登記の感覚と、表示に関する登記における前提登記省略の扱いとの違いを対比で示します。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
@@ -440,7 +539,15 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 住・所・変・更・証・
 明・前・提・省・略 — always draw the standard Japanese (Jōyō) form.
@@ -477,12 +584,12 @@ RIGHT PANEL (green, heading「正しい理解」):
 後者の手続を省略できる場面があります。
 
 --- FOOTER ---
-本肢の結論は、表示に関する登記における前提登記省略の一般的な取扱いに
-基づく整理であり、条文上の逐条的な根拠までは確認できていません。判例・
-先例の具体的な番号はここには書かない。
+本肢の結論は、表示に関する登記で住所の変更を証する情報を提供すれば前提の
+住所変更登記を要しないとする登記実務の取扱いによる。判例・先例の具体的な
+番号はここには書かない。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, panel label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters,
 confirm the LEFT and RIGHT panels are aligned at the same height item by
@@ -495,9 +602,9 @@ transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、申請情報に何を書くべきか・書かなくてよいか、税額をどの順で計算するか、複数の条件がそろっているかを、どの順番で確認すればよいかを示す作図ガイド。肢ウ・エは条件を積み上げて判定する決定木で、肢ア・イ・オは単一の着眼点・計算手順として示す。
+問題文を読んだ瞬間に、申請情報に何を書くべきか・書かなくてよいか、税額をどの順で計算するか、複数の条件がそろっているかを、どの順番で確認すればよいかを示す作図ガイド。ウ・エは条件を積み上げて判定する決定木で、ア・イ・オは単一の着眼点・計算手順として示す。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -579,7 +686,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -599,7 +706,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 賃借権は記載不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -623,7 +730,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 持分×保存登記の税率
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -631,27 +738,27 @@ Heading (bold, ONE line):
 Diagram: Draw an actual decision flowchart with three sequential diamond
 nodes (do not compress the three conditions into one check). Diamond 1:
 「合体前の各建物の所有者が異なり、持分の割合を定める必要があるか？」→
-「はい」continues to Diamond 2 (the「いいえ」branch is a short faded stub
-node「この場面ではない」). Diamond 2:「合体前の各建物の所有者全員が申請
+「はい」continues to Diamond 2 (the「いいえ」branch leads to a short faded
+conclusion node「持分の割合を証する情報は問題にならない」). Diamond 2:「合体前の各建物の所有者全員が申請
 人となっているか？」→「はい」continues to Diamond 3 (the「いいえ」branch
 is a short faded stub node「兼用は使えない」). Diamond 3 (thick
-highlighted border and full color, this is 肢ウ's case):「その全員分の印
+highlighted border and full color, this is ウ's case):「その全員分の印
 鑑に関する証明書の提供があるか？」→「はい」leads to a bold conclusion
 node「合体による登記等の申請情報が、持分の割合を証する情報を兼ねる」,
 showing two isometric people (Aさん・Bさん) each holding a document
 labeled「印鑑証明書」beside a single shared application document labeled
 「合体による登記等 申請書（持分割合を記載）」. The「いいえ」branch of
-Diamond 3 is a short faded stub node「別途、持分証明情報が必要」.
+Diamond 3 is a short faded stub node「別途、持分を証する情報が必要」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、合体前の各建物の所有者が異なり持分の割合を定める必要があるかを確
 認します。次に、その所有者全員が申請人となっているかを確認し、最後に、
 その全員分の印鑑に関する証明書が提供されているかを確認します。三つがそ
-ろえば、申請情報自体が持分証明情報を兼ねます。
+ろえば、先例上、申請情報自体が持分証明情報を兼ねます。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 3条件で兼用可能
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -678,7 +785,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一括申請はできない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

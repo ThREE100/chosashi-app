@@ -1,0 +1,64 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 80px 70px 40px; min-height: 1650px; display: flex; flex-direction: column; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 56px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 32px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 26px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.plain { font-size: 22px; margin: 4px 0 26px; }
+.dairi { display: flex; font-size: 22px; margin-bottom: 30px; }
+.dairi .lab { padding-top: 0; }
+.dairi .txt { flex: 1; line-height: 1.6; }
+table.land { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.land td { border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; }
+table.land.compact td.vert { letter-spacing: 0.02em; font-size: 15px; }
+.box.fix { line-height: 1.75; }
+table.land td.head { height: 50px; text-align: center; font-size: 20px; }
+table.land td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }
+table.land td.shozai-lab { text-align: center; height: 76px; }
+table.land td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }
+table.land td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }
+table.land td.chimoku { text-align: center; }
+table.land td .ink, .box .ink { font-size: 26px; }
+.note { font-size: 17px; color: #444; margin-top: 18px; line-height: 1.6;
+         font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 70px 30px; border-bottom: 2px solid #bbb; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -4px; right: -4px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-2deg); }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.over { position: relative; display: inline-block; }
+.item { display: inline-block; white-space: nowrap; margin-right: 0.9em; }
+.over .up { position: absolute; left: 0; top: -30px; font-size: 24px; white-space: nowrap; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 60px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: -12px 0 20px 170px; }
+.bubrow.table { margin: 14px 0 0 200px; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; border-radius: 2px; background: #f1faf2; }
+.okrow { position: relative; }
+.check { position: absolute; right: -8px; top: -30px; }
+
+.ran { padding: 60px 60px 40px; }
+.ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 14px; }
+.sub { font-size: 23px; margin: 26px 0 10px 20px; }
+table.zahyo { width: 80%; margin-left: 20px; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.zahyo td { border: 1.5px solid #111; font-size: 24px; height: 96px; text-align: center; vertical-align: middle; }
+table.zahyo tr.h td { height: 60px; font-size: 22px; }
+table.zahyo td .ink { font-size: 30px; }
+.kijutsu { border: 3px solid #111; padding: 26px 30px; min-height: 560px; font-size: 25px; line-height: 2.0; }
+</style></head><body><div class="ran"><div class="ranhead">問１</div>
+<div class="kijutsu"><span class="ink">本件土地は国有財産であり、宗教法人雨堤天満宮にとって他人の物である。宗教法人雨堤天満宮は、昭和26年8月19日に50番1及び51番2を吉川仁志から買い受けて以降、本件土地を神社の敷地（神楽殿の敷地及び参道）として、所有の意思をもって維持、管理し、一般に開放してきた。その間、土地の所有に関する問合せやそれに伴う測量などはなく、平穏かつ公然と占有していた。この占有を昭和26年8月19日から20年間継続し、昭和46年8月19日に取得時効が完成した（民法第162条第1項）</span></div>
+<div class="caption">平成23年度 土地家屋調査士試験 第21問 問1 解答例</div></div></body></html>

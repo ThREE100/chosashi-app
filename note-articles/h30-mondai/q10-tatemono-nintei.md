@@ -2,19 +2,21 @@
 
 **出題年度：平成30年度　午後の部　第10問**
 
-> 次のアからオまでの建造物のうち，建物として登記することができないものの組合せは，後記1から5までのうち，どれか。
->
-> ア　競馬場の観覧席のうち，屋根を有しない部分
->
-> イ　土地に固定している浮船を利用した店舗
->
-> ウ　ガード下を利用して築造した倉庫
->
-> エ　容易に運搬することができる切符売場
->
-> オ　廃車となった鉄道車両に基礎工事や付帯設備等を施した居宅
->
+> 次のアからオまでの建造物のうち，建物として登記することができないものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　競馬場の観覧席のうち，屋根を有しない部分  
+>　  
+> イ　土地に固定している浮船を利用した店舗  
+>　  
+> ウ　ガード下を利用して築造した倉庫  
+>　  
+> エ　容易に運搬することができる切符売場  
+>　  
+> オ　廃車となった鉄道車両に基礎工事や付帯設備等を施した居宅  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+---
 
 建物として登記できるかどうかは、①外気分断性、②土地への定着性、③用途性（人や物がとどまることができるか）という3要件を満たすかで決まります。今回は「登記できないもの」を選ぶ問題なので、どの要件が欠けているかを一つずつ確認していきましょう。
 
@@ -48,6 +50,8 @@
 
 **たとえば**、引退した電車の車両を土地にコンクリート基礎で固定し、水道や電気を引き込んで住居として使っている場合、この車両は建物として登記することができます。
 
+---
+
 ### まとめ
 
 - **ア（誤）**　屋根を有しない観覧席は外気分断性を欠き建物として登記できない
@@ -68,7 +72,7 @@
 - 出題年度・問題番号・正解番号（2番＝アエ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠のうち、ア（準則77条1号イ）、イ（準則77条2号ウ）、ウ（準則77条1号ウ）、エ（準則77条2号オ）は、元データの解説で準則の号まで明記されています。オ（廃車鉄道車両）については、元データ上「建物認定95頁」という参考書籍の記載があるのみで、具体的な先例番号までは明記されておらず、建物認定の一般原則（定着性・外気分断性・用途性）からの当てはめにとどまる点は留意してください。
 - 各肢の根拠は、ローカルのアガルート教材（過去問テキスト）の解説を条文根拠の一次情報源として参照しています（元データの解説はアガルート過去問テキストのOCRに基づきます）。なお、このQ10の解説は元データ上Q9のexplanationフィールド末尾にOCRで紛れ込んでいたものを整理して用いています。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（建物の認定）と同一・類似の問題が再出題されていないかを確認しました。**重複が見つかりました。** 建物の認定は令和4年度・令和5年度・令和6年度とほぼ毎年出題される定番テーマです。特に令和6年度第12問（既存記事：`r6-mondai/q12-tatemono-nintei.md`）の肢ウ「廃車となった鉄道車両は、基礎工事が施されて土地に定着しており、店舗の用途に供されている場合には、建物として登記することができる」は、本問の肢オ（廃車鉄道車両+基礎工事の居宅）と同一の事例パターン（定着性のある廃車鉄道車両の建物）を扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（建物の認定）と同一・類似の問題が再出題されていないかを確認しました。**重複が見つかりました。** 建物の認定は令和4年度・令和5年度・令和6年度とほぼ毎年出題される定番テーマです。特に令和6年度第12問（既存記事：`r6-mondai/q12-tatemono-nintei.md`）のウ「廃車となった鉄道車両は、基礎工事が施されて土地に定着しており、店舗の用途に供されている場合には、建物として登記することができる」は、本問のオ（廃車鉄道車両+基礎工事の居宅）と同一の事例パターン（定着性のある廃車鉄道車両の建物）を扱っています。令和6年度分は既に公開済みのため、本問側の具体例を差別化することを推奨します。
 - **最新法令チェック（2026-08-18実施）**：本記事が引用する不動産登記事務取扱手続準則77条（建物の認定基準）を`note-articles/laws/fudousan-touki-jimu-junsoku.md`の現行条文と突き合わせました。ア（屋根を有しない観覧席、準則77条1号イ）、イ（固定された浮船、準則77条2号ウ）、ウ（ガード下の倉庫、準則77条1号ウ）、エ（容易に運搬できる切符売場、準則77条2号オ）はいずれも現行の準則77条の例示と一致しており、条番号・内容とも修正不要でした。オ（廃車鉄道車両）は準則77条に明文の例示がなく、上記のとおり一般原則からの当てはめにとどまる点も変わりません。本問は相続登記義務化・住所変更登記義務化など直近の法改正の影響を受けるテーマではありません。あわせて、本文中に残っていた半角括弧を全角括弧に修正し、オの本文にあった参考書籍名・ページ数の記載（建物認定95頁）は、教材の書名を本文に書かない運用に合わせて本文から削除しました（出典情報は上記の各肢の根拠欄に従来どおり残しています）。
 
 ---
@@ -111,13 +115,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・番・登・記・所・覧・倉・庫・売・運・鉄・両・準・則 — these must be
+kanji 登・記・覧・倉・庫・売・運・両 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -196,20 +218,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、`infographic-prompt-template.md`の
 「⑤ 作図ガイド型」ルールに基づき、問題文を読んだときに実際に手を動かして
@@ -302,7 +324,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -326,7 +348,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 外気分断性なしで不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 土地に固定された浮船は定着性ありで登記可
@@ -345,7 +367,7 @@ building tied to the riverbank with an anchor, chain, and wooden stakes.
 Conclusion tag (blue, 5-15 Japanese characters):
 固定されていれば登記可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 ガード下の倉庫も3要件を順に満たせば登記可
@@ -364,7 +386,7 @@ requirements in turn.
 Conclusion tag (blue, 5-15 Japanese characters):
 特殊立地でも3要件で判定
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 容易に運搬できる切符売場は定着性なしで不可
@@ -383,7 +405,7 @@ wheels with a forklift beside it and short dashed motion lines.
 Conclusion tag (blue, 5-15 Japanese characters):
 運搬容易で不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 基礎工事を施した廃車車両は定着性ありで登記可
@@ -410,8 +432,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 地, 番, 登, 記, 所, 覧, 倉, 庫, 売,
-運, 鉄, 両, 準, 則, 着. If any character renders as a Simplified or
+Chinese, paying special attention to 地, 登, 記, 覧, 倉, 庫, 売, 運, 鉄, 両, 準, 則, 着. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not
 standard Japanese hiragana, katakana, or Jōyō kanji — including any

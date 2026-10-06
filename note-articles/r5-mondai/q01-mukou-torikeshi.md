@@ -2,21 +2,25 @@
 
 **出題年度：令和5年度　午後の部　第1問**
 
-> 無効及び取消しに関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　買主が売買契約を締結した当時に意思能力を有しなかったために当該契約が無効とされる場合には、売主は、買主に対し、当該契約に基づく目的物の引渡義務を負わない。
->
-> イ　売買契約が虚偽表示により無効である場合において、売主及び買主がそれぞれ無効であることを知って追認したときは、当該契約は、初めから有効であったものとみなされる。
->
-> ウ　買主が強迫を理由として売買契約を取り消したときは、当該契約は、初めから無効であったものとみなされる。
->
-> エ　未成年者が法定代理人の同意を得なければすることができない契約をその同意を得ることなく締結した場合において、当該法定代理人が当該契約を追認したときであっても、当該未成年者本人は、法定の期間内に相手方に対して意思表示をすることにより、当該契約を取り消すことができる。
->
-> オ　取消権は、取消しの原因となっていた状況が消滅し、かつ、取消権者が取消権を有することを知った後でなければ、時効によって消滅することはない。
->
+> 無効及び取消しに関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　買主が売買契約を締結した当時に意思能力を有しなかったために当該契約が無効とされる場合には、売主は、買主に対し、当該契約に基づく目的物の引渡義務を負わない。  
+>　  
+> イ　売買契約が虚偽表示により無効である場合において、売主及び買主がそれぞれ無効であることを知って追認したときは、当該契約は、初めから有効であったものとみなされる。  
+>　  
+> ウ　買主が強迫を理由として売買契約を取り消したときは、当該契約は、初めから無効であったものとみなされる。  
+>　  
+> エ　未成年者が法定代理人の同意を得なければすることができない契約をその同意を得ることなく締結した場合において、当該法定代理人が当該契約を追認したときであっても、当該未成年者本人は、法定の期間内に相手方に対して意思表示をすることにより、当該契約を取り消すことができる。  
+>　  
+> オ　取消権は、取消しの原因となっていた状況が消滅し、かつ、取消権者が取消権を有することを知った後でなければ、時効によって消滅することはない。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
-「無効」と「取消し」は、どちらも契約の効力を否定する場面で登場しますが、その効果や追認・時効の扱いが少しずつ違います。この分野は、「最初から効力が生じないのか」「いったん有効だがさかのぼって否定されるのか」という基本の違いと、追認・消滅時効のルールを丁寧に押さえられているかが問われます。
+---
+
+「無効」と「取消し」は、どちらも契約の効力を否定する場面で登場しますが、その効果や追認・時効の扱いが少しずつ違います。
+
+この分野は、「最初から効力が生じないのか」「いったん有効だがさかのぼって否定されるのか」という基本の違いと、追認・消滅時効のルールを丁寧に押さえられているかが問われます。
 
 ### ア：意思能力のない状態でした契約は無効で、目的物の引渡義務も生じない
 
@@ -26,9 +30,15 @@
 
 ### イ：無効な契約を知って追認しても、初めから有効になるわけではない
 
-相手方と通じてした虚偽の意思表示（通謀虚偽表示）は無効です（民法94条1項）。無効な行為は追認によっても効力を生じないのが原則で、当事者が無効であることを知って追認したときは、「その時から新たな行為をしたもの」とみなされるにとどまります（民法119条ただし書）。つまり、契約時にさかのぼって有効になるのではなく、追認の時点から効力が生じるのです。
+相手方と通じてした虚偽の意思表示（通謀虚偽表示）は無効です（民法94条1項）。
 
-**たとえば**、AさんとBさんが税金対策のために形だけの土地売買契約（本当は売る気がない仮装売買）を結んだ後、「やっぱりこの契約を生かそう」と二人とも無効を知って追認したとします。この場合、契約は最初から有効だったことにはならず、追認した時に新たに契約をしたものとして扱われます。
+無効な行為は追認によっても効力を生じないのが原則で、当事者が無効であることを知って追認したときは、「その時から新たな行為をしたもの」とみなされるにとどまります（民法119条ただし書）。
+
+つまり、契約時にさかのぼって有効になるのではなく、追認の時点から効力が生じるのです。
+
+**たとえば**、AさんとBさんが税金対策のために形だけの土地売買契約（本当は売る気がない仮装売買）を結んだ後、「やっぱりこの契約を生かそう」と二人とも無効を知って追認したとします。
+
+この場合、契約は最初から有効だったことにはならず、追認した時に新たに契約をしたものとして扱われます。
 
 ### ウ：取り消された行為は、初めから無効だったものとみなされる
 
@@ -38,15 +48,23 @@
 
 ### エ：法定代理人が追認した契約は、未成年者本人も取り消せなくなる
 
-未成年者が法律行為をするには法定代理人の同意が必要で（民法5条1項本文）、同意なしにした行為は未成年者本人または法定代理人が取り消せます（民法5条2項、120条1項）。もっとも、これらの者は追認することもでき（民法122条）、いったん追認された行為は確定的に有効となって、以後は取り消すことができなくなります。法定代理人が追認した以上、未成年者本人もあらためて取り消すことはできません。
+未成年者が法律行為をするには法定代理人の同意が必要で（民法5条1項本文）、同意なしにした行為は未成年者本人または法定代理人が取り消せます（民法5条2項、120条1項）。
 
-**たとえば**、高校生のAさんが親の同意なくバイクの分割払い契約を結んだ後、親であるBさんが「この契約は認めてあげよう」と追認したとします。こうなると契約は確定的に有効となり、Aさん本人が後から「やっぱり取り消したい」と言っても、もう取り消すことはできません。
+もっとも、これらの者は追認することもでき（民法122条）、いったん追認された行為は確定的に有効となって、以後は取り消すことができなくなります。法定代理人が追認した以上、未成年者本人もあらためて取り消すことはできません。
+
+**たとえば**、高校生のAさんが親の同意なくバイクの分割払い契約を結んだ後、親であるBさんが「この契約は認めてあげよう」と追認したとします。
+
+こうなると契約は確定的に有効となり、Aさん本人が後から「やっぱり取り消したい」と言っても、もう取り消すことはできません。
 
 ### オ：取消権は、行為の時から20年で時効消滅する
 
-有効な追認は「取消しの原因となっていた状況が消滅した後」で、かつ「取消権を有することを知った後」にする必要があります（民法124条1項）。しかし取消権そのものの消滅時効は別で、追認できる時から5年、または行為の時から20年を経過すると時効によって消滅します（民法126条）。したがって、行為の時から20年が経てば、追認できる状況に至っていなくても取消権は時効消滅します。
+有効な追認は「取消しの原因となっていた状況が消滅した後」で、かつ「取消権を有することを知った後」にする必要があります（民法124条1項）。
+
+しかし取消権そのものの消滅時効は別で、追認できる時から5年、または行為の時から20年を経過すると時効によって消滅します（民法126条）。したがって、行為の時から20年が経てば、追認できる状況に至っていなくても取消権は時効消滅します。
 
 **たとえば**、Aさんが強迫を受けて結んだ契約について、脅されている状態が長く続いて取り消せないまま20年が過ぎてしまった場合、たとえまだ追認できる状況になっていなくても、行為の時から20年の経過によって取消権は時効で消滅してしまいます。
+
+---
 
 ### まとめ
 
@@ -109,12 +127,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権 — this must be rendered in its standard Japanese form, never as
-the Simplified Chinese variant 权.
+a Simplified Chinese variant.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -133,8 +169,9 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 意思無能力の契約は無効
-Illustration: An isometric elderly figure with a confused, blank
-expression signing a document at a desk; the document is instantly
+Illustration: An isometric figure labeled 買主 with a confused, blank
+expression (意思能力なし) signing a sales document at a desk across from a
+figure labeled 売主; the document is instantly
 stamped with a large red "無効" seal and shown cracking into pieces;
 beside it, a small house/land icon is linked by a crossed-out
 (prohibition) arrow to a delivery-box icon, showing no obligation to
@@ -199,20 +236,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「無効」と「取消し」の問題文を読んだときに、追認・遡及効・時効消滅のどれが問われているかを見分ける5パネル構成。イ（無効の追認）とウ（取消しの遡及効）は、同じタイムライン型の図の形を共有しつつ、矢印が過去に届くかどうかが正反対になる点を対比させ、オ（取消権の時効消滅）は2本の並行するタイマーのどちらが先に尽きるかを確認する決定木として描く。
 
@@ -221,7 +258,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-（「無効」と「取消し」はどう違う？), but built as a set of 5
+（「無効」と「取消し」はどう違う？）, but built as a set of 5
 diagram-drawing panels (a "how to sketch this fact pattern, in the right
 order" study reference) rather than a quick-reference conclusion poster.
 
@@ -236,7 +273,7 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not
-force a flowchart. Panels 2 and 3 (肢イ・肢ウ) share the same underlying
+force a flowchart. Panels 2 and 3 (イ・ウ) share the same underlying
 horizontal-timeline shape (契約成立時点を起点とし、途中に追認または取消
 しの時点をマークする); draw both on the same timeline layout, but in
 Panel 2 draw NO arrow reaching back to the starting point (追認は将来に
@@ -253,7 +290,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -277,12 +322,12 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 意思能力の有無を最初に確認する
-Diagram: An isometric elderly figure with a confused expression signing a
-document; the document instantly cracks into pieces with a red「無効」
+Diagram: An isometric figure labeled 買主（意思能力なし）with a confused
+expression signing a sales document across from a figure labeled 売主; the document instantly cracks into pieces with a red「無効」
 seal. A crossed-out arrow connects the land icon to a delivery-box icon,
 showing no obligation to hand it over.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -292,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 無効なら引渡義務なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 追認しても遡って有効化しない
@@ -309,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 追認時から新たな行為
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 取消しは遡って無効になる
@@ -328,7 +373,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遡及して無効
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 法定代理人の追認の有無を確認
@@ -345,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 確定的に有効
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 2本のタイマーのどちらが先か確認
@@ -387,11 +432,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 ・124条1項・126条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権, 効, 認, 消, 遡, 及 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that Panels 2 and 3 visibly share the same
 timeline layout while differing only in whether the arrow reaches back to

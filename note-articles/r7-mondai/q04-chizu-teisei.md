@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第4問**
 
-> 地図の訂正に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地の表題部所有者又は所有権の登記名義人は、地図に表示された当該土地の区画に誤りがあることを発見した場合には、その誤りを発見した日から1月以内に地図訂正の申出をしなければならない。
->
-> イ　地図に表示された土地の区画に誤りがある場合には、登記官は、当該土地の表題部所有者又は所有権の登記名義人からの地図訂正の申出がなくても、職権でその訂正をすることができる。
->
-> ウ　地図に表示された土地の区画に誤りがあるが当該土地の登記記録の地積に錯誤がない場合には、地図訂正の申出をすることはできない。
->
-> エ　地図の訂正をすることによって、申出に係る土地以外の土地の区画又は位置若しくは形状を訂正すべきこととなるときには、登記官は、申出に基づき地図の訂正をすることはできない。
->
-> オ　地図に表示された土地の区画に誤りがある場合において、当該土地の所有権の登記名義人が二人であるときは、地図訂正の申出は、そのうちの一人からすることができる。
->
+> 地図の訂正に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地の表題部所有者又は所有権の登記名義人は、地図に表示された当該土地の区画に誤りがあることを発見した場合には、その誤りを発見した日から1月以内に地図訂正の申出をしなければならない。  
+>　  
+> イ　地図に表示された土地の区画に誤りがある場合には、登記官は、当該土地の表題部所有者又は所有権の登記名義人からの地図訂正の申出がなくても、職権でその訂正をすることができる。  
+>　  
+> ウ　地図に表示された土地の区画に誤りがあるが当該土地の登記記録の地積に錯誤がない場合には、地図訂正の申出をすることはできない。  
+>　  
+> エ　地図の訂正をすることによって、申出に係る土地以外の土地の区画又は位置若しくは形状を訂正すべきこととなるときには、登記官は、申出に基づき地図の訂正をすることはできない。  
+>　  
+> オ　地図に表示された土地の区画に誤りがある場合において、当該土地の所有権の登記名義人が二人であるときは、地図訂正の申出は、そのうちの一人からすることができる。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
 ---
@@ -22,9 +22,13 @@
 
 ### ア：地図訂正の申出は義務ではなく、期限そのものが存在しない
 
-不動産登記規則16条1項は、地図訂正の申出を表題部所有者・所有権の登記名義人の**任意の権利**として定めているだけで、義務としては定めていません。申出をするかどうかは登記名義人の判断に委ねられているため、「発見した日から1か月以内」という期限はもちろん、「遅滞なく」といった期限も一切定められていません。
+不動産登記規則16条1項は、地図訂正の申出を表題部所有者・所有権の登記名義人の**任意の権利**として定めているだけで、義務としては定めていません。
 
-**たとえば**、自分の土地の地図を見て「あれ、隣との境界線の形が現地と全然違う」と気づいたとしましょう。この場合でも、法律上申出をする義務自体がないため、「30日以内に届け出ないと違法になる」というような厳格なカウントダウンはもちろん、「気づいたらすぐに届け出なければならない」という期限のプレッシャーもありません。
+申出をするかどうかは登記名義人の判断に委ねられているため、「発見した日から1か月以内」という期限はもちろん、「遅滞なく」といった期限も一切定められていません。
+
+**たとえば**、自分の土地の地図を見て「あれ、隣との境界線の形が現地と全然違う」と気づいたとしましょう。
+
+この場合でも、法律上申出をする義務自体がないため、「30日以内に届け出ないと違法になる」というような厳格なカウントダウンはもちろん、「気づいたらすぐに届け出なければならない」という期限のプレッシャーもありません。
 
 ### イ：登記官は申出がなくても、自分の判断で地図を直せる
 
@@ -34,23 +38,41 @@
 
 ### ウ：地積が合っていても、地図の形がずれていれば訂正申出はできる
 
-地図訂正の申出（不動産登記規則16条1項）は、あくまで「地図に描かれた区画の形・位置」が実際とズレている場合に行うものです。登記記録上の「地積（面積の数値）」が合っているかどうかとは、別の話です。なお、同条2項は、地積に錯誤があるときは地積更正登記と併せて申出をしなければならないと定めていますが、これは地積に誤りがある場合の付随的な要件にすぎず、地積が合っている本問のようなケースで申出自体を妨げるものではありません。
+地図訂正の申出（不動産登記規則16条1項）は、あくまで「地図に描かれた区画の形・位置」が実際とズレている場合に行うものです。登記記録上の「地積（面積の数値）」が合っているかどうかとは、別の話です。
 
-**たとえば**、土地の面積は登記簿どおり100㎡で正しく記録されているけれど、地図上の境界線の角度や形が、実際の現地の形とズレて描かれている、ということは十分あり得ます。この場合、地積自体は変わらなくても、地図の形状を正しく直すための訂正申出はできます。「地積が合っているから地図訂正できない」というのは誤りです。
+なお、同条2項は、地積に錯誤があるときは地積更正登記と併せて申出をしなければならないと定めていますが、これは地積に誤りがある場合の付随的な要件にすぎず、地積が合っている本問のようなケースで申出自体を妨げるものではありません。
+
+**たとえば**、土地の面積は登記簿どおり100㎡で正しく記録されているけれど、地図上の境界線の角度や形が、実際の現地の形とズレて描かれている、ということは十分あり得ます。
+
+この場合、地積自体は変わらなくても、地図の形状を正しく直すための訂正申出はできます。「地積が合っているから地図訂正できない」というのは誤りです。
 
 ### エ：他の土地まで巻き込む訂正は、一方的な申出だけではできない
 
 自分の土地の地図を直そうとした結果、隣の土地の区画・位置・形まで変えなければならなくなる場合、登記官は、その申出に基づいて地図の訂正をすることはできず、理由を付した決定でその申出を**却下しなければなりません**（不動産登記規則16条13項6号）。
 
-**たとえば**、自分の土地の境界線のズレを直そうとしたら、連動して隣の土地の境界線の位置もつられて動かさなければ地図の整合性が取れなくなる、というケースを考えてください。隣人が関与していない一方的な申出だけで、隣の土地の地図データまで書き換えることは認められません。
+**たとえば**、自分の土地の境界線のズレを直そうとしたら、連動して隣の土地の境界線の位置もつられて動かさなければ地図の整合性が取れなくなる、というケースを考えてください。
 
-**実際に地図の訂正を行うにはどうすればよいか**：却下されて終わりではなく、実務では次のような対応を取ります。まず、土地家屋調査士が影響を受ける両方の土地の現地に立ち会い、隣接地の所有者とともに正しい筆界の位置を確認します（筆界確認・境界立会）。双方が同じ筆界で合意できれば、その結果に基づいて地積測量図等の資料を整え、**影響を受ける両方の土地の所有者が申出人となって、まとめて地図訂正の申出をする**のが一般的な進め方です。もし境界の位置について所有者間で意見が食い違い、合意に至らない場合は、法務局の筆界特定制度を利用して筆界特定登記官に筆界を特定してもらう手続きに進むこともあります。なお、登記官が誤りに気づいた場合は申出を待たずに職権で訂正することもできますが（同条15項）、これはあくまで登記官の判断に委ねられているため、申出人の側から確実に訂正を実現するには、隣接地の所有者を含めた共同での申出が実務上の基本になります。
+隣人が関与していない一方的な申出だけで、隣の土地の地図データまで書き換えることは認められません。
+
+**実際に地図の訂正を行うにはどうすればよいか**：却下されて終わりではなく、実務では次のような対応を取ります。
+
+まず、土地家屋調査士が影響を受ける両方の土地の現地に立ち会い、隣接地の所有者とともに正しい筆界の位置を確認します（筆界確認・境界立会）。
+
+双方が同じ筆界で合意できれば、その結果に基づいて地積測量図等の資料を整え、**影響を受ける両方の土地の所有者が申出人となって、まとめて地図訂正の申出をする**のが一般的な進め方です。
+
+もし境界の位置について所有者間で意見が食い違い、合意に至らない場合は、法務局の筆界特定制度を利用して筆界特定登記官に筆界を特定してもらう手続きに進むこともあります。
+
+なお、登記官が誤りに気づいた場合は申出を待たずに職権で訂正することもできますが（同条15項）、これはあくまで登記官の判断に委ねられているため、申出人の側から確実に訂正を実現するには、隣接地の所有者を含めた共同での申出が実務上の基本になります。
 
 ### オ：共有者が2人いても、1人だけで地図訂正の申出ができる
 
-土地の所有者が2人（共有）の場合でも、地図訂正の申出（不動産登記規則16条1項）は共有者のうちの1人だけで行うことができます。共有物の保存行為は各共有者が単独ですることができるとされており（民法252条5項）、地図訂正の申出は財産を処分したり減らしたりする行為ではなく、記録を正しい状態に保つための「**保存行為**」に近い性質を持つことが、単独での申出を認める根拠となっています。
+土地の所有者が2人（共有）の場合でも、地図訂正の申出（不動産登記規則16条1項）は共有者のうちの1人だけで行うことができます。
+
+共有物の保存行為は各共有者が単独ですることができるとされており（民法252条5項）、地図訂正の申出は財産を処分したり減らしたりする行為ではなく、記録を正しい状態に保つための「**保存行為**」に近い性質を持つことが、単独での申出を認める根拠となっています。
 
 **たとえば**、夫婦で共有している土地の地図に誤りがあると気づいたとき、わざわざ2人揃って申出をしなくても、どちらか一方だけで地図訂正の申出をすることができます。
+
+---
 
 ### まとめ
 
@@ -70,7 +92,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝ア・ウ）は法務省公表の試験問題原本・正答資料で確認済みです。
-- 各肢の法的根拠として、不動産登記規則16条1項・2項・13項6号・15項、民法252条5項を確認のうえ記載しており、ア〜オいずれも一般論ではなく条文に基づく解説です。特に肢アは、規則16条1項が「することができる」という任意形の規定であることを踏まえ、地図訂正の申出に期限の定めが一切ない旨を条文に即して修正しています。
+- 各肢の法的根拠として、不動産登記規則16条1項・2項・13項6号・15項、民法252条5項を確認のうえ記載しており、ア〜オいずれも一般論ではなく条文に基づく解説です。特にアは、規則16条1項が「することができる」という任意形の規定であることを踏まえ、地図訂正の申出に期限の定めが一切ない旨を条文に即して修正しています。
 - **エの補足説明について**：エ（他の土地まで巻き込む訂正は却下されること）について、実際に地図を訂正するための実務対応（土地家屋調査士による隣接地所有者との筆界確認・双方を申出人とする共同での地図訂正申出、合意に至らない場合の筆界特定制度の利用）を補足しました。この却下事由自体は不動産登記規則16条13項6号で条文上確認済みですが、その後の実務対応の部分は、同条1項・15項の条文構造と一般的な土地家屋調査士実務から導かれる内容であり、個別の先例・通達文言までは確認できていません。結論（エは正しい）自体は変わりません。
 
 ---
@@ -111,12 +133,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所・図・積 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -147,8 +187,8 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積が合っていても区画ズレなら申出可
-Illustration: 一筆の土地の図。登記記録の地積欄に「100㎡」と正しい数値が
-表示されている一方で、地図上の境界線が波打つように現地とズレて描かれて
+Illustration: 一筆の土地の図。登記記録の地積欄に正しい地積が表示されている(具体的な数値は
+書かず「地積 正しい」の札だけを付ける)一方で、地図上の境界線が波打つように現地とズレて描かれて
 いる。虫眼鏡のアイコンでそのズレの部分を強調する。
 Conclusion tag (green banner below the illustration, 5-15 characters):
 地積とは別問題
@@ -189,8 +229,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (3
 cards under 「申出のルール」and 2 cards under「登記官の職権と訂正の
 範囲」), with no duplicated or missing cards, that badge numbers run 1-5
@@ -198,12 +238,12 @@ continuously across both columns without resetting, confirm there is no
 intro illustration or paragraph block between the header and the cards,
 and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「誰の行為か（申出人か登記官か）」「何を確認する話か（義務・期限／地積との違い／他地への影響／保存行為）」を見抜けるようにする5パネル構成。②の俯瞰ポスターと同じ色分け（申出者側の話＝緑、登記官の職権・範囲の話＝青）を引き継ぎつつ、各肢を「まず何を確認するか」という手順で示す。
 
@@ -228,7 +268,7 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
 Where a 肢 is resolved by a single check, a labeled illustrative diagram
-is sufficient — do not force a flowchart. Panel 3（肢ウ）does not use a
+is sufficient — do not force a flowchart. Panel 3（ウ）does not use a
 flowchart at all; instead it uses a side-by-side comparison frame（LEFT:
 地図の区画、RIGHT: 登記記録の地積）because the point of that 肢 is
 distinguishing which of two different things is being discussed, not
@@ -242,7 +282,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -268,7 +316,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申出は義務でなく期限も存在しない
@@ -286,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 義務でも期限もない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 登記官は申出なしでも職権で直せる
@@ -302,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 職権でも訂正できる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地図の区画と登記記録の地積は別問題
@@ -310,7 +358,7 @@ Diagram: A side-by-side comparison frame, NOT a flowchart. LEFT half
 labeled「地図の区画（形・位置）」: a land-plot outline whose boundary line
 visibly zigzags away from a faint dotted outline of the actual site shape,
 with a magnifying-glass icon highlighting the mismatch. RIGHT half
-labeled「登記記録の地積（面積の数値）」: a document showing「100㎡」with a
+labeled「登記記録の地積（面積の数値）」: a document with a label reading「地積 正しい」(no specific number) with a
 green checkmark, matching correctly. A large arrow between the two halves
 is labeled「別々に確認する」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -321,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地積とは別問題
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 他地に影響する訂正は却下される
@@ -339,7 +387,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 他地に影響なら却下
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 共有でも保存行為なら1人で申出可
@@ -361,10 +409,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記規則16条1項・2項・13項6号・15項、民法252条5項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 図, 訂, 正, 申, 出, 義, 務, 限, 録, 積, 却, 隣, 接, 存 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 図, 訂, 正, 申, 出, 義, 務, 限, 録, 積, 却, 存 and any
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 3 is drawn
@@ -406,7 +454,15 @@ composition does not feel cramped in the tall portrait frame.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
@@ -414,6 +470,16 @@ to the kanji 却・下・隣・接・筆・界・確・認・申・出・調・�
 Simplified Chinese look-alike forms with visibly different stroke shapes,
 or are easily confused in this context — always draw the standard
 Japanese (Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -464,12 +530,12 @@ Small credit text in the corner (optional, keep minimal):
 令和7年度 午後の部 第4問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 却・下・隣・接・筆・界・確・認・申・出・調・査・士. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 却・下・隣・接・筆・界・確・認・申・出・調・査・士. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm there are exactly 3 panels, stacked
 vertically and connected by two downward arrows showing the flow from
 Panel 1 to Panel 2 to Panel 3, with no duplicated or missing panels, and
 confirm every heading and caption text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last panel (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last panel). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

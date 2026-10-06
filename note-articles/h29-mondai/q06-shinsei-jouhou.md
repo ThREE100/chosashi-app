@@ -2,33 +2,43 @@
 
 **出題年度：平成29年度　午後の部　第6問**
 
-> 申請情報に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　甲土地から乙土地を分筆する分筆の登記を申請する場合において，甲土地の不動産番号を申請情報の内容としたときは，分筆前の土地の所在，地番，地目及び地積を申請情報の内容とすることを要しない。
->
-> イ　会社法人等番号を有する法人が所有する甲土地から乙土地を分筆する分筆の登記を申請する場合において，当該法人の会社法人等番号を添付情報として提供したときは，当該法人の代表者の氏名を申請情報の内容とすることを要しない。
->
-> ウ　土地の表題部所有者の氏名についての更正の登記を申請する場合には，更正前の氏名を申請情報の内容とすることを要しない。
->
-> エ　土地の表題登記を申請する場合において，土地の所有者であるＡ及びＢの持分が相等しいときは，Ａ及びＢの持分を申請情報の内容とすることを要しない。
->
-> オ　甲土地から乙土地を分筆する分筆の登記を申請する場合において，登録免許税が免除されるときは，免除の根拠となる法令の条項を申請情報の内容としなければならない。
->
+> 申請情報に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　甲土地から乙土地を分筆する分筆の登記を申請する場合において，甲土地の不動産番号を申請情報の内容としたときは，分筆前の土地の所在，地番，地目及び地積を申請情報の内容とすることを要しない。  
+>　  
+> イ　会社法人等番号を有する法人が所有する甲土地から乙土地を分筆する分筆の登記を申請する場合において，当該法人の会社法人等番号を添付情報として提供したときは，当該法人の代表者の氏名を申請情報の内容とすることを要しない。  
+>　  
+> ウ　土地の表題部所有者の氏名についての更正の登記を申請する場合には，更正前の氏名を申請情報の内容とすることを要しない。  
+>　  
+> エ　土地の表題登記を申請する場合において，土地の所有者であるＡ及びＢの持分が相等しいときは，Ａ及びＢの持分を申請情報の内容とすることを要しない。  
+>　  
+> オ　甲土地から乙土地を分筆する分筆の登記を申請する場合において，登録免許税が免除されるときは，免除の根拠となる法令の条項を申請情報の内容としなければならない。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-申請情報とは、登記を申請するときに登記所に伝える「申請書の中身」です。この分野は、「本来は書くべき事項のうち、どれを省略できて、どれは省略できないのか」を条文に沿って正確に押さえられるかが問われます。「省略できる」と書いてあるのに実は省略できない肢が誤りになる、という構造で読むと整理しやすくなります。
+---
+
+申請情報とは、登記を申請するときに登記所に伝える「申請書の中身」です。この分野は、「本来は書くべき事項のうち、どれを省略できて、どれは省略できないのか」を条文に沿って正確に押さえられるかが問われます。
+
+「省略できる」と書いてあるのに実は省略できない肢が誤りになる、という構造で読むと整理しやすくなります。
 
 ### ア：不動産番号を書けば、所在・地番・地目・地積は省略できる
 
-それぞれの不動産には固有の不動産番号（不動産識別事項）が付されています。登記の申請の際にこの不動産番号を申請情報の内容としたときは、土地であれば所在・地番・地目・地積といった、その不動産を特定するための事項の記載を省略することができます（不動産登記令6条1項、不動産登記規則34条2項）。本肢は正しい記述です。
+それぞれの不動産には固有の不動産番号（不動産識別事項）が付されています。
+
+登記の申請の際にこの不動産番号を申請情報の内容としたときは、土地であれば所在・地番・地目・地積といった、その不動産を特定するための事項の記載を省略することができます（不動産登記令6条1項、不動産登記規則34条2項）。本肢は正しい記述です。
 
 **たとえば**、分筆登記を申請するとき、その土地の不動産番号（マイナンバーのような固有の番号）を申請情報に書いておけば、わざわざ「所在・地番・地目・地積」を細かく書き並べなくても、どの土地のことか一意に特定できるので省略が認められるのです。
 
 ### イ：会社法人等番号を提供しても、代表者の氏名は申請情報に書く
 
-会社法人等番号を添付情報として提供すると、資格証明書（会社の登記事項証明書など）の添付を省略できます。しかし、それによって申請情報に記載すべき「代表者の氏名」まで省略できるわけではありません（不動産登記令3条2号）。会社法人等番号で省略できるのはあくまで添付情報のほうであり、申請情報の記載事項とは別物です。したがって「代表者の氏名を申請情報の内容とすることを要しない」とする本肢は誤りです。
+会社法人等番号を添付情報として提供すると、資格証明書（会社の登記事項証明書など）の添付を省略できます。しかし、それによって申請情報に記載すべき「代表者の氏名」まで省略できるわけではありません（不動産登記令3条2号）。
 
-**たとえば**、株式会社が分筆登記を申請するとき、会社法人等番号を提供すれば「会社の登記事項証明書」を別途添付しなくて済みます。しかし、それとは別に、申請書には「代表取締役○○」という代表者の氏名をきちんと書かなければなりません。番号を出したから代表者名を省ける、という話ではないのです。
+会社法人等番号で省略できるのはあくまで添付情報のほうであり、申請情報の記載事項とは別物です。したがって「代表者の氏名を申請情報の内容とすることを要しない」とする本肢は誤りです。
+
+**たとえば**、株式会社が分筆登記を申請するとき、会社法人等番号を提供すれば「会社の登記事項証明書」を別途添付しなくて済みます。
+
+しかし、それとは別に、申請書には「代表取締役○○」という代表者の氏名をきちんと書かなければなりません。番号を出したから代表者名を省ける、という話ではないのです。
 
 ### ウ：氏名の更正登記では、更正前の氏名を申請情報とすることを要しない
 
@@ -38,7 +48,9 @@
 
 ### エ：持分が相等しくても、持分は申請情報に記載する
 
-所有者が2人以上いる場合に表題登記を申請するときは、その持分を申請情報の内容として記載しなければなりません（不動産登記令3条9号）。これは、たとえ持分が相等しい場合であっても同じで、持分の記載は必要です。「相等しいときは要しない」とする本肢は誤りです。
+所有者が2人以上いる場合に表題登記を申請するときは、その持分を申請情報の内容として記載しなければなりません（不動産登記令3条9号）。
+
+これは、たとえ持分が相等しい場合であっても同じで、持分の記載は必要です。「相等しいときは要しない」とする本肢は誤りです。
 
 **たとえば**、ＡさんとＢさんが2分の1ずつの持分で1つの土地を新たに取得し、表題登記を申請するとします。「どうせ半分ずつだから書かなくても分かるだろう」とはならず、申請情報には「持分2分の1」ときちんと書かなければなりません。
 
@@ -47,6 +59,8 @@
 登録免許税が免除される場合には、その免除の根拠となる法令の条項を申請情報の内容としなければなりません。たとえば「登録免許税　登録免許税法第5条第10号」のように記載します。本肢は正しい記述です。
 
 **たとえば**、分筆登記で登録免許税がかからないケースでも、ただ「非課税です」と主張するだけでは足りません。「どの法律の何条によって免除されるのか」という根拠条項を申請情報に明記して、税金がかからない理由をはっきり示す必要があるのです。
+
+---
 
 ### まとめ
 
@@ -108,13 +122,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 号・記・登・所・氏・更・正・略・持・分・番・法・代・表・者・条・項・許・税・証 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -184,20 +216,20 @@ these 5 headings):
 5. 免税でも根拠条項を明記する
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢イは「会社法人等番号を提供すると省略できるのは添付情報か、申請情報の記載事項か」という、そもそも異なる2つの場面を見分ける対比枠型にした。肢ア・エは条件の有無やその条件が結論に影響するかを問う簡潔な決定木、肢ウ・オは申請書の記載欄をそのまま図解する単純な確認図とし、この記事の5肢は共通の決定木を持たないため、各パネルを独立に設計した。
+イは「会社法人等番号を提供すると省略できるのは添付情報か、申請情報の記載事項か」という、そもそも異なる2つの場面を見分ける対比枠型にした。ア・エは条件の有無やその条件が結論に影響するかを問う簡潔な決定木、ウ・オは申請書の記載欄をそのまま図解する単純な確認図とし、この記事の5肢は共通の決定木を持たないため、各パネルを独立に設計した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -236,7 +268,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -266,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 不動産番号があれば所在等は省略可
@@ -284,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 番号があれば省略可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 会社法人等番号でも代表者名は必須
@@ -304,7 +340,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代表者名は省略不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 更正前の氏名は記載しなくてよい
@@ -320,15 +356,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 更正後のみで足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分は同じでも必ず記載する
-Diagram: A decision-tree flowchart showing that the outcome does not
-change either way. Diamond node:「共有者Ａ・Ｂの持分は相等しいか？」はい
-branch と いいえ branch の両方の矢印が、同じ1つの結論ノード「持分（例：
-各2分の1）は申請情報に記載する必要がある」に合流する（ループ矢印ではな
-く、両方とも新しい同じ結論ノードへ向かう）。「相等しいから省略できる」
+Diagram: A simple check flow (no diamond). A start box「共有者Ａ・Ｂが表題部所有者
+になる」から矢印で結論ノード「持分（例：各2分の1）は申請情報に記載する必要が
+ある」へ進む。開始ボックスの横に、薄い点線の札「持分が相等しいかどうか：問わ
+ない」を添える（ひし形にはしない）。「相等しいから省略できる」
 という吹き出しには大きな赤い「✕」が重ねられる。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、共有者Ａ・Ｂの持分が申請情報の記載事項であることを確認します。
@@ -338,7 +373,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分は必ず記載
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 免税でも根拠条項の記載は必要
@@ -363,7 +398,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
 Chinese variant, paying special attention to 号・記・登・所・氏・更・正・
-略・持・分・番・法・代・表・者・条・項・許・税・証. If any character
+略・持・分・番・法・代・表・者・条・項・許・税・証. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also confirm that no character
 outside hiragana, katakana, Jōyō kanji, and the Arabic numerals explicitly

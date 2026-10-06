@@ -34,6 +34,9 @@ export default defineConfig({
       workbox: {
         // アプリシェル・データのみ起動時キャッシュ（35MBの書式図面は除外）
         globPatterns: ['**/*.{js,css,html,svg,png,json,woff2}'],
+        // 同じサイトの /anaume/ は別アプリ(条文穴埋め)なので、このアプリの画面で代わりに開かない
+        globIgnores: ['anaume/**'],
+        navigateFallbackDenylist: [/\/anaume\//],
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         runtimeCaching: [
           {

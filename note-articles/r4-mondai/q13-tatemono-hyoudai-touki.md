@@ -2,31 +2,37 @@
 
 **出題年度：令和4年度　午後の部　第13問**
 
-> 建物の表題登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　区分建物でない建物の表題登記を申請する場合には、建物の名称を申請情報の内容とすることはできない。
->
-> イ　Aが所有する土地上に建物が新築された場合において、当該建物の所有者であるBが当該建物の表題登記を申請するときは、Bは、当該土地の借地権を有していることを証する情報を提供しなければならない。
->
-> ウ　共用部分である旨の登記がある建物について、共用部分である旨を定めた規約を廃止したときは、当該規約の廃止後に当該建物の所有権を取得した者は、その所有権の取得の日から1か月以内に、当該建物の表題登記を申請しなければならない。
->
-> エ　新築した区分建物でない建物をA及びBが共有する場合には、Aは、単独で、A及びBを表題部所有者とする当該建物の表題登記を申請することができる。
->
-> オ　Aが区分建物である甲建物を新築した後、AがBに甲建物を売却した場合には、甲建物の表題登記の申請は、A及びBが共同してしなければならない。
->
+> 建物の表題登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　区分建物でない建物の表題登記を申請する場合には、建物の名称を申請情報の内容とすることはできない。  
+>　  
+> イ　Aが所有する土地上に建物が新築された場合において、当該建物の所有者であるBが当該建物の表題登記を申請するときは、Bは、当該土地の借地権を有していることを証する情報を提供しなければならない。  
+>　  
+> ウ　共用部分である旨の登記がある建物について、共用部分である旨を定めた規約を廃止したときは、当該規約の廃止後に当該建物の所有権を取得した者は、その所有権の取得の日から1か月以内に、当該建物の表題登記を申請しなければならない。  
+>　  
+> エ　新築した区分建物でない建物をA及びBが共有する場合には、Aは、単独で、A及びBを表題部所有者とする当該建物の表題登記を申請することができる。  
+>　  
+> オ　Aが区分建物である甲建物を新築した後、AがBに甲建物を売却した場合には、甲建物の表題登記の申請は、A及びBが共同してしなければならない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
+
+---
 
 建物の表題登記は、建物を初めて登記記録に載せる手続です。この問題では、①申請情報に何を書くか、②誰が申請できるか（申請人・申請義務）、③添付情報は何が必要か、という3つの角度が問われています。
 
 ### ア：区分建物でない建物でも、名称があれば申請情報の内容にできる
 
-建物の名称を付すかどうかは所有者の任意ですが、建物の名称がある場合は、それを登記する必要があります（不動産登記法44条1項4号）。したがって、区分建物でない建物でも、名称を申請情報の内容とすることができます。本肢は「名称を申請情報の内容とすることはできない」としており誤りです。なお、非区分建物の名称は、表題部の所在欄に記録されます。
+建物の名称を付すかどうかは所有者の任意ですが、建物の名称がある場合は、それを登記する必要があります（不動産登記法44条1項4号）。
+
+したがって、区分建物でない建物でも、名称を申請情報の内容とすることができます。本肢は「名称を申請情報の内容とすることはできない」としており誤りです。なお、非区分建物の名称は、表題部の所在欄に記録されます。
 
 **たとえば**、「◯◯ビル」といった名称のある一棟の事務所ビル（区分建物でない建物）を表題登記するとき、その名称を申請情報に含めることができ、名称があるなら登記に反映させる必要があります。
 
 ### イ：他人の土地上の建物でも、借地権の証明情報は必須ではない
 
-建物の表題登記を申請する際、表題部所有者となる者の所有権を証する情報として、敷地所有者による証明情報を添付することはできますが、必ず提供しなければならないものではありません。本肢は「借地権を有していることを証する情報を提供しなければならない」としており誤りです。
+建物の表題登記を申請する際、表題部所有者となる者の所有権を証する情報として、敷地所有者による証明情報を添付することはできますが、必ず提供しなければならないものではありません。
+
+本肢は「借地権を有していることを証する情報を提供しなければならない」としており誤りです。
 
 **たとえば**、Aさんの土地の上にBさんが建てた建物をBさん名義で表題登記するとき、Bさんは借地権を証明する書類を必ず用意しなければならないわけではなく、他の資料で建物の所有権を示せば足ります。
 
@@ -44,9 +50,17 @@
 
 ### オ：区分建物の転売後も、表題登記は原始取得者Aが単独で申請
 
-区分建物を新築したときは、所有者は1か月以内にその表題登記を申請しなければなりません（不動産登記法47条1項）。区分建物の場合、新築した所有者（原始取得者）だけに申請義務・申請適格が認められており、売買等によって区分建物を取得した転得者（特定承継人）には申請適格がありません。なお、原始取得者が表題登記の前に死亡するなどした場合には、相続人その他の一般承継人が、被承継人（原始取得者）を表題部所有者とする表題登記を申請することができます（同条2項）。よって本肢の場合、Aから売買によって甲建物を取得したにすぎないBには申請適格がなく、表題登記はAが単独で申請し、A・Bの共同申請ではありません。本肢は誤りです。
+区分建物を新築したときは、所有者は1か月以内にその表題登記を申請しなければなりません（不動産登記法47条1項）。
+
+区分建物の場合、新築した所有者（原始取得者）だけに申請義務・申請適格が認められており、売買等によって区分建物を取得した転得者（特定承継人）には申請適格がありません。
+
+なお、原始取得者が表題登記の前に死亡するなどした場合には、相続人その他の一般承継人が、被承継人（原始取得者）を表題部所有者とする表題登記を申請することができます（同条2項）。
+
+よって本肢の場合、Aから売買によって甲建物を取得したにすぎないBには申請適格がなく、表題登記はAが単独で申請し、A・Bの共同申請ではありません。本肢は誤りです。
 
 **たとえば**、Aさんが新築したマンションの一室（区分建物）を、表題登記前にBさんへ売った場合でも、表題登記を申請するのは原始取得者のAさんです。その後、Bさんは自分名義の所有権保存登記を続けて申請することになります。
+
+---
 
 ### まとめ
 
@@ -67,10 +81,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝法44条1項4号、イ＝所有権証明情報は任意添付、ウ＝法58条7項、エ＝民252条5項・令3条9号、オ＝法47条1項・2項）は、データベースのexplanationフィールドに記載のものを転記しています。なお、建物の名称の条文番号は、explanation欄の「法44条1項4号」（現行の不動産登記法の条文と一致）を採用しました（kaisetsu_plus.jsonでは「6号」と記載されていましたが、現行条文に合わせて4号としています）。
-- 【2026-08-03修正】肢エの根拠条文「民法252条ただし書」は、令和5年4月1日施行の共有制度見直し（民法等の一部を改正する法律）により、保存行為の規定がただし書から独立した第5項（「各共有者は、前各項の規定にかかわらず、保存行為をすることができる。」）に移動しています。内容（共有者の一人が単独で保存行為＝表題登記の申請ができること）自体に変更はありませんが、条文引用を現行法に合わせて「民法252条5項」に修正しました（本文中の肢エ解説、および本項目を修正）。なお不動産登記法44条1項4号・58条7項・47条1項2項の各引用は、いずれも現行条文どおりであることを確認済みです。
-- 【2026-08-04修正】肢オの解説は「転得者や相続人などの一般承継人には申請適格がありません」としていましたが、これは不動産登記法47条2項の内容と矛盾するため修正しました。同項は「区分建物である建物を新築した場合において、その所有者について相続その他の一般承継があったときは、相続人その他の一般承継人も、被承継人を表題部所有者とする当該建物についての表題登記を申請することができる。」と定めており、相続人その他の一般承継人には（被承継人＝原始取得者を表題部所有者とする形での）申請適格が認められています。申請適格がないのは、本肢のBのように売買等（特定承継）によって区分建物を取得した転得者です。本文中の肢オ解説を、転得者と相続人（一般承継人）を区別する内容に修正しました。他の引用（法44条1項4号、法58条7項、民法252条5項、令3条9号）はいずれも現行条文の文言と一致することを確認済みです（ローカル法令データベース `laws/fudousan-touki-hou.md`・`laws/minpou-1-soukyoku-bukken.md`・`laws/fudousan-touki-rei.md` にて照合、2026-08-04）。
+- 【2026-08-03修正】エの根拠条文「民法252条ただし書」は、令和5年4月1日施行の共有制度見直し（民法等の一部を改正する法律）により、保存行為の規定がただし書から独立した第5項（「各共有者は、前各項の規定にかかわらず、保存行為をすることができる。」）に移動しています。内容（共有者の一人が単独で保存行為＝表題登記の申請ができること）自体に変更はありませんが、条文引用を現行法に合わせて「民法252条5項」に修正しました（本文中のエ解説、および本項目を修正）。なお不動産登記法44条1項4号・58条7項・47条1項2項の各引用は、いずれも現行条文どおりであることを確認済みです。
+- 【2026-08-04修正】オの解説は「転得者や相続人などの一般承継人には申請適格がありません」としていましたが、これは不動産登記法47条2項の内容と矛盾するため修正しました。同項は「区分建物である建物を新築した場合において、その所有者について相続その他の一般承継があったときは、相続人その他の一般承継人も、被承継人を表題部所有者とする当該建物についての表題登記を申請することができる。」と定めており、相続人その他の一般承継人には（被承継人＝原始取得者を表題部所有者とする形での）申請適格が認められています。申請適格がないのは、本肢のBのように売買等（特定承継）によって区分建物を取得した転得者です。本文中のオ解説を、転得者と相続人（一般承継人）を区別する内容に修正しました。他の引用（法44条1項4号、法58条7項、民法252条5項、令3条9号）はいずれも現行条文の文言と一致することを確認済みです（ローカル法令データベース `laws/fudousan-touki-hou.md`・`laws/minpou-1-soukyoku-bukken.md`・`laws/fudousan-touki-rei.md` にて照合、2026-08-04）。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- **重複出題チェック（2026-08-16実施）**：takuitsu.jsonを検索し、他年度で本問と同一・類似の論点が出題されていないか確認しました。肢ウ（共用部分である旨を定めた規約の廃止後に所有権を取得した者は、その取得日から1か月以内に表題登記を申請しなければならない、という論点）は、平成17年度第19問ウ・平成21年度第10問イ・平成22年度第6問オ・平成24年度第12問ア・平成27年度第17問オ・平成28年度第17問オなど、複数年度でほぼ同一の文言・論点により繰り返し出題されている頻出論点であることを確認しました。肢オ（区分建物の表題登記は原始取得者のみに申請適格があり、転得者には申請適格がなく、相続人その他一般承継人には認められる、という論点）も、平成18年度第5問イ・平成20年度第14問エ・平成29年度第17問オ・平成30年度第12問オ・令和5年度第13問ア・オ・令和6年度第11問ウなど、類似の切り口で繰り返し出題されている頻出論点です。肢ア（非区分建物でも名称は登記の対象になる）についても、令和5年度第13問ウ（非区分建物の名称が表題部のどの欄に記録されるか）など、関連論点が別年度の記事で扱われています。いずれも本記事とは別の独立した過去問記事の対象であり、本記事の各肢の正誤判定・根拠には影響しません。
+- **重複出題チェック（2026-08-16実施）**：takuitsu.jsonを検索し、他年度で本問と同一・類似の論点が出題されていないか確認しました。ウ（共用部分である旨を定めた規約の廃止後に所有権を取得した者は、その取得日から1か月以内に表題登記を申請しなければならない、という論点）は、平成17年度第19問ウ・平成21年度第10問イ・平成22年度第6問オ・平成24年度第12問ア・平成27年度第17問オ・平成28年度第17問オなど、複数年度でほぼ同一の文言・論点により繰り返し出題されている頻出論点であることを確認しました。オ（区分建物の表題登記は原始取得者のみに申請適格があり、転得者には申請適格がなく、相続人その他一般承継人には認められる、という論点）も、平成18年度第5問イ・平成20年度第14問エ・平成29年度第17問オ・平成30年度第12問オ・令和5年度第13問ア・オ・令和6年度第11問ウなど、類似の切り口で繰り返し出題されている頻出論点です。ア（非区分建物でも名称は登記の対象になる）についても、令和5年度第13問ウ（非区分建物の名称が表題部のどの欄に記録されるか）など、関連論点が別年度の記事で扱われています。いずれも本記事とは別の独立した過去問記事の対象であり、本記事の各肢の正誤判定・根拠には影響しません。
 - **最新法令チェック**：本問の各肢（不動産登記法44条1項4号・47条1項2項・58条7項、不動産登記令3条9号、民法252条5項）に関わる直近の法改正は、上記【2026-08-03修正】で反映済みの令和3年民法等改正（共有制度見直し、令和5年4月1日施行）のみであることを確認しました。相続登記義務化・住所変更登記義務化（令和6年4月1日施行、令和8年4月1日施行）は、いずれも既存不動産の相続による所有権移転登記・住所等の変更登記に関する義務であり、本問が扱う新築建物の表題登記（区分建物・非区分建物）、共用部分の規約廃止、共有者による保存行為には直接の影響がないことを確認しました。
 
 ---
@@ -111,12 +125,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・建・物・登・記・所 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -195,18 +227,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（建物の名称欄、所有権を証する情報の中身、規約廃止から取得までのタイムライン、共有者の持分と申請人数の区別、原始取得者と転得者・相続人の分岐）を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに判定の「順番」を明示する「着眼点」の短い説明文を添えている。建物の表題登記の問題を解くとき、まず何を図に落とし込めば正誤判定にたどり着けるかの練習素材として使う。
 
@@ -254,7 +286,15 @@ required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -280,7 +320,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -290,9 +330,10 @@ icon with a wooden nameplate reading "◯◯ビル" attached above the
 entrance. Above the building, draw a small neutral label box reading
 「区分建物でない」with no crossed-out mark, to show that this fact by
 itself does not block anything. Draw an arrow from the nameplate to a
-registration document icon labeled「申請情報」where the same characters
-「◯◯ビル」are being written into a field labeled「建物の名称欄」, with a
-green checkmark next to that field.
+registration document icon labeled「申請情報」where the same characters「◯◯ビル」are being written, with a green
+checkmark next to it. Beside it, a small registry-page icon shows the name
+recorded together with the location in the field labeled「所在欄」(a
+non-区分建物 record has NO separate「建物の名称欄」— do not draw one).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず建物が区分建物かどうかではなく、名称が付いているかどうかを確認しま
 す。名称があれば、区分建物でなくても申請情報の内容として記載します。
@@ -300,7 +341,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 名称も登記対象
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 借地権証明でなく所有権証明を先に見る
@@ -319,7 +360,7 @@ ownership, not a separate mandatory requirement.
 Conclusion tag (blue, 5-15 Japanese characters):
 所有権証明で足りる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 規約廃止と取得の先後関係を図にする
@@ -338,7 +379,7 @@ moment the regulation was abolished.
 Conclusion tag (blue, 5-15 Japanese characters):
 取得日から1か月以内
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分の記載と申請人数は別と見る
@@ -359,7 +400,7 @@ both owners must jointly apply.
 Conclusion tag (blue, 5-15 Japanese characters):
 単独申請でよい
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 取得の経緯で申請適格の有無が変わる
@@ -390,10 +431,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 （エ）／不動産登記法47条1項・2項（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 号, 権, 地, 建, 物, 登, 記, 所, 請, 共, 続, 転, 産, 継, 単,
-適, 廃, 経, 緯, 約. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
+適, 廃, 経, 緯, 約. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 panel count equals 5 exactly, badge numbers run 1-5 continuously, there
 is no intro illustration or paragraph block between the header and the
 panels, that every multi-condition 肢 is drawn as an actual flowchart

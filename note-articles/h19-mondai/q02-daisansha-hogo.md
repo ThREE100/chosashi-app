@@ -2,51 +2,89 @@
 
 **出題年度：平成19年度　午前の部　第2問**
 
-> 次のアからオまでの事例のうち、判例の趣旨に照らしＡがＣに対して（Ｄが登場する事例ではＤに対して）不動産又は動産の所有権を主張することができるものの組合せは、後記１から５までのうちどれか。
->
-> ア　Ａは、Ｂにだまされて自己所有の不動産をＢに売ったが、Ｂの詐欺に気付き、Ｂに対して売買契約を取り消すとの意思表示をした。しかし、取消しまでの間に、Ｂが善意のＣに当該不動産を売ってしまっていた。
->
-> イ　Ａは、Ｂに強迫されて自己所有の不動産をＢに売ったが、強迫状態を脱し、Ｂに対して売買契約を取り消すとの意思表示をした。しかし、取消しまでの間に、Ｂが善意のＣに当該不動産を売ってしまっていた。
->
-> ウ　Ａは、自己所有の不動産の登記がＢの名義になっていることを知りながら、この状態を事実上容認し、長期間放置していた。Ｂは、当該不動産の登記がＢの名義になっていることを利用して、善意のＣに当該不動産を売ってしまった。
->
-> エ　Ａは、Ｂ所有の不動産をＢから購入したが、いまだ所有権の移転の登記を経由していなかった。Ｃは、この事情を十分に知りつつ専らＡを害する目的で、当該不動産をＢから購入して所有権の移転の登記を完了し、さらに、善意のＤに当該不動産を転売し、Ｄへの所有権の移転の登記をした。
->
-> オ　Ａは、Ｂ所有の動産をＢから買ったが、後日持ち帰ることにして、当該動産をＢに保管してもらっていた。しかし、Ｂは、善意のＣにも当該動産を売ってしまい、Ｃの依頼を受けてＣのために当該動産を保管していた。
->
+> 次のアからオまでの事例のうち、判例の趣旨に照らしＡがＣに対して（Ｄが登場する事例ではＤに対して）不動産又は動産の所有権を主張することができるものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　Ａは、Ｂにだまされて自己所有の不動産をＢに売ったが、Ｂの詐欺に気付き、Ｂに対して売買契約を取り消すとの意思表示をした。しかし、取消しまでの間に、Ｂが善意のＣに当該不動産を売ってしまっていた。  
+>　  
+> イ　Ａは、Ｂに強迫されて自己所有の不動産をＢに売ったが、強迫状態を脱し、Ｂに対して売買契約を取り消すとの意思表示をした。しかし、取消しまでの間に、Ｂが善意のＣに当該不動産を売ってしまっていた。  
+>　  
+> ウ　Ａは、自己所有の不動産の登記がＢの名義になっていることを知りながら、この状態を事実上容認し、長期間放置していた。Ｂは、当該不動産の登記がＢの名義になっていることを利用して、善意のＣに当該不動産を売ってしまった。  
+>　  
+> エ　Ａは、Ｂ所有の不動産をＢから購入したが、いまだ所有権の移転の登記を経由していなかった。Ｃは、この事情を十分に知りつつ専らＡを害する目的で、当該不動産をＢから購入して所有権の移転の登記を完了し、さらに、善意のＤに当該不動産を転売し、Ｄへの所有権の移転の登記をした。  
+>　  
+> オ　Ａは、Ｂ所有の動産をＢから買ったが、後日持ち帰ることにして、当該動産をＢに保管してもらっていた。しかし、Ｂは、善意のＣにも当該動産を売ってしまい、Ｃの依頼を受けてＣのために当該動産を保管していた。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-民法総則・物権の頻出テーマである「対抗要件（自分の権利を、登記などの手段によって第三者にも主張できるようにするための要件）」と「善意の第三者の保護」。似たような場面設定でも、根拠となる制度がまったく違うため、条文と判例をひとつずつ丁寧に切り分けて理解する必要があります。ア〜オの5つの事例を順番に検討していきましょう。
+---
+
+民法総則・物権の頻出テーマである「対抗要件（自分の権利を、登記などの手段によって第三者にも主張できるようにするための要件）」と「善意の第三者の保護」。
+
+似たような場面設定でも、根拠となる制度がまったく違うため、条文と判例をひとつずつ丁寧に切り分けて理解する必要があります。ア〜オの5つの事例を順番に検討していきましょう。
 
 ### ア：詐欺による取消し前に登場した善意の第三者には対抗できない
 
-民法96条3項は「前二項の規定による詐欺による意思表示の取消しは、善意でかつ過失がない第三者に対抗することができない」と定めています。取消しの意思表示をする前にすでに利害関係に入っていた善意（かつ無過失）の第三者は、たとえ後からAが取消しをしても保護され、Aはその第三者に所有権を主張できません。
+民法96条3項は「前二項の規定による詐欺による意思表示の取消しは、善意でかつ過失がない第三者に対抗することができない」と定めています。
 
-**たとえば**、Aが「この土地は将来必ず値上がりする」とBにだまされて売却したものの、だまされたことに気づいて取消しの意思表示をしたとします。ところが、Aが取消しを伝えるより前に、Bはすでにこの事情を知らないCに転売していました。この場合、Cは詐欺の事実を知らずに取引に入った善意の第三者にあたるため、Aは取消しの効果をCに対抗できず、Cから土地を取り戻すことはできません。
+取消しの意思表示をする前にすでに利害関係に入っていた善意（かつ無過失）の第三者は、たとえ後からAが取消しをしても保護され、Aはその第三者に所有権を主張できません。
+
+**たとえば**、Aが「この土地は将来必ず値上がりする」とBにだまされて売却したものの、だまされたことに気づいて取消しの意思表示をしたとします。
+
+ところが、Aが取消しを伝えるより前に、Bはすでにこの事情を知らないCに転売していました。この場合、Cは詐欺の事実を知らずに取引に入った善意の第三者にあたるため、Aは取消しの効果をCに対抗できず、Cから土地を取り戻すことはできません。
 
 ### イ：強迫による取消しは、善意の第三者にも対抗できる
 
-96条3項が保護しているのは「詐欺」による取消しの場合の第三者だけで、「強迫」による取消しには適用されません。強迫を受けた者には詐欺を受けた者のような落ち度（帰責性）が認められにくいためです。強迫による取消しには第三者保護の例外規定がないので、民法121条の原則どおり「取り消された行為は、初めから無効であったものとみなす」という遡及効がそのまま働きます。取消し前にBから買ったCが善意であっても、Bはそもそも遡って無権利者だったことになるため、Cも保護されません。
+96条3項が保護しているのは「詐欺」による取消しの場合の第三者だけで、「強迫」による取消しには適用されません。強迫を受けた者には詐欺を受けた者のような落ち度（帰責性）が認められにくいためです。
 
-**たとえば**、Aが暴力団関係者Bから「言うことを聞かないとひどい目に遭わせる」と脅されて土地を売らされ、後日その恐怖から脱して取消しの意思表示をしたとします。取消しの前に、Bが事情を知らないCに転売していたとしても、詐欺の場合とは異なり、Aは取消しの効果をCにも主張でき、土地の所有権をCから取り戻すことができます。
+強迫による取消しには第三者保護の例外規定がないので、民法121条の原則どおり「取り消された行為は、初めから無効であったものとみなす」という遡及効がそのまま働きます。
+
+取消し前にBから買ったCが善意であっても、Bはそもそも遡って無権利者だったことになるため、Cも保護されません。
+
+**たとえば**、Aが暴力団関係者Bから「言うことを聞かないとひどい目に遭わせる」と脅されて土地を売らされ、後日その恐怖から脱して取消しの意思表示をしたとします。
+
+取消しの前に、Bが事情を知らないCに転売していたとしても、詐欺の場合とは異なり、Aは取消しの効果をCにも主張でき、土地の所有権をCから取り戻すことができます。
 
 ### ウ：不実登記を知りながら放置していると、善意の第三者に対抗できない（94条2項類推適用）
 
-民法94条2項は、本来は相手方と通謀してした虚偽の意思表示（1項）の無効を、善意の第三者に対抗できないと定める規定です。ただし判例は、通謀そのものがなくても、真の権利者が自己の不動産について不実の登記（他人名義の登記）がされていることを知りながら、これを明示的・黙示的に承認し長期間放置していたような事案について、94条2項を類推適用し、その不実登記を信頼した善意の第三者を保護しています（意思外形対応型の判例）。
+民法94条2項は、本来は相手方と通謀してした虚偽の意思表示（1項）の無効を、善意の第三者に対抗できないと定める規定です。
 
-**たとえば**、Aが自分名義にすべき土地の登記が、なぜかBの名義になっていることに気づきながら「まあいいか」と特に是正措置をとらずに何年も放置していたとします。その間にBが、自分が登記名義人であることを利用して事情を知らないCに売却してしまった場合、Aは自らの帰責性（不実の外観を放置した点）を理由に、Cに対して「本当の所有者は自分だ」と対抗することができません。
+ただし判例は、通謀そのものがなくても、真の権利者が自己の不動産について不実の登記（他人名義の登記）がされていることを知りながら、これを明示的・黙示的に承認し長期間放置していたような事案について、94条2項を類推適用し、その不実登記を信頼した善意の第三者を保護しています（意思外形対応型の判例）。
+
+**たとえば**、Aが自分名義にすべき土地の登記が、なぜかBの名義になっていることに気づきながら「まあいいか」と特に是正措置をとらずに何年も放置していたとします。
+
+その間にBが、自分が登記名義人であることを利用して事情を知らないCに売却してしまった場合、Aは自らの帰責性（不実の外観を放置した点）を理由に、Cに対して「本当の所有者は自分だ」と対抗することができません。
 
 ### エ：背信的悪意者からの善意の転得者には対抗できない（相対的構成）
 
-民法177条は、不動産の物権変動は登記をしなければ第三者に対抗できないと定めていますが、判例上、自由競争の範囲を逸脱して信義則に反する「背信的悪意者」は、177条の保護を受ける「第三者」から除外されます。もっとも、背信的悪意者Cからさらに買い受けた転得者Dについては、D自身が独自に背信的悪意者と評価されない限り、Dは177条の「第三者」として保護されるとするのが判例です（相対的構成）。背信的悪意者を第三者から除外する扱いは、あくまでその背信的悪意者個人とAとの関係で登記の欠缺の主張を制限するものであり、B・C間の売買自体を無効にするものではないため、この理屈がCからDへとそのまま連鎖するわけではありません。
+民法177条は、不動産の物権変動は登記をしなければ第三者に対抗できないと定めていますが、判例上、自由競争の範囲を逸脱して信義則に反する「背信的悪意者」は、177条の保護を受ける「第三者」から除外されます。
 
-**たとえば**、Aが未登記のままBから土地を買ったのを知ったCが、もっぱらAを困らせる目的でBからその土地を横取りするように買い受けて先に登記を済ませてしまいました。この段階では、CはAに対して「登記がないから対抗できない」とは言えません（Cが背信的悪意者だから）。ところが、Cがこの土地を、事情を何も知らない善意のDに転売し、Dが登記も済ませたとします。この場合、Dは自分自身が背信的悪意者でない限り177条の第三者として保護されるため、Aは未登記のままではDに所有権を主張できません。
+もっとも、背信的悪意者Cからさらに買い受けた転得者Dについては、D自身が独自に背信的悪意者と評価されない限り、Dは177条の「第三者」として保護されるとするのが判例です（相対的構成）。
+
+背信的悪意者を第三者から除外する扱いは、あくまでその背信的悪意者個人とAとの関係で登記の欠缺の主張を制限するものであり、B・C間の売買自体を無効にするものではないため、この理屈がCからDへとそのまま連鎖するわけではありません。
+
+**たとえば**、Aが未登記のままBから土地を買ったのを知ったCが、もっぱらAを困らせる目的でBからその土地を横取りするように買い受けて先に登記を済ませてしまいました。
+
+この段階では、CはAに対して「登記がないから対抗できない」とは言えません（Cが背信的悪意者だから）。ところが、Cがこの土地を、事情を何も知らない善意のDに転売し、Dが登記も済ませたとします。
+
+この場合、Dは自分自身が背信的悪意者でない限り177条の第三者として保護されるため、Aは未登記のままではDに所有権を主張できません。
 
 ### オ：先に占有改定で対抗要件を備えていれば、後から買った善意の第三者にも対抗できる
 
-動産物権変動の対抗要件を定める民法178条の「引渡し」には、現実の引渡しだけでなく、占有改定（183条、譲渡人が以後は譲受人のために占有する意思を示すことで足りる観念的な引渡し）も含まれます。したがって、Bから動産を買ったAが、目的物をそのままBに預けて占有改定による引渡しを受けていれば、その時点でAはすでに対抗要件を備えたことになります。一方、判例は、占有改定による占有取得は外観上従来の占有状態に変更を生じさせないことから、即時取得（192条、取引行為によって平穏かつ公然に動産の占有を始めた善意無過失の者を保護する制度）の要件である「占有を始めた」には当たらないというのが判例の立場です。したがって、後からBと取引した善意のCは、占有改定を受けただけでは即時取得によって権利を取得することができません。
+動産物権変動の対抗要件を定める民法178条の「引渡し」には、現実の引渡しだけでなく、占有改定（183条、譲渡人が以後は譲受人のために占有する意思を示すことで足りる観念的な引渡し）も含まれます。
 
-**たとえば**、Aが骨董品をBから買い、「発送はまた今度でいいので、それまでBさんの店で預かっておいてください」と伝えたとします（占有改定）。この時点でAは民法178条の対抗要件をすでに備えています。ところが後日、Bがこの骨董品の存在を忘れたふりをして、事情を知らないCにも同じ骨董品を売り、Cから「引き続き店で預かっておいて」と頼まれてBが保管を続けていたとします。Cもまた占有改定を受けたにすぎず、外観上は何も変わっていないため即時取得は成立しません。先に対抗要件を備えたAが、Cに対して所有権を主張できます。
+したがって、Bから動産を買ったAが、目的物をそのままBに預けて占有改定による引渡しを受けていれば、その時点でAはすでに対抗要件を備えたことになります。
+
+一方、判例は、占有改定による占有取得は外観上従来の占有状態に変更を生じさせないことから、即時取得（192条、取引行為によって平穏かつ公然に動産の占有を始めた善意無過失の者を保護する制度）の要件である「占有を始めた」には当たらないというのが判例の立場です。
+
+したがって、後からBと取引した善意のCは、占有改定を受けただけでは即時取得によって権利を取得することができません。
+
+**たとえば**、Aが骨董品をBから買い、「発送はまた今度でいいので、それまでBさんの店で預かっておいてください」と伝えたとします（占有改定）。この時点でAは民法178条の対抗要件をすでに備えています。
+
+ところが後日、Bがこの骨董品の存在を忘れたふりをして、事情を知らないCにも同じ骨董品を売り、Cから「引き続き店で預かっておいて」と頼まれてBが保管を続けていたとします。
+
+Cもまた占有改定を受けたにすぎず、外観上は何も変わっていないため即時取得は成立しません。先に対抗要件を備えたAが、Cに対して所有権を主張できます。
+
+---
 
 ### まとめ
 
@@ -111,7 +149,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -213,8 +259,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -229,7 +275,7 @@ edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -253,7 +299,7 @@ written on them, はい/いいえ (or ○/✕) branch arrows, and a final
 conclusion node for every branch that leads to a real outcome discussed in
 the article. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 1
-and 2 (肢ア・肢イ) share one root decision — 取消しの原因は詐欺か強迫か —
+and 2 (ア・イ) share one root decision — 取消しの原因は詐欺か強迫か —
 and both panels must draw the same two-branch layout from that root;
 render the branch relevant to that panel's own 肢 in full color with a
 thick highlighted border, and render the other, unrelated branch in a
@@ -311,7 +357,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in red containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -341,7 +387,7 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 善意無過失なら対抗不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 強迫取消しの効力は善意者にも及ぶ
@@ -349,7 +395,7 @@ Diagram: The same two-box comparison layout as Panel 1, with the same
 root diamond node 取消しの原因は詐欺か強迫か drawn with a thick
 highlighted border and full color. This time the right box, labeled 強迫
 による取消し, is drawn with a thick highlighted border and full color
-(since this panel is about 肢イ): a menacing figure B threatens person A
+(since this panel is about イ): a menacing figure B threatens person A
 (a speech bubble with an exclamation mark and a small fist icon, labeled
 「強迫」) into handing over a land document, B then sells the same
 document to person C, and a large rewind arrow labeled 遡及効 sweeps back
@@ -369,7 +415,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遡及効でCにも対抗可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in red containing the number 3.
 Heading (bold, ONE line):
 不実登記を知り放置すると対抗不可
@@ -397,7 +443,7 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 知って放置は対抗不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in red containing the number 4.
 Heading (bold, ONE line):
 背信的悪意者の評価はDへ及ばない
@@ -428,7 +474,7 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 評価はDに連鎖しない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 占有改定の先後で対抗力が決まる
@@ -469,9 +515,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 詐, 欺, 強, 迫, 背, 悪, 護, 占, 有,
-改, 対, 抗, 識, 認, 黙, 示, 放, 置, 適, 評, 価, 連, 鎖, 即, 得, 記, 転, 実,
-権, 確, 備, 変. If any character renders as a Simplified or Traditional
+Chinese, paying special attention to 詐, 欺, 強, 迫, 背, 悪, 護, 占, 有, 改, 対, 抗, 認, 黙, 示, 放, 置, 適, 評, 価, 連, 鎖, 即, 得, 記, 転, 実, 権, 確, 備, 変. If any character renders as a Simplified or Traditional
 Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

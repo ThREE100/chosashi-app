@@ -2,51 +2,67 @@
 
 **出題年度：令和元年度　午後の部　第4問**
 
-> 管轄登記所に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　主である建物の所在地が甲登記所の管轄区域内にあり、その附属建物の所在地が乙登記所の管轄区域内にある甲登記所において登記されている一個の建物について、当該建物を二個の建物に分割する建物の分割の登記の申請は、甲登記所に対してしなければならない。
->
-> イ　市町村合併により、建物の所在地が甲登記所の管轄から乙登記所の管轄に転属したときは、当該建物の表示に関する登記の申請は、甲登記所又は乙登記所のいずれの登記所にもすることができる。
->
-> ウ　区分建物の敷地権の目的である土地が甲登記所の管轄区域内にある場合には、当該区分建物が乙登記所の管轄区域内に所在するときであっても、当該土地の表示に関する登記の申請は、乙登記所に対してすることはできない。
->
-> エ　登記所の管轄区域を異にする土地にまたがって新築された建物の表題登記の申請は、当該建物の床面積の多い部分が存する土地を管轄する登記所に対してしなければならない。
->
-> オ　甲登記所において登記されている建物について、乙登記所の管轄区域内にある土地上に附属建物を新築したことにより甲登記所と乙登記所の管轄区域にまたがることとなった場合には、当該附属建物の床面積が主である建物の床面積より大きいときであっても、当該建物の表題部の変更の登記の申請は、甲登記所に対してしなければならない。
->
+> 管轄登記所に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　主である建物の所在地が甲登記所の管轄区域内にあり、その附属建物の所在地が乙登記所の管轄区域内にある甲登記所において登記されている一個の建物について、当該建物を二個の建物に分割する建物の分割の登記の申請は、甲登記所に対してしなければならない。  
+>　  
+> イ　市町村合併により、建物の所在地が甲登記所の管轄から乙登記所の管轄に転属したときは、当該建物の表示に関する登記の申請は、甲登記所又は乙登記所のいずれの登記所にもすることができる。  
+>　  
+> ウ　区分建物の敷地権の目的である土地が甲登記所の管轄区域内にある場合には、当該区分建物が乙登記所の管轄区域内に所在するときであっても、当該土地の表示に関する登記の申請は、乙登記所に対してすることはできない。  
+>　  
+> エ　登記所の管轄区域を異にする土地にまたがって新築された建物の表題登記の申請は、当該建物の床面積の多い部分が存する土地を管轄する登記所に対してしなければならない。  
+>　  
+> オ　甲登記所において登記されている建物について、乙登記所の管轄区域内にある土地上に附属建物を新築したことにより甲登記所と乙登記所の管轄区域にまたがることとなった場合には、当該附属建物の床面積が主である建物の床面積より大きいときであっても、当該建物の表題部の変更の登記の申請は、甲登記所に対してしなければならない。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-管轄登記所の分野では、「どの登記所がその不動産の登記事務をつかさどるのか」という原則と、管轄区域をまたぐ・管轄が変わるといった例外的な場面での扱いを区別できるかが問われます。特に、建物は主である建物の所在地を基準に管轄が決まること、管轄をまたぐ場合は法務局長等の指定によることを押さえておきましょう。
+---
+
+管轄登記所の分野では、「どの登記所がその不動産の登記事務をつかさどるのか」という原則と、管轄区域をまたぐ・管轄が変わるといった例外的な場面での扱いを区別できるかが問われます。
+
+特に、建物は主である建物の所在地を基準に管轄が決まること、管轄をまたぐ場合は法務局長等の指定によることを押さえておきましょう。
 
 ### ア：分割登記は、主である建物の所在地を管轄する甲登記所へ
 
-一個の建物は、主である建物の所在地を管轄する登記所がその管轄登記所となります（準則5条）。附属建物が乙登記所の管轄区域内にあっても、既に甲登記所に登記されている以上、当該建物を二個に分割する建物の分割の登記は甲登記所に申請しなければなりません。本肢は正しい記述です。
+一個の建物は、主である建物の所在地を管轄する登記所がその管轄登記所となります（準則5条）。
+
+附属建物が乙登記所の管轄区域内にあっても、既に甲登記所に登記されている以上、当該建物を二個に分割する建物の分割の登記は甲登記所に申請しなければなりません。本肢は正しい記述です。
 
 **たとえば**、母屋が甲市、離れが隣の乙市にまたがって建っている一棟の建物でも、その登記は母屋のある甲市の登記所が担当しているので、「離れを別の建物に分けたい」という登記もその甲市の登記所に出す、というイメージです。
 
 ### イ：市町村合併で管轄が変わったら、新しい乙登記所へ申請する
 
-市町村合併などにより建物の所在地が甲登記所の管轄から乙登記所の管轄に転属した場合、その建物の登記記録は変更後の乙登記所へ移送されます（不動産登記規則32条1項参照）。したがって、その後の表示に関する登記は乙登記所に申請することになり、「甲又は乙のいずれの登記所にもすることができる」とする本肢は誤りです。管轄は転属後の乙登記所に一元化されます。
+市町村合併などにより建物の所在地が甲登記所の管轄から乙登記所の管轄に転属した場合、その建物の登記記録は変更後の乙登記所へ移送されます（不動産登記規則32条1項参照）。
+
+したがって、その後の表示に関する登記は乙登記所に申請することになり、「甲又は乙のいずれの登記所にもすることができる」とする本肢は誤りです。管轄は転属後の乙登記所に一元化されます。
 
 **たとえば**、住んでいる町が合併して隣の市の登記所の担当エリアに変わったら、その後の登記手続は新しい担当の登記所に出すことになり、「前の登記所でもいいですよ」という二者択一は用意されていない、ということです。
 
 ### ウ：敷地権の目的である土地の登記は、その土地を管轄する甲登記所へ
 
-区分建物の敷地権の目的である土地が甲登記所の管轄区域内にある場合、区分建物自体が乙登記所の管轄区域内に所在していても、その土地の表示に関する登記は、土地の所在地を管轄する甲登記所に申請します。したがって「乙登記所に対してすることはできない」とする本肢は正しい記述です。
+区分建物の敷地権の目的である土地が甲登記所の管轄区域内にある場合、区分建物自体が乙登記所の管轄区域内に所在していても、その土地の表示に関する登記は、土地の所在地を管轄する甲登記所に申請します。
+
+したがって「乙登記所に対してすることはできない」とする本肢は正しい記述です。
 
 **たとえば**、マンションの建物本体は乙市にあるけれど、その敷地の一部が甲市にかかっているとき、その甲市側の土地についての登記は、あくまで甲市の登記所に出すのであって、建物のある乙市の登記所には出せない、ということです。
 
 ### エ：管轄をまたぐ建物の表題登記は、法務局長等の指定による
 
-一個の建物が複数の登記所の管轄区域にまたがって存する場合、管轄をつかさどる登記所は、法務大臣または法務局若しくは地方法務局の長が指定します（不動産登記法6条2項）。そして指定を受ける前の表題登記は、いずれか一方の登記所に申請することができます（同条3項）。「床面積の多い部分が存する土地を管轄する登記所にしなければならない」という規定は存在せず、本肢は誤りです。
+一個の建物が複数の登記所の管轄区域にまたがって存する場合、管轄をつかさどる登記所は、法務大臣または法務局若しくは地方法務局の長が指定します（不動産登記法6条2項）。
+
+そして指定を受ける前の表題登記は、いずれか一方の登記所に申請することができます（同条3項）。「床面積の多い部分が存する土地を管轄する登記所にしなければならない」という規定は存在せず、本肢は誤りです。
 
 **たとえば**、建物が甲市と乙市の境界線をまたいで新築されたとき、「床が広い方の市の登記所に出す」と決まっているわけではなく、まずはどちらか一方に出して、正式な管轄は法務局長などが指定する、という仕組みになっています。
 
 ### オ：附属建物の新築で管轄をまたいでも、変更登記は主建物の甲登記所へ
 
-既に甲登記所に登記されている建物について、乙登記所の管轄区域内の土地に附属建物を新築して管轄区域をまたぐことになった場合でも、建物は主である建物の所在地を管轄する登記所が管轄します（準則5条）。したがって表題部の変更の登記は甲登記所に申請するのであり、附属建物の床面積が主である建物より大きくても変わりません。本肢は正しい記述です。
+既に甲登記所に登記されている建物について、乙登記所の管轄区域内の土地に附属建物を新築して管轄区域をまたぐことになった場合でも、建物は主である建物の所在地を管轄する登記所が管轄します（準則5条）。
+
+したがって表題部の変更の登記は甲登記所に申請するのであり、附属建物の床面積が主である建物より大きくても変わりません。本肢は正しい記述です。
 
 **たとえば**、甲市の登記所に登記されている家に、隣の乙市の敷地へ大きな車庫（附属建物）を建て増ししたとしても、その変更の登記は元から担当している甲市の登記所に出す、ということです。附属建物がどれだけ大きくても、基準はあくまで「主である建物」です。
+
+---
 
 ### まとめ
 
@@ -67,7 +83,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和元年度午後第4問）と正解番号（3番＝イ・エが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、エ（不動産登記法6条2項・3項による管轄指定と指定前の申請）は条文番号まで確認できたものです。ア・オ（主である建物の所在地を基準とする管轄）は不動産登記事務取扱手続準則5条を、イ（管轄転属時の登記記録の移送）は不動産登記規則32条1項を根拠としていますが、準則・規則の条番号については版・改正による変動があり得るため、答案で条番号を明記する際は最新の準則・規則で最終確認することをおすすめします。ウ（敷地権の目的土地の登記はその土地の管轄登記所へ）は、管轄の一般原則からの説明であり、特定の条番号までは断定していません。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（管轄登記所）と同一・類似の問題が再出題されていないかを確認しました。候補として抽出されたのは令和2年度第8問（地積に関する更正の登記）のみでしたが、これは抵当権者による更正登記の申請適格、地積更正登記と合筆登記の同時申請、筆界特定後の職権更正、地積増加時の添付情報、相続人の一人による申請といった地積更正登記手続の論点であり、本問が扱う建物の管轄区域の決まり方・管轄の転属・敷地権土地の管轄・管轄をまたぐ建物の表題登記といった論点とは異なります。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：本文で引用している不動産登記法6条2項・3項（管轄をまたぐ建物の表題登記は法務局長等の指定による）、不動産登記規則32条1項（管轄転属時の登記記録の移送）について、WebSearchで現行の条文内容と一致することを確認しました。準則5条（主である建物の所在地を基準とする管轄の原則）については、WebFetchが使えない制約上、条文全文を一次資料で直接確認することはできませんでしたが、複数の実務解説サイトで同一の内容が現行実務として説明されており、条番号・内容が変更された形跡は見当たりませんでした。なお、準則は令和6年12月2日付で最終改正されていますが、この改正はマイナンバー法改正に伴う登記事務の取扱いに関するもの（同日付法務省民二第1676号）であり、管轄（準則5条）や地目（68条・69条）とは無関係と判断しました。**修正すべき点はなく、記事の記述に変更はありません。**
 - **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。不動産登記法6条2項・3項（laws/fudousan-touki-hou.md）、不動産登記規則32条1項（laws/fudousan-touki-kisoku-1.md）、不動産登記事務取扱手続準則5条（laws/fudousan-touki-jimu-junsoku.md）の条文引用をローカル法令データベースと突き合わせ、いずれも一致することを確認しました。本文への判例番号・先例番号の記載、Markdown表の残存、見出しの先出し、常体・半角括弧の混入は見当たらず、修正は行っていません。正誤判定・正解の組合せに変更はありません。
@@ -110,16 +126,34 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・建・物・登・記・所・録 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 2行):
-その申請、どこの登記所に出す?
+その申請、どこの登記所に出す？
 管轄またぎのルールを整理
 
 Subtitle (smaller, centered, 1行):
@@ -197,20 +231,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「主である建物はどちらか」「管轄が変わった・またいだ場面かどうか」を見極める順番を、肢ごとに配置図・対比枠で示す構成。②の結論ポスターとは別に、5肢それぞれの思考の手順を1枚ずつのパネルで追体験できるようにする。
 
@@ -257,7 +291,15 @@ body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -283,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -308,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主建物基準
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 合併後は乙に一本化、選択制ではない
@@ -329,7 +371,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 乙登記所に一本化
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 建物でなく土地の所在地で登記先を選ぶ
@@ -349,7 +391,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 土地の所在地が基準
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 指定前はどちらでもよく床面積は無関係
@@ -369,7 +411,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 指定前はどちらでも可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 附属建物が大きくても主建物の登記所へ
@@ -397,10 +439,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 参照。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 轄・属・択・録・建・登・記. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 is drawn as an
 actual flowchart or comparison frame with branch nodes (not a bare

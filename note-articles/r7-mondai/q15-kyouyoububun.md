@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第15問**
 
-> 共用部分である旨の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　抵当権の登記がある建物について、共用部分である旨の登記を申請する場合には、当該抵当権の登記名義人の承諾を証する当該登記名義人が作成した情報又は当該抵当権の登記名義人に対抗することができる裁判があったことを証する情報を提供しなければならない。
->
-> イ　表題登記のある建物について、当該建物を共用部分とする旨の規約が定められた場合には、当該建物の表題部所有者は、当該規約が定められた日から1月以内に、共用部分である旨の登記を申請しなければならない。
->
-> ウ　共用部分である旨の登記のある甲建物に附属建物がある場合において、当該附属建物を甲建物から分割して乙建物とする建物の分割の登記を申請するときは、甲建物の所有者を証する情報を提供しなければならない。
->
-> エ　甲建物について共用部分である旨の登記を申請する場合において、甲建物が数人の共有に属するときは、甲建物の共有者全員で申請しなければならない。
->
-> オ　甲区分建物について共用部分である旨の登記を申請する場合において、甲区分建物の属する一棟の建物以外の一棟の建物に属する区分建物の区分所有者が、甲区分建物を共用すべき区分所有者であるときは、当該区分所有者の氏名又は名称を申請情報の内容として提供しなければならない。
->
+> 共用部分である旨の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　抵当権の登記がある建物について、共用部分である旨の登記を申請する場合には、当該抵当権の登記名義人の承諾を証する当該登記名義人が作成した情報又は当該抵当権の登記名義人に対抗することができる裁判があったことを証する情報を提供しなければならない。  
+>　  
+> イ　表題登記のある建物について、当該建物を共用部分とする旨の規約が定められた場合には、当該建物の表題部所有者は、当該規約が定められた日から1月以内に、共用部分である旨の登記を申請しなければならない。  
+>　  
+> ウ　共用部分である旨の登記のある甲建物に附属建物がある場合において、当該附属建物を甲建物から分割して乙建物とする建物の分割の登記を申請するときは、甲建物の所有者を証する情報を提供しなければならない。  
+>　  
+> エ　甲建物について共用部分である旨の登記を申請する場合において、甲建物が数人の共有に属するときは、甲建物の共有者全員で申請しなければならない。  
+>　  
+> オ　甲区分建物について共用部分である旨の登記を申請する場合において、甲区分建物の属する一棟の建物以外の一棟の建物に属する区分建物の区分所有者が、甲区分建物を共用すべき区分所有者であるときは、当該区分所有者の氏名又は名称を申請情報の内容として提供しなければならない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
 ---
@@ -22,19 +22,33 @@
 
 ### ア：抵当権付き建物を共用部分にするには、抵当権者の承諾が必要
 
-共用部分とすることで、その建物は独立した担保の対象ではなくなります。既存の抵当権者に不利益が及ぶ可能性があるため、抵当権者の承諾を証する情報、またはその抵当権者に対抗できる裁判があったことを証する情報の提供が必要です。不動産登記令別表18項添付情報欄ロは「所有権以外の権利に関する登記があるときは、当該権利に関する登記に係る権利の登記名義人…の承諾を証する当該登記名義人が作成した情報又は当該登記名義人に対抗することができる裁判があったことを証する情報」を添付情報として定めており、これがまさにこの場面にあたります。さらに不動産登記法58条3項も、共用部分である旨の登記の申請に際してこの承諾等の情報の提供を前提としています。
+共用部分とすることで、その建物は独立した担保の対象ではなくなります。既存の抵当権者に不利益が及ぶ可能性があるため、抵当権者の承諾を証する情報、またはその抵当権者に対抗できる裁判があったことを証する情報の提供が必要です。
+
+不動産登記令別表18項添付情報欄ロは「所有権以外の権利に関する登記があるときは、当該権利に関する登記に係る権利の登記名義人…の承諾を証する当該登記名義人が作成した情報又は当該登記名義人に対抗することができる裁判があったことを証する情報」を添付情報として定めており、これがまさにこの場面にあたります。
+
+さらに不動産登記法58条3項も、共用部分である旨の登記の申請に際してこの承諾等の情報の提供を前提としています。
 
 **たとえば**、マンションの管理人室に銀行の抵当権がついていた場合、この部屋を「共用部分」に切り替えるには、その銀行から「共用部分にしてよい」という承諾をもらうか、銀行に対抗できる裁判の判決が必要になります。
 
 ### イ：規約が定められても、1か月以内の申請義務はない
 
-表題登記のある建物について共用部分とする旨の規約が定められても、表題部所有者が「規約が定められた日から1か月以内に申請しなければならない」という法定の申請期限はありません。不動産登記法58条6項は、共用部分である旨の登記がある建物について規約が廃止された場合に、その所有者が規約廃止の日から1か月以内に表題登記を申請しなければならない旨を定め、同条7項は、規約廃止後にその建物の所有権を取得した者についても同様の申請義務を定めています。つまり1か月以内の申請義務があるのは規約が「廃止」された場合であり、規約が新たに「設定」される場合ではありません。また、法164条1項の過料の制裁は58条6項・7項の違反に対してのものであり、規約設定そのものには過料の制裁は結び付いていません。
+表題登記のある建物について共用部分とする旨の規約が定められても、表題部所有者が「規約が定められた日から1か月以内に申請しなければならない」という法定の申請期限はありません。
+
+不動産登記法58条6項は、共用部分である旨の登記がある建物について規約が廃止された場合に、その所有者が規約廃止の日から1か月以内に表題登記を申請しなければならない旨を定め、同条7項は、規約廃止後にその建物の所有権を取得した者についても同様の申請義務を定めています。
+
+つまり1か月以内の申請義務があるのは規約が「廃止」された場合であり、規約が新たに「設定」される場合ではありません。
+
+また、法164条1項の過料の制裁は58条6項・7項の違反に対してのものであり、規約設定そのものには過料の制裁は結び付いていません。
 
 **たとえば**、管理組合の総会で「この部屋は共用部分にします」という規約が決議されたとしても、通常の表題登記のように「1か月以内に届け出ないと過料」というような期限に追われるものではありません。
 
 ### ウ：附属建物を分割するには、甲建物の所有者証明情報が必要
 
-共用部分である旨の登記のある甲建物には、独立した登記上の所有者が表示されていません（共用部分の登記の際に、所有者・権利の登記が職権で抹消されるためです）。しかし、その附属建物を分割して別の建物にする場合には、実質的な所有者（区分所有者全員）を証する情報の提供が必要です。不動産登記令別表16項添付情報欄ロは「共用部分である旨の登記又は団地共用部分である旨の登記がある建物について建物の分割の登記又は建物の区分の登記を申請するときは、当該建物の所有者を証する情報」を添付情報として定めています。
+共用部分である旨の登記のある甲建物には、独立した登記上の所有者が表示されていません（共用部分の登記の際に、所有者・権利の登記が職権で抹消されるためです）。
+
+しかし、その附属建物を分割して別の建物にする場合には、実質的な所有者（区分所有者全員）を証する情報の提供が必要です。
+
+不動産登記令別表16項添付情報欄ロは「共用部分である旨の登記又は団地共用部分である旨の登記がある建物について建物の分割の登記又は建物の区分の登記を申請するときは、当該建物の所有者を証する情報」を添付情報として定めています。
 
 **たとえば**、共用部分として登記されている管理人室に附属していた倉庫部分を切り離して、別の建物として登記し直す場合には、その建物が実質的に誰のものであるかを証明する書類を提出する必要があります。
 
@@ -46,9 +60,15 @@
 
 ### オ：他棟の区分所有者の氏名は不要でも、その所有建物の家屋番号は申請情報に必要
 
-甲区分建物とは別の棟に属する区分所有者が、甲区分建物を共用すべき区分所有者であっても、その区分所有者の氏名・名称を申請情報の内容として提供することまでは求められていません。もっとも、氏名・名称が不要だからといって何も提供しなくてよいわけではなく、不動産登記令別表18項申請情報欄は「当該共用部分である建物が当該建物の属する一棟の建物以外の一棟の建物に属する建物の区分所有者の共用に供されるものであるときは、当該区分所有者が所有する建物の家屋番号」を申請情報の内容とすると定めており、当該区分所有者が所有する建物の家屋番号は提供しなければなりません。
+甲区分建物とは別の棟に属する区分所有者が、甲区分建物を共用すべき区分所有者であっても、その区分所有者の氏名・名称を申請情報の内容として提供することまでは求められていません。
 
-**たとえば**、A棟の集会室をB棟の住民も共用する取り決めになっていたとしても、その登記の申請書に「B棟の誰それも使います」という個別の氏名まで書き込む必要はありません。ただし、そのB棟の区分所有者が所有する部屋の家屋番号（例：「B棟101号室」など）は、申請情報として提供する必要があります。
+もっとも、氏名・名称が不要だからといって何も提供しなくてよいわけではなく、不動産登記令別表18項申請情報欄は「当該共用部分である建物が当該建物の属する一棟の建物以外の一棟の建物に属する建物の区分所有者の共用に供されるものであるときは、当該区分所有者が所有する建物の家屋番号」を申請情報の内容とすると定めており、当該区分所有者が所有する建物の家屋番号は提供しなければなりません。
+
+**たとえば**、A棟の集会室をB棟の住民も共用する取り決めになっていたとしても、その登記の申請書に「B棟の誰それも使います」という個別の氏名まで書き込む必要はありません。
+
+ただし、そのB棟の区分所有者が所有する部屋の家屋番号（例：「B棟101号室」など）は、申請情報として提供する必要があります。
+
+---
 
 ### まとめ
 
@@ -107,13 +127,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・共・用・部・抵・当・証・規・
-約・棟 — these must be rendered in their standard Japanese forms, never
+kanji 号・権・番・建・物・登・記・所・共・用・部・抵・当・証・規・約・棟 — these must be rendered in their standard Japanese forms, never
 as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -184,20 +221,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「既存の権利者に不利益が及ぶか」「規約の設定か廃止か」「何を提供するのが不要／必要か」を見抜けるようにする5パネル構成。イは規約の「設定」と「廃止」を対比する枠、オは「氏名は不要」「家屋番号は必要」という2つの項目を並べて示す。②の色分け（証明情報が必要な場面＝緑、義務・全員・氏名は不要な場面＝青）を引き継いでいる。
 
@@ -222,9 +259,9 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 2（肢イ）uses a side-by-side
+— do not force a flowchart. Panel 2（イ）uses a side-by-side
 comparison frame（LEFT: 規約の設定＝期限なし、RIGHT: 規約の廃止＝1か月
-以内の義務）instead of a flowchart. Panel 5（肢オ）shows two separate
+以内の義務）instead of a flowchart. Panel 5（オ）shows two separate
 labeled items side by side（氏名・名称＝不要、家屋番号＝必要）rather than
 a single conclusion, since both are distinct requirements discussed in
 the source article. Unlike a glanceable summary poster, each panel MAY
@@ -237,7 +274,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -263,7 +308,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抵当権があれば承諾が必要
@@ -280,7 +325,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 規約の設定には期限がない
@@ -298,7 +343,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 設定なら期限なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 附属建物の分割にも所有者証明が必要
@@ -314,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 証明書は必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 共有でも全員での申請は不要
@@ -329,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 全員でなくて可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 氏名は不要でも家屋番号は必要
@@ -352,10 +397,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 7項、不動産登記令別表16項添付情報欄ロに基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 抵, 当, 承, 諾, 規, 約, 附, 属, 棟, 号, 証 and any character
-that has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 2 is drawn

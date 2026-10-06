@@ -2,55 +2,79 @@
 
 **出題年度：平成27年度　午後の部　第6問**
 
-> 土地の表示に関する登記の申請情報又は添付情報に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　同一の登記所に対して同時に二以上の申請をする場合において，各申請に共通する添付情報があるときであっても，当該添付情報は申請情報ごとに提供しなければならない。
->
-> イ　地積の変更の登記と分筆の登記とを一の申請情報により申請する場合には，地積の変更の登記についてのみ登記原因及びその日付を申請情報の内容としなければならない。
->
-> ウ　委任による代理人が土地の合筆の登記の申請をその土地の所有権の登記名義人から受任した後に当該登記名義人が死亡した場合において，当該代理人が当該合筆の登記の申請をするときは，被相続人から代理人への委任に関する代理人の権限を証する情報，相続があったことを証する情報及び相続人から代理人への委任に関する代理人の権限を証する情報を添付情報として提供しなければならない。
->
-> エ　所有権が敷地権である旨の登記がされている規約敷地を分筆する場合において，当該規約敷地が区分建物と異なる登記所の管轄区域内にあるときは，当該規約を設定したことを証する情報を添付情報として提供しなければならない。
->
-> オ　甲土地を要役地とする地役権の設定の登記がされている乙土地と，地役権の設定の登記がされていない丙土地との合筆の登記を申請する場合には，当該地役権設定の範囲を証する地役権者が作成した情報又は当該地役権者に対抗することができる裁判があったことを証する情報及び地役権図面を添付情報として提供しなければならない。
->
+> 土地の表示に関する登記の申請情報又は添付情報に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　同一の登記所に対して同時に二以上の申請をする場合において，各申請に共通する添付情報があるときであっても，当該添付情報は申請情報ごとに提供しなければならない。  
+>　  
+> イ　地積の変更の登記と分筆の登記とを一の申請情報により申請する場合には，地積の変更の登記についてのみ登記原因及びその日付を申請情報の内容としなければならない。  
+>　  
+> ウ　委任による代理人が土地の合筆の登記の申請をその土地の所有権の登記名義人から受任した後に当該登記名義人が死亡した場合において，当該代理人が当該合筆の登記の申請をするときは，被相続人から代理人への委任に関する代理人の権限を証する情報，相続があったことを証する情報及び相続人から代理人への委任に関する代理人の権限を証する情報を添付情報として提供しなければならない。  
+>　  
+> エ　所有権が敷地権である旨の登記がされている規約敷地を分筆する場合において，当該規約敷地が区分建物と異なる登記所の管轄区域内にあるときは，当該規約を設定したことを証する情報を添付情報として提供しなければならない。  
+>　  
+> オ　甲土地を要役地とする地役権の設定の登記がされている乙土地と，地役権の設定の登記がされていない丙土地との合筆の登記を申請する場合には，当該地役権設定の範囲を証する地役権者が作成した情報又は当該地役権者に対抗することができる裁判があったことを証する情報及び地役権図面を添付情報として提供しなければならない。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
+
+---
 
 土地の表示に関する登記では、「申請情報に何を書くか」「添付情報として何を付けるか」の細かいルールが得点の分かれ目になります。共通情報の援用、形成的登記の登記原因、代理権の存続、地役権の証明情報など、論点が横断的に問われるのがこの分野の特徴です。
 
 ### ア：共通する添付情報は、一の申請情報として提供すれば足りる
 
-同一の登記所に対して同時に二以上の申請をする場合において、各申請に共通する添付情報があるときは、その添付情報は一の申請の申請情報と併せて提供すれば足り、他の申請ではその旨を申請情報の内容とすれば足ります（不動産登記規則37条1項）。「申請情報ごとに提供しなければならない」という結論は誤りです。
+同一の登記所に対して同時に二以上の申請をする場合において、各申請に共通する添付情報があるときは、その添付情報は一の申請の申請情報と併せて提供すれば足り、他の申請ではその旨を申請情報の内容とすれば足ります（不動産登記規則37条1項）。
+
+「申請情報ごとに提供しなければならない」という結論は誤りです。
 
 **たとえば**、同じ登記所に同時に2件の申請をするときに、どちらの申請にも同じ会社法人等番号や代理権限証明情報が必要な場合、その情報を毎回コピーして2部付ける必要はなく、1件の申請に付けたうえで、もう1件では「先の申請に添付した」と示せば足ります。
 
 ### イ：分筆の登記は形成的登記なので、登記原因・日付は不要
 
-地積の変更の登記と分筆の登記とを一の申請情報により申請する場合、登記原因及びその日付を申請情報の内容とするのは地積の変更の登記についてのみです。分筆の登記は、一筆の土地を人為的に区切って複数の土地に分ける形成的な登記であり、そもそも登記原因（過去の事実）が存在しないため、登記原因及びその日付を記載しません。
+地積の変更の登記と分筆の登記とを一の申請情報により申請する場合、登記原因及びその日付を申請情報の内容とするのは地積の変更の登記についてのみです。
 
-実際に、登記記録の表題部「原因及びその日付」欄には、分筆をした場合であっても実際の年月日は記録されず、「何番何、何番何に分筆」「何番から分筆」のように、分割の相手方の地番を示す記載がされるだけです（不動産登記事務取扱手続準則74条）。これに対し、地目・地積の変更や更正の登記では、「令和何年何月何日地目変更」のように実際の年月日を伴う記載がされます（同準則73条）。この記録方法の違いからも、分筆には記録すべき年月日そのものが存在しないことが裏付けられます。
+分筆の登記は、一筆の土地を人為的に区切って複数の土地に分ける形成的な登記であり、そもそも登記原因（過去の事実）が存在しないため、登記原因及びその日付を記載しません。
 
-**たとえば**、一筆の土地を測り直して地積を正しい面積に変更しつつ、その土地を2つに分ける登記を同時にする場合、「地積を変更した原因（例：錯誤）とその日付」は書きますが、「土地を分けた原因の日付」は存在しないので書きようがなく、記載しません。
+実際に、登記記録の表題部「原因及びその日付」欄には、分筆をした場合であっても実際の年月日は記録されず、「何番何、何番何に分筆」「何番から分筆」のように、分割の相手方の地番を示す記載がされるだけです（不動産登記事務取扱手続準則74条）。
+
+これに対し、地目・地積の変更や更正の登記では、「令和何年何月何日地目変更」のように実際の年月日を伴う記載がされます（同準則73条）。
+
+この記録方法の違いからも、分筆には記録すべき年月日そのものが存在しないことが裏付けられます。
+
+**たとえば**、海に面した土地の一部が崖崩れで海に沈み、実際に面積が減った（地積の変更）うえで、その土地を2つに分ける登記を同時にする場合、「地積が変わった原因とその日付（例：令和○年○月○日一部海没）」は書きますが、「土地を分けた原因の日付」は存在しないので書きようがなく、記載しません。
 
 ### ウ：登記申請の代理権は本人の死亡では消滅しないので、相続人からの再委任は不要
 
-一般に、代理権は本人の死亡によって消滅します（民法111条1項1号）。しかし、登記の申請をする者の委任による代理人の権限は、本人の死亡等によっては消滅しないという特則があります（不動産登記法17条）。したがって、名義人から合筆の登記を受任した後に名義人が死亡しても、代理人は当初の委任状に基づいて申請でき、相続を証する情報や相続人からの委任状を改めて添付する必要はありません。「これらを提供しなければならない」という結論は誤りです。
+一般に、代理権は本人の死亡によって消滅します（民法111条1項1号）。しかし、登記の申請をする者の委任による代理人の権限は、本人の死亡等によっては消滅しないという特則があります（不動産登記法17条）。
+
+したがって、名義人から合筆の登記を受任した後に名義人が死亡しても、代理人は当初の委任状に基づいて申請でき、相続を証する情報や相続人からの委任状を改めて添付する必要はありません。「これらを提供しなければならない」という結論は誤りです。
 
 **たとえば**、土地の所有者Aさんが土地家屋調査士に合筆の登記を委任した後、申請前にAさんが亡くなってしまったとしても、その委任は失効しません。調査士は最初にもらった委任状のまま申請でき、わざわざ相続人から委任状を取り直す必要はありません。
 
 ### エ：規約敷地を分筆する場合、規約を設定したことを証する情報は不要
 
-所有権が敷地権である旨の登記がされている規約敷地を分筆する場合であっても、規約を設定したことを証する情報を添付情報として提供する必要はありません。規約敷地であることは既に登記に反映されており、その分筆の申請にあたって改めて規約設定の証明を求められることはないからです。「提供しなければならない」という結論は誤りです。
+所有権が敷地権である旨の登記がされている規約敷地を分筆する場合であっても、規約を設定したことを証する情報を添付情報として提供する必要はありません。
+
+規約敷地であることは既に登記に反映されており、その分筆の申請にあたって改めて規約設定の証明を求められることはないからです。「提供しなければならない」という結論は誤りです。
 
 **たとえば**、マンションの敷地とされている規約敷地の一部を切り離す（分筆する）とき、その分筆の申請そのものに「この土地を規約で敷地にしましたよ」という証明書を付け直す必要はありません。
 
-**実務の流れで見る理由**：規約を定めて敷地権とした場合、登記官は建物の登記記録に敷地権の記録をするのとあわせて、職権でその土地自体の登記記録にも「敷地権である旨の登記」を記録します（不動産登記法46条）。つまり、規約敷地であるという事実は、規約を設定した時点で既にその土地の登記記録そのものに反映されているのです。そのため、後になってこの土地を分筆する際には、登記官は土地の登記記録を見るだけで規約敷地であることを確認できるので、申請人が改めて規約の存在を証明する書類を提出する必要がありません。証明が必要になるのは、規約を設定して敷地権として最初に登記するときだけであり、その後の分筆のような手続きでは重ねて証明を求められることはない、という流れで理解すると整理しやすくなります。
+**実務の流れで見る理由**：規約を定めて敷地権とした場合、登記官は建物の登記記録に敷地権の記録をするのとあわせて、職権でその土地自体の登記記録にも「敷地権である旨の登記」を記録します（不動産登記法46条）。
+
+つまり、規約敷地であるという事実は、規約を設定した時点で既にその土地の登記記録そのものに反映されているのです。
+
+そのため、後になってこの土地を分筆する際には、登記官は土地の登記記録を見るだけで規約敷地であることを確認できるので、申請人が改めて規約の存在を証明する書類を提出する必要がありません。
+
+証明が必要になるのは、規約を設定して敷地権として最初に登記するときだけであり、その後の分筆のような手続きでは重ねて証明を求められることはない、という流れで理解すると整理しやすくなります。
 
 ### オ：承役地の合筆で地役権範囲が一部のときは、地役権者作成情報と地役権図面が必要
 
 地役権の登記がある承役地について合筆の登記を申請する場合において、地役権設定の範囲が登記後の土地の一部であるときは、その地役権設定の範囲を証する地役権者が作成した情報（地役権証明書）又は当該地役権者に対抗することができる裁判があったことを証する情報を、地役権図面と併せて提供する必要があります（不動産登記令別表9項添付情報）。
 
-**たとえば**、地役権が設定されている乙土地と、地役権のない丙土地とを合筆すると、合筆後の一筆の土地のうち「もとの乙土地の部分だけ」に地役権が及ぶことになります。この範囲を明らかにするため、地役権者が作った範囲の証明書と地役権図面をセットで提供します。
+**たとえば**、地役権が設定されている乙土地と、地役権のない丙土地とを合筆すると、合筆後の一筆の土地のうち「もとの乙土地の部分だけ」に地役権が及ぶことになります。
+
+この範囲を明らかにするため、地役権者が作った範囲の証明書と地役権図面をセットで提供します。
+
+---
 
 ### まとめ
 
@@ -73,7 +97,7 @@
 - 各肢の根拠について、ア（不動産登記規則37条1項）、ウ（不動産登記法17条／民法111条1項1号）、オ（不動産登記令別表9項添付情報）はデータベースのexplanation欄で条文番号まで明記されているものです。エ（規約敷地の分筆で規約を証する情報が不要であること）については、条文番号は明示されておらず、一般原則からの説明にとどまっています。
 - **イの再検証（2026-09-27実施）**：イ（分筆の登記が形成的登記であり登記原因が存在しないこと）は、当初はデータベースに条文番号の明記がなく一般原則からの説明にとどまっていましたが、他の記事（苦手分析シリーズ②）の執筆過程でユーザーから条文原文でのダブルチェックを依頼されたことを機に、`note-articles/laws/fudousan-touki-jimu-junsoku.md`（不動産登記事務取扱手続準則）の条文原文を確認しました。準則74条（分筆の登記の記録方法）は、登記記録の原因及びその日付欄への記録例を「何番何、何番何に分筆」「何番から分筆」と定めており、実際の年月日を含みません。これに対し準則73条（地目・地積の変更又は更正の登記の記録方法）は「令和何年何月何日地目変更」のように実際の年月日を含む記録例を定めています。この対比により、イの結論は一般原則からの推論にとどまらず、準則の条文原文で直接裏付けられることが確定しました。本文にこの条文根拠を追記しています。
 - **エの補足説明について**：エの結論（規約設定証明情報は不要）は変わりませんが、なぜ不要なのかが実感しにくいという声を踏まえ、実務の流れに沿った補足段落を追加しました。規約を設定して敷地権とする際、登記官が職権でその土地自体の登記記録に「敷地権である旨の登記」を記録する規定（不動産登記法46条）を根拠に、規約敷地であることが既にその土地の登記記録に反映されている、という流れを説明しています。
-- **現行法チェック（条文原文で確認）**：オの根拠として当初「不動産登記令別表8項添付情報ロ」としていましたが、法令原文（`note-articles/laws/fudousan-touki-rei-betsuhyou.md`）で確認したところ、別表8項は「地役権の登記がある承役地の**分筆**の登記」に関する項目でした。本肢オは承役地の**合筆**の登記の場面であり、正しい根拠は別表**9項**添付情報（イ・ロの区分のない単一項目で、内容は本肢と一致）です。本文・本項目とも修正しました。結論（地役権者作成情報・地役権図面が必要）自体は変わりません。
+- **現行法チェック（条文原文で確認）**：オの根拠として当初「不動産登記令別表8項添付情報ロ」としていましたが、法令原文（`note-articles/laws/fudousan-touki-rei-betsuhyou.md`）で確認したところ、別表8項は「地役権の登記がある承役地の**分筆**の登記」に関する項目でした。本オは承役地の**合筆**の登記の場面であり、正しい根拠は別表**9項**添付情報（イ・ロの区分のない単一項目で、内容は本肢と一致）です。本文・本項目とも修正しました。結論（地役権者作成情報・地役権図面が必要）自体は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（土地の表示登記の申請情報・添付情報）と同一・類似の問題が再出題されていないかを確認しました。**部分的な重複が見つかりました**：本問エ（規約敷地が区分建物と異なる登記所の管轄区域内にあるときの規約設定証明情報の要否＝不要）と同一の論点・同一の結論が、令和2年度第14問アにほぼそのままの文言で再出題されています。「土地の表示に関する登記の申請情報又は添付情報」という同一タイトルの問題は令和元年度第8問にもありますが、その具体的な論点（合筆時の登記識別情報提供不能理由の記載、官公署嘱託時の所有権証明情報の省略可否）は、本問ではなく別のH27の問題（第9問・第14問）と重なる内容でした。将来この年度についてnote記事を作成する際は、内容の重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -115,13 +139,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 添・付・援・筆・登・記・所・権・地・証・図・約・敷・代・任・錯・誤・相・続 — these must be
+kanji 添・付・援・筆・登・記・所・権・地・証・図・約・敷・任・錯・誤・相・続 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -151,7 +193,7 @@ Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 分筆に登記原因・日付は書かない
 Illustration: 一筆の土地アイコンが点線で2つに区切られ分筆される様子。隣に置かれた
-「地積変更登記」の申請書には「登記原因：錯誤／日付：令和◯年」の記入欄が緑の
+「地積変更登記」の申請書には「登記原因：一部海没／日付：令和◯年◯月◯日」の記入欄が緑の
 チェック付きで埋まっている。分筆側の申請書にある同じ記入欄には赤い✕マークが
 付き「原因なし」のラベルが添えられる。
 Conclusion tag (a short colored banner/pill directly below the illustration,
@@ -208,13 +250,13 @@ these 5 headings):
 5. 一部だけの地役権は証明書とセットで
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -246,13 +288,31 @@ frame.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
 to the kanji 規・約・敷・地・証・明・書・録・職・権, which have Simplified
 Chinese look-alike forms with visibly different stroke shapes — always
 draw the standard Japanese (Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -294,19 +354,19 @@ Small credit text in the corner (optional, keep minimal):
 平成27年度 午後の部 第6問
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 規・約・敷・地・証・明・書・録・職・権. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 規・約・敷・地・証・明・書・録・職・権. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm there are exactly 2 panels, stacked
 vertically and connected by one downward arrow showing the time flow from
 Panel 1 to Panel 2, with no duplicated or missing panels, and confirm
 every heading and caption text matches the Japanese text given above
-verbatim, with no paraphrasing and no substituted characters.
+verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last panel (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last panel). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 5肢はそれぞれ別の場面（共通添付情報の援用、分筆と地積変更の登記原因の書き分け、代理権の存続、規約敷地の証明省略、地役権証明の要否）を扱うため、共有木は使わず肢ごとに最適な型を選んだ。ア・エは正しいルールと誤解を対比する構図、イは「事実に基づく登記か形成的登記か」を分ける決定木、ウは「原則（代理権は死亡で消滅）→特則（登記申請の代理権は不消滅）」という隠れた2段階の判定を可視化する決定木、オは地役権者作成の範囲証明情報と地役権図面という2つの必要書類を別々の確認ステップとして並べた構成にした。
 
@@ -389,7 +449,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -411,14 +471,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 援用でコピー不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 地積変更にのみ登記原因と日付を記載
 Diagram: A decision flowchart with a root diamond node reading「その登記
 は事実に基づくか、形成的登記か」. One branch,「地積変更（事実に基づく）」,
-leads to a box「登記原因：錯誤／日付：令和◯年」filled in with a green
+leads to a box「登記原因：一部海没／日付：令和◯年◯月◯日」filled in with a green
 checkmark. The other branch,「分筆（人為的に区切るだけの形成的登記）」,
 leads to a box showing the registry's actual recording format「何番何に
 分筆」with no calendar date anywhere in it, crossed out by a small red ✕
@@ -435,7 +495,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 分筆に原因なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -445,8 +505,8 @@ Diagram: A decision flowchart with a root diamond node reading「代理権の
 and dotted-outline, leading to a small greyed-out box「本人の死亡で消滅す
 る」shown only for comparison. The other branch,「登記申請の代理権（不動
 産登記法17条の特則）」, is rendered with a thick highlighted border, and
-leads to a second diamond node「本人が死亡したら？」whose「消滅しない（特
-則）」outcome is marked with a green checkmark and connects to a final
+leads to a rectangular check box (NOT a diamond)「本人が死亡しても代理権は
+消滅しない（特則）」marked with a green checkmark, which connects to a final
 conclusion box「代理人は最初の委任状のまま申請できる」. Beside it, a
 crossed-out box lists「相続を証する情報」「相続人からの委任状」both with
 red X marks. Show a surveyor figure（土地家屋調査士）holding the original
@@ -461,7 +521,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 再委任は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -483,7 +543,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明書の提出は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -511,9 +571,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 添・付・援・用・筆・登・記・所・権・地・
-証・図・約・敷・代・任・錯・誤・相・続・原・因・職・範・囲・情・報・申・請・準・
-則・何・番・欄・録. If
+Chinese, paying special attention to 添・付・援・用・筆・登・記・所・権・地・証・図・約・敷・代・任・錯・誤・相・続・原・因・職・範・囲・情・報・申・請・準・則・何・番・録. If
 any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for

@@ -2,21 +2,25 @@
 
 **出題年度：平成22年度　午後の部　第4問**
 
-> 隣接する甲土地と乙土地の合筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　甲土地及び乙土地について、いずれも敷地権である旨の登記がされている場合には、合筆の登記をすることができない。
->
-> イ　甲土地及び乙土地について、いずれも先取特権の登記がされている場合であっても、当該先取特権の登記の目的並びに登記原因及びその日付が同一であれば合筆の登記をすることは妨げられない。
->
-> ウ　甲土地及び乙土地について、いずれも破産手続開始の登記がされている場合には、その後いずれも破産手続終結の登記がされているときであっても、破産手続開始の登記を抹消しなければ合筆の登記をすることができない。
->
-> エ　甲土地及び乙土地について、いずれも信託の登記がされている場合であっても、当該信託の登記について、信託目録に記録された登記事項のすべてが同一であれば、合筆の登記をすることは妨げられない。
->
-> オ　甲土地及び乙土地について、不在者の財産管理人が合筆の登記を申請するには、家庭裁判所の許可を得なければならない。
->
+> 隣接する甲土地と乙土地の合筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　甲土地及び乙土地について、いずれも敷地権である旨の登記がされている場合には、合筆の登記をすることができない。  
+>　  
+> イ　甲土地及び乙土地について、いずれも先取特権の登記がされている場合であっても、当該先取特権の登記の目的並びに登記原因及びその日付が同一であれば合筆の登記をすることは妨げられない。  
+>　  
+> ウ　甲土地及び乙土地について、いずれも破産手続開始の登記がされている場合には、その後いずれも破産手続終結の登記がされているときであっても、破産手続開始の登記を抹消しなければ合筆の登記をすることができない。  
+>　  
+> エ　甲土地及び乙土地について、いずれも信託の登記がされている場合であっても、当該信託の登記について、信託目録に記録された登記事項のすべてが同一であれば、合筆の登記をすることは妨げられない。  
+>　  
+> オ　甲土地及び乙土地について、不在者の財産管理人が合筆の登記を申請するには、家庭裁判所の許可を得なければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-合筆の登記は、「登記記録の状態がそろっていない土地はくっつけられない」というルール（不動産登記法41条）が中心です。とくに、担保権や信託などの権利の登記がある土地は原則として合筆できず、例外的に合筆できるのはどんな場合かを、条件まで正確に押さえられるかが問われます。
+---
+
+合筆の登記は、「登記記録の状態がそろっていない土地はくっつけられない」というルール（不動産登記法41条）が中心です。
+
+とくに、担保権や信託などの権利の登記がある土地は原則として合筆できず、例外的に合筆できるのはどんな場合かを、条件まで正確に押さえられるかが問われます。
 
 ### ア：敷地権である旨の登記がある土地は、合筆できない
 
@@ -24,31 +28,47 @@
 
 **たとえば**、マンションの敷地として区分建物と一体になっている土地は、勝手に隣の土地とくっつけて一筆にすることができません。区分所有者みんなの権利が絡む「特別な土地」だからです。
 
-**補足**：合筆を制限する不動産登記法41条6号は、「所有権の登記以外の権利に関する登記がある土地」の合筆を原則禁止したうえで、例外的に合筆後の登記記録に引き継げる権利を不動産登記規則105条で限定列挙しています。その内訳は、承役地についての地役権の登記、登記の目的・受付年月日・受付番号・登記原因及びその日付がすべて同一の担保権の登記、登記事項がすべて同一の信託の登記、登録番号が同一の鉱害賠償登録に関する登記の4種類だけで、「敷地権である旨の登記」はこの4類型のいずれにも当てはまりません。したがって、敷地権である旨の登記がある土地同士を、敷地権を残したまま合筆できる例外は規則上定められておらず、原則どおり合筆はできません。合筆したい場合は、敷地権を抹消（区分建物の敷地利用権を専有部分と分離できる状態に戻すなど）したうえで通常の土地として合筆し、その後にあらためて敷地権の登記をし直す、という手順を踏む必要があります。
+**補足**：合筆を制限する不動産登記法41条6号は、「所有権の登記以外の権利に関する登記がある土地」の合筆を原則禁止したうえで、例外的に合筆後の登記記録に引き継げる権利を不動産登記規則105条で限定列挙しています。
+
+その内訳は、承役地についての地役権の登記、登記の目的・受付年月日・受付番号・登記原因及びその日付がすべて同一の担保権の登記、登記事項がすべて同一の信託の登記、登録番号が同一の鉱害賠償登録に関する登記の4種類だけで、「敷地権である旨の登記」はこの4類型のいずれにも当てはまりません。
+
+したがって、敷地権である旨の登記がある土地同士を、敷地権を残したまま合筆できる例外は規則上定められておらず、原則どおり合筆はできません。
+
+合筆したい場合は、敷地権を抹消（区分建物の敷地利用権を専有部分と分離できる状態に戻すなど）したうえで通常の土地として合筆し、その後にあらためて敷地権の登記をし直す、という手順を踏む必要があります。
 
 ### イ：担保権の登記がある土地の合筆は、受付番号まで同一でなければできない
 
-担保権（一般の先取特権・質権・抵当権）の登記がある土地でも、登記の目的、申請の受付年月日及び受付番号、登記原因及びその日付が「すべて同一」であれば、例外的に合筆できます（不動産登記法41条6号、不動産登記規則105条）。しかし、この肢は「登記の目的・登記原因及びその日付が同一であれば」とするだけで、受付年月日・受付番号の同一性に触れていません。この条件を欠くため、合筆できるとは言い切れず、誤りです。
+担保権（一般の先取特権・質権・抵当権）の登記がある土地でも、登記の目的、申請の受付年月日及び受付番号、登記原因及びその日付が「すべて同一」であれば、例外的に合筆できます（不動産登記法41条6号、不動産登記規則105条）。
+
+しかし、この肢は「登記の目的・登記原因及びその日付が同一であれば」とするだけで、受付年月日・受付番号の同一性に触れていません。この条件を欠くため、合筆できるとは言い切れず、誤りです。
 
 **たとえば**、同じ抵当権が甲・乙の両方に付いていても、その抵当権が別々の日に別々の受付番号で登記されていれば、目的や原因が同じでも合筆はできません。「まったく同じ一つの担保」とみなせるほどそろっていて初めて、例外が認められます。
 
 ### ウ：破産手続が終結していれば、開始の登記を抹消しなくても合筆できる
 
-破産手続開始の登記がある土地は、原則として合筆できません。しかし、その後に破産手続終結の登記がされている場合には、破産手続はすでに終わっており処分の制限は実質的に解消しているため、破産手続開始の登記をあえて抹消しなくても合筆の登記をすることができると解されます。「抹消しなければできない」とする点が誤りです。
+破産手続開始の登記がある土地は、原則として合筆できません。
+
+しかし、その後に破産手続終結の登記がされている場合には、破産手続はすでに終わっており処分の制限は実質的に解消しているため、破産手続開始の登記をあえて抹消しなくても合筆の登記をすることができると解されます。「抹消しなければできない」とする点が誤りです。
 
 **たとえば**、破産手続が始まって登記が入った土地でも、その後に手続がすべて終わって「終結」の登記まで入っていれば、古い「開始」の登記が残っていても、それをわざわざ消さずに合筆の手続を進めることができます。
 
 ### エ：信託の登記がある土地でも、信託目録の事項がすべて同一なら合筆できる
 
-信託の登記がある土地でも、信託目録に記録された登記事項（不動産登記法97条1項各号の事項）のすべてが同一であれば、例外的に合筆の登記をすることができます（不動産登記法41条6号、不動産登記規則105条）。中身がまったく同じ信託であれば、合筆しても登記記録の整合性が保たれるからです。
+信託の登記がある土地でも、信託目録に記録された登記事項（不動産登記法97条1項各号の事項）のすべてが同一であれば、例外的に合筆の登記をすることができます（不動産登記法41条6号、不動産登記規則105条）。
+
+中身がまったく同じ信託であれば、合筆しても登記記録の整合性が保たれるからです。
 
 **たとえば**、甲・乙の両方が同じ内容・同じ受益者の一つの信託の対象になっているなら、その二つの土地を合筆して一筆にまとめても、信託の管理に支障がないので合筆が認められます。
 
 ### オ：不在者の財産管理人による合筆登記に、家庭裁判所の許可は要らない
 
-合筆の登記は、数筆の土地を一筆にまとめる登記であり、土地そのものを処分する行為ではなく、財産の管理の範囲に含まれます。したがって、不在者の財産管理人がこれを申請するのに、権限外行為として家庭裁判所の許可（民法28条）を得る必要はありません。「許可を得なければならない」とする点が誤りです。
+合筆の登記は、数筆の土地を一筆にまとめる登記であり、土地そのものを処分する行為ではなく、財産の管理の範囲に含まれます。
+
+したがって、不在者の財産管理人がこれを申請するのに、権限外行為として家庭裁判所の許可（民法28条）を得る必要はありません。「許可を得なければならない」とする点が誤りです。
 
 **たとえば**、行方不明の人の土地を管理している財産管理人が、管理しやすくするために隣り合う二筆をまとめる合筆をする場合は、家庭裁判所にお伺いを立てなくても手続を進められます。
+
+---
 
 ### まとめ
 
@@ -72,7 +92,7 @@
 - 各肢の根拠のうち、イ（担保権の合筆の例外は受付年月日・受付番号まで同一が必要）・エ（信託目録の事項が同一なら合筆可）は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-kisoku-1.md`で確認した不動産登記法41条6号・不動産登記規則105条の条文レベルで確認できたものです。ア（敷地権である旨の登記がある土地は合筆不可）についても、規則105条が引き継げる権利を「承役地の地役権・条件が同一の担保権・条件が同一の信託・条件が同一の鉱害賠償登録」の4類型に限定列挙しており、敷地権である旨の登記はこの列挙に含まれないことを条文で確認しました（2026-08-20追記）。敷地権という語そのものが41条・105条に直接登場するわけではなく、限定列挙からの反対解釈という一段階の推論を伴う点には留意してください。なお、この解釈に基づき「敷地権があっても合筆できる例外」は規則上存在しない、という補足説明を本文アの直後に追記しました。
 - ウ（破産手続終結後は開始の登記を抹消しなくても合筆できる）については、破産の登記のある土地は合筆できないという原則の例外的な取扱いであり、条文の直接の文言ではなく実務上の取扱い・二次資料からの理解にとどまります。念のため各自でも確認してください。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文の確認を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（合筆の登記の制限）と同一の問題が再出題されていないかを確認しました。「合筆の登記」自体は平成28年度第10問・令和2年度第10問でも再出題されるテーマですが、類似度は最大でも0.33程度です。肢単位でも、信託の登記がある土地の合筆可否を問う本問の肢エと令和2年度第10問の肢ウは論点は共通するものの、本問は「合筆できる」という正しい肢、令和2年度は「合筆できない」という誤りの肢として、逆方向から出題されており、また敷地権・先取特権・破産手続・財産管理人という他4肢の組合せも異なります。**問題全体としての重複は見つかりませんでした**が、合筆の登記の制限規定（不動産登記法41条）は繰り返し問われる頻出論点である点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（合筆の登記の制限）と同一の問題が再出題されていないかを確認しました。「合筆の登記」自体は平成28年度第10問・令和2年度第10問でも再出題されるテーマですが、類似度は最大でも0.33程度です。肢単位でも、信託の登記がある土地の合筆可否を問う本問のエと令和2年度第10問のウは論点は共通するものの、本問は「合筆できる」という正しい肢、令和2年度は「合筆できない」という誤りの肢として、逆方向から出題されており、また敷地権・先取特権・破産手続・財産管理人という他4肢の組合せも異なります。**問題全体としての重複は見つかりませんでした**が、合筆の登記の制限規定（不動産登記法41条）は繰り返し問われる頻出論点である点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -111,10 +131,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -150,13 +188,13 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 Badge: a filled circle containing the number 2 (numbers run continuously).
 
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-先取特権は日付が同じでも合筆できない
+担保権は受付番号まで同一でないと不可
 
-Illustration: Two land plots each with a 先取特権 tag showing identical dates, with a merge-arrow crossed out by a ✕ and a label「日付が同じでもダメ」.
+Illustration: Two land plots each with a 先取特権 tag showing the same 登記の目的 and the same 登記原因及びその日付 but visibly different 受付番号, with a merge-arrow crossed out by a ✕ and a label「受付番号が違うとダメ」.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
-先取特権は合筆不可
+受付番号まで一致が必要
 
 
 --- CARD 3 ---
@@ -203,25 +241,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・エは、「規則105条が定める4つの例外（地役権・担保権・信託・鉱害賠償登録）のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウは開始・終結の登記の有無を確認する別の決定木、肢オは合筆が管理行為か処分行為かを見分ける対比枠型とする。
+ア・イ・エは、「規則105条が定める4つの例外（地役権・担保権・信託・鉱害賠償登録）のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。ウは開始・終結の登記の有無を確認する別の決定木、オは合筆が管理行為か処分行為かを見分ける対比枠型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -297,7 +333,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -321,7 +357,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 敷地権は例外に非該当
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -344,7 +380,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 4項目全部一致が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -363,7 +399,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 終結登記があれば合筆可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -384,7 +420,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 信託目録が同一なら合筆可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -409,7 +445,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法41条6号・不動産登記規則105条（ア・イ・エ）、民法28条
-（オ）。判例・先例番号は省略。
+（オ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

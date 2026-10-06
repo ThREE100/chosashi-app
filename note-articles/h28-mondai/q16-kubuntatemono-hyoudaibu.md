@@ -2,31 +2,39 @@
 
 **出題年度：平成28年度　午後の部　第16問**
 
-> 区分建物の表題部に関する登記の申請に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　区分建物である建物を新築した株式会社Ａを株式会社Ｂが吸収合併したときは，株式会社Ｂは，同社を表題部所有者とする区分建物の表題登記を申請することができる。
->
-> イ　区分建物の表題登記をその原始取得者の相続人が申請するときは，所有権を証する情報の一部として相続を証する情報を提供しなければならない。
->
-> ウ　敷地権があるのにその登記をしないで区分建物の表題登記がされていた場合において，建物の表題部の更正の登記を申請するときは，敷地権の表示の登記原因及びその日付も申請情報の内容としなければならない。
->
-> エ　表題登記がない区分建物の処分の制限の登記の嘱託は，当該区分建物が属することとなった一棟の建物に属する他の区分建物についての表題登記の嘱託と併せてすることを要しない。
->
-> オ　敷地権となる敷地の所有権の登記名義人の表示と専有部分の所有権の登記名義人の表示とが一致していないときは，敷地権の発生を原因とする区分建物の表題部の変更の登記の申請は，添付情報として各所有者の同一性を証する情報を提供してすることができる。
->
+> 区分建物の表題部に関する登記の申請に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　区分建物である建物を新築した株式会社Ａを株式会社Ｂが吸収合併したときは，株式会社Ｂは，同社を表題部所有者とする区分建物の表題登記を申請することができる。  
+>　  
+> イ　区分建物の表題登記をその原始取得者の相続人が申請するときは，所有権を証する情報の一部として相続を証する情報を提供しなければならない。  
+>　  
+> ウ　敷地権があるのにその登記をしないで区分建物の表題登記がされていた場合において，建物の表題部の更正の登記を申請するときは，敷地権の表示の登記原因及びその日付も申請情報の内容としなければならない。  
+>　  
+> エ　表題登記がない区分建物の処分の制限の登記の嘱託は，当該区分建物が属することとなった一棟の建物に属する他の区分建物についての表題登記の嘱託と併せてすることを要しない。  
+>　  
+> オ　敷地権となる敷地の所有権の登記名義人の表示と専有部分の所有権の登記名義人の表示とが一致していないときは，敷地権の発生を原因とする区分建物の表題部の変更の登記の申請は，添付情報として各所有者の同一性を証する情報を提供してすることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-区分建物の表題登記は、「原始取得者（新築した者）だけに申請義務がある」という原則が土台になっています。本問は、この原則が合併・相続でどう扱われるか、また敷地権の更正・処分の制限の嘱託・登記名義人の表示不一致という応用場面でどう扱われるかを問う問題です。
+---
+
+区分建物の表題登記は、「原始取得者（新築した者）だけに申請義務がある」という原則が土台になっています。
+
+本問は、この原則が合併・相続でどう扱われるか、また敷地権の更正・処分の制限の嘱託・登記名義人の表示不一致という応用場面でどう扱われるかを問う問題です。
 
 ### ア：吸収合併した会社Bではなく、新築した会社A（原始取得者）を表題部所有者とする
 
-区分建物の表題登記を申請する義務は、その建物を新築した所有者（原始取得者）にのみ課されており、相続その他の一般承継人や転得者には申請義務がありません（不動産登記法47条1項・2項）。株式会社Aを吸収合併した株式会社Bは一般承継人にあたるため、B自身を表題部所有者とする表題登記を申請することはできず、あくまで原始取得者であるAを表題部所有者とする表題登記を申請することになります。
+区分建物の表題登記を申請する義務は、その建物を新築した所有者（原始取得者）にのみ課されており、相続その他の一般承継人や転得者には申請義務がありません（不動産登記法47条1項・2項）。
+
+株式会社Aを吸収合併した株式会社Bは一般承継人にあたるため、B自身を表題部所有者とする表題登記を申請することはできず、あくまで原始取得者であるAを表題部所有者とする表題登記を申請することになります。
 
 **たとえば**、区分建物を新築した株式会社A（その後、株式会社Bに吸収合併され消滅）について表題登記をする場合、株式会社Bは「合併したのだから自社を表題部所有者にできる」と考えがちですが、実際には表題部所有者となるのはあくまで新築した株式会社Aであり、Bはその旨の表題登記を申請する立場にとどまります。
 
 ### イ：相続人が提供する相続証明情報は、一般承継証明情報として提供する
 
-原始取得者の相続人が区分建物の表題登記を申請する場合、相続があったことを証する情報を提供する必要がありますが、これは所有権を証する情報（不動産登記令7条1項6号、別表12項添付情報ハ）の一部としてではなく、一般承継証明情報（令7条1項4号、別表12項添付情報ト）として提供します。原始取得者（被相続人）自身が新築による所有権を取得したことを証する情報と、相続人がその地位を承継したことを証する情報とは、扱いが区別されているためです。
+原始取得者の相続人が区分建物の表題登記を申請する場合、相続があったことを証する情報を提供する必要がありますが、これは所有権を証する情報（不動産登記令7条1項6号、別表12項添付情報ハ）の一部としてではなく、一般承継証明情報（令7条1項4号、別表12項添付情報ト）として提供します。
+
+原始取得者（被相続人）自身が新築による所有権を取得したことを証する情報と、相続人がその地位を承継したことを証する情報とは、扱いが区別されているためです。
 
 **たとえば**、区分建物を新築したAさんが亡くなり、その相続人であるCさんが表題登記を申請する場合、Cさんが提供する戸籍謄本等の相続証明情報は、「Aさんが所有権を取得したことの証明の一部」としてではなく、「一般承継（相続）があったことの証明」として提供することになります。
 
@@ -38,15 +46,25 @@
 
 ### エ：未登記の区分建物への処分の制限の登記の嘱託は、他の区分建物の表題登記の嘱託と別々にできる
 
-表題登記がない不動産について嘱託により所有権の処分の制限の登記（差押え等）をするときは、不動産登記法75条の規定が準用され（同法76条3項）、登記官は職権でその不動産についての表示に関する登記事項を登記します。区分建物についてこの嘱託があった場合も同様に、登記官は職権でその区分建物についてのみ表題部を作成することができ、同じ一棟の建物に属する他の区分建物についての表題登記の嘱託とあわせて一括して行う必要はありません（なお、この職権登記の際に表題部所有者に関する登記事項・登記原因及びその日付・敷地権の登記原因及びその日付は記録されません。不動産登記規則157条1項）。通常、区分建物の表題登記は一棟全体について一括申請するのが原則ですが、処分の制限の登記の嘱託を契機に登記官が職権で表題部を作成する場面はこの原則の例外にあたります。
+表題登記がない不動産について嘱託により所有権の処分の制限の登記（差押え等）をするときは、不動産登記法75条の規定が準用され（同法76条3項）、登記官は職権でその不動産についての表示に関する登記事項を登記します。
 
-**たとえば**、あるマンションの1室について差押えの嘱託があり、そのマンション全体がまだ未登記だったとします。この場合、登記官はその1室についてのみ職権で表題部を作成することができ、マンションの他の全ての部屋の表題登記の嘱託を同時に済ませる必要はありません（ただし、残りの部屋については、原則どおり一括して表題登記を申請する必要があります）。
+区分建物についてこの嘱託があった場合も同様に、登記官は職権でその区分建物についてのみ表題部を作成することができ、同じ一棟の建物に属する他の区分建物についての表題登記の嘱託とあわせて一括して行う必要はありません（なお、この職権登記の際に表題部所有者に関する登記事項・登記原因及びその日付・敷地権の登記原因及びその日付は記録されません。不動産登記規則157条1項）。
+
+通常、区分建物の表題登記は一棟全体について一括申請するのが原則ですが、処分の制限の登記の嘱託を契機に登記官が職権で表題部を作成する場面はこの原則の例外にあたります。
+
+**たとえば**、あるマンションの1室について差押えの嘱託があり、そのマンション全体がまだ未登記だったとします。
+
+この場合、登記官はその1室についてのみ職権で表題部を作成することができ、マンションの他の全ての部屋の表題登記の嘱託を同時に済ませる必要はありません（ただし、残りの部屋については、原則どおり一括して表題登記を申請する必要があります）。
 
 ### オ：登記名義人の表示が一致しないときは、まず表示の変更・更正登記を要する
 
-敷地権となる敷地の所有権登記名義人の表示（氏名・名称・住所）と、専有部分の所有権登記名義人の表示とが一致していない場合、敷地権の発生を原因とする区分建物の表題部の変更の登記を申請するには、その前提として登記名義人の表示の変更または更正の登記をしておく必要があります。単に「両者が同一人物である」ことを証する情報を提供するだけで、直ちに変更登記を申請することはできません。
+敷地権となる敷地の所有権登記名義人の表示（氏名・名称・住所）と、専有部分の所有権登記名義人の表示とが一致していない場合、敷地権の発生を原因とする区分建物の表題部の変更の登記を申請するには、その前提として登記名義人の表示の変更または更正の登記をしておく必要があります。
+
+単に「両者が同一人物である」ことを証する情報を提供するだけで、直ちに変更登記を申請することはできません。
 
 **たとえば**、敷地の所有権登記名義人が「山田太郎（旧住所）」、専有部分の所有権登記名義人が「山田太郎（新住所）」というように表示が食い違っている場合、「同一人物です」と証明する情報を提供するだけでは足りず、まず敷地側について住所変更の登記を済ませておく必要があります。
+
+---
 
 ### まとめ
 
@@ -108,11 +126,19 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・建・物・登・記・所・相・続 — these must be rendered in their standard
+kanji 権・地・登・記・所・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -201,8 +227,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -217,7 +243,7 @@ edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「申請人は原始取得者本人か、その一般承継人か」「敷地権遺漏の更正で申請情報に何を書くか」「表題部が作られるきっかけは処分の制限の嘱託か」「登記名義人の表示は一致しているか」を、どの順番で確認すればよいかを示す解き方ガイド。ア・イは同じ判定フロー（申請人は原始取得者本人か→一般承継人なら何に気をつけるか）を共有し、それぞれ自分の枝だけを強調する構成にそろえてある。エは「一棟一括申請の原則」と「処分の制限の嘱託による職権登記の例外」を分岐の両側に明記し、オは「同一性証明情報で済ませる近道」を✕の枝として可視化している。
 
@@ -300,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -313,7 +339,7 @@ merger arrow labeled「吸収合併（Aは消滅）」to a corporate building ic
 labeled「株式会社B（一般承継人）」holding a 表題登記 application form.
 Below the start node, diamond node A labeled「申請人は区分建物を新築した
 原始取得者本人か？」. Its "はい" arrow leads to a small conclusion node
-「原始取得者が自ら申請する（本問の場面ではない）」. Its "いいえ" arrow leads
+「原始取得者が自ら申請し、表題部所有者となる」. Its "いいえ" arrow leads
 down to a node labeled「申請人は原始取得者の一般承継人（吸収合併した会社・
 相続人）」, which then splits into two separate result boxes placed side by
 side: left box ア, headed by the question「表題部所有者は誰にするか？」and
@@ -333,7 +359,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部所有者は原始取得者
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続証明は所有権証明でなく一般承継証明として出す
@@ -343,7 +369,7 @@ figure labeled「Aさん（区分建物を新築した原始取得者・死亡�
 downward family line labeled「相続」to an heir figure labeled「Cさん
 （相続人）」holding a 表題登記 application form. Diamond node A「申請人は
 区分建物を新築した原始取得者本人か？」: its "はい" arrow leads to the small
-conclusion node「原始取得者が自ら申請する（本問の場面ではない）」, and its
+conclusion node「原始取得者が自ら申請し、表題部所有者となる」, and its
 "いいえ" arrow leads down to the node「申請人は原始取得者の一般承継人（吸収
 合併した会社・相続人）」, which splits into the same two result boxes: left
 box ア「表題部所有者は誰にするか？」and right box イ「相続を証する情報は
@@ -366,7 +392,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一般承継証明情報で提出
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 敷地権遺漏の更正では登記原因と日付まで申請情報に書く
@@ -394,7 +420,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原因日付も必須
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 処分制限の嘱託なら他の部屋の表題登記と別々にできる
@@ -426,7 +452,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 他の部屋とは別々でよい
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 名義人の表示が食い違えば先に表示の変更・更正登記
@@ -436,8 +462,8 @@ name-tag icons for the same person, left tag labeled「敷地の所有権登記
 名義人：山田太郎（旧住所）」and right tag labeled「専有部分の所有権登記
 名義人：山田太郎（新住所）」, with a warning mark between the mismatched
 addresses. Diamond node labeled「敷地と専有部分の所有権登記名義人の表示は
-一致しているか？」: its "はい" arrow leads to a small faded, dotted-outline
-node「本問の場面ではない」; its "いいえ" arrow (THIS panel's path, thick
+一致しているか？」: its "はい" arrow leads to its own small conclusion node
+drawn in a lighter style「そのまま表題部の変更の登記を申請できる」; its "いいえ" arrow (THIS panel's path, thick
 blue highlighted border) leads down to a fork into two routes. Left route,
 a shortcut arrow labeled「同一性を証する情報を添付して、直ちに表題部の
 変更の登記を申請」, blocked by a large red ✕ and a label「不可」. Right

@@ -2,27 +2,33 @@
 
 **出題年度：平成25年度　午後の部　第12問**
 
-> 建物の種類又は構造に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうち、どれか。
->
-> ア　屋根の種類が２種類である建物について、その建物の構造を定める場合には、屋根の種類による区分として、屋根全体の面積に対する割合が１０％以上の屋根の種類により、定めなければならない。
->
-> イ　床面積に算入しない部分があり、当該部分の屋根の種類と他の部分の屋根の種類が異なる建物について、その建物の構造を定める場合には、屋根の種類による区分として、床面積に算入しない部分の屋根の種類によって定めることを要しない。
->
-> ウ　建物を階層的に区分してその一部を１個の区分建物とした区分建物である建物の登記記録の表題部においては、最上階の区分建物についてのみ、その専有部分の建物の表示欄中の構造欄に屋根の種類が記録される。
->
-> エ　建物の主な用途が２以上の場合には、当該２以上の用途により、建物の種類を定める。
->
-> オ　建物の各利用部分ごとに用途を異にして利用されている形態にある建物の種類は、「多目的ビル」と定める。
->
+> 建物の種類又は構造に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　屋根の種類が２種類である建物について、その建物の構造を定める場合には、屋根の種類による区分として、屋根全体の面積に対する割合が１０％以上の屋根の種類により、定めなければならない。  
+>　  
+> イ　床面積に算入しない部分があり、当該部分の屋根の種類と他の部分の屋根の種類が異なる建物について、その建物の構造を定める場合には、屋根の種類による区分として、床面積に算入しない部分の屋根の種類によって定めることを要しない。  
+>　  
+> ウ　建物を階層的に区分してその一部を１個の区分建物とした区分建物である建物の登記記録の表題部においては、最上階の区分建物についてのみ、その専有部分の建物の表示欄中の構造欄に屋根の種類が記録される。  
+>　  
+> エ　建物の主な用途が２以上の場合には、当該２以上の用途により、建物の種類を定める。  
+>　  
+> オ　建物の各利用部分ごとに用途を異にして利用されている形態にある建物の種類は、「多目的ビル」と定める。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
+
+---
 
 建物の種類・構造の認定は、複数の要素をどう組み合わせて表示するか、どの表題部に記録するかといった細かいルールが多く、丸暗記だけでは対応しづらい分野です。ここでは「単純に1つだけを選ぶわけではない」という視点を軸に整理していきます。
 
 ### ア：屋根の種類の判定基準は「10％」ではなく「30％」
 
-屋根の種類が2種類以上ある建物について構造を定める場合、床面積に算入する部分の屋根面積のうち、その種類が占める割合がおおむね30％未満であれば、その屋根の種類は表示の対象とされません。逆に、複数の屋根の種類がいずれも30％以上を占めている場合には、それぞれの種類を組み合わせて表示します（例：「かわら・亜鉛メッキ鋼板ぶき」）。本肢は、この基準を「30％」ではなく「10％」としている点で誤りです。
+屋根の種類が2種類以上ある建物について構造を定める場合、床面積に算入する部分の屋根面積のうち、その種類が占める割合がおおむね30％未満であれば、その屋根の種類は表示の対象とされません。
 
-**たとえば**、瓦屋根が90％、スレート屋根が10％を占める建物であれば、10％しかないスレート屋根は表示の対象外となり、構造欄には瓦屋根のみが記録されます。一方、瓦屋根とスレート屋根がそれぞれ70％・30％程度で混在している場合には、双方とも30％以上を占めるため、組み合わせた形（例：「かわら・スレートぶき」）で記録されます。
+逆に、複数の屋根の種類がいずれも30％以上を占めている場合には、それぞれの種類を組み合わせて表示します（例：「かわら・亜鉛メッキ鋼板ぶき」）。本肢は、この基準を「30％」ではなく「10％」としている点で誤りです。
+
+**たとえば**、瓦屋根が90％、スレート屋根が10％を占める建物であれば、10％しかないスレート屋根は表示の対象外となり、構造欄には瓦屋根のみが記録されます。
+
+一方、瓦屋根とスレート屋根がそれぞれ70％・30％程度で混在している場合には、双方とも30％以上を占めるため、組み合わせた形（例：「かわら・スレートぶき」）で記録されます。
 
 ### イ：床面積に算入しない部分の屋根は、構造認定に使わなくてよい
 
@@ -47,6 +53,8 @@
 各利用部分ごとに用途が異なる建物であっても、建物の種類として「多目的ビル」という区分が定められているわけではありません。実際の用途（事務所・店舗・共同住宅など）をそのまま列記して種類を定めるのが正しい取扱いです。
 
 **たとえば**、1階が店舗、2階が事務所、3階以上が共同住宅になっているビルであっても、その種類は「多目的ビル」ではなく、「店舗・事務所・共同住宅」のように、実際の用途を並べて登記されます。
+
+---
 
 ### まとめ
 
@@ -109,12 +117,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・記・録 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -195,8 +221,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 （建物の種類に関する原則に2枚、建物の構造に関する原則に3枚）, with no
 duplicated or missing cards, that badge numbers run 1-5 continuously
@@ -204,10 +230,10 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -227,15 +253,15 @@ sheets. Where a 肢 requires checking multiple conditions in sequence
 before reaching a conclusion, draw the panel's diagram as an actual
 decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
-node. Panels 1 and 2（肢ア・肢イ）share the same underlying decision-tree
+node. Panels 1 and 2（ア・イ）share the same underlying decision-tree
 shape for determining a roof's structure: 屋根の各部分について、まず床面積
 に算入される部分かどうかを確認し（いいえなら構造認定の対象外）、算入され
 る部分についてはさらに、全体面積のおおむね30％以上を占めるかどうかを確認
 する（30％未満ならその屋根の種類は表示の対象外）。Draw both panels with the
 same two-diamond tree layout, but highlight（太い縁取り・色を変える等で
-強調）the branch relevant to that panel's 肢: Panel 2（肢イ）highlights the
+強調）the branch relevant to that panel's 肢: Panel 2（イ）highlights the
 first diamond (床面積算入の有無), rendering the second diamond faded and
-greyed out; Panel 1（肢ア）highlights the second diamond (30％基準),
+greyed out; Panel 1（ア）highlights the second diamond (30％基準),
 rendering the first diamond faded and greyed out. Where a 肢 is resolved
 by a single check, a labeled illustrative diagram is sufficient — do not
 force a flowchart. Unlike a glanceable summary poster, each panel MAY
@@ -283,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 屋根の基準は10%でなく30%
@@ -308,7 +334,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 30%未満は対象外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 算入外の屋根は構造判断で除外
@@ -331,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 考慮しなくてよい
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 屋根の種類は一棟の表題部のみに記録
@@ -350,7 +376,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一棟の表題部のみ
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 用途2つなら両方あわせて種類に
@@ -364,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方あわせて種類に
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 多目的ビルという種類区分はない
@@ -397,10 +423,10 @@ Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢ア・肢イ）is
+the header and the panels, that every multi-condition 肢（ア・イ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that the genuinely hidden second
-condition shared by 肢ア・肢イ（床面積算入の有無を先に確認しないと30%基準
+condition shared by ア・イ（床面積算入の有無を先に確認しないと30%基準
 だけでは足りないこと）has not been flattened into a single check, that
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no

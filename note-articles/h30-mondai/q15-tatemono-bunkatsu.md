@@ -2,53 +2,67 @@
 
 **出題年度：平成30年度　午後の部　第15問**
 
-> 建物の分割の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　主である建物と附属建物との間に道路が築造されたときは、登記官は、その建物の分割の登記を職権ですることができる。
->
-> イ　共用部分である旨の登記がある建物であっても、建物の分割の登記をすることができる。
->
-> ウ　甲建物の附属建物を分割して乙建物とする建物の分割の登記を申請する場合において、甲建物を増築したことにより床面積の変更が生じているときは、当該増築による表題部の変更の登記と当該建物の分割の登記とを一の申請情報によって申請することができる。
->
-> エ　抵当権の設定の登記がされている甲建物から、その附属建物を分割して乙建物とする建物の分割の登記をする場合において、分割後の甲建物について当該抵当権を消滅させるときは、当該抵当権の登記名義人がその消滅を承諾したことを証する情報及び登記識別情報を提供しなければならない。
->
-> オ　甲建物について所有権の登記がされた後、附属建物を新築したことによる甲建物の表題部の変更の登記がされている場合において、その附属建物を分割して乙建物とする建物の分割の登記の申請をしたときは、申請人があらかじめ登記識別情報の通知を希望しない旨の申出をしない限り、分割後の乙建物についての登記識別情報が通知される。
->
+> 建物の分割の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　主である建物と附属建物との間に道路が築造されたときは、登記官は、その建物の分割の登記を職権ですることができる。  
+>　  
+> イ　共用部分である旨の登記がある建物であっても、建物の分割の登記をすることができる。  
+>　  
+> ウ　甲建物の附属建物を分割して乙建物とする建物の分割の登記を申請する場合において、甲建物を増築したことにより床面積の変更が生じているときは、当該増築による表題部の変更の登記と当該建物の分割の登記とを一の申請情報によって申請することができる。  
+>　  
+> エ　抵当権の設定の登記がされている甲建物から、その附属建物を分割して乙建物とする建物の分割の登記をする場合において、分割後の甲建物について当該抵当権を消滅させるときは、当該抵当権の登記名義人がその消滅を承諾したことを証する情報及び登記識別情報を提供しなければならない。  
+>　  
+> オ　甲建物について所有権の登記がされた後、附属建物を新築したことによる甲建物の表題部の変更の登記がされている場合において、その附属建物を分割して乙建物とする建物の分割の登記の申請をしたときは、申請人があらかじめ登記識別情報の通知を希望しない旨の申出をしない限り、分割後の乙建物についての登記識別情報が通知される。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
 
 ---
 
-建物の分割の登記は、1個の建物の中にある附属建物を切り離して、別の1個の建物（別の登記記録）に独立させる登記です。土地の分筆と発想が似ていて、所有者の意思に基づいて新しい登記記録をつくる「形成的登記」であるという性格が、いくつもの肢の正誤を分ける鍵になっています。
+建物の分割の登記は、1個の建物の中にある附属建物を切り離して、別の1個の建物（別の登記記録）に独立させる登記です。
+
+土地の分筆と発想が似ていて、所有者の意思に基づいて新しい登記記録をつくる「形成的登記」であるという性格が、いくつもの肢の正誤を分ける鍵になっています。
 
 ### ア：分割の登記は職権ではされず、所有者の意思に基づいてされる
 
-建物の分割の登記は、土地の分筆の登記と同じく、所有者の意思に基づいて新たな建物（登記記録）をつくる形成的登記です。したがって、登記官が職権で分割することはありません。また、主である建物と附属建物が国道を隔てているなど地理的に離れていても、効用上一体として利用されていれば1個の建物として扱われるため、道路が築造されたことを理由に職権で分割されることもありません。
+建物の分割の登記は、土地の分筆の登記と同じく、所有者の意思に基づいて新たな建物（登記記録）をつくる形成的登記です。したがって、登記官が職権で分割することはありません。
+
+また、主である建物と附属建物が国道を隔てているなど地理的に離れていても、効用上一体として利用されていれば1個の建物として扱われるため、道路が築造されたことを理由に職権で分割されることもありません。
 
 **たとえば**、自宅の母屋と、道路を挟んだ向かい側にある離れを1個の建物（母屋＋附属建物）として登記している場合でも、間に道路ができたからといって登記官が勝手に2個に分けてくれるわけではなく、分けたいなら所有者自身が分割の登記を申請する必要があります。
 
 ### イ：共用部分である旨の登記がある建物でも、分割の登記はできる
 
-共用部分である旨の登記がある建物であっても、建物の分割の登記をすることができます。分割は1個の建物を分けて登記記録を独立させるだけの手続なので、共用部分の性質と矛盾しないためです。これに対して、共用部分である旨の登記がある建物は、他の建物との「合併」の登記はすることができません。「分割はできるが合併はできない」という対比が狙われています。
+共用部分である旨の登記がある建物であっても、建物の分割の登記をすることができます。分割は1個の建物を分けて登記記録を独立させるだけの手続なので、共用部分の性質と矛盾しないためです。
+
+これに対して、共用部分である旨の登記がある建物は、他の建物との「合併」の登記はすることができません。「分割はできるが合併はできない」という対比が狙われています。
 
 **たとえば**、マンションの集会室として共用部分である旨の登記がされている建物について、後から一部を切り離して別の建物にする分割の登記は認められますが、逆に別の建物とまとめる合併の登記は認められません。
 
 ### ウ：増築による表題部変更の登記と分割の登記は、一の申請情報でできる
 
-同一の建物についてする二以上の登記が、建物の表題部の変更の登記または更正の登記と、分割の登記・区分の登記・合併の登記であるときは、一の申請情報によって申請することができます（規則35条7号）。本肢は、甲建物を増築したことによる表題部の変更の登記と、甲建物の附属建物を分割して乙建物とする分割の登記を、まとめて申請する場面なので、これに当たります。
+同一の建物についてする二以上の登記が、建物の表題部の変更の登記または更正の登記と、分割の登記・区分の登記・合併の登記であるときは、一の申請情報によって申請することができます（規則35条7号）。
+
+本肢は、甲建物を増築したことによる表題部の変更の登記と、甲建物の附属建物を分割して乙建物とする分割の登記を、まとめて申請する場面なので、これに当たります。
 
 **たとえば**、母屋を増築して床面積が増えたのと同時に、庭の物置を独立した建物にしたいというとき、その増築による表題部変更の登記と分割の登記を、1通の申請書にまとめて申請することができます。
 
 ### エ：抵当権を消滅させるのに、登記識別情報の提供までは要しない
 
-所有権以外の権利に関する登記（抵当権、根抵当権、地上権、賃借権、買戻権、所有権移転仮登記など）のある建物を分割する場合、権利者が、分割後の1個を除いた他の建物についてその権利の消滅を承諾したことを証する情報を提供することで、分割後の1個のみに権利を存続させ、他の建物からは権利を消滅させることができます（法54条3項、40条）。もっとも、この場面で必要なのは消滅を承諾したことを証する情報であり、本肢のように登記識別情報の提供までは要しません。
+所有権以外の権利に関する登記（抵当権、根抵当権、地上権、賃借権、買戻権、所有権移転仮登記など）のある建物を分割する場合、権利者が、分割後の1個を除いた他の建物についてその権利の消滅を承諾したことを証する情報を提供することで、分割後の1個のみに権利を存続させ、他の建物からは権利を消滅させることができます（法54条3項、40条）。
+
+もっとも、この場面で必要なのは消滅を承諾したことを証する情報であり、本肢のように登記識別情報の提供までは要しません。
 
 **たとえば**、抵当権が付いた建物から附属建物を切り離して乙建物とし、もとの甲建物のほうから抵当権を消す場合、抵当権者の承諾書は必要ですが、それに加えて抵当権者の登記識別情報まで出してもらう必要はありません。
 
 ### オ：分割の登記が完了しても、登記識別情報は通知されない
 
-登記識別情報が通知されるのは、申請人が自ら登記名義人となる登記が完了したとき、または表示に関する登記のうち所有権の登記がある土地の合筆・建物の合体・建物の合併の登記が完了したときに限られます（法21条、令8条1項1号〜3号）。建物の分割の登記が完了しても、新たに登記名義人となる場面ではないため、分割後の乙建物について登記識別情報が通知されることはありません。
+登記識別情報が通知されるのは、申請人が自ら登記名義人となる登記が完了したとき、または表示に関する登記のうち所有権の登記がある土地の合筆・建物の合体・建物の合併の登記が完了したときに限られます（法21条、令8条1項1号〜3号）。
+
+建物の分割の登記が完了しても、新たに登記名義人となる場面ではないため、分割後の乙建物について登記識別情報が通知されることはありません。
 
 **たとえば**、所有権の登記がある甲建物から附属建物を切り離して乙建物とする分割の登記をしても、乙建物について新しい登記識別情報（いわゆる登記の「パスワード」）が届くことはなく、通知を希望するかどうかの申出も関係ありません。
+
+---
 
 ### まとめ
 
@@ -115,13 +129,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・属・証・識・当 — these must
+kanji 号・録・権・建・物・登・記・所・属・証・識・当 — these must
 be rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -207,20 +239,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、建物の分割の登記の可否・添付情報・登記識別情報の要否を判断するときに、実際にどの順番で何を確認すればよいかを、肢ごとに図解する作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに判定の順序を明示する「着眼点」の短い説明文を添えている。
 
@@ -284,8 +316,7 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa. Pay
-special attention to the kanji 号・録・権・地・番・建・物・登・記・所・
-属・証・識・当・職・築・併・抵 — these must be rendered in their standard
+special attention to the kanji 号・権・地・番・建・物・登・記・所・属・証・識・当・職・築・併・抵 — these must be rendered in their standard
 Japanese forms, never as Simplified or Traditional Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -308,7 +339,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -330,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 職権ではしない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 共用部分でも分割はできる
@@ -348,7 +379,7 @@ icon で切り分ける矢印を重ね、緑のチェックマークを添える
 Conclusion tag (blue, 5-15 Japanese characters):
 分割はできる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 変更登記と分割登記は一括申請できる
@@ -367,7 +398,7 @@ application-form icon が並んでいる結論ノード「原則どおり別々�
 Conclusion tag (blue, 5-15 Japanese characters):
 一括申請できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 必要なのは承諾情報で識別情報は不要
@@ -384,7 +415,7 @@ icon に赤い禁止（進入禁止）マークを重ねる。
 Conclusion tag (blue, 5-15 Japanese characters):
 識別情報は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分割では登記識別情報は通知されない
@@ -414,8 +445,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 号・録・権・地・番・建・物・登・記・
-所・属・証・識・当・職・築・併・抵. If any character renders as a
+Chinese, paying special attention to 号・権・地・番・建・物・登・記・所・属・証・識・当・職・築・併・抵. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Also scan the entire canvas for any character that
 is not standard Japanese hiragana, katakana, or Jōyō kanji — including

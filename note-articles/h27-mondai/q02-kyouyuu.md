@@ -2,51 +2,69 @@
 
 **出題年度：平成27年度　午後の部　第2問**
 
-> 共有に関する次のアからオまでの記述のうち，判例の趣旨に照らし正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　Ａ，Ｂ及びＣが共有し，所有権の登記名義人となっている土地（持分は各3分の1）について，ＡがＢ及びＣに無断で自己の単独名義への所有権の移転の登記をした場合には，Ｂは，Ａに対して，Ｃの持分については所有権の移転の登記の抹消登記手続を請求することができない。
->
-> イ　Ａ及びＢが共有し，所有権の登記名義人となっている土地（持分はＡが3分の2，Ｂが3分の1）について，ＣがＢのみの承諾を得て占有している場合には，Ａは，Ｃに対して，当該土地の全部の明渡しを請求することができる。
->
-> ウ　Ａ及びＢが共有し，所有権の登記名義人となっている土地（持分は各2分の1）がＣにより不法に占有されたことを理由として，Ａが，Ｃに対して，その損害賠償を求める場合には，Ａは，Ｂの持分の割合に応じた部分も含めた損害全部につきこれを請求することができる。
->
-> エ　Ａ及びＢが共有し，所有権の登記名義人となっている土地（持分はＡが3分の2，Ｂが3分の1）について，ＡがＢに無断で宅地造成工事をして当該土地に変更を加えたときは，当該土地の原状の回復が可能であったとしても，Ｂは，Ａに対して，当該土地の原状回復を請求することができない。
->
-> オ　Ａ及びＢが共有し，所有権の登記名義人となっている土地（持分はＡが3分の2，Ｂが3分の1）について，Ａ及びＢが共同してＣに賃貸している場合において，Ｃの債務不履行を理由とする賃貸借契約の解除は，Ａが単独ですることができる。
->
+> 共有に関する次のアからオまでの記述のうち，判例の趣旨に照らし正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　Ａ，Ｂ及びＣが共有し，所有権の登記名義人となっている土地（持分は各3分の1）について，ＡがＢ及びＣに無断で自己の単独名義への所有権の移転の登記をした場合には，Ｂは，Ａに対して，Ｃの持分については所有権の移転の登記の抹消登記手続を請求することができない。  
+>　  
+> イ　Ａ及びＢが共有し，所有権の登記名義人となっている土地（持分はＡが3分の2，Ｂが3分の1）について，ＣがＢのみの承諾を得て占有している場合には，Ａは，Ｃに対して，当該土地の全部の明渡しを請求することができる。  
+>　  
+> ウ　Ａ及びＢが共有し，所有権の登記名義人となっている土地（持分は各2分の1）がＣにより不法に占有されたことを理由として，Ａが，Ｃに対して，その損害賠償を求める場合には，Ａは，Ｂの持分の割合に応じた部分も含めた損害全部につきこれを請求することができる。  
+>　  
+> エ　Ａ及びＢが共有し，所有権の登記名義人となっている土地（持分はＡが3分の2，Ｂが3分の1）について，ＡがＢに無断で宅地造成工事をして当該土地に変更を加えたときは，当該土地の原状の回復が可能であったとしても，Ｂは，Ａに対して，当該土地の原状回復を請求することができない。  
+>　  
+> オ　Ａ及びＢが共有し，所有権の登記名義人となっている土地（持分はＡが3分の2，Ｂが3分の1）について，Ａ及びＢが共同してＣに賃貸している場合において，Ｃの債務不履行を理由とする賃貸借契約の解除は，Ａが単独ですることができる。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-共有の分野は、ある行為が「保存行為（各自が単独でできる）」「管理行為（持分の過半数で決める）」「変更行為（全員の同意が必要）」のどれに当たるかを見分けられるかが勝負です。判例が積み重ねてきた具体的な結論も、この3分類の視点で整理すると覚えやすくなります。
+---
+
+共有の分野は、ある行為が「保存行為（各自が単独でできる）」「管理行為（持分の過半数で決める）」「変更行為（全員の同意が必要）」のどれに当たるかを見分けられるかが勝負です。
+
+判例が積み重ねてきた具体的な結論も、この3分類の視点で整理すると覚えやすくなります。
 
 ### ア：他の共有者名義への不実登記は、自己の持分の範囲でしか抹消を請求できない
 
-共有者の1人が勝手に自己の単独名義に移転登記をした場合、他の共有者は妨害排除として抹消登記手続を請求できますが、その範囲は自分の持分に対応する部分に限られるというのが判例の立場です。本肢ではＡの単独名義に移っており、Ｂが請求できるのはＢ自身の持分に関する抹消であって、Ｃの持分についてはＣが請求すべきですから、Ｂは請求できません。この肢は正しい記述です。
+共有者の1人が勝手に自己の単独名義に移転登記をした場合、他の共有者は妨害排除として抹消登記手続を請求できますが、その範囲は自分の持分に対応する部分に限られるというのが判例の立場です。
 
-**たとえば**、3人で3分の1ずつ共有している土地を、そのうちの1人が勝手に自分だけの名義に書き換えてしまったとします。他の1人が文句を言えるのは「自分の3分の1が奪われた部分」までで、もう1人の3分の1については、その本人が自分で取り戻すことになります。
+本肢ではＡの単独名義に移っており、Ｂが請求できるのはＢ自身の持分に関する抹消であって、Ｃの持分についてはＣが請求すべきですから、Ｂは請求できません。この肢は正しい記述です。
+
+**たとえば**、3人で3分の1ずつ共有している土地を、そのうちの1人が勝手に自分だけの名義に書き換えてしまったとします。
+
+他の1人が文句を言えるのは「自分の3分の1が奪われた部分」までで、もう1人の3分の1については、その本人が自分で取り戻すことになります。
 
 ### イ：過半数の持分でも、占有する第三者に当然には全部明渡しを請求できない
 
-共有持分の価格が過半数を超えていても、共有者の1人（または一部）の承諾を得て土地を使っている第三者に対して、当然には明渡しを請求できないというのが判例の立場です。占有には一応の根拠があるため、明渡しを求めるには相応の理由が必要だからです。過半数の持分をもつＡが「当然に全部の明渡しを請求できる」とする本肢は誤りです。
+共有持分の価格が過半数を超えていても、共有者の1人（または一部）の承諾を得て土地を使っている第三者に対して、当然には明渡しを請求できないというのが判例の立場です。
+
+占有には一応の根拠があるため、明渡しを求めるには相応の理由が必要だからです。過半数の持分をもつＡが「当然に全部の明渡しを請求できる」とする本肢は誤りです。
 
 **たとえば**、3分の2の持分をもつＡがいても、3分の1の持分をもつＢが「使っていいよ」と第三者Ｃに貸していた場合、Ａは「私が多数派だから今すぐ出ていけ」とは当然には言えません。
 
 ### ウ：不法占有者への損害賠償は、自己の持分に応じた部分しか請求できない
 
-共有物を不法に占有されたことによる損害賠償請求権は、各共有者が自己の持分に応じた範囲でのみ行使できるというのが判例の立場です。損害賠償請求権は各共有者に分割して帰属するからです。したがって、Ａが「Ｂの持分に応じた部分まで含めた損害全部」を請求できるとする本肢は誤りです。
+共有物を不法に占有されたことによる損害賠償請求権は、各共有者が自己の持分に応じた範囲でのみ行使できるというのが判例の立場です。
+
+損害賠償請求権は各共有者に分割して帰属するからです。したがって、Ａが「Ｂの持分に応じた部分まで含めた損害全部」を請求できるとする本肢は誤りです。
 
 **たとえば**、2分の1ずつ共有する土地を不法占有されて100万円の損害が出たとき、Ａが単独で請求できるのは自分の持分に応じた50万円までで、Ｂの分の50万円はＢ自身が請求することになります。
 
 ### エ：無断で加えられた変更は、各共有者が単独で原状回復を請求できる
 
-共有者の1人が他の共有者の同意なく共有物に変更を加えた場合、他の共有者は、原状回復が不能であるなどの特段の事情がない限り、各自の持分権に基づいて単独で原状回復を請求できるというのが判例の立場です。本肢は原状回復が可能な事案なので、Ｂは原状回復を請求できます。「請求することができない」とする本肢は誤りです。
+共有者の1人が他の共有者の同意なく共有物に変更を加えた場合、他の共有者は、原状回復が不能であるなどの特段の事情がない限り、各自の持分権に基づいて単独で原状回復を請求できるというのが判例の立場です。
+
+本肢は原状回復が可能な事案なので、Ｂは原状回復を請求できます。「請求することができない」とする本肢は誤りです。
 
 **たとえば**、共有の土地に、多数派のＡが少数派のＢに黙って宅地造成工事をしてしまったとします。工事を元に戻すことが可能なら、Ｂは自分の持分を守るために「元の状態に戻してほしい」と一人でも請求できます。
 
 ### オ：共有物の賃貸借の解除は管理行為なので、過半数の持分で単独でもできる
 
-共有物を賃貸している場合、賃借人の債務不履行を理由とする賃貸借契約の解除は、共有物の管理に関する事項として持分価格の過半数で決めることができるというのが判例の立場です（民法252条1項）。契約解除は本来全員でするのが原則ですが（民法544条1項）、共有物の管理についてはこの例外が認められています。本肢のＡは3分の2の持分をもつので、単独で解除できます。この肢は正しい記述です。
+共有物を賃貸している場合、賃借人の債務不履行を理由とする賃貸借契約の解除は、共有物の管理に関する事項として持分価格の過半数で決めることができるというのが判例の立場です（民法252条1項）。
+
+契約解除は本来全員でするのが原則ですが（民法544条1項）、共有物の管理についてはこの例外が認められています。本肢のＡは3分の2の持分をもつので、単独で解除できます。この肢は正しい記述です。
 
 **たとえば**、ＡとＢが共同で貸していた土地の借主が家賃を払わなくなったとき、3分の2の持分をもつＡは、Ｂの同意がなくても、自分の過半数の持分だけで賃貸借契約を解除できます。
+
+---
 
 ### まとめ
 
@@ -109,13 +127,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 共・有・持・分・抹・消・登・記・請・求・明・渡・損・害・賠・償・原・状・回・
 復・管・理・賃・貸・解・除 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -201,18 +237,18 @@ these 5 headings):
 5. 賃貸借の解除は過半数の持分でOK
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -232,15 +268,15 @@ rental-house icon for 管理行為. This article's own organizing idea is that
 every 肢 turns on classifying the disputed act as 保存行為（各自が単独で
 できる）・管理行為（持分の過半数で決める）・変更行為（全員の同意が必要）
 のいずれかに当たるかを見分けること — draw every panel's checking order
-around that classification. Panels 1 and 3 (肢ア・肢ウ) share the same
-underlying decision-tree shape (共有物への侵害に対して単独で請求できる
+around that classification. Panels 1 and 3 (ア・ウ) share the same
+underlying check-flow shape (共有物への侵害に対して単独で請求できる
 としても、その範囲は自己の持分に限られるという判定); draw both with the
-same single-diamond tree layout, but highlight（太い縁取り・色を変える等
-で強調）the branch relevant to that panel's 肢. Where a 肢 requires
-checking multiple conditions in sequence (肢ア・肢イ・肢ウ), draw the
-panel's diagram as an actual decision flowchart with diamond-shaped
-branch nodes, Yes/No（はい／いいえ）branch arrows, and a final conclusion
-node. Where a 肢 is resolved by a single classification check (肢エ・肢
+same layout of rectangular check boxes (no diamonds). Where a 肢 requires
+checking multiple conditions in sequence (ア・イ・ウ), draw the
+panel's diagram as a top-to-bottom flow of rectangular check boxes
+connected by single straight arrows, ending in a final conclusion node —
+do not use diamond-shaped nodes, because every answer is fixed by the
+facts of the 肢. Where a 肢 is resolved by a single classification check (エ・肢
 オ), a labeled illustrative diagram naming the act's category（変更行為／
 管理行為）is sufficient — do not force a full flowchart. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
@@ -252,7 +288,15 @@ fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -276,16 +320,16 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抹消請求は自分の持分の範囲だけ
-Diagram: A decision-tree flowchart. Start node: 共有者の1人Ａが、Ｂ・Ｃに
-無断で自己の単独名義への所有権移転登記をした（共有者3人、持分各3分の1）。
-Diamond node (drawn with a thicker highlighted border, since this is the
-branch this panel is about): 他の共有者が抹消登記を請求できる範囲は、
-不実登記全体か、それとも自己の持分に対応する部分だけか？with the 自己の
-持分のみ branch highlighted, leading to a conclusion node showing Bが自分
+Diagram: A check flow of rectangular boxes (no diamonds), top to bottom.
+Start node: 共有者の1人Ａが、Ｂ・Ｃに無断で自己の単独名義への所有権移転登記
+をした（共有者3人、持分各3分の1）。A single arrow leads to a check box
+(thick highlighted border): 他の共有者が請求できる抹消の範囲＝自己の持分に
+対応する部分だけ（不実登記全体ではない）. A single arrow leads to a
+conclusion node showing Bが自分
 の一等分の境界線だけを指し示し green checkmark で抹消登記手続請求 の
 文書を持つ一方、Ｃの持分についてはＣ自身が請求すべき部分として dashed
 boundary line で示される。
@@ -297,16 +341,17 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 自己の持分のみ請求可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 過半数持分でも当然の全部明渡しは不可
-Diagram: A decision-tree flowchart. Start node: 共有者の1人Ｂ（持分3分の
+Diagram: A check flow of rectangular boxes (no diamonds). Start node: 共有者の1人Ｂ（持分3分の
 1）の承諾を得て、第三者Ｃが土地を占有している（Ａの持分は3分の2）。
-Diamond node (highlighted): Ｃの占有には共有者の一部からの承諾という
-占有権原があるか？with a はい arrow leading to a second diamond node
-(highlighted): 過半数の持分をもつＡは、その一事だけで当然に全部の明渡し
-を請求できるか？with a いいえ arrow leading to a conclusion node showing
+Check box 1 (rectangle, NOT a diamond, highlighted): Ｃの占有には共有者の
+一部（Ｂ）からの承諾という占有権原がある. A single arrow leads to check
+box 2 (rectangle, highlighted): 過半数の持分をもつＡでも、その一事だけで
+当然に全部の明渡しは請求できない. A single arrow leads to a conclusion
+node showing
 majority owner Ａ pointing with a demand bubble 全部明渡し that has a red
 Ｘ mark over it, while Ｃ stays calmly in place.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -317,16 +362,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 当然の明渡し請求は不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 損害賠償も自分の持分の分だけ
-Diagram: The same decision-tree flowchart shape as Panel 1. Start node:
-共有者Ａ・Ｂ（持分各2分の1）の土地がＣに不法に占有された。Diamond node
-(drawn with a thicker highlighted border, distinct from Panel 1's
-highlighted branch): Ａが請求できる損害賠償の範囲は損害全部か、それとも
-自己の持分に応じた部分だけか？with the 自己の持分のみ branch highlighted,
-leading to a conclusion node showing unlawful occupier Ｃ handing over a
+Diagram: The same check-flow shape as Panel 1 (rectangular boxes, no
+diamonds). Start node: 共有者Ａ・Ｂ（持分各2分の1）の土地がＣに不法に占有
+された。A single arrow leads to a check box (thick highlighted border):
+Ａが請求できる損害賠償の範囲＝自己の持分に応じた部分だけ（損害全部では
+ない）. A single arrow leads to a conclusion node showing unlawful occupier Ｃ handing over a
 stack of coins labeled 損害賠償 that is split into two equal piles
 labeled Ａ分 and Ｂ分。Ａ takes only the Ａ分 pile with a green checkmark;
 the Ｂ分 pile has a red X mark and a small arrow pointing toward Ｂ.
@@ -338,7 +382,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 持分に応じた部分のみ
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 無断の変更行為は一人でも原状回復請求可
@@ -355,7 +399,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 単独で原状回復請求可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 賃貸借の解除は管理行為で過半数でOK
@@ -375,16 +419,16 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 民法252条1項（共有物の管理に関する事項は持分の過半数で決する）に基づく
-整理です。肢ア・イ・ウ・エの結論は判例の趣旨によるものです。
+整理です。ア・イ・ウ・エの結論は判例の趣旨によるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 共, 有, 持, 分, 抹, 消, 損, 害, 賠, 償, 管, 理, 賃, 貸, 解, 除.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 共, 有, 持, 分, 抹, 消, 損, 害, 賠, 償, 管, 理, 賃, 貸, 解, 除. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-every multi-condition 肢 (肢ア・肢イ・肢ウ) is drawn as an actual flowchart
+every multi-condition 肢 (ア・イ・ウ) is drawn as an actual flowchart
 with branch nodes (not a bare illustration with no visible decision
 structure), that each 着眼点 callout states a checking order rather than
 only a conclusion, confirm nothing is rendered below the last panel's

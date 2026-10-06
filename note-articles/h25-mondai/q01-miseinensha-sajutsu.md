@@ -2,77 +2,107 @@
 
 **出題年度：平成25年度　午後の部　第1問**
 
-> 未成年者Aが親権者Bの同意を得ることなく、自己が所有する甲土地についてCとの間で売買契約を締結した場合（以下この売買契約を「本件売買契約」という。）に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> なお、Aは、婚姻しておらず、また、甲土地に係る処分の許可及び営業の許可も、受けていないものとする。
->
-> ア　Aが成年者であることを信じさせるため詐術を用いた場合には、Aが未成年者であることをCが知っていたときであっても、Aは、本件売買契約を取り消すことができない。
->
-> イ　Aは、成年に達する前であっても、Bの同意を得れば、本件売買契約を追認することができる。
->
-> ウ　Aが成年に達する前に、CがBに対して1か月以内に本件売買契約を追認するかどうかを確答すべき旨の催告をした場合において、Bがその期間内に確答を発しないときは、本件売買契約を追認したものとみなされる。
->
-> エ　Cが甲土地を更にDに売却した場合には、Aは、Dに対して取消しの意思表示をしなければ、本件売買契約を取り消すことができない。
->
-> オ　Aは、成年に達した後、異議をとどめずに本件売買契約の代金をCから受領した場合には、本件売買契約を取り消すことができない。
->
+> 未成年者Aが親権者Bの同意を得ることなく、自己が所有する甲土地についてCとの間で売買契約を締結した場合（以下この売買契約を「本件売買契約」という。）に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> なお、Aは、婚姻しておらず、また、甲土地に係る処分の許可及び営業の許可も、受けていないものとする。  
+>　  
+> ア　Aが成年者であることを信じさせるため詐術を用いた場合には、Aが未成年者であることをCが知っていたときであっても、Aは、本件売買契約を取り消すことができない。  
+>　  
+> イ　Aは、成年に達する前であっても、Bの同意を得れば、本件売買契約を追認することができる。  
+>　  
+> ウ　Aが成年に達する前に、CがBに対して1か月以内に本件売買契約を追認するかどうかを確答すべき旨の催告をした場合において、Bがその期間内に確答を発しないときは、本件売買契約を追認したものとみなされる。  
+>　  
+> エ　Cが甲土地を更にDに売却した場合には、Aは、Dに対して取消しの意思表示をしなければ、本件売買契約を取り消すことができない。  
+>　  
+> オ　Aは、成年に達した後、異議をとどめずに本件売買契約の代金をCから受領した場合には、本件売買契約を取り消すことができない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
+
+---
 
 未成年者の法律行為の分野は、「誰が」「いつまでに」「どうやって」取り消し・追認できるのかという基本ルールに加えて、民法21条の詐術規定や、法定追認・催告といった周辺制度まで幅広く問われます。この問題は、その総復習にちょうどよい構成になっています。
 
 ### ア：相手方が未成年と知っていれば、詐術を使っても取消しは制限されない
 
-民法21条は「制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない」と定めていますが、これは相手方が実際にその詐術によって「成年者である」と誤信したことが前提です。相手方Cが最初からAが未成年者であると知っていた場合、Aがどれだけ巧妙な詐術を用いても、Cはそもそも誤信していないため、詐術と誤信との間に因果関係が生じません。したがって、この場合は民法21条の適用がなく、Aは本件売買契約を取り消すことができます。
+民法21条は「制限行為能力者が行為能力者であることを信じさせるため詐術を用いたときは、その行為を取り消すことができない」と定めていますが、これは相手方が実際にその詐術によって「成年者である」と誤信したことが前提です。
+
+相手方Cが最初からAが未成年者であると知っていた場合、Aがどれだけ巧妙な詐術を用いても、Cはそもそも誤信していないため、詐術と誤信との間に因果関係が生じません。
+
+したがって、この場合は民法21条の適用がなく、Aは本件売買契約を取り消すことができます。
 
 **たとえば**、未成年のAさんが年齢を偽る身分証を提示してCさんに土地を売ったとしても、Cさんが実は近所に住んでいてAさんが高校生であることを前から知っていたという場合、Aさんの偽装工作はCさんの誤信を生んでいないので、Aさんはあとから契約を取り消すことができます。
 
 **ここが分かりにくいポイント**：
-条文（民法21条）は「詐術を用いたときは、取り消すことができない」とだけ定めているため、多くの受験生は「詐術があった→即・取消し不可」という一直線のルールとして覚えてしまいがちです。この理解のまま本肢を読むと、「Aは詐術を用いた」という事実だけで思考が止まり、「だから取り消すことができない（＝本肢は正しい）」と即断してしまいます。
+条文（民法21条）は「詐術を用いたときは、取り消すことができない」とだけ定めているため、多くの受験生は「詐術があった→即・取消し不可」という一直線のルールとして覚えてしまいがちです。
 
-しかし、21条が未成年者の取消権を封じるのは、あくまで「詐術によって相手方が実際に成年者だと信じ込んだ」場合に限られます。詐術と、相手方の誤信との間に因果関係が必要というのが判例・通説の立場です。言い換えると、21条が働くには次の2つの要件がそろわなければなりません。
+この理解のまま本肢を読むと、「Aは詐術を用いた」という事実だけで思考が止まり、「だから取り消すことができない（＝本肢は正しい）」と即断してしまいます。
+
+しかし、21条が未成年者の取消権を封じるのは、あくまで「詐術によって相手方が実際に成年者だと信じ込んだ」場合に限られます。
+
+詐術と、相手方の誤信との間に因果関係が必要というのが判例・通説の立場です。言い換えると、21条が働くには次の2つの要件がそろわなければなりません。
 
 1. 制限行為能力者が詐術を用いたこと
 2. その詐術によって、相手方が実際に「行為能力者だ」と誤信したこと
 
-本肢は、あえてこの2番目の要件を崩す事実（「Aが未成年であることをCが知っていた」＝Cは誤信していない）を付け加えることで、正誤判定を逆転させる作りになっています。相手方Cは、Aの詐術がどれだけ巧妙であっても、そもそも「Aは未成年だ」と知っている以上、誤信のしようがありません。誤信が生じていない以上、詐術と結果との間の因果関係が欠け、21条は適用されず、Aは契約を取り消すことができます。21条は「詐術という行為そのもの」にペナルティを科す規定ではなく、「相手方が実際に騙されたかどうか」を問う規定である、という視点を持っておくと、本肢のようなひねりにも対応できます。
+本肢は、あえてこの2番目の要件を崩す事実（「Aが未成年であることをCが知っていた」＝Cは誤信していない）を付け加えることで、正誤判定を逆転させる作りになっています。
+
+相手方Cは、Aの詐術がどれだけ巧妙であっても、そもそも「Aは未成年だ」と知っている以上、誤信のしようがありません。誤信が生じていない以上、詐術と結果との間の因果関係が欠け、21条は適用されず、Aは契約を取り消すことができます。
+
+21条は「詐術という行為そのもの」にペナルティを科す規定ではなく、「相手方が実際に騙されたかどうか」を問う規定である、という視点を持っておくと、本肢のようなひねりにも対応できます。
 
 制限行為能力者制度そのものの基礎（未成年者の保護のしくみ）を先に整理しておきたい方は、[未成年者の基礎知識まとめ](../topics/mikoseinensha.md)もあわせてご覧ください。
 
 ### イ：未成年者は、成年に達する前でも法定代理人の同意があれば追認できる
 
-追認は、取消しの原因となっていた状況が消滅した後にしなければ効力を生じないのが原則ですが、制限行為能力者が法定代理人の同意を得て追認する場合は、この限りではありません。未成年者Aは、成年に達する前であっても、法定代理人Bの同意を得れば、単独で本件売買契約を追認することができます。
+追認は、取消しの原因となっていた状況が消滅した後にしなければ効力を生じないのが原則ですが、制限行為能力者が法定代理人の同意を得て追認する場合は、この限りではありません。
+
+未成年者Aは、成年に達する前であっても、法定代理人Bの同意を得れば、単独で本件売買契約を追認することができます。
 
 **たとえば**、未成年のAさんが親に内緒で結んだ契約について、あとで親であるBさんに事情を話して「この契約は続けたい」と伝え、Bさんが同意すれば、Aさんはまだ18歳になっていなくても、その場でこの契約を追認することができます。
 
 ### ウ：法定代理人が催告に無回答なら、追認したものとみなされる
 
-民法20条2項は、制限行為能力者の相手方が、その法定代理人等に対し、1か月以上の期間を定めて追認するかどうかを確答すべき旨の催告をすることができ、その期間内に確答を発しないときは追認したものとみなす、と定めています。CがBに対して行った催告がこの要件（1か月以上の期間を定めた催告）を満たしている以上、Bが期間内に確答しなければ、本件売買契約は追認されたものとみなされます。
+民法20条2項は、制限行為能力者の相手方が、その法定代理人等に対し、1か月以上の期間を定めて追認するかどうかを確答すべき旨の催告をすることができ、その期間内に確答を発しないときは追認したものとみなす、と定めています。
+
+CがBに対して行った催告がこの要件（1か月以上の期間を定めた催告）を満たしている以上、Bが期間内に確答しなければ、本件売買契約は追認されたものとみなされます。
 
 **たとえば**、Cさんが「1か月以内にこの契約を認めるかどうか返事をください」と親権者Bさんに書面で催告したのに、Bさんが期限までに何も返事をしなかった場合、この契約は自動的に追認されたことになり、あとからAさんが「やっぱり取り消したい」と言うことはできなくなります。
 
 ### エ：取消しの意思表示は、契約の相手方にすれば足りる
 
-取消権は、取消しの原因となっている契約の相手方（本件ではC）に対する意思表示によって行使します。契約の目的物がその後Cから転得者Dに転売されていたとしても、Aは転得者Dに対して個別に取消しの意思表示をする必要はなく、あくまで契約の相手方であるCに対して意思表示をすれば、取消しの効果は生じます。
+取消権は、取消しの原因となっている契約の相手方（本件ではC）に対する意思表示によって行使します。
+
+契約の目的物がその後Cから転得者Dに転売されていたとしても、Aは転得者Dに対して個別に取消しの意思表示をする必要はなく、あくまで契約の相手方であるCに対して意思表示をすれば、取消しの効果は生じます。
 
 **たとえば**、AさんがCさんに売った土地を、Cさんがさらに知らない人であるDさんに転売してしまったとしても、Aさんが契約を取り消したいときは、直接の契約相手であるCさんに「契約を取り消します」と伝えれば足り、Dさんを探し出して意思表示をする必要はありません。
 
 **ここが分かりにくいポイント**：
-本肢には転得者D（Cから土地をさらに買った人）が登場するため、「Dは無関係な第三者なのだから、Dにも何らかの形で意思表示をするか、対抗要件を備えないと、取消しの効果をDに主張できないのではないか」と直感的に考えてしまいがちです。不動産登記法や民法の別の場面（民法177条の対抗要件、詐欺取消しにおける96条3項の善意の第三者保護など）で「第三者との関係」を繰り返し学ぶため、その感覚を本肢にもそのまま持ち込んでしまうのが、間違いの典型的なパターンです。
+本肢には転得者D（Cから土地をさらに買った人）が登場するため、「Dは無関係な第三者なのだから、Dにも何らかの形で意思表示をするか、対抗要件を備えないと、取消しの効果をDに主張できないのではないか」と直感的に考えてしまいがちです。
+
+不動産登記法や民法の別の場面（民法177条の対抗要件、詐欺取消しにおける96条3項の善意の第三者保護など）で「第三者との関係」を繰り返し学ぶため、その感覚を本肢にもそのまま持ち込んでしまうのが、間違いの典型的なパターンです。
 
 しかし、「誰に対して取消しの意思表示をすべきか」という問題と、「取消しの効果を第三者にどう対抗するか」という問題は、まったく別のレイヤーの話です。
 
-1. **意思表示の相手方（民法123条）**：取消しは、常に契約の直接の相手方（本肢ではC）に対する意思表示によって行います。目的物がその後どれだけ転々と譲渡されていても、この「相手方」は変わりません。転得者Dに対して別途意思表示をする必要はありません。
+1. **意思表示の相手方（民法123条）**：取消しは、常に契約の直接の相手方（本肢ではC）に対する意思表示によって行います。
+
+目的物がその後どれだけ転々と譲渡されていても、この「相手方」は変わりません。転得者Dに対して別途意思表示をする必要はありません。
 2. **第三者との対抗関係**：取消しの効果を、その後に登場した第三者（D）にどこまで主張できるかは、民法177条（対抗要件）や、詐欺取消しの場合の96条3項のような、意思表示の相手方の話とはまったく別の条文が定める論点です。
 
-本肢は、この2つのレイヤーを混同させることで、「Dが絡む以上、Dへの意思表示が必要」という誤った結論に誘導する作りになっています。意思表示の相手方は常にC（契約の直接の相手方）であり、Dとの関係は取消し後の対抗問題として別途処理される、という順序で理解しておくと、混同を防げます。
+本肢は、この2つのレイヤーを混同させることで、「Dが絡む以上、Dへの意思表示が必要」という誤った結論に誘導する作りになっています。
+
+意思表示の相手方は常にC（契約の直接の相手方）であり、Dとの関係は取消し後の対抗問題として別途処理される、という順序で理解しておくと、混同を防げます。
 
 第三者が絡む場面での「誰が保護されるか」の判定パターンを土地の権利変動の場面で整理しておきたい方は、[177条の「第三者」の判定パターン](../topics/taikouyouken-daisansha-5ruikei.md)もあわせてご覧ください。
 
 ### オ：成年に達した後、異議なく代金を受け取れば、取消しはできなくなる
 
-民法125条の法定追認は、取り消すことができる行為について、追認をすることができる時（本件では成年に達した後）以後に、取消権者が一定の行為（全部又は一部の履行を受けることなど）をした場合には、異議をとどめない限り、追認したものとみなす制度です。Aが成年に達した後に異議をとどめずに代金を受領した場合、これは「履行を受けたこと」に該当し、法定追認が成立するため、以後は取り消すことができなくなります。
+民法125条の法定追認は、取り消すことができる行為について、追認をすることができる時（本件では成年に達した後）以後に、取消権者が一定の行為（全部又は一部の履行を受けることなど）をした場合には、異議をとどめない限り、追認したものとみなす制度です。
+
+Aが成年に達した後に異議をとどめずに代金を受領した場合、これは「履行を受けたこと」に該当し、法定追認が成立するため、以後は取り消すことができなくなります。
 
 **たとえば**、Aさんが成人した後、以前結んだ契約の代金をCさんから「特に文句も言わずに」受け取ってしまうと、それだけでこの契約を認めたことになり、あとになって「やっぱり取り消したい」と言い出すことはできなくなります。
+
+---
 
 ### まとめ
 
@@ -135,12 +165,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 詐・術・認・転 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -216,15 +264,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -249,7 +297,15 @@ completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 詐・術・誤・信・果 —
 always draw the standard Japanese (Jōyō) form.
@@ -268,7 +324,7 @@ Title (large, bold):
 詐術＝即・取消し不可、ではない
 
 Subtitle (smaller, centered):
-平成25年度 午後の部 第1問 肢ア－「相手が誤信したか」がカギ
+平成25年度 午後の部 第1問 ア－「相手が誤信したか」がカギ
 
 --- FLOWCHART ---
 
@@ -314,7 +370,7 @@ icon 最初から知っていた next to them (no surprise expression).
 根拠条文：民法21条（制限行為能力者の詐術）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
 above verbatim, with no paraphrasing and no substituted characters,
 confirm nothing is rendered below the FOOTER's small footnote text (no
@@ -346,7 +402,15 @@ completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 転・得・対・抗・条・誤 —
 always draw the standard Japanese (Jōyō) form.
@@ -365,7 +429,7 @@ Title (large, bold):
 取消しの相手は、いつでもC
 
 Subtitle (smaller, centered):
-平成25年度 午後の部 第1問 肢エ－「意思表示の相手方」と「対抗要件」は別問題
+平成25年度 午後の部 第1問 エ－「意思表示の相手方」と「対抗要件」は別問題
 
 --- COMPARISON ---
 
@@ -408,7 +472,7 @@ Dが登場すると「Dにも意思表示か対抗要件が必要では」と直
 根拠条文：民法123条（取消し及び追認の方法）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, panel label, quoted text, and callout text matches the Japanese
 text given above verbatim, with no paraphrasing and no substituted
 characters, confirm nothing is rendered below the FOOTER's small footnote
@@ -418,7 +482,7 @@ canvas, edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -440,7 +504,7 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Where a
 肢 is resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 3（肢ウ）and 5（肢オ）share
+sufficient — do not force a flowchart. Panels 3（ウ）and 5（オ）share
 a common underlying pattern: 一定の行為（催告への無回答・異議なき履行の
 受領）があれば追認が自動的に擬制されるという構造なので、両パネルとも
 「時間が経過する時計アイコン」から「自動的に追認スタンプが押される」と
@@ -454,7 +518,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -478,15 +550,14 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 詐術があっても相手が悪意なら別
 Diagram: A decision-tree flowchart. Start node: 未成年者Aが成年だと
-信じさせるため詐術を用いた（本肢の事実）. First diamond node: Aは詐術を
-用いたか？with a はい arrow proceeding downward (this condition is
-already satisfied in this fact pattern, so draw it small and pass
-through quickly). Second diamond node (drawn with a thicker highlighted
+信じさせるため詐術を用いた（本肢の事実）. First, a small rectangular check box
+(NOT a diamond): Aは詐術を用いた（本肢の事実）, with a single arrow
+proceeding downward. Then a diamond node (drawn with a thicker highlighted
 border, since this is the branch the whole 肢 turns on): その詐術に
 よって、相手方Cは実際に「Aは成年だ」と誤信したか？with two branch
 arrows: いいえ（Cは最初からAが未成年だと知っていた）leading to a green
@@ -505,7 +576,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 知ってた相手には詐術無効
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 同意の有無だけを見ればいい
@@ -523,7 +594,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 同意があれば追認可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 無回答は自動的に追認とみなす
@@ -541,7 +612,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 無回答→追認みなし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 取消しの相手は常にC、Dは別問題
@@ -561,18 +632,21 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 転得者への通知不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 成年後に黙って受け取れば追認扱い
 Diagram: A decision-tree flowchart combined with the same clock-to-stamp
-visual motif as Panel 3. First diamond node: Aは成年に達した後か（追認
-をすることができる時期か）？with a はい arrow proceeding downward.
-Second diamond node (drawn with a thicker highlighted border): Aは異議
-をとどめずに代金（履行）を受領したか？with the はい branch leading to a
-money-bag icon being received without any protest speech bubble, followed
-automatically by a padlock icon closing over a tag reading 取消し, and a
-conclusion node reading 法定追認が成立し、取消しできなくなる.
+visual motif as Panel 3. First, a rectangular check box (NOT a
+diamond): Aは成年に達した後（追認をすることができる時期）, with a single
+arrow proceeding downward to a diamond node (drawn with a thicker
+highlighted border): Aは異議をとどめずに代金（履行）を受領したか？ The
+はい branch (thick, highlighted) leads to a money-bag icon being received
+without any protest speech bubble, followed automatically by a padlock
+icon closing over a tag reading 取消し, and a conclusion node reading
+法定追認が成立し、取消しできなくなる. The いいえ branch (thin, lighter
+tone) leads to its own separate conclusion node reading 異議をとどめれば
+法定追認にならない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずAが成年に達した後かどうかを確認します。次に、その後に異議をとどめ
 ずに代金を受け取ったかどうかを確認します。両方に当てはまれば、法定追認
@@ -588,14 +662,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 125条1号（法定追認）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 詐, 術, 催, 告, 履, 認, 転 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢（肢ア・
-肢オ）is drawn as an actual flowchart with branch nodes (not a bare
+between the header and the panels, that every multi-condition 肢（ア・
+オ）is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary

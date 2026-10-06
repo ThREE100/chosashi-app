@@ -1,44 +1,54 @@
 ## 【土地家屋調査士受験生向け】平成17年度 第16問〜建物設備があれば、火葬場も宅地になるんです〜
 
-**出題年度：平成17年度　午後の部　第16問**
+**出題年度：平成17年度　第16問**
 
-> 地目に関する次の①から⑩までの記述のうち、誤っているもののみを組み合わせたものは後記１から５までのうちどれか。
->
-> ①　石油タンクの敷地は、宅地である。
->
-> ②　耕作地の区域内にある仮設の農具小屋のある土地は、宅地である。
->
-> ③　動物の遺骸又は遺骨を埋める土地は、墓地である。
->
-> ④　路線用地に接続している鉄道専用の変電所の敷地は、雑種地である。
->
-> ⑤　浄水場内にあって、その施設を管理する事務所の敷地は、宅地である。
->
-> ⑥　一般公衆の交通の用に供されている私有地は、公衆用道路である。
->
-> ⑦　構内に建物の設備がある火葬場の敷地は、雑種地である。
->
-> ⑧　学校の校舎及びその附属施設の敷地並びに運動場は、学校用地である。
->
-> ⑨　マンションの敷地に接続して設けられたテニスコートは、宅地である。
->
-> ⑩　建物としての要件を備えていない鉄塔などの工作物の敷地は、雑種地である。
->
-> 1　①⑥　　2　②⑦　　3　③⑧　　4　④⑨　　5　⑤⑩
+> 地目に関する次の①から⑩までの記述のうち、誤っているもののみを組み合わせたものは後記１から５までのうちどれか。  
+>　  
+> ①　石油タンクの敷地は、宅地である。  
+>　  
+> ②　耕作地の区域内にある仮設の農具小屋のある土地は、宅地である。  
+>　  
+> ③　動物の遺骸又は遺骨を埋める土地は、墓地である。  
+>　  
+> ④　路線用地に接続している鉄道専用の変電所の敷地は、雑種地である。  
+>　  
+> ⑤　浄水場内にあって、その施設を管理する事務所の敷地は、宅地である。  
+>　  
+> ⑥　一般公衆の交通の用に供されている私有地は、公衆用道路である。  
+>　  
+> ⑦　構内に建物の設備がある火葬場の敷地は、雑種地である。  
+>　  
+> ⑧　学校の校舎及びその附属施設の敷地並びに運動場は、学校用地である。  
+>　  
+> ⑨　マンションの敷地に接続して設けられたテニスコートは、宅地である。  
+>　  
+> ⑩　建物としての要件を備えていない鉄塔などの工作物の敷地は、雑種地である。  
+>　  
+> １　①⑥　　　２　②⑦　　　３　③⑧　　　４　④⑨　　　５　⑤⑩
 
-地目（宅地・田・畑・山林・雑種地など）の認定は、土地の「今どうなっているか」（現況）と「何のために使われているか」（利用目的）に着目して決まるのが基本ルールです。土地家屋調査士試験ではこの現況主義の考え方を、石油タンクや火葬場、変電所といった具体的な施設に当てはめて正しく判定できるかが繰り返し問われます。この問題は「誤っているものの組合せ」を選ぶ形式なので、①〜⑩を一つずつ見ていきましょう。
+---
+
+地目（宅地・田・畑・山林・雑種地など）の認定は、土地の「今どうなっているか」（現況）と「何のために使われているか」（利用目的）に着目して決まるのが基本ルールです。
+
+土地家屋調査士試験ではこの現況主義の考え方を、石油タンクや火葬場、変電所といった具体的な施設に当てはめて正しく判定できるかが繰り返し問われます。この問題は「誤っているものの組合せ」を選ぶ形式なので、①〜⑩を一つずつ見ていきましょう。
 
 ### ①：石油タンクの敷地は、宅地である
 
-宅地は「建物の敷地及びその維持又は効用を果たすために必要な土地」を指します。石油タンクやガスタンクは建物そのものではありませんが、これらのタンクを支え、維持していくために必要な土地として、その敷地は宅地として認定されます。したがって肢①は正しい記述です。
+宅地は「建物の敷地及びその維持又は効用を果たすために必要な土地」を指します。
+
+石油タンクやガスタンクは建物そのものではありませんが、これらのタンクを支え、維持していくために必要な土地として、その敷地は宅地として認定されます。したがって肢①は正しい記述です。
 
 **たとえば**、ガソリンスタンドの地下や工場の敷地内に据え付けられた大きな灯油タンク・ガスタンクをイメージしてください。タンク自体は建物ではありませんが、それを支え管理するための土地として、その真下・周辺の敷地は宅地として登記されます。
 
 ### ②：仮設の農具小屋がある土地は、宅地にはならない
 
-耕作地の区域内にある農具小屋等の敷地は、その建物が永久的な設備と認められるものに限って宅地とされます。裏を返せば、いつでも撤去・移動できるような仮設の小屋にすぎない場合は、その敷地は宅地にならず、周囲の耕作地（畑など）と同じ地目のままです。したがって「仮設の農具小屋のある土地は、宅地である」とする肢②は誤りです。
+耕作地の区域内にある農具小屋等の敷地は、その建物が永久的な設備と認められるものに限って宅地とされます。
 
-**たとえば**、田んぼのそばに、木材とトタン屋根で組んだだけの、いつでも解体して運び出せるような小さな道具置き場を建てたとします。これは永久的な設備とはいえないので、その敷地だけを切り離して「宅地」として扱うことはできず、周りの畑と同じ地目のまま残ります。
+裏を返せば、いつでも撤去・移動できるような仮設の小屋にすぎない場合は、その敷地は宅地にならず、周囲の耕作地（畑など）と同じ地目のままです。したがって「仮設の農具小屋のある土地は、宅地である」とする肢②は誤りです。
+
+**たとえば**、田んぼのそばに、木材とトタン屋根で組んだだけの、いつでも解体して運び出せるような小さな道具置き場を建てたとします。
+
+これは永久的な設備とはいえないので、その敷地だけを切り離して「宅地」として扱うことはできず、周りの畑と同じ地目のまま残ります。
 
 ### ③：動物の遺骸・遺骨を埋める土地も、地目上は墓地として扱われる
 
@@ -48,7 +58,9 @@
 
 ### ④：鉄道専用の変電所の敷地は、雑種地である
 
-鉄塔の敷地や変電所の敷地は、居住・執務などの用途に使われる建物の敷地ではなく、電力設備を支えるための施設であるため、宅地や鉄道用地には当たらず、雑種地として認定されます。路線用地に接続していても、この扱いは変わりません。したがって肢④は正しい記述です。
+鉄塔の敷地や変電所の敷地は、居住・執務などの用途に使われる建物の敷地ではなく、電力設備を支えるための施設であるため、宅地や鉄道用地には当たらず、雑種地として認定されます。
+
+路線用地に接続していても、この扱いは変わりません。したがって肢④は正しい記述です。
 
 **たとえば**、電車の線路のすぐ脇に、変電のための設備だけがぽつんと建っている土地をイメージしてください。人が住んだり働いたりする建物ではなく、電力供給専用の施設なので、その敷地は雑種地として扱われます。
 
@@ -62,13 +74,19 @@
 
 公衆用道路は、一般公衆の交通の用に供する道路を指し、その土地が公有か私有かは問いません。所有者が個人であっても、実際に地域住民などの通行の用に供されていれば、公衆用道路として認定されます。したがって肢⑥は正しい記述です。
 
-**たとえば**、個人が所有している土地であっても、近所の人たちが日常的に通り抜けの道として使っている生活道路になっているとします。所有者が私人だからといって公衆用道路と扱われないわけではなく、一般公衆の交通に使われている実態に着目して地目が認定されます。
+**たとえば**、個人が所有している土地であっても、近所の人たちが日常的に通り抜けの道として使っている生活道路になっているとします。
+
+所有者が私人だからといって公衆用道路と扱われないわけではなく、一般公衆の交通に使われている実態に着目して地目が認定されます。
 
 ### ⑦：建物の設備がある火葬場の敷地は、宅地である
 
-火葬場は、その構内に建物の設備があるときは構内全部を宅地とし、建物の設備がないときは雑種地とするという基準で認定されます。つまり「建物の設備があるかどうか」が宅地と雑種地の分かれ目であり、建物の設備がある場合には雑種地ではなく宅地となります。したがって「構内に建物の設備がある火葬場の敷地は、雑種地である」とする肢⑦は誤りです。
+火葬場は、その構内に建物の設備があるときは構内全部を宅地とし、建物の設備がないときは雑種地とするという基準で認定されます。
 
-**たとえば**、火葬場の敷地内に、遺族が待機するための建物や事務を行う建物が実際に建てられているケースを考えてください。建物の設備がある以上、その敷地全体は宅地として扱われます。逆に、屋外に炉があるだけで建物の設備がないような施設であれば、雑種地として扱われることになります。
+つまり「建物の設備があるかどうか」が宅地と雑種地の分かれ目であり、建物の設備がある場合には雑種地ではなく宅地となります。したがって「構内に建物の設備がある火葬場の敷地は、雑種地である」とする肢⑦は誤りです。
+
+**たとえば**、火葬場の敷地内に、遺族が待機するための建物や事務を行う建物が実際に建てられているケースを考えてください。
+
+建物の設備がある以上、その敷地全体は宅地として扱われます。逆に、屋外に炉があるだけで建物の設備がないような施設であれば、雑種地として扱われることになります。
 
 ### ⑧：校舎・附属施設の敷地と運動場をあわせて学校用地という
 
@@ -78,15 +96,21 @@
 
 ### ⑨：宅地に接続するテニスコートは、宅地である
 
-テニスコートやプールは、宅地に接続するものは宅地とし、それ以外のものは雑種地とするという基準で認定されます。マンションの敷地は建物の敷地として宅地に当たるため、そこに接続して設けられたテニスコートも、宅地と一体のものとして宅地に含めて認定されます。したがって肢⑨は正しい記述です。
+テニスコートやプールは、宅地に接続するものは宅地とし、それ以外のものは雑種地とするという基準で認定されます。
+
+マンションの敷地は建物の敷地として宅地に当たるため、そこに接続して設けられたテニスコートも、宅地と一体のものとして宅地に含めて認定されます。したがって肢⑨は正しい記述です。
 
 **たとえば**、マンションの共用施設として、建物の敷地にそのまま接続する形でテニスコートが設けられているとします。マンション本体の敷地（宅地）と地続きになっている以上、そのテニスコートの敷地部分も宅地として扱われます。
 
 ### ⑩：建物の要件を備えない鉄塔などの敷地は、雑種地である
 
-建物として認定されるためには、土地への定着性・外気分断性・用途性といった要件を備えている必要があります。鉄塔のように、脚部だけの構造で建物としての実質を備えていない工作物の敷地は、宅地をはじめとするいずれの地目にも当てはまらないため、雑種地として認定されます。したがって肢⑩は正しい記述です。
+建物として認定されるためには、土地への定着性・外気分断性・用途性といった要件を備えている必要があります。
+
+鉄塔のように、脚部だけの構造で建物としての実質を備えていない工作物の敷地は、宅地をはじめとするいずれの地目にも当てはまらないため、雑種地として認定されます。したがって肢⑩は正しい記述です。
 
 **たとえば**、送電線を支えるために建てられた鉄塔の敷地をイメージしてください。屋根や壁を備えた居住・作業スペースがあるわけではなく、建物としての実質を欠くため、その敷地は雑種地として扱われます。
+
+---
 
 ### まとめ
 
@@ -109,10 +133,11 @@
 
 **このまま使える点／使う前に確認したい点**
 
+- **問題文の差し替え（2026-10-02）**：問題文は、提供された原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）の表記に置き換えました。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（選択肢2番＝②⑦）は、土地家屋調査士試験対策アプリの検証済みデータベース（qdataファイル冒頭に明記された正解情報）で確認済みです。この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、kaisetsu_plus.jsonのapproach／pitfalls／keyPointsを主たる根拠とし、WebSearchで実務解説サイトの記述と突き合わせて確認しました。
 - 条文レベルで確認できたもの：地目の区分・認定基準が不動産登記事務取扱手続準則第68条（見出しは「地目の種類」ではなく「地目」で、田・畑・宅地から雑種地までの23種の地目区分を列挙する条文です）・第69条（地目の認定）に基づくことは、`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文で確認できました。個別には、①（準則69条10号：ガスタンク敷地又は石油タンク敷地は宅地とする）、②（準則69条3号：耕作地の区域内にある農具小屋等の敷地は、その建物が永久的設備と認められるものに限り、宅地とする＝仮設は宅地にならない）、④（準則69条14号：鉄塔敷地又は変電所敷地は雑種地とする）、⑤（準則68条3号の宅地の定義「建物の敷地及びその維持若しくは効用を果すために必要な土地」に該当）、⑥（準則68条21号：公衆用道路は一般交通の用に供する道路〈道路法による道路であるかどうかを問わない〉。公有・私有の別を条文上明示的に区別していない点も含め、複数の実務解説サイトの記述とも整合）、⑦（準則69条12号：火葬場は構内に建物の設備があるときは構内全部を宅地とし、建物の設備のないときは雑種地とする）、⑧（準則68条4号：学校用地は校舎、附属施設の敷地及び運動場）、⑨（準則69条9号：テニスコート又はプールは宅地に接続するものは宅地とし、その他は雑種地とする）について、いずれも準則の条文原文と一致することを確認できました。
-- 一般原則からの推論・未確認事項として正直に開示します：③（動物の遺骸又は遺骨を埋める土地は墓地である）については、準則68条12号が「墓地　人の遺体又は遺骨を埋葬する土地」と、条文上明確に対象を人の遺体・遺骨に限定して定義しています。この条文の文言だけを読むと、動物の遺骸・遺骨を埋める土地は墓地に当たらず（準則68条23号の「以上のいずれにも該当しない土地」＝雑種地になる）と読め、実際に今回参照したDBのpitfalls欄にも「動物の遺骸・遺骨は人の遺骸・遺骨（＝墓地）と区別され雑種地とされる」という趣旨の記述がありました。しかし、DBのapproach欄が最終的に示す誤り肢の組合せ（②と⑦）には③は含まれておらず、qdataファイル冒頭に明記された検証済みの正解（選択肢2番＝②⑦）とも整合しています。本記事では、検証済みの正解番号を優先して肢③を正しい記述として扱っていますが、条文の文言だけからは③を誤りと読む余地も残る点は、断定を避けて正直にお伝えします（Q15の肢ウ等と同様、公式正解を優先しつつ条文との関係を開示する扱いです）。
+- 一般原則からの推論・未確認事項として正直に開示します：③（動物の遺骸又は遺骨を埋める土地は墓地である）については、準則68条12号が「墓地　人の遺体又は遺骨を埋葬する土地」と、条文上明確に対象を人の遺体・遺骨に限定して定義しています。この条文の文言だけを読むと、動物の遺骸・遺骨を埋める土地は墓地に当たらず（準則68条23号の「以上のいずれにも該当しない土地」＝雑種地になる）と読め、実際に今回参照したDBのpitfalls欄にも「動物の遺骸・遺骨は人の遺骸・遺骨（＝墓地）と区別され雑種地とされる」という趣旨の記述がありました。しかし、DBのapproach欄が最終的に示す誤り肢の組合せ（②と⑦）には③は含まれておらず、qdataファイル冒頭に明記された検証済みの正解（選択肢2番＝②⑦）とも整合しています。本記事では、検証済みの正解番号を優先して肢③を正しい記述として扱っていますが、条文の文言だけからは③を誤りと読む余地も残る点は、断定を避けて正直にお伝えします（Q15のウ等と同様、公式正解を優先しつつ条文との関係を開示する扱いです）。
 - アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記アプリの検証済みデータベース、ローカル法令データベース、およびWebSearchで確認できた実務解説サイトの情報に基づいて作成しています。
 - **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（準則68条・69条の条文原文を再度突き合わせ、①②④⑤⑥⑦⑧⑨は文言一致を確認。判例・先例・専門誌番号は本文に記載なし。一般法の適用除外チェックは本問では対象外）、B（正解「②⑦・選択肢2番」がまとめの正誤判定と整合していることを確認）、C（見出しの正確性・論理的整合性を確認する過程で、肢③の本文に「見出し→本文→たとえば」の3要素の枠外に、確認事項ブロックへの参照を促す追加段落（「※この肢については…」）が残っていたことを発見し、これを削除のうえ本文の結論文を「本記事では、検証済みの正解を踏まえ、この肢③を正しい記述として扱います。」に修正しました（正解の組合せ自体は本文中に書かず、まとめ・正解欄まで先出ししていません）。それ以外の見出し・敬体・全角括弧・条文解釈プロセス不記載は問題ありませんでした）、D（Markdown表の不使用を確認）、E（インフォグラフィックの6カードが①〜⑩のうち9肢の内容と一致していることを確認。肢③は根拠に不確実性が残るため従来どおりカード化の対象外としています）、F（テンプレート構造・タイトルのキャッチフレーズが25字以内であること・確認事項ブロックの記載を確認）、G（重複出題チェック：`note-articles/`内を「地目」「準則69条」等で検索したところ、h18-mondai/q07・h19-mondai/q13・h25-mondai/q08・r1-mondai/q05・r2-mondai/q06・r4-mondai/q06・r5-mondai/q08・h30-mondai/q09等、地目認定を扱う記事が多数の年度に存在し、石油タンク・学校用地・テニスコート・変電所・墓地といった個別の地目区分は年度をまたいで繰り返し出題される定番論点であることを確認しましたが、10肢の組合せ・出題形式が本問と完全に一致する記事は見つかりませんでした。最新法令チェック：本問が扱う準則68条・69条の地目区分は直近の法改正の影響を受けていません）を実施しました。
 
@@ -154,12 +179,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・建・物・所・種・雑・宅 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -167,7 +210,7 @@ Title (large, bold, 2行):
 現況主義を体に叩き込む
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第16問－建物の有無・恒久性・利用実態で見る地目の分かれ目
+平成17年度 第16問－建物の有無・恒久性・利用実態で見る地目の分かれ目
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -245,20 +288,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 6 exactly, with
 no duplicated or missing cards, that badge numbers run 1-6 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 各記述を読んだ瞬間に「まず何を確認し、次に何を確認して、どんな地目にたどり
 着くか」を追体験できるよう、①②④⑤⑥⑦⑧⑨⑩の9つの記述分の作図ガイドパネル
@@ -333,7 +376,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第16問 作図ガイド（地目認定）
+平成17年度 第16問 作図ガイド（地目認定）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -361,7 +404,7 @@ Heading (bold, ONE line):
 農具小屋が永久的な設備かを確認する
 Diagram: A diamond-shaped decision node labeled「農具小屋は永久的な設備
 か」sits above an isometric rice paddy. A red, thick-bordered「いいえ
-（今回はこちら）」arrow leads down to a small wood-and-tin-roof shed
+」 (the case this 肢 tests)arrow leads down to a small wood-and-tin-roof shed
 labeled「仮設」, ending at a red conclusion node reading「宅地にならない
 （周囲の畑と同じ地目）」. A faded, dotted-outline green「はい」arrow leads
 to a separate faded shed icon, ending at a faded conclusion node reading
@@ -426,7 +469,7 @@ Heading (bold, ONE line):
 構内に建物の設備があるかを確認する
 Diagram: A diamond-shaped decision node labeled「構内に建物の設備がある
 か」sits above an isometric crematorium compound. A green, thick-bordered
-「はい（今回はこちら）」arrow leads to a real building where families wait
+「はい」 (the case this 肢 tests)arrow leads to a real building where families wait
 and staff work, ending at a green conclusion node reading「構内全部が
 宅地」. A faded, dotted-outline red「いいえ」arrow leads to a faded outdoor
 furnace icon with no building, ending at a faded conclusion node reading
@@ -459,7 +502,7 @@ Heading (bold, ONE line):
 テニスコートが宅地に接続しているかを確認する
 Diagram: A diamond-shaped decision node labeled「テニスコートは宅地に
 接続しているか」sits above an isometric apartment building. A green,
-thick-bordered「はい（今回はこちら）」arrow leads to a tennis court drawn
+thick-bordered「はい」 (the case this 肢 tests)arrow leads to a tennis court drawn
 directly adjoining the apartment building's grounds, ending at a green
 conclusion node reading「宅地」. A faded, dotted-outline blue「いいえ」
 arrow leads to a faded, separated tennis court icon, ending at a faded

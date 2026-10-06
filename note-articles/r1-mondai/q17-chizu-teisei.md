@@ -2,51 +2,69 @@
 
 **出題年度：令和元年度　午後の部　第17問**
 
-> 地図等の訂正に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　地図に表示された土地の区画に誤りがある場合において、相続によって当該土地の所有権を取得した者は、当該相続による所有権の移転の登記を経なければ、地図等の訂正の申出をすることはできない。
->
-> イ　地図に準ずる図面に表示された土地の形状に誤りがあるとして地図等の訂正の申出をした場合において、当該地図に準ずる図面を訂正することによって当該申出に係る土地以外の土地の形状を訂正すべきこととなるときは、当該申出は却下される。
->
-> ウ　土地の所有権の登記名義人と隣接地の所有権の登記名義人との間で両土地の地番を付け替える旨の合意をしたときは、当該土地の所有権の登記名義人は、地図に準ずる図面に表示された土地の地番に誤りがあるとして、地図等の訂正の申出をすることができる。
->
-> エ　地図に準ずる図面に表示された土地の形状に誤りがあるとして書面を提出する方法により地図等の訂正の申出をした場合において、その申出を取り下げたとき又は申出が却下されたときは、当該申出に係る申出書及びその添付書面は申出人に還付される。
->
-> オ　地図に準ずる図面に表示された土地の位置に誤りがある場合において、その誤りを登記所に備え付けられている地積測量図によって確認することができるときは、当該地積測量図を特定する情報を提供すれば、他に当該土地の位置に誤りがあることを証する情報を提供しないで地図等の訂正の申出をすることができる。
->
+> 地図等の訂正に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　地図に表示された土地の区画に誤りがある場合において、相続によって当該土地の所有権を取得した者は、当該相続による所有権の移転の登記を経なければ、地図等の訂正の申出をすることはできない。  
+>　  
+> イ　地図に準ずる図面に表示された土地の形状に誤りがあるとして地図等の訂正の申出をした場合において、当該地図に準ずる図面を訂正することによって当該申出に係る土地以外の土地の形状を訂正すべきこととなるときは、当該申出は却下される。  
+>　  
+> ウ　土地の所有権の登記名義人と隣接地の所有権の登記名義人との間で両土地の地番を付け替える旨の合意をしたときは、当該土地の所有権の登記名義人は、地図に準ずる図面に表示された土地の地番に誤りがあるとして、地図等の訂正の申出をすることができる。  
+>　  
+> エ　地図に準ずる図面に表示された土地の形状に誤りがあるとして書面を提出する方法により地図等の訂正の申出をした場合において、その申出を取り下げたとき又は申出が却下されたときは、当該申出に係る申出書及びその添付書面は申出人に還付される。  
+>　  
+> オ　地図に準ずる図面に表示された土地の位置に誤りがある場合において、その誤りを登記所に備え付けられている地積測量図によって確認することができるときは、当該地積測量図を特定する情報を提供すれば、他に当該土地の位置に誤りがあることを証する情報を提供しないで地図等の訂正の申出をすることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-地図等の訂正の申出は、登記所に備え付けられた地図や地図に準ずる図面（いわゆる公図）の区画・形状・位置・地番に誤りがあるときに、その是正を求める手続です。「誰が申し出られるのか」「訂正できる範囲の限界はどこか」「添付情報や還付の扱い」といった細かいルールが、条文（不動産登記規則16条）と先例で決まっています。今回はこの手続の輪郭を一つひとつ確認していきましょう。
+---
+
+地図等の訂正の申出は、登記所に備え付けられた地図や地図に準ずる図面（いわゆる公図）の区画・形状・位置・地番に誤りがあるときに、その是正を求める手続です。
+
+「誰が申し出られるのか」「訂正できる範囲の限界はどこか」「添付情報や還付の扱い」といった細かいルールが、条文（不動産登記規則16条）と先例で決まっています。今回はこの手続の輪郭を一つひとつ確認していきましょう。
 
 ### ア：相続登記を経ていなくても、相続人は訂正の申出ができる
 
-地図等の訂正の申出は、その土地の表題部所有者・所有権の登記名義人だけでなく、それらの相続人その他の一般承継人もすることができます。相続人が申し出る場合に、あらかじめ相続による所有権の移転の登記（相続登記）を経ていなければならない、という要件はありません。したがって「相続登記を経なければ申出できない」とする本肢は誤りです。
+地図等の訂正の申出は、その土地の表題部所有者・所有権の登記名義人だけでなく、それらの相続人その他の一般承継人もすることができます。
+
+相続人が申し出る場合に、あらかじめ相続による所有権の移転の登記（相続登記）を経ていなければならない、という要件はありません。したがって「相続登記を経なければ申出できない」とする本肢は誤りです。
 
 **たとえば**、お父さんが所有していた土地の公図の区画に誤りがあることに、相続した子が気づいたとします。その子は、まだ自分名義への相続登記を済ませていなくても、相続人の立場で地図等の訂正の申出をすることができます。
 
 ### イ：他の土地の形状まで直すことになる訂正は、却下される
 
-地図等の訂正は、あくまで誤りのある当該土地についての是正を目的とするものです。図面を訂正することによって、申出に係る土地以外の土地の形状（区画）まで訂正すべきこととなる場合には、その申出は却下されます。訂正の申出には、他の土地に影響を及ぼさないという限界があるのです。
+地図等の訂正は、あくまで誤りのある当該土地についての是正を目的とするものです。
+
+図面を訂正することによって、申出に係る土地以外の土地の形状（区画）まで訂正すべきこととなる場合には、その申出は却下されます。訂正の申出には、他の土地に影響を及ぼさないという限界があるのです。
 
 **たとえば**、自分の土地の形が公図で少しゆがんでいるからと訂正を求めたところ、その線を直すとお隣の土地の形まで変わってしまう、というときは、登記官はその申出を認めることができず、却下することになります。
 
 ### ウ：地番の「付け替え」の合意は、訂正の申出の対象にならない
 
-地番は、一筆の土地ごとに登記所が定めるものであり（不登法35条）、申請人が自由に指定したり、当事者どうしの合意で交換したりできるものではありません。隣り合う土地の所有者が「お互いの地番を入れ替えよう」と合意しても、それは地番の「誤り」の訂正ではなく実質的な付け替えであって、地図等の訂正の申出によって実現できるものではありません。したがって本肢は誤りです。
+地番は、一筆の土地ごとに登記所が定めるものであり（不登法35条）、申請人が自由に指定したり、当事者どうしの合意で交換したりできるものではありません。
+
+隣り合う土地の所有者が「お互いの地番を入れ替えよう」と合意しても、それは地番の「誤り」の訂正ではなく実質的な付け替えであって、地図等の訂正の申出によって実現できるものではありません。したがって本肢は誤りです。
 
 **たとえば**、隣どうしのAさんとBさんが「うちの土地とそちらの地番を交換した方が分かりやすいね」と話がまとまっても、それを理由に「地番に誤りがある」として訂正の申出をすることはできません。
 
 ### エ：却下されたときは添付書面のみ、取り下げたときは申出書も還付される
 
-地図等の訂正の申出には、通常の登記申請の却下・取下げに関する規定が準用されます（不動産登記規則16条14項）。このうち、申出が却下されたときに還付されるのは添付書面のみで、申出書そのものは還付されません（同規則38条3項）。これに対して、申出を取り下げたときは、申出書及びその添付書面のいずれもが還付されます（同規則39条3項）。本肢は「取り下げたとき又は却下されたとき」のいずれでも申出書及び添付書面がともに還付されるとしていますが、却下された場合には申出書は還付されないため、本肢は誤りです。
+地図等の訂正の申出には、通常の登記申請の却下・取下げに関する規定が準用されます（不動産登記規則16条14項）。
+
+このうち、申出が却下されたときに還付されるのは添付書面のみで、申出書そのものは還付されません（同規則38条3項）。これに対して、申出を取り下げたときは、申出書及びその添付書面のいずれもが還付されます（同規則39条3項）。
+
+本肢は「取り下げたとき又は却下されたとき」のいずれでも申出書及び添付書面がともに還付されるとしていますが、却下された場合には申出書は還付されないため、本肢は誤りです。
 
 **たとえば**、公図の訂正を書面で申し出て、自分の都合で取り下げた場合は、提出した申出書も添付した資料も両方とも返してもらえます。しかし、審査の結果却下された場合は、添付した資料は返してもらえても、申出書そのものは登記所に残り、返してもらえません。
 
 ### オ：登記所の地積測量図で誤りを確認できるなら、他の証明情報は省略できる
 
-地図に準ずる図面の土地の位置・形状に誤りがある場合、原則として土地所在図や地積測量図など誤りを証する情報を提供しなければなりません。もっとも、その誤りを登記所に備え付けられている地積測量図によって確認できるときは、その地積測量図を特定する情報を提供すれば足り、他に誤りを証する情報を別途提供する必要はありません（先例による）。したがって本肢は正しい記述です。
+地図に準ずる図面の土地の位置・形状に誤りがある場合、原則として土地所在図や地積測量図など誤りを証する情報を提供しなければなりません。
+
+もっとも、その誤りを登記所に備え付けられている地積測量図によって確認できるときは、その地積測量図を特定する情報を提供すれば足り、他に誤りを証する情報を別途提供する必要はありません（先例による）。したがって本肢は正しい記述です。
 
 **たとえば**、公図で自分の土地の位置がずれていることが、すでに登記所に保管されている地積測量図と照らせば一目で分かる、というときは、その図面を指し示す情報を出すだけでよく、わざわざ別の証明書類を用意して添える必要はありません。
+
+---
 
 ### まとめ
 
@@ -67,10 +85,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和元年度午後第17問）・正解番号（3番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ウ（地番は登記所が定める＝不登法35条）と、オ（登記所備付けの地積測量図による確認で添付省略＝平成17年2月25日民二457号先例）は、データベースのexplanationフィールドで条文・先例番号まで確認できたものです。イ（他の土地の形状を訂正することになる場合の却下＝不動産登記規則16条13項6号）とエ（却下時は同条14項が準用する同規則38条3項により添付書面のみ還付、取下げ時は同条14項が準用する同規則39条3項により申出書及び添付書面の双方が還付される）は、2026年8月の再検証でローカル法令データベースの条文レベルまで特定できました。ア（相続人が相続登記を経ずに申出できること）は、不動産登記規則16条1項が申出人の範囲に表題部所有者・所有権登記名義人の「相続人その他の一般承継人」を含め、相続登記の完了を申出の要件として明記していないことに基づく判定です。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（地図等の訂正の申出）と同一・類似の問題が再出題されていないかを確認しました。候補は令和5年度第6問・令和6年度第6問・令和7年度第4問の3問です。このうち令和7年度第4問のエ「地図の訂正をすることによって申出に係る土地以外の土地の区画等を訂正すべきこととなるときは、登記官は申出に基づき地図の訂正をすることはできない」は、本問のイ（他の土地の形状まで訂正することになる申出は却下される）とほぼ同一の論点です。また令和6年度第6問のエ「誤りを閉鎖された地図に準ずる図面により確認することができるときは、当該図面を特定する情報を提供すれば足りる」は、本問のオ（登記所備付けの地積測量図で確認できるときは他の証明情報を省略できる）と同じ先例（平成17年2月25日民二457号）に基づく同様の論点です。**部分的に類似する記述があります**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：ウの根拠である不登法35条（地番は登記所が定める）、オの根拠である平成17年2月25日民二457号先例、および全体の根拠条文である不動産登記規則16条について、WebSearchで再確認しましたが、条文番号・内容の変更や先例の廃止・変更は見つかりませんでした。修正は行っていません。
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベース（不動産登記規則16条・38条・39条）を条文レベルで突き合わせた結果、肢エの解説が誤っていることが判明しました。従来の本文は「取り下げたとき・却下されたときのいずれも添付書面のみ還付され、申出書は還付されない」としていましたが、条文上は却下時（同規則16条14項が準用する38条3項）は添付書面のみ還付、取下げ時（同項が準用する39条3項）は申出書及び添付書面の双方が還付されるという違いがあり、本肢はこの違いを踏まえると誤り（却下の場合に申出書が還付されない点で本肢と食い違う）という結論に至ります。本文（肢エの解説・たとえば）・まとめ・見出し画像用フレーズ・インフォグラフィックの該当箇所を修正しました。あわせて、肢イ・エの根拠条文（16条13項6号・14項）も特定できたため確認事項ブロックを更新しました。正誤判定・正解の組合せに変更はありません（肢エは修正後も引き続き誤りです。誤りの理由がより正確になっただけです）。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベース（不動産登記規則16条・38条・39条）を条文レベルで突き合わせた結果、エの解説が誤っていることが判明しました。従来の本文は「取り下げたとき・却下されたときのいずれも添付書面のみ還付され、申出書は還付されない」としていましたが、条文上は却下時（同規則16条14項が準用する38条3項）は添付書面のみ還付、取下げ時（同項が準用する39条3項）は申出書及び添付書面の双方が還付されるという違いがあり、本肢はこの違いを踏まえると誤り（却下の場合に申出書が還付されない点で本肢と食い違う）という結論に至ります。本文（エの解説・たとえば）・まとめ・見出し画像用フレーズ・インフォグラフィックの該当箇所を修正しました。あわせて、イ・エの根拠条文（16条13項6号・14項）も特定できたため確認事項ブロックを更新しました。正誤判定・正解の組合せに変更はありません（エは修正後も引き続き誤りです。誤りの理由がより正確になっただけです）。
 
 ---
 
@@ -110,12 +128,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・登・記・所・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -194,25 +230,25 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア〜オの5肢について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば
-正誤にたどり着けるかを示す作図ガイド。肢アは正誤対比型（相続登記の要否をめぐる思い
-込みチェック）、肢イは配置図型、肢ウは対比枠型（地番の誤りの訂正と地番の付け替えの
-合意という別の話を切り分ける）、肢エ・オは決定木型（却下と取下げで還付範囲が分岐、
+正誤にたどり着けるかを示す作図ガイド。アは正誤対比型（相続登記の要否をめぐる思い
+込みチェック）、イは配置図型、ウは対比枠型（地番の誤りの訂正と地番の付け替えの
+合意という別の話を切り分ける）、エ・オは決定木型（却下と取下げで還付範囲が分岐、
 備付け図面で確認できるかで添付情報の要否が分岐）で構成した。
 
 ```
@@ -257,7 +293,15 @@ to the article's own body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -283,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -304,7 +348,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相続登記は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -322,7 +366,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 却下される
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -343,7 +387,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地番は変更不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -366,7 +410,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 取下げのみ申出書も還付
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -395,9 +439,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 不登法35条、不動産登記規則16条1項・13項6号・14項、同規則38条3項・39条3項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 地・番・登・記・所・相・続・却・還・付・測・量. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 地・番・登・記・所・相・続・却・還・付・測・量. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that panels 4 and 5

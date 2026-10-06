@@ -2,21 +2,25 @@
 
 **出題年度：令和2年度　午後の部　第20問**
 
-> 土地家屋調査士又は土地家屋調査士法人に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　土地家屋調査士は，公務員として職務上取り扱った事件については，その業務を行うことができない。
->
-> イ　土地家屋調査士法人の清算人は，土地家屋調査士である必要はない。
->
-> ウ　日本土地家屋調査士会連合会により引き続き2年以上業務を行わないことを理由に土地家屋調査士の登録を取り消された者は，取消しに不服があるときは，法務大臣に対して審査請求をすることができる。
->
-> エ　土地家屋調査士法人は，定款で定めるところにより，当事者その他関係人の依頼を受けて，鑑定人に就任し，土地の筆界に関する鑑定を行う業務をすることができる。
->
-> オ　土地家屋調査士は，土地の表示に関する登記について必要な測量の業務の依頼を受けた場合において，自ら当該業務を行うことができない正当な事由があるときは，補助者に当該業務を取り扱わせることができる。
->
+> 土地家屋調査士又は土地家屋調査士法人に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　土地家屋調査士は，公務員として職務上取り扱った事件については，その業務を行うことができない。  
+>　  
+> イ　土地家屋調査士法人の清算人は，土地家屋調査士である必要はない。  
+>　  
+> ウ　日本土地家屋調査士会連合会により引き続き2年以上業務を行わないことを理由に土地家屋調査士の登録を取り消された者は，取消しに不服があるときは，法務大臣に対して審査請求をすることができる。  
+>　  
+> エ　土地家屋調査士法人は，定款で定めるところにより，当事者その他関係人の依頼を受けて，鑑定人に就任し，土地の筆界に関する鑑定を行う業務をすることができる。  
+>　  
+> オ　土地家屋調査士は，土地の表示に関する登記について必要な測量の業務の依頼を受けた場合において，自ら当該業務を行うことができない正当な事由があるときは，補助者に当該業務を取り扱わせることができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-最後の問題は、土地家屋調査士法・土地家屋調査士法人に関するルールのまとめです。利益相反の禁止、法人の清算人の資格、登録取消しへの不服申立て、鑑定業務、補助者の扱いなど、実務家としての基本的な規律が問われます。今回は**誤っているもの**の組合せを選びます。
+---
+
+最後の問題は、土地家屋調査士法・土地家屋調査士法人に関するルールのまとめです。
+
+利益相反の禁止、法人の清算人の資格、登録取消しへの不服申立て、鑑定業務、補助者の扱いなど、実務家としての基本的な規律が問われます。今回は**誤っているもの**の組合せを選びます。
 
 ### ア：公務員として取り扱った事件は、調査士としても扱えない
 
@@ -26,13 +30,17 @@
 
 ### イ：調査士法人の清算人は、調査士でなければならない
 
-土地家屋調査士法人が解散した場合の清算人は、調査士でなければなりません（土地家屋調査士法39条3項）。原則として調査士である社員が清算人となりますが、社員の過半数の同意があれば、別の調査士を清算人として選任することもできます。本肢は「調査士である必要はない」としており、誤りです。
+土地家屋調査士法人が解散した場合の清算人は、調査士でなければなりません（土地家屋調査士法39条3項）。
+
+原則として調査士である社員が清算人となりますが、社員の過半数の同意があれば、別の調査士を清算人として選任することもできます。本肢は「調査士である必要はない」としており、誤りです。
 
 **たとえば**、調査士法人を解散して清算する場合、その清算人には調査士でない一般の事務スタッフを充てることはできず、調査士である社員（または別の調査士）が清算人になります。
 
 ### ウ：業務不履行による登録取消しへの不服は、法務大臣への審査請求
 
-土地家屋調査士が引き続き2年以上業務を行わないときは、日本土地家屋調査士会連合会はその登録を取り消すことができます（土地家屋調査士法16条1項1号）。この登録取消しに不服があるときは、法務大臣に対して行政不服審査法に基づく審査請求をすることができます（同法17条）。本肢は正しい記述です。
+土地家屋調査士が引き続き2年以上業務を行わないときは、日本土地家屋調査士会連合会はその登録を取り消すことができます（土地家屋調査士法16条1項1号）。
+
+この登録取消しに不服があるときは、法務大臣に対して行政不服審査法に基づく審査請求をすることができます（同法17条）。本肢は正しい記述です。
 
 **たとえば**、2年以上業務を行わなかったことを理由に登録を取り消された調査士が、「実際には活動していた」などとして不服を申し立てたいときは、法務大臣に対して審査請求をすることになります。
 
@@ -44,9 +52,15 @@
 
 ### オ：測量業務そのものを、補助者に取り扱わせることはできない
 
-土地家屋調査士は、他人（補助者を含む）にその業務を取り扱わせてはならないとされています（土地家屋調査士法施行規則22条参照）。測量業務は調査士本人が行うべき専門的な業務であり、自ら行うことができない正当な事由があったとしても、補助者にその業務そのものを取り扱わせることはできません。補助者は、あくまで調査士の指示のもとでの補助的な事務にとどまります。本肢は「補助者に当該業務を取り扱わせることができる」としており、誤りです。
+土地家屋調査士は、他人（補助者を含む）にその業務を取り扱わせてはならないとされています（土地家屋調査士法施行規則22条参照）。
+
+測量業務は調査士本人が行うべき専門的な業務であり、自ら行うことができない正当な事由があったとしても、補助者にその業務そのものを取り扱わせることはできません。
+
+補助者は、あくまで調査士の指示のもとでの補助的な事務にとどまります。本肢は「補助者に当該業務を取り扱わせることができる」としており、誤りです。
 
 **たとえば**、体調不良などの正当な事由でどうしても自分で測量に行けない場合でも、「では補助者に代わりに測量業務を任せよう」ということは認められません。
+
+---
 
 ### まとめ
 
@@ -110,13 +124,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 調・査・士・登・録 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants (録 must not become a
 simplified variant).
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -195,19 +227,19 @@ these 5 headings):
 5. 測量業務そのものは補助者に不可
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア〜オは、利益相反の禁止・法人の清算人の資格・登録取消しへの不服申立て・法人の鑑定業務・補助者の扱いという5つの独立した規律であり、②と同様に2軸に分ける自然な構造がないため、パネルごとに最も適した型（単一チェック型の図解・タイムライン型・正誤対比型）を個別に選ぶ。共有する決定木はないが、②の単一アクセントカラーの構成を引き継ぎ、全パネルを同じ色（teal）で統一する。
 
@@ -248,7 +280,15 @@ callout describes faithful to the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -274,7 +314,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in teal containing the number 1.
 Heading (bold, ONE line):
 土地家屋調査士は公務員時代の事件を扱えない
@@ -291,7 +331,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 業務を行えない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in teal containing the number 2.
 Heading (bold, ONE line):
 調査士法人の清算人は調査士でなければならない
@@ -312,7 +352,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 調査士でなければならない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in teal containing the number 3.
 Heading (bold, ONE line):
 登録取消しへの不服は法務大臣に審査請求
@@ -331,7 +371,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 法務大臣へ審査請求
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 定款で定めれば調査士法人も鑑定業務が可能
@@ -350,7 +390,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 鑑定業務ができる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 正当な事由があっても補助者に業務は任せられない
@@ -378,10 +418,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 22条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 調, 査, 士, 登, 録, 清, 算, 務, 鑑, 補, 助 and any character
-that has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that Panel 5 is drawn as a

@@ -1,52 +1,78 @@
 ## 【土地家屋調査士受験生向け】平成17年度 第17問〜訂正できるのは「何人も」じゃないんです〜
 
-**出題年度：平成17年度　午後の部　第17問**
+**出題年度：平成17年度　第17問**
 
-> 土地所在図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうちどれか。
->
-> ア　土地所在図には、方位、縮尺、土地の形状及び隣地の地番を記録しなければならない。
->
-> イ　市街地地域においては、土地所在図は、200分の1又は500分の1の縮尺により作成しなければならない。
->
-> ウ　土地所在図に誤りがあるときは、何人も、その訂正の申出をすることができる。
->
-> エ　書面申請において提出する土地所在図（書面である場合に限る。）には、作成の年月日を記録し、申請人が記名するとともにその作成者が署名し、又は記名押印しなければならない。
->
-> オ　書面をもって作成された地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときは、当該地積測量図をもって土地所在図を兼ねることができる。
->
-> 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+> 土地所在図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　土地所在図には、方位、縮尺、土地の形状及び隣地の地番を記録しなければならない。  
+>　  
+> イ　市街地地域においては、土地所在図は、200分の1又は500分の1の縮尺により作成しなければならない。  
+>　  
+> ウ　土地所在図に誤りがあるときは、何人も、その訂正の申出をすることができる。  
+>　  
+> エ　書面申請において提出する土地所在図（書面である場合に限る。）には、作成の年月日を記録し、申請人が記名するとともにその作成者が署名し、又は記名押印しなければならない。  
+>　  
+> オ　書面をもって作成された地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときは、当該地積測量図をもって土地所在図を兼ねることができる。  
+>　  
+> １　アイ　　　２　アエ　　　３　イウ　　　４　ウオ　　　５　エオ
 
-土地所在図は、分筆登記などの申請時に添付する図面のひとつで、「その土地がどこにあるか」を示すための書類です。土地家屋調査士試験では、この土地所在図について「何を記録しなければならないか」「どんな縮尺で作るのか」「誤りがあったら誰が訂正を求められるのか」といった実務の細かいルールが繰り返し問われます。この問題は「誤っているものの組合せ」を選ぶ形式なので、ア〜オを一つずつ正誤判定していきましょう。
+---
+
+土地所在図は、分筆登記などの申請時に添付する図面のひとつで、「その土地がどこにあるか」を示すための書類です。
+
+土地家屋調査士試験では、この土地所在図について「何を記録しなければならないか」「どんな縮尺で作るのか」「誤りがあったら誰が訂正を求められるのか」といった実務の細かいルールが繰り返し問われます。
+
+この問題は「誤っているものの組合せ」を選ぶ形式なので、ア〜オを一つずつ正誤判定していきましょう。
 
 ### ア：土地所在図には、方位・縮尺・形状に加えて隣地の地番も記録する
 
-土地所在図には、方位、縮尺、土地の形状に加えて、隣接する土地の地番（隣地の地番）も記録しなければならないとされています（不動産登記規則76条1項）。土地所在図はその土地単独の形を示すだけでなく、周囲の土地との位置関係を明らかにする図面でもあるため、隣地の地番まで含めて記録事項とされているのです。したがって肢アは正しい記述です。
+土地所在図には、方位、縮尺、土地の形状に加えて、隣接する土地の地番（隣地の地番）も記録しなければならないとされています（不動産登記規則76条1項）。
+
+土地所在図はその土地単独の形を示すだけでなく、周囲の土地との位置関係を明らかにする図面でもあるため、隣地の地番まで含めて記録事項とされているのです。したがってアは正しい記述です。
 
 **たとえば**、分筆登記の申請書に添付する土地所在図をイメージしてください。対象の土地の形だけでなく、その土地を取り囲むお隣の土地の地番まで書き込まれていて、はじめて「この土地がどの位置にあるか」が地図上で正確に分かるようになっています。
 
 ### イ：市街地地域の土地所在図は、250分の1又は500分の1の縮尺で作成する
 
-土地所在図は、近傍類似の土地についての地図（不動産登記法14条1項）と同一の縮尺により作成するものとされています（不動産登記規則76条2項）。その地図の縮尺は地域の区分に応じて定められており、市街地地域では250分の1又は500分の1、村落・農耕地域では500分の1又は1000分の1、山林・原野地域では1000分の1又は2500分の1とされています（同規則10条2項）。肢イは市街地地域の縮尺を「200分の1又は500分の1」としていますが、正しくは「250分の1又は500分の1」であり、200分の1という数字は誤りです。したがって肢イは誤った記述です。
+土地所在図は、近傍類似の土地についての地図（不動産登記法14条1項）と同一の縮尺により作成するものとされています（不動産登記規則76条2項）。
+
+その地図の縮尺は地域の区分に応じて定められており、市街地地域では250分の1又は500分の1、村落・農耕地域では500分の1又は1000分の1、山林・原野地域では1000分の1又は2500分の1とされています（同規則10条2項）。
+
+イは市街地地域の縮尺を「200分の1又は500分の1」としていますが、正しくは「250分の1又は500分の1」であり、200分の1という数字は誤りです。したがってイは誤った記述です。
 
 **たとえば**、住宅が密集する市街地の土地を測量して土地所在図を作るときには、250分の1や500分の1という縮尺を使います。もし「200分の1でもよい」と思い込んで作成すると、規定の縮尺から外れてしまい、図面として認められないことになります。
 
 ### ウ：土地所在図の訂正申出は、表題部所有者・所有権の登記名義人・その相続人等に限られる
 
-土地所在図に誤りがあるときにその訂正の申出をすることができるのは、表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人に限られています（不動産登記規則88条1項）。地図（公図）のように広く一般に公開・共用される図面とは異なり、土地所在図は個々の登記申請に付属する図面であるため、訂正を申し出られる者もこのように限定されているのです。「何人も」訂正の申出をすることができるとする肢ウは、この点で誤った記述です。
+土地所在図に誤りがあるときにその訂正の申出をすることができるのは、表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人に限られています（不動産登記規則88条1項）。
 
-**たとえば**、自分の土地の分筆登記に添付されていた土地所在図に誤記が見つかったとき、その登記の表題部所有者や所有権の登記名義人、またはその相続人であれば訂正を申し出ることができます。しかし、その登記と何の関係もない第三者が「誤りを見つけたから」というだけで自由に訂正を申し出られるわけではありません。
+地図（公図）のように広く一般に公開・共用される図面とは異なり、土地所在図は個々の登記申請に付属する図面であるため、訂正を申し出られる者もこのように限定されているのです。「何人も」訂正の申出をすることができるとするウは、この点で誤った記述です。
+
+**たとえば**、自分の土地の分筆登記に添付されていた土地所在図に誤記が見つかったとき、その登記の表題部所有者や所有権の登記名義人、またはその相続人であれば訂正を申し出ることができます。
+
+しかし、その登記と何の関係もない第三者が「誤りを見つけたから」というだけで自由に訂正を申し出られるわけではありません。
 
 ### エ：書面の土地所在図には、作成年月日・申請人の記名・作成者の署名等が必要
 
-書面で申請する場合に提出する土地所在図（書面であるもの）には、作成の年月日を記録し、申請人が記名するとともに、その作成者が署名し、又は記名押印しなければならないとされています（不動産登記規則74条2項）。図面がいつ誰によって作られ、申請人が誰であるかを明確にするための形式的な要件です。したがって肢エは正しい記述です。
+書面で申請する場合に提出する土地所在図（書面であるもの）には、作成の年月日を記録し、申請人が記名するとともに、その作成者が署名し、又は記名押印しなければならないとされています（不動産登記規則74条2項）。
 
-**たとえば**、書面で分筆登記を申請する際に提出する土地所在図には、「令和〇年〇月〇日作成」といった作成年月日、申請人本人の名前の記名、そして実際に図面を作った土地家屋調査士等の署名または記名押印が入っている必要があります。これらが欠けていると、書類の形式的な要件を満たさないことになります。
+図面がいつ誰によって作られ、申請人が誰であるかを明確にするための形式的な要件です。したがってエは正しい記述です。
+
+**たとえば**、書面で分筆登記を申請する際に提出する土地所在図には、「令和〇年〇月〇日作成」といった作成年月日、申請人本人の名前の記名、そして実際に図面を作った土地家屋調査士等の署名または記名押印が入っている必要があります。
+
+これらが欠けていると、書類の形式的な要件を満たさないことになります。
 
 ### オ：地積測量図の縮尺・内容が条件を満たせば、土地所在図を兼ねられる
 
-書面をもって作成された地積測量図の縮尺が、その土地について作成すべき土地所在図の縮尺と同一であり、かつその地積測量図によって土地の所在を明確に表示できるときは、その地積測量図をもって土地所在図を兼ねることができるとされています（不動産登記事務取扱手続準則51条4項）。同じ内容の図面を二重に作成する手間を省くための規定です。したがって肢オは正しい記述です。
+書面をもって作成された地積測量図の縮尺が、その土地について作成すべき土地所在図の縮尺と同一であり、かつその地積測量図によって土地の所在を明確に表示できるときは、その地積測量図をもって土地所在図を兼ねることができるとされています（不動産登記事務取扱手続準則51条4項）。
 
-**たとえば**、分筆登記のために作成した地積測量図が、たまたま土地所在図として要求される縮尺と同じで、しかもその図面だけで対象地の位置関係がはっきり分かる内容になっていたとします。この場合、わざわざ別に土地所在図を作り直す必要はなく、その地積測量図を土地所在図として兼用できます。
+同じ内容の図面を二重に作成する手間を省くための規定です。したがってオは正しい記述です。
+
+**たとえば**、分筆登記のために作成した地積測量図が、たまたま土地所在図として要求される縮尺と同じで、しかもその図面だけで対象地の位置関係がはっきり分かる内容になっていたとします。
+
+この場合、わざわざ別に土地所在図を作り直す必要はなく、その地積測量図を土地所在図として兼用できます。
+
+---
 
 ### まとめ
 
@@ -64,6 +90,7 @@
 
 **このまま使える点／使う前に確認したい点**
 
+- **問題文の差し替え（2026-10-02）**：問題文は、提供された原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）の表記に置き換えました。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（選択肢3番＝イウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（qdataファイル冒頭に明記された正解情報）で確認済みです。
 - この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、本記事は当初kaisetsu_plus.jsonのapproach／pitfalls／keyPointsを主たる根拠としていましたが、今回の再検証では`note-articles/laws/`のローカル法令データベース（不動産登記規則・不動産登記事務取扱手続準則の条文原文）と5肢すべてを突き合わせ、以下のとおり訂正・確定しました。
@@ -75,7 +102,7 @@
 - オ（地積測量図による土地所在図の兼用）：不動産登記事務取扱手続準則51条4項「地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときは、便宜、当該地積測量図をもって土地所在図を兼ねることができるものとする。」と文言まで一致することを条文原文で確認しました。
 - 以上のとおり、今回の再検証で5肢すべてについて根拠条文を条文原文レベルで確定できました。各肢の正誤判定（ア正・イ誤・ウ誤・エ正・オ正）および正解（選択肢3番＝イウ）は、この条文確認によっても変わりません。
 - アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記アプリの検証済みデータベースおよびローカル法令データベースの条文原文に基づいて作成しています。
-- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（不動産登記規則76条1項・2項、同規則10条2項、同規則88条1項、同規則74条2項、不動産登記事務取扱手続準則51条4項の条文原文を再度突き合わせ、いずれも文言まで一致することを確認。判例・先例・専門誌番号は本文に記載なし。一般法の適用除外チェックは本問では対象外）、B（正解「イウ・選択肢3番」がまとめの正誤判定と整合していることを確認）、C（各見出しが正しい結論を表しており判定語を含まないこと、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの説明がないこと、全角括弧で統一されていることを確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックの5カードが本文の5肢・列挙事項（記録事項4点・縮尺2択・記名署名3点・訂正申出の可否・兼用の2条件）と一致していることを確認）、F（テンプレート構造・タイトルのキャッチフレーズが25字以内であること・確認事項ブロックの記載を確認）、G（重複出題チェック：`note-articles/`内を「土地所在図」で検索したところ、h20-mondai/q11・h21-mondai/q13・h24-mondai/q09等、土地所在図・地積測量図の作成／訂正を扱う記事が他年度に複数存在します。特にh24-mondai/q09-chisekisokuryouzu-teisei.mdの肢アは、本問の肢ウと同じ不動産登記規則88条1項（訂正申出ができる者を表題部所有者・所有権の登記名義人・その相続人その他の一般承継人に限る規定）を、地積測量図の訂正申出という別の場面で問うものであり、同一条文を根拠とする関連出題です。もっとも出題形式・組合せは本問と異なり、完全に同一の問題は見つかりませんでした。最新法令チェック：本問が扱う土地所在図の記録事項・縮尺・訂正申出・兼用のルールは直近の法改正の対象外です）を実施し、修正が必要な誤りは見つかりませんでした。
+- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（不動産登記規則76条1項・2項、同規則10条2項、同規則88条1項、同規則74条2項、不動産登記事務取扱手続準則51条4項の条文原文を再度突き合わせ、いずれも文言まで一致することを確認。判例・先例・専門誌番号は本文に記載なし。一般法の適用除外チェックは本問では対象外）、B（正解「イウ・選択肢3番」がまとめの正誤判定と整合していることを確認）、C（各見出しが正しい結論を表しており判定語を含まないこと、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの説明がないこと、全角括弧で統一されていることを確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックの5カードが本文の5肢・列挙事項（記録事項4点・縮尺2択・記名署名3点・訂正申出の可否・兼用の2条件）と一致していることを確認）、F（テンプレート構造・タイトルのキャッチフレーズが25字以内であること・確認事項ブロックの記載を確認）、G（重複出題チェック：`note-articles/`内を「土地所在図」で検索したところ、h20-mondai/q11・h21-mondai/q13・h24-mondai/q09等、土地所在図・地積測量図の作成／訂正を扱う記事が他年度に複数存在します。特にh24-mondai/q09-chisekisokuryouzu-teisei.mdのアは、本問のウと同じ不動産登記規則88条1項（訂正申出ができる者を表題部所有者・所有権の登記名義人・その相続人その他の一般承継人に限る規定）を、地積測量図の訂正申出という別の場面で問うものであり、同一条文を根拠とする関連出題です。もっとも出題形式・組合せは本問と異なり、完全に同一の問題は見つかりませんでした。最新法令チェック：本問が扱う土地所在図の記録事項・縮尺・訂正申出・兼用のルールは直近の法改正の対象外です）を実施し、修正が必要な誤りは見つかりませんでした。
 
 ---
 
@@ -115,19 +142,37 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・記・録・登・所 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
 --- HEADER ---
 Title (large, bold, 1行):
 土地所在図の基本ルール
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第17問－記録事項・縮尺・訂正申出・兼用を整理する
+平成17年度 第17問－記録事項・縮尺・訂正申出・兼用を整理する
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -201,8 +246,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -212,12 +257,12 @@ every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance. Confirm the enumerated lists inside Card 1 (4 items),
 Card 2 (2 items), Card 3 (3 items), and Card 5 (2 items) each show the
 exact count and text specified above, with nothing added, removed, or
-reworded.
+reworded. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 各肢を読んだ瞬間に「まず何を確認し、次に何を確認して、どんな図にたどり
 着くか」を追体験できるよう、ア〜オ5肢分の作図ガイドパネルを1枚にまとめた。
@@ -287,12 +332,12 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第17問 作図ガイド（土地所在図）
+平成17年度 第17問 作図ガイド（土地所在図）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -309,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 隣地の地番も必須
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 市街地地域かどうかを先に確認する
@@ -327,7 +372,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 200分の1は誤り
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 訂正申出ができる人の資格を確認する
@@ -335,8 +380,7 @@ Diagram: A diamond-shaped decision node labeled「申出人は表題部所有者
 所有権の登記名義人・その相続人その他の一般承継人か」sits above an
 isometric registry-office counter. A green「はい」arrow leads to a figure
 handing in a correction-request document, ending at a green conclusion
-node reading「訂正の申出ができる」. A red, thick-bordered「いいえ（今回は
-こちら）」arrow leads to a third figure labeled「無関係の第三者」stopped by
+node reading「訂正の申出ができる」. A red, thick-bordered「いいえ」arrow (the case this 肢 tests) leads to a third figure labeled「無関係の第三者」stopped by
 a barrier/gate icon in front of the counter, ending at a red conclusion
 node reading「訂正の申出はできない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -347,7 +391,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 限られた者だけ可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 書面図面の記載事項3点を確認する
@@ -364,7 +408,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 記名・署名が必須
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 縮尺と表示内容の2条件を順に確認する

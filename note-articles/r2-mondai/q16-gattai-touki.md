@@ -2,43 +2,59 @@
 
 **出題年度：令和2年度　午後の部　第16問**
 
-> 合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（以下「合体による登記等」という。）に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　所有権の登記名義人が異なる数個の建物を合体したことによる合体による登記等を申請する場合において，合体前の一部の建物にされた抵当権の登記で合体後の建物に存続することとなるものがあるときは，当該抵当権の登記名義人が合体後の建物の持分について存続登記と同一の登記をすることを承諾したことを証する情報又は抵当権者に対抗することができる裁判があったことを証する情報を提供しなければならない。
->
-> イ　合体前の各建物の所有者全員について合体後の建物について有する持分の割合を定める必要がある場合において，当該所有者全員が，書面申請の方法により，建物の合体による登記等を申請する際に，申請情報と併せてその印鑑に関する証明書を提供したときは，当該申請情報をもって，当該持分の割合を証する情報を兼ねることができる。
->
-> ウ　いずれも所有権の登記がある二個の建物が合体した場合には，当該合体後の建物についての建物の表題登記及び当該合体前の建物についての建物の表題部の登記の抹消と併せて，当該合体後の建物についての所有権の登記を申請しなければならない。
->
-> エ　合体前の各建物に同一の賃借権の設定の登記がされている場合，合体後の建物に存続することとなるものとして，当該賃借権の表示を申請情報の内容としなければならない。
->
-> オ　登記名義人が同一である所有権の登記がある建物の合体による登記等を申請する場合には，当該合体に係る建物のうちいずれか1個の建物の所有権の登記名義人の登記識別情報を提供すれば足りる。
->
+> 合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（以下「合体による登記等」という。）に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　所有権の登記名義人が異なる数個の建物を合体したことによる合体による登記等を申請する場合において，合体前の一部の建物にされた抵当権の登記で合体後の建物に存続することとなるものがあるときは，当該抵当権の登記名義人が合体後の建物の持分について存続登記と同一の登記をすることを承諾したことを証する情報又は抵当権者に対抗することができる裁判があったことを証する情報を提供しなければならない。  
+>　  
+> イ　合体前の各建物の所有者全員について合体後の建物について有する持分の割合を定める必要がある場合において，当該所有者全員が，書面申請の方法により，建物の合体による登記等を申請する際に，申請情報と併せてその印鑑に関する証明書を提供したときは，当該申請情報をもって，当該持分の割合を証する情報を兼ねることができる。  
+>　  
+> ウ　いずれも所有権の登記がある二個の建物が合体した場合には，当該合体後の建物についての建物の表題登記及び当該合体前の建物についての建物の表題部の登記の抹消と併せて，当該合体後の建物についての所有権の登記を申請しなければならない。  
+>　  
+> エ　合体前の各建物に同一の賃借権の設定の登記がされている場合，合体後の建物に存続することとなるものとして，当該賃借権の表示を申請情報の内容としなければならない。  
+>　  
+> オ　登記名義人が同一である所有権の登記がある建物の合体による登記等を申請する場合には，当該合体に係る建物のうちいずれか1個の建物の所有権の登記名義人の登記識別情報を提供すれば足りる。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
 
-「合体による登記等」とは、2つ以上の別々の建物が、増築などで物理的に1つの建物になった（合体した）ときにする登記のことです。合体後の建物の表題登記と、合体前の各建物の表題部の登記の抹消をまとめてする点が特徴で、権利関係の引継ぎがどう処理されるかが問われます。今回は**誤っているもの**を選びます。
+---
+
+「合体による登記等」とは、2つ以上の別々の建物が、増築などで物理的に1つの建物になった（合体した）ときにする登記のことです。
+
+合体後の建物の表題登記と、合体前の各建物の表題部の登記の抹消をまとめてする点が特徴で、権利関係の引継ぎがどう処理されるかが問われます。今回は**誤っているもの**を選びます。
 
 ### ア：合体後も存続する抵当権があるときは、抵当権者の承諾情報等が必要
 
-所有権の登記名義人が異なる数個の建物を合体した場合、合体前の一部の建物にされた抵当権の登記で合体後の建物に存続することとなるものがあるときは、その抵当権の登記名義人が合体後の建物の持分について存続登記と同一の登記をすることを承諾したことを証する情報、または抵当権者に対抗できる裁判があったことを証する情報を提供しなければなりません（不動産登記令別表13項添付情報ト）。本肢は正しい記述です。
+所有権の登記名義人が異なる数個の建物を合体した場合、合体前の一部の建物にされた抵当権の登記で合体後の建物に存続することとなるものがあるときは、その抵当権の登記名義人が合体後の建物の持分について存続登記と同一の登記をすることを承諾したことを証する情報、または抵当権者に対抗できる裁判があったことを証する情報を提供しなければなりません（不動産登記令別表13項添付情報ト）。
+
+本肢は正しい記述です。
 
 **たとえば**、Ａの建物とＢの建物を合体するとき、Ａの建物にだけ抵当権がついていて、それが合体後の建物のＡ持分の上に残る場合、その抵当権者が「その内容で登記されることを承諾する」という書面などが必要になります。
 
 ### イ：全員が書面申請で印鑑証明書を出せば、申請情報が持分割合の証明を兼ねる
 
-合体前の各建物の所有者全員について、合体後の建物の持分割合を定める必要がある場合、その所有者全員が書面申請の方法で申請し、申請情報とあわせて印鑑に関する証明書を提供したときは、その申請情報をもって持分割合を証する情報を兼ねることができます（先例による）。本肢は正しい記述です。
+合体前の各建物の所有者全員について、合体後の建物の持分割合を定める必要がある場合、その所有者全員が書面申請の方法で申請し、申請情報とあわせて印鑑に関する証明書を提供したときは、その申請情報をもって持分割合を証する情報を兼ねることができます（先例による）。
+
+本肢は正しい記述です。
 
 **たとえば**、複数の所有者が合体後の建物の持分を「Ａ3分の2、Ｂ3分の1」と決めるとき、全員が実印を押して印鑑証明書を添えて申請すれば、その申請書自体が持分割合の合意を証明する書面を兼ねるので、別に持分割合の証明書を作る必要はありません。
 
 ### ウ：合体後の所有権の登記は「職権」でされるので、申請するわけではない
 
-いずれも所有権の登記がある2個の建物が合体した場合、申請人が申請しなければならないのは、合体後の建物についての表題登記と、合体前の各建物の表題部の登記の抹消です（不動産登記法49条1項）。この場合（同項各号のうち五号の場合）は、表題登記がない建物が含まれる二号・四号・六号の場合と異なり所有権の登記を併せて申請すべき対象者が定められていないため、合体後の建物についての所有権の登記は、登記官が表題登記をする際に職権で登記記録の甲区に記録します（不動産登記規則120条1項・2項）。したがって、申請人が「合体後の建物についての所有権の登記を申請しなければならない」わけではありません。本肢は誤りです。
+いずれも所有権の登記がある2個の建物が合体した場合、申請人が申請しなければならないのは、合体後の建物についての表題登記と、合体前の各建物の表題部の登記の抹消です（不動産登記法49条1項）。
+
+この場合（同項各号のうち五号の場合）は、表題登記がない建物が含まれる二号・四号・六号の場合と異なり所有権の登記を併せて申請すべき対象者が定められていないため、合体後の建物についての所有権の登記は、登記官が表題登記をする際に職権で登記記録の甲区に記録します（不動産登記規則120条1項・2項）。
+
+したがって、申請人が「合体後の建物についての所有権の登記を申請しなければならない」わけではありません。本肢は誤りです。
 
 **たとえば**、どちらも所有権の登記がある2つの建物を合体したとき、所有者が申請するのは表題登記と古い建物の表題部の抹消までで、合体後の建物の所有権の登記は登記官が職権でしてくれます。所有者が改めて所有権の登記を申請する必要はありません。
 
 ### エ：賃借権は建物の持分の上に登記できないので、合体後に存続させられない
 
-合体前の各建物に存する所有権は、付合の際の各建物の価格の割合に応じて合体後の建物の持分の上に存続し、先取特権・質権・抵当権などの担保権も合体後の建物の持分の上に移記されて存続します。しかし、これらの存続は「持分の上に登記できる権利」に限られます。賃借権は建物の持分の上に登記することができない権利なので、同一の賃借権が合体前の各建物にあっても、合体によって合体後の建物に存続させることはできません（先例による）。したがって「賃借権の表示を申請情報の内容としなければならない」とする本肢は誤りです。
+合体前の各建物に存する所有権は、付合の際の各建物の価格の割合に応じて合体後の建物の持分の上に存続し、先取特権・質権・抵当権などの担保権も合体後の建物の持分の上に移記されて存続します。
+
+しかし、これらの存続は「持分の上に登記できる権利」に限られます。賃借権は建物の持分の上に登記することができない権利なので、同一の賃借権が合体前の各建物にあっても、合体によって合体後の建物に存続させることはできません（先例による）。
+
+したがって「賃借権の表示を申請情報の内容としなければならない」とする本肢は誤りです。
 
 **たとえば**、合体前の2つの建物に同じ内容の賃借権が登記されていても、賃借権は「建物の一部の持分」の上には登記できないため、合体後の建物にその賃借権をそのまま引き継いで登記することはできません。
 
@@ -47,6 +63,8 @@
 所有権の登記がある建物の合体による登記等を申請する場合、登記名義人が同一であるときは、合体に係る建物のうちいずれか1個の建物の所有権の登記名義人の登記識別情報を提供すれば足ります（不動産登記令8条2項2号）。本肢は正しい記述です。
 
 **たとえば**、同じ人が所有する2つの建物を合体するとき、両方の建物の登記識別情報をそろえる必要はなく、どちらか1つの建物の登記識別情報を出せば足ります。
+
+---
 
 ### まとめ
 
@@ -110,13 +128,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 登・記・権・建・物・職 — these must be rendered in their standard
-Japanese forms, never as Simplified Chinese variants (権 must not become
-权; 記 must not become 记).
+kanji 登・記・権・職 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -204,20 +239,20 @@ these 5 headings):
 5. 賃借権は持分に登記できず不存続
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ア・ウ・エは「合体前の建物にどの権利が登記されていたか」という同じ決定木を共有し（抵当権＝ア、所有権＝ウ、賃借権＝エ）、各パネルは自分の肢に関係する枝だけを強調する。イは持分割合の定め・書面申請・印鑑証明書の提供という3条件を順に確認する決定木、オは登記名義人の同一性を確認する単一チェックとして描く。②の色分け（添付情報として何が必要か＝緑、合体でどう登記されるか＝青）を引き継いでいる。
 
@@ -242,12 +277,12 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panels 1, 3, and 4（肢ア・ウ・エ）share the same three-way
+flowchart. Panels 1, 3, and 4（ア・ウ・エ）share the same three-way
 decision tree rooted at a diamond node asking what right was registered
 on the pre-merger buildings（抵当権／所有権／賃借権）; each panel
 highlights（太い縁取り・フルカラー）only the branch relevant to its own
 肢 and renders the other two branches in a faded, greyed-out, dotted-
-outline style. Panel 2（肢イ）must be drawn as a three-step flowchart
+outline style. Panel 2（イ）must be drawn as a three-step flowchart
 with three separate diamond nodes — 持分割合を定める必要があるか, 所有者
 全員が書面申請の方法により申請するか, and 申請情報とあわせて全員の印鑑
 に関する証明書を提供するか — because all three conditions must be
@@ -263,7 +298,15 @@ own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -289,7 +332,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -313,7 +356,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾情報等が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 持分割合の定め・書面申請・印鑑証明を順に確認する
@@ -337,7 +380,7 @@ Diagram: A three-step decision flowchart. 合体前の建物の所有者を複�
 Conclusion tag (green, 5-15 Japanese characters):
 印鑑証明で証明を兼ねる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 所有権の登記は職権でされるかを確認する
@@ -357,7 +400,7 @@ branch）を辿ると、結論ノード「登記官が表題登記の際に職�
 Conclusion tag (blue, 5-15 Japanese characters):
 職権でされる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 賃借権が持分に登記できる権利かを確認する
@@ -378,7 +421,7 @@ since this panel is about this branch）を辿ると、ひし形ノード「賃�
 Conclusion tag (blue, 5-15 Japanese characters):
 存続させられない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 登記名義人が同一かをまず確認する
@@ -403,12 +446,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 までは本記事では確定していません。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 登・記・権・建・物・職・抵・当・持・分・賃・借・識・別と
-any character that has a visually similar Simplified Chinese variant
-(権 must not become 权; 記 must not become 记). If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+any character that has a visually similar Simplified Chinese variant. If any character renders
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panels 1, 3, and 4 visibly share
 the same three-way decision tree with only the highlighted branch

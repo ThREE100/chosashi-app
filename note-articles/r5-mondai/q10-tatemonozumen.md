@@ -2,55 +2,79 @@
 
 **出題年度：令和5年度　午後の部　第10問**
 
-> 建物図面及び各階平面図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　建物図面及び各階平面図には、申請人及び作成者の住所を記録しなければならない。
->
-> イ　書面を提出する方法により地下のみの附属建物がある建物の建物図面を提供する場合には、附属建物の地下1階の形状を朱書きする。
->
-> ウ　各階平面図の床面積の計算において、不算入とすべき出窓を算入した誤りがある場合には、表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人は、各階平面図の訂正の申出をすることができる。
->
-> エ　建物の表題登記がされ、既に建物図面及び各階平面図が登記所に提出されている建物について、附属建物の滅失による表題部の変更の登記を申請する場合には、建物図面及び各階平面図の提供を省略することができる。
->
-> オ　2階建の建物の各階平面図を作成する場合において、2階の階層を表示するときは、1階の位置を点線をもって表示する。
->
+> 建物図面及び各階平面図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　建物図面及び各階平面図には、申請人及び作成者の住所を記録しなければならない。  
+>　  
+> イ　書面を提出する方法により地下のみの附属建物がある建物の建物図面を提供する場合には、附属建物の地下1階の形状を朱書きする。  
+>　  
+> ウ　各階平面図の床面積の計算において、不算入とすべき出窓を算入した誤りがある場合には、表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人は、各階平面図の訂正の申出をすることができる。  
+>　  
+> エ　建物の表題登記がされ、既に建物図面及び各階平面図が登記所に提出されている建物について、附属建物の滅失による表題部の変更の登記を申請する場合には、建物図面及び各階平面図の提供を省略することができる。  
+>　  
+> オ　2階建の建物の各階平面図を作成する場合において、2階の階層を表示するときは、1階の位置を点線をもって表示する。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-建物図面と各階平面図は、建物の形と位置、床面積を図で示す基本の書面です。この問題は「何を記録するのか」「どう表示するのか」「間違いはどう直すのか」という、実務でそのまま問われる作法を集めた1問です。今回は「誤っているもの」を選ぶ形式なので、正しい取扱いを一つずつ確認していきましょう。
+---
+
+建物図面と各階平面図は、建物の形と位置、床面積を図で示す基本の書面です。この問題は「何を記録するのか」「どう表示するのか」「間違いはどう直すのか」という、実務でそのまま問われる作法を集めた1問です。
+
+今回は「誤っているもの」を選ぶ形式なので、正しい取扱いを一つずつ確認していきましょう。
 
 ### ア：図面に記録するのは作成者の住所であって、申請人の住所ではない
 
-建物図面および各階平面図には、作成の年月日を記載し、申請人が記名するとともに、作成者が署名または記名押印します（不動産登記規則74条2項）。これらの図面は、同条3項により定められた別記様式に従って作成しなければならず、作成者が土地家屋調査士の場合は、その様式上の作成者欄に住所と職名（土地家屋調査士）を書き、職印を押します（不動産登記規則74条3項）。つまり住所を記録するのは「作成者」であって、申請人の住所は不要です。したがって「申請人及び作成者の住所を記録しなければならない」とする本肢は誤りです。
+建物図面および各階平面図には、作成の年月日を記載し、申請人が記名するとともに、作成者が署名または記名押印します（不動産登記規則74条2項）。
+
+これらの図面は、同条3項により定められた別記様式に従って作成しなければならず、作成者が土地家屋調査士の場合は、その様式上の作成者欄に住所と職名（土地家屋調査士）を書き、職印を押します（不動産登記規則74条3項）。
+
+つまり住所を記録するのは「作成者」であって、申請人の住所は不要です。したがって「申請人及び作成者の住所を記録しなければならない」とする本肢は誤りです。
 
 **たとえば**、調査士のAさんが施主Bさんの依頼で図面を作るとき、図面に住所と職印を入れるのはA調査士自身です。Bさんについては記名は必要でも、その住所まで図面に書き込む必要はありません。
 
 ### イ：附属建物が地下のみのときは、その地下1階の形状を朱書きする
 
-建物が地下のみの建物である場合は、地下1階の形状を朱書きします（不動産登記事務取扱準則52条1項）。これは附属建物についても同じで、附属建物が地下のみの建物であるときは、当該附属建物の地下1階の形状を朱書きします。したがって本肢は正しい取扱いを述べています。
+建物が地下のみの建物である場合は、地下1階の形状を朱書きします（不動産登記事務取扱準則52条1項）。
+
+これは附属建物についても同じで、附属建物が地下のみの建物であるときは、当該附属建物の地下1階の形状を朱書きします。したがって本肢は正しい取扱いを述べています。
 
 **たとえば**、母屋のほかに地下だけの倉庫が附属建物としてあるマンションのような建物では、建物図面上でその地下倉庫の形を赤い線で描いて、「これは地下だけの建物ですよ」と一目で分かるようにします。
 
 ### ウ：更正の登記ができる誤りは、訂正の申出ではなく更正登記で直す
 
-図面の誤りのうち、正しい図面を添えた更正の登記を申請できる場合には、訂正の申出をすることはできません（不動産登記規則88条1項ただし書）。出窓の算入・不算入の誤りは床面積に影響し、正しい各階平面図を添付した床面積の更正登記を申請できるケースです。この場合は更正登記で直すべきなので、訂正の申出をすることはできません。したがって「訂正の申出をすることができる」とする本肢は誤りです。
+図面の誤りのうち、正しい図面を添えた更正の登記を申請できる場合には、訂正の申出をすることはできません（不動産登記規則88条1項ただし書）。
+
+出窓の算入・不算入の誤りは床面積に影響し、正しい各階平面図を添付した床面積の更正登記を申請できるケースです。この場合は更正登記で直すべきなので、訂正の申出をすることはできません。したがって「訂正の申出をすることができる」とする本肢は誤りです。
 
 **たとえば**、本来は床面積に入れない出窓をうっかり算入して床面積を大きく登記してしまったとします。この間違いは床面積そのものがずれているので、単なる図面の訂正の申出ではなく、正しい図面を添えた床面積の更正登記できちんと直すことになります。
 
-では逆に、更正の登記を申請できない誤りの場合はどうなるでしょうか。不動産登記規則88条1項は、「図面が現況と一致しないときは、訂正の申出をすることができる。ただし、更正の登記を申請することができるときは、この限りでない」という構造になっています。つまり訂正の申出が使えるかどうかの分かれ目は、**その誤りが登記記録に記録されている事項（床面積・地積など）自体の誤りかどうか**です。誤りが登記事項そのものに及んでいれば更正登記が必要で訂正の申出はできず、逆に登記事項自体は正しいのに図面上の表示だけが誤っている場合は、更正登記の対象がそもそも存在しないため、訂正の申出によって図面だけを直すことになります。
+では逆に、更正の登記を申請できない誤りの場合はどうなるでしょうか。不動産登記規則88条1項は、「図面が現況と一致しないときは、訂正の申出をすることができる。ただし、更正の登記を申請することができるときは、この限りでない」という構造になっています。
 
-**たとえば**、地積測量図に書かれている土地の「地番」が書き間違っていたとします。登記記録上の地積そのものは正しく、単に図面上の地番表示だけが誤っているケースなので、更正登記の出番はありません。この場合は、表題部所有者や所有権の登記名義人（またはその相続人など）の1人から、訂正後の地積測量図を添えて訂正の申出をすることで直せます。
+つまり訂正の申出が使えるかどうかの分かれ目は、**その誤りが登記記録に記録されている事項（床面積・地積など）自体の誤りかどうか**です。
+
+誤りが登記事項そのものに及んでいれば更正登記が必要で訂正の申出はできず、逆に登記事項自体は正しいのに図面上の表示だけが誤っている場合は、更正登記の対象がそもそも存在しないため、訂正の申出によって図面だけを直すことになります。
+
+**たとえば**、地積測量図に書かれている土地の「地番」が書き間違っていたとします。登記記録上の地積そのものは正しく、単に図面上の地番表示だけが誤っているケースなので、更正登記の出番はありません。
+
+この場合は、表題部所有者や所有権の登記名義人（またはその相続人など）の1人から、訂正後の地積測量図を添えて訂正の申出をすることで直せます。
 
 ### エ：附属建物の滅失による変更登記では、図面の提供を省略できる
 
-附属建物の滅失による表題部の変更の登記を申請する場合には、建物図面および各階平面図を提供することを要しません。既に図面が登記所に提出されている建物について、附属建物がなくなっただけであれば、改めて図面を出し直す必要はないということです。したがって「提供を省略することができる」とする本肢は正しい記述です。
+附属建物の滅失による表題部の変更の登記を申請する場合には、建物図面および各階平面図を提供することを要しません。
+
+既に図面が登記所に提出されている建物について、附属建物がなくなっただけであれば、改めて図面を出し直す必要はないということです。したがって「提供を省略することができる」とする本肢は正しい記述です。
 
 **たとえば**、母屋と物置（附属建物）が登記されている家で、物置だけを取り壊したとします。母屋の形は変わっていないので、滅失による変更登記の際に建物図面・各階平面図を新たに添える必要はありません。
 
 ### オ：1階以外の階を表示するときは、1階の位置を点線で示す
 
-各階平面図では、各階の平面の形状と周囲の長さを記録します。1階以外の階層を表示するときは、1階の位置を点線をもって表示しなければなりません（不動産登記事務取扱準則53条1項）。したがって、2階を表示するときに1階の位置を点線で示すとする本肢は正しい取扱いです。
+各階平面図では、各階の平面の形状と周囲の長さを記録します。1階以外の階層を表示するときは、1階の位置を点線をもって表示しなければなりません（不動産登記事務取扱準則53条1項）。
+
+したがって、2階を表示するときに1階の位置を点線で示すとする本肢は正しい取扱いです。
 
 **たとえば**、2階建ての家の2階部分の平面図を描くとき、そのままだと2階が地面のどこに乗っているのか分かりません。そこで1階の外周を点線で薄く添えて、「1階の上にこう乗っています」と位置関係が分かるようにします。
+
+---
 
 ### まとめ
 
@@ -71,12 +95,12 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（1番＝ア・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠のうち、ア（不動産登記規則74条2項・3項）、イ（準則52条1項、登記研究416号）、ウ（不動産登記規則88条1項ただし書）、オ（準則53条1項）は、データベースのexplanationフィールドで条文番号・先例番号まで明記されているものです。一方、エ（附属建物の滅失による変更登記で図面提供を要しないこと）は、explanation上で条文番号までは明示されておらず、図面提供に関する一般的な取扱いからの推論を含みます。
-- ウの補足（更正登記ができない場合＝訂正の申出で直す場合の説明、地番の表記ミスの具体例）は、令和5年度第10問のexplanationだけでなく、平成27年度第8問肢ウ・令和4年度第7問肢ウ（いずれもtakuitsu.jsonで規則88条1項の条文根拠つきで確認済み）を横断的に突き合わせて追記したものです。
+- ウの補足（更正登記ができない場合＝訂正の申出で直す場合の説明、地番の表記ミスの具体例）は、令和5年度第10問のexplanationだけでなく、平成27年度第8問ウ・令和4年度第7問ウ（いずれもtakuitsu.jsonで規則88条1項の条文根拠つきで確認済み）を横断的に突き合わせて追記したものです。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（建物図面及び各階平面図）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026-08-03実施）**：不動産登記事務取扱準則52条1項・53条1項、不動産登記規則74条2項・88条1項は、令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
 - **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。イ（準則52条1項）、ウ（不動産登記規則88条1項ただし書「土地所在図、地積測量図、建物図面又は各階平面図」を明文で束ねて規定）、オ（準則53条1項「1階以外の階層を表示するときは、1階の位置を点線をもって表示する」）は条文原文と完全に一致し、相違なし。アの根拠条文に誤りがあり、「土地家屋調査士法施行規則21条1項」は同項が実際には報酬基準の明示義務の規定であり、図面の作成者欄の記載事項とは無関係のため誤りと判明したため、削除し「不動産登記規則74条3項」（図面を別記様式により作成すべき旨の規定）に修正しました（本文・確認用の根拠一覧の2箇所）。なお、作成者欄に「住所」を記載する具体的な書式指定自体は別記様式（画像）内の要素でありローカル法令データベースでは全文テキスト化されていないため、様式の存在根拠となる74条3項までの確認にとどめています。正解番号（①＝ア・ウ）は独立確認済みの公式正解と一致しています。
-- **QAチェックリスト再検証（2026-08-16実施）**：確認事項ブロック内のウの補足説明で、注釈括弧が半角`()`のまま（「令和4年度第7問肢ウ（いずれも…確認済み）」）になっていたため、全角（）に修正しました。その他の項目（判例・先例番号の記載、一般法の適用除外、見出しの結論整合性、文体、表形式の不使用、インフォグラフィックとの整合性、タイトル文字数、確認事項ブロックの正直さ、重複出題・最新法令チェック）は確認済みで問題ありませんでした。
+- **QAチェックリスト再検証（2026-08-16実施）**：確認事項ブロック内のウの補足説明で、注釈括弧が半角`()`のまま（「令和4年度第7問ウ（いずれも…確認済み）」）になっていたため、全角（）に修正しました。その他の項目（判例・先例番号の記載、一般法の適用除外、見出しの結論整合性、文体、表形式の不使用、インフォグラフィックとの整合性、タイトル文字数、確認事項ブロックの正直さ、重複出題・最新法令チェック）は確認済みで問題ありませんでした。
 ---
 
 ## 見出し画像用フレーズ
@@ -115,12 +139,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・番・図・誤 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -197,22 +239,22 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢アは「住所を書く欄は申請人か作成者か」という誤りやすい思い込みを、正しいルールと並べる対比枠型で描く。ウは「その誤りは登記事項自体に及ぶか」を分岐点とする決定木として、更正登記で直す場合と訂正の申出で直せる場合の両方を明記する。イ・エ・オは、それぞれ図面に何を・どう描くかを1枚の配置図で示す構成にした。
+アは「住所を書く欄は申請人か作成者か」という誤りやすい思い込みを、正しいルールと並べる対比枠型で描く。ウは「その誤りは登記事項自体に及ぶか」を分岐点とする決定木として、更正登記で直す場合と訂正の申出で直せる場合の両方を明記する。イ・エ・オは、それぞれ図面に何を・どう描くかを1枚の配置図で示す構成にした。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -235,11 +277,11 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 1（肢ア）is instead built as a side-by-side contrast
+flowchart. Panel 1（ア）is instead built as a side-by-side contrast
 frame（正誤対比型）: a left/upper panel labeled「誤りやすい思い込み」
 showing the mistaken idea crossed out, and a right/lower panel labeled
 「正しいルール」showing the correct rule, since this 肢 is about a common
-misconception rather than a multi-step judgment. Panel 3（肢ウ）must be
+misconception rather than a multi-step judgment. Panel 3（ウ）must be
 drawn as an actual decision flowchart with a diamond node asking whether
 the mistake reaches a registered item itself, and BOTH exit arrows
 （登記事項自体の誤り／表示だけの誤り）must lead to their own distinct,
@@ -254,7 +296,15 @@ callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -280,18 +330,21 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 住所欄の記載義務は作成者だけにある
-Diagram: A side-by-side contrast frame（正誤対比型）. Left/upper panel
-labeled「誤りやすい思い込み」: an isometric building-図面 sheet where a
-hand is writing an address into BOTH the「申請人」name box and the
-「作成者」name box, with a large red ✕ mark over the「申請人」side's
-address line. Right/lower panel labeled「正しいルール」: the same 図面
-sheet where the「作成者」name box contains an address and a small
-official seal（職印）, while the「申請人」name box has only a name, with a
-green checkmark beside it.
+Diagram: A side-by-side contrast frame（正誤対比型）. IMPORTANT: the two
+sides must show OPPOSITE marks — the mistaken belief treats the 申請人's
+address as required (✓), but the actual rule says it is not required (✕).
+Left/upper panel labeled「誤りやすい思い込み」(drawn slightly faded): an
+isometric building-図面 sheet where a hand is writing an address into
+BOTH the「申請人」name box and the「作成者」name box, with a small green
+checkmark labeled「申請人の住所も必要？」beside the 申請人 box. Right/
+lower panel labeled「正しいルール」(full color): the same 図面 sheet where
+the「作成者」name box contains an address and a small official seal
+（職印）, while the「申請人」name box has only a name, and a crossed-out
+empty address line beside it carries a red ✕ labeled「住所は不要」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、住所を書く欄が「申請人」なのか「作成者」なのかを区別します。図面
 に住所と職印を記録するのは作成者だけで、申請人については記名で足り、住
@@ -300,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請人の住所は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 附属建物が地下のみかを見分ける
@@ -315,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地下1階を朱書き
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 誤りが登記事項に及ぶかを確認する
@@ -339,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 訂正の申出は不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 滅失は附属建物だけかを確認する
@@ -356,7 +409,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 図面の提出不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 表示する階以外の位置を点線で示す
@@ -377,11 +430,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 条1項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建, 誤, 職, 朱, 訂, 更, 略, 積, 窓 and any character that has
 a visually similar Simplified Chinese variant. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that Panel 1 is drawn as a
 side-by-side contrast frame rather than a flowchart, that Panel 3 shows

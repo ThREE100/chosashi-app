@@ -2,76 +2,110 @@
 
 **出題年度：平成29年度　午後の部　第2問**
 
-> 次の対話は，不動産の物権変動に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち，判例の趣旨に照らし誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> 教授：　Ａ所有の土地をＢがＣに売却し，その後ＢがＡから当該土地を買い受けた場合において，いずれの売買契約にも所有権の移転時期や方法に関する特約がないときは，当該土地の所有権は，いつの時点でＣに移転しますか。
->
-> 学生：ア　ＢがＡから当該土地を買い受け，かつ，ＡからＢへの所有権の移転の登記がされた時点で，Ｃに当該土地の所有権が移転することになります。
->
-> 教授：　Ｃが占有しているＡ所有の土地をＡがＢに売却し，ＡからＢへの所有権の移転の登記がされた後，Ｃにつき当該土地の取得時効が完成して，Ｃが時効を援用した場合，Ｃは，Ｂに対し，登記なくして当該土地の所有権を主張することができますか。
->
-> 学生：イ　はい。Ｃは，Ｂに対し，当該土地の所有権を主張することができます。
->
-> 教授：　Ａ所有の土地をＡがＢに売却し，ＡからＢへの所有権の移転の登記がされた後，Ａが，Ｂの債務不履行により，当該売買契約を解除しました。しかし，その解除後，ＢがＣに当該土地を売却し，ＢからＣへの所有権の移転の登記がされた場合，Ａは，Ｃに対し，登記なくして当該土地の所有権を主張することができますか。
->
-> 学生：ウ　はい。Ａは，Ｃに対し，当該土地の所有権を主張することができます。
->
-> 教授：　Ａ所有の土地をＡがＢに売却したが，ＡからＢへの所有権の移転の登記がされる前に，Ｃが権原なく当該土地の占有を開始した場合，Ｂは，Ｃに対し，登記なくして当該土地の所有権を主張することができますか。
->
-> 学生：エ　はい。Ｂは，Ｃに対し，当該土地の所有権を主張することができます。
->
-> 教授：　Ａ所有の土地をＡがＢに売却した後ＡからＢへの所有権の移転の登記がされる前に，Ｂからその登記の申請を受任していたＣが，Ａから当該土地を買い受け，ＡからＣへの所有権の移転の登記がされた場合，Ｂは，Ｃに対し，登記なくして当該土地の所有権を主張することができますか。
->
-> 学生：オ　はい。Ｂは，Ｃに対し，当該土地の所有権を主張することができます。
->
+> 次の対話は，不動産の物権変動に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち，判例の趣旨に照らし誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> 教授：　Ａ所有の土地をＢがＣに売却し，その後ＢがＡから当該土地を買い受けた場合において，いずれの売買契約にも所有権の移転時期や方法に関する特約がないときは，当該土地の所有権は，いつの時点でＣに移転しますか。  
+>　  
+> 学生：ア　ＢがＡから当該土地を買い受け，かつ，ＡからＢへの所有権の移転の登記がされた時点で，Ｃに当該土地の所有権が移転することになります。  
+>　  
+> 教授：　Ｃが占有しているＡ所有の土地をＡがＢに売却し，ＡからＢへの所有権の移転の登記がされた後，Ｃにつき当該土地の取得時効が完成して，Ｃが時効を援用した場合，Ｃは，Ｂに対し，登記なくして当該土地の所有権を主張することができますか。  
+>　  
+> 学生：イ　はい。Ｃは，Ｂに対し，当該土地の所有権を主張することができます。  
+>　  
+> 教授：　Ａ所有の土地をＡがＢに売却し，ＡからＢへの所有権の移転の登記がされた後，Ａが，Ｂの債務不履行により，当該売買契約を解除しました。しかし，その解除後，ＢがＣに当該土地を売却し，ＢからＣへの所有権の移転の登記がされた場合，Ａは，Ｃに対し，登記なくして当該土地の所有権を主張することができますか。  
+>　  
+> 学生：ウ　はい。Ａは，Ｃに対し，当該土地の所有権を主張することができます。  
+>　  
+> 教授：　Ａ所有の土地をＡがＢに売却したが，ＡからＢへの所有権の移転の登記がされる前に，Ｃが権原なく当該土地の占有を開始した場合，Ｂは，Ｃに対し，登記なくして当該土地の所有権を主張することができますか。  
+>　  
+> 学生：エ　はい。Ｂは，Ｃに対し，当該土地の所有権を主張することができます。  
+>　  
+> 教授：　Ａ所有の土地をＡがＢに売却した後ＡからＢへの所有権の移転の登記がされる前に，Ｂからその登記の申請を受任していたＣが，Ａから当該土地を買い受け，ＡからＣへの所有権の移転の登記がされた場合，Ｂは，Ｃに対し，登記なくして当該土地の所有権を主張することができますか。  
+>　  
+> 学生：オ　はい。Ｂは，Ｃに対し，当該土地の所有権を主張することができます。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-物権変動の分野は、「所有権はいつ移転するのか」と「登記がなければ対抗できない『第三者』とは誰か（民法177条）」の2つが柱です。特に、取得時効・契約解除・不法占拠者・背信的悪意者といった典型論点で、登記が必要な場面と不要な場面を判例に沿って区別できるかが問われます。誤っている解答を選ぶ問題なので、「どこが判例と違うか」に注目して読みましょう。
+---
+
+物権変動の分野は、「所有権はいつ移転するのか」と「登記がなければ対抗できない『第三者』とは誰か（民法177条）」の2つが柱です。
+
+特に、取得時効・契約解除・不法占拠者・背信的悪意者といった典型論点で、登記が必要な場面と不要な場面を判例に沿って区別できるかが問われます。誤っている解答を選ぶ問題なので、「どこが判例と違うか」に注目して読みましょう。
 
 ### ア：他人物売買では、売主が所有権を取得した時点で買主に移転する
 
-他人の物を売買の目的とした場合（他人物売買）も、債権契約としては有効です。もっとも、買主に所有権が移転するのは、売主がその物の所有権（処分権）を取得した時点だというのが判例の立場です。本肢では、Ｂが元の所有者Ａから土地を買い受けて所有権を取得した「その時点」でＣに所有権が移転するのであって、「ＡからＢへの移転登記がされた時点」に限られるわけではありません。登記の時点に絞り込んでいる学生の解答は、判例と異なり誤りです。
+他人の物を売買の目的とした場合（他人物売買）も、債権契約としては有効です。もっとも、買主に所有権が移転するのは、売主がその物の所有権（処分権）を取得した時点だというのが判例の立場です。
 
-**たとえば**、まだＡさん名義の土地を、Ｂさんが先にＣさんへ「必ず自分のものにして渡すから」と売る約束をしたとします。その後ＢさんがＡさんからその土地を買って自分のものにした瞬間に、土地はＣさんのものになります。登記の手続がいつ入ったかを待つ必要はありません。
+本肢では、Ｂが元の所有者Ａから土地を買い受けて所有権を取得した「その時点」でＣに所有権が移転するのであって、「ＡからＢへの移転登記がされた時点」に限られるわけではありません。登記の時点に絞り込んでいる学生の解答は、判例と異なり誤りです。
+
+**たとえば**、まだＡさん名義の土地を、Ｂさんが先にＣさんへ「必ず自分のものにして渡すから」と売る約束をしたとします。
+
+その後ＢさんがＡさんからその土地を買って自分のものにした瞬間に、土地はＣさんのものになります。登記の手続がいつ入ったかを待つ必要はありません。
 
 ### イ：登記後に時効が完成した占有者は、登記なくして所有権を主張できる
 
-Ａの土地をＣが占有して取得時効が進行している途中で、その土地がＡからＢへ譲渡されて登記も移った後に、Ｃの取得時効が完成した場合、ＣとＢは物権変動の当事者に類似する関係に立ちます。そのため、Ｂは民法177条の「第三者」にはあたらず、Ｃは登記なくして時効取得をＢに対抗することができるというのが判例の立場です。学生の解答は判例どおりで正しい記述です。
+Ａの土地をＣが占有して取得時効が進行している途中で、その土地がＡからＢへ譲渡されて登記も移った後に、Ｃの取得時効が完成した場合、ＣとＢは物権変動の当事者に類似する関係に立ちます。
 
-**たとえば**、Ｃさんが長年ある土地を自分の土地のつもりで使い続けていたところ、その途中で持ち主がＡさんからＢさんに変わり、登記もＢさん名義になったとします。その後にＣさんの時効期間が満了して時効を主張した場合、Ｃさんは「登記はしていないけれど、時効で自分のものになった」とＢさんに堂々と言えるのです。
+そのため、Ｂは民法177条の「第三者」にはあたらず、Ｃは登記なくして時効取得をＢに対抗することができるというのが判例の立場です。学生の解答は判例どおりで正しい記述です。
+
+**たとえば**、Ｃさんが長年ある土地を自分の土地のつもりで使い続けていたところ、その途中で持ち主がＡさんからＢさんに変わり、登記もＢさん名義になったとします。
+
+その後にＣさんの時効期間が満了して時効を主張した場合、Ｃさんは「登記はしていないけれど、時効で自分のものになった」とＢさんに堂々と言えるのです。
 
 ### ウ：解除後に現れた第三者との関係は対抗問題で、解除した者にも登記が必要
 
-売買契約が解除された「後」に、その土地を買って登記まで備えた第三者Ｃが現れた場合、解除した元の売主Ａと第三者Ｃは対抗関係に立ちます。Ｂを起点としてＢ→Ａ（解除による復帰的物権変動）とＢ→Ｃの二重譲渡があったのと同じように扱われるからです。したがって、Ａは登記を備えなければＣに所有権を対抗できず、「登記なくして主張できる」とする学生の解答は誤りです。
+売買契約が解除された「後」に、その土地を買って登記まで備えた第三者Ｃが現れた場合、解除した元の売主Ａと第三者Ｃは対抗関係に立ちます。
 
-**たとえば**、Ａさんが土地をＢさんに売って登記も移したあと、Ｂさんの代金未払いを理由に契約を解除したとします。ところが解除後にＢさんがその土地をＣさんへ転売し、Ｃさん名義の登記まで済ませてしまいました。この場合、Ａさんは「解除したのだから自分のものだ」と言うだけでは足りず、自分名義の登記を先に取り戻していなければＣさんに勝てません。
+Ｂを起点としてＢ→Ａ（解除による復帰的物権変動）とＢ→Ｃの二重譲渡があったのと同じように扱われるからです。したがって、Ａは登記を備えなければＣに所有権を対抗できず、「登記なくして主張できる」とする学生の解答は誤りです。
+
+**たとえば**、Ａさんが土地をＢさんに売って登記も移したあと、Ｂさんの代金未払いを理由に契約を解除したとします。ところが解除後にＢさんがその土地をＣさんへ転売し、Ｃさん名義の登記まで済ませてしまいました。
+
+この場合、Ａさんは「解除したのだから自分のものだ」と言うだけでは足りず、自分名義の登記を先に取り戻していなければＣさんに勝てません。
 
 ### エ：権原のない不法占拠者に対しては、登記なくして所有権を主張できる
 
-民法177条の「第三者」とは、当事者やその包括承継人以外の者で、登記がないことを主張するについて正当な利益を有する者に限られるというのが判例の立場です。何の権原もなく土地の占有を始めた不法占拠者は、この「第三者」にあたりません。したがって、買主Ｂは登記がなくても、不法占拠者Ｃに対して所有権を主張することができます。学生の解答は正しい記述です。
+民法177条の「第三者」とは、当事者やその包括承継人以外の者で、登記がないことを主張するについて正当な利益を有する者に限られるというのが判例の立場です。
 
-**たとえば**、Ａさんから土地を買ったＢさんが、まだ登記を移す前に、まったく無関係のＣさんが勝手にその土地に居座り始めたとします。Ｃさんには土地を使う正当な理由が何もないので、Ｂさんは「まだ登記していないから」などと気にせず、Ｃさんに「出ていってください」と所有権を主張できます。
+何の権原もなく土地の占有を始めた不法占拠者は、この「第三者」にあたりません。したがって、買主Ｂは登記がなくても、不法占拠者Ｃに対して所有権を主張することができます。学生の解答は正しい記述です。
+
+**たとえば**、Ａさんから土地を買ったＢさんが、まだ登記を移す前に、まったく無関係のＣさんが勝手にその土地に居座り始めたとします。
+
+Ｃさんには土地を使う正当な理由が何もないので、Ｂさんは「まだ登記していないから」などと気にせず、Ｃさんに「出ていってください」と所有権を主張できます。
 
 ### オ：登記申請を受任していた者に対しては、登記なくして所有権を主張できる
 
-他人のために登記を申請する義務を負う者は、民法177条の「第三者」にあたりません（不動産登記法5条2項）。本肢のＣは、ＢからＡ→Ｂの移転登記の申請を受任していた立場でありながら、自らＡから土地を買って登記を備えてしまった者です。このような者は登記がないことを主張できる正当な利益を持たないため、Ｂは登記なくしてＣに所有権を主張することができます。学生の解答は正しい記述です。
+他人のために登記を申請する義務を負う者は、民法177条の「第三者」にあたりません（不動産登記法5条2項）。本肢のＣは、ＢからＡ→Ｂの移転登記の申請を受任していた立場でありながら、自らＡから土地を買って登記を備えてしまった者です。
 
-**たとえば**、Ｂさんが「Ａさんから買った土地の登記手続をお願いします」とＣさんに頼んでいたのに、そのＣさんが手続を進めるどころか、自分でＡさんからその土地を買い取って自分名義にしてしまったとします。これはあまりに信義に反する行為なので、Ｃさんは「Ｂさんは登記していない」と主張する資格がなく、Ｂさんは登記なしでもＣさんに勝てるのです。
+このような者は登記がないことを主張できる正当な利益を持たないため、Ｂは登記なくしてＣに所有権を主張することができます。学生の解答は正しい記述です。
+
+**たとえば**、Ｂさんが「Ａさんから買った土地の登記手続をお願いします」とＣさんに頼んでいたのに、そのＣさんが手続を進めるどころか、自分でＡさんからその土地を買い取って自分名義にしてしまったとします。
+
+これはあまりに信義に反する行為なので、Ｃさんは「Ｂさんは登記していない」と主張する資格がなく、Ｂさんは登記なしでもＣさんに勝てるのです。
 
 **ここが分かりにくいポイント**：
-1つ前の肢ウでは「解除後の第三者とは対抗関係に立ち、先に登記を備えた方が勝つ」という、対抗関係のいちばん基本的なルールを確認したばかりです。そのため、この肢オも同じ枠組みでそのまま考えてしまい、「Ｃは実際にＡから土地を買って、きちんと登記まで済ませている。ならば肢ウと同じで、先に登記を備えたＣの勝ちなのでは」と判断してしまう人が少なくありません。「ちゃんと取引をして登記も備えた人」が負けるという結論は、直感的にかなり違和感があるはずです。
+1つ前のウでは「解除後の第三者とは対抗関係に立ち、先に登記を備えた方が勝つ」という、対抗関係のいちばん基本的なルールを確認したばかりです。
 
-実はこの肢は、肢ウとは判断のルートがそもそも違います。順を追って整理しましょう。
+そのため、このオも同じ枠組みでそのまま考えてしまい、「Ｃは実際にＡから土地を買って、きちんと登記まで済ませている。ならばウと同じで、先に登記を備えたＣの勝ちなのでは」と判断してしまう人が少なくありません。
 
-1. **民法177条の原則（肢ウで使ったルート）**：177条の「第三者」にあたるのは、当事者・包括承継人以外の者で、登記がないことを主張するについて正当な利益を有する者に限られます（判例）。肢ウのＣは、単に先に買い受けて登記を備えただけの通常の買主なので、この意味での「第三者」にあたり、先に登記を備えた側が勝ちます。
-2. **不動産登記法5条2項の除外ルート（肢オで使うべきルート）**：ところが肢オのＣは、単なる買主ではありません。もともとＢから「Ａ→Ｂの移転登記を申請してほしい」と頼まれ、その申請を引き受けていた（受任していた）という特別な立場にあります。他人のために登記を申請する義務を負う者は、たとえ自分名義の登記を備えていても、その登記がないことを主張することができません（不動産登記法5条2項）。
+「ちゃんと取引をして登記も備えた人」が負けるという結論は、直感的にかなり違和感があるはずです。
 
-つまり、「Ｃがちゃんと登記を備えたかどうか」を考える前の段階で、Ｃは受任者としての立場ゆえに「第三者」としての保護そのものを法律によって奪われています。先に登記した者が勝つという肢ウの発想を持ち込む必要は、そもそもありません。
+実はこの肢は、ウとは判断のルートがそもそも違います。順を追って整理しましょう。
 
-- **肢ウのＣ（通常の対抗関係）**：単に先に買い受けて登記を備えた第三者。177条の一般原則どおり、先に登記を備えた方が勝つ。
-- **肢オのＣ（法定の除外類型）**：他人のために登記を申請する義務を負っていた者。登記を備えていても、不動産登記法5条2項により「第三者」として保護されない。
+1. **民法177条の原則（ウで使ったルート）**：177条の「第三者」にあたるのは、当事者・包括承継人以外の者で、登記がないことを主張するについて正当な利益を有する者に限られます（判例）。
+
+ウのＣは、単に先に買い受けて登記を備えただけの通常の買主なので、この意味での「第三者」にあたり、先に登記を備えた側が勝ちます。
+2. **不動産登記法5条2項の除外ルート（オで使うべきルート）**：ところがオのＣは、単なる買主ではありません。もともとＢから「Ａ→Ｂの移転登記を申請してほしい」と頼まれ、その申請を引き受けていた（受任していた）という特別な立場にあります。
+
+他人のために登記を申請する義務を負う者は、たとえ自分名義の登記を備えていても、その登記がないことを主張することができません（不動産登記法5条2項）。
+
+つまり、「Ｃがちゃんと登記を備えたかどうか」を考える前の段階で、Ｃは受任者としての立場ゆえに「第三者」としての保護そのものを法律によって奪われています。先に登記した者が勝つというウの発想を持ち込む必要は、そもそもありません。
+
+- **ウのＣ（通常の対抗関係）**：単に先に買い受けて登記を備えた第三者。177条の一般原則どおり、先に登記を備えた方が勝つ。
+- **オのＣ（法定の除外類型）**：他人のために登記を申請する義務を負っていた者。登記を備えていても、不動産登記法5条2項により「第三者」として保護されない。
 
 したがって、Ｂから登記申請を受任していたＣは、自分名義の登記を備えていても、Ｂに対して登記がないことを主張できません。Ｂは登記なくしてＣに所有権を主張することができ、この肢は正しい記述です。
+
+---
 
 ### まとめ
 
@@ -94,8 +128,8 @@
 - 各肢の根拠について、ア（大判大8.7.5）、イ（最判昭41.11.22）、エ（大連判明41.12.15、不法占拠者は第三者にあたらない）、オ（不動産登記法5条2項）は、いずれもデータベースのexplanationフィールドで判例・条文番号まで明記されているものです。ウ（解除後の第三者と対抗関係になり登記が必要であること）は、177条の「第三者」に関する判例の一般的な考え方からの説明です。
 - **問題文の改行整理と内容再チェック（2026-09-15実施）**：問題文の引用ブロックで、教授の質問と学生の解答が改行なく隣接しており読みにくいという指摘を受け、教授・学生それぞれの発言の間に空行を挿入して読みやすく整えました（`tools/md_to_mt.py`の引用ブロック変換は空行を無視して各発言を`<br><br>`で連結する仕様のため、note側の見た目に変化はなく、GitHub上でのMarkdown表示のみが改善されます。実際に`md_to_mt.py`で再書き出しし、`exports/h29-mondai.mt.txt`に差分がないことを確認済みです）。あわせて、`format-template.md`の執筆ルール（判例番号を本文に書かない・全角括弧・敬体・まとめは箇条書きのみ等）への準拠と、各肢の内容（ア：他人物売買の所有権移転時期、イ：時効完成後の登記具備者との関係、ウ：解除後の第三者との対抗関係、エ：不法占拠者は177条の第三者にあたらない、オ：登記申請受任者は不動産登記法5条2項により第三者にあたらない）を`laws/minpou-1-soukyoku-bukken.md`（177条）・`laws/fudousan-touki-hou.md`（5条2項）の条文と照合し、正解（アウの組合せ・選択肢2番）を含め誤りは見つかりませんでした。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、本問の肢エ「不法占拠者は登記なくして対抗できる」という論点が、令和6年度第2問オ（「Bは登記なくして、無権原で占有するCに対し明渡しを請求できない」→誤り、すなわち登記なくして請求できる）と同じ規律を問うており、**軽度の重複が見つかりました**。ただし対話形式・他の4肢の事案（他人物売買、取得時効、解除、背信的悪意者類似の登記申請受任者）は令和6年度第2問と異なり、記事全体としての重複は限定的です。noteで令和6年度第2問の解説記事を作成する際は、不法占拠者と177条の第三者に関する部分の説明が本記事と重なりやすい点に留意してください。
-- **肢オに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、肢オの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。直前の肢ウで確認した「対抗関係では先に登記を備えた方が勝つ」という一般原則をそのまま持ち込み、「Ｃもきちんと登記を備えているのだから勝つはず」と誤って結論づけてしまいやすい点を掘り下げ、肢オのＣは通常の対抗関係（民法177条の一般原則）ではなく、登記申請の受任者に対する法定の除外規定（不動産登記法5条2項）によって、そもそも「第三者」として保護されないという別ルートで判断すべきことを整理しています。あわせて、肢ウとの対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズは肢ア（所有権移転時期の論点）を捉えた内容のままとし、変更していません。肢オのつまずきどころ（対抗関係の一般原則と法定除外類型の混同）は肢アのテーマ（所有権移転時期）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。個別テーマ記事については、`link-map/h29-related-articles.md`で「対抗要件（177条）が必要な場面・不要な場面 総整理」の新規作成が推奨されていますが、現時点ではまだ作成されていないため、今回はリンクを追加していません。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、本問のエ「不法占拠者は登記なくして対抗できる」という論点が、令和6年度第2問オ（「Bは登記なくして、無権原で占有するCに対し明渡しを請求できない」→誤り、すなわち登記なくして請求できる）と同じ規律を問うており、**軽度の重複が見つかりました**。ただし対話形式・他の4肢の事案（他人物売買、取得時効、解除、背信的悪意者類似の登記申請受任者）は令和6年度第2問と異なり、記事全体としての重複は限定的です。noteで令和6年度第2問の解説記事を作成する際は、不法占拠者と177条の第三者に関する部分の説明が本記事と重なりやすい点に留意してください。
+- **オに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、オの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。直前のウで確認した「対抗関係では先に登記を備えた方が勝つ」という一般原則をそのまま持ち込み、「Ｃもきちんと登記を備えているのだから勝つはず」と誤って結論づけてしまいやすい点を掘り下げ、オのＣは通常の対抗関係（民法177条の一般原則）ではなく、登記申請の受任者に対する法定の除外規定（不動産登記法5条2項）によって、そもそも「第三者」として保護されないという別ルートで判断すべきことを整理しています。あわせて、ウとの対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズはア（所有権移転時期の論点）を捉えた内容のままとし、変更していません。オのつまずきどころ（対抗関係の一般原則と法定除外類型の混同）はアのテーマ（所有権移転時期）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。個別テーマ記事については、`link-map/h29-related-articles.md`で「対抗要件（177条）が必要な場面・不要な場面 総整理」の新規作成が推奨されていますが、現時点ではまだ作成されていないため、今回はリンクを追加していません。
 
 ---
 
@@ -136,13 +170,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 登・記・得・対・抗・占・拠・権・原・効・時・受・任・解・除・転・売・義
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -214,22 +266,22 @@ these 5 headings):
 5. 解除後の第三者には登記が必要
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
 ## インフォグラフィック プロンプト（オ肢・間違いノート）
 
-肢ウ（通常の対抗関係・先に登記した方が勝つ）と肢オ（登記申請の受任者に対する法定除外類型）を左右に対比させ、「なぜ同じ『登記を備えた第三者』なのに結論が逆になるのか」を可視化する対比型の間違いノート。
+ウ（通常の対抗関係・先に登記した方が勝つ）とオ（登記申請の受任者に対する法定除外類型）を左右に対比させ、「なぜ同じ『登記を備えた第三者』なのに結論が逆になるのか」を可視化する対比型の間違いノート。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -250,11 +302,18 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-登・記・申・請・受・任・義・務・第・三・者・欠・除・外・対・抗・譲・渡・
-益・権・誤 — always draw the standard Japanese (Jōyō) form.
+登・記・申・請・受・任・義・務・第・者・欠・除・外・対・抗・益・誤 — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -279,7 +338,7 @@ from A and completed registration in their own name (identical-looking
 registration itself is equally valid in both cases).
 
 LEFT PANEL header (pill badge, blue):
-肢ウ：通常の対抗関係
+ウ：通常の対抗関係
 
 LEFT PANEL content: An isometric scene of A selling land to C after
 rescinding the contract with B, C receiving a registration stamp. A large
@@ -291,7 +350,7 @@ Conclusion tag (blue pill, short phrase):
 先に登記した方が勝つ
 
 RIGHT PANEL header (pill badge, orange):
-肢オ：登記申請の受任者
+オ：登記申請の受任者
 
 RIGHT PANEL content: An isometric scene showing C first receiving a
 document from B labeled "登記申請を受任" (a speech bubble or handoff
@@ -307,9 +366,9 @@ Between the two panels, a small connecting label:
 どちらも「Ｃは登記を備えている」のに結論が逆になる
 
 --- CALLOUT: 誤りやすいポイント ---
-直前の肢ウで「先に登記した方が勝つ」という対抗関係の原則を確認したばかりだと、
-肢オも同じ枠組みで「Ｃは登記を備えているから勝つ」と考えてしまいがちです。
-しかし肢オのＣは、Ｂから登記の申請を頼まれていた（受任していた）という特別な
+直前のウで「先に登記した方が勝つ」という対抗関係の原則を確認したばかりだと、
+オも同じ枠組みで「Ｃは登記を備えているから勝つ」と考えてしまいがちです。
+しかしオのＣは、Ｂから登記の申請を頼まれていた（受任していた）という特別な
 立場にあり、不動産登記法5条2項により、登記を備えていても「登記がないこと」
 を主張する資格そのものを法律で奪われています。
 
@@ -317,15 +376,15 @@ Between the two panels, a small connecting label:
 根拠条文：民法177条／不動産登記法5条2項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, panel label, quoted rule text, and callout text matches the
 Japanese text given above verbatim, with no paraphrasing and no
 substituted characters, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
-channel anywhere.
+channel anywhere. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card).
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -347,13 +406,13 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 4 and 5 (肢エ・肢オ) share
+sufficient — do not force a flowchart. Panels 4 and 5 (エ・オ) share
 the same underlying decision-tree shape (Ｃは当事者・包括承継人以外の者
 か？ → Ｃは登記の欠缺を主張する正当な利益を有する者か？); draw both with
 the same two-diamond tree layout, but highlight（太い縁取り・色を変える
-等で強調）the different reason each panel's Ｃ lacks that正当な利益(肢エ
-は無権原の不法占拠者であること、肢オは登記申請の受任者であること)。
-Panels 2 and 3 (肢イ・肢ウ) both use a horizontal timeline illustrating
+等で強調）the different reason each panel's Ｃ lacks that正当な利益(エ
+は無権原の不法占拠者であること、オは登記申請の受任者であること)。
+Panels 2 and 3 (イ・ウ) both use a horizontal timeline illustrating
 which of two events happened first, in the same visual style, even though
 the underlying rule differs. Unlike a glanceable summary poster, each
 panel MAY include a short「着眼点」callout box with 1-2 sentences that
@@ -365,7 +424,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -389,7 +456,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 所有権が移るのは登記でなく取得の瞬間
@@ -405,7 +472,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 取得の瞬間に移転
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 登記後に時効完成なら登記なくして対抗可
@@ -424,7 +491,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 時効完成者は対抗可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 解除後に現れた第三者とは対抗関係
@@ -441,15 +508,15 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 解除者も登記が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 無権原の不法占拠者には登記不要
-Diagram: A decision-tree flowchart. First diamond node: Ｃは売買契約の当
-事者・包括承継人以外の者か？ with a はい arrow proceeding to a second
-diamond node (drawn with a thicker highlighted border): Ｃは登記の欠缺
-を主張する正当な利益を有する者か？ with a highlighted いいえ branch
-labeled 権原のない不法占拠者だから leading to a green conclusion node
+Diagram: A top-to-bottom check flow with rectangular boxes (no
+diamonds). First box: Ｃは売買契約の当事者・包括承継人以外の者である. An arrow
+proceeds to a second box (drawn with a thicker highlighted border): Ｃは登記の
+欠缺を主張する正当な利益を有しない（権原のない不法占拠者だから）. An arrow
+leads to a green conclusion node
 reading Ｂは登記なくしてＣに所有権を主張できる。Illustration: 土地アイ
 コンにA→Bの売買矢印(まだ登記前)。まったく無関係の人物C(腕組みで正当な理
 由なしを示す看板「正当な利益なし」を横に掲示)が勝手に土地に座り込んでい
@@ -463,17 +530,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 無権原者には登記不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 登記申請の受任者にも登記不要
-Diagram: The same two-diamond decision-tree shape as Panel 4. First
-diamond node: Ｃは売買契約の当事者・包括承継人以外の者か？ with a はい
-arrow proceeding to a second diamond node (drawn with a thicker
-highlighted border, distinct from Panel 4's highlighted reason): Ｃは登
-記の欠缺を主張する正当な利益を有する者か？ with a highlighted いいえ
-branch labeled 登記申請を受任していた義務者だから(不動産登記法5条2項)
-leading to a green conclusion node reading Ｂは登記なくしてＣに所有権を
+Diagram: The same two-box check flow as Panel 4 (no diamonds). First
+box: Ｃは売買契約の当事者・包括承継人以外の者である. An arrow proceeds to a
+second box (drawn with a thicker highlighted border, distinct from Panel 4's
+reason): Ｃは登記の欠缺を主張する正当な利益を有しない（登記申請を受任して
+いた義務者だから・不動産登記法5条2項）. An arrow leads to a green conclusion node reading Ｂは登記なくしてＣに所有権を
 主張できる。Illustration: BがCに「登記手続お願いします」と書類を渡す場
 面。その隣で、Cがこっそり自分でAから土地を買い取り、A→C登記の緑スタンプ
 を押している。Cの頭上に「信義に反する」という警告アイコン。
@@ -494,14 +559,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 の先後・解除後の対抗関係は、判例の趣旨に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 登, 記, 対, 抗, 占, 拠, 受, 任 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢(肢エ・
-肢オ) is drawn as an actual flowchart with branch nodes sharing the same
+between the header and the panels, that every multi-condition 肢(エ・
+オ) is drawn as an actual flowchart with branch nodes sharing the same
 two-diamond tree shape (not a bare illustration with no visible decision
 structure), that each 着眼点 callout states a checking order rather than
 only a conclusion, confirm nothing is rendered below the last panel's

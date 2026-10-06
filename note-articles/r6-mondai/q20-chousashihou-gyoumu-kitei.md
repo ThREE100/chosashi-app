@@ -2,18 +2,18 @@
 
 **出題年度：令和6年度　午後の部　第20問**
 
-> 土地家屋調査士又は土地家屋調査士法人に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地家屋調査士は、正当な事由がある場合でなくても、筆界特定の手続についての代理業務に関する依頼を拒むことができる。
->
-> イ　土地家屋調査士となる資格を有する者が日本土地家屋調査士会連合会に登録申請書を提出するときは、事務所を設けようとする地を管轄する法務局又は地方法務局を経由して提出しなければならない。
->
-> ウ　土地家屋調査士は、正当な事由がある場合であっても、業務上取り扱った事件について知ることのできた秘密を他に漏らしてはならない。
->
-> エ　土地家屋調査士は、土地の表示に関する登記について必要な測量の業務の依頼を受けた場合において、やむを得ない事由があるときは、補助者に当該業務を取り扱わせることができる。
->
-> オ　土地家屋調査士法人は、社員となろうとする土地家屋調査士が1人であっても、設立することができる。
->
+> 土地家屋調査士又は土地家屋調査士法人に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地家屋調査士は、正当な事由がある場合でなくても、筆界特定の手続についての代理業務に関する依頼を拒むことができる。  
+>　  
+> イ　土地家屋調査士となる資格を有する者が日本土地家屋調査士会連合会に登録申請書を提出するときは、事務所を設けようとする地を管轄する法務局又は地方法務局を経由して提出しなければならない。  
+>　  
+> ウ　土地家屋調査士は、正当な事由がある場合であっても、業務上取り扱った事件について知ることのできた秘密を他に漏らしてはならない。  
+>　  
+> エ　土地家屋調査士は、土地の表示に関する登記について必要な測量の業務の依頼を受けた場合において、やむを得ない事由があるときは、補助者に当該業務を取り扱わせることができる。  
+>　  
+> オ　土地家屋調査士法人は、社員となろうとする土地家屋調査士が1人であっても、設立することができる。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
 ---
@@ -22,13 +22,17 @@
 
 ### ア：筆界特定の代理業務は、正当な事由がなくても依頼を拒める
 
-土地家屋調査士には依頼に応じる義務（業務応諾義務）がありますが、筆界特定の手続についての代理業務や相談業務は、この依頼に応ずる義務の対象から外れています。そのため、正当な事由がある場合でなくても、依頼を拒むことができます。なお、依頼を拒んだ場合でも理由書の交付までは不要ですが、速やかに依頼者へその旨を通知しなければなりません。
+土地家屋調査士には依頼に応じる義務（業務応諾義務）がありますが、筆界特定の手続についての代理業務や相談業務は、この依頼に応ずる義務の対象から外れています。
+
+そのため、正当な事由がある場合でなくても、依頼を拒むことができます。なお、依頼を拒んだ場合でも理由書の交付までは不要ですが、速やかに依頼者へその旨を通知しなければなりません。
 
 **たとえば**、筆界特定の代理を頼まれた土地家屋調査士が、特別な理由を説明しなくても、その依頼を断ることができます。
 
 ### イ：登録申請書は、法務局ではなく所属予定の調査士会を経由して提出する
 
-土地家屋調査士となる資格を有する者が登録を受けるには、事務所を設けようとする地を管轄する法務局又は地方法務局の管轄区域内に設立された土地家屋調査士会を経由して、日本土地家屋調査士会連合会に備える調査士名簿に登録の申請をしなければなりません。法務局又は地方法務局に直接届け出るものではありません。
+土地家屋調査士となる資格を有する者が登録を受けるには、事務所を設けようとする地を管轄する法務局又は地方法務局の管轄区域内に設立された土地家屋調査士会を経由して、日本土地家屋調査士会連合会に備える調査士名簿に登録の申請をしなければなりません。
+
+法務局又は地方法務局に直接届け出るものではありません。
 
 **たとえば**、東京都内で開業しようとする調査士資格者は、法務局の窓口に登録申請書を持参するのではなく、東京土地家屋調査士会を経由して日本土地家屋調査士会連合会に提出することになります。
 
@@ -50,6 +54,8 @@
 
 **たとえば**、これまで個人事務所として開業していたベテラン調査士が、一人法人として土地家屋調査士法人を設立し、看板を掛け替えることができます。
 
+---
+
 ### まとめ
 
 - **ア（正）** 筆界特定の代理業務は正当事由がなくても依頼を拒める
@@ -69,7 +75,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典・正解番号（2番＝アオ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の条文根拠は、ア（土地家屋調査士法22条かっこ書・同法施行規則25条2項）、イ（土地家屋調査士法9条1項）、ウ（土地家屋調査士法24条の2）、エ（土地家屋調査士法施行規則22条）、オ（土地家屋調査士法26条）と、いずれもデータベースのexplanationフィールドで条文番号まで明記されています。
-- **エの根拠条文について（2026-08-16再確認）**：施行規則22条の条文原文は「調査士は、他人をしてその業務を取り扱わせてはならない。」という一文のみで、`laws/chousashi-hou-sekourule.md`で確認済みです。本文にある「補助者に登記の申請情報の提供・登記識別情報の受領・登記の申請情報の補正をさせることはできない」という具体的な列挙は、条文原文には存在せず、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）のexplanationフィールドによる実務上の解釈・補足です。条文そのものは「正当な事由」等の例外を定めておらず、他人による業務取扱いを一律に禁止する規定であるため、「やむを得ない事由があるときは補助者に取り扱わせることができる」という肢エの主張が誤りであるという結論・正解番号（アオ、選択肢2番）自体には影響ありません。
+- **エの根拠条文について（2026-08-16再確認）**：施行規則22条の条文原文は「調査士は、他人をしてその業務を取り扱わせてはならない。」という一文のみで、`laws/chousashi-hou-sekourule.md`で確認済みです。本文にある「補助者に登記の申請情報の提供・登記識別情報の受領・登記の申請情報の補正をさせることはできない」という具体的な列挙は、条文原文には存在せず、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）のexplanationフィールドによる実務上の解釈・補足です。条文そのものは「正当な事由」等の例外を定めておらず、他人による業務取扱いを一律に禁止する規定であるため、「やむを得ない事由があるときは補助者に取り扱わせることができる」というエの主張が誤りであるという結論・正解番号（アオ、選択肢2番）自体には影響ありません。
 - ローカルのアガルート教材フォルダも確認しましたが、択一式の過去問解説講座については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキストによる解説は含まれていなかったため、今回はそちらを参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題を確認しました。令和7年度第20問も「土地家屋調査士・調査士法人」がテーマですが、各肢の具体的な出題内容（定款変更の届出先・補助者廃止の届出・複数事務所設置の可否・登録取消による法人脱退・心身故障による登録取消）は本問（依頼拒否の正当事由・登録申請書の提出経由・秘密保持義務・補助者への業務委託・一人法人設立）と異なり、**内容の重複は見つかりませんでした**（同じ大分野からの出題ですが、問われている個別の論点は別物です）。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -111,13 +117,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 following kanji, which have visibly different Simplified Chinese forms and
 must be rendered in their correct Japanese (Jōyō) form: 調・査・録・義・
 務・筆・界・補・助・秘・密・測・法・人.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -192,9 +216,9 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Pay special
 attention to 調・査・録・義・務・筆・界・補・助・秘・密・測・法・人. If
-any character renders as a Simplified Chinese variant, redraw that
+any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the number of cards
 equals 5 exactly, with badge numbers running 1-5 continuously across both
 columns without resetting (3 cards in column A: 業務上の義務とその例外,
@@ -202,12 +226,12 @@ columns without resetting (3 cards in column A: 業務上の義務とその例�
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
-a short heading + a short conclusion tag, at a glance.
+a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 土地家屋調査士法について、ア〜オの5肢それぞれで「問題文を読んだ瞬間に何を確認し、どの順番で図を描けば正誤にたどり着けるか」を示す作図ガイド。②の俯瞰カードポスターが5肢の結論を一覧することに主眼を置くのに対し、こちらは結論に至るまでの思考の手順そのものを可視化する目的で作成している。
 
@@ -252,7 +276,15 @@ body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -278,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -301,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 正当事由不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 登録申請書は調査士会経由で連合会へ提出
@@ -321,7 +353,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 調査士会経由
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 秘密保持義務にも正当な事由による例外がある
@@ -342,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 正当事由で例外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 やむを得ない事由があっても補助者には任せられない
@@ -364,14 +396,13 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 補助者は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 調査士法人は社員1人でも設立できる
 Diagram: An isometric lone 土地家屋調査士 figure stands in front of a
 building with a sign reading「土地家屋調査士法人」, holding a 定款 document
-overhead, with a small label「社員1人」next to a green checkmark. No
-other figures are needed beside him.
+overhead, with a small label「社員1人」next to a green checkmark. No other figures are needed beside this figure.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、土地家屋調査士法人の社員となろうとする土地家屋調査士が何人いる
 かを確認します。次に、その人数が1人であっても定款を定めて設立するこ
@@ -388,9 +419,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 エ 土地家屋調査士法施行規則22条／オ 土地家屋調査士法26条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 調・査・録・義・務・筆・界・補・助・秘・密・測・法・人. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 調・査・録・義・務・筆・界・補・助・秘・密・測・法・人. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every

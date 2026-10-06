@@ -2,27 +2,35 @@
 
 **出題年度：平成24年度　午後の部　第1問**
 
-> 任意代理に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　代理人が本人のためにすることを示さないでした意思表示は、相手方が、代理人が本人のためにすることを知っていたときは、本人に対して直接にその効力を生ずる。
->
-> イ　意思表示の効力が、ある事情を知っていたことによって影響を受けるべき場合には、その事実の有無は、代理人について決する。
->
-> ウ　未成年者を代理人に選任することは、できない。
->
-> エ　代理人は、本人の指名に従って選任した復代理人が不適任又は不誠実であることを知りながら、その旨を本人に通知し又は復代理人を解任することを怠ったときは、復代理人の選任及び監督について、本人に対してその責任を負う。
->
-> オ　同一の法律行為については、本人があらかじめ許諾した場合であっても、当事者双方の代理人となることはできない。
->
+> 任意代理に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　代理人が本人のためにすることを示さないでした意思表示は、相手方が、代理人が本人のためにすることを知っていたときは、本人に対して直接にその効力を生ずる。  
+>　  
+> イ　意思表示の効力が、ある事情を知っていたことによって影響を受けるべき場合には、その事実の有無は、代理人について決する。  
+>　  
+> ウ　未成年者を代理人に選任することは、できない。  
+>　  
+> エ　代理人は、本人の指名に従って選任した復代理人が不適任又は不誠実であることを知りながら、その旨を本人に通知し又は復代理人を解任することを怠ったときは、復代理人の選任及び監督について、本人に対してその責任を負う。  
+>　  
+> オ　同一の法律行為については、本人があらかじめ許諾した場合であっても、当事者双方の代理人となることはできない。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
-任意代理は、本人が自分の意思で代理人を選んで代理権を与える制度です。「代理人になれるのは誰か」「代理人の行為の効果は誰に帰属するか」「復代理・自己契約や双方代理はどこまで許されるか」という基本ルールを、条文の言い回しに引きずられずに正確に押さえられているかが問われます。
+---
+
+任意代理は、本人が自分の意思で代理人を選んで代理権を与える制度です。
+
+「代理人になれるのは誰か」「代理人の行為の効果は誰に帰属するか」「復代理・自己契約や双方代理はどこまで許されるか」という基本ルールを、条文の言い回しに引きずられずに正確に押さえられているかが問われます。
 
 ### ア：相手方が知っていれば、顕名がなくても本人に効力が生じる
 
-代理人が「本人のためにする」ことを示さない（顕名しない）でした意思表示は、原則として代理人自身のためにしたものとみなされます。ただし、相手方が、代理人が本人のためにすることを知っていた、または知ることができたときは、本人に対して直接に効力を生じます（民法100条）。
+代理人が「本人のためにする」ことを示さない（顕名しない）でした意思表示は、原則として代理人自身のためにしたものとみなされます。
 
-**たとえば**、不動産業者のAさんが、実際には売主本人Xの代理人として買主Yと交渉していたのに、うっかり「Xのために」と伝え忘れて契約書にサインしてしまったとします。それでもYが「Aさんは本人Xの代理人として来ている」と知っていたなら、その契約の効果はXに直接帰属します。
+ただし、相手方が、代理人が本人のためにすることを知っていた、または知ることができたときは、本人に対して直接に効力を生じます（民法100条）。
+
+**たとえば**、不動産業者のAさんが、実際には売主本人Xの代理人として買主Yと交渉していたのに、うっかり「Xのために」と伝え忘れて契約書にサインしてしまったとします。
+
+それでもYが「Aさんは本人Xの代理人として来ている」と知っていたなら、その契約の効果はXに直接帰属します。
 
 ### イ：知・不知の判断は代理人を基準にする
 
@@ -32,21 +40,31 @@
 
 ### ウ：未成年者でも代理人になることができる
 
-代理人になるために行為能力者である必要はありません。制限行為能力者（未成年者・成年被後見人・被保佐人など）が代理人としてした行為は、行為能力の制限を理由に取り消すことができません（民法102条）。したがって、未成年者を代理人に選任すること自体は可能です。
+代理人になるために行為能力者である必要はありません。制限行為能力者（未成年者・成年被後見人・被保佐人など）が代理人としてした行為は、行為能力の制限を理由に取り消すことができません（民法102条）。
 
-**たとえば**、事業を営むXさんが、信頼できる15歳の甥Aさんに「この土地の売買契約を代わりにまとめてきてほしい」と代理権を与えることができます（民法4条により成年年齢は18歳のため、15歳は制限行為能力者である未成年者にあたります）。Aさんが未成年者であることは、この代理権授与や、Aさんが結んだ契約の効力を妨げません。
+したがって、未成年者を代理人に選任すること自体は可能です。
+
+**たとえば**、事業を営むXさんが、信頼できる15歳の甥Aさんに「この土地の売買契約を代わりにまとめてきてほしい」と代理権を与えることができます（民法4条により成年年齢は18歳のため、15歳は制限行為能力者である未成年者にあたります）。
+
+Aさんが未成年者であることは、この代理権授与や、Aさんが結んだ契約の効力を妨げません。
 
 ### エ：不適任な復代理人への対応を怠れば、代理人は債務不履行の責任を負う
 
-代理人が本人の指名に従って復代理人を選任した場合であっても、その復代理人が不適任または不誠実であることを代理人が知りながら、本人への通知や復代理人の解任を怠ったときは、代理人は本人に対して債務不履行の責任を負います。代理人は本人との委任契約に基づき、善良な管理者の注意をもって事務を処理する義務（善管注意義務）を負っており、指名どおりに復代理人を選んだという事情だけで、その後の対応まで免責されるわけではないためです。
+代理人が本人の指名に従って復代理人を選任した場合であっても、その復代理人が不適任または不誠実であることを代理人が知りながら、本人への通知や復代理人の解任を怠ったときは、代理人は本人に対して債務不履行の責任を負います。
 
-**たとえば**、本人Xから「知り合いのBに手続を任せてほしい」と指名されて代理人AがBを復代理人に選んだとします。その後、Bが不誠実な対応を繰り返していることにAが気づいたにもかかわらず、Xに知らせず、Bを解任もしなかった場合、Aは委任契約上の善管注意義務を尽くしたとはいえず、Xに対して債務不履行の責任を負うことになります。
+代理人は本人との委任契約に基づき、善良な管理者の注意をもって事務を処理する義務（善管注意義務）を負っており、指名どおりに復代理人を選んだという事情だけで、その後の対応まで免責されるわけではないためです。
+
+**たとえば**、本人Xから「知り合いのBに手続を任せてほしい」と指名されて代理人AがBを復代理人に選んだとします。
+
+その後、Bが不誠実な対応を繰り返していることにAが気づいたにもかかわらず、Xに知らせず、Bを解任もしなかった場合、Aは委任契約上の善管注意義務を尽くしたとはいえず、Xに対して債務不履行の責任を負うことになります。
 
 ### オ：本人があらかじめ許諾していれば、双方代理も有効になる
 
 同一の法律行為について、相手方の代理人や当事者双方の代理人となることは、原則として無権代理とみなされます（自己契約・双方代理の禁止）。しかし、債務の履行にあたる行為や、本人があらかじめ許諾した行為については、この禁止は及びません（民法108条）。
 
 **たとえば**、不動産業者のAさんが、売主Xと買主Yの双方から「今回の契約に限ってはAさんに双方の代理人になってもらって構わない」とあらかじめ承諾を得ていた場合、Aさんは有効にX・Y双方の代理人として契約を成立させることができます。
+
+---
 
 ### まとめ
 
@@ -110,13 +128,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 代・理・効・果・帰・属・復・任・双・許・諾・成・年 — these must be
+kanji 代・理・効・果・帰・属・任・双・許・諾・成・年 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -185,18 +221,18 @@ Conclusion tag: 許諾で双方代理も可
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -219,7 +255,7 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
 Where a 肢 is resolved by a single check, a labeled illustrative diagram
-is sufficient — do not force a flowchart. Panel 4（肢エ）is the only
+is sufficient — do not force a flowchart. Panel 4（エ）is the only
 肢 in this problem that requires two sequential checks (知っていたか →
 通知・解任を怠ったか), so it alone is drawn as a true two-diamond
 flowchart; the other four panels use a single labeled comparison diagram
@@ -233,7 +269,15 @@ text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -257,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 相手方が知っていれば顕名不要
@@ -276,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相手方が悪意なら有効
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 知・不知の基準は本人でなく代理人
@@ -294,7 +338,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代理人が基準
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 未成年者でも代理人になれる
@@ -311,18 +355,18 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 未成年者でも可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 知りながら放置すれば債務不履行
-Diagram: A decision-tree flowchart. First diamond node: 代理人は、本人の
-指名に従って選任した復代理人が不適任又は不誠実であることを知っていた
-か？with a いいえ branch leading to a small conclusion node 責任を負わ
-ない (drawn faded, since it is not this肢の事実). はい branch proceeds
-down to a second diamond node (drawn with a thicker highlighted border):
-代理人は、本人への通知又は復代理人の解任をしたか？with the いいえ branch
-leading to a warning-triangle icon and a conclusion node 復代理人の選任
-及び監督について、本人に対し債務不履行の責任を負う.
+Diagram: A decision flowchart. First, a rectangular check box (NOT a
+diamond): 代理人は、本人の指名に従って選任した復代理人が不適任又は不誠実
+であることを知っていた（本肢の事実）, with a single arrow proceeding down
+to a diamond node (drawn with a thicker highlighted border): 代理人は、
+本人への通知又は復代理人の解任をしたか？ The いいえ branch (thick,
+highlighted) leads to a warning-triangle icon and a conclusion node 善管
+注意義務違反として、本人に対し債務不履行の責任を負う. The はい branch
+(thin, lighter tone) leads to its own conclusion node 必要な対応をとった.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、代理人が復代理人の不適任・不誠実を知っていたかどうかを確認しま
 す。次に、知っていた場合に、本人への通知または復代理人の解任をしたかど
@@ -331,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 債務不履行の責任を負う
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 許諾があれば双方代理も有効
@@ -354,13 +398,13 @@ Small footnote text (bottom of panel, small font, verbatim):
 行為能力者の代理行為）・108条（自己契約・双方代理）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 代, 理, 復, 任, 双, 許, 諾, 怠 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢エ is drawn as an actual
+between the header and the panels, that エ is drawn as an actual
 flowchart with two branch nodes (not a bare illustration with no visible
 decision structure) while the other panels use a single labeled
 comparison diagram, that each 着眼点 callout states a checking order

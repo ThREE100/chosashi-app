@@ -2,19 +2,21 @@
 
 **出題年度：平成24年度　午後の部　第11問**
 
-> 登記記録等の保存期間に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　筆界特定書に記載され、又は記録された情報は、筆界特定をした日から50年間保存される。
->
-> イ　申請又は申出の添付情報を記載した書面として提出された地積測量図が電磁的記録に記録して保存された場合には、当該地積測量図は、電磁的記録に記録して保存された日から10年間保存される。
->
-> ウ　所有権の登記がない土地の表題部の持分の更正の登記の申請情報及びその添付情報は、受付の日から30年間保存される。
->
-> エ　地図が備え付けられ、従前の地図に準ずる図面が閉鎖された場合には、当該地図に準ずる図面は、閉鎖された日から50年間保存される。
->
-> オ　甲土地を乙土地に合筆した場合には、甲土地の登記記録は、閉鎖された日から50年間保存される。
->
+> 登記記録等の保存期間に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　筆界特定書に記載され、又は記録された情報は、筆界特定をした日から50年間保存される。  
+>　  
+> イ　申請又は申出の添付情報を記載した書面として提出された地積測量図が電磁的記録に記録して保存された場合には、当該地積測量図は、電磁的記録に記録して保存された日から10年間保存される。  
+>　  
+> ウ　所有権の登記がない土地の表題部の持分の更正の登記の申請情報及びその添付情報は、受付の日から30年間保存される。  
+>　  
+> エ　地図が備え付けられ、従前の地図に準ずる図面が閉鎖された場合には、当該地図に準ずる図面は、閉鎖された日から50年間保存される。  
+>　  
+> オ　甲土地を乙土地に合筆した場合には、甲土地の登記記録は、閉鎖された日から50年間保存される。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 登記記録・図面・申請書類の保存期間は、資料の重要度に応じて「永久」「50年」「30年」に区分されています。数字を丸暗記するだけでなく、「なぜその期間なのか（重要な基礎資料か、手続の記録か）」を意識すると覚えやすくなります。
 
@@ -26,27 +28,39 @@
 
 ### イ：地積測量図は現用なら永久、閉鎖後は30年に変わる
 
-地積測量図は、現に使用されている（閉鎖されていない）限り、土地の境界・面積を証明する基礎資料として重要性が高く、永久に保存されます（不動産登記規則28条13号）。書面として提出された地積測量図が電磁的記録に記録して保存された場合も、その電磁的記録自体は現用のものである限り同号により永久に保存され、「10年間」という有期の保存期間が定められているわけではありません。なお、この地積測量図が新しい図面に置き換えられて閉鎖された場合は、閉鎖した日から30年間の保存に切り替わりますが、本肢はそのような閉鎖の場面を問うものではありません。
+地積測量図は、現に使用されている（閉鎖されていない）限り、土地の境界・面積を証明する基礎資料として重要性が高く、永久に保存されます（不動産登記規則28条13号）。
+
+書面として提出された地積測量図が電磁的記録に記録して保存された場合も、その電磁的記録自体は現用のものである限り同号により永久に保存され、「10年間」という有期の保存期間が定められているわけではありません。
+
+なお、この地積測量図が新しい図面に置き換えられて閉鎖された場合は、閉鎖した日から30年間の保存に切り替わりますが、本肢はそのような閉鎖の場面を問うものではありません。
 
 **たとえば**、30年以上前に提出された地積測量図であっても、その後閉鎖されずに現に使用されているものであれば、電磁的記録として保存されている限り、法務局で取得することができます。
 
 ### ウ：表示に関する登記の申請情報・添付情報は、受付の日から30年間保存される
 
-所有権の登記がない土地の表題部の持分の更正の登記も含め、表示に関する登記の申請情報及びその添付情報は、受付の日から30年間保存されます（不動産登記規則28条9号）。永久保存となる登記記録・地図・地積測量図とは異なり、申請書類そのものは一定期間で保存期間が満了する扱いになっています。
+所有権の登記がない土地の表題部の持分の更正の登記も含め、表示に関する登記の申請情報及びその添付情報は、受付の日から30年間保存されます（不動産登記規則28条9号）。
+
+永久保存となる登記記録・地図・地積測量図とは異なり、申請書類そのものは一定期間で保存期間が満了する扱いになっています。
 
 **たとえば**、20年前に申請された表題部の持分の更正の登記の申請書類は、受付の日からまだ30年が経過していなければ、法務局に保存されています。
 
 ### エ：地図に準ずる図面（いわゆる公図）は、閉鎖後も永久に保存される
 
-地図及び地図に準ずる図面（公図）は、閉鎖したものを含めて永久に保存されます（不動産登記規則28条2号）。地図が新たに備え付けられたことにより、従前の地図に準ずる図面（公図）が閉鎖された場合でも、当該図面は閉鎖された日から永久に保存されます。「50年間」という有期の保存期間ではありません。公図は、閉鎖後も土地の沿革を確認するための重要な資料として、永続的に保存される扱いになっています。
+地図及び地図に準ずる図面（公図）は、閉鎖したものを含めて永久に保存されます（不動産登記規則28条2号）。地図が新たに備え付けられたことにより、従前の地図に準ずる図面（公図）が閉鎖された場合でも、当該図面は閉鎖された日から永久に保存されます。
+
+「50年間」という有期の保存期間ではありません。公図は、閉鎖後も土地の沿革を確認するための重要な資料として、永続的に保存される扱いになっています。
 
 **たとえば**、新しい14条地図が整備されたことで古い公図が閉鎖されたとしても、その公図は永久に保存されるため、何十年後でも過去の筆界の履歴を確認する資料として取得することができます。
 
 ### オ：合筆で消滅した土地の登記記録（閉鎖登記記録）は、閉鎖された日から50年間保存される
 
-甲土地を乙土地に合筆した場合、甲土地の登記記録は閉鎖登記記録となります。土地に関する閉鎖登記記録は、閉鎖された日から50年間保存されます（不動産登記規則28条4号。なお建物の閉鎖登記記録は同条5号により30年間と、土地より短く定められています）。永久保存となる現に効力を有する登記記録とは異なり、閉鎖された登記記録には50年という期限付きの保存期間が定められています。
+甲土地を乙土地に合筆した場合、甲土地の登記記録は閉鎖登記記録となります。土地に関する閉鎖登記記録は、閉鎖された日から50年間保存されます（不動産登記規則28条4号。なお建物の閉鎖登記記録は同条5号により30年間と、土地より短く定められています）。
+
+永久保存となる現に効力を有する登記記録とは異なり、閉鎖された登記記録には50年という期限付きの保存期間が定められています。
 
 **たとえば**、10年前に甲土地を乙土地へ合筆したことで閉鎖された甲土地の登記記録は、閉鎖された日から50年が経過するまでは、法務局で確認することができます。
+
+---
 
 ### まとめ
 
@@ -67,9 +81,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（5番＝ウ・オ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。
 - `note-articles/laws/`のローカル法令データベース（不動産登記規則、e-Gov現行法2026-08-04取得）で全肢の条文原文・号数を確認済みです。ア＝規則235条1項1号（筆界特定書は永久）、イ＝規則28条13号（土地所在図・地積測量図・建物図面・各階平面図は原則永久）、ウ＝規則28条9号（表示に関する登記の申請情報・添付情報は30年）、エ＝規則28条2号（地図及び地図に準ずる図面は閉鎖したものを含め永久）、オ＝規則28条4号（土地の閉鎖登記記録は50年、建物の閉鎖登記記録は5号により30年）は、いずれも条文の文言そのままの内容です。イについては、28条13号のかっこ書きが、規則20条3項の規定により申請書類つづり込み帳に綴り込まれた書面（電磁的記録化された地積測量図の紙原本など）を対象から除外しており、この紙原本自体は28条9号のかっこ書き（電磁的記録に記録して保存した日から30年間）が適用される可能性があります。もっとも、本肢が問う「地積測量図（電磁的記録の情報そのもの）」は13号の対象として永久保存であり、本文の結論（「10年間」は誤り）自体には影響しません。
-- **現用・閉鎖後の区別の明確化（2026-08-19実施）**：肢イについて、規則28条13号が「永久（閉鎖したものにあっては、閉鎖した日から三十年間）」と定めており、地積測量図の永久保存は現用（閉鎖されていない）ものに限られる点を本文に明記しました。本肢自体は閉鎖の場面を問うものではなく、正誤判定（誤＝10年間ではなく永久）に変更はありません。なお、規則28条13号のかっこ書きが規則20条3項の規定により申請書類つづり込み帳につづり込まれた書面を対象から除外している点（電磁的記録化された地積測量図の紙原本自体は規則28条9号のかっこ書きにより電磁的記録に記録して保存した日から30年間となる可能性がある点）は、上記の現用・閉鎖後の区別とは別の論点であり、直前の段落で引き続き整理しています。
+- **現用・閉鎖後の区別の明確化（2026-08-19実施）**：イについて、規則28条13号が「永久（閉鎖したものにあっては、閉鎖した日から三十年間）」と定めており、地積測量図の永久保存は現用（閉鎖されていない）ものに限られる点を本文に明記しました。本肢自体は閉鎖の場面を問うものではなく、正誤判定（誤＝10年間ではなく永久）に変更はありません。なお、規則28条13号のかっこ書きが規則20条3項の規定により申請書類つづり込み帳につづり込まれた書面を対象から除外している点（電磁的記録化された地積測量図の紙原本自体は規則28条9号のかっこ書きにより電磁的記録に記録して保存した日から30年間となる可能性がある点）は、上記の現用・閉鎖後の区別とは別の論点であり、直前の段落で引き続き整理しています。
 - **インフォグラフィックの補足（2026-08-19実施）**：オ肢のCARD5が「閉鎖後50年」の結論のみを描いており、現用の登記記録が規則28条1号により永久保存であるという前提に触れていなかったため、現用/閉鎖後の対比イラストに修正しました。あわせて、この「登記記録は現用なら永久、閉鎖後は土地50年・建物30年」という構造を単独で図解する補足インフォグラフィック（オ肢・図解）を新規に追加しました。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「保存期間」がテーマの問題を確認しました。**本問肢オ（甲土地を乙土地に合筆した場合、甲土地の登記記録は閉鎖された日から50年間保存される、という記述）と全く同じ論点（土地の閉鎖登記記録の保存期間＝50年）が、令和4年度第4問肢ア（同じ50年という数値を「30年」と誤って記述したもの）でも問われています。**両問とも「土地の閉鎖登記記録は50年保存」という同一の条文知識（不登規則28条4号）を土台としていますが、具体的な出題の切り口（本問は合筆による閉鎖、令和4年度は一般的な保存期間の数値問題）は異なります。noteでの発信時は、この論点が繰り返し出題される重要知識であることに触れつつ、令和4年度の記事（本シリーズには未収録）と混同されないよう注意してください。それ以外の肢については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「保存期間」がテーマの問題を確認しました。**本問オ（甲土地を乙土地に合筆した場合、甲土地の登記記録は閉鎖された日から50年間保存される、という記述）と全く同じ論点（土地の閉鎖登記記録の保存期間＝50年）が、令和4年度第4問ア（同じ50年という数値を「30年」と誤って記述したもの）でも問われています。**両問とも「土地の閉鎖登記記録は50年保存」という同一の条文知識（不登規則28条4号）を土台としていますが、具体的な出題の切り口（本問は合筆による閉鎖、令和4年度は一般的な保存期間の数値問題）は異なります。noteでの発信時は、この論点が繰り返し出題される重要知識であることに触れつつ、令和4年度の記事（本シリーズには未収録）と混同されないよう注意してください。それ以外の肢については完全に一致する出題は見つかりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -109,13 +123,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 筆・界・特・定・積・測・量・図・保・存・閉・鎖・合・筆・現・用 — these
+kanji 筆・界・特・定・積・測・量・図・保・存・閉・鎖・合・現・用 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -179,15 +211,15 @@ Conclusion tag: 現用は永久、閉鎖後50年
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（オ肢・図解）
@@ -211,11 +243,29 @@ full-sentence explanation or legal citation anywhere on the poster.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 登・記・録・現・用・閉
 ・鎖・永・久・合・筆 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -248,15 +298,15 @@ Conclusion tag (gray banner, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm there are
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are
 exactly two columns positioned at the same height, confirm there is no
 intro illustration or paragraph block between the header and the columns,
 and confirm that neither column contains a full sentence of explanatory
 prose — each column's takeaway must read as a short heading + a short
-conclusion tag, at a glance.
+conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -279,14 +329,14 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
 Where a 肢 is resolved by a single check, a labeled illustrative diagram
-is sufficient — do not force a flowchart. Panel 2（肢イ）is the only 肢
+is sufficient — do not force a flowchart. Panel 2（イ）is the only 肢
 in this problem where BOTH branch outcomes are legally meaningful（現用
 の地積測量図か、閉鎖された地積測量図かで保存期間が入れ替わる）and is
 drawn as a true decision tree with both an「はい」side conclusion node
 and an「いいえ」side conclusion node — no branch may loop back to an
-earlier node. Panel 5（肢オ）is resolved by tracing a single chronological
+earlier node. Panel 5（オ）is resolved by tracing a single chronological
 sequence of events and is drawn as a left-to-right timeline instead of a
-flowchart. The other three panels（肢ア・ウ・エ）are each resolved by a
+flowchart. The other three panels（ア・ウ・エ）are each resolved by a
 single check and use a correct-rule-vs-common-misconception layout. Unlike
 a glanceable summary poster, each panel MAY include a short「着眼点」
 callout box with 1-2 sentences that state the checking ORDER in words
@@ -333,7 +383,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 筆界特定書は期限なく永久保存される
@@ -350,7 +400,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 永久保存
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 現用の地積測量図は永久、閉鎖後30年
@@ -369,7 +419,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 現用なら永久
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 申請情報等の保存期間は30年
@@ -387,7 +437,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 30年で満了
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地図に準ずる図面は閉鎖後も永久保存
@@ -404,7 +454,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 閉鎖後も永久保存
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 合筆で閉鎖後は登記記録も50年に
@@ -439,8 +489,8 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢イ is drawn as an actual flowchart with a clearly labeled はい side and
-いいえ side conclusion node and 肢オ is drawn as a one-directional
+イ is drawn as an actual flowchart with a clearly labeled はい side and
+いいえ side conclusion node and オ is drawn as a one-directional
 left-to-right timeline (not a bare illustration with no visible decision
 structure or sequence) while the other panels use a correct-rule-vs-
 misconception layout, that each 着眼点 callout states a checking order

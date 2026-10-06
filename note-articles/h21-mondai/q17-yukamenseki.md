@@ -2,25 +2,33 @@
 
 **出題年度：平成21年度　午後の部　第17問**
 
-> 建物の床面積の定め方に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。
->
-> ア　上屋を有する荷物の積卸場は、上屋の下部にある積卸場の部分の面積を床面積に算入する。
->
-> イ　ビルの屋上にある出入口のためだけの階段室は、外気分断性がある場合には、床面積に算入する。
->
-> ウ　木造２階建て住宅の１階部分を駐車スペースとして利用する場合には、当該スペースの３方向に壁があれば、前面にシャッターがなく常時開放されていても、当該スペースは床面積に算入する。
->
-> エ　５階建ての建物に設置してあるエレベータ室は、エレベータが各階に止まる仕様であっても、１階部分のみ床面積に算入する。
->
-> オ　建物に附属する手すりの付いている屋外の階段は、床面積に算入する。
->
+> 建物の床面積の定め方に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　上屋を有する荷物の積卸場は、上屋の下部にある積卸場の部分の面積を床面積に算入する。  
+>　  
+> イ　ビルの屋上にある出入口のためだけの階段室は、外気分断性がある場合には、床面積に算入する。  
+>　  
+> ウ　木造２階建て住宅の１階部分を駐車スペースとして利用する場合には、当該スペースの３方向に壁があれば、前面にシャッターがなく常時開放されていても、当該スペースは床面積に算入する。  
+>　  
+> エ　５階建ての建物に設置してあるエレベータ室は、エレベータが各階に止まる仕様であっても、１階部分のみ床面積に算入する。  
+>　  
+> オ　建物に附属する手すりの付いている屋外の階段は、床面積に算入する。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
-建物の床面積は、各階ごとに壁その他の区画の中心線（区分建物にあっては内側線）で囲まれた部分の水平投影面積によって算定します（不動産登記規則115条）。この基本ルールを受けて、個別の部分をどう扱うかは**不動産登記事務取扱手続準則82条**が具体的に列挙しており、実務では「その部分に外気分断性・用途性があるか」という視点とあわせて算入の可否が決まります。ここでは典型的な出題パターンを一つずつ当てはめていきましょう。
+---
+
+建物の床面積は、各階ごとに壁その他の区画の中心線（区分建物にあっては内側線）で囲まれた部分の水平投影面積によって算定します（不動産登記規則115条）。
+
+この基本ルールを受けて、個別の部分をどう扱うかは**不動産登記事務取扱手続準則82条**が具体的に列挙しており、実務では「その部分に外気分断性・用途性があるか」という視点とあわせて算入の可否が決まります。
+
+ここでは典型的な出題パターンを一つずつ当てはめていきましょう。
 
 ### ア：上屋のある積卸場は、上屋の下部の面積を床面積に算入する
 
-屋根（上屋）を有する荷物の積卸場は、その上屋の下部にある部分について、屋根と支柱等によって空間が画されているとみて床面積に算入します。準則82条2号は「停車場の上屋を有する乗降場及び荷物積卸場の床面積は、その上屋の占める部分の乗降場及び荷物積卸場の面積により計算する」と定めており、算入するのは**上屋が占める範囲に限られる**点がポイントです。
+屋根（上屋）を有する荷物の積卸場は、その上屋の下部にある部分について、屋根と支柱等によって空間が画されているとみて床面積に算入します。
+
+準則82条2号は「停車場の上屋を有する乗降場及び荷物積卸場の床面積は、その上屋の占める部分の乗降場及び荷物積卸場の面積により計算する」と定めており、算入するのは**上屋が占める範囲に限られる**点がポイントです。
 
 **たとえば**、駅や倉庫のホームで、屋根がかかっている荷さばきスペースは、その屋根の下の部分が建物の床面積として数えられる、とイメージすると分かりやすいです。
 
@@ -32,13 +40,17 @@
 
 ### ウ：３方向を壁で囲まれた駐車スペースは、前面が常時開放でも床面積に算入する
 
-木造２階建て住宅の１階を駐車スペース（ビルトインガレージ）として使う場合、３方向が壁で囲まれていれば、たとえ前面にシャッターがなく常時開放されていても、外気分断性があるものとして床面積に算入します。囲まれた三方の壁と上階の床によって、独立した空間として画されていると評価できるからです。
+木造２階建て住宅の１階を駐車スペース（ビルトインガレージ）として使う場合、３方向が壁で囲まれていれば、たとえ前面にシャッターがなく常時開放されていても、外気分断性があるものとして床面積に算入します。
+
+囲まれた三方の壁と上階の床によって、独立した空間として画されていると評価できるからです。
 
 **たとえば**、家の１階部分をコの字形の壁でくり抜いて車庫にした場合、正面にシャッターを付けていなくても、その車庫部分は建物の床面積に入ります。
 
 ### エ：各階に止まるエレベータ室は、１階のみではなく各階で床面積に算入する
 
-エレベータ室（昇降機の昇降路）は、そのエレベータが各階に停止する仕様であれば、停止する各階それぞれで床面積に算入します。準則82条6号が「階段室、エレベーター室又はこれに準ずるものは、床を有するものとみなして各階の床面積に算入する」と定めているためです。「１階部分のみ算入する」とするこの肢は誤りです。
+エレベータ室（昇降機の昇降路）は、そのエレベータが各階に停止する仕様であれば、停止する各階それぞれで床面積に算入します。
+
+準則82条6号が「階段室、エレベーター室又はこれに準ずるものは、床を有するものとみなして各階の床面積に算入する」と定めているためです。「１階部分のみ算入する」とするこの肢は誤りです。
 
 **たとえば**、５階建てのビルで各階に停まるエレベータなら、１階から５階まで各階でエレベータ室の分の面積が床面積に加算されます。１階分だけ数えるわけではありません。
 
@@ -47,6 +59,8 @@
 建物に附属する屋外の階段は、手すりが付いていても床面積に算入しません。準則82条7号が「建物に附属する屋外の階段は、床面積に算入しない」と端的に定めており、手すりの有無は結論を左右しません。「手すりがある＝算入」という発想は誤りです。
 
 **たとえば**、アパートの外側に取り付けられた鉄骨の外階段は、転落防止の手すりが付いていても、建物の床面積には数えません。
+
+---
 
 ### まとめ
 
@@ -66,7 +80,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（平成21年度・午後の部・第17問）と正解番号（2番＝アウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json＝法務省公式正答に基づくもの）で確認済みです。
-- 床面積算定の基本ルールである「各階ごとの壁その他区画の中心線で囲まれた部分の水平投影面積」は不動産登記規則115条で条文として確認できます。個別の部分の扱いは**不動産登記事務取扱手続準則82条**が列挙しており、肢ア＝同条2号（上屋を有する乗降場・荷物積卸場は上屋の占める部分で計算）、肢エ＝同条6号（階段室・エレベーター室は床を有するものとみなして各階に算入）、肢オ＝同条7号（建物に附属する屋外の階段は算入しない）が直接の根拠です。肢イ（屋上の出入口専用階段室）と肢ウ（３方向を壁で囲まれた駐車スペース）については準則に明文の号がなく、外気分断性・用途性という建物認定の考え方に沿った登記実務の運用に基づく判断です。
+- 床面積算定の基本ルールである「各階ごとの壁その他区画の中心線で囲まれた部分の水平投影面積」は不動産登記規則115条で条文として確認できます。個別の部分の扱いは**不動産登記事務取扱手続準則82条**が列挙しており、ア＝同条2号（上屋を有する乗降場・荷物積卸場は上屋の占める部分で計算）、エ＝同条6号（階段室・エレベーター室は床を有するものとみなして各階に算入）、オ＝同条7号（建物に附属する屋外の階段は算入しない）が直接の根拠です。イ（屋上の出入口専用階段室）とウ（３方向を壁で囲まれた駐車スペース）については準則に明文の号がなく、外気分断性・用途性という建物認定の考え方に沿った登記実務の運用に基づく判断です。
 - ローカルのアガルート教材フォルダは、この実行環境からは参照できないため、今回は参照していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（上屋のある積卸場・出入口専用の屋上階段室・３方向壁の駐車スペース・各階に止まるエレベータ室・手すり付き屋外階段の床面積算入の可否を組み合わせた問題）と同一・類似の問題が再出題されていないかを確認しました。令和4年度第12問に、屋上出入口専用階段室の外気分断性による算入・手すり付き屋外階段の不算入という本問と同一の論点を扱う2肢が含まれていますが、残り3肢（出窓・ダストシュート・乗降場）は別内容であり、全体としては別問題です（他候補：H30第13問、H28第12問、H26第15問）。5肢すべてが一致する同一問題としての**重複は見つかりませんでした**が、個々の肢の結論には後年の出題と重なる部分がある点にご留意ください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文・準則を現行法（2026年8月時点）と照合しました。床面積の算定基準を定める**不動産登記規則115条**（各階ごとに壁その他の区画の中心線〔区分建物にあっては内側線〕で囲まれた部分の水平投影面積により、平方メートルを単位として定め、1平方メートルの100分の1未満の端数は切り捨てる）は、平成21年当時から改正されておらず現行のままです。**不動産登記事務取扱手続準則82条**も、最終改正である令和6年12月2日改正を経てなお、本問に関係する2号（上屋を有する乗降場・荷物積卸場）・6号（階段室、エレベーター室）・7号（建物に附属する屋外の階段）の内容に変更はありません。したがって**各肢の正誤の結論に変更はありません**。あわせて、従前「個別の準則条項番号までは特定していない」としていた部分に、上記の準則82条2号・6号・7号を明示しました。
@@ -83,7 +97,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -107,13 +121,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to these
 characters, which are easily rendered as Simplified Chinese by mistake:
-積・卸・階・段・室・床・面・屋・車・庫（for example「屋」and「積」must keep
+積・階・段・室・床・面・屋・車・庫（for example「屋」and「積」must keep
 their standard Japanese forms exactly).
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -181,18 +213,18 @@ Conclusion tag (blue pill banner below the illustration):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。特に肢イは「外気分断性があるからといって算入とは限らない」という隠れた第二条件を決定木で示す。5パネル、portrait 1080×2600px。
+問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。特にイは「外気分断性があるからといって算入とは限らない」という隠れた第二条件を決定木で示す。5パネル、portrait 1080×2600px。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -268,7 +300,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -288,7 +320,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 上屋が占める部分だけ
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 出入口専用の階段室は用途性がなく不算入
@@ -315,7 +347,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 外気分断性だけでは足りない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 前面開放でも三方壁の車庫は算入
@@ -336,7 +368,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 三方壁で算入
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 エレベーター室は停止する各階で算入
@@ -353,7 +385,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 停止する各階で算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 屋外階段は手すりがあっても不算入
@@ -379,8 +411,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 積・卸・階・段・室・床・面・屋・車・
-庫・梯・棚. If any character renders as a Simplified or Traditional
+Chinese, paying special attention to 積・階・段・室・床・面・屋・車・庫. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
 scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
@@ -388,7 +419,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that panel 2 (肢イ) is drawn as an
+between the header and the panels, that panel 2 (イ) is drawn as an
 actual flowchart with branch nodes showing the hidden second condition
 (用途性) and not a bare illustration, that no 肢 with a genuinely hidden
 second condition has been flattened into a single check, that each 着眼点

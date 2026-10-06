@@ -2,51 +2,67 @@
 
 **出題年度：令和元年度　午後の部　第10問**
 
-> 建物図面及び各階平面図に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　建物の敷地についての地積の更正の登記がされ、新たに地積測量図が備え付けられたときは、当該建物の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人は、当該建物の建物図面の訂正の申出をしなければならない。
->
-> イ　書面を提出する方法により建物図面又は各階平面図を提供する場合において、用紙が数枚にわたるときは、当該建物図面又は各階平面図の余白の適宜の箇所にその総枚数及び当該用紙が何枚目の用紙である旨を記載するものとされている。
->
-> ウ　資格者代理人が電子署名を行って提供する建物図面又は各階平面図には、作成の年月日並びに申請人及び作成者の氏名又は名称を記録しなければならない。
->
-> エ　資格者代理人が電子署名を行って提供する建物図面は、その建物の敷地についての不動産登記法第14条第1項の地図が備え付けられているときは、当該地図と同一の縮尺により作成しなければならない。
->
-> オ　区分建物としての構造上の要件を備える互いに隣接した2部屋を一個の区分建物として登記している場合において、その2部屋間の隔壁を除去し物理的に1部屋としたときは、建物図面及び各階平面図の訂正の申出をすることができる。
->
+> 建物図面及び各階平面図に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　建物の敷地についての地積の更正の登記がされ、新たに地積測量図が備え付けられたときは、当該建物の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人は、当該建物の建物図面の訂正の申出をしなければならない。  
+>　  
+> イ　書面を提出する方法により建物図面又は各階平面図を提供する場合において、用紙が数枚にわたるときは、当該建物図面又は各階平面図の余白の適宜の箇所にその総枚数及び当該用紙が何枚目の用紙である旨を記載するものとされている。  
+>　  
+> ウ　資格者代理人が電子署名を行って提供する建物図面又は各階平面図には、作成の年月日並びに申請人及び作成者の氏名又は名称を記録しなければならない。  
+>　  
+> エ　資格者代理人が電子署名を行って提供する建物図面は、その建物の敷地についての不動産登記法第14条第1項の地図が備え付けられているときは、当該地図と同一の縮尺により作成しなければならない。  
+>　  
+> オ　区分建物としての構造上の要件を備える互いに隣接した2部屋を一個の区分建物として登記している場合において、その2部屋間の隔壁を除去し物理的に1部屋としたときは、建物図面及び各階平面図の訂正の申出をすることができる。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
+
+---
 
 建物図面・各階平面図の分野は、作成の方法（記録事項・縮尺・用紙の扱い）と、備え付けられた図面に誤りがあったときの「訂正の申出」の性質を問うものです。とくに「しなければならない（義務）」なのか「することができる（任意）」なのかの線引きが正誤を分けます。
 
 ### ア：添付図面の訂正の申出は、義務ではなく任意
 
-登記所に備え付けられた建物図面などの添付図面に誤りがあるときは、表題部所有者・所有権の登記名義人またはこれらの相続人その他の一般承継人が、その訂正の申出をすることが**できます**（不登規88条1項）。しかし、これはあくまで任意の手続であり、「しなければならない」という義務ではありません。敷地の地積更正登記がされて新たな地積測量図が備え付けられたことをもって、建物図面の訂正申出が義務づけられることはありません。
+登記所に備え付けられた建物図面などの添付図面に誤りがあるときは、表題部所有者・所有権の登記名義人またはこれらの相続人その他の一般承継人が、その訂正の申出をすることが**できます**（不登規88条1項）。
+
+しかし、これはあくまで任意の手続であり、「しなければならない」という義務ではありません。敷地の地積更正登記がされて新たな地積測量図が備え付けられたことをもって、建物図面の訂正申出が義務づけられることはありません。
 
 **たとえば**、自分の建物が建っている土地の地積更正登記がされ、正確な地積測量図が新たに備え付けられたとしても、建物図面の訂正の申出をするかどうかは所有者の判断に委ねられており、必ず訂正しなければ違反になる、というものではありません。
 
 ### イ：用紙が数枚にわたるときは、総枚数と何枚目かを記載する
 
-書面を提出する方法で建物図面または各階平面図を提供する場合、用紙が数枚にわたるときは、その図面の余白の適宜の箇所に、総枚数および当該用紙が何枚目の用紙である旨を記載するものとされています（準則51条5項。同項はもともと土地所在図・地積測量図についての規定ですが、建物図面・各階平面図を作成する場合にも準用されます）。図面がバラバラにならず、順序と全体像が分かるようにするための決まりです。
+書面を提出する方法で建物図面または各階平面図を提供する場合、用紙が数枚にわたるときは、その図面の余白の適宜の箇所に、総枚数および当該用紙が何枚目の用紙である旨を記載するものとされています（準則51条5項。同項はもともと土地所在図・地積測量図についての規定ですが、建物図面・各階平面図を作成する場合にも準用されます）。
+
+図面がバラバラにならず、順序と全体像が分かるようにするための決まりです。
 
 **たとえば**、大きな建物で各階平面図が3枚に分かれてしまうときは、それぞれの用紙の余白に「全3枚のうち1枚目」「同2枚目」…といった形で記載しておく、というイメージです。
 
 ### ウ：電子署名して提供する図面にも、作成年月日・申請人・作成者名を記録する
 
-資格者代理人が電子署名を行って提供する建物図面または各階平面図にも、作成の年月日、並びに申請人および作成者の氏名または名称を記録しなければなりません（不登規73条）。電子申請だからといって記録すべき事項が省略されるわけではなく、書面の場合と同様に、いつ・誰の申請で・誰が作成した図面かを明らかにする必要があります。
+資格者代理人が電子署名を行って提供する建物図面または各階平面図にも、作成の年月日、並びに申請人および作成者の氏名または名称を記録しなければなりません（不登規73条）。
+
+電子申請だからといって記録すべき事項が省略されるわけではなく、書面の場合と同様に、いつ・誰の申請で・誰が作成した図面かを明らかにする必要があります。
 
 **たとえば**、調査士がオンライン申請で各階平面図のデータを電子署名して送信する場合でも、図面データの中に「作成日・申請人（依頼者）の氏名・作成者（調査士）の氏名」をきちんと記録しておかなければなりません。
 
 ### エ：建物図面の縮尺は500分の1が原則で、地図と同一である必要はない
 
-建物図面の縮尺は、原則として500分の1によって作成します（不登規82条。建物の状況その他の事情により適当でない場合は適宜の縮尺でも可）。敷地について法14条1項の地図が備え付けられているからといって、その地図と同一の縮尺で建物図面を作成しなければならない、という決まりはありません。図面の種類ごとに縮尺のルールは独立しています。
+建物図面の縮尺は、原則として500分の1によって作成します（不登規82条。建物の状況その他の事情により適当でない場合は適宜の縮尺でも可）。
+
+敷地について法14条1項の地図が備え付けられているからといって、その地図と同一の縮尺で建物図面を作成しなければならない、という決まりはありません。図面の種類ごとに縮尺のルールは独立しています。
 
 **たとえば**、敷地に250分の1の法14条地図が備わっていても、建物図面はそれに合わせる必要はなく、原則どおり500分の1で作成すればよい、ということです。
 
 ### オ：隔壁を除去して1部屋にしたときは、訂正の申出ではなく変更の登記
 
-互いに隣接した2部屋を一個の区分建物として登記している状態で、その2部屋間の隔壁を除去して物理的に1部屋にしたときは、建物の物理的現況そのものが変わっています。訂正の申出は、表題部の登記事項に関する更正の登記をすることができる場合には認められません（不登規88条1項ただし書）。この場合は、単なる図面の誤りを直す「訂正の申出」で対応する場面ではなく、建物の表題部の変更に対応する手続によるべきものであり、訂正の申出をすることができるわけではありません。
+互いに隣接した2部屋を一個の区分建物として登記している状態で、その2部屋間の隔壁を除去して物理的に1部屋にしたときは、区分建物の専有部分の構造そのものが変更されています。
 
-**たとえば**、もともと壁で仕切られていた2部屋をつなげて広い1部屋にリフォームした場合は、「図面の書き間違いを直す」訂正申出ではなく、建物の現況変更に対応した登記手続によって処理することになります。
+訂正の申出（不登規88条1項本文）は、土地所在図・地積測量図・建物図面・各階平面図に「誤りがあるとき」、つまり作成時点の図面が実際の状況と食い違っている場合に、その誤りを直すための手続です。本肢のように、登記後に専有部分の構造が変更された場合は、図面そのものに誤りがあったわけではないため、訂正の申出の対象にはなりません。
+
+この場合は、単なる図面の誤りを直す「訂正の申出」で対応する場面ではなく、専有部分の構造変更に対応した区分建物の表題部の変更の登記によるべきものであり、訂正の申出をすることができるわけではありません。
+
+**たとえば**、もともと壁で仕切られていた2部屋をつなげて広い1部屋にリフォームした場合は、「図面の書き間違いを直す」訂正申出ではなく、専有部分の構造変更に対応した表題部の変更の登記によって処理することになります。
+
+---
 
 ### まとめ
 
@@ -66,12 +82,13 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
-- 各肢の根拠のうち、肢イ（用紙複数枚のときの総枚数・枚数の記載）と肢エ（建物図面の縮尺は原則500分の1）は、内容として確認できたものです。当初は不動産登記規則・準則の該当条文番号（規則51条／73条／74条／82条／88条・準則51条5項などの候補）を一つに断定できていませんでしたが、2026年8月の追加調査（下記参照）でそれぞれの条番号を確定し、本文・まとめに反映しました。
-- 肢ア（訂正申出は任意）、肢ウ（電子申請時の記録事項）、肢オ（隔壁除去は変更の手続による）についても、同じ2026年8月の追加調査で根拠条文（不登規88条1項・73条・88条1項ただし書）を確認し、本文に反映しました。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ正 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物図面及び各階平面図）と同一・類似の問題が再出題されていないかを確認しました。候補のうち、令和5年度第10問の肢ア（建物図面・各階平面図に記録すべき事項、規則74条2項）は、本問の肢ウ（電子署名提供時の作成年月日・申請人・作成者氏名の記録）と記録事項の範囲という同一の条文論点を扱っており、また同問の肢ウ（床面積計算の誤りについて更正登記ができる場合は訂正の申出ができない、規則88条1項ただし書）は、本問の肢オ（隔壁除去による物理的変化は訂正の申出ではなく変更の登記による）と「訂正の申出の限界」という同一の論点を扱っています。**部分的に類似する記述があります**。なお、その他の候補（令和3年度第13問、令和7年度第10問）は、えい行移転・仮換地・団地共用部分や共用部分の規約廃止など別の場面を扱っており、本問の肢ア・イ・エとは重複しません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令への準拠チェック（2026年8月実施）**：WebSearchで不動産登記規則・準則の該当条文を調査し、従来「候補」として複数挙げていた条番号を確定しました。肢ア・オ（訂正の申出の任意性とその限界）＝不登規88条（1項本文が任意の申出であることの根拠、1項ただし書が「表題部の登記事項に関する更正の登記をすることができる場合は、この限りでない」と定めており、これが肢オで隔壁除去による物理的変化の場合に訂正の申出ではなく変更の登記によるべき根拠となる）。肢イ（用紙が数枚にわたるときの総枚数・枚数の記載）＝準則51条5項（本来は土地所在図・地積測量図の規定だが、建物図面・各階平面図にも準用される）。肢ウ（電子署名提供時の記録事項）＝不登規73条。肢エ（建物図面の縮尺原則500分の1）＝不登規82条。いずれも令和元年の出題当時から現在（2026年8月）までの間に条文番号の変更・実質改正は確認されず、内容も現行法どおりでした。確定した条番号を本文・まとめに反映しています。
+- 各肢の根拠のうち、イ（用紙複数枚のときの総枚数・枚数の記載）とエ（建物図面の縮尺は原則500分の1）は、内容として確認できたものです。当初は不動産登記規則・準則の該当条文番号（規則51条／73条／74条／82条／88条・準則51条5項などの候補）を一つに断定できていませんでしたが、2026年8月の追加調査（下記参照）でそれぞれの条番号を確定し、本文・まとめに反映しました。
+- ア（訂正申出は任意）、ウ（電子申請時の記録事項）についても、同じ2026年8月の追加調査で根拠条文（不登規88条1項本文・73条）を確認し、本文に反映しました。オ（隔壁除去は変更の手続による）の根拠については、2026年10月の指摘を受けた再確認（下記参照）で、不登規88条1項ただし書ではなく、同条1項本文の「誤りがあるとき」という適用要件を満たさないことによるものと訂正しています。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ正 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物図面及び各階平面図）と同一・類似の問題が再出題されていないかを確認しました。候補のうち、令和5年度第10問のア（建物図面・各階平面図に記録すべき事項、規則74条2項）は、本問のウ（電子署名提供時の作成年月日・申請人・作成者氏名の記録）と記録事項の範囲という同一の条文論点を扱っており、また同問のウ（床面積計算の誤りについて更正登記ができる場合は訂正の申出ができない、規則88条1項ただし書）は、本問のオ（隔壁除去による物理的変化は訂正の申出ではなく変更の登記による）と「訂正の申出の限界」という同一の論点を扱っています。**部分的に類似する記述があります**。なお、その他の候補（令和3年度第13問、令和7年度第10問）は、えい行移転・仮換地・団地共用部分や共用部分の規約廃止など別の場面を扱っており、本問のア・イ・エとは重複しません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **最新法令への準拠チェック（2026年8月実施）**：WebSearchで不動産登記規則・準則の該当条文を調査し、従来「候補」として複数挙げていた条番号を確定しました。ア（訂正の申出の任意性）＝不登規88条1項本文（「誤りがあるときは…その訂正の申出をすることができる」という任意の申出であることの根拠）。オ（隔壁除去による構造変更の場合に訂正の申出ができないこと）については、同項本文の「誤りがあるとき」という適用要件を満たさないことが根拠であり、1項ただし書（表題部の登記事項に関する更正の登記をすることができる場合の除外）はオの場面には適用されません——この点は2026年10月の指摘を受けて訂正しました（下記参照）。イ（用紙が数枚にわたるときの総枚数・枚数の記載）＝準則51条5項（本来は土地所在図・地積測量図の規定だが、建物図面・各階平面図にも準用される）。ウ（電子署名提供時の記録事項）＝不登規73条。エ（建物図面の縮尺原則500分の1）＝不登規82条。いずれも令和元年の出題当時から現在（2026年8月）までの間に条文番号の変更・実質改正は確認されず、内容も現行法どおりでした。確定した条番号を本文・まとめに反映しています。
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（`note-articles/laws/fudousan-touki-kisoku-1.md`原文で規則73条2項・82条3項・88条1項（ただし書）を、`note-articles/laws/fudousan-touki-jimu-junsoku.md`原文で準則51条5項（54条3項による建物図面・各階平面図への準用）を1条ずつ直接突合し、ア・イ・ウ・エ・オすべての根拠条文が条文原文と完全に一致することを確認。判例・先例番号は本文になし）、B（正解番号3＝イウを`src/data/takuitsu.json`の`chosashi_R01_q10`の`correctAnswer`と再照合し一致を確認）、C（見出し・敬体・正解の先出しなし・条文解釈プロセスの解説なしを再確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックプロンプトと本文の整合を確認）、F（タイトルのキャッチフレーズ17字＝25字以内、テンプレート構造・確認事項ブロックを確認）、G（重複出題チェック・最新法令チェックは上記の既存記載を再確認）を実施し、修正すべき誤りは見つかりませんでした。
+- **読者指摘への対応（2026-10-05実施）**：オの根拠として本文・確認事項ブロックに記載していた「訂正の申出は、表題部の登記事項に関する更正の登記をすることができる場合には認められません（不登規88条1項ただし書）」という記述について、「ただし書は更正登記ができる場合の除外規定であり、隔壁除去という現況（専有部分の構造）の変更とは別の規定である」との指摘を受けました。`note-articles/laws/fudousan-touki-kisoku-1.md`で88条1項の原文（「土地所在図、地積測量図、建物図面又は各階平面図に誤りがあるときは…その訂正の申出をすることができる。ただし、表題部の登記事項に関する更正の登記…をすることができる場合は、この限りでない。」）を直接確認した結果、指摘は正当なものでした。訂正の申出（本文）はそもそも図面に「誤りがあるとき」にしか適用されず、オのように登記後に専有部分の構造が変更された場面は「誤り」ではないため本文の適用要件自体を満たさず、ただし書（更正登記ができる場合の除外）が働く場面でもありません。オが誤りとなる正しい理由は、`src/data/kaisetsu_plus.json`の`chosashi_R01_q10`のpitfallsフィールド（「区分建物の専有部分の構造が変更されているため、単なる訂正の申出ではなく、区分建物の表題部変更の登記（区分建物の変更登記）の申請が必要」）とも整合します。本文のオの解説・確認事項ブロックの該当箇所を修正し、⑤作図ガイドのプロンプトのFOOTER注記も「88条1項(本文・ただし書)」という表記から「88条1項」に修正しました（ただし書を根拠として明記する記述を削除）。正誤判定・正解の組合せ（イウ、選択肢3番）に変更はありません。
 
 ---
 
@@ -111,13 +128,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・縮・尺・隔・壁 — these must
+kanji 録・地・建・物・登・記・縮・尺・隔・壁 — these must
 be rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -192,20 +227,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア・オは「図面の誤りの原因は、建物自体の物理的現況が変わったことか」を分岐点とする決定木を共有し、ア（いいえ側＝任意にできる）とオ（はい側＝訂正ではなく変更登記による）で強調する枝を切り替える構成にした。イ・ウは1回の確認で完結するため通常の図解、エは法14条地図と建物図面の縮尺を対比する対比枠型を採用した。
 
@@ -224,7 +259,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric drafting tables, building floor
 plans, digital tablets with electronic seals, stacked paper sheets with
 margin notes, a small scale ruler icon — adapt icon set to the topic of
-建物図面・各階平面図の作成・訂正ルール. Panels 1（肢ア）and 5（肢オ）
+建物図面・各階平面図の作成・訂正ルール. Panels 1（ア）and 5（オ）
 share the same decision flowchart: a diamond branch node labeled「図面の
 誤りの原因は、建物自体の物理的現況が変わったことか」with two Yes/No
 branches, each leading to its own conclusion node（いいえ→「訂正の申出
@@ -234,8 +269,8 @@ shared tree appears, and never draw a looping arrow back into an earlier
 node. Panel 1 highlights（太い縁取り・フルカラーで強調）the いいえ branch
 and its conclusion node while rendering the はい branch and its conclusion
 node in a faded, greyed-out style; Panel 5 does the reverse. Panels 2 and
-3（肢イ・肢ウ）are resolved by a single check, so a labeled illustrative
-diagram is sufficient — do not force a flowchart. Panel 4（肢エ）uses a
+3（イ・ウ）are resolved by a single check, so a labeled illustrative
+diagram is sufficient — do not force a flowchart. Panel 4（エ）uses a
 side-by-side comparison frame（LEFT: 法14条地図の縮尺、RIGHT: 建物図面
 500分の1）with a large ✕ over an equals-sign icon between them, because
 the point of that 肢 is that the two scales need not match. Unlike a
@@ -248,7 +283,15 @@ callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -274,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 図面訂正の申出は任意で義務ではない
@@ -295,7 +338,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 訂正は任意で義務でない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 用紙複数枚は総枚数と何枚目を記載
@@ -310,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 総枚数・何枚目を記載
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 電子署名でも作成日等を記録する
@@ -326,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 作成日等を記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 建物図面は500分の1で地図と別
@@ -343,7 +386,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 縮尺は独立して決まる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 隔壁除去は訂正でなく変更登記
@@ -365,14 +408,14 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記規則88条1項(本文・ただし書)・73条・82条、不動産登記事務取扱
-手続準則51条5項(54条3項による準用)に基づく整理です。
+不動産登記規則88条1項・73条・82条、不動産登記事務取扱手続準則51条5項
+(54条3項による準用)に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 訂, 正, 義, 務, 隔, 壁, 縮, 尺, 署, 名, 録, 敷 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every

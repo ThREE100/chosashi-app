@@ -2,19 +2,21 @@
 
 **出題年度：令和4年度　午後の部　第18問**
 
-> 次の〔図〕のとおり、甲土地及び乙土地の上に一棟の建物に属する丁区分建物及び戊区分建物が存在し、丙土地はA及びBの駐車場として使用されている。甲土地、乙土地及び丙土地の所有権の登記名義人はA及びBであり、Aは丁区分建物の、Bは戊区分建物の新築時の所有者（丁区分建物及び戊区分建物に表題登記がない場合）又は表題部所有者（丁区分建物及び戊区分建物に表題登記がある場合）である。この場合に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。なお、問題文に明記されている場合を除き、専有部分とその専有部分に係る敷地利用権とを分離して処分することができる旨を定めた規約（以下「分離処分可能規約」という。）はないものとする。
->
-> ア　Aは、甲土地及び乙土地のAの共有持分権を敷地権として、表題登記がない丁区分建物について表題登記を申請することはできない。
->
-> イ　丙土地が規約により表題登記がある戊区分建物の敷地とされた場合には、Bは、丙土地が敷地となった日から1か月以内に、丙土地について有する登記された敷地利用権を敷地権として表示する戊区分建物の表題部の変更の登記を申請しなければならない。
->
-> ウ　Aは、丙土地を丁区分建物の敷地とすることについてAのみが賛成した旨が記載された集会の議事録を申請書に添付することにより、丙土地のAの共有持分権を敷地権として、丁区分建物の表題登記を申請することができる。
->
-> エ　丁区分建物及び戊区分建物の表題部に甲土地及び乙土地に係る敷地権が登記されている場合には、Aは、丁区分建物についてのみ甲土地及び乙土地の敷地利用権との分離処分可能規約を設定したことを証する情報を提供して、丁区分建物についてのみ甲土地及び乙土地に係る敷地権の登記を抹消する表題部の変更の登記を申請することができる。
->
-> オ　甲土地のAの共有持分権に丁区分建物の敷地権である旨の登記がされている場合において、当該敷地権である旨の登記がされた後の売買を原因とする当該共有持分権の移転の登記をしようとするときは、その前提として、当該共有持分権に係る敷地権の登記を抹消する丁区分建物の表題部の変更の登記をすることを要しない。
->
+> 次の〔図〕のとおり、甲土地及び乙土地の上に一棟の建物に属する丁区分建物及び戊区分建物が存在し、丙土地はA及びBの駐車場として使用されている。甲土地、乙土地及び丙土地の所有権の登記名義人はA及びBであり、Aは丁区分建物の、Bは戊区分建物の新築時の所有者（丁区分建物及び戊区分建物に表題登記がない場合）又は表題部所有者（丁区分建物及び戊区分建物に表題登記がある場合）である。この場合に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。なお、問題文に明記されている場合を除き、専有部分とその専有部分に係る敷地利用権とを分離して処分することができる旨を定めた規約（以下「分離処分可能規約」という。）はないものとする。  
+>　  
+> ア　Aは、甲土地及び乙土地のAの共有持分権を敷地権として、表題登記がない丁区分建物について表題登記を申請することはできない。  
+>　  
+> イ　丙土地が規約により表題登記がある戊区分建物の敷地とされた場合には、Bは、丙土地が敷地となった日から1か月以内に、丙土地について有する登記された敷地利用権を敷地権として表示する戊区分建物の表題部の変更の登記を申請しなければならない。  
+>　  
+> ウ　Aは、丙土地を丁区分建物の敷地とすることについてAのみが賛成した旨が記載された集会の議事録を申請書に添付することにより、丙土地のAの共有持分権を敷地権として、丁区分建物の表題登記を申請することができる。  
+>　  
+> エ　丁区分建物及び戊区分建物の表題部に甲土地及び乙土地に係る敷地権が登記されている場合には、Aは、丁区分建物についてのみ甲土地及び乙土地の敷地利用権との分離処分可能規約を設定したことを証する情報を提供して、丁区分建物についてのみ甲土地及び乙土地に係る敷地権の登記を抹消する表題部の変更の登記を申請することができる。  
+>　  
+> オ　甲土地のAの共有持分権に丁区分建物の敷地権である旨の登記がされている場合において、当該敷地権である旨の登記がされた後の売買を原因とする当該共有持分権の移転の登記をしようとするときは、その前提として、当該共有持分権に係る敷地権の登記を抹消する丁区分建物の表題部の変更の登記をすることを要しない。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
+
+---
 
 ※〔図〕は、甲土地と乙土地の上に一棟の建物（丁・戊の区分建物）が建ち、その隣に丙土地（A・Bの駐車場）がある配置を示すものです。
 
@@ -22,33 +24,51 @@
 
 ### ア：共有持分権を敷地権として、丁区分建物の表題登記を申請できる
 
-敷地利用権が数人で有する登記された所有権・地上権・賃借権である場合には、専有部分とその敷地利用権が一体化し、分離して処分できません（区分所有法22条1項）。本問では、一棟の建物の敷地である甲・乙土地がともにA・B共有で所有権登記もされているため、丁区分建物と、甲・乙土地のAの共有持分権は一体化します。したがって、Aは、甲・乙土地のAの共有持分権を敷地権として、丁区分建物の表題登記を申請することになります。本肢は「申請することはできない」としており誤りです。
+敷地利用権が数人で有する登記された所有権・地上権・賃借権である場合には、専有部分とその敷地利用権が一体化し、分離して処分できません（区分所有法22条1項）。
+
+本問では、一棟の建物の敷地である甲・乙土地がともにA・B共有で所有権登記もされているため、丁区分建物と、甲・乙土地のAの共有持分権は一体化します。
+
+したがって、Aは、甲・乙土地のAの共有持分権を敷地権として、丁区分建物の表題登記を申請することになります。本肢は「申請することはできない」としており誤りです。
 
 **たとえば**、A・B共有の土地の上に建つマンションで、Aさんの部屋（丁区分建物）を初めて登記するとき、Aさんは自分の共有持分を敷地権として、その丁区分建物の表題登記を申請することになります。
 
 ### イ：規約敷地になったら、Bは1か月以内に表題部変更登記を申請
 
-区分建物の登記がされた後に敷地権が生じた場合には、建物の登記記録に敷地権の表示をする区分建物の表題部の変更登記をすることになります。表題部所有者または所有権の登記名義人は、登記事項に変更があったときは、その変更があった日から1か月以内に申請しなければなりません（不動産登記法51条1項）。よって、丙土地が規約により戊区分建物の敷地とされた場合、Bは1か月以内に表題部変更登記を申請しなければなりません。本肢は正しい記述です。
+区分建物の登記がされた後に敷地権が生じた場合には、建物の登記記録に敷地権の表示をする区分建物の表題部の変更登記をすることになります。
+
+表題部所有者または所有権の登記名義人は、登記事項に変更があったときは、その変更があった日から1か月以内に申請しなければなりません（不動産登記法51条1項）。
+
+よって、丙土地が規約により戊区分建物の敷地とされた場合、Bは1か月以内に表題部変更登記を申請しなければなりません。本肢は正しい記述です。
 
 **たとえば**、それまで単なる駐車場だった丙土地を、規約でマンション（戊区分建物）の敷地に組み入れた場合、戊区分建物の所有者Bさんは、その日から1か月以内に、丙土地の利用権を敷地権として表示する変更登記を申請することになります。
 
 ### ウ：規約の設定には出席者の4分の3以上の多数決が必要で、Aのみでは足りない
 
-規約の設定・変更・廃止は、集会において、区分所有者および議決権の各過半数（以上）が出席したうえで、出席した区分所有者および議決権の各4分の3以上の多数による決議によって行います（区分所有法31条1項）。Aのみが賛成した集会議事録では、Bの出席・賛成がない以上、この定足数（過半数の出席）も4分の3以上の賛成という決議要件も満たさず、有効な規約は成立しません。したがって、Aのみが賛成した議事録を添付して、丙土地のAの共有持分権を敷地権として丁区分建物の表題登記を申請することはできません。本肢は誤りです。
+規約の設定・変更・廃止は、集会において、区分所有者および議決権の各過半数（以上）が出席したうえで、出席した区分所有者および議決権の各4分の3以上の多数による決議によって行います（区分所有法31条1項）。
+
+Aのみが賛成した集会議事録では、Bの出席・賛成がない以上、この定足数（過半数の出席）も4分の3以上の賛成という決議要件も満たさず、有効な規約は成立しません。
+
+したがって、Aのみが賛成した議事録を添付して、丙土地のAの共有持分権を敷地権として丁区分建物の表題登記を申請することはできません。本肢は誤りです。
 
 **たとえば**、丙土地をマンションの敷地に組み入れる規約をつくるには、集会に出席した住民（区分所有者）の4分の3以上の賛成が必要です。Aさん一人が賛成しただけの議事録では、規約として認められません。
 
 ### エ：一部の区分建物についてのみ、分離処分可能規約を設定できる
 
-分離処分可能規約は、区分所有者の一部についてのみ定め、他の区分所有者は分離処分できないようにすることもできます。したがって、Aは、丁区分建物についてのみ分離処分可能規約を設定したことを証する情報を提供して、丁区分建物についてのみ敷地権の登記を抹消する表題部の変更の登記を申請することができます。本肢は正しい記述です。
+分離処分可能規約は、区分所有者の一部についてのみ定め、他の区分所有者は分離処分できないようにすることもできます。
+
+したがって、Aは、丁区分建物についてのみ分離処分可能規約を設定したことを証する情報を提供して、丁区分建物についてのみ敷地権の登記を抹消する表題部の変更の登記を申請することができます。本肢は正しい記述です。
 
 **たとえば**、マンションのうちAさんの部屋（丁区分建物）だけ、「敷地とは別々に売れるようにする」という規約を設定すれば、丁区分建物についてのみ敷地権の登記を外す変更登記を申請することができます。
 
 ### オ：分離して処分するには、前提として敷地権登記の抹消が必要
 
-敷地権である旨の登記がされている土地は、そのままでは土地だけの権利を移転することができません（不動産登記法73条2項）。甲土地のAの持分を丁区分建物と分離して処分するには、その前提として、分離処分可能規約を設定し、区分建物の表題部の変更登記をして敷地権の登記を抹消する必要があります。本肢は「表題部の変更の登記をすることを要しない」としており誤りです。
+敷地権である旨の登記がされている土地は、そのままでは土地だけの権利を移転することができません（不動産登記法73条2項）。
+
+甲土地のAの持分を丁区分建物と分離して処分するには、その前提として、分離処分可能規約を設定し、区分建物の表題部の変更登記をして敷地権の登記を抹消する必要があります。本肢は「表題部の変更の登記をすることを要しない」としており誤りです。
 
 **たとえば**、丁区分建物の敷地権である旨の登記が入っている甲土地のAさんの持分を、建物と切り離して誰かに売りたいときは、まず分離処分可能規約を設定し、敷地権の登記を抹消する表題部変更登記を済ませておかないと、その持分だけの移転登記はできません。
+
+---
 
 ### まとめ
 
@@ -69,9 +89,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。なお本問には〔図〕が付いていますので、noteに掲載する際は、法務省公表の問題原本から該当図を引用するか、上記の※注記のように配置を文章で補足してください。
 - 出題年度・問題番号・正解番号（4番＝イ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝区分所有法22条1項、イ＝法51条1項、ウ＝区分所有法31条1項、エ＝昭58.11.10民三6400号、オ＝法73条2項）は、データベースのexplanationフィールドに記載のものを転記しています。
-- なお、kaisetsu_plus.jsonのpitfalls欄には肢アの理由づけとして「共有持分権のみを敷地権として登記できない」とする記述も見られましたが、同じデータベースのexplanation欄は「A・B共有かつ所有権登記済みのため専有部分と共有持分権が一体化し、Aは共有持分権を敷地権として表題登記を申請することになる（ゆえにアは誤り）」と説明しており、正答（4番＝イエ）と整合するのは後者です。本記事はexplanation欄に従って解説しています。
+- なお、kaisetsu_plus.jsonのpitfalls欄にはアの理由づけとして「共有持分権のみを敷地権として登記できない」とする記述も見られましたが、同じデータベースのexplanation欄は「A・B共有かつ所有権登記済みのため専有部分と共有持分権が一体化し、Aは共有持分権を敷地権として表題登記を申請することになる（ゆえにアは誤り）」と説明しており、正答（4番＝イエ）と整合するのは後者です。本記事はexplanation欄に従って解説しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- 【2026-08-04修正】区分所有法31条1項（規約の設定・変更・廃止の決議要件）は、老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律（令和7年法律第47号）により2026年4月1日から改正され、決議要件の分母が「区分所有者・議決権の総数」から「集会に出席した区分所有者・議決権」に変わりました（4分の3という割合自体は変更なし）。改正後の条文は「規約の設定、変更又は廃止は、集会において、区分所有者（略）の過半数（略）の者であつて議決権の過半数（略）を有するものが出席し、出席した区分所有者及びその議決権の各四分の三以上の多数による決議によつてする。」（区分所有法31条1項、e-Gov現行条文で確認）。本問（令和4年度出題）は改正前の31条1項（区分所有者及び議決権の総数の各4分の3以上）で解かれていますが、AのみがB不在のまま賛成しても、旧法（総数の4分の3）でも新法（定足数＋出席者の4分の3）でも規約は成立しないため、肢ウの結論（誤り）に変わりはありません。本文の該当説明とまとめ表は現行（2026年4月1日以降）の条文に合わせて更新しました。
+- 【2026-08-04修正】区分所有法31条1項（規約の設定・変更・廃止の決議要件）は、老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律（令和7年法律第47号）により2026年4月1日から改正され、決議要件の分母が「区分所有者・議決権の総数」から「集会に出席した区分所有者・議決権」に変わりました（4分の3という割合自体は変更なし）。改正後の条文は「規約の設定、変更又は廃止は、集会において、区分所有者（略）の過半数（略）の者であつて議決権の過半数（略）を有するものが出席し、出席した区分所有者及びその議決権の各四分の三以上の多数による決議によつてする。」（区分所有法31条1項、e-Gov現行条文で確認）。本問（令和4年度出題）は改正前の31条1項（区分所有者及び議決権の総数の各4分の3以上）で解かれていますが、AのみがB不在のまま賛成しても、旧法（総数の4分の3）でも新法（定足数＋出席者の4分の3）でも規約は成立しないため、ウの結論（誤り）に変わりはありません。本文の該当説明とまとめ表は現行（2026年4月1日以降）の条文に合わせて更新しました。
 
 ---
 
@@ -112,12 +132,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・建・物・登・記・処・約 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -200,16 +238,16 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権・地・建・物・登・記・処・約. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no
 duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -244,7 +282,15 @@ short sentences, not a paragraph.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
@@ -332,9 +378,9 @@ Small credit text (2行):
 レーンにまたがることもある
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・地・建・物・登・記・処・約・議・決・抹・消. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権・地・建・物・登・記・処・約・議・決・抹・消. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm every node label matches the
 Japanese text given above verbatim, with no paraphrasing and no
 substituted characters, confirm that no node mentions "甲土地" "乙土地"
@@ -343,10 +389,10 @@ question-specific label (this flowchart must read as a general-purpose
 procedure), confirm the three lanes (①〜③) are clearly color-coded and
 visually separated with their pill-badge headers at the top of each
 lane, and confirm the entire canvas, edge to edge, is filled with a
-fully opaque background with no transparency or alpha channel anywhere.
+fully opaque background with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node).
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスター、③の一般的な判定フローチャートとは別に、本問固有の配置（甲・乙土地の上の一棟の建物に属する丁・戊区分建物、駐車場として使われる丙土地）を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの条件確認の順序を、ア〜オの5肢それぞれについて示す作図ガイドを追加した。②のような結論を一言で見せるポスターと異なり、④間違いノート型と同じ運用（文章での説明・着眼点の記述を許容）に倣い、各パネルに「着眼点」の短い説明文を添えている。
 
@@ -391,7 +437,15 @@ or merge a required element (e.g. keep the quorum requirement and the
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -417,7 +471,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -441,7 +495,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 共有持分でも敷地権
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 規約敷地になったら1か月以内に申請
@@ -462,7 +516,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1か月以内に申請義務
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 Aだけの賛成では規約は成立しない
@@ -490,7 +544,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 Aのみでは規約不成立
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 丁だけに分離処分規約も設定できる
@@ -515,7 +569,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 丁だけの規約設定も可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 抹消登記を先に済ませてから移転する
@@ -547,10 +601,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法73条2項（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権・地・建・物・登・記・処・約・議・決・抹・消・所・共・敷・
-録・続. If any character renders as a Simplified Chinese variant, redraw
-that character in the correct Japanese form. Confirm the panel count
+録・続. If any character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
 every multi-condition 肢 (Panel 3) is drawn as an actual flowchart with

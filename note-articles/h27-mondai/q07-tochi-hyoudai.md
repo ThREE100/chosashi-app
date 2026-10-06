@@ -2,19 +2,21 @@
 
 **出題年度：平成27年度　午後の部　第7問**
 
-> 土地の表題登記に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　隣接する2筆の土地について同時に土地の表題登記を申請する場合において提供する地積測量図は，当該2筆の土地分をまとめて1枚の図面により作成することができる。
->
-> イ　電子申請により土地の表題登記を申請する場合において，申請人が，電子署名に係る地方公共団体の認証業務に関する法律の規定に基づき作成された電子証明書を提供したときは，当該電子証明書の提供をもって，当該申請人の現在の住所を証する情報の提供に代えることができる。
->
-> ウ　ＡがＢから表題登記がない土地を買い受けた場合には，Ａは，その所有権の取得の日から1月以内に，表題登記を申請しなければならない。
->
-> エ　二人以上の者が表題部所有者となる表題登記を申請する場合において，その持分が相等しいものと推定されるときは，それぞれの持分を申請情報の内容とすることを要しない。
->
-> オ　電子申請により土地の表題登記を申請する場合において提供する地積測量図は，土地所在図を兼ねることができる。
->
+> 土地の表題登記に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　隣接する2筆の土地について同時に土地の表題登記を申請する場合において提供する地積測量図は，当該2筆の土地分をまとめて1枚の図面により作成することができる。  
+>　  
+> イ　電子申請により土地の表題登記を申請する場合において，申請人が，電子署名に係る地方公共団体の認証業務に関する法律の規定に基づき作成された電子証明書を提供したときは，当該電子証明書の提供をもって，当該申請人の現在の住所を証する情報の提供に代えることができる。  
+>　  
+> ウ　ＡがＢから表題登記がない土地を買い受けた場合には，Ａは，その所有権の取得の日から1月以内に，表題登記を申請しなければならない。  
+>　  
+> エ　二人以上の者が表題部所有者となる表題登記を申請する場合において，その持分が相等しいものと推定されるときは，それぞれの持分を申請情報の内容とすることを要しない。  
+>　  
+> オ　電子申請により土地の表題登記を申請する場合において提供する地積測量図は，土地所在図を兼ねることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 この問題は「誤っているものの組合せ」を選ぶ形式です。土地の表題登記について、図面の作り方・添付情報の省略・申請義務・持分の記載といった論点が並びます。“1枚にまとめてよいか”“省略できるか”という細部を正確に押さえましょう。
 
@@ -26,7 +28,9 @@
 
 ### イ：公的個人認証の電子証明書は、住所を証する情報の代わりになる
 
-電子申請で、地方公共団体の認証業務（いわゆる公的個人認証）に基づく電子証明書を提供したときは、その電子証明書に住所が記録されているため、申請人の現在の住所を証する情報（住所証明情報）の提供を省略でき、電子証明書がその代わりになります（不動産登記規則44条1項）。本肢は正しい記述です。
+電子申請で、地方公共団体の認証業務（いわゆる公的個人認証）に基づく電子証明書を提供したときは、その電子証明書に住所が記録されているため、申請人の現在の住所を証する情報（住所証明情報）の提供を省略でき、電子証明書がその代わりになります（不動産登記規則44条1項）。
+
+本肢は正しい記述です。
 
 **たとえば**、マイナンバーカードの電子証明書を使ってオンラインで表題登記を申請すると、その証明書に住所の情報が入っているので、住民票などの住所証明書を別に付ける必要がなくなります。
 
@@ -38,7 +42,9 @@
 
 ### エ：持分が相等しいと推定されるときでも、持分の記載は必要
 
-2人以上の者が表題部所有者となる表題登記を申請するときは、それぞれの持分を申請情報の内容として記載しなければなりません（不動産登記令3条9号）。持分が相等しいと推定される場合であっても、記載を省略することはできません。したがって「持分を申請情報の内容とすることを要しない」とする本肢は誤りです。
+2人以上の者が表題部所有者となる表題登記を申請するときは、それぞれの持分を申請情報の内容として記載しなければなりません（不動産登記令3条9号）。
+
+持分が相等しいと推定される場合であっても、記載を省略することはできません。したがって「持分を申請情報の内容とすることを要しない」とする本肢は誤りです。
 
 **たとえば**、AとBの2人で表題部所有者になる登記でも、「たぶん半分ずつだから書かなくていい」とはならず、「Aの持分2分の1、Bの持分2分の1」ときちんと記載します。
 
@@ -48,7 +54,13 @@
 
 **たとえば**、オンラインで表題登記を申請するとき、土地の位置を示す土地所在図と、面積や辺長を示す地積測量図を、条件を満たせば1つの図面として兼ねることができます。
 
-**なぜ電子申請（電磁的記録）の図面だけ無条件に兼ねられるのか**：紙の図面は、決められた縮尺で1枚の用紙にあらかじめ描いてしまう性質上、土地所在図（周辺の土地との位置関係を示す、比較的小さい縮尺の図）と地積測量図（1筆の形状を詳しく示す、比較的大きい縮尺の図）とで、たまたま同じ縮尺になっていない限り、1枚の図面で両方を兼ねることはできません（不動産登記事務取扱手続準則51条3項・4項では、書面の地積測量図が土地所在図を兼ねられるのは、両者の縮尺が同一であるときに限られています）。これに対して電子申請・電磁的記録で作成する図面は、決まった縮尺の紙に描くのではなく、法務大臣が定める方式（座標データ等）で作成するデータであるため、位置関係を示すのに必要な情報も、形状を詳しく示すのに必要な情報も、同じデータの中に両方含めることができます。紙のような「縮尺が一致していなければならない」という制約がないため、準則51条2項では条件なしに地積測量図が土地所在図を兼ねられる、という扱いになっています。
+**なぜ電子申請（電磁的記録）の図面だけ無条件に兼ねられるのか**：紙の図面は、決められた縮尺で1枚の用紙にあらかじめ描いてしまう性質上、土地所在図（周辺の土地との位置関係を示す、比較的小さい縮尺の図）と地積測量図（1筆の形状を詳しく示す、比較的大きい縮尺の図）とで、たまたま同じ縮尺になっていない限り、1枚の図面で両方を兼ねることはできません（不動産登記事務取扱手続準則51条3項・4項では、書面の地積測量図が土地所在図を兼ねられるのは、両者の縮尺が同一であるときに限られています）。
+
+これに対して電子申請・電磁的記録で作成する図面は、決まった縮尺の紙に描くのではなく、法務大臣が定める方式（座標データ等）で作成するデータであるため、位置関係を示すのに必要な情報も、形状を詳しく示すのに必要な情報も、同じデータの中に両方含めることができます。
+
+紙のような「縮尺が一致していなければならない」という制約がないため、準則51条2項では条件なしに地積測量図が土地所在図を兼ねられる、という扱いになっています。
+
+---
 
 ### まとめ
 
@@ -111,13 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 積・測・量・図・登・記・所・在・証・明・住・持・分・筆・表・題・者・供・縮・
-尺・制・約 — these must be rendered in their standard Japanese forms, never
+kanji 積・測・量・図・登・記・所・在・証・明・住・持・分・筆・表・題・縮・尺・制・約 — these must be rendered in their standard Japanese forms, never
 as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -209,20 +238,20 @@ these 5 headings):
 5. 「たぶん半分」でも持分は書く
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 5肢はそれぞれ別の場面（地積測量図の作成単位、公的個人認証による住所証明の代替、未登記地取得者の申請義務、持分推定と記載省略の可否、電子申請の図面兼用）を扱うため、共有木は使わず肢ごとに最適な型を選んだ。ア・エは正しいルールと誤解を対比する構図、イ・ウは条件確認から結論に至る単純な図解、オは「電子申請か、紙の書面か」で結論が変わる点を左右2枠で対比する構成にした。
 
@@ -305,7 +334,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -323,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 まとめて1枚は不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -341,7 +370,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 住所証明書は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -360,7 +389,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1か月以内に申請義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -378,7 +407,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分は必ず記載
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

@@ -2,51 +2,69 @@
 
 **出題年度：平成22年度　午後の部　第3問**
 
-> 公道に至るための他の土地の通行権に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうちどれか。なお、甲土地、乙土地及び丙土地の位置関係は、下図のとおりであり、甲土地から公道に出るためには、乙土地を通行するより丙土地を通行する方が損害が少ないものとする。
->
-> ア　Ｄが丙土地を所有している場合において、Ａが所有する一筆の土地を甲土地と乙土地に分筆して、甲土地をＢに譲渡し、その後、乙土地をＣに譲渡したときは、Ｂは、乙土地について通行権を主張することができる。
->
-> イ　Ｂが丙土地を所有している場合において、必要があるときは、甲土地を所有するＡは、Ｂが所有する丙土地に公道に至るための通路を開設することができるが、甲土地の地上権者であるＣは、丙土地に公道に至るための通路を開設することができない。
->
-> ウ　Ｃが丙土地を所有している場合において、Ａが所有する一筆の土地を甲土地と乙土地に分筆して、乙土地をＢに譲渡したときは、Ａは、乙土地について通行権を主張することができない。
->
-> エ　Ｃが乙土地及び丙土地を所有している場合において、所有者であるＡから甲土地を譲り受けたＢが甲土地についてＡから所有権の移転の登記を得ていないときは、Ｂは、乙土地及び丙土地のいずれについても通行権を主張することができない。
->
-> オ　Ｃが丙土地を所有し、Ａがその所有に係る甲土地及び乙土地のうち乙土地について抵当権を設定していた場合において、当該抵当権の実行としての競売による競落により、Ｂが乙土地を取得したときは、Ａは、乙土地について通行権を主張することができる。
->
+> 公道に至るための他の土地の通行権に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうちどれか。なお、甲土地、乙土地及び丙土地の位置関係は、下図のとおりであり、甲土地から公道に出るためには、乙土地を通行するより丙土地を通行する方が損害が少ないものとする。  
+>　  
+> ア　Ｄが丙土地を所有している場合において、Ａが所有する一筆の土地を甲土地と乙土地に分筆して、甲土地をＢに譲渡し、その後、乙土地をＣに譲渡したときは、Ｂは、乙土地について通行権を主張することができる。  
+>　  
+> イ　Ｂが丙土地を所有している場合において、必要があるときは、甲土地を所有するＡは、Ｂが所有する丙土地に公道に至るための通路を開設することができるが、甲土地の地上権者であるＣは、丙土地に公道に至るための通路を開設することができない。  
+>　  
+> ウ　Ｃが丙土地を所有している場合において、Ａが所有する一筆の土地を甲土地と乙土地に分筆して、乙土地をＢに譲渡したときは、Ａは、乙土地について通行権を主張することができない。  
+>　  
+> エ　Ｃが乙土地及び丙土地を所有している場合において、所有者であるＡから甲土地を譲り受けたＢが甲土地についてＡから所有権の移転の登記を得ていないときは、Ｂは、乙土地及び丙土地のいずれについても通行権を主張することができない。  
+>　  
+> オ　Ｃが丙土地を所有し、Ａがその所有に係る甲土地及び乙土地のうち乙土地について抵当権を設定していた場合において、当該抵当権の実行としての競売による競落により、Ｂが乙土地を取得したときは、Ａは、乙土地について通行権を主張することができる。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
 
-公道に接していない土地（袋地）の通行権の分野です。カギは、袋地が「もともと一筆だった土地を分けた（分割・一部譲渡した）」ことで生じた場合には、通れるのは分けた相手の土地（残余地）だけで、第三者の土地は損害が少なくても通れない、という民法213条のルールです。
+---
+
+公道に接していない土地（袋地）の通行権の分野です。
+
+カギは、袋地が「もともと一筆だった土地を分けた（分割・一部譲渡した）」ことで生じた場合には、通れるのは分けた相手の土地（残余地）だけで、第三者の土地は損害が少なくても通れない、という民法213条のルールです。
 
 ### ア：分割で生じた袋地は、残余地が転売されても残余地を通行できる
 
-一筆の土地を分割・一部譲渡したことで袋地が生じたときは、その袋地の所有者は、他の分割者の所有地（残余地）のみを、償金を支払うことなく通行できます（民法213条）。この通行権は、その後に残余地が第三者に譲渡されても消滅せず、譲受人に対しても行使できるというのが判例の立場です。したがって、甲土地（袋地）を取得したＢは、Ｃに譲渡された乙土地について通行権を主張できます。
+一筆の土地を分割・一部譲渡したことで袋地が生じたときは、その袋地の所有者は、他の分割者の所有地（残余地）のみを、償金を支払うことなく通行できます（民法213条）。
 
-**たとえば**、もともと一つだった土地を二つに分けて、公道に接しない側（甲）を買った人は、公道に接する側（乙）が後で別の人に売られても、その乙を通って公道に出る権利を主張できます。逆に、まったくの他人であるＤの丙土地は、そちらを通った方が近くても通れません。
+この通行権は、その後に残余地が第三者に譲渡されても消滅せず、譲受人に対しても行使できるというのが判例の立場です。したがって、甲土地（袋地）を取得したＢは、Ｃに譲渡された乙土地について通行権を主張できます。
+
+**たとえば**、もともと一つだった土地を二つに分けて、公道に接しない側（甲）を買った人は、公道に接する側（乙）が後で別の人に売られても、その乙を通って公道に出る権利を主張できます。
+
+逆に、まったくの他人であるＤの丙土地は、そちらを通った方が近くても通れません。
 
 ### イ：地上権者も、囲繞地に通路を開設できる
 
-袋地の所有者は、必要があるときは通路を開設して囲繞地を通行できます（民法210条・211条）。そして、この通行権は土地の所有者だけでなく、地上権者にも認められます（民法267条による準用）。したがって、甲土地の地上権者であるＣも、丙土地に通路を開設できます。「地上権者は開設できない」とする点が誤りです。
+袋地の所有者は、必要があるときは通路を開設して囲繞地を通行できます（民法210条・211条）。そして、この通行権は土地の所有者だけでなく、地上権者にも認められます（民法267条による準用）。
+
+したがって、甲土地の地上権者であるＣも、丙土地に通路を開設できます。「地上権者は開設できない」とする点が誤りです。
 
 **たとえば**、袋地の上に建物を建てるために地上権を持っている人も、その土地の所有者と同じように、公道に出るための通路を隣地に作ることができます。
 
 ### ウ：分割で袋地を残した側も、分けた相手の土地を通行できる
 
-一筆の土地を甲・乙に分割し、公道に接する乙をＢに譲渡した結果、手元に残った甲が袋地になった場合、袋地の所有者であるＡは、分割の相手方の土地である乙を通行できます（民法213条2項）。第三者Ｃの丙土地は通れませんが、乙については通行権を主張できるので、「乙について通行権を主張することができない」とする点が誤りです。
+一筆の土地を甲・乙に分割し、公道に接する乙をＢに譲渡した結果、手元に残った甲が袋地になった場合、袋地の所有者であるＡは、分割の相手方の土地である乙を通行できます（民法213条2項）。
+
+第三者Ｃの丙土地は通れませんが、乙については通行権を主張できるので、「乙について通行権を主張することができない」とする点が誤りです。
 
 **たとえば**、土地を二つに分けて公道側（乙）を人に売り、自分は奥の土地（甲）を持ち続けた場合でも、自分は売った相手の乙を通って公道に出る権利があります。
 
 ### エ：袋地の通行権に、所有権の登記は要らない
 
-囲繞地通行権は、袋地の所有者に法律上当然に発生する権利であり、これを主張するのに所有権の移転の登記は必要ありません（判例）。したがって、甲土地を譲り受けたＢは、移転登記を得ていなくても通行権を主張できます。「登記がないから主張できない」とする点が誤りです。
+囲繞地通行権は、袋地の所有者に法律上当然に発生する権利であり、これを主張するのに所有権の移転の登記は必要ありません（判例）。
+
+したがって、甲土地を譲り受けたＢは、移転登記を得ていなくても通行権を主張できます。「登記がないから主張できない」とする点が誤りです。
 
 **たとえば**、袋地を買ったばかりで登記の名義をまだ移していない人でも、「公道に出られないと困る」ので、隣の土地を通る権利はその時点から当然に認められます。
 
 ### オ：競売で袋地が生じた場合も、分割に準じて元の一体地を通行できる
 
-一筆の土地の一部について抵当権が実行され、競売によって袋地が生じた場合も、土地の一部譲渡（分割）に準じて扱われます（判例）。したがって、甲・乙のうち乙が競売でＢに取得され、甲が袋地になったときは、Ａは分割に準じて乙土地を通行できます。第三者Ｃの丙土地は通れませんが、乙については通行権を主張できます。
+一筆の土地の一部について抵当権が実行され、競売によって袋地が生じた場合も、土地の一部譲渡（分割）に準じて扱われます（判例）。
+
+したがって、甲・乙のうち乙が競売でＢに取得され、甲が袋地になったときは、Ａは分割に準じて乙土地を通行できます。第三者Ｃの丙土地は通れませんが、乙については通行権を主張できます。
 
 **たとえば**、自分の土地の一部を担保に入れていて、その部分が競売で他人のものになった結果、残った土地が袋地になってしまった場合でも、もともと一体だった競売地（乙）を通って公道に出る権利が認められます。
+
+---
 
 ### まとめ
 
@@ -109,12 +127,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the kanji 囲・繞・乙 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -203,21 +239,19 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -235,13 +269,13 @@ conditions to get there — an isometric aerial layout of the three land
 plots 甲（袋地）・乙・丙 with a dashed footpath arrow showing the direction
 of travel to the public road, a checkmark/cross mark at the plot the
 reader must judge, small figure icons for the owners, and a registry-
-stamp icon where relevant. Panels 1（肢ア）・3（肢ウ）・5（肢オ）share the same
+stamp icon where relevant. Panels 1（ア）・3（ウ）・5（オ）share the same
 underlying two-diamond decision tree, rooted in a first diamond ("袋地は
 どうやって生じたか：分割・一部譲渡か、競売か、それとも無関係の売買か") and a
 second diamond ("通行できるのはどの土地か：分けた相手の残余地か、第三者の
 土地か"), with the branch relevant to that panel's 肢 highlighted (thicker
 border, distinct color) and the other branches drawn smaller/greyed out.
-Panels 2（肢イ）・4（肢エ）are each resolved by a single check, so draw a
+Panels 2（イ）・4（エ）are each resolved by a single check, so draw a
 labeled illustrative diagram for them instead of forcing a flowchart. Do
 not include case or precedent numbers (article/regulation numbers are
 fine); keep the callout text as written below verbatim.
@@ -249,7 +283,15 @@ fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -273,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 分割で生じた袋地は残余地の転売後も通行可
@@ -294,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 転売後も乙を通行可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 通行権の主体は所有者に限られない
@@ -311,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地上権者も通路OK
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 袋地を残した側も分けた相手の土地を通行できる
@@ -331,7 +373,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 残した側も通行できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 通行権の主張に登記はいらない
@@ -346,7 +388,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記なしで主張可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 競売で生じた袋地も分割に準じて扱う
@@ -371,11 +413,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法210条・211条・213条・267条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 囲・繞・乙・丙・譲・渡 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that Panels 1・3・5 visibly share the same
 two-diamond tree shape with different branches highlighted while Panels

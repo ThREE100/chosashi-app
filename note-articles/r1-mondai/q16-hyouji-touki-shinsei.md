@@ -2,51 +2,79 @@
 
 **出題年度：令和元年度　午後の部　第16問**
 
-> 不動産の表示に関する登記の申請に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　地目が雑種地として登記されている土地の上に建物を新築して宅地になった後に当該土地の所有権の登記名義人となった者は、その者に係る所有権の登記があった日から1月以内に、当該土地の地目に関する変更の登記を申請する義務を負う。
->
-> イ　所有者がＡである不動産について、表題部所有者が誤ってＢと記録されている場合には、表題部所有者をＡに更正する表題部所有者の更正の登記は、Ａ及びＢが共同して申請しなければならない。
->
-> ウ　表題登記がない区分建物でない建物の所有者であるＡが死亡し、Ａの相続人であるＢが単独で当該建物を相続した場合において、表題登記が未了のままＢが死亡し、Ｂの相続人であるＣが単独で当該建物を相続したときは、Ｃは、所有者として当該建物の表題登記を申請する義務を負う。
->
-> エ　敷地となっている土地の分筆の登記により区分建物でない建物が所在する土地の地番に変更が生じた場合には、当該建物の所有権の登記名義人は、当該建物の所在に関する変更の登記を申請する義務を負う。
->
-> オ　行政区画の変更により建物の所在に変更が生じた場合には、当該建物の所有権の登記名義人は、当該建物の所在に関する変更の登記を申請する義務を負う。
->
+> 不動産の表示に関する登記の申請に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　地目が雑種地として登記されている土地の上に建物を新築して宅地になった後に当該土地の所有権の登記名義人となった者は、その者に係る所有権の登記があった日から1月以内に、当該土地の地目に関する変更の登記を申請する義務を負う。  
+>　  
+> イ　所有者がＡである不動産について、表題部所有者が誤ってＢと記録されている場合には、表題部所有者をＡに更正する表題部所有者の更正の登記は、Ａ及びＢが共同して申請しなければならない。  
+>　  
+> ウ　表題登記がない区分建物でない建物の所有者であるＡが死亡し、Ａの相続人であるＢが単独で当該建物を相続した場合において、表題登記が未了のままＢが死亡し、Ｂの相続人であるＣが単独で当該建物を相続したときは、Ｃは、所有者として当該建物の表題登記を申請する義務を負う。  
+>　  
+> エ　敷地となっている土地の分筆の登記により区分建物でない建物が所在する土地の地番に変更が生じた場合には、当該建物の所有権の登記名義人は、当該建物の所在に関する変更の登記を申請する義務を負う。  
+>　  
+> オ　行政区画の変更により建物の所在に変更が生じた場合には、当該建物の所有権の登記名義人は、当該建物の所在に関する変更の登記を申請する義務を負う。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
-表示に関する登記は「誰が」「いつまでに」申請する義務を負うのかがルール化されています。この問題は、申請義務が「ある」場面と「そもそも義務がない・職権で処理される」場面を正確に切り分けられるかが問われています。設問が「誤っているものの組合せ」を問う形式である点にも注意しましょう。
+---
+
+表示に関する登記は「誰が」「いつまでに」申請する義務を負うのかがルール化されています。
+
+この問題は、申請義務が「ある」場面と「そもそも義務がない・職権で処理される」場面を正確に切り分けられるかが問われています。設問が「誤っているものの組合せ」を問う形式である点にも注意しましょう。
 
 ### ア：地目変更を放置して所有者が代わったら、新所有者が1月以内に申請義務を負う
 
-地目や地積が変更しているにもかかわらず、その変更の登記を申請しないまま所有権が移転した場合、新しい所有者は、自分が所有権の移転の登記を受けて登記名義を取得した日から1月以内に、その変更の登記を申請する義務を負います（不登法37条2項）。本肢は「所有権の登記があった日から1月以内」に地目変更登記を申請する義務を負うとしており、正しい記述です。
+地目や地積が変更しているにもかかわらず、その変更の登記を申請しないまま所有権が移転した場合、新しい所有者は、自分が所有権の移転の登記を受けて登記名義を取得した日から1月以内に、その変更の登記を申請する義務を負います（不登法37条2項）。
 
-**たとえば**、もともと雑種地だった土地の上に建物が建って宅地になったのに、前の所有者が地目変更の登記をしないまま土地を売ってしまったとします。買って新たに所有権登記を受けた人は、「自分が登記名義人になった日」から1月以内に、地目を宅地に直す変更登記をしなければならない、ということです。
+本肢は「所有権の登記があった日から1月以内」に地目変更登記を申請する義務を負うとしており、正しい記述です。
+
+**たとえば**、もともと雑種地だった土地の上に建物が建って宅地になったのに、前の所有者が地目変更の登記をしないまま土地を売ってしまったとします。
+
+買って新たに所有権登記を受けた人は、「自分が登記名義人になった日」から1月以内に、地目を宅地に直す変更登記をしなければならない、ということです。
 
 ### イ：表題部所有者の更正登記は、Ｂの承諾があればＡが単独で申請できる
 
-表題部所有者が誤ってBと記録されているが真の所有者がAである場合、表題部所有者をAに更正する登記は、Aのみが申請することができ、誤って記録されているBの側から申請することはできません（不登法33条1項）。ただし、この更正の登記をAが申請するには、表題部所有者として記録されているBの承諾が必要です（同条2項）。つまり、申請人としてはAの単独申請であり、AとBが共同して申請人になるものではありません。したがって「Ａ及びＢが共同して申請しなければならない」とする本肢は誤りです。
+表題部所有者が誤ってBと記録されているが真の所有者がAである場合、表題部所有者をAに更正する登記は、Aのみが申請することができ、誤って記録されているBの側から申請することはできません（不登法33条1項）。
 
-**たとえば**、本当はAさんの建物なのに、手違いで表題部所有者がBさんと登記されてしまったとします。これを直すには、名前を誤って載せられているBさんの承諾を得たうえで、真の所有者であるAさんが一人で申請します。Bさんと二人そろって共同で申請しなければならない、というわけではありません。
+ただし、この更正の登記をAが申請するには、表題部所有者として記録されているBの承諾が必要です（同条2項）。
+
+つまり、申請人としてはAの単独申請であり、AとBが共同して申請人になるものではありません。したがって「Ａ及びＢが共同して申請しなければならない」とする本肢は誤りです。
+
+**たとえば**、本当はAさんの建物なのに、手違いで表題部所有者がBさんと登記されてしまったとします。
+
+これを直すには、名前を誤って載せられているBさんの承諾を得たうえで、真の所有者であるAさんが一人で申請します。Bさんと二人そろって共同で申請しなければならない、というわけではありません。
 
 ### ウ：相続を重ねても、表題登記の申請義務は最終の相続人に承継される
 
-表題登記がない区分建物でない建物について、その所有権を新築・相続その他の一般承継・売買などで取得した者は、所有権を取得した日から1月以内に建物の表題登記を申請しなければなりません（不登法47条1項）。この申請義務は相続によって承継されるため、所有者Aが死亡してBが単独相続し、表題登記が未了のままBも死亡してCが単独相続したときは、最終の相続人であるCが、所有者として当該建物の表題登記を申請する義務を負います。本肢は正しい記述です。
+表題登記がない区分建物でない建物について、その所有権を新築・相続その他の一般承継・売買などで取得した者は、所有権を取得した日から1月以内に建物の表題登記を申請しなければなりません（不登法47条1項）。
 
-**たとえば**、表題登記もされていない古い建物を持っていたおじいさんが亡くなり、その子が相続したものの登記をしないうちに亡くなり、さらに孫が相続した、という場合です。この孫が最終的に「自分が所有者です」として、建物の表題登記を申請する義務を引き継ぐ、ということになります。
+この申請義務は相続によって承継されるため、所有者Aが死亡してBが単独相続し、表題登記が未了のままBも死亡してCが単独相続したときは、最終の相続人であるCが、所有者として当該建物の表題登記を申請する義務を負います。本肢は正しい記述です。
+
+**たとえば**、表題登記もされていない古い建物を持っていたおじいさんが亡くなり、その子が相続したものの登記をしないうちに亡くなり、さらに孫が相続した、という場合です。
+
+この孫が最終的に「自分が所有者です」として、建物の表題登記を申請する義務を引き継ぐ、ということになります。
 
 ### エ：分筆で建物の所在地番が変われば、所有権登記名義人が変更登記の申請義務を負う
 
-敷地となっている土地の分筆の登記によって、区分建物でない建物が所在する土地の地番に変更が生じた場合、建物の表題部の登記事項である「所在」に変更が生じます。表題部所有者または所有権の登記名義人は、表題部の登記事項に変更があったときは変更があった日から1月以内に変更の登記を申請しなければならないため（不登法51条1項）、建物の所有権の登記名義人は、当該建物の所在に関する変更の登記を申請する義務を負います。本肢は正しい記述です。
+敷地となっている土地の分筆の登記によって、区分建物でない建物が所在する土地の地番に変更が生じた場合、建物の表題部の登記事項である「所在」に変更が生じます。
+
+表題部所有者または所有権の登記名義人は、表題部の登記事項に変更があったときは変更があった日から1月以内に変更の登記を申請しなければならないため（不登法51条1項）、建物の所有権の登記名義人は、当該建物の所在に関する変更の登記を申請する義務を負います。
+
+本肢は正しい記述です。
 
 **たとえば**、建物が建っている土地を分筆したことで、その建物の所在を示す地番が「○番」から「○番1」に変わったとします。建物の登記に記録された所在がずれてしまうので、所有権登記名義人は所在の変更登記を申請しなければならない、というわけです。
 
 ### オ：行政区画の変更による所在変更は、職権で処理され申請義務がない
 
-行政区画またはその名称の変更があったことにより建物の所在が変更することもありますが、これは影響が広範囲に及ぶため、登記記録には行政区画またはその名称の変更の登記があったものとみなされる扱いになっています（不登規則92条）。したがって、所有権の登記名義人が個別に変更登記を申請する義務を負うわけではありません。本肢は「申請する義務を負う」としている点が誤りです。
+行政区画またはその名称の変更があったことにより建物の所在が変更することもありますが、これは影響が広範囲に及ぶため、登記記録には行政区画またはその名称の変更の登記があったものとみなされる扱いになっています（不登規則92条）。
 
-**たとえば**、市町村合併などで町名が変わったために、たくさんの建物の所在の表示が一斉に変わることがあります。これを一件ずつ所有者に申請させるのは大変なので、変更の登記があったものとみなして処理する仕組みになっており、所有者に申請義務は生じないのです。
+したがって、所有権の登記名義人が個別に変更登記を申請する義務を負うわけではありません。本肢は「申請する義務を負う」としている点が誤りです。
+
+**たとえば**、市町村合併などで町名が変わったために、たくさんの建物の所在の表示が一斉に変わることがあります。
+
+これを一件ずつ所有者に申請させるのは大変なので、変更の登記があったものとみなして処理する仕組みになっており、所有者に申請義務は生じないのです。
+
+---
 
 ### まとめ
 
@@ -67,10 +95,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ア（不登法37条2項）、イ（不登法33条1項・2項）、ウ（不登法47条1項・51条1項）、オ（不登規則92条）は、いずれもローカル法令データベースで条文どおりに確認できたものです。イについては、2026年8月の再検証で不登法33条2項（更正の登記を申請する所有者は、表題部所有者の承諾があるときでなければ申請できない）まで条文を確認し、「Ａが単独で申請できるが、Ｂの承諾が必要」という点を本文に明記しました。エ（分筆による建物の所在変更が不登法51条1項の表題部の変更登記にあたること）は、変更登記の一般原則からの説明を含みます。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（不動産の表示に関する登記の申請義務）と同一・類似の問題が再出題されていないかを確認しました。候補として挙がったのは令和5年度第4問（不動産の表示に関する登記の申請があった場合の登記官による調査。実地調査の可否・時間帯、申請人の権限調査、登記所職員による代行等がテーマ）のみでしたが、これは登記官の調査権限に関する論点であり、本問が扱う「誰が」「いつまでに」申請義務を負うかという論点とは異なります。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：本文中の引用条文（ア＝不登法37条2項、イ＝不登法33条1項・2項、ウ＝不登法47条1項、エ＝不登法51条1項、オ＝不登規則92条）についてWebSearchで再確認しましたが、令和元年の出題当時から条文番号・条文内容ともに変更は見つかりませんでした。相続登記の申請義務化（令和6年4月1日施行、不登法76条の2〜）は権利部（甲区）の相続登記に関する制度であり、本問が扱う表題部の登記義務とは別制度のため無関係であることも確認しました。
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベース（不登法33条）を条文レベルで突き合わせた結果、肢イの解説が不登法33条2項（Ａが申請するにはＢの承諾が必要）に触れていなかったため、本文・まとめ・見出し画像用フレーズ・インフォグラフィックの該当箇所に「Ｂの承諾があればＡが単独申請できる」という条文どおりの説明を補い、修正しました。それ以外の項目（正解の再確認、表形式の不使用、判例・先例番号の記載禁止順守、文体統一、タイトル文字数、重複出題・最新法令チェックの記載）はいずれも問題なく、修正の必要はありませんでした。正誤判定・正解の組合せに変更はありません（肢イは修正後も引き続き誤りです）。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベース（不登法33条）を条文レベルで突き合わせた結果、イの解説が不登法33条2項（Ａが申請するにはＢの承諾が必要）に触れていなかったため、本文・まとめ・見出し画像用フレーズ・インフォグラフィックの該当箇所に「Ｂの承諾があればＡが単独申請できる」という条文どおりの説明を補い、修正しました。それ以外の項目（正解の再確認、表形式の不使用、判例・先例番号の記載禁止順守、文体統一、タイトル文字数、重複出題・最新法令チェックの記載）はいずれも問題なく、修正の必要はありませんでした。正誤判定・正解の組合せに変更はありません（イは修正後も引き続き誤りです）。
 
 ---
 
@@ -110,12 +138,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・登・記・所・権・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -192,26 +238,26 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア〜オの5肢について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば
-正誤にたどり着けるかを示す作図ガイド。肢アはタイムライン型（起算日から1月のカウント
-ダウン）、肢イは決定木型（Bの承諾の有無で「単独申請できる／できない」に分岐）、肢ウは
-相続の系統図型（世代を縦に並べ、義務が孫Cへ承継される様子を示す）、肢エは配置図型、
-肢オはエと対比する対比枠型（個別の変更か広範囲の一斉変更かを見分ける）で構成した。
+正誤にたどり着けるかを示す作図ガイド。アはタイムライン型（起算日から1月のカウント
+ダウン）、イは決定木型（Bの承諾の有無で「単独申請できる／できない」に分岐）、ウは
+相続の系統図型（世代を縦に並べ、義務が孫Cへ承継される様子を示す）、エは配置図型、
+オはエと対比する対比枠型（個別の変更か広範囲の一斉変更かを見分ける）で構成した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -257,7 +303,15 @@ checks if the source article treats them as two distinct requirements).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -283,7 +337,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -304,7 +358,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記の日から1月以内
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -330,7 +384,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 A単独＋B承諾で申請
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -352,7 +406,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 義務はCに承継
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -371,7 +425,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1月以内に変更登記
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -397,9 +451,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 不登法37条2項・33条1項2項・47条1項・51条1項、不動産登記規則92条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 地・番・登・記・所・権・相・続・承・諾・義・務・職. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 地・番・登・記・所・権・相・続・承・諾・義・務・職. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every

@@ -2,51 +2,77 @@
 
 **出題年度：令和3年度　午後の部　第10問**
 
-> 地目に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　山林の急傾斜地に土砂崩れや地滑り防止のための擁壁が構築されているときは、当該擁壁が占める土地の地目は、堤である。
->
-> イ　耕地かんがい用の用水貯留池にえん堤が設けられているときは、当該えん堤が存する土地の地目は、ため池である。
->
-> ウ　主に動物の遺骸又は遺骨を埋める土地の地目は、墓地である。
->
-> エ　宗教法人の宗教上の儀式行事に利用されている聖堂が存する土地の地目は、境内地である。
->
-> オ　山林を整地した一筆の土地上にマンションを建築する予定があるが、当該建築工事の着工前である場合において、当該土地上に当該建築工事のための仮設事務所が設置されているときは、当該土地の地目は、宅地である。
->
+> 地目に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　山林の急傾斜地に土砂崩れや地滑り防止のための擁壁が構築されているときは、当該擁壁が占める土地の地目は、堤である。  
+>　  
+> イ　耕地かんがい用の用水貯留池にえん堤が設けられているときは、当該えん堤が存する土地の地目は、ため池である。  
+>　  
+> ウ　主に動物の遺骸又は遺骨を埋める土地の地目は、墓地である。  
+>　  
+> エ　宗教法人の宗教上の儀式行事に利用されている聖堂が存する土地の地目は、境内地である。  
+>　  
+> オ　山林を整地した一筆の土地上にマンションを建築する予定があるが、当該建築工事の着工前である場合において、当該土地上に当該建築工事のための仮設事務所が設置されているときは、当該土地の地目は、宅地である。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-地目の分野は、不動産登記事務取扱準則68条に定められた23種類の地目の定義を、具体的な事実関係に当てはめて正しく認定できるかが問われます。定義そのものだけでなく、「どこにも当てはまらないものは雑種地になる」という感覚と、過去の先例（登記研究・通達）で結論が固められている論点を知っているかが勝負を分けます。
+---
+
+地目の分野は、不動産登記事務取扱準則68条に定められた23種類の地目の定義を、具体的な事実関係に当てはめて正しく認定できるかが問われます。
+
+定義そのものだけでなく、「どこにも当てはまらないものは雑種地になる」という感覚と、過去の先例（登記研究・通達）で結論が固められている論点を知っているかが勝負を分けます。
 
 ### ア：急傾斜地の防災用擁壁が占める土地は、「堤」ではなく「雑種地」
 
-「堤」は、防水のために築造した堤防を指す地目です。これに対し、山林の急傾斜地に土砂崩れや地滑りを防止するために構築された擁壁が占める土地は、この「堤」にはあたらず、地目は「雑種地」とすべきとされています。水害を防ぐための堤防ではなく、あくまで斜面の崩壊を防ぐための構造物だからです。
+「堤」は、防水のために築造した堤防を指す地目です。これに対し、山林の急傾斜地に土砂崩れや地滑りを防止するために構築された擁壁が占める土地は、この「堤」にはあたらず、地目は「雑種地」とすべきとされています。
 
-**たとえば**、山を削って造成した宅地の裏手に、崖崩れを防ぐためのコンクリート擁壁が立っているとします。この擁壁が乗っている細長い土地は、見た目は「堤防」のようでも、防水のために築造した堤防ではないので「堤」にはならず、どの地目にも当てはまらない「雑種地」として登記されることになります。
+水害を防ぐための堤防ではなく、あくまで斜面の崩壊を防ぐための構造物だからです。
+
+**たとえば**、山を削って造成した宅地の裏手に、崖崩れを防ぐためのコンクリート擁壁が立っているとします。
+
+この擁壁が乗っている細長い土地は、見た目は「堤防」のようでも、防水のために築造した堤防ではないので「堤」にはならず、どの地目にも当てはまらない「雑種地」として登記されることになります。
 
 ### イ：ため池のえん堤も、ため池の一部として「ため池」
 
-耕地かんがい用の用水を貯留する池の地目は「ため池」とされています（準則68条17号）。そして、かんがい用のため池には、水を貯めたり供給したりするための排水口やえん堤（水をせき止める堤）が通常設けられていますが、これらの設備はため池の一部を構成するものとして、まとめて「ため池」として取り扱われます。えん堤の部分だけを「堤」として切り離して認定するわけではありません。
+耕地かんがい用の用水を貯留する池の地目は「ため池」とされています（準則68条17号）。
 
-**たとえば**、田んぼに水を引くための農業用のため池があり、その端に水をせき止めるための小さな堤が築かれているとします。この堤は池と一体でかんがいの役目を果たしているので、堤の部分だけ別の地目にはせず、池全体をひっくるめて「ため池」として登記します。
+そして、かんがい用のため池には、水を貯めたり供給したりするための排水口やえん堤（水をせき止める堤）が通常設けられていますが、これらの設備はため池の一部を構成するものとして、まとめて「ため池」として取り扱われます。
+
+えん堤の部分だけを「堤」として切り離して認定するわけではありません。
+
+**たとえば**、田んぼに水を引くための農業用のため池があり、その端に水をせき止めるための小さな堤が築かれているとします。
+
+この堤は池と一体でかんがいの役目を果たしているので、堤の部分だけ別の地目にはせず、池全体をひっくるめて「ため池」として登記します。
 
 ### ウ：動物の遺骸を埋める土地は「墓地」ではなく「雑種地」
 
-「墓地」とは、人の遺体または遺骨を埋葬する土地の地目です（準則68条12号）。ここでいう墓地は、あくまで「人」を埋葬する土地に限られます。したがって、主に動物の遺骸や遺骨を埋める土地は「墓地」には含まれず、地目は「雑種地」となります。ペット霊園のような土地を安易に「墓地」と考えてしまうのが落とし穴です。
+「墓地」とは、人の遺体または遺骨を埋葬する土地の地目です（準則68条12号）。ここでいう墓地は、あくまで「人」を埋葬する土地に限られます。
+
+したがって、主に動物の遺骸や遺骨を埋める土地は「墓地」には含まれず、地目は「雑種地」となります。ペット霊園のような土地を安易に「墓地」と考えてしまうのが落とし穴です。
 
 **たとえば**、亡くなった犬や猫を埋葬するためのペット専用の霊園があったとしても、そこは人を埋葬する土地ではないので「墓地」とは認定されません。ほかのどの地目の定義にも当てはまらないため、「雑種地」として扱われることになります。
 
 ### エ：宗教法人の聖堂が存する土地は「境内地」
 
-「境内地」は、境内に属する土地で、宗教法人法3条2号および3号に掲げる土地（宗教法人の所有に属しないものを含む）の地目です（準則68条13号）。宗教法人の宗教上の儀式や行事に利用されている聖堂が建っている土地は、まさにこの宗教活動のために使われている建物の敷地にあたるため、地目は「境内地」となります。
+「境内地」は、境内に属する土地で、宗教法人法3条2号および3号に掲げる土地（宗教法人の所有に属しないものを含む）の地目です（準則68条13号）。
+
+宗教法人の宗教上の儀式や行事に利用されている聖堂が建っている土地は、まさにこの宗教活動のために使われている建物の敷地にあたるため、地目は「境内地」となります。
 
 **たとえば**、あるお寺が礼拝や法要のために使っている本堂が建っている土地は、その宗教法人が宗教活動を営むために使っている土地なので、「宅地」ではなく「境内地」として登記されます。
 
 ### オ：着工前で仮設事務所があるだけの段階では、まだ「宅地」にできない
 
-「宅地」は、建物の敷地およびその維持・効用を果たすために必要な土地の地目です。建物の建築工事が始まっていない場合でも、近い将来その土地が建物の敷地に供されることが確実に見込まれるときは、宅地への地目変更登記をしてもよいとされています。もっとも「確実に見込まれるとき」とは、建物の基礎工事が完了しているとき、建築確認や開発許可・都市計画法上の許可がされているときなど、限定された場合をいいます。本肢は着工前でこれらのいずれにも該当せず、しかも仮設事務所は建物として取り扱うことができないため、まだ「宅地」とは認定されません。
+「宅地」は、建物の敷地およびその維持・効用を果たすために必要な土地の地目です。建物の建築工事が始まっていない場合でも、近い将来その土地が建物の敷地に供されることが確実に見込まれるときは、宅地への地目変更登記をしてもよいとされています。
 
-**たとえば**、山林を整地してマンションを建てる計画があっても、まだ工事に着手しておらず、現場に工事用のプレハブの仮設事務所が置いてあるだけの段階だとします。基礎工事も済んでおらず建築確認も受けていないなら、その土地はまだ「宅地」にはできず、現況に応じた地目のままということになります。
+もっとも「確実に見込まれるとき」とは、建物の基礎工事が完了しているとき、建築確認や開発許可・都市計画法上の許可がされているときなど、限定された場合をいいます。
+
+本肢は着工前でこれらのいずれにも該当せず、しかも仮設事務所は建物として取り扱うことができないため、まだ「宅地」とは認定されません。
+
+**たとえば**、山林を整地してマンションを建てる計画があっても、まだ工事に着手しておらず、現場に工事用のプレハブの仮設事務所が置いてあるだけの段階だとします。
+
+基礎工事も済んでおらず建築確認も受けていないなら、その土地はまだ「宅地」にはできず、現況に応じた地目のままということになります。
+
+---
 
 ### まとめ
 
@@ -108,12 +134,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・地・建・物・登・記, which have Simplified Chinese variants that
+kanji 地・建・物, which have Simplified Chinese variants that
 differ in stroke shape — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -189,9 +233,9 @@ Conclusion tag (blue, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-号・地・建・物・登・記. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially for
+地・建・物. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 number of cards equals 5 exactly, with no duplicated or missing cards,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence
@@ -202,12 +246,12 @@ appear once and verbatim as written above:
 2. 動物埋葬は雑種地
 3. 宅地変更はまだ不可
 4. 一体でため池
-5. 境内地に認定
+5. 境内地に認定. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア・ウは「対象がその地目の定義（防水目的の堤防／人の遺骸・遺骨）に厳密に当てはまるか」を確認したうえで、当てはまらない場合は「他のどの地目の定義にも当てはまらないため雑種地」という残余区分の確認へ進む、同じ2段階の決定木構造を共有する。オは「建物の建築工事が完了しているか」「例外的に宅地化が確実に見込まれる要件を満たすか」を順に確認し、仮設事務所は建物として扱えないため要件を満たさないことを示す3要素構成の決定木とした。イは「えん堤だけを切り離して堤とする誤った考え方」と「ため池全体を一体として認定する正しい考え方」を対比させる正誤対比型、エは1回の確認で完結するため配置図型（決定木を無理に作らない）とした。
 
@@ -233,8 +277,8 @@ sequence before reaching a conclusion, draw the panel's diagram as an
 actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
 node. Where a 肢 is resolved by a single check, a labeled illustrative
-diagram is sufficient — do not force a flowchart. Panels 1 (肢ア) and 3
-(肢ウ) share the same second decision-tree stage — a diamond node labeled
+diagram is sufficient — do not force a flowchart. Panels 1 (ア) and 3
+(ウ) share the same second decision-tree stage — a diamond node labeled
 「他のいずれかの地目の定義に当てはまるか？」that leads to a 「雑種地」
 conclusion on its No branch — draw this second diamond with the same
 wording, shape, and position in both panels so the shared residual-category
@@ -256,7 +300,15 @@ or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -282,7 +334,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in beige containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -306,7 +358,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 堤ではなく雑種地
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 えん堤は独立した堤でなくため池の一部
@@ -326,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一体でため池
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in beige containing the number 3.
 Heading (bold, ONE line):
 墓地の定義は人の遺骸・遺骨に限られる
@@ -350,7 +402,7 @@ Conclusion tag (a short colored banner/pill, beige, 5-15 Japanese
 characters):
 動物埋葬は雑種地
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 宗教儀式に使う聖堂の敷地は境内地
@@ -367,7 +419,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 境内地に認定
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 着工前は例外要件がなければ宅地にできない
@@ -399,9 +451,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 根拠：不動産登記事務取扱準則68条12号（墓地）・13号（境内地）・17号（ため池）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・地・建・物・登・記・墓・境・聖・堤. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・地・建・物・登・記・墓・境・聖・堤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢

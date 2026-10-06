@@ -2,19 +2,21 @@
 
 **出題年度：令和4年度　午後の部　第17問**
 
-> 区分建物の登記の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　いずれも表題登記がある区分建物でない甲建物及び乙建物が増築工事により相互に接続して区分建物となった場合における甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない。
->
-> イ　区分建物の所有権の登記名義人Aが当該区分建物について当該区分建物が属する一棟の建物の床面積の変更の登記を申請する場合には、併せて当該一棟の建物に属する他の区分建物についての一棟の建物の床面積の変更の登記を申請しなければならない。
->
-> ウ　区分建物が属する一棟の建物が新築された場合において、当該区分建物が敷地権付き区分建物でないときは、当該区分建物の表題登記の申請は、当該一棟の建物に属する他の区分建物についての表題登記の申請と併せてすることを要しない。
->
-> エ　表題登記がある区分建物でない建物に接続して区分建物が新築された場合には、当該区分建物についての表題登記の申請は、当該区分建物でない建物についての表題部の変更の登記の申請と併せてしなければならない。
->
-> オ　区分建物をAが新築した後にAが死亡した場合には、Aの唯一の相続人であるBは、当該区分建物を相続した日から1か月以内に、当該区分建物についての表題登記を申請しなければならない。
->
+> 区分建物の登記の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　いずれも表題登記がある区分建物でない甲建物及び乙建物が増築工事により相互に接続して区分建物となった場合における甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない。  
+>　  
+> イ　区分建物の所有権の登記名義人Aが当該区分建物について当該区分建物が属する一棟の建物の床面積の変更の登記を申請する場合には、併せて当該一棟の建物に属する他の区分建物についての一棟の建物の床面積の変更の登記を申請しなければならない。  
+>　  
+> ウ　区分建物が属する一棟の建物が新築された場合において、当該区分建物が敷地権付き区分建物でないときは、当該区分建物の表題登記の申請は、当該一棟の建物に属する他の区分建物についての表題登記の申請と併せてすることを要しない。  
+>　  
+> エ　表題登記がある区分建物でない建物に接続して区分建物が新築された場合には、当該区分建物についての表題登記の申請は、当該区分建物でない建物についての表題部の変更の登記の申請と併せてしなければならない。  
+>　  
+> オ　区分建物をAが新築した後にAが死亡した場合には、Aの唯一の相続人であるBは、当該区分建物を相続した日から1か月以内に、当該区分建物についての表題登記を申請しなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+---
 
 区分建物（マンションの一室など）の登記は、一棟の建物と専有部分が密接に関わるため、「一括して申請しなければならない」場面が多いのが特徴です。どこまでが一括申請の対象で、誰に申請義務があるのかを整理しましょう。
 
@@ -26,13 +28,19 @@
 
 ### イ：一棟の床面積変更は一人が申請すれば、他は職権で変更される
 
-各専有部分についての変更は、それぞれの専有部分の所有者に申請義務がありますが、一棟の建物の変更は、その一棟に属する専有部分の所有者全員に申請義務があります。もっとも、専有部分の所有者の一人が一棟の建物の変更をした場合、他の専有部分の登記記録にある一棟の建物の表示も、登記官の職権で変更されます（不動産登記法51条6項）。よって、他の区分建物についての一棟の床面積変更登記を「併せて申請しなければならない」わけではありません。本肢は誤りです。
+各専有部分についての変更は、それぞれの専有部分の所有者に申請義務がありますが、一棟の建物の変更は、その一棟に属する専有部分の所有者全員に申請義務があります。
+
+もっとも、専有部分の所有者の一人が一棟の建物の変更をした場合、他の専有部分の登記記録にある一棟の建物の表示も、登記官の職権で変更されます（不動産登記法51条6項）。
+
+よって、他の区分建物についての一棟の床面積変更登記を「併せて申請しなければならない」わけではありません。本肢は誤りです。
 
 **たとえば**、マンションの一室の所有者Aさんが、一棟全体の床面積の変更登記を申請すれば、他の部屋の登記記録に載っている一棟の建物の表示は、登記官が職権で直してくれます。他の所有者の分まで自分で申請する必要はありません。
 
 ### ウ：敷地権のない区分建物でも、一棟の全部を一括して申請する
 
-建物を新築したときは表題登記を申請しなければならず（不動産登記法47条1項）、区分建物として登記する場合は、一棟の建物に属する全部の区分建物の表題部を一括して申請しなければなりません（法48条1項）。これは敷地権のない区分建物であっても同様です。本肢は「併せてすることを要しない」としており誤りです。
+建物を新築したときは表題登記を申請しなければならず（不動産登記法47条1項）、区分建物として登記する場合は、一棟の建物に属する全部の区分建物の表題部を一括して申請しなければなりません（法48条1項）。
+
+これは敷地権のない区分建物であっても同様です。本肢は「併せてすることを要しない」としており誤りです。
 
 **たとえば**、敷地権の設定がないマンションを新築した場合でも、その一棟の全部の部屋（区分建物）の表題登記を、バラバラにではなく一括して申請する必要があります。
 
@@ -44,9 +52,15 @@
 
 ### オ：区分建物の表題登記は、相続人が「Aを表題部所有者として」申請する
 
-区分建物を新築した場合、その表題登記の申請義務は新築した所有者（原始取得者）だけに課されています。相続人その他の一般承継人には、被承継人（原始取得者A）を表題部所有者とする表題登記を申請することができる、という規定が置かれています（不動産登記法47条2項）。相続人B自身が表題部所有者になるわけでも、「相続した日から1か月以内」に義務を負うわけでもないため、本肢は誤りです。
+区分建物を新築した場合、その表題登記の申請義務は新築した所有者（原始取得者）だけに課されています。
+
+相続人その他の一般承継人には、被承継人（原始取得者A）を表題部所有者とする表題登記を申請することができる、という規定が置かれています（不動産登記法47条2項）。
+
+相続人B自身が表題部所有者になるわけでも、「相続した日から1か月以内」に義務を負うわけでもないため、本肢は誤りです。
 
 **たとえば**、Aさんがマンションの一室（区分建物）を新築した後に亡くなった場合、唯一の相続人Bさんは、亡きAさんを表題部所有者とする表題登記を申請することができます。B自身を表題部所有者とするのではありません。
+
+---
 
 ### まとめ
 
@@ -68,7 +82,7 @@
 - 出題年度・問題番号・正解番号（2番＝ア・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝法52条3項、イ＝法51条6項、ウ＝法47条1項・48条1項、エ＝法48条3項、オ＝法47条2項）は、データベースのexplanationフィールドに記載のものを転記しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- **重複出題チェック（2026-08-16実施）**：`note-articles/`配下の他年度記事を検索したところ、本問5肢のうち3肢について、他年度の記事と同一・類似の論点が見つかりました。肢ア（法52条3項、非区分建物同士が接続して区分建物になった場合の一括変更登記）は、平成29年度第17問ウ「いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には、甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない」とほぼ一言一句同じ記述・結論です（`h29-mondai/q17-kubun-tatemono.md`の確認事項ブロックにも同旨の指摘あり）。肢イ（法51条6項、一棟の表題部変更登記は専有部分所有者の一人が申請すれば足り、他の登記記録は職権で変更される）は、令和元年度第18問イ（同法53条2項が準用する51条5項・6項、更正の登記の場面）および令和6年度第18問オ（乙区分建物の所有権登記名義人は一棟の床面積変更登記の申請を要しない）と同一の論点です（`r1-mondai/q18-kubun-tatemono.md`の確認事項ブロックにも同旨の指摘あり）。肢オ（法47条2項、相続人は被相続人を表題部所有者として区分建物の表題登記を申請できる）は、平成25年度第15問ア「区分建物である建物を新築した場合において、その所有者について相続があったときは、相続人は、被相続人を表題部所有者とする当該建物についての表題登記を申請することができる」と同一の論点です。肢ウ・エについては、他年度記事との具体的な重複は確認できませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-08-16実施）**：`note-articles/`配下の他年度記事を検索したところ、本問5肢のうち3肢について、他年度の記事と同一・類似の論点が見つかりました。ア（法52条3項、非区分建物同士が接続して区分建物になった場合の一括変更登記）は、平成29年度第17問ウ「いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には、甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない」とほぼ一言一句同じ記述・結論です（`h29-mondai/q17-kubun-tatemono.md`の確認事項ブロックにも同旨の指摘あり）。イ（法51条6項、一棟の表題部変更登記は専有部分所有者の一人が申請すれば足り、他の登記記録は職権で変更される）は、令和元年度第18問イ（同法53条2項が準用する51条5項・6項、更正の登記の場面）および令和6年度第18問オ（乙区分建物の所有権登記名義人は一棟の床面積変更登記の申請を要しない）と同一の論点です（`r1-mondai/q18-kubun-tatemono.md`の確認事項ブロックにも同旨の指摘あり）。オ（法47条2項、相続人は被相続人を表題部所有者として区分建物の表題登記を申請できる）は、平成25年度第15問ア「区分建物である建物を新築した場合において、その所有者について相続があったときは、相続人は、被相続人を表題部所有者とする当該建物についての表題登記を申請することができる」と同一の論点です。ウ・エについては、他年度記事との具体的な重複は確認できませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -109,12 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・権・地・所・続・相 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -195,16 +227,16 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建・物・登・記・権・地・所・続・相. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no
 duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -240,12 +272,19 @@ node to one short sentence, not a paragraph.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
-special attention to the kanji 建・物・登・記・権・地・所・続・併・職・
-継・築・相, which have Simplified Chinese look-alike forms with visibly
+special attention to the kanji 建・物・登・記・権・所・続・職・継・築・相, which have Simplified Chinese look-alike forms with visibly
 different stroke shapes — always draw the standard Japanese (Jōyō) form
 of these characters.
 
@@ -344,9 +383,9 @@ Small credit text (2行):
 レーンにまたがることもある
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 建・物・登・記・権・地・所・続・併・職・継・築・相. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 建・物・登・記・権・所・続・職・継・築・相. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm every node label matches the
 Japanese text given above verbatim, with no paraphrasing and no
 substituted characters, confirm that no node mentions "甲建物" "乙建物"
@@ -355,12 +394,12 @@ as a general-purpose procedure), confirm the four lanes (①〜④) are
 clearly color-coded and visually separated with their pill-badge headers
 at the top of each lane, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
-channel anywhere.
+channel anywhere. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node).
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（甲建物・乙建物の位置関係、一棟の建物と専有部分の関係、相続人と原始取得者の関係など）と、正誤にたどり着くまでの確認順序を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、④間違いノート型と同じ運用（文章での説明・着眼点の記述を許容）に倣い、各パネルに判定の順番を明示する「着眼点」の短い説明文を添えている。ア・エは「非区分建物と区分建物がどう接続してできたか」という同じ分岐点を共有するため、1つの決定木を2パネルで使い回し、それぞれ自分の肢に関係する枝だけを強調する構成にした。
 
@@ -404,7 +443,15 @@ element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -430,7 +477,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -459,7 +506,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 変更登記は一括申請
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 一人が申請すれば他は職権で変更
@@ -482,23 +529,17 @@ other owners must also apply.
 Conclusion tag (blue, 5-15 Japanese characters):
 他は職権で変更
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 敷地権なしでも一棟全部を一括申請
 Diagram: Draw a decision flowchart. Top rectangle: an isometric newly
 built apartment building (一棟の建物) divided into stacked room units,
-labeled「区分建物が属する一棟の建物が新築された」. Below it, a
-diamond-shaped branch node labeled「敷地権が付いているか？」with two
-arrows,「はい（○）」and「いいえ（✕）」. The「はい」arrow leads to a
-rectangular conclusion node labeled「敷地権付き区分建物」with a small
-land-ownership pie-chart icon attached to the building. The「いいえ」
-arrow leads to a separate rectangular conclusion node labeled「敷地権なし
-の区分建物」with no pie-chart icon. From BOTH of these two conclusion
-nodes, draw a converging arrow down into a single shared final conclusion
-node reading「いずれの場合も、一棟に属する全部の区分建物の表題登記を一括
-して申請」, visually showing that both paths lead to the identical
-requirement. Do not loop either branch back up into the diagram.
+labeled「区分建物が属する一棟の建物が新築された」. Beside it, place a pale dotted-outline tag (NOT a diamond, no ✓ or ✕,
+because the answer does not change the outcome) reading「敷地権の有無は
+問わない」. A single arrow leads down to the final conclusion node reading
+「一棟に属する全部の区分建物の表題登記を一括して申請」. Do not draw any
+loop arrows.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、区分建物が属する一棟の建物が新築されたことを確認します。次に、その
 区分建物に敷地権が付いているかどうかを確認しますが、敷地権の有無に
@@ -507,7 +548,7 @@ requirement. Do not loop either branch back up into the diagram.
 Conclusion tag (orange, 5-15 Japanese characters):
 敷地権不問で一括
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 非区分建物への新築接続も一括申請
@@ -532,7 +573,7 @@ with a small label「→ 別パネルで解説」, without omitting it.
 Conclusion tag (green, 5-15 Japanese characters):
 変更登記と表題登記を一括
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in purple containing the number 5.
 Heading (bold, ONE line):
 相続人はＡを表題部所有者として申請可
@@ -563,16 +604,16 @@ Small footnote text (bottom of panel, small font, verbatim):
 48条1項／エ＝同法48条3項／オ＝同法47条2項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 建・物・登・記・権・地・所・続・相・築・職・敷・請・録・併. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 建・物・登・記・権・地・所・続・相・築・職・敷・請・録・併. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
 multi-condition 肢 (ウ, and the shared tree in ア/エ) is drawn as an actual
 flowchart with branch nodes (not a bare illustration with no visible
 decision structure), that each 着眼点 callout states a checking order
-rather than only a conclusion, that the panels for 肢ア and 肢エ clearly
+rather than only a conclusion, that the panels for ア and エ clearly
 distinguish their own highlighted branch of the shared decision tree from
 the other, faded branch, confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,

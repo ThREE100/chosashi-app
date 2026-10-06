@@ -2,19 +2,21 @@
 
 **出題年度：平成20年度　午後の部　第4問**
 
-> 建物の滅失の登記の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　建物の表題部所有者について相続が開始し、複数の共同相続人がある場合には、その一人が滅失の登記を申請するには、他の共同相続人の同意を証する情報を提供しなければならない。
->
-> イ　一棟の建物のうち最上階の区分建物が取り壊され、三階建てが二階建てとなった場合であっても、残存する他の区分建物について、構造の変更による表題部の変更の登記を申請することを要しない。
->
-> ウ　土地の所有者は、その土地上にある借地人所有の建物が取り壊されたときは、借地人の承諾を証する情報を提供して、その建物の滅失の登記を申請することができる。
->
-> エ　共用部分である旨の登記がある建物が滅失したときは、その所有者は、所有権を証する情報を提供して、その所有者の一人から滅失の登記を申請することができる。
->
-> オ　処分禁止の仮処分の登記がされている建物が滅失したときは、その滅失の登記を申請するには、仮処分の債権者の承諾を証する情報を提供しなければならない。
->
+> 建物の滅失の登記の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　建物の表題部所有者について相続が開始し、複数の共同相続人がある場合には、その一人が滅失の登記を申請するには、他の共同相続人の同意を証する情報を提供しなければならない。  
+>　  
+> イ　一棟の建物のうち最上階の区分建物が取り壊され、三階建てが二階建てとなった場合であっても、残存する他の区分建物について、構造の変更による表題部の変更の登記を申請することを要しない。  
+>　  
+> ウ　土地の所有者は、その土地上にある借地人所有の建物が取り壊されたときは、借地人の承諾を証する情報を提供して、その建物の滅失の登記を申請することができる。  
+>　  
+> エ　共用部分である旨の登記がある建物が滅失したときは、その所有者は、所有権を証する情報を提供して、その所有者の一人から滅失の登記を申請することができる。  
+>　  
+> オ　処分禁止の仮処分の登記がされている建物が滅失したときは、その滅失の登記を申請するには、仮処分の債権者の承諾を証する情報を提供しなければならない。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
+
+---
 
 建物の滅失の登記は「表示に関する登記」です。だれが申請できるのか（申請適格）、そして権利に関する登記のような承諾情報が要るのか要らないのか、という視点で解いていきます。
 
@@ -22,33 +24,47 @@
 
 ### ア：共同相続人の一人が、他の相続人の同意なしに申請できる
 
-滅失の登記は、建物という登記記録を消すだけで、相続人にとって不利益がなく、むしろ現況を正しく反映する「保存行為」に当たります。そのため、共同相続人の一人が単独で申請でき、他の共同相続人の同意を証する情報は不要です。したがって「同意を証する情報を提供しなければならない」とする本肢は誤りです。
+滅失の登記は、建物という登記記録を消すだけで、相続人にとって不利益がなく、むしろ現況を正しく反映する「保存行為」に当たります。
+
+そのため、共同相続人の一人が単独で申請でき、他の共同相続人の同意を証する情報は不要です。したがって「同意を証する情報を提供しなければならない」とする本肢は誤りです。
 
 **たとえば**、亡くなった父名義の古い物置が取り壊されたとき、相続人が3人いても、そのうちの一人が単独で滅失の登記を申請できます。「兄弟全員のハンコをもらってから」でなくてよいのです。
 
 ### イ：残った区分建物について、構造変更の登記までは要らない
 
-一棟の建物の構造（不動産登記法44条1項7号）に関する変更の登記は、一つの区分建物についてされれば同じ一棟に属する他の区分建物についてされた変更の登記としての効力を持ち、他の区分建物については登記官が職権で登記します（同法51条5項・6項）。したがって、残存する他の区分建物について申請をする必要はなく、本肢は正しい記述です。
+一棟の建物の構造（不動産登記法44条1項7号）に関する変更の登記は、一つの区分建物についてされれば同じ一棟に属する他の区分建物についてされた変更の登記としての効力を持ち、他の区分建物については登記官が職権で登記します（同法51条5項・6項）。
+
+したがって、残存する他の区分建物について申請をする必要はなく、本肢は正しい記述です。
 
 **たとえば**、3階建てマンションの3階部分だけを取り壊して2階建てにしたとき、3階の部屋は滅失の登記で消しますが、1階・2階の各部屋について「一棟が2階建てになったから」と一つひとつ構造変更の登記をやり直す必要はない、というイメージです。
 
 ### ウ：土地所有者は、借地人の承諾があっても滅失登記を申請できない
 
-滅失の登記を申請するのは、その建物の表題部所有者や所有権の登記名義人（この事例では借地人）です。土地の所有者は建物の所有者ではないため、たとえ借地人の承諾を得ても、その承諾を根拠に自ら滅失の登記を申請する、という仕組みは用意されていません。したがって本肢は誤りです。
+滅失の登記を申請するのは、その建物の表題部所有者や所有権の登記名義人（この事例では借地人）です。
+
+土地の所有者は建物の所有者ではないため、たとえ借地人の承諾を得ても、その承諾を根拠に自ら滅失の登記を申請する、という仕組みは用意されていません。したがって本肢は誤りです。
 
 **たとえば**、貸している土地の上の借家人（借地人）の建物が取り壊されたとき、地主さんが「借地人の同意書をもらったから」といって自分で建物の滅失登記を出す、ということはできません。あくまで建物の登記名義人側が申請するのが原則です。
 
 ### エ：共用部分である旨の登記がある建物は、所有者の一人から申請できる
 
-共用部分である旨の登記をするときは、登記官が職権で表題部所有者の登記・権利に関する登記を抹消するため（不動産登記法58条4項）、この建物には登記名義人がいません。そこで57条は申請義務者を「**所有者**」と定めており、所有権を証する情報を提供して所有者の一人から滅失の登記を申請できます。したがって本肢は正しい記述です。
+共用部分である旨の登記をするときは、登記官が職権で表題部所有者の登記・権利に関する登記を抹消するため（不動産登記法58条4項）、この建物には登記名義人がいません。
+
+そこで57条は申請義務者を「**所有者**」と定めており、所有権を証する情報を提供して所有者の一人から滅失の登記を申請できます。したがって本肢は正しい記述です。
 
 **たとえば**、マンションの集会室が「共用部分である旨の登記」がされたまま取り壊されたとき、その集会室の登記記録には所有者名が載っていません。そこで、区分所有者の一人が「自分たちが所有者だ」と証明する情報を添えて、滅失の登記を申請できるのです。
 
 ### オ：処分禁止の仮処分があっても、承諾情報は要らない
 
-滅失の登記は表示に関する登記であり、権利に関する登記のように利害関係人の承諾を求められることはありません。処分禁止の仮処分の登記がされていても、その債権者の承諾を証する情報を提供する必要はありません。したがって「提供しなければならない」とする本肢は誤りです。
+滅失の登記は表示に関する登記であり、権利に関する登記のように利害関係人の承諾を求められることはありません。
 
-**たとえば**、ある建物に「勝手に売ったりするな」という処分禁止の仮処分がついていても、その建物が現実に取り壊されて存在しなくなったなら、仮処分をかけた債権者の承諾書がなくても滅失の登記はできます。実際に無くなった建物を登記簿から消すのに、承諾はいらないのです。
+処分禁止の仮処分の登記がされていても、その債権者の承諾を証する情報を提供する必要はありません。したがって「提供しなければならない」とする本肢は誤りです。
+
+**たとえば**、ある建物に「勝手に売ったりするな」という処分禁止の仮処分がついていても、その建物が現実に取り壊されて存在しなくなったなら、仮処分をかけた債権者の承諾書がなくても滅失の登記はできます。
+
+実際に無くなった建物を登記簿から消すのに、承諾はいらないのです。
+
+---
 
 ### まとめ
 
@@ -68,8 +84,8 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行法との整合性を再検証し、条文根拠を補いました】** 正誤の判定は初版から変更ありません。**不動産登記法57条**（建物が滅失したときは、表題部所有者又は所有権の登記名義人〔共用部分である旨の登記又は団地共用部分である旨の登記がある建物にあっては所有者〕が、滅失の日から1月以内に滅失の登記を申請しなければならない）が現行条文どおりであることを確認し、導入部と肢エに反映しました。同条は令和3年の所有者不明土地関連の不動産登記法改正（相続登記の申請義務化等）でも変更されていません。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、肢イの条文根拠を補いました】** `fudousan-touki-hou.md`（2026-08-04取得の現行法）で条文原文を確認した結果は次のとおりです。**57条**（滅失の登記の申請義務者・1月以内）、**58条4項**（共用部分である旨の登記をするときは登記官が職権で表題部所有者の登記・権利に関する登記を抹消する）、**164条1項**（57条の申請義務違反は10万円以下の過料）は、いずれも記事の記載どおりでした。加えて、肢イについて初版は「変更の登記まで申請する必要はない」という結論だけを述べていましたが、条文上の根拠は**44条1項7号**（区分建物が属する一棟の建物の構造及び床面積が登記事項）と**51条5項・6項**（この登記事項に関する変更の登記は同じ一棟に属する他の区分建物についてされた変更の登記としての効力を有し、登記官が職権で他の区分建物についても変更の登記をする）です。本文とまとめ表にこの根拠を追記しました。正誤の結論は変わりません。
+- **【2026年8月4日 現行法との整合性を再検証し、条文根拠を補いました】** 正誤の判定は初版から変更ありません。**不動産登記法57条**（建物が滅失したときは、表題部所有者又は所有権の登記名義人〔共用部分である旨の登記又は団地共用部分である旨の登記がある建物にあっては所有者〕が、滅失の日から1月以内に滅失の登記を申請しなければならない）が現行条文どおりであることを確認し、導入部とエに反映しました。同条は令和3年の所有者不明土地関連の不動産登記法改正（相続登記の申請義務化等）でも変更されていません。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、イの条文根拠を補いました】** `fudousan-touki-hou.md`（2026-08-04取得の現行法）で条文原文を確認した結果は次のとおりです。**57条**（滅失の登記の申請義務者・1月以内）、**58条4項**（共用部分である旨の登記をするときは登記官が職権で表題部所有者の登記・権利に関する登記を抹消する）、**164条1項**（57条の申請義務違反は10万円以下の過料）は、いずれも記事の記載どおりでした。加えて、イについて初版は「変更の登記まで申請する必要はない」という結論だけを述べていましたが、条文上の根拠は**44条1項7号**（区分建物が属する一棟の建物の構造及び床面積が登記事項）と**51条5項・6項**（この登記事項に関する変更の登記は同じ一棟に属する他の区分建物についてされた変更の登記としての効力を有し、登記官が職権で他の区分建物についても変更の登記をする）です。本文とまとめ表にこの根拠を追記しました。正誤の結論は変わりません。
 - ア（滅失登記が保存行為で共同相続人の一人から単独申請できること）とオ（表示に関する登記なので仮処分債権者の承諾情報は不要であること）、ウ（土地所有者には建物の滅失登記の申請適格がないこと）、イ（一部の区分建物が滅失しても残存する区分建物について構造変更の登記を要しないこと）は、いずれも57条の申請適格と表示に関する登記の性質からの説明で、**根拠となる先例・通達の番号までは今回の再検証でも特定できていません**。とくにウについては、建物の敷地の所有者による代位申請の可否という論点が実務上あるため、断定的な結論を採る前に一次資料の確認をおすすめします。
 - アプリのデータベースの補足解説（kaisetsu_plus.json）はこの問題について「reviewed: false（未検証）」でしたので、本記事は公式正答に合わせて各肢を判定して作成しています。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を「滅失の登記」「共同相続人」「共用部分」「処分禁止の仮処分」等のキーワードで確認しました。建物滅失登記は毎年のように出題される定番論点で類似の一般原則が繰り返し問われますが、本問の具体的な肢の組み合わせ（借地人の建物取壊し・3階建から2階建への変更等）と一致する事例は見つかりませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
@@ -86,7 +102,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -109,10 +125,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -182,19 +216,19 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -214,11 +248,11 @@ involved, a crumbled-rubble icon for a demolished building, character
 icons for 相続人（複数）・地主（土地所有者）・借地人・区分所有者・仮処分の
 債権者, document icons for「同意書」「承諾書」「所有権を証する情報」, a
 registry-stamp icon labeled「登記官が職権」, and a red「処分禁止」ribbon
-icon wrapped around a building. Panel 2 (肢イ) compares the demolished 区分
+icon wrapped around a building. Panel 2 (イ) compares the demolished 区分
 建物 with the remaining 区分建物 as a side-by-side LEFT/RIGHT comparison
-rather than a single scene, and Panel 4 (肢エ) is drawn as an actual
+rather than a single scene, and Panel 4 (エ) is drawn as an actual
 decision flowchart (whether the building already has a registered
-name-holder), while Panels 1・3・5 (肢ア・肢ウ・肢オ) are each resolved by
+name-holder), while Panels 1・3・5 (ア・ウ・オ) are each resolved by
 a single check, so draw a labeled illustrative diagram for them instead
 of forcing a flowchart. Where a 肢 requires checking multiple conditions
 in sequence before reaching a conclusion, draw the panel's diagram as an
@@ -283,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft green containing the number 1.
 Heading (bold, ONE line):
 相続人は同意なしで単独申請できる
@@ -298,7 +332,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 同意書は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line):
 残った区分建物の構造変更登記は不要
@@ -316,7 +350,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 職権登記だから不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line):
 土地所有者は借地人の建物を消せない
@@ -333,7 +367,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 申請適格なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line):
 名義人のない共用部分は所有者から申請
@@ -355,7 +389,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 所有者の一人で申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line):
 仮処分があっても承諾情報は不要

@@ -2,31 +2,37 @@
 
 **出題年度：令和4年度　午後の部　第8問**
 
-> 土地の分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　抵当権の登記がある土地について分筆の登記を申請する場合において、当該抵当権の登記名義人が作成した当該抵当権を分筆後の一方の土地について消滅させることを承諾したことを証する情報を記載した書面を提出するときは、当該書面に添付する当該抵当権の登記名義人の印鑑に関する証明書は、作成後3か月以内のものでなければならない。
->
-> イ　買戻しの特約の登記がされている甲土地から乙土地を分筆する登記をする場合には、当該買戻し特約の買戻し期間が経過していたとしても、登記官は、乙土地の登記記録の権利部の相当区に、甲土地の登記記録から当該買戻しの特約の登記を転写しなければならない。
->
-> ウ　一棟の建物に属する区分建物が甲建物及び乙建物であり、甲建物及び乙建物に丙土地の賃借権を敷地権とする登記がされている場合において、丙土地の所有権の登記名義人が丙土地の分筆の登記を申請するときは、甲建物及び乙建物の所有権の登記名義人の承諾を証する情報を提供しなければならない。
->
-> エ　根抵当権設定の仮登記がある土地について分筆の登記がされたときは、登記官は、新たに共同担保目録を作成しなければならない。
->
-> オ　土地の所有権の登記名義人がA及びBであり、Aが死亡してその相続人がC及びDである場合において、当該土地の一部が別地目となったときは、Dは、単独で、当該土地の一部地目変更分筆登記を申請することができる。
->
+> 土地の分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　抵当権の登記がある土地について分筆の登記を申請する場合において、当該抵当権の登記名義人が作成した当該抵当権を分筆後の一方の土地について消滅させることを承諾したことを証する情報を記載した書面を提出するときは、当該書面に添付する当該抵当権の登記名義人の印鑑に関する証明書は、作成後3か月以内のものでなければならない。  
+>　  
+> イ　買戻しの特約の登記がされている甲土地から乙土地を分筆する登記をする場合には、当該買戻し特約の買戻し期間が経過していたとしても、登記官は、乙土地の登記記録の権利部の相当区に、甲土地の登記記録から当該買戻しの特約の登記を転写しなければならない。  
+>　  
+> ウ　一棟の建物に属する区分建物が甲建物及び乙建物であり、甲建物及び乙建物に丙土地の賃借権を敷地権とする登記がされている場合において、丙土地の所有権の登記名義人が丙土地の分筆の登記を申請するときは、甲建物及び乙建物の所有権の登記名義人の承諾を証する情報を提供しなければならない。  
+>　  
+> エ　根抵当権設定の仮登記がある土地について分筆の登記がされたときは、登記官は、新たに共同担保目録を作成しなければならない。  
+>　  
+> オ　土地の所有権の登記名義人がA及びBであり、Aが死亡してその相続人がC及びDである場合において、当該土地の一部が別地目となったときは、Dは、単独で、当該土地の一部地目変更分筆登記を申請することができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
+
+---
 
 分筆の登記は、土地を分けるだけの手続に見えて、その土地に付いている権利（抵当権・買戻特約・敷地権など）をどう処理するかが問われます。細かい先例が多い分野なので、一つずつ丁寧に確認しましょう。
 
 ### ア：抵当権消滅の承諾書に付ける印鑑証明書に、3か月の期限はない
 
-分筆後の一方の土地について抵当権を消滅させる承諾書を提出するときは、抵当権の登記名義人が記名押印し、その印鑑証明書も添付します（不動産登記令19条1項・2項）。ただし、この承諾書に添付する印鑑証明書には「作成後3か月以内」といった期限はありません。本肢は「3か月以内でなければならない」としており誤りです。
+分筆後の一方の土地について抵当権を消滅させる承諾書を提出するときは、抵当権の登記名義人が記名押印し、その印鑑証明書も添付します（不動産登記令19条1項・2項）。
+
+ただし、この承諾書に添付する印鑑証明書には「作成後3か月以内」といった期限はありません。本肢は「3か月以内でなければならない」としており誤りです。
 
 **たとえば**、抵当権者が「分けた片方の土地からは抵当権を外していいですよ」と承諾書を出す場合、その印鑑証明書は少し前に取ったものでも構いません。3か月の縛りがあるのは、別の場面（申請人本人の印鑑証明書など）です。
 
 ### イ：買戻特約は、期間が過ぎていても分筆後の土地に転写される
 
-分筆前の土地にされていた登記が、期間経過が登記記録上明らかであったり、混同で消滅していたりしても、登記がある以上、登記官は分筆した土地の相当区にその登記を転写しなければなりません。登記官は期間経過などを実質審査して転写の要否を判断する立場にないからです。本肢は正しい記述です。
+分筆前の土地にされていた登記が、期間経過が登記記録上明らかであったり、混同で消滅していたりしても、登記がある以上、登記官は分筆した土地の相当区にその登記を転写しなければなりません。
+
+登記官は期間経過などを実質審査して転写の要否を判断する立場にないからです。本肢は正しい記述です。
 
 **たとえば**、甲土地に付いている買戻特約の買戻期間がとっくに過ぎていても、登記として残っている限り、甲土地から分けた乙土地の登記記録にも、その買戻特約はそのまま書き写されます。
 
@@ -38,7 +44,9 @@
 
 ### エ：根抵当権設定の仮登記のある土地の分筆で、共同担保目録は作られない
 
-根抵当権は、本登記の際に共同根抵当権となるものであり、共同根抵当権の設定の仮登記はできません。したがって、根抵当権設定の仮登記のある土地を分筆して仮登記が複数の土地に及んでも、共同根抵当権の関係にはならず、共同担保目録は作成されません。本肢は誤りです。
+根抵当権は、本登記の際に共同根抵当権となるものであり、共同根抵当権の設定の仮登記はできません。
+
+したがって、根抵当権設定の仮登記のある土地を分筆して仮登記が複数の土地に及んでも、共同根抵当権の関係にはならず、共同担保目録は作成されません。本肢は誤りです。
 
 **たとえば**、根抵当権設定の「仮登記」だけが付いている土地を分筆しても、登記官が新しく共同担保目録をつくることはありません。共同担保目録は、あくまで本登記の共同担保について作られるものです。
 
@@ -47,6 +55,8 @@
 土地の一部の地目が変わったことによる一部地目変更・分筆登記は、地目変更という事実を登記記録に反映させる報告的登記として扱われます。そのため、相続人その他の一般承継人の一人から申請することができます。本肢は正しい記述です。
 
 **たとえば**、A・B共有の土地でAが亡くなり、相続人がC・Dの場合、土地の一部が別地目になったときは、Dさん一人だけで、その一部地目変更分筆登記を申請することができます。
+
+---
 
 ### まとめ
 
@@ -67,7 +77,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝令19条1項2項、イ＝昭44.3.11民甲407号、ウ＝添付情報とならない旨、エ＝昭47.11.25民甲4945号・昭48.11.14民三8526号、オ＝登記研究367号137頁）は、データベースのexplanationフィールドに記載のものを転記しています。
-- なお、kaisetsu_plus.jsonのapproach欄には肢ウを「不登法22条により承諾が必要（正しい）」とする記述が一部残っていましたが、これは同じデータベースのexplanation欄およびpitfalls欄の「承諾は不要（ウは誤り）」という記載と矛盾します。正答（3番＝イオ）と整合するのは「ウは誤り（承諾不要）」であるため、本記事はexplanation欄に従いウを誤りとして解説しています。
+- なお、kaisetsu_plus.jsonのapproach欄にはウを「不登法22条により承諾が必要（正しい）」とする記述が一部残っていましたが、これは同じデータベースのexplanation欄およびpitfalls欄の「承諾は不要（ウは誤り）」という記載と矛盾します。正答（3番＝イオ）と整合するのは「ウは誤り（承諾不要）」であるため、本記事はexplanation欄に従いウを誤りとして解説しています。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
 - **重複出題チェック（2026-08-16実施）**：takuitsu.jsonおよびnote-articles配下の分筆関連記事を検索し、本問の5論点（抵当権消滅承諾書の印鑑証明書に期限がないこと、買戻特約が期間経過後も転写されること、敷地権付き土地の分筆に区分建物所有者の承諾が不要なこと、根抵当権設定の仮登記のある土地の分筆で共同担保目録が作成されないこと、相続人の一人が単独で一部地目変更分筆登記を申請できること）と同一の出題が他年度にないか確認しました。平成28年度第9問の記事（2026-07-21実施の重複出題チェック）でも、本問（令和4年度第8問）を含む「土地の分筆の登記」を主題とする毎年の出題群と比較検討済みで、具体的な肢の内容（抵当権消滅承諾の印鑑証明書、買戻し特約の転写を含む）は各年度で異なり、論点レベルでの重複はないと確認されています。今回改めて「買戻」「共同担保目録」「一部地目変更」等のキーワードで他年度の記事を検索しましたが、本問と完全に一致する出題は見つかりませんでした（平成22年度第18問・平成24年度第7問・平成26年度第10問・令和3年度第11問・令和5年度第9問にも「転写」を扱う肢がありますが、いずれも仮登記・地役権・筆界特定など対象となる権利・記録が異なり、本問イの「買戻特約の期間経過後の転写」とは別の論点です）。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-16実施）**：相続登記の申請義務化（令和6年4月1日施行）・住所等変更登記の申請義務化（令和8年4月1日施行）は、いずれも権利部（所有権の登記名義人・その氏名住所）に関する申請義務の改正であり、本問が扱う分筆の登記に伴う抵当権・買戻特約・敷地権・根抵当権仮登記の処理や相続人による申請適格（表示に関する登記の手続自体）には影響しません。各肢の結論に変更はありません。
@@ -110,12 +120,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・担・保・転・写・仮・録・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -191,8 +219,8 @@ sentence):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, confirm that no card
@@ -202,12 +230,12 @@ card headings are exactly: (1) 抵当権消滅承諾の印鑑証明に期限な�
 根抵当権仮登記の分筆で目録作らず／(5) 相続人の一人でも単独申請できる —
 do not merge, omit, duplicate, or reword any of these five headings, and
 confirm every card reads as a short heading + illustration + short
-conclusion tag at a glance.
+conclusion tag at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（承諾書と印鑑証明書の関係、買戻特約の転写の分岐、敷地権のある土地と区分建物の関係、根抵当権の仮登記と共同担保目録、相続人の関係図）を肢ごとに示す作図ガイドを追加した。肢ア・ウは「分筆する土地に登記された他人の権利者の承諾書は必要か」という共通の分岐から始まる決定木を共有し、それぞれ自分の肢に関係する枝だけを強調して描く構成にしている。
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（承諾書と印鑑証明書の関係、買戻特約の転写の分岐、敷地権のある土地と区分建物の関係、根抵当権の仮登記と共同担保目録、相続人の関係図）を肢ごとに示す作図ガイドを追加した。ア・ウは「分筆する土地に登記された他人の権利者の承諾書は必要か」という共通の分岐から始まる決定木を共有し、それぞれ自分の肢に関係する枝だけを強調して描く構成にしている。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -251,7 +279,15 @@ text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -277,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -287,10 +323,9 @@ diamond-shaped root node labeled「分筆する土地に登記された他人の
 承諾書は必要か」. Render the branch labeled「抵当権を分筆後の一方の土地から
 消滅させる場合」with a thick highlighted border and full color: a document
 icon labeled「承諾書」next to a seal-certificate card labeled「印鑑証明書」,
-leading down to a second diamond-shaped node labeled「印鑑証明書に作成後
-3か月以内の期限があるか」, with a calendar icon crossed out by a red ✕ next
-to the text「3か月」, leading to a highlighted conclusion node labeled
-「期限の定めなし」. Render the other branch labeled「敷地権(区分建物所有者)
+leading down to a plain label (NOT a diamond) reading「印鑑証明書の作成
+時期」, with a calendar icon crossed out by a red ✕ next to the text「3か
+月」, leading to a highlighted conclusion node labeled「期限の定めなし」. Render the other branch labeled「敷地権(区分建物所有者)
 の場合」in a faded, greyed-out, dotted-outline style (this branch is the
 subject of PANEL 3), leading to a faded conclusion node labeled「承諾書は
 不要」.
@@ -302,19 +337,14 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 印鑑証明に期限なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 買戻特約は期間経過後も転写される
 Diagram: Draw an isometric land plot labeled「甲土地」tagged with a
-torn-paper label「買戻特約」and a faded calendar icon. Below it, draw a
-diamond-shaped branch node labeled「買戻期間は経過しているか」with two
-branch arrows leading to two separate, explicit conclusion nodes: an
-「はい」branch arrow leading to a conclusion node labeled「経過していても
-そのまま転写する」, and an「いいえ」branch arrow leading to a separate
-conclusion node labeled「経過していなくても通常どおり転写する」. Do not
-loop either branch arrow back into the diagram. From both conclusion
-nodes, draw converging arrows into a single illustration below showing
+torn-paper label「買戻特約」and a faded calendar icon. Beside the calendar, place a pale dotted-outline tag (no ✓ or ✕, NOT a
+diamond, because the outcome is the same either way) reading「買戻期間の
+経過は問わない」. Draw a single arrow down into an illustration showing
 「甲土地」splitting into「甲土地」and「乙土地」, with the「買戻特約」label
 copied onto 乙土地's registry-ledger icon labeled「登記記録」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -324,7 +354,7 @@ copied onto 乙土地's registry-ledger icon labeled「登記記録」.
 Conclusion tag (blue, 5-15 Japanese characters):
 経過の有無を問わず転写
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 敷地権者の承諾書は分筆に不要
@@ -347,7 +377,7 @@ out by a red ✕, leading to a highlighted conclusion node labeled「承諾書�
 Conclusion tag (blue, 5-15 Japanese characters):
 承諾書は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 根抵当権の仮登記に共同担保目録なし
@@ -368,12 +398,12 @@ conclusion node labeled「共同根抵当権の関係は生じない」.
 Conclusion tag (blue, 5-15 Japanese characters):
 目録は作成せず
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 相続人の一人Dが単独で申請できる
 Diagram: Draw a two-generation relationship diagram. Top row (same
-generation, side by side): two co-owner character icons labeled「A」and
+generation, side by side): two co-owner character icons labeled「A」(with a small 死亡 marker) and
 「B」, connected by a horizontal bracket labeled「共有」, standing on a
 land plot labeled「土地」. Draw a downward arrow from「A」only (B remains
 unaffected) to a lower row showing two heir character icons labeled「C」
@@ -393,13 +423,13 @@ Conclusion tag (blue, 5-15 Japanese characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記令19条1項・2項（肢ア）。肢イ・ウ・エ・オは先例・実務
+条文根拠：不動産登記令19条1項・2項（ア）。イ・ウ・エ・オは先例・実務
 上の取扱いによる（番号は省略）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・地・登・記・担・保・転・写・仮・録・証・建・物・続. If
-any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権・地・登・記・担・保・転・写・仮・録・証・建・物・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

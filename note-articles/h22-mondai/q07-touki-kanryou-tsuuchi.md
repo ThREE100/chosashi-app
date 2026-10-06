@@ -2,25 +2,31 @@
 
 **出題年度：平成22年度　午後の部　第7問**
 
-> 登記が完了した場合に登記官がする通知に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。
->
-> ア　表題部の所有者欄にＡ、Ｂ及びＣの3人の共有の登記がされている土地について、Ａが地目の変更の登記を申請し、登記が完了した場合には、登記官は、Ａ及びＢに対して当該登記が完了した旨を通知すれば足りる。
->
-> イ　表題部の所有者欄にＡ、Ｂ及びＣの3人の共有の登記がされている土地について、Ａの債権者Ｄが地目の変更の登記を申請し、登記が完了した場合には、登記官は、Ａ及びＤに対して当該登記が完了した旨を通知すれば足りる。
->
-> ウ　表題部の所有者欄にＡ、Ｂ及びＣの3人の共有の登記がされている土地について、職権による地目の変更の登記が完了した場合には、登記官は、Ａに対して当該登記が完了した旨を通知すれば足りる。
->
-> エ　表題部の所有者欄にＡ、Ｂ及びＣの3人の共有の登記がされている土地について、Ｄが当該土地の所有者をＤ、Ｅ及びＦに更正する旨の表題部所有者についての更正の登記を申請し、登記が完了した場合には、登記官は、Ｄ及びＥに対して当該登記が完了した旨を通知すれば足りる。
->
-> オ　表題部の所有者欄にＡ（持分6分の1）、Ｂ（持分6分の2）及びＣ（持分6分の3）の3人の共有の登記がされている土地について、Ｃが当該土地の所有者をＡ（持分6分の3）、Ｂ（持分6分の1）及びＣ（持分6分の2）に更正する旨の表題部所有者である共有者の持分についての更正の登記を申請し、登記が完了した場合には、登記官は、Ａ及びＣに対して当該登記が完了した旨を通知すれば足りる。
->
+> 登記が完了した場合に登記官がする通知に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。  
+>　  
+> ア　表題部の所有者欄にＡ、Ｂ及びＣの3人の共有の登記がされている土地について、Ａが地目の変更の登記を申請し、登記が完了した場合には、登記官は、Ａ及びＢに対して当該登記が完了した旨を通知すれば足りる。  
+>　  
+> イ　表題部の所有者欄にＡ、Ｂ及びＣの3人の共有の登記がされている土地について、Ａの債権者Ｄが地目の変更の登記を申請し、登記が完了した場合には、登記官は、Ａ及びＤに対して当該登記が完了した旨を通知すれば足りる。  
+>　  
+> ウ　表題部の所有者欄にＡ、Ｂ及びＣの3人の共有の登記がされている土地について、職権による地目の変更の登記が完了した場合には、登記官は、Ａに対して当該登記が完了した旨を通知すれば足りる。  
+>　  
+> エ　表題部の所有者欄にＡ、Ｂ及びＣの3人の共有の登記がされている土地について、Ｄが当該土地の所有者をＤ、Ｅ及びＦに更正する旨の表題部所有者についての更正の登記を申請し、登記が完了した場合には、登記官は、Ｄ及びＥに対して当該登記が完了した旨を通知すれば足りる。  
+>　  
+> オ　表題部の所有者欄にＡ（持分6分の1）、Ｂ（持分6分の2）及びＣ（持分6分の3）の3人の共有の登記がされている土地について、Ｃが当該土地の所有者をＡ（持分6分の3）、Ｂ（持分6分の1）及びＣ（持分6分の2）に更正する旨の表題部所有者である共有者の持分についての更正の登記を申請し、登記が完了した場合には、登記官は、Ａ及びＣに対して当該登記が完了した旨を通知すれば足りる。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
-登記が完了したときに、登記官が「誰に」通知するのかを問う問題です。ルールはシンプルで、①登記が完了した旨は表題部所有者に通知する、②通知を受けるべき者が2人以上いるときはそのうちの1人に通知すれば足りる、③表題部所有者や持分の更正の登記では「更正前の」表題部所有者に通知する、という3点です（不動産登記規則183条ほか）。
+---
+
+登記が完了したときに、登記官が「誰に」通知するのかを問う問題です。
+
+ルールはシンプルで、①登記が完了した旨は表題部所有者に通知する、②通知を受けるべき者が2人以上いるときはそのうちの1人に通知すれば足りる、③表題部所有者や持分の更正の登記では「更正前の」表題部所有者に通知する、という3点です（不動産登記規則183条ほか）。
 
 ### ア：申請人と共有者の1人に通知すれば足りる
 
-Ａ・Ｂ・Ｃ共有の土地についてＡが申請した場合、登記が完了した旨は表題部所有者に通知されますが、通知を受けるべき者が2人以上いるときはその1人に通知すれば足ります。Ａ及びＢに通知すれば、この要件を満たすので、「Ａ及びＢに通知すれば足りる」とする記述は正しいものです。
+Ａ・Ｂ・Ｃ共有の土地についてＡが申請した場合、登記が完了した旨は表題部所有者に通知されますが、通知を受けるべき者が2人以上いるときはその1人に通知すれば足ります。
+
+Ａ及びＢに通知すれば、この要件を満たすので、「Ａ及びＢに通知すれば足りる」とする記述は正しいものです。
 
 **たとえば**、3人の共有地についてそのうちの1人が地目変更を申請したとき、登記所は3人全員に律儀に通知しなくても、申請した人ともう1人に知らせておけば足ります。
 
@@ -38,15 +44,21 @@
 
 ### エ：表題部所有者の更正では、「更正前の」所有者に通知しなければならない
 
-表題部所有者をＡ・Ｂ・ＣからＤ・Ｅ・Ｆに更正する登記では、これによって所有者でなくなる「更正前の」表題部所有者（Ａ・Ｂ・Ｃ）に対して通知する必要があります。ところがこの肢は、更正後の新しい所有者側であるＤ及びＥに通知するとしており、更正前のＡ・Ｂ・Ｃの誰にも通知していません。これでは足りず、誤りです。
+表題部所有者をＡ・Ｂ・ＣからＤ・Ｅ・Ｆに更正する登記では、これによって所有者でなくなる「更正前の」表題部所有者（Ａ・Ｂ・Ｃ）に対して通知する必要があります。
+
+ところがこの肢は、更正後の新しい所有者側であるＤ及びＥに通知するとしており、更正前のＡ・Ｂ・Ｃの誰にも通知していません。これでは足りず、誤りです。
 
 **たとえば**、登記上の所有者がまるごと別人に更正される場合、「あなたは所有者ではなくなりました」と知らせるべき相手は、これまで所有者として載っていた人たちです。新しい所有者だけに通知して済ませることはできません。
 
 ### オ：持分の更正でも、更正前の所有者の1人と申請人に通知すれば足りる
 
-Ｃが申請して共有者の持分をＡ・Ｂ・Ｃの間で更正する登記では、更正前の表題部所有者（Ａ・Ｂ・Ｃ）に通知しますが、2人以上いるので1人に通知すれば足ります。Ａに通知し、申請人であるＣにも通知すれば、要件を満たします。したがって「Ａ及びＣに通知すれば足りる」とする記述は正しいものです。
+Ｃが申請して共有者の持分をＡ・Ｂ・Ｃの間で更正する登記では、更正前の表題部所有者（Ａ・Ｂ・Ｃ）に通知しますが、2人以上いるので1人に通知すれば足ります。
+
+Ａに通知し、申請人であるＣにも通知すれば、要件を満たします。したがって「Ａ及びＣに通知すれば足りる」とする記述は正しいものです。
 
 **たとえば**、共有者どうしで持分の割合を直す更正登記をしたときは、その持分に関わる人の1人と、申請した人に知らせておけば足ります。
+
+---
 
 ### まとめ
 
@@ -109,10 +121,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -201,25 +231,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア〜オのすべてが、「①この登記は更正の登記か」「②通知対象の表題部所有者は2人以上いるか」「③申請人は通知対象の表題部所有者以外の者か」という同じ3段階の判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成とする。
+ア〜オのすべてが、「①この登記は更正の登記か」「②通知対象の表題部所有者は2人以上いるか」「③申請人は通知対象の表題部所有者以外の者か」という同じ3段階の判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -295,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -318,7 +346,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 1人への通知で足りる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -341,7 +369,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 共有者1人と申請人に通知
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -363,7 +391,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 職権でも1人への通知で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -384,7 +412,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 更正前の所有者に通知が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -409,7 +437,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記規則183条（ア〜オ共通）。判例・先例番号は省略。
+条文根拠：不動産登記規則183条（ア〜オ共通）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

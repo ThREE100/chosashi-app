@@ -2,51 +2,79 @@
 
 **出題年度：令和5年度　午後の部　第13問**
 
-> 建物の表題登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうち、どれか。
->
-> ア　株式会社Ａ及び株式会社Ｂが区分建物である甲建物の所有権の原始取得者である場合において、甲建物の表題登記を申請する前に、株式会社Ｃが株式会社Ｂを吸収合併したときは、吸収合併存続会社である株式会社Ｃは、表題部所有者を株式会社Ａ及び株式会社Ｃとする甲建物の表題登記を申請することができる。
->
-> イ　建物の表題登記の申請情報として建物の所在を提供する場合において、当該建物の登記記録の所在に「甲郡乙町大字丙字丁」と記録されており、地番区域が大字である丙と定められているときであっても、小字である丁の記載を省略することはできない。
->
-> ウ　区分建物でない建物の表題登記の申請をし、建物の名称を申請情報として提供して登記が完了した場合には、当該建物の名称は、当該建物の登記記録の表題部の建物の名称欄に記録される。
->
-> エ　数個の区分建物が属する一棟の建物を新築した場合には、その全ての区分建物について、一の申請情報により建物の表題登記を申請しなければならない。
->
-> オ　区分建物である表題登記のない建物の所有権の原始取得者が複数いる場合において、当該区分建物の表題登記を申請するときは、その原始取得者のうちの一人から当該申請をすることができる。
->
+> 建物の表題登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　株式会社Ａ及び株式会社Ｂが区分建物である甲建物の所有権の原始取得者である場合において、甲建物の表題登記を申請する前に、株式会社Ｃが株式会社Ｂを吸収合併したときは、吸収合併存続会社である株式会社Ｃは、表題部所有者を株式会社Ａ及び株式会社Ｃとする甲建物の表題登記を申請することができる。  
+>　  
+> イ　建物の表題登記の申請情報として建物の所在を提供する場合において、当該建物の登記記録の所在に「甲郡乙町大字丙字丁」と記録されており、地番区域が大字である丙と定められているときであっても、小字である丁の記載を省略することはできない。  
+>　  
+> ウ　区分建物でない建物の表題登記の申請をし、建物の名称を申請情報として提供して登記が完了した場合には、当該建物の名称は、当該建物の登記記録の表題部の建物の名称欄に記録される。  
+>　  
+> エ　数個の区分建物が属する一棟の建物を新築した場合には、その全ての区分建物について、一の申請情報により建物の表題登記を申請しなければならない。  
+>　  
+> オ　区分建物である表題登記のない建物の所有権の原始取得者が複数いる場合において、当該区分建物の表題登記を申請するときは、その原始取得者のうちの一人から当該申請をすることができる。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
-建物の表題登記は、まだ登記記録のない建物について「表題部」を新しく作る登記です。この分野では、誰が申請できるのか、所在や名称をどう記録するのか、区分建物の一括申請のルールはどうなっているのか、といった基本ルールを正確に押さえているかが問われます。ひとつひとつは細かいですが、条文と先例をていねいに整理すれば得点源にできます。
+---
+
+建物の表題登記は、まだ登記記録のない建物について「表題部」を新しく作る登記です。
+
+この分野では、誰が申請できるのか、所在や名称をどう記録するのか、区分建物の一括申請のルールはどうなっているのか、といった基本ルールを正確に押さえているかが問われます。ひとつひとつは細かいですが、条文と先例をていねいに整理すれば得点源にできます。
 
 ### ア：合併で承継した会社は、原始取得者としてではなく一般承継人として申請する
 
-区分建物を新築した所有者（原始取得者）には、1か月以内に表題登記を申請する義務が課されています（不動産登記法47条1項）。ここで申請義務を負うのはあくまで原始取得者であり、相続人その他の一般承継人には申請義務そのものは課されていません（同条2項）。本肢の株式会社Ｃは、吸収合併によって株式会社Ｂの権利義務を引き継いだ「一般承継人」であって、甲建物を原始取得したわけではありません。したがって、表題部所有者は原始取得者である株式会社Ａと株式会社Ｂになり、株式会社Ｃを表題部所有者とすることはできません。
+区分建物を新築した所有者（原始取得者）には、1か月以内に表題登記を申請する義務が課されています（不動産登記法47条1項）。ここで申請義務を負うのはあくまで原始取得者であり、相続人その他の一般承継人には申請義務そのものは課されていません（同条2項）。
 
-**たとえば**、新築マンションを一緒に建てたＡ社とＢ社がいて、登記をする前にＢ社が別のＣ社に吸収合併されたとします。この場合でも、表題部に名前が載る「もともとの持ち主」はＡ社とＢ社であって、あとから引き継いだだけのＣ社を持ち主として登記することはできません。Ｃ社はＢ社の立場を承継して手続を進める形になります。
+本肢の株式会社Ｃは、吸収合併によって株式会社Ｂの権利義務を引き継いだ「一般承継人」であって、甲建物を原始取得したわけではありません。
+
+したがって、表題部所有者は原始取得者である株式会社Ａと株式会社Ｂになり、株式会社Ｃを表題部所有者とすることはできません。
+
+**たとえば**、新築マンションを一緒に建てたＡ社とＢ社がいて、登記をする前にＢ社が別のＣ社に吸収合併されたとします。
+
+この場合でも、表題部に名前が載る「もともとの持ち主」はＡ社とＢ社であって、あとから引き継いだだけのＣ社を持ち主として登記することはできません。Ｃ社はＢ社の立場を承継して手続を進める形になります。
 
 ### イ：地番区域が大字でも、小字の記載は省略できない
 
-不動産の所在を表示するときは、地番区域が大字をもって定められている場合であっても、地番区域ではない小字の記載を省略することはできません。所在は建物を特定するための重要な情報なので、登記記録に「甲郡乙町大字丙字丁」と記録されている以上、申請情報でも小字「丁」まで正確に書く必要があります。
+不動産の所在を表示するときは、地番区域が大字をもって定められている場合であっても、地番区域ではない小字の記載を省略することはできません。
 
-**たとえば**、住所を書くときに「○○市××町3丁目」まで書かないと家が特定できないのと同じで、登記の世界でも「大字丙」までで止めず「字丁」まで書かないと、その建物がどこにあるのか正確に示せません。だから、たとえ地番区域が大字で決まっていても、小字を省いてはいけないのです。
+所在は建物を特定するための重要な情報なので、登記記録に「甲郡乙町大字丙字丁」と記録されている以上、申請情報でも小字「丁」まで正確に書く必要があります。
+
+**たとえば**、住所を書くときに「○○市××町3丁目」まで書かないと家が特定できないのと同じで、登記の世界でも「大字丙」までで止めず「字丁」まで書かないと、その建物がどこにあるのか正確に示せません。
+
+だから、たとえ地番区域が大字で決まっていても、小字を省いてはいけないのです。
 
 ### ウ：区分建物でない建物の名称は、「所在欄」に記録される
 
-建物の名称とは、所有者が建物を特定するために適宜に付した名称のことです。名称を付すかどうかは所有者の任意ですが、名称がある場合はそれを登記する必要があります（不動産登記法44条1項4号）。ただし、区分建物でない（非区分の）建物の場合、その名称は表題部の「所在欄」に記録されます。非区分建物の登記記録には、そもそも独立した「建物の名称欄」は設けられていません。名称欄があるのは区分建物（一棟の建物の名称など）の場合です。
+建物の名称とは、所有者が建物を特定するために適宜に付した名称のことです。名称を付すかどうかは所有者の任意ですが、名称がある場合はそれを登記する必要があります（不動産登記法44条1項4号）。
 
-**たとえば**、一戸建てに「○○荘」という名前を付けて登記したとしても、その名前は専用の「名称欄」ではなく、所在を書く欄の中に一緒に記録されます。マンションのように名称専用の欄が用意されているわけではない、というのが非区分建物の登記記録の作りなのです。
+ただし、区分建物でない（非区分の）建物の場合、その名称は表題部の「所在欄」に記録されます。非区分建物の登記記録には、そもそも独立した「建物の名称欄」は設けられていません。名称欄があるのは区分建物（一棟の建物の名称など）の場合です。
+
+**たとえば**、一戸建てに「○○荘」という名前を付けて登記したとしても、その名前は専用の「名称欄」ではなく、所在を書く欄の中に一緒に記録されます。
+
+マンションのように名称専用の欄が用意されているわけではない、というのが非区分建物の登記記録の作りなのです。
 
 ### エ：区分建物の一括申請は原則だが、各別の申請書でも差し支えない
 
-区分建物を新築した場合は、一棟の建物に属する全部の区分建物について表題登記を一括して申請しなければなりません（不動産登記法48条1項）。ただし、この「一括申請」は、一棟の建物に属する区分建物の全部について申請がされていれば足り、各別の申請書によっても差し支えないとされています。つまり「一の申請情報によらなければならない」と言い切ってしまうと誤りで、全部そろって申請されるなら申請書が分かれていても構いません。
+区分建物を新築した場合は、一棟の建物に属する全部の区分建物について表題登記を一括して申請しなければなりません（不動産登記法48条1項）。
 
-**たとえば**、10戸のマンションを新築したとき、10戸すべてについて表題登記を申請することは必要です。しかし、その10戸分を必ず1枚の申請書にまとめなければならないわけではなく、全部そろって出てくるのであれば、申請書が複数枚に分かれていても受け付けてもらえるということです。
+ただし、この「一括申請」は、一棟の建物に属する区分建物の全部について申請がされていれば足り、各別の申請書によっても差し支えないとされています。
+
+つまり「一の申請情報によらなければならない」と言い切ってしまうと誤りで、全部そろって申請されるなら申請書が分かれていても構いません。
+
+**たとえば**、10戸のマンションを新築したとき、10戸すべてについて表題登記を申請することは必要です。
+
+しかし、その10戸分を必ず1枚の申請書にまとめなければならないわけではなく、全部そろって出てくるのであれば、申請書が複数枚に分かれていても受け付けてもらえるということです。
 
 ### オ：共有の区分建物の表題登記は、共有者の一人から申請できる
 
-区分建物の所有権が複数人の共有状態にあるときは、申請情報に共有者の持分を記録する必要があります。もっとも、表題登記の申請は現在の権利状態をありのままに記録する保存行為にあたるため、共有者の一人から申請することができます（民法252条5項）。全員がそろわなければ申請できない、というわけではありません。
+区分建物の所有権が複数人の共有状態にあるときは、申請情報に共有者の持分を記録する必要があります。
+
+もっとも、表題登記の申請は現在の権利状態をありのままに記録する保存行為にあたるため、共有者の一人から申請することができます（民法252条5項）。全員がそろわなければ申請できない、というわけではありません。
 
 **たとえば**、AさんとBさんが共同で新築したマンションの一室を持ち合っている場合、表題登記はAさん一人からでも申請できます。保存行為として認められているので、わざわざBさんの足並みをそろえるのを待たなくても、先に手続を進めることができるのです。
+
+---
 
 ### まとめ
 
@@ -108,12 +136,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・所 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -194,19 +240,19 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 建物の表題登記の問題文を読んだ瞬間に、「誰が表題部所有者になるか」「どの欄に何を記録するか」を見分けられるようにする5パネル構成。ア・ウは対比枠で正しいカテゴリーを見分け、イ・エは「思い込みがちな誤り」と「正しいルール」を対比させる正誤対比型、オは共有者の一人でも保存行為として申請できる流れを示す。
 
@@ -234,7 +280,7 @@ labeled illustrative diagram is sufficient — do not force a flowchart.
 Where a panel must contrast two categories rather than a sequence of
 conditions, split the panel into two side-by-side (or top/bottom) frames
 labeled with each category, so the reader sees which category the fact
-pattern belongs to. In Panel 1 (肢ア), render 株式会社Ｃ (the general
+pattern belongs to. In Panel 1 (ア), render 株式会社Ｃ (the general
 successor) in a faded or dotted-outline style rather than a plain ✕ mark
 next to the 表題部所有者 nameplate, so the visual itself communicates
 "this company never held original-acquirer status," not just "this is
@@ -249,7 +295,15 @@ body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -275,7 +329,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 合併で承継しても原始取得者にならない
@@ -296,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 原始取得者のまま
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 大字だけでは所在を特定できない
@@ -313,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 小字も記載必須
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 非区分建物の名称は所在欄に記録される
@@ -332,7 +386,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所在欄に記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 一括申請でも申請書は分けられる
@@ -351,7 +405,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 各別の申請書も可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 保存行為だから一人でも申請できる
@@ -376,10 +430,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建, 物, 登, 記, 承, 継, 権, 欄, 称, 存, 為 and any character
-that has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that Panel 1 renders 株式会社Ｃ

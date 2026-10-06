@@ -2,25 +2,31 @@
 
 **出題年度：令和元年度　午後の部　第2問**
 
-> Ａ、Ｂ及びＣが各3分の1の持分で甲土地を共有している場合に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲土地について、無権利者であるＤが単独で所有する旨の不実の登記をした場合には、Ａは、Ｂ及びＣの同意を得ない限り、Ｄに対して、その登記の抹消を請求することはできない。
->
-> イ　第三者Ｄが違法に甲土地を占有している場合には、Ａは、Ｂ及びＣの同意を得なくても、Ｄに対して、甲土地の明渡しを請求することができる。
->
-> ウ　ＡがＢ及びＣに無断で甲土地に変更を加える行為をしている場合において、Ｂは、Ｃの同意を得ていないときは、Ａに対して、当該行為の禁止を求めることはできない。
->
-> エ　第三者Ｄが違法に甲土地を占有している場合には、Ａは、Ｄに対して、Ｂ及びＣに生じた損害についての賠償を請求することができない。
->
-> オ　Ａ、Ｂ及びＣが共同して甲土地をＤに賃貸している場合において、Ｄに債務不履行があるときは、Ａは、Ｂ及びＣの同意を得なくても、当該賃貸借契約を解除することができる。
->
+> Ａ、Ｂ及びＣが各3分の1の持分で甲土地を共有している場合に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲土地について、無権利者であるＤが単独で所有する旨の不実の登記をした場合には、Ａは、Ｂ及びＣの同意を得ない限り、Ｄに対して、その登記の抹消を請求することはできない。  
+>　  
+> イ　第三者Ｄが違法に甲土地を占有している場合には、Ａは、Ｂ及びＣの同意を得なくても、Ｄに対して、甲土地の明渡しを請求することができる。  
+>　  
+> ウ　ＡがＢ及びＣに無断で甲土地に変更を加える行為をしている場合において、Ｂは、Ｃの同意を得ていないときは、Ａに対して、当該行為の禁止を求めることはできない。  
+>　  
+> エ　第三者Ｄが違法に甲土地を占有している場合には、Ａは、Ｄに対して、Ｂ及びＣに生じた損害についての賠償を請求することができない。  
+>　  
+> オ　Ａ、Ｂ及びＣが共同して甲土地をＤに賃貸している場合において、Ｄに債務不履行があるときは、Ａは、Ｂ及びＣの同意を得なくても、当該賃貸借契約を解除することができる。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-共有の分野では、ある行為が「保存行為（各共有者が単独でできる）」「管理行為（持分の価格の過半数で決める）」「変更行為（原則として共有者全員の同意が必要）」のどれにあたるのかを正確に振り分けられるかが問われます。加えて、共有物への侵害に対する請求は、どこまで単独でできてどこから持分に限られるのかも重要な論点です。
+---
+
+共有の分野では、ある行為が「保存行為（各共有者が単独でできる）」「管理行為（持分の価格の過半数で決める）」「変更行為（原則として共有者全員の同意が必要）」のどれにあたるのかを正確に振り分けられるかが問われます。
+
+加えて、共有物への侵害に対する請求は、どこまで単独でできてどこから持分に限られるのかも重要な論点です。
 
 ### ア：不実登記の抹消は、各共有者が単独で請求できる
 
-共有不動産について無権利者が単独所有の不実登記をした場合、その抹消登記手続の請求は、各共有者が自己の持分権に基づいて単独ですることができるというのが判例の立場です（民法252条5項）。妨害を除去して真実の権利状態に戻す保存行為だからです。ほかの共有者の同意を得ない限りできない、とする本肢は誤りです。
+共有不動産について無権利者が単独所有の不実登記をした場合、その抹消登記手続の請求は、各共有者が自己の持分権に基づいて単独ですることができるというのが判例の立場です（民法252条5項）。
+
+妨害を除去して真実の権利状態に戻す保存行為だからです。ほかの共有者の同意を得ない限りできない、とする本肢は誤りです。
 
 **たとえば**、三人で持っている土地を、まったくの他人が勝手に「自分ひとりの土地だ」と登記してしまったとき、共有者の一人が他の二人にいちいち了解を取らなくても、単独で「その登記を消せ」と言えるということです。
 
@@ -32,7 +38,9 @@
 
 ### ウ：無断の変更行為に対しては、単独で禁止・原状回復を求められる
 
-共有者の一人が他の共有者の同意を得ずに共有物へ変更を加えている場合、他の共有者は、原状回復が不能であるなどの特段の事情がない限り、自己の持分権に基づいて単独で、変更により生じた結果の除去（原状回復）を求めることができるというのが判例の立場です。同意を得ていないと禁止を求められない、とする本肢は誤りです。
+共有者の一人が他の共有者の同意を得ずに共有物へ変更を加えている場合、他の共有者は、原状回復が不能であるなどの特段の事情がない限り、自己の持分権に基づいて単独で、変更により生じた結果の除去（原状回復）を求めることができるというのが判例の立場です。
+
+同意を得ていないと禁止を求められない、とする本肢は誤りです。
 
 **たとえば**、三人共有の土地を、共有者の一人が勝手に掘り返して造成を始めてしまったとき、残りの共有者は、もう一人の同意を待たなくても、単独で「やめて元に戻せ」と言える、ということです。
 
@@ -47,6 +55,8 @@
 共有物を目的とする賃貸借契約の解除は、共有物の管理に関する事項として、持分の価格の過半数で決するものとされているというのが判例の立場です（民法252条1項）。Ａが他の共有者の同意なく単独で解除することはできず、本肢は誤りです。
 
 **たとえば**、三人で貸している土地について、借り手が家賃を払わないからといって、共有者の一人だけの判断で契約を打ち切ることはできず、持分の過半数の賛成が必要になる、ということです。
+
+---
 
 ### まとめ
 
@@ -68,7 +78,7 @@
 - 出題年度・問題番号（令和元年度午後第2問）と正解番号（4番＝イ・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の判例根拠のうち、ア（最判平15.7.11）、ウ（最判平10.3.24）、エ（最判昭41.3.3・最判昭51.9.7）、イ（大判大7.4.19）、オ（最判昭39.2.25）は判例番号まで確認できたものです。
 - **最新法令への準拠チェック（2026年8月実施）**：令和元年度の出題当時から、共有制度は令和5年4月1日施行の民法改正（民法等の一部を改正する法律・令和3年法律24号）で保存行為・管理行為・変更行為の項番号が整理されています。本記事は、この現行の条番号に準拠して更新済みです（保存行為＝民法252条5項〔ア・イ〕、管理行為＝民法252条1項〔オ〕、変更行為＝民法251条1項）。各肢の結論（正誤判定）自体は、改正前後を通じて変わっていません。引用した判例（最判平15.7.11、大判大7.4.19、最判平10.3.24、最判昭41.3.3・昭51.9.7、最判昭39.2.25）も現行法の下でなお妥当する先例として扱われています。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（共有者の権利行使の範囲・保存/管理/変更行為の区分）と同一・類似の問題が再出題されていないかを確認しました。候補には令和2年度第1問（権利能力なき社団の共有名義登記）、同第9問・第13問・第18問（分筆登記・附属建物登記・筆界特定の各手続における共有者の申請権限）、令和3年度第3問（遺産共有と共有物分割請求訴訟の可否）、令和6年度第15問・令和7年度第15問・第16問（区分建物の共有者申請、筆界特定における共有者の意見提出権）が挙がりましたが、いずれも登記手続や筆界特定手続、遺産分割といった別の具体的場面での「共有者」への言及にとどまり、本問が扱う不実登記の抹消請求・明渡請求・変更行為の禁止請求・持分に応じた損害賠償・賃貸借解除の各論点そのものを扱うものではなく、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。民法251条・252条各項の条文引用をローカル法令データベース（laws/minpou-1-soukyoku-bukken.md）と突き合わせ、いずれも一致することを確認しました。本文への判例番号・先例番号の記載、Markdown表の残存、見出しの先出し、常体・半角括弧の混入は見当たらず、修正は行っていません。正誤判定・正解の組合せに変更はありません。
 
@@ -110,16 +120,34 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・登・記 — these must be rendered in their standard Japanese
+kanji 登・記 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-共有者は一人でどこまでできる?
+共有者は一人でどこまでできる？
 保存・管理・変更の線引き
 
 Subtitle (smaller, centered, 1行):
@@ -196,18 +224,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -230,8 +258,8 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is
-sufficient — do not force a flowchart. Panels 1, 2, 3, and 5 (肢ア・肢
-イ・肢ウ・肢オ) all reuse the same three-path signpost illustration
+sufficient — do not force a flowchart. Panels 1, 2, 3, and 5 (ア・肢
+イ・ウ・オ) all reuse the same three-path signpost illustration
 （保存行為・管理行為・変更行為）; each panel highlights（太い縁取り・色を
 変える等で強調）only the one path that applies to that panel's 肢, so
 readers see the same classification tool applied four times. Unlike a
@@ -244,7 +272,15 @@ fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -268,7 +304,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 不実登記の抹消は保存行為で単独可
@@ -290,7 +326,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為だから単独可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 不法占有者への明渡請求も保存行為
@@ -309,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為だから単独可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 無断変更への差止め・原状回復も保存行為
@@ -329,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為だから単独可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 損害賠償は持分の割合分のみ
@@ -346,7 +382,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分の範囲内のみ
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 賃貸借契約の解除は管理行為で過半数
@@ -371,13 +407,13 @@ Small footnote text (bottom of panel, small font, verbatim):
 整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権, 過, 半, 変, 更, 単, 独, 処 and any character that has a
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権, 過, 半, 変, 更, 単, 独 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that Panels 1・2・3・5(肢ア・イ・ウ・
+between the header and the panels, that Panels 1・2・3・5(ア・イ・ウ・
 オ) all reuse the same three-path signpost diagram with only the relevant
 path highlighted (not a bare illustration with no visible decision
 structure), that each 着眼点 callout states a checking order rather than

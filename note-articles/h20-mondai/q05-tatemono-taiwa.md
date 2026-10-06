@@ -2,33 +2,41 @@
 
 **出題年度：平成20年度　午後の部　第5問**
 
-> 建物に関する次の教授と学生との対話（教授の質問に対する学生の解答）のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　外壁材をすべて張り替え、屋根材まで変更する大規模な改修工事を行ったので、建物の表題部の変更の登記が必要である。
->
-> イ　増築部分が区分建物の要件を満たさない場合には、AとBを共有者として、床面積の増加による表題部の変更の登記を申請する。
->
-> ウ　建物が未登記の場合には、表題部の変更の登記をすることができないので、AとBを共有者とする表題登記を申請する。
->
-> エ　附属建物を取り壊した場合には、建物の滅失の登記ではなく、建物の表題部の変更の登記を申請する。
->
-> オ　種類・構造・床面積がすべて同一で、位置も同一であれば、建物図面及び各階平面図の変更は不要で、表題部の変更の登記も必要ない。
->
+> 建物に関する次の教授と学生との対話（教授の質問に対する学生の解答）のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　外壁材をすべて張り替え、屋根材まで変更する大規模な改修工事を行ったので、建物の表題部の変更の登記が必要である。  
+>　  
+> イ　増築部分が区分建物の要件を満たさない場合には、AとBを共有者として、床面積の増加による表題部の変更の登記を申請する。  
+>　  
+> ウ　建物が未登記の場合には、表題部の変更の登記をすることができないので、AとBを共有者とする表題登記を申請する。  
+>　  
+> エ　附属建物を取り壊した場合には、建物の滅失の登記ではなく、建物の表題部の変更の登記を申請する。  
+>　  
+> オ　種類・構造・床面積がすべて同一で、位置も同一であれば、建物図面及び各階平面図の変更は不要で、表題部の変更の登記も必要ない。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+
+---
 
 建物にまつわる工事があったとき、それが「表題部の変更の登記」なのか、「表題登記（新築の登記）」なのか、「滅失の登記」なのかを見分ける問題です。登記事項（種類・構造・床面積など）が実際に動いたかどうかがポイントになります。
 
 ### ア：外壁・屋根の改修だけでは、変更登記は必要ない
 
-建物の表題部の変更の登記が必要になるのは、不動産登記法51条1項が定めるとおり、同法44条1項各号の登記事項（所在、家屋番号、種類、構造、床面積など）に変更があったときです。外壁材や屋根材を張り替えるだけの改修では、これらの登記事項は基本的に変わりません。したがって「表題部の変更の登記が必要」とする本肢は誤りです。
+建物の表題部の変更の登記が必要になるのは、不動産登記法51条1項が定めるとおり、同法44条1項各号の登記事項（所在、家屋番号、種類、構造、床面積など）に変更があったときです。
+
+外壁材や屋根材を張り替えるだけの改修では、これらの登記事項は基本的に変わりません。したがって「表題部の変更の登記が必要」とする本肢は誤りです。
 
 **たとえば**、古くなった家の外壁と屋根をリフォームしてきれいにしても、木造2階建て・床面積◯㎡という登記の中身が変わらなければ、登記をやり直す必要はありません。見た目が新しくなっても、登記簿の記載は同じままでよいのです。
 
 ### イ：増築部分がAとBの共有になるとは限らない
 
-増築部分が区分建物の要件（構造上・利用上の独立性）を満たさない場合、その増築部分は既存の建物に付合し、既存建物の所有者のものになります（民法242条本文）。したがって、増築の費用を出しただけのBが当然に共有者になるわけではなく、「AとBを共有者として」変更登記をするという結論は誤りです。
+増築部分が区分建物の要件（構造上・利用上の独立性）を満たさない場合、その増築部分は既存の建物に付合し、既存建物の所有者のものになります（民法242条本文）。
 
-**たとえば**、A所有の家に、Bがお金を出して独立性のない部屋を継ぎ足した場合でも、その部屋は家に一体化してA所有となります。床面積の増加による表題部変更の登記はしますが、それだけでBが所有者に加わるわけではないのです（Bの持分は、別途の合意や登記の問題として処理されます）。
+したがって、増築の費用を出しただけのBが当然に共有者になるわけではなく、「AとBを共有者として」変更登記をするという結論は誤りです。
+
+**たとえば**、A所有の家に、Bがお金を出して独立性のない部屋を継ぎ足した場合でも、その部屋は家に一体化してA所有となります。
+
+床面積の増加による表題部変更の登記はしますが、それだけでBが所有者に加わるわけではないのです（Bの持分は、別途の合意や登記の問題として処理されます）。
 
 ### ウ：未登記の建物は、まず表題登記を申請する
 
@@ -44,9 +52,13 @@
 
 ### オ：すべて同一でも、建て替えなら滅失＋表題登記が必要
 
-種類・構造・床面積・位置がすべて同一であっても、いったん建物を取り壊して同じような建物を新築した場合には、旧建物は別個の建物として滅失し、新建物が新たに生じています。そのため、旧建物の滅失の登記と新建物の表題登記が必要で、「何の登記も要らない」わけではありません。したがって本肢は誤りです。
+種類・構造・床面積・位置がすべて同一であっても、いったん建物を取り壊して同じような建物を新築した場合には、旧建物は別個の建物として滅失し、新建物が新たに生じています。
+
+そのため、旧建物の滅失の登記と新建物の表題登記が必要で、「何の登記も要らない」わけではありません。したがって本肢は誤りです。
 
 **たとえば**、老朽化した家を取り壊し、同じ間取り・同じ広さ・同じ場所に新しい家を建て替えたとしても、登記の世界では「古い家は滅失」「新しい家は新築」と扱われ、それぞれ滅失の登記と表題登記が必要になります。
+
+---
 
 ### まとめ
 
@@ -66,9 +78,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝ウ・エが正しい）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行法との整合性を再検証しました。判定の修正は不要でした】** 建物の表題部の変更の登記の根拠である**不動産登記法51条1項**（44条1項各号の登記事項に変更があったときは、表題部所有者又は所有権の登記名義人が1月以内に変更の登記を申請しなければならない）と、登記事項を列挙する**44条1項**（所在、家屋番号、種類、構造、床面積、附属建物があるときはその所在・種類・構造・床面積など）は、現行条文でも同じ位置にあることを確認し、肢アに条文番号を補いました。表題登記は同法47条、滅失の登記は同法57条です。
+- **【2026年8月4日 現行法との整合性を再検証しました。判定の修正は不要でした】** 建物の表題部の変更の登記の根拠である**不動産登記法51条1項**（44条1項各号の登記事項に変更があったときは、表題部所有者又は所有権の登記名義人が1月以内に変更の登記を申請しなければならない）と、登記事項を列挙する**44条1項**（所在、家屋番号、種類、構造、床面積、附属建物があるときはその所在・種類・構造・床面積など）は、現行条文でも同じ位置にあることを確認し、アに条文番号を補いました。表題登記は同法47条、滅失の登記は同法57条です。
 - 本問はもともと教授と学生の対話形式で出題されたものです。手元のデータベースには各解答の要旨（ア〜オ）は保存されていましたが、対話の細かな設定（登場人物A・Bの関係など）までは残っていなかったため、引用部分の対話の前提はデータベースの要旨に沿って再構成しています。イ（増築部分の帰属）とオ（全項目同一の場合）の説明は、公式正答（正解4番＝ウエ）に整合するように、附合の原則・建て替えの取扱いという一般原則から補って説明したもので、当時の先例の逐一確認まではしていません。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、肢イ・エの条文根拠を補いました】** `fudousan-touki-hou.md`で**44条1項**（1号所在・2号家屋番号・3号種類構造床面積・**5号附属建物の所在等**・7号一棟の建物の構造及び床面積）、**51条1項**（変更の登記の申請義務）、**47条1項**（新築した建物は所有権取得の日から1月以内に表題登記）、**57条**（滅失の登記）を原文で確認しました。あわせて`minpou-1-soukyoku-bukken.md`で**民法242条**（不動産の付合。条文の表記は「附合」ではなく「**付合**」）を確認し、肢イの根拠として明記しました。肢エについては、附属建物が44条1項5号の登記事項であることから51条1項の変更の登記になる、という条文の道筋を本文に補いました。正誤の結論は変わりません。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証し、イ・エの条文根拠を補いました】** `fudousan-touki-hou.md`で**44条1項**（1号所在・2号家屋番号・3号種類構造床面積・**5号附属建物の所在等**・7号一棟の建物の構造及び床面積）、**51条1項**（変更の登記の申請義務）、**47条1項**（新築した建物は所有権取得の日から1月以内に表題登記）、**57条**（滅失の登記）を原文で確認しました。あわせて`minpou-1-soukyoku-bukken.md`で**民法242条**（不動産の付合。条文の表記は「附合」ではなく「**付合**」）を確認し、イの根拠として明記しました。エについては、附属建物が44条1項5号の登記事項であることから51条1項の変更の登記になる、という条文の道筋を本文に補いました。正誤の結論は変わりません。
 - ウ・エ（未登記建物の表題登記、附属建物取壊しの表題部変更登記）は、表示に関する登記の基本的な取扱いに基づく説明です。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を対話形式・「大規模改修工事」「附属建物の取壊し」等のキーワードで確認しました。完全一致するフレーズや事例は見当たりませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
 
@@ -84,7 +96,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -107,10 +119,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -180,19 +210,19 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -211,11 +241,11 @@ before and after construction work, a crumbled-rubble icon for a
 demolished building, a small extra-room icon for an増築部分（増築された
 部屋）, document icons showing a number or label being rewritten, and
 character icons for A and B (増築費用を出した人). Panels 1・3・4・5 (肢
-ア・肢ウ・肢エ・肢オ) all share the same three-step decision tree (建物は
+ア・ウ・エ・オ) all share the same three-step decision tree (建物は
 すでに登記されているか → 建物本体が消滅し新たに生じたか〔建て替えか〕 →
 登記事項に変更があるか), so render that shared tree in every one of these
 panels and highlight only the branch relevant to that panel, fading the
-rest; Panel 2 (肢イ) does not use this tree and instead shows a
+rest; Panel 2 (イ) does not use this tree and instead shows a
 relationship diagram of 付合（増築部分が既存の建物に一体化する様子）rather
 than a flowchart. Where a 肢 requires checking multiple conditions in
 sequence before reaching a conclusion, draw the panel's diagram as an
@@ -280,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line):
 登記事項が変わらなければ登記不要
@@ -303,7 +333,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 登記事項に変動なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line):
 独立性のない増築部分はA単独所有
@@ -322,7 +352,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 付合によりA単独所有
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line):
 未登記の建物はまず表題登記から
@@ -342,7 +372,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 表題登記が先
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line):
 附属建物だけの取壊しは変更登記
@@ -361,7 +391,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 滅失登記ではない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line):
 建て替えなら滅失と表題登記の両方

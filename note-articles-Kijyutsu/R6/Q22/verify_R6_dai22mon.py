@@ -175,4 +175,116 @@ print(('OK ' if ok else 'NG ') + f'タイトル形式（見出し{len(sub)}文�
 check('見出し画像のサブタイトル', '〜' + sub + '〜', thumb, '見出し画像')
 check('見出し画像のタイトル', '令和6年度問題22（建物）', thumb, '見出し画像')
 
+# ---- note向けの体裁（2026-09-29追加）：話者名の行末に半角スペース2つ、名前の次の行がセリフ、最後が区切り線 ----
+import re
+lines = text.splitlines()
+bad_speaker = [i + 1 for i, l in enumerate(lines)
+               if l.rstrip() in ('**トリ先生**', '**藍子**') and (not l.endswith('  ') or not lines[i + 1].startswith('「'))]
+ng += bool(bad_speaker)
+print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
+ok = lines[-1] == '---'
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
+# 同じ話者のセリフが続いていないか（章の頭で区切る。画像挿入マーカーをはさんでも続きとみなす）
+prev = None
+for i, line in enumerate(lines):
+    if line.startswith('## '):
+        prev = None
+    elif line in ('**トリ先生**  ', '**藍子**  '):
+        ok = line != prev
+        ng += (not ok)
+        if not ok:
+            print('NG 同じ話者の連続 :', i + 1)
+        prev = line
+# 注の書き分け：問題文の注（1〜5）と、図面（図1〜図3）についての注（1〜6）を区別して書く
+bare = [m.start() for m in re.finditer(r'注[0-9]', text) if not text[:m.start()].endswith(('問題文の', '図面の'))]
+ok = not bare
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'注の書き分け（「問題文の注N」「図面の注N」） : 書き分けていない箇所 {len(bare)}')
+for bad in ['✕', '✓', '名変']:
+    absent('記号・略語', bad)
+check('解く順番', '問1は、別紙を読まなくても準則の知識だけで埋められるから、問題を開いたら真っ先に片付けなさい')
+check('寸法線の累計メモ', '足した累計を図の上下と左右にメモしておけば')
+
+# ---- 画像（2026-09-29生成、2026-10-02更新）：記事の画像挿入マーカー12か所と zu/ のPNGの対応 ----
+from PIL import Image
+ZU = os.path.join(HERE, 'zu')
+markers = [l for l in lines if l.startswith('> 【画像挿入】')]
+PNGS = [('R6_dai22mon_zu01_a_bubun_keiro', '（あ）部分の2階へ入るための唯一の経路', (1600, 1000)),
+        ('R6_dai22mon_dai4ran_kansei', '第4欄（問4）の完成形', 'wide'),
+        ('R6_dai22mon_zu02_shikichi_henchou', '作図チェック用の辺長', (1600, 1050)),
+        ('R6_dai22mon_zu03_tatemono_zumen', '建物図面の完成形（答案用紙の第3欄の建物図面の枠の中', (1600, 1300)),
+        ('R6_dai22mon_zu04_1kai_ayamari_hikaku', '左に「誤り＝母屋に（あ）部分の車庫と出窓まで加えた', (1800, 850)),
+        ('R6_dai22mon_zu05_1kai_kyuuseki', '1階の床面積求積図', (1600, 1100)),
+        ('R6_dai22mon_zu06_2kai_kyuuseki', '2階の床面積求積図', (1700, 1100)),
+        ('R6_dai22mon_zu07_kakukai_heimenzu', '各階平面図の完成形（答案用紙の第3欄の各階平面図の枠の中', (1800, 1300)),
+        ('R6_dai22mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
+        ('R6_dai22mon_toukishinseisho_machigai', '「共有者」欄の①誤答', 'tall'),
+        ('R6_dai22mon_toukishinseisho_kansei', '登記申請書（問2）の完成形', 'tall'),
+        ('R6_dai22mon_zu08_toku_junban', '本番で解く順番の整理図', (1600, 800))]
+ok = len(markers) == len(PNGS)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカーの数 : {len(markers)}／PNG {len(PNGS)}枚（解説図8・第1欄・第4欄・添削・申請書の完成形）')
+for (name, key, size), m in zip(PNGS, markers):
+    path = os.path.join(ZU, name + '.png')
+    ok = os.path.exists(path) and key in m
+    if ok:
+        w, h = Image.open(path).size
+        ok = (w == 1200 and h > w) if size == 'tall' else (w == 1200 and h < w) if size == 'wide' else (w, h) == size
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'PNG（マーカー順・大きさ） : {name}')
+    check('プロンプトにファイル名', f'zu/{name}.png', fig + form + fix, 'プロンプト')
+extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for n, _, _ in PNGS})
+ok = not extra
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'zu/ に記事で使わないPNGがない : {extra}')
+
+# ---- 穴埋め（問1のア〜エ・問4の①②）の答えの語を会話で明示しているか（2026-10-02追加。R5/Q22の教訓）----
+check('問1 ア〜エの語', 'ア＝確認、イ＝検査、ウ＝建築請負人、エ＝固定資産税ですね')
+check('問1 アとイは順不同', 'アとイは問題文で順不同とされているから')
+check('問4 ①②の語', '第4欄には、①構造上、②利用上と書きます')
+check('保存行為の条文', '保存行為（民法第252条第5項）')
+check('工事完了引渡証明書と印鑑証明書', '会社が出す証明書だから、会社の印鑑証明書を添えるの')
+check('第3欄の上の欄', '家屋番号は登記所が付けるので空けておき、建物の所在は『A市B町三丁目16番地13』')
+check('解く順番（計算のいる欄）', '申請書で計算がいるのは、1階68.85と2階71.68の2か所だけ')
+check('解く順番（いちばん時間を食う）', '寸法線を足して2階の床面積を出すところと、第3欄の作図よ')
+for n in ['### 答案用紙の欄の枠', 'public/kijutsu/R06-tatemono/a2.png', '## 図7：各階平面図の完成形', '## 図8：本番で解く順番の整理図',
+          '（令和6年○月○日作成）', '6.75−6.30＝0.45']:
+    check('解説図プロンプト（第3欄の枠・図7・図8）', n, fig, '解説図')
+
+
+def html_has(name, *needles, bad=()):
+    global ng
+    h = open(os.path.join(ZU, name + '.html'), encoding='utf-8').read()
+    for n in needles:
+        ok = n in h
+        ng += (not ok)
+        print(('OK ' if ok else 'NG ') + f'{name}.html : {n}')
+    for n in bad:
+        ok = n not in h
+        ng += (not ok)
+        print(('OK ' if ok else 'NG ') + f'{name}.html に無い : {n}')
+
+
+html_has('R6_dai22mon_toukishinseisho_kansei', '建物表題登記', '建物図面　各階平面図　所有権証明書　住所証明書', '代理権限証書',
+         '令和６年10月18日　申請　Ａ地方法務局', 'Ａ市Ｂ町三丁目16番地13　　甲　野　桜　子', 'Ａ市Ｂ町三丁目16番地13',
+         '居宅', '木造合金メッキ', '鋼板ぶき２階建', '1階68', '>85<', '2階71', '>68<', '令和６年９月30日新築',
+         '持分', '５分の３', '甲野松雄', '５分の２', '甲野桜子', '（略）',
+         bad=('登録免許税', '登記識別情報', '印鑑証明書', '71.69'))
+html_has('R6_dai22mon_dai1ran_kansei', '第1欄', '>確認<', '>検査<', '>建築請負人<', '>固定資産税<', bad=('登録免許税',))
+html_has('R6_dai22mon_dai4ran_kansei', '第4欄', '>構造上<', '>利用上<')
+html_has('R6_dai22mon_toukishinseisho_machigai', '所有者', '共有者', '甲野松雄', '５分の３', '５分の２', '申請人（手続をする人）')
+check('添削：縦に積む', '3コマを縦に積む', fix, '添削')
+absent('横1800px', '1800px', fix, '添削')
+absent('記号', '✓', fix, '添削')
+absent('記号（図の見出し）', '✕ 藍子', fig, '解説図')
+drw = open(os.path.join(ZU, 'draw_R6_dai22mon_kaisetsuzu.py'), encoding='utf-8').read()
+fits = re.findall(r'\bfit\(ax[^\n]*', drw) + re.findall(r'\bfit\(axes\[[01]\][^\n]*', drw)
+ok = fits and all('pad_aspect=True' in f for f in fits)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'作図の fit はすべて pad_aspect=True（{len(fits)}か所）')
+for s in ['== 68.85', '== 57.51', '== 14.175', '== 71.685', '== 0.81', '== 260.0', '== F1_LAB', '== F2_LAB',
+          "'A市B町三丁目16番地13', fs=16, ha='left', color=INK)", '（令和6年○月○日作成）', 'R6_dai22mon_zu08_toku_junban']:
+    check('作図スクリプトの面積の assert', s, drw, '作図')
+
 print('NG件数:', ng)

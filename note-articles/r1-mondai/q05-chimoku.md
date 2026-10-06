@@ -2,35 +2,45 @@
 
 **出題年度：令和元年度　午後の部　第5問**
 
-> 地目に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　下の〔図〕のとおりガソリンスタンドとして使用されている土地の地目は、その事務所が附随的なものであるときは、当該事務所が存する部分も含めて雑種地である。
->
-> イ　宅地に接続して設けられた屋外プールの土地の地目は、雑種地である。
->
-> ウ　専ら給水の目的で敷設された取水口から浄水場までの水路の用に供する土地の地目は、水道用地である。
->
-> エ　用水を利用して「わさび」を肥培管理する土地の地目は、田である。
->
-> オ　耕作の方法によらずに竹木が生育する土地の地目は、原野である。
->
-> 〔図〕　事務所／歩道／車道／固定給油設備／固定給油設備／車両停止位置／車両動線
->
+> 地目に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　下の〔図〕のとおりガソリンスタンドとして使用されている土地の地目は、その事務所が附随的なものであるときは、当該事務所が存する部分も含めて雑種地である。  
+>　  
+> イ　宅地に接続して設けられた屋外プールの土地の地目は、雑種地である。  
+>　  
+> ウ　専ら給水の目的で敷設された取水口から浄水場までの水路の用に供する土地の地目は、水道用地である。  
+>　  
+> エ　用水を利用して「わさび」を肥培管理する土地の地目は、田である。  
+>　  
+> オ　耕作の方法によらずに竹木が生育する土地の地目は、原野である。  
+>　  
+> 〔図〕　事務所／歩道／車道／固定給油設備／固定給油設備／車両停止位置／車両動線  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-地目の認定は、不動産登記事務取扱手続準則（以下「準則」）第68条・第69条に列挙された23種類の地目の定義に、目の前の土地の現況を当てはめて判断する分野です。似た言葉（竹木と雑草、宅地に接続するか否か）で結論が変わるため、定義の細部を正確に覚えているかが勝負になります。
+---
+
+地目の認定は、不動産登記事務取扱手続準則（以下「準則」）第68条・第69条に列挙された23種類の地目の定義に、目の前の土地の現況を当てはめて判断する分野です。
+
+似た言葉（竹木と雑草、宅地に接続するか否か）で結論が変わるため、定義の細部を正確に覚えているかが勝負になります。
 
 ### ア：ガソリンスタンドは、附随的な事務所部分も含めて全体が雑種地
 
-ガソリンスタンドの敷地は、駐車場・ゴルフ場・飛行場などと並ぶ代表的な雑種地です。給油設備のある敷地に事務所が建っていても、その事務所が給油業務に附随する従属的なものにすぎない場合は、事務所部分だけを宅地に切り分けず、敷地全体を一団の雑種地として認定します。
+ガソリンスタンドの敷地は、駐車場・ゴルフ場・飛行場などと並ぶ代表的な雑種地です。
 
-**たとえば**、幹線道路沿いのガソリンスタンドで、給油機の脇に小さな料金精算用のプレハブ事務所がぽつんと建っているような場面を思い浮かべてください。この事務所はあくまで給油という主目的に付いてくるおまけなので、「事務所の下だけ宅地」とはせず、スタンドの敷地全体を雑種地として扱います。
+給油設備のある敷地に事務所が建っていても、その事務所が給油業務に附随する従属的なものにすぎない場合は、事務所部分だけを宅地に切り分けず、敷地全体を一団の雑種地として認定します。
+
+**たとえば**、幹線道路沿いのガソリンスタンドで、給油機の脇に小さな料金精算用のプレハブ事務所がぽつんと建っているような場面を思い浮かべてください。
+
+この事務所はあくまで給油という主目的に付いてくるおまけなので、「事務所の下だけ宅地」とはせず、スタンドの敷地全体を雑種地として扱います。
 
 ### イ：宅地に接続する屋外プールの土地は、雑種地ではなく「宅地」
 
 プールやテニスコートの敷地は、宅地に接続するものは宅地とし、宅地に接続しないものは雑種地として取り扱います（準則69条9号）。本肢の屋外プールは「宅地に接続して設けられた」ものですから、その地目は雑種地ではなく宅地です。
 
-**たとえば**、自宅の建物のすぐ裏手に、庭続きで家庭用の屋外プールを設けたとします。この場合、プールは住宅の敷地と一体のものとみなされ、地目は雑種地ではなく宅地になります。逆に、住宅から離れた河川敷そばの空き地に単独でプールだけを造れば、そちらは雑種地です。
+**たとえば**、自宅の建物のすぐ裏手に、庭続きで家庭用の屋外プールを設けたとします。
+
+この場合、プールは住宅の敷地と一体のものとみなされ、地目は雑種地ではなく宅地になります。逆に、住宅から離れた河川敷そばの空き地に単独でプールだけを造れば、そちらは雑種地です。
 
 ### ウ：給水目的の水路の用に供する土地は、水道用地
 
@@ -46,9 +56,15 @@
 
 ### オ：耕作の方法によらずに竹木が生育する土地は、原野ではなく「山林」
 
-耕作の方法によらないで竹木が生育する土地の地目は、山林です（準則68条9号）。一方、原野は、耕作の方法によらないで雑草やかん木類が生育する土地をいいます。本肢は「竹木」が生育する土地ですから、原野ではなく山林が正解です。竹木か雑草・かん木かで地目が分かれる点が引っかけです。
+耕作の方法によらないで竹木が生育する土地の地目は、山林です（準則68条9号）。一方、原野は、耕作の方法によらないで雑草やかん木類が生育する土地をいいます。
 
-**たとえば**、誰も手を入れていない斜面に、杉や雑木がうっそうと自生している土地を思い浮かべてください。木が生い茂っていれば山林であり、これがススキなどの草やかん木ばかりの荒れ地であれば原野になります。生えているのが「木」か「草」かで呼び名が変わるわけです。
+本肢は「竹木」が生育する土地ですから、原野ではなく山林が正解です。竹木か雑草・かん木かで地目が分かれる点が引っかけです。
+
+**たとえば**、誰も手を入れていない斜面に、杉や雑木がうっそうと自生している土地を思い浮かべてください。
+
+木が生い茂っていれば山林であり、これがススキなどの草やかん木ばかりの荒れ地であれば原野になります。生えているのが「木」か「草」かで呼び名が変わるわけです。
+
+---
 
 ### まとめ
 
@@ -70,10 +86,10 @@
 - 出題年度・問題番号・正解番号（3番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、イ（宅地に接続するプール＝準則69条9号）、ウ（水道用地＝準則68条15号）、エ（田＝準則68条1号）、オ（山林＝準則68条9号／原野は雑草・かん木類）は、データベースのexplanationフィールドで準則の号数まで確認できたものです。なお号数の並びは、準則68条各号が「田・畑・宅地…池沼・山林…原野…水道用地…」の順であることを前提としています。
 - 一方、ア（附随的な事務所を含めガソリンスタンド全体を雑種地とする扱い）は、雑種地の代表例としての位置づけからの推論にとどまり、条文・先例の番号までは特定できていません。断定的な根拠が必要な場合は準則69条の具体的な認定規定を別途ご確認ください。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（地目の認定）と同一・類似の問題が再出題されていないかを確認しました。候補のうち令和2年度第6問のウの肢「ゴルフ場として一団で利用されている数筆の土地は、建物がその敷地利用に付随的なものに過ぎないときは全部を一団として雑種地とする」は、本問アのガソリンスタンドの事務所部分を含めて全体を雑種地とする扱いと同じく、「施設に付随的な建物がある場合は全体を一団として雑種地とする」という同一の準則69条7号の論点を、異なる具体的施設（ゴルフ場とガソリンスタンド）で問うており、**部分的に類似する記述があります**。同問の他の肢（畑から宅地への認定時期、マンション駐車場、海産物乾燥場、地下鉄道用地）、令和2年度第7問（地目変更登記の手続）、令和3年度第10問（擁壁・ため池・墓地・境内地・仮設事務所）、令和4年度第6問（石油タンク・鉱泉地・堤・井溝・テニスコートと公園）、令和5年度第8問（学校用地・高圧線下・水路・牧場・霊園）は、本問のプール・水道用地・田・山林の各論点とは異なります。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：本文で引用している準則68条1号（田）・9号（山林）・15号（水道用地）、69条9号（宅地に接続する屋外プール）について、WebSearchで現行の準則の内容と一致することを確認しました。準則は令和6年12月2日付で最終改正されていますが、この改正はマイナンバー法改正に伴う登記事務の取扱いに関するもの（同日付法務省民二第1676号）であり、地目の定義を扱う68条・69条とは無関係と判断しました。地目の定義・号数の変更を示す情報は見つかりませんでした。**修正すべき点はなく、記事の記述に変更はありません。**
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。肢ウ（水道用地）の本文解説が、準則68条15号の原文「水源地、貯水池、ろ水場又は水道線路に要する土地」に存在しない「管理事務所」を含んで列挙していた誤記載を発見し、原文どおりの列挙（水源地・貯水池・濾水場・水道線路）に修正しました。インフォグラフィックのカード内容は元々「管理事務所」を含んでいなかったため、修正は不要でした。それ以外の各肢の準則68条・69条各号の条文引用は原文と一致することを確認しました。正誤判定・正解の組合せに変更はありません。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ウ（水道用地）の本文解説が、準則68条15号の原文「水源地、貯水池、ろ水場又は水道線路に要する土地」に存在しない「管理事務所」を含んで列挙していた誤記載を発見し、原文どおりの列挙（水源地・貯水池・濾水場・水道線路）に修正しました。インフォグラフィックのカード内容は元々「管理事務所」を含んでいなかったため、修正は不要でした。それ以外の各肢の準則68条・69条各号の条文引用は原文と一致することを確認しました。正誤判定・正解の組合せに変更はありません。
 
 ---
 
@@ -113,16 +129,34 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・建・号・雑 — these must be rendered in their standard Japanese
+kanji 地・雑 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-その土地、なに地目?
+その土地、なに地目？
 プールと竹木で差がつく準則の当てはめ
 
 Subtitle (smaller, centered, 1行):
@@ -194,20 +228,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「その現況は何の目的の施設か」「宅地に接続しているか」「生えているのは竹木か雑草か」という地目認定の分かれ道をどの順番で確認するかを、肢ごとに配置図・系統図・決定木で示す構成。②の結論ポスターとは別に、5肢それぞれの思考の手順を1枚ずつのパネルで追体験できるようにする。
 
@@ -255,7 +289,15 @@ checks if the source article treats them as two distinct requirements).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -281,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -301,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一団として雑種地
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 プールは宅地に接続しているかで分かれる
@@ -321,7 +363,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 接続すれば宅地
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 取水口から浄水場までを一続きでたどる
@@ -341,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取水口から水道用地
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 用水と耕作、二つの要件を順に確かめる
@@ -358,7 +400,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 用水+耕作で田
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 生えているのが竹木か雑草かで見分ける
@@ -384,10 +426,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 (水道用地)・69条9号(宅地に接続するプール)を参照。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 雑・給・浄・培・号・地・建. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 雑・給・浄・培・号・地. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 is drawn as an
 actual flowchart with branch nodes (not a bare illustration with no

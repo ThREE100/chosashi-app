@@ -2,23 +2,33 @@
 
 **出題年度：平成29年度　午後の部　第13問**
 
-> 土地の表示に関する登記に関する次のアからオまでの記述のうち，Ａ欄に記載した登記原因たる事実が生じた場合に申請又は嘱託をすることになるＢ欄に記載した登記の目的の組合せとして，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> - **ア**　Ａ欄：分筆線を誤って申請されたことによる分筆の登記を是正する場合　→　Ｂ欄：地積に関する更正の登記
-> - **イ**　Ａ欄：天災等の自然現象によって一筆の土地の一部が常時海面下に没する状態になった場合　→　Ｂ欄：地積に関する変更の登記
-> - **ウ**　Ａ欄：天災等の自然現象によって一筆の土地の全部が海面下に没したが，その状態が一時的なものである場合　→　Ｂ欄：滅失の登記
-> - **エ**　Ａ欄：一筆の土地の全部が河川法第6条第1項の河川区域内の土地になった場合　→　Ｂ欄：河川区域内の土地である旨の登記
-> - **オ**　Ａ欄：河川法第6条第1項の河川区域内の一筆の土地の一部が滅失した場合　→　Ｂ欄：分筆及び滅失の登記
->
-> （参考）河川法第6条第1項……「河川区域」とは、河川の流水が継続して存する土地等の区域をいう（洪水その他異常な天然現象により一時的にその状況を呈している土地を除く）。
->
+> 土地の表示に関する登記に関する次のアからオまでの記述のうち，Ａ欄に記載した登記原因たる事実が生じた場合に申請又は嘱託をすることになるＢ欄に記載した登記の目的の組合せとして，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> - **ア**　Ａ欄：分筆線を誤って申請されたことによる分筆の登記を是正する場合　→　Ｂ欄：地積に関する更正の登記  
+>　  
+> - **イ**　Ａ欄：天災等の自然現象によって一筆の土地の一部が常時海面下に没する状態になった場合　→　Ｂ欄：地積に関する変更の登記  
+>　  
+> - **ウ**　Ａ欄：天災等の自然現象によって一筆の土地の全部が海面下に没したが，その状態が一時的なものである場合　→　Ｂ欄：滅失の登記  
+>　  
+> - **エ**　Ａ欄：一筆の土地の全部が河川法第6条第1項の河川区域内の土地になった場合　→　Ｂ欄：河川区域内の土地である旨の登記  
+>　  
+> - **オ**　Ａ欄：河川法第6条第1項の河川区域内の一筆の土地の一部が滅失した場合　→　Ｂ欄：分筆及び滅失の登記  
+>　  
+> （参考）河川法第6条第1項……「河川区域」とは、河川の流水が継続して存する土地等の区域をいう（洪水その他異常な天然現象により一時的にその状況を呈している土地を除く）。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-この問題は、「こういう出来事が起きたとき（Ａ欄）、どんな登記をするのか（Ｂ欄）」の組合せが正しいかを問うものです。特に、土地が海に沈んだり川になったりしたときに、「地積の変更」なのか「滅失」なのか、それとも「所有権が消えない（登記しない）」のかを、状態が恒久的か一時的かで区別できるかがカギになります。
+---
+
+この問題は、「こういう出来事が起きたとき（Ａ欄）、どんな登記をするのか（Ｂ欄）」の組合せが正しいかを問うものです。
+
+特に、土地が海に沈んだり川になったりしたときに、「地積の変更」なのか「滅失」なのか、それとも「所有権が消えない（登記しない）」のかを、状態が恒久的か一時的かで区別できるかがカギになります。
 
 ### ア：誤った分筆の是正は「地積の更正登記」ではできない
 
-甲地の一部を乙地とする分筆の登記で、分筆線の位置を誤って申請し、そのまま登記が完了してしまった場合、その分筆線の位置を地積の更正の登記で直すことはできません。この場合は、分筆錯誤を原因として分筆の登記を抹消し、改めて正しい分筆線で分筆の登記を申請することになります。したがってＡ欄とＢ欄の組合せは誤りです。
+甲地の一部を乙地とする分筆の登記で、分筆線の位置を誤って申請し、そのまま登記が完了してしまった場合、その分筆線の位置を地積の更正の登記で直すことはできません。
+
+この場合は、分筆錯誤を原因として分筆の登記を抹消し、改めて正しい分筆線で分筆の登記を申請することになります。したがってＡ欄とＢ欄の組合せは誤りです。
 
 **たとえば**、土地を分ける線を引き間違えたまま分筆登記が終わってしまったとします。これを「面積を直す更正登記」でこっそり調整することはできず、いったん間違った分筆をなかったことに（抹消）してから、正しい線で分筆をやり直す必要があるのです。
 
@@ -30,7 +40,9 @@
 
 ### ウ：全部が海没しても「一時的」なら滅失の登記はしない
 
-土地が崩壊して海面になったり、常時継続して水流の敷地になったりした場合には、土地の所有権が消滅し、土地の滅失の登記を申請します。しかし、海面下に没した経緯が天災などによるもので、かつその状態が一時的なものである場合には、私人の所有権は消滅しないとされており、滅失の登記を申請することはできません。したがってＡ欄とＢ欄の組合せは誤りです。
+土地が崩壊して海面になったり、常時継続して水流の敷地になったりした場合には、土地の所有権が消滅し、土地の滅失の登記を申請します。
+
+しかし、海面下に没した経緯が天災などによるもので、かつその状態が一時的なものである場合には、私人の所有権は消滅しないとされており、滅失の登記を申請することはできません。したがってＡ欄とＢ欄の組合せは誤りです。
 
 **たとえば**、津波などで一時的に土地全体が水没しても、やがて水が引いて元に戻るような場合には、その土地の所有権は消えません。ですから「滅失の登記」をするのではなく、そのまま所有権を保っておく扱いになるのです。
 
@@ -45,6 +57,8 @@
 河川区域内の土地の一部が滅失したときは、河川管理者が遅滞なく、当該土地の地積の変更の登記を嘱託しなければならないとされています（不動産登記法43条6項）。「分筆及び滅失の登記」を嘱託するものではありません。したがってＡ欄とＢ欄の組合せは誤りです。
 
 **たとえば**、河川区域内の土地の一部が流されるなどして失われた場合、その手当ては河川管理者が行い、減った面積を反映する「地積の変更の登記」を嘱託します。わざわざ土地を分けて（分筆して）その一部を滅失させる、という形はとらないのです。
+
+---
 
 ### まとめ
 
@@ -107,13 +121,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 分・筆・線・誤・抹・消・地・積・変・更・登・記・海・没・常・時・滅・失・河・川・区・域・旨・嘱・託・所・有・権
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -199,20 +231,20 @@ these 5 headings):
 5. 河川区域内の一部滅失は地積変更を嘱託
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 海没の範囲（一部／全部）と継続性（一時的／常時）の2条件を順に確認するイ・ウは、範囲→継続性の順に分岐する共通の決定木を使い回してどちらの結論に至るかを見比べられるようにし、分筆線の是正方法（ア）と河川区域内の一部滅失の登記（オ）は「よくある勘違い」と「正しい実務の流れ」を対比させ、河川区域内の土地になった場合の登記（エ）は単純な図解で示した。
 
@@ -237,12 +269,12 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. This article's 肢イ and 肢ウ genuinely share
+— do not force a flowchart. This article's イ and ウ genuinely share
 one common two-step decision tree (範囲は一部か全部か、全部の場合はさらに
 一時的か常時かを分岐させる): the branch and conclusion node relevant to
 that panel are drawn in full color with a thick border, while the other
 branches and their conclusion nodes are faded to a lighter tint with thin
-borders and grayed labels; 肢ア・肢エ・肢オ are each designed
+borders and grayed labels; ア・エ・オ are each designed
 independently around their own fact pattern. Unlike a glanceable summary
 poster, each panel MAY include a short「着眼点」callout box with 1-2
 sentences that state the checking ORDER in words (e.g. "まず〜を確認し、
@@ -256,7 +288,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -286,7 +322,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 分筆線の誤りは抹消して再分筆
@@ -304,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抹消して再分筆
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 一部の常時海没は地積変更登記
@@ -326,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地積の変更登記
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 全部でも一時的なら所有権は存続
@@ -350,7 +386,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 滅失登記はしない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 全部が河川区域内になれば旨の登記
@@ -366,7 +402,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 河川区域である旨
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 河川区域内の一部滅失は地積変更を嘱託
@@ -396,16 +432,16 @@ Chinese variant, paying special attention to
 分・筆・線・誤・抹・消・地・積・変・更・登・記・海・没・常・時・滅・失・
 河・川・区・域・旨・嘱・託・所・有・権. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the
-correct Japanese form. Also confirm that no character outside hiragana,
+correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Also confirm that no character outside hiragana,
 katakana, Jōyō kanji, and the Arabic numerals explicitly used above
 appears anywhere in the image — no Latin letters, no other non-Japanese
 scripts. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that 肢イ・肢ウ are drawn from the same shared
+the header and the panels, that イ・ウ are drawn from the same shared
 decision tree with only the relevant branch and its own conclusion node
 highlighted in each panel while the other branches remain visibly present
 but faded (never omitted or looped), that both「一時的」and「常時（継続
-的）」conclusion nodes in 肢ウ are shown as real, separately labeled
+的）」conclusion nodes in ウ are shown as real, separately labeled
 outcomes rather than one being left blank, that each 着眼点 callout
 states a checking order rather than only a conclusion and keeps every
 required element from the source article distinct, confirm nothing is

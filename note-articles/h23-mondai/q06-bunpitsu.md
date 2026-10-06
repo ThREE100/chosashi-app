@@ -2,51 +2,67 @@
 
 **出題年度：平成23年度　午後の部　第6問**
 
-> 分筆の登記の申請に関する次のアからオまでの記述のうち、正しいものは幾つあるか。
->
-> ア　所有権が敷地権である旨の登記がされている土地の分筆は、その敷地権の登記がされた区分建物における所有権の登記名義人の３分の２以上の者の申請により、することができる。
->
-> イ　区分建物が所在する土地を２筆に分筆する場合において、その土地の一方が当該区分建物が所在する土地以外の土地となるときは、当該分筆の登記の申請情報と併せて、当該土地を当該区分建物の敷地とする旨の規約を定めたことを証する情報の提供をしなければならない。
->
-> ウ　土地の一部が別の地目となった場合には、登記官が職権で分筆することができるので、所有権の登記名義人は、分筆の登記を申請することを要しない。
->
-> エ　分筆の登記の申請において、分筆前の地積と分筆後の地積が異なる場合であっても、その地積の差が分筆前の地積を基準にして不動産登記規則に定められている誤差の限度内であるときは、地積に関する更正の登記を申請することを要しない。
->
-> オ　所有権の登記がない土地について、表題部所有者ではない当該土地の実体上の所有者は、表題部所有者の承諾を証する情報を提供して、当該土地の分筆の登記を申請することができる。
->
+> 分筆の登記の申請に関する次のアからオまでの記述のうち、正しいものは幾つあるか。  
+>　  
+> ア　所有権が敷地権である旨の登記がされている土地の分筆は、その敷地権の登記がされた区分建物における所有権の登記名義人の３分の２以上の者の申請により、することができる。  
+>　  
+> イ　区分建物が所在する土地を２筆に分筆する場合において、その土地の一方が当該区分建物が所在する土地以外の土地となるときは、当該分筆の登記の申請情報と併せて、当該土地を当該区分建物の敷地とする旨の規約を定めたことを証する情報の提供をしなければならない。  
+>　  
+> ウ　土地の一部が別の地目となった場合には、登記官が職権で分筆することができるので、所有権の登記名義人は、分筆の登記を申請することを要しない。  
+>　  
+> エ　分筆の登記の申請において、分筆前の地積と分筆後の地積が異なる場合であっても、その地積の差が分筆前の地積を基準にして不動産登記規則に定められている誤差の限度内であるときは、地積に関する更正の登記を申請することを要しない。  
+>　  
+> オ　所有権の登記がない土地について、表題部所有者ではない当該土地の実体上の所有者は、表題部所有者の承諾を証する情報を提供して、当該土地の分筆の登記を申請することができる。  
+>　  
 > 1　１個　　2　２個　　3　３個　　4　４個　　5　５個
+
+---
 
 分筆の登記を「誰が申請できるのか」「どんな添付情報が要るのか」「職権でできるのか」を問う個数問題です。似たようなもっともらしい記述が並ぶので、条文の原則に立ち返って一つずつ真偽を確かめていきます。
 
 ### ア：「3分の2以上で分筆できる」というルールは存在しない
 
-所有権が敷地権である旨の登記がされている土地について、その区分建物の所有権の登記名義人の「3分の2以上の者の申請」で分筆できる、という規定は存在しません。この「3分の2以上」という数字は根拠のない創作です。区分所有法は、専有部分とその敷地利用権を分離して処分することを原則として禁じており（建物の区分所有等に関する法律22条1項）、敷地権付きの土地の分筆には、むしろ原則として制限がかかります。
+所有権が敷地権である旨の登記がされている土地について、その区分建物の所有権の登記名義人の「3分の2以上の者の申請」で分筆できる、という規定は存在しません。この「3分の2以上」という数字は根拠のない創作です。
+
+分筆の登記を申請できるのは表題部所有者又は所有権の登記名義人であり（不動産登記法39条1項）、区分建物の所有権の登記名義人の人数や割合で分筆の可否を決める規定はありません。
+
+区分所有法が専有部分とその敷地利用権を分離して処分することを原則として禁じている（建物の区分所有等に関する法律22条1項）ことも、この結論を変えるものではありません。
 
 **たとえば**、マンションの敷地となっている土地について、区分所有者の3分の2が賛成すれば自由に分筆できる、という手軽なルールがあるわけではありません。
 
 ### イ：分筆の申請に、規約を定めたことを証する情報までは要らない
 
-建物が所在する土地の一部が分筆によって建物が所在する土地以外の土地となったときは、その土地は法律上当然に、規約により建物の敷地と定められたものとみなされます（建物の区分所有等に関する法律5条2項）。このみなし規定によって規約敷地となる効果が当然に生じるため、分筆の登記の申請情報と併せて「その土地を当該区分建物の敷地とする旨の規約を定めたことを証する情報」の提供を求める規定はありません。
+建物が所在する土地の一部が分筆によって建物が所在する土地以外の土地となったときは、その土地は法律上当然に、規約により建物の敷地と定められたものとみなされます（建物の区分所有等に関する法律5条2項）。
+
+このみなし規定によって規約敷地となる効果が当然に生じるため、分筆の登記の申請情報と併せて「その土地を当該区分建物の敷地とする旨の規約を定めたことを証する情報」の提供を求める規定はありません。
 
 **たとえば**、マンションの敷地を2筆に分け、片方が建物の直接の敷地から外れることになる場合でも、その土地は法律上当然に規約敷地とみなされるため、そのために管理規約の証明書を分筆申請に添付しなければならないわけではありません。
 
 ### ウ：職権分筆はあるが、地目変更の登記は自分で申請する
 
-一筆の土地の一部が別の地目となったときは、登記官が職権で分筆の登記を「しなければならない」とされています（不動産登記法39条2項）。もっとも、これで所有者の申請が不要になるわけではなく、所有権の登記名義人は変更があった日から1か月以内に地目に関する変更の登記を申請する義務を負います（37条1項）。「申請することを要しない」と言い切る点が誤りです。
+一筆の土地の一部が別の地目となったときは、登記官が職権で分筆の登記を「しなければならない」とされています（不動産登記法39条2項）。
+
+もっとも、これで所有者の申請が不要になるわけではなく、所有権の登記名義人は変更があった日から1か月以内に地目に関する変更の登記を申請する義務を負います（37条1項）。「申請することを要しない」と言い切る点が誤りです。
 
 **たとえば**、宅地の一部が造成されて畑になった場合、分筆自体は登記官が職権で行いますが、所有者は1か月以内に地目変更の登記を申請しなければなりません。
 
 ### エ：誤差の範囲内なら、地積更正はしなくてよい
 
-分筆の登記の申請において、分筆前の地積と分筆後の地積の合計が異なる場合であっても、その差が分筆前の地積を基準にして地積測量図の誤差の限度内であるときは、地積に関する更正の登記を申請する必要はありません（不動産登記事務取扱手続準則72条1項）。測量には一定の許容誤差が認められているためです。
+分筆の登記の申請において、分筆前の地積と分筆後の地積の合計が異なる場合であっても、その差が分筆前の地積を基準にして地積測量図の誤差の限度内であるときは、地積に関する更正の登記を申請する必要はありません（不動産登記事務取扱手続準則72条1項）。
+
+測量には一定の許容誤差が認められているためです。
 
 **たとえば**、登記簿上100平方メートルの土地を分筆したところ、測り直した合計がごくわずかにずれていても、その差が規則の定める誤差の範囲に収まっていれば、わざわざ地積更正の登記まで出す必要はありません。
 
 ### オ：表題部所有者でなければ、承諾書があっても分筆申請できない
 
-分筆の登記を申請できるのは、表題部所有者又は所有権の登記名義人です（不動産登記法39条）。所有権の登記がない土地について、表題部所有者ではない実体上の所有者は、たとえ表題部所有者の承諾を証する情報を提供したとしても、その土地の分筆の登記を申請することはできません。
+分筆の登記を申請できるのは、表題部所有者又は所有権の登記名義人です（不動産登記法39条）。
+
+所有権の登記がない土地について、表題部所有者ではない実体上の所有者は、たとえ表題部所有者の承諾を証する情報を提供したとしても、その土地の分筆の登記を申請することはできません。
 
 **たとえば**、まだ表題登記しかない土地を買い受けた人が、登記簿上の表題部所有者から「分筆してよい」という承諾書をもらったとしても、その承諾書だけを根拠に自分の名で分筆の登記を申請することはできません。
+
+---
 
 ### まとめ
 
@@ -56,7 +72,7 @@
 - **エ（正）**　誤差の限度内なら地積更正の登記は要しない
 - **オ（誤）**　表題部所有者でなければ承諾書があっても分筆申請できない
 
-正しいのは1個（肢エだけ）です。「3分の2」のような根拠のない数字や、職権と申請義務の関係を正確に押さえるのが確実です。
+正しいのは1個（エだけ）です。「3分の2」のような根拠のない数字や、職権と申請義務の関係を正確に押さえるのが確実です。
 
 **正解：正しいものは1個（選択肢1番）**
 
@@ -66,12 +82,13 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第6問＝正しいものは1個／1番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 肢オ（申請人＝不動産登記法39条1項）と肢ウ（職権分筆＝39条2項、地目変更の申請義務＝37条1項）は、ローカル法令データベース（`note-articles/laws/fudousan-touki-hou.md`）で条文原文を直接確認済みです。
-- **2026-08-13再検証で肢イ・肢エの根拠条文を補強**：肢イは、建物の区分所有等に関する法律5条2項（`note-articles/laws/kubunshoyuu-hou.md`）に「建物が所在する土地の一部が分割により建物が所在する土地以外の土地となったときも、（規約で建物の敷地と定められたものと）みなす」というみなし規定があることを確認し、これを根拠として本文を書き改めました（従来の「分筆は物理的な区分の手続だから」という説明は結論は正しいものの根拠が薄かったため）。肢エは、不動産登記事務取扱手続準則72条1項（`note-articles/laws/fudousan-touki-jimu-junsoku.md`）に「分筆前後の地積の差が規則77条5項の誤差の限度内であるときは地積に関する更正の登記の申請を要しない」と明記されていることを確認し、本文に条文番号を追加しました。
-- 肢ア（敷地権付き土地の分筆制限）は、区分所有法22条1項の分離処分禁止の原則（`note-articles/laws/kubunshoyuu-hou.md`）を制限の一般的な根拠として追加しましたが、「3分の2以上」という数字自体が存在しないこと、および敷地権付き土地の分筆の可否そのものを直接定める条文は、ローカル法令データベース内では特定できませんでした。実務上の取り扱いからの整理にとどまる点は正直にお伝えします。
+- オ（申請人＝不動産登記法39条1項）とウ（職権分筆＝39条2項、地目変更の申請義務＝37条1項）は、ローカル法令データベース（`note-articles/laws/fudousan-touki-hou.md`）で条文原文を直接確認済みです。
+- **2026-08-13再検証でイ・エの根拠条文を補強**：イは、建物の区分所有等に関する法律5条2項（`note-articles/laws/kubunshoyuu-hou.md`）に「建物が所在する土地の一部が分割により建物が所在する土地以外の土地となったときも、（規約で建物の敷地と定められたものと）みなす」というみなし規定があることを確認し、これを根拠として本文を書き改めました（従来の「分筆は物理的な区分の手続だから」という説明は結論は正しいものの根拠が薄かったため）。エは、不動産登記事務取扱手続準則72条1項（`note-articles/laws/fudousan-touki-jimu-junsoku.md`）に「分筆前後の地積の差が規則77条5項の誤差の限度内であるときは地積に関する更正の登記の申請を要しない」と明記されていることを確認し、本文に条文番号を追加しました。
+- ア（敷地権付き土地の分筆）は、「3分の2以上」という数字を定めた規定が存在しないこと、および分筆の登記の申請人が不動産登記法39条1項で表題部所有者又は所有権の登記名義人とされていることを根拠にしています。敷地権付き土地の分筆の可否そのものを直接定める条文は、ローカル法令データベース内では特定できませんでした。なお、以前の本文にあった「敷地権付きの土地の分筆には、むしろ原則として制限がかかります」という記述は、条文で確認できなかったため2026-10-01に削除しました（下記「適用法令の現行性チェック（2026-10-01実施）」参照）。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「分筆の登記」は令和7年度第11問（本シリーズで既に note-articles/r7-mondai/q11-bunpitsu.md として執筆済み）、平成26年度第10問、平成25年度第9問、平成24年度第7問など、ほぼ毎年出題されている頻出テーマであることを確認しました。令和7年度第11問は担保権・仮登記のある土地の分筆時の権利処理が中心で、本問（申請人適格・職権分筆の有無・地積誤差の許容範囲）とは具体的な論点が異なるため、直接の重複ではありません。ただし、平成26年度第10問の肢ウ（表題部所有者以外の実体上の所有者が、承諾を証する情報を提供しても分筆登記を申請できない）は、本問の肢オと実質的に同一の論点であり、平成26年度分を今後執筆する際は重複に注意してください。
-- **最新法令準拠チェック（2026-08-06実施・肢ウの解説を訂正）**：ローカル法令データベースで条文原文を確認したところ、前回までの肢ウの解説（「登記官が職権で分筆する制度はない」）が誤りであることが判明したため、全面的に書き改めました。**不動産登記法39条2項は、一筆の土地の一部が別の地目となったときは、申請がない場合であっても登記官が職権で分筆の登記を「しなければならない」と定めています**。したがって職権分筆の制度は存在します。肢ウが誤りとなる理由は、職権分筆があっても所有権の登記名義人の申請義務が消えるわけではなく、37条1項により変更があった日から1か月以内に地目に関する変更の登記を申請しなければならない点にあります。あわせて、この肢に対応するインフォグラフィックのカード（正しいルールを図解する必要があるもの）も同じ内容に修正しました。肢オ（申請人適格）の根拠は39条1項（表題部所有者又は所有権の登記名義人以外の者は申請できない）で条文どおりです。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、「分筆の登記」は令和7年度第11問（本シリーズで既に note-articles/r7-mondai/q11-bunpitsu.md として執筆済み）、平成26年度第10問、平成25年度第9問、平成24年度第7問など、ほぼ毎年出題されている頻出テーマであることを確認しました。令和7年度第11問は担保権・仮登記のある土地の分筆時の権利処理が中心で、本問（申請人適格・職権分筆の有無・地積誤差の許容範囲）とは具体的な論点が異なるため、直接の重複ではありません。ただし、平成26年度第10問のウ（表題部所有者以外の実体上の所有者が、承諾を証する情報を提供しても分筆登記を申請できない）は、本問のオと実質的に同一の論点であり、平成26年度分を今後執筆する際は重複に注意してください。
+- **最新法令準拠チェック（2026-08-06実施・ウの解説を訂正）**：ローカル法令データベースで条文原文を確認したところ、前回までのウの解説（「登記官が職権で分筆する制度はない」）が誤りであることが判明したため、全面的に書き改めました。**不動産登記法39条2項は、一筆の土地の一部が別の地目となったときは、申請がない場合であっても登記官が職権で分筆の登記を「しなければならない」と定めています**。したがって職権分筆の制度は存在します。ウが誤りとなる理由は、職権分筆があっても所有権の登記名義人の申請義務が消えるわけではなく、37条1項により変更があった日から1か月以内に地目に関する変更の登記を申請しなければならない点にあります。あわせて、この肢に対応するインフォグラフィックのカード（正しいルールを図解する必要があるもの）も同じ内容に修正しました。オ（申請人適格）の根拠は39条1項（表題部所有者又は所有権の登記名義人以外の者は申請できない）で条文どおりです。
+- **適用法令の現行性チェック（2026-10-01実施）**：各肢の根拠条文を、ローカル法令データベース（2026-08-04取得の現行版）で次のとおり再確認しました。**各肢の正誤の結論に変更はありません**。(1) イ：建物の区分所有等に関する法律5条2項（令和7年法律第47号による改正を反映した令和8年4月1日施行時点の条文）は、後段に「建物が所在する土地の一部が分割により建物が所在する土地以外の土地となつたときも、同様とする」とあり、条番号・項に変更はありません。22条1項・3項（分離処分の禁止）も同様に変更はありません。(2) ウ・オ：不動産登記法37条1項（地目の変更の登記の申請義務）・39条1項・2項（分筆の登記の申請人、職権による分筆）は、令和8年6月24日施行（令和8年法律第46号）の改正後の現行条文でも文言に変更はありません。相続登記の義務化（令和6年4月1日施行、同法76条の2）や所有権の登記名義人の氏名・住所の変更登記の義務化（令和8年4月1日施行、同法76条の5）は、本問の肢が問う分筆の申請人・職権分筆・地積更正の要否には影響しません。(3) エ：不動産登記事務取扱手続準則72条1項（最終改正令和6年12月2日）は、分筆前後の地積の差が規則77条5項の規定による地積測量図の誤差の限度内であるときは地積に関する更正の登記の申請を要しないとしており、本文の説明と一致しています。(4) ア：上記のとおり、条文で確認できない記述（敷地権付き土地の分筆に原則として制限がかかる）を本文から削除し、②総論のカード1・⑤作図ガイドのパネル1の南京錠アイコンの記述も同時に直しました。
 
 ---
 
@@ -111,13 +128,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 筆・権・証・約 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 筆 not 笔, 権 not 权,
-証 not 证, 約 not 约).
+kanji 筆・権・証・約・請 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -135,7 +169,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 3分の2以上で分筆できる規定なし
 Illustration: A condominium building icon with several resident
 characters, a fraction icon 2/3 floating above with a red X stamp over
-it, next to a padlock icon on the land plot below.
+it, next to a small land plot icon labeled 敷地権付き土地 (do NOT draw a
+padlock icon, and do NOT add any other fraction, vote count, or majority
+label).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 そんな規定はない
 
@@ -145,8 +181,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 規約敷地の証明書は添付不要
 Illustration: A land plot split into two, one piece now outside the
 condominium building's footprint. A 規約設定証明書 document floats
-nearby with a red X, next to the simple 分筆申請書 that alone goes
-through.
+nearby with a red X and a small label 不要 (the X means not required,
+not forbidden), next to the simple 分筆申請書 that alone goes through.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 添付不要
 
@@ -166,9 +202,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 誤差の範囲内なら地積更正不要
-Illustration: A measuring-tape icon comparing two numbers, 100㎡ and
-99.8㎡, on a land plot, with a small green tolerance-zone bracket and a
-checkmark, next to a crossed-out 地積更正登記 stamp.
+Illustration: A measuring-tape icon comparing two numbers on a land plot:
+a label 分筆前 100㎡ and a label 分筆後の合計 99.8㎡ (the two numbers
+are examples only), joined by a small green tolerance-zone bracket (no
+checkmark on the bracket), next to a crossed-out 地積更正登記 stamp (the
+red X belongs only to the stamp).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 更正不要
 
@@ -176,26 +214,26 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 表題部所有者でなければ申請不可
-Illustration: A registered-title character holding a 承諾書 paper
-handing it to an unregistered actual-owner character, who tries to
-submit a 分筆申請 but is blocked by a red X at the registry window.
+Illustration: A character labeled 表題部所有者 holding a 承諾書 paper
+handing it to a different character labeled 実体上の所有者 (this second
+character is NOT the 表題部所有者), who tries to submit a 分筆申請 at
+the registry window but is blocked by a red X on the 分筆申請 paper
+(the 承諾書 carries no mark).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 承諾書だけでは不可
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 筆・権・証・約. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 筆・権・証・約・請. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
-a short heading + a short conclusion tag, at a glance.
+a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -210,13 +248,13 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a fraction icon 2/3 crossed out over a
-condominium building for the nonexistent-rule trap in 肢ア, a deeming-
+condominium building for the nonexistent-rule trap in ア, a deeming-
 effect gold arrow turning a split-off plot into 規約敷地 without any
-attached document for 肢イ, a split land plot showing 職権分筆 on one
+attached document for イ, a split land plot showing 職権分筆 on one
 side and a separate 地目変更 filing with a 1か月 calendar on the other
-for 肢ウ, a measuring-tape tolerance-zone bracket for 肢エ, and a
+for ウ, a measuring-tape tolerance-zone bracket for エ, and a
 registered-title character's 承諾書 being handed to an unregistered
-actual-owner character who is blocked at the registry window for 肢オ.
+actual-owner character who is blocked at the registry window for オ.
 Where a 肢 requires checking multiple conditions in sequence before
 reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
@@ -279,14 +317,15 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 3分の2以上で分筆できる規定はない
 Diagram: A condominium building icon with several resident characters, a
 fraction icon 2/3 floating above with a red ✕ stamp over it, next to a
-padlock icon on the land plot below, showing that敷地権付き土地の分筆
-には原則制限がかかる.
+land plot icon labeled 敷地権付き土地 (no padlock icon, and no other
+fraction, vote count, or majority label), showing that no rule decides
+the split by a share of the unit owners.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この肢が挙げる「区分建物の所有権の登記名義人の3分の2以上の者の申
 請」という基準が、実際に条文や規則に定められているかどうかを確認しま
@@ -295,15 +334,16 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 そんな規定はない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 規約敷地はみなし規定で当然に発生
 Diagram: Two side-by-side panels. Left panel (drawn faded and
 greyed-out, labeled 誤った思い込み) shows a land plot split into two,
 one piece now outside the condominium building's footprint, with a
-character trying to attach a 規約設定証明書 document to a 分筆申請書,
-blocked by a red ✕. Right panel (drawn with a thick highlighted border,
+character attaching a 規約設定証明書 document to a 分筆申請書, the
+document carrying a red ✕ and a small label 不要 (the ✕ means not
+required, not forbidden). Right panel (drawn with a thick highlighted border,
 labeled 実際のルール) shows the same split land plot, with an automatic
 gold arrow labeled みなし規定 turning that piece into 規約敷地 without
 any attached document.
@@ -316,14 +356,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 みなしで証明不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 職権分筆でも地目変更登記は申請必要
 Diagram: Two side-by-side panels sharing one land plot split by a
 difference in地目(一部が畑、一部が宅地). Left panel labeled 分筆そのも
 の: a registry-officer character stamping a 職権分筆 seal onto the plot
-automatically, with a checkmark and no incoming 申出 paper. Right panel
+on their own even though no 分筆 application paper has been filed, with a
+checkmark. Right panel
 (drawn with a thick highlighted border, since this is本肢の誤り) labeled
 地目変更の登記: the landowner character submitting a 地目変更 paper
 next to a calendar icon labeled 1か月以内, with a red ✕ over a
@@ -337,16 +378,19 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地目変更は申請義務
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 誤差が限度内なら地積更正は不要
-Diagram: A decision-tree flowchart. Diamond node: 分筆前後の地積の差
-が、分筆前の地積を基準にした規則所定の誤差の限度内か？with はい branch
-(drawn with a thick highlighted border, since this is本肢の場面) leading
-to a conclusion node reading 地積に関する更正の登記は不要, and いいえ
-branch leading to a separate conclusion node reading 地積に関する更正の
-登記が必要.
+Diagram: A single-check labeled diagram (NOT a flowchart — draw no
+diamond-shaped node, no Yes/No branch arrows, and no dangling arrow). A
+measuring-tape icon over a land plot compares two labels 分筆前の地積 and
+分筆後の地積の合計, joined by a green tolerance-zone bracket labeled 分筆
+前の地積を基準にした規則所定の誤差の限度内 (no checkmark on the
+bracket). Next to it, a 地積に関する更正の登記 stamp carries a red ✕ and
+a small label 不要 (the ✕ belongs only to the stamp and means not
+required). The diagram ends in one conclusion node reading 地積に関する
+更正の登記は不要.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、分筆前の地積と分筆後の地積の差を確認します。次に、その差が分筆前
 の地積を基準とした規則所定の誤差の限度内かどうかを確認し、限度内であれ
@@ -355,7 +399,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 限度内なら更正不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 申請人は表題部所有者に限られる
@@ -381,7 +425,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 筆・権・証・約・積. If any character
+Chinese, paying special attention to 筆・権・証・約・積・請. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

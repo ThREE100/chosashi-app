@@ -1,0 +1,922 @@
+{
+ "rank": 3,
+ "theme_id": "taikouyouken-177",
+ "topic_label_in_bank": "民法／物権変動・対抗要件",
+ "title_proposal": "何度も同じところで間違える人へ〜苦手分析シリーズ〜対抗要件（177条）、「第三者に当たる人」と「登記が要らない場面」",
+ "summary": "物権変動・対抗要件の35肢のうち、39回の答え合わせで定着56%、誤解36%、未習得8%。誤解の中心は、(a) 相続・遺贈・遺産分割と登記、(b) 背信的悪意者とその転得者・単純悪意者・前主、(c) 取消し・解除・時効の前後、(d) 順次譲渡（中間省略登記、登記請求権の代位）。",
+ "overlap_with_existing_articles": "苦手分析シリーズ⑩（対抗要件177条）が、手順1〜4で第三者の判定・背信的悪意者・取消し解除時効の前後・相続遺贈放棄を扱い済み。note-articles/topics/taikouyouken-daisansha-5ruikei.md に「第三者5類型」の早見記事もある。今回の誤解データには、⑩の手順にまだ薄い「順次譲渡と登記請求権の代位（423条の7）」「中間省略登記の合意」「遺産分割による法定相続分超過部分（899条の2）」がある。記事化するなら⑩の補強（増補）が向く。",
+ "stats": {
+  "bank_items": 35,
+  "items_answered": 35,
+  "answers_total": 39,
+  "result_counts_all_answers": {
+   "定着": 22,
+   "誤解（逆に覚えている）": 14,
+   "未習得（？）": 3
+  },
+  "latest_result_per_item": {
+   "定着": 22,
+   "誤解（逆に覚えている）": 11,
+   "未習得（？）": 2
+  },
+  "first_result_per_item": {
+   "定着": 22,
+   "誤解（逆に覚えている）": 11,
+   "未習得（？）": 2
+  }
+ },
+ "why_this_is_top": "誤解の割合が高く（36%）、何度も誤解している肢が複数ある（D0520：未成年者の取消しと善意の転得者、D0723：中間省略登記の合意と代位、D1911：単純悪意の第三者、どれも2回連続）。",
+ "core_misconception": "「Cは第三者に当たるか」と「登記がなくても対抗できるか」を、場面ごとの暗記で判断していて、判定の順序（相手の属性→原因の種類→時期）がない。特に、(1) 悪意と背信的悪意を混同する（単純悪意者は第三者に当たる）、(2) 背信的悪意者本人の扱い（第三者でない）を、その転得者にも連鎖させる（転得者は別に判断）、(3) 相続関連（放棄は登記不要／遺贈・遺産分割の超過部分は登記必要）を混ぜる、(4) 制限行為能力の取消しを詐欺の取消し（善意無過失の第三者を保護）と同じに扱う、の4点で逆の結論を出している。",
+ "misconceptions": [
+  {
+   "id": "M1",
+   "point": "単純悪意の第三者（AB間の売買を知っていただけ）も177条の第三者に当たる。登記がなければBは対抗できない",
+   "what_you_thought": "知っていて買った人は横取りだから保護されない＝Bは登記なしで勝てると考えた（D1911 を2回連続で誤解）",
+   "correct": "第三者から除外されるのは、当事者・包括承継人・前主後主・不法占拠者・背信的悪意者など。単なる悪意はこれらに当たらない（自由競争の範囲内）。",
+   "items": [
+    "D1911"
+   ]
+  },
+  {
+   "id": "M2",
+   "point": "背信的悪意者から買った転得者は、自身が背信的悪意者でない限り第三者として保護される（相対的構成）",
+   "what_you_thought": "背信的悪意者から買った転得者にも、Aは登記なしで勝てると考えた（D0214は「主張できる」を〇、D0322は「対抗できない」を×と答えた）",
+   "correct": "背信的悪意者の排除はその者個人とAとの関係だけ。転得者に連鎖しない。Aは登記がなければ転得者に所有権を対抗できない。",
+   "items": [
+    "D0214",
+    "D0322"
+   ]
+  },
+  {
+   "id": "M3",
+   "point": "前主（BC→CAの順に売られたときのB）は第三者に当たらない。Aは登記なくしてBに主張できる",
+   "what_you_thought": "登記を備えないとBにも負けると考えた（D0518）",
+   "correct": "Aは売主Cの地位を引き継ぐ承継人で、BとAは二重譲渡の関係にない。Bは登記の欠缺を主張する正当な利益がない。",
+   "items": [
+    "D0518",
+    "D0516",
+    "D0517"
+   ]
+  },
+  {
+   "id": "M4",
+   "point": "遺贈と、遺産分割による法定相続分を超える権利取得は、登記がなければ第三者に対抗できない。相続放棄は登記なしで対抗できる",
+   "what_you_thought": "遺贈は相続と同じで登記なしで勝てる（D0115）、遺産分割で取得した土地は登記なしでCの持分の買受人に勝てる（D0116）と考えた。D0114（放棄）は正解",
+   "correct": "特定遺贈は個別の権利移転で対抗要件主義の下に置かれる。遺産分割による超過部分は民法899条の2第1項（平成30年改正）で登記が必要。放棄は初めから相続人でなかったことになり、登記なしで対抗できる（民法939条）。",
+   "items": [
+    "D0112",
+    "D0113",
+    "D0114",
+    "D0115",
+    "D0116",
+    "D0319",
+    "D1914"
+   ]
+  },
+  {
+   "id": "M5",
+   "point": "制限行為能力を理由とする取消しは、取消し前に現れた善意の第三者にも対抗できる（詐欺取消しと違い、善意無過失の第三者を保護する規定がない）",
+   "what_you_thought": "取消し前の善意の買主には対抗できないと考えた（D0520 を2回連続で誤解）",
+   "correct": "詐欺取消しは民法96条3項で善意無過失の第三者が保護される。制限行為能力の取消しには、その保護規定がない。",
+   "items": [
+    "D0520",
+    "D0211",
+    "D0212",
+    "D0725"
+   ]
+  },
+  {
+   "id": "M6",
+   "point": "解除後の第三者とは対抗関係。解除前の第三者は、登記を備えれば保護される",
+   "what_you_thought": "解除したAは登記なしでCに勝てると考えた（D1211）。D0519（解除後に現れた買主）は正解",
+   "correct": "解除後は、Bを起点にB→AとB→Cの二重譲渡と同じ。先に登記を備えた方が勝つ。",
+   "items": [
+    "D1211",
+    "D0519"
+   ]
+  },
+  {
+   "id": "M7",
+   "point": "時効完成後の登記の要否：登記後に時効が完成した場合（完成前に譲渡）は当事者類似で登記不要",
+   "what_you_thought": "時効取得者は登記が要ると考えた（D1210）",
+   "correct": "AからBへ譲渡・登記された後に時効が完成した場合、CとBは当事者類似の関係に立ち、Cは登記なくして対抗できる。",
+   "items": [
+    "D1210",
+    "D0318"
+   ]
+  },
+  {
+   "id": "M8",
+   "point": "順次譲渡（A→B→C）：登記がAのままでも、Cは、Bに対する登記請求権を保全するために、Bに代位してAに対しBへの移転登記を請求できる。中間省略登記の合意があっても、Bの登記請求権は消えない",
+   "what_you_thought": "代位できない（D0724）、中間省略の合意があれば代位できない（D0723 を2回連続で誤解）。相続人Dへの主張（D0722）は「？」。他人物売買と所有権の移転時期（D1209）は「？」を2回",
+   "correct": "登記請求権を保全する債権者代位は民法423条の7（出題当時は判例）。登記名義人Aの相続人Dは当事者を承継するので、Cは登記なくして主張できる（前主と同じ型）。他人物売買は、売主が所有権を取得した時点で買主に移転（登記の時点とは限らない）。",
+   "items": [
+    "D0721",
+    "D0722",
+    "D0723",
+    "D0724",
+    "D1209"
+   ]
+  },
+  {
+   "id": "M9",
+   "point": "登記申請を受任した者は第三者に当たらない（不動産登記法5条2項）。不法占拠者・無権利者は第三者でない",
+   "what_you_thought": "ほぼ正解（D1213、D0320、D1212、D1915、D0215 は定着）",
+   "correct": "不動産登記法5条2項で、他人のために登記を申請する義務を負う者は、登記がないことを主張できない。",
+   "items": [
+    "D1213",
+    "D1212",
+    "D0320",
+    "D1915",
+    "D0215"
+   ]
+  }
+ ],
+ "key_knowledge_for_article": [
+  "177条の「第三者」＝当事者とその包括承継人以外で、登記の欠缺を主張する正当な利益を有する者（判例）。",
+  "第三者に当たる：二重譲受人、単純悪意者、差押債権者・仮差押債権者、解除後の第三者、取消し後の第三者、時効完成後の第三者、背信的悪意者の転得者（自身が背信的悪意者でない限り）、共有持分の譲受人に対する他の共有者（D0321）。",
+  "第三者に当たらない：当事者、包括承継人（相続人）、前主、不法占拠者・無権利者、背信的悪意者本人、登記申請を受任した者（法5条2項）。",
+  "原因別：詐欺取消し（前：96条3項で善意無過失が保護／後：対抗問題）、強迫取消し（前後を問わず取消しが勝つ）、制限行為能力の取消し（保護規定なし）、解除（前：545条1項ただし書／後：対抗問題）、時効（当事者・完成前の第三者：登記不要／完成後：登記必要）。",
+  "相続関連：放棄（登記不要）、遺贈（登記必要）、遺産分割（超過部分は登記必要。899条の2）、相続による承継は当事者承継。",
+  "順次譲渡と登記請求権：423条の7の転用、中間省略登記の合意の効果。",
+  "動産の対抗要件（178条）：占有改定でも引渡し。後の買主は占有改定を受けても即時取得できない（判例）。",
+  "⑩に重ねるため、新記事は「第三者に当たる・当たらないの一覧表」と「原因×前後のマトリクス」を最初に置くのが整理しやすい。"
+ ],
+ "decision_flow_proposal": [
+  "入口：Cは第三者に当たるか。相手の属性を順に確認（当事者→包括承継人→前主・後主→不法占拠者→背信的悪意者→受任者）。",
+  "背信的悪意者なら：本人は第三者でない。転得者は別に判断（相対的構成）。",
+  "原因の種類：売買の二重譲渡か、取消し・解除・時効か、相続・遺贈・分割・放棄か。",
+  "時期：取消し・解除・時効の前か後か（前は特別の保護規定か当事者類似、後は対抗関係）。",
+  "結論：登記がなければ対抗できないのか、登記なしで対抗できるのか。"
+ ],
+ "diagram_proposals": [
+  {
+   "name": "第三者に当たる・当たらないの一覧表",
+   "type": "表",
+   "content": "左に当たらない（当事者・包括承継人・前主・不法占拠者・背信的悪意者・受任者）、右に当たる（二重譲受人・単純悪意者・差押債権者・解除後の第三者・取消後の第三者・時効完成後の第三者・背信的悪意者の転得者）。誤解の多い欄（単純悪意者、前主、転得者）に肢番号（D1911、D0518、D0214/D0322）を付ける。"
+  },
+  {
+   "name": "原因×時期のマトリクス",
+   "type": "表",
+   "content": "縦：詐欺取消し／強迫取消し／制限行為能力の取消し／解除／時効／相続。横：前の第三者／後の第三者／当事者。各マスに、登記の要否と根拠条文（96条3項、545条1項ただし書、177条など）を書く。D0520・D1211・D0411〜D0413・D1210を対応づける。"
+  },
+  {
+   "name": "背信的悪意者と転得者の連鎖図",
+   "type": "図",
+   "content": "A→B（未登記）、B→C（背信的悪意者）、C→D（善意）の4人の矢印図。Cは第三者から除外、Dは別に判断、Aが登記なしでDに負ける様子を示す。D0214とD0322を並べる。"
+  },
+  {
+   "name": "相続関連の登記要否（遺贈・遺産分割・放棄）",
+   "type": "フローチャート",
+   "content": "相続人の債権者・買受人が現れたときの3ルート。放棄→登記不要（939条）。遺贈→登記必要。遺産分割→法定相続分を超える部分は登記必要（899条の2）。D0114・D0115・D0116を対応づける。"
+  },
+  {
+   "name": "順次譲渡（A→B→C）の登記請求権の代位",
+   "type": "図",
+   "content": "登記名義人A、B、C、Bの債権者E。中間省略登記の合意があっても、BのAに対する請求権は消えず、CやEが代位できる。D0723・D0724・D0721を対応づける。"
+  }
+ ],
+ "editor_notes": [
+  "既存の⑩・topics/taikouyouken-daisansha-5ruikei.md と重なるため、新規ではなく⑩の補強・増補版か、topicsの早見記事の拡張として書くと整合しやすい。",
+  "条文照合の指摘（記事側の修正候補）：D0723（H24-Q03ウ）は、「中間省略登記の合意があってもBの登記請求権は消滅しない」という整理に判例の出典がない。苦手分析記事に載せるときは、出典の種類を断る。",
+  "出題年度の記事を読むと、H24 第3問（中間省略・代位）、H29 第2問、R06 第2問は肢の本文が要約のみの年度がある。肢の文面は、このJSONのstatementをバンクの値として使い、年度別記事の確認事項と照合する。",
+  "ドリルのID（D0520など）と年度別記事の肢の記号（H22-Q02 オなど）は別物。各itemのsource欄（年度・問・肢）とarticle欄で、元の記事を確認する。"
+ ],
+ "items": [
+  {
+   "id": "D0112",
+   "group": "相続が関係する物権変動（H18-Q03）",
+   "statement": "〔相続が関係する物権変動〕【判例】Ａがその所有する土地をＢに譲渡したが、その旨の登記をしないまま死亡し、Ａを相続したＣがその土地について相続登記をしてこれをＤに譲渡し、その旨を登記した場合、Ｂは、Ｄに対し、土地所有権の取得を対抗することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H18-Q03 ア",
+   "article": "note-articles/h18-mondai/q03-souzoku-touki.md",
+   "article_summary_line": "- **ア（誤）**　生前の譲受人と、相続人からのさらなる譲受人とは対抗関係に立ち、登記なくして対抗できない",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0113",
+   "group": "相続が関係する物権変動（H18-Q03）",
+   "statement": "〔相続が関係する物権変動〕【判例】Ａが死亡し、ＢとＣがＡを共同相続したが、Ｃが、Ａの所有していた土地について、勝手に、Ｃが単独で取得する旨の相続登記をしてこれをＤに譲渡し、その旨の登記をした場合、Ｂは、Ｄに対し、相続分に応じた土地持分の取得を対抗することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H18-Q03 イ",
+   "article": "note-articles/h18-mondai/q03-souzoku-touki.md",
+   "article_summary_line": "- **イ（正）**　共同相続人の一人が無断でした単独名義の相続登記は、他の持分について無権利であり、登記なくして対抗できる",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0114",
+   "group": "相続が関係する物権変動（H18-Q03）",
+   "statement": "〔相続が関係する物権変動〕【判例】Ａが死亡した後、その法定相続人であるＢとＣのうちＣが適法に相続を放棄したが、Ａの所有していた土地について、この放棄を前提とする相続登記がされる前に、Ｃの債権者Ｄが代位によりＢとＣを共同相続人とする相続登記をし、Ｃ名義の土地持分を差し押さえた場合、Ｂは、Ｄに対し、当該土地持分の取得を対抗することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H18-Q03 ウ",
+   "article": "note-articles/h18-mondai/q03-souzoku-touki.md",
+   "article_summary_line": "- **ウ（正）**　相続放棄の効力は絶対的で、登記なくして誰に対しても対抗できる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0115",
+   "group": "相続が関係する物権変動（H18-Q03）",
+   "statement": "〔相続が関係する物権変動〕【判例】Ａがその所有する土地をＢに遺贈する旨の遺言をした後に死亡したが、Ｂがこれに基づく登記をしない間に、Ａを相続したＣの債権者Ｄが代位によりその土地について相続登記をしてこれを差し押さえた場合、Ｂは、Ｄに対し、土地所有権の取得を対抗することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H18-Q03 エ",
+   "article": "note-articles/h18-mondai/q03-souzoku-touki.md",
+   "article_summary_line": "- **エ（誤）**　特定遺贈による所有権取得は、登記がなければ第三者に対抗できない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0116",
+   "group": "相続が関係する物権変動（H18-Q03）",
+   "statement": "〔相続が関係する物権変動〕【判例】Ａが死亡し、その共同相続人であるＢとＣとの間でＡの所有していた土地をＢが単独で相続する旨の遺産分割協議が成立したが、その土地について、Ｂが遺産分割協議を前提とする相続登記をする前に、ＣがＢとＣを共同相続人とする相続登記をし、Ｃ名義の土地持分をＤに譲渡し、その旨の登記をした場合、Ｂは、Ｄに対し、当該土地持分の取得を対抗することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H18-Q03 オ",
+   "article": "note-articles/h18-mondai/q03-souzoku-touki.md",
+   "article_summary_line": "- **オ（誤）**　遺産分割による法定相続分を超える権利取得は、登記なくして対抗できない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0211",
+   "group": "第三者の保護（H19-Q02）",
+   "statement": "【判例】Ａは、Ｂにだまされて自己所有の不動産をＢに売ったが、Ｂの詐欺に気付き、Ｂに対して売買契約を取り消すとの意思表示をした。しかし、取消しまでの間に、Ｂが善意のＣに当該不動産を売ってしまっていた。この場合、ＡはＣに対して不動産の所有権を主張することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H19-Q02 ア",
+   "article": "note-articles/h19-mondai/q02-daisansha-hogo.md",
+   "article_summary_line": "- **ア（誤）**　詐欺取消し前に現れた善意（無過失）の第三者Cには対抗できない（96条3項）",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0212",
+   "group": "第三者の保護（H19-Q02）",
+   "statement": "【判例】Ａは、Ｂに強迫されて自己所有の不動産をＢに売ったが、強迫状態を脱し、Ｂに対して売買契約を取り消すとの意思表示をした。しかし、取消しまでの間に、Ｂが善意のＣに当該不動産を売ってしまっていた。この場合、ＡはＣに対して不動産の所有権を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H19-Q02 イ",
+   "article": "note-articles/h19-mondai/q02-daisansha-hogo.md",
+   "article_summary_line": "- **イ（正）**　強迫による取消しには96条3項の第三者保護規定が適用されず、遡及的無効（121条）によりCにも対抗できる",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0213",
+   "group": "第三者の保護（H19-Q02）",
+   "statement": "【判例】Ａは、自己所有の不動産の登記がＢの名義になっていることを知りながら、この状態を事実上容認し、長期間放置していた。Ｂは、当該不動産の登記がＢの名義になっていることを利用して、善意のＣに当該不動産を売ってしまった。この場合、ＡはＣに対して不動産の所有権を主張することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H19-Q02 ウ",
+   "article": "note-articles/h19-mondai/q02-daisansha-hogo.md",
+   "article_summary_line": "- **ウ（誤）**　不実登記の放置は94条2項類推適用により善意の第三者Cに対抗できない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0214",
+   "group": "第三者の保護（H19-Q02）",
+   "statement": "【判例】Ａは、Ｂ所有の不動産をＢから購入したが、いまだ所有権の移転の登記を経由していなかった。Ｃは、この事情を十分に知りつつ専らＡを害する目的で、当該不動産をＢから購入して所有権の移転の登記を完了し、さらに、善意のＤに当該不動産を転売し、Ｄへの所有権の移転の登記をした。この場合、ＡはＤに対して不動産の所有権を主張することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H19-Q02 エ",
+   "article": "note-articles/h19-mondai/q02-daisansha-hogo.md",
+   "article_summary_line": "- **エ（誤）**　背信的悪意者Cからの善意の転得者Dは177条の第三者として保護される（相対的構成）",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0215",
+   "group": "第三者の保護（H19-Q02）",
+   "statement": "【判例】Ａは、Ｂ所有の動産をＢから買ったが、後日持ち帰ることにして、当該動産をＢに保管してもらっていた。しかし、Ｂは、善意のＣにも当該動産を売ってしまい、Ｃの依頼を受けてＣのために当該動産を保管していた。この場合、ＡはＣに対して動産の所有権を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H19-Q02 オ",
+   "article": "note-articles/h19-mondai/q02-daisansha-hogo.md",
+   "article_summary_line": "- **オ（正）**　先に占有改定で対抗要件を備えたAは、後から占有改定を受けただけの善意のCに対抗できる（即時取得は成立しない）",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0318",
+   "group": "不動産の物権変動（H20-Q02）",
+   "statement": "〔不動産の物権変動〕【判例】時効により所有権を取得した者は、その登記をしないうちに、時効完成後に元の所有者から当該不動産を買い受けて所有権の移転の登記を備えた第三者に対しては、時効による所有権の取得を対抗することができない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H20-Q02 ア",
+   "article": "note-articles/h20-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **ア（正）**　時効完成後の第三者には登記がなければ対抗できない（判例）",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0319",
+   "group": "不動産の物権変動（H20-Q02）",
+   "statement": "〔不動産の物権変動〕【判例】贈与による所有権の移転の登記をしないうちに贈与者が死亡し、その相続人が当該不動産を第三者に売却して所有権の移転の登記をした場合には、受贈者は、その買受人に対して所有権の取得を対抗することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H20-Q02 イ",
+   "article": "note-articles/h20-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **イ（誤）**　贈与者の相続人からの買主とは対抗関係。受贈者も登記が必要",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0320",
+   "group": "不動産の物権変動（H20-Q02）",
+   "statement": "〔不動産の物権変動〕【判例】売買による所有権の移転の登記をしていない買主は、何らの権原なく当該不動産を占有する第三者に対しては、その所有権の取得を対抗することができない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H20-Q02 ウ",
+   "article": "note-articles/h20-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **ウ（誤）**　不法占拠者は民法の「第三者」でない。登記なく勝てる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0321",
+   "group": "不動産の物権変動（H20-Q02）",
+   "statement": "〔不動産の物権変動〕【判例】共有持分の譲渡を受けた者は、その登記をしていなくても、他の共有者に対して持分の取得を対抗することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H20-Q02 エ",
+   "article": "note-articles/h20-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **エ（誤）**　他の共有者は民法の「第三者」。持分譲受人も登記が必要",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0322",
+   "group": "不動産の物権変動（H20-Q02）",
+   "statement": "〔不動産の物権変動〕【判例】不動産を買い受けた者は、その登記をしていないうちに、売主が背信的悪意者に二重に譲渡し、さらにその背信的悪意者から当該不動産を買い受けて登記を備えた者に対しては、その者自身が背信的悪意者でない限り、所有権の取得を対抗することができない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H20-Q02 オ",
+   "article": "note-articles/h20-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **オ（正）**　背信的悪意者からの転得者は、自身が背信的でなければ保護される（判例）",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0516",
+   "group": "登記なしで主張できる相手（H22-Q02）",
+   "statement": "【判例】Ｃが所有する土地をＡに売却したが、所有権の移転の登記をしないうちに、Ｂが権原がないのにその土地を占拠した。この場合、ＡはＢに対して土地の所有権を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H22-Q02 ア",
+   "article": "note-articles/h22-mondai/q02-taikou-youken-177.md",
+   "article_summary_line": "- **ア（正）**　不法占拠者は177条の第三者でない",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0517",
+   "group": "登記なしで主張できる相手（H22-Q02）",
+   "statement": "【判例】Ｃが所有する土地をＡに売却したが、所有権の移転の登記をしないうちにＣの一般債権者Ｂがその土地について仮差押えをした。この場合、ＡはＢに対して土地の所有権を主張することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H22-Q02 イ",
+   "article": "note-articles/h22-mondai/q02-taikou-youken-177.md",
+   "article_summary_line": "- **イ（誤）**　仮差押えをした一般債権者は177条の第三者にあたる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0518",
+   "group": "登記なしで主張できる相手（H22-Q02）",
+   "statement": "【判例】Ｂが所有する土地をＣに売却したが所有権の移転の登記をしないうちに、ＣがＡにその土地を売却した。この場合、ＡはＢに対して土地の所有権を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H22-Q02 ウ",
+   "article": "note-articles/h22-mondai/q02-taikou-youken-177.md",
+   "article_summary_line": "- **ウ（正）**　前主は承継人に対する177条の第三者でない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0519",
+   "group": "登記なしで主張できる相手（H22-Q02）",
+   "statement": "【判例】Ｂが所有する土地をＣに売却して所有権の移転の登記をし、ＣがＡにその土地を売却したがその所有権の移転の登記をする前に、ＢがＣの代金未払を理由にＢＣ間の売買契約を解除した。この場合、ＡはＢに対して土地の所有権を主張することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H22-Q02 エ",
+   "article": "note-articles/h22-mondai/q02-taikou-youken-177.md",
+   "article_summary_line": "- **エ（誤）**　解除後の第三者と解除者は登記の先後で決まる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0520",
+   "group": "登記なしで主張できる相手（H22-Q02）",
+   "statement": "【判例】未成年者Ａは、法定代理人Ｃの同意を得ないで、Ａ所有の土地をＤに売却し、Ｄは、Ａが未成年者でＤへの売却についてＣの同意を得ていないことを知らないＢに対し、その土地を売却した。その後、ＣがＡのＤに対する売買の意思表示を取り消した。この場合、ＡはＢに対して土地の所有権を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H22-Q02 オ",
+   "article": "note-articles/h22-mondai/q02-taikou-youken-177.md",
+   "article_summary_line": "- **オ（正）**　制限行為能力の取消しは善意の第三者にも対抗できる",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0721",
+   "group": "順次譲渡（H24-Q03）",
+   "statement": "〔甲土地がAからBへ、BからCへと順次譲渡された場合〕【判例】甲土地の所有権の登記名義人がいまだAのままである場合であっても、Cは、Aに対し、甲土地の所有権を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H24-Q03 ア",
+   "article": "note-articles/h24-mondai/q03-taikouyouken.md",
+   "article_summary_line": "- **ア（正）**　元の譲渡人Aは第三者に当たらず、登記なしで対抗できる",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0722",
+   "group": "順次譲渡（H24-Q03）",
+   "statement": "〔甲土地がAからBへ、BからCへと順次譲渡された場合〕【判例】甲土地の所有権の登記名義人がいまだAのままである場合には、Cは、Bの相続人であるDに対し、甲土地の所有権を主張することができない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H24-Q03 イ",
+   "article": "note-articles/h24-mondai/q03-taikouyouken.md",
+   "article_summary_line": "- **イ（誤）**　相続人は当事者の地位を承継するため、登記なしで対抗できる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0723",
+   "group": "順次譲渡（H24-Q03）",
+   "statement": "〔甲土地がAからBへ、BからCへと順次譲渡された場合〕【判例】甲土地の所有権の登記名義人がいまだAのままである場合において、A、B及びCの三者間で、AからCへ直接登記名義を移転する旨の合意をしたときは、Bの債権者であるEは、自己の債権を保全するため、Bに代位して、Aに対し、Bへの所有権の移転の登記手続を請求することができない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H24-Q03 ウ",
+   "article": "note-articles/h24-mondai/q03-taikouyouken.md",
+   "article_summary_line": "- **ウ（誤）**　中間省略登記の合意があっても、債権者の代位行使は妨げられない",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [
+    {
+     "severity": "unverified",
+     "problem": "「中間省略登記の合意（略）は、Bが有するAに対する所有権移転登記請求権そのものを消滅させるものではありません」と断定。判例・先例等の出典が本文に示されておらず、法令DBにも原文がない。",
+     "proposal": "判例等の出典を示す。示せない場合は「一般原則からの整理で、直接の判例は確認できていない」と本文に書く。"
+    }
+   ],
+   "flagged_article_fix": true
+  },
+  {
+   "id": "D0724",
+   "group": "順次譲渡（H24-Q03）",
+   "statement": "〔甲土地がAからBへ、BからCへと順次譲渡された場合〕【判例】甲土地の所有権の登記名義人がいまだAのままである場合には、Cは、Bに対する登記請求権を保全するためであっても、Bに代位して、Aに対し、Bへの所有権の移転の登記手続を請求することができない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H24-Q03 エ",
+   "article": "note-articles/h24-mondai/q03-taikouyouken.md",
+   "article_summary_line": "- **エ（誤）**　登記請求権保全のための債権者代位は認められる（債権者代位権の転用）",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0725",
+   "group": "順次譲渡（H24-Q03）",
+   "statement": "〔甲土地がAからBへ、BからCへと順次譲渡された場合〕【判例】AとBとの間の売買契約に基づいてAからBへ甲土地の所有権の移転の登記がされた場合において、AがBによる詐欺を理由としてその売買契約に係る意思表示を取り消した後、Bへの所有権の移転の登記を抹消する前に、BからCへの甲土地の譲渡が行われていたときは、Cは、自己への所有権の移転の登記をしなければ、Aに対し、甲土地の所有権を主張することができない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H24-Q03 オ",
+   "article": "note-articles/h24-mondai/q03-taikouyouken.md",
+   "article_summary_line": "- **オ（正）**　詐欺取消し後の第三者との関係は177条の対抗問題として処理される",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1209",
+   "group": "不動産の物権変動（H29-Q02）",
+   "statement": "〔不動産の物権変動（判例）〕【判例】A所有の土地をBがCに売却し、その後BがAから当該土地を買い受けた場合において、いずれの売買契約にも所有権の移転時期や方法に関する特約がないときは、BがAから当該土地を買い受け、かつ、AからBへの所有権の移転の登記がされた時点で、Cに当該土地の所有権が移転する。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H29-Q02 ア",
+   "article": "note-articles/h29-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **ア（誤）**　他人物売買では売主が所有権を取得した時点で買主に移転（登記時点に限られない）",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1210",
+   "group": "不動産の物権変動（H29-Q02）",
+   "statement": "〔不動産の物権変動（判例）〕【判例】Cが占有しているA所有の土地をAがBに売却し、AからBへの所有権の移転の登記がされた後、Cにつき当該土地の取得時効が完成して、Cが時効を援用した場合、Cは、Bに対し、登記なくして当該土地の所有権を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H29-Q02 イ",
+   "article": "note-articles/h29-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **イ（正）**　登記後に時効完成した占有者は、登記なくして対抗できる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1211",
+   "group": "不動産の物権変動（H29-Q02）",
+   "statement": "〔不動産の物権変動（判例）〕【判例】A所有の土地をAがBに売却し、AからBへの所有権の移転の登記がされた後、AがBの債務不履行により当該売買契約を解除したが、その解除後、BがCに当該土地を売却し、BからCへの所有権の移転の登記がされた場合、Aは、Cに対し、登記なくして当該土地の所有権を主張することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H29-Q02 ウ",
+   "article": "note-articles/h29-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **ウ（誤）**　解除後の第三者とは対抗関係。解除者も登記がなければ対抗できない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1212",
+   "group": "不動産の物権変動（H29-Q02）",
+   "statement": "〔不動産の物権変動（判例）〕【判例】A所有の土地をAがBに売却したが、AからBへの所有権の移転の登記がされる前に、Cが権原なく当該土地の占有を開始した場合、Bは、Cに対し、登記なくして当該土地の所有権を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H29-Q02 エ",
+   "article": "note-articles/h29-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **エ（正）**　不法占拠者は177条の「第三者」にあたらない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1213",
+   "group": "不動産の物権変動（H29-Q02）",
+   "statement": "〔不動産の物権変動（判例）〕【判例】A所有の土地をAがBに売却した後、AからBへの所有権の移転の登記がされる前に、Bからその登記の申請を受任していたCが、Aから当該土地を買い受け、AからCへの所有権の移転の登記がされた場合、Bは、Cに対し、登記なくして当該土地の所有権を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H29-Q02 オ",
+   "article": "note-articles/h29-mondai/q02-bukken-hendou.md",
+   "article_summary_line": "- **オ（正）**　登記申請を受任していた者は「第三者」にあたらない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1911",
+   "group": "売却後の登記前（R06-Q02）",
+   "statement": "〔Ａがその所有する甲土地をＢに売却した場合〕【判例】Ａが甲土地をＢに売却した後、その旨の登記がされない間に、更に甲土地をＣに売却した場合において、ＡＣ間の売買の時点で、ＡＢ間の売買についてＣが悪意であったときは、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃに対し、甲土地の所有権の取得を対抗することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "R06-Q02 ア",
+   "article": "note-articles/r6-mondai/q02-taikouyouken.md",
+   "article_summary_line": "- **ア（誤）** 単純悪意の第三者も「第三者」にあたり、登記なしでは対抗できない",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1912",
+   "group": "売却後の登記前（R06-Q02）",
+   "statement": "〔Ａがその所有する甲土地をＢに売却した場合〕【判例】Ａが甲土地をＢに売却した後、その旨の登記がされない間に、Ｃのために抵当権を設定した場合には、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃの抵当権が実行されて買受人となったＤに対し、甲土地の所有権の取得を対抗することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "R06-Q02 イ",
+   "article": "note-articles/r6-mondai/q02-taikouyouken.md",
+   "article_summary_line": "- **イ（誤）** 抵当権実行の買受人は所有権取得者であり、登記なしでは対抗できない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1913",
+   "group": "売却後の登記前（R06-Q02）",
+   "statement": "〔Ａがその所有する甲土地をＢに売却した場合〕【判例】Ｂが甲土地を更にＣに売却した場合には、Ｃは、甲土地について所有権の移転の登記を備えなくても、Ａに対し、甲土地の所有権の取得を対抗することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "R06-Q02 ウ",
+   "article": "note-articles/r6-mondai/q02-taikouyouken.md",
+   "article_summary_line": "- **ウ（正）** 前主・後主の関係にある者は「第三者」にあたらず、登記なしで対抗できる",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1914",
+   "group": "売却後の登記前（R06-Q02）",
+   "statement": "〔Ａがその所有する甲土地をＢに売却した場合〕【判例】Ａが甲土地をＢに売却した後、その旨の登記がされない間に、Ａが死亡し、Ａの唯一の相続人である子Ｃが甲土地を相続した場合には、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃに対し、甲土地の所有権の取得を対抗することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "R06-Q02 エ",
+   "article": "note-articles/r6-mondai/q02-taikouyouken.md",
+   "article_summary_line": "- **エ（正）** 相続人は被相続人を包括承継するため、登記なしで対抗できる",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1915",
+   "group": "売却後の登記前（R06-Q02）",
+   "statement": "〔Ａがその所有する甲土地をＢに売却した場合〕【判例】Ｂは、甲土地について所有権の移転の登記を備えなければ、甲土地を無権原で占有するＣに対し、甲土地の明渡しを請求することができない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "R06-Q02 オ",
+   "article": "note-articles/r6-mondai/q02-taikouyouken.md",
+   "article_summary_line": "- **オ（誤）** 不法占拠者は「第三者」にあたらず、登記なしで対抗できる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  }
+ ],
+ "_meta": {
+  "generated": "2026-10-05",
+  "data_as_of": "drill 500 answers",
+  "how_to_read": "このJSONは、択一式ドリル（500問時点、2026-10-05）の解答記録を分析した、苦手分析記事の素材。正誤は現行法令を正とし、note-articles/の年度別記事の結論に従っている。引用してよいのは年度別記事（article欄）の本文と法令DB（note-articles/laws/）。article_check_findingsは、記事の条文照合で見つかった指摘（記事側の修正候補）で、苦手分析記事に転記するときは根拠の書き方に注意する。"
+ }
+}

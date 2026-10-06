@@ -1,52 +1,74 @@
 ## 【土地家屋調査士受験生向け】平成17年度 第15問〜共有者の1人でも、地積更正登記はできるんです〜
 
-**出題年度：平成17年度　午後の部　第15問**
+**出題年度：平成17年度　第15問**
 
-> 地積に関する更正の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。
->
-> ア　登記記録の地積に錯誤があるにもかかわらず、当該土地の所有権の登記名義人がその更正の登記をしないまま第三者に所有権を移転した場合には、新たな所有者は、その更正の登記の申請をしなければならない。
->
-> イ　抵当権の設定の登記がされた土地について地積に関する更正の登記の申請をする場合には、抵当権の登記名義人が承諾したことを証する情報を申請情報と併せて提供しなければならない。
->
-> ウ　共有名義の土地の地積に関する更正の登記の申請は、共有者として登記されている登記名義人のうちの１人が単独ですることができる。
->
-> エ　地積に関する更正の登記の申請をする場合において、地積が増加するときは、その増加部分について表題部所有者又は所有権の登記名義人が所有権を有することを証する情報を申請情報と併せて提供しなければならない。
->
-> オ　登記記録の地積に錯誤がある土地の一部を買い受けた者は、当該土地の所有権の登記名義人に代位して分筆の登記の申請をする前提として、当該所有権の登記名義人に代位して地積に関する更正の登記の申請をすることができる。
->
-> 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+> 地積に関する更正の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　登記記録の地積に錯誤があるにもかかわらず、当該土地の所有権の登記名義人がその更正の登記をしないまま第三者に所有権を移転した場合には、新たな所有者は、その更正の登記の申請をしなければならない。  
+>　  
+> イ　抵当権の設定の登記がされた土地について地積に関する更正の登記の申請をする場合には、抵当権の登記名義人が承諾したことを証する情報を申請情報と併せて提供しなければならない。  
+>　  
+> ウ　共有名義の土地の地積に関する更正の登記の申請は、共有者として登記されている登記名義人のうちの１人が単独ですることができる。  
+>　  
+> エ　地積に関する更正の登記の申請をする場合において、地積が増加するときは、その増加部分について表題部所有者又は所有権の登記名義人が所有権を有することを証する情報を申請情報と併せて提供しなければならない。  
+>　  
+> オ　登記記録の地積に錯誤がある土地の一部を買い受けた者は、当該土地の所有権の登記名義人に代位して分筆の登記の申請をする前提として、当該所有権の登記名義人に代位して地積に関する更正の登記の申請をすることができる。  
+>　  
+> １　アイ　　　２　アウ　　　３　イエ　　　４　ウオ　　　５　エオ
 
-地積更正登記は、実測したら登記記録の面積と実際の面積が食い違っていた、というときに記録を実際に合わせる登記です。この分野は「そもそも申請義務があるのか」「誰の承諾・証明が必要なのか」「誰が申請できるのか」という論点がバラバラに問われやすいので、混同しないように一つずつ整理していきましょう。この問題は「正しいものの組合せ」を選ぶ形式です。
+---
+
+地積更正登記は、実測したら登記記録の面積と実際の面積が食い違っていた、というときに記録を実際に合わせる登記です。
+
+この分野は「そもそも申請義務があるのか」「誰の承諾・証明が必要なのか」「誰が申請できるのか」という論点がバラバラに問われやすいので、混同しないように一つずつ整理していきましょう。この問題は「正しいものの組合せ」を選ぶ形式です。
 
 ### ア：地積の更正登記に、そもそも申請義務はない
 
-不動産登記法上、地目や地積が実際に変わったときに行う「変更の登記」には、変更があった日から1か月以内に申請しなければならないという義務が課されています（不動産登記法37条）。これに対して、登記記録を作成した当初からの錯誤や遺漏を正す「更正の登記」には、こうした申請義務を課す規定がなく、申請するかどうかは登記名義人の判断に委ねられています。したがって、たとえ第三者に所有権が移転していたとしても、新たな所有者に「更正の登記を申請しなければならない」という法律上の義務は生じません。肢アは誤りです。
+不動産登記法上、地目や地積が実際に変わったときに行う「変更の登記」には、変更があった日から1か月以内に申請しなければならないという義務が課されています（不動産登記法37条）。
 
-**たとえば**、Aさんが持っていた土地を測量し直したら、登記記録より面積が狭かったことに気づいたとします。Aさんがそのまま何もせずにBさんに土地を売ってしまった場合でも、Bさんは「絶対に更正登記をしなければならない」と法律で義務付けられているわけではなく、必要だと思えば申請すればよい、という位置づけです。
+これに対して、登記記録を作成した当初からの錯誤や遺漏を正す「更正の登記」には、こうした申請義務を課す規定がなく、申請するかどうかは登記名義人の判断に委ねられています。
+
+したがって、たとえ第三者に所有権が移転していたとしても、新たな所有者に「更正の登記を申請しなければならない」という法律上の義務は生じません。アは誤りです。
+
+**たとえば**、Aさんが持っていた土地を測量し直したら、登記記録より面積が狭かったことに気づいたとします。
+
+Aさんがそのまま何もせずにBさんに土地を売ってしまった場合でも、Bさんは「絶対に更正登記をしなければならない」と法律で義務付けられているわけではなく、必要だと思えば申請すればよい、という位置づけです。
 
 ### イ：地積の更正登記に、抵当権者の承諾は不要
 
-地積の更正登記は、土地の物理的な現況を正しく登記記録に反映させるための「表示に関する登記」であり、抵当権のような「権利に関する登記」ではありません。権利に関する登記で登記上利害関係を有する第三者の承諾証明情報の提供が問題になるのとは異なり、表示に関する登記である地積更正登記では、抵当権者などの承諾を証する情報の提供は必要とされていません。したがって肢イは誤りです。
+地積の更正登記は、土地の物理的な現況を正しく登記記録に反映させるための「表示に関する登記」であり、抵当権のような「権利に関する登記」ではありません。
+
+権利に関する登記で登記上利害関係を有する第三者の承諾証明情報の提供が問題になるのとは異なり、表示に関する登記である地積更正登記では、抵当権者などの承諾を証する情報の提供は必要とされていません。したがってイは誤りです。
 
 **たとえば**、住宅ローンを組んで抵当権が設定されている土地でも、測量し直した結果、実際の面積が登記記録と違っていたとします。この場合、所有者は銀行（抵当権者）にわざわざ承諾書へのハンコをもらわなくても、地積更正登記の申請をすることができます。
 
 ### ウ：共有名義の土地でも、共有者の1人が単独で申請できる
 
-共有名義の土地の地積更正登記は、権利そのものを動かす登記ではなく、現況を正しく公示するだけの表示に関する登記です。このような登記は、共有者全員の利益になる行為（保存行為）として、共有者のうちの1人から、共有者全員のために申請することができるという扱いが登記実務上とられています。したがって肢ウは正しい記述です。
+共有名義の土地の地積更正登記は、権利そのものを動かす登記ではなく、現況を正しく公示するだけの表示に関する登記です。
+
+このような登記は、共有者全員の利益になる行為（保存行為）として、共有者のうちの1人から、共有者全員のために申請することができるという扱いが登記実務上とられています。したがってウは正しい記述です。
 
 **たとえば**、兄弟3人で共有している土地について、実測したら登記記録より面積が狭かったことが分かったとします。このとき、3人全員の実印や委任状をそろえなくても、そのうちの1人だけで地積更正登記の申請をすることができます。
 
 ### エ：地積が増加しても、その部分について所有権証明情報は不要
 
-地積の更正登記は、あくまで登記記録の面積を実際の面積に合わせる登記であり、地積が増加する場合であっても、その増加部分について新たに所有権を取得するわけではありません。そのため、増加する部分について改めて所有権を証する情報を提供しなければならないという規定はありません。所有権を証する情報が必要になるのは、たとえば海面の埋め立てなどで新たに土地が生じた場合の表題登記のような、別の場面です。したがって肢エは誤りです。
+地積の更正登記は、あくまで登記記録の面積を実際の面積に合わせる登記であり、地積が増加する場合であっても、その増加部分について新たに所有権を取得するわけではありません。
+
+そのため、増加する部分について改めて所有権を証する情報を提供しなければならないという規定はありません。所有権を証する情報が必要になるのは、たとえば海面の埋め立てなどで新たに土地が生じた場合の表題登記のような、別の場面です。したがってエは誤りです。
 
 **たとえば**、測量し直したら登記記録より20平方メートル広いことが分かったとしても、その20平方メートル分について「これは自分の所有物です」という証明書を新たに用意する必要はなく、通常の地積更正登記に必要な書類だけで申請できます。
 
 ### オ：買主は、代位して地積更正登記を申請することができる
 
-土地の一部を買い受けた人は、まだ所有権移転登記や分筆登記を受けていない段階では、売主（所有権の登記名義人）に対して分筆登記・所有権移転登記を求める権利を持っています。しかし、登記記録の地積に錯誤があるままでは分筆登記を申請することができません。そこで買主は、この権利を保全するために、民法423条の債権者代位権に基づき、売主に代位して地積に関する更正の登記を申請することができます。したがって肢オは正しい記述です。
+土地の一部を買い受けた人は、まだ所有権移転登記や分筆登記を受けていない段階では、売主（所有権の登記名義人）に対して分筆登記・所有権移転登記を求める権利を持っています。しかし、登記記録の地積に錯誤があるままでは分筆登記を申請することができません。
 
-**たとえば**、Aさんの土地の一部だけをBさんが買ったものの、登記記録の面積が実際と食い違っていて、そのままでは分筆登記ができない状態だったとします。この場合、Bさんは自分の権利を実現するために、Aさんに代わって（代位して）地積の更正登記をまず申請し、それから分筆登記へと進むことができます。
+そこで買主は、この権利を保全するために、民法423条の債権者代位権に基づき、売主に代位して地積に関する更正の登記を申請することができます。したがってオは正しい記述です。
+
+**たとえば**、Aさんの土地の一部だけをBさんが買ったものの、登記記録の面積が実際と食い違っていて、そのままでは分筆登記ができない状態だったとします。
+
+この場合、Bさんは自分の権利を実現するために、Aさんに代わって（代位して）地積の更正登記をまず申請し、それから分筆登記へと進むことができます。
+
+---
 
 ### まとめ
 
@@ -64,10 +86,11 @@
 
 **このまま使える点／使う前に確認したい点**
 
+- **問題文の差し替え（2026-10-02）**：問題文は、提供された原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）の表記に置き換えました。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（この年度はtakuitsu.jsonのexplanationが空欄のため、kaisetsu_plus.jsonのapproach／pitfalls／keyPointsを主たる根拠としています）で確認済みです。
 - 各肢の根拠のうち、条文レベルで確認できたもの：ア・イ・エの3肢は、今回`note-articles/laws/`のローカル法令データベースの条文原文と突き合わせて確認できました。ア（更正登記に申請義務を課す規定はないこと）は、不動産登記法37条が「地目又は地積について変更があったとき」に表題部所有者又は所有権の登記名義人に1か月以内の変更登記の申請義務を課す規定であり、本問が問う「更正」の登記（登記当初からの錯誤・遺漏を正すもの）を対象としていないこと、また更正の登記について定める同法38条は「表題部所有者又は所有権の登記名義人以外の者は、申請することができない」という申請人の資格を限定する規定にとどまり、申請義務を課す規定ではないことを、条文原文で確認しました。イ（抵当権者の承諾は不要）・エ（地積増加分の所有権証明情報は不要）は、地積の変更・更正の登記の添付情報を定める不動産登記令別表六の項に「地積測量図」のみが掲げられ、抵当権者の承諾証明情報・所有権証明情報についての定めがないことで確認できました。オ（民法423条の債権者代位権に基づき、買主が売主に代位して地積更正登記を申請でき、分筆登記の前提として実務上も認められていること）は、民法423条の実在は条文で確認済みですが、代位による地積更正登記が分筆登記の前提として認められる点そのものは、複数の実務解説サイトの一致による確認にとどまります。
-- 肢ウについては、DBのkeyPointsが「不動産登記法第30条（共有物の申請）」を根拠として挙げていましたが、`note-articles/laws/fudousan-touki-hou.md`の条文原文で確認した不動産登記法30条の内容は「表題部所有者又は登記名義人について相続その他の一般承継があった場合に、相続人その他の一般承継人が申請できる」という規定であり、本肢が問う「共有者の1人が単独で申請できる」という場面とは一致しませんでした。「共有名義の土地の地積更正登記を共有者の1人から全員のために申請できる」という結論自体は、複数の実務解説サイトで一致して確認できましたが、これを明文で定めた不動産登記法上の具体的な条文番号は特定できませんでした。そのため本記事では、条文番号を断定的に示すことは避け、「共有者全員の利益になる行為（保存行為）として、登記実務上認められている」という説明にとどめています。
+- ウについては、DBのkeyPointsが「不動産登記法第30条（共有物の申請）」を根拠として挙げていましたが、`note-articles/laws/fudousan-touki-hou.md`の条文原文で確認した不動産登記法30条の内容は「表題部所有者又は登記名義人について相続その他の一般承継があった場合に、相続人その他の一般承継人が申請できる」という規定であり、本肢が問う「共有者の1人が単独で申請できる」という場面とは一致しませんでした。「共有名義の土地の地積更正登記を共有者の1人から全員のために申請できる」という結論自体は、複数の実務解説サイトで一致して確認できましたが、これを明文で定めた不動産登記法上の具体的な条文番号は特定できませんでした。そのため本記事では、条文番号を断定的に示すことは避け、「共有者全員の利益になる行為（保存行為）として、登記実務上認められている」という説明にとどめています。
 - アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記アプリの検証済みデータベース・ローカル法令データベース・WebSearchによる条文・実務解説の確認に基づいて作成しています。
 - **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（不動産登記法37条・38条、不動産登記令別表六の項の条文原文を再度突き合わせ、記載どおりであることを確認。判例・先例・専門誌番号は本文に記載なし。行政不服審査法等の一般法は本問に登場せず適用除外チェックは対象外）、B（正解「ウオ・選択肢4番」がまとめの正誤判定と整合していることを確認）、C（各見出しが正しい結論を表しており「誤り──」等の判定語を含まないこと、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの説明がないこと、全角括弧で統一されていることを確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックの5カードが本文の5肢・結論と一致していることを確認）、F（テンプレート構造・タイトルのキャッチフレーズが25字以内であること・確認事項ブロックの記載を確認）、G（重複出題チェック：`note-articles/`内を「地積」「更正」で検索したところ、h21-mondai/q07・h22-mondai/q11・h26-mondai/q09・r2-mondai/q08等、地積更正登記を扱う記事が他年度に複数存在しますが、いずれも代位申請の要件（判決による代位の可否等）、分筆線の誤りとの関係、地図訂正との併用義務など、本問の5肢（申請義務の有無・抵当権者の承諾・共有者単独申請・増加分の証明情報・買主の代位申請）とは異なる具体的論点を扱っており、本問と同一の問題は見つかりませんでした。「抵当権者の承諾」「代位申請」というテーマ自体は複数年度で繰り返し出題される頻出論点である点を申し添えます。最新法令チェック：本問が扱う地積更正登記の手続（37条・38条、令別表六の項）は相続登記義務化・住所等変更登記義務化など直近の法改正の対象外であり、内容に影響はありません）を実施し、修正が必要な誤りは見つかりませんでした。
 
@@ -109,12 +132,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所・単・独・買 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -122,7 +163,7 @@ Title (large, bold, 2行):
 義務？承諾？申請人は？
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第15問－申請義務・承諾の要否と申請人の範囲
+平成17年度 第15問－申請義務・承諾の要否と申請人の範囲
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -188,18 +229,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -261,12 +302,12 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成17年度午後第15問 作図ガイド（地積更正登記）
+平成17年度第15問 作図ガイド（地積更正登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地積の更正登記に申請義務はない
@@ -286,7 +327,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請義務なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 抵当権者の承諾なしで更正登記を申請可
@@ -306,7 +347,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 共有者は1人だけで単独申請できる
@@ -325,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単独申請できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地積増加分の証明情報は不要
@@ -344,7 +385,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明情報は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 買主は売主に代位して更正登記を申請
@@ -366,7 +407,7 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法37条（変更登記の申請義務、対比）・38条（更正登記の申請
 人資格）、不動産登記令別表六の項（添付情報）、民法423条（代位、肢
-オ）に基づく整理です。肢ウの共有者単独申請は、登記実務上の取扱いに
+オ）に基づく整理です。ウの共有者単独申請は、登記実務上の取扱いに
 よるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is

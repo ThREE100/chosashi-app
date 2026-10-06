@@ -1,42 +1,54 @@
 ## 【土地家屋調査士受験生向け】平成18年度 第9問〜近くの電柱基準じゃダメなんです〜
 
-**出題年度：平成18年度　午後の部　第9問**
+**出題年度：平成18年度　第9問**
 
-> 次の対話は、地積測量図に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものは幾つあるか。
->
-> 教授：土地の表示に関する登記の申請において、地積測量図を添付情報として提供しなければならないのはどのような場合ですか。
->
-> 学生：ア　土地の表題登記、地積に関する変更の登記若しくは更正の登記又は分筆の登記を申請する場合に添付情報として提供します。
->
-> 教授：地積測量図に記録する筆界点の座標値は、どのような測量の成果によらなければなりませんか。
->
-> 学生：イ　近傍の恒久的な地物に基づく測量の成果による必要があります。
->
-> 教授：では、筆界点に境界標がある場合、その境界標の表示は、地積測量図にどのように記録する必要がありますか。
->
-> 学生：ウ　境界標の存する筆界点に符号を付し、適宜の箇所にその符号及び境界標の種類を記録する方法その他これに準ずる方法によります。
->
-> 教授：分筆の登記を申請する場合に提出する地積測量図には、分筆後のすべての土地について、地積及びその求積方法、筆界点間の距離並びに筆界点の座標値を記録する必要がありますか。
->
-> 学生：エ　地積及びその求積方法、筆界点間の距離並びに筆界点の座標値は、分筆前の土地が広大な土地であって分筆後の土地の一方がわずかであるなど特別の事情がある場合を除いて、分筆後のすべての土地について記録しなければなりません。
->
-> 教授：既に登記所に備え付けられている地積測量図に誤りがあるとき、表題部所有者又は所有権の登記名義人はどのような手続をすることができますか。
->
-> 学生：オ　地積測量図を添付情報とする表題部の登記事項に関する更正の登記をすることができる場合を除き、地積測量図の訂正の申出をすることができます。
->
-> 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
+> 次の対話は、地積測量図に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものは幾つあるか。  
+>　  
+> 教授：　土地の表示に関する登記の申請において、地積測量図を添付情報として提供しなければならないのはどのような場合ですか。  
+>　  
+> 学生：ア　土地の表題登記、地積に関する変更の登記若しくは更正の登記又は分筆の登記を申請する場合に添付情報として提供します。  
+>　  
+> 教授：　地積測量図に記録する筆界点の座標値は、どのような測量の成果によらなければなりませんか。  
+>　  
+> 学生：イ　近傍の恒久的な地物に基づく測量の成果による必要があります。  
+>　  
+> 教授：　では、筆界点に境界標がある場合、その境界標の表示は、地積測量図にどのように記録する必要がありますか。  
+>　  
+> 学生：ウ　境界標の存する筆界点に符号を付し、適宜の箇所にその符号及び境界標の種類を記録する方法その他これに準ずる方法によります。  
+>　  
+> 教授：　分筆の登記を申請する場合に提出する地積測量図には、分筆後のすべての土地について、地積及びその求積方法、筆界点間の距離並びに筆界点の座標値を記録する必要がありますか。  
+>　  
+> 学生：エ　地積及びその求積方法、筆界点間の距離並びに筆界点の座標値は、分筆前の土地が広大な土地であって分筆後の土地の一方がわずかであるなど特別の事情がある場合を除いて、分筆後のすべての土地について記録しなければなりません。  
+>　  
+> 教授：　既に登記所に備え付けられている地積測量図に誤りがあるとき、表題部所有者又は所有権の登記名義人はどのような手続をすることができますか。  
+>　  
+> 学生：オ　地積測量図を添付情報とする表題部の登記事項に関する更正の登記をすることができる場合を除き、地積測量図の訂正の申出をすることができます。  
+>　  
+> １　１個　　　２　２個　　　３　３個　　　４　４個　　　５　５個
 
-地積測量図は、土地の表示に関する登記において地積とその求積方法を裏付ける重要な図面です。この問題は対話形式をとっていますが、聞かれている内容は「いつ添付が必要か」「座標値の測量成果は何によるべきか」「境界標をどう記録するか」「分筆登記での記録の省略が許される場合」「備付け後に誤りが見つかったときの手続」という、地積測量図に関する基本ルールの総復習です。一つずつ確認していきましょう。
+---
+
+地積測量図は、土地の表示に関する登記において地積とその求積方法を裏付ける重要な図面です。
+
+この問題は対話形式をとっていますが、聞かれている内容は「いつ添付が必要か」「座標値の測量成果は何によるべきか」「境界標をどう記録するか」「分筆登記での記録の省略が許される場合」「備付け後に誤りが見つかったときの手続」という、地積測量図に関する基本ルールの総復習です。
+
+一つずつ確認していきましょう。
 
 ### ア：地積測量図は、表題登記・地積の変更/更正登記・分筆登記の添付情報になる
 
-地積測量図は、土地の地積とその求積方法を明らかにするための図面であり、土地の表題登記（不動産登記令別表4項添付情報ロ）、地積に関する変更の登記若しくは更正の登記（同別表6項添付情報）、又は分筆の登記（同別表8項添付情報イ）を申請する場合に、添付情報として提供しなければなりません。これらはいずれも、登記記録に地積を新たに記録したり、既存の地積を変更・更正したりする登記であるため、その根拠として地積測量図の提供が求められます。
+地積測量図は、土地の地積とその求積方法を明らかにするための図面であり、土地の表題登記（不動産登記令別表4項添付情報ロ）、地積に関する変更の登記若しくは更正の登記（同別表6項添付情報）、又は分筆の登記（同別表8項添付情報イ）を申請する場合に、添付情報として提供しなければなりません。
+
+これらはいずれも、登記記録に地積を新たに記録したり、既存の地積を変更・更正したりする登記であるため、その根拠として地積測量図の提供が求められます。
 
 **たとえば**、1筆の土地を2筆に分ける分筆登記を申請する場合、分筆後のそれぞれの土地の面積がどのように測量・計算されたのかを示す地積測量図を添付しなければ、登記官は分筆後の地積を登記記録に反映させることができません。
 
 ### イ：座標値は、基本三角点等に基づく測量の成果によるのが原則（近傍の恒久的な地物によるのは特別の事情がある場合に限る）
 
-地積測量図に記録する筆界点の座標値は、原則として基本三角点等（三角点や電子基準点など）に基づく測量の成果によらなければなりません（不動産登記規則77条1項8号）。近傍に基本三角点等が存しない場合その他基本三角点等に基づく測量ができない特別の事情がある場合に限り、例外的に近傍の恒久的な地物に基づく測量の成果による座標値を記録することが認められています（不動産登記規則77条2項）。学生の解答は、この「特別の事情がある場合に限る」という限定を欠いたまま、近傍の恒久的な地物に基づく測量の成果によるのが標準であるかのように述べている点で誤りです。
+地積測量図に記録する筆界点の座標値は、原則として基本三角点等（三角点や電子基準点など）に基づく測量の成果によらなければなりません（不動産登記規則77条1項8号）。
+
+近傍に基本三角点等が存しない場合その他基本三角点等に基づく測量ができない特別の事情がある場合に限り、例外的に近傍の恒久的な地物に基づく測量の成果による座標値を記録することが認められています（不動産登記規則77条2項）。
+
+学生の解答は、この「特別の事情がある場合に限る」という限定を欠いたまま、近傍の恒久的な地物に基づく測量の成果によるのが標準であるかのように述べている点で誤りです。
 
 **たとえば**、周辺に基本三角点や電子基準点がある通常の市街地で分筆登記をする場合、座標値は基本三角点等に基づく公共座標で記録するのが原則であり、近くの電柱や工作物といった地物を基準にした座標だけで済ませることは、特別の事情がない限りできません。
 
@@ -48,15 +60,25 @@
 
 ### エ：分筆後のすべての土地について地積・求積方法・距離・座標値を記録するのが原則（広大な土地等の特別の事情がある場合を除く）
 
-分筆の登記を申請する場合に提出する地積測量図には、分筆後のすべての土地について、地積及びその求積方法、筆界点間の距離並びに筆界点の座標値を記録するのが原則です。ただし、分筆前の土地が広大な土地であって分筆後の土地の一方がわずかであるなど特別の事情がある場合には、分筆後の土地のうち1筆について、求積方法・筆界点間の距離・座標値の記録を省略することが認められています（不動産登記事務取扱手続準則72条2項）。なお、この場合であっても地積そのものはこの省略の対象に含まれておらず、常に記録しなければなりません。
+分筆の登記を申請する場合に提出する地積測量図には、分筆後のすべての土地について、地積及びその求積方法、筆界点間の距離並びに筆界点の座標値を記録するのが原則です。
+
+ただし、分筆前の土地が広大な土地であって分筆後の土地の一方がわずかであるなど特別の事情がある場合には、分筆後の土地のうち1筆について、求積方法・筆界点間の距離・座標値の記録を省略することが認められています（不動産登記事務取扱手続準則72条2項）。
+
+なお、この場合であっても地積そのものはこの省略の対象に含まれておらず、常に記録しなければなりません。
 
 **たとえば**、広大な山林の一部だけをごくわずかに切り取って分筆するような場合には、切り取られた側のわずかな土地についてのみ求積方法・座標値等を詳しく記録し、残りの広大な側の土地については地積の数値自体は記録しつつも、求積方法や座標値の詳しい記録を省略できることがあります。
 
 ### オ：更正登記ができる場合を除き、地積測量図の訂正の申出ができる
 
-既に登記所に備え付けられている地積測量図に誤りがあるときは、表題部所有者又は所有権の登記名義人（その相続人その他の一般承継人を含む）は、その訂正の申出をすることができます（不動産登記規則88条1項）。ただし、その誤りについて、地積測量図を添付情報とする表題部の登記事項に関する更正の登記を申請することができる場合には、その更正の登記によるべきであり、訂正の申出をすることはできません。
+既に登記所に備え付けられている地積測量図に誤りがあるときは、表題部所有者又は所有権の登記名義人（その相続人その他の一般承継人を含む）は、その訂正の申出をすることができます（不動産登記規則88条1項）。
 
-**たとえば**、備え付けの地積測量図に単純な誤記があるだけで、登記記録の地積そのものを直す更正登記までは必要ないケースでは、訂正の申出という簡易な手続で地積測量図を直すことができます。一方、地積そのものが誤っていて更正登記の申請が必要な場合は、訂正の申出ではなく更正登記の手続によることになります。
+ただし、その誤りについて、地積測量図を添付情報とする表題部の登記事項に関する更正の登記を申請することができる場合には、その更正の登記によるべきであり、訂正の申出をすることはできません。
+
+**たとえば**、備え付けの地積測量図に単純な誤記があるだけで、登記記録の地積そのものを直す更正登記までは必要ないケースでは、訂正の申出という簡易な手続で地積測量図を直すことができます。
+
+一方、地積そのものが誤っていて更正登記の申請が必要な場合は、訂正の申出ではなく更正登記の手続によることになります。
+
+---
 
 ### まとめ
 
@@ -74,12 +96,13 @@
 
 **このまま使える点／使う前に確認したい点**
 
+- **問題文の差し替え（2026-10-02）**：問題文は、提供された原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）の表記に置き換えました。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出典（平成18年度・午後の部・第9問）と正解番号（4番＝4個、ア・ウ・エ・オが正しくイのみ誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）のcorrectAnswerフィールドで確認済みです。ただし本問はexplanationフィールドが未整備（空欄）だったため、各肢の法的根拠は本記事執筆にあたり独自にWeb検索で調べ直したものです。
+- 出典（平成18年度・第9問）と正解番号（4番＝4個、ア・ウ・エ・オが正しくイのみ誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）のcorrectAnswerフィールドで確認済みです。ただし本問はexplanationフィールドが未整備（空欄）だったため、各肢の法的根拠は本記事執筆にあたり独自にWeb検索で調べ直したものです。
 - **再検証（2026-08-18実施）**：`note-articles/laws/` のローカル法令データベースで全肢の条文原文を直接照合しました。旧稿ではWebFetchが利用できずWebSearchのスニペットに頼っていましたが、今回は不動産登記規則・不動産登記事務取扱手続準則・不動産登記令別表の条文原文を一字一句確認できています。
 - イについて、旧稿は例外要件（近傍の恒久的な地物による座標値の記録が認められる要件）の根拠を「不動産登記事務取扱手続準則50条1項」としていましたが、これは誤りでした。準則50条1項は、規則77条1項8号（基本三角点等の原則）に基づき座標値を記録する場合の**記録の仕方**（符号・名称・座標値を書き添える方法）を定めた規定であり、例外の発生要件（近傍に基本三角点等が存しない場合その他特別の事情がある場合）そのものは**不動産登記規則77条2項**に定められています。本文・まとめとも77条2項に修正しました。
 - ウ（規則77条3項・1項9号）は、条文原文と本文の記述が完全に一致していることを確認しました。
-- **エの記述精度の訂正（2026-08-18再検証時に追加修正）**：旧稿の本文は「地積及びその求積方法、筆界点間の距離並びに筆界点の座標値」の4項目がまとめて省略可能であるかのように書いていましたが、準則72条2項の条文原文は「規則第77条第1項第5号から第8号までに掲げる事項（同項第5号の地積を除く。）」を省略の対象としており、地積そのものは省略の対象から明示的に除外されています。本文・たとえばとも、地積は常に記録が必要で、省略できるのは求積方法・距離・座標値である旨に修正しました。なお、問題文の肢エ自体の文言は「特別の事情がある場合を除いて…記録しなければならない」という言い回しにとどまり、地積も省略対象に含まれると断定してはいないため、肢エの正誤判定（正）自体への影響はありません。
+- **エの記述精度の訂正（2026-08-18再検証時に追加修正）**：旧稿の本文は「地積及びその求積方法、筆界点間の距離並びに筆界点の座標値」の4項目がまとめて省略可能であるかのように書いていましたが、準則72条2項の条文原文は「規則第77条第1項第5号から第8号までに掲げる事項（同項第5号の地積を除く。）」を省略の対象としており、地積そのものは省略の対象から明示的に除外されています。本文・たとえばとも、地積は常に記録が必要で、省略できるのは求積方法・距離・座標値である旨に修正しました。なお、問題文のエ自体の文言は「特別の事情がある場合を除いて…記録しなければならない」という言い回しにとどまり、地積も省略対象に含まれると断定してはいないため、エの正誤判定（正）自体への影響はありません。
 - ア（地積測量図が表題登記・地積の変更/更正登記・分筆登記の添付情報とされること）は、不動産登記令別表の該当項を特定できました。表題登記は別表4項添付情報ロ、地積に関する変更の登記又は更正の登記は別表6項添付情報、分筆の登記は別表8項添付情報イです。本文にこれらの項番号を追記しました。
 - オ（規則88条1項の訂正の申出と、更正登記ができる場合の除外）は、規則88条1項の条文原文（「ただし、表題部の登記事項に関する更正の登記（…）をすることができる場合は、この限りでない。」）で本文の記述と完全に一致することを確認しました。なお、ユーザーから提示された参考情報にあった先例（平成17年2月25日法務省民二第457号通達）は、`laws/`に収録がなく本文でも番号を記載していないため、参考情報としてのみ扱っています。
 - ローカルのアガルート等市販教材フォルダはこの実行環境からは参照できないため、今回は参照していません。
@@ -98,8 +121,9 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
+```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -151,7 +175,7 @@ Title (large, bold, 1行):
 地積測量図をめぐる5つのルール
 
 Subtitle (smaller, centered, 1行):
-土地(地積測量図) (平成18年度 午後の部 第9問)
+土地(地積測量図) (平成18年度 第9問)
 
 --- CARD 1 ---
 Badge: a filled circle in blue containing the number 1 (numbers run
@@ -212,7 +236,6 @@ Conclusion tag (beige, 5-15 Japanese characters):
 更正登記が優先
 
 --- FOOTER ---
-Small credit text in the corner (optional, keep minimal).
 簡体字混入・誤変換・重複表記のチェックリストはこのフッター直前にのみ短く記載し、
 本文カード内には記載しないこと。
 
@@ -231,6 +254,7 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
 
 ---
 
@@ -255,12 +279,12 @@ point icon (基本三角点等) on a hill, a utility-pole icon (近傍の恒久�
 tag, an isometric land plot being split by a dashed line (分筆), and
 registry document stamps for 更正の登記 and 訂正の申出. Where a 肢 requires
 checking multiple conditions in sequence before reaching a conclusion
-(肢イ・肢エ・肢オ), draw the panel's diagram as an actual decision
+(イ・エ・オ), draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No branch arrows, and a final conclusion node for BOTH
 outcomes - do not leave either branch's destination blank, and do not
 draw any arrow looping back to an earlier node. Where a 肢 is resolved by
-a single check (肢ア・肢ウ), a labeled illustrative diagram is sufficient
+a single check (ア・ウ), a labeled illustrative diagram is sufficient
 - do not force a flowchart. Unlike a glanceable summary poster, each
 panel MAY include a short「着眼点」callout box with 1-2 sentences that
 state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認しま
@@ -269,7 +293,7 @@ state the checking ORDER in words (e.g. "まず〜を確認し、次に〜を確
 below verbatim, and keep every condition each callout describes faithful
 to the article's own body text - do not drop or merge a required element
 (e.g. keep 地積・求積方法・筆界点間の距離・筆界点の座標値 as four distinct
-items in 肢エ, not compressed into one).
+items in エ, not compressed into one).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -303,12 +327,12 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成18年度午後第9問 作図ガイド（地積測量図）
+平成18年度第9問 作図ガイド（地積測量図）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -326,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 3つの登記に添付
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 座標値は原則、基本三角点等の成果による
@@ -348,7 +372,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 例外は特別事情のみ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 境界標は符号と種類をセットで記録
@@ -364,7 +388,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 符号+種類を記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 広大な土地の分筆は求積方法等を省略できる
@@ -390,7 +414,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地積のみ省略不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 更正登記ができるなら訂正の申出はできない
@@ -414,9 +438,9 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記令別表4項添付情報ロ・6項添付情報・8項添付情報イ（肢ア）、不動
-産登記規則77条1項8号・2項（肢イ）、同条3項・1項9号（肢ウ）、不動産登記
-事務取扱手続準則72条2項（肢エ）、不動産登記規則88条1項（肢オ）に基づく
+不動産登記令別表4項添付情報ロ・6項添付情報・8項添付情報イ（ア）、不動
+産登記規則77条1項8号・2項（イ）、同条3項・1項9号（ウ）、不動産登記
+事務取扱手続準則72条2項（エ）、不動産登記規則88条1項（オ）に基づく
 整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -430,14 +454,14 @@ Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢 (肢イ・肢エ・
-肢オ) is drawn as an actual flowchart with branch nodes for both outcomes
+the header and the panels, that every multi-condition 肢 (イ・エ・
+オ) is drawn as an actual flowchart with branch nodes for both outcomes
 (not a bare illustration with no visible decision structure and not a
 looping arrow back to an earlier node), that no 肢 with a genuinely
 hidden second condition has been flattened into a single check, that
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no
-merged or dropped requirements, e.g. 肢エ keeps 地積・求積方法・筆界点間
+merged or dropped requirements, e.g. エ keeps 地積・求積方法・筆界点間
 の距離・筆界点の座標値 as four distinct items), confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel,
 no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no

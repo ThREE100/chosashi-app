@@ -2,51 +2,73 @@
 
 **出題年度：令和3年度　午後の部　第13問**
 
-> 建物図面又は各階平面図に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　建物をえい行移転したことによる建物の所在の変更の登記を申請する場合には、当該変更後の建物図面を提供しなければならない。
->
-> イ　仮換地として指定された土地上に建物を新築した場合において、これによる建物表題登記の申請について提供すべき建物図面には、仮換地の形状及び当該建物の位置を点線で図示しなければならない。
->
-> ウ　2階部分についての各階平面図の訂正の申出は、訂正後の各階平面図に併せて訂正のない建物図面をも提供してしなければならない。
->
-> エ　団地共用部分である旨の登記がある建物について団地共用部分である旨を定めた規約を廃止したために当該建物の表題登記を申請する場合には、建物図面及び各階平面図を提供することを要しない。
->
-> オ　甲建物を乙建物の附属建物とする合併の登記を申請する場合において、甲建物と乙建物の床面積に変更がないときは、合併後の各階平面図を提供することを要しない。
->
+> 建物図面又は各階平面図に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　建物をえい行移転したことによる建物の所在の変更の登記を申請する場合には、当該変更後の建物図面を提供しなければならない。  
+>　  
+> イ　仮換地として指定された土地上に建物を新築した場合において、これによる建物表題登記の申請について提供すべき建物図面には、仮換地の形状及び当該建物の位置を点線で図示しなければならない。  
+>　  
+> ウ　2階部分についての各階平面図の訂正の申出は、訂正後の各階平面図に併せて訂正のない建物図面をも提供してしなければならない。  
+>　  
+> エ　団地共用部分である旨の登記がある建物について団地共用部分である旨を定めた規約を廃止したために当該建物の表題登記を申請する場合には、建物図面及び各階平面図を提供することを要しない。  
+>　  
+> オ　甲建物を乙建物の附属建物とする合併の登記を申請する場合において、甲建物と乙建物の床面積に変更がないときは、合併後の各階平面図を提供することを要しない。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-建物図面・各階平面図の分野は、「どの登記のときに、どんな図面を、どんな書き方で出すのか」という添付情報の要否を、不動産登記令の別表や不動産登記規則に照らして正確に整理できているかが問われます。「図面がもう登記記録にあるかどうか」「変更後の状態を示す必要があるかどうか」を軸に考えると、一つひとつの肢が判断しやすくなります。
+---
+
+建物図面・各階平面図の分野は、「どの登記のときに、どんな図面を、どんな書き方で出すのか」という添付情報の要否を、不動産登記令の別表や不動産登記規則に照らして正確に整理できているかが問われます。
+
+「図面がもう登記記録にあるかどうか」「変更後の状態を示す必要があるかどうか」を軸に考えると、一つひとつの肢が判断しやすくなります。
 
 ### ア：えい行移転による所在変更登記には、変更後の建物図面が必要
 
-建物をえい行移転（曳行移転。建物を壊さずに横滑りさせて移動させること）したことによる建物の所在の変更の登記を申請する場合には、変更後の建物の位置を示す建物図面を提供しなければなりません（不動産登記令別表14項添付情報イ）。建物の位置が変わる以上、新しい位置を図面で示す必要があるからです。
+建物をえい行移転（曳行移転。建物を壊さずに横滑りさせて移動させること）したことによる建物の所在の変更の登記を申請する場合には、変更後の建物の位置を示す建物図面を提供しなければなりません（不動産登記令別表14項添付情報イ）。
+
+建物の位置が変わる以上、新しい位置を図面で示す必要があるからです。
 
 **たとえば**、道路の拡幅工事のために自宅を敷地の奥側へ丸ごと横滑りさせて移動させたとします。この場合、建物そのものは同じでも「どこに建っているか」が変わるので、移動後の位置を描いた建物図面を付けて所在の変更を登記することになります。
 
 ### イ：仮換地上の建物図面は、仮換地を「実線」で図示する
 
-仮換地として指定された土地上に建物を新築し、その建物表題登記を申請する場合、提供すべき建物図面には、仮換地の形状及び当該建物の位置を「実線」で図示しなければなりません。従前地の形状や位置のほうを点線で図示します。肢イは仮換地を「点線」で図示するとしており、実線と点線が逆になっているため誤りです。
+仮換地として指定された土地上に建物を新築し、その建物表題登記を申請する場合、提供すべき建物図面には、仮換地の形状及び当該建物の位置を「実線」で図示しなければなりません。
 
-**たとえば**、区画整理中の土地で「今この場所を使ってください」と割り当てられた仮換地に家を建てたとします。実際に建物が建っている「今の土地（仮換地）」がメインなのでハッキリした実線で描き、まだ手続き上残っている「元の土地（従前地）」は補助的な点線で描く、というイメージです。
+従前地の形状や位置のほうを点線で図示します。イは仮換地を「点線」で図示するとしており、実線と点線が逆になっているため誤りです。
+
+**たとえば**、区画整理中の土地で「今この場所を使ってください」と割り当てられた仮換地に家を建てたとします。
+
+実際に建物が建っている「今の土地（仮換地）」がメインなのでハッキリした実線で描き、まだ手続き上残っている「元の土地（従前地）」は補助的な点線で描く、というイメージです。
 
 ### ウ：各階平面図の訂正の申出は、各階平面図だけ出せば足りる
 
-各階平面図の訂正の申出をするときは、訂正後の各階平面図のみを提供すれば足り、訂正のない建物図面まで併せて提供する必要はありません（不動産登記規則88条2項）。訂正するのは各階平面図なのですから、変更のない建物図面まで添える必要はないわけです。肢ウは建物図面の提供まで必要としている点で誤りです。
+各階平面図の訂正の申出をするときは、訂正後の各階平面図のみを提供すれば足り、訂正のない建物図面まで併せて提供する必要はありません（不動産登記規則88条2項）。
+
+訂正するのは各階平面図なのですから、変更のない建物図面まで添える必要はないわけです。ウは建物図面の提供まで必要としている点で誤りです。
 
 **たとえば**、2階部分の面積の書き間違いを直したいだけなのに、間違いのなかった建物図面（建物の位置を示す図）まで一式作り直して出す、というのは過剰です。直したい各階平面図だけを整えて申し出れば済みます。
 
 ### エ：団地共用部分の規約廃止による表題登記では、図面の提供は不要
 
-団地共用部分である旨の登記がある建物について、団地共用部分である旨を定めた規約を廃止したために当該建物の表題登記を申請する場合には、建物図面及び各階平面図を提供することを要しません（不動産登記令別表21項の添付情報には建物図面・各階平面図が挙げられていません）。この場合、登記官は当該建物の登記記録の表題部に所有者の氏名又は名称・住所等を記録すれば足り（不動産登記規則143条）、建物の所在・構造・床面積等はもともとその建物の登記記録に備えられているため、改めて図面を提供させる必要がないのです。
+団地共用部分である旨の登記がある建物について、団地共用部分である旨を定めた規約を廃止したために当該建物の表題登記を申請する場合には、建物図面及び各階平面図を提供することを要しません（不動産登記令別表21項の添付情報には建物図面・各階平面図が挙げられていません）。
 
-**たとえば**、団地の集会所として「みんなの共用部分」と登記されていた建物を、規約をやめて普通の1個の建物として登記し直す場面を思い浮かべてください。建物そのものの形や位置は前から分かっている（図面がもう役所にある）ので、また同じ図面を出させる必要はない、というわけです。
+この場合、登記官は当該建物の登記記録の表題部に所有者の氏名又は名称・住所等を記録すれば足り（不動産登記規則143条）、建物の所在・構造・床面積等はもともとその建物の登記記録に備えられているため、改めて図面を提供させる必要がないのです。
+
+**たとえば**、団地の集会所として「みんなの共用部分」と登記されていた建物を、規約をやめて普通の1個の建物として登記し直す場面を思い浮かべてください。
+
+建物そのものの形や位置は前から分かっている（図面がもう役所にある）ので、また同じ図面を出させる必要はない、というわけです。
 
 ### オ：附属建物とする合併の登記には、合併後の各階平面図が必要
 
-甲建物を乙建物の附属建物とする合併の登記を申請する場合には、甲建物と乙建物の床面積に変更がないときであっても、合併後の状態を示す建物図面及び各階平面図を提供しなければなりません（不動産登記令別表16項添付情報イ）。床面積が変わらなくても、複数の建物が「1個の建物（主である建物＋附属建物）」としてまとまった後の姿を図面で示す必要があるからです。肢オは「要しない」としている点で誤りです。
+甲建物を乙建物の附属建物とする合併の登記を申請する場合には、甲建物と乙建物の床面積に変更がないときであっても、合併後の状態を示す建物図面及び各階平面図を提供しなければなりません（不動産登記令別表16項添付情報イ）。
 
-**たとえば**、母屋（乙建物）に離れ（甲建物）をくっつけて「母屋＋附属建物」という1つの登記にまとめる場合、それぞれの床面積は変わらなくても、「合体後はこういう配置・構成になりました」という図面を出して初めて登記官が確認できます。だから合併後の図面が必要になります。
+床面積が変わらなくても、複数の建物が「1個の建物（主である建物＋附属建物）」としてまとまった後の姿を図面で示す必要があるからです。オは「要しない」としている点で誤りです。
+
+**たとえば**、母屋（乙建物）に離れ（甲建物）をくっつけて「母屋＋附属建物」という1つの登記にまとめる場合、それぞれの床面積は変わらなくても、「合体後はこういう配置・構成になりました」という図面を出して初めて登記官が確認できます。
+
+だから合併後の図面が必要になります。
+
+---
 
 ### まとめ
 
@@ -107,12 +129,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・地・建・物・登・記 — these must be rendered in their standard
+kanji 録・地・建・物・登・記 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -174,22 +214,22 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-ア〜オ5肢それぞれについて、「問題文を読んだ瞬間にどんな図を描けばよいか」「その図にたどり着くまでにどの順番で何を確認するか」を示す解き方ガイド。ア・ウ・エ・オの4肢には「この登記によって、図面が示すべき建物の物理的な状態(所在・構造・床面積・附属建物の構成など)が変わるか」という共通の分岐点があるため、同じ決定木の形を使い回し、各パネルでは自分の肢に関係する枝だけを太い緑の縁取りで強調し、関係しない枝は薄いグレーで縮小表示した。ウはさらに、その分岐点を各階平面図(変更あり→必要)と建物図面(変更なし→不要)という2つの書類それぞれに別々に当てはめる必要がある点を、2段の決定木として描き分けた。オは「床面積に変更がなければ不要」という肢オ自身の誤った条件分岐を、実在しない除外規定として取り消し線付きで打ち消す構図にした。イだけは図面の要否ではなく「実線・点線のどちらで描くか」という描き方を問う肢のため、要否の決定木には乗せず、正しい描き方と肢イの主張を対比する正誤対比型として独立させた。
+ア〜オ5肢それぞれについて、「問題文を読んだ瞬間にどんな図を描けばよいか」「その図にたどり着くまでにどの順番で何を確認するか」を示す解き方ガイド。ア・ウ・エ・オの4肢には「この登記によって、図面が示すべき建物の物理的な状態(所在・構造・床面積・附属建物の構成など)が変わるか」という共通の分岐点があるため、同じ決定木の形を使い回し、各パネルでは自分の肢に関係する枝だけを太い緑の縁取りで強調し、関係しない枝は薄いグレーで縮小表示した。ウはさらに、その分岐点を各階平面図(変更あり→必要)と建物図面(変更なし→不要)という2つの書類それぞれに別々に当てはめる必要がある点を、2段の決定木として描き分けた。オは「床面積に変更がなければ不要」というオ自身の誤った条件分岐を、実在しない除外規定として取り消し線付きで打ち消す構図にした。イだけは図面の要否ではなく「実線・点線のどちらで描くか」という描き方を問う肢のため、要否の決定木には乗せず、正しい描き方とイの主張を対比する正誤対比型として独立させた。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -239,10 +279,17 @@ in panel 3 as two distinct nodes rather than one).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 号・録・地・建・物・登・
-記・図・階・換・団, which have visibly different Simplified Chinese forms
+any characters. Pay special attention to the kanji 録・地・建・物・登・記・図・階・換・団, which have visibly different Simplified Chinese forms
 — always draw the standard Japanese (Jōyō) form. Within this English
 prompt text, use half-width parentheses ( ) consistently — never open a
 parenthetical with a full-width （ and close it with a half-width ), or
@@ -268,7 +315,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -290,33 +337,33 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 変更後図面が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 仮換地は実線、従前地は点線で描く
 Diagram: 左右2枠の正誤対比図。左枠(緑、正しい描き方)には、区画整理中の土地
 を俯瞰したアイソメトリック構図で、太い実線の四角形と建物アイコンに「仮換地」
 のラベルを付け、その奥に薄い点線の四角形に「従前地」のラベルを付ける。右枠
-(赤、肢イの主張)には同じ構図を線種だけ入れ替えて描き、点線の四角形に「仮換
+(赤、イの主張)には同じ構図を線種だけ入れ替えて描き、点線の四角形に「仮換
 地」、実線の四角形に「従前地」のラベルを付け、枠全体に大きな赤い×印と「実線
 ・点線が逆」という注記ラベルを重ねる。左右の枠の間に「入れ替わっている」と
 いう短い注記付きの両矢印を挟む。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、仮換地に建てた建物の図面では、実際に使っている仮換地を実線で、まだ
-手続き上残っている従前地を点線で描くという原則を確認します。次に、肢イの
+手続き上残っている従前地を点線で描くという原則を確認します。次に、イの
 記述がこの実線・点線を取り違えていないかを照合します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 実線・点線が逆
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 直すのは各階平面図だけで足りる
 Diagram: 上下2段に分けた決定木(上記の共有軸を、各階平面図と建物図面それぞれ
-に別々に当てはめたもの)。上段のひし形ノード「訂正の対象である各階平面図の
-記載内容に変更があるか」→はい側(該当、緑・太い縁取りで強調):結論ノード
-「訂正後の各階平面図の提供が必要」。下段の別のひし形ノード「変更していない
+に別々に当てはめたもの)。上段は四角い確認ボックス「訂正の対象である各階平面図の
+記載内容を直す」(ひし形にしない。分岐はない)から矢印で結論ノード
+「訂正後の各階平面図の提供が必要」(緑・太い縁取りで強調)へ進む。下段の別のひし形ノード「変更していない
 建物図面の記載内容にも変更が生じているか」→いいえ側(該当、緑・太い縁取りで
 強調):結論ノード「建物図面の提供は不要」／はい側の結論ノード「建物図面も
 提供が必要」はグレーで縮小表示し、本肢では生じない分岐であることを示す。
@@ -332,7 +379,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 建物図面は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 規約を廃止するだけなら図面は要らない
@@ -353,18 +400,17 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 図面の提供は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 床面積が同じでも合併後の図面は要る
-Diagram: ひし形の決定ノードを1つ配置する(パネル1・3・4とも共有する軸)。
-ノード「合併によって建物の構成(附属建物との一体化)に変更が生じるか」→はい側
-(該当、緑・太い縁取りで強調):結論ノード「合併後の建物図面及び各階平面図の
-提供が必要」。ノードのすぐ下に、離れ(甲建物)と母屋(乙建物)のアイソメトリック
+Diagram: 四角い確認ボックス「合併によって建物の構成(附属建物との一体化)が変わる」
+(ひし形にしない。分岐はない)から矢印で結論ノード(緑・太い縁取りで強調)
+「合併後の建物図面及び各階平面図の提供が必要」へ進む。ノードのすぐ下に、離れ(甲建物)と母屋(乙建物)のアイソメトリック
 アイコンが矢印でくっつき1つの建物(主である建物+附属建物)にまとまる様子を
 描く。決定木の脇に、点線の枠で囲った架空の分岐ラベル「床面積に変更がなければ
 不要」に大きな赤い×印と取り消し線を重ね、「そのような除外規定はない」という
-注記ラベルを添えて、肢オが主張する誤った条件分岐であることを明示する。
+注記ラベルを添えて、オが主張する誤った条件分岐であることを明示する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲建物を乙建物の附属建物とする合併によって、建物の構成そのものが変わる
 ことを確認します。次に、床面積に変更があるかどうかを気にする必要はなく、床
@@ -381,9 +427,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 登記令別表16項添付情報イ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・地・建・物・登・記・図・階・換・団. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 録・地・建・物・登・記・図・階・換・団. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that panel 3's two decision

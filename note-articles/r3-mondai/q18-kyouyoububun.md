@@ -2,51 +2,73 @@
 
 **出題年度：令和3年度　午後の部　第18問**
 
-> 共用部分である旨の登記又は団地共用部分である旨の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　一棟の建物に属する1個の区分建物についての共用部分である旨の登記の申請は、その申請情報と併せて共用部分である旨を定めた規約を設定したことを証する情報を提供した場合には、当該一棟の建物に属する他の区分建物の所有権の登記名義人がすることができる。
->
-> イ　建物の所有権の登記名義人全員が当該建物について共用部分である旨の登記の申請をする場合には、共用部分である旨を定めた規約を設定したことを証する情報を提供することを要しない。
->
-> ウ　団地共用部分である旨の登記がある建物について、団地共用部分である旨を定めた規約を廃止したときは、当該建物の所有者は、当該規約の廃止の日から1か月以内に、当該建物の表題登記を申請しなければならない。
->
-> エ　区分建物が属する一棟の甲建物と半年後に完成予定の一棟の乙建物とが共に団地を形成する予定である場合には、甲建物内の専有部分である管理人室について、団地共用部分である旨を定めた規約を設定したことを証する情報を提供して、当該団地についての団地共用部分である旨の登記を申請することができる。
->
-> オ　抵当権の設定の登記がされている建物について共用部分である旨の登記を申請する場合には、その申請情報と併せて当該抵当権の登記名義人の承諾を証する当該登記名義人が作成した情報又は当該登記名義人に対抗することができる裁判があったことを証する情報を提供しなければならない。
->
+> 共用部分である旨の登記又は団地共用部分である旨の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　一棟の建物に属する1個の区分建物についての共用部分である旨の登記の申請は、その申請情報と併せて共用部分である旨を定めた規約を設定したことを証する情報を提供した場合には、当該一棟の建物に属する他の区分建物の所有権の登記名義人がすることができる。  
+>　  
+> イ　建物の所有権の登記名義人全員が当該建物について共用部分である旨の登記の申請をする場合には、共用部分である旨を定めた規約を設定したことを証する情報を提供することを要しない。  
+>　  
+> ウ　団地共用部分である旨の登記がある建物について、団地共用部分である旨を定めた規約を廃止したときは、当該建物の所有者は、当該規約の廃止の日から1か月以内に、当該建物の表題登記を申請しなければならない。  
+>　  
+> エ　区分建物が属する一棟の甲建物と半年後に完成予定の一棟の乙建物とが共に団地を形成する予定である場合には、甲建物内の専有部分である管理人室について、団地共用部分である旨を定めた規約を設定したことを証する情報を提供して、当該団地についての団地共用部分である旨の登記を申請することができる。  
+>　  
+> オ　抵当権の設定の登記がされている建物について共用部分である旨の登記を申請する場合には、その申請情報と併せて当該抵当権の登記名義人の承諾を証する当該登記名義人が作成した情報又は当該登記名義人に対抗することができる裁判があったことを証する情報を提供しなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-マンションの管理人室や集会室のように、みんなで使う部屋を登記簿の上で「これは共用部分ですよ」と示すのが共用部分である旨の登記です。団地の中の建物を全棟で共用するときは団地共用部分である旨の登記になります。この分野は「誰が申請できるのか」「規約の証明情報は省けるのか」「いつ申請しなければならないのか」といった手続の細かいルールが正確に押さえられているかが問われます。
+---
+
+マンションの管理人室や集会室のように、みんなで使う部屋を登記簿の上で「これは共用部分ですよ」と示すのが共用部分である旨の登記です。団地の中の建物を全棟で共用するときは団地共用部分である旨の登記になります。
+
+この分野は「誰が申請できるのか」「規約の証明情報は省けるのか」「いつ申請しなければならないのか」といった手続の細かいルールが正確に押さえられているかが問われます。
 
 ### ア：申請できるのは、その区分建物自身の所有権の登記名義人だけ
 
-共用部分である旨の登記を申請できるのは、その建物（共用部分にしようとしている区分建物）自身の表題部所有者または所有権の登記名義人です。同じ一棟の建物に属していても、他の区分建物の所有権の登記名義人が、その部屋についての共用部分である旨の登記を申請することはできません。規約を設定したことを証する情報を提供したかどうかに関係なく、申請人になれる人が法律で決まっているのです。
+共用部分である旨の登記を申請できるのは、その建物（共用部分にしようとしている区分建物）自身の表題部所有者または所有権の登記名義人です。
+
+同じ一棟の建物に属していても、他の区分建物の所有権の登記名義人が、その部屋についての共用部分である旨の登記を申請することはできません。規約を設定したことを証する情報を提供したかどうかに関係なく、申請人になれる人が法律で決まっているのです。
 
 **たとえば**、あるマンションの101号室を共用の管理人室にするとき、その登記を申請できるのは101号室の所有権の登記名義人です。同じマンションの住人である202号室の名義人が「私が代わりに申請します」と言っても、それは認められません。
 
 ### イ：所有権の登記名義人全員で申請しても、規約の証明情報は省けない
 
-共用部分である旨の登記を申請するときは、共用部分である旨を定めた規約を設定したことを証する情報を必ず提供しなければなりません。これは、たとえ建物の所有権の登記名義人全員がそろって申請する場合であっても省略できません。全員申請だから証明情報はいらない、という扱いにはならないのです。
+共用部分である旨の登記を申請するときは、共用部分である旨を定めた規約を設定したことを証する情報を必ず提供しなければなりません。
+
+これは、たとえ建物の所有権の登記名義人全員がそろって申請する場合であっても省略できません。全員申請だから証明情報はいらない、という扱いにはならないのです。
 
 **たとえば**、二世帯住宅を共有している親子が「この部分を共用部分にしよう」と二人そろって登記を申請する場合でも、「みんなで決めたのだから規約の証明はいらないだろう」とはならず、規約を設定したことを証する情報の添付が必要になります。
 
 ### ウ：規約を廃止したら、1か月以内に表題登記を申請しなければならない
 
-団地共用部分である旨の登記がある建物について、その規約を廃止したときは、当該建物の所有者は、規約の廃止の日から1か月以内に、当該建物の表題登記を申請しなければなりません（不動産登記法58条6項）。共用部分・団地共用部分をやめて普通の建物に戻すのですから、通常の建物としての表題登記を期限内に申請する義務が生じます。
+団地共用部分である旨の登記がある建物について、その規約を廃止したときは、当該建物の所有者は、規約の廃止の日から1か月以内に、当該建物の表題登記を申請しなければなりません（不動産登記法58条6項）。
+
+共用部分・団地共用部分をやめて普通の建物に戻すのですから、通常の建物としての表題登記を期限内に申請する義務が生じます。
 
 **たとえば**、団地の集会所として団地共用部分になっていた建物を「もう共用にはしない」と規約で廃止した場合、その建物の所有者は、廃止の日から1か月という期限内に、普通の建物としての表題登記を申請しなければなりません。
 
 ### エ：団地共用部分の登記は、団地の全棟が完成してからでないとできない
 
-団地共用部分である旨の登記の登記事項として、当該団地共用部分を共用すべき者の所有する建物（その建物が区分建物であるときは、当該建物が属する一棟の建物）を記録しなければなりません（不動産登記法58条1項2号）。さらに申請情報としても、共用すべき者が所有する建物の家屋番号（区分建物であれば、その建物が属する一棟の建物の所在地番・構造及び床面積又は名称）を提供する必要があります（不動産登記令別表19項イ・ロ）。これらを記録・提供するには、団地を構成する建物が現に存在している必要があります。したがって、半年後に完成予定の乙建物がまだ完成していない段階では、甲・乙両建物を含む団地についての団地共用部分である旨の登記を申請することはできません。
+団地共用部分である旨の登記の登記事項として、当該団地共用部分を共用すべき者の所有する建物（その建物が区分建物であるときは、当該建物が属する一棟の建物）を記録しなければなりません（不動産登記法58条1項2号）。
+
+さらに申請情報としても、共用すべき者が所有する建物の家屋番号（区分建物であれば、その建物が属する一棟の建物の所在地番・構造及び床面積又は名称）を提供する必要があります（不動産登記令別表19項イ・ロ）。
+
+これらを記録・提供するには、団地を構成する建物が現に存在している必要があります。
+
+したがって、半年後に完成予定の乙建物がまだ完成していない段階では、甲・乙両建物を含む団地についての団地共用部分である旨の登記を申請することはできません。
 
 **たとえば**、A棟はもう建っているけれど、隣のB棟はこれから半年かけて建てる、という段階では、A棟の管理人室を「A棟・B棟の団地共用部分」として登記することはできません。B棟が完成し、団地としての形が実際にそろってから申請することになります。
 
 ### オ：抵当権が付いた建物なら、抵当権者の承諾情報が必要
 
-抵当権の設定の登記がされている建物について共用部分である旨の登記を申請するときは、申請情報と併せて、当該抵当権の登記名義人の承諾を証する情報（その登記名義人が作成したもの）、または当該登記名義人に対抗することができる裁判があったことを証する情報を提供しなければなりません。共用部分である旨の登記がされると所有権などの権利に関する登記が原則として消されるため、抵当権者のような利害関係人を保護する必要があるからです。
+抵当権の設定の登記がされている建物について共用部分である旨の登記を申請するときは、申請情報と併せて、当該抵当権の登記名義人の承諾を証する情報（その登記名義人が作成したもの）、または当該登記名義人に対抗することができる裁判があったことを証する情報を提供しなければなりません。
 
-**たとえば**、住宅ローンの抵当権が付いている建物を共用部分にしたいときは、勝手には進められません。抵当権を持っている銀行が「共用部分にしてよい」と承諾したことを証する情報（または銀行に対抗できる裁判があったことを証する情報）を添えて申請する必要があります。
+共用部分である旨の登記がされると所有権などの権利に関する登記が原則として消されるため、抵当権者のような利害関係人を保護する必要があるからです。
+
+**たとえば**、住宅ローンの抵当権が付いている建物を共用部分にしたいときは、勝手には進められません。
+
+抵当権を持っている銀行が「共用部分にしてよい」と承諾したことを証する情報（または銀行に対抗できる裁判があったことを証する情報）を添えて申請する必要があります。
+
+---
 
 ### まとめ
 
@@ -67,11 +89,11 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和3年度 午後の部 第18問）および正解番号（5番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach/pitfalls/keyPoints）で確認済みです。
 - 条文根拠は、`note-articles/laws/fudousan-touki-hou.md`（不動産登記法58条）および`note-articles/laws/fudousan-touki-rei-betsuhyou.md`（不動産登記令別表18項・19項）のローカル法令データベース原文を直接確認して整理し直しました。
-  - 肢ア（申請人適格＝共用部分・団地共用部分にしようとする建物自身の表題部所有者又は所有権の登記名義人に限られ、それ以外の者は申請できないこと）は、不動産登記法58条2項の条文と条文番号まで一致して確認できました。
-  - 肢イ（全員申請でも規約設定を証する情報の提供は省略できないこと）は、不動産登記令別表18項イ「共用部分である旨を定めた規約を設定したことを証する情報」と一致して確認できました。
-  - 肢ウ（規約廃止の日から1か月以内の表題登記申請義務）は、不動産登記法58条6項の条文と条文番号まで一致して確認できました。
-  - 肢エ（団地の全棟が完成してからでなければ団地共用部分である旨の登記を申請できないこと）は、登記事項として団地共用部分を共用すべき者の所有する建物を記録すること（法58条1項2号）、および申請情報として当該建物の家屋番号・所在地番・構造及び床面積又は名称の提供が必要なこと（不動産登記令別表19項イ・ロ）から導かれる結論であることを条文で確認しました。ただし「未完成の段階では申請できない」という帰結自体は、これらの記録・提供要件からの合理的な推論であり、条文が「未完成の場合は申請できない」と直接明記しているわけではありません。
-  - 肢オ（抵当権登記のある建物では抵当権者等の承諾を証する情報が必要なこと）は、不動産登記法58条3項（承諾を要する旨）および不動産登記令別表18項ロ（承諾を証する情報の内容）の両方と一致して確認できました。
+  - ア（申請人適格＝共用部分・団地共用部分にしようとする建物自身の表題部所有者又は所有権の登記名義人に限られ、それ以外の者は申請できないこと）は、不動産登記法58条2項の条文と条文番号まで一致して確認できました。
+  - イ（全員申請でも規約設定を証する情報の提供は省略できないこと）は、不動産登記令別表18項イ「共用部分である旨を定めた規約を設定したことを証する情報」と一致して確認できました。
+  - ウ（規約廃止の日から1か月以内の表題登記申請義務）は、不動産登記法58条6項の条文と条文番号まで一致して確認できました。
+  - エ（団地の全棟が完成してからでなければ団地共用部分である旨の登記を申請できないこと）は、登記事項として団地共用部分を共用すべき者の所有する建物を記録すること（法58条1項2号）、および申請情報として当該建物の家屋番号・所在地番・構造及び床面積又は名称の提供が必要なこと（不動産登記令別表19項イ・ロ）から導かれる結論であることを条文で確認しました。ただし「未完成の段階では申請できない」という帰結自体は、これらの記録・提供要件からの合理的な推論であり、条文が「未完成の場合は申請できない」と直接明記しているわけではありません。
+  - オ（抵当権登記のある建物では抵当権者等の承諾を証する情報が必要なこと）は、不動産登記法58条3項（承諾を要する旨）および不動産登記令別表18項ロ（承諾を証する情報の内容）の両方と一致して確認できました。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。本記事は上記ローカル法令データベースの原文確認と一般原則に基づいて作成しています。
 
 ---
@@ -111,13 +133,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which appear repeatedly in
+kanji 号・権・地・建・物・登・記, which appear repeatedly in
 this prompt and have Simplified Chinese variants that look similar but are
 wrong — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -199,20 +239,20 @@ Conclusion tag (blue, 5-15 Japanese characters, keyword phrase):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
 read as a short heading + a short conclusion tag, at a glance. Also confirm
 the two column headers read exactly「申請人・添付情報のルール」and「団地
-共用部分特有のルール」with no substituted characters.
+共用部分特有のルール」with no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 各肢を読んだ瞬間に「まず何を確認し、次に何を確認して、どんな図にたどり着くか」を
 追体験できるよう、ア〜オ5肢分の作図ガイドパネルを1枚にまとめた。②の結論カード
@@ -233,7 +273,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric apartment buildings with individual
 room labels (e.g. 101号室・202号室), person icons holding a stamp or
 signing a document, folded-paper document icons for 規約 and 登記事項,
-a bank building icon for ていとう権者, a red ribbon/seal icon for ていとう権,
+a bank building icon for 抵当権者, a red ribbon/seal icon for 抵当権,
 calendar and hourglass icons for time limits, and construction-scaffolding
 icons for a not-yet-completed building. Where a 肢 requires checking
 multiple conditions in sequence before reaching a conclusion, draw the
@@ -257,7 +297,15 @@ condition each callout describes faithful to the article's own body text
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -283,7 +331,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -308,7 +356,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 他の名義人は不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 全員申請でも規約証明の省略はできない
@@ -328,7 +376,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 規約証明は常に必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 規約廃止日から1か月以内に表題登記を申請する
@@ -348,7 +396,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 廃止日から1か月以内に申請
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 団地を構成する建物がすべて完成しているかを確認する
@@ -377,40 +425,37 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 全棟完成前は申請不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-ていとう権登記の有無と承諾情報の要否を確認する
+抵当権登記の有無と承諾情報の要否を確認する
 Diagram: A relationship diagram (系統図). In the center, an isometric
-building with a red ribbon/seal icon attached, labeled「ていとう権の設定
-登記」. A small diamond-shaped decision node above the building reads
-「対象建物にていとう権の設定登記があるか」. A green「はい」line leads left to
-a bank-building icon labeled「ていとう権の登記名義人」, from which a document
+building with a red ribbon/seal icon attached, labeled「抵当権の設定
+登記」. A small rectangular start box (not a diamond) above the building reads
+「対象建物に抵当権の設定登記がある」. A green line leads left to
+a bank-building icon labeled「抵当権の登記名義人」, from which a document
 icon (stamped with a hanko, or an icon of a court gavel as an alternative)
 labeled「承諾を証する情報／対抗できる裁判があったことを証する情報」moves
 toward the right, joining the building's registration application icon
 labeled「共用部分である旨の登記の申請情報」, ending at a green conclusion
-node reading「承諾情報等を併せて提供する」. A separate, faded/dotted-
-outline branch labeled「いいえ（ていとう権登記がない場合、今回は対象外）」
-sits off to the side in grey, without a fabricated conclusion attached to
-it, only the label「今回の論点ではない」.
+node reading「承諾情報等を併せて提供する」. 
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、共用部分である旨の登記をしようとする建物にていとう権の設定登記がある
-かを確認します。次に、ていとう権がある場合は、ていとう権者の承諾を証する情報、
+まず、共用部分である旨の登記をしようとする建物に抵当権の設定登記がある
+かを確認します。次に、抵当権がある場合は、抵当権者の承諾を証する情報、
 またはこれに対抗することができる裁判があったことを証する情報を、申請
 情報と併せて提供しなければならないと判定します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-ていとう権者の承諾等が必要
+抵当権者の承諾等が必要
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法58条2項・3項・6項／不動産登記令別表18項イ・ロ・19項イ・ロ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・棟・抵・当・約・廃.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・棟・当・約・廃. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

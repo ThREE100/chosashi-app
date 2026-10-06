@@ -1,20 +1,22 @@
-## 【土地家屋調査士受験生向け】平成25年度 第10問〜仮換地上の建物は仮換地の地番で登記〜
+## 【土地家屋調査士受験生向け】平成25年度 第10問〜仮換地上の建物は底地の地番で登記〜
 
 **出題年度：平成25年度　午後の部　第10問**
 
-> 建物の所在に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。
->
-> ア　建物の登記記録の表題部に不動産所在事項が記録されている場合において、当該建物が他の都道府県にまたがって存在するときは、不動産所在事項に当該他の都道府県名が冠記される。
->
-> イ　甲区分建物を主である建物とし、甲区分建物が属する一棟の建物と同一の土地上に存する別の一棟の建物に属する乙区分建物を附属建物とする建物の表題登記を申請する場合には、申請情報として、乙区分建物の属する一棟の建物が所在する土地の地番を提供することを要しない。
->
-> ウ　建物が永久的な施設としてのさん橋の上に存する場合における当該建物の登記記録には、当該建物から最も近い土地の地番を用い、「何番地先」のように当該建物の所在が記録される。
->
-> エ　仮換地上に建物を新築した場合において、当該建物の表題登記の申請をするときは、申請情報である当該建物の所在として、従前の土地の地番を提供しなければならない。
->
-> オ　建物の登記記録の表題部に２筆以上の土地にまたがる建物の不動産所在事項を記録する場合には、床面積の多い部分又は主である建物の所在する土地の地番を先に記録し、他の土地の地番は後に記録する。
->
+> 建物の所在に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　建物の登記記録の表題部に不動産所在事項が記録されている場合において、当該建物が他の都道府県にまたがって存在するときは、不動産所在事項に当該他の都道府県名が冠記される。  
+>　  
+> イ　甲区分建物を主である建物とし、甲区分建物が属する一棟の建物と同一の土地上に存する別の一棟の建物に属する乙区分建物を附属建物とする建物の表題登記を申請する場合には、申請情報として、乙区分建物の属する一棟の建物が所在する土地の地番を提供することを要しない。  
+>　  
+> ウ　建物が永久的な施設としてのさん橋の上に存する場合における当該建物の登記記録には、当該建物から最も近い土地の地番を用い、「何番地先」のように当該建物の所在が記録される。  
+>　  
+> エ　仮換地上に建物を新築した場合において、当該建物の表題登記の申請をするときは、申請情報である当該建物の所在として、従前の土地の地番を提供しなければならない。  
+>　  
+> オ　建物の登記記録の表題部に２筆以上の土地にまたがる建物の不動産所在事項を記録する場合には、床面積の多い部分又は主である建物の所在する土地の地番を先に記録し、他の土地の地番は後に記録する。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 建物の所在の記録方法は、通常の土地上の建物であれば単純ですが、都道府県境をまたぐ建物、さん橋の上の建物、仮換地上の建物といった特殊なケースでは、独自の記録ルールが定められています。実務でも間違えやすいポイントです。
 
@@ -26,7 +28,9 @@
 
 ### イ：別の一棟の建物に属する区分建物を附属建物とする場合、その所在地番の提供は必要
 
-甲区分建物を主である建物とし、別の一棟の建物に属する乙区分建物を附属建物とする表題登記を申請する場合、乙区分建物がどこに所在するのか（乙区分建物が属する一棟の建物が所在する土地の地番）を申請情報として提供する必要があります。これを「提供することを要しない」とするのは誤りです。
+甲区分建物を主である建物とし、別の一棟の建物に属する乙区分建物を附属建物とする表題登記を申請する場合、乙区分建物がどこに所在するのか（乙区分建物が属する一棟の建物が所在する土地の地番）を申請情報として提供する必要があります。
+
+これを「提供することを要しない」とするのは誤りです。
 
 **たとえば**、甲区分建物とは別の建物にある乙区分建物を、甲区分建物の附属建物として登記したい場合には、乙区分建物がどこに建っているのかという土地の地番情報も、申請書にきちんと記載しなければなりません。
 
@@ -36,11 +40,15 @@
 
 **たとえば**、港にあるさん橋の上に倉庫が建てられている場合、その建物の所在は、陸地の最も近い地番を使って「〇番地先」という形で登記記録に記載されます。
 
-### エ：仮換地上の建物は、仮換地の地番で登記される
+### エ：仮換地上の建物は、従前の土地ではなく底地の地番で登記される
 
-土地区画整理事業によって仮換地が指定されている土地の上に建物を新築した場合、その建物の表題登記の申請にあたっては、実際に建物が所在する仮換地の地番を用いるのが実務上の取扱いです。従前の土地（区画整理前の元の土地）の地番を提供しなければならないとするのは誤りです。
+土地区画整理事業によって仮換地が指定されている土地の上に建物を新築した場合、その建物の表題登記の申請にあたっては、建物が現に存する場所の土地、つまり仮換地の場所にもとから登記されている土地（底地）の地番を所在として表示し、かっこ書きで仮換地の予定地番（街区・画地の番号）を添えるのが実務上の取扱いです（先例による）。
 
-**たとえば**、区画整理が進行中で、まだ正式な換地処分は済んでいないものの、すでに仮換地として指定された土地に家を新築した場合、その建物の所在としては、従前の地番ではなく、現在使用している仮換地の地番を用いて登記します。
+仮換地そのものは換地処分までは登記された地番を持たないためです。
+
+自分がもともと持っていた従前の土地（区画整理前の元の土地）の地番を提供しなければならないとするのは誤りです。
+
+**たとえば**、区画整理が進行中で、まだ正式な換地処分は済んでいないものの、すでに仮換地として指定された土地に家を新築した場合、その建物の所在としては、自分の従前の土地の地番ではなく、家が実際に建っている場所の底地の地番に、かっこ書きで仮換地の予定地番を添えて登記します（詳しくは`column/karikanchi-tatemono-shozai-nejire.md`）。
 
 ### オ：2筆以上にまたがる建物は、床面積の多い部分の土地を先に記録する
 
@@ -48,12 +56,14 @@
 
 **たとえば**、甲土地と乙土地にまたがって建てられた家で、建物の大部分が甲土地の上にある場合、その建物の所在は「甲土地の地番、乙土地の地番」という順序で記録されます。
 
+---
+
 ### まとめ
 
 - **ア（正）**　他の都道府県にまたがる建物は、都道府県名が冠記される
 - **イ（誤）**　別の一棟の建物に属する区分建物を附属建物とする場合、その所在地番の提供は必要
 - **ウ（正）**　さん橋上の建物は、最も近い土地の地番を用いて「何番地先」と記録される
-- **エ（誤）**　仮換地上の建物は、従前の地番ではなく仮換地の地番を用いて登記する
+- **エ（誤）**　仮換地上の建物は、従前の土地の地番ではなく底地の地番（かっこ書きで予定地番）で登記する
 - **オ（正）**　2筆以上にまたがる建物は、床面積の多い部分（主たる部分）の地番を先に記録する
 
 建物の所在は「今、実際にどこにあるか」を反映させることが基本方針です。仮換地のケースも、この現況重視の発想で理解すると覚えやすくなります。
@@ -67,7 +77,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝イ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
 - ア・ウ・オの法的根拠は、`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文で確認しました。準則の該当箇所は「建物が他の都道府県にまたがって存在するときは、不動産所在事項に当該他の都道府県名を冠記する」（ア）、「建物が永久的な施設としてのさん橋の上に存する場合...その建物から最も近い土地の地番を用い、『何番地先』のように記録する」（ウ）、「床面積の多い部分又は主たる建物の所在する土地の地番を先に記録し、他の土地の地番は後に記録する」（オ）で、いずれも問題文とほぼ同一の文言でした。イ（別の一棟の建物に属する区分建物を附属建物とする場合の所在地番提供の要否）は、`fudousan-touki-rei-betsuhyou.md`が区分建物関連の複数の場面で「当該建物が属する一棟の建物の所在する...地番」を申請情報として求めていることと整合的です。エ（仮換地上の建物の所在は仮換地の地番を用いる）は、`laws/`収録の法令に仮換地の直接の規定が見当たらず、土地区画整理法との関係を踏まえた実務上の理解にとどまります。
-- **重複出題チェック（2026-07-21実施、重要）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。**R02年度第11問が、本問ウ（さん橋上の建物は「何番地先」と記録）・本問エ（仮換地上の建物は従前の地番ではなく仮換地の地番を用いる）の2点とほぼ同一の文言で再出題しています**。具体的には、R02年度第11問オ「建物が永久的な施設としての海上のさん橋の上に存する場合...その建物から最も近い土地の地番を用いて『何番地先』のように記録する」（本問ウとほぼ同旨）、同ウ「仮換地が指定された土地の上に建物を新築する場合...申請情報である建物の所在として、従前の土地の地番を提供しなければならない」（本問エと同一の誤った記述）が確認できます。**同じ2つの具体的論点がR02年度第11問でそのまま繰り返されているため、R02年度分のnote記事を執筆する際は、本問の解説文・具体例をそのまま転用せず、別の切り口で説明することを強くお勧めします**。
+- **重複出題チェック（2026-07-21実施、重要）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。**R02年度第11問が、本問ウ（さん橋上の建物は「何番地先」と記録）・本問エ（仮換地上の建物は従前の地番ではなく底地の地番〈予定地番を括弧書き〉を用いる）の2点とほぼ同一の文言で再出題しています**。具体的には、R02年度第11問オ「建物が永久的な施設としての海上のさん橋の上に存する場合...その建物から最も近い土地の地番を用いて『何番地先』のように記録する」（本問ウとほぼ同旨）、同ウ「仮換地が指定された土地の上に建物を新築する場合...申請情報である建物の所在として、従前の土地の地番を提供しなければならない」（本問エと同一の誤った記述）が確認できます。**同じ2つの具体的論点がR02年度第11問でそのまま繰り返されているため、R02年度分のnote記事を執筆する際は、本問の解説文・具体例をそのまま転用せず、別の切り口で説明することを強くお勧めします**。
 - **最新法令チェック（2026-08-16実施）**：相続登記の申請義務化（令和6年4月1日施行）・住所等変更登記の申請義務化（令和8年4月1日施行）は、いずれも権利部（所有権の登記名義人・その氏名住所）に関する申請義務の改正であり、本問が扱う建物の所在の記録方法（表示に関する登記の手続自体）には影響しません。各肢の結論に変更はありません。
 
 ---
@@ -77,7 +87,7 @@
 - 県境をまたぐ建物、県名がちゃんと記録されるんです
 - 別の建物の附属建物、地番の記載を忘れちゃダメなんです
 - さん橋の上の建物は「何番地先」って表記されるんです
-- 仮換地の上の家は、仮換地の地番で登記するんです
+- 仮換地の上の家は、底地の地番で登記するんです
 - 2筆にまたがる建物、記録の順番にもルールがあるんです
 
 ---
@@ -108,12 +118,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・建・物・登・記・所・録 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -161,11 +189,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 4 ---
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-仮換地は仮換地の地番で登記
+仮換地上は底地の地番で登記
 Illustration: An isometric land-readjustment scene showing a new
 temporary replotted parcel labeled "仮換地" with a new house built on
-it. An arrow from the house points to the "仮換地" number tag, and a
-red X sits over the old "従前の土地" number tag.
+it. An arrow from the house points down to the number tag of the
+registered land under that spot, labeled "底地の地番（予定地番を括弧書き）",
+and a red X sits over the owner's own old "従前の土地の地番" tag, drawn
+off to the side.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 従前地番は使わない
 
@@ -188,17 +218,17 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -266,7 +296,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 都道府県境をまたぐ建物は他県名を冠記
@@ -281,7 +311,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 他県名を追加記録
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 別一棟の附属建物も所在地番が必要
@@ -301,7 +331,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地番の提供が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 さん橋上の建物は最寄りの地番で表記
@@ -317,24 +347,25 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 「何番地先」で記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
-仮換地上の建物は仮換地の地番で登記
+仮換地上の建物は底地の地番で登記
 Diagram: A split panel contrasting two number tags for the same new
 house built on a temporarily replotted parcel. LEFT side (faded, red X):
 a tag reading 従前の土地の地番, crossed out. RIGHT side (full color,
-green checkmark): a tag reading 仮換地の地番, attached to the house's
-registration document.
+green checkmark): a tag reading 底地の地番（仮換地の予定地番を括弧書き）,
+attached to the house's registration document.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物が新築された土地が、土地区画整理事業によって仮換地の指定を受け
-ている土地かどうかを確認します。仮換地に新築した場合は、従前の土地の地番
-ではなく、現在の仮換地の地番を用いて表題登記を申請します。
+ている土地かどうかを確認します。仮換地に新築した場合は、自分の従前の土地の
+地番ではなく、建物が現に存する場所の底地の地番（仮換地の予定地番を括弧
+書き）を所在として表題登記を申請します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 従前地番は使わない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 多い方・主建物の土地を先に記録
@@ -357,8 +388,8 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記事務取扱手続準則の建物の所在に関する定め（都道府県名の冠記、
 さん橋上の建物の記録方法、2筆以上にまたがる建物の記録順序）及び区分建物
-の附属建物に関する取扱いに基づく整理です。仮換地上の建物の取扱いは、土地
-区画整理法との関係を踏まえた実務上の理解によります。
+の附属建物に関する取扱いに基づく整理です。仮換地上の建物の所在は、底地の
+地番に仮換地の予定地番を括弧書きする先例の取扱いによります。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

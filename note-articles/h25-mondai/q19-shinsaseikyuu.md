@@ -2,39 +2,57 @@
 
 **出題年度：平成25年度　午後の部　第19問**
 
-> 登記官の処分に対する審査請求に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。
->
-> ア　Aが所有権の登記名義人である土地の分筆の登記の申請が却下された場合において、Aがその却下処分につき審査請求をしたときは、当該土地の抵当権の登記名義人であるBは、審査庁の許可を得て、参加人として当該審査請求に参加することができる。
->
-> イ　審査請求は、登記官を経由してしなければならない。
->
-> ウ　審査請求は、処分があったことを知った日の翌日から起算して60日以内に、しなければならない。
->
-> エ　法務局又は地方法務局の長が審査請求につき裁決をしたときは、裁決書の謄本を審査請求人及び登記官に交付する。
->
-> オ　当該登記官を監督する法務局又は地方法務局の長は、審査請求を理由があると認めるときは、登記官に相当の処分を命じ、その旨を審査請求人のほか登記上の利害関係人に通知しなければならない。
->
+> 登記官の処分に対する審査請求に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　Aが所有権の登記名義人である土地の分筆の登記の申請が却下された場合において、Aがその却下処分につき審査請求をしたときは、当該土地の抵当権の登記名義人であるBは、審査庁の許可を得て、参加人として当該審査請求に参加することができる。  
+>　  
+> イ　審査請求は、登記官を経由してしなければならない。  
+>　  
+> ウ　審査請求は、処分があったことを知った日の翌日から起算して60日以内に、しなければならない。  
+>　  
+> エ　法務局又は地方法務局の長が審査請求につき裁決をしたときは、裁決書の謄本を審査請求人及び登記官に交付する。  
+>　  
+> オ　当該登記官を監督する法務局又は地方法務局の長は、審査請求を理由があると認めるときは、登記官に相当の処分を命じ、その旨を審査請求人のほか登記上の利害関係人に通知しなければならない。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-登記官の処分に対する審査請求は、行政処分一般に対する審査請求（行政不服審査法）とは別に、不動産登記法が独自の規律を用意している分野です。不動産登記法158条は、行政不服審査法の複数の条文の適用を明文で除外しており、「一般の行政処分ならこうなるはず」という感覚をそのまま当てはめると誤ってしまう典型的な論点です。
+---
+
+登記官の処分に対する審査請求は、行政処分一般に対する審査請求（行政不服審査法）とは別に、不動産登記法が独自の規律を用意している分野です。
+
+不動産登記法158条は、行政不服審査法の複数の条文の適用を明文で除外しており、「一般の行政処分ならこうなるはず」という感覚をそのまま当てはめると誤ってしまう典型的な論点です。
 
 ### ア：登記官の処分についての審査請求には、そもそも「参加人」という制度がない
 
-行政不服審査法13条は、利害関係人が審理員（審査庁）の許可を得て「参加人」として審査請求に参加できる制度を定めています。しかし、この13条は、不動産登記法158条により、登記官の処分についての審査請求（不動産登記法156条1項）には適用が除外されています。つまり、抵当権者Bが分筆登記却下処分についての審査請求に「利害関係人」として実質的な利害を持つかどうかを検討するまでもなく、この審査請求の手続には「参加人」という地位そのものが用意されていません。「審査庁の許可を得て、参加人として参加することができる」という記述は、制度自体が存在しないという点で誤りです。
+行政不服審査法13条は、利害関係人が審理員（審査庁）の許可を得て「参加人」として審査請求に参加できる制度を定めています。
+
+しかし、この13条は、不動産登記法158条により、登記官の処分についての審査請求（不動産登記法156条1項）には適用が除外されています。
+
+つまり、抵当権者Bが分筆登記却下処分についての審査請求に「利害関係人」として実質的な利害を持つかどうかを検討するまでもなく、この審査請求の手続には「参加人」という地位そのものが用意されていません。
+
+「審査庁の許可を得て、参加人として参加することができる」という記述は、制度自体が存在しないという点で誤りです。
 
 **たとえば**、Aさんの土地の分筆登記の申請が却下されて、Aさんがこれを不服として審査請求をしたとしても、その土地に抵当権を持つ銀行Bは、たとえ実質的な利害関係を持っていたとしても、この審査請求の手続に正式な「参加人」として加わる制度そのものが用意されていません。
 
 ### イ：審査請求は、登記官を経由してしなければならない
 
-登記官の処分に対する審査請求は、直接、監督機関である法務局又は地方法務局の長に対して行うのではなく、登記官を経由して行わなければなりません（不動産登記法156条2項）。これは、審査請求を受けた登記官が、まず自身の処分を見直す機会を持つことにもつながる仕組みです。
+登記官の処分に対する審査請求は、直接、監督機関である法務局又は地方法務局の長に対して行うのではなく、登記官を経由して行わなければなりません（不動産登記法156条2項）。
+
+これは、審査請求を受けた登記官が、まず自身の処分を見直す機会を持つことにもつながる仕組みです。
 
 **たとえば**、ある登記所の登記官が行った却下処分について不服がある場合、審査請求書はその登記所（登記官）を経由して提出することになります。
 
 ### ウ：登記官の処分についての審査請求には、そもそも期間制限がない
 
-行政不服審査法18条は、一般の行政処分について、処分があったことを知った日の翌日から起算して一定期間を経過すると審査請求ができなくなる旨を定めています。しかし、この18条も、不動産登記法158条により、登記官の処分についての審査請求（156条1項）には適用が除外されています。つまり、「60日」でも、現行の一般法が定める「3か月」でもなく、そもそも審査請求の期間制限という考え方自体が存在しません。「60日以内にしなければならない」という記述は、存在しない期限を課している点で誤りです。
+行政不服審査法18条は、一般の行政処分について、処分があったことを知った日の翌日から起算して一定期間を経過すると審査請求ができなくなる旨を定めています。
 
-**たとえば**、登記官の却下処分に納得がいかない場合、それを知った日から60日はおろか、半年後や1年後であっても、審査請求をすること自体は制度上妨げられません（もっとも、実務上は早期に対応するのが望ましいのは当然です）。一般的な行政処分の感覚（一定期間内に不服を申し立てないといけない）をそのまま当てはめると誤ってしまう、登記実務特有のルールです。
+しかし、この18条も、不動産登記法158条により、登記官の処分についての審査請求（156条1項）には適用が除外されています。
+
+つまり、「60日」でも、現行の一般法が定める「3か月」でもなく、そもそも審査請求の期間制限という考え方自体が存在しません。「60日以内にしなければならない」という記述は、存在しない期限を課している点で誤りです。
+
+**たとえば**、登記官の却下処分に納得がいかない場合、それを知った日から60日はおろか、半年後や1年後であっても、審査請求をすること自体は制度上妨げられません（もっとも、実務上は早期に対応するのが望ましいのは当然です）。
+
+一般的な行政処分の感覚（一定期間内に不服を申し立てないといけない）をそのまま当てはめると誤ってしまう、登記実務特有のルールです。
 
 ### エ：裁決書の謄本は、審査請求人及び登記官に交付される
 
@@ -47,6 +65,8 @@
 登記官を監督する法務局又は地方法務局の長は、審査請求に理由があると認めるときは、登記官に相当の処分を命じます（不動産登記法157条3項）。そして、その旨を、審査請求人だけでなく、登記上の利害関係人に対しても通知しなければなりません。
 
 **たとえば**、Aさんの審査請求が認められて、登記官に「もう一度正しい処分をするように」と命じられた場合、その結果はAさんに伝えられるのはもちろん、その登記について利害関係を持つ他の関係者にも通知されます。
+
+---
 
 ### まとめ
 
@@ -115,12 +135,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・登・記 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -195,18 +233,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -230,7 +268,7 @@ whether a general rule is excluded by 不動産登記法158条 before reaching a
 conclusion, draw the panel's diagram as an actual decision flowchart: a
 diamond-shaped branch node asking whether that specific 行政不服審査法の
 条文 is excluded, with Yes/No branch arrows and a final conclusion node
-for each branch. Panels 1 and 2 (肢ア・肢ウ) share the same underlying
+for each branch. Panels 1 and 2 (ア・ウ) share the same underlying
 decision-tree shape (一般の行政不服審査法の規定が、不動産登記法158条に
 よって適用除外されているかどうかを確認する型); render both panels'
 diagrams with the same single-diamond tree layout, highlighting (thick
@@ -287,20 +325,17 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 参加人制度はそもそも存在しない
-Diagram: A decision-tree flowchart. Start node: 登記官の処分についての
-審査請求（不動産登記法156条1項）. Diamond node (drawn with a thick
-highlighted border): 行政不服審査法13条（参加人制度）は、不動産登記法158
-条により適用除外されているか？ with the はい branch highlighted, showing
-a mortgagee figure（抵当権者B）trying to join through a side door labeled
-参加人 that is sealed shut with a stamp reading 適用除外, leading to a
-conclusion node reading 参加人として参加する制度はそもそも存在しない. The
-いいえ branch is drawn in a faded, greyed-out, dotted-outline style,
-showing the same door left open, leading to a small box captioned 一般
-ルールどおり参加人制度が使える（今回は関係ない）.
+Diagram: A check flow of rectangular boxes (no diamonds). Start node:
+登記官の処分についての審査請求（不動産登記法156条1項）. A rectangular check box (NOT
+a diamond, thick highlighted border): 行政不服審査法13条（参加人制度）は
+不動産登記法158条により適用除外, with a single arrow showing a mortgagee
+figure（抵当権者B）trying to join through a side door labeled 参加人 that is
+sealed shut with a stamp reading 適用除外, leading to a conclusion node
+reading 参加人として参加する制度はそもそも存在しない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、参加人制度を定める行政不服審査法13条が、不動産登記法158条によって
 適用除外されているかを確認します。除外されているため、登記官の処分に
@@ -309,21 +344,17 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 参加人制度なし
 
---- PANEL 2（肢ウ） ---
+--- PANEL 2（ウ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 審査請求に期間制限はない
-Diagram: The same decision-tree flowchart shape as Panel 1. Start node:
-登記官の処分についての審査請求（不動産登記法156条1項）. Diamond node
-(drawn with a thick highlighted border, distinct from Panel 1's
-highlighted diamond): 行政不服審査法18条（審査請求期間）は、不動産登記法
-158条により適用除外されているか？ with the はい branch highlighted,
+Diagram: The same check-flow shape as Panel 1 (rectangular boxes, no
+diamonds). Start node: 登記官の処分についての審査請求（不動産登記法156条
+1項）. A rectangular check box (thick highlighted border): 行政不服審査法
+18条（審査請求期間）は不動産登記法158条により適用除外, with a single arrow
 showing a calendar with a 60日 deadline stamp crossed out by a red ✕ and
 replaced with an infinity symbol icon labeled 期間制限なし, leading to a
-conclusion node reading 審査請求の期間制限はそもそも存在しない. The いいえ
-branch is drawn in a faded, greyed-out, dotted-outline style, showing the
-same calendar with the 60日 stamp intact, leading to a small box captioned
-一般ルールどおり期間制限がある（今回は関係ない）.
+conclusion node reading 審査請求の期間制限はそもそも存在しない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、審査請求の期間制限を定める行政不服審査法18条が、不動産登記法158条
 によって適用除外されているかを確認します。除外されているため、60日は
@@ -333,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 期間制限なし
 
---- PANEL 3（肢イ） ---
+--- PANEL 3（イ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 審査請求は登記官を経由して行う
@@ -349,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記官を経由
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 裁決書謄本は登記官にも交付される
@@ -365,7 +396,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記官にも交付
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 認容なら利害関係人にも通知される
@@ -387,8 +418,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 権, 登, 記, 審, 査, 請, 求, 裁, 決,
-謄, 通, 知, 除, 官, 庁. If any character renders as a Simplified
+Chinese, paying special attention to 権, 登, 記, 審, 査, 請, 求, 裁, 決, 謄, 通, 知, 除, 官. If any character renders as a Simplified
 or Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not
 standard Japanese hiragana, katakana, or Jōyō kanji — including any
@@ -398,7 +428,7 @@ Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
 Panels 1 and 2 clearly distinguish their own highlighted branch from the
-other, faded branch of their shared tree, that 肢エ and 肢オ each show
+other, faded branch of their shared tree, that エ and オ each show
 both required recipients as distinct labeled arrows rather than a single
 merged notification icon, that each 着眼点 callout states a checking
 order rather than only a conclusion and keeps every required element from

@@ -2,27 +2,35 @@
 
 **出題年度：平成21年度　午後の部　第6問**
 
-> 登記識別情報に関する証明についての次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうちどれか。
->
-> ア　登記識別情報に関する証明は、登記名義人及び利害関係人から請求することができる。
->
-> イ　登記識別情報に関する証明は、電子情報処理組織を使用して請求することはできない。
->
-> ウ　登記識別情報に関する証明は、提供する登記識別情報が有効であることのほか、登記識別情報が通知されていないこと又は失効していることについても請求することができる。
->
-> エ　登記識別情報に関する証明は、登記名義人である請求人の住所が登記記録と合致しない場合には、住所についての変更があったことを証する市町村長又は登記官の証明情報を提供して請求することができる。
->
-> オ　登記識別情報に関する証明は、土地家屋調査士が代理人として請求する場合には、所属土地家屋調査士会が発行した当該登記名義人の職印に関する証明情報を提供して、当該請求に係る代理人の権限を証する情報を提供することなく、請求することができる。
->
+> 登記識別情報に関する証明についての次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　登記識別情報に関する証明は、登記名義人及び利害関係人から請求することができる。  
+>　  
+> イ　登記識別情報に関する証明は、電子情報処理組織を使用して請求することはできない。  
+>　  
+> ウ　登記識別情報に関する証明は、提供する登記識別情報が有効であることのほか、登記識別情報が通知されていないこと又は失効していることについても請求することができる。  
+>　  
+> エ　登記識別情報に関する証明は、登記名義人である請求人の住所が登記記録と合致しない場合には、住所についての変更があったことを証する市町村長又は登記官の証明情報を提供して請求することができる。  
+>　  
+> オ　登記識別情報に関する証明は、土地家屋調査士が代理人として請求する場合には、所属土地家屋調査士会が発行した当該登記名義人の職印に関する証明情報を提供して、当該請求に係る代理人の権限を証する情報を提供することなく、請求することができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
 
-登記識別情報に関する証明とは、ある登記識別情報が有効なものかどうか、あるいは通知されていない・失効しているといった状態を、登記官が証明してくれる手続きです。誰が請求できるのか、どんな方法で請求できるのか、何について証明を求められるのかを、一つずつ確認していきましょう。なお、この問題は「誤っているものの組合せ」を選ぶ点に注意が必要です。
+---
+
+登記識別情報に関する証明とは、ある登記識別情報が有効なものかどうか、あるいは通知されていない・失効しているといった状態を、登記官が証明してくれる手続きです。
+
+誰が請求できるのか、どんな方法で請求できるのか、何について証明を求められるのかを、一つずつ確認していきましょう。なお、この問題は「誤っているものの組合せ」を選ぶ点に注意が必要です。
 
 ### ア：証明を請求できるのは登記名義人で、利害関係人は請求できない
 
-登記識別情報に関する証明を請求できるのは、その登記識別情報の通知を受けた登記名義人（およびその相続人その他の一般承継人）です。登記識別情報は本来その名義人だけが管理すべき秘密の情報ですから、名義人以外の「利害関係人」が広く請求できるとすると、情報管理の趣旨に反してしまいます。したがって、利害関係人から請求できるとする記述は誤りです。
+登記識別情報に関する証明を請求できるのは、その登記識別情報の通知を受けた登記名義人（およびその相続人その他の一般承継人）です。
 
-**たとえば**、ある土地を買おうとしている人が「売主の登記識別情報が有効かどうか、自分で証明を取って確かめたい」と思っても、その人は登記名義人ではないため、自ら証明を請求することはできません。証明を請求できるのは、あくまでその情報の名義人本人（またはその承継人）です。
+登記識別情報は本来その名義人だけが管理すべき秘密の情報ですから、名義人以外の「利害関係人」が広く請求できるとすると、情報管理の趣旨に反してしまいます。したがって、利害関係人から請求できるとする記述は誤りです。
+
+**たとえば**、ある土地を買おうとしている人が「売主の登記識別情報が有効かどうか、自分で証明を取って確かめたい」と思っても、その人は登記名義人ではないため、自ら証明を請求することはできません。
+
+証明を請求できるのは、あくまでその情報の名義人本人（またはその承継人）です。
 
 ### イ：登記識別情報に関する証明は、オンラインでも請求できる
 
@@ -32,21 +40,31 @@
 
 ### ウ：有効・未通知・失効のいずれについても証明を請求できる
 
-登記識別情報に関する証明では、提供した登記識別情報が「有効であること」の証明（有効証明）だけでなく、登記識別情報が「通知されていないこと」の証明（未通知証明）や、「失効していること」の証明（失効証明）についても請求することができます。証明の内容はこの3類型が用意されています。
+登記識別情報に関する証明では、提供した登記識別情報が「有効であること」の証明（有効証明）だけでなく、登記識別情報が「通知されていないこと」の証明（未通知証明）や、「失効していること」の証明（失効証明）についても請求することができます。
 
-**たとえば**、「この土地の登記識別情報はそもそも通知を受けていないはずだ」ということを公的に示したい場合には未通知証明を、「以前に失効の申出をして無効にしたはずだ」ということを示したい場合には失効証明を、それぞれ請求できます。有効証明だけが対象ではない点がポイントです。
+証明の内容はこの3類型が用意されています。
+
+**たとえば**、「この土地の登記識別情報はそもそも通知を受けていないはずだ」ということを公的に示したい場合には未通知証明を、「以前に失効の申出をして無効にしたはずだ」ということを示したい場合には失効証明を、それぞれ請求できます。
+
+有効証明だけが対象ではない点がポイントです。
 
 ### エ：住所が合致しない場合は、変更を証する情報を添えて請求できる
 
-登記名義人である請求人の現在の住所が、登記記録上の住所と一致しないことがあります。この場合でも、住所についての変更があったことを証する市町村長または登記官の証明情報を提供すれば、同一人であることを明らかにして証明を請求することができます。住所が動いていることが直ちに障害になるわけではありません。
+登記名義人である請求人の現在の住所が、登記記録上の住所と一致しないことがあります。
+
+この場合でも、住所についての変更があったことを証する市町村長または登記官の証明情報を提供すれば、同一人であることを明らかにして証明を請求することができます。住所が動いていることが直ちに障害になるわけではありません。
 
 **たとえば**、登記後に引っ越しをして住所が変わった登記名義人が証明を請求するとき、住民票の写しなど住所の変更経緯を示す情報を添えれば、登記記録上の住所と現住所が違っていても、同一人物として証明を受けることができます。
 
 ### オ：調査士は職印証明の提供により、代理権限証書なしで請求できる
 
-土地家屋調査士が代理人として登記識別情報に関する証明を請求する場合には、所属する土地家屋調査士会が発行した当該登記名義人の職印に関する証明情報を提供することで、別途、代理人の権限を証する情報（委任状など）を提供しなくても請求することができます。これは証明請求における代理権限の証明方法の特則です。
+土地家屋調査士が代理人として登記識別情報に関する証明を請求する場合には、所属する土地家屋調査士会が発行した当該登記名義人の職印に関する証明情報を提供することで、別途、代理人の権限を証する情報（委任状など）を提供しなくても請求することができます。
+
+これは証明請求における代理権限の証明方法の特則です。
 
 **たとえば**、依頼を受けた調査士が本人に代わって証明を請求する際、通常なら委任状で代理権を示すところ、調査士会発行の職印証明を添えることで、その委任状の提供を省略して手続きを進めることができます。
+
+---
 
 ### まとめ
 
@@ -56,7 +74,7 @@
 - **エ（正）**　住所が合致しない場合は、住所変更を証する情報を提供して請求できる
 - **オ（正）**　調査士は職印に関する証明情報の提供により、代理権限証書なしで請求できる
 
-「請求できるのは名義人本人」「オンラインでも請求できる」という2点を押さえておけば、誤っている肢アとイを的確に見抜くことができます。証明内容が3類型あることや、調査士の職印証明による特則もあわせて覚えておきましょう。
+「請求できるのは名義人本人」「オンラインでも請求できる」という2点を押さえておけば、誤っているアとイを的確に見抜くことができます。証明内容が3類型あることや、調査士の職印証明による特則もあわせて覚えておきましょう。
 
 **正解：アイの組合せ（選択肢1番）**
 
@@ -70,8 +88,8 @@
 - 条文根拠については、登記識別情報に関する証明の請求権者・請求方法・証明内容（有効／未通知／失効）は不動産登記規則の関連規定（証明の請求に関する規定）に基づく説明ですが、条数の細部までは断定を避け、制度趣旨からの整理として記載しています。存在の確認が取れない条文番号は本文に記載していません。
 - ローカルのアガルート教材については、実行環境に当該フォルダが存在せず参照できなかったため、今回は反映していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（登記識別情報に関する証明の請求権者・電子申請の可否・証明内容・住所不一致時の扱い・調査士会職印証明での代理請求を組み合わせた問題）と同一・類似の問題が再出題されていないかを確認しました。令和4年度第5問も登記識別情報の証明を対話形式で扱っていますが、電子申請可否や職印証明といった個別要素は共通するものの、場面設定・肢の組合せが異なる別問題であり、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **適用法令の現行性チェック（2026-08-04実施）**：本問の根拠規定は**不動産登記令22条1項**（登記識別情報に関する証明の請求）と、その手続の細目を定める**不動産登記規則68条（登記識別情報に関する証明）**です。現行規定でも、①請求できるのは登記名義人又はその相続人その他の一般承継人に限られること（令22条1項。利害関係人は請求できません＝**肢アは誤のまま**）、②請求方法は「電子情報処理組織を使用する方法」と「書面を提出する方法」の二本立てであること（規則68条3項。この二択は有効証明・未通知証明・失効証明のいずれの請求にも共通して適用され、証明の種類によって書面に限定される定めはありません。いずれにせよオンラインで請求できるので**肢イは誤のまま**）、③証明の内容が有効・未通知・失効の3類型であること（規則68条2項ほか。**肢ウは正のまま**）、④請求人の住所が登記記録と合致しない場合に、住所の変更を証する市町村長又は登記官の証明情報を提供して請求できること（**肢エは正のまま**）、⑤資格者代理人（土地家屋調査士・司法書士・弁護士）が代理請求する場合は、所属する会が発行した職印に関する証明書等の提供により、代理人の権限を証する情報の提供を要しないこと（平成20年1月15日からの取扱いで、現在も継続。**肢オは正のまま**）に、いずれも変更はありません。なお、令和3年法律24号による相続登記の申請義務化（法76条の2、2024年4月1日施行）および氏名・住所等の変更登記の申請義務化（法76条の5、2026年4月1日施行）は、いずれも**所有権の登記名義人**についての権利の登記に関する制度であり、登記識別情報の証明請求の要件には影響しません。**5肢すべて、結論（正誤）は現行法でも変わりません。**条数の誤りは見つからなかったため、本文の修正は行っていません（本文には従前どおり個別の条数を記載していません）。
-- **再検証・条数訂正（2026-08-16実施）**：`qa-checklist.md`に基づく再検証で、上記2026-08-04付の記載のうち、請求方法（電子情報処理組織／書面の二択）の根拠条数を「規則68条4項」としていた点を**「規則68条3項」に訂正**しました。68条4項は登記官が証明を行う際の方法（電子計算機のファイル記録による送信、または書面の交付）を定める規定であり、請求人が請求をする際の方法（電子情報処理組織を使用する方法／書面を提出する方法の二択）を定めているのは3項です。あわせて、「『通知されていないこと』『失効していること』の証明請求については書面によるものとされています」という記載を、ローカル法令データベース（`fudousan-touki-kisoku-1.md`）の規則68条全項を確認しても該当する定めが見当たらなかったため削除し、未通知・失効の証明請求もオンライン・書面のいずれも可能である旨に改めました。**肢イが「誤」であるという結論（現行法でもオンライン請求できるため）自体は変わりません。**
+- **適用法令の現行性チェック（2026-08-04実施）**：本問の根拠規定は**不動産登記令22条1項**（登記識別情報に関する証明の請求）と、その手続の細目を定める**不動産登記規則68条（登記識別情報に関する証明）**です。現行規定でも、①請求できるのは登記名義人又はその相続人その他の一般承継人に限られること（令22条1項。利害関係人は請求できません＝**アは誤のまま**）、②請求方法は「電子情報処理組織を使用する方法」と「書面を提出する方法」の二本立てであること（規則68条3項。この二択は有効証明・未通知証明・失効証明のいずれの請求にも共通して適用され、証明の種類によって書面に限定される定めはありません。いずれにせよオンラインで請求できるので**イは誤のまま**）、③証明の内容が有効・未通知・失効の3類型であること（規則68条2項ほか。**ウは正のまま**）、④請求人の住所が登記記録と合致しない場合に、住所の変更を証する市町村長又は登記官の証明情報を提供して請求できること（**エは正のまま**）、⑤資格者代理人（土地家屋調査士・司法書士・弁護士）が代理請求する場合は、所属する会が発行した職印に関する証明書等の提供により、代理人の権限を証する情報の提供を要しないこと（平成20年1月15日からの取扱いで、現在も継続。**オは正のまま**）に、いずれも変更はありません。なお、令和3年法律24号による相続登記の申請義務化（法76条の2、2024年4月1日施行）および氏名・住所等の変更登記の申請義務化（法76条の5、2026年4月1日施行）は、いずれも**所有権の登記名義人**についての権利の登記に関する制度であり、登記識別情報の証明請求の要件には影響しません。**5肢すべて、結論（正誤）は現行法でも変わりません。**条数の誤りは見つからなかったため、本文の修正は行っていません（本文には従前どおり個別の条数を記載していません）。
+- **再検証・条数訂正（2026-08-16実施）**：`qa-checklist.md`に基づく再検証で、上記2026-08-04付の記載のうち、請求方法（電子情報処理組織／書面の二択）の根拠条数を「規則68条4項」としていた点を**「規則68条3項」に訂正**しました。68条4項は登記官が証明を行う際の方法（電子計算機のファイル記録による送信、または書面の交付）を定める規定であり、請求人が請求をする際の方法（電子情報処理組織を使用する方法／書面を提出する方法の二択）を定めているのは3項です。あわせて、「『通知されていないこと』『失効していること』の証明請求については書面によるものとされています」という記載を、ローカル法令データベース（`fudousan-touki-kisoku-1.md`）の規則68条全項を確認しても該当する定めが見当たらなかったため削除し、未通知・失効の証明請求もオンライン・書面のいずれも可能である旨に改めました。**イが「誤」であるという結論（現行法でもオンライン請求できるため）自体は変わりません。**
 
 ## 見出し画像用フレーズ
 
@@ -83,7 +101,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -107,10 +125,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -182,23 +218,21 @@ Conclusion tag (a short blue banner/pill directly below the illustration):
 
 KANJI ACCURACY WARNING: this poster contains the characters 識・別・証・
 権・登・記・調・査・失・効 . These differ noticeably from their Simplified
-Chinese counterparts (証 must NOT become 证, 権 must NOT become 权, 記 must
-NOT become 记, 調 must NOT become 调, 別 must NOT become 别, 識 must NOT
-become 识, 効 must NOT become 效). Draw each one in the Japanese form.
+Chinese counterparts. Draw each one in the Japanese form.
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 登記識別情報に関する証明について、誰が・どの方法で・何を証明できるかを、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、判定の手順そのものを可視化する構成。5パネル、portrait 1080×2600px。
 
@@ -279,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -299,7 +333,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一般承継人まで
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 電子情報処理組織を使ってオンラインでも請求できる
@@ -319,7 +353,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 書面とオンライン
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 証明できる内容は有効・未通知・失効の3種類
@@ -336,7 +370,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 証明は3種類
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 住所が一致しなくても変更証明情報を添えれば請求できる
@@ -357,7 +391,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 住所変更を証する情報
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 調査士は職印証明の提供で委任状の提供を省略できる
@@ -381,9 +415,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 KANJI ACCURACY WARNING: this poster contains the characters 識・別・証・
 権・登・記・調・査・失・効. These differ noticeably from their Simplified
-Chinese counterparts (証 must NOT become 证, 権 must NOT become 权, 記 must
-NOT become 记, 調 must NOT become 调, 別 must NOT become 别, 識 must NOT
-become 识, 効 must NOT become 效). Draw each one in the Japanese form.
+Chinese counterparts. Draw each one in the Japanese form.
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

@@ -2,51 +2,69 @@
 
 **出題年度：平成22年度　午後の部　第1問**
 
-> Ａは、ＢからＢ所有の甲不動産を売却する代理権を与えられていないにもかかわらず、その事情について善意無過失のＣとの間で、Ｂの代理人として甲不動産を1,000万円で売却する旨の売買契約を締結し、Ｃから売買代金1,000万円を受け取った。この事例に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　ＣがＡに対し無権代理行為による損害賠償として1,000万円を請求したところ、Ａが死亡してその地位をＢが単独で相続した場合には、Ｂは、無権代理行為の追認を拒絶することにより、無権代理行為による損害賠償責任を免れることができる。
->
-> イ　ＣがＢに対し甲不動産の引渡しを求めたところ、ＢがＡの無権代理行為の追認を拒絶した後Ｂが死亡してその地位をＡが単独で相続した場合には、Ａは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされても、Ｂの上記追認拒絶の効果を主張してＣの請求を拒むことができない。
->
-> ウ　ＣがＢに対し甲不動産の引渡しを求めたところ、Ｂが死亡してその地位をＡが他の相続人とともに共同で相続した場合には、Ａは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされたときは、他の相続人とともに無権代理行為の追認を拒絶してＣの請求を拒むことができる。
->
-> エ　ＣがＢに対し甲不動産の引渡しを求めたところ、Ｂが死亡してその地位をＡが単独で相続した場合には、Ａは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされたときは、無権代理行為の追認を拒絶してＣの請求を拒むことができない。
->
-> オ　ＣがＢに対し甲不動産の引渡しを求めたところ、Ａが死亡してその地位をＢ及びＡＢ間の子Ｄが共同で相続した後Ｂが死亡してその地位をＤが単独で相続した場合には、Ｄは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされたときは、無権代理行為の追認を拒絶してＣの請求を拒むことができない。
->
+> Ａは、ＢからＢ所有の甲不動産を売却する代理権を与えられていないにもかかわらず、その事情について善意無過失のＣとの間で、Ｂの代理人として甲不動産を1,000万円で売却する旨の売買契約を締結し、Ｃから売買代金1,000万円を受け取った。この事例に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　ＣがＡに対し無権代理行為による損害賠償として1,000万円を請求したところ、Ａが死亡してその地位をＢが単独で相続した場合には、Ｂは、無権代理行為の追認を拒絶することにより、無権代理行為による損害賠償責任を免れることができる。  
+>　  
+> イ　ＣがＢに対し甲不動産の引渡しを求めたところ、ＢがＡの無権代理行為の追認を拒絶した後Ｂが死亡してその地位をＡが単独で相続した場合には、Ａは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされても、Ｂの上記追認拒絶の効果を主張してＣの請求を拒むことができない。  
+>　  
+> ウ　ＣがＢに対し甲不動産の引渡しを求めたところ、Ｂが死亡してその地位をＡが他の相続人とともに共同で相続した場合には、Ａは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされたときは、他の相続人とともに無権代理行為の追認を拒絶してＣの請求を拒むことができる。  
+>　  
+> エ　ＣがＢに対し甲不動産の引渡しを求めたところ、Ｂが死亡してその地位をＡが単独で相続した場合には、Ａは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされたときは、無権代理行為の追認を拒絶してＣの請求を拒むことができない。  
+>　  
+> オ　ＣがＢに対し甲不動産の引渡しを求めたところ、Ａが死亡してその地位をＢ及びＡＢ間の子Ｄが共同で相続した後Ｂが死亡してその地位をＤが単独で相続した場合には、Ｄは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされたときは、無権代理行為の追認を拒絶してＣの請求を拒むことができない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-無権代理と相続の分野は、「無権代理人（Ａ）」と「本人（Ｂ）」のどちらが先に亡くなり、どちらがどちらを相続したのか、そして相続が単独か共同か、追認拒絶がいつなされたかで結論がガラッと変わります。図を書きながら「立場の入れ替わり」を丁寧に追うのがコツです。
+---
+
+無権代理と相続の分野は、「無権代理人（Ａ）」と「本人（Ｂ）」のどちらが先に亡くなり、どちらがどちらを相続したのか、そして相続が単独か共同か、追認拒絶がいつなされたかで結論がガラッと変わります。
+
+図を書きながら「立場の入れ替わり」を丁寧に追うのがコツです。
 
 ### ア：本人が無権代理人を相続しても、117条の損害賠償責任は免れない
 
-本人Ｂが無権代理人Ａを相続した場合、本人としての立場で追認を拒絶することはできます。しかし、無権代理人Ａが負っていた無権代理人の責任（民法117条の損害賠償責任）は、相続によってそのままＢに承継されます。したがって、追認を拒絶しても損害賠償責任そのものを免れることはできないというのが判例の立場です。
+本人Ｂが無権代理人Ａを相続した場合、本人としての立場で追認を拒絶することはできます。しかし、無権代理人Ａが負っていた無権代理人の責任（民法117条の損害賠償責任）は、相続によってそのままＢに承継されます。
+
+したがって、追認を拒絶しても損害賠償責任そのものを免れることはできないというのが判例の立場です。
 
 **たとえば**、勝手に親Ｂの土地を売ってしまった子Ａが亡くなり、親Ｂがその子を相続した場合、Ｂは「その売買は認めない」と追認を拒絶することはできても、子Ａが買主に対して負っていた「代金を返す・損害を賠償する」という責任までは肩代わりを免れられません。
 
 ### イ：本人が追認拒絶した後は、無権代理人が本人を相続しても請求を拒める
 
-本人Ｂがいったん追認を拒絶すると、その時点で無権代理行為は本人に対して効力を生じないことが確定します。その後に無権代理人Ａが本人Ｂを相続しても、いったん確定した追認拒絶の効果は覆りません。したがってＡは、追認拒絶の効果を主張して引渡請求を拒むことができるというのが判例の立場です。
+本人Ｂがいったん追認を拒絶すると、その時点で無権代理行為は本人に対して効力を生じないことが確定します。
 
-**たとえば**、親Ｂが「勝手に売られた土地の契約は認めない」ときっぱり断った後に亡くなり、その親を子Ａ（勝手に売った本人）が相続したとしても、親が一度断った事実は生き続けるので、Ａは「あの契約は無効のままです」と言って買主の引渡請求を拒むことができます。設問は「拒むことができない」としているため、判例と逆で誤りです。
+その後に無権代理人Ａが本人Ｂを相続しても、いったん確定した追認拒絶の効果は覆りません。したがってＡは、追認拒絶の効果を主張して引渡請求を拒むことができるというのが判例の立場です。
+
+**たとえば**、親Ｂが「勝手に売られた土地の契約は認めない」ときっぱり断った後に亡くなり、その親を子Ａ（勝手に売った本人）が相続したとしても、親が一度断った事実は生き続けるので、Ａは「あの契約は無効のままです」と言って買主の引渡請求を拒むことができます。
+
+設問は「拒むことができない」としているため、判例と逆で誤りです。
 
 ### ウ：無権代理人が本人を共同相続したときは、他の相続人とともに追認を拒絶できる
 
-無権代理人Ａが本人Ｂを他の相続人とともに共同で相続した場合、無権代理行為を有効にするには共同相続人全員が共同して追認しなければなりません。したがって、他の相続人が追認しない限り、無権代理人Ａ自身の相続分についても当然に有効となるわけではなく、Ａは他の相続人とともに追認を拒絶して請求を拒むことができるというのが判例の立場です。
+無権代理人Ａが本人Ｂを他の相続人とともに共同で相続した場合、無権代理行為を有効にするには共同相続人全員が共同して追認しなければなりません。
+
+したがって、他の相続人が追認しない限り、無権代理人Ａ自身の相続分についても当然に有効となるわけではなく、Ａは他の相続人とともに追認を拒絶して請求を拒むことができるというのが判例の立場です。
 
 **たとえば**、勝手に土地を売った子Ａが、親Ｂの死亡で他のきょうだいと一緒に相続した場合、きょうだい全員が「認める」と言わなければ契約は有効にならず、Ａも含めてみんなで「認めません」と拒むことができます。
 
 ### エ：無権代理人が本人を単独相続したら、追認拒絶はできない
 
-無権代理人Ａが本人Ｂを単独で相続した場合には、Ａは本人の立場と無権代理人の立場が一人に融合します。この場合に本人の資格で追認を拒絶するのは信義則に反して許されず、無権代理行為は当然に有効となります。したがってＡは追認を拒絶して請求を拒むことはできないというのが判例の立場です。
+無権代理人Ａが本人Ｂを単独で相続した場合には、Ａは本人の立場と無権代理人の立場が一人に融合します。
+
+この場合に本人の資格で追認を拒絶するのは信義則に反して許されず、無権代理行為は当然に有効となります。したがってＡは追認を拒絶して請求を拒むことはできないというのが判例の立場です。
 
 **たとえば**、勝手に親の土地を売ってしまった子Ａが、その親を一人で相続した場合、「自分が売った契約だけど、本人としては認めない」という主張は虫が良すぎて通らず、その売買は有効なものとして扱われます。
 
 ### オ：無権代理人の地位を経て最終的に本人の地位も承継した者は、追認拒絶できない
 
-まず無権代理人Ａの死亡により、本人Ｂと子ＤがＡ（無権代理人）の地位を共同相続し、次にＢの死亡によりＤがＢ（本人）の地位も単独で相続しています。最終的にＤは無権代理人の地位と本人の地位の双方を承継しており、これは無権代理人が本人を相続した場合と同様に扱われるというのが判例の立場です。したがってＤは追認を拒絶して請求を拒むことはできません。
+まず無権代理人Ａの死亡により、本人Ｂと子ＤがＡ（無権代理人）の地位を共同相続し、次にＢの死亡によりＤがＢ（本人）の地位も単独で相続しています。
+
+最終的にＤは無権代理人の地位と本人の地位の双方を承継しており、これは無権代理人が本人を相続した場合と同様に扱われるというのが判例の立場です。したがってＤは追認を拒絶して請求を拒むことはできません。
 
 **たとえば**、勝手に土地を売った父Ａが亡くなり、その立場を母Ｂと子Ｄが引き継ぎ、続いて母Ｂも亡くなって子Ｄがすべてを一人で引き継いだ場合、Ｄは結局「売った側」と「本人側」の両方をまとめて背負うことになるので、「本人としては認めない」と拒むことはできません。
+
+---
 
 ### まとめ
 
@@ -70,7 +88,7 @@
 - 各肢の判例根拠は、無権代理と相続に関する一連の最高裁判例（本人による無権代理人の相続と117条責任・最判昭48.7.3、追認拒絶後の相続・最判平10.7.17、共同相続・最判平5.1.21、無権代理人による本人の単独相続・最判昭40.6.18等）に基づく一般的な理解に沿って記載しています。判決の年月日は代表的なものを示したものであり、細かな引用番号までは公式資料で個別に照合していません。この点は各自の基本書等で確認することをおすすめします。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json）も参照しましたが、これは未検証（reviewed:false）の補足であるため、条文・判例の理解を優先しています。
 - ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（無権代理と相続の判例）と同一の問題が再出題されていないかを、問題文＋肢アからオまでの全文テキスト類似度で確認しました。最も近い問題（R07年度第1問・平成23年度第1問、いずれも「意思表示」がテーマ）でも類似度は0.2程度にとどまり、テーマ自体が異なります。無権代理と相続を主題とする問題の再出題は見当たらず、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（無権代理と相続の判例）と同一の問題が再出題されていないかを、問題文＋アからオまでの全文テキスト類似度で確認しました。最も近い問題（R07年度第1問・平成23年度第1問、いずれも「意思表示」がテーマ）でも類似度は0.2程度にとどまり、テーマ自体が異なります。無権代理と相続を主題とする問題の再出題は見当たらず、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -109,12 +127,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the kanji 継・拒・償・相・続 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -203,21 +239,19 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -255,7 +289,15 @@ callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -279,21 +321,30 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 本人が無権代理人を相続した場合を描く
 Diagram: A root diamond node labeled 誰が誰の地位を相続したか, with two
 branch arrows: one leading to a highlighted box (thicker border) labeled
 本人Bが無権代理人Aを相続, the other leading to a small greyed-out box
-labeled 無権代理人が本人を相続（他のパネル）. From the highlighted box, an
+labeled 無権代理人Aが本人Bを相続. From the highlighted box, an
 isometric scene shows a faded/ghost figure labeled 無権代理人A（死亡）with
 a crossed-out contract icon, and a succession arrow running from A to a
-solid figure labeled 本人B. A second diamond node below asks 本人として追
-認拒絶はできるか、with a はい arrow leading to a checkmark, but a separate
-box beside it (not crossed out) shows a coin icon labeled 117条の損害賠償
-責任 still attached to B by a red arrow, leading into the final
-conclusion node.
+solid figure labeled 本人B, with a small note tag beside B reading「本人
+として追認拒絶はできる（これは当然の前提）」— this is a short label only,
+NOT a decision diamond and NOT a checkmark or any terminal symbol, since
+being able to reject ratification is not by itself the answer to this 肢.
+A single arrow leads from this note tag down into the real decision
+point of this 肢: a second diamond node asking 追認を拒絶すれば、Aが個人
+として負っていた117条の損害賠償責任も一緒に消えるか. From this diamond,
+draw two branch arrows: a small greyed-out「はい（消える）」branch crossed
+out with a ✕ (representing the 肢's claim, which is wrong), and a thick
+highlighted「いいえ（消えない）」branch in full color leading to the single
+final conclusion node 117条の損害賠償責任は消えない, illustrated with a
+coin icon still firmly attached to B by one solid arrow directly from
+the diamond (not a separate, disconnected red arrow from elsewhere in
+the panel).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、誰が誰の地位を相続したか（本人が無権代理人を相続したパターンである
 こと）を確認します。次に、本人の立場としては追認を拒絶できても、無権代理
@@ -303,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 賠償責任は消えない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 拒絶確定後に立場が入れ替わる流れを描く
@@ -325,7 +376,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一度拒めば覆らない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 共同相続なら全員で拒絶できる流れを描く
@@ -347,7 +398,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全員でなら拒絶できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 単独相続で拒絶未了なら拒めない流れを描く
@@ -369,7 +420,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 拒絶できず有効になる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 二段階の相続でも結局は同じ扱いになる
@@ -382,12 +433,12 @@ alone, ending in a single figure D holding both a 「無権代理人」badge and
 「本人」badge. Beside this final figure, a diamond node asks 最終的に一人
 が両方の地位を単独で承継したか、with a はい arrow pointing to a small
 inset box that visually echoes Panel 4's conclusion node（信義則上、拒絶
-できない）, showing this reduces to the same tree branch as 肢エ.
+できない）, showing this reduces to the same tree branch as エ.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、相続が二段階にわたっていること（父Aの地位をB・Dが共同相続し、次に
 母Bの地位をDが単独相続したこと）を整理し、次に、最終的にDが無権代理人の
 地位と本人の地位の両方を一人で承継した状態になっていることを確認します。
-これは無権代理人が本人を単独相続した場合（肢エ）と同じ扱いになります。
+これは無権代理人が本人を単独相続した場合（エ）と同じ扱いになります。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 結局エと同じ扱い
@@ -398,14 +449,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 継・拒・絶・償・認・者・相・続 and any character that has a visually
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 継・拒・絶・償・認・相・続 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢イ・肢ウ・肢
-エ・肢オ）is drawn as an actual flowchart with branch nodes sharing the
+the header and the panels, that every multi-condition 肢（イ・ウ・肢
+エ・オ）is drawn as an actual flowchart with branch nodes sharing the
 same root decision tree as described above (not a bare illustration with
 no visible decision structure), that each 着眼点 callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below

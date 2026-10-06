@@ -2,55 +2,95 @@
 
 **出題年度：平成28年度　午後の部　第13問**
 
-> 甲建物からその附属建物を分割して乙建物とする建物の分割の登記（以下「本件分割登記」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲建物に抵当権の登記がある場合において、本件分割登記の申請情報と併せて、当該抵当権の登記名義人が当該抵当権を分割後の乙建物について消滅させることを承諾したことを証する情報が提供されたときは、当該抵当権の登記は分割後の甲建物のみに存続することになる。
->
-> イ　本件分割登記を申請する場合において、甲建物に共用部分である旨の登記があるときは、建物の所有者を証する情報の添付を要しない。
->
-> ウ　甲建物の附属建物の所有権を取得した者は、甲建物の所有権の登記名義人に代位して、本件分割登記を申請することはできない。
->
-> エ　本件分割登記に係る分割により不動産所在事項に変更が生じたときは、変更後の不動産所在事項、分割により変更した旨及び変更前の不動産所在事項を抹消する記号が記録される。
->
-> オ　分割前の甲建物について現に効力を有する所有権の登記がされた後当該分割に係る附属建物の新築による当該分割前の甲建物の表題部の登記事項に関する変更の登記がされていたときは、乙建物の登記記録に当該所有権の登記が転写される。
->
+> 甲建物からその附属建物を分割して乙建物とする建物の分割の登記（以下「本件分割登記」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲建物に抵当権の登記がある場合において、本件分割登記の申請情報と併せて、当該抵当権の登記名義人が当該抵当権を分割後の乙建物について消滅させることを承諾したことを証する情報が提供されたときは、当該抵当権の登記は分割後の甲建物のみに存続することになる。  
+>　  
+> イ　本件分割登記を申請する場合において、甲建物に共用部分である旨の登記があるときは、建物の所有者を証する情報の添付を要しない。  
+>　  
+> ウ　甲建物の附属建物の所有権を取得した者は、甲建物の所有権の登記名義人に代位して、本件分割登記を申請することはできない。  
+>　  
+> エ　本件分割登記に係る分割により不動産所在事項に変更が生じたときは、変更後の不動産所在事項、分割により変更した旨及び変更前の不動産所在事項を抹消する記号が記録される。  
+>　  
+> オ　分割前の甲建物について現に効力を有する所有権の登記がされた後当該分割に係る附属建物の新築による当該分割前の甲建物の表題部の登記事項に関する変更の登記がされていたときは、乙建物の登記記録に当該所有権の登記が転写される。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-建物の分割の登記は、主である建物とその附属建物とを切り離して、それぞれ独立した登記記録にする手続です。土地の分筆登記とよく似た構造を持ちながら、抵当権など所有権以外の権利の扱いや、所有権登記の引き継ぎ方に独特のルールがあるため、細かい要件を正確に押さえているかどうかが得点の分かれ目になります。
+---
+
+建物の分割の登記は、主である建物とその附属建物とを切り離して、それぞれ独立した登記記録にする手続です。
+
+土地の分筆登記とよく似た構造を持ちながら、抵当権など所有権以外の権利の扱いや、所有権登記の引き継ぎ方に独特のルールがあるため、細かい要件を正確に押さえているかどうかが得点の分かれ目になります。
 
 ### ア：抵当権名義人の承諾があれば、分割後は一方の建物のみに存続させられる
 
 抵当権など所有権以外の権利に関する登記がある建物を分割する場合、原則としてその権利の登記は分割後の両方の建物に及びますが、権利の登記名義人が分割後の一方の建物について当該権利を消滅させることを承諾したことを証する情報を分割登記の申請情報と併せて提供したときは、その権利の登記は承諾に係る建物についてのみ消滅し、もう一方の建物にのみ存続することになります（不動産登記法54条3項、40条）。
 
-**たとえば**、甲建物（母屋）に住宅ローンの抵当権が設定されており、その附属建物である倉庫を分割して乙建物とする場合を考えてみましょう。抵当権者である銀行が「乙建物についてはこの抵当権を消滅させてよい」という承諾書（消滅承諾書）を提供すれば、抵当権は分割後も甲建物にのみ残り、乙建物は抵当権の負担がない、きれいな状態の独立した建物として登記されます。
+**たとえば**、甲建物（母屋）に住宅ローンの抵当権が設定されており、その附属建物である倉庫を分割して乙建物とする場合を考えてみましょう。
+
+抵当権者である銀行が「乙建物についてはこの抵当権を消滅させてよい」という承諾書（消滅承諾書）を提供すれば、抵当権は分割後も甲建物にのみ残り、乙建物は抵当権の負担がない、きれいな状態の独立した建物として登記されます。
 
 ### イ：共用部分の登記があっても、所有者を証する情報の添付は必要
 
-通常の建物の分割登記では、申請人が表題部所有者又は所有権の登記名義人であることは登記記録自体から明らかなため、所有者を証する情報の提供は不要です。しかし、甲建物に共用部分である旨の登記（又は団地共用部分である旨の登記）がされていると、その登記により表題部所有者の記録及び権利に関する登記が抹消されてしまいます（不動産登記法58条4項）。その結果、登記記録を見ただけでは申請人が本当に「所有者」（法54条2項）であるかどうかが分からなくなるため、これを別途証明する所有者を証する情報の提供が必要になります（不動産登記法54条2項、不動産登記令別表16項添付情報ロ）。「共用部分だから所有者を証明する必要はない」という理屈は成り立たず、むしろ共用部分の登記があるからこそ所有者を証する情報が必要になる、という点がポイントです。
+通常の建物の分割登記では、申請人が表題部所有者又は所有権の登記名義人であることは登記記録自体から明らかなため、所有者を証する情報の提供は不要です。
 
-**たとえば**、マンションの管理組合が管理する共用部分としての倉庫（附属建物）を分割登記する場合であっても、「この倉庫の所有者は誰々です」ということを証明する書面（所有者を証する情報）をあわせて提出しなければなりません。共用部分だからといって、この添付情報が免除されるわけではないのです。
+しかし、甲建物に共用部分である旨の登記（又は団地共用部分である旨の登記）がされていると、その登記により表題部所有者の記録及び権利に関する登記が抹消されてしまいます（不動産登記法58条4項）。
+
+その結果、登記記録を見ただけでは申請人が本当に「所有者」（法54条2項）であるかどうかが分からなくなるため、これを別途証明する所有者を証する情報の提供が必要になります（不動産登記法54条2項、不動産登記令別表16項添付情報ロ）。
+
+「共用部分だから所有者を証明する必要はない」という理屈は成り立たず、むしろ共用部分の登記があるからこそ所有者を証する情報が必要になる、という点がポイントです。
+
+**たとえば**、マンションの管理組合が管理する共用部分としての倉庫（附属建物）を分割登記する場合であっても、「この倉庫の所有者は誰々です」ということを証明する書面（所有者を証する情報）をあわせて提出しなければなりません。
+
+共用部分だからといって、この添付情報が免除されるわけではないのです。
 
 ### ウ：附属建物の取得者は、代位によって分割登記を申請できる
 
-建物分割登記は、土地の分筆登記と同様に所有者の意思に基づいて新しい登記記録を作成する形成的な登記ですが、附属建物のみを売買等により取得した者は、売主（甲建物の所有権の登記名義人）が分割登記に協力しない場合、自己の所有権移転登記請求権を保全するために、売主に代位して本件分割登記を申請することができます（民法423条の債権者代位権によるもの）。したがって、「代位して申請することはできない」とする本肢は誤りです。
+建物分割登記は、土地の分筆登記と同様に所有者の意思に基づいて新しい登記記録を作成する形成的な登記ですが、附属建物のみを売買等により取得した者は、売主（甲建物の所有権の登記名義人）が分割登記に協力しない場合、自己の所有権移転登記請求権を保全するために、売主に代位して本件分割登記を申請することができます（民法423条の債権者代位権によるもの）。
 
-**たとえば**、Aさんが甲建物の附属建物である倉庫だけを売買で買い受けたものの、売主（甲建物の所有権登記名義人）がなかなか分割登記に協力してくれないとします。この場合、Aさんは自分の所有権移転登記請求権を守るため、売主に代わって（代位して）倉庫を乙建物とする分割登記を自ら申請することができます。
+したがって、「代位して申請することはできない」とする本肢は誤りです。
+
+**たとえば**、Aさんが甲建物の附属建物である倉庫だけを売買で買い受けたものの、売主（甲建物の所有権登記名義人）がなかなか分割登記に協力してくれないとします。
+
+この場合、Aさんは自分の所有権移転登記請求権を守るため、売主に代わって（代位して）倉庫を乙建物とする分割登記を自ら申請することができます。
 
 ### エ：所在事項に変更が生じたときは、変更前後の事項と変更した旨が記録される
 
-本件分割登記に係る分割によって不動産所在事項に変更が生じたときは、登記記録には変更後の不動産所在事項、分割により変更した旨、そして変更前の不動産所在事項を抹消する記号が記録されます（不動産登記規則127条3項）。分割前の所在の記載をそのまま消してしまうのではなく、変更の経緯がわかる形で記録が残される点がポイントです。
+本件分割登記に係る分割によって不動産所在事項に変更が生じたときは、登記記録には変更後の不動産所在事項、分割により変更した旨、そして変更前の不動産所在事項を抹消する記号が記録されます（不動産登記規則127条3項）。
 
-**たとえば**、甲建物の敷地の一部にあった附属建物を分割して乙建物とした結果、甲建物の所在地番の記載も変わる場合を考えてみましょう。登記記録には「変更後の所在はここです」という新しい所在と、「分割によって変更されました」という旨が記録され、あわせて元の所在の記載には抹消する記号が付されて、変更の経緯が誰にでもわかるように残されます。
+分割前の所在の記載をそのまま消してしまうのではなく、変更の経緯がわかる形で記録が残される点がポイントです。
 
-**実務でのケース**：土地家屋調査士のBさんが、依頼者Cさんから「敷地の一部を分筆した後、その上に建っている倉庫（甲建物の附属建物）を独立した建物として分割登記したい」という依頼を受けたとします。Bさんはまず現地に赴き、分筆後の測量図・地積測量図と照らし合わせて、倉庫の位置が新しい地番の土地上にあることを確認します。次に、分割登記の申請書を作成する段階で、この分割によって甲建物の所在地番も変更後の地番に変わることをCさんに説明し、その旨の変更登記もあわせて必要になることを伝えます。登記が完了すると、甲建物の登記記録には「変更後の不動産所在事項」「分割により変更した旨」「変更前の不動産所在事項を抹消する記号」の3点がセットで記録されるため、Bさんは完了後に取得した登記事項証明書でこの3点がきちんと反映されているかを確認し、Cさんに報告して案件を終えます。
+**たとえば**、甲建物の敷地の一部にあった附属建物を分割して乙建物とした結果、甲建物の所在地番の記載も変わる場合を考えてみましょう。
+
+登記記録には「変更後の所在はここです」という新しい所在と、「分割によって変更されました」という旨が記録され、あわせて元の所在の記載には抹消する記号が付されて、変更の経緯が誰にでもわかるように残されます。
+
+**実務でのケース**：土地家屋調査士のBさんが、依頼者Cさんから「1番の土地に建つ甲建物と、隣の2番の土地に建つ倉庫（甲建物の附属建物）のうち、倉庫を独立した建物として分割登記したい」という依頼を受けたとします。
+
+甲建物の登記記録の所在は、附属建物の敷地も含めて「1番地、2番地」と記録されています。
+
+Bさんはまず現地に赴き、公図・地積測量図と照らし合わせて、主である建物が1番の上だけに、倉庫が2番の上だけに建っていることを確認します。
+
+次に、分割登記の申請書を作成する段階で、倉庫を切り離すと甲建物の所在が「1番地」だけに変わることをCさんに説明します。この所在の変更は分割の登記の中で登記官が記録するもので、別に変更登記を申請する必要はありません。
+
+登記が完了すると、甲建物の登記記録には「変更後の不動産所在事項」「分割により変更した旨」「変更前の不動産所在事項を抹消する記号」の3点がセットで記録されるため、Bさんは完了後に取得した登記事項証明書でこの3点がきちんと反映されているかを確認し、Cさんに報告して案件を終えます。
 
 ### オ：所有権登記が先にある場合は、転写ではなく新たな所有権登記の旨が記録される
 
-分割前の甲建物について現に効力を有する所有権の登記がされた後に、当該分割に係る附属建物の新築による表題部の登記事項に関する変更の登記がされていた場合、その所有権の登記は甲建物に対するものであるため、乙建物の登記記録にそのまま転写することはできません。この場合、乙建物の登記記録には、分割による所有権の登記をする旨が記録されることになります（不動産登記規則128条2項）。したがって「所有権の登記が転写される」とする本肢は誤りです。
+分割前の甲建物について現に効力を有する所有権の登記がされた後に、当該分割に係る附属建物の新築による表題部の登記事項に関する変更の登記がされていた場合、その所有権の登記は甲建物に対するものであるため、乙建物の登記記録にそのまま転写することはできません。
 
-**たとえば**、甲建物にすでに「所有者はAさんです」という所有権の登記がされた後で、Aさんが敷地内に新しく倉庫を建てて、それを甲建物の附属建物とする表題部の変更登記をしたとします。この倉庫を後日分割して乙建物にしても、既存の所有権登記がそのままコピー（転写）されるわけではなく、「分割によって所有権の登記をしました」という形であらためて記録されることになります。
+この場合、乙建物の登記記録には、分割による所有権の登記をする旨が記録されることになります（不動産登記規則128条2項）。したがって「所有権の登記が転写される」とする本肢は誤りです。
 
-**実務でのケース**：土地家屋調査士のDさんが、依頼者Eさんから「甲建物にはすでに所有権の登記があるが、その後増築で新設した附属建物（倉庫）を、今回、独立した乙建物として分割登記したい」という依頼を受けたとします。事前相談の段階でEさんから「乙建物にも甲建物の所有権登記がそのままコピーされるんですよね？」と質問されたDさんは、実務上は「転写」ではなく、乙建物の登記記録には「分割による所有権の登記をする旨」が新たに記録される仕組みであることを説明し、権利部の記載イメージを示して不安を解消します。分割登記が完了した後、Dさんは乙建物の登記事項証明書を取得し、所有権に関する登記の登記原因が「転写」ではなく「年月日分割」という形で記録されていることを確認したうえでEさんに報告し、案件を終えます。
+**たとえば**、甲建物にすでに「所有者はAさんです」という所有権の登記がされた後で、Aさんが敷地内に新しく倉庫を建てて、それを甲建物の附属建物とする表題部の変更登記をしたとします。
+
+この倉庫を後日分割して乙建物にしても、既存の所有権登記がそのままコピー（転写）されるわけではなく、「分割によって所有権の登記をしました」という形であらためて記録されることになります。
+
+**実務でのケース**：土地家屋調査士のDさんが、依頼者Eさんから「甲建物にはすでに所有権の登記があるが、その後増築で新設した附属建物（倉庫）を、今回、独立した乙建物として分割登記したい」という依頼を受けたとします。
+
+事前相談の段階でEさんから「乙建物にも甲建物の所有権登記がそのままコピーされるんですよね？」と質問されたDさんは、実務上は「転写」ではなく、乙建物の登記記録には「分割による所有権の登記をする旨」が新たに記録される仕組みであることを説明し、権利部の記載イメージを示して不安を解消します。
+
+分割登記が完了した後、Dさんは乙建物の登記事項証明書を取得し、所有権に関する登記の登記原因が「転写」ではなく「年月日分割」という形で記録されていることを確認したうえでEさんに報告し、案件を終えます。
+
+---
 
 ### まとめ
 
@@ -113,7 +153,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -200,8 +248,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -222,7 +270,7 @@ channel anywhere.
 
 エ・オについて、本文の「実務でのケース」で描いた依頼受任から登記完了までの流れを、縦方向の4ステップで俯瞰する個別インフォグラフィック。いずれも portrait 1080×1600px、単一列のステップフロー型。
 
-### 画像1：エ－分筆で地番が変わったら、登記記録はこう変わる
+### 画像1：エ－分割で所在が変わったら、登記記録はこう変わる
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1600 pixels,
@@ -243,7 +291,15 @@ legal citation anywhere on the poster.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -262,11 +318,11 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-分筆で地番が変わったら、
+分割で所在が変わったら、
 登記記録はこう変わる
 
 Subtitle (smaller, centered, 1行):
-平成28年度 午後の部 第13問 肢エ－建物の分割にともなう所在変更の記録
+平成28年度 午後の部 第13問 エ－建物の分割にともなう所在変更の記録
 
 （タイトル・サブタイトルのすぐ下にステップ群を続ける。導入イラスト・導入文の
 ブロックは置かない。矢印でSTEP 1からSTEP 4へ縦につなげる。）
@@ -274,23 +330,25 @@ Subtitle (smaller, centered, 1行):
 --- STEP 1 ---
 Badge: a filled beige circle containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-現地調査で分筆後の地番を確認
-Illustration: An isometric land surveyor figure (土地家屋調査士) holding a
-measuring instrument, standing on a land plot next to a warehouse
-building (倉庫・甲建物の附属建物), comparing it against a 分筆後の測量図
-document.
+建物ごとの敷地の地番を現地で確認
+Illustration: Two adjacent isometric land plots with lot-number tags
+1番 and 2番 separated by a boundary line. The main building (甲建物) stands
+only on lot 1番, and a warehouse (倉庫・甲建物の附属建物) stands only on lot
+2番. A land surveyor figure (土地家屋調査士) holding a measuring instrument
+compares the site against a small 公図 document.
 Caption (small text below, 5-15 Japanese characters):
-分筆後の地番を現地で確認
+敷地の地番を現地で確認
 
 --- STEP 2 ---
 Badge: a filled beige circle containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-甲建物の所在地番も変更が必要と判明
-Illustration: An isometric main building (甲建物) with its address tag
-(所在地番) glowing and about to change from an old label to a new label,
-with a small 分筆 dividing line drawn on the land plot beneath it.
+倉庫を切り離すと甲建物の所在が変わる
+Illustration: The warehouse on lot 2番 is separated from 甲建物 by a dotted
+cut line and becomes a new building labeled 乙建物. Above 甲建物, its
+address tag changes from 「1番地、2番地」 to 「1番地」, shown with a small
+arrow between the two tags.
 Caption (small text below, 5-15 Japanese characters):
-所在地番の変更が必要
+所在が1番地だけに変わる
 
 --- STEP 3 ---
 Badge: a filled beige circle containing the number 3.
@@ -298,9 +356,10 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 申請書を作成し依頼者に説明
 Illustration: An isometric surveyor figure explaining a 建物分割登記申請書
 document to a client figure (依頼者), with a small speech-bubble icon
-containing a simplified registry-card illustration between them.
+containing a simplified registry-card illustration between them. A
+small tag near the application reads 別の変更登記は不要.
 Caption (small text below, 5-15 Japanese characters):
-記録内容を事前に説明
+登記官が分割の中で記録
 
 --- STEP 4 ---
 Badge: a filled beige circle containing the number 4.
@@ -315,12 +374,12 @@ Caption (small text below, 5-15 Japanese characters):
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第13問 肢エ
+平成28年度 午後の部 第13問 エ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 建・物・登・記・録・所・番・地・分・割. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 建・物・登・記・録・所・番・地・分・割. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of steps equals 4 exactly, with
 no duplicated or missing steps, confirm there is no intro illustration or
 paragraph block between the header and STEP 1, confirm every heading
@@ -354,7 +413,15 @@ legal citation anywhere on the poster.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -377,7 +444,7 @@ Title (large, bold, 2行):
 「分割による所有権の登記」
 
 Subtitle (smaller, centered, 1行):
-平成28年度 午後の部 第13問 肢オ－所有権登記が先にある場合の記録方法
+平成28年度 午後の部 第13問 オ－所有権登記が先にある場合の記録方法
 
 （タイトル・サブタイトルのすぐ下にステップ群を続ける。導入イラスト・導入文の
 ブロックは置かない。矢印でSTEP 1からSTEP 4へ縦につなげる。）
@@ -429,13 +496,13 @@ Caption (small text below, 5-15 Japanese characters):
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第13問 肢オ
+平成28年度 午後の部 第13問 オ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建・物・登・記・録・権・転・写・割. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of steps equals 4 exactly, with no
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of steps equals 4 exactly, with no
 duplicated or missing steps, confirm there is no intro illustration or
 paragraph block between the header and STEP 1, confirm STEP 4 shows the
 glowing "分割による所有権の登記" stamp and the crossed-out "転写" arrow as
@@ -451,7 +518,7 @@ background with no transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだときに、5肢それぞれについて「どの順番で何を確認し、どんな図を描けば正誤にたどり着けるか」を示す作図ガイド。ア・イは承諾情報の有無／共用部分の登記の有無で結論が分かれる決定木、ウは売主と買主の関係図、エは登記記録の正誤対比、オは所有権の登記と附属建物の新築の先後を追うタイムラインで構成する。
 
@@ -471,17 +538,17 @@ conditions to get there — isometric icons of a main building (甲建物)
 with an attached warehouse annex (附属建物) being split off into a new
 building (乙建物), a mortgage tag (抵当権), consent and application
 document icons, registry record cards, a registry office counter, and
-simple buyer/seller figures. Panel 1 (肢ア) and Panel 2 (肢イ) each
+simple buyer/seller figures. Panel 1 (ア) and Panel 2 (イ) each
 require checking conditions in sequence, so draw them as actual decision
 flowcharts: diamond-shaped branch nodes with the condition written on
 them, はい/いいえ branch arrows, and a final conclusion node for EACH
 branch. In both of these flowcharts, both the はい side and the いいえ side
 lead to their own separate conclusion node, and no arrow may loop back to
 an earlier node anywhere in the diagram — every branch arrow must end at a
-new conclusion node. Panel 3 (肢ウ) is a relationship diagram between the
-seller and the buyer with numbered checkpoints, Panel 4 (肢エ) is a
+new conclusion node. Panel 3 (ウ) is a relationship diagram between the
+seller and the buyer with numbered checkpoints, Panel 4 (エ) is a
 side-by-side correct-vs-mistaken comparison of registry record cards, and
-Panel 5 (肢オ) is a left-to-right timeline — do not force a flowchart on
+Panel 5 (オ) is a left-to-right timeline — do not force a flowchart on
 Panels 3-5. No two panels in this set share the same decision tree, so
 each panel stands on its own. Where a diagram must show something that
 does not remain (e.g. a mortgage tag that is extinguished on one
@@ -533,7 +600,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line):
 消滅承諾情報があれば抵当権は甲建物だけに残る
@@ -558,7 +625,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 甲建物のみに存続
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line):
 共用部分の登記があると所有者証明が必要になる
@@ -587,7 +654,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 所有者証明が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line):
 附属建物の買主は代位して分割登記を申請できる
@@ -608,7 +675,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 代位申請できる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line):
 所在が変わったら変更前の事項も抹消記号付きで残る
@@ -630,7 +697,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 変更前後を記録
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line):
 所有権の登記が先なら乙建物には転写されない

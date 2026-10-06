@@ -2,51 +2,71 @@
 
 **出題年度：令和3年度　午後の部　第20問**
 
-> 土地家屋調査士又は土地家屋調査士法人に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地家屋調査士法人の解散及び清算は、主たる事務所の所在地を管轄する法務局又は地方法務局の長の監督に属する。
->
-> イ　土地家屋調査士となる資格を有する者が日本土地家屋調査士会連合会に登録申請書を提出するときは、事務所を設けようとする地を管轄する法務局又は地方法務局を経由して提出しなければならない。
->
-> ウ　土地家屋調査士は、補助者を置いたときは、遅滞なく、その旨を所属の土地家屋調査士会及び事務所の所在地を管轄する法務局又は地方法務局の長に届け出なければならない。
->
-> エ　土地家屋調査士は、筆界特定の手続についての代理に関する業務についての事件の依頼を承諾しないときは、速やかに、その旨を依頼者に通知しなければならない。
->
-> オ　土地家屋調査士法人は、正当な事由がある場合でなければ、不動産の表示に関する登記の申請手続の代理の依頼を拒むことはできない。
->
+> 土地家屋調査士又は土地家屋調査士法人に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地家屋調査士法人の解散及び清算は、主たる事務所の所在地を管轄する法務局又は地方法務局の長の監督に属する。  
+>　  
+> イ　土地家屋調査士となる資格を有する者が日本土地家屋調査士会連合会に登録申請書を提出するときは、事務所を設けようとする地を管轄する法務局又は地方法務局を経由して提出しなければならない。  
+>　  
+> ウ　土地家屋調査士は、補助者を置いたときは、遅滞なく、その旨を所属の土地家屋調査士会及び事務所の所在地を管轄する法務局又は地方法務局の長に届け出なければならない。  
+>　  
+> エ　土地家屋調査士は、筆界特定の手続についての代理に関する業務についての事件の依頼を承諾しないときは、速やかに、その旨を依頼者に通知しなければならない。  
+>　  
+> オ　土地家屋調査士法人は、正当な事由がある場合でなければ、不動産の表示に関する登記の申請手続の代理の依頼を拒むことはできない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-土地家屋調査士法の分野は、「誰が監督するのか」「どこを経由するのか」「どこに届け出るのか」といった手続の宛先や、依頼を受ける・断るときのルールを、条文どおりに正確に覚えているかが問われます。似た言葉（法務局・地方法務局・調査士会・連合会・裁判所）が入れ替えられて出題されるので、対応関係を丁寧に押さえておきましょう。
+---
+
+土地家屋調査士法の分野は、「誰が監督するのか」「どこを経由するのか」「どこに届け出るのか」といった手続の宛先や、依頼を受ける・断るときのルールを、条文どおりに正確に覚えているかが問われます。
+
+似た言葉（法務局・地方法務局・調査士会・連合会・裁判所）が入れ替えられて出題されるので、対応関係を丁寧に押さえておきましょう。
 
 ### ア：法人の解散・清算を監督するのは、法務局長ではなく裁判所
 
-土地家屋調査士法人の解散及び清算は、**裁判所**の監督に属します（土地家屋調査士法39条の3第1項）。会社の清算手続と同じように、清算が公正に行われるよう裁判所が見張る仕組みになっているためです。「主たる事務所の所在地を管轄する法務局又は地方法務局の長の監督に属する」とする肢アは、監督機関を取り違えているので誤りです。
+土地家屋調査士法人の解散及び清算は、**裁判所**の監督に属します（土地家屋調査士法39条の3第1項）。会社の清算手続と同じように、清算が公正に行われるよう裁判所が見張る仕組みになっているためです。
+
+「主たる事務所の所在地を管轄する法務局又は地方法務局の長の監督に属する」とするアは、監督機関を取り違えているので誤りです。
 
 **たとえば**、ある調査士法人が解散して財産の後片付け（清算）をするとき、その手続がきちんと進んでいるかをチェックするのは、地元の法務局長ではなく裁判所です。会社をたたむときに裁判所が関わるのと同じイメージだと考えると覚えやすいでしょう。
 
 ### イ：登録申請書が経由するのは、法務局ではなく調査士会
 
-土地家屋調査士となる資格を有する者が登録をするときは、事務所を設けようとする地を管轄する区域の**土地家屋調査士会を経由**して、日本土地家屋調査士会連合会に備える調査士名簿への登録を申請します（土地家屋調査士法9条）。つまり経由先は「調査士会」であって、「法務局又は地方法務局」ではありません。肢イは経由先を法務局にしている点で誤りです。
+土地家屋調査士となる資格を有する者が登録をするときは、事務所を設けようとする地を管轄する区域の**土地家屋調査士会を経由**して、日本土地家屋調査士会連合会に備える調査士名簿への登録を申請します（土地家屋調査士法9条）。
+
+つまり経由先は「調査士会」であって、「法務局又は地方法務局」ではありません。イは経由先を法務局にしている点で誤りです。
 
 **たとえば**、これから開業しようとする合格者が登録の書類を出すとき、いきなり法務局の窓口に持ち込むのではなく、まず地元の調査士会を通して連合会へ届ける、という流れになります。まず身近な業界団体（調査士会）を通す、とイメージすると整理しやすいです。
 
 ### ウ：補助者の届出先は、調査士会だけでよい
 
-土地家屋調査士が補助者を置いたとき（また置かなくなったとき）は、遅滞なく、その旨を**所属の土地家屋調査士会に届け出れば足ります**（土地家屋調査士法施行規則23条2項）。なお、届出を受けた調査士会が管轄法務局又は地方法務局の長へ通知する仕組みになっているため（同条3項）、調査士本人が法務局又は地方法務局の長に別途届け出る必要はありません。「所属の調査士会」に加えて「事務所の所在地を管轄する法務局又は地方法務局の長」にも届け出なければならない、とする肢ウは、不要な届出先を付け加えているので誤りです。
+土地家屋調査士が補助者を置いたとき（また置かなくなったとき）は、遅滞なく、その旨を**所属の土地家屋調査士会に届け出れば足ります**（土地家屋調査士法施行規則23条2項）。
+
+なお、届出を受けた調査士会が管轄法務局又は地方法務局の長へ通知する仕組みになっているため（同条3項）、調査士本人が法務局又は地方法務局の長に別途届け出る必要はありません。
+
+「所属の調査士会」に加えて「事務所の所在地を管轄する法務局又は地方法務局の長」にも届け出なければならない、とするウは、不要な届出先を付け加えているので誤りです。
 
 **たとえば**、調査士事務所が新しく事務のアシスタント（補助者）を1人雇ったときに出す届出は、所属している調査士会あてに1回出せば済みます。わざわざ法務局にも同じ届出を出す必要はありません。
 
 ### エ：依頼を断るときは、速やかにその旨を依頼者へ通知する
 
-土地家屋調査士は、筆界特定の手続についての代理に関する業務の依頼について、その依頼を承諾しないときは、速やかに、承諾しない旨を依頼者に通知しなければなりません（土地家屋調査士法施行規則25条2項）。筆界特定の代理や相談の業務は、後述する通常の登記業務と違って「依頼に応じる義務」までは課されていませんが、断る場合には、依頼者を宙ぶらりんにしないよう速やかな通知が義務づけられています。肢エは正しい記述です。
+土地家屋調査士は、筆界特定の手続についての代理に関する業務の依頼について、その依頼を承諾しないときは、速やかに、承諾しない旨を依頼者に通知しなければなりません（土地家屋調査士法施行規則25条2項）。
 
-**たとえば**、筆界特定の代理をお願いしたいと相談を受けた調査士が「この件は引き受けられません」と判断したときは、返事をあいまいにせず、「お引き受けできません」と依頼者に速やかに伝えなければなりません。断ること自体はできても、黙って放置してはいけない、というルールです。
+筆界特定の代理や相談の業務は、後述する通常の登記業務と違って「依頼に応じる義務」までは課されていませんが、断る場合には、依頼者を宙ぶらりんにしないよう速やかな通知が義務づけられています。エは正しい記述です。
+
+**たとえば**、筆界特定の代理をお願いしたいと相談を受けた調査士が「この件は引き受けられません」と判断したときは、返事をあいまいにせず、「お引き受けできません」と依頼者に速やかに伝えなければなりません。
+
+断ること自体はできても、黙って放置してはいけない、というルールです。
 
 ### オ：調査士法人も、正当な事由がなければ登記代理の依頼を拒めない
 
-土地家屋調査士は、正当な事由がある場合でなければ、業務（筆界特定に関する手続の代理・相談およびＡＤＲ関係の業務を除く）についての依頼を拒むことができません（土地家屋調査士法22条）。この依頼応諾義務を定めた22条は、土地家屋調査士法人にも準用されます（同法41条1項）。したがって、調査士法人も、正当な事由がなければ、不動産の表示に関する登記の申請手続の代理の依頼を拒むことはできません。肢オは正しい記述です。
+土地家屋調査士は、正当な事由がある場合でなければ、業務（筆界特定に関する手続の代理・相談およびＡＤＲ関係の業務を除く）についての依頼を拒むことができません（土地家屋調査士法22条）。
+
+この依頼応諾義務を定めた22条は、土地家屋調査士法人にも準用されます（同法41条1項）。したがって、調査士法人も、正当な事由がなければ、不動産の表示に関する登記の申請手続の代理の依頼を拒むことはできません。オは正しい記述です。
 
 **たとえば**、表示登記の代理をお願いしたいと調査士法人に依頼が来たとき、その法人は「なんとなく気が進まない」といった理由で断ることはできません。断ってよいのは、他の仕事で手が回らないなど、きちんとした（正当な）事由がある場合に限られます。
+
+---
 
 ### まとめ
 
@@ -97,12 +117,29 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. The kanji 地・登・記・所・録・権・
-建・物・号 in particular must be drawn in their standard Japanese (Jōyō)
+summarize, or substitute any characters. The kanji 地・登・記・所・録・建・物 in particular must be drawn in their standard Japanese (Jōyō)
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -183,13 +220,13 @@ illustration, blue, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -204,7 +241,7 @@ read as a short heading + a short conclusion tag, at a glance.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文（ア〜オ5肢）を読んだときに、実際に手を動かして描くべき図と、その図にたどり着くまでにどの順番で何を確認すればよいかを、肢ごとに示す解き方ガイド。アは「監督機関は法務局か裁判所か」という思い込みを正誤対比で示す正誤対比型、イは登録申請書の経由先を左から右へ追う系統図型、ウは「調査士本人の届出先」と「調査士会から法務局への通知」という隠れた2段階を示す系統図型として構成した。エ・オは「依頼された業務が筆界特定の手続についての代理・相談に関する業務か」という共通の分岐点を持つため1つの決定木を共有し、エは「はい」側（応諾義務なし・断るなら速やかに通知）を、オは「いいえ」側（正当事由なければ拒めない・調査士法人にも準用）をそれぞれ強調表示する決定木型として構成した。
 
@@ -251,7 +288,15 @@ element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -277,7 +322,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -300,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 監督は裁判所
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 登録申請書の経由先は法務局でなく調査士会
@@ -321,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 経由は調査士会
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 補助者の届出は調査士会のみで足りる
@@ -343,11 +388,11 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 法務局届出は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 筆界特定関係業務は断るなら速やかに通知
-Diagram: A decision flowchart shared with Panel 5（肢オ）in this set. A
+Diagram: A decision flowchart shared with Panel 5（オ）in this set. A
 single diamond-shaped branch node reads「依頼された業務は、筆界特定の
 手続についての代理・相談に関する業務か？」. In THIS panel, render the
 Yes branch（labeled ○／はい）with a thick highlighted border and full
@@ -357,7 +402,7 @@ and a further arrow leads to a second distinct conclusion node showing a
 next to a fast-ticking clock icon, labeled「承諾しないなら速やかに
 依頼者へ通知」. Render the No branch（labeled ✕／いいえ）in a faded,
 greyed-out, dotted-outline style leading to its own distinct conclusion
-node labeled「正当事由なければ拒めない（肢オを参照）」— do not omit this
+node labeled「正当事由なければ拒めない（オを参照）」— do not omit this
 node, but keep it visually de-emphasized. Do not route any arrow back to
 an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -369,11 +414,11 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 断るなら速やかに通知
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 登記代理業務は正当事由なしに拒めない
-Diagram: The same decision flowchart shared with Panel 4（肢エ）, with
+Diagram: The same decision flowchart shared with Panel 4（エ）, with
 the same diamond-shaped branch node reading「依頼された業務は、筆界特定
 の手続についての代理・相談に関する業務か？」. In THIS panel, render the
 No branch（labeled ✕／いいえ）with a thick highlighted border and full
@@ -384,7 +429,7 @@ second distinct conclusion node showing an isometric「土地家屋調査士
 refusing it, labeled「土地家屋調査士法人にも準用される（法41条1項）」.
 Render the Yes branch（labeled ○／はい）in a faded, greyed-out,
 dotted-outline style leading to its own distinct conclusion node labeled
-「応諾義務はない（肢エを参照）」— do not omit this node, but keep it
+「応諾義務はない（エを参照）」— do not omit this node, but keep it
 visually de-emphasized. Do not route any arrow back to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず「依頼された業務が筆界特定の手続についての代理・相談に関する業務か
@@ -401,9 +446,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 23条2項・3項・25条2項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 監・督・裁・判・所・録・調・査・届・筆・界・拒・準・経・由.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 監・督・裁・判・所・録・調・査・届・筆・界・拒・準・経・由. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

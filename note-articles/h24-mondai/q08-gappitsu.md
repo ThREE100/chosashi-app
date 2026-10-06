@@ -2,51 +2,83 @@
 
 **出題年度：平成24年度　午後の部　第8問**
 
-> 合筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　甲土地にはA及びBを所有権の登記名義人とする所有権の登記があり、乙土地にはB及びCを所有権の登記名義人とする所有権の登記がある場合において、甲土地のA及びBの持分がそれぞれ2分の1であり、乙土地のB及びCの持分もそれぞれ2分の1であるときは、乙土地についてAがCの持分を取得したことを証する情報を提供して、甲土地を乙土地に合筆する合筆の登記を申請することができる。
->
-> イ　甲土地及び乙土地の登記記録の地目がいずれも宅地である場合であっても、甲土地と乙土地の地番区域が異なるときは、甲土地を乙土地に合筆する合筆の登記を申請することはできない。
->
-> ウ　甲土地に承役地についてする地役権の登記がある場合には、甲土地を他の土地に合筆する合筆の登記を申請することはできない。
->
-> エ　甲土地にAを表題部所有者とする表題登記のみがされている場合において、乙土地にAを所有権の登記名義人とする所有権の登記がされたときは、甲土地を乙土地に合筆する合筆の登記を申請することができる。
->
-> オ　甲土地に順位1番及び順位2番の抵当権の登記があり、乙土地に順位1番の抵当権の登記がある場合には、甲土地の順位2番及び乙土地の順位1番の抵当権の登記の登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であっても、甲土地を乙土地に合筆する合筆の登記の申請をすることはできない。
->
+> 合筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　甲土地にはA及びBを所有権の登記名義人とする所有権の登記があり、乙土地にはB及びCを所有権の登記名義人とする所有権の登記がある場合において、甲土地のA及びBの持分がそれぞれ2分の1であり、乙土地のB及びCの持分もそれぞれ2分の1であるときは、乙土地についてAがCの持分を取得したことを証する情報を提供して、甲土地を乙土地に合筆する合筆の登記を申請することができる。  
+>　  
+> イ　甲土地及び乙土地の登記記録の地目がいずれも宅地である場合であっても、甲土地と乙土地の地番区域が異なるときは、甲土地を乙土地に合筆する合筆の登記を申請することはできない。  
+>　  
+> ウ　甲土地に承役地についてする地役権の登記がある場合には、甲土地を他の土地に合筆する合筆の登記を申請することはできない。  
+>　  
+> エ　甲土地にAを表題部所有者とする表題登記のみがされている場合において、乙土地にAを所有権の登記名義人とする所有権の登記がされたときは、甲土地を乙土地に合筆する合筆の登記を申請することができる。  
+>　  
+> オ　甲土地に順位1番及び順位2番の抵当権の登記があり、乙土地に順位1番の抵当権の登記がある場合には、甲土地の順位2番及び乙土地の順位1番の抵当権の登記の登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であっても、甲土地を乙土地に合筆する合筆の登記の申請をすることはできない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　ウオ
+
+---
 
 合筆の登記は、不動産登記法41条に列挙された制限に一つでも該当すると申請できません。「所有者・持分が完全に一致しているか」「地番区域が同じか」「合筆を妨げる権利の登記がないか」という3つの視点で、各肢を丁寧に当てはめていく問題です。
 
 ### ア：名義人・持分を一致させる登記を経ないまま、証明情報の提供だけで合筆はできない
 
-合筆の登記をするためには、合筆しようとする土地の表題部所有者または所有権の登記名義人（共有の場合は持分も含む）が完全に一致していなければなりません（不動産登記法41条3号・4号）。甲土地がA・B（各2分の1）、乙土地がB・C（各2分の1）である場合、名義人の構成が異なるため、そのままでは合筆できません。この状態を解消するには、実際にAがCの持分を取得したことによる持分移転の登記を先に完了させて、登記記録上の名義人・持分を一致させる必要があります。単に「Aが持分を取得したことを証する情報」を提供するだけで、権利移転の登記を経ずに合筆を申請することはできません。
+合筆の登記をするためには、合筆しようとする土地の表題部所有者または所有権の登記名義人（共有の場合は持分も含む）が完全に一致していなければなりません（不動産登記法41条3号・4号）。
 
-**たとえば**、甲土地はA・Bの共有、乙土地はB・Cの共有だったとして、AさんがCさんから乙土地の持分を買い取ったとします。この場合、まず乙土地について「持分移転の登記」を申請してA・Bの共有名義に変更したうえでなければ、甲土地と乙土地を合筆することはできません。
+甲土地がA・B（各2分の1）、乙土地がB・C（各2分の1）である場合、名義人の構成が異なるため、そのままでは合筆できません。
+
+この状態を解消するには、実際にAがCの持分を取得したことによる持分移転の登記を先に完了させて、登記記録上の名義人・持分を一致させる必要があります。
+
+単に「Aが持分を取得したことを証する情報」を提供するだけで、権利移転の登記を経ずに合筆を申請することはできません。
+
+**たとえば**、甲土地はA・Bの共有、乙土地はB・Cの共有だったとして、AさんがCさんから乙土地の持分を買い取ったとします。
+
+この場合、まず乙土地について「持分移転の登記」を申請してA・Bの共有名義に変更したうえでなければ、甲土地と乙土地を合筆することはできません。
 
 ### イ：地目が同じでも、地番区域が異なれば合筆できない
 
-合筆の登記は、地目または地番区域が異なる土地同士では申請することができません（不動産登記法41条2号）。甲土地と乙土地の登記記録上の地目がいずれも宅地であっても、それぞれの地番区域（大字・字など地番を管理する単位区域）が異なる場合には、合筆の登記を申請することはできません。
+合筆の登記は、地目または地番区域が異なる土地同士では申請することができません（不動産登記法41条2号）。
+
+甲土地と乙土地の登記記録上の地目がいずれも宅地であっても、それぞれの地番区域（大字・字など地番を管理する単位区域）が異なる場合には、合筆の登記を申請することはできません。
 
 **たとえば**、甲土地が「〇〇市A町」、乙土地が「〇〇市B町」というように、地番区域を異にする土地であれば、両方とも宅地であっても合筆することはできません。
 
 ### ウ：地役権の登記がある土地同士なら、合筆できる場合がある
 
-合筆の登記は、所有権の登記以外の権利に関する登記がある土地について、原則として申請することができません（不動産登記法41条6号）。しかし、承役地についてする地役権の登記は、この原則の例外として、合筆をしようとするすべての土地に同一内容の地役権の登記があれば合筆が認められます（不動産登記規則105条1号）。つまり、これは「地役権の登記がある土地」と「地役権の登記がない土地」の組合せを禁じるものであり、双方の土地に同一の地役権の登記がある場合にまで、一律に合筆を禁じる規定ではありません。地役権の登記があるというだけで機械的に合筆不可と判断するのは誤りです。
+合筆の登記は、所有権の登記以外の権利に関する登記がある土地について、原則として申請することができません（不動産登記法41条6号）。
+
+しかし、承役地についてする地役権の登記は、この原則の例外として、合筆をしようとするすべての土地に同一内容の地役権の登記があれば合筆が認められます（不動産登記規則105条1号）。
+
+つまり、これは「地役権の登記がある土地」と「地役権の登記がない土地」の組合せを禁じるものであり、双方の土地に同一の地役権の登記がある場合にまで、一律に合筆を禁じる規定ではありません。
+
+地役権の登記があるというだけで機械的に合筆不可と判断するのは誤りです。
 
 **たとえば**、甲土地とこれから合筆しようとする土地の両方に、同じ内容の承役地についての地役権の登記がある場合には、地役権の登記があることを理由に合筆ができないわけではありません。
 
 ### エ：所有権の登記の有無が異なる土地同士は合筆できない
 
-合筆の登記は、所有権の登記がある土地と所有権の登記がない土地との間では申請することができません（不動産登記法41条5号）。甲土地が表題登記のみ（所有権の登記なし）で、乙土地に所有権の登記がある場合、たとえ表題部所有者・所有権登記名義人がいずれもAで一致していても、権利部（所有権に関する登記）の有無という点で状態が異なるため、合筆の登記を申請することはできません。
+合筆の登記は、所有権の登記がある土地と所有権の登記がない土地との間では申請することができません（不動産登記法41条5号）。
 
-**たとえば**、甲土地はAを表題部所有者とする表題登記だけがされていて、乙土地はAが所有権の登記名義人として登記されているとします。名義人は同じAさんでも、甲土地には所有権の登記自体がまだされていないため、このままでは甲土地と乙土地を合筆することはできません。
+甲土地が表題登記のみ（所有権の登記なし）で、乙土地に所有権の登記がある場合、たとえ表題部所有者・所有権登記名義人がいずれもAで一致していても、権利部（所有権に関する登記）の有無という点で状態が異なるため、合筆の登記を申請することはできません。
+
+**たとえば**、甲土地はAを表題部所有者とする表題登記だけがされていて、乙土地はAが所有権の登記名義人として登記されているとします。
+
+名義人は同じAさんでも、甲土地には所有権の登記自体がまだされていないため、このままでは甲土地と乙土地を合筆することはできません。
 
 ### オ：一部の抵当権だけが一致していても、他に一致しない抵当権が残っていれば合筆できない
 
-合筆しようとする土地に抵当権の登記がある場合、原則として合筆はできません（不動産登記法41条6号）が、合筆しようとする全ての土地について、登記の目的・申請の受付年月日及び受付番号・登記原因及びその日付が完全に同一の抵当権（担保権）の登記だけがあるときは、例外的に合筆が認められます（不動産登記規則105条2号）。この問題では、甲土地に順位1番と順位2番の2つの抵当権があり、乙土地には順位1番の抵当権が1つあるだけです。甲土地の順位2番と乙土地の順位1番の抵当権の内容が一致していたとしても、甲土地の順位1番抵当権には乙土地に対応する抵当権がありません。つまり、甲土地には乙土地と一致しない抵当権が残ってしまうため、例外の要件（合筆しようとする全ての土地について、抵当権の内容が完全に一致していること）を満たさず、合筆の登記を申請することはできません。
+合筆しようとする土地に抵当権の登記がある場合、原則として合筆はできません（不動産登記法41条6号）が、合筆しようとする全ての土地について、登記の目的・申請の受付年月日及び受付番号・登記原因及びその日付が完全に同一の抵当権（担保権）の登記だけがあるときは、例外的に合筆が認められます（不動産登記規則105条2号）。
 
-**たとえば**、甲土地には2件の抵当権（順位1番・2番）が付いており、乙土地には1件の抵当権（順位1番）しか付いていないとします。甲土地の順位2番と乙土地の順位1番の抵当権の内容がぴったり一致していても、甲土地の順位1番抵当権に対応するものが乙土地には存在しない以上、この2筆を合筆することはできません。
+この問題では、甲土地に順位1番と順位2番の2つの抵当権があり、乙土地には順位1番の抵当権が1つあるだけです。
+
+甲土地の順位2番と乙土地の順位1番の抵当権の内容が一致していたとしても、甲土地の順位1番抵当権には乙土地に対応する抵当権がありません。
+
+つまり、甲土地には乙土地と一致しない抵当権が残ってしまうため、例外の要件（合筆しようとする全ての土地について、抵当権の内容が完全に一致していること）を満たさず、合筆の登記を申請することはできません。
+
+**たとえば**、甲土地には2件の抵当権（順位1番・2番）が付いており、乙土地には1件の抵当権（順位1番）しか付いていないとします。
+
+甲土地の順位2番と乙土地の順位1番の抵当権の内容がぴったり一致していても、甲土地の順位1番抵当権に対応するものが乙土地には存在しない以上、この2筆を合筆することはできません。
+
+---
 
 ### まとめ
 
@@ -108,13 +140,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 合・筆・地・番・区・域・役・権・持・分・抵・当・順・位 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -178,18 +228,18 @@ Conclusion tag: 双方にあれば合筆可
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -212,10 +262,10 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not force
-a flowchart. Panel 2（肢イ）and Panel 3（肢ウ）each require checking two
+a flowchart. Panel 2（イ）and Panel 3（ウ）each require checking two
 conditions in sequence (地目の一致→地番区域の一致、他の権利の登記の有無→
 双方に同一内容の地役権の登記があるか) and are drawn as true two-step
-decision trees; the other three panels（肢ア・エ・オ）are resolved with a
+decision trees; the other three panels（ア・エ・オ）are resolved with a
 single comparison and use a correct-rule-vs-common-misconception layout or
 a matching illustration instead of a flowchart. Unlike a glanceable
 summary poster, each panel MAY include a short「着眼点」callout box with
@@ -263,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 持分移転登記を経ずに合筆はできない
@@ -283,7 +333,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 移転登記が先
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地目一致だけでは合筆を判定できない
@@ -303,7 +353,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地番区域が違えば不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 双方同一の地役権なら合筆できる
@@ -324,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 双方同一なら合筆可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 所有権登記の有無が異なれば合筆不可
@@ -352,7 +402,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記の有無が壁になる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 抵当権が1件でも不一致なら合筆不可
@@ -389,7 +439,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢イ and 肢ウ are each drawn as an actual flowchart with two branch nodes
+イ and ウ are each drawn as an actual flowchart with two branch nodes
 (not a bare illustration with no visible decision structure) while the
 other panels use a correct-rule-vs-misconception or matching-illustration
 diagram, that each 着眼点 callout states a checking order rather than

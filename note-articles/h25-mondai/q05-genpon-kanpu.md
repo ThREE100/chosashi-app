@@ -2,17 +2,19 @@
 
 **出題年度：平成25年度　午後の部　第5問（改）**
 
-> 書面申請における添付書面（磁気ディスクを除く。）の原本の還付に関する次の記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。
->
-> ア　登記官の調査完了前であっても、請求により、原本の還付を受けることができる。
->
-> イ　原本の還付は、申出により、原本を送付する方法によって受けることができる。
->
-> ウ　土地の分筆の登記の申請書に添付する当該土地の抵当権の登記名義人が当該抵当権を分筆後のいずれかの土地について消滅させることを承諾したことを証する書面の記名押印に係る印鑑に関する証明書は、原本の還付請求の対象となる。
->
-> エ　添付書面が偽造された書面その他の不正な登記の申請のために用いられた疑いがある書面である場合には、当該添付書面の原本の還付を請求することができない。
->
+> 書面申請における添付書面（磁気ディスクを除く。）の原本の還付に関する次の記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　登記官の調査完了前であっても、請求により、原本の還付を受けることができる。  
+>　  
+> イ　原本の還付は、申出により、原本を送付する方法によって受けることができる。  
+>　  
+> ウ　土地の分筆の登記の申請書に添付する当該土地の抵当権の登記名義人が当該抵当権を分筆後のいずれかの土地について消滅させることを承諾したことを証する書面の記名押印に係る印鑑に関する証明書は、原本の還付請求の対象となる。  
+>　  
+> エ　添付書面が偽造された書面その他の不正な登記の申請のために用いられた疑いがある書面である場合には、当該添付書面の原本の還付を請求することができない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イエ　　5　ウエ
+
+---
 
 原本還付は、登記実務で非常によく使う手続ですが、「いつ請求できるか」「どんな書類が対象外か」という細かいルールが試験では頻出です。特に印鑑証明書の扱いは、実務家として必ず押さえておきたいポイントです。
 
@@ -30,7 +32,9 @@
 
 ### ウ：承諾書に添付する印鑑証明書は、原本還付の対象外である
 
-登記の申請書に添付する同意又は承諾を証する書面（本問のような抵当権者の承諾書など）に押した印鑑についての印鑑に関する証明書は、記名押印の真正を担保するために登記所に留め置く必要があるため、原本還付の対象から除かれています。分筆登記に伴う抵当権者の承諾書に添付された印鑑証明書であっても、この扱いは変わりません。
+登記の申請書に添付する同意又は承諾を証する書面（本問のような抵当権者の承諾書など）に押した印鑑についての印鑑に関する証明書は、記名押印の真正を担保するために登記所に留め置く必要があるため、原本還付の対象から除かれています。
+
+分筆登記に伴う抵当権者の承諾書に添付された印鑑証明書であっても、この扱いは変わりません。
 
 **たとえば**、抵当権者Bが「分筆後のどちらか一方の土地から抵当権を消滅させることを承諾します」という書面に実印を押し、それに印鑑証明書を添付して提出したとしても、その印鑑証明書自体は原本還付を受けることができません。
 
@@ -39,6 +43,8 @@
 偽造された書面や、不正な登記の申請に利用された疑いがある書面についても、原本還付の対象から除かれます。こうした書面は、後日の調査や証拠保全の必要性から、登記所に留め置かれる扱いとなっています。
 
 **たとえば**、提出された委任状の印影が実印の印影と食い違っているなど、偽造の疑いがある書面であった場合、その書面の原本を還付してもらうことはできません。
+
+---
 
 ### まとめ
 
@@ -100,12 +106,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 証・郵・還・偽・記 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -175,15 +199,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 4 exactly, with
 no duplicated or missing cards, that badge numbers run 1-4 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 **出題年度：平成25年度　午後の部　第5問**
@@ -202,7 +226,7 @@ tag, at a glance.
 >
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-## インフォグラフィック プロンプト（ア〜エ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -218,18 +242,18 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric registry counters, document stacks,
 filing cabinets, mail trucks, magnifying glasses, and stamps. Panel 1
-（肢ア）is a simple before/after timeline check and does not need a
-diamond-shaped flowchart. Panel 2（肢イ）uses a side-by-side comparison
+（ア）is a simple before/after timeline check and does not need a
+diamond-shaped flowchart. Panel 2（イ）uses a side-by-side comparison
 frame（対比枠型）rather than a flowchart, since the point of this 肢 is
 distinguishing between two equally valid return methods, not a sequential
-condition. Panel 3（肢ウ）must be drawn as a genuine two-diamond decision
+condition. Panel 3（ウ）must be drawn as a genuine two-diamond decision
 flowchart: this 肢 looks at first glance like a single check ("この印鑑
 証明書は原本還付の対象か"), but the article's own body text makes clear a
 second, hidden condition is doing the real work — WHICH document the 印鑑
 証明書 is attached to. Do not flatten this into one check; draw two
 diamond nodes in sequence as specified in the panel below, and render the
 branch that does not apply to 承諾書 in a faded, greyed-out style rather
-than omitting it. Panel 4（肢エ）is resolved by a single check and should
+than omitting it. Panel 4（エ）is resolved by a single check and should
 use a labeled illustrative diagram rather than a forced flowchart. Unlike
 a glanceable summary poster, each panel MAY include a short「着眼点」
 callout box with 1-2 sentences that state the checking ORDER in words
@@ -275,7 +299,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 還付は調査完了を待ってから請求
@@ -293,7 +317,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 調査完了後に請求
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 窓口でも郵送でも受け取れる
@@ -312,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 郵送での還付も可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 承諾書添付の印鑑証明書は対象外
@@ -322,10 +346,10 @@ it. First diamond node (thick highlighted border): この印鑑証明書は、�
 の添付書面に付けたものか、それとも同意・承諾を証する書面（令19条2項等）
 に付けたものか？Render the いいえ（通常の添付書面）branch in a faded,
 greyed-out style leading to a faded conclusion node reading 原則どおり
-還付可能（この肢では関係ない）, and highlight the はい（同意・承諾を証する
-書面）branch with a thick border, leading to a second diamond node (thick
-highlighted border): 規則55条1項ただし書が定める除外事由（令19条2項等の
-印鑑証明書）に当たるか？with a はい arrow leading to a conclusion node
+還付可能, and highlight the はい（同意・承諾を証する
+書面）branch with a thick border, leading to a rectangular check box (NOT a diamond, thick highlighted
+border): 規則55条1項ただし書が定める除外事由（令19条2項等の印鑑証明書）
+に当たる, with a single arrow leading to a conclusion node
 reading 原本の還付を請求できない, shown as the bundle being placed into a
 locked filing-cabinet icon labeled 登記所保管.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -337,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾書添付分は対象外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 偽造・不正利用の疑いは対象外
@@ -347,6 +371,8 @@ mismatched seal icon labeled 偽造の疑い. A single diamond node: 偽造さ�
 leading to the document being placed into the same locked filing-cabinet
 icon labeled 登記所保管 with a conclusion node reading 原本の還付を請求
 できない.
+The いいえ branch (thin, lighter tone) leads to its own conclusion node
+reading 原則どおり原本の還付を請求できる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、その添付書面が偽造されたものである疑いや、不正な登記の申請に利用
 された疑いがあるかどうかを確認します。疑いがあると認められる書面は、後日
@@ -371,7 +397,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 4 exactly, badge numbers run
 1-4 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢ウ is drawn as a genuine
+between the header and the panels, that ウ is drawn as a genuine
 two-diamond flowchart rather than flattened into a single check, that
 each 着眼点 callout states a checking order rather than only a conclusion,
 confirm nothing is rendered below the last panel's footnote text (no

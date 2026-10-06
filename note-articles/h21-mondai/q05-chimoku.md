@@ -2,31 +2,41 @@
 
 **出題年度：平成21年度　午後の部　第5問**
 
-> 次の対話は、地目に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　地目は、土地の用途による分類です。所在、地番及び地積と共に、登記された土地を特定するためのもので、登記記録の表題部に記録されます。
->
-> イ　登記記録に記録する地目は、不動産登記規則に定められている23種類のうちから土地の現況と利用目的により登記官が認定して定めます。この認定に当たり考慮される土地の利用目的は、所有者が主観的に考える利用目的に従って上記の23種類のうちから定まることになります。
->
-> ウ　一筆の土地のうちに現況や利用目的が異なる部分があっても、それが部分的でわずかな差異であるときは、土地全体の状況を見て「畑」又は「雑種地」と判断しますが、土地全体が複合的用途に利用されていると認められるときは、「畑・雑種地」のようにしても差し支えありません。
->
-> エ　表示に関する登記は、不動産の物理的現況を公示するものですので、この場合は、中間の雑種地という地目への変更を経ることなく、直接現在の宅地という地目への地目の変更の登記の申請をすることになります。
->
-> オ　従前の土地に対する利用権は既に仮換地に対する利用権に移っていますので、その仮換地上に建物を建てた場合は、従前の土地の地目を宅地にする地目の変更の登記の申請をすることができます。
->
+> 次の対話は、地目に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　地目は、土地の用途による分類です。所在、地番及び地積と共に、登記された土地を特定するためのもので、登記記録の表題部に記録されます。  
+>　  
+> イ　登記記録に記録する地目は、不動産登記規則に定められている23種類のうちから土地の現況と利用目的により登記官が認定して定めます。この認定に当たり考慮される土地の利用目的は、所有者が主観的に考える利用目的に従って上記の23種類のうちから定まることになります。  
+>　  
+> ウ　一筆の土地のうちに現況や利用目的が異なる部分があっても、それが部分的でわずかな差異であるときは、土地全体の状況を見て「畑」又は「雑種地」と判断しますが、土地全体が複合的用途に利用されていると認められるときは、「畑・雑種地」のようにしても差し支えありません。  
+>　  
+> エ　表示に関する登記は、不動産の物理的現況を公示するものですので、この場合は、中間の雑種地という地目への変更を経ることなく、直接現在の宅地という地目への地目の変更の登記の申請をすることになります。  
+>　  
+> オ　従前の土地に対する利用権は既に仮換地に対する利用権に移っていますので、その仮換地上に建物を建てた場合は、従前の土地の地目を宅地にする地目の変更の登記の申請をすることができます。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-地目は、土地の現況を公示するために表題部に記録される基本的な登記事項です。この問題では、「地目は何を表すのか」「誰がどう認定するのか」「現況が変わったときの登記のしかた」という、地目の基本原則がまとめて問われています。現況主義という考え方を軸に、一つひとつの肢を整理していきましょう。
+---
+
+地目は、土地の現況を公示するために表題部に記録される基本的な登記事項です。
+
+この問題では、「地目は何を表すのか」「誰がどう認定するのか」「現況が変わったときの登記のしかた」という、地目の基本原則がまとめて問われています。現況主義という考え方を軸に、一つひとつの肢を整理していきましょう。
 
 ### ア：地目は土地の用途による分類で、表題部に記録される
 
-地目は、土地をその用途によって分類したもので、所在・地番・地積とともに登記記録の表題部に記録される表示に関する登記事項です（不動産登記法34条1項、地目は同項3号）。これらの記録によって、その土地がどこにあり、どのような性質の土地なのかが公示され、土地を特定・公示する要素として機能します。
+地目は、土地をその用途によって分類したもので、所在・地番・地積とともに登記記録の表題部に記録される表示に関する登記事項です（不動産登記法34条1項、地目は同項3号）。
 
-**たとえば**、「〇〇市〇〇町一丁目1番、宅地、120.00平方メートル」という登記記録を見れば、その土地が住宅の敷地として使われている土地だと分かります。所在や地番だけでなく、地目もあわせて記録されることで、その土地の物理的な姿が公の帳簿に映し出されるのです。
+これらの記録によって、その土地がどこにあり、どのような性質の土地なのかが公示され、土地を特定・公示する要素として機能します。
+
+**たとえば**、「〇〇市〇〇町一丁目1番、宅地、120.00平方メートル」という登記記録を見れば、その土地が住宅の敷地として使われている土地だと分かります。
+
+所在や地番だけでなく、地目もあわせて記録されることで、その土地の物理的な姿が公の帳簿に映し出されるのです。
 
 ### イ：地目は所有者の主観ではなく、客観的な現況と利用目的で登記官が認定する
 
-地目は、不動産登記規則に定められた種類の中から、土地の現況と利用目的に照らして登記官が認定します。ここで考慮される「利用目的」は、あくまで客観的に観察される土地の使われ方であって、所有者が頭の中で「こう使うつもりだ」と主観的に考える意図によって決まるものではありません。
+地目は、不動産登記規則に定められた種類の中から、土地の現況と利用目的に照らして登記官が認定します。
+
+ここで考慮される「利用目的」は、あくまで客観的に観察される土地の使われ方であって、所有者が頭の中で「こう使うつもりだ」と主観的に考える意図によって決まるものではありません。
 
 **たとえば**、所有者が「将来ここに家を建てるつもりだから宅地にしたい」と考えていても、現に一面の畑として耕作されているのであれば、地目は「畑」と認定されます。所有者の心づもりではなく、目に見える現況が基準になるのです。
 
@@ -38,15 +48,23 @@
 
 ### エ：現況が変わったら、中間の地目を経ずに直接現在の地目へ変更登記できる
 
-表示に関する登記は不動産の物理的現況を公示するものです（現況主義）。したがって、地目が変化した場合は、変化の途中でいったん経由したかもしれない中間的な地目をわざわざ登記する必要はなく、現在の現況に合わせて直接その地目への変更登記を申請すればよいことになります。
+表示に関する登記は不動産の物理的現況を公示するものです（現況主義）。
+
+したがって、地目が変化した場合は、変化の途中でいったん経由したかもしれない中間的な地目をわざわざ登記する必要はなく、現在の現況に合わせて直接その地目への変更登記を申請すればよいことになります。
 
 **たとえば**、もとは山林だった土地が、造成の過程で一時的に雑種地のような状態を経て、最終的に宅地になったとします。この場合、「山林→雑種地→宅地」と段階を踏んで登記する必要はなく、現在の現況である「宅地」へ直接地目変更の登記を申請すれば足ります。
 
 ### オ：仮換地上に建物を建てても、従前地の地目を宅地に変更することはできない
 
-土地区画整理事業で仮換地が指定されると利用権は仮換地に移りますが、従前地（もとの土地）の物理的現況そのものが変わるわけではありません。仮換地の上に建物を建てても、それは仮換地の現況の変化にすぎず、従前地の地目を宅地に変更する登記を申請することはできません。
+土地区画整理事業で仮換地が指定されると利用権は仮換地に移りますが、従前地（もとの土地）の物理的現況そのものが変わるわけではありません。
 
-**たとえば**、区画整理で自分の土地（従前地）の代わりに別の場所を仮換地として割り当てられ、その仮換地に家を建てたとします。このとき家が建っているのは仮換地であって従前地ではないため、もとの従前地の登記記録の地目を「宅地」に変更することはできないのです。
+仮換地の上に建物を建てても、それは仮換地の現況の変化にすぎず、従前地の地目を宅地に変更する登記を申請することはできません。
+
+**たとえば**、区画整理で自分の土地（従前地）の代わりに別の場所を仮換地として割り当てられ、その仮換地に家を建てたとします。
+
+このとき家が建っているのは仮換地であって従前地ではないため、もとの従前地の登記記録の地目を「宅地」に変更することはできないのです。
+
+---
 
 ### まとめ
 
@@ -67,10 +85,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題の年度・問題番号・正解番号（2番＝ア・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json＝法務省公式正答を格納）で確認済みです。
 - なお、アプリDBの補足解説（approach）には各肢の正誤の取り違えがあった（正しいのは「アエ」であるところを「エオ」としていた）ため、公式正答に基づいて各肢を判定し直したうえで解説しています。
-- 各肢の条文根拠のうち、地目が所在・地番・地積とともに土地の表題部の登記事項であること（**不動産登記法34条1項**、地目は同項3号）と、地目認定が客観的な現況・利用目的によること（不動産登記規則99条）は条文レベルで裏付けられます。一方、一筆一地目の原則（肢ウ）、中間地目を経ない直接の地目変更（肢エ）、仮換地における従前地の地目変更の可否（肢オ）は、現況主義および土地区画整理の仕組みという一般原則からの説明にとどまり、個別の条文番号までは断定していません。
+- 各肢の条文根拠のうち、地目が所在・地番・地積とともに土地の表題部の登記事項であること（**不動産登記法34条1項**、地目は同項3号）と、地目認定が客観的な現況・利用目的によること（不動産登記規則99条）は条文レベルで裏付けられます。一方、一筆一地目の原則（ウ）、中間地目を経ない直接の地目変更（エ）、仮換地における従前地の地目変更の可否（オ）は、現況主義および土地区画整理の仕組みという一般原則からの説明にとどまり、個別の条文番号までは断定していません。
 - ローカルのアガルート教材については、実行環境に当該フォルダが存在せず参照できなかったため、今回は反映していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（地目の意義・23種類の地目区分と認定基準・一筆一地目の原則・中間地目省略・仮換地上建物と従前地の地目という制度理解型の教授・学生対話形式問題）と同一・類似の問題が再出題されていないかを確認しました。平成30年度第9問も地目に関する教授・学生の対話形式ですが、個別地目（雑種地・学校用地・宅地等）のペア比較を問う内容で論点構成が異なるため、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文を現行法（2026年8月時点）と照合しました。地目を23種類に区分する不動産登記規則99条は現行のままで（太陽光発電施設の敷地なども新設地目ではなく「雑種地」として扱われます）、**各肢の正誤の結論に変更はありません**。あわせて、肢アの根拠条文を訂正しました。従前は「不動産登記法27条」と記載していましたが、27条は表示に関する登記に共通する登記原因等の登記事項を定める規定であって地目の直接の根拠ではないため誤りで、地目が所在・地番・地積とともに土地の表題部の登記事項であることの根拠は**不動産登記法34条1項（地目は同項3号）**です。本文とまとめの該当箇所を34条1項3号に改めました。なお、地目の具体的な認定基準は不動産登記事務取扱手続準則68条・69条にも定められています。
+- **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文を現行法（2026年8月時点）と照合しました。地目を23種類に区分する不動産登記規則99条は現行のままで（太陽光発電施設の敷地なども新設地目ではなく「雑種地」として扱われます）、**各肢の正誤の結論に変更はありません**。あわせて、アの根拠条文を訂正しました。従前は「不動産登記法27条」と記載していましたが、27条は表示に関する登記に共通する登記原因等の登記事項を定める規定であって地目の直接の根拠ではないため誤りで、地目が所在・地番・地積とともに土地の表題部の登記事項であることの根拠は**不動産登記法34条1項（地目は同項3号）**です。本文とまとめの該当箇所を34条1項3号に改めました。なお、地目の具体的な認定基準は不動産登記事務取扱手続準則68条・69条にも定められています。
 
 ---
 
@@ -84,7 +102,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -107,10 +125,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 KANJI ACCURACY WARNING: the characters 地・目・登・記・官・畑・宅・換 appear
 repeatedly in this poster. These are especially easy to render as
@@ -189,22 +225,22 @@ Conclusion tag (short green banner/pill):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 (地目の5論点: 表題部の登記事項・登記官による現況認定・一筆一地目・中間地目の
 省略・仮換地と従前地), with no duplicated or missing cards, confirm there is no
 intro illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-地目に関する各肢を、読者が問題文を読んだ瞬間にどう図解し、どの順番で条件を確認すれば正誤に辿り着けるかを示す作図ガイド。特に肢イ・肢ウは「前半は正しい説明、後半に誤った例外が続く」という複文構造を持つため、決定木で2段階に分けて可視化する。②の俯瞰カードポスターとは別物で、判定の手順そのものを可視化する構成。5パネル、portrait 1080×2600px。
+地目に関する各肢を、読者が問題文を読んだ瞬間にどう図解し、どの順番で条件を確認すれば正誤に辿り着けるかを示す作図ガイド。特にイ・ウは「前半は正しい説明、後半に誤った例外が続く」という複文構造を持つため、決定木で2段階に分けて可視化する。②の俯瞰カードポスターとは別物で、判定の手順そのものを可視化する構成。5パネル、portrait 1080×2600px。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -242,7 +278,7 @@ that state the checking ORDER in words (e.g. "まず〜を確認し、次に〜�
 numbers (article/regulation numbers are fine); keep the callout text as
 written below verbatim, and keep every condition each callout describes
 faithful to the article's own body text — do not drop or merge a
-required element (e.g. keep the compound claim in 肢イ and 肢ウ split into
+required element (e.g. keep the compound claim in イ and ウ split into
 its accurate first half and its incorrect second half, rather than
 merging them into a single verdict).
 
@@ -283,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -302,7 +338,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部の登記事項
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 利用目的は所有者の主観でなく客観的な現況で決まる
@@ -329,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主観では決まらない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 複合的用途でも「畑・雑種地」の複合地目は認められない
@@ -355,7 +391,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 複合地目は不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 現況主義により中間の地目を経ず直接変更登記できる
@@ -372,7 +408,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 直接変更できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 仮換地に建物を建てても従前地の地目は変わらない
@@ -406,7 +442,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that panels 2 and 3 (肢イ・肢ウ) are
+between the header and the panels, that panels 2 and 3 (イ・ウ) are
 each drawn as an actual flowchart with branch nodes separating the
 accurate first half of the claim from its incorrect second half (not a
 bare illustration with no visible decision structure), that both outcomes

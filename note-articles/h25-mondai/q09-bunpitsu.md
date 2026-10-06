@@ -2,37 +2,45 @@
 
 **出題年度：平成25年度　午後の部　第9問**
 
-> 分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうち、どれか。
->
-> ア　地目が畑である土地の分筆の登記を申請する場合には、添付情報として、農業委員会が分筆を許可したことを証する情報を提供しなければならない。
->
-> イ　甲土地の所有権の移転の仮登記の登記名義人は、甲土地の所有権の登記名義人の承諾を証する同人が作成した書面を提供して甲土地の分筆の登記を申請することができる。
->
-> ウ　甲土地の一部が河川法の定める河川区域内の土地となった場合において、その旨の登記を登記所に嘱託するときは、河川管理者は、甲土地の所有権の登記名義人に代わって、甲土地の分筆の登記を登記所に嘱託することができる。
->
-> エ　登記官は、地図を作成するため必要があると認める場合において、甲土地の所有権の登記名義人の異議がないときは、職権で、甲土地の分筆の登記をすることができる。
->
-> オ　区分建物である建物の登記記録の表題部に敷地権の種類として所有権が記録されている場合には、当該敷地権の目的である土地の分筆の登記は、することができない。
->
+> 分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　地目が畑である土地の分筆の登記を申請する場合には、添付情報として、農業委員会が分筆を許可したことを証する情報を提供しなければならない。  
+>　  
+> イ　甲土地の所有権の移転の仮登記の登記名義人は、甲土地の所有権の登記名義人の承諾を証する同人が作成した書面を提供して甲土地の分筆の登記を申請することができる。  
+>　  
+> ウ　甲土地の一部が河川法の定める河川区域内の土地となった場合において、その旨の登記を登記所に嘱託するときは、河川管理者は、甲土地の所有権の登記名義人に代わって、甲土地の分筆の登記を登記所に嘱託することができる。  
+>　  
+> エ　登記官は、地図を作成するため必要があると認める場合において、甲土地の所有権の登記名義人の異議がないときは、職権で、甲土地の分筆の登記をすることができる。  
+>　  
+> オ　区分建物である建物の登記記録の表題部に敷地権の種類として所有権が記録されている場合には、当該敷地権の目的である土地の分筆の登記は、することができない。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
+
+---
 
 分筆の登記は、原則として所有権の登記名義人などが自ら申請する手続ですが、河川区域指定に伴う嘱託や、地図作成のための職権登記など、例外的に他の主体が主導する場面もあります。この問題では、そうした例外パターンの正確な理解が試されています。
 
 ### ア：畑の分筆登記に、農業委員会の許可を証する情報は不要
 
-分筆の登記そのものは、土地の権利関係や利用目的を変更するものではなく、単に区画を分けるだけの手続です。農地法上の許可が必要となるのは、農地の転用や権利移動（売買など）を伴う場合であり、分筆の登記の申請自体に農業委員会の許可を証する情報を添付する必要はありません。
+分筆の登記そのものは、土地の権利関係や利用目的を変更するものではなく、単に区画を分けるだけの手続です。
+
+農地法上の許可が必要となるのは、農地の転用や権利移動（売買など）を伴う場合であり、分筆の登記の申請自体に農業委員会の許可を証する情報を添付する必要はありません。
 
 **たとえば**、畑として登記されている土地を単純に2筆に分ける分筆登記をする場合、その土地の使い方や所有者を変えるわけではないので、農業委員会の許可書を用意する必要はありません。
 
 ### イ：仮登記名義人は、分筆の登記を申請することができない
 
-分筆の登記の申請人となれるのは、表題部所有者又は所有権の登記名義人です。所有権の移転の仮登記の登記名義人は、まだ本登記を得た所有権登記名義人ではないため、たとえ所有権登記名義人の承諾を証する書面を提供したとしても、分筆の登記の申請人としての資格を持ちません。
+分筆の登記の申請人となれるのは、表題部所有者又は所有権の登記名義人です。
+
+所有権の移転の仮登記の登記名義人は、まだ本登記を得た所有権登記名義人ではないため、たとえ所有権登記名義人の承諾を証する書面を提供したとしても、分筆の登記の申請人としての資格を持ちません。
 
 **たとえば**、甲土地についてまだ仮登記の段階にある買主が、正式な所有権登記名義人の承諾書を持っていたとしても、その仮登記名義人自身が分筆の登記を申請することはできません。
 
 ### ウ：河川管理者は、所有権登記名義人に代わって分筆の登記を嘱託できる
 
-土地の一部が河川法の定める河川区域内の土地となった場合、その旨の登記を登記所に嘱託するにあたり、河川管理者は、当該土地の所有権登記名義人に代わって、分筆の登記も併せて登記所に嘱託することができます。これは、河川区域の指定という公共的な事情に基づく特別な取扱いです。
+土地の一部が河川法の定める河川区域内の土地となった場合、その旨の登記を登記所に嘱託するにあたり、河川管理者は、当該土地の所有権登記名義人に代わって、分筆の登記も併せて登記所に嘱託することができます。
+
+これは、河川区域の指定という公共的な事情に基づく特別な取扱いです。
 
 **たとえば**、甲土地の一部が新たに河川区域に指定された場合、その土地の所有者本人が動かなくても、河川管理者の側から「この部分を分筆したうえで河川区域の登記をしてください」と登記所に嘱託することができます。
 
@@ -47,6 +55,8 @@
 区分建物の登記記録の表題部に敷地権の種類として所有権が記録されている場合であっても、その敷地権の目的である土地について、分筆の登記が一律に禁止されているわけではありません。「することができない」と言い切るのは誤りです。
 
 **たとえば**、マンションの敷地権の目的となっている土地であっても、事情によっては、その土地を分筆する登記が認められる場合があります。
+
+---
 
 ### まとめ
 
@@ -108,12 +118,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・登・記・所・権 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -160,7 +188,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 一律禁止ではない
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
-登記所が主導する場合
+名義人以外が主導する場合
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
@@ -187,18 +215,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -214,12 +242,12 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric land plots, rivers, registry desks,
 application documents, official stamps, and condominium buildings. Panel
-1（肢ア）uses a side-by-side comparison frame（対比枠型）rather than a
+1（ア）uses a side-by-side comparison frame（対比枠型）rather than a
 flowchart, because the point of this 肢 is distinguishing a procedure that
 changes land use or rights (requires 農業委員会の許可) from a procedure
-that merely divides the parcel (does not). Panels 2（肢イ）and 3（肢ウ）are
+that merely divides the parcel (does not). Panels 2（イ）and 3（ウ）are
 resolved by a single check each and should use a labeled illustrative
-diagram rather than a forced flowchart. Panel 4（肢エ）must be drawn as a
+diagram rather than a forced flowchart. Panel 4（エ）must be drawn as a
 genuine two-diamond decision flowchart, because the source rule requires
 TWO distinct conditions joined by「において」「ときは」— do not compress
 them into one check: (1) 地図を作成するため必要があると認められること, and
@@ -227,7 +255,7 @@ them into one check: (1) 地図を作成するため必要があると認めら�
 ときに限り」職権による分筆ができるとされているので、render both outcomes
 of the second diamond with their own conclusion nodes (はい: 職権で分筆
 できる; いいえ: 職権ではできない), and do not draw a looping arrow back
-into an earlier node. Panel 5（肢オ）uses a「正誤対比型」layout contrasting
+into an earlier node. Panel 5（オ）uses a「正誤対比型」layout contrasting
 a common misconception with the correct rule, since this 肢 tests precise
 reading of the rule rather than multi-step reasoning. Unlike a glanceable
 summary poster, each panel MAY include a short「着眼点」callout box with
@@ -275,7 +303,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 区画を分けるだけなら許可書不要
@@ -295,7 +323,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 許可書は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 仮登記名義人に申請適格はない
@@ -313,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請資格なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 河川管理者が代わりに嘱託できる
@@ -330,14 +358,14 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 名義人不要で嘱託
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地図作成目的かつ異議なしで職権可
 Diagram: A decision-tree flowchart on an isometric 登記官 character
-standing beside a map icon labeled 地図作成. First diamond node (thick
-highlighted border): 地図を作成するため必要があると登記官が認めるか？with
-a はい arrow proceeding downward. Second diamond node (thick highlighted
+standing beside a map icon labeled 地図作成. First, a rectangular check box
+(NOT a diamond, thick highlighted border): 地図を作成するため必要があると
+登記官が認める, with a single arrow proceeding downward. Then a diamond node (thick highlighted
 border): 所有権の登記名義人の異議はないか？with a はい arrow leading to a
 conclusion node reading 職権で分筆の登記ができる, illustrated by the 登記官
 stamping a 分筆の登記 document with a 職権 seal next to a landowner figure
@@ -352,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 二条件そろえば職権可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 敷地権の土地でも分筆は一律禁止でない

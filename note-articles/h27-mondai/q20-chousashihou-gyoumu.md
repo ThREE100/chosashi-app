@@ -2,51 +2,67 @@
 
 **出題年度：平成27年度　午後の部　第20問**
 
-> 土地家屋調査士又は土地家屋調査士法人の業務に関する次のアからオまでの記述のうち，誤っているものは，幾つあるか。
->
-> ア　業務の禁止の処分を受けた土地家屋調査士は，当該処分の日から3年を経過するまでの間，土地家屋調査士となる資格を失う。
->
-> イ　土地家屋調査士法人は，定款で定めるところにより，当事者その他関係人の依頼を受けて，鑑定人に就任し，土地の筆界に関する鑑定を行う業務をすることができる。
->
-> ウ　土地家屋調査士は，業務を受任しようとする場合には，あらかじめ，その依頼をしようとする者に対し，報酬の基準を示さなければならない。
->
-> エ　土地家屋調査士は，土地の表示に関する登記について必要な測量の業務の依頼を受けた場合において，自ら当該業務を行うことができない正当な事由があるときは，補助者に当該業務を取り扱わせることができる。
->
-> オ　土地家屋調査士は，補助者を置いたときは，遅滞なく，その旨を事務所の所在地を管轄する法務局又は地方法務局の長に届け出なければならない。
->
+> 土地家屋調査士又は土地家屋調査士法人の業務に関する次のアからオまでの記述のうち，誤っているものは，幾つあるか。  
+>　  
+> ア　業務の禁止の処分を受けた土地家屋調査士は，当該処分の日から3年を経過するまでの間，土地家屋調査士となる資格を失う。  
+>　  
+> イ　土地家屋調査士法人は，定款で定めるところにより，当事者その他関係人の依頼を受けて，鑑定人に就任し，土地の筆界に関する鑑定を行う業務をすることができる。  
+>　  
+> ウ　土地家屋調査士は，業務を受任しようとする場合には，あらかじめ，その依頼をしようとする者に対し，報酬の基準を示さなければならない。  
+>　  
+> エ　土地家屋調査士は，土地の表示に関する登記について必要な測量の業務の依頼を受けた場合において，自ら当該業務を行うことができない正当な事由があるときは，補助者に当該業務を取り扱わせることができる。  
+>　  
+> オ　土地家屋調査士は，補助者を置いたときは，遅滞なく，その旨を事務所の所在地を管轄する法務局又は地方法務局の長に届け出なければならない。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
+
+---
 
 この問題は組合せではなく「誤っているものは幾つあるか」を問う個数問題です。調査士本人にしかできない業務、法人でもできる業務、補助者の位置づけといった、土地家屋調査士法・同施行規則の基本ルールを一つずつ確認しましょう。
 
 ### ア：業務禁止処分を受けた調査士は、処分の日から3年間、資格を失う
 
-業務の禁止の処分（土地家屋調査士法42条3号に規定する懲戒処分の一つ）を受けた土地家屋調査士は、その登録が取り消され、処分の日から3年を経過するまでの間は調査士となる資格を有しない欠格事由に該当することになります（同法5条5号）。3年を経過して初めて再登録の途が開かれます。本肢は正しい記述です。
+業務の禁止の処分（土地家屋調査士法42条3号に規定する懲戒処分の一つ）を受けた土地家屋調査士は、その登録が取り消され、処分の日から3年を経過するまでの間は調査士となる資格を有しない欠格事由に該当することになります（同法5条5号）。
+
+3年を経過して初めて再登録の途が開かれます。本肢は正しい記述です。
 
 **たとえば**、懲戒処分として業務禁止を受けた調査士は、その日からすぐに登録し直して開業する、ということはできず、3年間は資格そのものを失った状態になります。
 
 ### イ：土地家屋調査士法人は、定款で定めれば筆界の鑑定業務ができる
 
-土地家屋調査士法人は、通常の調査士業務（同法3条1項1〜6号）を行うほか、定款で定めるところにより、①法令等に基づきすべての調査士が行うことができるものとして法務省令で定める業務、②民間紛争解決手続代理関係業務を行うことができます（同法29条1項）。鑑定人に就任し土地の筆界に関する鑑定を行う業務は、この①の法務省令（土地家屋調査士法施行規則）で定める業務の一つとして、定款で定めることにより調査士法人が行うことができます。本肢は正しい記述です。
+土地家屋調査士法人は、通常の調査士業務（同法3条1項1〜6号）を行うほか、定款で定めるところにより、①法令等に基づきすべての調査士が行うことができるものとして法務省令で定める業務、②民間紛争解決手続代理関係業務を行うことができます（同法29条1項）。
+
+鑑定人に就任し土地の筆界に関する鑑定を行う業務は、この①の法務省令（土地家屋調査士法施行規則）で定める業務の一つとして、定款で定めることにより調査士法人が行うことができます。本肢は正しい記述です。
 
 **たとえば**、境界紛争の裁判で、裁判所や当事者から鑑定人としての意見を求められた場合、調査士法人はあらかじめ定款でその旨を定めておけば、法人として鑑定業務を引き受けることができます。
 
 ### ウ：調査士は、受任前に依頼者へ報酬の基準を示さなければならない
 
-土地家屋調査士は、業務を受任しようとするときは、あらかじめ、依頼をしようとする者に対して、報酬の算定方法その他の報酬の基準を示さなければなりません（土地家屋調査士法施行規則21条）。依頼者が納得したうえで契約できるようにするための情報提供義務です。本肢は正しい記述です。
+土地家屋調査士は、業務を受任しようとするときは、あらかじめ、依頼をしようとする者に対して、報酬の算定方法その他の報酬の基準を示さなければなりません（土地家屋調査士法施行規則21条）。
+
+依頼者が納得したうえで契約できるようにするための情報提供義務です。本肢は正しい記述です。
 
 **たとえば**、土地の測量や表題登記を頼みたいという依頼者に対し、調査士は契約を結ぶ前に「この業務はこういう基準で報酬を計算します」とあらかじめ示す必要があります。
 
 ### エ：正当な事由があっても、補助者に業務そのものを取り扱わせることはできない
 
-土地家屋調査士は、他人にその業務を取り扱わせてはならないとされています（土地家屋調査士法施行規則22条）。この制限は補助者についても同様であり、補助者に登記の申請情報の作成・提供、登記識別情報の受領、申請情報の補正といった業務そのものを行わせることはできず、たとえ自ら業務を行うことができない正当な事由があったとしても、補助者に業務を取り扱わせることは認められません。したがって「補助者に当該業務を取り扱わせることができる」とする本肢は誤りです。
+土地家屋調査士は、他人にその業務を取り扱わせてはならないとされています（土地家屋調査士法施行規則22条）。
+
+この制限は補助者についても同様であり、補助者に登記の申請情報の作成・提供、登記識別情報の受領、申請情報の補正といった業務そのものを行わせることはできず、たとえ自ら業務を行うことができない正当な事由があったとしても、補助者に業務を取り扱わせることは認められません。
+
+したがって「補助者に当該業務を取り扱わせることができる」とする本肢は誤りです。
 
 **たとえば**、体調不良などの正当な理由で調査士本人が測量業務を行えない場合であっても、その業務を補助者に代わりにやらせてよい、ということにはなりません。業務は調査士自身が責任を持って行う必要があります。
 
 ### オ：補助者を置いたときの届出先は、法務局長ではなく調査士会
 
-土地家屋調査士は、業務の補助をさせるために補助者を置くことができますが、補助者を置いたとき（または置かなくなったとき）は、遅滞なく、その旨を、事務所の所在地を管轄する法務局・地方法務局の長にではなく、その所属する土地家屋調査士会に届け出なければなりません（土地家屋調査士法施行規則23条1項・2項）。したがって「法務局又は地方法務局の長に届け出なければならない」とする本肢は誤りです。
+土地家屋調査士は、業務の補助をさせるために補助者を置くことができますが、補助者を置いたとき（または置かなくなったとき）は、遅滞なく、その旨を、事務所の所在地を管轄する法務局・地方法務局の長にではなく、その所属する土地家屋調査士会に届け出なければなりません（土地家屋調査士法施行規則23条1項・2項）。
+
+したがって「法務局又は地方法務局の長に届け出なければならない」とする本肢は誤りです。
 
 **たとえば**、事務所に新しく補助者を採用した調査士は、その届出を法務局に直接出すのではなく、所属している土地家屋調査士会に提出します。
+
+---
 
 ### まとめ
 
@@ -110,14 +126,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 業・務・禁・止・処・分・調・査・士・法・人・格・鑑・定・依・頼・報・酬・基
-・準・示・義・補・助・者・届・出・地・方 —
+kanji 業・務・禁・止・処・分・調・査・士・法・人・格・鑑・定・依・頼・報・酬・基・準・示・補・助・者・届・出・地 —
 these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -198,20 +231,20 @@ these 5 headings):
 5. 補助者設置の届出先は調査士会
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。この問題の5肢はいずれも1回の確認で結論に至る肢のため、無理にフローチャート化せず、タイムライン図・系統図・正誤対比図を肢ごとに使い分けて構成した。
 
@@ -286,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled green circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -303,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 処分日から3年間資格喪失
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 調査士法人の鑑定業務の根拠を確認する
@@ -321,7 +354,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 定款規定で鑑定業務可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line):
 報酬基準は受任前に示す義務がある
@@ -337,7 +370,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 受任前に基準を提示
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 正当な事由でも補助者に業務は任せられない
@@ -356,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 正当事由でも不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line):
 補助者設置の届出先は調査士会

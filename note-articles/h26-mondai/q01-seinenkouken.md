@@ -2,19 +2,21 @@
 
 **出題年度：平成26年度　午後の部　第1問**
 
-> 成年後見，保佐又は補助に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　成年被後見人は，意思能力のある状態で日常生活に関する法律行為をした場合であっても，その法律行為を取り消すことができる。
->
-> イ　本人以外の者の請求により後見開始，保佐開始又は補助開始の審判をする場合には，いずれの場合も本人の同意がなければならない。
->
-> ウ　被保佐人が行為能力者であることを信じさせるため詐術を用いたときは，その行為を取り消すことができない。
->
-> エ　成年被後見人が事理を弁識する能力を欠く常況にないこととなった場合には，後見開始の審判は直ちに失効し，成年被後見人は行為能力を回復する。
->
-> オ　成年後見人は財産に関する法律行為一般について代理権を有し，保佐人及び補助人は家庭裁判所の審判により付与された特定の法律行為について代理権を有する。
->
+> 成年後見，保佐又は補助に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　成年被後見人は，意思能力のある状態で日常生活に関する法律行為をした場合であっても，その法律行為を取り消すことができる。  
+>　  
+> イ　本人以外の者の請求により後見開始，保佐開始又は補助開始の審判をする場合には，いずれの場合も本人の同意がなければならない。  
+>　  
+> ウ　被保佐人が行為能力者であることを信じさせるため詐術を用いたときは，その行為を取り消すことができない。  
+>　  
+> エ　成年被後見人が事理を弁識する能力を欠く常況にないこととなった場合には，後見開始の審判は直ちに失効し，成年被後見人は行為能力を回復する。  
+>　  
+> オ　成年後見人は財産に関する法律行為一般について代理権を有し，保佐人及び補助人は家庭裁判所の審判により付与された特定の法律行為について代理権を有する。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
+
+---
 
 成年後見・保佐・補助は、判断能力の程度に応じて用意された3段階の制度です。この分野は「誰が」「どこまで」取消し・同意・代理をできるのかという制度ごとの違いを正確に覚えているかが問われます。
 
@@ -26,27 +28,43 @@
 
 ### イ：本人の同意が必要なのは補助開始の審判だけ
 
-本人以外の者（親族など）の請求によって審判をする場合、本人の同意が必須とされているのは補助開始の審判だけです（民法15条2項）。補助は判断能力の低下が軽度な人を対象とする制度なので、本人の意思を特に尊重する仕組みになっています。これに対して、後見開始・保佐開始の審判では、本人の同意は要件になっていません。
+本人以外の者（親族など）の請求によって審判をする場合、本人の同意が必須とされているのは補助開始の審判だけです（民法15条2項）。
 
-**たとえば**、判断能力がかなり低下したお父さんについて子どもが後見開始の審判を申し立てる場合、お父さん本人の同意が得られなくても審判をすることができます。一方、判断能力の低下が軽い場合に子どもが補助開始の審判を申し立てるときは、お父さん本人が「補助を受けます」と同意していなければ、審判をすることはできません。
+補助は判断能力の低下が軽度な人を対象とする制度なので、本人の意思を特に尊重する仕組みになっています。これに対して、後見開始・保佐開始の審判では、本人の同意は要件になっていません。
+
+**たとえば**、判断能力がかなり低下したお父さんについて子どもが後見開始の審判を申し立てる場合、お父さん本人の同意が得られなくても審判をすることができます。
+
+一方、判断能力の低下が軽い場合に子どもが補助開始の審判を申し立てるときは、お父さん本人が「補助を受けます」と同意していなければ、審判をすることはできません。
 
 ### ウ：行為能力者だとだまして契約させた場合、あとから取り消すことはできなくなる
 
-制限行為能力者が「自分は行為能力者だ（後見や保佐を受けていない）」と相手を信じさせるために詐術を用いたときは、その法律行為を取り消すことができなくなります（民法21条）。制限行為能力者を保護する制度を、逆手にとって相手をだます行為まで保護する必要はないためです。
+制限行為能力者が「自分は行為能力者だ（後見や保佐を受けていない）」と相手を信じさせるために詐術を用いたときは、その法律行為を取り消すことができなくなります（民法21条）。
 
-**たとえば**、被保佐人であるAさんが、不動産業者に「自分は保佐なんて受けていない、普通に契約できる」と偽の証明書を見せるなどして信じ込ませ、保佐人の同意なしに土地の売買契約を結んだとします。この場合、あとになってAさんや保佐人がその契約を取り消すことはできません。
+制限行為能力者を保護する制度を、逆手にとって相手をだます行為まで保護する必要はないためです。
+
+**たとえば**、被保佐人であるAさんが、不動産業者に「自分は保佐なんて受けていない、普通に契約できる」と偽の証明書を見せるなどして信じ込ませ、保佐人の同意なしに土地の売買契約を結んだとします。
+
+この場合、あとになってAさんや保佐人がその契約を取り消すことはできません。
 
 ### エ：後見開始の審判は、家庭裁判所が取り消さない限り効力を失わない
 
-成年被後見人の判断能力が実際に回復し、事理を弁識する能力を欠く常況ではなくなったとしても、それだけで後見開始の審判が当然に失効するわけではありません。後見開始の審判の効力をなくすには、家庭裁判所による後見開始の審判の取消しという手続を経る必要があります（民法10条）。
+成年被後見人の判断能力が実際に回復し、事理を弁識する能力を欠く常況ではなくなったとしても、それだけで後見開始の審判が当然に失効するわけではありません。
+
+後見開始の審判の効力をなくすには、家庭裁判所による後見開始の審判の取消しという手続を経る必要があります（民法10条）。
 
 **たとえば**、成年被後見人であったおじいさんの認知症の症状が治療によって大きく改善し、日常の判断ができるようになったとしても、家庭裁判所が改めて「後見開始の審判を取り消す」という審判をしない限り、おじいさんは法律上は依然として成年被後見人のままであり、行為能力を回復したことにはなりません。
 
 ### オ：成年後見人は包括的な代理権、保佐人・補助人は審判で与えられた範囲の代理権
 
-成年後見人は、成年被後見人の財産に関する法律行為について、包括的な代理権を有しています（民法859条1項）。これに対して、保佐人・補助人は、家庭裁判所の審判によって個別に代理権を付与された特定の法律行為についてのみ、代理権を有します（民法876条の4、876条の9）。
+成年後見人は、成年被後見人の財産に関する法律行為について、包括的な代理権を有しています（民法859条1項）。
 
-**たとえば**、成年後見人であるCさんは、成年被後見人であるAさんの不動産の売却から預貯金の管理まで、財産に関する行為全般を代理することができます。一方、保佐人であるDさんは、家庭裁判所の審判で「不動産の売却について代理権を付与する」と定められていなければ、Aさんに代わって不動産を売却する代理行為をすることはできません。
+これに対して、保佐人・補助人は、家庭裁判所の審判によって個別に代理権を付与された特定の法律行為についてのみ、代理権を有します（民法876条の4、876条の9）。
+
+**たとえば**、成年後見人であるCさんは、成年被後見人であるAさんの不動産の売却から預貯金の管理まで、財産に関する行為全般を代理することができます。
+
+一方、保佐人であるDさんは、家庭裁判所の審判で「不動産の売却について代理権を付与する」と定められていなければ、Aさんに代わって不動産を売却する代理行為をすることはできません。
+
+---
 
 ### まとめ
 
@@ -109,12 +127,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 後・見・佐・補・助・権・審・判・欠・格 — these must be rendered in
+kanji 後・見・佐・補・助・権・審・判 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -197,18 +233,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -226,15 +262,15 @@ conditions to get there — a convenience-store scene for 日常生活行為, th
 small family-court buildings side by side labeled 後見開始・保佐開始・
 補助開始 for the type-classification panel, a fake certificate for 詐術,
 and a split scene contrasting 成年後見人 and 保佐人・補助人 for the
-代理権の範囲 panel. Panel 2 (肢イ) requires checking which of the three
+代理権の範囲 panel. Panel 2 (イ) requires checking which of the three
 proceedings (後見・保佐・補助) is at issue, so draw it as an actual
-decision flowchart with a three-way branch diamond. Panel 4 (肢エ)
+decision flowchart with a three-way branch diamond. Panel 4 (エ)
 requires checking two conditions in sequence (判断能力の回復の有無、家庭
 裁判所の取消審判の有無), so draw it as an actual two-diamond decision
 flowchart. This article's 5 肢 do not share a common fact pattern with
 each other, so there is no shared tree shape to reuse across panels;
 design each panel independently. Where a 肢 is resolved by a single check
-(肢ア・肢ウ・肢オ), a labeled illustrative diagram is sufficient — do not
+(ア・ウ・オ), a labeled illustrative diagram is sufficient — do not
 force a flowchart. Unlike a glanceable summary poster, each panel MAY
 include a short「着眼点」callout box with 1-2 sentences that state the
 checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
@@ -245,7 +281,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -269,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 日用品の購入は意思能力に関係なく取消し不可
@@ -286,7 +330,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取消しの対象外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 本人の同意が必須なのは補助開始だけ
@@ -305,7 +349,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 補助だけ同意必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 だましたら取消権を失う
@@ -322,16 +366,16 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 詐術で取消不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 後見終了は裁判所の取消審判だけ
-Diagram: A decision-tree flowchart. Start node: 成年被後見人の判断能力が
-実際に回復した（事理を弁識する能力を欠く常況ではなくなった）。Diamond
-node: 判断能力が回復しただけで後見開始の審判は当然に失効するか？with a
-いいえ arrow leading to a second diamond node (highlighted): 家庭裁判所が
-後見開始の審判を取り消す審判をしたか？with a いいえ arrow leading to a
-conclusion node showing an elderly man character whose head icon shows
+Diagram: A check flow of rectangular boxes (no diamonds), top to bottom.
+Start node: 成年被後見人の判断能力が実際に回復した（事理を弁識する能力を欠く
+常況ではなくなった）。A single arrow leads to check box 1: 判断能力が回復した
+だけでは後見開始の審判は失効しない. A single arrow leads to check box 2
+(highlighted): 家庭裁判所が後見開始の審判を取り消す審判をしたかを確かめる
+（本肢ではまだしていない）. A single arrow leads to a conclusion node showing an elderly man character whose head icon shows
 判断能力が回復 crossed out with a red X over 行為能力の自動回復、while a
 family-court building icon holds a document labeled 後見開始の審判の取消
 with a checkmark showing this formal step is the only way to end the
@@ -344,7 +388,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 自動回復はしない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 後見人は包括代理、保佐等は個別代理
@@ -371,13 +415,13 @@ Small footnote text (bottom of panel, small font, verbatim):
 補助人の代理権）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 後, 見, 佐, 補, 助, 権, 審, 判, 欠, 詐, 術, 家, 庭, 裁, 所. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 後, 見, 佐, 補, 助, 権, 審, 判, 欠, 詐, 術, 家, 庭, 裁, 所. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢
-(肢イ・肢エ) is drawn as an actual flowchart with branch nodes (not a bare
+(イ・エ) is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点 callout
 states a checking order rather than only a conclusion, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no

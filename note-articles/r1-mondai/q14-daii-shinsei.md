@@ -2,51 +2,73 @@
 
 **出題年度：令和元年度　午後の部　第14問**
 
-> 登記の代位申請に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地区画整理事業の施行者は、土地区画整理事業の施行のために必要がある場合においても、所有権の登記名義人に代位して、土地の分筆又は合筆の登記を申請することはできない。
->
-> イ　一筆の土地の一部について地役権の設定を受けた地役権者は、当該土地の所有権の登記名義人に代位して、その一部分を分筆する分筆の登記を申請することができる。
->
-> ウ　一筆の土地の一部について処分禁止の仮処分命令を得た債権者は、当該仮処分命令の正本を代位原因を証する情報として、当該土地の所有権の登記名義人である債務者に代位して、その一部分を分筆する分筆の登記を申請することができる。
->
-> エ　一筆の土地について相続人Ａ及びＢを所有権の登記名義人とする法定相続分に応じた相続による所有権の移転の登記がされた後に、当該土地を二筆に分筆してＡ及びＢがそれぞれ一筆ずつ取得する内容の遺産分割調停が成立した場合には、当該遺産分割調停の調停調書の正本を代位原因を証する情報として、Ａは、単独で、Ｂに代位して、当該土地の分筆の登記を申請することができる。
->
-> オ　Ａ及びＢが所有権の登記名義人であり、地目が農地である土地について、農地法所定の許可を受けた上で宅地としたにもかかわらず、Ｂが地目の変更の登記の申請に応じないときは、Ａは、Ｂに代位して、当該土地の地目の変更の登記を申請することができる。
->
+> 登記の代位申請に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地区画整理事業の施行者は、土地区画整理事業の施行のために必要がある場合においても、所有権の登記名義人に代位して、土地の分筆又は合筆の登記を申請することはできない。  
+>　  
+> イ　一筆の土地の一部について地役権の設定を受けた地役権者は、当該土地の所有権の登記名義人に代位して、その一部分を分筆する分筆の登記を申請することができる。  
+>　  
+> ウ　一筆の土地の一部について処分禁止の仮処分命令を得た債権者は、当該仮処分命令の正本を代位原因を証する情報として、当該土地の所有権の登記名義人である債務者に代位して、その一部分を分筆する分筆の登記を申請することができる。  
+>　  
+> エ　一筆の土地について相続人Ａ及びＢを所有権の登記名義人とする法定相続分に応じた相続による所有権の移転の登記がされた後に、当該土地を二筆に分筆してＡ及びＢがそれぞれ一筆ずつ取得する内容の遺産分割調停が成立した場合には、当該遺産分割調停の調停調書の正本を代位原因を証する情報として、Ａは、単独で、Ｂに代位して、当該土地の分筆の登記を申請することができる。  
+>　  
+> オ　Ａ及びＢが所有権の登記名義人であり、地目が農地である土地について、農地法所定の許可を受けた上で宅地としたにもかかわらず、Ｂが地目の変更の登記の申請に応じないときは、Ａは、Ｂに代位して、当該土地の地目の変更の登記を申請することができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-代位申請は、他人（債務者）の登記申請権を、債権者が代わって行使する制度です。カギになるのは「自分の権利を実現するために、その登記をどうしても前提として必要とするか（保全の必要性があるか）」という視点。分筆しないと自分の権利が守れない場面なのか、それとも代位を使うまでもなく自分で申請できる場面なのかを見極めていきましょう。
+---
+
+代位申請は、他人（債務者）の登記申請権を、債権者が代わって行使する制度です。カギになるのは「自分の権利を実現するために、その登記をどうしても前提として必要とするか（保全の必要性があるか）」という視点。
+
+分筆しないと自分の権利が守れない場面なのか、それとも代位を使うまでもなく自分で申請できる場面なのかを見極めていきましょう。
 
 ### ア：土地区画整理事業の施行者は、代位して分筆・合筆の登記を申請できる
 
-土地区画整理事業を施行する者は、事業の施行のために必要がある場合には、所有権の登記名義人に代位して、土地の分筆または合筆の登記を申請することができます（土地区画整理法82条1項、土地区画整理登記令2条）。事業を円滑に進めるための特則が用意されているわけです。したがって「申請することはできない」とする本肢は誤りです。
+土地区画整理事業を施行する者は、事業の施行のために必要がある場合には、所有権の登記名義人に代位して、土地の分筆または合筆の登記を申請することができます（土地区画整理法82条1項、土地区画整理登記令2条）。
+
+事業を円滑に進めるための特則が用意されているわけです。したがって「申請することはできない」とする本肢は誤りです。
 
 **たとえば**、区画整理でまちの区画を整えるとき、地権者一人ひとりに「あなたの土地を分けてください」と申請してもらうのを待っていては事業が進みません。そこで施行者が地権者に代わって分筆・合筆の登記を申請できる、という仕組みが用意されているのです。
 
 ### イ：地役権者は、分筆の登記を代位申請できない
 
-地役権は、一筆の土地の一部についても設定することができます。つまり地役権者は、わざわざ土地を分筆しなくても自己の地役権設定登記請求権を保全できるため、分筆を前提としてどうしても必要とする関係にはありません。保全の必要性が欠ける以上、代位による分筆の登記を申請することはできません（民法423条）。本肢は「申請することができる」としている点が誤りです。
+地役権は、一筆の土地の一部についても設定することができます。つまり地役権者は、わざわざ土地を分筆しなくても自己の地役権設定登記請求権を保全できるため、分筆を前提としてどうしても必要とする関係にはありません。
 
-**たとえば**、他人の土地の一部を通路として使わせてもらう地役権を設定してもらう場合、その一部だけを切り出して分筆しなくても、土地の一部を範囲とする地役権として登記できます。だから「分筆しないと権利が守れない」という関係にはなく、代位で分筆まで踏み込む必要がないのです。
+保全の必要性が欠ける以上、代位による分筆の登記を申請することはできません（民法423条）。本肢は「申請することができる」としている点が誤りです。
+
+**たとえば**、他人の土地の一部を通路として使わせてもらう地役権を設定してもらう場合、その一部だけを切り出して分筆しなくても、土地の一部を範囲とする地役権として登記できます。
+
+だから「分筆しないと権利が守れない」という関係にはなく、代位で分筆まで踏み込む必要がないのです。
 
 ### ウ：一部処分禁止の仮処分債権者は、代位して分筆の登記を申請できる
 
-一筆の土地の一部について処分禁止の仮処分命令を得た債権者は、その仮処分の登記をするための前提として、代位による土地の分筆の登記を申請することができます。このとき、仮処分命令の正本を代位原因を証する情報として提供すれば足ります。土地の一部を対象とする仮処分を実現するには、まずその一部を独立の一筆にする分筆が不可欠だからです。本肢は正しい記述です。
+一筆の土地の一部について処分禁止の仮処分命令を得た債権者は、その仮処分の登記をするための前提として、代位による土地の分筆の登記を申請することができます。
+
+このとき、仮処分命令の正本を代位原因を証する情報として提供すれば足ります。土地の一部を対象とする仮処分を実現するには、まずその一部を独立の一筆にする分筆が不可欠だからです。本肢は正しい記述です。
 
 **たとえば**、争いのある土地のうち一部分だけを「勝手に処分しないで」と仮処分で押さえたい場合、その一部を独立の土地として切り出さないと仮処分の登記ができません。そこで債権者が所有者に代わって、まず分筆の登記を申請できる、というわけです。
 
 ### エ：遺産分割調停が成立すれば、相続人Ａは単独でＢに代位して分筆できる
 
-共同相続の登記がされた土地について、これを分筆したうえで各相続人の単有とする内容の遺産分割の調停が成立したものの、他の相続人が分筆の登記の申請に協力してくれないことがあります。このときは、調停調書の正本または謄本を代位原因を証する情報として、代位により分筆の登記を申請することができます（先例による）。したがって、AはBに代位して単独で分筆の登記を申請できるとする本肢は正しい記述です。
+共同相続の登記がされた土地について、これを分筆したうえで各相続人の単有とする内容の遺産分割の調停が成立したものの、他の相続人が分筆の登記の申請に協力してくれないことがあります。
 
-**たとえば**、AさんとBさんが共有で相続した一筆の土地を、「二つに分けてそれぞれ一筆ずつ取る」という調停がまとまったのに、Bさんが分筆の手続に付き合ってくれない、という場面です。このときAさんは、調停調書を代位原因の証明として、Bさんに代わって分筆の登記を進めることができます。
+このときは、調停調書の正本または謄本を代位原因を証する情報として、代位により分筆の登記を申請することができます（先例による）。したがって、AはBに代位して単独で分筆の登記を申請できるとする本肢は正しい記述です。
+
+**たとえば**、AさんとBさんが共有で相続した一筆の土地を、「二つに分けてそれぞれ一筆ずつ取る」という調停がまとまったのに、Bさんが分筆の手続に付き合ってくれない、という場面です。
+
+このときAさんは、調停調書を代位原因の証明として、Bさんに代わって分筆の登記を進めることができます。
 
 ### オ：共有地の地目変更は保存行為として単独で申請でき、代位の必要がない
 
-A・Bが共有する土地の地目の変更の登記は、表示に関する登記であり、保存行為として共有者の一人から申請することができます（民法252条5項）。つまりAは、Bが協力しなくても、自ら単独で地目の変更の登記を申請できます。わざわざBに代位する必要はなく、代位による申請という構成もとれません。本肢は「Ｂに代位して申請することができる」としている点で誤りです。
+A・Bが共有する土地の地目の変更の登記は、表示に関する登記であり、保存行為として共有者の一人から申請することができます（民法252条5項）。
 
-**たとえば**、AさんとBさんの共有の農地を、農地法の許可を得て宅地にしたのにBさんが地目変更の登記に応じてくれない場合でも、地目変更はいわば土地の現況を正しく記録するだけの保存行為なので、Aさんが自分の名で単独で申請できます。Bさんの権利を代わりに行使する「代位」を持ち出すまでもない、ということです。
+つまりAは、Bが協力しなくても、自ら単独で地目の変更の登記を申請できます。わざわざBに代位する必要はなく、代位による申請という構成もとれません。本肢は「Ｂに代位して申請することができる」としている点で誤りです。
+
+**たとえば**、AさんとBさんの共有の農地を、農地法の許可を得て宅地にしたのにBさんが地目変更の登記に応じてくれない場合でも、地目変更はいわば土地の現況を正しく記録するだけの保存行為なので、Aさんが自分の名で単独で申請できます。
+
+Bさんの権利を代わりに行使する「代位」を持ち出すまでもない、ということです。
+
+---
 
 ### まとめ
 
@@ -67,11 +89,11 @@ A・Bが共有する土地の地目の変更の登記は、表示に関する登
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ア（土地区画整理法82条1項・土地区画整理登記令2条）、イの代位の枠組み（民法423条）、オの保存行為（民法252条5項）、エ（平2.4.24民三1528号）は、データベースの解説で条文・先例番号まで確認できたものです。一方、ウの仮処分債権者による代位分筆については、データベースの解説では「代位により分筆の登記を申請できる」とされているものの、根拠となる個別の先例番号までは明示されておらず、代位の一般原則（保全の必要性）からの説明にとどまっています。なお、オについて本文で「不登法30条」も根拠として引用していましたが、同条は「一般承継人による申請」（相続人等が表示に関する登記を申請できる旨）を定める規定であり、共有者の保存行為による単独申請の根拠にはならないため、`laws/fudousan-touki-hou.md`での条文確認を踏まえて本文からこの条番号を削除し、民法252条5項のみを根拠とする記載に修正しました。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（登記の代位申請）と同一・類似の問題が再出題されていないかを確認しました。候補は令和6年度第11問の1問のみですが、同問エ（甲土地の一部に地役権を設定したBが、Aに代位して分筆の登記を申請できない）は本問イ（地役権者は代位して分筆の登記を申請できない、地役権は土地の一部にも設定できるため保全の必要性がない）とほぼ同一の事案・結論であり、また同問オ（共有建物の床面積変更登記についてBが協力しなくても保存行為としてAが単独で申請できるため代位の必要がない）は本問オ（共有地の地目変更は保存行為として単独申請でき代位は不要）と同一の法的枠組み（民法252条5項）を異なる登記に適用したものです。**部分的に類似する記述があります**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令への準拠チェック（2026年8月実施）**：民法423条（代位）、土地区画整理法82条1項、先例（平2.4.24民三1528号）は、いずれも条文番号・内容ともに現行法で通用することをWebSearchで確認しました。一方、肢オ・確認事項ブロックで引用していた「民法252条ただし書」は、令和3年民法改正（令和5年4月1日施行、共有制度改正）により保存行為の根拠規定が「民法252条5項」に条番号変更されているため、本文・まとめ・確認事項ブロックの該当箇所をすべて「民法252条5項」に修正しました。各肢の正誤判定・正解の組合せ（ウエ）自体に変更はありません。
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。肢オの本文・確認事項ブロックで根拠として引用していた「不登法30条」を`laws/fudousan-touki-hou.md`の条文原文と突き合わせたところ、同条は「一般承継人による申請」を定める規定であり、共有者の保存行為による単独申請の根拠としては条文の内容が一致しないミスマッチが見つかったため、本文からこの条番号の引用を削除し、民法252条5項のみを根拠とする記載に修正しました。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
-- **土地区画整理法条文の一次資料確認（2026-09-16実施）**：肢アの根拠として引用している「土地区画整理法82条1項」について、以前はローカルの`laws/`フォルダに同法が収録されておらず、WebSearchとアガルート教材の照合のみで確認していましたが、`laws/tochi-kukaku-seiri-hou.md`として同法の全文を収録したことに伴い、条文原文（「施行者は、土地区画整理事業の施行のために必要がある場合においては、所有者に代わつて土地の分割又は合併の手続をすることができる。」）で改めて一致を確認しました。引用内容・結論に変更はありません。
+- **最新法令への準拠チェック（2026年8月実施）**：民法423条（代位）、土地区画整理法82条1項、先例（平2.4.24民三1528号）は、いずれも条文番号・内容ともに現行法で通用することをWebSearchで確認しました。一方、オ・確認事項ブロックで引用していた「民法252条ただし書」は、令和3年民法改正（令和5年4月1日施行、共有制度改正）により保存行為の根拠規定が「民法252条5項」に条番号変更されているため、本文・まとめ・確認事項ブロックの該当箇所をすべて「民法252条5項」に修正しました。各肢の正誤判定・正解の組合せ（ウエ）自体に変更はありません。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。オの本文・確認事項ブロックで根拠として引用していた「不登法30条」を`laws/fudousan-touki-hou.md`の条文原文と突き合わせたところ、同条は「一般承継人による申請」を定める規定であり、共有者の保存行為による単独申請の根拠としては条文の内容が一致しないミスマッチが見つかったため、本文からこの条番号の引用を削除し、民法252条5項のみを根拠とする記載に修正しました。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
+- **土地区画整理法条文の一次資料確認（2026-09-16実施）**：アの根拠として引用している「土地区画整理法82条1項」について、以前はローカルの`laws/`フォルダに同法が収録されておらず、WebSearchとアガルート教材の照合のみで確認していましたが、`laws/tochi-kukaku-seiri-hou.md`として同法の全文を収録したことに伴い、条文原文（「施行者は、土地区画整理事業の施行のために必要がある場合においては、所有者に代わつて土地の分割又は合併の手続をすることができる。」）で改めて一致を確認しました。引用内容・結論に変更はありません。
 
 ---
 
@@ -112,13 +134,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 区・画・整・理・施・行・者・分・筆・合・権・処・仮・調・停・産・単・独・代・位 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -198,18 +238,18 @@ these 5 headings):
 5. 共有地の地目変更は単独申請でOK
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 アは代位の一般原則（保全の必要性）と区画整理事業の特則を左右に対比させる対比枠型にした
 （紫）。イ・ウ・エ・オの4肢は「自分ひとりで登記を申請できるか」→「その登記をしないと
@@ -238,14 +278,14 @@ marks. Where a 肢 requires checking multiple conditions in sequence before
 reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (or ○/✕) branch arrows, and a final conclusion node. Panels
-2, 3, 4 and 5 (肢イ・ウ・エ・オ) share one decision tree asking first
+2, 3, 4 and 5 (イ・ウ・エ・オ) share one decision tree asking first
 "自分ひとりで(単独で)登記を申請できるか" and then, on the "できない"
 branch, "その登記をしないと自分の権利を実現できないか(保全の必要性が
 あるか)": render the branch and leaf relevant to THIS panel with a thick
 highlighted border and full color, and render the other, unrelated
 branches and leaves in a faded, greyed-out, or dotted-outline style
 rather than omitting them — the reader should be able to see at a glance
-which part of the shared tree this panel is about. Panel 1 (肢ア) instead
+which part of the shared tree this panel is about. Panel 1 (ア) instead
 uses a side-by-side comparison frame contrasting the general rule with a
 special-law exception; do not force it into the shared tree of the other
 four panels. Unlike a glanceable summary poster, each panel MAY include a
@@ -259,7 +299,15 @@ body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -285,7 +333,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in purple containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -307,7 +355,7 @@ Conclusion tag (a short colored banner/pill, purple, 5-15 Japanese
 characters):
 事業の特則で代位可能
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地役権は分筆なしで設定でき代位できない
@@ -330,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保全の必要性がなく不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 仮処分の実現に分筆が要れば代位できる
@@ -354,7 +402,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 仮処分命令正本で代位可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 調停調書があれば単独で代位し分筆できる
@@ -377,7 +425,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 調停調書正本で単独代位
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in orange containing the number 5.
 Heading (bold, ONE line):
 共有地の地目変更は単独ででき代位不要
@@ -402,10 +450,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 土地区画整理法82条1項(区画整理事業の施行者による代位の特則)。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 区・画・整・理・施・行・者・分・筆・合・権・処・仮・調・停・
-産・単・独・代・位・相・続・全・原・因・持・確・認・実・業・現. If any
-character renders as a Simplified Chinese variant, redraw that character
+産・単・独・代・位・相・続・全・原・因・持・確・認・実・業・現. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 is drawn as an

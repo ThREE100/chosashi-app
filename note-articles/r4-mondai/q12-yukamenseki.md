@@ -2,25 +2,29 @@
 
 **出題年度：令和4年度　午後の部　第12問**
 
-> 建物の床面積に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　建物の出窓の高さが1.5メートル未満であっても、出窓の下部が床面と同一の高さであれば、床面積に算入する。
->
-> イ　建物の屋上にある建物内部との出入口としてのみ使用される階段室であっても、外気分断性がある場合には、床面積に算入する。
->
-> ウ　建物に附属する屋根及び手すりの付いている屋外の階段は、床面積に算入しない。
->
-> エ　次の〔図1〕のとおり、建物の内部にあるダストシュートの一部が外部にまたがっている場合には、斜線部分のみを床面積に算入する。
->
-> オ　次の〔図2〕のとおり、停車場の上屋を有する乗降場がある場合には、その乗降場の床面積は、斜線部分の面積により計算する。（〔図1〕はダストシュートが建物内部から外部にまたがる図、〔図2〕は駅の上屋の下にある乗降場を示す図）
->
+> 建物の床面積に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　建物の出窓の高さが1.5メートル未満であっても、出窓の下部が床面と同一の高さであれば、床面積に算入する。  
+>　  
+> イ　建物の屋上にある建物内部との出入口としてのみ使用される階段室であっても、外気分断性がある場合には、床面積に算入する。  
+>　  
+> ウ　建物に附属する屋根及び手すりの付いている屋外の階段は、床面積に算入しない。  
+>　  
+> エ　次の〔図1〕のとおり、建物の内部にあるダストシュートの一部が外部にまたがっている場合には、斜線部分のみを床面積に算入する。  
+>　  
+> オ　次の〔図2〕のとおり、停車場の上屋を有する乗降場がある場合には、その乗降場の床面積は、斜線部分の面積により計算する。（〔図1〕はダストシュートが建物内部から外部にまたがる図、〔図2〕は駅の上屋の下にある乗降場を示す図）  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
+
+---
 
 床面積の分野は、不動産登記事務取扱手続準則82条の細かい算入・不算入ルールを、具体的な建物の部位に当てはめられるかが問われます。「外気分断性があるか」「用途として使える空間か」を軸に、一つずつ確認しましょう。
 
 ### ア：出窓は「高さ1.5メートル以上」かつ「下部が床面と同一高さ」で算入
 
-出窓は、その高さが1.5メートル以上のもので、かつ下部が床面と同一の高さにあるものに限り、床面積に算入します（不動産登記事務取扱手続準則82条11号）。2つの条件の両方が必要で、高さ1.5メートル未満なら算入できません。本肢は「1.5メートル未満でも下部が床面と同一高さなら算入する」としており誤りです。
+出窓は、その高さが1.5メートル以上のもので、かつ下部が床面と同一の高さにあるものに限り、床面積に算入します（不動産登記事務取扱手続準則82条11号）。
+
+2つの条件の両方が必要で、高さ1.5メートル未満なら算入できません。本肢は「1.5メートル未満でも下部が床面と同一高さなら算入する」としており誤りです。
 
 **たとえば**、リビングに造られた出窓が、床とつながっていても高さが1.2メートルしかない場合、その出窓部分は床面積には入りません。高さ1.5メートル以上と、床とつながっていること、この両方がそろって初めて算入されます。
 
@@ -32,13 +36,15 @@
 
 ### ウ：屋根・手すり付きでも、屋外の階段は床面積に算入しない
 
-外気分断性のない屋外の階段や、玄関・車寄せ・ベランダなどの部分は、床面積に算入しません（準則82条7号）。屋根と手すりが付いていても、外気を分断していない屋外階段であれば算入しないので、本肢は正しい記述です。
+外気分断性のない屋外の階段は、屋根や手すりが付いていても、床面積に算入しません（準則82条7号は「建物に附属する屋外の階段は、床面積に算入しない」と定めています）。玄関・車寄せ・ベランダなども、外気と分断されていなければ建物の一部と認められず、床面積に算入しないと整理されます（これらは準則の条文に明記がなく、外気分断性による整理です）。屋根と手すりが付いていても、外気を分断していない屋外階段であれば算入しないので、本肢は正しい記述です。
 
 **たとえば**、アパートの外に付いている、屋根と手すりはあるけれど壁のない鉄骨階段は、雨はしのげても外気を分断していないため、床面積には入りません。
 
 ### エ：内部にあるダストシュートは、外側部分も含めて全体を算入する
 
-建物の内部にある煙突やダストシュートは、その部分を各階の床面積に算入します。外側にある場合は算入しませんが、内部と外部にまたがってある場合には、外側に及んでいる部分も含めて床面積に算入します（準則82条10号）。本肢は「斜線部分（内部）のみを算入する」としており誤りです。
+建物の内部にある煙突やダストシュートは、その部分を各階の床面積に算入します。
+
+外側にある場合は算入しませんが、内部と外部にまたがってある場合には、外側に及んでいる部分も含めて床面積に算入します（準則82条10号）。本肢は「斜線部分（内部）のみを算入する」としており誤りです。
 
 **たとえば**、建物の内部に設けられたダストシュート（ゴミ投下設備）が、一部だけ外壁からはみ出している場合、そのはみ出した外側部分も切り離さず、全体を床面積に算入します。
 
@@ -47,6 +53,8 @@
 列車停車場（駅など）の上屋を有する乗降場および荷物積卸場の床面積は、その上屋の占める部分の面積によって算入します（準則82条2号）。本肢は正しい記述です。屋根（上屋）がかかっている範囲を基準にするというルールです。
 
 **たとえば**、駅のホームに屋根（上屋）がかかっている場合、そのホーム（乗降場）の床面積は、屋根が覆っている範囲の面積で計算します。屋根のない吹きさらしの部分までは含めません。
+
+---
 
 ### まとめ
 
@@ -67,8 +75,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。なお本問のエ・オには図（〔図1〕〔図2〕）が付いていますが、noteに掲載する際は、法務省公表の問題原本から該当図を引用するか、図の内容を文章で補足してください（本記事では図の内容を括弧書きで補っています）。
 - 出題年度・問題番号・正解番号（5番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝準則82条11号、イ＝昭38.10.22民甲2933号、ウ＝準則82条7号、エ＝準則82条10号、オ＝準則82条2号）は、データベースのexplanationフィールドおよびkaisetsu_plus.jsonに条番号まで明記されているものを転記しています。
+- **訂正（2026-10-05）**：準則82条7号の原文は「建物に附属する屋外の階段は、床面積に算入しない」で、玄関・車寄せ・ベランダは条文にありません。これらを不算入とする説明は外気分断性による整理に改め、準則82条に項がないため「82条1項○号」の表記を「82条○号」に直しました（`note-articles/laws/fudousan-touki-jimu-junsoku.md`の原文と、準則第82条の全文で確認）。
 - ローカルのアガルート教材PDF等はユーザーの手元環境にあり本作業環境には含まれていないため、根拠は上記データベースに拠っています。
-- 【2026-08-16調査】肢イの先例番号「昭38.10.22民甲2933号」は、同じ先例を指すと思われる引用が令和5年度午後の部第12問の記事では「昭38.10.22民甲1933号」となっており、番号の表記がデータベース間で一致していない点を発見していましたが、追加調査により解消しました。国立国会図書館リサーチ・ナビの『詳細登記六法（平成24年版） 別冊（登記関係先例編）』索引に「昭和38・10・22民事甲2933号回答」の記載が確認でき（試験対策アプリのOCR由来データとは独立した書誌情報源）、「1933号」を裏付ける情報源はWeb検索上どこにも見当たりませんでした。「1933」は「2933」のOCR誤読（1と2の読み違い）である可能性が高いと判断し、令和5年度午後の部第12問側の記事も「2933号」に修正しました。なお索引の記載から先例番号の実在は確認できましたが、原文（登記研究・詳細登記六法本体）まで直接確認できたわけではないため、内容面の断定は引き続き避け、条文で直接裏取りできない先例に基づく実務上の取扱いである旨は本文の書きぶりを維持しています。
+- 【2026-08-16調査】イの先例番号「昭38.10.22民甲2933号」は、同じ先例を指すと思われる引用が令和5年度午後の部第12問の記事では「昭38.10.22民甲1933号」となっており、番号の表記がデータベース間で一致していない点を発見していましたが、追加調査により解消しました。国立国会図書館リサーチ・ナビの『詳細登記六法（平成24年版） 別冊（登記関係先例編）』索引に「昭和38・10・22民事甲2933号回答」の記載が確認でき（試験対策アプリのOCR由来データとは独立した書誌情報源）、「1933号」を裏付ける情報源はWeb検索上どこにも見当たりませんでした。「1933」は「2933」のOCR誤読（1と2の読み違い）である可能性が高いと判断し、令和5年度午後の部第12問側の記事も「2933号」に修正しました。なお索引の記載から先例番号の実在は確認できましたが、原文（登記研究・詳細登記六法本体）まで直接確認できたわけではないため、内容面の断定は引き続き避け、条文で直接裏取りできない先例に基づく実務上の取扱いである旨は本文の書きぶりを維持しています。
 
 ---
 
@@ -109,12 +118,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 積・窓・段・塔・乗・降 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -196,20 +223,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（出窓の断面、階段室・塔屋の外観、屋外階段、ダストシュートの断面、停車場の乗降場の断面など）と、その図にたどり着くまでの判定順序を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、④間違いノート型と同じ運用（着眼点の説明文を許容）に倣い、各パネルに判定順序を示す「着眼点」の短い説明文を添えている。
 
@@ -258,7 +285,15 @@ them as two distinct requirements).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -284,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -309,19 +344,18 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 両条件がそろって算入
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 階段室・塔屋は外気分断性の有無に関係なく不算入
 Diagram: Draw an isometric rooftop of a building with a small tower-like
 structure labeled「階段室」used only as a stairwell exit, next to similar
 small tower icons labeled「エレベーターの機械」「高置水槽」「冷却装置」.
-Draw the towers fully enclosed by walls with a dotted outline labeled
-「外気分断性あり」and a ✓ mark on that label, then draw a large ✕ overlay
-across that ✓ mark with a callout arrow pointing to a small stamp reading
-「外気分断性の有無は無関係」. Beside the towers, draw a single
-prohibition (no-entry) stamp reading「算入しない」applied to all four
-towers regardless of the ✓/✕ on the 外気分断性 label.
+Draw the towers fully enclosed by walls, with a pale dotted-outline tag
+beside them reading「外気分断性の有無は問わない」(no ✓ and no ✕ on this
+tag — it is simply not a deciding factor). Beside the towers, draw a
+single prohibition (no-entry) stamp reading「算入しない」applied to all
+four towers.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず階段室や塔屋の用途が、出入口専用またはエレベーターの機械・高置水槽・
 冷却装置の収容に該当するかを確認します。該当すれば、外気分断性の有無を
@@ -330,7 +364,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 外気分断性は無関係
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 屋根・手すりがあっても外気分断性なければ不算入
@@ -349,7 +383,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 外気分断性なければ算入外
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 ダストシュートの起点が内部か外部かを確認する
@@ -371,7 +405,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 内部起点なら全体算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 乗降場の床面積は上屋がかかる範囲だけで測る
@@ -391,24 +425,24 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記事務取扱手続準則82条11号（肢ア）／同条7号（肢ウ）／
-同条10号（肢エ）／同条2号（肢オ）。肢イは先例による（本文参照）。
+条文根拠：不動産登記事務取扱手続準則82条11号（ア）／同条7号（ウ）／
+同条10号（エ）／同条2号（オ）。イは先例による（本文参照）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 窓・段・塔・乗・降・積・号・建・物・確・認・断・気・関・続・
-登・記. If any character renders as a Simplified Chinese variant, redraw
-that character in the correct Japanese form. Confirm the panel count
+登・記. If any character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-every multi-condition 肢 (肢ア and 肢エ) is drawn as an actual flowchart
+every multi-condition 肢 (ア and エ) is drawn as an actual flowchart
 with branch nodes (not a bare illustration with no visible decision
 structure), that no 肢 with a genuinely hidden second condition has been
 flattened into a single check, that each 着眼点 callout states a checking
 order rather than only a conclusion and keeps every required element
 from the source article distinct (no merged or dropped requirements),
-that a factor the article treats as irrelevant (外気分断性 in 肢イ,
-屋根・手すり in 肢ウ) is shown crossed out rather than silently omitted,
+that a factor the article treats as irrelevant (外気分断性 in イ,
+屋根・手すり in ウ) is shown crossed out rather than silently omitted,
 confirm nothing is rendered below the last panel's footnote text (no
 summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
 all 肢, and no additional text block of any kind), and confirm the entire

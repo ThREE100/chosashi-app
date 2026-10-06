@@ -1,0 +1,951 @@
+{
+ "rank": 2,
+ "theme_id": "jikou-joken",
+ "topic_label_in_bank": "民法／時効・条件期限",
+ "title_proposal": "何度も同じところで間違える人へ〜苦手分析シリーズ〜取得時効の「いつの時点で何を見るか」、時効の更新・完成猶予、条件",
+ "summary": "時効・条件期限の35肢のうち、40問の延べ答え合わせで定着50%、誤解38%、未習得12%。誤解が集中したのは、H25 第2問（取得時効の要件、5肢すべてを誤解）、H21 第1問（取得時効と登記）、H28 第1問（時効の更新・完成猶予）、H23 第2問（時効の援用）の4問。",
+ "overlap_with_existing_articles": "苦手分析シリーズ⑧（時効の援用）・⑨（時効の成立と進行）で、援用・取得時効の要件・完成猶予と更新を扱い済み。一方、「条件（停止条件・解除条件・既成条件・不法条件）」（H19 第1問、H24 第2問）は⑧⑨にない。記事化するなら、(a) ⑨の補強（承継占有・善意無過失の判定時点の表）か、(b) 条件の回を新設する、の2案がある。今回の誤解データは(a)に集中している。",
+ "stats": {
+  "bank_items": 35,
+  "items_answered": 35,
+  "answers_total": 40,
+  "result_counts_all_answers": {
+   "定着": 20,
+   "未習得（？）": 5,
+   "誤解（逆に覚えている）": 15
+  },
+  "latest_result_per_item": {
+   "定着": 20,
+   "未習得（？）": 5,
+   "誤解（逆に覚えている）": 10
+  },
+  "first_result_per_item": {
+   "定着": 17,
+   "未習得（？）": 4,
+   "誤解（逆に覚えている）": 14
+  }
+ },
+ "why_this_is_top": "時効・条件期限は、答え合わせの延べ数（40回）と誤解の割合（38%）が全テーマで高い。誤解になった肢が最新結果でも多い。",
+ "core_misconception": "取得時効の要件を「いつの時点で判断するか」で整理できていない。(1) 善意・無過失は占有開始時の一点で見る、(2) 平穏・公然は占有期間を通じて必要、(3) 占有を承継したときの善意・無過失は最初の占有者で見る、の3つが混ざり、特にH25 第2問の5肢（途中で悪意になる／途中で隠匿になる／最初の占有者が悪意／前の占有者が善意）を逆に答えた。時効完成の前後で登記が要るか（当事者・完成前の第三者・完成後の第三者）も、時系列を描かないと取り違える。",
+ "misconceptions": [
+  {
+   "id": "M1",
+   "point": "善意・無過失は占有開始時に備わっていれば足りる。途中で悪意になっても10年の時効は成立する",
+   "what_you_thought": "途中で知ったら取得できないと考えた（D0817 誤解）",
+   "correct": "10年の短期取得時効の善意無過失は、占有開始時で判断する。",
+   "items": [
+    "D0817"
+   ]
+  },
+  {
+   "id": "M2",
+   "point": "平穏・公然は占有期間を通じて必要。途中で隠匿になったら10年占有しても取得できない",
+   "what_you_thought": "開始時にそろっていれば、その後は関係ないと考えた（D0816 誤解）",
+   "correct": "善意無過失は開始時だけでよいが、平穏・公然は継続中ずっと必要。",
+   "items": [
+    "D0816"
+   ]
+  },
+  {
+   "id": "M3",
+   "point": "前の占有者の占有を併せて主張するときの善意無過失は、最初に占有を開始した者で判断する",
+   "what_you_thought": "承継人の善意・悪意で判断すると考えた。D0818（最初が善意無過失・承継人が悪意→取得できる）とD0819（最初が悪意・承継人が善意無過失→短期は成立しない）の両方を誤解",
+   "correct": "民法187条。承継人は、自己の占有のみを主張するか、前主の占有を併せて主張するかを選べる。併せて主張するなら、占有開始時の善意無過失は最初の占有者で判断する。",
+   "items": [
+    "D0818",
+    "D0819",
+    "D1623"
+   ]
+  },
+  {
+   "id": "M4",
+   "point": "賃借権も時効取得の対象になり得る（無権利者から借りた場合でも）",
+   "what_you_thought": "賃借権は取得時効の対象にならないと考えた（D0815 誤解）",
+   "correct": "賃借の意思で平穏・公然に使用収益を続ければ、賃借権も時効取得できる（判例）。",
+   "items": [
+    "D0815",
+    "D1520"
+   ]
+  },
+  {
+   "id": "M5",
+   "point": "占有の推定は「無過失」までは及ばない",
+   "what_you_thought": "最初は無過失も推定されると考えた（D1521 誤解→次は正解）",
+   "correct": "民法186条1項は、所有の意思・善意・平穏・公然を推定するが、10年の時効に必要な無過失は推定されない。時効を主張する側が立証する。",
+   "items": [
+    "D1521"
+   ]
+  },
+  {
+   "id": "M6",
+   "point": "取得時効を主張するのに登記が要るかは、相手が誰で、時効完成の前か後かで決まる",
+   "what_you_thought": "D0411（完成前の第三者→登記不要）、D0412（完成後の第三者→登記必要）、D0413（元の所有者＝当事者→登記不要）を、それぞれ逆に答えた",
+   "correct": "当事者（元の所有者）には登記不要。時効完成前に現れた第三者には登記不要。時効完成後に現れた第三者には登記が必要（二重譲渡と同じ対抗関係）。起算点は占有開始時に固定され、任意にずらせない（D0414）。",
+   "items": [
+    "D0411",
+    "D0412",
+    "D0413",
+    "D0414",
+    "D0415",
+    "D1522"
+   ]
+  },
+  {
+   "id": "M7",
+   "point": "時効の援用：保証人は主債務の時効を援用できる。時効完成後に承認すれば、完成を知らなくても援用できない",
+   "what_you_thought": "保証人が時効完成前に自分の保証債務を承認していると援用できなくなると考えた（D0616 を2回連続で誤解）。承認後の援用（D0620）は「？」",
+   "correct": "民法145条で、保証人は時効の援用権者。保証債務の承認は、主債務の時効の援用とは別の問題。時効完成後の承認は信義則上援用できなくなる（判例）。",
+   "items": [
+    "D0616",
+    "D0617",
+    "D0620",
+    "D1110"
+   ]
+  },
+  {
+   "id": "M8",
+   "point": "時効の完成猶予と更新は、事由ごとに「待つ」か「やり直す」か",
+   "what_you_thought": "催告は再度すれば新たな猶予が生じると考えた（D1106 誤解→正解）。確定判決で時効が新たに進行する（D1107）と、訴え取下げ後6か月の猶予（D1108）を誤解または「？」。一部弁済が承認にあたる（D1109）は「？」",
+   "correct": "催告は猶予中の再度の催告に効力がない（150条2項）。確定判決で権利が確定すると、事由終了の時から新たに進行（147条2項）。取下げは終了の時から6か月猶予（147条1項かっこ書）。承認は152条1項で更新。一部弁済は承認にあたり残債務にも及ぶ。",
+   "items": [
+    "D1106",
+    "D1107",
+    "D1108",
+    "D1109",
+    "D1110"
+   ]
+  },
+  {
+   "id": "M9",
+   "point": "条件：解除条件の成就の効果は、当事者が知らなくても生じる",
+   "what_you_thought": "条件の成就を知らなければ義務が残ると考えた（D0720 誤解）。既成条件（D0207）は「？」",
+   "correct": "解除条件付きの法律行為は、条件成就の時から効力を失う（民法127条2項）。契約時に既に成就していた停止条件は無条件（民法131条1項）。",
+   "items": [
+    "D0720",
+    "D0207",
+    "D0716",
+    "D0717",
+    "D0718",
+    "D0719"
+   ]
+  }
+ ],
+ "key_knowledge_for_article": [
+  "取得時効（民法162条）：長期20年と短期10年の違い。短期は占有開始時の善意無過失が必要。平穏・公然は継続。所有の意思は性質上の問題。",
+  "民法186条（占有の推定。無過失は推定されない）、民法187条（占有の承継と合算の選択）。",
+  "時効の起算点は占有開始時に固定。援用で効力は起算日にさかのぼる（民法144条）。",
+  "登記が要るかの整理：当事者／時効完成前の第三者／時効完成後の第三者。第三者の定義は対抗要件（177条）の回と共通。",
+  "時効の更新・完成猶予（民法147条・150条・152条）：事由ごとの「猶予か更新か」。令和2年4月施行の改正で、旧法の「中断」が「更新」と「完成猶予」に分かれた。出題当時の肢は「中断」の語のまま。",
+  "時効の援用権者（民法145条かっこ書）：保証人・物上保証人・第三取得者その他正当な利益を有する者。",
+  "条件（民法127条・130条・131条）：停止条件・解除条件・既成条件・故意の妨害。農地売買の条件（農地法許可）は、条件成就の「みなし」が行政処分まで作り出せない点が論点（D0716）。",
+  "時効の記事は⑧⑨とほぼ重なるため、新記事は「判定の時点表（開始時／継続中／完成前後）」と「承継占有の4パターン表」の追加という位置づけにするのが無駄が少ない。"
+ ],
+ "decision_flow_proposal": [
+  "入口：取得時効か、消滅時効か、条件・期限か。",
+  "取得時効なら、時系列を描く：(1) 占有開始、(2) 承継があったか、(3) 第三者が現れた時点、(4) 時効完成、(5) 援用。",
+  "要件の判定時点：善意・無過失は開始時（承継があれば最初の占有者）、平穏・公然は継続中、所有の意思は占有の性質。",
+  "登記の要否：相手は当事者か、完成前の第三者か、完成後の第三者か。",
+  "消滅時効の進行：猶予か更新か。事由（催告・裁判上の請求・承認）ごとに、「待つ」か「やり直す」かを見分ける。",
+  "援用：誰が援用できるか（保証人は可）。完成後の承認は援用できなくなる。"
+ ],
+ "diagram_proposals": [
+  {
+   "name": "取得時効の時系列タイムライン",
+   "type": "タイムライン図",
+   "content": "横軸：占有開始→（承継）→（第三者の登場）→時効完成→援用。各時点に「善意無過失はここだけ」「平穏・公然はここからここまでずっと」「登記が要る第三者は完成後だけ」を矢印で示す。H21 第1問の平成2年・13年・15年の日付を使った実例を載せる。"
+  },
+  {
+   "name": "承継占有の合算 4パターン表",
+   "type": "表",
+   "content": "行：最初の占有者（善意無過失／悪意）、列：承継人（善意無過失／悪意）。各マスに、合算したときの短期（10年）成立の可否と、自己の占有のみを主張した場合の結果を書く。D0818とD0819の事例（Bの占有3年＋Cの占有7年／Bの占有4年＋Cの占有6年）を載せる。"
+  },
+  {
+   "name": "占有開始時の一点判定 vs 継続中の判定",
+   "type": "チェックポイント図",
+   "content": "占有期間の帯に、開始時だけ見る項目（善意・無過失）と、期間全体を見る項目（平穏・公然）を色分けして重ねる。D0816（隠匿）とD0817（悪意）の2肢を並べて、同じ「途中で変わった」でも結論が逆になることを示す。"
+  },
+  {
+   "name": "時効の「待つ」と「やり直す」早見表",
+   "type": "表",
+   "content": "事由（催告／裁判上の請求／確定判決／訴えの取下げ／承認・一部弁済）ごとに、完成猶予か更新か、その期間（6か月、事由終了まで等）を書く。"
+  },
+  {
+   "name": "援用できる人の早見表",
+   "type": "表",
+   "content": "債務者、保証人、物上保証人、後順位抵当権者、建物賃借人（土地の取得時効の援用は不可）などを、肢（D0616、D0617、D0618、D0619）と対応づけて載せる。"
+  }
+ ],
+ "editor_notes": [
+  "既存の⑧⑨⑩と範囲が重なるため、新記事の冒頭で「⑨の続き・補強」と位置づけ、⑨にない判定時点表と承継占有の表を中心にする。",
+  "H28 第1問の肢は、元記事を現行法（147条・150条・152条）に直した。ドリルのバンクの問題文は原文（「中断」）のままだが、記事（H28-Q01エ）は出題文を「更新」に改めた（改）扱い。記事では現行用語で書く。",
+  "条文照合の指摘（記事側の修正候補）：D0618（H23-Q02ウ・援用権者の説明に判例の出典がない）、D0716（H24-Q02ア・農地許可と130条の整理に判例の出典がない）、D0717（H24-Q02イ・「判例上有効」の出典がない）。苦手分析記事に載せるときは、出典の種類を断る。",
+  "D1109（H28-Q01エ）は、記事を現行法基準に直し済み。"
+ ],
+ "items": [
+  {
+   "id": "D0815",
+   "group": "取得時効の要件（H25-Q02）",
+   "statement": "〔A所有の甲土地〕【判例】Bは、甲土地を無権利者Cから賃借した場合には、甲土地の賃借権を時効によって取得することはできない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H25-Q02 ア",
+   "article": "note-articles/h25-mondai/q02-shutokujikou.md",
+   "article_summary_line": "- **ア（誤）**　賃借権も時効取得の対象となり得る",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0816",
+   "group": "取得時効の要件（H25-Q02）",
+   "statement": "〔A所有の甲土地〕【判例】Bは、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始したものの、それから10年が経過する前に当該占有が隠匿のものとなった場合には、当該占有の開始から10年間占有を継続しても、甲土地の所有権を時効によって取得することはできない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H25-Q02 イ",
+   "article": "note-articles/h25-mondai/q02-shutokujikou.md",
+   "article_summary_line": "- **イ（正）**　「平穏・公然」は占有期間を通じて必要。途中で隠匿になれば時効は成立しない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0817",
+   "group": "取得時効の要件（H25-Q02）",
+   "statement": "〔A所有の甲土地〕【判例】Bは、甲土地を無権利者Cから買い受け、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始したものの、それから10年が経過する前に甲土地がAの所有する物であることを知った場合には当該占有の開始から10年間占有を継続しても、甲土地の所有権を時効によって取得することはできない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H25-Q02 ウ",
+   "article": "note-articles/h25-mondai/q02-shutokujikou.md",
+   "article_summary_line": "- **ウ（誤）**　「善意無過失」は占有開始時のみで判断。途中で悪意に転じても10年時効は成立する",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0818",
+   "group": "取得時効の要件（H25-Q02）",
+   "statement": "〔A所有の甲土地〕【判例】Bは、甲土地が自己の所有する物であると過失なく信じ、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を開始し、その3年後、甲土地がAの所有する物であることを知っているCに対して甲土地を売却した。この場合において、Cは、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、それから7年が経過したときには、甲土地の所有権を時効によって取得することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H25-Q02 エ",
+   "article": "note-articles/h25-mondai/q02-shutokujikou.md",
+   "article_summary_line": "- **エ（正）**　承継占有を合算する場合、善意無過失は最初の占有者を基準に判断する（判例）",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0819",
+   "group": "取得時効の要件（H25-Q02）",
+   "statement": "〔A所有の甲土地〕【判例】Bは、甲土地がAの所有する物であることを知りながら、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、その4年後、甲土地がBの所有する物であると過失なく信じたCに対して甲土地を売却した。この場合において、Cは、所有の意思をもって、平穏に、かつ、公然と甲土地の占有を始め、それから6年が経過したときには、甲土地の所有権を時効により取得することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H25-Q02 オ",
+   "article": "note-articles/h25-mondai/q02-shutokujikou.md",
+   "article_summary_line": "- **オ（誤）**　最初の占有者が悪意なら、合算しても10年の短期時効は成立しない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1518",
+   "group": "取得時効の要件（R02-Q02）",
+   "statement": "〔不動産の取得時効〕【判例】甲不動産を所有の意思なく占有していたＡが死亡し，Ｂがその占有を相続により承継した場合には，Ｂは，新たに甲不動産を事実上支配することによって占有を開始し，その占有に所有の意思があるとみられ，かつ，Ｂの占有開始後，所有権の時効取得に必要とされる期間その占有を継続したとしても，自己の占有のみを主張して甲不動産の所有権を時効取得することはできない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "R02-Q02 ア",
+   "article": "note-articles/r2-mondai/q02-shutoku-jikou.md",
+   "article_summary_line": "- **ア（誤）**　相続人が新たに自主占有を始めれば自己の占有のみで時効取得可",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1519",
+   "group": "取得時効の要件（R02-Q02）",
+   "statement": "〔不動産の取得時効〕【判例】Ａから甲不動産を買い受けてその占有を取得したＢが，売買契約当時，甲不動産の所有者はＡではなくＣであり，売買によって直ちにその所有権を取得するものでないことを知っていた場合には，Ｂは，その後，所有権の時効取得に必要とされる期間，甲不動産を継続して占有したとしても，甲不動産の所有権を時効取得することはできない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "R02-Q02 イ",
+   "article": "note-articles/r2-mondai/q02-shutoku-jikou.md",
+   "article_summary_line": "- **イ（誤）**　悪意の占有者でも20年で時効取得できる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1520",
+   "group": "取得時効の要件（R02-Q02）",
+   "statement": "〔不動産の取得時効〕【判例】甲不動産につき賃借権を有するＡがその対抗要件を具備しない間に，甲不動産に抵当権が設定されてその旨の登記がされた場合には，Ａは，その後，賃借権の時効取得に必要とされる期間，甲不動産を継続的に用益したとしても，抵当権の実行により甲不動産を買い受けた者に対し，賃借権の時効取得を対抗することはできない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "R02-Q02 ウ",
+   "article": "note-articles/r2-mondai/q02-shutoku-jikou.md",
+   "article_summary_line": "- **ウ（正）**　対抗要件具備前に抵当権登記があれば、後の賃借権時効取得も買受人に対抗不可",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1521",
+   "group": "取得時効の要件（R02-Q02）",
+   "statement": "〔不動産の取得時効〕【判例】Ａが，甲不動産を10年間占有したことを理由として甲不動産の所有権の時効取得を主張する場合，その占有の開始の時に，Ａが甲不動産を自己の所有と信じたことにつき無過失であったことは推定されない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "R02-Q02 エ",
+   "article": "note-articles/r2-mondai/q02-shutoku-jikou.md",
+   "article_summary_line": "- **エ（正）**　占有の推定規定によっても無過失までは推定されない",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1522",
+   "group": "取得時効の要件（R02-Q02）",
+   "statement": "〔不動産の取得時効〕【判例】取得時効を援用する者が，時効期間の起算点を任意に選択し，時効完成の時期を早めたり遅らせたりすることは許されない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "R02-Q02 オ",
+   "article": "note-articles/r2-mondai/q02-shutoku-jikou.md",
+   "article_summary_line": "- **オ（正）**　起算点は占有開始時に固定、任意選択は不可",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0411",
+   "group": "取得時効と登記（H21-Q01）",
+   "statement": "〔取得時効と登記(対話形式)〕【判例】Aが平成2年1月1日に自己の所有地であると過失なく信じて甲土地(B所有)の占有を開始し、所有の意思をもって平穏・公然に占有を続けている場合において、平成10年1月1日に甲土地がBからCに譲渡されたときは、Aは所有権の移転の登記をしなくても、平成15年1月1日にCに対して甲土地の時効取得を主張することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H21-Q01 ア",
+   "article": "note-articles/h21-mondai/q01-jikou-touki.md",
+   "article_summary_line": "- **ア（正）**　時効完成前の第三者には登記なくして対抗できる（当事者類似の関係）",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0412",
+   "group": "取得時効と登記（H21-Q01）",
+   "statement": "〔取得時効と登記(対話形式)〕【判例】Aが平成2年1月1日に自己の所有地であると過失なく信じて甲土地(B所有)の占有を開始し、以後所有の意思をもって平穏・公然に占有を続けている場合において、平成13年1月1日にCがBから甲土地を譲り受けたときは、Aは所有権の移転の登記をしなければ、平成15年1月1日にCに対して時効取得を主張することができない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H21-Q01 イ",
+   "article": "note-articles/h21-mondai/q01-jikou-touki.md",
+   "article_summary_line": "- **イ（正）**　時効完成後の第三者とは対抗関係に立ち、登記が必要",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0413",
+   "group": "取得時効と登記（H21-Q01）",
+   "statement": "〔取得時効と登記(対話形式)〕【判例】Aが平成2年1月1日に自己の所有地であると過失なく信じて甲土地(B所有)の占有を開始し、以後所有の意思をもって平穏・公然に占有を続けている場合において、Aは所有権の移転の登記をしなければ、平成15年1月1日に元の所有者Bに対して時効取得を主張することができない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H21-Q01 ウ",
+   "article": "note-articles/h21-mondai/q01-jikou-touki.md",
+   "article_summary_line": "- **ウ（誤）**　元所有者Bは当事者であり、登記なくして時効取得を主張できる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0414",
+   "group": "取得時効と登記（H21-Q01）",
+   "statement": "〔取得時効と登記(対話形式)〕【判例】Aが平成2年1月1日に自己の所有地であると過失なく信じて甲土地(B所有)の占有を開始し、以後所有の意思をもって平穏・公然に占有を続けている場合において、Aは占有開始後の平成5年1月1日を起算点とする10年間の占有に基づいて、平成15年1月1日にCに対して甲土地の時効取得を主張することはできない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H21-Q01 エ",
+   "article": "note-articles/h21-mondai/q01-jikou-touki.md",
+   "article_summary_line": "- **エ（正）**　起算点は占有開始時に固定され、任意にずらせない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0415",
+   "group": "取得時効と登記（H21-Q01）",
+   "statement": "〔取得時効と登記(対話形式)〕【判例】Aが平成2年1月1日に自己の所有地であると過失なく信じて甲土地(B所有)の占有を開始し、以後所有の意思をもって平穏・公然に占有を続けている場合でも、Aは、善意無過失で占有を開始したので、20年の取得時効を主張することはできない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H21-Q01 オ",
+   "article": "note-articles/h21-mondai/q01-jikou-touki.md",
+   "article_summary_line": "- **オ（誤）**　善意無過失でも20年の取得時効を重ねて主張できる",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0616",
+   "group": "時効の援用（H23-Q02）",
+   "statement": "〔時効の援用〕【判例】ＡのＢに対する売買代金債務を連帯保証したＣは、Ａの売買代金債務について消滅時効が完成した後にＢから連帯保証債務の履行を求められた場合にはＡの売買代金債務についての消滅時効が完成する前に自らの連帯保証債務を承認していたときであっても、Ａの売買代金債務についての消滅時効を援用してＢからの請求を拒むことができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H23-Q02 ア",
+   "article": "note-articles/h23-mondai/q02-jikou-engyo.md",
+   "article_summary_line": "- **ア（正）**　連帯保証人は主債務の消滅時効を援用できる",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0617",
+   "group": "時効の援用（H23-Q02）",
+   "statement": "〔時効の援用〕【判例】Ａを抵当権者として先順位の抵当権が設定されている不動産の後順位の抵当権者であるＢは、Ａの先順位の抵当権の被担保債権について消滅時効が完成した場合であっても、その消滅時効を援用することができない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H23-Q02 イ",
+   "article": "note-articles/h23-mondai/q02-jikou-engyo.md",
+   "article_summary_line": "- **イ（正）**　後順位抵当権者の利益は反射的で援用できない",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0618",
+   "group": "時効の援用（H23-Q02）",
+   "statement": "〔時効の援用〕【判例】甲土地上に乙建物を所有しているＡから乙建物を賃借しているＢが、甲土地の所有者であるＣから、所有権に基づき乙建物から退去して甲土地を明け渡すよう求められた場合において、Ａの占有による甲土地の所有権の取得時効が完成しているときは、Ｂは、その取得時効を援用してＣからの請求を拒むことができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H23-Q02 ウ",
+   "article": "note-articles/h23-mondai/q02-jikou-engyo.md",
+   "article_summary_line": "- **ウ（誤）**　建物賃借人は敷地の取得時効を援用できない（利益が間接的）",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [
+    {
+     "severity": "unverified",
+     "problem": "「建物賃借人Bが受ける利益は、Aが土地を取得すれば結果として建物に住み続けられるという間接的なものにとどまり、援用権者には当たりません。」判例・出典が示されていない。",
+     "proposal": "「判例の立場です」など出典の種類を明示するか、条文に明記がなく判例の解釈による旨を書く。"
+    }
+   ],
+   "flagged_article_fix": true
+  },
+  {
+   "id": "D0619",
+   "group": "時効の援用（H23-Q02）",
+   "statement": "〔時効の援用〕【判例】被相続人Ａの占有により甲土地の取得時効が完成していた場合には、Ａの共同相続人の一人であるＢは、甲土地の全部について取得時効を援用することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H23-Q02 エ",
+   "article": "note-articles/h23-mondai/q02-jikou-engyo.md",
+   "article_summary_line": "- **エ（誤）**　共同相続人は自己の相続分の範囲でしか援用できない",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [
+    {
+     "severity": "unverified",
+     "problem": "「共同相続人の一人Bは、自己の相続分に応じた範囲でのみその取得時効を援用でき、甲土地の全部について援用することはできません。」判例・出典が示されていない。",
+     "proposal": "「判例の立場です」など出典の種類を明示するか、条文に明記がない旨を書く。"
+    }
+   ],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0620",
+   "group": "時効の援用（H23-Q02）",
+   "statement": "〔時効の援用〕【判例】Ａに対する貸金債務を承認したＢが、Ａから貸金返還請求を受けた場合には、Ｂは、その承認の際に、その貸金債務について消滅時効が完成していることを知らなかったときであっても、貸金債務の消滅時効を援用してＡからの請求を拒むことができない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H23-Q02 オ",
+   "article": "note-articles/h23-mondai/q02-jikou-engyo.md",
+   "article_summary_line": "- **オ（正）**　時効完成後に承認したら、完成を知らなくても援用できない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1106",
+   "group": "時効の更新・完成猶予（H28-Q01）",
+   "statement": "〔Aが Bに対して100万円を貸し付けた後その返還期日を経過した事例〕【判例】AがBに対して、貸金の返還の催告をした後、その6か月以内に再び催告をしたときは、その時から6か月を経過するまでの間は、時効は、完成しない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H28-Q01 ア",
+   "article": "note-articles/h28-mondai/q01-shoumetsujikou.md",
+   "article_summary_line": "- **ア（誤）**　催告は一度限り、再度の催告で新たな完成猶予は生じない",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "o",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1107",
+   "group": "時効の更新・完成猶予（H28-Q01）",
+   "statement": "〔Aが Bに対して100万円を貸し付けた後その返還期日を経過した事例〕【判例】AのBに対する貸金返還請求を認容する判決が確定したときは、裁判上の請求によって中断した時効は、当該判決が確定した時から、新たにその進行を始める。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H28-Q01 イ",
+   "article": "note-articles/h28-mondai/q01-shoumetsujikou.md",
+   "article_summary_line": "- **イ（正）**　確定判決が出た時から、時効は新たに進行を始める",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1108",
+   "group": "時効の更新・完成猶予（H28-Q01）",
+   "statement": "〔Aが Bに対して100万円を貸し付けた後その返還期日を経過した事例〕【判例】AがBに対して貸金返還請求の訴えを提起した場合には、その訴訟手続におけるAの権利行使の意思の表示は、その訴えが取り下げられたときにおいても、Bに対する催告として時効の中断の効力を有する。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H28-Q01 ウ",
+   "article": "note-articles/h28-mondai/q01-shoumetsujikou.md",
+   "article_summary_line": "- **ウ（正）**　訴え取下げ後も、取下げの時から6か月は時効の完成が猶予される",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    },
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D1109",
+   "group": "時効の更新・完成猶予（H28-Q01）",
+   "statement": "〔Aが Bに対して100万円を貸し付けた後その返還期日を経過した事例〕【判例】時効の完成前にBがAに対して債務の一部弁済として50万円を支払ったときは、当該債務の残部について時効の中断の効力は生じない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H28-Q01 エ",
+   "article": "note-articles/h28-mondai/q01-shoumetsujikou.md",
+   "article_summary_line": "- **エ（誤）**　一部弁済は残債務についても承認にあたり、残部にも時効の更新の効力が生じる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": true
+  },
+  {
+   "id": "D1110",
+   "group": "時効の更新・完成猶予（H28-Q01）",
+   "statement": "〔Aが Bに対して100万円を貸し付けた後その返還期日を経過した事例〕【判例】時効の完成後にBがAに対して債務の承認をしたときは、Bは、その後その時効の援用をすることができない。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H28-Q01 オ",
+   "article": "note-articles/h28-mondai/q01-shoumetsujikou.md",
+   "article_summary_line": "- **オ（正）**　時効完成後に承認をすれば、その後の時効援用はできない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0206",
+   "group": "条件（H19-Q01）",
+   "statement": "〔法律行為の条件〕【判例・民法】Aが、Bとの間で、Bが来年7月の大会に優勝した場合には、来年4月分からさかのぼって奨学金を給付するとの合意をした場合において、Bが実際に優勝したときでも、停止条件の付された法律行為は条件成就の時からその効力を生ずるから、Bは4月分から奨学金を請求することはできない。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H19-Q01 ア",
+   "article": "note-articles/h19-mondai/q01-joken.md",
+   "article_summary_line": "- **ア（誤）**　127条3項の遡及効の合意があるため、Ｂは４月分から請求できる（原則だけでは判断できない）",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0207",
+   "group": "条件（H19-Q01）",
+   "statement": "〔法律行為の条件〕【判例・民法】当事者が停止条件を付して契約を締結したが、実際には停止条件とした事実が既に発生していたときは、その条件は付されなかったのと同様に扱われ、契約は有効である。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H19-Q01 イ",
+   "article": "note-articles/h19-mondai/q01-joken.md",
+   "article_summary_line": "- **イ（正）**　既成の停止条件は131条1項により無条件・有効となる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "?",
+     "result": "unknown",
+     "result_label": "未習得（？）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0208",
+   "group": "条件（H19-Q01）",
+   "statement": "〔法律行為の条件〕【判例・民法】境界標を隣接地所有者の知らないうちに自己に有利に移設すれば50万円を贈与するとの契約は、条件が不法なものであるから、その条件は付されなかったのと同様に扱われ、契約は有効である。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H19-Q01 ウ",
+   "article": "note-articles/h19-mondai/q01-joken.md",
+   "article_summary_line": "- **ウ（誤）**　不法条件は132条により契約全体が無効になる（条件だけ外して有効にはならない）",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0209",
+   "group": "条件（H19-Q01）",
+   "statement": "〔法律行為の条件〕【判例・民法】動産の所有者Fが、5年後にGに贈与するが、Fの気が変わった場合にはいつでも契約は効力を失うとの条件を付して書面により贈与契約を締結したときは、Fの意思のみに係る条件を付したものであるから、契約自体が無効となる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H19-Q01 エ",
+   "article": "note-articles/h19-mondai/q01-joken.md",
+   "article_summary_line": "- **エ（誤）**　134条は停止条件付法律行為のみを対象とし、解除条件付きの随意条件は無効にならない",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0210",
+   "group": "条件（H19-Q01）",
+   "statement": "〔法律行為の条件〕【判例・民法】Hが、Iとの間で、契約日から7日以内に動産の修理を完了した場合には割増しで修理代金を支払うとの契約を締結し、HがIの修理道具をわざと損壊したため修理の完了が10日後に遅延したときは、Hは故意に条件の成就を妨害しているから、Iは条件が成就したものとみなして割増分の修理代金の支払をも請求することができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H19-Q01 オ",
+   "article": "note-articles/h19-mondai/q01-joken.md",
+   "article_summary_line": "- **オ（正）**　130条1項により、故意に条件成就を妨げた者の相手方は、条件が成就したものとみなせる",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0716",
+   "group": "条件（H24-Q02）",
+   "statement": "〔法律行為に付された条件〕【判例】農地の売買契約において、「農業委員会の許可を受けなければ、農地の所有権は移転しない。」旨の条項を設けた場合において、売主による故意の妨害行為があったために農業委員会の許可を受けることができなかったときは、買主は、農業委員会の許可を受けたものとみなして、当該農地の所有権を取得することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H24-Q02 ア",
+   "article": "note-articles/h24-mondai/q02-jouken.md",
+   "article_summary_line": "- **ア（誤）**　農地法の許可は行政処分であり、130条のみなし成就では代替できない",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [
+    {
+     "severity": "unverified",
+     "problem": "「私人間の契約上の条件成就をみなす効果（＝130条による擬制の効果）が、行政処分である許可そのものの存在まで作り出すことはできません」と断定。結論を決める規則だが判例等の出典が本文に示されていない。",
+     "proposal": "本文に、判例（「判例の趣旨に照らし」と問われているので判例）に基づく整理である旨を明示するか、法令DBからは条文（農地法3条6項・民法130条）までしか確認できない旨を書く。"
+    }
+   ],
+   "flagged_article_fix": true
+  },
+  {
+   "id": "D0717",
+   "group": "条件（H24-Q02）",
+   "statement": "〔法律行為に付された条件〕【判例】甲土地の買主が甲土地の売買代金の支払を遅滞している場合において、売主がした「2週間以内に甲土地の売買代金を支払わないときは、売買契約を解除する。」旨の意思表示は、単独行為に条件を付するものであるから、無効となる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H24-Q02 イ",
+   "article": "note-articles/h24-mondai/q02-jouken.md",
+   "article_summary_line": "- **イ（誤）**　期限付き催告と一体化した条件付き解除の意思表示は有効",
+   "history": [
+    {
+     "at": "2026-10-04",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [
+    {
+     "severity": "unverified",
+     "problem": "「判例上有効とされています」と断定しているが、判例の出典（種類・名称）が本文になく、法令DBにも該当の原文がない。",
+     "proposal": "「判例上有効とされている」と書くなら判例の出典を示す。示せない場合は、民法541条（催告による解除）の枠組みからの整理であり、判例番号は確認できていない旨を本文に書く。"
+    }
+   ],
+   "flagged_article_fix": true
+  },
+  {
+   "id": "D0718",
+   "group": "条件（H24-Q02）",
+   "statement": "〔法律行為に付された条件〕【判例】「Aが結婚したら、Bは、Aに対し、B所有の甲土地を贈与する。」旨の契約をA及びBが締結した場合には、当事者は、甲土地について、条件付所有権の移転の仮登記をすることができる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H24-Q02 ウ",
+   "article": "note-articles/h24-mondai/q02-jouken.md",
+   "article_summary_line": "- **ウ（正）**　停止条件付き贈与契約の請求権は仮登記で保全できる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "o",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0719",
+   "group": "条件（H24-Q02）",
+   "statement": "〔法律行為に付された条件〕【判例】「Aが大学に合格したら、Bは、Aに対し、B所有の乙建物を贈与する。」旨の契約をA及びBが締結した場合において、Cの放火により乙建物が滅失したときは、Aは、大学に合格する前であっても、Cに対し、乙建物の価値相当額の損害の賠償を請求することができる。",
+   "correct_answer": "×（誤った記述）",
+   "source": "H24-Q02 エ",
+   "article": "note-articles/h24-mondai/q02-jouken.md",
+   "article_summary_line": "- **エ（誤）**　条件成就前の期待的地位は、確定的な損害賠償請求権までは生じさせない",
+   "history": [
+    {
+     "at": "2026-10-03",
+     "answer": "x",
+     "result": "known",
+     "result_label": "定着"
+    }
+   ],
+   "currently_needs_review": false,
+   "article_check_findings": [
+    {
+     "severity": "unverified",
+     "problem": "「合格前の段階でCさんに対して建物の価値相当額を確定的に請求できるとまではいえません」と、肢の正誤を決める断定をしているが、根拠（判例等）が示されていない。",
+     "proposal": "根拠となる判例の出典を示すか、「民法128条の一般原則からの整理であり、直接の判例は確認できていない」と本文に明記する。"
+    }
+   ],
+   "flagged_article_fix": false
+  },
+  {
+   "id": "D0720",
+   "group": "条件（H24-Q02）",
+   "statement": "〔法律行為に付された条件〕【判例】「Aが大学で進級することができなかったら、Bは、Aに対して支払ってきた奨学金をその後は支払わない。」旨の契約をA及びBが締結した場合において、Aが大学で進級することができなかったときは、Bは、Aが大学で進級することができなかったことを知らなくても、Aに対して奨学金を支払う義務を免れる。",
+   "correct_answer": "〇（正しい記述）",
+   "source": "H24-Q02 オ",
+   "article": "note-articles/h24-mondai/q02-jouken.md",
+   "article_summary_line": "- **オ（正）**　解除条件成就の効果は、知・不知にかかわらず当然に生じる",
+   "history": [
+    {
+     "at": "2026-10-05",
+     "answer": "x",
+     "result": "miscon",
+     "result_label": "誤解（逆に覚えている）"
+    }
+   ],
+   "currently_needs_review": true,
+   "article_check_findings": [],
+   "flagged_article_fix": false
+  }
+ ],
+ "_meta": {
+  "generated": "2026-10-05",
+  "data_as_of": "drill 500 answers",
+  "how_to_read": "このJSONは、択一式ドリル（500問時点、2026-10-05）の解答記録を分析した、苦手分析記事の素材。正誤は現行法令を正とし、note-articles/の年度別記事の結論に従っている。引用してよいのは年度別記事（article欄）の本文と法令DB（note-articles/laws/）。article_check_findingsは、記事の条文照合で見つかった指摘（記事側の修正候補）で、苦手分析記事に転記するときは根拠の書き方に注意する。"
+ }
+}

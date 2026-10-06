@@ -2,33 +2,41 @@
 
 **出題年度：平成24年度　午後の部　第9問**
 
-> 地積測量図の訂正の申出に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　土地の所有権の登記名義人の相続人が数人ある場合には、当該土地の地積測量図に誤りがあるときであっても、相続人の一人が地積測量図の訂正の申出をすることはできない。
->
-> イ　土地の地積測量図の求積方法に誤りがあり、当該土地の登記記録の地積と正しい地積とが異なる場合には、地積測量図の訂正の申出をすることができる。
->
-> ウ　土地の所有権の登記名義人の住所が変更され、登記記録の住所と異なる場合には、当該所有権の登記名義人は、地積測量図の訂正の申出に係る申出情報と併せて当該所有権の登記名義人の住所に変更があったことを証する情報を提供して、当該申出をすることができる。
->
-> エ　委任による代理人によって書面による地積測量図の訂正の申出をする場合には、申出情報を記載した書面に添付した当該代理人の権限を証する情報を記載した書面には、その書面に記名押印した申出人の印鑑証明書を添付しなければならない。
->
-> オ　地積測量図に記録された地番の誤りを訂正する地積測量図の訂正の申出をする場合には、登記所に備え付けてある資料により訂正する事由が明らかであるときであっても、訂正後の地積測量図を提供しなければならない。
->
+> 地積測量図の訂正の申出に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　土地の所有権の登記名義人の相続人が数人ある場合には、当該土地の地積測量図に誤りがあるときであっても、相続人の一人が地積測量図の訂正の申出をすることはできない。  
+>　  
+> イ　土地の地積測量図の求積方法に誤りがあり、当該土地の登記記録の地積と正しい地積とが異なる場合には、地積測量図の訂正の申出をすることができる。  
+>　  
+> ウ　土地の所有権の登記名義人の住所が変更され、登記記録の住所と異なる場合には、当該所有権の登記名義人は、地積測量図の訂正の申出に係る申出情報と併せて当該所有権の登記名義人の住所に変更があったことを証する情報を提供して、当該申出をすることができる。  
+>　  
+> エ　委任による代理人によって書面による地積測量図の訂正の申出をする場合には、申出情報を記載した書面に添付した当該代理人の権限を証する情報を記載した書面には、その書面に記名押印した申出人の印鑑証明書を添付しなければならない。  
+>　  
+> オ　地積測量図に記録された地番の誤りを訂正する地積測量図の訂正の申出をする場合には、登記所に備え付けてある資料により訂正する事由が明らかであるときであっても、訂正後の地積測量図を提供しなければならない。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
+
+---
 
 地積測量図の訂正の申出は、「登記記録の内容を変える手続」ではなく「図面そのものの誤記を正す手続」である点が最大のポイントです。実際に地積が変わる場合は、訂正ではなく地積の更正登記が必要になります。
 
 ### ア：相続人の一人からでも訂正の申出はできる
 
-地積測量図の訂正の申出は、正確な記録を回復するための行為であり、他の共有者・相続人の利益を害するものではありません。不動産登記規則88条1項は、地積測量図に誤りがあるときは、表題部所有者もしくは所有権の登記名義人、またはこれらの相続人その他の一般承継人が訂正の申出をすることができると定めており、所有権の登記名義人の相続人が数人いる場合でも、相続人の一人が単独で地積測量図の訂正の申出をすることができます。
+地積測量図の訂正の申出は、正確な記録を回復するための行為であり、他の共有者・相続人の利益を害するものではありません。
+
+不動産登記規則88条1項は、地積測量図に誤りがあるときは、表題部所有者もしくは所有権の登記名義人、またはこれらの相続人その他の一般承継人が訂正の申出をすることができると定めており、所有権の登記名義人の相続人が数人いる場合でも、相続人の一人が単独で地積測量図の訂正の申出をすることができます。
 
 **たとえば**、亡くなったAさんの土地を、子であるB・C・Dの3人が相続したとします。この土地の地積測量図に明らかな誤記があることに気づいたBさんは、C・Dの同意を得なくても、単独で地積測量図の訂正を申し出ることができます。
 
 ### イ：登記記録の地積そのものが変わる場合は、訂正ではなく更正登記による
 
-地積測量図の訂正の申出は、あくまで図面の記載自体の誤りを正す手続です。不動産登記規則88条1項ただし書は、表題部の登記事項に関する更正の登記（地積測量図等を添付情報とするもの）をすることができる場合には、訂正の申出の対象から除く旨を定めています。求積方法の誤りによって、登記記録上の地積と実際の正しい地積とが異なることになる場合はこの除外に当たり、単なる図面の訂正では対応できず、地積の更正の登記という別の手続によらなければなりません。
+地積測量図の訂正の申出は、あくまで図面の記載自体の誤りを正す手続です。不動産登記規則88条1項ただし書は、表題部の登記事項に関する更正の登記（地積測量図等を添付情報とするもの）をすることができる場合には、訂正の申出の対象から除く旨を定めています。
 
-**たとえば**、地積測量図の求積計算に誤りがあり、実は登記簿に記録されている地積が本来の面積より大きすぎたことが判明したとします。この場合、単に地積測量図を訂正するだけでは足りず、登記記録上の地積そのものを正しい数値に直す「地積の更正の登記」を申請しなければなりません。
+求積方法の誤りによって、登記記録上の地積と実際の正しい地積とが異なることになる場合はこの除外に当たり、単なる図面の訂正では対応できず、地積の更正の登記という別の手続によらなければなりません。
+
+**たとえば**、地積測量図の求積計算に誤りがあり、実は登記簿に記録されている地積が本来の面積より大きすぎたことが判明したとします。
+
+この場合、単に地積測量図を訂正するだけでは足りず、登記記録上の地積そのものを正しい数値に直す「地積の更正の登記」を申請しなければなりません。
 
 ### ウ：住所が変わっていても、変更を証する情報を提供すれば申出できる
 
@@ -38,15 +46,23 @@
 
 ### エ：表示に関する登記の委任状には、印鑑証明書の添付までは求められない
 
-委任による代理人が書面で地積測量図の訂正の申出をする場合、代理人の権限を証する情報（委任状）に申出人が記名押印していれば足り、その押印について申出人の印鑑証明書まで添付することは求められません。不動産登記規則88条3項が準用する16条10項は、書面申請の場合に準用する規定を列挙していますが、委任状の押印に印鑑証明書を要求する不動産登記令18条2項はその準用対象に含まれていません。表示に関する登記・申出の手続では、権利に関する登記ほど厳格な本人確認資料は要求されていません。
+委任による代理人が書面で地積測量図の訂正の申出をする場合、代理人の権限を証する情報（委任状）に申出人が記名押印していれば足り、その押印について申出人の印鑑証明書まで添付することは求められません。
+
+不動産登記規則88条3項が準用する16条10項は、書面申請の場合に準用する規定を列挙していますが、委任状の押印に印鑑証明書を要求する不動産登記令18条2項はその準用対象に含まれていません。
+
+表示に関する登記・申出の手続では、権利に関する登記ほど厳格な本人確認資料は要求されていません。
 
 **たとえば**、土地家屋調査士に地積測量図の訂正の申出を依頼する場合、依頼者は委任状に記名押印すれば足り、実印による押印や印鑑証明書の提出まで必要とされるわけではありません。
 
 ### オ：訂正事由が資料から明らかでも、訂正後の図面の提供は省略できない
 
-地積測量図に記録された地番の誤りを訂正する申出をする場合、登記所に備え付けてある資料によって訂正する事由が明らかであるときでも、訂正後の地積測量図そのものを提供しなければなりません（不動産登記規則88条2項）。訂正の理由が明白であることと、正確な訂正後図面の提供義務とは別の話です。
+地積測量図に記録された地番の誤りを訂正する申出をする場合、登記所に備え付けてある資料によって訂正する事由が明らかであるときでも、訂正後の地積測量図そのものを提供しなければなりません（不動産登記規則88条2項）。
+
+訂正の理由が明白であることと、正確な訂正後図面の提供義務とは別の話です。
 
 **たとえば**、地積測量図に記載された地番が、他の登記所備え付け資料と照合すれば誤りであることが一目瞭然だったとしても、申出人は「訂正後の正しい地番を記載した地積測量図」自体を作成して提供しなければならず、「資料を見れば分かるから図面の提出は省略します」ということはできません。
+
+---
 
 ### まとめ
 
@@ -108,13 +124,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 積・測・量・図・訂・正・更・相・続・住・所・印・鑑・証 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -179,18 +213,18 @@ Conclusion tag: 印鑑証明書は不要
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -214,12 +248,12 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not force
-a flowchart. Panel 2（肢イ）is the only 肢 in this problem where BOTH
+a flowchart. Panel 2（イ）is the only 肢 in this problem where BOTH
 branch outcomes are legally meaningful (地積そのものが変わるかどうかで、
 訂正の申出で足りるか地積の更正登記が必要になるかが入れ替わる) and is
 drawn as a true decision tree with both an「はい」side conclusion node and
 an「いいえ」side conclusion node — no branch may loop back to an earlier
-node. The other four panels（肢ア・ウ・エ・オ）are resolved with a single
+node. The other four panels（ア・ウ・エ・オ）are resolved with a single
 check and use a family-tree illustration or a correct-rule-vs-common-
 misconception layout instead of a flowchart. Unlike a glanceable summary
 poster, each panel MAY include a short「着眼点」callout box with 1-2
@@ -267,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 相続人は各自単独で訂正を申し出られる
@@ -286,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単独で申出できる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地積が変わるなら訂正でなく更正登記
@@ -308,7 +342,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地積が変わるなら更正登記
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 住所変更証明情報の提供で申出可能
@@ -327,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 住所変更証明でOK
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 委任状の押印に印鑑証明書は不要
@@ -356,7 +390,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 印鑑証明書は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 訂正事由が明らかでも図面提出は必要
@@ -391,7 +425,7 @@ stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-肢イ is drawn as an actual flowchart with a clearly labeled はい side and
+イ is drawn as an actual flowchart with a clearly labeled はい side and
 いいえ side conclusion node (not a bare illustration with no visible
 decision structure) while the other panels use a family-tree illustration
 or a correct-rule-vs-misconception layout, that each 着眼点 callout states

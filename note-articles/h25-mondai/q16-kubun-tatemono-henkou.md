@@ -2,37 +2,47 @@
 
 **出題年度：平成25年度　午後の部　第16問**
 
-> 区分建物の表題部の変更の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうち、どれか。
->
-> ア　甲区分建物の所有権の登記名義人の申請により、甲区分建物が属する一棟の建物の床面積の変更の登記がされたときは、当該一棟の建物に属する乙区分建物の所有権の登記名義人は、乙区分建物について、当該一棟の建物の床面積の変更の登記を申請することを要しない。
->
-> イ　区分建物について、当該区分建物が属する一棟の建物の構造の変更の登記を申請する場合には、既に登記された一棟の建物の名称を申請情報の内容とするときでも、変更前の一棟の建物の構造及び床面積を申請情報の内容としなければならない。
->
-> ウ　敷地権の目的である土地として甲土地及び乙土地が登記されている敷地権付き区分建物について、一部の取壊しによって甲土地上に当該区分建物が属する一棟の建物が所在しなくなった場合には、その取壊しの日から１か月以内に、敷地権が敷地権でなくなったことによる区分建物である建物の登記記録の表題部の変更の登記を申請しなければならない。
->
-> エ　分筆により区分建物が属する一棟の建物の所在しない土地が生じた場合において、当該区分建物においてその属する一棟の建物の所在の変更の登記を申請するときは、添付情報として、変更後の建物図面を提供しなければならない。
->
-> オ　区分建物の床面積が増加した後、所有権の登記名義人から当該区分建物の所有権を取得した者は、所有権の移転の登記をする前においても、当該区分建物の表題部の変更の登記を申請する義務を負う。
->
+> 区分建物の表題部の変更の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　甲区分建物の所有権の登記名義人の申請により、甲区分建物が属する一棟の建物の床面積の変更の登記がされたときは、当該一棟の建物に属する乙区分建物の所有権の登記名義人は、乙区分建物について、当該一棟の建物の床面積の変更の登記を申請することを要しない。  
+>　  
+> イ　区分建物について、当該区分建物が属する一棟の建物の構造の変更の登記を申請する場合には、既に登記された一棟の建物の名称を申請情報の内容とするときでも、変更前の一棟の建物の構造及び床面積を申請情報の内容としなければならない。  
+>　  
+> ウ　敷地権の目的である土地として甲土地及び乙土地が登記されている敷地権付き区分建物について、一部の取壊しによって甲土地上に当該区分建物が属する一棟の建物が所在しなくなった場合には、その取壊しの日から１か月以内に、敷地権が敷地権でなくなったことによる区分建物である建物の登記記録の表題部の変更の登記を申請しなければならない。  
+>　  
+> エ　分筆により区分建物が属する一棟の建物の所在しない土地が生じた場合において、当該区分建物においてその属する一棟の建物の所在の変更の登記を申請するときは、添付情報として、変更後の建物図面を提供しなければならない。  
+>　  
+> オ　区分建物の床面積が増加した後、所有権の登記名義人から当該区分建物の所有権を取得した者は、所有権の移転の登記をする前においても、当該区分建物の表題部の変更の登記を申請する義務を負う。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
-区分建物は、一棟の建物という共通の枠組みと、各区分建物という個別の枠組みが重なり合う構造になっています。この問題では、「一棟の建物に関する事項は誰か一人が申請すれば足りる」という考え方と、申請義務の主体・添付情報の要否を正確に整理できるかが問われています。
+---
+
+区分建物は、一棟の建物という共通の枠組みと、各区分建物という個別の枠組みが重なり合う構造になっています。
+
+この問題では、「一棟の建物に関する事項は誰か一人が申請すれば足りる」という考え方と、申請義務の主体・添付情報の要否を正確に整理できるかが問われています。
 
 ### ア：一棟の建物の共通事項は、誰か一人が申請すれば足りる
 
-一棟の建物の床面積は、その一棟に属するすべての区分建物に共通する事項です。甲区分建物の所有権登記名義人の申請によって、一棟の建物の床面積の変更の登記がされた場合、その効果は一棟の建物全体に及ぶため、乙区分建物の所有権登記名義人が重ねて同じ変更の登記を申請する必要はありません。
+一棟の建物の床面積は、その一棟に属するすべての区分建物に共通する事項です。
+
+甲区分建物の所有権登記名義人の申請によって、一棟の建物の床面積の変更の登記がされた場合、その効果は一棟の建物全体に及ぶため、乙区分建物の所有権登記名義人が重ねて同じ変更の登記を申請する必要はありません。
 
 **たとえば**、マンションの共用部分が増築されて建物全体の床面積が変わった場合、101号室の所有者が変更登記を申請すれば、102号室や201号室の所有者があらためて同じ内容の変更登記を申請する必要はありません。
 
 ### イ：一棟の建物の名称を申請情報とする場合は、変更前の構造・床面積の記載を省略できる
 
-区分建物が属する一棟の建物の構造の変更の登記を申請する場合、通常は変更前の一棟の建物の構造及び床面積を申請情報の内容としなければなりませんが、既に登記された一棟の建物の名称を申請情報の内容とするときは、その名称によって対象となる建物を特定できるため、変更前の構造・床面積まで重ねて記載する必要はありません。「名称を申請情報とするときでも記載しなければならない」とするのは誤りです。
+区分建物が属する一棟の建物の構造の変更の登記を申請する場合、通常は変更前の一棟の建物の構造及び床面積を申請情報の内容としなければなりませんが、既に登記された一棟の建物の名称を申請情報の内容とするときは、その名称によって対象となる建物を特定できるため、変更前の構造・床面積まで重ねて記載する必要はありません。
+
+「名称を申請情報とするときでも記載しなければならない」とするのは誤りです。
 
 **たとえば**、「〇〇マンション」という登記済みの名称がある建物であれば、その名称を申請書に書くだけで対象の建物が特定できるので、あらためて変更前の構造や床面積を詳しく書き直す必要はありません。
 
 ### ウ：敷地権が敷地権でなくなった場合の変更登記に、「1か月以内」という期限はない
 
-敷地権の目的である土地の一部について、建物の取壊しなどにより敷地権でなくなった場合の区分建物の表題部の変更の登記には、建物の滅失登記のような「1か月以内」という明確な申請期限は課されていません。「1か月以内」という期限を敷地権消滅の変更登記にそのまま適用するのは誤りです。
+敷地権の目的である土地の一部について、建物の取壊しなどにより敷地権でなくなった場合の区分建物の表題部の変更の登記には、建物の滅失登記のような「1か月以内」という明確な申請期限は課されていません。
+
+「1か月以内」という期限を敷地権消滅の変更登記にそのまま適用するのは誤りです。
 
 **たとえば**、マンションの一部取壊しによって、敷地権の対象だった土地の一方が建物の敷地でなくなったとしても、建物が完全になくなった場合の滅失登記のような1か月以内という厳格な期限は、この変更登記には設けられていません。
 
@@ -44,9 +54,13 @@
 
 ### オ：所有権移転登記前の取得者には、表題部変更登記の申請義務は課されない
 
-表示に関する登記の申請義務は、原則として現在の表題部所有者又は所有権の登記名義人に課されるものです。区分建物の床面積が増加した後にその区分建物の所有権を取得した者であっても、所有権の移転の登記が未了で、まだ登記記録上の名義人となっていない段階では、表題部の変更の登記を申請する義務を負うわけではありません。
+表示に関する登記の申請義務は、原則として現在の表題部所有者又は所有権の登記名義人に課されるものです。
+
+区分建物の床面積が増加した後にその区分建物の所有権を取得した者であっても、所有権の移転の登記が未了で、まだ登記記録上の名義人となっていない段階では、表題部の変更の登記を申請する義務を負うわけではありません。
 
 **たとえば**、増築されて床面積が増えたマンションの部屋を買った人がいたとしても、その買主の名義に所有権移転登記がまだ済んでいない段階では、その買主自身が表題部の変更登記を申請する義務を負うわけではありません。
+
+---
 
 ### まとめ
 
@@ -109,12 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・建・物・登・記・所 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -186,17 +218,17 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading +
-a short conclusion tag, at a glance.
+a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -271,7 +303,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 共通事項は一人の申請で足りる
@@ -286,7 +318,7 @@ leading to a conclusion node reading 乙区分所有者は重ねて申請不要�
 faded, dotted-outline box captioned まだなら誰かが申請する必要あり. The
 いいえ branch of the first diamond (各区分建物専有部分の個別事項の場合)
 is drawn in a faded, greyed-out, dotted-outline style leading to a small
-box captioned 各区分建物ごとに個別の申請が必要（本問の対象外）, clearly
+box captioned 各区分建物ごとに個別の申請が必要, clearly
 less prominent than the highlighted はい path.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、変更する事項が一棟の建物に共通する事項（床面積など）かどうかを確認
@@ -296,7 +328,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一人の申請で足りる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 建物名称の提供で記載を省略できる
@@ -318,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 名称提供で省略可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 敷地権消滅の変更登記に期限規定なし
@@ -340,7 +372,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1か月の期限なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 所在変更の登記には新しい建物図面が必要
@@ -358,14 +390,14 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 変更後建物図面が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 移転登記が済むまで申請義務なし
 Diagram: A decision-tree flowchart on an isometric condominium unit whose
-floor area increased (床面積が増加). First diamond node: 区分建物の所有権
-を取得したか？ with a はい arrow proceeding downward to a second diamond
-node (drawn with a thick highlighted border): 所有権の移転の登記が完了し、
+floor area increased (床面積が増加). A rectangular check box (NOT a
+diamond): 区分建物の所有権を取得した, with a single arrow proceeding
+downward to a diamond node (drawn with a thick highlighted border): 所有権の移転の登記が完了し、
 登記記録上の名義人になっているか？ with two equally-weighted branch
 arrows. いいえ branch (highlighted, since this is the branch this panel is
 about) leads to a conclusion node reading 表題部の変更の登記を申請する義
@@ -397,10 +429,10 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢 (肢ア・
-肢イ・肢オ) is drawn as an actual flowchart with branch nodes (not a bare
+between the header and the panels, that every multi-condition 肢 (ア・
+イ・オ) is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that no 肢 with a
-genuinely hidden second condition (肢オ's registration-name requirement)
+genuinely hidden second condition (オ's registration-name requirement)
 has been flattened into a single check, that each 着眼点 callout states a
 checking order rather than only a conclusion and keeps every required
 element from the source article distinct (no merged or dropped

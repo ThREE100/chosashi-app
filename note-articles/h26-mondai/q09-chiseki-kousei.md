@@ -2,37 +2,47 @@
 
 **出題年度：平成26年度　午後の部　第9問**
 
-> 地積の更正の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　土地の表題部所有者又は所有権の登記名義人は，地積について錯誤があったことが判明した日から1か月以内に，地積の更正の登記を申請しなければならない。
->
-> イ　一筆の土地の一部を時効取得した者は，当該土地の所有権の登記名義人に代位して分筆の登記を申請する場合に，当該土地について，分筆前の地積と分筆後の地積との差が分筆前の地積を基準にして不動産登記規則に定められている地積測定における誤差の限度を超えるときであっても，当該土地について地積の更正の登記を代位によって申請することはできない。
->
-> ウ　土地の地積が減少することとなる地積の更正の登記を申請する場合には，当該土地に抵当権の設定の登記がされていても，その抵当権の登記名義人が承諾したことを証する情報を提供することを要しない。
->
-> エ　土地の表題部所有者又は所有権の登記名義人のほか，当該土地の抵当権の登記名義人も，当該土地について地積の更正の登記を申請することができる。
->
-> オ　A及びBが所有権の登記名義人である土地について，Aが単独で地積の更正の登記を申請する場合であっても，Bが承諾したことを証する情報を提供することを要しない。
->
+> 地積の更正の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　土地の表題部所有者又は所有権の登記名義人は，地積について錯誤があったことが判明した日から1か月以内に，地積の更正の登記を申請しなければならない。  
+>　  
+> イ　一筆の土地の一部を時効取得した者は，当該土地の所有権の登記名義人に代位して分筆の登記を申請する場合に，当該土地について，分筆前の地積と分筆後の地積との差が分筆前の地積を基準にして不動産登記規則に定められている地積測定における誤差の限度を超えるときであっても，当該土地について地積の更正の登記を代位によって申請することはできない。  
+>　  
+> ウ　土地の地積が減少することとなる地積の更正の登記を申請する場合には，当該土地に抵当権の設定の登記がされていても，その抵当権の登記名義人が承諾したことを証する情報を提供することを要しない。  
+>　  
+> エ　土地の表題部所有者又は所有権の登記名義人のほか，当該土地の抵当権の登記名義人も，当該土地について地積の更正の登記を申請することができる。  
+>　  
+> オ　A及びBが所有権の登記名義人である土地について，Aが単独で地積の更正の登記を申請する場合であっても，Bが承諾したことを証する情報を提供することを要しない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 地積の更正の登記は、もとの地積の記録に誤りがあったことを訂正するための登記です。「変更」の登記とは異なり申請義務がないこと、そして申請人・添付情報のルールを正確に理解しているかがこの問題のポイントです。
 
 ### ア：地積の更正の登記に、1か月以内の申請義務はない
 
-地積の更正の登記は、登記記録上の地積に錯誤（誤り）があったことを訂正するための登記であり、不動産登記法上、「錯誤が判明した日から1か月以内に申請しなければならない」という申請義務の規定はありません。地目・地積の「変更」の登記に申請義務があるのとは区別して理解する必要があります。
+地積の更正の登記は、登記記録上の地積に錯誤（誤り）があったことを訂正するための登記であり、不動産登記法上、「錯誤が判明した日から1か月以内に申請しなければならない」という申請義務の規定はありません。
+
+地目・地積の「変更」の登記に申請義務があるのとは区別して理解する必要があります。
 
 **たとえば**、ある土地の登記記録上の地積が、実際に測量してみたら記録と違っていたことが判明したとします。この場合、表題部所有者や所有権の登記名義人は、1か月以内に地積の更正の登記を申請しなければならない、という法律上の義務は負いません。
 
 ### イ：誤差の限度を超える場合、代位による分筆登記の際に地積の更正登記も申請できる
 
-一筆の土地の一部を時効取得した者が、所有権の登記名義人に代位して分筆の登記を申請する場合、分筆前後の地積の差が不動産登記規則に定める誤差の限度を超えるときは、地積の更正の登記も併せて代位により申請することができます。「できない」とするこの記述は誤りです。
+一筆の土地の一部を時効取得した者が、所有権の登記名義人に代位して分筆の登記を申請する場合、分筆前後の地積の差が不動産登記規則に定める誤差の限度を超えるときは、地積の更正の登記も併せて代位により申請することができます。
 
-**たとえば**、Aさんの土地の一部をBさんが時効取得し、Bさんが所有権の登記名義人であるAさんに代位して分筆の登記を申請するとします。このとき、分筆前後で地積の差が測量上の誤差の限度を超えていることが分かった場合、Bさんはその分筆の登記と併せて、地積の更正の登記も代位して申請することができます。
+「できない」とするこの記述は誤りです。
+
+**たとえば**、Aさんの土地の一部をBさんが時効取得し、Bさんが所有権の登記名義人であるAさんに代位して分筆の登記を申請するとします。
+
+このとき、分筆前後で地積の差が測量上の誤差の限度を超えていることが分かった場合、Bさんはその分筆の登記と併せて、地積の更正の登記も代位して申請することができます。
 
 ### ウ：地積が減少する更正登記でも、抵当権者の承諾は不要
 
-土地の地積が減少することとなる地積の更正の登記を申請する場合であっても、その土地に設定されている抵当権の登記名義人の承諾を証する情報を提供する必要はありません。地積の更正は、同一性のある土地の記載を実際の状況に合わせて訂正するものであり、権利関係そのものに変動を生じさせるものではないためです。
+土地の地積が減少することとなる地積の更正の登記を申請する場合であっても、その土地に設定されている抵当権の登記名義人の承諾を証する情報を提供する必要はありません。
+
+地積の更正は、同一性のある土地の記載を実際の状況に合わせて訂正するものであり、権利関係そのものに変動を生じさせるものではないためです。
 
 **たとえば**、ある土地の登記記録上の地積が実際より広く記録されていたことが分かり、正しい（より小さい）地積に更正する登記を申請するとします。この土地に抵当権が設定されていたとしても、その抵当権者から承諾を得る必要はありません。
 
@@ -44,9 +54,13 @@
 
 ### オ：共有者の一人でも、単独で地積の更正の登記を申請できる
 
-A及びBが共有する土地について、Aが単独で地積の更正の登記を申請する場合、他の共有者であるBの承諾を証する情報を提供する必要はありません。地積の更正の登記は、共有物の保存行為に類するものと位置づけられ、共有者の一人から単独で申請することが認められています。
+A及びBが共有する土地について、Aが単独で地積の更正の登記を申請する場合、他の共有者であるBの承諾を証する情報を提供する必要はありません。
+
+地積の更正の登記は、共有物の保存行為に類するものと位置づけられ、共有者の一人から単独で申請することが認められています。
 
 **たとえば**、A・B共有の土地について、地積に誤りがあることに気づいたAさんが、Bさんの承諾を取り付けなくても、単独でその土地の地積の更正の登記を申請することができます。
+
+---
 
 ### まとめ
 
@@ -68,7 +82,7 @@ A及びBが共有する土地について、Aが単独で地積の更正の登�
 - 出題年度・問題番号・正解番号（5番＝ウ・オ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア・エ（不動産登記法38条：土地の表題部の更正の登記は表題部所有者又は所有権の登記名義人以外の者は申請できないこと。同条には37条〔変更の登記〕のような「1か月以内」の申請義務規定が置かれていないこと）は、`note-articles/laws/fudousan-touki-hou.md`に保存した条文原文で確認済みです。37条（変更登記、期限あり）と38条（更正登記、期限なし）の条文構造の対比から、地積の更正の登記に申請義務がないことが裏付けられます。ウ（地積減少時の抵当権者の承諾の要否）は、不動産登記令別表六項「地積に関する変更の登記又は更正の登記」の添付情報欄が「地積測量図」のみを定め、抵当権者の承諾を証する情報を要求していないことから、条文上確認できました。オ・イ（共有者の一人による単独申請、代位申請時の地積更正登記の可否）については、実務上確立した取扱いとして整理していますが、条文に直接の明記がなく、不動産登記規則・実務先例レベルでの追加確認が望ましい部分です。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。地積の更正の登記の申請人・添付情報がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記法・不動産登記令の現行条文（2026-08-04取得）で38条・別表六項等を再確認し、肢ウの根拠（別表六項の添付情報欄）を新たに条文上確認しました。令和5年4月1日施行の共有制度改正（民法252条等）が肢オ（共有者の一人による地積の更正の登記の単独申請）に影響しないかも確認しましたが、この改正は共有物の利用・管理方法に関する共有者間の意思決定ルールの見直しであり、表示に関する登記における保存行為としての単独申請の扱い（不動産登記法上の申請人適格の問題）には影響しません。他の肢についても、結論に影響する法改正は見当たりませんでした。
+- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記法・不動産登記令の現行条文（2026-08-04取得）で38条・別表六項等を再確認し、ウの根拠（別表六項の添付情報欄）を新たに条文上確認しました。令和5年4月1日施行の共有制度改正（民法252条等）がオ（共有者の一人による地積の更正の登記の単独申請）に影響しないかも確認しましたが、この改正は共有物の利用・管理方法に関する共有者間の意思決定ルールの見直しであり、表示に関する登記における保存行為としての単独申請の扱い（不動産登記法上の申請人適格の問題）には影響しません。他の肢についても、結論に影響する法改正は見当たりませんでした。
 
 ---
 
@@ -108,12 +122,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 積・権・記・登・証・誤 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -192,20 +224,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、各肢についてどんな図を描き、どの順番で条件を確認すれば正しい結論にたどり着けるかを示す作図ガイド。アは「地積の更正の登記」と「地積の変更の登記」のどちらの話かをまず見分ける対比枠で示し、イは分筆前後の地積差が誤差の限度を超えるかどうかで代位申請の範囲が変わる決定木で示す。
 
@@ -278,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in teal containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -291,7 +323,7 @@ calendar icon crossed out by a red cross mark next to the label "申請義
 務の規定なし". Right box, rendered in a muted/greyed tone for contrast
 only (not the subject of this 肢): labeled "地積の変更の登記", showing a
 land plot with a "現況の変化を反映" icon and a calendar icon with the
-label "錯誤判明日から1か月以内に申請義務あり" in green.
+label "変更があった日から1か月以内に申請義務あり（法37条1項）" in green.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、問題になっているのが「地積の更正の登記」なのか、それとも「地積の変
 更の登記」なのかを見分けます。更正登記には錯誤を訂正するという性質から、
@@ -300,7 +332,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 更正登記に申請義務なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in teal containing the number 2.
 Heading (bold, ONE line):
 地積差が誤差限度を超えるかを確認する
@@ -323,7 +355,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 誤差超過なら更正も代位可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in teal containing the number 3.
 Heading (bold, ONE line):
 権利関係への影響の有無を確認する
@@ -341,7 +373,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 抵当権者の承諾は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 申請人は表題部所有者等に限られる
@@ -360,7 +392,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 抵当権者は申請人になれない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 共有者の一人でも単独申請できる

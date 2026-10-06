@@ -2,31 +2,43 @@
 
 **出題年度：平成20年度　午後の部　第17問**
 
-> 建物の床面積に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　出窓は、その高さ1.5メートル以上のもので、その下部が床面と同一の高さにあるものに限り、床面積に算入する。
->
-> イ　柱又は壁が傾斜している場合の床面積は、各階の床面に接着する壁その他の区画の中心線で囲まれた部分の水平投影面積である。
->
-> ウ　建物の一部が上階まで吹抜になっている場合には、その吹抜の部分は、上階の床面積に算入しない。
->
-> エ　開閉式の屋根を有する建物における開閉式屋根の開閉可能な部分の下に当たる部分は、床面積に算入しない。
->
-> オ　独立性のある二棟の高層建物を往来するために２階部分に工作した建物の通路は、床面積に算入しなければならない。
->
+> 建物の床面積に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　出窓は、その高さ1.5メートル以上のもので、その下部が床面と同一の高さにあるものに限り、床面積に算入する。  
+>　  
+> イ　柱又は壁が傾斜している場合の床面積は、各階の床面に接着する壁その他の区画の中心線で囲まれた部分の水平投影面積である。  
+>　  
+> ウ　建物の一部が上階まで吹抜になっている場合には、その吹抜の部分は、上階の床面積に算入しない。  
+>　  
+> エ　開閉式の屋根を有する建物における開閉式屋根の開閉可能な部分の下に当たる部分は、床面積に算入しない。  
+>　  
+> オ　独立性のある二棟の高層建物を往来するために２階部分に工作した建物の通路は、床面積に算入しなければならない。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-建物の床面積は、不動産登記規則115条が原則（壁その他の区画の中心線、区分建物は内側線で囲まれた部分の水平投影面積）を定め、不動産登記事務取扱手続準則82条が個別の場面ごとの扱いを列挙する、という二段構えになっています。出窓・吹抜・開閉式屋根・渡り廊下という、判断に迷いやすい構造をひとつずつ整理します。
+---
+
+建物の床面積は、不動産登記規則115条が原則（壁その他の区画の中心線、区分建物は内側線で囲まれた部分の水平投影面積）を定め、不動産登記事務取扱手続準則82条が個別の場面ごとの扱いを列挙する、という二段構えになっています。
+
+出窓・吹抜・開閉式屋根・渡り廊下という、判断に迷いやすい構造をひとつずつ整理します。
 
 ### ア：床面と同じ高さの出窓部分は、床面積に算入する
 
-準則82条（11）は、出窓について「その高さ1.5メートル以上のものでその下部が床面と同一の高さにあるものに限り、床面積に算入する」と定めています。高さと、下部が床面と同一の高さにあることの**両方**を満たすものだけが算入対象で、床から離れた高い位置にあるだけの張り出し窓は含まれません。したがって本肢は正しい記述です。
+準則82条（11）は、出窓について「その高さ1.5メートル以上のものでその下部が床面と同一の高さにあるものに限り、床面積に算入する」と定めています。
 
-**たとえば**、居間の一部が外に張り出していて、その張り出し部分の床が室内の床とそのまま同じ高さでつながっている出窓であれば、そこも実際に使える床として面積に算入します。逆に、壁の途中の高い位置にちょこんと付いているだけの飾り窓のような出窓は、床としては使えないので算入しません。
+高さと、下部が床面と同一の高さにあることの**両方**を満たすものだけが算入対象で、床から離れた高い位置にあるだけの張り出し窓は含まれません。したがって本肢は正しい記述です。
+
+**たとえば**、居間の一部が外に張り出していて、その張り出し部分の床が室内の床とそのまま同じ高さでつながっている出窓であれば、そこも実際に使える床として面積に算入します。
+
+逆に、壁の途中の高い位置にちょこんと付いているだけの飾り窓のような出窓は、床としては使えないので算入しません。
 
 ### イ：傾斜した柱・壁の床面積は、床面に接着する部分の中心線で計算する
 
-準則82条9号は、柱又は壁が傾斜している場合の床面積は「各階の床面に接着する壁その他の区画の中心線で囲まれた部分による」と定めています。区分建物でない通常の建物の床面積は不動産登記規則115条により壁その他の区画の中心線（いわゆる壁芯）で測りますが、壁が傾いていると「どの高さの中心線か」で面積が変わってしまうため、**床面に接着する位置**を基準にすることを明示したものです。したがって本肢は正しい記述です。
+準則82条9号は、柱又は壁が傾斜している場合の床面積は「各階の床面に接着する壁その他の区画の中心線で囲まれた部分による」と定めています。
+
+区分建物でない通常の建物の床面積は不動産登記規則115条により壁その他の区画の中心線（いわゆる壁芯）で測りますが、壁が傾いていると「どの高さの中心線か」で面積が変わってしまうため、**床面に接着する位置**を基準にすることを明示したものです。
+
+したがって本肢は正しい記述です。
 
 **たとえば**、外壁が斜めに傾いている変わった形の建物でも、床に接する部分を基準にした壁の中心線を使って、床面積を計算します。
 
@@ -38,15 +50,21 @@
 
 ### エ：開閉式屋根の下も、床面積に算入する
 
-開閉式の屋根を持つ建物（屋根が開閉するドーム状の施設など）については、**開閉可能な部分の下にあたる観客席・フィールド等の部分も床面積に算入する**扱いとされています。屋根が開くかどうかは、その場所が床として使われているかどうかとは別の問題だからです。したがって「床面積に算入しない」とする本肢は誤りです。
+開閉式の屋根を持つ建物（屋根が開閉するドーム状の施設など）については、**開閉可能な部分の下にあたる観客席・フィールド等の部分も床面積に算入する**扱いとされています。
+
+屋根が開くかどうかは、その場所が床として使われているかどうかとは別の問題だからです。したがって「床面積に算入しない」とする本肢は誤りです。
 
 **たとえば**、天候に応じて屋根を開け閉めできる多目的施設でも、屋根の下にある観客席やフロアの床は、屋根が開いている・閉じているにかかわらず、床面積として数えます。
 
 ### オ：独立した2棟をつなぐ渡り廊下は、床面積に算入しない
 
-独立性のある2棟の高層建物を往来するために設けられた通路（渡り廊下）は、それぞれの建物が独立した一棟の建物として取り扱われる以上、その通路部分は**通行のために使われているにすぎず、独立した用途性がない**ため、床面積には算入しないものとされています。したがって「算入しなければならない」とする本肢は誤りです。
+独立性のある2棟の高層建物を往来するために設けられた通路（渡り廊下）は、それぞれの建物が独立した一棟の建物として取り扱われる以上、その通路部分は**通行のために使われているにすぎず、独立した用途性がない**ため、床面積には算入しないものとされています。
+
+したがって「算入しなければならない」とする本肢は誤りです。
 
 **たとえば**、独立した2棟のオフィスビルを2階の高さでつなぐ渡り廊下は、両方の建物が別々の建物として登記されているのであれば、その渡り廊下部分をどちらかの建物の床面積に加えることはしません。
+
+---
 
 ### まとめ
 
@@ -85,7 +103,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -108,10 +126,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -171,27 +207,27 @@ legal citation):
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
-独立2棟をつなぐ渡り廊下は算入とは限らない
-Illustration: 2棟の高層ビルを2階でつなぐ渡り廊下のisometricイラスト。どちらの建物の床面積に入るかを示す矢印に「？」マーク。
+独立2棟をつなぐ渡り廊下は算入しない
+Illustration: 2棟の高層ビルを2階でつなぐ渡り廊下のisometricイラスト。渡り廊下から両方の建物へ伸びる「床面積に算入」の矢印にそれぞれ✕マーク、渡り廊下に「通行のみ」のラベル。
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
 legal citation):
-一律の算入ではない
+通行のみで不算入
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -210,15 +246,15 @@ jutting out from its wall, a building with visibly slanted exterior
 walls, a two-story house with a void (吹抜け) reaching from the 1st floor
 up to the 2nd floor ceiling, a dome-roofed stadium with an openable roof,
 and two separate high-rise buildings connected by an elevated corridor.
-Panel 1（肢ア）requires checking two conditions in sequence (the bay
+Panel 1（ア）requires checking two conditions in sequence (the bay
 window's height, AND whether its base is level with the floor) before
 reaching a conclusion, so draw it as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, はい/いいえ
 branch arrows, and a separate conclusion node for each "いいえ" branch as
-well as the final "はい" branch. Panel 4（肢エ）is not a multi-step check but
+well as the final "はい" branch. Panel 4（エ）is not a multi-step check but
 a common thinking trap, so draw it as a LEFT/RIGHT comparison between the
 mistaken intuition and the correct rule rather than a flowchart. Panels 2・
-3・5（肢イ・肢ウ・肢オ）are each resolved by a single check, so draw a
+3・5（イ・ウ・オ）are each resolved by a single check, so draw a
 labeled illustrative diagram for them instead of forcing a flowchart. Do
 not include case or precedent numbers (article/regulation numbers are
 fine); keep the callout text as written below verbatim, and keep every
@@ -261,7 +297,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line):
 出窓は高さと床の高さを両方確認する
@@ -283,7 +319,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 両方満たせば算入
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line):
 傾いた壁は床に接する高さで中心線を引く
@@ -300,7 +336,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 床に接する中心線
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line):
 上階まで続く吹抜には床が存在しない
@@ -318,7 +354,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 床がなく不算入
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line):
 屋根の開閉は床面積の算入と無関係
@@ -339,7 +375,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 屋根の開閉は無関係
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line):
 2棟をつなぐ通路は独立した用途を持たない

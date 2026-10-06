@@ -2,21 +2,25 @@
 
 **出題年度：平成22年度　午後の部　第12問**
 
-> 地目に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。
->
-> ア　水面のうち、かんがい用水でない水の貯留池の地目は、ため池である。
->
-> イ　畑の耕作を放棄したことによって雑草、かん木類が生育する土地の地目は、雑種地である。
->
-> ウ　高圧線の下にある建物の敷地である土地の地目は、宅地である。
->
-> エ　都市計画法における工業専用地域に指定された地域内に建設された工場の敷地である土地の地目は、工場用地である。
->
-> オ　地目が山林である土地において、建物の敷地とするための造成工事は完了したが、建物の建築工事が完了しておらず、進行中である場合には、当該土地の地目は、雑種地である。
->
+> 地目に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。  
+>　  
+> ア　水面のうち、かんがい用水でない水の貯留池の地目は、ため池である。  
+>　  
+> イ　畑の耕作を放棄したことによって雑草、かん木類が生育する土地の地目は、雑種地である。  
+>　  
+> ウ　高圧線の下にある建物の敷地である土地の地目は、宅地である。  
+>　  
+> エ　都市計画法における工業専用地域に指定された地域内に建設された工場の敷地である土地の地目は、工場用地である。  
+>　  
+> オ　地目が山林である土地において、建物の敷地とするための造成工事は完了したが、建物の建築工事が完了しておらず、進行中である場合には、当該土地の地目は、雑種地である。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
-地目は、土地の「現況（実際の使われ方）」で判断します。地目の種類は不動産登記規則で定められた23種類に限られており、「工場用地」のような、それらしく聞こえるけれど存在しない地目に引っかからないことが大切です（認定基準は不動産登記事務取扱手続準則68条・69条）。
+---
+
+地目は、土地の「現況（実際の使われ方）」で判断します。
+
+地目の種類は不動産登記規則で定められた23種類に限られており、「工場用地」のような、それらしく聞こえるけれど存在しない地目に引っかからないことが大切です（認定基準は不動産登記事務取扱手続準則68条・69条）。
 
 ### ア：かんがい用水でない貯留池は、「ため池」ではなく「池沼」
 
@@ -26,7 +30,9 @@
 
 ### イ：畑の耕作を放棄しても、すぐに「雑種地」にはならない
 
-畑の耕作を放棄したことによって雑草やかん木類が生育している土地は、耕作の方法によらないで雑草・かん木類が生育する土地として「原野」に当たり得るものであって、「雑種地」ではありません。雑種地は、他のどの地目にも当てはまらない土地を受け止める最後の受け皿であり、放棄された農地がただちにこれに分類されるわけではありません。したがって「雑種地」とする点は誤りです。
+畑の耕作を放棄したことによって雑草やかん木類が生育している土地は、耕作の方法によらないで雑草・かん木類が生育する土地として「原野」に当たり得るものであって、「雑種地」ではありません。
+
+雑種地は、他のどの地目にも当てはまらない土地を受け止める最後の受け皿であり、放棄された農地がただちにこれに分類されるわけではありません。したがって「雑種地」とする点は誤りです。
 
 **たとえば**、しばらく耕すのをやめて草や低木が生えてきた畑は、いきなり「雑種地」という扱いにはならず、現況に応じて「原野」などと判断されます。
 
@@ -47,6 +53,8 @@
 山林であった土地について、建物の敷地とするための造成工事が完了し、建物の建築工事が進行中である場合には、その土地はすでに宅地としての利用に向かっているものとして、地目は「宅地」と認定されます。「雑種地」とする点は誤りです。
 
 **たとえば**、山を切り開いて宅地にするための造成が終わり、いままさに家を建てている最中の土地は、「雑種地」ではなく「宅地」として扱われます。
+
+---
 
 ### まとめ
 
@@ -69,7 +77,7 @@
 - 各肢の根拠は、地目の認定に関する不動産登記事務取扱手続準則68条・69条（地目は現況主義、地目は23種類）に基づいて記載しています。ア（かんがい用水でない貯留池＝池沼）は、準則の池沼の定義（かんがい用水でない水の貯留池）から確認できるものです。エ（「工場用地」という地目は存在しない）も準則の地目の種類から確認できます。イ・オについては、耕作放棄地・造成中の土地の地目認定に関する準則・実務の一般的な理解に基づくもので、細目までは各自でも確認することをおすすめします。
 - 正しいものが1個という結論は公式の正解番号と一致しており、その1個がウ（宅地）であることは上記の認定基準から導いています。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であり、一部に肢の正誤の記述に混乱が見られたため、準則の認定基準による確認を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（地目）と同一の問題が再出題されていないかを確認しました。「地目」は令和5年度第8問でも再出題されるテーマです（問題文＋肢全体の類似度0.30程度）。肢単位では、本問の肢ウ「高圧線の下にある建物の敷地である土地の地目は宅地である」と令和5年度第8問の肢イは、ほぼ同一の文言（類似度0.88）ですが、令和5年度は同じ事例を「雑種地とする」という誤りの肢として逆方向から出題しており、他の4肢の組合せも異なります。**問題全体としての重複ではありません**。地目の認定基準は繰り返し問われる頻出論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（地目）と同一の問題が再出題されていないかを確認しました。「地目」は令和5年度第8問でも再出題されるテーマです（問題文＋肢全体の類似度0.30程度）。肢単位では、本問のウ「高圧線の下にある建物の敷地である土地の地目は宅地である」と令和5年度第8問のイは、ほぼ同一の文言（類似度0.88）ですが、令和5年度は同じ事例を「雑種地とする」という誤りの肢として逆方向から出題しており、他の4肢の組合せも異なります。**問題全体としての重複ではありません**。地目の認定基準は繰り返し問われる頻出論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -108,12 +116,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to the kanji 溜・池・畑・宅 — these
+summarize, or substitute any characters. Pay special attention to the kanji 池・畑・宅 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -151,11 +177,11 @@ Badge: a filled circle containing the number 2 (numbers run continuously).
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 耕作放棄地はすぐには雑種地にならない
 
-Illustration: An abandoned farm-field icon with overgrown weeds/bushes, a tag「畑」still attached, with a ✕ over a 「雑種地」label crossed out beside it.
+Illustration: An abandoned farm-field icon with overgrown weeds/bushes, a tag「原野」attached with a checkmark, with a ✕ over a 「雑種地」label crossed out beside it.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
-現況次第で畑のまま
+現況に応じて原野等
 
 
 --- CARD 3 ---
@@ -202,25 +228,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・エは、名称のイメージだけで地目を思い込みやすい記述であるため、「誤りやすい思い込み」と「正しいルール」を左右で対比させる正誤対比型とする。肢ウ・オは、現況を段階的に確認して結論に至る決定木型とする。
+ア・イ・エは、名称のイメージだけで地目を思い込みやすい記述であるため、「誤りやすい思い込み」と「正しいルール」を左右で対比させる正誤対比型とする。ウ・オは、現況を段階的に確認して結論に至る決定木型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -293,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -313,7 +337,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 正しくは「池沼」
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -334,7 +358,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 まず現況の地目を検討
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -353,7 +377,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 高圧線は無関係
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -373,7 +397,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 「工場用地」は存在しない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -397,12 +421,11 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記事務取扱手続準則68条・69条（地目の認定基準）。判例・
-先例番号は省略。
+条文根拠：不動産登記事務取扱手続準則68条・69条（地目の認定基準）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 池, 沼, 畑, 耕, 雑, 種, 宅, 敷, 造, 築.
+Chinese, paying special attention to 池, 沼, 耕, 雑, 種, 宅, 敷, 造, 築.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,

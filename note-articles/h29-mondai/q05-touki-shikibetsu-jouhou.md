@@ -2,51 +2,71 @@
 
 **出題年度：平成29年度　午後の部　第5問**
 
-> 登記識別情報の通知に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　所有権の登記名義人であるＡの申請により，甲土地と乙土地との合筆の登記をする場合において，Ａからあらかじめ登記識別情報の通知を希望しない旨の申出があったときは，登記識別情報は通知されない。
->
-> イ　所有権の登記名義人であるＡの申請により，甲土地と乙土地との合筆の登記をする場合において，甲土地と乙土地に，登記の目的，申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のＢを登記名義人とする抵当権の設定の登記がされているときは，Ｂに登記識別情報が通知される。
->
-> ウ　Ａを所有権の登記名義人とする甲土地と乙土地との合筆の登記を，資格者代理人Ｂが電子申請の方法により申請するに際し，Ｂが登記識別情報の通知を受けるための特別の委任を受けていた場合において，登記識別情報の送信が可能になった時から30日以内にＢが自己の使用に係る電子計算機に備えられたファイルに当該登記識別情報を記録しないときは，Ｂに登記識別情報は通知されない。
->
-> エ　Ａを所有権の登記名義人とする甲土地と乙土地との合筆の登記を，資格者代理人Ｂが書面申請の方法により申請するに際し，Ｂが登記識別情報の通知を受けるための特別の委任を受けていた場合において，登記完了の時から3月以内にＢが登記識別情報を記載した書面を受領しないときは，Ｂに登記識別情報は通知されない。
->
-> オ　官庁の嘱託により，当該官庁を所有権の登記名義人とする甲土地と乙土地との合筆の登記をする場合には，当該官庁からあらかじめ登記識別情報の通知を希望する旨の申出があっても，登記識別情報は通知されない。
->
+> 登記識別情報の通知に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　所有権の登記名義人であるＡの申請により，甲土地と乙土地との合筆の登記をする場合において，Ａからあらかじめ登記識別情報の通知を希望しない旨の申出があったときは，登記識別情報は通知されない。  
+>　  
+> イ　所有権の登記名義人であるＡの申請により，甲土地と乙土地との合筆の登記をする場合において，甲土地と乙土地に，登記の目的，申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のＢを登記名義人とする抵当権の設定の登記がされているときは，Ｂに登記識別情報が通知される。  
+>　  
+> ウ　Ａを所有権の登記名義人とする甲土地と乙土地との合筆の登記を，資格者代理人Ｂが電子申請の方法により申請するに際し，Ｂが登記識別情報の通知を受けるための特別の委任を受けていた場合において，登記識別情報の送信が可能になった時から30日以内にＢが自己の使用に係る電子計算機に備えられたファイルに当該登記識別情報を記録しないときは，Ｂに登記識別情報は通知されない。  
+>　  
+> エ　Ａを所有権の登記名義人とする甲土地と乙土地との合筆の登記を，資格者代理人Ｂが書面申請の方法により申請するに際し，Ｂが登記識別情報の通知を受けるための特別の委任を受けていた場合において，登記完了の時から3月以内にＢが登記識別情報を記載した書面を受領しないときは，Ｂに登記識別情報は通知されない。  
+>　  
+> オ　官庁の嘱託により，当該官庁を所有権の登記名義人とする甲土地と乙土地との合筆の登記をする場合には，当該官庁からあらかじめ登記識別情報の通知を希望する旨の申出があっても，登記識別情報は通知されない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-登記識別情報とは、登記名義人本人であることを確認するための、いわば「登記のパスワード」です。この分野では、①どんな登記のときに、②誰に対して、③いつまでに通知されるのか、そして通知されない例外がどこにあるのかを整理できているかが問われます。合筆の登記を題材に、通知のルールを確認していきましょう。
+---
+
+登記識別情報とは、登記名義人本人であることを確認するための、いわば「登記のパスワード」です。
+
+この分野では、①どんな登記のときに、②誰に対して、③いつまでに通知されるのか、そして通知されない例外がどこにあるのかを整理できているかが問われます。合筆の登記を題材に、通知のルールを確認していきましょう。
 
 ### ア：本人が「いらない」と申し出れば、登記識別情報は通知されない
 
-登記識別情報は、申請人から、あらかじめ通知を希望しない旨の申出があった場合には、通知されません（不動産登記法21条ただし書）。合筆の登記の申請人であるＡが、あらかじめ「登記識別情報の通知は希望しません」と申し出ていれば、登記識別情報は通知されません。本肢は正しい記述です。
+登記識別情報は、申請人から、あらかじめ通知を希望しない旨の申出があった場合には、通知されません（不動産登記法21条ただし書）。
+
+合筆の登記の申請人であるＡが、あらかじめ「登記識別情報の通知は希望しません」と申し出ていれば、登記識別情報は通知されません。本肢は正しい記述です。
 
 **たとえば**、パスワードのような大事な情報を受け取っても、かえって管理が心配だという人もいます。そこでＡさんが登記のときに「通知はいりません」と一言申し出ておけば、登記識別情報は発行・通知されずに済むのです。
 
 ### イ：合筆の登記で、抵当権者に登記識別情報は通知されない
 
-登記識別情報は、その登記をすることによって「申請人自らが登記名義人となる場合」に、その申請人に対して通知されるものです（不動産登記法21条）。合筆の登記で新たに登記識別情報の通知を受けるのは、原則として所有権の登記名義人だけです。甲土地と乙土地に同一内容の抵当権が設定されていても、抵当権者Ｂはこの合筆の登記の申請人ではなく、新たに登記名義人となるわけでもないため、Ｂに登記識別情報が通知されることはありません。「Ｂに登記識別情報が通知される」とする本肢は誤りです。
+登記識別情報は、その登記をすることによって「申請人自らが登記名義人となる場合」に、その申請人に対して通知されるものです（不動産登記法21条）。
 
-**たとえば**、Ａさん名義の2つの土地を1つにまとめる合筆をするとき、その土地に付いている抵当権の権利者Ｂさんは、この手続の当事者ではありません。合筆はＡさんの土地の形を整理する登記なので、Ｂさんに新しいパスワード（登記識別情報）が届くことはないのです。
+合筆の登記で新たに登記識別情報の通知を受けるのは、原則として所有権の登記名義人だけです。
+
+甲土地と乙土地に同一内容の抵当権が設定されていても、抵当権者Ｂはこの合筆の登記の申請人ではなく、新たに登記名義人となるわけでもないため、Ｂに登記識別情報が通知されることはありません。「Ｂに登記識別情報が通知される」とする本肢は誤りです。
+
+**たとえば**、Ａさん名義の2つの土地を1つにまとめる合筆をするとき、その土地に付いている抵当権の権利者Ｂさんは、この手続の当事者ではありません。
+
+合筆はＡさんの土地の形を整理する登記なので、Ｂさんに新しいパスワード（登記識別情報）が届くことはないのです。
 
 ### ウ：電子申請では、30日以内にダウンロードしないと通知されない
 
-資格者代理人が電子申請の方法で、登記識別情報の通知を受けるための特別の委任を受けている場合、登記識別情報の送信が可能になった時から30日以内に、代理人が自分のパソコンのファイルに記録（ダウンロード）しないときは、登記識別情報は通知されません（不動産登記規則64条1項2号）。本肢は正しい記述です。
+資格者代理人が電子申請の方法で、登記識別情報の通知を受けるための特別の委任を受けている場合、登記識別情報の送信が可能になった時から30日以内に、代理人が自分のパソコンのファイルに記録（ダウンロード）しないときは、登記識別情報は通知されません（不動産登記規則64条1項2号）。
+
+本肢は正しい記述です。
 
 **たとえば**、土地家屋調査士Ｂさんがオンラインで合筆登記を申請し、登記識別情報を受け取る委任も受けていたとします。ところが忙しくて30日間ダウンロードを放置してしまうと、その登記識別情報はもう受け取れなくなってしまいます。
 
 ### エ：書面申請では、完了から3月以内に受領しないと通知されない
 
-資格者代理人が書面申請の方法で、登記識別情報の通知を受けるための特別の委任を受けている場合、登記完了の時から3月以内に、代理人が登記識別情報を記載した書面を受領しないときは、登記識別情報は通知されません（不動産登記規則64条1項3号）。本肢は正しい記述です。
+資格者代理人が書面申請の方法で、登記識別情報の通知を受けるための特別の委任を受けている場合、登記完了の時から3月以内に、代理人が登記識別情報を記載した書面を受領しないときは、登記識別情報は通知されません（不動産登記規則64条1項3号）。
+
+本肢は正しい記述です。
 
 **たとえば**、Ｂさんが紙の申請書で合筆登記を申請し、登記識別情報を受け取る委任も受けていたのに、完了から3か月たっても登記所に書面を受け取りに行かなかったとします。すると、その書面はもう交付されず、登記識別情報は通知されないことになります。
 
 ### オ：官庁が希望を申し出れば、登記識別情報は通知される
 
-登記識別情報の通知を受けるのが官庁または公署である場合は、私人の場合とは逆に、原則として通知されない取扱いです。しかし、あらかじめ登記識別情報の通知を希望する旨の申出をしておけば、通知されます（不動産登記規則64条1項4号かっこ書）。したがって「希望する旨の申出があっても通知されない」とする本肢は誤りです。
+登記識別情報の通知を受けるのが官庁または公署である場合は、私人の場合とは逆に、原則として通知されない取扱いです。
+
+しかし、あらかじめ登記識別情報の通知を希望する旨の申出をしておけば、通知されます（不動産登記規則64条1項4号かっこ書）。したがって「希望する旨の申出があっても通知されない」とする本肢は誤りです。
 
 **たとえば**、国や地方公共団体が登記名義人となる合筆登記では、そのままだと登記識別情報は通知されません。しかし官庁側が「今回は通知を希望します」とあらかじめ申し出ておけば、ちゃんと登記識別情報が通知されるのです。
+
+---
 
 ### まとめ
 
@@ -68,8 +88,8 @@
 - 出題番号・正解番号（3番＝イ・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（法21条ただし書）、イ（法21条：申請人自らが登記名義人となる場合に通知）、ウ（規則64条1項2号）、エ（規則64条1項3号）、オ（規則64条1項4号かっこ書）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和4年度第5問（登記識別情報に関する教授と学生の対話、合筆の登記が題材）で、肢オとほぼ同一の論点が再出題されている、強い重複が見つかりました**。本問の肢オ「官庁の嘱託により合筆の登記をする場合、当該官庁からあらかじめ登記識別情報の通知を希望する旨の申出があっても、登記識別情報は通知されない」（誤り＝実際は通知される）に対し、令和4年度第5問オも「官庁又は公署が登記識別情報の通知を受けるべき者である場合、あらかじめ通知を希望する旨の申出をした場合を除き、通知することを要しない」（正しい＝申出があれば通知される）と、ほぼ同じ規律を同じ結論で問うています。両問とも「合筆の登記」を題材にしている点も共通しています。noteで令和4年度第5問の解説記事を作成する際は、本記事の肢オと内容が重なるため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
-- **問題文の記述順序の誤りを修正（2026-09-15実施）**：ユーザーから提示された本問の原本画像と照合したところ、引用ブロック内で肢ウ（電子申請・30日以内）と肢エ（書面申請・3月以内）の掲載順序が入れ替わっており（ア・イ・エ・ウ・オの順になっていた）、原本のア・イ・ウ・エ・オの順と異なっていました。各肢の記号と内容の対応自体（ウ＝電子申請、エ＝書面申請）や、本文の解説・まとめ・正解には誤りがなかったため、正誤判定・結論への影響はありません。引用ブロックの順序のみを原本どおりに修正し、`md_to_mt.py`で再書き出しし、`exports/h29-mondai.mt.txt`の差分が引用ブロックの順序変更のみであることを確認しました。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和4年度第5問（登記識別情報に関する教授と学生の対話、合筆の登記が題材）で、オとほぼ同一の論点が再出題されている、強い重複が見つかりました**。本問のオ「官庁の嘱託により合筆の登記をする場合、当該官庁からあらかじめ登記識別情報の通知を希望する旨の申出があっても、登記識別情報は通知されない」（誤り＝実際は通知される）に対し、令和4年度第5問オも「官庁又は公署が登記識別情報の通知を受けるべき者である場合、あらかじめ通知を希望する旨の申出をした場合を除き、通知することを要しない」（正しい＝申出があれば通知される）と、ほぼ同じ規律を同じ結論で問うています。両問とも「合筆の登記」を題材にしている点も共通しています。noteで令和4年度第5問の解説記事を作成する際は、本記事のオと内容が重なるため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
+- **問題文の記述順序の誤りを修正（2026-09-15実施）**：ユーザーから提示された本問の原本画像と照合したところ、引用ブロック内でウ（電子申請・30日以内）とエ（書面申請・3月以内）の掲載順序が入れ替わっており（ア・イ・エ・ウ・オの順になっていた）、原本のア・イ・ウ・エ・オの順と異なっていました。各肢の記号と内容の対応自体（ウ＝電子申請、エ＝書面申請）や、本文の解説・まとめ・正解には誤りがなかったため、正誤判定・結論への影響はありません。引用ブロックの順序のみを原本どおりに修正し、`md_to_mt.py`で再書き出しし、`exports/h29-mondai.mt.txt`の差分が引用ブロックの順序変更のみであることを確認しました。
 
 ---
 
@@ -111,13 +131,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 登・記・識・別・情・報・通・知・合・筆・抵・当・権・官・庁・電・子・申・請・書・面・受・領
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -189,20 +227,20 @@ these 5 headings):
 5. 書面申請は完了から3月以内に受領
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ウ・エは「資格者代理人Ｂが特別の委任を受けている場面で、電子申請か書面申請かで通知が失効するまでの期限が変わる」という同じ決定木を共有しているため、1つの分岐図を2パネルで使い回し、パネルごとに自分の申請方法の枝だけを強調する構成にした。肢ア・イ・オはそれぞれ独立した図解（申出の有無、合筆登記の当事者関係、官庁の例外）とした。
+ウ・エは「資格者代理人Ｂが特別の委任を受けている場面で、電子申請か書面申請かで通知が失効するまでの期限が変わる」という同じ決定木を共有しているため、1つの分岐図を2パネルで使い回し、パネルごとに自分の申請方法の枝だけを強調する構成にした。ア・イ・オはそれぞれ独立した図解（申出の有無、合筆登記の当事者関係、官庁の例外）とした。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -228,12 +266,12 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 3
-and 4（肢ウ・エ）share a common decision tree rooted at the same starting
+and 4（ウ・エ）share a common decision tree rooted at the same starting
 fact (資格者代理人Ｂが登記識別情報の通知を受けるための特別の委任を受け
 ている場面で、申請方法が電子申請か書面申請かを分ける分岐点): render the
 branch relevant to THIS panel（電子申請 for panel 3, 書面申請 for panel
 4）with a thick highlighted border and full color, and render the other,
-unrelated branch in a faded, greyed-out style. Panels 1, 2, and 5（肢ア・
+unrelated branch in a faded, greyed-out style. Panels 1, 2, and 5（ア・
 イ・オ）are designed independently around their own fact pattern. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
 box with 1-2 sentences that state the checking ORDER in words (e.g. "まず
@@ -247,7 +285,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -277,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 希望しない旨の申出で通知は不要
@@ -293,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申出で通知されない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 抵当権者Bには登記識別情報は通知されない
@@ -311,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 名義人以外には届かない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 電子申請は30日以内の記録が必要
@@ -334,7 +376,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 30日超過で通知されず
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 書面申請は3月以内の受領が必要
@@ -357,7 +399,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 3月超過で通知されず
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 官庁も希望を申し出れば通知される
@@ -386,7 +428,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
 Chinese variant, paying special attention to 登・記・識・別・情・報・通・
-知・合・筆・抵・当・権・官・庁・電・子・申・請・書・面・受・領. If any
+知・合・筆・抵・当・権・官・庁・電・子・申・請・書・面・受・領. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also confirm that no
 character outside hiragana, katakana, Jōyō kanji, and the Arabic numerals

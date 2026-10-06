@@ -2,43 +2,59 @@
 
 **出題年度：平成22年度　午後の部　第5問**
 
-> 建物の合併に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　主である建物の居宅と附属建物の車庫から構成されている所有権の登記がない甲建物について、主である建物を取り壊し、附属建物であった車庫を主である建物として登記した後、取り壊した跡地に居宅が完成したことから、新築した居宅を主である建物とし、既存の車庫を附属建物とするには、新築した居宅について建物の表題登記をした後に、当該建物に甲建物を合併する登記の方法によらなければならない。
->
-> イ　甲建物と乙建物について、いずれも登記名義人として同じ共有者が同じ持分で登記がされている場合には、甲建物と乙建物の合併の登記は、共有者の一名が単独で申請することができる。
->
-> ウ　甲建物と乙建物の双方に登記されている所有権移転の登記に、いずれも買戻しの特約の登記がある場合には、買戻しの特約の登記の申請の受付年月日、受付番号並びに登記原因及びその日付が同じであっても、甲建物と乙建物を合併する登記をすることはできない。
->
-> エ　甲建物と乙建物の所有権の登記名義人が同じである場合において、登記名義人が住所を移転し、甲建物については住所の変更の登記がされているが、乙建物については住所の変更の登記がされていないときは、登記名義人は、住所の変更を証する情報を提供して、甲建物と乙建物を合併する登記を申請することができる。
->
-> オ　甲建物の附属建物として登記されている区分建物を分割して、これを当該区分建物と接続する区分建物である乙建物に合併する登記の申請をするに当たっては、分割の登記及び合併の登記を一の申請情報によって申請することができる。
->
+> 建物の合併に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　主である建物の居宅と附属建物の車庫から構成されている所有権の登記がない甲建物について、主である建物を取り壊し、附属建物であった車庫を主である建物として登記した後、取り壊した跡地に居宅が完成したことから、新築した居宅を主である建物とし、既存の車庫を附属建物とするには、新築した居宅について建物の表題登記をした後に、当該建物に甲建物を合併する登記の方法によらなければならない。  
+>　  
+> イ　甲建物と乙建物について、いずれも登記名義人として同じ共有者が同じ持分で登記がされている場合には、甲建物と乙建物の合併の登記は、共有者の一名が単独で申請することができる。  
+>　  
+> ウ　甲建物と乙建物の双方に登記されている所有権移転の登記に、いずれも買戻しの特約の登記がある場合には、買戻しの特約の登記の申請の受付年月日、受付番号並びに登記原因及びその日付が同じであっても、甲建物と乙建物を合併する登記をすることはできない。  
+>　  
+> エ　甲建物と乙建物の所有権の登記名義人が同じである場合において、登記名義人が住所を移転し、甲建物については住所の変更の登記がされているが、乙建物については住所の変更の登記がされていないときは、登記名義人は、住所の変更を証する情報を提供して、甲建物と乙建物を合併する登記を申請することができる。  
+>　  
+> オ　甲建物の附属建物として登記されている区分建物を分割して、これを当該区分建物と接続する区分建物である乙建物に合併する登記の申請をするに当たっては、分割の登記及び合併の登記を一の申請情報によって申請することができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+
+---
 
 建物の合併は、土地の合筆と似たルール（不動産登記法56条・54条）で動きます。「誰が申請するのか」「登記記録の状態がそろっているか」「複数の手続を一つの申請でまとめられるか」という視点で、一つずつ丁寧に確認しましょう。
 
 ### ア：所有権登記のない建物は、新築居宅の表題登記→甲建物の合併という方法による
 
-所有権の登記がない甲建物について、主である建物を建て替え、新築した居宅を主・既存の車庫を附属という関係に組み替えるには、まず新築した居宅について建物の表題登記をし、その建物に甲建物を合併する登記の方法によります。この手順による、とする記述は正しいものです。
+所有権の登記がない甲建物について、主である建物を建て替え、新築した居宅を主・既存の車庫を附属という関係に組み替えるには、まず新築した居宅について建物の表題登記をし、その建物に甲建物を合併する登記の方法によります。
+
+この手順による、とする記述は正しいものです。
 
 **たとえば**、母屋（居宅）と車庫がセットで登記されている建物で、母屋を取り壊して建て替えた場合、いったん車庫を主役として登記したうえで、新しく建てた母屋を表題登記し、そこに元の建物をくっつける、という順番で手続を進めます。
 
-### イ：建物の合併の登記は、共有者全員で申請しなければならない
+### イ：共有者の一名が単独では、合併の登記を申請できるとは限らない（出題当時は共有者全員）
 
-甲建物と乙建物のいずれにも同じ共有者が同じ持分で登記されている場合であっても、建物の合併の登記は、その所有権の登記名義人（共有者）全員で申請しなければなりません。共有者の一名が単独で申請することはできないため、「一名が単独で申請することができる」とする点は誤りです。
+建物の合併の登記を申請できるのは、表題部所有者又は所有権の登記名義人です。
 
-**たとえば**、ＡさんとＢさんが半分ずつの持分で持っている二つの建物をくっつけて一つにする場合、片方のＡさんだけで手続を進めることはできず、ＡさんとＢさんがそろって申請する必要があります。
+甲建物と乙建物にいずれも同じ共有者が同じ持分で登記されている場合、合併は共有物の軽微変更として、令和5年4月1日施行の民法改正後の民法251条1項かっこ書き・252条1項により、各共有者の持分の価格の過半数で決することができます。
+
+これを受けて登記実務でも、持分の価格の過半数を有する共有者から申請できる扱いになっています（出題当時は共有者全員で申請しなければならないものとされていました）。
+
+したがって、共有者の一名の持分が過半数に満たない場合には、その一名が単独で申請することはできません。本肢は「共有者の一名が単独で申請することができる」と、持分に関係なく単独申請ができるかのように述べているため、誤りです。
+
+**たとえば**、A・B・Cが各3分の1ずつの持分で共有している二つの建物をくっつけて一つにする場合、A一人の持分は3分の1で過半数に届かないので、Aだけで手続を進めることはできません。
+
+A・Bの二人（持分の合計は3分の2）がそろって申請すれば足り、Cの協力は要りません（出題当時は、A・B・Cの3人がそろって申請する必要がありました）。
 
 ### ウ：買戻しの特約の登記があると、条件がそろっていても合併できない
 
-甲・乙の双方の所有権移転の登記に買戻しの特約の登記がある場合、その特約の登記の受付年月日・受付番号・登記原因及びその日付が同じであっても、合併の登記をすることはできません。合併が例外的に認められるのは、承役地の地役権・同一の担保権・同一の信託などに限られ、買戻しの特約はこれに含まれないからです。合併できないとする記述は正しいものです。
+甲・乙の双方の所有権移転の登記に買戻しの特約の登記がある場合、その特約の登記の受付年月日・受付番号・登記原因及びその日付が同じであっても、合併の登記をすることはできません。
+
+合併が例外的に認められるのは、承役地の地役権・同一の担保権・同一の信託などに限られ、買戻しの特約はこれに含まれないからです。合併できないとする記述は正しいものです。
 
 **たとえば**、「一定期間内なら売主が買い戻せる」という買戻しの約束が付いた二つの建物は、その約束の中身がまったく同じであっても、勝手にくっつけて一つにすることはできません。
 
 ### エ：住所がそろっていない状態では、住所変更を証する情報を出しても合併申請はできない
 
-甲建物は住所変更の登記がされ、乙建物は住所変更の登記がされていないと、同じ人でも登記記録上の住所の表示が食い違ってしまいます。この状態のままでは、単に住所の変更を証する情報を提供しても合併の登記を申請することはできず、前提として乙建物の登記名義人の住所変更の登記をして表示をそろえる必要があります。「住所の変更を証する情報を提供して合併できる」とする点は誤りです。
+甲建物は住所変更の登記がされ、乙建物は住所変更の登記がされていないと、同じ人でも登記記録上の住所の表示が食い違ってしまいます。
+
+この状態のままでは、単に住所の変更を証する情報を提供しても合併の登記を申請することはできず、前提として乙建物の登記名義人の住所変更の登記をして表示をそろえる必要があります。「住所の変更を証する情報を提供して合併できる」とする点は誤りです。
 
 **たとえば**、引っ越した人が、片方の建物は新住所に直したのに、もう片方は昔の住所のままという場合、そのままでは二つを合併できず、まず昔の住所のほうを新住所に直してから合併の手続に進むことになります。
 
@@ -48,15 +64,17 @@
 
 **たとえば**、あるマンションの一室が別の建物の附属として登記されているとき、それを切り離して隣の一室にくっつける手続は、「切り離し」と「くっつけ」を一枚の申請でまとめて出すことができます。
 
+---
+
 ### まとめ
 
 - **ア（正）**　所有権登記のない建物は、新築居宅の表題登記→甲建物の合併の方法による
-- **イ（誤）**　建物の合併の登記は共有者全員で申請し、一名の単独申請はできない
+- **イ（誤）**　建物の合併の登記は持分の価格の過半数で申請できる。持分が過半数に満たない一名だけでは単独で申請できない（出題当時は共有者全員）
 - **ウ（正）**　買戻しの特約の登記があると、条件がそろっていても合併できない
 - **エ（誤）**　住所の表示が食い違う状態では、前提として住所変更の登記が必要で、証明情報の提供だけでは合併できない
 - **オ（正）**　区分建物の分割と合併は一の申請情報でまとめて申請できる
 
-「合併の申請は名義人全員で」「登記記録の表示は先にそろえる」という基本を押さえると、イとエの誤りが見抜けます。
+「合併の申請は持分の価格の過半数で（一名だけでは足りないことがある）」「登記記録の表示は先にそろえる」という基本を押さえると、イとエの誤りが見抜けます。
 
 **正解：イエの組合せ（選択肢3番）**
 
@@ -67,15 +85,16 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第5問）・正解番号（3番＝イエ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の判定（誤りはイ・エ）は、公式の正解の組合せ「イエ」から確定できるものです。
-- 各肢の根拠のうち、イ（合併の登記は所有権登記名義人が申請、単独申請不可）は不動産登記法54条・56条の趣旨から確認できるものです。ウ（買戻特約があると合併できない）・エ（表示が食い違うと前提の変更登記が必要）・オ（分割と合併の一括申請）・ア（所有権登記のない建物の合併の方法）は、建物の合併に関する手続の一般的な理解・二次資料に基づくもので、条文の直接の文言までは個別に照合しきれていない部分があります。とくにア・エの細かな手続については、各自でも登記実務書等で確認することをおすすめします。
+- 各肢の根拠のうち、イ（合併の登記は持分の価格の過半数を有する所有権登記名義人が申請。持分が過半数に満たない一名の単独申請は不可。2026-10-01に現行法に改めた）は不動産登記法54条・56条の趣旨から確認できるものです。ウ（買戻特約があると合併できない）・エ（表示が食い違うと前提の変更登記が必要）・オ（分割と合併の一括申請）・ア（所有権登記のない建物の合併の方法）は、建物の合併に関する手続の一般的な理解・二次資料に基づくもので、条文の直接の文言までは個別に照合しきれていない部分があります。とくにア・エの細かな手続については、各自でも登記実務書等で確認することをおすすめします。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（建物の合併）と同一の問題が再出題されていないかを確認しました。「建物の合併」は平成25年度第17問・平成28年度第14問・令和4年度第16問でも繰り返しテーマとなっていますが、問題文＋肢全体の類似度はいずれも0.2程度、肢単位で最も近いもの（住所変更登記の要否を問う本問の肢エと平成28年度第14問の肢イ）でも類似度0.55程度で、事実関係・他の肢の組合せは異なります。**問題全体としての重複は見つかりませんでした**。建物の合併は頻出テーマである点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **イの最新法令への統一（2026-10-01、ユーザー指示）**：イの本文・まとめ・図解は、令和5年4月1日施行の民法251条1項かっこ書き・252条1項（持分の価格の過半数）に基づく説明に統一しました。建物の合併の登記を共有物の軽微変更として扱う点は、分筆の登記と同様の整理であり、これを定めた通達の原文は未確認です。イの正誤（誤）と正解番号（3番＝イエ）は変わりません。問題文は「共有者の一名が」とだけあり持分が示されていませんが、問題文の補記は行わず、本文では「持分が過半数に満たない共有者の一名だけでは単独で申請できない（過半数を満たせば共有者全員でなくても申請できる）」という切り口で解説しています（2026-10-01、ユーザー指示）。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（建物の合併）と同一の問題が再出題されていないかを確認しました。「建物の合併」は平成25年度第17問・平成28年度第14問・令和4年度第16問でも繰り返しテーマとなっていますが、問題文＋肢全体の類似度はいずれも0.2程度、肢単位で最も近いもの（住所変更登記の要否を問う本問のエと平成28年度第14問のイ）でも類似度0.55程度で、事実関係・他の肢の組合せは異なります。**問題全体としての重複は見つかりませんでした**。建物の合併は頻出テーマである点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
 ## 見出し画像用フレーズ
 
-- 建物の合併は、共有者全員でやるんです
+- 建物の合併は、持分の過半数でできるんです
 - 同じ持分でも、一人じゃ申請できないんです
 - 買戻特約が付いてると、合併できないんです
 - 住所が食い違ったままでは、合併できないんです
@@ -108,10 +127,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -147,13 +184,13 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 Badge: a filled circle containing the number 2 (numbers run continuously).
 
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-共有者は全員そろって申請する
+合併は持分の過半数で申請する
 
-Illustration: Two building icons (甲・乙) both owned by the same three co-owner characters. A merge-arrow between the buildings requires all three characters to stamp together; one character alone reaching for the stamp is crossed out with a ✕.
+Illustration: Two building icons (甲・乙) both owned by the same three co-owner characters (A・B・C, each with a small "1/3" tag). A merge-arrow between the buildings: on the left, character A alone reaching for the stamp, crossed out with a ✕; on the right, A and B stamping the 合併 application together with a green ✓, while a faint greyed-out silhouette of C stands off to the side, not required.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
-共有者全員で申請
+持分の過半数で申請
 
 
 --- CARD 3 ---
@@ -175,13 +212,13 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 Badge: a filled circle containing the number 4 (numbers run continuously).
 
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-住所変更が未了でも証明情報を出せば合併できる
+住所の表示を先にそろえないと合併できない
 
-Illustration: Two building icons owned by the same character, one stamped 「住所変更済み」and one not yet stamped, with the character holding a 「住所変更を証する情報」document bridging the gap, merge-arrow with a checkmark.
+Illustration: Two building icons owned by the same character, one stamped 「住所変更済み」and one not yet stamped (old address still shown). The character holds a 「住所変更を証する情報」document toward the merge-arrow, but the merge-arrow is crossed out with a ✕; a separate first-step arrow labeled「先に住所変更の登記」leads to the unstamped building.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
-証明情報の提供で足りる
+先に住所変更の登記
 
 
 --- CARD 5 ---
@@ -200,25 +237,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢アは建替え後の手続の順序をタイムライン型で示し、肢イは「共有者の1人で申請できる」という誤った思い込みと正しいルールを対比する対比枠型、肢ウは規則で認められる4つの例外類型のどれにも当てはまらないことを示す決定木型、肢エは住所表示がそろっているかどうかで結論が分かれる決定木型、肢オは分割と合併の関係を示す系統図型とする。肢ごとに図の型が異なり、共有する判定木はない。
+アは建替え後の手続の順序をタイムライン型で示し、イは「共有者の1人で申請できる」という誤った思い込みと正しいルールを対比する対比枠型、ウは規則で認められる4つの例外類型のどれにも当てはまらないことを示す決定木型、エは住所表示がそろっているかどうかで結論が分かれる決定木型、オは分割と合併の関係を示す系統図型とする。肢ごとに図の型が異なり、共有する判定木はない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -292,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -315,28 +350,28 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 表題登記の後に合併
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
-合併の登記は共有者全員で申請する
+合併の登記は持分の過半数で申請する
 Diagram: A contrast panel split into two side-by-side frames. Left frame
-labeled「誤った思い込み」shows one co-owner character (A) alone stamping a
-合併 application while two other co-owner characters (B・C) stand aside
-with their arms crossed, a large ✕ over the single stamp. Right frame
-labeled「正しいルール」shows all three co-owner characters (A・B・C)
-together placing their stamps on the same 合併 application, with a
-checkmark. A thick highlighted border surrounds the right「正しいルール」
-frame.
+labeled「持分が足りない場合」shows one co-owner character (A, with a
+small "1/3" tag) alone stamping a 合併 application while two other
+co-owner characters (B・C, each "1/3") stand aside, a large red ✕ over the
+single stamp. Right frame labeled「過半数の場合」(drawn with a thick
+highlighted border) shows A and B ("1/3" each, together "2/3") placing
+their stamps on the same 合併 application with a green ✓, while a faint
+greyed-out silhouette of C stands off to the side, not required.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、甲建物と乙建物の登記名義人である共有者が誰であるかを確認します。次に、
-その共有者全員がそろって合併の登記を申請しているかを確認し、1人でも欠けて
-いれば申請できないと判定します。
+まず、甲建物と乙建物の登記名義人である共有者の持分を確認します。次に、
+申請する共有者の持分の合計が過半数かどうかを確認し、過半数に届かない1人
+だけでは申請できないと判定します。
 Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
-共有者全員での申請が必要
+持分の過半数が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -362,7 +397,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 買戻特約は例外に非該当
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -386,7 +421,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 表示統一が先、証明情報では不足
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -406,7 +441,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記法56条・54条（ア〜オ共通）。判例・先例番号は省略。
+条文根拠：不動産登記法56条・54条（ア〜オ共通）、民法251条1項・252条1項（イ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

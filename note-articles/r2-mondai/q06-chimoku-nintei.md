@@ -2,25 +2,31 @@
 
 **出題年度：令和2年度　午後の部　第6問**
 
-> 地目に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　地目が畑として登記されている一筆の土地について，当該土地を宅地にするための工事が完了し，当該土地を敷地とする建物の建築について建築基準法に基づく確認済証が交付されたが，建物の建築工事が始まっていない場合，当該土地の地目を宅地と認定することはできない。
->
-> イ　マンションの居住者のために屋外駐車場として利用されている土地について，当該駐車場部分が公道によりマンションの敷地と判然と区分されている場合，当該屋外駐車場として利用されている土地の地目は宅地とする。
->
-> ウ　ゴルフ場として一団で利用されている数筆の土地の地目は，その一部の土地上に建物がある場合であっても，当該建物の敷地以外の土地の利用を主とし，当該建物はその付随的なものに過ぎないと認められるときは，その全部を一団として雑種地とする。
->
-> エ　海産物を乾燥する場所として一団で利用されている数筆の土地がある場合において，その一部の土地上に永久的設備と認められる建物があるときは，当該建物の敷地の区域に属する土地の地目は宅地とする。
->
-> オ　建物の敷地である一筆の土地の地中に地下鉄道設備があり，その建物が病院として利用されている場合，当該土地の地目は鉄道用地とする。
->
+> 地目に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　地目が畑として登記されている一筆の土地について，当該土地を宅地にするための工事が完了し，当該土地を敷地とする建物の建築について建築基準法に基づく確認済証が交付されたが，建物の建築工事が始まっていない場合，当該土地の地目を宅地と認定することはできない。  
+>　  
+> イ　マンションの居住者のために屋外駐車場として利用されている土地について，当該駐車場部分が公道によりマンションの敷地と判然と区分されている場合，当該屋外駐車場として利用されている土地の地目は宅地とする。  
+>　  
+> ウ　ゴルフ場として一団で利用されている数筆の土地の地目は，その一部の土地上に建物がある場合であっても，当該建物の敷地以外の土地の利用を主とし，当該建物はその付随的なものに過ぎないと認められるときは，その全部を一団として雑種地とする。  
+>　  
+> エ　海産物を乾燥する場所として一団で利用されている数筆の土地がある場合において，その一部の土地上に永久的設備と認められる建物があるときは，当該建物の敷地の区域に属する土地の地目は宅地とする。  
+>　  
+> オ　建物の敷地である一筆の土地の地中に地下鉄道設備があり，その建物が病院として利用されている場合，当該土地の地目は鉄道用地とする。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-地目の認定は、登記簿上の記載ではなく「現在どう使われているか（現況）」を基準にする（現況主義）のが大原則です。認定の細かいルールは不動産登記事務取扱手続準則68条・69条に定められています。各肢を「今の使われ方から見て何地目か」に当てはめて判断します。
+---
+
+地目の認定は、登記簿上の記載ではなく「現在どう使われているか（現況）」を基準にする（現況主義）のが大原則です。
+
+認定の細かいルールは不動産登記事務取扱手続準則68条・69条に定められています。各肢を「今の使われ方から見て何地目か」に当てはめて判断します。
 
 ### ア：宅地工事が完了し確認済証も出ていれば、着工前でも宅地と認定できる
 
-地目が畑の土地でも、宅地にするための造成工事が完了し、建築基準法上の確認済証が交付されているような場合には、近い将来、確実に建物の敷地になることが見込まれます。このような場合には、建物の建築工事がまだ始まっていなくても、宅地として地目変更登記をしてよいとされています（先例による）。本肢は「宅地と認定することはできない」としており、誤りです。
+地目が畑の土地でも、宅地にするための造成工事が完了し、建築基準法上の確認済証が交付されているような場合には、近い将来、確実に建物の敷地になることが見込まれます。
+
+このような場合には、建物の建築工事がまだ始まっていなくても、宅地として地目変更登記をしてよいとされています（先例による）。本肢は「宅地と認定することはできない」としており、誤りです。
 
 **たとえば**、畑を埋め立てて造成し、家を建てる建築確認も下りている土地なら、まだ基礎工事に入っていなくても「宅地」と認定できます。
 
@@ -32,7 +38,9 @@
 
 ### ウ：建物が付随的なゴルフ場は、全体を一団の雑種地とする
 
-数筆の土地がゴルフ場として一団で利用されている場合、その一部にクラブハウスなどの建物があっても、建物の敷地以外の土地（コース部分）の利用が主で、建物はそれに付随するにすぎないと認められるときは、その全部を一団として雑種地とします（準則69条7号）。本肢は正しい記述です。
+数筆の土地がゴルフ場として一団で利用されている場合、その一部にクラブハウスなどの建物があっても、建物の敷地以外の土地（コース部分）の利用が主で、建物はそれに付随するにすぎないと認められるときは、その全部を一団として雑種地とします（準則69条7号）。
+
+本肢は正しい記述です。
 
 **たとえば**、広大なゴルフコースの一角にクラブハウスが建っていても、あくまで主役はコースなので、コースもクラブハウスの敷地も含めて全体を「雑種地」として扱います。
 
@@ -44,9 +52,13 @@
 
 ### オ：地中に地下鉄設備があっても、地上が病院なら地目は宅地
 
-鉄道用地とされるのは、鉄道の駅舎・変電所などの附属施設や路線の敷地です（準則68条5号）。しかし地下鉄については、地表の利用状況で地目を認定します。したがって、地中に地下鉄道設備があっても、地上の建物が病院として利用されている土地は「宅地」であり、鉄道用地とはなりません。本肢は「鉄道用地とする」としており、誤りです。
+鉄道用地とされるのは、鉄道の駅舎・変電所などの附属施設や路線の敷地です（準則68条5号）。しかし地下鉄については、地表の利用状況で地目を認定します。
+
+したがって、地中に地下鉄道設備があっても、地上の建物が病院として利用されている土地は「宅地」であり、鉄道用地とはなりません。本肢は「鉄道用地とする」としており、誤りです。
 
 **たとえば**、地下を地下鉄が走っている土地でも、地上に建っているのが病院であれば、その土地の地目は「宅地」です。地下の設備を理由に鉄道用地にはなりません。
+
+---
 
 ### まとめ
 
@@ -109,12 +121,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・建・物・登・記・確・証・鉄・駐・雑 — these must be rendered in
+kanji 地・建・物・確・証・鉄・駐・雑 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -199,20 +229,20 @@ these 5 headings):
 5. 建物付随のゴルフ場は雑種地
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、地目認定の現況主義を思考順序に沿って確認できるようにする5パネル構成。ウ・エは「一団の土地の中にある建物が、主たる利用に対して付随的なものに過ぎないか、それとも永久的設備として独立の利用と認められるか」という同じ決定木を共有し、強調する枝だけを切り替える。アは2つのAND条件を順に確認する2段階の決定木、オは「地下の設備で判断してしまう」誤りやすい思い込みと正しいルールを対比させる。②の色分け（宅地と認定されるルール＝緑、宅地以外と認定されるルール＝青）を引き継いでいる。
 
@@ -237,10 +267,10 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 1 (肢ア) must be drawn as a two-step AND flowchart, since
+flowchart. Panel 1 (ア) must be drawn as a two-step AND flowchart, since
 宅地造成工事の完了 and 建築確認済証の交付 are two distinct conditions that
 must both be satisfied — give each its own diamond node. Panels 3 and 4
-(肢ウ・肢エ) share the same decision tree (a diamond node asking whether
+(ウ・エ) share the same decision tree (a diamond node asking whether
 a building within a larger tract is merely incidental to the tract's main
 use, or is instead a substantial, independent use such as a 永久的設備);
 render the branch relevant to THIS panel with a thick highlighted border
@@ -256,7 +286,15 @@ faithful to the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -282,7 +320,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 造成完了と確認済証の有無を確認する
@@ -303,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 着工前でも宅地認定可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 公道で区分された駐車場は雑種地
@@ -319,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 駐車場は雑種地
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 建物が付随的なら全体を雑種地とする
@@ -342,7 +380,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 全体が雑種地のまま
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 永久的設備の建物は敷地部分だけ宅地
@@ -365,7 +403,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 建物部分だけ宅地
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 地表の用途は病院だから宅地と判断
@@ -391,10 +429,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記事務取扱手続準則68条5号・69条2号・3号・7号に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 造, 成, 確, 証, 駐, 雑, 種, 団, 属, 久, 設, 鉄, 表, 判 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 造, 成, 確, 証, 駐, 雑, 種, 団, 久, 設, 鉄, 表, 判 and any
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 1 is drawn

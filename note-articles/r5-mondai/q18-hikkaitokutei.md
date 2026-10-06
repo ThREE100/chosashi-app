@@ -2,51 +2,73 @@
 
 **出題年度：令和5年度　午後の部　第18問**
 
-> 筆界特定の手続に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　筆界調査委員が実地調査を行うために他人の土地に立ち入る場合において、当該土地の占有者がいないときは、あらかじめ土地の表題部所有者又は所有権登記名義人に通知をしなければならない。
->
-> イ　筆界調査委員は、対象土地の筆界特定のために必要な事実の調査を終了した場合には、申請人に対し、対象土地の筆界特定についての意見を提出しなければならない。
->
-> ウ　対象土地の筆界特定をしたことにより対象土地の地積が算出できる場合には、筆界特定の内容を表示した図面に当該土地の地積が記載される。
->
-> エ　筆界調査委員が筆界特定のために必要な事実の調査をする場合には、筆界調査委員は、申請人及び関係人以外のその他の者からその知っている事実を聴取し又は資料の提出を求めることができる。
->
-> オ　筆界特定の手続における測量に要する費用は、申請人が負担する。
->
+> 筆界特定の手続に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　筆界調査委員が実地調査を行うために他人の土地に立ち入る場合において、当該土地の占有者がいないときは、あらかじめ土地の表題部所有者又は所有権登記名義人に通知をしなければならない。  
+>　  
+> イ　筆界調査委員は、対象土地の筆界特定のために必要な事実の調査を終了した場合には、申請人に対し、対象土地の筆界特定についての意見を提出しなければならない。  
+>　  
+> ウ　対象土地の筆界特定をしたことにより対象土地の地積が算出できる場合には、筆界特定の内容を表示した図面に当該土地の地積が記載される。  
+>　  
+> エ　筆界調査委員が筆界特定のために必要な事実の調査をする場合には、筆界調査委員は、申請人及び関係人以外のその他の者からその知っている事実を聴取し又は資料の提出を求めることができる。  
+>　  
+> オ　筆界特定の手続における測量に要する費用は、申請人が負担する。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-筆界特定は、土地の境界（筆界）がどこにあるかを筆界特定登記官が判断する行政手続で、その調査の実働部隊が筆界調査委員です。この分野では「立入りの通知は誰にするのか」「意見は誰に提出するのか」「費用は誰が負担するのか」といった手続の主体・相手方を正確に押さえられているかが問われます。
+---
+
+筆界特定は、土地の境界（筆界）がどこにあるかを筆界特定登記官が判断する行政手続で、その調査の実働部隊が筆界調査委員です。
+
+この分野では「立入りの通知は誰にするのか」「意見は誰に提出するのか」「費用は誰が負担するのか」といった手続の主体・相手方を正確に押さえられているかが問われます。
 
 ### ア：立入りの通知の相手方は、占有者である
 
-法務局等の長が必要と認めるときは、筆界調査委員を他人の土地に立ち入らせることができます（不動産登記法137条1項）。この場合、あらかじめ通知（告知）すべき相手方は、立入りによって影響を受ける「占有者」です。占有者が不明のときや、すでに同意しているときは通知は不要とされています。「表題部所有者又は所有権登記名義人に通知しなければならない」とする本肢は誤りです。
+法務局等の長が必要と認めるときは、筆界調査委員を他人の土地に立ち入らせることができます（不動産登記法137条1項）。この場合、あらかじめ通知（告知）すべき相手方は、立入りによって影響を受ける「占有者」です。
 
-**たとえば**、隣り合うAさんとBさんの土地の境界を調べるため、筆界調査委員がBさんの土地に立ち入るとします。このとき知らせる相手はその土地を現に使っている占有者であって、登記簿上の名義人に必ず通知するわけではありません。空き地で占有者が誰か分からない場合には、通知そのものが不要になります。
+占有者が不明のときや、すでに同意しているときは通知は不要とされています。「表題部所有者又は所有権登記名義人に通知しなければならない」とする本肢は誤りです。
+
+**たとえば**、隣り合うAさんとBさんの土地の境界を調べるため、筆界調査委員がBさんの土地に立ち入るとします。
+
+このとき知らせる相手はその土地を現に使っている占有者であって、登記簿上の名義人に必ず通知するわけではありません。空き地で占有者が誰か分からない場合には、通知そのものが不要になります。
 
 ### イ：意見の提出先は、申請人ではなく筆界特定登記官である
 
-筆界調査委員は、意見聴取等の期日が終わり必要な事実の調査を終了したときは、遅滞なく、筆界特定登記官に対して対象土地の筆界の特定についての意見を提出しなければなりません（不動産登記法142条）。意見を届ける相手は登記官であって、申請人に対して意見を提出するのではありません。本肢は相手方を取り違えているため誤りです。
+筆界調査委員は、意見聴取等の期日が終わり必要な事実の調査を終了したときは、遅滞なく、筆界特定登記官に対して対象土地の筆界の特定についての意見を提出しなければなりません（不動産登記法142条）。
 
-**たとえば**、筆界調査委員が現地測量や資料の検討を終えて「この線が筆界だ」という結論をまとめたら、それは判断者である筆界特定登記官に報告します。申請したAさんに直接「意見書」を渡すのではなく、あくまで登記官が最終判断をするための材料として提出するイメージです。
+意見を届ける相手は登記官であって、申請人に対して意見を提出するのではありません。本肢は相手方を取り違えているため誤りです。
+
+**たとえば**、筆界調査委員が現地測量や資料の検討を終えて「この線が筆界だ」という結論をまとめたら、それは判断者である筆界特定登記官に報告します。
+
+申請したAさんに直接「意見書」を渡すのではなく、あくまで登記官が最終判断をするための材料として提出するイメージです。
 
 ### ウ：筆界特定図面には、地積は記載されない
 
-筆界特定図面には、筆界特定の対象となる筆界や、筆界点間の距離、境界標等が記録されます（不動産登記規則231条4項）。この図面は「筆界がどこにあるか」を表示するためのものなので、対象土地の地積は記載されません。したがって「地積が記載される」とする本肢は誤りです。
+筆界特定図面には、筆界特定の対象となる筆界や、筆界点間の距離、境界標等が記録されます（不動産登記規則231条4項）。
+
+この図面は「筆界がどこにあるか」を表示するためのものなので、対象土地の地積は記載されません。したがって「地積が記載される」とする本肢は誤りです。
 
 **たとえば**、筆界特定の結果としてできあがる図面は、境界の点と点を結んだ線や、その間の距離を示したものです。地積測量図のように「何平方メートル」という面積を書き込むものではなく、あくまで境界線の位置を示すことに特化した図面なのです。
 
 ### エ：調査委員は、申請人・関係人以外の第三者からも事実を聴取できる
 
-筆界調査委員は、対象土地・関係土地その他の土地の測量や実地調査をすること、そして申請人・関係人だけでなく「その他の者」からもその知っている事実を聴取し、または資料の提出を求めることができます（不動産登記法135条1項）。調査対象を当事者に限定していない点がポイントで、本肢は正しい記述です。
+筆界調査委員は、対象土地・関係土地その他の土地の測量や実地調査をすること、そして申請人・関係人だけでなく「その他の者」からもその知っている事実を聴取し、または資料の提出を求めることができます（不動産登記法135条1項）。
 
-**たとえば**、昔からその地域に住んでいる近所のCさんが「この石垣がずっと境目だった」と知っているような場合、筆界調査委員はCさんが申請人でも関係人でなくても、その話を聴いたり古い資料を出してもらったりできます。真実の筆界を探るために、広く事実を集められるようになっています。
+調査対象を当事者に限定していない点がポイントで、本肢は正しい記述です。
+
+**たとえば**、昔からその地域に住んでいる近所のCさんが「この石垣がずっと境目だった」と知っているような場合、筆界調査委員はCさんが申請人でも関係人でなくても、その話を聴いたり古い資料を出してもらったりできます。
+
+真実の筆界を探るために、広く事実を集められるようになっています。
 
 ### オ：測量に要する費用は、申請人が負担する
 
 筆界特定の手続における測量に要する費用その他の手続費用は、筆界特定の申請人の負担とされています（不動産登記法146条1項）。さらに筆界特定登記官は、申請人に手続費用の概算額をあらかじめ予納させなければなりません（同条5項）。本肢は正しい記述です。
 
-**たとえば**、Aさんが自分の土地とBさんの土地の境界について筆界特定を申請した場合、現地測量にかかる費用は申請したAさんが負担します。しかも、手続の途中で費用が足りなくならないよう、あらかじめ概算額をお金として預けておく（予納する）必要があります。
+**たとえば**、Aさんが自分の土地とBさんの土地の境界について筆界特定を申請した場合、現地測量にかかる費用は申請したAさんが負担します。
+
+しかも、手続の途中で費用が足りなくならないよう、あらかじめ概算額をお金として預けておく（予納する）必要があります。
+
+---
 
 ### まとめ
 
@@ -110,12 +132,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・登・記 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -192,21 +232,21 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 筆界特定の手続について、①立入りの通知先、②意見の提出先、③図面の記載事項、④聴取できる相手の範囲、⑤費用の負担者と支払いのタイミングという5つの判定を、「まず何を確認するか」から順に描けるよう5パネルに整理した。ア（占有者の有無）は、はい/いいえの両方の行き先が実際の結論として意味を持つ決定木として描き、イ・ウは「よくある思い込み」と「正しいルール」を左右で対比させる構成にする。
 
@@ -243,7 +283,15 @@ own body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -269,14 +317,14 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 占有者の有無を最初に確認する
 Diagram: A decision flowchart. Start node: 筆界調査委員が他人の土地に立
 ち入る. Diamond node: その土地に占有者がいるか？ A plain blue はい
 branch leads to a conclusion node「あらかじめ占有者に通知」. A green
-branch with a thick highlighted border (本肢アの対象) for いいえ leads to
+branch with a thick highlighted border (本アの対象) for いいえ leads to
 a conclusion node「通知は不要」with a faded, dotted, crossed-out
 character icon labeled「表題部所有者・所有権登記名義人」beside it to show
 notice does not go there instead.
@@ -288,7 +336,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 占有者不在なら通知不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 意見の提出先は登記官
@@ -306,7 +354,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 提出先は登記官
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 筆界特定図面に地積は載らない
@@ -324,7 +372,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地積は記載事項でない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 聴取できる相手は当事者に限らない
@@ -341,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 第三者からも聴取可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 費用は申請人負担、しかも先払い
@@ -366,10 +414,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 条4項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 筆, 界, 特, 定, 権, 証, 積, 聴, 費, 負, 担, 予, 納 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 筆, 界, 特, 定, 権, 積, 聴, 費, 負, 担, 予, 納 and any
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 1 shows

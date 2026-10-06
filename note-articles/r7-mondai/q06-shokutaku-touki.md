@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第6問**
 
-> 嘱託登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　私人が所有する土地について、市町村が代位による土地の表題登記を嘱託する場合には、当該土地についての被代位者が所有権を有することを証する情報を提供することを要する。
->
-> イ　市町村から登記の嘱託の委任を受けた代理人が当該登記の嘱託をする場合には、嘱託情報と併せて提供すべき市町村長が作成した委任状は、作成後3月以内のものであることを要しない。
->
-> ウ　市町村がその所有する建物の表題登記の嘱託をする場合には、当該建物の所有権を有することを証する情報を提供することを要する。
->
-> エ　私人が所有権の登記名義人である土地の一部が河川法の定める河川区域内の土地となった場合において、河川管理者がその旨の登記を登記所に嘱託するときは、河川管理者は、当該土地の所有権の登記名義人に代わって、当該土地の分筆の登記を登記所に嘱託することができる。
->
-> オ　市町村が、当該市町村を所有権の登記名義人とする土地についての合筆の登記の嘱託をする場合には、その嘱託情報に登記識別情報の通知を希望する旨の情報が含まれていたとしても、登記識別情報は通知されない。
->
+> 嘱託登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　私人が所有する土地について、市町村が代位による土地の表題登記を嘱託する場合には、当該土地についての被代位者が所有権を有することを証する情報を提供することを要する。  
+>　  
+> イ　市町村から登記の嘱託の委任を受けた代理人が当該登記の嘱託をする場合には、嘱託情報と併せて提供すべき市町村長が作成した委任状は、作成後3月以内のものであることを要しない。  
+>　  
+> ウ　市町村がその所有する建物の表題登記の嘱託をする場合には、当該建物の所有権を有することを証する情報を提供することを要する。  
+>　  
+> エ　私人が所有権の登記名義人である土地の一部が河川法の定める河川区域内の土地となった場合において、河川管理者がその旨の登記を登記所に嘱託するときは、河川管理者は、当該土地の所有権の登記名義人に代わって、当該土地の分筆の登記を登記所に嘱託することができる。  
+>　  
+> オ　市町村が、当該市町村を所有権の登記名義人とする土地についての合筆の登記の嘱託をする場合には、その嘱託情報に登記識別情報の通知を希望する旨の情報が含まれていたとしても、登記識別情報は通知されない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
 ---
@@ -22,19 +22,31 @@
 
 ### ア：代位登記でも、本当の所有者の証明は必要
 
-代位による登記嘱託であっても、表題部所有者となるべき者（被代位者＝本当の所有者）の所有権を証する情報の提供は必要です（不動産登記令別表4の項添付情報欄ハ）。代位という手続はあくまで「誰が申請するか」の話であり、「本当にその人の土地であること」の証明までは免除されません。
+代位による登記嘱託であっても、表題部所有者となるべき者（被代位者＝本当の所有者）の所有権を証する情報の提供は必要です（不動産登記令別表4の項添付情報欄ハ）。
 
-**たとえば**、市町村が、所有者不明・放置状態の私有地について、公共事業の前提として代わりに表題登記の嘱託をする場合でも、「本当にその人の土地である」ことを裏付ける資料は必要です。代位で申請するからといって、その部分の証明まで省略できるわけではありません。
+代位という手続はあくまで「誰が申請するか」の話であり、「本当にその人の土地であること」の証明までは免除されません。
+
+**たとえば**、市町村が、所有者不明・放置状態の私有地について、公共事業の前提として代わりに表題登記の嘱託をする場合でも、「本当にその人の土地である」ことを裏付ける資料は必要です。
+
+代位で申請するからといって、その部分の証明まで省略できるわけではありません。
 
 ### イ：市町村長作成の委任状に「3か月以内」の期限はない
 
-不動産登記令17条1項により、官公署が作成した委任状（令7条1項2号の情報）であっても、本来は作成後3月以内のものであることが求められます。しかし、令17条2項は「前項の規定は、官庁又は公署が登記の嘱託をする場合には、適用しない」と定めており、官公署自身が嘱託人として登記の嘱託をするときに限り、この3か月以内という期限の縛りが外れます。本問は市町村自身が嘱託をする場面なので、この特例が適用されます。
+不動産登記令17条1項により、官公署が作成した委任状（令7条1項2号の情報）であっても、本来は作成後3月以内のものであることが求められます。
 
-**たとえば**、民間の売買契約の委任状なら「作成後3か月以内のものを」と言われることが多いですが、市町村が自ら嘱託人として登記の嘱託をする場合には、市町村長が作成した委任状は、半年前・1年前に作成されたものでも有効に使うことができます。ただし、これは官公署作成の書面だから一律に期限がないという話ではなく、官公署自身が嘱託をする場面に限られる特例である点に注意が必要です。
+しかし、令17条2項は「前項の規定は、官庁又は公署が登記の嘱託をする場合には、適用しない」と定めており、官公署自身が嘱託人として登記の嘱託をするときに限り、この3か月以内という期限の縛りが外れます。
+
+本問は市町村自身が嘱託をする場面なので、この特例が適用されます。
+
+**たとえば**、民間の売買契約の委任状なら「作成後3か月以内のものを」と言われることが多いですが、市町村が自ら嘱託人として登記の嘱託をする場合には、市町村長が作成した委任状は、半年前・1年前に作成されたものでも有効に使うことができます。
+
+ただし、これは官公署作成の書面だから一律に期限がないという話ではなく、官公署自身が嘱託をする場面に限られる特例である点に注意が必要です。
 
 ### ウ：市町村が自ら所有する建物の表題登記を嘱託するとき、所有権証明情報は不要
 
-官公署自身による嘱託については、印鑑証明書の提供を要しないなど（不動産登記令16条4項・18条4項）、個別の条文ごとに免除される手続が定められています。所有権を証する情報についても、国又は地方公共団体が所有する建物の表題登記を官公署自身が嘱託する場合には、不動産登記事務取扱手続準則87条3項により、その提供を便宜省略して差し支えないとされています。
+官公署自身による嘱託については、印鑑証明書の提供を要しないなど（不動産登記令16条4項・18条4項）、個別の条文ごとに免除される手続が定められています。
+
+所有権を証する情報についても、国又は地方公共団体が所有する建物の表題登記を官公署自身が嘱託する場合には、不動産登記事務取扱手続準則87条3項により、その提供を便宜省略して差し支えないとされています。
 
 **たとえば**、市が新しく建てた公民館の表題登記を、市自身が嘱託する場合、通常の民間の建物のように「これは私のものです」という証明書類を別途添付する必要はありません。市役所からの正式な嘱託そのものが、その裏付けとして扱われます。
 
@@ -46,9 +58,13 @@
 
 ### オ：希望すれば、市町村にも登記識別情報は通知される
 
-不動産登記規則64条1項4号により、官公署が登記名義人となる場合、登記識別情報は「通知を希望した場合を除き通知されない」とされています。つまり、あらかじめ通知を希望する旨を申し出ていれば、実際に通知されます。なお、この希望の申出は申請情報の内容とする必要があります（規則64条2項）。
+不動産登記規則64条1項4号により、官公署が登記名義人となる場合、登記識別情報は「通知を希望した場合を除き通知されない」とされています。
+
+つまり、あらかじめ通知を希望する旨を申し出ていれば、実際に通知されます。なお、この希望の申出は申請情報の内容とする必要があります（規則64条2項）。
 
 **たとえば**、市町村が自分の土地を合筆する登記を嘱託する際、「登記識別情報の通知を希望します」と申し出ていれば、実際に登記識別情報は通知されます。「役所だから絶対に通知されない」わけではなく、希望を出しているかどうかがポイントです。
+
+---
 
 ### まとめ
 
@@ -107,12 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 建・物・登・記・所・権・地・嘱・託・証・識 — these must be rendered
+kanji 建・物・登・記・所・権・嘱・託・証・識 — these must be rendered
 in their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -187,8 +221,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (3
 cards in the "免除される手続" column and 2 cards in the "免除されない
 手続" column), with no duplicated or missing cards, that badge numbers
@@ -196,12 +230,12 @@ run 1-5 continuously across both columns without resetting, confirm
 there is no intro illustration or paragraph block between the header and
 the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading +
-a short conclusion tag, at a glance.
+a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「誰が嘱託しているか」「何が免除の条件になっているか」を見抜けるようにする5パネル構成。イ（委任状の期限）とオ（登記識別情報の通知）は、一見1回のチェックで終わりそうに見えるが、実は隠れた2段階目の条件があることを決定木で示す。②の色分け（免除される手続＝緑、免除されない手続・特例＝青）を引き継いでいる。
 
@@ -227,7 +261,7 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panels 2 and 5（肢イ・肢オ）must be drawn as two-step
+flowchart. Panels 2 and 5（イ・オ）must be drawn as two-step
 flowcharts, because each has a second condition that is easy to overlook
 at first glance; both the「はい」and「いいえ」branches of the second
 diamond node must lead to their own distinct conclusion node (no looping
@@ -241,7 +275,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -267,7 +309,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 代位登記でも所有権証明は必要
@@ -283,12 +325,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明は省略不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 嘱託人自身の嘱託なら委任状に期限なし
-Diagram: A two-step decision flowchart. Start node: 委任状は市町村長（官公
-署）が作成したものか？with a はい arrow down to a diamond node（highlighted
+Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond, since this 肢 always
+starts from this fact): 委任状は市町村長（官公署）が作成したもの, with an
+arrow down to the only diamond node（highlighted
 with a thick border): その嘱託は、委任状を作成した官公署自身が嘱託人と
 して行うものか？with a green はい branch leading to a conclusion node
 reading 作成後3か月以内という期限は適用されない, and a faded いいえ
@@ -303,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 嘱託人自身なら期限なし
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 自己所有の建物なら証明不要
@@ -319,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 自己所有なら証明不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 河川区域化した土地は河川管理者が嘱託
@@ -335,12 +378,12 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 河川管理者が嘱託可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 希望する旨があれば通知される
-Diagram: A two-step decision flowchart. Start node: 登記名義人になるのは
-官公署か？with a はい arrow down to a diamond node（highlighted with a
+Diagram: A two-step decision flowchart. Start box (a plain rounded rectangle, NOT a diamond): 登記名義人になるの
+は官公署（市町村）, with an arrow down to the only diamond node（highlighted with a
 thick border): 嘱託情報に、登記識別情報の通知を希望する旨の情報が含まれ
 ているか？with a green はい branch leading to a conclusion node reading
 登記識別情報が通知される（郵便アイコン）, and an equally clear いいえ
@@ -361,10 +404,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 く整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 嘱, 託, 証, 権, 識, 別, 河, 川, 委, 任, 状, 限, 希, 望, 通, 知
-and any character that has a visually similar Simplified Chinese variant.
-If any character renders as a Simplified Chinese variant, redraw that
+and any character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

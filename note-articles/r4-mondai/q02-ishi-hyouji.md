@@ -2,21 +2,25 @@
 
 **出題年度：令和4年度　午後の部　第2問**
 
-> 意思表示に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　AがBと通謀してAの所有する甲土地をBに売却したように仮装し、AからBへの所有権の移転の登記がされた。その後、Bから甲土地を買い受けたCが、AB間の売却が仮装のものであることについて善意であった場合には、Cは、BからCへの甲土地の所有権の移転の登記がされていなくても、Aに対して甲土地の所有権の取得を対抗することができる。
->
-> イ　AがBと通謀してAの所有する甲土地をBに売却したように仮装し、AからBへの所有権の移転の登記がされた。その後、Bが死亡し、AB間の売却が仮装のものであることについて善意のCがBを単独で相続した場合には、Cは、Aに対して甲土地の所有権の取得を対抗することができる。
->
-> ウ　AがBと通謀してAの所有する甲土地をBに売却したように仮装し、AからBへの所有権の移転の登記がされた。その後、甲土地が、Bから、AB間の売却が仮装のものであることについて善意のCに売却され、さらにCから、AB間の売却が仮装のものであることについて悪意のDに売却された場合には、Dは、Aに対して甲土地の所有権の取得を対抗することができない。
->
-> エ　AがBの詐欺により甲土地をBに売却した後、Bは、詐欺の事実について善意であるが、そのことについて過失があるCに甲土地を売却した。その後、Aが詐欺を理由としてAB間の売買の意思表示を取り消した場合には、Cは、Aに対して甲土地の所有権の取得を対抗することができない。
->
-> オ　AがBの強迫により甲土地をBに売却した後、Bは、強迫の事実について善意で、そのことについて過失がないCに甲土地を売却した。その後、Aが強迫を理由としてAB間の売買の意思表示を取り消した場合には、Cは、Aに対して甲土地の所有権の取得を対抗することができる。
->
+> 意思表示に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　AがBと通謀してAの所有する甲土地をBに売却したように仮装し、AからBへの所有権の移転の登記がされた。その後、Bから甲土地を買い受けたCが、AB間の売却が仮装のものであることについて善意であった場合には、Cは、BからCへの甲土地の所有権の移転の登記がされていなくても、Aに対して甲土地の所有権の取得を対抗することができる。  
+>　  
+> イ　AがBと通謀してAの所有する甲土地をBに売却したように仮装し、AからBへの所有権の移転の登記がされた。その後、Bが死亡し、AB間の売却が仮装のものであることについて善意のCがBを単独で相続した場合には、Cは、Aに対して甲土地の所有権の取得を対抗することができる。  
+>　  
+> ウ　AがBと通謀してAの所有する甲土地をBに売却したように仮装し、AからBへの所有権の移転の登記がされた。その後、甲土地が、Bから、AB間の売却が仮装のものであることについて善意のCに売却され、さらにCから、AB間の売却が仮装のものであることについて悪意のDに売却された場合には、Dは、Aに対して甲土地の所有権の取得を対抗することができない。  
+>　  
+> エ　AがBの詐欺により甲土地をBに売却した後、Bは、詐欺の事実について善意であるが、そのことについて過失があるCに甲土地を売却した。その後、Aが詐欺を理由としてAB間の売買の意思表示を取り消した場合には、Cは、Aに対して甲土地の所有権の取得を対抗することができない。  
+>　  
+> オ　AがBの強迫により甲土地をBに売却した後、Bは、強迫の事実について善意で、そのことについて過失がないCに甲土地を売却した。その後、Aが強迫を理由としてAB間の売買の意思表示を取り消した場合には、Cは、Aに対して甲土地の所有権の取得を対抗することができる。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
-意思表示の分野は、虚偽表示（民94条）・詐欺（民96条）・強迫（民96条）で、あとから登場した「第三者」がどこまで守られるかがテーマです。①どの制度か、②第三者の保護要件（善意で足りるか・無過失までいるか）、③登記の要否、の3点を当てはめて判断していきます。
+---
+
+意思表示の分野は、虚偽表示（民94条）・詐欺（民96条）・強迫（民96条）で、あとから登場した「第三者」がどこまで守られるかがテーマです。
+
+①どの制度か、②第三者の保護要件（善意で足りるか・無過失までいるか）、③登記の要否、の3点を当てはめて判断していきます。
 
 ### ア：虚偽表示の善意の第三者は、登記がなくても守られる
 
@@ -26,27 +30,37 @@
 
 ### イ：善意でも、相続で引き継いだ人は「第三者」として守られない
 
-94条2項の「第三者」とは、当事者およびその包括承継人以外の者で、虚偽表示の外形を基礎に新たに独立の利害関係を持つに至った者をいいます。相続人はBの地位をまるごと引き継ぐ包括承継人（民法896条）なので、たとえ善意でも「第三者」にはあたらず、保護されません。
+94条2項の「第三者」とは、当事者およびその包括承継人以外の者で、虚偽表示の外形を基礎に新たに独立の利害関係を持つに至った者をいいます。
+
+相続人はBの地位をまるごと引き継ぐ包括承継人（民法896条）なので、たとえ善意でも「第三者」にはあたらず、保護されません。
 
 **たとえば**、仮装売買の買主Bさんが亡くなり、事情を知らない子のCさんが単独で相続した場合、Cさんは新たに取引に入った第三者ではなくBの立場を承継しただけなので、Aさんに対して甲土地の所有権を主張することはできません。
 
 ### ウ：いったん善意者が現れれば、その後の悪意の転得者も権利を得られる
 
-判例は、通謀虚偽表示について、いったん善意の第三者が現れれば、その後の転得者は悪意であっても、善意の第三者から有効に権利を取得できるとしています（絶対的構成）。善意者のもとで権利関係が確定するという考え方です。したがって本肢の悪意のDも所有権を取得し、Aに対抗できます。
+判例は、通謀虚偽表示について、いったん善意の第三者が現れれば、その後の転得者は悪意であっても、善意の第三者から有効に権利を取得できるとしています（絶対的構成）。
+
+善意者のもとで権利関係が確定するという考え方です。したがって本肢の悪意のDも所有権を取得し、Aに対抗できます。
 
 **たとえば**、仮装売買の甲土地が、事情を知らないCさんにいったん渡り、その後「実は仮装だった」と知っているDさんがCさんから買った場合でも、Dさんは善意のCさんから確定した権利を受け継ぐので、Aさんに所有権を主張できます。
 
 ### エ：詐欺取消しは、「過失のある」善意の第三者には対抗できる
 
-詐欺による意思表示の取消しは、善意かつ無過失の第三者には対抗できません（民法96条3項）。裏を返せば、第三者に過失があれば保護されず、取消しを対抗できます。本肢のCは善意でも過失があるため保護されず、AはCに取消しを対抗でき、Cは所有権取得をAに対抗できません。
+詐欺による意思表示の取消しは、善意かつ無過失の第三者には対抗できません（民法96条3項）。裏を返せば、第三者に過失があれば保護されず、取消しを対抗できます。
+
+本肢のCは善意でも過失があるため保護されず、AはCに取消しを対抗でき、Cは所有権取得をAに対抗できません。
 
 **たとえば**、Bさんの詐欺で甲土地を売らされたAさんが、少し調べれば怪しいと気づけたはずのCさん（善意だが不注意）が転売を受けた後に取消しをした場合、Cさんは守られず、土地はAさんに戻ります。
 
 ### オ：強迫取消しは、善意無過失の第三者にも対抗できる
 
-強迫による取消しには、詐欺のような第三者保護規定（96条3項）がありません。そのため強迫の取消しは、善意で無過失の第三者に対してさえ対抗できます（96条3項の反対解釈）。だまされたより脅された被害者を、より手厚く保護する趣旨です。本肢のCは善意無過失でも保護されず、Aに所有権取得を対抗できません。
+強迫による取消しには、詐欺のような第三者保護規定（96条3項）がありません。そのため強迫の取消しは、善意で無過失の第三者に対してさえ対抗できます（96条3項の反対解釈）。
+
+だまされたより脅された被害者を、より手厚く保護する趣旨です。本肢のCは善意無過失でも保護されず、Aに所有権取得を対抗できません。
 
 **たとえば**、Bさんに脅されて甲土地を売らされたAさんが取消しをした場合、たとえその後まったく事情を知らない善意無過失のCさんが土地を買っていたとしても、Aさんは取消しをCさんにも主張でき、Cさんは土地を守れません。
+
+---
 
 ### まとめ
 
@@ -108,12 +122,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 偽・欺・迫・対・転・継・悪・過・失・権・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -194,9 +226,9 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 偽・欺・迫・対・転・継・悪・過・失・権・相・続. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 偽・欺・迫・対・転・継・悪・過・失・権・相・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting (3 cards under 虚偽表示に関する
@@ -204,7 +236,7 @@ across both columns without resetting (3 cards under 虚偽表示に関する
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -236,12 +268,19 @@ not a paragraph.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
-special attention to the kanji 偽・欺・迫・対・転・継・悪・過・失・権・
-善・意・護・相・続, which have Simplified Chinese look-alike forms with visibly
+special attention to the kanji 偽・欺・迫・対・継・悪・過・失・権・善・意・護・相・続, which have Simplified Chinese look-alike forms with visibly
 different stroke shapes — always draw the standard Japanese (Jōyō) form
 of these characters.
 
@@ -338,9 +377,9 @@ Small credit text (2行):
 「強迫＝第三者保護なし」という保護の強さの序列がカギ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 偽・欺・迫・対・転・継・悪・過・失・権・善・意・護・相・続. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 偽・欺・迫・対・継・悪・過・失・権・善・意・護・相・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm every node label matches the
 Japanese text given above verbatim, with no paraphrasing and no
 substituted characters, confirm that no node mentions the specific
@@ -348,10 +387,10 @@ figures "A" "B" "C" "D" or the facts of this particular exam question
 (this flowchart must read as a general-purpose procedure), confirm the
 three lanes (虚偽表示・詐欺・強迫) are clearly color-coded and visually
 separated, and confirm the entire canvas, edge to edge, is filled with a
-fully opaque background with no transparency or alpha channel anywhere.
+fully opaque background with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node).
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -374,12 +413,12 @@ decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 1,
-2 and 3 (肢ア・肢イ・肢ウ) share the same underlying decision-tree shape
+2 and 3 (ア・イ・ウ) share the same underlying decision-tree shape
 for 虚偽表示の第三者保護（あとから登場した人は包括承継人か、新たに取引に
 入った人か→善意か悪意か→悪意なら善意者の介在の有無）; draw all three with
 the same tree layout, but highlight（太い縁取り・色を変える等で強調）only
 the branch relevant to that panel's 肢 and keep the other branches small
-and grayed out. Panels 4 and 5 (肢エ・肢オ) likewise share the same
+and grayed out. Panels 4 and 5 (エ・オ) likewise share the same
 decision-tree shape for 詐欺・強迫と第三者保護（意思表示の瑕疵が詐欺か強迫
 か→（詐欺の場合のみ）第三者は善意無過失か）; draw both with the same tree
 layout, highlighting the branch relevant to that panel's 肢. Unlike a
@@ -392,7 +431,15 @@ keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -416,16 +463,15 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 善意なら登記なしで保護される
 Diagram: A decision-tree flowchart on an isometric scene with land plot
 「甲土地」and figures A・B・C. Start node:「あとから登場した人は、包括
-承継人（相続人）か、それとも新たに取引に入った人か？」with a はい（包括
-承継人）branch drawn small and grayed out (not this panel's focus) leading
-to「第三者にあたらない」, and a はい（新たに取引に入った人）branch drawn
-with a thicker highlighted border proceeding to a second diamond node:
+承継人（相続人）か、それとも新たに取引に入った人か？」with a branch labeled「包括承継人（相続人）」drawn small and grayed out
+(not this panel's focus) leading to「第三者にあたらない」, and a branch
+labeled「新たに取引に入った人」drawn with a thicker highlighted border proceeding to a second diamond node:
 「その人は善意か（虚偽表示だと知らなかったか）？」with the 善意 branch
 highlighted, leading to a conclusion node with a green checkmark reading
 「登記がなくても保護される」; the 悪意 branch is drawn small and grayed out
@@ -439,7 +485,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 善意なら登記不要で保護
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続人は「第三者」に当たらない
@@ -460,7 +506,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承継人は保護されない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 善意者を経れば悪意者も取得
@@ -481,7 +527,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 絶対的構成で取得
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 詐欺は過失ある善意者を保護しない
@@ -501,7 +547,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 過失ありなら対抗される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 強迫には第三者保護規定がない
@@ -526,13 +572,13 @@ Small footnote text (bottom of panel, small font, verbatim):
 3項のような第三者保護規定がありません）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 偽・欺・迫・対・転・継・悪・過・失・権・善・意・護・相・続. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 偽・欺・迫・対・継・悪・過・失・権・善・意・護・相・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
-multi-condition 肢（肢ア・肢イ・肢ウ・肢エ・肢オ）is drawn as an actual
+multi-condition 肢（ア・イ・ウ・エ・オ）is drawn as an actual
 flowchart with branch nodes (not a bare illustration with no visible
 decision structure), that each 着眼点 callout states a checking order
 rather than only a conclusion, confirm nothing is rendered below the last

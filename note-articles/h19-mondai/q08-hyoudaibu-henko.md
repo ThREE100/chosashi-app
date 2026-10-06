@@ -2,51 +2,87 @@
 
 **出題年度：平成19年度　午前の部　第8問**
 
-> 表題部所有者のする表題部の変更の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。
->
-> ア　表題部所有者の氏名又は名称に変更があったときは、その変更があった日から１月以内に、表題部の変更の登記を申請しなければならない。
->
-> イ　表題部所有者の持分について変更があったときは、その変更があった日から１月以内に、表題部の変更の登記を申請しなければならない。
->
-> ウ　地目又は地積について変更があったときは、その変更があった日から１月以内に、表題部の変更の登記を申請しなければならない。
->
-> エ　共用部分である建物の床面積について変更があったときは、その変更があった日から１月以内に、表題部の変更の登記を申請しなければならない。
->
-> オ　建物が団地共用部分となったときは、その日から１月以内に、表題部の変更の登記を申請しなければならない。
->
+> 表題部所有者のする表題部の変更の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　表題部所有者の氏名又は名称に変更があったときは、その変更があった日から１月以内に、表題部の変更の登記を申請しなければならない。  
+>　  
+> イ　表題部所有者の持分について変更があったときは、その変更があった日から１月以内に、表題部の変更の登記を申請しなければならない。  
+>　  
+> ウ　地目又は地積について変更があったときは、その変更があった日から１月以内に、表題部の変更の登記を申請しなければならない。  
+>　  
+> エ　共用部分である建物の床面積について変更があったときは、その変更があった日から１月以内に、表題部の変更の登記を申請しなければならない。  
+>　  
+> オ　建物が団地共用部分となったときは、その日から１月以内に、表題部の変更の登記を申請しなければならない。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
 
-「表題部の変更の登記」と聞くと、表題部に関することなら何でも「変更があったら1か月以内に申請」と一律に義務化されているように思えてしまいますが、実際の不動産登記法は事項ごとに扱いが違います。この問題は、ア〜オの5つの事項について「1か月以内の申請義務があるかどうか」を一つずつ検討させる構成になっています。
+---
+
+「表題部の変更の登記」と聞くと、表題部に関することなら何でも「変更があったら1か月以内に申請」と一律に義務化されているように思えてしまいますが、実際の不動産登記法は事項ごとに扱いが違います。
+
+この問題は、ア〜オの5つの事項について「1か月以内の申請義務があるかどうか」を一つずつ検討させる構成になっています。
 
 ### ア：表題部所有者の氏名・名称の変更に、1か月以内の申請義務はない
 
-不動産登記法上、「表題部の変更の登記」を変更があった日から1か月以内に申請しなければならないという義務が明文で課されているのは、土地については地目又は地積の変更（37条1項）、建物については44条1項各号（家屋番号など一部の事項を除く）に掲げる登記事項の変更（51条1項）のように、その不動産の物理的な現況の変化に関する事項に限られます。表題部所有者自身の氏名又は名称は、こうした不動産の現況を表す事項ではありません。不動産登記法31条は「表題部所有者の氏名若しくは名称又は住所についての変更の登記又は更正の登記は、表題部所有者以外の者は、申請することができない」と定めていますが、これは申請できる者を表題部所有者本人に限定する規定にすぎず、一定期間内に申請することを義務づける規定ではありません。したがって、氏名又は名称に変更があったからといって、その日から1か月以内に必ず変更登記を申請しなければならないというルールは存在せず、学生アの記述は誤りです。
+不動産登記法上、「表題部の変更の登記」を変更があった日から1か月以内に申請しなければならないという義務が明文で課されているのは、土地については地目又は地積の変更（37条1項）、建物については44条1項各号（家屋番号など一部の事項を除く）に掲げる登記事項の変更（51条1項）のように、その不動産の物理的な現況の変化に関する事項に限られます。
 
-**たとえば**、表題部所有者として登記されているAさんが婚姻して氏を変えたとします。Aさんが自分の名義で表題部の変更登記を申請すること自体は可能ですが、「氏が変わった日から1か月以内に必ず申請しなければならない」という決まりは不動産登記法にはありません。所有権の保存登記を申請する前提として名義を最新のものにしておく必要が生じたときなどに、必要に応じて申請すれば足ります。
+表題部所有者自身の氏名又は名称は、こうした不動産の現況を表す事項ではありません。
+
+不動産登記法31条は「表題部所有者の氏名若しくは名称又は住所についての変更の登記又は更正の登記は、表題部所有者以外の者は、申請することができない」と定めていますが、これは申請できる者を表題部所有者本人に限定する規定にすぎず、一定期間内に申請することを義務づける規定ではありません。
+
+したがって、氏名又は名称に変更があったからといって、その日から1か月以内に必ず変更登記を申請しなければならないというルールは存在せず、学生アの記述は誤りです。
+
+**たとえば**、表題部所有者として登記されているAさんが婚姻して氏を変えたとします。
+
+Aさんが自分の名義で表題部の変更登記を申請すること自体は可能ですが、「氏が変わった日から1か月以内に必ず申請しなければならない」という決まりは不動産登記法にはありません。
+
+所有権の保存登記を申請する前提として名義を最新のものにしておく必要が生じたときなどに、必要に応じて申請すれば足ります。
 
 ### イ：表題部所有者の持分の変更は、保存登記を経てからでなければ登記できない
 
-不動産登記法32条は、表題部所有者又はその持分についての変更は、その不動産について所有権の保存の登記をした後において、所有権の移転の登記の手続をするのでなければ登記することができないと定めています。つまり、持分に変更があった場合、いきなり「表題部の変更の登記」で処理するのではなく、まず所有権保存登記を経由し、その後は所有権の移転の登記（権利に関する登記）で処理するのが不動産登記法の建前です。地目・地積の変更（ウ）のように「変更があった日から1か月以内に表題部の変更登記を申請しなければならない」という単純な規律にはなっていません。学生イは、この前提を踏まえずに1か月以内の申請義務があると述べている点で誤りです。
+不動産登記法32条は、表題部所有者又はその持分についての変更は、その不動産について所有権の保存の登記をした後において、所有権の移転の登記の手続をするのでなければ登記することができないと定めています。
 
-**たとえば**、表題部所有者としてBさんとCさんが2分の1ずつの持分で登記されている土地について、その後の話し合いでBさんの持分が3分の2に変わったとします。この場合、まずBさん・Cさんについて所有権の保存登記をしなければ、持分の変更を登記することはできません。「持分が変わった日から1か月以内に表題部の変更登記を申請する」というだけの仕組みにはなっていないのです。
+つまり、持分に変更があった場合、いきなり「表題部の変更の登記」で処理するのではなく、まず所有権保存登記を経由し、その後は所有権の移転の登記（権利に関する登記）で処理するのが不動産登記法の建前です。
+
+地目・地積の変更（ウ）のように「変更があった日から1か月以内に表題部の変更登記を申請しなければならない」という単純な規律にはなっていません。学生イは、この前提を踏まえずに1か月以内の申請義務があると述べている点で誤りです。
+
+**たとえば**、表題部所有者としてBさんとCさんが2分の1ずつの持分で登記されている土地について、その後の話し合いでBさんの持分が3分の2に変わったとします。
+
+この場合、まずBさん・Cさんについて所有権の保存登記をしなければ、持分の変更を登記することはできません。「持分が変わった日から1か月以内に表題部の変更登記を申請する」というだけの仕組みにはなっていないのです。
 
 ### ウ：地目又は地積の変更は、1か月以内の申請義務がある
 
-不動産登記法37条1項は、土地の地目又は地積について変更があったときは、表題部所有者又は所有権の登記名義人が、その変更があった日から1か月以内に、変更の登記を申請しなければならないと定めています。地目・地積は、その土地の現況を表す基本的な登記事項であり、現実と登記記録を一致させるために申請義務が明確に課されています。学生ウの記述はこの規律どおりであり、正しいといえます。
+不動産登記法37条1項は、土地の地目又は地積について変更があったときは、表題部所有者又は所有権の登記名義人が、その変更があった日から1か月以内に、変更の登記を申請しなければならないと定めています。
+
+地目・地積は、その土地の現況を表す基本的な登記事項であり、現実と登記記録を一致させるために申請義務が明確に課されています。学生ウの記述はこの規律どおりであり、正しいといえます。
 
 **たとえば**、畑として登記されていた土地に自宅を新築して、その土地全体を宅地として使うようになった場合、地目は「畑」から「宅地」に変わります。この変更があった日から1か月以内に、地目の変更登記を申請しなければなりません。
 
 ### エ：共用部分である建物でも、床面積の変更には申請義務が及ぶ
 
-不動産登記法51条1項は、建物について44条1項各号（家屋番号など一部の事項を除く）に掲げる登記事項に変更があったときは、その変更があった日から1か月以内に変更の登記を申請しなければならないと定めており、これは床面積の変更にも当てはまる規律です。同項は、この申請義務を負う者を表題部所有者又は所有権の登記名義人としつつ、共用部分である旨の登記又は団地共用部分である旨の登記がある建物については「所有者」と定めており、共用部分である建物であることを理由に床面積の変更登記そのものが不要になるわけではありません。さらに同法51条4項は、共用部分である旨の登記又は団地共用部分である旨の登記がある建物について登記事項に変更があった後に所有権（区分所有者としての権利）を取得した者にも、その取得の日から1か月以内の変更登記の申請義務を課しています。したがって、学生エの「共用部分である建物の床面積の変更も表題部の変更登記の対象になる」という趣旨の記述は正しいといえます。
+不動産登記法51条1項は、建物について44条1項各号（家屋番号など一部の事項を除く）に掲げる登記事項に変更があったときは、その変更があった日から1か月以内に変更の登記を申請しなければならないと定めており、これは床面積の変更にも当てはまる規律です。
+
+同項は、この申請義務を負う者を表題部所有者又は所有権の登記名義人としつつ、共用部分である旨の登記又は団地共用部分である旨の登記がある建物については「所有者」と定めており、共用部分である建物であることを理由に床面積の変更登記そのものが不要になるわけではありません。
+
+さらに同法51条4項は、共用部分である旨の登記又は団地共用部分である旨の登記がある建物について登記事項に変更があった後に所有権（区分所有者としての権利）を取得した者にも、その取得の日から1か月以内の変更登記の申請義務を課しています。
+
+したがって、学生エの「共用部分である建物の床面積の変更も表題部の変更登記の対象になる」という趣旨の記述は正しいといえます。
 
 **たとえば**、マンションの集会室（共用部分である旨の登記がある建物）を改装して床面積が増えたとします。この床面積の変更も、他の建物の床面積の変更と同じく登記事項の変更として扱われ、「共用部分だから登記しなくてよい」ということにはなりません。
 
 ### オ：「団地共用部分になったこと」自体は、表題部の変更登記ではなく別の登記手続で処理する
 
-建物が新たに団地共用部分となる場合に用いられる登記は、不動産登記法51条の「表題部の変更の登記」ではなく、同法58条が定める「団地共用部分である旨の登記」という独立した登記類型です。58条は、この登記を申請できる者を当該建物の表題部所有者又は所有権の登記名義人に限定する規定であり、「団地共用部分となった日から1か月以内に申請しなければならない」という期間内の申請義務までを課すものではありません。学生オは、団地共用部分となったという事実の発生を、地目・地積の変更（ウ）や床面積の変更（エ）と同じ「1か月以内の表題部変更登記義務」の話に結びつけていますが、そもそも登記の種類自体が異なるため誤りです。
+建物が新たに団地共用部分となる場合に用いられる登記は、不動産登記法51条の「表題部の変更の登記」ではなく、同法58条が定める「団地共用部分である旨の登記」という独立した登記類型です。
 
-**たとえば**、マンションの敷地内にある物置を、規約で新たに「団地共用部分」として位置づけることにしたとします。この手続は「団地共用部分である旨の登記」（58条）であり、表題部所有者などが必要に応じて申請するものです。「団地共用部分とすることを決めた日から1か月以内に申請しなければ違法になる」というような期限付きの義務ではありません。
+58条は、この登記を申請できる者を当該建物の表題部所有者又は所有権の登記名義人に限定する規定であり、「団地共用部分となった日から1か月以内に申請しなければならない」という期間内の申請義務までを課すものではありません。
+
+学生オは、団地共用部分となったという事実の発生を、地目・地積の変更（ウ）や床面積の変更（エ）と同じ「1か月以内の表題部変更登記義務」の話に結びつけていますが、そもそも登記の種類自体が異なるため誤りです。
+
+**たとえば**、マンションの敷地内にある物置を、規約で新たに「団地共用部分」として位置づけることにしたとします。この手続は「団地共用部分である旨の登記」（58条）であり、表題部所有者などが必要に応じて申請するものです。
+
+「団地共用部分とすることを決めた日から1か月以内に申請しなければ違法になる」というような期限付きの義務ではありません。
+
+---
 
 ### まとめ
 
@@ -111,7 +147,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -203,8 +247,8 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -221,7 +265,7 @@ channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア〜オ5肢はいずれも「表題部の変更の登記」という同じ言葉を出発点にしながら、実際には①表題部所有者自身に関する事項（氏名・名称、持分）、②不動産の物理的な現況に関する事項（地目・地積、床面積）、③そもそも別の登記類型として扱われる事項（団地共用部分となったこと）の3系統に分かれ、系統によって1か月以内の申請義務の有無が異なる。この「まずどの系統に属する事項かを見分け、次にその系統の中でどちらの事項かを確認する」という同一の判定順序を5肢すべてが共有しているため、1本の決定木（フローチャート）を5肢で使い回し、各パネルでは自分の肢に関係する経路だけを強調表示する構成にした。
 
@@ -303,7 +347,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled orange circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -313,13 +357,13 @@ identically across all 5 panels of this set. Root diamond node at the
 top labeled 「地目・地積・床面積など現況の変更か」, with two branch
 arrows labeled 「はい」(pointing right, rendered faded grey dotted-outline
 in this panel) and 「いいえ」(pointing left, rendered with a thick orange
-border and full color, since 肢ア is not a change to the physical
+border and full color, since ア is not a change to the physical
 condition of the property). The highlighted 「いいえ」branch leads down to
 a second diamond node labeled 「表題部所有者自身の氏名・名称または持分の
 変更か」, also highlighted with a thick orange border and full color,
 branching into 「はい」(highlighted orange, leading onward) and 「いいえ」
 (faded grey, leading off to a small greyed conclusion box labeled 「58条
-の別手続」representing 肢オ, not this panel's concern). The highlighted
+の別手続」representing オ, not this panel's concern). The highlighted
 「はい」branch leads to a third diamond node labeled 「氏名・名称の変更
 か、持分の変更か」, highlighted in orange, branching into two conclusion
 boxes: a highlighted orange rounded conclusion box labeled 「期限の定め
@@ -327,7 +371,7 @@ boxes: a highlighted orange rounded conclusion box labeled 「期限の定め
 showing a person's name being crossed out and rewritten, next to a
 calendar page labeled 「1か月」with a large red X mark over it — and,
 beside it, a faded grey dotted-outline conclusion box labeled 「保存登記
-が先」representing 肢イ, not this panel's path.
+が先」representing イ, not this panel's path.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず不動産の物理的な現況(地目・地積・床面積)の変更ではないことを確認し、
 次に表題部所有者自身の事項のうち氏名・名称の変更であることを確認します。
@@ -338,14 +382,14 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 期限の定めなし
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled orange circle containing the number 2.
 Heading (bold, ONE line):
 持分の変更はまず保存登記から
 Diagram: Draw the same shared decision tree as in Panel 1. Root diamond
 node labeled 「地目・地積・床面積など現況の変更か」, with 「はい」branch
 (faded grey dotted-outline) and 「いいえ」branch (thick orange border,
-full color, since 肢イ is not a physical-condition change) leading down
+full color, since イ is not a physical-condition change) leading down
 to the second diamond node labeled 「表題部所有者自身の氏名・名称または
 持分の変更か」, highlighted orange, branching into 「はい」(highlighted
 orange, leading onward) and 「いいえ」(faded grey, leading to the small
@@ -353,7 +397,7 @@ greyed conclusion box labeled 「58条の別手続」, not this panel's concern)
 The highlighted 「はい」branch leads to the third diamond node labeled
 「氏名・名称の変更か、持分の変更か」, highlighted orange, branching into
 two conclusion boxes: a faded grey dotted-outline conclusion box labeled
-「期限の定めなし」representing 肢ア (not this panel's path), and, beside
+「期限の定めなし」representing ア (not this panel's path), and, beside
 it, a highlighted orange rounded conclusion box labeled 「保存登記が先」
 — drawn with an isometric land plot split into two shaded shares
 labeled 「1/2」「1/2」changing to 「2/3」「1/3」, an arrow pointing first to
@@ -369,13 +413,13 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 保存登記が先
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line):
 地目・地積の変更は1か月以内が原則
 Diagram: Draw the same shared decision tree as in Panel 1. Root diamond
 node labeled 「地目・地積・床面積など現況の変更か」, with the 「はい」
-branch highlighted with a thick green border and full color (since 肢ウ
+branch highlighted with a thick green border and full color (since ウ
 is a physical-condition change) and the 「いいえ」branch rendered faded
 grey dotted-outline. The highlighted 「はい」branch leads down to a
 second diamond node labeled 「地目・地積の変更か、床面積の変更か」,
@@ -385,7 +429,7 @@ isometric land plot with a wooden signboard flipping from 「畑」to
 「宅地」, a calendar showing a 「1か月」countdown arrow starting exactly
 from the change date and ending at a green checkmark stamp reading
 「変更登記」— and, beside it, a faded grey dotted-outline conclusion box
-labeled 「51条・共用部分も対象」representing 肢エ, not this panel's path.
+labeled 「51条・共用部分も対象」representing エ, not this panel's path.
 The lower half of the shared tree (the 「いいえ」branch toward the
 「表題部所有者自身の氏名・名称または持分の変更か」diamond and its own
 sub-branches, and the 「58条の別手続」conclusion box) is rendered faded
@@ -399,18 +443,18 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 37条・1か月以内
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line):
 床面積の変更は共用部分でも1か月以内
 Diagram: Draw the same shared decision tree as in Panel 1. Root diamond
 node labeled 「地目・地積・床面積など現況の変更か」, with the 「はい」
-branch highlighted with a thick green border and full color (since 肢エ
+branch highlighted with a thick green border and full color (since エ
 is a physical-condition change) and the 「いいえ」branch rendered faded
 grey dotted-outline. The highlighted 「はい」branch leads down to the
 second diamond node labeled 「地目・地積の変更か、床面積の変更か」,
 highlighted green, branching into two conclusion boxes: a faded grey
-dotted-outline conclusion box labeled 「37条・1か月以内」representing 肢ウ
+dotted-outline conclusion box labeled 「37条・1か月以内」representing ウ
 (not this panel's path), and, beside it, a highlighted green rounded
 conclusion box labeled 「51条・共用部分も対象」— drawn with an isometric
 building interior showing a shared meeting room labeled 「共用部分」being
@@ -429,12 +473,12 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 51条・共用部分も対象
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled orange circle containing the number 5.
 Heading (bold, ONE line):
 団地共用部分の追加は別の登記類型
 Diagram: Draw the same shared decision tree as in Panel 1, but note that
-肢オ's path ends one level earlier than 肢ア・肢イ's. Root diamond node
+オ's path ends one level earlier than ア・イ's. Root diamond node
 labeled 「地目・地積・床面積など現況の変更か」, with the 「はい」branch
 rendered faded grey dotted-outline (leading to the faded, reduced-size
 copies of the 「地目・地積の変更か、床面積の変更か」diamond and its two
@@ -447,7 +491,7 @@ faded, reduced-size copies of the 「氏名・名称の変更か、持分の変�
 diamond and its two conclusion boxes 「期限の定めなし」「保存登記が先」)
 and 「いいえ」(highlighted orange, leading directly to a highlighted
 orange rounded conclusion box labeled 「58条の別手続」without any further
-diamond node, since 肢オ's item is neither a physical-condition change
+diamond node, since オ's item is neither a physical-condition change
 nor an owner-related change) — drawn with an isometric row of
 townhouse-style buildings, one small shared building highlighted and
 glowing, a stamp reading 「団地共用部分である旨の登記」being pressed onto

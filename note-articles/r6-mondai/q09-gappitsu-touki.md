@@ -2,31 +2,37 @@
 
 **出題年度：令和6年度　午後の部　第9問**
 
-> 合筆の登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲土地及び乙土地いずれも所有権の登記名義人がＡ及びＢである場合において、甲土地についてＡの持分を5分の3とし、Ｂの持分を5分の2とする登記がされており、乙土地についてＡの持分を5分の2とし、Ｂの持分を5分の3とする登記がされているときは、乙土地を甲土地に合筆する合筆の登記を申請することができない。
->
-> イ　登記記録の地目がいずれも同一である甲土地及び乙土地について、その現況の地目が甲土地と乙土地とでそれぞれ異なる場合であっても、乙土地を甲土地に合筆する合筆の登記を申請することができる。
->
-> ウ　地方公共団体が所有する土地について、当該地方公共団体が合筆の登記を嘱託する場合には、登記識別情報を提供することを要しない。
->
-> エ　Ａ及びＢが表題部所有者として登記されている甲土地に、Ａ及びＢを所有権の登記名義人とする乙土地を合筆する合筆の登記を申請することができる。
->
-> オ　承役地についてする地役権の登記がある甲土地に地役権の登記がない乙土地を合筆する合筆の登記を申請する場合には、地役権設定の範囲を申請情報の内容としなければならない。
->
+> 合筆の登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲土地及び乙土地いずれも所有権の登記名義人がＡ及びＢである場合において、甲土地についてＡの持分を5分の3とし、Ｂの持分を5分の2とする登記がされており、乙土地についてＡの持分を5分の2とし、Ｂの持分を5分の3とする登記がされているときは、乙土地を甲土地に合筆する合筆の登記を申請することができない。  
+>　  
+> イ　登記記録の地目がいずれも同一である甲土地及び乙土地について、その現況の地目が甲土地と乙土地とでそれぞれ異なる場合であっても、乙土地を甲土地に合筆する合筆の登記を申請することができる。  
+>　  
+> ウ　地方公共団体が所有する土地について、当該地方公共団体が合筆の登記を嘱託する場合には、登記識別情報を提供することを要しない。  
+>　  
+> エ　Ａ及びＢが表題部所有者として登記されている甲土地に、Ａ及びＢを所有権の登記名義人とする乙土地を合筆する合筆の登記を申請することができる。  
+>　  
+> オ　承役地についてする地役権の登記がある甲土地に地役権の登記がない乙土地を合筆する合筆の登記を申請する場合には、地役権設定の範囲を申請情報の内容としなければならない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 合筆の登記は、不動産登記法41条が定める「合筆の制限」に反していないかを一つずつ確認する分野です。所有権登記名義人・持分の一致、地目・地番区域の一致、合筆を妨げる権利の不存在という3つのポイントを軸に整理しましょう。
 
 ### ア：持分の割合が異なる土地どうしは合筆できない
 
-合筆の登記をするためには、所有権の登記名義人が同一であることに加え、持分の割合まで完全に一致していることが必要です（不動産登記法41条4号）。甲土地はＡの持分5分の3・Ｂの持分5分の2、乙土地はＡの持分5分の2・Ｂの持分5分の3というように持分が逆転している場合、両土地の持分は一致していないため、乙土地を甲土地に合筆する登記を申請することはできません。
+合筆の登記をするためには、所有権の登記名義人が同一であることに加え、持分の割合まで完全に一致していることが必要です（不動産登記法41条4号）。
+
+甲土地はＡの持分5分の3・Ｂの持分5分の2、乙土地はＡの持分5分の2・Ｂの持分5分の3というように持分が逆転している場合、両土地の持分は一致していないため、乙土地を甲土地に合筆する登記を申請することはできません。
 
 **たとえば**、兄弟のＡさんとＢさんが2つの土地を共有していても、それぞれの土地での持分割合が入れ替わっている（甲土地では兄が多く、乙土地では弟が多い、など）場合には、そのまま合筆することはできません。
 
 ### イ：登記記録の地目が同一でも、現況の地目が違えば合筆できない
 
-合筆の制限は、登記記録上の地目又は地番区域が異なる土地について合筆を禁じています（不動産登記法41条2号）。登記記録の地目が同一であっても、現況の地目が甲土地と乙土地とで異なる場合には、この地目の同一性を欠くものとして、合筆の登記を申請することができません。
+合筆の制限は、登記記録上の地目又は地番区域が異なる土地について合筆を禁じています（不動産登記法41条2号）。
+
+登記記録の地目が同一であっても、現況の地目が甲土地と乙土地とで異なる場合には、この地目の同一性を欠くものとして、合筆の登記を申請することができません。
 
 **たとえば**、登記簿上はどちらも「畑」となっている隣接する2筆の土地でも、実際には一方は畑として使われ、もう一方はすでに宅地として利用されているという場合には、合筆の登記を申請することはできません。
 
@@ -38,7 +44,9 @@
 
 ### エ：表題部所有者の土地に、所有権登記済みの土地を合筆することはできない
 
-所有権の登記がない土地と所有権の登記がある土地とは合筆することができません（不動産登記法41条5号）。Ａ及びＢが表題部所有者として登記されている甲土地（所有権登記なし）に、Ａ及びＢを所有権の登記名義人とする乙土地（所有権登記あり）を合筆することは、この制限に抵触するため申請することができません。
+所有権の登記がない土地と所有権の登記がある土地とは合筆することができません（不動産登記法41条5号）。
+
+Ａ及びＢが表題部所有者として登記されている甲土地（所有権登記なし）に、Ａ及びＢを所有権の登記名義人とする乙土地（所有権登記あり）を合筆することは、この制限に抵触するため申請することができません。
 
 **たとえば**、まだ表題登記しかされていない甲土地に、すでに所有権登記まで済んでいる乙土地をくっつけて1つの土地にすることは、権利関係の記録が食い違うためできません。
 
@@ -47,6 +55,8 @@
 承役地についてする地役権の登記がある甲土地に、地役権の登記がない乙土地を合筆する登記を申請する場合には、合筆後の土地のどの部分に地役権が及ぶのかを明確にするため、地役権設定の範囲を申請情報の内容としなければなりません（不動産登記令別表9の項申請情報欄ロ）。
 
 **たとえば**、甲土地には地役権が設定されていて乙土地には設定されていない場合、この2筆を合筆するときは、「合筆後の土地のうちどの範囲に地役権が及ぶのか」を申請情報にきちんと記載する必要があります。
+
+---
 
 ### まとめ
 
@@ -109,12 +119,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -200,8 +228,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -210,12 +238,12 @@ that no card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance — and confirm no card reproduces a statement that was judged 誤 in
 the original article; every card must show the corrected, correct legal
-rule.
+rule. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 合筆の登記の5肢（ア〜オ）について、問題文を読んだ瞬間にどんな図を描き、どの順序で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。②の俯瞰カードポスターが5肢の結論を一覧化するのに対し、こちらは肢ごとの思考プロセスを決定木や対比図で可視化する。ア・イ・エは不動産登記法41条が定める複数の合筆の制限（号2の地目・号4の持分・号5の所有権登記の有無）のうちどれに触れているかを見分ける共通の決定木を使い回し、各パネルは自分に関係する号だけを強調表示する。ウ・オは41条の制限とは別の話（嘱託登記の特則、地役権がある場合の記載事項）であるため、それぞれ単独の図解にする。
 
@@ -260,7 +288,15 @@ to the article's own body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -286,7 +322,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 名義人が同じでも持分一致まで確認
@@ -297,10 +333,12 @@ labeled「A:5分の3」and a smaller orange segment labeled「B:5分の2」。Ri
 plot labeled「乙土地」: donut chart with the SAME two colors but the areas
 flipped — a smaller blue segment labeled「A:5分の2」and a larger orange
 segment labeled「B:5分の3」。An arrow leads from the two plots to a
-diamond-shaped branch node labeled「名義人(A・Bの組合せ)は同一か」。Its
-"Yes" arrow leads to a second diamond-shaped branch node labeled「各土地
-の持分割合まで一致しているか」。Its "No" arrow(this case) leads to a
-highlighted conclusion node reading「合筆できない」。A small shared
+diamond-shaped branch node labeled「名義人(A・Bの組合せ)は同一か」。Its "Yes" arrow leads to a second diamond-shaped branch node labeled
+「各土地の持分割合まで一致しているか」, and its faded "No" arrow leads to a
+faded conclusion node reading「合筆できない」。From the second diamond, the
+"No" arrow(this case) leads to a highlighted conclusion node reading「合筆
+できない」, and the faded "Yes" arrow leads to a faded conclusion node
+reading「(他の制限がなければ)合筆できる」。No loop arrows.A small shared
 checklist box beside the diagram, labeled「法41条の合筆の制限」, lists
 three items:「地目・地番区域の一致」「持分割合の一致」「所有権登記の有無の
 一致」。The「持分割合の一致」item is drawn with a thick highlighted border
@@ -313,14 +351,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 比率も一致が必須
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 登記記録の地目でなく現況地目で判断
 Diagram: Two adjacent isometric land plots, each with a registry tag
-reading「地目:畑」。An arrow leads to a diamond-shaped branch node labeled
-「登記記録上の地目は同一か」。Its "Yes" arrow leads to a second diamond-
-shaped branch node labeled「現況の地目も同一か」。Overlaid real-world
+reading「地目:畑」。An arrow leads to a diamond-shaped branch node labeled「登記記録上の地目
+は同一か」。Its faded "No" arrow leads to a faded conclusion node reading
+「合筆できない」; its "Yes" arrow leads to a second diamond-shaped branch
+node labeled「現況の地目も同一か」。Overlaid real-world
 icons show the actual use differs: the left plot has an isometric
 crop-field icon(現況も畑), the right plot has an isometric small house
 icon on land labeled「宅地」。The "No" arrow(this case) from the second
@@ -338,7 +377,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 現況地目で判断
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地方公共団体の嘱託に識別情報は不要
@@ -354,7 +393,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記識別情報不要
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 所有権登記の有無が食い違えば合筆不可
@@ -362,10 +401,11 @@ Diagram: Left isometric land plot labeled「甲土地」with a torn-paper label
 reading「表題部所有者 A・B(所有権登記なし)」。Right isometric land plot
 labeled「乙土地」with a stamped document icon reading「所有権登記名義人
 A・B」。An arrow leads to a diamond-shaped branch node labeled「両土地の
-所有権登記の有無は一致しているか」。The "No"(this case) arrow leads to a
-highlighted conclusion node reading「合筆できない」。A small shared
-checklist box beside the diagram, labeled「法41条の合筆の制限」, lists the
-same three items as Panels 1 and 2, with「所有権登記の有無の一致」drawn
+所有権登記の有無は一致しているか」。The "No"(this case) arrow leads to a highlighted conclusion node reading
+「合筆できない」, and the faded "Yes" arrow leads to a faded conclusion
+node reading「(他の制限がなければ)合筆できる」。A small shared checklist
+box beside the diagram, labeled「法41条の合筆の制限」, lists the same three
+items as Panels 1 and 2, with「所有権登記の有無の一致」drawn
 with a thick highlighted border and full color, and the other two items
 faded and greyed-out.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -376,7 +416,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記状態は要一致
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 地役権設定の範囲を申請情報に記載
@@ -398,10 +438,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 根拠:不動産登記法41条2号・4号・5号/不動産登記令別表9の項申請情報欄ロ
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 号・地・目・登・記・所・有・権・持・分・筆・嘱・託・識・別・情・
-報・役. If any character renders as a Simplified Chinese variant, redraw
-that character in the correct Japanese form. Confirm the panel count
+報・役. If any character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
 every multi-condition 肢 is drawn as an actual flowchart with branch nodes

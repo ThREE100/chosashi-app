@@ -2,19 +2,21 @@
 
 **出題年度：平成26年度　午後の部　第19問**
 
-> 筆界特定に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　筆界特定とは，一筆の土地及びこれに隣接する他の土地について，筆界の現地における位置を特定することをいい，その位置を特定することができないときは，その位置の範囲を特定することをいう。
->
-> イ　対象土地の筆界について，民事訴訟の手続により筆界の確定を求める訴えが提起された場合であっても，当該訴えに係る判決が確定する前であれば，当該筆界についてされた筆界特定の申請は却下されない。
->
-> ウ　甲土地の所有権の登記名義人の相続人は，相続により甲土地の所有権を取得したとしても，甲土地について相続を原因とする所有権の移転の登記がされなければ，甲土地を対象土地とする筆界特定の申請をすることができない。
->
-> エ　甲土地の一部の所有権を取得したAは，甲土地の所有権の登記名義人であるBに代位しなければ，甲土地を対象土地とする筆界特定の申請をすることができない。
->
-> オ　筆界特定の申請をした後，その手続中に申請人が死亡したときは，申請人の相続人が申請人の地位を承継したものとして，筆界特定の手続を進めることができる。
->
+> 筆界特定に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　筆界特定とは，一筆の土地及びこれに隣接する他の土地について，筆界の現地における位置を特定することをいい，その位置を特定することができないときは，その位置の範囲を特定することをいう。  
+>　  
+> イ　対象土地の筆界について，民事訴訟の手続により筆界の確定を求める訴えが提起された場合であっても，当該訴えに係る判決が確定する前であれば，当該筆界についてされた筆界特定の申請は却下されない。  
+>　  
+> ウ　甲土地の所有権の登記名義人の相続人は，相続により甲土地の所有権を取得したとしても，甲土地について相続を原因とする所有権の移転の登記がされなければ，甲土地を対象土地とする筆界特定の申請をすることができない。  
+>　  
+> エ　甲土地の一部の所有権を取得したAは，甲土地の所有権の登記名義人であるBに代位しなければ，甲土地を対象土地とする筆界特定の申請をすることができない。  
+>　  
+> オ　筆界特定の申請をした後，その手続中に申請人が死亡したときは，申請人の相続人が申請人の地位を承継したものとして，筆界特定の手続を進めることができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+
+---
 
 筆界特定制度は、土地の筆界（境界）の現地における位置を、裁判によらずに特定するための手続です。この問題では、制度の基本的な定義に加えて、申請できる人の範囲が正確に理解できているかが問われています。
 
@@ -26,19 +28,31 @@
 
 ### イ：筆界確定訴訟が提起されていても、判決確定前なら筆界特定の申請は却下されない
 
-対象土地の筆界について、民事訴訟の手続によって筆界の確定を求める訴え（筆界確定訴訟）が提起された場合であっても、その訴えに係る判決が確定する前であれば、同じ筆界についてされた筆界特定の申請が却下されるわけではありません。訴訟と筆界特定の手続は、それぞれ独立して進めることができます。
+対象土地の筆界について、民事訴訟の手続によって筆界の確定を求める訴え（筆界確定訴訟）が提起された場合であっても、その訴えに係る判決が確定する前であれば、同じ筆界についてされた筆界特定の申請が却下されるわけではありません。
 
-**たとえば**、隣接する土地どうしで筆界確定訴訟が既に提起されている状況で、当事者の一方が同じ筆界について筆界特定の申請をしたとします。この場合、訴訟の判決がまだ確定していなければ、その筆界特定の申請が訴訟の存在だけを理由に却下されることはありません。
+訴訟と筆界特定の手続は、それぞれ独立して進めることができます。
+
+**たとえば**、隣接する土地どうしで筆界確定訴訟が既に提起されている状況で、当事者の一方が同じ筆界について筆界特定の申請をしたとします。
+
+この場合、訴訟の判決がまだ確定していなければ、その筆界特定の申請が訴訟の存在だけを理由に却下されることはありません。
 
 ### ウ：相続登記がされていなくても、相続人は筆界特定の申請ができる
 
-甲土地の所有権の登記名義人の相続人は、相続により甲土地の所有権を取得した以上、甲土地について相続を原因とする所有権の移転の登記がまだされていなくても、甲土地を対象土地とする筆界特定の申請をすることができます。「登記がされなければ申請することができない」とするこの記述は誤りです。相続人は被相続人の地位を包括的に承継しているため、登記の有無にかかわらず申請人としての資格を持ちます。
+甲土地の所有権の登記名義人の相続人は、相続により甲土地の所有権を取得した以上、甲土地について相続を原因とする所有権の移転の登記がまだされていなくても、甲土地を対象土地とする筆界特定の申請をすることができます。
+
+「登記がされなければ申請することができない」とするこの記述は誤りです。相続人は被相続人の地位を包括的に承継しているため、登記の有無にかかわらず申請人としての資格を持ちます。
 
 **たとえば**、甲土地の所有者であったAさんが亡くなり、その子Bさんが相続したものの、まだ相続を原因とする所有権の移転の登記を済ませていなかったとします。この場合でも、Bさんは甲土地を対象土地とする筆界特定の申請をすることができます。
 
 ### エ：土地の一部の所有権を取得した者は、代位せずに自ら筆界特定を申請できる
 
-甲土地の一部の所有権を取得したAは、甲土地の所有権の登記名義人であるBに代位しなければ甲土地を対象土地とする筆界特定の申請をすることができない、という記述は誤りです。分筆前の土地の一部について所有権を取得する場合、実務上は当該土地の共有持分の取得として登記されるため、Aは甲土地の共有持分についての所有権の登記名義人（不動産登記法123条5号の「所有権登記名義人等」）に該当し、自らの申請権に基づいて筆界特定の申請をすることができ、あえてBに代位する必要はありません。
+甲土地の一部の所有権を取得したAは、甲土地の所有権の登記名義人であるBに代位しなければ甲土地を対象土地とする筆界特定の申請をすることができない、という記述は誤りです。
+
+一筆の土地の一部の所有権を取得した者は、分筆・移転の登記を受けていなくても、自ら筆界特定の申請をすることができるとされています。
+
+不動産登記規則も、申請人が「一筆の土地の一部の所有権を取得した者」である場合を予定して、その旨を筆界特定申請情報の内容とし（207条2項4号）、一部の所有権を取得したことを証する情報を添付するものとしています（209条1項5号）。
+
+したがって、Aは自らの申請権に基づいて筆界特定の申請をすることができ、あえてBに代位する必要はありません。
 
 **たとえば**、甲土地の一部を購入して所有権を取得したAさんは、甲土地全体の所有権登記名義人であるBさんに代位するという手続を経なくても、自分の名前で甲土地を対象土地とする筆界特定の申請をすることができます。
 
@@ -48,6 +62,8 @@
 
 **たとえば**、筆界特定の申請をしたAさんが、手続の途中で亡くなってしまったとします。この場合、Aさんの相続人が申請人としての地位を引き継ぎ、そのまま筆界特定の手続を進めることができます。
 
+---
+
 ### まとめ
 
 - **ア（正）**　筆界特定とは、位置又は（特定できないときは）位置の範囲を特定することをいう
@@ -56,7 +72,7 @@
 - **エ（誤）**　土地の一部の所有権を取得した者は、代位せずに自ら筆界特定を申請できる
 - **オ（正）**　申請人が手続中に死亡しても、相続人が地位を承継して手続を進められる
 
-筆界特定の申請人の範囲は、「所有権の登記名義人」だけでなく、その相続人や持分・一部の権利を取得した者にも広く認められている、という点を押さえておきましょう。
+筆界特定の申請人の範囲は、「所有権の登記名義人」だけでなく、その相続人や一筆の土地の一部の所有権を取得した者にも広く認められている、という点を押さえておきましょう。
 
 **正解：ウエの組合せ（選択肢4番）**
 
@@ -68,7 +84,7 @@
 - 出題年度・問題番号・正解番号（4番＝ウ・エ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア（不動産登記法123条2号：筆界特定の定義。「筆界の現地における位置を特定すること（その位置を特定することができないときは、その位置の範囲を特定すること）」という条文の文言そのものです）、ウ（不動産登記法123条5号：「所有権登記名義人等」の定義に「所有権の登記名義人又は表題部所有者の相続人その他の一般承継人を含む」と明記されており、相続人は相続登記の有無にかかわらず申請人適格を有すること）、ウ・エの前提となる131条1項（「土地の所有権登記名義人等は…筆界特定の申請をすることができる」）は、`note-articles/laws/fudousan-touki-hou.md`に保存した条文原文で確認済みです。エ（土地の一部取得者による申請の可否）についても、不動産登記法123条5号の「所有権登記名義人等」の定義（共有持分の登記名義人を含む）から、共有持分を取得したAが自ら申請適格を有するという結論を導けることを確認しました。イ（筆界確定訴訟の係属と筆界特定申請の却下事由の関係）、オ（申請人死亡時の地位承継）については、不動産登記法及び関連する筆界特定制度の実務解説の内容と整合していますが、条文の逐条的な確認までは至っていない部分があり、実務書での追加確認をおすすめします。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。筆界特定の申請人の範囲がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記法の現行条文（2026-08-04取得）で123条・131条を再確認し、肢ウの結論（相続人は相続登記なしで申請できること）が123条5号の「所有権登記名義人等」の定義（相続人その他の一般承継人を含む）から、肢エの結論（一部の所有権取得者も自ら申請できること）が同号の「所有権の登記名義人」に共有持分の登記名義人が含まれることから、それぞれ直接裏付けられることを確認しました。相続登記が未了のまま放置された土地における筆界特定制度の運用について、法務省で検討が進められている旨の情報も確認しましたが、本問の結論を変更する具体的な法改正は見当たりません。
+- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記法の現行条文（2026-08-04取得）で123条・131条を再確認し、ウの結論（相続人は相続登記なしで申請できること）が123条5号の「所有権登記名義人等」の定義（相続人その他の一般承継人を含む）から、エの結論（一部の所有権取得者も自ら申請できること）が不動産登記規則207条2項4号・209条1項5号から、それぞれ直接裏付けられることを確認しました。相続登記が未了のまま放置された土地における筆界特定制度の運用について、法務省で検討が進められている旨の情報も確認しましたが、本問の結論を変更する具体的な法改正は見当たりません。
 
 ---
 
@@ -109,12 +125,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 継・訴・訟・相・続・権 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -173,7 +207,7 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 一部の取得者も自分で申請可
 Illustration: 甲土地の land plot divided by a dashed line into a small
-slice labeled "Aが取得した持分" and the remainder labeled "所有権の登記
+slice labeled "Aが取得した部分" and the remainder labeled "所有権の登記
 名義人であるB". Person A submits the "筆界特定の申請書" directly at the
 registry desk with a checkmark, while an arrow labeled "Bへの代位" is
 crossed out with a red X.
@@ -195,20 +229,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。アは「位置か範囲か」の分岐が本質のため決定木、イ・オは手続の進行順序を示すタイムライン型、ウは相続関係を示す系統図・関係図型、エは持分の位置関係を示す配置図型として構成した。
 
@@ -284,7 +318,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled green circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -308,7 +342,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 位置または範囲を特定
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 訴訟と筆界特定は別の手続として進む
@@ -332,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 却下されない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line):
 相続人は相続登記なしでも申請人になれる
@@ -358,32 +392,32 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 相続登記 不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
-Aが共有持分の登記名義人に当たるかを確認する
+一部の取得者も自ら申請できるかを確認する
 Diagram: Draw as a land-plot diagram. Split the icon of 甲土地 (the land
 parcel) into two zones with a dashed line. Give the smaller zone the
-label「Aが取得した持分」("the share acquired by A") and give the
+label「Aが所有権を取得した部分」("the part acquired by A") and give the
 remaining zone the label「所有権の登記名義人であるB」("B, the registered
 owner"). From A's icon, draw an arrow — passing through a small
-registration-certificate icon labeled「共有持分の所有権登記名義人等
-（123条5号）」("a registered co-owner under Article 123 item 5") —
+document icon labeled「一部の所有権を取得したことを証する情報（規則209条
+1項5号）」("information proving A acquired ownership of part of the
+parcel") —
 directly to the registry-office desk submitting a「筆界特定の申請書」
 ("boundary determination application"), with a green checkmark.
 Separately, draw an arrow from A to B labeled「代位」("subrogation"),
 with a large red ✕ over the entire arrow, showing that this step is
 unnecessary.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、Aが取得したのは甲土地の共有持分であり、その共有持分について
-所有権の登記名義人等（不動産登記法123条5号）に当たるかを確認します。
-次に、それに当たる以上、Bに代位する手続を経ずに、Aが自らの名前で筆界
-特定の申請をできることを確認します。
+まず、Aが甲土地の一部の所有権を取得した者であることを確認します。次に、
+一部の取得者は自ら筆界特定を申請できる（規則207条2項4号・209条1項5号）
+ので、Bに代位する手続を経ずにAの名前で申請できると判断します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位せず直接申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line):
 死亡後は相続人が申請人の地位を継ぐ
@@ -409,7 +443,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-平成26年度 午後の部 第19問（不動産登記法123条2号・5号、131条1項）
+平成26年度 午後の部 第19問（不動産登記法123条2号・5号、131条1項、不動産登記規則207条2項4号・209条1項5号）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

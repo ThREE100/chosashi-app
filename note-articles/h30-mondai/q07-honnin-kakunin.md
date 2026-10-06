@@ -2,25 +2,31 @@
 
 **出題年度：平成30年度　午後の部　第7問**
 
-> 本人確認情報に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　資格者代理人が本人確認情報を提供して登記を申請した場合において、登記官がその本人確認情報の内容を相当と認めることができないときは、当該申請は、直ちに却下される。
->
-> イ　資格者代理人が申請人の氏名を知らず、又は当該申請人と面識がない場合において、当該申請人から運転免許証の提示を受ける方法により本人確認を行うときは、その運転免許証は、当該資格者代理人が提示を受ける日において有効なものでなければならない。
->
-> ウ　資格者代理人が申請人の氏名を知り、かつ、当該申請人と面識がある場合に提供する本人確認情報は、当該申請人の氏名を知り、かつ、当該申請人と面識がある旨のほか、その面識が生じた経緯を明らかにするものでなければならない。
->
-> エ　資格者代理人が法人である申請人の本人確認情報を提供する場合には、当該資格者代理人は当該法人の代表者と面談しなければならない。
->
-> オ　本人確認情報と併せて提供する資格者代理人である土地家屋調査士が所属する土地家屋調査士会が発行した職印に関する証明書は、発行後3月以内のものであることを要する。
->
+> 本人確認情報に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　資格者代理人が本人確認情報を提供して登記を申請した場合において、登記官がその本人確認情報の内容を相当と認めることができないときは、当該申請は、直ちに却下される。  
+>　  
+> イ　資格者代理人が申請人の氏名を知らず、又は当該申請人と面識がない場合において、当該申請人から運転免許証の提示を受ける方法により本人確認を行うときは、その運転免許証は、当該資格者代理人が提示を受ける日において有効なものでなければならない。  
+>　  
+> ウ　資格者代理人が申請人の氏名を知り、かつ、当該申請人と面識がある場合に提供する本人確認情報は、当該申請人の氏名を知り、かつ、当該申請人と面識がある旨のほか、その面識が生じた経緯を明らかにするものでなければならない。  
+>　  
+> エ　資格者代理人が法人である申請人の本人確認情報を提供する場合には、当該資格者代理人は当該法人の代表者と面談しなければならない。  
+>　  
+> オ　本人確認情報と併せて提供する資格者代理人である土地家屋調査士が所属する土地家屋調査士会が発行した職印に関する証明書は、発行後3月以内のものであることを要する。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
-本人確認情報は、登記識別情報を提供できない場合に、事前通知を省略するための仕組みです。資格者代理人が「この人は間違いなく登記名義人本人だ」と確認した内容を情報にまとめて提供する、という制度で、その手続要件が細かく問われます。「本人確認情報が相当と認められないと何が起きるか」「どんな書類で、いつ有効なものが必要か」を正確に押さえておきましょう。
+---
+
+本人確認情報は、登記識別情報を提供できない場合に、事前通知を省略するための仕組みです。資格者代理人が「この人は間違いなく登記名義人本人だ」と確認した内容を情報にまとめて提供する、という制度で、その手続要件が細かく問われます。
+
+「本人確認情報が相当と認められないと何が起きるか」「どんな書類で、いつ有効なものが必要か」を正確に押さえておきましょう。
 
 ### ア：本人確認情報が相当と認められないと、却下ではなく事前通知に戻る
 
-資格者代理人から申請人が登記名義人であることを確認するために必要な情報の提供を受け、その内容を登記官が相当と認めるときは、事前通知を省略することができます（法23条4項1号）。逆に、本人確認情報の内容を相当と認めることができない場合には、登記官は事前通知の手続を採るものとされており（準則49条4項）、申請が直ちに却下されるわけではありません。「直ちに却下される」という結論は誤りです。
+資格者代理人から申請人が登記名義人であることを確認するために必要な情報の提供を受け、その内容を登記官が相当と認めるときは、事前通知を省略することができます（法23条4項1号）。
+
+逆に、本人確認情報の内容を相当と認めることができない場合には、登記官は事前通知の手続を採るものとされており（準則49条4項）、申請が直ちに却下されるわけではありません。「直ちに却下される」という結論は誤りです。
 
 **たとえば**、土地家屋調査士が本人確認情報を付けて所有権に関する登記を申請したものの、その内容に登記官が疑問を持って相当と認めなかった場合でも、いきなり門前払いされるわけではなく、登記名義人の登記記録上の住所へ「この申請、本当にあなたの意思ですか」という事前通知が送られ、そこで意思確認が行われます。
 
@@ -32,21 +38,29 @@
 
 ### ウ：氏名を知り面識がある場合は、面識が生じた経緯まで明らかにする
 
-資格者代理人が申請人の氏名を知り、かつ、面識がある場合に提供する本人確認情報は、氏名を知り面識がある旨のほか、その面識が生じた経緯を明らかにするものでなければなりません（規則72条1項2号）。「昔から知っている」だけでは足りず、どういう縁でその人を知るに至ったのかまで記載します。
+資格者代理人が申請人の氏名を知り、かつ、面識がある場合に提供する本人確認情報は、氏名を知り面識がある旨のほか、その面識が生じた経緯を明らかにするものでなければなりません（規則72条1項2号）。
+
+「昔から知っている」だけでは足りず、どういう縁でその人を知るに至ったのかまで記載します。
 
 **たとえば**、近所に長年住んでいる顔なじみの依頼者について本人確認情報を作るときは、「隣人として10年来の付き合いがある」といった、面識が生じたいきさつを具体的に書き込む必要があります。ただ「知っている」と書くだけでは要件を満たしません。
 
 ### エ：法人の場合、必ずしも代表者本人と面談する必要はない
 
-本人確認情報に明らかにすべき事項を定める規定では、申請人が法人である場合の「申請人」を、代表者又はこれに代わるべき者と位置づけています（規則72条1項柱書）。したがって、資格者代理人が必ずその法人の代表者本人と面談しなければならないわけではなく、代表者に代わるべき者と面談すれば足ります。「代表者と面談しなければならない」という限定は誤りです。
+本人確認情報に明らかにすべき事項を定める規定では、申請人が法人である場合の「申請人」を、代表者又はこれに代わるべき者と位置づけています（規則72条1項柱書）。
+
+したがって、資格者代理人が必ずその法人の代表者本人と面談しなければならないわけではなく、代表者に代わるべき者と面談すれば足ります。「代表者と面談しなければならない」という限定は誤りです。
 
 **たとえば**、大きな会社が所有する建物の登記を代理するとき、多忙な社長本人がわざわざ出てこなくても、会社から正当に権限を与えられた総務担当者などと面談して本人確認を行えば足ります。代表者との直接面談を絶対条件とするルールにはなっていません。
 
 ### オ：土地家屋調査士の職印証明書は、発行後3月以内のものが必要
 
-資格者代理人が本人確認情報を提供するときは、自分が登記申請の代理を業とできる者であることを証する情報を併せて提供しなければなりません（規則72条3項）。土地家屋調査士の場合、具体的には調査士会が発行した職印に関する証明書、または調査士会連合会が発行した電子証明書を提供し、この職印証明書は発行後3月以内のものであることを要します（準則49条2項、3項）。
+資格者代理人が本人確認情報を提供するときは、自分が登記申請の代理を業とできる者であることを証する情報を併せて提供しなければなりません（規則72条3項）。
+
+土地家屋調査士の場合、具体的には調査士会が発行した職印に関する証明書、または調査士会連合会が発行した電子証明書を提供し、この職印証明書は発行後3月以内のものであることを要します（準則49条2項、3項）。
 
 **たとえば**、土地家屋調査士が本人確認情報を付けて申請する際、半年前に取得したまま手元に置いていた職印証明書を使おうとしても、3月を過ぎているため使えません。申請に合わせて発行後3月以内の新しい証明書を用意しておく必要があります。
+
+---
 
 ### まとめ
 
@@ -110,12 +124,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 確・認・証・却・免・許・談・経・緯・職・印 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -198,20 +230,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。
 
@@ -293,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -318,7 +350,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 却下でなく事前通知に戻る
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 本人確認書類は提示を受ける日に有効なもの
@@ -336,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 提示日に有効なものに限る
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 面識ありでも生じた経緯まで明記する
@@ -355,7 +387,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 経緯まで明記が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 法人の場合は代表者以外との面談でも足りる
@@ -375,7 +407,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代表者本人でなくてもよい
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 職印証明書は発行後3月以内のものに限る

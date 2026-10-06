@@ -2,19 +2,21 @@
 
 **出題年度：平成26年度　午後の部　第14問**
 
-> 附属建物に関する次のアからオまでの記述のうち，誤っているものは，幾つあるか。
->
-> ア　附属建物の新築による建物の表題部の変更の登記を申請する場合には，添付情報として，表題部所有者又は所有権の登記名義人の住所を証する市町村長，登記官その他の公務員が職務上作成した情報を提供しなければならない。
->
-> イ　附属建物がある建物の表題登記を申請する場合において，附属建物の新築の日が主である建物の新築の日と同一であるときは，附属建物の新築の日付を申請情報の内容とすることを要しない。
->
-> ウ　甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合には，添付情報として，合併後の建物図面及び各階平面図を提供しなければならない。
->
-> エ　附属建物がある区分建物の表題登記を申請する場合において，附属建物が主である建物と同一の一棟の建物に属する区分建物であるときは，当該附属建物の所在地番並びに構造及び床面積を申請情報の内容とすることを要しない。
->
-> オ　甲建物の敷地に乙建物の敷地を合筆する合筆の登記がされた後，甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合において，合筆による乙建物の所在の変更の登記を申請するときは，当該合併の登記と当該所在の変更の登記を一の申請情報によって申請することはできない。
->
+> 附属建物に関する次のアからオまでの記述のうち，誤っているものは，幾つあるか。  
+>　  
+> ア　附属建物の新築による建物の表題部の変更の登記を申請する場合には，添付情報として，表題部所有者又は所有権の登記名義人の住所を証する市町村長，登記官その他の公務員が職務上作成した情報を提供しなければならない。  
+>　  
+> イ　附属建物がある建物の表題登記を申請する場合において，附属建物の新築の日が主である建物の新築の日と同一であるときは，附属建物の新築の日付を申請情報の内容とすることを要しない。  
+>　  
+> ウ　甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合には，添付情報として，合併後の建物図面及び各階平面図を提供しなければならない。  
+>　  
+> エ　附属建物がある区分建物の表題登記を申請する場合において，附属建物が主である建物と同一の一棟の建物に属する区分建物であるときは，当該附属建物の所在地番並びに構造及び床面積を申請情報の内容とすることを要しない。  
+>　  
+> オ　甲建物の敷地に乙建物の敷地を合筆する合筆の登記がされた後，甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合において，合筆による乙建物の所在の変更の登記を申請するときは，当該合併の登記と当該所在の変更の登記を一の申請情報によって申請することはできない。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
+
+---
 
 附属建物に関するこの問題は、個数問題という形式で、附属建物の新築・合併に関する添付情報や記録方法の細部を問うものです。1つずつ丁寧に○×を判定していきましょう。
 
@@ -32,7 +34,9 @@
 
 ### ウ：附属建物とする建物の合併の登記には、合併後の建物図面等の提供が必要（正しい）
 
-甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合、不動産登記令別表十六の項の添付情報欄イにより、合併後の建物についての建物図面及び各階平面図を提供しなければなりません。この合併によって建物の物理的な構成（配置や形状）が変わることを反映させるためです。
+甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合、不動産登記令別表十六の項の添付情報欄イにより、合併後の建物についての建物図面及び各階平面図を提供しなければなりません。
+
+この合併によって建物の物理的な構成（配置や形状）が変わることを反映させるためです。
 
 不動産登記令別表十六の項の添付情報欄イは、次のとおり定めています。
 
@@ -42,15 +46,21 @@
 
 ### エ：附属建物が同一の一棟の区分建物であっても、所在地番・構造・床面積の記載は省略できない（誤り）
 
-不動産登記法44条1項5号は、附属建物があるときの登記事項として、その所在（区分建物である附属建物にあっては、当該附属建物が属する一棟の建物の所在）並びに種類、構造及び床面積を挙げています。附属建物が主である建物と同一の一棟の建物に属する区分建物である場合を省略する例外は同号に定められていないため、その所在地番並びに構造及び床面積を申請情報の内容とすることを省略できるという規定はありません。この記述は誤りです。
+不動産登記法44条1項5号は、附属建物があるときの登記事項として、その所在（区分建物である附属建物にあっては、当該附属建物が属する一棟の建物の所在）並びに種類、構造及び床面積を挙げています。
+
+附属建物が主である建物と同一の一棟の建物に属する区分建物である場合を省略する例外は同号に定められていないため、その所在地番並びに構造及び床面積を申請情報の内容とすることを省略できるという規定はありません。この記述は誤りです。
 
 **たとえば**、マンションの1室（区分建物）とその附属建物として同じ棟内の別の区画（これも区分建物）をあわせて表題登記する場合でも、附属建物側の所在地番・構造・床面積は、申請情報にきちんと記載する必要があります。
 
 ### オ：合筆による所在変更の登記と合併の登記は、一の申請情報によって申請できる（誤り）
 
-甲建物の敷地に乙建物の敷地を合筆する合筆の登記がされた後、甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合において、合筆による乙建物の所在の変更の登記もあわせて必要になるときは、この合併の登記と所在の変更の登記は、一の申請情報によって申請することができます。「申請することはできない」とするこの記述は誤りです。
+甲建物の敷地に乙建物の敷地を合筆する合筆の登記がされた後、甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合において、合筆による乙建物の所在の変更の登記もあわせて必要になるときは、この合併の登記と所在の変更の登記は、一の申請情報によって申請することができます。
+
+「申請することはできない」とするこの記述は誤りです。
 
 **たとえば**、甲建物と乙建物の敷地となっている土地が合筆されたことで、乙建物の所在地番が変わった場合において、甲建物を乙建物の附属建物とする合併登記もあわせて必要になったときは、この2つの登記を1つの申請書にまとめて申請することができます。
+
+---
 
 ### まとめ
 
@@ -72,8 +82,8 @@
 - 出題年度・問題番号・正解番号（3番＝3個）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア（附属建物新築時の住所証明情報の省略）、イ（附属建物の新築日が主である建物と同一の場合の記録省略）は実務上確立した取扱いです。ウ（合併登記の添付情報）は不動産登記令別表十六の項添付情報欄イ「当該分割後、区分後又は合併後の建物図面及び各階平面図」で、エ（区分建物の附属建物の記載省略の可否）は不動産登記法44条1項5号（附属建物の所在・種類・構造・床面積を登記事項とし、同一棟内の区分建物である場合を省略する例外を定めていないこと）で、それぞれ条文上確認できました。オ（合筆に伴う所在変更登記と合併登記の一括申請可否）については、細かい実務論点であり、5肢のうち3個が誤りという個数の整合性から結論を導いていますが、根拠条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。附属建物に関する登記手続がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：附属建物に関する登記手続の各規定について、`note-articles/laws/`に保存した不動産登記法・不動産登記令・不動産登記規則の現行条文（2026-08-04取得）で再確認し、肢ウ・エの根拠条文を新たに条文上確認しました。直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。オの根拠条文の逐条確認については、本文中の確認事項に記載のとおり、なお実務書での追加確認をおすすめします。
-- **条文原文の追記（2026-09-18）**：肢ウについて、不動産登記令別表十六の項の添付情報欄イの条文原文を本文に追記しました。`laws/fudousan-touki-rei-betsuhyou.md`（「#### 十六」の項）から実際にGrep・Readして一字一句転記したものです。肢ウの正誤判定・結論に変更はありません。
+- **最新法令チェック（2026-08-16再実施）**：附属建物に関する登記手続の各規定について、`note-articles/laws/`に保存した不動産登記法・不動産登記令・不動産登記規則の現行条文（2026-08-04取得）で再確認し、ウ・エの根拠条文を新たに条文上確認しました。直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。オの根拠条文の逐条確認については、本文中の確認事項に記載のとおり、なお実務書での追加確認をおすすめします。
+- **条文原文の追記（2026-09-18）**：ウについて、不動産登記令別表十六の項の添付情報欄イの条文原文を本文に追記しました。`laws/fudousan-touki-rei-betsuhyou.md`（「#### 十六」の項）から実際にGrep・Readして一字一句転記したものです。ウの正誤判定・結論に変更はありません。
 
 ---
 
@@ -114,12 +124,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・建・物・登・記・所・録・築・請 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -196,22 +224,22 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に「どの図を描き、どの順番で条件を確認すればよいか」を、ア〜オ5肢それぞれについて示す作図ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。肢イは新築日の先後関係を示すタイムライン型、肢エは肢イと似た「まとめられそうだから省略できるはず」という思い込みを、条文上の例外の有無で正す正誤対比型で構成する。
+問題文を読んだ瞬間に「どの図を描き、どの順番で条件を確認すればよいか」を、ア〜オ5肢それぞれについて示す作図ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。イは新築日の先後関係を示すタイムライン型、エはイと似た「まとめられそうだから省略できるはず」という思い込みを、条文上の例外の有無で正す正誤対比型で構成する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -285,7 +313,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -306,7 +334,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 住所証明情報は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -329,7 +357,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 重複記録は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -347,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 合併後の図面が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -372,7 +400,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記載省略はできない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -394,8 +422,8 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-根拠条文：不動産登記令別表十六の項添付情報欄イ（肢ウ）、不動産登記法44条
-1項5号（肢エ）。ア・イ・オは各肢の解説で確認した実務上の取扱い。判例・先
+根拠条文：不動産登記令別表十六の項添付情報欄イ（ウ）、不動産登記法44条
+1項5号（エ）。ア・イ・オは各肢の解説で確認した実務上の取扱い。判例・先
 例の具体的な番号はここには書かない。
 
 Final check before rendering: scan every kanji glyph and confirm it is

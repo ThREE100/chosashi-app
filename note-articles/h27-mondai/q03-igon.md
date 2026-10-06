@@ -2,19 +2,21 @@
 
 **出題年度：平成27年度　午後の部　第3問**
 
-> 遺言に関する次のアからオまでの記述のうち，判例の趣旨に照らし誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　負担付遺贈を受けた者は，遺贈の目的の価額を超えない限度においてのみ，負担した義務を履行する責任を負う。
->
-> イ　被相続人は，遺言で，共同相続人中の一人又は数人の相続分のみを定めることはできない。
->
-> ウ　遺言は要式行為であるから，遺言の解釈に当たっては，遺言者の真意を探求すべきではなく，遺言書の文言のみを形式的に判断しなければならない。
->
-> エ　遺言者は，遺言で，遺言執行者を指定することができる。
->
-> オ　未成年者に対して最後に親権を行う者であって管理権を有するものは，遺言で，未成年後見人を指定することができる。
->
+> 遺言に関する次のアからオまでの記述のうち，判例の趣旨に照らし誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　負担付遺贈を受けた者は，遺贈の目的の価額を超えない限度においてのみ，負担した義務を履行する責任を負う。  
+>　  
+> イ　被相続人は，遺言で，共同相続人中の一人又は数人の相続分のみを定めることはできない。  
+>　  
+> ウ　遺言は要式行為であるから，遺言の解釈に当たっては，遺言者の真意を探求すべきではなく，遺言書の文言のみを形式的に判断しなければならない。  
+>　  
+> エ　遺言者は，遺言で，遺言執行者を指定することができる。  
+>　  
+> オ　未成年者に対して最後に親権を行う者であって管理権を有するものは，遺言で，未成年後見人を指定することができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+
+---
 
 この問題は「誤っているものの組合せ」を選ぶ形式です。つまり、正解として選ぶのは“間違っている肢”のペアです。各肢が正しいか誤りかを一つずつ判定し、誤りの2つを探し出しましょう。遺言のルールは条文の知識で解ける肢が多いので、確実に得点したい分野です。
 
@@ -22,17 +24,23 @@
 
 負担付遺贈を受けた者（受遺者）は、遺贈された財産の価額を超えない限度でのみ、負担とされた義務を履行する責任を負います（民法1002条1項）。もらった財産より重い負担まで背負わされることはない、という受遺者保護のルールです。本肢は正しい記述です。
 
-**たとえば**、「500万円の土地をあげる代わりに、私の飼い犬の世話をしてほしい」という遺言があった場合、受遺者が世話のために負う責任は、もらった土地の価額500万円の範囲までです。犬の世話に800万円かかっても、超えた分まで負担する義務はありません。
+**たとえば**、「500万円の土地をあげる代わりに、私の飼い犬の世話をしてほしい」という遺言があった場合、受遺者が世話のために負う責任は、もらった土地の価額500万円の範囲までです。
+
+犬の世話に800万円かかっても、超えた分まで負担する義務はありません。
 
 ### イ：遺言で、共同相続人の一部の相続分だけを定めることもできる
 
-被相続人は、遺言で共同相続人の相続分を定め、またはこれを定めることを第三者に委託することができます（民法902条）。このとき、相続人全員の相続分を決める必要はなく、一部の相続人の相続分だけを指定することもできます。残りの相続人の相続分は法定相続分によります。「一人又は数人の相続分のみを定めることはできない」とする本肢は誤りです。
+被相続人は、遺言で共同相続人の相続分を定め、またはこれを定めることを第三者に委託することができます（民法902条）。
+
+このとき、相続人全員の相続分を決める必要はなく、一部の相続人の相続分だけを指定することもできます。残りの相続人の相続分は法定相続分によります。「一人又は数人の相続分のみを定めることはできない」とする本肢は誤りです。
 
 **たとえば**、3人の子がいる親が「長男の相続分を2分の1とする」とだけ遺言した場合、その指定は有効で、残る2人の子は、残り2分の1を法定相続分に従って分け合うことになります。
 
 ### ウ：遺言の解釈では、文言だけでなく遺言者の真意も探求する
 
-たしかに遺言は法律で定めた方式を要する要式行為ですが、いったん有効に成立した遺言を「どう解釈するか」の段階では、判例は、遺言書の文言を形式的に判断するだけでなく、遺言者の真意を探求すべきだとしています。「真意を探求すべきではなく文言のみで判断しなければならない」とする本肢は誤りです。
+たしかに遺言は法律で定めた方式を要する要式行為ですが、いったん有効に成立した遺言を「どう解釈するか」の段階では、判例は、遺言書の文言を形式的に判断するだけでなく、遺言者の真意を探求すべきだとしています。
+
+「真意を探求すべきではなく文言のみで判断しなければならない」とする本肢は誤りです。
 
 **たとえば**、遺言書に「財産は家族に譲る」とだけ書かれていた場合、その「家族」が誰を指すのかを、遺言者が置かれていた事情や他の記載も手がかりにして、遺言者が本当に意図した意味を探って解釈します。
 
@@ -47,6 +55,8 @@
 未成年者に対して最後に親権を行う者であって、財産の管理権を有する者は、遺言で未成年後見人を指定することができます（民法839条1項）。親権者がいなくなった後に子を守る人を、親自身があらかじめ遺言で決めておける仕組みです。本肢は正しい記述です。
 
 **たとえば**、一人で子を育てているシングルの親が、「もし自分に万一のことがあったら、この子の後見人はおばである私の姉にお願いしたい」と遺言で指定しておくことができます。
+
+---
 
 ### まとめ
 
@@ -108,13 +118,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 遺・言・贈・受・者・額・負・担・相・続・分・指・定・解・釈・真・意・探・求・
-執・行・後・見・親・権 — these must be rendered in their standard Japanese
+kanji 遺・言・贈・者・額・負・担・相・続・分・指・定・解・釈・真・意・探・求・執・行・後・見 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -190,16 +217,16 @@ these 5 headings):
 5. 未成年後見人も遺言で指定できる
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -230,7 +257,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -254,7 +289,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 負担付遺贈はもらった価額まで
@@ -270,7 +305,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 遺贈の価額が上限
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続分は一部だけでも指定できる
@@ -286,7 +321,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一部指定も有効
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 遺言解釈は文言＋真意を探る
@@ -302,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 真意も探求する
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 遺言執行者は指名しておける
@@ -316,7 +351,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 遺言で指定可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 未成年後見人も遺言で指定できる
@@ -335,12 +370,12 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 民法1002条1項（負担付遺贈の責任の限度）・902条（相続分の指定）・1006条1項
 （遺言執行者の指定）・839条1項（未成年後見人の指定）に基づく整理です。
-肢ウ（遺言の解釈の方法）は判例の趣旨によるものです。
+ウ（遺言の解釈の方法）は判例の趣旨によるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 遺, 贈, 負, 担, 相, 続, 分, 執, 行, 後, 見, 親, 権. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 遺, 贈, 負, 担, 相, 続, 分, 執, 行, 後, 見, 親, 権. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that each 着眼点

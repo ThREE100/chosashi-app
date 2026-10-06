@@ -1,64 +1,105 @@
 ## 【土地家屋調査士受験生向け】平成28年度 第1問〜時効完成後の承認は命取り〜
 
-**出題年度：平成28年度　午後の部　第1問**
+**出題年度：平成28年度　午後の部　第1問（改）**
 
-> Aが Bに対して100万円を貸し付けた後その返還期日を経過した事例に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　AがBに対して、貸金の返還の催告をした後、その6か月以内に再び催告をしたときは、その時から6か月を経過するまでの間は、時効は、完成しない。
->
-> イ　AのBに対する貸金返還請求を認容する判決が確定したときは、裁判上の請求によって中断した時効は、当該判決が確定した時から、新たにその進行を始める。
->
-> ウ　AがBに対して貸金返還請求の訴えを提起した場合には、その訴訟手続におけるAの権利行使の意思の表示は、その訴えが取り下げられたときにおいても、Bに対する催告として時効の中断の効力を有する。
->
-> エ　時効の完成前にBがAに対して債務の一部弁済として50万円を支払ったときは、当該債務の残部について時効の中断の効力は生じない。
->
-> オ　時効の完成後にBがAに対して債務の承認をしたときは、Bは、その後その時効の援用をすることができない。
->
+> Aが Bに対して100万円を貸し付けた後その返還期日を経過した事例に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　AがBに対して、貸金の返還の催告をした後、その6か月以内に再び催告をしたときは、その時から6か月を経過するまでの間は、時効は、完成しない。  
+>　  
+> イ　AのBに対する貸金返還請求を認容する判決が確定したときは、裁判上の請求によって中断した時効は、当該判決が確定した時から、新たにその進行を始める。  
+>　  
+> ウ　AがBに対して貸金返還請求の訴えを提起した場合には、その訴訟手続におけるAの権利行使の意思の表示は、その訴えが取り下げられたときにおいても、Bに対する催告として時効の中断の効力を有する。  
+>　  
+> エ　時効の完成前にBがAに対して債務の一部弁済として50万円を支払ったときは、当該債務の残部について時効の更新の効力は生じない。  
+>　  
+> オ　時効の完成後にBがAに対して債務の承認をしたときは、Bは、その後その時効の援用をすることができない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
-消滅時効は、土地家屋調査士試験の民法分野で繰り返し出題される定番テーマです。特にこの問題のように、催告・裁判上の請求・承認といった「時効の完成を止める手段」が、それぞれどこまで効力を及ぼすのかを正確に押さえているかが問われます。似たような場面設定でも、少し条件が変わるだけで結論が逆転するので注意が必要です。
+---
+
+消滅時効は、土地家屋調査士試験の民法分野で繰り返し出題される定番テーマです。特にこの問題のように、催告・裁判上の請求・承認といった「時効の完成を止める手段」が、それぞれどこまで効力を及ぼすのかを正確に押さえているかが問われます。
+
+似たような場面設定でも、少し条件が変わるだけで結論が逆転するので注意が必要です。
 
 ### ア：再度の催告をしても、そこから新たに6か月の完成猶予は生じない
 
-催告による時効の完成猶予は、民法150条1項により、催告の時から6か月を経過するまでの間、時効の完成が猶予されます。この完成猶予は一度限り認められるものであり、最初の催告から6か月以内に重ねて催告をしても、その2回目の催告を起点とする新たな完成猶予は生じません。この点は同条2項に「催告によって時効の完成が猶予されている間にされた再度の催告は、前項の規定による時効の完成猶予の効力を有しない」と明文化されています。したがって、「再び催告をしたときは、その時から6か月を経過するまでの間は時効は完成しない」という記述は誤りで、時効は最初の催告から6か月が経過すれば完成してしまいます。
+催告による時効の完成猶予は、民法150条1項により、催告の時から6か月を経過するまでの間、時効の完成が猶予されます。
 
-**たとえば**、AさんがBさんに100万円を貸し、時効完成まであと少しというタイミングで「早く返してください」という催告書を送ったとします。その後、5か月目にもう一度「まだ返済がありません、至急お願いします」と2通目の催告書を送っても、そこから改めて6か月の猶予がもらえるわけではありません。あくまで最初の催告から6か月以内に裁判を起こすなどの正式な手続を取らなければ、時効は完成してしまうのです。
+この完成猶予は一度限り認められるものであり、最初の催告から6か月以内に重ねて催告をしても、その2回目の催告を起点とする新たな完成猶予は生じません。
+
+この点は同条2項に「催告によって時効の完成が猶予されている間にされた再度の催告は、前項の規定による時効の完成猶予の効力を有しない」と明文化されています。
+
+したがって、「再び催告をしたときは、その時から6か月を経過するまでの間は時効は完成しない」という記述は誤りで、時効は最初の催告から6か月が経過すれば完成してしまいます。
+
+**たとえば**、AさんがBさんに100万円を貸し、時効完成まであと少しというタイミングで「早く返してください」という催告書を送ったとします。
+
+その後、5か月目にもう一度「まだ返済がありません、至急お願いします」と2通目の催告書を送っても、そこから改めて6か月の猶予がもらえるわけではありません。
+
+あくまで最初の催告から6か月以内に裁判を起こすなどの正式な手続を取らなければ、時効は完成してしまうのです。
 
 ### イ：確定判決が出れば、時効はその時から新たに進行を始める
 
-裁判上の請求によって完成が猶予された時効は、確定判決によって権利が確定したときは、その事由が終了した時（判決確定時）から新たにその進行を始めます。この点は現行民法147条2項に規定されており、出題当時（改正前）は旧157条2項が定めていた内容にあたります。確定判決を得たことで、それまで進行していた時効期間はいったんリセットされ、判決確定時点を起点として改めて時効期間がカウントされ直します。
+裁判上の請求によって完成が猶予された時効は、確定判決によって権利が確定したときは、その事由が終了した時（判決確定時）から新たにその進行を始めます。
 
-**たとえば**、AさんがBさんを相手取って貸金返還請求の訴訟を起こし、勝訴判決が確定したとします。この場合、判決が確定した日から新たに時効の進行が始まるので、Aさんは判決確定の翌日を起点として、あらためて時効期間内に強制執行の申立てなどの措置を取れば、権利を守ることができます。
+この点は現行民法147条2項に規定されており、出題当時（改正前）は旧157条2項が定めていた内容にあたります。確定判決を得たことで、それまで進行していた時効期間はいったんリセットされ、判決確定時点を起点として改めて時効期間がカウントされ直します。
 
-### ウ：訴えを取り下げても、その主張は「催告」として時効の効力を持つ
+**たとえば**、AさんがBさんを相手取って貸金返還請求の訴訟を起こし、勝訴判決が確定したとします。
 
-判例の趣旨により、訴え提起後にその訴えが取り下げられた場合であっても、訴訟手続の中でされた権利行使の意思表示は、裁判上の催告として時効の中断（完成猶予）の効力を有すると解されています。訴えの取下げによって訴訟提起自体の中断効は失われても、権利を主張したという事実そのものは、通常の催告と同様に評価されるためです。
+この場合、判決が確定した日から新たに時効の進行が始まるので、Aさんは判決確定の翌日を起点として、あらためて時効期間内に強制執行の申立てなどの措置を取れば、権利を守ることができます。
 
-**たとえば**、AさんがBさんに対して貸金返還請求の訴えを提起したものの、和解交渉がまとまりそうだという理由で訴えを取り下げたとします。この場合でも、訴え提起によって行われた「返してほしい」という意思表示は通常の催告と同じように扱われるため、取下げ後6か月以内に改めて裁判上の請求などをすれば、時効の完成を防ぐことができます。
+### ウ：訴えを取り下げても、取下げの時から6か月間は時効の完成が猶予される
+
+民法147条1項は、裁判上の請求などによって時効の完成が猶予されている間に、確定判決又はこれと同一の効力を有するものによって権利が確定することなくその事由（裁判上の請求）が終了したときは、その終了の時から6か月を経過するまでの間は、時効は完成しないと規定しています（同項柱書のかっこ書）。
+
+訴えの取下げは、まさにこの「確定判決等によって権利が確定することなく事由が終了した場合」にあたるため、訴えを取り下げた後も、取下げの時から6か月が経過するまでの間は時効は完成しません。
+
+本肢はこの効果を「催告としての効力」と表現していますが、時効の完成が一定期間妨げられるという結論自体は現行法の規定に合致しており、正しい記述です。
+
+**たとえば**、AさんがBさんに対して貸金返還請求の訴えを提起したものの、和解交渉がまとまりそうだという理由で訴えを取り下げたとします。
+
+この場合でも、訴えの取下げによって裁判上の請求による時効の完成猶予がただちに失われるわけではなく、取り下げた時から6か月以内に改めて裁判上の請求などをすれば、時効の完成を防ぐことができます。
 
 ### エ：一部弁済をすれば、残りの債務についても承認したことになる
 
-一部弁済は、残りの債務がなお存在することを前提として初めて行われる行為であるため、「承認」にあたると解されています（現行民法152条1項。出題当時の旧法では147条3号が定める中断事由としての「承認」にあたるとされていました）。したがって、一部弁済がされた場合には、弁済された部分だけでなく、残債務についても時効の更新（旧法下では中断）の効力が生じます。「残部について時効の中断の効力は生じない」という記述は、この点で誤りです。
+債務の一部を弁済することは、残りの債務がなお存在することを前提として初めて行われる行為です。そのため、一部弁済は判例上、債務者による「権利の承認」にあたるとされています（民法152条1項。一部弁済そのものを定めた条文はなく、「承認」の解釈によります）。
 
-**たとえば**、BさんがAさんに借りた100万円のうち、時効完成前に50万円だけを返したとします。この場合、Bさんは「まだ50万円の借金が残っている」ことを自分から認めた形になるため、残りの50万円についても時効中断（承認）の効力が生じ、その時点から改めて時効期間がカウントされ直すことになります。
+権利の承認があると、その時から時効は新たに進行を始めます（時効の更新）。したがって、一部弁済がされた場合には、弁済された部分だけでなく、残債務についても時効の更新の効力が生じます。「残部について時効の更新の効力は生じない」という趣旨の本肢は、この点で誤りです。
+
+**たとえば**、BさんがAさんに借りた100万円のうち、時効完成前に50万円だけを返したとします。
+
+この場合、Bさんは「まだ50万円の借金が残っている」ことを自分から認めた形になるため、残りの50万円についても承認による時効の更新が生じ、その時点から改めて時効期間がカウントされ直すことになります。
+
+※出題当時（平成28年）の民法では、時効の更新は「中断」と呼ばれ、承認は旧147条3号の中断事由でした（原文の本肢は「時効の中断の効力は生じない」）。令和2年4月1日施行の民法改正で「中断」は「更新」に改められ、承認は現152条1項に置かれましたが、一部弁済が承認にあたり残債務にも効力が及ぶという結論は変わりません。
 
 ### オ：時効完成後に承認すれば、もう時効を主張できない
 
 最高裁大法廷判決により、時効が完成した後に債務者が債権者に対して債務の承認をした場合には、たとえその債務者が時効の完成の事実を知らなかったときであっても、信義則上その後にその時効を援用することは許されないとされています。
 
-**たとえば**、Bさんが実は時効が完成していることに気づかないまま、Aさんに対して「必ず返しますので、もう少し待ってください」と伝えたとします。後になってBさんが時効の完成に気づき、「やっぱり時効なので払いません」と主張しても、一度承認をしてしまった以上、その主張（時効の援用）は認められません。
+**たとえば**、Bさんが実は時効が完成していることに気づかないまま、Aさんに対して「必ず返しますので、もう少し待ってください」と伝えたとします。
+
+後になってBさんが時効の完成に気づき、「やっぱり時効なので払いません」と主張しても、一度承認をしてしまった以上、その主張（時効の援用）は認められません。
+
+---
 
 ### まとめ
 
 - **ア（誤）**　催告は一度限り、再度の催告で新たな完成猶予は生じない
 - **イ（正）**　確定判決が出た時から、時効は新たに進行を始める
-- **ウ（正）**　訴え取下げ後も、権利行使の意思表示は催告として効力を持つ
-- **エ（誤）**　一部弁済は残債務についても承認にあたる
+- **ウ（正）**　訴え取下げ後も、取下げの時から6か月は時効の完成が猶予される
+- **エ（誤）**　一部弁済は残債務についても承認にあたり、残部にも時効の更新の効力が生じる
 - **オ（正）**　時効完成後に承認をすれば、その後の時効援用はできない
 
 催告・裁判上の請求・承認という「時効を止める手段」が、それぞれどの範囲まで効力を及ぼすのかを丁寧に区別できるかどうかが、この分野の得点力を左右します。
 
 **正解：アエの組合せ（選択肢2番）**
+
+> **【出題文を改めた箇所についてのメモ】**
+> 本問は、現行法令（令和2年4月1日施行の民法改正後）にあわせて、エの出題文を次のとおり改めています（出題年度に「（改）」を付けています）。
+> - 原文：「…当該債務の残部について時効の**中断**の効力は生じない。」
+> - 改題：「…当該債務の残部について時効の**更新**の効力は生じない。」
+>
+> 民法改正で、旧法の「中断」は「完成猶予」と「更新」に分かれました。承認には完成猶予の段階がなく、承認があった時点で直ちに時効が更新される（民法152条1項）ため、エは「更新」の語に置き換えれば足り、意味（誤りの記述であること、正解の組合せ）は変わりません。ほかの肢（ア・イ・ウ・オ）の問題文は原文のままです（イ・ウの「中断」の語は旧法の表現のまま残っています）。
 
 ---
 
@@ -67,12 +108,15 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - この第1問は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）には収録されておらず、法務省公表の試験問題原本（ユーザー提供のPDF）から問題文を直接確認し、民法の消滅時効に関する一般原則・判例に基づいてAI（Claude）が解説を作成したものです。
 - 正解番号（2番＝アエ）は、法務省公式の正答PDF（ユーザー提供）と照合済みです。
-- **条文レベルで確認できた根拠（2026-08-18実施）**：ア（催告による時効の完成猶予＝民法150条1項、再度の催告に完成猶予の効力がないこと＝同条2項）、イ（確定判決によって権利が確定したときは事由終了時から時効が新たに進行すること＝民法147条2項）、エ（権利の承認による時効の更新＝民法152条1項）の3つは、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）に収録された条文原文と、条番号・項番号・文言を照合して確認済みです。
-- **条文レベルでは確認できていない根拠**：ウ（訴えが取り下げられた場合でも、訴訟手続における権利行使の意思表示が「裁判上の催告」として効力を持つこと）とオ（時効完成後に債務の承認をした債務者は、信義則上その後に時効を援用できないこと。最大判昭和41年4月20日）は、条文に直接の定めがなく、判例法理によるものです。この2つは条文原文による裏付けができていないため、断定を避け、参考情報としてご利用ください。
-- **最新法令チェック（2026-08-01実施）**：本問は平成28年度出題のため、当時は消滅時効の「中断」「停止」制度（旧民法147条・153条・157条等）が適用されていましたが、2017年成立・2020年4月1日施行の債権法改正により、「更新」「完成猶予」という制度に再編されています。各肢の結論（正誤の判定）自体はこの改正によって変わりませんが、条文番号は次のとおり現行法に置き換わっています：イ（裁判上の請求による確定判決後の時効の進行、旧157条2項→現147条2項）、エ（一部弁済＝承認、旧147条3号→現152条1項）。本文には現行条文番号を追記済みです。オの最大判昭和41年4月20日の判例法理、ウの訴え取下げ後の催告としての効力に関する解釈は、現行法下でも同様に維持されていると考えられます。肢アの法改正メモは下記の項目を参照してください。
-- **肢アの法改正メモ（このまま使える点／使う前に確認したい点）**
+- **条文レベルで確認できた根拠（2026-08-18実施、2026-10-01にウを追加）**：ア（催告による時効の完成猶予＝民法150条1項、再度の催告に完成猶予の効力がないこと＝同条2項）、イ（確定判決によって権利が確定したときは事由終了時から時効が新たに進行すること＝民法147条2項）、ウ（確定判決等によらずに裁判上の請求が終了した場合、その終了の時から6か月間は時効の完成が猶予されること＝民法147条1項柱書のかっこ書）、エ（権利の承認による時効の更新＝民法152条1項）の4つは、ローカル法令データベース（`note-articles/laws/minpou-1-soukyoku-bukken.md`）に収録された条文原文と、条番号・項番号・文言を照合して確認済みです。
+- **条文レベルでは確認できていない根拠**：オ（時効完成後に債務の承認をした債務者は、信義則上その後に時効を援用できないこと。最大判昭和41年4月20日）は、条文に直接の定めがなく、判例法理によるものです。条文原文による裏付けができていないため、断定を避け、参考情報としてご利用ください。
+- **最新法令チェック（2026-08-01実施、2026-10-01にウの根拠を見直し）**：本問は平成28年度出題のため、当時は消滅時効の「中断」「停止」制度（旧民法147条・153条・157条等）が適用されていましたが、2017年成立・2020年4月1日施行の債権法改正により、「更新」「完成猶予」という制度に再編されています。各肢の結論（正誤の判定）自体はこの改正によって変わりませんが、条文番号は次のとおり現行法に置き換わっています：イ（裁判上の請求による確定判決後の時効の進行、旧157条2項→現147条2項）、エ（一部弁済＝承認、旧147条3号→現152条1項）。本文には現行条文番号を追記済みです。オの最大判昭和41年4月20日の判例法理は、現行法下でも同様に維持されていると考えられます。ウについては、出題当時は「裁判上の催告」という判例法理（最判昭和45年9月7日等）によって導かれていた結論でしたが、2020年施行の債権法改正によりその内容が147条1項柱書のかっこ書として明文化されたため、本文は現行条文を直接の根拠とする説明に改めました。ア・ウの法改正メモは下記の項目を参照してください。
+- **アの法改正メモ（このまま使える点／使う前に確認したい点）**
   - **このまま使える点**：本文の説明（催告による時効の完成猶予＝民法150条1項、再度の催告に完成猶予の効力がないこと＝同条2項）は、2020年4月1日施行の債権法改正後の現行法にそのまま基づいた記述です。現行法の下で相談・学習する読者に対して、そのままの内容で使えます。
   - **使う前に確認したい点**：本問の出題時点（平成28年度）はこの改正前にあたり、当時は現150条に相当する効力が旧153条の「時効の中断」という制度の下で規定されていました。本文はあえて現行法基準のみで統一し、旧法の条文番号（旧153条）や「中断」という当時の用語には言及していません。出題当時の条文番号や制度名（「中断」）に触れる必要がある場面（例えば当時の法務省公表解説と照合する場合など）では、「当時は旧153条・中断、現在は150条・完成猶予」という対応関係を別途確認してから使ってください。
+- **ウの法改正メモ（このまま使える点／使う前に確認したい点、2026-10-01追加）**
+  - **このまま使える点**：本文の説明（訴えの取下げなど、確定判決等によらずに裁判上の請求が終了した場合でも、その終了の時から6か月間は時効の完成が猶予されること＝民法147条1項柱書のかっこ書）は、2020年4月1日施行の債権法改正後の現行法にそのまま基づいた記述です。現行法の下で相談・学習する読者に対して、そのままの内容で使えます。
+  - **使う前に確認したい点**：本問の出題時点（平成28年度）はこの改正前にあたり、当時はこの結論（訴え取下げ後も一定期間は時効の完成を防げること）を直接定めた条文がなく、訴訟手続における権利行使の意思表示は訴えの取下げ後も「裁判上の催告」としての効力を有するという判例法理（最判昭和45年9月7日等）によって導かれていました。2020年の債権法改正により、この判例法理と同じ結論が147条1項柱書のかっこ書として明文化されたため、現在は条文を直接の根拠として説明できます。本文はあえて現行法基準（147条1項かっこ書）のみで統一し、出題当時の判例法理（裁判上の催告）そのものには言及していません。出題当時の解説と照合する場合は、「当時は判例法理（裁判上の催告）、現在は147条1項かっこ書」という対応関係を踏まえてください。
 - **重複出題チェック（2026-07-21実施、2026-08-18再確認）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（消滅時効・催告・裁判上の請求・一部弁済・時効完成後の承認）と同一・類似の問題が再出題されていないかを確認しました。「時効」に触れる後年の出題としては、R02年度第2問（不動産の取得時効）のほか、R07年度第2問ア・R01年度第1問エ・R06年度第19問ウ（いずれも取得時効に関連する肢）、R05年度第1問オ（取消権の期間制限）、R05年度第2問オ（所有権に基づく請求権と消滅時効）、R04年度第1問イ（成年被後見人に関する時効の完成猶予）がありますが、いずれも本問とは別の論点です。本問の中心論点である催告・裁判上の請求・一部弁済＝承認・時効完成後の承認による援用制限をまとめて問う出題は見当たらず、**重複は見つかりませんでした**。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -113,11 +157,19 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 時・効・催・訴・認・済・決・進・残・務 — these must be rendered in
+kanji 時・効・催・認・済・決・進・残・務 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -164,12 +216,13 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- CARD 3 ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-訴え取下げでも催告として有効
+取下げ後も6か月は時効完成せず
 Illustration: An isometric lawsuit document being crumpled/withdrawn
-(取下げ) by a figure, but a glowing stamp reading 催告として有効 remains
-attached to it, still connected by a dotted line to the time-limit gauge.
+(取下げ) by a figure, with a glowing 6か月 countdown timer starting from
+the moment of withdrawal, still connected by a dotted line to the
+time-limit gauge.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-催告としては有効
+取下げ後も6か月猶予
 
 --- CARD 4 ---
 Badge: a filled blue circle containing the number 4.
@@ -195,8 +248,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, confirm that no
@@ -210,7 +263,7 @@ filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -244,7 +297,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -268,16 +329,17 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 再度の催告では猶予は延びない
 Diagram: An isometric timeline. Start node: Aが催告状（封筒アイコン）を
-Bに送る（1回目の催告）、6か月のタイマーが動き出す。Diamond node: その6か月
-以内に再びＡが催告状を送ったか？with a はい arrow. Second diamond node
-(drawn with a thicker highlighted border, the main point of this panel):
-その2回目の催告を起点として新たな6か月の完成猶予が始まるか？with a red
-prohibition mark over the いいえ branch leading to a conclusion node
+Bに送る（1回目の催告）、6か月のタイマーが動き出す。Rectangular check box
+(not a diamond): その6か月以内にＡが再び催告状を送った. An arrow leads to a
+second rectangular box (drawn with a thicker highlighted border, the main
+point of this panel): 2回目の催告を起点とする新たな6か月の完成猶予は始まらない
+(with a red prohibition mark over a small「6か月延長」tag), then to a
+conclusion node
 reading 最初の催告から6か月で時効が完成する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、最初の催告によって6か月の完成猶予が始まっていることを確認します。
@@ -287,13 +349,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 猶予の延長なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 確定判決で時効はゼロから再進行
 Diagram: An isometric courthouse and gavel icon. Start node: Aが貸金返還
-請求の訴えを提起し（裁判上の請求）、時効の完成が猶予される。Diamond node
-(highlighted): その訴訟で勝訴判決が確定したか？with a はい arrow leading
+請求の訴えを提起し（裁判上の請求）、時効の完成が猶予される。Rectangular check
+box (highlighted, not a diamond): その訴訟で勝訴判決が確定した. An arrow leads
 to a conclusion node showing a calendar/timeline resetting to zero and a
 fresh countdown arrow, labeled 判決確定時から時効が新たに進行を始める。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -304,33 +366,36 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 判決確定でリセット
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
-訴え取下げ後も催告としては有効
+取下げ後も6か月は時効の完成が猶予される
 Diagram: An isometric lawsuit document being crumpled/withdrawn by figure
-A. Diamond node: 訴えは取り下げられたか？with a はい arrow. Second diamond
-node (highlighted): その訴訟手続の中でされた権利行使の意思表示は、通常の
-催告と同じ効力を持つか？with a はい arrow leading to a glowing stamp
-「催告として有効」remaining attached to the withdrawn document, connected
-by a dotted line to a 6か月 timer, and a conclusion node reading 取下げ後
-6か月以内に改めて裁判上の請求等をすれば時効の完成を防げる。
+A. Rectangular check box (not a diamond): 訴えは、確定判決等によって権利が
+確定することなく終了した（取下げ）. An arrow leads to a second rectangular box
+(highlighted): その終了の時から6か月を経過するまでの間は、時効の完成が猶予
+される. An arrow leads to a glowing 6か月 timer stamp labeled 完成猶予
+が続く remaining attached to the withdrawn document, connected by a
+dotted line to a 6か月 timer, and a conclusion node reading 取下げの時か
+ら6か月以内に改めて裁判上の請求等をすれば時効の完成を防げる。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず訴えが取り下げられた事実を確認します。次に、その訴訟の中でされた権利
-行使の意思表示が、通常の催告と同じように扱われることを確認します。
+まず訴えが、確定判決等によって権利が確定することなく終了した（取り下げ
+られた）事実を確認します。次に、その終了の時から6か月を経過するまでの
+間は、民法147条1項柱書のかっこ書により時効の完成が猶予されることを確
+認します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-催告としてなお有効
+取下げ後も6か月猶予
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 一部弁済で残額も承認扱い
 Diagram: An isometric hand handing over a small stack of coins labeled
-50万円 to creditor A, next to a ledger icon showing 100万円. Diamond node:
-Bが債務の一部（50万円）を弁済したか？with a はい arrow. Second diamond node
-(highlighted): その弁済は、残りの債務がなお存在することを前提とする行為
-（承認）にあたるか？with a はい arrow leading to a conclusion node where
+50万円 to creditor A, next to a ledger icon showing 100万円. Rectangular check box
+(not a diamond): Bが債務の一部（50万円）を弁済した. An arrow leads to a second
+rectangular box (highlighted): その弁済は、残りの債務がなお存在することを前提
+とする行為（承認）にあたる. An arrow leads to a conclusion node where
 the remaining 50万円 portion of the ledger glows and is stamped 承認。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず一部弁済がされた事実を確認します。次に、その弁済が残りの債務の存在を
@@ -340,14 +405,14 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 残債務も承認扱い
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 時効完成後の承認は覆せない
 Diagram: An isometric figure B bowing apologetically toward creditor A,
 with a broken hourglass in the background showing time has already run
-out. Diamond node (highlighted): 時効が完成した後に、Ｂが承認をしたか？
-with a はい arrow leading to a locked-door icon labeled 時効の援用不可、
+out. Rectangular check box (highlighted, not a diamond): 時効が完成した後に、
+Ｂが承認をした. An arrow leads to a locked-door icon labeled 時効の援用不可、
 and a conclusion node reading 信義則上、その後の時効の援用は許されない。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず時効が完成した後であることを確認します。次に、その時点で債務者が承認
@@ -359,14 +424,15 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法150条1項・2項（催告による完成猶予とその1回性）・147条2項（裁判上の
-請求と確定判決による時効の新たな進行）・152条1項（承認による時効の更新）
-に基づく整理です。肢ウ・オの結論は判例の趣旨によるものです。
+民法150条1項・2項（催告による完成猶予とその1回性）・147条1項柱書のかっこ
+書（訴えの取下げなど、確定判決によらない事由終了後の6か月の完成猶予）・
+147条2項（裁判上の請求と確定判決による時効の新たな進行）・152条1項（承認
+による時効の更新）に基づく整理です。オの結論は判例の趣旨によるものです。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 催, 猶, 予, 訴, 提, 起, 認, 弁, 済, 援, 進, 抹. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 催, 猶, 予, 訴, 提, 起, 認, 弁, 済, 援, 進, 柱, 書. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every panel is drawn as an

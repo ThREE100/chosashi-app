@@ -2,53 +2,67 @@
 
 **出題年度：平成30年度　午後の部　第19問**
 
-> 筆界特定に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　筆界特定登記官は、申請人の地位の承継があった場合には、既に当該承継に係る申請人に係る意見聴取等の期日を開いたときであっても、改めて意見聴取等の期日を開かなければならない。
->
-> イ　意見聴取等の期日は、対象土地において開くことができる。
->
-> ウ　申請人及び関係人に係る意見聴取等の期日は、同一の日時に申請人及び関係人を同席させて開くことはできない。
->
-> エ　意見聴取等の期日における申請人、関係人又は参考人の陳述については、ビデオテープその他の適当と認める記録用の媒体に記録し、これをもって調書の記録に代えることができる。
->
-> オ　筆界特定登記官は、意見聴取等の期日において、対象土地の所有権の登記名義人であった者や対象土地周辺の宅地開発を行った者に、参考人としてその知っている事実を陳述させることができる。
->
+> 筆界特定に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　筆界特定登記官は、申請人の地位の承継があった場合には、既に当該承継に係る申請人に係る意見聴取等の期日を開いたときであっても、改めて意見聴取等の期日を開かなければならない。  
+>　  
+> イ　意見聴取等の期日は、対象土地において開くことができる。  
+>　  
+> ウ　申請人及び関係人に係る意見聴取等の期日は、同一の日時に申請人及び関係人を同席させて開くことはできない。  
+>　  
+> エ　意見聴取等の期日における申請人、関係人又は参考人の陳述については、ビデオテープその他の適当と認める記録用の媒体に記録し、これをもって調書の記録に代えることができる。  
+>　  
+> オ　筆界特定登記官は、意見聴取等の期日において、対象土地の所有権の登記名義人であった者や対象土地周辺の宅地開発を行った者に、参考人としてその知っている事実を陳述させることができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
 ---
 
-筆界特定の手続では、申請人・関係人・参考人から話を聞くための「意見聴取等の期日」が開かれます。この期日はどこで開けるのか、誰を同席させられるのか、どう記録するのか——実務の運用ルールを知っているかが問われる問題です。イメージは「訴訟ほど堅苦しくなく、柔軟に運用できる」場面です。
+筆界特定の手続では、申請人・関係人・参考人から話を聞くための「意見聴取等の期日」が開かれます。
+
+この期日はどこで開けるのか、誰を同席させられるのか、どう記録するのか——実務の運用ルールを知っているかが問われる問題です。イメージは「訴訟ほど堅苦しくなく、柔軟に運用できる」場面です。
 
 ### ア：承継があっても、期日をやり直す必要はない
 
-申請人の地位の承継があった場合、既に承継に係る申請人について意見聴取等の期日を開いていれば、改めて期日を開き直す必要はありません。手続の途中で申請人が死亡したときは、その相続人（一般承継人）が申請人の地位を承継するものとして、そのまま筆界特定の手続を進めて差し支えないとされています（先例による）。設問は「改めて開かなければならない」としており、この点が誤りです。
+申請人の地位の承継があった場合、既に承継に係る申請人について意見聴取等の期日を開いていれば、改めて期日を開き直す必要はありません。
+
+手続の途中で申請人が死亡したときは、その相続人（一般承継人）が申請人の地位を承継するものとして、そのまま筆界特定の手続を進めて差し支えないとされています（先例による）。設問は「改めて開かなければならない」としており、この点が誤りです。
 
 **たとえば**、土地の筆界特定を申請していたお父さんが手続の途中で亡くなり、息子さんが地位を引き継いだとしても、すでに済ませた話し合いの期日をもう一度最初からやり直す必要はなく、続きから進めてかまいません。
 
 ### イ：意見聴取等の期日は、現地でも開ける
 
-意見聴取等の期日は、法務局または地方法務局、対象土地の所在地を管轄する登記所のほか、筆界特定登記官が適当と認める場所で開くことができます（不動産登記規則222条）。この「適当と認める場所」には対象土地の現地も含まれます（先例による）。「対象土地において開くことができる」とする本肢は正しい記述です。
+意見聴取等の期日は、法務局または地方法務局、対象土地の所在地を管轄する登記所のほか、筆界特定登記官が適当と認める場所で開くことができます（不動産登記規則222条）。
+
+この「適当と認める場所」には対象土地の現地も含まれます（先例による）。「対象土地において開くことができる」とする本肢は正しい記述です。
 
 **たとえば**、境界が問題になっている土地の上で、実際に杭やブロック塀を見ながら「ここが筆界だと思う」と当事者から話を聞く、といった現地での期日も認められています。
 
 ### ウ：申請人と関係人を、同じ日時に同席させて開ける
 
-申請人及び関係人に係る意見聴取等の期日は、同一の日時に申請人と関係人を同席させて開くことができます（先例による）。むしろ、複数の申請人・関係人が同席している場合には、ある当事者に他の当事者への発問を許すことで、民事訴訟の反対尋問に似た運用をすることも可能です。設問は「同席させて開くことはできない」としており、この点が誤りです。
+申請人及び関係人に係る意見聴取等の期日は、同一の日時に申請人と関係人を同席させて開くことができます（先例による）。
+
+むしろ、複数の申請人・関係人が同席している場合には、ある当事者に他の当事者への発問を許すことで、民事訴訟の反対尋問に似た運用をすることも可能です。設問は「同席させて開くことはできない」としており、この点が誤りです。
 
 **たとえば**、隣り合う土地の所有者どうしを同じ日・同じ場所に集めて、お互いの言い分をその場でつき合わせながら話を聞く、という進め方もできるということです。
 
 ### エ：陳述はビデオ等に記録して、調書に代えられる
 
-筆界特定登記官は、意見聴取等の期日の経過を記載した調書を作成しなければなりません（法140条4項）。そして、この調書における申請人・関係人・参考人の陳述については、ビデオテープその他の適当と認める記録用の媒体に記録し、これをもって調書の記録に代えることができます（規則226条2項）。本肢は正しい記述です。
+筆界特定登記官は、意見聴取等の期日の経過を記載した調書を作成しなければなりません（法140条4項）。
+
+そして、この調書における申請人・関係人・参考人の陳述については、ビデオテープその他の適当と認める記録用の媒体に記録し、これをもって調書の記録に代えることができます（規則226条2項）。本肢は正しい記述です。
 
 **たとえば**、当事者が話した内容を一言一句書き起こす代わりに、その場のやり取りを録画・録音しておき、それを調書の記録に代える、という運用が認められています。
 
 ### オ：元登記名義人や開発業者を、参考人として呼べる
 
-筆界特定登記官は、意見聴取等の期日において、適当と認める者に、参考人としてその知っている事実を陳述させることができます（法140条2項）。対象土地の所有権の登記名義人であった者や、対象土地周辺の宅地開発を行った者も、事情を知る「適当と認める者」に当たり得ますから、参考人として陳述させることができます。本肢は正しい記述です。
+筆界特定登記官は、意見聴取等の期日において、適当と認める者に、参考人としてその知っている事実を陳述させることができます（法140条2項）。
+
+対象土地の所有権の登記名義人であった者や、対象土地周辺の宅地開発を行った者も、事情を知る「適当と認める者」に当たり得ますから、参考人として陳述させることができます。本肢は正しい記述です。
 
 **たとえば**、昔その土地を持っていた前の所有者や、周辺一帯を造成した開発業者に、「当時どこに境界の目印があったか」を参考人として話してもらう、といったことができます。
+
+---
 
 ### まとめ
 
@@ -112,12 +126,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 筆・界・聴・継・地・登・記 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -188,19 +220,19 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 筆界特定手続の意見聴取等の期日について、ア〜オの各肢を、問題文を読んだ瞬間にどの図を描き、どの順番で条件を確認すればよいかという「作図ガイド」の5パネルで示す構成（承継の可否・同席の可否は決定木や正誤対比で「誤りやすい思い込み」を可視化し、開催場所は配置図で示す）。
 
@@ -284,17 +316,16 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 承継後も既存の期日はやり直し不要
 Diagram: A decision flowchart. The start node reads "意見聴取等の期日の途
-中で申請人の地位の承継があった". A diamond-shaped branch node reads "承継
-人について、既に意見聴取等の期日を開いたか". The Yes-side arrow leads to a
+中で申請人の地位の承継があった". A rectangular check box (not a
+diamond) reads "承継前に、既に意見聴取等の期日を開いていた". An arrow leads to a
 conclusion node reading "改めて期日を開く必要はない（そのまま手続を続
-行）". No No-side arrow or conclusion node is drawn, since the source
-article does not address that scenario.
+行）".
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、申請人の地位の承継があったかどうかを確認し、次に、承継人について意
 見聴取等の期日を既に開いているかどうかを確認します。既に開いていれば、や
@@ -303,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 やり直し不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -322,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 現地開催も可能
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -341,7 +372,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 同席させて開催可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -358,14 +389,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 録画で調書に代替可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 元名義人や開発業者も参考人になれる
 Diagram: A decision flowchart. The start node reads "事情を知っている人物
-がいる". A diamond-shaped branch node reads "筆界特定登記官が適当と認める
-者か". The Yes-side arrow branches to two figures at once — an elderly
+がいる". A rectangular check box (not a diamond) reads "筆界特定登記官が適当と
+認める者である". An arrow from it branches to two figures at once — an elderly
 figure labeled 対象土地の元登記名義人 and a hard-hat developer figure
 labeled 宅地開発を行った者 — both leading into a shared conclusion node
 reading "参考人として陳述させられる".

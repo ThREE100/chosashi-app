@@ -2,18 +2,18 @@
 
 **出題年度：令和6年度　午後の部　第18問**
 
-> 区分建物の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲区分建物が属する一棟の建物の法定敷地として登記された土地について、当該一棟の建物とは別の一棟の建物の規約敷地とする敷地権の表示に関する登記の申請は、することができない。
->
-> イ　区分建物の表題登記の申請をする場合において、当該区分建物が属する一棟の建物とは別の表題登記のない一棟の建物に属する区分建物を附属建物とするときは、当該附属建物とする区分建物が属する一棟の建物に属する他の区分建物の表題登記の申請と併せてしなければならない。
->
-> ウ　甲土地及び乙土地が法定敷地として登記されている敷地権付き区分建物について、当該区分建物が属する一棟の建物の一部が取り壊されたことにより、甲土地上に当該一棟の建物が存しないこととなった場合には、甲土地について敷地権であった権利が敷地権でない権利になったことによる区分建物の表題部の変更の登記を申請しなければならない。
->
-> エ　甲区分建物と乙区分建物からなる一棟の建物のうち甲区分建物のみが滅失した場合には、甲区分建物の滅失の登記の申請は、乙区分建物の表題部の変更の登記の申請と併せてしなければならない。
->
-> オ　甲区分建物及び乙区分建物からなる一棟の建物について、甲区分建物が増築されたことにより、甲区分建物の床面積の変更の登記と当該一棟の建物の床面積の変更の登記とが申請された場合には、乙区分建物の所有権の登記名義人は、乙区分建物について、当該一棟の建物の床面積の変更の登記を申請することを要しない。
->
+> 区分建物の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲区分建物が属する一棟の建物の法定敷地として登記された土地について、当該一棟の建物とは別の一棟の建物の規約敷地とする敷地権の表示に関する登記の申請は、することができない。  
+>　  
+> イ　区分建物の表題登記の申請をする場合において、当該区分建物が属する一棟の建物とは別の表題登記のない一棟の建物に属する区分建物を附属建物とするときは、当該附属建物とする区分建物が属する一棟の建物に属する他の区分建物の表題登記の申請と併せてしなければならない。  
+>　  
+> ウ　甲土地及び乙土地が法定敷地として登記されている敷地権付き区分建物について、当該区分建物が属する一棟の建物の一部が取り壊されたことにより、甲土地上に当該一棟の建物が存しないこととなった場合には、甲土地について敷地権であった権利が敷地権でない権利になったことによる区分建物の表題部の変更の登記を申請しなければならない。  
+>　  
+> エ　甲区分建物と乙区分建物からなる一棟の建物のうち甲区分建物のみが滅失した場合には、甲区分建物の滅失の登記の申請は、乙区分建物の表題部の変更の登記の申請と併せてしなければならない。  
+>　  
+> オ　甲区分建物及び乙区分建物からなる一棟の建物について、甲区分建物が増築されたことにより、甲区分建物の床面積の変更の登記と当該一棟の建物の床面積の変更の登記とが申請された場合には、乙区分建物の所有権の登記名義人は、乙区分建物について、当該一棟の建物の床面積の変更の登記を申請することを要しない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
 ---
@@ -28,13 +28,17 @@
 
 ### イ：別の一棟の建物にある区分建物を附属建物にするときは、その一棟の他の区分建物の表題登記と併せて申請する
 
-建物を新築したときは表題登記を申請しなければならず、区分建物として登記する場合は、一棟の建物に属する全部の区分建物の表題部を一括して申請しなければなりません。附属建物とする区分建物が、主である建物とは別の一棟の建物に属する場合は、その附属建物とする区分建物が属する一棟の建物にある他の区分建物の表題登記も、併せて申請する必要があります。
+建物を新築したときは表題登記を申請しなければならず、区分建物として登記する場合は、一棟の建物に属する全部の区分建物の表題部を一括して申請しなければなりません。
+
+附属建物とする区分建物が、主である建物とは別の一棟の建物に属する場合は、その附属建物とする区分建物が属する一棟の建物にある他の区分建物の表題登記も、併せて申請する必要があります。
 
 **たとえば**、Ａ棟の1室を主である建物とし、まだ表題登記のないＢ棟にある倉庫部分をその附属建物としたい場合、Ｂ棟にある他の専有部分の表題登記も同時に申請しなければなりません。
 
 ### ウ：建物の一部取壊しで法定敷地から外れても、みなし規約敷地となるため変更登記は不要
 
-一度建物の敷地となった土地（法定敷地）が、建物の一部取壊しによって建物が所在しない土地になったときは、その土地は規約により建物の敷地と定められたものとみなされます（いわゆるみなし規約敷地）。そのため、区分建物の一部を取り壊したことで甲土地上に建物が存しなくなったとしても、敷地権でなくなったことによる区分建物の表題部の変更登記は不要です。
+一度建物の敷地となった土地（法定敷地）が、建物の一部取壊しによって建物が所在しない土地になったときは、その土地は規約により建物の敷地と定められたものとみなされます（いわゆるみなし規約敷地）。
+
+そのため、区分建物の一部を取り壊したことで甲土地上に建物が存しなくなったとしても、敷地権でなくなったことによる区分建物の表題部の変更登記は不要です。
 
 **たとえば**、甲土地・乙土地にまたがって建っていたマンションの、甲土地側の棟だけを取り壊した場合でも、甲土地はみなし規約敷地として扱われるため、敷地権が消滅したという変更登記をあらためて申請する必要はありません。
 
@@ -46,9 +50,13 @@
 
 ### オ：一棟の変更登記は、一人の専有部分の所有者が申請すれば他の所有者は重ねて申請しなくてよい
 
-各専有部分の変更は、それぞれの専有部分の表題部所有者または所有権の登記名義人に申請義務が課されていますが、一棟の建物の変更については、一棟の建物に属する専有部分の所有者全員に申請義務が課されています。専有部分の所有者の一人が一棟の建物の変更の登記をした場合、他の専有部分の登記記録にある一棟の建物の表示も職権で変更されるため、乙区分建物の所有者があらためて同じ変更登記を申請する必要はありません。
+各専有部分の変更は、それぞれの専有部分の表題部所有者または所有権の登記名義人に申請義務が課されていますが、一棟の建物の変更については、一棟の建物に属する専有部分の所有者全員に申請義務が課されています。
+
+専有部分の所有者の一人が一棟の建物の変更の登記をした場合、他の専有部分の登記記録にある一棟の建物の表示も職権で変更されるため、乙区分建物の所有者があらためて同じ変更登記を申請する必要はありません。
 
 **たとえば**、マンションの甲区分建物の増築に伴って、その所有者が甲区分建物の床面積の変更登記と一棟の建物の床面積の変更登記をあわせて申請した場合、隣の乙区分建物の所有者は、自分の名前で重ねて一棟の変更登記を申請する必要はありません。
+
+---
 
 ### まとめ
 
@@ -111,12 +119,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・建・物・登・記・所 (as in 敷地権, 建物, 登記, 所有者) — do
 not render these as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -197,9 +223,9 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay particular
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Pay particular
 attention to 権・地・建・物・登・記・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Confirm the number of cards equals 5 exactly, with badge numbers
 running 1-5 continuously across both columns without resetting (2 cards
 in column A: 敷地権・法定敷地のルール, 3 cards in column B: 表題登記・
@@ -207,12 +233,12 @@ in column A: 敷地権・法定敷地のルール, 3 cards in column B: 表題�
 is no intro illustration or paragraph block between the header and the
 cards, and confirm that no card contains a full sentence of explanatory
 prose — every card's takeaway must read as a short heading + a short
-conclusion tag, at a glance.
+conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 区分建物の登記について、ア〜オの5肢それぞれで「問題文を読んだ瞬間に何を確認し、どの順番で図を描けば正誤にたどり着けるか」を示す作図ガイド。②の俯瞰カードポスターが5肢の結論を一覧することに主眼を置くのに対し、こちらは結論に至るまでの思考の手順そのものを可視化する目的で作成している。
 
@@ -258,7 +284,15 @@ condition each callout describes faithful to the article's own body text
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -284,7 +318,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -304,22 +338,17 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 敷地の重複可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 別棟の附属建物はその棟の表題登記と併せて申請
-Diagram: Draw an actual decision flowchart. Diamond node 1 reads「附属
-建物とする区分建物は、主である建物と別の一棟の建物に属するか」with a Yes
-arrow (thick highlighted border, full color) leading down; the No arrow
-leads to a faded, dotted-outline box labeled「本肢の想定外(同じ一棟内の
-附属建物)」。From the Yes arrow, diamond node 2 reads「その別の一棟の建
-物は、まだ表題登記がされていないか」with a Yes arrow (thick highlighted
-border, full color, 本肢のケース) leading to a conclusion node showing
+Diagram: A labeled two-step sequence (NOT a decision flowchart). Step box
+1:「附属建物とする区分建物は、主である建物と別の一棟の建物に属する」.
+Arrow down to step box 2:「その別の一棟の建物は、まだ表題登記がされて
+いない」. A thick highlighted arrow leads to a conclusion node showing
 an isometric Ａ棟の1室のアイコンと、まだ登記のないＢ棟の倉庫部分のアイ
 コンを1枚の書類「表題登記申請書」がＢ棟にある他の専有部分のアイコンと
-まとめて束ねている図、labeled「Ｂ棟の他の区分建物の表題登記と併せて申
-請」; the No arrow from diamond node 2 leads to a faded, dotted-outline
-box labeled「本肢の想定外(既に表題登記済み)」。
+まとめて束ねている図、labeled「Ｂ棟の他の区分建物の表題登記と併せて申請」。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、附属建物とする区分建物が、主である建物とは別の一棟の建物に属す
 るかを確認します。次に、その別の一棟の建物にまだ表題登記がされていな
@@ -329,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一括申請が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 建物の一部取壊しでも敷地権の変更登記は不要
@@ -351,7 +380,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 変更登記は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 区分建物の滅失登記は一括申請しなくてよい
@@ -372,16 +401,15 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 別々に申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 一棟の変更登記は一人が申請すれば足りる
-Diagram: Draw an actual decision flowchart. Diamond node 1 reads「一棟
-の建物の変更について、申請義務は一棟に属する専有部分の所有者全員に課
-されているか」with a Yes arrow leading down. Diamond node 2 reads「専有
-部分の所有者の一人(甲区分建物の所有者)が一棟の建物の変更の登記を申請
-したか」with a Yes arrow (thick highlighted border, full color) leading
-to a conclusion node showing 甲区分建物の所有者 submitting a document
+Diagram: A labeled two-step sequence (NOT a decision flowchart). Step box
+1:「一棟の建物の変更の申請義務は、専有部分の所有者全員にある」. Arrow
+down to step box 2:「そのうちの一人(甲区分建物の所有者)が一棟の建物の
+変更の登記を申請した」. A thick highlighted arrow leads to a conclusion
+node showing 甲区分建物の所有者 submitting a document
 labeled「一棟の建物の床面積の変更登記」at a counter, with a hanko/seal
 stamp icon automatically appearing (職権による変更を示す) on 乙区分建
 物の登記記録のアイコン, and 乙区分建物の所有者のアイコンに緑のチェック
@@ -403,9 +431,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 オ 不動産登記法51条6項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・地・建・物・登・記・所・敷・棟・滅・失・附・属・区・分. If
-any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権・地・建・物・登・記・所・敷・棟・滅・失・附・属・区・分. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

@@ -2,51 +2,71 @@
 
 **出題年度：平成20年度　午後の部　第15問**
 
-> 建物の合体による登記等に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　いずれも所有権の登記がある建物を合体したことによる合体による登記等の申請は、登録免許税を納付しなければならない。
->
-> イ　合体前の各建物の所有者が、合体後の建物について有する持分の割合を定めることが必要となる場合において、合体前の各建物の所有権の登記名義人の全員が申請人であって、申請情報と併せて印鑑証明書を提供したときは、申請情報とは別に持分の割合を証する情報を提供することを要しない。
->
-> ウ　所有権の登記がある建物の合体による登記等の申請には、合体前の所有権の登記名義人の異同にかかわらず、合体前のすべての建物についての所有権の登記名義人の登記識別情報を提供しなければならない。
->
-> エ　合体による登記等の申請において、合体前の建物に登記されている抵当権が合体後の建物に存続するものとしての記載のないものがあるときは、当該抵当権の登記名義人が当該抵当権を消滅させることを承諾したことを証する情報又は当該抵当権者に対抗することができる裁判があったことを証する情報を提供しなければならない。
->
-> オ　所有権の登記名義人を異にする建物を合体した場合の合体による登記等の申請において、合体前の一部の建物にされた抵当権の登記で合体後の所有権の持分について当該抵当権者が当該抵当権の存続登記と同一の登記をすることを承諾したことを証する情報又は当該抵当権者に対抗することができる裁判があったことを証する情報を提供しなければならない。
->
+> 建物の合体による登記等に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　いずれも所有権の登記がある建物を合体したことによる合体による登記等の申請は、登録免許税を納付しなければならない。  
+>　  
+> イ　合体前の各建物の所有者が、合体後の建物について有する持分の割合を定めることが必要となる場合において、合体前の各建物の所有権の登記名義人の全員が申請人であって、申請情報と併せて印鑑証明書を提供したときは、申請情報とは別に持分の割合を証する情報を提供することを要しない。  
+>　  
+> ウ　所有権の登記がある建物の合体による登記等の申請には、合体前の所有権の登記名義人の異同にかかわらず、合体前のすべての建物についての所有権の登記名義人の登記識別情報を提供しなければならない。  
+>　  
+> エ　合体による登記等の申請において、合体前の建物に登記されている抵当権が合体後の建物に存続するものとしての記載のないものがあるときは、当該抵当権の登記名義人が当該抵当権を消滅させることを承諾したことを証する情報又は当該抵当権者に対抗することができる裁判があったことを証する情報を提供しなければならない。  
+>　  
+> オ　所有権の登記名義人を異にする建物を合体した場合の合体による登記等の申請において、合体前の一部の建物にされた抵当権の登記で合体後の所有権の持分について当該抵当権者が当該抵当権の存続登記と同一の登記をすることを承諾したことを証する情報又は当該抵当権者に対抗することができる裁判があったことを証する情報を提供しなければならない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-建物の合体は、2つ以上の建物が物理的に一体化した場合に行う登記です。手続の根拠は不動産登記法49条で、合体があった日から1月以内に「合体による登記等」（合体後の建物についての表題登記＋合体前の建物の表題部の登記の抹消、所有権の登記がある建物が含まれるときはさらに合体後の建物についての所有権の登記＋合体前の建物の所有権の登記の抹消）を申請しなければならないとされています。表示に関する登記としての性質（課税の有無）と、権利関係の処理（持分・登記識別情報・抵当権の扱い）の両面から問われる、応用力が試される分野です。
+---
+
+建物の合体は、2つ以上の建物が物理的に一体化した場合に行う登記です。
+
+手続の根拠は不動産登記法49条で、合体があった日から1月以内に「合体による登記等」（合体後の建物についての表題登記＋合体前の建物の表題部の登記の抹消、所有権の登記がある建物が含まれるときはさらに合体後の建物についての所有権の登記＋合体前の建物の所有権の登記の抹消）を申請しなければならないとされています。
+
+表示に関する登記としての性質（課税の有無）と、権利関係の処理（持分・登記識別情報・抵当権の扱い）の両面から問われる、応用力が試される分野です。
 
 ### ア：合体による登記等には、登録免許税がかからない
 
-登録免許税は、登録免許税法別表第一に個別に掲げられた登記等だけに課されます（同法2条）。別表第一のうち表示に関する登記として掲げられているのは、土地の分筆・建物の分割若しくは区分、土地の合筆・建物の合併の4種類のみで（同表（十三））、建物の合体による登記等はここに含まれません。合体前のいずれの建物にも所有権の登記があったとしても、この申請自体に登録免許税の納付を要するものではないため、「登録免許税を納付しなければならない」とする本肢は誤りです。
+登録免許税は、登録免許税法別表第一に個別に掲げられた登記等だけに課されます（同法2条）。
+
+別表第一のうち表示に関する登記として掲げられているのは、土地の分筆・建物の分割若しくは区分、土地の合筆・建物の合併の4種類のみで（同表（十三））、建物の合体による登記等はここに含まれません。
+
+合体前のいずれの建物にも所有権の登記があったとしても、この申請自体に登録免許税の納付を要するものではないため、「登録免許税を納付しなければならない」とする本肢は誤りです。
 
 **たとえば**、隣り合う2棟の建物を増築でつなげて1棟にする合体の登記をする場合、それぞれの建物に所有権の登記があったとしても、合体の登記自体に納税の必要はありません。表示に関する登記だからこそ、税負担なく手続を進められるのです。
 
 ### イ：全員申請＋印鑑証明書があれば、持分割合を証する情報は別途不要
 
-合体後の建物についての持分の割合を定める必要がある場合において、合体前の各建物の所有権の登記名義人の全員が申請人となり、申請情報とあわせて印鑑証明書を提供したときは、それとは別に持分の割合を証する情報を提供することまでは求められません。全員の意思が印鑑証明書付きで確認できるため、重ねての証明は不要という扱いです。したがって本肢は正しい記述です。
+合体後の建物についての持分の割合を定める必要がある場合において、合体前の各建物の所有権の登記名義人の全員が申請人となり、申請情報とあわせて印鑑証明書を提供したときは、それとは別に持分の割合を証する情報を提供することまでは求められません。
+
+全員の意思が印鑑証明書付きで確認できるため、重ねての証明は不要という扱いです。したがって本肢は正しい記述です。
 
 **たとえば**、Aさんの建物とBさんの建物を合体させて、合体後の持分を2分の1ずつと決めるとき、AさんとBさんの両方が申請人となって印鑑証明書を提出すれば、それとは別に「持分は2分の1ずつです」という証明書をあらためて用意する必要はありません。
 
 ### ウ：同一名義人であれば、登記識別情報の提供は一方で足りる
 
-登記名義人が同一である所有権の登記がある建物の合体による登記等では、合体前の建物のうちいずれか一個の建物についての登記識別情報を提供すれば足ります（不動産登記令8条2項2号）。「名義人の異同にかかわらず、すべての建物の登記識別情報を提供しなければならない」と一律に断定する本肢は誤りです。
+登記名義人が同一である所有権の登記がある建物の合体による登記等では、合体前の建物のうちいずれか一個の建物についての登記識別情報を提供すれば足ります（不動産登記令8条2項2号）。
+
+「名義人の異同にかかわらず、すべての建物の登記識別情報を提供しなければならない」と一律に断定する本肢は誤りです。
 
 **たとえば**、Aさんが所有する2棟の建物を合体させる場合、Aさんは合体前の建物のどちらか一方の登記識別情報を示せば足り、両方の建物の登記識別情報をそれぞれ提供する必要まではありません。
 
 ### エ：抵当権を消滅させるには、抵当権者の承諾情報等が必要
 
-合体前の建物に登記されていた抵当権のうち合体後の建物に存続させないものは、権利の登記名義人がその消滅を承諾したことを証する情報が提供されたときに、登記官がその消滅した旨を登記します（不動産登記法50条）。したがって、抵当権の登記名義人が消滅を承諾したことを証する情報（または対抗できる裁判があったことを証する情報）の提供が必要であり、本肢は正しい記述です。
+合体前の建物に登記されていた抵当権のうち合体後の建物に存続させないものは、権利の登記名義人がその消滅を承諾したことを証する情報が提供されたときに、登記官がその消滅した旨を登記します（不動産登記法50条）。
+
+したがって、抵当権の登記名義人が消滅を承諾したことを証する情報（または対抗できる裁判があったことを証する情報）の提供が必要であり、本肢は正しい記述です。
 
 **たとえば**、合体前の建物の一つに付いていた抵当権を、合体後の建物には引き継がないことにする場合、その抵当権者から「消えてもいい」という承諾をもらうか、それに代わる裁判の証明を用意する必要があります。
 
 ### オ：名義人が異なる建物の合体でも、抵当権存続には承諾情報等が必要
 
-合体後の建物の持分について存続登記（合体前の建物に付いていた権利で合体後の建物に存続するもの）と同一の登記をするときは、当該存続登記に係る権利の登記名義人が承諾したことを証する情報、または対抗できる裁判があったことを証する情報を提供しなければなりません（不動産登記令別表十三の項添付情報欄ト）。所有権の登記名義人が異なる建物の合体でもこの扱いに変わりはなく、本肢は正しい記述です。
+合体後の建物の持分について存続登記（合体前の建物に付いていた権利で合体後の建物に存続するもの）と同一の登記をするときは、当該存続登記に係る権利の登記名義人が承諾したことを証する情報、または対抗できる裁判があったことを証する情報を提供しなければなりません（不動産登記令別表十三の項添付情報欄ト）。
+
+所有権の登記名義人が異なる建物の合体でもこの扱いに変わりはなく、本肢は正しい記述です。
 
 **たとえば**、Aさん所有の建物とBさん所有の建物を合体させ、A所有部分に付いていた抵当権をそのまま合体後の持分にも存続させたいときは、その抵当権者から「持分に対する形でも存続を認めます」という承諾をもらうか、それに代わる裁判の証明が必要です。
+
+---
 
 ### まとめ
 
@@ -69,7 +89,7 @@
 - **【2026年8月4日 現行法との整合性を再検証し、条文根拠を補いました】** 正誤の判定は初版から変更ありません。**不動産登記法49条**（合体による登記等の申請。合体があった日から1月以内に、合体後の建物についての表題登記および合体前の建物の表題部の登記の抹消等を申請しなければならない）が現行条文どおりであることを確認し、導入部に反映しました。
 - **【2026年8月6日 ローカル法令データベース（laws/）で全肢の条文根拠を再確認・追記しました】** 正誤の判定は変更ありません。ア（非課税）は、**登録免許税法別表第一「一　不動産の登記」（十三）**に、表示に関する登記のうち課税対象として掲げられているのは土地の分筆・建物の分割若しくは区分、土地の合筆・建物の合併の4種類のみであり、建物の合体による登記等はこの一覧に含まれないことを条文で確認しました（同法2条・別表第一）。ウ（登記識別情報の一方提供）は**不動産登記令8条2項2号**に明文の根拠があることを確認しました。エ（抵当権消滅の承諾情報）は**不動産登記法50条**、オ（抵当権存続の承諾情報）は**不動産登記令別表十三の項添付情報欄ト**にそれぞれ根拠があることを確認しました。
 - イ（全員申請＋印鑑証明書による持分割合証明の代替）については、laws/収録の不動産登記法・不動産登記令（本則・別表）・不動産登記規則のいずれにも該当する明文の規定を発見できませんでした。実務上の先例・通達に基づく取扱いの可能性があり、条文上の根拠特定には至っていません。
-- **【重複出題あり】重複出題チェック（2026-07-22実施）**：R02年度第16問の肢ア（所有権の登記名義人を異にする建物の合体における、一部建物の抵当権についての合体後持分の存続登記の承諾証明情報等の提供）が本問の肢オと、また同問の肢イ（持分割合の証明を印鑑証明書の提供で代替できる旨）が本問の肢イと、それぞれほぼ同一内容・同一言い回しです。5肢中2肢が高い一致度で再利用されています。**noteへの投稿にあたっては、R02年度第16問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
+- **【重複出題あり】重複出題チェック（2026-07-22実施）**：R02年度第16問のア（所有権の登記名義人を異にする建物の合体における、一部建物の抵当権についての合体後持分の存続登記の承諾証明情報等の提供）が本問のオと、また同問のイ（持分割合の証明を印鑑証明書の提供で代替できる旨）が本問のイと、それぞれほぼ同一内容・同一言い回しです。5肢中2肢が高い一致度で再利用されています。**noteへの投稿にあたっては、R02年度第16問の解説記事とテーマ・具体例が重複する点に注意し、両方を続けて発信しないようにしてください。**
 
 ---
 
@@ -83,7 +103,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -106,10 +126,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -179,17 +217,17 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -212,9 +250,9 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 1（肢ア）, Panel 3（肢ウ）, and Panel 5
-（肢オ）each turn on correcting a common misconception, so draw them as
-LEFT/RIGHT (誤り／正しい) comparison panels. Panel 2（肢イ）requires BOTH
+— do not force a flowchart. Panel 1（ア）, Panel 3（ウ）, and Panel 5
+（オ）each turn on correcting a common misconception, so draw them as
+LEFT/RIGHT (誤り／正しい) comparison panels. Panel 2（イ）requires BOTH
 of two conditions to be satisfied together before the shortcut applies
 (全員が申請人であること、かつ印鑑証明書を提供すること), so draw it as an
 actual decision flowchart with two diamond branch nodes in sequence, each
@@ -222,7 +260,7 @@ with its own Yes/No arrows, and a distinct conclusion node reached when
 either condition fails as well as the conclusion node reached only when
 both conditions are satisfied — do not merge the two conditions into a
 single check, and do not draw any arrow that loops back to an earlier
-node. Panel 4（肢エ）is resolved by a single check, so draw a labeled
+node. Panel 4（エ）is resolved by a single check, so draw a labeled
 illustrative diagram for it instead of forcing a flowchart. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
 box with 1-2 sentences that state the checking ORDER in words (e.g. "ま
@@ -269,7 +307,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft beige containing the number 1.
 Heading (bold, ONE line):
 合体の登記に登録免許税はかからない
@@ -285,7 +323,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 表示登記は非課税
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft beige containing the number 2.
 Heading (bold, ONE line):
 全員申請かつ印鑑証明書があれば持分証明は省ける
@@ -306,7 +344,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 別途の証明は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3.
 Heading (bold, ONE line):
 同一名義人なら登記識別情報は一個で足りる
@@ -324,7 +362,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 一個の提供で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft beige containing the number 4.
 Heading (bold, ONE line):
 抵当権を消すには承諾情報等が必要
@@ -342,7 +380,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 承諾情報等が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft beige containing the number 5.
 Heading (bold, ONE line):
 名義人が違っても抵当権存続に承諾情報が必要

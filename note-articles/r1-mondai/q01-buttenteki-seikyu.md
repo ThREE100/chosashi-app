@@ -2,31 +2,41 @@
 
 **出題年度：令和元年度　午後の部　第1問**
 
-> Ａが所有し、所有権の登記名義人である甲土地についての物権的請求権に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　Ｂは、Ａに無断で、甲土地上に乙建物を建て、乙建物につきＢを所有権の登記名義人とする所有権の保存の登記をした。その後、Ｂは、Ｃに対し、乙建物を売却し、Ｃが乙建物の所有権を取得したが、乙建物の所有権の登記名義人は、Ｂのままであった。この場合において、Ａは、甲土地の所有権に基づき、Ｂに対しては乙建物の収去を求めることができるが、Ｃに対しては乙建物の収去を求めることはできない。
->
-> イ　Ａは、Ｂに対し、甲土地を売却し、Ｂが甲土地の所有権を取得したが、甲土地の所有権の登記名義人は、Ａのままであった。この場合において、甲土地をＣが違法に占有しているときは、Ｂは、甲土地の所有権に基づき、Ｃに対し、甲土地の明渡しを求めることができる。
->
-> ウ　Ｃは、乙動産を所有するＢに無断で乙動産を持ち出し、Ａ及びＢに無断で甲土地上に乙動産を放置した。この場合において、Ａが甲土地の所有権に基づき乙動産を所有するＢに対して乙動産の撤去を請求したときは、Ｂは、乙動産を放置したのがＣであることを理由に、その請求を拒絶することができない。
->
-> エ　Ｂは、20年間、所有の意思をもって、平穏に、かつ、公然と甲土地を占有していた。この場合において、Ｂが取得時効を援用した後は、Ａは、Ｂに対して、甲土地につき、所有権に基づく物権的請求権を行使することができない。
->
-> オ　Ｂが甲土地に地役権を有する場合において、Ｃが違法に、かつ、恒常的に甲土地に自動車を駐車し、Ｂによる地役権の行使を妨げ、地役権を侵害しているときは、Ｂは、地役権に基づき、Ａに対してはＣによる地役権侵害行為を禁止するために必要な措置をとるように求めることはできるが、Ｃに対しては地役権侵害行為の禁止を求めることはできない。
->
+> Ａが所有し、所有権の登記名義人である甲土地についての物権的請求権に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　Ｂは、Ａに無断で、甲土地上に乙建物を建て、乙建物につきＢを所有権の登記名義人とする所有権の保存の登記をした。その後、Ｂは、Ｃに対し、乙建物を売却し、Ｃが乙建物の所有権を取得したが、乙建物の所有権の登記名義人は、Ｂのままであった。この場合において、Ａは、甲土地の所有権に基づき、Ｂに対しては乙建物の収去を求めることができるが、Ｃに対しては乙建物の収去を求めることはできない。  
+>　  
+> イ　Ａは、Ｂに対し、甲土地を売却し、Ｂが甲土地の所有権を取得したが、甲土地の所有権の登記名義人は、Ａのままであった。この場合において、甲土地をＣが違法に占有しているときは、Ｂは、甲土地の所有権に基づき、Ｃに対し、甲土地の明渡しを求めることができる。  
+>　  
+> ウ　Ｃは、乙動産を所有するＢに無断で乙動産を持ち出し、Ａ及びＢに無断で甲土地上に乙動産を放置した。この場合において、Ａが甲土地の所有権に基づき乙動産を所有するＢに対して乙動産の撤去を請求したときは、Ｂは、乙動産を放置したのがＣであることを理由に、その請求を拒絶することができない。  
+>　  
+> エ　Ｂは、20年間、所有の意思をもって、平穏に、かつ、公然と甲土地を占有していた。この場合において、Ｂが取得時効を援用した後は、Ａは、Ｂに対して、甲土地につき、所有権に基づく物権的請求権を行使することができない。  
+>　  
+> オ　Ｂが甲土地に地役権を有する場合において、Ｃが違法に、かつ、恒常的に甲土地に自動車を駐車し、Ｂによる地役権の行使を妨げ、地役権を侵害しているときは、Ｂは、地役権に基づき、Ａに対してはＣによる地役権侵害行為を禁止するために必要な措置をとるように求めることはできるが、Ｃに対しては地役権侵害行為の禁止を求めることはできない。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-物権的請求権の分野では、「誰が」請求できるかに加えて、「誰に対して」請求できるか（相手方の特定）が繰り返し問われます。ポイントは、原則として現に妨害状態を維持している者が相手方になること、そして登記名義の有無がその判断を左右する場面があることです。所有権に基づく請求と地役権に基づく請求の両方を横断的に整理しておきましょう。
+---
+
+物権的請求権の分野では、「誰が」請求できるかに加えて、「誰に対して」請求できるか（相手方の特定）が繰り返し問われます。
+
+ポイントは、原則として現に妨害状態を維持している者が相手方になること、そして登記名義の有無がその判断を左右する場面があることです。所有権に基づく請求と地役権に基づく請求の両方を横断的に整理しておきましょう。
 
 ### ア：建物を買った現所有者にも、収去を求めることができる
 
-物権的請求権の相手方は、原則として現に目的物を支配して妨害している者です。乙建物の所有権はＣに移転しているので、Ａは現所有者Ｃに対して収去を求めることができます。加えて、他人の土地上の建物を取得して自らの意思で登記した者は、建物を譲渡しても登記名義を保有し続ける限り収去・明渡し義務を免れないというのが判例の立場であり、登記名義人のままであるＢにも請求できます。「Ｃに対しては求めることができない」とする本肢は誤りです。
+物権的請求権の相手方は、原則として現に目的物を支配して妨害している者です。乙建物の所有権はＣに移転しているので、Ａは現所有者Ｃに対して収去を求めることができます。
+
+加えて、他人の土地上の建物を取得して自らの意思で登記した者は、建物を譲渡しても登記名義を保有し続ける限り収去・明渡し義務を免れないというのが判例の立場であり、登記名義人のままであるＢにも請求できます。
+
+「Ｃに対しては求めることができない」とする本肢は誤りです。
 
 **たとえば**、駐車場を無断で占領された地主さんが、そのプレハブ小屋を建てた人から別の人に小屋が売られたと知ったとき、「もう売った人には言えない」わけではなく、今その小屋を持っている買主にも「どけてください」と言えますし、登記名義が元のままなら元の建て主にも言える、というイメージです。
 
 ### イ：所有権を得た買主は、登記がなくても不法占有者に明渡しを求められる
 
-不動産の物権変動を第三者に対抗するには登記が必要ですが（民法177条）、ここでいう第三者とは登記の欠缺を主張する正当な利益を有する者に限られるというのが判例の立場です。違法な占有者はこの「第三者」にあたらないため、甲土地の所有権を取得したＢは、登記名義がＡのままでも、不法占有者Ｃに対し所有権に基づく明渡しを求めることができます。
+不動産の物権変動を第三者に対抗するには登記が必要ですが（民法177条）、ここでいう第三者とは登記の欠缺を主張する正当な利益を有する者に限られるというのが判例の立場です。
+
+違法な占有者はこの「第三者」にあたらないため、甲土地の所有権を取得したＢは、登記名義がＡのままでも、不法占有者Ｃに対し所有権に基づく明渡しを求めることができます。
 
 **たとえば**、土地を買ったばかりで名義変更がまだ済んでいない人でも、その土地に勝手に入り込んで居座っている人に対しては、「私が所有者です、出て行ってください」と堂々と言えるということです。
 
@@ -44,9 +54,13 @@
 
 ### オ：地役権の侵害者本人に対しても、妨害の禁止を求められる
 
-地役権も物権であり、地役権者には妨害排除・妨害予防の請求権が認められるというのが判例の立場です（民法280条参照）。したがってＢは、地役権を現に侵害しているＣに対して直接、侵害行為の禁止を求めることができます。承役地の所有者Ａに対してしか求められないとする本肢は誤りです。
+地役権も物権であり、地役権者には妨害排除・妨害予防の請求権が認められるというのが判例の立場です（民法280条参照）。
+
+したがってＢは、地役権を現に侵害しているＣに対して直接、侵害行為の禁止を求めることができます。承役地の所有者Ａに対してしか求められないとする本肢は誤りです。
 
 **たとえば**、通行のために設定した権利（地役権）が、他人の違法駐車でふさがれているとき、その車の持ち主本人に「どけてほしい」と直接言えるのであって、土地の持ち主にだけしか言えない、というのは筋が通らない、というイメージです。
+
+---
 
 ### まとめ
 
@@ -67,10 +81,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和元年度午後第1問）と正解番号（2番＝ア・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の判例根拠のうち、ア（最判平6.2.8）、オ（最判平17.3.29）、イ（大連判明41.12.15）は判例番号まで確認できたものです。民法177条・280条は条文番号まで確認しています。一方、ウ（物権的請求権に故意・過失が不要であること）とエ（時効取得の援用による原始取得の効果）は、条文の明示的な番号ではなく、物権的請求権および取得時効の一般原則からの推論に基づく説明です。判例番号の細部（大判昭◯年の不法占拠者非該当）については断定を避けています。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（物権的請求権の相手方の特定）と同一・類似の問題が再出題されていないかを確認しました。候補として抽出された令和5年度第2問のイの肢は、未登記の買主が不法占有者に明渡しを請求できるかという事案で、本問イと同じく「民法177条の『第三者』には登記の欠缺を主張する正当な利益を有する者に限られ、不法占拠者はこれにあたらない」という同一の論点・同一の判例（大連判明41.12.15）を扱っており、**部分的に類似する記述があります**。もっとも同問の他の肢（所有権移転時期の特約、占有補助者への請求、共有者の単独請求、物権的請求権の消滅時効）は本問の他の肢とは異なる論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：本文で引用している民法177条・280条、大連判明41.12.15、最判平6.2.8、最判平17.3.29について、WebSearchで現行性を確認しました。民法177条（対抗要件）・280条（地役権の内容）は条文番号・内容とも現行法のまま変更はありません。大連判明41.12.15の「第三者＝登記の欠缺を主張するにつき正当な利益を有する者」という定義、および不法占有者がこれに当たらないとする判例法理（最判昭25.12.19等）も現在まで維持されています。最判平6.2.8（登記名義人の収去義務）、最判平17.3.29（通行地役権者が承役地への違法駐車者本人に妨害禁止を求めた事案）も、内容が本文の記述と一致することを確認しました。**修正すべき点はなく、記事の記述に変更はありません。**
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。肢イの本文解説に判例番号「（大連判明41.12.15）」が直接記載されていた点（番号記載禁止ルール違反）を発見し、「というのが判例の立場です」という言い回しに修正しました（番号自体は本ブロックに既に記載済みのため、内容の言及は維持しています）。それ以外の法令根拠・まとめの判定・インフォグラフィックとの整合性・note表示形式（表未使用）・タイトル文字数等には問題がありませんでした。正誤判定・正解の組合せに変更はありません。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。イの本文解説に判例番号「（大連判明41.12.15）」が直接記載されていた点（番号記載禁止ルール違反）を発見し、「というのが判例の立場です」という言い回しに修正しました（番号自体は本ブロックに既に記載済みのため、内容の言及は維持しています）。それ以外の法令根拠・まとめの判定・インフォグラフィックとの整合性・note表示形式（表未使用）・タイトル文字数等には問題がありませんでした。正誤判定・正解の組合せに変更はありません。
 
 ---
 
@@ -110,12 +124,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・建・物・登・記・所・援・撤 — these must be rendered in their
+kanji 権・地・物・登・記・所・援・撤 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -192,19 +224,19 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図（「今の所有者」と「登記記録上の名義人」のずれ、登記の有無と占有者の種類の切り分け、持ち主と実際に動かした人の区別、時効援用の前後、地役権の通り道を塞ぐ相手）を肢ごとに示す作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに「着眼点」の短い説明文を添えている。こうした物権的請求権の問題を解くとき、まず何を図に落とし込めば「誰に対して請求できるか」の正誤判定にたどり着けるかの練習素材として使う。
 
@@ -229,7 +261,15 @@ text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 権・地・建・物・登・
 記・所・請・求・占・拠・援・用・撤・去・妨・害・駐, which have visibly
@@ -256,7 +296,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -277,7 +317,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 名義人にも所有者にも請求可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 「登記の有無」と「占有者の種類」を分けて描く
@@ -296,7 +336,7 @@ Diagram: 甲土地を描き、その上に登記記録カードを重ねて「�
 Conclusion tag (blue, 5-15 Japanese characters):
 不法占拠者に登記は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 「誰の持ち物か」と「誰が動かしたか」を分けて描く
@@ -315,7 +355,7 @@ Diagram: 甲土地（Ａ所有）の上に、木箱のアイコン（乙動産�
 Conclusion tag (blue, 5-15 Japanese characters):
 持ち主なら拒否できない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 「時計の針」で20年の経過と援用の前後を描く
@@ -333,7 +373,7 @@ Diagram: 甲土地の上にＢの人物アイコンを描き、その周りに�
 Conclusion tag (blue, 5-15 Japanese characters):
 援用後は請求権消滅
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 「地役権の通り道」を塞ぐ相手を直接描く
@@ -359,14 +399,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 いません。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay particular
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — pay particular
 attention to 権・地・建・物・登・記・所・請・求・占・拠・援・用・撤・
-去・妨・害・駐. If any character renders as a Simplified Chinese variant,
-redraw that character in the correct Japanese form. Confirm the panel
+去・妨・害・駐. If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
 each panel's takeaway is legible as heading + diagram + a short 着眼点
 callout + conclusion tag without turning into a wall of text, and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background
-with no transparency or alpha channel anywhere.
+with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last panel (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last panel).
 ```

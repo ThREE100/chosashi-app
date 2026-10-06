@@ -2,33 +2,51 @@
 
 **出題年度：平成19年度　午前の部　第10問**
 
-> 土地の合筆に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。ただし、各記述中の条件の他に合筆を妨げる要件はないものとする。
->
-> ア　甲地及び乙地について丙地を承役地とする地役権の登記がある場合において、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であるときは、甲地及び乙地について合筆の登記を申請することができる。
->
-> イ　甲地及び乙地に鉱害賠償登録に関する登記がある場合において、その登録番号が同一であるときは、甲地及び乙地について合筆の登記を申請することができる。
->
-> ウ　甲地及び乙地について抵当権の仮登記がある場合において、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であるときは、甲地及び乙地について合筆の登記を申請することができる。
->
-> エ　甲地の所有権の登記名義人はＡであり、乙地の所有権の登記名義人はＡの父Ｂである場合において、乙地をＡが相続したときは、Ａは、所有権の移転の登記を経ることなく、甲地及び乙地について合筆の登記を申請することができる。
->
-> オ　甲地と乙地にそれぞれ異なる抵当権が設定されている場合において、各々の抵当権者が作成した抵当権の消滅承諾書を添付したときは、甲地及び乙地について合筆の登記を申請することができる。
->
+> 土地の合筆に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。ただし、各記述中の条件の他に合筆を妨げる要件はないものとする。  
+>　  
+> ア　甲地及び乙地について丙地を承役地とする地役権の登記がある場合において、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であるときは、甲地及び乙地について合筆の登記を申請することができる。  
+>　  
+> イ　甲地及び乙地に鉱害賠償登録に関する登記がある場合において、その登録番号が同一であるときは、甲地及び乙地について合筆の登記を申請することができる。  
+>　  
+> ウ　甲地及び乙地について抵当権の仮登記がある場合において、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であるときは、甲地及び乙地について合筆の登記を申請することができる。  
+>　  
+> エ　甲地の所有権の登記名義人はＡであり、乙地の所有権の登記名義人はＡの父Ｂである場合において、乙地をＡが相続したときは、Ａは、所有権の移転の登記を経ることなく、甲地及び乙地について合筆の登記を申請することができる。  
+>　  
+> オ　甲地と乙地にそれぞれ異なる抵当権が設定されている場合において、各々の抵当権者が作成した抵当権の消滅承諾書を添付したときは、甲地及び乙地について合筆の登記を申請することができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
 
-土地の合筆は、不動産登記法41条により「原則としてできない場合」が細かく列挙されている分野です。特に、所有権以外の権利に関する登記（地役権・担保権など）がある土地の合筆は、原則不可としつつ、不動産登記規則105条で限定的に例外が認められています。この「原則と例外の境界線」を正確に押さえることがこの問題の鍵になります。
+---
+
+土地の合筆は、不動産登記法41条により「原則としてできない場合」が細かく列挙されている分野です。
+
+特に、所有権以外の権利に関する登記（地役権・担保権など）がある土地の合筆は、原則不可としつつ、不動産登記規則105条で限定的に例外が認められています。この「原則と例外の境界線」を正確に押さえることがこの問題の鍵になります。
 
 ### ア：地役権の登記があっても、「要役地」側の合筆は認められない
 
-不動産登記法41条6号は、所有権の登記以外の権利に関する登記がある土地の合筆を原則として禁止しています。ただし、不動産登記規則105条はこの例外を4つに限定して認めており、その1号が「承役地についてする地役権の登記」です。つまり、合筆の制限が解除されるのは、地役権の負担を受ける側の土地（承役地）についての登記がある場合に限られます。
+不動産登記法41条6号は、所有権の登記以外の権利に関する登記がある土地の合筆を原則として禁止しています。ただし、不動産登記規則105条はこの例外を4つに限定して認めており、その1号が「承役地についてする地役権の登記」です。
 
-設問アは、甲地及び乙地が「丙地を承役地とする地役権」の登記がある土地、すなわち丙地の通行等のために地役権の利益を受ける側（要役地）にあたります。規則105条1号の例外はあくまで「承役地についてする」登記に限定されているため、要役地である甲地・乙地にはこの例外は及びません。なお、要役地である甲地・乙地の登記記録にも、承役地に地役権の設定登記がされたことに伴って登記官が職権で記録する事項はありますが（不動産登記法80条4項、不動産登記規則159条1項）、これは要役地側に記録される別の登記事項であって、規則105条1号にいう「承役地についてする地役権の登記」そのものではありません。設問が付け加えている「登記の目的、受付の年月日等が同一であるとき」という条件は、担保権の登記（2号）などに関する要件であって、地役権の例外（1号）にそもそも要求されていない条件です。したがって、甲地・乙地は41条6号の原則どおり合筆できず、アは誤りです。
+つまり、合筆の制限が解除されるのは、地役権の負担を受ける側の土地（承役地）についての登記がある場合に限られます。
 
-**たとえば**、Aさんの持つ甲地・乙地が、隣接するBさん所有の丙地を通行するための地役権の要役地になっているとします。この場合、甲地・乙地の登記記録にも「丙地を承役地とする地役権がある」という情報が記載されますが、これは要役地側の登記です。合筆の例外が認められるのは地役権の負担を受ける承役地側だけなので、甲地・乙地をどれだけ条件をそろえても、要役地である限り合筆はできません。
+設問アは、甲地及び乙地が「丙地を承役地とする地役権」の登記がある土地、すなわち丙地の通行等のために地役権の利益を受ける側（要役地）にあたります。
+
+規則105条1号の例外はあくまで「承役地についてする」登記に限定されているため、要役地である甲地・乙地にはこの例外は及びません。
+
+なお、要役地である甲地・乙地の登記記録にも、承役地に地役権の設定登記がされたことに伴って登記官が職権で記録する事項はありますが（不動産登記法80条4項、不動産登記規則159条1項）、これは要役地側に記録される別の登記事項であって、規則105条1号にいう「承役地についてする地役権の登記」そのものではありません。
+
+設問が付け加えている「登記の目的、受付の年月日等が同一であるとき」という条件は、担保権の登記（2号）などに関する要件であって、地役権の例外（1号）にそもそも要求されていない条件です。
+
+したがって、甲地・乙地は41条6号の原則どおり合筆できず、アは誤りです。
+
+**たとえば**、Aさんの持つ甲地・乙地が、隣接するBさん所有の丙地を通行するための地役権の要役地になっているとします。この場合、甲地・乙地の登記記録にも「丙地を承役地とする地役権がある」という情報が記載されますが、これは要役地側の登記です。
+
+合筆の例外が認められるのは地役権の負担を受ける承役地側だけなので、甲地・乙地をどれだけ条件をそろえても、要役地である限り合筆はできません。
 
 ### イ：鉱害賠償登録も、登録番号が同一なら合筆できる
 
-鉱害賠償登録令に基づく鉱害賠償登録に関する登記も、41条6号にいう「所有権の登記以外の権利に関する登記」に該当します。しかし、不動産登記規則105条4号は、この鉱害賠償登録に関する登記について、鉱害賠償登録規則2条に規定する登録番号が同一であるときは、合筆後の土地の登記記録にそのまま引き継げる例外として認めています。
+鉱害賠償登録令に基づく鉱害賠償登録に関する登記も、41条6号にいう「所有権の登記以外の権利に関する登記」に該当します。
+
+しかし、不動産登記規則105条4号は、この鉱害賠償登録に関する登記について、鉱害賠償登録規則2条に規定する登録番号が同一であるときは、合筆後の土地の登記記録にそのまま引き継げる例外として認めています。
 
 設問イは、甲地・乙地の鉱害賠償登録の登録番号が同一である場合を挙げており、これは規則105条4号の要件そのものです。したがって、甲地・乙地について合筆の登記を申請することができ、イは正しいです。
 
@@ -36,27 +54,47 @@
 
 ### ウ：抵当権の仮登記も、登記事項がそろっていれば合筆できる
 
-不動産登記規則105条2号は、担保権の登記であって、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のものを、41条6号の例外として認めています。抵当権の仮登記も担保権に関する登記の一種であり、この2号の「担保権の登記」に含まれます。
+不動産登記規則105条2号は、担保権の登記であって、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のものを、41条6号の例外として認めています。
 
-設問ウは、甲地・乙地の抵当権の仮登記について、登記の目的・受付の年月日及び受付番号・登記原因及びその日付のすべてが同一である場合を挙げており、これは規則105条2号の要件を文字どおり満たしています。したがって、甲地・乙地について合筆の登記を申請することができ、ウは正しいです。
+抵当権の仮登記も担保権に関する登記の一種であり、この2号の「担保権の登記」に含まれます。
 
-**たとえば**、甲地・乙地に、同じ金融機関との間で同日に締結した同一内容の抵当権設定契約に基づく仮登記が、同じ受付番号・同じ登記原因日付でされていたとします。この場合、合筆後の土地にもその一つの仮登記をそのまま引き継げるため、合筆の登記を申請することができます。
+設問ウは、甲地・乙地の抵当権の仮登記について、登記の目的・受付の年月日及び受付番号・登記原因及びその日付のすべてが同一である場合を挙げており、これは規則105条2号の要件を文字どおり満たしています。
+
+したがって、甲地・乙地について合筆の登記を申請することができ、ウは正しいです。
+
+**たとえば**、甲地・乙地に、同じ金融機関との間で同日に締結した同一内容の抵当権設定契約に基づく仮登記が、同じ受付番号・同じ登記原因日付でされていたとします。
+
+この場合、合筆後の土地にもその一つの仮登記をそのまま引き継げるため、合筆の登記を申請することができます。
 
 ### エ：相続していても、登記名義を一致させなければ合筆できない
 
 不動産登記法41条3号は、表題部所有者又は所有権の登記名義人が相互に異なる土地の合筆の登記を禁止しています。この判断は、実体上だれが本当の権利者かではなく、登記簿上の名義がそろっているかどうかによって行われます。
 
-設問エは、Aが乙地を相続して実質的な所有者になった場面ですが、乙地の登記名義は依然として父Bのままです。登記簿上は甲地の名義人がA、乙地の名義人がBとなっており、両者は相互に異なるため、41条3号の禁止に該当します。Aが乙地について相続を原因とする所有権の移転の登記を済ませ、甲地・乙地の登記名義人をいずれもAにそろえない限り、合筆の登記を申請することはできません。したがって、エは誤りです。
+設問エは、Aが乙地を相続して実質的な所有者になった場面ですが、乙地の登記名義は依然として父Bのままです。登記簿上は甲地の名義人がA、乙地の名義人がBとなっており、両者は相互に異なるため、41条3号の禁止に該当します。
 
-**たとえば**、父Bが亡くなり、子Aが乙地を相続で取得したものの、まだ乙地の登記名義を自分に移していないとします。実際にはAが乙地の所有者であっても、登記簿の記載上は甲地=A、乙地=Bという別人名義のままです。この状態でAが甲地・乙地の合筆を申請することはできず、先に乙地についてAへの所有権移転の登記（相続登記）を済ませる必要があります。
+Aが乙地について相続を原因とする所有権の移転の登記を済ませ、甲地・乙地の登記名義人をいずれもAにそろえない限り、合筆の登記を申請することはできません。したがって、エは誤りです。
+
+**たとえば**、父Bが亡くなり、子Aが乙地を相続で取得したものの、まだ乙地の登記名義を自分に移していないとします。実際にはAが乙地の所有者であっても、登記簿の記載上は甲地=A、乙地=Bという別人名義のままです。
+
+この状態でAが甲地・乙地の合筆を申請することはできず、先に乙地についてAへの所有権移転の登記（相続登記）を済ませる必要があります。
 
 ### オ：抵当権が別々なら、消滅承諾書を添付しても合筆できない
 
-41条6号の例外は、不動産登記規則105条が定める4つの場合（承役地の地役権の登記／登記事項が同一の担保権の登記／登記事項が同一の信託の登記／登録番号が同一の鉱害賠償登録に関する登記）に限定されています。担保権の登記が例外となるのは、あくまで登記の目的・受付の年月日及び受付番号・登記原因及びその日付のすべてが同一である場合（2号）であり、抵当権者や登記の内容が異なる担保権の登記に、当事者の同意書を添付する扱いは規則105条に定められていません。
+41条6号の例外は、不動産登記規則105条が定める4つの場合（承役地の地役権の登記／登記事項が同一の担保権の登記／登記事項が同一の信託の登記／登録番号が同一の鉱害賠償登録に関する登記）に限定されています。
 
-設問オは、甲地・乙地にそれぞれ別個の抵当権が設定されている場面であり、登記事項が同一という規則105条2号の要件を満たしません。それぞれの抵当権者が消滅を承諾する書面を作成・添付したとしても、それは合筆の登記の申請の場面で認められている例外事由には当たらず、この承諾書だけでは合筆できません。合筆するためには、あらかじめ承諾書を用いて実際に抵当権の抹消登記を済ませ、所有権以外の権利に関する登記がない状態にしてから申請する必要があります。したがって、オは誤りです。
+担保権の登記が例外となるのは、あくまで登記の目的・受付の年月日及び受付番号・登記原因及びその日付のすべてが同一である場合（2号）であり、抵当権者や登記の内容が異なる担保権の登記に、当事者の同意書を添付する扱いは規則105条に定められていません。
 
-**たとえば**、甲地にはX銀行の抵当権、乙地にはY銀行の別の抵当権が設定されていて、両銀行から「合筆に異存はなく、抵当権を消滅させることに同意する」という承諾書をもらったとします。しかし、この承諾書を合筆登記の申請書に添付するだけでは、登記事項が同一という規則105条の要件を満たさないため合筆はできません。まずその承諾書を使って甲地・乙地それぞれの抵当権の抹消登記を実際に済ませたうえで、初めて合筆の登記を申請できます。
+設問オは、甲地・乙地にそれぞれ別個の抵当権が設定されている場面であり、登記事項が同一という規則105条2号の要件を満たしません。
+
+それぞれの抵当権者が消滅を承諾する書面を作成・添付したとしても、それは合筆の登記の申請の場面で認められている例外事由には当たらず、この承諾書だけでは合筆できません。
+
+合筆するためには、あらかじめ承諾書を用いて実際に抵当権の抹消登記を済ませ、所有権以外の権利に関する登記がない状態にしてから申請する必要があります。したがって、オは誤りです。
+
+**たとえば**、甲地にはX銀行の抵当権、乙地にはY銀行の別の抵当権が設定されていて、両銀行から「合筆に異存はなく、抵当権を消滅させることに同意する」という承諾書をもらったとします。
+
+しかし、この承諾書を合筆登記の申請書に添付するだけでは、登記事項が同一という規則105条の要件を満たさないため合筆はできません。まずその承諾書を使って甲地・乙地それぞれの抵当権の抹消登記を実際に済ませたうえで、初めて合筆の登記を申請できます。
+
+---
 
 ### まとめ
 
@@ -121,7 +159,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -221,10 +267,10 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to the kanji 承・役・地・筆・鉱・害・賠・償・録・仮・抵・当・権・続・名・
-義・諾・抹・消・登・記・号・番. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the
+義・諾・抹・消・登・記・号・番. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 number of cards equals 5 exactly, with no duplicated or missing cards,
 that badge numbers run 1-5 continuously across both columns without
 resetting, confirm there is no intro illustration or paragraph block
@@ -240,9 +286,9 @@ with no transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・ウ・オは、「規則105条が定める4つの例外(承役地の地役権・担保権・信託・鉱害賠償登録)のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウ・オはさらに、担保権の枝の中の「登記の目的・受付の年月日及び受付番号・登記原因及びその日付が甲乙ですべて同一か」という同じ第三段階の分岐も共有し、結果(はい/いいえ)だけが分かれる。肢エは規則105条の例外とは別の原則(41条3号、登記名義人の一致)を確認する決定木とし、実体上の所有者と登記簿上の名義を左右に対比する構成とする。
+ア・イ・ウ・オは、「規則105条が定める4つの例外(承役地の地役権・担保権・信託・鉱害賠償登録)のどれかに当てはまるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。ウ・オはさらに、担保権の枝の中の「登記の目的・受付の年月日及び受付番号・登記原因及びその日付が甲乙ですべて同一か」という同じ第三段階の分岐も共有し、結果(はい/いいえ)だけが分かれる。エは規則105条の例外とは別の原則(41条3号、登記名義人の一致)を確認する決定木とし、実体上の所有者と登記簿上の名義を左右に対比する構成とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -328,7 +374,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -356,14 +402,14 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 要役地は例外に非該当
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 鉱害賠償登録は番号同一なら合筆できる
 Diagram: Two land-plot icons 甲・乙, each holding a document icon labeled
 「鉱害賠償登録」with a tag reading「登録番号 同一」attached to both documents.
-The same first diamond node as Panel 1(肢ア)「所有権以外の権利に関する登記が
+The same first diamond node as Panel 1(ア)「所有権以外の権利に関する登記が
 あるか」with a thick highlighted「はい」arrow. The same second diamond node
 as Panel 1, this time with the「鉱害賠償登録」branch rendered thick and
 highlighted while 地役権・担保権・信託 are faded, dotted-outline. From the
@@ -379,7 +425,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 登録番号が同一なら可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -403,7 +449,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 4項目全部一致で合筆可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -431,7 +477,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 登記名義の一致が先
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -442,7 +488,7 @@ Diagram: Two land-plot icons, 甲 holding a document labeled「Ｘ銀行 抵当�
 with a thick highlighted「はい」arrow. The same second diamond node as
 Panel 1, this time with the「担保権」branch rendered thick and highlighted
 while 地役権・信託・鉱害賠償登録 are faded, dotted-outline. From the highlighted
-branch, the same third diamond node as Panel 3(肢ウ)「登記の目的・受付の
+branch, the same third diamond node as Panel 3(ウ)「登記の目的・受付の
 年月日及び受付番号・登記原因及びその日付が甲乙ですべて同一か」, this time with
 a thick highlighted「いいえ(抵当権者が別々で登記事項が異なる)」branch leading
 to a highlighted conclusion node「合筆できない」, and a faded「はい」branch
@@ -464,7 +510,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠:不動産登記法41条3号・6号・80条4項(エ・ア)、不動産登記規則105条
-1号・2号・4号・159条1項(ア・イ・ウ・オ)。判例・先例番号は省略。
+1号・2号・4号・159条1項(ア・イ・ウ・オ)。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

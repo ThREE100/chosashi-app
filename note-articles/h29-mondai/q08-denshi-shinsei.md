@@ -2,31 +2,37 @@
 
 **出題年度：平成29年度　午後の部　第8問**
 
-> 次の対話は，表示に関する登記の電子申請（書面を提出する方法により添付情報を提供する場合を除く。）についての土地家屋調査士（以下「調査士」という。）と補助者との対話である。調査士の質問に対する次のアからオまでの補助者の解答のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> 調査士：　表示に関する登記の申請方法には，電子申請と書面申請がありますが，今日は電子申請の方法について確認してみましょう。まず，申請情報には電子署名が必要ですか。
->
-> 補助者：ア　はい。申請人又はその代表者若しくは代理人（以下「申請人等」という。）が，申請情報に電子署名を行わなければなりません。
->
-> 調査士：　次に，申請情報と併せて提供する添付情報には，電子署名が必要ですか。
->
-> 補助者：イ　いいえ。添付情報は，電子署名が行われている必要はありません。
->
-> 調査士：　電子署名が行われている情報を送信するときは，他に何か送信しなければならないものはありますか。
->
-> 補助者：ウ　はい。電子署名を行った者を確認するために，電子証明書を送信しなければなりません。
->
-> 調査士：　申請人等が電子申請の方法により申請をする場合において，書面に記載された情報を電磁的記録に記録したものを添付情報とするときは，当該電磁的記録には電子署名が必要ですか。
->
-> 補助者：エ　はい。当該電磁的記録を作成した者による電子署名が行われているものでなければなりません。
->
-> 調査士：　最後に，申請人等が電子申請の方法により申請をする場合において，書面に記載された情報を電磁的記録に記録したものを添付情報とするときは，当該申請人等は，当該書面を登記官に提示する必要はありますか。
->
-> 補助者：オ　いいえ。あくまで当該電磁的記録に記録したものが添付情報となりますので，当該書面を登記官に提示する必要はありません。
->
+> 次の対話は，表示に関する登記の電子申請（書面を提出する方法により添付情報を提供する場合を除く。）についての土地家屋調査士（以下「調査士」という。）と補助者との対話である。調査士の質問に対する次のアからオまでの補助者の解答のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> 調査士：　表示に関する登記の申請方法には，電子申請と書面申請がありますが，今日は電子申請の方法について確認してみましょう。まず，申請情報には電子署名が必要ですか。  
+>　  
+> 補助者：ア　はい。申請人又はその代表者若しくは代理人（以下「申請人等」という。）が，申請情報に電子署名を行わなければなりません。  
+>　  
+> 調査士：　次に，申請情報と併せて提供する添付情報には，電子署名が必要ですか。  
+>　  
+> 補助者：イ　いいえ。添付情報は，電子署名が行われている必要はありません。  
+>　  
+> 調査士：　電子署名が行われている情報を送信するときは，他に何か送信しなければならないものはありますか。  
+>　  
+> 補助者：ウ　はい。電子署名を行った者を確認するために，電子証明書を送信しなければなりません。  
+>　  
+> 調査士：　申請人等が電子申請の方法により申請をする場合において，書面に記載された情報を電磁的記録に記録したものを添付情報とするときは，当該電磁的記録には電子署名が必要ですか。  
+>　  
+> 補助者：エ　はい。当該電磁的記録を作成した者による電子署名が行われているものでなければなりません。  
+>　  
+> 調査士：　最後に，申請人等が電子申請の方法により申請をする場合において，書面に記載された情報を電磁的記録に記録したものを添付情報とするときは，当該申請人等は，当該書面を登記官に提示する必要はありますか。  
+>　  
+> 補助者：オ　いいえ。あくまで当該電磁的記録に記録したものが添付情報となりますので，当該書面を登記官に提示する必要はありません。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-電子申請では、紙のハンコの代わりに「電子署名」、印鑑証明書の代わりに「電子証明書」を使います。この分野では、①申請情報・添付情報のどちらに電子署名が要るのか、②電子証明書を一緒に送る必要があるか、③紙の書類をスキャンして電子データにした場合のルールを整理できているかが問われます。誤っている補助者の解答を探す問題なので、「どこがルールと違うか」に注目しましょう。
+---
+
+電子申請では、紙のハンコの代わりに「電子署名」、印鑑証明書の代わりに「電子証明書」を使います。
+
+この分野では、①申請情報・添付情報のどちらに電子署名が要るのか、②電子証明書を一緒に送る必要があるか、③紙の書類をスキャンして電子データにした場合のルールを整理できているかが問われます。
+
+誤っている補助者の解答を探す問題なので、「どこがルールと違うか」に注目しましょう。
 
 ### ア：申請情報には、申請人等が電子署名を行う
 
@@ -48,15 +54,21 @@
 
 ### エ：書面をスキャンして添付情報とするときは、作成者の電子署名が必要
 
-書面に記載された情報を電磁的記録に記録したもの（スキャンした電子データ）を添付情報とするときは、その電磁的記録を作成した者（スキャンをした者）による電子署名が行われているものでなければなりません（不動産登記令13条1項）。補助者の解答は正しい記述です。
+書面に記載された情報を電磁的記録に記録したもの（スキャンした電子データ）を添付情報とするときは、その電磁的記録を作成した者（スキャンをした者）による電子署名が行われているものでなければなりません（不動産登記令13条1項）。
+
+補助者の解答は正しい記述です。
 
 **たとえば**、紙の書類をスキャナで読み取って電子申請に添付するとき、ただ画像にしただけでは足りません。「この電子データは自分が作りました」とスキャンした人が電子署名をつけて、初めて添付情報として使えるのです。
 
 ### オ：スキャンした書面は、原本を登記官に提示する必要がある
 
-書面に記載された情報を電磁的記録に記録したものを添付情報として提供した場合には、登記官が定めた相当の期間内に、その書面（原本）を登記官に提示しなければなりません（不動産登記令13条2項）。電子データにしたからといって、元の紙の書面の提示が不要になるわけではありません。したがって「当該書面を登記官に提示する必要はありません」とする補助者の解答は誤りです。
+書面に記載された情報を電磁的記録に記録したものを添付情報として提供した場合には、登記官が定めた相当の期間内に、その書面（原本）を登記官に提示しなければなりません（不動産登記令13条2項）。
+
+電子データにしたからといって、元の紙の書面の提示が不要になるわけではありません。したがって「当該書面を登記官に提示する必要はありません」とする補助者の解答は誤りです。
 
 **たとえば**、紙の書類をスキャンして電子申請に添付した場合でも、後から登記官に「元の紙を見せてください」と求められれば、期間内にその原本を提示しなければなりません。電子データだけで完結するわけではない、というわけです。
+
+---
 
 ### まとめ
 
@@ -77,9 +89,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝イ・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、ア（不動産登記令12条1項）、エ（令13条1項）、オ（令13条2項）は、いずれもデータベースのexplanationフィールドで条文番号まで明記されているものです。
-- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、肢イ・ウの条文引用に誤りを発見し修正しました。肢イ「添付情報にも作成者の電子署名が必要」の根拠は「令12条1項」ではなく、添付情報の電子署名を定める**令12条2項**です（1項は申請情報についての規定で、肢アの根拠）。肢ウ「電子証明書も併せて送信する」の根拠も「令12条1項」ではなく、電子証明書の送信を定める**令14条**です。修正前は結論（イ誤・ウ正の判定）自体は正しかったものの、根拠条文がすべて肢アと同じ「12条1項」にまとめられており誤りでした。不動産登記令の条文原文（12条1項・2項、14条）で確認済みです。
+- **条文引用の誤りを修正（2026-08-08実施）**：ユーザーの依頼による再確認で、イ・ウの条文引用に誤りを発見し修正しました。イ「添付情報にも作成者の電子署名が必要」の根拠は「令12条1項」ではなく、添付情報の電子署名を定める**令12条2項**です（1項は申請情報についての規定で、アの根拠）。ウ「電子証明書も併せて送信する」の根拠も「令12条1項」ではなく、電子証明書の送信を定める**令14条**です。修正前は結論（イ誤・ウ正の判定）自体は正しかったものの、根拠条文がすべてアと同じ「12条1項」にまとめられており誤りでした。不動産登記令の条文原文（12条1項・2項、14条）で確認済みです。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和3年度第4問（土地の合筆の登記の電子申請に関する調査士と補助者の対話）で、肢エ・オと近い論点が再出題されている、中程度の重複が見つかりました**。本問の肢エ「書面に記載された情報を電磁的記録に記録したもの（スキャンデータ）には、作成者による電子署名が行われている必要がある」という規律は、令和3年度第4問ウ「委任状のスキャンデータに申請人による電子署名が付されていなければ添付情報とすることができない」と同じ規律（スキャンデータには作成者の電子署名が必要）を問うています。また本問の肢オ「スキャンした書面の原本は登記官に提示する必要がある」という規律は、令和3年度第4問エ「調査士報告方式で申請した場合でも委任状原本の提示を省略できない」と関連する論点です。両問とも「土地の合筆の登記の電子申請」を題材にしている点も共通しています。noteで令和3年度第4問の解説記事を作成する際は、本記事の肢エ・オと内容が一部重なるため、重複した解説にならないよう、既出の論点である旨に触れることを検討してください。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**令和3年度第4問（土地の合筆の登記の電子申請に関する調査士と補助者の対話）で、エ・オと近い論点が再出題されている、中程度の重複が見つかりました**。本問のエ「書面に記載された情報を電磁的記録に記録したもの（スキャンデータ）には、作成者による電子署名が行われている必要がある」という規律は、令和3年度第4問ウ「委任状のスキャンデータに申請人による電子署名が付されていなければ添付情報とすることができない」と同じ規律（スキャンデータには作成者の電子署名が必要）を問うています。また本問のオ「スキャンした書面の原本は登記官に提示する必要がある」という規律は、令和3年度第4問エ「調査士報告方式で申請した場合でも委任状原本の提示を省略できない」と関連する論点です。両問とも「土地の合筆の登記の電子申請」を題材にしている点も共通しています。noteで令和3年度第4問の解説記事を作成する際は、本記事のエ・オと内容が一部重なるため、重複した解説にならないよう、既出の論点である旨に触れることを検討してください。
 - **問題文の改行整理と内容再チェック（2026-09-15実施）**：問題文の引用ブロックで、調査士の質問と補助者の解答が改行なく隣接しており読みにくいという指摘を受け、調査士・補助者それぞれの発言の間に空行を挿入して読みやすく整えました（`md_to_mt.py`の引用ブロック変換は空行を無視して各発言を`<br><br>`で連結する仕様のため、note側の見た目に変化はなく、`exports/h29-mondai.mt.txt`に差分がないことを確認済みです）。あわせて、`format-template.md`の執筆ルール（判例・先例番号を本文に書かない・全角括弧・敬体・まとめは箇条書きのみ等）への準拠と、各肢の根拠条文（ア：令12条1項、イ：令12条2項、ウ：令14条、エ：令13条1項、オ：令13条2項）を`laws/fudousan-touki-rei.md`の条文原文と照合し、正解（イオの組合せ・選択肢4番）を含め誤りは見つかりませんでした。各肢の説明の論理展開（原則→根拠条文→結論、たとえばによる具体化）にも矛盾は見当たりません。
 
 ---
@@ -120,13 +132,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 電・子・署・名・情・報・添・付・証・明・書・作・成・者・記・録・原・本・示・提・要 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -196,22 +226,22 @@ these 5 headings):
 5. スキャンしても原本の提示は必要
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イは「提供する情報は申請情報か添付情報か」という共通の決定木を共有し、それぞれ自分に関係する分岐だけを強調する構成にした。肢エ・オも「紙の書面をスキャンして添付情報とする場面」という共通のタイムラインを共有し、電子署名の要否（エ）と原本提示の要否（オ）という別々のチェックポイントをそれぞれ強調する。肢ウは電子証明書の送信という単独の確認事項として独立に図解した。
+ア・イは「提供する情報は申請情報か添付情報か」という共通の決定木を共有し、それぞれ自分に関係する分岐だけを強調する構成にした。エ・オも「紙の書面をスキャンして添付情報とする場面」という共通のタイムラインを共有し、電子署名の要否（エ）と原本提示の要否（オ）という別々のチェックポイントをそれぞれ強調する。ウは電子証明書の送信という単独の確認事項として独立に図解した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -235,12 +265,12 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 1
-(肢ア) and Panel 2 (肢イ) share one decision diagram — a start node asking
+(ア) and Panel 2 (イ) share one decision diagram — a start node asking
 「提供する情報は申請情報か、添付情報か」branching into a 申請情報 outcome and
 a 添付情報 outcome — render the branch relevant to THIS panel with a thick
 highlighted border and full color, and render the other, unrelated branch
 and its conclusion node in a faded, greyed-out, dotted-outline style.
-Panel 4 (肢エ) and Panel 5 (肢オ) share one four-step timeline of the same
+Panel 4 (エ) and Panel 5 (オ) share one four-step timeline of the same
 fact pattern (紙の書面をスキャンして添付情報とする場面): 紙の書面（原本）→
 スキャンして電磁的記録を作成（作成者が電子署名）→ 添付情報として提出 →
 登記官が定める期間内に原本を提示 — each panel renders the one step it is
@@ -257,7 +287,11 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) or Traditional Chinese
 characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
-any circumstances, even if a character looks similar to standard Japanese.
+any circumstances, even if a character looks similar to standard Japanese. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements.
 Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
 — no Latin alphabet letters and no other non-Japanese writing system —
 anywhere in the image, except for the half-width Arabic numerals (0-9)
@@ -287,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申請情報の署名は申請人等が行う
@@ -307,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請人等が署名
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 添付情報は作成者本人の電子署名が必要
@@ -326,7 +360,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 作成者の署名が必須
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 署名には電子証明書を添えて送信
@@ -344,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明書とセットで送信
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 スキャンデータには作成者本人の署名が必要
@@ -362,7 +396,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 作成者の署名が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 スキャンしても原本提示の義務は残る
@@ -389,7 +423,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
 Chinese variant, paying special attention to 電・子・署・名・情・報・添・付
-・証・明・書・作・成・者・記・録・原・本・示・提・送. If any character
+・証・明・書・作・成・者・記・録・原・本・示・提・送. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also confirm that no character
 outside hiragana, katakana, Jōyō kanji, and the Arabic numerals explicitly

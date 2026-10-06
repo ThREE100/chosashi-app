@@ -2,51 +2,81 @@
 
 **出題年度：令和3年度　午後の部　第16問**
 
-> 建物の分割又は合併の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲建物の附属建物及び乙建物の附属建物が区分建物である場合において、甲建物からその附属建物を分割して乙建物の附属建物に合併する建物の分割の登記及び建物の合併の登記の申請は、乙建物の附属建物が甲建物の附属建物と接続していないときは、することができない。
->
-> イ　甲建物から附属建物を分割して乙建物の附属建物とする建物の分割の登記及び附属合併の登記をするときは、乙建物の登記記録の表題部に甲建物から分割した旨が記録される。
->
-> ウ　甲建物から附属建物を分割して乙建物とする建物の分割の登記を申請する場合において、当該分割により甲建物の所在地番に変更が生じるときは、当該申請に併せて建物表題部の変更の登記を申請する必要はない。
->
-> エ　甲建物について、所有権の保存の登記がされた後に、新築した建物を甲建物の附属建物とする旨の表題部の変更の登記がされている場合には、当該附属建物を分割して乙建物の附属建物とする建物の分割及び合併の登記の申請は、当該分割前の甲建物の所有権の保存の登記が完了した際に通知された登記識別情報を提供してすることができる。
->
-> オ　相互に接続する区分建物であり、甲建物及び乙建物に登記された敷地権がいずれも丙土地の所有権である場合において、甲建物と乙建物の敷地権の割合が相互に異なるときは、甲建物を乙建物に合併する登記は、申請することができない。
->
+> 建物の分割又は合併の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲建物の附属建物及び乙建物の附属建物が区分建物である場合において、甲建物からその附属建物を分割して乙建物の附属建物に合併する建物の分割の登記及び建物の合併の登記の申請は、乙建物の附属建物が甲建物の附属建物と接続していないときは、することができない。  
+>　  
+> イ　甲建物から附属建物を分割して乙建物の附属建物とする建物の分割の登記及び附属合併の登記をするときは、乙建物の登記記録の表題部に甲建物から分割した旨が記録される。  
+>　  
+> ウ　甲建物から附属建物を分割して乙建物とする建物の分割の登記を申請する場合において、当該分割により甲建物の所在地番に変更が生じるときは、当該申請に併せて建物表題部の変更の登記を申請する必要はない。  
+>　  
+> エ　甲建物について、所有権の保存の登記がされた後に、新築した建物を甲建物の附属建物とする旨の表題部の変更の登記がされている場合には、当該附属建物を分割して乙建物の附属建物とする建物の分割及び合併の登記の申請は、当該分割前の甲建物の所有権の保存の登記が完了した際に通知された登記識別情報を提供してすることができる。  
+>　  
+> オ　相互に接続する区分建物であり、甲建物及び乙建物に登記された敷地権がいずれも丙土地の所有権である場合において、甲建物と乙建物の敷地権の割合が相互に異なるときは、甲建物を乙建物に合併する登記は、申請することができない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-建物の分割・合併の登記は、附属建物をどう切り離し、どう別の建物にくっつけるかというテーマです。区分建物どうしの「接続」の要件、登記記録に何がどう記録されるか、そして分割・合併の申請でどの登記識別情報を提供するのか——細かい取扱いの違いが正誤の分かれ目になります。
+---
+
+建物の分割・合併の登記は、附属建物をどう切り離し、どう別の建物にくっつけるかというテーマです。
+
+区分建物どうしの「接続」の要件、登記記録に何がどう記録されるか、そして分割・合併の申請でどの登記識別情報を提供するのか——細かい取扱いの違いが正誤の分かれ目になります。
 
 ### ア：区分建物の附属建物どうしは、接続していなければ分割・合併できない
 
-甲建物の附属建物を分割して乙建物の附属建物に合併する登記を一の申請情報でまとめて申請できるのは、甲建物の附属建物が区分建物であり、かつ乙建物の附属建物が甲建物の附属建物と接続する区分建物である場合に限られます（不動産登記規則35条3号）。これは、区分建物どうしの建物の合併の登記が、そもそも「これと接続する区分建物」に合併するものに限られると法律上定義されていること（不動産登記法54条1項3号）に対応するものです。したがって、乙建物の附属建物が甲建物の附属建物と接続していないときは、この分割・合併の登記を申請することはできません。
+甲建物の附属建物を分割して乙建物の附属建物に合併する登記を一の申請情報でまとめて申請できるのは、甲建物の附属建物が区分建物であり、かつ乙建物の附属建物が甲建物の附属建物と接続する区分建物である場合に限られます（不動産登記規則35条3号）。
 
-**たとえば**、あるマンション（区分建物）の一室を、別のマンションの附属部分にくっつけたいと思っても、両者が壁一枚でつながっている＝接続している関係になければ、区分建物どうしを合体させる登記は認めてもらえません。物理的に離れているものを帳簿の上だけで一体にすることはできない、というイメージです。
+これは、区分建物どうしの建物の合併の登記が、そもそも「これと接続する区分建物」に合併するものに限られると法律上定義されていること（不動産登記法54条1項3号）に対応するものです。
+
+したがって、乙建物の附属建物が甲建物の附属建物と接続していないときは、この分割・合併の登記を申請することはできません。
+
+**たとえば**、あるマンション（区分建物）の一室を、別のマンションの附属部分にくっつけたいと思っても、両者が壁一枚でつながっている＝接続している関係になければ、区分建物どうしを合体させる登記は認めてもらえません。
+
+物理的に離れているものを帳簿の上だけで一体にすることはできない、というイメージです。
 
 ### イ：乙建物には「分割した旨」ではなく「何番から合併」と記録される
 
-甲建物から附属建物を分割して乙建物の附属建物とする分割の登記および附属合併の登記をする場合、乙建物の登記記録の附属建物の表示欄の原因およびその日付欄には、「何番から合併」のように記録されます（不動産登記事務取扱準則100条2項）。つまり、乙建物の側に記録されるのは「合併」の経緯であって、「甲建物から分割した旨」が記録されるわけではありません。この肢は「分割した旨が記録される」としている点が誤りです。
+甲建物から附属建物を分割して乙建物の附属建物とする分割の登記および附属合併の登記をする場合、乙建物の登記記録の附属建物の表示欄の原因およびその日付欄には、「何番から合併」のように記録されます（不動産登記事務取扱準則100条2項）。
 
-**たとえば**、A棟の物置を切り離してB棟の附属建物に引っ越しさせたとき、引っ越し先であるB棟の帳簿に書かれるのは「◯番建物から合併してきました」という受け入れの記録です。「B棟から分割しました」と書くと話が逆になってしまう、という感覚で押さえておくと迷いません。
+つまり、乙建物の側に記録されるのは「合併」の経緯であって、「甲建物から分割した旨」が記録されるわけではありません。この肢は「分割した旨が記録される」としている点が誤りです。
+
+**たとえば**、A棟の物置を切り離してB棟の附属建物に引っ越しさせたとき、引っ越し先であるB棟の帳簿に書かれるのは「◯番建物から合併してきました」という受け入れの記録です。
+
+「B棟から分割しました」と書くと話が逆になってしまう、という感覚で押さえておくと迷いません。
 
 ### ウ：分割で甲建物の所在地番が変わっても、変更登記を併せて申請する必要はない
 
-甲建物から附属建物を分割して乙建物とする分割の登記を申請する場合において、その分割によって甲建物の所在地番に変更が生じるときであっても、これに併せて建物表題部の変更の登記を別途申請する必要はありません。登記官は、分割により不動産所在事項に変更が生じたときは、分割の登記をする際にあわせて変更後の不動産所在事項を記録することとされており（不動産登記規則127条3項）、申請人が変更登記まで別途用意する必要はないのです。
+甲建物から附属建物を分割して乙建物とする分割の登記を申請する場合において、その分割によって甲建物の所在地番に変更が生じるときであっても、これに併せて建物表題部の変更の登記を別途申請する必要はありません。
 
-**たとえば**、敷地の一角に建っていた物置を切り離して独立の建物にしたら、残った母屋の所在地番の表示がずれることがあります。そんなときも、「物置を分けます」という分割の申請さえ出せば足り、「ついでに母屋の所在地番も直してください」という別の申請書まで自分で添える必要はない、というわけです。
+登記官は、分割により不動産所在事項に変更が生じたときは、分割の登記をする際にあわせて変更後の不動産所在事項を記録することとされており（不動産登記規則127条3項）、申請人が変更登記まで別途用意する必要はないのです。
+
+**たとえば**、敷地の一角に建っていた物置を切り離して独立の建物にしたら、残った母屋の所在地番の表示がずれることがあります。
+
+そんなときも、「物置を分けます」という分割の申請さえ出せば足り、「ついでに母屋の所在地番も直してください」という別の申請書まで自分で添える必要はない、というわけです。
 
 ### エ：提供するのは、甲建物の保存登記時ではなく乙建物の登記識別情報
 
-甲建物の附属建物を分割して乙建物の附属建物とする建物の分割の登記及び附属合併の登記をする場合、乙建物の登記記録の甲区には、甲建物の所有権の登記をそのまま転写するのではなく、あらためて「合併による所有権の登記をする旨」が記録されます（不動産登記規則139条が準用する第百七条第一項）。したがって、この合併の登記の申請で提供すべき登記識別情報は、乙建物の所有権の登記名義人の登記識別情報であり（不動産登記令8条2項3号）、「分割前の甲建物の保存登記完了時に通知された登記識別情報」をそのまま提供してすることはできません。この肢は、提供すべき登記識別情報の前提を取り違えている点で誤りです。
+甲建物の附属建物を分割して乙建物の附属建物とする建物の分割の登記及び附属合併の登記をする場合、乙建物の登記記録の甲区には、甲建物の所有権の登記をそのまま転写するのではなく、あらためて「合併による所有権の登記をする旨」が記録されます（不動産登記規則139条が準用する第百七条第一項）。
 
-**たとえば**、後から建て増しした離れ（附属建物）には、母屋にだけ発行された「権利のカギ」（登記識別情報）はそのまま引き継がれません。その離れを別の建物にくっつけて合併するときは、母屋のときのカギではなく、受け入れ先である乙建物のカギを差し出す必要がある、とイメージすると整理しやすくなります。
+したがって、この合併の登記の申請で提供すべき登記識別情報は、乙建物の所有権の登記名義人の登記識別情報であり（不動産登記令8条2項3号）、「分割前の甲建物の保存登記完了時に通知された登記識別情報」をそのまま提供してすることはできません。
+
+この肢は、提供すべき登記識別情報の前提を取り違えている点で誤りです。
+
+**たとえば**、後から建て増しした離れ（附属建物）には、母屋にだけ発行された「権利のカギ」（登記識別情報）はそのまま引き継がれません。
+
+その離れを別の建物にくっつけて合併するときは、母屋のときのカギではなく、受け入れ先である乙建物のカギを差し出す必要がある、とイメージすると整理しやすくなります。
 
 ### オ：敷地権の割合が異なっても、それだけを理由に合併できないわけではない
 
-相互に接続する区分建物であり、甲建物・乙建物に登記された敷地権がいずれも丙土地の所有権である場合に、甲建物と乙建物の敷地権の割合が相互に異なっていたとしても、その割合の相違は建物の合併の登記の制限には当たりません（不動産登記法56条）。敷地権の割合が違うことだけを理由に合併できないとする本肢は誤りです。
+相互に接続する区分建物であり、甲建物・乙建物に登記された敷地権がいずれも丙土地の所有権である場合に、甲建物と乙建物の敷地権の割合が相互に異なっていたとしても、その割合の相違は建物の合併の登記の制限には当たりません（不動産登記法56条）。
 
-**たとえば**、同じ土地を敷地とする隣り合った2室について、一方は土地の持分が大きく、もう一方は小さいという違いがあったとしても、その持分割合の差だけでは合併がストップすることはありません。合併がはねられるのは、別に定められた制限に引っかかるときであって、敷地権割合の大小そのものは合併を妨げる事由ではないのです。
+敷地権の割合が違うことだけを理由に合併できないとする本肢は誤りです。
+
+**たとえば**、同じ土地を敷地とする隣り合った2室について、一方は土地の持分が大きく、もう一方は小さいという違いがあったとしても、その持分割合の差だけでは合併がストップすることはありません。
+
+合併がはねられるのは、別に定められた制限に引っかかるときであって、敷地権割合の大小そのものは合併を妨げる事由ではないのです。
+
+---
 
 ### まとめ
 
@@ -67,9 +97,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（令和3年度　午後の部　第16問）と正解番号（2番＝ア・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 条文レベルで根拠が確認できたもの：ア（不動産登記法54条1項3号、不動産登記規則35条3号）、イ（不動産登記事務取扱準則100条2項）、ウ（不動産登記規則127条3項）、エ（不動産登記規則139条が準用する第百七条第一項、不動産登記令8条2項3号）、オ（不動産登記法56条）は、いずれも`note-articles/laws/`配下のローカル法令データベースで条文の文言まで確認済みです。
-- 肢アについて：一の申請情報でまとめて申請できる要件（不動産登記規則35条3号）だけでは、なぜこの分割・合併そのものが「できない」と言い切れるのかの説明として弱かったため、区分建物どうしの建物の合併の登記は「これと接続する区分建物」に限って行うことができると法律自体が定義していること（不動産登記法54条1項3号）を根拠として明示するよう補いました。結論（ア＝正）自体に変更はありません。
-- 肢エについて：当初の下書きでは根拠として不動産登記規則128条2項を挙げていましたが、同条は「甲建物から附属建物を分割して独立の乙建物とする」場合（規則127条の場合）の権利部の記録方法であり、本肢のように「分割して乙建物の附属建物とする」場合（分割の登記及び附属合併の登記）には適用されないため、正しい根拠条文である規則139条（第百七条第一項の準用）・不動産登記令8条2項3号に修正しました。「乙建物の登記識別情報を提供する（甲建物の保存登記時の登記識別情報は提供できない）」という結論自体に変更はなく、本問の正解が2番＝アウであることとも整合します。
-- 肢ウについて：当初は具体的な条文番号を明示していませんでしたが、不動産登記規則127条3項に「登記官は、分割により不動産所在事項に変更が生じたときは、変更後の不動産所在事項…を記録しなければならない」との規定があり、分割の登記の申請のみで登記官が処理する（別途の変更登記申請を要しない）根拠として確認できたため、条文を追記しました。
+- アについて：一の申請情報でまとめて申請できる要件（不動産登記規則35条3号）だけでは、なぜこの分割・合併そのものが「できない」と言い切れるのかの説明として弱かったため、区分建物どうしの建物の合併の登記は「これと接続する区分建物」に限って行うことができると法律自体が定義していること（不動産登記法54条1項3号）を根拠として明示するよう補いました。結論（ア＝正）自体に変更はありません。
+- エについて：当初の下書きでは根拠として不動産登記規則128条2項を挙げていましたが、同条は「甲建物から附属建物を分割して独立の乙建物とする」場合（規則127条の場合）の権利部の記録方法であり、本肢のように「分割して乙建物の附属建物とする」場合（分割の登記及び附属合併の登記）には適用されないため、正しい根拠条文である規則139条（第百七条第一項の準用）・不動産登記令8条2項3号に修正しました。「乙建物の登記識別情報を提供する（甲建物の保存登記時の登記識別情報は提供できない）」という結論自体に変更はなく、本問の正解が2番＝アウであることとも整合します。
+- ウについて：当初は具体的な条文番号を明示していませんでしたが、不動産登記規則127条3項に「登記官は、分割により不動産所在事項に変更が生じたときは、変更後の不動産所在事項…を記録しなければならない」との規定があり、分割の登記の申請のみで登記官が処理する（別途の変更登記申請を要しない）根拠として確認できたため、条文を追記しました。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。
 
 ---
@@ -110,10 +140,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 Pay special attention to the following kanji, which are frequently
 rendered incorrectly as Simplified Chinese variants: 号, 録, 権, 地, 番,
@@ -204,29 +252,29 @@ sentence, NOT a legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay particular
-attention to 号, 録, 権, 地, 番, 建, 物, 登, 記, 所. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — pay particular
+attention to 録, 権, 地, 番, 建, 物, 登, 記, 所. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 (接続要件／記録内容／所在地番変更／登記識別情報／敷地権割合の5枚), with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、`infographic-prompt-template.md`の
 「⑤ 作図ガイド型」ルールに基づき、問題文を読んだときに実際に手を動かして
 描くべき図と、その図にたどり着くまでに**どの順番で何を確認するか**を肢
 ごとに示す作図ガイド。②が5肢の結論を俯瞰するのに対し、⑤は思考順序その
-ものを可視化する。肢ア（接続の有無）と肢オ（敷地権割合）は物理的な位置
-関係を示す配置図型、肢イ（登記記録の記載内容）と肢ウ（変更登記の要否）
-は「正しい取扱い」と「誤りやすい思い込み」を対比させる正誤対比型、肢エ
+ものを可視化する。ア（接続の有無）とオ（敷地権割合）は物理的な位置
+関係を示す配置図型、イ（登記記録の記載内容）とウ（変更登記の要否）
+は「正しい取扱い」と「誤りやすい思い込み」を対比させる正誤対比型、エ
 （提供すべき登記識別情報）は保存登記から分割・合併までの経緯を示すタイム
 ライン型とした。各パネルの着眼点コールアウトは「まず〜を確認し、次に〜
 を確認する」という確認の順序を明示する文にしている。
@@ -273,7 +321,15 @@ body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -302,7 +358,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -331,7 +387,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 接続なしは合併不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 乙建物に書かれるのは合併であって分割ではない
@@ -350,7 +406,7 @@ this wording is NOT what actually gets recorded.
 Conclusion tag (blue, 5-15 Japanese characters):
 乙側は合併と記録
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 地番変更は登記官が職権で記録する
@@ -371,7 +427,7 @@ icon labeled「登記官が職権で新地番を記録」. Right box labeled「�
 Conclusion tag (blue, 5-15 Japanese characters):
 地番変更は職権で記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 使うべき登記識別情報が甲と乙のどちらかを見分ける
@@ -381,20 +437,19 @@ Diagram: Draw a left-to-right timeline arrow with 3 time points. (1)甲建物
 （表題部の変更登記）」。(3)その附属建物が分かれて乙建物へ向かう矢印
 「分割・合併の登記」の先に、ひし形の分岐ノード「提供する登記識別情報は
 どちらか」を置き、2つの結論ノードへ分岐させる：ノードA「登記識別情報A
-（甲建物の保存登記時）」に赤い✕と「提供できない」というラベル、ノードB
-「登記識別情報B（乙建物のもの）」に緑のチェックマークと「これを提供して
+（甲建物の保存登記時）」に赤い✕と「提供できない」というラベル、ノードB「登記識別情報B（乙建物の所有権の登記名義人のもの）」に緑のチェックマークと「これを提供して
 申請できる」というラベル。両方の結論ノードを必ず描き、どちらのノードも
 図の途中に戻すループ矢印を使わない。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲建物の保存登記の際に通知された登記識別情報Aと、附属建物を分割・
-合併した後の乙建物について通知される登記識別情報Bの2つがあることを時系
-列で確認します。次に、実際に分割・合併の登記の申請で提供すべきなのは
+合併の受け入れ先である乙建物の所有権の登記名義人が持っている登記識別情報B
+の2つがあることを時系列で確認します。次に、実際に分割・合併の登記の申請で提供すべきなのは
 どちらかを見分け、甲建物の保存登記時の登記識別情報Aではなく、乙建物の
 登記識別情報Bを提供すると判断します。
 Conclusion tag (blue, 5-15 Japanese characters):
 使うのは乙建物の鍵
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 敷地権の割合の違いが合併の妨げになるかを確認する
@@ -421,9 +476,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 3号（エ）／不動産登記法56条（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号, 録, 権, 地, 番, 建, 物, 登, 記, 所, 続, 敷. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号, 録, 権, 地, 番, 建, 物, 登, 記, 所, 続, 敷. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every

@@ -2,31 +2,37 @@
 
 **出題年度：平成25年度　午後の部　第3問**
 
-> 占有権に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記１から５までのうち、どれか。
->
-> ア　法人の代表者が建物を当該法人の機関として占有しつつ、当該代表者個人のためにも占有していた場合には、当該代表者は、その占有を奪われたときであっても、当該代表者個人としての占有回収の訴えを提起することができない。
->
-> イ　悪意の占有者であっても、その占有を奪われたときは、占有回収の訴えを提起することができる。
->
-> ウ　善意の占有者が本権の訴えにおいて敗訴したときは、その占有の開始の時から悪意の占有者とみなされる。
->
-> エ　代理人によって占有をする場合における占有の善意又は悪意は、その代理人について決する。
->
-> オ　代理人によって占有をする場合において、本人がその代理人に対して以後第三者のためにその物を占有することを命じ、その代理人がこれを承諾したときは、その第三者は、占有権を取得する。
->
+> 占有権に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　法人の代表者が建物を当該法人の機関として占有しつつ、当該代表者個人のためにも占有していた場合には、当該代表者は、その占有を奪われたときであっても、当該代表者個人としての占有回収の訴えを提起することができない。  
+>　  
+> イ　悪意の占有者であっても、その占有を奪われたときは、占有回収の訴えを提起することができる。  
+>　  
+> ウ　善意の占有者が本権の訴えにおいて敗訴したときは、その占有の開始の時から悪意の占有者とみなされる。  
+>　  
+> エ　代理人によって占有をする場合における占有の善意又は悪意は、その代理人について決する。  
+>　  
+> オ　代理人によって占有をする場合において、本人がその代理人に対して以後第三者のためにその物を占有することを命じ、その代理人がこれを承諾したときは、その第三者は、占有権を取得する。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
+
+---
 
 占有権の分野は、条文の文言を丁寧に読み込めているかが試されます。特にオのような「誰が何を承諾するのか」という主語の取り違えは、うっかり見落としがちな典型的なひっかけです。
 
 ### ア：機関としての占有と個人としての占有は、併存し得る
 
-法人の代表者が、法人の機関として建物を占有しつつ、それとは別に代表者個人のためにも占有していると認められる特段の事情がある場合には、両方の占有が併存し得ます。この場合、代表者は、法人の占有とは別に、個人としての占有を奪われたことを理由に、個人として占有回収の訴えを提起することができます。
+法人の代表者が、法人の機関として建物を占有しつつ、それとは別に代表者個人のためにも占有していると認められる特段の事情がある場合には、両方の占有が併存し得ます。
+
+この場合、代表者は、法人の占有とは別に、個人としての占有を奪われたことを理由に、個人として占有回収の訴えを提起することができます。
 
 **たとえば**、会社の社長であるAさんが、会社の事務所として使っている建物に個人の私物や生活拠点も置いて実際に住んでいたような場合、その建物を第三者に奪われたときは、Aさんは会社としての占有だけでなく、個人としての占有回収の訴えも提起することができます。
 
 ### イ：占有の訴えは、占有者の善意・悪意を問わず提起できる
 
-占有の訴え（占有回収の訴えなど）は、占有という事実状態そのものを保護する制度であり、その占有者が本権（所有権など）を有しているかどうかや、善意・悪意であるかどうかは問いません。したがって、悪意の占有者であっても、占有を奪われたときは占有回収の訴えを提起することができます。
+占有の訴え（占有回収の訴えなど）は、占有という事実状態そのものを保護する制度であり、その占有者が本権（所有権など）を有しているかどうかや、善意・悪意であるかどうかは問いません。
+
+したがって、悪意の占有者であっても、占有を奪われたときは占有回収の訴えを提起することができます。
 
 **たとえば**、Bさんが他人の土地だと知りながら不法に占有していた場合でも、その土地を第三者に強引に奪い取られたときは、Bさんは占有回収の訴えを提起して、占有を取り戻すことができます。
 
@@ -44,9 +50,13 @@
 
 ### オ：指図による占有移転は、「第三者」が承諾することで成立する
 
-民法184条は、「代理人によって占有をする場合には、本人は、その代理人に対して以後第三者のためにその物を占有することを命じ、その第三者がこれを承諾したときは、その第三者は、占有権を取得する」と定めています。承諾するのは「占有代理人」ではなく「第三者」です。この肢は、承諾の主体を「代理人」としており、条文の要件と異なるため誤りです。
+民法184条は、「代理人によって占有をする場合には、本人は、その代理人に対して以後第三者のためにその物を占有することを命じ、その第三者がこれを承諾したときは、その第三者は、占有権を取得する」と定めています。
+
+承諾するのは「占有代理人」ではなく「第三者」です。この肢は、承諾の主体を「代理人」としており、条文の要件と異なるため誤りです。
 
 **たとえば**、Aさんが自分の物を預けている代理人Bさんに「これからはCさんのために占有してほしい」と指示し、Cさんがこれを承諾すれば、Cさんは占有権を取得します。ここで承諾するのはBさんではなく、あくまでCさんです。
+
+---
 
 ### まとめ
 
@@ -108,12 +118,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・悪・諾・図・提・起 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -189,18 +217,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -238,7 +266,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -262,7 +298,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 機関占有と個人占有は別腹で数える
@@ -280,7 +316,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 個人としても訴え可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 善意・悪意は提訴の条件ではない
@@ -298,7 +334,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 悪意でも提訴可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 起算点は「占有開始」ではなく「提訴時」
@@ -317,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 起算点は提訴時
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 判断基準は本人ではなく占有代理人
@@ -335,7 +371,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 判断基準は代理人
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 承諾するのは代理人ではなく第三者
@@ -359,11 +395,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 の擬制）・184条（指図による占有移転）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権, 悪, 諾, 併, 存, 図, 提, 起, 誤 and any character that has a visually
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権, 悪, 諾, 図, 提, 起, 誤 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that each panel's diagram clearly contrasts
 the correct rule against the crossed-out incorrect version rather than

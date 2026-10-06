@@ -2,41 +2,59 @@
 
 **出題年度：平成26年度　午後の部　第3問**
 
-> Aには，その親族として，妻B，子C，父D，祖母F（既に死亡している母Eの母）及び孫G（Cの子）がいる場合において，Aについて相続が開始したときのAの相続人の範囲に関する次の1から5までの記述のうち，正しいものは，どれか。
->
-> 1　AとCとが死亡し，その死亡の先後が明らかでない場合には，Dは，Aの相続人となる。
->
-> 2　Cは，Aの死亡前に，故意にBを殺害しようとしたが未遂に終わった場合には，これにより刑に処せられたときであっても，Aの相続人となる。
->
-> 3　Aの死亡前にC及びGが既に死亡していた場合には，Fは，Eに代わってAの相続人となる。
->
-> 4　Cが相続の放棄をした場合には，Gは，Cを代襲してAの相続人となる。
->
+> Aには，その親族として，妻B，子C，父D，祖母F（既に死亡している母Eの母）及び孫G（Cの子）がいる場合において，Aについて相続が開始したときのAの相続人の範囲に関する次の1から5までの記述のうち，正しいものは，どれか。  
+>　  
+> 1　AとCとが死亡し，その死亡の先後が明らかでない場合には，Dは，Aの相続人となる。  
+>　  
+> 2　Cは，Aの死亡前に，故意にBを殺害しようとしたが未遂に終わった場合には，これにより刑に処せられたときであっても，Aの相続人となる。  
+>　  
+> 3　Aの死亡前にC及びGが既に死亡していた場合には，Fは，Eに代わってAの相続人となる。  
+>　  
+> 4　Cが相続の放棄をした場合には，Gは，Cを代襲してAの相続人となる。  
+>　  
 > 5　Aの死亡前にAとBとが離婚し，BがCの親権者と定められていた場合であっても，Cは，Aの相続人となる。
+
+---
 
 この問題は、同時死亡の推定、相続欠格、代襲相続、相続放棄、離婚と相続権の関係という複数の論点が1つの家系図に詰め込まれた総合問題です。落ち着いて1つずつ制度を当てはめていきましょう。
 
 ### 1：同時死亡が推定されると、CとAの間で相続は生じず、代襲相続が問題になる（誤り）
 
-AとCの死亡の先後が明らかでない場合、民法32条の2により両者は同時に死亡したものと推定されます。同時に死亡した者の間では、互いに相続人となることができません。しかし、Cには子Gがいるため、Cの代襲相続人としてGがAの相続人になります（民法887条2項。代襲原因である「相続開始以前の死亡」には同時死亡の場合も含まれます）。代襲相続人Gという第1順位の相続人がいる以上、第2順位の直系尊属であるDは相続人になりません。
+AとCの死亡の先後が明らかでない場合、民法32条の2により両者は同時に死亡したものと推定されます。同時に死亡した者の間では、互いに相続人となることができません。
 
-**たとえば**、交通事故でAさんとその子Cさんが同時に亡くなり、どちらが先に死亡したか分からない状況だったとします。この場合、CさんはAさんの相続人にはなれませんが、Cさんの子（Aさんから見て孫）が代わりにAさんの財産を相続することになり、Aさんの父Dさんの出番はありません。
+しかし、Cには子Gがいるため、Cの代襲相続人としてGがAの相続人になります（民法887条2項。代襲原因である「相続開始以前の死亡」には同時死亡の場合も含まれます）。
+
+代襲相続人Gという第1順位の相続人がいる以上、第2順位の直系尊属であるDは相続人になりません。
+
+**たとえば**、交通事故でAさんとその子Cさんが同時に亡くなり、どちらが先に死亡したか分からない状況だったとします。
+
+この場合、CさんはAさんの相続人にはなれませんが、Cさんの子（Aさんから見て孫）が代わりにAさんの財産を相続することになり、Aさんの父Dさんの出番はありません。
 
 ### 2：被相続人の配偶者を殺害しようとして刑に処せられれば、相続人になれない（誤り）
 
-相続欠格事由の1つに、「故意に被相続人又は相続について先順位若しくは同順位にある者を死亡するに至らせ、又は至らせようとしたために、刑に処せられた者」というものがあります（民法891条1号）。この問題の家系図では、Aの相続について妻Bと子Cは同順位（第1順位）の相続人にあたります。したがって、CがBを殺害しようとして未遂に終わったとしても、それによって刑に処せられれば、Cはこの欠格事由に該当し、Aの相続人にはなれません。
+相続欠格事由の1つに、「故意に被相続人又は相続について先順位若しくは同順位にある者を死亡するに至らせ、又は至らせようとしたために、刑に処せられた者」というものがあります（民法891条1号）。
+
+この問題の家系図では、Aの相続について妻Bと子Cは同順位（第1順位）の相続人にあたります。したがって、CがBを殺害しようとして未遂に終わったとしても、それによって刑に処せられれば、Cはこの欠格事由に該当し、Aの相続人にはなれません。
 
 **たとえば**、子のCさんが、同じくAさんの相続人になるはずの母Bさんを殺害しようとして未遂に終わり、殺人未遂罪で刑に処せられたとします。この場合、Cさんは実際にAさんを害していなくても、Aさんの相続人になる資格を失います。
 
 ### 3：直系尊属の中では親等の近い者が優先し、「代襲」という制度はない（誤り）
 
-Aの死亡前にCとGがいずれも死亡していた場合、第1順位の相続人（子・代襲者）が誰もいなくなるため、第2順位の直系尊属が相続人となります（民法889条1項1号）。直系尊属の中では親等の近い者が優先するというルールがあり、父D（1親等）が存命であれば、祖母F（2親等）はAの相続人にはなりません。祖母Fが「亡くなった母Eに代わって」相続人になるという代襲のような制度は、直系尊属についてはそもそも存在しません。なお、配偶者である妻Bは、この第1順位・第2順位・第3順位という血族相続人の順位とは関係なく、常に相続人となります（民法890条）。したがって、この場面で実際に相続人となるのは妻Bと父Dの2人であり、祖母Fが加わることはありません。
+Aの死亡前にCとGがいずれも死亡していた場合、第1順位の相続人（子・代襲者）が誰もいなくなるため、第2順位の直系尊属が相続人となります（民法889条1項1号）。
+
+直系尊属の中では親等の近い者が優先するというルールがあり、父D（1親等）が存命であれば、祖母F（2親等）はAの相続人にはなりません。
+
+祖母Fが「亡くなった母Eに代わって」相続人になるという代襲のような制度は、直系尊属についてはそもそも存在しません。
+
+なお、配偶者である妻Bは、この第1順位・第2順位・第3順位という血族相続人の順位とは関係なく、常に相続人となります（民法890条）。したがって、この場面で実際に相続人となるのは妻Bと父Dの2人であり、祖母Fが加わることはありません。
 
 **たとえば**、Aさんの子Cさんと孫Gさんが両方とも先に亡くなっていた場合、Aさんの父Dさんが存命であれば、妻Bさんと父Dさんが相続人となり、Aさんの母方の祖母Fさんは、Dさんよりも親等が遠いために相続人にはなりません。
 
 ### 4：相続放棄は代襲原因にならない（誤り）
 
-代襲相続が生じる原因は、被代襲者の死亡・相続欠格・廃除の3つに限られます（民法887条2項）。相続放棄は、この代襲原因には含まれていません。相続放棄をした者は、初めから相続人でなかったものとみなされるため（民法939条）、その子が代わりに相続することもありません。
+代襲相続が生じる原因は、被代襲者の死亡・相続欠格・廃除の3つに限られます（民法887条2項）。相続放棄は、この代襲原因には含まれていません。
+
+相続放棄をした者は、初めから相続人でなかったものとみなされるため（民法939条）、その子が代わりに相続することもありません。
 
 **たとえば**、子のCさんが「借金を相続したくない」という理由でAさんの相続を放棄したとします。この場合、Cさんの子Gさんが代わりにAさんの相続人になることはなく、Aさんの財産・借金はGさんには一切及びません。
 
@@ -45,6 +63,8 @@ Aの死亡前にCとGがいずれも死亡していた場合、第1順位の相�
 離婚は夫婦間の婚姻関係を解消するものであり、親と子の血族関係には影響を及ぼしません。したがって、Aと妻Bが離婚し、Bが子Cの親権者と定められたとしても、AとCの間の親子関係（法律上の血族関係）は変わらず存続します。Cは引き続きAの相続人になります。
 
 **たとえば**、Aさんと妻Bさんが離婚し、子Cさんの親権者がBさんに定められたとします。その後Aさんが亡くなった場合でも、Cさんは実の子であることに変わりないため、Aさんの相続人として財産を相続する権利があります。
+
+---
 
 ### まとめ
 
@@ -109,12 +129,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 相・続・襲・尊・属・棄・欠・格・離・婚 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 FAMILY-TREE LAYOUT REQUIREMENT (critical): Every card's family-tree diagram
 must follow real genealogical conventions consistently, across all 5 cards.
@@ -234,8 +272,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -246,10 +284,10 @@ tag, at a glance. Finally, confirm every family-tree diagram across all 5
 cards follows the FAMILY-TREE LAYOUT REQUIREMENT above: parents drawn
 above children, spouses drawn side by side at the same height (never one
 above or below the other), and no card showing a parent below a child or
-a spouse stacked as if a child.
+a spouse stacked as if a child. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（1〜5 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -295,7 +333,15 @@ written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -349,9 +395,11 @@ stack. Ａ（被相続人）and Ｂ（妻）are drawn side by side as a married
 couple. Directly below them, Ｃ（子）is drawn with a small icon showing an
 attempted-harm gesture directed upward toward Ｂ, labeled 殺人未遂で刑に
 処せられた。Diamond node (highlighted): Ｃの行為は、死亡・欠格・廃除と
-いう代襲原因の3類型のうち「欠格」に当たるか？with a はい arrow leading to
-a conclusion node showing a large red 相続欠格 stamp placed over Ｃ,
-blocking Ｃ's path toward the inheritance documents on the registry desk.
+いう代襲原因の3類型のうち「欠格」に当たるか？with a はい arrow (thick,
+highlighted) leading to a conclusion node showing a large red 相続欠格
+stamp placed over Ｃ, blocking Ｃ's path toward the inheritance documents
+on the registry desk. The いいえ arrow (thin, lighter tone) leads to its
+own separate conclusion node labeled Ｃは相続人のまま.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、CがAと同順位の相続人であるBを殺害しようとして刑に処せられたという
 事情を確認します。次に、それが民法891条の相続欠格事由に当たることを
@@ -393,9 +441,11 @@ Diagram: The same single-diamond decision-tree flowchart shape as Panel
 the top. Directly below Ａ, Ｃ（子）holds a document labeled 相続放棄.
 Diamond node (highlighted, distinct branch from Panel 2): Ｃの行為（相続
 放棄）は、死亡・欠格・廃除という代襲原因の3類型のいずれかに当たるか？
-with a いいえ arrow leading to a conclusion node showing a downward arrow
-toward Ｇ（孫）blocked by a large red X, with Ｇ standing apart, one level
-below Ｃ, receiving nothing from Ａ's estate.
+with a いいえ arrow (thick, highlighted) leading to a conclusion node
+showing a downward arrow toward Ｇ（孫）blocked by a large red X, with Ｇ
+standing apart, one level below Ｃ, receiving nothing from Ａ's estate. The
+はい arrow (thin, lighter tone) leads to its own separate conclusion node
+labeled Ｇが代襲相続する（死亡・欠格・廃除のとき）.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Cが相続放棄をしたという事情を確認します。次に、代襲相続が生じる
 原因は死亡・欠格・廃除の3つに限られ、相続放棄はこれに含まれないことを
@@ -431,9 +481,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 欠格）・939条（相続放棄の効果）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 相, 続, 襲, 尊, 属, 棄, 欠, 格, 離, 婚, 妻. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 相, 続, 襲, 尊, 属, 棄, 欠, 格, 離, 婚, 妻. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition記述

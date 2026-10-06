@@ -2,25 +2,33 @@
 
 **出題年度：平成23年度　午後の部　第18問**
 
-> 建物が合体した場合の登記の申請に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　表題登記がある建物の主である建物とその附属建物が合体した場合には、合体後の建物についての建物の表題登記及び合体前の建物についての表題部の登記の抹消を申請しなければならない。
->
-> イ　表題登記がない建物と表題登記がある建物のみが合体して１個の建物となった後に、当該合体前の表題登記がない建物の所有者から当該合体後の建物について合体前の表題登記がない建物の所有権に相当する持分を所得した者は、当該持分所得の日から１か月以内に、合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請しなければならない。
->
-> ウ　所有権の登記がある建物と表題登記がない建物が合体して１個の建物となった後に、合体による建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消並びに当該表題登記がない建物の所有者を当該合体後の建物の登記名義人とする所有権の登記の申請を合体前の所有権の登記がある建物の所有権の登記名義人が申請する場合には、合体後の建物全体の当該申請人の所有権を証する情報を提供しなければならない。
->
-> エ　表題登記のみがある建物が合体して１個の建物となった後に、合体前の建物の表題部所有者に誤りがあり、更正の登記によって表題部所有者となった者は、その者に係る表題部所有者についての更正の登記があった日から１か月以内に、合体後の建物について建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請しなければならない。
->
-> オ　合体前の建物がいずれも表題登記がない建物であるときは、合体後の建物については、合体による表題登記の申請ではなく、新築による建物の表題登記を申請しなければならない。
->
+> 建物が合体した場合の登記の申請に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　表題登記がある建物の主である建物とその附属建物が合体した場合には、合体後の建物についての建物の表題登記及び合体前の建物についての表題部の登記の抹消を申請しなければならない。  
+>　  
+> イ　表題登記がない建物と表題登記がある建物のみが合体して１個の建物となった後に、当該合体前の表題登記がない建物の所有者から当該合体後の建物について合体前の表題登記がない建物の所有権に相当する持分を所得した者は、当該持分所得の日から１か月以内に、合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請しなければならない。  
+>　  
+> ウ　所有権の登記がある建物と表題登記がない建物が合体して１個の建物となった後に、合体による建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消並びに当該表題登記がない建物の所有者を当該合体後の建物の登記名義人とする所有権の登記の申請を合体前の所有権の登記がある建物の所有権の登記名義人が申請する場合には、合体後の建物全体の当該申請人の所有権を証する情報を提供しなければならない。  
+>　  
+> エ　表題登記のみがある建物が合体して１個の建物となった後に、合体前の建物の表題部所有者に誤りがあり、更正の登記によって表題部所有者となった者は、その者に係る表題部所有者についての更正の登記があった日から１か月以内に、合体後の建物について建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請しなければならない。  
+>　  
+> オ　合体前の建物がいずれも表題登記がない建物であるときは、合体後の建物については、合体による表題登記の申請ではなく、新築による建物の表題登記を申請しなければならない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-建物の合体の登記は、もともと別々に登記されていた複数の建物が物理的に1個の建物になったときに、合体後の建物の表題登記と、合体前の各建物の表題部の登記の抹消をセットで申請する制度です。ここでの落とし穴は、「そもそも合体の制度が適用される場面かどうか」と、「証明すべき所有権は誰の分か」の2点です。
+---
+
+建物の合体の登記は、もともと別々に登記されていた複数の建物が物理的に1個の建物になったときに、合体後の建物の表題登記と、合体前の各建物の表題部の登記の抹消をセットで申請する制度です。
+
+ここでの落とし穴は、「そもそも合体の制度が適用される場面かどうか」と、「証明すべき所有権は誰の分か」の2点です。
 
 ### ア：主である建物と附属建物は、そもそも「合体」の対象ではない
 
-主である建物とその附属建物は、もともと同じ1個の建物の登記記録の中に一緒に記録されています。合体の制度は、別々の登記記録を持つ複数の建物が1個になったときに適用されるものであり、最初から同一の登記記録内にある主である建物と附属建物との間には、そもそも合体という概念が生じません。「合体後の建物についての建物の表題登記及び合体前の建物についての表題部の登記の抹消を申請しなければならない」とする本肢は誤りです。
+主である建物とその附属建物は、もともと同じ1個の建物の登記記録の中に一緒に記録されています。
+
+合体の制度は、別々の登記記録を持つ複数の建物が1個になったときに適用されるものであり、最初から同一の登記記録内にある主である建物と附属建物との間には、そもそも合体という概念が生じません。
+
+「合体後の建物についての建物の表題登記及び合体前の建物についての表題部の登記の抹消を申請しなければならない」とする本肢は誤りです。
 
 **たとえば**、母屋とその物置（附属建物として登記済み）がリフォームで一体化したとしても、もともと1つの登記記録の中の話なので、合体登記の対象にはならず、必要であれば建物の変更の登記で対応することになります。
 
@@ -32,7 +40,11 @@
 
 ### ウ：申請人が証明すべきなのは、自分の持分の所有権であって建物全体ではない
 
-所有権の登記がある建物と表題登記がない建物が合体した後、合体前の所有権登記がある建物の名義人が申請人となって、表題登記がない建物側の所有者を合体後の建物の登記名義人とする所有権の登記まで申請する場合であっても、申請人が証明すべきなのは自分がもともと持っていた持分についての所有権であり、「合体後の建物全体」についての申請人自身の所有権を証する情報の提供までは求められていません。「合体後の建物全体の当該申請人の所有権を証する情報を提供しなければならない」とする本肢は誤りです。
+所有権の登記がある建物と表題登記がない建物が合体した後、合体前の所有権登記がある建物の名義人が申請人となって、表題登記がない建物側の所有者を合体後の建物の登記名義人とする所有権の登記まで申請する場合であっても、添付情報として求められるのは、表題部所有者となる者が所有権を有することを証する情報です（不動産登記令別表13の項添付情報欄ハ）。
+
+したがって、申請人が証明すべきなのは自分がもともと持っていた持分についての所有権であり、「合体後の建物全体」についての申請人自身の所有権を証する情報の提供までは求められていません。
+
+「合体後の建物全体の当該申請人の所有権を証する情報を提供しなければならない」とする本肢は誤りです。
 
 **たとえば**、登記済みの自宅と未登記の離れが合体した場合、自宅の名義人が申請人になるとしても、証明すべきは自分がもともと持っていた自宅部分の所有権であって、離れの部分まで含めた建物全体の所有権を自分のものとして証明する必要はありません。
 
@@ -47,6 +59,8 @@
 合体前の建物がいずれも表題登記のない未登記建物である場合には、そもそも抹消すべき既存の表題登記が存在しないため、合体による表題登記という制度を使う前提を欠きます。この場合は、通常の新築による建物の表題登記を申請することになります。
 
 **たとえば**、未登記のまま増築を繰り返していた2つの離れが物理的に1個の建物になった場合、どちらも登記されていない以上、合体の登記ではなく、新しく建った1個の建物として表題登記を申請することになります。
+
+---
 
 ### まとめ
 
@@ -68,8 +82,9 @@
 - 出題年度・問題番号・正解番号（第18問＝アウ／2番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
 - 各肢の法的根拠のうち、合体による登記の申請義務・1か月以内という期間については不動産登記法49条の一般的な制度趣旨に基づく整理ですが、各肢の細部（主従建物の合体対象外、証明すべき所有権の範囲）について個別の条文番号までは特定できておらず、一般原則からの整理にとどまる点をご留意ください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文は、本問については結論・根拠とも大筋で妥当な内容でしたが、他の問題（第2問）で明確な誤りが確認されたファイルであるため、本記事では条文・一般原則から独立に再構成しています。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、平成26年度第17問「合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（合体による登記等）」が、本問と非常に強く重複するテーマであることを確認しました。特に「主である建物とその附属建物が合体した場合は、そもそも合体による登記等の制度の対象外である」という論点は、本問の肢アと平成26年度第17問の肢エで共通してテストされています。平成26年度分は本シリーズでは未執筆ですが、将来執筆する際はこの論点の重複に十分注意してください。
-- **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：不動産登記法49条を条文原文で再確認しました。肢イは同条3項（合体前の表題登記がない建物の所有者からその所有権に相当する持分を取得した者は、持分取得の日から1か月以内に合体による登記等を申請）、肢エは同条4項（合体前の表題登記がある建物の表題部所有者について更正の登記があった者は、その更正の登記があった日から1か月以内に合体による登記等を申請）とほぼ同一の文言であることを確認し、いずれも正確でした。肢ア・ウ・オについては、49条1項が「二以上の建物」の合体を前提としている点（主従建物は同一の登記記録内にあるため対象外となる理由）を条文上の根拠として確認できましたが、その他の細部は引き続き一般原則からの整理にとどまります。直近の改正による変更はありません。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、平成26年度第17問「合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（合体による登記等）」が、本問と非常に強く重複するテーマであることを確認しました。特に「主である建物とその附属建物が合体した場合は、そもそも合体による登記等の制度の対象外である」という論点は、本問のアと平成26年度第17問のエで共通してテストされています。平成26年度分は本シリーズでは未執筆ですが、将来執筆する際はこの論点の重複に十分注意してください。
+- **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：不動産登記法49条を条文原文で再確認しました。イは同条3項（合体前の表題登記がない建物の所有者からその所有権に相当する持分を取得した者は、持分取得の日から1か月以内に合体による登記等を申請）、エは同条4項（合体前の表題登記がある建物の表題部所有者について更正の登記があった者は、その更正の登記があった日から1か月以内に合体による登記等を申請）とほぼ同一の文言であることを確認し、いずれも正確でした。ア・ウ・オについては、49条1項が「二以上の建物」の合体を前提としている点（主従建物は同一の登記記録内にあるため対象外となる理由）を条文上の根拠として確認できましたが、その他の細部は引き続き一般原則からの整理にとどまります。直近の改正による変更はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：`note-articles/laws/`（2026-08-04取得、不動産登記法は令和8年6月24日施行分まで反映）で、不動産登記法49条1項〜4項・50条・55条3項と、不動産登記令別表の十三の項（合体による登記等の申請情報・添付情報）を条文原文で確認しました。本文の条文番号・用語・要件は現行法と整合しており、本文の変更はありません（正誤判定も変わりません）。補足は次の3点です。（1）オの条文上の根拠として、より直接的なのは49条2項です。合体前の建物がいずれも表題登記がない場合は、49条1項各号（いずれも表題登記又は所有権の登記がある建物を含む場合）に当たらず、同条2項が47条（建物の表題登記の申請）などを準用しているため、抹消すべき合体前の表題部の登記がなく、「合体による登記等」ではなく表題登記だけを申請することになります。（2）ウについて、令別表十三の項添付情報欄ハは「表題部所有者となる者が所有権を有することを証する情報」と定めており、ウの場面（49条1項2号、所有権の登記がある建物と表題登記がない建物）で証明の対象になるのは、合体前の表題登記がない建物の所有者の所有権と読むのが自然です。そのため、本文の「申請人が証明すべきなのは自分がもともと持っていた持分についての所有権」という言い回しは、条文から直接は確認できていません。「合体後の建物全体の申請人の所有権を証する情報までは求められない」という結論（本肢が誤り）には影響しませんが、図解（②のカード3・⑤のパネル3）を含め、説明の言い回しは再検討の余地があります。（3）⑤のア・オ共有の決定木は、合体前の建物の登記記録の状態を「同一の登記記録内」「双方とも表題登記がない」「別々の登記記録の建物で少なくとも一方に表題登記がある」の3つに分けて描くよう改めました。旧版は、はい・いいえで答える問いに3つの枝を付けており、一方だけが未登記の場合（イの場面）がどの枝にも当たらない状態でした。
 
 ---
 
@@ -109,12 +124,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 証・続・録・築 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 証 not 证, 続 not 续).
+kanji 証・続・築 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -141,8 +174,10 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 未登記側の持分取得者に申請義務
 Illustration: An unregistered shed merging with a registered house into
-one building, with a buyer character purchasing a share of the shed's
-portion, holding a calendar counting down "1か月".
+one building; AFTER the merge, a buyer character purchases from the
+shed's owner the share corresponding to the unregistered shed's portion
+(not the registered house's portion), holding a calendar counting down
+"1か月" that starts on the purchase date.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 1か月以内に申請
 
@@ -152,7 +187,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 証明は自分の持分だけでよい
 Illustration: A registered house owner merging with an unregistered
 shed, stamping a 所有権証明情報 document that covers only their own
-original house portion, with a red X over an oversized certificate.
+original house portion, with a second, larger certificate labeled
+建物全体 crossed out by a red X (the owner is NOT required to prove
+ownership of the whole merged building).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 自分の持分のみ
 
@@ -160,9 +197,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 更正登記後の所有者にも義務
-Illustration: A name-correction stamp fixing an incorrect owner name on
-a title-only building, with the newly-corrected owner character holding
-a calendar counting down "1か月".
+Illustration: A title-only (表題登記のみ) building that has since merged
+with another, whose 表題部所有者 box is changed by a 更正 stamp from a
+wrong person to the right person; the newly-corrected owner character
+holds a calendar counting down "1か月" that starts on the 更正登記 date.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 1か月以内に申請
 
@@ -178,17 +216,15 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 証・続・録・築. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 証・続・築. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
-a short heading + a short conclusion tag, at a glance.
+a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -203,12 +239,12 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — two buildings sharing a single registration-
-record icon for 肢ア, a person receiving a share of an unregistered
-building alongside a 1-month countdown calendar for 肢イ, a small
-certificate covering only one person's own portion for 肢ウ, a name-
+record icon for ア, a person receiving a share of an unregistered
+building alongside a 1-month countdown calendar for イ, a small
+certificate covering only one person's own portion for ウ, a name-
 correction stamp fixing an incorrect owner alongside a 1-month countdown
-calendar for 肢エ, and two unregistered shed icons merging into one
-building for 肢オ. Where a 肢 requires checking multiple conditions in
+calendar for エ, and two unregistered shed icons merging into one
+building for オ. Where a 肢 requires checking multiple conditions in
 sequence before reaching a conclusion, draw the panel's diagram as an
 actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
@@ -226,16 +262,17 @@ conclusion. Do not include case or precedent numbers (article/regulation
 numbers are fine); keep the callout text as written below verbatim, and
 keep every condition each callout describes faithful to the article's
 own body text — do not drop or merge a required element. Panels 1 and 5
-(肢ア・肢オ) share a three-branch decision tree keyed on a single diamond
-node asking 合体前の2つの建物は、それぞれ独立した表題登記の記録を持って
-いるか: one branch (一方が主である建物・他方がその附属建物で同一の登記
-記録内にある) leads to 合体制度の対象外、建物の変更の登記で対応 and is
-highlighted in panel 1; another branch (双方とも表題登記がない) leads to
-合体による表題登記ではなく通常の新築による表題登記を申請 and is
-highlighted in panel 5; the third branch (双方ともそれぞれ別々の表題登記
-記録を持っている) leads to 通常どおり合体による表題登記及び合体前の登記
-の抹消を申請するケース and must be rendered faded/greyed-out in both
-panels rather than omitted. Panels 2 and 4 (肢イ・肢エ) share a separate
+(ア・オ) share a three-branch decision tree keyed on a single diamond
+node asking 合体前の2つの建物の登記記録はどうなっているか (a three-way
+question, so label the three outgoing branches instead of Yes/No): one
+branch (一方が主である建物・他方がその附属建物で同一の登記記録内にある)
+leads to 合体制度の対象外、建物の変更の登記で対応 and is highlighted in
+panel 1; another branch (双方とも表題登記がない) leads to 合体による表題
+登記ではなく通常の新築による表題登記を申請 and is highlighted in panel
+5; the third branch (別々の登記記録の建物で、少なくとも一方に表題登記が
+ある) leads to 合体後の建物の表題登記及び合体前の建物の表題部の登記の抹
+消を申請するケース and must be rendered faded/greyed-out in both panels
+rather than omitted. Panels 2 and 4 (イ・エ) share a separate
 two-branch decision tree keyed on a single diamond node asking 誰が合体
 による登記等の申請義務を1か月以内に負うのか: one branch (合体前の表題登
 記がない建物側の所有者から持分を取得した者) is highlighted in panel 2,
@@ -243,7 +280,7 @@ the other branch (更正の登記によって新たに表題部所有者とな�
 highlighted in panel 4, each leading to the same conclusion node その日
 から1か月以内に合体後の建物についての表題登記及び合体前の建物について
 の表題部の登記の抹消を申請しなければならない, with the unhighlighted
-branch rendered faded in each panel. Panel 3 (肢ウ) resolves with a
+branch rendered faded in each panel. Panel 3 (ウ) resolves with a
 single check contrasted against a common misconception and does not need
 a flowchart.
 
@@ -284,29 +321,29 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 主従建物はそもそも合体の対象外
 Diagram: A main house (主である建物) and its small attached shed
 (附属建物) already sharing one single登記記録 document icon on the left.
-On the right, a decision-tree diamond labeled 合体前の2つの建物は、それ
-ぞれ独立した表題登記の記録を持っているか, with three branches: the
-branch labeled 一方が主・他方が附属建物で同一の登記記録内 is drawn with a
-thick highlighted border leading to a conclusion node 合体制度の対象外、
-建物の変更の登記で対応; the other two branches (双方とも表題登記がな
-い、および双方ともそれぞれ別々の表題登記記録を持っている) are rendered
-in a faded, greyed-out, dotted-outline style.
+On the right, a decision-tree diamond labeled 合体前の2つの建物の登記記録
+はどうなっているか, with three labeled branches (no Yes/No): the branch
+labeled 一方が主・他方が附属建物で同一の登記記録内 is drawn with a thick
+highlighted border leading to a conclusion node 合体制度の対象外、建物の
+変更の登記で対応; the other two branches (双方とも表題登記がない、およ
+び別々の登記記録の建物で少なくとも一方に表題登記がある) are rendered in
+a faded, greyed-out, dotted-outline style.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、合体前の2つの建物が、それぞれ独立した表題登記の記録を持っているか
-を確認します。主である建物とその附属建物は、もともと同じ登記記録の中に
-あるため、次に、この場合は合体という制度自体の対象にならず、通常の建物
-の変更の登記で対応すると判断します。
+まず、合体前の2つの建物が、それぞれ別々の登記記録を持っているかを確認し
+ます。次に、主である建物とその附属建物はもともと同じ登記記録の中にある
+ため、合体という制度自体の対象にならず、通常の建物の変更の登記で対応す
+ると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 変更登記で対応
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 持分を取得した日から1か月以内に申請
@@ -327,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1か月以内に申請
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 証明するのは自分の持分の所有権だけ
@@ -346,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 自分の持分のみでよい
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 更正登記後の所有者も1か月以内に申請
@@ -367,18 +404,19 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1か月以内に申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 双方未登記なら新築の表題登記
 Diagram: Two unregistered shed icons (未登記のまま増築を繰り返していた離
 れ) merging into one building. Below this, the same shared decision-tree
-diamond labeled 合体前の2つの建物は、それぞれ独立した表題登記の記録を持
-っているか, but this time the branch 双方とも表題登記がない is drawn
-with a thick highlighted border leading to a conclusion node 合体による
-表題登記ではなく通常の新築による表題登記を申請, while the other two
-branches (一方が主従の関係にある、および双方ともそれぞれ別々の表題登記
-記録を持っている) are rendered faded/greyed-out.
+diamond labeled 合体前の2つの建物の登記記録はどうなっているか (three
+labeled branches, no Yes/No), but this time the branch 双方とも表題登記が
+ない is drawn with a thick highlighted border leading to a conclusion node
+合体による表題登記ではなく通常の新築による表題登記を申請, while the
+other two branches (一方が主・他方が附属建物で同一の登記記録内、および
+別々の登記記録の建物で少なくとも一方に表題登記がある) are rendered
+faded/greyed-out.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、合体前の2つの建物が、いずれも表題登記のない未登記建物かどうかを確
 認します。次に、抹消すべき既存の表題登記が存在しない以上、合体による表
@@ -393,7 +431,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 証・続・録・築・属. If any character
+Chinese, paying special attention to 証・続・録・築・属・請・変. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

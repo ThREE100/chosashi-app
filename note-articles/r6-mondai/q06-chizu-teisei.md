@@ -2,25 +2,29 @@
 
 **出題年度：令和6年度　午後の部　第6問**
 
-> 地図等に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　地図を作成するための測量は、近傍に基本三角点等が存しない場合には、近傍の恒久的な地物を基礎として行うことができる。
->
-> イ　地図に表示された隣接する2筆の土地の区画に誤りがあることによる地図の訂正の申出をする場合において、当該2筆の土地が同一の登記所の管轄区域内にあるときは、一の地図訂正申出情報により申出をすることができる。
->
-> ウ　新たに地図が備え付けられたことによって従前の地図に準ずる図面が閉鎖された場合であっても、当該地図に準ずる図面の保存期間は、永久とされる。
->
-> エ　地図に表示された土地の区画に誤りがあることによる地図の訂正の申出をする場合において、その誤りを閉鎖された地図に準ずる図面により確認することができるときは、地図に表示された土地の区画に誤りがあることを証する情報として、当該地図に準ずる図面を特定する情報を提供すれば足りる。
->
-> オ　土地の分筆の登記の申請をする際に添付情報として提供した地積測量図の分筆線に誤りがあり、その誤った分筆線で当該分筆の登記がされた場合には、当該分筆線が誤りであることを証する情報を提供して、地図の訂正の申出により分筆線を訂正することができる。
->
+> 地図等に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　地図を作成するための測量は、近傍に基本三角点等が存しない場合には、近傍の恒久的な地物を基礎として行うことができる。  
+>　  
+> イ　地図に表示された隣接する2筆の土地の区画に誤りがあることによる地図の訂正の申出をする場合において、当該2筆の土地が同一の登記所の管轄区域内にあるときは、一の地図訂正申出情報により申出をすることができる。  
+>　  
+> ウ　新たに地図が備え付けられたことによって従前の地図に準ずる図面が閉鎖された場合であっても、当該地図に準ずる図面の保存期間は、永久とされる。  
+>　  
+> エ　地図に表示された土地の区画に誤りがあることによる地図の訂正の申出をする場合において、その誤りを閉鎖された地図に準ずる図面により確認することができるときは、地図に表示された土地の区画に誤りがあることを証する情報として、当該地図に準ずる図面を特定する情報を提供すれば足りる。  
+>　  
+> オ　土地の分筆の登記の申請をする際に添付情報として提供した地積測量図の分筆線に誤りがあり、その誤った分筆線で当該分筆の登記がされた場合には、当該分筆線が誤りであることを証する情報を提供して、地図の訂正の申出により分筆線を訂正することができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
+
+---
 
 地図・地図に準ずる図面、そして地図訂正の申出に関する分野からの出題です。「誰が」「どんな図面をもとに」「どんな手続で」誤りを直すのかを、条文・先例に沿って丁寧に整理すると正確に判断できます。
 
 ### ア：地図作成の測量は、基本三角点等の測量成果を基礎に行う
 
-地図は、基本測量の成果である三角点・電子基準点や、国土調査法により認証・指定された基準点、又はこれらと同等以上の精度を有する基準点を基礎とした正確な測量及び調査の成果に基づいて作成されなければなりません（不動産登記規則10条1項、3項）。近傍に基本三角点等が存しない場合に、近傍の恒久的な地物を基礎として測量してよいとする規定はありません。
+地図は、基本測量の成果である三角点・電子基準点や、国土調査法により認証・指定された基準点、又はこれらと同等以上の精度を有する基準点を基礎とした正確な測量及び調査の成果に基づいて作成されなければなりません（不動産登記規則10条1項、3項）。
+
+近傍に基本三角点等が存しない場合に、近傍の恒久的な地物を基礎として測量してよいとする規定はありません。
 
 **たとえば**、山間部の集落で近くに基本三角点が見当たらないからといって、近所の古いお地蔵さんやコンクリート杭を勝手に基準にして地図作成のための測量を行うことは認められません。
 
@@ -32,9 +36,13 @@
 
 - 「近傍に基本三角点等が存しない場合その他の基本三角点等に基づく測量ができない特別の事情がある場合には、近傍の恒久的な地物（道路の中心線、コンクリート杭、建物の外壁など）に基づく測量の成果によって、筆界点の座標値を記録しなければならない」（不動産登記規則77条2項）
 
-問題文の肢アは、この地積測量図についての規定（77条2項）の内容を、まったく別の話である「**地図**を作成するための測量」（不動産登記規則10条3項）に、そのまま持ち込んでしまった記述です。ここが最大のひっかけです。
+問題文のアは、この地積測量図についての規定（77条2項）の内容を、まったく別の話である「**地図**を作成するための測量」（不動産登記規則10条3項）に、そのまま持ち込んでしまった記述です。ここが最大のひっかけです。
 
-なぜ2つの規定は分かれているのでしょうか。地図は、法務局に備え付けられる、その地域全体の土地の位置関係を表す公的な基礎データです。地域全体の基準となるものだからこそ、常に国レベルの基準点（基本三角点等）を基礎とすることが求められ、代替手段は一切認められていません（規則10条3項には、77条2項のような例外規定はありません）。一方、地積測量図は、個々の土地の筆界点の位置を特定するための実務書類なので、やむを得ない事情があるときにまで測量そのものを止めてしまうわけにはいかず、近傍の恒久的な地物という代替手段が用意されているのです。
+なぜ2つの規定は分かれているのでしょうか。地図は、法務局に備え付けられる、その地域全体の土地の位置関係を表す公的な基礎データです。
+
+地域全体の基準となるものだからこそ、常に国レベルの基準点（基本三角点等）を基礎とすることが求められ、代替手段は一切認められていません（規則10条3項には、77条2項のような例外規定はありません）。
+
+一方、地積測量図は、個々の土地の筆界点の位置を特定するための実務書類なので、やむを得ない事情があるときにまで測量そのものを止めてしまうわけにはいかず、近傍の恒久的な地物という代替手段が用意されているのです。
 
 整理すると、次のようになります。
 
@@ -45,7 +53,9 @@
 
 ### イ：隣接2筆の区画訂正でも、1筆ごとに申出情報が必要
 
-地図訂正の申出は、通常の登記申請と異なり、同一の登記所の管轄区域内にある土地であっても、複数の土地の訂正をまとめて一の申出情報で行うことはできません。1筆の土地についてする区画の訂正の申出と地番の訂正の申出のように、異なる訂正の申出を一の申出情報でまとめることもできません。
+地図訂正の申出は、通常の登記申請と異なり、同一の登記所の管轄区域内にある土地であっても、複数の土地の訂正をまとめて一の申出情報で行うことはできません。
+
+1筆の土地についてする区画の訂正の申出と地番の訂正の申出のように、異なる訂正の申出を一の申出情報でまとめることもできません。
 
 **たとえば**、隣り合う甲土地と乙土地の両方の区画に誤りが見つかった場合でも、「甲土地について1件」「乙土地について1件」というように、別々に地図訂正の申出をしなければなりません。
 
@@ -57,7 +67,9 @@
 
 ### エ：閉鎖図面で誤りを確認できれば、その図面の特定情報で足りる
 
-地図にある土地の区画又は地図に準ずる図面にある土地の位置・形状に誤りがある場合、原則として誤りがあることを証する情報と併せて、土地所在図又は地積測量図を提供しなければなりません（不動産登記規則16条5項）。ただし、登記所に備え付けられている図面で誤りが確認できる場合は、当該図面を特定する情報を提供すれば、誤りがあることを証する情報の提供を省略することができます。
+地図にある土地の区画又は地図に準ずる図面にある土地の位置・形状に誤りがある場合、原則として誤りがあることを証する情報と併せて、土地所在図又は地積測量図を提供しなければなりません（不動産登記規則16条5項）。
+
+ただし、登記所に備え付けられている図面で誤りが確認できる場合は、当該図面を特定する情報を提供すれば、誤りがあることを証する情報の提供を省略することができます。
 
 **たとえば**、閉鎖された昔の地図に準ずる図面を見れば区画の誤りが一目で分かる場合には、わざわざ新しく測量して地積測量図を作らなくても、「この閉鎖図面を見てください」と特定する情報を提出するだけで済みます。
 
@@ -66,6 +78,8 @@
 分筆の登記の申請の際に添付した地積測量図の分筆線に誤りがあり、その誤った分筆線のまま分筆の登記がされてしまった場合、その是正は分筆錯誤による更正の登記によるべきであり、地図訂正の申出や地積測量図の訂正の申出によって分筆線を修正することはできない取り扱いとされています。
 
 **たとえば**、測量ミスによって本来の位置と少しずれた分筆線で登記が完了してしまった場合、「後から地図の訂正申出をすれば直せる」と考えるのは誤りで、分筆錯誤としての更正登記の手続を踏む必要があります。
+
+---
 
 ### まとめ
 
@@ -87,7 +101,7 @@
 - 出典（令和6年度午後の部 第6問）・正解番号（ウエ＝4番）は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）のexplanationフィールドに基づいており、確認済みです。
 - 各肢の根拠のうち、ア（規則10条1項、3項）・ウ（規則28条2号、3号）・エ（規則16条5項＋平17.2.25民二457号）は、データベースのexplanationフィールドに条文番号まで明記されているものです。なお、エの条文番号は検証の過程でローカル法令データベースと照合したところ、誤りの証明情報・土地所在図又は地積測量図の提供を定めるのは規則16条5項（1号・2号）であり、データベース記載の「6項〜9項」（電子情報処理組織による提供方法や電子署名に関する規定）ではなかったため、本文・確認事項とも5項に訂正しました。一方、イ（登記研究696号158頁）・オ（昭43.6.8民甲1653号）は、条文番号そのものではなく実務誌・先例通達の引用にとどまっており、条文の明文というよりは実務上の取り扱いに基づく判断である点にご留意ください。
 - なお、念のためローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説そのものは含まれていなかったため、今回はアガルート教材を参照することができませんでした。
-- **アの理解補助について**：肢アの「近傍に基本三角点等が存しない場合には、近傍の恒久的な地物を基礎として測量してよい」という記述が、なぜもっともらしく感じられるのかというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。実は、地積測量図の筆界点座標値の記録（不動産登記規則77条2項）には、まさにこの内容の代替規定が実在します。肢アはこの77条2項の内容を、規定のない地図作成のための測量（規則10条3項）に誤って持ち込んだ記述であり、この2つの制度を条文原文で突き合わせて区別する解説を追加しました。あわせて、対比型の個別インフォグラフィック（間違いノート型）を新規作成しました。なお、他の4肢（イ〜オ）は「地図訂正」という別の切り口の論点であり、タイトルのキャッチフレーズはこれらとの整合を優先し、変更していません。
+- **アの理解補助について**：アの「近傍に基本三角点等が存しない場合には、近傍の恒久的な地物を基礎として測量してよい」という記述が、なぜもっともらしく感じられるのかというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。実は、地積測量図の筆界点座標値の記録（不動産登記規則77条2項）には、まさにこの内容の代替規定が実在します。アはこの77条2項の内容を、規定のない地図作成のための測量（規則10条3項）に誤って持ち込んだ記述であり、この2つの制度を条文原文で突き合わせて区別する解説を追加しました。あわせて、対比型の個別インフォグラフィック（間違いノート型）を新規作成しました。なお、他の4肢（イ〜オ）は「地図訂正」という別の切り口の論点であり、タイトルのキャッチフレーズはこれらとの整合を優先し、変更していません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）の全問題を確認しました。令和7年度第4問も「地図の訂正」がテーマですが、本問（近傍基本三角点等の測量方法、地図に準ずる図面の保存期間、分筆線の誤りの是正手続など）とは各肢の具体的な出題内容が異なっており、**内容の重複は見つかりませんでした**（同じ大分野からの出題ではありますが、問われている個別の論点は別物です）。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-16実施）**：本問の論点（地図の訂正・地図に準ずる図面の保存期間・分筆線の是正手続）について、相続登記義務化・所有権登記名義人の氏名住所変更登記義務化等の直近の主要改正による影響を確認しましたが、これらは地図・地積測量図の記録手続そのものとは直接関係せず、内容に修正を要する変更は見つかりませんでした。
 
@@ -129,12 +143,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・筆・登・記・所・錯・誤 — these must be rendered in their standard
+kanji 地・筆・登・記・錯・誤 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -213,15 +245,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -251,11 +283,29 @@ out exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-基・準・点・恒・久・的・地・物・筆・界・混・同・誤 — always draw the standard
+基・点・恒・久・的・地・物・筆・界・同・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -317,19 +367,19 @@ background, full width) ---
 根拠：不動産登記規則10条3項（本肢）・77条2項（比較対象）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-基・準・点・恒・久・的・地・物・筆・界・混・同・誤. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm there are exactly two side-by-side panels (red 地図
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+基・点・恒・久・的・地・物・筆・界・同・誤. If any character renders
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly two side-by-side panels (red 地図
 の測量 on the left, green 地積測量図の測量 on the right), confirm both
 quoted text boxes match the Japanese text given above verbatim character-
 for-character, and confirm the callout box text matches verbatim with no
-paraphrasing and no substituted characters.
+paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。「地図」と「地積測量図」、「地図の誤り」と「分筆手続の誤り」といった、似た言葉で異なる制度を見分ける肢が多いため、対比枠型と決定木型を肢ごとに使い分けて構成する。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
 
@@ -376,7 +426,15 @@ a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
@@ -402,7 +460,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -423,7 +481,7 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 基本三角点等が必須
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -441,7 +499,7 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 申出は土地ごとに
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -459,7 +517,7 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 保存期間は永久
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in green containing the number 4(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -481,7 +539,7 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 特定情報で足りる
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -504,16 +562,15 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 更正登記で直す
 
-(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
 
 --- FOOTER ---
 Small footnote text(bottom of panel, small font, verbatim):
 根拠：不動産登記規則10条3項・77条2項・28条2号・3号・16条5項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese(Jōyō) form, not Simplified Chinese, paying special
-attention to 筆・界・登・記・錯・誤・恒・久・地・図. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese(Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 筆・界・登・記・錯・誤・恒・久・地・図. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢 is

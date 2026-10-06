@@ -2,53 +2,65 @@
 
 **出題年度：平成27年度　午後の部　第19問**
 
-> 次の対話は，Ａ所有の甲土地とＢ所有の乙土地との間の境界について紛争が生じた事例に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> 教授：Ａが甲土地を売却するために地積の更正の登記の申請を予定していたところ，隣接する乙土地との間で境界紛争が生じた事例について考えてみましょう。まず，ＡとＢは，和解契約によって甲土地と乙土地との間の筆界を確定することができますか。
->
-> 学生：ア　ＡとＢは，甲土地と乙土地の所有権の範囲を和解契約によって確定することができるのと同様に，筆界についても，和解契約によって確定することができます。
->
-> 教授：次に，Ａが筆界特定の申請をする場合について考えてみましょう。筆界特定について必要な事実の調査は筆界調査委員が行いますが，どのような者が筆界調査委員に任命されますか。
->
-> 学生：イ　筆界調査委員は，職務を行うのに必要な専門的知識及び経験を有する者のうちから，法務局又は地方法務局の長が任命するものとされており，土地家屋調査士が任命されることもあります。
->
-> 教授：Ａからの筆界特定の申請に基づき筆界特定登記官が特定した筆界が，Ａが意図していた筆界と異なっていた場合には，Ａは，それを不服として審査請求をすることができますか。
->
-> 学生：ウ　筆界特定登記官が行う筆界特定には行政処分としての法的効力は付与されておらず，登記官の処分ではありませんので，Ａは，審査請求をすることはできません。
->
-> 教授：では，甲土地と乙土地との間の筆界が特定された場合には，登記官は，その結果に基づき，職権で地積の更正の登記，地図の訂正等の措置をとることができますか。
->
-> 学生：エ　筆界特定の結果に基づき，職権で地積の更正の登記，地図の訂正等の措置をとることができるのは，筆界特定登記官に限られますので，筆界特定登記官でない登記官はそれらの措置をとることができません。
->
-> 教授：最後に，ＡがＢに対して，甲土地と乙土地との間の筆界について筆界確定訴訟を提起し，その確定判決を得た場合において，Ｂは，その判決内容を不服として，筆界特定の申請をすることができますか。
->
-> 学生：オ　筆界確定訴訟は，登記所の手続とは別個のものですので，Ａが甲土地と乙土地との間の筆界について筆界確定訴訟の確定判決を得た場合であっても，Ｂは，甲土地と乙土地との間の筆界について，別途，筆界特定の申請をすることができます。
->
+> 次の対話は，Ａ所有の甲土地とＢ所有の乙土地との間の境界について紛争が生じた事例に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> 教授：Ａが甲土地を売却するために地積の更正の登記の申請を予定していたところ，隣接する乙土地との間で境界紛争が生じた事例について考えてみましょう。まず，ＡとＢは，和解契約によって甲土地と乙土地との間の筆界を確定することができますか。  
+>　  
+> 学生：ア　ＡとＢは，甲土地と乙土地の所有権の範囲を和解契約によって確定することができるのと同様に，筆界についても，和解契約によって確定することができます。  
+>　  
+> 教授：次に，Ａが筆界特定の申請をする場合について考えてみましょう。筆界特定について必要な事実の調査は筆界調査委員が行いますが，どのような者が筆界調査委員に任命されますか。  
+>　  
+> 学生：イ　筆界調査委員は，職務を行うのに必要な専門的知識及び経験を有する者のうちから，法務局又は地方法務局の長が任命するものとされており，土地家屋調査士が任命されることもあります。  
+>　  
+> 教授：Ａからの筆界特定の申請に基づき筆界特定登記官が特定した筆界が，Ａが意図していた筆界と異なっていた場合には，Ａは，それを不服として審査請求をすることができますか。  
+>　  
+> 学生：ウ　筆界特定登記官が行う筆界特定には行政処分としての法的効力は付与されておらず，登記官の処分ではありませんので，Ａは，審査請求をすることはできません。  
+>　  
+> 教授：では，甲土地と乙土地との間の筆界が特定された場合には，登記官は，その結果に基づき，職権で地積の更正の登記，地図の訂正等の措置をとることができますか。  
+>　  
+> 学生：エ　筆界特定の結果に基づき，職権で地積の更正の登記，地図の訂正等の措置をとることができるのは，筆界特定登記官に限られますので，筆界特定登記官でない登記官はそれらの措置をとることができません。  
+>　  
+> 教授：最後に，ＡがＢに対して，甲土地と乙土地との間の筆界について筆界確定訴訟を提起し，その確定判決を得た場合において，Ｂは，その判決内容を不服として，筆界特定の申請をすることができますか。  
+>　  
+> 学生：オ　筆界確定訴訟は，登記所の手続とは別個のものですので，Ａが甲土地と乙土地との間の筆界について筆界確定訴訟の確定判決を得た場合であっても，Ｂは，甲土地と乙土地との間の筆界について，別途，筆界特定の申請をすることができます。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
-境界には、「所有権の範囲（所有権界）」と「筆界（登記された公法上の境界）」という2つの顔があります。所有権界は当事者の合意で自由に決められますが、筆界はそうはいきません。この対話形式の問題は、その違いを軸に、筆界特定制度のしくみを一通り確認する内容になっています。
+---
+
+境界には、「所有権の範囲（所有権界）」と「筆界（登記された公法上の境界）」という2つの顔があります。
+
+所有権界は当事者の合意で自由に決められますが、筆界はそうはいきません。この対話形式の問題は、その違いを軸に、筆界特定制度のしくみを一通り確認する内容になっています。
 
 ### ア：筆界は、私人どうしの和解契約で確定することはできない
 
-筆界は、登記されたときに定まった境であり、公法上の境界と呼ばれます。私人間の合意によって形成される所有権界とは性質が異なり、当事者どうしの和解や調停で自由に動かしたり作り出したりすることはできません。「所有権の範囲と同様に和解契約で確定できる」とする本肢は誤りです。
+筆界は、登記されたときに定まった境であり、公法上の境界と呼ばれます。
+
+私人間の合意によって形成される所有権界とは性質が異なり、当事者どうしの和解や調停で自由に動かしたり作り出したりすることはできません。「所有権の範囲と同様に和解契約で確定できる」とする本肢は誤りです。
 
 **たとえば**、ＡとＢが「境界線はここでいいですね」と合意して和解契約を結んでも、それによって決まるのはあくまで「所有権が及ぶ範囲（所有権界）」であって、登記された筆界そのものを2人の合意だけで動かすことはできません。
 
 ### イ：筆界調査委員は、法務局・地方法務局の長が任命し、調査士も任命されうる
 
-筆界特定に必要な事実の調査を行う筆界調査委員は、職務を行うのに必要な専門的知識・経験を有する者のうちから、法務局または地方法務局の長が任命します（不動産登記法127条1項・2項）。土地家屋調査士のほか、司法書士や弁護士などが任命される非常勤の国家公務員です。本肢は正しい記述です。
+筆界特定に必要な事実の調査を行う筆界調査委員は、職務を行うのに必要な専門的知識・経験を有する者のうちから、法務局または地方法務局の長が任命します（不動産登記法127条1項・2項）。
+
+土地家屋調査士のほか、司法書士や弁護士などが任命される非常勤の国家公務員です。本肢は正しい記述です。
 
 **たとえば**、境界に詳しい専門家として、実務経験豊富な土地家屋調査士が、法務局長から筆界調査委員に任命されて、筆界特定の調査にあたることがあります。
 
 ### ウ：筆界特定は行政処分ではないため、審査請求はできない
 
-筆界特定登記官が行う筆界特定には、行政処分としての法的効力が与えられていません。したがって、登記官の「処分」には当たらず、その結果に不服があっても審査請求をすることはできないというのが判例の立場です。不服がある場合は、別途、筆界確定訴訟によって争うことになります。本肢は正しい記述です。
+筆界特定登記官が行う筆界特定には、行政処分としての法的効力が与えられていません。したがって、登記官の「処分」には当たらず、その結果に不服があっても審査請求をすることはできないというのが判例の立場です。
+
+不服がある場合は、別途、筆界確定訴訟によって争うことになります。本肢は正しい記述です。
 
 **たとえば**、筆界特定の結果がＡの思っていた境界と違っていたとしても、Ａは審査請求の手続で異議を申し立てることはできません。納得できないときは、裁判所に筆界確定訴訟を起こして争うことになります。
 
 ### エ：職権による地積更正・地図訂正は、筆界特定登記官に限られない
 
-筆界特定がされた場合、対象土地の所有者等には地積の更正登記や地図の訂正を促し、その者が申請・申出をしないときは、登記官が職権でこれらの措置をとることができるとされています。表示に関する登記を職権ですること自体は、筆界特定登記官に限らずすべての登記官に認められた一般的な権限であり（不動産登記法28条）、このときの登記官も筆界特定登記官に限定されていません。したがって「筆界特定登記官に限られる」とする本肢は誤りです。
+筆界特定がされた場合、対象土地の所有者等には地積の更正登記や地図の訂正を促し、その者が申請・申出をしないときは、登記官が職権でこれらの措置をとることができるとされています。
+
+表示に関する登記を職権ですること自体は、筆界特定登記官に限らずすべての登記官に認められた一般的な権限であり（不動産登記法28条）、このときの登記官も筆界特定登記官に限定されていません。したがって「筆界特定登記官に限られる」とする本肢は誤りです。
 
 **たとえば**、筆界特定の結果が出たのに所有者が地積更正登記の申請をしない場合、その手続を担当する登記官（筆界特定登記官でなくても）が職権で地積の更正や地図の訂正を行うことができます。
 
@@ -57,6 +69,8 @@
 筆界確定訴訟の確定判決によって筆界がすでに確定している場合には、あらためて筆界特定を申請する意味がないため、その申請は却下されます（不動産登記法132条1項6号）。したがって、「Ｂは別途、筆界特定の申請をすることができる」とする本肢は誤りです。
 
 **たとえば**、ＡがＢを相手に筆界確定訴訟を起こして確定判決を得た場合、その判決内容に納得がいかないＢであっても、同じ筆界について重ねて筆界特定を申請することはできません。
+
+---
 
 ### まとめ
 
@@ -119,13 +133,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 筆・界・和・解・契・約・確・定・審・査・請・求・調・委・員・任・命・法・務・局・長・職・権・地・積・更・正・登・記・官・訴・訟・却・下 —
 these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -206,20 +238,20 @@ these 5 headings):
 5. 職権の措置は筆界特定登記官限定でない
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を、肢ごとに示す解き方ガイド。②の結論カードポスターとは別物で、②の内容は書き換えない。この問題の5肢はいずれも1回の確認で結論に至る肢のため、無理にフローチャート化せず、正誤対比図・系統図を肢ごとに使い分けて構成した。
 
@@ -294,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled green circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -313,7 +345,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有権界とは別物
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled blue circle containing the number 2.
 Heading (bold, ONE line):
 筆界調査委員の任命者を確認する
@@ -330,7 +362,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 調査士も任命されうる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line):
 筆界特定に審査請求はできない
@@ -348,7 +380,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 不服なら訴訟で
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 職権の措置は筆界特定登記官に限られない
@@ -367,7 +399,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 他の登記官でも可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line):
 確定判決後の重ねての申請は却下される

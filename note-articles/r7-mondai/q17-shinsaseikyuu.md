@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第17問**
 
-> 登記官の処分又は不作為についての審査請求に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　登記官の処分に不服がある場合であっても、当該処分があったことを知った日の翌日から起算して1月を経過したときは、審査請求をすることができない。
->
-> イ　法務局又は地方法務局の長が審査請求につき裁決したときは、裁決書の謄本を審査請求人及び登記官に交付する。
->
-> ウ　筆界特定登記官による筆界特定がされた場合には、申請人は、筆界特定の結果に不服があることを理由とする審査請求をすることができる。
->
-> エ　甲土地について土地の地積の更正の登記がされた場合において、甲土地と隣接する乙土地の所有者は、筆界に異議があることを理由として、甲土地の地積の更正の登記の取消しを求める審査請求をすることができる。
->
-> オ　Ａが所有権の登記名義人である土地の分筆の登記の申請が却下された場合において、Ａがその却下処分につき審査請求をしたときは、当該土地の抵当権の登記名義人であるＢは、参加人として当該審査請求に参加することができない。
->
+> 登記官の処分又は不作為についての審査請求に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　登記官の処分に不服がある場合であっても、当該処分があったことを知った日の翌日から起算して1月を経過したときは、審査請求をすることができない。  
+>　  
+> イ　法務局又は地方法務局の長が審査請求につき裁決したときは、裁決書の謄本を審査請求人及び登記官に交付する。  
+>　  
+> ウ　筆界特定登記官による筆界特定がされた場合には、申請人は、筆界特定の結果に不服があることを理由とする審査請求をすることができる。  
+>　  
+> エ　甲土地について土地の地積の更正の登記がされた場合において、甲土地と隣接する乙土地の所有者は、筆界に異議があることを理由として、甲土地の地積の更正の登記の取消しを求める審査請求をすることができる。  
+>　  
+> オ　Ａが所有権の登記名義人である土地の分筆の登記の申請が却下された場合において、Ａがその却下処分につき審査請求をしたときは、当該土地の抵当権の登記名義人であるＢは、参加人として当該審査請求に参加することができない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
 ---
@@ -22,9 +22,15 @@
 
 ### ア：登記官の処分に対する審査請求には、そもそも期間制限がない
 
-一般の行政処分については、行政不服審査法18条1項により、処分があったことを知った日の翌日から起算して3か月を経過すると審査請求ができなくなります。しかし、**登記官の処分についての審査請求（不動産登記法156条1項）には、不動産登記法158条により行政不服審査法18条の規定自体が適用除外**とされています。つまり、「1か月」でも「3か月」でもなく、そもそも審査請求の期間制限という考え方自体が存在しません。
+一般の行政処分については、行政不服審査法18条1項により、処分があったことを知った日の翌日から起算して3か月を経過すると審査請求ができなくなります。
 
-**たとえば**、登記官の処分に納得がいかない場合、それを知った日から1か月はおろか、3か月を過ぎた後であっても、審査請求をすることができます。一般的な行政処分の感覚（3か月以内に不服を申し立てないといけない）をそのまま当てはめると誤ってしまう、登記実務特有のルールです。
+しかし、**登記官の処分についての審査請求（不動産登記法156条1項）には、不動産登記法158条により行政不服審査法18条の規定自体が適用除外**とされています。
+
+つまり、「1か月」でも「3か月」でもなく、そもそも審査請求の期間制限という考え方自体が存在しません。
+
+**たとえば**、登記官の処分に納得がいかない場合、それを知った日から1か月はおろか、3か月を過ぎた後であっても、審査請求をすることができます。
+
+一般的な行政処分の感覚（3か月以内に不服を申し立てないといけない）をそのまま当てはめると誤ってしまう、登記実務特有のルールです。
 
 ### イ：裁決したときは、裁決書の謄本を審査請求人・登記官双方に交付する
 
@@ -34,7 +40,9 @@
 
 ### ウ：筆界特定の結果自体には、審査請求はできない
 
-筆界特定は、筆界特定登記官が筆界の所在を判断するものですが、実体的な権利関係を確定させる行政処分としての効力（公定力）を持ちません。そのため、そもそも不動産登記法156条1項が審査請求の対象とする「登記官の処分」には該当せず、審査請求をすることができません。筆界特定の結果に不服がある場合は、裁判所への境界確定訴訟によって争うことになります。
+筆界特定は、筆界特定登記官が筆界の所在を判断するものですが、実体的な権利関係を確定させる行政処分としての効力（公定力）を持ちません。
+
+そのため、そもそも不動産登記法156条1項が審査請求の対象とする「登記官の処分」には該当せず、審査請求をすることができません。筆界特定の結果に不服がある場合は、裁判所への境界確定訴訟によって争うことになります。
 
 **たとえば**、筆界特定の結果に納得がいかない場合、「この結果を取り消してほしい」と法務局に審査請求をすることはできません。争うのであれば、裁判所に境界確定訴訟を起こす必要があります。
 
@@ -46,9 +54,15 @@
 
 ### オ：登記官の処分についての審査請求には、そもそも参加人という制度がない
 
-Ａが所有権の登記名義人である土地の分筆の登記の申請が却下され、Ａがその却下処分について審査請求をした場合、その土地の抵当権の登記名義人であるＢは、参加人としてその審査請求に参加することはできません。行政不服審査法13条は、審理員の許可を得て利害関係人が審査請求に参加できる「参加人」の制度を定めていますが、**この13条も、不動産登記法158条により登記官の処分についての審査請求（156条1項）には適用除外**とされています。つまり、Ｂが抵当権者として利害関係を持つかどうか以前に、この審査請求の手続には「参加人」という地位そのものが用意されていません。
+Ａが所有権の登記名義人である土地の分筆の登記の申請が却下され、Ａがその却下処分について審査請求をした場合、その土地の抵当権の登記名義人であるＢは、参加人としてその審査請求に参加することはできません。
+
+行政不服審査法13条は、審理員の許可を得て利害関係人が審査請求に参加できる「参加人」の制度を定めていますが、**この13条も、不動産登記法158条により登記官の処分についての審査請求（156条1項）には適用除外**とされています。
+
+つまり、Ｂが抵当権者として利害関係を持つかどうか以前に、この審査請求の手続には「参加人」という地位そのものが用意されていません。
 
 **たとえば**、土地の持ち主が分筆登記を却下されて審査請求をしたとしても、その土地に抵当権を持っているだけの銀行は、その審査請求の手続きに正式な参加人として加わることはできません。
+
+---
 
 ### まとめ
 
@@ -112,12 +126,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・登・記・筆・界・積・請・裁・決・謄 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -188,20 +220,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「一般の行政不服審査法の規定が適用除外されていないか」「そもそも『処分』に当たるか」を見抜けるようにする5パネル構成。②の色分け（審査請求ができないケース＝緑、審査請求の基本ルール＝青）を引き継いでいる。
 
@@ -236,7 +268,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -262,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 そもそも期間制限が存在しない
@@ -278,7 +318,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 期間制限そのものなし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 裁決書謄本は請求人と登記官の双方へ
@@ -293,7 +333,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 請求人と登記官へ
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 筆界特定は「処分」に当たらない
@@ -310,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 境界確定訴訟で争う
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 筆界異議では他人の更正登記を争えない
@@ -325,7 +365,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 筆界異議では不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 参加人という制度自体が存在しない
@@ -347,11 +387,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 13条・18条1項・50条・51条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 審, 査, 請, 求, 処, 分, 適, 用, 除, 外, 筆, 界, 積, 裁, 決,
 謄 and any character that has a visually similar Simplified Chinese
-variant. If any character renders as a Simplified Chinese variant,
-redraw that character in the correct Japanese form. Confirm the panel
+variant. If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
 that each 着眼点 callout states a checking order rather than only a

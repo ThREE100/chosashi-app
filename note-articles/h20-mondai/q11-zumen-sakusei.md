@@ -2,39 +2,51 @@
 
 **出題年度：平成20年度　午後の部　第11問**
 
-> 書面申請において提出する土地所在図、地積測量図又は地役権図面の作成に関する次のアからオまでの記述のうち、正しいものは幾つあるか。
->
-> ア　市街地の分筆の登記の申請をする場合において、乙１精度の地図が備え付けられているときであっても、甲２精度で地積測量図を作成すべきである。
->
-> イ　地役権図面は、地役権の存する範囲及びその地積を明確にして作成する必要がある。
->
-> ウ　地役権図面には、作成の年月日を記載し、申請人が記名するほか、地役権者が署名し、又は記名押印しなければならない。
->
-> エ　分筆の登記の申請において土地所在図と地積測量図を提供する場合には、両図面の誤差の限度は同一とする。
->
-> オ　地積測量図に記録する筆界点の座標値は、基本三角点等に基づく測量成果により定めるのが原則であるが、近傍に基本三角点等がないときは、恒久的な地物に基づく測量成果によることができる。
->
+> 書面申請において提出する土地所在図、地積測量図又は地役権図面の作成に関する次のアからオまでの記述のうち、正しいものは幾つあるか。  
+>　  
+> ア　市街地の分筆の登記の申請をする場合において、乙１精度の地図が備え付けられているときであっても、甲２精度で地積測量図を作成すべきである。  
+>　  
+> イ　地役権図面は、地役権の存する範囲及びその地積を明確にして作成する必要がある。  
+>　  
+> ウ　地役権図面には、作成の年月日を記載し、申請人が記名するほか、地役権者が署名し、又は記名押印しなければならない。  
+>　  
+> エ　分筆の登記の申請において土地所在図と地積測量図を提供する場合には、両図面の誤差の限度は同一とする。  
+>　  
+> オ　地積測量図に記録する筆界点の座標値は、基本三角点等に基づく測量成果により定めるのが原則であるが、近傍に基本三角点等がないときは、恒久的な地物に基づく測量成果によることができる。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
-地積測量図・地役権図面の作成ルールは、細かな数字や手続要件が多く「正しいものはいくつか」という個数問題は特に得点差がつきやすい分野です。ここでは、精度区分の考え方、地役権図面に必要な記録事項、誤差限度の扱い、座標値記載の原則という4つの切り口で確認します。
+---
 
-### ア：精度区分は「地域の区分」で決まる
+地積測量図・地役権図面の作成ルールは、細かな数字や手続要件が多く「正しいものはいくつか」という個数問題は特に得点差がつきやすい分野です。
 
-地積測量図の誤差の限度（精度区分）を決めるのは、備え付けられている地図の精度ではなく、その土地が属する**地域の区分**です（不動産登記規則77条5項・10条4項）。市街地地域は精度区分甲二まで、村落・農耕地域は乙一まで、山林・原野地域は乙三まで、と定められています。備付け地図の精度区分と作成すべき地積測量図の精度区分を結びつける規定は置かれていません。
+ここでは、精度区分の考え方、地役権図面に必要な記録事項、誤差限度の扱い、座標値記載の原則という4つの切り口で確認します。
 
-**たとえば**、都会のオフィス街（市街地地域）にある土地を分筆するときの誤差の限度は、規則10条4項の地域区分から決まります。「どんな地図が備え付けられているか」を出発点にして精度区分を選ぶ、という考え方は採りません。
+### ア：「精度区分甲二まで」は上限であり、甲二ちょうどに限定されない
+
+地積測量図の誤差の限度（精度区分）は、地図を作成するための誤差の限度に関する規定（不動産登記規則10条4項）が準用され（同規則77条5項）、備え付けられている地図の精度ではなく、その土地が**現在属している地域の区分**によって決まります。市街地地域は精度区分甲二まで、村落・農耕地域は乙一まで、山林・原野地域は乙三までとされています。
+
+ただし「精度区分甲二まで」とは、甲二か、それより精度の高い甲一でもよいという**上限**の定めであり、甲二ちょうどの精度に限定する趣旨ではありません。本肢は、市街地だから高い精度で作成すべきだという前提自体は正しいものの、「甲２精度で…作成すべきである」と精度区分を甲二ちょうどに限定して述べている点で誤りです。
+
+**たとえば**、ある土地が地図作成当時は村落・農耕地域で乙1精度の地図しか備え付けられていなくても、市街化が進んで現在は市街地地域になっているのであれば、分筆のために新しく作る地積測量図は、既存の地図の精度（乙1）に合わせるのではなく、現在の地域区分である市街地の基準（甲二まで）で作成します。ただし、ここでいう「甲二まで」は上限の話であり、より精度の高い甲一で作成しても構いません。「甲二でなければならない」とまでは言えないのです。
 
 ### イ：地役権図面に「地積」は記録しない
 
-地役権図面の記録事項は、**地役権設定の範囲を明確にしたうえで、方位、縮尺、地番及び隣地の地番並びに申請人の氏名又は名称**であり、「地積」は含まれていません（不動産登記規則79条1項）。地役権図面は権利の及ぶ範囲を図示するための図面で、求積結果を記録する図面ではありません。
+地役権図面の記録事項は、**地役権設定の範囲を明確にしたうえで、方位、縮尺、地番及び隣地の地番並びに申請人の氏名又は名称**であり、「地積」は含まれていません（不動産登記規則79条1項）。
+
+地役権図面は権利の及ぶ範囲を図示するための図面で、求積結果を記録する図面ではありません。
 
 **たとえば**、隣の土地に「この部分だけ通行できる」という地役権を設定するときに作るのは、通行できる範囲を線で囲んで示した図面です。「その部分は何平方メートルです」という求積結果まで図面に書き込むことは求められていません。
 
 ### ウ：作成年月日・申請人の氏名に加え、地役権者の署名又は記名押印が必要
 
-地役権図面には、申請人の氏名又は名称（規則79条1項）と作成の年月日（同条3項）を記録し、書面のものには**地役権者**が署名し、又は記名押印しなければなりません（同条4項）。土地所在図・地積測量図等が「作成者」の署名・記名押印を要する（規則74条2項）のとは異なり、地役権図面では権利者本人が署名する点が特徴です。
+地役権図面には、申請人の氏名又は名称（規則79条1項）と作成の年月日（同条3項）を記録し、書面のものには**地役権者**が署名し、又は記名押印しなければなりません（同条4項）。
 
-**たとえば**、通行地役権の設定登記に添える地役権図面には、図面を作った調査士ではなく、通行できる権利を得る地役権者本人が署名（または記名押印）します。「どの範囲を自分の権利の及ぶ範囲として認識しているか」を、権利者自身に確認させる仕組みだとイメージすると覚えやすくなります。
+土地所在図・地積測量図等が「作成者」の署名・記名押印を要する（規則74条2項）のとは異なり、地役権図面では権利者本人が署名する点が特徴です。
+
+**たとえば**、通行地役権の設定登記に添える地役権図面には、図面を作った調査士ではなく、通行できる権利を得る地役権者本人が署名（または記名押印）します。
+
+「どの範囲を自分の権利の及ぶ範囲として認識しているか」を、権利者自身に確認させる仕組みだとイメージすると覚えやすくなります。
 
 ### エ：分筆の登記で提供するのは地積測量図だけ
 
@@ -48,9 +60,11 @@
 
 **たとえば**、近くに基準となる三角点がない山あいの土地では、代わりに近所にある動かない目印（恒久的地物）を基準にして座標値を求めることが認められています。
 
+---
+
 ### まとめ
 
-- **ア（誤）**　精度区分は地域の区分で決まる
+- **ア（誤）**　精度区分は現在の地域区分（市街地は甲二まで）で決まるが、「甲二まで」は上限であり甲二ちょうどに限定されない
 - **イ（誤）**　地役権図面の記録事項に「地積」は含まれない
 - **ウ（正）**　作成年月日・申請人の氏名のほか、地役権者の署名又は記名押印が必要
 - **エ（誤）**　土地所在図と地積測量図の誤差限度を同一とする定めはない
@@ -66,12 +80,12 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝正しいものは2個）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
-- **【2026年8月4日 現行法との整合性を再検証し、肢イと肢ウの正誤判定を入れ替えました】** 初版では「イ＝正しい／ウ＝誤り」としていましたが、現行の不動産登記規則79条を確認したところ、**地役権図面の記録事項は「地役権設定の範囲・方位・縮尺・地番及び隣地の地番・申請人の氏名又は名称」（1項）と「作成の年月日」（3項）であって、地積は含まれない**こと、**書面である地役権図面には「地役権者」が署名し、又は記名押印しなければならない（4項）**ことが確認できました。これに合わせて、肢イを誤り、肢ウを正しいに改め、まとめと正解表示（正しいものは2個＝ウ・オ）も修正しています。正しいものの個数（2個＝選択肢2番）は公式正答と一致したままです。
+- **【2026年8月4日 現行法との整合性を再検証し、イとウの正誤判定を入れ替えました】** 初版では「イ＝正しい／ウ＝誤り」としていましたが、現行の不動産登記規則79条を確認したところ、**地役権図面の記録事項は「地役権設定の範囲・方位・縮尺・地番及び隣地の地番・申請人の氏名又は名称」（1項）と「作成の年月日」（3項）であって、地積は含まれない**こと、**書面である地役権図面には「地役権者」が署名し、又は記名押印しなければならない（4項）**ことが確認できました。これに合わせて、イを誤り、ウを正しいに改め、まとめと正解表示（正しいものは2個＝ウ・オ）も修正しています。正しいものの個数（2個＝選択肢2番）は公式正答と一致したままです。
 - オ（筆界点の座標値は基本三角点等による測量成果が原則、近傍に基本三角点等がないときは近傍の恒久的な地物による測量成果でよい）は、不動産登記規則77条1項8号・2項で確認しました。
 - **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で全肢を再検証しました】** 確認できたのは次のとおりです。イ＝規則79条1項（記録事項に地積なし）、ウ＝規則79条3項・4項（作成の年月日／地役権者の署名又は記名押印）、オ＝規則77条1項8号・2項、ア＝規則77条5項・10条4項（誤差の限度は地域区分で決まる）、エ＝不動産登記令別表8項（分筆の登記の添付情報は分筆後の土地の地積測量図のみ）・同別表4項（土地所在図は土地の表題登記の添付情報）。
-- **肢アについては、なお注意が必要です。** 規則10条4項1号は市街地地域について「精度区分甲二まで」と定めており、この条文だけを読むと「市街地では甲二の精度で作成すべき」という本肢の記述は正しいようにも読めます。備付け地図の精度区分と作成すべき地積測量図の精度区分を結びつける規定は現行法上見当たらず、**本肢が誤りとされる決め手となる条文・通達までは特定できていません**。
-- **肢エについても補足します。** 現行の不動産登記規則では、土地所在図（規則76条3項）と地積測量図（規則77条5項）のいずれについても規則10条4項が準用されており、誤差の限度の基準表そのものは共通です。本記事は、分筆の登記では土地所在図の提供を要しない（令別表8項）という点を誤りの理由としています。平成20年当時の規則76条・79条の条文が現行と同一であったかまでは、ローカルの法令データベース（現行版のみ収録）では確認できませんでした。
-- 【重要】上記の引用部分（問題文全文）は、データベースに保存されていた各肢の**要約**をもとに再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。とくに肢ア・エは、原文の言い回し次第で判定の理由づけが変わりうる箇所です。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
+- **【2026年10月5日 アの誤りの理由を精査し、本文を修正しました】** 従来は「精度区分は地域の区分で決まり、備付け地図の精度とは無関係である」という点のみを誤りの理由としていましたが、この理由づけだけでは、本肢の前提（市街地）のもとで規則10条4項1号の「精度区分甲二まで」と矛盾せず、本肢を誤りとする決め手にならないという問題がありました。再検証の結果、**「精度区分甲二まで」は、甲二かそれより精度の高い甲一でもよいという上限の定めであり、甲二ちょうどの精度に限定する趣旨ではない**という点こそが、本肢を誤りとする決め手であると判断し、本文を修正しました。本肢は、市街地だから高精度で作成すべきだという前提自体は正しいものの、精度区分を「甲二」ちょうどに限定して述べている点で誤りです（既存の地図の精度区分とは無関係に、現在の地域区分で決まるという部分の理由づけ自体は維持しています）。
+- **エについても補足します。** 現行の不動産登記規則では、土地所在図（規則76条3項）と地積測量図（規則77条5項）のいずれについても規則10条4項が準用されており、誤差の限度の基準表そのものは共通です。本記事は、分筆の登記では土地所在図の提供を要しない（令別表8項）という点を誤りの理由としています。平成20年当時の規則76条・79条の条文が現行と同一であったかまでは、ローカルの法令データベース（現行版のみ収録）では確認できませんでした。
+- 【重要】上記の引用部分（問題文全文）は、データベースに保存されていた各肢の**要約**をもとに再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。とくにア・エは、原文の言い回し次第で判定の理由づけが変わりうる箇所です。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
 - 【重要】データベース（takuitsu.json）に保存されていた各肢の原文は、「市街地の分筆登記申請では、乙1精度の地図が備え付けられていても甲2精度で作成すべき」のような短い要約形式でした。上記の引用部分（問題文全文）は、この要約をもとに一般的な試験問題の文体で再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を「地役権図面」「基本三角点」「恒久的地物」等のキーワードで確認しました。基本三角点等に基づく座標値記録の原則・例外という条文の文言自体は複数年度で類似表現が使われますが、本問特有の具体的事例（甲2精度・乙1精度の使い分け等）の再出題は確認できませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
 
@@ -87,7 +101,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -110,10 +124,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -130,7 +162,7 @@ Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
 精度区分は地域で決まる
-Illustration: 市街地・村落農耕地・山林原野の3つのisometric地域アイコンが並ぶ。それぞれに甲1・甲2・甲3のバッジ。既存の地図アイコンから伸びる矢印には✕マーク。
+Illustration: 市街地・村落農耕地・山林原野の3つのisometric地域アイコンが並ぶ。それぞれに甲二・乙一・乙三のバッジ。既存の地図アイコンから伸びる矢印には✕マーク。
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence, NOT a
 legal citation):
@@ -183,17 +215,17 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -211,16 +243,16 @@ conditions to get there — icons such as isometric region maps for 市街
 地・村落農耕地・山林原野, a precision-grade badge (甲二・乙一等), a
 fenced land-plot icon with a dashed 地役権 boundary, a document icon
 with a signature/seal line, isometric icons for 土地所在図 and 地積測量
-図, and a survey-marker/tripod icon for 基本三角点等. Panel 5（肢オ）
+図, and a survey-marker/tripod icon for 基本三角点等. Panel 5（オ）
 turns on a single yes/no condition whose both outcomes matter, so draw
 it as a small decision flowchart（近傍に基本三角点等があるか）with both
 the Yes and the No branch ending in their own labeled conclusion node —
-do not draw a looping arrow back into the diagram. Panel 1（肢ア）
+do not draw a looping arrow back into the diagram. Panel 1（ア）
 contrasts a mistaken belief with the correct rule, so draw it as a
 LEFT/RIGHT true/false comparison with the mistaken side crossed out
-with a large ✕. Panel 3（肢ウ）contrasts two related but distinct rules
+with a large ✕. Panel 3（ウ）contrasts two related but distinct rules
 (who must sign: 作成者 vs 地役権者), so draw it as a LEFT/RIGHT
-comparison. Panels 2 and 4（肢イ・肢エ）are each resolved by a single
+comparison. Panels 2 and 4（イ・エ）are each resolved by a single
 check, so draw a labeled illustrative diagram for them instead of
 forcing a flowchart. Do not include case or precedent numbers
 (article/regulation numbers are fine); keep the callout text as written
@@ -265,7 +297,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line):
 精度区分は地域の区分で決まる
@@ -283,7 +315,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 地域区分で決まる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line):
 地役権図面の記録事項に地積はない
@@ -299,7 +331,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 地積は記録しない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line):
 署名するのは作成者でなく地役権者
@@ -316,7 +348,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 地役権者本人が署名
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line):
 分筆で提供するのは地積測量図のみ
@@ -331,7 +363,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 地積測量図のみ提供
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line):
 三角点の有無で測量成果の基準が変わる

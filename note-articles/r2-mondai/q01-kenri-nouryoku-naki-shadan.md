@@ -2,61 +2,79 @@
 
 **出題年度：令和2年度　午後の部　第1問**
 
-> 次の対話は，権利能力なき社団に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち，判例の趣旨に照らし正しいものの組合せは，後記1から5までのうち，どれか。
->
-> 教授：ある団体が法人格を有しない社団すなわち権利能力なき社団であると認められるためには，どのような要件を満たす必要がありますか。
->
-> ア　団体としての組織を備え，多数決の原則が行われ，構成員の変更にもかかわらず団体そのものが存続し，その組織において代表の方法，総会の運営，財産の管理その他団体として主要な点が確定しているものであることが必要です。
->
-> 教授：権利能力なき社団Ａの代表者であるＢが，Ａを代表して，Ｃとの間で，Ａの活動に充てるための資金として100万円を借り受ける金銭消費貸借契約を締結しました。この場合において，Ｂを含むＡの構成員各自は，Ｃに対して，当該金銭消費貸借契約に基づく貸金返還債務を負いますか。
->
-> イ　権利能力なき社団の取引上の債務は，その社団の構成員全員に帰属することになるので，Ｂを含むＡの構成員各自は，Ｃに対して，直接の貸金返還債務を負います。
->
-> 教授：権利能力なき社団Ａの資産である不動産について，これを登記するためにはどのような方法がありますか。
->
-> ウ　Ａ名義で登記をすることはできませんが，Ａの構成員全員による共有名義で登記をすることや，Ａの代表者であるＢの個人名義で登記をすることは可能です。
->
-> 教授：権利能力なき社団において，規約で定められていた改正手続に従い，総会における多数決により，構成員の資格要件を変更する旨の規約の改正が決議された場合，当該決議について承諾をしていない構成員に対して，当該決議により改正された規約は適用されますか。
->
-> エ　権利能力なき社団の構成員の資格要件の変更については，構成員各自の承諾を得る必要があり，構成員の資格要件を変更する旨の規約の改正が総会における多数決により決議された場合であっても，当該決議について承諾をしていない構成員に対しては，改正後の規約は適用されません。
->
-> 教授：権利能力なき社団である入会団体において，共有の性質を有する入会権の処分について，入会団体の構成員全員の同意を要件とすることなく，入会団体の役員会の全員一致の決議に委ねる旨の慣習が存在する場合，この慣習に基づいてされた入会権の処分は効力を有しますか。
->
-> オ　共有の性質を有する入会権については，各地方の慣習よりも民法の規定が優先的に適用されますから，この慣習に基づいてされた処分は，共有物の処分に関する民法の規律に反するものとして，効力を有しません。
->
+> 次の対話は，権利能力なき社団に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち，判例の趣旨に照らし正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> 教授：ある団体が法人格を有しない社団すなわち権利能力なき社団であると認められるためには，どのような要件を満たす必要がありますか。  
+>　  
+> ア　団体としての組織を備え，多数決の原則が行われ，構成員の変更にもかかわらず団体そのものが存続し，その組織において代表の方法，総会の運営，財産の管理その他団体として主要な点が確定しているものであることが必要です。  
+>　  
+> 教授：権利能力なき社団Ａの代表者であるＢが，Ａを代表して，Ｃとの間で，Ａの活動に充てるための資金として100万円を借り受ける金銭消費貸借契約を締結しました。この場合において，Ｂを含むＡの構成員各自は，Ｃに対して，当該金銭消費貸借契約に基づく貸金返還債務を負いますか。  
+>　  
+> イ　権利能力なき社団の取引上の債務は，その社団の構成員全員に帰属することになるので，Ｂを含むＡの構成員各自は，Ｃに対して，直接の貸金返還債務を負います。  
+>　  
+> 教授：権利能力なき社団Ａの資産である不動産について，これを登記するためにはどのような方法がありますか。  
+>　  
+> ウ　Ａ名義で登記をすることはできませんが，Ａの構成員全員による共有名義で登記をすることや，Ａの代表者であるＢの個人名義で登記をすることは可能です。  
+>　  
+> 教授：権利能力なき社団において，規約で定められていた改正手続に従い，総会における多数決により，構成員の資格要件を変更する旨の規約の改正が決議された場合，当該決議について承諾をしていない構成員に対して，当該決議により改正された規約は適用されますか。  
+>　  
+> エ　権利能力なき社団の構成員の資格要件の変更については，構成員各自の承諾を得る必要があり，構成員の資格要件を変更する旨の規約の改正が総会における多数決により決議された場合であっても，当該決議について承諾をしていない構成員に対しては，改正後の規約は適用されません。  
+>　  
+> 教授：権利能力なき社団である入会団体において，共有の性質を有する入会権の処分について，入会団体の構成員全員の同意を要件とすることなく，入会団体の役員会の全員一致の決議に委ねる旨の慣習が存在する場合，この慣習に基づいてされた入会権の処分は効力を有しますか。  
+>　  
+> オ　共有の性質を有する入会権については，各地方の慣習よりも民法の規定が優先的に適用されますから，この慣習に基づいてされた処分は，共有物の処分に関する民法の規律に反するものとして，効力を有しません。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
-「権利能力なき社団」とは、法人登記こそしていないものの、団体としての実体を備えている集まり（町内会・同窓会・サークルなど）のことです。この分野は、①どうなれば社団と認められるか、②社団の借金は誰が負うか、③社団の不動産はどう登記するか、④規約改正の効力、⑤入会権と慣習という5つの論点を、判例に沿って整理できているかが問われます。
+---
+
+「権利能力なき社団」とは、法人登記こそしていないものの、団体としての実体を備えている集まり（町内会・同窓会・サークルなど）のことです。
+
+この分野は、①どうなれば社団と認められるか、②社団の借金は誰が負うか、③社団の不動産はどう登記するか、④規約改正の効力、⑤入会権と慣習という5つの論点を、判例に沿って整理できているかが問われます。
 
 ### ア：社団性は「組織・多数決・存続・主要事項の確定」の4要件で判断する
 
-判例は、権利能力なき社団と認められるためには、①団体としての組織を備え、②多数決の原則が行われ、③構成員の変更にもかかわらず団体そのものが存続し、④代表の方法・総会の運営・財産の管理その他団体として主要な点が確定していること、が必要としています。本肢はこの4要件をそのまま述べており、正しい記述です。
+判例は、権利能力なき社団と認められるためには、①団体としての組織を備え、②多数決の原則が行われ、③構成員の変更にもかかわらず団体そのものが存続し、④代表の方法・総会の運営・財産の管理その他団体として主要な点が確定していること、が必要としています。
+
+本肢はこの4要件をそのまま述べており、正しい記述です。
 
 **たとえば**、ある町内会が、会長・役員の選び方や総会の開き方、会費の管理方法を規約で定めていて、会員が入れ替わっても町内会そのものは続いていくという実態があれば、法人登記をしていなくても「権利能力なき社団」として扱われます。
 
 ### イ：社団の借金は「社団財産だけ」が引当てで、構成員個人は返済義務を負わない
 
-権利能力なき社団の取引上の債務は、構成員全員に「総有的に」帰属し、責任財産となるのは社団の総有財産のみです。構成員各自が個人として直接の返済義務・責任を負うことはないというのが判例の立場です。本肢は「構成員各自が直接の貸金返還債務を負う」としており、判例に反する誤りです。
+権利能力なき社団の取引上の債務は、構成員全員に「総有的に」帰属し、責任財産となるのは社団の総有財産のみです。
+
+構成員各自が個人として直接の返済義務・責任を負うことはないというのが判例の立場です。本肢は「構成員各自が直接の貸金返還債務を負う」としており、判例に反する誤りです。
 
 **たとえば**、町内会がお祭りの資金として100万円を借りた場合、返済に充てられるのは町内会の会費や積立金といった団体の財産だけです。「町内会が返せないなら会員一人ひとりが自腹で返して」と貸主から請求されることはありません。
 
 ### ウ：社団の不動産は「構成員全員の共有名義」か「代表者個人名義」で登記できる
 
-権利能力なき社団は法人格がないため、社団そのもの（Ａ）の名義で不動産を登記することはできません。もっとも、構成員全員の共有名義で登記する方法のほか、代表者が構成員全員から委託を受けた地位に基づいて代表者個人の名義で登記する方法が認められているというのが判例の立場です。本肢は正しい記述です。なお「Ａ代表者Ｂ」という肩書付きの登記は認められていません。
+権利能力なき社団は法人格がないため、社団そのもの（Ａ）の名義で不動産を登記することはできません。
+
+もっとも、構成員全員の共有名義で登記する方法のほか、代表者が構成員全員から委託を受けた地位に基づいて代表者個人の名義で登記する方法が認められているというのが判例の立場です。
+
+本肢は正しい記述です。なお「Ａ代表者Ｂ」という肩書付きの登記は認められていません。
 
 **たとえば**、同窓会が会館の土地を買った場合、「○○同窓会」という名義では登記できません。会員全員の共有名義にするか、会長個人の名義で登記することになります。
 
 ### エ：資格要件の変更は、承諾しなかった構成員にも及ぶ
 
-権利能力なき社団が、規約所定の手続に従い多数決で構成員の資格要件を変更した場合、特段の事情がない限り、その決議に承諾しなかった構成員に対しても改正後の規約が適用されるというのが判例の立場です。新しい資格要件を満たさなくなった構成員は、その地位を失うことになります。本肢は「承諾しない構成員には適用されない」としており、誤りです。
+権利能力なき社団が、規約所定の手続に従い多数決で構成員の資格要件を変更した場合、特段の事情がない限り、その決議に承諾しなかった構成員に対しても改正後の規約が適用されるというのが判例の立場です。
+
+新しい資格要件を満たさなくなった構成員は、その地位を失うことになります。本肢は「承諾しない構成員には適用されない」としており、誤りです。
 
 **たとえば**、あるサークルが「会員は市内在住者に限る」と規約を多数決で改正したとき、市外に住む会員が「私は賛成していない」と主張しても、その改正は原則としてその会員にも適用され、資格を失うことになります。
 
 ### オ：入会権の内容や処分方法は、民法より地域の慣習が優先する
 
-入会権については、共有の性質を有するものは共有の規定（民法263条）を適用し、そうでないものは地役権の規定（同294条）を準用するとされていますが、いずれも「各地方の慣習に従う」ことが前提です。つまり入会権の内容や処分の方法は、まず地域の慣習によって定まります。本肢は「慣習よりも民法の規定が優先する」としており、判例・条文の理解と逆で誤りです。
+入会権については、共有の性質を有するものは共有の規定（民法263条）を適用し、そうでないものは地役権の規定（同294条）を準用するとされていますが、いずれも「各地方の慣習に従う」ことが前提です。
+
+つまり入会権の内容や処分の方法は、まず地域の慣習によって定まります。本肢は「慣習よりも民法の規定が優先する」としており、判例・条文の理解と逆で誤りです。
 
 **たとえば**、ある集落で「入会山の売却は、村人全員の同意がなくても役員会の全員一致で決めてよい」という古くからの慣習があれば、その慣習に基づく処分は原則として有効になります。「民法の共有ルールに反するから無効だ」とはなりません。
+
+---
 
 ### まとめ
 
@@ -120,12 +138,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 社・団・権・登・記・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -188,16 +224,16 @@ these 5 headings):
 5. 入会権は慣習が民法より優先
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -223,7 +259,7 @@ conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. This
 article's five 肢 do not share a single common decision-tree shape, so
 design each panel's diagram independently around its own fact pattern;
-only Panel 1（肢ア）needs an actual multi-step flowchart, since it is the
+only Panel 1（ア）needs an actual multi-step flowchart, since it is the
 only 肢 that depends on checking more than one condition in sequence (the
 four 社団性の要件, all of which must be satisfied). Unlike a glanceable
 summary poster, each panel MAY include a short「着眼点」callout box with
@@ -235,7 +271,15 @@ text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -259,7 +303,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 社団性は4要件を順に確認する
@@ -282,7 +326,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 4要件すべて必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 社団の債務は社団財産だけが負う
@@ -299,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 個人責任は負わない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 社団名義は不可、2つの代替手段
@@ -316,7 +360,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 共有名義か代表者名義
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 規約改正は反対者にも及ぶ
@@ -333,7 +377,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 反対者にも適用される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 入会権は慣習が民法より優先
@@ -355,12 +399,12 @@ Small footnote text (bottom of panel, small font, verbatim):
 効力）および民法263条・294条（入会権と慣習）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 社・団・権・登・記・続・総・慣・習. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that the multi-condition 肢（肢ア）is
+between the header and the panels, that the multi-condition 肢（ア）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered

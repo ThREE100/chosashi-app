@@ -2,21 +2,23 @@
 
 **出題年度：令和6年度　午後の部　第5問**
 
-> 添付情報に関する次のアからオまでの記述のうち、調査士報告方式（土地家屋調査士又は土地家屋調査士法人が代理人として電子申請の方法により表示に関する登記を申請する場合において、不動産登記令第13条第1項に基づき添付情報が提供されたときは、原則として、添付情報の基となった書面の提示を求めない取扱い）の対象となるものの組合せは、後記1から5までのうち、どれか。
->
-> ア　地役権の登記がある承役地の分筆の登記を申請する場合において、地役権設定の範囲が分筆後の土地の一部であるときに提供する当該地役権設定の範囲を証する書面
->
-> イ　建物の滅失の登記を申請する場合に代理人の権限を証する情報として提供する委任状
->
-> ウ　建物の表題登記を申請する場合に所有権を有することを証する情報として提供する工事施工会社作成の工事完了引渡証明書
->
-> エ　表題部所有者の更正の登記を申請する場合に表題部所有者の承諾を証する情報として提供する承諾書
->
-> オ　抵当権の登記がある甲建物と抵当権の登記がない乙建物が合体して1個の建物となった場合において、合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請するときに当該抵当権の登記名義人が当該抵当権を合体後の建物について消滅させることについて承諾したことを証する情報として提供する当該抵当権の登記名義人作成の承諾書
->
-> （参考）不動産登記令第13条　前条第2項の規定にかかわらず、電子情報処理組織を使用する方法により表示に関する登記を申請する場合において、当該申請の添付情報（申請人又はその代表者若しくは代理人が作成したもの並びに土地所在図、地積測量図、地役権図面、建物図面及び各階平面図を除く。）が書面に記載されているときは、当該書面に記載された情報を電磁的記録に記録したものを添付情報とすることができる。この場合において、当該電磁的記録は、当該電磁的記録を作成した者による電子署名が行われているものでなければならない。　2（略）
->
+> 添付情報に関する次のアからオまでの記述のうち、調査士報告方式（土地家屋調査士又は土地家屋調査士法人が代理人として電子申請の方法により表示に関する登記を申請する場合において、不動産登記令第13条第1項に基づき添付情報が提供されたときは、原則として、添付情報の基となった書面の提示を求めない取扱い）の対象となるものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　地役権の登記がある承役地の分筆の登記を申請する場合において、地役権設定の範囲が分筆後の土地の一部であるときに提供する当該地役権設定の範囲を証する書面  
+>　  
+> イ　建物の滅失の登記を申請する場合に代理人の権限を証する情報として提供する委任状  
+>　  
+> ウ　建物の表題登記を申請する場合に所有権を有することを証する情報として提供する工事施工会社作成の工事完了引渡証明書  
+>　  
+> エ　表題部所有者の更正の登記を申請する場合に表題部所有者の承諾を証する情報として提供する承諾書  
+>　  
+> オ　抵当権の登記がある甲建物と抵当権の登記がない乙建物が合体して1個の建物となった場合において、合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消を申請するときに当該抵当権の登記名義人が当該抵当権を合体後の建物について消滅させることについて承諾したことを証する情報として提供する当該抵当権の登記名義人作成の承諾書  
+>　  
+> （参考）不動産登記令第13条　前条第2項の規定にかかわらず、電子情報処理組織を使用する方法により表示に関する登記を申請する場合において、当該申請の添付情報（申請人又はその代表者若しくは代理人が作成したもの並びに土地所在図、地積測量図、地役権図面、建物図面及び各階平面図を除く。）が書面に記載されているときは、当該書面に記載された情報を電磁的記録に記録したものを添付情報とすることができる。この場合において、当該電磁的記録は、当該電磁的記録を作成した者による電子署名が行われているものでなければならない。　2（略）  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 調査士報告方式は、土地家屋調査士が電子申請をする際に、一定の添付情報について原本提示を求めない実務上の取扱いです。「誰の意思を証明する書面か」という視点で、対象となる書面とならない書面を仕分けていく分野です。
 
@@ -28,7 +30,11 @@
 
 ### イ：申請人が作成した委任状は、調査士報告方式の対象
 
-委任状は代理権限を証する情報であり、申請人（委任者）自身が作成した書面です。不動産登記令13条1項は、申請人又はその代表者若しくは代理人が作成したものを適用対象から除外しており、委任状のような申請人自身が作成した書面は、そもそも同条2項の書面提示義務の対象になりません。実務上も、委任状は調査士報告方式の下で原本の提示を求められない取扱いとなっています。
+委任状は代理権限を証する情報であり、申請人（委任者）自身が作成した書面です。
+
+不動産登記令13条1項は、申請人又はその代表者若しくは代理人が作成したものを適用対象から除外しており、委任状のような申請人自身が作成した書面は、そもそも同条2項の書面提示義務の対象になりません。
+
+実務上も、委任状は調査士報告方式の下で原本の提示を求められない取扱いとなっています。
 
 **たとえば**、建物の滅失の登記を依頼したAさんが、土地家屋調査士に渡す委任状を作成した場合、その委任状は依頼者自身が作成した書類であるため、原本を提示しなくても電子データとして提供することができます。
 
@@ -49,6 +55,8 @@
 抵当権の登記名義人が抵当権の消滅を承諾したことを証する書面は、第三者の権利処分・承諾に係る意思表示を含む書面であり、調査士報告方式の対象外とされています。
 
 **たとえば**、抵当権付きの建物と抵当権のない建物が合体し、合体後の建物について抵当権を消滅させることに抵当権者が同意した承諾書を提出する場合、この書面は抵当権者本人の意思確認を担保する必要があるため、原本の提示が必要です。
+
+---
 
 ### まとめ
 
@@ -110,12 +118,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・建・物・登・記・所 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -176,20 +202,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (2
 cards in Column A, 3 cards in Column B), with no duplicated or missing
 cards, that badge numbers run 1-5 continuously across both columns
 without resetting, confirm there is no intro illustration or paragraph
 block between the header and the cards, and confirm that no card contains
 a full sentence of explanatory prose — every card's takeaway must read
-as a short heading + a short conclusion tag, at a glance.
+as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。5肢はいずれも「作成者は誰か」「第三者の意思確認を担保すべき書面か」という同じ決定木で仕分けられるため、5枚のパネルで1つの共有フローチャートを使い回し、各パネルは自分の肢に関係する分岐だけを強調する構成にする。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
 
@@ -230,7 +256,15 @@ to the article's own body text - do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
@@ -256,7 +290,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in blue containing the number 1(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -278,7 +312,7 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原本提示が必要
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -297,7 +331,7 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 原本提示は不要
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in green containing the number 3(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -319,7 +353,7 @@ Conclusion tag(a short colored banner/pill, green, 5-15 Japanese
 characters):
 原本提示は不要
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -341,7 +375,7 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原本提示が必要
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
@@ -365,16 +399,15 @@ Conclusion tag(a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原本提示が必要
 
-(…肢の数だけ繰り返し。バッジ番号は1から通しで振る。)
 
 --- FOOTER ---
 Small footnote text(bottom of panel, small font, verbatim):
 根拠：不動産登記令13条1項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese(Jōyō) form, not Simplified Chinese, paying special
-attention to 委・任・状・地・役・権・証・明・提・示・略・諾. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese(Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 委・任・状・地・役・権・証・明・提・示・諾. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every

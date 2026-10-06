@@ -2,51 +2,73 @@
 
 **出題年度：令和元年度　午後の部　第15問**
 
-> 建物の表示に関する登記の添付情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　建物の表題登記の申請をする場合において、表題部所有者となる者の所有権を有することを証する情報として当該建物の敷地所有者による証明情報を添付するときは、敷地の共有者の一部の者による証明でも差し支えない。
->
-> イ　Ａを所有権の登記名義人とする建物の合併の登記について、土地家屋調査士を代理人として電子申請をする場合において、当該土地家屋調査士を代理人とする委任状にＡが適正な電子署名を行ったときは、添付情報として、その電子証明書とともに作成後3月以内のＡの印鑑に関する証明書を提供しなければならない。
->
-> ウ　株式会社を所有者とする建物の表題登記について、土地家屋調査士を代理人として電子申請をする場合において、当該土地家屋調査士を代理人とする委任状に当該株式会社の代表者が適正な電子署名を行ったときは、添付情報として、その電子証明書とともに当該株式会社の会社法人等番号を提供しなければならない。
->
-> エ　所有権の登記のある建物の合併の登記について、土地家屋調査士を代理人として電子申請をする場合において、合併前の建物の所有権の登記について登記識別情報が書面で通知されているときは、当該書面をスキャナにより電磁的記録に記録し、当該土地家屋調査士が適正な電子署名を行った当該電磁的記録を添付情報として提供する方法により、当該登記識別情報を提供することができる。
->
-> オ　表題登記がされていない建物を相続したＡが、Ａを所有者とする建物の表題登記を申請する場合には、所有権を有することを証する情報及び住所を証する情報として、Ａの住所が記載されている法定相続情報一覧図の写しを提供することができる。
->
+> 建物の表示に関する登記の添付情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　建物の表題登記の申請をする場合において、表題部所有者となる者の所有権を有することを証する情報として当該建物の敷地所有者による証明情報を添付するときは、敷地の共有者の一部の者による証明でも差し支えない。  
+>　  
+> イ　Ａを所有権の登記名義人とする建物の合併の登記について、土地家屋調査士を代理人として電子申請をする場合において、当該土地家屋調査士を代理人とする委任状にＡが適正な電子署名を行ったときは、添付情報として、その電子証明書とともに作成後3月以内のＡの印鑑に関する証明書を提供しなければならない。  
+>　  
+> ウ　株式会社を所有者とする建物の表題登記について、土地家屋調査士を代理人として電子申請をする場合において、当該土地家屋調査士を代理人とする委任状に当該株式会社の代表者が適正な電子署名を行ったときは、添付情報として、その電子証明書とともに当該株式会社の会社法人等番号を提供しなければならない。  
+>　  
+> エ　所有権の登記のある建物の合併の登記について、土地家屋調査士を代理人として電子申請をする場合において、合併前の建物の所有権の登記について登記識別情報が書面で通知されているときは、当該書面をスキャナにより電磁的記録に記録し、当該土地家屋調査士が適正な電子署名を行った当該電磁的記録を添付情報として提供する方法により、当該登記識別情報を提供することができる。  
+>　  
+> オ　表題登記がされていない建物を相続したＡが、Ａを所有者とする建物の表題登記を申請する場合には、所有権を有することを証する情報及び住所を証する情報として、Ａの住所が記載されている法定相続情報一覧図の写しを提供することができる。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+
+---
 
 添付情報の分野は、「その情報が何のために必要とされるのか」を押さえておくと、電子申請でひっかけられても迷いません。電子署名と電子証明書、印鑑証明書、会社法人等番号、登記識別情報――それぞれの役割を意識しながら見ていきましょう。
 
 ### ア：敷地が共有なら、共有者の一部の証明でも差し支えない
 
-建物の表題登記を申請する際、表題部所有者となる者の所有権を有することを証する情報として、当該建物の敷地の所有者による証明情報を添付することができます。そして敷地が共有であるときは、その共有者全員でなくても、共有者の一部の者による証明でも差し支えないとされています（先例による）。したがって本肢は正しい記述です。
+建物の表題登記を申請する際、表題部所有者となる者の所有権を有することを証する情報として、当該建物の敷地の所有者による証明情報を添付することができます。
 
-**たとえば**、他人の共有地の上に建物を建てて表題登記をするとき、「この建物はあなたのものですよ」という敷地所有者の証明をもらう場面があります。このとき敷地の共有者が数人いても、そのうちの一部の人が証明してくれれば添付情報として使える、ということです。
+そして敷地が共有であるときは、その共有者全員でなくても、共有者の一部の者による証明でも差し支えないとされています（先例による）。したがって本肢は正しい記述です。
+
+**たとえば**、他人の共有地の上に建物を建てて表題登記をするとき、「この建物はあなたのものですよ」という敷地所有者の証明をもらう場面があります。
+
+このとき敷地の共有者が数人いても、そのうちの一部の人が証明してくれれば添付情報として使える、ということです。
 
 ### イ：電子署名をしていれば、印鑑証明書は要らない
 
-建物の合併の登記を電子申請する場合において、委任状に所有者Aが適正な電子署名を行ったときは、その電子証明書を提供することになります。電子署名と電子証明書によって本人の意思と真正が確認できる以上、書面申請の印鑑証明書に相当するものを別に提供する必要はありません。しかも電子証明書の有効期間は発行日から起算して5年未満であり、随時発行するものではないため、「作成後3月以内」という書面の印鑑証明書のような期間制限もあてはまりません。本肢は「印鑑証明書を提供しなければならない」としている点が誤りです。
+建物の合併の登記を電子申請する場合において、委任状に所有者Aが適正な電子署名を行ったときは、その電子証明書を提供することになります。
+
+電子署名と電子証明書によって本人の意思と真正が確認できる以上、書面申請の印鑑証明書に相当するものを別に提供する必要はありません。
+
+しかも電子証明書の有効期間は発行日から起算して5年未満であり、随時発行するものではないため、「作成後3月以内」という書面の印鑑証明書のような期間制限もあてはまりません。本肢は「印鑑証明書を提供しなければならない」としている点が誤りです。
 
 **たとえば**、紙の申請なら実印を押して印鑑証明書を付けるところを、電子申請では電子署名＋電子証明書がその役割を果たします。電子署名をしたのに、さらに紙の印鑑証明書まで求めるのは二重の要求で、必要ないというわけです。
 
 ### ウ：会社法人等番号は、電子署名の真正を確認するための情報ではない
 
-株式会社を所有者とする建物の表題登記を電子申請する場合において、委任状に会社の代表者が適正な電子署名を行ったときは、その電子署名の真正は電子証明書によって確認されます。会社法人等番号は、法人の電子署名の真正を確認するために提供するものではありません。したがって「電子証明書とともに会社法人等番号を提供しなければならない」とする本肢は誤りです。
+株式会社を所有者とする建物の表題登記を電子申請する場合において、委任状に会社の代表者が適正な電子署名を行ったときは、その電子署名の真正は電子証明書によって確認されます。
+
+会社法人等番号は、法人の電子署名の真正を確認するために提供するものではありません。したがって「電子証明書とともに会社法人等番号を提供しなければならない」とする本肢は誤りです。
 
 **たとえば**、会社の代表者が電子署名をしたとき、「この署名が本物か」を裏づけるのは電子証明書の役割です。会社法人等番号は会社を特定・確認するための番号であって、署名の真正性チェックのためにセットで必ず出さなければならないもの、ではないのです。
 
 ### エ：書面で通知された登記識別情報を、スキャナで読み取って送る方法は使えない
 
-電子申請において登記識別情報を提供する場合は、登記識別情報（その符号）を入力する方法によって提供することになります。したがって、書面で通知された登記識別情報を、スキャナにより電磁的記録に記録して土地家屋調査士が電子署名を付し、これを送信する、という方法によって提供することはできません（不登令附則5条1項かっこ書）。本肢は誤った記述です。
+電子申請において登記識別情報を提供する場合は、登記識別情報（その符号）を入力する方法によって提供することになります。
+
+したがって、書面で通知された登記識別情報を、スキャナにより電磁的記録に記録して土地家屋調査士が電子署名を付し、これを送信する、という方法によって提供することはできません（不登令附則5条1項かっこ書）。本肢は誤った記述です。
 
 **たとえば**、通知書に印字された登記識別情報を提供したいとき、電子申請ではその符号そのものを入力して送ります。通知書をスキャンして画像として送りつける、という方法は用意されていない、ということです。
 
 ### オ：住所入りの法定相続情報一覧図の写しは、所有権証明と住所証明を兼ねられる
 
-表題登記がされていない建物を相続したAが、自らを所有者とする建物の表題登記を申請する場合、Aの住所が記載されている法定相続情報一覧図の写しを提供することができます。この写しは、相続を証する情報（所有権を有することを証する情報）として使えるうえ、相続人の住所が記載されているときは、住所を証する市町村長その他の公務員が職務上作成した情報の提供に代えることができます（先例による）。したがって、所有権証明情報と住所証明情報を兼ねられるとする本肢は正しい記述です。
+表題登記がされていない建物を相続したAが、自らを所有者とする建物の表題登記を申請する場合、Aの住所が記載されている法定相続情報一覧図の写しを提供することができます。
 
-**たとえば**、亡くなった人の建物を相続した人が表題登記をするとき、本来なら「相続を証する書面」と「住所を証する書面」を別々にそろえる必要があります。ところが住所まで書き込まれた法定相続情報一覧図の写しが1枚あれば、その両方の役割を果たしてくれる、という便利な取扱いです。
+この写しは、相続を証する情報（所有権を有することを証する情報）として使えるうえ、相続人の住所が記載されているときは、住所を証する市町村長その他の公務員が職務上作成した情報の提供に代えることができます（先例による）。
+
+したがって、所有権証明情報と住所証明情報を兼ねられるとする本肢は正しい記述です。
+
+**たとえば**、亡くなった人の建物を相続した人が表題登記をするとき、本来なら「相続を証する書面」と「住所を証する書面」を別々にそろえる必要があります。
+
+ところが住所まで書き込まれた法定相続情報一覧図の写しが1枚あれば、その両方の役割を果たしてくれる、という便利な取扱いです。
+
+---
 
 ### まとめ
 
@@ -67,7 +89,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ア（昭37.10.8民甲2885号）、エ（不登令附則5条1項かっこ書）、オ（平30.3.29民二166号）は、データベースの解説で条文・先例番号まで確認できたものです。一方、イ（電子署名により印鑑証明書が不要となること・電子証明書の有効期間）とウ（会社法人等番号は電子署名の真正確認のためのものではないこと）については、電子申請の一般的な仕組みからの説明であり、個別の条文番号までは特定していません（電子証明書・会社法人等番号の提供方法は不登令7条等が関係します）。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ誤 エ誤 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物の表示登記の添付情報）と同一・類似の問題が再出題されていないかを確認しました。特に令和6年度第4問は、ウ（敷地共有者の一部の証明で足りる、昭37.10.8民甲2885号）が本問ア、エ（合同会社の電子申請で電子署名済みの委任状を提供した場合に会社法人等番号の提供を要しない）が本問ウ、イ（相続人の住所が記載された法定相続情報一覧図の写しにより住所証明情報の提供を要しない、平30.3.29民二166号）が本問オと、それぞれほぼ同一の論点・先例を扱っています。さらに令和3年度第4問アは、登記識別情報が書面で通知されている場合にスキャナ読取＋電子署名により提供する方法の可否という点で本問エと同一の論点です。**部分的に類似する記述があります**（本問ア・ウ・エ・オに対応する論点が複数の年度で再出題されています）。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：本文が引用する不動産登記令附則5条1項かっこ書（書面通知の登記識別情報はスキャナ読取り・電子署名の方法では提供できないこと）について、法務省の解説ページ（不動産登記令附則第５条第１項の規定による申請＝特例方式）がWebSearchで確認でき、現在も同様の取扱いであることを確認しました。また先例（昭37.10.8民甲2885号、平30.3.29民二166号）についても、変更・廃止された形跡は見つかりませんでした。修正の必要はありません。
 - **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。本文が引用する不動産登記令附則5条1項（添付情報の提供方法に関する特例。かっこ書で登記識別情報を除外していること）を`note-articles/laws/fudousan-touki-rei.md`の条文原文と突き合わせ、条番号・文言とも一致することを確認しました。判例・先例番号の本文残留、正解番号との不整合、Markdown表の残存、敬体の乱れ、全角括弧の不統一、インフォグラフィックと本文の不一致は見つからず、修正は行っていません。正誤判定・正解の組合せに変更はありません。
@@ -111,13 +133,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・権・証・明・情・報・登・記・識・別・電・子・署・名・印・鑑・会・社・法・人・番・住・所・続・覧・図・相
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -196,18 +236,18 @@ these 5 headings):
 5. 住所入り相続一覧図は一枚で二役
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア・ウ・エは「うっかりした思い込み」と「正しいルール」を左右に対比させる正誤対比型にした
 （ア＝緑、ウ・エ＝青）。イは「電子署名・電子証明書の提供により印鑑証明書が不要になる」
@@ -252,7 +292,15 @@ condition each callout describes faithful to the article's own body text
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -278,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -298,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 共有者全員でなくてよい
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 電子証明書があれば印鑑証明書は不要
@@ -320,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 印鑑証明書も期間制限も不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 会社法人等番号は電子署名確認の情報でない
@@ -341,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 真正確認は電子証明書の役割
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 登記識別情報はスキャンでなく符号入力
@@ -360,7 +408,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 符号を入力して提供
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in orange containing the number 5.
 Heading (bold, ONE line):
 住所入り相続一覧図は二つの証明を兼ねる
@@ -388,11 +436,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 先例による取扱いを整理したもの(先例番号は本図中省略)。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 地・権・証・明・情・報・登・記・識・別・電・子・署・名・印・
 鑑・会・社・法・人・番・住・所・続・覧・図・相・効・期・限・兼・符・号・
-真・正・書・誤・確・認. If any character renders as a Simplified Chinese
-variant, redraw that character in the correct Japanese form. Confirm the panel count
+真・正・書・誤・確・認. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
 every multi-condition 肢 is drawn as an actual flowchart or clearly

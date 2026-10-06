@@ -2,39 +2,51 @@
 
 **出題年度：令和5年度　午後の部　第2問**
 
-> 物権的請求権に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　Ａが甲土地の所有者Ｂから甲土地を買った場合において、ＡＢ間の売買契約上、甲土地の所有権の移転時期に関する特約がないときは、Ａは、当該契約締結後直ちに、Ｂに対して所有権に基づき甲土地の引渡しを請求することができる。
->
-> イ　Ａが甲土地の所有者Ｂから甲土地を買った場合において、甲土地について、ＢからＡへの所有権の移転の登記がされていないときは、Ａは、甲土地を占有する無権利者Ｃに対して甲土地の明渡しを請求することができない。
->
-> ウ　Ａが甲土地を所有し、その旨の登記がされている場合において、無権利者Ｂが甲土地上に乙建物を建て、占有補助者であるＣと共に居住しているときは、Ｃを建物から退去させるためには、Ａは、Ｃに対し、乙建物から退去して甲土地を明け渡すことを請求しなければならない。
->
-> エ　Ａ及びＢが甲土地を共有している場合において、無権利者Ｃが甲土地に産業廃棄物を不法投棄したときは、Ａは、単独で、Ｃに対して当該産業廃棄物を撤去するよう請求することができる。
->
-> オ　所有権が時効によって消滅することはないが、所有権に基づく返還請求権は時効によって消滅する。
->
+> 物権的請求権に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　Ａが甲土地の所有者Ｂから甲土地を買った場合において、ＡＢ間の売買契約上、甲土地の所有権の移転時期に関する特約がないときは、Ａは、当該契約締結後直ちに、Ｂに対して所有権に基づき甲土地の引渡しを請求することができる。  
+>　  
+> イ　Ａが甲土地の所有者Ｂから甲土地を買った場合において、甲土地について、ＢからＡへの所有権の移転の登記がされていないときは、Ａは、甲土地を占有する無権利者Ｃに対して甲土地の明渡しを請求することができない。  
+>　  
+> ウ　Ａが甲土地を所有し、その旨の登記がされている場合において、無権利者Ｂが甲土地上に乙建物を建て、占有補助者であるＣと共に居住しているときは、Ｃを建物から退去させるためには、Ａは、Ｃに対し、乙建物から退去して甲土地を明け渡すことを請求しなければならない。  
+>　  
+> エ　Ａ及びＢが甲土地を共有している場合において、無権利者Ｃが甲土地に産業廃棄物を不法投棄したときは、Ａは、単独で、Ｃに対して当該産業廃棄物を撤去するよう請求することができる。  
+>　  
+> オ　所有権が時効によって消滅することはないが、所有権に基づく返還請求権は時効によって消滅する。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 物権的請求権は、所有権などの物権が邪魔されているときに、その妨害を取り除くよう求める権利です。この分野は、「いつ所有権が移るのか」「誰に対して請求できるのか」「登記や時効との関係はどうなるのか」を判例のルールに沿って整理できているかが問われます。
 
 ### ア：特約がなければ、所有権は契約と同時に移り、直ちに引渡しを請求できる
 
-不動産のような特定物の売買では、所有権の移転時期について特約がなければ、契約と同時に所有権が買主に移ります（判例）。所有権が移っていれば、買主は所有権に基づいて目的物の引渡しを請求できますから、契約締結後直ちに売主に対して引渡しを求めることができます。
+不動産のような特定物の売買では、所有権の移転時期について特約がなければ、契約と同時に所有権が買主に移ります（判例）。
+
+所有権が移っていれば、買主は所有権に基づいて目的物の引渡しを請求できますから、契約締結後直ちに売主に対して引渡しを求めることができます。
 
 **たとえば**、Aさんが「代金は後で払う」との合意だけで、所有権を移す時期についての特約なしにBさんから土地を買った場合、契約を結んだその瞬間に土地の所有権はAさんに移ります。AさんはすぐにでもBさんへ「土地を引き渡してください」と請求できます。
 
 ### イ：無権利者に対しては、登記がなくても明渡しを請求できる
 
-不動産の物権変動は、登記をしないと「第三者」に対抗できません（民法177条）。もっとも判例は、この「第三者」を登記の欠缺（未登記）を主張するにつき正当な利益を有する者に限定しており、不法占拠者のような無権利者は「第三者」にあたらないとしています。したがって、買主は移転登記がなくても、無権利者に対して明渡しを請求できます。
+不動産の物権変動は、登記をしないと「第三者」に対抗できません（民法177条）。
 
-**たとえば**、AさんがBさんから土地を買ったものの、まだ登記名義がAさんに移っていないとします。その土地を何の権利もないCさんが勝手に占有していても、CさんはAさんの登記のなさを主張できる立場にはないので、Aさんは登記がなくてもCさんに「土地を明け渡せ」と請求できます。
+もっとも判例は、この「第三者」を登記の欠缺（未登記）を主張するにつき正当な利益を有する者に限定しており、不法占拠者のような無権利者は「第三者」にあたらないとしています。したがって、買主は移転登記がなくても、無権利者に対して明渡しを請求できます。
+
+**たとえば**、AさんがBさんから土地を買ったものの、まだ登記名義がAさんに移っていないとします。
+
+その土地を何の権利もないCさんが勝手に占有していても、CさんはAさんの登記のなさを主張できる立場にはないので、Aさんは登記がなくてもCさんに「土地を明け渡せ」と請求できます。
 
 ### ウ：占有補助者ではなく、占有している本人に対して明渡しを請求する
 
-占有者本人の同居家族などの占有補助者には、独立した占有が認められないため、明渡し請求の相手方にはなりません。土地を無権利で占有する建物所有者本人に対して明渡し（建物収去土地明渡し）を請求すれば、その本人と同居する占有補助者もあわせて退去させることができます（判例）。占有補助者に個別に請求しなければならないわけではありません。
+占有者本人の同居家族などの占有補助者には、独立した占有が認められないため、明渡し請求の相手方にはなりません。
 
-**たとえば**、Aさん所有の土地に無権利者Bさんが勝手に家を建て、その家にBさんの家族Cさんも一緒に住んでいるとします。Aさんは、家の所有者であるBさん本人に対して「建物を収去して土地を明け渡せ」と請求すれば足り、家族のCさんに対して別途退去請求をしなくても、Cさんも退去させることができます。
+土地を無権利で占有する建物所有者本人に対して明渡し（建物収去土地明渡し）を請求すれば、その本人と同居する占有補助者もあわせて退去させることができます（判例）。占有補助者に個別に請求しなければならないわけではありません。
+
+**たとえば**、Aさん所有の土地に無権利者Bさんが勝手に家を建て、その家にBさんの家族Cさんも一緒に住んでいるとします。
+
+Aさんは、家の所有者であるBさん本人に対して「建物を収去して土地を明け渡せ」と請求すれば足り、家族のCさんに対して別途退去請求をしなくても、Cさんも退去させることができます。
 
 ### エ：共有者は単独で、不法投棄物の撤去（妨害排除）を請求できる
 
@@ -44,9 +56,15 @@
 
 ### オ：所有権に基づく返還請求権も、時効によって消滅することはない
 
-所有権は取得時効の対象にはなりますが（民法162条）、消滅時効の対象にはなりません（民法166条参照）。そして所有権に基づく物権的請求権（返還請求権など）も、所有権と独立して単独で消滅時効にかかることはないと解されています（判例）。したがって、返還請求権だけが時効で消滅するということはありません。
+所有権は取得時効の対象にはなりますが（民法162条）、消滅時効の対象にはなりません（民法166条参照）。
 
-**たとえば**、Aさんが持っている土地を長年ずっと放置していたとしても、所有権そのものが時効で消えることはありませんし、無権利者に対する「返してください」という返還請求権だけが時効で消えてしまうこともありません。所有権がある限り、返還請求権も生き続けます。
+そして所有権に基づく物権的請求権（返還請求権など）も、所有権と独立して単独で消滅時効にかかることはないと解されています（判例）。したがって、返還請求権だけが時効で消滅するということはありません。
+
+**たとえば**、Aさんが持っている土地を長年ずっと放置していたとしても、所有権そのものが時効で消えることはありませんし、無権利者に対する「返してください」という返還請求権だけが時効で消えてしまうこともありません。
+
+所有権がある限り、返還請求権も生き続けます。
+
+---
 
 ### まとめ
 
@@ -109,12 +127,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・建・物・登・記 — these must be rendered in their standard
+kanji 権・建・物・登・記 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -134,8 +170,7 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 無権利者には登記なくても明渡し可
 Illustration: An isometric land plot with a buyer figure A standing on
-it without any registration certificate (a crossed-out 登記 badge above
-him), next to an unauthorized occupier figure C labeled "無権利者" being
+it without any registration certificate (a crossed-out 登記 badge above A), next to an unauthorized occupier figure C labeled "無権利者" being
 pointed at by an arrow labeled "明渡し請求" — no barrier is shown between
 A and C despite A lacking registration.
 Conclusion tag (green banner below the illustration, 5-15 characters):
@@ -146,8 +181,7 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 占有補助者でなく本人に請求
 Illustration: An isometric house icon on a land plot, with a main
-occupier figure B (labeled "無権利者・建物所有者") and a smaller family
-figure C beside him labeled "占有補助者"; an arrow labeled "明渡し請求"
+occupier figure B (labeled "無権利者・建物所有者") and a smaller family figure C beside B labeled "占有補助者"; an arrow labeled "明渡し請求"
 points only to figure B, while a dotted arrow shows C also being escorted
 out automatically once B is removed.
 Conclusion tag (green banner below the illustration, 5-15 characters):
@@ -194,20 +228,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 物権的請求権の問題文を読んだときに、「誰に」「何を根拠に」請求できるかを見分ける5パネル構成。
 
@@ -216,7 +250,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-（物権的請求権は誰に主張できる？), but built as a set of 5
+（物権的請求権は誰に主張できる？）, but built as a set of 5
 diagram-drawing panels (a "how to sketch this fact pattern, in the right
 order" study reference) rather than a quick-reference conclusion poster.
 
@@ -242,7 +276,15 @@ fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -266,7 +308,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 特約の有無を先に確認する
@@ -282,7 +324,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 契約と同時に移転
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相手が無権利者かを先に見分ける
@@ -299,13 +341,12 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記なくても可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 占有補助者でなく本人に請求
 Diagram: An isometric house icon on a land plot, with a main occupier
-figure Ｂ（labeled「無権利者・建物所有者」）and a smaller family figure
-Ｃ beside him labeled「占有補助者」; an arrow labeled「明渡し請求」points
+figure Ｂ（labeled「無権利者・建物所有者」）and a smaller family figure Ｃ beside Ｂ labeled「占有補助者」; an arrow labeled「明渡し請求」points
 only to figure Ｂ, while a dotted arrow shows Ｃ also being escorted out
 automatically once Ｂ is removed。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -316,7 +357,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 本人請求で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 保存行為かどうかを確認する
@@ -333,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 単独で請求可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 所有権が消えるかを先に確認する
@@ -354,11 +395,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法162条・166条・177条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権, 地, 建, 物, 登, 記, 償 and any character that has a
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権, 建, 物, 登, 記 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered

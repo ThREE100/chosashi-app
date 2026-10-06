@@ -2,61 +2,81 @@
 
 **出題年度：令和3年度　午後の部　第14問**
 
-> 次の対話は、建物の種類の定め方に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> 教授：建物の種類は、建物の主な用途により定めることとされています。100個の区分建物からなる一棟の建物に属する1個の甲区分建物が事務所として利用されているが、それ以外の99個の区分建物が独立して居住の用に供されているときは、甲区分建物に関する建物の種類は、どのように定められますか。
->
-> 学生：ア　その場合には、一棟の建物に属するほぼ全ての区分建物が居住の用に供されていますので、甲区分建物に関する建物の種類も「居宅」と定められます。
->
-> 教授：区分建物でない建物として登記されている6階建てのビルについて、1階から3階までをパチンコ店、4階から5階までを映画館、6階をオーナーが居住する部分として利用されている場合には、当該ビルに関する建物の種類は、どのように定められますか。
->
-> 学生：イ　当該ビルに関する建物の種類は「遊技場・映画館・居宅」と定められます。
->
-> 教授：区分建物でない建物に店舗として利用されている部分と居宅として利用されている部分とがある場合において、当該店舗として利用されている部分の面積が当該居宅として利用されている部分の面積に比べて著しく小さいときは、当該建物に関する建物の種類を「居宅・店舗」と定めることができますか。
->
-> 学生：ウ　店舗として利用される部分も当該建物の主な用途と認められるのであれば「居宅・店舗」と定めることができます。
->
-> 教授：では、野球場として利用される開閉式円形ドーム屋根付きの建物について、当該建物内に店舗や駐車場が設けられている場合には、これら全ての用途を建物の種類として定める必要がありますか。
->
-> 学生：エ　はい。当該建物の種類は「野球場・店舗・駐車場」と定めなければなりません。
->
-> 教授：「保育所」や「教習所」を建物の種類として定めることはできますか。
->
-> 学生：オ　いいえ。「保育所」や「教習所」は、不動産登記規則及び不動産登記事務取扱手続準則に規定された種類の区分に該当しないので、建物の種類として定めることはできません。
->
+> 次の対話は、建物の種類の定め方に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> 教授：建物の種類は、建物の主な用途により定めることとされています。100個の区分建物からなる一棟の建物に属する1個の甲区分建物が事務所として利用されているが、それ以外の99個の区分建物が独立して居住の用に供されているときは、甲区分建物に関する建物の種類は、どのように定められますか。  
+>　  
+> 学生：ア　その場合には、一棟の建物に属するほぼ全ての区分建物が居住の用に供されていますので、甲区分建物に関する建物の種類も「居宅」と定められます。  
+>　  
+> 教授：区分建物でない建物として登記されている6階建てのビルについて、1階から3階までをパチンコ店、4階から5階までを映画館、6階をオーナーが居住する部分として利用されている場合には、当該ビルに関する建物の種類は、どのように定められますか。  
+>　  
+> 学生：イ　当該ビルに関する建物の種類は「遊技場・映画館・居宅」と定められます。  
+>　  
+> 教授：区分建物でない建物に店舗として利用されている部分と居宅として利用されている部分とがある場合において、当該店舗として利用されている部分の面積が当該居宅として利用されている部分の面積に比べて著しく小さいときは、当該建物に関する建物の種類を「居宅・店舗」と定めることができますか。  
+>　  
+> 学生：ウ　店舗として利用される部分も当該建物の主な用途と認められるのであれば「居宅・店舗」と定めることができます。  
+>　  
+> 教授：では、野球場として利用される開閉式円形ドーム屋根付きの建物について、当該建物内に店舗や駐車場が設けられている場合には、これら全ての用途を建物の種類として定める必要がありますか。  
+>　  
+> 学生：エ　はい。当該建物の種類は「野球場・店舗・駐車場」と定めなければなりません。  
+>　  
+> 教授：「保育所」や「教習所」を建物の種類として定めることはできますか。  
+>　  
+> 学生：オ　いいえ。「保育所」や「教習所」は、不動産登記規則及び不動産登記事務取扱手続準則に規定された種類の区分に該当しないので、建物の種類として定めることはできません。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-建物の「種類」は、建物の主な用途によって定めるのが大原則です（不動産登記規則113条1項）。この問題は、その原則を区分建物・非区分建物・複数用途といった具体的な場面に当てはめて、どこまで種類を書き分けるのか、書き分けないのかを問うものです。対話形式ですが、実質は学生の解答アからオを一つずつ正誤判定する組合せ問題です。
+---
+
+建物の「種類」は、建物の主な用途によって定めるのが大原則です（不動産登記規則113条1項）。
+
+この問題は、その原則を区分建物・非区分建物・複数用途といった具体的な場面に当てはめて、どこまで種類を書き分けるのか、書き分けないのかを問うものです。対話形式ですが、実質は学生の解答アからオを一つずつ正誤判定する組合せ問題です。
 
 ### ア：区分建物の種類は、その専有部分自体の用途で決まる
 
-区分建物（マンションの各部屋のような専有部分）の建物の種類は、一棟全体の用途ではなく、各専有部分ごとにその現実の用途を基準として個別に定めます。したがって、一棟のほぼ全部が居宅として利用されていても、甲区分建物自体が事務所として利用されている以上、甲区分建物の種類は「事務所」と定められます。周りが居宅ばかりだから甲も「居宅」になる、という肢アの結論は誤りです。
+区分建物（マンションの各部屋のような専有部分）の建物の種類は、一棟全体の用途ではなく、各専有部分ごとにその現実の用途を基準として個別に定めます。
+
+したがって、一棟のほぼ全部が居宅として利用されていても、甲区分建物自体が事務所として利用されている以上、甲区分建物の種類は「事務所」と定められます。周りが居宅ばかりだから甲も「居宅」になる、というアの結論は誤りです。
 
 **たとえば**、100戸のマンションのうち99戸が住まいとして使われていても、そのなかの1戸だけを税理士事務所として使っているなら、その1戸の登記上の種類は周りにつられて「居宅」になるのではなく、その部屋自体の使い方である「事務所」と登記されます。
 
 ### イ：主な用途が複数あれば、種類は連記して定める
 
-区分建物でない一棟の建物に複数の用途がある場合、建物の種類は主な用途に従って定めますが、主な用途が二以上と認められるときは、その二以上の用途により建物の種類を定めます（不動産登記規則113条2項）。不動産登記事務取扱手続準則80条2項も、主たる用途が二以上の場合には例えば「居宅・店舗」のように種類を連記して表示するとしており、同じ考え方を具体的に示しています。6階建てビルで、1階から3階がパチンコ店（種類としては「遊技場」）、4階から5階が映画館、6階が居宅として利用されていれば、主な用途が複数あるものとして「遊技場・映画館・居宅」と連記して定められます。学生イの解答は正しいものです。
+区分建物でない一棟の建物に複数の用途がある場合、建物の種類は主な用途に従って定めますが、主な用途が二以上と認められるときは、その二以上の用途により建物の種類を定めます（不動産登記規則113条2項）。
+
+不動産登記事務取扱手続準則80条2項も、主たる用途が二以上の場合には例えば「居宅・店舗」のように種類を連記して表示するとしており、同じ考え方を具体的に示しています。
+
+6階建てビルで、1階から3階がパチンコ店（種類としては「遊技場」）、4階から5階が映画館、6階が居宅として利用されていれば、主な用途が複数あるものとして「遊技場・映画館・居宅」と連記して定められます。学生イの解答は正しいものです。
 
 **たとえば**、住まいと車庫を一つの建物にしている家を「居宅・車庫」と登記するのと同じ発想で、面積的にどれも無視できない用途が並んでいるビルなら、そのそれぞれを「遊技場・映画館・居宅」と並べて書くわけです。
 
 ### ウ：店舗も主な用途と認められれば「居宅・店舗」にできる
 
-店舗として利用されている部分の面積が居宅部分に比べて著しく小さい場合、その店舗部分が主たる用途とは言えないなら省いて「居宅」だけとすることも考えられます。しかし、面積が小さくても、その店舗として利用される部分が当該建物の主な用途と認められるのであれば、「居宅・店舗」と連記して定めることができます。「主な用途と認められるのであれば定めることができる」という条件付きの言い回しの学生ウの解答は正しいものです。
+店舗として利用されている部分の面積が居宅部分に比べて著しく小さい場合、その店舗部分が主たる用途とは言えないなら省いて「居宅」だけとすることも考えられます。
+
+しかし、面積が小さくても、その店舗として利用される部分が当該建物の主な用途と認められるのであれば、「居宅・店舗」と連記して定めることができます。
+
+「主な用途と認められるのであれば定めることができる」という条件付きの言い回しの学生ウの解答は正しいものです。
 
 **たとえば**、大きな自宅の玄関脇に小さなパン屋の売り場を構えている建物で、その売り場が営業実態のある主な用途の一つと認められるなら、面積が小さくても「居宅・店舗」と書き分けて登記できる、というイメージです。
 
 ### エ：全ての用途ではなく、主な用途で種類を定める
 
-建物の種類は、あくまで建物の主な用途により定めるものです（不動産登記規則113条1項）。建物内にいろいろな用途の部分があっても、その全てを必ず種類として書き出さなければならないわけではありません。野球場として利用されるドーム球場の中に店舗や駐車場があっても、建物全体の主な用途が野球場であるなら、種類は「野球場」と定めれば足り、「野球場・店舗・駐車場」と全部を書かなければならないとする肢エは誤りです。
+建物の種類は、あくまで建物の主な用途により定めるものです（不動産登記規則113条1項）。建物内にいろいろな用途の部分があっても、その全てを必ず種類として書き出さなければならないわけではありません。
+
+野球場として利用されるドーム球場の中に店舗や駐車場があっても、建物全体の主な用途が野球場であるなら、種類は「野球場」と定めれば足り、「野球場・店舗・駐車場」と全部を書かなければならないとするエは誤りです。
 
 **たとえば**、大きな球場に売店やコインパーキングが併設されていても、その建物が何のための建物かと聞かれれば誰もが「野球場」と答えるように、付随的な用途まで全部並べる必要はなく、主役の用途で種類を決めます。
 
 ### オ：規則にない用途も、準じて種類として定められる
 
-建物の種類は、規則や準則に列挙された区分に当てはまらない建物についても、それに準じて適当な種類を定めることとされています（不動産登記規則113条1項）。「保育所」や「教習所」も、列挙区分にそのまま並んでいなくても種類として定めることが認められており、一律に定めることができないわけではありません。定めることはできないと言い切る学生オの解答は誤りです。
+建物の種類は、規則や準則に列挙された区分に当てはまらない建物についても、それに準じて適当な種類を定めることとされています（不動産登記規則113条1項）。
+
+「保育所」や「教習所」も、列挙区分にそのまま並んでいなくても種類として定めることが認められており、一律に定めることができないわけではありません。定めることはできないと言い切る学生オの解答は誤りです。
 
 **たとえば**、規則に「保育所」という言葉がそのまま載っていなくても、実際に子どもを預かる施設であれば「保育所」、学習塾の建物であれば「教習所」というように、実態に合った種類を選んで登記できます。載っていない＝登記できない、ではないのです。
+
+---
 
 ### まとめ
 
@@ -77,8 +97,8 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和3年度 午後の部 第14問）および正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach/pitfalls/keyPoints）で確認済みです。
 - 条文レベルで確認できた根拠：「建物の種類は主な用途により定める」という原則（不動産登記規則113条1項）、および「主な用途が二以上の場合はその二以上の用途により種類を定める」という原則（同条2項）は、`note-articles/laws/fudousan-touki-kisoku-1.md`で条文原文を確認済みです。建物の種類そのものの登記事項としての位置づけは不動産登記法44条1項3号（「建物の種類、構造及び床面積」）にあります（旧稿では誤って「2号」としていましたが、2号は家屋番号であり、本稿で3号に訂正しました）。
-- 一般原則からの推論にとどまる部分：肢ア（区分建物は一棟全体でなく専有部分ごとの用途で定める）は、規則113条1項の「主な用途により定める」原則を区分建物に当てはめた解釈であり、区分建物固有の明文条番号として確認できたものではありません。肢オの「規則にない用途も準じて定められる」点も、規則113条1項の趣旨からの推論に基づく記述です。
-- 訂正（ローカル法令データベースで確認）：肢イの連記の根拠について、旧稿ではデータベース内の食い違い（explanationフィールドが準則80条2項、keyPointsフィールドが準則81条）をWebSearchの二次資料のみで解消していましたが、本稿では`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文を直接確認しました。準則81条は建物の構造の定め方に関する条文であり種類とは無関係、準則80条2項が「建物の主たる用途が２以上の場合には、その種類を例えば『居宅・店舗』と表示するものとする」と規定していることを確認したため、80条2項の採用が正しいことが確定しました。あわせて、この連記のルール自体は不動産登記規則113条2項にも明文があるため、本文に同項の引用を追加しました。
+- 一般原則からの推論にとどまる部分：ア（区分建物は一棟全体でなく専有部分ごとの用途で定める）は、規則113条1項の「主な用途により定める」原則を区分建物に当てはめた解釈であり、区分建物固有の明文条番号として確認できたものではありません。オの「規則にない用途も準じて定められる」点も、規則113条1項の趣旨からの推論に基づく記述です。
+- 訂正（ローカル法令データベースで確認）：イの連記の根拠について、旧稿ではデータベース内の食い違い（explanationフィールドが準則80条2項、keyPointsフィールドが準則81条）をWebSearchの二次資料のみで解消していましたが、本稿では`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文を直接確認しました。準則81条は建物の構造の定め方に関する条文であり種類とは無関係、準則80条2項が「建物の主たる用途が２以上の場合には、その種類を例えば『居宅・店舗』と表示するものとする」と規定していることを確認したため、80条2項の採用が正しいことが確定しました。あわせて、この連記のルール自体は不動産登記規則113条2項にも明文があるため、本文に同項の引用を追加しました。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。本記事は上記の検証済みデータベースおよび`note-articles/laws/`配下の法令原文に基づいて作成しています。
 
 ---
@@ -118,10 +138,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -219,15 +257,10 @@ sentence, NOT a legal citation):
 
 --- FOOTER ---
 
-Pay special attention to the following kanji, which have visually similar
-but distinct Simplified Chinese forms — do NOT render the simplified
-variants: 種（种ではない）・類（类ではない）・準（准ではない）・則（则で
-はない）・専（专ではない）・遊（游ではない）・駐（驻ではない）・習（习で
-はない）・建・物・登・記・所。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+Final check before rendering: scan every kanji glyph, paying special
+attention to 種・類・準・則・専・遊・駐・習・建・物・登・記・所, and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
@@ -236,16 +269,16 @@ takeaway must read as a short heading + a short conclusion tag, at a
 glance. Also confirm that the enumerated label 遊技場・映画館・居宅
 contains exactly those three terms in that order with no duplication or
 omission, and that the label 野球場 (correct) is not confused with the
-crossed-out 野球場・店舗・駐車場 (incorrect) label.
+crossed-out 野球場・店舗・駐車場 (incorrect) label. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 対話形式の問題文を読んだときに、各肢でどんな図を描き、どの順番で条件を確認すれば正誤に
-たどり着けるかを示す作図ガイド。肢ア・エは「よくある思い込み」と「正しい判断基準」を
-左右で対比させる型、肢イ・ウ・オは条件を順に確認する決定木型で構成する。
+たどり着けるかを示す作図ガイド。ア・エは「よくある思い込み」と「正しい判断基準」を
+左右で対比させる型、イ・ウ・オは条件を順に確認する決定木型で構成する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -288,7 +321,15 @@ or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -314,7 +355,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -337,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 甲は事務所と定める
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 主な用途がいくつあるか数えてから種類を決める
@@ -359,7 +400,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遊技場・映画館・居宅
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 店舗の連記可否は面積でなく実質で決まる
@@ -383,7 +424,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 実態次第で連記可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 建物全体の主な用途だけを種類とする
@@ -406,7 +447,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 野球場のみでよい
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 規則にない用途も準じて種類を定められる
@@ -435,17 +476,12 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記規則113条1項・2項、不動産登記事務取扱手続準則80条2項（建物
 の種類の定め方）
 
-Pay special attention to the following kanji, which have visually similar
-but distinct Simplified Chinese forms — do NOT render the simplified
-variants: 種（种ではない）・類（类ではない）・準（准ではない）・則（则で
-はない）・専（专ではない）・遊（游ではない）・駐（驻ではない）・習（习で
-はない）・建・物・登・記・所。
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+Final check before rendering: scan every kanji glyph, paying special
+attention to 種・類・準・則・専・遊・駐・習・建・物・登・記・所, and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to the kanji listed above. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that panels 2, 3, and 5 are drawn as actual
 flowcharts with diamond branch nodes and fully drawn Yes/No conclusion

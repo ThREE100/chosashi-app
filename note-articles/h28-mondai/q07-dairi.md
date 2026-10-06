@@ -2,33 +2,47 @@
 
 **出題年度：平成28年度　午後の部　第7問**
 
-> 土地の表示に関する登記の申請の代理に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　委任状において、A、B及びCの3人が登記の申請について代理人として選任されていることが明らかである場合には、A、B及びCは、特に共同代理の定めがされていないときであっても、共同して登記の申請の手続を代理しなければならない。
->
-> イ　Aが所有権の登記名義人である土地の合筆の登記の申請について委任を受けた代理人Bが死亡したときは、Bを単独で相続したCは、AからBへの委任状及び相続を証する情報を添付して当該登記を申請することができる。
->
-> ウ　委任による代理人により土地の分筆の登記を申請した後に、申請意思の撤回により当該代理人が当該登記の申請を取り下げるときは、当該登記の申請の取下げに関する委任状を添付しなければならない。
->
-> エ　未成年者が所有する土地の地積の更正の登記の申請の委任を親権者から受けた代理人は、その後に当該親権者について破産手続開始の決定がされたときは、当該登記を申請することができない。
->
-> オ　所有権の登記名義人から土地の地目の変更の登記の申請の委任を受けた代理人は、当該登記を申請するまでの間に所有権の登記名義人が死亡したときであっても、当該登記を申請することができる。
->
+> 土地の表示に関する登記の申請の代理に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　委任状において、A、B及びCの3人が登記の申請について代理人として選任されていることが明らかである場合には、A、B及びCは、特に共同代理の定めがされていないときであっても、共同して登記の申請の手続を代理しなければならない。  
+>　  
+> イ　Aが所有権の登記名義人である土地の合筆の登記の申請について委任を受けた代理人Bが死亡したときは、Bを単独で相続したCは、AからBへの委任状及び相続を証する情報を添付して当該登記を申請することができる。  
+>　  
+> ウ　委任による代理人により土地の分筆の登記を申請した後に、申請意思の撤回により当該代理人が当該登記の申請を取り下げるときは、当該登記の申請の取下げに関する委任状を添付しなければならない。  
+>　  
+> エ　未成年者が所有する土地の地積の更正の登記の申請の委任を親権者から受けた代理人は、その後に当該親権者について破産手続開始の決定がされたときは、当該登記を申請することができない。  
+>　  
+> オ　所有権の登記名義人から土地の地目の変更の登記の申請の委任を受けた代理人は、当該登記を申請するまでの間に所有権の登記名義人が死亡したときであっても、当該登記を申請することができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-委任状を1枚もらったからといって、その効力がどこまで続くのか、誰に引き継がれるのかは意外と誤解しやすいところです。代理人が複数いる場合の原則、代理人が死亡した場合、委任者側の事情が変わった場合など、本問は「代理権はいつ消え、いつ消えないか」をまとめて問う良問です。
+---
+
+委任状を1枚もらったからといって、その効力がどこまで続くのか、誰に引き継がれるのかは意外と誤解しやすいところです。
+
+代理人が複数いる場合の原則、代理人が死亡した場合、委任者側の事情が変わった場合など、本問は「代理権はいつ消え、いつ消えないか」をまとめて問う良問です。
 
 ### ア：代理人が複数でも、原則は各自が単独で代理できる
 
-複数の代理人が選任されている場合、各自が単独で代理行為をできる「各自代理」が原則です。全員が共同でなければ手続できない「共同代理」となるのは、委任状などでその旨の特約が明示的にされている場合に限られます。「定めがされていないときであっても共同して……しなければならない」とする本肢は、原則と例外の関係が逆になっており誤りです。
+複数の代理人が選任されている場合、各自が単独で代理行為をできる「各自代理」が原則です。全員が共同でなければ手続できない「共同代理」となるのは、委任状などでその旨の特約が明示的にされている場合に限られます。
 
-**たとえば**、A、B、Cの3人が代理人として選ばれた委任状であっても、そこに「3名共同で行うこと」といった記載がなければ、Aだけが単独で登記の申請手続を行うことも可能です。「複数人選ばれている＝全員そろわないと動けない」ではない、という点がポイントです。
+「定めがされていないときであっても共同して……しなければならない」とする本肢は、原則と例外の関係が逆になっており誤りです。
+
+**たとえば**、A、B、Cの3人が代理人として選ばれた委任状であっても、そこに「3名共同で行うこと」といった記載がなければ、Aだけが単独で登記の申請手続を行うことも可能です。
+
+「複数人選ばれている＝全員そろわないと動けない」ではない、という点がポイントです。
 
 **ここが分かりにくいポイント**：
 
-「委任状にA・B・Cの3人が並んで書かれている」と聞くと、なんとなく3人組のグループのように感じてしまい、「みんなで足並みをそろえて動かないといけないのでは」と思い込んでしまう方が少なくありません。特に、土地を複数人で共有している場合の管理・変更には共有者全員の関与が必要になる場面を先に学んでいると、そのイメージがそのまま「複数人＝全員一致で動く」という思い込みにつながりやすくなります。
+「委任状にA・B・Cの3人が並んで書かれている」と聞くと、なんとなく3人組のグループのように感じてしまい、「みんなで足並みをそろえて動かないといけないのでは」と思い込んでしまう方が少なくありません。
 
-しかし、代理人が複数いることと、その代理人たちが共同でなければ動けないことは、まったく別の話です。委任状にA・B・Cの3人の名前が書かれているのは、いわば「この3人それぞれに、同じ内容の合鍵を1本ずつ渡した」という状態に近いイメージです。3本のうち、どれか1本さえあれば手続を進められるのが基本の形（各自代理）であり、「3本すべてがそろわないと開かない特殊な鍵」（共同代理）にするには、委任状の中で「共同で行うこと」とはっきり指定しておく必要があります。
+特に、土地を複数人で共有している場合の管理・変更には共有者全員の関与が必要になる場面を先に学んでいると、そのイメージがそのまま「複数人＝全員一致で動く」という思い込みにつながりやすくなります。
+
+しかし、代理人が複数いることと、その代理人たちが共同でなければ動けないことは、まったく別の話です。
+
+委任状にA・B・Cの3人の名前が書かれているのは、いわば「この3人それぞれに、同じ内容の合鍵を1本ずつ渡した」という状態に近いイメージです。
+
+3本のうち、どれか1本さえあれば手続を進められるのが基本の形（各自代理）であり、「3本すべてがそろわないと開かない特殊な鍵」（共同代理）にするには、委任状の中で「共同で行うこと」とはっきり指定しておく必要があります。
 
 判断の手順にすると、次のようになります。
 
@@ -40,17 +54,29 @@
 
 ### イ：代理人が死亡すれば委任は終了し、相続人がそのまま引き継ぐことはできない
 
-民法653条1号により、委任は受任者（代理人）の死亡によって終了します。代理人Bが死亡した時点で、AB間の委任契約自体が消滅するため、Bの相続人Cは当然にはAの代理人という地位を承継しません。不動産登記法17条は代理権が消滅しない場合を定めていますが、そこに挙げられているのは本人の死亡や本人である法人の合併による消滅など本人側の事由だけで、代理人自身の死亡は含まれていません。AからBへの委任状をそのまま流用し、相続を証する情報を添付するだけでCが申請できるわけではなく、本肢は誤りです。
+民法653条1号により、委任は受任者（代理人）の死亡によって終了します。代理人Bが死亡した時点で、AB間の委任契約自体が消滅するため、Bの相続人Cは当然にはAの代理人という地位を承継しません。
+
+不動産登記法17条は代理権が消滅しない場合を定めていますが、そこに挙げられているのは本人の死亡や本人である法人の合併による消滅など本人側の事由だけで、代理人自身の死亡は含まれていません。
+
+AからBへの委任状をそのまま流用し、相続を証する情報を添付するだけでCが申請できるわけではなく、本肢は誤りです。
 
 **たとえば**、Aから合筆の登記を頼まれていた調査士Bが急逝し、その事務所をBの子であるCがそのまま引き継いだとしても、「父が受けた委任状」を根拠にCがAの代理人として申請することはできません。Aから改めてCへの委任を受け直す必要があります。
 
 **ここが分かりにくいポイント**：
 
-「委任状という書類自体はまだ手元に残っている」「代理人としての立場も、相続人が引き継ぐ財産のひとつのはず」――このように考えて、「代理人Bが亡くなっても、Bの子であるCがそのまま代理人の立場を受け継げるのでは」と思ってしまう方が少なくありません。相続については「相続人は、被相続人の財産に属した一切の権利義務を承継する」（民法896条本文）という、とても幅広い原則を先に学ぶため、「代理人としての立場」もこの「一切の権利義務」に含まれるはずだ、と考えてしまうのが典型的なつまずき方です。
+「委任状という書類自体はまだ手元に残っている」「代理人としての立場も、相続人が引き継ぐ財産のひとつのはず」――このように考えて、「代理人Bが亡くなっても、Bの子であるCがそのまま代理人の立場を受け継げるのでは」と思ってしまう方が少なくありません。
 
-しかし、民法896条にはただし書が続きます。「被相続人の一身に専属したものは、この限りでない」という部分です。委任契約によって生まれる「代理人としての立場」は、まさにこの「一身専属」――その人自身に対する個人的な信頼関係があってはじめて成り立つものであり、他の人にそのまま引き継がせることが予定されていないもの――の代表例にあたります。だからこそ民法653条1号は、委任契約は代理人（受任者）が死亡した時点で当然に終了すると定めています。
+相続については「相続人は、被相続人の財産に属した一切の権利義務を承継する」（民法896条本文）という、とても幅広い原則を先に学ぶため、「代理人としての立場」もこの「一切の権利義務」に含まれるはずだ、と考えてしまうのが典型的なつまずき方です。
 
-AさんとBさんの間にあった「Aさんの代わりに手続をしてください」という信頼関係は、Bさん自身が亡くなった瞬間に消えてなくなるのであって、Bさんの子であるCさんに自動的に乗り移るものではありません。Cさんが代理人として登記を申請するには、Aさんから改めて「Cさんにお願いします」という委任を受け直す必要があります。
+しかし、民法896条にはただし書が続きます。「被相続人の一身に専属したものは、この限りでない」という部分です。
+
+委任契約によって生まれる「代理人としての立場」は、まさにこの「一身専属」――その人自身に対する個人的な信頼関係があってはじめて成り立つものであり、他の人にそのまま引き継がせることが予定されていないもの――の代表例にあたります。
+
+だからこそ民法653条1号は、委任契約は代理人（受任者）が死亡した時点で当然に終了すると定めています。
+
+AさんとBさんの間にあった「Aさんの代わりに手続をしてください」という信頼関係は、Bさん自身が亡くなった瞬間に消えてなくなるのであって、Bさんの子であるCさんに自動的に乗り移るものではありません。
+
+Cさんが代理人として登記を申請するには、Aさんから改めて「Cさんにお願いします」という委任を受け直す必要があります。
 
 判断の手順にすると、次のようになります。
 
@@ -62,21 +88,37 @@ AさんとBさんの間にあった「Aさんの代わりに手続をしてく�
 
 ### ウ：取下げも独立した意思表示、別途委任状が必要
 
-登記の申請の取下げは、申請そのものとは別個の意思表示です。当初の登記申請についての委任状に取下げの権限まで含まれていると解される事情がない限り、取下げを代理して行うには、取下げについての委任状を別途必要とします。本肢はこの理解のとおりで正しい記述です。
+登記の申請の取下げは、申請そのものとは別個の意思表示です。
+
+当初の登記申請についての委任状に取下げの権限まで含まれていると解される事情がない限り、取下げを代理して行うには、取下げについての委任状を別途必要とします。本肢はこの理解のとおりで正しい記述です。
 
 **たとえば**、分筆の登記を申請した後にAの気が変わり、「やっぱり取り下げたい」となった場合、代理人はもともとの登記申請の委任状だけでは取下げの手続を進められません。取下げについて改めてAから委任を受け、その委任状を添付する必要があります。
 
 ### エ：委任者は未成年者本人、親権者個人の破産では代理権は失われない
 
-親権者は未成年者の法定代理人として委任行為を代わりに行ったにすぎず、委任契約の当事者（委任者）はあくまで未成年者本人です。民法653条2号が委任の終了事由としているのは、委任者または受任者自身が破産手続開始の決定を受けたことですから、親権者個人が破産手続開始の決定を受けても委任は終了しません。さらに不動産登記法17条4号は、法定代理人の死亡やその代理権の消滅・変更によっても、登記の申請の委任による代理人の権限は消滅しないと定めています。したがって代理人は引き続き登記を申請することができ、「申請することができない」とする本肢は誤りです。
+親権者は未成年者の法定代理人として委任行為を代わりに行ったにすぎず、委任契約の当事者（委任者）はあくまで未成年者本人です。
 
-**たとえば**、未成年のAが所有する土地の地積更正の登記を、親権者である父親が代わりに代理人Bへ委任していたとします。その後、父親個人が事業に失敗して破産手続開始決定を受けたとしても、委任者はあくまでA本人ですから、Bは変わらずAの代理人として登記を申請できます。
+民法653条2号が委任の終了事由としているのは、委任者または受任者自身が破産手続開始の決定を受けたことですから、親権者個人が破産手続開始の決定を受けても委任は終了しません。
+
+さらに不動産登記法17条4号は、法定代理人の死亡やその代理権の消滅・変更によっても、登記の申請の委任による代理人の権限は消滅しないと定めています。したがって代理人は引き続き登記を申請することができ、「申請することができない」とする本肢は誤りです。
+
+**たとえば**、未成年のAが所有する土地の地積更正の登記を、親権者である父親が代わりに代理人Bへ委任していたとします。
+
+その後、父親個人が事業に失敗して破産手続開始決定を受けたとしても、委任者はあくまでA本人ですから、Bは変わらずAの代理人として登記を申請できます。
 
 ### オ：表示に関する登記の代理権は、本人の死亡でも消滅しない
 
-不動産登記法17条1号により、登記の申請をする者の委任による代理人の権限は、本人（登記名義人）の死亡によっては消滅しません。これは、委任者の死亡で委任が終了するという民法653条1号の原則に対する特則で、表示に関する登記の申請にもそのまま適用されます。したがって、地目の変更の登記を申請するまでの間に登記名義人が死亡しても、代理人は引き続きその登記を申請することができ、本肢は正しい記述です。
+不動産登記法17条1号により、登記の申請をする者の委任による代理人の権限は、本人（登記名義人）の死亡によっては消滅しません。
 
-**たとえば**、所有権の登記名義人Aが土地の地目変更の登記を代理人Bに委任した直後に亡くなってしまったとしても、Bはその委任状に基づいて地目変更の登記を申請することができます。表示に関する登記では、本人の死亡後も手続を止めずに進められるようになっている、という点が実務上も重要です。
+これは、委任者の死亡で委任が終了するという民法653条1号の原則に対する特則で、表示に関する登記の申請にもそのまま適用されます。
+
+したがって、地目の変更の登記を申請するまでの間に登記名義人が死亡しても、代理人は引き続きその登記を申請することができ、本肢は正しい記述です。
+
+**たとえば**、所有権の登記名義人Aが土地の地目変更の登記を代理人Bに委任した直後に亡くなってしまったとしても、Bはその委任状に基づいて地目変更の登記を申請することができます。
+
+表示に関する登記では、本人の死亡後も手続を止めずに進められるようになっている、という点が実務上も重要です。
+
+---
 
 ### まとめ
 
@@ -97,11 +139,11 @@ AさんとBさんの間にあった「Aさんの代わりに手続をしてく�
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - この第7問は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）には収録されていません。法務省公表の試験問題原本（ユーザー提供のPDF）から問題文を直接確認したうえで、民法の委任に関する規定（653条等）および不動産登記法17条の一般的な理解に基づいてAI（Claude）が解説を作成したものです。
 - 正解番号（5番＝ウ・オ）は、法務省公式の正答PDF（ユーザー提供）と照合済みです。
-- **条文レベルで確認できた根拠（2026-08-18実施）**：ローカル法令データベース（`note-articles/laws/`）の条文原文と突き合わせ、次の各条を確認しました。民法653条（委任の終了事由。1号「委任者又は受任者の死亡」＝肢イ、2号「委任者又は受任者が破産手続開始の決定を受けたこと。」＝肢エ）、民法111条（代理権の消滅事由。1項2号で代理人の破産手続開始の決定が代理権消滅事由とされていること）、不動産登記法17条（代理権の不消滅。1号「本人の死亡」＝肢オ、4号「法定代理人の死亡又はその代理権の消滅若しくは変更」＝肢エの補強根拠）。不動産登記法17条は「登記の申請をする者の委任による代理人の権限」について定めるもので、表示に関する登記に限定した規定ではない点も条文で確認済みです。
-- **条文レベルでは確認できなかった根拠**：肢ア（複数の代理人が選任された場合に各自代理が原則であり、共同代理となるのは特約がある場合に限られること）は、民法にこれを直接定めた明文の規定がなく、代理に関する一般原則としての理解に基づくものです。肢ウ（登記申請の取下げには取下げについての委任状を別途要すること）も、不動産登記規則39条が取下げの方法を定めるにとどまり、取下げの代理権について明文の規定はありません。登記実務上の取扱い・先例の理解に基づく説明であるため、断定を避けた表現にしています。この2点は投稿前に受験対策書等でのご確認をおすすめします。
+- **条文レベルで確認できた根拠（2026-08-18実施）**：ローカル法令データベース（`note-articles/laws/`）の条文原文と突き合わせ、次の各条を確認しました。民法653条（委任の終了事由。1号「委任者又は受任者の死亡」＝イ、2号「委任者又は受任者が破産手続開始の決定を受けたこと。」＝エ）、民法111条（代理権の消滅事由。1項2号で代理人の破産手続開始の決定が代理権消滅事由とされていること）、不動産登記法17条（代理権の不消滅。1号「本人の死亡」＝オ、4号「法定代理人の死亡又はその代理権の消滅若しくは変更」＝エの補強根拠）。不動産登記法17条は「登記の申請をする者の委任による代理人の権限」について定めるもので、表示に関する登記に限定した規定ではない点も条文で確認済みです。
+- **条文レベルでは確認できなかった根拠**：ア（複数の代理人が選任された場合に各自代理が原則であり、共同代理となるのは特約がある場合に限られること）は、民法にこれを直接定めた明文の規定がなく、代理に関する一般原則としての理解に基づくものです。ウ（登記申請の取下げには取下げについての委任状を別途要すること）も、不動産登記規則39条が取下げの方法を定めるにとどまり、取下げの代理権について明文の規定はありません。登記実務上の取扱い・先例の理解に基づく説明であるため、断定を避けた表現にしています。この2点は投稿前に受験対策書等でのご確認をおすすめします。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（土地の表示に関する登記の申請の代理）と同一・類似の問題が再出題されていないかを確認しました。「代理人の権限の範囲」を扱う出題がR02年度第4問、R03年度第4問、R07年度第7問と複数回見つかっており、**特にR07年度第7問エ（代理人が死亡した場合にその相続人である調査士が地位を承継して申請できるか）は、本問イ（委任を受けた代理人の死亡と相続人による申請の可否）と、代理人の死亡による委任の終了（民法653条1号）という同じ法的論点を扱っており、内容が近い出題**です。またR07年度第7問イ（本人である会社の代表者が交代しても代理人は申請できるか）も、本問オ（本人の死亡後も代理人が申請できるか）と構造的に近い「本人側の変化と代理権の存続」という論点です。R02年度第4問ア・R03年度第4問オも取下げと代理人の権限に関する近接した論点を扱っています。ノートに執筆・公開する際は、これらの後年の出題と論点が重なる可能性がある点に留意し、必要に応じて記事の中で言及するか、後年の記事作成時に本記事を参照して重複を避けてください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-18実施）**：本問は平成28年度の出題ですが、根拠条文はいずれも出題時から内容が変わっていません。民法653条（委任の終了事由）は、2017年成立・2020年4月1日施行の債権法改正でも改正の対象とならず、1号から3号までの内容は現行法でも同一です。民法111条（代理権の消滅事由）、不動産登記法17条（代理権の不消滅、1号から4号まで）も、現行の条文原文と照合して同一であることを確認しました。令和3年改正による相続登記の申請義務化・住所等の変更登記の申請義務化は、いずれも権利に関する登記についての規律であり、本問（土地の表示に関する登記の申請の代理）の各肢の結論には影響しません。
-- **「間違いノート」補足解説（2026-09-16追加）**：読者から、肢ア（複数代理人が選任された場合に各自代理が原則であること）と肢イ（代理人の死亡により委任が終了し、相続人が当然には承継しないこと）の結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「ここが分かりにくいポイント」を追加しました。肢アは、共有物の管理をイメージして「複数人＝全員一致で動く」と思い込みやすい点を、鍵の本数のたとえで整理しています。肢イは、相続の一般原則（民法896条本文「一切の権利義務を承継する」）と、そのただし書（一身専属的なものは対象外）の関係を見落として「委任状も相続されるはず」と考えてしまいやすい点を整理しています。あわせて、記事タイトルのキャッチフレーズが従来「代理権が消える瞬間、消えない瞬間」（主に肢イ・エ・オが持つ、代理権の存続・消滅という切り口）となっており、肢アの「各自代理か共同代理か」という切り口を反映していなかったため、両肢に共通する「思い込みで判断すると結論を誤る」という論点を捉えたキャッチフレーズに差し替えました。なお、`note-articles/topics/`・`column/`配下を検索しましたが、肢ア（各自代理・共同代理の原則）または肢イ（委任の終了事由・一身専属性）を直接扱う個別テーマ記事は現時点では見当たらず、今回は既存記事へのリンクを埋め込んでいません。今後これらの論点を扱う個別テーマ記事を作成した際は、本記事から参照リンクを追加することをおすすめします。
+- **「間違いノート」補足解説（2026-09-16追加）**：読者から、ア（複数代理人が選任された場合に各自代理が原則であること）とイ（代理人の死亡により委任が終了し、相続人が当然には承継しないこと）の結論に自力でたどり着けなかったというフィードバックを受け、それぞれ「ここが分かりにくいポイント」を追加しました。アは、共有物の管理をイメージして「複数人＝全員一致で動く」と思い込みやすい点を、鍵の本数のたとえで整理しています。イは、相続の一般原則（民法896条本文「一切の権利義務を承継する」）と、そのただし書（一身専属的なものは対象外）の関係を見落として「委任状も相続されるはず」と考えてしまいやすい点を整理しています。あわせて、記事タイトルのキャッチフレーズが従来「代理権が消える瞬間、消えない瞬間」（主にイ・エ・オが持つ、代理権の存続・消滅という切り口）となっており、アの「各自代理か共同代理か」という切り口を反映していなかったため、両肢に共通する「思い込みで判断すると結論を誤る」という論点を捉えたキャッチフレーズに差し替えました。なお、`note-articles/topics/`・`column/`配下を検索しましたが、ア（各自代理・共同代理の原則）またはイ（委任の終了事由・一身専属性）を直接扱う個別テーマ記事は現時点では見当たらず、今回は既存記事へのリンクを埋め込んでいません。今後これらの論点を扱う個別テーマ記事を作成した際は、本記事から参照リンクを追加することをおすすめします。
 
 ---
 
@@ -141,7 +183,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -232,9 +282,9 @@ sentence, NOT a legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 権・継・状・産・相・続. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 権・継・状・産・相・続. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
@@ -255,7 +305,7 @@ duplicate, or reword any of these five headings.
 
 ## インフォグラフィック プロンプト（ア肢・間違いノート）
 
-肢アで読者がつまずいたポイント（「複数の代理人＝全員一致で動くはず」という思い込み）を、共有物の管理のイメージと、複数代理人の実際のルールを左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
+アで読者がつまずいたポイント（「複数の代理人＝全員一致で動くはず」という思い込み）を、共有物の管理のイメージと、複数代理人の実際のルールを左右対比で見せることで解消する、間違いノート型の補足インフォグラフィック。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -275,10 +325,17 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 共・有・者・各・自・
-代・理・鍵・特・約, which have Simplified Chinese look-alike forms with
+any characters. Pay special attention to the kanji 共・有・者・各・自・代・理・特・約, which have Simplified Chinese look-alike forms with
 visibly different stroke shapes — always draw the standard Japanese
 (Jōyō) form of these characters.
 
@@ -296,7 +353,7 @@ Title (large, bold):
 複数代理人は「全員一致」じゃない
 
 Subtitle (smaller, centered):
-平成28年度 午後の部 第7問 肢ア－各自代理と共同代理を混同しやすいポイント
+平成28年度 午後の部 第7問 ア－各自代理と共同代理を混同しやすいポイント
 
 --- COMPARISON ---
 Two side-by-side isometric panels, same height, divided by a vertical
@@ -327,12 +384,12 @@ Small caption below: 各自代理が原則。共同代理にするには特約�
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-平成28年度 午後の部 第7問 肢ア（各自代理・共同代理の一般原則）
+平成28年度 午後の部 第7問 ア（各自代理・共同代理の一般原則）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 共・有・者・各・自・代・理・鍵・特・約. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 共・有・者・各・自・代・理・特・約. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm every heading, panel label, and callout
 text matches the Japanese text given above verbatim, with no paraphrasing
 and no substituted characters, confirm the left panel shows all three
@@ -350,7 +407,7 @@ alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（イ肢・間違いノート）
 
-肢イで読者がつまずいたポイント（「委任状も相続財産の一部として引き継がれるはず」という思い込み）を、相続の一般原則（民法896条本文）とその例外（同条ただし書・一身専属性）の対比で解消する、間違いノート型の補足インフォグラフィック。
+イで読者がつまずいたポイント（「委任状も相続財産の一部として引き継がれるはず」という思い込み）を、相続の一般原則（民法896条本文）とその例外（同条ただし書・一身専属性）の対比で解消する、間違いノート型の補足インフォグラフィック。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -370,7 +427,15 @@ clarity and completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 相・続・承・継・専・属・
 委・任・終・了, which have Simplified Chinese look-alike forms with
@@ -391,7 +456,7 @@ Title (large, bold):
 その委任状、実は相続されません
 
 Subtitle (smaller, centered):
-平成28年度 午後の部 第7問 肢イ－「一切の権利義務」の例外を見落としやすい
+平成28年度 午後の部 第7問 イ－「一切の権利義務」の例外を見落としやすい
 ポイント
 
 --- COMPARISON ---
@@ -424,12 +489,12 @@ Small caption below: 個人的な信頼関係が土台の立場は、相続の�
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-平成28年度 午後の部 第7問 肢イ（民法896条・653条1号）
+平成28年度 午後の部 第7問 イ（民法896条・653条1号）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 相・続・承・継・専・属・委・任・終・了. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 相・続・承・継・専・属・委・任・終・了. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm every heading, panel label, and callout
 text matches the Japanese text given above verbatim, with no paraphrasing
 and no substituted characters, confirm the left panel shows the property
@@ -443,7 +508,7 @@ opaque background with no transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 代理に関する問題文を読んだときに、「誰に・何が起きたか」を順に確認して代理権の存続・消滅を判定する5パネル構成。ア（各自代理と共同代理）は共同代理の特約の有無という1つの分岐の両方の行き先を示す決定木、ウ（取下げ）は申請と取下げを別々の書類として並べるタイムラインで描く。イ・エ・オ（代理人の死亡・親権者の破産・本人の死亡）は、「死亡・破産したのは委任契約の当事者か」→「死亡したのは本人か」という同じ判定木を3パネルで共有し、各パネルは自分の枝だけを強調する。
 
@@ -474,7 +539,7 @@ must have ALL of its exits drawn as described below, each exit leading
 forward to its own separate node; never draw an arrow that loops back
 from a diamond to any earlier node in the diagram.
 
-SHARED DECISION TREE for Panels 2, 4 and 5 (肢イ・肢エ・肢オ): these three
+SHARED DECISION TREE for Panels 2, 4 and 5 (イ・エ・オ): these three
 panels reuse the same small decision tree, drawn with the same layout in
 each of the three panels:
  - Start node (rounded rectangle): 代理権は消えるか
@@ -550,7 +615,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -577,7 +642,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特約なしなら各自代理
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 代理人が死亡すると委任は終了し相続人は引き継がない
@@ -599,7 +664,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 相続人は承継しない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 取下げには申請とは別の委任状が必要
@@ -623,7 +688,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取下げの委任状が別途必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 親権者個人の破産では未成年者の委任は終了しない
@@ -646,7 +711,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代理人は申請できる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 本人が死亡しても代理人は申請できる
@@ -669,7 +734,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 民法653条1号・2号、896条ただし書、不動産登記法17条1号・4号に基づく整理
-です。肢アは代理の一般原則、肢ウは登記実務上の取扱いに基づきます。
+です。アは代理の一般原則、ウは登記実務上の取扱いに基づきます。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

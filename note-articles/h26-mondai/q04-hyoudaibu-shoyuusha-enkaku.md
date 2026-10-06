@@ -2,28 +2,39 @@
 
 **出題年度：平成26年度　午後の部　第4問**
 
-> 次の文章中の（ア）から（オ）までの空欄に後記の〔語句群〕の中から適切な語句を選んで入れると，表題部所有者に関する文章となる。（ア）から（オ）までの空欄に入れるべき語句の組合せとして適切なものは，後記1から5までのうち，どれか。
->
-> 「不動産の表示に関する登記は，昭和35年の不動産登記法の改正により創設された制度である。この改正前は，不動産の物理的状況を把握するための公簿として（ア）の制度が存在し，現在の登記記録における表題部に記録される登記事項は，この公簿の記載に依存していたといえる。昭和25年に，地租及び家屋税が廃止され，土地及び建物に対する税金については，固定資産税として（イ）が徴収することとされた後，昭和35年に，現在の登記記録における表題部に当たる（ア）の制度と権利部に当たる（ウ）の制度が統合・一元化されることとなった。
->
-> この歴史的経緯により，表題部に記録される表題部所有者については，土地の地目，地積や建物の種類，構造，床面積等と同様に，不動産を特定するための機能や，所有権の登記がない土地及び建物について，表題部の登記事項に変更や更正があった際にする変更の登記や更正の登記の（エ）を特定する機能を有しているとされ，また，（オ）の登記を申請する際の（エ）を特定する機能も有しているとされる。」
->
-> 〔語句群〕
-> A　登記簿　B　不動産登記　C　土地台帳・家屋台帳　D　市町村　E　国　F　都道府県
-> G　用益物権の設定　H　所有権の保存　I　所有権の移転　J　申請適格者　K　申請代理人　L　納税義務者
->
-> 　　（ア）　（イ）　（ウ）　（エ）　（オ）
-> 1　　B　　　F　　　C　　　K　　　I
-> 2　　B　　　E　　　A　　　J　　　H
-> 3　　C　　　E　　　B　　　K　　　H
-> 4　　C　　　D　　　B　　　J　　　H
+> 次の文章中の（ア）から（オ）までの空欄に後記の〔語句群〕の中から適切な語句を選んで入れると，表題部所有者に関する文章となる。（ア）から（オ）までの空欄に入れるべき語句の組合せとして適切なものは，後記1から5までのうち，どれか。  
+>　  
+> 「不動産の表示に関する登記は，昭和35年の不動産登記法の改正により創設された制度である。この改正前は，不動産の物理的状況を把握するための公簿として（ア）の制度が存在し，現在の登記記録における表題部に記録される登記事項は，この公簿の記載に依存していたといえる。昭和25年に，地租及び家屋税が廃止され，土地及び建物に対する税金については，固定資産税として（イ）が徴収することとされた後，昭和35年に，現在の登記記録における表題部に当たる（ア）の制度と権利部に当たる（ウ）の制度が統合・一元化されることとなった。  
+>　  
+> この歴史的経緯により，表題部に記録される表題部所有者については，土地の地目，地積や建物の種類，構造，床面積等と同様に，不動産を特定するための機能や，所有権の登記がない土地及び建物について，表題部の登記事項に変更や更正があった際にする変更の登記や更正の登記の（エ）を特定する機能を有しているとされ，また，（オ）の登記を申請する際の（エ）を特定する機能も有しているとされる。」  
+>　  
+> 〔語句群〕  
+>　  
+> A　登記簿　B　不動産登記　C　土地台帳・家屋台帳　D　市町村　E　国　F　都道府県  
+>　  
+> G　用益物権の設定　H　所有権の保存　I　所有権の移転　J　申請適格者　K　申請代理人　L　納税義務者  
+>　  
+> 　　（ア）　（イ）　（ウ）　（エ）　（オ）  
+>　  
+> 1　　B　　　F　　　C　　　K　　　I  
+>　  
+> 2　　B　　　E　　　A　　　J　　　H  
+>　  
+> 3　　C　　　E　　　B　　　K　　　H  
+>　  
+> 4　　C　　　D　　　B　　　J　　　H  
+>　  
 > 5　　C　　　D　　　A　　　L　　　G
+
+---
 
 不動産登記制度は、はじめから今の形をしていたわけではありません。この問題は、「表題部所有者」という制度がなぜ存在するのかを、制度創設前の歴史的な経緯から理解させる、少し変わった穴埋め形式の問題です。
 
 ### （ア）：登記制度と統合される前の「物理的状況の公簿」＝土地台帳・家屋台帳
 
-昭和35年の不動産登記法改正より前は、土地・建物の物理的状況（地目・地積・構造・床面積など）を把握するための公簿として、「土地台帳・家屋台帳」という制度が別に存在していました。現在の登記記録の表題部に記録される事項は、この台帳の記載を引き継いだものです。
+昭和35年の不動産登記法改正より前は、土地・建物の物理的状況（地目・地積・構造・床面積など）を把握するための公簿として、「土地台帳・家屋台帳」という制度が別に存在していました。
+
+現在の登記記録の表題部に記録される事項は、この台帳の記載を引き継いだものです。
 
 **たとえば**、今の登記記録を見ると「表題部」に地目や地積が記録されていますが、これはもともと登記簿とは別に管理されていた「土地台帳」に書かれていた情報が、昭和35年の改正で登記簿に統合された結果だと考えると理解しやすくなります。
 
@@ -35,21 +46,29 @@
 
 ### （ウ）：権利部にあたる制度＝不動産登記
 
-土地台帳・家屋台帳が現在の「表題部」の前身であるのに対して、現在の「権利部」（所有権や抵当権などを記録する部分）にあたる制度は、従来の「不動産登記」制度でした。昭和35年の改正で、この2つの別々の制度（台帳と登記簿）が統合・一元化され、今の1つの登記記録になりました。
+土地台帳・家屋台帳が現在の「表題部」の前身であるのに対して、現在の「権利部」（所有権や抵当権などを記録する部分）にあたる制度は、従来の「不動産登記」制度でした。
+
+昭和35年の改正で、この2つの別々の制度（台帳と登記簿）が統合・一元化され、今の1つの登記記録になりました。
 
 **たとえば**、改正前は「この土地の広さ・地目は台帳で確認し、誰が所有しているかは登記簿で確認する」というように、2つの帳簿を別々に見る必要がありましたが、改正後は1つの登記記録を見れば両方が分かるようになりました。
 
 ### （エ）：変更・更正登記を申請できる資格を持つ者＝申請適格者
 
-所有権の登記がない土地・建物について、表題部の登記事項（地目や地積など）に変更や更正があった場合、その変更登記・更正登記を申請できるのは表題部所有者です。つまり表題部所有者という記録は、こうした登記の「申請適格者」（申請する資格を持つ者）が誰であるかを特定する機能を持っています。
+所有権の登記がない土地・建物について、表題部の登記事項（地目や地積など）に変更や更正があった場合、その変更登記・更正登記を申請できるのは表題部所有者です。
+
+つまり表題部所有者という記録は、こうした登記の「申請適格者」（申請する資格を持つ者）が誰であるかを特定する機能を持っています。
 
 **たとえば**、まだ所有権の登記がされていない土地の地目が畑から宅地に変わった場合、この地目変更の登記を申請できるのは、表題部所有者として記録されている人に限られます。
 
 ### （オ）：所有権の保存の登記を申請する際にも、申請適格者を特定する
 
-表題部所有者の記録は、所有権の保存の登記（不動産登記法74条1項1号）を申請する際にも、「誰が申請できるか」という申請適格者を特定する機能を果たします。所有権の保存の登記は、原則として表題部所有者又はその相続人その他の一般承継人が申請できるとされているためです。
+表題部所有者の記録は、所有権の保存の登記（不動産登記法74条1項1号）を申請する際にも、「誰が申請できるか」という申請適格者を特定する機能を果たします。
+
+所有権の保存の登記は、原則として表題部所有者又はその相続人その他の一般承継人が申請できるとされているためです。
 
 **たとえば**、表題部所有者として登記されているAさんが亡くなり、その相続人であるBさんが不動産を相続した場合、Bさんは表題部所有者Aさんの相続人であることを示して、初めての所有権の登記である「所有権の保存の登記」を申請することができます。
+
+---
 
 ### まとめ
 
@@ -112,13 +131,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 台・帳・徴・収・沿・革・登・記・適・格・保・存・相・続 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -195,20 +232,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、空欄ア〜オのどれが「物的状況」の話でどれが「権利関係」の話か、また候補となる語句をどの順番で絞り込めばよいかを示す解き方ガイド。空欄ア・ウは、同じ「物的状況を扱う公簿か、権利関係を扱う公簿か」という判定木を共有し、それぞれ自分に関係する枝だけを強調する構成にしてある。
 
@@ -311,11 +348,11 @@ Heading (bold, ONE line):
 Diagram: Two stacked diamond-shaped decision nodes. Node 1「地租・家屋税
 廃止後の固定資産税は、国税か地方税か？」with a「地方税」branch
 (highlighted) continuing down and a「国税」branch (faded) leading to a
-small grey conclusion「該当なし」. Node 2「地方税のうち、都道府県税か市町
+small grey conclusion「国が徴収」. Node 2「地方税のうち、都道府県税か市町
 村税か？」with a「市町村税」branch (highlighted, bold) leading to an
 isometric city-hall building icon labeled「市町村」collecting a coin/tax
 icon labeled「固定資産税」, and a「都道府県税」branch (faded) leading to a
-small grey conclusion「該当なし」.
+small grey conclusion「都道府県が徴収」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、固定資産税が国税か地方税かを確認します。次に、地方税のうち都道府県
 税か市町村税かを確認し、市町村が徴収主体であるという結論にたどり着きます。

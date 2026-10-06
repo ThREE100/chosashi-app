@@ -2,21 +2,25 @@
 
 **出題年度：平成22年度　午後の部　第10問**
 
-> 筆界特定の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　甲土地の所有者は、甲土地と一点のみで接している乙土地を対象土地として筆界特定の申請をすることはできない。
->
-> イ　甲土地と隣接している乙土地のうち、甲土地と隣接していない部分を時効取得した者は、甲土地を対象土地として筆界特定の申請をすることはできない。
->
-> ウ　甲土地の所有権移転の仮登記の登記名義人は、隣接する乙土地を対象土地として筆界特定の申請をすることができる。
->
-> エ　甲土地と乙土地の筆界について既に甲土地の所有者を申請人とする筆界特定登記官による筆界特定がされていた場合であっても、その資料となった文書が偽造されたものであることが判明したときは、乙土地の所有者は、改めて甲土地を対象土地として筆界特定の申請をすることができる。
->
-> オ　甲土地と乙土地の筆界について、甲土地の所有者が民事訴訟の手続により筆界の確定を求める訴えを提起し、当該訴えが裁判所に係属しているときは、乙土地の所有者は、筆界特定の申請をすることはできない。
->
+> 筆界特定の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　甲土地の所有者は、甲土地と一点のみで接している乙土地を対象土地として筆界特定の申請をすることはできない。  
+>　  
+> イ　甲土地と隣接している乙土地のうち、甲土地と隣接していない部分を時効取得した者は、甲土地を対象土地として筆界特定の申請をすることはできない。  
+>　  
+> ウ　甲土地の所有権移転の仮登記の登記名義人は、隣接する乙土地を対象土地として筆界特定の申請をすることができる。  
+>　  
+> エ　甲土地と乙土地の筆界について既に甲土地の所有者を申請人とする筆界特定登記官による筆界特定がされていた場合であっても、その資料となった文書が偽造されたものであることが判明したときは、乙土地の所有者は、改めて甲土地を対象土地として筆界特定の申請をすることができる。  
+>　  
+> オ　甲土地と乙土地の筆界について、甲土地の所有者が民事訴訟の手続により筆界の確定を求める訴えを提起し、当該訴えが裁判所に係属しているときは、乙土地の所有者は、筆界特定の申請をすることはできない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
-筆界特定は、土地の「筆界（もともとの境界）」を専門家が明らかにする制度です（不動産登記法123条以下）。「筆界を共有していない土地は対象にできない」「申請できるのは所有者など一定の人だけ」「一度特定されても新事情があれば蒸し返せる」というポイントを押さえましょう。
+---
+
+筆界特定は、土地の「筆界（もともとの境界）」を専門家が明らかにする制度です（不動産登記法123条以下）。
+
+「筆界を共有していない土地は対象にできない」「申請できるのは所有者など一定の人だけ」「一度特定されても新事情があれば蒸し返せる」というポイントを押さえましょう。
 
 ### ア：一点のみで接する土地は、対象土地にできない
 
@@ -26,7 +30,9 @@
 
 ### イ：乙土地の一部を時効取得した者も、甲土地との筆界特定を申請できる
 
-筆界特定の申請権者は、対象土地の所有権の登記名義人その他の所有者です。乙土地の一部（甲と隣接していない部分）を時効取得した者も、乙土地の所有権を有する者として、甲乙間の筆界について筆界特定の申請をすることができます。したがって「申請することはできない」とする点は誤りです。
+筆界特定の申請権者は、対象土地の所有権の登記名義人その他の所有者です。
+
+乙土地の一部（甲と隣接していない部分）を時効取得した者も、乙土地の所有権を有する者として、甲乙間の筆界について筆界特定の申請をすることができます。したがって「申請することはできない」とする点は誤りです。
 
 **たとえば**、隣の乙土地の奥のほうの一角を長年占有して時効取得した人でも、その乙土地の所有者として、甲土地との境界を特定してほしいと申請できます。
 
@@ -38,15 +44,21 @@
 
 ### エ：資料が偽造だったと判明すれば、改めて筆界特定を申請できる
 
-既に筆界特定がされている筆界については、原則として重ねて申請することはできません。しかし、その筆界特定の資料となった文書が偽造されたものであることが判明したような場合には、あらためて筆界特定をする必要が認められ、乙土地の所有者は、改めて申請をすることができます。この記述は正しいものです。
+既に筆界特定がされている筆界については、原則として重ねて申請することはできません。
+
+しかし、その筆界特定の資料となった文書が偽造されたものであることが判明したような場合には、あらためて筆界特定をする必要が認められ、乙土地の所有者は、改めて申請をすることができます。この記述は正しいものです。
 
 **たとえば**、以前の筆界特定が偽造された古文書をもとに行われていたことが後で分かったときは、「あの結論はおかしい」として、もう一度筆界特定をやり直すよう申請できます。
 
 ### オ：筆界確定訴訟が係属中でも、筆界特定の申請はできる
 
-筆界特定の制度と、裁判所での筆界確定訴訟とは、並行して利用することができます。したがって、甲土地の所有者が筆界確定の訴えを提起して裁判所に係属している間であっても、乙土地の所有者は筆界特定の申請をすることができます。「申請することはできない」とする点は誤りです。
+筆界特定の制度と、裁判所での筆界確定訴訟とは、並行して利用することができます。
+
+したがって、甲土地の所有者が筆界確定の訴えを提起して裁判所に係属している間であっても、乙土地の所有者は筆界特定の申請をすることができます。「申請することはできない」とする点は誤りです。
 
 **たとえば**、隣の人が「境界を裁判で決めてほしい」と訴訟を起こしていても、こちらは並行して行政の筆界特定制度を利用する申請をすることができます。
+
+---
 
 ### まとめ
 
@@ -69,7 +81,7 @@
 - 各肢の判定（正しいのはア・エ）は、公式の正解の組合せ「アエ」から確定できるものです。
 - 各肢の根拠は、筆界特定の申請権者（所有権の登記名義人その他の所有者。仮登記名義人は含まれない）・対象土地の要件・既に筆界特定がされた場合の再申請に関する不動産登記法123条以下の一般的な理解に基づいて記載しています。条文の細かな条項番号までは個別に照合しきれていない部分があるため、各自でも条文を確認することをおすすめします。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（筆界特定の申請）と同一の問題が再出題されていないかを確認しました。筆界特定は頻出テーマで、令和6年度第19問・令和7年度第16問でも扱われています（問題文＋肢全体の類似度0.38程度）。肢単位では、本問の肢ア（一点のみで接する土地を対象とする申請の可否）と令和6年度第19問の肢ア、本問の肢エ（偽造資料が判明した場合の再申請の可否）と令和7年度第16問の肢オが、それぞれほぼ同一の文言（類似度0.84〜0.85）で出題されています。ただし、これらは他の4肢の組合せ・正解がいずれも異なる別問題であり、**問題全体としての重複ではありません**。筆界特定の申請権者・再申請の可否といった基本論点が、形を変えて繰り返し問われています。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（筆界特定の申請）と同一の問題が再出題されていないかを確認しました。筆界特定は頻出テーマで、令和6年度第19問・令和7年度第16問でも扱われています（問題文＋肢全体の類似度0.38程度）。肢単位では、本問のア（一点のみで接する土地を対象とする申請の可否）と令和6年度第19問のア、本問のエ（偽造資料が判明した場合の再申請の可否）と令和7年度第16問のオが、それぞれほぼ同一の文言（類似度0.84〜0.85）で出題されています。ただし、これらは他の4肢の組合せ・正解がいずれも異なる別問題であり、**問題全体としての重複ではありません**。筆界特定の申請権者・再申請の可否といった基本論点が、形を変えて繰り返し問われています。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -108,10 +120,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -200,25 +230,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢イ・ウは、「申請しようとする人は、対象土地の所有権の登記名義人その他の所有者に当たるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢アは筆界の共有の有無を確認する配置図型、肢エは既存の筆界特定の有無から偽造発覚まで確認する独立の決定木、肢オは訴訟と筆界特定の並行利用を示す系統図型とする。
+イ・ウは、「申請しようとする人は、対象土地の所有権の登記名義人その他の所有者に当たるか」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。アは筆界の共有の有無を確認する配置図型、エは既存の筆界特定の有無から偽造発覚まで確認する独立の決定木、オは訴訟と筆界特定の並行利用を示す系統図型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -295,7 +323,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -315,14 +343,14 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 一点接触は対象外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 乙地の一部の時効取得者も申請できる
 Diagram: A diamond node labeled「申請しようとする人は、対象土地の所有権の
 登記名義人その他の所有者に当たるか」with a thick highlighted「はい」branch
-and a faded, greyed-out「いいえ」branch (labeled in small text「肢ウへ」).
+and a faded, greyed-out「いいえ」branch.
 From the highlighted branch, a land plot 乙 partially shaded (甲と隣接して
 いない部分を時効取得した範囲) with a character standing on the shaded part
 holding a 筆界特定申請書 for the 甲・乙筆界, leading to a highlighted final
@@ -335,15 +363,14 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 一部の時効取得者も可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 仮登記の名義人は申請権者に当たらない
 Diagram: The same diamond node as Panel 2（「申請しようとする人は、対象土地
 の所有権の登記名義人その他の所有者に当たるか」）, this time with a thick
-highlighted「いいえ」branch and a faded「はい」branch (labeled in small text
-「肢イへ」). From the highlighted branch, a character holding a 仮登記
+highlighted「いいえ」branch and a faded「はい」branch. From the highlighted branch, a character holding a 仮登記
 document drawn in a faded, semi-transparent dashed style with a label「まだ確定的な
 所有権なし」, reaching for a 筆界特定申請書 but blocked by a large ✕,
 leading to a highlighted final conclusion node「申請することはできない」.
@@ -356,7 +383,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 仮登記名義人は不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -378,7 +405,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 偽造発覚で再申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -398,7 +425,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：不動産登記法123条以下（筆界特定の申請）。判例・先例番号は省略。
+条文根拠：不動産登記法123条以下（筆界特定の申請）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

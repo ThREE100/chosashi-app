@@ -2,51 +2,71 @@
 
 **出題年度：平成27年度　午後の部　第1問**
 
-> 詐欺又は強迫による意思表示に関する次のアからオまでの記述のうち，判例の趣旨に照らし正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　Ａの代理人Ｂが相手方Ｃを欺罔して，Ｃが所有する土地をＡに売り渡す旨の売買契約を締結させた場合には，ＡがＢによる詐欺の事実について知らないときであっても，Ｃは，詐欺を理由としてその意思表示を取り消すことができる。
->
-> イ　ＡがＢに欺罔された結果，法律行為の要素に錯誤を生じて意思表示をした場合には，Ａは，詐欺による意思表示の取消しを主張することはできるが，錯誤による意思表示の無効を主張することはできない。
->
-> ウ　ＡのＢに対する意思表示が第三者Ｃの強迫によりされた場合には，Ｂがその事実を知らないときであっても，Ａは，強迫を理由としてその意思表示を取り消すことができる。
->
-> エ　ＡがＢの強迫によりその所有する土地をＢに売却し，ＡからＢへの所有権の移転の登記がされた場合において，その後，ＢがＣに当該土地を転売した後に，Ａが強迫を理由としてＡＢ間の売買の意思表示を取り消したときは，Ａは，Ｂへの所有権の移転の登記を抹消しない限り，Ｃに対して所有権を主張することができない。
->
-> オ　Ａが，Ｂの詐欺により，Ｂからその所有する土地を買い受け，ＢからＡへの所有権の移転の登記がされた後，Ａが，Ｂに欺罔されていることを知らないまま，当該土地にＣを抵当権者とする抵当権を設定し，その旨の登記がされた場合において，Ｃが当該抵当権の設定時にＢによる詐欺の事実を知らなかったときは，Ａは，詐欺を理由としてＡＢ間の売買の意思表示を取り消すことができない。
->
+> 詐欺又は強迫による意思表示に関する次のアからオまでの記述のうち，判例の趣旨に照らし正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　Ａの代理人Ｂが相手方Ｃを欺罔して，Ｃが所有する土地をＡに売り渡す旨の売買契約を締結させた場合には，ＡがＢによる詐欺の事実について知らないときであっても，Ｃは，詐欺を理由としてその意思表示を取り消すことができる。  
+>　  
+> イ　ＡがＢに欺罔された結果，法律行為の要素に錯誤を生じて意思表示をした場合には，Ａは，詐欺による意思表示の取消しを主張することはできるが，錯誤による意思表示の無効を主張することはできない。  
+>　  
+> ウ　ＡのＢに対する意思表示が第三者Ｃの強迫によりされた場合には，Ｂがその事実を知らないときであっても，Ａは，強迫を理由としてその意思表示を取り消すことができる。  
+>　  
+> エ　ＡがＢの強迫によりその所有する土地をＢに売却し，ＡからＢへの所有権の移転の登記がされた場合において，その後，ＢがＣに当該土地を転売した後に，Ａが強迫を理由としてＡＢ間の売買の意思表示を取り消したときは，Ａは，Ｂへの所有権の移転の登記を抹消しない限り，Ｃに対して所有権を主張することができない。  
+>　  
+> オ　Ａが，Ｂの詐欺により，Ｂからその所有する土地を買い受け，ＢからＡへの所有権の移転の登記がされた後，Ａが，Ｂに欺罔されていることを知らないまま，当該土地にＣを抵当権者とする抵当権を設定し，その旨の登記がされた場合において，Ｃが当該抵当権の設定時にＢによる詐欺の事実を知らなかったときは，Ａは，詐欺を理由としてＡＢ間の売買の意思表示を取り消すことができない。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
-詐欺・強迫による意思表示の分野は、「取り消せるかどうか」そのものよりも、「取消しを第三者に対抗できるか」の違いが問われます。詐欺には善意の第三者を守る規定があるのに、強迫にはそれがない——この非対称を軸に読むのがコツです。なお、この問題は平成27年（2015年）の出題で、民法は2020年改正前の旧法時代のものです。各肢の結論は改正の影響を受けませんが、条文の文言には現行法との違いがあります。
+---
+
+詐欺・強迫による意思表示の分野は、「取り消せるかどうか」そのものよりも、「取消しを第三者に対抗できるか」の違いが問われます。詐欺には善意の第三者を守る規定があるのに、強迫にはそれがない——この非対称を軸に読むのがコツです。
+
+なお、この問題は平成27年（2015年）の出題で、民法は2020年改正前の旧法時代のものです。各肢の結論は改正の影響を受けませんが、条文の文言には現行法との違いがあります。
 
 ### ア：代理人自身が詐欺をしたときは、本人が知らなくても相手方は取り消せる
 
-代理行為に詐欺・強迫といった瑕疵があったかどうかは、原則として実際にその行為をした代理人自身を基準に判断します（民法101条）。本肢では、Ａの代理人Ｂが相手方Ｃをだましているので、Ｃから見れば「取引の相手方側（本人と一体とみられる代理人）」にだまされたことになります。したがって、本人Ａが詐欺の事実を知らなくても、Ｃは詐欺を理由に取り消すことができます。
+代理行為に詐欺・強迫といった瑕疵があったかどうかは、原則として実際にその行為をした代理人自身を基準に判断します（民法101条）。
 
-**たとえば**、あなたが土地を売ろうとしたところ、買主の代理人が「この土地は近く区画整理で価値が下がる」と嘘をついて安く売らせたとします。買主本人がその嘘を知らなかったとしても、だましたのは買主側の代理人ですから、あなたは詐欺を理由に契約を取り消せます。
+本肢では、Ａの代理人Ｂが相手方Ｃをだましているので、Ｃから見れば「取引の相手方側（本人と一体とみられる代理人）」にだまされたことになります。したがって、本人Ａが詐欺の事実を知らなくても、Ｃは詐欺を理由に取り消すことができます。
+
+**たとえば**、あなたが土地を売ろうとしたところ、買主の代理人が「この土地は近く区画整理で価値が下がる」と嘘をついて安く売らせたとします。
+
+買主本人がその嘘を知らなかったとしても、だましたのは買主側の代理人ですから、あなたは詐欺を理由に契約を取り消せます。
 
 ### イ：詐欺による取消しと錯誤の主張は、どちらも選んで主張できる
 
-だまされて意思表示をしたときは、同時に錯誤（思い違い）に陥っていることが多く、判例は、詐欺取消しと錯誤の主張はどちらも表意者を保護するための制度だから、表意者が選択的に主張できるとしています。「詐欺取消しは主張できるが錯誤の主張はできない」とする本肢は誤りです（旧民法では錯誤の効果は「無効」でしたが、選択できる点は現行法の錯誤取消しでも同じです）。
+だまされて意思表示をしたときは、同時に錯誤（思い違い）に陥っていることが多く、判例は、詐欺取消しと錯誤の主張はどちらも表意者を保護するための制度だから、表意者が選択的に主張できるとしています。
+
+「詐欺取消しは主張できるが錯誤の主張はできない」とする本肢は誤りです（旧民法では錯誤の効果は「無効」でしたが、選択できる点は現行法の錯誤取消しでも同じです）。
 
 **たとえば**、あなたが「この絵は有名画家の真筆だ」とだまされて高値で買ったとします。このとき「だまされた（詐欺）」と主張してもよいし、「本物だと思い込んでいた（錯誤）」と主張してもよく、あなたに有利な方を選んで争うことができます。
 
 ### ウ：第三者による強迫は、相手方が善意でも取り消せる
 
-民法は、第三者が「詐欺」を行った場合には、相手方がその事実を知っていた（知り得た）ときに限って取り消せるという制限を置いていますが（民法96条2項）、「強迫」にはこの制限がありません。したがって、第三者Ｃが強迫した場合には、相手方Ｂがその事実を知らなくても、Ａは取り消すことができます。強迫された人は詐欺以上に手厚く保護すべきだからです。
+民法は、第三者が「詐欺」を行った場合には、相手方がその事実を知っていた（知り得た）ときに限って取り消せるという制限を置いていますが（民法96条2項）、「強迫」にはこの制限がありません。
+
+したがって、第三者Ｃが強迫した場合には、相手方Ｂがその事実を知らなくても、Ａは取り消すことができます。強迫された人は詐欺以上に手厚く保護すべきだからです。
 
 **たとえば**、あなたが見ず知らずの第三者に脅されて、その脅しを知らないＢさんと売買契約を結ばされたとします。Ｂさんが脅しの事実をまったく知らなかったとしても、あなたは強迫を理由に契約を取り消すことができます。
 
 ### エ：強迫による取消しは、登記を抹消しなくても第三者に対抗できる
 
-詐欺の取消しには善意の第三者を保護する規定（民法96条3項）がありますが、強迫の取消しにはこの保護規定がありません。そのため、強迫を理由とする取消しは、取消し前に現れた第三者Ｃにも対抗でき、Ａは自分名義への登記の回復（Ｂ名義の登記の抹消）を待つまでもなく、Ｃに対して所有権を主張できます。「登記を抹消しない限り主張できない」とする本肢は誤りです。
+詐欺の取消しには善意の第三者を保護する規定（民法96条3項）がありますが、強迫の取消しにはこの保護規定がありません。
+
+そのため、強迫を理由とする取消しは、取消し前に現れた第三者Ｃにも対抗でき、Ａは自分名義への登記の回復（Ｂ名義の登記の抹消）を待つまでもなく、Ｃに対して所有権を主張できます。「登記を抹消しない限り主張できない」とする本肢は誤りです。
 
 **たとえば**、あなたがＢに脅されて土地を売らされ、Ｂがそれを事情を知らないＣに転売した後で、あなたが強迫を理由に取り消したとします。強迫のケースでは、あなたは登記を取り戻す手続を経なくても、Ｃに「その土地は私のものだ」と主張できます。
 
 ### オ：詐欺による取消しそのものは可能で、善意の第三者に対抗できないだけ
 
-詐欺による取消しは、善意（旧法。現行法では善意無過失）の第三者に「対抗できない」だけであって、当事者間（ＡとＢの間）で取り消すこと自体は可能です（民法96条3項）。本肢は、Ｃが善意だからといってＡが「取り消すことができない」と言い切っている点が誤りです。取消しはでき、ただその効果を善意のＣには主張できないにとどまります。
+詐欺による取消しは、善意（旧法。現行法では善意無過失）の第三者に「対抗できない」だけであって、当事者間（ＡとＢの間）で取り消すこと自体は可能です（民法96条3項）。
 
-**たとえば**、あなたがＢにだまされて土地を買い、その土地に事情を知らないＣのために抵当権を付けた後で詐欺に気づいたとします。あなたはＢとの売買を取り消すことはできますが、その取消しを善意のＣには対抗できず、Ｃの抵当権は守られる、という関係になります。
+本肢は、Ｃが善意だからといってＡが「取り消すことができない」と言い切っている点が誤りです。取消しはでき、ただその効果を善意のＣには主張できないにとどまります。
+
+**たとえば**、あなたがＢにだまされて土地を買い、その土地に事情を知らないＣのために抵当権を付けた後で詐欺に気づいたとします。
+
+あなたはＢとの売買を取り消すことはできますが、その取消しを善意のＣには対抗できず、Ｃの抵当権は守られる、という関係になります。
+
+---
 
 ### まとめ
 
@@ -109,13 +129,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 詐・欺・強・迫・取・消・代・理・第・三・者・善・意・抗・登・記・抹・選・択・
 錯・誤 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -148,7 +186,7 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 詐欺と錯誤はどちらも選べる
 Illustration: A person stands at a fork holding two signposts, one
-labeled "詐欺取消し" and the other labeled "錯誤の主張", both marked with
+labeled "詐欺取消し" and the other labeled "錯誤取消し", both marked with
 green checkmarks. An arrow shows the person freely choosing either path.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 選択的に主張可
@@ -160,10 +198,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric land plot. Person A stamps a document labeled
 "取消し" with a green checkmark toward B. Meanwhile, a separate arrow
 points from A toward C, who holds a mortgage-stamp icon on the same land
-plot and a shield labeled "善意" blocking the arrow, with a small red
+plot and a shield labeled "善意無過失" blocking the arrow, with a small red
 label "対抗不可" beside the shield.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-善意の第三者に対抗不可
+善意無過失の第三者に対抗不可
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 強迫のルール
@@ -201,18 +239,18 @@ these 5 headings):
 5. 強迫の取消しは登記抹消なしで対抗可
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -229,15 +267,15 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — a disguised figure whispering into an ear for
 だました側 icons, a signpost with two paths for the 詐欺/錯誤 choice, and a
 land plot with a registry board for the 取消しの対抗力 panels. Panels 4 and
-5 (肢エ・肢オ) share the same underlying decision-tree shape (取消しの理由
-が詐欺か強迫かを見分け、詐欺の場合はさらに第三者の善意・悪意を確認する
+5 (エ・オ) share the same underlying decision-tree shape (取消しの理由
+が詐欺か強迫かを見分け、詐欺の場合はさらに第三者の善意無過失を確認する
 判定); draw both with the same two-diamond tree layout, but highlight
 （太い縁取り・色を変える等で強調）the branch relevant to that panel's 肢.
-Where a 肢 requires checking multiple conditions in sequence (肢エ・肢オ),
+Where a 肢 requires checking multiple conditions in sequence (エ・オ),
 draw the panel's diagram as an actual decision flowchart with
 diamond-shaped branch nodes, Yes/No（はい／いいえ）branch arrows, and a
-final conclusion node. Where a 肢 is resolved by a single check (肢ア・肢
-イ・肢ウ), a labeled illustrative diagram is sufficient — do not force a
+final conclusion node. Where a 肢 is resolved by a single check (ア・肢
+イ・ウ), a labeled illustrative diagram is sufficient — do not force a
 flowchart. Unlike a glanceable summary poster, each panel MAY include a
 short「着眼点」callout box with 1-2 sentences that state the checking
 ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not just the
@@ -247,7 +285,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -271,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 だましたのが代理人なら本人基準にしない
@@ -288,12 +334,12 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代理人基準で判断
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 詐欺と錯誤はどちらも選べる
 Diagram: A person stands at a fork holding two signposts, one labeled
-詐欺取消し and the other labeled 錯誤の主張, both marked with green
+詐欺取消し and the other labeled 錯誤取消し, both marked with green
 checkmarks. An arrow shows the person freely choosing either path.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、だまされた結果、詐欺の要件と錯誤の要件のどちらも満たしているかを
@@ -303,7 +349,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 選択的に主張可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 第三者の強迫は相手が善意でも取消し可
@@ -319,14 +365,14 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相手方の善意 不問
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 強迫の取消しは登記抹消なしで対抗可
 Diagram: A decision-tree flowchart. Start node: Ａが意思表示を取り消し、
 第三者Ｃが登場した場面。Diamond node: その取消しの理由は詐欺か強迫か？
 with the 強迫 branch highlighted（太い縁取り）for this panel, leading
-directly to a conclusion node (skipping the 善意・悪意 diamond, since
+directly to a conclusion node (skipping the 善意無過失 diamond, since
 強迫には第三者保護規定がない) showing an isometric land plot with a
 registry board still showing 所有者：Ｂ、and Ａ pointing at buyer Ｃ with a
 green checkmark and a speech bubble 私のものだ、with a crossed-out eraser
@@ -335,48 +381,50 @@ required. The 詐欺 branch is drawn smaller and grayed out with a note
 次のパネルへ.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、取消しの理由が詐欺ではなく強迫であることを確認します。強迫には
-善意の第三者を保護する規定がないため、登記を戻す手続を経なくても第三者
+第三者を保護する規定がないため、登記を戻す手続を経なくても第三者
 に所有権を主張できると判断します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 抹消なしで対抗可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
-詐欺取消しは可、善意の第三者に対抗不可なだけ
+詐欺取消しは可、善意無過失の第三者に対抗不可なだけ
 Diagram: The same decision-tree flowchart shape as Panel 4. Start node:
 Ａが意思表示を取り消し、第三者Ｃが登場した場面。Diamond node: その取消し
 の理由は詐欺か強迫か？with the 詐欺 branch highlighted this time, leading
 to a second diamond node (also highlighted): 第三者Ｃはその抵当権の設定
-時に詐欺の事実について善意だったか？with a はい arrow leading to a
-conclusion node showing Ａが取消しの意思表示を stamp する（green
-checkmark, 取消し自体は有効）が、その効力を示す矢印がＣの抵当権を守る盾
-（labeled 善意）に阻まれ「対抗不可」と赤字で記されている。The 強迫 branch
+時に詐欺の事実について善意無過失だったか？with a はい arrow (thick
+highlighted, this panel's path) leading to a conclusion node showing Ａが
+取消しの意思表示を stamp する（green checkmark, 取消し自体は有効）が、その
+効力を示す矢印がＣの抵当権を守る盾（labeled 善意無過失）に阻まれ「対抗
+不可」と赤字で記されている。The いいえ arrow (thinner, lighter tone) leads
+to its own separate conclusion node labeled 悪意・有過失のＣには対抗できる.The 強迫 branch
 is drawn smaller and grayed out.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、取消しの理由が強迫ではなく詐欺であることを確認します。次に、その後
-に現れた第三者が善意であるかを確認し、善意であれば取消し自体はできても
-その第三者には対抗できないと判断します。
+に現れた第三者が善意無過失であるかを確認し、善意無過失であれば取消し自体は
+できてもその第三者には対抗できないと判断します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-善意の第三者に対抗不可
+善意無過失の第三者に対抗不可
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法96条2項（第三者詐欺の制限）・96条3項（詐欺取消しと善意の第三者）・
+民法96条2項（第三者詐欺の制限）・96条3項（詐欺取消しと善意無過失の第三者）・
 101条（代理行為の瑕疵）に基づく整理です。強迫に第三者保護規定がないこと、
-詐欺取消しと錯誤の選択的主張が可能であることは、判例の趣旨によるもの
+詐欺取消しと錯誤取消し（95条）の選択的主張が可能であることは、判例の趣旨によるもの
 です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 詐, 欺, 強, 迫, 取, 消, 代, 理, 善, 意, 抗, 抹, 錯, 誤. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 詐, 欺, 強, 迫, 取, 消, 代, 理, 善, 意, 抗, 抹, 錯, 誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
-multi-condition 肢 (肢エ・肢オ) is drawn as an actual flowchart with branch
+multi-condition 肢 (エ・オ) is drawn as an actual flowchart with branch
 nodes (not a bare illustration with no visible decision structure), that
 each 着眼点 callout states a checking order rather than only a conclusion,
 confirm nothing is rendered below the last panel's footnote text (no

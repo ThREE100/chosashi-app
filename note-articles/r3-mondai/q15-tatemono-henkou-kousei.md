@@ -2,51 +2,79 @@
 
 **出題年度：令和3年度　午後の部　第15問**
 
-> 建物の表題部の変更又は更正の登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　表題部所有者は、附属建物の新築の年月日を更正する登記を申請することができる。
->
-> イ　表題登記のある建物の2階部分を増築した場合において、当該建物の1階部分の床面積が誤って登記されていることが判明したときは、登記の目的を「建物の表題部の変更登記」として、当該建物の1階部分及び2階部分の床面積を現況と合致させる旨の登記を申請することができる。
->
-> ウ　甲建物の附属建物の床面積についての表題部の更正の登記をするときは、附属建物の表示に関する表題部に附属建物の種類、構造及び更正後の床面積の全部を記録し、符号を除いた従前の登記事項の全部を抹消する。
->
-> エ　区分建物の登記記録の一棟の建物の表示に関する表題部の記録事項に誤りがあった場合には、その一棟の建物に属する区分建物の所有権の登記名義人は、他の区分建物の所有権の登記名義人に代位して、当該他の区分建物についても表題部の更正の登記の申請をすることができる。
->
-> オ　甲建物に附属建物が2個ある場合において、一方の附属建物を取り壊したが、誤って現存する他方の附属建物の滅失による建物の表題部の変更の登記がされた場合には、甲建物の所有権の登記名義人は、建物の表題部の更正の登記を申請してこれを是正することはできない。
->
+> 建物の表題部の変更又は更正の登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　表題部所有者は、附属建物の新築の年月日を更正する登記を申請することができる。  
+>　  
+> イ　表題登記のある建物の2階部分を増築した場合において、当該建物の1階部分の床面積が誤って登記されていることが判明したときは、登記の目的を「建物の表題部の変更登記」として、当該建物の1階部分及び2階部分の床面積を現況と合致させる旨の登記を申請することができる。  
+>　  
+> ウ　甲建物の附属建物の床面積についての表題部の更正の登記をするときは、附属建物の表示に関する表題部に附属建物の種類、構造及び更正後の床面積の全部を記録し、符号を除いた従前の登記事項の全部を抹消する。  
+>　  
+> エ　区分建物の登記記録の一棟の建物の表示に関する表題部の記録事項に誤りがあった場合には、その一棟の建物に属する区分建物の所有権の登記名義人は、他の区分建物の所有権の登記名義人に代位して、当該他の区分建物についても表題部の更正の登記の申請をすることができる。  
+>　  
+> オ　甲建物に附属建物が2個ある場合において、一方の附属建物を取り壊したが、誤って現存する他方の附属建物の滅失による建物の表題部の変更の登記がされた場合には、甲建物の所有権の登記名義人は、建物の表題部の更正の登記を申請してこれを是正することはできない。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-建物の表題部を直す登記には「変更の登記」と「更正の登記」の2種類があります。増築のように登記後に事実が動いたのなら「変更」、そもそも最初の登記が間違っていたのなら「更正」——この使い分けが土台になり、そこに附属建物や区分建物という応用が乗ってくる分野です。ひとつずつ、どちらの登記なのかを意識しながら見ていきましょう。
+---
+
+建物の表題部を直す登記には「変更の登記」と「更正の登記」の2種類があります。
+
+増築のように登記後に事実が動いたのなら「変更」、そもそも最初の登記が間違っていたのなら「更正」——この使い分けが土台になり、そこに附属建物や区分建物という応用が乗ってくる分野です。ひとつずつ、どちらの登記なのかを意識しながら見ていきましょう。
 
 ### ア：表題部所有者も、附属建物の新築の年月日を更正できる
 
-表題部所有者または所有権の登記名義人は、不動産登記法27条に定める表示に関する登記の登記事項について、更正の登記を申請することができます（不動産登記法53条1項）。附属建物の新築の年月日もこの表示に関する登記事項に含まれるため、これを更正する登記を申請することができます。
+表題部所有者または所有権の登記名義人は、不動産登記法27条に定める表示に関する登記の登記事項について、更正の登記を申請することができます（不動産登記法53条1項）。
+
+附属建物の新築の年月日もこの表示に関する登記事項に含まれるため、これを更正する登記を申請することができます。
 
 **たとえば**、母屋の登記に加えて庭先の物置（附属建物）が登記されている建物で、その物置の「新築の年月日」が実際とは違う日付で登記されていた場合、表題部所有者は「本当はこの日に建てたものです」として、その年月日を正しく直す更正の登記を申請することができます。
 
 ### イ：増築と既存部分の誤りが混在するときは「変更及び更正の登記」とする
 
-2階部分を増築した場合に申請するのは「建物表題部変更登記」ですが、1階部分の床面積が誤って登記されていた場合に申請するのは「建物表題部更正登記」です。両者は登記の性質が異なるため、これらを同時に申請するときの登記の目的は「建物の表題部の変更及び更正の登記」とすべきであり、「建物の表題部の変更登記」だけとしてしまうと、1階部分の更正まで含めて申請することはできません。よって本肢は誤りです。
+2階部分を増築した場合に申請するのは「建物表題部変更登記」ですが、1階部分の床面積が誤って登記されていた場合に申請するのは「建物表題部更正登記」です。
 
-**たとえば**、平屋だった家に2階を継ぎ足して床面積が増えた（これは事実が後から変わった＝変更）のと同時に、もともとの1階の面積が登記のときから間違っていた（これは最初からの誤り＝更正）ことが分かったとします。この2つは原因が別物なので、申請書の目的欄には「変更」と一言だけでなく、「変更及び更正」と両方を書かなければ、1階の誤りは直せません。
+両者は登記の性質が異なるため、これらを同時に申請するときの登記の目的は「建物の表題部の変更及び更正の登記」とすべきであり、「建物の表題部の変更登記」だけとしてしまうと、1階部分の更正まで含めて申請することはできません。よって本肢は誤りです。
+
+**たとえば**、平屋だった家に2階を継ぎ足して床面積が増えた（これは事実が後から変わった＝変更）のと同時に、もともとの1階の面積が登記のときから間違っていた（これは最初からの誤り＝更正）ことが分かったとします。
+
+この2つは原因が別物なので、申請書の目的欄には「変更」と一言だけでなく、「変更及び更正」と両方を書かなければ、1階の誤りは直せません。
 
 ### ウ：附属建物の更正は、更正後の全部を記録し従前の事項を抹消する
 
-附属建物の種類、構造または床面積に関する変更の登記または更正の登記をする場合において、表題部に附属建物に関する記録をするときは、当該附属建物の変更後または更正後の種類、構造及び床面積の全部を記録し、従前の登記事項（符号を除く。）の全部を抹消するものとされています（不動産登記事務取扱準則94条1項）。本肢はこの実行方法どおりであり、正しい記述です。
+附属建物の種類、構造または床面積に関する変更の登記または更正の登記をする場合において、表題部に附属建物に関する記録をするときは、当該附属建物の変更後または更正後の種類、構造及び床面積の全部を記録し、従前の登記事項（符号を除く。）の全部を抹消するものとされています（不動産登記事務取扱準則94条1項）。
 
-**たとえば**、附属建物の床面積だけを更正する場合でも、登記官は「床面積の数字だけ書き換える」のではなく、その附属建物の種類・構造・更正後の床面積をひとまとまりで書き直し、符号を残して古い記録の一式を消す、という方法で登記します。訂正箇所だけをピンポイントで直すのではなく、その附属建物のブロックごと書き換えるイメージです。
+本肢はこの実行方法どおりであり、正しい記述です。
+
+**たとえば**、附属建物の床面積だけを更正する場合でも、登記官は「床面積の数字だけ書き換える」のではなく、その附属建物の種類・構造・更正後の床面積をひとまとまりで書き直し、符号を残して古い記録の一式を消す、という方法で登記します。
+
+訂正箇所だけをピンポイントで直すのではなく、その附属建物のブロックごと書き換えるイメージです。
 
 ### エ：一棟の表題部の更正は他の区分建物にも職権で及ぶので、代位申請はできない
 
-区分建物についてされた一棟の建物の表題部の登記事項の更正の登記は、同じ一棟の建物に属する他の区分建物についてされた更正の登記としての効力を有します（不動産登記法53条2項、51条5項）。そして、この効力が生じるときは、登記官が職権で当該他の区分建物についても同じ登記事項の更正の登記をしなければならないとされています（同53条2項、51条6項）。つまり、ある区分建物の所有権の登記名義人の1人が申請すれば、他の区分建物については登記官の職権で更正の登記がされることになります。わざわざ他の区分建物の名義人に代位して申請する必要はなく、また代位して申請することもできないため、「申請することができる」とする本肢は誤りです。
+区分建物についてされた一棟の建物の表題部の登記事項の更正の登記は、同じ一棟の建物に属する他の区分建物についてされた更正の登記としての効力を有します（不動産登記法53条2項、51条5項）。
 
-**たとえば**、マンション（区分建物の集まり）で、建物全体を指す「一棟の建物の表示」の記録に誤りがあったとします。101号室の所有者がその誤りを直す更正登記を申請すれば、その効力は102号室にも及び、102号室の分は登記官が職権で直してくれます。101号室の所有者が「102号室の分も私が代わりに申請します」と代位して申請する場面は生じない、というわけです。
+そして、この効力が生じるときは、登記官が職権で当該他の区分建物についても同じ登記事項の更正の登記をしなければならないとされています（同53条2項、51条6項）。
+
+つまり、ある区分建物の所有権の登記名義人の1人が申請すれば、他の区分建物については登記官の職権で更正の登記がされることになります。
+
+わざわざ他の区分建物の名義人に代位して申請する必要はなく、また代位して申請することもできないため、「申請することができる」とする本肢は誤りです。
+
+**たとえば**、マンション（区分建物の集まり）で、建物全体を指す「一棟の建物の表示」の記録に誤りがあったとします。
+
+101号室の所有者がその誤りを直す更正登記を申請すれば、その効力は102号室にも及び、102号室の分は登記官が職権で直してくれます。101号室の所有者が「102号室の分も私が代わりに申請します」と代位して申請する場面は生じない、というわけです。
 
 ### オ：誤った滅失の登記は、更正ではなく滅失の回復で是正する
 
-附属建物が2個あるうち一方を取り壊したのに、誤って現存する他方の附属建物について滅失による表題部の変更の登記がされてしまった場合、直すべきは「本当は現存している附属建物の記録を回復すること」です。これは錯誤によって消された記録を回復する手続であって、更正の登記を申請するわけではありません。したがって「建物の表題部の更正の登記を申請してこれを是正することはできない」とする本肢は正しい記述です。
+附属建物が2個あるうち一方を取り壊したのに、誤って現存する他方の附属建物について滅失による表題部の変更の登記がされてしまった場合、直すべきは「本当は現存している附属建物の記録を回復すること」です。
 
-**たとえば**、物置Aと物置Bのうち、取り壊したのはAなのに、うっかり残っているBのほうを「滅失した」として登記から消してしまったとします。この場合に必要なのは、消えてしまったBの記録を元に戻すことであって、面積や年月日を「正しい値に直す」更正の登記とは筋が違います。だから「更正の登記で是正する」わけにはいかない、というのがこの肢の言いたいところです。
+これは錯誤によって消された記録を回復する手続であって、更正の登記を申請するわけではありません。したがって「建物の表題部の更正の登記を申請してこれを是正することはできない」とする本肢は正しい記述です。
+
+**たとえば**、物置Aと物置Bのうち、取り壊したのはAなのに、うっかり残っているBのほうを「滅失した」として登記から消してしまったとします。
+
+この場合に必要なのは、消えてしまったBの記録を元に戻すことであって、面積や年月日を「正しい値に直す」更正の登記とは筋が違います。だから「更正の登記で是正する」わけにはいかない、というのがこの肢の言いたいところです。
+
+---
 
 ### まとめ
 
@@ -69,7 +97,7 @@
 - 各肢の根拠のうち、条文・準則レベルで確認できたものと、一般原則からの推論にとどまるものを区別すると、次のとおりです。
   - 条文・準則で確認できたもの：ア（不動産登記法53条1項、27条）、ウ（不動産登記事務取扱準則94条1項）、エ（不動産登記法53条2項、51条5項・6項〔5項＝他の区分建物への効力、6項＝登記官の職権更正義務〕）。
   - 条文番号までは明示されておらず、一般原則・実務上の取扱いからの推論にとどまるもの：イ（増築＝変更と既存部分の誤り＝更正が混在する場合に登記の目的を「変更及び更正の登記」とすべきという整理）、オ（誤って滅失登記された現存建物は、更正ではなく錯誤による記録の回復で是正するという整理）。
-  - なお肢オについては、データベース内でも説明の力点が「更正では対応しない（回復で戻す）」というexplanationの記述に整理されており、本記事はこのexplanationの正誤判定（肢オ＝正しい）に従っています。
+  - なおオについては、データベース内でも説明の力点が「更正では対応しない（回復で戻す）」というexplanationの記述に整理されており、本記事はこのexplanationの正誤判定（オ＝正しい）に従っています。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。上記の条文・準則番号はデータベースの記載に基づくものです。
 
 ---
@@ -109,7 +137,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -117,6 +153,16 @@ characters 号・録・権・建・物・登・記・所・更・変・誤, whic
 below and have forms that differ significantly from their Simplified
 Chinese counterparts — render them in their standard Japanese (Jōyō) form
 only.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -198,22 +244,22 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Pay especially
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Pay especially
 close attention to 号・録・権・建・物・登・記・所・更・変・誤 and confirm none
 of them has drifted into a Simplified Chinese variant; if any character
-renders as a Simplified Chinese variant, redraw that character in the
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 (2 cards in the "更正登記の基本" column, 3 cards in the "変更と更正の
 使い分け(応用編)" column), with no duplicated or missing cards, confirm
 there is no intro illustration or paragraph block between the header and
 the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading + a
-short conclusion tag, at a glance.
+short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「表示に関する登記事項に当たるか」「登記後に生じた変化か、最初からの誤りか」「効力が他の区分建物に及ぶか」など、ア〜オそれぞれで最初に何を確認し、どんな図を描けばよいかを示す全5パネルの作図ガイド。ア・ウ・オ（正しい肢）は思い込みと正しいルールを左右で対比させる型、イ・エ（誤っている肢）は条件を順に確認していく決定木として描く。
 
@@ -261,7 +307,15 @@ drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -287,7 +341,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -308,15 +362,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部所有者でも申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 増築による変更と面積誤りの更正、両方の要否を確認する
-Diagram: 決定木。ひし形分岐ノード1「2階部分を増築した（登記後に生じた
-事実の変化）か？」→Yes矢印→四角ノード「変更登記が必要」。並行するひし形
-分岐ノード2「1階部分の床面積が登記時から誤っていた（当初からの誤り）
-か？」→Yes矢印→四角ノード「更正登記が必要」。両方の四角ノードから矢印を
+Diagram: 2列の確認図（ひし形は使わない）。左の四角い確認ボックス①「2階部分を増築した
+（登記後に生じた事実の変化）」→矢印→四角ノード「変更登記が必要」。右の四角い確認
+ボックス②「1階部分の床面積が登記時から誤っていた（当初からの誤り）」→矢印→
+四角ノード「更正登記が必要」。両方の四角ノードから矢印を
 1本の最終結論ノードへ合流させ、結論ノードには申請書のイラストを描き、
 目的欄に大きく「変更及び更正の登記」と記す。対比として、その隣に目的欄が
 「建物の表題部の変更登記」とだけ書かれた申請書のイラストを小さく添え、
@@ -330,7 +384,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 目的は変更及び更正
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -351,15 +405,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 従前事項は全部抹消
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 一棟表題部の誤りは他の区分建物にも及ぶか確認する
 Diagram: 決定木。マンション（区分建物の集まり）を表す一棟の建物のイラスト
-を背景に、ひし形分岐ノード1「101号室の名義人が一棟建物の表示の誤りにつき
-更正の登記を申請したか？」→Yes矢印→ひし形分岐ノード2「その効力は他の
-区分建物（102号室）にも及ぶか（不動産登記法53条2項・51条5項）？」→Yes
+を背景に、四角い確認ボックス①「101号室の名義人が一棟建物の表示の誤りにつき
+更正の登記を申請する」→矢印→四角い確認ボックス②「その効力は他の
+区分建物（102号室）にも及ぶ（不動産登記法53条2項・51条5項）」→
 矢印→四角ノード「登記官が職権で102号室も更正する（同51条6項）」に稲妻
 マークを添える→最終結論ノード「101号室の名義人が102号室に代位して申請
 する必要はなく、代位申請はできない」。101号室から102号室へ向かう
@@ -373,7 +427,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位申請は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -404,9 +458,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 整理
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・建・物・登・記・所・更・変・誤・職・抹・附・滅・復・棟.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・録・権・建・物・登・記・所・更・変・誤・職・抹・附・滅・復・棟. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

@@ -2,19 +2,23 @@
 
 **出題年度：平成24年度　午後の部　第18問**
 
-> 最初に建物の専有部分の全部を所有する者が公正証書により次の規約を設定することができるかに関して、規約として適切なものとならない設定はどれか。次の1から5までのうちどれか。
->
-> 1　法定共用部分でない建物の部分及び附属の建物を共用部分とすること。
->
-> 2　区分所有者が建物及び建物が所在する土地と一体として管理又は使用をする庭、通路その他の土地を建物の敷地とすること。
->
-> 3　法定共用部分の持分を専有部分の床面積の割合と異なる割合によるものとすること。
->
-> 4　各専有部分に係る敷地利用権の割合を各専有部分の床面積の割合と異なる割合によるものとすること。
->
+> 最初に建物の専有部分の全部を所有する者が公正証書により次の規約を設定することができるかに関して、規約として適切なものとならない設定はどれか。次の1から5までのうちどれか。  
+>　  
+> 1　法定共用部分でない建物の部分及び附属の建物を共用部分とすること。  
+>　  
+> 2　区分所有者が建物及び建物が所在する土地と一体として管理又は使用をする庭、通路その他の土地を建物の敷地とすること。  
+>　  
+> 3　法定共用部分の持分を専有部分の床面積の割合と異なる割合によるものとすること。  
+>　  
+> 4　各専有部分に係る敷地利用権の割合を各専有部分の床面積の割合と異なる割合によるものとすること。  
+>　  
 > 5　専有部分とその専有部分に係る敷地利用権とを分離して処分することができるようにすること。
 
-分譲マンションを1棟丸ごと建てた分譲会社（最初に専有部分の全部を所有する者）は、区分所有者が誰もいない段階でも、公正証書によって一定の規約をあらかじめ設定しておくことができます。ただし、この「最初の所有者による単独設定」が認められる規約の内容は、区分所有法32条によって4つの事項に限定されています。この限定列挙に当てはまらないものを見抜けるかが、この問題のポイントです。
+---
+
+分譲マンションを1棟丸ごと建てた分譲会社（最初に専有部分の全部を所有する者）は、区分所有者が誰もいない段階でも、公正証書によって一定の規約をあらかじめ設定しておくことができます。
+
+ただし、この「最初の所有者による単独設定」が認められる規約の内容は、区分所有法32条によって4つの事項に限定されています。この限定列挙に当てはまらないものを見抜けるかが、この問題のポイントです。
 
 ### 1：法定共用部分でない部分を規約共用部分とすることは、公正証書で設定できる
 
@@ -30,7 +34,9 @@
 
 ### 3：法定共用部分の持分割合を変更することは、公正証書による単独設定の対象外
 
-法定共用部分（階段室・エレベーター室など、性質上当然に共用部分となる部分）の持分を、専有部分の床面積の割合と異なる割合にするという定めは、区分所有法32条に列挙された4つの事項（規約共用部分・規約敷地・敷地利用権の分離処分・敷地利用権の持分割合の別段の定め）のいずれにも当てはまりません。最初の所有者が公正証書だけで単独で決められる事項ではなく、通常の規約設定手続（区分所有者集会の特別決議など）によらなければなりません。
+法定共用部分（階段室・エレベーター室など、性質上当然に共用部分となる部分）の持分を、専有部分の床面積の割合と異なる割合にするという定めは、区分所有法32条に列挙された4つの事項（規約共用部分・規約敷地・敷地利用権の分離処分・敷地利用権の持分割合の別段の定め）のいずれにも当てはまりません。
+
+最初の所有者が公正証書だけで単独で決められる事項ではなく、通常の規約設定手続（区分所有者集会の特別決議など）によらなければなりません。
 
 **たとえば**、分譲会社が「エレベーターや階段室の持分は、床面積の割合とは違う特別な割合にします」と公正証書だけで決めてしまうことはできません。このような定めをするには、区分所有者が集会を開いて特別多数決による規約変更の手続を経る必要があります。
 
@@ -42,9 +48,13 @@
 
 ### 5：専有部分と敷地利用権の分離処分を可能にすることは、公正証書で設定できる
 
-本来、専有部分とその専有部分に係る敷地利用権は分離して処分することができないのが原則ですが、規約で別段の定めをすれば、これを分離して処分できるようにすることも可能です。この「分離処分を可能にする」規約も、区分所有法32条が定める公正証書による単独設定の対象に含まれます。
+本来、専有部分とその専有部分に係る敷地利用権は分離して処分することができないのが原則ですが、規約で別段の定めをすれば、これを分離して処分できるようにすることも可能です。
+
+この「分離処分を可能にする」規約も、区分所有法32条が定める公正証書による単独設定の対象に含まれます。
 
 **たとえば**、分譲会社が「この物件については、専有部分（部屋）だけを売買したり、敷地利用権だけを別に処分したりできるようにします」とあらかじめ公正証書で定めておくことができます。
+
+---
 
 ### まとめ
 
@@ -108,13 +118,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 規・約・共・用・部・分・敷・地・持・分・専・有・証・書 — these must be
+kanji 規・約・共・用・部・分・敷・地・持・専・有・証・書 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -171,17 +199,17 @@ Conclusion tag: 公正証書で設定できる
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 in a single column, confirm there is no intro illustration or paragraph
 block between the header and the cards, and confirm that no card contains
 a full sentence of explanatory prose — every card's takeaway must read as
-a short heading + a short conclusion tag, at a glance.
+a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -375,8 +403,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 規・約・共・用・部・分・敷・地・持・
-分・専・有・証・書. If any character renders as a Simplified or
+Chinese, paying special attention to 規・約・共・用・部・分・敷・地・持・有・証・書. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not
 standard Japanese hiragana, katakana, or Jōyō kanji — including any

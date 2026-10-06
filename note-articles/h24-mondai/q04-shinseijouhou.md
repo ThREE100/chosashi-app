@@ -2,51 +2,69 @@
 
 **出題年度：平成24年度　午後の部　第4問**
 
-> 申請情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　土地の表題登記の申請をするときは、その土地の地番を申請情報の内容としなければならない。
->
-> イ　地役権の登記がある承役地の分筆の登記を申請する場合において、地役権設定の範囲が分筆後の土地の一部であるときは、分筆前の土地の地役権図面の番号を申請情報の内容とすることを要しない。
->
-> ウ　所有権の登記がある土地の合筆の登記を申請する場合において、登記識別情報を失念したときは、その旨を登記識別情報を提供することができない理由として申請情報の内容としなければならない。
->
-> エ　法人が土地の表題登記の申請をしたときは、申請情報の内容である当該法人の代表者の氏名が当該土地の登記記録の表題部に記録される。
->
-> オ　分筆の登記の申請をする場合には、分筆後の土地の地目及び地積を申請情報の内容としなければならないが、当該土地の所在する市、区、郡、町、村及び字については、申請情報の内容とすることを要しない。
->
+> 申請情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　土地の表題登記の申請をするときは、その土地の地番を申請情報の内容としなければならない。  
+>　  
+> イ　地役権の登記がある承役地の分筆の登記を申請する場合において、地役権設定の範囲が分筆後の土地の一部であるときは、分筆前の土地の地役権図面の番号を申請情報の内容とすることを要しない。  
+>　  
+> ウ　所有権の登記がある土地の合筆の登記を申請する場合において、登記識別情報を失念したときは、その旨を登記識別情報を提供することができない理由として申請情報の内容としなければならない。  
+>　  
+> エ　法人が土地の表題登記の申請をしたときは、申請情報の内容である当該法人の代表者の氏名が当該土地の登記記録の表題部に記録される。  
+>　  
+> オ　分筆の登記の申請をする場合には、分筆後の土地の地目及び地積を申請情報の内容としなければならないが、当該土地の所在する市、区、郡、町、村及び字については、申請情報の内容とすることを要しない。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+
+---
 
 「申請情報として何を記載しなければならないか」は、表示に関する登記の実務の入り口にあたる分野です。地番のように登記官が定める事項と、申請人が記載すべき事項とを混同しないことがポイントです。
 
 ### ア：地番は登記官が付すものであり、申請情報として記載する必要はない
 
-地番は、登記所が地番区域ごとに一筆の土地ごとに付すものであり（不動産登記法35条、不動産登記規則98条）、申請人があらかじめ決めて申請情報に記載する事項ではありません。不動産登記令3条7号ロも、土地の表題登記を申請する場合には地番を申請情報の内容から明示的に除外しています。土地の表題登記を申請する際、所在する市区町村字は申請情報として必要ですが、地番については記載を要しません。
+地番は、登記所が地番区域ごとに一筆の土地ごとに付すものであり（不動産登記法35条、不動産登記規則98条）、申請人があらかじめ決めて申請情報に記載する事項ではありません。
 
-**たとえば**、山林を切り開いて造成した新しい土地について表題登記を申請するとき、申請人は「この土地は〇〇市〇〇町字〇〇にあります」とは記載しますが、「地番は何番何号にしてください」と自分で指定して申請情報に書く必要はありません。地番は登記官がその土地に新たに付番します。
+不動産登記令3条7号ロも、土地の表題登記を申請する場合には地番を申請情報の内容から明示的に除外しています。土地の表題登記を申請する際、所在する市区町村字は申請情報として必要ですが、地番については記載を要しません。
+
+**たとえば**、山林を切り開いて造成した新しい土地について表題登記を申請するとき、申請人は「この土地は〇〇市〇〇町字〇〇にあります」とは記載しますが、「地番は何番何号にしてください」と自分で指定して申請情報に書く必要はありません。
+
+地番は登記官がその土地に新たに付番します。
 
 ### イ：新たに地役権図面を提出する場合、既存図面の番号までは記載不要
 
-承役地の分筆登記において、分筆後に地役権設定の範囲が土地の一部となるときは、新たに地役権図面を作成して提供する必要があります（不動産登記令別表8の項）。この場合、分筆前の土地に備えられていた既存の地役権図面の番号を、あらためて申請情報の内容として記載することまでは求められません。
+承役地の分筆登記において、分筆後に地役権設定の範囲が土地の一部となるときは、新たに地役権図面を作成して提供する必要があります（不動産登記令別表8の項）。
+
+この場合、分筆前の土地に備えられていた既存の地役権図面の番号を、あらためて申請情報の内容として記載することまでは求められません。
 
 **たとえば**、甲土地の一部にだけ地役権が設定されている状態で甲土地を分筆し、分筆後の土地の一部だけに地役権の範囲が残るケースでは、申請人は新しい地役権図面を作成して提出しますが、「元の地役権図面は第〇号でした」といった過去の図面番号まで申請情報に書き込む必要はありません。
 
 ### ウ：登記識別情報を提供できないときは、その理由を申請情報に記載する
 
-登記識別情報を提供することができないときは、その理由を申請情報の内容としなければなりません（不動産登記令3条12号）。これは合筆の登記を含む、登記識別情報の提供が求められる申請一般に共通するルールです。所有権の登記がある土地の合筆の登記で登記識別情報を失念した場合も同様に、その旨を理由として申請情報に記載する必要があります。
+登記識別情報を提供することができないときは、その理由を申請情報の内容としなければなりません（不動産登記令3条12号）。これは合筆の登記を含む、登記識別情報の提供が求められる申請一般に共通するルールです。
 
-**たとえば**、AさんがX土地とY土地を合筆したいのに、X土地の登記識別情報（いわゆる権利証に代わるパスワードのようなもの）を失くしてしまったとします。この場合、Aさんは「登記識別情報を提供できません、失念したためです」という事情を申請情報に書き添えたうえで、合筆の登記を申請することになります。
+所有権の登記がある土地の合筆の登記で登記識別情報を失念した場合も同様に、その旨を理由として申請情報に記載する必要があります。
+
+**たとえば**、AさんがX土地とY土地を合筆したいのに、X土地の登記識別情報（いわゆる権利証に代わるパスワードのようなもの）を失くしてしまったとします。
+
+この場合、Aさんは「登記識別情報を提供できません、失念したためです」という事情を申請情報に書き添えたうえで、合筆の登記を申請することになります。
 
 ### エ：法人の代表者の氏名は、登記記録の表題部には記録されない
 
-法人が土地の表題登記の申請をする場合、申請情報には申請人である法人の代表者の氏名を記載する必要があります（不動産登記令3条2号）。しかし、これはあくまで申請人を特定するための申請情報上の記載事項であり、登記記録の表題部に記録される事項（不動産登記法27条が定める、不動産所在事項、地目、地積、表題部所有者の氏名または名称・住所など）には、法人の代表者の氏名は含まれません。
+法人が土地の表題登記の申請をする場合、申請情報には申請人である法人の代表者の氏名を記載する必要があります（不動産登記令3条2号）。
+
+しかし、これはあくまで申請人を特定するための申請情報上の記載事項であり、登記記録の表題部に記録される事項（不動産登記法27条が定める、不動産所在事項、地目、地積、表題部所有者の氏名または名称・住所など）には、法人の代表者の氏名は含まれません。
 
 **たとえば**、株式会社Xが所有する土地の表題登記を申請する場合、申請情報には代表取締役Aさんの氏名を記載しますが、実際に登記記録の表題部に記録されるのは「株式会社X」という法人名と住所であり、「代表者A」という記載までは記録されません。
 
 ### オ：分筆後の土地の所在（市区町村字）も、申請情報として必要
 
-分筆の登記を申請する場合、分筆後の各土地について、地目・地積だけでなく、所在する市、区、郡、町、村及び字も申請情報の内容としなければなりません（不動産登記令別表8の項イ）。分筆後の土地も独立した一筆の土地である以上、通常の不動産所在事項の記載が必要になるためです。
+分筆の登記を申請する場合、分筆後の各土地について、地目・地積だけでなく、所在する市、区、郡、町、村及び字も申請情報の内容としなければなりません（不動産登記令別表8の項イ）。
+
+分筆後の土地も独立した一筆の土地である以上、通常の不動産所在事項の記載が必要になるためです。
 
 **たとえば**、甲土地を分筆して乙土地を新たに生じさせる場合、申請情報には分筆後の乙土地の地目・地積とあわせて、「〇〇市〇〇町字〇〇」という所在についても記載しなければなりません。「所在は省略できる」ということはありません。
+
+---
 
 ### まとめ
 
@@ -67,7 +85,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・肢の全文・正解番号（3番＝イ・ウ）は、ユーザーから提供された法務省公式試験問題原本（PDFスキャン）および公式正答資料を直接確認して転記したものです。土地家屋調査士試験対策アプリのデータベースは本問について肢の文言がおおむね公式原本と一致していましたが、本記事では公式原本の記載を一次情報源としています。
 - `note-articles/laws/`のローカル法令データベース（不動産登記法・令・別表、e-Gov現行法2026-08-04取得）で全肢の条文原文を確認済みです。ア＝不動産登記法35条（登記所が地番を付す）・不動産登記令3条7号ロ（表題登記申請時は地番を申請情報から除外）、ウ＝不動産登記令3条12号、エ＝不動産登記令3条2号（代表者氏名は申請情報の記載事項）・不動産登記法27条（表題部の記録事項に代表者氏名は含まれない）、オ＝不動産登記令別表8の項イ（分筆後の土地の所在も申請情報の内容）は、いずれも条文の文言そのままの内容です。イ（地役権図面の番号の記載省略）についても、不動産登記令別表8の項の添付情報・申請情報の規定内容と整合しますが、「旧図面番号の記載を要しない」という消極的な事実そのものを明文で述べた条文までは確認できていないため、条文構造からの推論にとどめています。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「申請情報」がテーマの問題を確認しました。申請情報の記載事項は不動産登記法分野の頻出テーマですが、本問の具体的な肢の組み合わせ（土地の表題登記における地番の記載要否、承役地分筆時の地役権図面番号の記載省略、合筆時の登記識別情報提供不能の理由記載、法人代表者氏名の登記記録への不記録、分筆後の土地の所在記載義務）と完全に一致する出題は見つかりませんでした。なお、肢イに関連する地役権図面の提供義務については、令和6年度第10問（地役権図面）で類似の論点が扱われており、あわせて参照すると理解が深まります。**内容の完全な重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成25年度から令和7年度までの試験問題全体で「申請情報」がテーマの問題を確認しました。申請情報の記載事項は不動産登記法分野の頻出テーマですが、本問の具体的な肢の組み合わせ（土地の表題登記における地番の記載要否、承役地分筆時の地役権図面番号の記載省略、合筆時の登記識別情報提供不能の理由記載、法人代表者氏名の登記記録への不記録、分筆後の土地の所在記載義務）と完全に一致する出題は見つかりませんでした。なお、イに関連する地役権図面の提供義務については、令和6年度第10問（地役権図面）で類似の論点が扱われており、あわせて参照すると理解が深まります。**内容の完全な重複は見つかりませんでした。** 令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -107,13 +125,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 番・地・役・権・図・識・別・法・人・表・題・部・筆 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -177,18 +213,18 @@ Conclusion tag: 所在の記載も必須
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -212,9 +248,9 @@ actual decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 3
-（肢ウ）is the only 肢 in this problem that turns on an explicit yes/no
+（ウ）is the only 肢 in this problem that turns on an explicit yes/no
 check（登記識別情報を提供できるか）, so it alone is drawn with a single
-diamond branch node; Panel 4（肢エ）is drawn as a side-by-side comparison
+diamond branch node; Panel 4（エ）is drawn as a side-by-side comparison
 of two different things being confused（申請情報の記載事項 と 登記記録の記
 録事項）rather than a flowchart, since the point is telling apart two
 different categories, not checking conditions in sequence; the remaining
@@ -265,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地番は申請人でなく登記官が決める
@@ -284,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 地番は記載不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 旧地役権図面の番号までは記載不要
@@ -304,13 +340,13 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新図面のみ提供
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 提供できない理由も申請情報に書く
 Diagram: A decision-tree flowchart with a single diamond node:
 "登記識別情報を提供できるか？" The はい branch leads to a small, faded
-conclusion node "通常どおり提供すれば足りる（本問の対象外）". The いいえ
+conclusion node "通常どおり提供すれば足りる". The いいえ
 branch leads to a highlighted application-document icon with a filled-in
 field reading "登記識別情報を提供できません／理由：紛失", stamped with a
 green checkmark confirming this is required.
@@ -322,7 +358,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 理由の記載が必須
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 代表者氏名は登記記録の表題部に載らない
@@ -342,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 表題部には載らない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分筆後の所在も省略せず記載する
@@ -376,9 +412,9 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢ウ is drawn as an actual
+between the header and the panels, that ウ is drawn as an actual
 decision flowchart with a visible diamond branch node (not a bare
-illustration with no visible decision structure), that 肢エ is drawn as a
+illustration with no visible decision structure), that エ is drawn as a
 clear side-by-side comparison of the two categories being confused rather
 than a flowchart, that each 着眼点 callout states a checking order rather
 than only a conclusion and keeps every required element from the source

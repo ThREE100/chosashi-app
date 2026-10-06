@@ -2,51 +2,99 @@
 
 **出題年度：平成19年度　午前の部　第18問**
 
-> 建物の滅失の登記の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　被相続人が所有権の登記名義人である建物について、被相続人の死亡後、所有権の移転の登記をする前に相続人の一人が当該建物を取り壊した場合には、他の相続人が建物の滅失の登記の申請をすることができる。
->
-> イ　抵当権が設定されている建物の滅失の登記を申請するに際しては、その抵当権者の承諾を証する当該抵当権者が作成した情報を添付することを要しない。
->
-> ウ　建物の滅失の登記を代理人が書面により申請する場合には、申請人は、委任状に押印した印鑑に関する証明書を添付しなければならず、かつ、その証明書は作成後3月以内のものでなければならない。
->
-> エ　建物を同一の敷地において解体移転した場合には、その登記記録には変更がないので、建物の滅失の登記を申請する必要はなく、建物図面の変更の申出をすればよい。
->
-> オ　一棟の建物がいずれもAが所有する甲・乙2個の敷地権付き区分建物で構成されている場合において、甲建物のみが滅失したときは、Aは、甲建物の滅失の登記とともに、乙建物について、敷地権であった権利が敷地権でない権利となったことによる建物の表題部に関する変更の登記及び乙建物を非区分建物とする建物の表題部に関する変更の登記を申請しなければならない。
->
+> 建物の滅失の登記の申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　被相続人が所有権の登記名義人である建物について、被相続人の死亡後、所有権の移転の登記をする前に相続人の一人が当該建物を取り壊した場合には、他の相続人が建物の滅失の登記の申請をすることができる。  
+>　  
+> イ　抵当権が設定されている建物の滅失の登記を申請するに際しては、その抵当権者の承諾を証する当該抵当権者が作成した情報を添付することを要しない。  
+>　  
+> ウ　建物の滅失の登記を代理人が書面により申請する場合には、申請人は、委任状に押印した印鑑に関する証明書を添付しなければならず、かつ、その証明書は作成後3月以内のものでなければならない。  
+>　  
+> エ　建物を同一の敷地において解体移転した場合には、その登記記録には変更がないので、建物の滅失の登記を申請する必要はなく、建物図面の変更の申出をすればよい。  
+>　  
+> オ　一棟の建物がいずれもAが所有する甲・乙2個の敷地権付き区分建物で構成されている場合において、甲建物のみが滅失したときは、Aは、甲建物の滅失の登記とともに、乙建物について、敷地権であった権利が敷地権でない権利となったことによる建物の表題部に関する変更の登記及び乙建物を非区分建物とする建物の表題部に関する変更の登記を申請しなければならない。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
 
-建物を取り壊したときに申請する「滅失登記」は、実務でも試験でも定番のテーマです。ただ、「所有者が既に亡くなっている」「抵当権が付いている」「区分建物特有の事情がある」など条件が重なると、申請人や添付情報の判断が一気にややこしくなります。この問題は、そうした典型パターンを一度に確認できる良問です。ア〜オを一つずつ、条文の建前から見ていきましょう。
+---
+
+建物を取り壊したときに申請する「滅失登記」は、実務でも試験でも定番のテーマです。ただ、「所有者が既に亡くなっている」「抵当権が付いている」「区分建物特有の事情がある」など条件が重なると、申請人や添付情報の判断が一気にややこしくなります。
+
+この問題は、そうした典型パターンを一度に確認できる良問です。ア〜オを一つずつ、条文の建前から見ていきましょう。
 
 ### ア：所有者が死亡していても、相続人の一人から滅失登記を申請できる
 
-不動産登記法30条は、表題部所有者又は所有権の登記名義人が表示に関する登記の申請人となることができる場合において、その者について相続その他の一般承継があったときは、相続人その他の一般承継人が当該表示に関する登記を申請することができると定めています。建物の滅失の登記は「表示に関する登記」の一つであり（不動産登記法2条3号、57条）、事実状態をそのまま登記記録に反映させる手続にすぎないため、権利に関する登記のように相続人全員の一致した意思表示を要件とはしていません。設問は、被相続人が所有権の登記名義人である建物について、相続登記（所有権移転登記）を経る前に相続人の一人が建物を取り壊した場面ですが、この場合であっても、他の相続人は不動産登記法30条の一般承継人として、単独で滅失登記の申請をすることができます。
+不動産登記法30条は、表題部所有者又は所有権の登記名義人が表示に関する登記の申請人となることができる場合において、その者について相続その他の一般承継があったときは、相続人その他の一般承継人が当該表示に関する登記を申請することができると定めています。
 
-**たとえば**、一人暮らしの父Aが亡くなり、子B・Cが相続人になったものの、まだ相続登記（所有権移転登記）をしないうちに、Bが実家の古い建物を解体してしまったとします。この場合、Cは、Aの死亡によって滅失登記の申請人となる資格（不動産登記法30条の一般承継人）を得ているので、Bの協力がなくても、単独で滅失登記を申請することができます。
+建物の滅失の登記は「表示に関する登記」の一つであり（不動産登記法2条3号、57条）、事実状態をそのまま登記記録に反映させる手続にすぎないため、権利に関する登記のように相続人全員の一致した意思表示を要件とはしていません。
+
+設問は、被相続人が所有権の登記名義人である建物について、相続登記（所有権移転登記）を経る前に相続人の一人が建物を取り壊した場面ですが、この場合であっても、他の相続人は不動産登記法30条の一般承継人として、単独で滅失登記の申請をすることができます。
+
+**たとえば**、一人暮らしの父Aが亡くなり、子B・Cが相続人になったものの、まだ相続登記（所有権移転登記）をしないうちに、Bが実家の古い建物を解体してしまったとします。
+
+この場合、Cは、Aの死亡によって滅失登記の申請人となる資格（不動産登記法30条の一般承継人）を得ているので、Bの協力がなくても、単独で滅失登記を申請することができます。
 
 ### イ：抵当権が付いていても、滅失登記に抵当権者の承諾書は不要
 
-抵当権は、その目的物である建物が現実に消滅すれば、目的物の存在を前提とする担保物権として当然に消滅します（付従性）。滅失登記は、建物が物理的に存在しなくなったという事実をそのまま登記記録に反映させるだけの表示に関する登記であり、権利に関する登記のように利害関係人の同意を申請の要件とする規定は置かれていません。実際、不動産登記令別表を見ても、通常の建物の滅失の登記について抵当権者の承諾を証する情報を添付情報として求める定めはありません（共用部分である旨の登記又は団地共用部分である旨の登記がある建物の滅失の登記について、所有者を証する情報の提供を求める定めがあるのみです）。したがって、抵当権が設定されている建物であっても、滅失登記の申請に際して抵当権者の承諾を証する情報の添付は不要です。
+抵当権は、その目的物である建物が現実に消滅すれば、目的物の存在を前提とする担保物権として当然に消滅します（付従性）。
 
-**たとえば**、銀行の抵当権が付いた自宅を解体したとします。ローンが残っていても、銀行（抵当権者）の承諾書をもらわなければ滅失登記ができないわけではありません。建物という担保の対象そのものが物理的になくなった以上、抵当権者の承諾を待たずに滅失登記を申請できます（ローン契約上は事前に銀行へ連絡すべき場合が多いですが、それは登記の申請要件とは別の話です）。
+滅失登記は、建物が物理的に存在しなくなったという事実をそのまま登記記録に反映させるだけの表示に関する登記であり、権利に関する登記のように利害関係人の同意を申請の要件とする規定は置かれていません。
+
+実際、不動産登記令別表を見ても、通常の建物の滅失の登記について抵当権者の承諾を証する情報を添付情報として求める定めはありません（共用部分である旨の登記又は団地共用部分である旨の登記がある建物の滅失の登記について、所有者を証する情報の提供を求める定めがあるのみです）。
+
+したがって、抵当権が設定されている建物であっても、滅失登記の申請に際して抵当権者の承諾を証する情報の添付は不要です。
+
+**たとえば**、銀行の抵当権が付いた自宅を解体したとします。ローンが残っていても、銀行（抵当権者）の承諾書をもらわなければ滅失登記ができないわけではありません。
+
+建物という担保の対象そのものが物理的になくなった以上、抵当権者の承諾を待たずに滅失登記を申請できます（ローン契約上は事前に銀行へ連絡すべき場合が多いですが、それは登記の申請要件とは別の話です）。
 
 ### ウ：滅失登記の委任状は認印でよく、印鑑証明書の添付は不要
 
-代理人に書面で登記を委任するときは、委任状（代理人の権限を証する情報を記載した書面）に押印した印鑑についての印鑑証明書（作成後3か月以内）の添付が求められる場面があります（不動産登記令18条2項・3項）。しかし、この印鑑証明書の添付が必要となるのは、申請人が登記義務者となるなど、不動産登記規則47条3号に列挙された一定の類型に該当する場合に限られます（同規則48条・49条2項4号）。建物の滅失の登記のような表示に関する登記の申請人（表題部所有者又は所有権の登記名義人）は、この類型に該当しないため、実務上、委任状への押印は認印で足り、印鑑証明書の添付は求められません。設問は「押印した印鑑に関する証明書を添付しなければならず、かつ、作成後3月以内のものでなければならない」としていますが、この規律は権利に関する登記の登記義務者等を前提としたものであり、建物の滅失登記（表示に関する登記）にそのまま当てはめることはできません。
+代理人に書面で登記を委任するときは、委任状（代理人の権限を証する情報を記載した書面）に押印した印鑑についての印鑑証明書（作成後3か月以内）の添付が求められる場面があります（不動産登記令18条2項・3項）。
 
-**たとえば**、土地家屋調査士に建物の解体後の滅失登記を依頼する場合、依頼者は委任状に認印を押すだけで済み、わざわざ役所で印鑑証明書を取ってきて添付する必要はありません。所有権の移転登記のように厳格な本人確認を求める必要性が、滅失登記にはそこまで高くないためです。
+しかし、この印鑑証明書の添付が必要となるのは、申請人が登記義務者となるなど、不動産登記規則47条3号に列挙された一定の類型に該当する場合に限られます（同規則48条・49条2項4号）。
+
+建物の滅失の登記のような表示に関する登記の申請人（表題部所有者又は所有権の登記名義人）は、この類型に該当しないため、実務上、委任状への押印は認印で足り、印鑑証明書の添付は求められません。
+
+設問は「押印した印鑑に関する証明書を添付しなければならず、かつ、作成後3月以内のものでなければならない」としていますが、この規律は権利に関する登記の登記義務者等を前提としたものであり、建物の滅失登記（表示に関する登記）にそのまま当てはめることはできません。
+
+**たとえば**、土地家屋調査士に建物の解体後の滅失登記を依頼する場合、依頼者は委任状に認印を押すだけで済み、わざわざ役所で印鑑証明書を取ってきて添付する必要はありません。
+
+所有権の移転登記のように厳格な本人確認を求める必要性が、滅失登記にはそこまで高くないためです。
 
 ### エ：同一敷地内で解体移転しても、滅失登記と新たな表題登記が必要
 
-「解体移転」とは、既存の建物を取り壊し、その材料等を用いて別の場所（同一敷地内であっても）に建物を再築することを指し、この場合は既存の建物が滅失し、新たな建物が建築されたものとして取り扱われます（不動産登記事務取扱手続準則85条1項）。建物を解体せずにそのまま動かす「曳行移転」とは異なり、解体移転の場合はいったん建物としての実体が失われます。したがって、解体移転をした場合には、まず解体前の建物について滅失登記を申請し（不動産登記法57条）、その上で新築された建物について改めて建物の表題登記を申請しなければなりません（不動産登記法47条）。「登記記録に変更がないので建物図面の変更の申出をすればよい」というような簡易な手続で済ませることは認められていません。
+「解体移転」とは、既存の建物を取り壊し、その材料等を用いて別の場所（同一敷地内であっても）に建物を再築することを指し、この場合は既存の建物が滅失し、新たな建物が建築されたものとして取り扱われます（不動産登記事務取扱手続準則85条1項）。
 
-**たとえば**、敷地の隅にあった古い倉庫を一度解体し、その建材を使って同じ敷地内の別の位置に建て直したとします。見た目は似ていても、登記の扱いとしては「古い倉庫が滅失し、新しい倉庫が新築された」ことになるため、古い倉庫の滅失登記と、新しい倉庫の表題登記の両方を申請する必要があります。
+建物を解体せずにそのまま動かす「曳行移転」とは異なり、解体移転の場合はいったん建物としての実体が失われます。
+
+したがって、解体移転をした場合には、まず解体前の建物について滅失登記を申請し（不動産登記法57条）、その上で新築された建物について改めて建物の表題登記を申請しなければなりません（不動産登記法47条）。
+
+「登記記録に変更がないので建物図面の変更の申出をすればよい」というような簡易な手続で済ませることは認められていません。
+
+**たとえば**、敷地の隅にあった古い倉庫を一度解体し、その建材を使って同じ敷地内の別の位置に建て直したとします。
+
+見た目は似ていても、登記の扱いとしては「古い倉庫が滅失し、新しい倉庫が新築された」ことになるため、古い倉庫の滅失登記と、新しい倉庫の表題登記の両方を申請する必要があります。
 
 ### オ：区分建物が一つだけ残っても、当然に複数の変更登記が義務付けられるとは言えない
 
-敷地権の登記は、専有部分が「区分建物」であることを前提として置かれる制度です（不動産登記法44条1項9号等）。したがって、一棟の建物を構成する区分建物の一部が滅失し、区分建物としての実体が失われた場合には、残された建物の登記や敷地権の登記のあり方を見直す必要が生じうる、という方向性自体は不動産登記法の基本的な考え方と整合します。しかし、設問は、甲・乙2個の区分建物のうち甲のみが滅失した場合に、乙について「敷地権であった権利が敷地権でない権利となったことによる変更登記」と「乙建物を非区分建物とする変更登記」の2つを、Aが必ず申請しなければならないと断定しています。不動産登記規則140条4項は、区分合併以外の原因で区分建物が区分建物でない建物となったときの登記記録の記録方法（登記官の事務）を定めていますが、これはあくまで登記記録の処理手順についての規定であり、設問がいうような2つの変更登記を申請人の義務として課す規定ではありません。一棟の中に区分建物が1個だけ残った場合に、残存建物を非区分建物とする変更登記や敷地権に関する変更登記を、申請人が必ず申請しなければならないとする規定を条文レベルで確認することはできませんでした。したがって、設問がいうように2つの変更登記を一律の義務として断定する記述は条文上の裏付けを欠いており、本肢は誤りです。
+敷地権の登記は、専有部分が「区分建物」であることを前提として置かれる制度です（不動産登記法44条1項9号等）。
 
-**たとえば**、マンションの1棟の中にA所有の甲・乙2部屋（専有部分）しかなく、甲側だけが火災で全焼したとします。残った乙だけの建物を、これからも「区分建物」として登記し続けてよいのか、それとも「ふつうの一戸建てと同じ扱い」に変更する登記を必ずしなければならないのか——ここは事案ごとの検討を要する、実は簡単には言い切れない論点なのです。
+したがって、一棟の建物を構成する区分建物の一部が滅失し、区分建物としての実体が失われた場合には、残された建物の登記や敷地権の登記のあり方を見直す必要が生じうる、という方向性自体は不動産登記法の基本的な考え方と整合します。
+
+しかし、設問は、甲・乙2個の区分建物のうち甲のみが滅失した場合に、乙について「敷地権であった権利が敷地権でない権利となったことによる変更登記」と「乙建物を非区分建物とする変更登記」の2つを、Aが必ず申請しなければならないと断定しています。
+
+不動産登記規則140条4項は、区分合併以外の原因で区分建物が区分建物でない建物となったときの登記記録の記録方法（登記官の事務）を定めていますが、これはあくまで登記記録の処理手順についての規定であり、設問がいうような2つの変更登記を申請人の義務として課す規定ではありません。
+
+一棟の中に区分建物が1個だけ残った場合に、残存建物を非区分建物とする変更登記や敷地権に関する変更登記を、申請人が必ず申請しなければならないとする規定を条文レベルで確認することはできませんでした。
+
+したがって、設問がいうように2つの変更登記を一律の義務として断定する記述は条文上の裏付けを欠いており、本肢は誤りです。
+
+**たとえば**、マンションの1棟の中にA所有の甲・乙2部屋（専有部分）しかなく、甲側だけが火災で全焼したとします。
+
+残った乙だけの建物を、これからも「区分建物」として登記し続けてよいのか、それとも「ふつうの一戸建てと同じ扱い」に変更する登記を必ずしなければならないのか——ここは事案ごとの検討を要する、実は簡単には言い切れない論点なのです。
+
+---
 
 ### まとめ
 
@@ -118,7 +166,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
@@ -209,9 +265,9 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 滅・失・登・記・権・建・物・証・書・続・継・請. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 滅・失・登・記・権・建・物・証・書・続・継・請. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, that badge numbers run 1-5
 continuously across both columns without resetting, confirm there is no
@@ -226,7 +282,7 @@ edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -253,19 +309,19 @@ this problem are five independent, unrelated rules about the building 滅失
 shared fact pattern, draw them as five separate diagrams rather than
 highlighting branches of one shared tree shape. Where a 肢 requires
 checking multiple conditions in sequence before reaching a conclusion
-(肢ア・肢イ・肢ウ), draw the panel's diagram as an actual decision
+(ア・イ・ウ), draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node for
 both the はい and いいえ sides wherever both results carry real meaning
-(肢イ: whether the building has a 共用部分である旨の登記, and 肢ウ: whether
+(イ: whether the building has a 共用部分である旨の登記, and ウ: whether
 the applicant falls under the 規則47条3号 category, both matter and must
 each show their own conclusion, with no looping arrow back into the
 flowchart). Where a 肢 turns on distinguishing two different scenes that
-are easy to confuse (肢エ: 曳行移転 vs 解体移転), draw it as a two-side
+are easy to confuse (エ: 曳行移転 vs 解体移転), draw it as a two-side
 contrast panel with one side highlighted in full color (the scene this
 問題 actually asks about) and the other side shown only as a labeled
 reference. Where a 肢 turns on a common misconception about whether a
-provision imposes an obligation (肢オ), draw it as a two-side contrast
+provision imposes an obligation (オ), draw it as a two-side contrast
 panel: a faded/crossed-out「誤った思い込み」side and a highlighted
 「正しい理解」side, rather than a plain single illustration. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」callout
@@ -275,8 +331,8 @@ case or precedent numbers (article/regulation numbers are fine); keep the
 callout text as written below verbatim, and keep every condition each
 callout describes faithful to the article's own body text — do not drop
 or merge a required element (e.g. keep 相続登記の先後と相続人全員の同意の
-要否 as two distinct checks in 肢ア, and keep 抵当権の有無と共用部分登記の
-有無 as two distinct checks in 肢イ).
+要否 as two distinct checks in ア, and keep 抵当権の有無と共用部分登記の
+有無 as two distinct checks in イ).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -315,63 +371,60 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 相続登記前でも一般承継人が単独申請
 Diagram: A decision-flowchart drawn beside an isometric scene: a small
 memorial-tablet icon (亡くなった所有権登記名義人) with two adult child
 figures labeled 「B」(建物を取り壊した相続人)と「C」(申請しようとする他の
-相続人). First diamond node: 相続登記(所有権移転登記)を経る前か？with はい
-leading down and a small side note 経ていなくても結論には影響しない, and
-いいえ also merging into the same downward path to show the answer to this
-question does not change the outcome. Second diamond node (drawn with a
-thicker highlighted border, since this is the肢の核心): Cが単独で申請する
-には相続人B・C全員の同意が必要か？with いいえ leading to a green checkmark
-conclusion node reading Cは一般承継人として単独で滅失登記を申請できる, and
-はい crossed out with a large red ✕ and labeled 誤った思い込み to show
-that full agreement is not actually required. No arrow loops back into
+相続人). One diamond node (drawn with a thicker highlighted border, since this is
+the肢の核心): 申請するCは、死亡した所有権の登記名義人の相続人(一般承継人)
+か？with はい leading to a green checkmark conclusion node reading Cは一般
+承継人として単独で滅失登記を申請できる, and a faded いいえ branch leading to
+a faded conclusion node reading 申請人になれない. Beside the green conclusion
+node, two small faded, dotted-outline tags (no ○/✕ mark on either) read
+相続登記の有無は問わない and 他の相続人の同意は不要. No arrow loops back into
 the flowchart from either conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、相続登記(所有権移転登記)を経ているかどうかを確認しますが、この点は
-結論を左右しません。次に、相続人全員の同意が必要かを確認し、一般承継人で
-あれば単独で申請できると判断します。
+まず、申請するCが死亡した所有権の登記名義人の相続人(一般承継人)かを確認
+します。相続人であれば、相続登記を経ていなくても、他の相続人の同意がなく
+ても、単独で滅失登記を申請できると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一般承継人が単独申請
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 抵当権者の承諾書は添付不要
 Diagram: A decision-flowchart drawn over an isometric house icon with a
 bank/mortgage plaque (抵当権) attached, being demolished by a wrecking
-ball. First diamond node: 建物に抵当権が設定されているか？with はい
-leading down (この問題の前提、この点自体は結論を左右しないと横に小さく
-注記). Second diamond node (drawn with a thicker highlighted border, since
-this is the肢の核心): 共用部分である旨の登記または団地共用部分である旨の
+ball. A small faded, dotted-outline tag beside the house reads 抵当権の有無は問わ
+ない (no ○/✕ mark). One diamond node (drawn with a thicker highlighted
+border, since this is the肢の核心): 共用部分である旨の登記または団地共用部分である旨の
 登記がある建物か？with いいえ leading to a green checkmark conclusion node
 reading 通常の建物は抵当権者の承諾を証する情報の添付は不要, and はい
 leading to a separate faded conclusion node reading 共用部分登記がある
-建物は所有者を証する情報の添付が必要(この問題の建物には該当しない). No
+建物は所有者を証する情報の添付が必要. No
 arrow loops back into the flowchart from either conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、建物に抵当権が設定されているかを確認しますが、この点自体は結論を
-左右しません。次に、共用部分である旨の登記がある特殊な建物かどうかを確認
-し、通常の建物であれば抵当権者の承諾を証する情報の添付は不要と判断します。
+まず、共用部分である旨の登記がある特殊な建物かどうかを確認します。通常の
+建物であれば、抵当権が設定されていても抵当権者の承諾を証する情報の添付は
+不要と判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾情報は添付不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 表示登記の申請人は印鑑証明書不要
 Diagram: A decision-flowchart drawn over a hand pressing a plain round
-personal seal (認印) onto a 委任状 (power of attorney) document. First
-diamond node: 代理人に書面で登記を委任するか？with はい leading down (この
-問題の前提). Second diamond node (drawn with a thicker highlighted
-border, since this is the肢の核心): 申請人が不動産登記規則47条3号に列挙
+personal seal (認印) onto a 委任状 (power of attorney) document. A
+rectangular premise box (not a diamond) at the top reads 代理人に書面で登記を
+委任する場面, with an arrow leading down to one diamond node (drawn with a
+thicker highlighted border, since this is the肢の核心): 申請人が不動産登記規則47条3号に列挙
 された類型(登記義務者等)に該当するか？with はい leading to a separate
 conclusion node reading 委任状に押した印鑑につき作成後3か月以内の印鑑証明
 書の添付が必要, and いいえ leading to a green checkmark highlighted
@@ -379,7 +432,7 @@ conclusion node reading 建物の滅失登記(表示に関する登記)の申請
 よく証明書は不要. No arrow loops back into the flowchart from either
 conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、代理人に書面で登記を委任するかを確認します。次に、申請人が不動産
+代理人に書面で登記を委任する場面で、申請人が不動産
 登記規則47条3号に列挙された登記義務者等の類型に該当するかを確認し、
 該当しない表示に関する登記の申請人であれば、委任状は認印でよく印鑑証明書
 は不要と判断します。
@@ -387,7 +440,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 印鑑証明書は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 同一敷地内でも解体すれば滅失登記が必要
@@ -412,7 +465,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 滅失登記+表題登記
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 変更登記2件の義務化に条文上の根拠なし
@@ -453,13 +506,13 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢（肢ア・
-肢イ・肢ウ）is drawn as an actual flowchart with branch nodes (not a bare
-illustration with no visible decision structure), that 肢イ・肢ウ's two
+between the header and the panels, that every multi-condition 肢（ア・
+イ・ウ）is drawn as an actual flowchart with branch nodes (not a bare
+illustration with no visible decision structure), that イ・ウ's two
 conditions each show a meaningful conclusion on both the はい and いいえ
-sides with no looping arrow back into the flowchart, that 肢エ is drawn as
+sides with no looping arrow back into the flowchart, that エ is drawn as
 a two-side contrast between 曳行移転 and 解体移転 with only the 解体移転
-side highlighted, that 肢オ is drawn as a two-side contrast between the
+side highlighted, that オ is drawn as a two-side contrast between the
 mistaken assumption and the correct understanding rather than a single
 plain illustration, that each 着眼点 callout states a checking order
 rather than only a conclusion and keeps every required element from the

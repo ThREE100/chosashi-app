@@ -2,43 +2,55 @@
 
 **出題年度：平成26年度　午後の部　第8問**
 
-> 表示に関する登記の申請における添付情報に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　法人Aが表題部所有者である土地につき地目の変更の登記を申請する場合において，当該申請を受ける登記所が，法人Aの代表者の氏名及び住所を含む法人Aの登記を受けた登記所と同一である登記所に準ずるものとして法務大臣が指定した登記所であるときは，法人Aの代表者の資格を証する情報を提供することを要しない。
->
-> イ　Aが所有権の登記名義人である土地につき合筆の登記を当該登記の申請代理人である土地家屋調査士Bによって申請する場合において，Aの本人確認情報と併せて，土地家屋調査士Bが所属する土地家屋調査士会が発行した職印に関する証明書を提供するときは，Aの印鑑に関する証明書を提供することを要しない。
->
-> ウ　Aが所有権の登記名義人である土地につき合筆の登記を当該登記の申請代理人である土地家屋調査士Bによって申請する場合において，Aが署名して公証人の認証を受けた委任状を提供するときは，当該委任状につきAの印鑑に関する証明書を提供することを要しない。
->
-> エ　土地の表題部所有者であるAについて相続が開始し，Aの相続人がBのみである場合において，Bが当該土地について表示に関する登記を申請するときは，Aについて相続があったことを証する市町村長，登記官その他の公務員が職務上作成した情報を提供することを要しない。
->
-> オ　土地の所有者であるAが当該土地の表題登記を申請する場合において，Aに係る住民基本台帳法に規定する住民票コードを提供するときは，Aの住所を証する情報を提供することを要しない。
->
+※イ補足で挙げている不動産登記規則49条2項1号には、令和3年4月1日施行の改正（同日施行の商業登記規則等の改正による印鑑届出の任意化に伴うもの）で「登記官が印鑑に関する証明書を作成することが可能である場合に限る」というただし書が追加されています。出題当時（平成26年）はこのただし書がまだありませんでしたが、問題文・ア〜オの記述・選択肢の候補は原本のまま変更しておらず、この改正によっても正解・各肢の正誤判定は変わりません（詳細はイ補足参照）。
+
+> 表示に関する登記の申請における添付情報に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　法人Aが表題部所有者である土地につき地目の変更の登記を申請する場合において，当該申請を受ける登記所が，法人Aの代表者の氏名及び住所を含む法人Aの登記を受けた登記所と同一である登記所に準ずるものとして法務大臣が指定した登記所であるときは，法人Aの代表者の資格を証する情報を提供することを要しない。  
+>　  
+> イ　Aが所有権の登記名義人である土地につき合筆の登記を当該登記の申請代理人である土地家屋調査士Bによって申請する場合において，Aの本人確認情報と併せて，土地家屋調査士Bが所属する土地家屋調査士会が発行した職印に関する証明書を提供するときは，Aの印鑑に関する証明書を提供することを要しない。  
+>　  
+> ウ　Aが所有権の登記名義人である土地につき合筆の登記を当該登記の申請代理人である土地家屋調査士Bによって申請する場合において，Aが署名して公証人の認証を受けた委任状を提供するときは，当該委任状につきAの印鑑に関する証明書を提供することを要しない。  
+>　  
+> エ　土地の表題部所有者であるAについて相続が開始し，Aの相続人がBのみである場合において，Bが当該土地について表示に関する登記を申請するときは，Aについて相続があったことを証する市町村長，登記官その他の公務員が職務上作成した情報を提供することを要しない。  
+>　  
+> オ　土地の所有者であるAが当該土地の表題登記を申請する場合において，Aに係る住民基本台帳法に規定する住民票コードを提供するときは，Aの住所を証する情報を提供することを要しない。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+
+---
 
 表示に関する登記の添付情報には、一定の条件を満たすことで提供が省略できるものがいくつかあります。この問題では、「どのような場合に何が省略できるか」という組合せを正確に区別できるかが問われています。
 
 ### ア：登記所が同一とみなされる場合、法人代表者の資格証明情報は省略できる
 
-法人が申請人となる場合、通常はその法人の代表者の資格を証する情報の提供が必要です。しかし、申請を受ける登記所が、その法人の登記を受けた登記所と同一である（または法務大臣が同一とみなすものとして指定した）登記所であるときは、登記官が職権でその法人の登記情報を確認できるため、代表者の資格を証する情報の提供を省略することができます。
+法人が申請人となる場合、通常はその法人の代表者の資格を証する情報の提供が必要です。
+
+しかし、申請を受ける登記所が、その法人の登記を受けた登記所と同一である（または法務大臣が同一とみなすものとして指定した）登記所であるときは、登記官が職権でその法人の登記情報を確認できるため、代表者の資格を証する情報の提供を省略することができます。
 
 **たとえば**、ある会社が所有する土地について地目の変更の登記を申請する際、その会社の設立登記を受けた登記所と同じ登記所（またはそれに準じるものとして指定された登記所）にこの申請をする場合は、あらためて会社の代表者の資格を証する書類を提出する必要はありません。
 
 ### イ：土地家屋調査士会発行の職印証明書だけでは、印鑑証明書の省略事由にならない
 
-土地家屋調査士が代理人として合筆の登記を申請する際、本人確認情報とあわせて土地家屋調査士会が発行した職印に関する証明書を提供したとしても、それだけでは所有権登記名義人Aの印鑑に関する証明書の提供を省略できる事由にはなりません。印鑑証明書の省略が認められるのは、別途定められた特定の場合に限られます。
+土地家屋調査士が代理人として合筆の登記を申請する際、本人確認情報とあわせて土地家屋調査士会が発行した職印に関する証明書を提供したとしても、それだけでは所有権登記名義人Aの印鑑に関する証明書の提供を省略できる事由にはなりません。
+
+印鑑証明書の省略が認められるのは、別途定められた特定の場合に限られます。
 
 **たとえば**、土地家屋調査士Bが職印証明書を添えてAの合筆登記を代理申請したとしても、それだけを理由に「Aの印鑑証明書は不要」ということにはなりません。
 
 ### 補足：印鑑証明書の省略が認められる場合とは（不動産登記規則49条2項）
 
-委任状に添付する印鑑証明書は、不動産登記令18条2項により原則として必要ですが、不動産登記規則49条2項は、この印鑑証明書の添付を省略できる場合を次のとおり限定的に列挙しています。土地家屋調査士会発行の職印証明書は、このいずれにも当たらないため、単独では省略事由になりません。
+委任状に添付する印鑑証明書は、不動産登記令18条2項により原則として必要ですが、不動産登記規則49条2項は、この印鑑証明書の添付を省略できる場合を次のとおり限定的に列挙しています。
+
+土地家屋調査士会発行の職印証明書は、このいずれにも当たらないため、単独では省略事由になりません。
 
 ・1号　法人の代表者や代理人が委任状に記名押印した場合で、その法人の会社法人等番号を申請情報に記載したとき（登記官がその会社法人等番号から印鑑証明書を作成できる場合に限ります）
-・2号　委任状について、公証人（またはこれに準ずる者）の認証を受けた場合（Q8の肢ウはこのケースです）
+・2号　委任状について、公証人（またはこれに準ずる者）の認証を受けた場合（Q8のウはこのケースです）
 ・3号　成年後見人など裁判所が選任した人が、その職務として申請する際、裁判所書記官が作成した印鑑証明書が添付されている場合
 ・4号　規則48条1項4号・5号が準用される場合（登記識別情報の提供・通知に関する一定の類型に該当する申請人についての技術的な例外規定で、通常はここまで踏み込んで覚える必要はありません）
 ・5号　復代理人によって申請する場合に、代理人が復代理人の権限を証する書面に記名押印したとき
+
+※1号の「（登記官がその会社法人等番号から印鑑証明書を作成できる場合に限ります）」という限定は、令和3年4月1日施行の不動産登記規則改正で追加されたただし書です。この改正は、同日前後に行われた商業登記規則等の改正によって法人代表者の印鑑届出が義務から任意になったことに伴うもので、届出印がない法人については登記官が会社法人等番号から印鑑証明書を作成できないケースが生じ得るため、限定が付け加えられました。出題当時（平成26年）は、この限定はまだなく、会社法人等番号を申請情報に記載しさえすれば足りました。もっとも、Q8のイは会社法人等番号を提供したケースではなく、土地家屋調査士会発行の職印証明書だけを提供したケースなので、この改正によってイの結論（印鑑証明書の省略事由にならないこと）に影響はありません。
 
 つまり、印鑑証明書の省略が認められるのは、「公的な機関（法務局・公証人・裁判所）が別の方法で本人性を確認できる仕組みが用意されている場合」に限られており、調査士会という業界団体が発行する証明書だけでは、この仕組みの代わりにはならない、と整理しておくと覚えやすいでしょう。
 
@@ -50,7 +62,9 @@ Aが署名して公証人の認証を受けた委任状を提供するときは�
 
 ### エ：相続人が表示に関する登記を申請するには、相続を証する情報が必要
 
-表題部所有者Aについて相続が開始し、その相続人であるBが表示に関する登記を申請する場合、Bが正当な申請人（相続人）であることを登記所に示すため、Aについて相続があったことを証する市町村長・登記官その他の公務員が職務上作成した情報（戸籍謄本など）を提供する必要があります。これを省略することはできません。
+表題部所有者Aについて相続が開始し、その相続人であるBが表示に関する登記を申請する場合、Bが正当な申請人（相続人）であることを登記所に示すため、Aについて相続があったことを証する市町村長・登記官その他の公務員が職務上作成した情報（戸籍謄本など）を提供する必要があります。
+
+これを省略することはできません。
 
 **たとえば**、表題部所有者であったAさんが亡くなり、唯一の相続人であるBさんがその土地について登記を申請する場合、Bさんは自分がAさんの相続人であることを示す戸籍謄本などを提出しなければなりません。
 
@@ -59,6 +73,8 @@ Aが署名して公証人の認証を受けた委任状を提供するときは�
 土地の所有者であるAが表題登記を申請する際、Aに係る住民基本台帳法上の住民票コードを提供するときは、登記官が住民票コードをもとに住所情報を確認できるため、あらためてAの住所を証する情報（住民票の写しなど）を提供する必要はありません。
 
 **たとえば**、Aさんが自分の土地の表題登記を申請する際、住民票の写しの代わりに自分の住民票コードを申請情報に記載して提供すれば、別途住民票の写しを添付する必要はありません。
+
+---
 
 ### まとめ
 
@@ -80,9 +96,10 @@ Aが署名して公証人の認証を受けた委任状を提供するときは�
 - 出題年度・問題番号・正解番号（3番＝イ・エ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - オ（住民票コードによる住所証明情報の省略）は、不動産登記規則36条4項「令第九条の法務省令で定める情報は、住民票コード……とする。ただし、住所についての変更又は錯誤若しくは遺漏があったことを証する情報を提供しなければならないものとされている場合にあっては、当該住所についての変更又は錯誤若しくは遺漏があったことを確認することができることとなるものに限る」で確認できました。ウ（公証人認証による委任状と印鑑証明書省略）は、不動産登記令18条2項（委任状には原則として印鑑に関する証明書の添付が必要）と、その例外を定める不動産登記規則49条2項2号「申請人又はその代表者若しくは代理人が記名押印した委任状について公証人又はこれに準ずる者の認証を受けた場合」で確認できました。イ（土地家屋調査士会発行の職印証明書だけでは印鑑証明書の省略事由にならないこと）も、同じ規則49条2項が印鑑証明書の添付を要しない場合を1号から5号まで限定列挙しており、そこに土地家屋調査士会発行の職印証明書は含まれていないことから、条文上確認できました。エ（相続を証する情報の提供が必要であること）も条文・実務解説の内容と整合しています。ア（法人代表者資格証明情報の省略、法務大臣指定の登記所に関する規定）については、実務上確立した取扱いとして整理していますが、根拠条文の逐条確認までは至っていない部分があります。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。表示に関する登記の申請における添付情報の省略可否がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：保存済みの法令データ（不動産登記規則36条4項、不動産登記令18条2項、不動産登記規則49条2項）により肢イ・ウ・オを新たに条文上確認しました。表示に関する登記の申請における添付情報（不動産登記令・不動産登記規則関連）について他の肢もあわせて確認しましたが、直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。
-- **補足（2026-08-16追記）**：肢イについて、印鑑証明書の省略が認められる具体的なケース（不動産登記規則49条2項1号〜5号）を本文に補足しました。
-- **補足の訂正・図解の追加（2026-09-18）**：上記補足の5つの箇条書きが、規則49条2項の実際の号立て（1号〜5号）のうち4号（規則48条1項4号・5号の準用、登記識別情報の提供・通知に関する一定の類型に該当する申請人についての技術的な例外）を欠落させたまま4項目しか列挙していなかったため、`laws/fudousan-touki-kisoku-1.md`（「###### 第四十九条」の項）を改めてGrep・Readし、5号立てすべてを号番号付きで本文に反映しました。あわせて、この補足を図解する「インフォグラフィック プロンプト（肢イ補足）」を新規に作成・追加しました。肢イ自体の正誤判定・正解（イエの組合せ、選択肢3番）に変更はありません。
+- **最新法令チェック（2026-08-16再実施）**：保存済みの法令データ（不動産登記規則36条4項、不動産登記令18条2項、不動産登記規則49条2項）によりイ・ウ・オを新たに条文上確認しました。表示に関する登記の申請における添付情報（不動産登記令・不動産登記規則関連）について他の肢もあわせて確認しましたが、直近の法改正で変更された事実は見当たらず、各肢の結論に変更はありません。
+- **補足（2026-08-16追記）**：イについて、印鑑証明書の省略が認められる具体的なケース（不動産登記規則49条2項1号〜5号）を本文に補足しました。
+- **補足の訂正・図解の追加（2026-09-18）**：上記補足の5つの箇条書きが、規則49条2項の実際の号立て（1号〜5号）のうち4号（規則48条1項4号・5号の準用、登記識別情報の提供・通知に関する一定の類型に該当する申請人についての技術的な例外）を欠落させたまま4項目しか列挙していなかったため、`laws/fudousan-touki-kisoku-1.md`（「###### 第四十九条」の項）を改めてGrep・Readし、5号立てすべてを号番号付きで本文に反映しました。あわせて、この補足を図解する「インフォグラフィック プロンプト（イ補足）」を新規に作成・追加しました。イ自体の正誤判定・正解（イエの組合せ、選択肢3番）に変更はありません。
+- **出題当時の注の追加（2026-09-30）**：ユーザーから「会社法人等番号の改正で答えの前提が変わったのに、出題当時の注がない」との指摘を受け再調査しました。`laws/fudousan-touki-kisoku-1.md`（「###### 第四十九条」の項）で現行の不動産登記規則49条2項1号を確認したところ、「その会社法人等番号を申請情報の内容としたとき。ただし、登記官が記名押印した者の印鑑に関する証明書を作成することが可能である場合に限る。」という、ただし書付きの規定になっていました。WEB検索（新日本法規「PICKUP法令改正情報」、法務省サイト、司法書士事務所の解説記事）で確認したところ、このただし書は令和3年3月29日法務省令第14号（令和3年4月1日施行）による不動産登記規則改正で追加されたものであり、同時期に施行された商業登記規則等の改正（令和3年2月15日、印鑑届出の任意化）により、法人代表者が登記所に印鑑を届け出ていない場合が生じ得るようになったことに対応した改正と分かりました。出題当時（平成26年）はこのただし書自体が存在せず、会社法人等番号を申請情報に記載しさえすれば印鑑証明書の提供を省略できる規定でした。この点は「改正」という語では検索に引っかからず、「会社法人等番号」で検索して初めて発見できる論点でした。問題文・ア〜オの記述・選択肢の候補は原本のまま変更していない（解説のみの更新である）ため、タイトル・出典行に（改）は付けず、出題当時と現行法の違いを説明する注記を冒頭とイ補足内に追加しました。イは会社法人等番号を提供したケースではなく職印証明書のみを提供したケースであるため、この改正によってイの正誤判定・正解（イエの組合せ、選択肢3番）に変更はありません。
 
 ---
 
@@ -122,12 +139,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 証・鑑・戸・籍・謄・相・続・記 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -208,20 +243,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（肢イ補足）
+## インフォグラフィック プロンプト（イ補足）
 
 本文の補足「印鑑証明書の省略が認められる場合とは（不動産登記規則49条2項）」を図解する1枚。5つの号すべてに共通する「公的な機関が別の方法で本人性を確認できる仕組みが用意されている場合に限られる」という軸を、号ごとにどの機関が確認するかで色分けして示す。
 
@@ -245,20 +280,38 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 印・鑑・証・明・委・任・状・公・証・人・裁・判・所・復・代・理 —
+kanji 印・鑑・証・明・委・任・状・公・人・裁・判・所・復・代・理 —
 these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 印鑑証明書、省略できるのはこの5つだけ
 
 Subtitle (smaller, centered, 1行):
-不動産登記規則49条2項（限定列挙）
+不動産登記規則49条2項（限定列挙）（平成26年度 午後の部 第8問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -323,19 +376,19 @@ Conclusion tag:
 限られる。調査士会発行の職印証明書はこの5つのいずれにも当たらない。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, badge numbers run 1-5 continuously,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading + a
-short conclusion tag, at a glance.
+short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、各肢についてどんな図を描き、どの順番で条件を確認すれば正しい結論にたどり着けるかを示す作図ガイド。イとウは、不動産登記規則49条2項が定める印鑑証明書の省略事由（1号〜5号）という同じ判定枠を共有しており、イは「どの号にも該当しない」ケース、ウは「2号に該当する」ケースとして、同じ決定木の中でそれぞれ自分に関係する枝だけを強調する構成にしている。
 
@@ -411,7 +464,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in teal containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -431,7 +484,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 同一なら資格証明省略可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in teal containing the number 2.
 Heading (bold, ONE line):
 職印証明書は省略事由に非該当
@@ -454,7 +507,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 印鑑証明書は必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in teal containing the number 3.
 Heading (bold, ONE line):
 公証人認証の委任状は2号に該当
@@ -476,7 +529,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 印鑑証明書は省略可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 相続を証する情報の要否を確認する
@@ -495,7 +548,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 相続証明情報は必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 住民票コード提供の有無を確認する

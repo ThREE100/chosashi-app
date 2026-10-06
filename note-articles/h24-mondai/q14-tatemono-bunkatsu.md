@@ -2,51 +2,73 @@
 
 **出題年度：平成24年度　午後の部　第14問**
 
-> 建物の分割の登記等に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　1個の建物として登記されているA所有の居宅及び車庫のうち附属建物である車庫のみをBが買い受けたものの、Aが建物の分割の登記を申請しない場合には、Bは、所有権の移転の登記をする前提として、Aに代位して建物の分割の登記を申請することができる。
->
-> イ　甲建物の附属建物として登記されている2棟のうち、1棟を主である建物にし、残りの1棟をその附属建物とする場合には、甲建物から2棟の附属建物を乙建物と丙建物にそれぞれ分割する建物の分割の登記をした後、丙建物を乙建物の附属建物とする建物の合併の登記を申請しなければならない。
->
-> ウ　抵当権の登記がある建物について建物の分割の登記を申請する場合において、分割後の全ての建物について抵当権を消滅させることをその抵当権者が承諾したことを証する情報を提供したときは、全ての建物について当該抵当権が消滅した旨を登記することができる。
->
-> エ　主である建物が甲登記所の管轄区域内にあり、その附属建物が乙登記所の管轄区域内にある建物が1個の建物として登記されている場合には、この建物を2個の建物に分割する建物の分割の登記は、甲登記所と乙登記所のいずれの登記所に対しても申請することができる。
->
-> オ　甲建物からその附属建物を分割して乙建物とする建物の分割の登記をする場合において、分割前の甲建物について、現に効力を有する所有権の登記がされた後、当該分割に係る附属建物の新築による当該分割前の甲建物の表題部の登記事項に関する変更の登記がされていたときは、乙建物の登記記録に分割による所有権の登記をする旨が記録される。
->
+> 建物の分割の登記等に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　1個の建物として登記されているA所有の居宅及び車庫のうち附属建物である車庫のみをBが買い受けたものの、Aが建物の分割の登記を申請しない場合には、Bは、所有権の移転の登記をする前提として、Aに代位して建物の分割の登記を申請することができる。  
+>　  
+> イ　甲建物の附属建物として登記されている2棟のうち、1棟を主である建物にし、残りの1棟をその附属建物とする場合には、甲建物から2棟の附属建物を乙建物と丙建物にそれぞれ分割する建物の分割の登記をした後、丙建物を乙建物の附属建物とする建物の合併の登記を申請しなければならない。  
+>　  
+> ウ　抵当権の登記がある建物について建物の分割の登記を申請する場合において、分割後の全ての建物について抵当権を消滅させることをその抵当権者が承諾したことを証する情報を提供したときは、全ての建物について当該抵当権が消滅した旨を登記することができる。  
+>　  
+> エ　主である建物が甲登記所の管轄区域内にあり、その附属建物が乙登記所の管轄区域内にある建物が1個の建物として登記されている場合には、この建物を2個の建物に分割する建物の分割の登記は、甲登記所と乙登記所のいずれの登記所に対しても申請することができる。  
+>　  
+> オ　甲建物からその附属建物を分割して乙建物とする建物の分割の登記をする場合において、分割前の甲建物について、現に効力を有する所有権の登記がされた後、当該分割に係る附属建物の新築による当該分割前の甲建物の表題部の登記事項に関する変更の登記がされていたときは、乙建物の登記記録に分割による所有権の登記をする旨が記録される。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
+
+---
 
 建物の分割の登記は、附属建物を独立した1個の建物として切り離す表示登記です。「表示登記でできること」と「権利登記が必要なこと」の境界線、そして管轄・代位申請のルールを問う問題です。
 
 ### ア：所有権移転の前提として、買主が売主に代位して分割登記を申請できる
 
-1個の建物として登記されているA所有の居宅及び車庫のうち、附属建物である車庫のみをBが買い受けた場合、その所有権移転登記の前提として、まず建物の分割の登記（車庫を独立した1個の建物にする表示登記）が必要になります。Aがこの分割登記を申請しないときは、Bは自己の所有権移転登記請求権を保全するため、Aに代位して建物の分割の登記を申請することができます（民法423条の7、登記請求権保全のための債権者代位権の転用）。
+1個の建物として登記されているA所有の居宅及び車庫のうち、附属建物である車庫のみをBが買い受けた場合、その所有権移転登記の前提として、まず建物の分割の登記（車庫を独立した1個の建物にする表示登記）が必要になります。
 
-**たとえば**、Aさんの居宅と附属の車庫が1個の建物として登記されている状態で、Bさんが車庫だけを買い受けたとします。この場合、車庫を独立した建物として登記しなければ所有権移転登記ができないため、Aさんが分割登記を申請してくれないときは、Bさんが自分の権利を守るためにAさんに代わって分割登記を申請することができます。
+Aがこの分割登記を申請しないときは、Bは自己の所有権移転登記請求権を保全するため、Aに代位して建物の分割の登記を申請することができます（民法423条の7、登記請求権保全のための債権者代位権の転用）。
+
+**たとえば**、Aさんの居宅と附属の車庫が1個の建物として登記されている状態で、Bさんが車庫だけを買い受けたとします。
+
+この場合、車庫を独立した建物として登記しなければ所有権移転登記ができないため、Aさんが分割登記を申請してくれないときは、Bさんが自分の権利を守るためにAさんに代わって分割登記を申請することができます。
 
 ### イ：附属建物の主従を入れ替えるのに、2棟とも分割してからやり直す必要はない
 
-甲建物の附属建物として登記されている2棟のうち、1棟を主である建物にし、残りの1棟をその附属建物とする場合、不動産登記規則135条が定める建物の分割の登記及び建物の合併の登記における表題部の記録方法により、2棟とも別々に分割登記をしたうえで、あらためて合併登記をするという二段階の手続を経る必要はありません。より簡便な手続で主従関係を入れ替えることができます。
+甲建物の附属建物として登記されている2棟のうち、1棟を主である建物にし、残りの1棟をその附属建物とする場合、不動産登記規則135条が定める建物の分割の登記及び建物の合併の登記における表題部の記録方法により、2棟とも別々に分割登記をしたうえで、あらためて合併登記をするという二段階の手続を経る必要はありません。
+
+より簡便な手続で主従関係を入れ替えることができます。
 
 **たとえば**、甲建物に附属建物として登記されている物置と車庫のうち、物置の方を独立した主建物にしたいとします。この場合、わざわざ物置・車庫の両方を分割登記したうえで、あらためて車庫を物置の附属建物とする合併登記を申請する必要まではありません。
 
 ### ウ：分割登記の申請だけで、抵当権の消滅登記まで一体として行うことはできない
 
-抵当権の登記がある建物について建物の分割の登記を申請する場合、不動産登記法54条3項は40条（分筆に伴う権利の消滅の登記）を準用しており、抵当権者が分割後の「いずれかの」建物について抵当権を消滅させることを承諾したことを証する情報を提供したときは、その承諾に係る建物について抵当権が消滅した旨を登記することができます。この「いずれかの」という文言は、分割後の複数の建物のうち一部の建物についてのみ抵当権を消滅させる場合を想定したものであり、分割後のすべての建物について抵当権を消滅させることまでは認めていません。この肢は「分割後の全ての建物について」抵当権を消滅させる場合を問うていますが、これは40条が想定する「いずれかの建物についての一部消滅」とは異なる場面であるため、分割登記の申請だけで一体的に処理することはできず、この肢は誤りです。
+抵当権の登記がある建物について建物の分割の登記を申請する場合、不動産登記法54条3項は40条（分筆に伴う権利の消滅の登記）を準用しており、抵当権者が分割後の「いずれかの」建物について抵当権を消滅させることを承諾したことを証する情報を提供したときは、その承諾に係る建物について抵当権が消滅した旨を登記することができます。
 
-**たとえば**、抵当権が設定されている建物を2棟に分割登記する際、抵当権者から「分割後のどちらの建物についても抵当権を消滅させて構わない」という承諾書をもらっていたとしても、それだけで両方の建物から自動的に抵当権が消え去るわけではありません。40条が認めているのは、分割後のどちらか一方の建物についてだけ抵当権を消滅させることであり、両方から消滅させたい場合は、別途、抵当権抹消登記の申請が必要になります。
+この「いずれかの」という文言は、分割後の複数の建物のうち一部の建物についてのみ抵当権を消滅させる場合を想定したものであり、分割後のすべての建物について抵当権を消滅させることまでは認めていません。
+
+この肢は「分割後の全ての建物について」抵当権を消滅させる場合を問うていますが、これは40条が想定する「いずれかの建物についての一部消滅」とは異なる場面であるため、分割登記の申請だけで一体的に処理することはできず、この肢は誤りです。
+
+**たとえば**、抵当権が設定されている建物を2棟に分割登記する際、抵当権者から「分割後のどちらの建物についても抵当権を消滅させて構わない」という承諾書をもらっていたとしても、それだけで両方の建物から自動的に抵当権が消え去るわけではありません。
+
+40条が認めているのは、分割後のどちらか一方の建物についてだけ抵当権を消滅させることであり、両方から消滅させたい場合は、別途、抵当権抹消登記の申請が必要になります。
 
 ### エ：建物の分割登記は、主である建物を管轄する登記所に申請する
 
-主である建物が甲登記所の管轄区域内にあり、その附属建物が乙登記所の管轄区域内にある建物が1個の建物として登記されている場合、この建物を2個の建物に分割する登記は、主である建物を管轄する甲登記所に対してのみ申請することができます。附属建物の所在地を管轄する乙登記所に対して申請することはできません。不動産登記事務取扱手続準則第5条は、増築等によって建物が複数の登記所の管轄区域にまたがることとなった場合でも、その建物の管轄登記所は主である建物を管轄する登記所であると定めており、この考え方が分割登記の管轄にも及びます。
+主である建物が甲登記所の管轄区域内にあり、その附属建物が乙登記所の管轄区域内にある建物が1個の建物として登記されている場合、この建物を2個の建物に分割する登記は、主である建物を管轄する甲登記所に対してのみ申請することができます。
+
+附属建物の所在地を管轄する乙登記所に対して申請することはできません。
+
+不動産登記事務取扱手続準則第5条は、増築等によって建物が複数の登記所の管轄区域にまたがることとなった場合でも、その建物の管轄登記所は主である建物を管轄する登記所であると定めており、この考え方が分割登記の管轄にも及びます。
 
 **たとえば**、主である建物が甲登記所の管轄内、附属建物が隣の乙登記所の管轄内にまたがって1個の建物として登記されている場合でも、この建物の分割登記は、主である建物の所在地を管轄する甲登記所に対して申請しなければなりません。
 
 ### オ：分割によって生じた乙建物には、分割前の所有権登記がそのまま引き継がれる
 
-甲建物からその附属建物を分割して乙建物とする建物の分割の登記をする場合、分割前の甲建物について現に効力を有する所有権の登記がされていたときは、分割後に新たに生じる乙建物の登記記録にも、分割による所有権の登記をする旨が記録されます（不動産登記規則128条2項）。これは、分割によって建物が物理的に分かれても、権利の同一性・連続性を保つための扱いです。
+甲建物からその附属建物を分割して乙建物とする建物の分割の登記をする場合、分割前の甲建物について現に効力を有する所有権の登記がされていたときは、分割後に新たに生じる乙建物の登記記録にも、分割による所有権の登記をする旨が記録されます（不動産登記規則128条2項）。
+
+これは、分割によって建物が物理的に分かれても、権利の同一性・連続性を保つための扱いです。
 
 **たとえば**、甲建物とその附属建物である車庫について、Aさんを所有権登記名義人とする所有権の登記がされていたとします。この車庫を分割して独立した乙建物とした場合、乙建物の登記記録にも、Aさんが分割によって所有権を取得した旨の登記が記録されます。
+
+---
 
 ### まとめ
 
@@ -108,13 +130,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 分・割・代・位・附・属・合・併・抵・当・権・管・轄・所・有 — these must
+kanji 分・割・代・位・附・属・抵・当・権・管・轄・所・有 — these must
 be rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -179,20 +219,20 @@ Conclusion tag: 主である建物の管轄
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（肢イ・初学者向け）
+## インフォグラフィック プロンプト（イ・初学者向け）
 
-肢イ（附属建物の主従入替えに二段階の手続は不要）について、「誤った二段階の手続」と「規則135条による簡便な手続」を対比で図解した、単独で使える解説図。本文の肢イの解説のすぐ下に挿入して使うことを想定しており、上記「問題全体」のポスターより人物・建物の位置関係やラベルをやや詳しく見せてよい（ただしフルセンテンスの説明文は入れない）。
+イ（附属建物の主従入替えに二段階の手続は不要）について、「誤った二段階の手続」と「規則135条による簡便な手続」を対比で図解した、単独で使える解説図。本文のイの解説のすぐ下に挿入して使うことを想定しており、上記「問題全体」のポスターより人物・建物の位置関係やラベルをやや詳しく見せてよい（ただしフルセンテンスの説明文は入れない）。
 
 ### イ：附属建物の主従を入れ替えるのに、2棟とも分割してからやり直す必要はない
 
@@ -202,18 +242,36 @@ Create a Japanese-language explanatory illustration, landscape layout,
 pastel colors (blue, green, beige, gray), rounded card frame, consistent
 with a modern explainer-graphic aesthetic. This is a single standalone
 diagram (not a multi-card poster), meant to be inserted directly below
-the 肢イ paragraph of article text, so it may show a little more label
+the イ paragraph of article text, so it may show a little more label
 detail than a compressed poster card — but it must still avoid full
 sentences.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 分・割・合・併・附・属
 ・従・登・記 — these must be rendered in their standard Japanese forms,
 never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- SCENE ---
 Split the frame into an upper row (labeled "誤った二段階の手続", crossed
@@ -246,13 +304,13 @@ green, 5-15 Japanese characters, a keyword phrase — NOT a sentence):
 簡便な手続で入替え可能
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm the upper
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the upper
 row is marked with a red ✕ and the lower row with a green ✓, confirm
 there is no full-sentence explanatory prose anywhere in the image — only
-the heading, the scene's embedded short labels, and the conclusion tag.
+the heading, the scene's embedded short labels, and the conclusion tag. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 建物の分割の登記等に関する5肢について、「代位申請」（ア）、「二段階不要という思い込み」（イ）、「一部消滅は明文にあり、全部消滅は認められない」（ウ）、「管轄は主である建物基準」（エ）、「分割前の所有権登記の承継」（オ）を、それぞれ最適な図の型で示す作図ガイド。
 
@@ -269,12 +327,12 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a buyer-acting-for-seller relationship icon for
-肢ア, a two-step-crossed-out vs one-step-checkmarked comparison for 肢イ,
+ア, a two-step-crossed-out vs one-step-checkmarked comparison for イ,
 a two-scenario side-by-side frame (partial vs full mortgage discharge)
-for 肢ウ, a jurisdiction-boundary map for 肢エ, and a left-to-right
-timeline of registration events for 肢オ. None of the five 肢 requires
+for ウ, a jurisdiction-boundary map for エ, and a left-to-right
+timeline of registration events for オ. None of the five 肢 requires
 checking more than one legal condition in sequence, so none is forced
-into a multi-diamond flowchart. For 肢ウ specifically: draw a two-frame
+into a multi-diamond flowchart. For ウ specifically: draw a two-frame
 side-by-side comparison labeled 条文が明確に定める場面（一部の建物につ
 いてのみ消滅） on one side (checkmarked, this is the settled rule) and
 本肢が問う場面（全ての建物について消滅） on the other side, marked with a
@@ -324,7 +382,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 買主は売主に代位して分割登記できる
@@ -344,7 +402,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代位申請ができる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 主従の入替えに二段階の手続は不要
@@ -365,7 +423,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 二段階の手続は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 全部消滅は「いずれかの」に含まれない
@@ -391,7 +449,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 全部消滅はできない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分割登記は主である建物の管轄で申請
@@ -410,7 +468,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 主である建物の管轄のみ
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分割前の所有権登記は乙建物に引き継がれる
@@ -433,7 +491,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法423条の7（代位行使）・不動産登記規則135条（分割・合併の登記における
 表題部の記録方法）・不動産登記法54条3項（40条の準用）・不動産登記事務
 取扱手続準則第5条（管轄登記所）・不動産登記規則128条2項（分割による所有
-権の登記）に基づく整理です。肢ウは、40条の「いずれかの」という文言が
+権の登記）に基づく整理です。ウは、40条の「いずれかの」という文言が
 一部消滅の場面を指すものであることに基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -449,7 +507,7 @@ script, or stray decorative glyph — and remove or redraw it so that only
 standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly, badge numbers run 1-5 continuously, there is no
 intro illustration or paragraph block between the header and the panels,
-that 肢ウ's panel uses the two-frame comparison with the left frame
+that ウ's panel uses the two-frame comparison with the left frame
 showing ONLY a green checkmark and the right frame showing ONLY a red ✕
 (no dotted-outline question mark, and no box containing both a checkmark
 and a ✕), that each 着眼点 callout states a checking order rather than

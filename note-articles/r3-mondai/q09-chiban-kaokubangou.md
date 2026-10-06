@@ -2,51 +2,75 @@
 
 **出題年度：令和3年度　午後の部　第9問**
 
-> 土地の地番又は建物の家屋番号に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　合筆により登記記録が閉鎖された土地の地番は、特別の事情がない限り、再使用されない。
->
-> イ　登記官は、地番が著しく錯雑している場合には、必要があると認められるときであっても、当該地番を変更することができない。
->
-> ウ　10番1の土地と10番2の土地とを合筆する場合には、登記官は、特別の事情がないときであっても、合筆後の土地の地番を10番2とすることができる。
->
-> エ　地番が10番1の土地に2個の建物が存する場合において、当該2個の建物のうち先に登記された建物の家屋番号が「10番1の1」のときは、後に登記する他の建物の家屋番号は「10番1の2」となる。
->
-> オ　地番が「5番1」である土地と「6番1」である土地にまたがって建物が存し、これらの土地上に他に登記された建物が存しない場合において、当該建物の床面積が多い部分の存する「5番1」の土地がＡ登記所の管轄区域に属し、「6番1」の土地が当該建物に関する登記の事務をつかさどる指定を受けたＢ登記所の管轄区域に属するときは、当該建物の家屋番号は「6番1」となる。
->
+> 土地の地番又は建物の家屋番号に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　合筆により登記記録が閉鎖された土地の地番は、特別の事情がない限り、再使用されない。  
+>　  
+> イ　登記官は、地番が著しく錯雑している場合には、必要があると認められるときであっても、当該地番を変更することができない。  
+>　  
+> ウ　10番1の土地と10番2の土地とを合筆する場合には、登記官は、特別の事情がないときであっても、合筆後の土地の地番を10番2とすることができる。  
+>　  
+> エ　地番が10番1の土地に2個の建物が存する場合において、当該2個の建物のうち先に登記された建物の家屋番号が「10番1の1」のときは、後に登記する他の建物の家屋番号は「10番1の2」となる。  
+>　  
+> オ　地番が「5番1」である土地と「6番1」である土地にまたがって建物が存し、これらの土地上に他に登記された建物が存しない場合において、当該建物の床面積が多い部分の存する「5番1」の土地がＡ登記所の管轄区域に属し、「6番1」の土地が当該建物に関する登記の事務をつかさどる指定を受けたＢ登記所の管轄区域に属するときは、当該建物の家屋番号は「6番1」となる。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-土地の地番と建物の家屋番号は、どちらも「一つの不動産を他と取り違えないように特定する番号」です。この分野では、合筆・分筆や複数の建物・複数の登記所がからんだときに、どんなルールで番号を付け直すのか、そして登記官にどこまでの権限があるのかを整理できているかが問われます。
+---
+
+土地の地番と建物の家屋番号は、どちらも「一つの不動産を他と取り違えないように特定する番号」です。
+
+この分野では、合筆・分筆や複数の建物・複数の登記所がからんだときに、どんなルールで番号を付け直すのか、そして登記官にどこまでの権限があるのかを整理できているかが問われます。
 
 ### ア：閉鎖された土地の地番は、原則として再使用しない
 
-土地を滅失させたり合筆したりすると、従前の土地の登記記録は閉鎖されます。その閉鎖された地番を、以降に新しく生じた別の土地へ付けてしまうと、過去の土地なのか新しい土地なのかの区別がつかなくなってしまいます。そのため、抹消・滅失又は合筆により登記記録が閉鎖された土地の地番は、特別の事情がない限り再使用しないこととされています（準則67条1項2号）。
+土地を滅失させたり合筆したりすると、従前の土地の登記記録は閉鎖されます。その閉鎖された地番を、以降に新しく生じた別の土地へ付けてしまうと、過去の土地なのか新しい土地なのかの区別がつかなくなってしまいます。
 
-**たとえば**、10番3の土地を隣地に合筆して10番3の登記記録が閉鎖されたあと、しばらくして近くで新しく土地が生じたとしても、そこにもう一度「10番3」と付け直すことは原則としてしません。過去の10番3と混同してしまうからです。この肢は正しい記述です。
+そのため、抹消・滅失又は合筆により登記記録が閉鎖された土地の地番は、特別の事情がない限り再使用しないこととされています（準則67条1項2号）。
+
+**たとえば**、10番3の土地を隣地に合筆して10番3の登記記録が閉鎖されたあと、しばらくして近くで新しく土地が生じたとしても、そこにもう一度「10番3」と付け直すことは原則としてしません。
+
+過去の10番3と混同してしまうからです。この肢は正しい記述です。
 
 ### イ：地番が著しく錯雑しているときは、登記官が地番を変更できる
 
-地番の付け方には原則的なルールがありますが、地番が著しく錯雑している場合において、必要があると認めるときは、登記官はその地番を変更しても差し支えないとされています（準則67条4項）。つまり、必要があると認められるときには、登記官は職権で地番を変更することができます。「変更することができない」と言い切っているこの肢は誤りです。
+地番の付け方には原則的なルールがありますが、地番が著しく錯雑している場合において、必要があると認めるときは、登記官はその地番を変更しても差し支えないとされています（準則67条4項）。
 
-**たとえば**、区画整理などの事情で、一つの区域の中に地番が飛び飛びに入り乱れて非常に分かりにくくなっているとします。このようなとき、登記官は「このままでは特定に支障がある」と判断して、適宜整理した地番に付け替えることができます。「絶対に手を付けられない」わけではないのです。この肢は誤りです。
+つまり、必要があると認められるときには、登記官は職権で地番を変更することができます。「変更することができない」と言い切っているこの肢は誤りです。
+
+**たとえば**、区画整理などの事情で、一つの区域の中に地番が飛び飛びに入り乱れて非常に分かりにくくなっているとします。
+
+このようなとき、登記官は「このままでは特定に支障がある」と判断して、適宜整理した地番に付け替えることができます。「絶対に手を付けられない」わけではないのです。この肢は誤りです。
 
 ### ウ：合筆後の地番は、原則として若い方の地番（筆頭地番）になる
 
-合筆した土地については、合筆前の首位の地番、つまり一番若い番号をもってその地番とするのが原則です（準則67条1項6号）。10番1の土地と10番2の土地を合筆したのであれば、原則として合筆後は若番の「10番1」となります。10番2の方を採用するには特別の事情が必要であり（同条7号）、特別の事情がないのに合筆後を「10番2」とできるとするこの肢は誤りです。
+合筆した土地については、合筆前の首位の地番、つまり一番若い番号をもってその地番とするのが原則です（準則67条1項6号）。10番1の土地と10番2の土地を合筆したのであれば、原則として合筆後は若番の「10番1」となります。
+
+10番2の方を採用するには特別の事情が必要であり（同条7号）、特別の事情がないのに合筆後を「10番2」とできるとするこの肢は誤りです。
 
 **たとえば**、10番1と10番2という隣り合った土地を一つにまとめるとき、番号は原則として若い「10番1」に統一します。「どちらでも好きな方を選べる」わけではなく、特別の事情がなければ大きい方の10番2を残すことはできません。この肢は誤りです。
 
 ### エ：同じ地番の上に複数の建物があるときは、支号を付けて区別する
 
-一筆の土地の上に複数の建物が存在する場合、それぞれの建物を特定するため、地番に支号（枝番号）を付けて家屋番号とします（準則79条2号）。10番1の土地に2個の建物があり、先に登記された建物の家屋番号が「10番1の1」であれば、後から登記する建物の家屋番号は「10番1の2」となります。この肢は正しい記述です。
+一筆の土地の上に複数の建物が存在する場合、それぞれの建物を特定するため、地番に支号（枝番号）を付けて家屋番号とします（準則79条2号）。
+
+10番1の土地に2個の建物があり、先に登記された建物の家屋番号が「10番1の1」であれば、後から登記する建物の家屋番号は「10番1の2」となります。この肢は正しい記述です。
 
 **たとえば**、10番1という一つの敷地に母屋と離れの2棟が建っているとします。先に登記した母屋が「10番1の1」なら、あとから登記する離れは自然と「10番1の2」となり、番号の枝を見れば同じ敷地内の別の建物だと一目で分かるようになっています。
 
 ### オ：複数の登記所にまたがる建物は、管轄指定を受けた登記所の地番で家屋番号を付ける
 
-1個の建物が複数の登記所の管轄にまたがって存在する場合には、法務大臣または法務局・地方法務局の長が、その建物の登記の事務をつかさどる登記所を指定するものとされています。そして家屋番号は、その指定を受けた登記所が管轄する土地の地番と同一の番号をもって付けられます（準則79条3号）。本肢では、床面積が多い部分は「5番1」（Ａ登記所）にありますが、登記事務の指定を受けたのはＢ登記所であり、その管轄する土地の地番は「6番1」ですから、家屋番号は「6番1」となります。この肢は正しい記述です。
+1個の建物が複数の登記所の管轄にまたがって存在する場合には、法務大臣または法務局・地方法務局の長が、その建物の登記の事務をつかさどる登記所を指定するものとされています。
 
-**たとえば**、市の境目にまたがって建てられた工場が、Ａ登記所とＢ登記所という別々の役所の管轄にまたがっているとします。建物の大半はＡ側にあっても、「この建物の登記はＢ登記所が担当する」と指定されたなら、家屋番号はＢ登記所側の土地の地番「6番1」に合わせます。床面積が多い方ではなく、担当に指定された登記所の地番で決まる点がポイントです。
+そして家屋番号は、その指定を受けた登記所が管轄する土地の地番と同一の番号をもって付けられます（準則79条3号）。
+
+本肢では、床面積が多い部分は「5番1」（Ａ登記所）にありますが、登記事務の指定を受けたのはＢ登記所であり、その管轄する土地の地番は「6番1」ですから、家屋番号は「6番1」となります。この肢は正しい記述です。
+
+**たとえば**、市の境目にまたがって建てられた工場が、Ａ登記所とＢ登記所という別々の役所の管轄にまたがっているとします。
+
+建物の大半はＡ側にあっても、「この建物の登記はＢ登記所が担当する」と指定されたなら、家屋番号はＢ登記所側の土地の地番「6番1」に合わせます。床面積が多い方ではなく、担当に指定された登記所の地番で決まる点がポイントです。
+
+---
 
 ### まとめ
 
@@ -66,7 +90,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・ウ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
-- 各肢の根拠のうち、条文（準則）レベルで確認できたもの：ア（準則67条1項2号）、イ（準則67条4項）、ウ（準則67条1項6号・7号）、エ（準則79条2号）、オ（準則79条3号）は、いずれも`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文と突き合わせて確認済みです。データベースのexplanationフィールドはイの根拠として準則67条1項7号を挙げていましたが、同号は地番の当初設定（3号・4号・6号）の例外規定であり、肢イの「著しく錯雑している場合に必要があれば変更できる」という内容に対応するのは同条4項でしたので、条文原文の確認に基づき訂正しました。
+- 各肢の根拠のうち、条文（準則）レベルで確認できたもの：ア（準則67条1項2号）、イ（準則67条4項）、ウ（準則67条1項6号・7号）、エ（準則79条2号）、オ（準則79条3号）は、いずれも`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文と突き合わせて確認済みです。データベースのexplanationフィールドはイの根拠として準則67条1項7号を挙げていましたが、同号は地番の当初設定（3号・4号・6号）の例外規定であり、イの「著しく錯雑している場合に必要があれば変更できる」という内容に対応するのは同条4項でしたので、条文原文の確認に基づき訂正しました。
 - 補足として、データベースのkeyPoints／approach／pitfallsでは、イの登記官の職権変更権限について不動産登記法35条、合筆後の地番の原則について不動産登記規則98条という条文も挙げられていましたが、条文原文を確認したところ、不動産登記法35条は地番区域の設定・地番付番義務を定めるのみで職権変更権限の根拠ではなく、不動産登記規則98条も地番区域ごとの起番方法を定めるのみで合筆後の地番の原則（首位地番）を定めた規定ではありませんでした。そのため本文では条文原文と一致する準則の条番号のみを根拠として記載しています。
 - なお、エ・オの家屋番号の付け方についてデータベースの一部フィールドが挙げていた「不動産登記規則101条」は、`note-articles/laws/fudousan-touki-kisoku-1.md`で確認したところ分筆登記の際の登記記録の記録方法を定める条文であり、家屋番号とは無関係であることが判明しました。家屋番号の定め方（原則として敷地の地番と同一の番号、特別の事情があるときは支号を付す方法等による）を規定するのは「不動産登記規則112条」であり、準則79条柱書もこれを前提とした規定です。この点は確認済みとして訂正します。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。
@@ -109,13 +133,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+kanji 号・権・地・番・建・物・登・記・所, which have Simplified Chinese
 look-alike forms with visibly different stroke shapes — always draw the
 standard Japanese (Jōyō) form of these characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -205,9 +247,9 @@ sentence, NOT a legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・権・地・番・建・物・登・記・所. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (3
 cards under 土地の地番に関する原則 numbered 1-3, 2 cards under 建物の
 家屋番号に関する原則 numbered 4-5, continuous numbering with no restart),
@@ -216,12 +258,12 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance, and matches the Japanese text given above verbatim with
-no paraphrasing and no substituted characters.
+no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文（ア〜オ5肢）を読んだときに、実際に手を動かして描くべき図と、その図にたどり着くまでにどの順番で何を確認すればよいかを、肢ごとに示す解き方ガイド。ア・ウは「特別の事情」という例外の有無を確認する単一分岐の決定木、イは「著しい錯雑」と「必要性」という2段階の条件を順に確認する決定木、エは登記の先後関係で支号が決まるタイムライン、オは「床面積の多寡」という思い込みと「指定登記所の地番による」という正しいルールを対比させる正誤対比型として構成した。
 
@@ -261,7 +303,15 @@ or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -287,7 +337,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -311,7 +361,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特別事情なければ再使用不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地番の著しい錯雑と必要性の両方を確認
@@ -333,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方満たせば職権変更可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 合筆後は特別事情なければ若番に統一
@@ -354,7 +404,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特別事情なければ若番に統一
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 先に登記した建物から順に支号を付す
@@ -376,7 +426,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記の先後順に支号を付与
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 家屋番号は床面積でなく指定登記所の地番で決まる
@@ -402,9 +452,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 根拠：不動産登記事務取扱手続準則67条1項2号・4項・6号・7号、79条2号・3号
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・錯・雑・筆・管・轄.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記・所・錯・雑・筆・管・轄. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

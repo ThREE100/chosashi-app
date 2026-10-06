@@ -2,51 +2,65 @@
 
 **出題年度：平成27年度　午後の部　第5問**
 
-> 表題部所有者の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　表題部所有者として誤ってＡが登記されているが，真実の所有者はＢである場合には，Ａは，表題部所有者の更正の登記を申請することができる。
->
-> イ　表題部所有者としてＡが登記されている土地をＡがＢに対して売却したときは，Ｂは，ＡからＢへの表題部所有者についての変更の登記を申請することができない。
->
-> ウ　表題部所有者のＡ及びＢの持分が誤ってＡは5分の3，Ｂは5分の2と登記されているが，真実の持分はＡが5分の2，Ｂが5分の3である場合において，Ａがこれを是正するための表題部所有者についての持分の更正の登記を申請するときは，Ｂが所有権を有することを証する情報を提供しなければならない。
->
-> エ　表題部所有者として誤ってＡ及びＢが登記されているが，真実の所有者はＡ及びＣである場合において，これを是正するための表題部所有者の更正の登記をＣが申請するときは，Ｂの承諾を証する情報又はＢに対抗することができる裁判があったことを証する情報のほか，Ｃが所有権を有することを証する情報及びＣの住所を証する情報を併せて提供しなければならない。
->
-> オ　表題部所有者として登記されている者が婚姻により氏を改めたときは，その者は，表題部所有者についての更正の登記を申請することができる。
->
+> 表題部所有者の登記に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　表題部所有者として誤ってＡが登記されているが，真実の所有者はＢである場合には，Ａは，表題部所有者の更正の登記を申請することができる。  
+>　  
+> イ　表題部所有者としてＡが登記されている土地をＡがＢに対して売却したときは，Ｂは，ＡからＢへの表題部所有者についての変更の登記を申請することができない。  
+>　  
+> ウ　表題部所有者のＡ及びＢの持分が誤ってＡは5分の3，Ｂは5分の2と登記されているが，真実の持分はＡが5分の2，Ｂが5分の3である場合において，Ａがこれを是正するための表題部所有者についての持分の更正の登記を申請するときは，Ｂが所有権を有することを証する情報を提供しなければならない。  
+>　  
+> エ　表題部所有者として誤ってＡ及びＢが登記されているが，真実の所有者はＡ及びＣである場合において，これを是正するための表題部所有者の更正の登記をＣが申請するときは，Ｂの承諾を証する情報又はＢに対抗することができる裁判があったことを証する情報のほか，Ｃが所有権を有することを証する情報及びＣの住所を証する情報を併せて提供しなければならない。  
+>　  
+> オ　表題部所有者として登記されている者が婚姻により氏を改めたときは，その者は，表題部所有者についての更正の登記を申請することができる。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 表題部所有者の登記を直す場面では、「最初から間違っていたのか（更正）」「後から事情が変わったのか（変更）」の区別がまず重要です。さらに、売却のような“権利の移動”は表題部の登記ではなく所有権の登記で扱う、という切り分けもポイントになります。
 
 ### ア：更正登記を申請できるのは真の所有者で、誤って記録された者からはできない
 
-真実の所有者と違う人が表題部所有者として記録されている場合、これを正すのが表題部所有者の更正の登記です（不動産登記法33条1項）。この更正登記を申請できるのは真正な所有者であり、誤って記録されているだけで実際には所有者でない者からは申請できません。本肢は、真の所有者でないＡが申請できるとしている点で誤りです。
+真実の所有者と違う人が表題部所有者として記録されている場合、これを正すのが表題部所有者の更正の登記です（不動産登記法33条1項）。
+
+この更正登記を申請できるのは真正な所有者であり、誤って記録されているだけで実際には所有者でない者からは申請できません。本肢は、真の所有者でないＡが申請できるとしている点で誤りです。
 
 **たとえば**、本当はＢの土地なのに、手違いで表題部所有者としてＡの名前が載ってしまったとします。これを直す更正登記を申請できるのは真の所有者Ｂであって、名前が載っているだけのＡから「自分を消してBにしてくれ」と申請することはできません。
 
 ### イ：売却による所有者の交代は、表題部所有者の変更登記ではなく保存・移転登記による
 
-表題部所有者は表示に関する登記の一部であり、売買のような権利の移動は、表題部所有者を書き換えるのではなく、権利の登記で処理します。具体的には、Ａが所有権の保存の登記をしたうえで、Ｂへ所有権の移転の登記をすることになります（不動産登記法32条）。したがって、Ｂが「A→Bの表題部所有者の変更登記」を申請することはできず、本肢は正しい記述です。
+表題部所有者は表示に関する登記の一部であり、売買のような権利の移動は、表題部所有者を書き換えるのではなく、権利の登記で処理します。
+
+具体的には、Ａが所有権の保存の登記をしたうえで、Ｂへ所有権の移転の登記をすることになります（不動産登記法32条）。したがって、Ｂが「A→Bの表題部所有者の変更登記」を申請することはできず、本肢は正しい記述です。
 
 **たとえば**、まだ所有権の登記がされていない土地（表題部所有者だけがＡと載っている土地）をＡがＢに売ったとき、「表題部所有者をＢに変える」のではなく、いったんＡ名義で所有権保存登記をし、そこからＢへ所有権移転登記をする、という2段階で処理します。
 
 ### ウ：持分の更正登記では、他の共有者の承諾情報が必要で、所有権証明情報は不要
 
-表題部所有者の持分の更正の登記では、持分が更正されることになる他の共有者の承諾を証する情報、または当該共有者に対抗できる裁判があったことを証する情報を提供します（不動産登記令別表3項の添付情報）。本肢がいう「Ｂが所有権を有することを証する情報（所有権証明情報）」の添付は不要です。したがって本肢は誤りです。
+表題部所有者の持分の更正の登記では、持分が更正されることになる他の共有者の承諾を証する情報、または当該共有者に対抗できる裁判があったことを証する情報を提供します（不動産登記令別表3項の添付情報）。
+
+本肢がいう「Ｂが所有権を有することを証する情報（所有権証明情報）」の添付は不要です。したがって本肢は誤りです。
 
 **たとえば**、AとBの持分の記録が入れ替わっていた（本当はBの方が多い）ケースでAが直すときは、持分が減る側であるＢの承諾書などを付ければよく、「Bが所有者であることの証明書」までそろえる必要はありません。
 
 ### エ：更正で除かれる者の承諾情報＋新所有者の所有権・住所証明情報が必要
 
-表題部所有者として誤って記録された者（Ｂ）を除き、真の所有者（Ｃ）を加える更正の登記をＣが申請するときは、①登記から除かれるＢの承諾を証する情報またはＢに対抗できる裁判があったことを証する情報に加えて、②Ｃが所有権を有することを証する情報および③Ｃの住所を証する情報を、併せて提供しなければなりません（不動産登記令別表2項の添付情報）。本肢は正しい記述です。
+表題部所有者として誤って記録された者（Ｂ）を除き、真の所有者（Ｃ）を加える更正の登記をＣが申請するときは、①登記から除かれるＢの承諾を証する情報またはＢに対抗できる裁判があったことを証する情報に加えて、②Ｃが所有権を有することを証する情報および③Ｃの住所を証する情報を、併せて提供しなければなりません（不動産登記令別表2項の添付情報）。
+
+本肢は正しい記述です。
 
 **たとえば**、本当はA・Cの共有なのに誤ってA・Bと登記されていた土地について、Cが「自分を加えてBを消す」更正登記をするときは、消されるBの承諾書のほか、C自身が所有者であることの証明書とCの住所証明書までそろえて申請します。
 
 ### オ：婚姻による氏の変更は「更正」ではなく「変更（表示変更）」の登記
 
-表題部所有者の氏名や住所が後から変わった場合は、その変わった内容に合わせる「表題部所有者の表示変更の登記」で対応します（不動産登記法31条）。婚姻によって氏が変わるのは、当初の記録が誤っていたわけではなく後発的な事情ですから、「更正」ではありません。本肢は誤りです。
+表題部所有者の氏名や住所が後から変わった場合は、その変わった内容に合わせる「表題部所有者の表示変更の登記」で対応します（不動産登記法31条）。
+
+婚姻によって氏が変わるのは、当初の記録が誤っていたわけではなく後発的な事情ですから、「更正」ではありません。本肢は誤りです。
 
 **たとえば**、表題部所有者として登記されている人が結婚して名字が変わったときは、「更正」ではなく「表示変更」の登記で、新しい名字に直します。最初の登記が間違っていたわけではないからです。
+
+---
 
 ### まとめ
 
@@ -108,13 +122,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 表・題・部・所・有・者・更・正・変・持・分・承・諾・証・明・情・報・住・登・
-記・保・存・移・転・姻・氏 — these must be rendered in their standard Japanese
+kanji 表・題・部・所・有・者・更・正・変・持・分・承・諾・証・明・情・報・住・登・記・保・存・移・転・氏 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -199,20 +230,20 @@ these 5 headings):
 5. 結婚で氏が変わったら「変更」登記
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 5肢すべてが「名義の食い違いは、最初からの誤りか、後からの変化か」という同じ三分岐の決定木を共有する構成にした。ア・ウ・エは「最初から誤って記録」の枝、イは「後から所有権が移転（売買）」の枝、オは「後から表示事項（氏名等）が変化」の枝に進む。各パネルでは自分に関係する枝だけを太い縁取り・フルカラーで強調し、関係しない枝は薄いグレーの点線で縮小表示する。エは除かれる者の承諾情報・新所有者の所有権証明情報・新所有者の住所証明情報という3つの要件を、圧縮せず別々の確認ステップとして描く。
 
@@ -295,7 +326,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -321,7 +352,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 真の所有者のみ申請可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -344,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 保存・移転登記で処理
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -352,8 +383,8 @@ Heading (bold, ONE line):
 Diagram: The same shared root diamond node with three branches. In THIS
 panel, branch (1)「最初から誤って記録」is highlighted (full color, thick
 border), branches (2) and (3) faded. From the highlighted branch, a
-second diamond node reads「持分の更正に何を添付するか」with two checks
-stacked, drawn as separate, distinct items rather than merged into one: a
+rectangular check box (NOT a diamond) headed「持分の更正に添付するもの」with
+two checks stacked, drawn as separate, distinct items rather than merged into one: a
 first box「Bの承諾情報（持分が減る共有者）」with a green checkmark, thick
 highlighted border, and a second, separate box「Bが所有権を有することを証
 する情報」with a red X. Show an isometric land plot split between A and B
@@ -367,7 +398,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 Bの承諾情報で足りる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -392,7 +423,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 書類三点セットが必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in gray containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

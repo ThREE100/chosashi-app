@@ -2,51 +2,69 @@
 
 **出題年度：平成28年度　午後の部　第19問**
 
-> 登録免許税に関する次のアからオまでの記述のうち，誤っているものは，幾つあるか。
->
-> ア　敷地権の登記がある土地について分筆の登記を申請するときは，登録免許税は課されない。
->
-> イ　いずれも所有権の登記がない甲土地と乙土地を合筆する合筆の登記を申請するときは，納付すべき登録免許税の額は1,000円となる。
->
-> ウ　表題登記がない建物と表題登記のみがある建物が合体して1個の建物となったことによる合体による登記等を申請するときは，納付すべき登録免許税の額は1,000円となる。
->
-> エ　所有権の登記がある甲建物の登記記録から甲建物の附属建物を分割して，これを乙建物の附属建物としようとする場合において，建物の分割の登記と建物の合併の登記を一の申請情報によって申請するときは，納付すべき登録免許税の額は3,000円となる。
->
-> オ　私人を所有権の登記名義人とする土地の一部を取得した地方公共団体が，代位による分筆の登記を嘱託するときは，登録免許税は課されない。
->
+> 登録免許税に関する次のアからオまでの記述のうち，誤っているものは，幾つあるか。  
+>　  
+> ア　敷地権の登記がある土地について分筆の登記を申請するときは，登録免許税は課されない。  
+>　  
+> イ　いずれも所有権の登記がない甲土地と乙土地を合筆する合筆の登記を申請するときは，納付すべき登録免許税の額は1,000円となる。  
+>　  
+> ウ　表題登記がない建物と表題登記のみがある建物が合体して1個の建物となったことによる合体による登記等を申請するときは，納付すべき登録免許税の額は1,000円となる。  
+>　  
+> エ　所有権の登記がある甲建物の登記記録から甲建物の附属建物を分割して，これを乙建物の附属建物としようとする場合において，建物の分割の登記と建物の合併の登記を一の申請情報によって申請するときは，納付すべき登録免許税の額は3,000円となる。  
+>　  
+> オ　私人を所有権の登記名義人とする土地の一部を取得した地方公共団体が，代位による分筆の登記を嘱託するときは，登録免許税は課されない。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
-登録免許税というと「表示に関する登記には原則かからない」というイメージを持っている受験生も多いのですが、実際には課税・非課税の境界が細かく決められています。本問は分筆・合筆・合体・分割合併・代位嘱託という5つの場面を通じて登録免許税法別表第一のあてはめを横断的に問う良問で、「誤っているものは幾つあるか」という個数問題なので、各肢を一つずつ丁寧に○×判定していく必要があります。
+---
+
+登録免許税というと「表示に関する登記には原則かからない」というイメージを持っている受験生も多いのですが、実際には課税・非課税の境界が細かく決められています。
+
+本問は分筆・合筆・合体・分割合併・代位嘱託という5つの場面を通じて登録免許税法別表第一のあてはめを横断的に問う良問で、「誤っているものは幾つあるか」という個数問題なので、各肢を一つずつ丁寧に○×判定していく必要があります。
 
 ### ア：敷地権登記がある土地の分筆にも登録免許税はかかる
 
-所有権の登記がある土地の分筆の登記には、分筆後の土地1筆につき1,000円の登録免許税を納付しなければなりません（登録免許税法別表第一1.（13）イ）。敷地権である旨の登記がされている土地は、区分建物の敷地権として扱われているだけで、実質的には所有権が登記された土地であるため、この規定がそのまま適用され登録免許税が課されます。「登録免許税は課されない」とする本肢は誤りです。
+所有権の登記がある土地の分筆の登記には、分筆後の土地1筆につき1,000円の登録免許税を納付しなければなりません（登録免許税法別表第一1.（13）イ）。
+
+敷地権である旨の登記がされている土地は、区分建物の敷地権として扱われているだけで、実質的には所有権が登記された土地であるため、この規定がそのまま適用され登録免許税が課されます。「登録免許税は課されない」とする本肢は誤りです。
 
 **たとえば**、マンションの敷地（敷地権が設定された土地）の一部を分割して別用途に転用しようとする場合、その分筆の登記には分筆後の筆数に応じて1筆1,000円の登録免許税がかかります。「敷地権付きだから特別に非課税」という扱いはありません。
 
 ### イ：所有権登記のない土地同士の合筆は非課税
 
-所有権の登記がある土地の合筆の登記には、合筆後の土地1筆につき1,000円の登録免許税を納付しなければならないと定められています（登録免許税法別表第一1.（13）ロ）が、これはあくまで所有権の登記がある土地を対象とする規定です。本肢のようにいずれも所有権の登記がない土地同士の合筆には、この規定は適用されず登録免許税は課されません。「1,000円となる」とする本肢は誤りです。
+所有権の登記がある土地の合筆の登記には、合筆後の土地1筆につき1,000円の登録免許税を納付しなければならないと定められています（登録免許税法別表第一1.（13）ロ）が、これはあくまで所有権の登記がある土地を対象とする規定です。
+
+本肢のようにいずれも所有権の登記がない土地同士の合筆には、この規定は適用されず登録免許税は課されません。「1,000円となる」とする本肢は誤りです。
 
 **たとえば**、表題登記のみで所有権の登記がされていない山林の隣接2筆を、表題部所有者が合筆登記する場合には、登録免許税はかかりません。
 
 ### ウ：表題登記のない建物との合体は所有権保存登記ができず非課税
 
-建物の合体による登記等に伴って所有権の保存の登記をする場合には、合体後の建物の価額に所有権の登記のない建物の所有者が有することとなる持分の割合を乗じた額を課税価格とし、1,000分の4の税率で登録免許税を納付します（登録免許税法別表第一1.（1））。しかし本肢のように、表題登記すらされていない建物と表題登記のみがある建物が合体した場合には、そもそも所有権の保存の登記を申請すること自体ができないため、この課税の前提を欠き登録免許税は課されません。「1,000円となる」とする本肢は誤りです。
+建物の合体による登記等に伴って所有権の保存の登記をする場合には、合体後の建物の価額に所有権の登記のない建物の所有者が有することとなる持分の割合を乗じた額を課税価格とし、1,000分の4の税率で登録免許税を納付します（登録免許税法別表第一1.（1））。
+
+しかし本肢のように、表題登記すらされていない建物と表題登記のみがある建物が合体した場合には、そもそも所有権の保存の登記を申請すること自体ができないため、この課税の前提を欠き登録免許税は課されません。
+
+「1,000円となる」とする本肢は誤りです。
 
 **たとえば**、未登記の倉庫を、表題登記だけがされている隣の建物に増築してつなげ、1個の建物にした場合、その合体による登記等では所有権保存登記自体を申請できないため、税金はかかりません。
 
 ### エ：分割の登記と合併の登記を一の申請情報で行っても、税額は結果としてできる建物の個数で決まる
 
-所有権の登記がある建物の分割・合併の登記には、分割・合併後の建物1個につき1,000円の登録免許税を納付しなければなりません（登録免許税法別表第一1.（13）イ・ロ）。本肢の場合、甲建物の附属建物を分割して乙建物の附属建物とするので、この登記の結果できあがる建物は甲建物・乙建物の2個であり、1,000円×2個＝2,000円の登録免許税が課されます。「3,000円となる」とする本肢は誤りです。
+所有権の登記がある建物の分割・合併の登記には、分割・合併後の建物1個につき1,000円の登録免許税を納付しなければなりません（登録免許税法別表第一1.（13）イ・ロ）。
+
+本肢の場合、甲建物の附属建物を分割して乙建物の附属建物とするので、この登記の結果できあがる建物は甲建物・乙建物の2個であり、1,000円×2個＝2,000円の登録免許税が課されます。「3,000円となる」とする本肢は誤りです。
 
 **たとえば**、母屋（甲建物）の登記記録にある附属建物の物置を切り離して、隣の乙建物の附属建物とする場合、分割の登記と合併の登記を1回の申請情報でまとめて申請しても、できあがる建物は甲・乙の2個なので、登録免許税は2,000円になります。
 
 ### オ：地方公共団体が代位でする分筆の嘱託登記は非課税
 
-国、地方公共団体その他の公共法人が、これらの者以外の者に代位してする登記や、登記官の職権による登記等は登録免許税を課さないとされています（登録免許税法5条1号・2号）。本肢の地方公共団体は、私人である登記名義人に代位して分筆の登記を嘱託するものであるため、この非課税規定が適用され登録免許税は課されません。本肢は正しい記述です。
+国、地方公共団体その他の公共法人が、これらの者以外の者に代位してする登記や、登記官の職権による登記等は登録免許税を課さないとされています（登録免許税法5条1号・2号）。
+
+本肢の地方公共団体は、私人である登記名義人に代位して分筆の登記を嘱託するものであるため、この非課税規定が適用され登録免許税は課されません。本肢は正しい記述です。
 
 **たとえば**、市が道路拡幅のために私有地の一部を買収した場合に、その土地の登記名義人（売主）に代わって分筆登記を代位嘱託するときは、登録免許税はかかりません。
+
+---
 
 ### まとめ
 
@@ -67,9 +85,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成28年度午後の部第19問）と正解番号（選択肢4番＝誤っているものは4個）は、土地家屋調査士試験対策アプリの検証済みデータベースと、法務省公式の正答PDF（ユーザー提供、平成28年度午後の部第19問＝4）の両方で照合済みです。
 - 各肢（ア〜オ）の法的根拠（登録免許税法別表第一1.（1）、1.（13）イ・ロ、登録免許税法5条1号・2号など）は、土地家屋調査士試験対策アプリの検証済みデータベースのexplanationフィールドに基づいて記載しています。
-- **条文レベルで確認できた根拠（2026-08-18再検証）**：ローカル法令データベース（`laws/touroku-menkyozei-hou.md`）で、肢ア・イ・エの根拠となる別表第一「一　不動産の登記」（十三）イ・ロ（所有権の登記のある不動産の分筆・分割・区分、合筆・合併について、それぞれ分筆等後・合筆等後の不動産1個につき1,000円）と、肢ウの根拠となる同（一）所有権の保存の登記（不動産の価額×1,000分の4）、肢オの根拠となる5条1号（国又は別表第二に掲げる者がこれらの者以外の者に代位してする登記）・2号（登記機関が職権に基づいてする登記）の条文原文を確認済みです。
-- **条文原文まで確認できていない点（推論にとどまる部分）**：肢オについて、地方公共団体が5条1号にいう「別表第二に掲げる者」に当たることは、上記ファイルが別表第一の「一　不動産の登記」のみを収録し別表第二を収録していないため、条文原文では確認できていません。また肢エの税額については、法務省公表の正答から「3,000円は誤り」であることは確定しますが、「2,000円」という金額そのものは別表第一（十三）イ・ロの計算方法に沿ったあてはめであり、条文に金額として明記されているものではありません。
-- **2026-08-04追記（条文の訂正）**：肢オの根拠として当初「登録免許税法5条1号、6号」としていましたが、個別テーマ記事「表示に関する登記の登録免許税、早見表で一気に整理」（`topics/touroku-menkyozei-hayamihyou.md`）執筆時に条文原文（`laws/touroku-menkyozei-hou.md`）と照合したところ、5条6号は土地改良法・土地区画整理法に関する登記の非課税規定であり、代位・職権による非課税とは無関係でした。代位は5条1号、職権は5条2号が正しい根拠のため、「5条1号・2号」に訂正しました（肢オ自体の判定・正解番号に変更はありません）。
+- **条文レベルで確認できた根拠（2026-08-18再検証）**：ローカル法令データベース（`laws/touroku-menkyozei-hou.md`）で、ア・イ・エの根拠となる別表第一「一　不動産の登記」（十三）イ・ロ（所有権の登記のある不動産の分筆・分割・区分、合筆・合併について、それぞれ分筆等後・合筆等後の不動産1個につき1,000円）と、ウの根拠となる同（一）所有権の保存の登記（不動産の価額×1,000分の4）、オの根拠となる5条1号（国又は別表第二に掲げる者がこれらの者以外の者に代位してする登記）・2号（登記機関が職権に基づいてする登記）の条文原文を確認済みです。
+- **条文原文まで確認できていない点（推論にとどまる部分）**：オについて、地方公共団体が5条1号にいう「別表第二に掲げる者」に当たることは、上記ファイルが別表第一の「一　不動産の登記」のみを収録し別表第二を収録していないため、条文原文では確認できていません。またエの税額については、法務省公表の正答から「3,000円は誤り」であることは確定しますが、「2,000円」という金額そのものは別表第一（十三）イ・ロの計算方法に沿ったあてはめであり、条文に金額として明記されているものではありません。
+- **2026-08-04追記（条文の訂正）**：オの根拠として当初「登録免許税法5条1号、6号」としていましたが、個別テーマ記事「表示に関する登記の登録免許税、早見表で一気に整理」（`topics/touroku-menkyozei-hayamihyou.md`）執筆時に条文原文（`laws/touroku-menkyozei-hou.md`）と照合したところ、5条6号は土地改良法・土地区画整理法に関する登記の非課税規定であり、代位・職権による非課税とは無関係でした。代位は5条1号、職権は5条2号が正しい根拠のため、「5条1号・2号」に訂正しました（オ自体の判定・正解番号に変更はありません）。
 - **最新法令チェック（2026-08-18実施）**：本問の根拠となる登録免許税法5条1号・2号、別表第一「一　不動産の登記」（一）・（十三）イ・ロは、ローカル法令データベース収録版（2026-08-04取得の現行版）と照合し、本記事の説明と一致することを確認しました。相続登記の申請義務化・住所変更登記の申請義務化はいずれも所有権の登記名義人に関する規律であり、本問が扱う分筆・合筆・合体・分割合併・代位嘱託の課税関係には影響しません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（登録免許税）と同一・類似の問題が再出題されていないかを確認しました。**本問オ（私人を所有権の登記名義人とする土地の一部を取得した地方公共団体が、代位による分筆の登記を嘱託するときは、登録免許税は課されないこと）は、R02年度第19問エ、およびR07年度第19問イとほぼ同一の場面設定・結論で繰り返し出題されています。また本問エ（甲建物の附属建物を分割して乙建物の附属建物とする場合に、分割の登記と合併の登記を一の申請情報によって申請するときの税額を「3,000円」とする誤った記述）は、R07年度第19問オとほぼ同一の文言（数字も含め）で出題されています。これらは非常に強い重複にあたります**。ノートに執筆・公開する際は、R02年度・R07年度分の登録免許税の記事とかなり内容が重なることを踏まえ、表現を変える、既出であることに触れる、または執筆順序を工夫するなど、重複した解説を繰り返し発信しないよう注意してください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -111,7 +129,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -198,8 +224,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (3
 cards under 非課税になるケース, 2 cards under 課税・税額の計算に注意), with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
@@ -215,9 +241,9 @@ edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に「この肢はどの手順で課税・非課税を判定し、税額をどう数えればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。肢ア・イ・エは「所有権の登記がある不動産か」という共通の決定木を共有し、各パネルで自分の枝だけを強調する。5パネル、portrait 1080×2600px。
+問題文を読んだ瞬間に「この肢はどの手順で課税・非課税を判定し、税額をどう数えればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。ア・イ・エは「所有権の登記がある不動産か」という共通の決定木を共有し、各パネルで自分の枝だけを強調する。5パネル、portrait 1080×2600px。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -240,7 +266,7 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 1,
-2, and 4 (肢ア・肢イ・肢エ) share the same decision tree: one diamond
+2, and 4 (ア・イ・エ) share the same decision tree: one diamond
 asking 所有権の登記がある不動産か, whose はい branch leads to a conclusion
 node for a per-item 1,000円 charge and whose いいえ branch leads to a
 conclusion node reading 登録免許税は課されない. Draw this shared diamond
@@ -250,7 +276,7 @@ and 4, いいえ for Panel 2) with a thick highlighted border and full color,
 and render the other, unrelated branch in a faded, greyed-out, or
 dotted-outline style rather than omitting it — the reader should be able
 to see at a glance which part of the shared tree this panel is about.
-Panels 3 and 5 (肢ウ・肢オ) use their own separate decision trees, not the
+Panels 3 and 5 (ウ・オ) use their own separate decision trees, not the
 shared one. In every panel, both the はい and the いいえ outcome of each
 diamond must lead forward to its own separate node; never draw a loop
 arrow that returns from a diamond or a conclusion node back to any
@@ -302,7 +328,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -328,7 +354,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 分筆にも課税
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 所有権登記のない土地同士の合筆は非課税
@@ -352,7 +378,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 合筆は非課税
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 表題登記のない建物との合体は保存登記できず非課税
@@ -379,7 +405,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存登記できず非課税
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分割と合併を一度に申請しても税額は建物の個数で数える
@@ -407,24 +433,22 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 2個で2,000円
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 地方公共団体が私人に代位してする分筆の嘱託は非課税
-Diagram: A two-diamond decision-tree flowchart, separate from the shared
+Diagram: A two-step check flow (rectangular boxes, no diamonds), separate from the shared
 tree used in Panels 1, 2, and 4. At the top, an isometric scene: a land
 plot owned by a private-person figure labeled 私人（所有権の登記名義人）,
 with a part of the plot marked by a dashed line and a road-widening
 sign, and a local-government building labeled 地方公共団体 that has
-acquired that part. The first diamond node reads 嘱託するのは国・地方公共
-団体その他の公共法人か. Its はい branch (thick highlighted border, full
-color) leads down to the second diamond node reading これらの者以外の者
-（私人）に代位してする登記か. Its はい branch (thick highlighted border,
-full color) leads to a green conclusion node reading 登録免許税法5条1号に
-より登録免許税は課されない, with a glowing 非課税 stamp. The いいえ
-branch of each diamond is drawn only as a short faded, greyed-out,
-dotted-outline stub ending in a small faded node reading 5条1号の場面では
-ない; do not connect either stub back to any other node.
+acquired that part. The first rectangular check box (NOT a diamond) reads ①嘱託するのは国・
+地方公共団体その他の公共法人. A single straight arrow (thick highlighted,
+full color) leads down to the second rectangular check box reading
+②これらの者以外の者（私人）に代位してする登記. A single straight arrow leads
+to a green conclusion node reading 登録免許税法5条1号により登録免許税は
+課されない, with a glowing 非課税 stamp. Draw no diamonds, no side
+branches and no stubs.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、嘱託するのが国・地方公共団体その他の公共法人（本肢では地方公共団体）
 であることを確認します。次に、その登記がこれらの者以外の者（私人である

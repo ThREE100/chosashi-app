@@ -2,53 +2,75 @@
 
 **出題年度：平成20年度　午後の部　第18問**
 
-> 「効用上一体として利用される状態にある所有者を同じくする二つの建物」の合併登記について、次のアからオまでの記述のうち、誤った記述の組み合わせを選ぶ。
->
-> ア　両建物に同一の所有権移転仮登記があり、他に所有権の登記以外の登記がない場合には、合併の登記を申請することができる。
->
-> イ　両建物に同一の抵当権の登記があり、その抵当権に同一の移転の仮登記があり、他に所有権の登記以外の登記がない場合には、合併の登記を申請することができる。
->
-> ウ　両建物に同一の抵当権の登記があり、その抵当権に同一の変更の登記があり、他に所有権の登記以外の登記がない場合には、合併の登記を申請することができる。
->
-> エ　両建物に工場財団の登記がある場合には、同一の財団を組成しているときであっても、合併の登記を申請することができない。
->
-> オ　敷地権の登記がある建物を主である建物とし、敷地権の登記がない建物を附属建物とする合併の登記は、申請することができない。
->
+> 「効用上一体として利用される状態にある所有者を同じくする二つの建物」の合併登記について、次のアからオまでの記述のうち、誤った記述の組み合わせを選ぶ。  
+>　  
+> ア　両建物に同一の所有権移転仮登記があり、他に所有権の登記以外の登記がない場合には、合併の登記を申請することができる。  
+>　  
+> イ　両建物に同一の抵当権の登記があり、その抵当権に同一の移転の仮登記があり、他に所有権の登記以外の登記がない場合には、合併の登記を申請することができる。  
+>　  
+> ウ　両建物に同一の抵当権の登記があり、その抵当権に同一の変更の登記があり、他に所有権の登記以外の登記がない場合には、合併の登記を申請することができる。  
+>　  
+> エ　両建物に工場財団の登記がある場合には、同一の財団を組成しているときであっても、合併の登記を申請することができない。  
+>　  
+> オ　敷地権の登記がある建物を主である建物とし、敷地権の登記がない建物を附属建物とする合併の登記は、申請することができない。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
 
-建物の合併登記は、2つの建物を1つの登記記録にまとめる手続です。土台になるのは不動産登記法56条（建物の合併の登記の制限）で、①表題部所有者又は所有権の登記名義人が相互に異なる建物、②それらが相互に持分を異にする建物、③所有権の登記がない建物と所有権の登記がある建物、④**所有権等（所有権・地上権・賃借権など）の登記以外の権利に関する登記がある建物（合併後の建物の登記記録に登記することができるものとして法務省令で定めるものを除く）**などについては、合併の登記をすることができません。
+---
 
-④の「除かれるもの」は不動産登記規則131条が具体的に定めており、複数の建物にある**担保権の登記であって登記の目的・受付年月日・受付番号・登記原因及びその日付が同一のもの**（1号）と、**信託の登記であって登記事項が同一のもの**（2号）に限られます。担保権の登記であれば仮登記や変更登記も対象に含まれます。この枠組みを頭に置いて、仮登記や工場財団など特殊な登記がどう扱われるかを見ていきます。
+建物の合併登記は、2つの建物を1つの登記記録にまとめる手続です。
+
+土台になるのは不動産登記法56条（建物の合併の登記の制限）で、①表題部所有者又は所有権の登記名義人が相互に異なる建物、②それらが相互に持分を異にする建物、③所有権の登記がない建物と所有権の登記がある建物、④**所有権等（所有権・地上権・賃借権など）の登記以外の権利に関する登記がある建物（合併後の建物の登記記録に登記することができるものとして法務省令で定めるものを除く）**などについては、合併の登記をすることができません。
+
+④の「除かれるもの」は不動産登記規則131条が具体的に定めており、複数の建物にある**担保権の登記であって登記の目的・受付年月日・受付番号・登記原因及びその日付が同一のもの**（1号）と、**信託の登記であって登記事項が同一のもの**（2号）に限られます。
+
+担保権の登記であれば仮登記や変更登記も対象に含まれます。この枠組みを頭に置いて、仮登記や工場財団など特殊な登記がどう扱われるかを見ていきます。
 
 ### ア：所有権に関する仮登記は、同一内容でも合併の障害になる
 
-不動産登記規則131条が合併を妨げないものとして例外扱いしているのは、内容が完全に一致する担保権・信託の登記に限られます。所有権移転の仮登記は担保権の登記ではなく、将来の所有権の帰属に関わる登記であるため、両建物の内容が同一であっても合併を妨げる登記として扱われます。したがって「合併の登記を申請することができる」とする本肢は誤りです。
+不動産登記規則131条が合併を妨げないものとして例外扱いしているのは、内容が完全に一致する担保権・信託の登記に限られます。
+
+所有権移転の仮登記は担保権の登記ではなく、将来の所有権の帰属に関わる登記であるため、両建物の内容が同一であっても合併を妨げる登記として扱われます。したがって「合併の登記を申請することができる」とする本肢は誤りです。
 
 **たとえば**、2棟の建物の両方に、同じ相手への「将来所有権を移転します」という同一内容の仮登記が付いていたとしても、それは所有権に関する登記である以上、そのままでは合併登記を申請できません。
 
 ### イ：抵当権の移転仮登記が同一内容なら、合併の障害にならない
 
-抵当権は担保権であり、不動産登記規則131条1号により、両建物にある抵当権の登記の目的・受付年月日・受付番号・登記原因及びその日付が同一であれば、合併の妨げにならない登記として扱われます。抵当権の移転仮登記も担保権に関する登記であることに変わりないため、両建物でまったく同じ内容である限り、合併の登記を申請することができます。したがって本肢は正しい記述です。
+抵当権は担保権であり、不動産登記規則131条1号により、両建物にある抵当権の登記の目的・受付年月日・受付番号・登記原因及びその日付が同一であれば、合併の妨げにならない登記として扱われます。
+
+抵当権の移転仮登記も担保権に関する登記であることに変わりないため、両建物でまったく同じ内容である限り、合併の登記を申請することができます。したがって本肢は正しい記述です。
 
 **たとえば**、2棟の建物の両方に、同じ銀行を抵当権者とする同一内容の抵当権と、その抵当権の移転の仮登記が付いている場合、その内容がそろっている限り、2棟を合併することができます。
 
 ### ウ：抵当権の変更登記が同一内容なら、合併の障害にならない
 
-イと同様に、抵当権に関する変更の登記も、不動産登記規則131条1号にいう「担保権の登記」に含まれるため、両建物で登記の目的・受付年月日・受付番号・登記原因及びその日付が同一である限り、合併の登記を妨げるものではありません。したがって本肢は正しい記述です。
+イと同様に、抵当権に関する変更の登記も、不動産登記規則131条1号にいう「担保権の登記」に含まれるため、両建物で登記の目的・受付年月日・受付番号・登記原因及びその日付が同一である限り、合併の登記を妨げるものではありません。
+
+したがって本肢は正しい記述です。
 
 **たとえば**、2棟の建物に付いている同じ抵当権について、利率の変更など同一内容の変更登記がされている場合でも、その内容がそろっている限り合併登記を申請できます。
 
 ### エ：工場財団の登記がある建物は、同一財団でも合併できない
 
-工場財団とは、工場の土地・建物・機械などをひとまとめにして、法律上「一個の不動産」とみなす特別な仕組みで、通常の不動産登記簿とは別の工場財団登記簿に登記されます（工場抵当法）。財団に組み入れられた建物は、財団という一つのかたまりの一部として担保に入っている状態になるため、財団の中身を勝手に譲渡したり処分したりすることができません。建物の合併は、一方の建物の登記記録を消して他方に統合する処分にあたるため、財団の一体性を崩すことになり、通常の合併の登記の枠組みでは申請できないのです。財団の中身を変えるには、財団側の登記（目録の変更など）という別の手続を経る必要があります。したがって本肢は正しい記述です。
+工場財団とは、工場の土地・建物・機械などをひとまとめにして、法律上「一個の不動産」とみなす特別な仕組みで、通常の不動産登記簿とは別の工場財団登記簿に登記されます（工場抵当法）。
+
+財団に組み入れられた建物は、財団という一つのかたまりの一部として担保に入っている状態になるため、財団の中身を勝手に譲渡したり処分したりすることができません。
+
+建物の合併は、一方の建物の登記記録を消して他方に統合する処分にあたるため、財団の一体性を崩すことになり、通常の合併の登記の枠組みでは申請できないのです。
+
+財団の中身を変えるには、財団側の登記（目録の変更など）という別の手続を経る必要があります。したがって本肢は正しい記述です。
 
 **たとえば**、同じ工場の敷地内にあり、同じ工場財団に組み込まれている2棟の建物であっても、それぞれが財団という一つの担保のかたまりの一部になっているため、通常の建物合併の手続でいきなり1棟にまとめることはできません。
 
 ### オ：敷地権登記の有無が異なる建物どうしでも、合併できる場合がある
 
-敷地権の登記がある建物を主である建物とし、敷地権の登記がない建物を附属建物とする合併について、一律に「申請することができない」と言い切ることはできません。要件を満たせば、このような組合せでも合併の登記を申請できる場合があります。したがって本肢は誤りです。
+敷地権の登記がある建物を主である建物とし、敷地権の登記がない建物を附属建物とする合併について、一律に「申請することができない」と言い切ることはできません。
+
+要件を満たせば、このような組合せでも合併の登記を申請できる場合があります。したがって本肢は誤りです。
 
 **たとえば**、敷地権付きの主たる建物と、敷地権のない付属的な建物があるとき、「敷地権の有無が違うから絶対に合併できない」というわけではなく、条件を満たせば合併登記を申請できることがあります。
+
+---
 
 ### まとめ
 
@@ -70,7 +92,7 @@
 - 出題年度・問題番号・正解番号（2番＝ア・オが誤り）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
 - **【2026年8月4日 現行法との整合性を再検証し、条文の枠組みを本文に明記しました】** 正誤の判定は初版から変更ありません。**不動産登記法56条**（建物の合併の登記の制限）が現行条文どおりであること、同条5号が「所有権等の登記以外の権利に関する登記がある建物（権利に関する登記であって、合併後の建物の登記記録に登記することができるものとして法務省令で定めるものがある建物を除く。）」を制限事由としていることを確認し、導入部に反映しました。
 - **【2026年8月6日 laws/収録の不動産登記規則で56条5号の「法務省令で定めるもの」の中身を特定しました】** 法56条5号がいう「法務省令で定めるもの」は**不動産登記規則131条**が具体的に定めており、①担保権の登記であって登記の目的・受付年月日・受付番号・登記原因及びその日付が同一のもの、②信託の登記であって登記事項が同一のもの、の2種類に限られることを確認しました。イ・ウはいずれも①の担保権の登記（仮登記・変更登記を含む）に該当するため合併の障害にならないと判断でき、初版の「所有権に関する登記かどうか」という説明軸を、規則131条に基づく「担保権・信託の登記かどうか」という軸に整理し直しました。
-- **【2026年8月23日 肢エの説明を拡充しました】** 工場財団登記がある建物の合併制限は工場抵当法に基づく特別な制限です。工場抵当法14条1項が工場財団を法律上「一個の不動産」とみなし、財団は所有権・抵当権の目的にしかならないものとしていること、同法13条2項が財団に属する物件について譲渡その他の処分を原則として禁止していること（抵当権者の同意を得た賃貸を除く）を確認し、これを根拠に、建物の合併（登記記録の消滅を伴う処分）が財団の一体性を崩すためできない、という説明を本文に追加しました。**ただし、工場抵当法はlaws/の収録対象外であり、この確認はWeb検索で得られた条文の要約に基づくもので、e-Gov等での原文の直接確認はこの実行環境からはアクセスできませんでした。**条番号・文言を実務・答案で用いる前に、一次資料（e-Gov法令検索等）でのご確認をおすすめします。正誤の結論（本肢は正しい）は変わりません。
+- **【2026年8月23日 エの説明を拡充しました】** 工場財団登記がある建物の合併制限は工場抵当法に基づく特別な制限です。工場抵当法14条1項が工場財団を法律上「一個の不動産」とみなし、財団は所有権・抵当権の目的にしかならないものとしていること、同法13条2項が財団に属する物件について譲渡その他の処分を原則として禁止していること（抵当権者の同意を得た賃貸を除く）を確認し、これを根拠に、建物の合併（登記記録の消滅を伴う処分）が財団の一体性を崩すためできない、という説明を本文に追加しました。**ただし、工場抵当法はlaws/の収録対象外であり、この確認はWeb検索で得られた条文の要約に基づくもので、e-Gov等での原文の直接確認はこの実行環境からはアクセスできませんでした。**条番号・文言を実務・答案で用いる前に、一次資料（e-Gov法令検索等）でのご確認をおすすめします。正誤の結論（本肢は正しい）は変わりません。
 - オ（敷地権の登記がある建物を主である建物とし、敷地権の登記がない建物を附属建物とする合併が一律に不可ではないこと）については、公式正答（アオが誤り）と整合するように説明したものですが、**根拠となる条文・先例は今回の再検証でも特定できていません**。この肢は引き続き確度が低い箇所ですので、実務・答案で用いる前に一次資料の確認をおすすめします。
 - **重複出題チェック（2026-07-22実施）**：H21〜R07年度の全問題を「工場財団」「移転仮登記」「敷地権登記のある建物を主とし」等のキーワードで確認しました。類似の抵当権・仮登記の組み合わせを問う設問はありますが、具体的な組み合わせ条件が異なり、本問特有の事例（工場財団の扱い、敷地権登記の有無による附属建物化の可否）の再出題は確認できませんでした。**重複は見つかりませんでした**。令和8年度以降が追加された際は再実施してください。
 
@@ -86,7 +108,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -109,10 +131,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -182,17 +222,17 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -210,7 +250,7 @@ conditions to get there — two isometric buildings with a merge arrow
 between them, registry stamp icons for the various registrations (所有権
 移転仮登記, 抵当権の登記, 移転の仮登記, 変更の登記), a dashed frame
 representing a 工場財団, and buildings with or without a 敷地権 label.
-Panels 1・2・3（肢ア・イ・ウ）all turn on the same three-diamond decision
+Panels 1・2・3（ア・イ・ウ）all turn on the same three-diamond decision
 tree used to judge whether a registered right blocks the merger under
 不動産登記規則131条: diamond 1「所有権に関する登記か」, diamond 2「担保権
 (抵当権等)または信託の登記か」, diamond 3「目的・受付年月日・受付番号・登
@@ -221,10 +261,10 @@ diamond(s) and branch(es) relevant to THIS panel's 肢 drawn with a thick
 highlighted border and full color, and the other diamonds and branches
 rendered in a faded, greyed-out, dotted-outline style rather than omitted
 — the reader should see at a glance which part of the shared tree this
-panel is about. Panel 4（肢エ）concerns an entirely separate rule (工場
+panel is about. Panel 4（エ）concerns an entirely separate rule (工場
 財団の登記) that does not go through this 131条 decision tree, so draw it
 as a standalone labeled illustrative diagram instead of the shared tree.
-Panel 5（肢オ）is a case where a reader might mistakenly assume the
+Panel 5（オ）is a case where a reader might mistakenly assume the
 question is about the same 131条 decision tree, when it is actually a
 different issue (whether a 敷地権 building and a non-敷地権 building can
 combine as main and attached buildings), so draw it as a LEFT/RIGHT
@@ -271,7 +311,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft beige containing the number 1.
 Heading (bold, ONE line):
 所有権の登記は131条の例外に当たらない
@@ -291,7 +331,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 所有権登記は障害
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft beige containing the number 2.
 Heading (bold, ONE line):
 抵当権の移転仮登記は内容が同一なら合併できる
@@ -312,7 +352,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 担保権なら合併可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3.
 Heading (bold, ONE line):
 抵当権の変更登記も内容が同一なら合併できる
@@ -333,7 +373,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 変更登記も合併可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft beige containing the number 4.
 Heading (bold, ONE line):
 工場財団に属する建物は合併できない
@@ -350,7 +390,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 財団は合併不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft beige containing the number 5.
 Heading (bold, ONE line):
 敷地権登記の有無は131条とは別の論点
@@ -372,8 +412,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法56条、不動産登記規則131条に基づく整理です。オの根拠となる条
-文・先例は記事本文でも特定できていません。
+不動産登記法56条、不動産登記規則131条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

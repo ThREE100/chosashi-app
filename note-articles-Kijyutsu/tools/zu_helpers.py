@@ -91,9 +91,16 @@ class Zu:
 
     def point(self, p, kind='dot', size=7, color=BLACK):
         """点の記号。kind: dot（黒丸）/ concrete（白抜き丸に中黒＝コンクリート杭）/ metal（黒丸＝金属標）
-        / kijun（三角＝基準点）"""
+        / kijun（三角＝基準点）/ stone（白抜きの四角に中黒＝石杭。2026-09-29、R1/Q21で追加）
+        / byou（白抜きの丸に十字＝鉄鋲・金属鋲。2026-09-30、H22/Q21で追加。金属標の黒丸・コンクリート杭の中黒と見分ける）"""
         a, b = xy(p)
-        if kind == 'concrete':
+        if kind == 'byou':
+            self.ax.plot(a, b, 'o', ms=size + 3, mfc='white', mec=color, mew=1.6, zorder=5)
+            self.ax.plot(a, b, '+', ms=size + 1, mew=1.6, color=color, zorder=6)
+        elif kind == 'stone':
+            self.ax.plot(a, b, 's', ms=size + 3, mfc='white', mec=color, mew=1.6, zorder=5)
+            self.ax.plot(a, b, 'o', ms=2.6, color=color, zorder=6)
+        elif kind == 'concrete':
             self.ax.plot(a, b, 'o', ms=size + 4, mfc='white', mec=color, mew=1.6, zorder=5)
             self.ax.plot(a, b, 'o', ms=2.6, color=color, zorder=6)
         elif kind == 'kijun':
@@ -228,6 +235,14 @@ class Zu:
             tx, ty = math.sin(end), -math.cos(end)   # 時計回りの接線
             self.ax.annotate('', (ex, ey), xytext=(ex - tx * r * 0.08, ey - ty * r * 0.08),
                              arrowprops=dict(arrowstyle='-|>', color=color, lw=lw, mutation_scale=14), zorder=3)
+
+    def dim_line(self, p, q, color=BLACK, lw=1.6):
+        """寸法線（両端に矢印の付いた線。幅員・高さなど）。線分として重なり検査の対象に登録する
+        （2026-09-30、H21/Q21で追加。ax.annotate の矢印で直接描くと登録されず、文字が寸法線に重なっても検査で見つからない）。"""
+        a, b = xy(p), xy(q)
+        self.ax.annotate('', xy=b, xytext=a, annotation_clip=False,
+                         arrowprops=dict(arrowstyle='<->', color=color, lw=lw, shrinkA=0, shrinkB=0), zorder=4)
+        self.segments.append((a, b))
 
     def right_angle(self, foot, along, toward, size=0.8, color=GRAY):
         """直角の記号。foot：垂線の足、along：足を通る直線上の別の点、toward：垂線のもう一方の端。"""

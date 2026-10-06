@@ -2,31 +2,41 @@
 
 **出題年度：令和3年度　午後の部　第19問**
 
-> 筆界特定に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲土地の所有権の登記名義人から売買により甲土地の所有権の全部を取得した者は、当該売買を登記原因とする所有権の移転の登記がされていない場合であっても、当該所有権を取得したことを証する情報を提供することにより、甲土地とこれに隣接する乙土地との筆界について、筆界特定の申請をすることができる。
->
-> イ　甲土地とこれに隣接する乙土地とを対象土地とする筆界特定の申請がされた後、筆界特定がされる前に甲土地が売却され、当該売買を登記原因とする所有権の移転の登記により新たに甲土地の所有権の登記名義人になった者がいる場合には、当該者から当該筆界特定の申請人の地位を承継する申出があったとしても、当該筆界特定の申請は却下される。
->
-> ウ　甲土地とこれに隣接する乙土地とを対象土地とする筆界特定の申請がされた後、意見聴取等の期日前に、関係土地の所有権の登記名義人が死亡した場合には、当該所有権の登記名義人の相続人は、関係土地について相続を原因とする所有権の移転の登記をすることなく、相続を証する情報を提供して当該意見聴取等の期日に出席することができる。
->
-> エ　甲土地とこれに隣接する乙土地とを対象土地とする筆界特定の申請がされた場合には、甲土地について設定されている抵当権の登記名義人は、筆界特定の申請人から提出された資料を閲覧することができる。
->
-> オ　表題登記がある甲土地の表題部所有者は、甲土地とこれに隣接する乙土地との筆界について、筆界特定の申請をすることができる。
->
+> 筆界特定に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲土地の所有権の登記名義人から売買により甲土地の所有権の全部を取得した者は、当該売買を登記原因とする所有権の移転の登記がされていない場合であっても、当該所有権を取得したことを証する情報を提供することにより、甲土地とこれに隣接する乙土地との筆界について、筆界特定の申請をすることができる。  
+>　  
+> イ　甲土地とこれに隣接する乙土地とを対象土地とする筆界特定の申請がされた後、筆界特定がされる前に甲土地が売却され、当該売買を登記原因とする所有権の移転の登記により新たに甲土地の所有権の登記名義人になった者がいる場合には、当該者から当該筆界特定の申請人の地位を承継する申出があったとしても、当該筆界特定の申請は却下される。  
+>　  
+> ウ　甲土地とこれに隣接する乙土地とを対象土地とする筆界特定の申請がされた後、意見聴取等の期日前に、関係土地の所有権の登記名義人が死亡した場合には、当該所有権の登記名義人の相続人は、関係土地について相続を原因とする所有権の移転の登記をすることなく、相続を証する情報を提供して当該意見聴取等の期日に出席することができる。  
+>　  
+> エ　甲土地とこれに隣接する乙土地とを対象土地とする筆界特定の申請がされた場合には、甲土地について設定されている抵当権の登記名義人は、筆界特定の申請人から提出された資料を閲覧することができる。  
+>　  
+> オ　表題登記がある甲土地の表題部所有者は、甲土地とこれに隣接する乙土地との筆界について、筆界特定の申請をすることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-筆界特定は、隣の土地との「本来の境界（筆界）」を、筆界特定登記官に判断してもらう手続です。この問題では、「誰が申請できるのか（申請人適格）」「手続の途中で所有者が変わったらどうなるのか（地位承継）」「関係のない抵当権者まで資料を見られるのか（閲覧請求権者）」という、手続の入口と参加者のルールが問われています。
+---
+
+筆界特定は、隣の土地との「本来の境界（筆界）」を、筆界特定登記官に判断してもらう手続です。
+
+この問題では、「誰が申請できるのか（申請人適格）」「手続の途中で所有者が変わったらどうなるのか（地位承継）」「関係のない抵当権者まで資料を見られるのか（閲覧請求権者）」という、手続の入口と参加者のルールが問われています。
 
 ### ア：所有権を取得しても、移転登記を経なければ筆界特定の申請はできない
 
-筆界特定の申請ができるのは、対象土地の「所有権登記名義人等」に限られます（不動産登記法131条1項）。この「所有権登記名義人等」とは、所有権の登記がある土地では所有権の登記名義人、所有権の登記がない土地では表題部所有者、表題登記がない土地では所有者をいい、これらの者の相続人その他の一般承継人を含みますが、売買による特定承継人は含まれません（同法123条5号）。したがって、売買で所有権の全部を取得したとしても、まだ所有権移転の登記を済ませていない段階では、「所有権を取得したことを証する情報」を提供するだけでは申請人としては認められません。
+筆界特定の申請ができるのは、対象土地の「所有権登記名義人等」に限られます（不動産登記法131条1項）。
+
+この「所有権登記名義人等」とは、所有権の登記がある土地では所有権の登記名義人、所有権の登記がない土地では表題部所有者、表題登記がない土地では所有者をいい、これらの者の相続人その他の一般承継人を含みますが、売買による特定承継人は含まれません（同法123条5号）。
+
+したがって、売買で所有権の全部を取得したとしても、まだ所有権移転の登記を済ませていない段階では、「所有権を取得したことを証する情報」を提供するだけでは申請人としては認められません。
 
 **たとえば**、AさんがBさんから土地を買ったものの、まだ名義変更（所有権移転登記）を済ませていない段階では、Aさんは「もう自分の土地だから」といって筆界特定を申請することはできず、まずは登記名義を自分に移す必要がある、というイメージです。
 
 ### イ：地位承継の申出があれば、申請は却下されず手続はそのまま続行される
 
-筆界特定の申請がされた後、特定がされる前に対象土地が売却され、新たに所有権の登記名義人になった者がいる場合、その者（特定承継人）から「申請人の地位を承継したい」という申出があれば、その特定承継人が申請人の地位を引き継ぎます。申請が却下されるわけではありません。
+筆界特定の申請がされた後、特定がされる前に対象土地が売却され、新たに所有権の登記名義人になった者がいる場合、その者（特定承継人）から「申請人の地位を承継したい」という申出があれば、その特定承継人が申請人の地位を引き継ぎます。
+
+申請が却下されるわけではありません。
 
 **たとえば**、リレーのバトンのように、途中で走者（＝土地の所有者）が交代しても、次の走者が「自分が引き継ぎます」と手を挙げれば、レース（＝筆界特定の手続）は止まらずそのまま続いていく、というイメージです。
 
@@ -38,15 +48,25 @@
 
 ### エ：提出資料を閲覧できるのは申請人と関係人に限られ、抵当権者は含まれない
 
-筆界特定の手続において作成された調書や、提出された資料の閲覧を請求できるのは、筆界特定の申請人および関係人に限られます（不動産登記法141条1項）。ここでいう「関係人」とは、対象土地の所有権登記名義人等のうち申請人以外の者、および関係土地の所有権登記名義人等をいいます（同法133条1項各号）。甲土地に抵当権を設定している抵当権の登記名義人は、この閲覧請求権者には含まれないため、提出資料を閲覧することはできません。
+筆界特定の手続において作成された調書や、提出された資料の閲覧を請求できるのは、筆界特定の申請人および関係人に限られます（不動産登記法141条1項）。
+
+ここでいう「関係人」とは、対象土地の所有権登記名義人等のうち申請人以外の者、および関係土地の所有権登記名義人等をいいます（同法133条1項各号）。
+
+甲土地に抵当権を設定している抵当権の登記名義人は、この閲覧請求権者には含まれないため、提出資料を閲覧することはできません。
 
 **たとえば**、土地を担保にお金を貸している抵当権者は、「その土地の境界がどこか」に関心はあっても、筆界特定の手続そのものの当事者ではないため、提出された資料をのぞき見る権利までは与えられていない、というイメージです。
 
 ### オ：表題部所有者も筆界特定の申請人になれる
 
-筆界特定の申請人になれるのは、対象土地の「所有権登記名義人等」です（不動産登記法131条1項）。所有権の登記がある土地ではその所有権の登記名義人、所有権の登記がない土地では表題部所有者、表題登記もない土地ではその所有者がこれにあたります（同法123条5号）。したがって、表題登記がある甲土地の表題部所有者は、隣接する乙土地との筆界について、筆界特定の申請をすることができます。
+筆界特定の申請人になれるのは、対象土地の「所有権登記名義人等」です（不動産登記法131条1項）。
+
+所有権の登記がある土地ではその所有権の登記名義人、所有権の登記がない土地では表題部所有者、表題登記もない土地ではその所有者がこれにあたります（同法123条5号）。
+
+したがって、表題登記がある甲土地の表題部所有者は、隣接する乙土地との筆界について、筆界特定の申請をすることができます。
 
 **たとえば**、まだ所有権の登記まではしていないけれど、表題部に「所有者はこの人」と記録されている土地であれば、その表題部所有者は、隣との境界について堂々と筆界特定を申請できる、というイメージです。
+
+---
 
 ### まとめ
 
@@ -68,7 +88,7 @@
 - 出典（令和3年度・午後の部・第19問）および正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 条文レベルで確認できた根拠：本記事の条文引用は、ローカル法令データベース（`note-articles/laws/fudousan-touki-hou.md`、2026-08-04取得の現行条文）で全て条文原文を確認済みです。エ（提出資料の閲覧請求権者を申請人・関係人に限る）は不動産登記法141条1項に明記されています。ア・オの申請人適格は、同法131条1項（「土地の所有権登記名義人等は…筆界特定の申請をすることができる」）と、その「所有権登記名義人等」を定義する123条5号（所有権の登記がある土地は所有権の登記名義人、登記がない土地は表題部所有者、表題登記もない土地は所有者。相続人その他の一般承継人を含むが、売買による特定承継人は含まない）を根拠としています。データベースのexplanationフィールドにあった「法123条5号」の引用は、この定義規定を指すものとして正確であったため、本記事では131条1項と併記する形に修正しました。
 - 一般原則・通達からの推論にとどまるもの：イ（地位承継の申出があれば却下されず続行）とウ（相続人が相続を証する情報で手続参加できる）は、条文そのものではなく平成17年12月6日民二第2760号通達を根拠としてデータベースに記録されているものです。通達の趣旨に沿った取扱いとして押さえてください。
-- 参考として、データベースのpitfalls欄には肢アを「正しい」と読める記述も一部含まれていましたが、検証済みの正解（ウオ＝4番）およびexplanationの正誤判定（ア＝誤り）と矛盾するため、本記事では肢アを「誤り」として扱っています。
+- 参考として、データベースのpitfalls欄にはアを「正しい」と読める記述も一部含まれていましたが、検証済みの正解（ウオ＝4番）およびexplanationの正誤判定（ア＝誤り）と矛盾するため、本記事ではアを「誤り」として扱っています。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。本記事は上記の検証済みデータベースと、一般的な条文・通達の知識のみに基づいて作成しています。
 
 ---
@@ -110,13 +130,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・相・続, which appear repeatedly below
+kanji 権・地・登・記・所・相・続, which appear repeatedly below
 and have Simplified Chinese variants that look similar but are wrong —
 always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -202,8 +240,8 @@ Conclusion tag (orange, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly,
 with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
@@ -212,12 +250,12 @@ every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance. Also confirm the three column labels (誰が申請人になれ
 るか／途中で所有者・相続人が変わったら／誰が資料を閲覧できるか) each
 appear exactly once above their own cards, in the correct color for
-their column.
+their column. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「所有権登記名義人等に該当するか」という1つの判定木を、ア（特定承継人・移転登記未了）・ウ（一般承継人＝相続人）・オ（表題部所有者）の3肢で共有し、各パネルでは自分の肢に関係する枝だけを太い縁取りで強調し、関係しない枝は薄いグレーで縮小表示した。イ（地位承継）は多段階の条件判定ではないため、リレーのバトンパスに沿ったタイムライン形式で手続の時系列を示した。エ（閲覧請求権者）は、一見「申請人か、それ以外か」の1回のチェックで済むように見えるが、本文解説を読み直すと「関係人」の定義が「対象土地の所有権登記名義人等のうち申請人以外の者」と「関係土地の所有権登記名義人等」という2つの独立した要素からなる隠れた条件であるため、この2要素を圧縮せず、別々の分岐として描く決定木にした。
 
@@ -239,7 +277,7 @@ representing the different forms of 所有権登記名義人等（登記名義�
 相続人などの一般承継人・売買による特定承継人・表題部所有者）, a counter
 with a red barrier for a blocked request, a filing cabinet for 提出資料, a
 meeting-room door for 意見聴取等の期日, a relay baton for 地位承継, and a
-red-barred figure for ていとう権者. Where a 肢 requires checking multiple
+red-barred figure for 抵当権者. Where a 肢 requires checking multiple
 conditions in sequence before reaching a conclusion, draw the panel's
 diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
@@ -269,7 +307,15 @@ required element (e.g. keep the two distinct components of 関係人 —
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -295,7 +341,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -327,7 +373,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 移転登記が先
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地位承継の申出で手続きはそのまま続く
@@ -350,7 +396,7 @@ and no stop sign, ending in a conclusion node reading 却下されない、手
 Conclusion tag (blue, 5-15 Japanese characters):
 却下されない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 相続人は登記なしで期日に出席できる
@@ -376,10 +422,10 @@ isometric figure labeled 相続人 holding a document labeled 相続を証する
 Conclusion tag (blue, 5-15 Japanese characters):
 相続登記は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in orange containing the number 4.
 Heading (bold, ONE line):
-ていとう権者は「関係人」に含まれない
+抵当権者は「関係人」に含まれない
 Diagram: A decision-tree flowchart with one root diamond labeled 提出資
 料の閲覧を求めているのは誰か, branching into four labeled paths (not a
 simple yes/no pair). Path 1: 申請人本人 → a conclusion node with a green
@@ -388,22 +434,22 @@ simple yes/no pair). Path 1: 申請人本人 → a conclusion node with a green
 reading 閲覧できる. Path 3: 関係土地の所有権登記名義人等 → labeled 関係
 人に該当 → a conclusion node with a green ✓ reading 閲覧できる. Path 4,
 drawn with a thick highlighted border and full color (this panel's
-focus): ていとう権の登記名義人 → labeled どの区分にも該当しない → a
+focus): 抵当権の登記名義人 → labeled どの区分にも該当しない → a
 conclusion node with a red ✕ reading 閲覧できない. Illustrate this with
 a filing cabinet labeled 提出資料; isometric figures for 申請人 and 関
 係人 stand beside it with green ✓ marks, allowed to look inside; a
-separate isometric figure labeled ていとう権者 stands outside a red barrier
+separate isometric figure labeled 抵当権者 stands outside a red barrier
 with a ✕ mark, unable to approach.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、閲覧を求めているのが申請人本人かを確認し、次に、申請人でなければ
 「関係人」（対象土地の所有権登記名義人等のうち申請人以外の者、または関
-係土地の所有権登記名義人等）のどちらかに当たるかを確認します。ていとう権の
+係土地の所有権登記名義人等）のどちらかに当たるかを確認します。抵当権の
 登記名義人は、このどちらにも当たらないため、提出資料を閲覧することはで
 きません。
 Conclusion tag (orange, 5-15 Japanese characters):
-ていとう権者は閲覧不可
+抵当権者は閲覧不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 表題部所有者も申請人になれる
@@ -432,9 +478,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 号（関係人の範囲）／141条1項（閲覧請求権者）に基づく
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to the kanji 号・録・権・登・記・所・相・続・抵・覧. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to the kanji 号・権・登・記・所・相・続・覧. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every

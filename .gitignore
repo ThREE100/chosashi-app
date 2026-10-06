@@ -25,3 +25,7 @@ __pycache__
 *.njsproj
 *.sln
 *.sw?
+
+# 一問一答ドリルの記録用worktree（drill-logブランチ）
+.drill-log/
+tools/drill/work/

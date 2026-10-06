@@ -2,31 +2,39 @@
 
 **出題年度：平成27年度　午後の部　第13問**
 
-> 建物の認定に関する次のアからオまでの記述のうち，登記することのできる建物として取り扱うことのできないものは，幾つあるか。
->
-> ア　内部に祭壇や参拝者が着席することができる設備があり，寺院の本堂として利用されている観音像
->
-> イ　屋根のある駅のホーム内にあり，コンクリートで基礎工事が施されている売店
->
-> ウ　屋根及び外壁があって，内部に車を格納する回転式のパーキング機械が設置されているタワー状の立体式駐車場
->
-> エ　公衆用道路上に屋根覆いを施したアーケード付街路
->
-> オ　屋根及び周壁の部分がガラスで覆われている半永久的な建造物と認められる農耕用の温床施設
->
+> 建物の認定に関する次のアからオまでの記述のうち，登記することのできる建物として取り扱うことのできないものは，幾つあるか。  
+>　  
+> ア　内部に祭壇や参拝者が着席することができる設備があり，寺院の本堂として利用されている観音像  
+>　  
+> イ　屋根のある駅のホーム内にあり，コンクリートで基礎工事が施されている売店  
+>　  
+> ウ　屋根及び外壁があって，内部に車を格納する回転式のパーキング機械が設置されているタワー状の立体式駐車場  
+>　  
+> エ　公衆用道路上に屋根覆いを施したアーケード付街路  
+>　  
+> オ　屋根及び周壁の部分がガラスで覆われている半永久的な建造物と認められる農耕用の温床施設  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
-「建物」として登記できるかどうかは、①外気分断性（屋根・周壁があること）、②定着性（土地に固定されていること）、③用途性（その目的に使える状態にあること）の3要件で判断します（登記実務上の建物認定基準）。見た目が変わった建造物でも、この3要件に当てはめて考えれば結論を導けます。
+---
+
+「建物」として登記できるかどうかは、①外気分断性（屋根・周壁があること）、②定着性（土地に固定されていること）、③用途性（その目的に使える状態にあること）の3要件で判断します（登記実務上の建物認定基準）。
+
+見た目が変わった建造物でも、この3要件に当てはめて考えれば結論を導けます。
 
 ### ア：礼拝設備のある観音像は、建物として取り扱われる
 
-内部に祭壇や参拝者が着席できる設備があり、寺院の本堂として利用されている観音像は、外形は像であっても、内部に人が入って礼拝するための空間・設備を備え、建物としての実質を持っています。先例上、建物として取り扱われます。したがって本肢は、登記できる建物に当たります。
+内部に祭壇や参拝者が着席できる設備があり、寺院の本堂として利用されている観音像は、外形は像であっても、内部に人が入って礼拝するための空間・設備を備え、建物としての実質を持っています。
+
+先例上、建物として取り扱われます。したがって本肢は、登記できる建物に当たります。
 
 **たとえば**、大きな観音像の内部が空洞になっていて、そこに祭壇が置かれ、参拝者が座って拝めるようになっているなら、その観音像はお堂と同じように建物として登記の対象になります。
 
 ### イ：駅のホーム内の売店は、独立性を欠くため建物として取り扱われない
 
-屋根があり、コンクリートで基礎工事が施された売店であっても、駅のホーム内にあるものは、停車場（駅）の一部であって独立した建物としての独立性を欠くため、建物として登記することができません。基礎がしっかりしていることと、独立の建物として扱えることは別問題です。
+屋根があり、コンクリートで基礎工事が施された売店であっても、駅のホーム内にあるものは、停車場（駅）の一部であって独立した建物としての独立性を欠くため、建物として登記することができません。
+
+基礎がしっかりしていることと、独立の建物として扱えることは別問題です。
 
 **たとえば**、駅のホームにコンクリート基礎でしっかり固定された売店があっても、それはホーム設備の一部として扱われ、単独で建物の登記をすることはできません。
 
@@ -44,9 +52,13 @@
 
 ### オ：ガラス張りの半永久的な温床施設は、建物として取り扱われる
 
-屋根および周壁の部分がガラスで覆われ、半永久的な建造物と認められる農耕用の温床施設は、外気分断性・定着性・用途性の要件を満たすため、建物として取り扱われます（準則77条（1）オ）。ただし、耐用年数がおおむね1年程度の簡易なビニールハウスなどは、この扱いから除かれます。
+屋根および周壁の部分がガラスで覆われ、半永久的な建造物と認められる農耕用の温床施設は、外気分断性・定着性・用途性の要件を満たすため、建物として取り扱われます（準則77条（1）オ）。
+
+ただし、耐用年数がおおむね1年程度の簡易なビニールハウスなどは、この扱いから除かれます。
 
 **たとえば**、ガラス張りでしっかりと作られ、長年使い続けられる構造の温床施設（温室）は建物として登記できますが、季節限定の簡易なビニールハウスは建物として扱われません。
+
+---
 
 ### まとめ
 
@@ -108,13 +120,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 観・音・像・祭・壇・礼・拝・立・体・駐・車・場・回・転・機・械・半・永・久・温・床・施・設・独・性・欠・駅・売・店・基・礎・街・路・道・付・属
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -195,18 +225,18 @@ these 5 headings):
 5. アーケード街路は道路の付属物
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 5肢すべてが「①外気分断性→②定着性→③用途性・独立性」という同一の3段階チェックを共有しているため、5枚のパネルで同じ決定木を使い回し、各パネルは自分の肢が実際にたどる枝（多くは③用途性・独立性の判定）だけを太い縁取り・フルカラーで強調し、それ以外の枝は薄いグレーで縮小表示する構成にした。オ肢のみ、③を満たした先にさらに「半永久的な構造か（耐用年数）」という追加の分岐があることを示す。
 
@@ -289,14 +319,14 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 観音像も独立した用途があれば建物
-Diagram: すべてのパネルで共通の3段のひし形決定木（①「屋根・周壁があるか
+Diagram: すべてのパネルで共通の3段の決定木（①「屋根・周壁があるか
 （外気分断性）」→②「土地に固定されているか（定着性）」→③「独立した用途に
-使える状態か（用途性・独立性）」）を描く。①と②は薄いグレーの点線縁取りで
+使える状態か（用途性・独立性）」）を描く。①と②は四角い確認ボックス（ひし形にしない）として薄いグレーの点線縁取りで
 小さく表示し、○の矢印で下へ流す。③のひし形だけを太い緑の縁取り・フルカラ
 ーで強調し、Yesの矢印（強調）が「建物として登記できる」という結論ノードへ
 進む。Noの矢印は薄いグレーで「建物として登記できない」という結論ノードへ
@@ -311,13 +341,12 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 独立用途あり→建物
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 駅ホームの売店は独立した用途性を欠く
-Diagram: パネル1と同じ3段の決定木を再掲する。①「屋根・周壁があるか」②
-「土地に固定されているか」は薄いグレーの点線縁取りで小さく表示し、○の矢印
+Diagram: パネル1と同じ3段の決定木を再掲する。①「屋根・周壁があるか」②「土地に固定されているか」は四角い確認ボックス（ひし形にしない）として薄いグレーの点線縁取りで小さく表示し、○の矢印
 で下へ流す。③「独立した用途に使える状態か」のひし形だけを太い青の縁取り・
 フルカラーで強調し、Noの矢印（強調）が「建物として登記できない」という結
 論ノードへ進む。Yesの矢印は薄いグレーで「建物として登記できる」という結論
@@ -332,13 +361,12 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 独立用途なし→不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 立体駐車場のタワーは用途性を満たし建物
-Diagram: パネル1・2と同じ3段の決定木を再掲する。①②は薄いグレーの点線縁
-取りで小さく表示する。③「独立した用途に使える状態か」のひし形を太い緑の
+Diagram: パネル1・2と同じ3段の決定木を再掲する。①②は四角い確認ボックス（ひし形にしない）として薄いグレーの点線縁取りで小さく表示する。③「独立した用途に使える状態か」のひし形を太い緑の
 縁取り・フルカラーで強調し、Yesの矢印（強調）が「建物として登記できる」と
 いう結論ノードへ進む。Noの矢印は薄いグレーで縮小表示する。決定木の脇に、
 屋根と外壁で囲われたタワー状の構造物を描き、内部に車を格納する回転式パー
@@ -351,13 +379,12 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 独立用途あり→建物
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 アーケードは道路の附属物で用途性を欠く
-Diagram: パネル1〜3と同じ3段の決定木を再掲する。①②は薄いグレーの点線縁
-取りで小さく表示する。③「独立した用途に使える状態か」のひし形を太い青の
+Diagram: パネル1〜3と同じ3段の決定木を再掲する。①②は四角い確認ボックス（ひし形にしない）として薄いグレーの点線縁取りで小さく表示する。③「独立した用途に使える状態か」のひし形を太い青の
 縁取り・フルカラーで強調し、Noの矢印（強調）が「建物として登記できない」
 という結論ノードへ進む。Yesの矢印は薄いグレーで縮小表示する。決定木の脇
 に、公衆用道路の上に屋根覆い（アーケード）が架かる商店街の通りを描き、歩
@@ -371,13 +398,12 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 独立用途なし→不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 半永久的な温床施設は用途性を満たし建物
-Diagram: パネル1〜4と同じ3段の決定木を再掲する。①②は薄いグレーの点線縁
-取りで小さく表示する。③「独立した用途に使える状態か」のひし形を太い緑の
+Diagram: パネル1〜4と同じ3段の決定木を再掲する。①②は四角い確認ボックス（ひし形にしない）として薄いグレーの点線縁取りで小さく表示する。③「独立した用途に使える状態か」のひし形を太い緑の
 縁取り・フルカラーで強調し、Yesの矢印（強調）は、他のパネルにはない追加
 のひし形「半永久的な構造か（耐用年数）」へ進む。この追加ノードも太い緑の
 縁取りで強調し、Yesの矢印が「建物として登記できる」という結論ノードへ進

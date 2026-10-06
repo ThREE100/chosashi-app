@@ -2,61 +2,101 @@
 
 **出題年度：平成19年度　午前の部　第9問**
 
-> 次の対話は、筆界特定制度に関する教授と学生との間の対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものの組合せは、後記１から５までのうちどれか。
->
-> 教授：　筆界特定制度とは、どのような制度ですか。
->
-> 学生：ア　土地の所有権登記名義人等の申請に基づき、筆界特定登記官が当該土地及びこれに隣接する他の土地について、筆界の現地における位置等を特定する制度です。
->
-> 教授：　表題部所有者の相続人や所有権の仮登記名義人は、申請をすることができますか。
->
-> 学生：イ　いずれも申請することができます。
->
-> 教授：　筆界特定の申請は、そのほか、どのような者がすることができますか。
->
-> 学生：ウ　所有権登記名義人から土地の全部を譲り受けた者も、代位原因を証する情報を提供して代位申請をすることができます。
->
-> 教授：　筆界特定の対象となる筆界について、既に筆界特定登記官による筆界特定がされている場合には、新たに当該土地の所有権の登記名義人となった者は、当該筆界について改めて筆界特定の申請をすることができますか。
->
-> 学生：エ　新たな所有権の登記名義人は、筆界特定の申請をすることができます。
->
-> 教授：　筆界特定の結果について不服がある場合には、申請人は、審査請求をすることができますか。
->
-> 学生：オ　いいえ。筆界特定は、筆界特定登記官が、筆界についての認識判断を示すものので、行政処分には当たりませんので、審査請求をすることはできません。ただ、不服がある場合には、民事訴訟の手続により筆界の確定を求める訴えを提起することができます。
->
+> 次の対話は、筆界特定制度に関する教授と学生との間の対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものの組合せは、後記１から５までのうちどれか。  
+>　  
+> 教授：　筆界特定制度とは、どのような制度ですか。  
+>　  
+> 学生：ア　土地の所有権登記名義人等の申請に基づき、筆界特定登記官が当該土地及びこれに隣接する他の土地について、筆界の現地における位置等を特定する制度です。  
+>　  
+> 教授：　表題部所有者の相続人や所有権の仮登記名義人は、申請をすることができますか。  
+>　  
+> 学生：イ　いずれも申請することができます。  
+>　  
+> 教授：　筆界特定の申請は、そのほか、どのような者がすることができますか。  
+>　  
+> 学生：ウ　所有権登記名義人から土地の全部を譲り受けた者も、代位原因を証する情報を提供して代位申請をすることができます。  
+>　  
+> 教授：　筆界特定の対象となる筆界について、既に筆界特定登記官による筆界特定がされている場合には、新たに当該土地の所有権の登記名義人となった者は、当該筆界について改めて筆界特定の申請をすることができますか。  
+>　  
+> 学生：エ　新たな所有権の登記名義人は、筆界特定の申請をすることができます。  
+>　  
+> 教授：　筆界特定の結果について不服がある場合には、申請人は、審査請求をすることができますか。  
+>　  
+> 学生：オ　いいえ。筆界特定は、筆界特定登記官が、筆界についての認識判断を示すものので、行政処分には当たりませんので、審査請求をすることはできません。ただ、不服がある場合には、民事訴訟の手続により筆界の確定を求める訴えを提起することができます。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-「筆界特定制度」は、隣接地との境界（筆界）がどこにあるかを、裁判ではなく法務局の手続で明らかにしてもらう制度です。試験では「誰が申請できるか」「一度特定された筆界に再度申請できるか」「結果に不服があるときの手段」の3点セットで問われることが多く、この問題もまさにその典型です。教授と学生の対話形式ですが、学生ア〜オの発言をそれぞれ通常の記述問題の肢として検討していきます。
+---
+
+「筆界特定制度」は、隣接地との境界（筆界）がどこにあるかを、裁判ではなく法務局の手続で明らかにしてもらう制度です。
+
+試験では「誰が申請できるか」「一度特定された筆界に再度申請できるか」「結果に不服があるときの手段」の3点セットで問われることが多く、この問題もまさにその典型です。
+
+教授と学生の対話形式ですが、学生ア〜オの発言をそれぞれ通常の記述問題の肢として検討していきます。
 
 ### ア：筆界特定は、所有権登記名義人等の申請に基づき筆界特定登記官が現地の筆界を特定する制度
 
-不動産登記法123条2号は、筆界特定を「一筆の土地及びこれに隣接する他の土地について、この章の定めるところにより、筆界の現地における位置を特定すること（その位置を特定することができないときは、その位置の範囲を特定すること）」と定義しています。この手続を行うのは筆界特定登記官であり（同法125条）、申請をすることができるのは土地の所有権登記名義人等です（同法131条1項）。学生アの説明は、この「所有権登記名義人等の申請」「筆界特定登記官」「当該土地及び隣接する他の土地」「現地における筆界の位置の特定」という要素を正しく押さえており、制度の説明として正しいといえます。
+不動産登記法123条2号は、筆界特定を「一筆の土地及びこれに隣接する他の土地について、この章の定めるところにより、筆界の現地における位置を特定すること（その位置を特定することができないときは、その位置の範囲を特定すること）」と定義しています。
 
-**たとえば**、Aさんが自分の土地とBさんの土地の境界（筆界）がどこにあるか分からず困っているとき、Aさん（所有権の登記名義人）が法務局に申請すれば、筆界調査委員の調査や意見を踏まえて、筆界特定登記官が「ここが筆界です」と現地の位置を示してくれます。これがまさに筆界特定制度の基本形です。
+この手続を行うのは筆界特定登記官であり（同法125条）、申請をすることができるのは土地の所有権登記名義人等です（同法131条1項）。
+
+学生アの説明は、この「所有権登記名義人等の申請」「筆界特定登記官」「当該土地及び隣接する他の土地」「現地における筆界の位置の特定」という要素を正しく押さえており、制度の説明として正しいといえます。
+
+**たとえば**、Aさんが自分の土地とBさんの土地の境界（筆界）がどこにあるか分からず困っているとき、Aさん（所有権の登記名義人）が法務局に申請すれば、筆界調査委員の調査や意見を踏まえて、筆界特定登記官が「ここが筆界です」と現地の位置を示してくれます。
+
+これがまさに筆界特定制度の基本形です。
 
 ### イ：表題部所有者の相続人は申請できるが、所有権の仮登記名義人は申請適格者に含まれない
 
-不動産登記法123条5号は、「所有権登記名義人等」を、所有権の登記がある土地については所有権の登記名義人、所有権の登記がない土地については表題部所有者、表題登記がない土地については所有者をいい、所有権の登記名義人又は表題部所有者の相続人その他の一般承継人を含むものと定義しています。筆界特定の申請をすることができるのは、この所有権登記名義人等に限られます（同法131条1項）。つまり、表題部所有者の相続人は「一般承継人」として申請適格者に含まれます。一方で、所有権の登記に関する仮登記名義人は、いまだ本登記による確定的な所有権を有していないため、この「所有権登記名義人等」には含まれず、申請適格者とはなりません（担保権者や用益権者も同様に含まれません）。学生イは「いずれも申請することができます」と答えていますが、仮登記名義人については誤りです。
+不動産登記法123条5号は、「所有権登記名義人等」を、所有権の登記がある土地については所有権の登記名義人、所有権の登記がない土地については表題部所有者、表題登記がない土地については所有者をいい、所有権の登記名義人又は表題部所有者の相続人その他の一般承継人を含むものと定義しています。
 
-**たとえば**、亡くなった父Aが登記名義人だった土地について、その子Bが相続した場合、Bはまだ相続登記（所有権移転登記）を済ませていなくても、表題部所有者・登記名義人の「相続人」として筆界特定を申請できます。これに対し、Cが「将来この土地を買う予定」で所有権移転の仮登記だけを備えているような場合、Cはまだ確定的な所有権登記名義人ではないので、筆界特定を申請することはできません。
+筆界特定の申請をすることができるのは、この所有権登記名義人等に限られます（同法131条1項）。つまり、表題部所有者の相続人は「一般承継人」として申請適格者に含まれます。
+
+一方で、所有権の登記に関する仮登記名義人は、いまだ本登記による確定的な所有権を有していないため、この「所有権登記名義人等」には含まれず、申請適格者とはなりません（担保権者や用益権者も同様に含まれません）。
+
+学生イは「いずれも申請することができます」と答えていますが、仮登記名義人については誤りです。
+
+**たとえば**、亡くなった父Aが登記名義人だった土地について、その子Bが相続した場合、Bはまだ相続登記（所有権移転登記）を済ませていなくても、表題部所有者・登記名義人の「相続人」として筆界特定を申請できます。
+
+これに対し、Cが「将来この土地を買う予定」で所有権移転の仮登記だけを備えているような場合、Cはまだ確定的な所有権登記名義人ではないので、筆界特定を申請することはできません。
 
 ### ウ：所有権の登記名義人等以外の者は、代位によって筆界特定を申請することはできない
 
-筆界特定の申請をすることができるのは、不動産登記法131条1項により「所有権登記名義人等」（同法123条5号に定める所有権の登記名義人・表題部所有者・未登記地の所有者、及びこれらの相続人その他の一般承継人）に限られており、担保権者や用益権者はもちろん、所有権登記名義人に代位して申請することも認められていません。実体上は土地の全部の所有権を取得していても、所有権移転登記を済ませていない者は、原則として自らの名で申請することができず、これを「代位申請」という構成で回避することも制度上予定されていません（土地の一部について所有権を取得し、その取得を証明できる場合に限られた特則があるとされますが、これも登記名義人に代位する構成ではありません）。学生ウの「代位原因を証する情報を提供して代位申請をすることができる」という説明は誤りです。
+筆界特定の申請をすることができるのは、不動産登記法131条1項により「所有権登記名義人等」（同法123条5号に定める所有権の登記名義人・表題部所有者・未登記地の所有者、及びこれらの相続人その他の一般承継人）に限られており、担保権者や用益権者はもちろん、所有権登記名義人に代位して申請することも認められていません。
 
-**たとえば**、DさんがEさん（所有権の登記名義人）から土地を全部買ったものの、まだ所有権移転登記をしていない場合、Dさんは自分の名前で直接申請することもできませんし、「Eさんに代わって代位で申請する」という方法も認められていません。この場合、Dさんはまず所有権移転登記を済ませてから、自ら登記名義人として申請する必要があります。
+実体上は土地の全部の所有権を取得していても、所有権移転登記を済ませていない者は、原則として自らの名で申請することができず、これを「代位申請」という構成で回避することも制度上予定されていません（土地の一部について所有権を取得し、その取得を証明できる場合に限られた特則があるとされますが、これも登記名義人に代位する構成ではありません）。
+
+学生ウの「代位原因を証する情報を提供して代位申請をすることができる」という説明は誤りです。
+
+**たとえば**、DさんがEさん（所有権の登記名義人）から土地を全部買ったものの、まだ所有権移転登記をしていない場合、Dさんは自分の名前で直接申請することもできませんし、「Eさんに代わって代位で申請する」という方法も認められていません。
+
+この場合、Dさんはまず所有権移転登記を済ませてから、自ら登記名義人として申請する必要があります。
 
 ### エ：既に筆界特定がされた筆界について、新たな登記名義人が改めて申請しても、原則として却下される
 
-不動産登記法132条1項7号は、対象土地の筆界について既に筆界特定登記官による筆界特定がされているときは、その筆界について改めて筆界特定の申請をすることができない旨を、申請の却下事由として定めています（申請があっても筆界特定登記官は理由を付した決定で却下しなければなりません）。この却下事由は申請人が誰であるかによって左右されるものではなく、その後に新たに所有権の登記名義人となった者が申請したとしても、原則として同じく却下の対象となります（資料が偽造されていた場合など、更に筆界特定をする特段の必要があると認められる場合に限り例外的に許容されるにとどまります）。学生エの「新たな所有権の登記名義人は、筆界特定の申請をすることができます」という一般化した説明は誤りです。
+不動産登記法132条1項7号は、対象土地の筆界について既に筆界特定登記官による筆界特定がされているときは、その筆界について改めて筆界特定の申請をすることができない旨を、申請の却下事由として定めています（申請があっても筆界特定登記官は理由を付した決定で却下しなければなりません）。
 
-**たとえば**、F所有の土地について既に一度筆界特定がされていたとします。その後この土地をGが買って新しい登記名義人になったとしても、Gが「もう一度特定してほしい」と申請しても、偽造資料が使われていたなどの特段の事情がない限り、その申請は却下されてしまいます。
+この却下事由は申請人が誰であるかによって左右されるものではなく、その後に新たに所有権の登記名義人となった者が申請したとしても、原則として同じく却下の対象となります（資料が偽造されていた場合など、更に筆界特定をする特段の必要があると認められる場合に限り例外的に許容されるにとどまります）。
+
+学生エの「新たな所有権の登記名義人は、筆界特定の申請をすることができます」という一般化した説明は誤りです。
+
+**たとえば**、F所有の土地について既に一度筆界特定がされていたとします。
+
+その後この土地をGが買って新しい登記名義人になったとしても、Gが「もう一度特定してほしい」と申請しても、偽造資料が使われていたなどの特段の事情がない限り、その申請は却下されてしまいます。
 
 ### オ：筆界特定の結果に不服があっても審査請求はできず、不服があれば筆界確定訴訟による
 
-行政不服審査法上、審査請求は行政庁の「処分」を対象とする制度です。不動産登記法156条は登記官の処分についての審査請求を定めていますが、筆界特定は、筆界特定登記官が専門的知見を踏まえて筆界についての事実上の認識・判断を示すものであって、権利義務を確定的に変動させる行政処分には当たらないと解されています。したがって、そもそも審査請求の対象となる「処分」に当たらず、筆界特定の結果自体に不服があっても審査請求をすることはできません。不服がある者は、民事訴訟である筆界確定訴訟を提起して、裁判所の判断によって筆界を確定させる必要があります。学生オの説明はこの理解と整合しており正しいといえます。
+行政不服審査法上、審査請求は行政庁の「処分」を対象とする制度です。
+
+不動産登記法156条は登記官の処分についての審査請求を定めていますが、筆界特定は、筆界特定登記官が専門的知見を踏まえて筆界についての事実上の認識・判断を示すものであって、権利義務を確定的に変動させる行政処分には当たらないと解されています。
+
+したがって、そもそも審査請求の対象となる「処分」に当たらず、筆界特定の結果自体に不服があっても審査請求をすることはできません。
+
+不服がある者は、民事訴訟である筆界確定訴訟を提起して、裁判所の判断によって筆界を確定させる必要があります。学生オの説明はこの理解と整合しており正しいといえます。
 
 **たとえば**、Hさんが筆界特定の結果に納得できなかったとしても、「この特定は間違っている」として法務局に審査請求をすることはできません。Hさんが本当に筆界を争いたいのであれば、裁判所に筆界確定訴訟という民事訴訟を提起する必要があります。
+
+---
 
 ### まとめ
 
@@ -128,11 +168,19 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 筆・界・登・記・号・却・審・査・訴・仮・代・位・申・請・所・相・続 — these
+kanji 筆・界・登・記・却・審・査・訴・仮・代・位・申・請・所・相・続 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
@@ -223,8 +271,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -241,7 +289,7 @@ channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、ア〜オの各肢についてどんな図を描き、どの順番で条件を確認すればよいかを示す5パネルの作図ガイド。ア（制度の定義）は4つの構成要素を順に照合する決定木、イ（申請適格）とオ（不服申立ての手段）は「該当するか／当たるか」という1つの分岐点から2つの現実の結論に枝分かれする決定木、ウ（代位申請の可否）とエ（二重申請の却下事由）は移転登記の完了有無・特段の事情の有無という段階的な条件を確認する決定木として、それぞれ構成する。
 
@@ -324,23 +372,24 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 四要素がすべて一致すれば正しい
 Diagram: A single isometric figure labeled 学生ア holds up a speech-bubble
 document containing the description text, feeding into a vertical
-decision flowchart of four diamond-shaped check nodes stacked top to
-bottom, each connected by a downward ○ arrow: (1) a diamond labeled
+checklist of four rectangular check boxes (NOT diamonds — each box is a
+definition element to match, not a branch) stacked top to bottom, each
+connected by a downward arrow and each carrying a small green ✓: (1) a box labeled
 「申請人は所有権登記名義人等か」 next to a small icon of a person handing an
-application document through a 法務局 counter window; (2) a diamond
+application document through a 法務局 counter window; (2) a box
 labeled 「判断するのは筆界特定登記官か」 next to an isometric official
-wearing a name badge reading 筆界特定登記官; (3) a diamond labeled
+wearing a name badge reading 筆界特定登記官; (3) a box labeled
 「対象は当該土地及び隣接する他の土地か」 next to two adjacent isometric land
-plots connected by a red dashed boundary line; (4) a diamond labeled
+plots connected by a red dashed boundary line; (4) a box labeled
 「内容は現地における筆界の位置の特定か」 next to a magnifying glass hovering
-over the dashed boundary line. After all four diamonds, a final green
+over the dashed boundary line. After all four boxes, a final green
 conclusion node with a checkmark reading 「定義と一致」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず申請人が誰かを確認し、次に判断する機関、対象となる土地、特定する内容の
@@ -350,7 +399,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 定義どおりで正しい
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 相続人は該当、仮登記名義人は非該当
@@ -373,7 +422,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 仮登記名義人は対象外
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in orange containing the number 3.
 Heading (bold, ONE line):
 移転登記が未了なら代位でも不可
@@ -395,7 +444,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 移転登記が先
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in purple containing the number 4.
 Heading (bold, ONE line):
 名義人が変わっても再申請は却下
@@ -420,7 +469,7 @@ Conclusion tag (a short colored banner/pill, purple, 5-15 Japanese
 characters):
 再度の申請は原則却下
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 審査請求は不可、争うなら訴訟へ

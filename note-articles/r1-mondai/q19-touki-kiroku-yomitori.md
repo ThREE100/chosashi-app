@@ -2,66 +2,101 @@
 
 **出題年度：令和元年度　午後の部　第19問**
 
-> 令和元年10月18日現在において次のような登記事項の記録（抜粋）がある甲土地及び乙土地に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
-> なお、甲土地及び乙土地は、いずれも、不動産登記規則第10条第2項第1号の市街地地域に属し、その地番区域及び所有権の登記名義人が同一であり、また、乙区に記録されている事項はないものとする。
->
-> （甲土地の登記記録）
->
-> - 地番 2番／地目 宅地／地積 170.00㎡　―　③錯誤、地図作成〔平成18年12月28日〕
-> - 地番 2番1／地積 66.11㎡　―　①③2番1、2番2に分筆〔平成19年3月22日〕
-> - 地積 301.06㎡　―　③3番2、6番を合筆〔平成22年6月1日〕
-> - 地積 304.06㎡　―　③3番3を合筆〔平成27年9月9日〕
->
-> （乙土地の登記記録）
->
-> - 地番 3番／地目 宅地／地積 170.01㎡　―　③錯誤、地図作成〔平成18年12月28日〕
-> - 地番 3番1／地積 125.00㎡　―　①③3番1、3番2に分筆〔平成19年3月22日〕
-> - 地積 305.05㎡　―　③5番を合筆〔平成22年6月1日〕
-> - 地積 302.05㎡　―　③3番1、3番3に分筆〔平成27年9月2日〕
->
-> ア　令和元年10月18日の時点において、甲土地の範囲には、平成22年6月1日の合筆の登記による登記記録の閉鎖時における6番の土地に相当する部分の全部が必ず含まれる。
->
-> イ　令和元年10月18日の時点において、乙土地の範囲には、平成22年6月1日の合筆の登記による登記記録の閉鎖時における5番の土地に相当する部分の全部が必ず含まれる。
->
-> ウ　3番3の土地について、平成27年9月2日の分筆の登記による登記記録の作成時から平成27年9月9日に甲土地に合筆する合筆の登記がされるまでの間に分筆の登記及び合筆の登記がされていないときは、令和元年10月18日の時点において、甲土地と乙土地は隣接している。
->
-> エ　2番2の土地について、平成19年3月22日の分筆の登記による登記記録の作成時から令和元年10月18日までの間に分筆の登記及び合筆の登記がされていないときは、平成19年3月22日の分筆の登記によって創設された甲土地と2番2の土地の筆界は、令和元年10月18日の時点において存在している。
->
-> オ　3番2の土地について、その登記記録の作成時から平成22年6月1日に甲土地に合筆する合筆の登記がされるまでの間に合筆の登記がされていないときは、平成22年6月1日の合筆の登記による登記記録の閉鎖時における5番の土地の登記記録上の地積は、平成22年6月1日の合筆の登記による登記記録の閉鎖時における6番の土地の登記記録上の地積よりも大きい。
->
+> 令和元年10月18日現在において次のような登記事項の記録（抜粋）がある甲土地及び乙土地に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> なお、甲土地及び乙土地は、いずれも、不動産登記規則第10条第2項第1号の市街地地域に属し、その地番区域及び所有権の登記名義人が同一であり、また、乙区に記録されている事項はないものとする。  
+>　  
+> （甲土地の登記記録）  
+>　  
+> - 地番 2番／地目 宅地／地積 170.00㎡　―　③錯誤、地図作成〔平成18年12月28日〕  
+>　  
+> - 地番 2番1／地積 66.11㎡　―　①③2番1、2番2に分筆〔平成19年3月22日〕  
+>　  
+> - 地積 301.06㎡　―　③3番2、6番を合筆〔平成22年6月1日〕  
+>　  
+> - 地積 304.06㎡　―　③3番3を合筆〔平成27年9月9日〕  
+>　  
+> （乙土地の登記記録）  
+>　  
+> - 地番 3番／地目 宅地／地積 170.01㎡　―　③錯誤、地図作成〔平成18年12月28日〕  
+>　  
+> - 地番 3番1／地積 125.00㎡　―　①③3番1、3番2に分筆〔平成19年3月22日〕  
+>　  
+> - 地積 305.05㎡　―　③5番を合筆〔平成22年6月1日〕  
+>　  
+> - 地積 302.05㎡　―　③3番1、3番3に分筆〔平成27年9月2日〕  
+>　  
+> ア　令和元年10月18日の時点において、甲土地の範囲には、平成22年6月1日の合筆の登記による登記記録の閉鎖時における6番の土地に相当する部分の全部が必ず含まれる。  
+>　  
+> イ　令和元年10月18日の時点において、乙土地の範囲には、平成22年6月1日の合筆の登記による登記記録の閉鎖時における5番の土地に相当する部分の全部が必ず含まれる。  
+>　  
+> ウ　3番3の土地について、平成27年9月2日の分筆の登記による登記記録の作成時から平成27年9月9日に甲土地に合筆する合筆の登記がされるまでの間に分筆の登記及び合筆の登記がされていないときは、令和元年10月18日の時点において、甲土地と乙土地は隣接している。  
+>　  
+> エ　2番2の土地について、平成19年3月22日の分筆の登記による登記記録の作成時から令和元年10月18日までの間に分筆の登記及び合筆の登記がされていないときは、平成19年3月22日の分筆の登記によって創設された甲土地と2番2の土地の筆界は、令和元年10月18日の時点において存在している。  
+>　  
+> オ　3番2の土地について、その登記記録の作成時から平成22年6月1日に甲土地に合筆する合筆の登記がされるまでの間に合筆の登記がされていないときは、平成22年6月1日の合筆の登記による登記記録の閉鎖時における5番の土地の登記記録上の地積は、平成22年6月1日の合筆の登記による登記記録の閉鎖時における6番の土地の登記記録上の地積よりも大きい。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-登記記録の「原因及びその日付」欄には、その土地が分筆・合筆でどう変化してきたかの履歴が刻まれています。この問題は、甲土地・乙土地の履歴を時系列で追い、合筆で「取り込まれた部分」がその後の分筆で「抜けていないか」、地積の差から「消えた土地・加わった土地の面積」を逆算できるかを問う応用問題です。まず両土地の動きを整理しましょう。甲土地は、2番→（分筆で2番1・2番2）→2番1に3番2と6番を合筆（301.06㎡）→さらに3番3を合筆（304.06㎡）。乙土地は、3番→（分筆で3番1・3番2）→3番1に5番を合筆（305.05㎡）→その後3番1から3番3を分筆（302.05㎡）と動いています。
+---
+
+登記記録の「原因及びその日付」欄には、その土地が分筆・合筆でどう変化してきたかの履歴が刻まれています。
+
+この問題は、甲土地・乙土地の履歴を時系列で追い、合筆で「取り込まれた部分」がその後の分筆で「抜けていないか」、地積の差から「消えた土地・加わった土地の面積」を逆算できるかを問う応用問題です。
+
+まず両土地の動きを整理しましょう。甲土地は、2番→（分筆で2番1・2番2）→2番1に3番2と6番を合筆（301.06㎡）→さらに3番3を合筆（304.06㎡）。
+
+乙土地は、3番→（分筆で3番1・3番2）→3番1に5番を合筆（305.05㎡）→その後3番1から3番3を分筆（302.05㎡）と動いています。
 
 ### ア：合筆後に分筆されていない甲土地は、6番の全部を含んでいる（正しい）
 
-甲土地は、平成22年6月1日の合筆で6番の土地を取り込み（このとき6番の登記記録は閉鎖されます）、その後の甲土地では平成27年9月9日に3番3を合筆しただけで、分筆の登記はされていません。合筆は複数の土地を一つにまとめる操作なので、取り込まれた6番の部分は甲土地の中に丸ごと残ります。その後に甲土地から分筆がされていない以上、甲土地の範囲には閉鎖時の6番に相当する部分の全部が必ず含まれます。本肢は正しい記述です。
+甲土地は、平成22年6月1日の合筆で6番の土地を取り込み（このとき6番の登記記録は閉鎖されます）、その後の甲土地では平成27年9月9日に3番3を合筆しただけで、分筆の登記はされていません。
+
+合筆は複数の土地を一つにまとめる操作なので、取り込まれた6番の部分は甲土地の中に丸ごと残ります。その後に甲土地から分筆がされていない以上、甲土地の範囲には閉鎖時の6番に相当する部分の全部が必ず含まれます。本肢は正しい記述です。
 
 **たとえば**、いくつかの土地をひとまとめにした後、一度も切り分けていなければ、まとめる前の各土地はそっくりそのまま新しい土地の中に含まれています。甲土地における6番はまさにこの状態です。
 
 ### イ：乙土地は合筆後に分筆されているため、5番の全部を含むとは限らない（誤り）
 
-乙土地は、平成22年6月1日の合筆で5番の土地を取り込みました（305.05㎡）。しかし、その後の平成27年9月2日に、乙土地（3番1）から3番3を分割する分筆の登記がされています。合筆でいったん取り込んだ5番の部分が、この分筆で切り出された3番3の側に含まれてしまう可能性を否定できません。したがって、乙土地の範囲に閉鎖時の5番に相当する部分の「全部が必ず含まれる」とは言えず、本肢は誤りです（甲土地の肢アとの決定的な違いはここにあります）。
+乙土地は、平成22年6月1日の合筆で5番の土地を取り込みました（305.05㎡）。しかし、その後の平成27年9月2日に、乙土地（3番1）から3番3を分割する分筆の登記がされています。
+
+合筆でいったん取り込んだ5番の部分が、この分筆で切り出された3番3の側に含まれてしまう可能性を否定できません。
+
+したがって、乙土地の範囲に閉鎖時の5番に相当する部分の「全部が必ず含まれる」とは言えず、本肢は誤りです（甲土地のアとの決定的な違いはここにあります）。
 
 **たとえば**、いくつかの土地をまとめた後で一部を切り分けて別の地番にしたなら、まとめる前のある土地の面積が、残った側に丸ごと残っているとは限りません。切り分けた側にまたがっているかもしれないのです。
 
 ### ウ：乙土地から分けた3番3を甲土地に合筆したなら、甲と乙は隣接している（正しい）
 
-合筆ができるのは、相互に接続している土地に限られます（不登法41条1号）。図面上つながっていても、現地で接続が確認できなければ合筆はできません。3番3は乙土地（3番1）から平成27年9月2日に分割された土地で、それを平成27年9月9日に甲土地へ合筆しています。合筆できたということは、3番3と甲土地が接続していたということです。そして3番3はもともと乙土地の一部だったのですから、甲土地と乙土地は令和元年10月18日の時点で隣接していることになります。本肢は正しい記述です。
+合筆ができるのは、相互に接続している土地に限られます（不登法41条1号）。図面上つながっていても、現地で接続が確認できなければ合筆はできません。
+
+3番3は乙土地（3番1）から平成27年9月2日に分割された土地で、それを平成27年9月9日に甲土地へ合筆しています。合筆できたということは、3番3と甲土地が接続していたということです。
+
+そして3番3はもともと乙土地の一部だったのですから、甲土地と乙土地は令和元年10月18日の時点で隣接していることになります。本肢は正しい記述です。
 
 **たとえば**、隣り合っていない土地どうしは一つにまとめられません。乙から切り出した土地を甲にくっつけられたということは、その切り出した部分を通じて甲と乙が接していた証拠になります。
 
 ### エ：分筆で創設された筆界は、その後変動がなければ存続している（正しい）
 
-筆界とは、表題登記のある一筆の土地と隣接する他の土地との間で、その土地が登記されたときに境を構成するものとされた点と直線をいいます（不登法123条1号）。平成19年3月22日の分筆で創設された、甲土地（2番1）と2番2の土地との筆界は、その後2番2について分筆・合筆の登記がされていない限り、消えることなく令和元年10月18日の時点でも存在しています。本肢は正しい記述です。
+筆界とは、表題登記のある一筆の土地と隣接する他の土地との間で、その土地が登記されたときに境を構成するものとされた点と直線をいいます（不登法123条1号）。
+
+平成19年3月22日の分筆で創設された、甲土地（2番1）と2番2の土地との筆界は、その後2番2について分筆・合筆の登記がされていない限り、消えることなく令和元年10月18日の時点でも存在しています。本肢は正しい記述です。
 
 **たとえば**、一つの土地を二つに切り分けたときに引かれた境界線は、その後さらに切ったりくっつけたりしなければ、そのまま境界として残り続けます。
 
 ### オ：計算すると6番（189.94㎡）が5番（180.05㎡）より大きい（誤り）
 
-各筆の地積を、地積の増減から逆算します。まず乙土地では、平成22年6月1日の合筆で地積が305.05－125.00＝180.05㎡増えているので、5番の地積は180.05㎡です。次に、乙土地の平成19年3月22日の分筆で地積が170.01－125.00＝45.01㎡減っているので、切り出された3番2の地積は45.01㎡です。一方、甲土地では平成22年6月1日の合筆で地積が301.06－66.11＝234.95㎡増えており、これは3番2と6番の合計です。3番2が45.01㎡なので、6番＝234.95－45.01＝189.94㎡と分かります。よって6番（189.94㎡）＞5番（180.05㎡）であり、「5番の地積が6番より大きい」とする本肢は誤りです。
+各筆の地積を、地積の増減から逆算します。まず乙土地では、平成22年6月1日の合筆で地積が305.05－125.00＝180.05㎡増えているので、5番の地積は180.05㎡です。
+
+次に、乙土地の平成19年3月22日の分筆で地積が170.01－125.00＝45.01㎡減っているので、切り出された3番2の地積は45.01㎡です。
+
+一方、甲土地では平成22年6月1日の合筆で地積が301.06－66.11＝234.95㎡増えており、これは3番2と6番の合計です。
+
+3番2が45.01㎡なので、6番＝234.95－45.01＝189.94㎡と分かります。よって6番（189.94㎡）＞5番（180.05㎡）であり、「5番の地積が6番より大きい」とする本肢は誤りです。
 
 **たとえば**、合筆の前後で登記簿の地積がいくつ増えたかを見れば、取り込まれた土地の面積が分かります。増えた分を足し引きしていくことで、登記簿に直接は書かれていない旧5番・旧6番の面積まで計算で突き止められるのです。
+
+---
 
 ### まとめ
 
@@ -82,10 +117,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和元年度午後第19問）・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ウ（合筆の要件としての相互接続＝不登法41条1号）とエ（筆界の定義＝不登法123条1号）は、データベースのexplanationフィールドで条文番号まで確認できたものです。オの地積計算（5番＝180.05㎡、3番2＝45.01㎡、6番＝189.94㎡）は、掲載した登記記録の地積の増減から逐一算出したもので、データベースのpitfalls（検証済み）の計算過程と一致しています。ア・イ（合筆後の分筆の有無による「全部が含まれるか否か」の違い）は、合筆・分筆の性質からの論理的推論に基づく判定です。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（登記記録の読み取り、合筆・分筆の履歴からの範囲・地積の判断）と同一・類似の問題が再出題されていないかを確認しました。候補は令和2年度第15問（敷地権付き区分建物の登記記録の穴埋め）・令和4年度第4問（登記記録等の保存期間）・令和5年度第5問（表題部の登記記録の作成要否）・令和5年度第14問（建物の表示登記の添付情報）・令和7年度第5問（保存期間が永久の登記記録等）の5問でしたが、いずれも「登記記録」「分筆」「合筆」等のキーワードで拾われた機械的な一致にとどまり、本問が扱う「合筆で取り込まれた部分がその後の分筆で抜け落ちていないかの判断」「地積の増減からの逆算」「筆界の存続」「隣接性の判断」という具体的な応用論点とは異なります。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：ウの根拠である不登法41条1号（合筆の制限＝相互接続要件）、エの根拠である不登法123条1号（筆界の定義）についてWebSearchで再確認しましたが、令和元年の出題当時から条文番号・内容ともに変更は見つかりませんでした。オの地積計算は条文解釈ではなく登記記録の数値からの機械的な逆算であり、法改正の影響を受けません。修正は行っていません。
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベースで肢ウ（不登法41条1号＝合筆の要件としての相互接続）と肢エ（不登法123条1号＝筆界の定義）の条文を改めて突き合わせ、本文の記載どおりであることを確認しました。肢オの地積計算（5番＝180.05㎡、3番2＝45.01㎡、6番＝189.94㎡）も検算し、6番＞5番となる結論に誤りはありませんでした。正解番号（takuitsu.jsonのcorrectAnswer＝4）とまとめの判定も一致しています。表形式の残存・判例先例番号の本文記載・文体の不統一・タイトル文字数超過は見つかりませんでした。修正の必要はありませんでした。正誤判定・正解の組合せに変更はありません。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。ローカル法令データベースでウ（不登法41条1号＝合筆の要件としての相互接続）とエ（不登法123条1号＝筆界の定義）の条文を改めて突き合わせ、本文の記載どおりであることを確認しました。オの地積計算（5番＝180.05㎡、3番2＝45.01㎡、6番＝189.94㎡）も検算し、6番＞5番となる結論に誤りはありませんでした。正解番号（takuitsu.jsonのcorrectAnswer＝4）とまとめの判定も一致しています。表形式の残存・判例先例番号の本文記載・文体の不統一・タイトル文字数超過は見つかりませんでした。修正の必要はありませんでした。正誤判定・正解の組合せに変更はありません。
 
 ---
 
@@ -125,7 +160,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -135,6 +178,16 @@ chiban numbers (such as 2番, 3番, 5番, 6番) anywhere in the artwork — use
 only the generic labels "土地A" and "土地B" given below, since this card
 set is a deliberately abstracted, generalized version of the underlying
 problem.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -210,8 +263,8 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 without resetting, confirm that no specific chiban numbers (2番, 3番,
@@ -219,12 +272,12 @@ without resetting, confirm that no specific chiban numbers (2番, 3番,
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「合筆で取り込んだ土地が、その後の分筆で抜け落ちていないか」「合筆できた事実から接続関係を逆算できるか」「筆界は変動がなければ存続するか」「地積の増減から旧筆の面積を逆算できるか」を見抜けるようにする5パネル構成。ア・イは「合筆後に分筆はされたか」という同じ決定木を共有し、アは「いいえ」側（全部残存）、イは「はい」側（含むとは限らない）を強調する。ウは合筆の要件（相互接続）から隣接関係を導く配置図、エは筆界の存続を示す単一チェックのタイムライン、オは地積の増減を逐次たどる計算逆算図とした。
 
@@ -250,17 +303,17 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No（はい／いいえ）branch arrows, and a
 final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panels 1 and 2（肢ア・肢イ）share the same decision tree（diamond:
+Panels 1 and 2（ア・イ）share the same decision tree（diamond:
 「合筆後に、取り込んだ土地から分筆はされたか？」／いいえ→「取り込んだ
 土地の全部が今の土地に含まれる」／はい→「取り込んだ土地の全部が含まれ
 るとは限らない」); draw both panels with the same diamond-and-two-branch
 layout, but render the branch relevant to THIS panel with a thick
 highlighted border and full color, and render the other, unrelated branch
 in a faded, greyed-out, or dotted-outline style rather than omitting it.
-Panel 3（肢ウ）is a sequence of 4 numbered layout steps (not a Yes/No
+Panel 3（ウ）is a sequence of 4 numbered layout steps (not a Yes/No
 decision, since the underlying facts of this 肢 are fixed) rather than a
-diamond flowchart. Panel 4（肢エ）is a single-check timeline illustration,
-not a flowchart. Panel 5（肢オ）is a sequence of 4 numbered calculation
+diamond flowchart. Panel 4（エ）is a single-check timeline illustration,
+not a flowchart. Panel 5（オ）is a sequence of 4 numbered calculation
 steps ending in a balance-scale comparison, not a Yes/No decision.
 Unlike a glanceable summary poster, each panel MAY include a short「着眼
 点」callout box with 1-2 sentences that state the checking ORDER in
@@ -273,7 +326,15 @@ own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -299,7 +360,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 合筆後に分筆がなければ6番は全部残る
@@ -321,7 +382,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 6番は全部含まれる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in orange containing the number 2.
 Heading (bold, ONE line):
 合筆後に分筆すれば全部残るとは限らない
@@ -344,7 +405,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 含むとは限らない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 合筆できた事実が接続の証拠になる
@@ -367,7 +428,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 甲乙は隣接している
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 分筆で生まれた筆界は変動なければ存続
@@ -386,7 +447,7 @@ Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
 筆界は存在している
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 地積の増減を逆算すれば6番と5番を比較できる
@@ -413,10 +474,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 （筆界の定義）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 合, 筆, 分, 登, 記, 録, 隣, 接, 界, 積 and any character
-that has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panels 1 and 2

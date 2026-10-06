@@ -1,0 +1,64 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 80px 70px 40px; min-height: 1650px; display: flex; flex-direction: column; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 56px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 32px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 26px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.plain { font-size: 22px; margin: 4px 0 26px; }
+.dairi { display: flex; font-size: 22px; margin-bottom: 30px; }
+.dairi .lab { padding-top: 0; }
+.dairi .txt { flex: 1; line-height: 1.6; }
+table.land { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.land td { border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; }
+table.land.compact td.vert { letter-spacing: 0.02em; font-size: 15px; }
+.box.fix { line-height: 1.75; }
+table.land td.head { height: 50px; text-align: center; font-size: 20px; }
+table.land td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }
+table.land td.shozai-lab { text-align: center; height: 76px; }
+table.land td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }
+table.land td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }
+table.land td.chimoku { text-align: center; }
+table.land td .ink, .box .ink { font-size: 26px; }
+.note { font-size: 17px; color: #444; margin-top: 18px; line-height: 1.6;
+         font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 70px 30px; border-bottom: 2px solid #bbb; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -4px; right: -4px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-2deg); }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.over { position: relative; display: inline-block; }
+.item { display: inline-block; white-space: nowrap; margin-right: 0.9em; }
+.over .up { position: absolute; left: 0; top: -30px; font-size: 24px; white-space: nowrap; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 60px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: -12px 0 20px 170px; }
+.bubrow.table { margin: 14px 0 0 200px; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; border-radius: 2px; background: #f1faf2; }
+.okrow { position: relative; }
+.check { position: absolute; right: -8px; top: -30px; }
+</style></head><body><div class="page">
+<div class="title">登記申請書</div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px"><span class="ink">土地表題登記</span></div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:150px"><span class="item"><span class="ink">土地所在図</span></span><span class="item"><span class="ink">地積測量図</span></span><span class="item"><span class="ink">所有権証明書</span></span><span class="item"><span class="ink">会社法人等番号</span></span><span class="item"><span class="ink">代理権限証書</span></span></div></div>
+<div class="plain">平成23年8月21日申請　Ａ地方法務局</div>
+<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:130px"><span class="ink">Ａ市Ｂ町五丁目50番地１　宗教法人雨堤天満宮<br>代表役員　荒牧英雄</span></div></div>
+<div class="dairi"><div class="lab">代　　理　　人</div><div class="txt">Ａ市Ｂ町三丁目１番２号　土地家屋調査士　中村　容子　㊞<br>連絡先の電話番号　×××−×××−××××</div></div>
+<div style="height:6px"></div>
+<table class="land"><colgroup><col style="width:6%"><col style="width:18%"><col style="width:15%"><col style="width:13%"><col style="width:7%"><col style="width:41%"></colgroup><tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4"><span class="ink">Ａ市Ｂ町五丁目</span></td></tr><tr><td class="vert" rowspan="4">土地の表示</td><td class="head">①地番</td><td class="head">②地目</td><td class="head" colspan="2">③地積　　m²</td><td class="head">登記原因及びその日付</td></tr><tr><td></td><td class="chimoku"><span class="ink">境内地</span></td><td class="int"><span class="ink">113</span></td><td class="dec"></td><td><span class="ink">不詳</span></td></tr><tr><td></td><td class="chimoku"></td><td class="int"></td><td class="dec"></td><td></td></tr><tr><td></td><td class="chimoku"></td><td class="int"></td><td class="dec"></td><td></td></tr></table>
+<div class="note">※添付書類は今の法令による。出題当時は会社法人等番号の制度がなく、住所証明書を付け、資格証明書は問題文の注5（登記所が同一）で不要だった</div>
+<div class="caption">平成23年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
+</div></body></html>

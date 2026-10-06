@@ -110,8 +110,21 @@ def parse_article(md_text):
             break
     if quote_lines:
         non_empty = [inline_md_to_html(q) for q in quote_lines if q]
+        # 設問・各記述・選択肢の間を<br><br>で分けて1つの<blockquote><p>にまとめる
+        # （この形でnoteに取り込むと、1つの引用ブロックのまま各記述の間に余白が入ることを確認済み。2026-10-02）
         quote_html = "<br><br>\n".join(non_empty)
-        body_parts.append(f"<blockquote><p>{quote_html}</p></blockquote>")
+        # 引用の出典欄（noteの引用ブロック末尾の「出典を入力」）。
+        # 「出題年度：」に「（改）」が付く記事は空欄、それ以外は「出典：法務省　{年度}土地家屋調査士試験問題」
+        cite = ""
+        if m:
+            ym = re.match(r"出題年度：((?:令和|平成)(?:元|\d+)年度)\s*(午前|午後)?", m.group(1))
+            if ym and "（改）" not in m.group(1):
+                part = f"（{ym.group(2)}）" if ym.group(2) else ""
+                cite = f"出典：法務省　{ym.group(1)}土地家屋調査士試験問題{part}"
+        cite_html = f"<figcaption>{escape(cite)}</figcaption>" if cite else ""
+        body_parts.append(f"<figure><blockquote><p>{quote_html}</p></blockquote>{cite_html}</figure>")
+        # 問題文（引用）と解説文の間の区切り線
+        body_parts.append("<hr>")
 
     # 「### まとめ表」または「### まとめ」より前、引用より後の本文
     # (導入文 + 各肢解説)
@@ -163,6 +176,9 @@ def parse_article(md_text):
             buf_paragraph.append(l.strip())
     flush_paragraph()
 
+    # 解説文とまとめの間の区切り線
+    body_parts.append("<hr>")
+
     # まとめ表 → 箇条書き
     # tail_text の先頭のテーブル部分を抽出(次の空行2連続、または次の見出しまで)
     table_match = re.search(r"(\|.+\|(?:\n\|.+\|)*)", tail_text)
@@ -194,6 +210,21 @@ def parse_article(md_text):
                 body_parts.append(f"<p>{inline_md_to_html(l)}</p>")
         body_parts.append(f"<p>{inline_md_to_html(conclusion_match.group(0).strip())}</p>")
         rest_after_conclusion = after_table[conclusion_match.end():]
+        # 正解の直後の区切り線と、改題の注記（※本記事は…改題です）を出力する
+        post = rest_after_conclusion
+        ck = post.find("**このまま使える点")
+        post_block = post if ck < 0 else post[:ck]
+        segs = [x.strip() for x in re.split(r"^\s*---\s*$", post_block, flags=re.M)]
+        # 先頭の「正解」直後の区切り線（segs[0]は通常空）
+        if len(segs) > 1:
+            body_parts.append("<hr>")
+            for seg in segs[1:]:
+                if seg and not seg.startswith("##"):
+                    for l in seg.splitlines():
+                        if l.strip():
+                            body_parts.append(f"<p>{inline_md_to_html(l.strip())}</p>")
+                    body_parts.append("<hr>")
+            # 末尾が<hr>の場合は、直後に見出し画像用フレーズが続くため残す
     else:
         rest_after_conclusion = after_table
 

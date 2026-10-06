@@ -2,33 +2,37 @@
 
 **出題年度：令和2年度　午後の部　第5問（改）**
 
-> 法定相続情報一覧図に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　所有権の登記名義人の相続人が土地の分筆の登記を申請するに当たり，当該土地の所在地を管轄する登記所の法定相続情報一覧図つづり込み帳に，当該登記名義人の法定相続情報一覧図がつづり込まれている場合には，当該法定相続情報一覧図の写しに記載された法定相続情報番号の提供をもって，相続があったことを証する情報の提供に代えることができる。
->
-> イ　所有権の登記名義人の相続人が，土地の分筆の登記を申請するに当たり，法定相続情報一覧図の写しを提供して相続があったことを証する情報の提供に代えた場合，当該相続人は，当該法定相続情報一覧図の写しの還付を請求することはできない。
->
-> ウ　所有権の登記名義人の相続人が，土地の合筆の登記を申請するに当たり，法定相続情報一覧図の写しを提供して相続があったことを証する情報の提供に代える場合，この法定相続情報一覧図の写しは，作成後3月以内のものでなければならない。
->
-> エ　被相続人Ａの妻Ｂが相続人から廃除されたため，Ａの子Ｃのみが相続権を有する場合において，Ｃが，所有権の登記名義人がＡである土地の分筆の登記を申請するに当たり，法定相続情報一覧図の写しを提供したときは，Ｂが廃除された旨の記載がされていることを証する戸籍の全部事項証明書の提供を省略することができる。
->
-> オ　地図に表示された土地の表題部所有者の相続人が，地図の訂正の申出をする場合，法定相続情報一覧図の写しの提供をもって，相続があったことを証する情報の提供に代えることができる。
->
+> 法定相続情報一覧図に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　所有権の登記名義人の相続人が土地の分筆の登記を申請するに当たり，当該土地の所在地を管轄する登記所の法定相続情報一覧図つづり込み帳に，当該登記名義人の法定相続情報一覧図がつづり込まれている場合には，当該法定相続情報一覧図の写しに記載された法定相続情報番号の提供をもって，相続があったことを証する情報の提供に代えることができる。  
+>　  
+> イ　所有権の登記名義人の相続人が，土地の分筆の登記を申請するに当たり，法定相続情報一覧図の写しを提供して相続があったことを証する情報の提供に代えた場合，当該相続人は，当該法定相続情報一覧図の写しの還付を請求することはできない。  
+>　  
+> ウ　所有権の登記名義人の相続人が，土地の合筆の登記を申請するに当たり，法定相続情報一覧図の写しを提供して相続があったことを証する情報の提供に代える場合，この法定相続情報一覧図の写しは，作成後3月以内のものでなければならない。  
+>　  
+> エ　被相続人Ａの妻Ｂが相続人から廃除されたため，Ａの子Ｃのみが相続権を有する場合において，Ｃが，所有権の登記名義人がＡである土地の分筆の登記を申請するに当たり，法定相続情報一覧図の写しを提供したときは，Ｂが廃除された旨の記載がされていることを証する戸籍の全部事項証明書の提供を省略することができる。  
+>　  
+> オ　地図に表示された土地の表題部所有者の相続人が，地図の訂正の申出をする場合，法定相続情報一覧図の写しの提供をもって，相続があったことを証する情報の提供に代えることができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イウ　　4　イエ　　5　エオ
+
+---
 
 **出典：法務省ウェブサイト（https://www.moj.go.jp/shikaku_saiyo_index5.html）**
 
-「法定相続情報一覧図」は、戸籍謄本一式を法務局に提出して確認してもらい、相続関係を一枚の図にまとめた公的な証明書です（法定相続情報証明制度）。相続がからむ表示登記や地図訂正の場面で、分厚い戸籍の束の代わりに使えるのが最大のメリットです。この制度が「どの場面で・どう使えるか」を問う問題です。
+「法定相続情報一覧図」は、戸籍謄本一式を法務局に提出して確認してもらい、相続関係を一枚の図にまとめた公的な証明書です（法定相続情報証明制度）。
+
+相続がからむ表示登記や地図訂正の場面で、分厚い戸籍の束の代わりに使えるのが最大のメリットです。この制度が「どの場面で・どう使えるか」を問う問題です。
 
 ### ア：「法定相続情報番号だけ」の提供で相続があったことを証する情報（戸籍等）の代わりになります
 
-令和6年度改正後は、当該土地の所在地を管轄する登記所の法定相続情報一覧図つづり込み帳に、その登記名義人の法定相続情報一覧図が既につづり込まれている場合には、一覧図の写しを改めて添付しなくても、申請情報の添付情報欄に法定相続情報番号（例：「登記原因証明情報（法定相続情報番号）」）を記載するだけで、相続があったことを証する情報の提供に代えることができるようになりました。
+令和6年4月1日施行の改正後の不動産登記規則37条の3第1項により、法定相続情報番号を提供する場合は、登記官が法定相続情報（登記所に保管されているその登記名義人の法定相続情報一覧図の内容）を確認することができるときに限り、一覧図の写しを改めて添付しなくても、申請情報の添付情報欄に法定相続情報番号（例：「登記原因証明情報（法定相続情報番号）」）を記載するだけで、相続があったことを証する情報の提供に代えることができるようになりました。
 
 相続登記の申請義務化（同じく令和6年4月1日施行）にあわせて、複数の登記所に戸籍謄本一式や一覧図の写しを繰り返し提出する負担を軽減するための実務上の見直しと位置づけられます。
 
-**たとえば**、Ｃさんが分筆を申請する場合、管轄登記所に既につづり込まれている一覧図の法定相続情報番号を提供すれば、写しの改めての添付なしに相続を証する情報の提供に代えることができます。
+**たとえば**、Ｃさんが分筆を申請する場合、登記官が確認できる状態で保管されている一覧図の法定相続情報番号を提供すれば、写しの改めての添付なしに相続を証する情報の提供に代えることができます。
 
-※「法定相続情報番号のみの提供による代替」というテーマは、令和2年度の出題後に不動産登記規則が改正され、出題当時と結論が変わっています。施行日は令和6年4月1日で、根拠は不動産登記規則の一部改正（同規則37条の3関係）です。
+※「法定相続情報番号のみの提供による代替」というテーマは、令和2年度の出題後に不動産登記規則が改正され、出題当時と結論が変わっています。施行日は令和6年4月1日で、根拠は不動産登記規則37条の3第1項（法定相続情報番号の提供による代替。ただし書で、登記官が法定相続情報を確認することができるときに限る）です。条文上の要件は「登記官が確認できること」であり、肢アのように当該土地を管轄する登記所のつづり込み帳にある場合は、この要件を満たす典型例です。
 
 ### イ：提供した一覧図の写しは、原本還付を請求できる
 
@@ -38,21 +42,27 @@
 
 ### ウ：一覧図の写しには「作成後3月以内」といった有効期間の制限はない
 
-戸籍の全部事項証明書などには「作成後○月以内」といった期限が求められる場面がありますが、法定相続情報一覧図の写しには、そのような有効期間の制限はありません。相続関係そのものは時間が経っても変わらないからです。本肢は「作成後3月以内のものでなければならない」としており、誤りです。
+書面申請の印鑑証明書や、公務員が作成した代表者の資格を証する情報には「作成後3月以内」という期限がありますが（不動産登記令16条3項・17条1項）、法定相続情報一覧図の写しには、そのような有効期間の制限はありません。
+
+相続関係そのものは時間が経っても変わらないからです。本肢は「作成後3月以内のものでなければならない」としており、誤りです。
 
 **たとえば**、Ｃさんが1年前に交付を受けた一覧図の写しでも、その後の相続関係に変動がなければ、合筆の申請にそのまま使うことができます。
 
 ### エ：相続人の廃除が一覧図に表れていれば、廃除を証する戸籍は省略できる
 
-推定相続人の廃除があった場合、法定相続情報一覧図には、原則としてその廃除された者は記載されません（相続人ではなくなるため）。そのため、一覧図の写しを提供すれば、別途、廃除された旨が記載された戸籍の全部事項証明書を提供することを省略できます。本肢は正しい記述です。
+推定相続人の廃除があった場合、法定相続情報一覧図には、原則としてその廃除された者は記載されません（相続人ではなくなるため）。
+
+そのため、一覧図の写しを提供すれば、別途、廃除された旨が記載された戸籍の全部事項証明書を提供することを省略できます。本肢は正しい記述です。
 
 **たとえば**、妻Ｂが廃除され、子Ｃだけが相続人になっているケースでは、法定相続情報一覧図にＢは相続人として載りません。だからＣは、一覧図の写しさえ出せば、「Ｂは廃除された」ことをわざわざ戸籍で示す必要がないのです。
 
 ### オ：地図訂正の申出でも、一覧図の写しで相続を証明できる
 
-登記の申請だけでなく、地図の訂正の申出において相続があったことを証する情報が必要な場面でも、法定相続情報一覧図の写しの提供をもって、その提供に代えることができます。本肢は正しい記述です。
+登記の申請だけでなく、地図の訂正の申出において相続があったことを証する情報が必要な場面でも、法定相続情報一覧図の写しの提供をもって、その提供に代えることができます。本肢は正しい記述です（根拠条文は要確認です。不動産登記規則16条5項3号は、地図訂正の申出に相続があったことを証する市町村長その他の公務員が職務上作成した情報の提供を求めていますが、同条7項が準用しているのは37条の2で、37条の3の準用はローカルの条文データベースでは確認できませんでした。公式の正答がオを正としていることと、法定相続情報証明制度の運用に基づく整理です）。
 
 **たとえば**、表題部所有者が亡くなり、その相続人Ｃさんが地図の訂正を申し出るとき、戸籍一式を集めなくても、法定相続情報一覧図の写しを添えれば相続関係を証明できます。
+
+---
 
 ### まとめ
 
@@ -70,12 +80,12 @@
 
 **このまま使える点／使う前に確認したい点**
 
-- 文章としてはこのままnoteに貼り付けて投稿できる内容です。本問は令和2年度午後の部第5問をもとに、令和6年4月1日施行の不動産登記規則改正（法定相続情報番号のみの提供による代替）を反映して問題文・選択肢を改めた「第5問（改）」です。原題は「正しいものの組合せ」を問う形式でしたが、肢アの結論が現行法では逆転したことに伴い、「誤っているものの組合せ」を問う形式・選択肢の組合せに改めています。
-- 出典として法務省ウェブサイト（https://www.moj.go.jp/shikaku_saiyo_index5.html）を掲げていますが、これは土地家屋調査士試験の実施案内ページであり、本記事作成にあたって個別にアクセスして内容を検証したものではありません。原題（令和2年度午後の部第5問）の出題内容自体は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
-- 肢アに関する法改正の内容（施行日・根拠通達・改正前後の取扱いの違い）は、法務局公式サイト（houmukyoku.moj.go.jp）の案内、および複数の司法書士事務所の解説記事を突き合わせて確認しました。施行日（令和6年4月1日）と根拠通達（令和6年3月21日法務省民二第569号）は、いずれも法務局公式情報と符合していることを確認済みです。
-- 肢イ〜オ（原本還付・有効期間・廃除・地図訂正での利用）は、法定相続情報証明制度（平29.4.17民二292号通達に基づく制度）の一般的な取扱いから説明しています。個別の通達番号までの条文レベルの確定は本記事では行っていないため、詳細は各自の教材でも確認されることをおすすめします。
+- 文章としてはこのままnoteに貼り付けて投稿できる内容です。本問は令和2年度午後の部第5問をもとに、令和6年4月1日施行の不動産登記規則改正（法定相続情報番号のみの提供による代替）を反映して問題文・選択肢を改めた「第5問（改）」です。原題は「正しいものの組合せ」を問う形式でしたが、アの結論が現行法では逆転したことに伴い、「誤っているものの組合せ」を問う形式・選択肢の組合せに改めています。
+- 出典として法務省ウェブサイト（https://www.moj.go.jp/shikaku_saiyo_index5.html）を掲げていますが、これは土地家屋調査士試験の実施案内ページであり、本記事の内容（法定相続情報番号による代替を定めた不動産登記規則37条の3）の出典ではありません。本記事の根拠条文は不動産登記規則37条の3第1項・55条・16条などで、条文は`note-articles/laws/`のローカルデータベースで確認しています。原題（令和2年度午後の部第5問）の出題内容自体は、土地家屋調査士試験対策アプリ制作時に検証済みのデータベース（takuitsu.json）で確認済みです。
+- アに関する法改正の内容（施行日・根拠通達・改正前後の取扱いの違い）は、法務局公式サイト（houmukyoku.moj.go.jp）の案内、および複数の司法書士事務所の解説記事を突き合わせて確認しました。施行日（令和6年4月1日）は法務局公式サイトの案内等と符合していますが、この改正は不動産登記規則等の一部を改正する省令（令和6年法務省令第7号）によるもので、規則37条の3第1項の現行条文はローカルの条文データベースで確認しました。なお、以前の版にあった通達番号（令和6年3月21日法務省民二第569号）は、今回の再確認で裏付けが取れなかったため記載を外しています。
+- イ〜オ（原本還付・有効期間・廃除・地図訂正での利用）は、法定相続情報証明制度（平29.4.17民二292号通達に基づく制度）の一般的な取扱いから説明しています。個別の通達番号までの条文レベルの確定は本記事では行っていないため、詳細は各自の教材でも確認されることをおすすめします。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、令和2年度より後に実施された試験（令和3〜7年度）の全問題を確認しました。令和5年度第19問・令和7年度第18問も「法定相続情報一覧図」がテーマですが、令和5年度は一覧図の保管の申出手続そのもの（申出先・添付書類・再交付の申出人等）、令和7年度は保管の申出内容や、法定相続情報番号のみでの写し省略の可否（本問アで扱った論点の後継版）を問うものであり、本問（登記申請での一覧図写しの利用場面・還付・有効期間・廃除の記載省略）とは各肢の具体的な出題内容が異なるため、**本問と完全に重複する出題は見つかりませんでした**。なお、令和7年度第18問オは、本問アで検討した「法定相続情報番号のみでの提供省略」が実際に制度化された後の状態を示す問題であり、本問の解説と対比すると理解が深まる関係にあります。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **2026-08-18 再検証（qa-checklist.md C・D・E・F項目）**：本文（肢アの※注記）に先例番号「令和6年3月21日付法務省民二第569号」が記載されていたため、判例・先例番号は確認事項ブロックのみに記載するルールに従い本文から削除し、文末も敬体に整えました（先例番号自体は本ブロック上部に記載済みのため情報は失われていません）。また、まとめ表の直後に結論文が欠落していたためテンプレート（format-template.md）に沿って1文を追加しました。タイトルのキャッチフレーズ部分が49字と長大化していたため（他の記事は21〜23字）、法改正点を軸にした23字のフレーズに短縮しました（インフォグラフィックの見出しは変更していません）。まとめ・各肢見出し・確認事項ブロックの正解や判定は変更していません。
+- **2026-08-18 再検証（qa-checklist.md C・D・E・F項目）**：本文（アの※注記）に先例番号「令和6年3月21日付法務省民二第569号」が記載されていたため、判例・先例番号は確認事項ブロックのみに記載するルールに従い本文から削除し、文末も敬体に整えました（先例番号自体は本ブロック上部に記載済みのため情報は失われていません）。また、まとめ表の直後に結論文が欠落していたためテンプレート（format-template.md）に沿って1文を追加しました。タイトルのキャッチフレーズ部分が49字と長大化していたため（他の記事は21〜23字）、法改正点を軸にした23字のフレーズに短縮しました（インフォグラフィックの見出しは変更していません）。まとめ・各肢見出し・確認事項ブロックの正解や判定は変更していません。
 
 ---
 
@@ -116,12 +126,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 図・証・還・戸・請・廃・除・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -182,22 +210,22 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、法定相続情報一覧図の写しを「どの場面で・どこまで使えるか」を思考順序に沿って確認できるようにする5パネル構成。肢アだけは「管轄登記所につづり込み済みか」という条件分岐で結論が変わるため決定木として描き、他の4肢は単一チェックの図解にする。②の色分け（写しの提出・返却に関するルール＝緑、記載内容・利用場面の広がり＝青）を引き継いでいる。
+問題文を読んだ瞬間に、法定相続情報一覧図の写しを「どの場面で・どこまで使えるか」を思考順序に沿って確認できるようにする5パネル構成。アだけは「管轄登記所につづり込み済みか」という条件分岐で結論が変わるため決定木として描き、他の4肢は単一チェックの図解にする。②の色分け（写しの提出・返却に関するルール＝緑、記載内容・利用場面の広がり＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -221,11 +249,11 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
 and a final conclusion node. Where a 肢 is resolved by a single check, a
 labeled illustrative diagram is sufficient — do not force a flowchart.
-Panel 1 (肢ア) must be drawn as a decision flowchart, because whether the
+Panel 1 (ア) must be drawn as a decision flowchart, because whether the
 number alone suffices depends on a real precondition (has the register
-office already filed a copy of this person's 一覧図?); give the diamond
+office already filed a copy of this person's 一覧図？); give the diamond
 node's two branches distinct, clearly labeled conclusion nodes and no
-looping arrow back into the flow. Panel 4 (肢エ) should render an excluded
+looping arrow back into the flow. Panel 4 (エ) should render an excluded
 heir (a person who was disinherited and never appears in the 一覧図) in a
 faded, dotted-outline style within the family-tree diagram, rather than
 just an X mark, so the visual communicates that this person's share was
@@ -240,7 +268,15 @@ to the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -266,7 +302,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 つづり込み済みなら番号提供のみで足りる
@@ -289,7 +325,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 番号だけで代替できる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 一覧図の写しは還付を請求できる
@@ -305,7 +341,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 還付請求できる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 一覧図の写しに有効期間の制限はない
@@ -316,19 +352,19 @@ dotted outline, labeled 「誤りやすい思い込み」): a calendar icon with
 ルール」): the same 一覧図の写し document icon beside an infinity-mark
 icon labeled 「有効期間の制限なし」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、一覧図の写しの提出について、戸籍の証明書のような「作成後◯ヶ月以内」
+まず、一覧図の写しの提出について、印鑑証明書のような「作成後3か月以内」
 という期限があるのではないかと疑って確認します。相続関係は時間が経っても
 変わらないため、一覧図の写しにはそのような有効期間の制限はありません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 有効期間なし
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 廃除者不記載のため戸籍提出を省略できる
-Diagram: A family-tree diagram in the shape of the 一覧図: 被相続人Ａが
-最上段、妻Ｂと子Ｃが同じ世代として横に並ぶ。妻Ｂのシルエットだけを faded,
+Diagram: A family-tree diagram in the shape of the 一覧図: 被相続人Ａと
+妻Ｂが最上段に横に並び（夫婦）、子ＣがＡの下の段に置かれる。妻Ｂのシルエットだけを faded,
 dotted-outline style で描き、一覧図の枠からはみ出すように配置して「一覧図
 には記載されない」ことを示す。子Ｃのシルエットは実線・フルカラーで描く。
 その脇に戸籍全部事項証明書の書類アイコンに大きな赤い「省略可」のスタンプを
@@ -342,7 +378,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 戸籍提出を省略可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地図訂正の申出でも一覧図で代用できる
@@ -363,10 +399,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 情報番号のみでの代替は令和6年4月1日施行の改正によります）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 続, 図, 証, 還, 戸, 請, 廃, 除, 相, 号, 込, 帳, 訂 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 1 is drawn

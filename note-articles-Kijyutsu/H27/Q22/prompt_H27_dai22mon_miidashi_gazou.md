@@ -1,6 +1,6 @@
 # 画像作成プロンプト：平成27年度 第22問（建物）note見出し画像
 
-note記事「【土地家屋調査士受験生向け】平成27年度問題22（建物）〜土地を手放さないなら、区分の前に規約を〜」の**見出し画像（サムネイル）**用プロンプト。サイズ・スタイルの前提は、択一式（`note-articles/infographic-prompt-template.md`）で確立済みの house style をそのまま踏襲している（詳細はそちらの「サイズ・アスペクト比」「スタイル」の章を参照）。R7/Q22・H30/Q22の見出し画像プロンプトと同じ構成。
+note記事「【土地家屋調査士受験生向け】平成27年度問題22（建物）〜土地を手放さないなら、区分の前に規約を〜」の**見出し画像（サムネイル）**用プロンプト。サイズ・スタイルの前提は、択一式（`note-articles/infographic-prompt-template.md`）で確立済みの house style をそのまま踏襲している（詳細はそちらの「サイズ・アスペクト比」「スタイル」の章を参照）。R7/Q22の見出し画像プロンプトと同じ構成。
 
 - **サイズ**：`1280×670px`（アスペクト比1.91:1）。より高精細にしたい場合は同じ比率のまま`1920×1006px`でもよい
 - 根拠：note公式ヘルプ「登録画像の推奨サイズ一覧」（https://www.help-note.com/hc/ja/articles/360000231642 ）。この比率からずれると note側で中央部分だけ自動トリミングされるため、必ずこの比率で生成すること
@@ -25,26 +25,26 @@ land-and-house surveyor (土地家屋調査士) exam prep series.
 
 - Left/center character: a plump, round bird-teacher character
   ("トリ先生"), standing with one wing on hip in a scolding, exasperated
-  pose, mouth open as if lecturing.
+  pose, mouth open as if lecturing, pointing with the other wing at a
+  small scroll-like document with a ribbon seal (a notarized rule).
 - Right character: a young female exam-taker ("藍子"), wearing a navy
   business suit over a blue thin-pinstripe blouse, with a startled or
   flustered expression (eyes wide, a small sweat-drop icon near her
-  head), holding a pencil or clipboard.
+  head), holding a pencil and a clipboard.
 - Between or around them: a small isometric icon of one three-story
-  building, sliced horizontally: the ground floor is shaded soft green
-  (representing the rental apartment part) except for one small blue
-  entrance box at the front-right corner, and the second and third
-  floors are shaded soft blue (the owner's home, connected to that small
-  blue entrance). Under the building, a flat pastel land parcel is drawn
-  with a small padlock-shaped or ribbon-tied tag icon on it
-  (representing the land staying with the owner), and a small pair of
-  scissors icon is cutting a dotted line between the land parcel and
-  the green ground floor (representing that the land is legally
-  separable from the units). A small arrow leads from the green ground
-  floor toward a tiny office-building icon on the side (the company).
-  Keep every icon blank or purely graphical, with no legible numbers,
-  letters, or Japanese sentences inside the icon itself (keep the icon
-  purely graphical/iconic, no readable measurement text).
+  building sliced horizontally into two layers: the ground floor is
+  shaded soft green (the rental apartment part), except for one small
+  soft-blue entrance box at the front-right corner, and the second and
+  third floors are shaded soft blue (the owner's home, reached through
+  that small blue entrance). Under the building lies a flat pastel land
+  parcel tile with a small ribbon-tied tag on it (the land stays with
+  the owner). A dotted line separates the land tile from the building,
+  and a small pair of scissors sits on that dotted line (the land can be
+  handled separately from the units). A small curved arrow leads from
+  the green ground floor to a tiny office-building icon at the side (the
+  company that buys only that part). Keep every icon purely
+  graphical/iconic, with no legible numbers, letters, or Japanese
+  sentences inside the icons (no readable measurement text).
 - Background: a soft pastel beige/gray gradient, flat and clean, no
   photographic texture.
 
@@ -85,8 +85,8 @@ center of the canvas (roughly the middle 454px band), with only
 background decoration allowed to extend into the top/bottom margins.
 
 Final check before rendering: scan every kanji glyph — including 土・地・
-家・屋・調・査・士・受・験・生・向・平・成・年・度・問・題・建・物・手・放・
-区・分・前・規・約 — and confirm each
+家・屋・調・査・士・受・験・生・向・平・成・年・度・問・題・建・物・土・地・
+前・規・約・手・放・区・分 — and confirm each
 is in standard Japanese (Jōyō) form, not Simplified Chinese and not
 Traditional Chinese. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct
@@ -95,11 +95,12 @@ standard Japanese hiragana, katakana, or Jōyō kanji — including any
 Chinese-only character, Korean Hangul, other non-Japanese script, or
 stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the building, land,
-scissors, and office icons contain no legible numbers or sentences (icon
-only). Confirm both characters, the label, the title, and the subtitle
-are positioned within the central 1280x454px safe area. Confirm the
-entire canvas, edge to edge, is filled with a fully opaque background
-with no transparency or alpha channel anywhere.
+scissors, scroll, and office icons contain no legible numbers or
+sentences (icon only). Confirm both
+characters, the label, the title, and the subtitle are positioned within the
+central 1280x454px safe area. Confirm the entire canvas, edge to edge, is
+filled with a fully opaque background with no transparency or alpha
+channel anywhere.
 ```
 
 ## 生成後の確認項目
@@ -108,7 +109,7 @@ with no transparency or alpha channel anywhere.
 - ラベル「土地家屋調査士受験生向け」、タイトル「平成27年度問題22（建物）」、サブタイトル「〜土地を手放さないなら、区分の前に規約を〜」の文字が一字一句正しいか（note記事のタイトル「【土地家屋調査士受験生向け】平成27年度問題22（建物）〜土地を手放さないなら、区分の前に規約を〜」と同じ文言を3行に分けたもの）（簡体字・繁体字・日本語以外の文字が混ざっていないか。特に「放」「区」「規」「約」）
 - トリ先生・藍子の2キャラクターと、ラベル・タイトル・サブタイトルの文字が、画像中央の1280×454pxの範囲内に収まっているか（note一覧ページでの見切れ防止）
 - 背景が完全に不透明か（透過・アルファチャンネルがないか、別の背景色の上に置いて確認する）
-- 建物・土地・はさみ・会社のアイコンの中に、読めてしまう数値・文字・文章が入っていないか（アイコンとしてのみ使う）
+- 建物・土地・はさみ・巻物・会社のアイコンの中に、読めてしまう数値・文字・文章が入っていないか（アイコンとしてのみ使う）
 
 ## 出力
 

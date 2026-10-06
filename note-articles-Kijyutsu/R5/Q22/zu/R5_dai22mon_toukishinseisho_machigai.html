@@ -1,0 +1,63 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 60px 60px 40px; display: flex; flex-direction: column; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 40px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 24px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.dateline { font-size: 22px; margin: 2px 0 24px 20px; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 22px; }
+.plainrow .ryaku { flex: 1; text-align: center; }
+table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-top: 18px; }
+table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }
+table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.35em; padding: 0; font-size: 21px; }
+table.t td.lab2 { text-align: center; font-size: 18px; }
+table.t td.head { text-align: center; font-size: 17px; height: 76px; }
+table.t td.val { height: 52px; }
+table.t td.entry { height: 128px; }
+table.t td.center { text-align: center; }
+table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.t td.genin { font-size: 17px; }
+table.t td .ink { font-size: 19px; }
+table.t td.genin .ink { font-size: 18px; }
+.omit { display: inline-block; border: 1.5px dashed #333; padding: 4px 14px; font-size: 17px; }
+table.t td.omitcell { position: relative; vertical-align: bottom; padding-bottom: 16px; font-size: 17px; }
+.omitbox { position: absolute; left: 30%; top: 16px; width: 235%; height: 40px; border: 1.5px dashed #333;
+            background: #fff; font-size: 17px; line-height: 37px; padding-left: 10px; white-space: nowrap; z-index: 2; }
+table.stack { margin-top: 0; border-top: none; }
+table.g { border-collapse: collapse; table-layout: fixed; width: 100%; }
+table.g td { border: 2px solid #111; height: 76px; font-size: 24px; }
+table.g td.k { text-align: center; }
+table.g td.v { padding-left: 22px; }
+table.g td.none { border-left: 2px solid #111; border-right: none; border-bottom: none; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 34px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -4px; right: -4px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-3deg); }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+.caret { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; font-size: 15px;
+          vertical-align: super; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; right: 120px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; text-align: right; }
+.bubrow .bubble { text-align: left; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body>
+<div class="panel"><div class="ptitle ng">①誤答</div><div class="okwrap"><table class="t"><colgroup><col style="width:5.7%"><col style="width:10.7%"><col style="width:10.9%"><col style="width:10.9%"><col style="width:9.6%"><col style="width:14.4%"><col style="width:12.9%"><col style="width:6.1%"><col style="width:18.8%"></colgroup><tr><td class="vert" rowspan="2" style="font-size:17px;letter-spacing:0.05em">区分した<br>建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:16px;line-height:1.2">主たる<br>建物又<br>は附属<br>建　物</td><td class="head">①種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床面積<br>m²</td><td class="head">原因及びその日付</td></tr><tr><td class="entry omitcell"><div class="omitbox">所在　　（省略）</div>（省略）</td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">軽量鉄骨<br>造スレー<br>トぶき２<br>階建</span></td><td class="entry int"><span class="ink">1階　83</span><br><span class="ink">2階　88</span></td><td class="entry dec"><span class="ink">62</span><br><span class="ink">57</span></td><td class="entry genin"><span class="ink">令和5年10月6日増築、3番9の2を合併</span></td></tr></table></div></div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="okwrap"><table class="t"><colgroup><col style="width:5.7%"><col style="width:10.7%"><col style="width:10.9%"><col style="width:10.9%"><col style="width:9.6%"><col style="width:14.4%"><col style="width:12.9%"><col style="width:6.1%"><col style="width:18.8%"></colgroup><tr><td class="vert" rowspan="2" style="font-size:17px;letter-spacing:0.05em">区分した<br>建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:16px;line-height:1.2">主たる<br>建物又<br>は附属<br>建　物</td><td class="head">①種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床面積<br>m²</td><td class="head">原因及びその日付</td></tr><tr><td class="entry omitcell"><div class="omitbox">所在　　（省略）</div>（省略）</td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">軽量鉄骨<br>造スレー<br>トぶき２<br>階建</span></td><td class="entry int"><span class="ink">1階　83</span><br><span class="ink">2階　88</span></td><td class="entry dec"><span class="ink">62</span><br><span class="ink">57</span></td><td class="entry genin"><span class="caret">∨②③</span><span class="ink">令和5年10月6日</span><span class="caret">∨構造変更、</span><span class="ink">増築、3番9の2を合併</span></td></tr></table></div><div class="bubrow"><span class="bubble">屋根を陸屋根からスレートぶきに変えた＝構造変更が抜けている！<br>頭に、変更した欄の番号「②③」（②構造・③床面積）も付ける</span></div></div>
+<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div><div class="okwrap"><table class="t good"><colgroup><col style="width:5.7%"><col style="width:10.7%"><col style="width:10.9%"><col style="width:10.9%"><col style="width:9.6%"><col style="width:14.4%"><col style="width:12.9%"><col style="width:6.1%"><col style="width:18.8%"></colgroup><tr><td class="vert" rowspan="2" style="font-size:17px;letter-spacing:0.05em">区分した<br>建物の表示</td><td class="head">家屋<br>番号</td><td class="head">建物の<br>名　称</td><td class="head" style="font-size:16px;line-height:1.2">主たる<br>建物又<br>は附属<br>建　物</td><td class="head">①種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床面積<br>m²</td><td class="head">原因及びその日付</td></tr><tr><td class="entry omitcell"><div class="omitbox">所在　　（省略）</div>（省略）</td><td class="entry"></td><td class="entry"></td><td class="entry center"><span class="ink">居宅</span></td><td class="entry center"><span class="ink">軽量鉄骨<br>造スレー<br>トぶき２<br>階建</span></td><td class="entry int"><span class="ink">1階　83</span><br><span class="ink">2階　88</span></td><td class="entry dec"><span class="ink">62</span><br><span class="ink">57</span></td><td class="entry genin"><span class="ink">②③令和5年10月6日構造変更、増築、3番9の2を合併</span></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="caption" style="margin:10px 0 30px">令和5年度 第22問｜登記原因のよくある書き忘れ（構造変更と欄番号）</div></body></html>

@@ -2,19 +2,21 @@
 
 **出題年度：平成23年度　午後の部　第5問**
 
-> 地図又は地図に準ずる図面の訂正（以下本問において「地図訂正」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。
->
-> ア　地図訂正の申出は、その地図に表示された土地の所有権の登記名義人が二人である場合には、そのうちの一人からすることができる。
->
-> イ　一筆の土地の一部が滅失したため、これを原因とする地積の変更の登記を申請する場合には、併せて地図訂正の申出をしなければならない。
->
-> ウ　隣接地の所有者間において両土地の地番を付け替える旨の合意を含む調停が成立したとしても、その合意に基づいて両土地の地番を付け替える地図訂正の申出をすることはできない。
->
-> エ　登記官は、地図に誤りがあると認められる場合であっても、地図訂正の申出がないときは、職権で地図訂正をすることはできない。
->
-> オ　地図に表示された土地の位置についての地図訂正の申出をする場合には、当該土地の位置の誤りが、登記所に備え付けられている地積測量図によって確認することができるときであっても、当該土地の位置に誤りがあることを証する情報の提供をしなければならない。
->
+> 地図又は地図に準ずる図面の訂正（以下本問において「地図訂正」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　地図訂正の申出は、その地図に表示された土地の所有権の登記名義人が二人である場合には、そのうちの一人からすることができる。  
+>　  
+> イ　一筆の土地の一部が滅失したため、これを原因とする地積の変更の登記を申請する場合には、併せて地図訂正の申出をしなければならない。  
+>　  
+> ウ　隣接地の所有者間において両土地の地番を付け替える旨の合意を含む調停が成立したとしても、その合意に基づいて両土地の地番を付け替える地図訂正の申出をすることはできない。  
+>　  
+> エ　登記官は、地図に誤りがあると認められる場合であっても、地図訂正の申出がないときは、職権で地図訂正をすることはできない。  
+>　  
+> オ　地図に表示された土地の位置についての地図訂正の申出をする場合には、当該土地の位置の誤りが、登記所に備え付けられている地積測量図によって確認することができるときであっても、当該土地の位置に誤りがあることを証する情報の提供をしなければならない。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
+
+---
 
 地図・地図に準ずる図面の訂正の申出に関する分野です。「誰が申出できるのか」「何が義務づけられ、何は職権でできるのか」「どんな情報の提供が要るのか」を、一つずつ性質に分けて整理すると迷いにくくなります。
 
@@ -26,13 +28,19 @@
 
 ### イ：地積変更の登記に、地図訂正の申出は義務づけられていない
 
-地図訂正の申出は、あくまで地図に表示された区画や地番の「誤り」を正すための手続であり、崖崩れなどによる地積の実際の変化を登記に反映させる地積変更の登記とは、目的そのものが別です。規則が定めているのはむしろ逆向きの関係で、地図訂正の申出をする際に地積の登記記録に錯誤があるときは、その申出に地積更正の登記の申請を併せなければならない、というものです（不動産登記規則16条2項）。地積変更の登記の側から地図訂正の申出を義務づける規定はないので、向きが逆で誤りです。
+地図訂正の申出は、あくまで地図に表示された区画や地番の「誤り」を正すための手続であり、崖崩れなどによる地積の実際の変化を登記に反映させる地積変更の登記とは、目的そのものが別です。
+
+規則が定めているのはむしろ逆向きの関係で、地図訂正の申出をする際に地積の登記記録に錯誤があるときは、その申出に地積更正の登記の申請を併せなければならない、というものです（不動産登記規則16条2項）。
+
+地積変更の登記の側から地図訂正の申出を義務づける規定はないので、向きが逆で誤りです。
 
 **たとえば**、崖崩れで土地の一部が失われて面積が減った場合、地積変更の登記を申請することは必要でも、そのとき必ず地図訂正の申出までセットで出さなければならないわけではありません。
 
 ### ウ：当事者の合意だけで、地番を付け替えることはできない
 
-地番は、登記所が地番区域を定めたうえで一筆の土地ごとに公的に付すものです（不動産登記法35条）。したがって、隣接地の所有者どうしが「お互いの地番を入れ替えよう」と合意し、その合意を含む調停が成立したとしても、その合意に基づいて両土地の地番を付け替える地図訂正の申出をすることはできません。地番は当事者が処分できる対象ではないからです。
+地番は、登記所が地番区域を定めたうえで一筆の土地ごとに公的に付すものです（不動産登記法35条）。
+
+したがって、隣接地の所有者どうしが「お互いの地番を入れ替えよう」と合意し、その合意を含む調停が成立したとしても、その合意に基づいて両土地の地番を付け替える地図訂正の申出をすることはできません。地番は当事者が処分できる対象ではないからです。
 
 **たとえば**、隣り合うＡさんとＢさんが話し合いで「1番と2番を交換しよう」と決めて調停まで成立させたとしても、その私的な取り決めだけを理由に地番を入れ替える地図訂正を求めることはできません。
 
@@ -44,9 +52,13 @@
 
 ### オ：地積測量図で確認できるなら、別に誤りを証する情報はいらない
 
-地図に表示された土地の位置についての地図訂正の申出をする場合、原則として位置に誤りがあることを証する情報の提供が求められます（不動産登記規則16条5項1号）。もっとも、その誤りが登記所に備え付けられている地積測量図によって確認できるときは、別途その証明情報を提供する必要はないという先例上の取扱いがあります。「確認できるときであっても提供しなければならない」とする点が誤りです。
+地図に表示された土地の位置についての地図訂正の申出をする場合、原則として位置に誤りがあることを証する情報の提供が求められます（不動産登記規則16条5項1号）。
+
+もっとも、その誤りが登記所に備え付けられている地積測量図によって確認できるときは、別途その証明情報を提供する必要はないという先例上の取扱いがあります。「確認できるときであっても提供しなければならない」とする点が誤りです。
 
 **たとえば**、登記所にある地積測量図を見れば位置のずれが一目で分かる場合には、わざわざ別の証明資料を用意しなくても、その図面によって誤りを確認してもらえば足ります。
+
+---
 
 ### まとめ
 
@@ -66,11 +78,12 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第5問＝アウの組合せ／1番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 肢イ（不動産登記規則16条2項）・肢エ（同条15項）・肢ウ（不動産登記法35条、地番は登記所が公的に付す旨）は、ローカル法令データベース（`note-articles/laws/fudousan-touki-kisoku-1.md`、`note-articles/laws/fudousan-touki-hou.md`）で条文原文を直接確認済みです。肢ア（共有者の一人からの申出）は、規則16条1項が申出権者を「表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人」と定めていることを確認したうえで、共有者の一人から申出できる点は地図訂正の保存行為的性格からの整理にとどまります。
+- イ（不動産登記規則16条2項）・エ（同条15項）・ウ（不動産登記法35条、地番は登記所が公的に付す旨）は、ローカル法令データベース（`note-articles/laws/fudousan-touki-kisoku-1.md`、`note-articles/laws/fudousan-touki-hou.md`）で条文原文を直接確認済みです。ア（共有者の一人からの申出）は、規則16条1項が申出権者を「表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人」と定めていることを確認したうえで、共有者の一人から申出できる点は地図訂正の保存行為的性格からの整理にとどまります。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和7年度第4問「地図の訂正」（本シリーズで既に note-articles/r7-mondai/q04-chizu-teisei.md として執筆済み）が、本問と特に強く重複するテーマであることを確認しました。両問とも「地図に表示された土地の位置・区画に誤りがある場合に、所有権の登記名義人が二人であるときはそのうちの一人から地図訂正の申出をすることができる」という論点、および「登記官が申出なしに職権で地図訂正をすることができるか」という論点を共通して扱っています。令和7年度第4問の記事が既に公開されている場合、本記事とほぼ同じ論点を重ねて発信することになるため、note投稿の際は、両記事を見比べて論点の重複に触れる形にするか、公開の間隔を空けるなどの配慮を検討してください。
 - **最新法令準拠チェック（2026-08-06実施・条文番号を訂正）**：前回のチェックで「不動産登記法14条（地図）、同条5項（登記官の職権訂正）」としていましたが、ローカル法令データベースで条文原文を確認したところ、14条は地図・建物所在図の備付けと記載事項を定めるのみで、訂正に関する規定は置かれていませんでした（同条5項は「地図に準ずる図面」の表示事項の規定です）。地図等の訂正の根拠は**不動産登記規則16条（地図等の訂正）**であり、1項が申出権者（表題部所有者・所有権の登記名義人・その一般承継人）、2項が地積に錯誤がある場合に地積更正の登記の申請と併せてする旨、15項が登記官の職権訂正を定めています。該当箇所を訂正済みです。
-- **予備校教材との照合（2026-08-06実施）**：資格予備校（アガルート）の解答解説を、正答判定と条文の当たりを確認するための参照資料としてのみ使用しました。同教材の文言をそのまま転記することはせず、本記事の説明文はすべて条文の構造・要件に基づいてオリジナルに再構成しています。肢オ（規則16条5項1号は文言上「誤りがあることを証する情報」の提供を求めており、条文の字面だけでは登記所備付けの地積測量図による代替・省略の根拠を確認できません）については、同教材が挙げていた平成27年2月25日民二第457号（民事局長通達）を手がかりとして記載しました。もっとも、当該通達そのものの全文はローカル法令データベース（先例・通達は収録対象外）でもWeb検索でも確認できなかったため、通達番号は予備校教材の記載を手がかりとした引用にとどまる旨を付記します。ご自身で登記実務書・先例集等により内容を再確認したうえでご活用ください。
+- **適用法令の現行性チェック（2026-10-01実施）**：ローカル法令データベース（`note-articles/laws/fudousan-touki-kisoku-1.md`・`fudousan-touki-hou.md`）で、不動産登記規則16条（1項・2項・5項・15項）と不動産登記法35条の現行の条文原文を再確認しました。本文が引用する条番号・項番号は現行のものと一致しており、出題当時の古い番号は残っていません。令和6年4月施行の相続登記の義務化、令和8年4月施行の住所・氏名変更登記の義務化は、地図訂正の申出の規律とは別の制度で、本問の内容への影響は見当たりませんでした。ただしオについては、規則16条5項が、位置の誤りの申出には「誤りがあることを証する情報」（1号）と「土地所在図又は地積測量図」（2号）を併せて提供するよう文言上は求めており、登記所備付けの地積測量図で確認できるときに1号の情報を省略できるという取扱いは、条文からは確認できません（前項の通達に依拠しています）。条文の字面だけではオの判定が揺れる余地があるため、判定は公式正解（オ＝誤）に従って維持しています。
+- **予備校教材との照合（2026-08-06実施）**：資格予備校（アガルート）の解答解説を、正答判定と条文の当たりを確認するための参照資料としてのみ使用しました。同教材の文言をそのまま転記することはせず、本記事の説明文はすべて条文の構造・要件に基づいてオリジナルに再構成しています。オ（規則16条5項1号は文言上「誤りがあることを証する情報」の提供を求めており、条文の字面だけでは登記所備付けの地積測量図による代替・省略の根拠を確認できません）については、同教材が挙げていた平成27年2月25日民二第457号（民事局長通達）を手がかりとして記載しました。もっとも、当該通達そのものの全文はローカル法令データベース（先例・通達は収録対象外）でもWeb検索でも確認できなかったため、通達番号は予備校教材の記載を手がかりとした引用にとどまる旨を付記します。ご自身で登記実務書・先例集等により内容を再確認したうえでご活用ください。
 
 ---
 
@@ -110,13 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 図・訂・権・証 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 図 not 图, 訂 not 订,
-権 not 权, 証 not 证).
+kanji 図・訂・権・積・変・記・認・証 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -144,8 +174,10 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積変更に訂正申出の義務なし
 Illustration: A land plot with a chunk broken off, connected by an
-arrow to a 地積変更登記 stamp, but a separate 地図訂正申出 paper sits to
-the side with a red X, drawn as a disconnected, independent track.
+arrow to a 地積変更登記 stamp. A separate 地図訂正申出 paper sits to the
+side on its own independent track, drawn greyed out with a dashed
+outline and a small tag 義務なし, connected to nothing. Do NOT draw a red
+X on the paper (a red X would wrongly suggest it is forbidden).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 義務ではない
 
@@ -154,9 +186,10 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 合意だけで地番は動かせない
 Illustration: Two neighbor characters shaking hands over a 合意 icon,
-pointing at two land plots labeled 1番 and 2番 trying to swap number
-tags, but a large red X blocks the swap because a registry-officer
-stamp is required.
+pointing at two land plots labeled 1番 and 2番 as if trying to swap the
+number tags, but a large red X blocks the swap. A small registry-officer
+icon stands beside the plots as the one who assigns the numbers (it is
+not a stamp to be obtained by the neighbors).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 登記官の権限
 
@@ -166,34 +199,36 @@ Heading (bold, ONE line, ~20 characters or fewer):
 登記官は職権でも訂正できる
 Illustration: A registry officer character noticing a crooked line on
 the map with a magnifying glass, then stamping a 職権訂正 seal directly
-onto the map without any incoming 申出 paper.
+onto the map. No 申出 paper and no applicant character appear anywhere
+in this card.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 職権訂正可
 
 --- CARD 5 ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-地積測量図で確認できれば十分
-Illustration: A registry officer holding up an existing filed document
-that already shows the correct boundary, with a green checkmark, while
-a second blank 証明情報 document sits crossed out with a red X.
+備付けの地積測量図で確認できれば十分
+Illustration: A registry officer holding up an existing document, already
+filed at the registry office, labeled 地積測量図 that shows a position
+error on the map (a land plot drawn in a shifted place), with a green
+checkmark, while a second blank 証明情報 document sits faded with a
+dotted outline and a small tag 不要 (draw no red X on it: a red X would
+wrongly suggest that submitting it is forbidden).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 別途証明不要
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 図・訂・権・証. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 図・訂・権・積・変・記・認・証. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
-a short heading + a short conclusion tag, at a glance.
+a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -276,7 +311,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 共有者は一人からでも申出できる
@@ -292,7 +327,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単独で申出可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 義務の向きは訂正申出から地積更正登記へ
@@ -302,9 +337,10 @@ highlighted border, since this is the actual rule) labeled 実際の義務の
 to an 地積更正の登記 stamp attached alongside it, for the case where
 地積の登記記録に錯誤がある場合. Right panel (drawn faded and
 greyed-out, since this is the trap in the肢) labeled 肢の記述する向き:
-a 地積変更登記 stamp on a land-plot icon with a chunk broken off, with an
-arrow attempting to point toward a 地図訂正申出 paper, blocked by a red
-✕.
+a 地積変更登記 stamp on a land-plot icon with a chunk broken off, with a
+faded dotted arrow toward a 地図訂正申出 paper carrying a small tag
+義務なし (draw no red ✕ here: the point is that no such obligation
+exists, not that the paper is forbidden).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この肢が求めている義務の向きが「地積変更の登記から地図訂正の申
 出」なのか、それとも「地図訂正の申出から地積更正の登記」なのかを確認し
@@ -314,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 義務の向きが逆
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 地番の付替えは合意だけでは決まらない
@@ -332,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記所の専権事項
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 登記官は申出がなくても職権で訂正できる
@@ -348,10 +384,10 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 職権訂正可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-地積測量図で確認できれば証明不要
+備付けの地積測量図で確認できれば証明不要
 Diagram: A decision-tree flowchart. Diamond node: 土地の位置の誤りを、
 登記所に備え付けられている地積測量図によって確認することができるか？
 with はい branch (drawn with a thick highlighted border, since this is
@@ -373,7 +409,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 図・訂・権・証・積. If any character
+Chinese, paying special attention to 図・訂・権・記・認・積・録・錯・誤・変・証・産. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

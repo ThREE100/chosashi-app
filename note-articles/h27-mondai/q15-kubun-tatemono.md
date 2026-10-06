@@ -2,51 +2,65 @@
 
 **出題年度：平成27年度　午後の部　第15問**
 
-> 区分建物の表示に関する登記について次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　所有権の登記名義人が同一である甲区分建物と乙区分建物とが接続している場合であっても，これらの区分建物が主従の関係にないときは，建物の合併の登記をすることができない。
->
-> イ　一棟の建物の全部を取り壊したときは，その一棟の建物に属する区分建物の所有権の登記名義人は，自己が所有する区分建物の滅失の登記と一棟の建物の滅失の登記とを一の申請情報で申請しなければならない。
->
-> ウ　いずれも敷地権付き区分建物である甲区分建物と乙区分建物とを合体し，合体後の建物も敷地権付き区分建物となる場合において，合体前の甲区分建物と乙区分建物のそれぞれの敷地権の割合を合算したものが，合体後の建物の敷地権の割合となるときは，敷地権の割合に係る規約を設定したことを証する情報を提供することを要しない。
->
-> エ　ＡがＢ所有の土地に使用借権を敷地利用権として区分建物を新築した場合には，Ａは，使用借権を敷地権として，区分建物の表題登記を申請することができる。
->
-> オ　甲区分建物が属する一棟の建物に属さない乙区分建物を甲区分建物の附属建物とする区分建物の合併の登記を申請する場合において，乙区分建物が属する一棟の建物の名称を申請情報の内容とするときは，乙区分建物が属する一棟の建物の構造及び床面積を申請情報の内容とすることを要しない。
->
+> 区分建物の表示に関する登記について次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　所有権の登記名義人が同一である甲区分建物と乙区分建物とが接続している場合であっても，これらの区分建物が主従の関係にないときは，建物の合併の登記をすることができない。  
+>　  
+> イ　一棟の建物の全部を取り壊したときは，その一棟の建物に属する区分建物の所有権の登記名義人は，自己が所有する区分建物の滅失の登記と一棟の建物の滅失の登記とを一の申請情報で申請しなければならない。  
+>　  
+> ウ　いずれも敷地権付き区分建物である甲区分建物と乙区分建物とを合体し，合体後の建物も敷地権付き区分建物となる場合において，合体前の甲区分建物と乙区分建物のそれぞれの敷地権の割合を合算したものが，合体後の建物の敷地権の割合となるときは，敷地権の割合に係る規約を設定したことを証する情報を提供することを要しない。  
+>　  
+> エ　ＡがＢ所有の土地に使用借権を敷地利用権として区分建物を新築した場合には，Ａは，使用借権を敷地権として，区分建物の表題登記を申請することができる。  
+>　  
+> オ　甲区分建物が属する一棟の建物に属さない乙区分建物を甲区分建物の附属建物とする区分建物の合併の登記を申請する場合において，乙区分建物が属する一棟の建物の名称を申請情報の内容とするときは，乙区分建物が属する一棟の建物の構造及び床面積を申請情報の内容とすることを要しない。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
+
+---
 
 区分建物（マンションの1室のような専有部分）の表示登記は、通常の建物とは異なる特有のルールが多い分野です。合併・合体・滅失・敷地権それぞれの場面で、条文と先例がどう扱っているかを丁寧に確認しましょう。
 
 ### ア：主従の関係がなくても、接続していれば区分建物の合併はできる
 
-建物の合併の登記は、附属合併（主たる建物と附属建物の関係にある建物どうしの合併）の場合には主従の関係にあることが必要ですが、区分合併（区分建物どうしの合併）の場合には、区分された建物が互いに接続していれば足り、主従の関係にあることは要求されていません（不動産登記事務取扱手続準則86条）。したがって「合併の登記をすることができない」とする本肢は誤りです。
+建物の合併の登記は、附属合併（主たる建物と附属建物の関係にある建物どうしの合併）の場合には主従の関係にあることが必要ですが、区分合併（区分建物どうしの合併）の場合には、区分された建物が互いに接続していれば足り、主従の関係にあることは要求されていません（不動産登記事務取扱手続準則86条）。
+
+したがって「合併の登記をすることができない」とする本肢は誤りです。
 
 **たとえば**、同じ人が所有する隣り合う2つの専有部分（マンションの部屋）があり、主従の関係が特にない場合でも、それらが接続してさえいれば、合併して1つの区分建物として登記することができます。
 
 ### イ：一棟の全部滅失は、一棟の滅失登記のみでよく、各専有部分の滅失登記は不要
 
-一棟の建物の全部が取り壊されたときは、各専有部分の表題部所有者または所有権の登記名義人が、1か月以内に一棟の建物の滅失登記を申請しなければなりません。このとき、一棟の建物に属する各専有部分についての滅失登記は別途不要とされています。したがって「区分建物の滅失登記と一棟の建物の滅失登記とを一の申請情報で申請しなければならない」とする本肢は誤りです。
+一棟の建物の全部が取り壊されたときは、各専有部分の表題部所有者または所有権の登記名義人が、1か月以内に一棟の建物の滅失登記を申請しなければなりません。
+
+このとき、一棟の建物に属する各専有部分についての滅失登記は別途不要とされています。したがって「区分建物の滅失登記と一棟の建物の滅失登記とを一の申請情報で申請しなければならない」とする本肢は誤りです。
 
 **たとえば**、マンション一棟がまるごと取り壊された場合、各部屋の所有者が「一棟の滅失登記」を申請すれば足り、自分の部屋ごとの滅失登記を別途あわせて申請する必要はありません。
 
 ### ウ：敷地権付き区分建物どうしの合体で敷地権割合を合算するときは、規約証明情報は不要
 
-いずれも敷地権付き区分建物である甲・乙を合体させ、合体後の建物も敷地権付き区分建物となる場合において、合体前のそれぞれの敷地権の割合を単純に合算したものが合体後の敷地権の割合になるときは、敷地権の割合に関する規約を新たに設定したものとはいえないため、規約を設定したことを証する情報を提供する必要はありません。本肢は正しい記述です。
+いずれも敷地権付き区分建物である甲・乙を合体させ、合体後の建物も敷地権付き区分建物となる場合において、合体前のそれぞれの敷地権の割合を単純に合算したものが合体後の敷地権の割合になるときは、敷地権の割合に関する規約を新たに設定したものとはいえないため、規約を設定したことを証する情報を提供する必要はありません。
+
+本肢は正しい記述です。
 
 **たとえば**、敷地権の割合10分の1をもつ甲部屋と、10分の1をもつ乙部屋を合体させて1つの部屋にする場合、合体後の敷地権の割合が単純に合わせた10分の2になるのであれば、あらためて規約を証明する書類を提出する必要はありません。
 
 ### エ：使用借権は登記できないため、敷地権にはなれない
 
-敷地権とは、敷地利用権のうち、登記された所有権・地上権・賃借権であって、専有部分と分離して処分することが禁止されているものをいいます（不動産登記法44条1項9号）。使用貸借による使用借権は、そもそも登記することができない権利であるため、敷地権にはなり得ません。したがって、Ａが使用借権を敷地権として区分建物の表題登記を申請することはできず、本肢は誤りです。
+敷地権とは、敷地利用権のうち、登記された所有権・地上権・賃借権であって、専有部分と分離して処分することが禁止されているものをいいます（不動産登記法44条1項9号）。
+
+使用貸借による使用借権は、そもそも登記することができない権利であるため、敷地権にはなり得ません。したがって、Ａが使用借権を敷地権として区分建物の表題登記を申請することはできず、本肢は誤りです。
 
 **たとえば**、友人のＢから無償で借りた土地（使用貸借）の上にＡが区分建物を新築しても、その使用借権を「敷地権」として登記に反映させることはできません。敷地権になれるのは、登記できる所有権・地上権・賃借権に限られます。
 
 ### オ：一棟の建物の名称を記載すれば、その構造・床面積の記載は省略できる
 
-区分建物に関する表示または権利の登記をする場合に、一棟の建物の名称を申請情報の内容としたときは、その一棟の建物の構造および床面積を申請情報の内容としないことができます（不動産登記令3条8号へ）。名称によって一棟の建物を特定できるのであれば、重ねて構造・床面積まで記載する必要はない、という省略規定です。本肢は正しい記述です。
+区分建物に関する表示または権利の登記をする場合に、一棟の建物の名称を申請情報の内容としたときは、その一棟の建物の構造および床面積を申請情報の内容としないことができます（不動産登記令3条8号へ）。
+
+名称によって一棟の建物を特定できるのであれば、重ねて構造・床面積まで記載する必要はない、という省略規定です。本肢は正しい記述です。
 
 **たとえば**、合併の対象となる区分建物が属する一棟の建物に「〇〇マンション」という名称があれば、その名称を申請情報に書くことで、建物の構造や床面積まで重ねて記載する手間を省くことができます。
+
+---
 
 ### まとめ
 
@@ -109,13 +123,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 接・続・合・併・主・従・滅・失・棟・専・有・部・分・敷・地・権・割・算・体・規・約・証・明・借・貸・賃・名・称・構・造・床・面・積・省・略
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -198,18 +230,18 @@ these 5 headings):
 5. 名称を書けば構造・床面積は省略可
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア・ウ・オは分岐の両側がいずれも意味のある結論を持つ決定木型（附属合併か区分合併か、割合を合算しただけか新たな割合を定めたか、名称を記載したか否か）にし、イは一棟全体の滅失と各専有部分の滅失登記の関係を示す系統図型、エは「敷地利用権だから敷地権になれるはず」という思い込みと実際のルールを対比する正誤対比型にした。
 
@@ -292,7 +324,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -312,7 +344,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 接続のみで足りる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -331,7 +363,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 各専有部分の登記は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -353,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単純合算なら証明不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -373,7 +405,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記できない権利は不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

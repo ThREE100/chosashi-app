@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第18問**
 
-> 法定相続情報を記載した書面（以下「法定相続情報一覧図」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　法定相続情報一覧図の保管の申出を行う場合には、申出人が提出すべき法定相続情報一覧図には被相続人の本籍地の記載を要する。
->
-> イ　法定相続情報一覧図の写しの再交付の申出は、当該法定相続情報一覧図の保存期間が満了するまで行うことができる。
->
-> ウ　法定相続情報一覧図の保管の申出の際に添付書面として提出された相続人の戸籍の全部事項証明書は、返却されない。
->
-> エ　法定相続情報一覧図の保管の申出は、申出人を所有権の登記名義人とする不動産の所在地を管轄する登記所にすることができる。
->
-> オ　土地の表示に関する登記を申請する場合において、相続があったことを証する情報として当該相続に係る法定相続情報一覧図を識別するための法定相続情報番号を提供するときは、法定相続情報一覧図の写しを提供することを要しない。
->
+> 法定相続情報を記載した書面（以下「法定相続情報一覧図」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　法定相続情報一覧図の保管の申出を行う場合には、申出人が提出すべき法定相続情報一覧図には被相続人の本籍地の記載を要する。  
+>　  
+> イ　法定相続情報一覧図の写しの再交付の申出は、当該法定相続情報一覧図の保存期間が満了するまで行うことができる。  
+>　  
+> ウ　法定相続情報一覧図の保管の申出の際に添付書面として提出された相続人の戸籍の全部事項証明書は、返却されない。  
+>　  
+> エ　法定相続情報一覧図の保管の申出は、申出人を所有権の登記名義人とする不動産の所在地を管轄する登記所にすることができる。  
+>　  
+> オ　土地の表示に関する登記を申請する場合において、相続があったことを証する情報として当該相続に係る法定相続情報一覧図を識別するための法定相続情報番号を提供するときは、法定相続情報一覧図の写しを提供することを要しない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
 ---
@@ -40,7 +40,9 @@
 
 ### エ：保管の申出先は「被相続人」名義の不動産の所在地の登記所
 
-不動産登記規則247条1項により、法定相続情報一覧図の保管の申出は、被相続人の本籍地・最後の住所地・申出人の住所地、または**被相続人**を所有権の登記名義人とする不動産の所在地を管轄する登記所にすることができます。申出人自身が別に所有している無関係な不動産の所在地では申し出ることはできません。
+不動産登記規則247条1項により、法定相続情報一覧図の保管の申出は、被相続人の本籍地・最後の住所地・申出人の住所地、または**被相続人**を所有権の登記名義人とする不動産の所在地を管轄する登記所にすることができます。
+
+申出人自身が別に所有している無関係な不動産の所在地では申し出ることはできません。
 
 **たとえば**、亡くなった父親が持っていた土地の所在地を管轄する登記所には申出ができますが、相続人である自分自身が以前から個人的に所有している別の土地の所在地の登記所には、この申出をすることはできません。
 
@@ -49,6 +51,8 @@
 土地の表示に関する登記を申請する場合、相続があったことを証する情報として法定相続情報番号を提供するときは、法定相続情報一覧図の写し自体を改めて提供する必要はありません（不動産登記規則37条の3第1項。相続があったことを証する情報の提供に代えて、法定相続情報一覧図の写し又は法定相続情報番号のいずれかを提供すれば足りるとされています）。
 
 **たとえば**、すでに法務局に登録されている法定相続情報一覧図の番号さえ伝えれば、分厚い一覧図のコピーを毎回添付し直す必要はありません。
+
+---
 
 ### まとめ
 
@@ -107,12 +111,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 号・地・番・登・記・所・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -192,20 +214,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「必須事項か任意的記載事項か」「保存期間内か」「誰の名義の不動産か」「番号か写しか」を見抜けるようにする5パネル構成。②の色分け（一覧図を作る・保管するとき＝緑、一覧図を使うとき＝青）を引き継いでいる。
 
@@ -230,7 +252,7 @@ panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 4（肢エ）uses a side-by-side comparison frame（LEFT: 被
+flowchart. Panel 4（エ）uses a side-by-side comparison frame（LEFT: 被
 相続人名義の不動産＝申出先にできる、RIGHT: 申出人自身の不動産＝申出先
 にできない）instead of a flowchart. Unlike a glanceable summary poster,
 each panel MAY include a short「着眼点」callout box with 1-2 sentences
@@ -242,7 +264,15 @@ written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -268,7 +298,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 本籍地は任意的記載事項
@@ -284,7 +314,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 本籍地は任意
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 保存期間内なら写しの再交付ができる
@@ -300,7 +330,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 5年間は再交付可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 戸籍の証明書は返却される
@@ -317,7 +347,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 戸籍は返却される
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 申出先は被相続人名義の不動産で決まる
@@ -336,7 +366,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 被相続人名義が基準
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 番号を提供すれば写しは不要
@@ -359,10 +389,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 第1項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 籍, 相, 続, 覧, 図, 戸, 証, 明, 号, 登, 記, 所, 返, 却 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 4 is drawn

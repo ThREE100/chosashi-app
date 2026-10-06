@@ -2,51 +2,87 @@
 
 **出題年度：令和3年度　午後の部　第11問**
 
-> 分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲土地の所有権の登記名義人であるＡが死亡した場合において、Ａの死亡前にＢがＡから甲土地を買い受けていたが、当該売買に基づく甲土地の所有権の移転の登記がされていないときは、Ｂは、甲土地の所有権を取得したことを証する情報を提供して、甲土地の分筆の登記を申請することができる。
->
-> イ　賃借権の設定の登記がされている甲土地の所有権の登記名義人であるＡは、当該賃借権の登記名義人であるＢが承諾したことを証する情報を提供することなく、甲土地の分筆の登記を申請することができる。
->
-> ウ　抵当権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記を申請する場合において、当該抵当権の登記名義人が分筆後の乙土地について当該抵当権を消滅させることを承諾したことを証する情報を提供したときは、分筆後の乙土地の登記記録には、当該抵当権が消滅した旨が記録される。
->
-> エ　Ａの相続財産の管理人として選任されたＢが、亡Ａ相続財産を所有権の登記名義人とする土地の分筆の登記を申請するときは、その申請情報と併せて家庭裁判所の許可を証する情報を提供しなければならない。
->
-> オ　Ａ及びＢが所有権の登記名義人（持分は各2分の1）である土地の分筆の登記をしようとする場合には、Ａが当該登記の申請情報と併せてＢがこれに承諾したことを証する情報を提供したとしても、Ａは、単独で、当該登記の申請をすることはできない。
->
+> 分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲土地の所有権の登記名義人であるＡが死亡した場合において、Ａの死亡前にＢがＡから甲土地を買い受けていたが、当該売買に基づく甲土地の所有権の移転の登記がされていないときは、Ｂは、甲土地の所有権を取得したことを証する情報を提供して、甲土地の分筆の登記を申請することができる。  
+>　  
+> イ　賃借権の設定の登記がされている甲土地の所有権の登記名義人であるＡは、当該賃借権の登記名義人であるＢが承諾したことを証する情報を提供することなく、甲土地の分筆の登記を申請することができる。  
+>　  
+> ウ　抵当権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記を申請する場合において、当該抵当権の登記名義人が分筆後の乙土地について当該抵当権を消滅させることを承諾したことを証する情報を提供したときは、分筆後の乙土地の登記記録には、当該抵当権が消滅した旨が記録される。  
+>　  
+> エ　Ａの相続財産の管理人として選任されたＢが、亡Ａ相続財産を所有権の登記名義人とする土地の分筆の登記を申請するときは、その申請情報と併せて家庭裁判所の許可を証する情報を提供しなければならない。  
+>　  
+> オ　Ａ及びＢが所有権の登記名義人（持分は各2分の1）である土地の分筆の登記をしようとする場合には、Ａが当該登記の申請情報と併せてＢがこれに承諾したことを証する情報を提供したとしても、Ａは、単独で、当該登記の申請をすることはできない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
 
-分筆の登記は、表示に関する登記の中でも「誰が申請できるのか（申請人適格）」「どんな添付情報が要るのか」「他の権利者の承諾はいるのか」がまとめて問われやすい分野です。所有権や権利関係の"名義"と、申請できる資格をきちんと切り分けて整理できているかがポイントになります。
+---
+
+分筆の登記は、表示に関する登記の中でも「誰が申請できるのか（申請人適格）」「どんな添付情報が要るのか」「他の権利者の承諾はいるのか」がまとめて問われやすい分野です。
+
+所有権や権利関係の"名義"と、申請できる資格をきちんと切り分けて整理できているかがポイントになります。
 
 ### ア：所有権の移転登記を受けていない買主は、分筆の登記を申請できない
 
-分筆の登記を申請できるのは、表題部所有者または所有権の登記名義人に限られます（不動産登記法39条1項）。売買で甲土地を買い受けていても、所有権の移転の登記を受けていない段階のＢは、まだ登記名義人ではありません。したがって、「所有権を取得したことを証する情報」を提供しても、Ｂはそのままでは甲土地の分筆の登記を申請することはできず、まず所有権の移転の登記を受ける必要があります。
+分筆の登記を申請できるのは、表題部所有者または所有権の登記名義人に限られます（不動産登記法39条1項）。売買で甲土地を買い受けていても、所有権の移転の登記を受けていない段階のＢは、まだ登記名義人ではありません。
+
+したがって、「所有権を取得したことを証する情報」を提供しても、Ｂはそのままでは甲土地の分筆の登記を申請することはできず、まず所有権の移転の登記を受ける必要があります。
 
 **たとえば**、中古の一戸建てを買って代金も払い終えたけれど、まだ名義変更（所有権移転登記）の手続きを済ませていない人が、「もう自分のものだから」と土地を2筆に分ける分筆の登記だけを先に申請しようとしても、登記記録上はまだ前の所有者の名義のままなので、その申請は受け付けてもらえない、というイメージです。
 
 ### イ：賃借権者の承諾がなくても、所有権の登記名義人は分筆の登記を申請できる
 
-分筆の登記は表示に関する登記であり、その申請にあたって、賃借権の登記名義人が承諾したことを証する情報は添付情報とはされていません。したがって、賃借権の設定の登記がある甲土地であっても、所有権の登記名義人であるＡは、賃借権者Ｂの承諾を証する情報を提供することなく、単独で分筆の登記を申請することができます。
+分筆の登記は表示に関する登記であり、その申請にあたって、賃借権の登記名義人が承諾したことを証する情報は添付情報とはされていません。
+
+したがって、賃借権の設定の登記がある甲土地であっても、所有権の登記名義人であるＡは、賃借権者Ｂの承諾を証する情報を提供することなく、単独で分筆の登記を申請することができます。
 
 **たとえば**、自分が持っている土地を誰かに貸していて、その借主の賃借権が登記されている場合でも、地主であるあなたが「この土地を2つの筆に分けたい」と分筆の登記をするのに、いちいち借主から「分けていいですよ」という承諾書をもらう必要はない、ということです。
 
 ### ウ：抵当権の消滅承諾情報を出しても、乙土地に「抵当権が消滅した旨」は記録されない
 
-抵当権の設定がされている甲土地から乙土地を分筆する場合において、抵当権の登記名義人が分筆後の乙土地について抵当権を消滅させることを承諾したことを証する情報を提供したときは、不動産登記法40条により「乙土地について当該権利が消滅した旨」の登記がされますが、これは乙土地の登記記録に記録されるのではなく、分筆後の甲土地の登記記録にある当該抵当権の登記についてする付記登記によって記録されます。そして、この場合には乙土地の登記記録に当該抵当権の登記を転写すること自体が不要とされています（不動産登記規則104条2項）。つまり、乙土地には抵当権の登記がそもそも移されないだけであって、乙土地の登記記録に「抵当権が消滅した旨」がわざわざ記録されるわけではありません。したがって、乙土地の登記記録に消滅した旨が記録されるとする本肢は誤りです。
+抵当権の設定がされている甲土地から乙土地を分筆する場合において、抵当権の登記名義人が分筆後の乙土地について抵当権を消滅させることを承諾したことを証する情報を提供したときは、不動産登記法40条により「乙土地について当該権利が消滅した旨」の登記がされますが、これは乙土地の登記記録に記録されるのではなく、分筆後の甲土地の登記記録にある当該抵当権の登記についてする付記登記によって記録されます。
+
+そして、この場合には乙土地の登記記録に当該抵当権の登記を転写すること自体が不要とされています（不動産登記規則104条2項）。
+
+つまり、乙土地には抵当権の登記がそもそも移されないだけであって、乙土地の登記記録に「抵当権が消滅した旨」がわざわざ記録されるわけではありません。
+
+したがって、乙土地の登記記録に消滅した旨が記録されるとする本肢は誤りです。
 
 **たとえば**、ローンの担保として抵当権がついている広い土地の一部を切り分けて（分筆して）、その切り分けた部分については銀行が「担保から外していいですよ」と承諾してくれた場合、切り分けた側の土地には抵当権の登記が最初から書き写されないだけで、「ここは抵当権が消えました」という一文が新しく書き込まれるわけではない、という違いです。
 
 ### エ：相続財産管理人が分筆の登記を申請するのに、家庭裁判所の許可は不要
 
-亡Ａの相続財産の管理人として選任されたＢが、亡Ａ相続財産を所有権の登記名義人とする土地の分筆の登記を申請する場合、その申請情報と併せて家庭裁判所の許可を証する情報を提供する必要はありません。相続人のあることが明らかでない相続財産の管理人は、民法27条から29条までの規定（不在者の財産管理人の規定）の準用を受け（民法953条）、民法103条に規定する権限（保存行為並びに財産の性質を変えない範囲内の利用・改良行為）を超える行為をするときにのみ家庭裁判所の許可が必要とされます（民法28条）。土地の分筆の登記は財産の現状を大きく変える処分行為ではなく、保存行為・管理行為的なものとして扱われるため、この権限の範囲内にとどまり、家庭裁判所の許可がなくても申請することができるとされています。なお、令和3年度の出題当時は「相続人のあることが明らかでない場合」の管理人は民法（旧）952条により「相続財産管理人」と呼ばれていましたが、2023年4月1日施行の民法改正により、この場面の管理人は「相続財産清算人」に呼称が改められています（現行民法952条）。呼称は変わっても、家庭裁判所の許可の要否に関する上記の結論（民法953条・28条・103条の規律）自体は変わりません。
+亡Ａの相続財産の管理人として選任されたＢが、亡Ａ相続財産を所有権の登記名義人とする土地の分筆の登記を申請する場合、その申請情報と併せて家庭裁判所の許可を証する情報を提供する必要はありません。
+
+相続人のあることが明らかでない相続財産の管理人は、民法27条から29条までの規定（不在者の財産管理人の規定）の準用を受け（民法953条）、民法103条に規定する権限（保存行為並びに財産の性質を変えない範囲内の利用・改良行為）を超える行為をするときにのみ家庭裁判所の許可が必要とされます（民法28条）。
+
+土地の分筆の登記は財産の現状を大きく変える処分行為ではなく、保存行為・管理行為的なものとして扱われるため、この権限の範囲内にとどまり、家庭裁判所の許可がなくても申請することができるとされています。
+
+なお、令和3年度の出題当時は「相続人のあることが明らかでない場合」の管理人は民法（旧）952条により「相続財産管理人」と呼ばれていましたが、2023年4月1日施行の民法改正により、この場面の管理人は「相続財産清算人」に呼称が改められています（現行民法952条）。
+
+呼称は変わっても、家庭裁判所の許可の要否に関する上記の結論（民法953条・28条・103条の規律）自体は変わりません。
 
 **たとえば**、身寄りのない人が亡くなって、その財産を管理する人（相続財産管理人）が裁判所から選ばれたとき、その管理人が財産の土地を売り払うような場面では家庭裁判所の許可が問題になりますが、単に土地を2筆に分けて整理するだけの分筆の登記であれば、いちいち裁判所のお墨付きをもらわなくてもできる、というイメージです。
 
 ### オ：共有地の分筆は、他の共有者の承諾書を出すだけではＡ単独で申請できない
 
-分筆の登記は、表題部所有者または所有権の登記名義人が申請するものです（不動産登記法39条1項）。ＡとＢが持分各2分の1で共有する土地について、Ａが申請情報と併せてＢの承諾を証する情報を提供したとしても、Ａが単独で分筆の登記を申請することはできません。分筆の登記を申請するには、Ｂも申請人となる必要があり、単に共有者Ｂの承諾書を添えるだけでは足りないからです。
+分筆の登記は、表題部所有者または所有権の登記名義人が申請するものです（不動産登記法39条1項）。ＡとＢが持分各2分の1で共有する土地について、Ａが申請情報と併せてＢの承諾を証する情報を提供したとしても、Ａが単独で分筆の登記を申請することはできません。
+
+分筆の登記を申請するには、Ｂも申請人となる必要があり、単に共有者Ｂの承諾書を添えるだけでは足りないからです。
+
+なお、2023年4月1日に施行された民法改正により、共有物の管理に関する事項（分筆の登記のように、共有物の形状又は効用の著しい変更を伴わない軽微な変更を含みます）は、共有者の持分の価格に従い、その過半数で決することができるようになりました（民法251条1項・252条1項）。
+
+これを受けて、持分の価格の合計が過半数となる共有者だけで分筆の登記を申請できる取扱いになっています。
+
+もっとも、本問のＡ・Ｂの持分はそれぞれ2分の1ずつであり、どちらの持分も「過半数」（2分の1を超える割合）には達しません。
+
+したがって、この現行法上の取扱いを踏まえても、Ａの持分だけでは過半数に届かず、Ｂも申請人とならなければ分筆の登記を申請することはできないという結論に変わりはありません。
 
 **たとえば**、友人と半分ずつお金を出して共同で買った土地を2つに分けたいとき、片方が「相方も了承しているから」と了承の書面だけを持って一人で分筆の登記に行っても手続きはできず、二人そろって申請人にならなければならない、という感覚です。
+
+今は持分の過半数を有する共有者だけで申請できる制度もありますが、ちょうど半分ずつの持分では「過半数」には届かないため、この事例でもやはり二人そろっての申請が必要になります。
+
+---
 
 ### まとめ
 
@@ -54,7 +90,7 @@
 - **イ（正）** 分筆の登記に賃借権の登記名義人の承諾を証する情報は添付情報とされていない
 - **ウ（誤）** 消滅承諾情報を提供しても「消滅した旨」は甲土地側への付記登記で記録され、乙土地には抵当権自体が転写されないだけ
 - **エ（誤）** 相続財産管理人（現行法では相続財産清算人）の分筆の登記申請に家庭裁判所の許可を証する情報は不要
-- **オ（正）** 共有地の分筆はＡ単独では申請できず、承諾書提供では足りずＢも申請人となる必要がある
+- **オ（正）** 共有地の分筆はＡ単独では申請できない（持分が各2分の1で過半数に届かないため）
 
 分筆の登記は「名義」と「申請できる資格」を切り分け、承諾情報が要る場面と要らない場面を丁寧に区別できるかが得点の分かれ目です。
 
@@ -67,7 +103,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号（令和3年度 午後の部 第11問）・正解番号（3番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 各肢の根拠のうち、条文・先例レベルで確認できたものと、一般原則からの推論にとどまるものを区別すると次のとおりです。ア（申請人適格）とオ（共有地の分筆で単独申請不可）は不動産登記法39条1項です。`note-articles/laws/fudousan-touki-hou.md`で確認したところ、39条1項「分筆又は合筆の登記は、表題部所有者又は所有権の登記名義人以外の者は、申請することができない」がまさに該当する規定であり、条番号は正確でした。ウ（消滅承諾時の記録のされ方）は、当初「不動産登記規則104条1項」としていましたが、`note-articles/laws/fudousan-touki-hou.md`（法40条）と`note-articles/laws/fudousan-touki-kisoku-1.md`（規則104条）の条文原文を確認した結果、法40条により「乙土地について当該権利が消滅した旨」の登記自体はされるものの、規則104条2項によりそれは乙土地の登記記録にではなく分筆後の甲土地の登記記録上の付記登記として記録され、乙土地には当該権利の登記を転写すること自体が不要とされる、という規律であることが判明しました。104条1項は添付情報（消滅を承諾したことを証する情報等）の要件を定めた規定であり、本肢の「乙土地の登記記録に消滅した旨が記録されるか」という論点に直接対応するのは2項であるため、「規則104条2項」に訂正し、本文の説明も付記登記の所在（甲土地側）まで正確に記載するよう修正しました（なお104条4項・5項が地役権への準用規定で、2項・3項が一般の権利＝抵当権等を含む本則です）。エ（家庭裁判所の許可が不要であること）について、`note-articles/laws/minpou-3-shinzoku-souzoku.md`で確認したところ、相続人のあることが明らかでない場合の相続財産の管理人（現行民法952条・953条）には民法27条から29条までが準用され、`note-articles/laws/minpou-1-soukyoku-bukken.md`の民法28条により、民法103条（保存行為並びに利用・改良行為）の権限を超えるときに限り家庭裁判所の許可が必要とされることを確認しました。分筆の登記がこの103条の範囲内（保存・管理行為的なもの）にとどまるという当てはめ自体は、条文から論理的に導けるものの、その当てはめを明示した先例として挙げた「登記研究516号195頁」は、WebSearchでは当該先例番号・掲載ページを裏付ける一次資料を発見できず、確認できていません。また、令和3年度の出題当時は民法（旧）952条により「相続財産管理人」と呼ばれていたこの管理人は、2023年4月1日施行の民法改正後は「相続財産清算人」と呼称が改められていますが、家庭裁判所の許可の要否という結論自体には影響しません。イ（賃借権の登記名義人の承諾が添付情報とされていないこと）は、データベース上「添付情報とされていない」という実務上の取扱いとして記載されているもので、特定の条文番号までは確定できていません。抵当権を例にした一般原則（分筆は既存の権利を消滅・変更させないため、第三者の承諾証明情報は分筆登記の添付情報として求められないこと＝不動産登記令7条1項5号ハの反対解釈）は、`note-articles/laws/fudousan-touki-rei.md`で確認したところ、令7条1項5号は「権利に関する登記を申請するとき」に限定される規定であり、表示に関する登記である分筆の登記には適用されないため、反対解釈として妥当と考えられますが、賃借権に特化した一次資料は見つからず、条文レベルの断定は避けています。
-- なお、共有地の分筆登記に共有者全員の申請が必要とする点（ア・オの根拠である39条1項の解釈）は、令和3年度の出題当時の実務・解釈に基づくものです。2023年4月1日施行の改正民法（`note-articles/laws/minpou-1-soukyoku-bukken.md`の251条・252条、軽微な変更を管理行為として持分の過半数で決することができる旨の規定）を受けた令和5年3月28日民二第533号通達により、分筆・合筆登記は「軽微な変更」に該当し、申請しようとする土地の持分の価格の合計が過半数となる共有者らのみで申請できるようになりました。もっとも、本肢オの事案はＡ・Ｂの持分が各2分の1であり、どちらか一方の持分だけでは「過半数」（2分の1を超える割合）に達しないため、この2023年の改正・通達を前提にしても、Ａ・Ｂの双方が申請人とならない限り分筆の登記を申請することはできません。したがって、現行法・現行実務のもとでも、Ａが単独では申請できないという本肢オの結論（誤り）自体は変わらないと判断しました。
+- オの論点について：2023年4月1日施行の改正民法（`note-articles/laws/minpou-1-soukyoku-bukken.md`の251条・252条、軽微な変更を管理行為として持分の過半数で決することができる旨の規定）により、分筆登記は持分の価格の合計が過半数となる共有者らのみで申請できる取扱いになっていることは、本文中で解説を追記済みです。もっとも、本オの事案はＡ・Ｂの持分が各2分の1であり、どちらか一方の持分だけでは「過半数」（2分の1を超える割合）に達しないため、この現行法上の取扱いを前提にしても、Ａ・Ｂの双方が申請人とならない限り分筆の登記を申請することはできません。正解（オは正しい）への影響はありません。この取扱いの根拠として先行して参照した通達番号（令和5年3月28日民二第533号）自体は、WebSearchによる複数の実務解説サイトでの言及にとどまり、e-Gov法令検索等の一次資料での番号そのものの確認はできていません。
 - なお、アガルート等のローカル教材PDFは本実行環境には存在せず、参照していません。本記事は上記の検証済みデータベースの記載のみに基づいて作成しています。
 
 ---
@@ -108,12 +144,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・相・続・家・庭・裁・判 — these must be rendered in
+kanji 録・権・地・登・記・所・相・続・家・庭・裁・判・過・半 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -143,9 +197,9 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-相続財産管理人は許可不要
+相続財産清算人は許可不要
 Illustration: An isometric land plot being divided into two by a dotted
-line. A person labeled "相続財産管理人" holds an application document and
+line. A person labeled "相続財産清算人" holds an application document and
 submits it at a registry desk. Beside them, a small court-building icon
 has a document labeled "家庭裁判所の許可" with a red cross mark over it,
 showing it is not required.
@@ -155,14 +209,17 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-共有地は全員申請
+過半数なければ全員必要
 Illustration: An isometric registry desk with two people standing side
 by side, labeled "A" and "B", representing co-owners of one land plot.
-Person A holds a paper labeled "Bの承諾を証する情報". Above the desk, an
-application form panel shows two stamp slots both highlighted as
-required, while a single stamp (A alone) is shown crossed out.
+Each figure has a small fraction tag beside them reading "持分2分の1".
+A small pie-chart icon between them shows an exactly even 50/50 split
+with a torn-paper label "過半数に届かず". Person A holds a paper labeled
+"Bの承諾を証する情報". Above the desk, an application form panel shows
+two stamp slots both highlighted as required, while a single stamp
+(A alone) is shown crossed out.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-承諾だけでは不可
+A・Bとも必要(過半数なし)
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 承諾情報は必要か
@@ -194,20 +251,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 分筆の登記の5肢を、①「申請人になれるのは誰か（不動産登記法39条1項の登記名義人性）」という共有の決定木で説明できるア・オと、②「表示登記か権利登記かの見分け（イ）」「甲乙どちらの登記記録に記録されるかの思い込みチェック（ウ）」「管理人の権限の範囲（エ）」という個別の型で説明する3肢に分けて、5枚の作図ガイドパネルで示す構成。アとオは同じ決定木（申請人になれるのは誰か）を共有し、各パネルは自分の肢に関係する枝だけを強調する。
 
@@ -251,7 +308,15 @@ or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -277,7 +342,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -295,8 +360,12 @@ labeled "A"(前の所有者), a person(買主B)stands in front holding a
 document labeled "所有権を取得したことを証する情報", and a torn-paper
 label reads "移転登記が先" blocking the request with a red cross mark.
 (c) "共有者の一部だけが、他の共有者の承諾を証する情報のみ添えて申請しよ
-うとする" → "申請できない(共有者全員が申請人になる必要)" — render this
-branch small, faded/greyed-out, dotted-outline (this is PANEL 5's topic).
+うとする" leads to a second, smaller diamond node labeled "その持分は過半
+数(2分の1を超える割合)に達するか？" with two further outcomes: "達する"
+→ "その者だけで申請できる" and "達しない" → "他の共有者も申請人になる必
+要がある" — render this entire branch (including the nested diamond and
+both of its outcomes) small, faded/greyed-out, dotted-outline (this is
+PANEL 5's topic, not this panel's).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず登記記録上の名義人が誰になっているかを確認します。次に、申請しよう
 としている人がその名義人と一致するか(まだ移転登記を受けていない買主で
@@ -305,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 移転登記が先
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 表示登記か権利登記かを先に見分ける
@@ -329,7 +398,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 表示登記だから不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 乙土地には「消滅した旨」は書かれない
@@ -354,12 +423,12 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 甲土地側に付記登記
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
-相続財産管理人の分筆に家裁許可は不要
+相続財産清算人の分筆に家裁許可は不要
 Diagram: A self-contained decision flowchart (not shared with other
-panels). Diamond node labeled "相続財産管理人(現行:相続財産清算人)がし
+panels). Diamond node labeled "相続財産清算人がし
 ようとする行為は、民法103条の保存行為・財産の性質を変えない利用改良行
 為の範囲内か？". Yes branch, rendered with a thick highlighted border and
 full color (this is this panel's answer): → illustrative note "分筆の登
@@ -370,10 +439,10 @@ branch): → illustrative note "例:土地の売却など処分行為" → its o
 conclusion node reading "家庭裁判所の許可が必要". Draw a family-court
 building icon near the "許可が必要" conclusion node and a registry desk
 icon near the "許可は不要" conclusion node, with a person labeled "相続
-財産管理人" submitting an application document there. Do not draw any
+財産清算人" submitting an application document there. Do not draw any
 looping arrow back into the diamond node from either conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、相続財産管理人がしようとしている行為が保存行為や財産の性質を変え
+まず、相続財産清算人がしようとしている行為が保存行為や財産の性質を変え
 ない利用・改良行為(民法103条)の範囲内か、それを超える処分行為かを確認
 します。次に、分筆の登記は財産の現状を大きく変える処分行為ではなく管理
 行為的なものに当たるため、家庭裁判所の許可は不要という結論になることを
@@ -382,10 +451,10 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保存行為の範囲内
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-承諾書だけでは共有者全員にならない
+Ａの持分が過半数に届くかを確認する
 Diagram: The same shared decision tree as PANEL 1, redrawn with the
 highlighting reversed. Top diamond node labeled "分筆の登記の申請人にな
 れるのは誰か？(表題部所有者/所有権の登記名義人)". Three branch arrows
@@ -395,31 +464,41 @@ this panel's topic). (b) "まだ登記記録上の名義人になっていない
 等)が申請しようとする" → "申請できない(先に移転登記が必要)" — render
 this branch small, faded/greyed-out, dotted-outline (this is PANEL 1's
 topic). (c) "共有者の一部だけが、他の共有者の承諾を証する情報のみ添えて
-申請しようとする" → "申請できない(共有者全員が申請人になる必要)" —
-render THIS branch with a thick highlighted border and full color; inside
-it, draw an isometric registry desk scene: two people labeled "A" and
-"B" stand beside one land plot as co-owners(持分各2分の1); person A holds
-a paper labeled "Bの承諾を証する情報"; above the desk, an application
-form panel shows two signature/stamp slots both highlighted as required
-(A and B), while a single stamp(Aだけ)is shown crossed out in red.
+申請しようとする" — render THIS branch with a thick highlighted border
+and full color, and inside it draw a second, full-size diamond node
+labeled "その者の持分は過半数(2分の1を超える割合)に達するか？" with two
+outcome nodes of its own, BOTH drawn with real content (do not fade
+either side, since both are genuine conclusions a reader needs to know):
+"達する" → a conclusion node reading "その者だけで申請できる(民法251条1
+項・252条1項、軽微な変更として持分の過半数で決定)"; "達しない" → a
+conclusion node reading "他の共有者も申請人になる必要がある". Below the
+"達しない" conclusion node, draw an isometric registry desk scene: two
+people labeled "A" and "B" stand beside one land plot as co-owners, each
+with a fraction label "2分の1" beside them (making clear neither exceeds
+過半数); person A holds a paper labeled "Bの承諾を証する情報"; above the
+desk, an application form panel shows two signature/stamp slots both
+highlighted as required (A and B), while a single stamp(Aだけ)is shown
+crossed out in red. Do not draw any looping arrow back into either
+diamond node from any conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、申請人になろうとする人が、その土地の所有権の登記名義人(共有の場
-合は全員)にあたるかを確認します。次に、他の共有者の承諾を証する情報を
-添付しても、その共有者自身が申請人にならない限り申請できないことを確認
-します。
+まず、申請人になろうとする人の持分が、共有物の管理に関する事項を決めら
+れる「過半数」(2分の1を超える割合)に達するかを確認します。次に、達しな
+い場合は、他の共有者の承諾を証する情報を添付しても、その共有者自身が申
+請人にならない限り申請できないことを確認します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-Bも申請人が必要
+持分2分の1は過半数未満
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 不動産登記法39条1項・40条／不動産登記規則104条2項／不動産登記令7条1項
-5号ハ／民法953条・28条・103条(相続財産管理人/現行:相続財産清算人)
+5号ハ／民法953条・28条・103条／民
+法251条1項・252条1項(令和5年4月1日施行、持分過半数による管理行為の決定)
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・相・続・家・庭・裁・判・賃・借・抵・当・筆・単・独・員. If
-any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・録・権・地・物・登・記・所・相・続・家・庭・裁・判・賃・借・抵・当・筆・単・独・過. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

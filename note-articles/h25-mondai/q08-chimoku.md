@@ -2,25 +2,29 @@
 
 **出題年度：平成25年度　午後の部　第8問**
 
-> 地目に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。
->
-> ア　牧場地域内にある牧畜のために使用する建物の敷地の地目は、その建物が永久的設備と認められるものに限り、宅地とする。
->
-> イ　地目が山林として記録されている土地について、その後に駐車場として使用されたものの、現在は宅地として使用されている場合には、直ちに、当該土地の地目を宅地とする地目に関する変更の登記をすることができる。
->
-> ウ　耕作地の区域内にある農具小屋の敷地の地目は、その建物が永久的施設と認められるものに限り、宅地とする。
->
-> エ　地目が山林として記録されている甲土地に接続する乙土地の地目が宅地である場合において、甲土地がテニスコートに造成されたときは、甲土地の地目を雑種地とする地目に関する変更の登記をすることができる。
->
-> オ　温泉の沸出口及びその維持に必要な土地の地目は、鉱泉地とする。
->
+> 地目に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　牧場地域内にある牧畜のために使用する建物の敷地の地目は、その建物が永久的設備と認められるものに限り、宅地とする。  
+>　  
+> イ　地目が山林として記録されている土地について、その後に駐車場として使用されたものの、現在は宅地として使用されている場合には、直ちに、当該土地の地目を宅地とする地目に関する変更の登記をすることができる。  
+>　  
+> ウ　耕作地の区域内にある農具小屋の敷地の地目は、その建物が永久的施設と認められるものに限り、宅地とする。  
+>　  
+> エ　地目が山林として記録されている甲土地に接続する乙土地の地目が宅地である場合において、甲土地がテニスコートに造成されたときは、甲土地の地目を雑種地とする地目に関する変更の登記をすることができる。  
+>　  
+> オ　温泉の沸出口及びその維持に必要な土地の地目は、鉱泉地とする。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 地目の認定は「現況主義」が基本ですが、地域性（牧場地域、耕作地域など）や隣接地との関係によって、単純に建物の有無だけでは判断できない例外がいくつもあります。丸暗記ではなく、地目区分の趣旨から理解しておくことが大切です。
 
 ### ア：牧場地域内の牧畜用建物の敷地は、「宅地」にはならない
 
-牧場地域内にある牧畜のために使用する建物の敷地は、その建物が永久的設備と認められるものであっても、「宅地」とはされません。牧場地域は牧場としての一体的な土地利用が想定されており、その中にある牧畜用建物の敷地は、牧場等としての地目認定がされるのが原則です。
+牧場地域内にある牧畜のために使用する建物の敷地は、その建物が永久的設備と認められるものであっても、「宅地」とはされません。
+
+牧場地域は牧場としての一体的な土地利用が想定されており、その中にある牧畜用建物の敷地は、牧場等としての地目認定がされるのが原則です。
 
 **たとえば**、牧場の中に牛舎を建てたとしても、その牛舎の敷地だけを切り出して「宅地」として登記することはできず、牧場全体の一部として扱われます。
 
@@ -47,6 +51,8 @@
 温泉（鉱泉）の沸出口及びその維持に必要な範囲の土地の地目は、「鉱泉地」と定められています。これは地目区分の定義そのものであり、争いのない基本的な知識です。
 
 **たとえば**、温泉旅館の敷地の中でも、実際に温泉が湧き出している場所とその周辺の維持管理に必要な部分については、「鉱泉地」として登記されます。
+
+---
 
 ### まとめ
 
@@ -108,12 +114,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・建・物・登・記 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -180,17 +204,17 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -205,20 +229,20 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric land plots, pastures, farmland,
-tennis courts, and hot springs. Panels 1（肢ア）and 3（肢ウ）form a matched
+tennis courts, and hot springs. Panels 1（ア）and 3（ウ）form a matched
 pair using a side-by-side comparison frame（対比枠型）rather than a
 flowchart, because the real point of both 肢 is distinguishing two
 different zone-based rules, not a sequential condition: in Panel 1,
 highlight the 牧場地域 side and show the 耕作地域 side in a faded,
 greyed-out style purely for contrast; in Panel 3, highlight the 耕作地域
-side and show the 牧場地域 side faded instead. Panel 2（肢イ）is a simple
+side and show the 牧場地域 side faded instead. Panel 2（イ）is a simple
 before/after timeline and does not need a diamond-shaped flowchart. Panel
-4（肢エ）must be drawn as an actual decision flowchart with a real
+4（エ）must be drawn as an actual decision flowchart with a real
 two-outcome branch, because the source rule itself states both outcomes
 explicitly (準則69条9号「宅地に接続するものは宅地とし、その他は雑種地と
 する」): render both the はい side (宅地の一部として扱う) and the いいえ
 side (雑種地となる) with their own conclusion nodes, and do not draw a
-looping arrow back into an earlier node. Panel 5（肢オ）is a simple
+looping arrow back into an earlier node. Panel 5（オ）is a simple
 definitional check and should use a labeled illustrative diagram rather
 than a forced flowchart. Unlike a glanceable summary poster, each panel
 MAY include a short「着眼点」callout box with 1-2 sentences that state the
@@ -265,7 +289,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 牧場地域内の建物敷地は宅地外
@@ -284,7 +308,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 宅地にならない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 現況優先ですぐ地目変更
@@ -302,7 +326,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 現況で即変更
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 耕作地域の永久施設は宅地扱い
@@ -320,7 +344,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 永久施設なら宅地
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 宅地接続のテニスコートは宅地扱い
@@ -340,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 雑種地にならない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 温泉の湧出口は鉱泉地と定める

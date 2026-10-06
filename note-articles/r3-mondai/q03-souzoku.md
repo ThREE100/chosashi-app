@@ -2,36 +2,43 @@
 
 **出題年度：令和3年度　午後の部　第3問**
 
-> 次の対話は、相続に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> 教授：まず、法定相続分の算定について考えてみましょう。被相続人Ｘの相続人が配偶者Ａと兄Ｂのみであるときは、Ｂの法定相続分はどうなりますか。
->
-> 学生：ア　Ｂの法定相続分は4分の1となります。
->
-> 教授：次に、被相続人Ｙには配偶者Ｃとの婚姻中の子Ｄ及びＥがおり、Ｄの子ＦがＹの養子でもある場合において、Ｙの相続開始時にはＣとＤが既に死亡していたためにＹの相続人がＥとＦのみとなるときは、Ｆの法定相続分はどうなりますか。
->
-> 学生：イ　Ｆは、Ｄの代襲者の資格とＹの子の資格の双方で相続人となりますので、Ｆの法定相続分は3分の2となります。
->
-> 教授：これからは、被相続人Ｚの相続人が子Ｇ及びＨのみであり、甲不動産がＺの遺産に属するという事例について検討しましょう。Ｇは、甲不動産について、遺産の分割の方法によらずに民法第256条第1項に規定する共有物の分割の請求をすることはできますか。
->
-> 学生：ウ　はい。Ｇは、甲不動産について法定相続分に相当する共有持分を有しているので、民法第256条第1項に規定する共有物の分割の請求をすることができます。
->
-> 教授：それでは、ＧとＨとの間で甲不動産をＧが単独で取得する旨の遺産分割協議が成立したにもかかわらず、Ｈが、その旨の登記がされる前に、甲不動産について法定相続分に相当する2分の1の共有持分を有しているとして、これをＩに譲渡し、その旨の登記がされたとします。この場合において、Ｇは、Ｉに対して、甲不動産について自らの法定相続分を超える部分の所有権を承継したことを主張することができますか。
->
-> 学生：エ　いいえ。当該遺産分割協議に基づく所有権の移転の登記がされていませんので、Ｇは、Ｉに対して、自らの法定相続分を超える部分の所有権を承継したことを主張することができません。
->
-> 教授：では、Ｚが「遺産である甲不動産を相続人Ｇに相続させる。」との遺言をし、これがＧに甲不動産を単独で相続させる旨の遺産分割の方法の指定と認められる場合には、甲不動産の所有権は、遺産分割の協議又は審判を経ることなく、Ｚの死亡の時に直ちに相続によりＧに承継されますか。
->
-> 学生：オ　いいえ。遺産分割の協議又は審判を経ることなく、甲不動産の所有権がＧに承継されることはありません。
->
-> （参考）
-> 民法
-> 第256条　各共有者は、いつでも共有物の分割を請求することができる。ただし、五年を超えない期間内は分割をしない旨の契約をすることを妨げない。
-> 2　（略）
->
+> 次の対話は、相続に関する教授と学生との対話である。教授の質問に対する次のアからオまでの学生の解答のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> 教授：まず、法定相続分の算定について考えてみましょう。被相続人Ｘの相続人が配偶者Ａと兄Ｂのみであるときは、Ｂの法定相続分はどうなりますか。  
+>　  
+> 学生：ア　Ｂの法定相続分は4分の1となります。  
+>　  
+> 教授：次に、被相続人Ｙには配偶者Ｃとの婚姻中の子Ｄ及びＥがおり、Ｄの子ＦがＹの養子でもある場合において、Ｙの相続開始時にはＣとＤが既に死亡していたためにＹの相続人がＥとＦのみとなるときは、Ｆの法定相続分はどうなりますか。  
+>　  
+> 学生：イ　Ｆは、Ｄの代襲者の資格とＹの子の資格の双方で相続人となりますので、Ｆの法定相続分は3分の2となります。  
+>　  
+> 教授：これからは、被相続人Ｚの相続人が子Ｇ及びＨのみであり、甲不動産がＺの遺産に属するという事例について検討しましょう。Ｇは、甲不動産について、遺産の分割の方法によらずに民法第256条第1項に規定する共有物の分割の請求をすることはできますか。  
+>　  
+> 学生：ウ　はい。Ｇは、甲不動産について法定相続分に相当する共有持分を有しているので、民法第256条第1項に規定する共有物の分割の請求をすることができます。  
+>　  
+> 教授：それでは、ＧとＨとの間で甲不動産をＧが単独で取得する旨の遺産分割協議が成立したにもかかわらず、Ｈが、その旨の登記がされる前に、甲不動産について法定相続分に相当する2分の1の共有持分を有しているとして、これをＩに譲渡し、その旨の登記がされたとします。この場合において、Ｇは、Ｉに対して、甲不動産について自らの法定相続分を超える部分の所有権を承継したことを主張することができますか。  
+>　  
+> 学生：エ　いいえ。当該遺産分割協議に基づく所有権の移転の登記がされていませんので、Ｇは、Ｉに対して、自らの法定相続分を超える部分の所有権を承継したことを主張することができません。  
+>　  
+> 教授：では、Ｚが「遺産である甲不動産を相続人Ｇに相続させる。」との遺言をし、これがＧに甲不動産を単独で相続させる旨の遺産分割の方法の指定と認められる場合には、甲不動産の所有権は、遺産分割の協議又は審判を経ることなく、Ｚの死亡の時に直ちに相続によりＧに承継されますか。  
+>　  
+> 学生：オ　いいえ。遺産分割の協議又は審判を経ることなく、甲不動産の所有権がＧに承継されることはありません。  
+>　  
+> （参考）  
+>　  
+> 民法  
+>　  
+> 第256条　各共有者は、いつでも共有物の分割を請求することができる。ただし、五年を超えない期間内は分割をしない旨の契約をすることを妨げない。  
+>　  
+> 2　（略）  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-相続の分野は、法定相続分の計算・代襲相続・遺産共有の解消手続・「相続させる」旨の遺言といった論点が、条文と判例の両方から出題されます。この問題は対話形式ですが、実質は学生の解答ア〜オを一つずつ○×判定していくだけなので、通常の組合せ問題とまったく同じ手順で解けます。
+---
+
+相続の分野は、法定相続分の計算・代襲相続・遺産共有の解消手続・「相続させる」旨の遺言といった論点が、条文と判例の両方から出題されます。
+
+この問題は対話形式ですが、実質は学生の解答ア〜オを一つずつ○×判定していくだけなので、通常の組合せ問題とまったく同じ手順で解けます。
 
 ### ア：配偶者と兄弟姉妹が相続人なら、兄弟姉妹の相続分は4分の1
 
@@ -41,29 +48,55 @@
 
 ### イ：代襲者と養子の二重資格なら、両方の相続分を合算する
 
-同じ人が「代襲相続人」と「子（養子）」という二つの資格を同時に持つときは、それぞれの資格に応じた相続分を合算して取得できるとされています。本問のＦは、亡くなった子Ｄの代襲者であると同時に、被相続人Ｙの養子（子）でもあります。相続人はＥとＦの二人で、まず子の頭数（ＤとＥとＦ養子分）を整理すると、Ｆは代襲者としての取り分とＹの養子としての取り分を合わせて3分の2を取得することになり、この判定は正しいものです。
+同じ人が「代襲相続人」と「子（養子）」という二つの資格を同時に持つときは、それぞれの資格に応じた相続分を合算して取得できるとされています。本問のＦは、亡くなった子Ｄの代襲者であると同時に、被相続人Ｙの養子（子）でもあります。
 
-**たとえば**、おじいさんＹが孫Ｆを養子に迎えていたところ、Ｆの実親（Ｙの子）Ｄが先に亡くなった、というケースです。このときＦは「亡くなった親Ｄの代わりに相続する立場」と「Ｙの養子として直接相続する立場」を兼ねるため、片方だけではなく両方の取り分をまとめて受け取れる、というのがポイントです。
+相続人はＥとＦの二人で、まず子の頭数（ＤとＥとＦ養子分）を整理すると、Ｆは代襲者としての取り分とＹの養子としての取り分を合わせて3分の2を取得することになり、この判定は正しいものです。
+
+**たとえば**、おじいさんＹが孫Ｆを養子に迎えていたところ、Ｆの実親（Ｙの子）Ｄが先に亡くなった、というケースです。
+
+このときＦは「亡くなった親Ｄの代わりに相続する立場」と「Ｙの養子として直接相続する立場」を兼ねるため、片方だけではなく両方の取り分をまとめて受け取れる、というのがポイントです。
 
 ### ウ：遺産共有の解消は、共有物分割請求ではなく遺産分割で行う
 
-相続によって複数の相続人が不動産を共有している状態（遺産共有）を解消するには、地方裁判所に共有物分割請求の訴えを起こすのではなく、家庭裁判所に対して遺産分割を請求すべきものとされています（判例）。したがって、Ｇが民法256条1項の共有物の分割を請求できるとした学生の解答は誤りです。「法定相続分に相当する共有持分がある」ことは事実ですが、その解消の入口が違うわけです。
+相続によって複数の相続人が不動産を共有している状態（遺産共有）を解消するには、地方裁判所に共有物分割請求の訴えを起こすのではなく、家庭裁判所に対して遺産分割を請求すべきものとされています（判例）。
 
-なお、この原則には現行法上、例外が設けられています。令和5年4月1日に施行された民法258条の2により、相続開始の時から10年を経過したときは、相続人が遺産分割の請求をした上で異議を申し出た場合を除き、通常の共有物分割請求によって遺産共有持分も解決できるようになりました。本問はＺの相続開始からの経過期間が示されておらず、この例外に当たる事情もないため、結論は変わらず「遺産分割によるべき」が正しい判断です。
+したがって、Ｇが民法256条1項の共有物の分割を請求できるとした学生の解答は誤りです。「法定相続分に相当する共有持分がある」ことは事実ですが、その解消の入口が違うわけです。
 
-**たとえば**、兄弟ＧとＨが親Ｚから相続した実家を「早く分けたい」と思っても、遺産分割がまだ済んでいない段階では、いきなり通常の共有物分割訴訟を地方裁判所に持ち込むことはできず、まずは家庭裁判所での遺産分割の話し合いや調停・審判というルートを通ることになります。窓口（裁判所）も手続の種類も違う、という点が引っかけどころです。ただし、相続開始から10年以上が経過していて、相続人の誰も異議を述べなければ、通常の共有物分割訴訟でも解決できる場合がある、という点は現行法の知識として押さえておきましょう。
+なお、この原則には現行法上、例外が設けられています。
+
+令和5年4月1日に施行された民法258条の2により、相続開始の時から10年を経過したときは、相続人が遺産分割の請求をした上で異議を申し出た場合を除き、通常の共有物分割請求によって遺産共有持分も解決できるようになりました。
+
+本問はＺの相続開始からの経過期間が示されておらず、この例外に当たる事情もないため、結論は変わらず「遺産分割によるべき」が正しい判断です。
+
+**たとえば**、兄弟ＧとＨが親Ｚから相続した実家を「早く分けたい」と思っても、遺産分割がまだ済んでいない段階では、いきなり通常の共有物分割訴訟を地方裁判所に持ち込むことはできず、まずは家庭裁判所での遺産分割の話し合いや調停・審判というルートを通ることになります。
+
+窓口（裁判所）も手続の種類も違う、という点が引っかけどころです。
+
+ただし、相続開始から10年以上が経過していて、相続人の誰も異議を述べなければ、通常の共有物分割訴訟でも解決できる場合がある、という点は現行法の知識として押さえておきましょう。
 
 ### エ：法定相続分を超える取得は、登記がなければ第三者に対抗できない
 
-相続による権利の承継のうち、法定相続分を超える部分については、遺産分割によるものかどうかを問わず、登記その他の対抗要件を備えなければ第三者に対抗することができません（民法899条の2第1項）。本問では、遺産分割協議でＧが甲不動産を単独取得したのに、その登記をしないうちにＨが自分の法定相続分2分の1をＩに譲渡して登記まで済ませています。そのため、Ｇは登記を備えていない以上、自らの法定相続分を超える部分の取得をＩに主張できません。「主張できない」とする学生の解答は正しい判定です。
+相続による権利の承継のうち、法定相続分を超える部分については、遺産分割によるものかどうかを問わず、登記その他の対抗要件を備えなければ第三者に対抗することができません（民法899条の2第1項）。
 
-**たとえば**、遺産分割で「実家はすべて兄Ｇのもの」と決まっても、兄が名義変更（登記）をサボっている間に、弟Ｈが自分の持分だと言い張って第三者Ｉに売り、Ｉが先に登記してしまった、という場面です。こうなると兄Ｇは「本当は全部自分のものだ」とＩに言えなくなります。相続でも「登記を備えた者が勝つ」場面がある、と押さえておきましょう。
+本問では、遺産分割協議でＧが甲不動産を単独取得したのに、その登記をしないうちにＨが自分の法定相続分2分の1をＩに譲渡して登記まで済ませています。
+
+そのため、Ｇは登記を備えていない以上、自らの法定相続分を超える部分の取得をＩに主張できません。「主張できない」とする学生の解答は正しい判定です。
+
+**たとえば**、遺産分割で「実家はすべて兄Ｇのもの」と決まっても、兄が名義変更（登記）をサボっている間に、弟Ｈが自分の持分だと言い張って第三者Ｉに売り、Ｉが先に登記してしまった、という場面です。
+
+こうなると兄Ｇは「本当は全部自分のものだ」とＩに言えなくなります。相続でも「登記を備えた者が勝つ」場面がある、と押さえておきましょう。
 
 ### オ：「相続させる」旨の遺言があれば、死亡と同時に直ちに承継される
 
-特定の遺産を特定の相続人に「相続させる」旨の遺言は、遺贈と解すべき特段の事情がない限り、その財産を当該相続人に単独で相続させる遺産分割方法の指定と解されます（判例）。その結果、その遺産は遺産分割の協議や審判を経ることなく、被相続人の死亡と同時にその相続人へ帰属します。したがって、「承継されることはない」とした学生の解答は誤りです。
+特定の遺産を特定の相続人に「相続させる」旨の遺言は、遺贈と解すべき特段の事情がない限り、その財産を当該相続人に単独で相続させる遺産分割方法の指定と解されます（判例）。
 
-**たとえば**、親Ｚが「甲不動産は子Ｇに相続させる」と遺言していた場合、Ｚが亡くなった瞬間に甲不動産はＧのものになります。改めて兄弟で分割協議をしたり家庭裁判所の審判を待ったりしなくても所有権が移る、という点が「相続させる」旨の遺言（特定財産承継遺言）の大きな効果です。
+その結果、その遺産は遺産分割の協議や審判を経ることなく、被相続人の死亡と同時にその相続人へ帰属します。したがって、「承継されることはない」とした学生の解答は誤りです。
+
+**たとえば**、親Ｚが「甲不動産は子Ｇに相続させる」と遺言していた場合、Ｚが亡くなった瞬間に甲不動産はＧのものになります。
+
+改めて兄弟で分割協議をしたり家庭裁判所の審判を待ったりしなくても所有権が移る、という点が「相続させる」旨の遺言（特定財産承継遺言）の大きな効果です。
+
+---
 
 ### まとめ
 
@@ -126,7 +159,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to kanji
@@ -134,6 +175,16 @@ that are easily confused with Simplified Chinese variants and appear in
 this text, including 続, 産, 対, 抗, 登, 記, 議, 養, 資, 格, 継, 承, 相, 誤 —
 render each in standard Japanese (Jōyō) form, never in Simplified Chinese
 form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -217,21 +268,21 @@ illustration, blue, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly
 (2 cards in Column A, 3 cards in Column B), with no duplicated or missing
 cards, confirm there is no intro illustration or paragraph block between
 the header and the cards, and confirm that no card contains a full
 sentence of explanatory prose or legal citation — every card's takeaway
-must read as a short heading + a short conclusion tag, at a glance.
+must read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
 ## インフォグラフィック プロンプト（ウ肢・間違いノート）
 
-肢ウ「遺産共有の解消は、共有物分割請求ではなく遺産分割で行う」について、「法定相続分に相当する共有持分がある」という事実と「どの手続で解消するか」を混同しやすい点を、原則（家庭裁判所の遺産分割）→例外（民法258条の2、令和5年4月1日施行、10年経過＋異議なし）の2段階フローチャートで整理した。
+ウ「遺産共有の解消は、共有物分割請求ではなく遺産分割で行う」について、「法定相続分に相当する共有持分がある」という事実と「どの手続で解消するか」を混同しやすい点を、原則（家庭裁判所の遺産分割）→例外（民法258条の2、令和5年4月1日施行、10年経過＋異議なし）の2段階フローチャートで整理した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -252,11 +303,28 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 権・地・所・続・産・
-議・割・廷・相・家・庭・裁・判・誤, which have visibly different Simplified Chinese forms —
+any characters. Pay special attention to the kanji 地・所・続・産・議・割・相・家・庭・裁・判・誤, which have visibly different Simplified Chinese forms —
 always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -264,7 +332,7 @@ Title (large, bold, 2行):
 「遺産分割」でするんです
 
 Subtitle (smaller, centered, 2行):
-令和3年度 午後の部 第3問 肢ウ
+令和3年度 午後の部 第3問 ウ
 共有物分割請求ではなく家庭裁判所へ
 
 --- FLOWCHART (2段階フローチャート、縦方向に上から下へ) ---
@@ -294,11 +362,10 @@ and a green checkmark ✓ beside it. A small torn-paper label reads
 Blue panel short text (below icon, one line):
 例外：地方裁判所でも可
 
-Small icon between the decision diamond and the right branch: a
-crossed-out red ✕ mark over a document icon labeled "共有物分割請求
-（民法256条1項）", positioned near the left/beige side, to visually
-show that using ordinary co-ownership division BEFORE the 10-year mark
-(or without satisfying the no-objection condition) is NOT allowed.
+Inside the green (left, いいえ／原則) panel only, below the 家庭裁判所
+icon: a small crossed-out document icon labeled "共有物分割請求" with a
+red ✕, to show that ordinary co-ownership division is NOT available on
+the 原則 side. Do not place any ✕ on or near the blue (例外) panel.
 
 --- CALLOUT: 誤りやすいポイント ---
 Callout box (rounded rectangle, soft yellow background, positioned
@@ -317,18 +384,18 @@ Small footnote text (bottom of panel, small font):
 民法256条1項／民法258条の2（令和5年4月1日施行）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 権・地・所・続・産・議・割・廷・相・家・庭・裁・判・誤. Confirm every heading, node
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — pay special
+attention to 地・所・続・産・議・割・相・家・庭・裁・判・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every heading, node
 label, and callout text matches the Japanese text given above verbatim,
 with no paraphrasing and no substituted characters. Confirm the flowchart
 reads top-to-bottom with exactly one decision diamond and two labeled
 branches (原則=green/家庭裁判所, 例外=blue/地方裁判所), and confirm the
 crossed-out ✕ icon appears only near the left (原則) side to show that
 ordinary co-ownership division is barred unless the exception condition
-is met.
+is met. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -353,7 +420,7 @@ diamond-shaped branch nodes with the condition written on them, Yes/No
 resolved by a single check, a labeled illustrative diagram is
 sufficient — do not force a flowchart. This article's five 肢 do not
 share a single common decision-tree shape, so design each panel's diagram
-independently around its own fact pattern; Panels 2 and 4（肢イ・肢エ）
+independently around its own fact pattern; Panels 2 and 4（イ・エ）
 each require an actual multi-step flowchart because they depend on more
 than one condition. When drawing the family tree in Panel 2, follow these
 rules strictly: vertical position represents generation (被相続人Ｙを
@@ -371,7 +438,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -395,7 +470,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 兄弟姉妹の相続分は4分の1
@@ -411,7 +486,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 兄弟姉妹は4分の1
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 Ｆの二重資格は合算して判定
@@ -435,7 +510,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 二重資格は合算する
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 遺産共有の解消は遺産分割で
@@ -452,14 +527,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遺産分割による解消
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 超える持分は登記の有無で決まる
 Diagram: A decision-tree flowchart on an isometric split house scene.
 Start node:「遺産分割等によって取得した持分は、自分の法定相続分を超えて
-いるか？」An いいえ branch leads to a grayed-out box reading「登記なくても
-対抗可（この肢の射程外）」. A はい branch proceeds to a second diamond
+いるか？」An いいえ branch leads to a grayed-out box reading「登記なくても対抗可」. A はい branch proceeds to a second diamond
 node:「その超える部分について、登記を備えているか？」A はい branch leads
 to a conclusion node with a green checkmark reading「対抗できる」; an
 いいえ branch leads to a conclusion node with a red「✕」reading「対抗
@@ -473,7 +547,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 超過分は登記が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 相続させる遺言は死亡時に直ちに承継
@@ -497,13 +571,13 @@ Small footnote text (bottom of panel, small font, verbatim):
 実務先例に基づく整理であり、条文番号は上記のみ明記します）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 続・産・対・抗・登・記・議・養・資・格・継・承・相・家・庭・裁・判・所. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 続・産・対・抗・登・記・議・養・資・格・継・承・相・家・庭・裁・判・所. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every
-multi-condition 肢（肢イ・肢エ）is drawn as an actual flowchart with
+multi-condition 肢（イ・エ）is drawn as an actual flowchart with
 branch nodes (not a bare illustration with no visible decision
 structure), that the family tree in Panel 2 places Ｙ at the top
 generation, Ｄ and Ｅ side-by-side at the same generation, and the arrow

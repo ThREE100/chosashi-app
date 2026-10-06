@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第13問**
 
-> 敷地権に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　敷地権である旨の登記がされている土地については、当該敷地権である旨の登記を抹消した後でなければ、地目を宅地以外の地目に変更する登記の申請をすることができない。
->
-> イ　区分建物とその敷地権の目的となる土地の各所有権の登記名義人の住所が一致していない場合であっても、各登記名義人の同一性を証する情報を添付情報とすれば、登記名義人の住所の変更又は更正の登記をすることなく、敷地権の発生を原因とする区分建物の表題部の変更の登記の申請をすることができる。
->
-> ウ　隣接する2筆の土地のいずれにも敷地権である旨の登記がされている場合には、当該2筆の土地についての合筆の登記の申請をすることができる。
->
-> エ　甲建物及び乙建物がいずれも区分建物であり、甲建物についてのみ敷地権の登記がある場合であっても、建物の合併の登記の申請をすることができる。
->
-> オ　一棟の建物に属する区分建物全部についての表題登記を申請する場合において、そのうちの一部の区分建物についてのみ専有部分とその専有部分に係る敷地利用権の分離処分を可能とする規約が設定されているときは、他の区分建物についてのみ敷地権に関する事項を申請情報とする当該登記の申請をすることができる。
->
+> 敷地権に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　敷地権である旨の登記がされている土地については、当該敷地権である旨の登記を抹消した後でなければ、地目を宅地以外の地目に変更する登記の申請をすることができない。  
+>　  
+> イ　区分建物とその敷地権の目的となる土地の各所有権の登記名義人の住所が一致していない場合であっても、各登記名義人の同一性を証する情報を添付情報とすれば、登記名義人の住所の変更又は更正の登記をすることなく、敷地権の発生を原因とする区分建物の表題部の変更の登記の申請をすることができる。  
+>　  
+> ウ　隣接する2筆の土地のいずれにも敷地権である旨の登記がされている場合には、当該2筆の土地についての合筆の登記の申請をすることができる。  
+>　  
+> エ　甲建物及び乙建物がいずれも区分建物であり、甲建物についてのみ敷地権の登記がある場合であっても、建物の合併の登記の申請をすることができる。  
+>　  
+> オ　一棟の建物に属する区分建物全部についての表題登記を申請する場合において、そのうちの一部の区分建物についてのみ専有部分とその専有部分に係る敷地利用権の分離処分を可能とする規約が設定されているときは、他の区分建物についてのみ敷地権に関する事項を申請情報とする当該登記の申請をすることができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
 ---
@@ -28,13 +28,19 @@
 
 ### イ：住所が一致していなければ、まず住所変更登記が必要
 
-区分建物と、その敷地権の目的となる土地の各登記名義人の住所が一致していない場合、単に「同一人物です」と証明する情報を添付するだけでは足りません。敷地権の発生を登記原因とする表題部の変更の登記を申請する前提として、住所の変更又は更正の登記を別途行う必要があります。
+区分建物と、その敷地権の目的となる土地の各登記名義人の住所が一致していない場合、単に「同一人物です」と証明する情報を添付するだけでは足りません。
+
+敷地権の発生を登記原因とする表題部の変更の登記を申請する前提として、住所の変更又は更正の登記を別途行う必要があります。
 
 **たとえば**、マンションの持ち主が引っ越しをしていて、建物側の登記簿の住所と、敷地側の登記簿の住所が違っている場合、「同じ人です」という証明書を添えるだけでは済まず、まずどちらかの住所を正しく直す登記をしてから、敷地権の登記手続きに進む必要があります。
 
 **ここが分かりにくいポイント**：
 
-「各登記名義人の同一性を証する情報を添付すれば、住所が一致していなくても手続きを進められる」という発想は、一見合理的に思えます。同一性証明の情報があれば、確かに「この2つの登記名義は同じ人物のものだ」ということは証明できるからです。しかし、これは「申請人が誰であるか」を確認するための情報にすぎず、登記記録に記録されている住所という表示そのものを書き換える効力はありません。区分建物とその敷地の登記記録の間で住所の記載が食い違ったままでは、敷地権の発生を登記原因とする表題部の変更の登記を申請しても、両方の登記記録の記載を正しく突き合わせることができません。
+「各登記名義人の同一性を証する情報を添付すれば、住所が一致していなくても手続きを進められる」という発想は、一見合理的に思えます。同一性証明の情報があれば、確かに「この2つの登記名義は同じ人物のものだ」ということは証明できるからです。
+
+しかし、これは「申請人が誰であるか」を確認するための情報にすぎず、登記記録に記録されている住所という表示そのものを書き換える効力はありません。
+
+区分建物とその敷地の登記記録の間で住所の記載が食い違ったままでは、敷地権の発生を登記原因とする表題部の変更の登記を申請しても、両方の登記記録の記載を正しく突き合わせることができません。
 
 1. 住所が一致していない、という事実そのものを確認する。
 2. 同一性証明の情報は「同じ人物である」ことの証明にはなるが、登記記録上の住所の表示を書き換える効力はないと理解する。
@@ -44,7 +50,9 @@
 
 ### ウ：敷地権の登記がある土地同士は、合筆できない
 
-不動産登記法41条6号は「所有権の登記以外の権利に関する登記がある土地」についての合筆を禁止しています。敷地権である旨の登記は、この「所有権以外の権利に関する登記」にあたるため、隣接する2筆の土地がどちらも敷地権の登記がされている場合、その2筆を合筆することはできません。
+不動産登記法41条6号は「所有権の登記以外の権利に関する登記がある土地」についての合筆を禁止しています。
+
+敷地権である旨の登記は、この「所有権以外の権利に関する登記」にあたるため、隣接する2筆の土地がどちらも敷地権の登記がされている場合、その2筆を合筆することはできません。
 
 **たとえば**、隣り合う2つの土地が、どちらも同じマンション（または別々のマンション）の敷地権として登記されている場合、この2筆をまとめて1つの土地にする合筆登記は認められません。
 
@@ -52,7 +60,9 @@
 
 本肢を読むと、「敷地権である旨の登記」は抵当権や地上権のように他人の権利が乗っている登記ではなく、単に「この土地はマンションの敷地です」という案内的な登記に見えるため、実質的な権利負担を意味する「所有権以外の権利に関する登記」には当たらず、合筆できるのではないか、と考えてしまいがちです。
 
-しかし、敷地権である旨の登記は、土地の登記記録のうち権利部（所有権以外の権利を記録する部分）に記録される登記であり、不動産登記法41条6号が禁止する「所有権の登記以外の権利に関する登記がある土地」に該当します。同号には括弧書きの例外があり、合筆後の土地の登記記録にそのまま登記できるものとして法務省令（不動産登記規則）で定める一部の権利（承役地についてする地役権の登記、登記の目的・受付年月日・受付番号・登記原因及びその日付が同一の担保権の登記等）に限り合筆が認められますが、敷地権である旨の登記はこの例外に列挙されていません。
+しかし、敷地権である旨の登記は、土地の登記記録のうち権利部（所有権以外の権利を記録する部分）に記録される登記であり、不動産登記法41条6号が禁止する「所有権の登記以外の権利に関する登記がある土地」に該当します。
+
+同号には括弧書きの例外があり、合筆後の土地の登記記録にそのまま登記できるものとして法務省令（不動産登記規則）で定める一部の権利（承役地についてする地役権の登記、登記の目的・受付年月日・受付番号・登記原因及びその日付が同一の担保権の登記等）に限り合筆が認められますが、敷地権である旨の登記はこの例外に列挙されていません。
 
 1. 敷地権である旨の登記が、土地の登記記録のどの部分（表題部か権利部か）に記録される登記かを確認する（→権利部）。
 2. 不動産登記法41条6号は、所有権以外の権利に関する登記がある土地の合筆を、原則として禁止している。
@@ -62,7 +72,11 @@
 
 ### エ：敷地権登記の有無が食い違っていても、建物の合併はできる
 
-甲建物にだけ敷地権の登記があり、乙建物には敷地権の登記がない場合であっても、この2つの区分建物を1つに合併する登記の申請をすることができます。不動産登記規則134条3項は「第百二十四条の規定は、区分合併に係る建物の合併の登記をする場合において、区分合併後の建物が敷地権のない建物となるときについて準用する。」と定めており、区分合併の結果、敷地権のない建物となる場合を明示的に想定しています。また、同規則133条は区分合併について「接続する区分建物」であることを要件としており、本問の甲建物・乙建物の関係もこれを前提としています。
+甲建物にだけ敷地権の登記があり、乙建物には敷地権の登記がない場合であっても、この2つの区分建物を1つに合併する登記の申請をすることができます。
+
+不動産登記規則134条3項は「第百二十四条の規定は、区分合併に係る建物の合併の登記をする場合において、区分合併後の建物が敷地権のない建物となるときについて準用する。」と定めており、区分合併の結果、敷地権のない建物となる場合を明示的に想定しています。
+
+また、同規則133条は区分合併について「接続する区分建物」であることを要件としており、本問の甲建物・乙建物の関係もこれを前提としています。
 
 **たとえば**、同じマンション内で、甲部屋には敷地権の登記があり、隣接する乙部屋にはまだ敷地権の登記がされていない、というちぐはぐな状態であっても、この2部屋を1つの部屋として合併登記することは可能です。
 
@@ -70,9 +84,21 @@
 
 甲建物には敷地権の登記があり、乙建物にはない、という食い違った状態を見ると、権利関係がまったく異なる建物同士に見えるため、合併登記もできないのではないか、と考えてしまいがちです。
 
-しかし、不動産登記規則134条3項は「第百二十四条の規定は、区分合併に係る建物の合併の登記をする場合において、区分合併後の建物が敷地権のない建物となるときについて準用する。」と定めており、区分合併の結果、合併後の建物が「敷地権のない建物」になるという場面そのものを条文上正面から想定しています。つまり、合併前に敷地権登記の有無が食い違っていても、合併後は敷地権のない1個の建物として扱えばよいという処理が、あらかじめ制度として用意されています。
+しかし、不動産登記規則134条3項は「第百二十四条の規定は、区分合併に係る建物の合併の登記をする場合において、区分合併後の建物が敷地権のない建物となるときについて準用する。」と定めており、区分合併の結果、合併後の建物が「敷地権のない建物」になるという場面そのものを条文上正面から想定しています。
 
-ここでもう一段踏み込んで、「なぜ甲の敷地権が乙にも及んで、合併後の建物全体が敷地権付きになるのではなく、逆に敷地権のない建物になってしまうのか」を考えてみます。敷地権は、建物1棟に一律にかかっている登記ではなく、区分建物ごとに、その専有部分の広さに応じた割合で個別に結びついている登記です。合併すると、甲と乙は「1個の新しい区分建物」に生まれ変わり、専有部分の範囲も甲＋乙を合わせた広さになります。もし甲の敷地権をそのまま新しい建物に引き継ぐとすれば、甲だけの専有部分に対応していた敷地権の割合を、乙の分まで含む広い専有部分にそのまま当てはめることになりますが、乙の敷地利用権は敷地権として登記されていない（専有部分と敷地利用権を切り離して処分できる状態のまま残っている）ため、新しい専有部分のうち乙にあたる部分には、敷地権としての裏付けがありません。一部分だけ裏付けがあり、残りの部分にはないという状態のままでは、新しい建物全体を「敷地権のある建物」として登記することはできないため、いったん敷地権のない建物としてリセットされます。規則134条3項が、本来「敷地権であった権利が敷地権でない権利になったとき」の変更登記を定めた124条を準用しているのも、合併によって甲建物が持っていた敷地権としての性質がいったん失われる、という処理を前提としているためです。
+つまり、合併前に敷地権登記の有無が食い違っていても、合併後は敷地権のない1個の建物として扱えばよいという処理が、あらかじめ制度として用意されています。
+
+ここでもう一段踏み込んで、「なぜ甲の敷地権が乙にも及んで、合併後の建物全体が敷地権付きになるのではなく、逆に敷地権のない建物になってしまうのか」を考えてみます。
+
+敷地権は、建物1棟に一律にかかっている登記ではなく、区分建物ごとに、その専有部分の広さに応じた割合で個別に結びついている登記です。
+
+合併すると、甲と乙は「1個の新しい区分建物」に生まれ変わり、専有部分の範囲も甲＋乙を合わせた広さになります。
+
+もし甲の敷地権をそのまま新しい建物に引き継ぐとすれば、甲だけの専有部分に対応していた敷地権の割合を、乙の分まで含む広い専有部分にそのまま当てはめることになりますが、乙の敷地利用権は敷地権として登記されていない（専有部分と敷地利用権を切り離して処分できる状態のまま残っている）ため、新しい専有部分のうち乙にあたる部分には、敷地権としての裏付けがありません。
+
+一部分だけ裏付けがあり、残りの部分にはないという状態のままでは、新しい建物全体を「敷地権のある建物」として登記することはできないため、いったん敷地権のない建物としてリセットされます。
+
+規則134条3項が、本来「敷地権であった権利が敷地権でない権利になったとき」の変更登記を定めた124条を準用しているのも、合併によって甲建物が持っていた敷地権としての性質がいったん失われる、という処理を前提としているためです。
 
 1. 合併前の甲建物・乙建物それぞれの敷地権登記の有無を確認する。
 2. 食い違いがあるからといって合併できないと決めつけず、合併「後」の建物がどう扱われるかを規定する条文（規則134条3項）があるかを確認する。
@@ -82,9 +108,15 @@
 
 ### オ：一部の部屋だけ分離処分可能でも、まとめて表題登記できる
 
-一棟の建物に属する区分建物全部について表題登記を一度に申請する場合、そのうちの一部の部屋についてだけ「専有部分と敷地利用権を別々に処分してもよい」という規約（分離処分可能規約）が設定されているときは、その規約が設定されていない他の部屋についてだけ、敷地権に関する事項を記載して申請することができます。不動産登記令別表12項添付情報欄ホは、敷地の所有権等の登記名義人が区分建物の所有者でもある場合において、区分所有法22条1項ただし書の規約における別段の定めがあることその他の事由により当該権利が敷地権とならないときは、当該事由を証する情報を提供しなければならないと定めており、分離処分可能規約が設定されている部屋を敷地権の対象から除外するこの場面を正面から想定しています。
+一棟の建物に属する区分建物全部について表題登記を一度に申請する場合、そのうちの一部の部屋についてだけ「専有部分と敷地利用権を別々に処分してもよい」という規約（分離処分可能規約）が設定されているときは、その規約が設定されていない他の部屋についてだけ、敷地権に関する事項を記載して申請することができます。
 
-**たとえば**、新築マンションの全部屋をまとめて表題登記する際に、1階の店舗部分だけは「部屋と敷地利用権を別々に売買してもよい」という特別な規約が定められていたとします。この場合、その店舗部分を除いた他の住居部分についてだけ、敷地権の情報を記載して一括で登記申請をすることができます。
+不動産登記令別表12項添付情報欄ホは、敷地の所有権等の登記名義人が区分建物の所有者でもある場合において、区分所有法22条1項ただし書の規約における別段の定めがあることその他の事由により当該権利が敷地権とならないときは、当該事由を証する情報を提供しなければならないと定めており、分離処分可能規約が設定されている部屋を敷地権の対象から除外するこの場面を正面から想定しています。
+
+**たとえば**、新築マンションの全部屋をまとめて表題登記する際に、1階の店舗部分だけは「部屋と敷地利用権を別々に売買してもよい」という特別な規約が定められていたとします。
+
+この場合、その店舗部分を除いた他の住居部分についてだけ、敷地権の情報を記載して一括で登記申請をすることができます。
+
+---
 
 ### まとめ
 
@@ -150,12 +182,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・建・物・登・記・所・号・筆 — these must be rendered in
+kanji 権・地・建・物・登・記・所・筆 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -234,15 +284,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -267,11 +317,28 @@ completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 住・所・登・記・名・義・
-人・同・一・性・証・変・更・更・正・敷・地・権・表・題・部・誤 — always draw
+any characters. Pay special attention to the kanji 住・所・登・記・名・義・人・同・一・性・証・変・更・正・敷・地・権・表・部・誤 — always draw
 the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold):
@@ -312,9 +379,9 @@ Panel takeaway (short line below the illustration):
 一般原則
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -339,11 +406,28 @@ completeness of the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 敷・地・権・登・記・権・
-利・部・合・筆・地・役・権・担・保・除・誤 — always draw the standard Japanese
+any characters. Pay special attention to the kanji 敷・地・権・登・記・利・部・合・筆・役・誤 — always draw the standard Japanese
 (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold):
@@ -387,9 +471,9 @@ Panel takeaway (short line below the illustration):
 利に関する登記を定める条文)
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -415,11 +499,28 @@ reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 敷・地・権・区・分・合・
-併・建・物・登・記・規・則・条・項・準・用・専・有・割・合・利・用・誤 —
+any characters. Pay special attention to the kanji 敷・地・権・区・分・合・併・建・物・登・記・規・則・条・項・準・用・専・有・割・利・誤 —
 always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold):
@@ -459,13 +560,11 @@ Node 1 (start, two isometric区分建物 room icons side by side, one labeled
 甲建物・敷地権登記あり, one labeled 乙建物・敷地権登記なし):
 甲建物と乙建物を合併したい
 
-Arrow down to Decision Diamond:
-合併前の敷地権登記の有無は一致しているか？
-
-Decision Diamond, branch「いいえ（食い違いあり）」:
+Arrow down to a plain box (NOT a diamond) reading:
+合併前の敷地権登記の有無が食い違っている
+Beside that box, a small thought bubble crossed out with a red ✕ reading:
 食い違いがあるから合併できない、と考えたくなる
-
-Arrow from that branch to Node 2:
+Arrow down to Node 2:
 規則134条3項を確認する－「区分合併後の建物が敷地権のない建物となるとき」
 を想定した規定があるか？
 
@@ -477,14 +576,14 @@ building icon labeled 敷地権のない1個の建物):
 不動産登記規則134条3項（124条を準用）・133条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「敷地権の登記と別の話を混同していないか」「例外の列挙に当たるか」を見抜けるようにする5パネル構成。②の色分け（土地の登記に関する制限＝緑、建物の登記に関する取り扱い＝青）を引き継いでいる。
 
@@ -509,7 +608,7 @@ draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No（はい／いいえ）
 branch arrows, and a final conclusion node. Where a 肢 is resolved by a
 single check, a labeled illustrative diagram is sufficient — do not
-force a flowchart. Panel 2（肢イ）must be drawn as a two-step flowchart,
+force a flowchart. Panel 2（イ）must be drawn as a two-step flowchart,
 because「住所が一致しているか」と「同一性証明だけで書き換えられるか」
 は別々に確認すべき2つの条件である. Unlike a glanceable summary poster,
 each panel MAY include a short「着眼点」callout box with 1-2 sentences
@@ -521,7 +620,15 @@ written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -547,7 +654,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地目変更と敷地権登記は別次元の話
@@ -563,17 +670,18 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 抹消は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 同一性証明だけでは住所は書き換わらない
-Diagram: A two-step decision flowchart. Start node: 区分建物とその敷地の
-登記記録の間で、登記名義人の住所は一致しているか？with a いいえ arrow
-down to a diamond node（highlighted with a thick border): 同一性証明の
-情報だけで、住所の表示を書き換えられるか？with a faded はい branch
-leading to a small conclusion node reading 直ちに敷地権発生の登記へ, and
-a highlighted いいえ branch leading to a conclusion node reading まず
-住所の変更又は更正の登記をしてから、敷地権発生の登記に進む必要がある.
+Diagram: A two-step sequence (NOT a decision flowchart — this 肢 has no
+real branch). Top box: 区分建物と敷地の登記記録で、登記名義人の住所が食い
+違っている. From it, a short shortcut arrow labeled 同一性証明の情報だけで
+直接 points to a box 敷地権発生の登記, and that shortcut arrow is crossed
+out with a red ✕. The correct path is a highlighted numbered route: step
+「1」a document labeled 住所の変更又は更正の登記, then step「2」a document
+labeled 敷地権発生の登記, ending at a conclusion node reading まず住所の
+変更又は更正の登記をしてから、敷地権発生の登記に進む.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、区分建物とその敷地の登記記録の間で住所が一致しているかを確認し
 ます。次に、同一性証明の情報だけで住所の表示を書き換えられるかを確認
@@ -583,13 +691,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 変更登記が先
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 例外に当たらず敷地権の土地は合筆不可
-Diagram: A decision flowchart. Start node: この土地には敷地権である旨の
-登記があるか？with a はい arrow down to a diamond node（highlighted with
-a thick border): この登記は合筆後も引き継げる例外（承役地地役権の登記
+Diagram: A decision flowchart. Start box (a plain rounded rectangle, NOT a diamond): 合筆しようとする
+土地に敷地権である旨の登記がある, with an arrow down to the only diamond
+node（highlighted with a thick border): この登記は合筆後も引き継げる例外（承役地地役権の登記
 等）に当たるか？with a faded はい branch leading to a small conclusion
 node reading 例外なら合筆できる, and a highlighted いいえ branch leading
 to a conclusion node reading 例外に当たらないため合筆できない.
@@ -601,7 +709,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 例外に当たらず合筆不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 食い違っても合併後を想定した規定がある
@@ -618,7 +726,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 合併は可能
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分離処分可能な部屋を除いて一括登記
@@ -642,10 +750,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 12項添付情報欄ホ、区分所有法22条1項ただし書に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 敷, 地, 権, 登, 記, 合, 筆, 併, 承, 役, 分, 離, 処, 規, 約 and
-any character that has a visually similar Simplified Chinese variant. If
-any character renders as a Simplified Chinese variant, redraw that
+any character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

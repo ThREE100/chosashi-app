@@ -2,37 +2,45 @@
 
 **出題年度：平成22年度　午後の部　第19問**
 
-> 登記識別情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　所有権の登記がある土地の合筆の登記の申請を電子申請の方法でした場合における登記識別情報の通知は、申請人からの申出があっても、登記識別情報を記載した書面を送付して交付する方法ですることはできない。
->
-> イ　所有権の登記がある土地の合筆の登記の申請をする場合において、登記識別情報を失念したときは、登記識別情報を提供することができないことにつき正当な理由があるということはできない。
->
-> ウ　登記識別情報のある甲土地から乙土地を分筆した後、乙土地を丙土地に合筆する登記の申請をする際に提供すべき登記識別情報は、甲土地のものでよい。
->
-> エ　所有権の登記がある土地の合筆の登記がされた場合において、登記識別情報の通知を受ける特別の委任を受けた代理人があるときは、登記識別情報は、当該代理人に対して通知される。
->
-> オ　登記識別情報の通知を受けた登記名義人が死亡した場合には、その相続人は、登記識別情報の失効の申出をしなければならない。
->
+> 登記識別情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　所有権の登記がある土地の合筆の登記の申請を電子申請の方法でした場合における登記識別情報の通知は、申請人からの申出があっても、登記識別情報を記載した書面を送付して交付する方法ですることはできない。  
+>　  
+> イ　所有権の登記がある土地の合筆の登記の申請をする場合において、登記識別情報を失念したときは、登記識別情報を提供することができないことにつき正当な理由があるということはできない。  
+>　  
+> ウ　登記識別情報のある甲土地から乙土地を分筆した後、乙土地を丙土地に合筆する登記の申請をする際に提供すべき登記識別情報は、甲土地のものでよい。  
+>　  
+> エ　所有権の登記がある土地の合筆の登記がされた場合において、登記識別情報の通知を受ける特別の委任を受けた代理人があるときは、登記識別情報は、当該代理人に対して通知される。  
+>　  
+> オ　登記識別情報の通知を受けた登記名義人が死亡した場合には、その相続人は、登記識別情報の失効の申出をしなければならない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
+
+---
 
 登記識別情報（かつての「権利証」に代わる12桁の符号）に関する問題です。「通知はどんな方法で・誰に届くか」「なくしたときはどうするか」「分筆・合筆のときにどれを使うか」という3つの角度で、正確な手続を確認しましょう。
 
 ### ア：電子申請でも、申出があれば書面を送付して交付できる
 
-電子申請の方法で合筆の登記を申請した場合の登記識別情報の通知は、原則としてオンラインで行われますが、申請人からの申出があれば、登記識別情報を記載した書面を送付して交付する方法によることもできます。「書面を送付して交付する方法ですることはできない」と言い切る点が誤りです。
+電子申請の方法で合筆の登記を申請した場合の登記識別情報の通知は、原則としてオンラインで行われますが、申請人からの申出があれば、登記識別情報を記載した書面を送付して交付する方法によることもできます。
+
+「書面を送付して交付する方法ですることはできない」と言い切る点が誤りです。
 
 **たとえば**、オンラインで合筆の登記を申請した場合でも、「符号は紙で郵送してほしい」と申し出れば、書面で受け取ることができます。
 
 ### イ：識別情報を失念した場合は、「正当な理由」があるものとして手続を進められる
 
-登記識別情報は、これを提供することができないことにつき正当な理由があるときは、事前通知などの方法によって登記を申請することができます。登記識別情報の失念（紛失を含む）は、まさにこの「正当な理由」に当たる場面であり、だからこそ事前通知の制度が用意されています。したがって「正当な理由があるということはできない」とする点は誤りです。
+登記識別情報は、これを提供することができないことにつき正当な理由があるときは、事前通知などの方法によって登記を申請することができます。
+
+登記識別情報の失念（紛失を含む）は、まさにこの「正当な理由」に当たる場面であり、だからこそ事前通知の制度が用意されています。したがって「正当な理由があるということはできない」とする点は誤りです。
 
 **たとえば**、合筆の登記をしようとして「符号を書いた通知書をなくしてしまった」ときでも、あきらめる必要はなく、登記所からの事前通知に応じるなどの方法で登記を進めることができます。
 
 ### ウ：分筆後の土地の合筆では、もとの甲土地の登記識別情報でよい
 
-登記識別情報のある甲土地から乙土地を分筆した場合、分筆によって生じた乙土地について新たに登記識別情報が通知されるわけではありません。したがって、その乙土地を丙土地に合筆する登記を申請する際に提供すべき登記識別情報は、乙土地のもととなった甲土地のものでよいことになります。この記述は正しいものです。
+登記識別情報のある甲土地から乙土地を分筆した場合、分筆によって生じた乙土地について新たに登記識別情報が通知されるわけではありません。
+
+したがって、その乙土地を丙土地に合筆する登記を申請する際に提供すべき登記識別情報は、乙土地のもととなった甲土地のものでよいことになります。この記述は正しいものです。
 
 **たとえば**、符号を持っている土地を分けても、分けてできた土地に新しい符号が発行されるわけではないので、その土地をさらに別の土地とくっつけるときは、もとの土地の符号を使えばよいのです。
 
@@ -44,9 +52,13 @@
 
 ### オ：登記名義人が死亡しても、相続人に失効申出の義務はない
 
-登記識別情報の通知を受けた登記名義人が死亡した場合であっても、その相続人が登記識別情報の失効の申出を「しなければならない」わけではありません。失効の申出は、するかどうかを選べる任意の手続であって、義務ではないからです。したがって「失効の申出をしなければならない」とする点は誤りです。
+登記識別情報の通知を受けた登記名義人が死亡した場合であっても、その相続人が登記識別情報の失効の申出を「しなければならない」わけではありません。
+
+失効の申出は、するかどうかを選べる任意の手続であって、義務ではないからです。したがって「失効の申出をしなければならない」とする点は誤りです。
 
 **たとえば**、符号の通知を受けていた人が亡くなっても、相続人が必ず「この符号を失効させてください」と申し出なければならない、ということはありません。必要に応じて申し出ることができる、というだけです。
+
+---
 
 ### まとめ
 
@@ -108,10 +120,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -200,25 +230,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢アは書面交付の申出の有無で結果が分かれる決定木型、肢エは特別委任の代理人の有無で結果が分かれる決定木型（それぞれ独立した決定木で、共有はしない）、肢イ・オは誤った思い込みと正しいルールを対比する正誤対比型、肢ウは甲→乙→丙と分筆・合筆が連鎖する土地の登記識別情報の承継を示すタイムライン型とする。
+アは書面交付の申出の有無で結果が分かれる決定木型、エは特別委任の代理人の有無で結果が分かれる決定木型（それぞれ独立した決定木で、共有はしない）、イ・オは誤った思い込みと正しいルールを対比する正誤対比型、ウは甲→乙→丙と分筆・合筆が連鎖する土地の登記識別情報の承継を示すタイムライン型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -291,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -311,7 +339,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 申出で書面交付も可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -331,7 +359,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 失念でも正当な理由
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -351,7 +379,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 甲の識別情報でよい
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -371,7 +399,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 代理人に通知される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -395,8 +423,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記規則63条（ア）、同規則62条2項（エ）、同規則65条1項
-（オ）、不動産登記法22条ただし書・23条（イ）。肢ウは根拠条文の個別確認は
-できていないため記載を省略する。判例・先例番号は省略。
+（オ）、不動産登記法22条ただし書・23条（イ）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

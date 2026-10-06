@@ -2,57 +2,83 @@
 
 **出題年度：平成28年度　午後の部　第11問**
 
-> 地積測量図又は地役権図面に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。
->
-> なお、これらはいずれも書面であるものとする。
->
-> ア　地積測量図は、0.2ミリメートル以下の細線により、図形を鮮明に表示しなければならない。
->
-> イ　地役権図面は、土地の状況その他の事情により適当でないときを除き、250分の1の縮尺により作成しなければならない。
->
-> ウ　地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときは、当該地積測量図をもって土地所在図を兼ねることができる。
->
-> エ　地役権図面つづり込み帳につづり込まれた地役権図面は、閉鎖した日から30年間保存される。
->
-> オ　地積測量図に、基本三角点等に基づく測量の成果による筆界点の座標値を記録した場合には、方位を記録することを要しない。
->
+> 地積測量図又は地役権図面に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。  
+>　  
+> なお、これらはいずれも書面であるものとする。  
+>　  
+> ア　地積測量図は、0.2ミリメートル以下の細線により、図形を鮮明に表示しなければならない。  
+>　  
+> イ　地役権図面は、土地の状況その他の事情により適当でないときを除き、250分の1の縮尺により作成しなければならない。  
+>　  
+> ウ　地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときは、当該地積測量図をもって土地所在図を兼ねることができる。  
+>　  
+> エ　地役権図面つづり込み帳につづり込まれた地役権図面は、閉鎖した日から30年間保存される。  
+>　  
+> オ　地積測量図に、基本三角点等に基づく測量の成果による筆界点の座標値を記録した場合には、方位を記録することを要しない。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
-地積測量図や地役権図面は、土地家屋調査士が作成する図面の中でも、線の太さ・縮尺・記載事項・保存期間といった細かなルールが不動産登記規則で定められている分野です。数字や要件を正確に覚えているかどうかがそのまま得点差になりやすく、今回のように「正しいものは幾つあるか」を問う個数問題としても頻出します。ア〜オの5つの記述を一つずつ検討していきます。
+---
+
+地積測量図や地役権図面は、土地家屋調査士が作成する図面の中でも、線の太さ・縮尺・記載事項・保存期間といった細かなルールが不動産登記規則で定められている分野です。
+
+数字や要件を正確に覚えているかどうかがそのまま得点差になりやすく、今回のように「正しいものは幾つあるか」を問う個数問題としても頻出します。ア〜オの5つの記述を一つずつ検討していきます。
 
 ### ア：地積測量図の線の太さは、0.2ミリメートル以下と決まっている
 
 不動産登記規則74条1項により、書面で地積測量図を作成する場合は、0.2ミリメートル以下の細線を用いて図形を鮮明に表示しなければならないとされています。設問の内容はこの規定と一致しており、正しい記述です。
 
-**たとえば**、実務で地積測量図を手描きや作図ソフトで仕上げる場面をイメージしてください。境界線や求積のための補助線を、太いサインペンのような線幅で描いてしまうと図形が不鮮明になり要件を満たしません。0.2ミリメートル以下という細い線で、誰が見ても筆界点や求積図形の形がはっきり分かるように仕上げる必要がある、というルールです。
+**たとえば**、実務で地積測量図を手描きや作図ソフトで仕上げる場面をイメージしてください。境界線や求積のための補助線を、太いサインペンのような線幅で描いてしまうと図形が不鮮明になり要件を満たしません。
+
+0.2ミリメートル以下という細い線で、誰が見ても筆界点や求積図形の形がはっきり分かるように仕上げる必要がある、というルールです。
 
 ### イ：地役権図面の縮尺は「250分の1固定」ではなく、適宜でよい
 
-不動産登記規則79条2項により、地役権図面には地積測量図のような縮尺の指定はなく、適宜の縮尺で作成すればよいとされています。精度についても特段の定めはありません。設問は縮尺を250分の1に固定していますが、そのような義務付けは規定されておらず、誤りです。
+不動産登記規則79条2項により、地役権図面には地積測量図のような縮尺の指定はなく、適宜の縮尺で作成すればよいとされています。
 
-**たとえば**、ある土地に設定された地役権（通行の範囲など）を示す図面を作るとき、対象範囲が広大であれば500分の1、狭い範囲を詳細に示したいのであれば100分の1というように、案件の内容に応じて土地家屋調査士が適切な縮尺を選ぶことができます。250分の1でなければならない、という決まりはありません。
+精度についても特段の定めはありません。設問は縮尺を250分の1に固定していますが、そのような義務付けは規定されておらず、誤りです。
+
+**たとえば**、ある土地に設定された地役権（通行の範囲など）を示す図面を作るとき、対象範囲が広大であれば500分の1、狭い範囲を詳細に示したいのであれば100分の1というように、案件の内容に応じて土地家屋調査士が適切な縮尺を選ぶことができます。
+
+250分の1でなければならない、という決まりはありません。
 
 ### ウ：地積測量図は、条件がそろえば土地所在図を兼ねられる
 
-不動産登記事務取扱準則51条4項により、地積測量図の縮尺がその土地の土地所在図の縮尺と同一であり、かつ、その地積測量図によって土地の所在を明確に表示できる場合には、「土地所在図兼地積測量図」として1枚の図面にまとめることができます。設問の内容はこの規定と一致しており、正しい記述です。
+不動産登記事務取扱準則51条4項により、地積測量図の縮尺がその土地の土地所在図の縮尺と同一であり、かつ、その地積測量図によって土地の所在を明確に表示できる場合には、「土地所在図兼地積測量図」として1枚の図面にまとめることができます。
+
+設問の内容はこの規定と一致しており、正しい記述です。
 
 **たとえば**、分筆登記の申請にあたって土地所在図と地積測量図を別々の用紙で作ると二度手間になりがちですが、縮尺が同一で土地の位置関係もきちんと示せるのであれば、「土地所在図兼地積測量図」という1枚の書面にまとめて提出することができ、作成・提出の手間が軽減されます。
 
 ### エ：地役権図面は、閉鎖した日から30年間保存される
 
-不動産登記規則28条は、登記所に保存される帳簿・図面等の種類ごとに保存期間を定めています。地役権図面については、同条14号により、閉鎖した日から30年間保存するものとされています（規則21条3項も参照）。設問の内容はこの規定と一致しており、正しい記述です。
+不動産登記規則28条は、登記所に保存される帳簿・図面等の種類ごとに保存期間を定めています。
+
+地役権図面については、同条14号により、閉鎖した日から30年間保存するものとされています（規則21条3項も参照）。設問の内容はこの規定と一致しており、正しい記述です。
 
 なお、土地所在図・地積測量図・建物図面・各階平面図は「永久保存（ただし閉鎖したものは閉鎖の日から30年間）」という扱いですが、地役権図面には「永久保存」の定めそのものがなく、端的に「閉鎖した日から30年間」という有期限の保存期間が定められている点に注意してください。
 
-ここでいう「建物図面」（規則28条13号）は、似た名前の「建物所在図」（規則28条3号）とは別の書類で、保存期間の扱いも異なります。建物所在図は地図と同じグループに属し、閉鎖したものを含めて永久に保存されるのに対し、建物図面は土地所在図・地積測量図・各階平面図と同じグループに属し、閉鎖後は30年間で保存期間が満了します。名前が似ているため混同しやすい点で、試験でも繰り返し狙われるポイントです。
+ここでいう「建物図面」（規則28条13号）は、似た名前の「建物所在図」（規則28条3号）とは別の書類で、保存期間の扱いも異なります。
 
-**たとえば**、ある土地に設定されていた地役権について、その後、範囲の変更や地役権の消滅・抹消登記に伴って地役権図面が書き換えられたり不要になったりすると、従前の地役権図面は「閉鎖」されて閉鎖地役権図面つづり込み帳に移されます。この閉鎖の日から30年が経過すると、その地役権図面は保存期間満了として廃棄の対象となり、永久に保存されるわけではありません。
+建物所在図は地図と同じグループに属し、閉鎖したものを含めて永久に保存されるのに対し、建物図面は土地所在図・地積測量図・各階平面図と同じグループに属し、閉鎖後は30年間で保存期間が満了します。
+
+名前が似ているため混同しやすい点で、試験でも繰り返し狙われるポイントです。
+
+**たとえば**、ある土地に設定されていた地役権について、その後、範囲の変更や地役権の消滅・抹消登記に伴って地役権図面が書き換えられたり不要になったりすると、従前の地役権図面は「閉鎖」されて閉鎖地役権図面つづり込み帳に移されます。
+
+この閉鎖の日から30年が経過すると、その地役権図面は保存期間満了として廃棄の対象となり、永久に保存されるわけではありません。
 
 ### オ：座標値を記録した場合でも、方位の記録は省略できない
 
-不動産登記規則77条1項は、地積測量図に記録すべき事項として、地番区域の名称（1号）・方位（2号）・縮尺（3号）・地番（4号）・地積及びその求積方法（5号）・筆界点間の距離（6号）・平面直角座標系の番号又は記号（7号）・基本三角点等に基づく測量の成果による筆界点の座標値（8号）・境界標があるときはその表示（9号）・測量の年月日（10号）を掲げています。方位（2号）と座標値（8号）はそれぞれ独立した必要的記録事項として要求されており、座標値を記録した場合に方位の記録を省略できるとする「ただし書」のような規定は存在しません。したがって、基本三角点等に基づく座標値を記録した場合であっても、方位の記録を省略することはできず、設問は誤りです。
+不動産登記規則77条1項は、地積測量図に記録すべき事項として、地番区域の名称（1号）・方位（2号）・縮尺（3号）・地番（4号）・地積及びその求積方法（5号）・筆界点間の距離（6号）・平面直角座標系の番号又は記号（7号）・基本三角点等に基づく測量の成果による筆界点の座標値（8号）・境界標があるときはその表示（9号）・測量の年月日（10号）を掲げています。
+
+方位（2号）と座標値（8号）はそれぞれ独立した必要的記録事項として要求されており、座標値を記録した場合に方位の記録を省略できるとする「ただし書」のような規定は存在しません。
+
+したがって、基本三角点等に基づく座標値を記録した場合であっても、方位の記録を省略することはできず、設問は誤りです。
 
 **たとえば**、高精度な基準点測量（基本三角点等）を用いて求めた座標値を地積測量図に記載できる場合であっても、その座標値の記載だけで方位の記載を省略してよいわけではなく、北を示す方位は座標値とは別の必要的記録事項として、あわせて記録しなければなりません。
+
+---
 
 ### まとめ
 
@@ -76,8 +102,8 @@
 - **再確認・訂正（2026-08-12実施）**：エ・オの正誤判定をリサーチエージェントによる独立調査、および元データベース（takuitsu.json）のexplanationフィールド原文の再確認により再検証したところ、訂正前の記事の判定が誤っていたことが判明し、訂正しました。訂正前は、エ（地役権図面つづり込み帳の保存期間）を「誤（実際は永久保存）」、オ（座標値記録時の方位省略可否）を「正（方位省略可）」としていましたが、正しくは**エ＝正、オ＝誤**です。具体的には、①不動産登記規則28条は「項」のない条文で、地役権図面の保存期間は同条**14号**により「閉鎖した日から30年間」と定められており、永久保存ではありません（土地所在図・地積測量図・建物図面・各階平面図は「永久（ただし閉鎖後30年間）」という扱いですが、地役権図面には永久保存の定めがなく端的に閉鎖後30年間です）。②不動産登記規則77条1項は方位（2号）と基本三角点等に基づく座標値（8号）をそれぞれ独立した必要的記録事項として掲げており、座標値を記録した場合に方位の記録を省略できる「ただし書」は存在しません。訂正前の記事は、データベースのplusフィールド（pitfalls）の記述（「エ×…規則28条1項1号」「オ○…規則77条1項8号ただし書」）を採用していましたが、これが誤りであり、explanationフィールドの原文（「…30年間保存される（規則28条14号、21条3項）」「オ×…方位を記録しなければならない（規則77条1項2号）」）の記載が正しかったことを確認しました。全体の正解（3個）自体は変わりませんが、正しい肢の組合せが（ア・ウ・オ）から**（ア・ウ・エ）**に変わります。まとめ・インフォグラフィックColumn A Card 3・Column B Card 5も合わせて訂正しています。この調査は、Web検索による複数の独立した解説サイト（Wikibooks掲載の規則28条・77条条文引用等）と、データベース原文の両方が一致することを確認したうえで反映したものです。その後（2026-08-18）、ローカル法令データベースの不動産登記規則28条14号・21条3項・77条1項の条文原文を直接読み、エ＝正・オ＝誤の判定と条文の号数が正しいことを再確認しました。同内容の修正はブランチmain（コミットa828407）にも別途適用済みです。
 - **最新法令チェック（2026-08-18実施）**：本問が扱う不動産登記規則28条・74条・77条・79条は、ローカル法令データベースに収録された現行条文と本記事の記述が一致しており、相続登記義務化・住所変更登記義務化といった直近の改正による影響は、これらの図面に関する規定には及んでいません。したがって、平成28年度の出題当時の結論が現在もそのまま通用します。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（地積測量図又は地役権図面）と同一・類似の問題が再出題されていないかを確認しました。**R07年度第9問オは「地積測量図の縮尺がその土地について作成すべき土地所在図の縮尺と同一であって、当該地積測量図によって土地の所在を明確に表示することができるときであっても、当該地積測量図をもって土地所在図を兼ねることはできない」としており、本問ウ（同一の条件下では土地所在図を兼ねることができる）とほぼ同一の記述を、結論だけ反対にして出題したものです。これは非常に強い重複にあたります**。R06年度第10問（地役権図面）は署名記名押印・縮尺一致義務・分筆時の提供要否・閉鎖・要役地所在地番の記録という別の論点で、本問イ・エとは直接重なりません。ノートに執筆・公開する際は、R07年度第9問との重複に特に留意し、内容が同一にならないよう工夫するか、両記事に相互参照を付けることを検討してください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **保存期間を中心とした全肢の再検証（2026-09-16、ユーザーからのご依頼を受けて実施）**：特にご懸念のあった肢エの保存期間について、`note-articles/laws/fudousan-touki-kisoku-1.md`収録の不動産登記規則28条の条文原文を一字一句確認しました。13号「土地所在図、地積測量図、建物図面及び各階平面図（…）永久（閉鎖したものにあっては、閉鎖した日から三十年間）」、14号「地役権図面（…）閉鎖した日から三十年間」という条文の書きぶりを直接確認し、本文の記載（地役権図面には「永久保存」の定めがなく、端的に閉鎖後30年間という有期限の保存期間である旨）が条文と完全に一致していることを確認しました。あわせて、規則21条3項が閉鎖地役権図面つづり込み帳（閉鎖後の地役権図面の保存先）を定める規定であることも確認済みです。保存期間に誤りは見つかりませんでした。他の4肢についても条文原文を再確認し、ア＝規則74条1項（「土地所在図、地積測量図、建物図面及び各階平面図（これらのものが書面である場合に限る。）は、〇・二ミリメートル以下の細線により…」）、イ＝規則79条2項（「地役権図面は、適宜の縮尺により作成することができる。」）、オ＝規則77条1項各号（方位＝2号、基本三角点等に基づく座標値＝8号として別々に列挙）と、いずれも一字一句一致していることを確認しました。ウの根拠である不動産登記事務取扱手続準則51条4項は、条文上「前項の場合において」という書き出しで、形式的には51条3項（規則74条3項の用紙の余白を用いて土地所在図を作成できる場合）を受けた規定になっていますが、4項自体が定める実質的な要件（縮尺が同一であり、地積測量図によって土地の所在を明確に表示できること）は設問の記述とそのまま一致しており、正誤判定・正解番号に影響はありません。この点は参考情報として申し添えます。
-- **「建物図面」と「建物所在図」の混同への対応（2026-09-16実施）**：ユーザーから、肢エの解説にある「土地所在図・地積測量図・建物図面・各階平面図は永久保存（閉鎖後30年間）」という記述が、個別の保存期間まとめ記事（`note-articles/column/hozon-kikan-matome.md`、`note-articles/h27-mondai/q18-hozon-kikan.md`）と齟齬があるのではないかとのご指摘をいただきました。不動産登記規則28条の条文原文を再確認したところ、本文の記述に誤りはなく、齟齬の正体は「建物図面」（規則28条13号、Q11の肢エが扱う書類。永久・閉鎖後30年間）と、名前が似ている別の書類「建物所在図」（規則28条3号。地図と同じグループで、閉鎖したものを含めて永久）を混同しやすいことにあると判明しました。この2つは条文上明確に別の号で定められた別の書類であり、上記2つの参照記事の記述（建物所在図は閉鎖後も永久）と本記事の記述（建物図面は閉鎖後30年間）は、いずれも正しく、互いに矛盾していません。読者が同じ誤解をしないよう、本文中に「建物図面」と「建物所在図」が別の書類である旨の注記を追加しました。
+- **保存期間を中心とした全肢の再検証（2026-09-16、ユーザーからのご依頼を受けて実施）**：特にご懸念のあったエの保存期間について、`note-articles/laws/fudousan-touki-kisoku-1.md`収録の不動産登記規則28条の条文原文を一字一句確認しました。13号「土地所在図、地積測量図、建物図面及び各階平面図（…）永久（閉鎖したものにあっては、閉鎖した日から三十年間）」、14号「地役権図面（…）閉鎖した日から三十年間」という条文の書きぶりを直接確認し、本文の記載（地役権図面には「永久保存」の定めがなく、端的に閉鎖後30年間という有期限の保存期間である旨）が条文と完全に一致していることを確認しました。あわせて、規則21条3項が閉鎖地役権図面つづり込み帳（閉鎖後の地役権図面の保存先）を定める規定であることも確認済みです。保存期間に誤りは見つかりませんでした。他の4肢についても条文原文を再確認し、ア＝規則74条1項（「土地所在図、地積測量図、建物図面及び各階平面図（これらのものが書面である場合に限る。）は、〇・二ミリメートル以下の細線により…」）、イ＝規則79条2項（「地役権図面は、適宜の縮尺により作成することができる。」）、オ＝規則77条1項各号（方位＝2号、基本三角点等に基づく座標値＝8号として別々に列挙）と、いずれも一字一句一致していることを確認しました。ウの根拠である不動産登記事務取扱手続準則51条4項は、条文上「前項の場合において」という書き出しで、形式的には51条3項（規則74条3項の用紙の余白を用いて土地所在図を作成できる場合）を受けた規定になっていますが、4項自体が定める実質的な要件（縮尺が同一であり、地積測量図によって土地の所在を明確に表示できること）は設問の記述とそのまま一致しており、正誤判定・正解番号に影響はありません。この点は参考情報として申し添えます。
+- **「建物図面」と「建物所在図」の混同への対応（2026-09-16実施）**：ユーザーから、エの解説にある「土地所在図・地積測量図・建物図面・各階平面図は永久保存（閉鎖後30年間）」という記述が、個別の保存期間まとめ記事（`note-articles/column/hozon-kikan-matome.md`、`note-articles/h27-mondai/q18-hozon-kikan.md`）と齟齬があるのではないかとのご指摘をいただきました。不動産登記規則28条の条文原文を再確認したところ、本文の記述に誤りはなく、齟齬の正体は「建物図面」（規則28条13号、Q11のエが扱う書類。永久・閉鎖後30年間）と、名前が似ている別の書類「建物所在図」（規則28条3号。地図と同じグループで、閉鎖したものを含めて永久）を混同しやすいことにあると判明しました。この2つは条文上明確に別の号で定められた別の書類であり、上記2つの参照記事の記述（建物所在図は閉鎖後も永久）と本記事の記述（建物図面は閉鎖後30年間）は、いずれも正しく、互いに矛盾していません。読者が同じ誤解をしないよう、本文中に「建物図面」と「建物所在図」が別の書類である旨の注記を追加しました。
 
 ---
 
@@ -117,11 +143,19 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・番・登・記・所・録 — these must be rendered in their standard
+kanji 権・地・記・所・録 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -207,8 +241,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -254,7 +288,15 @@ anywhere on the poster except the callout box specified below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not paraphrase,
 translate, summarize, or substitute any characters. Pay special attention
@@ -278,7 +320,7 @@ Title (large, bold, 2行):
 10の事項
 
 Subtitle (smaller, centered, 1行):
-不動産登記規則77条1項各号を一覧で整理(平成28年度 午後の部 第11問 肢オ)
+不動産登記規則77条1項各号を一覧で整理(平成28年度 午後の部 第11問 オ)
 
 （タイトル・サブタイトルのすぐ下にCHECKLISTを続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -336,12 +378,12 @@ Caption (small text below, one line, verbatim):
 
 --- FOOTER ---
 Small credit text in the corner (optional, keep minimal):
-平成28年度 午後の部 第11問 肢オ（不動産登記規則77条1項）
+平成28年度 午後の部 第11問 オ（不動産登記規則77条1項）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 積・録・地・番・区・域・方・位・縮・尺・筆・界・標・座. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 積・録・地・番・区・域・方・位・縮・尺・筆・界・標・座. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the checklist has exactly 10 rows,
 numbered 1 through 10 in the exact order given above, with no row omitted,
 duplicated, merged, renumbered, or reworded. Confirm exactly ONE compass
@@ -360,7 +402,7 @@ with no transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「この肢はどの図面の、どの規定の話で、どの順番で確認すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。バッジ色は②に合わせ、地積測量図の肢（ア・ウ・オ）を緑、地役権図面の肢（イ・エ）を青とする。5パネル、portrait 1080×2600px。
 
@@ -445,7 +487,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -470,7 +512,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 細線で図形を鮮明に
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地役権図面は適宜の縮尺で作成できる
@@ -495,7 +537,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 縮尺は適宜でよい
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 2つの条件がそろえば地積測量図が土地所在図を兼ねる
@@ -520,7 +562,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 2条件そろえば兼用可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地役権図面は閉鎖した日から30年間保存される
@@ -549,7 +591,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 閉鎖の日から30年
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 座標値を記録しても方位の記録は省略できない

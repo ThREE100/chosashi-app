@@ -2,25 +2,31 @@
 
 **出題年度：平成22年度　午後の部　第13問**
 
-> 1棟の建物として登記されている建物の中間部分を取り壊し、そこに2面の障壁を施して空間を設け、物理的に2棟の建物とし、これによりその一方が他方の附属建物となることを、本問において「建物の分棟」という。この建物の分棟をした場合の登記（本問において「建物の分棟の登記」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。
->
-> ア　建物の分棟をした場合には、分棟前の建物の表題部所有者又は所有権の登記名義人は、当該建物の分棟があった日から1か月以内に、建物の分棟の登記の申請をしなければならない。
->
-> イ　共有名義の建物の分棟の登記の申請は、分棟前の建物の共有者の全員からでなければすることができない。
->
-> ウ　所有権の登記がある建物の分棟の登記を申請するときは、登録免許税を納付しなければならない。
->
-> エ　建物の分棟の登記の申請は、分棟前の建物についての表題部の抹消の登記の申請と分棟後の建物についての表題登記の申請を一の申請情報によってしなければならない。
->
-> オ　分棟前の建物の所有者が分棟後の2棟の建物を別個の建物とする場合には、建物の分棟の登記の申請と建物の分割の登記の申請を一の申請情報によってすることができる。
->
+> 1棟の建物として登記されている建物の中間部分を取り壊し、そこに2面の障壁を施して空間を設け、物理的に2棟の建物とし、これによりその一方が他方の附属建物となることを、本問において「建物の分棟」という。この建物の分棟をした場合の登記（本問において「建物の分棟の登記」という。）に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　建物の分棟をした場合には、分棟前の建物の表題部所有者又は所有権の登記名義人は、当該建物の分棟があった日から1か月以内に、建物の分棟の登記の申請をしなければならない。  
+>　  
+> イ　共有名義の建物の分棟の登記の申請は、分棟前の建物の共有者の全員からでなければすることができない。  
+>　  
+> ウ　所有権の登記がある建物の分棟の登記を申請するときは、登録免許税を納付しなければならない。  
+>　  
+> エ　建物の分棟の登記の申請は、分棟前の建物についての表題部の抹消の登記の申請と分棟後の建物についての表題登記の申請を一の申請情報によってしなければならない。  
+>　  
+> オ　分棟前の建物の所有者が分棟後の2棟の建物を別個の建物とする場合には、建物の分棟の登記の申請と建物の分割の登記の申請を一の申請情報によってすることができる。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
-「分棟」は、この問題独自の言葉で、1棟だった建物の真ん中を取り壊して物理的に2棟に分け、一方を他方の附属建物にすることをいいます。実質は建物の物理的変化に伴う「表題部の変更の登記」なので、①1か月以内の申請義務がある、②表示に関する登記だから登録免許税はかからない、という2つの基本が効いてきます。
+---
+
+「分棟」は、この問題独自の言葉で、1棟だった建物の真ん中を取り壊して物理的に2棟に分け、一方を他方の附属建物にすることをいいます。
+
+実質は建物の物理的変化に伴う「表題部の変更の登記」なので、①1か月以内の申請義務がある、②表示に関する登記だから登録免許税はかからない、という2つの基本が効いてきます。
 
 ### ア：分棟をしたら、1か月以内に登記を申請しなければならない
 
-分棟は、建物の物理的な状況が変わる場面であり、表題部の変更に当たります。したがって、分棟前の建物の表題部所有者又は所有権の登記名義人は、分棟があった日から1か月以内に、建物の分棟の登記を申請しなければなりません（不動産登記法51条1項参照）。この記述は正しいものです。
+分棟は、建物の物理的な状況が変わる場面であり、表題部の変更に当たります。
+
+したがって、分棟前の建物の表題部所有者又は所有権の登記名義人は、分棟があった日から1か月以内に、建物の分棟の登記を申請しなければなりません（不動産登記法51条1項参照）。この記述は正しいものです。
 
 **たとえば**、細長い1棟の建物の真ん中を取り壊して2棟に分けたら、その所有者は1か月以内に「建物が2棟に分かれました」という登記を申請する必要があります。
 
@@ -32,13 +38,17 @@
 
 ### ウ：分棟の登記に、登録免許税はかからない
 
-分棟の登記は、表示に関する登記です。表示に関する登記は、原則として登録免許税が課されません。したがって、所有権の登記がある建物についての分棟の登記であっても、登録免許税を納付する必要はありません。「登録免許税を納付しなければならない」とする点は誤りです。
+分棟の登記は、表示に関する登記です。表示に関する登記は、原則として登録免許税が課されません。
+
+したがって、所有権の登記がある建物についての分棟の登記であっても、登録免許税を納付する必要はありません。「登録免許税を納付しなければならない」とする点は誤りです。
 
 **たとえば**、所有権の登記がある建物を分棟したときも、その登記は「建物の現況を直す」表示の登記なので、印紙で登録免許税を納める必要はありません。登録免許税がかかるのは、主に権利に関する登記です。
 
 ### エ：分棟の登記は、抹消＋表題登記を一の申請情報でする、という決まりではない
 
-分棟の登記は、実質的には1棟の建物の表題部を変更して主である建物と附属建物の関係を作る、表題部の変更の登記として扱われます。「分棟前の建物の表題部の抹消の登記と、分棟後の建物の表題登記を、一の申請情報によってしなければならない」という決まった手続構成が定められているわけではありません。したがって、この記述は誤りです。
+分棟の登記は、実質的には1棟の建物の表題部を変更して主である建物と附属建物の関係を作る、表題部の変更の登記として扱われます。
+
+「分棟前の建物の表題部の抹消の登記と、分棟後の建物の表題登記を、一の申請情報によってしなければならない」という決まった手続構成が定められているわけではありません。したがって、この記述は誤りです。
 
 **たとえば**、分棟の登記を、「いったん元の建物を登記簿から消して、新しく登記し直す」という形で必ず一枚の申請にまとめなければならない、というルールがあるわけではありません。
 
@@ -47,6 +57,8 @@
 分棟後の2棟の建物を別個の独立した建物とする場合には、建物の分棟の登記の申請と建物の分割の登記の申請を、一の申請情報によってまとめて申請することができます。連続した一連の手続としてまとめることが認められています。この記述は正しいものです。
 
 **たとえば**、分棟でいったん「主＋附属」の関係にした2棟を、さらに切り離してそれぞれ独立した建物にしたい場合には、「分棟」と「分割」を一枚の申請でまとめて出すことができます。
+
+---
 
 ### まとめ
 
@@ -108,12 +120,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
-summarize, or substitute any characters. Pay special attention to the kanji 棟・壁 — these
+summarize, or substitute any characters. Pay special attention to the kanji 棟 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -202,25 +232,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・ウは、「この登記は権利に関する登記か、表示に関する登記（表題部の変更）か」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢エは正しい理解と誤解しやすい考え方を対比する正誤対比型、肢オは分棟後に別個の建物とするかどうかを分岐点とする決定木とする。
+ア・イ・ウは、「この登記は権利に関する登記か、表示に関する登記（表題部の変更）か」という同じ判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。エは正しい理解と誤解しやすい考え方を対比する正誤対比型、オは分棟後に別個の建物とするかどうかを分岐点とする決定木とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -299,14 +327,14 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 分棟から1か月以内に申請する義務がある
 Diagram: A root diamond node labeled「この登記は権利に関する登記か、表示に
 関する登記（表題部の変更）か」. Render a faded, dotted「権利に関する登記」
-branch stub off to the side, labelled「（今回は関係ない）」. A thick
+branch stub off to the side. A thick
 highlighted「表示に関する登記（表題部の変更）」branch leads down to a
 building icon splitting into two connected buildings with a wall/gap icon
 between them, then to a final highlighted conclusion node reading「分棟が
@@ -320,7 +348,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 1か月以内に申請義務
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -341,7 +369,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 共有者1人からでも可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -365,7 +393,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 登録免許税は非課税
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -387,7 +415,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 一の申請情報の義務なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -411,7 +439,7 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法51条1項（ア）、不動産登記規則35条7号（オ）。イ・ウ・
 エは条文の個別の号数ではなく、表示に関する登記の性質に基づく一般原則に
-よる。判例・先例番号は省略。
+よる。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

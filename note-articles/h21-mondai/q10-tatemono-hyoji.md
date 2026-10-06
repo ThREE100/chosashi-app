@@ -2,51 +2,65 @@
 
 **出題年度：平成21年度　午後の部　第10問**
 
-> 建物の表示に関する登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。
->
-> ア　区分建物以外の建物（以下本問において「非区分建物」という。）であって、新築後、表題登記がないまま１月以上が経過したものを譲り受けたAは、譲り受けた後１月以内に、当該非区分建物の表題登記を申請しなければならない。
->
-> イ　共用部分である旨の登記がある建物について、共用部分である旨を定めた規約を廃止した場合には、当該建物の所有者Aは、当該規約の廃止の日から１月以内に、当該建物の表題登記を申請しなければならない。
->
-> ウ　表題部所有者をAとする建物に附属する建物をAが新築したが、表題部の変更の登記の申請をしないままAが死亡した場合には、その相続人B及びCは、相続による当該主である建物の所有権の移転の登記を行った後でなければ、当該主である建物の表題部の変更の登記を申請することができない。
->
-> エ　Aが所有する建物をえい行移転したときは、Aは、当該建物の滅失登記と表題登記を同時に申請しなければならない。
->
-> オ　Aが表題登記がない非区分建物の所有権を取得したが、表題登記の申請をしないまま死亡した場合には、その相続人B及びCは、当該建物について、Aを表題部所有者とする表題登記を申請しなければならない。
->
+> 建物の表示に関する登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　区分建物以外の建物（以下本問において「非区分建物」という。）であって、新築後、表題登記がないまま１月以上が経過したものを譲り受けたAは、譲り受けた後１月以内に、当該非区分建物の表題登記を申請しなければならない。  
+>　  
+> イ　共用部分である旨の登記がある建物について、共用部分である旨を定めた規約を廃止した場合には、当該建物の所有者Aは、当該規約の廃止の日から１月以内に、当該建物の表題登記を申請しなければならない。  
+>　  
+> ウ　表題部所有者をAとする建物に附属する建物をAが新築したが、表題部の変更の登記の申請をしないままAが死亡した場合には、その相続人B及びCは、相続による当該主である建物の所有権の移転の登記を行った後でなければ、当該主である建物の表題部の変更の登記を申請することができない。  
+>　  
+> エ　Aが所有する建物をえい行移転したときは、Aは、当該建物の滅失登記と表題登記を同時に申請しなければならない。  
+>　  
+> オ　Aが表題登記がない非区分建物の所有権を取得したが、表題登記の申請をしないまま死亡した場合には、その相続人B及びCは、当該建物について、Aを表題部所有者とする表題登記を申請しなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イオ　　4　ウエ　　5　ウオ
+
+---
 
 建物の表示に関する登記の申請義務や申請手続を横断的に問う分野です。「誰が」「いつまでに」「どの登記を」申請しなければならないのか、そして曳家（えい行移転）や相続がからむ場面での処理を、条文に沿って正確に整理していきましょう。
 
 ### ア：表題登記のない建物を譲り受けた者は、譲受後1月以内に表題登記を申請しなければならない
 
-新築した建物又は区分建物以外の表題登記がない建物の所有権を取得した者は、その所有権の取得の日から1月以内に、表題登記を申請しなければなりません（不動産登記法47条1項）。新築からすでに1月以上が経過していても、譲り受けた人にとっては「取得の日」から新たに1月の申請期間が起算されます。
+新築した建物又は区分建物以外の表題登記がない建物の所有権を取得した者は、その所有権の取得の日から1月以内に、表題登記を申請しなければなりません（不動産登記法47条1項）。
+
+新築からすでに1月以上が経過していても、譲り受けた人にとっては「取得の日」から新たに1月の申請期間が起算されます。
 
 **たとえば**、建てられてから半年間ずっと表題登記のないままだった建物を買い取った人は、「もう新築から1月過ぎているから関係ない」とはならず、自分が買った日から1月以内に表題登記を申請しなければなりません。
 
 ### イ：共用部分の規約を廃止したら、所有者は廃止の日から1月以内に表題登記を申請しなければならない
 
-共用部分である旨の登記がある建物は、権利に関する登記が抹消され、いわば「登記簿の外」に置かれた状態です。この共用部分である旨を定めた規約を廃止した場合には、当該建物の所有者は、規約の廃止の日から1月以内に、当該建物の表題登記を申請しなければなりません（不動産登記法58条6項）。
+共用部分である旨の登記がある建物は、権利に関する登記が抹消され、いわば「登記簿の外」に置かれた状態です。
+
+この共用部分である旨を定めた規約を廃止した場合には、当該建物の所有者は、規約の廃止の日から1月以内に、当該建物の表題登記を申請しなければなりません（不動産登記法58条6項）。
 
 **たとえば**、マンションの集会室を共用部分として登記していたものを、規約を廃止して独立の一室として使うことにした場合、その所有者は廃止の日から1月以内に、その建物（部屋）の表題登記を申請する必要があります。
 
 ### ウ：相続による所有権移転登記を経なくても、相続人は附属建物の表題部変更登記を申請できる
 
-表題部所有者をAとする建物は、まだ所有権の保存登記がされていない段階であり、そもそも「相続による所有権の移転の登記」を先行させることはできません。附属建物の新築による表題部の変更の登記は表示に関する登記であり、相続人は被承継人に代わって直接これを申請することができます（不動産登記法30条）。「所有権移転登記を行った後でなければ申請できない」とする記述は誤りです。
+表題部所有者をAとする建物は、まだ所有権の保存登記がされていない段階であり、そもそも「相続による所有権の移転の登記」を先行させることはできません。
+
+附属建物の新築による表題部の変更の登記は表示に関する登記であり、相続人は被承継人に代わって直接これを申請することができます（不動産登記法30条）。「所有権移転登記を行った後でなければ申請できない」とする記述は誤りです。
 
 **たとえば**、Aさん名義（表題部所有者）の建物に物置を建て増ししたまま変更登記をせずにAさんが亡くなった場合、相続人のBさん・Cさんは、権利の登記を先に済ませなくても、そのまま附属建物を加える表題部変更登記を申請できます。
 
 ### エ：えい行移転は、滅失登記と表題登記の同時申請ではなく、変更の登記で処理する
 
-えい行移転（曳家）は、建物を取り壊さずにそのまま同一敷地内などへ引いて移動させるもので、建物の同一性は失われません。したがって「滅失登記＋表題登記」の同時申請ではなく、所在等の変更を内容とする建物の表題部の変更の登記によって処理します（不動産登記法51条）。滅失登記と表題登記を同時に申請しなければならないとする記述は誤りです。
+えい行移転（曳家）は、建物を取り壊さずにそのまま同一敷地内などへ引いて移動させるもので、建物の同一性は失われません。
+
+したがって「滅失登記＋表題登記」の同時申請ではなく、所在等の変更を内容とする建物の表題部の変更の登記によって処理します（不動産登記法51条）。滅失登記と表題登記を同時に申請しなければならないとする記述は誤りです。
 
 **たとえば**、道路拡幅のために自宅を少し後ろへ曳いて動かした場合、その建物を一度「滅失」させて新たに登記し直すのではなく、所在を書き換える変更登記を申請することになります。
 
 ### オ：相続人は、被承継人を表題部所有者とする表題登記を申請「することができる」（しなければならないわけではない）
 
-表題部所有者又は所有権の登記名義人について相続その他の一般承継があったときは、相続人その他の一般承継人は、被承継人を表題部所有者とする表題登記を申請することが「できる」とされています（不動産登記法30条）。これはあくまで相続人に認められた申請方法の一つであり、Aを表題部所有者とする形に限定して「しなければならない」わけではありません。相続人B・C自身を表題部所有者として申請することもでき、記述は誤りです。
+表題部所有者又は所有権の登記名義人について相続その他の一般承継があったときは、相続人その他の一般承継人は、被承継人を表題部所有者とする表題登記を申請することが「できる」とされています（不動産登記法30条）。
+
+これはあくまで相続人に認められた申請方法の一つであり、Aを表題部所有者とする形に限定して「しなければならない」わけではありません。相続人B・C自身を表題部所有者として申請することもでき、記述は誤りです。
 
 **たとえば**、表題登記のない建物を買ったAさんが登記しないうちに亡くなった場合、相続人は亡きAさんを表題部所有者として登記することもできますが、それに縛られるわけではなく、自分たち（B・C）を表題部所有者として表題登記を申請することもできます。
+
+---
 
 ### まとめ
 
@@ -69,7 +83,7 @@
 - 各肢の根拠として挙げた条文は、ア（不動産登記法47条1項）・イ（同法58条6項）・ウ（同法30条）・エ（同法51条）・オ（同法30条）です。イの根拠条文（共用部分である旨の登記がある建物の規約廃止に伴う表題登記申請義務）は**58条6項**です（○×判定自体は公式正答で確認済み）。
 - なお、ローカルのアガルート教材フォルダは本実行環境からは参照できないため、今回は同教材を参照していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（表題登記未済建物の譲受人の申請義務・共用部分規約廃止後の表題登記申請義務・附属建物新築後の相続と表題部変更登記・えい行移転の処理・未登記のまま死亡した所有者の相続人の申請を組み合わせた問題）と同一・類似の問題が再出題されていないかを確認しました。「共用部分規約廃止後1月以内に表題登記」という一文自体はほぼ同一表現で複数年度（H22第6問、H27第17問、R01第16問、R03第18問等）に繰り返し登場しますが、他の4肢の組合せ、特にえい行移転論点との組合せは毎回異なり、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **適用法令の現行性チェック（2026-08-04実施）／条文番号の重要な訂正**：肢イの根拠条文を**「不動産登記法51条6項」から「不動産登記法58条6項」に訂正しました**（本文・まとめ表・上記の条文一覧の3か所）。51条は「建物の表題部の変更の登記」の規定で、その6項は「共用部分である旨の登記等がある建物について登記事項の変更があった**後に所有権を取得した者**の変更登記申請義務」を定めるものであり、規約廃止の場面の規定ではありません。「共用部分である旨の登記又は団地共用部分である旨の登記がある建物について、その旨を定めた**規約を廃止した場合**に、当該建物の所有者が廃止の日から1月以内に表題登記を申請しなければならない」と定めているのは**58条（共用部分である旨の登記等）6項**です（同条7項が、規約廃止後に所有権を取得した者の1月以内の申請義務を定めています）。**肢イが「正」であるという結論自体は変わりません。**その他の条文も現行法で確認し、ア＝**47条1項**（新築建物・区分建物以外の表題登記がない建物の所有権を取得した者は取得の日から1月以内に表題登記を申請）、ウ・オ＝**30条**（相続その他の一般承継があったときは、相続人その他の一般承継人が被承継人を表題部所有者とする表示に関する登記を申請することが「できる」）、エ＝**51条**（建物の表題部の変更の登記。えい行移転は建物の同一性が保たれるため所在等の変更の登記で処理する）に、いずれも条数の移動はありませんでした。なお、令和3年法律24号による**相続登記の申請義務化（法76条の2、2024年4月1日施行）**は、相続によって「所有権」を取得した相続人に3年以内の申請を義務づける**権利に関する登記**の制度であり、本問の肢ウ・オが扱う**表示に関する登記**（表題登記・表題部の変更の登記）の申請とは別制度です。肢オの「申請することができる（＝しなければならないわけではない）」という30条の結論が、相続登記義務化によって「しなければならない」に変わることはありません（本文にこの点の混同はありませんでした）。**5肢すべて、結論（正誤）は現行法でも変わりません。**
+- **適用法令の現行性チェック（2026-08-04実施）／条文番号の重要な訂正**：イの根拠条文を**「不動産登記法51条6項」から「不動産登記法58条6項」に訂正しました**（本文・まとめ表・上記の条文一覧の3か所）。51条は「建物の表題部の変更の登記」の規定で、その6項は「共用部分である旨の登記等がある建物について登記事項の変更があった**後に所有権を取得した者**の変更登記申請義務」を定めるものであり、規約廃止の場面の規定ではありません。「共用部分である旨の登記又は団地共用部分である旨の登記がある建物について、その旨を定めた**規約を廃止した場合**に、当該建物の所有者が廃止の日から1月以内に表題登記を申請しなければならない」と定めているのは**58条（共用部分である旨の登記等）6項**です（同条7項が、規約廃止後に所有権を取得した者の1月以内の申請義務を定めています）。**イが「正」であるという結論自体は変わりません。**その他の条文も現行法で確認し、ア＝**47条1項**（新築建物・区分建物以外の表題登記がない建物の所有権を取得した者は取得の日から1月以内に表題登記を申請）、ウ・オ＝**30条**（相続その他の一般承継があったときは、相続人その他の一般承継人が被承継人を表題部所有者とする表示に関する登記を申請することが「できる」）、エ＝**51条**（建物の表題部の変更の登記。えい行移転は建物の同一性が保たれるため所在等の変更の登記で処理する）に、いずれも条数の移動はありませんでした。なお、令和3年法律24号による**相続登記の申請義務化（法76条の2、2024年4月1日施行）**は、相続によって「所有権」を取得した相続人に3年以内の申請を義務づける**権利に関する登記**の制度であり、本問のウ・オが扱う**表示に関する登記**（表題登記・表題部の変更の登記）の申請とは別制度です。オの「申請することができる（＝しなければならないわけではない）」という30条の結論が、相続登記義務化によって「しなければならない」に変わることはありません（本文にこの点の混同はありませんでした）。**5肢すべて、結論（正誤）は現行法でも変わりません。**
 
 ---
 
@@ -83,7 +97,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -107,10 +121,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -194,22 +226,20 @@ Conclusion tag (a short blue banner/pill directly below the illustration):
 
 KANJI ACCURACY WARNING: this poster contains the characters 廃・続・滅・
 譲・義・務・記・規・約・相 . These differ noticeably from their Simplified Chinese
-counterparts (廃 must NOT become 废, 続 must NOT become 续, 滅 must NOT
-become 灭, 譲 must NOT become 让, 義 must NOT become 义, 務 must NOT become
-务, 記 must NOT become 记, 規 must NOT become 规, 約 must NOT become 约).
+counterparts.
 Draw each one in the Japanese form.
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 建物の表示に関する登記について、「いつから」「誰が」「1月以内に」申請しなければならないのか、相続やえい行移転がからむ場面でどう処理するのかを、肢ごとに思考の手順として示す作図ガイド。②の俯瞰カードポスターとは別物で、判定の手続そのものを可視化する構成。5パネル、portrait 1080×2600px。
 
@@ -287,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。パネル1・2は緑（1月以内の申請義務）、パネル3〜5は青
 （相続・えい行移転の処理）で色分けする。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -307,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取得日から起算
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 共用部分の規約廃止から1月以内に表題登記を申請する
@@ -325,7 +355,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有者が1月以内に申請
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 移転登記を経なくても相続人は表題部変更登記を申請できる
@@ -346,7 +376,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 移転登記は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 えい行移転は滅失登記・表題登記でなく変更登記で処理する
@@ -367,7 +397,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 滅失していない
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 相続人は被承継人名義でもB・C名義でも表題登記を選べる

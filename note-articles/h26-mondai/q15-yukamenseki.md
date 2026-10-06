@@ -2,19 +2,21 @@
 
 **出題年度：平成26年度　午後の部　第15問**
 
-> 建物の床面積の定め方に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　区分建物でない木造の建物の床面積は，壁の厚さ又は形状にかかわらず，柱の中心線で囲まれた部分の水平投影面積により定める。
->
-> イ　区分建物が属する一棟の建物の床面積は，各階ごとに壁その他の区画の内側線で囲まれた部分の水平投影面積により定める。
->
-> ウ　区分建物において，エレベーター室，エレベーター巻上げ機械室及び階段室で構成される天井の高さが1.8メートルの塔屋は，一棟の建物の床面積に算入する。
->
-> エ　観覧席の部分には固定式の屋根の設備を有し，競技場の部分には開閉式の屋根の設備を有するスポーツ施設は，観覧席部分の面積のほか，競技場部分の面積も，床面積に算入する。
->
-> オ　周壁のないベランダは，区分建物であっても区分建物でない建物であっても，いずれも床面積に算入しない。
->
+> 建物の床面積の定め方に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　区分建物でない木造の建物の床面積は，壁の厚さ又は形状にかかわらず，柱の中心線で囲まれた部分の水平投影面積により定める。  
+>　  
+> イ　区分建物が属する一棟の建物の床面積は，各階ごとに壁その他の区画の内側線で囲まれた部分の水平投影面積により定める。  
+>　  
+> ウ　区分建物において，エレベーター室，エレベーター巻上げ機械室及び階段室で構成される天井の高さが1.8メートルの塔屋は，一棟の建物の床面積に算入する。  
+>　  
+> エ　観覧席の部分には固定式の屋根の設備を有し，競技場の部分には開閉式の屋根の設備を有するスポーツ施設は，観覧席部分の面積のほか，競技場部分の面積も，床面積に算入する。  
+>　  
+> オ　周壁のないベランダは，区分建物であっても区分建物でない建物であっても，いずれも床面積に算入しない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
+
+---
 
 建物の床面積の算定方法は、「壁芯（かべしん）」か「内法（うちのり）」かという計算方法の違いが最大のポイントです。特に区分建物では、専有部分と一棟の建物全体とで計算方法が異なるという、初学者がつまずきやすい論点が含まれています。
 
@@ -26,31 +28,47 @@
 
 ### イ：区分建物が属する一棟の建物の床面積も、壁芯で計算する
 
-区分建物が属する一棟の建物全体の床面積は、各階ごとに壁その他の区画の内側線（内法）で囲まれた部分の水平投影面積によって定める、という記述は誤りです。区分建物における専有部分の床面積は内法計算で算定されますが、一棟の建物全体の床面積については、区分建物でない建物と同様に壁芯計算で算定されます。専有部分（内法）と一棟の建物全体（壁芯）とで、計算方法が異なる点が重要です。
+区分建物が属する一棟の建物全体の床面積は、各階ごとに壁その他の区画の内側線（内法）で囲まれた部分の水平投影面積によって定める、という記述は誤りです。
+
+区分建物における専有部分の床面積は内法計算で算定されますが、一棟の建物全体の床面積については、区分建物でない建物と同様に壁芯計算で算定されます。専有部分（内法）と一棟の建物全体（壁芯）とで、計算方法が異なる点が重要です。
 
 **たとえば**、マンションの一室（専有部分）の床面積は、壁の内側の実際に使える空間の広さ（内法）で測られますが、そのマンション全体（一棟の建物）としての床面積は、壁の中心線を基準にした壁芯計算で算定されます。
 
 ### ウ：出入口専用の階段室やエレベーター機械などだけで構成される塔屋は、高さにかかわらず床面積に算入されない
 
-不動産登記事務取扱手続準則82条（1）は「天井の高さ1.5メートル未満の地階及び屋階（特殊階）は、床面積に算入しない」と定めています。これは天井の「高さ」だけに着目した不算入ルールであり、この規定だけを読むと、1.5メートルを超える屋上の塔屋は床面積に算入されるようにも見えてしまいます。
+不動産登記事務取扱手続準則82条（1）は「天井の高さ1.5メートル未満の地階及び屋階（特殊階）は、床面積に算入しない」と定めています。
 
-しかし、実務上はこれとは別の判断基準があります。屋上に設けられた階段室やエレベーターの機械室、受水槽・冷却設備などの収容スペースのように、人が居住したり執務したりするための空間ではなく、もっぱら建物の設備を収めるためだけに造られた塔屋については、天井の高さが1.5メートルを超えていても、そもそも建物の「階」として扱われず、階数にも床面積にも算入しないという取扱いが確立しています。ポイントは「高さ」ではなく「その空間が居室としての実質を持つかどうか」という点にあり、設備収容専用の塔屋は、高さの基準とは切り離して判断されるのです。
+これは天井の「高さ」だけに着目した不算入ルールであり、この規定だけを読むと、1.5メートルを超える屋上の塔屋は床面積に算入されるようにも見えてしまいます。
 
-なお、同じ準則82条（6）には「階段室、エレベーター室又はこれに準ずるものは、床を有するものとみなして各階の床面積に算入する」という規定もありますが、これは、通常の各階の中を上下に貫く階段・エレベーターの吹抜け部分を、その階の床面積として数える（吹抜けだからといって差し引かない）という趣旨の規定です。塔屋のように、そもそも独立した「階」として認識されない空間についてまで、この規定が床面積への算入を義務付けているわけではありません。
+しかし、実務上はこれとは別の判断基準があります。
 
-**たとえば**、マンションの屋上に設けられたエレベーターの機械室や階段室だけで構成された小さな塔屋があるとします。この部分の天井の高さが1.5メートルを超えていたとしても、人が住んだり働いたりするための空間ではなく、設備を収めるためだけの部分にとどまるため、建物全体の床面積には算入されません。
+屋上に設けられた階段室やエレベーターの機械室、受水槽・冷却設備などの収容スペースのように、人が居住したり執務したりするための空間ではなく、もっぱら建物の設備を収めるためだけに造られた塔屋については、天井の高さが1.5メートルを超えていても、そもそも建物の「階」として扱われず、階数にも床面積にも算入しないという取扱いが確立しています。
+
+ポイントは「高さ」ではなく「その空間が居室としての実質を持つかどうか」という点にあり、設備収容専用の塔屋は、高さの基準とは切り離して判断されるのです。
+
+なお、同じ準則82条（6）には「階段室、エレベーター室又はこれに準ずるものは、床を有するものとみなして各階の床面積に算入する」という規定もありますが、これは、通常の各階の中を上下に貫く階段・エレベーターの吹抜け部分を、その階の床面積として数える（吹抜けだからといって差し引かない）という趣旨の規定です。
+
+塔屋のように、そもそも独立した「階」として認識されない空間についてまで、この規定が床面積への算入を義務付けているわけではありません。
+
+**たとえば**、マンションの屋上に設けられたエレベーターの機械室や階段室だけで構成された小さな塔屋があるとします。
+
+この部分の天井の高さが1.5メートルを超えていたとしても、人が住んだり働いたりするための空間ではなく、設備を収めるためだけの部分にとどまるため、建物全体の床面積には算入されません。
 
 ### エ：屋根の開閉方式にかかわらず、屋根の設備がある部分は床面積に算入する
 
 観覧席の部分に固定式の屋根の設備を有し、競技場の部分に開閉式の屋根の設備を有するスポーツ施設について、観覧席部分だけでなく競技場部分の面積も床面積に算入します。屋根が固定式か開閉式かにかかわらず、屋根等の設備を有する部分は床面積の算定対象になります。
 
-**たとえば**、観客席には常に屋根がかかっており、フィールド部分には開け閉めできる屋根が設置されているスタジアムがあるとします。この場合、屋根が開いている状態であることもあるフィールド部分も、屋根の設備がある以上、観客席部分とあわせて床面積に算入されます。
+**たとえば**、観客席には常に屋根がかかっており、フィールド部分には開け閉めできる屋根が設置されているスタジアムがあるとします。
+
+この場合、屋根が開いている状態であることもあるフィールド部分も、屋根の設備がある以上、観客席部分とあわせて床面積に算入されます。
 
 ### オ：周壁のないベランダは、区分建物でもそうでなくても床面積に算入しない
 
 周壁（周囲を囲む壁）のないベランダは、区分建物であっても区分建物でない建物であっても、いずれの場合も床面積に算入されません。壁に囲まれていない開放的な空間であるため、床面積としてカウントする対象にはならないのです。
 
 **たとえば**、マンションのバルコニーや一戸建ての外に張り出した縁側のような、周りを壁で囲まれていないベランダは、そのマンションが区分建物であっても一戸建てであっても、床面積には含まれません。
+
+---
 
 ### まとめ
 
@@ -70,10 +88,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・ウ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
-- ア・イ（不動産登記規則115条：「建物の床面積は、各階ごとに壁その他の区画の中心線（区分建物にあっては、壁その他の区画の内側線）で囲まれた部分の水平投影面積により…定め」る、という条文）は、`note-articles/laws/fudousan-touki-kisoku-1.md`に保存した条文原文で確認済みです。115条括弧書きの「区分建物にあっては、内側線」という例外は、区分建物（専有部分）自体の床面積を算定する場合の規定であり、区分建物が属する「一棟の建物」全体の床面積までは対象としていないため、肢イは誤りと判断しています。エ（屋根の開閉方式にかかわらず床面積に算入すること）は不動産登記事務取扱手続準則82条1項3号（観覧席の面積を床面積として算出する規定）と整合しており、開閉式屋根の部分も含めて全体を床面積に算入する扱いは、平成5年12月3日民三第7499号（先例）でも確認できます。オ（周壁のないベランダの床面積不算入）は準則82条1項7号で確認済みです。
+- ア・イ（不動産登記規則115条：「建物の床面積は、各階ごとに壁その他の区画の中心線（区分建物にあっては、壁その他の区画の内側線）で囲まれた部分の水平投影面積により…定め」る、という条文）は、`note-articles/laws/fudousan-touki-kisoku-1.md`に保存した条文原文で確認済みです。115条括弧書きの「区分建物にあっては、内側線」という例外は、区分建物（専有部分）自体の床面積を算定する場合の規定であり、区分建物が属する「一棟の建物」全体の床面積までは対象としていないため、イは誤りと判断しています。エ（屋根の開閉方式にかかわらず床面積に算入すること）は不動産登記事務取扱手続準則82条3号（観覧席の面積を床面積として算出する規定）と整合しており、開閉式屋根の部分も含めて全体を床面積に算入する扱いは、平成5年12月3日民三第7499号（先例）でも確認できます。オ（周壁のないベランダの床面積不算入）は準則82条7号で確認済みです。
 - ウ（塔屋の床面積算入基準）は、当初、`note-articles/laws/`に保存した不動産登記法・不動産登記規則・準則の条文だけからは明確な根拠を特定できず、未解決の論点として記録していました。準則82条（1）の1.5メートル基準を文字どおりに読むと、1.5メートルを超える塔屋は算入されるようにも読めてしまうためです。今回、ユーザーから提供された実務教材により、出入口専用の階段室やエレベーター機械等の設備のみを収容する塔屋については、天井の高さが1.5メートルを超えていても階数・床面積のいずれにも算入しないとする先例（昭和38年10月22日民事甲第1933号）が存在することが確認できたため、本文を「未解決」から確定的な説明に改めました。この先例は不動産登記法・不動産登記規則そのものではなく、`note-articles/laws/`のローカル法令データベースには収録されていない行政先例（回答）であるため、原文の確認は今回参照した実務教材に基づいています。今後、公式の先例集等での一次確認ができるとより確実です。なお、この修正は先例の存在を新たに確認して記事の説明を補ったものであり、直近の法改正等によって結論が変わったものではないため、問題文・正解・各肢の正誤判定は原本のまま変更していません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。建物の床面積の定め方（壁芯・内法、塔屋の算入）がテーマ。同一テーマの問題は見当たりませんでした。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記規則・不動産登記事務取扱手続準則の現行条文（2026-08-04取得）で全肢を再確認しました。肢ア・イ・エ・オの結論に影響する法改正は見当たりません。肢ウについては、ユーザーから提供された実務教材により、設備収容専用の塔屋を階数・床面積のいずれにも算入しないとする先例（昭和38年10月22日民事甲第1933号）を確認し、本文の説明を確定的な内容に更新しました。この先例は昭和38年のものであり、平成26年度の原問題出題時点でも現在（2026年）でも変わらず適用される取扱いであるため、法改正等による結論の変更ではなく、根拠の補完にとどまります。したがって本記事は（改）表記とせず、正解・各肢の正誤判定は原本のまま維持しています。
+- **最新法令チェック（2026-08-16再実施）**：`note-articles/laws/`に保存した不動産登記規則・不動産登記事務取扱手続準則の現行条文（2026-08-04取得）で全肢を再確認しました。ア・イ・エ・オの結論に影響する法改正は見当たりません。ウについては、ユーザーから提供された実務教材により、設備収容専用の塔屋を階数・床面積のいずれにも算入しないとする先例（昭和38年10月22日民事甲第1933号）を確認し、本文の説明を確定的な内容に更新しました。この先例は昭和38年のものであり、平成26年度の原問題出題時点でも現在（2026年）でも変わらず適用される取扱いであるため、法改正等による結論の変更ではなく、根拠の補完にとどまります。したがって本記事は（改）表記とせず、正解・各肢の正誤判定は原本のまま維持しています。
 
 ---
 
@@ -114,12 +132,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・棟・専・内・算・屋・根 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -198,22 +234,22 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、どの部分を測ろうとしているのか（専有部分か一棟全体か）、どの空間が対象外になるのか（塔屋・ベランダ）を、どの順番で確認すればよいかを示す作図ガイド。肢イ・ウは判定の分岐がある肢として決定木で、肢ア・エ・オは単一の着眼点で完結する肢として通常の図解で示す。
+問題文を読んだ瞬間に、どの部分を測ろうとしているのか（専有部分か一棟全体か）、どの空間が対象外になるのか（塔屋・ベランダ）を、どの順番で確認すればよいかを示す作図ガイド。イ・ウは判定の分岐がある肢として決定木で、ア・エ・オは単一の着眼点で完結する肢として通常の図解で示す。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -294,7 +330,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -313,7 +349,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 壁芯（柱中心線）で算定
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -325,7 +361,7 @@ and greyed-out since it is not this panel's focus): a small inner room
 frame measured with an「内法」dotted line along the inner wall surface,
 leading to a faded conclusion node「専有部分は内法で算定」. Right branch
 (labeled「一棟の建物全体」, thick highlighted border and full color, since
-this is 肢イ's case): the large outer frame of the whole building measured
+this is イ's case): the large outer frame of the whole building measured
 with a「壁芯」dotted line along the outer wall center, leading to a bold
 conclusion node「一棟全体も壁芯で算定」. Draw a small arrow attempting to
 apply the「内法」measurement to the whole building, with a red cross mark
@@ -338,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一棟全体は壁芯で算定
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -349,7 +385,7 @@ machine-room icon, an elevator hoist icon, and a stairwell icon, labeled
 「天井高さ1.8メートル」. Diamond branch node labeled「もっぱら設備を収容
 するためだけの空間か（人が居住・執務する実質があるか）？」. The「はい
 （設備専用）」branch is drawn with a thick highlighted border and full
-color (since this is 肢ウ's case), leading to a bold conclusion node「その
+color (since this is ウ's case), leading to a bold conclusion node「その
 空間はそもそも『階』として扱われない → 天井高さ（1.8メートル）にかかわ
 らず床面積・階数に不算入」. The「いいえ（居室としての実質がある通常の
 階）」branch is drawn faded and greyed-out, leading to a faded conclusion
@@ -365,7 +401,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 設備専用なら不算入
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -385,7 +421,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 両方とも床面積に算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):

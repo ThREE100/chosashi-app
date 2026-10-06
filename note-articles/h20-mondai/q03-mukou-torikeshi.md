@@ -2,19 +2,21 @@
 
 **出題年度：平成20年度　午後の部　第3問**
 
-> 次のアからオまでの記述は、無効な法律行為と取り消すことができる法律行為に関するものである。これらの記述のうち、「この法律行為」が取り消すことができる法律行為のみを指しているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　この法律行為は、行為の後、一定の期間が経過することによって、確定的に有効となる場合がある。
->
-> イ　この法律行為は、だれでもその効力がない旨を主張することができる。
->
-> ウ　この法律行為は、効力がない旨の主張がされた時から、将来に向かってのみその効力を失う。
->
-> エ　この法律行為に基づいて金銭債務を負担した者は、既に支払った金銭の返還を請求することができる。
->
-> オ　成年被後見人がした法律行為は、原則として、この法律行為である。
->
+> 次のアからオまでの記述は、無効な法律行為と取り消すことができる法律行為に関するものである。これらの記述のうち、「この法律行為」が取り消すことができる法律行為のみを指しているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　この法律行為は、行為の後、一定の期間が経過することによって、確定的に有効となる場合がある。  
+>　  
+> イ　この法律行為は、だれでもその効力がない旨を主張することができる。  
+>　  
+> ウ　この法律行為は、効力がない旨の主張がされた時から、将来に向かってのみその効力を失う。  
+>　  
+> エ　この法律行為に基づいて金銭債務を負担した者は、既に支払った金銭の返還を請求することができる。  
+>　  
+> オ　成年被後見人がした法律行為は、原則として、この法律行為である。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
+
+---
 
 「無効」と「取消し」は、どちらも「効力を認めない」点では似ていますが、①だれが主張できるか、②いつまで主張できるか、③さかのぼって無効になるか、という点で大きく違います。この問題は、その違いを逆から問う応用問題です。
 
@@ -26,7 +28,9 @@
 
 ### イ：だれでも主張できるのは、無効の特徴
 
-「だれでもその効力がない旨を主張できる」というのは、無効な法律行為の特徴です。取り消すことができる法律行為は、取消権を持つ本人や代理人など、限られた人（取消権者）だけが取り消せます。したがって本肢は無効な行為にも当てはまり、「取消しうる行為のみ」を指してはいません。
+「だれでもその効力がない旨を主張できる」というのは、無効な法律行為の特徴です。取り消すことができる法律行為は、取消権を持つ本人や代理人など、限られた人（取消権者）だけが取り消せます。
+
+したがって本肢は無効な行為にも当てはまり、「取消しうる行為のみ」を指してはいません。
 
 **たとえば**、公序良俗違反で無効な契約は、契約の当事者でなくても利害関係があればだれでも「あれは無効だ」と主張できます。しかし、だまされて結んだ（取り消せる）契約を「やめる」と言えるのは、だまされた本人などに限られます。
 
@@ -38,7 +42,9 @@
 
 ### エ：既払金の返還請求は、無効でも取消しでも生じる
 
-法律行為が効力を持たない場合、給付を受けた者は原状回復義務を負い、既払金の返還を請求できます（民法121条の2第1項）。これは無効な行為でも、取消しにより初めから無効とみなされた行為（同法121条）でも同じように生じるため、本肢は「取消しうる行為のみ」を指してはいません。
+法律行為が効力を持たない場合、給付を受けた者は原状回復義務を負い、既払金の返還を請求できます（民法121条の2第1項）。
+
+これは無効な行為でも、取消しにより初めから無効とみなされた行為（同法121条）でも同じように生じるため、本肢は「取消しうる行為のみ」を指してはいません。
 
 **たとえば**、無効な契約に基づいてうっかり代金を払ってしまった人も、取り消して無効になった契約で払った人も、どちらも「払ったお金を返してほしい」と請求できます。返還請求ができること自体は、両者に共通しているのです。
 
@@ -47,6 +53,8 @@
 成年被後見人がした法律行為は、原則として取り消すことができます（民法9条）。日用品の購入など日常生活に関する行為は例外ですが、原則は「取消しうる行為」です。したがって本肢は、取消しうる行為のみを指しています。
 
 **たとえば**、成年被後見人であるAさんが高額な絵画の売買契約を結んでしまった場合、成年後見人はその契約を取り消すことができます。これは「無効」なのではなく、後から取り消せる「取消しうる行為」に当たります。
+
+---
 
 ### まとめ
 
@@ -67,9 +75,9 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・オが「取消しうる行為のみ」を指す）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答に基づくもの）で確認しています。
 - **【2026年8月4日 現行民法との整合性を再確認しました】** 平成29年の債権法改正（令和2年4月1日施行）および成年年齢引下げ等の改正を経ても、本問に関係する条文番号は次のとおり変わっていません。**9条**（成年被後見人の法律行為は取り消すことができる。ただし日用品の購入その他日常生活に関する行為を除く）、**121条**（取り消された行為は初めから無効であったものとみなす）、**122条**（追認）、**126条**（取消権の期間の制限＝追認可能時から5年・行為の時から20年）。
-- ただし1点、**肢エの根拠が現行法では変わっています**。改正により民法121条の2（原状回復の義務）が新設され、無効な行為に基づく給付の返還は、改正前のように民法703条以下の不当利得の一般規定ではなく、121条の2で処理されることになりました。取消しの場合も121条により初めから無効とみなされるため同条が適用されます。これに合わせて肢エの解説を書き換えています。制限行為能力者は「現に利益を受けている限度」で返還すれば足りる（121条の2第3項）という点も、あわせて押さえておくと理解が深まります。
-- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証しました】** `minpou-1-soukyoku-bukken.md`（2026-08-04取得の現行民法）で、**9条**・**120条**（取消権者）・**121条**・**121条の2**（1項＝原状回復義務、3項＝制限行為能力者は現に利益を受けている限度で返還）・**122条**・**126条**（5年／20年）の条文番号・見出し・本文を原文で確認し、記事の記載と一致していることを確かめました。条文根拠の修正は不要でした。あわせて、簡潔性ルール（各肢の本文2〜3文）に沿って、肢アの改正経緯に関する段落を削除し、肢エの121条の2の説明を1文に圧縮しました（詳しい経緯はこの確認事項ブロックに残しています）。
-- 肢イが指す「無効はだれでも主張できる」というルールは、`laws/`の民法にも明文の根拠条文が置かれていないことを確認しました（無効・取消しの性質の対比に関する一般的な理解に基づく説明です）。
+- ただし1点、**エの根拠が現行法では変わっています**。改正により民法121条の2（原状回復の義務）が新設され、無効な行為に基づく給付の返還は、改正前のように民法703条以下の不当利得の一般規定ではなく、121条の2で処理されることになりました。取消しの場合も121条により初めから無効とみなされるため同条が適用されます。これに合わせてエの解説を書き換えています。制限行為能力者は「現に利益を受けている限度」で返還すれば足りる（121条の2第3項）という点も、あわせて押さえておくと理解が深まります。
+- **【2026年8月6日 ローカル法令データベース（note-articles/laws/）で再検証しました】** `minpou-1-soukyoku-bukken.md`（2026-08-04取得の現行民法）で、**9条**・**120条**（取消権者）・**121条**・**121条の2**（1項＝原状回復義務、3項＝制限行為能力者は現に利益を受けている限度で返還）・**122条**・**126条**（5年／20年）の条文番号・見出し・本文を原文で確認し、記事の記載と一致していることを確かめました。条文根拠の修正は不要でした。あわせて、簡潔性ルール（各肢の本文2〜3文）に沿って、アの改正経緯に関する段落を削除し、エの121条の2の説明を1文に圧縮しました（詳しい経緯はこの確認事項ブロックに残しています）。
+- イが指す「無効はだれでも主張できる」というルールは、`laws/`の民法にも明文の根拠条文が置かれていないことを確認しました（無効・取消しの性質の対比に関する一般的な理解に基づく説明です）。
 - オ（9条）、ウ（121条）、ア（126条・122条）は条文に基づく説明です。イ（無効はだれでも主張できること）は明文の規定ではなく、無効・取消しの性質の対比に関する一般的な理解に基づく説明です。
 - アプリのデータベースの補足解説（kaisetsu_plus.json）はこの問題について「reviewed: false（未検証）」の状態でしたので、本記事は公式正答に合わせて各肢を独自に判定して作成しています。ローカルのアガルート過去問テキスト等は本問について参照できるテキスト解説が手元になく、参照していません。
 - 【重要】データベース（takuitsu.json）に保存されていた各肢の原文は、「行為後一定期間経過で確定的に有効となる場合がある」のような短い要約形式でした。上記の引用部分（問題文全文）は、この要約をもとに一般的な条文体の言い回しで再構成したものであり、平成20年度の試験問題原本の一字一句そのままではない可能性があります。noteに掲載する前に、法務省公表の試験問題原本と照合することを強くおすすめします。
@@ -87,7 +95,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -110,10 +118,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -183,17 +209,17 @@ legal citation):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -220,7 +246,7 @@ highlighted (thicker border, distinct color). Only when 無効の列が✕で取
 in sequence before reaching a conclusion, draw the panel's diagram as an
 actual decision flowchart with diamond-shaped branch nodes and Yes/No
 （はい／いいえ）branch arrows leading to a final conclusion node; where a
-肢 is resolved by a single check (e.g. 肢ウ), a labeled illustrative
+肢 is resolved by a single check (e.g. ウ), a labeled illustrative
 diagram is sufficient. Do not include case or precedent numbers
 (article/regulation numbers are fine); keep the callout text as written
 below verbatim.
@@ -228,7 +254,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -252,7 +286,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft beige containing the number 1.
 Heading (bold, ONE line):
 期間経過で確定的に有効になるのは取消しだけ
@@ -274,7 +308,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 取消しうる行為のみの特徴
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft beige containing the number 2.
 Heading (bold, ONE line):
 誰でも主張できるのは無効の特徴
@@ -293,7 +327,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 無効にも当てはまる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3.
 Heading (bold, ONE line):
 取消しは遡及効であり将来効ではない
@@ -310,7 +344,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 遡及効であり将来効でない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft beige containing the number 4.
 Heading (bold, ONE line):
 返金請求は無効・取消しの両方に共通
@@ -330,7 +364,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 無効・取消し共通の効果
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft beige containing the number 5.
 Heading (bold, ONE line):
 成年被後見人の行為は原則取消しうる行為
@@ -355,11 +389,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法9条・121条・121条の2・122条・126条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 効・取・消・追・認・遡 and any character that has a visually
 similar Simplified Chinese variant. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that Panels 1・2・4・5 visibly share the same
 two-column comparison shape with the two-diamond checking sequence

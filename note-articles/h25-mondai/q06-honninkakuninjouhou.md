@@ -2,19 +2,21 @@
 
 **出題年度：平成25年度　午後の部　第6問**
 
-> 本人確認情報に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。
->
-> ア　土地家屋調査士Aが本人確認情報を提供するときは、Aが登記の申請の代理を業とすることができる者であることを証する情報を併せて提供しなければならない。
->
-> イ　土地家屋調査士Aが本人確認情報を提供して登記の申請をしたものの、登記官が当該本人確認情報の内容を相当と認めることができない場合には、直ちに却下される。
->
-> ウ　土地家屋調査士Aが登記の申請の依頼を受ける以前から当該申請の申請人の氏名及び住所を知り、かつ、当該申請人との間に親族関係、１年以上にわたる取引関係その他の安定した継続的な関係の存在があるときは、本人確認情報として明らかにすべき「資格者代理人が申請人の氏名を知り、かつ、当該申請人と面識があるとき」に当たる。
->
-> エ　土地家屋調査士Aが法人である申請人Bの本人確認情報を提供する場合は、Aは、Bの代表者と面談しなければならない。
->
-> オ　土地家屋調査士Aが甲土地を乙土地に合筆する合筆の登記の申請をそれらの土地の所有権の登記名義人であるBから依頼を受けた場合において、当該申請の半年前に、AがBからその所有に係る丙土地を丁土地に合筆する合筆の登記の申請を依頼され、本人確認情報を提供してその申請をしていたときは、甲土地及び乙土地に係る合筆の登記の申請において提供する本人確認情報として明らかにすべき「資格者代理人が申請人の氏名を知り、かつ、当該申請人と面識があるとき」に当たる。
->
+> 本人確認情報に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。  
+>　  
+> ア　土地家屋調査士Aが本人確認情報を提供するときは、Aが登記の申請の代理を業とすることができる者であることを証する情報を併せて提供しなければならない。  
+>　  
+> イ　土地家屋調査士Aが本人確認情報を提供して登記の申請をしたものの、登記官が当該本人確認情報の内容を相当と認めることができない場合には、直ちに却下される。  
+>　  
+> ウ　土地家屋調査士Aが登記の申請の依頼を受ける以前から当該申請の申請人の氏名及び住所を知り、かつ、当該申請人との間に親族関係、１年以上にわたる取引関係その他の安定した継続的な関係の存在があるときは、本人確認情報として明らかにすべき「資格者代理人が申請人の氏名を知り、かつ、当該申請人と面識があるとき」に当たる。  
+>　  
+> エ　土地家屋調査士Aが法人である申請人Bの本人確認情報を提供する場合は、Aは、Bの代表者と面談しなければならない。  
+>　  
+> オ　土地家屋調査士Aが甲土地を乙土地に合筆する合筆の登記の申請をそれらの土地の所有権の登記名義人であるBから依頼を受けた場合において、当該申請の半年前に、AがBからその所有に係る丙土地を丁土地に合筆する合筆の登記の申請を依頼され、本人確認情報を提供してその申請をしていたときは、甲土地及び乙土地に係る合筆の登記の申請において提供する本人確認情報として明らかにすべき「資格者代理人が申請人の氏名を知り、かつ、当該申請人と面識があるとき」に当たる。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
+
+---
 
 本人確認情報は、登記識別情報を提供できない場合の代替手段として、資格者代理人（土地家屋調査士など）に重要な役割が期待される制度です。「面識」の判断基準や、登記官が内容を相当でないと認めた場合の対応など、実務に直結する知識が問われます。
 
@@ -44,9 +46,13 @@
 
 ### オ：半年前の申請の際の本人確認があれば、「面識がある」ときに当たる
 
-過去に同一人から依頼を受けて本人確認情報を提供して登記の申請をしたことがある場合も、「面識がある」ときに当たるとされています。この事例では、半年前にBから合筆の登記の依頼を受けて本人確認情報を提供していることから、その後の甲土地・乙土地の合筆の登記の申請においても、この要件を満たします。
+過去に同一人から依頼を受けて本人確認情報を提供して登記の申請をしたことがある場合も、「面識がある」ときに当たるとされています。
+
+この事例では、半年前にBから合筆の登記の依頼を受けて本人確認情報を提供していることから、その後の甲土地・乙土地の合筆の登記の申請においても、この要件を満たします。
 
 **たとえば**、Aさんが半年前にBさんから別の土地の合筆登記を依頼されて本人確認情報を提供していた場合、今回新たにBさんから別の合筆登記を依頼されたときも、以前の実績をもって「面識がある」ものとして扱われます。
+
+---
 
 ### まとめ
 
@@ -108,12 +114,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 登・記 — these must be rendered in their standard Japanese forms,
 never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -188,18 +212,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -215,19 +239,19 @@ reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — isometric registry desks, application
 documents, official stamps, calendar icons, office buildings, and speech
-bubbles. Panel 3（肢ウ）must be drawn as a genuine two-diamond decision
+bubbles. Panel 3（ウ）must be drawn as a genuine two-diamond decision
 flowchart, because the requirement it tests is really two separate
 elements joined by「かつ」in the source rule — do not compress them into
 one check: (1) 依頼を受ける以前から申請人の氏名及び住所を知っていること,
 and (2) 親族関係・1年以上の取引関係その他の安定した継続的な関係があること.
-Panel 5（肢オ）shares the same root branching point as Panel 3 — both
+Panel 5（オ）shares the same root branching point as Panel 3 — both
 answer the question「どんな事情があれば『面識があるとき』に当たるか」— but
 takes the OTHER route through that shared tree (過去に本人確認情報を提供
 した実績があること, a single check rather than two). In Panel 3, render
 the「過去の実績」route in a faded, greyed-out style since it is not this
 panel's branch; in Panel 5, render the「依頼前からの継続的関係」two-diamond
 route in a faded, greyed-out style instead, since it is not this panel's
-branch. Panel 4（肢エ）uses a side-by-side comparison frame（対比枠型）
+branch. Panel 4（エ）uses a side-by-side comparison frame（対比枠型）
 rather than a flowchart, since the point of this 肢 is that two different
 people can equally serve as the 面談 partner, not a sequential condition.
 Panels 1 and 2 are resolved by a single check each and should use a
@@ -278,16 +302,16 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 資格者証明も同時に提出する
 Diagram: An isometric registry counter. A 土地家屋調査士 character（資格者
 代理人）hands two documents together to a registry officer: one labeled
 本人確認情報 and one labeled 資格者代理人であることを証する情報, clipped
-together with a paperclip icon. A single diamond node: 資格者証明の情報も
-あわせて提出したか？with a はい arrow leading to a conclusion node reading
-本人確認情報として受理される.
+together with a paperclip icon. A single arrow leads from the
+paperclipped pair to a conclusion node reading 本人確認情報として受理
+される (no diamond in this panel).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、本人確認情報だけでなく、自分が登記の申請の代理を業とすることができ
 る資格者代理人であることを証する情報も、あわせて提出しているかを確認しま
@@ -296,7 +320,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 添付も必須
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 却下でなくまず事前通知に進む
@@ -316,7 +340,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 却下より通知
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 氏名住所を知り継続関係あれば面識あり
@@ -325,11 +349,11 @@ Diagram: A decision-tree flowchart. Start node: どんな事情があれば「�
 実績のルート rendered in a faded, greyed-out style (not this panel's
 branch, see Panel 5), and 依頼前からの継続的関係のルート rendered with a
 thick highlighted border (this panel's branch), leading to two sequential
-diamond nodes. First diamond node (thick highlighted border): 依頼を受け
-る以前から申請人の氏名及び住所を知っているか？with a はい arrow proceeding
-downward. Second diamond node (thick highlighted border): 親族関係・1年
-以上の取引関係その他の安定した継続的な関係があるか？with a はい arrow
-leading to a conclusion node reading 面識があるときに当たる, illustrated by
+rectangular check boxes (NOT diamonds). Check box 1 (thick highlighted
+border): 依頼を受ける以前から申請人の氏名及び住所を知っている, with a single
+arrow downward. Check box 2 (thick highlighted border): 親族関係・1年以上の
+取引関係その他の安定した継続的な関係がある, with a single arrow leading to
+a conclusion node reading 面識があるときに当たる, illustrated by
 a 資格者代理人 character and a client character standing together with a
 timeline behind them stretching back over a year labeled 1年以上の取引
 関係.
@@ -341,7 +365,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 二つそろって面識あり
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 代表者以外との面談でも要件を満たす
@@ -359,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 代表者以外も可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 半年前の提供実績も面識あり扱い
@@ -367,9 +391,9 @@ Diagram: A decision-tree flowchart. Start node: どんな事情があれば「�
 あるとき」に当たるか（分岐点、共有 with Panel 3）with two branches: 依頼前
 からの継続的関係のルート rendered in a faded, greyed-out style (not this
 panel's branch, see Panel 3), and 過去の実績のルート rendered with a thick
-highlighted border (this panel's branch). A single diamond node (thick
-highlighted border): 過去に同一人から依頼を受けて本人確認情報を提供した
-実績があるか？with a はい arrow leading to a conclusion node reading 面識
+highlighted border (this panel's branch). A rectangular check box (NOT
+a diamond, thick highlighted border): 過去に同一人から依頼を受けて本人確認
+情報を提供した実績がある, with a single arrow leading to a conclusion node reading 面識
 があるときに当たる, illustrated by an isometric calendar icon showing a
 marked date labeled 半年前 with a small document icon labeled 本人確認
 情報, connected by a dashed line to today's date.
@@ -398,7 +422,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that 肢ウ is drawn as a genuine
+between the header and the panels, that ウ is drawn as a genuine
 two-diamond flowchart with its two distinct required elements kept
 separate rather than merged into one check, that Panels 3 and 5 clearly
 render their shared branching point with the relevant branch highlighted

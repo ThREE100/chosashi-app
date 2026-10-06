@@ -2,51 +2,65 @@
 
 **出題年度：平成22年度　午後の部　第6問**
 
-> 共用部分である旨の登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　表題登記がある区分建物について、これを共用部分である旨の規約を定めたときは、当該建物の表題部所有者は、当該規約を定めた日から1か月以内に、共用部分である旨の登記の申請をしなければならない。
->
-> イ　共用部分である旨の登記がある建物について、床面積に変更があったときは、当該建物の所有者は、その変更の日から1か月以内に、表題部の変更の登記を申請しなければならない。
->
-> ウ　共用部分である旨の登記の申請をする場合において、当該共用部分である建物が当該建物の属する一棟の建物以外の一棟の建物に属する建物の区分所有者の共用に供されるものであるときは、当該区分所有者が所有する建物の家屋番号を申請情報の内容として提供しなければならない。
->
-> エ　抵当権の設定の登記がある建物について、これを共用部分とする旨の規約を定めたときは、当該抵当権の登記名義人の承諾がなくても、共用部分である旨の登記の申請をすることができる。
->
-> オ　共用部分である旨の登記がある建物について、共用部分である旨を定めた規約を廃止した後に所有権を取得した者は、その所有権の取得の日から1か月以内に、当該建物の表題登記を申請しなければならない。
->
+> 共用部分である旨の登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　表題登記がある区分建物について、これを共用部分である旨の規約を定めたときは、当該建物の表題部所有者は、当該規約を定めた日から1か月以内に、共用部分である旨の登記の申請をしなければならない。  
+>　  
+> イ　共用部分である旨の登記がある建物について、床面積に変更があったときは、当該建物の所有者は、その変更の日から1か月以内に、表題部の変更の登記を申請しなければならない。  
+>　  
+> ウ　共用部分である旨の登記の申請をする場合において、当該共用部分である建物が当該建物の属する一棟の建物以外の一棟の建物に属する建物の区分所有者の共用に供されるものであるときは、当該区分所有者が所有する建物の家屋番号を申請情報の内容として提供しなければならない。  
+>　  
+> エ　抵当権の設定の登記がある建物について、これを共用部分とする旨の規約を定めたときは、当該抵当権の登記名義人の承諾がなくても、共用部分である旨の登記の申請をすることができる。  
+>　  
+> オ　共用部分である旨の登記がある建物について、共用部分である旨を定めた規約を廃止した後に所有権を取得した者は、その所有権の取得の日から1か月以内に、当該建物の表題登記を申請しなければならない。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
+
+---
 
 マンションの管理人室や集会室のような「共用部分」を登記するルールです（不動産登記法58条）。「申請に期限があるのはどの場面か」「権利の登記が付いているとどうなるか」という2つの視点を持つと、誤りを見抜きやすくなります。
 
 ### ア：共用部分である旨の登記に、「規約設定から1か月以内」という申請期限はない
 
-区分建物を共用部分とする旨の規約を定めたときの共用部分である旨の登記は、表題部所有者又は所有権の登記名義人が申請しますが、これに「規約を定めた日から1か月以内に申請しなければならない」という期間の定めはありません。したがって、期限付きの申請義務があるかのようにいう点が誤りです。
+区分建物を共用部分とする旨の規約を定めたときの共用部分である旨の登記は、表題部所有者又は所有権の登記名義人が申請しますが、これに「規約を定めた日から1か月以内に申請しなければならない」という期間の定めはありません。
+
+したがって、期限付きの申請義務があるかのようにいう点が誤りです。
 
 **たとえば**、マンションの一室を集会室（共用部分）にする規約を決めたとき、その登記を必ず1か月以内にしなければ過料、というわけではありません。新築や床面積変更のような物理的な変化に伴う登記とは、期限のルールが違うのです。
 
 ### イ：共用部分の建物でも、床面積が変われば1か月以内に変更登記が必要
 
-共用部分である旨の登記がある建物でも、床面積が変わるといった物理的な変更があったときは、その建物の所有者は、変更の日から1か月以内に表題部の変更の登記を申請しなければなりません。物理的な現況を登記に反映させる義務は、共用部分であっても変わりません。この記述は正しいものです。
+共用部分である旨の登記がある建物でも、床面積が変わるといった物理的な変更があったときは、その建物の所有者は、変更の日から1か月以内に表題部の変更の登記を申請しなければなりません。
+
+物理的な現況を登記に反映させる義務は、共用部分であっても変わりません。この記述は正しいものです。
 
 **たとえば**、共用部分として登記されている集会室を増築して広げた場合には、その所有者は1か月以内に「床面積が変わりました」という変更登記をする必要があります。
 
 ### ウ：他の一棟の区分所有者が共用するときは、その建物の家屋番号を申請情報にする
 
-共用部分である旨の登記の申請をする場合において、その共用部分が、当該建物の属する一棟の建物以外の一棟の建物に属する区分所有者の共用に供されるものであるときは、その区分所有者が所有する建物の家屋番号を申請情報の内容として提供しなければなりません。誰が共用するのかを登記記録上はっきりさせるためです。この記述は正しいものです。
+共用部分である旨の登記の申請をする場合において、その共用部分が、当該建物の属する一棟の建物以外の一棟の建物に属する区分所有者の共用に供されるものであるときは、その区分所有者が所有する建物の家屋番号を申請情報の内容として提供しなければなりません。
+
+誰が共用するのかを登記記録上はっきりさせるためです。この記述は正しいものです。
 
 **たとえば**、隣の棟の住民も一緒に使う集会室を共用部分として登記するときは、「この集会室は隣の棟のどの部屋の人たちが使うのか」を家屋番号で示して申請します。
 
 ### エ：抵当権の登記がある建物を共用部分とするには、抵当権者の承諾が必要
 
-抵当権の設定の登記がある建物を共用部分とすると、共用部分である旨の登記によってその抵当権の登記は失われることになります。そのため、権利の登記がある建物を共用部分とするには、その登記名義人（抵当権者）の承諾が必要です。「承諾がなくても申請できる」とする点は誤りです。
+抵当権の設定の登記がある建物を共用部分とすると、共用部分である旨の登記によってその抵当権の登記は失われることになります。
+
+そのため、権利の登記がある建物を共用部分とするには、その登記名義人（抵当権者）の承諾が必要です。「承諾がなくても申請できる」とする点は誤りです。
 
 **たとえば**、住宅ローンの抵当権が付いている一室を、あとから共用部分にしようとする場合、抵当権を持つ銀行の「いいですよ」という承諾がなければ、勝手に共用部分の登記をすることはできません。
 
 ### オ：規約を廃止して所有権を取得した者は、1か月以内に表題登記を申請する
 
-共用部分である旨の登記がある建物について、その規約を廃止した後にその建物の所有権を取得した者は、所有権の取得の日から1か月以内に、当該建物の表題登記を申請しなければなりません。共用部分でなくなった建物を、通常の登記記録に戻すための手続です。この記述は正しいものです。
+共用部分である旨の登記がある建物について、その規約を廃止した後にその建物の所有権を取得した者は、所有権の取得の日から1か月以内に、当該建物の表題登記を申請しなければなりません。
+
+共用部分でなくなった建物を、通常の登記記録に戻すための手続です。この記述は正しいものです。
 
 **たとえば**、共用部分だった集会室を「もう共用部分にするのはやめよう」と規約で廃止し、その部屋を買い取った人は、1か月以内に「この建物はこういう建物です」という表題登記を自分で申請することになります。
+
+---
 
 ### まとめ
 
@@ -69,7 +83,7 @@
 - 各肢の判定（誤りはア・エ）は、公式の正解の組合せ「アエ」から確定できるものです。
 - 各肢の根拠は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-rei-betsuhyou.md`で条文原文を確認済みです。エ（権利の登記がある建物を共用部分とするには権利者の承諾が必要）・オ（規約廃止後の表題登記義務）は不動産登記法58条（3項が承諾要件、6〜7項が規約廃止後の表題登記義務）から確認できます。イ（床面積変更の1か月義務）は58条ではなく51条1項（表題部の変更の登記の申請義務、共用部分である旨の登記がある建物にも適用）が根拠です。ウ（他棟区分所有者の家屋番号の提供）は不動産登記令別表の該当項目で確認できます。ア（規約設定から1か月以内の申請義務が存在しないこと）は、上記の各条文にそのような期間制限の定めがないことから確認できるものです。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（共用部分である旨の登記）と同一の問題が再出題されていないかを確認しました。「共用部分である旨の登記」は本試験で最も再出題が多いテーマの一つで、平成27年度第17問・令和5年度第17問・令和7年度第15問でも扱われています（問題文＋肢全体の類似度0.34〜0.40）。肢単位では、本問の肢ア（規約設定日から1か月以内の申請義務）と平成27年度第17問の肢イ、本問の肢オ（規約廃止後の取得者の1か月以内申請義務）と令和4年度第13問の肢ウは、ほぼ同一の文言（類似度0.88〜0.91）で出題されています。ただし、これらはいずれも共有者による申請・抵当権者の承諾・家屋番号の提供など、他の4肢の組合せが異なる別問題に組み込まれたものであり、正解の組合せも異なるため、**問題全体としての重複ではありません**。同じ条文知識（不動産登記法57条の1か月申請義務など）が形を変えて繰り返し問われている典型例です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（共用部分である旨の登記）と同一の問題が再出題されていないかを確認しました。「共用部分である旨の登記」は本試験で最も再出題が多いテーマの一つで、平成27年度第17問・令和5年度第17問・令和7年度第15問でも扱われています（問題文＋肢全体の類似度0.34〜0.40）。肢単位では、本問のア（規約設定日から1か月以内の申請義務）と平成27年度第17問のイ、本問のオ（規約廃止後の取得者の1か月以内申請義務）と令和4年度第13問のウは、ほぼ同一の文言（類似度0.88〜0.91）で出題されています。ただし、これらはいずれも共有者による申請・抵当権者の承諾・家屋番号の提供など、他の4肢の組合せが異なる別問題に組み込まれたものであり、正解の組合せも異なるため、**問題全体としての重複ではありません**。同じ条文知識（不動産登記法57条の1か月申請義務など）が形を変えて繰り返し問われている典型例です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -108,10 +122,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -200,25 +232,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-肢ア・イ・オは、「この登記の申請義務は何によって生じるのか(規約の設定・廃止そのものか、床面積など物理的現況の変化か、規約廃止後の新たな所有権取得か)」という同じ3方向の判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。肢ウは他棟の区分所有者が共用する場合の配置関係を示す配置図型、肢エは抵当権などの権利の登記の有無で承諾の要否が分かれる決定木型とする。
+ア・イ・オは、「この登記の申請義務は何によって生じるのか(規約の設定・廃止そのものか、床面積など物理的現況の変化か、規約廃止後の新たな所有権取得か)」という同じ3方向の判定木を共有し、各パネルは自分の肢に関係する枝だけを強調する構成。ウは他棟の区分所有者が共用する場合の配置関係を示す配置図型、エは抵当権などの権利の登記の有無で承諾の要否が分かれる決定木型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -295,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -318,7 +348,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 申請期限は定められていない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -340,7 +370,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 1か月以内に変更登記
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -359,7 +389,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 家屋番号を申請情報に記載
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft green containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -381,7 +411,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 抵当権者の承諾が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft beige containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -407,7 +437,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法58条（ア・エ・オ）、51条1項（イ）、不動産登記令別表
-（ウ）。判例・先例番号は省略。
+（ウ）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

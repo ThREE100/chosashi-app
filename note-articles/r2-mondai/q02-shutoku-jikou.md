@@ -2,43 +2,55 @@
 
 **出題年度：令和2年度　午後の部　第2問**
 
-> 不動産の取得時効に関する次のアからオまでの記述のうち，判例の趣旨に照らし誤っているものの組合せは，後記1から5までのうち，どれか。
->
-> ア　甲不動産を所有の意思なく占有していたＡが死亡し，Ｂがその占有を相続により承継した場合には，Ｂは，新たに甲不動産を事実上支配することによって占有を開始し，その占有に所有の意思があるとみられ，かつ，Ｂの占有開始後，所有権の時効取得に必要とされる期間その占有を継続したとしても，自己の占有のみを主張して甲不動産の所有権を時効取得することはできない。
->
-> イ　Ａから甲不動産を買い受けてその占有を取得したＢが，売買契約当時，甲不動産の所有者はＡではなくＣであり，売買によって直ちにその所有権を取得するものでないことを知っていた場合には，Ｂは，その後，所有権の時効取得に必要とされる期間，甲不動産を継続して占有したとしても，甲不動産の所有権を時効取得することはできない。
->
-> ウ　甲不動産につき賃借権を有するＡがその対抗要件を具備しない間に，甲不動産に抵当権が設定されてその旨の登記がされた場合には，Ａは，その後，賃借権の時効取得に必要とされる期間，甲不動産を継続的に用益したとしても，抵当権の実行により甲不動産を買い受けた者に対し，賃借権の時効取得を対抗することはできない。
->
-> エ　Ａが，甲不動産を10年間占有したことを理由として甲不動産の所有権の時効取得を主張する場合，その占有の開始の時に，Ａが甲不動産を自己の所有と信じたことにつき無過失であったことは推定されない。
->
-> オ　取得時効を援用する者が，時効期間の起算点を任意に選択し，時効完成の時期を早めたり遅らせたりすることは許されない。
->
+> 不動産の取得時効に関する次のアからオまでの記述のうち，判例の趣旨に照らし誤っているものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　甲不動産を所有の意思なく占有していたＡが死亡し，Ｂがその占有を相続により承継した場合には，Ｂは，新たに甲不動産を事実上支配することによって占有を開始し，その占有に所有の意思があるとみられ，かつ，Ｂの占有開始後，所有権の時効取得に必要とされる期間その占有を継続したとしても，自己の占有のみを主張して甲不動産の所有権を時効取得することはできない。  
+>　  
+> イ　Ａから甲不動産を買い受けてその占有を取得したＢが，売買契約当時，甲不動産の所有者はＡではなくＣであり，売買によって直ちにその所有権を取得するものでないことを知っていた場合には，Ｂは，その後，所有権の時効取得に必要とされる期間，甲不動産を継続して占有したとしても，甲不動産の所有権を時効取得することはできない。  
+>　  
+> ウ　甲不動産につき賃借権を有するＡがその対抗要件を具備しない間に，甲不動産に抵当権が設定されてその旨の登記がされた場合には，Ａは，その後，賃借権の時効取得に必要とされる期間，甲不動産を継続的に用益したとしても，抵当権の実行により甲不動産を買い受けた者に対し，賃借権の時効取得を対抗することはできない。  
+>　  
+> エ　Ａが，甲不動産を10年間占有したことを理由として甲不動産の所有権の時効取得を主張する場合，その占有の開始の時に，Ａが甲不動産を自己の所有と信じたことにつき無過失であったことは推定されない。  
+>　  
+> オ　取得時効を援用する者が，時効期間の起算点を任意に選択し，時効完成の時期を早めたり遅らせたりすることは許されない。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
-取得時効は、他人の物でも「所有の意思をもって・平穏公然と」一定期間占有し続ければ自分のものになるという制度（民法162条）です。この問題では、相続で占有を受け継いだ場合や、他人の物と知って買った場合、無過失の推定、起算点の選び方といった、時効の「入口」に関する論点が問われています。今回は**誤っているもの**の組合せを選ぶ点に注意しましょう。
+---
+
+取得時効は、他人の物でも「所有の意思をもって・平穏公然と」一定期間占有し続ければ自分のものになるという制度（民法162条）です。
+
+この問題では、相続で占有を受け継いだ場合や、他人の物と知って買った場合、無過失の推定、起算点の選び方といった、時効の「入口」に関する論点が問われています。今回は**誤っているもの**の組合せを選ぶ点に注意しましょう。
 
 ### ア：相続人が新たに自主占有を始めれば、自己の占有だけで時効取得できる
 
-被相続人が「所有の意思なく」（＝他主占有で）占有していた不動産でも、相続人が、単に占有を相続で引き継いだだけでなく、新たに自らその不動産を事実上支配して占有を開始し、その占有に所有の意思が認められるときは、相続人は自己の占有のみに基づいて取得時効を主張できるというのが判例の立場です。本肢は「自己の占有のみを主張して時効取得することはできない」としており、誤りです。
+被相続人が「所有の意思なく」（＝他主占有で）占有していた不動産でも、相続人が、単に占有を相続で引き継いだだけでなく、新たに自らその不動産を事実上支配して占有を開始し、その占有に所有の意思が認められるときは、相続人は自己の占有のみに基づいて取得時効を主張できるというのが判例の立場です。
+
+本肢は「自己の占有のみを主張して時効取得することはできない」としており、誤りです。
 
 **たとえば**、父が「借りているだけ」のつもりで住んでいた家を、子が相続後に「これは自分の家だ」として堂々と住み続け、必要な期間が経過すれば、子は自分の占有だけを根拠に、その家を時効取得できる可能性があります。
 
 ### イ：他人の物と知って買った悪意の占有者でも、20年で時効取得できる
 
-取得時効には、占有開始時に善意・無過失であれば10年、そうでなければ20年、という2つの期間があります（民法162条）。占有開始時に「本当の所有者は別にいる」と知っていた（悪意の）占有者でも、20年間占有を継続すれば所有権を時効取得できます。本肢は「時効取得することはできない」と言い切っており、誤りです。
+取得時効には、占有開始時に善意・無過失であれば10年、そうでなければ20年、という2つの期間があります（民法162条）。
+
+占有開始時に「本当の所有者は別にいる」と知っていた（悪意の）占有者でも、20年間占有を継続すれば所有権を時効取得できます。本肢は「時効取得することはできない」と言い切っており、誤りです。
 
 **たとえば**、Ｂが「この土地は本当はＣのものだ」と知りながらＡから買って住み始めた場合でも、平穏・公然と20年間占有を続ければ、Ｂはその土地を時効取得できます。悪意だからといって時効取得の道が閉ざされるわけではありません。
 
 ### ウ：対抗要件を備える前に抵当権が登記されると、後から賃借権を時効取得しても買受人に対抗できない
 
-抵当権の目的不動産について賃借権を有する者は、その抵当権の設定登記より前に賃借権の対抗要件を備えていなければ、抵当権の実行（競売）で不動産を買い受けた者に賃借権を対抗できないのが原則です。この理は、抵当権設定登記の後に賃借権を時効取得した場合でも変わらないというのが判例の立場です。本肢は正しい記述です。
+抵当権の目的不動産について賃借権を有する者は、その抵当権の設定登記より前に賃借権の対抗要件を備えていなければ、抵当権の実行（競売）で不動産を買い受けた者に賃借権を対抗できないのが原則です。
+
+この理は、抵当権設定登記の後に賃借権を時効取得した場合でも変わらないというのが判例の立場です。本肢は正しい記述です。
 
 **たとえば**、Ａが賃借権の登記をしないまま土地を借りて使っていたところ、先に土地に抵当権が設定・登記され、その後Ａが長期間使い続けて賃借権を時効取得したとしても、競売で土地を買った人に対して「自分には賃借権がある」と主張することはできません。
 
 ### エ：10年の短期取得時効でも、「無過失」までは推定されない
 
-民法186条1項は、占有者は「所有の意思をもって、善意で、平穏に、かつ公然と占有するもの」と推定しています。しかし、10年の短期取得時効に必要な「無過失」までは、この規定によって推定されないというのが判例の立場です。無過失は時効を主張する側が立証しなければなりません。本肢は正しい記述です。
+民法186条1項は、占有者は「所有の意思をもって、善意で、平穏に、かつ公然と占有するもの」と推定しています。
+
+しかし、10年の短期取得時効に必要な「無過失」までは、この規定によって推定されないというのが判例の立場です。無過失は時効を主張する側が立証しなければなりません。本肢は正しい記述です。
 
 **たとえば**、Ａが10年で土地を時効取得したいなら、「所有の意思・善意・平穏・公然」は推定してもらえますが、「自分の土地だと信じたことに落ち度がなかった（無過失）」ことは、Ａの側が資料を出して証明する必要があります。
 
@@ -47,6 +59,8 @@
 取得時効の起算点は、実際に占有を開始した時点に固定されます。時効を援用する者が、自分に都合よく起算点をずらして、時効完成の時期を早めたり遅らせたりすることは許されないというのが判例の立場です。本肢は正しい記述です。
 
 **たとえば**、Ａが平成20年から占有を始めたのに、「起算点を平成25年ということにして、時効完成をもう少し後にずらそう」といった調整はできません。起算点はあくまで占有を始めた平成20年に固定されます。
+
+---
 
 ### まとめ
 
@@ -109,12 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・続・対・効・過・失・相 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -177,16 +209,16 @@ these 5 headings):
 5. 起算点は勝手に選べない
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -213,7 +245,7 @@ conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. This
 article's five 肢 do not share a single common decision-tree shape, so
 design each panel's diagram independently around its own fact pattern;
-Panels 1 and 3（肢ア・肢ウ）each require an actual multi-step flowchart
+Panels 1 and 3（ア・ウ）each require an actual multi-step flowchart
 because they depend on more than one condition checked in sequence.
 Unlike a glanceable summary poster, each panel MAY include a short
 「着眼点」callout box with 1-2 sentences that state the checking ORDER in
@@ -224,7 +256,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -248,7 +288,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 相続後に新たな自主占有と言えるか
@@ -270,7 +310,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新たな自主占有なら取得可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 悪意でも20年あれば時効取得
@@ -285,7 +325,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 悪意でも20年で取得
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 抵当権登記が先なら賃借権は対抗不可
@@ -295,9 +335,9 @@ timeline with three icons in chronological order: 印鑑（抵当権設定登記
 diamond node:「賃借権の対抗要件（登記等）を備えたのは、抵当権の設定登記
 より前か、後か？」A 前 branch leads to a conclusion node with a green
 checkmark reading「賃借権を買受人に対抗できる」. A 後（未具備のまま抵当権が
-先に登記された）branch proceeds to a second diamond node:「その後、賃借権
-を時効取得したとしても、この先後関係は変わるか？」leading to a conclusion
-node with a red「✕」reading「変わらない → 買受人に対抗できない」.
+先に登記された）branch proceeds to a rectangular check box (not a diamond):「その後に賃借権
+を時効取得しても、この先後関係は変わらない」leading to a conclusion
+node with a red「✕」reading「買受人に対抗できない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、賃借権の対抗要件を備えた時点と、抵当権の設定登記の時点の先後関係を
 確認します。抵当権の登記が先であれば、その後に賃借権を時効取得したと
@@ -306,7 +346,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 登記の先後で決まる
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 推定されるのは4要件、無過失は別
@@ -324,7 +364,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 無過失だけ推定なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 起算点は占有開始時に固定
@@ -346,13 +386,13 @@ Small footnote text (bottom of panel, small font, verbatim):
 事項）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権・続・対・効・過・抵・当・推・定・相. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢（肢ア・
-肢ウ）is drawn as an actual flowchart with branch nodes (not a bare
+between the header and the panels, that every multi-condition 肢（ア・
+ウ）is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary

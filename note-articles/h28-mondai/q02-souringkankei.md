@@ -2,55 +2,83 @@
 
 **出題年度：平成28年度　午後の部　第2問**
 
-> 相隣関係に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地の所有者が隣地の所有者と共同して境界標を設けるときは、その設置の費用は、双方の土地の広狭に応じて分担する。
->
-> イ　境界線から50センチメートル以上の距離を保たないで建物の建築をしようとする者があるときであっても、建築に着手した時から1年を経過した後は、隣地の所有者は、その建築を中止させることができない。
->
-> ウ　土地の所有者は、隣地の竹木の枝が境界線を越えるときは、その枝を切り取ることができる。
->
-> エ　土地の所有者は、境界の付近において建物を修繕するため必要があるときであっても、隣人の承諾がなければ、その住家に立ち入ることはできない。
->
-> オ　Aがその所有する土地を甲土地と乙土地とに分筆して甲土地をBに譲渡し、これにより甲土地が乙土地及びC所有の丙土地に囲まれた袋地（公道に通じない土地）となった場合において、Aが乙土地をDに譲渡したときは、Bは、公道に至るため、丙土地を通行することができる。
->
+> 相隣関係に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地の所有者が隣地の所有者と共同して境界標を設けるときは、その設置の費用は、双方の土地の広狭に応じて分担する。  
+>　  
+> イ　境界線から50センチメートル以上の距離を保たないで建物の建築をしようとする者があるときであっても、建築に着手した時から1年を経過した後は、隣地の所有者は、その建築を中止させることができない。  
+>　  
+> ウ　土地の所有者は、隣地の竹木の枝が境界線を越えるときは、その枝を切り取ることができる。  
+>　  
+> エ　土地の所有者は、境界の付近において建物を修繕するため必要があるときであっても、隣人の承諾がなければ、その住家に立ち入ることはできない。  
+>　  
+> オ　Aがその所有する土地を甲土地と乙土地とに分筆して甲土地をBに譲渡し、これにより甲土地が乙土地及びC所有の丙土地に囲まれた袋地（公道に通じない土地）となった場合において、Aが乙土地をDに譲渡したときは、Bは、公道に至るため、丙土地を通行することができる。  
+>　  
 > 1　アイ　　2　アウ　　3　イエ　　4　ウオ　　5　エオ
 
-「相隣関係」は、隣り合う土地の所有者同士の利害を調整するための民法のルール群です。境界標の設置費用、建物を建てるときの距離、越境してきた枝、隣地への立入り、袋地の通行権など、土地家屋調査士の実務にも直結するテーマが並ぶ頻出分野です。ア〜オの5つの記述を、判例の趣旨に照らして一つずつ検討していきます。
+---
+
+「相隣関係」は、隣り合う土地の所有者同士の利害を調整するための民法のルール群です。
+
+境界標の設置費用、建物を建てるときの距離、越境してきた枝、隣地への立入り、袋地の通行権など、土地家屋調査士の実務にも直結するテーマが並ぶ頻出分野です。ア〜オの5つの記述を、判例の趣旨に照らして一つずつ検討していきます。
 
 ### ア：境界標の設置費用は、原則として「等しい割合」で負担する
 
 民法224条は、境界標の設置・保存の費用は相隣者が等しい割合（折半）で負担するのが原則であり、**測量に要する費用のみ**が土地の広狭に応じて分担される、と定めています。設問は設置費用そのものを広狭に応じて分担するとしている点で誤りです。
 
-**たとえば**、AさんとBさんが隣り合う土地の境界に杭（境界標）を新たに設置する場合、Aさんの土地が800平方メートル、Bさんの土地が200平方メートルと面積に差があっても、境界標そのものの設置費用は原則として2分の1ずつ負担します。一方で、境界を確定するための測量費用については面積比に応じて分担する、という違いがあります。
+**たとえば**、AさんとBさんが隣り合う土地の境界に杭（境界標）を新たに設置する場合、Aさんの土地が800平方メートル、Bさんの土地が200平方メートルと面積に差があっても、境界標そのものの設置費用は原則として2分の1ずつ負担します。
+
+一方で、境界を確定するための測量費用については面積比に応じて分担する、という違いがあります。
 
 ### イ：建築着手から1年が経てば、もう建築を中止させられない
 
-民法234条2項により、境界線から一定の距離を保たない建築に対して隣地所有者が変更・中止を請求できるのは、建築に着手した時から1年以内（かつ建物が完成する前）に限られます。それを過ぎると、変更・中止の請求はできなくなり、損害賠償の請求のみが可能になります。
+民法234条2項により、境界線から一定の距離を保たない建築に対して隣地所有者が変更・中止を請求できるのは、建築に着手した時から1年以内（かつ建物が完成する前）に限られます。
 
-**たとえば**、隣人が境界線から30センチメートルしか離さずに建物の建築を始めたとします。近くに住んでいなかったBさんがそれに気づかないまま1年以上が経過し、建物が完成してしまった場合、Bさんは今さら「建物を壊せ・作り直せ」と請求することはできず、損害が生じていればその賠償を求めるにとどまります。
+それを過ぎると、変更・中止の請求はできなくなり、損害賠償の請求のみが可能になります。
+
+**たとえば**、隣人が境界線から30センチメートルしか離さずに建物の建築を始めたとします。
+
+近くに住んでいなかったBさんがそれに気づかないまま1年以上が経過し、建物が完成してしまった場合、Bさんは今さら「建物を壊せ・作り直せ」と請求することはできず、損害が生じていればその賠償を求めるにとどまります。
 
 ### ウ：越境した枝は、竹木の所有者に切らせるのが原則（当時の民法）
 
-平成28年当時（2023年改正前）の民法233条1項では、隣地の竹木の枝が境界線を越えてきたときであっても、土地の所有者が自分でその枝を切り取ることはできず、竹木の所有者に切除を請求できるにとどまるとされていました。設問は「自ら切り取ることができる」としている点で誤りです（無条件に自ら切除できるとする点が誤りである、という結論は現行法でも変わりません）。
+平成28年当時（2023年改正前）の民法233条1項では、隣地の竹木の枝が境界線を越えてきたときであっても、土地の所有者が自分でその枝を切り取ることはできず、竹木の所有者に切除を請求できるにとどまるとされていました。
+
+設問は「自ら切り取ることができる」としている点で誤りです（無条件に自ら切除できるとする点が誤りである、という結論は現行法でも変わりません）。
 
 **たとえば**、隣家の庭木の枝が塀を越えて自分の敷地に伸びてきた場合、当時のルールでは、まず隣家の所有者に「切ってください」と頼む（それでも応じなければ裁判所に切除を求める）のが筋であり、勝手にノコギリで切り落とすことは認められていませんでした。
 
-なお、2023年4月1日施行の民法改正により、現在は233条1項の原則（竹木の所有者に切除させる）はそのままに、次の3つの場合に限り、土地の所有者が自ら枝を切り取ることができる例外が新設されています（現行233条3項）。①竹木の所有者に枝を切除するよう催告したにもかかわらず、相当の期間内に切除しないとき、②竹木の所有者を知ることができず、又はその所在を知ることができないとき、③急迫の事情があるとき、の3つです（竹木が共有されている場合は、各共有者が単独で切除できる規定も233条2項に新設されています）。本問はあくまで「（条件を問わず）切り取ることができる」という無条件の記述であるため、この例外規定を踏まえても、設問の記述はなお不正確であり結論は変わりません。
+なお、2023年4月1日施行の民法改正により、現在は233条1項の原則（竹木の所有者に切除させる）はそのままに、次の3つの場合に限り、土地の所有者が自ら枝を切り取ることができる例外が新設されています（現行233条3項）。
+
+①竹木の所有者に枝を切除するよう催告したにもかかわらず、相当の期間内に切除しないとき、②竹木の所有者を知ることができず、又はその所在を知ることができないとき、③急迫の事情があるとき、の3つです（竹木が共有されている場合は、各共有者が単独で切除できる規定も233条2項に新設されています）。
+
+本問はあくまで「（条件を問わず）切り取ることができる」という無条件の記述であるため、この例外規定を踏まえても、設問の記述はなお不正確であり結論は変わりません。
 
 ### エ：修繕のためでも、隣人の住家には勝手に立ち入れない
 
-平成28年当時の民法209条1項ただし書では、境界またはその付近で障壁・建物を築造・修繕するために隣地の「使用を請求することができる」場合であっても、隣人の**承諾がなければ、その住家（建物の内部）に立ち入ることはできない**とされていました。設問はこの内容と一致しており、正しい記述です。
+民法209条1項ただし書により、境界またはその付近で障壁・建物を修繕するなどのために隣地を使用することができる場合であっても、住家については、その**居住者の承諾がなければ、住家（建物の内部）に立ち入ることはできません**。
+
+設問はこの内容と一致しており、正しい記述です。
 
 **たとえば**、自宅の外壁を修繕するために隣家の敷地の一部を使わせてほしいと請求できる場面であっても、その隣家の建物の中にまで無断で入ることは別問題です。あくまで隣家の人が「どうぞ」と承諾して初めて、その住家に立ち入ることができます。
 
-なお、2023年4月1日施行の民法改正により、現行209条は隣地を「使用することができる」という直接的な権利に変わり（改正前の「使用を請求することができる」という間接的な構成から変更）、目的も①境界又はその付近における障壁・建物等の築造・収去・修繕、②境界標の調査・境界に関する測量、③233条3項による枝の切取り、の3つに拡大されています。あわせて、あらかじめ隣地の所有者・隣地使用者に使用の目的・日時・場所・方法を通知することが必要になりました。もっとも、**住家への立入りに居住者の承諾が必要である点は現行法でも維持**されており、本肢の結論（住家には無断で立ち入れない）は変わりません。
+※出題当時（平成28年度）の209条1項は、隣地の「使用を請求することができる」という構成で、住家への立入りには隣人の承諾が必要とされていました。2023年4月1日施行の民法改正により、現行209条は隣地を「使用することができる」という直接的な権利に変わり（改正前の「使用を請求することができる」という間接的な構成から変更）、目的も①境界又はその付近における障壁・建物等の築造・収去・修繕、②境界標の調査・境界に関する測量、③233条3項による枝の切取り、の3つに拡大されています。あわせて、あらかじめ隣地の所有者・隣地使用者に使用の目的・日時・場所・方法を通知することが必要になりました。もっとも、**住家への立入りに居住者の承諾が必要である点は現行法でも維持**されており、本肢の結論（住家には無断で立ち入れない）は変わりません。
 
 ### オ：袋地の通行権は、分割・譲渡した当事者の土地に限られる
 
-民法213条1項は、分割によって公道に通じない土地が生じたときは、その所有者は**他の分割者の所有地のみ**を通行することができると定めており、同条2項はこれを土地の一部を譲り渡した場合に準用しています。つまり袋地の所有者が通行できるのは、その分割・譲渡に関与した当事者（相手方）の土地に限られ、分割・譲渡に関わっていない第三者の所有地までは通行できません。設問では、袋地（甲土地）の通行権が及ぶのはA・B間の分筆譲渡に関わった乙土地（のちDに譲渡）に限られ、無関係の第三者C所有の丙土地を通行することはできないため、誤りです。なお、その後に乙土地がDへ譲渡されても、この通行権は消滅せずDに対しても主張できる、というのが判例の考え方です。
+民法213条1項は、分割によって公道に通じない土地が生じたときは、その所有者は**他の分割者の所有地のみ**を通行することができると定めており、同条2項はこれを土地の一部を譲り渡した場合に準用しています。
 
-**たとえば**、Aが自分の土地を甲土地と乙土地に分筆し、甲土地をBに譲渡した結果、甲土地が乙土地とC所有の丙土地に囲まれた袋地になったとします。その後Aが乙土地をDに譲渡したとしても、Bが公道に出るために通行できるのは分筆・譲渡の当事者関係にある乙土地（D所有）であって、分筆にも譲渡にも関わっていないCの丙土地を勝手に通行することはできません。
+つまり袋地の所有者が通行できるのは、その分割・譲渡に関与した当事者（相手方）の土地に限られ、分割・譲渡に関わっていない第三者の所有地までは通行できません。
+
+設問では、袋地（甲土地）の通行権が及ぶのはA・B間の分筆譲渡に関わった乙土地（のちDに譲渡）に限られ、無関係の第三者C所有の丙土地を通行することはできないため、誤りです。
+
+なお、その後に乙土地がDへ譲渡されても、この通行権は消滅せずDに対しても主張できる、というのが判例の考え方です。
+
+**たとえば**、Aが自分の土地を甲土地と乙土地に分筆し、甲土地をBに譲渡した結果、甲土地が乙土地とC所有の丙土地に囲まれた袋地になったとします。
+
+その後Aが乙土地をDに譲渡したとしても、Bが公道に出るために通行できるのは分筆・譲渡の当事者関係にある乙土地（D所有）であって、分筆にも譲渡にも関わっていないCの丙土地を勝手に通行することはできません。
+
+---
 
 ### まとめ
 
@@ -70,9 +98,9 @@
 
 - この第2問は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）には収録されていません。法務省公表の試験問題原本（ユーザーが提供したPDF）から問題文を直接確認し、民法の相隣関係規定・判例の趣旨に基づいてAI（Claude）が解説を作成したものです。
 - 正解番号（3番）は、法務省公式の正答PDF（ユーザー提供）と照合済みです。
-- **条文レベルで確認できた根拠（2026-08-18再検証）**：肢ア（224条：境界標の設置及び保存の費用は相隣者が等しい割合で負担し、測量の費用のみ広狭に応じて分担）、肢イ（234条2項ただし書：建築に着手した時から1年を経過し、又は建物が完成した後は損害賠償の請求のみ）、肢ウ（233条1項：竹木の所有者に枝を切除させることができる／現行233条2項・3項の例外）、肢エ（209条1項ただし書：住家については居住者の承諾がなければ立ち入ることができない）、肢オ（213条1項：他の分割者の所有地のみを通行することができる／同条2項が一部譲渡に準用）は、いずれもローカル法令データベース（`laws/minpou-1-soukyoku-bukken.md`）の条文原文と照合し、条文番号・項・号・文言の一致を確認済みです。
-- **条文レベルでは確認できていない根拠**：肢オの「分割・譲渡後に当事者の土地が第三者（D）に譲渡されても袋地通行権は消滅しない」という点は、213条の条文自体には書かれておらず、判例の趣旨（最判平2.11.20）に基づく理解です。また、問題文が「判例の趣旨に照らし」としている点についても、個別の判決原文までは今回照合していません。
-- **最新法令チェック（2026-08-01実施）**：本問は平成28年度出題のため、当時の民法（2023年4月1日施行の物権法改正前）を前提に書かれています。改正により、次の2点で規律が変わっています。（1）肢ウ（竹木の枝）：改正前233条1項の原則（竹木の所有者に切除させることができるにとどまる）は維持されつつ、現行233条3項で①催告後相当期間内に切除しないとき、②竹木の所有者を知ることができない・所在不明のとき、③急迫の事情があるとき、の3要件のいずれかを満たせば自ら切除できる例外が新設されました（233条2項では竹木が共有の場合の単独切除も新設）。本肢は無条件に「切り取ることができる」とする記述のため、この例外を踏まえても誤りという結論は変わりません。（2）肢エ（隣地使用）：改正前209条1項の「隣地の使用を請求することができる」という構成から、現行209条では「隣地を使用することができる」という直接的な権利に変わり、目的も境界標調査・測量、233条3項による枝の切取りを含む3類型に拡大されました。ただし、住家への立入りに居住者の承諾を要する点は現行法でも維持されており、本肢の結論は変わりません。本文にはこれらの現行法の内容を追記済みです。それ以外の肢（ア：224条、イ：234条、オ：213条）については、2016年以降の改正は確認されていません。
+- **条文レベルで確認できた根拠（2026-08-18再検証）**：ア（224条：境界標の設置及び保存の費用は相隣者が等しい割合で負担し、測量の費用のみ広狭に応じて分担）、イ（234条2項ただし書：建築に着手した時から1年を経過し、又は建物が完成した後は損害賠償の請求のみ）、ウ（233条1項：竹木の所有者に枝を切除させることができる／現行233条2項・3項の例外）、エ（209条1項ただし書：住家については居住者の承諾がなければ立ち入ることができない）、オ（213条1項：他の分割者の所有地のみを通行することができる／同条2項が一部譲渡に準用）は、いずれもローカル法令データベース（`laws/minpou-1-soukyoku-bukken.md`）の条文原文と照合し、条文番号・項・号・文言の一致を確認済みです。
+- **条文レベルでは確認できていない根拠**：オの「分割・譲渡後に当事者の土地が第三者（D）に譲渡されても袋地通行権は消滅しない」という点は、213条の条文自体には書かれておらず、判例の趣旨（最判平2.11.20）に基づく理解です。また、問題文が「判例の趣旨に照らし」としている点についても、個別の判決原文までは今回照合していません。
+- **最新法令チェック（2026-08-01実施）**：本問は平成28年度出題のため、当時の民法（2023年4月1日施行の物権法改正前）を前提に書かれています。改正により、次の2点で規律が変わっています。（1）ウ（竹木の枝）：改正前233条1項の原則（竹木の所有者に切除させることができるにとどまる）は維持されつつ、現行233条3項で①催告後相当期間内に切除しないとき、②竹木の所有者を知ることができない・所在不明のとき、③急迫の事情があるとき、の3要件のいずれかを満たせば自ら切除できる例外が新設されました（233条2項では竹木が共有の場合の単独切除も新設）。本肢は無条件に「切り取ることができる」とする記述のため、この例外を踏まえても誤りという結論は変わりません。（2）エ（隣地使用）：改正前209条1項の「隣地の使用を請求することができる」という構成から、現行209条では「隣地を使用することができる」という直接的な権利に変わり、目的も境界標調査・測量、233条3項による枝の切取りを含む3類型に拡大されました。ただし、住家への立入りに居住者の承諾を要する点は現行法でも維持されており、本肢の結論は変わりません。本文にはこれらの現行法の内容を追記済みです。それ以外の肢（ア：224条、イ：234条、オ：213条）については、2016年以降の改正は確認されていません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（相隣関係）と同一・類似の問題が再出題されていないかを確認しました。R02年度第3問が「相隣関係」の同一タイトルで出題されていますが、内容は主に囲繞地通行権（民法213条以下）に関するもので、本問の境界標・境界線付近の建築・竹木の枝・立入りとは異なる肢が中心です。ただし、R02年度第3問オ（共有物の分割による袋地の通行権が特定承継後も消滅しないか）は、本問オ（共有物の分割による袋地の通行権は第三者の土地には及ばないこと）と同じ民法213条の分割による袋地通行権という論点を、異なる角度から問うものであり、**部分的に関連する出題**である点に注意してください。それ以外の肢（ア〜エ）については重複は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -113,7 +141,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -165,14 +201,14 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- CARD 3 ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-越境枝は持ち主に切らせる
+越境枝は原則、持ち主に切らせる
 Illustration: An isometric tree on one land plot with a branch crossing
 the boundary line into the neighboring plot. The neighboring landowner
 figure points at the branch, while the tree's own owner figure, holding
 scissors, is the one shown cutting it; a prohibition mark sits over the
 neighboring landowner's hand reaching for the branch.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-自分では切れない
+原則は自分で切れない
 
 --- CARD 4 ---
 Badge: a filled blue circle containing the number 4.
@@ -199,8 +235,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, confirm that no card
@@ -214,7 +250,7 @@ with a fully opaque background with no transparency or alpha channel
 anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -232,11 +268,11 @@ conditions to get there — two isometric adjacent land plots with a
 boundary line running down the middle, a boundary-marker post, a small
 house under construction, a tree with a branch crossing the boundary, and
 a footpath arrow for the 袋地 panel. Where a 肢 requires checking multiple
-conditions in sequence before reaching a conclusion (肢ウ・肢オ), draw the
+conditions in sequence before reaching a conclusion (ウ・オ), draw the
 panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
-check (肢ア・肢イ・肢エ), a labeled illustrative diagram is sufficient — do
+check (ア・イ・エ), a labeled illustrative diagram is sufficient — do
 not force a flowchart. There is no shared tree shape across panels in
 this article, since each 肢 concerns a different rule of 相隣関係; design
 each panel independently. Unlike a glanceable summary
@@ -249,7 +285,15 @@ text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -273,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 設置費用は折半、測量費用だけ広狭に応じる
@@ -290,7 +334,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 設置費用は折半
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 着手から1年で中止請求は不可
@@ -308,7 +352,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 1年経過で中止不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 越境した枝は原則、持ち主に切らせる
@@ -321,7 +365,7 @@ Start node: 隣地の竹木の枝が境界線を越えている。Diamond node (
 itself asks about the unconditional case) leading to a conclusion node
 showing the neighboring landowner's hand blocked by a prohibition mark
 while the tree's own owner, holding scissors, is the one who cuts it,
-labeled 竹木の所有者に切除させる（自分では切れない）。A smaller はい arrow
+labeled 竹木の所有者に切除させる（原則として自分では切れない）。A smaller はい arrow
 leads to a secondary, visually de-emphasized note labeled 例外的に自ら
 切除できる場合もある（現行法）。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -331,9 +375,9 @@ leads to a secondary, visually de-emphasized note labeled 例外的に自ら
 します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-自分では切れない
+原則は自分で切れない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 修繕でも住家には無断で入れない
@@ -344,12 +388,12 @@ labeled 承諾が必要。Near the boundary line, wall repair work（境界付�
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、境界付近の修繕のために隣地の使用が認められる場面であることを確認
 します。次に、そこからさらに隣人の「住家」の内部にまで立ち入るには、
-隣人本人の承諾が別途必要であることを確認します。
+居住者の承諾が別途必要であることを確認します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾がなければ不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 袋地通行権は分割・譲渡の当事者限定
@@ -359,9 +403,9 @@ a separate third-party 丙 plot (owned by C). Start node: Aが自分の土地を
 甲・乙に分筆し、甲をBに譲渡した結果、甲が袋地になった。Diamond node:
 Bが公道に出るために通行できるのは、分筆・譲渡の当事者関係にある乙か、
 それとも無関係の第三者Cの丙か？with a footpath arrow drawn only from 甲
-through 乙, and a red prohibition cross over any path toward 丙。Second
-diamond node (highlighted): その後Aが乙をDに譲渡した場合、Bの通行権は消える
-か？with a いいえ arrow leading to a conclusion node reading 通行権は消滅
+through 乙, and a red prohibition cross over any path toward 丙。Then
+a rectangular check box (highlighted, not a diamond): その後Aが乙をDに譲渡した.
+An arrow leads to a conclusion node reading 通行権は消滅
 せず、Bは新所有者Dに対しても主張できる。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、袋地の通行権が及ぶのは分割・譲渡の当事者関係にある土地（乙）だけで
@@ -380,13 +424,13 @@ Small footnote text (bottom of panel, small font, verbatim):
 に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 境, 界, 標, 越, 竹, 承, 諾, 袋, 譲, 渡. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 境, 界, 標, 越, 竹, 承, 諾, 袋, 譲, 渡. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢
-(肢ウ・肢オ) is drawn as an actual flowchart with branch nodes (not a bare
+(ウ・オ) is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点 callout
 states a checking order rather than only a conclusion, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no

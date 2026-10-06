@@ -1,52 +1,82 @@
 ## 【土地家屋調査士受験生向け】平成17年度 第19問〜共用部分にすると、前の登記は職権で消えるんです〜
 
-**出題年度：平成17年度　午後の部　第19問**
+**出題年度：平成17年度　第19問**
 
-> 共用部分である旨の登記に関する次のアからオまでの記述のうち、正しいものは幾つあるか。
->
-> ア　共用部分である旨の登記の申請をする場合には、共用すべき者の氏名又は名称及び住所を申請情報の内容としなければならない。
->
-> イ　抵当権の設定の登記がされた建物について共有部分である旨の登記の申請をする場合には、当該抵当権の登記名義人の承諾を証する情報又は対抗要件を備えた裁判があったことを証する情報を提供しなければならない。
->
-> ウ　共用部分である旨の登記がある建物について規約を廃止した後に所有権を取得した者は、取得の日から１月以内に表題登記の申請をしなければならない。
->
-> エ　共用部分である旨の登記がされる場合には、表題部所有者の登記又は所有権に関する登記は職権で抹消される。
->
-> オ　表題部所有者又は所有権の登記名義人以外の者は、当該建物について共用部分である旨の登記の申請をすることができない。
->
-> 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
+> 共用部分である旨の登記に関する次のアからオまでの記述のうち、正しいものは幾つあるか。  
+>　  
+> ア　共用部分である旨の登記の申請をする場合には、共用すべき者の氏名又は名称及び住所を申請情報の内容としなければならない。  
+>　  
+> イ　抵当権の設定の登記がされた建物について共有部分である旨の登記の申請をする場合には、当該抵当権の登記名義人の承諾を証する当該登記名義人が作成した情報又は当該登記名義人に対抗することができる裁判があったことを証する情報を申請情報と併せて提供しなければならない。  
+>　  
+> ウ　共用部分である旨の登記がある建物について共用部分である旨を定めた規約を廃止した後に当該建物の所有権を取得した者は、その所有権の取得の日から１月以内に、当該建物の表題登記の申請をしなければならない。  
+>　  
+> エ　共用部分である旨の登記がされる場合には、建物の表題部所有者の登記又は所有権その他の権利に関する登記は、職権で抹消される。  
+>　  
+> オ　建物の表題部所有者又は所有権の登記名義人以外の者は、当該建物について、共用部分である旨の登記の申請をすることができない。  
+>　  
+> １　１個　　　２　２個　　　３　３個　　　４　４個　　　５　５個
 
-マンションの管理人室や集会室のように、区分所有者みんなで使う部屋を登記簿上「共用部分ですよ」と示すのが共用部分である旨の登記です。この登記がされると、それまでその建物についていた表題部所有者や所有権の登記が消えるなど、通常の建物登記とは異なる独特のルールが働きます。この問題は「正しいものはいくつあるか」という個数を問う形式なので、ア〜オを一つずつ確認し、最後に正しい肢の数を数えていきましょう。
+---
+
+マンションの管理人室や集会室のように、区分所有者みんなで使う部屋を登記簿上「共用部分ですよ」と示すのが共用部分である旨の登記です。
+
+この登記がされると、それまでその建物についていた表題部所有者や所有権の登記が消えるなど、通常の建物登記とは異なる独特のルールが働きます。
+
+この問題は「正しいものはいくつあるか」という個数を問う形式なので、ア〜オを一つずつ確認し、最後に正しい肢の数を数えていきましょう。
 
 ### ア：共用すべき者の氏名・住所は、申請情報の内容とする必要はない
 
-共用部分である旨の登記の申請情報の内容とすべき事項は、登記原因及びその日付や、共用部分である旨・団地共用部分である旨といった事項であり、「共用すべき者の氏名又は名称及び住所」を申請情報の内容とすることは求められていません（不動産登記法58条1項）。共用部分は区分所有者全員の共有に属する特殊な性質を持つ場所であり、特定の「共用すべき者」を登記簿上に個別に記録する仕組みにはなっていないためです。したがって、これを申請情報の内容としなければならないとする肢アは誤りです。
+共用部分である旨の登記の申請情報の内容とすべき事項は、登記原因及びその日付や、共用部分である旨・団地共用部分である旨といった事項であり、「共用すべき者の氏名又は名称及び住所」を申請情報の内容とすることは求められていません（不動産登記法58条1項）。
 
-**たとえば**、マンションの集会室を共用部分である旨の登記にする場合、その集会室を「誰と誰が使うか」という個人名や住所を申請情報に書き込む必要はありません。集会室はそのマンションの区分所有者全員が共有する場所として登記されるだけで、利用者個人の氏名・住所を登記事項にすることは求められていないのです。
+共用部分は区分所有者全員の共有に属する特殊な性質を持つ場所であり、特定の「共用すべき者」を登記簿上に個別に記録する仕組みにはなっていないためです。
+
+したがって、これを申請情報の内容としなければならないとするアは誤りです。
+
+**たとえば**、マンションの集会室を共用部分である旨の登記にする場合、その集会室を「誰と誰が使うか」という個人名や住所を申請情報に書き込む必要はありません。
+
+集会室はそのマンションの区分所有者全員が共有する場所として登記されるだけで、利用者個人の氏名・住所を登記事項にすることは求められていないのです。
 
 ### イ：抵当権付きの建物なら、抵当権者の承諾情報等が必要
 
-抵当権の設定の登記がされている建物について共用部分である旨の登記を申請する場合には、申請情報と併せて、当該抵当権の登記名義人の承諾を証する情報、またはこれに対抗することができる裁判があったことを証する情報を提供しなければなりません（不動産登記法58条3項）。共用部分である旨の登記がされると、その建物についていた権利に関する登記は原則として職権で抹消されてしまうため、抵当権者のような既存の利害関係人を保護する目的で、この承諾情報等の提供が要求されているのです。したがって肢イは正しい記述です。
+抵当権の設定の登記がされている建物について共用部分である旨の登記を申請する場合には、申請情報と併せて、当該抵当権の登記名義人の承諾を証する情報、またはこれに対抗することができる裁判があったことを証する情報を提供しなければなりません（不動産登記法58条3項）。
 
-**たとえば**、住宅ローンの抵当権が付いているマンションの1室を共用の管理人室にしたいとき、抵当権を持つ銀行に無断で進めることはできません。銀行が「共用部分にしてよい」と承諾したことを証する情報（または銀行に対抗できる裁判があったことを証する情報）を添えて、はじめて申請できます。
+共用部分である旨の登記がされると、その建物についていた権利に関する登記は原則として職権で抹消されてしまうため、抵当権者のような既存の利害関係人を保護する目的で、この承諾情報等の提供が要求されているのです。
+
+したがってイは正しい記述です。
+
+**たとえば**、住宅ローンの抵当権が付いているマンションの1室を共用の管理人室にしたいとき、抵当権を持つ銀行に無断で進めることはできません。
+
+銀行が「共用部分にしてよい」と承諾したことを証する情報（または銀行に対抗できる裁判があったことを証する情報）を添えて、はじめて申請できます。
 
 ### ウ：規約廃止後に所有権を取得した者は、取得の日から1か月以内に表題登記を申請する
 
-共用部分である旨の登記がある建物について規約が廃止された場合、その後に当該建物の所有権を取得した者は、その所有権を取得した日から1か月以内に、当該建物の表題登記を申請しなければなりません（不動産登記法58条7項）。共用部分をやめて普通の建物に戻すと、登記簿上その建物には表題部所有者も所有権登記名義人もいない状態になっているため、あらためて所有権を取得した者を起点として、表題登記の申請義務と期限が定められているのです。したがって肢ウは正しい記述です。
+共用部分である旨の登記がある建物について規約が廃止された場合、その後に当該建物の所有権を取得した者は、その所有権を取得した日から1か月以内に、当該建物の表題登記を申請しなければなりません（不動産登記法58条7項）。
 
-**たとえば**、マンションの集会室として共用部分になっていた部屋について規約が廃止された後、その部屋を買い取って個人の所有物とした人がいたとします。この場合、その買い取った人は、所有権を取得した日から1か月という期限内に、その部屋についての表題登記を申請しなければなりません。
+共用部分をやめて普通の建物に戻すと、登記簿上その建物には表題部所有者も所有権登記名義人もいない状態になっているため、あらためて所有権を取得した者を起点として、表題登記の申請義務と期限が定められているのです。したがってウは正しい記述です。
+
+**たとえば**、マンションの集会室として共用部分になっていた部屋について規約が廃止された後、その部屋を買い取って個人の所有物とした人がいたとします。
+
+この場合、その買い取った人は、所有権を取得した日から1か月という期限内に、その部屋についての表題登記を申請しなければなりません。
 
 ### エ：共用部分である旨の登記がされると、既存の表題部所有者・所有権の登記は職権で抹消される
 
-共用部分である旨の登記がされる場合、その建物についていた表題部所有者の登記または所有権に関する登記は、登記官の職権で抹消されます（不動産登記法58条4項）。共用部分は区分所有者全員の共有に属するものとして扱われ、特定の個人を表題部所有者や所有権登記名義人として登記簿に残しておく必要がなくなるためです。したがって肢エは正しい記述です。
+共用部分である旨の登記がされる場合、その建物についていた表題部所有者の登記または所有権に関する登記は、登記官の職権で抹消されます（不動産登記法58条4項）。
+
+共用部分は区分所有者全員の共有に属するものとして扱われ、特定の個人を表題部所有者や所有権登記名義人として登記簿に残しておく必要がなくなるためです。したがってエは正しい記述です。
 
 **たとえば**、それまで特定の所有者名義で登記されていた1室をマンションの共用の物置として共用部分である旨の登記にすると、その室に付いていた元の所有者名義の登記は、申請しなくても登記官が職権で抹消してくれます。
 
 ### オ：申請できるのは表題部所有者または所有権の登記名義人だけ
 
-共用部分である旨の登記は、当該建物の表題部所有者または所有権の登記名義人以外の者は、申請することができません（不動産登記法58条2項）。共用部分にするかどうかは、その建物の所有者としての地位に基づく判断であるため、無関係な第三者が勝手に申請できる仕組みにはなっていないのです。したがって肢オは正しい記述です。
+共用部分である旨の登記は、当該建物の表題部所有者または所有権の登記名義人以外の者は、申請することができません（不動産登記法58条2項）。
 
-**たとえば**、あるマンションの101号室を共用の管理人室にする登記は、101号室の表題部所有者または所有権の登記名義人が申請します。同じマンションの別の部屋の所有者や、まったくの第三者が「共用部分にしてほしい」と考えても、その人が代わりに申請することはできません。
+共用部分にするかどうかは、その建物の所有者としての地位に基づく判断であるため、無関係な第三者が勝手に申請できる仕組みにはなっていないのです。したがってオは正しい記述です。
+
+**たとえば**、あるマンションの101号室を共用の管理人室にする登記は、101号室の表題部所有者または所有権の登記名義人が申請します。
+
+同じマンションの別の部屋の所有者や、まったくの第三者が「共用部分にしてほしい」と考えても、その人が代わりに申請することはできません。
+
+---
 
 ### まとめ
 
@@ -64,14 +94,15 @@
 
 **このまま使える点／使う前に確認したい点**
 
+- **問題文の差し替え（2026-10-02）**：問題文は、提供された原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）の表記に置き換えました。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題年度・問題番号（平成17年度　午後の部　第19問）および正解番号（4番＝正しいものは4個）は、土地家屋調査士試験対策アプリの検証済みデータベース（qdataファイル冒頭の表記、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、kaisetsu_plus.jsonの記述を主たる根拠としています。
+- 出題年度・問題番号（平成17年度　第19問）および正解番号（4番＝正しいものは4個）は、土地家屋調査士試験対策アプリの検証済みデータベース（qdataファイル冒頭の表記、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、kaisetsu_plus.jsonの記述を主たる根拠としています。
 - 今回の再検証では、`note-articles/laws/`のローカル法令データベース（不動産登記法本文、第58条〜第59条部分）を直接確認し、各肢の項番号を確定できました。
-  - 肢ア（共用すべき者の氏名・住所は申請情報の内容とする必要はない）：不動産登記法58条1項。同項各号（および同項が準用する27条各号）に列挙された登記事項に「共用すべき者の氏名又は名称及び住所」は含まれていません（なお、団地共用部分の場合は58条1項2号により「共用すべき者の所有する建物」を申請情報とする定めがあり、氏名・住所そのものではありません）。
-  - 肢イ（抵当権登記のある建物では、抵当権者の承諾を証する情報等が必要）：不動産登記法58条3項。
-  - 肢ウ（規約廃止後に所有権を取得した者は、取得の日から1か月以内に表題登記を申請する義務がある）：不動産登記法58条7項。同条6項が定める「規約廃止の日から1か月以内」の義務（規約廃止時点の所有者が対象）とは起算点が異なる、別項の規定であることを条文本文で確認しました。
-  - 肢エ（共用部分である旨の登記がされると、表題部所有者の登記・所有権の登記は職権で抹消される）：不動産登記法58条4項。
-  - 肢オ（申請できるのは表題部所有者または所有権の登記名義人に限られる）：不動産登記法58条2項。
+  - ア（共用すべき者の氏名・住所は申請情報の内容とする必要はない）：不動産登記法58条1項。同項各号（および同項が準用する27条各号）に列挙された登記事項に「共用すべき者の氏名又は名称及び住所」は含まれていません（なお、団地共用部分の場合は58条1項2号により「共用すべき者の所有する建物」を申請情報とする定めがあり、氏名・住所そのものではありません）。
+  - イ（抵当権登記のある建物では、抵当権者の承諾を証する情報等が必要）：不動産登記法58条3項。
+  - ウ（規約廃止後に所有権を取得した者は、取得の日から1か月以内に表題登記を申請する義務がある）：不動産登記法58条7項。同条6項が定める「規約廃止の日から1か月以内」の義務（規約廃止時点の所有者が対象）とは起算点が異なる、別項の規定であることを条文本文で確認しました。
+  - エ（共用部分である旨の登記がされると、表題部所有者の登記・所有権の登記は職権で抹消される）：不動産登記法58条4項。
+  - オ（申請できるのは表題部所有者または所有権の登記名義人に限られる）：不動産登記法58条2項。
 - なお、DB（kaisetsu_plus.jsonのkeyPoints）にあった「不動産登記法第59条（規約廃止後の表題登記義務）」との記載は、条文本文を確認した結果、59条は「権利に関する登記の登記事項」を定める条文であり、規約廃止後の表題登記義務を定める条文ではないことが確認できました。正しい根拠は58条6項・7項である旨、本欄を修正しています。
 - アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記アプリの検証済みデータベースと、`note-articles/laws/`のローカル法令データベースの条文照合にもとづいて作成しています。
 - **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（不動産登記法58条1項・2項・3項・4項・7項の条文原文を再度突き合わせ、いずれも記述と整合することを確認。判例・先例・専門誌番号は本文に記載なし。一般法の適用除外チェックは本問では対象外）、B（正解「4個・選択肢4番」がまとめの正誤判定と整合していることを確認）、C（各見出しが正しい結論を表しており判定語を含まないこと、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの説明がないこと、全角括弧で統一されていることを確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックの5カードが本文の5肢と一致していることを確認）、F（テンプレート構造・タイトルのキャッチフレーズが25字以内であること・確認事項ブロックの記載を確認）、G（重複出題チェック：`note-articles/`内を「共用部分である旨」で検索したところ、h22-mondai/q06・h27-mondai/q17・h30-mondai/q16・r3-mondai/q18・r5-mondai/q17・r7-mondai/q15等、共用部分である旨の登記を扱う記事が多数の年度に存在する頻出分野であることを確認しました。いずれも不動産登記法58条を根拠とする点で共通しますが、各記事が扱う具体的な肢（申請人の範囲、抵当権者の承諾、職権抹消、規約廃止後の義務等）の組合せ・出題形式は年度ごとに異なり、本問と完全に同一の問題は見つかりませんでした。最新法令チェック：本問が扱う不動産登記法58条の共用部分である旨の登記の手続は直近の法改正の対象外です）を実施し、修正が必要な誤りは見つかりませんでした。
@@ -114,19 +145,37 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・建・物・登・記・職・請・廃・題 — these must be rendered in their
+kanji 権・登・記・職・請・廃・題 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 共用部分である旨の登記、手続の骨格
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第19問－申請の要件と登記後の効果・義務
+平成17年度 第19問－申請の要件と登記後の効果・義務
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -193,20 +242,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 各肢を読んだ瞬間に「まず何を確認し、次に何を確認して、どんな図にたどり
 着くか」を追体験できるよう、ア〜オ5肢分の作図ガイドパネルを1枚にまとめた。
@@ -276,12 +325,12 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成17年度 午後の部 第19問 作図ガイド（共用部分である旨の登記）
+平成17年度 第19問 作図ガイド（共用部分である旨の登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -298,13 +347,13 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 氏名・住所は不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 抵当権登記の有無をまず確認する
 Diagram: A diamond-shaped decision node labeled「対象建物に抵当権の設定
 登記があるか」sits above an isometric apartment building. A green,
-thick-bordered「はい（今回はこちら）」arrow leads to a bank building icon
+thick-bordered「はい」 (the case this 肢 tests)arrow leads to a bank building icon
 labeled「抵当権の登記名義人」, from which a document icon labeled「承諾を
 証する情報又は対抗できる裁判があったことを証する情報」moves toward the
 building's application icon, ending at a green conclusion node reading
@@ -318,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 抵当権ありなら承諾情報
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 規約廃止後の取得日から1か月の期限を確認する
@@ -336,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 取得日から1か月以内
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 登記後に既存の登記がどうなるかを確認する
@@ -354,7 +403,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 職権で自動抹消
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 申請人の資格をまず確認する
@@ -362,7 +411,7 @@ Diagram: A diamond-shaped decision node labeled「申請人は表題部所有者
 所有権の登記名義人か」sits above an isometric registry counter. A green
 「はい」arrow leads to a person icon (holding documents) submitting papers
 at the counter, ending at a green conclusion node reading「申請できる」.
-A red, thick-bordered「いいえ（今回はこちら）」arrow leads to a separate
+A red, thick-bordered「いいえ」 (the case this 肢 tests)arrow leads to a separate
 person icon representing an unrelated third party with a red prohibition
 mark (a circle with a diagonal slash) overlaid on them, ending at a red
 conclusion node reading「申請できない」.

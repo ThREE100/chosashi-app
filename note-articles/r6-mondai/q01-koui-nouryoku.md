@@ -2,27 +2,33 @@
 
 **出題年度：令和6年度　午後の部　第1問**
 
-> 行為能力に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　成年後見人は、成年被後見人が後見開始の審判を受ける前に締結した契約について、その締結の時に既に後見開始の事由が存在していたことを証明して、取り消すことができる。
->
-> イ　未成年者が法定代理人の同意を得ずにしたことを理由として法律行為を取り消すことができる場合には、その取消権の行使は、未成年者が単独ですることができる。
->
-> ウ　未成年者は、取り消すことができることを知って契約を締結した場合には、その契約を取り消すことができない。
->
-> エ　成年被後見人であるＡがＢから日用品を買った場合には、Ａの成年後見人Ｃは、Ａが成年被後見人であることをＢが知っていたときに限り、当該日用品の売買契約を取り消すことができる。
->
-> オ　被保佐人が保佐人の同意を得ずにしたことを理由として法律行為を取り消すことができる場合には、その法律行為の相手方は、保佐人に対し、その法律行為を追認するかどうかを確答すべき旨の催告をすることができる。
->
+> 行為能力に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　成年後見人は、成年被後見人が後見開始の審判を受ける前に締結した契約について、その締結の時に既に後見開始の事由が存在していたことを証明して、取り消すことができる。  
+>　  
+> イ　未成年者が法定代理人の同意を得ずにしたことを理由として法律行為を取り消すことができる場合には、その取消権の行使は、未成年者が単独ですることができる。  
+>　  
+> ウ　未成年者は、取り消すことができることを知って契約を締結した場合には、その契約を取り消すことができない。  
+>　  
+> エ　成年被後見人であるＡがＢから日用品を買った場合には、Ａの成年後見人Ｃは、Ａが成年被後見人であることをＢが知っていたときに限り、当該日用品の売買契約を取り消すことができる。  
+>　  
+> オ　被保佐人が保佐人の同意を得ずにしたことを理由として法律行為を取り消すことができる場合には、その法律行為の相手方は、保佐人に対し、その法律行為を追認するかどうかを確答すべき旨の催告をすることができる。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
+
+---
 
 行為能力の分野は、未成年者・成年被後見人・被保佐人・被補助人という4種類の制限行為能力者について、「誰が」「いつ」取り消せるのか、そして取消しが制限される例外はどこにあるのかを整理できているかが問われます。
 
 ### ア：後見開始の審判前の契約は、後から取り消すことはできない
 
-後見開始の審判の効力は将来に向かって生じるものであり、審判前に遡って効力を生じるものではありません。そのため、審判を受ける前に締結した契約については、契約時に既に後見開始の事由（判断能力の低下など）が存在していたことを証明できたとしても、取り消すことはできません。
+後見開始の審判の効力は将来に向かって生じるものであり、審判前に遡って効力を生じるものではありません。
 
-**たとえば**、まだ後見開始の審判を受けていなかった頃のおじいさんが、認知症の症状が出始めていた時期に高額な布団の訪問販売契約を結んでいたとします。その後、正式に後見開始の審判を受けたとしても、成年後見人は「あの契約の時点でも実は判断能力が低下していた」と証明して契約を取り消すことはできません。
+そのため、審判を受ける前に締結した契約については、契約時に既に後見開始の事由（判断能力の低下など）が存在していたことを証明できたとしても、取り消すことはできません。
+
+**たとえば**、まだ後見開始の審判を受けていなかった頃のおじいさんが、認知症の症状が出始めていた時期に高額な布団の訪問販売契約を結んでいたとします。
+
+その後、正式に後見開始の審判を受けたとしても、成年後見人は「あの契約の時点でも実は判断能力が低下していた」と証明して契約を取り消すことはできません。
 
 ### イ：未成年者は、自分一人だけで契約を取り消すことができる
 
@@ -57,7 +63,11 @@
 1. 行為能力者となった本人、または法定代理人・保佐人・補助人に対して「追認するかどうか」を催告した場合（20条1項・2項）：期間内に確答がなければ、追認したものとみなされます。
 2. まだ制限行為能力者のままの本人に対して「保佐人等の追認を得るべき旨」を催告した場合（20条4項）：期間内に追認を得た旨の通知がなければ、取り消したものとみなされます。
 
-本肢の催告先は「保佐人」であるため、まだ制限行為能力者のままの本人に対する催告（20条4項）ではなく、保佐人に対する催告（20条2項）が適用され、無回答は追認とみなされます。「相手が誰かによって結論が逆転する」という点を機械的に整理した記事（`note-articles/column/saikokuken-4pattern.md`）もあわせてご参照ください。
+本肢の催告先は「保佐人」であるため、まだ制限行為能力者のままの本人に対する催告（20条4項）ではなく、保佐人に対する催告（20条2項）が適用され、無回答は追認とみなされます。
+
+「相手が誰かによって結論が逆転する」という点を機械的に整理した記事（`note-articles/column/saikokuken-4pattern.md`）もあわせてご参照ください。
+
+---
 
 ### まとめ
 
@@ -79,9 +89,9 @@
 - 出題番号・正解番号（4番＝イ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の条文根拠について、ウ（民法5条2項、120条1項）、エ（民法9条ただし書）、オ（民法20条2項）はデータベースのexplanationフィールドで条文番号まで明記されているものです。イ（未成年者本人が単独で取消権を行使できること）についても、120条1項が「行為能力の制限によって取り消すことができる行為は、制限行為能力者…に限り、取り消すことができる」と規定しており、条文の文言から直接確認できます。一方、ア（後見開始の審判の遡及効がないこと）については、条文番号は明示されておらず、後見制度の基本的な考え方からの推論にとどまっています。
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
-- 肢オ（被保佐人への催告、民法20条2項）が扱う「催告」は、20条1項〜4項の4パターンで「誰に催告したか」により無回答の効果が正反対になる、この分野で最も狙われやすい論点です。4パターンをまとめて整理した記事を `note-articles/column/saikokuken-4pattern.md` に追加しましたので、あわせてご参照ください。
+- オ（被保佐人への催告、民法20条2項）が扱う「催告」は、20条1項〜4項の4パターンで「誰に催告したか」により無回答の効果が正反対になる、この分野で最も狙われやすい論点です。4パターンをまとめて整理した記事を `note-articles/column/saikokuken-4pattern.md` に追加しましたので、あわせてご参照ください。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和6年度より後に実施された試験（2026年7月時点では令和7年度のみがデータベースに存在）で、本問（行為能力・制限行為能力者の取消し）と同一・類似の問題が再出題されていないかを確認しました。令和7年度第1問は「意思表示」（心裡留保・虚偽表示等）がテーマで、本問とは異なる論点であり、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **2026-09-17追記（肢オ・間違いノート型補足の追加）**：読者から肢オの結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。「催告して返事がなければ契約は無効（取消し）になるはずだ」という直感と、実際には催告の相手（行為能力者となった本人・法定代理人・保佐人・補助人か、まだ制限行為能力者のままの本人か）によって無回答の効果が正反対になるという民法20条の構造とのズレを、条文原文（1項・2項・4項）を引用しつつ整理し、既存の`column/saikokuken-4pattern.md`（4パターン整理記事）への参照を本文中にも追加しました。あわせて対比型の個別インフォグラフィック（間違いノート型）を1枚新規作成しました。タイトルのキャッチフレーズは、既存の「日用品の買い物は悪意でも取消し不可」が肢エを指すものですが、今回分かりにくいと判明したのは1肢（オ）のみであり、他の4肢を的確に表す既存タイトルを差し替える必要性は乏しいと判断し、変更していません。本文中の各肢の正誤判定・まとめの表・正解番号はいずれも変更していません。
+- **2026-09-17追記（オ・間違いノート型補足の追加）**：読者からオの結論に自力でたどり着けなかったというフィードバックを受け、「ここが分かりにくいポイント」を追加しました。「催告して返事がなければ契約は無効（取消し）になるはずだ」という直感と、実際には催告の相手（行為能力者となった本人・法定代理人・保佐人・補助人か、まだ制限行為能力者のままの本人か）によって無回答の効果が正反対になるという民法20条の構造とのズレを、条文原文（1項・2項・4項）を引用しつつ整理し、既存の`column/saikokuken-4pattern.md`（4パターン整理記事）への参照を本文中にも追加しました。あわせて対比型の個別インフォグラフィック（間違いノート型）を1枚新規作成しました。タイトルのキャッチフレーズは、既存の「日用品の買い物は悪意でも取消し不可」がエを指すものですが、今回分かりにくいと判明したのは1肢（オ）のみであり、他の4肢を的確に表す既存タイトルを差し替える必要性は乏しいと判断し、変更していません。本文中の各肢の正誤判定・まとめの表・正解番号はいずれも変更していません。
 
 ---
 
@@ -121,12 +131,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 悪・単・独・認 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -212,29 +240,29 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-行為能力の問題文を読んだときに、「誰が」「いつ」取消しできるかを見分け、催告（肢オ）については相手が誰かによって無回答の効果が逆転するという条件を順に確認する決定木としてたどれるようにする5パネル構成。
+行為能力の問題文を読んだときに、「誰が」「いつ」取消しできるかを見分け、催告（オ）については相手が誰かによって無回答の効果が逆転するという条件を順に確認する決定木としてたどれるようにする5パネル構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-（制限行為能力者の取消しルール「誰が」「いつ」「どこまで」), but built as
+（制限行為能力者の取消しルール「誰が」「いつ」「どこまで」）, but built as
 a set of 5 diagram-drawing panels (a "how to sketch this fact pattern, in
 the right order" study reference) rather than a quick-reference
 conclusion poster.
@@ -260,7 +288,15 @@ below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -284,7 +320,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 審判の前後で線を引いて確認する
@@ -301,7 +337,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 審判前は取消し不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 取消権の行使に同意はいらない
@@ -317,7 +353,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 単独で取消し可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 取消せると知っていても取消し可能
@@ -332,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 知っても取消し可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 日用品かどうかを先に見分ける
@@ -349,7 +385,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 善意悪意問わず不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 催告の相手が誰かを最初に確認する
@@ -373,13 +409,13 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法5条2項・9条ただし書・20条2項・120条1項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 悪, 催, 告, 追, 認, 保, 佐, 補, 助 and any character that has
 a visually similar Simplified Chinese variant. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that the multi-condition 肢（肢オ）is
+between the header and the panels, that the multi-condition 肢（オ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered
@@ -417,11 +453,29 @@ short tags — write them out exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 催・告・追・認・保・佐・補・助・法・定・代・理・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -489,12 +543,12 @@ background, full width) ---
 根拠：民法20条2項・4項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
 催・告・追・認・保・佐・補・助・法・定・代・理・誤. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm there are exactly two side-by-side panels (red 直
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly two side-by-side panels (red 直
 感的な誤解 on the left, green 条文が定める本当のルール on the right),
 confirm the quoted text boxes match the Japanese text given above verbatim
 character-for-character, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters.
+verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

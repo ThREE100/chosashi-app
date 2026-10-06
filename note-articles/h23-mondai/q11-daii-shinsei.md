@@ -2,31 +2,37 @@
 
 **出題年度：平成23年度　午後の部　第11問**
 
-> 登記の代位申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。
->
-> ア　所有権の登記名義人がAである甲土地の一部を買い受けたBが、当該部分にCを抵当権者とする抵当権を設定した場合であっても、Cは、A及びBに代位して甲土地から抵当権が設定された部分を分筆する登記を申請することはできない。
->
-> イ　Aが所有する甲土地及び乙土地を合筆の上Bが購入する契約を締結した場合には、Bは、Aに代位して合筆の登記を申請することができる。
->
-> ウ　土地区画整理事業を施行する者は、土地区画整理事業の施行のために必要がある場合には、所有者に代位して土地の分筆又は合筆の登記を申請することができる。
->
-> エ　１筆の土地につき相続によりA、B及びC共有名義の登記がされた後に、当該土地を３筆に分筆し、うち２筆をAが取得し、B及びCが残り１筆を共有取得する旨の遺産分割調停が成立した場合には、Aは、単独で、B及びCに代位して分筆の登記を申請することができる。
->
-> オ　甲土地の一部に地役権の設定を受けた地役権者Aは、甲土地の所有者Bに代位して分筆の登記を申請することができる。
->
+> 登記の代位申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　所有権の登記名義人がAである甲土地の一部を買い受けたBが、当該部分にCを抵当権者とする抵当権を設定した場合であっても、Cは、A及びBに代位して甲土地から抵当権が設定された部分を分筆する登記を申請することはできない。  
+>　  
+> イ　Aが所有する甲土地及び乙土地を合筆の上Bが購入する契約を締結した場合には、Bは、Aに代位して合筆の登記を申請することができる。  
+>　  
+> ウ　土地区画整理事業を施行する者は、土地区画整理事業の施行のために必要がある場合には、所有者に代位して土地の分筆又は合筆の登記を申請することができる。  
+>　  
+> エ　１筆の土地につき相続によりA、B及びC共有名義の登記がされた後に、当該土地を３筆に分筆し、うち２筆をAが取得し、B及びCが残り１筆を共有取得する旨の遺産分割調停が成立した場合には、Aは、単独で、B及びCに代位して分筆の登記を申請することができる。  
+>　  
+> オ　甲土地の一部に地役権の設定を受けた地役権者Aは、甲土地の所有者Bに代位して分筆の登記を申請することができる。  
+>　  
 > 1　アウ　　2　アオ　　3　イエ　　4　イオ　　5　ウエ
+
+---
 
 登記の代位申請は、「自分の権利を保全するために、他人がすべき登記を代わりに申請できるか」を問う分野です。カギは、代位しないと自分の権利が実現・保全されないという関係があるかどうか、そして法令が特に代位を認めているかどうかにあります。
 
 ### ア：抵当権者は、代位して分筆を申請できる
 
-甲土地の一部を買い受けたBが、その部分に抵当権を設定した場合、抵当権者Cは、抵当権の目的物を特定・保全する必要があります。そこでCは、A及びBに代位して、抵当権が設定された部分を分筆する登記を申請することができます。「申請することはできない」とする点が誤りです。
+甲土地の一部を買い受けたBが、その部分に抵当権を設定した場合、抵当権者Cは、抵当権の目的物を特定・保全する必要があります。
+
+そこでCは、A及びBに代位して、抵当権が設定された部分を分筆する登記を申請することができます。「申請することはできない」とする点が誤りです。
 
 **たとえば**、鈴木さんが田中さんの土地の一部を買って、その部分を担保に銀行からお金を借りたとき、銀行は担保の範囲をはっきりさせるために、田中さん・鈴木さんに代わって分筆登記を申請することができます。
 
 ### イ：買主が売主に代わって合筆を強制することはできない
 
-甲土地・乙土地を合筆したうえでBが購入する契約があっても、合筆は申請義務のない登記であり、合筆をしなくてもBの所有権移転登記請求権は保全されます。したがって、買主Bが売主Aに代位して合筆登記を申請する必要は認められません。「申請することができる」とする点が誤りです。
+甲土地・乙土地を合筆したうえでBが購入する契約があっても、合筆は申請義務のない登記であり、合筆をしなくてもBの所有権移転登記請求権は保全されます。
+
+したがって、買主Bが売主Aに代位して合筆登記を申請する必要は認められません。「申請することができる」とする点が誤りです。
 
 **たとえば**、佐藤さんが隣り合う2筆をまとめてから山田さんに売る約束をしていても、山田さんが「合筆してくれないと困る」と代位で合筆登記を申請することは認められません。
 
@@ -38,15 +44,21 @@
 
 ### エ：共有者の一人が、代位して分筆を申請できる
 
-相続でA・B・C共有名義になった土地を3筆に分筆し、うち2筆をAが取得する遺産分割調停が成立した場合、Aは、その遺産分割を実現するために、単独でB・Cに代位して分筆の登記を申請することができます。共有地の分筆は保存行為的に共有者の一人から申請できるからです。この結論は正しいです。
+相続でA・B・C共有名義になった土地を3筆に分筆し、うち2筆をAが取得する遺産分割調停が成立した場合、Aは、その遺産分割を実現するために、単独でB・Cに代位して分筆の登記を申請することができます。
+
+共有地の分筆は保存行為的に共有者の一人から申請できるからです。この結論は正しいです。
 
 **たとえば**、兄弟3人で相続した1筆の土地を、調停で「3つに分けて長男が2筆、次男・三男で1筆」と決まったとき、長男は他の2人に代わって、単独で分筆登記を申請することができます。
 
 ### オ：地役権者は、承役地の分筆を代位申請できない
 
-甲土地の一部に地役権の設定を受けた地役権者Aは、地役権が土地の一部について設定できる以上、承役地が分筆されなくても自分の地役権設定登記請求権が保全されない立場にはありません。したがって、地役権者が承役地の所有者Bに代位して分筆登記を申請することはできません。「申請することができる」とする点が誤りです。
+甲土地の一部に地役権の設定を受けた地役権者Aは、地役権が土地の一部について設定できる以上、承役地が分筆されなくても自分の地役権設定登記請求権が保全されない立場にはありません。
+
+したがって、地役権者が承役地の所有者Bに代位して分筆登記を申請することはできません。「申請することができる」とする点が誤りです。
 
 **たとえば**、高橋さんが隣の土地の一部を通行するための地役権を得たとしても、「その部分を分筆してくれないと不安だから」という理由で、高橋さんが所有者に代位して分筆登記を申請することは認められません。
+
+---
 
 ### まとめ
 
@@ -68,9 +80,10 @@
 - 出題年度・問題番号・正解番号（第11問＝組合せ／5番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
 - 各肢の法的根拠のうち、ウ（土地区画整理法上の施行者の代位）は根拠となる法律名まで挙げられますが、具体的な条番号までは明示していません。ア・イ・エ・オは、民法423条の債権者代位の考え方と代位登記の要件（被保全権利・保全の必要性）からの整理にとどまり、個別の条文番号までは特定していません。この点は正直にお伝えします。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・判例から独立に構成しています。
-- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和6年度第11問「代位による登記」（本シリーズで既に note-articles/r6-mondai/q11-daii-ni-yoru-touki.md として執筆済み）が、本問と強く重複するテーマであることを確認しました。両問とも「地役権の設定を受けた地役権者は、承役地の所有者に代位して分筆の登記を申請することができない」という同一の結論を問う肢を含んでいます（本問の肢オ、令和6年度第11問の肢エに相当）。note投稿の際は、この論点が既に令和6年度分の記事で解説済みであることを踏まえ、重複した説明にならないよう書き分けるか、公開の間隔・言及の仕方に配慮してください。
+- **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和6年度第11問「代位による登記」（本シリーズで既に note-articles/r6-mondai/q11-daii-ni-yoru-touki.md として執筆済み）が、本問と強く重複するテーマであることを確認しました。両問とも「地役権の設定を受けた地役権者は、承役地の所有者に代位して分筆の登記を申請することができない」という同一の結論を問う肢を含んでいます（本問のオ、令和6年度第11問のエに相当）。note投稿の際は、この論点が既に令和6年度分の記事で解説済みであることを踏まえ、重複した説明にならないよう書き分けるか、公開の間隔・言及の仕方に配慮してください。
 - **最新法令準拠チェック（2026-08-04実施）**：令和6年（2024年）4月1日施行の相続登記の申請義務化・相続人申告登記制度の新設を確認しましたが、これらは相続による所有権移転登記の義務に関する新制度であり、本問が扱う代位による分筆・合筆登記の可否（民法423条、不動産登記法59条7号等）のルール自体は変更されていません。内容の修正は不要と判断しました。
-- **再検証（2026-08-13実施）**：`note-articles/laws/fudousan-touki-hou.md`で不動産登記法39条1項（分筆又は合筆の登記は表題部所有者又は所有権の登記名義人以外の者は申請できない旨）・80条2項（地役権設定の目的及び範囲が登記事項であり、承役地の一部にそのまま設定できること）を改めて確認し、各肢の結論・正誤判定に誤りがないことを確認しました。修正箇所はありません。
+- **再検証（2026-08-13実施）**：`note-articles/laws/fudousan-touki-hou.md`で不動産登記法39条1項（分筆又は合筆の登記は表題部所有者又は所有権の登記名義人以外の者は申請できない旨）・80条（地役権設定の目的及び範囲が登記事項であり〔1項2号。当初「2項」と記載していたのを2026-10-01に訂正〕、承役地の一部にそのまま設定できること）を改めて確認し、各肢の結論・正誤判定に誤りがないことを確認しました。修正箇所はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：各肢を、`note-articles/laws/`（2026-08-04取得の現行版）の条文と改めて照らしました。①ウの根拠は、土地区画整理法82条1項（「施行者は、土地区画整理事業の施行のために必要がある場合においては、所有者に代わつて土地の分割又は合併の手続をすることができる」）と特定できました（従前は法律名のみの記載）。不動産登記令3条4号・7条1項3号は「民法423条その他の法令の規定により他人に代わって登記を申請するとき」に代位者・代位原因の申請情報と代位原因証明情報を求めており、この「その他の法令」に同法82条が当たります（なお、不動産登記法59条7号は権利に関する登記の登記事項であり、表示に関する登記である分筆・合筆の代位申請の直接の根拠は、令の上記各条です）。②ア・イ・エの土台である民法423条は令和2年4月1日施行の債権法改正後の条文で、登記請求権を保全するための代位は同法423条の7に明文化されましたが、各肢の結論（代位の可否）に影響はありません。③分筆・合筆の申請人の制限（不動産登記法39条1項）と、地役権設定の範囲が承役地の一部でもよいこと（同法80条1項2号）に改正はありません。④相続登記の義務化（令和6年4月）・住所変更登記の義務化（令和8年4月）は権利に関する登記の新制度で、本問に影響しません。正解・正誤判定の変更はありません。エの説明（共有地の分筆を保存行為的に申請できる）に直接対応する個別条文は、引き続き特定できていません。
 
 ---
 
@@ -110,13 +123,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・続・筆・強 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 権 not 权, 続 not 续,
-筆 not 笔, 強 not 强).
+kanji 権・筆・強・請 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -135,10 +165,12 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 抵当権者は代位して分筆できる
-Illustration: A mortgage-holder character holding a magnifying glass
+Illustration: A mortgage-holder character (the 抵当権者, a third party
+distinct from the land's two owner characters) holding a magnifying glass
 over a land plot with an 抵当権 ribbon on part of it, stamping a
 代位分筆申請 seal to clearly separate the mortgaged portion, with a
-checkmark.
+checkmark. Show the two owner characters (seller and buyer of that part)
+standing beside the plot as passive bystanders, not stamping anything.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 分筆を代位可
 
@@ -157,8 +189,11 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 共有者の一人が代位して分筆可
 Illustration: Three heir characters around a court-mediation document
-dividing a land plot into three pieces, with one character alone
-stamping a 代位分筆申請 seal on behalf of the other two.
+dividing one land plot into three pieces: two of the pieces belong to the
+first heir, and the remaining one piece belongs jointly to the second and
+third heirs. The first heir alone stamps a 代位分筆申請 seal on behalf of
+the second and third heirs (the other two do not stamp). Do NOT label the
+characters with any share fractions.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 分筆を代位可
 
@@ -170,8 +205,10 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 買主は売主に合筆を強制できない
 Illustration: A buyer character holding a sales contract pointing at
-two land plots wanting them merged, but a red X blocks the buyer from
-acting in the seller's place.
+two adjoining land plots wanting them merged, with a separate seller
+character standing at the plots; a red X blocks the buyer from stamping
+a 合筆申請 seal in the seller's place. Draw the red X only on the buyer's
+stamping action, with no checkmark anywhere in this card.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 合筆は強制不可
 
@@ -180,27 +217,26 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 地役権者は承役地の分筆を代位不可
 Illustration: A character with an 地役権 ribbon standing on part of a
-neighboring land plot, reaching toward a 代位分筆申請 stamp, but a red
-X blocks them.
+neighboring land plot that belongs to a separate owner character (the
+plot's owner stands beside it), the ribbon character reaching toward a
+代位分筆申請 stamp, but a red X blocks them. No checkmark anywhere in
+this card.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 分筆は代位不可
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 権・続・筆・強. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 権・筆・強・請. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm badge numbers run 1-5 continuously across both
 columns without resetting, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
-takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+takeaway must read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -284,12 +320,15 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 抵当権者は担保目的物特定のため代位できる
-Diagram: A shared two-step decision flowchart used across this set of 5
-panels. First diamond node（thick highlighted border）: Cについて、法令
+Diagram: Three labeled characters stand beside a land plot: 名義人A (the
+registered owner), 買主B (who bought a part of the plot and mortgaged that
+part), and 抵当権者C; only C stamps anything. Beside them, a shared
+two-step decision flowchart used across this set of 5 panels. First
+diamond node（thick highlighted border）: Cについて、法令
 が特別に代位を認める規定があるか？with the いいえ branch highlighted
 proceeding downward. Second diamond node（thick highlighted border）:
 代位しなければ、Cの権利（抵当権）が保全されないという関係があるか？with
@@ -307,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保全の必要ありで代位可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 買主の登記請求権は合筆なしでも保全される
@@ -330,7 +369,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保全の必要なしで代位不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 区画整理の施行者には特別の代位規定がある
@@ -351,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 法令上の特別規定あり
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 共有者の一人は遺産分割実現のため代位できる
@@ -361,7 +400,8 @@ highlighted border）: 共有者Aについて、法令が特別に代位を認�
 diamond node（thick highlighted border）: 代位しなければ、遺産分割調停
 で決まったAの取得部分が実現・保全されないという関係があるか？with the
 はい branch highlighted (three heir characters around a court-mediation
-document dividing a land plot into three pieces) leading to a
+document dividing a land plot into three pieces, two for A and one shared
+by B and C, with no share fractions written) leading to a
 highlighted conclusion node reading 代位できる, while the いいえ branch
 of this node is rendered faded, leading to a faded conclusion node
 reading 代位できない.
@@ -374,7 +414,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保全の必要ありで代位可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 地役権者は承役地の分筆なしでも保全される
@@ -400,12 +440,12 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-民法423条（債権者代位権）の考え方と、土地区画整理法上の特別の代位規定
-に基づく整理です。
+民法423条（債権者代位権）の考え方と、土地区画整理法82条1項の特別の代位
+規定に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 権・続・筆・強・拠・轄. If any
+Chinese, paying special attention to 権・筆・請・記・区. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

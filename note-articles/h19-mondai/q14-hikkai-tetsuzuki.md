@@ -2,61 +2,105 @@
 
 **出題年度：平成19年度　午前の部　第14問**
 
-> 次の図は、筆界特定制度の手続の流れ図である。それぞれの枠に後記の１から５までの用語から適当なものを選んで当てはめた場合に、ウの枠に当てはめる用語として最も適当な用語は、後記１から５までのうちどれか。
->
-> 筆界特定の申請
->  ↓
-> （ア）　→（枝分かれ）→（イ）
->  ↓
-> 公告及び関係人に対する通知
->  ↓
-> （ウ）
->  ↓
-> 事実の調査の開始
->  ↓
-> （エ）
->  ↓
-> （オ）
->  ↓
-> 筆界特定
->  ↓
-> 公告及び関係人に対する通知
->
+> 次の図は、筆界特定制度の手続の流れ図である。それぞれの枠に後記の１から５までの用語から適当なものを選んで当てはめた場合に、ウの枠に当てはめる用語として最も適当な用語は、後記１から５までのうちどれか。  
+>　  
+> 筆界特定の申請  
+>　  
+>  ↓  
+>　  
+> （ア）　→（枝分かれ）→（イ）  
+>　  
+>  ↓  
+>　  
+> 公告及び関係人に対する通知  
+>　  
+>  ↓  
+>　  
+> （ウ）  
+>　  
+>  ↓  
+>　  
+> 事実の調査の開始  
+>　  
+>  ↓  
+>　  
+> （エ）  
+>　  
+>  ↓  
+>　  
+> （オ）  
+>　  
+>  ↓  
+>　  
+> 筆界特定  
+>　  
+>  ↓  
+>　  
+> 公告及び関係人に対する通知  
+>　  
 > 1　意見聴取等の期日　　2　筆界調査委員の指定　　3　却下　　4　筆界調査委員の意見提出　　5　筆界特定登記官による審査
 
 ---
 
-筆界特定制度は、土地の所有権登記名義人等の申請に基づいて、筆界特定登記官が筆界調査委員の意見を踏まえて筆界の位置を特定する制度です（不動産登記法123条以下）。この制度は「申請→審査→公告・通知→調査→意見聴取→特定→公告・通知」という一連の手続の流れそのものが出題対象になります。今回はフローチャートの5つの空欄（ア〜オ）に入る用語を、条文の規定順序に沿って順番に確認していきます。
+筆界特定制度は、土地の所有権登記名義人等の申請に基づいて、筆界特定登記官が筆界調査委員の意見を踏まえて筆界の位置を特定する制度です（不動産登記法123条以下）。
+
+この制度は「申請→審査→公告・通知→調査→意見聴取→特定→公告・通知」という一連の手続の流れそのものが出題対象になります。今回はフローチャートの5つの空欄（ア〜オ）に入る用語を、条文の規定順序に沿って順番に確認していきます。
 
 ### ア　筆界特定登記官による審査：却下事由の有無を確かめる最初のステップ
 
-申請が受け付けられると、筆界特定登記官は、まずその申請が管轄違いでないか、申請人に申請権限があるか、申請情報に不備がないか、既に筆界特定や筆界確定訴訟の確定判決で筆界が定まっていないかなど、却下事由の有無を審査します（不動産登記法132条1項）。この審査の結果、却下事由がなければ手続が先へ進み、却下事由があれば（イ）へ枝分かれします。
+申請が受け付けられると、筆界特定登記官は、まずその申請が管轄違いでないか、申請人に申請権限があるか、申請情報に不備がないか、既に筆界特定や筆界確定訴訟の確定判決で筆界が定まっていないかなど、却下事由の有無を審査します（不動産登記法132条1項）。
 
-**たとえば**、Aさんが自分の土地について筆界特定を申請したとき、法務局の窓口担当者（筆界特定登記官）は、まず「そもそもこの法務局が担当する土地かどうか」「Aさんに申請する資格があるかどうか」「申請書に必要な事項がきちんと書かれているかどうか」をチェックします。これが「審査」の段階です。
+この審査の結果、却下事由がなければ手続が先へ進み、却下事由があれば（イ）へ枝分かれします。
+
+**たとえば**、Aさんが自分の土地について筆界特定を申請したとき、法務局の窓口担当者（筆界特定登記官）は、まず「そもそもこの法務局が担当する土地かどうか」「Aさんに申請する資格があるかどうか」「申請書に必要な事項がきちんと書かれているかどうか」をチェックします。
+
+これが「審査」の段階です。
 
 ### イ　却下：却下事由があれば、そこで手続はストップ
 
-審査の結果、管轄違いや申請権限の欠如、申請情報の不備（補正されないもの）、対象の筆界について既に筆界特定や確定判決がされていることなど、却下事由に該当する場合には、筆界特定登記官は理由を付した決定で申請を却下します（不動産登記法132条1項）。この却下は審査から枝分かれした別ルートであり、却下された申請はそのまま手続が終了し、以後の公告・通知や筆界調査委員の指定には進みません。
+審査の結果、管轄違いや申請権限の欠如、申請情報の不備（補正されないもの）、対象の筆界について既に筆界特定や確定判決がされていることなど、却下事由に該当する場合には、筆界特定登記官は理由を付した決定で申請を却下します（不動産登記法132条1項）。
+
+この却下は審査から枝分かれした別ルートであり、却下された申請はそのまま手続が終了し、以後の公告・通知や筆界調査委員の指定には進みません。
 
 **たとえば**、Bさんが隣の市の法務局に間違えて筆界特定を申請してしまった場合、その法務局にはその土地を扱う権限（管轄）がないため、審査の段階で「却下」という判断が下され、手続はそこで打ち切られます。
 
 ### ウ　筆界調査委員の指定：公告・通知の後に専門家を選ぶ手続
 
-審査を通過した申請については、公告及び関係人に対する通知（不動産登記法133条）がされた後、法務局又は地方法務局の長が、弁護士・司法書士・土地家屋調査士など専門的知識・経験を有する者の中から、その事件について事実の調査を行う筆界調査委員を指定します（不動産登記法134条）。この指定があって初めて、次の「事実の調査の開始」に進むことができます。
+審査を通過した申請については、公告及び関係人に対する通知（不動産登記法133条）がされた後、法務局又は地方法務局の長が、弁護士・司法書士・土地家屋調査士など専門的知識・経験を有する者の中から、その事件について事実の調査を行う筆界調査委員を指定します（不動産登記法134条）。
+
+この指定があって初めて、次の「事実の調査の開始」に進むことができます。
 
 **たとえば**、公告と関係人への通知が済んだ後、法務局の長は「この土地の筆界特定には、測量に詳しい土地家屋調査士のCさんに担当してもらおう」というかたちで、担当者（筆界調査委員）を選び出します。これが「筆界調査委員の指定」です。
 
-### エ　意見聴取等の期日：事実の調査の後に意見を聴く機会
+### エ　意見聴取等の期日：事実の調査が始まった後に意見を聴く機会
 
-筆界調査委員による事実の調査（測量・実地調査・関係者からの事情聴取等、不動産登記法135条・136条）が行われた後、筆界特定登記官は、申請人及び関係人に対し、期日と場所をあらかじめ通知した上で、筆界について意見を述べ、資料を提出する機会を与えます（不動産登記法140条）。これが「意見聴取等の期日」です。
+筆界調査委員による事実の調査（測量・実地調査・関係者からの事情聴取等、不動産登記法135条・136条）が始まった後、筆界特定登記官は、申請人及び関係人に対し、期日と場所をあらかじめ通知した上で、筆界について意見を述べ、資料を提出する機会を与えます（不動産登記法140条）。条文上、この期日は「公告をした時から筆界特定をするまでの間」に設けるものとされ、筆界調査委員も立ち会います。流れ図では「事実の調査の開始」の次に置かれます。
 
-**たとえば**、筆界調査委員のCさんが現地を測量し、古い地図や関係者への聞き取りを一通り終えた後、法務局は申請人Aさんと隣地の関係人Dさんを呼び出し、「この日にお集まりください。ご意見や資料があればこの場で出してください」と案内します。これが意見聴取等の期日です。
+これが「意見聴取等の期日」です。
+
+**たとえば**、筆界調査委員のCさんが現地の測量や古い地図・関係者への聞き取りを進めるなかで、法務局は申請人Aさんと隣地の関係人Dさんを呼び出し、「この日にお集まりください。ご意見や資料があればこの場で出してください」と案内します。
+
+これが意見聴取等の期日です。
 
 ### オ　筆界調査委員の意見提出：意見聴取の期日を経て提出される意見
 
-意見聴取等の期日を経た後、筆界調査委員は、必要な事実の調査を終えたときは、遅滞なく、筆界特定登記官に対して筆界特定についての意見を提出します（不動産登記法142条）。筆界特定登記官は、この意見が提出された後、登記記録・地図・土地の形状その他の事情を総合的に考慮して筆界特定を行います（不動産登記法143条1項）。
+意見聴取等の期日を経た後、筆界調査委員は、必要な事実の調査を終えたときは、遅滞なく、筆界特定登記官に対して筆界特定についての意見を提出します（不動産登記法142条）。
 
-**たとえば**、意見聴取の期日で双方の言い分と資料をひととおり聞き終えたCさんは、測量結果や関係者の証言を踏まえて「この土地の筆界は、図面上のA点・B点・C点を順に結んだ線と特定するのが相当です」という意見書を法務局に提出します。これが筆界調査委員の意見提出です。
+筆界特定登記官は、この意見が提出された後、登記記録・地図・土地の形状その他の事情を総合的に考慮して筆界特定を行います（不動産登記法143条1項）。
+
+**たとえば**、意見聴取の期日で双方の言い分と資料をひととおり聞き終えたCさんは、測量結果や関係者の証言を踏まえて「この土地の筆界は、図面上のA点・B点・C点を順に結んだ線と特定するのが相当です」という意見書を法務局に提出します。
+
+これが筆界調査委員の意見提出です。
+
+### ここが分かりにくいポイント：「審査」は（ア）であり、（オ）ではない
+
+「筆界特定登記官による審査」を（オ）に入れてしまう誤りに注意が必要です。理由は次のとおりです。
+
+1. 「審査」は、申請を受けた直後に、筆界特定登記官が却下事由（不動産登記法132条1項）の有無を確かめる段階で、流れ図では最初の（ア）です。なお、条文に「審査」という見出しはなく、却下事由の有無を確かめる過程を指す一般的な説明表現です。
+2. （オ）は、期日（140条）のあとに筆界調査委員が提出する「意見」（142条）です。筆界特定登記官は、この意見を踏まえて筆界特定をします（143条1項）。つまり、登記官の最終判断は（オ）ではなく、その次の「筆界特定」の枠です。
+3. 「筆界特定登記官」と「筆界調査委員」の主語を取り違えないこと。審査（ア）・期日（エ）・筆界特定は登記官の行為、指定（ウ）は法務局又は地方法務局の長の行為、意見提出（オ）は筆界調査委員の行為です。
+
+---
 
 ### まとめ
 
@@ -80,6 +124,7 @@
 - 「ア＝筆界特定登記官による審査」という表現自体は、不動産登記法132条の見出し（申請の却下）そのものではなく、却下事由の有無を確認する審査プロセスを指す一般的な説明表現です。条文上「審査」という言葉が独立した条見出しとして存在するわけではない点は留意してください。
 - エ（意見聴取等の期日＝140条）とオ（筆界調査委員の意見提出＝142条）の順序について：条文原文を確認したところ、142条は「筆界調査委員は、第百四十条第一項の期日の後、対象土地の筆界特定のために必要な事実の調査を終了したときは、遅滞なく、筆界特定登記官に対し、対象土地の筆界特定についての意見を提出しなければならない」と規定しており、140条の意見聴取等の期日の後に142条の意見提出が続くという順序が条文上明記されています。なお、両条の間にある141条（調書等の閲覧）は、申請人・関係人が手続記録の閲覧を請求できる旨の規定であり、本問の流れ図（ア〜オ）が扱う手続の順序そのものには含まれません。**2026年8月の再検証で、オの根拠条文を143条から142条に訂正しました（正解・結論に変更はありません）。**
 - **重複出題チェック（2026年8月実施）**：`src/data/takuitsu.json`および`note-articles/`内の他年度記事を検索し、「筆界特定」「筆界調査委員」を扱う既存記事（h19-mondai/q09、h20-mondai/q12、h21-mondai/q15、h22-mondai/q10、h23-mondai/q09、h24-mondai/q10、h25〜h30・r1〜r7の各筆界特定関連問題）を確認しました。いずれも申請資格・却下事由・実地調査への立会い・保存期間・意見聴取等の期日の個別ルールを扱う問題であり、本問のように「申請から筆界特定に至る手続全体の順序」をフローチャート形式で問う問題は他に見当たりませんでした。**重複は見つかりませんでした**。
+- **2026-10-03の改善**：一問一答ドリルで「（オ）に入るのは筆界特定登記官による審査」という誤った肢を選ぶ誤りが出たため、「ここが分かりにくいポイント」（審査は（ア）、（オ）は筆界調査委員の意見提出、登記官の最終判断は次の筆界特定）を追加しました。あわせて、140条は期日を「公告をした時から筆界特定をするまでの間」に設けるとしており、「事実の調査を終えた後」とは書かれていないため、エの記述と図解プロンプトを「事実の調査が始まった後（流れ図では事実の調査の開始の次）」に直しました（142条のとおり、意見提出が期日の後である点は変わりません）。結論（ウ＝筆界調査委員の指定、選択肢2番）は変わりません。
 - **最新法令チェック（2026年8月実施）**：本文で引用している不動産登記法132条（申請の却下）・133条（申請の通知）・134条（筆界調査委員の指定等）・135条・136条（事実の調査、測量及び実地調査）・140条（意見聴取等の期日）・142条（筆界調査委員の意見の提出）・143条（筆界特定）・144条（筆界特定の通知等）について、`note-articles/laws/fudousan-touki-hou.md`収録の条文原文を直接確認したほか、WebSearchでも現行実務の解説（法務局公表資料等）と条文番号・内容の一致を確認しました。筆界特定制度の手続に関する条番号・内容に変更は見当たらず、修正すべき点はありません。
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（132条〜144条を`note-articles/laws/fudousan-touki-hou.md`原文と直接突合し、オの根拠条文の誤り（143条→142条）を発見・修正）、B（正解「ウ＝筆界調査委員の指定（選択肢2番）」がまとめ・本文と矛盾しないことを再確認）、C（各肢見出しが常体「である」で結ばれ敬体と混在していた点を「です」に修正、正解の先出しがないこと、条文解釈プロセスの説明がないこと、全角括弧が使われていることを確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックが未作成だったため本文末尾に俯瞰カードポスター型のプロンプトを新規作成）、F（テンプレート構造・確認事項ブロックを確認したほか、タイトルのキャッチフレーズが正解の対象である「ウの枠」の内容をそのまま明かしていた点を、正解の先出しに当たると判断し「意見提出は聴取期日のあとなんです」に修正。文字数は16字で25字ルール内）、G（重複出題チェック・最新法令チェックを上記のとおり実施）を行い、上記の修正を加えました。
 - **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再々検証しました。不動産登記法132条1項・133条・134条・135条・136条・140条・141条・142条・143条1項・144条を`note-articles/laws/fudousan-touki-hou.md`原文と再度直接突合し、条文番号・見出し・文言とも本文（ア〜オの各枠の説明）と完全に一致することを確認しました。正解「ウの枠＝筆界調査委員の指定（選択肢2番）」については、`src/data/takuitsu.json`の`chosashi_H19_q14`が引き続き問題文・選択肢とも「Unable to retrieve」・`correctAnswer: 0`のままであり、データベース側での裏付けは今回も取れませんでした（この点は前回同様、確認事項ブロックに明記したうえでユーザー側の最終照合を推奨する扱いを維持しています）。判例・先例番号が本文にないこと、Markdown表が存在しないこと、括弧が全角で統一されていること、敬体が維持されていることも再確認しました。今回の再検証で新たに修正すべき誤りは見つかりませんでした。
@@ -123,7 +168,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -185,7 +238,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- CARD 4 ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
-調査の後に意見を聴く期日
+事実の調査の開始後に意見を聴く期日
 Illustration: The badged professional figure from Card 3 measuring a land
 plot with a surveying tool, then a calendar icon with one date circled,
 below which small figures representing 申請人 and 関係人 sit at a table
@@ -206,8 +259,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 from top to bottom, confirm there is no intro illustration or paragraph
@@ -223,7 +276,7 @@ no transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 この問題は「申請→審査→公告・通知→（ウ）→事実の調査→（エ）→（オ）→特定→公告・通知」という
 筆界特定手続の流れ図そのものの空欄ア〜オを埋める形式であり、問題文自体が既に手続の順序を問う
@@ -313,17 +366,17 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled blue circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 受理後、最初に却下事由の有無を審査
 Diagram: Draw the full shared vertical flowchart used across all 5 panels
 of this set, top to bottom: a start node reading 「筆界特定の申請」, then
-the blank node for 肢ア (drawn as an empty rounded rectangle with a bold
+the blank node for ア (drawn as an empty rounded rectangle with a bold
 question mark, thick highlighted blue border, since this panel is about
-肢ア), then immediately below it a diamond-shaped decision node reading
-「却下事由あり?」, with a Yes-branch arrow (labeled ○) leading right to a
+ア), then immediately below it a diamond-shaped decision node reading
+「却下事由あり？」, with a Yes-branch arrow (labeled ○) leading right to a
 small node reading 「（イ）」 in faded grey dotted-outline style with a
 terminal mark (no further arrow), and a No-branch arrow (labeled ✕)
 continuing straight down to a chain of faded grey dotted-outline nodes
@@ -332,7 +385,7 @@ reading in order 「公告及び関係人に対する通知」→「（ウ）」
 drawn smaller than the highlighted node to show they exist further down
 without revealing their content yet. Embed an isometric registrar figure
 with a magnifying glass and a small checklist showing icons/labels for
-管轄・申請権限・記載事項 next to the 肢ア node to represent the act being
+管轄・申請権限・記載事項 next to the ア node to represent the act being
 performed there.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず空欄アの直前に「筆界特定の申請」があることを確認します。次に空欄アの
@@ -342,25 +395,25 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 審査
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled red circle containing the number 2.
 Heading (bold, ONE line):
 却下されたらそこで手続が終わる
 Diagram: Draw the same shared flowchart. Fade the start node 「筆界特定の
-申請」 and the 肢ア node (now shown as a small solved node labeled 「審査」
-in faded grey text, since 肢ア was already solved in Panel 1) in grey
-dotted-outline style. Keep the diamond decision node 「却下事由あり?」
+申請」 and the ア node (now shown as a small solved node labeled 「審査」
+in faded grey text, since ア was already solved in Panel 1) in grey
+dotted-outline style. Keep the diamond decision node 「却下事由あり？」
 visible but faded, except for its Yes-branch arrow (labeled ○), which is
 drawn in full color with a thick highlighted red border leading to the
-blank node for 肢イ (empty rounded rectangle, thick highlighted red
-border, question mark). Draw no arrow continuing out of the 肢イ node —
+blank node for イ (empty rounded rectangle, thick highlighted red
+border, question mark). Draw no arrow continuing out of the イ node —
 instead draw a small 「手続終了」 stamp or end-cap icon directly below it
 to make clear this branch terminates here. Draw the No-branch arrow and
 the remaining chain (公告及び関係人に対する通知→（ウ）→事実の調査の開始→
 （エ）→（オ）→筆界特定→公告及び関係人に対する通知) in faded grey
 dotted-outline style continuing straight down, to show that route keeps
 going elsewhere. Embed a red hanko-style stamp icon reading 「却下」
-pressed onto a document inside the 肢イ node.
+pressed onto a document inside the イ node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず空欄イが、審査の分岐のうち却下事由がある側の枝の先にあることを確認
 します。次に、その枝の先に矢印が続かず手続がそこで終わっていることを
@@ -369,19 +422,19 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 却下で手続終了
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line):
 公告・通知の後、筆界調査委員を指定
-Diagram: Draw the same shared flowchart. Fade the top portion (申請→肢ア→
-diamond→肢イ branch) entirely in grey dotted-outline style, drawn smaller,
+Diagram: Draw the same shared flowchart. Fade the top portion (申請→ア→
+diamond→イ branch) entirely in grey dotted-outline style, drawn smaller,
 to show it already happened. Highlight with a thick blue border the node
-「公告及び関係人に対する通知」 immediately above the blank node for 肢ウ,
-the blank 肢ウ node itself (empty rounded rectangle, question mark, thick
+「公告及び関係人に対する通知」 immediately above the blank node for ウ,
+the blank ウ node itself (empty rounded rectangle, question mark, thick
 blue border), and the node 「事実の調査の開始」 immediately below it.
 Embed an isometric public notice board with a document pinned to it
 labeled 「公告」 and an envelope icon labeled 「通知」 next to the upper
-highlighted node, and inside the 肢ウ node embed a hand reaching into a
+highlighted node, and inside the ウ node embed a hand reaching into a
 lineup of three professional figures labeled 弁護士・司法書士・
 土地家屋調査士 and placing a name badge on one of them. Fade the
 remaining lower chain (（エ）→（オ）→筆界特定→公告及び関係人に対する通知)
@@ -395,19 +448,19 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 筆界調査委員の指定
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
-調査の後、意見を聴く期日を設ける
+調査の開始後、意見を聴く期日を設ける
 Diagram: Draw the same shared flowchart. Fade the upper portion (申請から
-肢ウまで) entirely in grey dotted-outline style, drawn smaller. Highlight
+ウまで) entirely in grey dotted-outline style, drawn smaller. Highlight
 with a thick blue border the node 「事実の調査の開始」 immediately above
-the blank node for 肢エ, the blank 肢エ node itself, and the still-empty
-node for 肢オ immediately below it (drawn slightly smaller, in a lighter
-highlight, since this panel focuses on 肢エ but must show that 肢オ comes
+the blank node for エ, the blank エ node itself, and the still-empty
+node for オ immediately below it (drawn slightly smaller, in a lighter
+highlight, since this panel focuses on エ but must show that オ comes
 right after with no other step in between). Embed inside 事実の調査の
 開始 a small isometric surveyor figure measuring a land plot with a
-surveying tool, and inside the 肢エ node embed a calendar icon with one
+surveying tool, and inside the エ node embed a calendar icon with one
 date circled, below which small figures representing 申請人 and 関係人
 sit at a table with speech bubble icons above them. Fade the remaining
 chain (筆界特定→公告及び関係人に対する通知) below in grey dotted-outline
@@ -415,24 +468,24 @@ style.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず空欄エの直前に「事実の調査の開始」があることを確認します。次に空欄
 エの直後に別の空欄オが続き、そのさらに先に「筆界特定」が来ることを確認
-すると、調査を終えた後に申請人・関係人の意見を聴く場である「意見聴取等
+すると、事実の調査の開始後に申請人・関係人の意見を聴く場である「意見聴取等
 の期日」が空欄エに入るとわかります。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 意見聴取等の期日
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line):
 意見聴取の後、委員が意見を提出する
 Diagram: Draw the same shared flowchart. Fade the upper portion (申請から
 事実の調査の開始まで) entirely in grey dotted-outline style, drawn
-smaller. Highlight with a thick blue border the node for 肢エ (now shown
+smaller. Highlight with a thick blue border the node for エ (now shown
 as a small solved node labeled 「意見聴取等の期日」 in faded grey text,
-since 肢エ was already solved in Panel 4), the blank 肢オ node itself
+since エ was already solved in Panel 4), the blank オ node itself
 immediately below it (empty rounded rectangle, question mark, thick blue
-border), and the node 「筆界特定」 immediately below 肢オ. Embed inside
-the 肢オ node the professional figure from earlier panels handing a
+border), and the node 「筆界特定」 immediately below オ. Embed inside
+the オ node the professional figure from earlier panels handing a
 document stamped 「意見書」 to the registrar's desk, with an arrow
 pointing onward to a stamp reading 「筆界特定」 in the next node. Fade
 the final node 「公告及び関係人に対する通知」 below in grey dotted-outline

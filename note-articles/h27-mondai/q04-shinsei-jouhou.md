@@ -2,53 +2,75 @@
 
 **出題年度：平成27年度　午後の部　第4問**
 
-> 申請情報の内容に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。
->
-> ア　所有権の登記名義人が合体による登記等を書面により申請する場合において，申請書に申請人の署名があるときは，申請人は申請書に押印することを要しない。
->
-> イ　未成年者が所有権の登記名義人である土地についてその親権者が当該未成年者を代理して分筆の登記を申請するときは，当該未成年者は申請書に押印することを要しない。
->
-> ウ　成年被後見人が所有権の登記名義人である建物についてその成年後見人が当該成年被後見人を代理して建物の表題部の変更の登記を申請するときは，当該成年被後見人の氏名及び住所を申請情報の内容とすることを要しない。
->
-> エ　株式会社が所有する建物について建物の表題登記を申請するときは，その代表取締役の氏名及び住所を申請情報の内容としなければならない。
->
-> オ　株式会社が所有する建物について建物の表題登記を申請する場合において，その代表取締役としてＡ及びＢが選定されているときは，代表者としてはＡ又はＢのいずれかを申請情報の内容とすれば足りる。
->
+> 申請情報の内容に関する次のアからオまでの記述のうち，正しいものの組合せは，後記1から5までのうち，どれか。  
+>　  
+> ア　所有権の登記名義人が合体による登記等を書面により申請する場合において，申請書に申請人の署名があるときは，申請人は申請書に押印することを要しない。  
+>　  
+> イ　未成年者が所有権の登記名義人である土地についてその親権者が当該未成年者を代理して分筆の登記を申請するときは，当該未成年者は申請書に押印することを要しない。  
+>　  
+> ウ　成年被後見人が所有権の登記名義人である建物についてその成年後見人が当該成年被後見人を代理して建物の表題部の変更の登記を申請するときは，当該成年被後見人の氏名及び住所を申請情報の内容とすることを要しない。  
+>　  
+> エ　株式会社が所有する建物について建物の表題登記を申請するときは，その代表取締役の氏名及び住所を申請情報の内容としなければならない。  
+>　  
+> オ　株式会社が所有する建物について建物の表題登記を申請する場合において，その代表取締役としてＡ及びＢが選定されているときは，代表者としてはＡ又はＢのいずれかを申請情報の内容とすれば足りる。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
+
+---
 
 申請情報の内容や押印のルールは、細かく地味ですが、書式（記述式）でも問われる実務直結の知識です。「本人が押すのか」「代理人が押すのか」「法人の代表者はどこまで書くのか」を、場面ごとに整理しておきましょう。
 
 ### ア：合体・合筆・合併の書面申請は、署名だけでは足りず記名押印が必要
 
-書面申請では申請人等が署名または記名押印をするのが原則ですが、所有権の登記がある土地の合筆、建物の合体、建物の合併を書面で申請する場合には、申請書に記名押印をしなければなりません（不動産登記令16条1項）。これらの登記は権利関係への影響が大きいため、署名があっても押印を省略することはできません。したがって本肢は誤りです。
+書面申請では申請人等が署名または記名押印をするのが原則ですが、所有権の登記がある土地の合筆、建物の合体、建物の合併を書面で申請する場合には、申請書に記名押印をしなければなりません（不動産登記令16条1項）。
+
+これらの登記は権利関係への影響が大きいため、署名があっても押印を省略することはできません。したがって本肢は誤りです。
 
 **たとえば**、所有権の登記がある建物どうしを合体させる登記を書面で申請するとき、申請人が自筆でサインをしていたとしても、それとは別に印鑑を押すことが必要で、「署名したから押印はいらない」とはなりません。
 
 ### イ：親権者が代理する分筆申請では、未成年者本人の押印は不要
 
-代理人によって申請する場合、申請書には現に申請手続を行う者（＝代理人）が記名押印すれば足ります（不動産登記令16条1項）。申請人本人については、氏名・住所を申請情報の内容として記載する必要はありますが（同令3条1号）、本人が重ねて署名や押印をする必要はありません。実際に申請手続をするのは代理人だからです。したがって、親権者が未成年者を代理して分筆の登記を申請するときは、未成年者本人が申請書に押印する必要はなく、本肢は正しい記述です。
+代理人によって申請する場合、申請書には現に申請手続を行う者（＝代理人）が記名押印すれば足ります（不動産登記令16条1項）。
+
+申請人本人については、氏名・住所を申請情報の内容として記載する必要はありますが（同令3条1号）、本人が重ねて署名や押印をする必要はありません。
+
+実際に申請手続をするのは代理人だからです。したがって、親権者が未成年者を代理して分筆の登記を申請するときは、未成年者本人が申請書に押印する必要はなく、本肢は正しい記述です。
 
 **たとえば**、未成年の子が名義人になっている土地の分筆を、親が子の代理人として申請する場合、子ども本人が申請書にハンコを押しに来る必要はなく、手続は代理人である親が進めます。
 
 ### ウ：成年後見人が代理しても、本人の氏名・住所は申請情報に必要
 
-代理人が申請する場合でも、申請人本人（＝登記名義人）の氏名・住所は申請情報の内容として記載しなければなりません。押印までは不要でも、「誰の登記なのか」を示す本人の表示自体は省略できないからです。したがって、成年後見人が代理するときに成年被後見人の氏名・住所を「申請情報の内容とすることを要しない」とする本肢は誤りです。
+代理人が申請する場合でも、申請人本人（＝登記名義人）の氏名・住所は申請情報の内容として記載しなければなりません。押印までは不要でも、「誰の登記なのか」を示す本人の表示自体は省略できないからです。
+
+したがって、成年後見人が代理するときに成年被後見人の氏名・住所を「申請情報の内容とすることを要しない」とする本肢は誤りです。
 
 **たとえば**、成年被後見人が名義人の建物について、成年後見人が代理して表題部の変更登記を申請する場合でも、申請情報には「誰の建物か」を示すために成年被後見人本人の氏名・住所を記載します。
 
-**イとウで結論が分かれる理由**：押印（署名）と氏名・住所の記載は、実は担っている役割が違います。押印は「その申請書という書面を、実際に誰が作成したか」を確認するためのものなので、代理人が手続を行うときは代理人が押せば足り、本人が重ねて押す必要はありません。これに対して氏名・住所の記載は、「その登記が誰のためのものか（＝申請人が誰か）」を示す申請情報そのものの中身なので、手続を代理人が行っても省略できません。「書面を作った人（＝代理人）」と「登記を受ける人（＝本人）」は別の役割だと意識すると、押印と氏名・住所とで結論が分かれる理由がすっきり整理できます。
+**イとウで結論が分かれる理由**：押印（署名）と氏名・住所の記載は、実は担っている役割が違います。
+
+押印は「その申請書という書面を、実際に誰が作成したか」を確認するためのものなので、代理人が手続を行うときは代理人が押せば足り、本人が重ねて押す必要はありません。
+
+これに対して氏名・住所の記載は、「その登記が誰のためのものか（＝申請人が誰か）」を示す申請情報そのものの中身なので、手続を代理人が行っても省略できません。
+
+「書面を作った人（＝代理人）」と「登記を受ける人（＝本人）」は別の役割だと意識すると、押印と氏名・住所とで結論が分かれる理由がすっきり整理できます。
 
 ### エ：法人の表題登記では、代表者の「氏名」を記載する（住所は不要）
 
-申請人が法人の場合は、その代表者の氏名を申請情報の内容として表示しなければなりません（不動産登記令3条2号）。一方、代表者の「住所」までは申請情報の内容とはされていません（会社法人等番号を有する法人は、その番号を表示します）。したがって、「氏名及び住所」を記載しなければならないとする本肢は誤りです。
+申請人が法人の場合は、その代表者の氏名を申請情報の内容として表示しなければなりません（不動産登記令3条2号）。
+
+一方、代表者の「住所」までは申請情報の内容とはされていません（会社法人等番号を有する法人は、その番号を表示します）。したがって、「氏名及び住所」を記載しなければならないとする本肢は誤りです。
 
 **たとえば**、株式会社が建物の表題登記を申請するとき、申請情報には代表取締役の「氏名」を書きますが、その代表取締役の自宅住所まで書く必要はありません。
 
 ### オ：代表取締役が複数でも、そのうち一人を代表者として記載すれば足りる
 
-代表取締役は、株式会社の業務に関する一切の裁判上又は裁判外の行為をする権限を有しており（会社法349条4項）、代表取締役が数人選定されている場合でも、その権限は各代表取締役がそれぞれ単独で有しています。そのため、登記の申請にあたっては、代表者としてＡかＢのいずれか一人を申請情報の内容とすれば足ります。本肢は正しい記述です。
+代表取締役は、株式会社の業務に関する一切の裁判上又は裁判外の行為をする権限を有しており（会社法349条4項）、代表取締役が数人選定されている場合でも、その権限は各代表取締役がそれぞれ単独で有しています。
+
+そのため、登記の申請にあたっては、代表者としてＡかＢのいずれか一人を申請情報の内容とすれば足ります。本肢は正しい記述です。
 
 **たとえば**、代表取締役がＡ・Ｂの2人いる会社が建物の表題登記を申請するとき、AとBの両方を書き並べる必要はなく、どちらか一人を「会社を代表する者」として記載すれば手続を進められます。
+
+---
 
 ### まとめ
 
@@ -113,13 +135,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 申・請・押・印・署・名・記・代・理・未・成・年・氏・住・所・法・人・表・題・
-登・締・役 — these must be rendered in their standard Japanese forms, never
+kanji 申・請・押・印・署・名・記・代・理・成・年・氏・住・所・法・人・表・締・役 — these must be rendered in their standard Japanese forms, never
 as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -207,20 +246,20 @@ these 5 headings):
 5. 代表者は複数いても一人でOK
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 各肢について、問題文を読んだ瞬間にどの条件をどの順番で確認すれば正誤にたどり着けるかを示す作図ガイド。ア肢は「書面申請か」「対象登記が合体・合筆・合併か」という2つの条件を順に確認する決定木、イ・ウは「押印は誰の役目か（書面を作った人）」「氏名住所は誰の表示か（登記を受ける人）」という役割の違いを対比する構図、エは思い込みとの対比、オは代表取締役の権限関係を示す系統図として構成した。
 
@@ -239,7 +278,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric application forms, hanko stamp icons,
 parent-and-child figures, guardian-and-ward figures, company building
 icons with representative name-tag labels, and diamond-shaped decision
-nodes for the multi-condition check in 肢ア. Where a 肢 requires checking
+nodes for the multi-condition check in ア. Where a 肢 requires checking
 multiple conditions in sequence before reaching a conclusion, draw the
 panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No (or ○/✕) branch arrows,
@@ -302,24 +341,21 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 書面申請の合体・合筆は押印必須
-Diagram: A vertical decision flowchart with two diamond-shaped branch
-nodes stacked top to bottom. Node 1 (top, diamond) reads「書面で申請するか」.
-The「はい（書面）」branch continues downward with a thick highlighted
-arrow; a faded「いいえ（電子申請）」branch on the side leads to a small
-greyed-out, dotted-outline box labeled「電子署名等の別ルール（本肢の対象
-外）」, shown small and de-emphasized. From Node 1's「はい」branch, Node 2
+Diagram: A vertical flowchart, top to bottom. Node 1 (top) is a
+rectangular check box (NOT a diamond) reading「書面で申請する」, with a
+single thick highlighted arrow continuing downward. Below it, Node 2
 (diamond) reads「対象の登記は合体・合筆（所有権登記あり）・合併か」. Its
 「はい」branch (thick, highlighted) leads to a final conclusion node: an
 isometric application document with a hanko-stamp icon stamped firmly onto
 it, labeled「記名押印が必要」in a bold box, with a nearby crossed-out label
 「署名だけでは不可」(red X). A faded「いいえ」branch from Node 2 leads to a
-small greyed-out conclusion box labeled「署名または記名押印で足りる（原則、
-本肢とは別の場面）」to show the general rule by contrast.
+small greyed-out conclusion box labeled「申請人の署名でも足りる（規則47条
+3号）」to show the general rule by contrast.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず書面で申請するかどうかを確認します。次に、対象の登記が所有権の登記が
 ある土地の合筆、建物の合体、建物の合併という重い登記かどうかを確認します。
@@ -328,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記名押印が必須
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -350,7 +386,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 本人の押印は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -370,7 +406,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 氏名住所は省略不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -389,7 +425,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 住所の記載は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -412,7 +448,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 根拠：不動産登記令16条1項（押印）・3条1号（本人の氏名住所）・3条2号（法人
-代表者の氏名）、会社法349条4項（代表取締役の権限）。場面：建物の表題登記・
+代表者の氏名）、不動産登記規則47条3号イ（6）（署名で足りない合筆・合体・合併）、会社法349条4項（代表取締役の権限）。場面：建物の表題登記・
 分筆の登記の申請
 
 Final check before rendering: scan every kanji glyph and confirm it is

@@ -2,25 +2,31 @@
 
 **出題年度：令和元年度　午後の部　第8問**
 
-> 土地の表示に関する登記の申請情報又は添付情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　会社法人等番号を有する法人が所有権の登記名義人である土地について、地目の変更の登記を当該法人の支配人によって申請する場合には、当該申請を受ける登記所が、当該法人についての当該支配人の登記を受けた登記所と同一であり、かつ、法務大臣が指定した登記所以外のものでない限り、当該支配人の権限を証する登記事項証明書を提供しなければならない。
->
-> イ　土地の表題登記を申請する場合において、申請人である当該土地の所有者が住民基本台帳法に規定する住民票コードを申請情報と併せて提供するときは、当該申請情報と併せて住所を証する情報を提供することを要しない。
->
-> ウ　土地の表題登記を申請するときは、その土地の地番を申請情報の内容として提供しなければならない。
->
-> エ　所有権の登記がある土地の合筆の登記を申請する場合において、登記識別情報を失念したときは、当該登記識別情報を提供することができない理由を申請情報の内容として提供しなければならない。
->
-> オ　国又は地方公共団体の所有する土地について、官庁又は公署が土地の表題登記を嘱託する場合であっても、所有権を証する情報の提供を省略することはできない。
->
+> 土地の表示に関する登記の申請情報又は添付情報に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　会社法人等番号を有する法人が所有権の登記名義人である土地について、地目の変更の登記を当該法人の支配人によって申請する場合には、当該申請を受ける登記所が、当該法人についての当該支配人の登記を受けた登記所と同一であり、かつ、法務大臣が指定した登記所以外のものでない限り、当該支配人の権限を証する登記事項証明書を提供しなければならない。  
+>　  
+> イ　土地の表題登記を申請する場合において、申請人である当該土地の所有者が住民基本台帳法に規定する住民票コードを申請情報と併せて提供するときは、当該申請情報と併せて住所を証する情報を提供することを要しない。  
+>　  
+> ウ　土地の表題登記を申請するときは、その土地の地番を申請情報の内容として提供しなければならない。  
+>　  
+> エ　所有権の登記がある土地の合筆の登記を申請する場合において、登記識別情報を失念したときは、当該登記識別情報を提供することができない理由を申請情報の内容として提供しなければならない。  
+>　  
+> オ　国又は地方公共団体の所有する土地について、官庁又は公署が土地の表題登記を嘱託する場合であっても、所有権を証する情報の提供を省略することはできない。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-表示登記の申請では、「どの情報を申請情報として書き、どの添付情報を出すのか」「会社法人等番号や住民票コード、官公署の嘱託によって何が省略できるのか」が繰り返し問われます。省略できるものを「できない」と言い、提供不要のものを「必要」と言う、という言い回しの逆転がひっかけの中心です。
+---
+
+表示登記の申請では、「どの情報を申請情報として書き、どの添付情報を出すのか」「会社法人等番号や住民票コード、官公署の嘱託によって何が省略できるのか」が繰り返し問われます。
+
+省略できるものを「できない」と言い、提供不要のものを「必要」と言う、という言い回しの逆転がひっかけの中心です。
 
 ### ア：会社法人等番号を提供すれば、支配人の権限を証する登記事項証明書は省略できる
 
-会社法人等番号を有する法人が申請する場合、その番号を提供すれば、代表者だけでなく支配人の資格（権限）も番号によって確認できるため、原則として支配人の権限を証する登記事項証明書を別途提供する必要はありません（不登令7条1項1号）。本肢は、番号があっても一定の登記所要件を満たさない限り証明書を提供しなければならない、という趣旨で述べており、番号による省略の原則を狭めている点で誤りです。
+会社法人等番号を有する法人が申請する場合、その番号を提供すれば、代表者だけでなく支配人の資格（権限）も番号によって確認できるため、原則として支配人の権限を証する登記事項証明書を別途提供する必要はありません（不登令7条1項1号）。
+
+本肢は、番号があっても一定の登記所要件を満たさない限り証明書を提供しなければならない、という趣旨で述べており、番号による省略の原則を狭めている点で誤りです。
 
 **たとえば**、ある会社の支配人が会社所有地の地目変更を申請するとき、申請情報に会社法人等番号を書いておけば、登記官はその番号から支配人の登記も確認できます。わざわざ支配人の権限を証明する登記事項証明書を取り寄せて添付しなくてよいのが原則です。
 
@@ -32,21 +38,31 @@
 
 ### ウ：土地の表題登記では、地番を申請情報として提供する必要はない
 
-地番は、一筆の土地ごとに登記所（登記官）が定めるものです（不登法35条）。したがって、まだ登記されていない土地の表題登記を申請する段階では、申請人の側が地番を申請情報の内容として提供する必要はありません。「地番を提供しなければならない」とする本肢は誤りです。
+地番は、一筆の土地ごとに登記所（登記官）が定めるものです（不登法35条）。
 
-**たとえば**、田を造成して初めて登記する土地の表題登記を申請するとき、申請人は所在・地目・地積などは書きますが、「この土地は○番地です」と地番まで指定するわけではありません。地番は登記官の側が付けてくれるので、申請人が決めて書き込む必要はないのです。
+したがって、まだ登記されていない土地の表題登記を申請する段階では、申請人の側が地番を申請情報の内容として提供する必要はありません。「地番を提供しなければならない」とする本肢は誤りです。
+
+**たとえば**、田を造成して初めて登記する土地の表題登記を申請するとき、申請人は所在・地目・地積などは書きますが、「この土地は○番地です」と地番まで指定するわけではありません。
+
+地番は登記官の側が付けてくれるので、申請人が決めて書き込む必要はないのです。
 
 ### エ：合筆で登記識別情報を失念したときは、提供できない理由を申請情報に記載する
 
-所有権の登記がある土地の合筆の登記では、登記識別情報の提供が必要です。これを失念したなど、正当な理由により提供できない場合には、その理由を申請情報の内容としなければなりません（不登令3条12号、準則42条1項）。正当な理由には、不通知・失効・失念などが含まれます。本肢は正しい記述です。
+所有権の登記がある土地の合筆の登記では、登記識別情報の提供が必要です。これを失念したなど、正当な理由により提供できない場合には、その理由を申請情報の内容としなければなりません（不登令3条12号、準則42条1項）。
+
+正当な理由には、不通知・失効・失念などが含まれます。本肢は正しい記述です。
 
 **たとえば**、所有権登記のある2筆を合筆したいのに、登記済証（登記識別情報）をどこにしまったか思い出せない、という場面を想像してください。この場合は「失念により提供できない」という理由を申請情報にきちんと書いて申請することになります。
 
 ### オ：官公署が表題登記を嘱託する場合は、所有権を証する情報を省略できる
 
-国や地方公共団体などの官庁・公署が土地の表題登記を嘱託する場合、登記の真正が制度的に担保されているため、所有権を証する情報（所有権証明書）の提供を省略することができます（不登法16条2項、関係政省令）。本肢は「省略することはできない」としており、省略できるものを不可としている点で誤りです。
+国や地方公共団体などの官庁・公署が土地の表題登記を嘱託する場合、登記の真正が制度的に担保されているため、所有権を証する情報（所有権証明書）の提供を省略することができます（不登法16条2項、関係政省令）。
+
+本肢は「省略することはできない」としており、省略できるものを不可としている点で誤りです。
 
 **たとえば**、市が公共用地について自ら表題登記を嘱託するとき、私人の申請なら求められる所有権証明書を、いちいち添付しなくてよい扱いになっています。官公署による嘱託は、申請の場合よりも添付情報が簡略化されているわけです。
+
+---
 
 ### まとめ
 
@@ -69,8 +85,8 @@
 - 各肢の根拠のうち、イ（住民票コードによる住所証明情報の省略＝不登令9条）、ウ（地番は登記所が定める＝不登法35条）、エ（提供できない正当な理由の記載＝不登令3条12号、準則42条1項）は、データベースのexplanationフィールドで条文番号まで確認できたものです。
 - ア（会社法人等番号による支配人の権限証明の省略）は、根拠を不登令7条1項1号として記載していますが、explanation内では「会社法人等番号を支配人の資格証明として使用できる」という趣旨の説明にとどまり、細目の号（イ・ロ等）まではデータベースで特定できていません。厳密な条番号が必要な場合は不登令7条の該当号をご確認ください。
 - オ（官公署の嘱託での所有権証明情報の省略）は判定として検証済みで、根拠を不登法16条2項および関係政省令としていますが、省略の直接の根拠となる政省令の条項番号までは特定しきれていないため、本文では条番号を限定せず記載しています。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（土地の表示登記の申請情報・添付情報）と同一・類似の問題が再出題されていないかを確認しました。候補のうち、令和6年度第4問の肢ア（住民票コードを提供すれば住所を証する情報の提供を要しない、令9条）は本問の肢イとほぼ同一の記述・論点であり、また令和6年度第4問の肢エ及び令和5年度第14問の肢ウ（会社法人等番号を提供すれば支配人・代表者の権限を証する情報の提供を省略できるか、令7条1項1号）は、本問の肢ア（支配人の権限を証する登記事項証明書の省略）と同一の条文論点を扱っています。事案の当事者設定（合同会社、A株式会社の支店支配人等）は異なりますが、**部分的に類似する記述があります**（同一の論点が再出題されています）。なお、その他の候補（令和3年度第4問・第5問、令和6年度第5問）は電子署名・調査士報告方式・共有敷地の証明等の別の場面を扱っており、本問の肢ウ・エ・オとは重複しません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ正 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（土地の表示登記の申請情報・添付情報）と同一・類似の問題が再出題されていないかを確認しました。候補のうち、令和6年度第4問のア（住民票コードを提供すれば住所を証する情報の提供を要しない、令9条）は本問のイとほぼ同一の記述・論点であり、また令和6年度第4問のエ及び令和5年度第14問のウ（会社法人等番号を提供すれば支配人・代表者の権限を証する情報の提供を省略できるか、令7条1項1号）は、本問のア（支配人の権限を証する登記事項証明書の省略）と同一の条文論点を扱っています。事案の当事者設定（合同会社、A株式会社の支店支配人等）は異なりますが、**部分的に類似する記述があります**（同一の論点が再出題されています）。なお、その他の候補（令和3年度第4問・第5問、令和6年度第5問）は電子署名・調査士報告方式・共有敷地の証明等の別の場面を扱っており、本問のウ・エ・オとは重複しません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：WebSearchで、本文が引用する不登令7条1項1号（会社法人等番号による支配人の権限証明情報の省略）、不登令9条（住民票コードによる住所証明情報の省略）、不登法35条（地番は登記所が定める）、不登令3条12号・準則42条1項（登記識別情報を提供できない正当な理由の申請情報への記載）、不登法16条2項（官公署の嘱託の場合の取扱い）を個別に確認しました。いずれも令和元年の出題当時から現在（2026年8月）までの間に条文番号の変更・実質改正はなく、内容も現行法と一致しており、修正は不要でした。
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（`note-articles/laws/fudousan-touki-rei.md`原文で令7条（添付情報の各号）を直接確認し、イ・ウ・エの根拠条文と一致することを確認。アの会社法人等番号による支配人の権限証明省略は令7条1項1号イの「代表者の資格を証する情報」の規定を実務上支配人にも及ぼす取扱いであり、条文の細目までは特定できない点を確認事項ブロックで正直に開示済みであることを確認。判例・先例番号は本文になし）、B（正解番号3＝イエを`src/data/takuitsu.json`の`chosashi_R01_q08`の`correctAnswer`と再照合し一致を確認）、C（見出し・敬体・正解の先出しなし・条文解釈プロセスの解説なしを再確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックプロンプトと本文の整合を確認）、F（タイトルのキャッチフレーズ17字＝25字以内、テンプレート構造・確認事項ブロックを確認）、G（重複出題チェック・最新法令チェックは上記の既存記載を再確認）を実施し、修正すべき誤りは見つかりませんでした。
 
@@ -112,12 +128,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・証 — these must be rendered
+kanji 号・権・地・番・登・記・所・証 — these must be rendered
 in their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -192,20 +226,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 土地の表示登記の申請情報・添付情報に関する5肢について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。会社法人等番号による省略の系統図（ア）、住民票コードによる省略の配置図（イ）、地番は登記官が定めるという思い込みを正す対比図（ウ）、識別情報を紛失した場合の対応をたどるタイムライン（エ）、私人申請と官公署嘱託を左右で対比する枠（オ）の5パネル構成。
 
@@ -242,7 +276,15 @@ a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -268,7 +310,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -287,7 +329,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 権限証明書は原則不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 住民票コード提供で住所証明は不要
@@ -304,7 +346,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 住所証明は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in beige/amber containing the number 3.
 Heading (bold, ONE line):
 地番は登記官が定め申請人は書かない
@@ -321,7 +363,7 @@ Conclusion tag (a short colored banner/pill, beige/amber, 5-15 Japanese
 characters):
 申請人の記載は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 識別情報を紛失したら理由を記載する
@@ -339,7 +381,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 理由を申請情報に記載
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 官公署の嘱託なら所有権証明を省略できる
@@ -364,9 +406,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 不登法16条2項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・権・地・番・登・記・所・証・識・別・嘱・託. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・権・地・番・登・記・所・証・識・別・嘱・託. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that each 着眼点

@@ -2,49 +2,67 @@
 
 **出題年度：令和5年度　午後の部　第12問**
 
-> 建物の床面積に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　建物の一部が2階から最上階まで吹抜けとなっている場合には、1階から最上階までの各階の吹抜け構造の部分は、建物の床面積に算入しない。
->
-> イ　区分建物でない鉄筋コンクリート造の建物について、壁の厚みが各階ごとに異なる場合には、各階ごとに壁の中心線で囲まれた部分の水平投影面積により床面積を算出する。
->
-> ウ　次の〔図1〕（図は省略）のとおり、区分建物を内壁で囲まれた部分により床面積を算出する場合において、当該区分建物が鉄筋コンクリート造であって、柱と壁を兼ねている構造の部分が柱状に凸凹しているときは、その柱状に凸凹している部分は、専有部分の範囲から除外して床面積を算出する。
->
-> エ　次の〔図2〕（図は省略）のとおり、ビル内の地下において、1方向のみを壁構造とし、他の3方向は鉄製のシャッターで仕切られており、営業中はシャッターを上げ、閉店後はシャッターを閉める構造の店舗部分は、区分建物の専有部分の床面積に算入しない。
->
-> オ　次の〔図3〕（図は省略）のとおり、機械室、冷却装置室及び屋上に出入りするための階段室が設置されている天井高2.5メートルの塔屋について、当該塔屋の一部が、管理事務所及び倉庫として使用されている場合には、管理事務所及び倉庫として使用されていない部分も含めた当該塔屋全体を建物の床面積に算入する。
->
+> 建物の床面積に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　建物の一部が2階から最上階まで吹抜けとなっている場合には、1階から最上階までの各階の吹抜け構造の部分は、建物の床面積に算入しない。  
+>　  
+> イ　区分建物でない鉄筋コンクリート造の建物について、壁の厚みが各階ごとに異なる場合には、各階ごとに壁の中心線で囲まれた部分の水平投影面積により床面積を算出する。  
+>　  
+> ウ　次の〔図1〕（図は省略）のとおり、区分建物を内壁で囲まれた部分により床面積を算出する場合において、当該区分建物が鉄筋コンクリート造であって、柱と壁を兼ねている構造の部分が柱状に凸凹しているときは、その柱状に凸凹している部分は、専有部分の範囲から除外して床面積を算出する。  
+>　  
+> エ　次の〔図2〕（図は省略）のとおり、ビル内の地下において、1方向のみを壁構造とし、他の3方向は鉄製のシャッターで仕切られており、営業中はシャッターを上げ、閉店後はシャッターを閉める構造の店舗部分は、区分建物の専有部分の床面積に算入しない。  
+>　  
+> オ　次の〔図3〕（図は省略）のとおり、機械室、冷却装置室及び屋上に出入りするための階段室が設置されている天井高2.5メートルの塔屋について、当該塔屋の一部が、管理事務所及び倉庫として使用されている場合には、管理事務所及び倉庫として使用されていない部分も含めた当該塔屋全体を建物の床面積に算入する。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
-床面積は、原則として各階の壁その他の区画の中心線で囲まれた部分の水平投影面積で計算します（区分建物の専有部分は内壁で計算）。ただし吹抜け・出窓・塔屋など、算入するかどうかで悩む「例外」が数多くあります。この問題は、その例外の当てはめを問う典型問題です。〔図1〕〜〔図3〕は省略しますが、内容は本文の言葉で補います。
+---
+
+床面積は、原則として各階の壁その他の区画の中心線で囲まれた部分の水平投影面積で計算します（区分建物の専有部分は内壁で計算）。
+
+ただし吹抜け・出窓・塔屋など、算入するかどうかで悩む「例外」が数多くあります。この問題は、その例外の当てはめを問う典型問題です。〔図1〕〜〔図3〕は省略しますが、内容は本文の言葉で補います。
 
 ### ア：吹抜けでも1階部分の床面積には算入する
 
-建物の一部が上階まで吹抜けになっている場合、その吹抜けの部分は「上階」の床面積には算入しません（不動産登記事務取扱準則82条8号）。しかし、吹抜けの床がある1階部分については床面積に算入されます。本肢は「1階から最上階までの各階の吹抜け構造の部分」をすべて不算入とする点で誤りです。不算入となるのはあくまで床のない上階部分だけです。
+建物の一部が上階まで吹抜けになっている場合、その吹抜けの部分は「上階」の床面積には算入しません（不動産登記事務取扱準則82条8号）。しかし、吹抜けの床がある1階部分については床面積に算入されます。
+
+本肢は「1階から最上階までの各階の吹抜け構造の部分」をすべて不算入とする点で誤りです。不算入となるのはあくまで床のない上階部分だけです。
 
 **たとえば**、玄関ホールが1階から3階まで吹抜けになっている家を思い浮かべてください。床がある1階のホール部分は床面積に入りますが、その上に広がる2階・3階の吹抜け（床のない空間）部分は、それぞれの階の床面積には入れません。
 
 ### イ：壁の厚みが階ごとに違えば、各階ごとに中心線で計算する
 
-壁構造の建物の床面積は、壁の中心線で囲まれた部分の水平投影面積で算出します。そして、各階の壁の厚さが異なるときは、各階ごとに壁の中心線で囲まれた部分の水平投影面積で計算します。1階の壁が厚く上階が薄いといった場合でも、階ごとに中心線を取り直して面積を出すということです。したがって本肢は正しい記述です。
+壁構造の建物の床面積は、壁の中心線で囲まれた部分の水平投影面積で算出します。そして、各階の壁の厚さが異なるときは、各階ごとに壁の中心線で囲まれた部分の水平投影面積で計算します。
+
+1階の壁が厚く上階が薄いといった場合でも、階ごとに中心線を取り直して面積を出すということです。したがって本肢は正しい記述です。
 
 **たとえば**、鉄筋コンクリート造のビルで、下の階ほど壁を厚く、上の階ほど薄く造っているとします。このとき全階を1階の壁を基準にまとめて測るのではなく、2階は2階の壁の中心線、3階は3階の壁の中心線というように、階ごとに面積を計算します。
 
 ### ウ：専有部分の柱状の凸凹は、除外せず床面積に算入する
 
-区分建物の専有部分の床面積は、通常の非区分建物と異なり、内壁で囲まれた部分の水平投影面積で算出します（不動産登記規則115条かっこ書）。そのうえで、専有部分の内壁に凹凸がある場合や部屋の中に柱がある場合は、柱の部分を無視して（＝出っ張りをないものとして）床面積を算出します。つまり凸凹部分を専有部分から「除外」するのではなく、内壁の面をならして算入するのです。したがって「専有部分の範囲から除外して算出する」とする本肢は誤りです。
+区分建物の専有部分の床面積は、通常の非区分建物と異なり、内壁で囲まれた部分の水平投影面積で算出します（不動産登記規則115条かっこ書）。
+
+そのうえで、専有部分の内壁に凹凸がある場合や部屋の中に柱がある場合は、柱の部分を無視して（＝出っ張りをないものとして）床面積を算出します。
+
+つまり凸凹部分を専有部分から「除外」するのではなく、内壁の面をならして算入するのです。したがって「専有部分の範囲から除外して算出する」とする本肢は誤りです。
 
 **たとえば**、マンションの一室の壁ぎわに、柱が部屋の内側へ出っ張っているとします。この出っ張った柱の分だけ床面積を削るのではなく、柱がないものとして壁の内側をまっすぐ測った面積を専有部分の床面積とします。
 
 ### エ：シャッターで仕切られた地下街の店舗は、床面積に算入する
 
-地下停車場・地下駐車場・地下街の建物の床面積は、壁または柱などにより区画された部分の面積で定めます（不動産登記事務取扱準則82条4号・5号）。不算入となるのは常時一般に開放されている通路や階段などであり、シャッターで区画されて店舗として使われている部分は算入されます。本肢の店舗は、1方向が壁、他の3方向がシャッターで仕切られ、閉店後は閉じて独立した区画となるため、専有部分の床面積に算入されます。したがって「算入しない」とする本肢は誤りです。
+地下停車場・地下駐車場・地下街の建物の床面積は、壁または柱などにより区画された部分の面積で定めます（不動産登記事務取扱準則82条4号・5号）。
+
+不算入となるのは常時一般に開放されている通路や階段などであり、シャッターで区画されて店舗として使われている部分は算入されます。
+
+本肢の店舗は、1方向が壁、他の3方向がシャッターで仕切られ、閉店後は閉じて独立した区画となるため、専有部分の床面積に算入されます。したがって「算入しない」とする本肢は誤りです。
 
 **たとえば**、地下街にある、営業中はシャッターを開けて商品を並べ、閉店するとシャッターを下ろして閉め切るお店を思い浮かべてください。壁とシャッターで囲まれて店舗という用途に使われているので、その部分は床面積に算入します。
 
 ### オ：塔屋の一部が管理事務所や倉庫なら、塔屋全体を床面積に算入する
 
-屋上に出入りするためだけの階段室や、エレベーター機械・高置水槽・冷却装置などを収容する塔屋は、天井高が1.5メートル以上でも階数に算入しません。しかし、その塔屋の一部が管理事務所や倉庫として使用されている場合には、事務所・倉庫として使われていない部分も含めた塔屋全体を建物の床面積に算入します。したがって本肢は正しい記述です。
+屋上に出入りするためだけの階段室や、エレベーター機械・高置水槽・冷却装置などを収容する塔屋は、天井高が1.5メートル以上でも階数に算入しません。
+
+しかし、その塔屋の一部が管理事務所や倉庫として使用されている場合には、事務所・倉庫として使われていない部分も含めた塔屋全体を建物の床面積に算入します。したがって本肢は正しい記述です。
 
 **たとえば**、ビルの屋上に乗っている塔屋（ペントハウス）の一角が、管理人室や物置として使われているとします。このとき、機械室や階段室の部分だけを切り分けて外すのではなく、その塔屋まるごとを建物の床面積に算入します。
 
@@ -63,11 +81,17 @@
 
 **③例外パターン2：可動式の仕切り（シャッター等は「壁」扱いで算入）**
 
-シャッターのような開閉できる仕切りで区画されていても、営業時間外は閉じて独立した区画として機能していれば、壁と同様に扱われ床面積に算入します（エ、準則82条4号・5号）。不算入となるのは、地下街・地下駐車場等における「常時一般に開放されている通路や階段部分」など、区画自体が存在しない部分に限られます。
+シャッターのような開閉できる仕切りで区画されていても、営業時間外は閉じて独立した区画として機能していれば、壁と同様に扱われ床面積に算入します（エ、準則82条4号・5号）。
+
+不算入となるのは、地下街・地下駐車場等における「常時一般に開放されている通路や階段部分」など、区画自体が存在しない部分に限られます。
 
 **④例外パターン3：塔屋（一部でも実用に供されていれば全体を算入）**
 
-エレベーター機械室・階段室・高置水槽などだけを収める塔屋は、天井高が1.5メートル以上でも階数に算入しないのが原則です。しかし、その塔屋の一部でも管理事務所・倉庫のように実際の用途に使われていれば、未使用部分も含めた塔屋全体を床面積に算入します（オ）。「一部でも実用に供されたら全体に波及する」という、①②③とは逆方向（不算入から算入への転換）の例外です。
+エレベーター機械室・階段室・高置水槽などだけを収める塔屋は、天井高が1.5メートル以上でも階数に算入しないのが原則です。
+
+しかし、その塔屋の一部でも管理事務所・倉庫のように実際の用途に使われていれば、未使用部分も含めた塔屋全体を床面積に算入します（オ）。「一部でも実用に供されたら全体に波及する」という、①②③とは逆方向（不算入から算入への転換）の例外です。
+
+---
 
 ### まとめ
 
@@ -90,10 +114,10 @@
 - 各肢の根拠のうち、ア（準則82条8号）、イ（昭46.4.16民甲238号）、ウ（不動産登記規則115条かっこ書、昭46.4.16民甲238号）、エ（準則82条4号・5号）、オ（昭38.10.22民甲2933号、昭37.12.15民甲3600号）は、データベースのexplanationフィールドで条文番号・先例番号まで明記されているものです。一方、これらを日常例に置き換えた説明部分は、条文・先例の趣旨からの敷衍（一般原則からの推論）にとどまります。
 - なお、今回の作業環境にはローカルのアガルート教材フォルダが見当たらなかったため、アガルートの教材は参照できませんでした（令和6年度分の記事作成時とは作業環境が異なります）。
 - 「補足：床面積の算定方法を整理する」は、本問アからオまでの5肢の根拠（準則82条8号、規則115条かっこ書、昭46.4.16民甲238号、準則82条4号・5号、昭38.10.22民甲2933号、昭37.12.15民甲3600号）を横断的に整理したもので、新たな条文・先例を追加で参照したものではありません。
-- 【2026-08-16修正】肢オの先例番号は、データベースのOCR由来データでは「昭38.10.22民甲1933号」となっていましたが、令和4年度午後の部第12問の記事で同一先例と思われる引用が「2933号」となっている食い違いを発見し、追加調査を行いました。国立国会図書館リサーチ・ナビの『詳細登記六法（平成24年版） 別冊（登記関係先例編）』索引に「昭和38・10・22民事甲2933号回答」の記載が確認でき、「1933号」を裏付ける情報源はWeb検索上どこにも見当たらなかったため、「1933」は「2933」のOCR誤読（1と2の読み違い）と判断し、「2933号」に修正しました。
+- 【2026-08-16修正】オの先例番号は、データベースのOCR由来データでは「昭38.10.22民甲1933号」となっていましたが、令和4年度午後の部第12問の記事で同一先例と思われる引用が「2933号」となっている食い違いを発見し、追加調査を行いました。国立国会図書館リサーチ・ナビの『詳細登記六法（平成24年版） 別冊（登記関係先例編）』索引に「昭和38・10・22民事甲2933号回答」の記載が確認でき、「1933号」を裏付ける情報源はWeb検索上どこにも見当たらなかったため、「1933」は「2933」のOCR誤読（1と2の読み違い）と判断し、「2933号」に修正しました。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（建物の床面積）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026-08-03実施）**：不動産登記事務取扱準則82条・不動産登記規則115条は、令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
-- **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。準則82条は「（1）〜（11）」の号のみで項区分がないため、ア（吹抜け）の根拠として本文・まとめ・確認事項に記載していた「準則82条1項8号」は誤りで、正しくは「準則82条8号」です（同条エの引用「82条4号・5号」は号のみで元々正しい表記でした）。該当箇所をすべて「準則82条8号」に修正しました。ウの根拠である規則115条かっこ書「壁その他の区画の内側線」は原文と一致することを確認しました。正解（選択肢4番＝イオ）はQ12=④の公式正解と一致しており、相違ありません。
+- **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。準則82条は「（1）〜（11）」の号のみで項区分がないため、ア（吹抜け）の根拠として本文・まとめ・確認事項に記載していた「準則82条8号」は誤りで、正しくは「準則82条8号」です（同条エの引用「82条4号・5号」は号のみで元々正しい表記でした）。該当箇所をすべて「準則82条8号」に修正しました。ウの根拠である規則115条かっこ書「壁その他の区画の内側線」は原文と一致することを確認しました。正解（選択肢4番＝イオ）はQ12=④の公式正解と一致しており、相違ありません。
 - **QAチェックリスト再検証**：A.2〜G.19の残項目を確認しました。確認事項ブロック中の「（1）〜（11）」の号番号表記が全角・半角括弧の混在（項目11）になっていたため、「（1）〜（11）」に統一しました。他の項目（正解・まとめの整合性、文体、見出しの結論、表形式の不使用、インフォグラフィックプロンプトとの整合性、テンプレート構造、タイトル文字数等）はいずれも問題ありませんでした。
 
 ## 見出し画像用フレーズ
@@ -132,12 +156,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物 — these must be rendered in their standard Japanese forms,
 never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -216,20 +258,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 本文の「補足：床面積の算定方法を整理する」の4パターンに沿って型を使い分けた。アは階ごとに床の有無を判定する配置図型、イは壁の厚みを階ごとに測り直す配置図型、ウは「除外する」という思い込みと「無視して算入する」という正しいルールを並べる対比枠型、エ・オは両方の分岐先が意味を持つ決定木型として、はい・いいえ双方の結論ノードを明記した。
 
@@ -254,11 +296,11 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 (or ○/✕) branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panel 3（肢ウ）is instead built as a
+— do not force a flowchart. Panel 3（ウ）is instead built as a
 side-by-side contrast frame（正誤対比型）: a left/upper panel labeled
 「誤りやすい思い込み」showing the mistaken idea crossed out, and a
 right/lower panel labeled「正しいルール」showing the correct rule. Panels
-4 and 5（肢エ・肢オ）must each be drawn as an actual decision flowchart
+4 and 5（エ・オ）must each be drawn as an actual decision flowchart
 whose diamond node has two equally meaningful outcomes — render BOTH the
 「はい」and「いいえ」exit arrows with their own distinct, clearly labeled
 conclusion node, highlighting the branch this problem's 肢 actually
@@ -274,7 +316,15 @@ text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -300,7 +350,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 吹抜けは階ごとに床の有無で判定する
@@ -318,7 +368,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 床のある階は算入
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 壁の厚みは階ごとに測り直す
@@ -337,7 +387,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 階ごとに中心線で計算
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 柱の出っ張りは除外せず無視して測る
@@ -359,7 +409,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 除外せず柱は無視
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 常時開放の通路か閉じる区画かを見分ける
@@ -382,7 +432,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 閉鎖区画は算入
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 塔屋の一部使用が全体に波及する
@@ -411,10 +461,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建, 壁, 厚, 積, 塔, 屋, 画, 区, 閉, 吹, 抜, 柱, 階, 段 and
-any character that has a visually similar Simplified Chinese variant. If
-any character renders as a Simplified Chinese variant, redraw that
+any character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

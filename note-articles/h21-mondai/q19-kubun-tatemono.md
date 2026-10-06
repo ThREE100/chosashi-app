@@ -2,51 +2,75 @@
 
 **出題年度：平成21年度　午後の部　第19問**
 
-> 区分建物の表示に関する登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。
->
-> ア　甲区分建物が属する一棟の建物の法定敷地とされている土地を乙区分建物の駐車場として利用した場合、当該土地を乙区分建物が属する一棟の建物の規約敷地とし、乙区分建物の敷地権として登記することができる。
->
-> イ　Ａが、分譲マンションとして販売する目的でＡ単独名義で建築確認通知を受けた一棟の建物である甲建物について、施工業者Ｂから工事完成後に引渡しを受けた後、不動産販売業者Ｃに譲渡した場合、Ｃは甲建物に属する区分建物について、Ｃを表題部所有者とする区分建物の表題登記を申請することができる。
->
-> ウ　駐輪場として規約共用部分とされた建物を改装及び増築して集会場に変更した場合、表題部の変更の登記の申請には、変更後の建物図面及び各階平面図を提供すれば足りる。
->
-> エ　一棟の建物に属する区分建物の全部が滅失した場合、その一棟の建物に属する区分建物の表題部所有者又は所有権の登記名義人の一人は、単独で一棟の建物の滅失の登記を申請することができる。
->
-> オ　共用部分である旨の登記は、当該共用部分である建物が属する一棟の建物の区分所有者の共用に供される場合にのみすることができる。
->
+> 区分建物の表示に関する登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。  
+>　  
+> ア　甲区分建物が属する一棟の建物の法定敷地とされている土地を乙区分建物の駐車場として利用した場合、当該土地を乙区分建物が属する一棟の建物の規約敷地とし、乙区分建物の敷地権として登記することができる。  
+>　  
+> イ　Ａが、分譲マンションとして販売する目的でＡ単独名義で建築確認通知を受けた一棟の建物である甲建物について、施工業者Ｂから工事完成後に引渡しを受けた後、不動産販売業者Ｃに譲渡した場合、Ｃは甲建物に属する区分建物について、Ｃを表題部所有者とする区分建物の表題登記を申請することができる。  
+>　  
+> ウ　駐輪場として規約共用部分とされた建物を改装及び増築して集会場に変更した場合、表題部の変更の登記の申請には、変更後の建物図面及び各階平面図を提供すれば足りる。  
+>　  
+> エ　一棟の建物に属する区分建物の全部が滅失した場合、その一棟の建物に属する区分建物の表題部所有者又は所有権の登記名義人の一人は、単独で一棟の建物の滅失の登記を申請することができる。  
+>　  
+> オ　共用部分である旨の登記は、当該共用部分である建物が属する一棟の建物の区分所有者の共用に供される場合にのみすることができる。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
+
+---
 
 区分建物（分譲マンションの各部屋など）の表示登記は、敷地権・表題部所有者・共用部分といった区分建物特有の論点が絡み合います。「誰が申請するのか」「どこまでを敷地権・共用部分とできるのか」を軸に、一つずつ整理していきましょう。
 
 ### ア：他棟の法定敷地でも、規約敷地として敷地権に登記できる
 
-区分所有法5条1項は、「区分所有者が建物及び建物が所在する土地と一体として管理又は使用をする庭、通路その他の土地は、規約により建物の敷地とすることができる」と定めています（規約敷地）。ここでは、その土地が他の一棟の建物の法定敷地であることは妨げとされていません。したがって、甲区分建物の一棟の建物の法定敷地とされている土地であっても、それを乙区分建物の駐車場として利用している場合には、規約で乙区分建物の属する一棟の建物の規約敷地と定め、乙区分建物の敷地権として登記することができます。法定敷地と規約敷地は、どちらも敷地利用権の対象となり得るからです。
+区分所有法5条1項は、「区分所有者が建物及び建物が所在する土地と一体として管理又は使用をする庭、通路その他の土地は、規約により建物の敷地とすることができる」と定めています（規約敷地）。
+
+ここでは、その土地が他の一棟の建物の法定敷地であることは妨げとされていません。
+
+したがって、甲区分建物の一棟の建物の法定敷地とされている土地であっても、それを乙区分建物の駐車場として利用している場合には、規約で乙区分建物の属する一棟の建物の規約敷地と定め、乙区分建物の敷地権として登記することができます。
+
+法定敷地と規約敷地は、どちらも敷地利用権の対象となり得るからです。
 
 **たとえば**、Ａ棟の敷地になっている土地の一角を、隣のＢ棟の住民が駐車場として使っている場合、規約でその土地をＢ棟の規約敷地と定めれば、Ｂ棟の区分建物の敷地権として登記することができます。
 
 ### イ：区分建物の表題登記を申請できるのは、「最初に所有した者」
 
-表題登記を申請すべきなのは「新築した建物…の所有権を取得した者」、つまり**最初にその建物を所有した者（原始取得者）**です（不動産登記法47条1項）。例外は同条2項で、区分建物を新築した者について相続その他の一般承継があったときに、一般承継人が**被承継人を表題部所有者として**申請できる場合だけであり、売買による特定承継人を表題部所有者とする表題登記は認められていません。設問では、甲建物を最初に所有したのはＡであり、その後にＡからＣへ譲渡されています。この場合、Ｃを表題部所有者とする表題登記を申請することはできず、まずＡを表題部所有者として表題登記をしたうえで、Ｃへ所有権移転の登記をするのが正しい手順です。なお、区分建物の表題登記は、一棟の建物全体の表題登記の申請と併せてしなければなりません（同法48条1項）。
+表題登記を申請すべきなのは「新築した建物…の所有権を取得した者」、つまり**最初にその建物を所有した者（原始取得者）**です（不動産登記法47条1項）。
+
+例外は同条2項で、区分建物を新築した者について相続その他の一般承継があったときに、一般承継人が**被承継人を表題部所有者として**申請できる場合だけであり、売買による特定承継人を表題部所有者とする表題登記は認められていません。
+
+設問では、甲建物を最初に所有したのはＡであり、その後にＡからＣへ譲渡されています。この場合、Ｃを表題部所有者とする表題登記を申請することはできず、まずＡを表題部所有者として表題登記をしたうえで、Ｃへ所有権移転の登記をするのが正しい手順です。
+
+なお、区分建物の表題登記は、一棟の建物全体の表題登記の申請と併せてしなければなりません（同法48条1項）。
 
 **たとえば**、Ａが新築したマンションをＣが業者から買い取ったとしても、いきなりＣ名義で表題登記はできません。まず建てて最初に所有したＡの名義で表題登記をし、その後にＣへ名義を移す、という二段階を踏みます。
 
 ### ウ：規約共用部分の用途変更の登記には、建物図面等だけでは足りない
 
-駐輪場として規約共用部分とされていた建物を、改装・増築して集会場に変更した場合の表題部の変更の登記は、変更後の建物図面及び各階平面図を提供すれば足りるわけではありません。用途や規約共用部分の内容の変更に伴い、規約の設定・変更等を証する情報など、ほかにも必要な添付情報があります。「提供すれば足りる」とするこの肢は誤りです。
+駐輪場として規約共用部分とされていた建物を、改装・増築して集会場に変更した場合の表題部の変更の登記は、変更後の建物図面及び各階平面図を提供すれば足りるわけではありません。
+
+用途や規約共用部分の内容の変更に伴い、規約の設定・変更等を証する情報など、ほかにも必要な添付情報があります。「提供すれば足りる」とするこの肢は誤りです。
 
 **たとえば**、マンションの駐輪場（規約共用部分）を集会室に作り替えたときは、図面を差し替えるだけでは済まず、その用途変更を裏づける規約関係の書類なども添える必要があります。
 
 ### エ：一棟全部が滅失したときは、区分所有者の一人が単独で滅失登記を申請できる
 
-建物が滅失したときは、表題部所有者または所有権の登記名義人が、滅失の日から1か月以内に滅失の登記を申請しなければなりません（不動産登記法57条）。一棟の建物に属する区分建物の全部が滅失した場合には、その一棟の建物に属する区分建物の表題部所有者または所有権の登記名義人の一人が、単独で一棟の建物の滅失の登記を申請することができます。全員で共同して申請する必要はありません。
+建物が滅失したときは、表題部所有者または所有権の登記名義人が、滅失の日から1か月以内に滅失の登記を申請しなければなりません（不動産登記法57条）。
+
+一棟の建物に属する区分建物の全部が滅失した場合には、その一棟の建物に属する区分建物の表題部所有者または所有権の登記名義人の一人が、単独で一棟の建物の滅失の登記を申請することができます。全員で共同して申請する必要はありません。
 
 **たとえば**、火災でマンションが一棟まるごと焼失した場合、各部屋の所有者全員がそろわなくても、そのうちの一人が代表して一棟の建物全体の滅失登記を申請することができます。
 
 ### オ：共用部分である旨の登記は、同じ一棟の区分所有者に限らずできる
 
-共用部分である旨の登記は、その共用部分である建物が属する一棟の建物の区分所有者の共用に供される場合に「のみ」することができるわけではありません。不動産登記法58条1項は、共用部分である旨の登記の登記事項として「当該共用部分である建物が当該建物の属する一棟の建物**以外の一棟の建物**に属する建物の区分所有者の共用に供されるものであるときは、その旨」を挙げており、他棟の区分所有者の共用に供される場合があることを条文が正面から予定しています。区分所有法上も、規約共用部分（同法4条2項）のほか、団地内の複数棟の区分所有者が共有する団地共用部分（同法67条）の制度があります。「〜の場合にのみ」と限定するこの肢は誤りです。
+共用部分である旨の登記は、その共用部分である建物が属する一棟の建物の区分所有者の共用に供される場合に「のみ」することができるわけではありません。
+
+不動産登記法58条1項は、共用部分である旨の登記の登記事項として「当該共用部分である建物が当該建物の属する一棟の建物**以外の一棟の建物**に属する建物の区分所有者の共用に供されるものであるときは、その旨」を挙げており、他棟の区分所有者の共用に供される場合があることを条文が正面から予定しています。
+
+区分所有法上も、規約共用部分（同法4条2項）のほか、団地内の複数棟の区分所有者が共有する団地共用部分（同法67条）の制度があります。「〜の場合にのみ」と限定するこの肢は誤りです。
 
 **たとえば**、複数棟からなる団地で、Ａ棟の一室を全棟の住民が使う共用の集会所とする場合のように、その建物が属する一棟の区分所有者だけでなく、他棟の区分所有者の共用に供する共用部分も登記することができます。
+
+---
 
 ### まとめ
 
@@ -70,7 +94,7 @@
 - ローカルのアガルート教材フォルダは、この実行環境からは参照できないため、今回は参照していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（法定敷地を他棟の規約敷地とすることの可否・譲受人を表題部所有者とする表題登記の可否・共用部分変更時の添付情報・一棟全部滅失時の単独申請・共用部分登記の共用相手の範囲を組み合わせた区分建物の表示登記の問題）と同一・類似の問題が再出題されていないかを確認しました。令和6年度第18問アが法定敷地→別棟規約敷地化（本問ア）、H23第13問・令和6年度第17問ウが区分建物全部滅失時の単独申請（本問エ）とそれぞれ同一論点を扱いますが、いずれも他肢の構成が異なる別問題であり、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **適用法令の現行性チェック（2026-08-04実施）**：本問が前提とする条文を現行法（2026年8月時点）と照合しました。**不動産登記法47条1項・2項（区分建物の表題登記の申請人）、48条1項（一棟の建物と併せた申請）、57条（建物の滅失の登記）、58条1項（共用部分である旨の登記の登記事項）**は、いずれも平成21年当時から改正されておらず現行のままです。区分所有法についても、**5条1項（規約敷地）・4条2項（規約共用部分）・67条（団地共用部分）**の各規定に改正はありません。なお、2026年4月1日に施行された**改正区分所有法（令和7年法律第47号。「老朽化マンション等の管理及び再生の円滑化等を図るための建物の区分所有等に関する法律等の一部を改正する法律」、令和7年5月30日公布）**は、集会の決議要件の緩和（決議の分母を出席者基準とする仕組み）、所在等不明区分所有者を決議の母数から除外する制度、建替え決議要件の緩和、一棟リノベーション・建物敷地売却・建物取壊しといった再生手段の新設などを内容とする大きな改正ですが、これらは**5条の2などの枝番条文の新設**や決議に関する規定の改正として行われており、本問が前提とする5条1項・4条2項・67条の各条文自体は変更されていません。したがって**各肢の正誤の結論に変更はありません**。あわせて、従前「特定の条番号を確定的には明記していない」としていた部分に、上記の条文番号を明示しました。
-- **条文引用・添付情報の追加確認（2026-08-16実施）**：2点を修正・補記しました。第一に、肢オの解説本文と確認事項に引用していた不動産登記法58条1項1号の「」内の条文引用文言に誤りがあり（「区分建物の区分所有者」としていましたが、条文の正確な文言は「建物の区分所有者」です）、`note-articles/laws/fudousan-touki-hou.md`のローカル法令データベースと突き合わせて訂正しました（肢オの判定「誤」自体に変更はありません）。第二に、肢ウの添付情報の扱いについて、`note-articles/laws/fudousan-touki-rei-betsuhyou.md`で**不動産登記令別表十四の項**（法51条1項〜4項の建物の表題部の変更の登記の添付情報）を確認したところ、添付情報欄ニに「共用部分である旨の登記又は団地共用部分である旨の登記がある建物について申請をするときは、当該建物の所有者を証する情報」が明文で挙げられており、また増築により床面積が増加する場合は同欄ロ（２）の所有権を証する情報も必要とされているため、「変更後の建物図面及び各階平面図を提供すれば足りるわけではない」という結論自体は条文上裏付けが取れました。ただし、本文が具体例として挙げている「規約の設定・変更等を証する情報」という情報の名称そのものは、別表十四の項に明文で列挙されているものではなく、引き続き実務上の運用に基づく説明にとどまる点は従前どおりです（肢ウの判定「誤」に変更はありません）。
+- **条文引用・添付情報の追加確認（2026-08-16実施）**：2点を修正・補記しました。第一に、オの解説本文と確認事項に引用していた不動産登記法58条1項1号の「」内の条文引用文言に誤りがあり（「区分建物の区分所有者」としていましたが、条文の正確な文言は「建物の区分所有者」です）、`note-articles/laws/fudousan-touki-hou.md`のローカル法令データベースと突き合わせて訂正しました（オの判定「誤」自体に変更はありません）。第二に、ウの添付情報の扱いについて、`note-articles/laws/fudousan-touki-rei-betsuhyou.md`で**不動産登記令別表十四の項**（法51条1項〜4項の建物の表題部の変更の登記の添付情報）を確認したところ、添付情報欄ニに「共用部分である旨の登記又は団地共用部分である旨の登記がある建物について申請をするときは、当該建物の所有者を証する情報」が明文で挙げられており、また増築により床面積が増加する場合は同欄ロ（２）の所有権を証する情報も必要とされているため、「変更後の建物図面及び各階平面図を提供すれば足りるわけではない」という結論自体は条文上裏付けが取れました。ただし、本文が具体例として挙げている「規約の設定・変更等を証する情報」という情報の名称そのものは、別表十四の項に明文で列挙されているものではなく、引き続き実務上の運用に基づく説明にとどまる点は従前どおりです（ウの判定「誤」に変更はありません）。
 
 ---
 
@@ -84,7 +108,7 @@
 
 ---
 
-## インフォグラフィック生成プロンプト（問題全体）
+## インフォグラフィック プロンプト（問題全体）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -108,13 +132,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to these
 characters, which are easily rendered as Simplified Chinese by mistake:
 区・分・建・物・敷・地・権・規・約・滅（for example「権」and「約」must keep
 their standard Japanese forms exactly).
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -183,18 +225,18 @@ Conclusion tag (blue pill banner below the illustration):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance.
+read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。肢アは「他棟の法定敷地であることは妨げにならない」という見落としやすい点を決定木で示す。5パネル、portrait 1080×2600px。
+問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。アは「他棟の法定敷地であることは妨げにならない」という見落としやすい点を決定木で示す。5パネル、portrait 1080×2600px。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -269,7 +311,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -294,7 +336,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 敷地権にできる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 表題登記は最初の所有者Ａの名義でする
@@ -313,7 +355,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原始取得者が申請
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 用途変更登記は図面だけでなく規約情報も必要
@@ -331,7 +373,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規約の情報も必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 一棟全部滅失なら区分所有者の一人で申請できる
@@ -350,7 +392,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一人で単独申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 共用部分の登記は他棟や団地全体の共用でもできる
@@ -388,7 +430,7 @@ Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that panel 1 (肢ア) is drawn as an
+between the header and the panels, that panel 1 (ア) is drawn as an
 actual flowchart with both required checks kept distinct and the "他棟の
 法定敷地であることは妨げにならない" point clearly noted, that no 肢 with
 a genuinely hidden second condition has been flattened into a single

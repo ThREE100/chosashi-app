@@ -2,21 +2,27 @@
 
 **出題年度：平成19年度　午前の部　第16問**
 
-> 次のアからオまでの表示に関する登記のうち、一の申請情報によってその申請をすることができるものは、幾つあるか。
->
-> ア　甲土地の一部を分筆した上でこれを乙土地に合筆する場合における分筆の登記及び合筆の登記
->
-> イ　甲建物を区分した上でその一部を乙建物の附属建物とする場合における建物の区分の登記及び建物の合併の登記
->
-> ウ　附属建物の登記がされている甲建物の主たる建物の種類を変更し、同時に、その附属建物を分割して乙建物とする場合における建物の表題部の登記事項に関する変更の登記及び建物の分割の登記
->
-> エ　甲建物を取り壊してその跡地に乙建物を新築した場合における建物の滅失の登記及び建物の表題登記
->
-> オ　同一の登記所の管轄区域内にある甲土地と乙建物の表題部所有者の氏名に変更があった場合における甲土地及び乙建物の表題部所有者の氏名についての変更の登記
->
+> 次のアからオまでの表示に関する登記のうち、一の申請情報によってその申請をすることができるものは、幾つあるか。  
+>　  
+> ア　甲土地の一部を分筆した上でこれを乙土地に合筆する場合における分筆の登記及び合筆の登記  
+>　  
+> イ　甲建物を区分した上でその一部を乙建物の附属建物とする場合における建物の区分の登記及び建物の合併の登記  
+>　  
+> ウ　附属建物の登記がされている甲建物の主たる建物の種類を変更し、同時に、その附属建物を分割して乙建物とする場合における建物の表題部の登記事項に関する変更の登記及び建物の分割の登記  
+>　  
+> エ　甲建物を取り壊してその跡地に乙建物を新築した場合における建物の滅失の登記及び建物の表題登記  
+>　  
+> オ　同一の登記所の管轄区域内にある甲土地と乙建物の表題部所有者の氏名に変更があった場合における甲土地及び乙建物の表題部所有者の氏名についての変更の登記  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
-不動産登記の申請は、原則として「一つの申請情報で一つの不動産についての一つの登記」を申請するのが基本です（不動産登記令4条本文）。ただし、分筆・合筆や建物の分割・合併のように、複数の登記が実質的に一体の手続として結びついている場合には、不動産登記令4条ただし書と不動産登記規則35条が、例外的に一の申請情報でまとめて申請することを認めています。今回は、ア〜オの5つの場面がこの例外に当たるかどうかを、条文に沿って確認していきます。
+---
+
+不動産登記の申請は、原則として「一つの申請情報で一つの不動産についての一つの登記」を申請するのが基本です（不動産登記令4条本文）。
+
+ただし、分筆・合筆や建物の分割・合併のように、複数の登記が実質的に一体の手続として結びついている場合には、不動産登記令4条ただし書と不動産登記規則35条が、例外的に一の申請情報でまとめて申請することを認めています。
+
+今回は、ア〜オの5つの場面がこの例外に当たるかどうかを、条文に沿って確認していきます。
 
 ### ア：分筆してすぐ合筆、これはまとめて申請できる
 
@@ -26,27 +32,39 @@
 
 ### イ：建物を区分して合併、これも「建物区分合併登記」としてまとめられる
 
-不動産登記規則35条1項4号は、「甲建物を区分して、その一部を乙建物の附属建物としようとする場合において、建物の区分の登記及び建物の合併の登記の申請をするとき」を、一の申請情報で申請できる場合として定めています。イはこの号にそのまま当てはまる場面です。実務上もこの組み合わせは「建物区分合併登記」という一つの登記の目的として申請されており、区分の登記と合併の登記を別々の申請情報に分ける必要はありません。
+不動産登記規則35条1項4号は、「甲建物を区分して、その一部を乙建物の附属建物としようとする場合において、建物の区分の登記及び建物の合併の登記の申請をするとき」を、一の申請情報で申請できる場合として定めています。
+
+イはこの号にそのまま当てはまる場面です。実務上もこの組み合わせは「建物区分合併登記」という一つの登記の目的として申請されており、区分の登記と合併の登記を別々の申請情報に分ける必要はありません。
 
 **たとえば**、店舗と倉庫が一体になっている甲建物のうち倉庫部分だけを独立した建物として区分し、その倉庫部分を隣接する乙建物の附属建物として組み込みたい場合、建物の区分の登記と建物の合併の登記を一の申請情報でまとめて申請できます。
 
 ### ウ：主たる建物の種類変更と附属建物の分割、同じ建物ならまとめてOK
 
-不動産登記規則35条1項7号は、「同一の不動産について申請する二以上の登記が、不動産の表題部の登記事項に関する変更の登記又は更正の登記及び土地の分筆の登記若しくは合筆の登記又は建物の分割の登記、建物の区分の登記若しくは建物の合併の登記であるとき」を、一の申請情報で申請できる場合として定めています。ウは、分割前の甲建物という同一の不動産について、表題部の変更登記（主たる建物の種類変更）と建物の分割の登記を同時に申請する場面であり、この号にそのまま当てはまります。
+不動産登記規則35条1項7号は、「同一の不動産について申請する二以上の登記が、不動産の表題部の登記事項に関する変更の登記又は更正の登記及び土地の分筆の登記若しくは合筆の登記又は建物の分割の登記、建物の区分の登記若しくは建物の合併の登記であるとき」を、一の申請情報で申請できる場合として定めています。
+
+ウは、分割前の甲建物という同一の不動産について、表題部の変更登記（主たる建物の種類変更）と建物の分割の登記を同時に申請する場面であり、この号にそのまま当てはまります。
 
 **たとえば**、主たる建物が事務所、附属建物が倉庫として登記されている甲建物について、事務所部分を店舗に用途変更するのと同時に、倉庫部分を独立した乙建物として分割したいという場合、表題部の変更登記と建物の分割の登記を一の申請情報でまとめて申請できます。
 
 ### エ：取り壊しと新築は「別の建物」だから、まとめて申請できない
 
-甲建物を取り壊した時点で甲建物という不動産は消滅し、その跡地に新築された乙建物は、甲建物とは法律上まったく別個の新しい不動産です。両者の間には、分筆・合筆や建物の分割・合併のような「同一の土地・建物が形を変える」という関連性がなく、不動産登記規則35条1項の各号のいずれにも当てはまりません。したがって、建物の滅失の登記と建物の表題登記は、それぞれ別の申請情報で個別に申請しなければなりません。
+甲建物を取り壊した時点で甲建物という不動産は消滅し、その跡地に新築された乙建物は、甲建物とは法律上まったく別個の新しい不動産です。
+
+両者の間には、分筆・合筆や建物の分割・合併のような「同一の土地・建物が形を変える」という関連性がなく、不動産登記規則35条1項の各号のいずれにも当てはまりません。
+
+したがって、建物の滅失の登記と建物の表題登記は、それぞれ別の申請情報で個別に申請しなければなりません。
 
 **たとえば**、老朽化した木造2階建の甲建物を解体し、同じ土地に鉄骨3階建の乙建物を新築した場合、「甲建物の滅失登記」と「乙建物の表題登記」は対象となる不動産そのものが違うため、1枚の申請書にまとめることはできず、それぞれ独立した申請書を作成して申請する必要があります。
 
 ### オ：土地と建物でも、同じ人の氏名変更ならまとめられる
 
-不動産登記令4条ただし書は、「同一の登記所の管轄区域内にある二以上の不動産について申請する登記の目的並びに登記原因及びその日付が同一であるとき」は、一の不動産ごとに申請情報を分けなくてよいと定めています。オの場面は、甲土地と乙建物のいずれについても、登記の目的が「表題部所有者の氏名についての変更の登記」で共通し、登記原因・日付も同一人物の同じ氏名変更という一つの出来事に基づくものですから、この規定にそのまま当てはまり、一の申請情報でまとめて申請することができます。
+不動産登記令4条ただし書は、「同一の登記所の管轄区域内にある二以上の不動産について申請する登記の目的並びに登記原因及びその日付が同一であるとき」は、一の不動産ごとに申請情報を分けなくてよいと定めています。
+
+オの場面は、甲土地と乙建物のいずれについても、登記の目的が「表題部所有者の氏名についての変更の登記」で共通し、登記原因・日付も同一人物の同じ氏名変更という一つの出来事に基づくものですから、この規定にそのまま当てはまり、一の申請情報でまとめて申請することができます。
 
 **たとえば**、表題部所有者としてAさんの名前が登記されている甲土地と乙建物が、同じ法務局の管轄区域内にある場合において、Aさんが結婚して氏が変わったときは、甲土地の表題部所有者の氏名変更登記と乙建物の表題部所有者の氏名変更登記を、一つの申請情報でまとめて申請することができます。
+
+---
 
 ### まとめ
 
@@ -115,11 +133,19 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・地・番・建・物・登・記・所・権・分・併・題・申・請・情・報・筆
+kanji 建・物・登・記・所・分・併・申・請・情・報・筆
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 
@@ -213,8 +239,8 @@ Conclusion tag (red banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
@@ -231,7 +257,7 @@ channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア・イ・ウ・オ・エの5肢はすべて「①規則35条1項の号にそのまま当てはまる組み合わせか→②当てはまらなければ令4条ただし書の要件（同一登記所管轄・目的・原因・日付が同一）を満たすか」という共通の二段階の決定木で判定できる。5枚のパネルはこの同じ決定木を共有し、各パネルは自分の肢に関係する分岐だけを太い縁取り・フルカラーで強調し、関係しない枝は薄いグレーの点線で縮小表示する構成。
 
@@ -318,7 +344,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -348,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1号該当、まとめてOK
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -374,7 +400,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 4号該当、まとめてOK
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -405,7 +431,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 7号該当、まとめてOK
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in red containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -443,7 +469,7 @@ Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
 別個の不動産、別々に申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -490,9 +516,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 号・地・建・物・登・記・所・分・合・
-併・筆・区・題・変・更・築・滅・失・轄・管・規・則・項・令・条・原・因・
-氏・義. If any character renders as a Simplified or Traditional Chinese
+Chinese, paying special attention to 号・地・建・物・登・記・所・分・合・併・筆・区・題・変・更・滅・失・轄・管・規・則・項・令・条・原・因・氏・義. If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,

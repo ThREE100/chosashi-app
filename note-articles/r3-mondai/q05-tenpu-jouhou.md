@@ -2,51 +2,83 @@
 
 **出題年度：令和3年度　午後の部　第5問**
 
-> 登記の申請の添付情報に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　共通する添付情報のある2つの申請を同一の登記所に対して同時に行う場合において、当該添付情報を一の申請の申請情報と併せて提供し、その旨を他の申請の申請情報の内容としたときは、当該他の申請について当該添付情報を提供することを要しない。
->
-> イ　隣り合って所在するＡが所有権の登記名義人である甲区分建物とＢが所有権の登記名義人である乙区分建物について、これらの間の隔壁を除去して甲区分建物と乙区分建物が1個の丙区分建物となったことによる登記の申請をＡが単独でする場合には、Ａ及びＢが丙区分建物について有することとなる持分の割合を証する情報を提供することを要する。
->
-> ウ　土地家屋調査士法人が建物の表題登記の申請手続を代理する場合において、当該土地家屋調査士法人の会社法人等番号を提供したときは、当該会社法人等番号の提供をもって、当該代理人の代表者の資格を証する情報の提供に代えることができる。
->
-> エ　所有権の登記がある区分建物でない甲建物と所有権の登記はないが表題登記がある区分建物でない乙建物とが増築工事により合体して1個の区分建物でない建物となった場合において、合体による建物の表題登記及び合体前の建物についての表題部の登記の抹消並びに所有権の保存の登記の申請をするときは、乙建物の新築時の建築基準法第7条の検査済証を当該申請情報と併せて提供すべき所有権を証する情報とすることができる。
->
-> オ　電子申請の方法によって登記を申請する場合において、登記事項証明書を併せて提供しなければならないものとされているときは、登記事項証明書の提供に代えて、当該申請に係る不動産の不動産番号を送信しなければならない。
->
+> 登記の申請の添付情報に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　共通する添付情報のある2つの申請を同一の登記所に対して同時に行う場合において、当該添付情報を一の申請の申請情報と併せて提供し、その旨を他の申請の申請情報の内容としたときは、当該他の申請について当該添付情報を提供することを要しない。  
+>　  
+> イ　隣り合って所在するＡが所有権の登記名義人である甲区分建物とＢが所有権の登記名義人である乙区分建物について、これらの間の隔壁を除去して甲区分建物と乙区分建物が1個の丙区分建物となったことによる登記の申請をＡが単独でする場合には、Ａ及びＢが丙区分建物について有することとなる持分の割合を証する情報を提供することを要する。  
+>　  
+> ウ　土地家屋調査士法人が建物の表題登記の申請手続を代理する場合において、当該土地家屋調査士法人の会社法人等番号を提供したときは、当該会社法人等番号の提供をもって、当該代理人の代表者の資格を証する情報の提供に代えることができる。  
+>　  
+> エ　所有権の登記がある区分建物でない甲建物と所有権の登記はないが表題登記がある区分建物でない乙建物とが増築工事により合体して1個の区分建物でない建物となった場合において、合体による建物の表題登記及び合体前の建物についての表題部の登記の抹消並びに所有権の保存の登記の申請をするときは、乙建物の新築時の建築基準法第7条の検査済証を当該申請情報と併せて提供すべき所有権を証する情報とすることができる。  
+>　  
+> オ　電子申請の方法によって登記を申請する場合において、登記事項証明書を併せて提供しなければならないものとされているときは、登記事項証明書の提供に代えて、当該申請に係る不動産の不動産番号を送信しなければならない。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-登記申請の「添付情報」は、原則として提供が必要ですが、場面によっては省略できたり、逆に見落としがちな追加情報が必要になったりします。この問題は、援用による省略・合体登記での持分割合・会社法人等番号による資格証明の省略・所有権証明情報の要否・電子申請での取扱いという、添付情報まわりの論点を横断的に問うものです。「省略できるのか」「提供が必要なのか」を一つずつ正確に切り分けられるかがカギになります。
+---
+
+登記申請の「添付情報」は、原則として提供が必要ですが、場面によっては省略できたり、逆に見落としがちな追加情報が必要になったりします。
+
+この問題は、援用による省略・合体登記での持分割合・会社法人等番号による資格証明の省略・所有権証明情報の要否・電子申請での取扱いという、添付情報まわりの論点を横断的に問うものです。
+
+「省略できるのか」「提供が必要なのか」を一つずつ正確に切り分けられるかがカギになります。
 
 ### ア：共通する添付情報は、一方の申請で提供すれば他方は援用で省略できる
 
 同一の登記所に対して複数の申請を同時にする場合において、それらの申請に共通する添付情報があるときは、その添付情報を一の申請の申請情報と併せて提供し、その旨を他の申請の申請情報の内容としておけば、他の申請ではその添付情報を重ねて提供する必要はありません（不動産登記規則37条1項。いわゆる添付情報の「援用」）。
 
-**たとえば**、同じ登記所に対して2件の申請を同時に出すとき、どちらの申請にも同じ代理権限証明情報（委任状）が必要だとします。この場合、1件目の申請に委任状を付け、「委任状は1件目に添付したものを援用します」と2件目の申請情報に書いておけば、2件目に同じ委任状をもう一度付け直す必要はありません。
+**たとえば**、同じ登記所に対して2件の申請を同時に出すとき、どちらの申請にも同じ代理権限証明情報（委任状）が必要だとします。
+
+この場合、1件目の申請に委任状を付け、「委任状は1件目に添付したものを援用します」と2件目の申請情報に書いておけば、2件目に同じ委任状をもう一度付け直す必要はありません。
 
 ### イ：合体で新たに持分が生じるなら、持分割合を証する情報が必要
 
-もともと所有者が異なる複数の区分建物が、隔壁の除去などによって1個の建物になると、その建物は合体前の各所有者の共有になります。このように合体前の各建物の所有者等が異なる場合には、合体後の建物について各所有者等が有することとなる持分の割合を証する情報も、所有権を証する情報として提供する必要があります（不動産登記令別表13項の添付情報ハ）。
+もともと所有者が異なる複数の区分建物が、隔壁の除去などによって1個の建物になると、その建物は合体前の各所有者の共有になります。
 
-**たとえば**、隣り合ったマンションの一室（甲）をＡさんが、もう一室（乙）をＢさんが所有していて、その間の壁を取り払って1つの部屋（丙）にしたとします。丙はＡさんとＢさんの共有になりますから、「Ａさんが何分の何、Ｂさんが何分の何」という持分割合を証する情報を出さなければなりません。Ａさんが単独で申請する場合でも、この情報は必要です。
+このように合体前の各建物の所有者等が異なる場合には、合体後の建物について各所有者等が有することとなる持分の割合を証する情報も、所有権を証する情報として提供する必要があります（不動産登記令別表13項の添付情報ハ）。
+
+**たとえば**、隣り合ったマンションの一室（甲）をＡさんが、もう一室（乙）をＢさんが所有していて、その間の壁を取り払って1つの部屋（丙）にしたとします。
+
+丙はＡさんとＢさんの共有になりますから、「Ａさんが何分の何、Ｂさんが何分の何」という持分割合を証する情報を出さなければなりません。Ａさんが単独で申請する場合でも、この情報は必要です。
 
 ### ウ：会社法人等番号を提供すれば、代表者の資格を証する情報の提供に代えられる
 
-法人である代理人によって登記を申請する場合において、その代理人の会社法人等番号を提供したときは、その会社法人等番号の提供をもって、代理人の代表者の資格を証する情報の提供に代えることができます（不動産登記規則37条の2）。土地家屋調査士法人が代理する場合も同じで、番号を出せば別途の資格証明情報は不要になります。
+法人である代理人によって登記を申請する場合において、その代理人の会社法人等番号を提供したときは、その会社法人等番号の提供をもって、代理人の代表者の資格を証する情報の提供に代えることができます（不動産登記規則37条の2）。
 
-**たとえば**、土地家屋調査士法人が代理人となって建物の表題登記を申請するとき、本来はその法人の代表者が誰であるかを証する情報（登記事項証明書など）が必要になりそうです。しかし、その法人の会社法人等番号を申請情報に記載して提供すれば、登記官が番号から代表者を確認できるため、別に資格証明情報を添える必要はありません。
+土地家屋調査士法人が代理する場合も同じで、番号を出せば別途の資格証明情報は不要になります。
+
+**たとえば**、土地家屋調査士法人が代理人となって建物の表題登記を申請するとき、本来はその法人の代表者が誰であるかを証する情報（登記事項証明書など）が必要になりそうです。
+
+しかし、その法人の会社法人等番号を申請情報に記載して提供すれば、登記官が番号から代表者を確認できるため、別に資格証明情報を添える必要はありません。
 
 ### エ：表題登記がある建物については、そもそも所有権を証する情報の提供を要しない
 
-合体の登記等を申請する場面で、合体前の建物のうち「所有権の登記はないが表題登記はある」建物については、その建物の所有権を証する情報を提供することを要しないとされています（平成5年の質疑応答）。本肢は、この乙建物について「新築時の検査済証を所有権を証する情報とすることができる」としていますが、そもそも所有権を証する情報の提供自体が不要な場面ですので、この記述は誤りです。
+合体の登記等を申請する場面で、合体前の建物のうち「所有権の登記はないが表題登記はある」建物については、その建物の所有権を証する情報を提供することを要しないとされています（平成5年の質疑応答）。
 
-**たとえば**、増築工事で甲建物（所有権の登記あり）と乙建物（表題登記はあるが所有権の登記なし）がくっついて1個の建物になったとき、乙建物はすでに表題部に所有者が記録されています。すでに登記所が所有者を把握している以上、乙建物について改めて「これが所有者だ」と証明する検査済証などを付ける必要はない、というわけです。
+本肢は、この乙建物について「新築時の検査済証を所有権を証する情報とすることができる」としていますが、そもそも所有権を証する情報の提供自体が不要な場面ですので、この記述は誤りです。
+
+**たとえば**、増築工事で甲建物（所有権の登記あり）と乙建物（表題登記はあるが所有権の登記なし）がくっついて1個の建物になったとき、乙建物はすでに表題部に所有者が記録されています。
+
+すでに登記所が所有者を把握している以上、乙建物について改めて「これが所有者だ」と証明する検査済証などを付ける必要はない、というわけです。
+
+なお、所有権の登記がある甲建物のほうは、所有権を証する情報ではなく、その登記名義人の登記識別情報を提供します（不動産登記令8条2号）。
 
 ### オ：登記事項証明書に代わり送信するのは「照会番号等」であって、不動産番号ではない
 
-電子申請の方法で登記を申請する場合において、登記事項証明書を併せて提供しなければならないものとされているときは、法務大臣の定めるところに従い、登記事項証明書の提供に「代えて」、登記官が指定法人（一般財団法人民事法務協会）から登記情報の送信を受けるために必要な情報を送信するものとされています（不動産登記令11条）。ここでいう「必要な情報」とは、実務上、登記情報提供サービスから取得する照会番号及び発行年月日を指し、当該不動産に付された「不動産番号」ではありません。不動産番号は、これとは別に、不動産登記令6条の規定により申請情報の一部（所在・地番・地目・地積等）の記載を省略するために用いられるものであり、登記事項証明書の提供に代える情報ではありません。したがって、本肢のように「不動産番号を送信しなければならない」とする記述は、送信すべき情報の中身を取り違えている点で誤りです。
+電子申請の方法で登記を申請する場合において、登記事項証明書を併せて提供しなければならないものとされているときは、法務大臣の定めるところに従い、登記事項証明書の提供に「代えて」、登記官が指定法人（一般財団法人民事法務協会）から登記情報の送信を受けるために必要な情報を送信するものとされています（不動産登記令11条）。
 
-**たとえば**、電子申請で本来なら登記事項証明書を付けなければならない場面でも、代わりに登記情報提供サービスで取得した照会番号と発行年月日を申請情報に記載すれば、証明書の提供を省くことができます。ここで送信するのは、あくまで登記情報を照会するための番号であって、その不動産に付いている「不動産番号」ではありません。「何を送信するのか」を取り違えないことが大切です。
+ここでいう「必要な情報」とは、実務上、登記情報提供サービスから取得する照会番号及び発行年月日を指し、当該不動産に付された「不動産番号」ではありません。
+
+不動産番号は、これとは別に、不動産登記令6条の規定により申請情報の一部（所在・地番・地目・地積等）の記載を省略するために用いられるものであり、登記事項証明書の提供に代える情報ではありません。
+
+したがって、本肢のように「不動産番号を送信しなければならない」とする記述は、送信すべき情報の中身を取り違えている点で誤りです。
+
+**たとえば**、電子申請で本来なら登記事項証明書を付けなければならない場面でも、代わりに登記情報提供サービスで取得した照会番号と発行年月日を申請情報に記載すれば、証明書の提供を省くことができます。
+
+ここで送信するのは、あくまで登記情報を照会するための番号であって、その不動産に付いている「不動産番号」ではありません。「何を送信するのか」を取り違えないことが大切です。
+
+---
 
 ### まとめ
 
@@ -68,7 +100,7 @@
 - 出題年度・問題番号・正解番号（5番＝エ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 各肢の条文根拠のうち、ア（不動産登記規則37条1項＝共通添付情報の援用）、イ（不動産登記令別表13項の添付情報ハ＝持分割合を証する情報）、ウ（不動産登記規則37条の2＝会社法人等番号による代表者資格証明の省略）、オ（不動産登記令11条＝電子申請での登記事項証明書に代わる情報の送信）は、データベースのexplanationフィールドで条文番号まで明記されていたものです。エ（表題登記がある建物について所有権を証する情報の提供を要しない）は条文ではなく「平成5年の質疑応答」という先例に基づくものとしてデータベースに記録されており、この点は条文レベルでの裏付けではなく先例・実務の取扱いによる判断です。
 - なお、データベース内では共通添付情報の援用の根拠として、explanationフィールドが「不動産登記規則37条1項」、keyPointsフィールドが「不動産登記令7条」と、参照条文にゆれがありました。WebSearchで確認したところ、「同一の登記所に対して二以上の申請を同時にする場合において、当該申請に共通する添付情報があるときは、一の申請の申請情報と併せて提供し、他の申請の申請情報の内容としたときは提供を要しない」という援用の規定は不動産登記規則37条1項であり、不動産登記令7条は「登記の申請をする場合に申請情報と併せて提供すべき添付情報（代表者の資格を証する情報、代理人の権限を証する情報等）」を列挙する別の一般規定であって、援用そのものを定める条文ではないことが確認できました。したがって、explanationフィールドの「不動産登記規則37条1項」が正確な根拠条文であり、この点はもはや不確実ではありません（不動産登記規則37条1項・e-Gov法令検索ベースで確認済み）。
-- オについては、データベースのexplanationフィールドが「不動産番号」という語を用いていましたが、laws/fudousan-touki-rei.md（不動産登記令11条本文）を確認したところ、同条は送信すべき情報を「登記官が…指定法人から受けるために必要な情報」と抽象的に定めるのみで、条文上「不動産番号」とは規定していません。また同じファイル内の令6条は、不動産番号（不動産識別事項）を申請情報の一部の記載省略のために用いる別の制度であり、登記事項証明書の代替とは無関係であることも条文で確認できました。令11条の「必要な情報」の実体が登記情報提供サービスの照会番号及び発行年月日であることはWebSearchで確認しましたが、この具体的な運用（照会番号・発行年月日という名称）自体はlaws/の条文本体には明記されておらず、法務省・登記情報提供サービス関連の実務資料による確認です。この修正は肢オの正誤判定（誤）や本問の正解（エオ・選択肢5）を変えるものではありません。
+- オについては、データベースのexplanationフィールドが「不動産番号」という語を用いていましたが、laws/fudousan-touki-rei.md（不動産登記令11条本文）を確認したところ、同条は送信すべき情報を「登記官が…指定法人から受けるために必要な情報」と抽象的に定めるのみで、条文上「不動産番号」とは規定していません。また同じファイル内の令6条は、不動産番号（不動産識別事項）を申請情報の一部の記載省略のために用いる別の制度であり、登記事項証明書の代替とは無関係であることも条文で確認できました。令11条の「必要な情報」の実体が登記情報提供サービスの照会番号及び発行年月日であることはWebSearchで確認しましたが、この具体的な運用（照会番号・発行年月日という名称）自体はlaws/の条文本体には明記されておらず、法務省・登記情報提供サービス関連の実務資料による確認です。この修正はオの正誤判定（誤）や本問の正解（エオ・選択肢5）を変えるものではありません。
 - アガルート等のローカル教材PDFは本作業環境に存在せず、参照していません。本記事は上記の検証済みデータベースの記載に基づいて作成しています。
 
 ---
@@ -110,7 +142,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -118,6 +158,16 @@ following kanji, which are easily confused with Simplified Chinese
 variants: 号, 権, 建, 物, 登, 記, 所, 番, 録, 証, 援, 替. Render every
 occurrence of these characters in standard Japanese (Jōyō) form, never
 simplified.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -169,9 +219,9 @@ sentence):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 表題登記のみなら証明不要
-Illustration: 2つの建物アイコンを対比。「甲建物(所有権登記あり)」には所有権を
-証する情報の書類アイコンと緑のチェックマーク。「乙建物(表題登記のみ)」には
-同じ書類アイコンに大きな赤い×印が付く。
+Illustration: 2つの建物アイコンを対比。「甲建物(所有権登記あり)」の横には「登記識別情報」とラベル付けした
+書類アイコン(所有権を証する情報ではない)。「乙建物(表題登記のみ)」の横には
+「所有権を証する情報」とラベル付けした書類アイコンに大きな赤い×印が付く。
 Conclusion tag (5-15 Japanese characters, a keyword phrase — NOT a
 sentence):
 所有権証明 不要
@@ -192,8 +242,8 @@ sentence):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, confirm that no card
@@ -202,14 +252,14 @@ card headings are exactly: (1) 共通添付情報は援用で省略可／(2) 合
 証明が必要になる／(3) 法人番号で資格証明を省略可／(4) 表題登記のみなら証明
 不要／(5) 登記事項証明書の代わりは照会番号 — do not merge, omit, duplicate, or
 reword any of these five headings, and confirm every card reads as a
-short heading + illustration + short conclusion tag at a glance.
+short heading + illustration + short conclusion tag at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
 ## インフォグラフィック プロンプト（エ肢・間違いノート）
 
-肢エ「表題登記がある建物については、そもそも所有権を証する情報の提供を要しない」について、「検査済証を所有権を証する情報にできるか」という問いの立て方に引きずられ、何らかの書類が使えるはずだと考えてしまう誤りを、所有権の登記がある建物（甲建物）と表題登記のみの建物（乙建物）の対比で整理した。
+エ「表題登記がある建物については、そもそも所有権を証する情報の提供を要しない」について、「検査済証を所有権を証する情報にできるか」という問いの立て方に引きずられ、何らかの書類が使えるはずだと考えてしまう誤りを、所有権の登記がある建物（甲建物）と表題登記のみの建物（乙建物）の対比で整理した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -230,11 +280,28 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 号・録・権・地・番・建・
-物・登・記・所・誤, which have visibly different Simplified Chinese forms —
+any characters. Pay special attention to the kanji 録・権・建・物・登・記・所・誤, which have visibly different Simplified Chinese forms —
 always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -242,7 +309,7 @@ Title (large, bold, 2行):
 証明書は不要なんです
 
 Subtitle (smaller, centered, 2行):
-令和3年度 午後の部 第5問 肢エ
+令和3年度 午後の部 第5問 エ
 検査済証は関係ない
 
 --- COMPARISON (左右2パネルの対比型) ---
@@ -251,11 +318,11 @@ Left panel (green background):
 Panel label (small, top of panel):
 甲建物
 Illustration: An isometric building icon labeled「甲建物」with a green
-badge reading「所有権の登記あり」above it. A document icon labeled「所有権
-を証する情報」sits beside the building with a green checkmark ✓ and an
-arrow pointing into the building icon.
+badge reading「所有権の登記あり」above it. A document icon labeled「登記識別情報」
+sits beside the building with a green checkmark ✓ and an arrow pointing
+into the building icon. Do NOT label this document「所有権を証する情報」.
 Panel short text (below illustration, one line):
-所有権の登記がある建物には必要になる場合がある
+所有権の登記がある建物は登記識別情報を提供
 
 Right panel (blue background):
 Panel label (small, top of panel):
@@ -285,20 +352,20 @@ Small footnote text (bottom of panel, small font):
 平成5年質疑応答（合体の登記等における所有権を証する情報の要否）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 号・録・権・地・番・建・物・登・記・所・誤. Confirm every heading,
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — pay special
+attention to 録・権・建・物・登・記・所・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every heading,
 panel label, and callout text matches the Japanese text given above
 verbatim, with no paraphrasing and no substituted characters. Confirm the
 layout shows exactly two side-by-side panels (甲建物=green/left, 乙建物=
 blue/right), and confirm the ✕-marked document icon on the right panel has
-no arrow connecting it to the building, to visually show it is unused.
+no arrow connecting it to the building, to visually show it is unused. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
 ## インフォグラフィック プロンプト（オ肢・間違いノート）
 
-肢オ「登記事項証明書に代わり送信するのは『照会番号等』であって、不動産番号ではない」について、「不動産番号」という語を見て早合点しがちな誤りを、不動産登記令11条（登記事項証明書の代替＝照会番号等）と令6条（不動産番号＝申請情報の記載省略）の対比で整理した。
+オ「登記事項証明書に代わり送信するのは『照会番号等』であって、不動産番号ではない」について、「不動産番号」という語を見て早合点しがちな誤りを、不動産登記令11条（登記事項証明書の代替＝照会番号等）と令6条（不動産番号＝申請情報の記載省略）の対比で整理した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -319,11 +386,28 @@ the reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 号・録・権・地・番・建・
-物・登・記・所・誤, which have visibly different Simplified Chinese forms —
+any characters. Pay special attention to the kanji 号・地・番・登・記・所・誤, which have visibly different Simplified Chinese forms —
 always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -331,7 +415,7 @@ Title (large, bold, 2行):
 「不動産番号」ではないんです
 
 Subtitle (smaller, centered, 2行):
-令和3年度 午後の部 第5問 肢オ
+令和3年度 午後の部 第5問 オ
 令11条と令6条を混同しない
 
 --- COMPARISON (左右2パネルの対比型) ---
@@ -375,18 +459,18 @@ Small footnote text (bottom of panel, small font):
 不動産登記令11条／不動産登記令6条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese — pay special
-attention to 号・録・権・地・番・建・物・登・記・所・誤. Confirm every heading,
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — pay special
+attention to 号・地・番・登・記・所・誤. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every heading,
 panel label, and callout text matches the Japanese text given above
 verbatim, with no paraphrasing and no substituted characters. Confirm the
 layout shows exactly two side-by-side panels (不動産登記令11条=green/left,
 不動産登記令6条=blue/right), and confirm no arrow connects the two panels,
-to visually show the two provisions govern unrelated information.
+to visually show the two provisions govern unrelated information. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア〜オ5肢それぞれについて、「問題文を読んだ瞬間にどんな図を描けばよいか」「その図にたどり着くまでにどの順番で何を確認するか」を示す解き方ガイド。アは同時申請・共通添付情報・援用旨の記載という3段階の手続要件を、ウは代理人が法人であることと会社法人等番号の提供という2段階の要件を、それぞれ決定木として可視化した。イは合体前の所有者の異同という1段階の確認に絞りつつ、「単独申請でも結論は変わらない」という見落としやすい点を系統図の中に明記した。エは「検査済証が使えるか」という問いの立て方に隠れている「そもそも所有権を証する情報の提供が不要」という前提を決定木の分岐として可視化し、オは不動産登記令11条（登記事項証明書の代替）と令6条（不動産番号による記載省略）という別々の制度の対比枠として整理した。
 
@@ -424,10 +508,17 @@ to the article's own body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 号・録・権・地・番・建・
-物・登・記・所・援・証, which have visibly different Simplified Chinese
+any characters. Pay special attention to the kanji 号・権・地・番・建・物・登・記・所・援・証, which have visibly different Simplified Chinese
 forms — always draw the standard Japanese (Jōyō) form. Within this
 English prompt text, use half-width parentheses ( ) consistently — never
 open a parenthetical with a full-width （ and close it with a half-width
@@ -453,7 +544,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -478,7 +569,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 援用で提供不要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 所有者が違えば持分証明が必要になる
@@ -497,13 +588,12 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 持分証明が必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 会社法人等番号があれば資格証明は不要
-Diagram: 上から下へ2段のひし形分岐ノードを配置した決定木。ノード1「代理人は
-法人か」→いいえ側:結論ノード「会社法人等番号による代替の話ではない」(グレー
-・縮小表示)／はい側:ノード2へ。ノード2「その法人の会社法人等番号を申請情報に
+Diagram: 上から下への決定木。最上段は四角い開始ボックス「代理人は土地家屋調査士
+法人」(ひし形にしない)。その下に1段のひし形分岐ノード「その法人の会社法人等番号を申請情報に
 提供したか」→いいえ側:結論ノード「代表者の資格を証する情報を別途提供する必要
 がある」(グレー・縮小表示)／はい側:結論ノード「代表者の資格を証する情報の提供
 に代えることができる」(緑・太い縁取りで強調)。決定木の脇に、土地家屋調査士
@@ -517,13 +607,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 資格証明は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 表題登記のみの建物に検査済証は関係ない
 Diagram: 1段のひし形分岐ノードを配置した決定木。ノード「合体前の建物に所有権
-の登記があるか」→はい側(甲建物、青):結論ノード「所有権を証する情報の提供が
-必要な場面であり、要件を満たせば検査済証等を使える場合がある」／いいえ側(乙
+の登記があるか」→はい側(甲建物、青):結論ノード「所有権を証する情報ではなく、
+登記名義人の登記識別情報を提供する」／いいえ側(乙
 建物、緑・太い縁取りで強調、本肢の対象)：結論ノード「そもそも所有権を証する
 情報の提供自体が不要」。いいえ側の結論ノードの下に検査済証の書類アイコンを
 描き、乙建物アイコンへ向かう矢印は描かずに大きな赤い×印を重ね、「使う場面
@@ -536,7 +626,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 証明書提供は不要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 送信すべきは不動産番号でなく照会番号
@@ -563,9 +653,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 37条の2／平成5年の質疑応答／不動産登記令11条・6条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・援・証. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・権・地・番・建・物・登・記・所・援・証. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢

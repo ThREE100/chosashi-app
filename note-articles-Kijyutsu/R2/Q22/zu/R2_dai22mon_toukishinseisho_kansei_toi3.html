@@ -1,0 +1,61 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 70px 60px 40px; min-height: 1650px; display: flex; flex-direction: column; }
+.page.short { min-height: 1300px; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 48px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 26px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 22px; }
+.plainrow .lab { padding-top: 0; }
+.plainrow .ryaku { flex: 1; text-align: center; }
+.plainrow .printed { flex: 1; letter-spacing: 0.05em; }
+table.bldg { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.bldg td { border: 1.5px solid #111; font-size: 19px; padding: 8px 10px; vertical-align: middle; line-height: 1.5; }
+table.bldg td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }
+table.bldg td.vert.tight { letter-spacing: 0.15em; font-size: 20px; }
+table.bldg td.lab2 { text-align: center; font-size: 19px; }
+table.bldg td.head { text-align: center; font-size: 18px; height: 70px; }
+table.bldg td.val { height: 64px; }
+table.bldg td.entry { height: 170px; }
+table.bldg td.entry.big { height: 330px; }
+table.bldg td.center { text-align: center; }
+table.bldg td.head .m2 { display: block; text-align: right; padding-right: 22%; font-size: 15px; line-height: 1.2; }
+table.bldg td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.bldg td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.bldg td.genin { font-size: 17px; }
+table.bldg td .ink { font-size: 20px; }
+table.ran2 { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.ran2 td { border: 1.5px solid #111; font-size: 21px; padding: 14px 16px; height: 170px; vertical-align: middle; }
+table.ran2 td.no { text-align: center; font-size: 24px; }
+table.ran2 td .ink { font-size: 23px; }
+.circ { display: inline-block; border: 2.5px solid #1a3a8f; border-radius: 50%; width: 38px; height: 38px; line-height: 33px;
+         text-align: center; }
+.plain { display: inline-block; width: 38px; text-align: center; }
+.tnote { font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6;
+          font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.ring { border: 3px solid #d0021b; border-radius: 50%; padding: 2px 8px; }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+.caret { color: #d0021b; font-weight: bold; font-size: 26px; margin-right: 2px; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 21px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; right: 120px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; text-align: right; }
+.bubrow .bubble { text-align: left; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body><div class="page"><div class="title">登記申請書</div><div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px"><span class="ink">建物表題登記</span></div></div><div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:130px"><span class="ink">建物図面　各階平面図　所有権証明書<br>住所証明書　代理権限証書</span></div></div><div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:100px"><span class="ink">Ａ市Ｂ区Ｔ町三丁目42番地２<br>五輪松子</span></div></div><div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div><div class="plainrow"><div class="printed">令和２年10月16日　申請　Ａ地方法務局</div></div><table class="bldg"><colgroup><col style="width:5%"><col style="width:11%"><col style="width:12%"><col style="width:21%"><col style="width:14%"><col style="width:7%"><col style="width:30%"></colgroup><tr><td class="lab2 val" colspan="2">所　在</td><td class="val" colspan="5"><span class="ink">Ａ市Ｂ区Ｔ町三丁目42番地２、42番地１</span></td></tr><tr><td class="vert" rowspan="3">建物の表示</td><td class="lab2 val">家屋番号</td><td class="val" colspan="5">（記載不要）</td></tr><tr><td class="head lab2">主である<br>建物又は<br>附属建物</td><td class="head">①種　類</td><td class="head">②構　造</td><td class="head" colspan="2">③床面積<br><span class="m2">m²</span></td><td class="head">原因及びその日付</td></tr><tr><td class="entry big lab2"></td><td class="entry big center"><span class="ink">共同住宅<br>・<br>店舗</span></td><td class="entry big center"><span class="ink">鉄骨造合金メッキ<br>鋼板ぶき３階建</span></td><td class="entry big int"><span class="ink">1階　71</span><br><span class="ink">2階　71</span><br><span class="ink">3階　64</span></td><td class="entry big dec"><span class="ink">40</span><br><span class="ink">40</span><br><span class="ink">02</span></td><td class="entry big genin"><span class="ink">令和２年９月18日新築<br>令和２年10月12日増築</span></td></tr></table><div class="caption">令和2年度 土地家屋調査士試験 第22問 問3（第3欄） 登記申請書 解答例</div></div></body></html>

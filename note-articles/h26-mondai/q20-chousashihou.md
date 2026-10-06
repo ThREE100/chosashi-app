@@ -2,25 +2,29 @@
 
 **出題年度：平成26年度　午後の部　第20問**
 
-> 土地家屋調査士又は土地家屋調査士法人の業務に関する次のアからオまでの記述のうち，正しいものは，幾つあるか。
->
-> ア　土地家屋調査士は，業務を廃止したときは，遅滞なく，日本土地家屋調査士会連合会に対し，直接，その旨を届けなければならない。
->
-> イ　民間紛争解決手続代理関係業務を行うことを目的とする土地家屋調査士法人が同業務を行う場合には，当該土地家屋調査士法人の社員のうち，土地家屋調査士法第3条第2項に規定する土地家屋調査士である社員のみが当該業務を執行する権利を有する。
->
-> ウ　土地家屋調査士は，正当な事由がある場合でなければ，業務上取り扱った事件について知ることのできた秘密を他に漏らしてはならない。
->
-> エ　土地家屋調査士法人の社員でない者が自己を社員であると誤認させる行為をしたときは，当該社員でない者は，その誤認に基づいて土地家屋調査士法人と取引をした者に対し，社員と同一の責任を負う。
->
-> オ　土地家屋調査士は，その所属する土地家屋調査士会及び日本土地家屋調査士会連合会が実施する研修を受け，その資質の向上を図るように努めなければならない。
->
+> 土地家屋調査士又は土地家屋調査士法人の業務に関する次のアからオまでの記述のうち，正しいものは，幾つあるか。  
+>　  
+> ア　土地家屋調査士は，業務を廃止したときは，遅滞なく，日本土地家屋調査士会連合会に対し，直接，その旨を届けなければならない。  
+>　  
+> イ　民間紛争解決手続代理関係業務を行うことを目的とする土地家屋調査士法人が同業務を行う場合には，当該土地家屋調査士法人の社員のうち，土地家屋調査士法第3条第2項に規定する土地家屋調査士である社員のみが当該業務を執行する権利を有する。  
+>　  
+> ウ　土地家屋調査士は，正当な事由がある場合でなければ，業務上取り扱った事件について知ることのできた秘密を他に漏らしてはならない。  
+>　  
+> エ　土地家屋調査士法人の社員でない者が自己を社員であると誤認させる行為をしたときは，当該社員でない者は，その誤認に基づいて土地家屋調査士法人と取引をした者に対し，社員と同一の責任を負う。  
+>　  
+> オ　土地家屋調査士は，その所属する土地家屋調査士会及び日本土地家屋調査士会連合会が実施する研修を受け，その資質の向上を図るように努めなければならない。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
+
+---
 
 土地家屋調査士法の業務ルールに関するこの問題は、届出の経由先、民間紛争解決手続代理関係業務の権限、秘密保持義務、外観責任、研修の努力義務という5つの論点をまとめて問う個数問題です。手続の「経由先」を正確に覚えているかがポイントになります。
 
 ### ア：業務廃止の届出は、調査士会を経由して連合会に届け出る（誤り）
 
-土地家屋調査士は、業務を廃止したときは、遅滞なく、その旨を届け出なければなりませんが、これは日本土地家屋調査士会連合会に対して直接行うものではなく、所属する土地家屋調査士会を経由して連合会に届け出るという手続になります（土地家屋調査士法15条2項）。「連合会に対し、直接」とするこの記述は誤りです。
+土地家屋調査士は、業務を廃止したときは、遅滞なく、その旨を届け出なければなりませんが、これは日本土地家屋調査士会連合会に対して直接行うものではなく、所属する土地家屋調査士会を経由して連合会に届け出るという手続になります（土地家屋調査士法15条2項）。
+
+「連合会に対し、直接」とするこの記述は誤りです。
 
 **たとえば**、長年開業していた土地家屋調査士が引退して業務を廃止する場合、その届出は日本土地家屋調査士会連合会の窓口に直接持ち込むのではなく、自分が所属している地域の土地家屋調査士会を経由して提出する必要があります。
 
@@ -38,7 +42,9 @@
 
 ### エ：社員でない者が社員と誤認させた場合、社員と同一の責任を負う（正しい）
 
-土地家屋調査士法人の社員でない者が、自己を社員であると誤認させる行為をしたときは、その社員でない者は、その誤認に基づいて土地家屋調査士法人と取引をした者に対し、社員と同一の責任を負います（土地家屋調査士法35条の4）。外観を信頼して取引をした相手方を保護するための規定です。
+土地家屋調査士法人の社員でない者が、自己を社員であると誤認させる行為をしたときは、その社員でない者は、その誤認に基づいて土地家屋調査士法人と取引をした者に対し、社員と同一の責任を負います（土地家屋調査士法35条の4）。
+
+外観を信頼して取引をした相手方を保護するための規定です。
 
 **たとえば**、実際には土地家屋調査士法人の社員ではないのに、社員であるかのように振る舞って依頼者と取引をした人がいたとします。その依頼者が「社員だと思って契約した」と誤認していた場合、その人は本当の社員と同じ責任を負うことになります。
 
@@ -47,6 +53,8 @@
 土地家屋調査士は、所属する土地家屋調査士会及び日本土地家屋調査士会連合会が実施する研修を受け、その資質の向上を図るように努めなければなりません（土地家屋調査士法25条1項）。これは義務というより努力義務として規定されています。
 
 **たとえば**、土地家屋調査士として登録している以上、所属する調査士会や連合会が実施する研修に参加し、常に自分の知識や技術を高めていくよう努めることが求められています。
+
+---
 
 ### まとめ
 
@@ -67,7 +75,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（4番＝4個）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - ア（土地家屋調査士法15条2項：業務廃止の届出は調査士会経由）、イ（同法35条2項：認定調査士のみが民間紛争解決手続代理関係業務を執行できること、問題原本の参考条文にも明記）、ウ（同法24条の2：秘密保持義務）、エ（同法35条の4：社員でない者の外観責任）、オ（同法25条1項：研修の努力義務）まで、条文レベルで確認できています。
-- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。土地家屋調査士・調査士法人の業務に関する複合問題。R01第20問も土地家屋調査士の義務がテーマで、肢オ（研修を受け資質の向上に努める義務）はほぼ同一の論点（土地家屋調査士法25条1項）を問うものですが、他の4肢は完全に異なり、問題全体としては同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成26年度より後に実施された試験（データベースには平成27年度〜令和7年度が存在）で、本問と同一・類似の問題が再出題されていないかをテキスト類似度と目視確認の両方で確認しました。土地家屋調査士・調査士法人の業務に関する複合問題。R01第20問も土地家屋調査士の義務がテーマで、オ（研修を受け資質の向上に努める義務）はほぼ同一の論点（土地家屋調査士法25条1項）を問うものですが、他の4肢は完全に異なり、問題全体としては同一問題ではありません。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令チェック（2026-08-16再実施）**：土地家屋調査士法の直近の改正（令和元年改正・令和2年8月1日施行、一人法人制度の導入等）が本問の5肢（業務廃止の届出、民間紛争解決手続代理関係業務の執行権、秘密保持義務、社員でない者の外観責任、研修の努力義務）の結論に影響しないかを再確認しましたが、これらの制度自体を変更する改正は見当たりませんでした。ア・イ・ウ・エ・オすべての根拠条項（15条2項、35条2項、24条の2、35条の4、25条1項）を`note-articles/laws/chousashi-hou.md`のローカル法令データベースの条文原文と逐語で突き合わせ、いずれも一致することを再確認しました。令和7年度以降に土地家屋調査士法のさらなる改正が成立した場合は、この確認を再実施してください。
 
 ---
@@ -109,12 +117,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 経・廃・認・誤・責・資 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -187,19 +213,19 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 本問は「筆界の原則→例外」のような1本の思考の流れをたどる問題ではなく、届出の経由先・執行権限・秘密保持・外観責任・研修という5つの独立した論点を問う個数問題です。そのため、問題全体を貫く共有の決定木は使わず、肢ごとに「何を図に描き、どの順番で条件を確認すれば正誤にたどり着けるか」を個別に示す構成にした。アは経路を順に確認する配置図型、イ・ウ・エは原則と例外・複数条件の判定があるため決定木型、オは研修の実施主体を示す系統図・関係図型として構成した。
 
@@ -235,7 +261,7 @@ not include case or precedent numbers (article/regulation numbers are
 fine); keep the callout text as written below verbatim, and keep every
 condition each callout describes faithful to the article's own body text
 — do not drop or merge a required element (e.g. keep the two distinct
-conditions of 肢エ — the deceiving act and the counterparty's reliance on
+conditions of エ — the deceiving act and the counterparty's reliance on
 it — as two separate checks).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
@@ -275,7 +301,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled blue circle containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -299,7 +325,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 調査士会経由が必須
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line):
 認定調査士かどうかを社員ごとに確認する
@@ -308,7 +334,7 @@ of a 土地家屋調査士法人 whose purpose includes 民間紛争解決手続
 務, with icons for 2 of its 社員 inside. Diamond branch node, labeled
 「その社員は、土地家屋調査士法3条2項に規定する土地家屋調査士（認定調査
 士）か？」("is this 社員 a 土地家屋調査士 as defined in Article 3(2) of
-the Land and House Investigator Act — i.e. a 認定調査士?"). The ○ (yes,
+the Land and House Investigator Act — i.e. a 認定調査士？"). The ○ (yes,
 a 認定調査士) arrow leads to a green-highlighted conclusion node (with a
 certification-badge icon) reading「その社員は民間紛争解決手続代理関係業務
 を執行する権利を有する」("this 社員 has the right to perform 民間紛争解決
@@ -324,7 +350,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 認定調査士のみ執行
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line):
 正当な事由の有無をまず確認する
@@ -348,7 +374,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 正当事由なければ厳守
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line):
 誤認行為と誤認に基づく取引の両方を確認する
@@ -357,9 +383,10 @@ person who is not actually a 社員 of a 土地家屋調査士法人 (rendered i
 faded/dotted-outline style, since they never actually held that status).
 Diamond branch node 1, labeled「その者は、自己を社員であると誤認させる
 行為をしたか？」("did this person act in a way that caused others to
-mistakenly believe they were a 社員?"). The ✕ (did not) arrow leads to a
-conclusion node reading「本肢の対象外（通常の第三者としての扱い）」("outside
-the scope of this panel — treated as an ordinary third party"). From the
+mistakenly believe they were a 社員？"). The ✕ (did not) arrow leads to a
+conclusion node reading「社員と同一の責任は生じない（通常の第三者としての扱い）」
+("no liability equivalent to a 社員's arises — treated as an ordinary
+third party"). From the
 ○ (did — this panel's case) arrow, Diamond branch node 2, labeled「取引の
 相手方は、その誤認に基づいて土地家屋調査士法人と取引をしたか？」("did the
 counterparty transact with the 土地家屋調査士法人 in reliance on that
@@ -379,7 +406,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 誤認+取引で同一責任
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line):
 研修は調査士会と連合会の両方から受ける
@@ -427,7 +454,7 @@ structure), that no 肢 with a genuinely hidden second condition has been
 flattened into a single check, that each 着眼点 callout states a checking
 order rather than only a conclusion and keeps every required element from
 the source article distinct (no merged or dropped requirements, and in
-particular that 肢エ's two conditions — the deceiving act and the
+particular that エ's two conditions — the deceiving act and the
 counterparty's reliance on it — remain two separate nodes), confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and

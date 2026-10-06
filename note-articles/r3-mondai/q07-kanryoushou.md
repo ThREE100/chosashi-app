@@ -2,37 +2,49 @@
 
 **出題年度：令和3年度　午後の部　第7問**
 
-> 登記完了証に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　登記完了証に記録される申請情報には、申請人又は代理人の電話番号その他の連絡先が記録される。
->
-> イ　表示に関する登記の申請人が二人以上ある場合には、当該登記が完了した際に交付される登記完了証は、その一人に通知すれば足りる。
->
-> ウ　土地の分筆の登記により新たに共同担保目録を作成した場合には、当該登記が完了した際に交付される登記完了証には、当該共同担保目録の記号及び目録番号が記録される。
->
-> エ　建物の名称が登記されている建物の表題部の変更の登記が完了した際に通知される登記完了証には、当該名称が記録される。
->
-> オ　電子申請の方法によってされた登記の申請に基づく登記が完了した場合において、登記完了証の交付を受けるべき者が、登記完了証を電子情報処理組織を使用した送信を受けることが可能になった時から3か月を経過しても自己の使用に係る電子計算機に備えられたファイルに記録しないときは、当該登記完了証は廃棄される。
->
+> 登記完了証に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　登記完了証に記録される申請情報には、申請人又は代理人の電話番号その他の連絡先が記録される。  
+>　  
+> イ　表示に関する登記の申請人が二人以上ある場合には、当該登記が完了した際に交付される登記完了証は、その一人に通知すれば足りる。  
+>　  
+> ウ　土地の分筆の登記により新たに共同担保目録を作成した場合には、当該登記が完了した際に交付される登記完了証には、当該共同担保目録の記号及び目録番号が記録される。  
+>　  
+> エ　建物の名称が登記されている建物の表題部の変更の登記が完了した際に通知される登記完了証には、当該名称が記録される。  
+>　  
+> オ　電子申請の方法によってされた登記の申請に基づく登記が完了した場合において、登記完了証の交付を受けるべき者が、登記完了証を電子情報処理組織を使用した送信を受けることが可能になった時から3か月を経過しても自己の使用に係る電子計算機に備えられたファイルに記録しないときは、当該登記完了証は廃棄される。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
 
-登記完了証は、登記が終わったことを申請人に知らせるために交付・通知される書面です。この分野では、「何が記録されるのか（記録事項）」「複数人で申請したときは誰に通知するのか（通知方法）」「電子申請ではいつまで放置すると受け取れなくなるのか（廃棄・通知不要となる期間）」という3つの角度から、不動産登記規則181条・182条の細かい規律が問われます。
+---
+
+登記完了証は、登記が終わったことを申請人に知らせるために交付・通知される書面です。
+
+この分野では、「何が記録されるのか（記録事項）」「複数人で申請したときは誰に通知するのか（通知方法）」「電子申請ではいつまで放置すると受け取れなくなるのか（廃棄・通知不要となる期間）」という3つの角度から、不動産登記規則181条・182条の細かい規律が問われます。
 
 ### ア：登記完了証に、電話番号などの連絡先は記録されない
 
-登記完了証に記録される申請情報の内容は、不動産登記規則181条2項に列挙されています。そこに挙げられているのは登記の目的や不動産の表示といった事項であり、「申請人又は代理人の電話番号その他の連絡先」は記録事項として含まれていません。したがって、連絡先が記録されるとする本肢は誤りです。
+登記完了証に記録される申請情報の内容は、不動産登記規則181条2項に列挙されています。
 
-**たとえば**、あなたが調査士として登記を申請するとき、申請情報には連絡先の電話番号を書きます。しかし、登記が終わって返ってくる登記完了証を見ても、そこにあなたの電話番号が印字されているわけではありません。連絡先は「申請するときに必要な情報」であって、「完了を知らせる書面に載せる情報」ではない、というイメージです。
+そこに挙げられているのは登記の目的や不動産の表示といった事項であり、「申請人又は代理人の電話番号その他の連絡先」は記録事項として含まれていません。したがって、連絡先が記録されるとする本肢は誤りです。
+
+**たとえば**、あなたが調査士として登記を申請するとき、申請情報には連絡先の電話番号を書きます。しかし、登記が終わって返ってくる登記完了証を見ても、そこにあなたの電話番号が印字されているわけではありません。
+
+連絡先は「申請するときに必要な情報」であって、「完了を知らせる書面に載せる情報」ではない、というイメージです。
 
 ### イ：申請人が複数いても、そのうちの一人に通知すれば足りる
 
-申請人が二人以上いる場合、登記完了証は、その全員に通知する必要はなく、そのうちの一人（登記権利者及び登記義務者が申請人であるときは、登記権利者及び登記義務者の各一人）に通知すれば足ります（不動産登記規則181条1項後段）。表示に関する登記についても、この181条1項の通知に関する規律が適用され、全員に個別に通知しなくてよいという簡便な扱いが認められています。
+申請人が二人以上いる場合、登記完了証は、その全員に通知する必要はなく、そのうちの一人（登記権利者及び登記義務者が申請人であるときは、登記権利者及び登記義務者の各一人）に通知すれば足ります（不動産登記規則181条1項後段）。
+
+表示に関する登記についても、この181条1項の通知に関する規律が適用され、全員に個別に通知しなくてよいという簡便な扱いが認められています。
 
 **たとえば**、親子3人が共有する土地の地目変更登記を一緒に申請した場合、登記が完了したときの登記完了証は、代表して申請した一人に通知されれば足ります。3人それぞれに別々の完了証が届くわけではありません。
 
 ### ウ：新たに共同担保目録を作ったときは、その記号・目録番号が記録される
 
-土地の分筆の登記に伴って新たに共同担保目録を作成した場合には、その共同担保目録の記号及び目録番号が登記完了証に記録されます（不動産登記規則181条2項5号）。新たに目録を作成したときや、目録の記録事項を変更・更正・抹消する記号を記録したときに限って記録される仕組みです。
+土地の分筆の登記に伴って新たに共同担保目録を作成した場合には、その共同担保目録の記号及び目録番号が登記完了証に記録されます（不動産登記規則181条2項5号）。
+
+新たに目録を作成したときや、目録の記録事項を変更・更正・抹消する記号を記録したときに限って記録される仕組みです。
 
 **たとえば**、1つの土地を担保に入れていたところ、その土地を2つに分筆したとします。すると担保がまたがる不動産が増えて新しく共同担保目録が作られますが、そのときは「どの目録なのか」が分かるように、目録の記号と番号が登記完了証に記録されます。
 
@@ -40,13 +52,27 @@
 
 建物の名称が登記されている建物について表題部の変更登記が完了したときは、通知される登記完了証にその名称が記録されます（不動産登記規則181条2項4号、不動産登記法44条1項4号）。建物の名称は表題部の登記事項の一つであり、完了証にも反映されます。
 
-**たとえば**、「〇〇マンション」といった名称が登記されている建物について床面積の変更などの表題部変更登記をした場合、登記完了証にもその「〇〇マンション」という名称が記録されます。名称のある建物は、完了証を見てもどの建物のことか分かるようになっているわけです。
+**たとえば**、「〇〇マンション」といった名称が登記されている建物について床面積の変更などの表題部変更登記をした場合、登記完了証にもその「〇〇マンション」という名称が記録されます。
+
+名称のある建物は、完了証を見てもどの建物のことか分かるようになっているわけです。
 
 ### オ：電子申請の通知不要期間は「30日」（書面申請の「3か月」と混同しない）
 
-登記完了証の交付を受けるべき者が、通知を受けることが可能になった時から一定期間が経過してもファイルへの記録・受領をしないときは、登記官は登記が完了した旨の通知をすることを要しないとされています（不動産登記規則182条の2第1項）。この期間は通知の方法によって異なり、電子情報処理組織を使用した送信の方法による場合は、送信を受けることが可能になった時から「30日」（同項1号）、書面の送付・交付による方法による場合は、登記完了の時から「3か月」（同項2号）です。本肢は電子申請の場面を扱っているにもかかわらず、書面申請の場合の期間である「3か月」を当てはめており、この点で誤りです。また、期間経過の効果も「登記完了証が廃棄される」と断定していますが、条文上は「通知をすることを要しない」と定めるにとどまり、廃棄はその結果として可能になる任意の扱いにすぎません。
+登記完了証の交付を受けるべき者が、通知を受けることが可能になった時から一定期間が経過してもファイルへの記録・受領をしないときは、登記官は登記が完了した旨の通知をすることを要しないとされています（不動産登記規則182条の2第1項）。
 
-**たとえば**、オンライン申請で登記が終わり、いつでも登記完了証をダウンロードできる状態になったとします。これを長期間放置していると、ある時点から先は登記所側が「もう完了通知はしなくてよい」扱いになりますが、その区切りは電子申請の場合は30日です。3か月という数字自体は、書面で登記完了証を送付・交付する場合の区切りとして条文に存在するため、まったくの誤りというわけではありませんが、電子申請の場面に当てはめると誤りになる、という点を押さえておきましょう。
+この期間は通知の方法によって異なり、電子情報処理組織を使用した送信の方法による場合は、送信を受けることが可能になった時から「30日」（同項1号）、書面の送付・交付による方法による場合は、登記完了の時から「3か月」（同項2号）です。
+
+本肢は電子申請の場面を扱っているにもかかわらず、書面申請の場合の期間である「3か月」を当てはめており、この点で誤りです。
+
+また、期間経過の効果も「登記完了証が廃棄される」と断定していますが、条文上は「通知をすることを要しない」と定めるにとどまり、廃棄はその結果として可能になる任意の扱いにすぎません。
+
+**たとえば**、オンライン申請で登記が終わり、いつでも登記完了証をダウンロードできる状態になったとします。
+
+これを長期間放置していると、ある時点から先は登記所側が「もう完了通知はしなくてよい」扱いになりますが、その区切りは電子申請の場合は30日です。
+
+3か月という数字自体は、書面で登記完了証を送付・交付する場合の区切りとして条文に存在するため、まったくの誤りというわけではありませんが、電子申請の場面に当てはめると誤りになる、という点を押さえておきましょう。
+
+---
 
 ### まとめ
 
@@ -67,7 +93,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出典（令和3年度・午後の部・第7問）と正解番号（2番＝ア・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.jsonのexplanation、kaisetsu_plus.jsonのapproach／pitfalls／keyPoints）で確認済みです。
 - 条文レベルで確認できた根拠：ア・イ・ウ・エのいずれも、note-articles/laws/fudousan-touki-kisoku-2.mdの条文原文（第百八十一条・第百八十二条・第百八十二条の二）を直接確認して照合しました。ア（登記完了証の記録事項を定める規則181条2項各号に連絡先が含まれないこと）、ウ（規則181条2項5号）、エ（規則181条2項4号、不動産登記法44条1項4号）は当初の記載どおりで正確でした。イについては当初「規則182条」としていましたが、条文原文を確認したところ、182条は登記完了証の「交付の方法」（電子申請か書面申請かの区分）を定める規定であり、「申請人が二人以上あるときは、その一人に通知すれば足りる」という規律は181条1項後段に置かれていることが判明したため、本記事では181条1項後段に修正しました。
-- 肢オの根拠は、note-articles/laws/fudousan-touki-kisoku-2.mdの第百八十二条の二第1項の条文原文で確認しました。同項は、電子情報処理組織を使用した送信の方法による場合（同項1号）は送信可能時から「三十日」を、送付・交付による場合（同項2号）は登記完了時から「三月」を経過してもファイルへの記録・受領がないときに、登記官が完了通知を要しない旨を定めています。本問の肢オは「電子申請」の場面を「3か月」で説明しており、電子申請（送信方式）に対応する正しい期間は30日であるため、期間を取り違えている点で誤りです。また効果も、同項は「通知をすることを要しない（登記完了証を廃棄することができる、という任意の扱い）」であり、肢オのように「廃棄される」と断定する書きぶりとも異なります。データベースのpitfalls欄にあった「3か月・規則182条3項でオは正しい」という記述は、送付・交付方式の期間を電子申請の場面に誤って当てはめたものと考えられ、正解（アオ＝オが誤り）とも整合しません。本記事の記載（30日・規則182条の2第1項）は妥当と確認できました。
+- オの根拠は、note-articles/laws/fudousan-touki-kisoku-2.mdの第百八十二条の二第1項の条文原文で確認しました。同項は、電子情報処理組織を使用した送信の方法による場合（同項1号）は送信可能時から「三十日」を、送付・交付による場合（同項2号）は登記完了時から「三月」を経過してもファイルへの記録・受領がないときに、登記官が完了通知を要しない旨を定めています。本問のオは「電子申請」の場面を「3か月」で説明しており、電子申請（送信方式）に対応する正しい期間は30日であるため、期間を取り違えている点で誤りです。また効果も、同項は「通知をすることを要しない（登記完了証を廃棄することができる、という任意の扱い）」であり、オのように「廃棄される」と断定する書きぶりとも異なります。データベースのpitfalls欄にあった「3か月・規則182条3項でオは正しい」という記述は、送付・交付方式の期間を電子申請の場面に誤って当てはめたものと考えられ、正解（アオ＝オが誤り）とも整合しません。本記事の記載（30日・規則182条の2第1項）は妥当と確認できました。
 - アガルート等のローカル教材PDFは本環境に存在せず、参照していません。本記事は上記の検証済みデータベースと一般的な条文知識のみに基づいて作成しています。
 
 ---
@@ -108,13 +134,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Pay special
-attention to 号・録・権・地・番・建・物・登・記・所, which have simplified
+attention to 号・録・地・番・建・物・登・記, which have simplified
 Chinese look-alikes with different stroke forms — do not substitute the
 simplified form for any of these. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -184,23 +228,23 @@ blue, 5-15 Japanese characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially for
-号・録・権・地・番・建・物・登・記・所. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the number of cards equals 5 exactly, with no duplicated or
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially for
+号・録・地・番・建・物・登・記. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose or states the original wrong
 description（電話番号が記録される／3か月で廃棄される、など）as if it were
 correct — every card's takeaway must read as a short heading + a short
-conclusion tag, at a glance.
+conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-登記完了証の5肢について、「問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるか」を示す作図ガイド。肢アは「連絡先も記録されると思い込みがちだが実は違う」という誤りやすい思い込みを対比枠で正す正誤対比型、肢イは申請人の中に登記権利者側・登記義務者側の両方が含まれるか（共同申請か）という隠れた条件を2段階の決定木で示す型、肢ウ・肢エは単一チェックの手順を番号付きで示す配置図型・系統図型、肢オは電子申請（送信方式・30日）と書面申請（送付・交付方式・3か月）のどちらの場面かを見分ける決定木型にした。②のカードポスターとは別物であり、②の内容は変更していない。
+登記完了証の5肢について、「問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるか」を示す作図ガイド。アは「連絡先も記録されると思い込みがちだが実は違う」という誤りやすい思い込みを対比枠で正す正誤対比型、イは申請人の中に登記権利者側・登記義務者側の両方が含まれるか（共同申請か）という隠れた条件を2段階の決定木で示す型、ウ・エは単一チェックの手順を番号付きで示す配置図型・系統図型、オは電子申請（送信方式・30日）と書面申請（送付・交付方式・3か月）のどちらの場面かを見分ける決定木型にした。②のカードポスターとは別物であり、②の内容は変更していない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -249,7 +293,15 @@ checks if the source article treats them as two distinct requirements).
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -275,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in red-orange containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -296,14 +348,13 @@ Conclusion tag (a short colored banner/pill, red-orange, 5-15 Japanese
 characters):
 連絡先は記録事項外
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 同じ立場の複数申請人は一人への通知で足りる
-Diagram: 決定木（フローチャート）。ひし形の分岐ノード①「申請人は二人以上
-いるか」を最上部に置き、土地を共有する複数人のアイソメトリック図を添える。
-「いいえ」矢印（薄いグレー）は結論ノード「その1人に通知（通常のケース）」
-へ進む。「はい」矢印（太い強調枠）は次のひし形の分岐ノード②「申請人の中に
+Diagram: 決定木（フローチャート）。四角い開始ボックス「申請人が二人以上いる」（ひし形にしない）を最上部に置き、
+土地を共有する複数人のアイソメトリック図を添える。開始ボックスから太い矢印で
+ひし形の分岐ノード②「申請人の中に
 登記権利者側と登記義務者側の両方が含まれるか（共同申請か）」へ進む。ノード
 ②の「はい」矢印（薄いグレー）は結論ノード「登記権利者側・登記義務者側から
 各一人（計2名）に通知」へ進む。ノード②の「いいえ」矢印（太い強調枠、この
@@ -318,7 +369,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 同じ立場なら一人で足りる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 共同担保目録を新設したら記号と番号を記録
@@ -338,7 +389,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 記号・目録番号を記録
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 名称登記のある建物は完了証にも名称を記録
@@ -355,7 +406,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 名称も記録される
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in red-orange containing the number 5.
 Heading (bold, ONE line):
 電子申請の放置期限は30日、書面は3か月
@@ -382,9 +433,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 不動産登記規則181条1項・2項、182条の2第1項1号・2号、不動産登記法44条1項4号
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・録・権・地・番・建・物・登・記. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that every multi-condition 肢 is

@@ -2,43 +2,53 @@
 
 **出題年度：平成22年度　午後の部　第14問**
 
-> 建物の表示に関する登記の申請をする場合に提供する添付情報に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。
->
-> ア　いずれも所有権の登記がある建物について合併の登記の申請をするときは、合併に係る建物のうちいずれか1個の建物の所有権の登記名義人の登記識別情報を提供すれば足りる。
->
-> イ　区分建物の表題登記の申請をする場合において、敷地権の目的である土地に当該建物を管轄する登記所の管轄区域外にあるものがあるときは、当該土地の不動産番号を提供すれば、当該土地の登記事項証明書を提供する必要はない。
->
-> ウ　建物の表題登記の申請をするときは、当該建物の所有者についての住民基本台帳法第7条第13号に規定する住民票コードを提供すれば、当該所有者の住所証明情報を提供する必要はない。
->
-> エ　建物の合併の登記の申請をする場合において、合併前の双方の建物の各階平面図が登記所に備え付けられているときは、合併後の建物図面のみを提供すれば足り、合併後の各階平面図を提供する必要はない。
->
-> オ　二階建ての建物の二階部分を増築したことによる建物の表題部の変更の登記を申請する場合に提供する各階平面図は、二階部分のみの各階平面図で足りる。
->
+> 建物の表示に関する登記の申請をする場合に提供する添付情報に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。  
+>　  
+> ア　いずれも所有権の登記がある建物について合併の登記の申請をするときは、合併に係る建物のうちいずれか1個の建物の所有権の登記名義人の登記識別情報を提供すれば足りる。  
+>　  
+> イ　区分建物の表題登記の申請をする場合において、敷地権の目的である土地に当該建物を管轄する登記所の管轄区域外にあるものがあるときは、当該土地の不動産番号を提供すれば、当該土地の登記事項証明書を提供する必要はない。  
+>　  
+> ウ　建物の表題登記の申請をするときは、当該建物の所有者についての住民基本台帳法第7条第13号に規定する住民票コードを提供すれば、当該所有者の住所証明情報を提供する必要はない。  
+>　  
+> エ　建物の合併の登記の申請をする場合において、合併前の双方の建物の各階平面図が登記所に備え付けられているときは、合併後の建物図面のみを提供すれば足り、合併後の各階平面図を提供する必要はない。  
+>　  
+> オ　二階建ての建物の二階部分を増築したことによる建物の表題部の変更の登記を申請する場合に提供する各階平面図は、二階部分のみの各階平面図で足りる。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
+
+---
 
 建物の表示に関する登記で、「どんな添付情報を、どこまで省略できるか」を問う問題です。「合併では識別情報は1個でよい」「住民票コードで住所証明は省略できる」という省略のルールと、「図面は全体を提供する」という原則を切り分けて押さえましょう。
 
 ### ア：合併の登記では、いずれか1個の建物の登記識別情報で足りる
 
-いずれも所有権の登記がある建物について合併の登記を申請するときは、合併に係る建物のうち、いずれか1個の建物の所有権の登記名義人の登記識別情報を提供すれば足ります（不動産登記令8条2項）。合筆の登記と同じく、まとめる登記では識別情報の提供が緩和されます。この記述は正しいものです。
+いずれも所有権の登記がある建物について合併の登記を申請するときは、合併に係る建物のうち、いずれか1個の建物の所有権の登記名義人の登記識別情報を提供すれば足ります（不動産登記令8条2項）。
+
+合筆の登記と同じく、まとめる登記では識別情報の提供が緩和されます。この記述は正しいものです。
 
 **たとえば**、同じ人が持っている二つの建物をくっつけて一つにする合併では、両方の識別情報をそろえなくても、どちらか一方の識別情報を出せば手続を進められます。
 
 ### イ：管轄区域外の敷地の土地は、不動産番号だけでは登記事項証明書を省略できない
 
-区分建物の表題登記の申請で、敷地権の目的である土地に、その建物を管轄する登記所の管轄区域外にあるものがあるときは、その土地の登記事項証明書を提供する必要があり、これは不動産番号を提供したからといって省略できるものではありません。「不動産番号を提供すれば登記事項証明書を提供する必要はない」とする点は誤りです。
+区分建物の表題登記の申請で、敷地権の目的である土地に、その建物を管轄する登記所の管轄区域外にあるものがあるときは、その土地の登記事項証明書を提供する必要があり、これは不動産番号を提供したからといって省略できるものではありません。
+
+「不動産番号を提供すれば登記事項証明書を提供する必要はない」とする点は誤りです。
 
 **たとえば**、マンションの敷地の一部が、建物を管轄する登記所とは別の登記所の管轄内にある場合、その土地の状況は不動産番号を書くだけでは確認できないため、その土地の登記事項証明書をきちんと添付する必要があります。
 
 ### ウ：住民票コードを提供すれば、住所証明情報を省略できる
 
-建物の表題登記の申請をするときは、その所有者についての住民票コード（住民基本台帳法7条13号）を提供すれば、住所証明情報を別途提供する必要はありません（不動産登記令9条・不動産登記規則）。住民票コードによって住所が確認できるからです。この記述は正しいものです。
+建物の表題登記の申請をするときは、その所有者についての住民票コード（住民基本台帳法7条13号）を提供すれば、住所証明情報を別途提供する必要はありません（不動産登記令9条・不動産登記規則）。
+
+住民票コードによって住所が確認できるからです。この記述は正しいものです。
 
 **たとえば**、新築した建物の表題登記をするとき、所有者の住民票コードを申請情報に記載しておけば、住民票の写しなどの住所証明書類をわざわざ添付しなくても済みます。
 
 ### エ：合併の登記でも、合併後の各階平面図は提供が必要
 
-建物の合併の登記の申請をする場合、合併前の双方の建物の各階平面図が登記所に備え付けられていても、合併後の建物についての建物図面と各階平面図の両方を提供する必要があります。「建物図面のみを提供すれば足り、各階平面図を提供する必要はない」とする点は誤りです。
+建物の合併の登記の申請をする場合、合併前の双方の建物の各階平面図が登記所に備え付けられていても、合併後の建物についての建物図面と各階平面図の両方を提供する必要があります。
+
+「建物図面のみを提供すれば足り、各階平面図を提供する必要はない」とする点は誤りです。
 
 **たとえば**、二つの建物をくっつけて一つにしたら、「くっついた後の建物」がどんな形・各階の様子なのかを示す図面が新たに必要で、建物図面だけで各階平面図を省くことはできません。
 
@@ -47,6 +57,8 @@
 二階建ての建物の二階部分を増築したことによる表題部の変更の登記を申請する場合には、増築した二階部分のみの各階平面図では足りず、変更後の建物全体の各階平面図を提供する必要があります。「二階部分のみの各階平面図で足りる」とする点は誤りです。
 
 **たとえば**、二階を増築したときは、「増築した二階だけ」ではなく、一階も含めた建物全体の各階の様子を示す各階平面図を出す必要があります。
+
+---
 
 ### まとめ
 
@@ -69,7 +81,7 @@
 - 各肢の根拠のうち、ア（合併の登記でいずれか1個の登記識別情報で足りること）は不動産登記令8条2項、ウ（住民票コードによる住所証明情報の省略）は不動産登記令9条・不動産登記規則から確認できるものです。エ・オ（図面は全体の各階平面図が必要）は、建物の表示に関する登記の図面の添付に関する一般原則から確認できるものです。
 - イ（管轄区域外の敷地の土地の登記事項証明書を不動産番号で省略できるか）については、正しいものが2個という公式の正解と、ア・ウが正しくエ・オが誤りであることから、誤りと確定できます。ただし、その条文上の根拠までは個別に照合しきれていないため、各自でも確認することをおすすめします。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解と公式正解との整合を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
-- **2026年時点の制度変更について（現行法チェック、2026-08-04実施）**：肢ウが定める「住民票コードを提供すれば住所証明情報を省略できる」というルール自体は2026年現在も変わっていません。ただし、2016年のマイナンバー制度導入以降、この「住民票コード」（住民基本台帳法7条13号、11桁）と「個人番号・マイナンバー」（12桁）を混同しやすくなっています。住所証明情報の省略に使えるのはあくまで住民票コードであり、マイナンバーそのものを提供しても住所証明情報の省略はできません。実務・学習の両面で取り違えないよう注意してください。
+- **2026年時点の制度変更について（現行法チェック、2026-08-04実施）**：ウが定める「住民票コードを提供すれば住所証明情報を省略できる」というルール自体は2026年現在も変わっていません。ただし、2016年のマイナンバー制度導入以降、この「住民票コード」（住民基本台帳法7条13号、11桁）と「個人番号・マイナンバー」（12桁）を混同しやすくなっています。住所証明情報の省略に使えるのはあくまで住民票コードであり、マイナンバーそのものを提供しても住所証明情報の省略はできません。実務・学習の両面で取り違えないよう注意してください。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（建物の表示に関する登記の添付情報）と同一の問題が再出題されていないかを確認しました。平成25年度第14問「建物の表示に関する登記の申請における添付情報」がほぼ同一テーマですが、問題文＋肢全体の類似度は0.27程度で、扱う個別の論点（登記識別情報の提供範囲、住民票コード、各階平面図の要否など）の組合せは本問と異なります。**問題全体としての重複は見つかりませんでした**。建物の表示に関する登記の添付情報は頻出テーマである点に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -109,10 +121,28 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 
 --- HEADER ---
@@ -201,25 +231,23 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 
 --- FOOTER ---
 
-Small credit text in the corner (optional, keep minimal).
-
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-5肢すべてが「この添付情報について、省略を認める特則があるか」という同じ判定木を共有する構成。肢ア・ウは特則があり省略できる枝を強調し、肢イ・エ・オは特則がなく原則どおり提供が必要な枝を強調する。
+5肢すべてが「この添付情報について、省略を認める特則があるか」という同じ判定木を共有する構成。ア・ウは特則があり省略できる枝を強調し、イ・エ・オは特則がなく原則どおり提供が必要な枝を強調する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -299,7 +327,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in soft blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -313,7 +341,7 @@ with only ONE 登記識別情報カード being handed over instead of two, and 
 final conclusion node reading「いずれか1個の登記識別情報で足りる」. Render
 a faded「はい（全部必要）」stub off to the side of the second diamond, and
 render the root's「いいえ（特則なし・原則どおり）」branch as a faded, dotted
-stub off to the side, labelled「（今回は関係ない）」.
+stub off to the side.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この添付情報に省略を認める特則があるかを確認します。合併の登記では、
 合併に係る建物のうちいずれか1個の建物の登記識別情報を提供すれば足りるため、
@@ -322,7 +350,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 識別情報は1個でOK
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in soft green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -334,8 +362,7 @@ positioned outside the registry office's jurisdiction boundary line, with
 an 不動産番号 tag alone shown crossed with a large ✕, and a 登記事項証明書
 document icon needed instead with a checkmark, ending in a final
 conclusion node reading「登記事項証明書の提供が必要」. Render the root's
-「はい（特則あり）」branch as a faded, dotted stub off to the side,
-labelled「（今回は関係ない）」.
+「はい（特則あり）」branch as a faded, dotted stub off to the side.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この添付情報に省略を認める特則があるかを確認します。管轄区域外に
 ある敷地権の目的である土地については、不動産番号を提供しても登記事項
@@ -345,7 +372,7 @@ Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
 証明書の提供も必要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in soft beige containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -368,7 +395,7 @@ Conclusion tag (a short colored banner/pill, soft beige, 5-15 Japanese
 characters):
 住所証明情報は省略可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in soft blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -390,7 +417,7 @@ Conclusion tag (a short colored banner/pill, soft blue, 5-15 Japanese
 characters):
 各階平面図も必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -414,8 +441,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記令8条2項（ア）、不動産登記令9条・不動産登記規則（ウ）。
-イ・エ・オは建物の表示に関する登記の添付情報に関する一般原則による。判例・
-先例番号は省略。
+イ・エ・オは建物の表示に関する登記の添付情報に関する一般原則による。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第12問**
 
-> 建物の種類に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　区分建物である建物の登記記録の表題部のうち、一棟の建物の表題部には、当該一棟の建物の種類が記録される。
->
-> イ　登記官は、表題登記のある建物について共用部分である旨の登記をするときは、当該建物の種類に関する登記事項を抹消する記号を記録しなければならない。
->
-> ウ　区分建物でない5階建ての1個の建物について、1階は食品の販売店、2階と3階は衣類の販売店、4階はゲームセンター、5階は映画館として利用されている場合には、当該建物の種類は「多目的ビル」と定めることができる。
->
-> エ　学校教育法の適用されない学習塾として利用されている建物の種類は、「教習所」と定めることができる。
->
-> オ　各種油類の販売及び給油の目的の用に供するために建築されたガソリンスタンドの建物の種類は、「給油所」と定めることができる。
->
+> 建物の種類に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　区分建物である建物の登記記録の表題部のうち、一棟の建物の表題部には、当該一棟の建物の種類が記録される。  
+>　  
+> イ　登記官は、表題登記のある建物について共用部分である旨の登記をするときは、当該建物の種類に関する登記事項を抹消する記号を記録しなければならない。  
+>　  
+> ウ　区分建物でない5階建ての1個の建物について、1階は食品の販売店、2階と3階は衣類の販売店、4階はゲームセンター、5階は映画館として利用されている場合には、当該建物の種類は「多目的ビル」と定めることができる。  
+>　  
+> エ　学校教育法の適用されない学習塾として利用されている建物の種類は、「教習所」と定めることができる。  
+>　  
+> オ　各種油類の販売及び給油の目的の用に供するために建築されたガソリンスタンドの建物の種類は、「給油所」と定めることができる。  
+>　  
 > 1　アウ　　2　アオ　　3　イウ　　4　イエ　　5　エオ
 
 ---
@@ -22,25 +22,39 @@
 
 ### ア：区分建物の「種類」は、一棟の建物ではなく専有部分ごとに記録される
 
-マンションのような区分建物では、一棟の建物全体を示す表題部と、各部屋（専有部分）ごとの表題部という2段階で登記記録が作られます。「建物の種類」は各専有部分の実際の用途（居宅・店舗など）を示すものであり、一棟の建物の中に用途の異なる部屋が混在しうる以上、一棟全体の表題部に「種類」という項目は記録されません。不動産登記法44条1項は、区分建物である場合の一棟の建物の表題部に記録すべき事項として、7号の構造及び床面積、8号の名称のみを掲げており、「種類」（同項3号）は各専有部分の表題部に記録される事項です。
+マンションのような区分建物では、一棟の建物全体を示す表題部と、各部屋（専有部分）ごとの表題部という2段階で登記記録が作られます。
+
+「建物の種類」は各専有部分の実際の用途（居宅・店舗など）を示すものであり、一棟の建物の中に用途の異なる部屋が混在しうる以上、一棟全体の表題部に「種類」という項目は記録されません。
+
+不動産登記法44条1項は、区分建物である場合の一棟の建物の表題部に記録すべき事項として、7号の構造及び床面積、8号の名称のみを掲げており、「種類」（同項3号）は各専有部分の表題部に記録される事項です。
 
 **たとえば**、1階が店舗、2階から上が住居になっているマンションでは、建物全体をひとまとめにして「種類」を決めることはできません。「種類」は、1階の部屋なら「店舗」、5階の部屋なら「居宅」というように、それぞれの専有部分ごとに個別に記録されます。
 
 ### イ：共用部分の登記で職権抹消されるのは「種類」ではなく「所有者・権利の登記」
 
-建物を共用部分とする旨の登記をするときに、登記官が職権で抹消するのは、当該建物についての表題部所有者の登記又は権利に関する登記であり、「種類」に関する登記事項ではありません。共用部分は独立した所有権の対象ではなくなるため、所有者や権利の登記を抹消する必要がありますが、建物自体の物理的な性質を示す「種類」の情報が消されるわけではありません。不動産登記法58条4項は「登記官は、共用部分である旨の登記…をするときは、職権で、当該建物について表題部所有者の登記又は権利に関する登記を抹消しなければならない。」と定めており、抹消の対象が種類の登記事項ではないことを裏付けています。
+建物を共用部分とする旨の登記をするときに、登記官が職権で抹消するのは、当該建物についての表題部所有者の登記又は権利に関する登記であり、「種類」に関する登記事項ではありません。
+
+共用部分は独立した所有権の対象ではなくなるため、所有者や権利の登記を抹消する必要がありますが、建物自体の物理的な性質を示す「種類」の情報が消されるわけではありません。
+
+不動産登記法58条4項は「登記官は、共用部分である旨の登記…をするときは、職権で、当該建物について表題部所有者の登記又は権利に関する登記を抹消しなければならない。」と定めており、抹消の対象が種類の登記事項ではないことを裏付けています。
 
 **たとえば**、マンションの管理人室を「共用部分」として登記し直すとき、法務局が消すのは「この部屋は誰それの所有物である」という所有者情報や、抵当権などの権利関係であって、「事務所」「管理人室」といった建物の種類の記載自体を消すわけではありません。
 
 ### ウ：用途が複数にわたる建物でも、「多目的ビル」という種類は使えない
 
-建物の種類は、居宅・店舗・事務所・共同住宅・遊技場など、あらかじめ定められた用語の中から実際の利用状況に応じて選ぶものとされています。1つの建物が複数の用途に使われている場合には、それぞれの用途を組み合わせて表記する（例：「店舗・事務所」）必要があり、「多目的ビル」のような包括的・抽象的な表現を種類として用いることはできません。
+建物の種類は、居宅・店舗・事務所・共同住宅・遊技場など、あらかじめ定められた用語の中から実際の利用状況に応じて選ぶものとされています。
+
+1つの建物が複数の用途に使われている場合には、それぞれの用途を組み合わせて表記する（例：「店舗・事務所」）必要があり、「多目的ビル」のような包括的・抽象的な表現を種類として用いることはできません。
 
 **たとえば**、1階が食品売り場、2〜3階が衣料品売り場、4階がゲームセンター、5階が映画館になっているビルであれば、その建物の種類は「店舗・遊技場・映画館」のように実際の用途を並べて記録する必要があり、「多目的ビル」とひとことでまとめることはできません。
 
 ### エ：学校教育法の適用外の学習塾は、「教習所」として登記できる
 
-学校教育法の適用を受けない教育・訓練施設（学習塾など）として利用されている建物の種類は、「教習所」と定めることができます。不動産登記規則113条・不動産登記事務取扱準則80条に列挙された37種類のいずれにも該当しない建物については、不動産登記事務取扱準則80条1項後段により建物の用途に応じて適当に定めるものとされており、「教習所」はこの残余規定に基づく実務上の名称です。そろばん塾、音楽教室、華道教室、自動車教習所なども同じ扱いになります。
+学校教育法の適用を受けない教育・訓練施設（学習塾など）として利用されている建物の種類は、「教習所」と定めることができます。
+
+不動産登記規則113条・不動産登記事務取扱準則80条に列挙された37種類のいずれにも該当しない建物については、不動産登記事務取扱準則80条1項後段により建物の用途に応じて適当に定めるものとされており、「教習所」はこの残余規定に基づく実務上の名称です。
+
+そろばん塾、音楽教室、華道教室、自動車教習所なども同じ扱いになります。
 
 **たとえば**、正式な学校ではない民間の学習塾として使われている建物であれば、その建物の種類を「教習所」として登記することができます。
 
@@ -49,6 +63,8 @@
 各種油類の販売及び給油の目的のために建築されたガソリンスタンドの建物の種類は、「給油所」と定めることができます（不動産登記事務取扱準則80条に列挙された種類の一つ）。
 
 **たとえば**、道路沿いによくあるガソリンスタンドの建物を新築して表題登記をする場合、その建物の種類は「給油所」として登記します。
+
+---
 
 ### まとめ
 
@@ -108,13 +124,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 種・類・録・権・建・物・登・記・所・場・給・実・題 — these must be
+kanji 種・類・録・権・建・物・登・記・所・場・給・題 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -190,9 +224,9 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 種, 類, 録, 権, 建, 物, 登, 記, 所, 場, 給, 実, 題. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 種, 類, 録, 権, 建, 物, 登, 記, 所, 場, 給, 題. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the number of cards equals 5
 exactly (2 cards under column A, 3 cards under column B), with no
 duplicated or missing cards, that badge numbers run 1-5 continuously
@@ -202,14 +236,14 @@ terms, in this order, no more and no fewer — confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、「一棟の表題部か専有部分の表題部か」「職権抹消の対象は何か」「列挙された種類に該当するか」を見抜けるようにする5パネル構成。エ・オは「規則113条・準則80条の列挙（37種類）に該当するか」という同じチェックリストを共有し、該当する場合としない場合の分岐先を対比する。②の色分け（どこに記録されるか＝緑、何と表記できるか＝青）を引き継いでいる。
+問題文を読んだ瞬間に、「一棟の表題部か専有部分の表題部か」「職権抹消の対象は何か」「列挙された種類に該当するか」を見抜けるようにする5パネル構成。エ・オは「規則113条・準則80条の列挙に該当するか」という同じチェックリストを共有し、該当する場合としない場合の分岐先を対比する。②の色分け（どこに記録されるか＝緑、何と表記できるか＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -233,10 +267,10 @@ decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No（はい／いいえ）branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panel 3
-（肢ウ）uses a 正誤対比型（left/right contrast frame）instead of a
+（ウ）uses a 正誤対比型（left/right contrast frame）instead of a
 flowchart, contrasting the correct listed-uses label against the
-rejected「多目的ビル」label. Panels 4 and 5（肢エ・肢オ）share the same
-checklist card titled「規則113条・準則80条の列挙（37種類）」; Panel 4
+rejected「多目的ビル」label. Panels 4 and 5（エ・オ）share the same
+checklist card titled「規則113条・準則80条の列挙」; Panel 4
 highlights that 学習塾 is NOT on the list（faded ✕）and routes to a
 residual-clause box, while Panel 5 highlights that 給油所 IS on the list
 （thick highlighted border, green checkmark）and routes directly to a
@@ -249,7 +283,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -275,7 +317,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 種類は専有部分ごとに記録される
@@ -293,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 一棟には記録なし
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 職権抹消の対象は所有者・権利の登記
@@ -309,11 +351,11 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 種類は消えない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 複数用途なら実際の用途を列記する
-Diagram: A 正誤対比型（left/right contrast frame, NOT a flowchart)。An
+Diagram: A 正誤対比型(left/right contrast frame, NOT a flowchart)。An
 isometric 5-story building shows each floor's actual use with a small
 icon（1F食品売り場・2〜3F衣料品売り場・4Fゲームセンター・5F映画館）.
 Below it, LEFT box（highlighted, green checkmark）reads「店舗・遊技場・
@@ -327,12 +369,12 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 用途を列記する
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 列挙にない用途は残余規定で定める
 Diagram: A checklist card shared with Panel 5, titled「規則113条・準則
-80条の列挙（37種類）」, listing example items with green checkmarks
+80条の列挙」, listing example items with green checkmarks
 （居宅・店舗・給油所等）. Below the list, a separate box shows「学習塾」
 with a red ✕（faded、列挙にない）, connected by an arrow to a
 residual-clause box labeled「準則80条1項後段の残余規定→教習所」.
@@ -345,14 +387,14 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 残余規定で認められる
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 列挙にある用途はそのまま使える
 Diagram: The same checklist card as Panel 4, titled「規則113条・準則80条
-の列挙（37種類）」, but this time「給油所」itself is highlighted within
+の列挙」, but this time「給油所」itself is highlighted within
 the list with a thick colored border and a large green checkmark, showing
-it IS one of the enumerated 37 types, with an arrow leading directly to a
+it IS one of the enumerated types, with an arrow leading directly to a
 conclusion node（residual-clause box is faded／not needed）.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この建物の用途が、あらかじめ列挙された種類のいずれかに該当するか
@@ -368,10 +410,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 準則80条に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 種, 類, 録, 権, 建, 物, 登, 記, 所, 場, 給, 準, 則, 抹, 消 and
-any character that has a visually similar Simplified Chinese variant. If
-any character renders as a Simplified Chinese variant, redraw that
+any character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

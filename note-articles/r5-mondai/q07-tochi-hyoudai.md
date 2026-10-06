@@ -2,51 +2,77 @@
 
 **出題年度：令和5年度　午後の部　第7問**
 
-> 土地の表題登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　公有水面埋立法に基づく埋立工事が竣工した土地の表題登記を申請する場合には、所有権を証する情報として公有水面埋立法の規定による竣功認可書を提供することができる。
->
-> イ　国が所有する表題登記がない土地の売払いを受けた者が、当該土地の表題登記を申請する場合には、当該表題登記の登記原因を「国有財産売払」として申請しなければならない。
->
-> ウ　Ａが表題登記がない土地の所有権を原始取得した場合において、Ａが当該土地の表題登記を申請する前に、当該土地をＢに売却したときであっても、Ａは、当該土地の表題登記を申請することができる。
->
-> エ　土地区画整理事業区域内で仮換地が指定された表題登記がない従前の土地について換地処分による登記を申請する場合において、必要があるときは、土地区画整理事業を施行する者は、当該従前の土地の所有者に代位して、土地の表題登記を申請することができる。
->
-> オ　地方公共団体の所有する土地について、当該地方公共団体が土地の表題登記を嘱託する場合には、所有権を証する情報の提供を省略することができる。
->
+> 土地の表題登記に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　公有水面埋立法に基づく埋立工事が竣工した土地の表題登記を申請する場合には、所有権を証する情報として公有水面埋立法の規定による竣功認可書を提供することができる。  
+>　  
+> イ　国が所有する表題登記がない土地の売払いを受けた者が、当該土地の表題登記を申請する場合には、当該表題登記の登記原因を「国有財産売払」として申請しなければならない。  
+>　  
+> ウ　Ａが表題登記がない土地の所有権を原始取得した場合において、Ａが当該土地の表題登記を申請する前に、当該土地をＢに売却したときであっても、Ａは、当該土地の表題登記を申請することができる。  
+>　  
+> エ　土地区画整理事業区域内で仮換地が指定された表題登記がない従前の土地について換地処分による登記を申請する場合において、必要があるときは、土地区画整理事業を施行する者は、当該従前の土地の所有者に代位して、土地の表題登記を申請することができる。  
+>　  
+> オ　地方公共団体の所有する土地について、当該地方公共団体が土地の表題登記を嘱託する場合には、所有権を証する情報の提供を省略することができる。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-土地の表題登記は、まだ登記記録のない土地が新たに登記の世界に登場する場面です。この問題では、「誰が申請できるのか」「登記原因はどう書くのか」「どんな添付情報が必要なのか」という基本を、埋立・国有財産売払・原始取得後の売却・代位申請・嘱託という具体的な場面ごとに問うています。なお、この設問は「誤っているもの」を選ぶ形式なので注意してください。
+---
+
+土地の表題登記は、まだ登記記録のない土地が新たに登記の世界に登場する場面です。
+
+この問題では、「誰が申請できるのか」「登記原因はどう書くのか」「どんな添付情報が必要なのか」という基本を、埋立・国有財産売払・原始取得後の売却・代位申請・嘱託という具体的な場面ごとに問うています。
+
+なお、この設問は「誤っているもの」を選ぶ形式なので注意してください。
 
 ### ア：埋立地の表題登記では、竣功認可書を所有権証明情報にできる
 
-公有水面の埋立てによって新たに土地が生じた場合、その表題登記で添付する所有権を証する情報としては、公有水面埋立法22条の規定による竣功認可書などがこれにあたります。埋立工事が竣工したことを公的に認めた書面ですから、所有権を証する情報として提供することができます。
+公有水面の埋立てによって新たに土地が生じた場合、その表題登記で添付する所有権を証する情報としては、公有水面埋立法22条の規定による竣功認可書などがこれにあたります。
+
+埋立工事が竣工したことを公的に認めた書面ですから、所有権を証する情報として提供することができます。
 
 **たとえば**、海を埋め立てて新しい土地を造成したAさんが、その土地の表題登記を申請するとき、埋立ての完成を公に認めてもらった竣功認可書を「この土地は私のものです」という所有権証明として添えることができます。
 
 ### イ：土地の表題登記の登記原因日付は、土地が生じた日であって「国有財産売払」ではない
 
-土地の表題登記における登記原因の日付は、その土地が発生した年月日であり、一般には「不詳」となります。したがって、未登記の土地や無番地の土地を時効取得した日や、国から払下げ（売払い）を受けた日そのものは、登記原因の日付にはなりません。国から売払いを受けた場合であっても、登記原因を「国有財産売払」として申請しなければならないわけではなく、本肢は誤りです。
+土地の表題登記における登記原因の日付は、その土地が発生した年月日であり、一般には「不詳」となります。したがって、未登記の土地や無番地の土地を時効取得した日や、国から払下げ（売払い）を受けた日そのものは、登記原因の日付にはなりません。
 
-**たとえば**、Bさんが国有地の売払いを受けて表題登記を申請するとき、大事なのは「その土地がいつ生まれたのか」であって、「いつBさんが買ったのか」ではありません。売買の日を登記原因として書くのではなく、土地の発生時期（多くは不詳）を基準に登記されるのです。
+国から売払いを受けた場合であっても、登記原因を「国有財産売払」として申請しなければならないわけではなく、本肢は誤りです。
+
+**たとえば**、Bさんが国有地の売払いを受けて表題登記を申請するとき、大事なのは「その土地がいつ生まれたのか」であって、「いつBさんが買ったのか」ではありません。
+
+売買の日を登記原因として書くのではなく、土地の発生時期（多くは不詳）を基準に登記されるのです。
 
 ### ウ：登記前に売却したら、申請義務を負うのは新所有者である
 
-新たに土地が生じたときは、所有者は1月以内に土地の表題登記を申請しなければならず、所有者に変更があったときは、新所有者が所有権を取得した日から1月以内に申請しなければなりません（法36条）。原始取得者であるAが表題登記をする前に土地をBに売却した場合、表題登記の申請義務はもはや原始取得者Aではなく、新所有者Bが負うことになります。「Aは表題登記を申請することができる」とする本肢は、この申請義務の所在からみて誤りとされています。
+新たに土地が生じたときは、所有者は1月以内に土地の表題登記を申請しなければならず、所有者に変更があったときは、新所有者が所有権を取得した日から1月以内に申請しなければなりません（法36条）。
 
-**たとえば**、Aさんが埋立てなどで新しく土地を手に入れ、まだ表題登記をしないうちにBさんへ売ってしまった場合、その後に登記をすべき立場にあるのは、いま所有者となっているBさんです。すでに手放したAさんが自分の名前で表題登記を進めていける、という扱いにはならないわけです。
+原始取得者であるAが表題登記をする前に土地をBに売却した場合、表題登記の申請義務はもはや原始取得者Aではなく、新所有者Bが負うことになります。「Aは表題登記を申請することができる」とする本肢は、この申請義務の所在からみて誤りとされています。
+
+**たとえば**、Aさんが埋立てなどで新しく土地を手に入れ、まだ表題登記をしないうちにBさんへ売ってしまった場合、その後に登記をすべき立場にあるのは、いま所有者となっているBさんです。
+
+すでに手放したAさんが自分の名前で表題登記を進めていける、という扱いにはならないわけです。
 
 ### エ：施行者は、従前の土地の所有者に代位して表題登記を申請できる
 
-土地区画整理事業を施行する者は、土地区画整理事業の施行のために必要がある場合は、土地の所有者に代位して登記を申請することができます（土地区画整理法82条1項、土地区画整理登記令2条）。したがって、仮換地が指定された表題登記のない従前の土地について換地処分による登記を申請する際、必要があるときは、施行者が従前の土地の所有者に代位して土地の表題登記を申請することができます。
+土地区画整理事業を施行する者は、土地区画整理事業の施行のために必要がある場合は、土地の所有者に代位して登記を申請することができます（土地区画整理法82条1項、土地区画整理登記令2条）。
+
+したがって、仮換地が指定された表題登記のない従前の土地について換地処分による登記を申請する際、必要があるときは、施行者が従前の土地の所有者に代位して土地の表題登記を申請することができます。
 
 **たとえば**、区画整理を進めている市の事業者が、まだ表題登記のされていない従前の土地について換地処分の登記を進めなければならないとき、その土地の所有者が自分で登記をしてくれるのを待たずに、必要があれば所有者に代わって表題登記を申請することができます。
 
 ### オ：地方公共団体の嘱託では、所有権を証する情報の提供を省略できる
 
-国、地方公共団体その他の公共法人は、嘱託によって登記をすることができます。嘱託は当事者による申請とは異なり、登記の真正が制度的に担保されているため、国又は地方公共団体の所有する土地について官庁又は公署が土地の表題登記を嘱託する場合には、所有権を証する情報の提供を便宜省略して差し支えないものとされており、登録免許税も非課税とされます（不動産登記事務取扱手続準則71条2項、登録免許税法4条1項）。したがって、地方公共団体が自ら所有する土地の表題登記を嘱託する場合には、所有権を証する情報の提供を省略することができます。
+国、地方公共団体その他の公共法人は、嘱託によって登記をすることができます。
 
-**たとえば**、市が所有する土地について市自身が表題登記を嘱託するときは、「この土地は市のものです」という所有権証明書をわざわざ付けなくても登記を進めることができます。役所からの嘱託であること自体が、登記の正しさをある程度保証していると考えられているからです。
+嘱託は当事者による申請とは異なり、登記の真正が制度的に担保されているため、国又は地方公共団体の所有する土地について官庁又は公署が土地の表題登記を嘱託する場合には、所有権を証する情報の提供を便宜省略して差し支えないものとされており、登録免許税も非課税とされます（不動産登記事務取扱手続準則71条2項、登録免許税法4条1項）。
+
+したがって、地方公共団体が自ら所有する土地の表題登記を嘱託する場合には、所有権を証する情報の提供を省略することができます。
+
+**たとえば**、市が所有する土地について市自身が表題登記を嘱託するときは、「この土地は市のものです」という所有権証明書をわざわざ付けなくても登記を進めることができます。
+
+役所からの嘱託であること自体が、登記の正しさをある程度保証していると考えられているからです。
+
+---
 
 ### まとめ
 
@@ -71,7 +97,7 @@
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和5年度より後に実施された試験（2026年7月時点では令和6年度・令和7年度がデータベースに存在）で、本問（土地の表題登記）と同一・類似の問題が再出題されていないかを確認しました。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026-08-03実施）**：公有水面埋立法22条・土地区画整理法82条1項・登録免許税法4条1項・不動産登記法36条は、令和3年以降の不動産登記法・民法改正の対象範囲外であり、条番号・内容とも現行法のままであることを確認しました。
 - **ローカル法令データベースでの再検証（2026-08-13実施）**：note-articles/laws/配下の条文原文と照合しました。ア（本文に条番号の明示引用はないが、準則71条1項の「公有水面埋立法第22条の規定による竣功認可書」という記述と整合）、イ・ウ（いずれも不動産登記法36条「新たに生じた土地…の所有権を取得した者は、その所有権の取得の日から一月以内に、表題登記を申請しなければならない」）は原文と一致し相違なし。オの根拠条文に誤りがあり、「不動産登記事務取扱手続準則87条3項」は同項が実際には建物の表題登記の嘱託に関する規定（第87条は建物の所有権を証する情報の条）であり、土地の表題登記の嘱託について定めた規定ではないため誤りと判明したため、「不動産登記事務取扱手続準則71条2項」（国又は地方公共団体が土地の表題登記を嘱託する場合に所有権を証する情報の提供を省略できる旨の規定）に修正しました。あわせて、根拠として挙げられていた「法22条ただし書」は登記識別情報の提供（権利に関する登記）についての規定であり、表示に関する登記である土地の表題登記の所有権証明情報省略とは無関係のため削除しました（本文・確認用の根拠一覧の2箇所を修正）。なお、エが引用する土地区画整理法82条1項・土地区画整理登記令2条は、いずれもローカル法令データベースに未収録のため、今回は照合対象外としそのままにしています。正解番号（③＝イ・ウ）は独立確認済みの公式正解と一致しています。
-- **QAチェックリスト再検証（2026-08-16実施）**：肢ウの見出しが「原始取得者は、登記前に売却していても表題登記を申請できる」となっており、設問の誤った内容（Ａが申請できるとする点）をそのまま見出しにしてしまっていたため、「登記前に売却したら、申請義務を負うのは新所有者である」という正しい結論を表す見出しに修正しました（本文・まとめ・インフォグラフィックの結論はもともと「新所有者Bが申請」で統一されており、見出しのみが整合していませんでした）。その他の項目（判例・先例番号の記載、一般法の適用除外、文体、全角括弧、表形式の不使用、インフォグラフィックとの整合性、タイトル文字数、確認事項ブロックの正直さ、重複出題・最新法令チェック）は確認済みで問題ありませんでした。
+- **QAチェックリスト再検証（2026-08-16実施）**：ウの見出しが「原始取得者は、登記前に売却していても表題登記を申請できる」となっており、設問の誤った内容（Ａが申請できるとする点）をそのまま見出しにしてしまっていたため、「登記前に売却したら、申請義務を負うのは新所有者である」という正しい結論を表す見出しに修正しました（本文・まとめ・インフォグラフィックの結論はもともと「新所有者Bが申請」で統一されており、見出しのみが整合していませんでした）。その他の項目（判例・先例番号の記載、一般法の適用除外、文体、全角括弧、表形式の不使用、インフォグラフィックとの整合性、タイトル文字数、確認事項ブロックの正直さ、重複出題・最新法令チェック）は確認済みで問題ありませんでした。
 ---
 
 ## 見出し画像用フレーズ
@@ -110,12 +136,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所・証 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -191,18 +235,18 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 「誰が申請人になるか」「登記原因はどう書くか」を問題文から見抜けるようにする5パネル構成。イ（登記原因の思い込み）は正しいルールと誤りやすい思い込みを対比させる正誤対比型、ウ（登記前に売却した場合の申請義務者）は「表題登記の前に売却したか」を分岐条件とする決定木として、はい・いいえ両方の行き先を明記する。
 
@@ -211,7 +255,7 @@ Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(土地が生まれたとき、誰が登記する?), but built as a set of 5
+(土地が生まれたとき、誰が登記する？), but built as a set of 5
 diagram-drawing panels (a "how to sketch this fact pattern, in the right
 order" study reference) rather than a quick-reference conclusion poster.
 
@@ -242,7 +286,15 @@ callout describes faithful to the article's own body text.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently throughout, including inside Japanese asides.
@@ -267,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1(肢ア) ---
+--- PANEL 1(ア) ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 竣功認可書は所有権証明に使える
@@ -283,7 +335,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 竣功認可書で足りる
 
---- PANEL 2(肢イ) ---
+--- PANEL 2(イ) ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 登記原因日付は土地が生じた日
@@ -301,12 +353,12 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 売払の日ではない
 
---- PANEL 3(肢ウ) ---
+--- PANEL 3(ウ) ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 登記前に売却したら申請人は新所有者
 Diagram: A decision flowchart. Start node: 表題登記を申請する前に、原始
-取得者Aがその土地をBに売却したか?. A いいえ arrow leads to its own
+取得者Aがその土地をBに売却したか？. A いいえ arrow leads to its own
 conclusion node showing 原始取得者A holding a document labeled 表題登記
 の申請, reading Aが申請人のまま. A はい arrow leads to its own separate
 conclusion node showing an isometric scene of person A handing a land-plot
@@ -321,7 +373,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 新所有者Bが申請
 
---- PANEL 4(肢エ) ---
+--- PANEL 4(エ) ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 施行者は所有者に代位して申請できる
@@ -337,7 +389,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 代位で申請できる
 
---- PANEL 5(肢オ) ---
+--- PANEL 5(オ) ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 嘱託なら所有権証明は省略できる
@@ -359,10 +411,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権, 地, 登, 記, 所, 証, 却, 嘱, 託 and any character that
-has a visually similar Simplified Chinese variant. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that Panel 2 is drawn as a

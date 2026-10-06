@@ -2,61 +2,77 @@
 
 **出題年度：令和元年度　午後の部　第6問**
 
-> 次の対話は、土地の滅失の登記に関する教授と学生の対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> 教授：土地が滅失した場合には、いつまでに当該土地の滅失の登記を申請しなければなりませんか。
->
-> 学生：ア　滅失した土地の表題部所有者又は所有権の登記名義人は、当該土地が滅失した事実を知った日から1月以内に、当該土地の滅失の登記を申請しなければなりません。
->
-> 教授：一筆の土地の全部を掘って池を作り、常時水面下に没するようになった場合には、当該一筆の土地について、土地の滅失の登記を申請しなければなりませんか。
->
-> 学生：イ　はい、土地の滅失の登記を申請する必要があります。
->
-> 教授：それでは、国土交通大臣の免許を受けて、一般運送の用に供する目的で一筆の土地の全部を掘って人工的に水路を設けたことにより、当該一筆の土地が常時水面下に没するようになった場合には、当該一筆の土地について、土地の滅失の登記を申請しなければなりませんか。
->
-> 学生：ウ　はい、土地の滅失の登記を申請する必要があります。
->
-> 教授：それでは、春分又は秋分における満潮時において、一筆の土地の全部が海面下に没するようになった場合には、当該一筆の土地について、土地の滅失の登記を申請しなければなりませんか。
->
-> 学生：エ　はい、土地の滅失の登記を申請する必要があります。
->
-> 教授：崖崩れによって一筆の土地の一部が常時海面下に没するようになった場合には、当該一筆の土地について、土地の滅失の登記を申請しなければなりませんか。
->
-> 学生：オ　いいえ、この場合は全部が滅失したとは言えません。この場合には、一筆の土地の一部が海面下に没したことによる地積の変更の登記の申請をすることになります。
->
+> 次の対話は、土地の滅失の登記に関する教授と学生の対話である。教授の質問に対する次のアからオまでの学生の解答のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> 教授：土地が滅失した場合には、いつまでに当該土地の滅失の登記を申請しなければなりませんか。  
+>　  
+> 学生：ア　滅失した土地の表題部所有者又は所有権の登記名義人は、当該土地が滅失した事実を知った日から1月以内に、当該土地の滅失の登記を申請しなければなりません。  
+>　  
+> 教授：一筆の土地の全部を掘って池を作り、常時水面下に没するようになった場合には、当該一筆の土地について、土地の滅失の登記を申請しなければなりませんか。  
+>　  
+> 学生：イ　はい、土地の滅失の登記を申請する必要があります。  
+>　  
+> 教授：それでは、国土交通大臣の免許を受けて、一般運送の用に供する目的で一筆の土地の全部を掘って人工的に水路を設けたことにより、当該一筆の土地が常時水面下に没するようになった場合には、当該一筆の土地について、土地の滅失の登記を申請しなければなりませんか。  
+>　  
+> 学生：ウ　はい、土地の滅失の登記を申請する必要があります。  
+>　  
+> 教授：それでは、春分又は秋分における満潮時において、一筆の土地の全部が海面下に没するようになった場合には、当該一筆の土地について、土地の滅失の登記を申請しなければなりませんか。  
+>　  
+> 学生：エ　はい、土地の滅失の登記を申請する必要があります。  
+>　  
+> 教授：崖崩れによって一筆の土地の一部が常時海面下に没するようになった場合には、当該一筆の土地について、土地の滅失の登記を申請しなければなりませんか。  
+>　  
+> 学生：オ　いいえ、この場合は全部が滅失したとは言えません。この場合には、一筆の土地の一部が海面下に没したことによる地積の変更の登記の申請をすることになります。  
+>　  
 > 1　アウ　　2　アエ　　3　イウ　　4　イオ　　5　エオ
 
-土地の滅失の登記は、「土地が物理的に消滅した（＝もはや登記の対象とならなくなった）」といえるかどうかがすべての分かれ道です。人工的に水を張っただけで地目が変わったにすぎない場合や、土地の一部だけが失われた場合は、滅失ではなく別の登記になります。この対話問題は、その線引きと、申請期間の起算点を正確に押さえているかを問うています。
+---
+
+土地の滅失の登記は、「土地が物理的に消滅した（＝もはや登記の対象とならなくなった）」といえるかどうかがすべての分かれ道です。
+
+人工的に水を張っただけで地目が変わったにすぎない場合や、土地の一部だけが失われた場合は、滅失ではなく別の登記になります。この対話問題は、その線引きと、申請期間の起算点を正確に押さえているかを問うています。
 
 ### ア：滅失の登記の申請期間は、「滅失の日」から1月以内
 
-土地が滅失したときは、表題部所有者又は所有権の登記名義人は、その滅失の日から1月以内に滅失の登記を申請しなければなりません（不登法42条）。起算点はあくまで客観的な「滅失の日」であって、「滅失した事実を知った日」ではありません。本肢は起算点を「知った日から」としている点が誤りです。
+土地が滅失したときは、表題部所有者又は所有権の登記名義人は、その滅失の日から1月以内に滅失の登記を申請しなければなりません（不登法42条）。
+
+起算点はあくまで客観的な「滅失の日」であって、「滅失した事実を知った日」ではありません。本肢は起算点を「知った日から」としている点が誤りです。
 
 **たとえば**、大雨による土砂崩れで自分の山林が完全に流失したものの、遠方に住んでいて数か月後にようやくその事実を知ったとします。それでも申請期間は「知った日」からではなく、実際に土地が崩れてなくなった日から1月以内で進行するのが原則です。
 
 ### イ：人工的に掘った池は滅失ではなく、池沼への地目変更にすぎない
 
-一筆の土地の全部を人為的に掘って池を作り、水面下に没させただけでは、土地そのものが消滅したわけではありません。かんがい用水以外の水の貯留池の地目は池沼であり（準則68条8号）、公有水面下でない内水面下の土地は依然として登記の対象です。したがって申請すべきは滅失の登記ではなく、地目変更（池沼）の登記です。本肢は誤りです。
+一筆の土地の全部を人為的に掘って池を作り、水面下に没させただけでは、土地そのものが消滅したわけではありません。
+
+かんがい用水以外の水の貯留池の地目は池沼であり（準則68条8号）、公有水面下でない内水面下の土地は依然として登記の対象です。したがって申請すべきは滅失の登記ではなく、地目変更（池沼）の登記です。本肢は誤りです。
 
 **たとえば**、自分の畑を全部掘り下げて釣り堀用のため池に造り替えたとします。水を張っても土地の区画は残っており、所有権も消えません。この場合は「土地がなくなった」のではなく「畑が池沼に変わった」だけなので、地目変更の登記をすることになります。
 
 ### ウ：人工の運河用水路も滅失ではなく、運河用地への地目変更
 
-国土交通大臣の免許を受けて一般運送の用に供する目的で人工的に水路を設けた場合、その土地の地目は運河用地となります（準則68条14号、運河法12条）。人工的に水を通しただけで土地が物理的に消滅したわけではなく、公有水面下でない水路の敷地は登記の対象として残ります。よって申請すべきは滅失ではなく地目変更（運河用地）の登記であり、本肢は誤りです。
+国土交通大臣の免許を受けて一般運送の用に供する目的で人工的に水路を設けた場合、その土地の地目は運河用地となります（準則68条14号、運河法12条）。
+
+人工的に水を通しただけで土地が物理的に消滅したわけではなく、公有水面下でない水路の敷地は登記の対象として残ります。よって申請すべきは滅失ではなく地目変更（運河用地）の登記であり、本肢は誤りです。
 
 **たとえば**、所有地を掘り込んで、船が通れる人工の運河を通したとします。水面下になっても、その敷地は運河用地という地目の土地として残り続けます。「土地がなくなった」わけではないので、滅失ではなく地目の変更として処理します。
 
 ### エ：満潮時に一筆の全部が海面下に没すれば、滅失の登記を申請する
 
-公有水面と陸地との境界は、春分又は秋分における満潮時（最も海面が高くなる状態）を標準として定められます（先例による）。この基準の満潮時に一筆の土地の全部が海面下に没するようになった場合は、自然の作用によって土地が公有水面下となり、私人の所有権が消滅したといえます。したがって滅失の登記を申請しなければならず、本肢は正しい解答です。
+公有水面と陸地との境界は、春分又は秋分における満潮時（最も海面が高くなる状態）を標準として定められます（先例による）。
+
+この基準の満潮時に一筆の土地の全部が海面下に没するようになった場合は、自然の作用によって土地が公有水面下となり、私人の所有権が消滅したといえます。したがって滅失の登記を申請しなければならず、本肢は正しい解答です。
 
 **たとえば**、長年の海岸侵食で、海際にあった自分の土地が少しずつ削られ、ついに大潮の満潮時には土地全体がすっかり海面の下に沈むようになったとします。もう陸地として使える部分が残らないため、これは土地の滅失にあたり、滅失の登記を申請します。
 
 ### オ：一筆の一部だけが海没した場合は、地積の変更の登記
 
-崖崩れなどによって一筆の土地の一部だけが常時海面下に没した場合は、残った部分がなお陸地として存在するため、「全部が滅失した」とはいえません。この場合は滅失の登記ではなく、海没によって減少した地積を反映させる地積の変更の登記を申請します（先例による）。本肢は正しい解答です。
+崖崩れなどによって一筆の土地の一部だけが常時海面下に没した場合は、残った部分がなお陸地として存在するため、「全部が滅失した」とはいえません。
+
+この場合は滅失の登記ではなく、海没によって減少した地積を反映させる地積の変更の登記を申請します（先例による）。本肢は正しい解答です。
 
 **たとえば**、海に面した崖地の一角が崩れて、敷地の端の一部だけが海に沈んでしまったとします。土地全体が消えたわけではなく、面積が減っただけなので、滅失ではなく「地積が小さくなりました」という地積変更の登記をすることになります。
+
+---
 
 ### まとめ
 
@@ -78,7 +94,7 @@
 - 出題年度・問題番号・正解番号（5番＝エ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ア（不登法42条・起算点は滅失の日）、イ（池沼＝準則68条8号）、ウ（運河用地＝準則68条14号、運河法12条）、エ（公有水面との境界は春分・秋分の満潮時基準＝昭31.11.10民甲2612号）、オ（一部海没は地積変更＝昭33.4.11民事三発203号）は、データベースのexplanationフィールドで条文・先例番号まで確認できたものです。
 - 一部海没の先例番号（昭33.4.11民事三発203号）および境界基準の先例番号（昭31.11.10民甲2612号）は、原本OCRを補正して記載しています。より厳密な引用が必要な場合は、先例集の原典で番号をご確認ください。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ誤 ウ誤 エ正 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ誤 ウ誤 エ正 オ正）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（土地の滅失の登記）と同一・類似の問題が再出題されていないかを確認しました。候補として抽出された令和2年度第17問、令和3年度第17問、令和6年度第17問はいずれも「建物の滅失の登記」に関する問題であり、抵当権登記名義人の承諾（法55条4項）、申請情報等の保存期間（規則28条9号）、焼失建物の仮登記名義人による申請の可否、相続人による申請の可否（法30条）、区分建物所有者の1人による申請の可否といった建物固有の論点を扱っており、本問が扱う土地の物理的滅失の認定基準（人工的な地目変更との区別、公有水面との境界、一部海没による地積変更との区別）とは論点が異なります。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：本文で引用している不動産登記法42条（滅失の日から1月以内の申請義務）、準則68条8号（池沼）・14号（運河用地）、運河法12条、先例（昭31.11.10民甲2612号：公有水面との境界は春分・秋分の満潮時基準、昭33.4.11民事三発203号：一部海没は地積変更登記）について、WebSearchで現行実務との一致を確認しました。いずれも条文番号・内容・先例番号とも変更は見当たらず、現在も実務・教材で同一の内容が引用されています。なお、公有水面との境界について「春分・秋分の満潮時」を基準とする本件先例とは別に、最高裁昭和61年12月16日判決が「社会通念上、海面が最高の状態になったときの水際線」という一般的な基準を示しているとの情報もありましたが、これは登記実務上の先例（昭31.11.10民甲2612号）の適用を否定するものではなく、本文の記述に影響しないと判断しました。**修正すべき点はなく、記事の記述に変更はありません。**
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（準則68条8号・14号を`note-articles/laws/fudousan-touki-jimu-junsoku.md`原文で直接突合、判例・先例番号は本文になく確認事項ブロックのみに記載、試験範囲外の一般法の不使用を確認）、B（正解番号5＝エオを`src/data/takuitsu.json`の`chosashi_R01_q06`の`correctAnswer`と再照合し一致を確認）、C（各肢の見出しが正しい結論を表していること、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの解説がないことを再確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックプロンプトが本文・まとめの内容と一致していることを確認）、F（テンプレート構造・タイトルのキャッチフレーズ18字＝25字以内・確認事項ブロックの記載を確認）、G（重複出題チェック・最新法令チェックは上記の既存記載を再確認）を実施し、修正すべき誤りは見つかりませんでした。
@@ -121,12 +137,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 滅・積・没・地・番・登・記・号・権・所 — these must be rendered in
+kanji 滅・積・没・地・登・記 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -205,20 +239,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「起算点はいつか」「水面下に没した原因は人工的か自然的か」「一筆の全部が没したのか一部だけか」という分かれ道をどの順番で確認するかを、タイムラインと1本の共有決定木で示す構成。イ・ウ・エ・オの4肢は同じ決定木を共有し、各パネルは自分の肢に関係する枝だけを強調表示する。②の結論ポスターとは別に、5肢それぞれの思考の手順を1枚ずつのパネルで追体験できるようにする。
 
@@ -266,7 +300,15 @@ required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -292,7 +334,7 @@ Subtitle (smaller, centered, 1行):
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -312,12 +354,12 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 滅失の日から1か月
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 人工的な原因なら地目変更で足りる
 Diagram: A shared decision flowchart, drawn identically in panels 2-5.
-Root diamond node:「一筆の土地が水面下に没した原因は?」splits into two
+Root diamond node:「一筆の土地が水面下に没した原因は？」splits into two
 branches: 「人工的原因(掘削・水路敷設等)」and「自然的原因(海面上昇・
 浸食・崖崩れ等)」. The人工的原因 branch leads to a small intermediate
 node「土地区画・所有権は消滅しない」, then to a conclusion node labeled
@@ -340,7 +382,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地目変更(池沼)
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 運河も人工なら地目変更にとどまる
@@ -360,7 +402,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 地目変更(運河用地)
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 自然の力で全部沈めば滅失登記
@@ -381,7 +423,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 自然原因の全部滅失
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 一部だけ自然に沈めば地積変更
@@ -409,9 +451,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 8号(池沼)・68条14号(運河用地)を参照。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 滅・積・没・権・号. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 滅・積・没・権・号. If any character renders as a Simplified or Traditional
+Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that every multi-condition 肢 is drawn as an

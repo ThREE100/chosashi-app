@@ -2,51 +2,81 @@
 
 **出題年度：令和元年度　午後の部　第13問**
 
-> 建物の表題部の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　建物の表題部所有者であるＡの申請によりされたＡを所有権の登記名義人とする所有権の保存の登記が錯誤により抹消された場合には、その建物の所有者Ｂの申請又は職権により、当該建物についての表題登記を改めてすることとなる。
->
-> イ　建物の表題部所有者の相続人を所有権の登記名義人とする所有権の保存の登記が錯誤により抹消された場合には、登記官において当該表題部所有者が所有権を有していたことを確認することができるときであり、かつ、当該建物が現存するときであっても、当該建物の登記記録は閉鎖される。
->
-> ウ　建物を新築する場合において、不動産工事の先取特権の保存の登記がされた建物の建築が完了したときは、当該建物の所有者は、当該建物の表題登記を申請する必要がない。
->
-> エ　所有権の登記がある建物の附属建物を新築する場合において、不動産工事の先取特権の保存の登記がされた後附属建物の建築が完了したときは、当該附属建物が属する建物の所有権の登記名義人は、遅滞なく、当該附属建物の新築による建物の表題部の変更の登記を申請しなければならない。
->
-> オ　Ａが表題部所有者である甲建物と、Ａが表題部所有者である乙建物の附属建物として登記されている丙建物とが、増改築工事により一個の建物となった場合には、甲建物と丙建物が一個の建物となった日から1月以内に、合体後の建物についての建物の表題登記並びに合体前の甲建物及び乙建物についての表題部の登記の抹消を申請しなければならない。
->
+> 建物の表題部の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　建物の表題部所有者であるＡの申請によりされたＡを所有権の登記名義人とする所有権の保存の登記が錯誤により抹消された場合には、その建物の所有者Ｂの申請又は職権により、当該建物についての表題登記を改めてすることとなる。  
+>　  
+> イ　建物の表題部所有者の相続人を所有権の登記名義人とする所有権の保存の登記が錯誤により抹消された場合には、登記官において当該表題部所有者が所有権を有していたことを確認することができるときであり、かつ、当該建物が現存するときであっても、当該建物の登記記録は閉鎖される。  
+>　  
+> ウ　建物を新築する場合において、不動産工事の先取特権の保存の登記がされた建物の建築が完了したときは、当該建物の所有者は、当該建物の表題登記を申請する必要がない。  
+>　  
+> エ　所有権の登記がある建物の附属建物を新築する場合において、不動産工事の先取特権の保存の登記がされた後附属建物の建築が完了したときは、当該附属建物が属する建物の所有権の登記名義人は、遅滞なく、当該附属建物の新築による建物の表題部の変更の登記を申請しなければならない。  
+>　  
+> オ　Ａが表題部所有者である甲建物と、Ａが表題部所有者である乙建物の附属建物として登記されている丙建物とが、増改築工事により一個の建物となった場合には、甲建物と丙建物が一個の建物となった日から1月以内に、合体後の建物についての建物の表題登記並びに合体前の甲建物及び乙建物についての表題部の登記の抹消を申請しなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
 
-建物の表題部の登記は、保存登記が錯誤で抹消されたあとの登記記録の扱い、不動産工事の先取特権の保存の登記との関係、そして合体の登記など、手続の「前提」と「その後」をつなげて理解できているかが問われる分野です。細かい先例知識も多いので、一つひとつ場面を思い浮かべながら整理していきましょう。
+---
+
+建物の表題部の登記は、保存登記が錯誤で抹消されたあとの登記記録の扱い、不動産工事の先取特権の保存の登記との関係、そして合体の登記など、手続の「前提」と「その後」をつなげて理解できているかが問われる分野です。
+
+細かい先例知識も多いので、一つひとつ場面を思い浮かべながら整理していきましょう。
 
 ### ア：表題部所有者本人の保存登記が消えたら、登記記録ごと閉じてやり直す
 
-所有権の保存の登記がされると、表題部所有者の記録は抹消されます。この状態で、表題部所有者本人がした保存登記が錯誤により抹消されると、いったん否定された表題部所有者をそのまま復活させるのは適当でないため、当該建物の登記記録は全部が閉鎖されます（先例による）。建物が現に存在する以上、真の所有者Bの申請または登記官の職権によって、改めて表題登記をし直すことになります。したがって本肢は正しい記述です。
+所有権の保存の登記がされると、表題部所有者の記録は抹消されます。
 
-**たとえば**、自分の家を建てたAさんが表題部所有者として登記され、続けて自分名義で所有権保存登記をしたところ、その保存登記が錯誤で抹消されたとします。このときは古い登記記録をいったん閉じてしまい、本当の所有者であるBさんが改めて表題登記から登記をやり直す、というイメージです。
+この状態で、表題部所有者本人がした保存登記が錯誤により抹消されると、いったん否定された表題部所有者をそのまま復活させるのは適当でないため、当該建物の登記記録は全部が閉鎖されます（先例による）。
+
+建物が現に存在する以上、真の所有者Bの申請または登記官の職権によって、改めて表題登記をし直すことになります。したがって本肢は正しい記述です。
+
+**たとえば**、自分の家を建てたAさんが表題部所有者として登記され、続けて自分名義で所有権保存登記をしたところ、その保存登記が錯誤で抹消されたとします。
+
+このときは古い登記記録をいったん閉じてしまい、本当の所有者であるBさんが改めて表題登記から登記をやり直す、というイメージです。
 
 ### イ：相続人名義の保存登記が消えても、登記記録は閉鎖されない
 
-同じ「保存登記の錯誤抹消」でも、抹消された保存登記が「表題部所有者の相続人その他の一般承継人がしたもの」や「表題部所有者から区分建物の所有権を取得した者がしたもの」であった場合は扱いが違います。これらの場合、保存登記が抹消されても表題部所有者が所有者であったこと自体は否定されないため、表題部所有者に関する登記事項を復活させることとされ、登記記録は閉鎖されません（先例による）。本肢は「閉鎖される」としている点が誤りです。
+同じ「保存登記の錯誤抹消」でも、抹消された保存登記が「表題部所有者の相続人その他の一般承継人がしたもの」や「表題部所有者から区分建物の所有権を取得した者がしたもの」であった場合は扱いが違います。
 
-**たとえば**、亡くなったAさんの相続人が相続を原因として自分名義で保存登記をしたあと、その保存登記だけが錯誤で抹消された場合、Aさんが所有者だった事実は揺らぎません。だから登記記録を閉じてしまうのではなく、表題部所有者Aの記録をよみがえらせて登記記録を生かしておく、という処理になります。
+これらの場合、保存登記が抹消されても表題部所有者が所有者であったこと自体は否定されないため、表題部所有者に関する登記事項を復活させることとされ、登記記録は閉鎖されません（先例による）。本肢は「閉鎖される」としている点が誤りです。
+
+**たとえば**、亡くなったAさんの相続人が相続を原因として自分名義で保存登記をしたあと、その保存登記だけが錯誤で抹消された場合、Aさんが所有者だった事実は揺らぎません。
+
+だから登記記録を閉じてしまうのではなく、表題部所有者Aの記録をよみがえらせて登記記録を生かしておく、という処理になります。
 
 ### ウ：先取特権の保存登記があっても、完成後の表題登記は必要
 
-建物の新築について不動産工事の先取特権の保存の登記がされると、まだ建物は完成していなくても「種類、構造及び床面積は設計書による」旨とともに表題部が作成されます。しかし建物が実際に完成した後は、遅滞なく所有権の保存の登記をする必要があり、その前提として表題登記をすることで、設計書による仮の登記事項を抹消し、改めて現況どおりの登記事項と表題部所有者・新築の原因日付を記録します（先例による）。したがって「表題登記を申請する必要がない」とする本肢は誤りです。
+建物の新築について不動産工事の先取特権の保存の登記がされると、まだ建物は完成していなくても「種類、構造及び床面積は設計書による」旨とともに表題部が作成されます。
 
-**たとえば**、建築途中の建物に先取特権の保存登記がされていて、設計図どおりの見込みの内容が先に登記されていたとしても、建物が実際に完成したら「図面どおりではなく現況どおり」に登記し直す必要があります。そのために改めて表題登記の申請が求められるわけです。
+しかし建物が実際に完成した後は、遅滞なく所有権の保存の登記をする必要があり、その前提として表題登記をすることで、設計書による仮の登記事項を抹消し、改めて現況どおりの登記事項と表題部所有者・新築の原因日付を記録します（先例による）。
+
+したがって「表題登記を申請する必要がない」とする本肢は誤りです。
+
+**たとえば**、建築途中の建物に先取特権の保存登記がされていて、設計図どおりの見込みの内容が先に登記されていたとしても、建物が実際に完成したら「図面どおりではなく現況どおり」に登記し直す必要があります。
+
+そのために改めて表題登記の申請が求められるわけです。
 
 ### エ：附属建物を新築したら、遅滞なく表題部の変更登記を申請する
 
-所有権の登記がある建物の附属建物の新築について不動産工事の先取特権の保存の登記がされた場合、附属建物欄に「種類、構造及び床面積は設計書による」旨とともに登記がされます。そして附属建物が完成した後は、遅滞なく、附属建物の新築による建物の表題部の変更の登記をしなければなりません。この変更登記によって設計書による仮の登記事項を抹消し、改めて附属建物の符号や新築の原因日付を記録します（先例による）。本肢は正しい記述です。
+所有権の登記がある建物の附属建物の新築について不動産工事の先取特権の保存の登記がされた場合、附属建物欄に「種類、構造及び床面積は設計書による」旨とともに登記がされます。
 
-**たとえば**、すでに所有権登記のある母屋に、離れ（附属建物）を建てる工事で先取特権の保存登記をしていたとします。その離れが完成したら、母屋の所有権登記名義人は「離れが増えました」という表題部の変更登記を、遅滞なく申請しなければならない、ということです。
+そして附属建物が完成した後は、遅滞なく、附属建物の新築による建物の表題部の変更の登記をしなければなりません。この変更登記によって設計書による仮の登記事項を抹消し、改めて附属建物の符号や新築の原因日付を記録します（先例による）。本肢は正しい記述です。
+
+**たとえば**、すでに所有権登記のある母屋に、離れ（附属建物）を建てる工事で先取特権の保存登記をしていたとします。
+
+その離れが完成したら、母屋の所有権登記名義人は「離れが増えました」という表題部の変更登記を、遅滞なく申請しなければならない、ということです。
 
 ### オ：附属建物が絡む合体は、まず分割の登記が前提になる
 
-甲建物と、乙建物の附属建物として登記されている丙建物とが増改築工事で一個の建物になった場合、いきなり合体後の表題登記と合体前の建物の抹消を申請することはできません。合体の登記等を申請する前提として、まず丙建物を乙建物から切り離す分割の登記を申請する必要があります。本肢は、この前提となる分割の登記に触れず、また合体前に抹消されるべき建物の組合せも正確でないため、誤った記述です。
+甲建物と、乙建物の附属建物として登記されている丙建物とが増改築工事で一個の建物になった場合、いきなり合体後の表題登記と合体前の建物の抹消を申請することはできません。
 
-**たとえば**、独立した甲建物と、乙建物にくっついている離れである丙建物とを、増改築でひとつの建物にしたとします。丙は乙の一部として登記されたままなので、そのままでは合体の手続に乗せられません。まず「丙を乙から分けます」という分割の登記をしてから合体の登記に進む、という順番になるわけです。
+合体の登記等を申請する前提として、まず丙建物を乙建物から切り離す分割の登記を申請する必要があります。本肢は、この前提となる分割の登記に触れず、また合体前に抹消されるべき建物の組合せも正確でないため、誤った記述です。
+
+**たとえば**、独立した甲建物と、乙建物にくっついている離れである丙建物とを、増改築でひとつの建物にしたとします。
+
+丙は乙の一部として登記されたままなので、そのままでは合体の手続に乗せられません。まず「丙を乙から分けます」という分割の登記をしてから合体の登記に進む、という順番になるわけです。
+
+---
 
 ### まとめ
 
@@ -67,10 +97,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（2番＝ア・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json／kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、ア（昭36.9.2民甲2163号）、イ（昭59.2.25民三1085号）、ウ・エ（平21.2.20民二500号）は、データベースの解説で先例番号まで確認できたものです。一方、オの「合体の前提として乙建物からの分割の登記が必要」という点は、合体登記の一般的な取扱い（附属建物のまま合体の対象にできないという原則）からの推論を含み、個別の先例番号までは特定していません。なお、エの申請義務について本文で「不登法51条1項」を根拠として引用していましたが、同条1項は登記事項の変更登記を「変更があった日から一月以内」に申請すべき旨を定める一般規定であり、本肢の「遅滞なく」という文言（先例平21.2.20民二500号による取扱い）とは文言が一致しないため、`laws/fudousan-touki-hou.md`での条文確認を踏まえて本文からこの条番号を削除し、先例のみを根拠とする記載に修正しました。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ誤 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物の表題部の登記）と同一・類似の問題が再出題されていないかを確認しました。候補11件の多くは合体の手続一般や添付情報など異なる論点を扱うものでしたが、令和5年度第16問イは「区分建物でない甲建物の附属建物と乙建物とが合体した場合、甲建物の分割の登記をすることなく合体による登記等を申請できるか」を問うており、本問オ（附属建物が絡む合体は前提として分割の登記が必要）とほぼ同一の論点・結論です。また令和5年度第5問イは、不動産工事の先取特権の保存登記がある建物完成後の表題登記の取扱い（平21.2.20民二500号）という点で本問ウと同じ先例・事案を題材にしています（問われている具体的な角度は異なります）。**部分的に類似する記述があります**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：本文が引用していた不動産登記法51条1項、および先例（昭36.9.2民甲2163号、昭59.2.25民三1085号、平21.2.20民二500号）について、WebSearchでいずれも現行の登記実務・条文として通用していること（判例変更・後の立法による変更の形跡がないこと）を確認しました。
-- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。肢エの本文・確認事項ブロックで引用していた「不登法51条1項」を`laws/fudousan-touki-hou.md`の条文原文と突き合わせたところ、同条1項は「変更があった日から一月以内」に申請すべき旨を定める規定であり、本肢の「遅滞なく」という文言（先例による取扱い）と一致しないミスマッチが見つかったため、本文からこの条番号の引用を削除し、先例のみを根拠とする記載に修正しました。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
+- **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。エの本文・確認事項ブロックで引用していた「不登法51条1項」を`laws/fudousan-touki-hou.md`の条文原文と突き合わせたところ、同条1項は「変更があった日から一月以内」に申請すべき旨を定める規定であり、本肢の「遅滞なく」という文言（先例による取扱い）と一致しないミスマッチが見つかったため、本文からこの条番号の引用を削除し、先例のみを根拠とする記載に修正しました。他の項目（正解の再確認、文章チェック、note表示形式、インフォグラフィックとの整合、執筆ルール、重複出題・最新法令チェックの記載）には問題は見つかりませんでした。正誤判定・正解の組合せに変更はありません。
 
 ---
 
@@ -111,13 +141,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・保・存・錯・誤・抹・消・閉・鎖・復・活・先・取・権・題・属・滞・合・体・分・割・相・続
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -200,18 +248,18 @@ these 5 headings):
 5. 附属建物の合体はまず分割が前提
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ア・イは「抹消された保存登記の名義人は誰か」という同一の決定木を共有し、それぞれ自分の枝
 （本人名義／相続人等名義）を強調表示・もう一方を淡色表示する構成にした（緑）。ウ・エは
@@ -241,7 +289,7 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes with
 the condition written on them, Yes/No (or ○/✕) branch arrows, and a final
 conclusion node. Where a 肢 is resolved by a single check, a labeled
 illustrative diagram is sufficient — do not force a flowchart. Panels 1
-and 2 (肢ア and 肢イ) share one decision tree asking "抹消された所有権
+and 2 (ア and イ) share one decision tree asking "抹消された所有権
 保存の登記の名義人は誰か": render the branch relevant to THIS panel with
 a thick highlighted border and full color, and render the other,
 unrelated branch in a faded, greyed-out, or dotted-outline style rather
@@ -258,7 +306,15 @@ a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -284,7 +340,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -306,7 +362,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 改めて表題登記からやり直し
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相続人名義の保存登記なら記録は復活
@@ -324,7 +380,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 登記記録は閉鎖されない
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 新築建物は完成後に表題登記が必要
@@ -342,7 +398,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 完成後は表題登記が必要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 附属建物完成後は遅滞なく変更登記
@@ -361,7 +417,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 遅滞なく変更登記を申請
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in orange containing the number 5.
 Heading (bold, ONE line):
 附属建物の合体はまず分割登記が前提
@@ -390,10 +446,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 番号は本図中省略）。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建・物・登・記・保・存・錯・誤・抹・消・閉・鎖・復・活・先・
-取・権・題・属・滞・合・体・分・割・相・続・義・録・変・図・確・認. If any
-character renders as a Simplified Chinese variant, redraw that character
+取・権・題・属・滞・合・体・分・割・相・続・義・録・変・図・確・認. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese
 form. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between

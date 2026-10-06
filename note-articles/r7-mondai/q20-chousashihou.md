@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第20問**
 
-> 土地家屋調査士又は土地家屋調査士法人に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　土地家屋調査士法人は、定款を変更したときは、法定の期間内に、変更に係る事項を、主たる事務所の所在地を管轄する法務局又は地方法務局に届け出なければならない。
->
-> イ　土地家屋調査士は、置いていた補助者を置かなくなったときは、遅滞なく、その旨を所属の土地家屋調査士会に届け出なければならない。
->
-> ウ　土地家屋調査士は、日本土地家屋調査士会連合会に届け出ることにより、複数の都道府県に事務所を設置することができる。
->
-> エ　土地家屋調査士法人の社員である土地家屋調査士は、その登録を取り消された場合には、当該法人を当然に脱退する。
->
-> オ　土地家屋調査士が心身の故障により業務を行うことができないときは、日本土地家屋調査士会連合会は、その登録を取り消さなければならない。
->
+> 土地家屋調査士又は土地家屋調査士法人に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　土地家屋調査士法人は、定款を変更したときは、法定の期間内に、変更に係る事項を、主たる事務所の所在地を管轄する法務局又は地方法務局に届け出なければならない。  
+>　  
+> イ　土地家屋調査士は、置いていた補助者を置かなくなったときは、遅滞なく、その旨を所属の土地家屋調査士会に届け出なければならない。  
+>　  
+> ウ　土地家屋調査士は、日本土地家屋調査士会連合会に届け出ることにより、複数の都道府県に事務所を設置することができる。  
+>　  
+> エ　土地家屋調査士法人の社員である土地家屋調査士は、その登録を取り消された場合には、当該法人を当然に脱退する。  
+>　  
+> オ　土地家屋調査士が心身の故障により業務を行うことができないときは、日本土地家屋調査士会連合会は、その登録を取り消さなければならない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
 ---
@@ -22,7 +22,9 @@
 
 ### ア：定款変更の届出先は、法務局ではなく所属の調査士会及び連合会
 
-土地家屋調査士法34条2項により、調査士法人が定款を変更したときは、変更の日から2週間以内に、変更に係る事項を、**主たる事務所の所在地の土地家屋調査士会及び日本土地家屋調査士会連合会**の両方に届け出なければなりません。法務局又は地方法務局への届出ではありません。
+土地家屋調査士法34条2項により、調査士法人が定款を変更したときは、変更の日から2週間以内に、変更に係る事項を、**主たる事務所の所在地の土地家屋調査士会及び日本土地家屋調査士会連合会**の両方に届け出なければなりません。
+
+法務局又は地方法務局への届出ではありません。
 
 **たとえば**、調査士法人が事業目的や社員構成に関する定款の内容を変更した場合、その届出は法務局にするのではなく、事務所のある地域の調査士会と、日本土地家屋調査士会連合会の両方に対して行います。
 
@@ -49,6 +51,8 @@
 土地家屋調査士法16条1項2号により、土地家屋調査士が心身の故障により業務を行うことができないときであっても、日本土地家屋調査士会連合会は、その登録を「取り消さなければならない」という義務を負うわけではなく、「取り消すことができる」という裁量的な扱いになっています。
 
 **たとえば**、体調を崩して長期間業務ができない状態になった調査士がいたとしても、連合会が自動的・強制的に登録を取り消すわけではなく、状況に応じて判断する余地が残されています。
+
+---
 
 ### まとめ
 
@@ -107,12 +111,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・録・登・所 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -174,20 +196,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「届出先はどこか」「取消は義務か裁量か」を見抜けるようにする5パネル構成。オは「取り消さなければならない」と「取り消すことができる」を対比する枠にしている。②の色分け（届出のルール＝緑、登録取消のルール＝青）を引き継いでいる。
 
@@ -211,7 +233,7 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No（はい／いいえ）branch arrows, and a final conclusion node.
 Where a 肢 is resolved by a single check, a labeled illustrative diagram
-is sufficient — do not force a flowchart. Panel 5（肢オ）uses a
+is sufficient — do not force a flowchart. Panel 5（オ）uses a
 side-by-side comparison frame（LEFT: 取り消さなければならない（義務）、
 RIGHT: 取り消すことができる（裁量）) instead of a flowchart. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
@@ -223,7 +245,15 @@ are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -249,7 +279,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 定款変更は調査士会と連合会へ届出
@@ -267,7 +297,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 法務局ではない
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 補助者廃止は所属の調査士会へ届出
@@ -282,7 +312,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 遅滞なく届出
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 事務所は届出があっても二以上不可
@@ -298,7 +328,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 二以上は不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 登録取消で法人を当然に脱退
@@ -314,7 +344,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 当然に脱退
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 心身の故障による取消は裁量
@@ -338,10 +368,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 18条・23条2項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 款, 変, 更, 届, 補, 助, 脱, 退, 録, 登, 取, 消, 裁, 量 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panel 5 is drawn

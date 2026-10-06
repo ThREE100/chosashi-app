@@ -2,18 +2,18 @@
 
 **出題年度：令和7年度　午後の部　第11問**
 
-> 分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　Ａ及びＢが所有権の登記名義人である甲土地から乙土地を分筆する分筆の登記の申請がされた場合において、分筆後の甲土地をＡが単独で所有し、乙土地をＢが単独で所有する旨の共有物分割の判決があったことを証する情報が提供されたときは、甲土地の登記記録にはＡが単独所有者として登記され、乙土地の登記記録にはＢが単独所有者として登記される。
->
-> イ　甲土地に地上権の設定の登記がされており、かつ、当該地上権を目的とする抵当権の設定の登記がされている場合において、甲土地から乙土地を分筆する分筆の登記をするときに、登記官が当該地上権を分筆後の甲土地について消滅させる旨の登記をするためには、当該地上権の登記名義人が当該地上権を分筆後の甲土地について消滅させることを承諾したことを証する情報に加えて、当該抵当権の登記名義人が承諾したことを証する情報が提供されることが必要である。
->
-> ウ　所有権移転請求権保全の仮登記がされている甲土地から乙土地を分筆する分筆の登記をする場合において、分筆後の乙土地について当該仮登記の登記名義人が権利の消滅を承諾したことを証する情報が提供されたときは、分筆後の乙土地の登記記録には当該仮登記は転写されない。
->
-> エ　抵当権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記の申請を書面を提出する方法によりする場合において、当該抵当権を分筆後の乙土地について消滅させることを当該抵当権の登記名義人が承諾したことを証する情報を提供するときは、当該情報に添付すべき当該登記名義人の印鑑に関する証明書は、作成後3月以内のものでなければならない。
->
-> オ　地上権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記を申請する場合において、当該地上権の存続期間が満了しているときは、乙土地の登記記録には地上権の設定の登記は転写されない。
->
+> 分筆の登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　Ａ及びＢが所有権の登記名義人である甲土地から乙土地を分筆する分筆の登記の申請がされた場合において、分筆後の甲土地をＡが単独で所有し、乙土地をＢが単独で所有する旨の共有物分割の判決があったことを証する情報が提供されたときは、甲土地の登記記録にはＡが単独所有者として登記され、乙土地の登記記録にはＢが単独所有者として登記される。  
+>　  
+> イ　甲土地に地上権の設定の登記がされており、かつ、当該地上権を目的とする抵当権の設定の登記がされている場合において、甲土地から乙土地を分筆する分筆の登記をするときに、登記官が当該地上権を分筆後の甲土地について消滅させる旨の登記をするためには、当該地上権の登記名義人が当該地上権を分筆後の甲土地について消滅させることを承諾したことを証する情報に加えて、当該抵当権の登記名義人が承諾したことを証する情報が提供されることが必要である。  
+>　  
+> ウ　所有権移転請求権保全の仮登記がされている甲土地から乙土地を分筆する分筆の登記をする場合において、分筆後の乙土地について当該仮登記の登記名義人が権利の消滅を承諾したことを証する情報が提供されたときは、分筆後の乙土地の登記記録には当該仮登記は転写されない。  
+>　  
+> エ　抵当権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記の申請を書面を提出する方法によりする場合において、当該抵当権を分筆後の乙土地について消滅させることを当該抵当権の登記名義人が承諾したことを証する情報を提供するときは、当該情報に添付すべき当該登記名義人の印鑑に関する証明書は、作成後3月以内のものでなければならない。  
+>　  
+> オ　地上権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記を申請する場合において、当該地上権の存続期間が満了しているときは、乙土地の登記記録には地上権の設定の登記は転写されない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イエ　　5　ウオ
 
 ---
@@ -22,13 +22,23 @@
 
 ### ア：分筆登記だけでは、共有持分の配分は変わらない
 
-分筆の登記は、土地の物理的な区画を分けるだけの表示に関する登記であり、それ自体で所有権の帰属や持分割合を変えることはできません。共有物分割の判決があったとしても、それを反映するには別途持分の移転登記（権利に関する登記）が必要であり、分筆登記の申請書に判決正本を添付しただけで、自動的にＡの単独所有・Ｂの単独所有という結果になるわけではありません。不動産登記規則102条1項は、分筆の登記をするときは分筆前の土地の登記記録に記録されている権利に関する登記を分筆後の土地の登記記録に転写しなければならないと定めており、権利消滅の承諾（不動産登記法40条）のような別段の手続がない限り、所有権の登記はそのまま転写されるため、共有名義もそのまま引き継がれます。
+分筆の登記は、土地の物理的な区画を分けるだけの表示に関する登記であり、それ自体で所有権の帰属や持分割合を変えることはできません。
 
-**たとえば**、兄弟で共有していた土地を、裁判所の判決で「甲土地は兄のもの、乙土地は弟のもの」と決めたとします。しかし、分筆登記だけを申請しても、法務局が自動的に「甲は兄の単独所有、乙は弟の単独所有」と書き換えてくれるわけではありません。判決に基づく持分の移転登記を別途行って、初めて単独所有として登記されます。
+共有物分割の判決があったとしても、それを反映するには別途持分の移転登記（権利に関する登記）が必要であり、分筆登記の申請書に判決正本を添付しただけで、自動的にＡの単独所有・Ｂの単独所有という結果になるわけではありません。
+
+不動産登記規則102条1項は、分筆の登記をするときは分筆前の土地の登記記録に記録されている権利に関する登記を分筆後の土地の登記記録に転写しなければならないと定めており、権利消滅の承諾（不動産登記法40条）のような別段の手続がない限り、所有権の登記はそのまま転写されるため、共有名義もそのまま引き継がれます。
+
+**たとえば**、兄弟で共有していた土地を、裁判所の判決で「甲土地は兄のもの、乙土地は弟のもの」と決めたとします。
+
+しかし、分筆登記だけを申請しても、法務局が自動的に「甲は兄の単独所有、乙は弟の単独所有」と書き換えてくれるわけではありません。判決に基づく持分の移転登記を別途行って、初めて単独所有として登記されます。
 
 **ここが分かりにくいポイント**：
 
-「共有物分割の判決があったことを証する情報が提供されたとき」という記述を読むと、裁判所のお墨付きがある以上、その通りに単独所有として登記されるはずだと考えてしまいがちです。しかし、ここで問われているのは「分筆の登記」であり、分筆登記は不動産登記法上の「表示に関する登記」（土地の物理的な区画を記録する登記で、表題部に記録される）であって、「権利に関する登記」（誰が所有者かを記録する登記で、権利部に記録される）ではありません。判決正本は、あくまで権利に関する登記（持分移転登記）を申請する際の登記原因証明情報として使われるものであり、分筆登記の申請書に添付しただけで自動的に権利部の記載が書き換わるわけではありません。
+「共有物分割の判決があったことを証する情報が提供されたとき」という記述を読むと、裁判所のお墨付きがある以上、その通りに単独所有として登記されるはずだと考えてしまいがちです。
+
+しかし、ここで問われているのは「分筆の登記」であり、分筆登記は不動産登記法上の「表示に関する登記」（土地の物理的な区画を記録する登記で、表題部に記録される）であって、「権利に関する登記」（誰が所有者かを記録する登記で、権利部に記録される）ではありません。
+
+判決正本は、あくまで権利に関する登記（持分移転登記）を申請する際の登記原因証明情報として使われるものであり、分筆登記の申請書に添付しただけで自動的に権利部の記載が書き換わるわけではありません。
 
 1. 問われているのは「表示に関する登記」（分筆）か「権利に関する登記」（所有権・持分の移転）かを確認する。
 2. 分筆登記は土地の区画を分けるだけであり、それ自体に持分を変動させる効力はない。
@@ -38,13 +48,21 @@
 
 ### イ：地上権に抵当権が付いているときは、両方の承諾が必要
 
-地上権を目的とする抵当権が設定されている場合、その地上権を消滅させることは、抵当権の目的物そのものを消してしまうことになります。したがって、地上権者の承諾だけでなく、その地上権に抵当権を持つ者の承諾も必要になります。不動産登記法40条は括弧書で「当該権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る。」と定めており、この点を裏付けています。
+地上権を目的とする抵当権が設定されている場合、その地上権を消滅させることは、抵当権の目的物そのものを消してしまうことになります。したがって、地上権者の承諾だけでなく、その地上権に抵当権を持つ者の承諾も必要になります。
 
-**たとえば**、Ａさんが土地に地上権を持っていて、さらにその地上権を担保にＢさんから借金をして抵当権を設定していたとします。分筆後の土地についてこの地上権を消す場合、Ａさんの承諾だけでは足りません。抵当権者であるＢさんも「それでいいですよ」と認めなければ、地上権を消滅させる登記はできません。
+不動産登記法40条は括弧書で「当該権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る。」と定めており、この点を裏付けています。
+
+**たとえば**、Ａさんが土地に地上権を持っていて、さらにその地上権を担保にＢさんから借金をして抵当権を設定していたとします。
+
+分筆後の土地についてこの地上権を消す場合、Ａさんの承諾だけでは足りません。抵当権者であるＢさんも「それでいいですよ」と認めなければ、地上権を消滅させる登記はできません。
 
 **ここが分かりにくいポイント**：
 
-本肢は「地上権の登記名義人が承諾すれば足りるのではないか」という直感で読み進めると、抵当権者の承諾までは不要だと誤って判断してしまいがちです。不動産登記法40条の本文だけを見ると、「権利に関する登記に係る権利の登記名義人（＝地上権者）が承諾したことを証する情報が提供されたとき」に権利消滅の登記ができる、という一段階の要件のように見えます。しかし、同条にはこれに続けて括弧書きがあり、「当該権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る」という追加の要件が定められています。
+本肢は「地上権の登記名義人が承諾すれば足りるのではないか」という直感で読み進めると、抵当権者の承諾までは不要だと誤って判断してしまいがちです。
+
+不動産登記法40条の本文だけを見ると、「権利に関する登記に係る権利の登記名義人（＝地上権者）が承諾したことを証する情報が提供されたとき」に権利消滅の登記ができる、という一段階の要件のように見えます。
+
+しかし、同条にはこれに続けて括弧書きがあり、「当該権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る」という追加の要件が定められています。
 
 1. 消滅させようとする権利（地上権）そのものの登記名義人の承諾があるかを確認する（本文の要件）。
 2. その権利（地上権）を目的とする、さらに別の権利の登記（抵当権など）があるかを確認する。
@@ -54,21 +72,33 @@
 
 ### ウ：仮登記の権利者が承諾すれば、分筆後の土地にその仮登記は引き継がれない
 
-所有権移転請求権保全の仮登記がある土地を分筆する場合、分筆後の一方の土地についてその仮登記名義人が権利消滅の承諾をしたことを証する情報が提供されれば、その土地の登記記録にはその仮登記は転写されません。所有権移転請求権保全の仮登記は「所有権の登記以外の権利に関する登記」にあたり、不動産登記法40条本文がこの場合の取扱いを定めています。
+所有権移転請求権保全の仮登記がある土地を分筆する場合、分筆後の一方の土地についてその仮登記名義人が権利消滅の承諾をしたことを証する情報が提供されれば、その土地の登記記録にはその仮登記は転写されません。
+
+所有権移転請求権保全の仮登記は「所有権の登記以外の権利に関する登記」にあたり、不動産登記法40条本文がこの場合の取扱いを定めています。
 
 **たとえば**、甲土地に「将来所有権を移転する予定」という仮登記がついていたとして、その土地の一部（乙土地）を切り離す場合に、仮登記の権利者が「乙土地についてはこの仮登記はなくても構いません」と認める書面を提出すれば、乙土地の登記簿にはその仮登記は記載されずに済みます。
 
 ### エ：第三者の承諾書に添える印鑑証明書には、3か月の期限はない
 
-登記申請書や委任状本人の印鑑証明書には「作成後3か月以内」という期限がありますが、第三者（この場合は抵当権者）の同意書・承諾書に添付する印鑑証明書には、このような作成期限の制限はありません。不動産登記令16条3項・18条3項が定める印鑑証明書には「作成後3月以内」という要件がありますが、第三者の承諾を証する情報に添付する印鑑証明書について定める不動産登記令19条2項には、そのような期限の要件が置かれていません。
+登記申請書や委任状本人の印鑑証明書には「作成後3か月以内」という期限がありますが、第三者（この場合は抵当権者）の同意書・承諾書に添付する印鑑証明書には、このような作成期限の制限はありません。
+
+不動産登記令16条3項・18条3項が定める印鑑証明書には「作成後3月以内」という要件がありますが、第三者の承諾を証する情報に添付する印鑑証明書について定める不動産登記令19条2項には、そのような期限の要件が置かれていません。
 
 **たとえば**、抵当権者が「分筆後の乙土地についてはこの抵当権を消してよい」と承諾する書面に実印を押し、印鑑証明書を添付する場合、その印鑑証明書がたとえ半年前や1年前に取得したものであっても、そのまま使うことができます。
 
 ### オ：存続期間が満了していても、地上権の登記は分筆後の土地に転写される
 
-地上権の存続期間が満了していても、それだけで登記記録上の地上権の登記が自動的に消えるわけではありません。存続期間の満了によって権利を実体的に消滅させ、登記からも除くには、別途抹消登記の手続きが必要であり、登記官が分筆登記の際に一方的に「期間が過ぎているから転写しない」と判断することはできません。不動産登記規則102条1項は分筆前の土地に登記された権利を分筆後の土地にそのまま転写すると定めており、権利消滅の承諾（不動産登記法40条）のような別段の手続が提供されていない以上、存続期間満了の地上権もそのまま転写されます。
+地上権の存続期間が満了していても、それだけで登記記録上の地上権の登記が自動的に消えるわけではありません。
 
-**たとえば**、地上権の契約期間が30年で、その期間がとっくに過ぎていたとしても、地上権の抹消登記がされていない限り、登記簿上はまだ地上権が存在するものとして扱われます。分筆登記をすれば、この地上権は分筆後の乙土地の登記記録にもそのまま転写されます。
+存続期間の満了によって権利を実体的に消滅させ、登記からも除くには、別途抹消登記の手続きが必要であり、登記官が分筆登記の際に一方的に「期間が過ぎているから転写しない」と判断することはできません。
+
+不動産登記規則102条1項は分筆前の土地に登記された権利を分筆後の土地にそのまま転写すると定めており、権利消滅の承諾（不動産登記法40条）のような別段の手続が提供されていない以上、存続期間満了の地上権もそのまま転写されます。
+
+**たとえば**、地上権の契約期間が30年で、その期間がとっくに過ぎていたとしても、地上権の抹消登記がされていない限り、登記簿上はまだ地上権が存在するものとして扱われます。
+
+分筆登記をすれば、この地上権は分筆後の乙土地の登記記録にもそのまま転写されます。
+
+---
 
 ### まとめ
 
@@ -129,13 +159,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・登・記・所・録・転・写・仮・鑑・証・期・限・持・分・移 — these
+kanji 権・地・登・記・転・写・仮・鑑・証・期・限・持・分・移 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -212,15 +260,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -246,11 +294,29 @@ reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 分・筆・登・記・表・題・
 権・利・部・持・移・転・判・決・証・共・有・単・独・誤 — always draw the
 standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold):
@@ -297,9 +363,9 @@ Node 3 result (green checkmark icon): 甲土地は兄の単独所有、乙土地
 不動産登記法2条3号・4号、不動産登記規則102条1項
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -325,11 +391,29 @@ reasoning over brevity.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 地・上・権・抵・当・消・
 滅・登・記・名・義・人・承・諾・第・三・者・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold):
@@ -371,14 +455,14 @@ Node 2 → Final result (green checkmark icon):
 不動産登記法40条
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. Confirm every
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters.
+above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「表示に関する登記か権利に関する登記か」「本文の要件に加えて括弧書きの追加要件がないか」「誰の印鑑証明書か」を見抜けるようにする5パネル構成。②の色分け（権利の転写・消滅ルール＝緑、登記手続きルール＝青）を引き継いでいる。
 
@@ -403,11 +487,11 @@ diagram as an actual decision flowchart: diamond-shaped branch nodes
 with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node. Where a 肢 is resolved by a single
 check, a labeled illustrative diagram is sufficient — do not force a
-flowchart. Panel 1（肢ア）uses a side-by-side comparison frame（LEFT:
+flowchart. Panel 1（ア）uses a side-by-side comparison frame（LEFT:
 分筆の登記＝表示に関する登記、RIGHT: 持分移転登記＝権利に関する登記）
-instead of a flowchart. Panel 4（肢エ）also uses a side-by-side
+instead of a flowchart. Panel 4（エ）also uses a side-by-side
 comparison frame（LEFT: 申請人本人の印鑑証明書＝3か月以内の期限あり、
-RIGHT: 第三者の承諾書に添付する印鑑証明書＝期限なし). Panel 2（肢イ）
+RIGHT: 第三者の承諾書に添付する印鑑証明書＝期限なし). Panel 2（イ）
 must be drawn as a two-step flowchart, because 不動産登記法40条の本文の
 要件に加えて括弧書きの追加要件があることを示す必要がある. Unlike a
 glanceable summary poster, each panel MAY include a short「着眼点」
@@ -419,7 +503,15 @@ fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -445,7 +537,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 分筆登記だけでは持分は動かない
@@ -465,13 +557,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 別途持分移転登記が必要
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 第三者の権利があれば追加の承諾が必要
-Diagram: A two-step decision flowchart. Start node: 地上権者本人の承諾は
-あるか？with a はい arrow down to a diamond node（highlighted with a
-thick border): その地上権を目的とする第三者の権利の登記（抵当権など）は
+Diagram: A two-step decision flowchart. First diamond: 地上権者本人の承諾はあるか？with a small faded いいえ
+branch leading to an end node reading 消滅の登記はできない, and a はい
+arrow down to a second diamond node（highlighted with a thick border): その地上権を目的とする第三者の権利の登記（抵当権など）は
 あるか？with a green はい branch leading to a conclusion node reading
 地上権者の承諾に加え、その第三者（抵当権者）の承諾も必要, and a faded
 いいえ branch leading to a separate conclusion node reading 地上権者の
@@ -485,7 +577,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 第三者の権利があれば追加承諾
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 承諾があれば仮登記は転写されない
@@ -501,7 +593,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾があれば転写されない
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 第三者の印鑑証明書には期限がない
@@ -519,7 +611,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 第三者の分は期限なし
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 抹消登記がなければ地上権は転写される
@@ -542,10 +634,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 3項・19条2項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 分, 筆, 持, 権, 登, 記, 録, 転, 写, 仮, 鑑, 証, 抹, 消, 承, 諾
-and any character that has a visually similar Simplified Chinese variant.
-If any character renders as a Simplified Chinese variant, redraw that
+and any character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

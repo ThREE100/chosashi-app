@@ -1,38 +1,46 @@
 ## 【土地家屋調査士受験生向け】平成23年度 第17問〜基礎を残して建て直しても図面は必要〜
 
-**出題年度：平成23年度　午後の部　第17問**
+**出題年度：平成23年度　午後の部　第17問（改）**
 
-> 附属建物に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうちどれか。
->
-> ア　附属建物として登記されている建物を、登記記録上、別の１個の建物とする登記を申請する場合において、当該建物が共有であるときは、共有者全員で申請しなければならない。
->
-> イ　表題登記があり、既に各階平面図が登記所に提出されている建物について、附属建物を新築した場合には、その附属建物の新築に伴う表題部の変更の登記の申請に添付する各階平面図は、新築された附属建物のみのものでよい。
->
-> ウ　主である建物が取り壊され、その後に附属建物が取り壊された場合において、建物の滅失の登記を申請するときは、附属建物が取り壊された日付を申請情報とすることを要しない。
->
-> エ　車庫として利用されていた附属建物を、その基礎部分を残して、取り壊し、その基礎上に構造及び床面積が同一であって、物置として利用される附属建物を新築した場合に行う登記申請においては、建物図面の添付を要しない。
->
-> オ　表題登記があり、既に建物図面が登記所に提出されている建物について、当該建物の数個の附属建物のうち、その一つを残して他の全ての附属建物を取り壊した場合であっても、附属建物の滅失による表題部の変更の登記を申請するときは、建物図面の添付を省略することはできない。
->
-> 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
+> 附属建物に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうちどれか。  
+>　  
+> ア　附属建物として登記されている建物を、登記記録上、別の１個の建物とする登記を申請する場合において、当該建物が共有であるときは、共有者全員で申請しなければならない。  
+>　  
+> イ　表題登記があり、既に各階平面図が登記所に提出されている建物について、附属建物を新築した場合には、その附属建物の新築に伴う表題部の変更の登記の申請に添付する各階平面図は、新築された附属建物のみのものでよい。  
+>　  
+> ウ　主である建物が取り壊され、その後に附属建物が取り壊された場合において、建物の滅失の登記を申請するときは、附属建物が取り壊された日付を申請情報とすることを要しない。  
+>　  
+> エ　車庫として利用されていた附属建物を、その基礎部分を残して、取り壊し、その基礎上に構造及び床面積が同一であって、物置として利用される附属建物を新築した場合に行う登記申請においては、建物図面の添付を要しない。  
+>　  
+> オ　表題登記があり、既に建物図面が登記所に提出されている建物について、当該建物の数個の附属建物のうち、その一つを残して他の全ての附属建物を取り壊した場合であっても、附属建物の滅失による表題部の変更の登記を申請するときは、建物図面の添付を省略することはできない。  
+>　  
+> 1　アイ　　2　イウ　　3　イエ　　4　ウエ　　5　エオ
+
+---
 
 附属建物をめぐる登記では、「図面（建物図面・各階平面図）を添付する必要があるか」の見極めが得点源になります。すでに提出済みの図面と現況が変わらなければ省略でき、建て直しなどで現況が変われば添付が必要、という現況主義を軸に整理していきましょう。
 
-### ア：附属建物を独立させる登記は、共有者全員で申請する
+### ア：附属建物を独立させる登記は、持分の価格の過半数で申請できる（共有者全員でなければならないわけではない）
 
-附属建物を、登記記録上、主である建物から切り離して別の1個の建物とする登記は、建物の分割の登記です。分割の登記は、その建物が共有であるときは共有者全員で申請しなければなりません。所有者全員の権利関係にかかわる登記だからです。
+附属建物を、登記記録上、主である建物から切り離して別の1個の建物とする登記は、建物の分割の登記です。
 
-**たとえば**、AとBが共有する母屋の附属建物（離れ）を、独立した1個の建物として登記し直すときは、AとBの二人がそろって分割の登記を申請する必要があります。
+分割の登記を申請できるのは表題部所有者又は所有権の登記名義人で、その建物が共有であるときは、共有物の軽微変更として、令和5年4月1日施行の民法改正後の民法251条1項かっこ書き・252条1項により、各共有者の持分の価格の過半数で決することができます。
+
+分筆・合筆の登記については、この考え方に沿って持分の価格の過半数を有する共有者から申請できるとされています。建物の分割の登記も、分筆の登記と同様に共有物の軽微変更として整理できると考えられますが、建物の分割についてこれを明示した通達・先例の原文は未確認です。したがって、この整理に立てば、共有者全員で申請しなければならないとする本肢は誤りです（出題当時の平成23年は共有者全員で申請するものとされていたため、当時は正しい記述でした）。
+
+**たとえば**、A・B・Cが各3分の1ずつ共有する母屋の附属建物（離れ）を、独立した1個の建物として登記し直すとき、A・Bの持分の合計は3分の2で過半数ですから、Cの協力がなくても分割の登記を申請できます（出題当時は、A・B・Cの3人がそろって申請する必要がありました）。
 
 ### イ：追加した附属建物の分だけ、各階平面図を出せばよい
 
-すでに各階平面図が登記所に提出されている建物について附属建物を新築したときは、表題部の変更の登記に添付する各階平面図は、新たに建てた附属建物の分のものでよいとされています。既存部分の各階平面図は提出済みで変化がないため、重ねて提出させる必要がないからです。
+すでに各階平面図が登記所に提出されている建物について附属建物を新築したときは、表題部の変更の登記に添付する各階平面図は、新たに建てた附属建物の分のものでよいとされています。
+
+既存部分の各階平面図は提出済みで変化がないため、重ねて提出させる必要がないからです。
 
 **たとえば**、住宅を建てたときに各階平面図を出しており、その後に物置（附属建物）を新築した場合、変更登記に添付するのは新しい物置の各階平面図だけで足ります。
 
 ### ウ：滅失の日を書けばよく、附属の取壊し日を別に書く必要はない
 
-建物の滅失の登記で申請情報とするのは、その建物が滅失した年月日です。主である建物と附属建物が別々に取り壊されたとしても、建物全体として滅失した日を記録すれば足り、附属建物が取り壊された日付を個別に申請情報とすることは要しません。
+建物の滅失の登記で申請情報とするのは、その建物が滅失した年月日です。主である建物と附属建物が別々に取り壊された場合、登記記録上の1個の建物（主である建物と附属建物の全体）が滅失した日は、最後の取壊しによって建物全体がなくなった日、つまり附属建物の取壊し日と重なるのが通常です。そのため、申請情報として記載するのは建物全体が滅失した年月日の1つで足り、附属建物の取壊し日を、滅失の日とは別の項目として個別に記載することは要しない、というのが本肢の趣旨と整理できます。
 
 **たとえば**、母屋を先に壊し、後日その離れを壊して最終的に建物全体が滅失した場合、滅失登記には全体が滅失した日を記録すればよく、離れの取壊し日を別立てで書く必要はありません。
 
@@ -48,9 +56,11 @@
 
 **たとえば**、複数ある物置のうち一つだけ残して他を全部取り壊した場合、残る建物の位置が変わらず建物図面も提出済みであれば、変更登記で改めて建物図面を出す必要はありません。
 
+---
+
 ### まとめ
 
-- **ア（正）**　附属建物を独立させる分割登記は共有者全員で申請する
+- **ア（誤）**　附属建物を独立させる分割登記は、持分の価格の過半数で申請でき、共有者全員でなければならないわけではない
 - **イ（正）**　追加した附属建物の分だけ各階平面図を提出すればよい
 - **ウ（正）**　滅失の日を書けばよく、附属の取壊し日は別に要らない
 - **エ（誤）**　基礎を残しても建て直せば建物図面の添付が要る
@@ -58,24 +68,30 @@
 
 附属建物の図面は、「既提出＋現況不変なら省略、建て直し等で現況が変われば必要」という一本の物差しで判断すると迷いません。
 
-**正解：エオの組合せ（選択肢5番）**
+**正解：イウの組合せ（選択肢2番）**
+
+---
+
+※本記事は、令和5年4月1日施行の民法改正（共有物の変更・管理は持分の価格の過半数）に合わせた改題です。出題当時の問題は「誤っているものの組合せ」を問うもので、選択肢は「1 アイ　2 アオ　3 イウ　4 ウエ　5 エオ」、正解はエオ（5番）でした。現行法ではアが誤りになるため、設問を「正しいものの組合せ」に改め、選択肢を差し替えています。
 
 ---
 
 **このまま使える点／使う前に確認したい点**
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題年度・問題番号・正解番号（第17問＝エオ／5番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 各肢の法的根拠のうち、ア（建物の分割の登記＝共有者全員申請）、イ・オ（既提出図面がある場合の各階平面図・建物図面の省略の可否）、エ（取り壊して新築した建物についての建物図面の要否）は、不動産登記法・不動産登記令別表・準則の建物図面まわりの一般原則からの整理です。ウの滅失日の申請情報の細部は、実務上の記録方法からの整理にとどまり、条文番号を断定していない点は留意してください。
+- 出題年度・問題番号・出題当時の正解番号（第17問＝エオ／5番。本記事は改題で、正解はイウ／2番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
+- 各肢の法的根拠のうち、ア（建物の分割の登記＝持分の価格の過半数で申請。2026-10-01に現行法に改めた）、イ・オ（既提出図面がある場合の各階平面図・建物図面の省略の可否）、エ（取り壊して新築した建物についての建物図面の要否）は、不動産登記法・不動産登記令別表・準則の建物図面まわりの一般原則からの整理です。ウの滅失日の申請情報の細部は、実務上の記録方法からの整理にとどまり、条文番号を断定していない点は留意してください。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和6年度第14問「附属建物」（本シリーズで既に note-articles/r6-mondai/q14-fuzoku-tatemono.md として執筆済み）が、本問と同じ「附属建物」をテーマとする問題であることを確認しました。両問とも「附属建物の新築に伴う図面（各階平面図・建物図面）の添付の要否」という切り口を含んでいますが、具体的な設問（本問は建て替え・独立化・滅失時の図面、令和6年度第14問は先取特権・新築日の記載省略等）は異なります。全体として直接の重複ではありませんが、テーマが同じため、note投稿の際は両記事を見比べることを推奨します。
 - **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：不動産登記法54条（建物の分割の登記、附属建物を主である建物の登記記録から分割して別個の建物とする登記と定義）、不動産登記規則81条〜84条（建物図面・各階平面図の作成単位・内容・分割登記時の記載）を条文原文で再確認しましたが、各肢の結論・条文番号に誤りは見つかりませんでした。直近の改正による変更もありません。
+- **改題とアの最新法令への統一（2026-10-01、ユーザー指示）**：アの本文・まとめ・図解は、令和5年4月1日施行の民法251条1項かっこ書き・252条1項（形状又は効用の著しい変更を伴わない変更は持分の価格の過半数）に基づく「持分の価格の過半数で申請できる」に統一しました。建物の分割の登記を共有物の軽微変更として扱う点は、分筆の登記と同様の整理であり、これを定めた通達の原文は未確認です。この結果、アは出題当時は正・現行法では誤となり、出題当時の設問（誤っているものの組合せ）のままでは誤りの肢がア・エ・オの3つとなって選択肢に該当がなくなるため、ユーザーの指示により、設問を「正しいものの組合せ」に改め、選択肢を「1 アイ　2 イウ　3 イエ　4 ウエ　5 エオ」に差し替えて、正解をイウ（2番）としました（イ・ウは正しく、ア・エ・オは誤りで、各肢の内容は出題当時のまま）。
+- **適用法令の現行性チェック（2026-10-01実施）**：`note-articles/laws/`（2026-08-04取得）で、不動産登記法54条1項1号（建物の分割の登記の定義）・57条（建物の滅失の登記）、不動産登記令別表の十四の項（建物の表題部の変更の登記の添付情報。イ：所在・地番の変更は変更後の建物図面、ロ：床面積の変更は変更後の建物図面及び各階平面図、ハ：附属建物を新築したときは変更後の建物図面及び各階平面図）、不動産登記規則81条〜84条（建物図面・各階平面図の作成単位と内容）を確認しました。本文の条文番号・用語は現行法と整合しており、本文の変更はありません（正誤判定も変わりません）。エは、取り壊して新たに建てた附属建物が令別表十四の項ハの「附属建物を新築したとき」に当たると整理でき、建物図面が要るという結論と整合します。一方、イ（各階平面図は新築した附属建物の分だけでよい）とオ（附属建物の滅失だけで残る建物に変化がなければ建物図面を省略できる）は、令別表十四の項が建物図面・各階平面図の添付を求める場合として挙げているのが上記のイ〜ハであること、規則81条が主である建物と附属建物を合わせた一個の建物ごとの作成を定めていることからは、条文の文言だけで直接導けず、公式正解（エオが誤り）に沿った実務上の整理である点を、引き続きご留意ください。ウの滅失の日の書き方も、「建物全体が滅失した日」と「附属建物の取壊し日」の関係の細部は条文で確認できていません。そのため、図解（②・⑤）では、滅失登記の日付欄は1つだけを描き、附属建物の取壊し日の別記は「不要」を示す薄い札で表し、✕は付けないようにしました。
 
 ---
 
 ## 見出し画像用フレーズ
 
-- 附属建物を独立させるなら、共有者全員でなんです
+- 附属建物を独立させるのは、持分の過半数でできるんです
 - 追加した附属建物の分だけ、各階平面図を出せばOK
 - 滅失の日を書けば、附属の取壊し日は別にいらないんです
 - 基礎を残して建て直しても、建物図面はやっぱり要る
@@ -109,19 +125,37 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 属・図・録・築 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants (e.g. 図 not 图).
+kanji 属・図 — these must be rendered in their standard Japanese
+forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
 附属建物の図面、いる場面といらない場面
 
 Subtitle (smaller, centered, 1行):
-平成23年度 午後の部 第17問－附属建物
+平成23年度 午後の部 第17問（改）－附属建物
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -129,20 +163,23 @@ Subtitle (smaller, centered, 1行):
 --- CARD 1 ---
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
-独立させる登記は共有者全員で
+独立させる登記は持分の過半数で
 Illustration: A small shed (附属建物) being detached from a main house
-and becoming its own independent building icon, with two co-owner
-characters both stamping the 分割登記 seal together.
+and becoming its own independent building icon, with three co-owner
+characters (A・B・C, each with a small "1/3" tag) — A and B stamp the
+分割登記 seal together (with a green ✓), while a faint greyed-out
+silhouette of C stands off to the side, not required.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-全員で申請
+過半数で申請可
 
 --- CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 追加分の各階平面図だけでよい
 Illustration: A main house with an existing filed floor-plan document,
-gaining a new small shed, with only the shed's own small各階平面図
-document being submitted, not the whole house's plan again.
+gaining a new small shed, with only the shed's own small 各階平面図
+document being submitted (a checkmark on it), and the house's existing
+plan shown faded and NOT re-submitted.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 追加分のみ
 
@@ -152,7 +189,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 滅失の日だけ書けば足りる
 Illustration: A main house demolished first, then its attached shed
 demolished later, both converging into a single 滅失登記 stamp with
-one overall date.
+one overall date (do NOT draw a separate second date for the shed).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 取壊し日は別記不要
 
@@ -162,7 +199,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 基礎を残しても建て直せば図面必要
 Illustration: A garage being demolished down to its foundation slab,
 then rebuilt as a storage shed of the same size on the same
-foundation, with a blueprint document still required with a checkmark.
+foundation, with a NEW 建物図面 document being attached to the
+application and marked with a green checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 図面は必要
 
@@ -170,26 +208,26 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 変化なければ図面は省略できる
-Illustration: Several small shed icons with one being demolished while
-the others remain unchanged, next to an already-filed blueprint
-document with a checkmark.
+Illustration: Several small shed icons in a row, all but ONE of them
+demolished (rubble) while the single remaining shed stays unchanged in
+the same position, next to an already-filed 建物図面 document labeled
+提出済み; no new document is attached (draw an empty dotted attachment
+tray labeled 添付不要, with no checkmark and no red X on it).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 省略できる
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 属・図・録・築. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 属・図. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
-a short heading + a short conclusion tag, at a glance.
+a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -204,12 +242,12 @@ DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
 reader exactly what diagram they should draw on scratch paper while
 reading this type of problem, AND the order in which they should check
 conditions to get there — a co-owner duo stamping a 分割登記 seal
-together for 肢ア, an existing filed 各階平面図 document next to a newly
-built small shed for 肢イ, a demolition timeline converging into a single
-滅失登記 date stamp for 肢ウ, a garage demolished down to its foundation
-slab and rebuilt as a same-size storage shed for 肢エ, and a row of small
+together for ア, an existing filed 各階平面図 document next to a newly
+built small shed for イ, a demolition timeline converging into a single
+滅失登記 date stamp for ウ, a garage demolished down to its foundation
+slab and rebuilt as a same-size storage shed for エ, and a row of small
 shed icons with one demolished beside an already-filed blueprint document
-for 肢オ. Where a 肢 requires checking multiple conditions in sequence
+for オ. Where a 肢 requires checking multiple conditions in sequence
 before reaching a conclusion, draw the panel's diagram as an actual
 decision flowchart: diamond-shaped branch nodes with the condition
 written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
@@ -231,13 +269,16 @@ conclusion. Do not include case or precedent numbers (article/regulation
 numbers are fine); keep the callout text as written below verbatim, and
 keep every condition each callout describes faithful to the article's
 own body text — do not drop or merge a required element. Panels 4 and 5
-(肢エ・肢オ) share one decision tree about whether a 建物図面 attached to
+(エ・オ) share one decision tree about whether a 建物図面 attached to
 a 表題部の変更の登記 can be omitted, keyed on a single diamond node asking
-今回の変更登記の対象となる部分の現況(位置・形状)に変化があるか: panel 4
-highlights the はい branch (建て替えにより現況が変わった場合 → 建物図面
-の添付が必要), panel 5 highlights the いいえ branch (残る建物に変化がな
-い場合 → 建物図面の添付を省略できる), and each panel renders the other
-branch faded rather than omitting it. Panels 1-3 (肢ア・イ・ウ) each
+今回の変更登記は、新たな附属建物の新築を伴うか: panel 4 highlights the
+はい branch (取り壊して新たに建てた場合は、構造・床面積が同一でも別個の
+建物の新築なので 建物図面の添付が必要), panel 5 highlights the いいえ
+branch (附属建物の滅失だけで新築を伴わない場合は、残る建物に変化がなく
+建物図面が提出済みなら 建物図面の添付を省略できる), and each panel renders
+the other branch faded rather than omitting it. In エ the structure, the
+floor area and the foundation are all the same, so do NOT draw or label any
+change in position or shape for panel 4. Panels 1-3 (ア・イ・ウ) each
 resolve with a single check and do not need a full flowchart.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
@@ -272,28 +313,30 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成23年度午後第17問 作図ガイド（附属建物）
+平成23年度午後第17問（改） 作図ガイド（附属建物）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
-分割登記は共有者全員で申請する
+分割登記は持分の過半数で申請できる
 Diagram: A small detached shed (附属建物) being separated from a main
 house and becoming its own independent building icon on a登記記録
-document, with two co-owner characters (A・B) both stamping the 分割登記
-seal together side by side.
+document. Beside it, a balance scale with the three co-owner characters
+(A・B・C, each with a small "1/3" tag): A・B on one pan outweigh C on the
+other pan; A and B stamp the 分割登記 seal together with a green ✓, while
+C stands apart, not required.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、附属建物を登記記録上独立させる登記が「分割登記」であることを確認
-します。次に、その建物が共有かどうかを確認し、共有であれば共有者全員で
-申請しなければならないと判断します。
+します。次に、その建物が共有であれば、申請人となる共有者の持分の価格の
+合計が過半数かどうかを確認し、過半数であれば申請することができます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-共有なら全員で申請
+過半数なら申請できる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 追加分の各階平面図だけで足りる
@@ -310,71 +353,78 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 新築分のみで足りる
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 滅失登記に書く日付は1つだけでよい
 Diagram: A left-to-right timeline: first the main house being demolished,
-then later the attached shed (附属建物) being demolished (this second
-point labeled 建物全体の滅失日), converging into a single 滅失登記 stamp
-with one date. A separate small arrow pointing at "附属建物が取り壊された
-日を別記" has a red ✕ mark over it.
+then later the attached shed (附属建物) being demolished, both converging
+into a single 滅失登記 stamp that carries ONE date field labeled 建物全体が
+滅失した日 (do NOT draw a second date field for the shed). Beside the
+stamp, a small grey dotted tag reading 附属建物の取壊し日の別記は不要
+(draw it as a faded "not required" tag with NO red ✕, because a separate
+entry is merely not required, not forbidden).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、主である建物と附属建物のどちらが先に取り壊されたかを確認します。
-次に、建物全体が滅失した日（＝最後に取り壊された日）を申請情報とすれば
-足り、附属建物の取壊し日を別途記載する必要はないと判断します。
+次に、建物全体が滅失した日を申請情報とすれば足り、附属建物の取壊し日を
+別途記載する必要はないと判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全体の滅失日のみでよい
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
-建て替えなら現況変化で図面が必要
+基礎を残しても建て直せば図面が必要
 Diagram: A garage (車庫として利用の附属建物) being demolished down to its
 foundation slab, then rebuilt as a storage shed (物置) of the same
-structure and floor area on the same foundation. Below this, a shared
-decision-tree diamond labeled 今回の変更登記の対象となる部分の現況(位置
-・形状)に変化があるか, with the はい branch drawn with a thick
-highlighted border leading to a conclusion node 建物図面の添付が必要,
-and the いいえ branch rendered in a faded, greyed-out style leading to a
-dimmed conclusion node 建物図面の添付を省略できる.
+structure and floor area on the same foundation (draw the new shed in the
+same position and shape as the old garage). Below this, a shared
+decision-tree diamond labeled 今回の変更登記は、新たな附属建物の新築を
+伴うか, with the はい branch drawn with a thick highlighted border leading
+to a conclusion node 建物図面の添付が必要, and the いいえ branch rendered
+in a faded, greyed-out style leading to a dimmed conclusion node 残る建物
+に変化がなく提出済みなら建物図面の添付を省略できる.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、いったん取り壊してから新たに建てたものかどうかを確認します。次
-に、たとえ構造・床面積・基礎が同一でも、物理的に別個の建物の新築である
-以上、現況を示す建物図面の添付が必要になると判断します。
+まず、いったん取り壊してから新たに建てた、つまり附属建物の新築を伴うか
+どうかを確認します。次に、たとえ構造・床面積・基礎が同一でも、物理的に
+別個の建物の新築である以上、建物図面の添付が必要になると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 図面添付が必要
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 変化なしの残存建物は図面省略できる
-Diagram: Several small shed icons (複数の附属建物) with one being
-demolished while the others remain unchanged, next to an already-filed
-建物図面 document with a checkmark. Below this, the same shared
-decision-tree diamond labeled 今回の変更登記の対象となる部分の現況(位置
-・形状)に変化があるか, but this time the いいえ branch is drawn with a
-thick highlighted border leading to a conclusion node 建物図面の添付を省
-略できる, and the はい branch (建て替え等で現況が変わる場合) is rendered
-in a faded, greyed-out style.
+Diagram: Several small shed icons (複数の附属建物) of which all but ONE
+have been demolished (rubble), while the single remaining shed stays
+unchanged in the same position, next to an already-filed 建物図面
+document labeled 提出済み. Below this, the same shared decision-tree
+diamond labeled 今回の変更登記は、新たな附属建物の新築を伴うか, but this
+time the いいえ branch is drawn with a thick highlighted border leading
+to a conclusion node 残る建物に変化がなく提出済みなら建物図面の添付を省
+略できる, and the はい branch (取り壊して新たに建てた場合) is rendered in
+a faded, greyed-out style leading to a dimmed conclusion node 建物図面の
+添付が必要.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、残る建物の位置・形状に変化が生じるかどうかを確認します。次に、変
-化がなく建物図面が既に提出済みであれば、附属建物の滅失による変更登記で
-あっても建物図面の添付を省略できると判断します。
+まず、今回の変更登記が附属建物の滅失だけで、新たな附属建物の新築を伴わ
+ないことを確認します。次に、残る建物の位置・形状に変化がなく建物図面が
+既に提出済みであれば、附属建物の滅失による変更登記であっても建物図面の
+添付を省略できると判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 省略できる
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法54条（建物の分割の登記）、不動産登記規則81条〜84条（建物図
-面・各階平面図）に基づく整理です。
+不動産登記法54条（建物の分割の登記）、民法251条1項・252条1項（ア）、不動産登記令別表（建物の表題部の
+変更の登記の添付情報）、不動産登記規則81条〜84条（建物図面・各階平面図）
+に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 属・図・録・築・滅. If any character
+Chinese, paying special attention to 属・図・録・築・滅・変・請・済. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

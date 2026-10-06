@@ -2,51 +2,71 @@
 
 **出題年度：平成27年度　午後の部　第11問**
 
-> 登記の代位申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　Ｂが、Ａが所有権の登記名義人となっている土地をＡから賃借し、Ａの承諾を得てその一部をＣに転貸した場合には、Ｃは、Ａに代位して、転貸に係る土地部分を分筆する分筆の登記を申請することができる。
->
-> イ　一筆の土地の一部について地役権の設定を受けた地役権者は、代位による分筆の登記を申請することができる。
->
-> ウ　Ａ及びＢを所有権の登記名義人とする土地について、ＡがＢに対して共有物分割の訴えを提起し、確定判決を得た場合には、Ａは、その正本を代位原因を証する情報として提供して、Ｂに代位して分筆の登記を申請することができる。
->
-> エ　一筆の土地の一部について処分禁止の仮処分の決定を得た債権者は、仮処分の登記の前提として、当該決定の正本を代位原因を証する情報として提供して、当該土地の所有権の登記名義人に代位して分筆の登記を申請することができる。
->
-> オ　農地法第5条の規定による都道府県知事の許可の前に農地の一部を買い受けた者は、条件付所有権移転の仮登記をする前提として、代位による分筆の登記を申請することはできない。
->
+> 登記の代位申請に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　Ｂが、Ａが所有権の登記名義人となっている土地をＡから賃借し、Ａの承諾を得てその一部をＣに転貸した場合には、Ｃは、Ａに代位して、転貸に係る土地部分を分筆する分筆の登記を申請することができる。  
+>　  
+> イ　一筆の土地の一部について地役権の設定を受けた地役権者は、代位による分筆の登記を申請することができる。  
+>　  
+> ウ　Ａ及びＢを所有権の登記名義人とする土地について、ＡがＢに対して共有物分割の訴えを提起し、確定判決を得た場合には、Ａは、その正本を代位原因を証する情報として提供して、Ｂに代位して分筆の登記を申請することができる。  
+>　  
+> エ　一筆の土地の一部について処分禁止の仮処分の決定を得た債権者は、仮処分の登記の前提として、当該決定の正本を代位原因を証する情報として提供して、当該土地の所有権の登記名義人に代位して分筆の登記を申請することができる。  
+>　  
+> オ　農地法第5条の規定による都道府県知事の許可の前に農地の一部を買い受けた者は、条件付所有権移転の仮登記をする前提として、代位による分筆の登記を申請することはできない。  
+>　  
 > 1　アイ　　2　アオ　　3　イウ　　4　ウエ　　5　エオ
 
-代位申請とは、本来は登記名義人（債務者）が申請すべき登記を、その債権者が「本人に代わって」申請する仕組みです（民法423条）。この分野は「自分の登記を実現するために、その前提としてどうしても他人名義の分筆登記が必要か」という視点で一つずつ当てはめると、正誤の判断がぶれなくなります。
+---
+
+代位申請とは、本来は登記名義人（債務者）が申請すべき登記を、その債権者が「本人に代わって」申請する仕組みです（民法423条）。
+
+この分野は「自分の登記を実現するために、その前提としてどうしても他人名義の分筆登記が必要か」という視点で一つずつ当てはめると、正誤の判断がぶれなくなります。
 
 ### ア：土地の全部を借りている転借人は、代位して分筆を申請することはできない
 
-Ｂは土地の全部をＡから賃借しており、その一部をＣに転貸しています。Ｂの賃借権はもともと土地の全部を対象としているため、その土地を分筆してもしなくても、Ｂ（およびその転借人であるＣ）が借りている範囲・権利関係は変わりません。つまり、分筆しなければ権利が守れないという関係にはないのです。これに加えて、賃借権（転借権を含む）そのものには、そもそも登記を請求できる権利が当然に備わっているわけでもありません。この2つの理由が揃うため、転借人ＣがＡに代位して分筆の登記を申請することはできません。
+Ｂは土地の全部をＡから賃借しており、その一部をＣに転貸しています。Ｂの賃借権はもともと土地の全部を対象としているため、その土地を分筆してもしなくても、Ｂ（およびその転借人であるＣ）が借りている範囲・権利関係は変わりません。
+
+つまり、分筆しなければ権利が守れないという関係にはないのです。これに加えて、賃借権（転借権を含む）そのものには、そもそも登記を請求できる権利が当然に備わっているわけでもありません。
+
+この2つの理由が揃うため、転借人ＣがＡに代位して分筆の登記を申請することはできません。
 
 **たとえば**、Ａさんの土地全部を借りているＢさんが、その一角をＣさんに又貸ししたとします。Ｃさんは「自分の借りている部分だけ切り分けてほしい」と思っても、地主のＡさんに代わって勝手に分筆登記を出すことはできません。
 
 ### イ：一筆の土地の一部にも地役権は設定でき、代位分筆までは必要にならない
 
-地役権は、一筆の土地の一部だけを対象にして設定することができます。つまり、わざわざ分筆をしなくても地役権の設定登記は可能なので、地役権者が「分筆しないと自分の権利が守れない」という関係にはなりません。したがって、地役権者が代位による分筆の登記を申請することはできません。
+地役権は、一筆の土地の一部だけを対象にして設定することができます。つまり、わざわざ分筆をしなくても地役権の設定登記は可能なので、地役権者が「分筆しないと自分の権利が守れない」という関係にはなりません。
+
+したがって、地役権者が代位による分筆の登記を申請することはできません。
 
 **たとえば**、隣の土地の一部だけを通路として使わせてもらう地役権を得たＣさんは、その通路部分を独立した一筆に切り分けなくても地役権の登記を受けられます。だからこそ、土地所有者に代わって分筆登記を出す必要も権限もない、というわけです。
 
 ### ウ：共有物分割の確定判決があれば、他の共有者に代位して分筆できる
 
-Ａ・Ｂが共有する土地は、原則として共有者全員で分筆の登記を申請します。しかし、共有物分割の訴えについて確定判決を得た場合には、その判決正本を代位原因を証する情報として提供することで、申請に協力しない他の共有者Ｂに代位して、Ａが単独で分筆の登記を申請することができます。
+Ａ・Ｂが共有する土地の分筆の登記は、共有者の持分の価格の過半数で決めて申請することができます（令和5年4月1日施行の民法改正後の民法251条1項・252条1項による扱い。出題当時は共有者全員で申請するものとされていました）。
+
+持分が2分の1ずつのＡ・Ｂでは、Ａだけでは過半数に届かず、Ｂの協力がなければ申請できません。
+
+しかし、共有物分割の訴えについて確定判決を得た場合には、その判決正本を代位原因を証する情報として提供することで、申請に協力しない他の共有者Ｂに代位して、Ａが単独で分筆の登記を申請することができます。
 
 **たとえば**、Ａさんが「この共有地をきちんと分けたい」と裁判を起こして勝訴が確定したのに、Ｂさんが手続に非協力だったとします。Ａさんはその確定判決の正本を添えて、Ｂさんの代わりに分筆の登記を申請できます。
 
 ### エ：処分禁止の仮処分を得た債権者は、その前提として代位で分筆できる
 
-一筆の土地の一部について処分禁止の仮処分の決定を得た債権者は、その仮処分の登記をする前提として、決定の正本を代位原因を証する情報として提供し、土地の所有権の登記名義人に代位して分筆の登記を申請することができます。仮処分の対象部分を独立した一筆にしないと、仮処分の登記そのものができないからです。
+一筆の土地の一部について処分禁止の仮処分の決定を得た債権者は、その仮処分の登記をする前提として、決定の正本を代位原因を証する情報として提供し、土地の所有権の登記名義人に代位して分筆の登記を申請することができます。
+
+仮処分の対象部分を独立した一筆にしないと、仮処分の登記そのものができないからです。
 
 **たとえば**、土地の一部について「勝手に売ったりしないように」と裁判所から処分禁止の仮処分決定を得た債権者は、その部分を分筆しないと仮処分登記が入れられません。そこで、決定正本を添えて所有者に代位し、分筆の登記を申請できます。
 
 ### オ：農地法の許可前でも、条件付仮登記の前提として代位分筆はできる
 
-農地法5条の許可を受ける前に農地の一部を買い受けた者は、まだ本登記はできませんが、条件付所有権移転の仮登記をすることはできます。そして、その仮登記をする前提として、代位による分筆の登記を申請することができます。したがって「申請することはできない」とする本肢は誤りです。
+農地法5条の許可を受ける前に農地の一部を買い受けた者は、まだ本登記はできませんが、条件付所有権移転の仮登記をすることはできます。
+
+そして、その仮登記をする前提として、代位による分筆の登記を申請することができます。したがって「申請することはできない」とする本肢は誤りです。
 
 **たとえば**、農地の一部を買ったＣさんが、まだ都道府県知事の許可を得ていない段階でも、「許可が下りたら所有権を移す」という条件付きの仮登記を入れることができます。その前提として、買った部分を分筆する登記を、所有者に代位して申請できます。
+
+---
 
 ### まとめ
 
@@ -68,6 +88,7 @@
 - 出題番号・正解番号（4番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の根拠について、代位申請の基本的な仕組み（民法423条）はデータベースのexplanationフィールドに明記されています。一方、ア〜オの各判断（転借人の代位不可、地役権者の代位不可、共有物分割確定判決による代位分筆、処分禁止仮処分の前提としての代位分筆、農地法許可前の条件付仮登記の前提としての代位分筆）は、いずれも代位申請に関する先例・一般原則からの説明であり、個別の先例番号までは元データに正確な形で残っていなかったため、本記事では条文番号・先例番号を断定せず、原則として記載しています。実際の答案対策では、各先例の番号を別途ご確認ください。
 - **アの理由づけの精緻化**：アの「分筆しなければ権利が守れない関係にはない」という理由について、当初はCの立場から抽象的に述べていましたが、データベースのexplanationフィールドの記載（BはAから土地の全部を賃借しているため、分筆しないと自己の債権が保全されないものではない）に立ち返り、Bの賃借権がもともと土地の全部を対象としている（＝分筆の有無で借りている範囲が変わらない）という具体的な事実に理由づけを結びつける形に修正しました。結論（アは誤り＝Cは代位申請できない）自体は変わりません。
+- **最新法令チェック（2026-10-01実施）**：ウの本文は「共有する土地は、原則として共有者全員で分筆の登記を申請する」としていましたが、令和5年4月1日施行の民法改正（民法251条1項・252条1項）と、これを受けた登記実務（令和5年3月28日民二第538号通達。通達の原文はこの点検では未確認）により、共有地の分筆は持分の価格の過半数で決めて申請できる扱いになったため、本文を現行の扱いに改め、出題当時の扱いを括弧書きで残しました。Ａ・Ｂが各2分の1の本肢ではＡだけでは過半数に届かないので、確定判決を代位原因として代位申請するという正誤（正）は変わりません。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成27年度より後に実施された試験（平成28年度〜令和7年度、2026年7月時点でデータベースに存在する全193問）で、本問（登記の代位申請）と同一・類似の問題が再出題されていないかを確認しました。**強い重複が見つかりました**：本問イ（一筆の土地の一部について地役権の設定を受けた地役権者は、代位による分筆の登記を申請することができる）と、令和元年度第14問イは、文言・結論・理由（地役権は土地の一部にも設定でき、分筆しなくても地役権設定登記請求権が保全されるため、代位申請はできない＝いずれも誤り）がほぼ一致しています。また本問エ（処分禁止の仮処分を得た債権者が、仮処分登記の前提として代位分筆できる）も、令和元年度第14問ウとほぼ同一の論点・結論（代位分筆できる＝正しい）です。「登記の代位申請」は令和6年度第11問でも出題されていますが、こちらは異なる具体的場面（附属建物の分割、合筆、区分建物の表題登記未了、床面積変更）を扱っており重複は見当たりません。将来この年度についてnote記事を作成する際は、令和元年度第14問との重複に留意してください。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -108,13 +129,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 代・位・申・請・転・借・地・役・権・共・有・分・筆・確・定・判・決・処・仮・農・許・可・登・記 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -199,20 +238,20 @@ these 5 headings):
 5. 許可前でも条件付仮登記の前提で代位可
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、`infographic-prompt-template.md`の
 「⑤ 作図ガイド型」ルールに基づき、問題文を読んだときに実際に手を動かして
@@ -223,8 +262,8 @@ tag, at a glance.
 その権利を実現するために分筆の登記がどうしても必要か、という2段階の決定
 木）を共有しているため、5パネルすべてで同一の決定木を土台にし、各パネル
 は自分の肢に関係する分岐だけを太い縁取り・実色で強調し、関係しない分岐は
-薄いグレーの点線で表示する構成にした。肢ア（転借人）は2段階とも「いいえ」
-側が関係し、肢イ（地役権者）は2段階目の「いいえ」側が関係し、肢ウ・エ・
+薄いグレーの点線で表示する構成にした。ア（転借人）は2段階とも「いいえ」
+側が関係し、イ（地役権者）は2段階目の「いいえ」側が関係し、ウ・エ・
 オ（共有物分割・処分禁止の仮処分・条件付仮登記）は2段階とも「はい」側が
 関係する。各パネルの着眼点コールアウトは「まず〜を確認し、次に〜を確認す
 る」という確認の順序を明示する文にしている。
@@ -308,7 +347,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -335,7 +374,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 転借人は代位不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地役権は土地の一部にも設定できる
@@ -360,7 +399,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 分筆不要だから不可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 分割の実現には分筆が必要になる
@@ -385,7 +424,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 確定判決正本で代位可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 仮処分の登記には分筆が前提になる
@@ -411,7 +450,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 仮処分の前提で代位可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 条件付仮登記にも分筆が前提になる
@@ -439,8 +478,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：代位申請の基本的な仕組み(民法423条)。ア〜オの各判断は代位申
-請に関する先例・一般原則によるものであり、個別の先例番号は本記事では
-断定していません。
+請に関する先例・一般原則による。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

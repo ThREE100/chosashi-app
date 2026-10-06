@@ -2,51 +2,67 @@
 
 **出題年度：令和元年度　午後の部　第11問**
 
-> 一の申請情報により申請することができる登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　甲土地及び乙土地の表題部所有者であるＡは、甲土地の表題部所有者の氏名についての変更の登記と、乙土地を甲土地に合筆する合筆の登記を、一の申請情報によって申請することができない。
->
-> イ　同一の土地について、地目の変更の登記と地積の更正の登記は、一の申請情報によって申請することができない。
->
-> ウ　甲建物を取り壊して、その敷地上に乙建物を新築した場合に、甲建物についての建物の滅失の登記と、乙建物についての建物の表題登記は、一の申請情報によって申請することができない。
->
-> エ　同一の登記所の管轄区域内に、いずれも所有権の登記名義人がＡである甲土地と乙土地とが隣接して存在する場合において、宅地造成が完了して甲土地と乙土地の地目が同一の日に雑種地から宅地となったときは、甲土地の地目の変更の登記と乙土地の地目の変更の登記は、一の申請情報によって申請することができる。
->
-> オ　同一の登記所の管轄区域内にある甲土地及び乙土地について、表題部所有者がＡである甲土地の分筆の登記と、所有権の登記名義人がＡである乙土地の分筆の登記は、一の申請情報によって申請することができない。
->
+> 一の申請情報により申請することができる登記に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　甲土地及び乙土地の表題部所有者であるＡは、甲土地の表題部所有者の氏名についての変更の登記と、乙土地を甲土地に合筆する合筆の登記を、一の申請情報によって申請することができない。  
+>　  
+> イ　同一の土地について、地目の変更の登記と地積の更正の登記は、一の申請情報によって申請することができない。  
+>　  
+> ウ　甲建物を取り壊して、その敷地上に乙建物を新築した場合に、甲建物についての建物の滅失の登記と、乙建物についての建物の表題登記は、一の申請情報によって申請することができない。  
+>　  
+> エ　同一の登記所の管轄区域内に、いずれも所有権の登記名義人がＡである甲土地と乙土地とが隣接して存在する場合において、宅地造成が完了して甲土地と乙土地の地目が同一の日に雑種地から宅地となったときは、甲土地の地目の変更の登記と乙土地の地目の変更の登記は、一の申請情報によって申請することができる。  
+>　  
+> オ　同一の登記所の管轄区域内にある甲土地及び乙土地について、表題部所有者がＡである甲土地の分筆の登記と、所有権の登記名義人がＡである乙土地の分筆の登記は、一の申請情報によって申請することができない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
 
-一の申請情報による申請（いわゆる一括申請）は、原則として「登記の目的・登記原因及びその日付・申請人」が同一であることが必要です（不登令4条ただし書）。ただし、不動産登記規則35条には、この原則の例外として一括申請が認められる場合が列挙されています。この原則と例外の当てはめが勝負どころです。
+---
+
+一の申請情報による申請（いわゆる一括申請）は、原則として「登記の目的・登記原因及びその日付・申請人」が同一であることが必要です（不登令4条ただし書）。
+
+ただし、不動産登記規則35条には、この原則の例外として一括申請が認められる場合が列挙されています。この原則と例外の当てはめが勝負どころです。
 
 ### ア：氏名変更の登記と合筆の登記は、一の申請情報でまとめて申請できる
 
-同一の不動産についてする二以上の登記が、表題部の変更・更正の登記と、分筆または合筆の登記であるときは、一の申請情報によって申請することができます（不登規則35条7号）。表題部所有者の氏名の変更の登記と合筆の登記は、まさにこの例外に当てはまるため、一の申請情報で申請することができます。したがって「申請することができない」とする記述は誤りです。
+同一の不動産についてする二以上の登記が、表題部の変更・更正の登記と、分筆または合筆の登記であるときは、一の申請情報によって申請することができます（不登規則35条7号）。
+
+表題部所有者の氏名の変更の登記と合筆の登記は、まさにこの例外に当てはまるため、一の申請情報で申請することができます。したがって「申請することができない」とする記述は誤りです。
 
 **たとえば**、Aさんが結婚などで氏を変えたため甲土地・乙土地の表題部所有者の氏名を直しつつ、あわせて乙土地を甲土地に合筆したいという場合、氏名変更と合筆をひとまとめにして一件で申請することができます。
 
 ### イ：地目の変更と地積の更正も、一の申請情報でまとめて申請できる
 
-同一の不動産についてする表題部の変更または更正の登記は、一の申請情報によって申請することができます（不登規則35条6号）。地目の変更の登記も地積の更正の登記も、いずれも同一の土地の表題部の登記事項に関する変更・更正であるため、一の申請情報でまとめて申請することができます。よって「申請することができない」とする記述は誤りです。
+同一の不動産についてする表題部の変更または更正の登記は、一の申請情報によって申請することができます（不登規則35条6号）。
+
+地目の変更の登記も地積の更正の登記も、いずれも同一の土地の表題部の登記事項に関する変更・更正であるため、一の申請情報でまとめて申請することができます。よって「申請することができない」とする記述は誤りです。
 
 **たとえば**、同じ一筆の土地について、現況が畑から宅地に変わったことによる地目変更と、測り直して面積の誤りを直す地積更正を、一件の申請でまとめて処理することができます。
 
 ### ウ：滅失の登記と表題登記は、一の申請情報では申請できない
 
-一の申請情報でまとめられるのは、原則として登記の目的・登記原因及びその日付が同一の場合です（不登令4条）。甲建物の滅失の登記と乙建物の表題登記は、そもそも対象となる不動産が別であり、登記の目的も登記原因もその日付も同一ではありません。したがって、これらを一の申請情報によって申請することはできません。「申請することができない」とする記述は正しいものです。
+一の申請情報でまとめられるのは、原則として登記の目的・登記原因及びその日付が同一の場合です（不登令4条）。甲建物の滅失の登記と乙建物の表題登記は、そもそも対象となる不動産が別であり、登記の目的も登記原因もその日付も同一ではありません。
+
+したがって、これらを一の申請情報によって申請することはできません。「申請することができない」とする記述は正しいものです。
 
 **たとえば**、古い母屋（甲建物）を取り壊して、その跡地に新しい家（乙建物）を建てた場合、「甲建物が消えた」という滅失の登記と、「乙建物が生まれた」という表題登記は、別々の建物の別々の出来事なので、一件でまとめて申請することはできません。
 
 ### エ：同一日・同一事由の二筆の地目変更は、一の申請情報で申請できる
 
-同一の登記所の管轄区域内で隣接し、いずれも所有権の登記名義人がAである甲土地・乙土地について、宅地造成の完了により地目が同一の日に雑種地から宅地へと変わったときは、登記の目的（地目変更）・登記原因及びその日付が同一であり、申請人も同一です。したがって、両土地の地目の変更の登記を一の申請情報によって申請することができます（不登令4条ただし書）。「申請することができる」とする記述は正しいものです。
+同一の登記所の管轄区域内で隣接し、いずれも所有権の登記名義人がAである甲土地・乙土地について、宅地造成の完了により地目が同一の日に雑種地から宅地へと変わったときは、登記の目的（地目変更）・登記原因及びその日付が同一であり、申請人も同一です。
+
+したがって、両土地の地目の変更の登記を一の申請情報によって申請することができます（不登令4条ただし書）。「申請することができる」とする記述は正しいものです。
 
 **たとえば**、Aさんが隣り合う2筆の土地をまとめて宅地に造成し、同じ日に2筆とも雑種地から宅地になったのであれば、2筆の地目変更を一件の申請でまとめて出すことができます。
 
 ### オ：表題部所有者の土地と登記名義人の土地の分筆も、一の申請情報で申請できる
 
-甲土地・乙土地の分筆の登記は、いずれも登記の目的が「分筆」で同一であり、申請人もいずれもAで同一です。一方が表題部所有者、他方が所有権の登記名義人であっても、同一の登記所の管轄区域内であれば、一の申請情報によって申請することができます。したがって「申請することができない」とする記述は誤りです。
+甲土地・乙土地の分筆の登記は、いずれも登記の目的が「分筆」で同一であり、申請人もいずれもAで同一です。
+
+一方が表題部所有者、他方が所有権の登記名義人であっても、同一の登記所の管轄区域内であれば、一の申請情報によって申請することができます。したがって「申請することができない」とする記述は誤りです。
 
 **たとえば**、Aさんが持つ2筆の土地について、片方はまだ表題部所有者の段階、もう片方は所有権の登記まで済んでいるという違いがあっても、どちらもAの土地を分筆するという同じ目的なので、2筆の分筆を一件でまとめて申請することができます。
+
+---
 
 ### まとめ
 
@@ -66,9 +82,9 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（5番＝ウ・エ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
-- 各肢の根拠のうち、肢ア（不登規則35条7号：表題部の変更・更正と分合筆の一括）、肢イ（不登規則35条6号：同一不動産の表題部の変更・更正の一括）、肢エ・肢オ（不登令4条ただし書：目的・原因・日付・申請人の同一）は条文レベルで確認できたものです。肢ウ（滅失登記と表題登記は目的・原因・不動産が異なるため一括不可）は、不登令4条の一般原則からの当てはめによる説明です。
-- なお、この問題はアプリDBのexplanation（条文根拠解説）が空欄であったため、各肢の正誤は検証済みのpitfalls（reviewed=true）と正解番号（5番＝ウエ）を根拠にしています。初期ドラフト（approach）では肢アを「正しい」とする記述と食い違いがありましたが、検証済みデータと正解の組合せ（ウエ）に整合させ、肢アは「誤り」として扱っています。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- 各肢の根拠のうち、ア（不登規則35条7号：表題部の変更・更正と分合筆の一括）、イ（不登規則35条6号：同一不動産の表題部の変更・更正の一括）、エ・オ（不登令4条ただし書：目的・原因・日付・申請人の同一）は条文レベルで確認できたものです。ウ（滅失登記と表題登記は目的・原因・不動産が異なるため一括不可）は、不登令4条の一般原則からの当てはめによる説明です。
+- なお、この問題はアプリDBのexplanation（条文根拠解説）が空欄であったため、各肢の正誤は検証済みのpitfalls（reviewed=true）と正解番号（5番＝ウエ）を根拠にしています。初期ドラフト（approach）ではアを「正しい」とする記述と食い違いがありましたが、検証済みデータと正解の組合せ（ウエ）に整合させ、アは「誤り」として扱っています。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア誤 イ誤 ウ正 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（一の申請情報による申請の可否）と同一・類似の問題が再出題されていないかを確認しました。令和3年度第8問ア・令和7年度第8問ウは、いずれも「表題部所有者の住所の更正登記と氏の変更登記」の一括申請可否を問うもので、本問イが扱う不登規則35条6号（同一不動産の表題部の変更・更正登記の一括）と同一の条文論点です。また令和6年度第8問イは、表題部所有者Aの甲土地と所有権の登記名義人Aの乙土地について分筆の登記同士を一の申請情報で申請できるかを問うており、本問オ（表題部所有者・所有権登記名義人が同一人Aである甲乙土地の分筆登記の一括申請可否）とほぼ同じ事案・結論（令4条ただし書により可能）です。**部分的に類似する記述があります**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：本文が引用する不動産登記令4条ただし書（登記の目的・原因・日付・申請人が同一の場合の一括申請）、不動産登記規則35条6号（同一不動産についての表題部の変更・更正登記の一括）、同35条7号（表題部の変更・更正登記と分筆・合筆等の一括）について、WebSearchで現行条文の内容・号番号を確認しましたが、令和元年の出題当時から条番号・内容ともに変更は見つかりませんでした。修正の必要はありません。
 - **QAチェックリストによる再検証（2026年8月実施）**：qa-checklist.mdのA〜G全項目を確認しました。本文が引用する不動産登記令4条ただし書・不動産登記規則35条6号・7号を`note-articles/laws/`のローカル法令データベース（不動産登記令・不動産登記規則の条文原文）と突き合わせ、条番号・文言とも一致することを確認しました。判例・先例番号の本文残留、正解番号との不整合、Markdown表の残存、敬体の乱れ、全角括弧の不統一、インフォグラフィックと本文の不一致は見つからず、修正は行っていません。正誤判定・正解の組合せに変更はありません。
@@ -112,13 +128,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・建・物・登・記・所・筆・合・変・更・題・滅・失・義・者 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -200,20 +234,20 @@ these 5 headings):
 5. 所有者が同じ2筆の分筆もまとめてOK
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 5肢すべてが「登記の目的・原因・日付・申請人はすべて同一か（不登令4条）」→いいえの場合「不登規則35条の例外に該当するか」という共通の決定木を共有する構成にした。ア・イは例外に該当してOKになる枝、ウは例外にも該当せず不可になる枝、エ・オは原則そのものを満たして直接OKになる枝を、それぞれ強調表示で切り替える。
 
@@ -256,7 +290,15 @@ numbers are fine); keep the callout text as written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -282,7 +324,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 氏名変更と合筆は例外規定でまとめて申請
@@ -304,7 +346,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 規則35条7号でOK
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 地目変更と地積更正も例外規定でOK
@@ -326,7 +368,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 規則35条6号でOK
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels — do not restart at 1).
 Heading (bold, ONE line):
@@ -349,7 +391,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 例外にも該当せず不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 同一日の2筆地目変更は原則どおりOK
@@ -370,7 +412,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 原則どおり一括申請可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 所有者が同じ2筆の分筆も原則どおりOK
@@ -395,10 +437,10 @@ Small footnote text (bottom of panel, small font, verbatim):
 理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 申, 請, 原, 因, 更, 正, 変, 合, 筆, 滅, 失, 登 and any
-character that has a visually similar Simplified Chinese variant. If any
-character renders as a Simplified Chinese variant, redraw that character
+character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every panel

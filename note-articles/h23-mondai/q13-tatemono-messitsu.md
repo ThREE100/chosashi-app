@@ -2,31 +2,37 @@
 
 **出題年度：平成23年度　午後の部　第13問**
 
-> 建物の滅失の登記に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。
->
-> ア　表題登記がある建物を全て取り壊し、その材料を用いて建物を再度建築したときは、表題登記がある既存建物について、建物の滅失の登記を申請しなければならない。
->
-> イ　所有権の登記以外の権利に関する登記がある建物が滅失したときは、当該権利の登記名義人の承諾書を添付して、建物の滅失の登記を申請しなければならない。
->
-> ウ　所有者が異なる区分建物が属する一棟の建物が滅失した場合において、区分建物の滅失の登記を申請するときは、区分建物の所有権の一人が一棟の建物の滅失の登記を申請することができる。
->
-> エ　区分した建物として登記されているが、初めから区分した状態になかったことが明らかな建物については、錯誤を原因として建物の滅失の登記を申請しなければならない。
->
-> オ　鉄筋コンクリート造の建物について、火災により建物の内部の一部が焼失したが、主要構造部が残存し、使用目的に従った使用が可能であるときは、建物の滅失の登記を申請することはできない。
->
+> 建物の滅失の登記に関する次のアからオまでの記述のうち、正しいものは、幾つあるか。  
+>　  
+> ア　表題登記がある建物を全て取り壊し、その材料を用いて建物を再度建築したときは、表題登記がある既存建物について、建物の滅失の登記を申請しなければならない。  
+>　  
+> イ　所有権の登記以外の権利に関する登記がある建物が滅失したときは、当該権利の登記名義人の承諾書を添付して、建物の滅失の登記を申請しなければならない。  
+>　  
+> ウ　所有者が異なる区分建物が属する一棟の建物が滅失した場合において、区分建物の滅失の登記を申請するときは、区分建物の所有権の一人が一棟の建物の滅失の登記を申請することができる。  
+>　  
+> エ　区分した建物として登記されているが、初めから区分した状態になかったことが明らかな建物については、錯誤を原因として建物の滅失の登記を申請しなければならない。  
+>　  
+> オ　鉄筋コンクリート造の建物について、火災により建物の内部の一部が焼失したが、主要構造部が残存し、使用目的に従った使用が可能であるときは、建物の滅失の登記を申請することはできない。  
+>　  
 > 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
+
+---
 
 この問題は「正しいものは幾つあるか」を問う個数問題です。建物の滅失の登記が「物理的な事実の公示」であることを一本の軸にして、何をもって建物が滅失したといえるか、誰が申請できるかを一つずつ確かめていきましょう。
 
 ### ア：材料を使い回して建て直しても、元の建物は滅失登記が必要
 
-既存の建物を全部取り壊してしまえば、たとえその材料を用いて建物を再度建築しても、元の建物との同一性は失われ、元の建物は物理的に滅失したことになります（不動産登記事務取扱手続準則83条）。したがって、既存建物については建物の滅失の登記を申請しなければなりません。
+既存の建物を全部取り壊してしまえば、たとえその材料を用いて建物を再度建築しても、元の建物との同一性は失われ、元の建物は物理的に滅失したことになります（不動産登記事務取扱手続準則83条）。
+
+したがって、既存建物については建物の滅失の登記を申請しなければなりません。
 
 **たとえば**、古い納屋を全部解体し、その古材を使って同じ場所に新しい納屋を建て直した場合でも、いったん解体した納屋は消えたものとして扱われるため、元の納屋の滅失登記が必要になります。
 
 ### イ：滅失登記に、他の権利者の承諾書は要らない
 
-建物の滅失は、建物という物理的な客体が無くなったという事実にすぎず、権利関係を動かすものではありません。そのため、その建物に所有権以外の権利（抵当権や賃借権など）の登記があっても、その登記名義人の承諾書を添付する必要はありません。この肢はこの点で誤りです。
+建物の滅失は、建物という物理的な客体が無くなったという事実にすぎず、権利関係を動かすものではありません。
+
+そのため、その建物に所有権以外の権利（抵当権や賃借権など）の登記があっても、その登記名義人の承諾書を添付する必要はありません。この肢はこの点で誤りです。
 
 **たとえば**、抵当権が設定されている建物を取り壊した場合でも、滅失登記の申請にあたって抵当権者の承諾書を用意する必要はありません。
 
@@ -48,6 +54,8 @@
 
 **たとえば**、鉄筋コンクリート造のビルが火災で内装を焼いても、柱や梁など主要構造部が無事で、修繕すれば元どおり使える状態なら、まだ滅失登記の対象にはなりません。
 
+---
+
 ### まとめ
 
 - **ア（正）**　材料を使い回して建て直しても元の建物の滅失登記が必要
@@ -56,7 +64,7 @@
 - **エ（正）**　初めから区分の実体がない建物は錯誤の滅失登記で処理する
 - **オ（正）**　主要構造部が残り使える状態ならまだ滅失ではない
 
-正しいのは4個（誤りは肢イだけ）です。滅失登記は「物理的に建物が無くなったか」という事実を軸に、権利関係の承諾は要らないという感覚をつかめば迷いません。
+正しいのは4個（誤りはイだけ）です。滅失登記は「物理的に建物が無くなったか」という事実を軸に、権利関係の承諾は要らないという感覚をつかめば迷いません。
 
 **正解：正しいものは4個（選択肢4番）**
 
@@ -66,11 +74,12 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第13問＝個数／4番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 肢ア（材料を使い回した再築）は、不動産登記事務取扱手続準則83条（建物の再築）で「既存の建物全部を取り壊し、その材料を用いて建物を建築した場合（再築）は、既存の建物が滅失し、新たな建物が建築されたものとして取り扱うものとする」と条文上確認できました。肢イ・ウ・エ・オについては、条文番号や判例番号を一義的に特定できるものがなく、いずれも建物の滅失の登記に関する一般原則・登記実務上の先例からの整理にとどまります。特に肢エ（初めから区分の実体がない建物の処理）は先例による取扱いであり、条文レベルでの断定は避けています。
+- ア（材料を使い回した再築）は、不動産登記事務取扱手続準則83条（建物の再築）で「既存の建物全部を取り壊し、その材料を用いて建物を建築した場合（再築）は、既存の建物が滅失し、新たな建物が建築されたものとして取り扱うものとする」と条文上確認できました。イ・ウ・エ・オについては、条文番号や判例番号を一義的に特定できるものがなく、いずれも建物の滅失の登記に関する一般原則・登記実務上の先例からの整理にとどまります。特にエ（初めから区分の実体がない建物の処理）は先例による取扱いであり、条文レベルでの断定は避けています。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文には未検証（reviewed:false）で誤りを含む記述があったため採用せず、正解番号と条文・先例から独立に構成しています。
-- **重複出題チェック（2026-07-22実施・最重要）**：takuitsu.jsonを検索した結果、令和6年度第17問「建物の滅失の登記」（本シリーズで既に note-articles/r6-mondai/q17-tatemono-messitsu.md として執筆済み）が、本問と非常に強く重複するテーマであることを確認しました。5肢のうち3肢が実質的に同一の論点を扱っています：①建物を全部取り壊して材料を流用して再築した場合、既存建物の滅失登記が必要（本問の肢ア、令和6年度第17問の肢オに相当）、②滅失登記に他の権利者（抵当権者等）の承諾は不要（本問の肢イ、令和6年度第17問の肢アに相当）、③所有者が異なる区分建物が属する一棟の建物が滅失した場合、区分建物の所有者の一人が一棟の滅失登記を申請できる（本問の肢ウ、令和6年度第17問の肢ウに相当）。この2つの記事は内容が大きく重なるため、note投稿の際は両方をそのまま公開するのではなく、どちらか一方に絞るか、公開時期をずらす、あるいは重複部分を要約して差別化するなどの対応を強く推奨します。
-- **最新法令準拠チェック（2026-08-06実施・条文番号を訂正）**：前回のチェックで「不動産登記法57条・58条（建物の滅失の登記）」としていましたが、ローカル法令データベースで条文原文を確認したところ、58条は「共用部分である旨の登記等」であり、建物の滅失の登記の根拠ではありませんでした。建物の滅失の登記の根拠は57条（建物の滅失の登記の申請）で、「建物が滅失したときは、表題部所有者又は所有権の登記名義人（共用部分である旨の登記又は団地共用部分である旨の登記がある建物の場合にあっては、所有者）は、その滅失の日から一月以内に、当該建物の滅失の登記を申請しなければならない」と定めています。同条の内容に直近の改正による変更はありません。なお、肢イ（他の権利者の承諾が不要であること）・肢ウ（区分建物の所有者の一人からの一棟の滅失登記の申請）・肢エ（実体のない区分建物の錯誤による処理）は、57条自体に定めがなく、登記実務上の取扱い・先例からの整理にとどまります。
-- **再検証（2026-08-13実施・条文根拠を追加）**：57条の訂正内容と各肢の正誤判定に誤りがないことを改めて確認しました。あわせて`note-articles/laws/fudousan-touki-jimu-junsoku.md`を検索したところ、肢アの根拠として準則83条（建物の再築）を新たに特定できたため、本文と本項に反映しました。肢イ・ウ・エ・オについては、なお条文上の直接の定めは見当たらず、登記実務上の取扱い・先例からの整理にとどまる旨は変わりません。正誤判定に変更はありません。
+- **重複出題チェック（2026-07-22実施・最重要）**：takuitsu.jsonを検索した結果、令和6年度第17問「建物の滅失の登記」（本シリーズで既に note-articles/r6-mondai/q17-tatemono-messitsu.md として執筆済み）が、本問と非常に強く重複するテーマであることを確認しました。5肢のうち3肢が実質的に同一の論点を扱っています：①建物を全部取り壊して材料を流用して再築した場合、既存建物の滅失登記が必要（本問のア、令和6年度第17問のオに相当）、②滅失登記に他の権利者（抵当権者等）の承諾は不要（本問のイ、令和6年度第17問のアに相当）、③所有者が異なる区分建物が属する一棟の建物が滅失した場合、区分建物の所有者の一人が一棟の滅失登記を申請できる（本問のウ、令和6年度第17問のウに相当）。この2つの記事は内容が大きく重なるため、note投稿の際は両方をそのまま公開するのではなく、どちらか一方に絞るか、公開時期をずらす、あるいは重複部分を要約して差別化するなどの対応を強く推奨します。
+- **最新法令準拠チェック（2026-08-06実施・条文番号を訂正）**：前回のチェックで「不動産登記法57条・58条（建物の滅失の登記）」としていましたが、ローカル法令データベースで条文原文を確認したところ、58条は「共用部分である旨の登記等」であり、建物の滅失の登記の根拠ではありませんでした。建物の滅失の登記の根拠は57条（建物の滅失の登記の申請）で、「建物が滅失したときは、表題部所有者又は所有権の登記名義人（共用部分である旨の登記又は団地共用部分である旨の登記がある建物の場合にあっては、所有者）は、その滅失の日から一月以内に、当該建物の滅失の登記を申請しなければならない」と定めています。同条の内容に直近の改正による変更はありません。なお、イ（他の権利者の承諾が不要であること）・ウ（区分建物の所有者の一人からの一棟の滅失登記の申請）・エ（実体のない区分建物の錯誤による処理）は、57条自体に定めがなく、登記実務上の取扱い・先例からの整理にとどまります。
+- **再検証（2026-08-13実施・条文根拠を追加）**：57条の訂正内容と各肢の正誤判定に誤りがないことを改めて確認しました。あわせて`note-articles/laws/fudousan-touki-jimu-junsoku.md`を検索したところ、アの根拠として準則83条（建物の再築）を新たに特定できたため、本文と本項に反映しました。イ・ウ・エ・オについては、なお条文上の直接の定めは見当たらず、登記実務上の取扱い・先例からの整理にとどまる旨は変わりません。正誤判定に変更はありません。
+- **適用法令の現行性チェック（2026-10-01実施）**：各肢を`note-articles/laws/`（2026-08-04取得の現行版）と照らしました。不動産登記法57条（建物の滅失の登記の申請。表題部所有者又は所有権の登記名義人が滅失の日から1か月以内に申請）と不動産登記事務取扱手続準則83条（建物の再築）は、条文・文言とも変更がなく、本文の根拠条文はそのまま現行法です。区分所有法は令和7年法律第47号による改正（令和8年4月1日施行）まで反映された現行版を確認しましたが、同改正は老朽化マンション等の管理・再生の円滑化を目的とする決議要件・被災時の措置等に関するもので、滅失の登記の申請人や要件には及びません。エの前提となる区分建物の成立要件（区分所有法1条。構造上区分され、独立して住居・店舗・事務所・倉庫等の用途に供することができる部分）にも変更はありません。相続登記の義務化（令和6年4月）・住所変更登記の義務化（令和8年4月）も本問に影響しません。なお、ウ（所有者の異なる区分建物が属する一棟の建物の滅失登記を区分建物の所有者の一人が申請できること）・エ・オに直接対応する条文は、引き続き特定できていません。正解・正誤判定の変更はありません。
 
 ---
 
@@ -110,12 +119,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 滅・証・権・構・錯・誤 — these must be rendered in their standard Japanese
+kanji 滅・権・構・錯・誤・諾・棟 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -131,9 +158,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 材料流用の建替えも滅失登記必要
-Illustration: An old building being demolished into a pile of reusable
-lumber icons, then reassembled into a new building on the same spot,
-with a 滅失登記 stamp still applied to the original building's record.
+Illustration: An old building being completely demolished (nothing of
+it left standing) into a pile of reusable lumber icons, then
+reassembled into a new building on the same spot, with a 滅失登記 stamp
+applied to the ORIGINAL (demolished) building's record, not to the new
+building.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 滅失登記が必要
 
@@ -142,8 +171,9 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 滅失登記に他の権利者の承諾不要
 Illustration: A building icon with an 抵当権 ribbon collapsing into
-rubble, with a red X crossing out a document icon that the
-mortgage-holder character was expected to sign.
+rubble, with a mortgage-holder character standing nearby and a document
+icon labeled 承諾書 crossed out with a red X (not needed). The red X
+appears only on the 承諾書 document.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 承諾書不要
 
@@ -153,7 +183,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 区分建物の一人から一棟滅失可
 Illustration: A collapsed apartment building icon with multiple
 different owner characters for each unit, one of them alone stamping a
-一棟滅失登記 seal on behalf of everyone.
+一棟滅失登記 seal while the other owners stand beside the building
+without stamping anything.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一人から申請可
 
@@ -170,27 +201,26 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 5 ---
 Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-主要構造部が残れば滅失ではない
+主要構造部が残り使えれば滅失でない
 Illustration: A concrete building with fire and smoke damage only on
-the interior walls, but its main structural frame (柱・梁) intact and
-glowing green with a checkmark.
+part of the interior, but its main structural frame (柱・梁) intact
+and glowing green with a checkmark, and a small 使用可 tag showing the
+building can still be used for its purpose.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 まだ滅失ではない
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, with particular
-attention to 滅・証・権・構・錯・誤. If any character renders as a Simplified
-Chinese variant, redraw that character in the correct Japanese form.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to 滅・権・構・錯・誤・諾・棟. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as
-a short heading + a short conclusion tag, at a glance.
+a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -215,16 +245,16 @@ problem are five independent, unrelated rules about the building 滅失
 (extinction) registration rather than variations on one shared fact
 pattern, draw them as five separate diagrams rather than highlighting
 branches of one shared tree shape. Where a 肢 requires checking multiple
-conditions in sequence before reaching a conclusion (肢エ・肢オ), draw the
+conditions in sequence before reaching a conclusion (オ), draw the
 panel's diagram as an actual decision flowchart: diamond-shaped branch
 nodes with the condition written on them, Yes/No（はい／いいえ）branch
 arrows, and a final conclusion node for both the はい and いいえ sides
-wherever both results carry real meaning (肢オ: whether the main
+wherever both results carry real meaning (オ: whether the main
 structural frame survives, and whether the building remains usable, both
 matter and must each show their own conclusion, with no looping arrow
 back into the flowchart). Where a 肢 is resolved by a single check
-(肢イ・肢ウ), a labeled illustrative diagram is sufficient — do not force
-a flowchart. Where a 肢 turns on a common misconception (肢ア: a reader
+(イ・ウ・エ), a labeled illustrative diagram is sufficient — do not force
+a flowchart. Where a 肢 turns on a common misconception (ア: a reader
 may wrongly think that reusing the demolished material preserves the
 original building's identity), draw it as a two-side contrast panel: a
 faded/crossed-out「誤った思い込み」side and a highlighted「正しいルール」
@@ -236,7 +266,7 @@ precedent numbers (article/regulation numbers are fine); keep the callout
 text as written below verbatim, and keep every condition each callout
 describes faithful to the article's own body text — do not drop or merge
 a required element (e.g. keep 主要構造部の残存 and 使用目的に従った使用の
-可否 as two distinct checks in 肢オ).
+可否 as two distinct checks in オ).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -275,7 +305,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 材料を流用しても元の建物は滅失する
@@ -306,16 +336,16 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 全部取壊しで滅失
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 滅失登記に他の権利者の承諾は不要
 Diagram: A building icon with an 抵当権 ribbon collapsing into a pile of
 rubble. A small side box splits the scene into「物理的な事実」(建物が無く
 なったこと、太い実線で強調)と「権利関係」(抵当権そのもの、変わらない
-ことを示す点線の別枠)。A document icon labeled 承諾書 that the
-mortgage-holder character was expected to sign is crossed out with a red
-✕.
+ことを示す点線の別枠)。A document icon labeled 承諾書 (what a
+reader might wrongly think the mortgage-holder character must sign) is
+crossed out with a red ✕.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、滅失登記が公示するのは建物という物理的な客体が無くなった事実であ
 ることを確認します。次に、その建物に抵当権などの権利登記があっても権利
@@ -324,15 +354,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 承諾書は不要
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 区分建物の所有者一人から一棟滅失登記可
 Diagram: A collapsed apartment-building icon with several distinct owner
 characters, one per unit. Only one of the owner characters, highlighted
-with a thick border, stamps a単独で一棟滅失登記 seal, while speech
-bubbles from the other owners showing「同意書」are crossed out with a
-red ✕ to show their agreement is not required.
+with a thick border, stamps a 一棟滅失登記 seal alone, while the other
+owners stand beside the building in a faded style without stamping
+anything (draw no 同意書 document and no ✕ mark anywhere in this panel).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、滅失したのが所有者の異なる区分建物からなる一棟の建物であることを
 確認します。次に、その一棟の滅失登記は、区分建物の所有者全員がそろわな
@@ -341,18 +371,18 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 所有者一人で申請可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 初めから区分実体がなければ錯誤の滅失登記
-Diagram: A decision-tree flowchart. First diamond node: 登記記録上、区分
-建物として登記されているか？with an はい arrow proceeding downward
-（この問題の前提）. Second diamond node (drawn with a thicker highlighted
-border, since this is the肢の核心): 初めから区分した状態になかったこと
-が明らかか？with the はい branch leading to a building icon with no
-interior dividing wall and a conclusion node reading 実体を欠く登記とし
-て、錯誤を原因とする滅失の登記で処理する, marked with a 錯誤 stamp
-erasing the mistaken registration.
+Diagram: A labeled illustrative diagram resolved by a single check
+(not a flowchart, no diamond nodes). Top: a plain label box reading 区分建
+物として登記されている (the premise of the question). Below it, a
+highlighted box reading 初めから区分した状態になかったことが明らか, drawn
+as a building icon with no interior dividing wall, with the two registered
+units shown only as a dotted outline laid over it. An arrow leads to a
+conclusion node reading 実体を欠く登記として、錯誤を原因とする滅失の登記
+で処理する, marked with a 錯誤 stamp erasing the mistaken registration.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、登記記録上は区分建物として登記されているかを確認します。次に、実
 際には初めから区分された状態になかったことが明らかかどうかを確認し、明
@@ -362,7 +392,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 錯誤の滅失登記で処理
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 主要構造部が残り使えるなら滅失でない
@@ -392,7 +422,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 滅・証・権・構・錯・誤・棟・属. If any
+Chinese, paying special attention to 滅・権・構・錯・誤・棟・諾・壊・築. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -401,12 +431,12 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that every multi-condition 肢（肢エ・肢オ）is
+the header and the panels, that every multi-condition 肢（オ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
-with no visible decision structure), that 肢オ's two conditions（主要構
+with no visible decision structure), that オ's two conditions（主要構
 造部の残存・使用目的に従った使用の可否）each show a meaningful conclusion
 on both the はい and いいえ sides with no looping arrow back into the
-flowchart, that 肢ア is drawn as a two-side contrast between the mistaken
+flowchart, that ア is drawn as a two-side contrast between the mistaken
 assumption and the correct rule rather than a single plain illustration,
 that each 着眼点 callout states a checking order rather than only a
 conclusion and keeps every required element from the source article

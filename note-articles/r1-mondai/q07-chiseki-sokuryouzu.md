@@ -2,51 +2,73 @@
 
 **出題年度：令和元年度　午後の部　第7問**
 
-> 地積測量図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　地積測量図には、基本三角点等に基づく測量の成果による筆界点の座標値を記録しなければならないが、近傍に基本三角点等が存しない場合その他の基本三角点等に基づく測量ができない特別の事情がある場合には、近傍の恒久的な地物に基づく測量の成果による筆界点の座標値を記録しなければならない。
->
-> イ　一の申請情報をもって隣接する数筆の土地の分筆の登記を申請する場合には、分筆後の土地の地積測量図は、分筆前の土地ごとに作成するものとされている。
->
-> ウ　地役権の設定の登記がある承役地である土地の分筆の登記を申請する場合において、添付情報として地積測量図を地役権図面とともに提供するときは、地積測量図の縮尺を地役権図面の縮尺と同一にしなければならない。
->
-> エ　地積測量図は、表題登記がない土地について、所有権を有することが確定判決によって確認された者が所有権の保存の登記を申請する場合にも、提供しなければならない。
->
-> オ　地積測量図の保存期間は、閉鎖されたものであっても、永久とされている。
->
+> 地積測量図に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　地積測量図には、基本三角点等に基づく測量の成果による筆界点の座標値を記録しなければならないが、近傍に基本三角点等が存しない場合その他の基本三角点等に基づく測量ができない特別の事情がある場合には、近傍の恒久的な地物に基づく測量の成果による筆界点の座標値を記録しなければならない。  
+>　  
+> イ　一の申請情報をもって隣接する数筆の土地の分筆の登記を申請する場合には、分筆後の土地の地積測量図は、分筆前の土地ごとに作成するものとされている。  
+>　  
+> ウ　地役権の設定の登記がある承役地である土地の分筆の登記を申請する場合において、添付情報として地積測量図を地役権図面とともに提供するときは、地積測量図の縮尺を地役権図面の縮尺と同一にしなければならない。  
+>　  
+> エ　地積測量図は、表題登記がない土地について、所有権を有することが確定判決によって確認された者が所有権の保存の登記を申請する場合にも、提供しなければならない。  
+>　  
+> オ　地積測量図の保存期間は、閉鎖されたものであっても、永久とされている。  
+>　  
 > 1　アイ　　2　アオ　　3　イエ　　4　ウエ　　5　ウオ
 
-地積測量図は、筆界点の座標をどう記録するか、複数筆をまとめて分筆するときにどう作成するか、そして図面をいつまで保存するかまで、不動産登記規則が細かくルールを定めています。「〜しなければならない」という義務の言い回しが、本当に義務なのか任意なのかを見分けるのがこの問題のポイントです。
+---
+
+地積測量図は、筆界点の座標をどう記録するか、複数筆をまとめて分筆するときにどう作成するか、そして図面をいつまで保存するかまで、不動産登記規則が細かくルールを定めています。
+
+「〜しなければならない」という義務の言い回しが、本当に義務なのか任意なのかを見分けるのがこの問題のポイントです。
 
 ### ア：基本三角点等がなければ、近傍の恒久的な地物に基づく座標値を記録する
 
-地積測量図には、基本三角点等に基づく測量の成果による筆界点の座標値を記録するのが原則です。ただし、近傍に基本三角点等が存しないなど、基本三角点等に基づく測量ができない特別の事情がある場合には、近傍の恒久的な地物に基づく測量の成果（いわゆる任意座標）による座標値を記録します（不登規77条、準則50条2項）。本肢は原則と例外の関係を正しく述べています。
+地積測量図には、基本三角点等に基づく測量の成果による筆界点の座標値を記録するのが原則です。
 
-**たとえば**、市街地であれば近くの基準点を使って座標を出せますが、山奥で近くに基準点が一つもない土地では、動かない大きな構造物などの恒久的な地物を基準にして座標を測り、その値を図面に記録します。基準点がなくても「近くの動かない目印」で代用するイメージです。
+ただし、近傍に基本三角点等が存しないなど、基本三角点等に基づく測量ができない特別の事情がある場合には、近傍の恒久的な地物に基づく測量の成果（いわゆる任意座標）による座標値を記録します（不登規77条、準則50条2項）。
+
+本肢は原則と例外の関係を正しく述べています。
+
+**たとえば**、市街地であれば近くの基準点を使って座標を出せますが、山奥で近くに基準点が一つもない土地では、動かない大きな構造物などの恒久的な地物を基準にして座標を測り、その値を図面に記録します。
+
+基準点がなくても「近くの動かない目印」で代用するイメージです。
 
 ### イ：数筆をまとめて分筆するときは、分筆前の土地ごとに地積測量図を作成する
 
 一の申請情報で隣接する数筆の土地の分筆の登記を申請する場合、地積測量図は分筆前の土地ごとに作成します。図面には分割線を実線で図示し、どの筆をどう分けたのかが一目で分かるようにします。本肢は正しい記述です。
 
-**たとえば**、隣り合う3筆をまとめて一度に分筆する申請をするとき、3筆を一枚にごちゃ混ぜで描くのではなく、「もとの○番地の分」「もとの△番地の分」と、分筆前の各筆ごとに地積測量図を作り分けます。元がどの土地だったかを筆単位で追えるようにするためです。
+**たとえば**、隣り合う3筆をまとめて一度に分筆する申請をするとき、3筆を一枚にごちゃ混ぜで描くのではなく、「もとの○番地の分」「もとの△番地の分」と、分筆前の各筆ごとに地積測量図を作り分けます。
+
+元がどの土地だったかを筆単位で追えるようにするためです。
 
 ### ウ：地積測量図の縮尺は、地役権図面の縮尺と同一にする必要はない
 
-地積測量図の縮尺は250分の1を原則としつつ、土地の現況その他の事情により他の縮尺で作成することもできます（不登規77条4項）。一方、地役権図面の縮尺は適宜でよく、精度に関する定めもありません（不登規79条2項）。両者を同時に提供する場合でも、縮尺をそろえなければならないという規定はありません。「縮尺を同一にしなければならない」とする本肢は誤りです。
+地積測量図の縮尺は250分の1を原則としつつ、土地の現況その他の事情により他の縮尺で作成することもできます（不登規77条4項）。一方、地役権図面の縮尺は適宜でよく、精度に関する定めもありません（不登規79条2項）。
+
+両者を同時に提供する場合でも、縮尺をそろえなければならないという規定はありません。「縮尺を同一にしなければならない」とする本肢は誤りです。
 
 **たとえば**、承役地を分筆する際に、地積測量図は250分の1、地役権の範囲を示す地役権図面は500分の1、といった具合に、それぞれ見やすい縮尺で作ってかまいません。二枚の図面の縮尺をわざわざぴったりそろえる義務はないのです。
 
 ### エ：判決による所有権保存登記の場合にも、地積測量図の提供が必要
 
-表題登記がない土地について、確定判決によって所有権を有することが確認された者は、直接、所有権の保存の登記を申請することができます（不登法74条2項）。この場合でも、本来の表題登記で必要となる図面（土地所在図・地積測量図）を提供しなければなりません。本肢は正しい記述です。
+表題登記がない土地について、確定判決によって所有権を有することが確認された者は、直接、所有権の保存の登記を申請することができます（不登法74条2項）。
 
-**たとえば**、まだ表題登記のない土地について、裁判で「この土地は自分のものだ」と確定判決を得た人が、いきなり所有権保存登記を申請するとします。表題登記を飛ばす形になりますが、土地の物理的現況を示す土地所在図と地積測量図はやはり添付しなければなりません。
+この場合でも、本来の表題登記で必要となる図面（土地所在図・地積測量図）を提供しなければなりません。本肢は正しい記述です。
+
+**たとえば**、まだ表題登記のない土地について、裁判で「この土地は自分のものだ」と確定判決を得た人が、いきなり所有権保存登記を申請するとします。
+
+表題登記を飛ばす形になりますが、土地の物理的現況を示す土地所在図と地積測量図はやはり添付しなければなりません。
 
 ### オ：閉鎖された地積測量図の保存期間は、永久ではない
 
 地積測量図は、現に効力を有するものであれば永久保存ですが、変更・更正等によって閉鎖されたものは、閉鎖した日から30年間の保存とされ、永久保存の対象ではありません（不登規28条13号）。「閉鎖されたものであっても永久」とする本肢は誤りです。
 
-**たとえば**、分筆や地積更正で古い地積測量図が閉鎖され、新しい図面に置き換わったとします。この古い図面は、いつまでも半永久的に残されるわけではなく、定められた保存年限が過ぎれば保存対象から外れていきます。「一度作った図面は全部永久保存」ではない点に注意です。
+**たとえば**、分筆や地積更正で古い地積測量図が閉鎖され、新しい図面に置き換わったとします。
+
+この古い図面は、いつまでも半永久的に残されるわけではなく、定められた保存年限が過ぎれば保存対象から外れていきます。「一度作った図面は全部永久保存」ではない点に注意です。
+
+---
 
 ### まとめ
 
@@ -69,7 +91,7 @@
 - 各肢の根拠のうち、ア（任意座標の記録＝準則50条2項）、ウ（地積測量図は250分の1原則＝不登規77条4項／地役権図面の縮尺は適宜＝不登規79条2項）は、データベースのexplanationフィールドで条文・準則の番号まで確認できたものです。
 - イ（分筆前の土地ごとに作成）とエ（判決による保存登記でも地積測量図が必要）は、実務上・条文上の取扱いとして確立した内容ですが、explanation内では具体的な号数までは示されておらず、地積測量図の記録・提供に関する一般原則（不登規77条、不登法74条2項）からの記載にとどまります。
 - オ（閉鎖された地積測量図が永久保存でないこと）は、`note-articles/laws/`のローカル法令データベース（不動産登記規則28条13号）で「土地所在図、地積測量図、建物図面及び各階平面図…永久（閉鎖したものにあっては、閉鎖した日から三十年間）」の条文を直接確認し、保存年限を「閉鎖した日から30年間」と確定させました（2026年8月のQAチェックリスト再検証で反映）。
-- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問の肢ア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
+- **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ正 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（地積測量図の作成・提供・保存のルール）と同一・類似の問題が再出題されていないかを確認しました。候補として抽出された令和7年度第9問は同じく地積測量図に関する問題ですが、氏名変更に伴う訂正の申出、筆界点の永続的な石杭・金属標の記録義務、分筆時の地積記載の省略、地積測量図による土地所在図の兼用可否を扱っており、本問が扱う任意座標の記録（不登規77条・準則50条2項）、数筆の分筆時の作成単位、地役権図面との縮尺同一性の要否（不登規77条4項・79条2項）、判決による保存登記時の提供義務、閉鎖後の保存期間とは具体的な論点が重ならず、共通する肢はありません。**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：WebSearchで、本文が引用する不登規77条（地積測量図の記録事項、基本三角点等がない場合の恒久的地物による座標値の記録）、準則50条2項（同上の運用細則）、不登規79条2項（地役権図面は適宜の縮尺）、不登規77条4項（地積測量図は原則250分の1）、不登法74条2項（判決による所有権保存登記でも土地所在図・地積測量図の提供が必要）、不登規28条（地積測量図は永久保存、閉鎖後は閉鎖の日から30年保存）を個別に確認しました。いずれも令和元年の出題当時から現在（2026年8月）までの間に条文番号の変更・実質改正はなく、内容も現行法と一致しており、修正は不要でした。
 - **QAチェックリスト再検証（2026年8月実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（`note-articles/laws/fudousan-touki-kisoku-1.md`原文で規則77条・77条4項・79条2項・28条13号を直接突合し、オの保存年限を「閉鎖した日から30年間」（規則28条13号）と確定して本文・確認事項ブロックを修正、判例・先例番号は本文になし）、B（正解番号5＝ウオを`src/data/takuitsu.json`の`chosashi_R01_q07`の`correctAnswer`と再照合し一致を確認）、C（見出し・敬体・正解の先出しなし・条文解釈プロセスの解説なしを再確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックプロンプトと本文の整合を確認。修正した保存年限の記述と矛盾しないことも確認）、F（タイトルのキャッチフレーズ19字＝25字以内、テンプレート構造・確認事項ブロックを確認）、G（重複出題チェック・最新法令チェックは上記の既存記載を再確認）を実施し、オの保存年限の記載を精緻化した以外に修正すべき誤りは見つかりませんでした（正誤判定・正解の組合せに変更なし）。
@@ -112,13 +134,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所・縮・尺 — these must be
+kanji 権・地・番・物・登・記・所・縮・尺 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -197,20 +237,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 地積測量図の作成・提供・保存に関する5肢について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。基準点の有無を判定する決定木（ア）、分筆前の筆ごとに図面を作り分ける配置図（イ）、縮尺の一致は不要という思い込みを正す対比図（ウ）、判決による保存登記でも図面添付が必要というタイムライン（エ）、現に効力を有するかどうかで保存期間が変わる決定木（オ）の5パネル構成。
 
@@ -251,7 +291,15 @@ body text — do not drop or merge a required element.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -277,7 +325,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -301,7 +349,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 恒久的地物でも記録可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 分筆前の土地ごとに図面を作成する
@@ -319,7 +367,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 分筆前の筆ごとに作成
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in beige/amber containing the number 3.
 Heading (bold, ONE line):
 縮尺は地役権図面と揃えなくてよい
@@ -338,7 +386,7 @@ Conclusion tag (a short colored banner/pill, beige/amber, 5-15 Japanese
 characters):
 縮尺の一致は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 判決による保存登記でも図面は必要
@@ -357,7 +405,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 図面の提供は省略不可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 効力の有無で保存期間が変わる
@@ -384,9 +432,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 （準則50条2項）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・物・登・記・所・縮・尺・恒・久・閉・鎖・効.
-If any character renders as a Simplified Chinese variant, redraw that
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・録・権・地・番・物・登・記・所・縮・尺・恒・久・閉・鎖・効. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
+If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that

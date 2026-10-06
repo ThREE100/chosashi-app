@@ -2,27 +2,35 @@
 
 **出題年度：令和3年度　午後の部　第12問**
 
-> 建物の表示に関する登記の登記事項に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　主である建物の所在する土地と附属建物の所在する土地の地番がそれぞれ異なる場合において、附属建物の床面積が主である建物の床面積のおおよそ2倍あるときは、建物の表題部の所在欄には附属建物が所在する土地の地番が先に記録され、主である建物が所在する土地の地番は後に記録される。
->
-> イ　建物の表題部の所在欄には、地番区域でない字を記録することはできない。
->
-> ウ　名称のある一棟の建物に属する区分建物の表題登記を申請する場合において、当該一棟の建物の名称を申請情報の内容とするときは、当該一棟の建物の名称を定めた規約を設定したことを証する情報を提供しなければならない。
->
-> エ　表題登記のある甲建物の附属建物が取り壊され、その後に建築された建物が甲建物の附属建物となった場合において、これによる甲建物の表題部の変更の登記を申請するときは、附属建物の符号として、取り壊された附属建物に付されていた符号を再使用することはできない。
->
-> オ　表題登記のある建物について数次にわたり増築がされたが、その旨の建物の表題部の変更の登記がされていない場合において、建物の表題部の変更の登記を申請するときは、最後の増築に係る登記原因及びその日付のみを申請情報の内容とすれば足りる。
->
+> 建物の表示に関する登記の登記事項に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　主である建物の所在する土地と附属建物の所在する土地の地番がそれぞれ異なる場合において、附属建物の床面積が主である建物の床面積のおおよそ2倍あるときは、建物の表題部の所在欄には附属建物が所在する土地の地番が先に記録され、主である建物が所在する土地の地番は後に記録される。  
+>　  
+> イ　建物の表題部の所在欄には、地番区域でない字を記録することはできない。  
+>　  
+> ウ　名称のある一棟の建物に属する区分建物の表題登記を申請する場合において、当該一棟の建物の名称を申請情報の内容とするときは、当該一棟の建物の名称を定めた規約を設定したことを証する情報を提供しなければならない。  
+>　  
+> エ　表題登記のある甲建物の附属建物が取り壊され、その後に建築された建物が甲建物の附属建物となった場合において、これによる甲建物の表題部の変更の登記を申請するときは、附属建物の符号として、取り壊された附属建物に付されていた符号を再使用することはできない。  
+>　  
+> オ　表題登記のある建物について数次にわたり増築がされたが、その旨の建物の表題部の変更の登記がされていない場合において、建物の表題部の変更の登記を申請するときは、最後の増築に係る登記原因及びその日付のみを申請情報の内容とすれば足りる。  
+>　  
 > 1　アイ　　2　アウ　　3　イオ　　4　ウエ　　5　エオ
 
-建物の表示に関する登記の分野では、所在欄への記録の仕方、附属建物の符号の付け方、そして変更登記における登記原因の書き方といった、実務に直結する細かなルールが問われます。それぞれの登記事項について、条文と先例がどのような扱いを定めているかを一つずつ整理しておくことが得点への近道です。
+---
+
+建物の表示に関する登記の分野では、所在欄への記録の仕方、附属建物の符号の付け方、そして変更登記における登記原因の書き方といった、実務に直結する細かなルールが問われます。
+
+それぞれの登記事項について、条文と先例がどのような扱いを定めているかを一つずつ整理しておくことが得点への近道です。
 
 ### ア：所在欄には、主である建物の土地の地番が先に記録される
 
-附属建物がある建物の所在欄では、まず主である建物が所在する土地の地番を記録し、それと異なる土地に附属建物がある場合には、その土地の地番を後に記録します（不動産登記事務取扱手続準則第88条第2項）。これは附属建物の床面積が主である建物より大きくても変わりません。所在の記録はあくまで「主である建物」を基準に組み立てられるため、附属建物の地番を先に書くとする本肢は誤りです。
+附属建物がある建物の所在欄では、まず主である建物が所在する土地の地番を記録し、それと異なる土地に附属建物がある場合には、その土地の地番を後に記録します（不動産登記事務取扱手続準則第88条第2項）。
 
-**たとえば**、母屋（主である建物）が1番地に建っていて、それより広い離れの倉庫（附属建物）が隣の2番地に建っているとします。この場合でも所在欄には「1番地、2番地」と、母屋のある1番地が先に記録され、倉庫が広いからといって2番地が先に来ることはありません。
+これは附属建物の床面積が主である建物より大きくても変わりません。所在の記録はあくまで「主である建物」を基準に組み立てられるため、附属建物の地番を先に書くとする本肢は誤りです。
+
+**たとえば**、母屋（主である建物）が1番地に建っていて、それより広い離れの倉庫（附属建物）が隣の2番地に建っているとします。
+
+この場合でも所在欄には「1番地、2番地」と、母屋のある1番地が先に記録され、倉庫が広いからといって2番地が先に来ることはありません。
 
 ### イ：地番区域でない字も、所在欄に記録することができる
 
@@ -32,21 +40,31 @@
 
 ### ウ：一棟の建物の名称を登記するのに、規約を証する情報は要らない
 
-名称のある一棟の建物に属する区分建物の表題登記を申請する際、一棟の建物の名称を申請情報の内容とする場合でも、その名称を定めた規約を設定したことを証する情報を提供する必要はありません。建物の表題登記の添付情報は不動産登記令別表十二の項に列挙されていますが、そこに一棟の建物の名称に関する規約設定証明情報は含まれていません。一棟の建物の名称は任意的な記録事項であり、その添付情報として規約設定を証する情報は求められていないため、「提供しなければならない」とする本肢は誤りです。
+名称のある一棟の建物に属する区分建物の表題登記を申請する際、一棟の建物の名称を申請情報の内容とする場合でも、その名称を定めた規約を設定したことを証する情報を提供する必要はありません。
+
+建物の表題登記の添付情報は不動産登記令別表十二の項に列挙されていますが、そこに一棟の建物の名称に関する規約設定証明情報は含まれていません。
+
+一棟の建物の名称は任意的な記録事項であり、その添付情報として規約設定を証する情報は求められていないため、「提供しなければならない」とする本肢は誤りです。
 
 **たとえば**、マンションに「○○レジデンス」という建物名を付けて登記したい場合でも、「この名称はこういう規約で決めました」という規約の証明書をわざわざ用意して添付する必要はありません。
 
 ### エ：取り壊された附属建物の符号は、再使用することができない
 
-附属建物には「1」「2」などの算用数字による符号を付しますが、いったん使用した符号は再使用することができないとされています。したがって、附属建物が取り壊され、その後に新たな附属建物ができた場合でも、取り壊された附属建物に付されていた符号を新しい附属建物に付け直すことはできず、本肢は正しい記述です。
+附属建物には「1」「2」などの算用数字による符号を付しますが、いったん使用した符号は再使用することができないとされています。
+
+したがって、附属建物が取り壊され、その後に新たな附属建物ができた場合でも、取り壊された附属建物に付されていた符号を新しい附属建物に付け直すことはできず、本肢は正しい記述です。
 
 **たとえば**、符号「1」の物置を取り壊して、後から新しい車庫を附属建物として登記するとき、空いた「1」を再び使うことはできず、新しい車庫には「2」という次の符号を付けることになります。
 
 ### オ：数次の増築でも、最後の増築の登記原因・日付だけで足りる
 
-表題登記のある建物について数次にわたり増築がされたのに、その都度の変更登記がされていなかった場合、現状に合わせて建物の表題部の変更登記を申請するときは、最後の増築に係る登記原因及びその日付のみを申請情報の内容とすれば足りるとされています。過去の増築を一つずつ書き並べる必要はなく、本肢は正しい記述です。
+表題登記のある建物について数次にわたり増築がされたのに、その都度の変更登記がされていなかった場合、現状に合わせて建物の表題部の変更登記を申請するときは、最後の増築に係る登記原因及びその日付のみを申請情報の内容とすれば足りるとされています。
+
+過去の増築を一つずつ書き並べる必要はなく、本肢は正しい記述です。
 
 **たとえば**、ある家が3回にわたって少しずつ増築されていたのに登記がされていなかった場合、まとめて変更登記を申請するときは、3回分すべての日付を書く必要はなく、いちばん最後の増築の「増築」という原因とその日付だけを記載すれば足ります。
+
+---
 
 ### まとめ
 
@@ -106,13 +124,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 号・録・権・地・番・建・物・登・記・所, which have Simplified Chinese
+kanji 号・録・地・番・建・物・登・記・所, which have Simplified Chinese
 variants with different stroke forms — always render the standard Japanese
 (Jōyō) form of these characters, never the simplified Chinese form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -195,20 +231,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 所在欄の記録順序を扱うア・イと、名称登記・符号の再使用・変更登記の登記原因を扱うウ・エ・オとを、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すればよいかという解き方の手順で示す5枚の作図ガイドパネル。アは「主である建物か附属建物か」だけで決まり床面積の大小は無関係という点を配置図で、イとウは「〜だと思い込みやすいが実際は逆」という誤解と正解を対比枠で、エとオは取り壊し・新築や複数回の増築という時間の経過をタイムラインで整理する構成にした。
 
@@ -249,7 +285,15 @@ condition each callout describes faithful to the article's own body text
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -275,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -299,7 +343,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 主建物が先、面積は無関係
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -319,7 +363,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 省略不可、そのまま記録
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -341,7 +385,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 規約証明は不要
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -358,13 +402,12 @@ receiving a fresh tag "符号2"; draw an arrow that runs from the retired
 "①符号1を再使用できるか→できない　②次の番号を付す".
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず取り壊された附属建物に付されていた符号を確認し、次にその符号を新しい
-附属建物にそのまま使えるかを確認します。使うことはできないため、次に空い
-ていない番号を新たに付します。
+附属建物にそのまま使えるかを確認します。使うことはできないため、まだ使っていない次の番号を新たに付します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 再使用不可、新番号へ
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -386,14 +429,13 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-根拠：不動産登記事務取扱手続準則第88条第2項（ア）／先例 昭和41年1月11日
-民甲229号（イ）／不動産登記令別表十二の項（ウ）／先例 昭和37年6月11日
-民甲1559号（エ）／先例 平成21年2月20日民二500号（オ）
+根拠：不動産登記事務取扱手続準則第88条第2項（ア）／先例（イ）／不動産登記令
+別表十二の項（ウ）／先例（エ）／先例（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
-attention to 号・録・権・地・番・建・物・登・記・所・附・符・規・約. If any
-character renders as a Simplified Chinese variant, redraw that character
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
+attention to 号・録・地・番・建・物・登・記・所・附・符・規・約. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that every

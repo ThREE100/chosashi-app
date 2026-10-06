@@ -2,51 +2,65 @@
 
 **出題年度：平成30年度　午後の部　第17問**
 
-> 登記事項の証明等に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　地積測量図の一部の写しの交付を請求することはできない。
->
-> イ　権利部に所有権の保存の登記がされているときであっても、表題部のみを記載事項とする登記事項証明書の交付を請求することはできる。
->
-> ウ　登記事項証明書の交付を請求する場合において、共同担保目録に記録された事項についても証明を求めるときは、その旨を請求情報の内容としなければならない。
->
-> エ　地図に準ずる図面の全部の写しの交付の請求は、その請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してはすることができない。
->
-> オ　請求書を登記所に提出する方法により登記事項証明書の交付の請求をする場合において、請求人の申出により、送付の方法により登記事項証明書の交付を受けるときは、手数料のほか送付に要する費用も納付しなければならない。
->
+> 登記事項の証明等に関する次のアからオまでの記述のうち、正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　地積測量図の一部の写しの交付を請求することはできない。  
+>　  
+> イ　権利部に所有権の保存の登記がされているときであっても、表題部のみを記載事項とする登記事項証明書の交付を請求することはできる。  
+>　  
+> ウ　登記事項証明書の交付を請求する場合において、共同担保目録に記録された事項についても証明を求めるときは、その旨を請求情報の内容としなければならない。  
+>　  
+> エ　地図に準ずる図面の全部の写しの交付の請求は、その請求に係る不動産の所在地を管轄する登記所以外の登記所の登記官に対してはすることができない。  
+>　  
+> オ　請求書を登記所に提出する方法により登記事項証明書の交付の請求をする場合において、請求人の申出により、送付の方法により登記事項証明書の交付を受けるときは、手数料のほか送付に要する費用も納付しなければならない。  
+>　  
 > 1　アイ　　2　アエ　　3　イウ　　4　ウオ　　5　エオ
+
+---
 
 登記事項証明書や各種図面の写しを「誰が」「どの範囲で」「どの登記所に」「どんな手数料で」請求できるのか、という交付手続の細かいルールが問われる分野です。条文の文言を一つずつ丁寧に確認すれば、確実に得点できる問題です。
 
 ### ア：図面の写しは、一部の写しの交付も請求できる
 
-登記簿の附属書類のうち、土地所在図、地積測量図、地役権図面、建物図面および各階平面図の図面に限り、写しの交付を請求することができます（不動産登記令21条1項）。そして、これらの図面については全部の写しだけでなく、一部の写しの交付を請求することもできます（不動産登記法121条1項）。したがって「一部の写しの交付を請求することはできない」とする本肢は誤りです。
+登記簿の附属書類のうち、土地所在図、地積測量図、地役権図面、建物図面および各階平面図の図面に限り、写しの交付を請求することができます（不動産登記令21条1項）。
+
+そして、これらの図面については全部の写しだけでなく、一部の写しの交付を請求することもできます（不動産登記法121条1項）。したがって「一部の写しの交付を請求することはできない」とする本肢は誤りです。
 
 **たとえば**、広い一団の土地の地積測量図のうち、自分が関心のある一区画の部分だけを知りたいというとき、図面全体ではなくその一部の写しだけを求めることも認められています。
 
 ### イ：表題部のみを記載事項とする登記事項証明書は存在しない
 
-登記事項証明書には、登記記録に記録されている事項の全部を記録した全部事項証明書（不動産登記規則196条1項1号）のほか、現に効力を有するもののみを記録した現在事項証明書（規則196条1項2号）などがあります。しかし、本肢のように「表題部のみ」を記録した登記事項証明書という類型は用意されていません。したがって、所有権の保存の登記がされているかどうかにかかわらず、表題部だけを記載事項とする登記事項証明書の交付を請求することはできず、本肢は誤りです。
+登記事項証明書には、登記記録に記録されている事項の全部を記録した全部事項証明書（不動産登記規則196条1項1号）のほか、現に効力を有するもののみを記録した現在事項証明書（規則196条1項2号）などがあります。
+
+しかし、本肢のように「表題部のみ」を記録した登記事項証明書という類型は用意されていません。したがって、所有権の保存の登記がされているかどうかにかかわらず、表題部だけを記載事項とする登記事項証明書の交付を請求することはできず、本肢は誤りです。
 
 **たとえば**、マンションの一室について「権利の部分はいらないから、面積など表題部の情報だけ載った証明書がほしい」と窓口で頼んでも、そのような専用の証明書は発行してもらえません。
 
 ### ウ：共同担保目録の事項も証明を求めるなら、その旨を請求情報に
 
-登記事項証明書の交付を請求する場合において、共同担保目録または信託目録に記録された事項についても証明を求めるときは、その旨を請求情報の内容としなければなりません（不動産登記規則193条1項5号）。共同担保目録などは、原則としてそのままでは証明書に反映されないため、必要であれば請求の際にきちんと申し出る必要があります。
+登記事項証明書の交付を請求する場合において、共同担保目録または信託目録に記録された事項についても証明を求めるときは、その旨を請求情報の内容としなければなりません（不動産登記規則193条1項5号）。
+
+共同担保目録などは、原則としてそのままでは証明書に反映されないため、必要であれば請求の際にきちんと申し出る必要があります。
 
 **たとえば**、複数の土地に一つの抵当権がまとめて設定されている場合に、その担保関係の一覧である共同担保目録まで載った証明書がほしいときは、請求書に「共同担保目録も含める」と明記しておかなければなりません。
 
 ### エ：地図に準ずる図面の写しは、どの登記所でも請求できる
 
-地図に準ずる図面（いわゆる公図）は、地図と同様、誰でも写しの交付の請求をすることができ、管轄登記所を問わず、いずれの登記所に対しても請求することができます（不動産登記法120条1項、3項）。したがって、「その不動産の所在地を管轄する登記所以外の登記所に対しては請求できない」とする本肢は誤りです。
+地図に準ずる図面（いわゆる公図）は、地図と同様、誰でも写しの交付の請求をすることができ、管轄登記所を問わず、いずれの登記所に対しても請求することができます（不動産登記法120条1項、3項）。
+
+したがって、「その不動産の所在地を管轄する登記所以外の登記所に対しては請求できない」とする本肢は誤りです。
 
 **たとえば**、遠く離れた地方にある土地の公図の写しがほしいとき、わざわざ現地の管轄登記所まで出向かなくても、近所の登記所の窓口で写しの交付を請求することができます。
 
 ### オ：送付で受け取るなら、手数料に加えて送付費用も納付する
 
-請求書を登記所に提出する方法により登記事項証明書の交付の請求をする場合において、請求人の申出により、送付の方法（郵送）により登記事項証明書の交付を受けるときは、手数料のほか、送付に要する費用も納付しなければなりません（不動産登記規則204条1項）。郵送で受け取る以上、その郵送コストも請求人が負担するという、素直なルールです。
+請求書を登記所に提出する方法により登記事項証明書の交付の請求をする場合において、請求人の申出により、送付の方法（郵送）により登記事項証明書の交付を受けるときは、手数料のほか、送付に要する費用も納付しなければなりません（不動産登記規則204条1項）。
+
+郵送で受け取る以上、その郵送コストも請求人が負担するという、素直なルールです。
 
 **たとえば**、窓口まで取りに行く時間がないので証明書を自宅に郵送してほしいと申し出た場合には、証明書の手数料だけでなく、返送用の切手代など送付にかかる費用もあわせて納める必要があります。
+
+---
 
 ### まとめ
 
@@ -110,12 +124,30 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 証・図・請・登・記・所・費・録・郵 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -190,19 +222,19 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 上記②の「結論カード」ポスターとは別に、登記事項証明書・図面の写しの交付請求について、実際にどの順番で何を確認すればよいかを、肢ごとに図解する作図ガイドを追加した。②の「結論を一言で見せる」ポスターと異なり、各パネルに判定の順序を明示する「着眼点」の短い説明文を添えている。
 
@@ -289,7 +321,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -307,7 +339,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 一部でも請求できる
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 表題部のみの証明書は存在しない
@@ -325,7 +357,7 @@ Diagram: 正誤対比の構図で描く。上段（誤った思い込み）に�
 Conclusion tag (blue, 5-15 Japanese characters):
 存在しない類型
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 共同担保目録は請求情報に明記する
@@ -343,7 +375,7 @@ ledger pages が証明書に添付される結論ノード「請求情報にそ�
 Conclusion tag (blue, 5-15 Japanese characters):
 請求情報に記載
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地図に準ずる図面はどこでも請求できる
@@ -360,7 +392,7 @@ office（登記所）building icon を散らして配置する。そのうち1�
 Conclusion tag (blue, 5-15 Japanese characters):
 どの登記所でも可
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 送付なら送付費用も自己負担になる

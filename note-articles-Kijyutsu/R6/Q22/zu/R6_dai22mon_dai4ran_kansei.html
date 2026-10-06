@@ -1,0 +1,65 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 70px 60px 40px; min-height: 1650px; display: flex; flex-direction: column; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 48px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 26px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 22px; }
+.plainrow .lab { padding-top: 0; }
+.plainrow .ryaku { flex: 1; text-align: center; }
+.plainrow .printed { flex: 1; letter-spacing: 0.05em; }
+table.bldg { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.bldg td { border: 1.5px solid #111; font-size: 19px; padding: 8px 10px; vertical-align: middle; line-height: 1.5; }
+table.bldg td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }
+table.bldg td.vert.tight { letter-spacing: 0.15em; font-size: 20px; }
+table.bldg td.lab2 { text-align: center; font-size: 19px; }
+table.bldg td.head { text-align: center; font-size: 18px; height: 70px; }
+table.bldg td.val { height: 64px; }
+table.bldg td.entry { height: 120px; }
+table.bldg td.center { text-align: center; }
+table.bldg td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.bldg td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.bldg td.genin { font-size: 17px; }
+table.bldg td .ink { font-size: 20px; }
+table.bldg td.kyouyuu { vertical-align: top; height: 190px; font-size: 19px; }
+table.bldg td.kyouyuu .lines { margin: 12px 0 0 34px; line-height: 1.9; }
+table.bldg td.kyouyuu .ink { font-size: 21px; }
+.kgrid { display: grid; grid-template-columns: 290px 70px 120px auto; row-gap: 6px; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
+            font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
+           margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -4px; right: -4px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-3deg); }
+.dstrike { position: relative; }
+.dstrike::before, .dstrike::after { content: ""; position: absolute; left: -3px; right: -3px; border-top: 2.5px solid #d0021b; }
+.dstrike::before { top: 42%; } .dstrike::after { top: 60%; }
+.ring { border: 3px solid #d0021b; border-radius: 50%; padding: 2px 8px; }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; line-height: 1.5;
+           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; right: 120px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 16px 0 0; text-align: right; }
+.bubrow .bubble { text-align: left; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.okwrap { position: relative; }
+.check { position: absolute; right: -14px; top: -22px; }
+.shinsei { font-size: 20px; margin-bottom: 14px; }
+/* 第1欄・第4欄（申請書以外の解答欄） */
+.sec { font-size: 24px; margin: 0 0 6px; font-weight: bold; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+table.ran { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.ran td { border: 1.5px solid #111; height: 80px; font-size: 22px; text-align: center; vertical-align: middle; }
+table.ran td .ink { font-size: 26px; }
+.ranpage { padding: 50px 60px 30px; }
+</style></head><body><div class="ranpage"><div class="sec">第4欄</div><table class="ran"><colgroup><col style="width:10%"><col style="width:40%"><col style="width:10%"><col style="width:40%"></colgroup><tr><td>①</td><td><span class="ink">構造上</span></td><td>②</td><td><span class="ink">利用上</span></td></tr></table><div class="caption">令和6年度 土地家屋調査士試験 第22問 問4（第4欄）解答例</div></div></body></html>

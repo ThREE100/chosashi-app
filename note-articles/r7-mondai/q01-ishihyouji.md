@@ -2,19 +2,21 @@
 
 **出題年度：令和7年度　午後の部　第1問**
 
-> 意思表示に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。
->
-> ア　錯誤による意思表示は、その錯誤が表意者の重大な過失によるものであった場合であっても、相手方が表意者に錯誤があることを重大な過失により知らなかったときは、取り消すことができる。
->
-> イ　第三者の強迫によって不動産を売却した者は、買主が強迫の事実を知らなかった場合には、当該不動産の売買の意思表示を取り消すことができない。
->
-> ウ　買主の詐欺によって不動産を売却した者は、当該不動産の売買の意思表示を取り消す前に当該買主が詐欺の事実につき善意無過失の第三者に当該不動産を転売していた場合には、当該第三者への所有権の移転の登記がされていないときであっても、その取消しを当該第三者に対抗することができない。
->
-> エ　相手方が正当な理由なく意思表示の通知が到達することを妨げたときは、その通知は、表意者が通知を発した時に相手方に到達したものとみなされる。
->
-> オ　表意者がその真意ではないことを知って意思表示をした場合において、当該意思表示の相手方がその旨を知っていたときは、当該意思表示の無効は、善意有過失の第三者に対抗することができる。
->
+> 意思表示に関する次のアからオまでの記述のうち、判例の趣旨に照らし正しいものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　錯誤による意思表示は、その錯誤が表意者の重大な過失によるものであった場合であっても、相手方が表意者に錯誤があることを重大な過失により知らなかったときは、取り消すことができる。  
+>　  
+> イ　第三者の強迫によって不動産を売却した者は、買主が強迫の事実を知らなかった場合には、当該不動産の売買の意思表示を取り消すことができない。  
+>　  
+> ウ　買主の詐欺によって不動産を売却した者は、当該不動産の売買の意思表示を取り消す前に当該買主が詐欺の事実につき善意無過失の第三者に当該不動産を転売していた場合には、当該第三者への所有権の移転の登記がされていないときであっても、その取消しを当該第三者に対抗することができない。  
+>　  
+> エ　相手方が正当な理由なく意思表示の通知が到達することを妨げたときは、その通知は、表意者が通知を発した時に相手方に到達したものとみなされる。  
+>　  
+> オ　表意者がその真意ではないことを知って意思表示をした場合において、当該意思表示の相手方がその旨を知っていたときは、当該意思表示の無効は、善意有過失の第三者に対抗することができる。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
+
+---
 
 意思表示の分野は、錯誤・詐欺・強迫・心裡留保という4つの制度それぞれについて、「誰の同意・認識があれば取消し・無効を主張できるのか」「第三者にどこまで対抗できるのか」を正確に切り分けられるかが問われます。
 
@@ -26,24 +28,34 @@
 
 **ここが分かりにくいポイント**：
 
-「表意者に重大な過失があった」と読んだ時点で、「自業自得だから取消しはできないはず」と考えて、そこで思考を止めてしまいがちです。しかし民法95条3項は、表意者の重過失だけで結論を出していません。同項は「次に掲げる場合を除き、意思表示の取消しをすることができない」としたうえで、1号に「相手方が表意者に錯誤があることを知り、又は重大な過失によって知らなかったとき」を例外として置いています。つまり判断は次の2段階です。
+「表意者に重大な過失があった」と読んだ時点で、「自業自得だから取消しはできないはず」と考えて、そこで思考を止めてしまいがちです。しかし民法95条3項は、表意者の重過失だけで結論を出していません。
+
+同項は「次に掲げる場合を除き、意思表示の取消しをすることができない」としたうえで、1号に「相手方が表意者に錯誤があることを知り、又は重大な過失によって知らなかったとき」を例外として置いています。つまり判断は次の2段階です。
 
 1. 表意者に重過失があるか → あれば、原則として取消しはできない
 2. しかし、相手方の側にも「錯誤に気づいていた（悪意）」または「重過失で気づかなかった」という落ち度があるか → あれば、例外的に取消しができる
 
-本肢は、この2段階目の「相手方の重過失」が明記されているため、表意者に重過失があっても取消しができる場合にあたります。「表意者が悪い」で思考を止めず、「相手方はどうだったか」まで必ず確認する、という2段構えで読むのがコツです。なお、条文にはもう一つの例外（相手方が表意者と同一の錯誤に陥っていた場合＝共通錯誤、95条3項2号）もありますが、本肢で問われているのは1号の場面です。
+本肢は、この2段階目の「相手方の重過失」が明記されているため、表意者に重過失があっても取消しができる場合にあたります。「表意者が悪い」で思考を止めず、「相手方はどうだったか」まで必ず確認する、という2段構えで読むのがコツです。
+
+なお、条文にはもう一つの例外（相手方が表意者と同一の錯誤に陥っていた場合＝共通錯誤、95条3項2号）もありますが、本肢で問われているのは1号の場面です。
 
 ### イ：第三者の強迫による意思表示は、相手方の善意・悪意にかかわらず取り消せる
 
-詐欺の場合には、第三者による詐欺について相手方が悪意又は有過失であったときに限り取り消すことができるとされていますが（民法96条2項）、強迫についてはこのような限定はありません。強迫による意思表示は、相手方が強迫の事実を知っていたかどうかにかかわらず、常に取り消すことができます。
+詐欺の場合には、第三者による詐欺について相手方が悪意又は有過失であったときに限り取り消すことができるとされていますが（民法96条2項）、強迫についてはこのような限定はありません。
+
+強迫による意思表示は、相手方が強迫の事実を知っていたかどうかにかかわらず、常に取り消すことができます。
 
 **たとえば**、見知らぬ第三者に脅されて仕方なく不動産を売却してしまった場合、買主がその脅迫の事実をまったく知らなかったとしても、売主は売買の意思表示を取り消すことができます。
 
 ### ウ：詐欺取消し前の善意無過失の転得者には、登記がなくても対抗できない
 
-詐欺による意思表示の取消しは、善意でかつ過失がない第三者に対抗することができません（民法96条3項）。この判例は、対抗要件としての登記を備えていることを要件としていません。そのため、転売を受けた第三者が所有権移転登記を済ませていなくても、売主は取消しをその第三者に対抗することができません。
+詐欺による意思表示の取消しは、善意でかつ過失がない第三者に対抗することができません（民法96条3項）。この判例は、対抗要件としての登記を備えていることを要件としていません。
 
-**たとえば**、買主にだまされて不動産を売ってしまった売主が、だまされたことに気づく前に、買主がその不動産を事情を知らない第三者へ転売していたとします。この第三者がまだ登記を済ませていなかったとしても、売主は詐欺を理由とする取消しをその第三者に主張することはできません。
+そのため、転売を受けた第三者が所有権移転登記を済ませていなくても、売主は取消しをその第三者に対抗することができません。
+
+**たとえば**、買主にだまされて不動産を売ってしまった売主が、だまされたことに気づく前に、買主がその不動産を事情を知らない第三者へ転売していたとします。
+
+この第三者がまだ登記を済ませていなかったとしても、売主は詐欺を理由とする取消しをその第三者に主張することはできません。
 
 ### エ：通知の到達妨害があった場合は、「通常到達すべきであった時」に到達したとみなされる
 
@@ -53,20 +65,32 @@
 
 ### オ：相手方が悪意であっても、心裡留保の無効は善意（過失の有無を問わない）の第三者に対抗できない
 
-心裡留保による意思表示は、相手方がその意思表示が表意者の真意ではないことを知っていた場合には無効となりますが、この無効は、善意の第三者に対抗することができません（民法93条2項）。ここでいう「善意の第三者」として保護されるために無過失であることまでは要求されていないため、善意でありさえすれば、たとえ過失があったとしても、無効を対抗することはできません。
+心裡留保による意思表示は、相手方がその意思表示が表意者の真意ではないことを知っていた場合には無効となりますが、この無効は、善意の第三者に対抗することができません（民法93条2項）。
 
-**たとえば**、Aさんが冗談のつもりで「この土地をあげる」と言い、相手のBさんもそれが冗談だと分かっていたため、AB間の意思表示は無効になったとします。その後、Bさんがこの土地を、事情を知らないCさんに譲渡した場合、Cさんに多少の不注意があったとしても、善意である以上、Aさんはこの無効をCさんに対抗することはできません。
+ここでいう「善意の第三者」として保護されるために無過失であることまでは要求されていないため、善意でありさえすれば、たとえ過失があったとしても、無効を対抗することはできません。
+
+**たとえば**、Aさんが冗談のつもりで「この土地をあげる」と言い、相手のBさんもそれが冗談だと分かっていたため、AB間の意思表示は無効になったとします。
+
+その後、Bさんがこの土地を、事情を知らないCさんに譲渡した場合、Cさんに多少の不注意があったとしても、善意である以上、Aさんはこの無効をCさんに対抗することはできません。
 
 **ここが分かりにくいポイント**：
 
-「相手方は悪意（冗談だと知っていた）」という事実を読むと、「相手方に非があるのだから、その先の第三者に多少の落ち度（過失）があれば保護されなくても仕方ない」と直感的に考えてしまいがちです。しかし、民法93条2項が第三者保護の要件として定めているのは「善意」の一点だけで、無過失（落ち度がないこと）までは要求していません。相手方が悪意だったかどうかは、あくまで表意者・相手方間で意思表示が無効になるかどうかを決める話であり、その先に登場する第三者が保護されるかどうかの基準（善意で足りるか、無過失まで必要か）とは別の話です。
+「相手方は悪意（冗談だと知っていた）」という事実を読むと、「相手方に非があるのだから、その先の第三者に多少の落ち度（過失）があれば保護されなくても仕方ない」と直感的に考えてしまいがちです。
+
+しかし、民法93条2項が第三者保護の要件として定めているのは「善意」の一点だけで、無過失（落ち度がないこと）までは要求していません。
+
+相手方が悪意だったかどうかは、あくまで表意者・相手方間で意思表示が無効になるかどうかを決める話であり、その先に登場する第三者が保護されるかどうかの基準（善意で足りるか、無過失まで必要か）とは別の話です。
 
 ここで役立つのが、同じ問題のウ（詐欺）との比較です。制度によって、第三者保護に必要な要件が異なります。
 
 - **心裡留保（93条2項）**：第三者に必要なのは「**善意**」のみ。無過失（落ち度がないこと）は不要。
 - **詐欺（96条3項）**：第三者に必要なのは「**善意でかつ過失がない**（無過失）」こと。
 
-本肢は「善意有過失の第三者に対抗することができる」としていますが、93条2項が求めるのは善意だけなので、善意でありさえすれば過失があっても第三者は保護され、無効を対抗することはでき**ません**。同じ「第三者保護」でも、制度ごとに条文の文言（要求される主観の程度）が違う、という点に注意して読み分ける必要があります。
+本肢は「善意有過失の第三者に対抗することができる」としていますが、93条2項が求めるのは善意だけなので、善意でありさえすれば過失があっても第三者は保護され、無効を対抗することはでき**ません**。
+
+同じ「第三者保護」でも、制度ごとに条文の文言（要求される主観の程度）が違う、という点に注意して読み分ける必要があります。
+
+---
 
 ### まとめ
 
@@ -129,13 +153,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 錯・誤・過・失・迫・欺・裡・留・保・権・登・記・妨・害, which have visually
+kanji 錯・誤・過・失・迫・欺・裡・留・保・登・記・妨・害, which have visually
 similar but structurally different Simplified Chinese counterparts —
 always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -214,21 +256,21 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-錯・誤・過・失・迫・欺・裡・留・保・権・登・記・妨・害. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+錯・誤・過・失・迫・欺・裡・留・保・登・記・妨・害. If any character renders
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no
 duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、どの制度（錯誤・強迫・詐欺・心裡留保）が問題になっているかを見抜き、それぞれ「誰の主観を、どの順番で確認すべきか」をたどれるようにする5パネル構成。ウ（詐欺の第三者保護）とオ（心裡留保の第三者保護）は、同じ「意思表示の瑕疵→第三者への転得→第三者の主観の程度」という決定木の形を共有しつつ、要求される主観の程度（無過失まで必要か、善意だけで足りるか）が異なる点を、同じ木の形で対比させる構成にする。
 
@@ -253,7 +295,7 @@ conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
 （はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
 resolved by a single check, a labeled illustrative diagram is sufficient
-— do not force a flowchart. Panels 3 and 5 (肢ウ・肢オ) share the same
+— do not force a flowchart. Panels 3 and 5 (ウ・オ) share the same
 underlying decision-tree shape (意思表示に瑕疵があるか確認 → 目的物・
 権利が第三者に渡ったか確認 → 第三者に要求される主観の程度を確認）;
 draw both with the same tree layout, but highlight（太い縁取り・色を変
@@ -269,7 +311,15 @@ written below verbatim.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
@@ -293,14 +343,15 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 表意者の重過失で思考を止めない
 Diagram: A decision-tree flowchart on an isometric scene of two figures
-（表意者Ａ・相手方Ｂ）signing a contract. Start node: 表意者に重大な過失
-があるか？with a はい arrow proceeding downward to a second diamond node
-(drawn with a thicker highlighted border): 相手方は、錯誤があることを
+（表意者Ａ・相手方Ｂ）signing a contract. Start box (a plain rounded rectangle, NOT a diamond, because in this 肢 the
+answer is always yes): 表意者に重大な過失がある（原則は取消しできない）,
+with an arrow proceeding downward to a diamond node (drawn with a thicker
+highlighted border): 相手方は、錯誤があることを
 知っていた（悪意）、または重大な過失によって気づかなかったか？with the
 はい branch leading to a green checkmark conclusion node reading 取消し
 ができる, and the いいえ branch (drawn smaller, grayed out) leading to a
@@ -313,7 +364,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相手方の落ち度も確認
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 強迫は相手方の主観を確認しなくてよい
@@ -330,16 +381,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 相手方の主観は不問
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 詐欺は転得者の無過失まで確認する
 Diagram: A decision-tree flowchart (drawn with a thicker highlighted
 border on its final diamond node, since this is the branch this panel is
-about) on an isometric 3-scene timeline. Start node: 意思表示に詐欺と
-いう瑕疵があるか？with a はい arrow down to a second diamond node: 取消
-し前に、目的物が第三者に渡ったか？with a はい arrow down to a third
-diamond node（強調表示）: その第三者は、詐欺の事実について善意かつ
+about) on an isometric 3-scene timeline. Start box (a plain rounded rectangle, NOT a diamond, since this 肢 always
+starts from this fact): 詐欺による意思表示を取り消す前に、目的物が第三者
+Ｃに渡った, with an arrow down to the only diamond node（強調表示）: その第三者は、詐欺の事実について善意かつ
 無過失か？with a green checkmark branch (はい) leading to a conclusion
 node reading 取消しを対抗できない（登記の有無は問わない）, and a red
 cross branch (いいえ) leading to a conclusion node reading 取消しを対抗
@@ -352,13 +402,13 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 善意無過失なら対抗不可
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 到達妨害は「発信時」で判断しない
 Diagram: An isometric mail carrier holding an envelope toward a figure
-whose door is closing (受取拒否). A single diamond node: 相手方が正当な
-理由なく到達を妨げたか？with a はい arrow leading to a clock icon showing
+whose door is closing (受取拒否). A plain label box (NOT a diamond — this 肢 is a single check): 相手方が正当
+な理由なく到達を妨げた, with an arrow leading to a clock icon showing
 「発信の時」crossed out and「通常到達すべき時」highlighted with a
 checkmark, ending at a conclusion node reading その時に到達したとみなす。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -369,15 +419,15 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 通常到達すべき時に到達
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 心裡留保は転得者の善意だけで足りる
 Diagram: The same decision-tree flowchart shape as Panel 3, on the same
-isometric 3-scene timeline layout. Start node: 意思表示に心裡留保という
-瑕疵があるか（相手方が真意でないと知っていたか）？with a はい arrow down
-to a second diamond node: その後、目的物が第三者に渡ったか？with a はい
-arrow down to a third diamond node（強調表示、Panel 3とは異なるラベル）:
+isometric 3-scene timeline layout. Start box (a plain rounded rectangle, NOT a diamond): 心裡留保による意思
+表示（相手方は真意でないと知っていた＝無効）の後、目的物が第三者Ｃに
+渡った, with an arrow down to the only diamond node（強調表示、Panel 3
+とは異なるラベル）:
 その第三者は、真意でないことについて善意か（無過失は不要）？with a green
 checkmark branch (はい、過失があってもよい) leading to a conclusion node
 reading 無効を対抗できない, and a red cross branch (いいえ、悪意) leading
@@ -395,14 +445,14 @@ Small footnote text (bottom of panel, small font, verbatim):
 民法93条2項・95条3項1号・96条2項・96条3項・97条2項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, paying special
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 錯, 誤, 迫, 欺, 裡, 留, 保, 妨, 害 and any character that has
 a visually similar Simplified Chinese variant. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the panel count equals 5 exactly, badge numbers
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
-between the header and the panels, that every multi-condition 肢（肢ア・
-肢ウ・肢オ）is drawn as an actual flowchart with branch nodes (not a bare
+between the header and the panels, that every multi-condition 肢（ア・
+ウ・オ）is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that Panels 3 and 5
 visibly share the same tree layout with only the final diamond's label
 and highlighted branch differing, that each 着眼点 callout states a
@@ -440,11 +490,29 @@ tag — write it out as full sentences exactly as given below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-錯・誤・重・過・失・段・階・落・慣・胆・却 — always draw the standard
+錯・誤・重・過・失・落 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the flowchart — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -505,15 +573,15 @@ box above) ---
 根拠条文：民法95条3項1号
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-錯・誤・重・過・失・段・階・落・慣・胆・却. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm the flowchart has exactly 3 numbered nodes plus the two
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+錯・誤・重・過・失・落. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
+form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the flowchart has exactly 3 numbered nodes plus the two
 final outcome boxes on the main (はい／はい) path, confirm the grayed-out
 「いいえ」branch from NODE 1 is visually de-emphasized, confirm the
 green highlighted end box is clearly marked as matching 本肢, and confirm
 every heading, node label, and callout sentence matches the Japanese text
-given above verbatim, with no paraphrasing and no substituted characters.
+given above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -543,11 +611,29 @@ below.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-心・裡・留・保・詐・欺・善・悪・過・失・混・同・誤 — always draw the standard
+心・裡・留・保・詐・欺・善・悪・過・失・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -613,12 +699,12 @@ background, full width) ---
 根拠条文：民法93条2項（本肢）・96条3項（比較対象）
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-心・裡・留・保・詐・欺・善・悪・過・失・混・同・誤. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm there are exactly two side-by-side panels (green
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, especially
+心・裡・留・保・詐・欺・善・悪・過・失・誤. If any character renders
+as a Simplified or Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm there are exactly two side-by-side panels (green
 心裡留保 on the left, blue 詐欺 on the right), confirm both quoted article
 text boxes match the Japanese text given above verbatim character-for-
 character, and confirm the callout box text matches verbatim with no
-paraphrasing and no substituted characters.
+paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

@@ -2,53 +2,77 @@
 
 **出題年度：平成28年度　午後の部　第5問**
 
-> 電子申請における添付情報の提供方法の特例（不動産登記令附則第5条に規定する添付情報の提供方法に関する特例。以下「特例方式」という。）により表示に関する登記を申請する場合に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。
->
-> ア　特例方式により添付情報を提供するときは、各添付情報につき書面を提出する方法によるか否かの別を申請情報の内容とすることを要しない。
->
-> イ　書面に記載されている添付情報を登記所に提出する方法は、当該書面を登記所へ持参する方法及び送付する方法のいずれによることもできる。
->
-> ウ　書面に記載されている添付情報を送付する方法により提供するときは、書留郵便又は信書便の役務であって当該信書便事業者において引受け及び配達の記録を行うものによらなければならない。
->
-> エ　申請の却下又は取下げがあったときは、特例方式により提出された添付書面は、偽造された書面その他の不正な登記の申請のために用いられた疑いのある書面を除き、申請人に還付される。
->
-> オ　特例方式により提出された添付書面については、原本の還付を請求することができない。
->
+> 電子申請における添付情報の提供方法の特例（不動産登記令附則第5条に規定する添付情報の提供方法に関する特例。以下「特例方式」という。）により表示に関する登記を申請する場合に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記1から5までのうち、どれか。  
+>　  
+> ア　特例方式により添付情報を提供するときは、各添付情報につき書面を提出する方法によるか否かの別を申請情報の内容とすることを要しない。  
+>　  
+> イ　書面に記載されている添付情報を登記所に提出する方法は、当該書面を登記所へ持参する方法及び送付する方法のいずれによることもできる。  
+>　  
+> ウ　書面に記載されている添付情報を送付する方法により提供するときは、書留郵便又は信書便の役務であって当該信書便事業者において引受け及び配達の記録を行うものによらなければならない。  
+>　  
+> エ　申請の却下又は取下げがあったときは、特例方式により提出された添付書面は、偽造された書面その他の不正な登記の申請のために用いられた疑いのある書面を除き、申請人に還付される。  
+>　  
+> オ　特例方式により提出された添付書面については、原本の還付を請求することができない。  
+>　  
 > 1　アエ　　2　アオ　　3　イウ　　4　イオ　　5　ウエ
 
 ---
 
-電子申請が原則となった不動産登記手続でも、添付情報のすべてを電子データ化できるとは限りません。そこで用意されているのが、申請情報はオンラインで送りつつ、添付情報だけは書面のまま登記所に提出できる「特例方式」です。本問は、この特例方式における書面提出のルールと、原本還付との関係を細かく問うています。
+電子申請が原則となった不動産登記手続でも、添付情報のすべてを電子データ化できるとは限りません。
+
+そこで用意されているのが、申請情報はオンラインで送りつつ、添付情報だけは書面のまま登記所に提出できる「特例方式」です。本問は、この特例方式における書面提出のルールと、原本還付との関係を細かく問うています。
 
 ### ア：書面を提出する方法によるか否かの別は、申請情報の内容としなければならない
 
-特例方式により添付情報を提供するときは、各添付情報について、書面を提出する方法によるかどうかの別をも申請情報の内容とするものとされています（不動産登記規則附則21条1項）。特例方式による旨そのものを申請情報の内容とすること（不動産登記令附則5条2項）に加えて、添付情報ごとに書面提出か否かを示す必要があるという二段構えです。設問は「要しない」としていますが、実際には申請情報にこの別を記載することが求められており、この点で誤りです。
+特例方式により添付情報を提供するときは、各添付情報について、書面を提出する方法によるかどうかの別をも申請情報の内容とするものとされています（不動産登記規則附則21条1項）。
 
-**たとえば**、ある登記の添付情報のうち委任状は書面で提出し、他の添付情報は電子データで送るというように、書類ごとに提出方法が異なることは珍しくありません。そのため登記所側があらかじめどの添付情報が書面提出されるのかを申請情報の記載から把握できるようにしておく必要があり、「別を記載しなくてよい」という扱いにはなっていません。
+特例方式による旨そのものを申請情報の内容とすること（不動産登記令附則5条2項）に加えて、添付情報ごとに書面提出か否かを示す必要があるという二段構えです。
+
+設問は「要しない」としていますが、実際には申請情報にこの別を記載することが求められており、この点で誤りです。
+
+**たとえば**、ある登記の添付情報のうち委任状は書面で提出し、他の添付情報は電子データで送るというように、書類ごとに提出方法が異なることは珍しくありません。
+
+そのため登記所側があらかじめどの添付情報が書面提出されるのかを申請情報の記載から把握できるようにしておく必要があり、「別を記載しなくてよい」という扱いにはなっていません。
 
 ### イ：書面の提出は、持参でも送付でもどちらでもよい
 
-特例方式で提供する書面に記載された添付情報は、登記所へ持参する方法と送付する方法のいずれによっても提出することができます。不動産登記令附則5条1項は提出の手段を持参に限っておらず、不動産登記規則附則21条4項も送付の方法による提出を前提に、その方法を定めています。設問の内容は正しい記述です。
+特例方式で提供する書面に記載された添付情報は、登記所へ持参する方法と送付する方法のいずれによっても提出することができます。
+
+不動産登記令附則5条1項は提出の手段を持参に限っておらず、不動産登記規則附則21条4項も送付の方法による提出を前提に、その方法を定めています。設問の内容は正しい記述です。
 
 **たとえば**、遠方の申請人が管轄登記所まで出向く時間が取れない場合には、郵送で書面を送付する方法を選ぶことができますし、近隣の申請人であれば窓口に直接持参することもできます。どちらの方法を選んでも特例方式としての効力に違いはありません。
 
 ### ウ：送付するときは、書留郵便など記録が残る方法によらなければならない
 
-書面に記載された添付情報を送付する方法により提供するときは、書留郵便、または信書便の役務であって当該信書便事業者において引受け及び配達の記録を行うものによるものとされています（不動産登記規則附則21条4項）。あわせて、その書面を入れた封筒の表面に、特例方式により提出する書面が在中する旨を明記することも求められます（同条5項）。設問の記述は正しい内容です。
+書面に記載された添付情報を送付する方法により提供するときは、書留郵便、または信書便の役務であって当該信書便事業者において引受け及び配達の記録を行うものによるものとされています（不動産登記規則附則21条4項）。
 
-**たとえば**、普通郵便で重要な添付書面を送ってしまうと、万一配達事故で紛失した場合に届いたかどうかの記録が残らず、申請人にとっても登記所にとっても不都合が生じます。そのため、送付の記録が確実に残る書留郵便や特定信書便のような方法に限定されています。
+あわせて、その書面を入れた封筒の表面に、特例方式により提出する書面が在中する旨を明記することも求められます（同条5項）。設問の記述は正しい内容です。
+
+**たとえば**、普通郵便で重要な添付書面を送ってしまうと、万一配達事故で紛失した場合に届いたかどうかの記録が残らず、申請人にとっても登記所にとっても不都合が生じます。
+
+そのため、送付の記録が確実に残る書留郵便や特定信書便のような方法に限定されています。
 
 ### エ：却下・取下げの場合、添付書面は原則として申請人に還付される
 
-申請が却下されたり取り下げられたりしたときは、特例方式により提出された添付書面は、偽造された書面その他不正な登記の申請のために用いられた疑いがある書面を除き、申請人に還付されます。書面申請における却下時・取下げ時の添付書面の還付の規定（不動産登記規則38条3項・39条3項）が、特例方式で書面により添付情報を提供した場合について準用されているためです（同規則附則24条1項）。設問の記述は正しい内容です。
+申請が却下されたり取り下げられたりしたときは、特例方式により提出された添付書面は、偽造された書面その他不正な登記の申請のために用いられた疑いがある書面を除き、申請人に還付されます。
+
+書面申請における却下時・取下げ時の添付書面の還付の規定（不動産登記規則38条3項・39条3項）が、特例方式で書面により添付情報を提供した場合について準用されているためです（同規則附則24条1項）。設問の記述は正しい内容です。
 
 **たとえば**、書類の不備によって申請が一度却下されてしまった場合でも、その添付書面自体に何ら問題がなければ、申請人はその書面を返してもらい、不備を補正したうえで改めて提出し直すことができます。
 
 ### オ：特例方式でも、添付書面の原本還付を請求することができる
 
-特例方式により提出された添付書面についても、通常の書面申請と同様に原本の還付を請求することができます。添付書面の原本の還付請求に関する規定（不動産登記規則55条）が、特例方式による書面の提出について準用されているからです（同規則附則24条2項）。設問は「請求することができない」としていますが、この点で誤りです。なお、印鑑に関する証明書や、その申請のためにのみ作成された委任状などは還付を請求できない点は、通常の書面申請と同じです（同規則55条1項ただし書）。
+特例方式により提出された添付書面についても、通常の書面申請と同様に原本の還付を請求することができます。
 
-**たとえば**、会社の代表者の資格を証する書面のように、他の登記手続でも繰り返し使う書類を特例方式で提出した場合、原本と相違ない旨を記載した謄本を提出したうえで原本の還付を請求すれば、原本を手元に残したまま別の手続にも使うことができます。この扱いは特例方式であっても変わりません。
+添付書面の原本の還付請求に関する規定（不動産登記規則55条）が、特例方式による書面の提出について準用されているからです（同規則附則24条2項）。設問は「請求することができない」としていますが、この点で誤りです。
+
+なお、印鑑に関する証明書や、その申請のためにのみ作成された委任状などは還付を請求できない点は、通常の書面申請と同じです（同規則55条1項ただし書）。
+
+**たとえば**、会社の代表者の資格を証する書面のように、他の登記手続でも繰り返し使う書類を特例方式で提出した場合、原本と相違ない旨を記載した謄本を提出したうえで原本の還付を請求すれば、原本を手元に残したまま別の手続にも使うことができます。
+
+この扱いは特例方式であっても変わりません。
+
+---
 
 ### まとめ
 
@@ -69,10 +93,10 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - この第5問は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）には収録されていません。法務省公表の試験問題原本（ユーザーが提供したPDF）から問題文を直接確認したうえで、AI（Claude）が解説を作成したものです。
 - 正解番号（2番＝ア・オ）は、法務省公式の正答PDF（ユーザー提供）と照合済みです。
-- **条文レベルで確認できた根拠（2026-08-18実施）**：ローカル法令データベース（`laws/fudousan-touki-rei.md`、`laws/fudousan-touki-kisoku-1.md`、`laws/fudousan-touki-kisoku-3.md`）で、各肢の根拠条文を逐条確認しました。肢アは不動産登記規則附則21条1項（各添付情報につき書面を提出する方法によるか否かの別をも申請情報の内容とする）および不動産登記令附則5条2項、肢イは不動産登記令附則5条1項と不動産登記規則附則21条4項（送付の方法による提出を前提とした規定）、肢ウは不動産登記規則附則21条4項（書留郵便又は引受け及び配達の記録を行う信書便）および同条5項（封筒表面への在中明記）、肢エは不動産登記規則附則24条1項による同規則38条3項・39条3項（却下時・取下げ時の添付書面の還付、偽造書面等は除く）の準用、肢オは同規則附則24条2項による同規則55条（添付書面の原本の還付請求）の準用と、それぞれ条文の文言まで一致することを確認済みです。
-- **条文レベルで確認しきれていない点**：肢イについて「持参によることができる」ことを正面から定めた条文はなく、不動産登記令附則5条1項の「登記所に提出する方法」という文言と、送付の方法を前提とする不動産登記規則附則21条4項の存在からの解釈です（結論自体は令和3年度第4問肢イでも正しい記述として出題されており、公式正解とも整合します）。
+- **条文レベルで確認できた根拠（2026-08-18実施）**：ローカル法令データベース（`laws/fudousan-touki-rei.md`、`laws/fudousan-touki-kisoku-1.md`、`laws/fudousan-touki-kisoku-3.md`）で、各肢の根拠条文を逐条確認しました。アは不動産登記規則附則21条1項（各添付情報につき書面を提出する方法によるか否かの別をも申請情報の内容とする）および不動産登記令附則5条2項、イは不動産登記令附則5条1項と不動産登記規則附則21条4項（送付の方法による提出を前提とした規定）、ウは不動産登記規則附則21条4項（書留郵便又は引受け及び配達の記録を行う信書便）および同条5項（封筒表面への在中明記）、エは不動産登記規則附則24条1項による同規則38条3項・39条3項（却下時・取下げ時の添付書面の還付、偽造書面等は除く）の準用、オは同規則附則24条2項による同規則55条（添付書面の原本の還付請求）の準用と、それぞれ条文の文言まで一致することを確認済みです。
+- **条文レベルで確認しきれていない点**：イについて「持参によることができる」ことを正面から定めた条文はなく、不動産登記令附則5条1項の「登記所に提出する方法」という文言と、送付の方法を前提とする不動産登記規則附則21条4項の存在からの解釈です（結論自体は令和3年度第4問イでも正しい記述として出題されており、公式正解とも整合します）。
 - **最新法令チェック（2026-08-18実施）**：不動産登記令附則5条・不動産登記規則附則21条・24条は、いずれも本記事執筆時点のローカル法令データベース収録版で本文の説明と一致しており、相続登記義務化・住所変更登記義務化などの近年の改正による影響は本問の論点には及びません。ただし特例方式は令附則5条が「当分の間」として置く経過的な制度であり、電子申請の全面化に向けた将来の改正で見直される可能性がある点には留意してください。
-- **重複出題チェック（2026-07-21実施・2026-08-18更新）**：takuitsu.jsonを検索したところ、令和3年度第4問の肢イが、本問の肢イと同一の論点（特例方式による書面を登記所へ持参する方法と送付する方法のいずれによることもできる）を扱っており、**同じ結論で再出題されています**。また平成30年度第4問の肢エは特例方式に触れていますが、登記識別情報が特例方式の対象外である点（不動産登記令附則5条1項の括弧書き）を問うもので、本問とは論点が異なります。本問のその他の論点（添付情報ごとの書面提出有無の記載、書留郵便等による送付、却下・取下げ後の書面還付、原本還付請求）に一致する出題は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
+- **重複出題チェック（2026-07-21実施・2026-08-18更新）**：takuitsu.jsonを検索したところ、令和3年度第4問のイが、本問のイと同一の論点（特例方式による書面を登記所へ持参する方法と送付する方法のいずれによることもできる）を扱っており、**同じ結論で再出題されています**。また平成30年度第4問のエは特例方式に触れていますが、登記識別情報が特例方式の対象外である点（不動産登記令附則5条1項の括弧書き）を問うもので、本問とは論点が異なります。本問のその他の論点（添付情報ごとの書面提出有無の記載、書留郵便等による送付、却下・取下げ後の書面還付、原本還付請求）に一致する出題は見つかりませんでした。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
 
@@ -112,7 +136,15 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
@@ -194,8 +226,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, confirm that no card
@@ -209,7 +241,7 @@ with a fully opaque background with no transparency or alpha channel
 anywhere.
 ```
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に、「申請情報に何を書くか」「書面をどう届けるか」「どの場面で書面が戻ってくるか」を順番に確認できるようにする5パネル構成。アは「特例方式による旨」と「書面提出の別」の二段構えを2段の決定木で示す。イとウは「書面の添付情報を登記所に届ける方法」という1本の決定木を共有し、イは持参・送付の分かれ道を、ウは送付の枝の先にある送付手段と封筒表面の在中明記の2段チェックを強調する。エは偽造等の疑いがある書面かどうかで還付・非還付の両方の行き先を明記した決定木、オは「特例方式だから原本還付できない」という思い込みとの正誤対比に、印鑑証明書等の例外チェックを添える。色分けは、申請情報＝青、提出方法＝緑、還付＝オレンジ。
 
@@ -238,18 +270,18 @@ reaching a conclusion, draw the panel's diagram as an actual decision
 flowchart: diamond-shaped branch nodes with the condition written on
 them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node.
 Where a 肢 is resolved by a single check, a labeled illustrative diagram
-is sufficient — do not force a flowchart. Panel 1 (肢ア) must be a
+is sufficient — do not force a flowchart. Panel 1 (ア) must be a
 two-step flowchart that keeps the two separate recording requirements
-distinct. Panel 2 (肢イ) and Panel 3 (肢ウ) share ONE identical decision
+distinct. Panel 2 (イ) and Panel 3 (ウ) share ONE identical decision
 tree about how the paper attachment reaches the registry office; draw
 the same tree shape in both panels. Where a panel reuses a decision
 tree shared with other panels in this set, render the branch relevant
 to THIS panel with a thick highlighted border and full color, and render
 the other, unrelated branches in a faded, greyed-out, or dotted-outline
 style rather than omitting them — the reader should be able to see at a
-glance which part of the shared tree this panel is about. Panel 4 (肢エ)
+glance which part of the shared tree this panel is about. Panel 4 (エ)
 must be a flowchart whose final diamond node shows BOTH outcomes, each
-leading to its own separate conclusion node. Panel 5 (肢オ) uses a
+leading to its own separate conclusion node. Panel 5 (オ) uses a
 correct-vs-mistaken contrast frame (left/right) plus one small follow-up
 check below it. In every flowchart, every branch arrow must lead forward
 to a new node — never draw a loop arrow that returns from a diamond node
@@ -304,7 +336,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -329,7 +361,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 別の記載は省略不可
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 書面の添付情報は持参でも送付でも提出できる
@@ -358,7 +390,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 持参・送付どちらも可
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 送付は書留郵便か記録の残る信書便に限る
@@ -383,7 +415,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 書留郵便等に限る
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in orange containing the number 4.
 Heading (bold, ONE line):
 却下・取下げ時の添付書面は原則として還付
@@ -405,7 +437,7 @@ Conclusion tag (a short colored banner/pill, orange, 5-15 Japanese
 characters):
 疑わしい書面以外は還付
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in orange containing the number 5.
 Heading (bold, ONE line):
 特例方式の添付書面も原本還付を請求できる

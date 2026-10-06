@@ -2,31 +2,39 @@
 
 **出題年度：平成30年度　午後の部　第6問**
 
-> 登記所備付地図（以下「地図」という。）に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記１から５までのうち，どれか。
->
-> ア　地図は，一筆又は二筆以上の土地ごとに作成し，各土地の区画を明確にし，地番を表示するものとされている。
->
-> イ　地図の訂正の申出は，その地図に表示された土地の表題部所有者が二人である場合には，そのうちの一人からすることができる。
->
-> ウ　閉鎖した地図は，閉鎖した日から50年間保存される。
->
-> エ　国土調査法の規定により登記所に送付された地籍図は，地図として備え付けることを不適当とする特別の事情がある場合を除き，地図として備え付けられる。
->
-> オ　登記官は，地図に表示された土地の区画に誤りがあると認める場合であっても，その訂正の申出がない限り，訂正をすることはできない。
->
+> 登記所備付地図（以下「地図」という。）に関する次のアからオまでの記述のうち，誤っているものの組合せは，後記１から５までのうち，どれか。  
+>　  
+> ア　地図は，一筆又は二筆以上の土地ごとに作成し，各土地の区画を明確にし，地番を表示するものとされている。  
+>　  
+> イ　地図の訂正の申出は，その地図に表示された土地の表題部所有者が二人である場合には，そのうちの一人からすることができる。  
+>　  
+> ウ　閉鎖した地図は，閉鎖した日から50年間保存される。  
+>　  
+> エ　国土調査法の規定により登記所に送付された地籍図は，地図として備え付けることを不適当とする特別の事情がある場合を除き，地図として備え付けられる。  
+>　  
+> オ　登記官は，地図に表示された土地の区画に誤りがあると認める場合であっても，その訂正の申出がない限り，訂正をすることはできない。  
+>　  
 > 1　アウ　　2　アエ　　3　イエ　　4　イオ　　5　ウオ
 
-登記所備付地図（登記所に備え付けられる地図）の作成方法・保存・訂正の申出をめぐる分野からの出題です。「地図はどんな成果で作られるのか」「訂正の申出は誰ができるのか」「保存期間は何年か」「登記官は職権で直せるのか」を条文に沿って整理すると、確実に正誤を判断できます。
+---
+
+登記所備付地図（登記所に備え付けられる地図）の作成方法・保存・訂正の申出をめぐる分野からの出題です。
+
+「地図はどんな成果で作られるのか」「訂正の申出は誰ができるのか」「保存期間は何年か」「登記官は職権で直せるのか」を条文に沿って整理すると、確実に正誤を判断できます。
 
 ### ア：地図は1筆又は2筆以上の土地ごとに作成し、区画を明確にして地番を表示する
 
-地図は、1筆又は2筆以上の土地ごとに作成し、各土地の区画を明確にし、地番を表示するものとされています（不動産登記法14条2項）。この地図を作成するための測量は、基本三角点等を基礎とした正確な測量及び調査の成果に基づいて行われます（規則10条1項、3項）。設問はこの内容をそのまま述べており、正しい記述です。
+地図は、1筆又は2筆以上の土地ごとに作成し、各土地の区画を明確にし、地番を表示するものとされています（不動産登記法14条2項）。
+
+この地図を作成するための測量は、基本三角点等を基礎とした正確な測量及び調査の成果に基づいて行われます（規則10条1項、3項）。設問はこの内容をそのまま述べており、正しい記述です。
 
 **たとえば**、ある住宅街の一区画を地図に描くとき、隣の家との境界線（区画）をはっきり示し、そこに「○○番地」という地番を書き入れる、というイメージそのものが地図の役割です。
 
 ### イ：表題部所有者が二人でも、そのうちの一人から地図訂正の申出ができる
 
-地図に表示された土地の区画又は地番に誤りがあるときは、その土地の表題部所有者若しくは所有権の登記名義人又はそれらの相続人その他の一般承継人が地図訂正の申出をすることができ、これらの者が二人以上いる場合には、そのうちの一人からすることができます（規則16条1項）。地図に準ずる図面についても同様です。設問は正しい記述です。
+地図に表示された土地の区画又は地番に誤りがあるときは、その土地の表題部所有者若しくは所有権の登記名義人又はそれらの相続人その他の一般承継人が地図訂正の申出をすることができ、これらの者が二人以上いる場合には、そのうちの一人からすることができます（規則16条1項）。
+
+地図に準ずる図面についても同様です。設問は正しい記述です。
 
 **たとえば**、兄弟二人が表題部所有者として登記されている土地の区画に誤りが見つかった場合、兄一人だけで地図訂正の申出をすることができ、わざわざ弟の分まで揃えて全員で申し出る必要はありません。
 
@@ -48,6 +56,8 @@
 
 **たとえば**、登記官が別の登記処理をしている過程で地図の区画に明らかな誤りを発見した場合、土地の所有者からの申出を待たなくても、登記官自身の判断で職権により訂正することができます。
 
+---
+
 ### まとめ
 
 - **ア（正）**　地図は1筆又は2筆以上ごとに作成し、区画を明確にして地番を表示する
@@ -68,8 +78,8 @@
 - 出典（平成30年度午後の部 第6問）・正解番号（ウオ＝5番）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json、法務省公式正答を反映）で確認済みです。
 - 各肢の根拠（ア＝規則10条1項・3項、イ＝規則16条1項、ウ＝規則28条2号・3号、エ＝規則10条5項、オ＝規則16条15項）は、いずれも元データの解説に条文番号まで明記されているものです。一般原則からの推論にとどまる肢はありません。
 - 各肢の解説は、ローカルのアガルート過去問テキスト（OCRデータ）の解説を条文根拠の一次情報源として参照しています。
-- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（登記所備付地図）と同一・類似の問題が再出題されていないかを確認しました。**重複が見つかりました。** 令和7年度第4問（既存記事：`r7-mondai/q04-chizu-teisei.md`）は「地図の訂正」を主題とし、「地図に表示された土地の区画に誤りがある場合、所有権の登記名義人が二人であるときは、そのうちの一人から訂正の申出ができる」（本問肢イと同一論点）、「登記官は申出がなくても職権で訂正できるか」（本問肢オと同一論点）という、本問と重なる論点を扱っています。また、令和6年度第6問（未公開）は「閉鎖した地図に準ずる図面の保存期間は永久である」（本問肢ウ「50年」という誤りの記述と同一論点）を扱っています。令和7年度分は既に公開済みのため、noteへの投稿順序を工夫するか、本問側の具体例を差別化することを推奨します。
-- **再検証チェック（2026-08-18実施）**：qa-checklist.mdの19項目に従い再検証しました。`note-articles/laws/`のローカル法令データベース（不動産登記規則、不動産登記法）と突き合わせたところ、肢アの「地図は1筆又は2筆以上の土地ごとに作成し、各土地の区画を明確にし、地番を表示する」という内容の条文根拠は、規則10条1項・3項ではなく不動産登記法14条2項に定められていることが判明したため、本文の引用条文を法14条2項に修正しました（規則10条1項・3項は、地図作成の測量方法の根拠として本文に残しています）。イ（規則16条1項）・ウ（規則28条2号・3号）・エ（規則10条5項）・オ（規則16条15項）は、いずれも条文原文と文言・項号が一致することを確認しました。半角括弧・判例番号・先例番号・専門誌番号の本文記載、Markdown表の残存は確認されませんでした。正解番号（ウオ＝5番）と各肢の判定の整合性、まとめ・インフォグラフィックプロンプトの内容一致も問題ありませんでした。最新法令チェックとして、直近の法改正が本問（登記所備付地図）の論点に影響しないことも確認しました。
+- **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成30年度より後に実施された試験で、本問（登記所備付地図）と同一・類似の問題が再出題されていないかを確認しました。**重複が見つかりました。** 令和7年度第4問（既存記事：`r7-mondai/q04-chizu-teisei.md`）は「地図の訂正」を主題とし、「地図に表示された土地の区画に誤りがある場合、所有権の登記名義人が二人であるときは、そのうちの一人から訂正の申出ができる」（本問イと同一論点）、「登記官は申出がなくても職権で訂正できるか」（本問オと同一論点）という、本問と重なる論点を扱っています。また、令和6年度第6問（未公開）は「閉鎖した地図に準ずる図面の保存期間は永久である」（本問ウ「50年」という誤りの記述と同一論点）を扱っています。令和7年度分は既に公開済みのため、noteへの投稿順序を工夫するか、本問側の具体例を差別化することを推奨します。
+- **再検証チェック（2026-08-18実施）**：qa-checklist.mdの19項目に従い再検証しました。`note-articles/laws/`のローカル法令データベース（不動産登記規則、不動産登記法）と突き合わせたところ、アの「地図は1筆又は2筆以上の土地ごとに作成し、各土地の区画を明確にし、地番を表示する」という内容の条文根拠は、規則10条1項・3項ではなく不動産登記法14条2項に定められていることが判明したため、本文の引用条文を法14条2項に修正しました（規則10条1項・3項は、地図作成の測量方法の根拠として本文に残しています）。イ（規則16条1項）・ウ（規則28条2号・3号）・エ（規則10条5項）・オ（規則16条15項）は、いずれも条文原文と文言・項号が一致することを確認しました。半角括弧・判例番号・先例番号・専門誌番号の本文記載、Markdown表の残存は確認されませんでした。正解番号（ウオ＝5番）と各肢の判定の整合性、まとめ・インフォグラフィックプロンプトの内容一致も問題ありませんでした。最新法令チェックとして、直近の法改正が本問（登記所備付地図）の論点に影響しないことも確認しました。
 
 ---
 
@@ -111,13 +121,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・登・記・所・筆・図・訂・閉・鎖・職・籍・誤・査 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -199,20 +227,20 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese. If any character
-renders as a Simplified Chinese variant, redraw that character in the
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
 across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（ア〜オ 作図ガイド）
+## インフォグラフィック プロンプト（作図ガイド）
 
 問題文を読んだ瞬間に「何を、どの順番で確認すればよいか」を肢ごとに示す作図ガイド。②の結論ポスターとは別に、ア〜オ5肢それぞれについて、確認の手順そのものを可視化する5パネル構成。
 
@@ -294,7 +322,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢ア） ---
+--- PANEL 1（ア） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
@@ -311,7 +339,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 区画を明確にし地番を表示
 
---- PANEL 2（肢イ） ---
+--- PANEL 2（イ） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 表題部所有者が2人でも1人から訂正申出
@@ -330,7 +358,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 1人からの申出でよい
 
---- PANEL 3（肢ウ） ---
+--- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 閉鎖した地図の保存期間は永久
@@ -347,7 +375,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 50年でなく永久保存
 
---- PANEL 4（肢エ） ---
+--- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 地籍図は特別の事情がなければ地図になる
@@ -367,7 +395,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 特別の事情なければ地図に
 
---- PANEL 5（肢オ） ---
+--- PANEL 5（オ） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 訂正の申出がなくても登記官は職権で正せる
