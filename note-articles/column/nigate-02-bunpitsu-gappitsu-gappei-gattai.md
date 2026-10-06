@@ -602,7 +602,7 @@ Aさんの土地を、1枚のピザみたいに切り分けるのが分筆。切
 
 『承諾があれば、分筆後の全部の土地から抵当権を消せる』は、ちがう。必ずどこかの土地には権利が残る。『地役権があれば合筆はできない』も、ちがう。承役地の地役権なら例外で合筆できる。ただし要役地はだめ。
 
-『合筆と合併は同じ要件』も、ちがう。接続や地目は土地固有、共用部分の登記は建物固有。最後に、『つながった建物は何でも合体』も、ちがう。主と附属が一体になっても合体にならず、区分の意思があれば区分建物への変更になる」
+『合筆と合併は同じ要件』も、ちがう。接続や地目は土地固有、共用部分の登記は建物固有。最後に、『つながった建物は何でも合体』も、ちがう。主と附属が一体になっても、合体による登記等ではなく表題部の変更。区分建物としての要件を備えて、区分の意思があれば、区分建物への変更になる」
 
 > 【画像挿入】誤解を正しい理解に変える図（4つの思い込みと、その訂正）。画像のプロンプトは、この下の「図解プロンプト（誤解を正しい理解に変える図1枚）」にあります。
 
@@ -714,7 +714,7 @@ Conclusion tag (a short blue banner, 5-15 Japanese characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 場面5　合体は現況の記録
-Scene: a 3-scene row. Scene 1: one person out of several co-owners standing at a registry counter alone. Caption (verbatim): 共有者の一人からでも申請できる . Scene 2: a main building and its attached storage shed fused together. Caption (verbatim): 主と附属の一体化は合体の対象外 . Scene 3: a calendar page next to a registry book. Caption (verbatim): 合体だけ登記原因に年月日を書く
+Scene: a 3-scene row. Scene 1: one person out of several co-owners standing at a registry counter alone. Caption (verbatim): 共有者の一人からでも申請できる . Scene 2: a main building and its attached storage shed fused together, with a small tag on the main building's record sheet showing that only its record is changed. Caption (verbatim): 主と附属の一体化は表題部の変更 . Scene 3: a calendar page next to a registry book. Caption (verbatim): 合体だけ登記原因に年月日を書く
 Conclusion tag (a short green banner, 5-15 Japanese characters):
 合体は現況の記録
 
@@ -827,7 +827,7 @@ Conclusion tag (a short orange banner, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 つながれば合体という思い込み
-Scene: left half (gray): two buildings joined by a walkway, with a big stamp 合体 on them. Caption (verbatim): 思い込み　つながった建物は何でも合体 . Right half (green): a main building and its attached shed fused, and two units each owned by its own owner. Caption (verbatim): 正しくは　主と附属の一体化は対象外、区分の意思があれば区分建物への変更
+Scene: left half (gray): two buildings joined by a walkway, with a big stamp 合体 on them. Caption (verbatim): 思い込み　つながった建物は何でも合体 . Right half (green): a main building and its attached shed fused with only a record sheet being changed, and two units that keep their own walls and entrances, each owned by its own owner. Caption (verbatim): 正しくは　主と附属は表題部の変更、区分建物の要件と意思があれば区分建物への変更
 Conclusion tag (a short blue banner, 5-15 Japanese characters):
 何でも合体ではない
 
@@ -1181,7 +1181,7 @@ area, and no unpainted canvas edge anywhere in the final image.
 --- SCENE ---
 Heading (bold, ONE line):
 場面5　合体は現況の記録
-Scene: a 3-scene row. Scene 1: one person out of several co-owners standing at a registry counter alone. Caption (verbatim): 共有者の一人からでも申請できる . Scene 2: a main building and its attached storage shed fused together. Caption (verbatim): 主と附属の一体化は合体の対象外 . Scene 3: a calendar page next to a registry book. Caption (verbatim): 合体だけ登記原因に年月日を書く
+Scene: a 3-scene row. Scene 1: one person out of several co-owners standing at a registry counter alone. Caption (verbatim): 共有者の一人からでも申請できる . Scene 2: a main building and its attached storage shed fused together, with a small tag on the main building's record sheet showing that only its record is changed. Caption (verbatim): 主と附属の一体化は表題部の変更 . Scene 3: a calendar page next to a registry book. Caption (verbatim): 合体だけ登記原因に年月日を書く
 Conclusion tag (a short green banner below the illustration, 5-15 Japanese characters, a keyword phrase, not a sentence):
 合体は現況の記録
 
