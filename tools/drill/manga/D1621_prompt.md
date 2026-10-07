@@ -1,4 +1,4 @@
-# D1621 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
+# D1621 4コマ解説図解 プロンプト（ChatGPT貼付用・v03）
 
 - 肢：D1621（民法／共有・所有権・占有、出典 R03-Q02イ）。正解＝×（誤った記述）。誤解2回・？1回。
 - 記事：`note-articles/r3-mondai/q02-senyuken.md` イ「占有の訴えに、所有権を防御方法としてぶつけることはできない」
@@ -13,8 +13,8 @@
 - ④勘違い・理解を誤るポイント：本当の所有者なら、占有の訴えにも勝てる。占有の訴えの中で、所有権（本権）に基づく裁判はできない（民法202条2項）。
 - ⑤正しい整理：占有の訴えと本権の訴えは別々。占有の訴えの中では所有権の主張は決め手にならず、所有権を争うなら別に本権の訴えを起こす。記事の具体例：登記名義は自分だと反論しても決め手にならない。
 - 登場人物：Ａ（占有者）・Ｂ（訴えられた人）をコマ1で人型タグ付きで紹介。土地は「甲土地」の文字ラベルのブロック。
-- 矢印の意味：コマ1の矢印は「占有の訴え」（Ａ→Ｂ、訴訟）だけ。コマ2のフローチャートの矢印は判定の流れで、枝のラベルは「はい」＝青・「いいえ」＝赤。コマ3・4は矢印を使わない。
-- 配色：コマ2の結果の箱は白地・濃紺の枠で印は付けない（色は矢印とラベルだけ）。コマ3は左（本当の所有者なら勝てる）＝赤✕1つ、右（占有の訴えと本権の訴えは別）＝青✓1つ。
+- 矢印の意味：コマ1の矢印は「占有の訴え」（Ａ→Ｂ、訴訟）だけ。コマ2の点線の矢印は「Ｂの主張を持ち込もうとする」動きで、壁で止まる（手続の流れではない）。コマ3・4は矢印を使わない。
+- 配色：コマ2の2つの領域は同じ薄い灰色・濃紺の枠・濃紺の見出し（青・赤で塗り分けない）、壁・矢印・帯は濃紺、強調だけ黄色マーカーで、印は付けない。コマ3は左（本当の所有者なら勝てる）＝赤✕1つ、右（占有の訴えと本権の訴えは別）＝青✓1つ。
 - 記事の範囲：占有の訴えと本権の訴え（所有権・地上権・質権など、占有を法律上正当化する権原に関する訴え）は別々のものとして扱われる／占有の訴えに対して本権に基づく裁判はできない（民法202条2項）／所有権を争いたいなら、別に本権の訴えを起こす必要がある。
 
 ## 記事タイトル
@@ -39,13 +39,13 @@
 | コマ1 | 藍子（左・先に話す） | Ｂが、自分の土地だと反論したら？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。本当の持ち主なら勝てる、と思ったでしょ | — |
 | コマ2 見出し | ラベル | ②　出題者のねらい | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 占有の訴えと本権の訴えを、分けて考えられるか / 占有の訴え / Ａが起こした訴え / 本権の訴え / 所有権・地上権・質権など、占有を正当化する権原の訴え / Ｂの所有権の主張は、占有の訴えの中で出された？ / はい / 本権に基づく裁判はできない（民法202条2項） / いいえ / 別の本権の訴えで、所有権を争う | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 占有の訴えと本権の訴えを、分けて考えられるか / 占有の訴え / 争うこと：占有の状態 / 占有を奪われた、妨害されたなど、占有そのものを守る訴え / 本権の訴え / 争うこと：占有を正当化する権原 / 所有権・地上権・質権など、権原があるかを争う訴え / 別々のもの / 民法202条2項 / Ｂの主張：自分に所有権がある / 占有の訴えには持ち込めない / 所有権の有無は、本権の訴えで争うこと。だから別に本権の訴えを起こす / 本権の訴えで争うこと | — |
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
-| コマ3 図 | 図・カード | よくある勘違い / 本当の所有者なら、占有の訴えにも勝てる / ひっかけ：防御方法に所有権を出せそうに見える / 正しい整理 / 占有の訴えと本権の訴えは別。所有権を争うなら、別に本権の訴えを起こす / たとえば：登記名義は自分だ、と反論しても、占有の訴えの中では決め手にならない | — |
+| コマ3 図 | 図・カード | よくある勘違い / 本当の所有者なら、占有の訴えにも勝てる / ひっかけ：防御方法に所有権を出せそうに見える / 正しい整理 / 占有の訴えと本権の訴えは別。所有権の有無は本権の訴えで争うことだから、争うなら別に本権の訴えを起こす / たとえば：登記名義は自分だ、と反論しても、占有の訴えの中では決め手にならない | — |
 | コマ3 | 藍子（左・1番目） | でも、Ｂが本当の所有者なら、勝てますよね？ | — |
 | コマ3 | トリ先生（右・2番目） | それがひっかけ。占有の訴えでは、所有権は決め手にならないの | 「所有権は決め手にならない」 |
-| コマ3 | 藍子（左・3番目） | 登記名義が自分でも、だめなんですか？ | — |
-| コマ3 | トリ先生（右・4番目） | だめ。争うなら、別に本権の訴えを起こすのよ | 「別に本権の訴え」 |
+| コマ3 | 藍子（左・3番目） | どうして、本権の訴えでないとだめなんですか？ | — |
+| コマ3 | トリ先生（右・4番目） | 所有権の有無は、本権の訴えで争うテーマだからよ | 「本権の訴えで争うテーマ」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 所有権を防御方法にできるという記述は、誤りなんですね！ | — |
@@ -94,18 +94,19 @@ PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 p
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
 - Label tab: 「②　出題者のねらい」
-- A full-width infographic fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「占有の訴えと本権の訴えを、分けて考えられるか」.
-- Upper part: two explanation cards side by side, with no mark on either card. Left card, heading 「占有の訴え」, body 「Ａが起こした訴え」. Right card, heading 「本権の訴え」, body 「所有権・地上権・質権など、占有を正当化する権原の訴え」.
-- Lower part: a flowchart. A yellow-highlighted diamond: 「Ｂの所有権の主張は、占有の訴えの中で出された？」.
-- From the diamond, a BLUE arrow labeled 「はい」 goes to a box: 「本権に基づく裁判はできない（民法202条2項）」; and a RED arrow labeled 「いいえ」 goes to a box: 「別の本権の訴えで、所有権を争う」. These two boxes have a white fill and a dark navy outline only; the color lives only in the arrows and labels (the 「はい」 arrow and label are blue, the 「いいえ」 arrow and label are red), with no check mark and no cross.
-- The two result boxes have clearly different texts; the texts are NOT identical.
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「占有の訴えと本権の訴えを、分けて考えられるか」.
+- Two large rounded areas stand side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading. Left area: heading 「占有の訴え」, a line 「争うこと：占有の状態」, and body 「占有を奪われた、妨害されたなど、占有そのものを守る訴え」. Right area: heading 「本権の訴え」, a line 「争うこと：占有を正当化する権原」, and body 「所有権・地上権・質権など、権原があるかを争う訴え」.
+- Between the two areas stands a tall dark navy wall labeled 「別々のもの」, with a small label 「民法202条2項」 on it.
+- Inside the right area, a card reads 「Ｂの主張：自分に所有権がある」. A dotted dark navy arrow (this arrow means the claim being carried over, not a procedure) leaves this card toward the left area and stops at the wall, with the small navy label 「占有の訴えには持ち込めない」.
+- At the bottom, one wide dark navy band with white text 「所有権の有無は、本権の訴えで争うこと。だから別に本権の訴えを起こす」, with the part 「本権の訴えで争うこと」 in a yellow highlighter marker.
+- There is no check mark and no cross anywhere in this panel.
 
 PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
 - Label tab: 「③　ひっかけと勘違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side, with a wide example strip under them.
 - Left card, heading 「よくある勘違い」, body 「本当の所有者なら、占有の訴えにも勝てる」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：防御方法に所有権を出せそうに見える」.
-- Right card, heading 「正しい整理」, body 「占有の訴えと本権の訴えは別。所有権を争うなら、別に本権の訴えを起こす」, with ONE blue check mark only (no cross on this card).
+- Right card, heading 「正しい整理」, body 「占有の訴えと本権の訴えは別。所有権の有無は本権の訴えで争うことだから、争うなら別に本権の訴えを起こす」, with ONE blue check mark only (no cross on this card).
 - Example strip under the two cards: 「たとえば：登記名義は自分だ、と反論しても、占有の訴えの中では決め手にならない」.
 - The two cards have clearly different texts; the texts are NOT identical.
 - 藍子 bubble (left, rally 1 of 4): 「でも、Ｂが本当の
@@ -115,12 +116,12 @@ PANEL 3 (surprised then convinced mood; both characters appear ONLY as very smal
 占有の訴えでは、
 所有権は決め手に
 ならないの」 with the part 「所有権は決め手にならない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, rally 3 of 4): 「登記名義が自分でも、
+- 藍子 bubble (left, rally 3 of 4): 「どうして、本権の
+訴えでないと
 だめなんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, rally 4 of 4): 「だめ。
-争うなら、別に
-本権の訴えを
-起こすのよ」 with the part 「別に本権の訴え」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「所有権の有無は、
+本権の訴えで争う
+テーマだからよ」 with the part 「本権の訴えで争うテーマ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
@@ -138,7 +139,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 対, 張, 当, 所, 権, 物, 登, 解, 記, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that in panel 2 the two result boxes have a white fill and a dark navy outline, and that the color lives only in the arrows and labels (the 「はい」 arrow and label are blue, the 「いいえ」 arrow and label are red); confirm that panel 2 shows no character and no speech bubble; confirm that every 「Ａ」「Ｂ」 is the full-width letter. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 対, 張, 当, 所, 権, 無, 物, 登, 解, 記, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that panel 2 shows no character and no speech bubble; confirm that the two areas in panel 2 have the same pale gray fill and a dark navy outline, that the wall, the dotted arrow, and the bottom band are dark navy, and that the dotted arrow stops at the wall; confirm that every 「Ａ」「Ｂ」 is the full-width letter; confirm that the spelling of 「本権」 (not 「本件」) is correct in every place. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -203,7 +204,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D1621_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1のＡ→Ｂ（Ａが訴える）の向きが正しい。コマ2の2枚のカードに印がなく、フローチャートの結果の箱が白地・濃紺の枠
+- [ ] 工程C：初見の読者：コマ1のＡ→Ｂ（Ａが訴える）の向きが正しい。コマ2の2つの領域が同じ色で印がなく、壁で「別々のもの」が分かる
 - [ ] 工程C：5点が、コマ1の事案図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
 - [ ] 工程C：構成表の全文言を記事（R03-Q02イ）と突き合わせ：「占有の訴え」「本権の訴え」「所有権・地上権・質権など」「民法202条2項」「別に本権の訴え」「登記名義は自分だ」
 - [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（所有権を防御方法として主張できるという記述が誤り）
@@ -217,9 +218,14 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
 
-## v02：新しい構成表の組み方（パターン集）に合わせて全面再構成（ユーザー指示、2026-10-07）。v01は、事案・出題者のねらい・ひっかけ・勘違いが図として読み取れない定型構成だった（D0413 v01と同じ不具合）。コマ2をキャラなし（none）の「2つの訴えの対比＋判定フロー」に、コマ3を顔アイコンの4往復にし、コマ1は小さなキャラで関係図を大きくした。
+## v03（ユーザー指示、2026-10-07）：①「なぜ占有の訴えではなく本権の訴えでなければならないのか」の説明を追加、②コマ2のフローチャートを削除して、占有の訴えと本権の訴えを概念としてつかめる概念図に差し替え。
+- ①の追加：コマ3の顔アイコンの4往復の後半を「どうして、本権の訴えでないとだめなんですか？」→「所有権の有無は、本権の訴えで争うテーマだからよ」に変え、右カードにも「所有権の有無は本権の訴えで争うことだから、争うなら別に本権の訴えを起こす」を足した。記事の「別々のものとして扱われる」「所有権を争いたいなら別に本権の訴えを起こす」と、民法202条（法令DBで確認済み：1項＝占有の訴えと本権の訴えは互いに妨げない、2項＝占有の訴えについては本権に関する理由に基づいて裁判をすることができない）の範囲内。
+- ②の差し替え：コマ2を、2つの領域（占有の訴え＝占有の状態を争う、本権の訴え＝占有を正当化する権原を争う）を壁（別々のもの・民法202条2項）で分けた概念図にし、本権の側のカード「Ｂの主張：自分に所有権がある」が点線の矢印で占有の訴えに持ち込もうとして壁で止まる様子と、「所有権の有無は、本権の訴えで争うこと」の帯で、なぜ本権の訴えでなければならないかを示した。「占有を奪われた・妨害されたなど、占有そのものを守る訴え」「権原があるかを争う訴え」は、記事にない一般的な説明を、ユーザー指示で足したもの。
+- v02画像の検品（同日）：5点が読み取れ、顔アイコンの大きさ・コマ3の左右カード（赤✕・青✓）・コマ4は合格。コマ2の2枚のカードが青の見出しとピンクの見出しで塗り分けられ、○×の色に見える（→ v03で同じ薄い灰色と濃紺の枠に統一）。
+- v02：新しい構成表の組み方（パターン集）に合わせて全面再構成（ユーザー指示、2026-10-07）。v01は、事案・出題者のねらい・ひっかけ・勘違いが図として読み取れない定型構成だった（D0413 v01と同じ不具合）。コマ2をキャラなし（none）の「2つの訴えの対比＋判定フロー」に、コマ3を顔アイコンの4往復にし、コマ1は小さなキャラで関係図を大きくした。
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-07 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用）
 - 2026-10-07 v02：構成表を組み直し（5点の明示、コマごとの chars の使い分け：small・none・faces、記事の具体例）
+- 2026-10-07 v03：ユーザー指示。コマ2のフローチャートを概念図（2つの領域＋壁＋持ち込めない矢印）に差し替え、コマ3に「なぜ本権の訴えでなければならないか」の説明を追加
