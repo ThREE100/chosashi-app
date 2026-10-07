@@ -46,20 +46,21 @@ def main():
     if not lm: NG("「## note記事の冒頭文」がない")
     else:
         paras = [p for p in lm.group(1).split("\n\n") if p.strip()]
-        if len(paras) != 2: NG(f"冒頭文は2段落（問いかけ＋案内）にする（今は{len(paras)}段落）")
+        if len(paras) != 3: NG(f"冒頭文は3段落（問いかけ／案内／促し）にする（今は{len(paras)}段落）")
         else:
-            p1, p2 = paras
+            p1, p2, p3 = paras
             if tm:
                 sm = re.match(r"([HR])(\d+)-Q(\d+)(.+)$", tm.group(3))
                 if sm:
                     era = "平成" if sm.group(1) == "H" else "令和"; yy = int(sm.group(2))
                     lab = f"{era}{'元' if (era == '令和' and yy == 1) else yy}年度　第{int(sm.group(3))}問　{sm.group(4)}"
-                    want = f"択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（{lab}）。先に〇か×かを考えてから、読み進めてみてください。"
-                    if p2 != want: NG(f"冒頭文の2段落目が定型と違う。期待：{want}")
+                    want2 = f"択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（{lab}）。"
+                    if p2 != want2: NG(f"冒頭文の2段落目が定型と違う。期待：{want2}")
+                    if p3 != "先に〇か×かを考えてから、読み進めてみてください。": NG("冒頭文の3段落目が定型と違う。期待：先に〇か×かを考えてから、読み進めてみてください。")
             if not re.search(r"(でしょうか|ますか)。$", p1): NG("冒頭文の1段落目は、問いかけ（〜でしょうか。）で終える")
             if re.search(r"正解|誤り|正しい|結論|できません。$|できます。$", p1): NG("冒頭文の1段落目で結論を先出ししない（正解・誤り・正しい・結論・「〜できます／できません。」）")
             if len(p1) > 110: WARN(f"冒頭文の1段落目が長い（{len(p1)}字。目安110字以内）")
-            for sent in re.findall(r"[^。]+。", p1 + p2):
+            for sent in re.findall(r"[^。]+。", p1 + p2 + p3):
                 ss = re.sub(r"（[^）]*）。$", "。", sent.strip())
                 if not re.search(r"(ます|です|ました|でした|でしょうか|ください|ません)。$", ss): NG(f"冒頭文は敬体（です・ます調）にする: {sent.strip()}")
         pos2 = {k: src.find(k) for k in ("## 記事タイトル", "## note記事の冒頭文", "## 構成表")}

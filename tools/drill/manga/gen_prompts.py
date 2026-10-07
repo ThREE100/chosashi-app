@@ -39,7 +39,7 @@ def src_label(src):
 
 def lead_text(lead1, src):
     return (lead1 + "\n\n択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（" + src_label(src) + "）。"
-            "先に〇か×かを考えてから、読み進めてみてください。")
+            "\n\n先に〇か×かを考えてから、読み進めてみてください。")
 
 def q(t): return f"「{t}」"
 def hlpart(h): return f" with the part {q(h)} highlighted in yellow" if h else ""
