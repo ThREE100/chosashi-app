@@ -199,12 +199,12 @@ b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋め
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（20枚）', n_fig == 20)
-for i in range(1, 21):
+judge(f'解説図プロンプトの図の数 {n_fig}枚（21枚）', n_fig == 21)
+for i in range(1, 22):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'H25_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 nums = [int(m) for m in re.findall(r"(?:new_figure\(|fixed_figure\(|fig\.suptitle\()'図(\d+)　", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から20まで（{sorted(nums)}）', sorted(nums) == list(range(1, 21)))
+judge(f'作図スクリプトの図のタイトル番号が1から21まで（{sorted(nums)}）', sorted(nums) == list(range(1, 22)))
 judge('作図スクリプトの fit がすべて pad_aspect=True', all('pad_aspect=True' in l for l in draw.splitlines()
                                                          if re.match(r'\s*fit\(', l)))
 for s in ['（151.63, 171.42）', '（138.08, 170.37）', '（151.84, 181.30）', '（137.52, 174.55）', '（151.37, 148.18）',
@@ -234,6 +234,20 @@ for s in ['113.3027', '0.6056', '1.44', '253.56', '256.44', '7月21日', '約45%
     check('追加した図の数値・事実（解説図プロンプト）', s, fig, '解説図')
 for s in ['0.6056', '7月21日', '約45%', '約55%', '±1.44']:
     check('追加した図の数値・事実（記事のマーカー）', s)
+# C点の延長の誤答（Yに19.22を足すだけ）と単位ベクトルの説明（2026-10-07追加、ユーザー指示）
+import math as _m
+_u = complex(0.20, 9.34) / abs(complex(0.20, 9.34))
+judge('B − A の長さ 9.3421…', f'{abs(complex(0.20, 9.34)):.4f}' == '9.3421')
+judge('1mの物差し 0.0214… ＋ 0.9997…i', str(_u.real).startswith('0.0214') and str(_u.imag).startswith('0.9997'))
+judge('C′（151.43, 181.30）とA102の距離 2.8347…', str(_m.hypot(151.43 - 153.81, 181.30 - 182.84)).startswith('2.8347'))
+judge('C′とCの差 0.41（0.0214…×19.22）', f'{_u.real * 19.22:.2f}' == '0.41' and f'{151.84 - 151.43:.2f}' == '0.41')
+judge('19.22 ÷ 9.3421… ≒ 2.06', f'{19.22 / abs(complex(0.20, 9.34)):.2f}' == '2.06')
+for s in ['C（151.43, 181.30）。足し算1回で終わりました！', '表示：0.2 ＋ 9.34i', '表示：9.3421…', '表示：0.0214… ＋ 0.9997…i',
+          '表示：2.8347…', '"1mの物差し"', 'C′だと2.83mで、0.33mも合いません', '0.41m南、本件土地の内側']:
+    check('C点の延長の誤答と説明（記事）', s)
+for s in ['0.0214…＋0.9997…i', '0.4114…＋19.2155…i', 'C′（151.43, 181.30）', '0.41']:
+    check('C点の延長の図（作図）', s, draw, '作図')
+    check('C点の延長の図（解説図プロンプト）', s, fig, '解説図')
 # 画像挿入の位置の文言が記事にあるか
 for s in ['GDが真東向きなのが、F点の計算を楽にしてくれるわ', '座標を出す前から（イ）の地積が分かるのよ',
           '今度は東側の現況が登記記録に表れなくなるわ', 'それほど、一筆の中に二つの地目が混ざったままにはしておけないんですね',
@@ -242,6 +256,7 @@ for s in ['GDが真東向きなのが、F点の計算を楽にしてくれるわ
           '地目『宅地』、登記原因は『5番から分筆』よ', '一部地目変更には登録免許税はかからないわ', '今回はそんな話はないわ',
           'G→F→E→Dは折れているから、一直線に描かないこと',
           '2.50m！ 観測データの平面距離とぴったりです。',
+          'この形ごと覚えなさい',
           '塀がほぼ南北に通っているのも調査素図どおりです', 'どちらの解き方でも同じ点に着く、と知っておくことが大事よ',
           '距離が合えば十分よ',
           '（ロ）の行は最初から宅地で書けるわ', '基準点まで縮尺どおりに十分入るわ',
@@ -304,20 +319,21 @@ for i, l in enumerate(lines):
             same.append(i + 1)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも含む）: {same}', not same)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図20＋第1欄・第2欄2＋添削1＋完成形1＝計24か所の想定）', n_marker == 24)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図21＋第1欄・第2欄2＋添削1＋完成形1＝計25か所の想定）', n_marker == 25)
 # マーカーの順とPNGの対応（2026-10-02追加）。マーカーの文言の頭で、記事の順にPNGと1対1に対応させる
 ORDER = [('北を上にして座標どおりに描き直した全体図', 'zu01_zentaizu'), ('注の仕分けの整理図', 'zu02_chu_shiwake'),
-         ('A101からの放射でB点を求める図', 'zu03_B_housha'), ('三角形G・D・Fの正弦定理でF点を求める図', 'zu04_F_seigen'),
-         ('三角関数真数表の値で解く別解の図', 'zu05_shinsuuhyou_betsukai'), ('第1欄の完成形', 'dai1ran_kansei'),
-         ('C点とE点を延長で求め', 'zu06_C_E_uradzuke'), ('一筆に地目は一つの図', 'zu07_ippitsu_ichimoku'),
-         ('「わずかな差異」ではない図', 'zu08_wazuka_sai'), ('申請人は誰かの図', 'zu09_shinseinin'),
-         ('時系列と申請の期限の図', 'zu10_jikeiretsu_kigen'), ('第2欄の完成形', 'dai2ran_kansei'),
-         ('（ロ）の面積の図', 'zu11_ro_menseki'), ('（イ）の面積と地積の端数の図', 'zu12_i_menseki_hasuu'),
-         ('地積更正が要るかの参考の判定図', 'zu13_kousa_sankou'), ('分筆後の区画と地番・地目・地積の図', 'zu14_bunpitsu_chiban'),
-         ('登記記録の行き先の図', 'zu15_touki_kiroku_yukisaki'), ('登記申請書「申請人」欄と土地の表示', 'toukishinseisho_machigai'),
-         ('登録免許税の図', 'zu16_tourokumenkyozei'), ('抵当権と承諾の図', 'zu17_teitouken'),
-         ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('地積測量図に書くもの・書かないものの図', 'zu18_chiseki_kisaijikou'),
-         ('地積測量図（5番1・5番2）の完成見本', 'zu19_chiseki_sokuryouzu'), ('本番で解く順番の図', 'zu20_toku_junban')]
+         ('C点を延長で求める図', 'zu03_C_enchou'),
+         ('A101からの放射でB点を求める図', 'zu04_B_housha'), ('三角形G・D・Fの正弦定理でF点を求める図', 'zu05_F_seigen'),
+         ('三角関数真数表の値で解く別解の図', 'zu06_shinsuuhyou_betsukai'), ('第1欄の完成形', 'dai1ran_kansei'),
+         ('C点とE点を延長で求め', 'zu07_C_E_uradzuke'), ('一筆に地目は一つの図', 'zu08_ippitsu_ichimoku'),
+         ('「わずかな差異」ではない図', 'zu09_wazuka_sai'), ('申請人は誰かの図', 'zu10_shinseinin'),
+         ('時系列と申請の期限の図', 'zu11_jikeiretsu_kigen'), ('第2欄の完成形', 'dai2ran_kansei'),
+         ('（ロ）の面積の図', 'zu12_ro_menseki'), ('（イ）の面積と地積の端数の図', 'zu13_i_menseki_hasuu'),
+         ('地積更正が要るかの参考の判定図', 'zu14_kousa_sankou'), ('分筆後の区画と地番・地目・地積の図', 'zu15_bunpitsu_chiban'),
+         ('登記記録の行き先の図', 'zu16_touki_kiroku_yukisaki'), ('登記申請書「申請人」欄と土地の表示', 'toukishinseisho_machigai'),
+         ('登録免許税の図', 'zu17_tourokumenkyozei'), ('抵当権と承諾の図', 'zu18_teitouken'),
+         ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('地積測量図に書くもの・書かないものの図', 'zu19_chiseki_kisaijikou'),
+         ('地積測量図（5番1・5番2）の完成見本', 'zu20_chiseki_sokuryouzu'), ('本番で解く順番の図', 'zu21_toku_junban')]
 markers = [l[len('> 【画像挿入】'):] for l in lines if l.startswith('> 【画像挿入】')]
 judge('マーカーの順がPNGの対応表どおり', len(markers) == len(ORDER) and all(m.startswith(k) for m, (k, _) in zip(markers, ORDER)))
 pngs = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
@@ -335,6 +351,7 @@ judge(f'注の番号の前に「問題文の」「調査素図の」がある（
 # まとめの「わな」の一覧の各項目に、記事の中で図があるか（2026-10-05追加。図のなかった論点に図を足したときの再発防止）
 TRAPS = [('観測角は時計回りに足す', ['A101からの放射でB点を求める図']),
          ('正弦定理は向かい合う角', ['三角形G・D・Fの正弦定理でF点を求める図']),
+         ('延長の点は向きを保って伸ばす', ['C点を延長で求める図']),
          ('水平角が省略された観測は検算用', ['C点とE点を延長で求め']),
          ('一筆に地目は一つ', ['一筆に地目は一つの図', '「わずかな差異」ではない図']),
          ('申請人は所有権の登記名義人', ['申請人は誰かの図']),
