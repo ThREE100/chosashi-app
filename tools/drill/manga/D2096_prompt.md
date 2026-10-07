@@ -95,7 +95,7 @@ PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's h
 
 PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　法務局は届出先ではない」
-- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
+- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Left card, heading 「法務局又は地方法務局」, body 「届出先ではない」, with ONE red cross only (no check mark on this card).
 - Right card, heading 「調査士会と連合会（両方）」, body 「ここへ届け出る」, with ONE blue check mark only (no cross on this card).
 - 藍子 bubble (left, spoken first): 「法務局への届出は、

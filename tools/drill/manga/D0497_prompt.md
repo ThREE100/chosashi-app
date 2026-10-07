@@ -81,7 +81,7 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「名義人が違う建物の合体は、一人から申請できる」 in large bold letters; the part 「一人から申請できる」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
 - A large before-and-after diagram fills the panel, left to right.
 - On the left, two flat house icons side by side labeled 「甲建物」 and 「乙建物」, each with a faceless owner pictogram: a tag 「Ａ」 beside the left house with the small label 「所有権の登記名義人」, and a tag 「Ｂ」 beside the right house with the small label 「所有権の登記名義人」.
@@ -104,9 +104,9 @@ PANEL 2 (explanatory, steady mood; ONLY トリ先生 appears in this panel (no �
 あわせて申請
 するのよ」 with the part 「あわせて申請」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
 - Label tab: 「③　ひっかけと勘違い」
-- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
+- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side, with a wide example strip under them.
 - Left card, heading 「よくある勘違い」, body 「名義人が違うなら、全員が共同して申請する」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：全員が共同して、という言葉」.
 - Right card, heading 「正しい整理」, body 「名義人が違っても、一人から単独で申請できる」, with ONE blue check mark only (no cross on this card).

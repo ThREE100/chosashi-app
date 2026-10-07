@@ -1,4 +1,4 @@
-# D0624 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
+# D0624 4コマ解説図解 プロンプト（ChatGPT貼付用・v03）
 
 - 肢：D0624（民法／共有・所有権・占有、出典 H23-Q03エ）。正解＝〇。誤解3回。
 - 記事：`note-articles/h23-mondai/q03-kyouyu.md` エ「損害賠償は、自分の持分の分しか請求できない」
@@ -80,11 +80,11 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「不法占有への損害賠償は、持分の範囲でしか請求できない」 in large bold letters; the part 「持分の範囲でしか請求できない」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+PANEL 1 (curious, calm mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
 - Label tab: 「①　問いの事案」
-- A large case diagram fills the panel: a flat plot-of-land block labeled 「甲土地」 with a small tag 「持分は各3分の1」.
-- Three faceless owner pictograms with tags 「Ａ」, 「Ｂ」, and 「Ｃ」 stand in a row (left to right) beside the plot, each with the small label 「使用を妨げられた」.
-- A fourth pictogram with tag 「Ｅ」 stands on the plot with the small label 「不法に占有」.
+- A large case diagram fills the panel: a flat plot-of-land block labeled 「甲土地」 in the middle with a small tag 「持分は各3分の1」.
+- In front of the plot, the three faceless owner pictograms with tags 「Ａ」, 「Ｂ」, and 「Ｃ」 stand in ONE row from left to right in this order, all in the same light gray-blue color with navy tags, each with the small label 「使用を妨げられた」.
+- Behind the plot stands a fourth pictogram, a darker gray, with a navy tag 「Ｅ」 and the small navy-outlined label 「不法に占有」.
 - A navy arrow from Ａ toward Ｅ (a demand) is labeled 「損害賠償の請求」, and a small question badge 「どこまで？」 sits next to it (a question badge only, with no check mark and no cross).
 - Caption under the diagram: 「Ａ・Ｂ・Ｃ（甲土地の共有者）　Ｅ（不法占有者）」.
 - 藍子 bubble (left, rally 1 of 4): 「Ｅに土地を
@@ -102,14 +102,14 @@ PANEL 1 (curious, calm mood; both characters appear ONLY as very small round fac
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
 - Label tab: 「②　出題者のねらい」
 - A full-width infographic fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「損害賠償請求権は、共有者にどう帰属するか」.
-- In the middle, one wide bar labeled 「損害」 divided into three equal segments labeled 「Ａの分」, 「Ｂの分」, and 「Ｃの分」, under the same tag 「持分は各3分の1」 as in panel 1. The segment 「Ａの分」 has a yellow highlighter marker, with a bracket under it labeled 「Ａが請求できる範囲」.
+- In the middle, one wide bar labeled 「損害」 divided into three equal segments labeled 「Ａの分」, 「Ｂの分」, and 「Ｃの分」, under the same tag 「持分は各3分の1」 as in panel 1. The three segments all have a white fill with a dark navy outline; only the segment 「Ａの分」 has a yellow highlighter marker. A dark navy bracket under 「Ａの分」 is labeled 「Ａが請求できる範囲」 in dark navy text.
 - Under the bar, an example card: 「たとえば（数字は例）：損害が90万円なら、Ａが請求できるのは30万円まで」.
 - At the bottom, a dark navy tag reads 「損害賠償請求権は、持分に応じて分割して帰属」.
 - There is no mark on any element of this panel.
 
-PANEL 3 (surprised then convinced mood; both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
+PANEL 3 (surprised then convinced mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　ひっかけと勘違い」
-- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
+- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side fill the panel.
 - Left card, heading 「よくある勘違い」, body 「3人とも使えなくなったのだから、Ａが全額を請求できる」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：Ａ、Ｂ及びＣの使用が妨げられた、という文言」.
 - Right card, heading 「正しい整理」, body 「請求できるのは、自分の持分割合（3分の1）の範囲だけ。他の2人の分は、まとめて取り立てられない」, with ONE blue check mark only (no cross on this card).
@@ -136,7 +136,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 権, 解, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 権, 解, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that every bubble in panel 3 is spelled exactly as given (in particular the word 「まとめて」 in the first bubble, never 「まとかて」); confirm that in panel 1 the owners Ａ・Ｂ・Ｃ stand in one row in this order and have the same color, and that no small mark appears above any head; confirm that the label 「不法に占有」 and the bracket 「Ａが請求できる範囲」 are dark navy; confirm that in panel 2 all three segments have a white fill and only the segment 「Ａの分」 has the yellow highlighter marker; confirm that the face icons in panel 1 are small round heads and the two characters in panel 3 are small, so the diagram stays large. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -215,9 +215,17 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
 
-## v02：新しい構成表の組み方（パターン集）に合わせて全面再構成（ユーザー指示、2026-10-07）。v01は、ひっかけ（問題文の「Ａ、Ｂ及びＣの使用が妨げられた場合であっても」）と勘違い、数字の例が図に出ていない定型構成だった。コマ2をキャラなし（none）の数量の分割図に、コマ1を顔アイコンの4往復に、コマ3を小さなキャラ2人にした。
+## v02画像の検品結果（2026-10-07）→ v03で修正
+- 合格：5点（事案・ねらい・ひっかけ・勘違い・正しい整理）が読み取れる構成。コマ2（キャラなし）の損害バーと数字の例、コマ3の左右カード（赤✕1つ・青✓1つ）、「ひっかけ」リボン、暗記3点、結論帯、構成表の文言の大半。法的内容は記事（H23-Q03エ）の範囲内で正確。
+- 不具合1（文字）：コマ3の藍子の台詞が「まとかて請求できませんか？」と描かれた（「まとめて」の誤字）。→ final_extra に綴りの確認文を追加。
+- 不具合2（赤の誤用）：コマ1の「不法に占有」のタグが赤枠、コマ2の「Ａが請求できる範囲」の括弧と文字が赤で描かれた。赤は「いいえ・×」専用。→ 濃紺と指定し、final_extra で確認。
+- 不具合3（色による誤読）：コマ2のバーで「Ｂの分」が青、「Ｃの分」がピンクに塗られ、青＝はい／赤＝いいえの色に見える。コマ1のＡ・Ｂ・Ｃも青・緑・ピンクの別色。→ 区切りは白地・濃紺の枠、Ａの分だけ黄色マーカー、Ａ・Ｂ・Ｃは同じ色と指定。
+- 不具合4（配置）：コマ1でＥがＡとＢの間に立ち、Ｂ・Ｃだけが土地の右にいて、左からＡ・Ｂ・Ｃの並びが崩れた。Ｂ・Ｃの頭の上に小さな赤い印が出た。→ Ａ・Ｂ・Ｃを土地の手前に1列、Ｅを土地の奥に指定し、印の確認文を追加。
+- 不具合5（軽微：キャラの大きさ）：コマ1の顔アイコン、コマ3の小さなキャラが、指定よりずっと大きく描かれ、図が狭くなった。→ 全プロンプト共通で、顔アイコンは直径約80px、小さなキャラは全身約110pxと数値で指定（生成器 CHARS_TXT）。コマ3のチェック✓が本文の末尾に近いため、全プロンプト共通で「印はカード本文の下の空きに置き、文字に触れない」を追加（OPPOSITE）。
+- v02：新しい構成表の組み方（パターン集）に合わせて全面再構成（ユーザー指示、2026-10-07）。v01は、ひっかけ（問題文の「Ａ、Ｂ及びＣの使用が妨げられた場合であっても」）と勘違い、数字の例が図に出ていない定型構成だった。コマ2をキャラなし（none）の数量の分割図に、コマ1を顔アイコンの4往復に、コマ3を小さなキャラ2人にした。
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-07 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用）
 - 2026-10-07 v02：構成表を組み直し（5点の明示、コマごとの chars の使い分け：faces・none・small、数量の分割図と数字の例）
+- 2026-10-07 v03：v02画像の検品で見つかった5点を改修（綴りの確認、赤の誤用、バー・人物の色、Ａ・Ｂ・Ｃの並び、キャラの大きさの数値指定）

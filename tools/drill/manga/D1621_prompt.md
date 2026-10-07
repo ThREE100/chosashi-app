@@ -80,7 +80,7 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「占有の訴えに、所有権で反論はできない」 in large bold letters; the part 「所有権で反論はできない」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
 - A large relation diagram fills the panel: a flat plot-of-land block labeled 「甲土地」 with a faceless pictogram tag 「Ａ」 standing on it (small label 「占有者」), and a faceless pictogram tag 「Ｂ」 standing beside it (small label 「訴えられた人」).
 - A navy arrow from Ａ to Ｂ (a lawsuit) is labeled 「占有の訴え」.
@@ -100,9 +100,9 @@ PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a ful
 - From the diamond, a BLUE arrow labeled 「はい」 goes to a box: 「本権に基づく裁判はできない（民法202条2項）」; and a RED arrow labeled 「いいえ」 goes to a box: 「別の本権の訴えで、所有権を争う」. These two boxes have a white fill and a dark navy outline only; the color lives only in the arrows and labels (the 「はい」 arrow and label are blue, the 「いいえ」 arrow and label are red), with no check mark and no cross.
 - The two result boxes have clearly different texts; the texts are NOT identical.
 
-PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
 - Label tab: 「③　ひっかけと勘違い」
-- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
+- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side, with a wide example strip under them.
 - Left card, heading 「よくある勘違い」, body 「本当の所有者なら、占有の訴えにも勝てる」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：防御方法に所有権を出せそうに見える」.
 - Right card, heading 「正しい整理」, body 「占有の訴えと本権の訴えは別。所有権を争うなら、別に本権の訴えを起こす」, with ONE blue check mark only (no cross on this card).

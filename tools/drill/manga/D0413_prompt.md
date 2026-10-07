@@ -81,7 +81,7 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「元の所有者には、登記なしで時効取得を主張できる」 in large bold letters; the part 「登記なしで時効取得を主張できる」 has a yellow highlighter marker.
 
-PANEL 1 (calm explanatory mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+PANEL 1 (calm explanatory mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
 - Label tab: 「①　問いの事案」
 - A large timeline infographic fills the whole panel: one horizontal time line running left to right with three dated marks, each with a small box above it.
 - Left mark 「平成2年1月1日」, box text 「Ａが占有を開始（過失なく自分の土地と信じて）」.
@@ -101,7 +101,7 @@ PANEL 1 (calm explanatory mood; both characters appear ONLY as very small round 
 Ｂに言えるかが、
 問いの核心よ」 with the part 「登記なしでＢに言えるか」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 2 (focused, thoughtful mood; both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
+PANEL 2 (focused, thoughtful mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　出題者のねらい」
 - A large flowchart fills most of the panel, drawn top to bottom, with a small dark navy tag 「出題者のねらい」 at the top left.
 - Top diamond (yellow highlighter marker): 「Ａの相手は、元の所有者Ｂ？」.
@@ -115,9 +115,9 @@ PANEL 2 (focused, thoughtful mood; both characters appear VERY SMALL (about one 
 第三者かよ。
 ここが出題者のねらい」 with the part 「相手がＢか第三者か」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
 - Label tab: 「③　ひっかけと勘違い」
-- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
+- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side fill the panel.
 - Left card, heading 「よくある勘違い」, body 「完成したら、相手がだれでも登記が必要」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text at least as big as the card body text, reads 「ひっかけ：Ｂまで広げさせる」.
 - Right card, heading 「正しい整理」, body 「登記が要るのは、完成後の第三者Ｃ。元の所有者Ｂは当事者で、対抗関係に立たない」, with ONE blue check mark only (no cross on this card).

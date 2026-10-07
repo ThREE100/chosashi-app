@@ -101,7 +101,7 @@ PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's h
 
 PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　合併との違い」
-- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
+- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Left card, heading 「合体」, body 「住所の変更を証する情報で、変更登記なしで申請できる」, with ONE blue check mark only (no cross on this card).
 - Right card, heading 「合併」, body 「先に住所の変更登記が要る」, with ONE red cross only (no check mark on this card).
 - 藍子 bubble (left, spoken first): 「合併のときも、
