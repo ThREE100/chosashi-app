@@ -65,6 +65,39 @@ def main():
         pos2 = {k: src.find(k) for k in ("## 記事タイトル", "## note記事の冒頭文", "## 構成表")}
         if not (pos2["## 記事タイトル"] < pos2["## note記事の冒頭文"] < pos2["## 構成表"]): NG("冒頭文の位置が、記事タイトルと構成表の間にない")
 
+    # 0c 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景3案）
+    hm = re.search(r"^## 見出し画像プロンプト[^\n]*\n(.*?)(?=^## |\Z)", src, re.M | re.S)
+    if not hm: NG("「## 見出し画像プロンプト」がない")
+    else:
+        hs = hm.group(1)
+        rows = {}
+        for ln in hs.splitlines():
+            cols = [x.strip() for x in ln.strip().strip("|").split("|")]
+            if ln.startswith("|") and len(cols) == 3 and cols[0] in ("タイトル1行目", "タイトル2行目", "サブタイトル"): rows[cols[0]] = cols[1]
+        if len(rows) != 3: NG("見出し画像の文言（正本）の表に、タイトル1行目・2行目・サブタイトルの3行がない")
+        else:
+            t1, t2, sb = rows["タイトル1行目"], rows["タイトル2行目"], rows["サブタイトル"]
+            if tm and sb != f"4コマ解説図解　{tm.group(2)}　{tm.group(3)}": NG(f"見出し画像のサブタイトルが記事タイトルのID・出典と違う: {sb}")
+            for t in (t1, t2):
+                if len(t) > 16: WARN(f"見出し画像のタイトル行が長い（{len(t)}字）: {t}")
+            blocks = dict(re.findall(r"### 案([ABC])[^\n]*\n\n```text\n(.*?)```", hs, re.S))
+            if sorted(blocks) != ["A", "B", "C"]: NG("見出し画像プロンプトは背景案A・B・Cの3つが必要")
+            kset = set(re.findall(r"[一-鿿]", t1 + t2 + sb))
+            for o, bl in blocks.items():
+                for must in ("1280x670", "CRITICAL TEXT REQUIREMENT", "BACKGROUND REQUIREMENT", "Final check before rendering", "fully opaque"):
+                    if must not in bl: NG(f"見出し案{o}に必須の記述がない: {must}")
+                for t in (t1, t2, sb):
+                    if ("\n" + t + "\n") not in bl: NG(f"見出し案{o}に文言が独立した行として入っていない: {t}")
+                if re.search(r"green|緑", bl, re.I): NG(f"見出し案{o}に緑への言及がある")
+                if re.search(r"✓|✕|\bnot (blue|red|navy|yellow)\b", bl): NG(f"見出し案{o}に記号・否定形の色指定がある")
+                km = re.search(r"special attention to the kanji ([^,.;]+(?:, [^,.;]+)*?)(?:,? which|;|\.|$)", bl)
+                lk = set(re.findall(r"[一-鿿]", km.group(1))) if km else set()
+                if lk != kset: NG(f"見出し案{o}のFinal checkの漢字リストが文言の漢字と一致しない（過不足: {sorted(lk ^ kset)}）")
+                hk = re.search(r"the phrase (.+?) is red-orange", bl)
+                if not hk or hk.group(1) not in t2: NG(f"見出し案{o}の強調語（red-orange）がタイトル2行目に含まれない")
+            texts = {o: re.search(r"TEXT \(reproduce verbatim.*?Do not write any other text", bl, re.S).group(0) for o, bl in blocks.items() if "TEXT (reproduce verbatim" in bl}
+            if len({re.sub(r"over .+? so it reads", "over X so it reads", v) for v in texts.values()}) > 1: NG("見出し案A・B・Cで文言ブロックが違う（背景以外は同じにする）")
+
     # 1 必須セクション
     for key in ["CRITICAL TEXT REQUIREMENT", "BACKGROUND REQUIREMENT", "Final check before rendering"]:
         if key not in body: NG(f"必須の段落がない: {key}")

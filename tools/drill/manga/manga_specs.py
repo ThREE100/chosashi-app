@@ -223,3 +223,31 @@ SPECS["D2096"] = dict(
              fig=[], checklist=["変更の日から2週間以内", "変更に係る事項を届け出る", "主たる事務所の所在地の調査士会と連合会の両方"]),
     ],
     band1="定款変更の届出先は、調査士会と連合会の両方", band2="問題D2096　正解×（R07-Q20ア）")
+
+# ---- 見出し画像（苦手分析シリーズと同じ構成）の設計データ。文言は題名の問いかけ（結論は書かない）。----
+HEADERS = {
+ "D0002": dict(h1="共有者が勝手に住んでいたら", h2="すぐ追い出せる？", hkey="すぐ追い出せる？",
+   scene_l="a small house with a softly glowing window and a single person's silhouette inside",
+   scene_r="three keys on one key ring beside a magnifying glass and a stack of closed legal books"),
+ "D0026": dict(h1="仮差押えがある土地でも", h2="分筆に承諾は要る？", hkey="承諾は要る？",
+   scene_l="one plot of land with a wide diagonal tape band across it (a plain seal tape with no writing), seen from a slight isometric angle",
+   scene_r="the same plot divided into two parts by a dotted boundary line, with a surveying tripod beside it"),
+ "D0418": dict(h1="地上権を譲るとき", h2="所有者の承諾は要る？", hkey="承諾は要る？",
+   scene_l="a plot of land with a small house standing on it and an empty signpost board",
+   scene_r="two hands passing a rolled deed scroll and a small key, with a small bank building behind them"),
+ "D0520": dict(h1="未成年者が取り消したら", h2="転売先にも主張できる？", hkey="主張できる？",
+   scene_l="a school bag and a young person's silhouette standing beside a small plot of land",
+   scene_r="two small houses in a row, with a pink eraser and a calendar page with no writing"),
+ "D0616": dict(h1="連帯保証人が承認していても", h2="時効を援用できる？", hkey="援用できる？",
+   scene_l="a blank calendar page and an hourglass with the sand almost run out",
+   scene_r="two interlocked rings and a pen resting on a blank contract sheet"),
+ "D0723": dict(h1="中間省略登記の合意があると", h2="債権者は代位できない？", hkey="代位できない？",
+   scene_l="three small houses in a row, the middle one drawn only as a faint outline",
+   scene_r="a thick registry book with a magnifying glass, and a hand reaching toward the book"),
+ "D2096": dict(h1="調査士法人の定款変更", h2="届出先はどこ？", hkey="届出先はどこ？",
+   scene_l="a small office building with an empty nameplate and a rolled charter scroll",
+   scene_r="two civic buildings side by side (a hall and a taller federation building) and a blank two-week calendar"),
+}
+for _k, _h in HEADERS.items():
+    if _k in SPECS: SPECS[_k]["header"] = _h
+D0520_HEADER_SP = dict(id="D0520", src="H22-Q02オ", header=HEADERS["D0520"])
