@@ -1,4 +1,4 @@
-# D0413 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0413 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0413（民法／時効・条件期限、出典 H21-Q01ウ）。正解＝×（誤った記述）。誤解3回。
 - 記事：`note-articles/h21-mondai/q01-jikou-touki.md` ウ「元所有者Bに対しては、登記がなくても時効取得を主張できる」（対比：D0414・D0412・D0411）
@@ -6,11 +6,13 @@
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の5枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 登場人物：Ａ（時効取得を主張する占有者）・Ｂ（元の所有者）をコマ1で紹介。甲土地は「甲土地」の文字ラベルのブロック。
-- 矢印の意味：矢印は使わない（取引も手続もない）。コマ2は向かい合う2人の配置、コマ3は対比カード。
-- 会話順：藍子の誤解（Ｂにも登記がないと主張できない）→時効取得者と元所有者は当事者→相手方による違い→結論（記述は×）。
-- 配色：コマ3は左（元の所有者Ｂ＝当事者）だけ青✓（登記なしで主張できる）、右（第三者との関係）は印なし。
-- 記事の範囲：Ａと元の所有者Ｂは、時効の効果をめぐって直接向き合う「当事者」の関係で、対抗関係に立たない／Ａは登記を備えていなくても元の所有者Ｂに時効取得を主張できる／登記が問題になるのは、あくまで第三者との関係。対比：D0414・D0412・D0411（逆の結論になる類似肢）は図に入れない。
+- この肢の伝え方（v02で全面改定）：①問いの事案（日付つきの時系列）→②出題者のねらい（相手はだれか）の判定フロー→③ひっかけ・勘違い・理解を誤るポイントを対比カード→④結論と暗記3点、の順。キャラクターは必ずしも全コマに出さず、コマ1・3は顔アイコンだけの会話ラリー、コマ2は小さなキャラで大きなフローチャートを見せる。
+- 登場人物：Ａ（時効取得を主張する占有者）・Ｂ（元の所有者）・Ｃ（Ｂから甲土地を買った第三者。この問いには登場せず、比べるためだけに、コマ1の時系列図の凡例で最初に紹介する）。人型タグの色はＡ＝黄、Ｂ＝灰、Ｃ＝水色で全コマ共通。
+- 矢印の意味：コマ1の時系列図の矢印は時の流れだけ。コマ2のフローチャートの矢印は判定の流れで、枝のラベルは「はい」＝青・「いいえ」＝赤。コマ3・4は矢印を使わない。
+- 会話順：①藍子「何を聞いているのか」→事案（平成2年に占有開始、平成12年に時効完成、平成15年にＢへ主張）→②藍子「どこで答えが分かれるか」→まず相手がＢか第三者か→③藍子の勘違い（完成したら相手がだれでも登記が要る）→トリ先生の訂正（登記が要るのは完成後の第三者Ｃ、Ｂは当事者）→④結論は×。
+- 出題者のねらい：「相手が当事者（元の所有者）か第三者か」「第三者なら現れたのは時効完成の前か後か」を見分けられるか。ひっかけ：「完成後の第三者には登記が必要」という結論を、元の所有者Ｂにまで広げさせる。勘違い：時効取得は、相手がだれでも登記が要る。理解を誤るポイント：Ｂを第三者だと思い込むこと（Ｂは時効の効果をめぐって直接向き合う当事者で、対抗関係に立たない）。
+- 配色：コマ2のフローチャートは、はい＝青・いいえ＝赤の枝。結論の箱はこの問いの答え（Ｂの枝）だけ黄色マーカーで強調し、○×の印は付けない。コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つで、同じ箱に両方を重ねない。
+- 記事の範囲：Ａと元の所有者Ｂは、時効の効果をめぐって直接向き合う「当事者」の関係で、対抗関係に立たない／Ａは登記を備えていなくても元の所有者Ｂに時効取得を主張できる／登記が問題になるのは第三者との関係で、第三者が時効完成の後に現れたときは登記が必要、完成の前に現れたときは登記なしで主張できる。10年の取得時効（善意・無過失）は平成12年1月1日に完成する。対比：D0414・D0412・D0411は図に入れない（時効完成の前後の整理だけ、判定の枝として示す）。
 
 ## 記事タイトル
 
@@ -29,24 +31,28 @@
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
 | タイトル帯 | — | 元の所有者には、登記なしで時効取得を主張できる | 「登記なしで時効取得を主張できる」を黄色マーカー |
-| コマ1 見出し | ラベル | ①　よくある思い込み | — |
-| コマ1 図 | 図・カード | 甲土地 / Ａ / 占有を続けている / Ｂ / 元の所有者 / 登記が要る？ / Ａ（占有者）　Ｂ（元の所有者） | — |
-| コマ1 | 藍子（左・先に話す） | Ｂにも、登記がないと時効取得を主張できませんよね？ | 「登記がないと主張できませんよね？」 |
-| コマ1 | トリ先生（右・答える） | 出たわね。登記が要る相手を取り違えているわよ | — |
-| コマ2 見出し | ラベル | ②　ＡとＢは当事者 | — |
-| コマ2 図 | 図・カード | Ａ / Ｂ / 甲土地 / 当事者の関係 / 対抗関係には立たない | — |
-| コマ2 | 藍子（左・先に話す） | ＡとＢは、どんな関係なんですか？ | — |
-| コマ2 | トリ先生（右・答える） | 時効の効果をめぐって向き合う、当事者の関係よ | 「当事者の関係」 |
-| コマ3 見出し | ラベル | ③　登記が問題になる相手 | — |
-| コマ3 図 | 図・カード | 元の所有者Ｂ（当事者） / 登記がなくても、主張できる / 第三者との関係 / 登記が問題になるのは、ここだけ | — |
-| コマ3 | 藍子（左・先に話す） | じゃあ、登記が問題になるのは誰との関係ですか？ | — |
-| コマ3 | トリ先生（右・答える） | あくまで第三者との関係よ。Ｂは第三者ではないわ | 「あくまで第三者との関係」 |
+| コマ1 見出し | ラベル | ①　問いの事案 | — |
+| コマ1 図 | 図・カード | 平成2年1月1日 / Ａが占有を開始（過失なく自分の土地と信じて） / 平成12年1月1日 / 10年たって、時効が完成 / 平成15年1月1日 / ＡがＢに時効取得を主張 / 登記をしなければ主張できない？ / Ａ / 占有している人 / Ｂ / 元の所有者 / Ｃ / Ｂから土地を買った第三者（この問いには登場しない） | — |
+| コマ1 | 藍子（左・1番目） | この問いは、何を聞いているんですか？ | — |
+| コマ1 | トリ先生（右・2番目） | ＡがＢに、時効取得を主張できるかよ | 「時効取得を主張できるか」 |
+| コマ1 | 藍子（左・3番目） | でも、Ａは登記をしていないんですよね？ | — |
+| コマ1 | トリ先生（右・4番目） | そう。登記なしでＢに言えるかが、問いの核心よ | 「登記なしでＢに言えるか」 |
+| コマ2 見出し | ラベル | ②　出題者のねらい | — |
+| コマ2 図 | 図・カード | 出題者のねらい / Ａの相手は、元の所有者Ｂ？ / はい / 当事者の関係。登記がなくても主張できる / いいえ / 第三者Ｃが現れたのは、時効完成（平成12年1月1日）より後？ / 登記が必要 / 登記なしで主張できる | — |
+| コマ2 | 藍子（左・先に話す） | どこで答えが分かれるんですか？ | — |
+| コマ2 | トリ先生（右・答える） | まず相手がＢか第三者かよ。ここが出題者のねらい | 「相手がＢか第三者か」 |
+| コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
+| コマ3 図 | 図・カード | よくある勘違い / 完成したら、相手がだれでも登記が必要 / ひっかけ：Ｂまで広げさせる / 正しい整理 / 登記が要るのは、完成後の第三者Ｃ。元の所有者Ｂは当事者で、対抗関係に立たない | — |
+| コマ3 | 藍子（左・1番目） | 時効が完成したら、相手がだれでも登記が要りますよね？ | — |
+| コマ3 | トリ先生（右・2番目） | それがひっかけ。登記が要るのは、完成後に現れた第三者Ｃよ | 「完成後に現れた第三者Ｃ」 |
+| コマ3 | 藍子（左・3番目） | Ｂは、第三者じゃないんですか？ | — |
+| コマ3 | トリ先生（右・4番目） | Ｂは当事者。時効の効果をめぐって、直接向き合う相手よ | 「Ｂは当事者」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 登記をしなければ主張できないという記述は、誤りなんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そのとおり。Ｂは当事者だから、登記なしで主張できるのよ | 「登記なしで主張できる」 |
-| コマ4 チェック欄 | 3項目（青✓） | ＡとＢは当事者の関係で、対抗関係に立たない / 登記が問題になるのは、第三者との関係 / 登記がなくても、Ｂに時効取得を主張できる | — |
-| 結論帯 | 1行目 | ＡとＢは当事者。登記が問題になるのは第三者との関係 | 黄色マーカー |
+| コマ4 チェック欄 | 3項目（青✓） | Ｂは当事者で、対抗関係に立たない / 登記が問題になるのは、第三者との関係 / Ａは登記がなくても、Ｂに時効取得を主張できる | — |
+| 結論帯 | 1行目 | 相手が元の所有者Ｂ（当事者）なら、登記なしで主張できる | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D0413　正解×（H21-Q01ウ） | — |
 
 ## プロンプト本体
@@ -54,15 +60,15 @@
 ```text
 Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
 
-CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers, and the full-width letters Ａ Ｂ only where specified below. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers, and the full-width letters Ａ Ｂ Ｃ only where specified below. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
 
 BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
 
-CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. The legal parties Ａ, Ｂ are NOT characters: draw them only as small, faceless, flat pictogram figures, each with a small round label tag containing the full-width letter given in the text plan.
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. The legal parties Ａ, Ｂ, Ｃ are NOT characters: draw them only as small, faceless, flat pictogram figures, each with a small round label tag containing the full-width letter given in the text plan.
 
 ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
-FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
 
@@ -75,36 +81,59 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「元の所有者には、登記なしで時効取得を主張できる」 in large bold letters; the part 「登記なしで時効取得を主張できる」 has a yellow highlighter marker.
 
-PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
-- Label tab: 「①　よくある思い込み」
-- Small diagram in the middle: a flat plot-of-land block labeled 「甲土地」 with a faceless pictogram tag 「Ａ」 standing on it (small label 「占有を続けている」), and a faceless pictogram tag 「Ｂ」 standing beside it (small label 「元の所有者」). A small question badge above the plot reads 「登記が要る？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ（占有者）　Ｂ（元の所有者）」.
-- 藍子 bubble (left, spoken first): 「Ｂにも、登記がないと
+PANEL 1 (calm explanatory mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「①　問いの事案」
+- A large timeline infographic fills the whole panel: one horizontal time line running left to right with three dated marks, each with a small box above it.
+- Left mark 「平成2年1月1日」, box text 「Ａが占有を開始（過失なく自分の土地と信じて）」.
+- Middle mark 「平成12年1月1日」, box text 「10年たって、時効が完成」.
+- Right mark 「平成15年1月1日」, box text 「ＡがＢに時効取得を主張」, with a small question badge 「登記をしなければ主張できない？」 above the box (a question badge only, with no check mark and no cross).
+- Legend strip under the time line, three faceless pictogram tags side by side: a yellow tag 「Ａ」 with the small label 「占有している人」, a gray tag 「Ｂ」 with the small label 「元の所有者」, and a light-blue tag 「Ｃ」 with the small label 「Ｂから土地を買った第三者（この問いには登場しない）」.
+- The arrow along the time line only shows the passing of time.
+- 藍子 bubble (left, rally 1 of 4): 「この問いは、
+何を聞いて
+いるんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「ＡがＢに、
 時効取得を主張
-できませんよね？」 with the part 「登記がないと主張できませんよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「出たわね。
-登記が要る相手を
-取り違えているわよ」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+できるかよ」 with the part 「時効取得を主張できるか」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「でも、Ａは登記を
+していないんですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「そう。登記なしで
+Ｂに言えるかが、
+問いの核心よ」 with the part 「登記なしでＢに言えるか」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
-- Label tab: 「②　ＡとＢは当事者」
-- Two faceless pictograms with tags 「Ａ」 and 「Ｂ」 face each other across the plot block 「甲土地」, with no arrow between them.
-- A dark navy tag between them reads 「当事者の関係」, and a small tag under it reads 「対抗関係には立たない」.
-- 藍子 bubble (left, spoken first): 「ＡとＢは、
-どんな関係なんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「時効の効果をめぐって
-向き合う、
-当事者の関係よ」 with the part 「当事者の関係」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 2 (focused, thoughtful mood; both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
+- Label tab: 「②　出題者のねらい」
+- A large flowchart fills most of the panel, drawn top to bottom, with a small dark navy tag 「出題者のねらい」 at the top left.
+- Top diamond (yellow highlighter marker): 「Ａの相手は、元の所有者Ｂ？」.
+- From the top diamond, a BLUE arrow labeled 「はい」 goes to the LEFT box (yellow highlighter marker, no check mark and no cross): 「当事者の関係。登記がなくても主張できる」. This is the route of this question.
+- From the top diamond, a RED arrow labeled 「いいえ」 goes to the RIGHT lower diamond: 「第三者Ｃが現れたのは、時効完成（平成12年1月1日）より後？」.
+- From the lower diamond, a BLUE arrow labeled 「はい」 goes to a box: 「登記が必要」; and a RED arrow labeled 「いいえ」 goes to a box: 「登記なしで主張できる」. These two boxes are plain white boxes with a navy outline and navy text, with no check mark and no cross.
+- The three result boxes have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, spoken first): 「どこで答えが
+分かれるんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「まず相手がＢか
+第三者かよ。
+ここが出題者のねらい」 with the part 「相手がＢか第三者か」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
-- Label tab: 「③　登記が問題になる相手」
-- Left card, heading 「元の所有者Ｂ（当事者）」, body 「登記がなくても、主張できる」, with ONE blue check mark only (no cross on this card).
-- Right card, heading 「第三者との関係」, body 「登記が問題になるのは、ここだけ」, with no mark on this card.
-- 藍子 bubble (left, spoken first): 「じゃあ、登記が
-問題になるのは
-誰との関係ですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「あくまで第三者との
-関係よ。
-Ｂは第三者ではないわ」 with the part 「あくまで第三者との関係」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　ひっかけと勘違い」
+- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
+- Two large cards side by side fill the panel.
+- Left card, heading 「よくある勘違い」, body 「完成したら、相手がだれでも登記が必要」, with ONE red cross only (no check mark on this card); a small tag under the body reads 「ひっかけ：Ｂまで広げさせる」.
+- Right card, heading 「正しい整理」, body 「登記が要るのは、完成後の第三者Ｃ。元の所有者Ｂは当事者で、対抗関係に立たない」, with ONE blue check mark only (no cross on this card).
+- The two cards have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, rally 1 of 4): 「時効が完成したら、
+相手がだれでも
+登記が要りますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「それがひっかけ。
+登記が要るのは、
+完成後に現れた
+第三者Ｃよ」 with the part 「完成後に現れた第三者Ｃ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「Ｂは、第三者
+じゃないんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「Ｂは当事者。
+時効の効果をめぐって、
+直接向き合う相手よ」 with the part 「Ｂは当事者」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
@@ -115,15 +144,15 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both han
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。
 Ｂは当事者だから、
 登記なしで主張できるのよ」 with the part 「登記なしで主張できる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「ＡとＢは当事者の関係で、対抗関係に立たない」, 「登記が問題になるのは、第三者との関係」, 「登記がなくても、Ｂに時効取得を主張できる」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「Ｂは当事者で、対抗関係に立たない」, 「登記が問題になるのは、第三者との関係」, 「Ａは登記がなくても、Ｂに時効取得を主張できる」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
-- Line 1: 「ＡとＢは当事者。登記が問題になるのは第三者との関係」 with a yellow highlighter marker.
+- Line 1: 「相手が元の所有者Ｂ（当事者）なら、登記なしで主張できる」 with a yellow highlighter marker.
 - Line 2: 「問題D0413　正解×（H21-Q01ウ）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 効, 占, 地, 対, 張, 当, 所, 抗, 登, 解, 記, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 効, 占, 地, 対, 張, 当, 所, 抗, 登, 解, 記, 買, 過, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -188,9 +217,10 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0413_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：Ａ・Ｂはコマ1で人型タグ付きで紹介され、コマ2〜4で同じ位置関係（Ａ＝左、Ｂ＝右）
-- [ ] 工程C：構成表の全文言を記事（H21-Q01ウ）と突き合わせ：「当事者」「対抗関係に立たない」「登記が問題になるのは、あくまで第三者との関係」
-- [ ] 工程C：コマ3は青✓1つだけで、右カードに印がない。結論は×（登記をしなければ主張できないという記述が誤り）
+- [ ] 工程C：初見の読者：コマ1で日付・Ａ・Ｂ・Ｃが紹介され、コマ2のフローチャートとコマ3のカードで同じ人物・同じ日付が使われている。Ｃはコマ1の凡例で最初に出てくる
+- [ ] 工程C：出題者のねらい・ひっかけ・勘違い・理解を誤るポイントの4つが、コマ2・3の文言として読み取れる（コマ2の「ねらい」タグ、コマ3の「ひっかけ」「勘違い」「正しい整理」）
+- [ ] 工程C：構成表の全文言を記事（H21-Q01ウ）と突き合わせ：「当事者」「対抗関係に立たない」「平成12年1月1日に時効完成」。結論は×（登記をしなければ主張できないという記述が誤り）
+- [ ] 工程C：顔アイコンのコマ（1・3）は、吹き出しの尾が話し手の顔に向き、藍子が左・トリ先生が右。コマ2のフローチャートの枝のラベルは青・赤で、結論の箱に○×の印がない
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -201,6 +231,12 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
 
+## v01の検品結果（2026-10-07、ユーザー評価）→ v02で全面再構成
+- 不具合（内容が伝わらない）：v01は「Ｂは当事者」を説くだけで、①問いの事案（日付：平成2年→平成12年に時効完成→平成15年に主張）、②出題者のねらい（相手が当事者か第三者か、第三者なら完成の前か後か）、③ひっかけ（完成後の第三者は登記が必要という結論をＢまで広げさせる）、④勘違い・理解を誤るポイント（Ｂを第三者だと思い込む）が、画像から読み取れなかった。
+- 改修：コマ1を日付つきの時系列図（Ａ・Ｂ・Ｃの凡例つき）、コマ2を大きな判定フローチャート（はい＝青・いいえ＝赤）、コマ3を「よくある勘違い」と「正しい整理」の対比カードに改め、コマ1・3は顔アイコンだけの4往復の会話ラリーで長い説明を入れ、コマ2はキャラを小さくして図を大きくした。
+- 再発防止：MANGA_RULESに「各4コマは、問いの事案・出題者のねらい・ひっかけ・勘違い・正しい整理の5つを、図や文言として必ず示す」を追加し、キャラクターを出さない・顔アイコンにするコマの使い方（chars）を明記した。
+
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-07 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用）
+- 2026-10-07 v02：ユーザー指摘（問いの内容・出題者の意図・ひっかけが分からない）を受けて全面再構成。時系列図・判定フローチャート・対比カード・顔アイコンの会話ラリーを導入

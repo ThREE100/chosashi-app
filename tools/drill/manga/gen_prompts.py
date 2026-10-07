@@ -58,6 +58,7 @@ FIXED_FLEX = ("In every panel in which a character appears, 藍子 (the student)
 CHARS_TXT = {
     "aiko": "ONLY 藍子 appears in this panel (no トリ先生), standing at the left and smaller than usual, so that the diagram can be drawn large",
     "tori": "ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large",
+    "faces": "both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel",
     "small": "both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel",
 }
 
@@ -73,6 +74,8 @@ def build(sp):
     nl = (" Between panel 4 and the conclusion banner, a thin one-line note strip (about 50 px tall) with small text, as given in the NOTE LINE below." if sp.get("note") else "")
     flex = any(p.get("chars") for p in pan)
     head = HEAD.replace(FIXED_OLD, FIXED_FLEX) if flex else HEAD
+    if any(p.get("chars") == "faces" for p in pan):
+        head = head.replace("a character who is not drawn has no speech bubble.", "a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines.")
     body = head.replace("{LETTERS_OK}", letters_ok).replace("{PARTIES}", parties).replace("{NOTE_LAYOUT}", nl).replace("{CONT}", (CONT + "\n\n") if sp.get("cont", True) else "") + "\n\n"
     body += f"TITLE BANNER: text {q(sp['title'])} in large bold letters; the part {q(sp['title_hl'])} has a yellow highlighter marker.\n\n"
     rows = [("タイトル帯", "—", sp["title"], sp["title_hl"] and f"「{sp['title_hl']}」を黄色マーカー")]
@@ -81,7 +84,7 @@ def build(sp):
         cm = p.get("chars")
         if cm:
             assert cm in CHARS_TXT and p.get("mood"), "chars を指定するコマには mood も書く"
-            who_hands = "" if cm == "tori" else f"; {p.get('hands', HANDS[i])}"
+            who_hands = "" if cm in ("tori", "faces") else f"; {p.get('hands', HANDS[i])}"
             body += f"PANEL {n} ({p['mood']}; {CHARS_TXT[cm]}{who_hands}):\n"
         else:
             body += f"PANEL {n} ({p.get('mood', MOODS[i])}; {p.get('hands', HANDS[i])}):\n"
@@ -94,13 +97,15 @@ def build(sp):
             for t in re.findall(r"「([^」]+)」", ln):
                 if t not in figstr: figstr.append(t)
         rows.append((f"コマ{n} 図", "図・カード", " / ".join(figstr), "—"))
-        for b in p["bubbles"]:
+        for k, b in enumerate(p["bubbles"], 1):
             who, text, hl = b[:3]
             brk = b[3] if len(b) > 3 else None
             side = "left" if who == "藍子" else "right"
             role = "spoken first" if who == "藍子" else "spoken as the answer"
+            if cm == "faces": role = f"rally {k} of {len(p['bubbles'])}"
             body += f"- {who} bubble ({side}, {role}): {q(brk or text)}{hlpart(hl)}." + (" The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines." if brk else "") + "\n"
-            rows.append((f"コマ{n}", f"{who}（{'左・先に話す' if who=='藍子' else '右・答える'}）", text, f"「{hl}」" if hl else "—"))
+            who_lbl = (f"{who}（{'左' if who=='藍子' else '右'}・{k}番目）" if cm == "faces" else f"{who}（{'左・先に話す' if who=='藍子' else '右・答える'}）")
+            rows.append((f"コマ{n}", who_lbl, text, f"「{hl}」" if hl else "—"))
         if p.get("checklist"):
             body += ("- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: "
                      + ", ".join(q(c) for c in p["checklist"]) + ".\n")
