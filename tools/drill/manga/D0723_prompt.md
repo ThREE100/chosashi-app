@@ -61,7 +61,7 @@ BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or 
 
 CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. The legal parties Ａ, Ｂ, Ｃ, Ｅ are NOT characters: draw them only as small, faceless, flat pictogram figures, each with a small round label tag containing the full-width letter given in the text plan.
 
-ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
 FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
@@ -74,13 +74,13 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「中間省略登記の合意があっても、Ｅは代位して請求できる」 in large bold letters; the part 「Ｅは代位して請求できる」 has a yellow highlighter marker.
 
-PANEL 1 (藍子 confident, トリ先生 exasperated but caring):
+PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
 - Small diagram in the middle: three faceless pictograms in a row with tags 「Ａ」, 「Ｂ」, and 「Ｃ」, joined by two SOLID navy arrows (Ａ to Ｂ and Ｂ to Ｃ), each labeled 「売却」. Below Ｂ stands a fourth pictogram with tag 「Ｅ」 joined to Ｂ by a thin line labeled 「Ｂの債権者」. Under Ａ a small plate reads 「登記名義はＡのまま」. Caption under the diagram: 「Ａ→Ｂ→Ｃと順次譲渡」.
 - 藍子 bubble (left, spoken first): 「三者で合意したなら、Ｅはもう請求できませんよね？」 with the part 「もう請求できませんよね？」 highlighted in yellow.
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。その合意が何を決めたのか、見てごらん」.
 
-PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer):
+PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　中間省略登記とは」
 - Two explanation cards side by side, with no mark on either card. In this panel, DASHED navy arrows mean the transfer of the registration.
 - Left card, heading 「原則」, body 「Ａ→Ｂ、Ｂ→Ｃと順に登記」, showing pictograms 「Ａ」, 「Ｂ」, 「Ｃ」 with two short dashed arrows.
@@ -89,14 +89,14 @@ PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer):
 - 藍子 bubble (left, spoken first): 「中間省略登記って、何ですか？」.
 - トリ先生 bubble (right, spoken as the answer): 「Ｂを飛ばして、ＡからＣへ直接登記を移すことよ」 with the part 「Ｂを飛ばして」 highlighted in yellow.
 
-PANEL 3 (both characters point together at the same figure; 藍子 realizing):
+PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　合意で登記請求権は消えない」
 - Pictogram 「Ｂ」 holds a document labeled 「ＢのＡに対する登記請求権」 with a navy sticker 「消滅しない」 on it.
 - Beside it, an explanation card (no mark) with the heading 「三者間の合意」 and the body 「登記を移す経路の取決め」.
 - 藍子 bubble (left, spoken first): 「合意をしたら、Ｂの登記請求権は消えるんですか？」.
 - トリ先生 bubble (right, spoken as the answer): 「消えないわ。合意は登記を移す経路の取決めなのよ」 with the part 「消えない」 highlighted in yellow.
 
-PANEL 4 (藍子 relieved, トリ先生 smiling proudly):
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
 - Pictogram 「Ｅ」 with a solid navy arrow to pictogram 「Ａ」 (a demand), labeled 「Ｂに代わって、Ｂへの所有権移転登記を請求」, and a small tag 「代位（民法423条）」.
 - 藍子 bubble (left, spoken first): 「Ｅは、Ｂに代わってＡに請求できるんですね！」.

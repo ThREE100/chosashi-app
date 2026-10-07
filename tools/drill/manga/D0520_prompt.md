@@ -57,7 +57,7 @@ BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or 
 
 CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. The legal parties Ａ, Ｂ, Ｃ, Ｄ are NOT characters: draw them only as small, faceless, flat pictogram figures, each with a small round label tag containing the full-width letter given in the text plan.
 
-ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
 FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生.
 
@@ -70,13 +70,13 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「未成年者の取消しは、善意のＢにも対抗できる」 in large bold letters; the part 「善意のＢにも対抗できる」 has a yellow highlighter marker.
 
-PANEL 1 (the common misconception; 藍子 confident, トリ先生 exasperated but caring):
+PANEL 1 (the common misconception; 藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
 - 藍子 bubble (left): 「Ｂは未成年だと知らなかった。守られますよね？」 with the part 「守られますよね？」 highlighted in yellow.
 - トリ先生 bubble (right): 「出たわね、その思い込み。Ａが取り消す前にＢが買った場合よ」
 - Small diagram in the middle: three faceless pictograms in a row with arrows: a small young pictogram with tag 「Ａ」, then a pictogram with tag 「Ｄ」, then a pictogram with tag 「Ｂ」. The arrow from Ａ to Ｄ carries the small label 「Ｃの同意なし」. Standing right behind 「Ａ」 is a taller adult pictogram with tag 「Ｃ」 and the small label 「Ｃ（Ａの法定代理人）」, so that Ｃ is introduced here. Caption under the diagram: 「Ａ（未成年者）→Ｄ→Ｂ（善意）」.
 
-PANEL 2 (the flow; 藍子 surprised, トリ先生 explaining with a wing-pointer):
+PANEL 2 (the flow; 藍子 surprised, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　流れを整理」
 - Three SEPARATE numbered cards in a row, left to right. Do NOT connect the cards with arrows, and do NOT draw any arrow from Ｂ to Ｃ. Arrows exist only inside card 1 (Ａ to Ｄ) and card 2 (Ｄ to Ｂ).
   - Card 1: pictograms 「Ａ」 and 「Ｄ」 with one arrow from Ａ to Ｄ; text 「①ＡがＤに売却（Ｃの同意なし）」.
@@ -86,7 +86,7 @@ PANEL 2 (the flow; 藍子 surprised, トリ先生 explaining with a wing-pointer
 - 藍子 bubble (left, spoken first): 「取り消すと、どうなるんですか？」
 - トリ先生 bubble (right, spoken as the answer): 「取消しの効果は、当初にさかのぼるのよ」 with 「当初にさかのぼる」 highlighted in yellow.
 
-PANEL 3 (the contrast; both characters point together at the same comparison cards):
+PANEL 3 (the contrast; both characters point together at the same comparison cards; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　詐欺取消しとの違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
 - Left card, heading 「詐欺取消し」, body 「善意無過失の第三者は守られる」, small tag 「民法96条3項」, with ONE blue check mark only (no cross on this card).
@@ -94,7 +94,7 @@ PANEL 3 (the contrast; both characters point together at the same comparison car
 - 藍子 bubble (left, spoken first): 「詐欺取消しだと、第三者は守られるのに…」
 - トリ先生 bubble (right, spoken as the answer): 「違いは、第三者を守る規定があるかどうかよ」 with 「守る規定」 highlighted in yellow.
 
-PANEL 4 (the conclusion; 藍子 relieved, トリ先生 smiling proudly):
+PANEL 4 (the conclusion; 藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
 - 藍子 bubble (left): 「Ａは善意のＢにも所有権を主張できるんですね！」
 - トリ先生 bubble (right): 「そのとおり。取消し前に現れた善意の買主にも対抗できるのよ」 with 「対抗できる」 highlighted in yellow.

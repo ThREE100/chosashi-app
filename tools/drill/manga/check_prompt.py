@@ -115,6 +115,14 @@ def main():
     if re.search(r"exactly four|EXACTLY four", body, re.I) is None and "four-panel" not in body:
         WARN("4コマ（exactly four）の明記が見当たらない")
 
+    # 1b 藍子の人体構造（2026-10-07）：段落と手の割り当て（3本目の手を防ぐ）
+    if "4コマ" in src[:200] or "four-panel" in body:
+        for key in ("ANATOMY (critical", "HAND COUNT RULE", "exactly two arms", "five fingers"):
+            if key not in main_body: NG(f"藍子の人体構造の指示がない: {key}")
+        for pm in re.finditer(r"(PANEL \d[^\n]*)", main_body):
+            if "hands" not in pm.group(1): NG(f"{pm.group(1)[:8]}: 藍子の手の割り当て（hands:）がPANEL行にない")
+        if "exactly two arms" not in final: WARN("Final checkに藍子の腕・手の確認がない")
+
     # 2 色：緑に触れない、「A or B」の色選択をしない、否定形の色指定をしない
     for pat, why in [(r"green|緑", "緑への言及（禁止・選択指示とも書かない）"),
                      (r"\b(blue|red|navy|yellow)\s+or\s+\w+", "色の二者択一の指示"),

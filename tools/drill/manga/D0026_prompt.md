@@ -1,4 +1,4 @@
-# D0026 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
+# D0026 4コマ解説図解 プロンプト（ChatGPT貼付用・v03）
 
 - 肢：D0026（不動産登記法／土地の分筆・合筆・地積更正、出典 H17-Q06肢1）。正解＝×（誤った記述）。誤解4回。
 - 記事：`note-articles/h17-mondai/q06-bunpitsu-shinsei.md` 1「仮差押があっても、分筆に債権者の承諾は不要」
@@ -65,7 +65,7 @@ BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or 
 
 CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. The legal parties Ａ, Ｂ are NOT characters: draw them only as small, faceless, flat pictogram figures, each with a small round label tag containing the full-width letter given in the text plan.
 
-ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
 FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
@@ -78,13 +78,13 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「仮差押えがあっても、分筆に債権者の承諾は不要」 in large bold letters; the part 「債権者の承諾は不要」 has a yellow highlighter marker.
 
-PANEL 1 (藍子 confident, トリ先生 exasperated but caring):
+PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
 - Small diagram in the middle: a flat plot-of-land block drawn as one rectangle with a diagonal ribbon labeled 「仮差押え」 across it. A faceless pictogram with tag 「Ａ」 stands at the left of the plot holding a small document labeled 「分筆の申請」. A faceless pictogram with tag 「Ｂ」 stands at the right with a small question badge 「承諾は要る？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ（所有権の登記名義人）　Ｂ（仮差押債権者）」.
 - 藍子 bubble (left, spoken first): 「仮差押えがあるなら、Ｂの承諾が要りますよね？」 with the part 「承諾が要りますよね？」 highlighted in yellow.
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。承諾を証する情報が要ると思ったでしょ」.
 
-PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer):
+PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　分筆とは」
 - On the left, one plot-of-land block labeled 「一筆」 with the diagonal ribbon 「仮差押え」. A navy arrow (this arrow means the procedure of dividing the land, not a sale) labeled 「分筆」 points to the right, where two plot blocks are drawn side by side and labeled 「二筆」; BOTH of the two blocks carry the same diagonal ribbon 「仮差押え」 as the original block (the ribbon must not disappear after the division).
 - Under the arrow, a dark navy tag reads 「物理的に区分するだけ」.
@@ -93,14 +93,14 @@ PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer):
 一筆を複数に区分する
 物理的な変更にすぎないのよ」 with the part 「物理的な変更」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 3 (both characters point together at the same figure; 藍子 realizing):
+PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　仮差押えの行き先」
 - Two plot-of-land blocks side by side, each carrying its own diagonal ribbon 「仮差押え」.
 - A faceless clerk pictogram labeled 「登記官」 stands above them, with a navy arrow to both blocks labeled 「各土地の登記記録に引き継ぐ（転写）」.
 - 藍子 bubble (left, spoken first): 「仮差押えは、分筆したらどうなるんですか？」.
 - トリ先生 bubble (right, spoken as the answer): 「分筆後の各土地に、当然に効力が及ぶのよ」 with the part 「当然に効力が及ぶ」 highlighted in yellow.
 
-PANEL 4 (藍子 relieved, トリ先生 smiling proudly):
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
 - 藍子 bubble (left, spoken first): 「債権者の承諾を証する情報は、提供しなくていいんですね！」.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。承諾が必要という記述は×よ」 with the part 「承諾が必要という記述は×」 highlighted in yellow.
@@ -194,5 +194,6 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
+- 2026-10-07 v03：コマ3で藍子の手が3本になった（指さす腕＋胸の前で組んだ手）ため、各コマのPANEL行に藍子の手の割り当て（hands:）を追加し、人体構造の段落に「手の割り当てルール（指さすときは片腕だけ、もう一方の手は組む・上げる・握るをしない）」を加えた（全プロンプト共通）
 - 2026-10-07 v02：①コマ2の「二筆」の両方に仮差押えのリボンを付ける（v01は消えていた）／②コマ2のトリ先生の吹き出しを3行（いいえ。／一筆を複数に区分する／物理的な変更にすぎないのよ）に固定／③コマ3の矢印を「各土地の登記記録に引き継ぐ（転写）」に併記／④コマ4の下に注記（抵当権など所有権以外の権利を消滅させるときは承諾が必要・法40条。ユーザー指示。法40条は記事に無いので「記事に無い条文」に記録）／⑤藍子の人体構造（腕2本・手2本・指5本）とコマごとのポーズ変更、記事内容の理解に必要な要素の表現を全プロンプトに追加
 - 2026-10-07 v01：初版

@@ -15,7 +15,7 @@ BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or 
 
 CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. {PARTIES}
 
-ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
 FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
@@ -26,6 +26,10 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
 - Conclusion banner at the bottom (about 110 px tall).{NOTE_LAYOUT}"""
 
+HANDS = ["藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)",
+         "藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)",
+         "藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears",
+         "藍子's hands: both hands raised in a small cheering fist (two hands in total)"]
 MOODS = ["藍子 confident, トリ先生 exasperated but caring", "藍子 puzzled, トリ先生 explaining with a wing-pointer",
          "both characters point together at the same figure; 藍子 realizing", "藍子 relieved, トリ先生 smiling proudly"]
 ARC = "confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4)"
@@ -61,7 +65,7 @@ def build(sp):
     rows = [("タイトル帯", "—", sp["title"], sp["title_hl"] and f"「{sp['title_hl']}」を黄色マーカー")]
     for i, p in enumerate(pan):
         n = i + 1
-        body += f"PANEL {n} ({p.get('mood', MOODS[i])}):\n- Label tab: {q(p['label'])}\n"
+        body += f"PANEL {n} ({p.get('mood', MOODS[i])}; {p.get('hands', HANDS[i])}):\n- Label tab: {q(p['label'])}\n"
         rows.append((f"コマ{n} 見出し", "ラベル", p["label"], "—"))
         if p.get("opposite"): body += f"- {OPPOSITE}\n"
         for ln in p["fig"]: body += f"- {ln}\n"
@@ -214,6 +218,11 @@ def patch_d0520():
     anat = re.search(r"ANATOMY \(critical, 藍子\):.*", HEAD).group(0)
     if "ANATOMY (critical" not in s:
         s = s.replace("\n\nFIXED POSITIONS", "\n\n" + anat + "\n\nFIXED POSITIONS", 1)
+    else:
+        s = re.sub(r"ANATOMY \(critical, 藍子\):[^\n]*", lambda m: anat, s, count=1)
+    def _hands(m):
+        return m.group(0) if "hands:" in m.group(0) else f"PANEL {m.group(1)} ({m.group(2)}; {HANDS[int(m.group(1)) - 1]}):"
+    s = re.sub(r"^PANEL (\d) \(([^\n]*?)\):", _hands, s, flags=re.M)
     if "exactly two arms and two hands" not in s:
         s = s.replace("confirm the background is fully opaque", "confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the background is fully opaque", 1)
     s = re.sub(r"## 見出し画像プロンプト.*?(?=## 作成時の品質ゲート)", "", s, flags=re.S)

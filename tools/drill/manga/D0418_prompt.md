@@ -60,7 +60,7 @@ BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or 
 
 CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. The legal parties Ａ, Ｂ, Ｃ, Ｄ are NOT characters: draw them only as small, faceless, flat pictogram figures, each with a small round label tag containing the full-width letter given in the text plan.
 
-ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
 FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
@@ -73,13 +73,13 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「地上権は、所有者の承諾なしで譲渡できる」 in large bold letters; the part 「所有者の承諾なしで譲渡できる」 has a yellow highlighter marker.
 
-PANEL 1 (藍子 confident, トリ先生 exasperated but caring):
+PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
 - Small diagram in the middle: three faceless pictograms in a row: tag 「Ａ」 (the land owner, standing next to a small plot-of-land icon), tag 「Ｂ」 (a person standing on the same plot), and tag 「Ｃ」 (a person who wants to receive the right). A solid navy arrow from Ｂ to Ｃ carries the label 「地上権を譲渡」. A small question badge above Ａ reads 「承諾は要る？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ（土地の所有者）　Ｂ（地上権者）　Ｃ（譲受人）」.
 - 藍子 bubble (left, spoken first): 「地上権を譲るには、所有者の承諾が要りますよね？」 with the part 「承諾が要りますよね？」 highlighted in yellow.
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。賃借権と混ぜた思い込みよ」.
 
-PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer):
+PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　地上権は物権」
 - A central card with the heading 「地上権」 and the body 「物権」.
 - Below the card, pictogram 「Ｂ」 with two solid navy arrows: one to pictogram 「Ｃ」 labeled 「譲渡」, and one to a new pictogram with tag 「Ｄ」 (a person who lends money) labeled 「抵当権を設定」.
@@ -87,7 +87,7 @@ PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer):
 - 藍子 bubble (left, spoken first): 「地上権って、どんな権利なんですか？」.
 - トリ先生 bubble (right, spoken as the answer): 「物権よ。権利者が自由に処分できる財産なの」 with the part 「自由に処分できる財産」 highlighted in yellow.
 
-PANEL 3 (both characters point together at the same figure; 藍子 realizing):
+PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　賃借権との違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
 - Left card, heading 「地上権（物権）」, body 「所有者の承諾はいらない」, with ONE blue check mark only (no cross on this card).
@@ -95,7 +95,7 @@ PANEL 3 (both characters point together at the same figure; 藍子 realizing):
 - 藍子 bubble (left, spoken first): 「賃借権は承諾が要るのに、地上権は違うんですか？」.
 - トリ先生 bubble (right, spoken as the answer): 「そこが大きな違いよ。賃借権は承諾がないと譲れないの」 with the part 「大きな違い」 highlighted in yellow.
 
-PANEL 4 (藍子 relieved, トリ先生 smiling proudly):
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
 - 藍子 bubble (left, spoken first): 「地上権者は、承諾なしで譲渡も抵当権設定もできるんですね！」.
 - トリ先生 bubble (right, spoken as the answer): 「そう。物権だから、自分の財産として自由に動かせるのよ」 with the part 「自由に動かせる」 highlighted in yellow.
