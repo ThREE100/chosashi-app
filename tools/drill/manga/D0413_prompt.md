@@ -1,4 +1,4 @@
-# D0413 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
+# D0413 4コマ解説図解 プロンプト（ChatGPT貼付用・v03）
 
 - 肢：D0413（民法／時効・条件期限、出典 H21-Q01ウ）。正解＝×（誤った記述）。誤解3回。
 - 記事：`note-articles/h21-mondai/q01-jikou-touki.md` ウ「元所有者Bに対しては、登記がなくても時効取得を主張できる」（対比：D0414・D0412・D0411）
@@ -107,7 +107,7 @@ PANEL 2 (focused, thoughtful mood; both characters appear VERY SMALL (about one 
 - Top diamond (yellow highlighter marker): 「Ａの相手は、元の所有者Ｂ？」.
 - From the top diamond, a BLUE arrow labeled 「はい」 goes to the LEFT box (yellow highlighter marker, no check mark and no cross): 「当事者の関係。登記がなくても主張できる」. This is the route of this question.
 - From the top diamond, a RED arrow labeled 「いいえ」 goes to the RIGHT lower diamond: 「第三者Ｃが現れたのは、時効完成（平成12年1月1日）より後？」.
-- From the lower diamond, a BLUE arrow labeled 「はい」 goes to a box: 「登記が必要」; and a RED arrow labeled 「いいえ」 goes to a box: 「登記なしで主張できる」. These two boxes are plain white boxes with a navy outline and navy text, with no check mark and no cross.
+- From the lower diamond, a BLUE arrow labeled 「はい」 goes to a box: 「登記が必要」; and a RED arrow labeled 「いいえ」 goes to a box: 「登記なしで主張できる」. These two boxes are plain WHITE boxes with a thin dark navy outline and dark navy text (white fill and dark navy outline only; the color lives only in the arrows: every 「はい」 arrow and label is blue, every 「いいえ」 arrow and label is red), with no check mark and no cross.
 - The three result boxes have clearly different texts; the texts are NOT identical.
 - 藍子 bubble (left, spoken first): 「どこで答えが
 分かれるんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
@@ -119,7 +119,7 @@ PANEL 3 (surprised then convinced mood; both characters appear ONLY as very smal
 - Label tab: 「③　ひっかけと勘違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side fill the panel.
-- Left card, heading 「よくある勘違い」, body 「完成したら、相手がだれでも登記が必要」, with ONE red cross only (no check mark on this card); a small tag under the body reads 「ひっかけ：Ｂまで広げさせる」.
+- Left card, heading 「よくある勘違い」, body 「完成したら、相手がだれでも登記が必要」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text at least as big as the card body text, reads 「ひっかけ：Ｂまで広げさせる」.
 - Right card, heading 「正しい整理」, body 「登記が要るのは、完成後の第三者Ｃ。元の所有者Ｂは当事者で、対抗関係に立たない」, with ONE blue check mark only (no cross on this card).
 - The two cards have clearly different texts; the texts are NOT identical.
 - 藍子 bubble (left, rally 1 of 4): 「時効が完成したら、
@@ -152,7 +152,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 効, 占, 地, 対, 張, 当, 所, 抗, 登, 解, 記, 買, 過, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 効, 占, 地, 対, 張, 当, 所, 抗, 登, 解, 記, 買, 過, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that in panel 2 the two result boxes 「登記が必要」 and 「登記なしで主張できる」 have a white fill and a dark navy outline, and that the color lives only in the arrows and labels (the two 「はい」 arrows and labels are blue, the two 「いいえ」 arrows and labels are red); confirm that both characters in panel 2 are drawn at about one fifth of the panel height so the flowchart stays large; confirm that all four speech bubbles in panel 1 and all four in panel 3 use the same text size and that the ribbon tag 「ひっかけ：Ｂまで広げさせる」 is easy to read; confirm that every 「Ａ」「Ｂ」「Ｃ」 is the full-width letter. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -231,7 +231,13 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
 
-## v01の検品結果（2026-10-07、ユーザー評価）→ v02で全面再構成
+## v02の検品結果（2026-10-07）→ v03で微修正
+- 合格：タイトル・構成表の文言、時系列図（3つの日付とＡ・Ｂ・Ｃの凡例。Ｃは「この問いには登場しない」と紹介）、判定フローチャートの構造と枝の色（はい＝青・いいえ＝赤）、対比カード（赤✕1つ・青✓1つ）、顔アイコンの会話ラリー（尾が話し手に向く、藍子＝左・トリ先生＝右、読む順どおり）、暗記3点、結論帯。問いの事案・出題者のねらい・ひっかけ・勘違い・正しい整理の5点が読み取れる。法的内容は記事（H21-Q01ウ）の範囲内で正確。藍子の手・髪型も問題なし。
+- 不具合1（赤・青の誤用）：コマ2の結果の箱「登記が必要」が青の塗り・枠、「登記なしで主張できる」が赤の塗り・枠で描かれ、○×の判定に見える（赤の箱が「誤り」と読める）。プロンプトは白地・濃紺の枠と指定していたが守られなかった。→ 「白地・濃紺の細い枠・濃紺の文字。青・赤は矢印とラベルだけ」と肯定形で強め、final_extra に確認文を追加。
+- 不具合2（軽微）：コマ2のキャラが指定（コマの高さの約5分の1）より大きく、フローチャートが少し窮屈。→ final_extra で大きさを確認。
+- 不具合3（軽微）：コマ3の「ひっかけ：Ｂまで広げさせる」のタグが小さく読みにくい。トリ先生の4番目の吹き出しの文字が他より小さい。→ タグを濃紺のリボンで大きな白文字に、吹き出しの文字サイズを揃える確認文を追加。
+- 再発防止：MANGA_RULESの不具合記録に追記。結果の箱の色は、箱の色の指定を肯定形で書き final_extra で確認する。
+- v01の検品結果（2026-10-07、ユーザー評価）→ v02で全面再構成
 - 不具合（内容が伝わらない）：v01は「Ｂは当事者」を説くだけで、①問いの事案（日付：平成2年→平成12年に時効完成→平成15年に主張）、②出題者のねらい（相手が当事者か第三者か、第三者なら完成の前か後か）、③ひっかけ（完成後の第三者は登記が必要という結論をＢまで広げさせる）、④勘違い・理解を誤るポイント（Ｂを第三者だと思い込む）が、画像から読み取れなかった。
 - 改修：コマ1を日付つきの時系列図（Ａ・Ｂ・Ｃの凡例つき）、コマ2を大きな判定フローチャート（はい＝青・いいえ＝赤）、コマ3を「よくある勘違い」と「正しい整理」の対比カードに改め、コマ1・3は顔アイコンだけの4往復の会話ラリーで長い説明を入れ、コマ2はキャラを小さくして図を大きくした。
 - 再発防止：MANGA_RULESに「各4コマは、問いの事案・出題者のねらい・ひっかけ・勘違い・正しい整理の5つを、図や文言として必ず示す」を追加し、キャラクターを出さない・顔アイコンにするコマの使い方（chars）を明記した。
@@ -240,3 +246,4 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 - 2026-10-07 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用）
 - 2026-10-07 v02：ユーザー指摘（問いの内容・出題者の意図・ひっかけが分からない）を受けて全面再構成。時系列図・判定フローチャート・対比カード・顔アイコンの会話ラリーを導入
+- 2026-10-07 v03：v02画像の検品で見つかった3点を改修（コマ2の結果の箱の青・赤塗りを白地・濃紺の枠に、キャラの大きさ、コマ3のタグと吹き出しの文字サイズ）
