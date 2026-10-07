@@ -1,4 +1,4 @@
-# D0497 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0497 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0497（不動産登記法／建物の分割・合併・合体・滅失・変更、出典 H21-Q18イ）。正解＝×（誤った記述）。誤解3回。
 - 記事：`note-articles/h21-mondai/q18-gattai-touki.md` イ「所有権登記名義人が異なる建物の合体でも、全員の「共同申請」ではない」
@@ -6,12 +6,16 @@
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の5枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 登場人物：Ａ・Ｂ（別々の所有権の登記名義人。隣り合う2棟の家の持ち主）をコマ1で紹介。
-- 矢印の意味：コマ2の矢印は「工事」という出来事（2棟が1棟になる）。申請や取引の矢印はない。
-- 会話順：藍子の誤解（名義人が違うなら全員で申請）→2棟が1棟に合体した事案→申請のしかたの対比→結論（記述は×）。
-- 配色：コマ3は左（一人から単独で申請）＝青✓、右（全員が共同して申請）＝赤✕。左が青・右が赤（生成器の定型どおり）。
-- 記事の範囲：所有権の登記名義人が異なる数個の建物を合体した場合、合体による登記等の申請は、所有権の登記名義人の一人（または表題部所有者の一人）から単独でできる／全員が共同してしなければならないとはされていない。
-- 注意：条文番号は記事に無いので図に入れない。「合体による登記等」の用語のみ使う。
+- タイプ：B 当事者・主体型（誰が申請するか）。コマの使い方：コマ1＝small（工事前後の図を大きく）、コマ2＝tori（合体による登記等の中身と申請できる人の図を大きく、トリ先生だけが説明）、コマ3＝faces（顔アイコンの4往復＋勘違い⇔正しい整理のカード）、コマ4＝両方。
+- ①問いの事案：所有権の登記名義人が別々（Ａ・Ｂ）の隣り合う2棟が、工事で1棟に合体した。合体による登記等＝合体後の建物の表題登記＋合体前の建物の表題部の登記の抹消を、あわせて申請する（記事の冒頭の説明）。
+- ②出題者のねらい：名義人が複数のとき、合体による登記等の申請人は「全員」か「一人から単独」か。
+- ③ひっかけ：問題文の「名義人が異なる」「全員が共同して」の語に引かれて、全員でそろって申請すると思わせる。
+- ④勘違い・理解を誤るポイント：名義人が違うなら全員そろわないと申請できない。合体による登記等は2つの登記をあわせて申請するもので、申請人は名義人の一人でよい。
+- ⑤正しい整理：所有権の登記名義人の一人（又は表題部所有者の一人）から単独でできる。記事の具体例：別々の人が所有する隣り合う2棟が工事で一棟に合体した場合、そのうちの一人が単独で申請できる。
+- 登場人物：Ａ・Ｂ（別々の所有権の登記名義人）をコマ1で人型タグ付きで紹介。合体後の建物は「合体後の建物」のラベル。
+- 矢印の意味：コマ1の矢印は「工事」という出来事（2棟が1棟になる）だけ。申請や取引の矢印はない。コマ2の「＋」は2つの登記を並べる記号で矢印ではない。
+- 配色：コマ3は左（名義人が違うなら全員で申請）＝赤✕1つ、右（一人から単独で申請）＝青✓1つ。コマ1・2は印を付けない。
+- 記事の範囲：合体による登記等の用語のみ使い、条文番号は図に入れない（記事に無い）。
 
 ## 記事タイトル
 
@@ -30,18 +34,19 @@
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
 | タイトル帯 | — | 名義人が違う建物の合体は、一人から申請できる | 「一人から申請できる」を黄色マーカー |
-| コマ1 見出し | ラベル | ①　よくある思い込み | — |
-| コマ1 図 | 図・カード | Ａ / Ｂ / 全員で申請？ / Ａ・Ｂ（所有権の登記名義人が別々） | — |
-| コマ1 | 藍子（左・先に話す） | 名義人が違うなら、全員そろって申請しますよね？ | 「全員そろって申請しますよね？」 |
-| コマ1 | トリ先生（右・答える） | 出たわね。共同申請だと思ったでしょ | — |
-| コマ2 見出し | ラベル | ②　2棟が1棟に合体 | — |
-| コマ2 図 | 図・カード | Ａ / Ｂ / 工事 / 合体後の建物 / 合体による登記等 | — |
-| コマ2 | 藍子（左・先に話す） | 合体って、どういう場面なんですか？ | — |
-| コマ2 | トリ先生（右・答える） | 隣り合う2棟が、工事で一棟になるのよ | 「工事で一棟になる」 |
-| コマ3 見出し | ラベル | ③　申請のしかたの違い | — |
-| コマ3 図 | 図・カード | 一人から単独で申請 / 所有権の登記名義人の一人（又は表題部所有者の一人）から申請できる / 全員が共同して申請 / そうしなければならないわけではない | — |
-| コマ3 | 藍子（左・先に話す） | 申請は、誰がするんですか？ | — |
-| コマ3 | トリ先生（右・答える） | 所有権の登記名義人の一人から、単独でできるのよ | 「一人から、単独でできる」 |
+| コマ1 見出し | ラベル | ①　問いの事案 | — |
+| コマ1 図 | 図・カード | 甲建物 / 乙建物 / Ａ / 所有権の登記名義人 / Ｂ / 工事 / 合体後の建物 / 合体による登記等 / 合体後の建物の表題登記と、合体前の建物の表題部の登記の抹消を、あわせて申請 / 申請人は全員？ | — |
+| コマ1 | 藍子（左・先に話す） | 名義人が別々の2棟が、1棟になったんですね | — |
+| コマ1 | トリ先生（右・答える） | 合体よ。登記は、あわせて申請するの | 「あわせて申請」 |
+| コマ2 見出し | ラベル | ②　出題者のねらい | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 申請人は、名義人の全員でなければならないか / 合体後の建物の表題登記 / 合体前の建物の表題部の登記の抹消 / 合体による登記等（あわせて申請） / 申請できる人 / 所有権の登記名義人の一人（又は表題部所有者の一人） / 単独で申請できる | — |
+| コマ2 | トリ先生（右・答える） | 2つの登記を、あわせて申請するのよ | 「あわせて申請」 |
+| コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
+| コマ3 図 | 図・カード | よくある勘違い / 名義人が違うなら、全員が共同して申請する / ひっかけ：全員が共同して、という言葉 / 正しい整理 / 名義人が違っても、一人から単独で申請できる / たとえば：別々の人が所有する隣り合う2棟が工事で一棟になったら、そのうちの一人が単独で申請できる | — |
+| コマ3 | 藍子（左・1番目） | 名義人が違うなら、全員そろって申請では？ | — |
+| コマ3 | トリ先生（右・2番目） | それがひっかけ。全員が共同して、の言葉に引かれたわね | 「全員が共同して」 |
+| コマ3 | 藍子（左・3番目） | 全員そろわないと、だめなんじゃないですか？ | — |
+| コマ3 | トリ先生（右・4番目） | 一人から単独でできるの。たとえば2棟の持ち主の一人よ | 「一人から単独で」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 全員で共同申請という記述は、誤りなんですね！ | — |
@@ -63,7 +68,7 @@ CHARACTERS: The attached character-specification images are the single authorita
 
 ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
-FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
 
@@ -76,35 +81,50 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「名義人が違う建物の合体は、一人から申請できる」 in large bold letters; the part 「一人から申請できる」 has a yellow highlighter marker.
 
-PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
-- Label tab: 「①　よくある思い込み」
-- Small diagram in the middle: two flat house icons side by side, each with a faceless owner pictogram: tag 「Ａ」 beside the left house and tag 「Ｂ」 beside the right house. A small question badge above them reads 「全員で申請？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ・Ｂ（所有権の登記名義人が別々）」.
-- 藍子 bubble (left, spoken first): 「名義人が違うなら、
-全員そろって
-申請しますよね？」 with the part 「全員そろって申請しますよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「出たわね。
-共同申請だと
-思ったでしょ」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　問いの事案」
+- A large before-and-after diagram fills the panel, left to right.
+- On the left, two flat house icons side by side labeled 「甲建物」 and 「乙建物」, each with a faceless owner pictogram: a tag 「Ａ」 beside the left house with the small label 「所有権の登記名義人」, and a tag 「Ｂ」 beside the right house with the small label 「所有権の登記名義人」.
+- A dark navy arrow (this arrow means a construction event, not a sale or an application) labeled 「工事」 points to the right, where ONE larger merged house icon is drawn, labeled 「合体後の建物」.
+- Under the merged house, a card with heading 「合体による登記等」 and body 「合体後の建物の表題登記と、合体前の建物の表題部の登記の抹消を、あわせて申請」.
+- A small question badge 「申請人は全員？」 sits above the card (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「名義人が別々の
+2棟が、1棟に
+なったんですね」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「合体よ。
+登記は、あわせて
+申請するの」 with the part 「あわせて申請」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
-- Label tab: 「②　2棟が1棟に合体」
-- On the left, the two house icons with the owner tags 「Ａ」 and 「Ｂ」. A navy arrow (this arrow means a construction event, not a sale) labeled 「工事」 points to the right, where ONE larger merged house icon is drawn, labeled 「合体後の建物」.
-- Under the arrow, a dark navy tag reads 「合体による登記等」.
-- 藍子 bubble (left, spoken first): 「合体って、
-どういう場面なんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「隣り合う2棟が、
-工事で一棟になるのよ」 with the part 「工事で一棟になる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 2 (explanatory, steady mood; ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large):
+- Label tab: 「②　出題者のねらい」
+- A large explanation diagram fills the panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「申請人は、名義人の全員でなければならないか」.
+- In the middle, two cards joined by a plain plus sign (not an arrow): left card 「合体後の建物の表題登記」, right card 「合体前の建物の表題部の登記の抹消」. A bracket under both cards is labeled 「合体による登記等（あわせて申請）」.
+- At the bottom, one wide card with heading 「申請できる人」 and body 「所有権の登記名義人の一人（又は表題部所有者の一人）」, with a small yellow tag 「単独で申請できる」, and no check mark and no cross on this card.
+- トリ先生 bubble (right, spoken as the answer): 「2つの登記を、
+あわせて申請
+するのよ」 with the part 「あわせて申請」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
-- Label tab: 「③　申請のしかたの違い」
+PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　ひっかけと勘違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
-- Left card, heading 「一人から単独で申請」, body 「所有権の登記名義人の一人（又は表題部所有者の一人）から申請できる」, with ONE blue check mark only (no cross on this card).
-- Right card, heading 「全員が共同して申請」, body 「そうしなければならないわけではない」, with ONE red cross only (no check mark on this card).
-- 藍子 bubble (left, spoken first): 「申請は、
-誰がするんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「所有権の登記名義人の
-一人から、
-単独でできるのよ」 with the part 「一人から、単独でできる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- Two large cards side by side, with a wide example strip under them.
+- Left card, heading 「よくある勘違い」, body 「名義人が違うなら、全員が共同して申請する」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：全員が共同して、という言葉」.
+- Right card, heading 「正しい整理」, body 「名義人が違っても、一人から単独で申請できる」, with ONE blue check mark only (no cross on this card).
+- Example strip under the two cards: 「たとえば：別々の人が所有する隣り合う2棟が工事で一棟になったら、そのうちの一人が単独で申請できる」.
+- The two cards have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, rally 1 of 4): 「名義人が違うなら、
+全員そろって
+申請では？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「それがひっかけ。
+全員が共同して、の
+言葉に引かれたわね」 with the part 「全員が共同して」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「全員そろわないと、
+だめなんじゃ
+ないですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「一人から単独で
+できるの。
+たとえば2棟の
+持ち主の一人よ」 with the part 「一人から単独で」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
@@ -122,7 +142,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 建, 所, 権, 物, 登, 解, 記, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 建, 所, 権, 物, 登, 解, 記, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -187,9 +207,10 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0497_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1のＡ・Ｂが、コマ2で1棟に合体した後も、人型タグで追える（合体後の建物は「合体後の建物」のラベル）。矢印はコマ2の「工事」だけ
-- [ ] 工程C：構成表の全文言を記事（H21-Q18イ）と突き合わせ：「所有権の登記名義人の一人（又は表題部所有者の一人）から単独で」「全員が共同して」
-- [ ] 工程C：コマ3の左右のマークが逆で、文言が別々。結論は×（全員共同でなければならないという記述が誤り）
+- [ ] 工程C：初見の読者：コマ1のＡ・Ｂ・合体後の建物がコマ2・3の文言と対応している。矢印はコマ1の「工事」だけ
+- [ ] 工程C：5点（事案・ねらい・ひっかけ・勘違い・正しい整理）が、コマ1の図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
+- [ ] 工程C：構成表の全文言を記事（H21-Q18イ）と突き合わせ：「所有権の登記名義人の一人（又は表題部所有者の一人）から単独で」「合体後の建物の表題登記」「合体前の建物の表題部の登記の抹消」「あわせて」
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→tori→faces→両方）。結論は×（全員が共同しなければならないという記述が誤り）
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -200,6 +221,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
 
+## v02：新しい構成表の組み方（パターン集）に合わせて全面再構成（ユーザー指示、2026-10-07）。v01は、事案・出題者のねらい・ひっかけ・勘違いが図として読み取れない定型構成だった（D0413 v01と同じ不具合）。コマの使い方を small→tori→faces→両方 に変え、コマ1に工事前後の図と「合体による登記等」の中身、コマ2に申請できる人の図、コマ3に勘違い⇔正しい整理と記事の具体例を入れた。
+
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-07 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用）
+- 2026-10-07 v02：構成表を組み直し（5点の明示、コマごとの chars の使い分け：small・tori・faces）

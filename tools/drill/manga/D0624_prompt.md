@@ -1,4 +1,4 @@
-# D0624 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0624 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0624（民法／共有・所有権・占有、出典 H23-Q03エ）。正解＝〇。誤解3回。
 - 記事：`note-articles/h23-mondai/q03-kyouyu.md` エ「損害賠償は、自分の持分の分しか請求できない」
@@ -6,12 +6,16 @@
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の5枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 登場人物：Ａ・Ｂ・Ｃ（甲土地を3分の1ずつ共有する者）とＥ（甲土地を不法に占有する第三者）をコマ1で紹介。
-- 矢印の意味：コマ1の矢印は「損害賠償の請求」（請求）。コマ2は損害を3等分した図で、矢印は使わない。
-- 会話順：藍子の誤解（Ａは全額を請求できる）→損害賠償請求権は持分に応じて分割して帰属→請求できる範囲の対比→結論（記述は〇）。
-- 配色：コマ3は左（自分の持分割合の範囲）＝青✓、右（他の共有者の分まで）＝赤✕。逆の極性。
-- 継続（CONTINUITY）：コマ1の「持分は各3分の1」のタグは、コマ2・コマ3でも同じ文言で出す。Ａ・Ｂ・Ｃの人型タグは同じ位置関係（左からＡ・Ｂ・Ｃ）にする。
-- 記事の範囲：第三者Ｅが共有地を不法占有して使用を妨げた場合、各共有者は自己の持分割合の範囲でのみ損害賠償を請求できる（判例）／損害賠償請求権は各共有者に持分に応じて分割して帰属する／Ａが請求できるのは損害のうち自分の取り分（3分の1）まで。
+- タイプ：D 数量・割合型（持分に応じて分かれる損害賠償）。コマの使い方：コマ1＝faces（事案図を大きく＋4往復）、コマ2＝none（キャラなし。損害を3つに分けるバーの図と数字の例）、コマ3＝small（勘違い⇔正しい整理のカードを大きく、吹き出し2つ）、コマ4＝両方。
+- ①問いの事案：Ａ・Ｂ・Ｃが各3分の1の持分で甲土地を共有。第三者Ｅが不法に占有し、Ａ・Ｂ・Ｃの使用が妨げられた。Ａは、Ｅに持分割合を超えて損害賠償を請求できるか。
+- ②出題者のねらい：損害賠償請求権が、共有者にどう帰属するか（持分に応じて分割して帰属）を見分けられるか。
+- ③ひっかけ：問題文の「Ａ、Ｂ及びＣの使用が妨げられた場合であっても」の語。3人とも妨げられたのだから全額請求できそうに見える。
+- ④勘違い・理解を誤るポイント：共有物の被害は共有者全員のものだから、共有者の一人が全額を請求できる。損害賠償請求権は各共有者に持分に応じて分かれて帰属する。
+- ⑤正しい整理：各共有者が請求できるのは、自分の持分割合の範囲だけ。他の2人の分まで一人でまとめて取り立てることはできない。数字の例（損害が90万円なら、Ａは30万円まで）は、記事の「全体の損害のうち自分の取り分（3分の1）まで」の計算例で、「数字は例」と図に書く。
+- 登場人物：Ａ・Ｂ・Ｃ（甲土地を3分の1ずつ共有）とＥ（不法に占有する第三者）をコマ1で人型タグ付きで紹介。Ａ・Ｂ・Ｃは全コマで左からＡ・Ｂ・Ｃの順。
+- 矢印の意味：コマ1の矢印は「損害賠償の請求」（Ａ→Ｅ）だけ。コマ2は矢印を使わず、バーの区切りで表す。
+- 配色：コマ3は左（全額を請求できる）＝赤✕1つ、右（自分の持分割合の範囲だけ）＝青✓1つ。結論は〇（持分割合を超えて請求できない、という記述が正しい）。コマ2のＡの範囲は黄色マーカーの強調で、印は付けない。
+- 継続（CONTINUITY）：コマ1の「持分は各3分の1」のタグは、コマ2・3でも同じ文言で出す。
 
 ## 記事タイトル
 
@@ -30,18 +34,18 @@
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
 | タイトル帯 | — | 不法占有への損害賠償は、持分の範囲でしか請求できない | 「持分の範囲でしか請求できない」を黄色マーカー |
-| コマ1 見出し | ラベル | ①　よくある思い込み | — |
-| コマ1 図 | 図・カード | 甲土地 / 持分は各3分の1 / Ａ / Ｂ / Ｃ / Ｅ / 不法に占有 / 損害賠償の請求 / 全額？ / Ａ・Ｂ・Ｃ（甲土地の共有者）　Ｅ（不法占有者） | — |
-| コマ1 | 藍子（左・先に話す） | Ａは、Ｅに損害の全額を請求できますよね？ | 「全額を請求できますよね？」 |
-| コマ1 | トリ先生（右・答える） | 出たわね。他の2人の分まで取り立てる気かしら | — |
-| コマ2 見出し | ラベル | ②　損害は持分に応じて分かれる | — |
-| コマ2 図 | 図・カード | 損害 / Ａの分 / Ｂの分 / Ｃの分 / 持分は各3分の1 / 損害賠償請求権は持分に応じて分割して帰属 | — |
-| コマ2 | 藍子（左・先に話す） | 損害賠償は、共有者みんなのものじゃないんですか？ | — |
-| コマ2 | トリ先生（右・答える） | 持分に応じて、各共有者に分かれて帰属するのよ | 「持分に応じて」 |
-| コマ3 見出し | ラベル | ③　請求できる範囲 | — |
-| コマ3 図 | 図・カード | 自分の持分割合の範囲 / Ａが請求できるのは、損害の3分の1 / 他の共有者の分まで / 一人でまとめて取り立てることはできない | — |
-| コマ3 | 藍子（左・先に話す） | Ａが請求できるのは、どこまでなんですか？ | — |
-| コマ3 | トリ先生（右・答える） | 自分の取り分、つまり3分の1までよ | 「自分の取り分」 |
+| コマ1 見出し | ラベル | ①　問いの事案 | — |
+| コマ1 図 | 図・カード | 甲土地 / 持分は各3分の1 / Ａ / Ｂ / Ｃ / 使用を妨げられた / Ｅ / 不法に占有 / 損害賠償の請求 / どこまで？ / Ａ・Ｂ・Ｃ（甲土地の共有者）　Ｅ（不法占有者） | — |
+| コマ1 | 藍子（左・1番目） | Ｅに土地を占領されました。Ａは何を請求できますか？ | — |
+| コマ1 | トリ先生（右・2番目） | 損害賠償よ。問題は、どこまで請求できるかなの | 「どこまで請求できるか」 |
+| コマ1 | 藍子（左・3番目） | 3人とも使えないんだから、全額では？ | — |
+| コマ1 | トリ先生（右・4番目） | そこを確かめるのが、この問いのねらいよ | 「この問いのねらい」 |
+| コマ2 見出し | ラベル | ②　出題者のねらい | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 損害賠償請求権は、共有者にどう帰属するか / 損害 / Ａの分 / Ｂの分 / Ｃの分 / 持分は各3分の1 / Ａが請求できる範囲 / たとえば（数字は例）：損害が90万円なら、Ａが請求できるのは30万円まで / 損害賠償請求権は、持分に応じて分割して帰属 | — |
+| コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
+| コマ3 図 | 図・カード | よくある勘違い / 3人とも使えなくなったのだから、Ａが全額を請求できる / ひっかけ：Ａ、Ｂ及びＣの使用が妨げられた、という文言 / 正しい整理 / 請求できるのは、自分の持分割合（3分の1）の範囲だけ。他の2人の分は、まとめて取り立てられない | — |
+| コマ3 | 藍子（左・先に話す） | 他の2人の分も、まとめて請求できませんか？ | — |
+| コマ3 | トリ先生（右・答える） | それが勘違い。請求できるのは、自分の持分の範囲だけよ | 「自分の持分の範囲だけ」 |
 | コマ4 見出し | ラベル | ④　結論は〇 | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 持分割合を超えては、請求できないんですね！ | — |
@@ -63,7 +67,7 @@ CHARACTERS: The attached character-specification images are the single authorita
 
 ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
-FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
 
@@ -76,36 +80,46 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「不法占有への損害賠償は、持分の範囲でしか請求できない」 in large bold letters; the part 「持分の範囲でしか請求できない」 has a yellow highlighter marker.
 
-PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
-- Label tab: 「①　よくある思い込み」
-- Small diagram in the middle: a flat plot-of-land block labeled 「甲土地」 with a small tag 「持分は各3分の1」. Three faceless owner pictograms with tags 「Ａ」, 「Ｂ」, and 「Ｃ」 stand in a row (left to right) beside the plot. A fourth pictogram with tag 「Ｅ」 stands on the plot with a small label 「不法に占有」. A navy arrow from Ａ toward Ｅ (a demand) is labeled 「損害賠償の請求」 and a small question badge 「全額？」 sits next to it (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ・Ｂ・Ｃ（甲土地の共有者）　Ｅ（不法占有者）」.
-- 藍子 bubble (left, spoken first): 「Ａは、Ｅに
-損害の全額を
-請求できますよね？」 with the part 「全額を請求できますよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「出たわね。
-他の2人の分まで
-取り立てる気かしら」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 1 (curious, calm mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「①　問いの事案」
+- A large case diagram fills the panel: a flat plot-of-land block labeled 「甲土地」 with a small tag 「持分は各3分の1」.
+- Three faceless owner pictograms with tags 「Ａ」, 「Ｂ」, and 「Ｃ」 stand in a row (left to right) beside the plot, each with the small label 「使用を妨げられた」.
+- A fourth pictogram with tag 「Ｅ」 stands on the plot with the small label 「不法に占有」.
+- A navy arrow from Ａ toward Ｅ (a demand) is labeled 「損害賠償の請求」, and a small question badge 「どこまで？」 sits next to it (a question badge only, with no check mark and no cross).
+- Caption under the diagram: 「Ａ・Ｂ・Ｃ（甲土地の共有者）　Ｅ（不法占有者）」.
+- 藍子 bubble (left, rally 1 of 4): 「Ｅに土地を
+占領されました。
+Ａは何を
+請求できますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「損害賠償よ。
+問題は、どこまで
+請求できるかなの」 with the part 「どこまで請求できるか」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「3人とも使えない
+んだから、全額では？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「そこを確かめるのが、
+この問いのねらいよ」 with the part 「この問いのねらい」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
-- Label tab: 「②　損害は持分に応じて分かれる」
-- A wide bar card labeled 「損害」 divided into three equal segments labeled 「Ａの分」, 「Ｂの分」, and 「Ｃの分」, under the same tag 「持分は各3分の1」 as in panel 1.
-- Under the bar, a dark navy tag reads 「損害賠償請求権は持分に応じて分割して帰属」.
-- 藍子 bubble (left, spoken first): 「損害賠償は、
-共有者みんなの
-ものじゃないんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「持分に応じて、
-各共有者に分かれて
-帰属するのよ」 with the part 「持分に応じて」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　出題者のねらい」
+- A full-width infographic fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「損害賠償請求権は、共有者にどう帰属するか」.
+- In the middle, one wide bar labeled 「損害」 divided into three equal segments labeled 「Ａの分」, 「Ｂの分」, and 「Ｃの分」, under the same tag 「持分は各3分の1」 as in panel 1. The segment 「Ａの分」 has a yellow highlighter marker, with a bracket under it labeled 「Ａが請求できる範囲」.
+- Under the bar, an example card: 「たとえば（数字は例）：損害が90万円なら、Ａが請求できるのは30万円まで」.
+- At the bottom, a dark navy tag reads 「損害賠償請求権は、持分に応じて分割して帰属」.
+- There is no mark on any element of this panel.
 
-PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
-- Label tab: 「③　請求できる範囲」
+PANEL 3 (surprised then convinced mood; both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
+- Label tab: 「③　ひっかけと勘違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
-- Left card, heading 「自分の持分割合の範囲」, body 「Ａが請求できるのは、損害の3分の1」, with ONE blue check mark only (no cross on this card).
-- Right card, heading 「他の共有者の分まで」, body 「一人でまとめて取り立てることはできない」, with ONE red cross only (no check mark on this card).
-- 藍子 bubble (left, spoken first): 「Ａが請求できるのは、
-どこまでなんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「自分の取り分、
-つまり3分の1までよ」 with the part 「自分の取り分」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- Two large cards side by side fill the panel.
+- Left card, heading 「よくある勘違い」, body 「3人とも使えなくなったのだから、Ａが全額を請求できる」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：Ａ、Ｂ及びＣの使用が妨げられた、という文言」.
+- Right card, heading 「正しい整理」, body 「請求できるのは、自分の持分割合（3分の1）の範囲だけ。他の2人の分は、まとめて取り立てられない」, with ONE blue check mark only (no cross on this card).
+- The two cards have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, spoken first): 「他の2人の分も、
+まとめて
+請求できませんか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「それが勘違い。
+請求できるのは、
+自分の持分の範囲だけよ」 with the part 「自分の持分の範囲だけ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
@@ -122,7 +136,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 権, 解, 請 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 権, 解, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -187,9 +201,10 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0624_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：Ｅはコマ1で人型タグ付きで紹介されている。コマ2の3等分の図の「Ａの分」「Ｂの分」「Ｃの分」が、持分3分の1ずつと対応している
-- [ ] 工程C：構成表の全文言を記事（H23-Q03エ）と突き合わせ：「持分割合の範囲でのみ」「持分に応じて分割して帰属」「3分の1」
-- [ ] 工程C：コマ3の左右のカードのマークが逆で、文言が別々。結論は〇（持分割合を超えて請求できないという記述が正しい）
+- [ ] 工程C：初見の読者：Ｅ・Ｂ・Ｃがコマ1で人型タグ付きで紹介され、コマ2のバー（Ａの分・Ｂの分・Ｃの分）と対応している
+- [ ] 工程C：5点が、コマ1の事案図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
+- [ ] 工程C：構成表の全文言を記事（H23-Q03エ）と突き合わせ：「持分割合の範囲でのみ」「持分に応じて分割して帰属」「3分の1」「他の2人の分まで一人でまとめて取り立てることはできない」。数字の例には「数字は例」と書いてある
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（faces→none→small→両方）。コマ2にキャラも吹き出しもない
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -200,6 +215,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
 
+## v02：新しい構成表の組み方（パターン集）に合わせて全面再構成（ユーザー指示、2026-10-07）。v01は、ひっかけ（問題文の「Ａ、Ｂ及びＣの使用が妨げられた場合であっても」）と勘違い、数字の例が図に出ていない定型構成だった。コマ2をキャラなし（none）の数量の分割図に、コマ1を顔アイコンの4往復に、コマ3を小さなキャラ2人にした。
+
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-07 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用）
+- 2026-10-07 v02：構成表を組み直し（5点の明示、コマごとの chars の使い分け：faces・none・small、数量の分割図と数字の例）

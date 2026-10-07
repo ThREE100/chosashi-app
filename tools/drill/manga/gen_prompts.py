@@ -59,6 +59,7 @@ CHARS_TXT = {
     "aiko": "ONLY 藍子 appears in this panel (no トリ先生), standing at the left and smaller than usual, so that the diagram can be drawn large",
     "tori": "ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large",
     "faces": "both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel",
+    "none": "NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large",
     "small": "both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel",
 }
 
@@ -84,7 +85,7 @@ def build(sp):
         cm = p.get("chars")
         if cm:
             assert cm in CHARS_TXT and p.get("mood"), "chars を指定するコマには mood も書く"
-            who_hands = "" if cm in ("tori", "faces") else f"; {p.get('hands', HANDS[i])}"
+            who_hands = "" if cm in ("tori", "faces", "none") else f"; {p.get('hands', HANDS[i])}"
             body += f"PANEL {n} ({p['mood']}; {CHARS_TXT[cm]}{who_hands}):\n"
         else:
             body += f"PANEL {n} ({p.get('mood', MOODS[i])}; {p.get('hands', HANDS[i])}):\n"

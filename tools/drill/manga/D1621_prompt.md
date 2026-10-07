@@ -1,4 +1,4 @@
-# D1621 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D1621 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D1621（民法／共有・所有権・占有、出典 R03-Q02イ）。正解＝×（誤った記述）。誤解2回・？1回。
 - 記事：`note-articles/r3-mondai/q02-senyuken.md` イ「占有の訴えに、所有権を防御方法としてぶつけることはできない」
@@ -6,10 +6,15 @@
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の5枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 登場人物：Ａ（占有者。占有の訴えを起こした人）・Ｂ（訴えられた人）をコマ1で紹介。土地は「甲土地」の文字ラベルのブロック。
-- 矢印の意味：コマ1の矢印は「占有の訴え」（訴訟＝請求）。コマ2・3は矢印を使わない。
-- 会話順：藍子の誤解（Ｂは所有者だと反論できる）→占有の訴えと本権の訴えは別→占有の訴えに本権で裁判できない→結論（記述は×）。
-- 配色：コマ3は左（別に本権の訴えを起こす）＝青✓、右（占有の訴えの防御方法として所有権を主張する）＝赤✕。左が青・右が赤（生成器の定型どおり）。
+- タイプ：C 概念の区別型（占有の訴えと本権の訴え）。コマの使い方：コマ1＝small（関係図を大きく）、コマ2＝none（キャラなし。2つの訴えの対比と判定フローを大きく）、コマ3＝faces（顔アイコンの4往復＋勘違い⇔正しい整理のカード）、コマ4＝両方。
+- ①問いの事案：甲土地の占有者Ａが、Ｂに対して占有の訴えを提起した。訴えられたＢは、防御方法として、甲土地の所有権が自分にあると主張したい。
+- ②出題者のねらい：占有の訴えと本権の訴えを別々のものとして分けて考えられるか。
+- ③ひっかけ：問題文の「防御方法として」所有権を主張できる、という言い方。防御方法に所有権を出せそうに見える。
+- ④勘違い・理解を誤るポイント：本当の所有者なら、占有の訴えにも勝てる。占有の訴えの中で、所有権（本権）に基づく裁判はできない（民法202条2項）。
+- ⑤正しい整理：占有の訴えと本権の訴えは別々。占有の訴えの中では所有権の主張は決め手にならず、所有権を争うなら別に本権の訴えを起こす。記事の具体例：登記名義は自分だと反論しても決め手にならない。
+- 登場人物：Ａ（占有者）・Ｂ（訴えられた人）をコマ1で人型タグ付きで紹介。土地は「甲土地」の文字ラベルのブロック。
+- 矢印の意味：コマ1の矢印は「占有の訴え」（Ａ→Ｂ、訴訟）だけ。コマ2のフローチャートの矢印は判定の流れで、枝のラベルは「はい」＝青・「いいえ」＝赤。コマ3・4は矢印を使わない。
+- 配色：コマ2の結果の箱は白地・濃紺の枠で印は付けない（色は矢印とラベルだけ）。コマ3は左（本当の所有者なら勝てる）＝赤✕1つ、右（占有の訴えと本権の訴えは別）＝青✓1つ。
 - 記事の範囲：占有の訴えと本権の訴え（所有権・地上権・質権など、占有を法律上正当化する権原に関する訴え）は別々のものとして扱われる／占有の訴えに対して本権に基づく裁判はできない（民法202条2項）／所有権を争いたいなら、別に本権の訴えを起こす必要がある。
 
 ## 記事タイトル
@@ -29,18 +34,18 @@
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
 | タイトル帯 | — | 占有の訴えに、所有権で反論はできない | 「所有権で反論はできない」を黄色マーカー |
-| コマ1 見出し | ラベル | ①　よくある思い込み | — |
-| コマ1 図 | 図・カード | 甲土地 / Ａ / 占有者 / Ｂ / 占有の訴え / 所有権を主張？ / Ａ（占有者）　Ｂ（訴えられた人） | — |
-| コマ1 | 藍子（左・先に話す） | Ｂは、土地が自分のものだと反論できますよね？ | 「反論できますよね？」 |
-| コマ1 | トリ先生（右・答える） | 出たわね。本当の持ち主なら勝てると思ったでしょ | — |
-| コマ2 見出し | ラベル | ②　占有の訴えと本権の訴え | — |
-| コマ2 図 | 図・カード | 占有の訴え / 本権の訴え / 所有権・地上権・質権など、占有を正当化する権原の訴え / 別々のものとして扱う | — |
-| コマ2 | 藍子（左・先に話す） | 占有の訴えって、所有権の訴えとは違うんですか？ | — |
-| コマ2 | トリ先生（右・答える） | ええ。別々のものとして扱われるのよ | 「別々のもの」 |
-| コマ3 見出し | ラベル | ③　防御方法にならない | — |
-| コマ3 図 | 図・カード | 所有権を争うなら / 別に、本権の訴えを起こす / 占有の訴えの防御方法 / 民法202条2項 / 所有権があると主張しても決め手にならない | — |
-| コマ3 | 藍子（左・先に話す） | 占有の訴えの中で、所有権は主張できないんですか？ | — |
-| コマ3 | トリ先生（右・答える） | 本権に基づく裁判はできないの。争うなら別に訴えるのよ | 「別に訴える」 |
+| コマ1 見出し | ラベル | ①　問いの事案 | — |
+| コマ1 図 | 図・カード | 甲土地 / Ａ / 占有者 / Ｂ / 訴えられた人 / 占有の訴え / この土地は自分の所有物だ / 防御方法 / 通る？ | — |
+| コマ1 | 藍子（左・先に話す） | Ｂが、自分の土地だと反論したら？ | — |
+| コマ1 | トリ先生（右・答える） | 出たわね。本当の持ち主なら勝てる、と思ったでしょ | — |
+| コマ2 見出し | ラベル | ②　出題者のねらい | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 占有の訴えと本権の訴えを、分けて考えられるか / 占有の訴え / Ａが起こした訴え / 本権の訴え / 所有権・地上権・質権など、占有を正当化する権原の訴え / Ｂの所有権の主張は、占有の訴えの中で出された？ / はい / 本権に基づく裁判はできない（民法202条2項） / いいえ / 別の本権の訴えで、所有権を争う | — |
+| コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
+| コマ3 図 | 図・カード | よくある勘違い / 本当の所有者なら、占有の訴えにも勝てる / ひっかけ：防御方法に所有権を出せそうに見える / 正しい整理 / 占有の訴えと本権の訴えは別。所有権を争うなら、別に本権の訴えを起こす / たとえば：登記名義は自分だ、と反論しても、占有の訴えの中では決め手にならない | — |
+| コマ3 | 藍子（左・1番目） | でも、Ｂが本当の所有者なら、勝てますよね？ | — |
+| コマ3 | トリ先生（右・2番目） | それがひっかけ。占有の訴えでは、所有権は決め手にならないの | 「所有権は決め手にならない」 |
+| コマ3 | 藍子（左・3番目） | 登記名義が自分でも、だめなんですか？ | — |
+| コマ3 | トリ先生（右・4番目） | だめ。争うなら、別に本権の訴えを起こすのよ | 「別に本権の訴え」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 所有権を防御方法にできるという記述は、誤りなんですね！ | — |
@@ -62,7 +67,7 @@ CHARACTERS: The attached character-specification images are the single authorita
 
 ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
-FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
 
@@ -75,39 +80,47 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「占有の訴えに、所有権で反論はできない」 in large bold letters; the part 「所有権で反論はできない」 has a yellow highlighter marker.
 
-PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
-- Label tab: 「①　よくある思い込み」
-- Small diagram in the middle: a flat plot-of-land block labeled 「甲土地」 with a faceless pictogram tag 「Ａ」 standing on it (small label 「占有者」), and a faceless pictogram tag 「Ｂ」 standing beside it. A navy arrow from Ａ to Ｂ (a lawsuit) is labeled 「占有の訴え」, and a small question badge above Ｂ reads 「所有権を主張？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ（占有者）　Ｂ（訴えられた人）」.
-- 藍子 bubble (left, spoken first): 「Ｂは、土地が
-自分のものだと
-反論できますよね？」 with the part 「反論できますよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　問いの事案」
+- A large relation diagram fills the panel: a flat plot-of-land block labeled 「甲土地」 with a faceless pictogram tag 「Ａ」 standing on it (small label 「占有者」), and a faceless pictogram tag 「Ｂ」 standing beside it (small label 「訴えられた人」).
+- A navy arrow from Ａ to Ｂ (a lawsuit) is labeled 「占有の訴え」.
+- Next to Ｂ, a speech card reads 「この土地は自分の所有物だ」 with a small dark navy tag 「防御方法」, and a small question badge 「通る？」 sits above the card (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「Ｂが、自分の
+土地だと
+反論したら？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。
 本当の持ち主なら
-勝てると思ったでしょ」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+勝てる、と思ったでしょ」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
-- Label tab: 「②　占有の訴えと本権の訴え」
-- Two explanation cards side by side, with no mark on either card.
-- Left card, heading 「占有の訴え」.
-- Right card, heading 「本権の訴え」, body 「所有権・地上権・質権など、占有を正当化する権原の訴え」.
-- A small dark navy tag between the cards reads 「別々のものとして扱う」.
-- 藍子 bubble (left, spoken first): 「占有の訴えって、
-所有権の訴えとは
-違うんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「ええ。別々のものとして
-扱われるのよ」 with the part 「別々のもの」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　出題者のねらい」
+- A full-width infographic fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「占有の訴えと本権の訴えを、分けて考えられるか」.
+- Upper part: two explanation cards side by side, with no mark on either card. Left card, heading 「占有の訴え」, body 「Ａが起こした訴え」. Right card, heading 「本権の訴え」, body 「所有権・地上権・質権など、占有を正当化する権原の訴え」.
+- Lower part: a flowchart. A yellow-highlighted diamond: 「Ｂの所有権の主張は、占有の訴えの中で出された？」.
+- From the diamond, a BLUE arrow labeled 「はい」 goes to a box: 「本権に基づく裁判はできない（民法202条2項）」; and a RED arrow labeled 「いいえ」 goes to a box: 「別の本権の訴えで、所有権を争う」. These two boxes have a white fill and a dark navy outline only; the color lives only in the arrows and labels (the 「はい」 arrow and label are blue, the 「いいえ」 arrow and label are red), with no check mark and no cross.
+- The two result boxes have clearly different texts; the texts are NOT identical.
 
-PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
-- Label tab: 「③　防御方法にならない」
+PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, about one eighth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　ひっかけと勘違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
-- Left card, heading 「所有権を争うなら」, body 「別に、本権の訴えを起こす」, with ONE blue check mark only (no cross on this card).
-- Right card, heading 「占有の訴えの防御方法」, small tag 「民法202条2項」, body 「所有権があると主張しても決め手にならない」, with ONE red cross only (no check mark on this card).
-- 藍子 bubble (left, spoken first): 「占有の訴えの中で、
-所有権は主張
-できないんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「本権に基づく裁判は
-できないの。
-争うなら別に訴えるのよ」 with the part 「別に訴える」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- Two large cards side by side, with a wide example strip under them.
+- Left card, heading 「よくある勘違い」, body 「本当の所有者なら、占有の訴えにも勝てる」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：防御方法に所有権を出せそうに見える」.
+- Right card, heading 「正しい整理」, body 「占有の訴えと本権の訴えは別。所有権を争うなら、別に本権の訴えを起こす」, with ONE blue check mark only (no cross on this card).
+- Example strip under the two cards: 「たとえば：登記名義は自分だ、と反論しても、占有の訴えの中では決め手にならない」.
+- The two cards have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, rally 1 of 4): 「でも、Ｂが本当の
+所有者なら、
+勝てますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「それがひっかけ。
+占有の訴えでは、
+所有権は決め手に
+ならないの」 with the part 「所有権は決め手にならない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「登記名義が自分でも、
+だめなんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「だめ。
+争うなら、別に
+本権の訴えを
+起こすのよ」 with the part 「別に本権の訴え」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
@@ -125,7 +138,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 対, 張, 当, 所, 権, 解, 記, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 対, 張, 当, 所, 権, 物, 登, 解, 記, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that in panel 2 the two result boxes have a white fill and a dark navy outline, and that the color lives only in the arrows and labels (the 「はい」 arrow and label are blue, the 「いいえ」 arrow and label are red); confirm that panel 2 shows no character and no speech bubble; confirm that every 「Ａ」「Ｂ」 is the full-width letter. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -190,9 +203,10 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D1621_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：矢印はコマ1の「占有の訴え」だけで、Ａ→Ｂの向き（Ａが訴える）が正しい。コマ2のカードに矢印がない
-- [ ] 工程C：構成表の全文言を記事（R03-Q02イ）と突き合わせ：「占有の訴え」「本権の訴え」「所有権・地上権・質権など」「民法202条2項」「別に本権の訴え」
-- [ ] 工程C：コマ3の左右のカードのマークが逆で、文言が別々。結論は×（所有権を防御方法として主張できるという記述が誤り）
+- [ ] 工程C：初見の読者：コマ1のＡ→Ｂ（Ａが訴える）の向きが正しい。コマ2の2枚のカードに印がなく、フローチャートの結果の箱が白地・濃紺の枠
+- [ ] 工程C：5点が、コマ1の事案図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
+- [ ] 工程C：構成表の全文言を記事（R03-Q02イ）と突き合わせ：「占有の訴え」「本権の訴え」「所有権・地上権・質権など」「民法202条2項」「別に本権の訴え」「登記名義は自分だ」
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（所有権を防御方法として主張できるという記述が誤り）
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -203,6 +217,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
 
+## v02：新しい構成表の組み方（パターン集）に合わせて全面再構成（ユーザー指示、2026-10-07）。v01は、事案・出題者のねらい・ひっかけ・勘違いが図として読み取れない定型構成だった（D0413 v01と同じ不具合）。コマ2をキャラなし（none）の「2つの訴えの対比＋判定フロー」に、コマ3を顔アイコンの4往復にし、コマ1は小さなキャラで関係図を大きくした。
+
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-07 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用）
+- 2026-10-07 v02：構成表を組み直し（5点の明示、コマごとの chars の使い分け：small・none・faces、記事の具体例）

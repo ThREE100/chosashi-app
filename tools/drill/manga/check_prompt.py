@@ -120,7 +120,7 @@ def main():
         for key in ("ANATOMY (critical", "HAND COUNT RULE", "exactly two arms", "five fingers"):
             if key not in main_body: NG(f"藍子の人体構造の指示がない: {key}")
         for pm in re.finditer(r"(PANEL \d[^\n]*)", main_body):
-            if "ONLY トリ先生" in pm.group(1) or "face icons" in pm.group(1): continue
+            if "ONLY トリ先生" in pm.group(1) or "face icons" in pm.group(1) or "NO character" in pm.group(1): continue
             if "hands" not in pm.group(1): NG(f"{pm.group(1)[:8]}: 藍子の手の割り当て（hands:）がPANEL行にない")
         if "exactly two arms" not in final: WARN("Final checkに藍子の腕・手の確認がない")
 
