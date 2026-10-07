@@ -104,9 +104,9 @@ EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -
 Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 建, 張, 権, 渡, 物, 解, 記, 証, 請, 過 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
-## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景3案）
+## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
 
-noteの見出し画像（アイキャッチ）用です。トリ先生と藍子を描きます（キャラ仕様書の参照画像を添付し、どちらがどちらかを一言添える）。サイズは1280×670px。構成は苦手分析シリーズと同じ（上中央にタイトル2行とサブタイトル、下中央にトリ先生と藍子、左右の端にテーマの場面）。**背景だけ3案**：案A＝苦手分析シリーズ踏襲、案B＝4コマ原稿用紙風、案C＝間違いノート風。1つ選んでChatGPTに貼る。
+noteの見出し画像（アイキャッチ）用です。トリ先生と藍子を描きます（キャラ仕様書の参照画像を添付し、どちらがどちらかを一言添える）。サイズは1280×670px。構成は苦手分析シリーズと同じ（上中央にタイトル2行とサブタイトル、下中央にトリ先生と藍子、左右の端にテーマの場面）。背景は苦手分析シリーズ踏襲の水彩の空（2026-10-07、ユーザー採用）。
 
 ### 見出し画像の文言（正本）
 
@@ -116,7 +116,7 @@ noteの見出し画像（アイキャッチ）用です。トリ先生と藍子�
 | タイトル2行目 | すぐ追い出せる？ | 「すぐ追い出せる？」を赤みのあるオレンジ |
 | サブタイトル | 4コマ解説図解　D0002　H17-Q01イ | — |
 
-### 案A：苦手分析シリーズ踏襲（水彩の空）
+### 見出し画像プロンプト本体
 
 ```text
 Create a note.com article header image (eyecatch thumbnail), 1280x670px
@@ -132,70 +132,6 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
 TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
-共有者が勝手に住んでいたら
-Line 2 is larger; the phrase すぐ追い出せる？ is red-orange and the rest is dark navy:
-すぐ追い出せる？
-Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-4コマ解説図解　D0002　H17-Q01イ
-Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
-
-TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the characters):
-Left side: a small house with a softly glowing window and a single person's silhouette inside
-Right side: three keys on one key ring beside a magnifying glass and a stack of closed legal books
-
-LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the characters and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
-
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 共, 有, 者, 勝, 手, 住, 追, 出, 解, 説, 図; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
-```
-
-### 案B：4コマ原稿用紙風
-
-```text
-Create a note.com article header image (eyecatch thumbnail), 1280x670px
-(1.91:1 landscape aspect ratio).
-
-STYLE: warm, clean Japanese comic-draft illustration on cream manuscript paper, with thin dark-gray outlines and light-gray screen-tone dots in the corners. Keep exactly the same overall layout: the title block at the top center, the two characters at the bottom center, and topic scenes fading softly into the left and right edges.
-Fill the whole canvas with cream manuscript paper. Faint, thin gray panel-frame lines form an empty four-panel grid behind everything (empty frames, nothing inside them except the faded scenes at the left and right edges).
-
-CHARACTERS (critical): follow the attached character-specification images exactly and do not redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue shirt, red neckerchief) standing at the lower left of center with one wing raised as if explaining. 藍子 is the young woman exam candidate (long wavy brown hair, blouse with thin blue vertical stripes, navy suit) at the lower right of center, resting her chin on one hand with a pen, looking up at トリ先生 with a curious smile, an open textbook on the desk in front of her. Keep both characters facing each other and fully visible, with their faces clear of the title text, and keep 藍子's hairstyle exactly as in the attached images.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and the Arabic numeral 4; the only Latin letters and digits allowed are those in the subtitle exactly as written below. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
-
-TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white paper label with a thin gray border so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
-共有者が勝手に住んでいたら
-Line 2 is larger; the phrase すぐ追い出せる？ is red-orange and the rest is dark navy:
-すぐ追い出せる？
-Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-4コマ解説図解　D0002　H17-Q01イ
-Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
-
-TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the characters):
-Left side: a small house with a softly glowing window and a single person's silhouette inside
-Right side: three keys on one key ring beside a magnifying glass and a stack of closed legal books
-
-LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the characters and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
-
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 共, 有, 者, 勝, 手, 住, 追, 出, 解, 説, 図; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
-```
-
-### 案C：間違いノート風
-
-```text
-Create a note.com article header image (eyecatch thumbnail), 1280x670px
-(1.91:1 landscape aspect ratio).
-
-STYLE: warm, clean flat illustration on a pale cream notebook page, with thin outlines and soft pastel colors. Keep exactly the same overall layout: the title block at the top center, the two characters at the bottom center, and topic scenes fading softly into the left and right edges.
-Fill the whole canvas with a pale cream notebook page with faint light-blue ruled lines and a soft margin line. In the lower corners place a pencil and an eraser, and a few small blank sticky notes (no writing on them). A few loose hand-drawn pen circles (plain circles with nothing inside) are scattered softly in the background.
-
-CHARACTERS (critical): follow the attached character-specification images exactly and do not redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue shirt, red neckerchief) standing at the lower left of center with one wing raised as if explaining. 藍子 is the young woman exam candidate (long wavy brown hair, blouse with thin blue vertical stripes, navy suit) at the lower right of center, resting her chin on one hand with a pen, looking up at トリ先生 with a curious smile, an open textbook on the desk in front of her. Keep both characters facing each other and fully visible, with their faces clear of the title text, and keep 藍子's hairstyle exactly as in the attached images.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and the Arabic numeral 4; the only Latin letters and digits allowed are those in the subtitle exactly as written below. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
-
-TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white tape-style label with a thin navy border so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
 共有者が勝手に住んでいたら
 Line 2 is larger; the phrase すぐ追い出せる？ is red-orange and the rest is dark navy:
 すぐ追い出せる？

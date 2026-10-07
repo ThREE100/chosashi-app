@@ -98,20 +98,12 @@ def build(sp):
     return body, rows
 
 
-# ---------- 見出し画像（苦手分析シリーズと同じ構成。背景だけ3案） ----------
+# ---------- 見出し画像（苦手分析シリーズと同じ構成。背景は水彩の空に統一） ----------
 H_BG = {
  "A": ("苦手分析シリーズ踏襲（水彩の空）",
        "soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series",
        "a soft white cloud-shaped glow",
        "Fill the whole canvas with the pastel sky and soft clouds."),
- "B": ("4コマ原稿用紙風",
-       "warm, clean Japanese comic-draft illustration on cream manuscript paper, with thin dark-gray outlines and light-gray screen-tone dots in the corners",
-       "a soft white paper label with a thin gray border",
-       "Fill the whole canvas with cream manuscript paper. Faint, thin gray panel-frame lines form an empty four-panel grid behind everything (empty frames, nothing inside them except the faded scenes at the left and right edges)."),
- "C": ("間違いノート風",
-       "warm, clean flat illustration on a pale cream notebook page, with thin outlines and soft pastel colors",
-       "a soft white tape-style label with a thin navy border",
-       "Fill the whole canvas with a pale cream notebook page with faint light-blue ruled lines and a soft margin line. In the lower corners place a pencil and an eraser, and a few small blank sticky notes (no writing on them). A few loose hand-drawn pen circles (plain circles with nothing inside) are scattered softly in the background."),
 }
 
 def header_texts(sp):
@@ -125,7 +117,7 @@ def header_kanji(*lines):
             if k not in seen: seen.append(k)
     return seen
 
-def header_prompt(sp, opt):
+def header_prompt(sp, opt="A"):
     h = sp["header"]; h1, h2, sub = header_texts(sp)
     name, style, glow, bg = H_BG[opt]
     kan = ", ".join(header_kanji(h1, h2, sub))
@@ -159,13 +151,12 @@ Final check before rendering: confirm the image is exactly 1280x670 landscape; c
 
 def header_section(sp):
     h1, h2, sub = header_texts(sp)
-    out = "## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景3案）\n\n"
+    out = "## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）\n\n"
     out += ("noteの見出し画像（アイキャッチ）用です。トリ先生と藍子を描きます（キャラ仕様書の参照画像を添付し、どちらがどちらかを一言添える）。サイズは1280×670px。"
-            "構成は苦手分析シリーズと同じ（上中央にタイトル2行とサブタイトル、下中央にトリ先生と藍子、左右の端にテーマの場面）。**背景だけ3案**：案A＝苦手分析シリーズ踏襲、案B＝4コマ原稿用紙風、案C＝間違いノート風。1つ選んでChatGPTに貼る。\n\n")
+            "構成は苦手分析シリーズと同じ（上中央にタイトル2行とサブタイトル、下中央にトリ先生と藍子、左右の端にテーマの場面）。背景は苦手分析シリーズ踏襲の水彩の空（2026-10-07、ユーザー採用）。\n\n")
     out += "### 見出し画像の文言（正本）\n\n| 領域 | 正確な文言 | 強調 |\n|---|---|---|\n"
     out += f"| タイトル1行目 | {h1} | 薄い黄色のマーカー |\n| タイトル2行目 | {h2} | 「{sp['header']['hkey']}」を赤みのあるオレンジ |\n| サブタイトル | {sub} | — |\n\n"
-    for opt in "ABC":
-        out += f"### 案{opt}：{H_BG[opt][0]}\n\n```text\n{header_prompt(sp, opt)}\n```\n\n"
+    out += f"### 見出し画像プロンプト本体\n\n```text\n{header_prompt(sp)}\n```\n\n"
     out += "### 見出し画像の検品\n- [ ] 画像内の文字は、タイトル2行とサブタイトルだけ。文言が上の表と一字一句一致、簡体字・余計な文字なし\n- [ ] トリ先生が左下、藍子が右下で向き合い、顔がタイトルに重ならない。藍子の髪型が参照画像どおり\n- [ ] 左右のテーマの場面に文字がなく、タイトル・キャラより目立たない\n- [ ] 背景が不透明（透過・チェッカーボードなし）、中央でトリミングしても主要要素が切れない\n\n"
     return out
 

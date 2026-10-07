@@ -65,7 +65,7 @@ def main():
         pos2 = {k: src.find(k) for k in ("## 記事タイトル", "## note記事の冒頭文", "## 構成表")}
         if not (pos2["## 記事タイトル"] < pos2["## note記事の冒頭文"] < pos2["## 構成表"]): NG("冒頭文の位置が、記事タイトルと構成表の間にない")
 
-    # 0c 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景3案）
+    # 0c 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
     hm = re.search(r"^## 見出し画像プロンプト[^\n]*\n(.*?)(?=^## |\Z)", src, re.M | re.S)
     if not hm: NG("「## 見出し画像プロンプト」がない")
     else:
@@ -80,23 +80,23 @@ def main():
             if tm and sb != f"4コマ解説図解　{tm.group(2)}　{tm.group(3)}": NG(f"見出し画像のサブタイトルが記事タイトルのID・出典と違う: {sb}")
             for t in (t1, t2):
                 if len(t) > 16: WARN(f"見出し画像のタイトル行が長い（{len(t)}字）: {t}")
-            blocks = dict(re.findall(r"### 案([ABC])[^\n]*\n\n```text\n(.*?)```", hs, re.S))
-            if sorted(blocks) != ["A", "B", "C"]: NG("見出し画像プロンプトは背景案A・B・Cの3つが必要")
+            bl_all = re.findall(r"```text\n(.*?)```", hs, re.S)
+            if len(bl_all) != 1: NG(f"見出し画像プロンプトのコードブロックは1つにする（背景は水彩の空に統一。今は{len(bl_all)}個）")
+            blocks = {"A": bl_all[0]} if bl_all else {}
             kset = set(re.findall(r"[一-鿿]", t1 + t2 + sb))
             for o, bl in blocks.items():
                 for must in ("1280x670", "CRITICAL TEXT REQUIREMENT", "BACKGROUND REQUIREMENT", "Final check before rendering", "fully opaque"):
-                    if must not in bl: NG(f"見出し案{o}に必須の記述がない: {must}")
+                    if must not in bl: NG(f"見出し画像プロンプトに必須の記述がない: {must}")
                 for t in (t1, t2, sb):
-                    if ("\n" + t + "\n") not in bl: NG(f"見出し案{o}に文言が独立した行として入っていない: {t}")
-                if re.search(r"green|緑", bl, re.I): NG(f"見出し案{o}に緑への言及がある")
-                if re.search(r"✓|✕|\bnot (blue|red|navy|yellow)\b", bl): NG(f"見出し案{o}に記号・否定形の色指定がある")
+                    if ("\n" + t + "\n") not in bl: NG(f"見出し画像プロンプトに文言が独立した行として入っていない: {t}")
+                if re.search(r"green|緑", bl, re.I): NG(f"見出し画像プロンプトに緑への言及がある")
+                if re.search(r"✓|✕|\bnot (blue|red|navy|yellow)\b", bl): NG(f"見出し画像プロンプトに記号・否定形の色指定がある")
                 km = re.search(r"special attention to the kanji ([^,.;]+(?:, [^,.;]+)*?)(?:,? which|;|\.|$)", bl)
                 lk = set(re.findall(r"[一-鿿]", km.group(1))) if km else set()
-                if lk != kset: NG(f"見出し案{o}のFinal checkの漢字リストが文言の漢字と一致しない（過不足: {sorted(lk ^ kset)}）")
+                if lk != kset: NG(f"見出し画像プロンプトのFinal checkの漢字リストが文言の漢字と一致しない（過不足: {sorted(lk ^ kset)}）")
                 hk = re.search(r"the phrase (.+?) is red-orange", bl)
-                if not hk or hk.group(1) not in t2: NG(f"見出し案{o}の強調語（red-orange）がタイトル2行目に含まれない")
+                if not hk or hk.group(1) not in t2: NG(f"見出し画像プロンプトの強調語（red-orange）がタイトル2行目に含まれない")
             texts = {o: re.search(r"TEXT \(reproduce verbatim.*?Do not write any other text", bl, re.S).group(0) for o, bl in blocks.items() if "TEXT (reproduce verbatim" in bl}
-            if len({re.sub(r"over .+? so it reads", "over X so it reads", v) for v in texts.values()}) > 1: NG("見出し案A・B・Cで文言ブロックが違う（背景以外は同じにする）")
 
     # 1 必須セクション
     for key in ["CRITICAL TEXT REQUIREMENT", "BACKGROUND REQUIREMENT", "Final check before rendering"]:
