@@ -1,4 +1,4 @@
-# D0520 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
+# D0520 4コマ解説図解 プロンプト（ChatGPT貼付用・v04）
 
 - 肢：D0520（民法／物権変動・対抗要件、出典 H22-Q02オ）。正解＝〇。誤解4回。
 - 記事：`note-articles/h22-mondai/q02-taikou-youken-177.md` オ「未成年者の取消しは、その前に現れた善意の買主にも対抗できる」
@@ -21,7 +21,7 @@
 
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
-| タイトル帯 | — | 未成年者の取消しは、善意のＢにも対抗できる | 「善意のＢにも対抗できる」を黄色マーカー |
+| タイトル帯 | — | 未成年者の取消しは、取消し前の善意のＢにも対抗できる | 「取消し前の善意のＢにも対抗できる」を黄色マーカー |
 | コマ1 見出し | ラベル | ①　よくある思い込み | — |
 | コマ1 | 藍子（左） | Ｂは未成年だと知らなかった。守られますよね？ | 「守られますよね？」 |
 | コマ1 | トリ先生（右） | 出たわね、その思い込み。Ａが取り消す前にＢが買った場合よ | — |
@@ -32,19 +32,23 @@
 | コマ2 | 図の矢印ラベル | 取消しは当初にさかのぼる | 黄色マーカー |
 | コマ2 | 藍子（左・先に話す） | 取り消すと、どうなるんですか？ | — |
 | コマ2 | トリ先生（右・答える） | 取消しの効果は、当初にさかのぼるのよ | 「当初にさかのぼる」 |
-| コマ3 見出し | ラベル | ③　詐欺取消しとの違い | — |
-| コマ3 左カード | 見出し | 詐欺取消し | — |
-| コマ3 左カード | 本文／タグ | 善意無過失の第三者は守られる ／ 民法96条3項 | 青チェック✓ |
-| コマ3 右カード | 見出し | 制限行為能力の取消し | — |
-| コマ3 右カード | 本文 | 善意のＢでも守られない | 赤✕ |
-| コマ3 | 藍子（左・先に話す） | 詐欺取消しだと、第三者は守られるのに… | — |
-| コマ3 | トリ先生（右・答える） | 違いは、第三者を守る規定があるかどうかよ | 「守る規定」 |
+| コマ3 見出し | ラベル | ③　取消しの前と後の違い | — |
+| コマ3 左カード | 見出し | 取消しの前にＢが買った | — |
+| コマ3 左カード | 本文 | 善意のＢでも、Ａは主張できる | 青チェック✓ |
+| コマ3 右カード | 見出し | 取消しの後にＢが買った | — |
+| コマ3 右カード | 本文／タグ | 登記がなければＡは主張できない。先に登記した方が勝つ ／ 民法177条 | 赤✕ |
+| コマ3 | 藍子（左・先に話す） | 取消しの後に買った人なら、どうなりますか？ | — |
+| コマ3 | トリ先生（右・答える） | 前は守る規定がなくてＡの勝ち。後は登記の先後で決まるのよ | 「守る規定」 |
 | コマ4 見出し | ラベル | ④　結論は〇 | — |
-| コマ4 | 藍子（左） | Ａは善意のＢにも所有権を主張できるんですね！ | — |
+| コマ4 | 藍子（左） | 取消し前のＢには、Ａは所有権を主張できるんですね！ | — |
 | コマ4 | トリ先生（右） | そのとおり。取消し前に現れた善意の買主にも対抗できるのよ | 「対抗できる」 |
-| コマ4 チェック欄 | 3項目（青✓） | 取消しは当初にさかのぼる ／ 善意の第三者を守る規定がない ／ Ａは所有権をＢに主張できる | — |
-| 結論帯 | 1行目 | 制限行為能力の取消しは、善意の第三者にも対抗できる | 黄色マーカー |
+| コマ4 チェック欄 | 3項目（青✓） | 取消しは当初にさかのぼる ／ 取消し前の善意のＢにも、Ａは主張できる ／ 取消し後のＢとは、登記の先後で決まる | — |
+| 結論帯 | 1行目 | 制限行為能力の取消しは、取消し前の善意の第三者に対抗できる | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D0520　正解〇（H22-Q02オ） | — |
+
+## 記事に無い条文（ユーザー指示で追加）
+
+- 民法177条
 
 ## プロンプト本体
 
@@ -70,7 +74,7 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
 - Conclusion banner at the bottom (about 110 px tall).
 
-TITLE BANNER: text 「未成年者の取消しは、善意のＢにも対抗できる」 in large bold letters; the part 「善意のＢにも対抗できる」 has a yellow highlighter marker.
+TITLE BANNER: text 「未成年者の取消しは、取消し前の善意のＢにも対抗できる」 in large bold letters; the part 「取消し前の善意のＢにも対抗できる」 has a yellow highlighter marker.
 
 PANEL 1 (the common misconception; 藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
@@ -87,39 +91,42 @@ PANEL 2 (the flow; 藍子 surprised, トリ先生 explaining with a wing-pointer
 - Three SEPARATE numbered cards in a row, left to right. Do NOT connect the cards with arrows, and do NOT draw any arrow from Ｂ to Ｃ. Arrows exist only inside card 1 (Ａ to Ｄ) and card 2 (Ｄ to Ｂ).
   - Card 1: pictograms 「Ａ」 and 「Ｄ」 with one arrow from Ａ to Ｄ; text 「①ＡがＤに売却（Ｃの同意なし）」.
   - Card 2: pictograms 「Ｄ」 and 「Ｂ」 with one arrow from Ｄ to Ｂ; text 「②ＤがＢに売却（Ｂは善意）」.
-  - Card 3: NOT a sale. It shows the adult pictogram 「Ｃ」 holding a large dark navy round stamp that reads 「取消し」; text 「③Ｃが①の売買を取消し」.
+  - Card 3 (keep the round stamp fully inside this card's frame, smaller than the card, with clear space from トリ先生's pointer): NOT a sale. It shows the adult pictogram 「Ｃ」 holding a large dark navy round stamp that reads 「取消し」; text 「③Ｃが①の売買を取消し」.
 - One curved dark navy arrow starts at the stamp in card 3 and points back to the Ａ-to-Ｄ arrow in card 1 (cancelling that sale). Its label 「取消しは当初にさかのぼる」 has a yellow highlighter marker. Next to the pictogram 「Ａ」 in card 1 add the small label 「Ａの所有権が回復」.
 - 藍子 bubble (left, spoken first): 「取り消すと、
 どうなるんですか？」
 - トリ先生 bubble (right, spoken as the answer): 「取消しの効果は、
 当初にさかのぼるのよ」 with 「当初にさかのぼる」 highlighted in yellow.
 
-PANEL 3 (the contrast; both characters point together at the same comparison cards; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
-- Label tab: 「③　詐欺取消しとの違い」
+PANEL 3 (the contrast between before and after the cancellation; both characters point together at the same two comparison cards, トリ先生 pointing at the cards with one wing and 藍子 with one hand; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
+- Label tab: 「③　取消しの前と後の違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
-- Left card, heading 「詐欺取消し」, body 「善意無過失の第三者は守られる」, small tag 「民法96条3項」, with ONE blue check mark only (no cross on this card).
-- Right card, heading 「制限行為能力の取消し」, body 「善意のＢでも守られない」, with ONE red cross only (no check mark on this card).
-- 藍子 bubble (left, spoken first): 「詐欺取消しだと、
-第三者は守られるのに…」
-- トリ先生 bubble (right, spoken as the answer): 「違いは、第三者を守る
-規定があるかどうかよ」 with 「守る規定」 highlighted in yellow.
+- Above the two cards, a thin horizontal timeline band with a vertical dark navy marker labeled 「取消し」 in the middle; the left card hangs under the part before the marker and the right card under the part after the marker.
+- Left card, heading 「取消しの前にＢが買った」, body 「善意のＢでも、Ａは主張できる」, with ONE blue check mark only (no cross on this card).
+- Right card, heading 「取消しの後にＢが買った」, body 「登記がなければＡは主張できない。先に登記した方が勝つ」, small tag 「民法177条」, with ONE red cross only (no check mark on this card).
+- 藍子 bubble (left, spoken first): 「取消しの後に買った人なら、
+どうなりますか？」
+- トリ先生 bubble (right, spoken as the answer): 「前は守る規定が
+なくてＡの勝ち。
+後は登記の先後で決まるのよ」 with 「守る規定」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (the conclusion; 藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
-- 藍子 bubble (left): 「Ａは善意のＢにも
-所有権を主張できるんですね！」
+- 藍子 bubble (left): 「取消し前のＢには、
+Ａは所有権を
+主張できるんですね！」
 - トリ先生 bubble (right): 「そのとおり。
 取消し前に現れた善意の
 買主にも対抗できるのよ」 with 「対抗できる」 highlighted in yellow.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「取消しは当初にさかのぼる」, 「善意の第三者を守る規定がない」, 「Ａは所有権をＢに主張できる」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「取消しは当初にさかのぼる」, 「取消し前の善意のＢにも、Ａは主張できる」, 「取消し後のＢとは、登記の先後で決まる」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
-- Line 1: 「制限行為能力の取消しは、善意の第三者にも対抗できる」 with a yellow highlighter marker.
+- Line 1: 「制限行為能力の取消しは、取消し前の善意の第三者に対抗できる」 with a yellow highlighter marker.
 - Line 2: 「問題D0520　正解〇（H22-Q02オ）」
 
 EMOTIONAL ARC: confident (panel 1) -> surprised (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels; confirm the characters 権, 所, 売, 買, 当, 初, 詐, 欺, 規, 対, 抗, 無, 過, 効, 張, 解, 違, 代 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm the left comparison card in panel 3 has only a blue check mark and the right card only a red cross; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels; confirm the characters 権, 所, 売, 買, 当, 初, 規, 対, 抗, 効, 張, 解, 違, 代, 登, 記 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm the left comparison card in panel 3 has only a blue check mark and the right card only a red cross; confirm the timeline marker 「取消し」 separates the left card (before) from the right card (after) in panel 3; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -219,3 +226,11 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - 軽微（採用に影響しない）：(a) 「Ａ・Ｂ・Ｃ・Ｄ」が半角で描かれた（構成表は全角）。意味は同じなので許容とし、規則は全角・半角どちらも可に改めた。(b) コマ2の「取消し」スタンプがカードの右端からはみ出し、トリ先生の指し棒に近い。(c) コマ2の藍子の前髪が他のコマと少し違う。(d) コマ3でトリ先生がカードを指さしていない（藍子だけが指さす）。
 - 次回以降のプロンプトに反映：スタンプ・矢印・ラベルは各カードの枠の内側に収める。
 - 限定修正（v03）の依頼文：`D0520_v03_fix_request.md`（(b)(c)(d)の3点だけを直す。(a)は許容）。
+
+## v04（2026-10-07）：取消しの前と後の比較を追加（ユーザー指示）
+- 変更：コマ3を「詐欺取消しとの違い」から「取消しの前と後の違い」に変えた。左＝取消しの前にＢが買った（記事の範囲。善意でもＡは主張できる）、右＝取消しの後にＢが買った（登記の先後で決まる。民法177条）。タイムラインの帯の中央に「取消し」の目印を置き、前後を分ける。藍子が「取消しの後に買った人なら？」と聞き、トリ先生が「前は守る規定がなくてＡの勝ち。後は登記の先後で決まる」と答える。
+- 取消し後の扱い（登記の先後。民法177条）は、このコマの元記事（H22-Q02オ）には書かれていない。苦手分析シリーズ⑰（`note-articles/column/nigate-17-*.md` の型B、「取消し・解除・時効の完成の後に現れた第三者：登記がなければ対抗できない」）の整理と一致するため、ユーザー指示で追加した。条文は「記事に無い条文」の節に記録した。
+- 正確さのため、タイトル帯と結論帯に「取消し前の」を足した（取消し後は登記の先後なので、「善意の第三者にも対抗できる」だけでは取消し後まで含めて読めてしまう）。コマ4の藍子の台詞・チェック欄も、取消し前と後を分ける文言にした。
+- 詐欺取消しとの違い（民法96条3項、第三者を守る規定の有無）のカードは、4コマに収まらないためコマ3から外した。「守る規定」はトリ先生の台詞に残している。
+- v02の検品で見つかった軽微な点のうち、スタンプが枠からはみ出す問題（コマ2）と、トリ先生が翼で指さす構図（コマ3）を、プロンプトに織り込んだ（`D0520_v03_fix_request.md` の限定修正は、全面的に作り直すため不要。藍子の前髪のぶれは、共通ルールの髪型固定で対応）。
+- 画像はv02の採用版のまま。v04のプロンプトで作り直した画像を、検品して差し替える（旧版は `_v02` を付けて残す）。
