@@ -160,6 +160,17 @@ def header_section(sp):
     out += "### 見出し画像の検品\n- [ ] 画像内の文字は、タイトル2行とサブタイトルだけ。文言が上の表と一字一句一致、簡体字・余計な文字なし\n- [ ] トリ先生が左下、藍子が右下で向き合い、顔がタイトルに重ならない。藍子の髪型が参照画像どおり\n- [ ] 左右のテーマの場面に文字がなく、タイトル・キャラより目立たない\n- [ ] 背景が不透明（透過・チェッカーボードなし）、中央でトリミングしても主要要素が切れない\n\n"
     return out
 
+def file_base(i, src): return f"4コマ解説図解{i}～{src}～"
+
+def filename_section(sp):
+    b = file_base(sp["id"], sp["src"])
+    return ("## 画像ファイル名（名づけルール）\n\n"
+            "ChatGPTで生成した画像は、保存するときに次の名前へ変更する（拡張子は生成された形式のまま：png・webp など）。`MANGA_RULES.md` の「画像ファイル名」に従う。\n\n"
+            "| 画像 | ファイル名 |\n|---|---|\n"
+            f"| 4コマ解説図解（本文用・採用版） | {b}.png |\n"
+            f"| 見出し画像（採用版） | {b}_見出し.png |\n"
+            f"| 途中の版・不採用の版（例：v01） | {b}_v01.png ／ {b}_見出し_v01.png |\n\n")
+
 def render(sp):
     body, rows = build(sp)
     out = f"# {sp['id']} 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）\n\n"
@@ -174,6 +185,7 @@ def render(sp):
     out += "\n".join(f"| {a} | {b} | {c} | {d} |" for a, b, c, d in rows) + "\n\n"
     out += "## プロンプト本体\n\n```text\n" + body + "\n```\n\n"
     out += header_section(sp)
+    out += filename_section(sp)
     out += ("## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）\n"
             f"- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/{sp['id']}_prompt.md` が NG 0件\n"
             + "".join(f"- [ ] 工程C：{c}\n" for c in sp["review"]) + "\n")
@@ -189,7 +201,8 @@ def patch_d0520():
     from manga_specs import D0520_HEADER_SP
     p = HERE / "D0520_prompt.md"; s = p.read_text(encoding="utf8")
     s = re.sub(r"## 見出し画像プロンプト.*?(?=## 作成時の品質ゲート)", "", s, flags=re.S)
-    s = s.replace("## 作成時の品質ゲート", header_section(D0520_HEADER_SP) + "## 作成時の品質ゲート", 1)
+    s = re.sub(r"## 画像ファイル名.*?(?=## 作成時の品質ゲート)", "", s, flags=re.S)
+    s = s.replace("## 作成時の品質ゲート", header_section(D0520_HEADER_SP) + filename_section(D0520_HEADER_SP) + "## 作成時の品質ゲート", 1)
     p.write_text(s, encoding="utf8")
 
 if __name__ == "__main__":

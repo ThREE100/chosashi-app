@@ -98,6 +98,14 @@ def main():
                 if not hk or hk.group(1) not in t2: NG(f"見出し画像プロンプトの強調語（red-orange）がタイトル2行目に含まれない")
             texts = {o: re.search(r"TEXT \(reproduce verbatim.*?Do not write any other text", bl, re.S).group(0) for o, bl in blocks.items() if "TEXT (reproduce verbatim" in bl}
 
+    # 0d 画像ファイル名（名づけルール）
+    fm = re.search(r"^## 画像ファイル名[^\n]*\n(.*?)(?=^## |\Z)", src, re.M | re.S)
+    if not fm: NG("「## 画像ファイル名」がない")
+    elif tm:
+        base = f"4コマ解説図解{tm.group(2)}～{tm.group(3)}～"
+        for need in (f"| {base}.png |", f"| {base}_見出し.png |", f"{base}_v01.png"):
+            if need not in fm.group(1): NG(f"画像ファイル名の表に次がない: {need}")
+
     # 1 必須セクション
     for key in ["CRITICAL TEXT REQUIREMENT", "BACKGROUND REQUIREMENT", "Final check before rendering"]:
         if key not in body: NG(f"必須の段落がない: {key}")
