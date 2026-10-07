@@ -126,6 +126,8 @@ def build(sp):
         fin += "confirm the left comparison card has only a blue check mark and the right card only a red cross; "
     if flex:
         fin = fin.replace("confirm 藍子 is always on the left and トリ先生 always on the right ", "confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified ")
+    if sp.get("final_extra"):
+        fin += sp["final_extra"].strip() + " "
     fin += "confirm the background is fully opaque with no transparency, alpha channel, or checkerboard."
     body += fin
     return body, rows
@@ -229,6 +231,8 @@ def render(sp):
             "- [ ] タイトル・全セリフ・ラベルが構成表と一字一句一致\n- [ ] スタンプ・矢印・ラベルが各カードの枠の内側に収まっている\n"
             "- [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性\n- [ ] 簡体字・英字なし、背景が不透明\n"
             "- [ ] 記事の文言から外れていない（独自の理由づけなし）\n")
+    if sp.get("qa"):
+        out += "\n## " + sp["qa"][0] + "\n" + "".join(f"- {r}\n" for r in sp["qa"][1:])
     if sp.get("rev"):
         out += "\n## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）\n\n" + "".join(f"- {r}\n" for r in sp["rev"])
     return out

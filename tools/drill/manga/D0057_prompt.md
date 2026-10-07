@@ -1,4 +1,4 @@
-# D0057 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0057 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0057（不動産登記法／建物の分割・合併・合体・滅失・変更、出典 H17-Q12ウ）。正解＝〇。誤解3回。
 - 記事：`note-articles/h17-mondai/q12-tatemono-gappei.md` ウ「同一の賃借権登記があると、合併登記の例外には当たらない」（対比：D0055）
@@ -44,7 +44,7 @@
 | コマ3 | トリ先生（右・答える） | 担保権と信託の登記だけ。賃借権は入っていないのよ | 「賃借権は入っていない」 |
 | コマ4 見出し | ラベル | ④　結論は〇 | — |
 | コマ4 図 | 図・カード |  | — |
-| コマ4 | 藍子（左・先に話す） | 同じ賃借権の登記でも、合併できないんですね！ | — |
+| コマ4 | 藍子（左・先に話す） | 同じ内容でも、合併できないんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そのとおり。賃借権は例外の対象外だから合併できないのよ | 「例外の対象外」 |
 | コマ4 チェック欄 | 3項目（青✓） | 所有権以外の権利の登記があると、原則として合併できない / 例外は担保権の登記と信託の登記だけ / 賃借権の登記は、内容が同一でも合併できない | — |
 | 結論帯 | 1行目 | 賃借権の登記は合併の例外の対象外で、同一でも合併できない | 黄色マーカー |
@@ -78,7 +78,7 @@ TITLE BANNER: text 「同じ賃借権の登記があっても、建物は合併�
 
 PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
-- Small diagram in the middle: two flat house icons side by side labeled 「甲建物」 and 「乙建物」. A ribbon labeled 「賃借権」 is attached to each of the two houses, and a small tag between them reads 「登記の内容が同一」. A small question badge 「合併できる？」 sits above the two houses (a question badge only, with no check mark and no cross).
+- Small diagram in the middle: two flat house icons side by side labeled 「甲建物」 and 「乙建物」. A dark navy ribbon with white text labeled 「賃借権」 is attached to each of the two houses (the same dark navy ribbon in every panel). Between the two houses stands only a small plain white label with a dark navy outline and navy text, 「登記の内容が同一」, with no arrow and no connector line between the houses. A small question badge 「合併できる？」 sits above the two houses (a question badge only, with no check mark and no cross).
 - 藍子 bubble (left, spoken first): 「賃借権の登記が
 同じ内容なら、
 合併できますよね？」 with the part 「合併できますよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
@@ -89,7 +89,7 @@ PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: 
 PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　合併の登記の原則」
 - One principle card, heading 「原則」, small tag 「不動産登記法56条5号」, body 「所有権以外の権利に関する登記がある建物は、合併の登記ができない」, with ONE red cross only (no check mark on this card).
-- Beside the card, the same two house icons 「甲建物」 and 「乙建物」, each still carrying the same ribbon 「賃借権」.
+- Beside the card, the same two house icons 「甲建物」 and 「乙建物」, each still carrying the same dark navy ribbon with white text 「賃借権」.
 - 藍子 bubble (left, spoken first): 「合併の登記は、
 どんなときに
 できないんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
@@ -110,7 +110,7 @@ PANEL 3 (both characters point together at the same figure; 藍子 realizing; �
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
-- 藍子 bubble (left, spoken first): 「同じ賃借権の登記でも、
+- 藍子 bubble (left, spoken first): 「同じ内容でも、
 合併できないんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。
 賃借権は例外の対象外
@@ -123,7 +123,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 号, 対, 建, 所, 権, 物, 登, 規, 解, 記 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 号, 対, 建, 所, 権, 物, 登, 規, 解, 記 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that the first kanji of 「原則」 (in the panel 2 card heading and in the highlighted words of the panel 2 bubble) is 原 and the second is 則, never 思; confirm that every bubble contains exactly the words given, with no word dropped; confirm that 藍子 has the same hairstyle in all four panels (long wavy brown hair swept to one side, without straight-cut bangs, as in the attached references) and that every 「賃借権」 ribbon is the same dark navy. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -201,6 +201,15 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
 
+## v01の検品結果（2026-10-07）→ v02で改修
+- 合格：タイトル・構成表の文言の大半、コマ2のカード（原則・56条5号）、コマ3の左右のカード（担保権・信託＝青✓、賃借権＝赤✕）、コマ4のチェック3項目、結論帯。吹き出しの尾・立ち位置・藍子の手（各コマ2本）・背景の不透明も問題なし。内容は記事（H17-Q12ウ）の範囲内で、法的に不正確な描写はない。
+- 不具合1（文字）：コマ2のトリ先生の吹き出しで「原則できない」が「思則できない」と描かれた（「原」の誤り）。→ プロンプトのFinal checkに「原則」の字を指定する確認文（final_extra）を追加。
+- 不具合2（台詞の脱落）：コマ4の藍子の台詞「同じ賃借権の登記でも、」が「同じ賃借権でも、」に変わった（「の登記」が脱落）。→ 台詞を短く言い換えない形にし、「同じ内容でも、合併できないんですね！」に改めた（コマ1・3と重複しない言い回し）。
+- 不具合3（赤の誤用）：コマ1で2棟の間に赤い両矢印、「登記の内容が同一」の赤いタグ、「賃借権」の赤いリボンが描かれた。赤は「いいえ・×」専用で、矢印は意味のない関係を示してしまう。→ リボンは濃紺に白文字（全コマ共通）、タグは白地・濃紺の枠と文字、2棟の間に矢印・連結線を置かない、と肯定形で指定。
+- 不具合4（藍子の髪型）：コマ2・4だけ前髪がまっすぐ（ぱっつん）で、コマ1・3の横流しと違う。→ final_extra に髪型の指定（横に流した長いウェーブヘア、まっすぐな前髪なし）を追加。
+- 再発防止：MANGA_RULESの不具合記録に追記。次回以降、プロンプト中の重要語（原則・例外など）に紛らわしい字がある肢は final_extra で字を指定する。
+
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-07 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用）
+- 2026-10-07 v02：v01画像の検品で見つかった4点を改修（コマ2「原則」の字の確認、コマ4の台詞、コマ1の赤の誤用、藍子の髪型）
