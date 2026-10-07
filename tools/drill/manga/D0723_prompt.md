@@ -1,4 +1,4 @@
-# D0723 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0723 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0723（民法／物権変動・対抗要件、出典 H24-Q03ウ）。正解＝×（誤った記述）。誤解3回。
 - 記事：`note-articles/h24-mondai/q03-taikouyouken.md` ウ「中間省略登記の合意があっても、債権者の代位行使は妨げられない」
@@ -67,6 +67,8 @@ FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stan
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
 
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
@@ -77,8 +79,11 @@ TITLE BANNER: text 「中間省略登記の合意があっても、Ｅは代位�
 PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
 - Small diagram in the middle: three faceless pictograms in a row with tags 「Ａ」, 「Ｂ」, and 「Ｃ」, joined by two SOLID navy arrows (Ａ to Ｂ and Ｂ to Ｃ), each labeled 「売却」. Below Ｂ stands a fourth pictogram with tag 「Ｅ」 joined to Ｂ by a thin line labeled 「Ｂの債権者」. Under Ａ a small plate reads 「登記名義はＡのまま」. Caption under the diagram: 「Ａ→Ｂ→Ｃと順次譲渡」.
-- 藍子 bubble (left, spoken first): 「三者で合意したなら、Ｅはもう請求できませんよね？」 with the part 「もう請求できませんよね？」 highlighted in yellow.
-- トリ先生 bubble (right, spoken as the answer): 「出たわね。その合意が何を決めたのか、見てごらん」.
+- 藍子 bubble (left, spoken first): 「三者で合意したなら、
+Ｅはもう請求できませんよね？」 with the part 「もう請求できませんよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「出たわね。その合意が
+何を決めたのか、
+見てごらん」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　中間省略登記とは」
@@ -86,21 +91,31 @@ PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's h
 - Left card, heading 「原則」, body 「Ａ→Ｂ、Ｂ→Ｃと順に登記」, showing pictograms 「Ａ」, 「Ｂ」, 「Ｃ」 with two short dashed arrows.
 - Right card, heading 「三者間の合意がある場合」, body 「Ａ→Ｃへ直接登記」, showing pictograms 「Ａ」, 「Ｂ」, 「Ｃ」 with one long dashed arrow from Ａ to Ｃ that skips Ｂ.
 - A small legend at the bottom reads 「実線＝売却　点線＝登記の移転」.
-- 藍子 bubble (left, spoken first): 「中間省略登記って、何ですか？」.
-- トリ先生 bubble (right, spoken as the answer): 「Ｂを飛ばして、ＡからＣへ直接登記を移すことよ」 with the part 「Ｂを飛ばして」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「中間省略登記って、
+何ですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「Ｂを飛ばして、
+ＡからＣへ直接
+登記を移すことよ」 with the part 「Ｂを飛ばして」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　合意で登記請求権は消えない」
 - Pictogram 「Ｂ」 holds a document labeled 「ＢのＡに対する登記請求権」 with a navy sticker 「消滅しない」 on it.
 - Beside it, an explanation card (no mark) with the heading 「三者間の合意」 and the body 「登記を移す経路の取決め」.
-- 藍子 bubble (left, spoken first): 「合意をしたら、Ｂの登記請求権は消えるんですか？」.
-- トリ先生 bubble (right, spoken as the answer): 「消えないわ。合意は登記を移す経路の取決めなのよ」 with the part 「消えない」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「合意をしたら、
+Ｂの登記請求権は
+消えるんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「消えないわ。
+合意は登記を移す経路の
+取決めなのよ」 with the part 「消えない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
 - Pictogram 「Ｅ」 with a solid navy arrow to pictogram 「Ａ」 (a demand), labeled 「Ｂに代わって、Ｂへの所有権移転登記を請求」, and a small tag 「代位（民法423条）」.
-- 藍子 bubble (left, spoken first): 「Ｅは、Ｂに代わってＡに請求できるんですね！」.
-- トリ先生 bubble (right, spoken as the answer): 「そのとおり。合意があっても代位行使は妨げられないのよ」 with the part 「代位行使は妨げられない」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「Ｅは、Ｂに代わって
+Ａに請求できるんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+合意があっても
+代位行使は妨げられないのよ」 with the part 「代位行使は妨げられない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「三者間の合意があってもＢの登記請求権は消えない」, 「ＥはＢに代位してＡに請求できる」, 「代位は自己の債権を守るための制度」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
@@ -186,3 +201,8 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+
+## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
+
+- 2026-10-07 v02：①吹き出しの改行位置を文節の区切りで固定（17字以上は全て）／②コマをまたぐ図・ラベル・リボンの見た目の継続（CONTINUITY）を共通ルールに追加／③藍子の人体構造・手の割り当て・ポーズ変更・記事内容の理解に必要な要素の表現（共通ルール）。④記事の条文照合に「中間省略登記の合意で登記請求権が消えない点は出典が示されていない（一般原則からの整理）」との指摘がある。図の文言は記事の範囲内で、独自の理由づけは足していない
+- 2026-10-07 v01：初版

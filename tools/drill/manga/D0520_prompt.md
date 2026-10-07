@@ -63,6 +63,8 @@ FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stan
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps.
 
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
@@ -72,8 +74,12 @@ TITLE BANNER: text 「未成年者の取消しは、善意のＢにも対抗で�
 
 PANEL 1 (the common misconception; 藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
-- 藍子 bubble (left): 「Ｂは未成年だと知らなかった。守られますよね？」 with the part 「守られますよね？」 highlighted in yellow.
-- トリ先生 bubble (right): 「出たわね、その思い込み。Ａが取り消す前にＢが買った場合よ」
+- 藍子 bubble (left): 「Ｂは未成年だと
+知らなかった。
+守られますよね？」 with the part 「守られますよね？」 highlighted in yellow.
+- トリ先生 bubble (right): 「出たわね、その思い込み。
+Ａが取り消す前に
+Ｂが買った場合よ」
 - Small diagram in the middle: three faceless pictograms in a row with arrows: a small young pictogram with tag 「Ａ」, then a pictogram with tag 「Ｄ」, then a pictogram with tag 「Ｂ」. The arrow from Ａ to Ｄ carries the small label 「Ｃの同意なし」. Standing right behind 「Ａ」 is a taller adult pictogram with tag 「Ｃ」 and the small label 「Ｃ（Ａの法定代理人）」, so that Ｃ is introduced here. Caption under the diagram: 「Ａ（未成年者）→Ｄ→Ｂ（善意）」.
 
 PANEL 2 (the flow; 藍子 surprised, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
@@ -83,21 +89,28 @@ PANEL 2 (the flow; 藍子 surprised, トリ先生 explaining with a wing-pointer
   - Card 2: pictograms 「Ｄ」 and 「Ｂ」 with one arrow from Ｄ to Ｂ; text 「②ＤがＢに売却（Ｂは善意）」.
   - Card 3: NOT a sale. It shows the adult pictogram 「Ｃ」 holding a large dark navy round stamp that reads 「取消し」; text 「③Ｃが①の売買を取消し」.
 - One curved dark navy arrow starts at the stamp in card 3 and points back to the Ａ-to-Ｄ arrow in card 1 (cancelling that sale). Its label 「取消しは当初にさかのぼる」 has a yellow highlighter marker. Next to the pictogram 「Ａ」 in card 1 add the small label 「Ａの所有権が回復」.
-- 藍子 bubble (left, spoken first): 「取り消すと、どうなるんですか？」
-- トリ先生 bubble (right, spoken as the answer): 「取消しの効果は、当初にさかのぼるのよ」 with 「当初にさかのぼる」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「取り消すと、
+どうなるんですか？」
+- トリ先生 bubble (right, spoken as the answer): 「取消しの効果は、
+当初にさかのぼるのよ」 with 「当初にさかのぼる」 highlighted in yellow.
 
 PANEL 3 (the contrast; both characters point together at the same comparison cards; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　詐欺取消しとの違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
 - Left card, heading 「詐欺取消し」, body 「善意無過失の第三者は守られる」, small tag 「民法96条3項」, with ONE blue check mark only (no cross on this card).
 - Right card, heading 「制限行為能力の取消し」, body 「善意のＢでも守られない」, with ONE red cross only (no check mark on this card).
-- 藍子 bubble (left, spoken first): 「詐欺取消しだと、第三者は守られるのに…」
-- トリ先生 bubble (right, spoken as the answer): 「違いは、第三者を守る規定があるかどうかよ」 with 「守る規定」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「詐欺取消しだと、
+第三者は守られるのに…」
+- トリ先生 bubble (right, spoken as the answer): 「違いは、第三者を守る
+規定があるかどうかよ」 with 「守る規定」 highlighted in yellow.
 
 PANEL 4 (the conclusion; 藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
-- 藍子 bubble (left): 「Ａは善意のＢにも所有権を主張できるんですね！」
-- トリ先生 bubble (right): 「そのとおり。取消し前に現れた善意の買主にも対抗できるのよ」 with 「対抗できる」 highlighted in yellow.
+- 藍子 bubble (left): 「Ａは善意のＢにも
+所有権を主張できるんですね！」
+- トリ先生 bubble (right): 「そのとおり。
+取消し前に現れた善意の
+買主にも対抗できるのよ」 with 「対抗できる」 highlighted in yellow.
 - A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「取消しは当初にさかのぼる」, 「善意の第三者を守る規定がない」, 「Ａは所有権をＢに主張できる」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
@@ -191,8 +204,10 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 直前に表示された最新版（v01）を基準に、以下の修正だけ行ってください。
 1. コマ1：Ａ→Ｄの矢印に小さなラベル「Ｃの同意なし」を付ける。Ａの後ろに、背の高い大人のピクトグラム（タグ「Ｃ」）を立たせ、小さなラベル「Ｃ（Ａの法定代理人）」を付ける。
 2. コマ2の流れ図を、矢印でつながない3つの別カードに描き直す。矢印はカード1の中のＡ→Ｄ、カード2の中のＤ→Ｂだけにし、Ｂ→Ｃの矢印は描かない。カード1「①ＡがＤに売却（Ｃの同意なし）」、カード2「②ＤがＢに売却（Ｂは善意）」、カード3は売買ではなく、ピクトグラム「Ｃ」がネイビーの丸い「取消し」のスタンプを持つ図にして、文言は「③Ｃが①の売買を取消し」。ネイビーの曲がった矢印はカード3のスタンプからカード1のＡ→Ｄの矢印へ戻し、ラベル「取消しは当初にさかのぼる」（黄色マーカー）を付ける。カード1のＡの横に小さなラベル「Ａの所有権が回復」を足す。
-3. コマ2の藍子（左）の吹き出し全体を、「えっ、Ｂが買う前にもどるんですか？」から「取り消すと、どうなるんですか？」へ変更する。
-4. コマ3の藍子（左）の吹き出し全体を、「同じ取消しなのに、第三者の扱いが違うんですね」から「詐欺取消しだと、第三者は守られるのに…」へ変更する。
+3. コマ2の藍子（左）の吹き出し全体を、「えっ、Ｂが買う前にもどるんですか？」から「取り消すと、
+どうなるんですか？」へ変更する。
+4. コマ3の藍子（左）の吹き出し全体を、「同じ取消しなのに、第三者の扱いが違うんですね」から「詐欺取消しだと、
+第三者は守られるのに…」へ変更する。
 
 変更しない箇所：上記以外のすべての文字・色・人物・表情・背景・吹き出しの位置と形、タイトル帯、コマ3の比較カード、コマ4、結論帯。
 指定文言を一字ずつ正確に入れ、指定外の文字を追加しないでください。完成画像全体を1枚で表示してください。

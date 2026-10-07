@@ -123,6 +123,14 @@ def main():
             if "hands" not in pm.group(1): NG(f"{pm.group(1)[:8]}: 藍子の手の割り当て（hands:）がPANEL行にない")
         if "exactly two arms" not in final: WARN("Final checkに藍子の腕・手の確認がない")
 
+    # 1c 連続性・吹き出しの改行（2026-10-07 v2ルール。CONTINUITY の段落がある版に適用）
+    if "CONTINUITY:" in main_body:
+        for bm in re.finditer(rf"- ({LEFT}|{RIGHT}) bubble[^:]*: 「([^」]+)」", main_body):
+            t = bm.group(2)
+            if "\n" not in t and len(t) > 16: NG(f"吹き出しが17字以上なのに改行位置の指定がない（文節の区切りで改行する）: {t}")
+            for line in t.split("\n"):
+                if len(line) > 15: WARN(f"吹き出しの1行が長い（{len(line)}字）: {line}")
+
     # 2 色：緑に触れない、「A or B」の色選択をしない、否定形の色指定をしない
     for pat, why in [(r"green|緑", "緑への言及（禁止・選択指示とも書かない）"),
                      (r"\b(blue|red|navy|yellow)\s+or\s+\w+", "色の二者択一の指示"),

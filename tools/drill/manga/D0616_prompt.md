@@ -1,4 +1,4 @@
-# D0616 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0616 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0616（民法／時効・条件期限、出典 H23-Q02ア）。正解＝〇。誤解3回。
 - 記事：`note-articles/h23-mondai/q02-jikou-engyo.md` ア「連帯保証人は、主債務の消滅時効を援用できる」
@@ -66,6 +66,8 @@ FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stan
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
 
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
@@ -76,8 +78,11 @@ TITLE BANNER: text 「連帯保証人は、主債務の消滅時効を援用で�
 PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
 - Small diagram in the middle: three faceless pictograms in a row with tags 「Ａ」, 「Ｂ」, and 「Ｃ」. A navy arrow from Ａ to Ｂ is labeled 「売買代金債務」. A navy arrow from Ｃ to Ｂ is labeled 「連帯保証」. Caption under the diagram: 「Ａ（主債務者）　Ｂ（債権者）　Ｃ（連帯保証人）」.
-- 藍子 bubble (left, spoken first): 「Ｃは承認したので、もう援用できませんよね？」 with the part 「もう援用できませんよね？」 highlighted in yellow.
-- トリ先生 bubble (right, spoken as the answer): 「出たわね。何を承認したのか、よく見なさい」.
+- 藍子 bubble (left, spoken first): 「Ｃは承認したので、
+もう援用できませんよね？」 with the part 「もう援用できませんよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「出たわね。
+何を承認したのか、
+よく見なさい」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　時系列を整理」
@@ -85,20 +90,30 @@ PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's h
 - Card 1: pictogram 「Ｃ」 with a small speech mark; text 「①Ｃが保証債務を承認」 and a small tag 「時効の完成前」.
 - Card 2: a calendar icon; text 「②Ａの債務の消滅時効が完成」.
 - Card 3: pictograms 「Ｂ」 and 「Ｃ」 with one navy arrow from Ｂ to Ｃ (a demand for payment); text 「③ＢがＣに履行を請求」.
-- 藍子 bubble (left, spoken first): 「承認したのは、時効が完成する前なんですよね？」.
-- トリ先生 bubble (right, spoken as the answer): 「そう。承認は、自分の保証債務についてだけよ」 with the part 「自分の保証債務」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「承認したのは、
+時効が完成する前
+なんですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そう。承認は、
+自分の保証債務について
+だけよ」 with the part 「自分の保証債務」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　承認と援用は別の話」
 - Left card, heading 「保証債務の承認」, body 「自分の保証債務についての話」, with no mark on this card.
 - Right card, heading 「主債務の時効の援用」, body 「保証人は援用できる（民法145条）」, with ONE blue check mark only (no cross on this card).
-- 藍子 bubble (left, spoken first): 「承認と援用は、別の問題なんですか？」.
-- トリ先生 bubble (right, spoken as the answer): 「そう。保証人は、正当な利益を有する者として援用できるのよ」 with the part 「正当な利益を有する者」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「承認と援用は、
+別の問題なんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そう。保証人は、
+正当な利益を有する者として
+援用できるのよ」 with the part 「正当な利益を有する者」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
-- 藍子 bubble (left, spoken first): 「Ｃは、Ｂの請求を拒めるんですね！」.
-- トリ先生 bubble (right, spoken as the answer): 「そのとおり。時効完成前に承認していても援用できるのよ」 with the part 「援用できる」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「Ｃは、
+Ｂの請求を拒めるんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+時効完成前に承認していても
+援用できるのよ」 with the part 「援用できる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「保証人は消滅時効の援用権者」, 「保証債務の承認と主債務の援用は別問題」, 「ＣはＢの請求を拒める」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
@@ -184,3 +199,8 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+
+## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
+
+- 2026-10-07 v02：①吹き出しの改行位置を文節の区切りで固定（17字以上は全て）／②コマをまたぐ図・ラベル・リボンの見た目の継続（CONTINUITY）を共通ルールに追加／③藍子の人体構造・手の割り当て・ポーズ変更・記事内容の理解に必要な要素の表現（共通ルール）
+- 2026-10-07 v01：初版

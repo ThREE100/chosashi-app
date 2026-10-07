@@ -1,4 +1,4 @@
-# D0418 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0418 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0418（民法／用益権・担保物権、出典 H21-Q02ウ）。正解＝〇。誤解4回。
 - 記事：`note-articles/h21-mondai/q02-chijouken.md` ウ「地上権者は、土地所有者の承諾なく譲渡・抵当権設定ができる」
@@ -66,6 +66,8 @@ FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stan
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
 
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
@@ -76,29 +78,41 @@ TITLE BANNER: text 「地上権は、所有者の承諾なしで譲渡できる�
 PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
 - Small diagram in the middle: three faceless pictograms in a row: tag 「Ａ」 (the land owner, standing next to a small plot-of-land icon), tag 「Ｂ」 (a person standing on the same plot), and tag 「Ｃ」 (a person who wants to receive the right). A solid navy arrow from Ｂ to Ｃ carries the label 「地上権を譲渡」. A small question badge above Ａ reads 「承諾は要る？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ（土地の所有者）　Ｂ（地上権者）　Ｃ（譲受人）」.
-- 藍子 bubble (left, spoken first): 「地上権を譲るには、所有者の承諾が要りますよね？」 with the part 「承諾が要りますよね？」 highlighted in yellow.
-- トリ先生 bubble (right, spoken as the answer): 「出たわね。賃借権と混ぜた思い込みよ」.
+- 藍子 bubble (left, spoken first): 「地上権を譲るには、
+所有者の承諾が要りますよね？」 with the part 「承諾が要りますよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「出たわね。
+賃借権と混ぜた思い込みよ」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　地上権は物権」
 - A central card with the heading 「地上権」 and the body 「物権」.
 - Below the card, pictogram 「Ｂ」 with two solid navy arrows: one to pictogram 「Ｃ」 labeled 「譲渡」, and one to a new pictogram with tag 「Ｄ」 (a person who lends money) labeled 「抵当権を設定」.
 - Under both arrows, a dark navy banner reads 「Ａの承諾なしでできる」.
-- 藍子 bubble (left, spoken first): 「地上権って、どんな権利なんですか？」.
-- トリ先生 bubble (right, spoken as the answer): 「物権よ。権利者が自由に処分できる財産なの」 with the part 「自由に処分できる財産」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「地上権って、
+どんな権利なんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「物権よ。
+権利者が自由に
+処分できる財産なの」 with the part 「自由に処分できる財産」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　賃借権との違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
 - Left card, heading 「地上権（物権）」, body 「所有者の承諾はいらない」, with ONE blue check mark only (no cross on this card).
 - Right card, heading 「賃借権」, body 「所有者の承諾がないと譲渡できない」, with ONE red cross only (no check mark on this card).
-- 藍子 bubble (left, spoken first): 「賃借権は承諾が要るのに、地上権は違うんですか？」.
-- トリ先生 bubble (right, spoken as the answer): 「そこが大きな違いよ。賃借権は承諾がないと譲れないの」 with the part 「大きな違い」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「賃借権は承諾が要るのに、
+地上権は違うんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そこが大きな違いよ。
+賃借権は承諾がないと
+譲れないの」 with the part 「大きな違い」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
-- 藍子 bubble (left, spoken first): 「地上権者は、承諾なしで譲渡も抵当権設定もできるんですね！」.
-- トリ先生 bubble (right, spoken as the answer): 「そう。物権だから、自分の財産として自由に動かせるのよ」 with the part 「自由に動かせる」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「地上権者は、承諾なしで
+譲渡も抵当権設定も
+できるんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そう。物権だから、
+自分の財産として
+自由に動かせるのよ」 with the part 「自由に動かせる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「地上権は物権である」, 「所有者の承諾なしで譲渡できる」, 「所有者の承諾なしで抵当権を設定できる」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
@@ -184,3 +198,8 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+
+## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
+
+- 2026-10-07 v02：①吹き出しの改行位置を文節の区切りで固定（17字以上は全て）／②コマをまたぐ図・ラベル・リボンの見た目の継続（CONTINUITY）を共通ルールに追加／③藍子の人体構造・手の割り当て・ポーズ変更・記事内容の理解に必要な要素の表現（共通ルール）
+- 2026-10-07 v01：初版

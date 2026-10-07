@@ -1,4 +1,4 @@
-# D2096 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D2096 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D2096（土地家屋調査士法／調査士法人、出典 R07-Q20ア）。正解＝×（誤った記述）。誤解3回。
 - 記事：`note-articles/r7-mondai/q20-chousashihou.md` ア「定款変更の届出先は、法務局ではなく所属の調査士会及び連合会」
@@ -40,7 +40,7 @@
 | コマ3 見出し | ラベル | ③　法務局は届出先ではない | — |
 | コマ3 図 | 図・カード | 法務局又は地方法務局 / 届出先ではない / 調査士会と連合会（両方） / ここへ届け出る | — |
 | コマ3 | 藍子（左・先に話す） | 法務局への届出は、いらないんですか？ | — |
-| コマ3 | トリ先生（右・答える） | ええ。届出先は調査士会と連合会の両方よ | 「調査士会と連合会の両方」 |
+| コマ3 | トリ先生（右・答える） | ええ。法務局への届出ではないのよ | 「法務局への届出ではない」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 定款を変えたら、2週間以内に両方へ届け出るんですね！ | — |
@@ -66,6 +66,8 @@ FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stan
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
 
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
@@ -76,28 +78,39 @@ TITLE BANNER: text 「調査士法人の定款変更の届出先は、法務局�
 PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
 - Small diagram in the middle: a flat building icon labeled 「調査士法人」 holding a small document labeled 「定款を変更」. A solid navy arrow points from it to a second building icon labeled 「法務局又は地方法務局」, with a small question badge 「届出先？」 (a question badge only, with no check mark and no cross).
-- 藍子 bubble (left, spoken first): 「定款を変更したら、法務局に届け出ますよね？」 with the part 「法務局に届け出ますよね？」 highlighted in yellow.
-- トリ先生 bubble (right, spoken as the answer): 「出たわね。届出先は本当にそこかしら？」.
+- 藍子 bubble (left, spoken first): 「定款を変更したら、
+法務局に届け出ますよね？」 with the part 「法務局に届け出ますよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「出たわね。
+届出先は本当にそこかしら？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　正しい届出先」
 - The building icon 「調査士法人」 on the left with two solid navy arrows, labeled 「変更に係る事項を届出」, pointing to two building icons on the right: 「主たる事務所の所在地の土地家屋調査士会」 and 「日本土地家屋調査士会連合会」.
 - Two small tags: 「変更の日から2週間以内」 and 「土地家屋調査士法34条2項」.
-- 藍子 bubble (left, spoken first): 「正しい届出先は、どこなんですか？」.
-- トリ先生 bubble (right, spoken as the answer): 「主たる事務所の所在地の調査士会と、連合会の両方よ」 with the part 「調査士会と、連合会の両方」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「正しい届出先は、
+どこなんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「主たる事務所の所在地の
+調査士会と、
+連合会の両方よ」 with the part 「調査士会と、連合会の両方」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
 - Label tab: 「③　法務局は届出先ではない」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.
 - Left card, heading 「法務局又は地方法務局」, body 「届出先ではない」, with ONE red cross only (no check mark on this card).
 - Right card, heading 「調査士会と連合会（両方）」, body 「ここへ届け出る」, with ONE blue check mark only (no cross on this card).
-- 藍子 bubble (left, spoken first): 「法務局への届出は、いらないんですか？」.
-- トリ先生 bubble (right, spoken as the answer): 「ええ。届出先は調査士会と連合会の両方よ」 with the part 「調査士会と連合会の両方」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「法務局への届出は、
+いらないんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「ええ。法務局への
+届出ではないのよ」 with the part 「法務局への届出ではない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
-- 藍子 bubble (left, spoken first): 「定款を変えたら、2週間以内に両方へ届け出るんですね！」.
-- トリ先生 bubble (right, spoken as the answer): 「そのとおり。法務局への届出と書いてあれば×よ」 with the part 「法務局への届出と書いてあれば×」 highlighted in yellow.
+- 藍子 bubble (left, spoken first): 「定款を変えたら、
+2週間以内に
+両方へ届け出るんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+法務局への届出と
+書いてあれば×よ」 with the part 「法務局への届出と書いてあれば×」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「変更の日から2週間以内」, 「変更に係る事項を届け出る」, 「主たる事務所の所在地の調査士会と連合会の両方」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
@@ -183,3 +196,8 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+
+## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
+
+- 2026-10-07 v02：①吹き出しの改行位置を文節の区切りで固定（17字以上は全て）／②コマをまたぐ図・ラベル・リボンの見た目の継続（CONTINUITY）を共通ルールに追加／③藍子の人体構造・手の割り当て・ポーズ変更・記事内容の理解に必要な要素の表現（共通ルール）／④コマ3のトリ先生の台詞を、コマ2と重なっていた「届出先は調査士会と連合会の両方よ」から、記事の「法務局への届出ではありません」に直した
+- 2026-10-07 v01：初版
