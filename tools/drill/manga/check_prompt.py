@@ -30,10 +30,10 @@ def main():
     table = "\n".join(l for l in src.splitlines() if l.startswith("|"))
 
     # 0 記事タイトル（設計メモ（工程A）と構成表の間に置く）
-    tm = re.search(r"^## 記事タイトル\n\n(【土地家屋調査士受験生向け】4コマ解説図解(D\d{4})～(.+?)～)\n", src, re.M)
+    tm = re.search(r"^## 記事タイトル\n\n(【土地家屋調査士受験生向け】4コマ解説図解(D\d{4}(?:・D\d{4})*)～(.+?)～)\n", src, re.M)
     if not tm: NG("「## 記事タイトル」がない、または形式が違う（【土地家屋調査士受験生向け】4コマ解説図解<ID>～<出典>～）")
     else:
-        if tm.group(2) not in path.name: NG(f"記事タイトルのIDがファイル名と違う: {tm.group(2)}")
+        if tm.group(2).split("・")[0] not in path.name: NG(f"記事タイトルのIDがファイル名と違う: {tm.group(2)}")
         if f"出典 {tm.group(3)}" not in src: NG(f"記事タイトルの出典が冒頭の出典と違う: {tm.group(3)}")
         pos = {k: src.find(k) for k in ("## 設計メモ", "## 記事タイトル", "## 構成表")}
         if pos["## 設計メモ"] >= 0 and not (pos["## 設計メモ"] < pos["## 記事タイトル"] < pos["## 構成表"]):
@@ -221,10 +221,11 @@ def main():
                 NG(f"同じ箱に check と cross の両方を指示: {line[:80]}")
 
     # 9 条文の出典照合（任意）
+    iids = re.findall(r"D\d{4}", tm.group(2)) if tm else []
     iid = re.search(r"\b(D\d{4})\b", src)
     if iid and "--no-article" not in sys.argv:
-        out = subprocess.run([sys.executable, str(ROOT / "tools/drill/drill.py"), "explain", iid.group(1)],
-                             capture_output=True, text=True, cwd=ROOT).stdout
+        out = "".join(subprocess.run([sys.executable, str(ROOT / "tools/drill/drill.py"), "explain", x],
+                             capture_output=True, text=True, cwd=ROOT).stdout for x in (iids or [iid.group(1)]))
         if not out: WARN("drill.py explain の出力が取れず、条文の出典照合をスキップ")
         else:
             em = re.search(r"^## 記事に無い条文（ユーザー指示で追加）\n\n(.*?)(?=^## )", src, re.M | re.S)

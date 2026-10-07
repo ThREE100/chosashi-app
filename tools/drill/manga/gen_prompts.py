@@ -207,7 +207,7 @@ def filename_section(sp):
 def render(sp):
     body, rows = build(sp)
     out = f"# {sp['id']} 4コマ解説図解 プロンプト（ChatGPT貼付用・{sp.get('ver','v01')}）\n\n"
-    out += (f"- 肢：{sp['id']}（{sp['topic']}、出典 {sp['src']}）。正解＝{sp['truth']}。誤解{sp['miscon']}回。\n"
+    out += (f"- 肢：{sp['id']}（{sp['topic']}、出典 {sp['src']}）。正解＝{sp['truth']}。誤解{sp['miscon'] if isinstance(sp['miscon'], str) else str(sp['miscon']) + '回'}。\n"
             f"- 記事：`{sp['article']}` {sp['art_head']}\n- ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）\n"
             "- 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の5枚。トリ先生・藍子の基準画像）** を添付し、"
             "どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。\n\n")
@@ -222,7 +222,7 @@ def render(sp):
     out += header_section(sp)
     out += filename_section(sp)
     out += ("## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）\n"
-            f"- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/{sp['id']}_prompt.md` が NG 0件\n"
+            f"- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/{sp.get('fid', sp['id'])}_prompt.md` が NG 0件\n"
             + "".join(f"- [ ] 工程C：{c}\n" for c in sp["review"]) + "\n")
     out += ("## 生成後の照合チェック（文言の正本は上の構成表）\n- [ ] 4コマ縦一列／タイトル帯・結論帯あり\n"
             "- [ ] 全コマで藍子＝左・トリ先生＝右、全吹き出しの尾が話者へ向く。藍子の髪型が全コマで同じ\n"
