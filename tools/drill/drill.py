@@ -83,6 +83,23 @@ def ensure_log_branch():
         sh('git', 'commit', '-m', 'drill-log: 初期化', cwd=LOGDIR)
 
 
+def sync_log_branch():
+    """別セッション（別チャット）が push した最新の記録を取り込む。start・next の前に呼ぶ。
+    作業ツリーに未保存の追記があって早送りできないときは、何もしない（save のときに統合される）。"""
+    ensure_log_branch()
+    f = sh('git', 'fetch', 'origin', BRANCH, check=False, cwd=LOGDIR)
+    if f.returncode != 0:
+        print('⚠️ drill-log の取得に失敗しました。記録が最新でない可能性があります。')
+        return
+    behind = sh('git', 'rev-list', '--count', f'HEAD..origin/{BRANCH}', check=False, cwd=LOGDIR).stdout.strip()
+    if behind and behind != '0':
+        m = sh('git', 'merge', '--ff-only', f'origin/{BRANCH}', check=False, cwd=LOGDIR)
+        if m.returncode == 0:
+            print(f'drill-log を最新に更新しました（別セッションの記録 {behind} コミット分）')
+        else:
+            print(f'⚠️ drill-log が {behind} コミット遅れています（未保存の記録があるため早送りできません。save で統合されます）')
+
+
 def read_log():
     if not os.path.exists(LOG):
         return []
@@ -176,7 +193,7 @@ def sync_main():
 
 
 def cmd_start(a):
-    ensure_log_branch()
+    sync_log_branch()
     sync_main()
     bank = load_bank(); logs = read_log(); st = item_state(logs)
     total = len(bank)
@@ -339,7 +356,7 @@ def stmt_text(it):
 
 
 def cmd_next(a):
-    ensure_log_branch()
+    sync_log_branch()
     bank = load_bank(); st = item_state(read_log())
     subj = SUBJ_ALIAS.get(a.subject, a.subject)
     ids = pick(bank, st, a.n, subj, a.topic, a.mode)
