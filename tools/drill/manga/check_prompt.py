@@ -29,6 +29,18 @@ def main():
     else: main_body, final = body[:final_i], body[final_i:]
     table = "\n".join(l for l in src.splitlines() if l.startswith("|"))
 
+    # 0 記事タイトル（設計メモ（工程A）と構成表の間に置く）
+    tm = re.search(r"^## 記事タイトル\n\n(【土地家屋調査士受験生向け】4コマ解説図解(D\d{4})～(.+?)～)\n", src, re.M)
+    if not tm: NG("「## 記事タイトル」がない、または形式が違う（【土地家屋調査士受験生向け】4コマ解説図解<ID>～<出典>～）")
+    else:
+        if tm.group(2) not in path.name: NG(f"記事タイトルのIDがファイル名と違う: {tm.group(2)}")
+        if f"出典 {tm.group(3)}" not in src: NG(f"記事タイトルの出典が冒頭の出典と違う: {tm.group(3)}")
+        pos = {k: src.find(k) for k in ("## 設計メモ", "## 記事タイトル", "## 構成表")}
+        if pos["## 設計メモ"] >= 0 and not (pos["## 設計メモ"] < pos["## 記事タイトル"] < pos["## 構成表"]):
+            NG("記事タイトルの位置が、設計メモ（工程A）と構成表の間にない")
+        elif pos["## 設計メモ"] < 0 and not (pos["## 記事タイトル"] < pos["## 構成表"]):
+            NG("記事タイトルが構成表より前にない")
+
     # 1 必須セクション
     for key in ["CRITICAL TEXT REQUIREMENT", "BACKGROUND REQUIREMENT", "Final check before rendering"]:
         if key not in body: NG(f"必須の段落がない: {key}")

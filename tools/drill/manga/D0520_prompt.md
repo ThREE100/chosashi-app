@@ -5,6 +5,10 @@
 - ルール：`MANGA_RULES.md`
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の5枚。トリ先生・藍子の基準画像）** を添付し、下のコードブロックを貼る。トリ先生の参照画像と藍子の参照画像が別ファイルの場合は、どちらがどちらかを貼り付けの冒頭に一言添える。サイズは 1080×1920（9:16）。
 
+## 記事タイトル
+
+【土地家屋調査士受験生向け】4コマ解説図解D0520～H22-Q02オ～
+
 ## 構成表（文言の正本）
 
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
@@ -92,7 +96,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> surprised (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels; confirm the characters 権, 所, 売, 買, 当, 初, 詐, 欺, 規, 対, 抗, 無, 過, 効, 張, 解, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm the left comparison card in panel 3 has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels; confirm the characters 権, 所, 売, 買, 当, 初, 詐, 欺, 規, 対, 抗, 無, 過, 効, 張, 解, 違, 代 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm the left comparison card in panel 3 has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）

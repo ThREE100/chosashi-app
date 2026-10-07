@@ -30,6 +30,8 @@ ARC = "confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> reliev
 OPPOSITE = ("IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; "
             "the right card shows a RED cross. Do not draw the same mark on both cards. The two cards also have clearly different texts; the two texts are NOT identical.")
 
+def article_title(i, src): return f"【土地家屋調査士受験生向け】4コマ解説図解{i}～{src}～"
+
 def q(t): return f"「{t}」"
 def hlpart(h): return f" with the part {q(h)} highlighted in yellow" if h else ""
 
@@ -94,6 +96,7 @@ def render(sp):
             "- 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の5枚。トリ先生・藍子の基準画像）** を添付し、"
             "どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。\n\n")
     out += "## 設計メモ（工程A）\n" + "\n".join(f"- {m}" for m in sp["design"]) + "\n\n"
+    out += f"## 記事タイトル\n\n{article_title(sp['id'], sp['src'])}\n\n"
     out += "## 構成表（文言の正本）\n\n| 領域 | 話者・用途 | 正確な文言 | 強調 |\n|---|---|---|---|\n"
     out += "\n".join(f"| {a} | {b} | {c} | {d} |" for a, b, c, d in rows) + "\n\n"
     out += "## プロンプト本体\n\n```text\n" + body + "\n```\n\n"
