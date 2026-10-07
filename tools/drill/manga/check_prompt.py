@@ -41,6 +41,30 @@ def main():
         elif pos["## 設計メモ"] < 0 and not (pos["## 記事タイトル"] < pos["## 構成表"]):
             NG("記事タイトルが構成表より前にない")
 
+    # 0b note記事の冒頭文（定型：問いかけの段落＋案内の段落。記事タイトルの後、構成表の前）
+    lm = re.search(r"^## note記事の冒頭文\n\n(.+?)\n\n## ", src, re.M | re.S)
+    if not lm: NG("「## note記事の冒頭文」がない")
+    else:
+        paras = [p for p in lm.group(1).split("\n\n") if p.strip()]
+        if len(paras) != 2: NG(f"冒頭文は2段落（問いかけ＋案内）にする（今は{len(paras)}段落）")
+        else:
+            p1, p2 = paras
+            if tm:
+                sm = re.match(r"([HR])(\d+)-Q(\d+)(.+)$", tm.group(3))
+                if sm:
+                    era = "平成" if sm.group(1) == "H" else "令和"; yy = int(sm.group(2))
+                    lab = f"{era}{'元' if (era == '令和' and yy == 1) else yy}年度　第{int(sm.group(3))}問　{sm.group(4)}"
+                    want = f"択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（{lab}）。先に〇か×かを考えてから、読み進めてみてください。"
+                    if p2 != want: NG(f"冒頭文の2段落目が定型と違う。期待：{want}")
+            if not re.search(r"(でしょうか|ますか)。$", p1): NG("冒頭文の1段落目は、問いかけ（〜でしょうか。）で終える")
+            if re.search(r"正解|誤り|正しい|結論|できません。$|できます。$", p1): NG("冒頭文の1段落目で結論を先出ししない（正解・誤り・正しい・結論・「〜できます／できません。」）")
+            if len(p1) > 110: WARN(f"冒頭文の1段落目が長い（{len(p1)}字。目安110字以内）")
+            for sent in re.findall(r"[^。]+。", p1 + p2):
+                ss = re.sub(r"（[^）]*）。$", "。", sent.strip())
+                if not re.search(r"(ます|です|ました|でした|でしょうか|ください|ません)。$", ss): NG(f"冒頭文は敬体（です・ます調）にする: {sent.strip()}")
+        pos2 = {k: src.find(k) for k in ("## 記事タイトル", "## note記事の冒頭文", "## 構成表")}
+        if not (pos2["## 記事タイトル"] < pos2["## note記事の冒頭文"] < pos2["## 構成表"]): NG("冒頭文の位置が、記事タイトルと構成表の間にない")
+
     # 1 必須セクション
     for key in ["CRITICAL TEXT REQUIREMENT", "BACKGROUND REQUIREMENT", "Final check before rendering"]:
         if key not in body: NG(f"必須の段落がない: {key}")

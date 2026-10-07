@@ -32,6 +32,15 @@ OPPOSITE = ("IMPORTANT: the two comparison cards must show OPPOSITE marks, not t
 
 def article_title(i, src): return f"【土地家屋調査士受験生向け】4コマ解説図解{i}～{src}～"
 
+def src_label(src):
+    m = re.match(r"([HR])(\d+)-Q(\d+)(.+)$", src)
+    era = "平成" if m.group(1) == "H" else "令和"; y = int(m.group(2))
+    return f"{era}{'元' if (era == '令和' and y == 1) else y}年度　第{int(m.group(3))}問　{m.group(4)}"
+
+def lead_text(lead1, src):
+    return (lead1 + "\n\n択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（" + src_label(src) + "）。"
+            "先に〇か×かを考えてから、読み進めてみてください。")
+
 def q(t): return f"「{t}」"
 def hlpart(h): return f" with the part {q(h)} highlighted in yellow" if h else ""
 
@@ -97,8 +106,7 @@ def render(sp):
             "どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。\n\n")
     out += "## 設計メモ（工程A）\n" + "\n".join(f"- {m}" for m in sp["design"]) + "\n\n"
     out += f"## 記事タイトル\n\n{article_title(sp['id'], sp['src'])}\n\n"
-    if sp.get("lead"):
-        out += "## note記事の冒頭文（試作）\n\n" + sp["lead"] + "\n\n"
+    out += "## note記事の冒頭文\n\n" + lead_text(sp["lead1"], sp["src"]) + "\n\n"
     out += "## 構成表（文言の正本）\n\n| 領域 | 話者・用途 | 正確な文言 | 強調 |\n|---|---|---|---|\n"
     out += "\n".join(f"| {a} | {b} | {c} | {d} |" for a, b, c, d in rows) + "\n\n"
     out += "## プロンプト本体\n\n```text\n" + body + "\n```\n\n"
