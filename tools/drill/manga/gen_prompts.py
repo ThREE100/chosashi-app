@@ -15,6 +15,8 @@ BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or 
 
 CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. {PARTIES}
 
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
 FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
@@ -22,7 +24,7 @@ STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study c
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
-- Conclusion banner at the bottom (about 110 px tall)."""
+- Conclusion banner at the bottom (about 110 px tall).{NOTE_LAYOUT}"""
 
 MOODS = ["藍子 confident, トリ先生 exasperated but caring", "藍子 puzzled, トリ先生 explaining with a wing-pointer",
          "both characters point together at the same figure; 藍子 realizing", "藍子 relieved, トリ先生 smiling proudly"]
@@ -53,7 +55,8 @@ def build(sp):
                    "each with a small round label tag containing the full-width letter given in the text plan.")
     else:
         parties = "Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below."
-    body = HEAD.replace("{LETTERS_OK}", letters_ok).replace("{PARTIES}", parties) + "\n\n"
+    nl = (" Between panel 4 and the conclusion banner, a thin one-line note strip (about 50 px tall) with small text, as given in the NOTE LINE below." if sp.get("note") else "")
+    body = HEAD.replace("{LETTERS_OK}", letters_ok).replace("{PARTIES}", parties).replace("{NOTE_LAYOUT}", nl) + "\n\n"
     body += f"TITLE BANNER: text {q(sp['title'])} in large bold letters; the part {q(sp['title_hl'])} has a yellow highlighter marker.\n\n"
     rows = [("タイトル帯", "—", sp["title"], sp["title_hl"] and f"「{sp['title_hl']}」を黄色マーカー")]
     for i, p in enumerate(pan):
@@ -68,16 +71,20 @@ def build(sp):
                 if t not in figstr: figstr.append(t)
         rows.append((f"コマ{n} 図", "図・カード", " / ".join(figstr), "—"))
         for b in p["bubbles"]:
-            who, text, hl = b
+            who, text, hl = b[:3]
+            brk = b[3] if len(b) > 3 else None
             side = "left" if who == "藍子" else "right"
             role = "spoken first" if who == "藍子" else "spoken as the answer"
-            body += f"- {who} bubble ({side}, {role}): {q(text)}{hlpart(hl)}.\n"
+            body += f"- {who} bubble ({side}, {role}): {q(brk or text)}{hlpart(hl)}." + (" The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines." if brk else "") + "\n"
             rows.append((f"コマ{n}", f"{who}（{'左・先に話す' if who=='藍子' else '右・答える'}）", text, f"「{hl}」" if hl else "—"))
         if p.get("checklist"):
             body += ("- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: "
                      + ", ".join(q(c) for c in p["checklist"]) + ".\n")
             rows.append((f"コマ{n} チェック欄", "3項目（青✓）", " / ".join(p["checklist"]), "—"))
         body += "\n"
+    if sp.get("note"):
+        body += f"NOTE LINE (small text on a thin strip between panel 4 and the conclusion banner, one line, fully legible): {q(sp['note'])}\n\n"
+        rows.append(("注記", "小さな注記（コマ4の下）", sp["note"], "—"))
     body += ("CONCLUSION BANNER (strong contrasting solid color, large text, two lines):\n"
              f"- Line 1: {q(sp['band1'])} with a yellow highlighter marker.\n- Line 2: {q(sp['band2'])}\n\n")
     rows.append(("結論帯", "1行目", sp["band1"], "黄色マーカー"))
@@ -90,7 +97,7 @@ def build(sp):
            "and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right "
            "and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; "
            f"confirm the characters {', '.join(kan)} are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; "
-           "confirm every stamp, arrow, and label stays inside its own card or panel frame; ")
+           "confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; ")
     if has_opp:
         fin += "confirm the left comparison card has only a blue check mark and the right card only a red cross; "
     fin += "confirm the background is fully opaque with no transparency, alpha channel, or checkerboard."
@@ -127,7 +134,7 @@ def header_prompt(sp, opt="A"):
 STYLE: {style}. Keep exactly the same overall layout: the title block at the top center, the two characters at the bottom center, and topic scenes fading softly into the left and right edges.
 {bg}
 
-CHARACTERS (critical): follow the attached character-specification images exactly and do not redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue shirt, red neckerchief) standing at the lower left of center with one wing raised as if explaining. 藍子 is the young woman exam candidate (long wavy brown hair, blouse with thin blue vertical stripes, navy suit) at the lower right of center, resting her chin on one hand with a pen, looking up at トリ先生 with a curious smile, an open textbook on the desk in front of her. Keep both characters facing each other and fully visible, with their faces clear of the title text, and keep 藍子's hairstyle exactly as in the attached images.
+CHARACTERS (critical): follow the attached character-specification images exactly and do not redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue shirt, red neckerchief) standing at the lower left of center with one wing raised as if explaining. 藍子 is the young woman exam candidate (long wavy brown hair, blouse with thin blue vertical stripes, navy suit) at the lower right of center, resting her chin on one hand with a pen, looking up at トリ先生 with a curious smile, an open textbook on the desk in front of her. Keep both characters facing each other and fully visible, with their faces clear of the title text, and keep 藍子's hairstyle exactly as in the attached images. Keep 藍子's human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and the Arabic numeral 4; the only Latin letters and digits allowed are those in the subtitle exactly as written below. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
 
@@ -173,7 +180,7 @@ def filename_section(sp):
 
 def render(sp):
     body, rows = build(sp)
-    out = f"# {sp['id']} 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）\n\n"
+    out = f"# {sp['id']} 4コマ解説図解 プロンプト（ChatGPT貼付用・{sp.get('ver','v01')}）\n\n"
     out += (f"- 肢：{sp['id']}（{sp['topic']}、出典 {sp['src']}）。正解＝{sp['truth']}。誤解{sp['miscon']}回。\n"
             f"- 記事：`{sp['article']}` {sp['art_head']}\n- ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）\n"
             "- 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の5枚。トリ先生・藍子の基準画像）** を添付し、"
@@ -183,6 +190,8 @@ def render(sp):
     out += "## note記事の冒頭文\n\n" + lead_text(sp["lead1"], sp["src"]) + "\n\n"
     out += "## 構成表（文言の正本）\n\n| 領域 | 話者・用途 | 正確な文言 | 強調 |\n|---|---|---|---|\n"
     out += "\n".join(f"| {a} | {b} | {c} | {d} |" for a, b, c, d in rows) + "\n\n"
+    if sp.get("extra_refs"):
+        out += "## 記事に無い条文（ユーザー指示で追加）\n\n" + "".join(f"- {r}\n" for r in sp["extra_refs"]) + "\n"
     out += "## プロンプト本体\n\n```text\n" + body + "\n```\n\n"
     out += header_section(sp)
     out += filename_section(sp)
@@ -194,12 +203,19 @@ def render(sp):
             "- [ ] タイトル・全セリフ・ラベルが構成表と一字一句一致\n- [ ] スタンプ・矢印・ラベルが各カードの枠の内側に収まっている\n"
             "- [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性\n- [ ] 簡体字・英字なし、背景が不透明\n"
             "- [ ] 記事の文言から外れていない（独自の理由づけなし）\n")
+    if sp.get("rev"):
+        out += "\n## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）\n\n" + "".join(f"- {r}\n" for r in sp["rev"])
     return out
 
 def patch_d0520():
-    """手作りのD0520_prompt.mdに、見出し画像のセクションを差し込む（既にあれば置き換える）。"""
+    """手作りのD0520_prompt.mdに、見出し画像のセクションと藍子の人体構造の指示を差し込む（既にあれば置き換える）。"""
     from manga_specs import D0520_HEADER_SP
     p = HERE / "D0520_prompt.md"; s = p.read_text(encoding="utf8")
+    anat = re.search(r"ANATOMY \(critical, 藍子\):.*", HEAD).group(0)
+    if "ANATOMY (critical" not in s:
+        s = s.replace("\n\nFIXED POSITIONS", "\n\n" + anat + "\n\nFIXED POSITIONS", 1)
+    if "exactly two arms and two hands" not in s:
+        s = s.replace("confirm the background is fully opaque", "confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the background is fully opaque", 1)
     s = re.sub(r"## 見出し画像プロンプト.*?(?=## 作成時の品質ゲート)", "", s, flags=re.S)
     s = re.sub(r"## 画像ファイル名.*?(?=## 作成時の品質ゲート)", "", s, flags=re.S)
     s = s.replace("## 作成時の品質ゲート", header_section(D0520_HEADER_SP) + filename_section(D0520_HEADER_SP) + "## 作成時の品質ゲート", 1)
@@ -207,7 +223,12 @@ def patch_d0520():
 
 if __name__ == "__main__":
     from manga_specs import SPECS
-    ids = sys.argv[1:] or list(SPECS) + ["D0520"]
+    if "--check" in sys.argv:
+        # 同期チェック：設計データから作り直した内容と、リポジトリの <ID>_prompt.md が一致するか。手で直した・直し忘れた版を検出する。
+        bad = [i for i in SPECS if (HERE / f"{i}_prompt.md").read_text(encoding="utf8") != render(SPECS[i])]
+        for i in bad: print(f"OUT OF SYNC {i}: {i}_prompt.md が manga_specs.py から生成した内容と違う（設計データを直して再生成する）")
+        print(f"同期チェック: 不一致 {len(bad)}件"); sys.exit(1 if bad else 0)
+    ids = [a for a in sys.argv[1:] if not a.startswith("--")] or list(SPECS) + ["D0520"]
     for i in ids:
         if i == "D0520":
             patch_d0520(); print("patched D0520"); continue

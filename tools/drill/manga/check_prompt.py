@@ -210,7 +210,10 @@ def main():
                              capture_output=True, text=True, cwd=ROOT).stdout
         if not out: WARN("drill.py explain の出力が取れず、条文の出典照合をスキップ")
         else:
+            em = re.search(r"^## 記事に無い条文（ユーザー指示で追加）\n\n(.*?)(?=^## )", src, re.M | re.S)
+            allowed = set(re.findall(r"^- (.+)$", em.group(1), re.M)) if em else set()
             for ref in dict.fromkeys(re.findall(r"民法\d+条(?:の\d+)?(?:\d+項)?|不動産登記法\d+条", main_body)):
+                if ref in allowed: WARN(f"条文「{ref}」は記事に無いが、ユーザー指示で追加された（「記事に無い条文」の節）"); continue
                 if ref not in out: NG(f"条文「{ref}」が記事の解説（drill.py explain {iid.group(1)}）にない。記事の範囲を超えている")
     report()
 

@@ -1,4 +1,4 @@
-# D0026 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0026 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0026（不動産登記法／土地の分筆・合筆・地積更正、出典 H17-Q06肢1）。正解＝×（誤った記述）。誤解4回。
 - 記事：`note-articles/h17-mondai/q06-bunpitsu-shinsei.md` 1「仮差押があっても、分筆に債権者の承諾は不要」
@@ -38,7 +38,7 @@
 | コマ2 | 藍子（左・先に話す） | 分筆すると、仮差押えの内容まで変わるんですか？ | — |
 | コマ2 | トリ先生（右・答える） | いいえ。一筆を複数に区分する物理的な変更にすぎないのよ | 「物理的な変更」 |
 | コマ3 見出し | ラベル | ③　仮差押えの行き先 | — |
-| コマ3 図 | 図・カード | 仮差押え / 登記官 / 各土地の登記記録に引き継ぐ | — |
+| コマ3 図 | 図・カード | 仮差押え / 登記官 / 各土地の登記記録に引き継ぐ（転写） | — |
 | コマ3 | 藍子（左・先に話す） | 仮差押えは、分筆したらどうなるんですか？ | — |
 | コマ3 | トリ先生（右・答える） | 分筆後の各土地に、当然に効力が及ぶのよ | 「当然に効力が及ぶ」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
@@ -46,8 +46,13 @@
 | コマ4 | 藍子（左・先に話す） | 債権者の承諾を証する情報は、提供しなくていいんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そのとおり。承諾が必要という記述は×よ | 「承諾が必要という記述は×」 |
 | コマ4 チェック欄 | 3項目（青✓） | 分筆は一筆を区分する物理的な変更 / 仮差押えは分筆後の各土地に及ぶ / 債権者の承諾を証する情報は不要 | — |
+| 注記 | 小さな注記（コマ4の下） | 注）抵当権など所有権以外の権利を分筆後の一方の土地だけで消滅させるときは、権利者の承諾を証する情報が必要（不動産登記法40条） | — |
 | 結論帯 | 1行目 | 仮差押えの効力は分筆後の各土地に及び、債権者の承諾は不要 | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D0026　正解×（H17-Q06肢1） | — |
+
+## 記事に無い条文（ユーザー指示で追加）
+
+- 不動産登記法40条
 
 ## プロンプト本体
 
@@ -60,6 +65,8 @@ BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or 
 
 CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. The legal parties Ａ, Ｂ are NOT characters: draw them only as small, faceless, flat pictogram figures, each with a small round label tag containing the full-width letter given in the text plan.
 
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
 FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
@@ -67,7 +74,7 @@ STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study c
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
-- Conclusion banner at the bottom (about 110 px tall).
+- Conclusion banner at the bottom (about 110 px tall). Between panel 4 and the conclusion banner, a thin one-line note strip (about 50 px tall) with small text, as given in the NOTE LINE below.
 
 TITLE BANNER: text 「仮差押えがあっても、分筆に債権者の承諾は不要」 in large bold letters; the part 「債権者の承諾は不要」 has a yellow highlighter marker.
 
@@ -79,15 +86,17 @@ PANEL 1 (藍子 confident, トリ先生 exasperated but caring):
 
 PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer):
 - Label tab: 「②　分筆とは」
-- On the left, one plot-of-land block labeled 「一筆」 with the diagonal ribbon 「仮差押え」. A navy arrow (this arrow means the procedure of dividing the land, not a sale) labeled 「分筆」 points to the right, where two plain plot blocks without ribbons are drawn side by side and labeled 「二筆」.
+- On the left, one plot-of-land block labeled 「一筆」 with the diagonal ribbon 「仮差押え」. A navy arrow (this arrow means the procedure of dividing the land, not a sale) labeled 「分筆」 points to the right, where two plot blocks are drawn side by side and labeled 「二筆」; BOTH of the two blocks carry the same diagonal ribbon 「仮差押え」 as the original block (the ribbon must not disappear after the division).
 - Under the arrow, a dark navy tag reads 「物理的に区分するだけ」.
 - 藍子 bubble (left, spoken first): 「分筆すると、仮差押えの内容まで変わるんですか？」.
-- トリ先生 bubble (right, spoken as the answer): 「いいえ。一筆を複数に区分する物理的な変更にすぎないのよ」 with the part 「物理的な変更」 highlighted in yellow.
+- トリ先生 bubble (right, spoken as the answer): 「いいえ。
+一筆を複数に区分する
+物理的な変更にすぎないのよ」 with the part 「物理的な変更」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 3 (both characters point together at the same figure; 藍子 realizing):
 - Label tab: 「③　仮差押えの行き先」
 - Two plot-of-land blocks side by side, each carrying its own diagonal ribbon 「仮差押え」.
-- A faceless clerk pictogram labeled 「登記官」 stands above them, with a navy arrow to both blocks labeled 「各土地の登記記録に引き継ぐ」.
+- A faceless clerk pictogram labeled 「登記官」 stands above them, with a navy arrow to both blocks labeled 「各土地の登記記録に引き継ぐ（転写）」.
 - 藍子 bubble (left, spoken first): 「仮差押えは、分筆したらどうなるんですか？」.
 - トリ先生 bubble (right, spoken as the answer): 「分筆後の各土地に、当然に効力が及ぶのよ」 with the part 「当然に効力が及ぶ」 highlighted in yellow.
 
@@ -97,13 +106,15 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly):
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。承諾が必要という記述は×よ」 with the part 「承諾が必要という記述は×」 highlighted in yellow.
 - A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「分筆は一筆を区分する物理的な変更」, 「仮差押えは分筆後の各土地に及ぶ」, 「債権者の承諾を証する情報は不要」.
 
+NOTE LINE (small text on a thin strip between panel 4 and the conclusion banner, one line, fully legible): 「注）抵当権など所有権以外の権利を分筆後の一方の土地だけで消滅させるときは、権利者の承諾を証する情報が必要（不動産登記法40条）」
+
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 - Line 1: 「仮差押えの効力は分筆後の各土地に及び、債権者の承諾は不要」 with a yellow highlighter marker.
 - Line 2: 「問題D0026　正解×（H17-Q06肢1）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 債, 効, 地, 当, 所, 承, 押, 権, 物, 登, 肢, 解, 記, 証, 請, 諾, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 債, 効, 地, 当, 所, 承, 抵, 押, 権, 物, 登, 肢, 解, 記, 証, 請, 諾, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -127,7 +138,7 @@ Create a note.com article header image (eyecatch thumbnail), 1280x670px
 STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the two characters at the bottom center, and topic scenes fading softly into the left and right edges.
 Fill the whole canvas with the pastel sky and soft clouds.
 
-CHARACTERS (critical): follow the attached character-specification images exactly and do not redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue shirt, red neckerchief) standing at the lower left of center with one wing raised as if explaining. 藍子 is the young woman exam candidate (long wavy brown hair, blouse with thin blue vertical stripes, navy suit) at the lower right of center, resting her chin on one hand with a pen, looking up at トリ先生 with a curious smile, an open textbook on the desk in front of her. Keep both characters facing each other and fully visible, with their faces clear of the title text, and keep 藍子's hairstyle exactly as in the attached images.
+CHARACTERS (critical): follow the attached character-specification images exactly and do not redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue shirt, red neckerchief) standing at the lower left of center with one wing raised as if explaining. 藍子 is the young woman exam candidate (long wavy brown hair, blouse with thin blue vertical stripes, navy suit) at the lower right of center, resting her chin on one hand with a pen, looking up at トリ先生 with a curious smile, an open textbook on the desk in front of her. Keep both characters facing each other and fully visible, with their faces clear of the title text, and keep 藍子's hairstyle exactly as in the attached images. Keep 藍子's human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and the Arabic numeral 4; the only Latin letters and digits allowed are those in the subtitle exactly as written below. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
 
@@ -180,3 +191,8 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+
+## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
+
+- 2026-10-07 v02：①コマ2の「二筆」の両方に仮差押えのリボンを付ける（v01は消えていた）／②コマ2のトリ先生の吹き出しを3行（いいえ。／一筆を複数に区分する／物理的な変更にすぎないのよ）に固定／③コマ3の矢印を「各土地の登記記録に引き継ぐ（転写）」に併記／④コマ4の下に注記（抵当権など所有権以外の権利を消滅させるときは承諾が必要・法40条。ユーザー指示。法40条は記事に無いので「記事に無い条文」に記録）／⑤藍子の人体構造（腕2本・手2本・指5本）とコマごとのポーズ変更、記事内容の理解に必要な要素の表現を全プロンプトに追加
+- 2026-10-07 v01：初版
