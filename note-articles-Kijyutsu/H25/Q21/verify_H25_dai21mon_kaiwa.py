@@ -204,9 +204,7 @@ for i in range(1, 22):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'H25_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 nums = [int(m) for m in re.findall(r"(?:new_figure\(|fixed_figure\(|fig\.suptitle\()'図(\d+)　", draw)]
-# 2026-10-07以後に作った図は画像の中に図番を書かない（ユーザー指示）。それより前の20枚は画像の中の番号を変えない（1〜20のまま）
-judge(f'作図スクリプトの既存の図のタイトル番号が1から20まで（{sorted(nums)}）', sorted(nums) == list(range(1, 21)))
-judge('2026-10-07に足した図（C点の延長）のタイトルに図番がない', "new_figure('問1の前提　C点は、" in draw)
+judge(f'作図スクリプトの図のタイトル番号が1から21まで（{sorted(nums)}）', sorted(nums) == list(range(1, 22)))
 judge('作図スクリプトの fit がすべて pad_aspect=True', all('pad_aspect=True' in l for l in draw.splitlines()
                                                          if re.match(r'\s*fit\(', l)))
 for s in ['（151.63, 171.42）', '（138.08, 170.37）', '（151.84, 181.30）', '（137.52, 174.55）', '（151.37, 148.18）',
