@@ -10,7 +10,7 @@ description: 一問一答ドリルで誤解の多い肢の「4コマ解説図解
 ## 新しい肢のプロンプトを作る
 1. `python3 tools/drill/drill.py explain <ID>` で正解・出典・記事の解説を読む（独自の解説・記事にない条文は入れない）。
 2. **工程A（設計）**：登場人物の台帳（初出のコマを決める）、矢印の意味の台帳（取引／効力／手続を同じ鎖でつながない）、会話の順序（藍子の質問→トリ先生の答え）、配色（はい・○＝青、いいえ・×＝赤、中立＝ネイビー。他の色名や色の選択指示・否定は書かない）。
-3. `tools/drill/manga/<ID>_prompt.md` を `D0520_prompt.md` と同じ構成（構成表＋```text のプロンプト＋検品チェック）で書く。
+3. `tools/drill/manga/manga_specs.py` に設計データ（工程Aの内容）を足し、`python3 tools/drill/manga/gen_prompts.py <ID>` で `<ID>_prompt.md`（構成表＋```text のプロンプト＋検品チェック。見本は `D0520_prompt.md`）を生成する。
 4. **工程B**：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/<ID>_prompt.md` を実行し、**NG 0件**にする。WARNは理由を確認する。
 5. **工程C（目視レビュー）**：①初見の読者テスト（全ノード・全矢印の始点→終点の意味を1行で言えるか）、②構成表の全文言を記事と1つずつ突き合わせ、③対比カードの極性。結果をユーザーに要約して報告してから、プロンプトを渡す。
 

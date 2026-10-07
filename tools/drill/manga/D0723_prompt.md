@@ -1,0 +1,114 @@
+# D0723 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+
+- 肢：D0723（民法／物権変動・対抗要件、出典 H24-Q03ウ）。正解＝×（誤った記述）。誤解3回。
+- 記事：`note-articles/h24-mondai/q03-taikouyouken.md` ウ「中間省略登記の合意があっても、債権者の代位行使は妨げられない」
+- ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
+- 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の5枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
+
+## 設計メモ（工程A）
+- 登場人物：Ａ・Ｂ・Ｃ・Ｅ（Ｂの債権者）をコマ1で紹介（Ｄは使わない）。
+- 矢印の意味を線種で区別：実線＝売却（所有権の移転）、点線＝登記の移転、コマ4の太い実線＝Ｅの請求（代位）。コマ2に凡例「実線＝売却　点線＝登記の移転」を入れる。
+- 会話順：藍子の誤解（合意があればＥは請求できない）→中間省略登記とは→合意は経路の取決めにとどまる→結論（記述は×）。
+- 配色：対比カードの○×は使わない（コマ2は左右の説明カードで印なし）。チェック欄は青。
+- 記事の範囲：登記は原則Ａ→Ｂ→Ｃ／三者間の合意でＢを飛ばしてＡ→Ｃ／合意があってもＢの登記請求権は消滅しない（合意は登記を移す経路の取決め）／ＥはＢに代位してＡに請求できる（民法423条）。
+- 注意：この肢は条文照合で「判例の出典が記事に示されていない」旨の指摘あり（#article-fix 対象）。図解は記事の文言どおりにとどめ、判例名・年月日・条文の追加はしない。
+
+## 構成表（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 中間省略登記の合意があっても、Ｅは代位して請求できる | 「Ｅは代位して請求できる」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　よくある思い込み | — |
+| コマ1 図 | 図・カード | Ａ / Ｂ / Ｃ / 売却 / Ｅ / Ｂの債権者 / 登記名義はＡのまま / Ａ→Ｂ→Ｃと順次譲渡 | — |
+| コマ1 | 藍子（左・先に話す） | 三者で合意したなら、Ｅはもう請求できませんよね？ | 「もう請求できませんよね？」 |
+| コマ1 | トリ先生（右・答える） | 出たわね。その合意が何を決めたのか、見てごらん | — |
+| コマ2 見出し | ラベル | ②　中間省略登記とは | — |
+| コマ2 図 | 図・カード | 原則 / Ａ→Ｂ、Ｂ→Ｃと順に登記 / Ａ / Ｂ / Ｃ / 三者間の合意がある場合 / Ａ→Ｃへ直接登記 / 実線＝売却　点線＝登記の移転 | — |
+| コマ2 | 藍子（左・先に話す） | 中間省略登記って、何ですか？ | — |
+| コマ2 | トリ先生（右・答える） | Ｂを飛ばして、ＡからＣへ直接登記を移すことよ | 「Ｂを飛ばして」 |
+| コマ3 見出し | ラベル | ③　合意で登記請求権は消えない | — |
+| コマ3 図 | 図・カード | Ｂ / ＢのＡに対する登記請求権 / 消滅しない / 三者間の合意 / 登記を移す経路の取決め | — |
+| コマ3 | 藍子（左・先に話す） | 合意をしたら、Ｂの登記請求権は消えるんですか？ | — |
+| コマ3 | トリ先生（右・答える） | 消えないわ。合意は登記を移す経路の取決めなのよ | 「消えない」 |
+| コマ4 見出し | ラベル | ④　結論は× | — |
+| コマ4 図 | 図・カード | Ｅ / Ａ / Ｂに代わって、Ｂへの所有権移転登記を請求 / 代位（民法423条） | — |
+| コマ4 | 藍子（左・先に話す） | Ｅは、Ｂに代わってＡに請求できるんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。合意があっても代位行使は妨げられないのよ | 「代位行使は妨げられない」 |
+| コマ4 チェック欄 | 3項目（青✓） | 三者間の合意があってもＢの登記請求権は消えない / ＥはＢに代位してＡに請求できる / 代位は自己の債権を守るための制度 | — |
+| 結論帯 | 1行目 | 中間省略登記の合意があっても、債権者の代位行使は妨げられない | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D0723　正解×（H24-Q03ウ） | — |
+
+## プロンプト本体
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers, and the full-width letters Ａ Ｂ Ｃ Ｅ only where specified below. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a navy business suit over a blouse with thin blue vertical stripes; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. The legal parties Ａ, Ｂ, Ｃ, Ｅ are NOT characters: draw them only as small, faceless, flat pictogram figures, each with a small round label tag containing the full-width letter given in the text plan.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall).
+
+TITLE BANNER: text 「中間省略登記の合意があっても、Ｅは代位して請求できる」 in large bold letters; the part 「Ｅは代位して請求できる」 has a yellow highlighter marker.
+
+PANEL 1 (藍子 confident, トリ先生 exasperated but caring):
+- Label tab: 「①　よくある思い込み」
+- Small diagram in the middle: three faceless pictograms in a row with tags 「Ａ」, 「Ｂ」, and 「Ｃ」, joined by two SOLID navy arrows (Ａ to Ｂ and Ｂ to Ｃ), each labeled 「売却」. Below Ｂ stands a fourth pictogram with tag 「Ｅ」 joined to Ｂ by a thin line labeled 「Ｂの債権者」. Under Ａ a small plate reads 「登記名義はＡのまま」. Caption under the diagram: 「Ａ→Ｂ→Ｃと順次譲渡」.
+- 藍子 bubble (left, spoken first): 「三者で合意したなら、Ｅはもう請求できませんよね？」 with the part 「もう請求できませんよね？」 highlighted in yellow.
+- トリ先生 bubble (right, spoken as the answer): 「出たわね。その合意が何を決めたのか、見てごらん」.
+
+PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer):
+- Label tab: 「②　中間省略登記とは」
+- Two explanation cards side by side, with no mark on either card. In this panel, DASHED navy arrows mean the transfer of the registration.
+- Left card, heading 「原則」, body 「Ａ→Ｂ、Ｂ→Ｃと順に登記」, showing pictograms 「Ａ」, 「Ｂ」, 「Ｃ」 with two short dashed arrows.
+- Right card, heading 「三者間の合意がある場合」, body 「Ａ→Ｃへ直接登記」, showing pictograms 「Ａ」, 「Ｂ」, 「Ｃ」 with one long dashed arrow from Ａ to Ｃ that skips Ｂ.
+- A small legend at the bottom reads 「実線＝売却　点線＝登記の移転」.
+- 藍子 bubble (left, spoken first): 「中間省略登記って、何ですか？」.
+- トリ先生 bubble (right, spoken as the answer): 「Ｂを飛ばして、ＡからＣへ直接登記を移すことよ」 with the part 「Ｂを飛ばして」 highlighted in yellow.
+
+PANEL 3 (both characters point together at the same figure; 藍子 realizing):
+- Label tab: 「③　合意で登記請求権は消えない」
+- Pictogram 「Ｂ」 holds a document labeled 「ＢのＡに対する登記請求権」 with a navy sticker 「消滅しない」 on it.
+- Beside it, an explanation card (no mark) with the heading 「三者間の合意」 and the body 「登記を移す経路の取決め」.
+- 藍子 bubble (left, spoken first): 「合意をしたら、Ｂの登記請求権は消えるんですか？」.
+- トリ先生 bubble (right, spoken as the answer): 「消えないわ。合意は登記を移す経路の取決めなのよ」 with the part 「消えない」 highlighted in yellow.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly):
+- Label tab: 「④　結論は×」
+- Pictogram 「Ｅ」 with a solid navy arrow to pictogram 「Ａ」 (a demand), labeled 「Ｂに代わって、Ｂへの所有権移転登記を請求」, and a small tag 「代位（民法423条）」.
+- 藍子 bubble (left, spoken first): 「Ｅは、Ｂに代わってＡに請求できるんですね！」.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。合意があっても代位行使は妨げられないのよ」 with the part 「代位行使は妨げられない」 highlighted in yellow.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「三者間の合意があってもＢの登記請求権は消えない」, 「ＥはＢに代位してＡに請求できる」, 「代位は自己の債権を守るための制度」.
+
+CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+- Line 1: 「中間省略登記の合意があっても、債権者の代位行使は妨げられない」 with a yellow highlighter marker.
+- Line 2: 「問題D0723　正解×（H24-Q03ウ）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 債, 売, 対, 所, 権, 渡, 登, 解, 記, 請, 譲, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
+- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0723_prompt.md` が NG 0件
+- [ ] 工程C：初見の読者：実線（売却）と点線（登記の移転）と請求の矢印が混ざらない。コマ2の凡例がある
+- [ ] 工程C：構成表の全文言を記事（H24-Q03ウ）と突き合わせ：「合意は経路の取決め」「登記請求権は消滅しない」「代位（民法423条）」。判例名を足していない
+- [ ] 工程C：結論が×（請求できないという記述が誤り）であることが、コマ4のラベル・台詞・結論帯から読み取れる
+
+## 生成後の照合チェック（文言の正本は上の構成表）
+- [ ] 4コマ縦一列／タイトル帯・結論帯あり
+- [ ] 全コマで藍子＝左・トリ先生＝右、全吹き出しの尾が話者へ向く。藍子の髪型が全コマで同じ
+- [ ] タイトル・全セリフ・ラベルが構成表と一字一句一致
+- [ ] スタンプ・矢印・ラベルが各カードの枠の内側に収まっている
+- [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
+- [ ] 簡体字・英字なし、背景が不透明
+- [ ] 記事の文言から外れていない（独自の理由づけなし）

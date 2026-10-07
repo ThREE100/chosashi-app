@@ -9,7 +9,7 @@ MANGA_RULES.md の「プロンプト作成の品質ゲート」の機械化で�
 import re, subprocess, sys, itertools, difflib, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
-RISKY = set("号録権地番建物登記所請還売買当初詐欺規対抗無過効張説解間違肢")
+RISKY = set("号録権地番建物登記所請還売買当初詐欺規対抗無過効張説解間違肢承諾譲渡押債抵援認届款占帯証代保")
 LEFT, RIGHT = "藍子", "トリ先生"
 ng, warn = [], []
 
