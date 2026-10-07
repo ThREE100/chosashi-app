@@ -1,6 +1,8 @@
 """令和7年度 第21問（土地）登記申請書の画像（完成形・添削）を、HTML＋ヘッドレスブラウザでPNGに書き出す。
 
 - 完成形：`../prompt_R7_dai21mon_toukishinseisho_gazou.md`（基本フォーム＋記入データ）どおり。縦長（横1200px）。
+  答案用紙（`public/kijutsu/R07-tochi/a1.png`）の第5欄と欄の名前・順序・「（略）」の位置が同じことを2026-10-07に確かめた
+  （「第○欄」の欄の名前は、共通フォーム `prompt_toukishinseisho-gazou_kihon-form.md` のとおり申請書の画像には入れない）
   答案用紙のとおり、土地の表示の記入行2〜5の③地積は4行を結合したセルで、印刷の「（略）」が入る
 - 添削　：`../prompt_R7_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第2欄（問2のア〜カ）：申請書でない解答欄も、試験の答案用紙（`public/kijutsu/R07-tochi/a1.png`）の第2欄の形
@@ -127,7 +129,7 @@ kansei = page(f'''<div class="page">
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ） ----
 OLD_ADDR = 'Ｓ市Ｍ町二丁目３番５号'
 NEW_ADDR = 'Ｓ市Ｔ町一丁目10番１号'
-EXTRA = '住所証明情報'
+EXTRA = '住所証明書'   # 答案用紙の欄は「添付書類」なので、誤答も書面の名前で書く（2026-10-07、「住所証明情報」から直した）
 
 
 def snippet(attach_html, applicant_html, bubble1='', bubble2='', good=False):

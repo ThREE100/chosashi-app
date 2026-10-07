@@ -32,6 +32,7 @@ note-articles-Kijyutsu/
 ├── tools/
 │   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
 │   ├── zu_helpers.py                                   土地の解説図の作図ヘルパー（座標どおりの作図、境界標の記号〈コンクリート杭・金属標・石杭・鉄鋲・基準点〉、辺長・点名・座標の吹き出しの自動配置、寸法線〈dim_line〉、重なりの自動検査）
+│   ├── keysim_note_article.py                          会話形式の記事の電卓操作のキー列をそのまま実行し、「表示：」と一致するかを確かめる（変数の記憶・使い回しも再現）
 │   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
 ├── H20/
 │   ├── Q21/
@@ -337,10 +338,10 @@ note-articles-Kijyutsu/
     │   ├── prompt_R7_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」「添付書類」欄の誤答→添削→正解の画像プロンプト（会話形式用。3コマを縦に積んだ縦長）
     │   ├── prompt_R7_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（会話形式用、1280×670px）
     │   ├── prompt_R7_dai21mon_kaisetsuzu.md             解説図（K点・地積測量図・J点L点）作成プロンプト（プロース版用、R7第21問の座標入り）
-    │   ├── prompt_R7_dai21mon_kaiwa_kaisetsuzu.md       解説図12枚（全体図・D点・筆界の比較・K点・公差・地積測量図・J点・L点・分筆の地番・K点の別解・10月の申請までの時系列・解く順番）作成プロンプト（会話形式用。土地の基本フォームの記入済み見本）
+    │   ├── prompt_R7_dai21mon_kaiwa_kaisetsuzu.md       解説図18枚（記事の挿入順に、全体の時系列・全体図・注の仕分け・D点・筆界の比較・2等分の基準・K点・K点の別解・精度区分・公差・一の申請情報・第3欄の地積測量図・J点・台形・L点・分筆の地番・10月の申請までの時系列・解く順番）作成プロンプト（会話形式用。土地の基本フォームの記入済み見本）
     │   ├── verify_R7_dai21mon.py                        記事の数値・電卓表示の照合スクリプト（プロース版）
     │   ├── verify_R7_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト（会話形式）
-    │   └── zu/                                          解説図12枚のPNGと、作図の参照実装 draw_R7_dai21mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形・添削画像のPNGとHTML（R7_dai21mon_toukishinseisho_kansei／_machigai）と生成スクリプト make_R7_dai21mon_shinseisho_gazou.py
+    │   └── zu/                                          解説図18枚のPNG（zu01〜zu18、記事の挿入順。zu12は答案用紙の第3欄の枠ごと描いた地積測量図）と、作図の参照実装 draw_R7_dai21mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。第1欄・第2欄・第4欄の完成形、登記申請書の完成形・添削画像のPNGとHTML（R7_dai21mon_dai1ran／dai2ran／dai4ran_kansei、toukishinseisho_kansei／_machigai）と生成スクリプト make_R7_dai21mon_shinseisho_gazou.py
     └── Q22/
         ├── note_R7_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
         ├── prompt_R7_dai22mon_kaisetsuzu.md                   解説図6枚（変遷図・符号2の一部取壊し・柱芯の誤り比較図・1階/2階求積図・本番で解く順番）作成プロンプト

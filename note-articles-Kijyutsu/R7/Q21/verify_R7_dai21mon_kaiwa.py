@@ -147,8 +147,8 @@ b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋め
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（12枚）', n_fig == 12)
-for i in range(1, 13):
+judge(f'解説図プロンプトの図の数 {n_fig}枚（18枚）', n_fig == 18)
+for i in range(1, 19):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'R7_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 for s in ['Ｓ市Ｔ町一丁目10番１号　甲野一郎', '地積測量図　代理権限証書', '金2,000円', '③10番１、10番３に分筆']:
@@ -176,7 +176,7 @@ for s in ['土地分筆登記', '地積測量図　代理権限証書', '令和�
           '（略）']:
     check('完成形の画像（HTML）', s, html_k, '完成形画像')
     check('完成形の画像の記入データがプロンプトにある', s, form, '登記申請書')
-for s in ['①誤答', '②添削（赤ペン）', '③正解', '住所証明情報', 'Ｓ市Ｍ町二丁目３番５号', 'Ｓ市Ｔ町一丁目10番１号',
+for s in ['①誤答', '②添削（赤ペン）', '③正解', '住所証明書', 'Ｓ市Ｍ町二丁目３番５号', 'Ｓ市Ｔ町一丁目10番１号',
           '登記記録の住所と一致するので、住所の証明は要らない', '10月20日に住所変更登記が完了済み！登記記録の住所はもう新住所',
           '令和７年10月30日　申請　Ｓ地方法務局']:
     check('添削の画像（HTML）', s, html_m, '添削画像')
@@ -225,7 +225,7 @@ for i, l in enumerate(lines):
             dup.append(i + 1)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも）: {dup}', not dup)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図12＋添削1＋完成形1＋第1欄・第2欄・第4欄3＝計17か所の想定）', n_marker == 17)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図18〈第3欄の地積測量図を含む〉＋添削1＋完成形1＋第1欄・第2欄・第4欄3＝計23か所の想定）', n_marker == 23)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和7年度問題21（土地）〜'
@@ -241,7 +241,11 @@ check('四角形DGFE', f'{q_dgfe:.5f}㎡')
 check('△DKG', f'{t_dkg:.4f}㎡')
 check('面積の比', f'{t_dhk:.4f}：{t_dkg:.4f}')
 kg = abs(H - G) * t_dkg / (t_dhk + t_dkg)
-check('KG（面積の比）', f'KGは{fmt_num(kg)}')
+check('KG（面積の比） 表示', '表示：' + fmt_num(kg))
+check('四角形DGFE 表示', f'表示：（実部）− {fmt_num(abs(double_area_sum([D, G, F, E]).imag))}i')
+judge('四角形DGFEの表示 − 447.9853i', fmt_num(abs(double_area_sum([D, G, F, E]).imag)) == '447.9853')
+check('K ＝ G ＋ 6.48 表示', '表示：' + disp(G + round(kg, 2)))
+check('HKの検算', '23.50 − 6.48 ＝ 17.02')
 judge('面積の比でも K（199.98, 131.88）', r2(G + (H - G) / abs(H - G) * kg) == K)
 check('10月は相続を証する情報が要らない', '相続を証する情報は要りません')
 check('所有権に関する登記の完了日', '9月20日に完了')
@@ -261,23 +265,29 @@ check('解説図プロンプトのタイトル', title[2:], fig, '解説図')
 # 画像挿入マーカーと zu/ のPNGが記事の順に対応しているか
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
-PNGS = [('R7_dai21mon_zu01_zentaizu', '全体図', 'fig'),
-        ('R7_dai21mon_zu02_D_housha', 'D点を求める図', 'fig'),
-        ('R7_dai21mon_zu03_hikkai_D', '杭D（生垣の間）の比較図', 'fig'),
-        ('R7_dai21mon_zu04_K_nitoubun', 'K点の求め方の図', 'fig'),
-        ('R7_dai21mon_zu10_K_menseki_hi', 'K点の別解の図', 'fig'),
+PNGS = [('R7_dai21mon_zu01_jikeiretsu_zentai', '全体の時系列の図', 'fig'),
+        ('R7_dai21mon_zu02_zentaizu', '全体図', 'fig'),
+        ('R7_dai21mon_zu03_chuu_shiwake', '注の仕分けの図', 'fig'),
+        ('R7_dai21mon_zu04_D_housha', 'D点を求める図', 'fig'),
+        ('R7_dai21mon_zu05_hikkai_D', '杭D（生垣の間）の比較図', 'fig'),
+        ('R7_dai21mon_zu06_nitoubun_kijun', '2等分の基準の比較図', 'fig'),
+        ('R7_dai21mon_zu07_K_nitoubun', 'K点の求め方の図', 'fig'),
+        ('R7_dai21mon_zu08_K_menseki_hi', 'K点の別解の図', 'fig'),
         ('R7_dai21mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
-        ('R7_dai21mon_zu05_kousa', '公差の判定図', 'fig'),
+        ('R7_dai21mon_zu09_seido_kubun', '精度区分の選び方の図', 'fig'),
+        ('R7_dai21mon_zu10_kousa', '公差の判定図', 'fig'),
         ('R7_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
-        ('R7_dai21mon_zu06_chiseki_sokuryouzu', '地積測量図（10番1・10番2）の完成見本', 'fig'),
-        ('R7_dai21mon_zu07_J_heikousen', 'J点の求め方の図', 'fig'),
-        ('R7_dai21mon_zu08_L_souji', 'L点・M点の求め方の図', 'fig'),
+        ('R7_dai21mon_zu11_ikkatsu_shinsei', '一の申請情報の図', 'fig'),
+        ('R7_dai21mon_zu12_chiseki_sokuryouzu', '第3欄（問3）の地積測量図の完成見本', 'fig'),
+        ('R7_dai21mon_zu13_J_heikousen', 'J点の求め方の図', 'fig'),
+        ('R7_dai21mon_zu14_daikei', '台形の図', 'fig'),
+        ('R7_dai21mon_zu15_L_souji', 'L点・M点の求め方の図', 'fig'),
         ('R7_dai21mon_dai4ran_kansei', '第4欄（問4）の完成形', 'wide'),
-        ('R7_dai21mon_zu09_bunpitsu_chiban', '10月30日の分筆の図', 'fig'),
+        ('R7_dai21mon_zu16_bunpitsu_chiban', '10月30日の分筆の図', 'fig'),
         ('R7_dai21mon_toukishinseisho_machigai', '誤答→添削→正解の3コマ', 'tall'),
-        ('R7_dai21mon_zu11_jikeiretsu', '10月30日の申請までの時系列の図', 'fig'),
-        ('R7_dai21mon_toukishinseisho_kansei', '登記申請書（問5）の完成形', 'tall'),
-        ('R7_dai21mon_zu12_kaku_junban', '本番で解く順番の図', 'fig')]
+        ('R7_dai21mon_zu17_jikeiretsu_10gatsu', '10月30日の申請までの時系列の図', 'fig'),
+        ('R7_dai21mon_toukishinseisho_kansei', '第5欄（問5）の登記申請書の完成形', 'tall'),
+        ('R7_dai21mon_zu18_kaku_junban', '本番で解く順番の図', 'fig')]
 judge(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
 for (name, key, kind), m in zip(PNGS, markers):
     png = os.path.join(ZU, name + '.png')
@@ -306,5 +316,63 @@ h_ = open(os.path.join(ZU, 'R7_dai21mon_dai2ran_kansei.html'), encoding='utf-8')
 for n in ['第2欄', '>ア<', '>カ<', '280.59', '2.32', '超えています', '錯誤', '土地の地積の更正', '必要があります']:
     check('R7_dai21mon_dai2ran_kansei.html', n, h_, '欄の完成形HTML')
 check('欄の完成形プロンプト', 'ア「280.59」、イ「2.32」、ウ「超えています」、エ「錯誤」、オ「土地の地積の更正」、カ「必要があります」', form, '登記申請書')
+
+
+# ---- 2026-10-07の照らし直し（最新の執筆指示書） ----
+# まとめのワナの各項目 → その会話の直後に置いた図（マーカーの文言の頭）
+TRAPS = [('**筆界はC→D→Eで折れる**', '花子の説明（CとEの直線）と杭D'),
+         ('**観測角は時計回りに足す**', 'T2からの放射でD点を求める図'),
+         ('**2等分は実測の面積で**', '2等分の基準の比較図'),
+         ('**精度区分は地域で決まる**', '精度区分の選び方の図'),
+         ('**地積更正と分筆は一の申請情報**', '一の申請情報の図'),
+         ('**L点は延長線の交点で相似**', '台形の図'),
+         ('**10月の分筆の地番は10番3**', '10月30日の分筆の図'),
+         ('**申請人の住所は登記記録の最新の住所**', '登記申請書「申請人」欄と「添付書類」欄の誤答'),
+         ('**L点は最後に回す**', '本番で解く順番の図')]
+n_trap = len(re.findall(r'^- \*\*', text[text.index('## 第8章'):], re.M))
+judge(f'まとめのワナの数 {n_trap} ＝ 対応表 {len(TRAPS)}', n_trap == len(TRAPS))
+for t, mk in TRAPS:
+    check('まとめのワナ', '- ' + t)
+    judge(f'ワナの図がある : {t} → {mk}', any(m.startswith('> 【画像挿入】' + mk) for m in markers))
+# 2等分の誤り（登記記録の地積の半分 278.00）
+Kw = r2(H - round(hkw, 2))
+check('278で作った北側・南側', f'北側は{chiseki(area([C, H, Kw, D])):.2f}㎡、南側は{chiseki(area([D, Kw, G, F, E])):.2f}㎡')
+for v in ['277.97㎡', '283.21㎡', 'HK 16.72', 'K（200.28, 131.88）']:
+    check('2等分の誤りの図（プロンプト）', v, fig, '解説図')
+# 平行四辺形の誤り（DKから3.57離した線）
+from calc_helpers import intersect  # noqa: E402
+hw = 62.72 / 17.56
+nv = -(K - D) / abs(K - D) * 1j
+Lw2 = r2(intersect(K, H, D + nv * hw, K + nv * hw)[0])
+Mw2 = r2(intersect(D, C, D + nv * hw, K + nv * hw)[0])
+aw = area([Mw2, Lw2, K, D])
+for v in [f'L′（{Lw2.real:.2f}, {Lw2.imag:.2f}）', f'M′（{Mw2.real:.2f}, {Mw2.imag:.2f}）', f'{chiseki(aw):.2f}㎡しかない',
+          f'{62.72 - chiseki(aw):.2f}㎡足りない']:
+    check('平行四辺形の誤り', v)
+    check('平行四辺形の誤り（図のプロンプト）', v.replace('㎡しかない', '㎡').replace('㎡足りない', ''), fig, '解説図')
+check('L点のずれ', f'L点が{L.real - Lw2.real:.2f}m南にずれて')
+# 注の仕分け（第1章）
+for v in ['問題文の注1（全て適法）', '問題文の注8（分筆で新しい地番が生じるときは、北側から順に付ける）', '観測値の表の注2（北はX軸の正方向）']:
+    check('注の仕分け', v)
+# 第3欄の地積測量図（答案用紙の書式）
+for v in ["'第3欄'", '地　積　測　量　図', '10番1、10番2', 'Ｓ市Ｔ町一丁目', '（令和７年○月○日作成）', "'申 請 人'", "'縮尺'", "'250'"]:
+    check('第3欄の書式（作図スクリプト）', v, draw, '作図')
+check('第3欄の会話（印刷済みのもの）', '作成者と申請人の欄は『（略）』、作成日の欄、縮尺の250分の1は印刷済み')
+check('第3欄の会話（方位記号）', '方位記号は印刷されていないから、自分で描くのよ')
+# 2026-10-07に足した図・描き直した図のタイトルに図番がない
+for t in ['全体の時系列　8月の申請が問1〜問3', '注は2系統　問題文の注1〜8', '問1　2等分するのは「実測の面積」の半分',
+          '問2　精度区分は土地の呼び名ではなく地域で決まる', '問3　地積更正と分筆は一の申請情報', '問4　M・L・K・Dは平行四辺形ではなく台形']:
+    check('図番なしのタイトル（作図スクリプト）', "'" + t, draw, '作図')
+    absent('図番入りのタイトル', "'図", draw[draw.index(t) - 6:draw.index(t)], '作図')
+# 申請書の完成形は答案用紙の第5欄と同じ欄の順序
+order_k = [html_k.index(w) for w in ['登記の目的', '添　付　書　類', '令和７年10月30日', '申　　請　　人', '代　　理　　人', '登録免許税', '所　在']]
+judge('完成形の欄の順序が答案用紙どおり', order_k == sorted(order_k))
+# 電卓操作のキー列をそのまま実行して、直後の「表示：」と一致するか（tools/keysim_note_article.py。変数の記憶・使い回しも記事の順に再現する）
+from keysim_note_article import simulate  # noqa: E402
+sim = simulate(os.path.join(HERE, 'note_R7_dai21mon_tochi_kaiwa_kaisetsu.md'))
+judge(f'キー列を再現した表示の数 {len(sim)}（記事の「表示：」16個）', len(sim) == 16)
+for n_, want, got, ok_ in sim:
+    judge(f'キー列の再現 {n_}行目 : 記事「{want}」／ 再現「{got}」', ok_)
+absent('[Ans]キー（要点にないキー）', '[Ans]')
 
 print('NG件数:', ng)
