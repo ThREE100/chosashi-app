@@ -123,7 +123,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 号, 対, 建, 所, 権, 物, 登, 規, 解, 記 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that the first kanji of 「原則」 (in the panel 2 card heading and in the highlighted words of the panel 2 bubble) is 原 and the second is 則, never 思; confirm that every bubble contains exactly the words given, with no word dropped; confirm that 藍子 has the same hairstyle in all four panels (long wavy brown hair swept to one side, without straight-cut bangs, as in the attached references) and that every 「賃借権」 ribbon is the same dark navy. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 号, 対, 建, 所, 権, 物, 登, 規, 解, 記 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that the word 「原則」 is spelled exactly like this everywhere (never 「思則」); confirm that the first kanji of 「原則」 (in the panel 2 card heading and in the highlighted words of the panel 2 bubble) is 原 and the second is 則, never 思; confirm that every bubble contains exactly the words given, with no word dropped; confirm that 藍子 has the same hairstyle in all four panels (long wavy brown hair swept to one side, without straight-cut bangs, as in the attached references) and that every 「賃借権」 ribbon is the same dark navy. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -200,6 +200,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+- [ ] 顔アイコン・小さなキャラが指定の大きさ。キャラなしのコマにキャラ・吹き出しがない
+- [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
+- [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
 ## v01の検品結果（2026-10-07）→ v02で改修
 - 合格：タイトル・構成表の文言の大半、コマ2のカード（原則・56条5号）、コマ3の左右のカード（担保権・信託＝青✓、賃借権＝赤✕）、コマ4のチェック3項目、結論帯。吹き出しの尾・立ち位置・藍子の手（各コマ2本）・背景の不透明も問題なし。内容は記事（H17-Q12ウ）の範囲内で、法的に不正確な描写はない。

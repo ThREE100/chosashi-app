@@ -10,6 +10,7 @@ import re, subprocess, sys, itertools, difflib, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 RISKY = set("号録権地番建物登記所請還売買当初詐欺規対抗無過効張説解間違肢承諾譲渡押債抵援認届款占帯証代保")
+GARBLED = {"原則": "思則", "まとめて": "まとかて"}   # 過去に画像で字が崩れた語（崩れた形）。本文にあれば Final check で綴りを確認させる
 LEFT, RIGHT = "藍子", "トリ先生"
 ng, warn = [], []
 
@@ -219,6 +220,45 @@ def main():
             chk = len(re.findall(r"(?<!no )(?<!no\s)check mark", line)); crs = len(re.findall(r"(?<!no )cross", line))
             if chk and crs and "OPPOSITE" not in line and "Do not draw the same" not in line:
                 NG(f"同じ箱に check と cross の両方を指示: {line[:80]}")
+
+    # 10 一発合格チェック（2026-10-07。D0413・D0624・D1621の画像検品で見つかった不具合の再発防止）
+    STRICT = "一発合格ルール" in src and "適用済み" in src   # 新規・改修済みのプロンプトは NG、旧版は WARN（改修時に直す）
+    def R(m): (NG if STRICT else WARN)(m if STRICT else "（旧版・改修時に直す）" + m)
+    COLOR = re.compile(r"gr[ae]y|navy|white|yellow|pale|light|dark|cream|beige", re.I)
+    for pm in re.finditer(r"(PANEL \d.*?)(?=\nPANEL \d|\nCONCLUSION|\Z)", main_body, re.S):
+        blk = pm.group(1); tag = blk[:8]; head1 = blk.split("\n", 1)[0]
+        for ln in blk.splitlines():
+            # 10a 人物・領域・バー・壁の色は必ず指定する（指定がないと意味のない青・赤・緑・ピンクで塗られる）
+            if re.search(r"pictogram", ln) and "legend" not in ln.lower() and not COLOR.search(ln):
+                R(f"{tag}: 人型ピクトグラムの色の指定がない（同じ色・濃紺のタグなどを書く）: {ln[:70]}")
+            if re.search(r"\b(segments?|areas?|wall|ribbon)\b", ln, re.I) and not COLOR.search(ln):
+                R(f"{tag}: バー・領域・壁・リボンの色の指定がない: {ln[:70]}")
+            # 10b 青・赤・緑・ピンクを使ってよいのは、チェック・クロス・はい・いいえの矢印とラベルだけ
+            if re.search(r"\b(pink|green|orange|purple)\b", ln, re.I):
+                R(f"{tag}: 使ってよい色以外（ピンク・緑など）の指定: {ln[:70]}")
+            if re.search(r"(?<![-\w])(red|blue)\b", ln, re.I) and not re.search(r"check mark|cross|「はい」|「いいえ」|OPPOSITE|opposite|no check", ln, re.I) and "- A checklist" not in ln:
+                WARN(f"{tag}: 青・赤を○×・はい／いいえ以外に使っていないか確認: {ln[:70]}")
+        # 10c キャラの大きさは数値（px）で指定する
+        if ("face icons" in head1 or "VERY SMALL" in head1) and "px" not in head1:
+            R(f"{tag}: 顔アイコン・小さなキャラの大きさが数値（px）で指定されていない")
+        # 10d キャラなしのコマに吹き出しを置かない
+        if "NO character" in head1 and re.search(r"bubble", blk.split("\n", 1)[1]):
+            R(f"{tag}: キャラなしのコマに吹き出しがある")
+        # 10e 顔アイコンの会話ラリーは1回20字以内
+        if "face icons" in head1:
+            for bm in re.finditer(r"- (?:%s|%s) bubble[^:]*: 「([^」]+)」" % (LEFT, RIGHT), blk):
+                if len(bm.group(1).replace("\n", "")) > 25: WARN(f"{tag}: 顔アイコンの吹き出しが長い（{len(bm.group(1).replace(chr(10), ''))}字。20字前後に）: {bm.group(1)[:30]}")
+        # 10f 人物タグが3つ以上並ぶコマは「1列」「左から」の指定を書く
+        tags = set(re.findall(r"tags? 「([Ａ-Ｚ])」|「([Ａ-Ｚ])」", blk))
+        if len({x for t in tags for x in t if x}) >= 3 and not re.search(r"\bONE row\b|left to right", blk):
+            WARN(f"{tag}: 人物が3人以上いるのに、並べ方（ONE row / left to right）の指定がない")
+    # 10g 強調語（黄色マーカー）が吹き出しの文中にある（改行は除いて照合）
+    for bm in re.finditer(r"bubble[^:]*: 「([^」]+)」 with the part 「([^」]+)」 highlighted", main_body):
+        if bm.group(2) not in bm.group(1).replace("\n", ""): NG(f"強調語が吹き出しの文中にない: 「{bm.group(2)}」 / 「{bm.group(1).replace(chr(10), '/')}」")
+    # 10h 過去に字が崩れた語は、Final check で綴りを確認させる
+    for w, bad in GARBLED.items():
+        if w in main_body and f"「{w}」" not in final:
+            R(f"過去に「{bad}」と崩れた語「{w}」が本文にあるのに、Final checkで綴りを確認していない（final_extra か生成器の GARBLED）")
 
     # 9 条文の出典照合（任意）
     iids = re.findall(r"D\d{4}", tm.group(2)) if tm else []

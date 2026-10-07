@@ -44,9 +44,9 @@
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
 | コマ3 図 | 図・カード | よくある勘違い / 名義人が違うなら、全員が共同して申請する / ひっかけ：全員が共同して、という言葉 / 正しい整理 / 名義人が違っても、一人から単独で申請できる / たとえば：別々の人が所有する隣り合う2棟が工事で一棟になったら、そのうちの一人が単独で申請できる | — |
 | コマ3 | 藍子（左・1番目） | 名義人が違うなら、全員そろって申請では？ | — |
-| コマ3 | トリ先生（右・2番目） | それがひっかけ。全員が共同して、の言葉に引かれたわね | 「全員が共同して」 |
+| コマ3 | トリ先生（右・2番目） | 全員が共同して、の言葉に引かれたわね | 「全員が共同して」 |
 | コマ3 | 藍子（左・3番目） | 全員そろわないと、だめなんじゃないですか？ | — |
-| コマ3 | トリ先生（右・4番目） | 一人から単独でできるの。たとえば2棟の持ち主の一人よ | 「一人から単独で」 |
+| コマ3 | トリ先生（右・4番目） | 名義人の一人から、単独でできるのよ | 「一人から、単独で」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 全員で共同申請という記述は、誤りなんですね！ | — |
@@ -84,7 +84,7 @@ TITLE BANNER: text 「名義人が違う建物の合体は、一人から申請�
 PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
 - A large before-and-after diagram fills the panel, left to right.
-- On the left, two flat house icons side by side labeled 「甲建物」 and 「乙建物」, each with a faceless owner pictogram: a tag 「Ａ」 beside the left house with the small label 「所有権の登記名義人」, and a tag 「Ｂ」 beside the right house with the small label 「所有権の登記名義人」.
+- On the left, two flat house icons side by side labeled 「甲建物」 and 「乙建物」, each with a faceless owner pictogram in the same light gray-blue color: a tag 「Ａ」 beside the left house with the small label 「所有権の登記名義人」, and a tag 「Ｂ」 beside the right house with the small label 「所有権の登記名義人」.
 - A dark navy arrow (this arrow means a construction event, not a sale or an application) labeled 「工事」 points to the right, where ONE larger merged house icon is drawn, labeled 「合体後の建物」.
 - Under the merged house, a card with heading 「合体による登記等」 and body 「合体後の建物の表題登記と、合体前の建物の表題部の登記の抹消を、あわせて申請」.
 - A small question badge 「申請人は全員？」 sits above the card (a question badge only, with no check mark and no cross).
@@ -115,16 +115,13 @@ PANEL 3 (surprised then convinced mood; both characters appear ONLY as very smal
 - 藍子 bubble (left, rally 1 of 4): 「名義人が違うなら、
 全員そろって
 申請では？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, rally 2 of 4): 「それがひっかけ。
-全員が共同して、の
+- トリ先生 bubble (right, rally 2 of 4): 「全員が共同して、の
 言葉に引かれたわね」 with the part 「全員が共同して」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - 藍子 bubble (left, rally 3 of 4): 「全員そろわないと、
 だめなんじゃ
 ないですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, rally 4 of 4): 「一人から単独で
-できるの。
-たとえば2棟の
-持ち主の一人よ」 with the part 「一人から単独で」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「名義人の一人から、
+単独でできるのよ」 with the part 「一人から、単独で」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
@@ -142,7 +139,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 建, 所, 権, 物, 登, 解, 記, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 建, 所, 権, 物, 登, 解, 記, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -206,6 +203,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 | 途中の版・不採用の版（例：v01） | 4コマ解説図解D0497～H21-Q18イ～_v01.png ／ 4コマ解説図解D0497～H21-Q18イ～_見出し_v01.png |
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
+- [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0497_prompt.md` が NG 0件
 - [ ] 工程C：初見の読者：コマ1のＡ・Ｂ・合体後の建物がコマ2・3の文言と対応している。矢印はコマ1の「工事」だけ
 - [ ] 工程C：5点（事案・ねらい・ひっかけ・勘違い・正しい整理）が、コマ1の図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
@@ -220,6 +218,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+- [ ] 顔アイコン・小さなキャラが指定の大きさ。キャラなしのコマにキャラ・吹き出しがない
+- [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
+- [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
 ## v02：新しい構成表の組み方（パターン集）に合わせて全面再構成（ユーザー指示、2026-10-07）。v01は、事案・出題者のねらい・ひっかけ・勘違いが図として読み取れない定型構成だった（D0413 v01と同じ不具合）。コマの使い方を small→tori→faces→両方 に変え、コマ1に工事前後の図と「合体による登記等」の中身、コマ2に申請できる人の図、コマ3に勘違い⇔正しい整理と記事の具体例を入れた。
 

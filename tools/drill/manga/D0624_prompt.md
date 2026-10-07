@@ -136,7 +136,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 権, 解, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that every bubble in panel 3 is spelled exactly as given (in particular the word 「まとめて」 in the first bubble, never 「まとかて」); confirm that in panel 1 the owners Ａ・Ｂ・Ｃ stand in one row in this order and have the same color, and that no small mark appears above any head; confirm that the label 「不法に占有」 and the bracket 「Ａが請求できる範囲」 are dark navy; confirm that in panel 2 all three segments have a white fill and only the segment 「Ａの分」 has the yellow highlighter marker; confirm that the face icons in panel 1 are small round heads and the two characters in panel 3 are small, so the diagram stays large. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 権, 解, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that the word 「まとめて」 is spelled exactly like this everywhere (never 「まとかて」); confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every bubble in panel 3 is spelled exactly as given (in particular the word 「まとめて」 in the first bubble, never 「まとかて」); confirm that in panel 1 the owners Ａ・Ｂ・Ｃ stand in one row in this order and have the same color, and that no small mark appears above any head; confirm that the label 「不法に占有」 and the bracket 「Ａが請求できる範囲」 are dark navy; confirm that in panel 2 all three segments have a white fill and only the segment 「Ａの分」 has the yellow highlighter marker; confirm that the face icons in panel 1 are small round heads and the two characters in panel 3 are small, so the diagram stays large. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -200,6 +200,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 | 途中の版・不採用の版（例：v01） | 4コマ解説図解D0624～H23-Q03エ～_v01.png ／ 4コマ解説図解D0624～H23-Q03エ～_見出し_v01.png |
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
+- [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0624_prompt.md` が NG 0件
 - [ ] 工程C：初見の読者：Ｅ・Ｂ・Ｃがコマ1で人型タグ付きで紹介され、コマ2のバー（Ａの分・Ｂの分・Ｃの分）と対応している
 - [ ] 工程C：5点が、コマ1の事案図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
@@ -214,6 +215,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+- [ ] 顔アイコン・小さなキャラが指定の大きさ。キャラなしのコマにキャラ・吹き出しがない
+- [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
+- [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
 ## v02画像の検品結果（2026-10-07）→ v03で修正
 - 合格：5点（事案・ねらい・ひっかけ・勘違い・正しい整理）が読み取れる構成。コマ2（キャラなし）の損害バーと数字の例、コマ3の左右カード（赤✕1つ・青✓1つ）、「ひっかけ」リボン、暗記3点、結論帯、構成表の文言の大半。法的内容は記事（H23-Q03エ）の範囲内で正確。

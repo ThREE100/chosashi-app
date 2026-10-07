@@ -5,6 +5,8 @@
 D0520_prompt.md は手作り（検品済みの見本）で、この生成器の対象外。"""
 import re, sys, pathlib
 HERE = pathlib.Path(__file__).resolve().parent
+import ast
+GARBLED = ast.literal_eval(re.search(r'GARBLED = (\{.*?\})', (HERE / "check_prompt.py").read_text(encoding="utf8")).group(1))
 RISKY = set(re.search(r'RISKY = set\("([^"]+)"\)', (HERE / "check_prompt.py").read_text(encoding="utf8")).group(1))
 
 HEAD = """Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
@@ -101,6 +103,8 @@ def build(sp):
         for k, b in enumerate(p["bubbles"], 1):
             who, text, hl = b[:3]
             brk = b[3] if len(b) > 3 else None
+            assert not hl or hl in text, f"{sp['id']}: 強調語が台詞にない: {hl}"
+            assert not brk or brk.replace("\n", "") == text, f"{sp['id']}: 改行版の台詞が正本と違う: {text}"
             side = "left" if who == "藍子" else "right"
             role = "spoken first" if who == "藍子" else "spoken as the answer"
             if cm == "faces": role = f"rally {k} of {len(p['bubbles'])}"
@@ -132,6 +136,13 @@ def build(sp):
         fin += "confirm the left comparison card has only a blue check mark and the right card only a red cross; "
     if flex:
         fin = fin.replace("confirm 藍子 is always on the left and トリ先生 always on the right ", "confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified ")
+    alltext = "".join(b[1] for p in pan for b in p["bubbles"]) + "".join("".join(p["fig"]) for p in pan)
+    for w, bad in GARBLED.items():
+        if w in alltext: fin += f"confirm that the word {q(w)} is spelled exactly like this everywhere (never {q(bad)}); "
+    if any(p.get("chars") in ("faces", "small") for p in pan):
+        fin += "confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; "
+    if any(p.get("chars") == "none" for p in pan):
+        fin += "confirm that every panel marked as having no character contains no character and no speech bubble; "
     if sp.get("final_extra"):
         fin += sp["final_extra"].strip() + " "
     fin += "confirm the background is fully opaque with no transparency, alpha channel, or checkerboard."
@@ -230,13 +241,17 @@ def render(sp):
     out += header_section(sp)
     out += filename_section(sp)
     out += ("## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）\n"
-            f"- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/{sp.get('fid', sp['id'])}_prompt.md` が NG 0件\n"
+            + ("- [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み\n" if sp.get("ippatsu") else "")
+            + f"- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/{sp.get('fid', sp['id'])}_prompt.md` が NG 0件\n"
             + "".join(f"- [ ] 工程C：{c}\n" for c in sp["review"]) + "\n")
     out += ("## 生成後の照合チェック（文言の正本は上の構成表）\n- [ ] 4コマ縦一列／タイトル帯・結論帯あり\n"
             "- [ ] 全コマで藍子＝左・トリ先生＝右、全吹き出しの尾が話者へ向く。藍子の髪型が全コマで同じ\n"
             "- [ ] タイトル・全セリフ・ラベルが構成表と一字一句一致\n- [ ] スタンプ・矢印・ラベルが各カードの枠の内側に収まっている\n"
             "- [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性\n- [ ] 簡体字・英字なし、背景が不透明\n"
-            "- [ ] 記事の文言から外れていない（独自の理由づけなし）\n")
+            "- [ ] 記事の文言から外れていない（独自の理由づけなし）\n"
+            "- [ ] 顔アイコン・小さなキャラが指定の大きさ。キャラなしのコマにキャラ・吹き出しがない\n"
+            "- [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない\n"
+            "- [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）\n")
     if sp.get("qa"):
         out += "\n## " + sp["qa"][0] + "\n" + "".join(f"- {r}\n" for r in sp["qa"][1:])
     if sp.get("rev"):

@@ -43,10 +43,10 @@
 | コマ2 | トリ先生（右・答える） | まず相手がＢか第三者かよ。ここが出題者のねらい | 「相手がＢか第三者か」 |
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
 | コマ3 図 | 図・カード | よくある勘違い / 完成したら、相手がだれでも登記が必要 / ひっかけ：Ｂまで広げさせる / 正しい整理 / 登記が要るのは、完成後の第三者Ｃ。元の所有者Ｂは当事者で、対抗関係に立たない | — |
-| コマ3 | 藍子（左・1番目） | 時効が完成したら、相手がだれでも登記が要りますよね？ | — |
-| コマ3 | トリ先生（右・2番目） | それがひっかけ。登記が要るのは、完成後に現れた第三者Ｃよ | 「完成後に現れた第三者Ｃ」 |
+| コマ3 | 藍子（左・1番目） | 相手がだれでも、登記が要りますよね？ | — |
+| コマ3 | トリ先生（右・2番目） | ひっかけよ。要るのは、完成後の第三者Ｃ | 「完成後の第三者Ｃ」 |
 | コマ3 | 藍子（左・3番目） | Ｂは、第三者じゃないんですか？ | — |
-| コマ3 | トリ先生（右・4番目） | Ｂは当事者。時効の効果をめぐって、直接向き合う相手よ | 「Ｂは当事者」 |
+| コマ3 | トリ先生（右・4番目） | Ｂは当事者。直接向き合う相手なの | 「Ｂは当事者」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 登記をしなければ主張できないという記述は、誤りなんですね！ | — |
@@ -122,18 +122,16 @@ PANEL 3 (surprised then convinced mood; both characters appear ONLY as very smal
 - Left card, heading 「よくある勘違い」, body 「完成したら、相手がだれでも登記が必要」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text at least as big as the card body text, reads 「ひっかけ：Ｂまで広げさせる」.
 - Right card, heading 「正しい整理」, body 「登記が要るのは、完成後の第三者Ｃ。元の所有者Ｂは当事者で、対抗関係に立たない」, with ONE blue check mark only (no cross on this card).
 - The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, rally 1 of 4): 「時効が完成したら、
-相手がだれでも
+- 藍子 bubble (left, rally 1 of 4): 「相手がだれでも、
 登記が要りますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, rally 2 of 4): 「それがひっかけ。
-登記が要るのは、
-完成後に現れた
-第三者Ｃよ」 with the part 「完成後に現れた第三者Ｃ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「ひっかけよ。
+要るのは、
+完成後の第三者Ｃ」 with the part 「完成後の第三者Ｃ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - 藍子 bubble (left, rally 3 of 4): 「Ｂは、第三者
 じゃないんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, rally 4 of 4): 「Ｂは当事者。
-時効の効果をめぐって、
-直接向き合う相手よ」 with the part 「Ｂは当事者」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+直接向き合う
+相手なの」 with the part 「Ｂは当事者」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
@@ -152,7 +150,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 効, 占, 地, 対, 張, 当, 所, 抗, 登, 解, 記, 買, 過, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that in panel 2 the two result boxes 「登記が必要」 and 「登記なしで主張できる」 have a white fill and a dark navy outline, and that the color lives only in the arrows and labels (the two 「はい」 arrows and labels are blue, the two 「いいえ」 arrows and labels are red); confirm that both characters in panel 2 are drawn at about one fifth of the panel height so the flowchart stays large; confirm that all four speech bubbles in panel 1 and all four in panel 3 use the same text size and that the ribbon tag 「ひっかけ：Ｂまで広げさせる」 is easy to read; confirm that every 「Ａ」「Ｂ」「Ｃ」 is the full-width letter. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 効, 占, 地, 対, 張, 当, 所, 抗, 登, 解, 記, 買, 過, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that in panel 2 the two result boxes 「登記が必要」 and 「登記なしで主張できる」 have a white fill and a dark navy outline, and that the color lives only in the arrows and labels (the two 「はい」 arrows and labels are blue, the two 「いいえ」 arrows and labels are red); confirm that both characters in panel 2 are drawn at about one fifth of the panel height so the flowchart stays large; confirm that all four speech bubbles in panel 1 and all four in panel 3 use the same text size and that the ribbon tag 「ひっかけ：Ｂまで広げさせる」 is easy to read; confirm that every 「Ａ」「Ｂ」「Ｃ」 is the full-width letter. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -216,6 +214,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 | 途中の版・不採用の版（例：v01） | 4コマ解説図解D0413～H21-Q01ウ～_v01.png ／ 4コマ解説図解D0413～H21-Q01ウ～_見出し_v01.png |
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
+- [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0413_prompt.md` が NG 0件
 - [ ] 工程C：初見の読者：コマ1で日付・Ａ・Ｂ・Ｃが紹介され、コマ2のフローチャートとコマ3のカードで同じ人物・同じ日付が使われている。Ｃはコマ1の凡例で最初に出てくる
 - [ ] 工程C：出題者のねらい・ひっかけ・勘違い・理解を誤るポイントの4つが、コマ2・3の文言として読み取れる（コマ2の「ねらい」タグ、コマ3の「ひっかけ」「勘違い」「正しい整理」）
@@ -230,6 +229,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+- [ ] 顔アイコン・小さなキャラが指定の大きさ。キャラなしのコマにキャラ・吹き出しがない
+- [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
+- [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
 ## v02の検品結果（2026-10-07）→ v03で微修正
 - 合格：タイトル・構成表の文言、時系列図（3つの日付とＡ・Ｂ・Ｃの凡例。Ｃは「この問いには登場しない」と紹介）、判定フローチャートの構造と枝の色（はい＝青・いいえ＝赤）、対比カード（赤✕1つ・青✓1つ）、顔アイコンの会話ラリー（尾が話し手に向く、藍子＝左・トリ先生＝右、読む順どおり）、暗記3点、結論帯。問いの事案・出題者のねらい・ひっかけ・勘違い・正しい整理の5点が読み取れる。法的内容は記事（H21-Q01ウ）の範囲内で正確。藍子の手・髪型も問題なし。

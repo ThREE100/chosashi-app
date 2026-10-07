@@ -434,6 +434,7 @@ SPECS["D0057"] = dict(
          "2026-10-07 v02：v01画像の検品で見つかった4点を改修（コマ2「原則」の字の確認、コマ4の台詞、コマ1の赤の誤用、藍子の髪型）"])
 
 SPECS["D0497"] = dict(
+    ippatsu=True,
     id="D0497", topic="不動産登記法／建物の分割・合併・合体・滅失・変更", src="H21-Q18イ", truth="×（誤った記述）", miscon=3,
     article="note-articles/h21-mondai/q18-gattai-touki.md", art_head="イ「所有権登記名義人が異なる建物の合体でも、全員の「共同申請」ではない」",
     letters="ＡＢ",
@@ -458,7 +459,7 @@ SPECS["D0497"] = dict(
              bubbles=[("藍子", "名義人が別々の2棟が、1棟になったんですね", None, "名義人が別々の\n2棟が、1棟に\nなったんですね"),
                       ("トリ先生", "合体よ。登記は、あわせて申請するの", "あわせて申請", "合体よ。\n登記は、あわせて\n申請するの")],
              fig=["A large before-and-after diagram fills the panel, left to right.",
-                  "On the left, two flat house icons side by side labeled 「甲建物」 and 「乙建物」, each with a faceless owner pictogram: a tag 「Ａ」 beside the left house with the small label 「所有権の登記名義人」, and a tag 「Ｂ」 beside the right house with the small label 「所有権の登記名義人」.",
+                  "On the left, two flat house icons side by side labeled 「甲建物」 and 「乙建物」, each with a faceless owner pictogram in the same light gray-blue color: a tag 「Ａ」 beside the left house with the small label 「所有権の登記名義人」, and a tag 「Ｂ」 beside the right house with the small label 「所有権の登記名義人」.",
                   "A dark navy arrow (this arrow means a construction event, not a sale or an application) labeled 「工事」 points to the right, where ONE larger merged house icon is drawn, labeled 「合体後の建物」.",
                   "Under the merged house, a card with heading 「合体による登記等」 and body 「合体後の建物の表題登記と、合体前の建物の表題部の登記の抹消を、あわせて申請」.",
                   "A small question badge 「申請人は全員？」 sits above the card (a question badge only, with no check mark and no cross)."]),
@@ -469,9 +470,9 @@ SPECS["D0497"] = dict(
                   "At the bottom, one wide card with heading 「申請できる人」 and body 「所有権の登記名義人の一人（又は表題部所有者の一人）」, with a small yellow tag 「単独で申請できる」, and no check mark and no cross on this card."]),
         dict(label="③　ひっかけと勘違い", chars="faces", opposite=True, mood="surprised then convinced mood",
              bubbles=[("藍子", "名義人が違うなら、全員そろって申請では？", None, "名義人が違うなら、\n全員そろって\n申請では？"),
-                      ("トリ先生", "それがひっかけ。全員が共同して、の言葉に引かれたわね", "全員が共同して", "それがひっかけ。\n全員が共同して、の\n言葉に引かれたわね"),
+                      ("トリ先生", "全員が共同して、の言葉に引かれたわね", "全員が共同して", "全員が共同して、の\n言葉に引かれたわね"),
                       ("藍子", "全員そろわないと、だめなんじゃないですか？", None, "全員そろわないと、\nだめなんじゃ\nないですか？"),
-                      ("トリ先生", "一人から単独でできるの。たとえば2棟の持ち主の一人よ", "一人から単独で", "一人から単独で\nできるの。\nたとえば2棟の\n持ち主の一人よ")],
+                      ("トリ先生", "名義人の一人から、単独でできるのよ", "一人から、単独で", "名義人の一人から、\n単独でできるのよ")],
              fig=["Two large cards side by side, with a wide example strip under them.",
                   "Left card, heading 「よくある勘違い」, body 「名義人が違うなら、全員が共同して申請する」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：全員が共同して、という言葉」.",
                   "Right card, heading 「正しい整理」, body 「名義人が違っても、一人から単独で申請できる」, with ONE blue check mark only (no cross on this card).",
@@ -490,6 +491,7 @@ SPECS["D0497"] = dict(
          "2026-10-07 v02：構成表を組み直し（5点の明示、コマごとの chars の使い分け：small・tori・faces）"])
 
 SPECS["D0624"] = dict(
+    ippatsu=True,
     id="D0624", topic="民法／共有・所有権・占有", src="H23-Q03エ", truth="〇", miscon=3,
     article="note-articles/h23-mondai/q03-kyouyu.md", art_head="エ「損害賠償は、自分の持分の分しか請求できない」",
     letters="ＡＢＣＥ",
@@ -556,6 +558,7 @@ SPECS["D0624"] = dict(
          "2026-10-07 v03：v02画像の検品で見つかった5点を改修（綴りの確認、赤の誤用、バー・人物の色、Ａ・Ｂ・Ｃの並び、キャラの大きさの数値指定）"])
 
 SPECS["D1621"] = dict(
+    ippatsu=True,
     id="D1621", topic="民法／共有・所有権・占有", src="R03-Q02イ", truth="×（誤った記述）", miscon="2回・？1回",
     article="note-articles/r3-mondai/q02-senyuken.md", art_head="イ「占有の訴えに、所有権を防御方法としてぶつけることはできない」",
     letters="ＡＢ",
@@ -579,7 +582,7 @@ SPECS["D1621"] = dict(
         dict(label="①　問いの事案", chars="small", mood="curious, calm mood",
              bubbles=[("藍子", "Ｂが、自分の土地だと反論したら？", None, "Ｂが、自分の\n土地だと\n反論したら？"),
                       ("トリ先生", "出たわね。本当の持ち主なら勝てる、と思ったでしょ", None, "出たわね。\n本当の持ち主なら\n勝てる、と思ったでしょ")],
-             fig=["A large relation diagram fills the panel: a flat plot-of-land block labeled 「甲土地」 with a faceless pictogram tag 「Ａ」 standing on it (small label 「占有者」), and a faceless pictogram tag 「Ｂ」 standing beside it (small label 「訴えられた人」).",
+             fig=["A large relation diagram fills the panel: a flat plot-of-land block labeled 「甲土地」 with a faceless pictogram tag 「Ａ」 in light gray-blue standing on it (small label 「占有者」), and a faceless pictogram tag 「Ｂ」 in a darker gray standing beside it (small label 「訴えられた人」), both with navy tags.",
                   "A navy arrow from Ａ to Ｂ (a lawsuit) is labeled 「占有の訴え」.",
                   "Next to Ｂ, a speech card reads 「この土地は自分の所有物だ」 with a small dark navy tag 「防御方法」, and a small question badge 「通る？」 sits above the card (a question badge only, with no check mark and no cross)."]),
         dict(label="②　出題者のねらい", chars="none", mood="clear, calm infographic mood",
@@ -592,7 +595,7 @@ SPECS["D1621"] = dict(
                   "There is no check mark and no cross anywhere in this panel."]),
         dict(label="③　ひっかけと勘違い", chars="faces", opposite=True, mood="surprised then convinced mood",
              bubbles=[("藍子", "でも、Ｂが本当の所有者なら、勝てますよね？", None, "でも、Ｂが本当の\n所有者なら、\n勝てますよね？"),
-                      ("トリ先生", "それがひっかけ。占有の訴えでは、所有権は決め手にならないの", "所有権は決め手にならない", "それがひっかけ。\n占有の訴えでは、\n所有権は決め手に\nならないの"),
+                      ("トリ先生", "占有の訴えで、所有権は決め手にならないの", "所有権は決め手にならない", "占有の訴えで、\n所有権は決め手に\nならないの"),
                       ("藍子", "どうして、本権の訴えでないとだめなんですか？", None, "どうして、本権の\n訴えでないと\nだめなんですか？"),
                       ("トリ先生", "所有権の有無は、本権の訴えで争うテーマだからよ", "本権の訴えで争うテーマ", "所有権の有無は、\n本権の訴えで争う\nテーマだからよ")],
              fig=["Two large cards side by side, with a wide example strip under them.",
@@ -620,6 +623,7 @@ SPECS["D1621"] = dict(
          "2026-10-07 v03：ユーザー指示。コマ2のフローチャートを概念図（2つの領域＋壁＋持ち込めない矢印）に差し替え、コマ3に「なぜ本権の訴えでなければならないか」の説明を追加"])
 
 SPECS["D0413"] = dict(
+    ippatsu=True,
     id="D0413", topic="民法／時効・条件期限", src="H21-Q01ウ", truth="×（誤った記述）", miscon=3,
     article="note-articles/h21-mondai/q01-jikou-touki.md", art_head="ウ「元所有者Bに対しては、登記がなくても時効取得を主張できる」（対比：D0414・D0412・D0411）",
     letters="ＡＢＣ",
@@ -658,10 +662,10 @@ SPECS["D0413"] = dict(
                   "From the lower diamond, a BLUE arrow labeled 「はい」 goes to a box: 「登記が必要」; and a RED arrow labeled 「いいえ」 goes to a box: 「登記なしで主張できる」. These two boxes are plain WHITE boxes with a thin dark navy outline and dark navy text (white fill and dark navy outline only; the color lives only in the arrows: every 「はい」 arrow and label is blue, every 「いいえ」 arrow and label is red), with no check mark and no cross.",
                   "The three result boxes have clearly different texts; the texts are NOT identical."]),
         dict(label="③　ひっかけと勘違い", chars="faces", opposite=True, mood="surprised then convinced mood",
-             bubbles=[("藍子", "時効が完成したら、相手がだれでも登記が要りますよね？", None, "時効が完成したら、\n相手がだれでも\n登記が要りますよね？"),
-                      ("トリ先生", "それがひっかけ。登記が要るのは、完成後に現れた第三者Ｃよ", "完成後に現れた第三者Ｃ", "それがひっかけ。\n登記が要るのは、\n完成後に現れた\n第三者Ｃよ"),
+             bubbles=[("藍子", "相手がだれでも、登記が要りますよね？", None, "相手がだれでも、\n登記が要りますよね？"),
+                      ("トリ先生", "ひっかけよ。要るのは、完成後の第三者Ｃ", "完成後の第三者Ｃ", "ひっかけよ。\n要るのは、\n完成後の第三者Ｃ"),
                       ("藍子", "Ｂは、第三者じゃないんですか？", None, "Ｂは、第三者\nじゃないんですか？"),
-                      ("トリ先生", "Ｂは当事者。時効の効果をめぐって、直接向き合う相手よ", "Ｂは当事者", "Ｂは当事者。\n時効の効果をめぐって、\n直接向き合う相手よ")],
+                      ("トリ先生", "Ｂは当事者。直接向き合う相手なの", "Ｂは当事者", "Ｂは当事者。\n直接向き合う\n相手なの")],
              fig=["Two large cards side by side fill the panel.",
                   "Left card, heading 「よくある勘違い」, body 「完成したら、相手がだれでも登記が必要」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text at least as big as the card body text, reads 「ひっかけ：Ｂまで広げさせる」.",
                   "Right card, heading 「正しい整理」, body 「登記が要るのは、完成後の第三者Ｃ。元の所有者Ｂは当事者で、対抗関係に立たない」, with ONE blue check mark only (no cross on this card).",

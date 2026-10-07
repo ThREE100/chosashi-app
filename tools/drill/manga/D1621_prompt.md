@@ -43,7 +43,7 @@
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
 | コマ3 図 | 図・カード | よくある勘違い / 本当の所有者なら、占有の訴えにも勝てる / ひっかけ：防御方法に所有権を出せそうに見える / 正しい整理 / 占有の訴えと本権の訴えは別。所有権の有無は本権の訴えで争うことだから、争うなら別に本権の訴えを起こす / たとえば：登記名義は自分だ、と反論しても、占有の訴えの中では決め手にならない | — |
 | コマ3 | 藍子（左・1番目） | でも、Ｂが本当の所有者なら、勝てますよね？ | — |
-| コマ3 | トリ先生（右・2番目） | それがひっかけ。占有の訴えでは、所有権は決め手にならないの | 「所有権は決め手にならない」 |
+| コマ3 | トリ先生（右・2番目） | 占有の訴えで、所有権は決め手にならないの | 「所有権は決め手にならない」 |
 | コマ3 | 藍子（左・3番目） | どうして、本権の訴えでないとだめなんですか？ | — |
 | コマ3 | トリ先生（右・4番目） | 所有権の有無は、本権の訴えで争うテーマだからよ | 「本権の訴えで争うテーマ」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
@@ -82,7 +82,7 @@ TITLE BANNER: text 「占有の訴えに、所有権で反論はできない」 
 
 PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
-- A large relation diagram fills the panel: a flat plot-of-land block labeled 「甲土地」 with a faceless pictogram tag 「Ａ」 standing on it (small label 「占有者」), and a faceless pictogram tag 「Ｂ」 standing beside it (small label 「訴えられた人」).
+- A large relation diagram fills the panel: a flat plot-of-land block labeled 「甲土地」 with a faceless pictogram tag 「Ａ」 in light gray-blue standing on it (small label 「占有者」), and a faceless pictogram tag 「Ｂ」 in a darker gray standing beside it (small label 「訴えられた人」), both with navy tags.
 - A navy arrow from Ａ to Ｂ (a lawsuit) is labeled 「占有の訴え」.
 - Next to Ｂ, a speech card reads 「この土地は自分の所有物だ」 with a small dark navy tag 「防御方法」, and a small question badge 「通る？」 sits above the card (a question badge only, with no check mark and no cross).
 - 藍子 bubble (left, spoken first): 「Ｂが、自分の
@@ -112,8 +112,7 @@ PANEL 3 (surprised then convinced mood; both characters appear ONLY as very smal
 - 藍子 bubble (left, rally 1 of 4): 「でも、Ｂが本当の
 所有者なら、
 勝てますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, rally 2 of 4): 「それがひっかけ。
-占有の訴えでは、
+- トリ先生 bubble (right, rally 2 of 4): 「占有の訴えで、
 所有権は決め手に
 ならないの」 with the part 「所有権は決め手にならない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - 藍子 bubble (left, rally 3 of 4): 「どうして、本権の
@@ -139,7 +138,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 対, 張, 当, 所, 権, 無, 物, 登, 解, 記, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that panel 2 shows no character and no speech bubble; confirm that the two areas in panel 2 have the same pale gray fill and a dark navy outline, that the wall, the dotted arrow, and the bottom band are dark navy, and that the dotted arrow stops at the wall; confirm that every 「Ａ」「Ｂ」 is the full-width letter; confirm that the spelling of 「本権」 (not 「本件」) is correct in every place. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 地, 対, 張, 当, 所, 権, 無, 物, 登, 解, 記, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that panel 2 shows no character and no speech bubble; confirm that the two areas in panel 2 have the same pale gray fill and a dark navy outline, that the wall, the dotted arrow, and the bottom band are dark navy, and that the dotted arrow stops at the wall; confirm that every 「Ａ」「Ｂ」 is the full-width letter; confirm that the spelling of 「本権」 (not 「本件」) is correct in every place. confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -203,6 +202,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 | 途中の版・不採用の版（例：v01） | 4コマ解説図解D1621～R03-Q02イ～_v01.png ／ 4コマ解説図解D1621～R03-Q02イ～_見出し_v01.png |
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
+- [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D1621_prompt.md` が NG 0件
 - [ ] 工程C：初見の読者：コマ1のＡ→Ｂ（Ａが訴える）の向きが正しい。コマ2の2つの領域が同じ色で印がなく、壁で「別々のもの」が分かる
 - [ ] 工程C：5点が、コマ1の事案図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
@@ -217,6 +217,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 色：はい・○＝青、いいえ・×＝赤、中立＝ネイビー。対比カードは左右で逆の極性
 - [ ] 簡体字・英字なし、背景が不透明
 - [ ] 記事の文言から外れていない（独自の理由づけなし）
+- [ ] 顔アイコン・小さなキャラが指定の大きさ。キャラなしのコマにキャラ・吹き出しがない
+- [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
+- [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
 ## v03（ユーザー指示、2026-10-07）：①「なぜ占有の訴えではなく本権の訴えでなければならないのか」の説明を追加、②コマ2のフローチャートを削除して、占有の訴えと本権の訴えを概念としてつかめる概念図に差し替え。
 - ①の追加：コマ3の顔アイコンの4往復の後半を「どうして、本権の訴えでないとだめなんですか？」→「所有権の有無は、本権の訴えで争うテーマだからよ」に変え、右カードにも「所有権の有無は本権の訴えで争うことだから、争うなら別に本権の訴えを起こす」を足した。記事の「別々のものとして扱われる」「所有権を争いたいなら別に本権の訴えを起こす」と、民法202条（法令DBで確認済み：1項＝占有の訴えと本権の訴えは互いに妨げない、2項＝占有の訴えについては本権に関する理由に基づいて裁判をすることができない）の範囲内。
