@@ -239,6 +239,52 @@ SPECS["D2096"] = dict(
     ver="v02",
     rev=["2026-10-07 v02：①吹き出しの改行位置を文節の区切りで固定（17字以上は全て）／②コマをまたぐ図・ラベル・リボンの見た目の継続（CONTINUITY）を共通ルールに追加／③藍子の人体構造・手の割り当て・ポーズ変更・記事内容の理解に必要な要素の表現（共通ルール）／④コマ3のトリ先生の台詞を、コマ2と重なっていた「届出先は調査士会と連合会の両方よ」から、記事の「法務局への届出ではありません」に直した", "2026-10-07 v01：初版"])
 
+SPECS["D1888"] = dict(
+    id="D1888", topic="不動産登記法／建物の分割・合併・合体・滅失・変更", src="R05-Q16オ", truth="〇（正しい記述）", miscon=1,
+    article="note-articles/r5-mondai/q16-gattai.md", art_head="オ「住所が変わっていても、変更登記を前提とせずに申請できる」",
+    letters="Ａ",
+    design=["登場人物：Ａ（合体前の建物の所有権の登記名義人）をコマ1で紹介。建物は人物ではなく「甲建物」「乙建物」の文字ラベルの建物アイコン。",
+            "矢印の意味：矢印は使わない（コマ2は番号付きの3つの別カード）。取引・効力・手続の矢印の混同を避ける。",
+            "会話順：藍子の誤解（先に住所変更の登記が要る）→住所の変更を証する情報を添える→合併との違い→結論（〇）。",
+            "配色：コマ3は左右の対比。合体＝青✓（変更を証する情報で、変更登記なしで申請できる）、合併＝赤✕（先に住所の変更登記が要る）。逆の極性。",
+            "記事の範囲：合体前の建物の登記名義人の住所が現在と異なっても、住所が変更されたことを証する情報（住民票など）を提供すれば、住所の変更登記を先にしなくても合体による登記等を申請できる（R05-Q16オの記事）。",
+            "合併との対比（コマ3）は、直前に出題されたD1790（R04-Q16オ、合併は住所変更登記が先に要る、×）の記事の整理による。D1888の記事には合併の記述がないため、ユーザー指示で足した。D1790の記事は、この取扱いの条文番号・出典が確認できていない（条文照合の指摘あり）ので、図に条文番号は入れない。",
+            "同じ系統の肢：D0995（H26-Q17オ、合体、〇）、D1171（合併、〇）、D1790（合併、×）。合体は「変更証明情報で変更登記を経ずに申請できる」、合併は「先に住所変更の登記が要る」。"],
+    review=["初見の読者：矢印がなく、コマ2の3カードは番号①〜③で順序が分かる。Ａはコマ1で人型タグ付きで紹介されている",
+            "構成表の全文言を記事（R05-Q16オ）と突き合わせ：「住所が変更されたことを証する情報」「住所の変更登記を先に済ませることなく」「合体による登記等」。合併の対比カードは、D1790の記事（R04-Q16オ）の範囲",
+            "コマ3の左右のカードのマークが逆で、文言が別々（合体は変更登記なしで申請できる／合併は先に住所の変更登記が要る）。条文番号は入れていない"],
+    lead1="合体する前の建物の所有権の登記名義人について、登記記録の住所が現在の住所と違っています。住所の変更登記を先にしなくても、合体による登記等を申請できるのでしょうか。",
+    title="住所が違っていても、合体による登記等は申請できる", title_hl="合体による登記等は申請できる",
+    panels=[
+        dict(label="①　よくある思い込み",
+             bubbles=[("藍子", "住所が変わっているなら、先に住所変更の登記が要りますよね？", "先に住所変更の登記が要りますよね？",
+                       "住所が変わっているなら、\n先に住所変更の登記が\n要りますよね？"),
+                      ("トリ先生", "出たわね。本当に先に要るのか、順に見なさい", None, "出たわね。\n本当に先に要るのか、\n順に見なさい")],
+             fig=["Small diagram in the middle: two small building icons side by side labeled 「甲建物」 and 「乙建物」, and one faceless pictogram with tag 「Ａ」 standing beside them. A small plate above the pictogram reads 「登記記録の住所と今の住所が違う」, and a small question badge reads 「先に変更登記は要る？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ（合体前の建物の所有権の登記名義人）」."]),
+        dict(label="②　証する情報を添える",
+             bubbles=[("藍子", "住所が変わったことは、どう示すんですか？", None, "住所が変わったことは、\nどう示すんですか？"),
+                      ("トリ先生", "住所の変更を証する情報を添えればいいのよ", "住所の変更を証する情報", "住所の変更を証する\n情報を添えれば\nいいのよ")],
+             fig=["Three SEPARATE numbered cards in a row, left to right. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards.",
+                  "Card 1: pictogram 「Ａ」 carrying a moving box; text 「①Ａが引っ越して住所が変わった」.",
+                  "Card 2: a document icon; text 「②住所の変更を証する情報（住民票など）を添える」.",
+                  "Card 3: the two building icons 「甲建物」 and 「乙建物」 merged into one building; text 「③合体による登記等を申請」."]),
+        dict(label="③　合併との違い", opposite=True,
+             bubbles=[("藍子", "合併のときも、同じなんですか？", None, "合併のときも、\n同じなんですか？"),
+                      ("トリ先生", "そこが違い。合併は変更登記が先で、合体は証明で足りるのよ", "合体は証明で足りる",
+                       "そこが違い。\n合併は変更登記が先で、\n合体は証明で足りるのよ")],
+             fig=["Left card, heading 「合体」, body 「住所の変更を証する情報で、変更登記なしで申請できる」, with ONE blue check mark only (no cross on this card).",
+                  "Right card, heading 「合併」, body 「先に住所の変更登記が要る」, with ONE red cross only (no check mark on this card)."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "住所変更の登記なしで、合体による登記等を申請できるんですね！", None,
+                       "住所変更の登記なしで、\n合体による登記等を\n申請できるんですね！"),
+                      ("トリ先生", "そのとおり。変更を証する情報を提供すれば足りるのよ", "変更を証する情報",
+                       "そのとおり。\n変更を証する情報を\n提供すれば足りるのよ")],
+             fig=[], checklist=["住所の変更を証する情報を提供する", "住所の変更登記は先にしなくてよい", "合体による登記等を申請できる"]),
+    ],
+    band1="合体による登記等は、住所の変更登記なしで申請できる", band2="問題D1888　正解〇（R05-Q16オ）",
+    ver="v01",
+    rev=["2026-10-07 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用）"])
+
 # ---- 見出し画像（苦手分析シリーズと同じ構成）の設計データ。文言は題名の問いかけ（結論は書かない）。----
 HEADERS = {
  "D0002": dict(h1="共有者が勝手に住んでいたら", h2="すぐ追い出せる？", hkey="すぐ追い出せる？",
@@ -262,6 +308,9 @@ HEADERS = {
  "D2096": dict(h1="調査士法人の定款変更", h2="届出先はどこ？", hkey="届出先はどこ？",
    scene_l="a small office building with an empty nameplate and a rolled charter scroll",
    scene_r="two civic buildings side by side (a hall and a taller federation building) and a blank two-week calendar"),
+ "D1888": dict(h1="合体前の住所が違っていたら", h2="変更登記は先に要る？", hkey="先に要る？",
+   scene_l="two small houses standing side by side and a moving box with a small truck beside them",
+   scene_r="one larger merged house with a rubber stamp and a blank certificate sheet beside it"),
 }
 for _k, _h in HEADERS.items():
     if _k in SPECS: SPECS[_k]["header"] = _h
