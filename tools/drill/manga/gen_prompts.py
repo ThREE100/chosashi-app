@@ -97,6 +97,8 @@ def render(sp):
             "どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。\n\n")
     out += "## 設計メモ（工程A）\n" + "\n".join(f"- {m}" for m in sp["design"]) + "\n\n"
     out += f"## 記事タイトル\n\n{article_title(sp['id'], sp['src'])}\n\n"
+    if sp.get("lead"):
+        out += "## note記事の冒頭文（試作）\n\n" + sp["lead"] + "\n\n"
     out += "## 構成表（文言の正本）\n\n| 領域 | 話者・用途 | 正確な文言 | 強調 |\n|---|---|---|---|\n"
     out += "\n".join(f"| {a} | {b} | {c} | {d} |" for a, b, c, d in rows) + "\n\n"
     out += "## プロンプト本体\n\n```text\n" + body + "\n```\n\n"
