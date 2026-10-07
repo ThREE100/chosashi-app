@@ -51,6 +51,16 @@ def lead_text(lead1, src):
 def q(t): return f"「{t}」"
 def hlpart(h): return f" with the part {q(h)} highlighted in yellow" if h else ""
 
+FIXED_OLD = "In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side."
+FIXED_FLEX = ("In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. "
+              "A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; "
+              "in that case follow the PANEL line, and a character who is not drawn has no speech bubble.")
+CHARS_TXT = {
+    "aiko": "ONLY 藍子 appears in this panel (no トリ先生), standing at the left and smaller than usual, so that the diagram can be drawn large",
+    "tori": "ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large",
+    "small": "both characters appear VERY SMALL (about one fifth of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel",
+}
+
 def build(sp):
     pan = sp["panels"]
     letters = sp.get("letters", "")
@@ -61,12 +71,21 @@ def build(sp):
     else:
         parties = "Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below."
     nl = (" Between panel 4 and the conclusion banner, a thin one-line note strip (about 50 px tall) with small text, as given in the NOTE LINE below." if sp.get("note") else "")
-    body = HEAD.replace("{LETTERS_OK}", letters_ok).replace("{PARTIES}", parties).replace("{NOTE_LAYOUT}", nl).replace("{CONT}", (CONT + "\n\n") if sp.get("cont", True) else "") + "\n\n"
+    flex = any(p.get("chars") for p in pan)
+    head = HEAD.replace(FIXED_OLD, FIXED_FLEX) if flex else HEAD
+    body = head.replace("{LETTERS_OK}", letters_ok).replace("{PARTIES}", parties).replace("{NOTE_LAYOUT}", nl).replace("{CONT}", (CONT + "\n\n") if sp.get("cont", True) else "") + "\n\n"
     body += f"TITLE BANNER: text {q(sp['title'])} in large bold letters; the part {q(sp['title_hl'])} has a yellow highlighter marker.\n\n"
     rows = [("タイトル帯", "—", sp["title"], sp["title_hl"] and f"「{sp['title_hl']}」を黄色マーカー")]
     for i, p in enumerate(pan):
         n = i + 1
-        body += f"PANEL {n} ({p.get('mood', MOODS[i])}; {p.get('hands', HANDS[i])}):\n- Label tab: {q(p['label'])}\n"
+        cm = p.get("chars")
+        if cm:
+            assert cm in CHARS_TXT and p.get("mood"), "chars を指定するコマには mood も書く"
+            who_hands = "" if cm == "tori" else f"; {p.get('hands', HANDS[i])}"
+            body += f"PANEL {n} ({p['mood']}; {CHARS_TXT[cm]}{who_hands}):\n"
+        else:
+            body += f"PANEL {n} ({p.get('mood', MOODS[i])}; {p.get('hands', HANDS[i])}):\n"
+        body += f"- Label tab: {q(p['label'])}\n"
         rows.append((f"コマ{n} 見出し", "ラベル", p["label"], "—"))
         if p.get("opposite"): body += f"- {OPPOSITE}\n"
         for ln in p["fig"]: body += f"- {ln}\n"
@@ -105,6 +124,8 @@ def build(sp):
            "confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; ")
     if has_opp:
         fin += "confirm the left comparison card has only a blue check mark and the right card only a red cross; "
+    if flex:
+        fin = fin.replace("confirm 藍子 is always on the left and トリ先生 always on the right ", "confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified ")
     fin += "confirm the background is fully opaque with no transparency, alpha channel, or checkerboard."
     body += fin
     return body, rows

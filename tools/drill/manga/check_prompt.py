@@ -120,6 +120,7 @@ def main():
         for key in ("ANATOMY (critical", "HAND COUNT RULE", "exactly two arms", "five fingers"):
             if key not in main_body: NG(f"藍子の人体構造の指示がない: {key}")
         for pm in re.finditer(r"(PANEL \d[^\n]*)", main_body):
+            if "ONLY トリ先生" in pm.group(1): continue
             if "hands" not in pm.group(1): NG(f"{pm.group(1)[:8]}: 藍子の手の割り当て（hands:）がPANEL行にない")
         if "exactly two arms" not in final: WARN("Final checkに藍子の腕・手の確認がない")
 
@@ -192,7 +193,7 @@ def main():
             need = "left" if who == LEFT else "right"
             if need not in pos: NG(f"{blk[:8]}: {who} の吹き出しの位置が {need} でない: ({pos})")
             order.append(who)
-        if order and order[0] != LEFT: WARN(f"{blk[:8]}: 先に読まれる吹き出しが{LEFT}でない（会話の順序を確認: 質問→答え）")
+        if len(set(order)) > 1 and order[0] != LEFT: WARN(f"{blk[:8]}: 先に読まれる吹き出しが{LEFT}でない（会話の順序を確認: 質問→答え）")
     for bm in re.finditer(rf"- ({LEFT}|{RIGHT}) bubble[^:]*: 「([^」]+)」", main_body):
         if len(bm.group(2)) > 32: WARN(f"吹き出しが長い（{len(bm.group(2))}字）: {bm.group(2)}")
 
