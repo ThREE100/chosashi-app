@@ -24,7 +24,7 @@ python3 .../compose_pages.py <page_spec.json> <ChatGPTのページ画像> <出�
 
 ## 手順（1ページずつ）
 1. `python3 r7_q21_ch02.py` → `python3 check_pages.py R7-Q21-ch02_page_spec.json`（NG 0件）→ `python3 gen_pages.py R7-Q21-ch02_page_spec.json`
-2. ChatGPTで「プロジェクト」を作り、キャラ仕様書の画像6枚と `女性キャラクター_統一仕様書.md`（最新版は `tools/drill/manga/女性キャラクター_統一仕様書.md`）を**ファイル**に1回だけ入れ、`prompts/00_project_instructions.md` の ```text の中身を**指示**に貼る（以後、キャラ画像の添付は不要）。
+2. ChatGPTで「プロジェクト」を作り、キャラクターシート6枚（`キャラクターシート_藍子_01〜03`、`キャラクターシート_トリ先生_01〜03`）と `女性キャラクター_統一仕様書.md`（最新版は `tools/drill/manga/女性キャラクター_統一仕様書.md`）を**ファイル**に1回だけ入れ、`prompts/00_project_instructions.md` の ```text の中身を**指示**に貼る（以後、キャラ画像の添付は不要）。
 3. ページごとに `prompts/R7-Q21-02-NN_prompt.md` の ```text の中身を貼って、画像を1枚生成する（図の添付は不要）。生成された画像は、実際に表示されたか・文言・キャラの同一性を目視で確認（`CHATGPT_MANGA_WORKFLOW.md` §4）。
 4. 生成した画像を `R7-Q21-02-NN.png` の名前で1つのフォルダに保存する。
 5. `compose_pages.py` で図・カードを貼って完成。仮枠の数が合わないページは `NG` で止まるので、そのページだけ生成し直す。
