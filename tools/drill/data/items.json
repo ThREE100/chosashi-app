@@ -6,8 +6,8 @@
   "items": 2100,
   "merged_away": 41,
   "status_counts": {
-   "verified": 2076,
-   "provisional": 24
+   "verified": 2079,
+   "provisional": 21
   }
  },
  "items": [
@@ -1432,9 +1432,9 @@
    "subject": "不動産登記法",
    "topic": "土地の表題・地目・地積",
    "statement": "〔地目の認定〕【不登法】動物の遺骸又は遺骨を埋める土地は、墓地である。",
-   "truth": true,
-   "basis": "準則68条(公式正答から逆算)",
-   "status": "provisional",
+   "truth": false,
+   "basis": "不動産登記事務取扱手続準則68条12号（人の遺体又は遺骨を埋葬する土地が墓地。動物は雑種地）。平成17年度第16問の原典の問題文・予備校解説で確認（2026-10-08訂正：旧バンクはtrue）",
+   "status": "verified",
    "freq": 1,
    "sources": [
     {
@@ -1452,9 +1452,9 @@
    "id": "D0078",
    "subject": "不動産登記法",
    "topic": "土地の表題・地目・地積",
-   "statement": "〔地目の認定〕【不登法】路線用地に接続している鉄道専用の変電所の敷地は、雑種地である。",
-   "truth": true,
-   "basis": "準則68条",
+   "statement": "〔地目の認定〕【不登法】線路用地に接続している鉄道専用の変電所の敷地は、雑種地である。",
+   "truth": false,
+   "basis": "不動産登記事務取扱手続準則68条5号（鉄道専用の変電所は鉄道の附属施設として鉄道用地）。2026-10-08訂正：旧バンクはtrue",
    "status": "verified",
    "freq": 1,
    "sources": [
@@ -1471,9 +1471,9 @@
    "subject": "不動産登記法",
    "topic": "土地の表題・地目・地積",
    "statement": "〔地目の認定〕【不登法】浄水場内にあって、その施設を管理する事務所の敷地は、宅地である。",
-   "truth": true,
-   "basis": "準則68条3号",
-   "status": "provisional",
+   "truth": false,
+   "basis": "不動産登記事務取扱手続準則68条15号（水道用地。管理のための事務所の敷地を含む）。2026-10-08訂正：旧バンクはtrue",
+   "status": "verified",
    "freq": 1,
    "sources": [
     {
@@ -1562,8 +1562,8 @@
    "topic": "土地の表題・地目・地積",
    "statement": "〔地目の認定〕【不登法】建物としての要件を備えていない鉄塔などの工作物の敷地は、雑種地である。",
    "truth": true,
-   "basis": "準則68条",
-   "status": "provisional",
+   "basis": "不動産登記事務取扱手続準則69条14号（鉄塔敷地は雑種地）。平成17年度第16問の正解（2番）から⑩は正しい記述",
+   "status": "verified",
    "freq": 1,
    "sources": [
     {
