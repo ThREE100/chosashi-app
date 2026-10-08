@@ -20,7 +20,7 @@
 
 建物の分割・合併の登記は、とくに「合併の制限」に何が含まれるかが軸になります。共用部分である旨の登記がある建物、互いに接続していない建物などは合併できません。
 
-一方、区分建物の合併では種類の同一性は不要、敷地権の登記がある区分建物どうしは合併できるなど、土地の合筆とは異なる点が問われます。
+一方、区分建物の合併では、種類の同一性が要件とされないことや、敷地権の登記があっても合併できることなど、制限と思い込みやすい点が問われます。
 
 ### ア：共用部分である旨の登記がある建物は、合併の登記を申請できない
 
@@ -48,21 +48,27 @@
 
 **たとえば**、「居宅」の区分建物と「事務所」の区分建物が互いに接続している場合でも、種類が違うからといって合併できないわけではなく、要件を満たせば一個の区分建物へと合併することができます。
 
-### エ：主従の関係がないなら、直接、建物の分割の登記を申請できる
+### エ：変更の登記と分割の登記は、一の申請情報で同時に申請できる
 
-一棟の建物の中間部分を取り壊して、相互に接続しない二棟にした場合（分棟）で、いずれの建物も主である建物とするときは、先に一方を主・他方を附属とする表題部の変更の登記を経る必要はありません。
+建物の分割の登記は、表題登記がある建物の附属建物を分割して、登記記録上別の一個の建物とする登記です（不登法54条1項1号）。
 
-主従の関係がなく、それぞれ独立した建物とする意思があるのであれば、直接、建物の分割の登記を申請することができます。したがって「表題部の変更の登記が完了した後でなければ分割の登記を申請することができない」とする記述は誤りです。
+したがって、取り壊し後の二棟をいずれも主である建物とするには、まず一方を主である建物、もう一方を附属建物とする建物の表題部の変更の登記が必要になります。
 
-**たとえば**、渡り廊下でつながっていた一棟の建物の中間を取り壊して、独立した2軒の家に分けたいという場合、いったん片方を附属建物にする回り道をしなくても、そのまま分割の登記を申請することができます。
+もっとも、同一の不動産について申請する表題部の変更の登記と建物の分割の登記は、一の申請情報によって同時に申請することができます（不登規35条7号）。
+
+変更の登記が完了するのを待ってから分割の登記を申請する必要はありません。したがって「当該登記が完了した後でなければ建物の分割の登記を申請することができない」とする記述は誤りです。
+
+**たとえば**、渡り廊下でつながっていた一棟の建物の中間を取り壊して、独立した2軒の家に分けたいという場合、「片方を附属建物にする変更の登記」と「その附属建物を切り離す分割の登記」を1通の申請書にまとめて出せます。
+
+変更の登記が終わるのを待って、改めて分割の登記を出し直す必要はありません。
 
 ### オ：敷地権の登記がある区分建物どうしは、合併の登記を申請できる
 
-敷地権である旨の登記がある土地の合筆はできませんが、敷地権が登記されている区分建物どうしの合併は、することができます。附属建物についても敷地権を登記することができ、合併によって公示が過度に複雑になるわけではないためです。
+建物の合併の登記ができない場合は不登法56条に列挙されていますが、そこに敷地権の登記がある建物は挙げられていません。したがって、敷地権の登記があることだけを理由に、区分建物どうしの合併の登記が制限されることはありません。
 
 したがって、敷地権の登記がある甲区分建物を敷地権の登記がある乙区分建物の附属建物とする合併の登記を「申請することができない」とする記述は誤りです。
 
-**たとえば**、敷地権付きのマンションの一室（甲）を、同じく敷地権付きの別の一室（乙）の附属建物とする合併は、土地の合筆と違ってすることができる、というイメージです。
+**たとえば**、敷地権付きのマンションの一室（甲）を、同じく敷地権付きの別の一室（乙）の附属建物とする合併は、敷地権の登記があるというだけでは制限されず、することができる、というイメージです。
 
 ---
 
@@ -71,10 +77,10 @@
 - **ア（正）**　共用部分である旨の登記がある建物は、合併の登記を申請できない
 - **イ（正）**　附属建物の分割の登記と合併の登記は、一の申請情報で申請できる
 - **ウ（誤）**　区分建物の合併に、種類が同一であることは要件とされない
-- **エ（誤）**　主従の関係がなければ、直接、建物の分割の登記を申請できる
+- **エ（誤）**　一方を附属建物とする変更の登記と分割の登記は、一の申請情報で同時に申請できる
 - **オ（誤）**　敷地権の登記がある区分建物どうしの合併は、申請することができる
 
-合併の制限（共用部分の登記あり・互いに接続しない建物）を正確に押さえつつ、区分建物特有のルール（種類の同一性は不要・敷地権があっても合併可）を土地の合筆と区別して整理しておきましょう。
+合併の制限（共用部分の登記あり・互いに接続しない建物）を正確に押さえつつ、区分建物の合併で制限と思い込みやすい点（種類の同一性は不要・敷地権があっても合併可）を整理しておきましょう。
 
 **正解：アイの組合せ（選択肢1番）**
 
@@ -85,7 +91,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（1番＝ア・イ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json / kaisetsu_plus.json、reviewed=true）で確認済みです。
 - 各肢の根拠のうち、イ（不登規則35条2号：分割の登記と合併の登記の一括申請）、ア（不登法56条1号：合併の制限、不登法58条4項：共用部分である旨の登記による権利に関する登記の職権抹消）は条文レベルで確認できたものです。ウ（種類の同一性不要）、エ（分棟の分割登記の手続順序）、オ（敷地権の登記がある区分建物の合併可）は、いずれも登記実務の一般原則からの説明にとどまります。
-- なお、オの「敷地権の登記がある区分建物どうしの合併は申請できる（＝設問の『できない』は誤り）」という結論は、検証済みデータおよび正解の組合せ（アイ）と整合します。土地の合筆（敷地権のある土地は不可）との違いに注意してください。
+- なお、オの「敷地権の登記がある区分建物どうしの合併は申請できる（＝設問の『できない』は誤り）」という結論は、検証済みデータおよび正解の組合せ（アイ）と整合します。敷地権の登記は不登法56条の合併の制限に挙げられていない点（2026-10-08のローカル法令DBで確認）が根拠です。土地の合筆との対比は、法令DBで確認できなかったため本文から除きました。
 - **追加検証（アガルート教材との照合、2026-07-21実施）**：ユーザー提供のアガルート土地家屋調査士試験教材（令和元年度 択一式 解説編PDF）を用いて、本問のア〜オの正誤判定と正解の組合せを改めて照合しました。アガルート教材の判定（ア正 イ正 ウ誤 エ誤 オ誤）は、本記事のまとめ表と完全に一致し、相違点は見つかりませんでした。引用した条文・先例番号についても、アガルート教材の記載と一致することを確認済みです。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、令和元年度より後に実施された試験（令和2年度〜令和7年度がデータベースに存在）で、本問（建物の分割又は合併の登記）と同一・類似の問題が再出題されていないかを確認しました。令和4年度第16問エ及び令和6年度第16問ウは、いずれも「共用部分である旨の登記がある建物どうしの合併の登記は申請できない」という、本問ア（合併の制限、法56条1号・58条4項）と同一の論点です。また令和3年度第16問オは敷地権の割合が相互に異なっていても合併の制限には当たらないとする点で、本問オ（敷地権登記のある区分建物どうしの合併可否）と関連する論点を扱っています。**部分的に類似する記述があります**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 - **最新法令への準拠チェック（2026年8月実施）**：不登規則35条2号（附属建物の分割・合併の一括申請）は条文番号・内容ともに現行法で変更がないことを確認しました。また、これまで「不登法58条系」「不登法56条系」と曖昧に表記していた合併の制限の根拠条文について、現行条文を確認し、共用部分である旨の登記がある建物の合併の登記の制限は不登法56条1号であることを特定できました。一方、共用部分である旨の登記による表題部所有者の登記・権利に関する登記の職権抹消の根拠は、以前の検証で「不登法58条2項」としていましたが、これは誤りでした。`note-articles/laws/fudousan-touki-hou.md`収録の不動産登記法58条の条文原文を確認したところ、職権抹消を定めるのは同条4項（2項は共用部分である旨の登記の申請人を定める規定）であることが判明したため、本文・確認事項ブロックの該当箇所を「不登法58条4項」に訂正しました（法務省データベースの原初のexplanationも「法58条4項」としており、今回の訂正はこれと整合します）。各肢の正誤判定・正解の組合せ（アイ）自体に変更はありません。
@@ -98,7 +104,7 @@
 - 共用部分の登記がある建物は、合併できないんです
 - 分割と合併、実は一件でまとめて申請できるんです
 - 区分建物の合併、種類が違っても大丈夫って知ってた？
-- 主従の関係がなければ、そのまま分割の登記でいいんです
+- 変更の登記の完了を待たず、分割と同時に申請できるんです
 - 敷地権付きでも、区分建物どうしなら合併できるんです
 
 ---
@@ -196,10 +202,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 敷地権付き区分建物どうしも合併OK
 Illustration: 敷地権の小さなバッジが付いた甲区分建物アイコンと、同じく
 敷地権バッジ付きの乙区分建物アイコンが合体する矢印に緑の✓マーク。横に
-小さく、敷地権付きの土地アイコンが合筆できずに✕マークが付いている対比を
-添える。
+小さく、「敷地権の登記があること」に赤い✕マークと「合併の制限に挙げられ
+ていない」の注記を添える。
 Conclusion tag (green banner below the illustration, 5-15 characters):
-土地の合筆とは扱いが違う
+敷地権があっても合併可
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 分割に関するルール
@@ -218,12 +224,13 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-主従関係なければ直接、分割登記でOK
+変更と分割は同時に申請できる
 Illustration: 一棟の建物が中間で取り壊され、接続しない二棟のアイコンに
-分かれる。「表題部の変更登記」の書類アイコンに赤い✕マーク（不要）、その
-代わりに直接「建物の分割の登記」の申請書フォルダへ矢印が伸び、緑の✓マーク。
+分かれる。「表題部の変更登記」の書類アイコンと「建物の分割の登記」の書類
+アイコンが一つの申請書フォルダにまとまり、緑の✓マーク。「変更登記の完了
+を待つ」矢印には赤い✕マーク。
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-回り道の変更登記は不要
+完了を待たず同時申請
 
 --- FOOTER ---
 
@@ -233,7 +240,7 @@ these 5 headings):
 2. 区分建物、種類が違っても合併OK
 3. 敷地権付き区分建物どうしも合併OK
 4. 附属建物の分割と合併は一括申請OK
-5. 主従関係なければ直接、分割登記でOK
+5. 変更と分割は同時に申請できる
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
@@ -251,7 +258,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-ア・ウ・オは「合併できるかどうかのチェックリスト」という共通の決定木を共有し、アは本当の制限（共用部分である旨の登記の有無）の枝を、ウ・オはそれぞれ「種類の同一性」「敷地権の有無」という要件でない思い込みを打ち消す枝を強調する構成にした。イは1回の確認で完結する図解、エは「回り道の変更登記が必要という思い込み」と「実際には直接分割登記でよい」を対比する対比枠型（思い込みチェック型）を採用した。
+ア・ウ・オは「合併できるかどうかのチェックリスト」という共通の決定木を共有し、アは本当の制限（共用部分である旨の登記の有無）の枝を、ウ・オはそれぞれ「種類の同一性」「敷地権の有無」という要件でない思い込みを打ち消す枝を強調する構成にした。イは1回の確認で完結する図解、エは「変更の登記の完了を待たなければ分割の登記は申請できないという思い込み」と「実際には一の申請情報で同時に申請できる」を対比する対比枠型（思い込みチェック型）を採用した。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -277,9 +284,8 @@ branch continues down to a struck-through "myth check" node M1 labeled
 annotation and a strikethrough mark over the question, which continues
 down to a second struck-through myth-check node M2 labeled「敷地権の登
 記があると合併できないか」with a small「実は制限されない」annotation and
-a strikethrough mark, next to a small side-by-side comparison box（LEFT:
-敷地権付きの土地の合筆に赤い✕、RIGHT: 敷地権付き区分建物の合併に緑の
-✓）, which finally leads to a conclusion node「合併の登記を申請できる」.
+a strikethrough mark, next to a small annotation box labeled
+「合併の制限に挙げられていない」, which finally leads to a conclusion node「合併の登記を申請できる」.
 Render the full chain（D1・M1・M2・both final conclusion nodes）in every
 one of Panels 1, 3, and 5, and never draw a looping arrow back into an
 earlier node. Panel 1 highlights（太い縁取り・フルカラーで強調）D1's はい
@@ -289,7 +295,7 @@ M1 and the いいえ path leading to it（with D1 shown small and already
 passed, in a lightly dimmed style）, rendering D1's はい branch/conclusion
 and M2 in a faded, greyed-out style, while still showing the final
 conclusion node in full color as the chain's outcome. Panel 5 highlights
-M2 and its small comparison box（with D1 and M1 shown small and already
+M2 and its small annotation box（with D1 and M1 shown small and already
 passed, in a lightly dimmed style）, rendering D1's はい branch/conclusion
 in a faded, greyed-out style, while still showing the final conclusion
 node in full color. Panel 2（イ）is resolved by a single check, so a
@@ -351,7 +357,7 @@ D1「共用部分である旨の登記があるか」（highlighted, full color�
 はい branch（highlighted, full color）leading to a conclusion node
 showing a マンションの集会室アイコンに「共用部分である旨の登記」の
 スタンプが押され、隣の乙建物アイコンにくっつこうとする矢印に大きな赤い
-✕マークが重なる様子; render M1, M2, the small comparison box, and the
+✕マークが重なる様子; render M1, M2, the small annotation box, and the
 いいえ path in a faded, greyed-out style beside it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、対象となる建物に共用部分である旨の登記があるかを確認します。共用
@@ -389,7 +395,7 @@ struck-through myth-check node M1「合併前の種類は同一でなければ�
 「事務所」ラベルの区分建物アイコンが、共通の壁を挟んで隣り合い、一つの
 区分建物へと合体する矢印, leading to the final conclusion node
 （highlighted）「合併の登記を申請できる」; render D1's はい branch/
-conclusion and M2 with its comparison box in a faded, greyed-out style.
+conclusion and M2 with its annotation box in a faded, greyed-out style.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、対象建物に共用部分である旨の登記がないかを確認します（なければ次
 へ進みます）。次に、合併前の甲区分建物と乙区分建物の種類（居宅・事務所
@@ -403,24 +409,24 @@ characters):
 --- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
-主従関係なければ直接、分割登記でOK
+変更と分割は同時に申請できる
 Diagram: A side-by-side "myth vs. correct rule" comparison frame. LEFT
 box（faded, with a strikethrough mark over the whole box）labeled「誤り
 やすい思い込み」: 一棟の建物が中間で取り壊され接続しない二棟に分かれた
-図に、まず一方を附属建物とする「表題部の変更登記」の書類アイコンへ矢印
-が伸び、その後にようやく「建物の分割の登記」へ進む回り道の矢印。RIGHT
-box（highlighted with a thick colored border, full color）labeled「正し
-いルール」: 同じ二棟の図から、「表題部の変更登記」の書類アイコンに赤い
-✕マークが重なり、代わりに直接「建物の分割の登記」の申請書フォルダへ矢
-印が伸び、緑の✓マークが付く。
+図から、まず「表題部の変更登記」の書類アイコンへ矢印が伸び、時計のアイ
+コンで「完了を待つ」ことを示した後にようやく「建物の分割の登記」へ進む
+矢印。RIGHT box（highlighted with a thick colored border, full color）
+labeled「正しいルール」: 同じ二棟の図から、「表題部の変更登記」の書類ア
+イコンと「建物の分割の登記」の書類アイコンが一つの申請書フォルダにまと
+まり、緑の✓マークが付く。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、取り壊し後の二棟について、いずれも主である建物とする意思かどうか
-を確認します。いずれも主である建物とするのであれば、一方を附属建物とす
-る表題部の変更の登記を経る必要はなく、そのまま直接、建物の分割の登記を
-申請することができます。
+まず、分割の登記は附属建物を分割する登記なので、取り壊し後の二棟のうち
+一方を附属建物とする表題部の変更の登記が必要であることを確認します。次
+に、その変更の登記と分割の登記は一の申請情報で同時に申請できる（不登規
+35条7号）ため、変更の登記の完了を待つ必要はありません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-回り道の変更登記は不要
+完了を待たず同時申請
 
 --- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
@@ -430,24 +436,23 @@ Diagram: The same shared chain as Panels 1 and 3, continued to its final
 step. D1 and M1 shown small and dimmed（already passed）leading down to
 struck-through myth-check node M2「敷地権の登記があると合併できないか」
 （highlighted, full color, with a strikethrough mark and a「実は制限さ
-れない」annotation）next to a small side-by-side comparison box
-（highlighted: LEFT 敷地権付きの土地の合筆に赤い✕、RIGHT 敷地権付き区分
-建物の合併に緑の✓）, leading to the final conclusion node（highlighted）
+れない」annotation）next to a small annotation box（highlighted）labeled
+「合併の制限に挙げられていない」, leading to the final conclusion node（highlighted）
 「合併の登記を申請できる」; render D1's はい branch/conclusion and M1 in
 a faded, greyed-out style.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、対象の区分建物にそれぞれ共用部分である旨の登記がないかを確認しま
 す（なければ次へ）。次に、敷地権の登記があると合併できないのではないか
-と考えたくなりますが、敷地権の登記がある区分建物どうしの合併は、土地の
-合筆（敷地権のある土地は不可）とは扱いが異なり、申請することができま
-す。
+と考えたくなりますが、敷地権の登記は合併の制限（不登法56条）に挙げら
+れていないため、敷地権の登記がある区分建物どうしの合併も申請すること
+ができます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-土地の合筆とは扱いが違う
+敷地権があっても合併可
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法56条1号・58条4項、不動産登記規則35条2号に基づく整理です。
+不動産登記法54条1項1号・56条1号・58条4項、不動産登記規則35条2号・7号に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
