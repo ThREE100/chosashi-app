@@ -229,9 +229,9 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-ok = n_marker == 12
+ok = n_marker == 22
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図8＋添削1＋申請書の完成形2＋第2欄1＝計12か所の想定）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図15＋添削4＋申請書の完成形2＋第2欄1＝計22か所の想定）')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
@@ -286,17 +286,27 @@ from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
 PNGS = [('R2_dai22mon_zu01_kaoku_bangou', '建物図面3枚と〔調査図〕を突き合わせて家屋番号を特定する'),
+        ('R2_dai22mon_zu02_chuu_shiwake', '注の仕分けの図'),
+        ('R2_dai22mon_toukishinseisho_machigai_shinseinin', '第1欄の「申請人」欄の①誤答'),
+        ('R2_dai22mon_toukishinseisho_machigai_tenpu', '第1欄の「添付書類」欄の①誤答'),
+        ('R2_dai22mon_zu03_jyuusho_zentei', '登記記録の住所が古いときの比較図'),
+        ('R2_dai22mon_zu04_jyuusho_gimuka', '本試験（令和2年）と今の法令の比較図'),
+        ('R2_dai22mon_toukishinseisho_machigai_hyouji', '第1欄の建物の表示（主である建物の行）の①誤答'),
         ('R2_dai22mon_toukishinseisho_kansei_toi1', '問1（第1欄）の建物滅失登記の申請書の完成形'),
+        ('R2_dai22mon_zu05_eikou_iten', '問2の比較図'),
         ('R2_dai22mon_dai2ran_kansei', '問2（第2欄）の完成形'),
-        ('R2_dai22mon_zu02_shikichi_ichi', '確認図（作図チェック用）'),
-        ('R2_dai22mon_zu03_tatemono_zumen', '第4欄の右半分の建物図面の枠（家屋番号と申請人は「（略）」と印刷、建物の所在「A市B区T町三丁目42番地2、42番地1」'),
-        ('R2_dai22mon_zu04_1kai2kai_kyuuseki', '1階・2階の床面積求積図'),
-        ('R2_dai22mon_zu05_3kai_ayamari_hikaku', '左に「誤り＝全部の寸法から0.10を引いた'),
-        ('R2_dai22mon_zu06_3kai_kyuuseki', '3階の床面積求積図'),
-        ('R2_dai22mon_zu07_kakukai_heimenzu', '第4欄の左半分の各階平面図の枠（作成者は「（略）」「（令和2年○月○日作成）」と印刷、縮尺1/250）の中に描いた各階平面図の完成形'),
+        ('R2_dai22mon_zu06_shikichi_ichi', '確認図（作図チェック用）'),
+        ('R2_dai22mon_zu07_tatemono_zumen', '第4欄の右半分の建物図面の枠（家屋番号と申請人は「（略）」と印刷、建物の所在「A市B区T町三丁目42番地2、42番地1」'),
+        ('R2_dai22mon_zu08_1kai2kai_kyuuseki', '1階・2階の床面積求積図'),
+        ('R2_dai22mon_zu09_3kai_ayamari_hikaku', '左に「誤り＝全部の寸法から0.10を引いた'),
+        ('R2_dai22mon_zu10_3kai_kyuuseki', '3階の床面積求積図'),
+        ('R2_dai22mon_zu11_kakukai_heimenzu', '問4の完成形（第4欄）。左半分の各階平面図の枠（作成者は「（略）」「（令和2年○月○日作成）」と印刷、縮尺1/250）'),
+        ('R2_dai22mon_zu12_shozai_junjo', '所在の順序の図'),
+        ('R2_dai22mon_zu13_shurui', '種類の図'),
+        ('R2_dai22mon_zu14_zouchiku_heiki', '表題登記の前の増築の時系列の図'),
         ('R2_dai22mon_toukishinseisho_machigai', '「原因及びその日付」欄の①誤答'),
         ('R2_dai22mon_toukishinseisho_kansei_toi3', '問3（第3欄）の建物表題登記の申請書の完成形'),
-        ('R2_dai22mon_zu08_toku_junban', '本番で解く順番の図')]
+        ('R2_dai22mon_zu15_toku_junban', '本番で解く順番の図')]
 ok = len(markers) == len(PNGS)
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'画像挿入マーカーとPNGの数 : {len(markers)}／{len(PNGS)}')
@@ -346,6 +356,14 @@ html_has('R2_dai22mon_dai2ran_kansei', '解体移転の場合', 'えい行移転
          '<span class="circ ink">無</span>')
 html_has('R2_dai22mon_toukishinseisho_machigai', '令和２年９月18日新築', '令和２年10月12日増築', '66.15', '5.25', '併記',
          '<svg class="check"', bad=('✓',))
+html_has('R2_dai22mon_toukishinseisho_machigai_shinseinin', 'Ａ市Ｂ区Ｔ町三丁目39番地３', 'Ａ市Ｂ区Ｔ町三丁目42番地２', '五輪松子',
+         '10月3日に42番地２へ転居', '<svg class="check"', '代　　理　　人', '令和２年10月16日　申請　Ａ地方法務局', bad=('✓',))
+html_has('R2_dai22mon_toukishinseisho_machigai_tenpu', '住所証明書　代理権限証書', '変更証明書　代理権限証書', '建物滅失登記',
+         '表題部所有者になる人の住所', '<svg class="check"', bad=('✓',))
+html_has('R2_dai22mon_toukishinseisho_machigai_hyouji', '木造瓦葺', '木造スレート葺', '居宅・店舗', '1階　65', '1階　84', '>05<', '2階　26',
+         '令和２年10月12日', '平成16年', '昭和62年', '<svg class="check"', bad=('✓',))
+for nm_ in ['machigai_shinseinin', 'machigai_tenpu', 'machigai_hyouji']:
+    check('添削のプロンプト', f'zu/R2_dai22mon_toukishinseisho_{nm_}.png', fix, '添削')
 check('添削：縦に積む', '縦に積む（横に並べない）', fix, '添削')
 absent('横1600px（旧版の横長）', '横1600px', fix, '添削')
 absent('記号', '✓', fix, '添削')
@@ -367,10 +385,10 @@ check('第4欄の上の欄', '建物図面の上の家屋番号の欄には、�
 check('第4欄の所在の順', '第4欄の建物図面の建物の所在の欄も、この順で書きます')
 check('各階平面図の求積方法', '床面積とその求積方法も記録する決まりだもの（不動産登記規則第83条第1項）')
 check('各階同型', '（不動産登記事務取扱手続準則第53条第2項）')
-for s_ in ["'A市B区T町三丁目42番地2、42番地1'", "'（略）'", "'500')", "'250')", "'R2_dai22mon_zu07_kakukai_heimenzu'",
-           "'R2_dai22mon_zu08_toku_junban.png'", "'1階・2階（各階同型）'", '床面積　64.02㎡', '床面積　71.40㎡',
+for s_ in ["'A市B区T町三丁目42番地2、42番地1'", "'（略）'", "'500', fs=10)", "'250', fs=10)", "'R2_dai22mon_zu11_kakukai_heimenzu'",
+           "'R2_dai22mon_zu15_toku_junban.png'", "'1階・2階（各階同型）'", '床面積　64.02㎡', '床面積　71.40㎡',
            'round(area(F12), 4) == 71.40 and round(area(F3), 4) == 64.02']:
-    check('作図スクリプト（図3・図7の枠と記入）', s_, drw, '作図')
+    check('作図スクリプト（図7・図11の枠と記入）', s_, drw, '作図')
 check('枠の形は試験の答案用紙で確かめた', '欄の形の出典：**試験の答案用紙（`touan_youshi/R2_dai22mon_touan_youshi.pdf` の2ページ目）で確かめた**', fig, '解説図')
 
 # ---- 2026-10-02 試験の答案用紙（touan_youshi/）の実物で確かめた欄の形 ----
@@ -406,9 +424,10 @@ ok = sheet[1].count('（略）') == 3 and '縮尺1250' in sheet[1] and '縮尺15
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '[答案用紙p2] 「（略）」は家屋番号・作成者・申請人の3か所、縮尺は1/250（各階平面図）と1/500（建物図面）')
 # 作図・申請書の画像がその形どおりか
-for n_ in ["'家　屋　番　号'", "cell(fig, 0.252, 0.865, 0.474, 0.915, '（略）'", "'建物の所在'", "'申　請　人'", "'作　成　者'",
-           "'（令和2年○月○日作成）'", "scale_cell(fig, 0.813, 0.055, 0.94, 0.115, '500')", "scale_cell(fig, 0.766, 0.07, 0.910, 0.15, '250')",
-           'divider_edge(fig, 0.06,', 'divider_edge(fig, 0.96,', '1枚の枠の左半分が各階平面図、右半分が建物図面']:
+for n_ in ["'家 屋 番 号'", "txt(283.2, 276.3, '（略）'", "'建物の所在'", "'申 請 人'", "'作 成 者'", "'第4欄'",
+           "'（令和2年○月○日作成）'", 'FR_L, FR_R, FR_B, FR_T = 80.5, 382.3, 40.5, 271.4', 'MID = 231.3',
+           'return M(287.0 + 2 * e, 165.0 + 2 * n)', 'return M(x0 + 4 * p.imag, y0 + 4 * p.real)',
+           "'各　階　平　面　図'", "'建　物　図　面'", '1枚の枠の左半分が各階平面図、右半分が建物図面']:
     check('作図スクリプト（答案用紙の第4欄の形）', n_, drw, '作図')
 absent('作成日の仮の印刷', '令和何年何月何日', drw, '作図')
 absent('家屋番号を空欄とする古い形', '家屋番号は空欄', drw, '作図')
@@ -426,8 +445,39 @@ absent('記事：家屋番号を空ける', '空けておくの')
 for src_, nm_ in [(text, '記事'), (fig, '解説図'), (form, '申請書'), (fix, '添削'), (drw, '作図'), (mkp, '申請書スクリプト')]:
     for w_ in ['仮のもの', '仮の形', 'リポジトリにない', '手元になかった']:
         absent('仮の文言', w_, src_, nm_)
-check('図7の点線', '(0, 4.2)→(0, 6)→(4.1, 6)', fig, '解説図')
-check('図7の求積表', '3階／4.10×4.20＝17.2200／7.80×6.00＝46.8000／計　64.0200／床面積　64.02㎡', fig, '解説図')
+check('図11の点線', '(0, 4.2)→(0, 6)→(4.1, 6)', fig, '解説図')
+check('図11の求積表', '3階／4.10×4.20＝17.2200／7.80×6.00＝46.8000／計　64.0200／床面積　64.02㎡', fig, '解説図')
 check('第1欄の画像の注', '不動産登記法第76条の5。令和3年の改正で新設され、出題当時はなかった', form, '申請書')
 
+# ---- 2026-10-08 最新の執筆プロンプトでの照らし直し：わなごとの図、注の仕分け、第4欄を試験の答案用紙の寸法・縮尺で ----
+check('注の仕分けの会話', '注は3系統あるの。問題文の注1〜5、〔調査図〕の（注）1〜5、〔平面図〕の（注）1〜9')
+check('3階の形の検算', '南の辺は4.10＋7.80＝11.90で北の辺の11.90と、西の辺は4.20＋1.80＝6.00で東の辺の6.00と一致します')
+check('各階同型の求積表', '1階・2階は1つの図に『1階・2階（各階同型）』と書けば、求積表も1つでいいわ（床面積は各階71.40平方メートル）')
+check('方位は建物図面（規則82条2項）', '方位は建物図面に書くもの（同規則第82条第2項）で、各階平面図には書かない')
+check('建物図面の上の大きさ', '図面の上では横24ミリ、縦12.2ミリ')
+assert round(12.00 * 1000 / 500, 1) == 24.0 and round(6.10 * 1000 / 500, 1) == 12.2   # 縮尺1/500：1m ＝ 2mm
+assert round(11.90 * 4, 1) == 47.6 and round(6.00 * 4, 1) == 24.0                      # 縮尺1/250：1m ＝ 4mm
+assert round(4.10 + 7.80, 2) == 11.90 and round(4.20 + 1.80, 2) == 6.00 and round(4.30 + 1.80, 2) == 6.10 and round(4.10 + 7.90, 2) == 12.00
+assert round(1.50 + 10.50, 2) == 12.00 and round(2.60 + 3.50, 2) == 6.10                # 1階の〔平面図〕の寸法の合計
+# わな（藍子の誤答とトリ先生の訂正）→ その会話の直後の図
+TRAPS = [('今の住所は42番地2', 'R2_dai22mon_toukishinseisho_machigai_shinseinin'),
+         ('住民票の……住所証明書ですか？', 'R2_dai22mon_toukishinseisho_machigai_tenpu'),
+         ('先に住所を直す登記（登記名義人住所変更登記）をしないといけないんじゃ', 'R2_dai22mon_zu03_jyuusho_zentei'),
+         ('滅失登記の前に住所変更の登記をしないといけないんですか？', 'R2_dai22mon_zu04_jyuusho_gimuka'),
+         ('一番上の行を写して', 'R2_dai22mon_toukishinseisho_machigai_hyouji'),
+         ('建物表題部変更登記の申請義務が『有』です！', 'R2_dai22mon_zu05_eikou_iten'),
+         ('建物図面にも、南の距離として『3.2』を書けば', 'R2_dai22mon_zu06_shikichi_ichi'),
+         ('12.00かける6.10で、73.20平方メートルです！', 'R2_dai22mon_zu08_1kai2kai_kyuuseki'),
+         ('全部の寸法から0.10を引けばいいので', 'R2_dai22mon_zu09_3kai_ayamari_hikaku'),
+         ('番号の順に『A市B区T町三丁目42番地1、42番地2』です！', 'R2_dai22mon_zu12_shozai_junjo'),
+         ('『店舗・共同住宅・居宅』です！', 'R2_dai22mon_zu13_shurui'),
+         ('『令和2年9月18日新築』だけです！', 'R2_dai22mon_zu14_zouchiku_heiki')]
+order = {n: i for i, (n, _) in enumerate(PNGS)}
+for phrase, png in TRAPS:
+    pos = text.find(phrase)
+    nxt = [m.start() for m in re.finditer(r'^> 【画像挿入】', text, re.M) if m.start() > pos]
+    k = len([m for m in re.finditer(r'^> 【画像挿入】', text, re.M) if m.start() < pos])
+    ok = pos >= 0 and bool(nxt) and order.get(png) is not None and order[png] >= k and order[png] <= k + 2
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'わなの直後の図 : {phrase[:20]}… → {png}')
 print('NG件数:', ng)
