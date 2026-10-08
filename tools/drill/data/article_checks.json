@@ -36,6 +36,11 @@
    "date": "2026-10-08",
    "count": 380,
    "note": "2026-10-08に全指摘を記事側で処理（修正・断定の弱め・出典種別の明示）。残る確認事項は各記事の確認事項ブロックに記載"
+  },
+  "rechecked": {
+   "date": "2026-10-08",
+   "count": 33,
+   "note": "2026-10-08の朝の修正（resolved処理）で変更された記事を、修正部分について条文原文（note-articles/laws/）で再検証し、版のハッシュを更新した"
   }
  },
  "checked": {
@@ -107,7 +112,7 @@
     "エ",
     "オ"
    ],
-   "sha": "2b644d4bc3a23639"
+   "sha": "1f5edc3fd7b01033"
   },
   "note-articles/h17-mondai/q08-fuzoku-tatemono.md": {
    "labels_checked": [
@@ -127,7 +132,7 @@
     "エ",
     "オ"
    ],
-   "sha": "453c1170cf0ad4a6"
+   "sha": "a13958934dcc684e"
   },
   "note-articles/h17-mondai/q10-tatemono-tenpu-joho.md": {
    "labels_checked": [
@@ -202,7 +207,7 @@
     "⑨",
     "⑩"
    ],
-   "sha": "8576e5c14e643d59"
+   "sha": "598b44195d47485c"
   },
   "note-articles/h17-mondai/q17-tochishozaizu.md": {
    "labels_checked": [
@@ -282,7 +287,7 @@
     "エ",
     "オ"
    ],
-   "sha": "f68742d83dfa91c5"
+   "sha": "2219197eea332e65"
   },
   "note-articles/h18-mondai/q05-kubun-tatemono-hyouji.md": {
    "labels_checked": [
@@ -292,7 +297,7 @@
     "エ",
     "オ"
    ],
-   "sha": "fab383a7e1d51821"
+   "sha": "9624b03b2c474727"
   },
   "note-articles/h18-mondai/q06-fuzoku-tatemono.md": {
    "labels_checked": [
@@ -302,7 +307,7 @@
     "エ",
     "オ"
    ],
-   "sha": "d1d118fc5d722212"
+   "sha": "9d27e1ce4325079e"
   },
   "note-articles/h18-mondai/q07-chimoku-nintei.md": {
    "labels_checked": [
@@ -387,7 +392,7 @@
     "エ",
     "オ"
    ],
-   "sha": "87bdc118c21ff5b3"
+   "sha": "f803f36b8527ffd9"
   },
   "note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md": {
    "labels_checked": [
@@ -397,7 +402,7 @@
     "エ",
     "オ"
    ],
-   "sha": "b85103d19ace22c9"
+   "sha": "fb8db5e0972a3cf1"
   },
   "note-articles/h18-mondai/q16-honnin-kakunin-jouhou.md": {
    "labels_checked": [
@@ -407,7 +412,7 @@
     "エ",
     "オ"
    ],
-   "sha": "03c8a040f3257043"
+   "sha": "4a1ff5a9b09e4db1"
   },
   "note-articles/h18-mondai/q17-chizu-tatemono-shozaizu.md": {
    "labels_checked": [
@@ -437,7 +442,7 @@
     "エ",
     "オ"
    ],
-   "sha": "68f19962f3d0beb7"
+   "sha": "2d047c0ed86e77f5"
   },
   "note-articles/h18-mondai/q20-chousashi-houjin.md": {
    "labels_checked": [
@@ -567,7 +572,7 @@
     "エ",
     "オ"
    ],
-   "sha": "29e56f7b96071425"
+   "sha": "e5d1b904ae671dd1"
   },
   "note-articles/h19-mondai/q13-chimoku.md": {
    "labels_checked": [
@@ -587,7 +592,7 @@
     "エ",
     "オ"
    ],
-   "sha": "d9e9df1eeb7f92c0"
+   "sha": "b71a1b401ffd294d"
   },
   "note-articles/h19-mondai/q15-oin.md": {
    "labels_checked": [
@@ -642,7 +647,7 @@
     "ケ",
     "コ"
    ],
-   "sha": "c7eb1816f87f07a9"
+   "sha": "9fe0312a68350702"
   },
   "note-articles/h19-mondai/q20-chosashi-gimu.md": {
    "labels_checked": [
@@ -762,7 +767,7 @@
     "エ",
     "オ"
    ],
-   "sha": "43a40abfedfa015b"
+   "sha": "5c0cb56719c14bf7"
   },
   "note-articles/h20-mondai/q12-hikkai-tokutei.md": {
    "labels_checked": [
@@ -852,7 +857,7 @@
     "エ",
     "オ"
    ],
-   "sha": "2d93fee91a41271f"
+   "sha": "f0e95aebd01a1c8b"
   },
   "note-articles/h21-mondai/q01-jikou-touki.md": {
    "labels_checked": [
@@ -1122,7 +1127,7 @@
     "エ",
     "オ"
    ],
-   "sha": "92eccf63f467a650"
+   "sha": "66196efc4c658b9e"
   },
   "note-articles/h22-mondai/q08-toriage.md": {
    "labels_checked": [
@@ -1192,7 +1197,7 @@
     "エ",
     "オ"
    ],
-   "sha": "1f848d50fa107aef"
+   "sha": "3a16d7afcdcec50c"
   },
   "note-articles/h22-mondai/q15-kubun-tatemono.md": {
    "labels_checked": [
@@ -1222,7 +1227,7 @@
     "エ",
     "オ"
    ],
-   "sha": "ee3f1b02223ccae5"
+   "sha": "8cd4b43122771f28"
   },
   "note-articles/h22-mondai/q18-bunpitsu.md": {
    "labels_checked": [
@@ -1422,7 +1427,7 @@
     "エ",
     "オ"
    ],
-   "sha": "db08e011fcdf70ce"
+   "sha": "54acc88d05e3acf6"
   },
   "note-articles/h23-mondai/q18-tatemono-gattai.md": {
    "labels_checked": [
@@ -1652,7 +1657,7 @@
     "エ",
     "オ"
    ],
-   "sha": "dedae1b5fb671e2a"
+   "sha": "309e8e7d644ba69b"
   },
   "note-articles/h25-mondai/q01-miseinensha-sajutsu.md": {
    "labels_checked": [
@@ -1831,7 +1836,7 @@
     "エ",
     "オ"
    ],
-   "sha": "ab4169b334b7557f"
+   "sha": "df638ba74dbf4b9f"
   },
   "note-articles/h25-mondai/q19-shinsaseikyuu.md": {
    "labels_checked": [
@@ -1931,7 +1936,7 @@
     "エ",
     "オ"
    ],
-   "sha": "2c21e3a1087493c3"
+   "sha": "2ac463c07bc3026a"
   },
   "note-articles/h26-mondai/q09-chiseki-kousei.md": {
    "labels_checked": [
@@ -1991,7 +1996,7 @@
     "エ",
     "オ"
    ],
-   "sha": "f1cf7eb9168dd41c"
+   "sha": "a4a4f90177a3c259"
   },
   "note-articles/h26-mondai/q15-yukamenseki.md": {
    "labels_checked": [
@@ -2281,7 +2286,7 @@
     "エ",
     "オ"
    ],
-   "sha": "7fcf944317245a20"
+   "sha": "9c1c2c61e301b199"
   },
   "note-articles/h28-mondai/q04-toukishikibetsujouhou.md": {
    "labels_checked": [
@@ -2291,7 +2296,7 @@
     "エ",
     "オ"
    ],
-   "sha": "0f9f2d94d1ed8eca"
+   "sha": "704e38e0aac99f8e"
   },
   "note-articles/h28-mondai/q05-tokureihoushiki.md": {
    "labels_checked": [
@@ -2301,7 +2306,7 @@
     "エ",
     "オ"
    ],
-   "sha": "91f09b181482a5c7"
+   "sha": "169e9a62256145dd"
   },
   "note-articles/h28-mondai/q06-tochihyouji-shinseijouhou.md": {
    "labels_checked": [
@@ -2311,7 +2316,7 @@
     "エ",
     "オ"
    ],
-   "sha": "9f7920573c265204"
+   "sha": "ea983fc62043d65f"
   },
   "note-articles/h28-mondai/q07-dairi.md": {
    "labels_checked": [
@@ -2321,7 +2326,7 @@
     "エ",
     "オ"
    ],
-   "sha": "222be62a950617f9"
+   "sha": "eb8b5df7f0b74753"
   },
   "note-articles/h28-mondai/q08-chimoku-henkou.md": {
    "labels_checked": [
@@ -2331,7 +2336,7 @@
     "エ",
     "オ"
    ],
-   "sha": "88d1c58c48045a4e"
+   "sha": "0fcde505c7377273"
   },
   "note-articles/h28-mondai/q09-tochi-bunpitsu.md": {
    "labels_checked": [
@@ -2341,7 +2346,7 @@
     "エ",
     "オ"
    ],
-   "sha": "dd8b4506b1a94819"
+   "sha": "e81c2ddbda1e57e7"
   },
   "note-articles/h28-mondai/q10-gappitsu.md": {
    "labels_checked": [
@@ -2461,7 +2466,7 @@
     "エ",
     "オ"
    ],
-   "sha": "567f8364072825d1"
+   "sha": "91eb00addea2f796"
   },
   "note-articles/h29-mondai/q02-bukken-hendou.md": {
    "labels_checked": [
@@ -3104,7 +3109,7 @@
     "エ",
     "オ"
    ],
-   "sha": "7f8a1568c0d7b59f"
+   "sha": "6099ae244866b7c5"
   },
   "note-articles/r2-mondai/q06-chimoku-nintei.md": {
    "labels_checked": [
@@ -3904,7 +3909,7 @@
     "エ",
     "オ"
    ],
-   "sha": "8b8a0e507777add4"
+   "sha": "30ef684582ba5d97"
   },
   "note-articles/r6-mondai/q06-chizu-teisei.md": {
    "labels_checked": [
