@@ -10,7 +10,7 @@
 >　  
 > ③　動物の遺骸又は遺骨を埋める土地は、墓地である。  
 >　  
-> ④　路線用地に接続している鉄道専用の変電所の敷地は、雑種地である。  
+> ④　線路用地に接続している鉄道専用の変電所の敷地は、雑種地である。  
 >　  
 > ⑤　浄水場内にあって、その施設を管理する事務所の敷地は、宅地である。  
 >　  
@@ -50,27 +50,29 @@
 
 これは永久的な設備とはいえないので、その敷地だけを切り離して「宅地」として扱うことはできず、周りの畑と同じ地目のまま残ります。
 
-### ③：墓地は、人の遺体又は遺骨を埋葬する土地
+### ③：墓地は人の遺体又は遺骨を埋葬する土地だけ
 
-地目の墓地は、不動産登記事務取扱手続準則68条12号で「人の遺体又は遺骨を埋葬する土地」と定められています。条文は対象を人の遺体・遺骨に限っているため、条文の文言だけを読むと、動物の遺骸や遺骨を埋める土地は墓地に当たらないことになります。
+墓地は、不動産登記事務取扱手続準則68条12号で「人の遺体又は遺骨を埋葬する土地」と定められています。
 
-一方、公式の正答では③は誤りの記述に含まれておらず、本記事はこれに従って③を正しい記述として扱っています。ただし、問題文の「動物の」という表記が原典と同じなのかは確認できておらず、問題文のとおりだとすると条文とは食い違います。この点は確認事項ブロックに書いています。
+人以外の動物の遺骸又は遺骨を埋める土地は、墓地には当たりません。ほかのどの地目にも当たらない土地として、雑種地になります（準則68条23号）。したがって「動物の遺骸又は遺骨を埋める土地は、墓地である」とする肢③は誤りです。
 
-**たとえば**、人の遺体や遺骨を埋葬する専用の場所として管理・利用されている土地をイメージしてください。そこが実際に埋葬という目的で使われている以上、その現況に着目して墓地と認定されます。
+**たとえば**、人のお墓が並ぶ区画は墓地ですが、動物の遺骸や遺骨を埋めるために使っている土地は、墓地ではなく雑種地として扱われます。
 
-### ④：鉄道専用の変電所の敷地は、雑種地である
+### ④：鉄道専用の変電所の敷地は鉄道用地
 
-準則69条14号は、鉄塔敷地又は変電所敷地は雑種地とすると定めています。鉄塔や変電所は、居住・執務などの用途に使われる建物ではなく、電力設備を支えるための施設です。
+準則68条5号は、鉄道用地を「鉄道の駅舎、附属施設及び路線の敷地」と定めています。鉄道専用の変電所は鉄道の附属施設ですから、その敷地は雑種地ではなく鉄道用地です。
 
-この規定には、路線用地に接続している場合を別に扱う定めはありません。したがって肢④は正しい記述です。
+準則69条14号が変電所敷地を雑種地とするのは、鉄道に属さない一般の変電所や、鉄塔の敷地の場合です。したがって「鉄道専用の変電所の敷地は、雑種地である」とする肢④は誤りです。
 
-**たとえば**、電車の線路のすぐ脇に、変電のための設備だけがぽつんと建っている土地をイメージしてください。人が住んだり働いたりする建物ではなく、電力供給専用の施設なので、その敷地は雑種地として扱われます。
+**たとえば**、電車に電気を送るためだけに線路の脇に設けられた変電所は、鉄道の設備の一部ですから、鉄道用地になります。電力会社が一般の電力供給のために別の場所に設ける変電所は、鉄道とは関係がないので、雑種地になります。
 
-### ⑤：浄水場内の管理事務所の敷地は、宅地である
+### ⑤：浄水場内の管理事務所の敷地は水道用地
 
-浄水場全体は特定の目的に使われる施設ですが、その中でも「事務所」として使われている建物の敷地部分は、建物の敷地及びその維持・効用のために必要な土地として、宅地の認定基準（準則68条3号）に当てはまります。水道用地（同条15号）は専ら給水の目的で敷設する水源地、貯水池、ろ水場又は水道線路に要する土地で、管理事務所の敷地は条文に直接は書かれていません。そのため、宅地の一般的な基準（建物の敷地）にあてはめた整理です。したがって肢⑤は正しい記述です。
+準則68条15号は、水道用地を「専ら給水の目的で敷設する水道の水源地、貯水池、ろ水場又は水道線路に要する土地」と定めています。
 
-**たとえば**、広大な浄水場の敷地の中に、職員が管理業務を行うための小さな事務所の建物が建っているとします。浄水施設そのものの部分とは区別して、この事務所建物の敷地部分は宅地として扱われます。
+浄水場は専ら給水の目的の施設であり、その施設を管理する事務所の敷地も、水道用地として扱います。事務所があるからといって、その部分だけが宅地になるわけではありません。したがって「浄水場内にあって、その施設を管理する事務所の敷地は、宅地である」とする肢⑤は誤りです。
+
+**たとえば**、広大な浄水場の敷地の中に、職員が管理業務を行う小さな事務所の建物が建っているとします。その事務所の敷地も、浄水場のほかの部分と同じ水道用地として扱います。
 
 ### ⑥：私有地でも一般公衆の交通に使われていれば公衆用道路である
 
@@ -108,7 +110,7 @@
 
 建物として認定されるためには、屋根及び周壁又はこれらに類するものを有し、土地に定着した建造物であって、その目的とする用途に供し得る状態にあることが必要です（不動産登記規則111条）。実務ではこれを、外気分断性・定着性・用途性の3要件として整理します。
 
-鉄塔のように、脚部だけの構造で建物としての実質を備えていない工作物の敷地は、準則69条14号が鉄塔敷地を雑種地と定めています。ほかの地目にも当てはまらない土地は、準則68条23号により雑種地です。ただし、①の石油タンクのように、準則が個別に宅地と定めている工作物は別です。したがって肢⑩は正しい記述です。
+鉄塔のように、脚部だけの構造で建物としての実質を備えていない工作物の敷地は、準則69条14号が鉄塔敷地を雑種地と定めています。したがって肢⑩は正しい記述です。
 
 **たとえば**、送電線を支えるために建てられた鉄塔の敷地をイメージしてください。屋根や壁を備えた居住・作業スペースがあるわけではなく、建物としての実質を欠くため、その敷地は雑種地として扱われます。
 
@@ -118,16 +120,20 @@
 
 - **①（正）** 石油タンク・ガスタンクの敷地は宅地
 - **②（誤）** 仮設の農具小屋の敷地は宅地にならない（永久的設備に限り宅地）
-- **③（正）** 墓地は人の遺体又は遺骨を埋葬する土地（問題文の「動物の」との関係は確認事項に記載）
-- **④（正）** 鉄道専用の変電所の敷地は雑種地
-- **⑤（正）** 浄水場内の管理事務所の敷地は宅地
+- **③（誤）** 墓地は人の遺体又は遺骨を埋葬する土地（動物の遺骸又は遺骨を埋める土地は雑種地）
+- **④（誤）** 鉄道専用の変電所の敷地は鉄道の附属施設として鉄道用地（雑種地は鉄道に属さない変電所・鉄塔）
+- **⑤（誤）** 浄水場内の管理事務所の敷地は水道用地
 - **⑥（正）** 私有地でも一般公衆の交通に供されていれば公衆用道路
 - **⑦（誤）** 建物の設備がある火葬場の敷地は宅地（設備がなければ雑種地）
 - **⑧（正）** 校舎・附属施設の敷地及び運動場は学校用地
 - **⑨（正）** 宅地に接続するテニスコートは宅地
 - **⑩（正）** 建物の要件を備えない鉄塔等の敷地は雑種地
 
-地目の認定は、建物の有無・恒久性・利用実態という「現況」に着目して細かく分かれます。とりわけ②の仮設建物と⑦の火葬場は、「建物があれば宅地になるのか、ならないのか」という考え方が入れ替わりやすい典型的なひっかけどころなので、混同しないようにしましょう。
+地目の認定は、建物の有無・恒久性・利用実態という「現況」に着目するだけでなく、墓地・鉄道用地・水道用地のように、準則が専用の地目を定めている施設かどうかにも着目して決まります。とりわけ②の仮設建物と⑦の火葬場は「建物があれば宅地になるのか」という考え方が入れ替わりやすく、④の変電所と⑤の浄水場の事務所は「建物だから宅地」「変電所だから雑種地」と短絡しやすい、典型的なひっかけどころです。
+
+この問題が求めているのは、「誤っているもののみを組み合わせたもの」です。つまり、選択肢の組合せに挙がった2つの記述が、どちらも誤りになっているものを選びます。
+
+誤りの記述は②③④⑤⑦の5つです。選択肢を順に見ると、1は①⑥がともに正しく、3は③が誤りでも⑧が正しく、4は④が誤りでも⑨が正しく、5は⑤が誤りでも⑩が正しいので、いずれも組合せのうち一方が正しく、条件に合いません。2つともが誤りになっているのは、②と⑦を組み合わせた2だけです。
 
 **正解：②⑦の組合せ（選択肢2番）**
 
@@ -135,15 +141,17 @@
 
 **このまま使える点／使う前に確認したい点**
 
-- **問題文の差し替え（2026-10-02）**：問題文は、提供された原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）の表記に置き換えました。
+- **問題文の差し替え（2026-10-02）と訂正（2026-10-08）**：問題文は、原典の問題文（ユーザーから提示を受けたもの）に合わせています。④は「線路用地に接続している」が原典の表記です。2026-10-02に差し替えた原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）にあった「路線用地」は誤記でしたので、直しました。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題番号・正解番号（選択肢2番＝②⑦）は、土地家屋調査士試験対策アプリの検証済みデータベース（qdataファイル冒頭に明記された正解情報）で確認済みです。この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、kaisetsu_plus.jsonのapproach／pitfalls／keyPointsを主たる根拠とし、WebSearchで実務解説サイトの記述と突き合わせて確認しました。
-- 条文レベルで確認できたもの：地目の区分・認定基準が不動産登記事務取扱手続準則第68条（見出しは「地目の種類」ではなく「地目」で、田・畑・宅地から雑種地までの23種の地目区分を列挙する条文です）・第69条（地目の認定）に基づくことは、`note-articles/laws/fudousan-touki-jimu-junsoku.md`の条文原文で確認できました。個別には、①（準則69条10号：ガスタンク敷地又は石油タンク敷地は宅地とする）、②（準則69条3号：耕作地の区域内にある農具小屋等の敷地は、その建物が永久的設備と認められるものに限り、宅地とする＝仮設は宅地にならない）、④（準則69条14号：鉄塔敷地又は変電所敷地は雑種地とする）、⑤（準則68条3号の宅地の定義「建物の敷地及びその維持若しくは効用を果すために必要な土地」に該当）、⑥（準則68条21号：公衆用道路は一般交通の用に供する道路〈道路法による道路であるかどうかを問わない〉。公有・私有の別を条文上明示的に区別していない点も含め、複数の実務解説サイトの記述とも整合）、⑦（準則69条12号：火葬場は構内に建物の設備があるときは構内全部を宅地とし、建物の設備のないときは雑種地とする）、⑧（準則68条4号：学校用地は校舎、附属施設の敷地及び運動場）、⑨（準則69条9号：テニスコート又はプールは宅地に接続するものは宅地とし、その他は雑種地とする）について、いずれも準則の条文原文と一致することを確認できました。
-- 一般原則からの推論・未確認事項として正直に開示します：③（動物の遺骸又は遺骨を埋める土地は墓地である）については、準則68条12号が「墓地　人の遺体又は遺骨を埋葬する土地」と、条文上明確に対象を人の遺体・遺骨に限定して定義しています。この条文の文言だけを読むと、動物の遺骸・遺骨を埋める土地は墓地に当たらず（準則68条23号の「以上のいずれにも該当しない土地」＝雑種地になる）と読め、実際に今回参照したDBのpitfalls欄にも「動物の遺骸・遺骨は人の遺骸・遺骨（＝墓地）と区別され雑種地とされる」という趣旨の記述がありました。しかし、DBのapproach欄が最終的に示す誤り肢の組合せ（②と⑦）には③は含まれておらず、qdataファイル冒頭に明記された検証済みの正解（選択肢2番＝②⑦）とも整合しています。本記事では、検証済みの正解番号を優先して肢③を正しい記述として扱っていますが、条文の文言だけからは③を誤りと読む余地も残る点は、断定を避けて正直にお伝えします（Q15のウ等と同様、公式正解を優先しつつ条文との関係を開示する扱いです）。
-- アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記アプリの検証済みデータベース、ローカル法令データベース、およびWebSearchで確認できた実務解説サイトの情報に基づいて作成しています。
-- **2026-10-08の再検証（弱根拠・保留の肢の全件確認）**：`note-articles/laws/fudousan-touki-jimu-junsoku.md`・`fudousan-touki-kisoku-1.md`の原文と、①〜⑩を1肢ずつ突き合わせました。①（準則69条10号）、②（準則69条3号：永久的設備と認められるものに限り宅地）、④（準則69条14号）、⑥（準則68条21号）、⑦（準則69条12号）、⑧（準則68条4号）、⑨（準則69条9号）は、条文原文で結論を裏付けられました。⑤は、建物（事務所）の敷地として準則68条3号に当てはまると読めますが、浄水場内の管理事務所の敷地を直接定めた規定はなく、同条15号（水道用地）との関係を定めた規定も準則にありません。⑩は、鉄塔敷地を雑種地とする準則69条14号と、ほかのどれにも当たらない土地を雑種地とする同68条23号から導けますが、建物でない工作物の敷地を一般的に雑種地とする規定はなく（①の石油タンクは69条10号で宅地）、「鉄塔など」の範囲は解釈です。建物の要件は不動産登記規則111条で確認しました（外気分断性・定着性・用途性という呼び方は条文にはなく、実務上の整理です）。④は、鉄道の附属施設の敷地を鉄道用地とする準則68条5号との関係を定めた規定が準則にありませんが、69条14号に路線用地に接続する場合の例外がないため、同号のとおり雑種地としています。なお、一問一答ドリルのデータベースに記録されていた根拠のうち、①の「準則68条3号」は69条10号、②の「準則68条3号」は69条3号が正確な根拠です。③は条文と問題文が食い違ったままで（上記）、結論の裏付けは取れていません。本文の③の記述から、正解の組合せを先出しする部分を外しました。
-- **2026-10-08の改善（③・⑤）**：一問一答ドリルの条文照合で、準則68条12号の墓地は「人の遺体又は遺骨を埋葬する土地」で動物の遺骸は含まれないとの指摘を受け、`note-articles/laws/fudousan-touki-jimu-junsoku.md`の原文で確認しました。指摘は正しく、問題文のとおり「動物の遺骸又は遺骨」なら③は条文上は誤りになります。しかし、公式の正解（選択肢2番＝②⑦のみが誤り）では③は誤りに含まれず、問題文の写し（出典：提供された原文テキスト、アプリのデータベースも同じ「動物の」表記）が原典と一致しているかは、本環境では原典の試験問題を確認できませんでした。そのため、正誤判定（③＝正）と正解は変えず、本文の見出し・解説から「動物の遺骸も墓地として扱われる」という条文にない断定を外し、条文の文言と問題文の食い違いを本文と確認事項に明記しました。原典の問題文を確認して「人の」であれば問題文の引用を直す必要があります。⑤は、準則68条15号（水道用地）との関係を本文に書き、68条3号（宅地）の一般的な基準による整理であることを明記しました。
-- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（準則68条・69条の条文原文を再度突き合わせ、①②④⑤⑥⑦⑧⑨は文言一致を確認。判例・先例・専門誌番号は本文に記載なし。一般法の適用除外チェックは本問では対象外）、B（正解「②⑦・選択肢2番」がまとめの正誤判定と整合していることを確認）、C（見出しの正確性・論理的整合性を確認する過程で、肢③の本文に「見出し→本文→たとえば」の3要素の枠外に、確認事項ブロックへの参照を促す追加段落（「※この肢については…」）が残っていたことを発見し、これを削除のうえ本文の結論文を「本記事では、検証済みの正解を踏まえ、この肢③を正しい記述として扱います。」に修正しました（正解の組合せ自体は本文中に書かず、まとめ・正解欄まで先出ししていません）。それ以外の見出し・敬体・全角括弧・条文解釈プロセス不記載は問題ありませんでした）、D（Markdown表の不使用を確認）、E（インフォグラフィックの6カードが①〜⑩のうち9肢の内容と一致していることを確認。肢③は根拠に不確実性が残るため従来どおりカード化の対象外としています）、F（テンプレート構造・タイトルのキャッチフレーズが25字以内であること・確認事項ブロックの記載を確認）、G（重複出題チェック：`note-articles/`内を「地目」「準則69条」等で検索したところ、h18-mondai/q07・h19-mondai/q13・h25-mondai/q08・r1-mondai/q05・r2-mondai/q06・r4-mondai/q06・r5-mondai/q08・h30-mondai/q09等、地目認定を扱う記事が多数の年度に存在し、石油タンク・学校用地・テニスコート・変電所・墓地といった個別の地目区分は年度をまたいで繰り返し出題される定番論点であることを確認しましたが、10肢の組合せ・出題形式が本問と完全に一致する記事は見つかりませんでした。最新法令チェック：本問が扱う準則68条・69条の地目区分は直近の法改正の影響を受けていません）を実施しました。
+- 出題番号・正解番号（選択肢2番＝②⑦）は、土地家屋調査士試験対策アプリの検証済みデータベース（qdataファイル冒頭に明記された正解情報）で確認済みで、原典の問題文の組合せとも一致します。この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、kaisetsu_plus.jsonのapproach／pitfalls／keyPointsを主たる根拠とし、WebSearchで実務解説サイトの記述と突き合わせて確認しました。
+- **正誤の確認結果（2026-10-08）**：誤りは②③④⑤⑦の5つで、組合せの2つともが誤りになっている選択肢は2（②⑦）だけです（1は①⑥ともに正、3は③誤・⑧正、4は④誤・⑨正、5は⑤誤・⑩正）。正誤は、`note-articles/laws/fudousan-touki-jimu-junsoku.md`の準則第68条・第69条の原文と、ユーザーから提供された実務教材（予備校の解説）の両方で確認しました。
+- 条文レベルで確認できたもの：①（準則69条10号：ガスタンク敷地又は石油タンク敷地は宅地とする）、②（準則69条3号：耕作地の区域内にある農具小屋等の敷地は、その建物が永久的設備と認められるものに限り、宅地とする＝仮設は宅地にならない）、③（準則68条12号：墓地は人の遺体又は遺骨を埋葬する土地。動物の遺骸又は遺骨を埋める土地は、どの地目にも当たらない土地として同条23号の雑種地）、④（準則68条5号：鉄道用地は鉄道の駅舎、附属施設及び路線の敷地。同69条14号の変電所敷地＝雑種地は、鉄道に属さない一般の変電所や鉄塔の場合）、⑥（準則68条21号：公衆用道路は一般交通の用に供する道路〈道路法による道路であるかどうかを問わない〉）、⑦（準則69条12号：火葬場は構内に建物の設備があるときは構内全部を宅地とし、建物の設備のないときは雑種地とする）、⑧（準則68条4号：学校用地は校舎、附属施設の敷地及び運動場）、⑨（準則69条9号：テニスコート又はプールは宅地に接続するものは宅地とし、その他は雑種地とする）、⑩（準則69条14号：鉄塔敷地は雑種地とする）は、いずれも準則の条文原文と一致することを確認できました。
+- ③の「動物の」は、原典の問題文で確認済みです（問題文の表記に疑いはありません）。
+- ⑤について：準則68条15号は、専ら給水の目的で敷設する水道の水源地、貯水池、ろ水場又は水道線路に要する土地を水道用地と定めています。条文は浄水場の管理事務所の敷地を名指しはしていませんが、その施設を管理する事務所の敷地も水道用地として扱うことは、ユーザーから提供された実務教材の解説で確認しました（条文に事務所の敷地が明記されているわけではない点だけ、断っておきます）。
+- ⑩は、鉄塔敷地を雑種地とする準則69条14号そのものにあたる記述ですので、解釈によらず正しいと確認できました。建物の要件は不動産登記規則111条で確認しています（外気分断性・定着性・用途性という呼び方は条文にはなく、実務上の整理です）。
+- **訂正の記録（2026-10-08）**：この記事の以前の版は、③④⑤を「正しい記述」として扱っていましたが、誤りでした。③は準則68条12号が人の遺体又は遺骨に限っていること、④は準則68条5号により鉄道専用の変電所が鉄道用地になること、⑤は準則68条15号の水道用地にあたることを、原典の問題文と準則の原文で確かめ、正誤・解説・まとめ・図解プロンプトを書き直しました。以前の版にあった「③を正しい記述とする」「公式の正答では③は誤りに含まれない」とする記述は撤回しています。正解番号（2番）は変わりません。
+- アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記アプリの検証済みデータベース、ローカル法令データベース、ユーザーから提供された原典の問題文と実務教材の解説、およびWebSearchで確認できた実務解説サイトの情報に基づいて作成しています。
+- **QAチェックリスト再検証（2026-10-08実施）**：`note-articles/qa-checklist.md`の項目に基づき、③④⑤の訂正にあわせて再検証しました。A（準則68条・69条の条文原文と突き合わせ、判例・先例・専門誌の番号は本文に記載なし）、B（まとめの正誤〈誤り＝②③④⑤⑦〉が正解2番と整合）、C（見出しは正しい結論の形、敬体・全角括弧、正解は本文末尾で初めて明記）、D（Markdown表の不使用）、E（図解プロンプトを本文と1カードずつ・1パネルずつ照合し、③④⑤の記述を新しい結論に合わせて修正。全10肢をカードまたはパネルでカバー）、F（タイトルのキャッチフレーズは25字以内）、G（重複出題チェック：地目認定を扱う記事は多数の年度にあり、石油タンク・学校用地・テニスコート・変電所・墓地といった個別の地目区分は繰り返し出題される定番論点です。最新法令チェック：本問が扱う準則68条・69条の地目区分は直近の法改正の影響を受けていません）を実施しました。
 
 ---
 
@@ -151,23 +159,25 @@
 
 - 仮設の小屋じゃ、宅地にならないんです
 - 火葬場、建物があれば実は宅地なんです
-- 変電所の土地は、雑種地なんです
+- 鉄道専用の変電所は、鉄道用地なんです
+- 浄水場の事務所も、水道用地なんです
+- 墓地は、人の遺体と遺骨だけなんです
 - 私有地でも、みんなが通れば公衆用道路
-- テニスコートも、宅地に含まれるんです
 
 ---
 
 ## インフォグラフィック プロンプト（問題全体）
 
-石油タンク・農具小屋・火葬場・変電所・公衆用道路・学校用地・テニスコートという具体例を、「建物の有無・恒久性で分かれるもの」と「利用実態・隣接関係で決まるもの」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・6枚のポスター型カードで俯瞰する構成。
+農具小屋・火葬場・石油タンク・テニスコート・鉄塔・鉄道の変電所・浄水場の事務所・墓地・公衆用道路・学校用地という具体例を、「宅地か雑種地かで分かれるもの」と「専用の地目・利用実態で決まるもの」という2つの軸に沿って、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・6枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080×1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
 modern explainer-graphic aesthetic (icons: isometric buildings, oil tanks,
-farm sheds, substations, crematoriums, roads, school grounds, tennis
-courts, etc. — adapt icon set to the topic).
+farm sheds, substations, railway tracks, water-treatment plants, cemeteries,
+crematoriums, roads, school grounds, tennis courts, etc. — adapt icon set
+to the topic).
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
 NOT a text-heavy explainer document. There is NO intro illustration and NO
@@ -195,7 +205,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・建・物・所・種・雑・宅 — these must be rendered in their
+kanji 地・建・物・所・種・雑・宅・墓・鉄・道・水 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -214,13 +224,13 @@ Title (large, bold, 2行):
 現況主義を体に叩き込む
 
 Subtitle (smaller, centered, 1行):
-平成17年度 第16問－建物の有無・恒久性・利用実態で見る地目の分かれ目
+平成17年度 第16問－宅地・雑種地と専用の地目の分かれ目
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
 --- COLUMN A HEADER (pill-shaped badge, color: green) ---
-建物の有無・恒久性で分かれる
+宅地か雑種地かで分かれる
 
 --- COLUMN A, CARD 1 ---
 Badge: a filled green circle containing the number 1.
@@ -248,46 +258,53 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-タンク・浄水場事務所は宅地
-Illustration: An isometric oil tank fixed on a factory plot on the
-left, and a small water-treatment plant office building on the right.
-Both carry a pastel "宅地" tag.
+タンクとコートは宅地、鉄塔は雑種地
+Illustration: Three small isometric scenes side by side. On the left,
+an oil tank fixed on a factory plot with a pastel "宅地" tag. In the
+middle, a tennis court directly adjoining an apartment building's
+grounds with a pastel "宅地" tag. On the right, a transmission tower
+with only bare legs and no roof or walls with a "雑種地" tag.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-建物を支える土地
-
---- COLUMN A, CARD 4 ---
-Badge: a filled green circle containing the number 4.
-Heading (bold, ONE line, ~20 characters or fewer):
-変電所・鉄塔は雑種地
-Illustration: An isometric small substation beside a railway on the
-left, and a transmission tower with only bare legs and no roof or
-walls on the right. Both carry a "雑種地" tag.
-Conclusion tag (green banner below the illustration, 5-15 characters):
-建物の実質なし
+準則の個別の定め
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
-利用実態・隣接関係で決まる
+専用の地目・利用実態で決まる
+
+--- COLUMN B, CARD 4 ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+鉄道・浄水場の施設は専用の地目
+Illustration: On the left, an isometric small substation beside a
+railway track, labeled "鉄道専用の変電所", with a "鉄道用地" tag. On
+the right, a water-treatment plant with a small office building inside
+the plant, the whole footprint inside one outline, labeled "管理事務所
+も同じ", with a "水道用地" tag.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+鉄道用地と水道用地
 
 --- COLUMN B, CARD 5 ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-私有地でも公衆用道路になる
-Illustration: An isometric small road with a "私有地" sign, drawn
-with local residents walking along it daily. A "公衆用道路" tag sits
-above the road.
+墓地は人の遺体・遺骨を埋める土地
+Illustration: On the left, an isometric cemetery with gravestones and
+a person paying respects, with a green checkmark and a "墓地" tag. On
+the right, a small inset of a plain plot with a paw-print icon, labeled
+"動物の遺骸・遺骨", with a red cross mark over a "墓地" label and a
+"雑種地" tag.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-公有私有問わず
+動物は墓地でなく雑種地
 
 --- COLUMN B, CARD 6 ---
 Badge: a filled blue circle containing the number 6.
 Heading (bold, ONE line, ~20 characters or fewer):
-学校用地とテニスコートは宅地系
-Illustration: An isometric school campus showing the school building,
-attached facilities, and playground as one unified plot labeled
-"学校用地" on the left, and a tennis court directly adjoining an
-apartment building's grounds labeled "宅地" on the right.
+公衆用道路と学校用地
+Illustration: On the left, an isometric small road with a "私有地"
+sign, drawn with local residents walking along it daily, with a
+"公衆用道路" tag. On the right, a school campus showing the school
+building, attached facilities, and playground as one unified plot
+labeled "学校用地".
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-隣接・一体利用
+実際の使い方で決まる
 
 --- FOOTER ---
 
@@ -308,18 +325,16 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 ## インフォグラフィック プロンプト（作図ガイド）
 
 各記述を読んだ瞬間に「まず何を確認し、次に何を確認して、どんな地目にたどり
-着くか」を追体験できるよう、①②④⑤⑥⑦⑧⑨⑩の9つの記述分の作図ガイドパネル
-を1枚にまとめた。③（動物の遺骸・遺骨を埋める土地）は本文で根拠に不確実性
-が残ると明記しており、②のインフォグラフィックでもカード化の対象外として
-いるため、本ガイドでも同様に対象外とする。②の結論カードポスターとは別物
-として作成し、②の内容は変更していない。
+着くか」を追体験できるよう、①〜⑩の10の記述分の作図ガイドパネルを1枚に
+まとめた。結論カードポスターとは別物として作成している（2026-10-08に
+③④⑤の結論を訂正し、③のパネルを追加した）。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x2900 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article, but
-built as a set of 9 diagram-drawing panels (a "how to sketch this fact
+built as a set of 10 diagram-drawing panels (a "how to sketch this fact
 pattern, in the right order" study reference) rather than a
 quick-reference conclusion poster.
 
@@ -330,7 +345,8 @@ conditions to get there — isometric oil tanks, farm sheds beside rice
 paddies, railway substations and bare transmission towers, crematorium
 buildings, water-treatment plant offices, roads with pedestrian figures,
 school campuses with playgrounds, tennis courts adjoining apartment
-buildings, and small checklists with checkmarks and cross marks. Where a
+buildings, cemeteries with gravestones, and small checklists with
+checkmarks and cross marks. Where a
 肢 requires checking multiple conditions in sequence before reaching a
 conclusion, draw the panel's diagram as an actual decision flowchart:
 diamond-shaped branch nodes with the condition written on them, Yes/No
@@ -420,39 +436,61 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 仮設なら宅地にならない
 
---- PANEL 3（肢④） ---
+--- PANEL 3（肢③） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-居住・執務用の建物かどうかを見分ける
-Diagram: An isometric small substation beside a railway track on the
-left, labeled「変電所」, and a transmission tower with only bare metal
-legs and no roof or walls on the right, labeled「鉄塔」. A dashed arrow
-from both icons points to a label reading「居住・執務用の建物ではない」,
-leading to a blue tag reading「雑種地」.
+埋めるのが人か動物かを確認する
+Diagram: A diamond-shaped decision node labeled「埋める対象は人の遺体
+又は遺骨か」sits above an isometric plain plot. A red, thick-bordered
+「いいえ」 (the case this 肢 tests) arrow leads to a small paw-print icon
+labeled「動物の遺骸・遺骨」, ending at a red conclusion node reading
+「墓地ではない（雑種地）」. A faded, dotted-outline green「はい」arrow
+leads to a faded gravestone icon, ending at a faded conclusion node
+reading「墓地」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、その施設が居住や執務の用に供される建物かどうかを確認します。変電所
-や鉄塔のような電力設備であれば、宅地ではなく雑種地と判定します。
+まず、埋める対象が人の遺体又は遺骨かどうかを確認します。動物の遺骸又は
+遺骨を埋める土地は、墓地ではなく雑種地と判定します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-電力設備は雑種地
+動物なら墓地でない
 
---- PANEL 4（肢⑤） ---
+--- PANEL 4（肢④） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
-浄水場内の事務所部分だけを切り分ける
-Diagram: A large isometric water-treatment plant footprint, mostly left
-untagged, with a dashed boundary isolating a small office building inside
-it labeled「事務所」. Only this isolated office portion carries a green
-tag reading「宅地」.
+鉄道専用の施設かどうかを確認する
+Diagram: A diamond-shaped decision node labeled「鉄道専用の変電所か」
+sits above an isometric railway track. A green, thick-bordered「はい」
+(the case this 肢 tests) arrow leads to a small substation beside the
+track labeled「鉄道の附属施設」, ending at a green conclusion node reading
+「鉄道用地」. A faded, dotted-outline「いいえ」arrow leads to a faded
+general substation and a faded bare-leg transmission tower labeled
+「鉄道に属さない」, ending at a faded conclusion node reading「雑種地」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、浄水場全体のうち、事務所として使われている建物の敷地部分だけを
-切り分けて確認します。その部分は宅地と判定します。
+まず、その変電所が鉄道専用で、鉄道の附属施設といえるかを確認します。
+鉄道の附属施設なら鉄道用地、鉄道に属さない変電所や鉄塔なら雑種地と
+判定します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-事務所部分だけ宅地
+鉄道専用なら鉄道用地
 
---- PANEL 5（肢⑥） ---
+--- PANEL 5（肢⑤） ---
 Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+浄水場の事務所も水道用地として見る
+Diagram: A large isometric water-treatment plant footprint drawn inside
+one outline tagged「水道用地」, with a small office building inside the
+outline labeled「管理事務所」. A dashed arrow from the office points to
+the same outline, labeled「事務所の敷地も同じ水道用地」. Beside the
+office, a small faded「宅地」tag is crossed out with a dotted line.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その浄水場が専ら給水の目的で設けられた水道の施設であることを確認
+します。その施設を管理する事務所の敷地も、水道用地と判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+事務所も水道用地
+
+--- PANEL 6（肢⑥） ---
+Badge: a filled circle in blue containing the number 6.
 Heading (bold, ONE line):
 所有者でなく利用実態を確認する
 Diagram: An isometric small road with a「私有地」sign, drawn with local
@@ -463,12 +501,12 @@ privately owned does not change the result.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、その土地が公有か私有かを気にせず、実際に一般公衆の交通の用に供され
 ているかどうかを確認します。供されていれば公衆用道路と判定します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 所有者は問わない
 
---- PANEL 6（肢⑦） ---
-Badge: a filled circle in blue containing the number 6.
+--- PANEL 7（肢⑦） ---
+Badge: a filled circle in green containing the number 7.
 Heading (bold, ONE line):
 構内に建物の設備があるかを確認する
 Diagram: A diamond-shaped decision node labeled「構内に建物の設備がある
@@ -481,12 +519,12 @@ furnace icon with no building, ending at a faded conclusion node reading
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、火葬場の構内に建物の設備があるかどうかを確認します。設備がある
 場合は構内全部が宅地、設備がない場合は雑種地と判定します。
-Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 設備あれば宅地
 
---- PANEL 7（肢⑧） ---
-Badge: a filled circle in green containing the number 7.
+--- PANEL 8（肢⑧） ---
+Badge: a filled circle in blue containing the number 8.
 Heading (bold, ONE line):
 校舎・附属施設・運動場をまとめて見る
 Diagram: A single unified isometric plot boundary encompassing a school
@@ -496,12 +534,12 @@ and a playground labeled「運動場」, all inside one outline tagged「学校
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、校舎の敷地・附属施設の敷地・運動場を別々に見るのではなく、学校と
 しての一体的な利用に着目してまとめて確認します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 まとめて学校用地
 
---- PANEL 8（肢⑨） ---
-Badge: a filled circle in blue containing the number 8.
+--- PANEL 9（肢⑨） ---
+Badge: a filled circle in green containing the number 9.
 Heading (bold, ONE line):
 テニスコートが宅地に接続しているかを確認する
 Diagram: A diamond-shaped decision node labeled「テニスコートは宅地に
@@ -514,12 +552,12 @@ conclusion node reading「雑種地」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、テニスコートやプールが宅地に接続しているかどうかを確認します。
 接続していれば宅地、接続していなければ雑種地と判定します。
-Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 接続していれば宅地
 
---- PANEL 9（肢⑩） ---
-Badge: a filled circle in green containing the number 9.
+--- PANEL 10（肢⑩） ---
+Badge: a filled circle in blue containing the number 10.
 Heading (bold, ONE line):
 建物の3要件を備えているかを確認する
 Diagram: An isometric steel transmission tower with only bare legs, no
@@ -529,29 +567,29 @@ roof and no walls. Beside it, a checklist of exactly these three items
 them, leading to a blue conclusion tag.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、その工作物が定着性・外気分断性・用途性という建物の3要件を備えて
-いるかを確認します。備えていない鉄塔のような工作物の敷地は、準則に個別の
-定めがあるものを除き、雑種地と判定します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+いるかを確認します。備えていない鉄塔のような工作物の敷地は、鉄塔敷地と
+して雑種地と判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-3要件を欠けば雑種地
+鉄塔敷地は雑種地
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記事務取扱手続準則68条3号・4号・21号・23号・69条3号・9号・10号・12号・14号、不動産登記規則111条
+不動産登記事務取扱手続準則68条3号・4号・5号・12号・15号・21号・23号・69条3号・9号・10号・12号・14号、不動産登記規則111条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to 宅・地・建・物・種・雑・維・持・設・
-備・登・記・準・則・号・確・認. If any character renders as a
+備・登・記・準・則・号・確・認・墓・鉄・道・水・専・給. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Also scan the entire canvas for any character that
 is not standard Japanese hiragana, katakana, or Jōyō kanji — including
 any Chinese-only character, Korean Hangul, other non-Japanese script, or
 stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. Confirm the panel count
-equals 9 exactly, badge numbers run 1-9 continuously, there is no intro
+equals 10 exactly, badge numbers run 1-10 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
-every multi-condition 肢 (panels 2, 6, 8) is drawn as an actual flowchart
+every multi-condition 肢 (panels 2, 3, 4, 7, 9) is drawn as an actual flowchart
 with branch nodes (not a bare illustration with no visible decision
 structure), that no 肢 with a genuinely hidden second condition has been
 flattened into a single check, that each 着眼点 callout states a checking
