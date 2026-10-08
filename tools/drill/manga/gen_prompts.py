@@ -337,6 +337,7 @@ def render(sp):
     out += filename_section(sp)
     out += ("## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）\n"
             + ("- [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み\n" if sp.get("ippatsu") else "")
+            + ("- [x] 4コマの目的（最優先。`MANGA_RULES.md`）適用済み：設計メモに【出題者のひっかけ】【受験者の勘違い・定着していない点】【対比する制度】の3行を書いた\n" if sp.get("purpose") else "")
             + f"- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/{sp.get('fid', sp['id'])}_prompt.md` が NG 0件\n"
             + "".join(f"- [ ] 工程C：{c}\n" for c in sp["review"]) + "\n")
     out += ("## 生成後の照合チェック（文言の正本は上の構成表）\n- [ ] 4コマ縦一列／タイトル帯・結論帯あり\n"

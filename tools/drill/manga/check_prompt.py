@@ -78,7 +78,7 @@ def main():
 
     # 0-pre 4コマの目的（2026-10-09 ユーザー指示。D1888）：出題者のひっかけ・受験者の勘違い・対比する制度を、設計メモに書き、図か台詞に入れる
     memo = re.search(r"## 設計メモ（工程A）\n(.*?)\n\n## ", src, re.S)
-    strict_purpose = "B案" in path.name or "C案" in path.name or path.name == "D0314-B_prompt.md"
+    strict_purpose = "B案" in path.name or "C案" in path.name or path.name == "D0314-B_prompt.md" or "4コマの目的（最優先。`MANGA_RULES.md`）適用済み" in src
     def PURPOSE(m): (NG if strict_purpose else WARN)(m if strict_purpose else "（旧版・改修時に直す）" + m)
     if memo:
         mt = memo.group(1)
