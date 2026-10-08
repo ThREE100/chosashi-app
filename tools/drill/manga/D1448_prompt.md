@@ -51,6 +51,7 @@
 | コマ4 | 藍子（左・先に話す） | 条件つきで証明書が要る、は誤りなんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そのとおり。番号を提供すれば足りるのよ | 「番号を提供すれば足りる」 |
 | コマ4 チェック欄 | 3項目（青✓） | 会社法人等番号を提供するのが原則（令7条1項1号イ） / 支配人が代理して申請するときは、代理人の権限を証する情報は要らない（令7条1項2号、規則36条3項） / 証明書を提供するのは、番号の提供に代える場合（規則36条1項2号） | — |
+| 注記 | 小さな注記（コマ4の下） | 肢の登記所の条件は、平成27年の規則改正前の言い回しです | — |
 | 結論帯 | 1行目 | 会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D1448　正解×（R01-Q08ア） | — |
 
@@ -76,7 +77,7 @@ CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than 
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
-- Conclusion banner at the bottom (about 110 px tall).
+- Conclusion banner at the bottom (about 110 px tall). Between panel 4 and the conclusion banner, a thin one-line note strip (about 50 px tall) with small text, as given in the NOTE LINE below.
 
 TITLE BANNER: text 「番号を提供すれば、支配人の証明書は要らない」 in large bold letters; the part 「支配人の証明書は要らない」 has a yellow highlighter marker.
 
@@ -124,13 +125,15 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both han
 足りるのよ」 with the part 「番号を提供すれば足りる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「会社法人等番号を提供するのが原則（令7条1項1号イ）」, 「支配人が代理して申請するときは、代理人の権限を証する情報は要らない（令7条1項2号、規則36条3項）」, 「証明書を提供するのは、番号の提供に代える場合（規則36条1項2号）」.
 
+NOTE LINE (small text on a thin strip between panel 4 and the conclusion banner, one line, fully legible): 「肢の登記所の条件は、平成27年の規則改正前の言い回しです」
+
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 - Line 1: 「会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない」 with a yellow highlighter marker.
 - Line 2: 「問題D1448　正解×（R01-Q08ア）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 号, 地, 所, 権, 番, 登, 規, 解, 記, 証, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the word 「原則」 is spelled exactly like this everywhere (never 「思則」); confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 号, 地, 所, 権, 番, 登, 肢, 規, 解, 記, 証, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the word 「原則」 is spelled exactly like this everywhere (never 「思則」); confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -214,6 +217,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
 ## v01：新規作成（2026-10-09）。一問一答で誤解が3回になった肢（4コマ未作成）。条文（令7条1項1号イ・2号、規則36条1項2号・3項）は note-articles/laws/ の原文で確認した。ChatGPTでの画像生成・検品はまだ。
+- 確認結果の反映（2026-10-09）：年度別記事の確認（B-6）で、肢の「登記所が同一であり、かつ、法務大臣が指定した登記所以外のもの」は、平成27年11月2日施行の改正前の不動産登記規則36条2項1号（支配人等の代理人の権限を証する情報を省略できる場合）の文言と分かった。現行の規則36条3項は、会社法人等番号を有する法人の支配人等が代理するときは登記所の同一を問わない。結論（×）は変わらない。図には、小さな注記の帯で「肢の条件は改正前の規則の言い回し」と明記した。
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
