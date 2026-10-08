@@ -17,6 +17,19 @@ ng, warn = [], []
 def NG(m): ng.append(m)
 def WARN(m): warn.append(m)
 
+
+def registered_types():
+    """MANGA_RULES.md の「型の一覧」の表から、{型の名前: 状態} を読む。"""
+    rules = pathlib.Path(__file__).resolve().parent / "MANGA_RULES.md"
+    t = rules.read_text(encoding="utf8")
+    sec = re.search(r"### 型の一覧.*?\n((?:\|.*\n)+)", t)
+    out = {}
+    if sec:
+        for l in sec.group(1).splitlines():
+            c = [x.strip() for x in l.strip().strip("|").split("|")]
+            if len(c) >= 6 and re.fullmatch(r"型\d+", c[0]): out[c[0]] = c[5]
+    return out
+
 SECOND_RESULT = None
 THIRD_RESULT = None
 
@@ -92,6 +105,19 @@ def main():
             tbl_all = "\n".join(l for l in src.splitlines() if l.startswith("|"))
             for t_ in terms:
                 if t_ not in tbl_all: PURPOSE(f"設計メモの対比する語「{t_}」が構成表（図・台詞）に出てこない。4コマの中で対比を見せる")
+        # 型の選び方（2026-10-09 ユーザー指示）：設計メモに「【型の選び方】型：型N（…）」を書き、型N は MANGA_RULES.md の「型の一覧」に登録された型にする
+        tl = re.search(r"^- 【型の選び方】(.*)$", mt, re.M)
+        if not tl:
+            PURPOSE("設計メモに「- 【型の選び方】型：型N（…）。理由…」の行がない（案の型：MANGA_RULES.md「案の型（パターン）と選び方」）")
+        else:
+            tm_ = re.search(r"型：(型\d+)", tl.group(1))
+            if not tm_: PURPOSE("「【型の選び方】」に「型：型N」の形で型の名前が書かれていない（例：型：型2（第二案・押さえどころ））")
+            else:
+                reg = registered_types()
+                if tm_.group(1) not in reg:
+                    NG(f"型「{tm_.group(1)}」が MANGA_RULES.md の「型の一覧」に登録されていない（新しい型は先に一覧と説明を登録する。登録済み：{'・'.join(sorted(reg))}）")
+                elif reg[tm_.group(1)] in ("廃止",):
+                    NG(f"型「{tm_.group(1)}」は廃止されている（MANGA_RULES.md「型の一覧」）")
     # 0 記事タイトル（設計メモ（工程A）と構成表の間に置く）
     tm = re.search(r"^## 記事タイトル\n\n(【土地家屋調査士受験生向け】4コマ解説図解(D\d{4}(?:・D\d{4})*)～(.+?)～)\n", src, re.M)
     if not tm: NG("「## 記事タイトル」がない、または形式が違う（【土地家屋調査士受験生向け】4コマ解説図解<ID>～<出典>～）")
