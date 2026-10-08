@@ -22,19 +22,19 @@
 
 ### ア：申請後の通知は、申請人ではなく筆界特定登記官が行う
 
-筆界特定をしたときは、筆界特定登記官が遅滞なくその旨を公告し、かつ、申請人以外の対象土地の所有者と関係土地の所有者に通知しなければなりません（不動産登記法133条1項）。
+筆界特定の申請があったときは、筆界特定登記官が遅滞なくその旨を公告し、かつ、申請人以外の対象土地の所有権登記名義人等と関係土地の所有権登記名義人等（関係人）に通知しなければなりません（不動産登記法133条1項）。
 
 通知は筆界特定登記官の役目であり、申請人が自ら関係人に通知するものではありません。本肢は誤りです。
 
 **たとえば**、Aさんが隣地との筆界について筆界特定を申請しても、隣の関係者に「申請しました」と知らせて回るのはAさん自身ではなく、手続を担当する筆界特定登記官の側です。
 
-### イ：明白かつ重大な誤りがあれば、再度の申請ができる
+### イ：既に筆界特定がされていても、特段の必要があれば却下されない
 
 対象土地の筆界について、既に筆界特定登記官による筆界特定がされているときは、原則として却下事由に該当します（不動産登記法132条1項7号）。
 
-ただし、既にされた筆界特定が偽造された資料によってなされた場合など、特段の必要があると認められる場合には、改めて筆界特定の申請をすることができます。よって「明白かつ重大な誤りがあっても却下しなければならない」とはいえず、本肢は誤りです。
+ただし、対象土地について更に筆界特定をする特段の必要があると認められる場合は、この限りではなく、却下されません（同号ただし書）。よって、既にされた筆界特定の内容に明白かつ重大な誤りがあるときでも「却下しなければならない」とはいえず、本肢は誤りです。
 
-**たとえば**、以前の筆界特定が、実は偽造された測量図に基づいてなされていたと分かった場合には、「もう筆界特定は済んでいる」として一律に却下されるのではなく、改めて筆界特定を申請できる余地があります。
+**たとえば**、以前の筆界特定が、実は偽造された測量図に基づいてなされていたと分かったような場合には、「もう筆界特定は済んでいる」として一律に却下されるのではなく、更に筆界特定をする特段の必要があると認められれば、改めて申請できる余地があります。
 
 ### ウ：手続費用の予納義務は、申請人だけが負う
 
@@ -63,7 +63,7 @@
 ### まとめ
 
 - **ア（誤）** 申請後の通知は筆界特定登記官が行う（申請人ではない）
-- **イ（誤）** 明白かつ重大な誤りがあれば再度の申請ができる
+- **イ（誤）** 既に筆界特定がされていても、特段の必要があると認められれば却下されない
 - **ウ（誤）** 手続費用の予納義務は申請人だけが負う
 - **エ（正）** 筆界特定の申請は申請の趣旨を明らかにしてしなければならない
 - **オ（正）** 対象土地の一を共通にする複数の申請は一の申請情報でできる
@@ -86,7 +86,7 @@
 ## 見出し画像用フレーズ
 
 - 関係人への通知、するのは登記官なんです
-- 前の筆界特定に重大な誤り、やり直せるって知ってた？
+- 前の筆界特定があっても、特段の必要があればやり直せるって知ってた？
 - 費用を前払いするのは「申請した人」だけなんです
 - 筆界特定は「申請の趣旨」をはっきり書くんです
 - 共通の土地があれば、2つの申請を1枚にまとめられるんです
@@ -173,7 +173,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-重大な誤りなら再度の申請ができる
+特段の必要があれば再度の申請ができる
 Illustration: An isometric ledger page showing a land plot stamped
 "筆界特定済み", with a torn paper label reading "偽造された資料" attached,
 and a curved arrow looping back to a fresh document form icon labeled
@@ -332,11 +332,11 @@ characters):
 --- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
-明白かつ重大な誤りがあれば再申請できる
+特段の必要があれば再申請できる
 Diagram: Draw an actual decision flowchart, top to bottom. Start node
 (rectangle): 「対象土地の筆界について既に筆界特定がされている」. An arrow
-leads down to a diamond-shaped branch node labeled「①明白かつ重大な誤りが
-あるなど特段の事情があるか（例：偽造された資料に基づく筆界特定）」. From
+leads down to a diamond-shaped branch node labeled「①更に筆界特定をする
+特段の必要があると認められるか（例：偽造された資料に基づく筆界特定）」. From
 the diamond, a green arrow labeled「はい」leads to a distinct rounded
 rectangle conclusion node in green:「改めて筆界特定の申請ができる（却下
 されない）」. A separate red arrow labeled「いいえ」leads to a distinct
@@ -345,12 +345,11 @@ rounded rectangle conclusion node in grey/red:「却下事由に該当し却下�
 with no arrow looping back into the flowchart.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、対象土地の筆界について既に筆界特定がされているという前提を確認し
-ます。次に、その筆界特定の内容に明白かつ重大な誤りがあるなど特段の事情
-があるかを確認し、特段の事情があれば却下されず改めて申請できると判断し
-ます。
+ます。次に、更に筆界特定をする特段の必要があると認められるかを確認し、
+特段の必要があれば却下されず改めて申請できると判断します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-特段の事情があれば再申請可
+特段の必要があれば再申請可
 
 --- PANEL 3（ウ） ---
 Badge: a filled circle in blue containing the number 3.
@@ -427,7 +426,7 @@ run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that the multi-condition 肢（イ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that the hidden second condition in
-イ（明白かつ重大な誤りなど特段の事情の有無）has not been flattened into
+イ（更に筆界特定をする特段の必要の有無）has not been flattened into
 a single check, that each 着眼点 callout states a checking order rather
 than only a conclusion and keeps every required element from the source
 article distinct (no merged or dropped requirements), confirm nothing is
