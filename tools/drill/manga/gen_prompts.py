@@ -58,12 +58,13 @@ def hlpart(h): return f" with the part {q(h)} highlighted in yellow" if h else "
 
 FIXED_OLD = "In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side."
 FIXED_FLEX = ("In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. "
-              "A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; "
-              "in that case follow the PANEL line, and a character who is not drawn has no speech bubble.")
+              "A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, show both at the normal size at the two outer edges, show both as small face icons in a vertical conversation column, or show both very small; "
+              "in that case follow the PANEL line and its LAYOUT lines, and a character who is not drawn has no speech bubble.")
 CHARS_TXT = {
     "aiko": "ONLY 藍子 appears in this panel (no トリ先生), standing at the left and smaller than usual, so that the diagram can be drawn large",
     "tori": "ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large",
-    "faces": "both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel",
+    "faces": "both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)",
+    "side": "both characters appear at the NORMAL size (each about 190 px tall, roughly half of the panel height, with the same full-body look as in the other panels): 藍子 at the left edge and トリ先生 at the right edge, both standing in the lower part of the panel (see the LAYOUT lines below)",
     "none": "NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large",
     "small": "both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel",
 }
@@ -81,7 +82,7 @@ def build(sp):
     flex = any(p.get("chars") for p in pan)
     head = HEAD.replace(FIXED_OLD, FIXED_FLEX) if flex else HEAD
     if any(p.get("chars") == "faces" for p in pan):
-        head = head.replace("a character who is not drawn has no speech bubble.", "a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines.")
+        head = head.replace("a character who is not drawn has no speech bubble.", "a character who is not drawn has no speech bubble; in a panel marked as face icons, each character appears only as a small round face icon inside the vertical conversation column described in the LAYOUT lines, with exactly one face icon for each speech bubble and never more face icons than bubbles.")
     body = head.replace("{LETTERS_OK}", letters_ok).replace("{PARTIES}", parties).replace("{NOTE_LAYOUT}", nl).replace("{CONT}", (CONT + "\n\n") if sp.get("cont", True) else "") + "\n\n"
     body += f"TITLE BANNER: text {q(sp['title'])} in large bold letters; the part {q(sp['title_hl'])} has a yellow highlighter marker.\n\n"
     rows = [("タイトル帯", "—", sp["title"], sp["title_hl"] and f"「{sp['title_hl']}」を黄色マーカー")]
@@ -96,6 +97,19 @@ def build(sp):
             body += f"PANEL {n} ({p.get('mood', MOODS[i])}; {p.get('hands', HANDS[i])}):\n"
         body += f"- Label tab: {q(p['label'])}\n"
         rows.append((f"コマ{n} 見出し", "ラベル", p["label"], "—"))
+        if cm == "faces":
+            nb = len(p["bubbles"]); rowh = min(120, 330 // max(nb, 1))
+            body += ("- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). "
+                     "The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. "
+                     f"The RIGHT column is a vertical conversation of EXACTLY {nb} rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about {rowh} px tall, all rows the same height, never overlapping. "
+                     "Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; "
+                     "in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. "
+                     f"So the right column shows exactly {nb} face icons and exactly {nb} speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. "
+                     "The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.\n")
+        if cm == "side":
+            body += ("- LAYOUT (side characters): 藍子 stands at the left edge and トリ先生 at the right edge at the normal size, each taking only the outer 22% of the panel width, with their speech bubbles in the upper part above their own heads and never covering the diagram. "
+                     "The diagram described in the lines below is drawn large in the CENTER region only, between the two characters (about 56% of the panel width and the full panel height below the label tab); "
+                     "wherever a line below says the diagram fills the panel, it means this center region. The characters never overlap the diagram.\n")
         if p.get("opposite"): body += f"- {OPPOSITE_LX if p.get('opposite') == 'lx' else OPPOSITE}\n"
         for ln in p["fig"]: body += f"- {ln}\n"
         figstr = []
@@ -111,7 +125,11 @@ def build(sp):
             side = "left" if who == "藍子" else "right"
             role = "spoken first" if who == "藍子" else "spoken as the answer"
             if cm == "faces": role = f"rally {k} of {len(p['bubbles'])}"
-            body += f"- {who} bubble ({side}, {role}): {q(brk or text)}{hlpart(hl)}." + (" The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines." if brk else "") + "\n"
+            if cm == "faces":
+                side_txt = f"{side}, row {k} of {len(p['bubbles'])} in the conversation column; face icon at the {side.upper()} end of its own row"
+            else:
+                side_txt = f"{side}, {role}"
+            body += f"- {who} bubble ({side_txt}): {q(brk or text)}{hlpart(hl)}." + (" The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines." if brk else "") + "\n"
             who_lbl = (f"{who}（{'左' if who=='藍子' else '右'}・{k}番目）" if cm == "faces" else f"{who}（{'左・先に話す' if who=='藍子' else '右・答える'}）")
             rows.append((f"コマ{n}", who_lbl, text, f"「{hl}」" if hl else "—"))
         if p.get("checklist"):
@@ -145,8 +163,18 @@ def build(sp):
     alltext = "".join(b[1] for p in pan for b in p["bubbles"]) + "".join("".join(p["fig"]) for p in pan)
     for w, bad in GARBLED.items():
         if w in alltext: fin += f"confirm that the word {q(w)} is spelled exactly like this everywhere (never {q(bad)}); "
+    if any(p.get("chars") == "small" for p in pan):
+        fin += "confirm that the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; "
+    for p_ in pan:
+        if p_.get("chars") == "faces":
+            nb_ = len(p_["bubbles"])
+            fin += (f"confirm that the conversation column has exactly {nb_} face icons and exactly {nb_} speech bubbles, one pair per row in the speaking order from top to bottom, "
+                    "that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; ")
+            break
+    if any(p.get("chars") == "side" for p in pan):
+        fin += "confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; "
     if any(p.get("chars") in ("faces", "small") for p in pan):
-        fin += "confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; "
+        fin += "confirm that nothing but the given text appears above the heads of the pictograms; "
     if any(p.get("chars") == "none" for p in pan):
         fin += "confirm that every panel marked as having no character contains no character and no speech bubble; "
     if sp.get("final_extra"):
