@@ -133,14 +133,14 @@ def build(sp):
             who_lbl = (f"{who}（{'左' if who=='藍子' else '右'}・{k}番目）" if cm == "faces" else f"{who}（{'左・先に話す' if who=='藍子' else '右・答える'}）")
             rows.append((f"コマ{n}", who_lbl, text, f"「{hl}」" if hl else "—"))
         if p.get("checklist"):
-            body += ("- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: "
+            body += ("- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: "
                      + ", ".join(q(c) for c in p["checklist"]) + ".\n")
             rows.append((f"コマ{n} チェック欄", "3項目（青✓）", " / ".join(p["checklist"]), "—"))
         body += "\n"
     if sp.get("note"):
         body += f"NOTE LINE (small text on a thin strip between panel 4 and the conclusion banner, one line, fully legible): {q(sp['note'])}\n\n"
         rows.append(("注記", "小さな注記（コマ4の下）", sp["note"], "—"))
-    body += ("CONCLUSION BANNER (strong contrasting solid color, large text, two lines):\n"
+    body += ("CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):\n"
              f"- Line 1: {q(sp['band1'])} with a yellow highlighter marker.\n- Line 2: {q(sp['band2'])}\n\n")
     rows.append(("結論帯", "1行目", sp["band1"], "黄色マーカー"))
     rows.append(("結論帯", "2行目", sp["band2"], "—"))
@@ -177,6 +177,13 @@ def build(sp):
         fin += "confirm that nothing but the given text appears above the heads of the pictograms; "
     if any(p.get("chars") == "none" for p in pan):
         fin += "confirm that every panel marked as having no character contains no character and no speech bubble; "
+    if sp.get("letters"):
+        fin += (f"confirm that the faceless pictograms {', '.join(sp['letters'])} are all drawn in exactly the same single light gray-blue color, the same shade for every one of them (they differ only by their letter tags); ")
+    if "question badge" in alltext:
+        fin += "confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; "
+    if "Step card" in alltext or "step cards" in alltext:
+        fin += "confirm that no triangle, chevron, arrow, or connector is drawn between the stacked step cards; "
+    fin += "confirm that the conclusion banner is pale yellow with dark navy text; "
     if sp.get("final_extra"):
         fin += sp["final_extra"].strip() + " "
     fin += "confirm the background is fully opaque with no transparency, alpha channel, or checkerboard."

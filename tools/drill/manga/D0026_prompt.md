@@ -104,17 +104,17 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both han
 - Label tab: 「④　結論は×」
 - 藍子 bubble (left, spoken first): 「債権者の承諾を証する情報は、提供しなくていいんですね！」.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。承諾が必要という記述は×よ」 with the part 「承諾が必要という記述は×」 highlighted in yellow.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「分筆は一筆を区分する物理的な変更」, 「仮差押えは分筆後の各土地に及ぶ」, 「債権者の承諾を証する情報は不要」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「分筆は一筆を区分する物理的な変更」, 「仮差押えは分筆後の各土地に及ぶ」, 「債権者の承諾を証する情報は不要」.
 
 NOTE LINE (small text on a thin strip between panel 4 and the conclusion banner, one line, fully legible): 「注）抵当権など所有権以外の権利を分筆後の一方の土地だけで消滅させるときは、権利者の承諾を証する情報が必要（不動産登記法40条）」
 
-CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「仮差押えの効力は分筆後の各土地に及び、債権者の承諾は不要」 with a yellow highlighter marker.
 - Line 2: 「問題D0026　正解×（H17-Q06肢1）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 債, 効, 地, 当, 所, 承, 抵, 押, 権, 物, 登, 肢, 解, 記, 証, 請, 諾, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 債, 効, 地, 当, 所, 承, 抵, 押, 権, 物, 登, 肢, 解, 記, 証, 請, 諾, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the faceless pictograms Ａ, Ｂ are all drawn in exactly the same single light gray-blue color, the same shade for every one of them (they differ only by their letter tags); confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
