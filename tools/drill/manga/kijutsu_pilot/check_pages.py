@@ -78,6 +78,14 @@ def main():
                 if b.get("highlight") and b["highlight"] not in b["text"]: NG(f"{zid}/{b['id']}: 強調語が文中にない: {b['highlight']}")
                 if re.search(r"\[(ALPHA|SHIFT|STO|Apps)\]", b["text"]): NG(f"{zid}/{b['id']}: 電卓のキー操作が入っている")
                 t, k = b["id"].split("-"); seen_bub.setdefault(t, []).append(int(k))
+        # C27 仮枠どうしの間隔（隣り合う仮枠がくっつくと、画像から別々の枠として見つけられない）
+        fr = []
+        for z in zs:
+            if z["type"] == "figure": f = z["frame"]; fr.append((z["zone_id"], f["y"], f["y"] + f["h"]))
+            elif z.get("frame") or z["type"] in ("calc_card", "answer_banner", "note_card", "wrong_card", "obs_card", "point_card", "next_chapter_tag"):
+                fr.append((z["zone_id"], z["y"] + 20, z["y"] + z["h"] - 20))
+        for a, b in zip(fr, fr[1:]):
+            if b[1] - a[2] < 30: NG(f"{pid}: 仮枠{a[0]}と{b[0]}の間隔が30px未満（{b[1]-a[2]}px）。画像から別々の枠として検出できない")
         # 区画ごとの吹き出し数（詰め込みすぎ）
         nb = sum(len(z.get("bubbles", [])) for z in zs)
         if nb > 12: WARN(f"{pid}: 吹き出しが{nb}個（多い。読みにくくないか）")
