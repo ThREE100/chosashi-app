@@ -7,9 +7,11 @@
   その下の「令和２年10月18日　申請　Ａ地方法務局」は印刷）
 - 添削　：`../prompt_R2_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第1欄（問1のB点・G点・H点）・第3欄（問3のア〜オ）：申請書でない解答欄も、別の画像にする（横1200pxの横長。2026-10-02追加）。
+  見出しは答案用紙の印刷どおり「第1欄」「第3欄」だけにし、問の内容はキャプションに書く（2026-10-08）。
   欄の形は試験の答案用紙（`../touan_youshi/R2_dai21mon_touan_youshi.pdf`）で確かめた形：第1欄は左上が斜線のセルと
   「Ｘ座標（m）」「Ｙ座標（m）」の見出し、Ｂ点・Ｇ点・Ｈ点の3行（3列とも同じ幅）。第3欄はア〜オの記号と記入欄を1組ずつ縦に5行
 - 添削の「土地の表示」欄も、答案用紙どおり記入行6行（6行目は空欄）にする
+- 枠の高さは固定せず min-height にする。土地の表示の列幅は答案用紙の比に合わせる（2026-10-08）
 - 完成形の表の下に、相続証明書の今の扱い（法定相続情報番号）の注を入れる（2026-10-02追加。記事の本文の注と同じ文言）
 
 見本は `R6/Q21/zu/`・`R7/Q21/zu/` の生成スクリプト（CSSと部品を同じ形にしている）。
@@ -92,8 +94,9 @@ def page(body):
 
 def land_table(rows, n_rows=6, shozai=''):
     """土地の表示の表（R2の答案用紙の形）。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。すべての行で地積を点線で分ける。"""
-    h = ['<table class="land"><colgroup><col style="width:6%"><col style="width:17%"><col style="width:11%">'
-         '<col style="width:11%"><col style="width:7%"><col style="width:48%"></colgroup>',
+    # 列幅は答案用紙（touan_youshi の1ページ目）の比に合わせる：縦書きの列6・地番18・地目15・地積25（整数部15・小数部10）・原因36
+    h = ['<table class="land"><colgroup><col style="width:6%"><col style="width:18%"><col style="width:15%">'
+         '<col style="width:15%"><col style="width:10%"><col style="width:36%"></colgroup>',
          f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
          f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地　　番</td>'
          '<td class="head">②地　　目</td><td class="head" colspan="2">③地　積　（m²）</td>'
@@ -140,9 +143,9 @@ def rows(i_int, i_dec, g_int, g_dec, red=None):
 applicant_html = '<br>'.join(f'<span class="ink">{a}{b}</span>' for a, b in APPLICANT)
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('土地分合筆登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:150px">{ink(ATTACH1)}<br>{ink(ATTACH2)}</div></div>
-<div class="row"><div class="lab">登録免許税</div><div class="box" style="height:62px">{ink('金2,000円')}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:62px">{ink('土地分合筆登記')}</div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:150px">{ink(ATTACH1)}<br>{ink(ATTACH2)}</div></div>
+<div class="row"><div class="lab">登録免許税</div><div class="box" style="min-height:62px">{ink('金2,000円')}</div></div>
 <div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:150px">{applicant_html}</div></div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
 <div class="plain">{DATE}</div>
@@ -205,8 +208,8 @@ def anaume_table(items):
 
 DAI1 = [('Ｂ点', '25.18', '5.48'), ('Ｇ点', '14.34', '12.64'), ('Ｈ点', '23.34', '3.64')]
 DAI3 = [('ア', '不動産'), ('イ', '登記名義人'), ('ウ', '書面'), ('エ', '合筆'), ('オ', '合併')]
-dai1 = ran_page('第1欄　Ｂ点、Ｇ点及びＨ点の座標値', zahyou_table(DAI1), '令和2年度 土地家屋調査士試験 第21問 第1欄（問1）解答例')
-dai3 = ran_page('第3欄　登記識別情報の説明（ア〜オ）', anaume_table(DAI3), '令和2年度 土地家屋調査士試験 第21問 第3欄（問3）解答例')
+dai1 = ran_page('第1欄', zahyou_table(DAI1), '令和2年度 土地家屋調査士試験 第21問 第1欄（問1　Ｂ点、Ｇ点及びＨ点の座標値）解答例')
+dai3 = ran_page('第3欄', anaume_table(DAI3), '令和2年度 土地家屋調査士試験 第21問 第3欄（問3　登記識別情報の説明のア〜オ）解答例')
 
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
