@@ -63,14 +63,14 @@ check('底辺＝斜めの辺', '直角二等辺三角形の底辺は、直角の
 check('隅切りの面積', '面積は2.00かける1.00割る2で1.00よ')
 check('1番2の検算', '180.00引く1.00で179.00。登記記録と一致しました')
 check('1番1の検算', '全体の1600.00から1番2の四角の180.00と、残り3つの隅切りの3.00を引いて、1417.00')
-check('直角をはさむ辺の表示', '`2 [÷] [√] 2 [)] [=]` で、表示は1.4142…')
+check('直角をはさむ辺の表示', '`2 [÷] [√] 2 [)] [=]`。表示は1.4142…')
 n_side = 40 - 2 * leg
 w_side = 40 - 15 - leg
 s_side = 40 - 12 - leg
 assert (fmt_num(n_side), fmt_num(w_side), fmt_num(s_side)) == ('37.1715…', '23.5857…', '26.5857…')
 check('北の辺', '`40 [−] 2 [×] [ALPHA] [A] [=]` で37.1715…')
-check('西の辺', '西側の辺は、40から1番2の15と隅切りの分を引いて23.5857…')
-check('南の辺', '南側の辺は40から12と隅切りの分を引いて26.5857…')
+check('西の辺', '`40 [−] 15 [−] [ALPHA] [A] [=]` で23.5857…')
+check('南の辺', '`40 [−] 12 [−] [ALPHA] [A] [=]` で26.5857…')
 assert round(n_side * 100 / 500, 1) == 7.4
 check('縮尺換算', '北側の37.17メートルなら図面の上では約7.4センチ')
 check('辺長は建物図面に書かない', 'この辺長は建物図面には書かないのよ')
@@ -200,10 +200,12 @@ check('符号2の床面積', '「60｜00」', form, '申請書')
 check('符号2の原因', '「平成29年８月10日新築」', form, '申請書')
 check('見出しの印刷文字', '「登記原因及びその日付」', form, '申請書')
 absent('登録免許税の記入', '登録免許税**：', form, '申請書')
-check('誤答（所在）', '**「Ａ市Ｂ町三丁目１番地１、１番地２」**', fix, '添削')
-check('誤答（符号）', '**「符号１」**', fix, '添削')
-check('正解（所在）', '所在：「Ａ市Ｂ町三丁目１番地１」', fix, '添削')
-check('正解（符号）', '記入行3の1列目：「符号２」', fix, '添削')
+check('誤答（所在）', '①誤答：所在の上段「Ａ市Ｂ町三丁目１番地１、１番地２」', fix, '添削')
+check('誤答（符号）', '①誤答：記入行3の1列目「符号１」', fix, '添削')
+check('誤答（構造）', '①誤答：記入行3の構造「発泡ポリスチレン造発泡ポリスチレンぶき平家建」', fix, '添削')
+check('正解（所在）', '③正解：所在の上段「Ａ市Ｂ町三丁目１番地１」', fix, '添削')
+check('正解（符号）', '③正解：記入行3の1列目「符号２」', fix, '添削')
+check('正解（構造）', '③正解：記入行3の構造「発泡ポリスチレン造平家建」', fix, '添削')
 check('添削の3段共通', '「①平成29年７月20日種類変更」', fix, '添削')
 check('添削の3段共通', '「平成29年８月10日新築」', fix, '添削')
 
@@ -230,9 +232,9 @@ bad_speaker = [i + 1 for i, l in enumerate(lines)
 ng += bool(bad_speaker)
 print(('OK ' if not bad_speaker else 'NG ') + f'話者名の行（ハードブレーク）: 不備 {bad_speaker}')
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-ok = n_marker == 11
+ok = n_marker == 20
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図8＋第1欄1＋添削1＋第2欄完成形1＝計11か所の想定）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {n_marker}個（解説図15＋第1欄1＋添削3＋第2欄完成形1＝計20か所の想定）')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')
@@ -279,7 +281,7 @@ check('所在の確認（乙）', '南の筆界から12.92メートルまで、�
 check('第3欄の上の欄', '建物図面の上の欄には、家屋番号『1番1』、建物の所在『A市B町三丁目1番地1』を書くの')
 check('第3欄の（略）', '作成者と申請人の欄は（略）と印刷されているので、書くのは家屋番号と建物の所在ですね')
 check('規則第83条第1項', '主である建物か附属建物かの別と附属建物の符号も書く事項よ（不動産登記規則第83条第1項）')
-check('用紙の配置', '第3欄の1枚の用紙に、左が各階平面図、右が建物図面ですね')
+check('用紙の配置', '第3欄は1枚の枠を真ん中で仕切って、各階平面図と建物図面を並べて描くんですね。家屋番号と建物の所在の欄は建物図面の側の上に1つだけで、両方に共通です')
 check('縮尺（問題文の注3）', '縮尺は250分の1（問題文の注3）')
 check('準則第94条第2項', '準則第94条第2項に『③令和何年何月何日増築』のような欄番号の例があります')
 check('登録免許税法別表第一', '分筆・合筆と建物の分割・区分・合併（一（十三））だけで、建物の表題部の変更の登記は載っていません')
@@ -317,13 +319,20 @@ for bad in ['奥側', '手前側', '見取図の注', '調査図素図の注']:
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
-PNGS = [('分割の前後比較図', 'H29_dai22mon_zu01_bunkatsu_zengo'), ('答案用紙の第1欄（問1）の完成形', 'H29_dai22mon_dai1ran_kansei'),
-        ('辺長確認図（作図チェック用）', 'H29_dai22mon_zu02_shikichi_henchou'), ('建物図面の完成形', 'H29_dai22mon_zu03_tatemono_zumen'),
-        ('甲建物（主である建物）の床面積求積図', 'H29_dai22mon_zu04_kou_kyuuseki'), ('丙建物の誤り比較図', 'H29_dai22mon_zu05_hei_ayamari_hikaku'),
-        ('丙建物（附属建物符号2）の床面積求積図', 'H29_dai22mon_zu06_hei_kyuuseki'),
-        ('各階平面図の完成形', 'H29_dai22mon_zu07_kakukai_heimenzu'),
-        ('「所在」欄と附属建物の行の①誤答', 'H29_dai22mon_toukishinseisho_machigai'),
-        ('登記申請書（問2）の完成形', 'H29_dai22mon_toukishinseisho_kansei'), ('本番で解く順番の図', 'H29_dai22mon_zu08_toku_junban')]
+PNGS = [('分割の前後比較図', 'H29_dai22mon_zu01_bunkatsu_zengo'), ('建物区分登記と建物分割登記の比較図', 'H29_dai22mon_zu02_kubun_bunkatsu'),
+        ('各階平面図の添付の要否の比較図', 'H29_dai22mon_zu03_kakukai_youhi'), ('答案用紙の第1欄（問1）の完成形', 'H29_dai22mon_dai1ran_kansei'),
+        ('建物ごとの時系列メモの図', 'H29_dai22mon_zu04_jikeiretsu'), ('注の仕分けの図', 'H29_dai22mon_zu05_chuu_shiwake'),
+        ('隅切りの読み違いの比較図', 'H29_dai22mon_zu06_sumikiri_ayamari'),
+        ('辺長確認図（作図チェック用）', 'H29_dai22mon_zu07_shikichi_henchou'), ('所在の確認図', 'H29_dai22mon_zu08_shozai_kakunin'),
+        ('建物図面の完成形', 'H29_dai22mon_zu09_tatemono_zumen'),
+        ('甲建物（主である建物）の床面積求積図', 'H29_dai22mon_zu10_kou_kyuuseki'), ('準則第82条第1号の読み方の流れ図', 'H29_dai22mon_zu11_jousoku82'),
+        ('丙建物の誤り比較図', 'H29_dai22mon_zu12_hei_ayamari_hikaku'),
+        ('丙建物（附属建物符号2）の床面積求積図', 'H29_dai22mon_zu13_hei_kyuuseki'),
+        ('各階平面図の完成形', 'H29_dai22mon_zu14_kakukai_heimenzu'),
+        ('登記申請書の「所在」欄の①誤答', 'H29_dai22mon_toukishinseisho_machigai_shozai'),
+        ('「主である建物又は附属建物」欄の①誤答', 'H29_dai22mon_toukishinseisho_machigai_fugou'),
+        ('「②構造」欄の①誤答', 'H29_dai22mon_toukishinseisho_machigai_kouzou'),
+        ('登記申請書（問2）の完成形', 'H29_dai22mon_toukishinseisho_kansei'), ('本番で解く順番の図', 'H29_dai22mon_zu15_toku_junban')]
 ok = len(markers) == len(PNGS) and all(k in m for m, (k, _) in zip(markers, PNGS))
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'画像挿入マーカーとPNGの対応（記事の順） : {len(markers)}か所')
@@ -355,17 +364,22 @@ html_has('H29_dai22mon_dai1ran_kansei', '建物分割登記', '主である建�
 h = html_has('H29_dai22mon_toukishinseisho_kansei', '建物表題部変更登記', '建物図面　各階平面図　所有権証明書　登記事項証明書',
              '代理権限証書', '平成29年８月18日　申請　　Ａ地方法務局', 'Ａ市Ｃ町二丁目６番２号　社会福祉法人Ｃ福祉会', '理事長　人権岩男',
              '不動産番号', 'Ａ市Ｂ町三丁目１番地１', '１番１', '登記原因及びその日付', '集会所', '保育所', '倉庫', '>185<', '>27<',
-             '>60<', '符号２', '①平成29年７月20日種類<br>変更', '平成29年８月10日新築', '発泡ポリスチレ<br>ン造平家建',
+             '>60<', '符号２', '①平成29年７月20日種類変更', '平成29年８月10日新築', '発泡ポリスチレン造<br>平家建',
+             'width:4.1%', 'width:15.5%', 'width:11.2%', 'width:19.3%', 'width:8.9%', 'width:8.4%', 'width:8.2%', 'width:24.4%',
+             '<td class="val" colspan="2"></td><td class="val" colspan="4"></td>', '<td class="val" colspan="3">',
              '土地家屋調査士　法　務　守')
 for bad in ['登録免許税', '住所証明書', '登記識別情報', '>55<', '>20<', '１番地２', '符号１', '>79<', '平成30年']:
     absent('申請書のHTML', bad, h, '申請書HTML')
-html_has('H29_dai22mon_toukishinseisho_machigai', 'Ａ市Ｂ町三丁目１番地１、１番地２', '符号１', '<span class="ink strike">、１番地２</span>',
-         '<span class="ink strike">１</span><span class="red">２</span>', '調査日（4/28）は分割の登記（5/19）の前',
-         '抹消の記号付きで甲建物の登記記録に残っている', '符号２', '<svg class="check"')
+html_has('H29_dai22mon_toukishinseisho_machigai_shozai', 'Ａ市Ｂ町三丁目１番地１、１番地２', '<span class="ink strike">、１番地２</span>',
+         '調査日（4/28）の登記記録は、分割の登記（5/19）の前', '甲建物の所在は１番地１だけ', '不動産番号', '<svg class="check"')
+html_has('H29_dai22mon_toukishinseisho_machigai_fugou', '符号１', '<span class="ink strike">１</span><span class="red">２</span>',
+         '抹消の記号付きで甲建物の登記記録に残っている（規則第127条第2項）', '符号２', '<svg class="check"')
+html_has('H29_dai22mon_toukishinseisho_machigai_kouzou', '発泡ポリスチレン造<br>発泡ポリスチレンぶき<br>平家建',
+         '<span class="ink strike">発泡ポリスチレンぶき</span>', '屋根の種類はこしらえない', '発泡ポリスチレン造<br>平家建', '<svg class="check"')
 for bad in ['✓', '✕', '横1600']:
     absent('添削・申請書プロンプトの記号', bad, form + fix, 'プロンプト')
     absent('解説図プロンプトの記号', bad, fig.replace('横1600px × 縦1200px', ''), '解説図')
-check('添削は縦に3段', '横1200px（縦長', fix, '添削')
+check('添削は縦に3段', '横1200pxの縦長。上から「①誤答」「②添削（赤ペン）」「③正解」', fix, '添削')
 drw = open(os.path.join(ZU, 'draw_H29_dai22mon_kaisetsuzu.py'), encoding='utf-8').read()
 n_fit = len(re.findall(r"\bfit\(", drw))
 ok = n_fit > 0 and drw.count('pad_aspect=True') == n_fit
@@ -384,30 +398,116 @@ for bad in ['✕', '✓', '右上', '左下']:
 extra = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - set(n for _, n in PNGS))
 ng += bool(extra)
 print(('OK ' if not extra else 'NG ') + f'zu/ に記事で使わないPNGがない : {extra}')
-for name in ['H29_dai22mon_zu03_tatemono_zumen', 'H29_dai22mon_zu07_kakukai_heimenzu']:
+for name in ['H29_dai22mon_zu09_tatemono_zumen', 'H29_dai22mon_zu14_kakukai_heimenzu']:
     w, h_ = Image.open(os.path.join(ZU, name + '.png')).size
-    ok = w >= 1600 and h_ >= 1100
+    ok = w >= 1400 and h_ > w          # 第3欄の半分（縦長）を縮尺どおりに
     ng += (not ok)
     print(('OK ' if ok else 'NG ') + f'PNGの大きさ : {name} {w}×{h_}')
 # 答案用紙の第3欄の欄（試験の答案用紙 public/kijutsu/H29-tatemono/a2.webp の印刷どおり）
-z03 = drw[drw.index('def zu03():'):drw.index('def zu04():')]
-z07 = drw[drw.index('def zu07():'):drw.index('def zu08():')]
-for n in ["'家屋番号'", "'1番1'", "'建物の所在'", "'A市B町三丁目1番地1'", "'申　請　人'", "'（略）'", "'縮尺'", "'1/500'",
-          "'建　物　図　面'"]:
-    check('建物図面の欄（図3）', n, z03, '作図')
+z03 = drw[drw.index('def zu09():'):drw.index('def P250(')]
+z07 = drw[drw.index('def zu14():'):drw.index('def fixed(')]
+for n in ["'家屋番号'", "'1番1'", "'建物の所在'", "'A市B町三丁目1番地1'", "'申 請 人'", "'（略）'", "'縮尺'", "'500')",
+          "'建　物　図　面'", "half_frame(ax, cut='left')", "assert abs(abs(Sp(40, 0) - Sp(0, 0)) - 80.0) < 1e-9"]:
+    check('建物図面の欄（図9）', n, z03, '作図')
 absent('建物図面の所在に1番地2', '1番地1、1番地2', z03, '作図')
-for n in ["'作　成　者'", "（平成29年○月○日作成）", "'1/250'", "'各　階　平　面　図'",
-          "主である建物\\n3.64×7.28＝26.4992\\n14.54×10.92＝158.7768\\n計　185.2760\\n床面積　185.27㎡",
-          "附属建物　符号2\\n8.00×7.50＝60.0000\\n床面積　60.00㎡",
-          "assert round(area(k), 4) == 185.276 and round(area(h), 4) == 60.0"]:
-    check('各階平面図の欄（図7）', n, z07, '作図')
+for n in ["'作 成 者'", "（平成29年○月○日作成）", "'250')", "'各　階　平　面　図'", "half_frame(ax, cut='right')",
+          "3.64×7.28＝26.4992\\n14.54×10.92＝158.7768\\n計　185.2760\\n床面積　185.27m²",
+          "8.00×7.50＝60.0000\\n床面積　60.00m²", "'主である建物'", "'附属建物　符号2'",
+          "assert round(area(k) / 16, 4) == 185.276 and round(area(h) / 16, 4) == 60.0"]:
+    check('各階平面図の欄（図14）', n, z07, '作図')
+absent('各階平面図に家屋番号の欄', "'家屋番号'", z07, '作図')
+# 答案用紙の第3欄の寸法（a2.webp、1px＝0.3mm）：半分の枠 150.9mm × 205.2mm、中央の目印 上9.9mm・下9.6mm
+check('第3欄の寸法', 'HALF_W, SHEET_H = 150.9, 205.2', drw, '作図')
+check('第3欄の目印', 'TICK_TOP, TICK_BOTTOM = 9.9, 9.6', drw, '作図')
 check('答案用紙の欄（プロンプト）', '`public/kijutsu/H29-tatemono/a2.webp`', fig, '解説図')
 check('各階平面図の完成形（記事のマーカー）', '主である建物（甲建物）と附属建物符号2（丙建物）の外形と周りの長さを同じ縮尺で描き、それぞれの横に求積表と床面積（185.27㎡・60.00㎡）')
-check('建物図面の完成形（記事のマーカー）', '答案用紙の第3欄の建物図面の欄（家屋番号「1番1」・建物の所在「A市B町三丁目1番地1」・申請人（略）・縮尺1/500）の枠の中')
+check('建物図面の完成形（記事のマーカー）', '答案用紙の第3欄の右半分の建物図面の欄（家屋番号「1番1」・建物の所在「A市B町三丁目1番地1」・申請人（略）・縮尺1/500）の枠の中')
 # 問1（第1欄）の①②③の答えを、会話の中で語のまま言っているか（穴埋め・記述の答えの明示。R5/Q22の照らし直しの教訓）
 for lbl, w_ in [('①', '登記の目的は『建物分割登記』ですね'), ('②の語句', '一個の建物'), ('③', '③は『添付しなければならない』です')]:
     check('問1の答えの明示 ' + lbl, w_)
 for lbl, w_ in [('①', '建物分割登記'), ('③', '添付しなければならない。')]:
     check('第1欄の画像の答え ' + lbl, w_, open(os.path.join(ZU, 'H29_dai22mon_dai1ran_kansei.html'), encoding='utf-8').read(), '第1欄HTML')
 
+
+# ---- 2026-10-08の照らし直し（最新の執筆指示書：誤答・確認計算・注の仕分け・時系列メモの図、欄ごとの添削、図番なし、電卓のキー列） ----
+check('区分と分割の図の位置', '登記の目的は『建物分割登記』ですね」\n\n> 【画像挿入】建物区分登記と建物分割登記の比較図')
+check('各階平面図の要否の図の位置', '③は『添付しなければならない』です」\n\n> 【画像挿入】各階平面図の添付の要否の比較図')
+check('分割の前後比較図の位置', '別の一個の建物にしておく必要があるの」\n\n> 【画像挿入】分割の前後比較図')
+check('時系列メモの図の位置', '乙建物は5月19日で話が終わっているわ」\n\n> 【画像挿入】建物ごとの時系列メモの図')
+check('隅切りの図の位置', 'こちらも一致です」\n\n> 【画像挿入】隅切りの読み違いの比較図')
+check('所在の確認図の位置', '1番地2と書かないこと」\n\n> 【画像挿入】所在の確認図')
+check('準則の流れ図の位置', '切り落とさないの」\n\n> 【画像挿入】準則第82条第1号の読み方の流れ図')
+check('注の仕分け（会話）', '問題文の注1〜4、〔見取図〕の（注）1〜6、〔調査図素図〕の（注）1〜6')
+check('注の仕分け（問題文の注3）', '問題文の注3は、建物図面が500分の1、各階平面図が250分の1という縮尺で、問3の作図に効きます')
+check('注の仕分け（見取図の注6）', '〔見取図〕の（注）6は、隅切りが底辺2メートルの直角二等辺三角形だということで、敷地の地積の検算に使います')
+check('注の仕分け（調査図素図の注4・6）', '〔調査図素図〕の（注）4は、測定値が軽量鉄骨の柱の中心か発泡ポリスチレン板の中心だということ、〔調査図素図〕の（注）6は')
+check('構造（藍子の誤答）', '『発泡ポリスチレン造発泡ポリスチレンぶき平家建』です！')
+check('構造（訂正）', '――屋根の種類をこしらえないの。')
+check('第3欄の両半分（各階平面図のマーカー）', '答案用紙の第3欄の左半分の各階平面図の欄')
+check('隅切りの斜めの辺の検算（複素数）', '`[Abs] [ALPHA] [A] [+] [ALPHA] [A] [i] [)] [=]` で、表示は2')
+check('複素数モード', 'モードの2番でCPLXにしてから始めます')
+
+# 電卓のキー列を記事の順にそのまま実行して、直後の「表示」と比べる（F-789SG。[√]・[Abs] は開きかっこを兼ねる＝第22問の記事の書き方）
+import cmath
+mem = {}
+
+
+def run_keys(seq):
+    toks = re.findall(r'\[[^\]]+\]|[0-9]+(?:\.[0-9]+)?', seq)
+    out, i = [], 0
+    while i < len(toks):
+        t = toks[i]
+        if t == '[ALPHA]':
+            out.append(f"mem['{toks[i + 1][1:-1]}']")
+            i += 2
+            continue
+        if t == '[SHIFT]' and toks[i + 1] == '[STO]':
+            mem[toks[i + 2][1:-1]] = run_keys.last
+            i += 3
+            continue
+        if t == '[i]':
+            out[-1] = f'({out[-1]}*1j)'
+        elif t == '[=]':
+            run_keys.last = eval(''.join(out), {'mem': mem, 'sqrt': cmath.sqrt, 'absf': abs})
+            out = []
+        else:
+            m_ = {'[÷]': '/', '[×]': '*', '[−]': '-', '[+]': '+', '[√]': 'sqrt(', '[Abs]': 'absf(', '[(]': '(', '[)]': ')'}
+            if t.startswith('[') and t not in m_:
+                raise ValueError('要点にないキー ' + t)
+            out.append(m_.get(t, t))
+        i += 1
+    return run_keys.last
+
+
+run_keys.last = None
+keyseq = re.findall(r'`([^`]*\[[^`]*)`(?:。表示は| で、表示は| で)([0-9.]+…?)', text)
+want = [('2 [÷] [√] 2 [)] [=]', '1.4142…'), ('40 [−] 2 [×] [ALPHA] [A] [=]', '37.1715…'),
+        ('40 [−] 15 [−] [ALPHA] [A] [=]', '23.5857…'), ('40 [−] 12 [−] [ALPHA] [A] [=]', '26.5857…'),
+        ('[Abs] [ALPHA] [A] [+] [ALPHA] [A] [i] [)] [=]', '2')]
+ok = keyseq == want
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'記事のキー列と表示の組 : {keyseq}')
+for seq, disp_ in keyseq:
+    v = run_keys(seq)
+    if seq.startswith('2 [÷]'):
+        run_keys(seq + ' [SHIFT] [STO] [A]')     # 記事のとおり、表示した値を A に記憶する
+    v = complex(v)
+    got = fmt_num(v.real) if abs(v.imag) < 1e-12 else str(v)
+    if got.endswith('…') is False and abs(v.real - round(v.real)) < 1e-9:
+        got = str(int(round(v.real)))
+    ok = got == disp_
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'電卓のキー列 {seq} → 表示 {got}（記事 {disp_}）')
+
+# 画像の中に図の番号を書かない（題・見出し・画像の中の文字）
+titles = re.findall(r"(?:new_figure|fixed|suptitle|set_title)\(\s*'([^']*)'", drw) + re.findall(r"SHEET_H \+ 27, '([^']*)'", drw)
+bad_t = [t for t in titles if re.search(r'図\s*[0-9０-９]', t)]
+ng += bool(bad_t) or len(titles) < 15
+print(('OK ' if not bad_t else 'NG ') + f'画像の題に図の番号がない（{len(titles)}件） : {bad_t}')
+mk = open(os.path.join(ZU, 'make_H29_dai22mon_shinseisho_gazou.py'), encoding='utf-8').read()
+absent('申請書・添削の画像に図の番号', '図1', mk, '申請書作成')
+check('添削は欄ごとに3枚（プロンプト）', '欄ごとの3枚に分け', fix, '添削')
+for nm in ['machigai_shozai', 'machigai_fugou', 'machigai_kouzou']:
+    check('添削のファイル名', 'H29_dai22mon_toukishinseisho_' + nm, fix, '添削')
+check('答案用紙の列の幅（プロンプト）', '建物の表示（縦書き）4.1・主である建物又は附属建物15.5・①種類11.2・②構造28.2・③床面積16.6', form, '申請書')
 print('NG件数:', ng)
