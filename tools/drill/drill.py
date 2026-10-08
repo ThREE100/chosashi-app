@@ -308,26 +308,33 @@ def pick(bank, st, n, subject, topic, mode):
         return explore * 1.5 + weak * 1.5 + 0.15 * min(it.get('freq', 1), 5) + random.random() * 0.6
 
     new.sort(key=prio_new, reverse=True)
-    # 年度の優先：上の段階の未出題が残っている間は、下の段階の新規は出さない（科目・論点の指定時は適用しない）
+    # 年度の優先：上の段階の未出題が残っている間は、下の段階の新規は出さない（科目・論点の指定時は適用しない）。
+    # 上の段階の残りが足りないときは、次の段階の新規で埋める（復習で埋めない）
     if not subject and not topic:
-        for lo, hi in PRIORITY_TIERS:
-            tier_new = [i for i in new if lo <= item_year(pool[i]) <= hi]
-            if tier_new:
-                new = tier_new
+        tiers = [[i for i in new if lo <= item_year(pool[i]) <= hi] for lo, hi in PRIORITY_TIERS]
+    else:
+        tiers = [new]
+
+    def pick_new(m):
+        out = []
+        for tier in tiers:
+            if len(out) >= m:
                 break
+            out += spread_by_topic([i for i in tier if i not in out], bank, st, m - len(out))
+        return out
+
     if mode == 'review':
         chosen = due[:n]
     elif mode == 'new':
-        chosen = spread_by_topic(new, bank, st, n)
+        chosen = pick_new(n)
     elif mode == 'weak':
         # 弱い論点の肢（未出題＋復習が近いもの）を弱さ順に
         cand = [i for i in pool if i not in last_session and (i not in st or (st[i]['streak'] < RETIRE_STREAK))]
         cand.sort(key=lambda i: -(weakness(ts[(pool[i]['subject'], pool[i]['topic'])]) if (pool[i]['subject'], pool[i]['topic']) in ts else 0.35) - random.random() * 0.3)
         chosen = cand[:n]
-    else:  # mixed: 1周目（全肢を1回解く）が終わるまでは復習は5問中1問まで、残りは新規
-        cap = max(1, n // 5) if new else max(1, n // 2)
-        k = min(len(due), cap if due else 0)
-        chosen = due[:k] + spread_by_topic(new, bank, st, n - k)
+    else:  # mixed: 復習は常に5問中1問まで（2026-10-08ユーザー指示）。残りは新規。新規が尽きたときだけ復習で埋める
+        k = min(len(due), max(1, n // 5))
+        chosen = due[:k] + pick_new(n - k)
         if len(chosen) < n:
             chosen += [i for i in due[k:]][:n - len(chosen)]
     # 同じ論点が連続しないよう軽く散らす
