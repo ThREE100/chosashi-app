@@ -96,6 +96,7 @@ Aが署名して公証人の認証を受けた委任状を提供するときは�
 
 **このまま使える点／使う前に確認したい点**
 
+- **2026-10-08の改善（アの図解を現行法に対応させた）**：本文に出題当時の注を足したあと、図解（問題全体のカード1、作図ガイドのパネル1、見出し画像用フレーズ）が出題当時の「登記所が同一なら省略」のままだったため、現行の不動産登記令7条1項1号（会社法人等番号を有する法人は番号を提供すれば足り、番号を有しない法人だけ代表者の資格を証する情報が必要）に合わせて描き直すプロンプトに改めました。「提供することを要しない」という結論と正解は変わりません。図解は画像の再生成が必要です。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（3番＝イ・エ）は、ユーザー提供の法務省公表試験問題原本および正答資料（PDF）で確認済みです。
 - オ（住民票コードによる住所証明情報の省略）は、不動産登記規則36条4項「令第九条の法務省令で定める情報は、住民票コード……とする。ただし、住所についての変更又は錯誤若しくは遺漏があったことを証する情報を提供しなければならないものとされている場合にあっては、当該住所についての変更又は錯誤若しくは遺漏があったことを確認することができることとなるものに限る」で確認できました。ウ（公証人認証による委任状と印鑑証明書省略）は、不動産登記令18条1項・2項（記名押印した委任状には原則として印鑑に関する証明書の添付が必要）と、不動産登記規則49条1項1号「申請人又はその代表者若しくは代理人が署名した委任状について公証人又はこれに準ずる者の認証を受けた場合」（記名押印を要しない場合）で確認できました。記名押印した委任状の認証の場合は同条2項2号です（2026-10-08に、ウの根拠を2項2号から1項1号に改めました。結論は変わりません）。イ（土地家屋調査士会発行の職印証明書だけでは印鑑証明書の省略事由にならないこと）も、同じ規則49条2項が印鑑証明書の添付を要しない場合を1号から5号まで限定列挙しており、そこに土地家屋調査士会発行の職印証明書は含まれていないことから、条文上確認できました。エ（相続を証する情報の提供が必要であること）も条文・実務解説の内容と整合しています。ア（法人代表者資格証明情報の省略）の「登記所が同一又は法務大臣が指定した登記所」の定めは出題当時の規定で、現行の不動産登記令7条1項1号は会社法人等番号の提供（番号のない法人は代表者の資格を証する情報）に改められています（`laws/fudousan-touki-rei.md`で確認、2026-10-08）。本文に出題当時の注を加えました。結論（ア＝正）は変わりません。
@@ -109,7 +110,7 @@ Aが署名して公証人の認証を受けた委任状を提供するときは�
 
 ## 見出し画像用フレーズ
 
-- 同じ登記所なら、資格証明書はいらないんです
+- 会社法人等番号があれば、資格証明書はいらないんです
 - 職印証明書だけじゃ、印鑑証明は省略できないんです
 - 公証人の認証があれば、印鑑証明はいらないんです
 - 相続人が申請するには、戸籍がやっぱり必要なんです
@@ -184,13 +185,11 @@ Subtitle (smaller, centered, 1行):
 --- COLUMN A, CARD 1 ---
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
-登記所同一なら資格証明書は省略可
-Illustration: An isometric registry building with a signboard labeled
-"登記所", connected by an equals sign to a second signboard showing the
-same office where company "法人A" was registered, showing they are
-deemed the same office. A person submits a document labeled
-"地目変更登記" for 法人A, with a folder labeled "代表者の資格を証する
-情報" crossed out by a red cross mark.
+会社法人等番号があれば資格証明は不要
+Illustration: An isometric registry desk. A person submits a document
+labeled "地目変更登記" for company "法人A", and a small card labeled
+"会社法人等番号" is attached to the application. Beside it, a folder
+labeled "代表者の資格を証する情報" is crossed out by a red cross mark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 資格証明情報 不要
 
@@ -472,21 +471,22 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in teal containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
-登記所が同一かどうかを確認する
-Diagram: An isometric registry building labeled "申請を受ける登記所" shown
-connected by a bold equals sign to a second signboard reading "法人Aの登
-記を受けた登記所（または法務大臣が同一とみなすものとして指定した登記所）",
-indicating they are deemed the same office. A person submits a document
-labeled "地目変更登記" for 法人A at the registry desk, with a folder
-labeled "代表者の資格を証する情報" crossed out by a red cross mark next to
-a green checkmark confirming the offices match.
+法人が会社法人等番号を有するかを確認する
+Diagram: A decision tree with a diamond branch node labeled "法人Aは会
+社法人等番号を有するか". The bold highlighted "はい" branch leads to a
+card labeled "会社法人等番号を提供" and then to a folder labeled
+"代表者の資格を証する情報" crossed out by a red cross mark and a green
+checkmark labeled "提供不要". The "いいえ" branch leads to a folder
+labeled "代表者の資格を証する情報" with the small label "必要" and is
+rendered in a faded, greyed-out, dotted-outline style, because 法人A
+is not taken down this branch. A person submits a document labeled
+"地目変更登記" for 法人A at the registry desk.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、申請を受ける登記所が、法人Aの登記を受けた登記所と同一か、または法務
-大臣が同一とみなすものとして指定した登記所かを確認します。どちらかに該当
-すれば、代表者の資格を証する情報の提供を省略できます。
+まず、申請人の法人が会社法人等番号を有するかを確認します。有していれば、番
+号を提供すれば足り、代表者の資格を証する情報は提供しなくてよいと判断します。
 Conclusion tag (a short colored banner/pill, teal, 5-15 Japanese
 characters):
-同一なら資格証明省略可
+番号提供で資格証明不要
 
 --- PANEL 2（イ） ---
 Badge: a filled circle in teal containing the number 2.
