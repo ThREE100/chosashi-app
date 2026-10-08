@@ -221,7 +221,7 @@ def header_section(sp):
 def file_base(i, src): return f"4コマ解説図解{i}～{src}～"
 
 def filename_section(sp):
-    b = file_base(sp["id"], sp["src"])
+    b = file_base(sp["id"], sp["src"]) + sp.get("fsuffix", "")  # 別案（B案など）は接尾辞で採用版の名前の衝突を避ける
     return ("## 画像ファイル名（名づけルール）\n\n"
             "ChatGPTで生成した画像は、保存するときに次の名前へ変更する（拡張子は生成された形式のまま：png・webp など）。`MANGA_RULES.md` の「画像ファイル名」に従う。\n\n"
             "| 画像 | ファイル名 |\n|---|---|\n"

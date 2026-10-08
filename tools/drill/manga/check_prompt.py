@@ -105,6 +105,7 @@ def main():
     if not fm: NG("「## 画像ファイル名」がない")
     elif tm:
         base = f"4コマ解説図解{tm.group(2)}～{tm.group(3)}～"
+        if "B案" in path.name: base += "_B案"  # 別案（B案）のファイルは、画像名に_B案を付ける
         for need in (f"| {base}.png |", f"| {base}_見出し.png |", f"{base}_v01.png"):
             if need not in fm.group(1): NG(f"画像ファイル名の表に次がない: {need}")
 
