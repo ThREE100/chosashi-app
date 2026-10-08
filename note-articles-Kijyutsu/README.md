@@ -249,12 +249,12 @@ note-articles-Kijyutsu/
 │   │   └── zu/                                          解説図9枚のPNGと作図スクリプト draw_R2_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像のPNGとHTML（R2_dai21mon_toukishinseisho_kansei／_machigai）と生成スクリプト make_R2_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_R2_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
-│       ├── prompt_R2_dai22mon_kaisetsuzu.md                   解説図7枚（家屋番号の特定・敷地と建物の位置・建物図面・1階2階の求積・3階の誤り比較・3階の求積・本番で解く順番）作成プロンプト
+│       ├── prompt_R2_dai22mon_kaisetsuzu.md                   解説図15枚（家屋番号の特定・注の仕分け・住所変更の前提と義務化・解体移転とえい行移転・敷地と建物の位置・建物図面・1階2階の求積・3階の誤り比較・3階の求積・問4の完成形・所在の順序・種類・増築の併記・本番で解く順番）作成プロンプト
 │       ├── prompt_R2_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形。第1欄の滅失登記・第3欄の表題登記、第2欄の完成形）
-│       ├── prompt_R2_dai22mon_toukishinseisho_machigai.md     登記申請書「原因及びその日付」欄の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
+│       ├── prompt_R2_dai22mon_toukishinseisho_machigai.md     登記申請書の誤答→添削→正解の画像プロンプト（第3欄の原因、第1欄の申請人・添付書類・建物の表示の欄ごとに4枚。3コマを縦に積んだ縦長）
 │       ├── prompt_R2_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       ├── verify_R2_dai22mon.py                              記事・付属プロンプト・画像の数値・求積・体裁の照合スクリプト
-│       └── zu/                                                解説図7枚（図7は本番で解く順番）のPNGと作図スクリプト draw_R2_dai22mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形2枚（第1欄・第3欄、縦長1200px）・第2欄の完成形・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_R2_dai22mon_shinseisho_gazou.py
+│       └── zu/                                                解説図15枚のPNGと作図スクリプト draw_R2_dai22mon_kaisetsuzu.py（fit(..., pad_aspect=True)。建物図面・問4の完成形は試験の答案用紙と同じ寸法の第4欄に縮尺どおりの実際の大きさで）。登記申請書の完成形2枚（第1欄・第3欄、縦長1200px）・第2欄の完成形・添削画像4枚（縦3コマ）のPNG・HTMLと生成スクリプト make_R2_dai22mon_shinseisho_gazou.py
 ├── R3/
 │   ├── Q21/
 │   │   ├── note_R3_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み。相続人の1人が他の相続人に代位する分筆）
