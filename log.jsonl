@@ -1446,3 +1446,8 @@
 {"t": "2026-10-08T02:15:55+00:00", "id": "D0624", "ans": "o", "truth": true, "res": "known"}
 {"t": "2026-10-08T02:15:55+00:00", "id": "D1595", "ans": "?", "truth": true, "res": "unknown"}
 {"t": "2026-10-08T02:15:55+00:00", "id": "D1500", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-08T02:18:38+00:00", "id": "D2030", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-08T02:18:38+00:00", "id": "D1167", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-08T02:18:38+00:00", "id": "D1484", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-08T02:18:38+00:00", "id": "D1924", "ans": "?", "truth": false, "res": "unknown"}
+{"t": "2026-10-08T02:18:38+00:00", "id": "D1372", "ans": "?", "truth": false, "res": "unknown"}
