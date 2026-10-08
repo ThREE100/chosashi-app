@@ -40,7 +40,7 @@
 | コマ2 見出し | ラベル | ②　転質は、Ｂがお金を借りる話 | — |
 | コマ2 図 | 図・カード | 出題者のねらい / 転質に、設定者の承諾は要るか / Ａ / 設定者 / Ａに断らなくてよい / Ｂ / 質権者 / Ａの別荘 / Ｂの質権 / Ｃ / Ｂにお金を貸す人 / お金を借りる / Ｂの質権を担保に使う / 質権の存続期間内に、自己の責任で、質物にさらに質権を設定する　＝　転質（責任転質、民法348条） | — |
 | コマ3 見出し | ラベル | ③　承諾が要らないのは、転質だけではない | — |
-| コマ3 図 | 図・カード | 転質 / 民法348条 / 質物にさらに質権を設定できる / 使用・収益 / 民法356条 / 用法に従って使い、収益を得られる / 承諾なしでできる / ひっかけ：イもウも、承諾を得なければ、という言い方 | — |
+| コマ3 図 | 図・カード | 肢イ　転質 / 民法348条 / 質物にさらに質権を設定できる / 肢ウ　使用・収益 / 民法356条 / 用法に従って使い、収益を得られる / 承諾なしでできる / ひっかけ：イもウも、承諾を得なければ、という言い方 | — |
 | コマ3 | トリ先生（右・答える） | イもウも、承諾なしでできるのよ | 「承諾なし」 |
 | コマ4 見出し | ラベル | ④　もう間違えない3つの押さえどころ | — |
 | コマ4 図 | 図・カード |  | — |
@@ -97,7 +97,7 @@ PANEL 2 (explanatory, steady mood; NO character appears in this panel (a full-wi
 
 PANEL 3 (explanatory, steady mood; ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large):
 - Label tab: 「③　承諾が要らないのは、転質だけではない」
-- Two cards side by side in the same light gray with dark navy outlines and no marks. Left card: heading 「転質」, small tag 「民法348条」, body 「質物にさらに質権を設定できる」. Right card: heading 「使用・収益」, small tag 「民法356条」, body 「用法に従って使い、収益を得られる」. Each card carries the same small yellow tag 「承諾なしでできる」.
+- Two cards side by side in the same light gray with dark navy outlines and no marks. Left card: heading 「肢イ　転質」, small tag 「民法348条」, body 「質物にさらに質権を設定できる」. Right card: heading 「肢ウ　使用・収益」, small tag 「民法356条」, body 「用法に従って使い、収益を得られる」. Each card carries the same small yellow tag 「承諾なしでできる」.
 - Under the two cards, one wide dark navy ribbon with large white text 「ひっかけ：イもウも、承諾を得なければ、という言い方」.
 - The two cards have clearly different texts; the texts are NOT identical.
 - トリ先生 bubble (right, spoken as the answer): 「イもウも、
@@ -119,7 +119,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 占, 当, 承, 抗, 抵, 押, 権, 物, 解, 記, 諾, 違, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 占, 当, 承, 抗, 抵, 押, 権, 物, 肢, 解, 記, 諾, 違, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）

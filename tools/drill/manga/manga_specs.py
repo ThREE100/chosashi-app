@@ -1428,7 +1428,7 @@ SPECS["D0314-B"] = dict(
                   "At the bottom, one wide dark navy band with white text 「質権の存続期間内に、自己の責任で、質物にさらに質権を設定する　＝　転質（責任転質、民法348条）」."]),
         dict(label="③　承諾が要らないのは、転質だけではない", chars="tori", mood="explanatory, steady mood",
              bubbles=[("トリ先生", "イもウも、承諾なしでできるのよ", "承諾なし", "イもウも、\n承諾なしでできるのよ")],
-             fig=["Two cards side by side in the same light gray with dark navy outlines and no marks. Left card: heading 「転質」, small tag 「民法348条」, body 「質物にさらに質権を設定できる」. Right card: heading 「使用・収益」, small tag 「民法356条」, body 「用法に従って使い、収益を得られる」. Each card carries the same small yellow tag 「承諾なしでできる」.",
+             fig=["Two cards side by side in the same light gray with dark navy outlines and no marks. Left card: heading 「肢イ　転質」, small tag 「民法348条」, body 「質物にさらに質権を設定できる」. Right card: heading 「肢ウ　使用・収益」, small tag 「民法356条」, body 「用法に従って使い、収益を得られる」. Each card carries the same small yellow tag 「承諾なしでできる」.",
                   "Under the two cards, one wide dark navy ribbon with large white text 「ひっかけ：イもウも、承諾を得なければ、という言い方」.",
                   "The two cards have clearly different texts; the texts are NOT identical."]),
         dict(label="④　もう間違えない3つの押さえどころ",
