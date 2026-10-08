@@ -216,3 +216,137 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
+
+## 第二案（B案）：構成表2とプロンプト本体2
+
+上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
+
+### 設計メモ2（工程A）
+- 【第一案との違い】第一案は「事案の図→規則35条7号の2条件（条件1かつ条件2）→事案へのあてはめ→暗記3点」で、条件を文字で読ませる構成だった。第二案は、『登記が2つあるのに、なぜ1通でいいのか』という理解の壁を、まず登記前後の図で見せ、次に『どの登記とどの登記がセットか』を組合せの図にし、最後に問題文を読むときの3ステップにする。ひっかけと勘違いの左右の対比カード（赤✕・青✓）は使わない。
+- 【理解の壁（1行）】増築による『表題部の変更の登記』と、附属建物を切り離す『分割の登記』は名前も目的も別なので、2つの登記が1通の申請書に入るしくみが初見では見えない。
+- 【押さえどころ（記事の範囲）】(1) 登記前後の関係：甲建物を増築して床面積が変わり、あわせて甲建物の附属建物を分割して乙建物にする（どちらも甲建物についての登記）。(2) 一の申請情報にできるのは、同一の建物についてする二以上の登記が、表題部の変更の登記または更正の登記と、分割の登記・区分の登記・合併の登記であるとき（規則35条7号）。(3) 本肢はこれに当たるので、一の申請情報で申請できる（〇）。記事の具体例（母屋を増築して床面積が増えたのと同時に、庭の物置を独立した建物にしたい）は、コマ3のあてはめカードとコマ1の図に使う。
+- 【ひっかけ】問題文が『増築による表題部の変更の登記』と『建物の分割の登記』という名前の違う2つの登記を並べている点。名前が違うから別々に申請すると読ませる誘導になる。コマ3の読み方カードの下のリボンと、藍子・トリ先生のやり取りで1か所入れる。
+- 登場人物：当事者の記号は使わない。『甲建物』『附属建物』『乙建物』を文字ラベルのアイコンで、コマ1で紹介してから使う。
+- 矢印の意味：コマ1の矢印は1本だけで、『登記を申請すると、登記記録がこう変わる』という意味（売買・お金の動きではない）。コマ2・3は矢印を使わない。
+- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物ラベル・カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。
+- コマの使い方：コマ1＝small（登記前後の図を大きく）、コマ2＝tori（組合せの図にトリ先生が一言）、コマ3＝faces（顔アイコンの会話＋3ステップ）、コマ4＝両方。第一案のコマ2＝none とは変えた。
+
+### 構成表2（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 変更の登記と分割の登記は、同じ建物なら一の申請情報で | 「一の申請情報で」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　登記の前と後 | — |
+| コマ1 図 | 図・カード | 甲建物 / 附属建物 / 甲建物を増築して、床面積が変わった / 登記の申請 / 1通の申請書 / ①　増築による表題部の変更の登記 / ②　分割の登記 / 乙建物 / 附属建物を分割して、乙建物にする / 2つの登記を、一の申請情報でできる？ | — |
+| コマ1 | 藍子（左・先に話す） | 登記が2つあるのに、1通でいいんですか？ | — |
+| コマ1 | トリ先生（右・答える） | 2つとも、対象は甲建物の登記なのよ | 「甲建物」 |
+| コマ2 見出し | ラベル | ②　押さえどころ | — |
+| コマ2 図 | 図・カード | 押さえどころ / 一の申請情報にできる、登記の組合せ / 規則35条7号 / 組合せ / 表題部の変更・更正の登記 / 増築で床面積が変わった、など / 分割・区分・合併の登記 / 附属建物を分けて、乙建物にする、など / ただし、同一の建物についてする二以上の登記であること / 同一の建物 | — |
+| コマ2 | トリ先生（右・答える） | 変更・更正と、分割・区分・合併のセットなのよ | 「分割・区分・合併」 |
+| コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
+| コマ3 図 | 図・カード | ステップ1　同じ建物の登記か / どちらの登記も、同じ甲建物についてのものか / ステップ2　一方は変更・更正か / 増築による、表題部の変更の登記がある / ステップ3　もう一方は分割・区分・合併か / 附属建物を乙建物にする、分割の登記がある / ひっかけ：名前の違う2つの登記が並んでいる | — |
+| コマ3 | 藍子（左・1番目） | 登記の名前が違うと、別々では？ | — |
+| コマ3 | トリ先生（右・2番目） | 名前でなく、同一の建物かを見るのよ | 「同一の建物」 |
+| コマ3 | 藍子（左・3番目） | では、組合せはどう確かめますか？ | — |
+| コマ3 | トリ先生（右・4番目） | 変更と分割のセットか、確かめるのよ | 「変更と分割」 |
+| コマ4 見出し | ラベル | ④　これだけ覚える | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 一の申請情報でできる、〇ですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。組合せと建物を確かめるのよ | 「組合せと建物」 |
+| コマ4 チェック欄 | 3項目（青✓） | 一の申請情報にできる組合せは、表題部の変更・更正の登記と、分割・区分・合併の登記（規則35条7号） / 対象は、同一の建物についてする二以上の登記 / 増築による変更の登記と分割の登記は、一の申請情報で申請できる | — |
+| 結論帯 | 1行目 | 同じ建物の変更の登記と分割の登記は、一の申請情報でできる | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D1385　正解〇（H30-Q15ウ） | — |
+
+### プロンプト本体2
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall).
+
+TITLE BANNER: text 「変更の登記と分割の登記は、同じ建物なら一の申請情報で」 in large bold letters; the part 「一の申請情報で」 has a yellow highlighter marker.
+
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　登記の前と後」
+- A large before-and-after diagram fills the panel, laid out ONE row from left to right. On the left, one flat house icon labeled 「甲建物」 with a small attached-shed icon labeled 「附属建物」 beside it, and a small card under it: 「甲建物を増築して、床面積が変わった」.
+- In the middle, ONE dark navy arrow (this arrow means that filing the registration changes the registry, not a sale and not a payment) labeled 「登記の申請」 points to the right. Above the arrow, one white document card with a dark navy outline, headed 「1通の申請書」, lists two lines: 「①　増築による表題部の変更の登記」 and 「②　分割の登記」.
+- On the right, two flat house icons side by side, labeled 「甲建物」 and 「乙建物」; the small attached-shed icon now stands as the house 「乙建物」, with a small card under it: 「附属建物を分割して、乙建物にする」.
+- A small question badge 「2つの登記を、一の申請情報でできる？」 sits at the top (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「登記が2つあるのに、
+1通でいいんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「2つとも、対象は
+甲建物の登記なのよ」 with the part 「甲建物」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (explanatory, steady mood; ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large):
+- Label tab: 「②　押さえどころ」
+- A large explanation diagram fills the panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「一の申請情報にできる、登記の組合せ」, and a small tag 「規則35条7号」.
+- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, joined in the middle by a small plain dark navy label 「組合せ」 (a label only, no arrow). Left card, heading 「表題部の変更・更正の登記」, body 「増築で床面積が変わった、など」. Right card, heading 「分割・区分・合併の登記」, body 「附属建物を分けて、乙建物にする、など」.
+- At the bottom, one wide dark navy band with white text 「ただし、同一の建物についてする二以上の登記であること」, with the part 「同一の建物」 in a yellow highlighter marker.
+- There is no check mark and no cross anywhere in this panel.
+- トリ先生 bubble (right, spoken as the answer): 「変更・更正と、
+分割・区分・合併の
+セットなのよ」 with the part 「分割・区分・合併」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　本番での読み方3ステップ」
+- Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
+- Step card 1: heading 「ステップ1　同じ建物の登記か」, body 「どちらの登記も、同じ甲建物についてのものか」.
+- Step card 2: heading 「ステップ2　一方は変更・更正か」, body 「増築による、表題部の変更の登記がある」.
+- Step card 3: heading 「ステップ3　もう一方は分割・区分・合併か」, body 「附属建物を乙建物にする、分割の登記がある」.
+- Under the three cards, one dark navy ribbon with large white text 「ひっかけ：名前の違う2つの登記が並んでいる」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, rally 1 of 4): 「登記の名前が
+違うと、別々では？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「名前でなく、
+同一の建物かを
+見るのよ」 with the part 「同一の建物」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「では、組合せは
+どう確かめますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「変更と分割の
+セットか、
+確かめるのよ」 with the part 「変更と分割」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　これだけ覚える」
+- 藍子 bubble (left, spoken first): 「一の申請情報でできる、
+〇ですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+組合せと建物を
+確かめるのよ」 with the part 「組合せと建物」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「一の申請情報にできる組合せは、表題部の変更・更正の登記と、分割・区分・合併の登記（規則35条7号）」, 「対象は、同一の建物についてする二以上の登記」, 「増築による変更の登記と分割の登記は、一の申請情報で申請できる」.
+
+CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+- Line 1: 「同じ建物の変更の登記と分割の登記は、一の申請情報でできる」 with a yellow highlighter marker.
+- Line 2: 「問題D1385　正解〇（H30-Q15ウ）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 対, 建, 押, 物, 番, 登, 規, 解, 記, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+### 第二案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：コマ1の1本の矢印が『登記の申請で記録が変わる』で、甲建物が増築後の甲建物と乙建物になる前後の図だけで、2つの登記がどの建物の話か言える
+- [ ] 工程C：5点：事案＝コマ1の前後の図、出題者のねらい＝コマ2の『押さえどころ』タグ、ひっかけ＝コマ3のリボン、勘違い＝コマ3の藍子の台詞、正しい整理＝コマ2の組合せカードとコマ4の暗記3点が、図か文言として読み取れる
+- [ ] 工程C：構成表の全文言を記事（H30-Q15ウ）と突き合わせ：「同一の建物についてする二以上の登記」「表題部の変更の登記又は更正の登記」「分割の登記・区分の登記・合併の登記」「規則35条7号」「母屋を増築して床面積が増えたのと同時に、庭の物置を独立した建物にしたい」
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→tori→faces→両方）。結論は〇（一の申請情報で申請できるという記述が正しい）
+
+### 第二案の改訂履歴
+
+- 2026-10-09 B案v01：初版（第一案の条件カード中心の構成を、登記前後の図→組合せの図→読み方3ステップ→暗記3点に組み直した）

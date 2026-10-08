@@ -219,3 +219,132 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
 - 2026-10-09 v01：コマ3の印の向きを opposite="lx"（左✕・右✓）に統一（規則書の採用見本D0314 v02に合わせた）
+
+## 第二案（B案）：構成表2とプロンプト本体2
+
+上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
+
+### 設計メモ2（工程A）
+- 【第二案の位置づけ】第一案は定型（事案→ねらい→ひっかけと勘違い→結論）。この第二案は `D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころのカード→本番での読み方→暗記3点）で、「ひっかけと勘違い」の左右の対比カード（赤✕・青✓）は使わない。
+- 【理解の壁】初見の読者は、土地を使う権利なら賃貸借のように地代を払うのが当然だと思い、地上権の地代も「定めがなくても発生する」と考えてしまう。地代は、地上権に最初から付いてくるものではなく、設定契約で約束して初めて発生するものだ、という見え方がない。
+- 【定型からの変更点】①コマ1を「問いの事案」ではなく、地上権のしくみを見せる図にする（地上権者と土地の所有者の間に設定契約があり、その中で地代は約束したときだけ入る）。②コマ2を「押さえどころ」の3枚カードにする（賃貸借は有償が前提／地上権で地代を約束した場合は発生する／約束していない場合は発生しない）。③コマ3を「本番での読み方3ステップ」にして、問題文の「特段の定めがない場合であっても」にどう反応するかを示す（ひっかけはここで1か所入れる）。④コマ4は暗記3点と結論。
+- 押さえどころ（記事の範囲）：(1) 地代は、設定契約で定めがあって初めて発生する。(2) 特段の定めがなければ、地上権者は地代の支払義務を負わない（無償の地上権もある）。(3) 地代の額を当事者の請求により裁判所が定める制度もない。(4) 賃貸借は有償が前提なので、混同しない。記事の具体例（親族の好意の無償の地上権）はコマ3の台詞とコマ2のカードの範囲で使う。
+- 登場人物：当事者の記号は使わない。「地上権者」と「土地の所有者」を文字ラベルの人型タグで、コマ1で紹介してから使う。
+- 矢印の意味：矢印は使わない。コマ1は細い実線とラベルで関係を示す。コマ2・3はカードだけ。
+- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物は全員同じ薄い灰青、カード・契約書は薄い灰色・白地に濃紺の枠、帯・リボン・タグは濃紺、強調は黄色マーカーだけ。
+- コマの使い方：コマ1＝small（しくみの図を大きく）、コマ2＝none（3枚カードだけ）、コマ3＝faces（顔アイコンの会話＋3ステップのカード）、コマ4＝両方。
+
+### 構成表2（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 地代は、約束があって初めて発生する | 「約束があって初めて」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　地上権のしくみ | — |
+| コマ1 図 | 図・カード | 土地 / 地上権 / 地上権者 / 土地の所有者 / 地上権設定契約 / 土地を使う権利 / 地代：約束したときだけ / 約束したときだけ / 地代は、必ず発生する？ | — |
+| コマ1 | 藍子（左・先に話す） | 土地を使うなら、地代は払うものですよね？ | — |
+| コマ1 | トリ先生（右・答える） | その感覚は、賃貸借のものなのよ | 「賃貸借のもの」 |
+| コマ2 見出し | ラベル | ②　地代が発生する場面 | — |
+| コマ2 図 | 図・カード | 押さえどころ / 地代は、約束があって初めて発生する / 約束があって初めて / 賃貸借 / 有償であることが前提 / 地上権で地代を約束した / 地代が発生する / 地上権で地代を約束していない / 地代は発生しない。無償の地上権もある / 賃貸借の感覚で、地代は当然に発生すると考えない | — |
+| コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
+| コマ3 図 | 図・カード | ステップ1　地代の定めを見る / 設定契約で地代を定めたかどうか / ステップ2　言い回しに引かれない / 特段の定めがない場合であっても、と書かれていても、定めがなければ支払義務は生じない / ステップ3　裁判所が額を定める、は誤り / 当事者の請求で裁判所が額を定める、という制度はない | — |
+| コマ3 | 藍子（左・1番目） | 問題文は、どこを見ればいいですか？ | — |
+| コマ3 | トリ先生（右・2番目） | まず、地代の定めがあるかを見るの | 「地代の定め」 |
+| コマ3 | 藍子（左・3番目） | 定めがなくても、と書いてあったら？ | — |
+| コマ3 | トリ先生（右・4番目） | そこがひっかけ。額を決める制度もないのよ | 「ひっかけ」 |
+| コマ4 見出し | ラベル | ④　これだけ覚える | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 定めがなければ、地代は払わなくていいんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。親族の好意の無償の地上権もあるのよ | 「無償の地上権」 |
+| コマ4 チェック欄 | 3項目（青✓） | 地代は、設定契約で定めて初めて発生する / 定めがなければ、地上権者に地代の支払義務はない / 地代の額を裁判所が定める制度はない | — |
+| 結論帯 | 1行目 | 地代は、約束があって初めて発生する | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D0419　正解×（H21-Q02エ） | — |
+
+### プロンプト本体2
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall).
+
+TITLE BANNER: text 「地代は、約束があって初めて発生する」 in large bold letters; the part 「約束があって初めて」 has a yellow highlighter marker.
+
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　地上権のしくみ」
+- A large relation diagram fills the panel: a flat plot-of-land block labeled 「土地」 carrying a dark navy ribbon with white text 「地上権」 (the same dark navy ribbon in every panel).
+- Two faceless pictogram tags in the same light gray-blue color with dark navy tags, ONE row from left to right: 「地上権者」 (on the left) and 「土地の所有者」 (on the right). Between them, one white contract card with a dark navy outline and a dark navy heading 「地上権設定契約」, joined to each tag by a thin plain dark navy line with no arrowhead.
+- Inside the contract card, two short lines on white: 「土地を使う権利」 and 「地代：約束したときだけ」, with the part 「約束したときだけ」 in a yellow highlighter marker.
+- A small question badge 「地代は、必ず発生する？」 sits above the land (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「土地を使うなら、
+地代は払うものですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「その感覚は、
+賃貸借のものなのよ」 with the part 「賃貸借のもの」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　地代が発生する場面」
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「地代は、約束があって初めて発生する」, with the part 「約束があって初めて」 in a yellow highlighter marker.
+- Three large cards in ONE row from left to right, all the same size, with the same pale gray fill, a dark navy outline, and a dark navy heading, with no marks. Card 1, heading 「賃貸借」, body 「有償であることが前提」. Card 2, heading 「地上権で地代を約束した」, body 「地代が発生する」. Card 3, heading 「地上権で地代を約束していない」, body 「地代は発生しない。無償の地上権もある」.
+- At the bottom, one wide dark navy band with white text 「賃貸借の感覚で、地代は当然に発生すると考えない」.
+- There is no check mark and no cross anywhere in this panel.
+
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　本番での読み方3ステップ」
+- Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
+- Step card 1: heading 「ステップ1　地代の定めを見る」, body 「設定契約で地代を定めたかどうか」.
+- Step card 2: heading 「ステップ2　言い回しに引かれない」, body 「特段の定めがない場合であっても、と書かれていても、定めがなければ支払義務は生じない」.
+- Step card 3: heading 「ステップ3　裁判所が額を定める、は誤り」, body 「当事者の請求で裁判所が額を定める、という制度はない」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, rally 1 of 4): 「問題文は、
+どこを見ればいいですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「まず、地代の定めが
+あるかを見るの」 with the part 「地代の定め」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「定めがなくても、
+と書いてあったら？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「そこがひっかけ。
+額を決める制度も
+ないのよ」 with the part 「ひっかけ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　これだけ覚える」
+- 藍子 bubble (left, spoken first): 「定めがなければ、
+地代は払わなくて
+いいんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+親族の好意の
+無償の地上権もあるのよ」 with the part 「無償の地上権」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「地代は、設定契約で定めて初めて発生する」, 「定めがなければ、地上権者に地代の支払義務はない」, 「地代の額を裁判所が定める制度はない」.
+
+CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+- Line 1: 「地代は、約束があって初めて発生する」 with a yellow highlighter marker.
+- Line 2: 「問題D0419　正解×（H21-Q02エ）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 初, 地, 当, 所, 押, 権, 無, 番, 解, 請 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+### 第二案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：コマ1の「地上権設定契約」の中で、地代は「約束したときだけ」入ると読める。この1枚だけで、地代は地上権に最初から付いてくるものではなく、約束して初めて発生するものだと言える
+- [ ] 工程C：押さえどころ4つ（定めがあって初めて発生／定めがなければ支払義務なし・無償の地上権もある／裁判所が額を定める制度はない／賃貸借は有償が前提）が、コマ1・2・3・4のどこかに図か文言である
+- [ ] 工程C：構成表の全文言を記事（H21-Q02エ）と突き合わせ：「設定契約で定めがあって初めて発生」「無償の地上権」「裁判所が定める制度もない」「賃貸借は有償が前提」「親族の好意の例」。ひっかけ（問題文の「特段の定めがない場合であっても」）はコマ3のステップ2と台詞に1か所だけ入っている
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（支払義務を負い、裁判所が額を定めるという記述が誤り）
+
+### 第二案の改訂履歴
+
+- 2026-10-09 B案v01：初版（第一案D0419と別構成の第二案。構成表2・プロンプト本体2）

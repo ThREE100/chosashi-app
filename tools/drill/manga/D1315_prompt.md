@@ -222,3 +222,133 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
 - 2026-10-09 v01：コマ3の印の向きを opposite="lx"（左✕・右✓）に統一（規則書の採用見本D0314 v02に合わせた）
+
+## 第二案（B案）：構成表2とプロンプト本体2
+
+上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
+
+### 設計メモ2（工程A）
+- 【第二案の位置づけ】第一案は定型の「ひっかけと勘違い」の対比カードで組んだ。第二案は `D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点）で、構成そのものを変える。
+- 【理解の壁（1行）】付合で木は土地の持ち主の物になる、と聞くと『所有権を失った人には何も残らない』と見えてしまい、『損をした人』と『利益を得た人』が償金でつながっていることが見えない。
+- 【定型からの変更点】①左右の対比カード（赤✕・青✓）を使わない。②コマ1を『付合で何が起きたか』のしくみ図にする（矢印は付合という出来事だけ）。③コマ2を『損をした人』と『得をした人』の押さえどころカードにして、償金の請求の相手とやり方を示す（具体例つき）。④コマ3を『本番での読み方3ステップ』にして、ひっかけ（所有権を失った者は何も言えなさそうに見える）を読み方の中に入れる。⑤コマ4は暗記3点と結論。
+- 押さえどころ（記事の範囲）：(1) 付合・混和・加工の規定の適用によって損失を受けた者は、所有権を取得した者に償金を請求できる（民法248条）。(2) 不当利得の規定（民法703条・704条）に従う。(3) 不動産の付合で物の所有権を失った者も、公平の観点から、利益を得た不動産の所有者に償金を請求できる。(4) 記事の具体例：他人の土地に自分が植えて育てた木が付合して土地の持ち主の物になっても、育てた人は木の分の価値を償金として請求できる。
+- 登場人物：当事者の記号は使わない。「木を育てた人」と「土地の持ち主」を文字ラベルの人型タグで、コマ1で紹介してから使う。
+- 矢印の意味：コマ1の矢印は『付合』という出来事だけ（木が土地にくっついて土地の持ち主の物になる）。償金の矢印は描かない。コマ2・3は矢印を使わない。
+- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物は全員同じ薄い灰青、カードは薄い灰色・濃紺の枠、リボンと帯は濃紺（白文字）、強調は黄色マーカーだけ。
+- コマの使い方：コマ1＝small（しくみ図を大きく）、コマ2＝none（損をした人と得をした人のカードだけ）、コマ3＝faces（顔アイコンの会話＋3ステップのカード）、コマ4＝両方。
+
+### 構成表2（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 付合で所有権を失っても、償金は請求できる | 「償金は請求できる」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　付合のしくみ | — |
+| コマ1 図 | 図・カード | 他人の土地 / 育てた人の木 / 木を育てた人 / 土地の持ち主 / 付合 / 土地の持ち主の物になった / 木を失った人は、どうなる？ | — |
+| コマ1 | 藍子（左・先に話す） | 木が土地のものになったら、おしまいでは？ | — |
+| コマ1 | トリ先生（右・答える） | 出たわね。そこで終わりじゃないのよ | 「終わりじゃない」 |
+| コマ2 見出し | ラベル | ②　損をした人と得をした人 | — |
+| コマ2 図 | 図・カード | 押さえどころ / 所有権を失っても、損のままでは終わらない / 損のままでは終わらない / 償金の請求（民法248条） / 請求する人（損失を受けた者） / 付合で物の所有権を失った人 / 請求される人（利益を得た者） / 付合で所有権を取得した不動産の所有者 / たとえば：他人の土地に自分が植えて育てた木が付合して土地の持ち主の物になっても、育てた人は木の分の価値を償金として請求できる / 請求の進め方は、不当利得の規定（民法703条・704条）による | — |
+| コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
+| コマ3 図 | 図・カード | ステップ1　所有権を失った人を探す / 付合で物の所有権を失った人が、請求する側 / ステップ2　所有権を取得した人を探す / 付合で所有権を取得した人が、請求される側 / ステップ3　請求の文言を見る / 償金を請求できる、と書かれていたら正しい記述 / ひっかけ：所有権を失った者は、何も言えなさそうに見える | — |
+| コマ3 | 藍子（左・1番目） | 付合したら、請求は無理では？ | — |
+| コマ3 | トリ先生（右・2番目） | 公平の観点から、請求できるのよ | 「公平の観点」 |
+| コマ3 | 藍子（左・3番目） | 請求する相手は、誰ですか？ | — |
+| コマ3 | トリ先生（右・4番目） | 所有権を取得した人よ。木なら土地の持ち主ね | 「所有権を取得した」 |
+| コマ4 見出し | ラベル | ④　これだけ覚える | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 付合で失っても、償金は請求できるんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。不動産の付合でも同じなのよ | 「不動産の付合でも」 |
+| コマ4 チェック欄 | 3項目（青✓） | 付合で所有権を失った者は、償金を請求できる（民法248条） / 請求する相手は、付合で所有権を取得した者 / 不当利得の規定（民法703条・704条）に従う | — |
+| 結論帯 | 1行目 | 付合で損失を受けた者は、所有権を取得した者に償金を請求できる | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D1315　正解〇（H30-Q02オ） | — |
+
+### プロンプト本体2
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall).
+
+TITLE BANNER: text 「付合で所有権を失っても、償金は請求できる」 in large bold letters; the part 「償金は請求できる」 has a yellow highlighter marker.
+
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　付合のしくみ」
+- A large before-and-after diagram fills the panel, laid out ONE row from left to right.
+- On the left, a plot-of-land block labeled 「他人の土地」 with a tree icon standing on it labeled 「育てた人の木」, and two faceless pictogram tags in the same light gray-blue color with dark navy tags: 「木を育てた人」 and 「土地の持ち主」.
+- One dark navy arrow (this arrow means only a legal event, not a sale and not a payment) labeled 「付合」 points to the right, where the tree is merged into the land, carrying a dark navy ribbon with white text 「土地の持ち主の物になった」.
+- A small question badge 「木を失った人は、どうなる？」 sits at the top (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「木が土地のものに
+なったら、おしまいでは？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「出たわね。
+そこで終わりじゃ
+ないのよ」 with the part 「終わりじゃない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　損をした人と得をした人」
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「所有権を失っても、損のままでは終わらない」, with the part 「損のままでは終わらない」 in a yellow highlighter marker.
+- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, joined in the middle by a small plain dark navy label 「償金の請求（民法248条）」 (a label only, no arrow). Left card, heading 「請求する人（損失を受けた者）」, body 「付合で物の所有権を失った人」. Right card, heading 「請求される人（利益を得た者）」, body 「付合で所有権を取得した不動産の所有者」.
+- Under the cards, a wide example strip with a white fill and a dark navy outline: 「たとえば：他人の土地に自分が植えて育てた木が付合して土地の持ち主の物になっても、育てた人は木の分の価値を償金として請求できる」.
+- At the bottom, one wide dark navy band with white text 「請求の進め方は、不当利得の規定（民法703条・704条）による」.
+- There is no check mark and no cross anywhere in this panel.
+
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　本番での読み方3ステップ」
+- Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
+- Step card 1: heading 「ステップ1　所有権を失った人を探す」, body 「付合で物の所有権を失った人が、請求する側」.
+- Step card 2: heading 「ステップ2　所有権を取得した人を探す」, body 「付合で所有権を取得した人が、請求される側」.
+- Step card 3: heading 「ステップ3　請求の文言を見る」, body 「償金を請求できる、と書かれていたら正しい記述」.
+- Under the three cards, one dark navy ribbon with large white text 「ひっかけ：所有権を失った者は、何も言えなさそうに見える」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, rally 1 of 4): 「付合したら、
+請求は無理では？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「公平の観点から、
+請求できるのよ」 with the part 「公平の観点」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「請求する相手は、
+誰ですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「所有権を取得した人よ。
+木なら土地の持ち主ね」 with the part 「所有権を取得した」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　これだけ覚える」
+- 藍子 bubble (left, spoken first): 「付合で失っても、
+償金は請求できるんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+不動産の付合でも
+同じなのよ」 with the part 「不動産の付合でも」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「付合で所有権を失った者は、償金を請求できる（民法248条）」, 「請求する相手は、付合で所有権を取得した者」, 「不当利得の規定（民法703条・704条）に従う」.
+
+CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+- Line 1: 「付合で損失を受けた者は、所有権を取得した者に償金を請求できる」 with a yellow highlighter marker.
+- Line 2: 「問題D1315　正解〇（H30-Q02オ）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 地, 当, 所, 押, 権, 無, 物, 番, 規, 解, 記, 請 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+### 第二案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：コマ1の矢印は『付合』という出来事だけで、木が土地の持ち主の物になった結果が読める。コマ2のカードで、請求する側（損失を受けた者）と請求される側（所有権を取得した者）が言える
+- [ ] 工程C：5点が、コマ1の事案図、コマ2の『押さえどころ』タグ、コマ3の3ステップとひっかけのリボン（勘違いは藍子の台詞）、コマ2の具体例の帯、コマ4の暗記3点として読み取れる
+- [ ] 工程C：構成表の全文言を記事（H30-Q02オ）と突き合わせ：『民法248条』『不当利得の規定（民法703条・704条）』『所有権を取得した者に償金を請求』『公平の観点』『たとえば』の木の例
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は〇（償金を請求できるという記述が正しい）
+
+### 第二案の改訂履歴
+
+- 2026-10-09 B案v01：初版（第一案とは別構成。しくみの図解→損をした人と得をした人のカード→本番での読み方3ステップ→暗記3点）

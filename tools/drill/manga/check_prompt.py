@@ -17,11 +17,49 @@ ng, warn = [], []
 def NG(m): ng.append(m)
 def WARN(m): warn.append(m)
 
+SECOND_RESULT = None
+
+def derive_second(primary, second):
+    """第一案のファイルの構成表・プロンプト本体・設計メモを、第二案（構成表2・プロンプト本体2・設計メモ2）に差し替えた検査用の文書を作る。"""
+    t2 = re.search(r"### 構成表2（文言の正本）\n\n((?:\|.*\n)+)", second)
+    b2 = re.search(r"### プロンプト本体2\n\n```text\n(.*?)```", second, re.S)
+    d2 = re.search(r"### 設計メモ2（工程A）\n(.*?)\n\n### ", second, re.S)
+    if not (t2 and b2 and d2): return None
+    out = re.sub(r"(## 構成表（文言の正本）\n\n)((?:\|.*\n)+)", lambda m: m.group(1) + t2.group(1), primary, count=1)
+    out = re.sub(r"```text\n.*?```", lambda m: "```text\n" + b2.group(1) + "```", out, count=1, flags=re.S)
+    out = re.sub(r"(## 設計メモ（工程A）\n).*?(\n\n## )", lambda m: m.group(1) + d2.group(1) + m.group(2), out, count=1, flags=re.S)
+    fm = re.search(r"(^## 画像ファイル名[^\n]*\n)(.*?)(?=^## |\Z)", out, re.M | re.S)
+    if fm:
+        sec = fm.group(2)
+        for a, b in (("～_見出し_v01.png", "～_B案_見出し_v01.png"), ("～_見出し.png", "～_B案_見出し.png"), ("～_v01.png", "～_B案_v01.png"), ("～.png", "～_B案.png")):
+            sec = sec.replace(a, b)
+        out = out[:fm.start(2)] + sec + out[fm.end(2):]
+    return out
+
+def check_second(path, primary, second, flags):
+    import tempfile
+    doc = derive_second(primary, second)
+    if doc is None:
+        return (1, "NG   第二案の節に「### 構成表2（文言の正本）」「### プロンプト本体2」「### 設計メモ2（工程A）」のどれかがない\n")
+    d = pathlib.Path(tempfile.mkdtemp())
+    base = path.name.replace("_prompt.md", "")
+    tmp = d / f"{base}-B案_prompt.md"
+    tmp.write_text(doc, encoding="utf8")
+    r = subprocess.run([sys.executable, str(pathlib.Path(__file__).resolve()), str(tmp)] + flags, capture_output=True, text=True)
+    return (r.returncode, r.stdout)
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     if not args:
         print(__doc__); sys.exit(2)
     path = pathlib.Path(args[0]); src = path.read_text(encoding="utf8")
+    # 第二案（B案）の節（ファイル末尾の「## 第二案（B案）」以降）があるときは、第一案の検査から外し、第二案を別に検査する（2026-10-09追加）
+    global SECOND_RESULT
+    i2 = src.find("\n## 第二案（B案）")
+    if i2 >= 0:
+        primary, second = src[:i2 + 1], src[i2 + 1:]
+        SECOND_RESULT = check_second(path, primary, second, [a for a in sys.argv[1:] if a.startswith("--")])
+        src = primary
     m = re.search(r"```text\n(.*?)```", src, re.S)
     if not m: NG("```text のプロンプト本体が見つからない"); return report()
     body = m.group(1)
@@ -286,6 +324,11 @@ def report():
     for m in ng: print("NG  ", m)
     for m in warn: print("WARN", m)
     print(f"結果: NG {len(ng)}件 / WARN {len(warn)}件")
-    sys.exit(1 if ng else 0)
+    rc = 1 if ng else 0
+    if SECOND_RESULT is not None:
+        print("---- 第二案（構成表2・プロンプト本体2）の検査 ----")
+        print(SECOND_RESULT[1], end="")
+        rc = rc or SECOND_RESULT[0]
+    sys.exit(rc)
 
 main()

@@ -220,3 +220,131 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
 - 2026-10-09 v01：コマ3の印の向きを opposite="lx"（左✕・右✓）に統一（規則書の採用見本D0314 v02に合わせた）
+
+## 第二案（B案）：構成表2とプロンプト本体2
+
+上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
+
+### 設計メモ2（工程A）
+- 【第二案の位置づけ】第一案は定型の「ひっかけと勘違い」で組んだ。第二案は D0314-B と同じ型で、理解の壁を越える順（しくみの図→押さえどころ→本番での読み方→暗記3点）に組み替えた別構成。
+- 【理解の壁】初見の読者は、『他人の不動産を使うのだから設定者の承諾が要る』と考え、抵当権（占有を移さない）と不動産質権（占有を移す）の違いが頭に入っていない。占有が誰にあるのかが見えないまま、『承諾なしで使える』と言われても腑に落ちない。
+- 【定型からの変更点】①「ひっかけと勘違い」の左右の対比カード（赤✕・青✓）を使わない。②コマ1を『事案と疑問』ではなく『抵当権と不動産質権で占有がどこにあるか』を並べる図にする（壁そのものを見せる）。③コマ2を『占有を移す』と『使用・収益ができる』のセットカードにして、記事の具体例（賃貸アパート）を置く。④コマ3を本番での読み方3ステップにし、ひっかけ（問題文の「承諾を得なければ」という言い方）をステップ2に入れる。⑤コマ4を暗記3点と結論にする。
+- 押さえどころ（記事の範囲）：(1) 不動産質権は目的物の占有を質権者に移す（抵当権は占有を移さない）。(2) 質権者は用法に従って使用・収益ができ、設定者の承諾は不要（民法356条）。(3) その代わり、管理費用の負担や利息請求の制限などのルールがかかる。(4) 記事の具体例：賃貸アパートに質権を設定した場合、質権者は入居者から家賃を受け取れる。
+- 登場人物：当事者の記号は使わない。「設定者」「質権者」を文字ラベルの人型タグで、コマ1で紹介してから使う。
+- 矢印の意味：矢印は1種類だけで、意味は『占有が移る』。コマ1の不動産質権の段に1本（設定者から質権者へ）。抵当権の段には矢印がない（占有が移らないため）。コマ2・3は矢印を使わない。
+- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物は全員同じ薄い灰青、カードは薄い灰色・濃紺の枠、帯・リボンは濃紺の地に白文字、強調は黄色マーカーだけ。
+- コマの使い方：コマ1＝small（並べた2段の図を大きく）、コマ2＝none（セットカードだけ）、コマ3＝faces（顔アイコンの会話＋3ステップのカード）、コマ4＝両方。
+
+### 構成表2（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 占有を移すから、承諾なしで使用収益できる | 「承諾なしで使用収益できる」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　占有はどこにある？ | — |
+| コマ1 図 | 図・カード | 設定者 / 不動産の持ち主 / 質権者 / 質権を持つ人 / 抵当権 / 不動産 / 占有は設定者のまま / 不動産質権 / 質権 / 占有が移る / 使用・収益に、設定者の承諾は要る？ | — |
+| コマ1 | 藍子（左・先に話す） | 抵当権と何が違うんですか？ | — |
+| コマ1 | トリ先生（右・答える） | 目的物の占有を移すかどうかよ | 「占有を移すかどうか」 |
+| コマ2 見出し | ラベル | ②　占有と使用収益はセット | — |
+| コマ2 図 | 図・カード | 押さえどころ / 占有と使用・収益は、セットで覚える / セットで覚える / セット / 占有 / 目的物の占有を質権者に移す / 使用・収益 / 民法356条 / 不動産の用法に従って、使ったり貸したりできる / たとえば：賃貸アパートに質権を設定した場合、質権者は入居者から家賃を受け取れる | — |
+| コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
+| コマ3 図 | 図・カード | ステップ1　不動産質権の話か見る / 目的物の占有を質権者に移す質権の話か / ステップ2　承諾の文言を見る / ひっかけ：承諾を得なければ、という言い方 / 設定者の承諾は要らない側 / ステップ3　使用・収益の範囲を見る / 用法に従った使用・収益。管理費用の負担や利息請求の制限などのルールがかかる | — |
+| コマ3 | 藍子（左・1番目） | 承諾の文言は、どう読みますか？ | — |
+| コマ3 | トリ先生（右・2番目） | ひっかけよ。占有を移すから不要なの | 「占有を移す」 |
+| コマ3 | 藍子（左・3番目） | 使うだけなら、何でもありですか？ | — |
+| コマ3 | トリ先生（右・4番目） | ルールがかかるのよ。費用の負担とかね | 「ルールがかかる」 |
+| コマ4 見出し | ラベル | ④　これだけ覚える | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 占有が移るかどうかで考えます！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。承諾なしで使えるのよ | 「承諾なしで」 |
+| コマ4 チェック欄 | 3項目（青✓） | 不動産質権は、目的物の占有を質権者に移す（抵当権は移さない） / 質権者は、承諾なしで使用・収益できる（民法356条） / 管理費用の負担や利息請求の制限などのルールがかかる | — |
+| 結論帯 | 1行目 | 不動産質権者は、設定者の承諾なしで使用・収益できる | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D0315　正解×（H20-Q01ウ） | — |
+
+### プロンプト本体2
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall).
+
+TITLE BANNER: text 「占有を移すから、承諾なしで使用収益できる」 in large bold letters; the part 「承諾なしで使用収益できる」 has a yellow highlighter marker.
+
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　占有はどこにある？」
+- A large two-row diagram fills the panel. Two faceless pictogram tags in the same light gray-blue color with dark navy tags are shown once at the left of the panel: 「設定者」 (small label 「不動産の持ち主」) and 「質権者」 (small label 「質権を持つ人」).
+- Top row, a thin dark navy heading 「抵当権」: one flat apartment-building icon labeled 「不動産」 stands next to 「設定者」, with a small white card 「占有は設定者のまま」. There is no arrow in this row.
+- Bottom row, a thin dark navy heading 「不動産質権」: the same apartment-building icon labeled 「不動産」 carrying a dark navy ribbon with white text 「質権」 (the same dark navy ribbon in every panel) now stands next to 「質権者」. One dark navy arrow runs from 「設定者」 to 「質権者」 labeled 「占有が移る」 (the arrow means only that possession moves; there is exactly one arrow in the whole panel).
+- A small question badge 「使用・収益に、設定者の承諾は要る？」 sits at the top (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「抵当権と
+何が違うんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「目的物の占有を
+移すかどうかよ」 with the part 「占有を移すかどうか」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　占有と使用収益はセット」
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「占有と使用・収益は、セットで覚える」, with the part 「セットで覚える」 in a yellow highlighter marker.
+- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, joined in the middle by a small plain dark navy label 「セット」 (a label only, no arrow). Left card, heading 「占有」, body 「目的物の占有を質権者に移す」. Right card, heading 「使用・収益」, small tag 「民法356条」, body 「不動産の用法に従って、使ったり貸したりできる」.
+- At the bottom, one wide dark navy band with white text 「たとえば：賃貸アパートに質権を設定した場合、質権者は入居者から家賃を受け取れる」.
+- There is no check mark and no cross anywhere in this panel.
+
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　本番での読み方3ステップ」
+- Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
+- Step card 1: heading 「ステップ1　不動産質権の話か見る」, body 「目的物の占有を質権者に移す質権の話か」.
+- Step card 2: heading 「ステップ2　承諾の文言を見る」, a dark navy ribbon tag with large white text 「ひっかけ：承諾を得なければ、という言い方」, body 「設定者の承諾は要らない側」.
+- Step card 3: heading 「ステップ3　使用・収益の範囲を見る」, body 「用法に従った使用・収益。管理費用の負担や利息請求の制限などのルールがかかる」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, rally 1 of 4): 「承諾の文言は、
+どう読みますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「ひっかけよ。
+占有を移すから
+不要なの」 with the part 「占有を移す」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「使うだけなら、
+何でもありですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「ルールがかかるのよ。
+費用の負担とかね」 with the part 「ルールがかかる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　これだけ覚える」
+- 藍子 bubble (left, spoken first): 「占有が移るかどうかで
+考えます！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+承諾なしで
+使えるのよ」 with the part 「承諾なしで」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「不動産質権は、目的物の占有を質権者に移す（抵当権は移さない）」, 「質権者は、承諾なしで使用・収益できる（民法356条）」, 「管理費用の負担や利息請求の制限などのルールがかかる」.
+
+CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+- Line 1: 「不動産質権者は、設定者の承諾なしで使用・収益できる」 with a yellow highlighter marker.
+- Line 2: 「問題D0315　正解×（H20-Q01ウ）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 当, 承, 抵, 押, 権, 物, 番, 解, 請, 諾, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+### 第二案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：コマ1の2段の図で、抵当権は占有が設定者のまま、不動産質権は占有が質権者に移る、と言える。矢印は『占有が移る』の1種類だけで、1本しかない
+- [ ] 工程C：押さえどころ（占有を移す・使用収益は承諾不要・民法356条・ルールがかかる・賃貸アパートの例）が、コマ1〜4のどこかに図か文言である。ひっかけ（「承諾を得なければ」という言い方）はコマ3のステップ2にある
+- [ ] 工程C：構成表の全文言を記事（H20-Q01ウ）と突き合わせ：「占有を移さない抵当権」「占有を質権者に移し」「民法356条」「管理費用の負担や利息請求の制限」「賃貸アパート・家賃」
+- [ ] 工程C：コマ3の3ステップが、本番の問題文の読み方として順番に使える。コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（承諾を得なければ使用・収益できないという記述が誤り）
+
+### 第二案の改訂履歴
+
+- 2026-10-09 B案v01：初版（第二案。しくみの図解→押さえどころ→本番での読み方3ステップ→暗記3点）

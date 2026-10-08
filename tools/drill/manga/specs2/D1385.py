@@ -1,0 +1,55 @@
+# 第二案（B案型）の設計データ。D1385（H30-Q15ウ：増築による表題部変更の登記と分割の登記は、一の申請情報でできる）
+import copy
+import manga_specs
+
+SPEC2 = copy.deepcopy(manga_specs.SPECS["D1385"])
+SPEC2.update(dict(
+    design=["【第一案との違い】第一案は「事案の図→規則35条7号の2条件（条件1かつ条件2）→事案へのあてはめ→暗記3点」で、条件を文字で読ませる構成だった。第二案は、『登記が2つあるのに、なぜ1通でいいのか』という理解の壁を、まず登記前後の図で見せ、次に『どの登記とどの登記がセットか』を組合せの図にし、最後に問題文を読むときの3ステップにする。ひっかけと勘違いの左右の対比カード（赤✕・青✓）は使わない。",
+            "【理解の壁（1行）】増築による『表題部の変更の登記』と、附属建物を切り離す『分割の登記』は名前も目的も別なので、2つの登記が1通の申請書に入るしくみが初見では見えない。",
+            "【押さえどころ（記事の範囲）】(1) 登記前後の関係：甲建物を増築して床面積が変わり、あわせて甲建物の附属建物を分割して乙建物にする（どちらも甲建物についての登記）。(2) 一の申請情報にできるのは、同一の建物についてする二以上の登記が、表題部の変更の登記または更正の登記と、分割の登記・区分の登記・合併の登記であるとき（規則35条7号）。(3) 本肢はこれに当たるので、一の申請情報で申請できる（〇）。記事の具体例（母屋を増築して床面積が増えたのと同時に、庭の物置を独立した建物にしたい）は、コマ3のあてはめカードとコマ1の図に使う。",
+            "【ひっかけ】問題文が『増築による表題部の変更の登記』と『建物の分割の登記』という名前の違う2つの登記を並べている点。名前が違うから別々に申請すると読ませる誘導になる。コマ3の読み方カードの下のリボンと、藍子・トリ先生のやり取りで1か所入れる。",
+            "登場人物：当事者の記号は使わない。『甲建物』『附属建物』『乙建物』を文字ラベルのアイコンで、コマ1で紹介してから使う。",
+            "矢印の意味：コマ1の矢印は1本だけで、『登記を申請すると、登記記録がこう変わる』という意味（売買・お金の動きではない）。コマ2・3は矢印を使わない。",
+            "配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物ラベル・カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+            "コマの使い方：コマ1＝small（登記前後の図を大きく）、コマ2＝tori（組合せの図にトリ先生が一言）、コマ3＝faces（顔アイコンの会話＋3ステップ）、コマ4＝両方。第一案のコマ2＝none とは変えた。"],
+    review=["初見の読者：コマ1の1本の矢印が『登記の申請で記録が変わる』で、甲建物が増築後の甲建物と乙建物になる前後の図だけで、2つの登記がどの建物の話か言える",
+            "5点：事案＝コマ1の前後の図、出題者のねらい＝コマ2の『押さえどころ』タグ、ひっかけ＝コマ3のリボン、勘違い＝コマ3の藍子の台詞、正しい整理＝コマ2の組合せカードとコマ4の暗記3点が、図か文言として読み取れる",
+            "構成表の全文言を記事（H30-Q15ウ）と突き合わせ：「同一の建物についてする二以上の登記」「表題部の変更の登記又は更正の登記」「分割の登記・区分の登記・合併の登記」「規則35条7号」「母屋を増築して床面積が増えたのと同時に、庭の物置を独立した建物にしたい」",
+            "コマの使い方が隣り合うコマで同じにならない（small→tori→faces→両方）。結論は〇（一の申請情報で申請できるという記述が正しい）"],
+    title="変更の登記と分割の登記は、同じ建物なら一の申請情報で", title_hl="一の申請情報で",
+    panels=[
+        dict(label="①　登記の前と後", chars="small", mood="curious, calm mood",
+             bubbles=[("藍子", "登記が2つあるのに、1通でいいんですか？", None, "登記が2つあるのに、\n1通でいいんですか？"),
+                      ("トリ先生", "2つとも、対象は甲建物の登記なのよ", "甲建物", "2つとも、対象は\n甲建物の登記なのよ")],
+             fig=["A large before-and-after diagram fills the panel, laid out ONE row from left to right. On the left, one flat house icon labeled 「甲建物」 with a small attached-shed icon labeled 「附属建物」 beside it, and a small card under it: 「甲建物を増築して、床面積が変わった」.",
+                  "In the middle, ONE dark navy arrow (this arrow means that filing the registration changes the registry, not a sale and not a payment) labeled 「登記の申請」 points to the right. Above the arrow, one white document card with a dark navy outline, headed 「1通の申請書」, lists two lines: 「①　増築による表題部の変更の登記」 and 「②　分割の登記」.",
+                  "On the right, two flat house icons side by side, labeled 「甲建物」 and 「乙建物」; the small attached-shed icon now stands as the house 「乙建物」, with a small card under it: 「附属建物を分割して、乙建物にする」.",
+                  "A small question badge 「2つの登記を、一の申請情報でできる？」 sits at the top (a question badge only, with no check mark and no cross)."]),
+        dict(label="②　押さえどころ", chars="tori", mood="explanatory, steady mood",
+             bubbles=[("トリ先生", "変更・更正と、分割・区分・合併のセットなのよ", "分割・区分・合併", "変更・更正と、\n分割・区分・合併の\nセットなのよ")],
+             fig=["A large explanation diagram fills the panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「一の申請情報にできる、登記の組合せ」, and a small tag 「規則35条7号」.",
+                  "Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, joined in the middle by a small plain dark navy label 「組合せ」 (a label only, no arrow). Left card, heading 「表題部の変更・更正の登記」, body 「増築で床面積が変わった、など」. Right card, heading 「分割・区分・合併の登記」, body 「附属建物を分けて、乙建物にする、など」.",
+                  "At the bottom, one wide dark navy band with white text 「ただし、同一の建物についてする二以上の登記であること」, with the part 「同一の建物」 in a yellow highlighter marker.",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="③　本番での読み方3ステップ", chars="faces", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "登記の名前が違うと、別々では？", None, "登記の名前が\n違うと、別々では？"),
+                      ("トリ先生", "名前でなく、同一の建物かを見るのよ", "同一の建物", "名前でなく、\n同一の建物かを\n見るのよ"),
+                      ("藍子", "では、組合せはどう確かめますか？", None, "では、組合せは\nどう確かめますか？"),
+                      ("トリ先生", "変更と分割のセットか、確かめるのよ", "変更と分割", "変更と分割の\nセットか、\n確かめるのよ")],
+             fig=["Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.",
+                  "Step card 1: heading 「ステップ1　同じ建物の登記か」, body 「どちらの登記も、同じ甲建物についてのものか」.",
+                  "Step card 2: heading 「ステップ2　一方は変更・更正か」, body 「増築による、表題部の変更の登記がある」.",
+                  "Step card 3: heading 「ステップ3　もう一方は分割・区分・合併か」, body 「附属建物を乙建物にする、分割の登記がある」.",
+                  "Under the three cards, one dark navy ribbon with large white text 「ひっかけ：名前の違う2つの登記が並んでいる」.",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="④　これだけ覚える",
+             bubbles=[("藍子", "一の申請情報でできる、〇ですね！", None, "一の申請情報でできる、\n〇ですね！"),
+                      ("トリ先生", "そのとおり。組合せと建物を確かめるのよ", "組合せと建物", "そのとおり。\n組合せと建物を\n確かめるのよ")],
+             fig=[], checklist=["一の申請情報にできる組合せは、表題部の変更・更正の登記と、分割・区分・合併の登記（規則35条7号）", "対象は、同一の建物についてする二以上の登記", "増築による変更の登記と分割の登記は、一の申請情報で申請できる"]),
+    ],
+    band1="同じ建物の変更の登記と分割の登記は、一の申請情報でできる", band2="問題D1385　正解〇（H30-Q15ウ）",
+    ver="B案v01",
+    rev=["2026-10-09 B案v01：初版（第一案の条件カード中心の構成を、登記前後の図→組合せの図→読み方3ステップ→暗記3点に組み直した）"],
+))
+for k in ("fid", "fsuffix", "header", "qa"):
+    SPEC2.pop(k, None)

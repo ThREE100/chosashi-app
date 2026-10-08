@@ -219,3 +219,134 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
 - 2026-10-09 v01：コマ3の印の向きを opposite="lx"（左✕・右✓）に統一（規則書の採用見本D0314 v02に合わせた）
+
+## 第二案（B案）：構成表2とプロンプト本体2
+
+上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
+
+### 設計メモ2（工程A）
+- 【第二案の位置づけ】第一案は定型の「ひっかけと勘違い」の比較カード（赤✕・青✓）で組んだ。第二案は、D0314-B と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点）で、構成そのものを変えた別案。比較カードは使わない。
+- 【理解の壁（1行）】土地を使い続けている事実は、地上権を行使している人も、賃借人も、単なる占有者も同じに見える。そのため『使い続ければ取得できる』と思い込み、なぜ『意思の客観的表現』という2つ目の要件が要るのかが腑に落ちない。
+- 【定型からの変更点】①コマ1を『出題の事案＋よくある誤解』ではなく、同じ土地を使う3人（地上権を行使している人・賃借人・単なる占有者）が外から見て区別できない、という『要件が要る理由』の図解にする。②コマ2を第一案の『2つの要件カード』ではなく、『意思が外から分かる例／足りない例』の2枚のカード（建物を建てて地代を払い続ける／通り道として使うだけ）にして、押さえどころを具体例で見せる（ひっかけの『通り道』はここと、コマ3の読み方に入れる）。③コマ3を、肢の文のどこを見て判断するかの3ステップ（使用の語→意思の語→そろっているか）にする。④コマ4は暗記3点と結論。
+- 押さえどころ（記事の範囲）：(1) 地上権の時効取得には、土地の継続的な使用という外形的事実が存在すること。(2) かつ、その使用が地上権行使の意思に基づくものであることが客観的に表現されていること。(3) 賃借人や単なる占有者の使用と区別するための要件。(4) 自分名義の建物を建てて長年住み、地代も払い続けていれば、借りているのではなく地上権を行使していると外から分かる。ただ通り道として使っていただけでは足りない。
+- ひっかけ（記事の範囲で1か所以上入れる）：『使い続けた事実だけで足りそうに見える』。コマ2の『足りない例』（通り道）、コマ3のステップ3と会話（使用の語だけのときは足りない）に入れる。
+- 登場人物：事例の当事者の記号（Ａ・Ｂなど）は使わない。コマ1の人型タグ3つ（地上権を行使している人／借りている人（賃借人）／単なる占有者）を、同じ1列に左から紹介してから使う。コマ2・3では人型は出さず、カードだけ。
+- 矢印の意味：矢印は使わない。コマ1は、3人が同じ土地の上に立つ図。コマ2は2枚のカードを並べるだけ（連結の矢印・線なし）。コマ3は3枚のステップカードを縦に積むだけ。
+- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物は全員同じ薄い灰青、カードは薄い灰色・濃紺の枠、帯・リボンは濃紺に白文字、強調は黄色マーカーだけ。
+- コマの使い方：コマ1＝small（3人の図を大きく）、コマ2＝none（2枚のカードだけ）、コマ3＝faces（顔アイコンの会話＋3ステップのカード）、コマ4＝両方。
+
+### 構成表2（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 使うだけでは足りない。意思が外から分かること | 「意思が外から分かること」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　なぜ意思の表れが要るのか | — |
+| コマ1 図 | 図・カード | 他人の土地 / 地上権を行使している人 / 借りている人（賃借人） / 単なる占有者 / 土地を長年、継続して使っている点は同じ / 地上権を時効取得できる？ | — |
+| コマ1 | 藍子（左・先に話す） | どの人も、同じに見えます… | — |
+| コマ1 | トリ先生（右・答える） | だから意思の客観的表現が要るのよ | 「意思の客観的表現」 |
+| コマ2 見出し | ラベル | ②　押さえどころ | — |
+| コマ2 図 | 図・カード | 押さえどころ / 使うだけでなく、地上権の意思が外から分かること / 外から分かること / 意思が外から分かる例 / 自分名義の建物を建てて長年住み、地代も払い続けている / 足りない例 / ただ通り道として使っていただけ / 賃借人や単なる占有者の使用と区別するための要件 | — |
+| コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
+| コマ3 図 | 図・カード | ステップ1　使用の語を探す / 土地の継続的な使用、と書かれているか / ステップ2　意思の語を探す / 地上権行使の意思が、客観的に表現されている、と書かれているか / ステップ3　2つそろっているか見る / 使用だけなら足りない。2つそろっていれば正しい記述 | — |
+| コマ3 | 藍子（左・1番目） | 文のどこを見れば、判断できますか？ | — |
+| コマ3 | トリ先生（右・2番目） | 使用と意思の表れ、2つの語を探すのよ | 「2つの語」 |
+| コマ3 | 藍子（左・3番目） | 使用の語だけのときは、どうなりますか？ | — |
+| コマ3 | トリ先生（右・4番目） | それでは区別がつかず、足りないのよ | 「足りない」 |
+| コマ4 見出し | ラベル | ④　これだけ覚える | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 使用と意思の表れ、両方が要るんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。通り道だけでは足りないのよ | 「通り道だけでは足りない」 |
+| コマ4 チェック欄 | 3項目（青✓） | 時効取得には、継続的な使用という外形的事実が必要 / 加えて、地上権行使の意思が客観的に表現されていること / 賃借人や単なる占有者の使用と区別するための要件 | — |
+| 結論帯 | 1行目 | 地上権の時効取得は、継続的な使用と意思の客観的表現が必要 | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D0417　正解〇（H21-Q02イ） | — |
+
+### プロンプト本体2
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall).
+
+TITLE BANNER: text 「使うだけでは足りない。意思が外から分かること」 in large bold letters; the part 「意思が外から分かること」 has a yellow highlighter marker.
+
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　なぜ意思の表れが要るのか」
+- A large relation diagram fills the panel, laid out ONE row from left to right: a flat plot-of-land block labeled 「他人の土地」, with three faceless pictogram tags in the same light gray-blue color standing on it, each with a small dark navy tag under it: 「地上権を行使している人」, 「借りている人（賃借人）」, 「単なる占有者」.
+- A plain white label with a dark navy outline under the land reads 「土地を長年、継続して使っている点は同じ」.
+- A small question badge 「地上権を時効取得できる？」 sits above the land (a question badge only, with no check mark and no cross). There are no arrows in this panel.
+- 藍子 bubble (left, spoken first): 「どの人も、
+同じに見えます…」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「だから意思の
+客観的表現が
+要るのよ」 with the part 「意思の客観的表現」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　押さえどころ」
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「使うだけでなく、地上権の意思が外から分かること」, with the part 「外から分かること」 in a yellow highlighter marker.
+- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, with no label or line between them. Left card, heading 「意思が外から分かる例」, body 「自分名義の建物を建てて長年住み、地代も払い続けている」. Right card, heading 「足りない例」, body 「ただ通り道として使っていただけ」.
+- At the bottom, one wide dark navy band with white text 「賃借人や単なる占有者の使用と区別するための要件」.
+- There is no check mark and no cross anywhere in this panel.
+
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　本番での読み方3ステップ」
+- Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
+- Step card 1: heading 「ステップ1　使用の語を探す」, body 「土地の継続的な使用、と書かれているか」.
+- Step card 2: heading 「ステップ2　意思の語を探す」, body 「地上権行使の意思が、客観的に表現されている、と書かれているか」.
+- Step card 3: heading 「ステップ3　2つそろっているか見る」, body 「使用だけなら足りない。2つそろっていれば正しい記述」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, rally 1 of 4): 「文のどこを見れば、
+判断できますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「使用と意思の表れ、
+2つの語を
+探すのよ」 with the part 「2つの語」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「使用の語だけの
+ときは、どうなり
+ますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「それでは区別が
+つかず、足りない
+のよ」 with the part 「足りない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　これだけ覚える」
+- 藍子 bubble (left, spoken first): 「使用と意思の表れ、
+両方が要るんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+通り道だけでは
+足りないのよ」 with the part 「通り道だけでは足りない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「時効取得には、継続的な使用という外形的事実が必要」, 「加えて、地上権行使の意思が客観的に表現されていること」, 「賃借人や単なる占有者の使用と区別するための要件」.
+
+CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+- Line 1: 「地上権の時効取得は、継続的な使用と意思の客観的表現が必要」 with a yellow highlighter marker.
+- Line 2: 「問題D0417　正解〇（H21-Q02イ）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 効, 占, 地, 建, 押, 権, 物, 番, 解, 記 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+### 第二案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：コマ1の図だけで、『同じ土地を使っていても、地上権を行使している人・賃借人・単なる占有者は外から見て区別がつかない』と言え、コマ2で『区別がつくのは、建物を建てて地代を払い続けるなど、意思が外から分かるとき』と言える
+- [ ] 工程C：5点が、コマ1の疑問バッジ（取得できる？）と図（事案）、コマ2の『押さえどころ』タグと2枚のカード（ねらいと正しい整理、足りない例がひっかけ）、コマ3の3ステップと会話（読み方）、コマ4の暗記3点（結論）として読み取れる
+- [ ] 工程C：構成表2の全文言を記事（H21-Q02イ）と突き合わせ：『継続的な使用という外形的事実』『地上権を行使する意思』『客観的に表現』『賃借人や単なる占有者』『自分名義の建物・地代を払い続ける』『通り道』
+- [ ] 工程C：隣り合うコマで chars が同じにならない（small→none→faces→両方）。結論は〇（記述が正しい）
+
+### 第二案の改訂履歴
+
+- 2026-10-09 B案v01：第二案の初版（理解の壁＝使い続ける事実は3人とも同じに見える。しくみの図解→押さえどころ（意思が外から分かる例／足りない例）→本番での読み方3ステップ→暗記3点）

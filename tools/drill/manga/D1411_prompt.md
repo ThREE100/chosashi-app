@@ -223,3 +223,140 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
+
+## 第二案（B案）：構成表2とプロンプト本体2
+
+上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
+
+### 設計メモ2（工程A）
+- 【第二案の位置づけ】第一案（定型：事案→出題者のねらい→ひっかけと勘違い→結論）とは構成そのものを変え、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点）で組んだ別構成。『ひっかけと勘違い』の左右の対比カード（赤✕・青✓）は使わない。
+- 【理解の壁（1行）】『執行猶予が付けば刑は実際には科されないのだから、欠格事由にならず、登録も取り消されない』と思い込み、『猶予の間は欠格事由に当たる』ことと『欠格事由に当たれば取消しは義務』という2段のつながりが見えない。
+- 【定型からの変更点】①コマ1を『問いの事案』ではなく、欠格事由に当たる期間を示す時間軸の図にする（刑に処せられる→猶予期間中→期間満了の翌日。猶予期間中は欠格事由に当たり、満了の翌日から当たらなくなる）。②コマ2を『欠格事由（入口）と登録の取消し（出口）はセット』の押さえどころカードにする。③コマ3を『本番での読み方3ステップ』にし、ひっかけ（問題文の『刑の全部の執行が猶予されている』という書き方）はステップ2のカードに入れる。④コマ4は暗記3点と結論（比較カードは使わない）。
+- 押さえどころ（記事の範囲）：(1) 拘禁刑以上の刑に執行猶予が付された場合も欠格事由に該当する（法5条1号）。(2) 欠格事由に該当するに至った調査士について、連合会は登録を取り消さなければならない（法15条1項4号）。(3) 執行猶予期間が満了すると刑の言渡しの効力が消滅するため、期間満了の翌日から欠格事由に該当しなくなる（先例による）。(4) 『取り消すことができない』とする肢は誤り。
+- 出題当時の扱い：問題文は平成30年当時の『禁錮以上の刑』。令和4年の刑法改正で懲役と禁錮が拘禁刑に一本化され（令和7年6月1日施行・施行済み）、土地家屋調査士法5条1号も『拘禁刑』に改められた。結論は変わらない。図の文言は現行の『拘禁刑以上』とし、小さな注記の帯で出題当時との違いを出す。
+- 登場人物：当事者の記号は使わない。『調査士』と『連合会』を、文字ラベルの人型タグとして、コマ1で紹介してから使う。
+- 矢印の意味：コマ1の時間軸の細い線は『時間の流れ』の1つの意味だけ（売買・手続・効力の矢印ではない）。コマ2・3は矢印を使わない。
+- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物タグは全員同じ薄い灰青、カードと帯は薄い灰色・濃紺の枠、欠格事由に当たる期間の帯は濃紺（白文字）、強調は黄色マーカーだけ。
+- コマの使い方：コマ1＝small（時間軸の図を大きく）、コマ2＝none（セットのカードだけ）、コマ3＝faces（顔アイコンの会話＋3ステップのカード）、コマ4＝両方。
+
+### 構成表2（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 猶予中も欠格事由。取消しは義務 | 「取消しは義務」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　欠格事由に当たる期間 | — |
+| コマ1 図 | 図・カード | 調査士 / 登録を受けている / 連合会 / 登録の取消しをする / 時間の流れ / 刑に処せられる（執行猶予が付く） / 猶予期間中 / 期間満了の翌日 / 欠格事由に当たる（法5条1号） / 欠格事由に当たらなくなる（先例による） / 猶予期間中、登録は取り消される？ | — |
+| コマ1 | 藍子（左・先に話す） | 猶予が付けば、欠格事由じゃないですよね？ | — |
+| コマ1 | トリ先生（右・答える） | 猶予の間も、欠格事由に当たるのよ | 「猶予の間も」 |
+| コマ2 見出し | ラベル | ②　欠格事由と取消しはセット | — |
+| コマ2 図 | 図・カード | 押さえどころ / 欠格事由と登録の取消しは、セットで覚える / セットで覚える / セット / 入口：欠格事由 / 法5条1号 / 拘禁刑以上の刑に処せられた者が当たる。執行猶予が付いても当たる / 出口：登録の取消し / 法15条1項4号 / 欠格事由に当たるに至ったとき、連合会は登録を取り消さなければならない / 取り消すことができる、ではなく、取り消さなければならない | — |
+| コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
+| コマ3 図 | 図・カード | ステップ1　刑の重さを見る / 拘禁刑以上の刑に処せられているか / ステップ2　執行猶予の書き方に引かれない / 刑の全部の執行が猶予されている、と書かれていても、欠格事由に当たる / ひっかけ：刑の全部の執行が猶予されている、という書き方 / ステップ3　取消しの語尾を見る / 欠格事由に当たれば、取り消さなければならない（法15条1項4号）。取り消すことができない、は誤り | — |
+| コマ3 | 藍子（左・1番目） | 猶予の文言は、無視していいんですか？ | — |
+| コマ3 | トリ先生（右・2番目） | ええ。猶予が付いても欠格事由は同じよ | 「欠格事由は同じ」 |
+| コマ3 | 藍子（左・3番目） | それで、取消しは義務なんですか？ | — |
+| コマ3 | トリ先生（右・4番目） | 欠格事由なら、取り消さなければならないの | 「取り消さなければならない」 |
+| コマ4 見出し | ラベル | ④　これだけ覚える | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 猶予が付いても、取消しは義務ですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。だから、この肢は×なのよ | 「この肢は×」 |
+| コマ4 チェック欄 | 3項目（青✓） | 執行猶予が付いても、猶予期間中は欠格事由に当たる（法5条1号） / 欠格事由に当たれば、連合会は登録を取り消さなければならない（法15条1項4号） / 取り消すことができない、という記述は× | — |
+| 注記 | 小さな注記（コマ4の下） | 出題当時は禁錮以上の刑。令和7年6月1日から、刑は拘禁刑に一本化されています | — |
+| 結論帯 | 1行目 | 猶予中も欠格事由に当たり、登録は取り消さなければならない | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D1411　正解×（H30-Q20エ） | — |
+
+### プロンプト本体2
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall). Between panel 4 and the conclusion banner, a thin one-line note strip (about 50 px tall) with small text, as given in the NOTE LINE below.
+
+TITLE BANNER: text 「猶予中も欠格事由。取消しは義務」 in large bold letters; the part 「取消しは義務」 has a yellow highlighter marker.
+
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　欠格事由に当たる期間」
+- A large timeline diagram fills the panel. At the top, two faceless pictogram tags in the same light gray-blue color with dark navy tags: 「調査士」 (small label 「登録を受けている」) at the left and 「連合会」 (small label 「登録の取消しをする」) at the right.
+- Below them, ONE thin dark navy time line runs from left to right with a small arrowhead and the label 「時間の流れ」 (this line means only the passing of time). On it, three flat dark navy dots with labels under each: 「刑に処せられる（執行猶予が付く）」, 「猶予期間中」, 「期間満了の翌日」.
+- Above the first two dots, one wide dark navy band with white text 「欠格事由に当たる（法5条1号）」. Above the third dot, one wide white band with a dark navy outline and dark navy text 「欠格事由に当たらなくなる（先例による）」.
+- A small question badge 「猶予期間中、登録は取り消される？」 sits at the top (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「猶予が付けば、
+欠格事由じゃ
+ないですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「猶予の間も、
+欠格事由に
+当たるのよ」 with the part 「猶予の間も」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　欠格事由と取消しはセット」
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「欠格事由と登録の取消しは、セットで覚える」, with the part 「セットで覚える」 in a yellow highlighter marker.
+- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, joined in the middle by a small plain dark navy label 「セット」 (a label only, no arrow). Left card, heading 「入口：欠格事由」, small tag 「法5条1号」, body 「拘禁刑以上の刑に処せられた者が当たる。執行猶予が付いても当たる」. Right card, heading 「出口：登録の取消し」, small tag 「法15条1項4号」, body 「欠格事由に当たるに至ったとき、連合会は登録を取り消さなければならない」.
+- At the bottom, one wide dark navy band with white text 「取り消すことができる、ではなく、取り消さなければならない」.
+- There is no check mark and no cross anywhere in this panel.
+
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　本番での読み方3ステップ」
+- Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
+- Step card 1: heading 「ステップ1　刑の重さを見る」, body 「拘禁刑以上の刑に処せられているか」.
+- Step card 2: heading 「ステップ2　執行猶予の書き方に引かれない」, body 「刑の全部の執行が猶予されている、と書かれていても、欠格事由に当たる」. Under the body, a dark navy ribbon with large white text 「ひっかけ：刑の全部の執行が猶予されている、という書き方」.
+- Step card 3: heading 「ステップ3　取消しの語尾を見る」, body 「欠格事由に当たれば、取り消さなければならない（法15条1項4号）。取り消すことができない、は誤り」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, rally 1 of 4): 「猶予の文言は、
+無視していい
+んですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「ええ。猶予が付いても
+欠格事由は同じよ」 with the part 「欠格事由は同じ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「それで、取消しは
+義務なんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「欠格事由なら、
+取り消さなければ
+ならないの」 with the part 「取り消さなければならない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　これだけ覚える」
+- 藍子 bubble (left, spoken first): 「猶予が付いても、
+取消しは義務
+ですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+だから、この肢は
+×なのよ」 with the part 「この肢は×」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「執行猶予が付いても、猶予期間中は欠格事由に当たる（法5条1号）」, 「欠格事由に当たれば、連合会は登録を取り消さなければならない（法15条1項4号）」, 「取り消すことができない、という記述は×」.
+
+NOTE LINE (small text on a thin strip between panel 4 and the conclusion banner, one line, fully legible): 「出題当時は禁錮以上の刑。令和7年6月1日から、刑は拘禁刑に一本化されています」
+
+CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+- Line 1: 「猶予中も欠格事由に当たり、登録は取り消さなければならない」 with a yellow highlighter marker.
+- Line 2: 「問題D1411　正解×（H30-Q20エ）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 当, 押, 無, 番, 登, 肢, 解, 記, 録, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+### 第二案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：コマ1の時間軸だけで『執行猶予の間（猶予期間中）も欠格事由に当たり、満了の翌日から当たらなくなる』と言える
+- [ ] 工程C：コマ2の入口（欠格事由・法5条1号）と出口（登録の取消し・法15条1項4号）がセットで、出口が『取り消さなければならない』になっていることを、図だけで言える
+- [ ] 工程C：押さえどころ4つ（猶予中も欠格事由・取消しは義務・満了の翌日から当たらなくなる・取り消すことができないは誤り）が、コマ1〜4のどこかに図か文言で必ずある。ひっかけ（刑の全部の執行が猶予されている、という書き方）はコマ3のステップ2にある
+- [ ] 工程C：構成表の全文言を記事（H30-Q20エ）と突き合わせ：「執行猶予が付された場合も欠格事由」「法5条1号」「法15条1項4号」「取り消さなければならない」「期間満了の翌日から欠格事由に該当しなくなる（先例による）」「拘禁刑」
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（取り消すことができない、という記述が誤り）
+
+### 第二案の改訂履歴
+
+- 2026-10-09 B案v01：初版（第一案とは別構成の構成表2・プロンプト本体2）

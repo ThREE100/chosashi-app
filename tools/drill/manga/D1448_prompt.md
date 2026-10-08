@@ -222,3 +222,138 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
+
+## 第二案（B案）：構成表2とプロンプト本体2
+
+上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
+
+### 設計メモ2（工程A）
+- 【第二案の位置づけ】第一案（定型：事案→出題者のねらい→ひっかけと勘違い→結論）とは別に、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点）で組んだ別構成。「ひっかけと勘違い」の左右の対比カード（赤✕・青✓）は使わない。
+- 【理解の壁】初見の読者は、「法人についての番号」と「支配人の権限を証する登記事項証明書」が別々の書類で、番号があっても証明書が別に要りそうに見える。肢の「登記所が同一であり、指定した登記所以外のものでない限り」という条件づけも、番号の省略に歯止めがあるように読める。→ 番号の提供が原則で、証明書は番号に代える場合だけ、という位置づけが見えない。
+- 【定型からの変更点】①コマ1を「問いの事案」ではなく、法人・支配人・登記所の関係図（誰が誰を代理して何を提供するか）にする。②コマ2を「番号」と「証明書」の位置づけ（に代えて）と、支配人が代理するときの扱いの帯にする（第一案の「2つの提供のしかたを仕切り線で並べた図」とは、『に代えて』でつなぐ点と、下に支配人の帯を置く点で変えた）。③コマ3を、本番で条件づけの語に引かれないための読み方3ステップにする（ひっかけは、ステップ3の紺のリボンに問題文の言い回しを引用して入れる）。④コマ4は暗記3点と結論。
+- 押さえどころ（記事の範囲）：(1) 会社法人等番号を有する法人が申請するときは、その番号を提供するのが原則（令7条1項1号イ）。(2) 支配人などが法人を代理して申請するときは、代理人の権限を証する情報の提供を要しない（令7条1項2号、規則36条3項）。(3) 登記事項証明書を提供するのは、会社法人等番号の提供に代えて証明書を提供する場合（規則36条1項2号）。(4) 記事のまとめ：肢は、番号があっても一定の登記所要件を満たさない限り証明書を提供しなければならない、と述べており、番号による省略の原則を狭めている点で誤り。
+- 記事の具体例を使う：ある会社の支配人が会社所有地の地目変更を申請するとき、申請情報に会社法人等番号を書いておけば、支配人の権限を証明する登記事項証明書を取り寄せて添付しなくてよい。
+- 登場人物：当事者の記号は使わない。「法人（会社）」「支配人」「登記所」を、コマ1で文字ラベルつきで紹介してから使う（人物は支配人の人型タグだけで、全員同じ薄い灰青）。
+- 矢印の意味：コマ1の矢印は1本だけで、『申請情報を提供して登記を申請する』という意味（支配人から登記所へ）。法人と支配人のあいだは矢印でなく矢印のない細い線（ラベル『代理』）。コマ2・3は矢印を使わない（コマ2の『に代えて』は矢印のない小さなラベル）。
+- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物は薄い灰青、カードは薄い灰色・濃紺の枠・濃紺の見出し、帯・リボンは濃紺（白文字）、強調は黄色マーカーだけ。
+- コマの使い方：コマ1＝small（関係図を大きく）、コマ2＝none（番号と証明書の位置づけの図だけ）、コマ3＝faces（顔アイコンの会話＋3ステップのカード）、コマ4＝両方。
+- 記事の範囲：会社法人等番号の提供（令7条1項1号イ）／支配人が代理して申請する場合の代理人の権限を証する情報の不提供（令7条1項2号、規則36条3項）／証明書の提供は番号に代える場合（規則36条1項2号）／会社の支配人が地目変更を申請する例のみ。
+
+### 構成表2（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 番号で足りる。証明書は番号に代える場合だけ | 「番号に代える場合だけ」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　申請のしくみ | — |
+| コマ1 図 | 図・カード | 法人（会社） / 番号あり / 支配人 / 登記所 / 代理 / ①　申請情報を提供して、登記を申請 / 申請情報に、会社法人等番号を書く / 会社所有の土地 / 地目の変更の登記 / 支配人の権限を証する登記事項証明書も要る？ | — |
+| コマ1 | 藍子（左・先に話す） | 支配人が申請するとき、何を出すんですか？ | — |
+| コマ1 | トリ先生（右・答える） | 法人の会社法人等番号がカギになるのよ | 「会社法人等番号」 |
+| コマ2 見出し | ラベル | ②　番号と証明書の位置づけ | — |
+| コマ2 図 | 図・カード | 押さえどころ / 証明書は、番号に代える場合だけ / 番号に代える / に代えて / 会社法人等番号を提供 / 令7条1項1号イ / 会社法人等番号を有する法人が申請するときの原則 / 登記事項証明書を提供 / 規則36条1項2号 / 会社法人等番号の提供に代えて、証明書を提供する場合 / 支配人が法人を代理して申請するときは、代理人の権限を証する情報の提供を要しない（令7条1項2号、規則36条3項） | — |
+| コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
+| コマ3 図 | 図・カード | ステップ1　代理人は支配人か / 支配人が法人を代理して申請している / ステップ2　番号を提供しているか / 提供していれば、支配人の権限を証する証明書は別に要らない / ステップ3　条件づけの語を見る / 条件づけで、番号による省略の原則を狭めている肢は誤り / ひっかけ：登記所が同一でない限り、という条件づけ | — |
+| コマ3 | 藍子（左・1番目） | 条件つきの肢は、どう読めばいいですか？ | — |
+| コマ3 | トリ先生（右・2番目） | 番号の省略の原則を狭めていないか見るのよ | 「狭めて」 |
+| コマ3 | 藍子（左・3番目） | では、支配人の証明書は要らないんですね？ | — |
+| コマ3 | トリ先生（右・4番目） | 要らないわ。証明書は番号に代える場合だけよ | 「番号に代える場合だけ」 |
+| コマ4 見出し | ラベル | ④　これだけ覚える | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 番号を提供すれば足りる、と覚えます！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。支配人の証明書は別に要らないのよ | 「別に要らない」 |
+| コマ4 チェック欄 | 3項目（青✓） | 会社法人等番号を提供するのが原則（令7条1項1号イ） / 支配人の代理なら、代理人の権限を証する情報は不要（令7条1項2号、規則36条3項） / 登記事項証明書は、番号の提供に代えて提供する場合（規則36条1項2号） | — |
+| 注記 | 小さな注記（コマ4の下） | 肢の登記所の条件は、平成27年の規則改正前の言い回しです | — |
+| 結論帯 | 1行目 | 会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D1448　正解×（R01-Q08ア） | — |
+
+### プロンプト本体2
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall). Between panel 4 and the conclusion banner, a thin one-line note strip (about 50 px tall) with small text, as given in the NOTE LINE below.
+
+TITLE BANNER: text 「番号で足りる。証明書は番号に代える場合だけ」 in large bold letters; the part 「番号に代える場合だけ」 has a yellow highlighter marker.
+
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　申請のしくみ」
+- A large relation diagram fills the panel, laid out ONE row from left to right: one flat office-building icon labeled 「法人（会社）」 with a small tag 「番号あり」, one faceless pictogram tag in light gray-blue labeled 「支配人」, and one flat registry-office building icon labeled 「登記所」.
+- Between 「法人（会社）」 and 「支配人」, one plain thin dark navy line with no arrowhead and a small label 「代理」.
+- One dark navy arrow from 「支配人」 to 「登記所」 labeled 「①　申請情報を提供して、登記を申請」 (this arrow means submitting the application information, not a sale and not a payment).
+- Under the arrow, a white card with a dark navy outline: 「申請情報に、会社法人等番号を書く」. Below the row, a small block labeled 「会社所有の土地」 with a white card 「地目の変更の登記」.
+- A small question badge 「支配人の権限を証する登記事項証明書も要る？」 sits at the top (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「支配人が申請するとき、
+何を出すんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「法人の会社法人等番号が
+カギになるのよ」 with the part 「会社法人等番号」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　番号と証明書の位置づけ」
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「証明書は、番号に代える場合だけ」, with the part 「番号に代える」 in a yellow highlighter marker.
+- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, joined in the middle by a small plain dark navy label 「に代えて」 (a label only, no arrow). Left card, heading 「会社法人等番号を提供」, small tag 「令7条1項1号イ」, body 「会社法人等番号を有する法人が申請するときの原則」. Right card, heading 「登記事項証明書を提供」, small tag 「規則36条1項2号」, body 「会社法人等番号の提供に代えて、証明書を提供する場合」.
+- At the bottom, one wide dark navy band with white text 「支配人が法人を代理して申請するときは、代理人の権限を証する情報の提供を要しない（令7条1項2号、規則36条3項）」.
+- There is no check mark and no cross anywhere in this panel.
+
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　本番での読み方3ステップ」
+- Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
+- Step card 1: heading 「ステップ1　代理人は支配人か」, body 「支配人が法人を代理して申請している」.
+- Step card 2: heading 「ステップ2　番号を提供しているか」, body 「提供していれば、支配人の権限を証する証明書は別に要らない」.
+- Step card 3: heading 「ステップ3　条件づけの語を見る」, body 「条件づけで、番号による省略の原則を狭めている肢は誤り」, with a dark navy ribbon tag under the body, with large white text, reading 「ひっかけ：登記所が同一でない限り、という条件づけ」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, rally 1 of 4): 「条件つきの肢は、
+どう読めばいいですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「番号の省略の原則を
+狭めていないか
+見るのよ」 with the part 「狭めて」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「では、支配人の証明書は
+要らないんですね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「要らないわ。証明書は
+番号に代える場合だけよ」 with the part 「番号に代える場合だけ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　これだけ覚える」
+- 藍子 bubble (left, spoken first): 「番号を提供すれば
+足りる、と覚えます！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+支配人の証明書は
+別に要らないのよ」 with the part 「別に要らない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「会社法人等番号を提供するのが原則（令7条1項1号イ）」, 「支配人の代理なら、代理人の権限を証する情報は不要（令7条1項2号、規則36条3項）」, 「登記事項証明書は、番号の提供に代えて提供する場合（規則36条1項2号）」.
+
+NOTE LINE (small text on a thin strip between panel 4 and the conclusion banner, one line, fully legible): 「肢の登記所の条件は、平成27年の規則改正前の言い回しです」
+
+CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+- Line 1: 「会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない」 with a yellow highlighter marker.
+- Line 2: 「問題D1448　正解×（R01-Q08ア）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 号, 地, 所, 押, 権, 番, 登, 肢, 規, 解, 記, 証, 請 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the word 「原則」 is spelled exactly like this everywhere (never 「思則」); confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+### 第二案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：コマ1で、法人・支配人・登記所の関係と、矢印1本の意味（申請情報を提供して申請する）が言える。この図だけで、『申請情報に会社法人等番号を書く』ことが何のためかの問いに気づく
+- [ ] 工程C：押さえどころ4つ（番号の提供が原則・証明書は番号に代える場合・支配人が代理するときは代理人の権限を証する情報が要らない・条件づけで省略の原則を狭めている肢は誤り）が、コマ1・2・3・4のどこかに図か文言で必ずある
+- [ ] 工程C：構成表の全文言を記事（R01-Q08ア）と突き合わせ：「会社法人等番号」「令7条1項1号イ」「令7条1項2号、規則36条3項」「規則36条1項2号」「番号の提供に代えて」「番号による省略の原則を狭めている」
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（登記所が同一などの条件を満たさない限り証明書が要る、という記述が誤り）
+- [ ] 工程C：ひっかけ（問題文の『登記所が同一であり、〜以外のものでない限り』）がコマ3のステップ3のリボンに入っている。勘違いの内容は藍子のコマ3の質問と、ステップ3の『省略の原則を狭めている』で示されている
+
+### 第二案の改訂履歴
+
+- 2026-10-09 B案v01：初版（第二案。D0314-Bと同じ型：しくみの図解→番号と証明書の位置づけ→本番での読み方3ステップ→暗記3点）

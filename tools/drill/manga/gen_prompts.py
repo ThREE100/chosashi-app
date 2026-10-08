@@ -229,6 +229,38 @@ def filename_section(sp):
             f"| 見出し画像（採用版） | {b}_見出し.png |\n"
             f"| 途中の版・不採用の版（例：v01） | {b}_v01.png ／ {b}_見出し_v01.png |\n\n")
 
+SECOND_DIR = HERE / "specs2"
+
+def load_second():
+    """第二案の設計データ（specs2/<ID>.py の SPEC2）を読み込む。第一案（SPECS[ID]）と同じ肢のIDで対応づける。"""
+    d = {}
+    if SECOND_DIR.is_dir():
+        for f in sorted(SECOND_DIR.glob("D*.py")):
+            ns = {}; exec(compile(f.read_text(encoding="utf8"), str(f), "exec"), {"__name__": f.stem, "__file__": str(f)}, ns)
+            d[ns["SPEC2"]["id"]] = ns["SPEC2"]
+    return d
+
+def second_section(sp2):
+    """第二案（B案型）の節：設計メモ2・構成表2・プロンプト本体2。ファイルの末尾に置く（check_prompt.py は第一案と第二案を別々に検査する）。"""
+    body, rows = build(sp2)
+    out = "\n## 第二案（B案）：構成表2とプロンプト本体2\n\n"
+    out += ("上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型"
+            "（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。"
+            "どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける"
+            "（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。\n\n")
+    out += "### 設計メモ2（工程A）\n" + "\n".join(f"- {m}" for m in sp2["design"]) + "\n\n"
+    out += "### 構成表2（文言の正本）\n\n| 領域 | 話者・用途 | 正確な文言 | 強調 |\n|---|---|---|---|\n"
+    out += "\n".join(f"| {a} | {b} | {c} | {d} |" for a, b, c, d in rows) + "\n\n"
+    if sp2.get("extra_refs"):
+        out += "### 記事に無い条文（ユーザー指示で追加）\n\n" + "".join(f"- {r}\n" for r in sp2["extra_refs"]) + "\n"
+    out += "### プロンプト本体2\n\n```text\n" + body + "\n```\n\n"
+    out += "### 第二案の品質ゲート（工程C）\n" + "".join(f"- [ ] 工程C：{c}\n" for c in sp2["review"])
+    if sp2.get("rev"):
+        out += "\n### 第二案の改訂履歴\n\n" + "".join(f"- {r}\n" for r in sp2["rev"])
+    return out
+
+SECOND = load_second()
+
 def render(sp):
     body, rows = build(sp)
     out = f"# {sp['id']} 4コマ解説図解 プロンプト（ChatGPT貼付用・{sp.get('ver','v01')}）\n\n"
@@ -262,6 +294,8 @@ def render(sp):
         out += "\n## " + sp["qa"][0] + "\n" + "".join(f"- {r}\n" for r in sp["qa"][1:])
     if sp.get("rev"):
         out += "\n## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）\n\n" + "".join(f"- {r}\n" for r in sp["rev"])
+    if sp.get("fid", sp["id"]) == sp["id"] and sp["id"] in SECOND:   # 第一案のファイルにだけ、第二案を追記する
+        out += second_section(SECOND[sp["id"]])
     return out
 
 def patch_d0520():
