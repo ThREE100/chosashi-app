@@ -145,7 +145,7 @@
 
 ## インフォグラフィック プロンプト（問題全体）
 
-「共有地の分筆登記は持分の価格の過半数を有する共有者が申請できる」という原則が、管理者・未成年者・代位・不在者財産管理人・地役権の仮登記名義人という5つの応用場面でどう働くかを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する計5枚のポスター型カードで俯瞰する構成。
+分筆登記の申請人（表題部所有者・所有権の登記名義人。共有地は持分の価格の過半数を有する共有者）という原則が、管理者・未成年者・代位・不在者財産管理人・地役権の仮登記名義人という5つの応用場面でどう働くかを、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する計5枚のポスター型カードで俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -200,7 +200,7 @@ Title (large, bold, 1行):
 分筆登記、申請人になれるのは？
 
 Subtitle (smaller, centered, 1行):
-平成19年度 午前の部 第12問（改）－持分の過半数で申請できる原則と5つの応用場面
+平成19年度 午前の部 第12問（改）－分筆登記の申請人と5つの応用場面
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -216,10 +216,10 @@ Illustration: An isometric apartment building standing on a shared land
 plot, surrounded by ten small human figure icons representing the unit
 owners. One figure wearing a necktie labeled 「理事長」 tries to press a
 single stamp onto an application document, with a large red X mark over
-the lone stamp. Beside it, six of the ten figures (a majority) together
-hold one large stamp reading 「持分の過半数」 with a green checkmark.
+the lone stamp. Beside it, the ten figures sit around a small
+meeting-table icon labeled 「集会の決議」 with a green checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-持分の過半数が申請人
+管理者だけでは足りない
 
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
@@ -296,7 +296,7 @@ channel anywhere.
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-分筆登記の申請人適格をめぐる5つの場面（ア：理事長の代理権の範囲、イ：財産管理人の許可要否、ウ：協力しない相続人への代位、エ：仮登記名義人の承諾の要否、オ：未成年者を除いた父母のみの申請の可否）について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。ア・ウ・オは「共有地の分筆登記は持分の価格の過半数を有する共有者が申請できる」という同じ出発点から始まる決定木として、イは保存行為（民法103条）の該当性判定、エは承諾情報（不動産登記法40条）の要否を2段階で確認する決定木として、それぞれ組み立てた。オだけは、正誤対比型（誤りやすい思い込み「未成年者がいないと申請できない」と、正しいルール「父母の持分が過半数なら申請できる」を左右で対比する構図）を採用し、決定木一辺倒にならないよう型を変えている。
+分筆登記の申請人適格をめぐる5つの場面（ア：理事長の代理権の範囲、イ：財産管理人の許可要否、ウ：協力しない相続人への代位、エ：仮登記名義人の承諾の要否、オ：未成年者を除いた父母のみの申請の可否）について、問題文を読んだ瞬間にどんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。アは申請人が登記名義人に限られること（不動産登記法39条1項）と管理者の代理権の範囲（区分所有法26条）を順に確認する決定木として、ウ・オは「共有地の分筆登記は持分の価格の過半数を有する共有者が申請できる」という同じ出発点から始まる決定木として、イは保存行為（民法103条）の該当性判定、エは承諾情報（不動産登記法40条）の要否を2段階で確認する決定木として、それぞれ組み立てた。オだけは、正誤対比型（誤りやすい思い込み「未成年者がいないと申請できない」と、正しいルール「父母の持分が過半数なら申請できる」を左右で対比する構図）を採用し、決定木一辺倒にならないよう型を変えている。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -383,8 +383,8 @@ Heading (bold, ONE line):
 理事長は敷地分筆を単独申請できない
 Diagram: Vertical decision flowchart with three diamond-shaped nodes
 stacked top to bottom, connected by downward arrows, drawn above an
-isometric illustration. Diamond 1: 「敷地は共有地か」→ arrow labeled
-「はい」→ box 「原則:持分の価格の過半数を有する共有者が申請人(不動産登記法39条1項・民法252条1項)」. Diamond 2:
+isometric illustration. Diamond 1: 「敷地は区分所有者の共有か」→ arrow labeled
+「はい」→ box 「申請人は所有権の登記名義人(不動産登記法39条1項)。敷地の管理・変更は集会の決議等で決める(区分所有法21条・17条から19条まで)」. Diamond 2:
 「管理者の代理権の範囲は(区分所有法26条2項)」→ arrow labeled「職務の範囲内
 のみ」→ box「共用部分の保存・集会決議の実行・規約で定めた行為に限る」.
 Diamond 3: 「敷地の分筆はその職務に含まれるか」→ arrow labeled「いいえ」→
@@ -393,13 +393,13 @@ the flowchart, an isometric apartment building standing on a shared
 rectangular land plot, surrounded by ten small isometric human figure
 icons representing the unit owners. One figure wearing a necktie labeled
 「理事長」presses a single stamp onto an application document with a large
-red ✕ mark over it, while six of the ten figures (a majority) together hold one large stamp
-reading 「持分の過半数」with a green checkmark, visually echoing the
-flowchart's conclusion.
+red ✕ mark over it, while the ten figures gather around a small
+meeting-table icon labeled 「集会の決議」with a green checkmark, visually
+echoing the flowchart's conclusion.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず敷地の共有者のうち持分の過半数を有する者が申請人となっているかを確認し、
-次に管理者(理事長)の代理権がその職務の範囲に限られていないかを確認します。
-管理者を定めただけでは、理事長が単独で分筆の申請人になることはできません。
+まず申請人が所有権の登記名義人に限られることを確認し、次に管理者(理事長)の
+代理権がその職務の範囲に限られていないかを確認します。管理者を定めただけでは、
+理事長が単独で分筆の申請人になることはできません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 理事長単独は不可
@@ -508,7 +508,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 根拠:不動産登記法39条1項・40条、不動産登記令3条4号・7条1項3号、民法103条・
-28条・251条1項・252条1項・824条、区分所有法26条1項・2項
+28条・251条1項・252条1項・824条、区分所有法17条から19条まで・21条・26条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
