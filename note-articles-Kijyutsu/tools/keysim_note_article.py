@@ -8,7 +8,7 @@
 - 「表示：（実部）− 1119.7006i」の形は、iの係数（符号を含む）だけを照らす
 
 - 未対応（2026-10-07時点）：記事の中で変数の状態を巻き戻して別解を始める書き方（H29/Q21の「Y＝Gから始める」）、
-  ∠ の後にかっこのない書き方（H23〜H25/Q21）、整数の表示（H22/Q21の「1」）。年度の照合スクリプトで使うのは、全部の表示が一致した年度だけにする
+  ∠ の後にかっこのない書き方（H23〜H25/Q21）、整数の表示（H22/Q21の「1」）。純虚数の表示（実部が丸めの誤差だけ）は2026-10-08に対応（R2/Q21）。年度の照合スクリプトで使うのは、全部の表示が一致した年度だけにする
 
 使い方: python3 note-articles-Kijyutsu/tools/keysim_note_article.py 記事.md
        （照合スクリプトからは simulate(記事のパス) を呼ぶ。戻り値は [(行番号, 記事の表示, 再現した表示, 一致)]）
@@ -157,7 +157,12 @@ def simulate(path):
         if '（実部）' in want:
             got = f'（実部）{"−" if v.imag < 0 else "＋"} {fmt_num(abs(v.imag))}i'
         else:
-            got = fmt_num(v.real) if abs(v.imag) < 1e-9 else disp(v)
+            if abs(v.imag) < 1e-9:
+                got = fmt_num(v.real)
+            elif abs(v.real) < 1e-9:   # 実部が丸めの誤差だけの純虚数（R2/Q21の Conjg(E − B) × (A − B) ＝ 151.20i。2026-10-08追加）
+                got = ('−' if v.imag < 0 else '') + f'{fmt_num(abs(v.imag))}i'
+            else:
+                got = disp(v)
         out.append((n, want, got, want == got))
     return out
 
