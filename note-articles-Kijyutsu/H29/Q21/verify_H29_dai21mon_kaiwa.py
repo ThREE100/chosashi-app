@@ -222,10 +222,10 @@ zu_png = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.startswith(
 for i in range(1, N_FIG + 1):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'H29_dai21mon_zu{i:02d}_') for f in zu_png))
 judge(f'解説図のPNGの数 {len(zu_png)}枚（{N_FIG}枚）', len(zu_png) == N_FIG)
-# 2026-10-08（ユーザー指示）：図を振り直したので、作成済みの図のタイトルに残っていた図番も消した。全20枚とも画像の中に図番を入れない
-titles = re.findall(r"(?:new_figure\(f?|suptitle\(|fixed_figure\()'([^']*)'", draw)
-judge(f'作図スクリプトのタイトル（{len(titles)}個）に図番がない', len(titles) >= 9 and not any(re.search(r'図\s*\d|図\{', t) for t in titles))
-judge('kouten_zu のタイトルに図番の差し込みがない', "f'図{no}" not in draw)
+# 2026-10-08（2回目、ユーザー指示「R7のように消して描き直してください」）：作成済みの10枚のタイトルからも作成時の図番を消した。全20枚とも画像の中に図番がない
+# 18個＝20枚 − 答案用紙の枠の地積測量図（タイトルなし）− H点・I点の図で共用の1つ
+titles_ = re.findall(r"(?:new_figure\(f?|suptitle\(|fixed_figure\(|board\()'([^']+)'", draw)
+judge(f'作図スクリプトのタイトル（{len(titles_)}個）に図番がない', len(titles_) == 18 and not any(re.search(r'図\d|図\{', t) for t in titles_))
 new_titles = re.findall(r"board\('([^']+)'", draw)
 judge(f'新しい図のタイトル（{len(new_titles)}枚）に図番がない', len(new_titles) == 9 and not any(re.search(r'図\d', t) for t in new_titles))
 for s_ in ["ftext(195, 113, '第4欄'", "'地　積　測　量　図'", "'100番1、100番2'", "'Ａ市Ｂ町字Ｃ'", "'（平成29年○月○日作成）'",
