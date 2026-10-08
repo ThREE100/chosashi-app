@@ -1,31 +1,31 @@
-# D0419 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D1448 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
 
-- 肢：D0419（民法／用益権・担保物権、出典 H21-Q02エ）。正解＝×（誤った記述）。誤解未習得2回（？が2回連続）。
-- 記事：`note-articles/h21-mondai/q02-chijouken.md` エ「特段の定めがなければ、地上権者は地代の支払義務を負わない」
+- 肢：D1448（不動産登記法／申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）、出典 R01-Q08ア）。正解＝×（誤った記述）。誤解3回。
+- 記事：`note-articles/r1-mondai/q08-shinsei-tenpu.md` ア「会社法人等番号を提供すれば、支配人の権限を証する登記事項証明書は省略できる」
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- タイプ：C 概念の区別型（賃貸借のイメージと、地上権の性質を混ぜさせる）。コマの使い方：コマ1＝small（事案図を大きく）、コマ2＝none（2つの権利を並べた図だけ）、コマ3＝faces（顔アイコンの会話＋勘違い⇔正しい整理のカード）、コマ4＝両方。
-- ①問いの事案：設定契約で地代について何も定めずに地上権が設定された。この場合でも、地上権者は地代を支払う義務を負うか。
-- ②出題者のねらい：地上権を、有償が前提の賃貸借のイメージで考えていないかを見る。
-- ③ひっかけ：問題文の「特段の定めがない場合であっても」という言い方に引かれて、地代の支払義務が当然にあり、額は裁判所が決めてくれそうに見える。
-- ④勘違い・理解を誤るポイント：定めがなくても地代の支払義務があり、額は裁判所が定める。
-- ⑤正しい整理：地上権の地代は、設定契約で定めがあって初めて発生する。特段の定めがなければ、地上権者は地代の支払義務を負わない（無償の地上権もある）。地代の額を当事者の請求により裁判所が定める制度もない。記事の具体例：親族の好意で無償の地上権を設定してもらい、地代を決めていなければ、後から当然に地代を請求されることはない。
-- 登場人物：当事者の記号は使わない。「地上権者」と「土地の所有者」を文字ラベルの人型タグで、コマ1の凡例で紹介してから使う。
+- タイプ：F 手続・添付情報型（番号で足りるか、証明書が要るか）。コマの使い方：コマ1＝small（事案図を大きく）、コマ2＝none（2つのやり方を並べた図だけ）、コマ3＝faces（顔アイコンの会話＋勘違い⇔正しい整理のカード）、コマ4＝両方。
+- ①問いの事案：会社法人等番号を持つ法人が所有する土地の、地目の変更の登記を、その法人の支配人が代理して申請する。支配人の権限を証する登記事項証明書を提供しなければならないか。
+- ②出題者のねらい：会社法人等番号を提供する場合と、登記事項証明書を提供する場合を見分けさせる。
+- ③ひっかけ：問題文の「登記所が同一であり、指定登記所以外のものでない限り」という条件づけに引かれて、番号があっても証明書が要る場面があると思わせる。
+- ④勘違い・理解を誤るポイント：番号があっても、登記所が同一などの条件を満たさない限り、証明書を提供しなければならない（番号による省略の原則を狭めている）。
+- ⑤正しい整理：会社法人等番号を有する法人は、その番号を提供するのが原則（令7条1項1号イ）。支配人などが法人を代理して申請するときは、代理人の権限を証する情報の提供を要しない（令7条1項2号、規則36条3項）。登記事項証明書を提供するのは、会社法人等番号の提供に代えて証明書を提供する場合（規則36条1項2号）。記事の具体例：会社の支配人が会社所有地の地目変更を申請するとき、申請情報に会社法人等番号を書いておけば、支配人の権限を証明する登記事項証明書を取り寄せて添付しなくてよい。
+- 登場人物：当事者の記号は使わない。「法人（会社）」と「支配人」を文字ラベルの人型タグで、コマ1で紹介してから使う。
 - 矢印の意味：矢印は使わない。コマ2は2つのカードを縦の仕切り線で分ける。
-- 配色：コマ2は印を付けない。コマ3は左（定めがなくても払う義務があり、額は裁判所が定める）＝赤✕1つ、右（定めがなければ義務は生じない）＝青✓1つ。コマ1・2は印を付けない。
-- 記事の範囲：地代は設定契約で定めがあって初めて発生する／特段の定めがなければ地代の支払義務はない／無償の地上権もある／裁判所が地代の額を定める制度もない／賃貸借は有償が前提／親族の好意の例のみ。
+- 配色：コマ2は印を付けない。コマ3は左（条件を満たさない限り証明書が要る）＝赤✕1つ、右（番号を提供すれば証明書は要らない）＝青✓1つ。コマ1・2は印を付けない。
+- 記事の範囲：会社法人等番号の提供（令7条1項1号イ）／支配人が代理して申請する場合の代理人の権限を証する情報の不提供（令7条1項2号、規則36条3項）／証明書の提供は番号に代える場合（規則36条1項2号）／会社の支配人が地目変更を申請する例のみ。
 
 ## 記事タイトル
 
-【土地家屋調査士受験生向け】4コマ解説図解D0419～H21-Q02エ～
+【土地家屋調査士受験生向け】4コマ解説図解D1448～R01-Q08ア～
 
 ## note記事の冒頭文
 
-設定契約で地代について何も定めずに、地上権が設定されました。この場合でも、地上権者は土地の所有者に地代を支払う義務を負うのでしょうか。
+会社法人等番号を持つ法人の所有する土地について、支配人が代理して、地目の変更の登記を申請します。登記所が同一などの条件を満たさない限り、支配人の権限を証する登記事項証明書を提供しなければならないのでしょうか。
 
-択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（平成21年度　第2問　エ）。
+択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（令和元年度　第8問　ア）。
 
 先に〇か×かを考えてから、読み進めてみてください。
 
@@ -33,26 +33,26 @@
 
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
-| タイトル帯 | — | 地上権に、地代の支払義務は当然にはない | 「地代の支払義務は当然にはない」を黄色マーカー |
+| タイトル帯 | — | 番号を提供すれば、支配人の証明書は要らない | 「支配人の証明書は要らない」を黄色マーカー |
 | コマ1 見出し | ラベル | ①　問いの事案 | — |
-| コマ1 図 | 図・カード | 土地 / 地上権 / 地上権者 / 土地の所有者 / 設定契約で地代の定めがない / 地代の支払義務はある？ | — |
-| コマ1 | 藍子（左・先に話す） | 土地を使うなら、地代は払いますよね？ | — |
-| コマ1 | トリ先生（右・答える） | 出たわね。賃貸借のイメージでしょ | 「賃貸借のイメージ」 |
+| コマ1 図 | 図・カード | 法人（会社） / 会社法人等番号あり / 支配人 / 会社所有の土地 / 地目の変更の登記を、支配人が代理して申請 / 支配人の権限を証する証明書は要る？ | — |
+| コマ1 | 藍子（左・先に話す） | 支配人が申請するなら、証明書が要りますよね？ | — |
+| コマ1 | トリ先生（右・答える） | 出たわね。番号を提供したか見てごらん | 「番号を提供」 |
 | コマ2 見出し | ラベル | ②　出題者のねらい | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 地上権を、賃貸借のイメージで考えていないか / 賃貸借 / 有償であることが前提 / 地上権 / 地代は、設定契約で定めがあって初めて発生する / 無償の地上権もある。地代の額を裁判所が定める制度もない | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 番号で足りるのか、証明書が要るのかを見分ける / 会社法人等番号を提供する / 令7条1項1号イ / 原則。支配人が代理して申請するときは、代理人の権限を証する情報は要らない（令7条1項2号、規則36条3項） / 登記事項証明書を提供する / 規則36条1項2号 / 会社法人等番号の提供に代えて、証明書を提供する場合 | — |
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
-| コマ3 図 | 図・カード | よくある勘違い / 定めがなくても地代の支払義務があり、額は裁判所が定める / ひっかけ：特段の定めがない場合であっても、という言い方 / 正しい整理 / 定めがなければ、地代の支払義務は生じない。裁判所が額を定める制度もない / たとえば：親族の好意で無償の地上権を設定してもらい、地代を決めていなければ、後から当然には地代を請求されない | — |
-| コマ3 | 藍子（左・1番目） | 定めがなくても、払う義務はありますよね？ | — |
-| コマ3 | トリ先生（右・2番目） | 地代は、定めがあって初めて発生するの | 「定めがあって初めて」 |
-| コマ3 | 藍子（左・3番目） | 額は、裁判所が決めてくれませんか？ | — |
-| コマ3 | トリ先生（右・4番目） | そういう制度は、ないのよ | 「制度は、ない」 |
+| コマ3 図 | 図・カード | よくある勘違い / 登記所が同一などの条件を満たさない限り、証明書が要る / ひっかけ：登記所が同一でない限り、という条件づけ / 正しい整理 / 会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない / たとえば：会社の支配人が会社所有地の地目変更を申請するとき、申請情報に会社法人等番号を書いておけば、証明書を取り寄せて添付しなくてよい | — |
+| コマ3 | 藍子（左・1番目） | 登記所が同じでないと、省けませんよね？ | — |
+| コマ3 | トリ先生（右・2番目） | 番号の省略の原則を、狭めているわね | 「狭めている」 |
+| コマ3 | 藍子（左・3番目） | では、何を提供すれば足りますか？ | — |
+| コマ3 | トリ先生（右・4番目） | 会社法人等番号を提供すれば足りるのよ | 「会社法人等番号」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
-| コマ4 | 藍子（左・先に話す） | 地代の支払義務を負う、は誤りなんですね！ | — |
-| コマ4 | トリ先生（右・答える） | そのとおり。地代は定めがあって初めて発生するのよ | 「定めがあって初めて」 |
-| コマ4 チェック欄 | 3項目（青✓） | 地代は、設定契約で定めて初めて発生する / 定めがなければ、地上権者に地代の支払義務はない / 地代の額を裁判所が定める制度はない | — |
-| 結論帯 | 1行目 | 地上権の地代は、設定契約で定めて初めて発生する | 黄色マーカー |
-| 結論帯 | 2行目 | 問題D0419　正解×（H21-Q02エ） | — |
+| コマ4 | 藍子（左・先に話す） | 条件つきで証明書が要る、は誤りなんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。番号を提供すれば足りるのよ | 「番号を提供すれば足りる」 |
+| コマ4 チェック欄 | 3項目（青✓） | 会社法人等番号を提供するのが原則（令7条1項1号イ） / 支配人が代理して申請するときは、代理人の権限を証する情報は要らない（令7条1項2号、規則36条3項） / 証明書を提供するのは、番号の提供に代える場合（規則36条1項2号） | — |
+| 結論帯 | 1行目 | 会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D1448　正解×（R01-Q08ア） | — |
 
 ## プロンプト本体
 
@@ -78,59 +78,59 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
 - Conclusion banner at the bottom (about 110 px tall).
 
-TITLE BANNER: text 「地上権に、地代の支払義務は当然にはない」 in large bold letters; the part 「地代の支払義務は当然にはない」 has a yellow highlighter marker.
+TITLE BANNER: text 「番号を提供すれば、支配人の証明書は要らない」 in large bold letters; the part 「支配人の証明書は要らない」 has a yellow highlighter marker.
 
 PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
-- A large relation diagram fills the panel: a flat plot-of-land block labeled 「土地」 carrying a dark navy ribbon with white text 「地上権」 (the same dark navy ribbon in every panel).
-- Beside the land, two faceless pictogram tags in the same light gray-blue color with dark navy tags: 「地上権者」 and 「土地の所有者」.
-- A plain white label with a dark navy outline reads 「設定契約で地代の定めがない」, and a small question badge 「地代の支払義務はある？」 sits above the land (a question badge only, with no check mark and no cross).
-- 藍子 bubble (left, spoken first): 「土地を使うなら、
-地代は払いますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A large relation diagram fills the panel: one flat office-building icon labeled 「法人（会社）」 with a small tag 「会社法人等番号あり」, and one faceless pictogram tag in light gray-blue labeled 「支配人」 standing beside it.
+- Beside them, a plot-of-land block labeled 「会社所有の土地」 with a white card 「地目の変更の登記を、支配人が代理して申請」.
+- A small question badge 「支配人の権限を証する証明書は要る？」 sits at the top (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「支配人が申請するなら、
+証明書が要りますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。
-賃貸借のイメージでしょ」 with the part 「賃貸借のイメージ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+番号を提供したか
+見てごらん」 with the part 「番号を提供」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
 - Label tab: 「②　出題者のねらい」
-- A full-width concept diagram fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「地上権を、賃貸借のイメージで考えていないか」.
-- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, separated by a tall plain dark navy divider line (no arrow). Left card, heading 「賃貸借」, body 「有償であることが前提」. Right card, heading 「地上権」, body 「地代は、設定契約で定めがあって初めて発生する」.
-- At the bottom, one wide dark navy band with white text 「無償の地上権もある。地代の額を裁判所が定める制度もない」.
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「番号で足りるのか、証明書が要るのかを見分ける」.
+- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, separated by a tall plain dark navy divider line (no arrow). Left card, heading 「会社法人等番号を提供する」, small tag 「令7条1項1号イ」, body 「原則。支配人が代理して申請するときは、代理人の権限を証する情報は要らない（令7条1項2号、規則36条3項）」. Right card, heading 「登記事項証明書を提供する」, small tag 「規則36条1項2号」, body 「会社法人等番号の提供に代えて、証明書を提供する場合」.
 - There is no check mark and no cross anywhere in this panel.
 
 PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
 - Label tab: 「③　ひっかけと勘違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side, with a wide example strip under them.
-- Left card, heading 「よくある勘違い」, body 「定めがなくても地代の支払義務があり、額は裁判所が定める」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：特段の定めがない場合であっても、という言い方」.
-- Right card, heading 「正しい整理」, body 「定めがなければ、地代の支払義務は生じない。裁判所が額を定める制度もない」, with ONE blue check mark only (no cross on this card).
-- Example strip under the two cards: 「たとえば：親族の好意で無償の地上権を設定してもらい、地代を決めていなければ、後から当然には地代を請求されない」.
+- Left card, heading 「よくある勘違い」, body 「登記所が同一などの条件を満たさない限り、証明書が要る」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：登記所が同一でない限り、という条件づけ」.
+- Right card, heading 「正しい整理」, body 「会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない」, with ONE blue check mark only (no cross on this card).
+- Example strip under the two cards: 「たとえば：会社の支配人が会社所有地の地目変更を申請するとき、申請情報に会社法人等番号を書いておけば、証明書を取り寄せて添付しなくてよい」.
 - The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, rally 1 of 4): 「定めがなくても、
-払う義務はありますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, rally 2 of 4): 「地代は、定めが
-あって初めて発生するの」 with the part 「定めがあって初めて」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, rally 3 of 4): 「額は、裁判所が
-決めてくれませんか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, rally 4 of 4): 「そういう制度は、
-ないのよ」 with the part 「制度は、ない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 1 of 4): 「登記所が同じでないと、
+省けませんよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「番号の省略の原則を、
+狭めているわね」 with the part 「狭めている」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「では、何を提供すれば
+足りますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「会社法人等番号を
+提供すれば足りるのよ」 with the part 「会社法人等番号」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
-- 藍子 bubble (left, spoken first): 「地代の支払義務を
-負う、は
+- 藍子 bubble (left, spoken first): 「条件つきで証明書が
+要る、は
 誤りなんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。
-地代は定めがあって
-初めて発生するのよ」 with the part 「定めがあって初めて」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「地代は、設定契約で定めて初めて発生する」, 「定めがなければ、地上権者に地代の支払義務はない」, 「地代の額を裁判所が定める制度はない」.
+番号を提供すれば
+足りるのよ」 with the part 「番号を提供すれば足りる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「会社法人等番号を提供するのが原則（令7条1項1号イ）」, 「支配人が代理して申請するときは、代理人の権限を証する情報は要らない（令7条1項2号、規則36条3項）」, 「証明書を提供するのは、番号の提供に代える場合（規則36条1項2号）」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
-- Line 1: 「地上権の地代は、設定契約で定めて初めて発生する」 with a yellow highlighter marker.
-- Line 2: 「問題D0419　正解×（H21-Q02エ）」
+- Line 1: 「会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない」 with a yellow highlighter marker.
+- Line 2: 「問題D1448　正解×（R01-Q08ア）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 初, 地, 当, 所, 権, 無, 解, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 号, 地, 所, 権, 番, 登, 規, 解, 記, 証, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the word 「原則」 is spelled exactly like this everywhere (never 「思則」); confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -141,9 +141,9 @@ noteの見出し画像（アイキャッチ）用です。トリ先生と藍子�
 
 | 領域 | 正確な文言 | 強調 |
 |---|---|---|
-| タイトル1行目 | 地上権に地代の定めがないと | 薄い黄色のマーカー |
-| タイトル2行目 | 地代の支払義務はある？ | 「支払義務はある？」を赤みのあるオレンジ |
-| サブタイトル | 4コマ解説図解　D0419　H21-Q02エ | — |
+| タイトル1行目 | 支配人が法人を代理して申請 | 薄い黄色のマーカー |
+| タイトル2行目 | 証明書は要る？ | 「証明書は要る？」を赤みのあるオレンジ |
+| サブタイトル | 4コマ解説図解　D1448　R01-Q08ア | — |
 
 ### 見出し画像プロンプト本体
 
@@ -161,20 +161,20 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
 TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
-地上権に地代の定めがないと
-Line 2 is larger; the phrase 支払義務はある？ is red-orange and the rest is dark navy:
-地代の支払義務はある？
+支配人が法人を代理して申請
+Line 2 is larger; the phrase 証明書は要る？ is red-orange and the rest is dark navy:
+証明書は要る？
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-4コマ解説図解　D0419　H21-Q02エ
+4コマ解説図解　D1448　R01-Q08ア
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
 TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the characters):
-Left side: a plot of land with a small house and an empty signpost board
-Right side: a blank contract sheet and a small coin purse with no coins
+Left side: a small office building with an empty nameplate and a faceless silhouette in a suit beside it
+Right side: a blank certificate sheet and a rubber stamp beside a small registry book
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the characters and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 上, 権, 代, 定, 支, 払, 義, 務, 解, 説, 図; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 支, 配, 人, 法, 代, 理, 申, 請, 証, 明, 書, 要, 解, 説, 図; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ### 見出し画像の検品
@@ -189,17 +189,17 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 | 画像 | ファイル名 |
 |---|---|
-| 4コマ解説図解（本文用・採用版） | 4コマ解説図解D0419～H21-Q02エ～.png |
-| 見出し画像（採用版） | 4コマ解説図解D0419～H21-Q02エ～_見出し.png |
-| 途中の版・不採用の版（例：v01） | 4コマ解説図解D0419～H21-Q02エ～_v01.png ／ 4コマ解説図解D0419～H21-Q02エ～_見出し_v01.png |
+| 4コマ解説図解（本文用・採用版） | 4コマ解説図解D1448～R01-Q08ア～.png |
+| 見出し画像（採用版） | 4コマ解説図解D1448～R01-Q08ア～_見出し.png |
+| 途中の版・不採用の版（例：v01） | 4コマ解説図解D1448～R01-Q08ア～_v01.png ／ 4コマ解説図解D1448～R01-Q08ア～_見出し_v01.png |
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
-- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0419_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1の「地上権者」「土地の所有者」がコマ2・3の文言と対応している
+- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D1448_prompt.md` が NG 0件
+- [ ] 工程C：初見の読者：コマ1の「法人」「支配人」と、コマ2の2つのやり方、コマ3の左右のカードが対応している
 - [ ] 工程C：5点が、コマ1の事案図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
-- [ ] 工程C：構成表の全文言を記事（H21-Q02エ）と突き合わせ：「設定契約で定めがあって初めて発生」「無償の地上権」「裁判所が定める制度もない」「賃貸借は有償が前提」
-- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（支払義務を負い裁判所が額を定めるという記述が誤り）
+- [ ] 工程C：構成表の全文言を記事（R01-Q08ア）と突き合わせ：「会社法人等番号」「令7条1項1号イ」「令7条1項2号、規則36条3項」「規則36条1項2号」「番号の提供に代えて」
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（登記所が同一などの条件を満たさない限り証明書が要る、という記述が誤り）
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -213,9 +213,8 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
 - [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
-## v01：新規作成（2026-10-09）。一問一答で未習得（？）が2回連続になった肢。構成表の組み方（パターン集C 概念の区別型）と一発合格のための作成ルールに沿って設計した。ChatGPTでの画像生成・検品はまだ。
+## v01：新規作成（2026-10-09）。一問一答で誤解が3回になった肢（4コマ未作成）。条文（令7条1項1号イ・2号、規則36条1項2号・3項）は note-articles/laws/ の原文で確認した。ChatGPTでの画像生成・検品はまだ。
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
-- 2026-10-09 v01：コマ3の印の向きを opposite="lx"（左✕・右✓）に統一（規則書の採用見本D0314 v02に合わせた）

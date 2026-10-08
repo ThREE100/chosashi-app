@@ -1,31 +1,32 @@
-# D0419 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D1411 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
 
-- 肢：D0419（民法／用益権・担保物権、出典 H21-Q02エ）。正解＝×（誤った記述）。誤解未習得2回（？が2回連続）。
-- 記事：`note-articles/h21-mondai/q02-chijouken.md` エ「特段の定めがなければ、地上権者は地代の支払義務を負わない」
+- 肢：D1411（土地家屋調査士法／調査士会・資格・その他、出典 H30-Q20エ）。正解＝×（誤った記述）。誤解3回。
+- 記事：`note-articles/h30-mondai/q20-chousashi-touroku.md` エ「執行猶予中も欠格事由に当たり、登録は取り消される」
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- タイプ：C 概念の区別型（賃貸借のイメージと、地上権の性質を混ぜさせる）。コマの使い方：コマ1＝small（事案図を大きく）、コマ2＝none（2つの権利を並べた図だけ）、コマ3＝faces（顔アイコンの会話＋勘違い⇔正しい整理のカード）、コマ4＝両方。
-- ①問いの事案：設定契約で地代について何も定めずに地上権が設定された。この場合でも、地上権者は地代を支払う義務を負うか。
-- ②出題者のねらい：地上権を、有償が前提の賃貸借のイメージで考えていないかを見る。
-- ③ひっかけ：問題文の「特段の定めがない場合であっても」という言い方に引かれて、地代の支払義務が当然にあり、額は裁判所が決めてくれそうに見える。
-- ④勘違い・理解を誤るポイント：定めがなくても地代の支払義務があり、額は裁判所が定める。
-- ⑤正しい整理：地上権の地代は、設定契約で定めがあって初めて発生する。特段の定めがなければ、地上権者は地代の支払義務を負わない（無償の地上権もある）。地代の額を当事者の請求により裁判所が定める制度もない。記事の具体例：親族の好意で無償の地上権を設定してもらい、地代を決めていなければ、後から当然に地代を請求されることはない。
-- 登場人物：当事者の記号は使わない。「地上権者」と「土地の所有者」を文字ラベルの人型タグで、コマ1の凡例で紹介してから使う。
-- 矢印の意味：矢印は使わない。コマ2は2つのカードを縦の仕切り線で分ける。
-- 配色：コマ2は印を付けない。コマ3は左（定めがなくても払う義務があり、額は裁判所が定める）＝赤✕1つ、右（定めがなければ義務は生じない）＝青✓1つ。コマ1・2は印を付けない。
-- 記事の範囲：地代は設定契約で定めがあって初めて発生する／特段の定めがなければ地代の支払義務はない／無償の地上権もある／裁判所が地代の額を定める制度もない／賃貸借は有償が前提／親族の好意の例のみ。
+- タイプ：E 原則・例外型に近い（刑に執行猶予が付いた場合の扱い）。コマの使い方：コマ1＝small（事案図を大きく）、コマ2＝none（判断の順序の図だけ）、コマ3＝faces（顔アイコンの会話＋勘違い⇔正しい整理のカード）、コマ4＝両方。
+- ①問いの事案：土地家屋調査士が、禁錮以上の刑に処せられた。その刑の全部の執行が猶予されている。連合会は、登録を取り消せないのか。
+- ②出題者のねらい：執行猶予が付いても、欠格事由に当たるかを見分けさせる。
+- ③ひっかけ：問題文の「その刑の全部の執行が猶予されている」という書き方に引かれて、刑が実際には執行されないなら取消しを免れると思わせる。
+- ④勘違い・理解を誤るポイント：執行猶予が付いていれば、登録は取り消されない。
+- ⑤正しい整理：拘禁刑以上の刑に執行猶予が付された場合も欠格事由（法5条1号）に当たり、連合会は登録を取り消さなければならない（法15条1項4号）。「取り消すことができない」という記述は誤り。記事の具体例：調査士が拘禁刑に処せられ、その執行が猶予されていても、連合会はその登録を取り消さなければならない。
+- 出題当時の扱い：問題文は平成30年当時の「禁錮以上の刑」。令和4年の刑法改正で懲役と禁錮が拘禁刑に一本化され（令和7年6月1日施行・施行済み）、土地家屋調査士法5条1号も「拘禁刑」に改められた。結論は変わらない。図には小さな注記の帯で出す。
+- 登場人物：当事者の記号は使わない。「調査士」と「連合会」を文字ラベルの人型タグで、コマ1で紹介してから使う。
+- 矢印の意味：矢印は使わない。コマ2は番号つきのカードを縦に並べる。
+- 配色：コマ2は印を付けない。コマ3は左（執行猶予なら取り消されない）＝赤✕1つ、右（取り消さなければならない）＝青✓1つ。コマ1・2は印を付けない。
+- 記事の範囲：欠格事由（法5条1号）／登録の取消し（法15条1項4号）／執行猶予が付いても欠格事由に当たる／取り消さなければならない／令和4年改正の拘禁刑／調査士が拘禁刑に処せられた例のみ。
 
 ## 記事タイトル
 
-【土地家屋調査士受験生向け】4コマ解説図解D0419～H21-Q02エ～
+【土地家屋調査士受験生向け】4コマ解説図解D1411～H30-Q20エ～
 
 ## note記事の冒頭文
 
-設定契約で地代について何も定めずに、地上権が設定されました。この場合でも、地上権者は土地の所有者に地代を支払う義務を負うのでしょうか。
+土地家屋調査士が禁錮以上の刑に処せられましたが、その刑の全部の執行が猶予されています。この場合、連合会は、その調査士の登録を取り消すことができないのでしょうか。
 
-択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（平成21年度　第2問　エ）。
+択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（平成30年度　第20問　エ）。
 
 先に〇か×かを考えてから、読み進めてみてください。
 
@@ -33,26 +34,27 @@
 
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
-| タイトル帯 | — | 地上権に、地代の支払義務は当然にはない | 「地代の支払義務は当然にはない」を黄色マーカー |
+| タイトル帯 | — | 執行猶予が付いても、登録は取り消される | 「登録は取り消される」を黄色マーカー |
 | コマ1 見出し | ラベル | ①　問いの事案 | — |
-| コマ1 図 | 図・カード | 土地 / 地上権 / 地上権者 / 土地の所有者 / 設定契約で地代の定めがない / 地代の支払義務はある？ | — |
-| コマ1 | 藍子（左・先に話す） | 土地を使うなら、地代は払いますよね？ | — |
-| コマ1 | トリ先生（右・答える） | 出たわね。賃貸借のイメージでしょ | 「賃貸借のイメージ」 |
+| コマ1 図 | 図・カード | 調査士 / 登録を受けている / 連合会 / 登録の取消しをする / 禁錮以上の刑に処せられた。その刑の全部の執行が猶予されている / 連合会は、登録を取り消せない？ | — |
+| コマ1 | 藍子（左・先に話す） | 執行猶予なら、資格は守られますよね？ | — |
+| コマ1 | トリ先生（右・答える） | 出たわね。猶予でも欠格事由なのよ | 「猶予でも欠格事由」 |
 | コマ2 見出し | ラベル | ②　出題者のねらい | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 地上権を、賃貸借のイメージで考えていないか / 賃貸借 / 有償であることが前提 / 地上権 / 地代は、設定契約で定めがあって初めて発生する / 無償の地上権もある。地代の額を裁判所が定める制度もない | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 執行猶予が付いても、欠格事由に当たるか / 刑に処せられる / 拘禁刑以上の刑に処せられた / 執行猶予が付いても / 欠格事由に当たる（法5条1号） / 欠格事由に当たる / 連合会は / 登録を取り消さなければならない（法15条1項4号） | — |
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
-| コマ3 図 | 図・カード | よくある勘違い / 定めがなくても地代の支払義務があり、額は裁判所が定める / ひっかけ：特段の定めがない場合であっても、という言い方 / 正しい整理 / 定めがなければ、地代の支払義務は生じない。裁判所が額を定める制度もない / たとえば：親族の好意で無償の地上権を設定してもらい、地代を決めていなければ、後から当然には地代を請求されない | — |
-| コマ3 | 藍子（左・1番目） | 定めがなくても、払う義務はありますよね？ | — |
-| コマ3 | トリ先生（右・2番目） | 地代は、定めがあって初めて発生するの | 「定めがあって初めて」 |
-| コマ3 | 藍子（左・3番目） | 額は、裁判所が決めてくれませんか？ | — |
-| コマ3 | トリ先生（右・4番目） | そういう制度は、ないのよ | 「制度は、ない」 |
+| コマ3 図 | 図・カード | よくある勘違い / 執行猶予が付いていれば、登録は取り消されない / ひっかけ：刑の全部の執行が猶予されている、という書き方 / 正しい整理 / 執行猶予中も欠格事由に当たり、連合会は登録を取り消さなければならない / たとえば：調査士が拘禁刑に処せられ、その執行が猶予されていても、連合会はその登録を取り消さなければならない | — |
+| コマ3 | 藍子（左・1番目） | 猶予がつけば、取消しは免れますよね？ | — |
+| コマ3 | トリ先生（右・2番目） | 免れないわ。欠格事由が残っているの | 「欠格事由が残っている」 |
+| コマ3 | 藍子（左・3番目） | 取り消すのは、義務なんですか？ | — |
+| コマ3 | トリ先生（右・4番目） | ええ。取り消さなければならないのよ | 「取り消さなければならない」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
-| コマ4 | 藍子（左・先に話す） | 地代の支払義務を負う、は誤りなんですね！ | — |
-| コマ4 | トリ先生（右・答える） | そのとおり。地代は定めがあって初めて発生するのよ | 「定めがあって初めて」 |
-| コマ4 チェック欄 | 3項目（青✓） | 地代は、設定契約で定めて初めて発生する / 定めがなければ、地上権者に地代の支払義務はない / 地代の額を裁判所が定める制度はない | — |
-| 結論帯 | 1行目 | 地上権の地代は、設定契約で定めて初めて発生する | 黄色マーカー |
-| 結論帯 | 2行目 | 問題D0419　正解×（H21-Q02エ） | — |
+| コマ4 | 藍子（左・先に話す） | 取り消すことができない、は誤りなんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。猶予が付いても取り消すのよ | 「猶予が付いても」 |
+| コマ4 チェック欄 | 3項目（青✓） | 執行猶予が付いても、欠格事由（法5条1号）に当たる / 欠格事由に当たれば、連合会は登録を取り消さなければならない（法15条1項4号） / 取り消すことができない、という記述は× | — |
+| 注記 | 小さな注記（コマ4の下） | 出題当時は禁錮以上の刑。令和7年6月1日から、刑は拘禁刑に一本化されています | — |
+| 結論帯 | 1行目 | 執行猶予が付いても欠格事由に当たり、登録は取り消される | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D1411　正解×（H30-Q20エ） | — |
 
 ## プロンプト本体
 
@@ -76,61 +78,64 @@ CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than 
 LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Title banner (about 190 px tall).
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
-- Conclusion banner at the bottom (about 110 px tall).
+- Conclusion banner at the bottom (about 110 px tall). Between panel 4 and the conclusion banner, a thin one-line note strip (about 50 px tall) with small text, as given in the NOTE LINE below.
 
-TITLE BANNER: text 「地上権に、地代の支払義務は当然にはない」 in large bold letters; the part 「地代の支払義務は当然にはない」 has a yellow highlighter marker.
+TITLE BANNER: text 「執行猶予が付いても、登録は取り消される」 in large bold letters; the part 「登録は取り消される」 has a yellow highlighter marker.
 
 PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
-- A large relation diagram fills the panel: a flat plot-of-land block labeled 「土地」 carrying a dark navy ribbon with white text 「地上権」 (the same dark navy ribbon in every panel).
-- Beside the land, two faceless pictogram tags in the same light gray-blue color with dark navy tags: 「地上権者」 and 「土地の所有者」.
-- A plain white label with a dark navy outline reads 「設定契約で地代の定めがない」, and a small question badge 「地代の支払義務はある？」 sits above the land (a question badge only, with no check mark and no cross).
-- 藍子 bubble (left, spoken first): 「土地を使うなら、
-地代は払いますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A large relation diagram fills the panel: two faceless pictogram tags in the same light gray-blue color with dark navy tags: 「調査士」 (small label 「登録を受けている」) and 「連合会」 (small label 「登録の取消しをする」).
+- Beside the 調査士 tag, a white card with a dark navy outline reads 「禁錮以上の刑に処せられた。その刑の全部の執行が猶予されている」.
+- A small question badge 「連合会は、登録を取り消せない？」 sits at the top (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「執行猶予なら、
+資格は守られますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。
-賃貸借のイメージでしょ」 with the part 「賃貸借のイメージ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+猶予でも欠格事由
+なのよ」 with the part 「猶予でも欠格事由」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
 - Label tab: 「②　出題者のねらい」
-- A full-width concept diagram fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「地上権を、賃貸借のイメージで考えていないか」.
-- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, separated by a tall plain dark navy divider line (no arrow). Left card, heading 「賃貸借」, body 「有償であることが前提」. Right card, heading 「地上権」, body 「地代は、設定契約で定めがあって初めて発生する」.
-- At the bottom, one wide dark navy band with white text 「無償の地上権もある。地代の額を裁判所が定める制度もない」.
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「執行猶予が付いても、欠格事由に当たるか」.
+- Three numbered cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no marks. Card 1, heading 「刑に処せられる」, body 「拘禁刑以上の刑に処せられた」. Card 2, heading 「執行猶予が付いても」, body 「欠格事由に当たる（法5条1号）」, with the part 「欠格事由に当たる」 in a yellow highlighter marker. Card 3, heading 「連合会は」, body 「登録を取り消さなければならない（法15条1項4号）」.
 - There is no check mark and no cross anywhere in this panel.
 
 PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
 - Label tab: 「③　ひっかけと勘違い」
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side, with a wide example strip under them.
-- Left card, heading 「よくある勘違い」, body 「定めがなくても地代の支払義務があり、額は裁判所が定める」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：特段の定めがない場合であっても、という言い方」.
-- Right card, heading 「正しい整理」, body 「定めがなければ、地代の支払義務は生じない。裁判所が額を定める制度もない」, with ONE blue check mark only (no cross on this card).
-- Example strip under the two cards: 「たとえば：親族の好意で無償の地上権を設定してもらい、地代を決めていなければ、後から当然には地代を請求されない」.
+- Left card, heading 「よくある勘違い」, body 「執行猶予が付いていれば、登録は取り消されない」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：刑の全部の執行が猶予されている、という書き方」.
+- Right card, heading 「正しい整理」, body 「執行猶予中も欠格事由に当たり、連合会は登録を取り消さなければならない」, with ONE blue check mark only (no cross on this card).
+- Example strip under the two cards: 「たとえば：調査士が拘禁刑に処せられ、その執行が猶予されていても、連合会はその登録を取り消さなければならない」.
 - The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, rally 1 of 4): 「定めがなくても、
-払う義務はありますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, rally 2 of 4): 「地代は、定めが
-あって初めて発生するの」 with the part 「定めがあって初めて」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, rally 3 of 4): 「額は、裁判所が
-決めてくれませんか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, rally 4 of 4): 「そういう制度は、
-ないのよ」 with the part 「制度は、ない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 1 of 4): 「猶予がつけば、
+取消しは免れますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「免れないわ。
+欠格事由が残って
+いるの」 with the part 「欠格事由が残っている」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「取り消すのは、
+義務なんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「ええ。取り消さなければ
+ならないのよ」 with the part 「取り消さなければならない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
-- 藍子 bubble (left, spoken first): 「地代の支払義務を
-負う、は
+- 藍子 bubble (left, spoken first): 「取り消すことが
+できない、は
 誤りなんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。
-地代は定めがあって
-初めて発生するのよ」 with the part 「定めがあって初めて」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「地代は、設定契約で定めて初めて発生する」, 「定めがなければ、地上権者に地代の支払義務はない」, 「地代の額を裁判所が定める制度はない」.
+猶予が付いても
+取り消すのよ」 with the part 「猶予が付いても」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「執行猶予が付いても、欠格事由（法5条1号）に当たる」, 「欠格事由に当たれば、連合会は登録を取り消さなければならない（法15条1項4号）」, 「取り消すことができない、という記述は×」.
+
+NOTE LINE (small text on a thin strip between panel 4 and the conclusion banner, one line, fully legible): 「出題当時は禁錮以上の刑。令和7年6月1日から、刑は拘禁刑に一本化されています」
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
-- Line 1: 「地上権の地代は、設定契約で定めて初めて発生する」 with a yellow highlighter marker.
-- Line 2: 「問題D0419　正解×（H21-Q02エ）」
+- Line 1: 「執行猶予が付いても欠格事由に当たり、登録は取り消される」 with a yellow highlighter marker.
+- Line 2: 「問題D1411　正解×（H30-Q20エ）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 初, 地, 当, 所, 権, 無, 解, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 当, 登, 解, 記, 違, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -141,9 +146,9 @@ noteの見出し画像（アイキャッチ）用です。トリ先生と藍子�
 
 | 領域 | 正確な文言 | 強調 |
 |---|---|---|
-| タイトル1行目 | 地上権に地代の定めがないと | 薄い黄色のマーカー |
-| タイトル2行目 | 地代の支払義務はある？ | 「支払義務はある？」を赤みのあるオレンジ |
-| サブタイトル | 4コマ解説図解　D0419　H21-Q02エ | — |
+| タイトル1行目 | 調査士が執行猶予つきの刑 | 薄い黄色のマーカー |
+| タイトル2行目 | 登録は取り消される？ | 「取り消される？」を赤みのあるオレンジ |
+| サブタイトル | 4コマ解説図解　D1411　H30-Q20エ | — |
 
 ### 見出し画像プロンプト本体
 
@@ -161,20 +166,20 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
 TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
-地上権に地代の定めがないと
-Line 2 is larger; the phrase 支払義務はある？ is red-orange and the rest is dark navy:
-地代の支払義務はある？
+調査士が執行猶予つきの刑
+Line 2 is larger; the phrase 取り消される？ is red-orange and the rest is dark navy:
+登録は取り消される？
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-4コマ解説図解　D0419　H21-Q02エ
+4コマ解説図解　D1411　H30-Q20エ
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
 TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the characters):
-Left side: a plot of land with a small house and an empty signpost board
-Right side: a blank contract sheet and a small coin purse with no coins
+Left side: a judge's gavel and a rolled court scroll with no writing
+Right side: a registry book with a blank ID card and a rubber stamp
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the characters and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 上, 権, 代, 定, 支, 払, 義, 務, 解, 説, 図; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 調, 査, 士, 執, 行, 猶, 予, 刑, 登, 録, 取, 消, 解, 説, 図; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ### 見出し画像の検品
@@ -189,17 +194,17 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 | 画像 | ファイル名 |
 |---|---|
-| 4コマ解説図解（本文用・採用版） | 4コマ解説図解D0419～H21-Q02エ～.png |
-| 見出し画像（採用版） | 4コマ解説図解D0419～H21-Q02エ～_見出し.png |
-| 途中の版・不採用の版（例：v01） | 4コマ解説図解D0419～H21-Q02エ～_v01.png ／ 4コマ解説図解D0419～H21-Q02エ～_見出し_v01.png |
+| 4コマ解説図解（本文用・採用版） | 4コマ解説図解D1411～H30-Q20エ～.png |
+| 見出し画像（採用版） | 4コマ解説図解D1411～H30-Q20エ～_見出し.png |
+| 途中の版・不採用の版（例：v01） | 4コマ解説図解D1411～H30-Q20エ～_v01.png ／ 4コマ解説図解D1411～H30-Q20エ～_見出し_v01.png |
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
-- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0419_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1の「地上権者」「土地の所有者」がコマ2・3の文言と対応している
+- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D1411_prompt.md` が NG 0件
+- [ ] 工程C：初見の読者：コマ1の「調査士」「連合会」と、コマ2の順序、コマ3の左右のカードが対応している
 - [ ] 工程C：5点が、コマ1の事案図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
-- [ ] 工程C：構成表の全文言を記事（H21-Q02エ）と突き合わせ：「設定契約で定めがあって初めて発生」「無償の地上権」「裁判所が定める制度もない」「賃貸借は有償が前提」
-- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（支払義務を負い裁判所が額を定めるという記述が誤り）
+- [ ] 工程C：構成表の全文言を記事（H30-Q20エ）と突き合わせ：「執行猶予が付された場合も欠格事由」「法5条1号」「法15条1項4号」「取り消さなければならない」「拘禁刑」
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（取り消すことができない、という記述が誤り）
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -213,9 +218,8 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
 - [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
-## v01：新規作成（2026-10-09）。一問一答で未習得（？）が2回連続になった肢。構成表の組み方（パターン集C 概念の区別型）と一発合格のための作成ルールに沿って設計した。ChatGPTでの画像生成・検品はまだ。
+## v01：新規作成（2026-10-09）。一問一答で誤解が3回になった肢（4コマ未作成）。出題当時の禁錮と現行の拘禁刑の違いは、小さな注記の帯に書いた。ChatGPTでの画像生成・検品はまだ。
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
-- 2026-10-09 v01：コマ3の印の向きを opposite="lx"（左✕・右✓）に統一（規則書の採用見本D0314 v02に合わせた）
