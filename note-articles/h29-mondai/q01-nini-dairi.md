@@ -150,10 +150,10 @@
 - **ア（誤）** 契約不適合責任は買主の善意が要件ではなく、悪意だけで失権しない。知った時から1年以内の通知で追及できるのが基本
 - **イ（誤）** 表見代理の成立には基本代理権が必要。代理権皆無なら不成立
 - **ウ（誤）** 未成年者も代理人になれるが、その代理行為を法定代理人は取り消せない
-- **エ（誤）** 復代理人選任の免責規定（旧105条）は削除済み。善管注意義務違反があれば責任を負う
+- **エ（誤）** 復代理人の選任・監督についての責任を定めていた旧105条は削除済み。善管注意義務違反があれば責任を負う
 - **オ（正）** 相手方が取り消した後は、本人はもはや追認できない
 
-代理は「本人・代理人・相手方」の三者関係の中で、誰を基準に判断し、誰を保護するのかを常に意識するのがこの分野を得点源にするコツです。特にエのように、かつて条文に明記されていた責任軽減規定が削除され、現在は一般原則で判断する分野に変わった論点もあるので注意しましょう。
+代理は「本人・代理人・相手方」の三者関係の中で、誰を基準に判断し、誰を保護するのかを常に意識するのがこの分野を得点源にするコツです。特にエのように、かつて条文に明記されていた復代理人の選任・監督についての責任の特別規定（旧105条）が削除され、現在は一般原則で判断する分野に変わった論点もあるので注意しましょう。
 
 **正解：オ（選択肢5番）**
 
@@ -182,7 +182,7 @@
 - 代理人が知ってても、契約不適合責任は追及できるんです
 - 代理権ゼロなら、表見代理も成立しないって知ってた？
 - 未成年者の代理行為、親でも取り消せないんです
-- 「本人の許諾があれば免責」の条文、実はもうないんです
+- 復代理人の選任・監督の特別規定、実はもうないんです
 - 相手が先に取り消したら、もう追認はできないんです
 
 ---
@@ -281,7 +281,7 @@ Caption (small text below):
 
 --- COLUMN B, CARD 1 ---
 Heading (bold):
-復代理人選任の免責規定は、実は削除されている
+復代理人選任の特別規定は、実は削除されている
 Illustration: An isometric scene showing an old law-book icon labeled
 "旧105条" being crossed out and removed, while a "代理人" person figure
 selects a "復代理人" figure and a separate document labeled "委任契約
@@ -289,7 +289,7 @@ selects a "復代理人" figure and a separate document labeled "委任契約
 responsibility, with a thin chain-link icon still connecting the 代理人
 and 復代理人 figures.
 Caption (small text below):
-旧105条(免責規定)は削除済み。
+旧105条(選任・監督の特別規定)は削除済み。
 現在は善管注意義務で判断する(644条)。
 
 --- COLUMN B, CARD 2 ---
@@ -634,16 +634,16 @@ characters):
 --- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
-許諾があっても免責規定はもう無い
+許諾があっても責任は残る
 Diagram: An isometric scene showing an old law-book icon labeled "旧105
 条" being crossed out and removed, while a "代理人" person figure selects
 a "復代理人" figure and a separate document labeled "委任契約(644条 善管
 注意義務)" glows beside them as the new source of responsibility, with a
 thin chain-link icon still connecting the 代理人 and 復代理人 figures.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、本人の許諾を得て復代理人を選任すれば選任・監督の責任が軽減されると
-いう規定(旧105条)が、現行法でもまだ存在するかを確認します。この規定はす
-でに削除されているため、選任・監督に落ち度があれば、委任契約上の善管注意
+まず、復代理人を選任した代理人の選任・監督の責任について定めていた特別規
+定(旧105条)が、現行法でもまだ存在するかを確認します。この規定はすでに
+削除されているため、選任・監督に落ち度があれば、委任契約上の善管注意
 義務(644条)に基づいて代理人は責任を負うことがあります。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
