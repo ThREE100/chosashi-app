@@ -43,6 +43,7 @@ description: 択一式の一問一答ドリル（〇×？の3択）を出題・�
 - 指摘が出た肢は `answer`・`explain` が自動で **`#article-fix`** タグを付ける。「🏷 自動タグ付け」と出たら一言伝える。一覧：`drill.py tags article-fix`。
 - 【条文照合】に指摘が出たときだけ、問題点・原文・訂正案（提案）を伝える。`unverified` は「誤り」と言い換えない。判定（バンクの値）は変えない。
 - 「照合のあとにmainで更新されています」の警告は再照合が必要という意味。再照合したら `merge_checks.py` を再実行する。
+- 自動で付いた `#article-fix` は、指摘がすべて処理済み（`article_checks.json` の `resolved`）になると、`start` と `tags article-fix` の実行時に自動で解除される（別セッションの古い記録の取り込みでタグが戻るのを防ぐ。2026-10-08）。手動で付けたタグ（メモが【自動】で始まらないもの）は自動では解除されないので、記事を直したら `untag` する。
 
 ## 4. 編集・push の権限
 - **`note-articles/` の記事は、ユーザーの明示の指示があるときだけ編集する**（指摘と訂正案の提示まで。`#article-fix` は後で一括修正）。記事を直したら、`tools/drill/work/article_check_*.json` の該当指摘を外して `merge_checks.py` を再実行し、`#article-fix` を `untag` する。

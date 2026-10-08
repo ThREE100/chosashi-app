@@ -46,3 +46,4 @@ R7〜H17の択一式420問（問1〜3 民法／問4〜19 不動産登記法／�
 - **条文照合の自動タグ**：指摘のある肢に `#article-fix` を自動付与（`tags article-fix`）。記事の修正はユーザー指示があったときだけ。修正後は照合JSONから指摘を外し `merge_checks.py` を再実行。
 - **mainに自動反映されるもの／されないもの**：解説の引用は常にorigin/mainの最新。バンクの問題文・正誤、`article_checks.json`、タグ、`analysis/` は自動更新されない。
 - 苦手分析の材料JSONは `analysis/` に出力（例：`nigate-top3-2026-10-05/`）。
+- **article-fix の自動解除（2026-10-08）**：自動タグの肢は、`article_checks.json` の該当指摘がすべて `resolved` になると、`start`・`tags article-fix` の実行時に解除される。手動タグは `untag` で外す。

@@ -189,6 +189,9 @@ def cmd_start(a):
         print(f'  {s}: {by.get(s, 0)}/{n}')
     if logs:
         print('直近の記録: ' + logs[-1]['t'][:16])
+    rm = prune_resolved_article_fix()
+    if rm:
+        print(f'🏷 処理済みの条文照合タグ（#article-fix）を {len(rm)}肢 解除しました: ' + '、'.join(rm))
 
 
 def read_focus():
@@ -463,6 +466,31 @@ def auto_tag_article_fix(item_id, note_path, label, fs):
         print(f'（自動タグ付けに失敗: {e}）')
 
 
+def prune_resolved_article_fix():
+    """自動で付けた #article-fix のうち、指摘がすべて処理済み（resolved）になったものを解除する。
+    別セッションの古い記録を取り込んだときなどに、処理済みの肢へタグが戻るのを防ぐ。手動で付けたタグ（【自動】でないもの）は触らない。"""
+    try:
+        ck = load_checks()
+        open_f = [f for f in ck.get('findings', []) if not f.get('resolved')]
+        removed = []
+        for t in read_tags():
+            if t['tag'] != 'article-fix' or not t.get('note', '').startswith('【自動】'):
+                continue
+            m = re.match(r'【自動】(\S+?) (\S*?): ', t['note'])
+            if not m:
+                continue
+            base, label = m.group(1), re.sub(r'[正誤]$', '', m.group(2))
+            if any(f['note_path'].endswith('/' + base) and f['label'] in (label, '') for f in open_f):
+                continue
+            with open(TAGS, 'a', encoding='utf-8') as fh:
+                fh.write(json.dumps({'t': now().isoformat(timespec='seconds'), 'id': t['id'], 'tag': 'article-fix', 'removed': True}, ensure_ascii=False) + '\n')
+            removed.append(t['id'])
+        return removed
+    except Exception as e:  # 解除の失敗で処理を止めない
+        print(f'（article-fix の整理に失敗: {e}）')
+        return []
+
+
 def print_explanation(it, limit=1):
     srcs = it.get('sources', [])
     print('【記事の解説（note-articles／mainから引用。独自の解説ではありません）】')
@@ -669,6 +697,8 @@ def cmd_tags(a):
     """タグ付けした肢を一括で呼び出す。タグ名を省略すると、タグごとの件数を表示。"""
     ensure_log_branch()
     bank = load_bank()
+    if a.tag in (None, 'article-fix'):
+        prune_resolved_article_fix()
     tags = read_tags()
     if not a.tag:
         c = collections.Counter(t['tag'] for t in tags)
