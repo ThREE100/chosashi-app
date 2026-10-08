@@ -1196,8 +1196,8 @@ SPECS["D1315"] = dict(
     rev=["2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）",
          "2026-10-09 v01：コマ3の印の向きを opposite=\"lx\"（左✕・右✓）に統一（規則書の採用見本D0314 v02に合わせた）"])
 
-SPECS["D0314-B案"] = dict(
-    ippatsu=True, fid="D0314-B案", fsuffix="_B案",
+SPECS["D0314-B"] = dict(
+    ippatsu=True, fid="D0314-B", fsuffix="_B案",
     id="D0314", topic="民法／用益権・担保物権", src="H20-Q01イ", truth="×（誤った記述）", miscon="未習得2回（？が2回連続）",
     article="note-articles/h20-mondai/q01-fudousan-shichi.md", art_head="イ「不動産質でも、設定者の承諾なく転質ができる」（B案：しくみの図解と、間違えないための押さえどころで組む）",
     letters="ＡＢＣ",
@@ -1248,7 +1248,8 @@ SPECS["D0314-B案"] = dict(
     band1="転質は承諾いらず。そのかわり責任は重い", band2="問題D0314　正解×（H20-Q01イ）",
     ver="B案v01",
     qa=["B案v01：新規作成（2026-10-09）。A案の画像を見たユーザーから「不動産質権・転質のしくみが分かりにくい。『ひっかけと勘違い』を使うことにこだわらず、この問題をもう間違えないために押さえるところが伝わる構成にしてほしい」との指示を受けて作成。定型（事案→ねらい→ひっかけ・勘違い→結論）を外し、しくみの図解→承諾と責任のセット→本番での読み方3ステップ→暗記3点、で組んだ。ChatGPTでの画像生成・検品はまだ（ユーザーが試作する）。"],
-    rev=["2026-10-09 B案v01：初版（D0314のA案と別パターンの構成表・プロンプト本体2）"])
+    rev=["2026-10-09 B案v01：初版（D0314のA案と別パターンの構成表・プロンプト本体2）",
+         "2026-10-09 ユーザーがB案を採用。試作B（旧D0314-B_prompt.md）を廃止し、B案の構成表・プロンプトを D0314-B_prompt.md に一本化（キーをD0314-Bに改名。画像名の接尾辞は _B案 のまま）"])
 
 SPECS["D1366"] = dict(
     ippatsu=True,
@@ -1565,7 +1566,7 @@ HEADERS.update({
  "D1796": dict(h1="規約で敷地になったとき", h2="いつまでに誰が申請？", hkey="いつまでに誰が申請？",
    scene_l="a condominium building next to a parking lot with white lines and no cars",
    scene_r="a blank calendar page, an hourglass, and a rubber stamp"),
- "D0314-B案": dict(h1="不動産質の質権者が転質", h2="設定者の承諾は要る？", hkey="承諾は要る？",
+ "D0314-B": dict(h1="不動産質の質権者が転質", h2="設定者の承諾は要る？", hkey="承諾は要る？",
    scene_l="a small villa house with a plain ribbon tag and a faceless silhouette beside it",
    scene_r="two blank document sheets passing from one hand to another hand"),
  "D0313": dict(h1="質権者に一部だけ返済すると", h2="質権は縮む？", hkey="縮む？",
@@ -1681,57 +1682,3 @@ D0520_BREAKS = {
  '取消し前のＢには、Ａは所有権を主張できるんですね！': '取消し前のＢには、\nＡは所有権を\n主張できるんですね！',
  'そのとおり。取消し前に現れた善意の買主にも対抗できるのよ': 'そのとおり。\n取消し前に現れた善意の\n買主にも対抗できるのよ',
 }
-
-
-# ---- D0314 別パターンB（押さえどころ型。2026-10-09 ユーザー指示：「ひっかけと勘違い」のコマを使わず、もう間違えないための押さえどころを伝える構成） ----
-SPECS["D0314-B"] = dict(
-    ippatsu=True,
-    extra_refs=["民法356条"],   # 同じ記事の肢ウ（不動産質権者の使用・収益）に書いてあるが、肢イの解説（drill.py explain D0314）には出ないため、照合の例外として記録する
-    header=dict(h1="不動産質の質権者が転質", h2="どこを押さえれば間違えない？", hkey="間違えない？",
-                scene_l="a small villa house with a plain ribbon tag and a faceless silhouette beside it",
-                scene_r="two blank document sheets passing from one hand to another hand"),
-    id="D0314", topic="民法／用益権・担保物権", src="H20-Q01イ", truth="×（誤った記述）", miscon="未習得2回（？が2回連続）",
-    article="note-articles/h20-mondai/q01-fudousan-shichi.md", art_head="イ「不動産質でも、設定者の承諾なく転質ができる」（冒頭の説明と肢ウも使う）",
-    letters="ＡＢＣ",
-    design=["タイプ：G 押さえどころ型（もう間違えないための3点を、質権の基本→転質の仕組み→同じ型の肢→暗記3点の順で見せる）。D0314 v02（事案→説明→ひっかけと勘違い→結論）とは別パターン。コマの使い方：コマ1＝aiko（質権の姿の比較図を大きく）、コマ2＝none（お金の流れ図）、コマ3＝tori（同じ型の肢イ・ウを並べる）、コマ4＝両方。",
-            "ユーザーの困りごと：不動産質権・転質の理解が難しい。そのため、①質権は占有を質権者に移す（抵当権との違い。記事冒頭）、②転質は質権者Ｂがお金を借りる話でＡは関係しない（記事の具体例）、③同じ問のウ（使用・収益）も承諾なしでできる、の3段階で理解できる図にする。",
-            "①問いの事案：Ａの別荘にＢが質権を持ち、Ｂが自分がＣからお金を借りるために、その質権を担保に使う（転質）。",
-            "②出題者のねらい：転質に、設定者の承諾は要るか（コマ2のタグ）。",
-            "③ひっかけ：肢イもウも「設定者の承諾を得なければ、…できない」という同じ言い方で、どちらも誤り（コマ3のリボン。記事の問題文）。",
-            "④勘違い：転質も設定者の承諾が要る（コマ1の藍子の台詞）。",
-            "⑤正しい整理（暗記3点）：不動産質権は占有を質権者に移す／転質は自己の責任でできて承諾は不要（民法348条）／損失は不可抗力まで質権者の責任（コマ4）。",
-            "登場人物：Ａ（設定者）・Ｂ（質権者）・Ｃ（Ｂにお金を貸す人）をコマ1で人型タグ付きで左から順に紹介し、コマ2でも同じタグを使う。",
-            "線の意味：矢印は使わず、矢印のない細い線とラベルで関係を見せる。コマ1の比較図・コマ3のカードは印を付けない。青✓はコマ4のチェック3点だけ。",
-            "記事の範囲：不動産質権は占有を質権者に移す（抵当権は移さない）／質権者は使用・収益ができる（民法356条）／転質（責任転質、民法348条）／設定者の承諾は不要／転質の損失は不可抗力まで質権者が責任を負う。独自の理由づけは足さない。"],
-    review=["初見の読者：コマ1で質権の姿、コマ2で転質のお金の流れ、コマ3で同じ型の肢（イ・ウ）、コマ4で暗記3点が分かり、「次に同じ問が出たらどこを見るか」が言える",
-            "5点が、コマ1の藍子の台詞（勘違い）、コマ2の「出題者のねらい」タグと流れ図（事案）、コマ3の「ひっかけ」リボン、コマ4のチェック3点（正しい整理）として読み取れる",
-            "構成表の全文言を記事（H20-Q01の冒頭の説明・イ・ウ）と突き合わせ：占有を移す／使って収益／民法348条／民法356条／自己の責任で／不可抗力によるものまで",
-            "コマの使い方が隣り合うコマで同じにならない（aiko→none→tori→両方）。コマ3を「ひっかけと勘違い」の比較カードにしていない"],
-    lead1="不動産質権を持つ質権者が、その不動産についてさらに転質をしたいと考えています。転質をするには、設定者の承諾を得なければならないのでしょうか。",
-    title="転質は、承諾なしでできる", title_hl="承諾なし",
-    panels=[
-        dict(label="①　まず、不動産質権の姿", chars="aiko", mood="curious, calm mood",
-             bubbles=[("藍子", "転質も、設定者の承諾が要りますよね？", None, "転質も、設定者の\n承諾が要りますよね？")],
-             fig=["A large comparison diagram fills the panel: two columns side by side in the same light gray with dark navy outlines and no marks. Left column: heading 「抵当権」, body 「占有を移さない」. Right column: heading 「不動産質権」, body 「占有を質権者に移す」, with a small yellow tag 「使って収益もできる」.",
-                  "Under the two columns, a row, laid out ONE row from left to right, of three small faceless flat pictogram figures in the same light gray-blue color, each with a small dark navy round tag and a short label: 「Ａ」 (label 「設定者」), 「Ｂ」 (label 「質権者」), 「Ｃ」 (label 「Ｂにお金を貸す人」).",
-                  "A small question badge 「Ｂが転質するのに、Ａの承諾は要る？」 sits at the top (a question badge only, with no check mark and no cross). Draw no question-mark icon, exclamation icon, or any other symbol anywhere else in the panel."]),
-        dict(label="②　転質は、Ｂがお金を借りる話", chars="none", mood="explanatory, steady mood",
-             bubbles=[],
-             fig=["A full-width flow diagram fills the panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「転質に、設定者の承諾は要るか」.",
-                  "Laid out ONE row from left to right: at the far left the pictogram 「Ａ」 (label 「設定者」) inside a dashed frame with the small note 「Ａに断らなくてよい」; in the middle the pictogram 「Ｂ」 (label 「質権者」) beside one flat house icon labeled 「Ａの別荘」 that carries a dark navy ribbon with white text 「Ｂの質権」; at the far right the pictogram 「Ｃ」 (label 「Ｂにお金を貸す人」).",
-                  "Between Ｂ and Ｃ run two plain thin dark navy lines (no arrowheads), one with the small label 「お金を借りる」 and one with the small label 「Ｂの質権を担保に使う」.",
-                  "At the bottom, one wide dark navy band with white text 「質権の存続期間内に、自己の責任で、質物にさらに質権を設定する　＝　転質（責任転質、民法348条）」."]),
-        dict(label="③　承諾が要らないのは、転質だけではない", chars="tori", mood="explanatory, steady mood",
-             bubbles=[("トリ先生", "イもウも、承諾なしでできるのよ", "承諾なし", "イもウも、\n承諾なしでできるのよ")],
-             fig=["Two cards side by side in the same light gray with dark navy outlines and no marks. Left card: heading 「肢イ　転質」, small tag 「民法348条」, body 「質物にさらに質権を設定できる」. Right card: heading 「肢ウ　使用・収益」, small tag 「民法356条」, body 「用法に従って使い、収益を得られる」. Each card carries the same small yellow tag 「承諾なしでできる」.",
-                  "Under the two cards, one wide dark navy ribbon with large white text 「ひっかけ：イもウも、承諾を得なければ、という言い方」.",
-                  "The two cards have clearly different texts; the texts are NOT identical."]),
-        dict(label="④　もう間違えない3つの押さえどころ",
-             bubbles=[("藍子", "承諾が要る、という記述は、誤りなんですね！", None, "承諾が要る、という\n記述は、\n誤りなんですね！"),
-                      ("トリ先生", "そう。転質は承諾なしでできるのよ", "承諾なしで", "そう。転質は\n承諾なしで\nできるのよ")],
-             fig=[], checklist=["不動産質権は、占有を質権者に移す", "転質は、自己の責任でできる。承諾は不要（民法348条）", "転質の損失は、不可抗力まで質権者が責任を負う"]),
-    ],
-    band1="転質に、設定者の承諾は要らない", band2="問題D0314　正解×（H20-Q01イ）",
-    ver="試作B",
-    qa=["試作B（2026-10-09）：D0314 v02が「ひっかけと勘違い」のコマ3を使う定型だったのに対し、ユーザー指示で、不動産質権・転質の理解を助ける『押さえどころ型』の別パターンとして作成。記事冒頭の説明（占有を移す・抵当権との違い）と肢ウ（使用・収益）を使う（同じ記事の範囲）。独自の理由づけは足していない。ChatGPTでの生成・検品はまだ。"],
-    rev=["2026-10-09 試作B：初版（コマ3をひっかけと勘違いにせず、同じ型の肢イ・ウの並置にした）"])

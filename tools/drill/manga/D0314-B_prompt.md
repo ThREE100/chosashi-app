@@ -1,21 +1,19 @@
-# D0314 4コマ解説図解 プロンプト（ChatGPT貼付用・試作B）
+# D0314 4コマ解説図解 プロンプト（ChatGPT貼付用・B案v01）
 
 - 肢：D0314（民法／用益権・担保物権、出典 H20-Q01イ）。正解＝×（誤った記述）。誤解未習得2回（？が2回連続）。
-- 記事：`note-articles/h20-mondai/q01-fudousan-shichi.md` イ「不動産質でも、設定者の承諾なく転質ができる」（冒頭の説明と肢ウも使う）
+- 記事：`note-articles/h20-mondai/q01-fudousan-shichi.md` イ「不動産質でも、設定者の承諾なく転質ができる」（B案：しくみの図解と、間違えないための押さえどころで組む）
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- タイプ：G 押さえどころ型（もう間違えないための3点を、質権の基本→転質の仕組み→同じ型の肢→暗記3点の順で見せる）。D0314 v02（事案→説明→ひっかけと勘違い→結論）とは別パターン。コマの使い方：コマ1＝aiko（質権の姿の比較図を大きく）、コマ2＝none（お金の流れ図）、コマ3＝tori（同じ型の肢イ・ウを並べる）、コマ4＝両方。
-- ユーザーの困りごと：不動産質権・転質の理解が難しい。そのため、①質権は占有を質権者に移す（抵当権との違い。記事冒頭）、②転質は質権者Ｂがお金を借りる話でＡは関係しない（記事の具体例）、③同じ問のウ（使用・収益）も承諾なしでできる、の3段階で理解できる図にする。
-- ①問いの事案：Ａの別荘にＢが質権を持ち、Ｂが自分がＣからお金を借りるために、その質権を担保に使う（転質）。
-- ②出題者のねらい：転質に、設定者の承諾は要るか（コマ2のタグ）。
-- ③ひっかけ：肢イもウも「設定者の承諾を得なければ、…できない」という同じ言い方で、どちらも誤り（コマ3のリボン。記事の問題文）。
-- ④勘違い：転質も設定者の承諾が要る（コマ1の藍子の台詞）。
-- ⑤正しい整理（暗記3点）：不動産質権は占有を質権者に移す／転質は自己の責任でできて承諾は不要（民法348条）／損失は不可抗力まで質権者の責任（コマ4）。
-- 登場人物：Ａ（設定者）・Ｂ（質権者）・Ｃ（Ｂにお金を貸す人）をコマ1で人型タグ付きで左から順に紹介し、コマ2でも同じタグを使う。
-- 線の意味：矢印は使わず、矢印のない細い線とラベルで関係を見せる。コマ1の比較図・コマ3のカードは印を付けない。青✓はコマ4のチェック3点だけ。
-- 記事の範囲：不動産質権は占有を質権者に移す（抵当権は移さない）／質権者は使用・収益ができる（民法356条）／転質（責任転質、民法348条）／設定者の承諾は不要／転質の損失は不可抗力まで質権者が責任を負う。独自の理由づけは足さない。
+- 【B案の位置づけ】A案（`D0314_prompt.md`）は定型の「ひっかけと勘違い」のコマで組んだが、画像を見たユーザーから「不動産質権・転質のしくみそのものが分かりにくい」との指摘があり（2026-10-09）、定型を外して組み直した別パターン。ねらいは、『D0314をもう間違えないために、どこを押さえればいいか』が1枚で伝わること。A案とは別ファイル・別の採用版名（`_B案`）で試作し、採用するほうを後で決める。
+- 【定型からの変更点】①「ひっかけと勘違い」の対比カード（赤✕・青✓の左右カード）を使わない。②コマ1を「出題の事案」ではなく、転質の「しくみ」を2段の関係図で見せるコマにする（質権の設定①→転質②。誰が誰に何をするかを先に分からせる）。③コマ2を「承諾と責任はセット」の押さえどころカードにする（承諾はいらない、そのかわり責任は重い）。④コマ3を「本番での読み方3ステップ」にして、問題文のどこを見て判断するかを示す。⑤コマ4は暗記3点と結論。
+- 押さえどころ（記事の範囲）：(1) 転質は、質権者が、質権の存続期間内に、自己の責任で、質物にさらに質権を設定すること（民法348条、責任転質）。(2) 設定者の承諾は不要。(3) そのかわり、転質で生じた損失は不可抗力によるものまで質権者が責任を負う。(4) 記事のまとめ：『承諾がいる／いらない』を問う肢（イ・ウ）が、両方とも『いらない』側に倒れるのがこの問題の急所。
+- 記事の具体例を使う：Ａが別荘に質権を設定してＢからお金を借りている（ウの例：賃貸アパートに質権を設定してお金を借りる、と同じ型）。Ｂが、自分がＣからお金を借りるとき、Ａに断らなくても、その別荘の質権をＣへの担保に使える（イの例）。
+- 登場人物：Ａ（設定者・別荘の持ち主）・Ｂ（質権者）・Ｃ（Ｂにお金を貸す人）を、コマ1で人型タグ付きで左から順に紹介する。
+- 矢印の意味：コマ1の2本の矢印は、どちらも『担保として質権を設定する』という同じ意味（①ＡからＢへ、②ＢからＣへ）。売買・お金の動き・申請の矢印はない。コマ2・3は矢印を使わない。
+- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物は全員同じ薄い灰青、カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。
+- コマの使い方：コマ1＝small（2段の関係図を大きく）、コマ2＝none（承諾と責任のセットカードだけ）、コマ3＝faces（顔アイコンの会話＋3ステップのカード）、コマ4＝両方。
 
 ## 記事タイトル
 
@@ -33,26 +31,26 @@
 
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
-| タイトル帯 | — | 転質は、承諾なしでできる | 「承諾なし」を黄色マーカー |
-| コマ1 見出し | ラベル | ①　まず、不動産質権の姿 | — |
-| コマ1 図 | 図・カード | 抵当権 / 占有を移さない / 不動産質権 / 占有を質権者に移す / 使って収益もできる / Ａ / 設定者 / Ｂ / 質権者 / Ｃ / Ｂにお金を貸す人 / Ｂが転質するのに、Ａの承諾は要る？ | — |
-| コマ1 | 藍子（左・先に話す） | 転質も、設定者の承諾が要りますよね？ | — |
-| コマ2 見出し | ラベル | ②　転質は、Ｂがお金を借りる話 | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 転質に、設定者の承諾は要るか / Ａ / 設定者 / Ａに断らなくてよい / Ｂ / 質権者 / Ａの別荘 / Ｂの質権 / Ｃ / Ｂにお金を貸す人 / お金を借りる / Ｂの質権を担保に使う / 質権の存続期間内に、自己の責任で、質物にさらに質権を設定する　＝　転質（責任転質、民法348条） | — |
-| コマ3 見出し | ラベル | ③　承諾が要らないのは、転質だけではない | — |
-| コマ3 図 | 図・カード | 肢イ　転質 / 民法348条 / 質物にさらに質権を設定できる / 肢ウ　使用・収益 / 民法356条 / 用法に従って使い、収益を得られる / 承諾なしでできる / ひっかけ：イもウも、承諾を得なければ、という言い方 | — |
-| コマ3 | トリ先生（右・答える） | イもウも、承諾なしでできるのよ | 「承諾なし」 |
-| コマ4 見出し | ラベル | ④　もう間違えない3つの押さえどころ | — |
+| タイトル帯 | — | 転質は承諾いらず。そのかわり責任は重い | 「そのかわり責任は重い」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　転質のしくみ | — |
+| コマ1 図 | 図・カード | Ａ / 設定者（別荘の持ち主） / Ｂ / 質権者 / Ｃ / Ｂにお金を貸す人 / Ａの別荘 / Ｂの質権 / ①　質権の設定 / ②　転質（さらに質権を設定） / Ａは別荘に質権を設定して、Ｂからお金を借りる / Ｂは、自分がＣからお金を借りるとき、その別荘の質権をＣへの担保に使う / ②に、Ａの承諾は要る？ | — |
+| コマ1 | 藍子（左・先に話す） | 転質って、誰が誰に何をするんですか？ | — |
+| コマ1 | トリ先生（右・答える） | Ｂが自分の質権を使って、Ｃから借りるのよ | 「Ｃから借りる」 |
+| コマ2 見出し | ラベル | ②　承諾と責任はセット | — |
+| コマ2 図 | 図・カード | 押さえどころ / 承諾は不要。引き換えに、責任が重くなる / 責任が重くなる / セット / できること / 民法348条 / Ａの承諾なしで、転質ができる（責任転質） / 負う責任 / 転質で生じた損失について、不可抗力によるものまで責任を負う / 質権の存続期間内に、自己の責任で、質物にさらに質権を設定する | — |
+| コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
+| コマ3 図 | 図・カード | ステップ1　転質の場面か / 質権者が、質物にさらに質権を設定している / ステップ2　承諾の文言を見る / 承諾を得なければ、と書かれていたら、不動産質では要らない側。この問のイもウも、要らない / ステップ3　責任の文言を見る / 責任の肢は、質権者が不可抗力まで負う、が正しい内容 | — |
+| コマ3 | 藍子（左・1番目） | 要る・要らないは、どう見分けますか？ | — |
+| コマ3 | トリ先生（右・2番目） | 不動産質は、転質も使用収益も要らないの | 「要らない」 |
+| コマ3 | 藍子（左・3番目） | 転質に、歯止めはないんですか？ | — |
+| コマ3 | トリ先生（右・4番目） | 不可抗力まで、質権者が責任を負うのよ | 「不可抗力まで」 |
+| コマ4 見出し | ラベル | ④　これだけ覚える | — |
 | コマ4 図 | 図・カード |  | — |
-| コマ4 | 藍子（左・先に話す） | 承諾が要る、という記述は、誤りなんですね！ | — |
-| コマ4 | トリ先生（右・答える） | そう。転質は承諾なしでできるのよ | 「承諾なしで」 |
-| コマ4 チェック欄 | 3項目（青✓） | 不動産質権は、占有を質権者に移す / 転質は、自己の責任でできる。承諾は不要（民法348条） / 転質の損失は、不可抗力まで質権者が責任を負う | — |
-| 結論帯 | 1行目 | 転質に、設定者の承諾は要らない | 黄色マーカー |
+| コマ4 | 藍子（左・先に話す） | 承諾なしで転質できる、と覚えます！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。ただし責任は不可抗力まで重いわよ | 「不可抗力まで」 |
+| コマ4 チェック欄 | 3項目（青✓） | 転質は、質権者が自己の責任で、質物にさらに質権を設定すること（民法348条） / 転質に、設定者の承諾は不要 / 損失は、不可抗力によるものまで質権者が責任を負う | — |
+| 結論帯 | 1行目 | 転質は承諾いらず。そのかわり責任は重い | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D0314　正解×（H20-Q01イ） | — |
-
-## 記事に無い条文（ユーザー指示で追加）
-
-- 民法356条
 
 ## プロンプト本体
 
@@ -67,7 +65,7 @@ CHARACTERS: The attached character-specification images are the single authorita
 
 ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
 
-FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, or show both very small; in that case follow the PANEL line, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character is only a small face icon and the bubbles form a rally of short alternating lines. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
 
 STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
 
@@ -78,48 +76,60 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
 - Conclusion banner at the bottom (about 110 px tall).
 
-TITLE BANNER: text 「転質は、承諾なしでできる」 in large bold letters; the part 「承諾なし」 has a yellow highlighter marker.
+TITLE BANNER: text 「転質は承諾いらず。そのかわり責任は重い」 in large bold letters; the part 「そのかわり責任は重い」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; ONLY 藍子 appears in this panel (no トリ先生), standing at the left and smaller than usual, so that the diagram can be drawn large; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
-- Label tab: 「①　まず、不動産質権の姿」
-- A large comparison diagram fills the panel: two columns side by side in the same light gray with dark navy outlines and no marks. Left column: heading 「抵当権」, body 「占有を移さない」. Right column: heading 「不動産質権」, body 「占有を質権者に移す」, with a small yellow tag 「使って収益もできる」.
-- Under the two columns, a row, laid out ONE row from left to right, of three small faceless flat pictogram figures in the same light gray-blue color, each with a small dark navy round tag and a short label: 「Ａ」 (label 「設定者」), 「Ｂ」 (label 「質権者」), 「Ｃ」 (label 「Ｂにお金を貸す人」).
-- A small question badge 「Ｂが転質するのに、Ａの承諾は要る？」 sits at the top (a question badge only, with no check mark and no cross). Draw no question-mark icon, exclamation icon, or any other symbol anywhere else in the panel.
-- 藍子 bubble (left, spoken first): 「転質も、設定者の
-承諾が要りますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　転質のしくみ」
+- A large two-step relation diagram fills the panel, laid out ONE row from left to right: three faceless pictogram tags in the same light gray-blue color with dark navy tags: 「Ａ」 (small label 「設定者（別荘の持ち主）」), 「Ｂ」 (small label 「質権者」), 「Ｃ」 (small label 「Ｂにお金を貸す人」).
+- Above the row, between Ａ and Ｂ, stands one flat villa icon labeled 「Ａの別荘」 carrying a dark navy ribbon with white text 「Ｂの質権」 (the same dark navy ribbon in every panel).
+- Two dark navy arrows with the SAME meaning (each arrow means setting up a pledge as security, not a sale and not a payment): arrow ① from Ａ to Ｂ labeled 「①　質権の設定」, and arrow ② from Ｂ to Ｃ labeled 「②　転質（さらに質権を設定）」.
+- Under arrow ①, a white card with a dark navy outline: 「Ａは別荘に質権を設定して、Ｂからお金を借りる」. Under arrow ②, a white card with a dark navy outline: 「Ｂは、自分がＣからお金を借りるとき、その別荘の質権をＣへの担保に使う」.
+- A small question badge 「②に、Ａの承諾は要る？」 sits at the top (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「転質って、
+誰が誰に何を
+するんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「Ｂが自分の質権を使って、
+Ｃから借りるのよ」 with the part 「Ｃから借りる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 2 (explanatory, steady mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
-- Label tab: 「②　転質は、Ｂがお金を借りる話」
-- A full-width flow diagram fills the panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「転質に、設定者の承諾は要るか」.
-- Laid out ONE row from left to right: at the far left the pictogram 「Ａ」 (label 「設定者」) inside a dashed frame with the small note 「Ａに断らなくてよい」; in the middle the pictogram 「Ｂ」 (label 「質権者」) beside one flat house icon labeled 「Ａの別荘」 that carries a dark navy ribbon with white text 「Ｂの質権」; at the far right the pictogram 「Ｃ」 (label 「Ｂにお金を貸す人」).
-- Between Ｂ and Ｃ run two plain thin dark navy lines (no arrowheads), one with the small label 「お金を借りる」 and one with the small label 「Ｂの質権を担保に使う」.
-- At the bottom, one wide dark navy band with white text 「質権の存続期間内に、自己の責任で、質物にさらに質権を設定する　＝　転質（責任転質、民法348条）」.
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　承諾と責任はセット」
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「承諾は不要。引き換えに、責任が重くなる」, with the part 「責任が重くなる」 in a yellow highlighter marker.
+- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, joined in the middle by a small plain dark navy label 「セット」 (a label only, no arrow). Left card, heading 「できること」, small tag 「民法348条」, body 「Ａの承諾なしで、転質ができる（責任転質）」. Right card, heading 「負う責任」, body 「転質で生じた損失について、不可抗力によるものまで責任を負う」.
+- At the bottom, one wide dark navy band with white text 「質権の存続期間内に、自己の責任で、質物にさらに質権を設定する」.
+- There is no check mark and no cross anywhere in this panel.
 
-PANEL 3 (explanatory, steady mood; ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large):
-- Label tab: 「③　承諾が要らないのは、転質だけではない」
-- Two cards side by side in the same light gray with dark navy outlines and no marks. Left card: heading 「肢イ　転質」, small tag 「民法348条」, body 「質物にさらに質権を設定できる」. Right card: heading 「肢ウ　使用・収益」, small tag 「民法356条」, body 「用法に従って使い、収益を得られる」. Each card carries the same small yellow tag 「承諾なしでできる」.
-- Under the two cards, one wide dark navy ribbon with large white text 「ひっかけ：イもウも、承諾を得なければ、という言い方」.
-- The two cards have clearly different texts; the texts are NOT identical.
-- トリ先生 bubble (right, spoken as the answer): 「イもウも、
-承諾なしでできるのよ」 with the part 「承諾なし」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
+- Label tab: 「③　本番での読み方3ステップ」
+- Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
+- Step card 1: heading 「ステップ1　転質の場面か」, body 「質権者が、質物にさらに質権を設定している」.
+- Step card 2: heading 「ステップ2　承諾の文言を見る」, body 「承諾を得なければ、と書かれていたら、不動産質では要らない側。この問のイもウも、要らない」.
+- Step card 3: heading 「ステップ3　責任の文言を見る」, body 「責任の肢は、質権者が不可抗力まで負う、が正しい内容」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, rally 1 of 4): 「要る・要らないは、
+どう見分けますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 2 of 4): 「不動産質は、転質も
+使用収益も要らないの」 with the part 「要らない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, rally 3 of 4): 「転質に、歯止めは
+ないんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, rally 4 of 4): 「不可抗力まで、
+質権者が責任を負うのよ」 with the part 「不可抗力まで」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
-- Label tab: 「④　もう間違えない3つの押さえどころ」
-- 藍子 bubble (left, spoken first): 「承諾が要る、という
-記述は、
-誤りなんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「そう。転質は
-承諾なしで
-できるのよ」 with the part 「承諾なしで」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「不動産質権は、占有を質権者に移す」, 「転質は、自己の責任でできる。承諾は不要（民法348条）」, 「転質の損失は、不可抗力まで質権者が責任を負う」.
+- Label tab: 「④　これだけ覚える」
+- 藍子 bubble (left, spoken first): 「承諾なしで転質できる、
+と覚えます！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+ただし責任は
+不可抗力まで重いわよ」 with the part 「不可抗力まで」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「転質は、質権者が自己の責任で、質物にさらに質権を設定すること（民法348条）」, 「転質に、設定者の承諾は不要」, 「損失は、不可抗力によるものまで質権者が責任を負う」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
-- Line 1: 「転質に、設定者の承諾は要らない」 with a yellow highlighter marker.
+- Line 1: 「転質は承諾いらず。そのかわり責任は重い」 with a yellow highlighter marker.
 - Line 2: 「問題D0314　正解×（H20-Q01イ）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 占, 当, 承, 抗, 抵, 押, 権, 物, 肢, 解, 記, 諾, 違, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 承, 抗, 押, 権, 物, 番, 肢, 解, 諾, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -131,7 +141,7 @@ noteの見出し画像（アイキャッチ）用です。トリ先生と藍子�
 | 領域 | 正確な文言 | 強調 |
 |---|---|---|
 | タイトル1行目 | 不動産質の質権者が転質 | 薄い黄色のマーカー |
-| タイトル2行目 | どこを押さえれば間違えない？ | 「間違えない？」を赤みのあるオレンジ |
+| タイトル2行目 | 設定者の承諾は要る？ | 「承諾は要る？」を赤みのあるオレンジ |
 | サブタイトル | 4コマ解説図解　D0314　H20-Q01イ | — |
 
 ### 見出し画像プロンプト本体
@@ -151,8 +161,8 @@ BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from e
 
 TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
 不動産質の質権者が転質
-Line 2 is larger; the phrase 間違えない？ is red-orange and the rest is dark navy:
-どこを押さえれば間違えない？
+Line 2 is larger; the phrase 承諾は要る？ is red-orange and the rest is dark navy:
+設定者の承諾は要る？
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
 4コマ解説図解　D0314　H20-Q01イ
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
@@ -163,7 +173,7 @@ Right side: two blank document sheets passing from one hand to another hand
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the characters and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 不, 動, 産, 質, 権, 者, 転, 押, 間, 違, 解, 説, 図; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 不, 動, 産, 質, 権, 者, 転, 設, 定, 承, 諾, 要, 解, 説, 図; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ### 見出し画像の検品
@@ -178,17 +188,17 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 | 画像 | ファイル名 |
 |---|---|
-| 4コマ解説図解（本文用・採用版） | 4コマ解説図解D0314～H20-Q01イ～.png |
-| 見出し画像（採用版） | 4コマ解説図解D0314～H20-Q01イ～_見出し.png |
-| 途中の版・不採用の版（例：v01） | 4コマ解説図解D0314～H20-Q01イ～_v01.png ／ 4コマ解説図解D0314～H20-Q01イ～_見出し_v01.png |
+| 4コマ解説図解（本文用・採用版） | 4コマ解説図解D0314～H20-Q01イ～_B案.png |
+| 見出し画像（採用版） | 4コマ解説図解D0314～H20-Q01イ～_B案_見出し.png |
+| 途中の版・不採用の版（例：v01） | 4コマ解説図解D0314～H20-Q01イ～_B案_v01.png ／ 4コマ解説図解D0314～H20-Q01イ～_B案_見出し_v01.png |
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
-- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0314_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1で質権の姿、コマ2で転質のお金の流れ、コマ3で同じ型の肢（イ・ウ）、コマ4で暗記3点が分かり、「次に同じ問が出たらどこを見るか」が言える
-- [ ] 工程C：5点が、コマ1の藍子の台詞（勘違い）、コマ2の「出題者のねらい」タグと流れ図（事案）、コマ3の「ひっかけ」リボン、コマ4のチェック3点（正しい整理）として読み取れる
-- [ ] 工程C：構成表の全文言を記事（H20-Q01の冒頭の説明・イ・ウ）と突き合わせ：占有を移す／使って収益／民法348条／民法356条／自己の責任で／不可抗力によるものまで
-- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（aiko→none→tori→両方）。コマ3を「ひっかけと勘違い」の比較カードにしていない
+- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0314-B_prompt.md` が NG 0件
+- [ ] 工程C：初見の読者：コマ1の2本の矢印がどちらも『担保として質権を設定する』で、Ａ→Ｂ→Ｃの2段になっている。この図だけで、転質は『Ｂが自分の質権をＣへの担保に使うこと』と言える
+- [ ] 工程C：押さえどころ4つ（転質の意味・承諾不要・責任は不可抗力まで・承諾の肢は『いらない』側）が、コマ1・2・3・4のどこかに図か文言で必ずある
+- [ ] 工程C：構成表の全文言を記事（H20-Q01イ）と突き合わせ：「民法348条」「責任転質」「自己の責任で」「不可抗力によるものまで」「イ・ウが両方いらない側」
+- [ ] 工程C：コマ3の3ステップが、本番の問題文の読み方（転質の場面か→承諾の文言→責任の文言）として、順番に使える。結論は×（承諾を得なければ転質できないという記述が誤り）
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -202,8 +212,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
 - [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
-## 試作B（2026-10-09）：D0314 v02が「ひっかけと勘違い」のコマ3を使う定型だったのに対し、ユーザー指示で、不動産質権・転質の理解を助ける『押さえどころ型』の別パターンとして作成。記事冒頭の説明（占有を移す・抵当権との違い）と肢ウ（使用・収益）を使う（同じ記事の範囲）。独自の理由づけは足していない。ChatGPTでの生成・検品はまだ。
+## B案v01：新規作成（2026-10-09）。A案の画像を見たユーザーから「不動産質権・転質のしくみが分かりにくい。『ひっかけと勘違い』を使うことにこだわらず、この問題をもう間違えないために押さえるところが伝わる構成にしてほしい」との指示を受けて作成。定型（事案→ねらい→ひっかけ・勘違い→結論）を外し、しくみの図解→承諾と責任のセット→本番での読み方3ステップ→暗記3点、で組んだ。ChatGPTでの画像生成・検品はまだ（ユーザーが試作する）。
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
-- 2026-10-09 試作B：初版（コマ3をひっかけと勘違いにせず、同じ型の肢イ・ウの並置にした）
+- 2026-10-09 B案v01：初版（D0314のA案と別パターンの構成表・プロンプト本体2）
+- 2026-10-09 ユーザーがB案を採用。試作B（旧D0314-B_prompt.md）を廃止し、B案の構成表・プロンプトを D0314-B_prompt.md に一本化（キーをD0314-Bに改名。画像名の接尾辞は _B案 のまま）
