@@ -1,4 +1,4 @@
-# D0314 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0314 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D0314（民法／用益権・担保物権、出典 H20-Q01イ）。正解＝×（誤った記述）。誤解未習得2回（？が2回連続）。
 - 記事：`note-articles/h20-mondai/q01-fudousan-shichi.md` イ「不動産質でも、設定者の承諾なく転質ができる」
@@ -13,7 +13,7 @@
 - ④勘違い・理解を誤るポイント：転質には、設定者（Ａ）の承諾が必要。
 - ⑤正しい整理：質権者は、存続期間内であれば、自己の責任で質物にさらに質権を設定する転質ができ、設定者の承諾は不要（民法348条、責任転質）。ただし、転質で生じた損失は、不可抗力によるものまで質権者が責任を負う。記事の具体例：ＢがＣから借りるとき、Ａに断りを入れなくても、別荘の質権をそのままＣへの担保に使える。
 - 登場人物：Ａ（設定者）・Ｂ（質権者）・Ｃ（Ｂにお金を貸す人）をコマ1で人型タグ付きで、左から順に紹介する。
-- 矢印の意味：矢印は使わない。コマ1は関係図（家のアイコンとリボン）、コマ2・3はカード。
+- 線の意味：コマ1は、ＡとＢ、ＢとＣをつなぐ矢印のない細い線（質権を設定／お金を貸す）で関係を見せる。コマ2は、別荘・Ｂの質権・Ｃの転質を積み重ねた層で「質権の上に、さらに質権」を見せる。コマ3はカード。
 - 配色：コマ2は印を付けない。コマ3は左（承諾が必要）＝赤✕1つ、右（承諾は不要）＝青✓1つ。コマ1・2は印を付けない。
 - 記事の範囲：転質／責任転質（民法348条）／設定者の承諾は不要／転質で生じた損失は不可抗力まで質権者が責任を負う。
 
@@ -35,14 +35,14 @@
 |---|---|---|---|
 | タイトル帯 | — | 不動産質でも、転質に承諾は要らない | 「転質に承諾は要らない」を黄色マーカー |
 | コマ1 見出し | ラベル | ①　問いの事案 | — |
-| コマ1 図 | 図・カード | Ａ / 設定者 / Ｂ / 質権者 / Ｃ / Ｂにお金を貸す人 / Ａの別荘 / Ｂの質権 / Ｂが転質するのに、Ａの承諾は要る？ | — |
+| コマ1 図 | 図・カード | Ａ / 設定者 / Ｂ / 質権者 / Ｃ / Ｂにお金を貸す人 / 質権を設定 / お金を貸す / Ａの別荘 / Ｂの質権 / Ｂが転質するのに、Ａの承諾は要る？ | — |
 | コマ1 | 藍子（左・先に話す） | 転質は、設定者の承諾が要りますよね？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。承諾が要る、と思ったでしょ | 「承諾が要る」 |
 | コマ2 見出し | ラベル | ②　転質とは | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 転質に、設定者の承諾は要るか / 転質（責任転質） / 民法348条 / 質権の存続期間内に、自己の責任で、質物にさらに質権を設定すること / 設定者の承諾 / 不要 / 承諾なしでできる / ただし、転質で生じた損失は、不可抗力によるものまで質権者が責任を負う | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 転質に、設定者の承諾は要るか / Ａの別荘 / Ｂの質権 / Ｃの転質 / 転質（責任転質） / 民法348条 / 質権の存続期間内に、自己の責任で、質物にさらに質権を設定すること / 設定者の承諾 / 不要 / 承諾なしでできる / ただし、転質で生じた損失は、不可抗力によるものまで質権者が責任を負う | — |
 | コマ2 | トリ先生（右・答える） | 存続期間内なら、自己の責任でできるのよ | 「自己の責任」 |
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
-| コマ3 図 | 図・カード | よくある勘違い / 転質には、設定者の承諾が必要 / ひっかけ：承諾を得なければ、という言い方 / 正しい整理 / 転質に設定者の承諾は不要。ただし損失は不可抗力まで質権者の責任 / たとえば：ＢがＣから借りるとき、Ａに断らなくても、別荘の質権をそのままＣへの担保に使える | — |
+| コマ3 図 | 図・カード | よくある勘違い / 転質には、設定者の承諾が必要 / ひっかけ：承諾を得なければ、という言い方 / 正しい整理 / 転質に設定者の承諾は不要 / たとえば：ＢがＣから借りるとき、Ａに断らなくても、別荘の質権をそのままＣへの担保に使える | — |
 | コマ3 | 藍子（左・1番目） | 承諾なしで転質して、いいんですか？ | — |
 | コマ3 | トリ先生（右・2番目） | いいのよ。民法348条の責任転質よ | 「責任転質」 |
 | コマ3 | 藍子（左・3番目） | 何か、歯止めはないんですか？ | — |
@@ -81,11 +81,12 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「不動産質でも、転質に承諾は要らない」 in large bold letters; the part 「転質に承諾は要らない」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
-- A large relation diagram fills the panel, laid out ONE row from left to right: three faceless pictogram tags in the same light gray-blue color with dark navy tags: 「Ａ」 (small label 「設定者」), 「Ｂ」 (small label 「質権者」), 「Ｃ」 (small label 「Ｂにお金を貸す人」).
-- Above the row stands one flat house icon labeled 「Ａの別荘」 carrying a dark navy ribbon with white text 「Ｂの質権」 (the same dark navy ribbon in every panel).
-- A small question badge 「Ｂが転質するのに、Ａの承諾は要る？」 sits at the top (a question badge only, with no check mark and no cross).
+- A large relation diagram fills the panel, laid out ONE row from left to right: three faceless pictogram figures in the same light gray-blue color with dark navy round tags: 「Ａ」 (small label 「設定者」), 「Ｂ」 (small label 「質権者」), 「Ｃ」 (small label 「Ｂにお金を貸す人」).
+- Between Ａ and Ｂ runs a plain thin dark navy line (no arrowhead) with the small label 「質権を設定」; between Ｂ and Ｃ runs a plain thin dark navy line (no arrowhead) with the small label 「お金を貸す」.
+- Above the line between Ａ and Ｂ stands one flat house icon labeled 「Ａの別荘」 carrying a dark navy ribbon with white text 「Ｂの質権」 (the same dark navy ribbon in every panel).
+- A small question badge 「Ｂが転質するのに、Ａの承諾は要る？」 sits at the top (a question badge only, with no check mark and no cross). Draw no question-mark icon, exclamation icon, or any other symbol anywhere else in the panel, especially not beside the characters.
 - 藍子 bubble (left, spoken first): 「転質は、設定者の
 承諾が要りますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。
@@ -95,7 +96,8 @@ PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 p
 PANEL 2 (explanatory, steady mood; ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large):
 - Label tab: 「②　転質とは」
 - A large explanation diagram fills the panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「転質に、設定者の承諾は要るか」.
-- Two cards side by side in the same light gray color with dark navy outlines and no marks. Left card, heading 「転質（責任転質）」, small tag 「民法348条」, body 「質権の存続期間内に、自己の責任で、質物にさらに質権を設定すること」. Right card, heading 「設定者の承諾」, body 「不要」, with a small yellow tag 「承諾なしでできる」.
+- Left half: a stack of three flat layers, one on top of another, in the same light gray with dark navy outlines and no marks: the bottom layer 「Ａの別荘」, the middle layer 「Ｂの質権」 (the same dark navy ribbon look as in panel 1), the top layer 「Ｃの転質」 drawn clearly on top of the others.
+- Right half: a card with heading 「転質（責任転質）」, small tag 「民法348条」, and body 「質権の存続期間内に、自己の責任で、質物にさらに質権を設定すること」; under it a smaller card with heading 「設定者の承諾」, body 「不要」, and a small yellow tag 「承諾なしでできる」. All cards in the same light gray color with dark navy outlines and no marks.
 - At the bottom, one wide dark navy band with white text 「ただし、転質で生じた損失は、不可抗力によるものまで質権者が責任を負う」.
 - トリ先生 bubble (right, spoken as the answer): 「存続期間内なら、
 自己の責任で
@@ -103,10 +105,10 @@ PANEL 2 (explanatory, steady mood; ONLY トリ先生 appears in this panel (no �
 
 PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
 - Label tab: 「③　ひっかけと勘違い」
-- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; the right card shows a RED cross. Do not draw the same mark on both cards. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
+- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side, with a wide example strip under them.
 - Left card, heading 「よくある勘違い」, body 「転質には、設定者の承諾が必要」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：承諾を得なければ、という言い方」.
-- Right card, heading 「正しい整理」, body 「転質に設定者の承諾は不要。ただし損失は不可抗力まで質権者の責任」, with ONE blue check mark only (no cross on this card).
+- Right card, heading 「正しい整理」, body 「転質に設定者の承諾は不要」, with ONE blue check mark only (no cross on this card).
 - Example strip under the two cards: 「たとえば：ＢがＣから借りるとき、Ａに断らなくても、別荘の質権をそのままＣへの担保に使える」.
 - The two cards have clearly different texts; the texts are NOT identical.
 - 藍子 bubble (left, rally 1 of 4): 「承諾なしで
@@ -134,7 +136,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 承, 抗, 権, 物, 解, 記, 諾, 違, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a blue check mark and the right card only a red cross; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 承, 抗, 権, 物, 解, 記, 諾, 違, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -217,8 +219,10 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
 - [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
-## v01：新規作成（2026-10-09）。一問一答で未習得（？）が2回連続になった肢。構成表の組み方と一発合格のための作成ルールに沿って設計した。ChatGPTでの画像生成・検品はまだ。
+## v02（2026-10-09）：画像の検品とプロンプトの突き合わせで直した。①コマ3の印の向きが本文（左＝✕・右＝✓）と定型文（左＝✓・右＝✕）で食い違っていたのを統一（生成器にopposite='lx'を追加）②コマ1に関係を見せる線（質権を設定／お金を貸す）を足し、Ｂの借入（転質の動機）を図にした③コマ2を、言葉のカード2枚から「別荘→Ｂの質権→Ｃの転質」の積み重ね図に変えた④コマ3右カードから「ただし損失は…」を外し、同じ文の重複（4回→3回）を減らした⑤コマ1に、指定外の記号（？のアイコン）を描かせない指示を足した⑥小さなキャラの大きさの注を、コマ1・4を指す誤記から「ほかのコマの等身大のキャラ」に直した。
+- v01：新規作成（2026-10-09）。一問一答で未習得（？）が2回連続になった肢。構成表の組み方と一発合格のための作成ルールに沿って設計した。ChatGPTでの画像生成・検品はまだ。
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
+- 2026-10-09 v02：画像検品後の改善（上の qa）
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）

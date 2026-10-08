@@ -80,7 +80,7 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「不動産質権者は、承諾なしで使用収益できる」 in large bold letters; the part 「承諾なしで使用収益できる」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
 - A large relation diagram fills the panel: one flat apartment-building icon labeled 「不動産」 carrying a dark navy ribbon with white text 「質権」 (the same dark navy ribbon in every panel).
 - Beside the building, two faceless pictogram tags in the same light gray-blue color with dark navy tags: 「設定者」 (small label 「不動産の持ち主」) and 「質権者」 (small label 「質権を持つ人」).

@@ -221,6 +221,12 @@ def main():
             if chk and crs and "OPPOSITE" not in line and "Do not draw the same" not in line:
                 NG(f"同じ箱に check と cross の両方を指示: {line[:80]}")
 
+    # 8b 比較カードの印の向き：OPPOSITE定型文と、左カードの本文指定が逆になっていないか（2026-10-09 D0314の画像検品で発見。13本に残るため WARN）
+    om = re.search(r"The left card shows (?:a |ONE )(BLUE|RED)", main_body)
+    lm = re.search(r"- Left card[^\n]*?with ONE (red|blue)", main_body, re.I)
+    if om and lm and om.group(1).lower() != lm.group(1).lower():
+        WARN(f"コマ3の印の向きが食い違い：定型文は左={om.group(1)}、左カードの指定は{lm.group(1)}。設計データの opposite を 'lx'（左が誤解＝赤✕・右が正＝青✓）にして再生成する")
+
     # 10 一発合格チェック（2026-10-07。D0413・D0624・D1621の画像検品で見つかった不具合の再発防止）
     STRICT = "一発合格ルール" in src and "適用済み" in src   # 新規・改修済みのプロンプトは NG、旧版は WARN（改修時に直す）
     def R(m): (NG if STRICT else WARN)(m if STRICT else "（旧版・改修時に直す）" + m)

@@ -80,7 +80,7 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「地上権の時効取得は、意思の表れが必要」 in large bold letters; the part 「意思の表れが必要」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
 - A large relation diagram fills the panel: a flat plot-of-land block labeled 「他人の土地」 with a faceless pictogram tag in light gray-blue labeled 「使っている人」 standing on it, and a second faceless pictogram tag in the same color labeled 「土地の所有者」 standing beside the land.
 - A plain white label with a dark navy outline under the land reads 「長年、継続して使ってきた」, and a small question badge 「地上権を時効取得できる？」 sits above the land (a question badge only, with no check mark and no cross).

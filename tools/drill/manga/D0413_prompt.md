@@ -101,7 +101,7 @@ PANEL 1 (calm explanatory mood; both characters appear ONLY as very small round 
 Ｂに言えるかが、
 問いの核心よ」 with the part 「登記なしでＢに言えるか」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 2 (focused, thoughtful mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
+PANEL 2 (focused, thoughtful mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　出題者のねらい」
 - A large flowchart fills most of the panel, drawn top to bottom, with a small dark navy tag 「出題者のねらい」 at the top left.
 - Top diamond (yellow highlighter marker): 「Ａの相手は、元の所有者Ｂ？」.

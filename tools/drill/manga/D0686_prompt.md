@@ -80,7 +80,7 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「増築登記の1か月は、工事完了の日から数える」 in large bold letters; the part 「工事完了の日から数える」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
 - A large timeline diagram fills the panel, left to right, with a plain dark navy arrow labeled 「時間の流れ」 (this arrow means only the passing of time, not an application or a transaction).
 - On the line, two event cards in order: first 「区分建物の一部を増築（工事が完了）」, then 「共用部分である旨の登記がされる」, both white with dark navy outlines.

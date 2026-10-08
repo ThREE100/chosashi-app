@@ -81,7 +81,7 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 
 TITLE BANNER: text 「名義人が違う建物の合体は、一人から申請できる」 in large bold letters; the part 「一人から申請できる」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
 - A large before-and-after diagram fills the panel, left to right.
 - On the left, two flat house icons side by side labeled 「甲建物」 and 「乙建物」, each with a faceless owner pictogram in the same light gray-blue color: a tag 「Ａ」 beside the left house with the small label 「所有権の登記名義人」, and a tag 「Ｂ」 beside the right house with the small label 「所有権の登記名義人」.

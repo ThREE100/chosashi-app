@@ -39,6 +39,9 @@ ARC = "confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> reliev
 OPPOSITE = ("IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows a BLUE check mark; "
             "the right card shows a RED cross. Do not draw the same mark on both cards. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.")
 
+OPPOSITE_LX = ("IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; "
+               "the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.")
+
 def article_title(i, src): return f"【土地家屋調査士受験生向け】4コマ解説図解{i}～{src}～"
 
 def src_label(src):
@@ -62,7 +65,7 @@ CHARS_TXT = {
     "tori": "ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large",
     "faces": "both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel",
     "none": "NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large",
-    "small": "both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the characters in panels 1 and 4, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel",
+    "small": "both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel",
 }
 
 def build(sp):
@@ -93,7 +96,7 @@ def build(sp):
             body += f"PANEL {n} ({p.get('mood', MOODS[i])}; {p.get('hands', HANDS[i])}):\n"
         body += f"- Label tab: {q(p['label'])}\n"
         rows.append((f"コマ{n} 見出し", "ラベル", p["label"], "—"))
-        if p.get("opposite"): body += f"- {OPPOSITE}\n"
+        if p.get("opposite"): body += f"- {OPPOSITE_LX if p.get('opposite') == 'lx' else OPPOSITE}\n"
         for ln in p["fig"]: body += f"- {ln}\n"
         figstr = []
         for ln in p["fig"]:
@@ -133,7 +136,10 @@ def build(sp):
            f"confirm the characters {', '.join(kan)} are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; "
            "confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; ")
     if has_opp:
-        fin += "confirm the left comparison card has only a blue check mark and the right card only a red cross; "
+        if any(p.get("opposite") == "lx" for p in pan):
+            fin += "confirm the left comparison card has only a red cross and the right card only a blue check mark; "
+        else:
+            fin += "confirm the left comparison card has only a blue check mark and the right card only a red cross; "
     if flex:
         fin = fin.replace("confirm 藍子 is always on the left and トリ先生 always on the right ", "confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified ")
     alltext = "".join(b[1] for p in pan for b in p["bubbles"]) + "".join("".join(p["fig"]) for p in pan)
