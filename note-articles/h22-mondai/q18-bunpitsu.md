@@ -24,7 +24,7 @@
 
 共有物分割の裁判によって共有の土地が分割された場合に、一部の共有者が分筆の登記の申請に協力しないときは、他の共有登記名義人が、その者に代位して分筆の登記を申請することができます。
 
-判決に基づく権利を実現するための代位が認められるからです。この記述は正しいものです。
+分筆の登記は表題部所有者又は所有権の登記名義人が申請するもの（不動産登記法39条1項）ですが、判決に基づく権利を実現するために、民法423条による代位申請が認められるからです（代位原因を証する情報の提供は不動産登記令7条1項3号）。この記述は正しいものです。
 
 **たとえば**、裁判で共有地の分割が決まったのに、共有者の1人が分筆の手続に協力してくれない場合、ほかの共有者がその人に代わって分筆の登記を申請できます。
 
@@ -48,17 +48,17 @@
 
 競売の申立てによる差押えの登記がされている甲土地から乙土地を分筆する場合、分筆後の甲土地について競売申立権者が差押えの消滅を承諾したことを証する情報が提供されても、分筆の手続の中で甲土地の差押えの登記を抹消することはできません。
 
-差押えの登記の抹消には、別の手続（裁判所の手続等）が必要だからです。この記述は正しいものです。
+差押えの登記は権利そのものの登記ではなく処分の制限の登記であり、権利の登記名義人の承諾による消滅の登記を定める不動産登記法40条の対象にならないと整理されるため、抹消には別の手続（裁判所の手続等）が必要になるからです（この整理は条文に明記がなく、解釈・登記実務の取扱いによります）。この記述は正しいものです。
 
 **たとえば**、競売のための差押えが付いた土地を分けるとき、申立てをした人が「差押えを消してよい」と言っても、分筆の手続のついでに差押えの登記まで消してしまうことはできません。
 
 ### オ：分筆手続の中で、もとの土地に「抵当権が消滅した旨の記録」はされない
 
-抵当権の設定の登記がされている甲土地から乙土地を分筆する場合に、甲・乙の両方について抵当権者が抵当権の消滅を承諾したときは、乙土地の登記記録には抵当権の設定の登記は転写されません。
+不動産登記法40条は、権利の登記名義人が権利を「分筆後のいずれかの土地」について消滅させることを承諾したときに、その承諾に係る土地について権利が消滅した旨を登記すると定めています（記録の方法は不動産登記規則104条2項・3項）。この規定は、分筆後の一方の土地について権利を消滅させる場面を想定したものです。
 
-しかし、もとの甲土地の抵当権を消すには別途の抹消登記が必要であり、分筆の手続の中で甲土地の登記記録に「抵当権が消滅した旨の記録」がされるわけではありません。したがって、この記述は誤りです。
+そのため、甲・乙の両方について消滅を承諾した場合に、甲土地に消滅した旨の記録がされ、乙土地には転写されない、というような処理を定めた規定はなく、この記述は誤りです（両方の土地について承諾した場合の扱いを直接定めた条文は法令データベースでは確認できず、法40条の文言からの整理です）。
 
-**たとえば**、抵当権が付いた土地を分けるとき、抵当権者が両方の土地について「消してよい」と承諾しても、分けた片方（乙）に抵当権が付いてこないだけで、もとの土地（甲）の抵当権は、分筆とは別に抹消の手続をしないと消えません。
+**たとえば**、抵当権が付いた土地を分けるとき、抵当権者が「分けた乙の土地についてだけ消してよい」と承諾する場合は、分筆の登記の中で乙について消滅した旨を登記する扱いになります。しかし、甲・乙の両方について消してよいという承諾は、この規定が想定している場面ではありません。
 
 ---
 
@@ -68,9 +68,9 @@
 - **イ（誤）**　仮登記権利者が消滅を承諾すれば、分筆後の土地に仮登記は転写されない
 - **ウ（正）**　承役地を分筆すると、要役地の登記記録が職権で変更される
 - **エ（正）**　差押えの登記は、承諾があっても分筆の手続では抹消できない
-- **オ（誤）**　分筆手続の中で、もとの土地に「抵当権が消滅した旨の記録」はされない
+- **オ（誤）**　甲・乙の両方について消滅を承諾する処理は、法40条（分筆後のいずれかの土地についての承諾）が定めていない
 
-「承諾があれば分筆後の土地への転写は防げる。でも、もとの土地の権利を消すのは別の手続」という原則で、イとオの誤りが見抜けます。
+「承諾があれば、承諾に係る土地について権利を消滅させる登記ができる（法40条）。でも、仮登記の転写や、両方の土地についての承諾までは法40条が想定していない」という点で、イとオの誤りが見抜けます。
 
 **正解：イオの組合せ（選択肢3番）**
 
@@ -81,7 +81,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成22年度午後の部 第18問）・正解番号（3番＝イオ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）で確認済みです。
 - 各肢の判定（誤りはイ・オ）は、公式の正解の組合せ「イオ」から確定できるものです。
-- 各肢の根拠は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-kisoku-2.md`で条文原文を確認済みです。イ・オ（分筆に伴う権利の消滅・転写の処理）＝不動産登記法40条（権利に関する登記の抹消・転写）および不動産登記規則104条（同条の手続）、ウ（承役地分筆時の要役地の職権変更）＝不動産登記規則103条2項、ア（代位による分筆の登記）＝不動産登記法59条4号・65条の代位申請の一般規定、エ（競売申立てによる差押えの登記の抹消）は、私人の承諾のみでは分筆手続内で抹消できないという実務上の取扱いに基づく一般的な理解にとどまり、条文の個別確認はできていません。
+- 各肢の根拠は、`note-articles/laws/fudousan-touki-hou.md`・`fudousan-touki-kisoku-2.md`で条文原文を確認済みです。イ・オ（分筆に伴う権利の消滅・転写の処理）＝不動産登記法40条（権利に関する登記の抹消・転写）および不動産登記規則104条（同条の手続）、ウ（承役地分筆時の要役地の職権変更）＝不動産登記規則103条2項、ア（代位による分筆の登記）＝不動産登記法39条1項（分筆の申請人）・民法423条・不動産登記令7条1項3号（代位原因を証する情報）（2026-10-08に、従前の「法59条4号・65条」の記載を訂正）、エ（競売申立てによる差押えの登記の抹消）は、私人の承諾のみでは分筆手続内で抹消できないという実務上の取扱いに基づく一般的な理解にとどまり、条文の個別確認はできていません（法40条は権利の登記名義人の承諾による消滅を定めるもので、差押えがその対象外とする根拠は法令データベースでは確認できませんでした）。また、オは、法40条が「分筆後のいずれかの土地」についての承諾を前提としている点からの整理で、両方の土地について承諾した場合の扱いを直接定めた条文は確認できていません（2026-10-08の再検証）。
 - 本リポジトリのデータベースの補足解説（kaisetsu_plus.json、reviewed:false）も参照しましたが、未検証の補足であるため、条文・一般原則の理解を優先しています。ローカルにアガルートの択一式テキスト解説は保存されておらず（講義動画のチャプター対照表のみ）、今回は参照できませんでした。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを用い、平成22年度より後に実施された試験（データベースには令和7年度まで収録）で、本問（分筆の登記）と同一の問題が再出題されていないかを確認しました。分筆の登記自体は令和7年度第11問でも再出題されるテーマです（問題文＋肢全体の類似度0.29程度）。肢単位では、本問のイ（仮登記がある土地の分筆と転写の可否）と令和7年度第11問のウは類似度0.86程度ですが、本問は「転写される」という誤りの肢、令和7年度は「転写されない」という正しい肢として、同じ規定を逆方向から問うており、他の肢の組合せも異なります。**問題全体としての重複ではありません**。分筆の登記に伴う権利の転写ルールは頻出論点です。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
@@ -93,7 +93,7 @@
 - 仮登記も、承諾があれば転写されないんです
 - 承役地を分けたら、要役地の登記も職権で直る
 - 差押えは、承諾があっても分筆では消せないんです
-- もとの土地の抵当権、分筆では「消滅」記録されないんです
+- 両方の土地の抵当権を消す承諾は、分筆の規定の想定外なんです
 
 ---
 
@@ -221,13 +221,13 @@ Conclusion tag (a short colored banner/pill directly below the illustration,
 Badge: a filled circle containing the number 5 (numbers run continuously).
 
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-分筆手続では抵当権消滅の記録はしない
+両方への消滅承諾は想定外
 
-Illustration: A land plot 甲 with an 抵当権 stamp being split into 甲・乙, both抵当権者 giving 承諾, the 乙 plot has no抵当権 stamp (not transferred), but 甲 plot's 抵当権 stamp stays as-is with a ✕ over a 「消滅した旨の記録」stamp attempt.
+Illustration: A land plot with an 抵当権 stamp being split into 甲・乙, with the 抵当権者 character signing a 承諾書 that covers both 甲 and 乙 (two arrows to both plots), and a large ✕ over a 「甲に消滅記録・乙に転写しない」tag to show that this combination is not what 法40条 provides for.
 
 Conclusion tag (a short colored banner/pill directly below the illustration,
 5-15 Japanese characters, a keyword phrase — NOT a sentence):
-消滅した旨の記録はしない
+両方の承諾は規定なし
 
 
 --- FOOTER ---
@@ -248,7 +248,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-イ・オは「分筆後の新しい土地（乙）へ権利が転写されるか」という決定木を共有し、エ・オは「もとの土地（甲）自体の登記記録から権利を消せるか」という別の決定木を共有する。オはこの両方の決定木にまたがり、それぞれの分岐のうち自分に関係する部分だけを強調する。アは代位申請の当事者関係を示す系統図・関係図型、ウは承役地・要役地の対応関係を示す配置図型、エは「承諾があれば抹消できる」という誤った思い込みを正すため正誤対比型とする。
+イ・オは「分筆後の土地への承諾に係る消滅・転写の処理」という決定木を共有する（オは承諾が分筆後のいずれか一方の土地についてか、両方の土地についてかで分岐し、自分に関係する部分だけを強調する）。アは代位申請の当事者関係を示す系統図・関係図型、ウは承役地・要役地の対応関係を示す配置図型、エは「承諾があれば抹消できる」という誤った思い込みを正すため正誤対比型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -276,11 +276,10 @@ THIS panel with a thick highlighted border and full color, and render the
 other, unrelated branches in a faded, greyed-out, or dotted-outline style
 rather than omitting them — the reader should be able to see at a glance
 which part of the shared tree this panel is about. Panel 5's diagram
-contains two diamond nodes drawn in the same shape as Panel 2's diamond
-node (承諾情報提供の有無, 転写の可否) and Panel 4's contrast frame (もとの
-土地の記録が消えるかどうか); Panel 5 highlights both of its own diamonds in
-full color since this 肢 spans both shared trees, while Panels 2 and 4
-each highlight only their own single tree. Unlike a glanceable summary
+contains one diamond node drawn in the same shape as Panel 2's diamond
+node (承諾情報提供の有無, 転写の可否), asking whether the 承諾 covers one
+of the plots or both; Panel 5 highlights its own diamond in full color,
+while Panels 2 and 4 each highlight only their own single tree. Unlike a glanceable summary
 poster, each panel MAY include a short「着眼点」callout box with 1-2
 sentences that state the checking ORDER in words (e.g. "まず〜を確認し、次
 に〜を確認します"), not just the conclusion. Do not include case or
@@ -420,29 +419,25 @@ characters):
 Badge: a filled circle in soft green containing the number 5 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
-乙は無担保になるが甲の抵当権は消えない
+両方の土地への承諾は法40条の想定外
 Diagram: Two land-plot icons 甲・乙 both stamped「抵当権」, with the抵当権者
 character signing a 承諾書 that covers both plots. A first diamond node
 （sharing the same shape as Panel 2's diamond, rendered with a thick
-highlighted border here）labeled「乙土地について抵当権者が消滅を承諾した情報
-が提供されたか」with a thick highlighted「はい」branch leading to a
-highlighted conclusion node「乙土地に抵当権の設定登記は転写されない」（乙 plot
-shown with no stamp）. A second, separate diamond node（sharing the same
-shape as Panel 4's contrast frame, rendered with a thick highlighted
-border here）labeled「甲土地の登記記録に『抵当権が消滅した旨の記録』がされる
-か」with a thick highlighted「いいえ」branch leading to a highlighted
-conclusion node「されない（別途抹消登記が必要）」, and a large ✕ drawn over a
-faded, dotted-outline stamp reading「消滅した旨の記録」on the 甲 plot to show
-this is a common misreading, not the actual outcome.
+highlighted border here）labeled「抵当権者の承諾は、分筆後のいずれか一方の
+土地についてか」with a thick highlighted「いいえ（甲・乙の両方について）」
+branch leading to a highlighted conclusion node「法40条が想定する処理
+（承諾に係る土地についての消滅の登記）の場面ではない」. A faded, dotted-outline
+「はい（一方の土地について）」branch leads to a faded node「承諾に係る土地に
+ついて消滅した旨を登記する」. A large ✕ is drawn over a faded, dotted-outline
+tag reading「甲に消滅記録・乙に転写しない」to show that this combination
+is not provided for.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、乙土地について抵当権者が消滅を承諾した情報が提供されているかを確認し、
-乙土地には抵当権の設定登記が転写されないと判定します。次に、もとの甲土地の
-登記記録に『抵当権が消滅した旨の記録』がされるかを確認し、分筆の手続の中で
-はそのような記録はされず、甲土地の抵当権を消すには別途抹消登記が必要と判定
-します。
+まず、抵当権者の承諾が分筆後のいずれか一方の土地についてのものか、両方の
+土地についてのものかを確認します。法40条は一方の土地について消滅させる
+場面を想定しているため、両方の土地についての承諾は想定外と判定します。
 Conclusion tag (a short colored banner/pill, soft green, 5-15 Japanese
 characters):
-甲の抵当権は別途抹消
+両方への承諾は想定外
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
