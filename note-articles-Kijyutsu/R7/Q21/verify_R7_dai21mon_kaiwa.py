@@ -364,6 +364,10 @@ for t in ['全体の時系列　8月の申請が問1〜問3', '注は2系統　�
           '問2　精度区分は土地の呼び名ではなく地域で決まる', '問3　地積更正と分筆は一の申請情報', '問4　M・L・K・Dは平行四辺形ではなく台形']:
     check('図番なしのタイトル（作図スクリプト）', "'" + t, draw, '作図')
     absent('図番入りのタイトル', "'図", draw[draw.index(t) - 6:draw.index(t)], '作図')
+# 2026-10-08：全18枚の画像のタイトルに図番がない（作図スクリプトの new_figure・suptitle の文字列）
+titled = re.findall(r"(?:new_figure|suptitle)\(\s*'([^']*)'", draw)
+judge(f'作図スクリプトのタイトル {len(titled)}個（第3欄の地積測量図はタイトルなし）に図番がない', len(titled) == 17 and not [x for x in titled if re.match(r'図\d', x)])
+absent('解説図プロンプトに「図番のまま」の注記が残っていない', '画像の中のタイトルは作成時の', fig, '解説図')
 # 申請書の完成形は答案用紙の第5欄と同じ欄の順序
 order_k = [html_k.index(w) for w in ['登記の目的', '添　付　書　類', '令和７年10月30日', '申　　請　　人', '代　　理　　人', '登録免許税', '所　在']]
 judge('完成形の欄の順序が答案用紙どおり', order_k == sorted(order_k))
