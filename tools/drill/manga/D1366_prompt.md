@@ -11,11 +11,11 @@
 - ②出題者のねらい：敷地権の定義（3つの条件）を、一字ずつ言えるか。
 - ③ひっかけ：語句群に「建物」と「土地」が並んでいて、建物の登記の話だから「建物」に見える。
 - ④勘違い・理解を誤るポイント：敷地権は、建物の登記記録に登記されたものをいう。
-- ⑤正しい整理：敷地権は、建物の敷地に関する権利として土地の登記記録に登記されたもので、専有部分と分離して処分することができないもの（法44条1項9号）。敷地権である旨の登記は、登記官が職権で土地の登記記録にする。記事の具体例：マンションの敷地権の内容（誰がどれだけの持分を持つか）は、その敷地となっている土地の登記記録に記録される。
+- ⑤正しい整理：敷地権は、建物の敷地に関する権利として土地の登記記録に登記されたもので、専有部分と分離して処分することができないもの（H30-Q11の問題文の言い回し。記事は法44条1項9号を根拠とするが、同号の文言とは一致しない点に注意）。敷地権である旨の登記は、登記官が職権で土地の登記記録にする。記事の具体例：マンションの敷地権の内容（誰がどれだけの持分を持つか）は、その敷地となっている土地の登記記録に記録される。
 - 登場人物：当事者の記号は使わない。「区分建物」と「土地（敷地）」を文字ラベルのアイコンで、コマ1で紹介してから使う。
 - 矢印の意味：矢印は使わない。コマ1は建物と土地の関係図、コマ2・3はカード。
 - 配色：コマ2は印を付けない。コマ3は左（建物の登記記録）＝赤✕1つ、右（土地の登記記録）＝青✓1つ。コマ1・2は印を付けない。
-- 記事の範囲：敷地権の定義（法44条1項9号）／敷地権は土地の登記記録に登記される／専有部分と分離して処分できない／登記官が職権で土地の登記記録に敷地権である旨を登記する（法46条）／マンションの例のみ。対比：D1365（正しい文言）は図に入れない。
+- 記事の範囲：敷地権の定義（記事は法44条1項9号を挙げるが、同号の文言は「敷地利用権（登記されたものに限る。）」で、「土地の登記記録に」は試験の問題文の言い回し。図には条文番号を出さない）／敷地権は土地の登記記録に登記される／専有部分と分離して処分できない／登記官が職権で土地の登記記録に敷地権である旨を登記する（法46条）／マンションの例のみ。対比：D1365（正しい文言）は図に入れない。
 
 ## 記事タイトル
 
@@ -39,7 +39,7 @@
 | コマ1 | 藍子（左・先に話す） | 建物の権利だから、建物の登記記録では？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。建物の敷地の権利なのよ | 「敷地の権利」 |
 | コマ2 見出し | ラベル | ②　出題者のねらい | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 敷地権の定義を、一字ずつ言えるか / 条件1 / 専有部分を所有するための、建物の敷地に関する権利 / 条件2 / 土地の登記記録に登記されたもの / 土地の登記記録 / 条件3 / 専有部分と分離して処分することができない / 3つの条件をすべて満たす権利が、敷地権 / 法44条1項9号 | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 敷地権の定義を、一字ずつ言えるか / 条件1 / 専有部分を所有するための、建物の敷地に関する権利 / 条件2 / 土地の登記記録に登記されたもの / 土地の登記記録 / 条件3 / 専有部分と分離して処分することができない / 3つの条件をすべて満たす権利が、敷地権 | — |
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
 | コマ3 図 | 図・カード | よくある勘違い / 敷地権は、建物の登記記録に登記されたものをいう / ひっかけ：語句群に、建物と土地が並んでいる / 正しい整理 / 敷地権は、土地の登記記録に登記されたもので、専有部分と分離して処分できない / たとえば：マンションの敷地権の内容（誰がどれだけの持分か）は、敷地となっている土地の登記記録に記録される | — |
 | コマ3 | 藍子（左・1番目） | どうして、土地の登記記録なんですか？ | — |
@@ -95,7 +95,7 @@ PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a ful
 - Label tab: 「②　出題者のねらい」
 - A full-width concept diagram fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「敷地権の定義を、一字ずつ言えるか」.
 - Three cards in a row from left to right, all with the same pale gray fill, a dark navy outline, and a dark navy number badge and heading, with no marks. Card 1, heading 「条件1」, body 「専有部分を所有するための、建物の敷地に関する権利」. Card 2, heading 「条件2」, body 「土地の登記記録に登記されたもの」, with the part 「土地の登記記録」 in a yellow highlighter marker. Card 3, heading 「条件3」, body 「専有部分と分離して処分することができない」.
-- At the bottom, one wide dark navy band with white text 「3つの条件をすべて満たす権利が、敷地権」, with a small tag 「法44条1項9号」.
+- At the bottom, one wide dark navy band with white text 「3つの条件をすべて満たす権利が、敷地権」,.
 - There is no check mark and no cross anywhere in this panel.
 
 PANEL 3 (surprised then convinced mood; both characters appear ONLY as very small round face icons (heads only, each about 80 px across, never larger than one fifth of the panel height, no bodies and no hands): the face icon of 藍子 sits at the left edge and the face icon of トリ先生 at the right edge of the panel; each speech bubble tail points to the face icon of its own speaker, and the bubbles form a rally of short alternating lines stacked from top to bottom (藍子 first), so that the large diagram or the large explanation card fills the panel):
@@ -130,7 +130,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 建, 所, 権, 物, 登, 解, 記, 違, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 地, 建, 所, 権, 物, 登, 解, 記, 違, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the face icons and the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -198,7 +198,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D1366_prompt.md` が NG 0件
 - [ ] 工程C：初見の読者：コマ1の建物と土地の関係と、コマ2の3つの条件、コマ3の左右のカードが対応している
 - [ ] 工程C：5点が、コマ1の事案図、コマ2の「出題者のねらい」タグ、コマ3の「ひっかけ」タグと左右のカード、コマ4の暗記3点として読み取れる
-- [ ] 工程C：構成表の全文言を記事（H30-Q11⑥）と突き合わせ：「建物の敷地に関する権利」「土地の登記記録」「専有部分と分離して処分することができない」「職権で」「法44条1項9号」
+- [ ] 工程C：構成表の全文言を記事（H30-Q11⑥）と突き合わせ：「建物の敷地に関する権利」「土地の登記記録」「専有部分と分離して処分することができない」「職権で」
 - [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（small→none→faces→両方）。結論は×（建物の登記記録に登記されたもの、という記述が誤り）
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
@@ -214,7 +214,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
 ## v01：新規作成（2026-10-09）。一問一答で誤解が3回になった肢（4コマ未作成）。構成表の組み方（パターン集C 概念の区別型）と一発合格のための作成ルールに沿って設計した。ChatGPTでの画像生成・検品はまだ。
+- 条文番号の扱い（2026-10-09）：苦手分析⑳の作成で、H30-Q11の記事が「土地の登記記録に登記された」の根拠とする不動産登記法44条1項9号は、実際の文言が「敷地利用権（登記されたものに限る。）」で、その語がないと分かった。そのためコマ2の図から「法44条1項9号」のタグを外し、試験の問題文の言い回しとして扱う。
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
+- 2026-10-09 v01：コマ2の図から条文番号のタグを削除（根拠条文の文言と問題文の言い回しの違いに対応）
