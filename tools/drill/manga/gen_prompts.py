@@ -45,9 +45,13 @@ OPPOSITE_LX = ("IMPORTANT: the two comparison cards must show OPPOSITE marks, no
 def article_title(i, src): return f"【土地家屋調査士受験生向け】4コマ解説図解{i}～{src}～"
 
 def src_label(src):
-    m = re.match(r"([HR])(\d+)-Q(\d+)(.+)$", src)
-    era = "平成" if m.group(1) == "H" else "令和"; y = int(m.group(2))
-    return f"{era}{'元' if (era == '令和' and y == 1) else y}年度　第{int(m.group(3))}問　{m.group(4)}"
+    """出典の表記を「平成21年度　第1問　ウ」の形にする。複数年度は「／」で区切って書く（例：H23-Q12イ・オ／H27-Q05ウ）。"""
+    outs = []
+    for part in src.split("／"):
+        m = re.match(r"([HR])(\d+)-Q(\d+)(.+)$", part)
+        era = "平成" if m.group(1) == "H" else "令和"; y = int(m.group(2))
+        outs.append(f"{era}{'元' if (era == '令和' and y == 1) else y}年度　第{int(m.group(3))}問　{m.group(4)}")
+    return "／".join(outs)
 
 def lead_text(lead1, src):
     return (lead1 + "\n\n択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（" + src_label(src) + "）。"

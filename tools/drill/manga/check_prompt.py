@@ -139,10 +139,14 @@ def main():
         else:
             p1, p2, p3 = paras
             if tm:
-                sm = re.match(r"([HR])(\d+)-Q(\d+)(.+)$", tm.group(3))
-                if sm:
+                labs = []
+                for part_ in tm.group(3).split("／"):   # 複数年度は「／」で区切る（例：H23-Q12イ・オ／H27-Q05ウ）
+                    sm = re.match(r"([HR])(\d+)-Q(\d+)(.+)$", part_)
+                    if not sm: labs = None; break
                     era = "平成" if sm.group(1) == "H" else "令和"; yy = int(sm.group(2))
-                    lab = f"{era}{'元' if (era == '令和' and yy == 1) else yy}年度　第{int(sm.group(3))}問　{sm.group(4)}"
+                    labs.append(f"{era}{'元' if (era == '令和' and yy == 1) else yy}年度　第{int(sm.group(3))}問　{sm.group(4)}")
+                if labs:
+                    lab = "／".join(labs)
                     want2 = f"択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（{lab}）。"
                     if p2 != want2: NG(f"冒頭文の2段落目が定型と違う。期待：{want2}")
                     if p3 != "先に〇か×かを考えてから、読み進めてみてください。": NG("冒頭文の3段落目が定型と違う。期待：先に〇か×かを考えてから、読み進めてみてください。")
