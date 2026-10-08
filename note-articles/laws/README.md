@@ -33,6 +33,7 @@
 | `fudousan-touki-kisoku-R6-0624-version.md` | 不動産登記規則（令和6年6月24日施行時点版。e-Gov HTMLから変換） | **過去の時点版**。現行版は `fudousan-touki-kisoku-1.md`〜`-3.md`。令和6年4月の相続登記義務化施行直後の規則37条の3等の確認用 |
 | `kaisei-minpou-nado-R3-houritsu24.md` | 民法等の一部を改正する法律（令和3年法律第24号）改め文 | 民法（共有・隣地使用・相続等）、不動産登記法等の改正内容 |
 | `kaisei-shourei-R5-houmu33-fudousan-toki-kisoku-nado.md` | 不動産登記規則等の一部を改正する省令（令和5年法務省令第33号）新旧対照表 | 令和5年7月28日 |
+| `kaisei-shourei-R6-houmu7-fudousan-toki-kisoku-nado.md` | 不動産登記規則等の一部を改正する省令（令和6年法務省令第7号。令和6年3月1日）新旧対照表・附則（全103ページ） | 元PDFが文字情報のない画像のため**ページ画像を目で読んで書き起こした**もの。誤読の可能性あり。条番号・数字は原本PDFで確認すること。相続人申告登記・規則37条の3・法定相続情報番号の改正を含む |
 | `tsutatsu-R5-minji2-927-souzoku-toki-gimuka.md` | 法務省民二第927号（令和5年9月12日）相続登記等の申請義務化関係 | 令和6年4月1日施行分 |
 | `tsutatsu-R6-minji2-535-souzokunin-shinkoku.md` | 法務省民二第535号（令和6年3月15日、令和8年2月2日一部改正）相続人申告登記関係 | |
 | `tsutatsu-R6-minji2-555-daitai-sochi.md` | 法務省民二第555号（令和6年4月1日）登記事項証明書等における代替措置関係 | |
