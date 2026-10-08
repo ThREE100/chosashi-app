@@ -18,12 +18,13 @@ def NG(m): ng.append(m)
 def WARN(m): warn.append(m)
 
 SECOND_RESULT = None
+THIRD_RESULT = None
 
-def derive_second(primary, second):
+def derive_second(primary, second, n="2", letter="B"):
     """第一案のファイルの構成表・プロンプト本体・設計メモを、第二案（構成表2・プロンプト本体2・設計メモ2）に差し替えた検査用の文書を作る。"""
-    t2 = re.search(r"### 構成表2（文言の正本）\n\n((?:\|.*\n)+)", second)
-    b2 = re.search(r"### プロンプト本体2\n\n```text\n(.*?)```", second, re.S)
-    d2 = re.search(r"### 設計メモ2（工程A）\n(.*?)\n\n### ", second, re.S)
+    t2 = re.search(r"### 構成表" + n + r"（文言の正本）\n\n((?:\|.*\n)+)", second)
+    b2 = re.search(r"### プロンプト本体" + n + r"\n\n```text\n(.*?)```", second, re.S)
+    d2 = re.search(r"### 設計メモ" + n + r"（工程A）\n(.*?)\n\n### ", second, re.S)
     if not (t2 and b2 and d2): return None
     out = re.sub(r"(## 構成表（文言の正本）\n\n)((?:\|.*\n)+)", lambda m: m.group(1) + t2.group(1), primary, count=1)
     out = re.sub(r"```text\n.*?```", lambda m: "```text\n" + b2.group(1) + "```", out, count=1, flags=re.S)
@@ -31,19 +32,19 @@ def derive_second(primary, second):
     fm = re.search(r"(^## 画像ファイル名[^\n]*\n)(.*?)(?=^## |\Z)", out, re.M | re.S)
     if fm:
         sec = fm.group(2)
-        for a, b in (("～_見出し_v01.png", "～_B案_見出し_v01.png"), ("～_見出し.png", "～_B案_見出し.png"), ("～_v01.png", "～_B案_v01.png"), ("～.png", "～_B案.png")):
+        for a, b in ((f"～_見出し_v01.png", f"～_{letter}案_見出し_v01.png"), ("～_見出し.png", f"～_{letter}案_見出し.png"), ("～_v01.png", f"～_{letter}案_v01.png"), ("～.png", f"～_{letter}案.png")):
             sec = sec.replace(a, b)
         out = out[:fm.start(2)] + sec + out[fm.end(2):]
     return out
 
-def check_second(path, primary, second, flags):
+def check_second(path, primary, second, flags, n="2", letter="B"):
     import tempfile
-    doc = derive_second(primary, second)
+    doc = derive_second(primary, second, n, letter)
     if doc is None:
-        return (1, "NG   第二案の節に「### 構成表2（文言の正本）」「### プロンプト本体2」「### 設計メモ2（工程A）」のどれかがない\n")
+        return (1, f"NG   第{n}案の節に「### 構成表{n}（文言の正本）」「### プロンプト本体{n}」「### 設計メモ{n}（工程A）」のどれかがない\n")
     d = pathlib.Path(tempfile.mkdtemp())
     base = path.name.replace("_prompt.md", "")
-    tmp = d / f"{base}-B案_prompt.md"
+    tmp = d / f"{base}-{letter}案_prompt.md"
     tmp.write_text(doc, encoding="utf8")
     r = subprocess.run([sys.executable, str(pathlib.Path(__file__).resolve()), str(tmp)] + flags, capture_output=True, text=True)
     return (r.returncode, r.stdout)
@@ -54,11 +55,18 @@ def main():
         print(__doc__); sys.exit(2)
     path = pathlib.Path(args[0]); src = path.read_text(encoding="utf8")
     # 第二案（B案）の節（ファイル末尾の「## 第二案（B案）」以降）があるときは、第一案の検査から外し、第二案を別に検査する（2026-10-09追加）
-    global SECOND_RESULT
-    i2 = src.find("\n## 第二案（B案）")
-    if i2 >= 0:
-        primary, second = src[:i2 + 1], src[i2 + 1:]
-        SECOND_RESULT = check_second(path, primary, second, [a for a in sys.argv[1:] if a.startswith("--")])
+    global SECOND_RESULT, THIRD_RESULT
+    i2 = src.find("\n## 第二案（B案）"); i3 = src.find("\n## 第三案（C案）")
+    cuts = [i for i in (i2, i3) if i >= 0]
+    if cuts:
+        flags = [a for a in sys.argv[1:] if a.startswith("--")]
+        primary = src[:min(cuts) + 1]
+        if i2 >= 0:
+            second = src[i2 + 1:(i3 + 1 if i3 > i2 else len(src))]
+            SECOND_RESULT = check_second(path, primary, second, flags, "2", "B")
+        if i3 >= 0:
+            third = src[i3 + 1:(i2 + 1 if i2 > i3 else len(src))]
+            THIRD_RESULT = check_second(path, primary, third, flags, "3", "C")
         src = primary
     m = re.search(r"```text\n(.*?)```", src, re.S)
     if not m: NG("```text のプロンプト本体が見つからない"); return report()
@@ -70,7 +78,7 @@ def main():
 
     # 0-pre 4コマの目的（2026-10-09 ユーザー指示。D1888）：出題者のひっかけ・受験者の勘違い・対比する制度を、設計メモに書き、図か台詞に入れる
     memo = re.search(r"## 設計メモ（工程A）\n(.*?)\n\n## ", src, re.S)
-    strict_purpose = "B案" in path.name or path.name == "D0314-B_prompt.md"
+    strict_purpose = "B案" in path.name or "C案" in path.name or path.name == "D0314-B_prompt.md"
     def PURPOSE(m): (NG if strict_purpose else WARN)(m if strict_purpose else "（旧版・改修時に直す）" + m)
     if memo:
         mt = memo.group(1)
@@ -159,7 +167,8 @@ def main():
     if not fm: NG("「## 画像ファイル名」がない")
     elif tm:
         base = f"4コマ解説図解{tm.group(2)}～{tm.group(3)}～"
-        if "B案" in path.name or path.name == "D0314-B_prompt.md": base += "_B案"  # 別案（B案）のファイルは、画像名に_B案を付ける（D0314はB案を採用して D0314-B_prompt.md に一本化）
+        if "C案" in path.name: base += "_C案"
+        elif "B案" in path.name or path.name == "D0314-B_prompt.md": base += "_B案"  # 別案（B案）のファイルは、画像名に_B案を付ける（D0314はB案を採用して D0314-B_prompt.md に一本化）
         for need in (f"| {base}.png |", f"| {base}_見出し.png |", f"{base}_v01.png"):
             if need not in fm.group(1): NG(f"画像ファイル名の表に次がない: {need}")
 
@@ -345,6 +354,10 @@ def report():
         print("---- 第二案（構成表2・プロンプト本体2）の検査 ----")
         print(SECOND_RESULT[1], end="")
         rc = rc or SECOND_RESULT[0]
+    if THIRD_RESULT is not None:
+        print("---- 第三案（構成表3・プロンプト本体3）の検査 ----")
+        print(THIRD_RESULT[1], end="")
+        rc = rc or THIRD_RESULT[0]
     sys.exit(rc)
 
 main()

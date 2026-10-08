@@ -82,7 +82,7 @@ TITLE BANNER: text 「住所が違っていても、合体による登記等は�
 
 PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　よくある思い込み」
-- Small diagram in the middle: two small building icons side by side labeled 「甲建物」 and 「乙建物」, and one faceless pictogram with tag 「Ａ」 standing beside them. A small plate above the pictogram reads 「登記記録の住所と今の住所が違う」, and a small question badge reads 「先に変更登記は要る？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ（合体前の建物の所有権の登記名義人）」.
+- Small diagram in the middle: two small building icons side by side labeled 「甲建物」 and 「乙建物」, and one faceless pictogram in a light gray-blue color with a dark navy tag 「Ａ」 standing beside them. A small plate above the pictogram reads 「登記記録の住所と今の住所が違う」, and a small question badge reads 「先に変更登記は要る？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ（合体前の建物の所有権の登記名義人）」.
 - 藍子 bubble (left, spoken first): 「住所が変わっているなら、
 先に住所変更の登記が
 要りますよね？」 with the part 「先に住所変更の登記が要りますよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
@@ -93,7 +93,7 @@ PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: 
 PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
 - Label tab: 「②　証する情報を添える」
 - Three SEPARATE numbered cards in a row, left to right. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards.
-- Card 1: pictogram 「Ａ」 carrying a moving box; text 「①Ａが引っ越して住所が変わった」.
+- Card 1: a faceless pictogram in the same light gray-blue color with a dark navy tag 「Ａ」, carrying a moving box; text 「①Ａが引っ越して住所が変わった」.
 - Card 2: a document icon; text 「②住所の変更を証する情報（住民票など）を添える」.
 - Card 3: the two building icons 「甲建物」 and 「乙建物」 merged into one building; text 「③合体による登記等を申請」.
 - 藍子 bubble (left, spoken first): 「住所が変わったことは、
@@ -354,3 +354,138 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 - 2026-10-09 B案v01：初版（第二案）
 - 2026-10-09 B案v02：肝である『合体⇔合併で申請できる／できないが変わる』を4コマすべての柱に組み直し、設計メモに【出題者のひっかけ】【受験者の勘違い】【対比する制度】を追加（ユーザー指示：焦点がずれていた）
+
+## 第三案（C案）：構成表3とプロンプト本体3
+
+第三案（C案）。第一案（思い込み→証する情報を添える→合併との違い→結論）の流れは変えず、コマ3を『合併との違い』から『なぜ合体はよくて、合併はだめなのか』の理由の説明コマに作り替えた構成。どれか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第三案の本文画像は、保存名の末尾に `_C案` を付ける（例：`4コマ解説図解<ID>～<出典>～_C案.png`）。
+
+### 設計メモ3（工程A）
+- 【出題者のひっかけ】問題文の『住所の変更の登記を申請することなく』。住所がずれたら変更登記が先、という一本道の思い込みに乗せて『申請できない』と誤らせる。この肢（合体）は証する情報の提供で申請できるので〇。
+- 【受験者の勘違い・定着していない点】①住所がずれたらどの登記でも先に変更登記と思い込む。②合体と合併の結論を丸暗記し、『なぜ合併だけ先に変更登記が要るのか』の理由が定着していないため、合体の肢を合併と混ぜて誤る（理由が分かれば、肢が合体か合併かで迷わない）。
+- 【対比する制度】「合体」⇔「合併」：合体は証する情報で変更登記なしに申請できる、合併は先に住所の変更登記が要る（結論が逆）。理由は、合併は『所有権の登記名義人が相互に異なる建物の合併はできない』（法56条2号）ため登記記録の上で同じ人かを確かめる必要があり、住所が食い違うと証する情報を出しても記録の不一致が直らないから。合体は、住所が変わった『事実』を証する情報で示せば、『変更の登記』は省略できる。
+- 【第三案の位置づけ】第一案の流れ（思い込み→証する情報を添える→合併との違い→結論）を保ち、ユーザー指示（2026-10-09）で、コマ3を『なぜ合体はよくて、合併はだめなのか』の理由の説明コマにした。違い（結論）だけでなく、違いが出る理由を読み取れるようにする。
+- 理由の出典：合併側は法56条2号（法令DBで確認）と D1171（H28-Q14イ）の記事、合体側は D0995（H26-Q17オ）の記事。いずれも、D1888の記事にはない整理で、`extra_refs` に出典を書いた。『登記記録上の住所の一致』と『合体側の事実と変更登記は別物』は条文に明記がなく登記実務の取扱いなので、図の文言は断定を避けず記事の言い方（記録上の同一人の確認／事実を証する情報で足りる）にそろえる。
+- 登場人物：Ａ（合体前の建物の所有権の登記名義人）をコマ1で紹介。建物は人物ではなく「甲建物」「乙建物」の文字ラベルの建物アイコン。
+- 矢印の意味：矢印は使わない（コマ2は番号付きの3つの別カード、コマ3は上下2枚の理由カード）。取引・効力・手続の矢印の混同を避ける。
+- 会話順：藍子の誤解（先に住所変更の登記が要る）→住所の変更を証する情報を添える→なぜ合併だけ違うのか（理由）→結論（〇）。
+- 配色：コマ3は上下2枚のカードで逆の極性。合体＝青✓（事実を証する情報で足りる）、合併＝赤✕（記録の上で同じ人か確かめるので先に変更登記）。コマ4の暗記3点は青✓。
+
+### 構成表3（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 住所が違っていても、合体による登記等は申請できる | 「合体による登記等は申請できる」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　よくある思い込み | — |
+| コマ1 図 | 図・カード | 甲建物 / 乙建物 / Ａ / 登記記録の住所と今の住所が違う / 先に変更登記は要る？ / Ａ（合体前の建物の所有権の登記名義人） | — |
+| コマ1 | 藍子（左・先に話す） | 住所が変わっているなら、先に住所変更の登記が要りますよね？ | 「先に住所変更の登記が要りますよね？」 |
+| コマ1 | トリ先生（右・答える） | 出たわね。本当に先に要るのか、順に見なさい | — |
+| コマ2 見出し | ラベル | ②　証する情報を添える | — |
+| コマ2 図 | 図・カード | Ａ / ①Ａが引っ越して住所が変わった / ②住所の変更を証する情報（住民票など）を添える / 甲建物 / 乙建物 / ③合体による登記等を申請 | — |
+| コマ2 | 藍子（左・先に話す） | 住所が変わったことは、どう示すんですか？ | — |
+| コマ2 | トリ先生（右・答える） | 住所の変更を証する情報を添えればいいのよ | 「住所の変更を証する情報」 |
+| コマ3 見出し | ラベル | ③　なぜ合併はだめなの？ | — |
+| コマ3 図 | 図・カード | 合併がだめな理由 / 所有権の登記名義人が相互に異なる建物は、合併できない（法56条2号） / 住所が食い違うと、記録の上では同じ人と分からない / 証明書を出しても、記録の食い違いは直らない / 合体がよい理由 / 住所が変わった事実と、変更の登記は別物 / 事実は証する情報で示せるので、変更登記は省ける | — |
+| コマ3 | 藍子（左・先に話す） | どうして合併だけ、先に変更登記なんですか？ | — |
+| コマ3 | トリ先生（右・答える） | 合併は、記録の上で同じ人か確かめるからよ | 「同じ人か確かめる」 |
+| コマ4 見出し | ラベル | ④　結論は〇 | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 合体なら、住所変更の登記なしで申請できるんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。合併と混ぜないことよ | 「合併と混ぜない」 |
+| コマ4 チェック欄 | 3項目（青✓） | 合体：住所の変更を証する情報で申請できる / 合併：先に住所の変更登記が要る / 理由：合併は記録の上で同じ人か確かめる | — |
+| 結論帯 | 1行目 | 合体は証する情報で足り、合併は変更登記が先 | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D1888　正解〇（R05-Q16オ） | — |
+
+### 記事に無い条文（ユーザー指示で追加）
+
+- 不動産登記法56条2号：所有権の登記名義人が相互に異なる建物の合併の登記は、することができない（法令DB `fudousan-touki-hou.md` 第56条で確認）。同系統の肢 D1171（H28-Q14イ）の記事の整理：登記記録上の氏名・住所が食い違っていると、登記記録のうえでは同じ登記名義人と確認できないため、合併しようとする建物の登記記録上の住所は一致している必要がある（住所の一致を要件とする明文はなく、登記実務の取扱い）。住所の変更を証する情報を出しても、登記記録上の不一致は解消されない。
+- 合体の側の理由は、同系統の肢 D0995（H26-Q17オ）の記事の整理：『変更があった事実』と『変更の登記を経ること』は別物で、前者を証する情報（住民票の写しなど）で示せれば、後者を省略できる場面がある（この扱いを直接定めた条文は確認できず、登記実務の取扱い）。
+- 合併は住所変更登記が先に要る（D1790・R04-Q16オ）。図には、56条2号以外の条文番号は入れない。
+
+### プロンプト本体3
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers, and the full-width letters Ａ only where specified below. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. The legal parties Ａ are NOT characters: draw them only as small, faceless, flat pictogram figures, each with a small round label tag containing the full-width letter given in the text plan.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In all four panels 藍子 (the student) stands on the LEFT side of the panel and トリ先生 (the teacher) stands on the RIGHT side. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall).
+
+TITLE BANNER: text 「住所が違っていても、合体による登記等は申請できる」 in large bold letters; the part 「合体による登記等は申請できる」 has a yellow highlighter marker.
+
+PANEL 1 (藍子 confident, トリ先生 exasperated but caring; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　よくある思い込み」
+- Small diagram in the middle: two small building icons side by side labeled 「甲建物」 and 「乙建物」, and one faceless pictogram in a light gray-blue color with a dark navy tag 「Ａ」 standing beside them. A small plate above the pictogram reads 「登記記録の住所と今の住所が違う」, and a small question badge reads 「先に変更登記は要る？」 (a question badge only, with no check mark and no cross). Caption under the diagram: 「Ａ（合体前の建物の所有権の登記名義人）」.
+- 藍子 bubble (left, spoken first): 「住所が変わっているなら、
+先に住所変更の登記が
+要りますよね？」 with the part 「先に住所変更の登記が要りますよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「出たわね。
+本当に先に要るのか、
+順に見なさい」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (藍子 puzzled, トリ先生 explaining with a wing-pointer; 藍子's hands: one hand touches her chin and the other holds the clipboard at her side (two hands in total)):
+- Label tab: 「②　証する情報を添える」
+- Three SEPARATE numbered cards in a row, left to right. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards.
+- Card 1: a faceless pictogram in the same light gray-blue color with a dark navy tag 「Ａ」, carrying a moving box; text 「①Ａが引っ越して住所が変わった」.
+- Card 2: a document icon; text 「②住所の変更を証する情報（住民票など）を添える」.
+- Card 3: the two building icons 「甲建物」 and 「乙建物」 merged into one building; text 「③合体による登記等を申請」.
+- 藍子 bubble (left, spoken first): 「住所が変わったことは、
+どう示すんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「住所の変更を証する
+情報を添えれば
+いいのよ」 with the part 「住所の変更を証する情報」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
+- Label tab: 「③　なぜ合併はだめなの？」
+- Two stacked cards of the same size fill the center of the panel, top and bottom, with no arrow and no connector between them.
+- Top card, with a dark navy heading 「合併がだめな理由」, three short lines of body text 「所有権の登記名義人が相互に異なる建物は、合併できない（法56条2号）」, 「住所が食い違うと、記録の上では同じ人と分からない」, 「証明書を出しても、記録の食い違いは直らない」, and ONE red cross only (no check mark on this card).
+- Bottom card, with a dark navy heading 「合体がよい理由」, two short lines of body text 「住所が変わった事実と、変更の登記は別物」, 「事実は証する情報で示せるので、変更登記は省ける」, and ONE blue check mark only (no cross on this card).
+- 藍子 bubble (left, spoken first): 「どうして合併だけ、
+先に変更登記
+なんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「合併は、記録の上で
+同じ人か
+確かめるからよ」 with the part 「同じ人か確かめる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　結論は〇」
+- 藍子 bubble (left, spoken first): 「合体なら、住所変更の
+登記なしで申請
+できるんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+合併と混ぜない
+ことよ」 with the part 「合併と混ぜない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「合体：住所の変更を証する情報で申請できる」, 「合併：先に住所の変更登記が要る」, 「理由：合併は記録の上で同じ人か確かめる」.
+
+CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
+- Line 1: 「合体は証する情報で足り、合併は変更登記が先」 with a yellow highlighter marker.
+- Line 2: 「問題D1888　正解〇（R05-Q16オ）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm 藍子 is always on the left and トリ先生 always on the right and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 建, 当, 所, 権, 物, 登, 解, 記, 証, 請, 違, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+### 第三案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：矢印がなく、コマ2の3カードは番号①〜③で順序が分かる。Ａはコマ1で人型タグ付きで紹介されている
+- [ ] 工程C：肝の確認：コマ3で、合併がだめな理由（法56条2号・記録の上で同じ人か確かめる・証明書でも記録の不一致は直らない）と、合体がよい理由（事実と変更の登記は別物・証する情報で示せる）が、上下2枚のカードにそれぞれ書いてあり、コマ4の暗記3点にも結論と理由が入っている
+- [ ] 工程C：出典の確認：法56条2号は法令DBの第56条で確認済み。D1171・D0995の記事の整理は `extra_refs` に出典つきで書いてある。D1888の記事にない整理であることを、ユーザーに伝える
+- [ ] 工程C：コマ3の上下のカードのマークが逆で（合併＝赤✕、合体＝青✓）、同じカードに両方の印がない。結論は〇（この肢は合体）
+
+### 第三案の改訂履歴
+
+- 2026-10-09 C案v01：初版（第三案。第一案の流れを保ち、コマ3を『なぜ合体はよくて、合併はだめなのか』の理由の説明コマにした。ユーザー指示）

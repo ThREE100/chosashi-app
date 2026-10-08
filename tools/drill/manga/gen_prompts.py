@@ -287,7 +287,36 @@ def second_section(sp2):
         out += "\n### 第二案の改訂履歴\n\n" + "".join(f"- {r}\n" for r in sp2["rev"])
     return out
 
+THIRD_DIR = HERE / "specs3"
+
+def load_third():
+    """第三案の設計データ（specs3/<ID>.py の SPEC3）を読み込む。"""
+    d = {}
+    if THIRD_DIR.is_dir():
+        for f in sorted(THIRD_DIR.glob("D*.py")):
+            ns = {}; exec(compile(f.read_text(encoding="utf8"), str(f), "exec"), {"__name__": f.stem, "__file__": str(f)}, ns)
+            d[ns["SPEC3"]["id"]] = ns["SPEC3"]
+    return d
+
+def third_section(sp3):
+    """第三案（C案）の節：設計メモ3・構成表3・プロンプト本体3。第二案の後ろに置く。"""
+    body, rows = build(sp3)
+    out = "\n## 第三案（C案）：構成表3とプロンプト本体3\n\n"
+    out += (sp3.get("intro3") or "第三案（C案）。第一案をもとに、「なぜそうなるのか」の理由の説明コマを加えた別構成。") + \
+           "どれか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第三案の本文画像は、保存名の末尾に `_C案` を付ける（例：`4コマ解説図解<ID>～<出典>～_C案.png`）。\n\n"
+    out += "### 設計メモ3（工程A）\n" + "\n".join(f"- {m}" for m in sp3["design"]) + "\n\n"
+    out += "### 構成表3（文言の正本）\n\n| 領域 | 話者・用途 | 正確な文言 | 強調 |\n|---|---|---|---|\n"
+    out += "\n".join(f"| {a} | {b} | {c} | {d} |" for a, b, c, d in rows) + "\n\n"
+    if sp3.get("extra_refs"):
+        out += "### 記事に無い条文（ユーザー指示で追加）\n\n" + "".join(f"- {r}\n" for r in sp3["extra_refs"]) + "\n"
+    out += "### プロンプト本体3\n\n```text\n" + body + "\n```\n\n"
+    out += "### 第三案の品質ゲート（工程C）\n" + "".join(f"- [ ] 工程C：{c}\n" for c in sp3["review"])
+    if sp3.get("rev"):
+        out += "\n### 第三案の改訂履歴\n\n" + "".join(f"- {r}\n" for r in sp3["rev"])
+    return out
+
 SECOND = load_second()
+THIRD = load_third()
 
 def render(sp):
     body, rows = build(sp)
@@ -324,6 +353,8 @@ def render(sp):
         out += "\n## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）\n\n" + "".join(f"- {r}\n" for r in sp["rev"])
     if sp.get("fid", sp["id"]) == sp["id"] and sp["id"] in SECOND:   # 第一案のファイルにだけ、第二案を追記する
         out += second_section(SECOND[sp["id"]])
+    if sp.get("fid", sp["id"]) == sp["id"] and sp["id"] in THIRD:
+        out += third_section(THIRD[sp["id"]])
     return out
 
 def patch_d0520():

@@ -14,11 +14,11 @@ def main():
     if not ids: print(__doc__); sys.exit(2)
     i = ids[0]
     if i not in SPECS: print(f"SPECS に {i} がない"); sys.exit(2)
-    if i not in gen_prompts.SECOND: print(f"specs2/{i}.py（SPEC2）がない"); sys.exit(2)
+    if i not in gen_prompts.SECOND and i not in gen_prompts.THIRD: print(f"specs2/{i}.py（SPEC2）も specs3/{i}.py（SPEC3）もない"); sys.exit(2)
     text = gen_prompts.render(SPECS[i])
     d = pathlib.Path(tempfile.mkdtemp()); f = d / f"{i}_prompt.md"; f.write_text(text, encoding="utf8")
     if "--show" in sys.argv:
-        print(text[text.find("## 第二案（B案）"):]); print("=" * 60)
+        print(text[min(x for x in (text.find("## 第二案（B案）"), text.find("## 第三案（C案）")) if x >= 0):]); print("=" * 60)
     r = subprocess.run([sys.executable, str(HERE / "check_prompt.py"), str(f)], capture_output=True, text=True)
     print(r.stdout, end=""); print(r.stderr, end=""); sys.exit(r.returncode)
 
