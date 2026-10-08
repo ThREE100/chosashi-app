@@ -6,6 +6,9 @@
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
+- 【出題者のひっかけ】問題文の『住所の変更の登記を申請することなく』。住所がずれたら変更登記が先、という一本道の思い込みに乗せて『申請できない』と誤らせる。この肢（合体）は証する情報の提供で申請できるので〇。
+- 【受験者の勘違い・定着していない点】住所がずれたらどの登記でも先に変更登記と思い込む。逆に、合体の『変更登記なしでよい』を合併にも広げる。合体と合併を混ぜて覚え、肢が合体か合併かを読まない。
+- 【対比する制度】「合体」⇔「合併」：合体は証する情報で変更登記なしに申請できる、合併は先に住所の変更登記が要る（結論が逆）。合併の側は D1790（R04-Q16オ）の記事の整理で、この肢の記事には書いていない。条文番号は図に入れない。
 - 登場人物：Ａ（合体前の建物の所有権の登記名義人）をコマ1で紹介。建物は人物ではなく「甲建物」「乙建物」の文字ラベルの建物アイコン。
 - 矢印の意味：矢印は使わない（コマ2は番号付きの3つの別カード）。取引・効力・手続の矢印の混同を避ける。
 - 会話順：藍子の誤解（先に住所変更の登記が要る）→住所の変更を証する情報を添える→合併との違い→結論（〇）。
@@ -216,39 +219,46 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
 
 ### 設計メモ2（工程A）
-- 【第二案の位置づけ】第一案は定型（思い込み→証する情報→合併との違い→結論）で、コマ3に合体と合併の左右の対比カード（青✓・赤✕）を置いた。第二案は D0314-B と同じ型で、理解の壁を越える順（二つの進み方の図→押さえどころ→本番での読み方3ステップ→暗記3点）に組み替えた別構成。合併との対比は、この肢の記事（R05-Q16オ）に書いていないので使わない。
-- 【理解の壁】初見の読者は、『登記記録の住所と今の住所が違う→まず住所の変更登記で直してから申請する』と一本道で考える。そのため、住所が変更されたことを証する情報を提供すれば、変更登記を先に済ませなくても申請できるという、もう一つの進み方があることが見えない。
-- 【定型からの変更点】①「ひっかけと勘違い」の左右の対比カード（赤✕・青✓）を使わず、合併との対比も使わない。②コマ1を『よくある思い込み』の会話ではなく、住所がずれたＡが合体による登記等に進む二つの進み方（先に変更登記を済ませる／証する情報を添える）を並べる図にする（壁そのものを見せる）。③コマ2を『住所の変更は、証する情報で示せる』の押さえどころカードにし、記事の具体例（Ａが引っ越し、住民票などを添える）を帯に置く。④コマ3を本番での読み方3ステップにし、ひっかけ（問題文の『住所の変更の登記を申請することなく』）をステップ2に入れる。⑤コマ4を暗記3点と結論にする。
-- 押さえどころ（記事の範囲）：(1) 合体前の建物の登記名義人の住所が現在の住所と異なっていても、住所が変更されたことを証する情報を提供すれば、住所の変更登記を先に済ませることなく、合体による登記等を申請できる。(2) 氏名や住所の変更登記を必ず前提としなければならないわけではない。(3) 記事の具体例：Ａが2棟の建物を持ち、引っ越して住所が変わった。住民票などの書面を添えれば、そのまま申請できる（二度手間にならずに済む）。
-- 登場人物：Ａ（合体前の建物の所有権の登記名義人）だけ。コマ1の図で人型タグ付きで紹介してから使う。Ａ以外の人物は出さない。
-- 矢印の意味：矢印は1種類だけで、意味は『次にすること』。コマ1の二つの進み方の各段に1本ずつ（左のカードから右のカードへ）。コマ2・3は矢印も連結線も使わない。
-- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。人物は薄い灰青、カードは薄い灰色・濃紺の枠、帯・リボンは濃紺の地に白文字、強調は黄色マーカーだけ。
+- 【出題者のひっかけ】問題文の『住所の変更の登記を申請することなく』。住所がずれたら変更登記が先、という一本道の思い込みに乗せて、『申請できない』と誤らせようとしている。この肢（合体）は、住所の変更を証する情報を提供すれば申請できるので、正しい（〇）。
+- 【受験者の勘違い・定着していない点】①住所がずれたら、どの登記でもまず住所の変更登記が先に要ると思い込む。②逆に、合体で『変更登記なしでよい』と覚えたものを、合併にも広げてしまう。合体と合併を混ぜて覚え、肢の登記が合体か合併かを読まずに答えてしまう。
+- 【対比する制度】「合体」⇔「合併」：合体による登記等は、住所の変更を証する情報を提供すれば、変更登記なしで申請できる。合併の登記は、住所が一致しないと同一人として扱われず、先に住所の変更登記をしないと申請できない（結論が逆になる）。合併の側は D1790（R04-Q16オ）の記事の整理で、この肢の記事（R05-Q16オ）には書いていない。条文番号は図に入れない。
+- 【第二案の位置づけ】第一案は定型（思い込み→証する情報→合併との違い→結論）。第二案は D0314-B と同じ型で、理解の壁を越える順（しくみ図→押さえどころ→本番での読み方3ステップ→暗記3点）に組み替えた別構成。ただし肝である『合体と合併で申請できる／できないが変わる』は、4コマすべての柱にする。
+- 【理解の壁】初見の読者は、『住所が違う→どんな登記でも先に住所の変更登記』と一本道で考える。実は、登記の種類（合体か合併か）で、証する情報で足りるか、先に変更登記が必要かが分かれる。
+- 【定型からの変更点】①コマ1を、住所がずれたＡが『合体』と『合併』の二つに進む場合の並置図にする（壁そのものを見せる）。②コマ2を『合体と合併では、申請できるかが逆』の押さえどころ（左右2枚、印は1枚に1個）にする。③コマ3を本番での読み方3ステップにし、ステップ1で『合体か合併か』を読むことを置く。ひっかけ（住所の変更の登記を申請することなく）はステップ2。④コマ4を暗記3点と結論にする。
+- 押さえどころ（記事の範囲）：(1) 合体前の建物の登記名義人の住所が現在の住所と異なっていても、住所が変更されたことを証する情報を提供すれば、住所の変更登記を先に済ませることなく、合体による登記等を申請できる（R05-Q16オ）。(2) 具体例：Ａが引っ越し、住民票などを添えればそのまま申請できる。(3) 合併は逆で、先に住所の変更登記が要る（D1790）。
+- 登場人物：Ａ（建物の所有権の登記名義人）だけ。コマ1の図で人型タグ付きで紹介してから使う。Ａ以外の人物は出さない。
+- 矢印の意味：矢印は1種類だけで、意味は『次にすること』。コマ1の二つの進み方に各1本（カードから右のカードへ）。コマ2・3は矢印も連結線も使わない。
+- 配色：コマ1・3は印（✓✕）を付けない。コマ2は左右の対比で、合体の側に青✓を1個だけ、合併の側に赤✕を1個だけ（逆の極性）。コマ4の暗記3点は青✓。人物は薄い灰青、カードは薄い灰色・濃紺の枠、帯・リボンは濃紺の地に白文字、強調は黄色マーカーだけ。
 - コマの使い方：コマ1＝side（キャラは通常の大きさで左右の端。図は中央）、コマ2＝none（押さえどころカードだけ）、コマ3＝faces（左に図、右に会話の縦並び。会話4つ＝顔4つ＝4行）、コマ4＝両方。
 
 ### 構成表2（文言の正本）
 
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
-| タイトル帯 | — | 住所が違っても、証する情報で申請できる | 「証する情報で申請できる」を黄色マーカー |
-| コマ1 見出し | ラベル | ①　住所のずれ、どう進める？ | — |
-| コマ1 図 | 図・カード | Ａ / 合体前の建物の所有権の登記名義人 / 登記記録の住所と今の住所が違う / 先に変更登記を済ませる進み方 / 住所の変更の登記 / 次に / 合体による登記等 / 証する情報を添える進み方 / 住所の変更を証する情報を添える / 住所の変更登記は、先に要る？ | — |
-| コマ1 | 藍子（左・先に話す） | 住所が違うなら、直すのが先ですよね？ | — |
-| コマ1 | トリ先生（右・答える） | 先に直すだけが道じゃないのよ | 「道じゃない」 |
-| コマ2 見出し | ラベル | ②　住所は証する情報で示せる | — |
-| コマ2 図 | 図・カード | 押さえどころ / 変更登記は、必ず前提ではない / 必ず前提ではない / 提供すれば / 証する情報 / 住所が変更されたことを示す書面（住民票など） / 合体による登記等 / 住所の変更登記を先に済ませることなく、申請できる / たとえば：Ａが引っ越して住所が変わっても、住民票などを添えれば、そのまま申請できる | — |
+| タイトル帯 | — | 住所がずれたら、合体と合併で進み方が違う | 「合体と合併で進み方が違う」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　合体と合併、進み方が違う | — |
+| コマ1 図 | 図・カード | Ａ / 建物の所有権の登記名義人 / 登記記録の住所と今の住所が違う / 合体の場合 / 住所の変更を証する情報を添える / 次に / 合体による登記等を申請 / 合併の場合 / 住所の変更の登記 / 合併の登記を申請 / 住所の変更登記は、先に要る？ | — |
+| コマ1 | 藍子（左・先に話す） | 住所が違うなら、どちらも直すのが先ですよね？ | — |
+| コマ1 | トリ先生（右・答える） | 合体と合併で、進み方が違うのよ | 「進み方が違う」 |
+| コマ2 見出し | ラベル | ②　申請できるかが、逆になる | — |
+| コマ2 図 | 図・カード | 押さえどころ / 合体と合併は、結論が逆 / 結論が逆 / 合体 / 住所の変更を証する情報を提供すれば、変更登記を先に済ませることなく、申請できる / 合併 / 先に住所の変更の登記をしないと、申請できない / たとえば：Ａが引っ越して住所が変わったとき、住民票などを添えれば、合体はそのまま申請できる | — |
 | コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
-| コマ3 図 | 図・カード | ステップ1　住所がずれる場面か見る / 合体前の建物の登記名義人の住所が、今と違うか / ステップ2　変更登記の言い方を見る / ひっかけ：住所の変更の登記を申請することなく / 変更登記は、必ず前提ではない / ステップ3　証する情報を探す / 証する情報の提供が書いてあるか | — |
-| コマ3 | 藍子（左・1番目） | 変更登記をしないなんて、変ですよね？ | — |
-| コマ3 | トリ先生（右・2番目） | 必ず前提ではないのよ | 「必ず前提ではない」 |
-| コマ3 | 藍子（左・3番目） | かわりに、何を出すんですか？ | — |
-| コマ3 | トリ先生（右・4番目） | 住所の変更を証する情報よ | 「証する情報」 |
+| コマ3 図 | 図・カード | ステップ1　合体か合併かを見る / 登記の名前で、進み方が分かれる / ステップ2　変更登記の言い方を見る / ひっかけ：住所の変更の登記を申請することなく / 合体なら、これで足りる。合併なら、足りない / ステップ3　証する情報を探す / 合体なら、証する情報の提供が書いてあるか | — |
+| コマ3 | 藍子（左・1番目） | まず、何を見ればいいですか？ | — |
+| コマ3 | トリ先生（右・2番目） | 合体か合併か、登記の名前よ | 「合体か合併か」 |
+| コマ3 | 藍子（左・3番目） | この肢は、合体ですね。次は？ | — |
+| コマ3 | トリ先生（右・4番目） | 変更登記なしで、証する情報で足りるのよ | 「証する情報で足りる」 |
 | コマ4 見出し | ラベル | ④　これだけ覚える | — |
 | コマ4 図 | 図・カード |  | — |
-| コマ4 | 藍子（左・先に話す） | 証する情報があれば、先に直さなくていいんですね！ | — |
-| コマ4 | トリ先生（右・答える） | そのとおり。二度手間にならないのよ | 「二度手間にならない」 |
-| コマ4 チェック欄 | 3項目（青✓） | 住所が変更されたことを証する情報を提供する / 住所の変更登記は、先に済ませなくてよい / 合体による登記等を申請できる | — |
-| 結論帯 | 1行目 | 証する情報があれば、変更登記なしで申請できる | 黄色マーカー |
+| コマ4 | 藍子（左・先に話す） | 合体なら、先に直さなくていいんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。合併は逆だから、気をつけなさい | 「合併は逆」 |
+| コマ4 チェック欄 | 3項目（青✓） | 合体：住所の変更を証する情報で、変更登記なしで申請できる / 合併：先に住所の変更の登記が要る / 問題文の登記が、合体か合併かを最初に読む | — |
+| 結論帯 | 1行目 | 合体は証する情報で足り、合併は変更登記が先 | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D1888　正解〇（R05-Q16オ） | — |
+
+### 記事に無い条文（ユーザー指示で追加）
+
+- 合併との対比は、同じ系統の肢 D1790（R04-Q16オ）の記事による：合併は、住所が一致しないと同一人として扱われず、変更を証する情報を提供して申請することもできないので、先に住所の変更の登記が要る（先例に基づく実務の取扱いで、条文に明記なし）。図に条文番号は入れない。
 
 ### プロンプト本体2
 
@@ -274,69 +284,73 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
 - Conclusion banner at the bottom (about 110 px tall).
 
-TITLE BANNER: text 「住所が違っても、証する情報で申請できる」 in large bold letters; the part 「証する情報で申請できる」 has a yellow highlighter marker.
+TITLE BANNER: text 「住所がずれたら、合体と合併で進み方が違う」 in large bold letters; the part 「合体と合併で進み方が違う」 has a yellow highlighter marker.
 
 PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each about 190 px tall, roughly half of the panel height, with the same full-body look as in the other panels): 藍子 at the left edge and トリ先生 at the right edge, both standing in the lower part of the panel (see the LAYOUT lines below); 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
-- Label tab: 「①　住所のずれ、どう進める？」
+- Label tab: 「①　合体と合併、進み方が違う」
 - LAYOUT (side characters): 藍子 stands at the left edge and トリ先生 at the right edge at the normal size, each taking only the outer 22% of the panel width, with their speech bubbles in the upper part above their own heads and never covering the diagram. The diagram described in the lines below is drawn large in the CENTER region only, between the two characters (about 56% of the panel width and the full panel height below the label tab); wherever a line below says the diagram fills the panel, it means this center region. The characters never overlap the diagram.
-- A large two-row diagram fills the panel. At the left of the panel stands one faceless pictogram in a light gray-blue color with a dark navy tag 「Ａ」 (small label 「合体前の建物の所有権の登記名義人」), with a small white plate above it reading 「登記記録の住所と今の住所が違う」.
-- Top row, a thin dark navy heading 「先に変更登記を済ませる進み方」: a card 「住所の変更の登記」 and one dark navy arrow labeled 「次に」 running to a card 「合体による登記等」.
-- Bottom row, a thin dark navy heading 「証する情報を添える進み方」: a card 「住所の変更を証する情報を添える」 and one dark navy arrow labeled 「次に」 running to the same kind of card 「合体による登記等」 (both arrows mean only the next thing to do; there are exactly two arrows in the whole panel).
+- A large two-row diagram fills the panel. At the left of the panel stands one faceless pictogram in a light gray-blue color with a dark navy tag 「Ａ」 (small label 「建物の所有権の登記名義人」), with a small white plate above it reading 「登記記録の住所と今の住所が違う」.
+- Top row, a thin dark navy heading 「合体の場合」: a card 「住所の変更を証する情報を添える」 and one dark navy arrow labeled 「次に」 running to a card 「合体による登記等を申請」.
+- Bottom row, a thin dark navy heading 「合併の場合」: a card 「住所の変更の登記」 and one dark navy arrow labeled 「次に」 running to a card 「合併の登記を申請」 (both arrows mean only the next thing to do; there are exactly two arrows in the whole panel).
 - A small question badge 「住所の変更登記は、先に要る？」 sits at the top (a question badge only, with no check mark and no cross).
 - 藍子 bubble (left, spoken first): 「住所が違うなら、
-直すのが先ですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「先に直すだけが
-道じゃないのよ」 with the part 「道じゃない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+どちらも直すのが
+先ですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「合体と合併で、
+進み方が違うのよ」 with the part 「進み方が違う」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
-- Label tab: 「②　住所は証する情報で示せる」
-- A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「変更登記は、必ず前提ではない」, with the part 「必ず前提ではない」 in a yellow highlighter marker.
-- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, joined in the middle by a small plain dark navy label 「提供すれば」 (a label only, no arrow). Left card, heading 「証する情報」, body 「住所が変更されたことを示す書面（住民票など）」. Right card, heading 「合体による登記等」, body 「住所の変更登記を先に済ませることなく、申請できる」.
-- At the bottom, one wide dark navy band with white text 「たとえば：Ａが引っ越して住所が変わっても、住民票などを添えれば、そのまま申請できる」.
-- There is no check mark and no cross anywhere in this panel.
+- Label tab: 「②　申請できるかが、逆になる」
+- A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「合体と合併は、結論が逆」, with the part 「結論が逆」 in a yellow highlighter marker.
+- Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading. The two cards have the same size.
+- Left card, heading 「合体」, body 「住所の変更を証する情報を提供すれば、変更登記を先に済ませることなく、申請できる」, with ONE blue check mark only (no cross on this card).
+- Right card, heading 「合併」, body 「先に住所の変更の登記をしないと、申請できない」, with ONE red cross only (no check mark on this card).
+- At the bottom, one wide dark navy band with white text 「たとえば：Ａが引っ越して住所が変わったとき、住民票などを添えれば、合体はそのまま申請できる」.
 
 PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
 - Label tab: 「③　本番での読み方3ステップ」
 - LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
-- Step card 1: heading 「ステップ1　住所がずれる場面か見る」, body 「合体前の建物の登記名義人の住所が、今と違うか」.
-- Step card 2: heading 「ステップ2　変更登記の言い方を見る」, a dark navy ribbon tag with large white text 「ひっかけ：住所の変更の登記を申請することなく」, body 「変更登記は、必ず前提ではない」.
-- Step card 3: heading 「ステップ3　証する情報を探す」, body 「証する情報の提供が書いてあるか」.
+- Step card 1: heading 「ステップ1　合体か合併かを見る」, body 「登記の名前で、進み方が分かれる」.
+- Step card 2: heading 「ステップ2　変更登記の言い方を見る」, a dark navy ribbon tag with large white text 「ひっかけ：住所の変更の登記を申請することなく」, body 「合体なら、これで足りる。合併なら、足りない」.
+- Step card 3: heading 「ステップ3　証する情報を探す」, body 「合体なら、証する情報の提供が書いてあるか」.
 - There is no check mark and no cross anywhere in this panel.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「変更登記をしない
-なんて、変ですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「必ず前提では
-ないのよ」 with the part 「必ず前提ではない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「かわりに、
-何を出すんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「住所の変更を
-証する情報よ」 with the part 「証する情報」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「まず、何を
+見ればいいですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「合体か合併か、
+登記の名前よ」 with the part 「合体か合併か」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「この肢は、合体ですね。
+次は？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「変更登記なしで、
+証する情報で
+足りるのよ」 with the part 「証する情報で足りる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　これだけ覚える」
-- 藍子 bubble (left, spoken first): 「証する情報があれば、
+- 藍子 bubble (left, spoken first): 「合体なら、
 先に直さなくて
 いいんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。
-二度手間に
-ならないのよ」 with the part 「二度手間にならない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「住所が変更されたことを証する情報を提供する」, 「住所の変更登記は、先に済ませなくてよい」, 「合体による登記等を申請できる」.
+合併は逆だから、
+気をつけなさい」 with the part 「合併は逆」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「合体：住所の変更を証する情報で、変更登記なしで申請できる」, 「合併：先に住所の変更の登記が要る」, 「問題文の登記が、合体か合併かを最初に読む」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
-- Line 1: 「証する情報があれば、変更登記なしで申請できる」 with a yellow highlighter marker.
+- Line 1: 「合体は証する情報で足り、合併は変更登記が先」 with a yellow highlighter marker.
 - Line 2: 「問題D1888　正解〇（R05-Q16オ）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 建, 所, 押, 権, 物, 番, 登, 解, 記, 証, 請, 違, 録, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 初, 建, 所, 押, 権, 物, 番, 登, 肢, 解, 記, 証, 請, 違, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ### 第二案の品質ゲート（工程C）
-- [ ] 工程C：初見の読者：コマ1の図で、住所がずれたＡが、先に変更登記を済ませる進み方と、証する情報を添える進み方の二つから合体による登記等に進める、と言える。矢印は『次にすること』の1種類だけ
-- [ ] 工程C：押さえどころ（証する情報を提供すれば変更登記を先に済ませなくてよい・必ず前提ではない・住民票などの具体例）がコマ1〜4のどこかに図か文言である。ひっかけ（問題文の『住所の変更の登記を申請することなく』）はコマ3のステップ2にある
-- [ ] 工程C：構成表の全文言を記事（R05-Q16オ）と突き合わせ：「住所が変更されたことを証する情報」「住所の変更登記を先に済ませることなく」「必ず前提としなければならないわけではない」「住民票など」「二度手間」。合併の記述は使っていない
-- [ ] 工程C：コマ3の3ステップが、本番の問題文の読み方（住所がずれる場面→変更登記を前提にしているか→証する情報の提供）として順番に使える。コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。結論は〇（記述は正しい）
+- [ ] 工程C：初見の読者：コマ1の図で、住所がずれたＡが、合体では証する情報を添えて申請に進み、合併では先に住所の変更の登記に進む、と言える。矢印は『次にすること』の1種類だけ
+- [ ] 工程C：肝の確認：『合体は証する情報で変更登記なしに申請できる／合併は先に住所の変更登記が要る』が、コマ1の図、コマ2の押さえどころ、コマ4の暗記3点のすべてにある。ひっかけ（住所の変更の登記を申請することなく）はコマ3のステップ2
+- [ ] 工程C：構成表の全文言を記事と突き合わせ：合体側は R05-Q16オ、合併側は D1790（R04-Q16オ）の範囲。「住所が変更されたことを証する情報」「住所の変更登記を先に済ませることなく」「先に住所の変更の登記」「住民票など」。条文番号は入れていない
+- [ ] 工程C：コマ3の3ステップが本番の読み方（合体か合併か→変更登記を前提にしているか→証する情報の提供）として順番に使える。コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。結論は〇（この肢は合体）
 
 ### 第二案の改訂履歴
 
-- 2026-10-09 B案v01：初版（第二案。二つの進み方の図→変更登記は必ず前提ではない→読み方3ステップ→暗記3点）
+- 2026-10-09 B案v01：初版（第二案）
+- 2026-10-09 B案v02：肝である『合体⇔合併で申請できる／できないが変わる』を4コマすべての柱に組み直し、設計メモに【出題者のひっかけ】【受験者の勘違い】【対比する制度】を追加（ユーザー指示：焦点がずれていた）

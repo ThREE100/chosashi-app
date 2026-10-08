@@ -221,6 +221,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
 
 ### 設計メモ2（工程A）
+- 【出題者のひっかけ】問題文は『丙土地はA及びBの駐車場として使用されている』『表題登記がある戊区分建物』と置き、駐車場のままの土地や、すでに建物の登記がある場面で、新しく表題登記をするのか、変更登記なのか、期限はいつか、を取り違えさせる。肢は『敷地となった日から1か月以内に、敷地権として表示する戊区分建物の表題部の変更の登記を申請しなければならない』と正しく書かれており、言い回しの長さに惑わされて『申請できない／表題登記だ』と疑わせるのがねらい（記事R04-Q18イ）。
+- 【受験者の勘違い・定着していない点】敷地権が生じる場面を、建物の登記より前（新築時＝肢アの『表題登記がない丁区分建物』の表題登記で敷地権を表示）と後（規約で後から敷地とされた＝この肢の『表題登記がある戊区分建物』の表題部の変更の登記）に分けて覚えておらず、変わったのは土地なのに建物の登記を直す、しかも変更があった日から1か月以内（法51条1項）に申請する義務がある、という点が定着していない（記事R04-Q18のア・イ）。
+- 【対比する制度】「表題登記」⇔「表題部の変更の登記」：表題登記は、建物の登記がまだないとき（新築時）に敷地権があれば、その表示も含めて申請する（記事の肢ア）／表題部の変更の登記は、建物の登記がされた後に敷地権が生じたとき（規約で後から敷地とされたとき）に、敷地権の表示を加えるために申請する（記事の肢イ。変更があった日から1か月以内、法51条1項）（建物の登記の前か後かで、申請する登記が変わる点）。出典は記事R04-Q18のア・イ（同じ記事内。extra_refsなし）。
 - 【第二案の位置づけ】第一案（定型からの変更あり：事案図→4つの押さえどころ→時間の流れ→暗記）とは構成そのものを変え、D0314-B（しくみの図解→押さえどころのカード→本番での読み方→暗記3点）の型で組んだ別構成。『ひっかけと勘違い』の左右の対比カード（赤✕・青✓）は使わない。
 - 【初見の読者が引っかかる壁】変わったのは丙土地（規約で敷地とされた）という土地の側なのに、なぜ戊区分建物の登記を、しかも期限つきで直さなければならないのかが結びつかない。
 - 【壁を越える材料（記事の範囲）】(1) 敷地権は、専有部分と敷地利用権を一体化させて、バラバラに処分できないようにする仕組み。(2) 区分建物の登記がされた後に敷地権が生じた場合には、建物の登記記録に敷地権の表示をする区分建物の表題部の変更の登記をする。(3) 表題部所有者又は所有権の登記名義人は、変更があった日から1か月以内に申請する（法51条1項）。(4) 具体例：それまで単なる駐車場だった丙土地を規約でマンション（戊区分建物）の敷地に組み入れた場合、戊区分建物の所有者Ｂが、その日から1か月以内に、丙土地の利用権を敷地権として表示する変更登記を申請する。
@@ -241,9 +244,9 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 | コマ1 | 藍子（左・先に話す） | 変わったのは土地なのに、建物の登記も直すんですか？ | — |
 | コマ1 | トリ先生（右・答える） | 敷地権は、建物の登記記録に表示するのよ | 「建物の登記記録」 |
 | コマ2 見出し | ラベル | ②　土地の側と建物の側はセット | — |
-| コマ2 図 | 図・カード | 押さえどころ / 土地が敷地になったら、建物の登記を直す / 建物の登記を直す / セット / 土地の側 / 規約 / 丙土地が、規約により戊区分建物の敷地とされた / 建物の側 / 表題部の変更 / 敷地権の表示をする、戊区分建物の表題部の変更の登記 / 敷地権は、専有部分と敷地利用権を一体化させる仕組み | — |
+| コマ2 図 | 図・カード | 押さえどころ / 土地が敷地になったら、建物の登記を直す / 建物の登記を直す / セット / 土地の側 / 規約 / 丙土地が、規約により戊区分建物の敷地とされた / 建物の側 / 表題部の変更 / 敷地権の表示をする、戊区分建物の表題部の変更の登記 / 建物の登記がまだない（新築時）→表題登記で敷地権を表示 / 建物の登記がある（後から敷地に）→表題部の変更の登記（この肢） / 表題部の変更の登記 / 敷地権は、専有部分と敷地利用権を一体化させる仕組み | — |
 | コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
-| コマ3 図 | 図・カード | ステップ1　敷地権が生じた場面か / 区分建物の登記の後に、規約で丙土地が敷地とされている / ひっかけ：丙土地は駐車場として使われている / ステップ2　申請人を見る / 表題部所有者又は所有権の登記名義人（この問ではＢ） / ステップ3　期限を見る / 変更があった日から1か月以内（法51条1項） / 1か月以内 | — |
+| コマ3 図 | 図・カード | ステップ1　敷地権が生じた場面か / 区分建物の登記の後に、規約で丙土地が敷地とされている（登記の前なら表題登記、後なら表題部の変更の登記） / ひっかけ：丙土地は駐車場として使われている / ステップ2　申請人を見る / 表題部所有者又は所有権の登記名義人（この問ではＢ） / ステップ3　期限を見る / 変更があった日から1か月以内（法51条1項） / 1か月以内 | — |
 | コマ3 | 藍子（左・1番目） | 駐車場なのに、建物の登記が要るんですか？ | — |
 | コマ3 | トリ先生（右・2番目） | 規約で敷地になれば、駐車場でも対象よ | 「規約で敷地」 |
 | コマ3 | 藍子（左・3番目） | 誰が、いつまでに申請するんですか？ | — |
@@ -252,7 +255,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 建物の登記を直す、は〇なんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そのとおり。期限は1か月以内よ | 「1か月以内」 |
-| コマ4 チェック欄 | 3項目（青✓） | 区分建物の登記の後に敷地権が生じたら、建物の登記記録に敷地権の表示をする / 申請するのは、表題部所有者又は所有権の登記名義人 / 期限は、変更があった日から1か月以内（不動産登記法51条1項） | — |
+| コマ4 チェック欄 | 3項目（青✓） | 区分建物の登記の後に敷地権が生じたら、表題登記ではなく表題部の変更の登記で、建物の登記記録に敷地権の表示をする / 申請するのは、表題部所有者又は所有権の登記名義人 / 期限は、変更があった日から1か月以内（不動産登記法51条1項） | — |
 | 結論帯 | 1行目 | 規約で敷地になったら、Ｂは建物の変更登記を1か月以内に申請する | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D1796　正解〇（R04-Q18イ） | — |
 
@@ -300,6 +303,7 @@ PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a ful
 - Label tab: 「②　土地の側と建物の側はセット」
 - A full-width concept diagram fills the whole panel, with a small dark navy tag 「押さえどころ」 at the top left and a line beside it: 「土地が敷地になったら、建物の登記を直す」, with the part 「建物の登記を直す」 in a yellow highlighter marker.
 - Two large cards side by side, both with the same pale gray fill, a dark navy outline, and a dark navy heading, joined in the middle by a small plain dark navy label 「セット」 (a label only, no arrow). Left card, heading 「土地の側」, small tag 「規約」, body 「丙土地が、規約により戊区分建物の敷地とされた」. Right card, heading 「建物の側」, small tag 「表題部の変更」, body 「敷地権の表示をする、戊区分建物の表題部の変更の登記」.
+- Under the two cards, a slim comparison strip of two small white cards with dark navy outlines side by side (no arrow, no marks): left 「建物の登記がまだない（新築時）→表題登記で敷地権を表示」, right 「建物の登記がある（後から敷地に）→表題部の変更の登記（この肢）」, with the part 「表題部の変更の登記」 in a yellow highlighter marker.
 - At the bottom, one wide dark navy band with white text 「敷地権は、専有部分と敷地利用権を一体化させる仕組み」.
 - There is no check mark and no cross anywhere in this panel.
 
@@ -307,7 +311,7 @@ PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small ro
 - Label tab: 「③　本番での読み方3ステップ」
 - LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross.
-- Step card 1: heading 「ステップ1　敷地権が生じた場面か」, body 「区分建物の登記の後に、規約で丙土地が敷地とされている」, and under the body a dark navy ribbon with white text 「ひっかけ：丙土地は駐車場として使われている」.
+- Step card 1: heading 「ステップ1　敷地権が生じた場面か」, body 「区分建物の登記の後に、規約で丙土地が敷地とされている（登記の前なら表題登記、後なら表題部の変更の登記）」, and under the body a dark navy ribbon with white text 「ひっかけ：丙土地は駐車場として使われている」.
 - Step card 2: heading 「ステップ2　申請人を見る」, body 「表題部所有者又は所有権の登記名義人（この問ではＢ）」.
 - Step card 3: heading 「ステップ3　期限を見る」, body 「変更があった日から1か月以内（法51条1項）」, with the part 「1か月以内」 in a yellow highlighter marker.
 - There is no check mark and no cross anywhere in this panel.
@@ -328,7 +332,7 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both han
 は〇なんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。
 期限は1か月以内よ」 with the part 「1か月以内」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「区分建物の登記の後に敷地権が生じたら、建物の登記記録に敷地権の表示をする」, 「申請するのは、表題部所有者又は所有権の登記名義人」, 「期限は、変更があった日から1か月以内（不動産登記法51条1項）」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark: 「区分建物の登記の後に敷地権が生じたら、表題登記ではなく表題部の変更の登記で、建物の登記記録に敷地権の表示をする」, 「申請するのは、表題部所有者又は所有権の登記名義人」, 「期限は、変更があった日から1か月以内（不動産登記法51条1項）」.
 
 CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 - Line 1: 「規約で敷地になったら、Ｂは建物の変更登記を1か月以内に申請する」 with a yellow highlighter marker.
@@ -336,7 +340,7 @@ CONCLUSION BANNER (strong contrasting solid color, large text, two lines):
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 地, 対, 建, 所, 押, 権, 物, 番, 登, 規, 解, 記, 請, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 地, 対, 建, 所, 押, 権, 物, 番, 登, 肢, 規, 解, 記, 請, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ### 第二案の品質ゲート（工程C）
@@ -344,7 +348,9 @@ Final check before rendering: confirm there are exactly four panels in one verti
 - [ ] 工程C：コマ2で『土地側の出来事（規約で敷地とされた）』と『建物側の登記（敷地権の表示をする、戊区分建物の表題部の変更の登記）』が1つのセットとして読める
 - [ ] 工程C：コマ3の3ステップ（場面→申請人→期限）で、問題文のどこを見て判断するかが分かる。ひっかけ（丙土地は駐車場として使われている）が、ステップ1のリボンと藍子の台詞に1か所ずつ入っている
 - [ ] 工程C：構成表の全文言を記事（R04-Q18イ）と突き合わせ：「建物の登記記録」「敷地権の表示」「区分建物の表題部の変更の登記」「専有部分と敷地利用権を一体化」「変更があった日から1か月以内」「法51条1項」「表題部所有者又は所有権の登記名義人」。結論は〇
+- [ ] 工程C：肝（ひっかけ・勘違い・対比）が図・押さえどころ・暗記3点にある：「表題登記」⇔「表題部の変更の登記」の対比がコマ2の比較ストリップ・コマ3のステップ1・コマ4の暗記3点の1つ目に入っている。ひっかけ（駐車場として使われている）はコマ3のリボン、勘違い（変わったのは土地なのに建物の登記を直す、1か月以内）はコマ1・コマ3・コマ4にある
 
 ### 第二案の改訂履歴
 
 - 2026-10-09 B案v01：初版（D0314-Bの型：土地側と建物側のつながりの図解→セットカード→本番での読み方3ステップ→暗記3点）
+- 2026-10-09 B案v02：『4コマの目的』に合わせ、設計メモに【出題者のひっかけ】【受験者の勘違い・定着していない点】【対比する制度】を追加。対比「表題登記」⇔「表題部の変更の登記」（建物の登記の前か後か。記事R04-Q18のア・イ）をコマ2の比較ストリップ・コマ3ステップ1の本文・コマ4暗記3点の1つ目に足した。

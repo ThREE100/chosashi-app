@@ -68,6 +68,22 @@ def main():
     else: main_body, final = body[:final_i], body[final_i:]
     table = "\n".join(l for l in src.splitlines() if l.startswith("|"))
 
+    # 0-pre 4コマの目的（2026-10-09 ユーザー指示。D1888）：出題者のひっかけ・受験者の勘違い・対比する制度を、設計メモに書き、図か台詞に入れる
+    memo = re.search(r"## 設計メモ（工程A）\n(.*?)\n\n## ", src, re.S)
+    strict_purpose = "B案" in path.name or path.name == "D0314-B_prompt.md"
+    def PURPOSE(m): (NG if strict_purpose else WARN)(m if strict_purpose else "（旧版・改修時に直す）" + m)
+    if memo:
+        mt = memo.group(1)
+        lines3 = {k: re.search(r"^- 【" + k + r"[^】]*】(.*)$", mt, re.M) for k in ("出題者のひっかけ", "受験者の勘違い", "対比する制度")}
+        for k, mm in lines3.items():
+            if not mm: PURPOSE(f"設計メモに「- 【{k}…】」の行がない（4コマの目的：出題者のひっかけと受験者の勘違いを突き、結論が逆になる近接制度との対比を示す。MANGA_RULES.md「4コマの目的」）")
+        cm_ = lines3["対比する制度"]
+        if cm_ and not cm_.group(1).strip().startswith("なし"):
+            terms = re.findall(r"「([^」]+)」", cm_.group(1))
+            if not terms: PURPOSE("設計メモの「【対比する制度】」に、対比する語を「」で挙げていない（なければ「なし」から書き始めて理由を書く）")
+            tbl_all = "\n".join(l for l in src.splitlines() if l.startswith("|"))
+            for t_ in terms:
+                if t_ not in tbl_all: PURPOSE(f"設計メモの対比する語「{t_}」が構成表（図・台詞）に出てこない。4コマの中で対比を見せる")
     # 0 記事タイトル（設計メモ（工程A）と構成表の間に置く）
     tm = re.search(r"^## 記事タイトル\n\n(【土地家屋調査士受験生向け】4コマ解説図解(D\d{4}(?:・D\d{4})*)～(.+?)～)\n", src, re.M)
     if not tm: NG("「## 記事タイトル」がない、または形式が違う（【土地家屋調査士受験生向け】4コマ解説図解<ID>～<出典>～）")
