@@ -66,7 +66,7 @@
 
 ### ウ　筆界調査委員の指定：公告・通知の後に専門家を選ぶ手続
 
-審査を通過した申請については、公告及び関係人に対する通知（不動産登記法133条）がされた後、法務局又は地方法務局の長が、弁護士・司法書士・土地家屋調査士など専門的知識・経験を有する者の中から、その事件について事実の調査を行う筆界調査委員を指定します（不動産登記法134条）。
+審査を通過した申請については、公告及び関係人に対する通知（不動産登記法133条）がされた後、法務局又は地方法務局の長が、その事件について必要な事実の調査を行う筆界調査委員を指定します（不動産登記法134条1項）。なお、筆界調査委員は、その職務を行うのに必要な専門的知識及び経験を有する者のうちから、法務局又は地方法務局の長が任命します（同法127条2項）。
 
 この指定があって初めて、次の「事実の調査の開始」に進むことができます。
 
@@ -230,8 +230,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 公告・通知の後に担当者決定
 Illustration: An isometric public notice board with a document pinned to
 it labeled 「公告」 and an envelope icon labeled 「通知」 beside it. A hand
-reaches into a lineup of three professional figures (labeled 弁護士・
-司法書士・土地家屋調査士) and places a name badge on one of them.
+reaches into a lineup of three professional figures (no profession
+labels on the figures) and places a name badge on one of them.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 筆界調査委員の指定
 
@@ -435,8 +435,8 @@ blue border), and the node 「事実の調査の開始」 immediately below it.
 Embed an isometric public notice board with a document pinned to it
 labeled 「公告」 and an envelope icon labeled 「通知」 next to the upper
 highlighted node, and inside the ウ node embed a hand reaching into a
-lineup of three professional figures labeled 弁護士・司法書士・
-土地家屋調査士 and placing a name badge on one of them. Fade the
+lineup of three professional figures (no profession labels on the
+figures) and placing a name badge on one of them. Fade the
 remaining lower chain (（エ）→（オ）→筆界特定→公告及び関係人に対する通知)
 in grey dotted-outline style below.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
