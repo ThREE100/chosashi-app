@@ -44,13 +44,13 @@
 
 この場合は、わざわざ「持分◯分の◯」という形で権利を書き分けなくても、合体による登記等の申請情報とすることができます。
 
-### ウ：表題登記のない建物との合体でも、共有者の1人が単独で申請できる
+### ウ：表題登記のない建物との合体でも、AまたはBの一方が単独で申請できる
 
 建物の合体による登記等は、既に生じた事実をそのまま登記に反映させる報告的登記です。合体前の建物が表題登記がない建物と表題登記がある建物のみであるときは、表題登記がない建物の所有者または表題登記がある建物の表題部所有者が申請することとされています（不動産登記法49条1項1号）。
 
-そのため、共有物の保存行為として、共有者の1人や相続人の1人からでも単独で申請することができます（民法252条5項）。
+表示に関する登記には、権利に関する登記の共同申請の定め（法60条）がないため、AとBのいずれか一方が単独で申請できます。AとBは共有者ではありませんから、共有物の保存行為（民法252条5項）の問題ではありません。
 
-表題登記のない甲建物の所有者Aと、乙建物の表題部所有者Bがいる場合も同様に、AまたはBのどちらか一方が単独で合体による登記等を申請することが認められます。本肢は正しい記述です。
+表題登記のない甲建物の所有者Aと、乙建物の表題部所有者Bがいる場合は、AまたはBのどちらか一方が単独で合体による登記等を申請することが認められます。本肢は正しい記述です。
 
 **たとえば**、Aが所有する未登記の倉庫と、Bが表題部所有者になっている乙建物が合体してしまった場合、AとBがそろわなくても、Aだけの判断で（あるいはBだけの判断で）合体による登記等を申請することができます。
 
@@ -84,7 +84,7 @@
 
 - **ア（正）**　所有権の登記名義人となった日から1か月以内に申請義務
 - **イ（正）**　抵当権の内容が完全一致なら持分の記載は省略可
-- **ウ（正）**　報告的登記のため保存行為として単独申請できる
+- **ウ（正）**　AまたはBの一方が単独で申請できる（法49条1項1号）
 - **エ（誤）**　賃借権は存続登記の対象でないため移記されない
 - **オ（誤）**　主・附属建物の合体は表題部の変更登記で処理、合体登記等は不要
 
@@ -99,8 +99,7 @@
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号（平成28年度午後の部第15問）と正解番号（5番＝エ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベースと、法務省公式の正答PDF（ユーザー提供、平成28年度午後の部第15問＝5）の両方で照合済みです。
 - **条文レベルで原文と照合できた根拠**：ア＝不動産登記法49条4項、イ＝不動産登記令別表13項申請情報ニ、エ＝不動産登記令別表13項申請情報欄ハ・不動産登記規則120条4項（存続登記の対象は令別表ハが限定し、規則120条4項はその移記の方法を定めます。同項の「存続登記」は、同項が引用する令別表13項申請情報ハにより、所有権の登記以外の所有権に関する登記と先取特権・質権・抵当権に関する登記に限定されており、賃借権はここに含まれていません）、オ＝不動産登記事務取扱手続準則95条。いずれも`note-articles/laws/`のローカル法令データベースの条文原文と照合済みです。
-- **条文だけでは裏付けきれず、一般原則・実務上の取扱いによっている根拠**：ウの「合体による登記等は報告的登記であり、共有物の保存行為として単独で申請できる」という位置づけです。民法252条5項（保存行為）を根拠として説明していますが、合体による登記等の単独申請を正面から定めた不動産登記法の条文はありません（不動産登記法49条1項1号が、申請すべき者を「表題登記がない建物の所有者又は表題登記がある建物の表題部所有者」と定めている点は条文で確認できました）。この点は、検証済みデータベースが根拠として挙げる平成5年7月30日民三第5320号通達を含む実務上の取扱いにも依拠しています。
-- ウの根拠条文は、データベースの元の記載（民法252条ただし書）から、`tools/_corrections.json`に記録されている修正内容（令和3年民法改正により保存行為の根拠条文が252条5項に改正されたこと）を反映して修正しています。通達原文でのご確認もあわせておすすめします。
+- **ウの根拠（2026-10-08修正）**：不動産登記法49条1項1号が、申請すべき者を「表題登記がない建物の所有者又は表題登記がある建物の表題部所有者」と「又は」で定めている点を条文で確認しました（`note-articles/laws/fudousan-touki-hou.md`）。AとBは別々の建物の所有者で共有関係がなく、民法252条5項の「各共有者」には当たらないため、従前の「共有物の保存行為として単独申請できる」という説明は改め、法49条1項各号の「又は」と、表示に関する登記には共同申請の定め（法60条）がないことで整理しています。共有者の1人が保存行為として申請できるとする平成5年7月30日民三第5320号通達の原文は未確認です。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成28年度より後に実施された試験（H29〜R07）で、本問（合体による登記等）と同一・類似の問題が再出題されていないかを確認しました。「合体後の建物についての建物の表題登記及び合体前の建物についての建物の表題部の登記の抹消（以下「合体による登記等」という。）」という同一タイトルでR02年度第16問・R04年度第15問・R05年度第16問が出題されています。**特にR04年度第15問イとR05年度第16問ウは、いずれも本問ウと同じ「合体による登記等は報告的登記であり、保存行為として共有者・相続人の1人からでも単独で申請できること（民法252条5項）」という論点を繰り返し扱っており、強い重複にあたります**。またR04年度第15問アは、本問アと同じ「合体後に新たに登記名義人となった者の1か月以内の申請義務」の論点を、表題部所有者の更正登記のケースで扱っており、関連性があります。ノートに執筆・公開する際は、これらの後年の出題との重複に特に留意し、内容が同一にならないよう工夫するか、各記事に相互参照を付けることを検討してください。R08年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
 
 ---
@@ -192,10 +191,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-共有者の1人でも単独申請できる
+AかBの一方で単独申請できる
 Illustration: Two isometric building-owner figures (A: "表題登記のない甲
 建物の所有者"、B: "乙建物の表題部所有者"), with only A actively submitting
-the application stamped "保存行為" while B stands passively beside.
+the application stamped "法49条1項1号" while B stands passively beside.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 単独申請できる
 
@@ -420,7 +419,7 @@ characters):
 --- PANEL 3 (ウ) ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-合体による登記等は共有者の1人だけで申請できる
+合体による登記等はAかBの一方だけで申請できる
 Diagram: A relationship diagram with three numbered checkpoints (not a
 branching flowchart). Center: an isometric building labeled 甲建物・表題
 登記がない and an isometric building labeled 乙建物・表題部所有者がいる
@@ -428,8 +427,8 @@ join into one merged building. Checkpoint 手順1: a stamp on the merged
 building labeled 報告的登記・すでに生じた事実をそのまま反映. Two owner
 figures stand on either side of the merged building, the left figure
 labeled 甲建物の所有者 and the right figure labeled 乙建物の表題部所有者,
-each connected to the merged building by a line labeled 共有者.
-Checkpoint 手順2: a label 共有物の保存行為 placed on the merged building
+each connected to the merged building by a line labeled 又は.
+Checkpoint 手順2: a label 法49条1項1号・申請するのは所有者又は表題部所有者 placed on the merged building
 between the two figures. Checkpoint 手順3: two separate alternative
 arrows, one from the left figure alone and one from the right figure
 alone, each leading to its own application document labeled 単独で申請
@@ -438,9 +437,10 @@ alone, each leading to its own application document labeled 単独で申請
 document together as a requirement.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、合体による登記等が、すでに生じた事実をそのまま反映する報告的登
-記であることを確認します。次に、報告的登記の申請は共有物の保存行為に
-あたるため、表題登記がない甲建物の所有者と乙建物の表題部所有者のどち
-らか一方だけでも、単独で申請できると判断します。
+記であることを確認します。次に、法49条1項1号が「表題登記がない建物の所
+有者又は表題登記がある建物の表題部所有者」と定めているため、甲建物の所
+有者と乙建物の表題部所有者のどちらか一方だけでも、単独で申請できると
+判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 どちらか1人で申請可
@@ -502,8 +502,8 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-根拠 不動産登記法49条1項・4項・不動産登記令別表13項申請情報ハ・ニ・民法252条
-5項・不動産登記規則120条4項・不動産登記事務取扱手続準則95条
+根拠 不動産登記法49条1項・4項・不動産登記令別表13項申請情報ハ・ニ・不動産登記規則
+120条4項・不動産登記事務取扱手続準則95条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

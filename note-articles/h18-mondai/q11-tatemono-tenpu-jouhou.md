@@ -54,11 +54,11 @@
 
 **たとえば**、マンションの集会室がすでに区分所有者Aさんの専有部分として登記されていたところ、これを共用部分とする登記を申請する場合、申請人であるAさんはすでに登記記録上の所有者として記録されているため、別途所有者であることを証明する書類を用意する必要はありません。
 
-### オ：未登記建物との合体登記には、未登記部分の所有権証明情報が必要
+### オ：未登記建物との合体登記には、表題部所有者となる者の所有権証明情報が必要
 
 未登記の建物と所有権の登記がある建物とが合体した場合の合体による登記等を申請するときは、添付情報として、表題部所有者となる者が合体後の建物の所有権を有することを証する情報を提供しなければなりません（不動産登記令別表13項添付情報ハ）。
 
-合体前に所有権の登記がある建物部分についてはすでに登記記録上の所有者が明らかですが、未登記であった建物部分は登記記録上まったく権利関係が明らかになっていないため、この部分について新たに所有権を証明する必要があります。
+条文（令別表13項添付情報ハ）は「表題部所有者となる者が所有権を有することを証する情報」と定めるだけで、未登記の部分に限るとは書かれていません。表題登記がない建物の所有者は、登記記録で所有者が確認できないため、所有権を証する情報で示す、と説明されます。
 
 なお、合体にあわせて増築工事を行った場合は、増築部分についても所有権を証明する情報をあわせて提供する必要があります。
 
@@ -72,7 +72,7 @@
 - **イ（正）**　共用部分の規約廃止による表題登記には、所有権証明情報が必要
 - **ウ（誤）**　建物分割登記は所有者に変動がなく、所有権証明情報は不要
 - **エ（誤）**　共用部分である旨の登記の申請人はすでに登記記録上の所有者であり、所有者証明情報は不要
-- **オ（正）**　未登記建物との合体登記には、未登記部分の所有権証明情報が必要
+- **オ（正）**　未登記建物との合体登記には、表題部所有者となる者の所有権証明情報が必要
 
 「その登記によって新しく登記記録上の所有者として名前が載る人がいるかどうか」を基準に考えると、所有権証明情報の要否を迷わず判断できます。
 
@@ -88,6 +88,7 @@
 - 条文レベルで確認できたもの（2026-08-18、`note-articles/laws/`のローカル法令データベースで再検証）：不動産登記法54条1項1号（建物の分割＝附属建物を分離して別個の建物とする登記であり、物理的状況を変えないこと）、不動産登記法58条2項（共用部分である旨の登記の申請人適格）は、`fudousan-touki-hou.md`の条文原文で、令別表18項・19項の添付情報（所有権を証する情報を含まないこと）は`fudousan-touki-rei-betsuhyou.md`の原文で、文言まで一致することを確認しました。
 - **2026-10-08の改善（エの根拠）**：一問一答ドリルの条文照合で、エの本文が58条1項・2項を根拠に「区分建物についてのみ」できると書いていた点について、58条1項は登記事項、2項が申請人の定めで、「区分建物についてのみ」という文言は58条にないとの指摘を受けました。指摘は正しく、「区分建物についてのみ」の部分を削り、根拠を58条2項と令別表18項・19項の添付情報に改めました。結論（エ＝所有者証明情報は不要）は変わりません。
 - 不動産登記令別表14項・21項・13項の各添付情報欄（附属建物新築・共用部分廃止による表題登記・合体の所有権証明情報）についても、`fudousan-touki-rei-betsuhyou.md`の条文原文で照合し、14項添付情報ハ・21項添付情報ロ・13項添付情報ハの文言が本文の記述と一致することを確認しました（旧稿はWebFetchが使えず二次情報源での確認にとどまっていましたが、今回ローカル法令データベースで一次資料レベルの確認に格上げしています）。
+- **オの説明の整理（2026-10-08実施）**：オの見出し・本文・まとめ・図解で「未登記部分の所有権証明情報」と限定していた表現を、令別表13項添付情報ハの文言（表題部所有者となる者が所有権を有することを証する情報）に揃えました。「未登記部分だけ」という限定は、条文には書かれていません。また、合体にあわせて増築工事を行った場合に増築部分の所有権を証する情報もあわせて提供する、という取扱いの根拠は、条文では確認していません。
 - 参考として使用した市販教材相当の解説は、正誤判定・条文根拠のチェックおよび独自調査のきっかけとしてのみ使用し、本文の文章はすべて独自に執筆しています。
 - **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。ア（不動産登記令別表14項添付情報ハ）、イ（同別表21項添付情報ロ、不動産登記法58条6項）、ウ（同法54条1項1号）、エ（同法58条1項・2項）、オ（同別表13項添付情報ハ）を`note-articles/laws/`の条文原文で再突合し、いずれも文言が一致することを確認しました。判例・先例・専門誌の番号を本文に記載していないこと、正解の先出しがないこと、全角括弧・敬体で統一されていること、Markdown表を使用していないことも確認しました。正解（選択肢5番＝ウ・エの組合せ）は`src/data/takuitsu.json`のcorrectAnswerと再度一致を確認済みです。修正が必要な誤りは見つからず、本文に変更はありません。
 
@@ -99,7 +100,7 @@
 - 共用部分の規約を廃止したら、証明情報がいるんです
 - 建物分割は、所有者が変わらないから証明情報は不要なんです
 - 共用部分の登記、実はもう所有者が登記記録に載ってるんです
-- 未登記部分が合体したら、その部分だけ証明情報がいるんです
+- 未登記建物が合体したら、所有権の証明情報がいるんです
 
 ---
 
@@ -190,15 +191,15 @@ illustration, green, 5-15 Japanese characters):
 --- COLUMN A, CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-未登記部分との合体は証明情報が必要
+未登記建物との合体は証明情報が必要
 Illustration: Two isometric building halves merging into one — the left
 half labeled「未登記」with a question-mark icon, the right half labeled
 「所有権登記あり」with a nameplate icon; after merging, a document stamp
-labeled「未登記部分の所有権証明情報」appears over the left half with a
+labeled「表題部所有者となる者の所有権証明情報」appears over the left half with a
 green checkmark.
 Conclusion tag (a short colored banner/pill directly below the
 illustration, green, 5-15 Japanese characters):
-未登記部分は証明必要
+所有権証明情報が必要
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 所有権証明情報は不要
@@ -414,24 +415,23 @@ characters):
 --- PANEL 5（オ） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
-未登記部分だけ新たな所有権証明が必要
+合体後の所有権の証明情報が必要
 Diagram: Two isometric building halves merging into one - the left half
 labeled「未登記」with a question-mark icon, the right half labeled「所有
 権登記あり」with a nameplate icon; after merging, a document stamp
-labeled「未登記部分の所有権証明情報」appears over the left half. Below,
+labeled「表題部所有者となる者の所有権証明情報」appears over the left half. Below,
 the same decision-tree diamond node（thick highlighted border, full
 color）as Panel 1. はい arrow（highlighted）leads to a conclusion node
-（full color）: 「所有権証明情報が必要（未登記部分について）」. いいえ
+（full color）: 「所有権証明情報が必要」. いいえ
 branch and its conclusion node are drawn in a faded, greyed-out,
 dotted-outline style rather than omitted.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この登記によって新たに登記記録上の所有者として名前が載る人がいる
-かを確認します。未登記の建物部分は登記記録上まったく権利関係が明らかに
-なっていないため、表題部所有者となる者がその未登記部分を含む合体後の
-建物の所有権を有することを証する情報を提供しなければなりません。
+かを確認します。未登記の建物がある合体では、表題部所有者となる者が合体
+後の建物の所有権を有することを証する情報を提供しなければなりません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-未登記部分は証明必要
+所有権証明情報が必要
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):

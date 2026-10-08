@@ -1,4 +1,4 @@
-## 【土地家屋調査士受験生向け】平成21年度 第20問〜実は今なら誰も欠格に当たらないんです〜
+## 【土地家屋調査士受験生向け】平成21年度 第20問〜欠格事由は基準日の法令で判定します〜
 
 **出題年度：平成21年度　午後の部　第20問**
 
@@ -10,25 +10,27 @@
 >　  
 > ウ　平成１８年５月１日に破産手続開始の決定を受けたＣは、平成２０年１２月１日に復権の決定が確定しても、土地家屋調査士となる資格を有しない。  
 >　  
-> エ　平成１９年１０月１日に懲戒免職により公認会計士の登録を抹消されたＤは、土地家屋調査士となる資格を有しない。  
+> エ　平成１９年１０月１日に懲戒処分により公認会計士の登録を抹消されたＤは、土地家屋調査士となる資格を有しない。  
 >　  
 > オ　Ｘ県の職員として平成２０年４月１日に減給６か月の懲戒処分を受け、同年１２月１日付けで同県を退職したＥは、土地家屋調査士となる資格を有しない。  
 >　  
-> 1　0個　　2　1個　　3　2個　　4　3個　　5　4個
+> 1　1個　　2　2個　　3　3個　　4　4個　　5　5個
 
 ---
 
-この問題は、「土地家屋調査士となる資格を有しない（＝欠格事由に当たる）」という記述が、各人について正しいかどうかを問うものです。土地家屋調査士法5条が定める欠格事由に、一人ずつ現行の基準で当てはめて確認していきましょう。
+この問題は、「土地家屋調査士となる資格を有しない（＝欠格事由に当たる）」という記述が、各人について正しいかどうかを問うものです。設問は「平成21年4月1日現在において」と基準日を指定していますので、その日の事実を、その日の法令で判定します。土地家屋調査士法5条が定める欠格事由に、一人ずつ当てはめて確認していきましょう。
 
 **同条の欠格事由の多くは「その処分の日から3年を経過しない者」という時間の限定つき**なので、日付の計算がポイントになる肢もあります。
 
-### ア：成年年齢は18歳、Ａはすでに成年
+### ア：基準日当時の成年年齢は20歳。未婚の18歳のＡは未成年者
 
-平成2年10月1日生まれのＡは、平成21年4月1日時点で18歳6か月です。現行の民法4条は成年年齢を18歳と定めており、Ａはこの時点ですでに成年に達しています。
+平成2年10月1日生まれのＡは、平成21年4月1日時点で18歳6か月です。設問は「平成21年4月1日現在において」と時点を指定していますので、そのときの民法4条（年齢20歳をもって成年とする）で判定します。Ａは20歳に達しておらず、未婚なので、婚姻による成年擬制（当時の民法753条）もなく、未成年者です。
 
-土地家屋調査士法5条は未成年者を欠格事由としていますが、Ａはこの欠格事由には当たりません。したがって「資格を有しない」とする本肢は誤りです。
+土地家屋調査士法5条は未成年者を欠格事由としています（2号）。したがって、Ａは土地家屋調査士となる資格を有しないことになり、「資格を有しない」とする本肢は正しい記述です。
 
-**たとえば**、高校卒業と同じ時期に18歳の誕生日を迎えた人は、現在の基準ではその時点ですでに成年として扱われるため、未成年であることを理由に調査士の登録を拒まれることはありません。
+**たとえば**、基準日の平成21年4月1日現在で18歳の未婚の人は、土地家屋調査士試験に合格していても、未成年者として調査士となる資格を有しない、ということです。
+
+**補足（現行法で読んだ場合）**：成年年齢は、平成30年法律第59号により、令和4年4月1日から18歳になりました。ただし、同法の附則2条1項は、新しい民法4条（18歳）を「施行日以後に十八歳に達する者」に適用すると定めています。そのため、平成21年4月1日現在の判定は、現行法で読んでも変わりません。今日、同じ年齢（18歳）の未婚の人がいれば、すでに成年で、この欠格事由には当たりません。
 
 ### イ：司法書士の業務禁止を受けたＢも、3年を経過していれば「資格を有しない」とはいえない
 
@@ -56,7 +58,7 @@
 
 ### エ：公認会計士の登録抹消は欠格事由に列挙されておらず、「資格を有しない」とはいえない
 
-Ｄは平成19年10月1日に懲戒免職により公認会計士の登録を抹消されています。
+Ｄは平成19年10月1日に懲戒処分により公認会計士の登録を抹消されています。
 
 しかし、土地家屋調査士法5条が**他の資格についての処分**として挙げているのは、測量法による登録の抹消・建築士法による免許の取消し・司法書士法による業務の禁止の**3つだけ**であり、公認会計士の登録抹消はここに含まれていません。
 
@@ -80,36 +82,36 @@
 
 ### まとめ
 
-- **ア（誤）**　現行の成年年齢18歳を基準にすればＡはすでに成年で欠格事由に当たらない
+- **ア（正）**　基準日（平成21年4月1日）当時の成年年齢は20歳で、未婚の18歳のＡは未成年者（5条2号）
 - **イ（誤）**　司法書士の業務禁止は欠格事由に列挙されているが処分から3年経過済み
 - **ウ（誤）**　復権を得た以上は欠格事由に当たらず資格を有する
 - **エ（誤）**　公認会計士の登録抹消は調査士法の欠格事由に列挙されていない
 - **オ（誤）**　減給処分は懲戒免職ではなく欠格事由に当たらない
 
-現行の基準で確認すると、ア〜オのいずれも欠格事由に当たらず、「資格を有しない」と言い切れる記述は1つもありません。
+平成21年4月1日現在で「資格を有しない」といえるのは、アだけです。
 
-**正解：正しいものは0個（選択肢1番）**
+**正解：正しいものは1個（選択肢1番）**
 
 ---
 
 **このまま使える点／使う前に確認したい点**
 
-- 本記事は、出題当時（平成21年）の法令ではなく、**現行法（2026年8月時点）を基準に各肢を判定しています**。設問は「平成21年4月1日現在において」と時点を指定していますが、本記事はその時点の事実（Ａは平成21年4月1日時点で18歳6か月）に、現行の成年年齢（18歳）を当てはめて判定しており、実際の平成21年当時の法令には存在しなかった基準を持ち込む反事実的な整理である点にご注意ください。そのため、後述のとおり法務省が公表した出題当時の公式正答とは異なる結論になっています。
-- 出典（平成21年度・午後の部・第20問）および出題当時の公式正答（法務省が公表した原問の選択肢では「正しいものは1個＝選択肢1番」、正しいのはアのみ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json＝法務省公式正答に基づくもの）で確認済みです。**本記事の選択肢は、法務省が公表した原問（「1　1個　2　2個　3　3個　4　4個　5　5個」）とは異なり、「1　0個　2　1個　3　2個　4　3個　5　4個」に変更しています**（現行法を基準にした場合の答え「0個」を選べるようにするため）。この変更は原問の忠実な再現ではなく、意図的な改変である点にご留意ください。
-- 各肢の根拠は、いずれも現行の土地家屋調査士法5条が列挙する欠格事由の枠組みに基づいています。ア＝同条2号「未成年者」（該当性の基準は現行の民法4条が定める成年年齢18歳）、ウ＝同条3号「破産手続開始の決定を受けて復権を得ない者」、オ＝同条4号「公務員であって懲戒免職の処分を受け、その処分の日から3年を経過しない者」に該当するか否かで判定しています。イは同条8号「司法書士法の規定により業務の禁止の処分を受け、その処分の日から3年を経過しない者」に列挙されているものの、3年の経過により該当しなくなっています。エは、同条が他資格の処分として挙げるのは測量法（6号）・建築士法（7号）・司法書士法（8号）の3つのみで、公認会計士の登録抹消は含まれていません。
+- 本記事は、設問が指定する基準日（平成21年4月1日現在）の法令で各肢を判定しています。アは、当時の民法4条（成年年齢20歳）で判定しますので、正しいものは1個（アのみ）で、法務省が公表した出題当時の公式正答（選択肢1番）と一致します。なお、土地家屋調査士法5条の号の番号と文言は、現行のものを引いています（イ・ウ・エ・オの結論は、出題当時も現行法も変わりません）。
+- 出典（平成21年度・午後の部・第20問）および出題当時の公式正答（法務省が公表した原問の選択肢では「正しいものは1個＝選択肢1番」、正しいのはアのみ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json＝法務省公式正答に基づくもの）で確認済みです。問題文の基準日と各肢の日付は、法務省が公表した試験問題（Wayback Machine保存版のPDF）と照合し、一致することを確認しました。選択肢も原問のとおり（「1　1個　2　2個　3　3個　4　4個　5　5個」）で、改変していません（エの「懲戒処分により」も原問どおりです）。
+- 各肢の根拠は、土地家屋調査士法5条が列挙する欠格事由の枠組みに基づいています。ア＝同条2号「未成年者」（該当性の基準は、基準日当時の民法4条が定める成年年齢20歳）、ウ＝同条3号「破産手続開始の決定を受けて復権を得ない者」、オ＝同条4号「公務員であって懲戒免職の処分を受け、その処分の日から3年を経過しない者」に該当するか否かで判定しています。イは同条8号「司法書士法の規定により業務の禁止の処分を受け、その処分の日から3年を経過しない者」に列挙されているものの、3年の経過により該当しなくなっています。エは、同条が他資格の処分として挙げるのは測量法（6号）・建築士法（7号）・司法書士法（8号）の3つのみで、公認会計士の登録抹消は含まれていません。平成21年当時の土地家屋調査士法5条の原文は未確認です（e-Govで取得できる最古級の版は2019-06-14施行版で、2号に「未成年者」があることはこの版で確認しました）。
 - ローカルのアガルート教材フォルダは、この実行環境からは参照できないため、今回は参照していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索し、平成21年度より後（平成22年度〜令和7年度）に実施された全試験の問題について、本問（未成年者・司法書士業務禁止処分者・破産後復権者・公認会計士懲戒免職者・地方公務員減給処分者を題材とした調査士の欠格事由の問題）と同一・類似の問題が再出題されていないかを確認しました。後続年度に調査士の欠格事由を主題とする穴埋め・組合せ問題は見当たらず、**重複は見つかりませんでした**。令和8年度以降の試験がデータベースに追加された際は、この確認を再実施してください。
-- **法改正による正解の変更（2026-08-23実施）**：本問は出題時、設問文の指定どおり「平成21年4月1日現在において」出題当時の法令（成年年齢20歳、当時の土地家屋調査士法5条）を基準に判定すると、アのみが正しく、法務省公式正答は「正しいものは1個（選択肢1番、原問の選択肢による）」でした。ユーザーの指示により、本記事はあえて現行法を基準とした解説に切り替えています。出題当時との違いは以下のとおりです。
-  1. **成年年齢の引下げ（本問の結論を左右する変更）**：民法4条の成年年齢は、平成30年法律第59号による改正（令和4年〔2022年〕4月1日施行）により20歳から18歳に引き下げられました。アのＡ（平成21年4月1日時点で18歳6か月）は、出題当時の基準（20歳）では未成年者でしたが、**現行の基準（18歳）ではすでに成年**です。「未成年者」が土地家屋調査士法5条の欠格事由であること自体は現在も変わりませんが、Ａはこの欠格事由に当たらなくなっており、**アの結論は出題当時の「正」から現行法では「誤」に変わります**。この結果、正しいものの数は出題当時の1個から、現行法を基準にすると0個になります。**原問の選択肢（1個〜5個）には「0個」がなく対応する選択肢がなかったため、ユーザーの指示により選択肢自体を「1　0個　2　1個　3　2個　4　3個　5　4個」に改変し、正解を「0個（選択肢1番）」として明記しています**（原問の選択肢は上記の出典確認欄のとおりです）。
-  2. **調査士法5条の構造変更（成年被後見人等の欠格条項の撤廃）**：令和元年法律第37号（成年被後見人等の権利の制限に係る措置の適正化等を図るための関係法律の整備に関する法律。令和元年6月14日公布、同年9月14日施行）により、多数の資格法と同様に土地家屋調査士法5条からも「成年被後見人又は被保佐人」という一律の欠格条項が削除され、心身の状態を個別・実質的に審査する規律（登録の拒否事由としての「心身の故障により調査士の業務を行うことができないとき」等）に置き換えられました。現行の同条の欠格事由は、**①拘禁刑以上の刑に処せられ、その執行を終わり又は執行を受けることがなくなってから3年を経過しない者（令和4年法律第68号による拘禁刑創設に伴い、令和7年6月1日施行で「禁錮以上の刑」から「拘禁刑以上の刑」に改められました）、②未成年者、③破産手続開始の決定を受けて復権を得ない者、④公務員であって懲戒免職の処分を受け、その処分の日から3年を経過しない者、⑤調査士法42条の規定により業務の禁止の処分を受け、その処分の日から3年を経過しない者、⑥測量法の規定により登録の抹消の処分を受け、その処分の日から3年を経過しない者、⑦建築士法の規定により免許の取消しの処分を受け、その処分の日から3年を経過しない者、⑧司法書士法47条の規定により業務の禁止の処分を受け、その処分の日から3年を経過しない者**という構造です（なお⑤の懲戒権者は、令和元年法律第29号〔令和2年8月1日施行〕により法務局長から法務大臣に改められています）。
+- **修正と現行法での扱い（2026-10-08実施）**：この記事は以前、現行の成年年齢（18歳）を平成21年4月1日現在の事実に当てはめて、アを誤・正解を「0個」とし、選択肢も「0個」を含む形に改めていました。しかし、民法の成年年齢引下げの改正法（平成30年法律第59号）の附則2条1項は、新しい4条を「施行日（令和4年4月1日）以後に十八歳に達する者」に適用すると定めており、令和4年4月1日より前の基準日について18歳成年を当てはめる根拠は、現行法の中にもありません。そのため、アを正、正解を1個（選択肢1番）とし、選択肢も原問のとおりに戻しました。現行法との関係は、以下のとおりです。
+  1. **成年年齢の引下げ（アに関する補足）**：民法4条の成年年齢は、平成30年法律第59号による改正（令和4年〔2022年〕4月1日施行）により20歳から18歳に引き下げられました。ただし、上記の附則2条1項により、基準日が平成21年4月1日の本問のＡ（18歳6か月）には、当時の基準（20歳）が適用され、未成年者としてアは正しいままです。「未成年者」が土地家屋調査士法5条の欠格事由であること自体は、現在も変わりません。
+  2. **調査士法5条の構造変更（成年被後見人等の欠格条項の撤廃）**：令和元年法律第37号（成年被後見人等の権利の制限に係る措置の適正化等を図るための関係法律の整備に関する法律。令和元年6月14日公布、同年9月14日施行）により、多数の資格法と同様に土地家屋調査士法5条からも「成年被後見人又は被保佐人」という一律の欠格条項が削除され、心身の状態を個別・実質的に審査する規律（登録の拒否事由としての「心身の故障により調査士の業務を行うことができないとき」等）に置き換えられました。現行の同条の欠格事由は、**①拘禁刑以上の刑に処せられ、その執行を終わり又は執行を受けることがなくなってから3年を経過しない者（令和4年法律第67号による拘禁刑の創設に伴い、令和4年法律第68号により「禁錮以上の刑」から「拘禁刑以上の刑」に改められました。施行は令和7年6月1日です）、②未成年者、③破産手続開始の決定を受けて復権を得ない者、④公務員であって懲戒免職の処分を受け、その処分の日から3年を経過しない者、⑤調査士法42条の規定により業務の禁止の処分を受け、その処分の日から3年を経過しない者、⑥測量法の規定により登録の抹消の処分を受け、その処分の日から3年を経過しない者、⑦建築士法の規定により免許の取消しの処分を受け、その処分の日から3年を経過しない者、⑧司法書士法47条の規定により業務の禁止の処分を受け、その処分の日から3年を経過しない者**という構造です（なお⑤の懲戒権者は、令和元年法律第29号〔令和2年8月1日施行〕により法務局長から法務大臣に改められています）。
   3. **イ・ウ・エ・オについて**：この4肢は出題当時と現行法とで結論に変更はありません。イ（司法書士の業務禁止）は3年の経過により、オ（地方公務員の減給処分）は「減給は懲戒免職でない」ことにより、いずれも欠格事由に当たりません。ウ（破産後の復権）は復権により欠格事由から外れ、エ（公認会計士の登録抹消）は現行の同条でも他資格の処分として列挙されているのが測量法・建築士法・司法書士法の3つのみであるため、やはり欠格事由に当たりません。
-  4. 本記事は、現在の受験生が読むことを想定し、あえて現行法を基準とした解説にしています。年度別の過去問演習で採点する場合など、出題当時の公式正答が必要な場面では、「出題当時の基準（成年年齢20歳）ではアのみが正しく、原問の選択肢（1個〜5個）では選択肢1番＝1個が正解だった」という点をあわせて押さえてください（本記事の選択肢・正解番号は改変後のものであり、原問の選択肢番号とは対応が異なります）。
+  4. 年度別の過去問演習で採点する場合は、本記事の選択肢（原問どおり）で、正解は選択肢1番＝1個（アのみ正しい）です。
 
 ---
 
 ## 見出し画像用フレーズ
 
-- 実は今の基準なら、Ａはもう成年なんです
+- 基準日の平成21年4月1日は、18歳の未婚のＡはまだ未成年なんです
 - 司法書士の業務禁止でも、3年たてば欠格じゃないんです
 - 破産しても、復権すればもう欠格じゃないんです
 - 公認会計士の登録抹消、欠格リストにないんです
@@ -169,10 +171,10 @@ image.
 
 --- HEADER ---
 Title (large, bold, 1行):
-欠格事由、今の基準なら誰も該当しない
+欠格事由に当たるのは、Ａだけ
 
 Subtitle (smaller, centered, 1行):
-5人とも欠格事由に当たらない(平成21年度 午後の部 第20問)
+基準日の平成21年4月1日現在で資格がないのはＡだけ(平成21年度 午後の部 第20問)
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。カードは1列・全5枚、バッジ色はすべて緑で統一する。）
@@ -180,13 +182,13 @@ Subtitle (smaller, centered, 1行):
 --- CARD 1 ---
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line):
-Ａは現行基準ではすでに成年
+Ａは基準日当時まだ未成年
 Illustration: an isometric young figure labeled「Ａ」holding a pass
-certificate, with a birthday-cake tag「18歳」beside them and a green ✓
-mark; the registration card next to the figure also carries a green ✓
-(no red ✕ anywhere on this card).
-Conclusion tag (green pill banner below the illustration):
-今はもう成年
+certificate, with a birthday-cake tag「18歳」and a sign「成年年齢は20歳」
+beside them; the registration card next to the figure carries a red ✕
+(this is the only card whose person is drawn with a red ✕ outcome).
+Conclusion tag (red pill banner below the illustration):
+20歳未満で未成年者
 
 --- CARD 2 ---
 Badge: a filled green circle containing the number 2.
@@ -237,10 +239,10 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that every card shows a green ✓ outcome
-(no card should show a red ✕ result — only Card 4's illustration contains
-a small red ✕ marking that 公認会計士 is absent from the list of covered
-resignations, not a red ✕ on Ｄ's own outcome), confirm there is no intro
+no duplicated or missing cards, that Cards 2 to 5 each show a green ✓
+outcome (only Card 1, Ａ, shows a red ✕ outcome; Card 4's illustration also
+contains a small red ✕ marking that 公認会計士 is absent from the list of
+covered resignations, not a red ✕ on Ｄ's own outcome), confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
@@ -249,7 +251,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。土地家屋調査士法5条が列挙する欠格事由①〜⑧の一覧を5パネル共通の決定木として使い回し、各パネルは自分が該当する項目だけを強調する。**判定はすべて現行法（2026年時点）を基準とし、特にアは現行の成年年齢18歳を基準とする（出題当時の20歳基準は用いない）**。5パネル、portrait 1080×2600px。
+問題文を読んだ瞬間に「この肢は何を見て、どの順番で判定すればよいか」を、肢ごとに思考の順序を追体験できる形で示す作図ガイド。②の俯瞰カードポスターとは別物で、結論だけでなく判定の手順そのものを可視化する構成。土地家屋調査士法5条が列挙する欠格事由①〜⑧の一覧を5パネル共通の決定木として使い回し、各パネルは自分が該当する項目だけを強調する。**判定はすべて基準日（平成21年4月1日）現在の法令を基準とし、特にアは基準日当時の成年年齢20歳を基準とする（現行の18歳は用いない）**。5パネル、portrait 1080×2600px。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -299,9 +301,8 @@ conclusion. Do not include case or precedent numbers (article/regulation
 numbers are fine); keep the callout text as written below verbatim, and
 keep every condition each callout describes faithful to the article's own
 body text — do not drop or merge a required element, and in panel 1
-always name the current 18-year threshold explicitly, never the
-out-of-date 20-year threshold used at the time this problem was
-originally administered.
+always name the 20-year threshold in force on the reference date
+(平成21年4月1日) explicitly, never the current 18-year threshold.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
@@ -336,7 +337,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成21年度 午後の部 第20問 作図ガイド（現行法基準の欠格事由判定）
+平成21年度 午後の部 第20問 作図ガイド（基準日現在の欠格事由判定）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -345,31 +346,31 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
-Ａは現行の18歳基準で成年に達している
+Ａは基準日当時の20歳基準で未成年者
 Diagram: A decision flowchart, drawn top to bottom, beginning with the
 shared vertical list board of the eight grounds under 土地家屋調査士法5
 条. Item ②未成年者 is drawn with a thick highlighted border and full
 color; the other seven items(①③④⑤⑥⑦⑧)are rendered faded and
 greyed-out. An arrow leads from ②未成年者 down to Step 1 (a
-diamond-shaped branch node): 判定の基準となる成年年齢は何歳か(現行の民
-法4条は18歳。出題当時の基準〔20歳〕は使わない). The path continues to
+diamond-shaped branch node): 基準日(平成21年4月1日)当時の成年年齢は何歳か
+(当時の民法4条は20歳。現行の18歳は使わない). The path continues to
 Step 2 (a diamond-shaped branch node): 平成21年4月1日時点のＡの年齢
-(生年月日:平成2年10月1日から計算して18歳6か月)は18歳以上か. The
-○(はい)branch leads to its own conclusion node: an isometric figure
-labeled Ａ holding a registration card with a green ○, labeled 未成年者
-に当たらず欠格事由に該当しない. A separate conclusion node for the
-✕(いいえ、18歳未満だった場合)branch, drawn in a plain non-highlighted
-tone (a real legal outcome, not a faded one), labeled 未成年者として欠格
-事由に該当し資格を有しない. Both conclusion nodes are end points; draw
-no arrow returning upward from either of them.
+(生年月日:平成2年10月1日から計算して18歳6か月)は20歳以上か(未婚なので
+成年擬制もない). The ✕(いいえ)branch leads to its own conclusion node: an
+isometric figure labeled Ａ holding a registration card with a red ✕,
+labeled 未成年者に当たり欠格事由に該当し資格を有しない. A separate
+conclusion node for the ○(はい、20歳以上だった場合)branch, drawn in a
+plain non-highlighted tone (a real legal outcome, not a faded one),
+labeled 未成年者に当たらず欠格事由に該当しない. Both conclusion nodes are
+end points; draw no arrow returning upward from either of them.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この判定に使う成年年齢が現行の民法(18歳)であり、出題当時の基準
-(20歳)ではないことを確認します。次に、Ａの生年月日から平成21年4月1日時
-点の年齢を計算し、18歳以上であれば未成年者に当たらず欠格事由に該当しな
-いと判断します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+まず、この判定に使う成年年齢が基準日(平成21年4月1日)当時の民法(20歳)であ
+り、現行の18歳ではないことを確認します。次に、Ａの生年月日から基準日の年
+齢を計算し、20歳に達していなければ未成年者に当たり欠格事由に該当すると
+判断します。
+Conclusion tag (a short colored banner/pill, red, 5-15 Japanese
 characters):
-現行基準では成年
+基準日当時は未成年者
 
 --- PANEL 2（イ・Ｂ） ---
 Badge: a filled circle in green containing the number 2.
@@ -482,8 +483,8 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-土地家屋調査士法5条2号・3号・4号・6号・7号・8号、民法4条(成年年齢)。現
-行法(2026年時点)を基準とする判定。
+土地家屋調査士法5条2号・3号・4号・6号・7号・8号、民法4条(成年年齢。平成21
+年当時は20歳)。基準日(平成21年4月1日)現在の判定。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
@@ -500,14 +501,14 @@ between the header and the panels, that every panel shows the same
 eight-item list board with exactly one item highlighted and the other
 seven faded (except panel 4, where all eight remain legible since it
 tests list membership rather than a specific highlighted branch), that
-panel 1 explicitly names the current 18-year threshold and never the
-out-of-date 20-year threshold, that panels 1, 2, 3 and 5 each show BOTH
+panel 1 explicitly names the 20-year threshold in force on the reference
+date and never the current 18-year threshold, that panels 1, 2, 3 and 5 each show BOTH
 outcomes of their time/status branch node as separate, clearly labeled
-conclusion nodes with no loop arrow back to an earlier node, that every
-person's OWN outcome (Ａ・Ｂ・Ｃ・Ｄ・Ｅ each hold a registration card
-with a green ○) shows no red ✕ (the only red ✕ in this set is the small
-mark in panel 4 showing 公認会計士 is absent from the list, not a red ✕
-on Ｄ's own outcome), that each 着眼点 callout states a checking order
+conclusion nodes with no loop arrow back to an earlier node, that
+Ｂ・Ｃ・Ｄ・Ｅ each hold a registration card with a green ○ and Ａ holds a
+registration card with a red ✕ (the only other red ✕ in this set is the
+small mark in panel 4 showing 公認会計士 is absent from the list, not a red
+✕ on Ｄ's own outcome), that each 着眼点 callout states a checking order
 rather than only a conclusion, confirm nothing is rendered below the
 last panel's footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
