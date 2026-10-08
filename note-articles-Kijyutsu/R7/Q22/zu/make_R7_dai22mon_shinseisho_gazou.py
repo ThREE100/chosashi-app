@@ -5,7 +5,10 @@
   （見出し「第1欄」「第2欄」、所在は2段で2段目の右端に原因、第1欄は家屋番号の記入欄の右に印刷の「（略）」、
   第2欄は申請人・代理人・家屋番号〈仕切りのない1つの欄〉・①種類の列〈4行をまとめた1つの欄〉が印刷の「（略）」、
   申請の日付は「令和　年　月　日」の枠に数字を記入。登録免許税の欄はない）
-- 添削　：`../prompt_R7_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 添削　：`../prompt_R7_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）。
+  誤答の欄ごとに1枚（2026-10-08、最新の執筆指示書との照らし直しで3枚を追加して4枚）：
+  符号（第2欄。守衛所を符号4のまま）、所在（第1欄。変更後の段を空欄）、原因の欄番号（第1欄の新しい主である建物の行に①③）、
+  耐震補強（第2欄の主である建物の行に原因を書く）。第1欄の添削は第1欄の形（①種類の列に記入）、第2欄の添削は第2欄の形（①種類の列は印刷の「（略）」）
 - 第4欄（問4のア〜エ。2026-10-02追加）：申請書でない解答欄も、記号ごとの記入欄の形で別の画像にする（横1200px）。
   試験の答案用紙（1ページ目の右下）の形どおり、2行2列（上の行がアとイ、下の行がウとエ）に記号と記入欄を並べる。
   答えは〔語句群〕から選んだ文言をそのまま書く
@@ -77,6 +80,7 @@ table.bldg td.genin .ink {{ font-size: 18px; }}
                    border-bottom: 8px solid {RED}; }}
 .bubrow {{ margin: 16px 0 0; text-align: right; }}
 .bubrow .bubble {{ text-align: left; }}
+.tall {{ min-height: 1320px; display: flex; flex-direction: column; justify-content: space-around; }}  /* 縦長にそろえる */
 .good {{ outline: 3px solid {GREEN}; outline-offset: 4px; background: #f1faf2; }}
 .okwrap {{ position: relative; }}
 .check {{ position: absolute; right: -14px; top: -22px; }}
@@ -214,10 +218,73 @@ ok_panel = snippet(ryaku_row(ink('符号4'), ink(S_KEIRYO), [('', '10', '00')], 
                    + ryaku_row(ink('符号6'), ink(S_KEIRYO), [('', '10', '00')], ink('令和7年10月17日新築'), kind_rows=0),
                    2, good=True)
 machigai = page(f'''
-<div class="panel"><div class="ptitle ng">①誤答</div>{ng_panel}</div>
+<div class="panel"><div class="ptitle ng">①誤答（第2欄）</div>{ng_panel}</div>
 <div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix_panel}</div>
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">令和7年度 第22問｜取り壊した建物は、同じ符号で生き返らない</div>''')
+
+# ---- 添削（2026-10-08追加）：所在（第1欄）。変更後の段を空欄にした誤答 ----
+def shozai_snippet(row2, row2_genin, good=False):
+    g = ' class="good"' if good else ''
+    chk = CHECK_SVG if good else ''
+    return (f'<div class="okwrap"><table class="bldg"{g}>{COLS}'
+            f'<tr><td class="vert tight" rowspan="2">建物の表示</td>'
+            f'<td class="lab2" rowspan="2">所　在</td><td class="val" colspan="5">{ink(SHOZAI_OLD)}</td></tr>'
+            f'<tr><td class="val" colspan="4" style="height:76px">{row2}</td><td class="val genin">{row2_genin}</td></tr>'
+            f'</table>{chk}</div>')
+
+
+GENIN_SHOZAI = '令和7年1月21日主である建物取壊しにより変更'
+sz_ng = shozai_snippet('', '')
+sz_fix = shozai_snippet(f'<span class="red">{SHOZAI_NEW}</span>', f'<span class="red">{GENIN_SHOZAI}</span>') + \
+    ('<div class="bubrow"><span class="bubble">主である建物がある土地の地番を先に書く（準則第88条第2項）。<br>'
+     '主が425番６の上に移ったので、順番が入れ替わる。順番の変更も所在の変更</span></div>')
+sz_ok = shozai_snippet(ink(SHOZAI_NEW), ink(GENIN_SHOZAI), good=True)
+machigai_shozai = page(f'''<div class="tall">
+<div class="panel"><div class="ptitle ng">①誤答（第1欄）</div>{sz_ng}</div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{sz_fix}</div>
+<div class="panel"><div class="ptitle ok">③正解</div>{sz_ok}</div>
+<div class="caption" style="margin:10px 0 30px">令和7年度 第22問｜主が入れ替われば、所在の地番の順番も入れ替わる</div></div>''')
+
+
+# ---- 添削（2026-10-08追加）：新しい主である建物の行の原因に欄番号（①③）を付けた誤答（第1欄の形） ----
+def shu_snippet(genin, good=False):
+    g = ' class="good"' if good else ''
+    chk = CHECK_SVG if good else ''
+    rows = (entry_row('主', ink('事務所・倉庫'), ink('鉄骨造スレート葺２階建'), [('1階', '130', '00'), ('2階', '130', '00')],
+                      ink('令和7年1月21日取壊し'), label_rows=2)
+            + entry_row(None, ink('事務所・倉庫'), ink(S_TETSU), [('1階', '123', '50'), ('2階', '123', '50')], genin))
+    return (f'<div class="okwrap"><table class="bldg"{g}>{COLS}'
+            f'<tr><td class="vert tight" rowspan="3">建物の表示</td>{HEAD[4:]}{rows}</table>{chk}</div>')
+
+
+G1 = '令和7年1月21日符号2の附属建物を主である建物に変更'
+G2 = '令和7年1月31日種類変更、一部取壊し'
+gn_ng = shu_snippet(br(ink(G1), ink('①③' + G2)))
+gn_fix = shu_snippet(br(ink(G1), f'<span class="ink strike">①③</span><span class="ink">{G2}</span>')) + \
+    ('<div class="bubrow"><span class="bubble">主である建物として種類・構造・床面積を全部書き起こす行。<br>'
+     '一部の欄を直す印の欄番号（①③）は付けない</span></div>')
+gn_ok = shu_snippet(br(ink(G1), ink(G2)), good=True)
+machigai_genin = page(f'''
+<div class="panel"><div class="ptitle ng">①誤答（第1欄）</div>{gn_ng}</div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{gn_fix}</div>
+<div class="panel"><div class="ptitle ok">③正解</div>{gn_ok}</div>
+<div class="caption" style="margin:10px 0 30px">令和7年度 第22問｜全部を書き起こす行に欄番号は付けない</div>''')
+
+
+# ---- 添削（2026-10-08追加）：耐震補強を原因に書いた誤答（第2欄の形。①種類の列は印刷の「（略）」） ----
+tai_ng = snippet(ryaku_row(ink('主'), ink(S_TETSU), [('1階', '123', '50'), ('2階', '123', '50')], ink('令和7年10月1日耐震補強')), 1)
+tai_fix = snippet(ryaku_row(ink('主'), ink(S_TETSU), [('1階', '123', '50'), ('2階', '123', '50')],
+                            '<span class="ink strike">令和7年10月1日耐震補強</span>'), 1) + \
+    ('<div class="bubrow"><span class="bubble">構造も床面積も変わらない工事は、登記事項の変更ではない。<br>'
+     '書くことは何もないので、原因の欄は空欄</span></div>')
+tai_ok = snippet(ryaku_row(ink('主'), ink(S_TETSU), [('1階', '123', '50'), ('2階', '123', '50')], ''), 1, good=True)
+machigai_taishin = page(f'''<div class="tall">
+<div class="panel"><div class="ptitle ng">①誤答（第2欄）</div>{tai_ng}</div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{tai_fix}</div>
+<div class="panel"><div class="ptitle ok">③正解</div>{tai_ok}</div>
+<div class="caption" style="margin:10px 0 30px">令和7年度 第22問｜登記事項が変わらない工事は書かない</div></div>''')
+
 
 # ---- 第4欄（問4）の完成形：試験の答案用紙の形（2行2列。上の行がアとイ、下の行がウとエ） ----
 DAI4 = [('ア', '物理'), ('イ', '報告'), ('ウ', '1月'), ('エ', '10万円以下の過料')]
@@ -244,7 +311,10 @@ if __name__ == '__main__':
         for name, html in [('R7_dai22mon_dai4ran_kansei', dai4),
                            ('R7_dai22mon_toukishinseisho_kansei_toi1', toi1),
                            ('R7_dai22mon_toukishinseisho_kansei_toi2', toi2),
-                           ('R7_dai22mon_toukishinseisho_machigai', machigai)]:
+                           ('R7_dai22mon_toukishinseisho_machigai', machigai),
+                           ('R7_dai22mon_toukishinseisho_machigai_shozai', machigai_shozai),
+                           ('R7_dai22mon_toukishinseisho_machigai_genin', machigai_genin),
+                           ('R7_dai22mon_toukishinseisho_machigai_taishin', machigai_taishin)]:
             hp = os.path.join(OUT, name + '.html')
             open(hp, 'w', encoding='utf-8').write(html)
             pg.set_content(html)

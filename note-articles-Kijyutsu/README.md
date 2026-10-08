@@ -12,7 +12,7 @@
 
 **全年度の照らし直し（2026-10-02）**：会話形式の全36記事（第21問・第22問の H20〜R7）を、その時点の最新の執筆プロンプト・チェックリストに照らして更新した。どの年度も、記事の画像挿入マーカー（note見出し画像を除く）と `zu/` のPNGが記事の順に1対1で対応し、照合スクリプトがそれを確かめる。下のフォルダ構成の各年度の「解説図○枚」などの枚数はこの照らし直しの前の記述のことがあるので、今の枚数（マーカー＝PNGの数）はこちらを正とする。
 - 第21問：H20 17、H21 19、H22 27、H23 22、H24 21、H25 25、H26 22、H27 15、H28 15、H29 15、H30 15、R1 17、R2 13、R3 16、R4 17、R5 15、R6 17、R7 17
-- 第22問：H20 12、H21 11、H22 23、H23 21、H24 21、H25 21、H26 19、H27 12、H28 12、H29 11、H30 12、R1 11、R2 12、R3 12、R4 12、R5 12、R6 12、R7 11
+- 第22問：H20 12、H21 11、H22 23、H23 21、H24 21、H25 21、H26 19、H27 12、H28 12、H29 11、H30 12、R1 11、R2 12、R3 12、R4 12、R5 12、R6 12、R7 18（2026-10-08の照らし直しで解説図4枚・添削3枚を足した）
 
 ## フォルダ構成
 
@@ -344,16 +344,17 @@ note-articles-Kijyutsu/
     │   └── zu/                                          解説図18枚のPNG（zu01〜zu18、記事の挿入順。zu12は答案用紙の第3欄の枠ごと描いた地積測量図）と、作図の参照実装 draw_R7_dai21mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。第1欄・第2欄・第4欄の完成形、登記申請書の完成形・添削画像のPNGとHTML（R7_dai21mon_dai1ran／dai2ran／dai4ran_kansei、toukishinseisho_kansei／_machigai）と生成スクリプト make_R7_dai21mon_shinseisho_gazou.py
     └── Q22/
         ├── note_R7_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
-        ├── prompt_R7_dai22mon_kaisetsuzu.md                   解説図6枚（変遷図・符号2の一部取壊し・柱芯の誤り比較図・1階/2階求積図・本番で解く順番）作成プロンプト
-        ├── prompt_R7_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（問1・問2の完成形）
-        ├── prompt_R7_dai22mon_toukishinseisho_machigai.md     登記申請書「符号」の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
+        ├── prompt_R7_dai22mon_kaisetsuzu.md                   解説図11枚（記事の挿入順に、滅失登記と表題部変更登記の比較・時系列メモ〈申請の期限つき〉・変遷図・注の仕分け・符号2の一部取壊し・符号の付け方・柱芯の誤り比較図・1階/2階求積図・各階平面図の完成形〈第3欄の枠ごと〉・本番で解く順番）作成プロンプト
+        ├── prompt_R7_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（問1・問2の完成形、第4欄）
+        ├── prompt_R7_dai22mon_toukishinseisho_machigai.md     誤答→添削→正解の画像プロンプト4枚（符号・所在・原因の欄番号・耐震補強。欄ごとに1枚、3コマを縦に積む）
         ├── prompt_R7_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
-        ├── verify_R7_dai22mon.py                              記事・生成画像（PNG・HTML）の数値・体裁の照合スクリプト
+        ├── verify_R7_dai22mon.py                              記事・生成画像（PNG・HTML）の数値・体裁・答案用紙の形の照合スクリプト（記事の計算式を全部計算し直す、申請の期限の計算も含む）
+        ├── touan_youshi/                                      試験の答案用紙（PDFと各ページのPNG）
         └── zu/                                                生成済みの画像（第22問で初めて実際に生成）
-            ├── draw_R7_dai22mon_kaisetsuzu.py                 解説図6枚の作図スクリプト（tools/zu_helpers.py を使用）
-            ├── make_R7_dai22mon_shinseisho_gazou.py           申請書の完成形2枚・添削1枚の生成スクリプト（HTML＋Playwright）
-            ├── R7_dai22mon_zu01〜zu06_*.png                   解説図6枚
-            └── R7_dai22mon_toukishinseisho_*.png / .html      申請書の完成形（問1・問2）と添削
+            ├── draw_R7_dai22mon_kaisetsuzu.py                 解説図11枚の作図スクリプト（tools/zu_helpers.py を使用。固定配置の図は check_fixed で重なりを検査）
+            ├── make_R7_dai22mon_shinseisho_gazou.py           申請書の完成形2枚・第4欄・添削4枚の生成スクリプト（HTML＋Playwright）
+            ├── R7_dai22mon_zu01〜zu11_*.png                   解説図11枚（画像の中に図番はない）
+            └── R7_dai22mon_toukishinseisho_*.png / .html      申請書の完成形（問1・問2）と添削4枚、R7_dai22mon_dai4ran_kansei（第4欄）
 ```
 
 ## 使い方
