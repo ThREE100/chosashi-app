@@ -22,7 +22,7 @@
 
 筆界特定制度は比較的新しい制度で、手続の流れ（通知・公告）と、記録の管理（保管場所・保存期間・公開）の両方が出題対象になります。
 
-特に「手続を実際に行った登記所（出張所を含む）で記録が保管される」という点は、上級官庁で一元管理されるイメージと混同しやすいポイントです。
+特に「対象土地の所在地を管轄する登記所（出張所を含む）で記録が保管される」という点は、筆界特定登記官のいる法務局で一元管理されるイメージと混同しやすいポイントです。
 
 ### ア：筆界特定登記官は、写しの交付・公告・関係人への通知を行う
 
@@ -32,11 +32,11 @@
 
 **たとえば**、隣接する土地の境界について筆界特定がされた場合、その結果は申請人に書面で伝えられるだけでなく、広く公告され、隣地の所有者などの関係人にも通知されます。
 
-### イ：筆界特定手続記録は、実際に手続を行った登記所（出張所）で保管される
+### イ：筆界特定手続記録は、対象土地を管轄する登記所（出張所）で保管される
 
-筆界特定書を含む筆界特定手続記録は、実際に申請を受けて手続を行った登記所（この事例ではB出張所）で保管されます。上級官庁であるA法務局に記録が一元的に集められて保管されるわけではありません。「A法務局において保管される」とするのは誤りです。
+筆界特定書を含む筆界特定手続記録は、不動産登記法145条により、対象土地の所在地を管轄する登記所（この事例ではB出張所）で保管されます。筆界特定登記官のいるA法務局に記録が一元的に集められて保管されるわけではありません。「A法務局において保管される」とするのは誤りです。
 
-**たとえば**、B出張所の管轄区域内にある土地について筆界特定の手続が行われた場合、その手続記録は、上部組織であるA法務局にではなく、実際に手続を担当したB出張所において保管されます。
+**たとえば**、B出張所の管轄区域内にある土地について筆界特定の手続が行われた場合、その手続記録は、A法務局にではなく、その土地を管轄するB出張所において保管されます。
 
 ### ウ：筆界特定書自体の保存期間は永久だが、筆界特定手続記録の全体が一律に永久なわけではない
 
@@ -67,7 +67,7 @@
 ### まとめ
 
 - **ア（正）**　筆界特定後は、写しの交付による通知・公告・関係人への通知が行われる
-- **イ（誤）**　筆界特定手続記録は、上級官庁ではなく実際に手続を行った登記所（出張所）で保管される
+- **イ（誤）**　筆界特定手続記録は、法務局ではなく対象土地を管轄する登記所（出張所）で保管される
 - **ウ（誤）**　筆界特定書自体の保存期間は永久だが、筆界特定書以外の手続記録は30年間であり、記録全体が一律「永久」なわけではない
 - **エ（正）**　何人も、手数料を納付すれば筆界特定書の写しの交付を請求できる
 - **オ（正）**　筆界特定がされた旨は、対象土地（隣接する2筆双方）の登記記録に転写される
@@ -175,7 +175,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- CARD 2 ---
 Badge: a filled blue circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-記録は出張所で保管される
+記録は管轄の出張所で保管
 Illustration: An isometric local registry sub-office building (B出張所)
 with a filing cabinet labeled 筆界特定手続記録 inside it. A red X sits
 over an arrow suggesting the records are sent up to a higher-level office
@@ -329,19 +329,19 @@ characters):
 --- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
-記録は実際に手続をした登記所で保管
+記録は対象土地の管轄登記所で保管
 Diagram: A 正誤対比型 (correct-vs-mistaken) side-by-side comparison. Left
 side, labeled 誤った思い込み: an isometric large upper-level office
 building (A法務局) with filing cabinets being carried up to it from
 multiple smaller offices, crossed out with a red ✕ and a torn-paper label
-reading 上級官庁が一元的に保管. Right side, labeled 正しいルール: an
+reading 法務局が一元的に保管. Right side, labeled 正しいルール: an
 isometric local registry sub-office building (B出張所) with a filing
 cabinet labeled 筆界特定手続記録 kept inside it, marked with a green
-checkmark and a label reading 実際に手続を行った登記所が保管.
+checkmark and a label reading 対象土地を管轄する登記所が保管.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、記録は上級官庁が一元的に保管するはずだという思い込みを疑います。
-正しくは、実際に申請を受けて筆界特定の手続を行った登記所（この事例では
-B出張所）が、その記録を保管します。
+まず、記録は法務局が一元的に保管するはずだという思い込みを疑います。
+正しくは、対象土地の所在地を管轄する登記所（この事例ではB出張所）が、
+その記録を保管します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 出張所で保管

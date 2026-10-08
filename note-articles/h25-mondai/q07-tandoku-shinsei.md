@@ -18,17 +18,21 @@
 
 ---
 
-表示に関する登記は、不動産登記法16条により原則として単独申請主義がとられています。ただし、その原則にも一定の例外があり、「誰が申請人としての資格を持つか」を正確に見極める力が求められます。
+表示に関する登記は、表題部所有者や所有権の登記名義人など、法律で申請人となれる者が定められており、その者が単独で申請するのが原則です。ただし、登記の種類ごとに申請人の資格が異なるため、「誰が申請人としての資格を持つか」を正確に見極める力が求められます。
 
 ### ア：持分の更正は、表題部所有者の一人からでも単独申請できる
 
-表示に関する登記は、原則として単独で申請することができます。甲土地の持分の更正の登記についても、その例外に当たる特段の事情はなく、表題部所有者であるAは単独でこの登記を申請することができます。
+表題部所有者である共有者の持分についての更正の登記は、更正をする共有者本人が申請人となります（不動産登記法33条3項）。したがって、表題部所有者であるAが申請人となり、単独でこの登記を申請することができます。
+
+ただし、この更正によって持分が減るBの承諾があるときでなければ申請することができません（同条4項）。承諾が必要でも、申請人がA一人であることに変わりはありません。
 
 **たとえば**、甲土地の記録上はAの持分が3分の2、Bの持分が3分の1とされているのに、実際には持分が違っていたという場合、Aは単独でこの持分の更正登記を申請することができます。
 
 ### イ：共同相続人の一人からでも、合体による登記を単独申請できる
 
-建物の合体による登記についても、表示に関する登記の単独申請主義の原則が適用されます。共同相続人であるA・Bのうちの一人であるAが、丙建物の表題登記及び甲・乙建物の表題登記の抹消の登記を、保存行為として単独で申請することができます。
+建物の合体による登記についても、申請人となれる者が単独で申請するのが原則です。合体前の建物がいずれも所有権の登記がある建物のときは、その所有権の登記名義人が申請人となり（同法49条1項5号）、登記名義人に相続があったときは、相続人が申請することができます（同法30条）。
+
+共同相続人であるA・Bのうちの一人であるAが、丙建物の表題登記及び甲・乙建物の表題登記の抹消の登記を単独で申請できるのは、共有者各自が単独でできる保存行為（民法252条5項）に当たるという解釈によるもので、条文に明記があるわけではありません。
 
 **たとえば**、亡くなったCさんの建物をA・Bが共同で相続した後、その2つの建物が1つに合体してしまった場合、Aさんだけの判断で、合体後の建物についての登記手続を進めることができます。
 
@@ -42,7 +46,7 @@
 
 ### エ：地積が減少する更正登記も、共有者の一人から単独申請できる
 
-甲土地の地積の更正の登記は、更正後の地積が減少する内容であっても、表示に関する登記であることに変わりはありません。所有権の登記名義人がA及びBの共有であっても、その一人であるAは、保存行為として単独でこの登記を申請することができます。
+甲土地の地積の更正の登記は、更正後の地積が減少する内容であっても、表示に関する登記であることに変わりはありません。所有権の登記名義人（表題部所有者又は所有権の登記名義人が申請人です。同法38条）がA及びBの共有であっても、その一人であるAは、保存行為（民法252条5項）として単独でこの登記を申請することができます。この点も条文に明記はなく、解釈によります。
 
 **たとえば**、A・Bが共有している甲土地の実際の面積が、登記上の面積より小さかったことが判明した場合、Aさんだけの判断で地積の更正登記を申請することができます。
 
@@ -72,7 +76,7 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題番号・正解番号（4番＝ウ・オ）は、土地家屋調査士試験対策アプリの検証済みデータベース（takuitsu.json）の正解フィールドで確認済みです。平成25年度の試験問題原本は法務省の現行サイトには掲載が確認できなかったため、同データベースを一次情報源としています。
-- 各肢の法的根拠は、`note-articles/laws/fudousan-touki-hou.md`の条文原文で確認しました。ア・ウは33条（表題部所有者の更正の登記等）と一致します。33条1項は「不動産の所有者と当該不動産の表題部所有者とが異なる場合においてする当該表題部所有者についての更正の登記は、当該不動産の所有者以外の者は、申請することができない」と定めており、ウのAは真正な所有者Bではないため、そもそも申請適格を持ちません（できない）。33条3項・4項は持分の更正登記について、当該共有者本人（A）が単独で申請できるが他の共有者（B）の承諾を要すると定めており、アはこれと整合します（できる）。オは58条2項「共用部分である旨の登記...は、当該...建物の表題部所有者又は所有権の登記名義人以外の者は、申請することができない」と一致します（Bが所有権登記名義人のためAは申請適格なし＝できない）。エ（地積の更正登記が共有者の一人から保存行為として単独申請できる点）は、33条の対象外（33条は表題部所有者・持分の更正に限定）であり、民法上の保存行為の考え方に基づく一般的な理解にとどまります。
+- 各肢の法的根拠は、`note-articles/laws/fudousan-touki-hou.md`の条文原文で確認しました。ア・ウは33条（表題部所有者の更正の登記等）と一致します。33条1項は「不動産の所有者と当該不動産の表題部所有者とが異なる場合においてする当該表題部所有者についての更正の登記は、当該不動産の所有者以外の者は、申請することができない」と定めており、ウのAは真正な所有者Bではないため、そもそも申請適格を持ちません（できない）。33条3項・4項は持分の更正登記について、当該共有者本人（A）が単独で申請できるが他の共有者（B）の承諾を要すると定めており、アはこれと整合します（できる）。オは58条2項「共用部分である旨の登記...は、当該...建物の表題部所有者又は所有権の登記名義人以外の者は、申請することができない」と一致します（Bが所有権登記名義人のためAは申請適格なし＝できない）。エ（地積の更正登記が共有者の一人から保存行為として単独申請できる点）は、33条の対象外（33条は表題部所有者・持分の更正に限定）であり、申請人の資格は38条（表題部所有者又は所有権の登記名義人）で確認できますが、共有者の一人からの単独申請が保存行為（民法252条5項）に当たるとする点は、条文に明記はなく、解釈・登記実務の取扱いによる理解にとどまります。イ（合体による登記等）も同様で、申請人は49条1項5号・30条で確認できますが、共同相続人の一人からの単独申請を保存行為とする点は、法令DBでは確認できませんでした。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。本問が扱う「表題部所有者の更正」「共用部分である旨の登記」といった個別テーマは、ほぼ毎年何らかの形で出題されていますが、本問特有の「第1欄・第2欄」形式で5つの登記類型の単独申請可否をまとめて問う出題形式そのものの再出題は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
 - **最新法令チェック（2026-08-16再確認）**：本問イは共同相続人の一人による建物の合体に伴う表題登記等の単独申請を扱っていますが、これは表示に関する登記の手続です。相続登記の申請義務化（令和6年4月1日施行、不動産登記法76条の2等）が定める義務は、相続による所有権の移転の登記（権利に関する登記）についてのものであり、本問イの建物の表題登記・表題登記の抹消の登記という表示に関する登記の手続自体に変更はありません。住所変更登記の申請義務化（令和8年4月1日施行、既に施行済み）も、本問の各肢（表題部所有者・共有者・所有権登記名義人による更正・合体・共用部分の登記の申請適格）には影響しません。
 
@@ -238,7 +242,7 @@ reading this type of problem, AND the order in which they should check
 conditions to get there — isometric buildings, land plots, registry
 desks, application documents, and official stamps. All 5 panels share the
 same root decision node in their diagram: 表示に関する登記の単独申請主義
-（不動産登記法16条）の例外に当たるか？Render this shared diamond with a
+の例外に当たるか？Render this shared diamond with a
 thick highlighted border in every panel. In Panels 1（ア）、2（イ）and
 4（エ）, highlight the いいえ（例外に当たらない）branch and fade the はい
 branch, since these three 肢 all resolve to 単独で申請できる, but each
@@ -300,7 +304,7 @@ Heading (bold, ONE line):
 持分の更正は原則どおり単独可
 Diagram: A decision-tree flowchart on an isometric land plot with two
 figures labeled A and B. Root diamond node (thick highlighted border,
-shared with all other panels): 単独申請主義（16条）の例外に当たるか？with
+shared with all other panels): 単独申請主義の例外に当たるか？with
 the いいえ branch highlighted leading to a second diamond node (thick
 highlighted border): 持分の更正は、名義自体の入れ替えを伴うか？with a
 いいえ arrow leading to a conclusion node reading 表題部所有者が単独で
@@ -321,7 +325,7 @@ Heading (bold, ONE line):
 Diagram: A decision-tree flowchart on an isometric scene showing two small
 buildings merging into one larger building labeled 合体. Root diamond node
 (thick highlighted border, shared with all other panels): 単独申請主義
-（16条）の例外に当たるか？with the いいえ branch highlighted leading to a
+の例外に当たるか？with the いいえ branch highlighted leading to a
 second diamond node (thick highlighted border): 共同相続人の一人による
 保存行為として認められるか？with a はい arrow leading to a conclusion node
 reading 相続人の一人が単独で申請できる, illustrated by only one of two
@@ -343,7 +347,7 @@ Heading (bold, ONE line):
 Diagram: A decision-tree flowchart on an isometric building with a name
 tag reading A being swapped entirely for a tag reading B. Root diamond
 node (thick highlighted border, shared with all other panels): 単独申請
-主義（16条）の例外に当たるか？with the はい branch highlighted leading to a
+主義の例外に当たるか？with the はい branch highlighted leading to a
 second diamond node (thick highlighted border): 更正の前後で名義人の人格
 の同一性が失われるか（全くの別人に入れ替わるか）？with a はい arrow
 leading to a conclusion node reading 名義人単独では申請できない, shown as
@@ -364,7 +368,7 @@ Heading (bold, ONE line):
 Diagram: A decision-tree flowchart on an isometric land plot shrinking
 slightly, labeled 地積減少, with two co-owner figures labeled A and B.
 Root diamond node (thick highlighted border, shared with all other
-panels): 単独申請主義（16条）の例外に当たるか？with the いいえ branch
+panels): 単独申請主義の例外に当たるか？with the いいえ branch
 highlighted leading to a second diamond node (thick highlighted border):
 共有者の一人による保存行為として認められるか？with a はい arrow leading
 to a conclusion node reading 共有者の一人が単独で申請できる, illustrated
@@ -384,7 +388,7 @@ Heading (bold, ONE line):
 共用部分登記は名義人以外不可
 Diagram: A decision-tree flowchart on an isometric shared-room icon
 labeled 共用部分 inside a building. Root diamond node (thick highlighted
-border, shared with all other panels): 単独申請主義（16条）の例外に当たる
+border, shared with all other panels): 単独申請主義の例外に当たる
 か？with the はい branch highlighted leading to a second diamond node
 (thick highlighted border): 申請人は所有権の登記名義人か（共用部分である
 旨の登記の申請適格を持つか）？with a いいえ arrow leading to a conclusion
@@ -402,7 +406,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法16条（表示に関する登記の単独申請主義）・33条（表題部所有者の
+不動産登記法33条（表題部所有者の
 更正の登記）・58条2項（共用部分である旨の登記）に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is

@@ -38,15 +38,15 @@
 
 ### ウ：屋根の種類は、一棟の建物の表題部に記録される
 
-建物を階層的に区分して、その一部を1個の区分建物とした場合、屋根の種類は各区分建物（専有部分）の構造欄にではなく、一棟の建物の表題部の構造欄に記録されます。「最上階の区分建物についてのみ、専有部分の構造欄に記録される」とするのは誤りです。
+建物を階層的に区分して、その一部を1個の区分建物とする場合、建物の構造を記録するときでも、屋根の種類を記録することを要しないとされています（準則81条3項）。したがって、最上階の区分建物でも、専有部分の構造欄に屋根の種類は記録されません。屋根の種類は、一棟の建物の表題部の構造欄に表れます。「最上階の区分建物についてのみ、専有部分の構造欄に記録される」とするのは誤りです。
 
 **たとえば**、5階建てマンションの屋根の種類は、5階部分の専有部分の登記記録にではなく、マンション全体（一棟の建物）の表題部の構造欄に記録されます。
 
 ### エ：主な用途が2以上あれば、それらの用途を組み合わせて種類を定める
 
-建物の主な用途が2以上ある場合には、その2以上の用途をあわせて建物の種類を定めます。たとえば居住用と店舗用を兼ねる建物であれば、それぞれの用途を組み合わせた種類が付されます。
+建物の主な用途が2以上ある場合には、その2以上の用途により建物の種類を定めます（規則113条2項）。具体的には、準則80条2項のとおり、例えば「居宅・店舗」のように用途を「・」で並べて表示します。
 
-**たとえば**、1階が店舗、2階が住居として使われている建物であれば、その建物の種類は「店舗」でも「居宅」でもなく、両方をあわせた「店舗兼居宅」のような形で登記されます。
+**たとえば**、1階が店舗、2階が住居として使われている建物であれば、その建物の種類は「店舗」でも「居宅」でもなく、両方を「・」で並べた「店舗・居宅」のような形で登記されます。
 
 ### オ：用途が異なる建物でも、「多目的ビル」という種類は存在しない
 
@@ -162,7 +162,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 用途2つなら両方を種類に
 Illustration: An isometric two-story building, the first floor tagged
 店舗 and the second floor tagged 居宅, both tags merging into a single
-combined signboard reading 店舗兼居宅.
+combined signboard reading 店舗・居宅.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 両方あわせて種類に
 
@@ -382,7 +382,7 @@ Heading (bold, ONE line):
 用途2つなら両方あわせて種類に
 Diagram: An isometric two-story building, the first floor tagged 店舗
 and the second floor tagged 居宅, both tags merging into a single
-combined signboard reading 店舗兼居宅.
+combined signboard reading 店舗・居宅.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物の主な用途が1つだけか、2つ以上あるかを確認します。2つ以上ある
 場合は、それらの用途をあわせて建物の種類を定めます。
