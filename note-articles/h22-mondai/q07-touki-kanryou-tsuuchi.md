@@ -342,8 +342,8 @@ Heading (bold, ONE line):
 Diagram: Three co-owner character icons (A・B・C) around a land-plot icon.
 A decision flowchart: diamond 1「この登記は更正の登記か」with a thick
 highlighted「いいえ(地目の変更の登記)」branch, since this is the
-通常の登記のケース, leading down; diamond 2「通知対象の表題部所有者(A・B・
-C)は2人以上いるか」with a thick highlighted「はい」branch leading to a
+通常の登記のケース, leading down; diamond 2「申請人以外の通知対象の表題部所有者
+(B・C)は2人以上いるか」with a thick highlighted「はい」branch leading to a
 diamond 3「申請人は通知対象の表題部所有者以外の者か」with a thick
 highlighted「いいえ(申請人Aは表題部所有者に含まれる)」branch leading to a
 highlighted final conclusion node「申請人Aに加えて、申請人以外の表題部所有者
