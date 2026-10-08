@@ -431,7 +431,7 @@ def print_checks(note_path, label, item_id=None):
     stale = bool(cov.get('sha') and article_hash(read_article(note_path)) != cov['sha'])
     if stale:
         print('⚠️ 条文照合: この記事は、照合したあとにmainで更新されています。以下の照合結果は古い版に対するものです（再照合が必要）。')
-    fs = [f for f in ck['findings'] if f['note_path'] == note_path and f['label'] in (key, '')]
+    fs = [f for f in ck['findings'] if f['note_path'] == note_path and f['label'] in (key, '') and not f.get('resolved')]
     if not fs:
         print('条文照合: 指摘なし（事前に法令DBと照合済み）')
         return
@@ -705,7 +705,7 @@ def cmd_checks(a):
         print('照合結果がありません（data/article_checks.json）'); return
     print(f'照合: {m.get("articles")}記事 / 指摘 {m.get("findings")} / 法令DB: {m.get("law_db")} / 実施日 {m.get("checked_at")}')
     sev = a.severity
-    rows = [f for f in ck['findings'] if not sev or f['severity'] == sev]
+    rows = [f for f in ck['findings'] if (not sev or f['severity'] == sev) and not f.get('resolved')]  # resolved＝記事側で処理済み
     for f in rows:
         print(f'\n[{f["severity"]}] {f["note_path"]} {f["label"]}')
         print(f'  {f["problem"]}')
