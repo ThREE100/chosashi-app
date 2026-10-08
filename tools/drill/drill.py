@@ -564,12 +564,18 @@ def cmd_save(a):
     if sh('git', 'rev-parse', '--verify', f'origin/{BRANCH}', check=False, cwd=LOGDIR).returncode == 0:
         m = sh('git', 'merge', '--no-edit', f'origin/{BRANCH}', check=False, cwd=LOGDIR)
         if m.returncode != 0:
-            # 別セッションの記録とぶつかったら、行単位の和集合でlog.jsonlを統合する
-            ours = sh('git', 'show', f':2:log.jsonl', check=False, cwd=LOGDIR).stdout.splitlines()
-            theirs = sh('git', 'show', f':3:log.jsonl', check=False, cwd=LOGDIR).stdout.splitlines()
-            lines = sorted(set(l for l in ours + theirs if l.strip()), key=lambda l: json.loads(l)['t'])
-            open(LOG, 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
-            sh('git', 'add', 'log.jsonl', cwd=LOGDIR)
+            # 別セッションの記録とぶつかったら、競合したファイルだけを行単位の和集合（時刻順）で統合する。
+            # 競合していないファイルには触らない（以前は競合の有無に関わらずlog.jsonlを上書きし、空になる事故があった）
+            names = sh('git', 'diff', '--name-only', '--diff-filter=U', check=False, cwd=LOGDIR).stdout.split()
+            for fn in names:
+                if fn not in ('log.jsonl', 'tags.jsonl', 'issues.jsonl'):
+                    raise SystemExit(f'想定外の競合: {fn}（手動で解消してください）')
+                ours = sh('git', 'show', f':2:{fn}', check=False, cwd=LOGDIR).stdout.splitlines()
+                theirs = sh('git', 'show', f':3:{fn}', check=False, cwd=LOGDIR).stdout.splitlines()
+                base = ours + [l for l in theirs if l not in set(ours)]
+                lines = sorted((l for l in dict.fromkeys(base) if l.strip()), key=lambda l: json.loads(l).get('t', ''))
+                open(os.path.join(LOGDIR, fn), 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
+                sh('git', 'add', fn, cwd=LOGDIR)
             sh('git', 'commit', '--no-edit', cwd=LOGDIR)
     for wait in (0, 2, 4, 8, 16):
         if wait:
