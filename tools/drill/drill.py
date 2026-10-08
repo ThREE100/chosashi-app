@@ -234,7 +234,9 @@ def cmd_focus(a):
         print('出題フォーカス: ' + (json.dumps(fo, ensure_ascii=False) if fo else 'なし（全分野ランダム）'))
 
 
-PRIORITY_MIN_YEAR = 28   # 新規は R7〜H28 を先に出し、H27以前はそれが終わってから（2026-10-05ユーザー指示）
+# 新規の出題順（2026-10-05ユーザー指示、2026-10-08に段階を追加）：
+#   R7〜H28 → H27〜H20 → H19〜H17（年度なしは最後）。各段階の未出題が残っている間は、次の段階の新規は出さない
+PRIORITY_TIERS = ((28, 99), (20, 27), (0, 19))
 
 
 def item_year(it):
@@ -306,11 +308,13 @@ def pick(bank, st, n, subject, topic, mode):
         return explore * 1.5 + weak * 1.5 + 0.15 * min(it.get('freq', 1), 5) + random.random() * 0.6
 
     new.sort(key=prio_new, reverse=True)
-    # 年度の優先：R7〜H28の未出題が残っている間は、H27以前の新規は出さない（科目・論点の指定時は適用しない）
+    # 年度の優先：上の段階の未出題が残っている間は、下の段階の新規は出さない（科目・論点の指定時は適用しない）
     if not subject and not topic:
-        recent_new = [i for i in new if item_year(pool[i]) >= PRIORITY_MIN_YEAR]
-        if recent_new:
-            new = recent_new
+        for lo, hi in PRIORITY_TIERS:
+            tier_new = [i for i in new if lo <= item_year(pool[i]) <= hi]
+            if tier_new:
+                new = tier_new
+                break
     if mode == 'review':
         chosen = due[:n]
     elif mode == 'new':
