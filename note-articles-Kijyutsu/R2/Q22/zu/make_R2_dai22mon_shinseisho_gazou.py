@@ -9,7 +9,8 @@ HTML＋ヘッドレスブラウザでPNGに書き出す。
   登録免許税の欄はない。以上は試験の答案用紙（`../touan_youshi/R2_dai22mon_touan_youshi.pdf` の1ページ目）で確かめた
 - 第2欄：①「解体移転の場合／えい行移転の場合」に印刷の「有・無」と記入欄（「有・無」と同じ欄の右側に書く）、②理由の欄
   （答案用紙では①の枠が第1欄の下、②の枠が右の列の上にある。画像では2つの枠を縦に並べる）
-- 添削：`../prompt_R2_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 添削：`../prompt_R2_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）。
+  第3欄の原因のほか、2026-10-08に第1欄の申請人・添付書類・建物の表示（主である建物の行）の添削を欄ごとに1枚ずつ足した
 
 CSSと部品の作りは `R6/Q22/zu/make_R6_dai22mon_shinseisho_gazou.py` と同じ形にしている。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP、なければIPA明朝・IPAゴシック）
@@ -71,6 +72,8 @@ table.ran2 td .ink {{ font-size: 23px; }}
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
 .panel {{ padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }}
+.panel.tall {{ min-height: 380px; }}
+.strike {{ text-decoration: line-through; text-decoration-color: {RED}; text-decoration-thickness: 3px; }}
 .panel:last-of-type {{ border-bottom: none; }}
 .ptitle {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
            margin-bottom: 20px; }}
@@ -179,7 +182,7 @@ def umu(yes):
 
 RAN2_COLS = '<colgroup><col style="width:8%"><col style="width:24%"><col style="width:68%"></colgroup>'
 dai2 = page(
-    '<div class="ptitle" style="font-family:inherit;font-weight:normal;font-size:26px">問2（第2欄）</div>'
+    '<div class="ptitle" style="font-family:inherit;font-weight:normal;font-size:26px">第２欄</div>'
     f'<table class="ran2">{RAN2_COLS}'
     f'<tr><td class="no" rowspan="2">①</td><td>解体移転の場合</td><td>{umu(True)}　　{ink("建物滅失登記、建物表題登記")}</td></tr>'
     f'<tr><td>えい行移転の場合</td><td>{umu(False)}</td></tr></table>'
@@ -219,6 +222,78 @@ machigai = (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
             '<div class="caption" style="margin:10px 0 30px">令和2年度 第22問｜表題登記の前に増築したら、新築と増築を併記する</div>'
             '</body></html>')
 
+
+# ---- 添削（2026-10-08追加）：第1欄の欄ごとに1枚（申請人・添付書類・建物の表示の主である建物の行）。3コマを縦に積む ----
+def three(name_cap, ng_html, fix_html, ok_html):
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}</style></head><body>'
+            f'<div class="panel tall"><div class="ptitle ng">①誤答</div>{ng_html}</div>'
+            f'<div class="panel tall"><div class="ptitle fix">②添削（赤ペン）</div>{fix_html}</div>'
+            f'<div class="panel tall"><div class="ptitle ok">③正解</div>{ok_html}</div>'
+            f'<div class="caption" style="margin:10px 0 30px">{name_cap}</div></body></html>')
+
+
+def boxrow(label, inner, good=False, height=100):
+    g = ' good' if good else ''
+    chk = CHECK_SVG if good else ''
+    return (f'<div class="row okwrap"><div class="lab">{label}</div>'
+            f'<div class="box{g}" style="min-height:{height}px">{inner}</div>{chk}</div>')
+
+
+def bubble(text):
+    return f'<div class="bubrow" style="margin-bottom:22px"><span class="bubble">{text}</span></div>'
+
+
+# 申請人の欄：登記記録の住所（39番地３）を写した誤答 → 今の住所（42番地２）
+OLD_ADDR, NEW_ADDR = 'Ａ市Ｂ区Ｔ町三丁目39番地３', 'Ａ市Ｂ区Ｔ町三丁目42番地２'
+AFTER = ('<div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>'
+         '<div class="plainrow"><div class="printed">令和２年10月16日　申請　Ａ地方法務局</div></div>')
+machigai_shinseinin = three(
+    '令和2年度 第22問｜申請人の住所は、申請するときの今の住所',
+    boxrow('申　　請　　人', ink(br(OLD_ADDR, '五輪松子'))) + AFTER,
+    boxrow('申　　請　　人', br(f'<span class="ink strike">{OLD_ADDR}</span>　<span class="red">{NEW_ADDR}</span>', ink('五輪松子')))
+    + bubble('10月3日に42番地２へ転居（事実関係3）。登記記録の住所を写さない') + AFTER,
+    boxrow('申　　請　　人', ink(br(NEW_ADDR, '五輪松子')), good=True) + AFTER)
+
+# 添付書類の欄：住所証明書の誤答 → 変更証明書
+MOKUTEKI = boxrow('登記の目的', ink('建物滅失登記'), height=62)
+machigai_tenpu = three(
+    '令和2年度 第22問｜滅失登記に付けるのは、住所のつながりを示す変更証明書',
+    MOKUTEKI + boxrow('添　付　書　類', ink('住所証明書　代理権限証書'), height=90),
+    MOKUTEKI + boxrow('添　付　書　類', f'<span class="ink strike">住所証明書</span>　<span class="red">変更証明書</span>　{ink("代理権限証書")}', height=90)
+    + bubble('住所証明書は表題登記で新しく表題部所有者になる人の住所。<br>'
+             '滅失登記は登記記録の住所（39番地３）から今の住所（42番地２）へのつながり＝変更証明書'),
+    MOKUTEKI + boxrow('添　付　書　類', ink('変更証明書　代理権限証書'), good=True, height=90))
+
+
+# 建物の表示（主である建物の行）：下線の付いた当初の行を写した誤答 → 下線のない最新の行
+def row_main(kind, struct, ints, decs, good=False):
+    g = ' class="good"' if good else ''
+    chk = CHECK_SVG if good else ''
+    return (f'<div class="okwrap"><table class="bldg"{g}>{COLS}'
+            f'<tr><td class="vert tight" rowspan="2">建物の表示</td>{HEAD[4:-5]}</tr>'
+            f'<tr><td class="entry lab2">主</td><td class="entry center">{kind}</td><td class="entry center">{struct}</td>'
+            f'<td class="entry int">{ints}</td><td class="entry dec">{decs}</td>'
+            f'<td class="entry genin">{ink(br("令和２年10月12日", "取壊し"))}</td></tr></table>{chk}</div>')
+
+
+def st(x):
+    return f'<span class="ink strike">{x}</span>'
+
+
+def rd(x):
+    return f'<span class="red">{x}</span>'
+
+
+machigai_hyouji = three(
+    '令和2年度 第22問｜建物の表示は、下線のない最新の事項を「葺」のまま写す',
+    row_main(ink('居宅'), ink(br('木造瓦葺', '２階建')), br(ink('1階　65'), ink('2階　26')), br(ink('42'), ink('49'))),
+    row_main(br(st('居宅'), rd('居宅・店舗')), br(st('木造瓦葺'), rd('木造スレート葺'), ink('２階建')),
+             br(st('1階　65') + ' ' + rd('84'), ink('2階　26')), br(st('42') + ' ' + rd('05'), ink('49')))
+    + bubble('下線は変更されて効力のない事項。種類・床面積は平成16年、構造は昭和62年の変更後の行を写す<br>'
+             '（「葺」は登記記録どおり。2階の26.49は変わっていない）'),
+    row_main(ink(br('居宅', '・', '店舗')), ink(br('木造スレート葺', '２階建')), br(ink('1階　84'), ink('2階　26')),
+             br(ink('05'), ink('49')), good=True))
+
 if __name__ == '__main__':
     exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
     with sync_playwright() as p:
@@ -227,7 +302,10 @@ if __name__ == '__main__':
         for name, html in [('R2_dai22mon_toukishinseisho_kansei_toi1', toi1),
                            ('R2_dai22mon_dai2ran_kansei', dai2),
                            ('R2_dai22mon_toukishinseisho_machigai', machigai),
-                           ('R2_dai22mon_toukishinseisho_kansei_toi3', toi3)]:
+                           ('R2_dai22mon_toukishinseisho_kansei_toi3', toi3),
+                           ('R2_dai22mon_toukishinseisho_machigai_shinseinin', machigai_shinseinin),
+                           ('R2_dai22mon_toukishinseisho_machigai_tenpu', machigai_tenpu),
+                           ('R2_dai22mon_toukishinseisho_machigai_hyouji', machigai_hyouji)]:
             hp = os.path.join(OUT, name + '.html')
             open(hp, 'w', encoding='utf-8').write(html)
             pg.set_content(html)

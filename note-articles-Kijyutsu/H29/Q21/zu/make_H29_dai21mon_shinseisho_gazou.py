@@ -4,7 +4,7 @@
 - 添削　：`../prompt_H29_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第1欄・第2欄：申請書でない解答欄の完成形（横1200px。2026-10-02追加）
 
-見本は `R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`。欄の順序・所在の2段・土地の表示の最後の空欄の段は、平成29年度の答案用紙（第3欄）に合わせた。
+見本は `R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`。記入枠の高さは min-height にして固定しない（2026-10-08。フォントが変わるとはみ出すため）。欄の順序・所在の2段・土地の表示の最後の空欄の段は、平成29年度の答案用紙（第3欄）に合わせた。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
 実行: python3 note-articles-Kijyutsu/H29/Q21/zu/make_H29_dai21mon_shinseisho_gazou.py [出力フォルダ]
 """
@@ -38,6 +38,7 @@ body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAM
 .sign {{ text-align: right; font-size: 22px; margin-top: 16px; letter-spacing: 0.3em; }}
 table.land {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
 table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; }}
+/* 表のセルの height は最小の高さとして働く（中身が多ければ伸びる） */
 table.land.compact td.vert {{ letter-spacing: 0.05em; font-size: 18px; }}
 table.land td.head {{ height: 50px; text-align: center; font-size: 20px; white-space: nowrap; padding: 0 4px; }}
 table.land td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }}
@@ -125,11 +126,11 @@ ROWS = [(ink('100番'), ink('宅地'), ink('297'), ink('52'), ''),
         (ink('（ロ）100番２'), ink('宅地'), ink('153'), ink('22'), ink('100番から分筆'))]
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('土地地積更正・分筆登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:120px">{ink('地積測量図　相続証明書　代理権限証書')}</div></div>
-<div class="row"><div class="lab">登録免許税</div><div class="box" style="height:62px">{ink('金2,000円')}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:62px">{ink('土地地積更正・分筆登記')}</div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:120px">{ink('地積測量図　相続証明書　代理権限証書')}</div></div>
+<div class="row"><div class="lab">登録免許税</div><div class="box" style="min-height:62px">{ink('金2,000円')}</div></div>
 <div class="plain">{DATE}</div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:150px">{APPLICANT}</div></div>
+<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:150px">{APPLICANT}</div></div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
 {land_table(ROWS, shozai=ink(SHOZAI))}
 <div class="tnote">{NOTE}</div>
@@ -144,7 +145,7 @@ def snippet(applicant_html, row1, box_h, bubble1='', bubble2='', good=False):
     box_cls = ' good' if good else ''
     chk = CHECK_SVG if good else ''
     return f'''<div class="plain">{DATE}</div>
-<div class="row okrow"><div class="lab">申　　請　　人</div><div class="box{box_cls}" style="height:{box_h}px">{applicant_html}</div>{chk}</div>
+<div class="row okrow"><div class="lab">申　　請　　人</div><div class="box{box_cls}" style="min-height:{box_h}px">{applicant_html}</div>{chk}</div>
 {f'<div class="bubrow"><span class="bubble">{bubble1}</span></div>' if bubble1 else ''}
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
 <div class="{'good' if good else ''}" style="position:relative">{land_table([row1], n_rows=1, shozai=ink(SHOZAI), compact=True, tail=False)}{chk if good else ''}</div>

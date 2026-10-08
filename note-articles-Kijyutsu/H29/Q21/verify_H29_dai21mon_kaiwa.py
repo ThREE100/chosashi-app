@@ -215,7 +215,7 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 bb = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:bb].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-N_FIG = 11
+N_FIG = 20
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
 judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
 zu_png = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.startswith('H29_dai21mon_zu') and f.endswith('.png'))
@@ -224,7 +224,14 @@ for i in range(1, N_FIG + 1):
 judge(f'解説図のPNGの数 {len(zu_png)}枚（{N_FIG}枚）', len(zu_png) == N_FIG)
 nums = [int(m) for m in re.findall(r"(?:new_figure\(|suptitle\(|fixed_figure\()'図(\d+)　", draw)]
 nums += [int(m) for m in re.findall(r"kouten_zu\((\d+),", draw)]
-judge(f'作図スクリプトの図のタイトル番号が1から{N_FIG}まで（{sorted(nums)}）', sorted(nums) == list(range(1, N_FIG + 1)))
+# 2026-10-08：作成済みの10枚は画像の中の文字（作成時の図番）を変えない。新しい9枚と描き直した地積測量図（作成時の図10）には図番を入れない
+judge(f'作図スクリプトの作成時の図番（変えていない）が1〜9・11（{sorted(nums)}）', sorted(nums) == [1, 2, 3, 4, 5, 6, 7, 8, 9, 11])
+new_titles = re.findall(r"board\('([^']+)'", draw)
+judge(f'新しい図のタイトル（{len(new_titles)}枚）に図番がない', len(new_titles) == 9 and not any(re.search(r'図\d', t) for t in new_titles))
+for s_ in ["ftext(195, 113, '第4欄'", "'地　積　測　量　図'", "'100番1、100番2'", "'Ａ市Ｂ町字Ｃ'", "'（平成29年○月○日作成）'",
+           "'1／250'", "'作 成 者'", "'申 請 人'"]:
+    judge(f'地積測量図を答案用紙の第4欄の書式で : {s_}', s_ in draw)
+judge('地積測量図の見本のタイトルに図番がない', '図10　問4' not in draw)
 for s in ['（379.06, 310.02）', '（380.99, 299.87）', '（366.75, 297.27）', '（343.95, 303.30）', '（380.99, 299.88）',
           '（366.75, 297.29）', '280°50′02.54″', '−79°09′57.46″', '6°43′42.54″', '280°18′47.75″', '85°53′40″',
           '379.0565… ＋ 310.0195…i', '380.9919… ＋ 299.8652…i', '366.7514… ＋ 297.2738…i', '64.3421 ÷ 88.8618',
@@ -235,7 +242,7 @@ for s in ['（379.06, 310.02）', '（380.99, 299.87）', '（366.75, 297.27）'
     check('作図スクリプトの数値', s.replace('±', '').replace('㎡', ''), draw, '作図')
 # 画像挿入の位置の文言が記事にあるか
 for s in ['出題者が『直角に測れ』と、こっそり教えてくれているの', 'どちらが正しいかは一目でわかるわね',
-          'Gはもう使わないからYはI点に使い回すわ', '全部崩れるところだったわね',
+          'Gはもう使わないからYはI点に使い回すわ', '本番ではここが効いてくるわ',
           'A201は西寄り、A202は東寄りで、どちらも道路の南に描きなさい']:
     check('図の挿入位置の文言', s)
     check('図の挿入位置の文言（プロンプト側）', s, fig, '解説図')
@@ -316,20 +323,55 @@ check('解説図プロンプトのタイトル', title[2:], fig, '解説図')
 check('添削プロンプトのタイトル', title[2:], fix, '添削')
 
 PNGS = [('H29_dai21mon_zu01_zentaizu', '全体図', 'fig'),
-        ('H29_dai21mon_zu02_chuu_shiwake', '注の仕分けの図', 'fig'),
-        ('H29_dai21mon_zu03_C_housha', 'C点を求める図', 'fig'),
+        ('H29_dai21mon_zu02_gappitsu_riyuu', '先に合筆してから分筆する理由の図', 'fig'),
+        ('H29_dai21mon_zu03_chuu_shiwake', '注の仕分けの図', 'fig'),
+        ('H29_dai21mon_zu04_C_housha', 'C点を求める図', 'fig'),
         ('H29_dai21mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
-        ('H29_dai21mon_zu04_H_kouten', 'H点の求め方の図', 'fig'),
-        ('H29_dai21mon_zu05_I_kouten', 'I点の求め方の図', 'fig'),
-        ('H29_dai21mon_zu06_HI_betsukai', 'H点・I点の別解の図', 'fig'),
-        ('H29_dai21mon_zu07_ro_taikakusen', '対角線で出す図', 'fig'),
+        ('H29_dai21mon_zu05_H_kouten', 'H点の求め方の図', 'fig'),
+        ('H29_dai21mon_zu06_I_kouten', 'I点の求め方の図', 'fig'),
+        ('H29_dai21mon_zu07_HI_betsukai', 'H点・I点の別解の図', 'fig'),
+        ('H29_dai21mon_zu08_ro_taikakusen', '対角線で出す図', 'fig'),
+        ('H29_dai21mon_zu09_kousa_hyou_gyou', '公差の表の行の図', 'fig'),
+        ('H29_dai21mon_zu10_kousa', '公差の判定図', 'fig'),
         ('H29_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
-        ('H29_dai21mon_zu08_kousa', '公差の判定図', 'fig'),
+        ('H29_dai21mon_zu11_ikkatsu_shinsei', '一の申請情報の図', 'fig'),
+        ('H29_dai21mon_zu12_shinseinin', '申請人の図', 'fig'),
+        ('H29_dai21mon_zu13_bunpitsumae_chiseki', '土地の表示の1行目の図', 'fig'),
         ('H29_dai21mon_toukishinseisho_machigai', '誤答→添削→正解', 'tall'),
-        ('H29_dai21mon_zu09_bunpitsu_chiban', '分筆後の区画と地番の図', 'fig'),
+        ('H29_dai21mon_zu14_genin_13', '（イ）の行の登記原因の図', 'fig'),
+        ('H29_dai21mon_zu15_tenpu_shorui', '添付書類の図', 'fig'),
+        ('H29_dai21mon_zu16_tourokumenkyozei', '登録免許税の図', 'fig'),
+        ('H29_dai21mon_zu17_bunpitsu_chiban', '分筆後の区画と地番の図', 'fig'),
         ('H29_dai21mon_toukishinseisho_kansei', '登記申請書（問3）の完成形', 'tall'),
-        ('H29_dai21mon_zu10_chiseki_sokuryouzu', '地積測量図（100番1、100番2）の完成見本', 'fig'),
-        ('H29_dai21mon_zu11_toku_junban', '本番で解く順番の図', 'fig')]
+        ('H29_dai21mon_zu18_chiban_ran', '地積測量図の地番の欄の図', 'fig'),
+        ('H29_dai21mon_zu19_chiseki_sokuryouzu', '地積測量図（100番1、100番2）の完成見本', 'fig'),
+        ('H29_dai21mon_zu20_toku_junban', '本番で解く順番の図', 'fig')]
+# ---- まとめのわな → 図（2026-10-08追加。執筆指示書「記事で藍子が誤答する論点（わな）にも、図を1枚ずつ」） ----
+TRAPS = [('C点は時計回りに足す', 'A202からの放射でC点を求める図'),
+         ('1.00m離れた線は直角に測る', 'H点の求め方の図'),
+         ('交点はConjgの積のiの係数の比', 'H点・I点の別解の図'),
+         ('合筆してから分筆する理由', '先に合筆してから分筆する理由の図'),
+         ('公差は合筆後の297.52で比べる', '公差の表の行の図'),
+         ('精度区分は地域で決まる', '公差の判定図'),
+         ('登記の目的は土地地積更正・分筆登記', '一の申請情報の図'),
+         ('申請人は被相続人と相続人2人', '申請人の図'),
+         ('分筆前の行は297.52', '土地の表示の1行目の図'),
+         ('（イ）の原因は「③錯誤」「①③100番1、100番2に分筆」', '（イ）の行の登記原因の図'),
+         ('添付書類は3つ', '添付書類の図'),
+         ('登録免許税は2,000円', '登録免許税の図'),
+         ('地積測量図の地番は「100番1、100番2」', '地積測量図の地番の欄の図')]
+matome_ = text[text.index('## 第7章'):]
+traps_ = re.findall(r'^- \*\*(.+?)\*\*：', matome_, re.M)
+judge(f'まとめのわなの数と対応表の数（{len(traps_)}・{len(TRAPS)}）', len(traps_) == len(TRAPS))
+for t_, m_ in TRAPS:
+    judge(f'わな「{t_}」がまとめにあり、図「{m_}」が記事にある', t_ in traps_ and any(m_ in l_ for l_ in text.splitlines() if l_.startswith('> 【画像挿入】')))
+# ---- 電卓のキー列を順に実行して表示と比べる（2026-10-08追加。別解でYにI点が入っているのにGとして使っていた誤りを見つけた） ----
+import subprocess  # noqa: E402
+ks_ = subprocess.run([sys.executable, os.path.join(HERE, '..', '..', 'tools', 'keysim_note_article.py'),
+                      os.path.join(HERE, 'note_H29_dai21mon_tochi_kaiwa_kaisetsu.md')], capture_output=True, text=True).stdout
+judge('電卓のキー列の再現（keysim_note_article.py）がNG 0件', 'NG件数: 0' in ks_)
+absent('別解でYをGとして使う誤り', '電卓はF′を作る前（Y＝G）から始めるわ')
+check('別解のG − Fの打ち込み', '[Apps] [4] 0 [−] 5.99 [−] 1.09 [i] [)] [×] [(] [ALPHA] [A] [−] [ALPHA] [F] [)] [=]')
 # ---- 画像（2026-10-02追加）：記事の画像挿入マーカーと zu/ のPNGが、記事の順に対応しているか ----
 # 解説図の番号を記事の挿入順に振り直し、申請書でない解答欄（第1欄・第2欄）の完成形を足した。
 from PIL import Image  # noqa: E402
