@@ -38,15 +38,15 @@
 
 **たとえば**、未登記の物置と登記済みの母屋が合体して1つの建物になった後、その物置部分の持分だけを買い受けた人は、買い受けた日から1か月以内に合体登記の手続を行わなければなりません。
 
-### ウ：申請人が証明すべきなのは、自分の持分の所有権であって建物全体ではない
+### ウ：求められるのは、表題部所有者となる者が所有権を有することを証する情報
 
 所有権の登記がある建物と表題登記がない建物が合体した後、合体前の所有権登記がある建物の名義人が申請人となって、表題登記がない建物側の所有者を合体後の建物の登記名義人とする所有権の登記まで申請する場合であっても、添付情報として求められるのは、表題部所有者となる者が所有権を有することを証する情報です（不動産登記令別表13の項添付情報欄ハ）。
 
-したがって、申請人が証明すべきなのは自分がもともと持っていた持分についての所有権であり、「合体後の建物全体」についての申請人自身の所有権を証する情報の提供までは求められていません。
+条文が求めているのは、表題部所有者となる者が所有権を有することを証する情報です。「合体後の建物全体の当該申請人の所有権を証する情報」という形では定められていません。
 
 「合体後の建物全体の当該申請人の所有権を証する情報を提供しなければならない」とする本肢は誤りです。
 
-**たとえば**、登記済みの自宅と未登記の離れが合体した場合、自宅の名義人が申請人になるとしても、証明すべきは自分がもともと持っていた自宅部分の所有権であって、離れの部分まで含めた建物全体の所有権を自分のものとして証明する必要はありません。
+**たとえば**、登記済みの自宅と未登記の離れが合体した場合、自宅の名義人が申請人になるとしても、提供するのは条文が定める「表題部所有者となる者が所有権を有することを証する情報」であり、「建物全体の申請人の所有権を証する情報」という別の情報を用意する必要はありません。
 
 ### エ：更正登記で表題部所有者となった人にも、申請義務が生じる
 
@@ -66,7 +66,7 @@
 
 - **ア（誤）**　主である建物と附属建物は同一の登記記録内にあり合体の対象外
 - **イ（正）**　未登記建物側の持分取得者には合体登記の申請義務がある
-- **ウ（誤）**　申請人が証明すべきは自分の持分であり建物全体ではない
+- **ウ（誤）**　添付するのは表題部所有者となる者の所有権証明情報で、建物全体の申請人の所有権証明情報ではない
 - **エ（正）**　更正登記で表題部所有者となった者にも申請義務が生じる
 - **オ（正）**　双方未登記なら合体登記ではなく新築の表題登記を申請する
 
@@ -92,7 +92,7 @@
 
 - 母屋と物置の合体、実は「合体登記」の対象外なんです
 - 未登記建物の持分を買ったら、1か月以内に手続が要るんです
-- 証明すべきは自分の持分だけ、建物全体じゃないんです
+- 添付するのは、表題部所有者となる者の所有権の証明なんです
 - 更正登記で所有者になった人にも、申請義務があるって知ってた？
 - どちらも未登記なら、合体じゃなくて新築の登記なんです
 
@@ -184,14 +184,14 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 --- CARD 3 ---
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-証明は自分の持分だけでよい
+添付は所有権証明情報
 Illustration: A registered house owner merging with an unregistered
-shed, stamping a 所有権証明情報 document that covers only their own
-original house portion, with a second, larger certificate labeled
-建物全体 crossed out by a red X (the owner is NOT required to prove
-ownership of the whole merged building).
+shed, stamping a 所有権証明情報 document labeled 表題部所有者となる者の
+所有権, with a second, larger certificate labeled 合体後の建物全体の
+申請人の所有権 crossed out by a red X (this second certificate is NOT
+what the rule requires).
 Conclusion tag (green banner below the illustration, 5-15 characters):
-自分の持分のみ
+建物全体の証明は不要
 
 --- CARD 4 ---
 Badge: a filled green circle containing the number 4.
@@ -367,21 +367,21 @@ characters):
 --- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-証明するのは自分の持分の所有権だけ
+求められるのは所有権を証する情報
 Diagram: Two side-by-side panels. Left panel (正しいルール): the
 registered building's owner character stamps a small certificate
-covering only the portion they originally owned, with a green checkmark.
+labeled 表題部所有者となる者の所有権を証する情報, with a green checkmark.
 Right panel (誤りやすい思い込み): the same owner character tries to hold
-up a large certificate labeled 合体後の建物全体, with a red ✕ and a
-strikethrough line across it.
+up a large certificate labeled 合体後の建物全体の申請人の所有権, with a
+red ✕ and a strikethrough line across it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、申請人がもともと持っていたのは、合体前の建物のうち自分の持分につ
-いての所有権であることを確認します。次に、合体後の建物全体についてまで
-申請人自身の所有権を証する情報の提供が求められているわけではないと判断
-します。
+まず、令別表十三の項の添付情報欄が求めているのは、表題部所有者となる
+者が所有権を有することを証する情報であることを確認します。次に、合体後
+の建物全体の申請人の所有権を証する情報までは定められていないと判断し
+ます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-自分の持分のみでよい
+建物全体の証明は不要
 
 --- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
