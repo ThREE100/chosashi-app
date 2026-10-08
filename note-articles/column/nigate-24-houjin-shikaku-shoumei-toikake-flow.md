@@ -159,18 +159,19 @@
 - 出題年度・問・肢の内容は、`note-articles/{年度}-mondai/`の各記事で確認しました（問題文のデータ`takuitsu.json`は補助にとどめました）。肢の正誤は、一問一答ドリルの問題バンク（`tools/drill/data/items.json`）とも照合し、一致しています（アンカーの肢はD1448、D1633）。正解番号の法務省の正答資料との再照合は、この記事では行っていません。
 - ドリルの記録（アンカーの肢の履歴）：D1448（令和元年度 第8問 ア）は誤解3回、D1633（令和3年度 第4問 エ）は誤解2回です。誤解の原因として挙げた「手段の側だけで結論を出す」は、記録から確定できる事実ではなく、記事の見立てです。
 - **出題当時の旧法の問題について、現行法に基づく説明になっているかを確認しました。**
-  - 会社法人等番号の制度に関わる改正（令7条1項1号・17条1項の改正政令、規則36条・37条の2・44条2項の改正省令）は、平成27年11月2日に施行されました。施行前にされた申請には従前の例が適用されます（`fudousan-touki-rei.md`・`fudousan-touki-kisoku-3.md`の附則で確認）。平成17年度〜平成26年度の肢は、すべてこの施行前の出題です。平成27年度の本試験は10月の実施なので、この日より前と考えられます（実施日までは年度別記事で確認していません）。
-  - 平成26年度 第8問 アは、出題当時は正しい肢です。現行では、登記所の同一を条件とする規定は出てこず、会社法人等番号の有無で決まります。元記事は「現行法でも結論は変わらない」と書いていますが、会社法人等番号を有しない法人は現行でも代表者の資格を証する情報が要るので、この言い切りは正確ではありません。元記事の修正は別作業として報告します。
-  - 令和元年度 第8問 アの「登記所が同一であり、かつ、法務大臣が指定した登記所以外のものでない限り」という要件は、`laws/`の令・規則・準則で原文を確認できませんでした。元記事も出典を確認できていません。この記事は、現行の条文（令7条1項2号、規則36条1項・3項）で誤りと整理し、旧い言い回しを借りた肢と位置づけましたが、その言い回しの出典は断定していません。平成27年の改正前の規則の原文は、`laws/`にありません。
+  - 会社法人等番号の制度に関わる改正（令7条1項1号・17条1項の改正政令、規則36条・37条の2・44条2項の改正省令）は、平成27年11月2日に施行されました。施行前にされた申請には従前の例が適用されます（`fudousan-touki-rei.md`・`fudousan-touki-kisoku-3.md`の附則で確認）。平成17年度〜平成26年度の肢は、すべてこの施行前の出題です。平成27年度の本試験は10月の実施なので、この日より前と考えられます（実施日までは年度別記事で確認していません）。施行前の令7条1項1号・17条1項、規則36条・37条の2・44条2項の文言は、確認結果（2026-10-08）で、法務省公表の新旧対照条文（平成27年政令第262号、平成27年法務省令第43号）の改正前欄により確認しました。`laws/`にある条文ではなく、PDFからのテキスト抽出で見たもので、官報の原文は見ていません。
+  - 平成26年度 第8問 アは、出題当時は正しい肢です。出題当時の規則36条1項2号は、申請を受ける登記所が、当該法人の登記を受けた登記所と同一である登記所に準ずるものとして法務大臣が指定した登記所である場合を、代表者の資格を証する情報が要らない場合としていました（上の新旧対照条文の改正前欄で確認）。現行では、登記所の同一を条件とする規定は出てこず、会社法人等番号の有無で決まります。元記事は「現行法でも結論は変わらない」と書いていますが、会社法人等番号を有しない法人は現行でも登記所がどこであっても代表者の資格を証する情報が要るので、この言い切りは正確ではないと確認しました。元記事（`h26-mondai/q08-tenpu-jouhou.md`）は修正対象として確認済みです。
+  - 令和元年度 第8問 アの「登記所が同一であり、かつ、法務大臣が指定した登記所以外のものでない限り」という要件は、`laws/`の令・規則・準則には出てきません。確認結果（2026-10-08）で、平成27年11月2日施行の改正前の不動産登記規則36条2項1号（支配人その他の法人の代理人の権限を証する情報を省略できる場合のうち、申請を受ける登記所が、当該法人についての当該代理人の登記を受けた登記所と同一であり、かつ、法務大臣が指定した登記所以外のものであるとき）の言い回しと一致することを、法務省の新旧対照条文の改正前欄で確認しました。`laws/`には改正前の規則の原文がなく、PDFからのテキスト抽出による確認で、原本の目視と官報の原文は見ていません。この記事は、現行の条文（令7条1項2号、規則36条1項・3項）で誤りと整理し、旧い言い回しを借りた肢と位置づけています。元記事（`r1-mondai/q08`）の「出典は別途ご確認ください」は、旧規則36条2項1号と特定できたため、修正対象として確認済みです。
   - 平成17年度〜平成25年度の、期限（令17条1項・2項）、同時申請の援用（規則37条）、電子申請の令12条〜14条、登記識別情報に関する証明（規則68条）、本人確認情報（規則72条3項）の肢は、現行の条文で読み直しても結論が変わらないと元記事は扱っています。出題当時の条文の文言は、`laws/`で確認できないものがあります。
 - **条文に直接の根拠がない整理（通達・解釈・覚え方）**：
   - **調査士報告方式**は、通達による取扱いで、条文に定めがありません。元記事（令和6年度 第5問、令和3年度 第4問）は、通達の原文を確認できていません。この記事では、設問文の定義と元記事の整理に従いました。
   - **令和3年度 第4問 ウと同 エ、令和6年度 第5問 イ**：令13条1項は、申請人等が作成したものを括弧書きで除いています。委任状は申請人が作成するので、この括弧書きだけを見ると報告方式の対象外に読めますが、令和6年度 第5問は委任状を対象としています。元記事も、この食い違いを説明する資料が確認できないと書いています。手順5では、「報告方式に乗せるか否か」で分ける形で整理しましたが、これは出題の結論に合わせた読みで、通達の根拠までは確認していません。
-  - **令和元年度 第15問 ウと令和6年度 第4問 エ**：どちらも、電子署名をした代理権限を証する情報を提供したときに、会社法人等番号を提供しなければならないかを問います。結論は、前者が誤り（提供しなくてよい）、後者が正しい（提供しなければならない）で、食い違って見えます。手順6の、「商業登記電子証明書の提供まで述べているか」で分ける整理は、規則43条1項2号・44条2項の文言から私が読んだもので、公式の解説で確認したものではありません。なお、令和元年度 第15問の元記事の確認事項は、令和6年度 第4問 エを「会社法人等番号の提供を要しない」と要約していますが、令和6年度 第4問の元記事と問題バンクでは、エは正しい（提供しなければならない）としています。令和元年度 第15問の元記事の要約を、別作業として確認してください。
+  - **令和元年度 第15問 ウと令和6年度 第4問 エ**：どちらも、電子署名をした代理権限を証する情報を提供したときに、会社法人等番号を提供しなければならないかを問います。結論は、前者が誤り（提供しなくてよい）、後者が正しい（提供しなければならない）で、食い違って見えます。手順6の、「商業登記電子証明書の提供まで述べているか」で分ける整理は、規則43条1項2号・44条2項の文言から私が読んだもので、公式の解説で確認したものではありません。なお、令和元年度 第15問の元記事の確認事項は、令和6年度 第4問 エを「会社法人等番号の提供を要しない」と要約していますが、令和6年度 第4問の元記事と問題バンクでは、エは正しい（提供しなければならない）としています。確認結果（2026-10-08）で、令和6年度 第4問 エは正しい肢（問題文は「提供しなければならない」）と確認し、令和元年度 第15問の元記事の要約は逆であるとして、修正対象として確認済みです。結論（令和元年度 第15問 ウは誤り、令和6年度 第4問 エは正）は変わりません。
+    - 確認結果（2026-10-08）で、次の2点が分かりました。1つ目は、規則43条1項の柱書が、同項各号の電子証明書を、規則47条3号イからニまでに掲げる者に該当する申請人（その代表者・代理人）が電子署名を行った場合に限っている点です。建物の表題登記の申請人は、この47条3号イからニの者に含まれません（同号イ（６）は、合筆の登記、合体による登記等又は建物の合併の登記を申請する所有権の登記名義人です）。そのため、表題登記の申請人に、43条1項2号の電子証明書と、それを前提とする44条2項がそのまま当てはまるかは、条文の文言上はっきりしません。この点を扱った解釈の資料は見ていません。2つ目は、公式の解説（問題文のデータ`takuitsu.json`）が、令和元年度 第15問 ウを「会社法人等番号は、電子証明書とともに署名の真正を確認するために提供するものではない」という理由で誤りとしており、手順6の分け方（商業登記電子証明書の提供まで述べているか）とは別の理由で、2つの肢を両立させている点です。手順6の整理は、規則44条2項の文言からの私の読みにとどまり、2つの肢を分ける基準を示した公式の資料や通達は見ていません。
   - **支配人等が代理するときに権限を証する情報が要らない理由**（令和5年度 第14問 ウの元記事は「番号から登記官が確認できる」と説明）：条文上の根拠は、規則36条3項です。この記事は規則36条3項を根拠としています。
   - **登記された支配人等でない代理人には委任状が要る**：令7条1項2号の原則と、規則36条3項が例外を「支配人等」に限っていることからの読みです。
-  - 作成後3月以内（規則36条2項）は、元記事（`topics/tenpu-jouhou-yuukoukigen.md`）に、令和2年3月30日の改正前は1月以内だったとの記述がありますが、改正省令の原文は`laws/`で確認できないため、この記事には書きませんでした。
-  - 平成30年度 第4問 イの元記事は、会社法人等番号を有しない法人の資格証明情報の例として登記事項証明書を挙げていますが、その具体例は`laws/`で確認できませんでした。この記事は、例を挙げていません。
+  - 作成後3月以内（規則36条2項）は、元記事（`topics/tenpu-jouhou-yuukoukigen.md`）に、令和2年3月30日の改正前は1月以内だったとの記述があります。確認結果（2026-10-08）で、e-Govの版の比較（2020-03-19施行版は「作成後一月以内」、2020-03-30施行版は「作成後三月以内」）と、令和2年法務省令第8号の附則1項（令和二年三月三十日から施行する）により、確認済みです。この記事は現行の3月以内で書いており、改正の経緯は本文に書いていません（書かなくても誤りではありません）。
+  - 平成30年度 第4問 イの元記事は、会社法人等番号を有しない法人の資格証明情報の例として登記事項証明書を挙げていますが、その具体例は`laws/`で確認できませんでした。確認結果（2026-10-08）でも、具体例を示した資料は見つかっていません。また、会社法人等番号は登記簿に記録される番号（商業登記法7条）なので、登記事項証明書を例とすることには疑問があります。この記事は、例を挙げていません。
 - 範囲外にした論点（代理権の消滅や存続、委任の範囲、印鑑証明書の要否、申請情報の代表者の氏名の細部、本人確認情報の面談、法定相続情報一覧図の代理、住所を証する情報を会社法人等番号で省く場合〔令9条、規則36条4項。出題実績なし〕、電子委任状）は、この記事では扱っていません。
 - 既存回との関係：⑫（書面申請の記名押印・署名）は、誰が押すか、印鑑証明書が要るかを扱います。㉔は、権限や資格を証する情報として、何を提供すれば足りるかを扱います。重なるのは、会社法人等番号が印鑑証明書も省けること（規則48条1号、49条2項1号。登記官が印鑑証明書を作成できる場合に限る）です。この記事では、手順の中で触れるにとどめ、詳細は⑫に任せます。`topics/tenpu-jouhou-hayamihyou.md`（添付情報の早見表）、`topics/tenpu-jouhou-yuukoukigen.md`（作成後3か月以内の整理）、`topics/touki-shikibetsu-shoumei.md`（登記識別情報に関する証明）とは、結論が一致しています。この記事は、それらを、問いの型と判定の順序で並べ直したものです。
 - 図解プロンプト3枚のフローチャート4つは、`note-articles/tools/flowchart_check_template.html`のデータ形式で作った点検用の図に、ノードと矢印を入れて、ヘッドレスのChromiumで表示して機械的に点検しました（全ダイヤに「はい」「いいえ」の出口があり、全ノードが開始から到達でき、結果ノードから矢印が出ず、経路数が一致。ダイヤ4・結果5・経路5、ダイヤ2・結果3・経路3、ダイヤ1・結果2・経路2、ダイヤ2・結果3・経路3）。スクリーンショットも目視しました（型Dの最初のダイヤは2行の文言が長めなので、画像生成時は枠からはみ出さないよう、プロンプトに指示を入れています）。画像生成AIでの生成・目視確認はまだ行っていません。
@@ -261,7 +262,7 @@ the characters and the title away from the extreme edges so the image
 survives center cropping. Do not draw any flowchart, diamond, arrow between
 boxes, or ✓ or ✕ mark.
 
-Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 権, 証, 資, 格, 代, 理, 人, 誰, 何, 省, 苦, 手, 分, 析, 型, 情, 報, 法, which have visually similar but structurally different Simplified or Traditional Chinese counterparts. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji, and remove it. Confirm the title and subtitle are reproduced exactly as written, that the image is 1280x670 landscape, that the characters match the supplied character sheet, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 権, 証, 資, 格, 代, 理, 人, 誰, 何, 省, 苦, 手, 分, 析, 情, 報, 法, which have visually similar but structurally different Simplified or Traditional Chinese counterparts. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji, and remove it. Confirm the title and subtitle are reproduced exactly as written, that the image is 1280x670 landscape, that the characters match the supplied character sheet, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -544,7 +545,7 @@ Small footnote text (bottom of the image, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to the kanji 権, 証, 電, 署, 認, 省, 略, 提, 供, 添, 付, 情, 報, 苦, 手, 分, 析, 型, 登, 記, 請, 補, 足, 方, 式, which have visually
+Chinese, paying special attention to the kanji 証, 電, 署, 認, 省, 略, 提, 供, 添, 付, 情, 報, 苦, 手, 分, 析, 型, 登, 記, 請, 方, 式, which have visually
 similar but structurally different Simplified or Traditional Chinese
 counterparts. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
@@ -920,7 +921,7 @@ Small footnote text (bottom of the image, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to the kanji 権, 証, 支, 配, 代, 理, 番, 号, 省, 昔, 調, 査, 提, 示, 署, 認, 苦, 手, 分, 析, 型, 登, 記, 請, 求, 委, 任, 状, which have visually
+Chinese, paying special attention to the kanji 権, 証, 支, 配, 代, 番, 号, 省, 昔, 調, 査, 提, 示, 署, 認, 苦, 手, 分, 析, 型, 登, 記, 請, 求, 委, 任, 状, which have visually
 similar but structurally different Simplified or Traditional Chinese
 counterparts. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
@@ -1032,7 +1033,7 @@ Small footnote text (bottom of the image, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to the kanji 権, 証, 資, 格, 支, 配, 代, 理, 番, 号, 省, 調, 査, 提, 示, 署, 認, 苦, 手, 分, 析, 型, 登, 記, 請, 求, 委, 任, 状, 思, 込, which have visually
+Chinese, paying special attention to the kanji 権, 証, 資, 格, 支, 配, 代, 理, 番, 号, 省, 調, 査, 提, 示, 苦, 手, 分, 析, 登, 記, 請, 求, 委, 任, 状, 思, 込, which have visually
 similar but structurally different Simplified or Traditional Chinese
 counterparts. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
