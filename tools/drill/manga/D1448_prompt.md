@@ -1,4 +1,4 @@
-# D1448 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D1448 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D1448（不動産登記法／申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）、出典 R01-Q08ア）。正解＝×（誤った記述）。誤解3回。
 - 記事：`note-articles/r1-mondai/q08-shinsei-tenpu.md` ア「会社法人等番号を提供すれば、支配人の権限を証する登記事項証明書は省略できる」
@@ -42,10 +42,10 @@
 | コマ2 図 | 図・カード | 出題者のねらい / 番号で足りるのか、証明書が要るのかを見分ける / 会社法人等番号を提供する / 令7条1項1号イ / 原則。支配人が代理して申請するときは、代理人の権限を証する情報は要らない（令7条1項2号、規則36条3項） / 登記事項証明書を提供する / 規則36条1項2号 / 会社法人等番号の提供に代えて、証明書を提供する場合 | — |
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
 | コマ3 図 | 図・カード | よくある勘違い / 登記所が同一などの条件を満たさない限り、証明書が要る / ひっかけ：登記所が同一でない限り、という条件づけ / 正しい整理 / 会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない / たとえば：会社の支配人が会社所有地の地目変更を申請するとき、申請情報に会社法人等番号を書いておけば、証明書を取り寄せて添付しなくてよい | — |
-| コマ3 | 藍子（左・1番目） | 登記所が同じでないと、省けませんよね？ | — |
-| コマ3 | トリ先生（右・2番目） | 番号の省略の原則を、狭めているわね | 「狭めている」 |
-| コマ3 | 藍子（左・3番目） | では、何を提供すれば足りますか？ | — |
-| コマ3 | トリ先生（右・4番目） | 会社法人等番号を提供すれば足りるのよ | 「会社法人等番号」 |
+| コマ3 | 藍子（左・1番目） | 登記所が同じでない限り、とあるので要るのでは？ | — |
+| コマ3 | トリ先生（右・2番目） | その条件が罠よ。番号があれば条件は付かないの | 「条件は付かない」 |
+| コマ3 | 藍子（左・3番目） | では、番号を書くと何が要らないのですか？ | — |
+| コマ3 | トリ先生（右・4番目） | 支配人の権限を証する証明書よ | 「証明書」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 条件つきで証明書が要る、は誤りなんですね！ | — |
@@ -107,14 +107,16 @@ PANEL 3 (surprised then convinced mood; both characters appear ONLY as small rou
 - Right card, heading 「正しい整理」, body 「会社法人等番号を提供すれば、支配人の権限を証する証明書は要らない」, with ONE blue check mark only (no cross on this card).
 - Example strip under the two cards: 「たとえば：会社の支配人が会社所有地の地目変更を申請するとき、申請情報に会社法人等番号を書いておけば、証明書を取り寄せて添付しなくてよい」.
 - The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「登記所が同じでないと、
-省けませんよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「番号の省略の原則を、
-狭めているわね」 with the part 「狭めている」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「では、何を提供すれば
-足りますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「会社法人等番号を
-提供すれば足りるのよ」 with the part 「会社法人等番号」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「登記所が同じでない限り、
+とあるので
+要るのでは？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「その条件が罠よ。
+番号があれば
+条件は付かないの」 with the part 「条件は付かない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「では、番号を書くと
+何が要らないのですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「支配人の権限を証する
+証明書よ」 with the part 「証明書」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
@@ -222,6 +224,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
+- 2026-10-09 v02：コマ3の会話を直した（ユーザー指示：何を伝えたいのか分からない）。『省けません』『番号の省略の原則を狭めている』という抽象的な言い方をやめ、①藍子が問題文の条件づけ（登記所が同じでない限り）を読み上げて誤答→②トリ先生が『その条件が罠。番号があれば条件は付かない』と指摘→③藍子が『番号を書くと何が要らないか』と聞く→④『支配人の権限を証する証明書』と答える、の4往復にし、左右のカード（勘違い・正しい整理）の文言と1対1で対応させた
 - 2026-10-09 v01：初版（v2ルール：吹き出しの改行、コマ間の継続、人体構造・手の割り当てを適用。一発合格ルール適用）
 
 ## 第二案（B案）：構成表2とプロンプト本体2
@@ -257,10 +260,10 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 | コマ2 図 | 図・カード | 押さえどころ / 証明書は、番号に代える場合だけ / 番号に代える / に代えて / 会社法人等番号を提供 / 令7条1項1号イ / 会社法人等番号を有する法人が申請するときの原則 / 登記事項証明書を提供 / 規則36条1項2号 / 会社法人等番号の提供に代えて、証明書を提供する場合 / 支配人が法人を代理して申請するときは、代理人の権限を証する情報の提供を要しない（令7条1項2号、規則36条3項） | — |
 | コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
 | コマ3 図 | 図・カード | ステップ1　代理人は支配人か / 支配人が法人を代理して申請している / ステップ2　番号を提供しているか / 提供していれば、支配人の権限を証する証明書は別に要らない / ステップ3　条件づけの語を見る / 条件づけで、番号による省略の原則を狭めている肢は誤り / ひっかけ：登記所が同一でない限り、という条件づけ | — |
-| コマ3 | 藍子（左・1番目） | 条件つきの肢は、どう読めばいいですか？ | — |
-| コマ3 | トリ先生（右・2番目） | 番号の省略の原則を狭めていないか見るのよ | 「狭めて」 |
-| コマ3 | 藍子（左・3番目） | では、支配人の証明書は要らないんですね？ | — |
-| コマ3 | トリ先生（右・4番目） | 要らないわ。証明書は番号に代える場合だけよ | 「番号に代える場合だけ」 |
+| コマ3 | 藍子（左・1番目） | 支配人が申請するとき、何を見ますか？ | — |
+| コマ3 | トリ先生（右・2番目） | 番号を提供しているかを見るのよ | 「番号を提供」 |
+| コマ3 | 藍子（左・3番目） | 登記所が同じでない限り、とあるのは？ | — |
+| コマ3 | トリ先生（右・4番目） | それが罠。条件が付いたら誤りよ | 「条件が付いたら誤り」 |
 | コマ4 見出し | ラベル | ④　これだけ覚える | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 番号を提供すれば足りる、と覚えます！ | — |
@@ -324,15 +327,14 @@ PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small ro
 - Step card 2: heading 「ステップ2　番号を提供しているか」, body 「提供していれば、支配人の権限を証する証明書は別に要らない」.
 - Step card 3: heading 「ステップ3　条件づけの語を見る」, body 「条件づけで、番号による省略の原則を狭めている肢は誤り」, with a dark navy ribbon tag under the body, with large white text, reading 「ひっかけ：登記所が同一でない限り、という条件づけ」.
 - There is no check mark and no cross anywhere in this panel.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「条件つきの肢は、
-どう読めばいいですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「番号の省略の原則を
-狭めていないか
-見るのよ」 with the part 「狭めて」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「では、支配人の証明書は
-要らないんですね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「要らないわ。証明書は
-番号に代える場合だけよ」 with the part 「番号に代える場合だけ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「支配人が申請するとき、
+何を見ますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「番号を提供しているかを
+見るのよ」 with the part 「番号を提供」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「登記所が同じでない限り、
+とあるのは？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「それが罠。条件が
+付いたら誤りよ」 with the part 「条件が付いたら誤り」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　これだけ覚える」
@@ -364,5 +366,6 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 ### 第二案の改訂履歴
 
+- 2026-10-09 B案v03：コマ3の会話を直した（ユーザー指示：会話の内容が何を伝えたいのか分からない）。ステップのカードと1対1で対応する4往復にした：①支配人が申請するとき何を見る→②番号を提供しているか→③登記所が同じでない限り、とあるのは→④それが罠、条件が付いたら誤り
 - 2026-10-09 B案v02：4コマの目的（出題者のひっかけ・受験者の勘違い・対比する制度）を設計メモに明記。暗記3点の3つ目に『登記所の条件で番号の省略を狭める肢は誤り』を足し、肝を暗記3点に入れた。構成（図・押さえどころ・読み方）は変更なし
 - 2026-10-09 B案v01：初版（第二案。D0314-Bと同じ型：しくみの図解→番号と証明書の位置づけ→本番での読み方3ステップ→暗記3点）
