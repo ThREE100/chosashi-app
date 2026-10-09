@@ -1,6 +1,6 @@
 # 不動産登記法 全文解説（章別）
 
-対象：不動産登記法（平成16年法律第123号）。原文は`note-articles/laws/fudousan-touki-hou.md`（令和8年6月24日施行分まで反映）。書き方は`../README.md`を参照してください。
+対象：不動産登記法（平成16年法律第123号）。原文は`note-articles/laws/fudousan-touki-hou.md`（リポジトリ直下の`law-commentary/`から見ると`../note-articles/laws/`）（令和8年6月24日施行分まで反映）。書き方は`../README.md`を参照してください。
 
 ## 章別の一覧と進み具合
 
