@@ -1966,3 +1966,8 @@
 {"t": "2026-10-09T06:28:55+00:00", "id": "D0647", "ans": "o", "truth": true, "res": "known"}
 {"t": "2026-10-09T06:28:55+00:00", "id": "D1087", "ans": "x", "truth": false, "res": "known"}
 {"t": "2026-10-09T06:28:56+00:00", "id": "D0333", "ans": "o", "truth": false, "res": "miscon"}
+{"t": "2026-10-09T06:34:08+00:00", "id": "D1587", "ans": "o", "truth": false, "res": "miscon"}
+{"t": "2026-10-09T06:34:08+00:00", "id": "D0571", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-09T06:34:08+00:00", "id": "D1074", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-09T06:34:08+00:00", "id": "D0883", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-09T06:34:08+00:00", "id": "D0959", "ans": "x", "truth": true, "res": "miscon"}
