@@ -4912,7 +4912,8 @@
    "law_ref": "laws/ に工場抵当法の収録なし（確認できない）",
    "proposal": "「工場抵当法の規定による（原文は本記事で未確認）」と明記し、条番号の引用は確認後に行う。",
    "confidence": "medium",
-   "resolved": "2026-10-08"
+   "resolved": "2026-10-08",
+   "note": "2026-10-09：工場抵当法をnote-articles/laws/kojo-teitou-hou.mdに収録し、記事の引用（14条1項・2項、13条2項）を原文で確認。34条1項・38条1項・39条を足し、合併を直接禁じる文言がないこと（結論は公式正答による）を記事に明記した。"
   },
   {
    "note_path": "note-articles/h20-mondai/q18-gappei-touki.md",
