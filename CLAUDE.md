@@ -449,6 +449,11 @@ I点はBCとY＝485.26の交点で I ＝ B ＋ (C − B) × 0.57 ÷ 10.57 ＝（
 `note-articles/nigate-bunseki-series-guide.md`に作業手順（出題リスト→型の分類→判定フロー→フローチャートの機械点検→図解プロンプト→本文）と、別チャットに貼る執筆依頼文をまとめてある。
 新しい回を作るときはまずそちらを読む。フローチャートの機械点検には`note-articles/tools/flowchart_check_template.html`を使う。⑦（意思表示の瑕疵）が完成した見本。
 
+## 法令の全文解説（`note-articles/law-commentary/`）について(2026-10-09追加)
+
+条文を条ごとにかみ砕いて説明する「法令の全文解説」は、`note-articles/law-commentary/`に法令ごと・章ごとのファイルで保存する（不動産登記法は`fudousan-touki-hou/`。原文は`note-articles/laws/`から転記し、手で打ち直さない）。
+書き方の型と守るルールは`law-commentary/README.md`、章別の進み具合は`law-commentary/fudousan-touki-hou/README.md`。第一章（第1条〜第5条）が試作版（2026-10-09）で、ユーザーの確認後に他の章へ広げる。
+
 ## 運用ルール(2026-07-15合意)
 
 - 作業セッションごとにコミットする(まとめて1コミットにしない)
