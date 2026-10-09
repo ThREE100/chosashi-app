@@ -5,6 +5,8 @@
 確かめること：①条文の原文が note-articles/laws/ と一致 ②画像挿入マーカーとプロンプトの対応 ③図解プロンプトの簡体字対策・
 配色・表の行数・フローの構成 ④4コマの設計メモと構成表 ⑤見出し画像の文言 ⑥記事に、個人の演習結果・問題番号が入っていない（4コマの結論帯の問題番号は、ユーザー指示で維持する）"""
 import re, sys, json, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import law_parts as lp
 
 folder = pathlib.Path(sys.argv[1]).resolve()
 cfg = json.loads((folder / "check_config.json").read_text(encoding="utf8"))
@@ -25,7 +27,17 @@ law = (ROOT / "note-articles/laws/fudousan-touki-hou.md").read_text(encoding="ut
 def block(head):
     i = law.index(head); return law[i:law.index("\n##### ", i + 5)]
 for qd in cfg["law_quotes"]:
+    if qd["kind"] == "kubun":
+        cap, items = lp.kubun_article(ROOT, qd["article"], qd.get("paras"))
+        miss = [x for x in items if ("> " + x) not in note]
+        chk(items and not miss, f"区分所有法{qd['article']}の原文（{len(items)}項）が laws/ と一致", f"区分所有法{qd['article']}の原文が laws/ と一致しない: {len(miss)}項")
+        if cap and cap not in note: NG(f"区分所有法{qd['article']}の見出し {cap} が記事にない")
+        continue
     b = block(qd["head"])
+    if qd["kind"] == "fudo_item":
+        line = next(l for l in b.split("\n") if l.startswith(qd["prefix"]))
+        chk(("> " + line) in note, f"{qd['head']}の{qd['prefix']}の原文が laws/ と一致", f"{qd['head']}の{qd['prefix']}の原文が laws/ と一致しない")
+        continue
     if qd["kind"] == "first_paragraph":
         t = b.split("\n\n")[1].strip(); chk(("> " + t) in note, f"{qd['head']}の原文が laws/ と一致", f"{qd['head']}の原文が laws/ と一致しない")
     else:
@@ -88,7 +100,7 @@ for s in cfg["midashi_texts"][:2]:
 if "Arabic numeral 4;" in mid and cfg.get("midashi_digit_fix"): NG("見出し画像：4コマ用の数字の指示が残っている")
 
 # 5b 記事のタイトル（2026-10-09 ユーザー指示の形）
-if not re.match(r"^## 【土地家屋調査士受験生向け】条文別 苦手克服〜不動産登記法 第[^（）〜]+（[^（）〜]+）〜$", note.split("\n")[0]): NG("記事のタイトルが、指定の形（条文別 苦手克服〜法令名 条（見出し）〜）でない")
+if not re.match(r"^## 【土地家屋調査士受験生向け】条文別 苦手克服〜(不動産登記法|区分所有法|民法|不動産登記令|不動産登記規則) 第[^（）〜]+（[^（）〜]+）〜$", note.split("\n")[0]): NG("記事のタイトルが、指定の形（条文別 苦手克服〜法令名 条（見出し）〜）でない")
 
 # 6 記事：表を使わない、個人の演習結果・問題番号が入っていない
 if re.search(r"^\|", note, re.M): NG("記事にMarkdownの表がある（シリーズは表を使わない）")

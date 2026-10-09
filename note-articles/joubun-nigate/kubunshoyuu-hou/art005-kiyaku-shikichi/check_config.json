@@ -1,0 +1,75 @@
+{
+ "note": "note_art005.md",
+ "infographic": "prompt_infographic_art005.md",
+ "midashi": "prompt_midashi_art005.md",
+ "fourkoma": [
+  "prompt_4koma_01_hassei-to-shometsu.md",
+  "prompt_4koma_02_basho-goto.md",
+  "prompt_4koma_03_tatemono-no-gawa.md",
+  "prompt_4koma_04_hotei-shikichi.md",
+  "prompt_4koma_05_bunri-shobun.md",
+  "prompt_4koma_06_teitoken.md"
+ ],
+ "n_infographic": 7,
+ "law_quotes": [
+  {
+   "kind": "kubun",
+   "article": "第2条",
+   "paras": [
+    "５",
+    "６"
+   ]
+  },
+  {
+   "kind": "kubun",
+   "article": "第5条"
+  },
+  {
+   "kind": "kubun",
+   "article": "第22条"
+  },
+  {
+   "kind": "kubun",
+   "article": "第31条",
+   "paras": [
+    "1"
+   ]
+  },
+  {
+   "kind": "kubun",
+   "article": "第32条"
+  },
+  {
+   "kind": "fudo_item",
+   "head": "##### 第44条（建物の表示に関する登記の登記事項）",
+   "prefix": "- 九"
+  },
+  {
+   "kind": "first_paragraph",
+   "head": "##### 第46条（敷地権である旨の登記）"
+  }
+ ],
+ "table_rows": {
+  "2": 4,
+  "5": 5
+ },
+ "flow": {
+  "image": 6,
+  "diamonds": 3,
+  "results": 4
+ },
+ "midashi_texts": [
+  "規約敷地の添付情報",
+  "どの規約の証明が要る？",
+  "苦手克服　区分所有法　第5条"
+ ],
+ "midashi_digit_fix": true,
+ "note_required": [
+  "部品1",
+  "部品7",
+  "ポイント1",
+  "ポイント6",
+  "確認事項",
+  "令別表"
+ ]
+}
