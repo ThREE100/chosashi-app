@@ -1831,3 +1831,8 @@
 {"t": "2026-10-09T02:15:33+00:00", "id": "D1561", "ans": "o", "truth": true, "res": "known"}
 {"t": "2026-10-09T02:15:33+00:00", "id": "D0599", "ans": "x", "truth": true, "res": "miscon"}
 {"t": "2026-10-09T02:15:33+00:00", "id": "D0490", "ans": "o", "truth": true, "res": "known", "note_input_fix": "入力誤りの訂正(2026-10-09ユーザー指示): ×→〇"}
+{"t": "2026-10-09T02:24:48+00:00", "id": "D0932", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-09T02:24:48+00:00", "id": "D1627", "ans": "o", "truth": false, "res": "miscon"}
+{"t": "2026-10-09T02:24:48+00:00", "id": "D0640", "ans": "x", "truth": false, "res": "known"}
+{"t": "2026-10-09T02:24:48+00:00", "id": "D0334", "ans": "?", "truth": false, "res": "unknown"}
+{"t": "2026-10-09T02:24:49+00:00", "id": "D0866", "ans": "x", "truth": false, "res": "known"}
