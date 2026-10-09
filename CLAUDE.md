@@ -452,7 +452,7 @@ I点はBCとY＝485.26の交点で I ＝ B ＋ (C − B) × 0.57 ÷ 10.57 ＝（
 ## 法令の全文解説（`law-commentary/`）について(2026-10-09追加)
 
 条文を条ごとにかみ砕いて説明する「法令の全文解説」は、リポジトリ直下の`law-commentary/`に法令ごと・章ごとのファイルで保存する（`note-articles/`の中には置かない）（不動産登記法は`fudousan-touki-hou/`。原文は`note-articles/laws/`から転記し、手で打ち直さない）。
-書き方の型と守るルールは`law-commentary/README.md`、章別の進み具合は`law-commentary/fudousan-touki-hou/README.md`。第一章（第1条〜第5条）が試作版（2026-10-09）で、ユーザーの確認後に他の章へ広げる。
+書き方の型と守るルールは`law-commentary/README.md`、章別の索引と進み具合は`law-commentary/fudousan-touki-hou/README.md`。不動産登記法の本則（第1条〜第164条、枝番を含む175条）は2026-10-09に全章そろった（附則は未作成）。原文の引用は`laws/`と機械的に照合して一致を確認している。他の法令（不動産登記令・規則など）への拡張は、ユーザーの指示があったときに行う。
 
 ## 運用ルール(2026-07-15合意)
 
