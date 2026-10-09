@@ -4,7 +4,7 @@
 >
 > - 条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、不動産登記法 第40条の記事に差し込む4コマ（1本目）のプロンプトです。類似の誤解をまとめて、1本の4コマにしました。
 > - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（ブランチ `claude/kind-bell-y3f106` の `tools/drill/manga/`）に従い、同ブランチの生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-09）。下の「作成時の品質ゲート」にある `tools/drill/manga/` のパスは、そのブランチ上のパスです。
-> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。画像の結論帯には、問題番号を載せていません。
+> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。
 
 - 肢：D0026・D0597・D0599（不動産登記法／土地の分筆・合筆・地積更正、出典 H17-Q06肢1／H22-Q18イ・エ）。正解＝D0026・D0597＝×（誤った記述）／D0599＝〇。
 - 記事：`note-articles/h22-mondai/q18-bunpitsu.md` イ「仮登記権利者が消滅を承諾すれば、分筆後の土地に仮登記は転写されない」・エ「差押えの登記は、承諾があっても分筆の手続では抹消できない」。ほか、H17-Q06肢1（q06-bunpitsu-shinsei.md）
@@ -45,7 +45,7 @@
 | コマ4 | トリ先生（右・答える） | そのとおり。名前が似ていても別物よ | 「別物」 |
 | コマ4 チェック欄 | 3項目（青✓） | 権利を残したまま分筆するなら、権利者の承諾は要らない。権利は分筆後の各土地に転写される（規則102条） / 抵当権や仮登記などの権利の登記は、承諾の情報を添えれば、分筆後の土地について消せる（法40条） / 仮差押えの登記は承諾が不要。差押えの登記は、承諾があっても分筆の手続では消せない | — |
 | 結論帯 | 1行目 | 承諾の情報で消せるのは、権利の登記だけ | 黄色マーカー |
-| 結論帯 | 2行目 | 不動産登記法 第40条（分筆に伴う権利の消滅の登記） | — |
+| 結論帯 | 2行目 | 問題D0026・D0597・D0599　D0026・D0597＝×、D0599＝〇 | — |
 
 ## 記事に無い条文（ユーザー指示で追加）
 
@@ -124,7 +124,7 @@ PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a sma
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「承諾の情報で消せるのは、権利の登記だけ」 with a yellow highlighter marker.
-- Line 2: 「不動産登記法 第40条（分筆に伴う権利の消滅の登記）」
+- Line 2: 「問題D0026・D0597・D0599　D0026・D0597＝×、D0599＝〇」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 

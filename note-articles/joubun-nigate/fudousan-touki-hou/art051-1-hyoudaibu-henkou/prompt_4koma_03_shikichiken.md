@@ -4,7 +4,7 @@
 >
 > - 条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、不動産登記法 第51条第1項の記事に差し込む4コマ（3本目）のプロンプトです。類似の誤解をまとめて、1本の4コマにしました。
 > - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（ブランチ `claude/kind-bell-y3f106` の `tools/drill/manga/`）に従い、同ブランチの生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-09）。下の「作成時の品質ゲート」にある `tools/drill/manga/` のパスは、そのブランチ上のパスです。
-> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。画像の結論帯には、問題番号を載せていません。
+> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。
 
 - 肢：D0687・D1278・D1796（不動産登記法／区分建物・敷地権・共用部分、出典 H23-Q16イ／H29-Q15イ／R04-Q18イ）。正解＝D0687・D1796＝〇／D1278＝×（誤った記述）。
 - 記事：`note-articles/r4-mondai/q18-shikichiken.md` イ「規約敷地になったら、Bは1か月以内に表題部変更登記を申請」。ほか、H23-Q16イ（q16-hyouji-touki-gimu.md）、H29-Q15イ（q15-tatemono-shinsei-gimu.md）
@@ -45,7 +45,7 @@
 | コマ4 | トリ先生（右・答える） | そのとおり。変更があった日から数えるのよ | 「変更があった日」 |
 | コマ4 チェック欄 | 3項目（青✓） | 敷地権が生じたり、割合が変わったりしたときは、建物の表題部の変更の登記が要る（法51条1項） / 申請する人は建物の側。期限は、変更があった日から1か月以内 / 土地の側の、敷地権である旨の登記は、登記官が職権でする（法46条） | — |
 | 結論帯 | 1行目 | 敷地権の変更も、建物の側で1か月以内に申請する | 黄色マーカー |
-| 結論帯 | 2行目 | 不動産登記法 第51条第1項（建物の表題部の変更の登記） | — |
+| 結論帯 | 2行目 | 問題D0687・D1278・D1796　D0687・D1796＝〇、D1278＝× | — |
 
 ## 記事に無い条文（ユーザー指示で追加）
 
@@ -127,7 +127,7 @@ PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a sma
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「敷地権の変更も、建物の側で1か月以内に申請する」 with a yellow highlighter marker.
-- Line 2: 「不動産登記法 第51条第1項（建物の表題部の変更の登記）」
+- Line 2: 「問題D0687・D1278・D1796　D0687・D1796＝〇、D1278＝×」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 

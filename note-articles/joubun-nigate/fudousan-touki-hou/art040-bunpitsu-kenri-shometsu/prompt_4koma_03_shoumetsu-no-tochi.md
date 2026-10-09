@@ -4,7 +4,7 @@
 >
 > - 条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、不動産登記法 第40条の記事に差し込む4コマ（3本目）のプロンプトです。類似の誤解をまとめて、1本の4コマにしました。
 > - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（ブランチ `claude/kind-bell-y3f106` の `tools/drill/manga/`）に従い、同ブランチの生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-09）。下の「作成時の品質ゲート」にある `tools/drill/manga/` のパスは、そのブランチ上のパスです。
-> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。画像の結論帯には、問題番号を載せていません。
+> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。
 
 - 肢：D0600・D0957（不動産登記法／土地の分筆・合筆・地積更正、出典 H22-Q18オ／H26-Q10ア）。正解＝D0600＝×（誤った記述）／D0957＝〇。
 - 記事：`note-articles/h22-mondai/q18-bunpitsu.md` オ「分筆手続の中で、もとの土地に『抵当権が消滅した旨の記録』はされない」。ほか、H26-Q10ア（q10-bunpitsu.md）
@@ -45,7 +45,7 @@
 | コマ4 | トリ先生（右・答える） | そのとおり。承諾に係る土地を見るのよ | 「承諾に係る土地」 |
 | コマ4 チェック欄 | 3項目（青✓） | 承諾に係る土地について、権利が消滅した旨を登記する（法40条） / 乙土地について消えるときは、乙土地に転写せず、甲土地の記録に付記登記で記録する（規則104条2項） / 分筆後の甲土地について消えるときは、甲土地に消滅の付記と抹消の記号、乙土地に転写される（規則104条3項） | — |
 | 結論帯 | 1行目 | 消滅は、承諾に係る土地についてだけ登記する | 黄色マーカー |
-| 結論帯 | 2行目 | 不動産登記法 第40条（分筆に伴う権利の消滅の登記） | — |
+| 結論帯 | 2行目 | 問題D0600・D0957　D0600＝×、D0957＝〇 | — |
 
 ## プロンプト本体
 
@@ -120,7 +120,7 @@ PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a sma
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「消滅は、承諾に係る土地についてだけ登記する」 with a yellow highlighter marker.
-- Line 2: 「不動産登記法 第40条（分筆に伴う権利の消滅の登記）」
+- Line 2: 「問題D0600・D0957　D0600＝×、D0957＝〇」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 

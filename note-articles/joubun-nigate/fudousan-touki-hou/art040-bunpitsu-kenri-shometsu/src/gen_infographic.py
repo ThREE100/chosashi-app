@@ -109,7 +109,7 @@ def img5():
 # ---------------------------------------------------------------- 図解6：消したあとに戻せるか
 def img6():
     body = [lead("1080x1800", "This is a two-column comparison poster (対比表)."), TEXTREQ, BGREQ, COLOR] + \
-           header("分筆の登記を錯誤で戻せる？", "分かれ目は、権利を消したか", "不動産登記法 第40条・第72条") + \
+           header("分筆の登記を錯誤で戻せる？", "分かれ目は、権利を消したか", "不動産登記法 第40条") + \
            ["--- LEFT COLUMN HEADER (pill-shaped badge, dark navy) ---", q("権利が転写されただけ"),
             "--- RIGHT COLUMN HEADER (pill-shaped badge, dark navy) ---", q("承諾で権利を消した"),
             "The two columns are aligned: each row of the left column sits at exactly the same height as the same row of the right column. Each row is a rounded card with a small dark navy row label on its left edge. Use neutral dark navy outlines only; draw no check mark and no cross mark anywhere, and use no blue or red.",
@@ -121,8 +121,8 @@ def img6():
             "Right card: a document sheet labeled " + q("分筆錯誤では、分筆の登記を抹消できない") + ".",
             "--- ROW 3 (row label " + q("やり直すには") + ") ---",
             "Left card: a small stamp icon with the string " + q("そのまま抹消の申請ができる") + ".",
-            "Right card: a small stamp icon with the string " + q("消えた権利の登記の回復が先（法72条）") + " and, under it, the smaller string " + q("新たな利害関係人がいれば、その承諾が要る") + ".",
-            "At the bottom, one small light-gray tag centered across both columns: " + q("右の列は、登記実務の取扱いによる整理"),
+            "Right card: a small stamp icon with the string " + q("権利の登記を抹消し、合筆して、改めて設定する") + ".",
+            "At the bottom, one small light-gray tag centered across both columns: " + q("右の列は、先例の扱いによる整理"),
             "The left and right cards of each row have clearly different texts; the texts are NOT identical."]
     txt = "\n".join(body)
     return txt + "\n--- FOOTER ---\n" + final(kanji_in(txt), "Confirm there are exactly 2 columns and exactly 3 rows of cards plus the small gray tag at the bottom, that the left and right texts of each row are different, and that no check mark or cross mark appears anywhere.")

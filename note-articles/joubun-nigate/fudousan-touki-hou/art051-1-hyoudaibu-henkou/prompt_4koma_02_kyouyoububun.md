@@ -4,7 +4,7 @@
 >
 > - 条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、不動産登記法 第51条第1項の記事に差し込む4コマ（2本目）のプロンプトです。類似の誤解をまとめて、1本の4コマにしました。
 > - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（ブランチ `claude/kind-bell-y3f106` の `tools/drill/manga/`）に従い、同ブランチの生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-09）。下の「作成時の品質ゲート」にある `tools/drill/manga/` のパスは、そのブランチ上のパスです。
-> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。画像の結論帯には、問題番号を載せていません。
+> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。
 
 - 肢：D0537・D1093・D1890（不動産登記法／区分建物・敷地権・共用部分、出典 H22-Q06イ／H27-Q17エ／R05-Q17ウ）。正解＝D0537・D1890＝〇／D1093＝×（誤った記述）。
 - 記事：`note-articles/h22-mondai/q06-kyouyoububun.md` イ「共用部分の建物でも、床面積が変われば1か月以内に変更登記が必要」。ほか、H27-Q17エ（q17-kyouyoububun.md）、R05-Q17ウ（q17-kyouyoububun.md）
@@ -45,7 +45,7 @@
 | コマ4 | トリ先生（右・答える） | そのとおり。申請するのは所有者よ | 「申請するのは所有者」 |
 | コマ4 チェック欄 | 3項目（青✓） | 共用部分である旨の登記がある建物でも、床面積や種類が変われば、変更の登記が要る / 申請する人は、名義人ではなく所有者（法51条1項かっこ書） / 期限は、変更があった日から1か月以内。申請することを要しない、は誤り | — |
 | 結論帯 | 1行目 | 共用部分の建物でも、所有者が1か月以内に申請する | 黄色マーカー |
-| 結論帯 | 2行目 | 不動産登記法 第51条第1項（建物の表題部の変更の登記） | — |
+| 結論帯 | 2行目 | 問題D0537・D1093・D1890　D0537・D1890＝〇、D1093＝× | — |
 
 ## 記事に無い条文（ユーザー指示で追加）
 
@@ -125,7 +125,7 @@ PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a sma
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「共用部分の建物でも、所有者が1か月以内に申請する」 with a yellow highlighter marker.
-- Line 2: 「不動産登記法 第51条第1項（建物の表題部の変更の登記）」
+- Line 2: 「問題D0537・D1093・D1890　D0537・D1890＝〇、D1093＝×」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 

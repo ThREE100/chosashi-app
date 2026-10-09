@@ -4,7 +4,7 @@
 >
 > - 条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、不動産登記法 第51条第1項の記事に差し込む4コマ（1本目）のプロンプトです。類似の誤解をまとめて、1本の4コマにしました。
 > - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（ブランチ `claude/kind-bell-y3f106` の `tools/drill/manga/`）に従い、同ブランチの生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-09）。下の「作成時の品質ゲート」にある `tools/drill/manga/` のパスは、そのブランチ上のパスです。
-> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。画像の結論帯には、問題番号を載せていません。
+> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。
 
 - 肢：D0333・D0688・D1491（不動産登記法／建物の分割・合併・合体・滅失・変更、出典 H20-Q05ア／H23-Q16ウ／R01-Q16エ）。正解＝D0333＝×（誤った記述）／D0688・D1491＝〇。
 - 記事：`note-articles/h20-mondai/q05-tatemono-taiwa.md` ア「外壁・屋根の改修だけでは、変更登記は必要ない」。ほか、H23-Q16ウ（q16-hyouji-touki-gimu.md）、R01-Q16エ（q16-hyouji-touki-shinsei.md）
@@ -45,7 +45,7 @@
 | コマ4 | トリ先生（右・答える） | 登記事項が変わったかを見るのよ | 「登記事項が変わったか」 |
 | コマ4 チェック欄 | 3項目（青✓） | 変更の登記が要るかは、工事の大きさでなく、登記事項に変更があったかで決まる（法51条1項） / 外壁・屋根の材料の張り替えだけなら、登記事項は変わらない（屋根の種類が同じとき） / 工事をしなくても、敷地の分筆で地番が変われば、建物の所在の変更の登記が要る | — |
 | 結論帯 | 1行目 | 変更の登記は、登記事項が変わったときに要る | 黄色マーカー |
-| 結論帯 | 2行目 | 不動産登記法 第51条第1項（建物の表題部の変更の登記） | — |
+| 結論帯 | 2行目 | 問題D0333・D0688・D1491　D0333＝×、D0688・D1491＝〇 | — |
 
 ## プロンプト本体
 
@@ -122,7 +122,7 @@ PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a sma
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「変更の登記は、登記事項が変わったときに要る」 with a yellow highlighter marker.
-- Line 2: 「不動産登記法 第51条第1項（建物の表題部の変更の登記）」
+- Line 2: 「問題D0333・D0688・D1491　D0333＝×、D0688・D1491＝〇」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 

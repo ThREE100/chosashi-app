@@ -202,7 +202,7 @@ Title (large, bold, 2 lines):
 「分筆の登記を錯誤で戻せる？」
 「分かれ目は、権利を消したか」
 Subtitle (smaller, centered, 1 line):
-「不動産登記法 第40条・第72条」
+「不動産登記法 第40条」
 --- LEFT COLUMN HEADER (pill-shaped badge, dark navy) ---
 「権利が転写されただけ」
 --- RIGHT COLUMN HEADER (pill-shaped badge, dark navy) ---
@@ -216,8 +216,8 @@ Left card: a document sheet labeled 「錯誤を原因に、分筆の登記を�
 Right card: a document sheet labeled 「分筆錯誤では、分筆の登記を抹消できない」.
 --- ROW 3 (row label 「やり直すには」) ---
 Left card: a small stamp icon with the string 「そのまま抹消の申請ができる」.
-Right card: a small stamp icon with the string 「消えた権利の登記の回復が先（法72条）」 and, under it, the smaller string 「新たな利害関係人がいれば、その承諾が要る」.
-At the bottom, one small light-gray tag centered across both columns: 「右の列は、登記実務の取扱いによる整理」
+Right card: a small stamp icon with the string 「権利の登記を抹消し、合筆して、改めて設定する」.
+At the bottom, one small light-gray tag centered across both columns: 「右の列は、先例の扱いによる整理」
 The left and right cards of each row have clearly different texts; the texts are NOT identical.
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 対, 当, 承, 抵, 権, 登, 記, 請, 諾; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm there are exactly 2 columns and exactly 3 rows of cards plus the small gray tag at the bottom, that the left and right texts of each row are different, and that no check mark or cross mark appears anywhere. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.

@@ -3,7 +3,7 @@
 使い方: python3 note-articles/joubun-nigate/common/check_article.py <フォルダ>   （フォルダに check_config.json が要る）
 標準ライブラリのみ。NGがあれば終了コード1。
 確かめること：①条文の原文が note-articles/laws/ と一致 ②画像挿入マーカーとプロンプトの対応 ③図解プロンプトの簡体字対策・
-配色・表の行数・フローの構成 ④4コマの設計メモと構成表 ⑤見出し画像の文言 ⑥記事に、個人の演習結果・問題番号が入っていない"""
+配色・表の行数・フローの構成 ④4コマの設計メモと構成表 ⑤見出し画像の文言 ⑥記事に、個人の演習結果・問題番号が入っていない（4コマの結論帯の問題番号は、ユーザー指示で維持する）"""
 import re, sys, json, pathlib
 
 folder = pathlib.Path(sys.argv[1]).resolve()
@@ -78,7 +78,6 @@ for n, (f, t) in enumerate(zip(cfg["fourkoma"], four), 1):
             if s and s not in body.replace("\n", ""): bad.append(s)
     chk(not bad, f"4コマ{n}：構成表の文言（全部）がプロンプト本体にある", f"4コマ{n}：構成表の文言がプロンプト本体にない: {bad[:3]}")
     if "Final check before rendering" not in body or "BACKGROUND REQUIREMENT" not in body: NG(f"4コマ{n}：Final checkか背景の不透明化の指示がない")
-    if re.search(r"D\d{4}|問題[DＤ]", body): NG(f"4コマ{n}：画像に載る本文に、問題番号がある")
     if "## 見出し画像プロンプト" in t or "## note記事の冒頭文" in t: NG(f"4コマ{n}：単独記事用の節（見出し・冒頭文）が残っている")
 
 # 5 見出し画像

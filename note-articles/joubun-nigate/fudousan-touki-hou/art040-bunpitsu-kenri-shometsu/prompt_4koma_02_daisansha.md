@@ -4,7 +4,7 @@
 >
 > - 条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、不動産登記法 第40条の記事に差し込む4コマ（2本目）のプロンプトです。類似の誤解をまとめて、1本の4コマにしました。
 > - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（ブランチ `claude/kind-bell-y3f106` の `tools/drill/manga/`）に従い、同ブランチの生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-09）。下の「作成時の品質ゲート」にある `tools/drill/manga/` のパスは、そのブランチ上のパスです。
-> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。画像の結論帯には、問題番号を載せていません。
+> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。
 
 - 肢：D0646・D0743（不動産登記法／土地の分筆・合筆・地積更正、出典 H23-Q08ア／H24-Q07ウ）。正解＝D0646・D0743＝〇。
 - 記事：`note-articles/h23-mondai/q08-bunpitsu-gappitsu-kenri.md` ア「抵当権を消すには、その上の第三者の承諾も要る」。ほか、H24-Q07ウ（q07-bunpitsu.md）
@@ -45,7 +45,7 @@
 | コマ4 | トリ先生（右・答える） | そのとおり。分筆の申請と併せて出すのよ | 「併せて出す」 |
 | コマ4 チェック欄 | 3項目（青✓） | 権利の登記名義人が、権利を消すことを承諾した情報を、分筆の申請情報と併せて提供する（法40条） / その権利を目的とする第三者の権利の登記があるときは、その第三者の承諾した情報も併せて提供する（法40条かっこ書） / 要役地の地役権を消すときは、地役権者が作成した情報のほか、土地の抵当権者の承諾も要る（規則104条6項） | — |
 | 結論帯 | 1行目 | 権利者本人に加えて、第三者の承諾も併せて出す | 黄色マーカー |
-| 結論帯 | 2行目 | 不動産登記法 第40条（分筆に伴う権利の消滅の登記） | — |
+| 結論帯 | 2行目 | 問題D0646・D0743　どちらも〇 | — |
 
 ## プロンプト本体
 
@@ -121,7 +121,7 @@ PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a sma
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「権利者本人に加えて、第三者の承諾も併せて出す」 with a yellow highlighter marker.
-- Line 2: 「不動産登記法 第40条（分筆に伴う権利の消滅の登記）」
+- Line 2: 「問題D0646・D0743　どちらも〇」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
