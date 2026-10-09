@@ -20,9 +20,24 @@
 
 表示に関する登記の多くには「変更があった日から1か月以内」という申請義務が課されています。この問題では、申請義務そのものの有無だけでなく、「1か月」をいつから数え始めるのか（起算点）、そして申請すべき登記の種類は何かが問われています。
 
+起算点には、次の4つの型があります（建物の表題部の変更の登記は不動産登記法51条、土地の地目・地積の変更の登記は同法37条）。
+
+- **変更があった日**（51条1項。土地は37条1項）：変更があった時点の名義人
+- **所有権の登記があった日**（51条2項。土地は37条2項）：変更のあとに名義人となった人
+- **共用部分である旨の登記がされた日**（51条3項）：共用部分である旨の登記がされた時の所有者。ただし、1項・2項の義務者は除かれる
+- **所有権の取得の日**（51条4項）：共用部分である旨の登記がある建物で、変更のあとに所有権を取得した人。ただし、3項の義務者は除かれる
+
+どの肢も、「誰の1か月か」と「その人の起算点はいつか」の組み合わせを見る問題だと意識して読むと、整理しやすくなります。
+
 ### ア：増築登記の起算点は、工事が終わった日
 
-増築した当時の所有権の登記名義人の申請義務の起算点は、変更（増築の工事完了）があった日です（不動産登記法51条1項）。共用部分である旨の登記がされた日から数えるのは、51条1項・2項で申請義務を負う者を除いた所有者です（同条3項かっこ書）。本肢の主語は増築当時の登記名義人なので、共用部分である旨の登記がされた日を起算点とする本肢は誤りです。
+増築した当時の所有権の登記名義人の申請義務の起算点は、変更（増築の工事完了）があった日です（不動産登記法51条1項）。
+
+共用部分である旨の登記がされた日から数えるのは、51条3項の義務者です。ただし3項には「前二項の規定により登記を申請しなければならない者を除く」というかっこ書があり、1項・2項で申請義務を負う者は、3項の義務者に含まれません。つまり、3項は1項の人の起算点を後ろへずらす規定ではありません。1項の人の義務は、あとから共用部分である旨の登記がされても消えず、起算点も工事完了の日のままです。3項は、それ以外の所有者に、共用部分である旨の登記の日を起算点とする別の義務を足す規定です。
+
+本肢の主語は、増築当時の登記名義人（＝1項の人）です。それなのに、起算点を3項の日（共用部分である旨の登記がされた日）にしています。主語と起算点の組み合わせが合わないので、誤りです。
+
+なお、増築のあとに所有権の登記を受けた人は、51条2項により、その人についての所有権の登記があった日から数えます。また、共用部分である旨の登記がある建物で、変更のあとに所有権を取得した人は、51条4項により、所有権の取得の日から数えます（エ肢との違いは、エ肢で説明します）。
 
 **たとえば**、マンションの1室が増築され、その後にその建物について共用部分である旨の登記がされたとしても、増築当時の名義人にとっては、増築登記の「1か月」は工事が終わった時点からすでに数え始まっています。
 
@@ -44,6 +59,10 @@
 
 売買契約などで所有権を取得した日そのものではなく、その所有権の移転登記がされた日が起算点になる点に注意が必要です。取得の日を起算点とする本肢の記述は誤りです。
 
+この起算点の型は、建物の51条2項と同じ形です。37条2項も51条2項も、「変更があった後に名義人となった者は、その者の登記があった日から」と定めています。
+
+**注意**：取得の日から数える規定もあります。共用部分である旨の登記がある建物の51条4項は、変更のあとに所有権を取得した人の起算点を「所有権の取得の日」と定めています。「取得の日は常に誤り」と覚えると、4項で逆に間違えます。本肢は土地の地目（37条2項）の話なので、取得の日を起算点とする記述が誤りです。
+
 **たとえば**、山林として登記されている土地に以前から住宅が建っていた場合、その土地を後から買い受けた人の「1か月」は、売買契約で所有権を取得した日からではなく、自分名義への所有権移転登記がされた日から数え始めます。
 
 ### オ：一部取壊しで複数棟になっても、「建物の分割の登記」ではない
@@ -60,10 +79,10 @@
 
 ### まとめ
 
-- **ア（誤）**　増築当時の名義人の起算点は工事完了日（51条1項）。共用部分の登記の日から数えるのは1項・2項の義務者以外の所有者（51条3項）
+- **ア（誤）**　増築当時の名義人（1項の人）の起算点は工事完了日（51条1項）。共用部分の登記の日から数えるのは、1項・2項の義務者を除いた別の所有者（51条3項かっこ書）
 - **イ（正）**　敷地権の割合変更は、変更の日から1か月以内に表題部変更登記
 - **ウ（正）**　分筆で建物の地番が変わったら、変更の日から1か月以内に所在変更登記
-- **エ（誤）**　地目変更後の新所有者の起算点は取得日ではなく所有権の登記があった日
+- **エ（誤）**　地目変更後の新所有者の起算点は取得日ではなく所有権の登記があった日（37条2項）。取得の日が起算点になるのは、共用部分の建物の51条4項で、別の場面
 - **オ（誤）**　一部取壊しで複数棟になっても「建物の分割の登記」ではない
 
 「いつから1か月か」「何の登記を申請するのか」を丁寧に切り分ければ、この分野は得点源にできます。
@@ -76,9 +95,10 @@
 
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（第16問＝イウ／3番）は、土地家屋調査士試験対策アプリのデータベース（src/data/takuitsu.json と missing_H23.json の2系統）が一致していることで確認済みです。
-- 各肢の法的根拠のうち、イ・ウは不動産登記法51条1項（建物の表題部の変更の登記、44条1項各号のうち2号・6号以外の登記事項の変更）、エは同法37条2項（地目又は地積の変更後に新たに所有権の登記名義人となった者の起算点は、その者についての所有権の登記があった日）を条文原文で確認しました。ア（増築登記の起算点）は51条1項・3項の組み合わせ（3項は、既に1項で申請義務を負う者を除いた別の所有者について共用部分登記の日を起算点とする規定であり、本肢のように増築当時の登記名義人自身を主語とする場合は1項の変更日が起算点になる）から導いています。オ（申請すべき登記の種類）は、建物の分割の登記が「附属建物を…分割して…別の一個の建物とする登記」（不動産登記法54条1項1号）と定義されており、附属建物を伴わない1棟の建物の物理的な分割にはこの定義が当てはまらないという条文上の根拠から「分割の登記ではない」という結論を導いていますが、その場合に申請すべき登記の具体的な種類（変更登記等）までは条文番号を特定できておらず、一般原則からの整理にとどまる点をご留意ください。
+- 各肢の法的根拠のうち、イ・ウは不動産登記法51条1項（建物の表題部の変更の登記、44条1項各号のうち2号・6号以外の登記事項の変更）、エは同法37条2項（地目又は地積の変更後に新たに所有権の登記名義人となった者の起算点は、その者についての所有権の登記があった日）を条文原文で確認しました。ア（増築登記の起算点）は51条1項・3項の組み合わせ（3項は、前二項〔1項・2項〕の規定により申請義務を負う者を除いた別の所有者について共用部分登記の日を起算点とする規定であり、本肢のように増築当時の登記名義人自身を主語とする場合は1項の変更日が起算点になる）から導いています。オ（申請すべき登記の種類）は、建物の分割の登記が「附属建物を…分割して…別の一個の建物とする登記」（不動産登記法54条1項1号）と定義されており、附属建物を伴わない1棟の建物の物理的な分割にはこの定義が当てはまらないという条文上の根拠から「分割の登記ではない」という結論を導いていますが、その場合に申請すべき登記の具体的な種類（変更登記等）までは条文番号を特定できておらず、一般原則からの整理にとどまる点をご留意ください。
 - **再検証（2026-08-13）で発見・修正した誤り**：旧版ではエの誤りの理由を「起算点は地目が現実に変更した日であって取得日ではない」としていましたが、これは不正確でした。不動産登記法37条2項を条文原文で確認したところ、地目変更後に新たに所有権の登記名義人となった者の起算点は「地目が変更した日」ではなく「その者について所有権の登記があった日」です（取得日でも地目変更日でもありません）。本肢は「取得の日」を起算点とする点で誤りという結論自体は変わりませんが、正しい起算点の説明を修正しました。
 - アプリDBの解説用ファイル（kaisetsu_H23.json）の解説文は、本問については結論・根拠とも大筋で妥当な内容でしたが、他の問題で誤りが確認されたファイルであるため、本記事では条文・一般原則から独立に再構成しています。
+- **読者の指摘を受けた再確認（2026-10-09）**：読者から、51条3項かっこ書の意味（1項・2項の義務者は3項から除かれるので、1項の人の義務は共用部分である旨の登記があっても残り、3項はそれ以外の所有者に別の義務を足す規定である）、およびアが誤りになる理由は「1項の人に3項の起算点を組み合わせているから」であるとの指摘を受けました。`note-articles/laws/fudousan-touki-hou.md`の51条1項〜6項と37条の条文原文に照らして確認し、本文のアに反映しました（正誤の結論は変わりません）。あわせて、読者の整理に入っていなかった51条4項（共用部分である旨の登記がある建物で、変更のあとに所有権を取得した人の起算点＝所有権の取得の日）を本文に加え、エ肢（土地の37条2項は所有権の登記があった日）との違いを注意書きにしました。**条文に明文がある点**：3項のかっこ書、2項・4項の起算点。**条文に明文がなく、解釈・帰結にとどまる点**：「2項の人の義務が1項の人の義務を上書きする」（1項は変更があった時点の名義人に向けた規定なので、名義人でなくなった人は1項の主体でなくなる、という読み）、「誰か1人が変更の登記を申請すれば全員の義務が消える」（登記がされれば申請の対象がなくなる、という帰結）。これらは本文には書いていません。1項の人と2項の人の義務の並び方や、1→2→3と順にあった場合の整理は、出題の可能性が低いと考え、本文には入れていません。予備校の解説の内容は、この環境では確認できないため、評価していません。
 - **重複出題チェック（2026-07-22実施）**：takuitsu.jsonを検索した結果、令和元年度第16問（未執筆）に「分筆により建物が所在する土地の地番が変更した場合、当該建物の所有権の登記名義人は建物所在の変更登記を申請する義務を負う」という、本問のウと同一の論点を含む肢があることを確認しました。また、本シリーズで既に執筆済みの note-articles/r6-mondai/q15-tatemono-hyoji-touki.md（建物の表示に関する登記）とはテーマの大分類が近い（本問は不動産全般の表示登記の申請義務の起算点が中心）ため、念のため両記事の内容を見比べることを推奨します。令和5年度第4問（実地調査に関する問題）とは論点が異なり、重複はありません。
 - **最新法令準拠チェック（2026-08-04実施、2026-08-13再確認）**：不動産登記法36条・37条・51条・54条（表示に関する登記の申請義務）を確認しました。令和8年（2026年）4月1日施行の所有権登記名義人の氏名・住所変更登記の義務化は、権利部の氏名・住所変更に関する別制度の新設であり、本問が扱う表示に関する登記（増築・敷地権割合・地番変更・地目変更・建物分割）の申請義務とは別範疇のため、本問の内容への影響はありません。
 - **適用法令の現行性チェック（2026-10-01実施）**：`note-articles/laws/fudousan-touki-hou.md`（2026-08-04取得、令和8年6月24日施行分まで反映）で、不動産登記法37条2項・44条1項・51条1項〜3項・54条1項・58条4項を条文原文で確認しました。本文の条文番号・要件は現行法と整合しており、本文の変更はありません（正誤判定も変わりません）。令和8年4月1日施行の住所・氏名変更登記の義務化（同法76条の5）は権利に関する登記の制度であり、本問の表示に関する登記の申請義務とは別です。なお、アの本文が説明しているのは問題文の主語である「増築した当時の登記名義人」の起算点で、51条1項により変更の日（工事完了の日）になります。一方、増築の後に共用部分である旨の登記がされた場合（その時点で、58条4項により表題部所有者の登記・権利に関する登記は職権で抹消されます）に、51条1項・2項で申請義務を負わない所有者は、51条3項により共用部分である旨の登記がされた日から1か月以内に申請します。このように共用部分である旨の登記の日が起算点になる場面は別にあるため、図解（②・⑤）では、その日に✕を付ける相手を「増築当時の名義人」に限定して描くようにしました。オについては、分割の登記を定める54条に申請期間の定めはなく、申請義務を課す規定（37条・47条・49条・51条・57条・58条6項など）にも分割の登記は含まれていません。これは「誤り」という結論と矛盾しない条文上の補強ですが、分割の登記に当たらない場合に申請すべき登記の具体的な種類については、引き続き一般原則からの整理にとどまります。
@@ -165,7 +185,10 @@ marked with a green flag as the true starting point for the person who
 was the registered owner at the time of the extension (label this owner
 character 増築当時の名義人), while a later 共用部分登記 stamp date is
 crossed out with a red X as the wrong starting point for that same
-owner.
+owner. A second, smaller character labeled それ以外の所有者 stands next
+to that later 共用部分登記 stamp date and holds its own separate green
+flag there (no red X on this second character), so the reader sees that
+the two people have different starting dates.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 工事完了日が起点
 
@@ -317,11 +340,16 @@ scaffolding, owned by an owner character labeled 増築当時の名義人, marks
 duration bracket stretches from that flag to a 申請期限 marker. Further
 along the same timeline, a later 共用部分である旨の登記の日 marker is
 drawn and crossed out with a red ✕, labeled 誤った起点 (the crossed-out
-marker applies to this same 増築当時の名義人, not to anyone else).
+marker applies to this same 増築当時の名義人, not to anyone else). Next to
+that later marker, a second, smaller owner character labeled
+それ以外の所有者 holds its own green flag with its own 1か月 bracket (no
+red ✕ on this second character), drawn clearly as a different person from
+the 増築当時の名義人.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、増築当時の登記名義人にとって増築登記の申請義務がいつから発生する
-かを確認します。次に、その起算点は工事が完了した日であって、その後にさ
-れる共用部分である旨の登記の日ではないと判断します。
+かを確認します。次に、その起算点は工事が完了した日であり、共用部分であ
+る旨の登記の日から数えるのは、1項・2項の義務者を除いた別の所有者だと
+判断します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 工事完了日が起点
@@ -401,7 +429,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記法37条2項・51条1項・54条1項に基づく整理です。
+不動産登記法37条2項・51条1項・51条3項・54条1項に基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
@@ -414,8 +442,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it
 so that only standard Japanese text appears anywhere in the image.
 Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
-the header and the panels, that PANEL 1・2・3 each show a single-point
-timeline with the correct starting date and a 1か月 duration bracket,
+the header and the panels, that PANEL 1 shows the 増築当時の名義人 and the separate それ以外の所有者 as two different characters with their own starting dates and brackets, that PANEL 1・2・3 each show the correct starting date and a 1か月 duration bracket,
 that PANEL 4 shows all THREE distinct labeled points (地目変更, 誤った
 起点である取得日, 正しい起点である所有権登記日) rather than merging the
 取得日 and 登記日 into one point, that PANEL 5 is drawn as a two-side
@@ -425,6 +452,305 @@ a checking order rather than only a conclusion, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel,
 no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
 additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
+
+
+## インフォグラフィック プロンプト（ア肢・間違いノート）
+
+読者の指摘（2026-10-09）を受けて追加した図。ア肢で「共用部分である旨の登記の日から数えるのは誰か」を、1項の人と3項の人の2本の時間軸で見せ、本肢の誤りが「1項の人に3項の起算点を組み合わせている」ことにあると示す対比型。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with written conditions and short explanatory sentences (1-3 sentences
+per callout box) labeled 「誤りやすいポイント」. Prioritize clarity and
+completeness of the reasoning over brevity. Do not include any case or
+precedent numbers.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 項・義・務・登・記・取・得・
+築・権・変・請 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+共用部分の登記の日から
+数えるのは別の所有者
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第16問 ア－1項の人と3項の人は別
+
+--- DIAGRAM: TWO LANES ON ONE TIMELINE ---
+One wide panel. A plain dark navy time axis runs left to right at the
+top, labeled 時間の流れ (this axis means only the passing of time, not an
+application or a transaction). Two event markers sit on the axis, in this
+order: left 増築の工事完了日, right 共用部分である旨の登記がされた日.
+
+Lane 1 (upper lane), labeled 1項の人：増築当時の名義人. An owner
+character labeled 増築当時の名義人 holds a green flag under the marker
+増築の工事完了日. A 1か月 duration bracket stretches from that flag to the
+right to a 申請期限 marker. The lane continues unbroken to the right, past
+the later marker 共用部分である旨の登記がされた日, with a small plain
+label 共用部分の登記があっても義務は消えない.
+
+Lane 2 (lower lane), labeled 3項の人：それ以外の所有者. A different,
+smaller owner character labeled それ以外の所有者 holds its own green flag
+under the marker 共用部分である旨の登記がされた日, with its own 1か月
+duration bracket stretching to its own 申請期限 marker. A small plain
+label next to this lane reads 1項・2項の義務者は除く.
+
+A thin dashed red line runs from the 増築当時の名義人 character in Lane 1
+down to the marker 共用部分である旨の登記がされた日, with ONE red ✕ on
+the dashed line and the label 本肢の組み合わせは誤り (the red ✕ is on the
+dashed line only, never on a character or on a flag). The two lanes have
+clearly different labels and different characters; the lane labels are
+NOT identical.
+
+--- CALLOUT: 確認の順番 ---
+まず主語を見て、次にその人の起算点を決めます。
+
+--- CALLOUT: 誤りやすいポイント ---
+3項のかっこ書は、1項・2項の義務者を3項から除いています。1項の人の義務は共用部分の登記があっても消えず、3項は別の所有者に別の義務を足す規定です。
+
+--- FOOTER ---
+Small footnote text (bottom, small font, verbatim):
+不動産登記法51条1項・3項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 項・義・務・登・記・取・得・築・権・変・請.
+Also scan the entire canvas for any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only
+character, Korean Hangul, other non-Japanese script, or stray decorative
+glyph — and remove or redraw it. Confirm every heading, label, and callout
+text matches the Japanese text given above verbatim, with no paraphrasing
+and no substituted characters, confirm exactly two lanes are drawn with two different characters, confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
+
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+エ肢の注意書き（取得の日から数える規定もある）を図にしたもの。土地の地目（37条2項）と、共用部分である旨の登記がある建物（51条4項）で、起算点が違うことを左右に並べて見せる対比型。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include side-by-side comparisons
+with written conditions and short explanatory sentences (1-3 sentences
+per callout box) labeled 「誤りやすいポイント」. Prioritize clarity and
+completeness of the reasoning over brevity. Do not include any case or
+precedent numbers.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 項・義・務・登・記・取・得・
+築・権・変・請 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+「取得の日」から数える
+場面は別にある
+
+Subtitle (smaller, centered, 1行):
+平成23年度 午後の部 第16問 エ－土地の地目と共用部分の建物
+
+--- LEFT COLUMN ---
+Heading (bold, ONE line): 土地の地目（37条2項）
+Diagram: A left-to-right timeline with THREE distinct labeled points. Point
+1: a forest-labeled land plot（山林）with a house already built on it,
+labeled 地目変更. Point 2, further along: the new buyer character's
+所有権の取得の日（売買契約等）, drawn with a red ✕ and labeled 起点では
+ない. Point 3, still further along: the same buyer's own 所有権の登記が
+あった日, drawn with a green flag and labeled 起点, with a 1か月 duration
+bracket stretching from Point 3 to a 地目変更登記 stamp at the deadline.
+Conclusion tag (green banner below the diagram):
+登記があった日が起点
+
+--- RIGHT COLUMN ---
+Heading (bold, ONE line): 共用部分の建物（51条4項）
+Diagram: A left-to-right timeline with TWO distinct labeled points. A
+small building icon labeled 共用部分である旨の登記がある建物 sits at the
+left. Point 1: a 変更 event (for example 増築) is marked on the timeline.
+Point 2, further along: the new owner character's 所有権の取得の日, drawn
+with a green flag and labeled 起点, with a 1か月 duration bracket
+stretching from that flag to a 表題部の変更の登記 stamp at the deadline.
+There is no red ✕ anywhere in the right column.
+Conclusion tag (green banner below the diagram):
+取得の日が起点
+
+The two columns are placed at the same height. The two conclusion tags
+have clearly different texts and are NOT identical.
+
+--- CALLOUT: 誤りやすいポイント ---
+「取得の日は常に誤り」と覚えるのは危険です。土地の地目は、その者の所有権の登記があった日から数えます。共用部分である旨の登記がある建物は、所有権の取得の日から数えます。
+
+--- FOOTER ---
+Small footnote text (bottom, small font, verbatim):
+不動産登記法37条2項・51条4項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 項・義・務・登・記・取・得・築・権・変・請.
+Also scan the entire canvas for any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only
+character, Korean Hangul, other non-Japanese script, or stray decorative
+glyph — and remove or redraw it. Confirm every heading, label, and callout
+text matches the Japanese text given above verbatim, with no paraphrasing
+and no substituted characters, confirm exactly two columns are drawn, that the left column shows THREE distinct points (地目変更, 所有権の取得の日 with a red ✕, 所有権の登記があった日 with a green flag) and the right column shows TWO points with no red ✕, that the two 所有権の取得の日 labels are drawn in their own columns without being merged, confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas, edge
+to edge, is filled with a fully opaque background with no transparency or
+alpha channel anywhere.
+```
+
+
+## インフォグラフィック プロンプト（起算点の早見）
+
+建物の表題部の変更の登記（51条1項〜4項）の「誰の義務か・起算点・かっこ書」を1枚にまとめた早見表型。本文の導入の4つの型に対応する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1500 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded sections, consistent with the same
+visual language as the whole-problem poster for this article, built as a
+single quick-reference table (早見表).
+
+REFERENCE-TABLE REQUIREMENT: This image is a clean table. Render the
+table as a clean flat-design table with alternating row background colors,
+Japanese sans-serif font, no monospace font, no arrows, and no
+illustrations other than one small calendar icon beside the title. Keep
+each cell to the short text given below. Do not include any case or
+precedent numbers.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 項・義・務・登・記・取・得・
+築・権・変・請 — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
+
+--- HEADER ---
+Title (large, bold, 1行):
+建物の表題部の変更 誰がいつから1か月？
+
+Subtitle (smaller, centered, 1行):
+不動産登記法51条1項〜4項の早見表
+
+--- TABLE ---
+Header row (4 columns, in this order, verbatim):
+条文 | 誰の義務か | 1か月の起算点 | かっこ書
+
+Row 1 (verbatim):
+1項 | 変更があった時の名義人（共用部分なら所有者） | 変更があった日 | なし
+
+Row 2 (verbatim):
+2項 | 変更のあとに名義人となった者 | その者の登記があった日 | なし
+
+Row 3 (verbatim):
+3項 | 変更のあとに共用部分の登記がされた時の所有者 | 共用部分である旨の登記がされた日 | 1項・2項の義務者を除く
+
+Row 4 (verbatim):
+4項 | 共用部分の登記がある建物で、変更のあとに所有権を取得した者 | 所有権の取得の日 | 3項の義務者を除く
+
+The table has exactly 4 data rows, in this order, with no duplicated, missing, or reworded rows. The column 1か月の起算点 is highlighted with a pale yellow background so that the four different starting points stand out. The two cells 変更があった日 and その者の登記があった日 differ and are NOT identical; the two cells 共用部分である旨の登記がされた日 and 所有権の取得の日 differ and are NOT identical.
+
+--- FOOTER ---
+Small footnote text (bottom, small font, verbatim):
+義務者は人ごとに別です。土地の地目・地積は37条1項・2項で同じ型です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 項・義・務・登・記・取・得・築・権・変・請.
+Also scan the entire canvas for any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only
+character, Korean Hangul, other non-Japanese script, or stray decorative
+glyph — and remove or redraw it. Confirm every heading, label, and callout
+text matches the Japanese text given above verbatim, with no paraphrasing
+and no substituted characters, confirm the table has exactly 4 data rows and 4 columns with the verbatim cell texts, confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas, edge
 to edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
