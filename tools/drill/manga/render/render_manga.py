@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""4コマ解説図解を、画像生成AIを使わずに HTML＋Chromium で描き出す（文字が崩れない版）。
+"""【知見の記録のみ。D0802-D1197-D1607-D2095 以外では使用禁止・広げない（ユーザー指示、2026-10-09）】
+4コマ解説図解を、画像生成AIを使わずに HTML＋Chromium で描き出す（文字が崩れない版）。
 
 使い方: python3 tools/drill/manga/render/render_manga.py <layoutの名前> [--html]
 - 文字はすべて、同梱の固定フォント（render/fonts/zen-maru-gothic、SIL OFL）で描く。文字が崩れたり、似た字（合体⇔合併）に化けたりしない。
@@ -13,6 +14,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 import manga_specs  # noqa: E402
 
+ALLOWED = "D0802-D1197-D1607-D2095"   # 試作の1本だけ。他の肢への使用は禁止（ユーザー指示）
 NAVY, PALE, CREAM, YEL = "#1f3a68", "#eaf1fb", "#fffaf0", "#ffe66d"
 W, H = 1080, 1920
 
@@ -185,6 +187,8 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     if not args: print(__doc__); sys.exit(2)
     name = args[0]
+    if name != ALLOWED:
+        raise SystemExit(f"この描き方は、試作の1本（{ALLOWED}）の知見として残すだけで、他の肢では使用禁止（ユーザー指示、2026-10-09）。MANGA_RULES.md「文字を崩さない描き方（HTML描画版）」を参照。")
     layout = load_layout(name)
     sp = manga_specs.SPECS[layout["spec_key"]]
     check(layout, sp)
