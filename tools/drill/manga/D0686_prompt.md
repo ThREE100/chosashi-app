@@ -361,3 +361,131 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 - 2026-10-09 B案v01：初版（第二案。D0314-Bと同じ型：主語ごとの起算点の図解→主語と数え始めはセット→本番での読み方3ステップ→暗記3点）
 - 2026-10-09 B案v02：新ルール（4コマの目的）に合わせ、ひっかけ・勘違い・対比（増築当時の名義人⇔1項・2項の義務者以外の所有者）を設計メモに明記し、肝の確認項目を追加。構成（図・押さえどころ・暗記3点）は変更なし
+
+## 第三案（C案）：構成表3とプロンプト本体3
+
+第三案（C案）。第一案（事案→出題者のねらい→ひっかけと勘違い→結論）の流れは変えず、コマ3を『なぜ登記の日からではないのか』の理由の説明コマに作り替えた構成。読者の指摘（2026-10-09）を受け、法51条3項かっこ書の意味（1項の者の義務は残り、3項は別の所有者に別の義務を足す）を、理由の説明に入れた。どれか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第三案の本文画像は、保存名の末尾に `_C案` を付ける（例：`4コマ解説図解<ID>～<出典>～_C案.png`）。
+
+### 設計メモ3（工程A）
+- 【型の選び方】型：型3（第三案・理由説明）。結論（共用部分の登記の日から数えるのは誤り）だけでなく、『なぜ増築当時の名義人には当たらないのか』という理由（3項かっこ書）が定着の鍵なので、第一案（型1）の流れを保ち、コマ3を理由の説明コマにした。
+- 【出題者のひっかけ】共用部分である旨の登記が増築より後にされている点。問題文は『増築当時の名義人』を主語にしながら、起算点を『共用部分である旨の登記がされた日』と書き、後の日付に引かせる（記事 H23-Q16ア、法51条1項・3項）。
+- 【受験者の勘違い・定着していない点】①1か月の数え始めを、主語を見ずに『共用部分の登記の日』と思い込む。②3項が1項の者の義務を『上書き』して起算点を後ろへずらす規定だと読み、3項かっこ書（1項・2項の者を除く）を落とす。実際は、1項の者の義務は共用部分の登記があっても消えず、3項は別の所有者に別の義務を足す。
+- 【対比する制度】「増築当時の名義人（1項）」⇔「それ以外の所有者（3項）」：増築当時の名義人は増築の工事が完了した日から1か月（法51条1項）／それ以外の所有者は共用部分である旨の登記がされた日から1か月（法51条3項）。理由は、3項かっこ書が1項・2項の者を除いているため、3項は1項の者の起算点を後ろへずらさず、別の所有者に別の義務を足すだけだから。
+- 【第三案の位置づけ】第一案の流れ（事案→ねらい→ひっかけと勘違い→結論）を保ち、コマ3の『ひっかけと勘違い』を、『なぜ登記の日からではないのか』の理由の説明コマ（上：この肢の書き方が誤りな理由／下：正しい整理）に作り替えた。違い（結論）だけでなく、違いが出る理由を読み取れるようにする。
+- 理由の出典：法51条1項・3項（法令DBで確認）。『並行する』の整理は読者の指摘（2026-10-09）を条文に照らしたもので、記事にはない。`extra_refs` に出典と範囲を書いた。2項・4項・1→2→3の場合は、出題の可能性が低く、一問一答の肢の範囲を超えるため、図に入れない。
+- 登場人物：当事者の記号は使わない。人物は『増築当時の名義人』『それ以外の所有者』という文字タグだけで示す。
+- 矢印の意味：コマ1の矢印は『時間の流れ』だけ。コマ2・3・4は矢印を使わない（コマ3は上下2枚の別カード）。
+- 会話順：藍子の誤解（共用部分の登記の日からでは）→トリ先生の訂正→なぜ登記の日からではないのか（理由）→結論（×）。
+- 配色：コマ3は上下2枚のカードで逆の極性。上＝赤✕（この肢の書き方）、下＝青✓（正しい整理）。同じカードに両方の印を付けない。コマ1・2は印なし。コマ4の暗記3点は青✓。
+
+### 構成表3（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 増築登記の1か月は、工事完了の日から数える | 「工事完了の日から数える」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　問いの事案 | — |
+| コマ1 図 | 図・カード | 時間の流れ / 区分建物の一部を増築（工事が完了） / 共用部分である旨の登記がされる / 増築の登記の1か月は、どこから数える？ | — |
+| コマ1 | 藍子（左・先に話す） | 共用部分の登記の日から数えますよね？ | — |
+| コマ1 | トリ先生（右・答える） | 出たわね。登記の日に引かれたわね | 「登記の日に引かれた」 |
+| コマ2 見出し | ラベル | ②　出題者のねらい | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 増築の登記の1か月は、いつから数えるか / 増築の工事が完了した日 / ここから1か月を数える / 起算点 / 共用部分である旨の登記がされた日 / 増築当時の名義人の起算点ではない / 増築当時の名義人は、後から共用部分の登記がされても、1か月は工事完了の日から数える | — |
+| コマ3 見出し | ラベル | ③　なぜ登記の日からではないの？ | — |
+| コマ3 図 | 図・カード | この肢の書き方 / 増築当時の名義人が、共用部分の登記の日から1か月 / 3項は、1項・2項の義務者を除く（かっこ書）ので、当てはまらない / 正しい整理：義務は人ごとに別 / 増築当時の名義人（1項）：増築の工事が完了した日から / それ以外の所有者（3項）：共用部分の登記がされた日から / 3項は1項の人の義務を消さず、別の所有者に別の義務を足す | — |
+| コマ3 | 藍子（左・先に話す） | どうして登記の日からではないんですか？ | — |
+| コマ3 | トリ先生（右・答える） | 3項は、1項の人を除いているからよ | 「除いている」 |
+| コマ4 見出し | ラベル | ④　結論は× | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 登記の日から数える、は誤りなんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。数え始めは人ごとに違うのよ | 「人ごとに違う」 |
+| コマ4 チェック欄 | 3項目（青✓） | 増築当時の名義人は、増築の工事が完了した日から1か月（法51条1項） / 共用部分の登記の日から数えるのは、1項・2項の義務者以外の所有者（法51条3項かっこ書） / 3項は1項の人の義務を消さず、別の所有者に別の義務を足す | — |
+| 結論帯 | 1行目 | 増築当時の名義人の1か月は、増築の工事が完了した日から数える | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D0686　正解×（H23-Q16ア） | — |
+
+### 記事に無い条文（ユーザー指示で追加）
+
+- 不動産登記法51条1項：変更があったときは、表題部所有者又は所有権の登記名義人は、変更があった日から一月以内に、変更の登記を申請しなければならない。同条3項：変更があった後に共用部分である旨の登記があったときは、所有者（前二項の規定により登記を申請しなければならない者を除く。）は、共用部分である旨の登記がされた日から一月以内に、変更の登記を申請しなければならない（法令DB `fudousan-touki-hou.md` 第51条で確認）。
+- 『3項は1項の者の義務を消さず、別の所有者に別の義務を足す』は、3項かっこ書（1項・2項の者を除く）の読み方で、記事（H23-Q16ア）には『共用部分の登記の日から数えるのは1項・2項の義務者を除いた所有者』までが書かれている。『並行する』という言い方は、読者の指摘（2026-10-09）を条文に照らして整理したもので、記事にはない。図の文言は、条文の言い方（除く・別の義務）にそろえ、2項（移転後の所有者）・4項・1→2→3の場合は図に入れない。
+
+### プロンプト本体3
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed.
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, show both at the normal size at the two outer edges, show both as small face icons in a vertical conversation column, or show both very small; in that case follow the PANEL line and its LAYOUT lines, and a character who is not drawn has no speech bubble. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall).
+
+TITLE BANNER: text 「増築登記の1か月は、工事完了の日から数える」 in large bold letters; the part 「工事完了の日から数える」 has a yellow highlighter marker.
+
+PANEL 1 (curious, calm mood; both characters appear VERY SMALL (each about 110 px tall in total, clearly smaller than the full-size characters in the other panels, never more than one third of the panel height), 藍子 at the lower left corner and トリ先生 at the lower right corner, so that the diagram or the items to memorize fill the panel; 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　問いの事案」
+- A large timeline diagram fills the panel, left to right, with a plain dark navy arrow labeled 「時間の流れ」 (this arrow means only the passing of time, not an application or a transaction).
+- On the line, two event cards in order: first 「区分建物の一部を増築（工事が完了）」, then 「共用部分である旨の登記がされる」, both white with dark navy outlines.
+- A small question badge 「増築の登記の1か月は、どこから数える？」 sits above the timeline (a question badge only, with no check mark and no cross).
+- 藍子 bubble (left, spoken first): 「共用部分の登記の日から
+数えますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「出たわね。
+登記の日に
+引かれたわね」 with the part 「登記の日に引かれた」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　出題者のねらい」
+- A full-width timeline diagram fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「増築の登記の1か月は、いつから数えるか」.
+- A horizontal dark navy line runs left to right (a timeline, no arrowhead). On it, two points: the left point is labeled 「増築の工事が完了した日」 with a wide dark navy bracket to its right labeled 「ここから1か月を数える」 and a small yellow tag 「起算点」. The right point is labeled 「共用部分である旨の登記がされた日」 with a small plain label 「増築当時の名義人の起算点ではない」.
+- At the bottom, one wide dark navy band with white text 「増築当時の名義人は、後から共用部分の登記がされても、1か月は工事完了の日から数える」.
+- There is no check mark and no cross anywhere in this panel.
+
+PANEL 3 (both characters point together at the same figure; 藍子 realizing; 藍子's hands: ONE hand points at the diagram with an extended arm and the other hand hangs at her side or holds the clipboard; her hands are NOT clasped and no third hand appears):
+- Label tab: 「③　なぜ登記の日からではないの？」
+- Two stacked cards of the same size fill the center of the panel, top and bottom, with no arrow and no connector between them.
+- Top card, with a dark navy heading 「この肢の書き方」, two short lines of body text 「増築当時の名義人が、共用部分の登記の日から1か月」, 「3項は、1項・2項の義務者を除く（かっこ書）ので、当てはまらない」, and ONE red cross only (no check mark on this card).
+- Bottom card, with a dark navy heading 「正しい整理：義務は人ごとに別」, three short lines of body text 「増築当時の名義人（1項）：増築の工事が完了した日から」, 「それ以外の所有者（3項）：共用部分の登記がされた日から」, 「3項は1項の人の義務を消さず、別の所有者に別の義務を足す」, and ONE blue check mark only (no cross on this card).
+- The two cards have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, spoken first): 「どうして登記の日
+からでは
+ないんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「3項は、1項の人を
+除いているからよ」 with the part 「除いている」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　結論は×」
+- 藍子 bubble (left, spoken first): 「登記の日から数える、
+は誤りなんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そのとおり。
+数え始めは
+人ごとに違うのよ」 with the part 「人ごとに違う」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「増築当時の名義人は、増築の工事が完了した日から1か月（法51条1項）」, 「共用部分の登記の日から数えるのは、1項・2項の義務者以外の所有者（法51条3項かっこ書）」, 「3項は1項の人の義務を消さず、別の所有者に別の義務を足す」.
+
+CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
+- Line 1: 「増築当時の名義人の1か月は、増築の工事が完了した日から数える」 with a yellow highlighter marker.
+- Line 2: 「問題D0686　正解×（H23-Q16ア）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 建, 当, 所, 物, 登, 肢, 解, 記, 違, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the very small characters are drawn at the specified small sizes (they must not grow and squeeze the diagram) and that nothing but the given text appears above the heads of the pictograms; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+```
+
+### 第三案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：コマ1の時系列図の2つの出来事がコマ2・3の文言と対応している。矢印は『時間の流れ』だけ
+- [ ] 工程C：肝の確認：コマ3で、この肢が誤りな理由（3項かっこ書が1項・2項の者を除く）と、正しい整理（義務は人ごとに別。1項の者は工事完了の日から、3項の者は共用部分の登記の日から）が、上下2枚のカードにそれぞれ書いてあり、コマ4の暗記3点にも入っている
+- [ ] 工程C：出典の確認：法51条1項・3項は法令DBの第51条で確認済み。『並行する』の整理は記事にないため、`extra_refs` に出典を書いた。ユーザーに『記事にない整理』であることを伝える
+- [ ] 工程C：コマ3の上下のカードのマークが逆で（上＝赤✕、下＝青✓）、同じカードに両方の印がない。結論は×（共用部分の登記の日から数えるという記述が誤り）
+
+### 第三案の改訂履歴
+
+- 2026-10-09 C案v01：初版（第三案。第一案の流れを保ち、コマ3を『なぜ登記の日からではないのか』の理由の説明コマにした。読者の指摘〔3項かっこ書の意味〕を反映。ユーザー指示）
