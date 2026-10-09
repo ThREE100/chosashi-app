@@ -2,11 +2,11 @@
 
 > **このファイルについて**
 >
-> - 条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、不動産登記法 第51条第1項の記事に差し込む4コマ（1本目）のプロンプトです。一問一答で何度も間違えた肢を、1本の4コマにまとめました。
+> - 条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、不動産登記法 第51条第1項の記事に差し込む4コマ（1本目）のプロンプトです。類似の誤解をまとめて、1本の4コマにしました。
 > - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（ブランチ `claude/kind-bell-y3f106` の `tools/drill/manga/`）に従い、同ブランチの生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-09）。下の「作成時の品質ゲート」にある `tools/drill/manga/` のパスは、そのブランチ上のパスです。
-> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。
+> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。画像の結論帯には、問題番号を載せていません。
 
-- 肢：D0333・D0688・D1491（不動産登記法／建物の分割・合併・合体・滅失・変更、出典 H20-Q05ア／H23-Q16ウ／R01-Q16エ）。正解＝D0333＝×（誤った記述）／D0688・D1491＝〇。誤解D0333・D0688・D1491とも誤解（各1回）。
+- 肢：D0333・D0688・D1491（不動産登記法／建物の分割・合併・合体・滅失・変更、出典 H20-Q05ア／H23-Q16ウ／R01-Q16エ）。正解＝D0333＝×（誤った記述）／D0688・D1491＝〇。
 - 記事：`note-articles/h20-mondai/q05-tatemono-taiwa.md` ア「外壁・屋根の改修だけでは、変更登記は必要ない」。ほか、H23-Q16ウ（q16-hyouji-touki-gimu.md）、R01-Q16エ（q16-hyouji-touki-shinsei.md）
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
@@ -21,18 +21,6 @@
 - 会話順：藍子の誤解（工事をした乙建物のほうが変更）→トリ先生の訂正（工事の大きさは関係ない）→工事なしでも要る場合→結論。
 - 配色：コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ1・2は印なし。コマ4の暗記3点は青✓。
 - 記事の範囲：法51条1項／法44条1項各号の登記事項／規則114条（構造は構成材料・屋根の種類・階数）／分筆で建物の所在する土地の地番が変わると所在の変更（記事 H23-Q16ウ、R01-Q16エ）。『屋根の種類が変わるときは構造の変更』は記事 H20-Q05ア の本文。
-
-## 記事タイトル
-
-【土地家屋調査士受験生向け】4コマ解説図解D0333・D0688・D1491～H20-Q05ア／H23-Q16ウ／R01-Q16エ～
-
-## note記事の冒頭文
-
-建物の工事をしていないのに、敷地の分筆で建物のある土地の地番が変わりました。別の建物では外壁と屋根の材料を張り替えましたが、屋根の種類は同じです。1か月以内の変更の登記が要るのは、どちらでしょうか。
-
-択一式で間違えやすいこの論点を、トリ先生と藍子の4コマで確認します（平成20年度　第5問　ア／平成23年度　第16問　ウ／令和元年度　第16問　エ）。
-
-先に〇か×かを考えてから、読み進めてみてください。
 
 ## 構成表（文言の正本）
 
@@ -57,7 +45,7 @@
 | コマ4 | トリ先生（右・答える） | 登記事項が変わったかを見るのよ | 「登記事項が変わったか」 |
 | コマ4 チェック欄 | 3項目（青✓） | 変更の登記が要るかは、工事の大きさでなく、登記事項に変更があったかで決まる（法51条1項） / 外壁・屋根の材料の張り替えだけなら、登記事項は変わらない（屋根の種類が同じとき） / 工事をしなくても、敷地の分筆で地番が変われば、建物の所在の変更の登記が要る | — |
 | 結論帯 | 1行目 | 変更の登記は、登記事項が変わったときに要る | 黄色マーカー |
-| 結論帯 | 2行目 | 問題D0333・D0688・D1491　D0333＝×、D0688・D1491＝〇 | — |
+| 結論帯 | 2行目 | 不動産登記法 第51条第1項（建物の表題部の変更の登記） | — |
 
 ## プロンプト本体
 
@@ -134,72 +122,17 @@ PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a sma
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「変更の登記は、登記事項が変わったときに要る」 with a yellow highlighter marker.
-- Line 2: 「問題D0333・D0688・D1491　D0333＝×、D0688・D1491＝〇」
+- Line 2: 「不動産登記法 第51条第1項（建物の表題部の変更の登記）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
 Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 建, 張, 所, 物, 番, 登, 記, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
-## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
+## 保存名
 
-noteの見出し画像（アイキャッチ）用です。トリ先生と藍子を描きます（キャラ仕様書の参照画像を添付し、どちらがどちらかを一言添える）。サイズは1280×670px。構成は苦手分析シリーズと同じ（上中央にタイトル2行とサブタイトル、下中央にトリ先生と藍子、左右の端にテーマの場面）。背景は苦手分析シリーズ踏襲の水彩の空（2026-10-07、ユーザー採用）。
-
-### 見出し画像の文言（正本）
-
-| 領域 | 正確な文言 | 強調 |
-|---|---|---|
-| タイトル1行目 | 建物は工事していないのに | 薄い黄色のマーカー |
-| タイトル2行目 | 変更の登記は要る？ | 「要る？」を赤みのあるオレンジ |
-| サブタイトル | 4コマ解説図解　D0333・D0688・D1491　H20-Q05ア／H23-Q16ウ／R01-Q16エ | — |
-
-### 見出し画像プロンプト本体
-
-```text
-Create a note.com article header image (eyecatch thumbnail), 1280x670px
-(1.91:1 landscape aspect ratio).
-
-STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the two characters at the bottom center, and topic scenes fading softly into the left and right edges.
-Fill the whole canvas with the pastel sky and soft clouds.
-
-CHARACTERS (critical): follow the attached character-specification images exactly and do not redesign them. トリ先生 is the chubby bird teacher (round red glasses, blue shirt, red neckerchief), placed at the lower left of center. 藍子 is the young woman exam candidate (long wavy brown hair, pinstriped light-blue blouse with rolled sleeves, navy pencil skirt, no jacket), placed at the lower right of center. POSES ARE NOT FIXED: do not copy any pose from the attached images or from earlier header images; let each character take a free, natural pose of your own choosing that fits the topic and suits the character (for example standing, sitting, leaning, gesturing, or holding a small prop), and choose a different pose each time this image is generated. Keep both characters fully visible, with their faces clear of the title text, and keep 藍子's hairstyle exactly as in the attached images. Keep 藍子's human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and the Arabic numeral 4; the only Latin letters and digits allowed are those in the subtitle exactly as written below. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
-
-TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
-建物は工事していないのに
-Line 2 is larger; the phrase 要る？ is red-orange and the rest is dark navy:
-変更の登記は要る？
-Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-4コマ解説図解　D0333・D0688・D1491　H20-Q05ア／H23-Q16ウ／R01-Q16エ
-Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
-
-TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the characters):
-Left side: a small house with fresh exterior wall panels being installed and roof tiles being replaced, a ladder leaning on the wall
-Right side: a land plot divided by a boundary line, a surveying tripod, a rubber stamp and a blank calendar page
-
-LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the characters and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
-
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 建, 物, 工, 事, 変, 更, 登, 記, 要, 解, 説, 図; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
-```
-
-### 見出し画像の検品
-- [ ] 画像内の文字は、タイトル2行とサブタイトルだけ。文言が上の表と一字一句一致、簡体字・余計な文字なし
-- [ ] トリ先生が左下、藍子が右下で向き合い、顔がタイトルに重ならない。藍子の髪型が参照画像どおり
-- [ ] 左右のテーマの場面に文字がなく、タイトル・キャラより目立たない
-- [ ] 背景が不透明（透過・チェッカーボードなし）、中央でトリミングしても主要要素が切れない
-
-## 画像ファイル名（名づけルール）
-
-ChatGPTで生成した画像は、保存するときに次の名前へ変更する（拡張子は生成された形式のまま：png・webp など）。`MANGA_RULES.md` の「画像ファイル名」に従う。
-
-| 画像 | ファイル名 |
-|---|---|
-| 4コマ解説図解（本文用・採用版） | 4コマ解説図解D0333・D0688・D1491～H20-Q05ア／H23-Q16ウ／R01-Q16エ～.png |
-| 見出し画像（採用版） | 4コマ解説図解D0333・D0688・D1491～H20-Q05ア／H23-Q16ウ／R01-Q16エ～_見出し.png |
-| 途中の版・不採用の版（例：v01） | 4コマ解説図解D0333・D0688・D1491～H20-Q05ア／H23-Q16ウ／R01-Q16エ～_v01.png ／ 4コマ解説図解D0333・D0688・D1491～H20-Q05ア／H23-Q16ウ／R01-Q16エ～_見出し_v01.png |
+- 4コマ（採用版）：`4コマ1_変更は登記事項で決まる.png`
+- 途中の版・不採用の版：`4コマ1_変更は登記事項で決まる_v01.png`
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
@@ -224,4 +157,4 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
-- 2026-10-09 v01：初版（条文別『苦手克服』シリーズ 第51条第1項 用。ユーザー指示（2026-10-09）で新設した条文別『苦手克服』シリーズ（note-articles/joubun-nigate/）の第51条第1項用。一問一答で誤解が各1回の3肢を1本にまとめた。ChatGPTでの生成・検品はまだ）
+- 2026-10-09 v01：初版（条文別『苦手克服』シリーズ 第51条第1項 用。類似の誤解を問う3肢を1本にまとめた。ChatGPTでの生成・検品はまだ）

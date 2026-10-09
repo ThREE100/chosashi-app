@@ -1,0 +1,40 @@
+{
+ "note": "note_art040.md",
+ "infographic": "prompt_infographic_art040.md",
+ "midashi": "prompt_midashi_art040.md",
+ "fourkoma": [
+  "prompt_4koma_01_shounin-de-kesu.md",
+  "prompt_4koma_02_daisansha.md",
+  "prompt_4koma_03_shoumetsu-no-tochi.md",
+  "prompt_4koma_04_sakugo.md"
+ ],
+ "n_infographic": 6,
+ "law_quotes": [
+  {
+   "head": "##### 第40条（分筆に伴う権利の消滅の登記）",
+   "kind": "first_paragraph"
+  }
+ ],
+ "table_rows": {
+  "3": 2
+ },
+ "flow": {
+  "image": 6,
+  "diamonds": 3,
+  "results": 4
+ },
+ "midashi_texts": [
+  "抵当権が付いた土地を分筆",
+  "承諾の情報は要る？",
+  "苦手克服　不動産登記法　第40条"
+ ],
+ "midashi_digit_fix": true,
+ "note_required": [
+  "部品1",
+  "部品5",
+  "ポイント1",
+  "ポイント4",
+  "確認事項",
+  "規則104条"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "note": "note_art051-1.md",
+ "infographic": "prompt_infographic_art051-1.md",
+ "midashi": "prompt_midashi_art051-1.md",
+ "fourkoma": ["prompt_4koma_01_henkou-no-hani.md", "prompt_4koma_02_kyouyoububun.md", "prompt_4koma_03_shikichiken.md", "prompt_4koma_04_kisanten.md"],
+ "n_infographic": 6,
+ "law_quotes": [{"head": "##### 第51条（建物の表題部の変更の登記）", "kind": "first_paragraph"}, {"head": "##### 第44条（建物の表示に関する登記の登記事項）", "kind": "list_items"}],
+ "table_rows": {"2": 9, "5": 4, "6": 5},
+ "flow": {"image": 3, "diamonds": 3, "results": 4},
+ "midashi_texts": ["建物の表示が変わったら", "1か月以内に何をする？", "苦手克服　不動産登記法　第51条第1項"],
+ "midashi_digit_fix": true,
+ "note_required": ["部品1", "部品5", "ポイント1", "ポイント4", "確認事項", "164条1項"]
+}
