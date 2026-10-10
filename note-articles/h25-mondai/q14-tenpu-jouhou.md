@@ -88,6 +88,7 @@ Aさんが乙の分を代わりに申請できる理由は「Aさんがこの一
 - **正誤の訂正（2026-10-01）**：以前の版は、イを「戸籍の全部事項証明書は作成後3か月以内のものであることを要しない（正）」、エを「代位原因を証する情報は甲区分建物の所有権証明情報の援用だけでは足りない（誤）」と解説していましたが、イは不動産登記令17条1項の文言（公務員が職務上作成した代理権限証明情報は作成後3月以内）に反するため誤り、エは不動産登記法48条1項・2項の一括申請・代位の仕組みから正しいと判断し、イ・エの解説・タイトル・まとめ・見出し画像用フレーズ・図解プロンプトを書き直しました。誤っている肢の数（1個、選択肢1番）は変わりません。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。「代位原因を証する情報」というキーワードはR01年度第14問・H27年度第11問にも登場しますが、いずれも土地区画整理事業施行者・地役権者・処分禁止の仮処分債権者などによる分筆登記の代位申請を扱うもので、本問エの「区分建物の代位表題登記における代位原因証明情報の援用の可否」という具体的な論点とは異なります。表題登記の添付情報というテーマ自体はH26年度第8問・H30年度第4問・R05年度第14問などでも扱われていますが、本問の5つの具体的論点との一致は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
 - **最新法令チェック**：相続登記義務化（不動産登記法76条の2、令和6年4月1日施行）及び住所変更登記義務化（同法76条の5、令和8年4月1日施行・施行済み）による影響を確認しました。本問は建物の表題登記等の添付情報（規約設定証明情報・戸籍全部事項証明書・登記識別情報・代位原因証明情報・住所証明情報）を扱う論点であり、これらの改正が新設したのは所有権に関する登記（権利部）の申請義務であって、表示に関する登記の添付情報の取扱い自体に変更はありません。オの住所証明情報（印鑑証明書の可否）も、初回の表題登記時に住所を証明する情報の話であり、既に登記済みの名義人が住所変更後に変更登記を申請する義務を定める住所変更登記義務化とは別の場面のため、影響はありません。
+- **肢エの法的正確性・論理性の再検証（2026-10-10実施）**：ユーザーの依頼を受け、肢エの結論（援用できる＝正）を改めて条文から再構成して検証しました。①不動産登記法48条1項により、区分建物の表題登記は同じ一棟に属する他の区分建物の表題登記と一括して申請しなければならない、②同条2項により、甲区分建物の所有者Aは乙区分建物の所有者Bに代わってBの表題登記を申請できる（代位申請）、③不動産登記令7条1項3号により、代位申請には代位原因を証する情報の提供が必要、④本問の代位原因は「Aが同じ一棟の甲区分建物の所有者であること」であり、これを証する情報は、Aが甲区分建物の表題登記の申請（所有権を証する情報の提供が必要）で既に提供している情報と実質的に同一である、⑤甲・乙の申請は48条1項により同時に一括してされるため、同一の情報を重ねて提出させる必要はなく、援用（同じ申請の束の中で既に提供済みの情報を引用すること）によって代位原因証明情報の提供に代えることができる、という4段階の論理で一貫しており、論理の飛躍や条文との矛盾は見つかりませんでした。断定的な先例・通達を確認できたわけではないため、この結論が条文からの推論であることは上記の記載のとおり正直に開示したままとしています。あわせて、`## インフォグラフィック プロンプト（作図ガイド）`のFinal check段落が、実際には左右対比枠で描かれていない肢エを「side-by-side comparison frame」と誤って参照し、実際に左右対比枠で描かれている肢イを指していなかった表記の誤りを発見し、修正しました（PANEL本体の図解指示自体に誤りはなく、Final checkの確認対象の取り違えのみでした）。
 
 ---
 
@@ -404,10 +405,14 @@ or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the panel count equals 5 exactly, badge numbers run 1-5
 continuously, there is no intro illustration or paragraph block between
 the header and the panels, that no 肢 with a genuinely hidden second
-condition has been flattened into a single check, that エ's
-side-by-side comparison frame clearly keeps the two different scopes of
-proof visually distinct rather than merging them into one flowchart, that
-each 着眼点 callout states a checking order rather than only a conclusion
+condition has been flattened into a single check, that イ's side-by-side
+comparison frame clearly keeps the mistaken assumption and the correct
+rule visually distinct rather than merging them into one flowchart, that
+エ is drawn as a relationship diagram with its three numbered checkpoints
+(not a side-by-side comparison frame — エ's point is a chain of reasoning
+from the 48条 framework to the 援用 conclusion, not a contrast between two
+rival readings), that each 着眼点 callout states a checking order rather
+than only a conclusion
 and keeps every required element from the source article distinct (no
 merged or dropped requirements), confirm nothing is rendered below the
 last panel's footnote text (no summary recap panel, no trophy or medal
