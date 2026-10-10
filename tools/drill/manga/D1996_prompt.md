@@ -241,44 +241,43 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 上の構成表・プロンプト本体（第一案）は、定型の「ひっかけと勘違い」型で組んだもの。この第二案は、`D0314-B_prompt.md` と同じ型（しくみの図解→押さえどころ→本番での読み方→暗記3点。「ひっかけと勘違い」の対比カードは使わない）で組んだ別構成。どちらか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第二案の本文画像は、保存名の末尾に `_B案` を付ける（例：`4コマ解説図解<ID>～<出典>～_B案.png`）。
 
 ### 設計メモ2（工程A）
-- 【型の選び方】型：型2（第二案・押さえどころ）。第一案（型3・理由説明）では、図に『筆界特定』の語が出ず、『法123条5号』『申請適格』などの用語が説明なしに並び、『何を問う肢か』『何が解くカギか』が読み取れなかった（ユーザー指摘）。第二案は、理解の壁を越える順（問われていることを示す図→押さえどころの当てはめ表→本番での読み方3ステップ→暗記3点）に組み替え、カギを『申請人が登記記録に載る人か、載らない人か』の1点に絞った。
-- 【出題者のひっかけ】問題文の『表題登記がない甲土地』という語で、同じ問のア（1点のみ接する）・エ（双方に表題登記がない）の『申請できない』に引っぱり、『できる・できない』の話だと読ませる。この肢が問うのは『申請できるか』ではなく『申請人が何を添えるか』。さらに、隣の乙土地には表題登記があるので、乙の記録で足りると思わせる（証するのは申請人の土地＝甲）。
-- 【受験者の勘違い・定着していない点】①『できるか』と『何を添えるか』を分けて読めない（回答履歴は4回とも×で、できない側の話だと取り違えている推測）。②本人が所有者なら証明は要らないと考える。③登記記録で所有者が分かる申請人（所有権の登記名義人・表題部所有者）と、記録に載らない申請人（表題登記がない土地の所有者、土地の一部の取得者など）で、添付情報が変わることが整理できていない。（①〜③は回答履歴から立てた推測。記事に書かれた誤解の型ではない）
-- 【対比する制度】「記録に載っている」⇔「記録に載っていない」：登記記録に載っている申請人（所有権の登記名義人・表題部所有者）は、登記官が記録で確かめられるので、所有権を有することを証する情報は要らない。載っていない申請人（表題登記がない土地の所有者）は、確かめられないので、自分で所有権を有することを証する情報を提供する（規則209条1項4号。結論が逆になる点）。
-- 【第二案の位置づけ】第一案は、型3（なぜ要るのかの理由）で組んだ。第二案は、ユーザー指示（内容が分からない。別の形式の構成表も検討して、この種の問題を解くカギが分かる内容に）で、『問われていること』と『登記記録に載るか載らないかで添付情報が変わる』という当てはめの表を軸にした別構成。
-- 【理解の壁】初見の読者は、①『筆界特定』の何の話か（誰が何を添えて申請するか）が見えず、②『表題登記がない土地』という語から『申請できない』と取り違え、③本人が所有者なら証明は要らないと考える。壁を越える材料は、記事の『表題登記がある土地であれば登記記録から所有者を確認できますが、未登記の土地では申請適格を裏付ける必要がある』と、規則209条1項の添付情報の並び（4号・5号）。
-- 【定型からの変更点】①コマ1に『筆界特定の申請』を明示し、『この肢が問うこと＝申請人が添える情報』のリボンを入れる。②コマ2は左右2枚のカードでなく、申請人ごとの当てはめ表（4行）。『法123条5号』『申請適格』の用語を図から外し、『登記記録で確かめられるか』で統一。③コマ3は、『できるか』と『何を添えるか』を分けて読む3ステップ。④コマ4の暗記3点を『載らない申請人は自分で証明する』を軸に組む。
-- 押さえどころ（記事の範囲）：(1) 申請人が表題登記のない土地の所有者であるときは、所有権を有することを証する情報を提供する。表題登記がある土地は登記記録から所有者を確認できる。(2) 権利証や売買契約書など、自分が所有者であることを証明する書類が例。(3) 同じ問のエ（双方に表題登記がない土地どうしは対象にならない、〇）・ア（1点のみで接する土地は対象にならない、〇）は『申請できるか』の話で、この肢とは別。
-- extra_refs：①規則209条1項4号（申請人が表題登記がない土地の所有者であるとき、当該土地の所有権を有することを証する情報）と5号（申請人が一筆の土地の一部の所有権を取得した者であるとき、取得したことを証する情報）は note-articles/laws/fudousan-touki-kisoku-2.md の第二百九条で確認した。4号は記事冒頭の確認欄にある。5号は同じ問のウ（D1997、R06-Q19ウ）の記事の整理に沿う。②表の『所有権の登記名義人』『表題部所有者』『表題登記がない土地の所有者』の3区分は、法123条5号（note-articles/laws/fudousan-touki-hou.md）で確認した。③『片方に表題登記があれば筆界特定は申請できる』は法123条1号（筆界は、表題登記がある一筆の土地とこれに隣接する他の土地〈表題登記がない土地を含む〉との間）による。②③は肢D1996の記事にない整理で、ユーザーに『記事にない整理』と伝える。図には、規則209条1項4号・5号の条名だけを入れ、法123条の号の番号は入れない。
-- 登場人物：当事者の記号（Ａ〜Ｚ）は使わない。甲土地・乙土地は土地のブロックと文字ラベル、申請人は文字ラベルで示す。
-- 矢印の意味：矢印は使わない。コマ1は2つの土地を並べた図、コマ2は表、コマ3は3枚のステップカード。
-- 配色：コマ1〜3は印（✓✕）を付けない（要る・要らないは文字で書く）。コマ4の暗記3点だけ青✓。カードと表は薄い灰色・濃紺の枠、リボンは濃紺（白文字）、強調は黄色マーカーだけ。
-- コマの使い方：コマ1＝side（キャラが左右の端、図は中央。2つの土地と、問われていること）、コマ2＝none（4行の当てはめ表が主役。キャラも吹き出しもなし）、コマ3＝faces（左に3枚のステップカード、右に会話4つ＝顔4つ＝4行）、コマ4＝両方（暗記3点と結論）。
-- コマごとに読者が言えること：コマ1＝筆界特定の申請人は甲の所有者で、問われているのは添える情報。コマ2＝申請人が登記記録に載るなら所有権の証明は要らず、載らない（表題登記がない土地の所有者）なら自分で証明する。コマ3＝『申請できるか』と『何を添えるか』を分けて読む。乙に登記があっても、証するのは甲の所有権。コマ4＝この肢は〇。
+- 【型の選び方】型：型2（第二案・押さえどころ）（＋型1のひっかけの指摘をコマ3に）。B案v02：B案v01の画像（ユーザー指摘『何が言いたいのかわかりにくい』）を受けて全面再構成。言いたいことを1つに絞る：『登記官は、登記記録に載っている人なら記録で所有者と確かめられる。載っていない（表題登記がない土地の所有者）人は確かめられないので、所有者であることを自分で証明する』。コマ1＝登記官が見る登記記録が、乙にはあり甲にはない、というしくみの図、コマ2＝『記録に載っている申請人』⇔『載っていない申請人』の2枚のカード（具体例つき）、コマ3＝ひっかけ2つ（乙の記録で足りる／表題登記がないなら申請できない）への指摘、コマ4＝暗記3点。
+- 【出題者のひっかけ】①隣の乙土地には表題登記があるので、乙の登記記録で足りると思わせる（確かめたいのは申請人である甲の所有者）。②『表題登記がない』の語で、同じ問のア・エの『申請できない』に引っぱり、『できるか』の話だと読ませる（この肢が問うのは『何を添えるか』）。
+- 【受験者の勘違い・定着していない点】①本人が所有者なら、証明は要らないと考える（登記官が、申請人を何で所有者と確かめるのかが見えていない）。②乙に登記があれば、乙の記録で足りると考える。③『できるか』と『何を添えるか』を混ぜる。（回答履歴は4回とも×。①〜③は推測で、記事に書かれた誤解の型ではない）
+- 【対比する制度】「記録に載っている」⇔「記録に載っていない」：登記記録に載っている申請人（所有権の登記名義人・表題部所有者）は、登記官が記録で所有者と確かめられるので、所有権を有することを証する情報は要らない。載っていない申請人（表題登記がない土地の所有者）は、確かめられないので、自分で所有権を有することを証する情報を提供する（規則209条1項4号。結論が逆になる点）。
+- 【B案v01の画像の検品で分かった不具合】文言は構成表どおりだったが、①図が多く『言いたいこと』が1つに絞れていなかった（コマ2の表に4行、コマ3に『申請できる土地か』のステップがあり、別の論点〈対象土地の要件〉が混ざった）。②コマ3が『読み方3ステップ』で、なぜ載らないと証明が要るのかの説明がなかった。③コマ1の甲の『表題登記がない』タグがピンク、乙のタグが水色に塗られ、×・〇の色に見えた。④『登記記録に載る』が抽象的で、登記官が何を見るのかの絵がなかった。
+- 【定型からの変更点】①コマ1を『登記官が見る登記記録』の図（乙の記録には所有者が載っている、甲には記録がない）にする。②コマ2を4行の表から、具体例つきの2枚のカードに絞る（一部取得者の行は外す）。③コマ3を『読み方3ステップ』から、ひっかけ2つへの指摘に変える（『申請できる土地か』のステップは外し、D1998は図に入れない）。④タグと札は全部同じ薄い灰色にして、色で〇×の意味を持たせない。
+- 押さえどころ（記事の範囲）：(1) 申請人が表題登記のない土地の所有者であるときは、所有権を有することを証する情報を提供しなければならない。(2) 表題登記がある土地であれば登記記録から所有者を確認できるが、未登記の土地では申請適格を裏付ける必要がある。(3) 権利証や売買契約書など、自分が所有者であることを証明する書類が例。(4) 同じ問のア・エは『申請できるか』（対象土地の要件）の話で、この肢とは別。
+- extra_refs：図に使う条文は、規則209条1項4号だけ（記事冒頭の確認欄にある）。法123条5号の3区分、法123条1号（片方に表題登記があれば筆界特定は申請できる）、規則209条1項5号（一部取得者）は、設計メモの出典メモとして残すだけで、図には入れない。法123条1号は note-articles/laws/fudousan-touki-hou.md で確認した（筆界は、表題登記がある一筆の土地とこれに隣接する他の土地〈表題登記がない土地を含む〉との間）。これは肢D1996の記事にない整理で、コマ3の『乙に表題登記があれば申請できる』の根拠として、ユーザーに伝える。
+- 登場人物：当事者の記号（Ａ〜Ｚ）は使わない。甲土地・乙土地は登記記録の札（紙の見た目）と文字ラベルで示す。
+- 矢印の意味：矢印は使わない。
+- 配色：コマ1〜3は印（✓✕）を付けない。コマ4の暗記3点だけ青✓。札・タグ・カードはすべて同じ薄い灰色・濃紺の枠・濃紺の文字、リボンは濃紺の地に白文字、強調は黄色マーカーだけ。
+- コマの使い方：コマ1＝side（キャラは通常の大きさで左右の端。図は中央）、コマ2＝none（左右2枚のカードだけ）、コマ3＝faces（左に2枚のひっかけカード、右に会話の縦並び。会話4つ＝顔4つ＝4行）、コマ4＝両方（暗記3点と結論）。
+- コマごとに読者が言えること：コマ1＝筆界特定で甲の所有者が何を添えるかが問いで、登記官が見る記録は、乙にはあるが甲にはない。コマ2＝記録に載っている人は証明が要らず、載っていない人は自分で証明する。コマ3＝乙の記録では足りず、問いは申請できるかでなく添える情報。コマ4＝この肢は〇。
 
 ### 構成表2（文言の正本）
 
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
-| タイトル帯 | — | 載らない所有者は、自分で証明する | 「自分で証明する」を黄色マーカー |
-| コマ1 見出し | ラベル | ①　筆界特定で、何を添える？ | — |
-| コマ1 図 | 図・カード | 筆界特定の申請 / 筆界 / 甲土地 / 表題登記がない / 乙土地 / 表題登記がある / 申請人：甲土地の所有者 / この肢が問うこと：申請人が添える情報 / 甲の所有者は、何を添える？ | — |
+| タイトル帯 | — | 未登記の所有者は、自分で証明する | 「自分で証明する」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　本人でも、登記官には分からない | — |
+| コマ1 図 | 図・カード | 筆界特定の申請 / 乙土地の登記記録 / 所有者：氏名が載っている / 甲土地の登記記録 / 表題登記がないので、記録がない / この肢が問うこと：甲の所有者が添える情報 | — |
 | コマ1 | 藍子（左・先に話す） | 所有者本人なのに、証明が要るんですか？ | — |
-| コマ1 | トリ先生（右・答える） | 登記官は、本人をどこで確かめるの？ | 「どこで確かめる」 |
-| コマ2 見出し | ラベル | ②　登記記録に載るか、載らないか | — |
-| コマ2 図 | 図・カード | 押さえどころ / 登記記録で確かめられない点は、自分で証明する / 自分で証明する / 申請人 / 登記記録で確かめられる？ / 添える情報 / 所有権の登記名義人 / 記録に載っている / 所有権の証明は要らない / 表題部所有者 / 表題登記がない土地の所有者（肢D1996） / 記録に載っていない / 所有権を有することを証する情報（規則209条1項4号） / 一筆の土地の一部の所有権を取得した者 / その一部の所有権を取得したことを証する情報（規則209条1項5号） | — |
-| コマ3 見出し | ラベル | ③　本番での読み方3ステップ | — |
-| コマ3 図 | 図・カード | ステップ1　申請できる土地か / 乙に表題登記があれば、申請できる / 双方が未登記なら不可（肢D1998） / ステップ2　申請人は記録に載る人か / 甲は未登記。甲の所有者は記録に載らない / ステップ3　載らないなら自分で証明 / ひっかけ：乙に登記があるから不要、は誤り / 証するのは、乙でなく甲の所有権 | — |
-| コマ3 | 藍子（左・1番目） | 表題登記がない、に引かれました | — |
-| コマ3 | トリ先生（右・2番目） | できるかと、何を添えるかは別の話よ | 「別の話」 |
-| コマ3 | 藍子（左・3番目） | 乙に登記があれば、証明は省けますか？ | — |
-| コマ3 | トリ先生（右・4番目） | 省けない。証するのは甲の所有権よ | 「甲の所有権」 |
+| コマ1 | トリ先生（右・答える） | あなたが所有者だと、登記官は何で分かるの？ | 「何で分かる」 |
+| コマ2 見出し | ラベル | ②　載っている人と、載っていない人 | — |
+| コマ2 図 | 図・カード | 違い / 登記官が記録で確かめられない所だけ、自分で証明する / 自分で証明する / 記録に載っている申請人 / 例：乙土地の所有権の登記名義人 / 記録を見れば、所有者と分かる / 所有権を有することを証する情報は要らない / 記録に載っていない申請人 / 例：表題登記がない甲土地の所有者 / 記録がないので、所有者と確かめられない / 所有者であることを、自分で証明する / たとえば：権利証、売買契約書 / 規則209条1項4号 | — |
+| コマ3 見出し | ラベル | ③　2つのひっかけ | — |
+| コマ3 図 | 図・カード | ひっかけ1：乙に登記がある / 乙の記録は、乙の所有者のこと / 甲の所有者は、乙の記録では確かめられない / ひっかけ2：表題登記がない / 乙に表題登記があれば、申請はできる / この肢が問うのは、添える情報 | — |
+| コマ3 | 藍子（左・1番目） | 乙に登記があれば、乙の記録で足りますよね？ | — |
+| コマ3 | トリ先生（右・2番目） | 足りないわ。確かめたいのは甲の所有者でしょ | 「甲の所有者」 |
+| コマ3 | 藍子（左・3番目） | 表題登記がないなら、申請できないのでは？ | — |
+| コマ3 | トリ先生（右・4番目） | 乙にあれば申請できるの。問いは添える情報よ | 「添える情報」 |
 | コマ4 見出し | ラベル | ④　肢の答えは〇 | — |
 | コマ4 図 | 図・カード |  | — |
-| コマ4 | 藍子（左・先に話す） | 載らない人は、自分で証明するんですね！ | — |
-| コマ4 | トリ先生（右・答える） | そう。記録で確かめられない所だけよ | 「記録で確かめられない」 |
-| コマ4 チェック欄 | 3項目（青✓） | 申請人が登記記録に載らないなら、自分で証明する / 表題登記がない土地の所有者は、所有権を有することを証する情報を提供する（D1996は〇） / 申請できるかと、何を添えるかは、分けて読む | — |
-| 結論帯 | 1行目 | 登記記録に載らない所有者は、所有権を自分で証明 | 黄色マーカー |
+| コマ4 | 藍子（左・先に話す） | 載っていないから、自分で証明なんですね！ | — |
+| コマ4 | トリ先生（右・答える） | そう。確かめられない所だけよ | 「確かめられない」 |
+| コマ4 チェック欄 | 3項目（青✓） | 記録に載っている申請人は、所有権の証明は要らない / 表題登記がない土地の所有者は、所有権を有することを証する情報を提供する（D1996は〇） / 証明するのは、申請人の土地（甲）の所有権。乙の記録では足りない | — |
+| 結論帯 | 1行目 | 未登記の所有者は、所有権を自分で証明する | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D1996　正解〇（R06-Q19イ） | — |
 
 ### 記事に無い条文（ユーザー指示で追加）
@@ -310,72 +309,69 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
 - Conclusion banner at the bottom (about 110 px tall).
 
-TITLE BANNER: text 「載らない所有者は、自分で証明する」 in large bold letters; the part 「自分で証明する」 has a yellow highlighter marker.
+TITLE BANNER: text 「未登記の所有者は、自分で証明する」 in large bold letters; the part 「自分で証明する」 has a yellow highlighter marker.
 
 PANEL 1 (puzzled then curious mood; both characters appear at the NORMAL size (each about 190 px tall, roughly half of the panel height, with the same full-body look as in the other panels): 藍子 at the left edge and トリ先生 at the right edge, both standing in the lower part of the panel (see the LAYOUT lines below); 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
-- Label tab: 「①　筆界特定で、何を添える？」
+- Label tab: 「①　本人でも、登記官には分からない」
 - LAYOUT (side characters): 藍子 stands at the left edge and トリ先生 at the right edge at the normal size, each taking only the outer 22% of the panel width, with their speech bubbles in the upper part above their own heads and never covering the diagram. The diagram described in the lines below is drawn large in the CENTER region only, between the two characters (about 56% of the panel width and the full panel height below the label tab); wherever a line below says the diagram fills the panel, it means this center region. The characters never overlap the diagram.
 - A diagram in the center of the panel, about 56 percent of the panel width. At the top, a wide dark navy banner with large white text 「筆界特定の申請」.
-- Below it, two plot-of-land blocks side by side, both exactly the same size, separated by a thin plain line labeled 「筆界」 (no arrow). Left block, label 「甲土地」, with a small dark navy tag 「表題登記がない」. Right block, label 「乙土地」, with a small dark navy tag 「表題登記がある」. The two tags are NOT identical.
-- Under the left block, a pale gray plate with a dark navy outline and dark navy text 「申請人：甲土地の所有者」.
-- At the bottom, a dark navy ribbon with large white text 「この肢が問うこと：申請人が添える情報」, and a small question badge 「甲の所有者は、何を添える？」 (a question badge only, with no check mark and no cross).
+- Below it, two paper record sheets side by side, both exactly the same size, each with the same pale gray fill, a dark navy outline, and a dark navy heading placed fully INSIDE the sheet, with no check mark, no cross, and no arrow. Left sheet, heading 「乙土地の登記記録」, body 「所有者：氏名が載っている」. Right sheet, heading 「甲土地の登記記録」, body 「表題登記がないので、記録がない」. The two sheets have clearly different texts; the texts are NOT identical.
+- Under the two sheets, a dark navy ribbon with large white text 「この肢が問うこと：甲の所有者が添える情報」.
+- All plates, tags and sheets in this panel use the same pale gray fill with a dark navy outline and dark navy text.
 - There is no check mark, no cross and no arrow anywhere in this panel.
 - 藍子 bubble (left, spoken first): 「所有者本人なのに、
 証明が要るんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「登記官は、本人を
-どこで確かめるの？」 with the part 「どこで確かめる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「あなたが所有者だと、
+登記官は何で分かるの？」 with the part 「何で分かる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
-- Label tab: 「②　登記記録に載るか、載らないか」
-- A small dark navy tag 「押さえどころ」 at the top left with a line beside it: 「登記記録で確かめられない点は、自分で証明する」, with the part 「自分で証明する」 in a yellow highlighter marker.
-- Below it, a wide table that fills the full panel width. The header row is dark navy with white text and has three columns: 「申請人」, 「登記記録で確かめられる？」, 「添える情報」. The four body rows have the same pale gray fill and a dark navy outline, each text at least 24 px high, with no check mark, no cross, and no arrow.
-- Body row 1: 「所有権の登記名義人」, 「記録に載っている」, 「所有権の証明は要らない」.
-- Body row 2: 「表題部所有者」, 「記録に載っている」, 「所有権の証明は要らない」.
-- Body row 3 (yellow highlighter marker on the whole row): 「表題登記がない土地の所有者（肢D1996）」, 「記録に載っていない」, 「所有権を有することを証する情報（規則209条1項4号）」.
-- Body row 4: 「一筆の土地の一部の所有権を取得した者」, 「記録に載っていない」, 「その一部の所有権を取得したことを証する情報（規則209条1項5号）」.
-- The rows have clearly different texts; the texts are NOT identical, so copy each character exactly as given.
+- Label tab: 「②　載っている人と、載っていない人」
+- A small dark navy tag 「違い」 at the top left with a line beside it: 「登記官が記録で確かめられない所だけ、自分で証明する」, with the part 「自分で証明する」 in a yellow highlighter marker.
+- Two large cards of the same size side by side, left and right, each with the same pale gray fill, a dark navy outline, and a dark navy heading placed fully INSIDE the card, with no check mark, no cross, and no arrow anywhere in this panel. Only a small empty gap separates the two cards, with nothing drawn between them.
+- Left card: heading 「記録に載っている申請人」, a small tag 「例：乙土地の所有権の登記名義人」, two short body lines 「記録を見れば、所有者と分かる」 and 「所有権を有することを証する情報は要らない」.
+- Right card (the whole card in a yellow highlighter marker): heading 「記録に載っていない申請人」, a small tag 「例：表題登記がない甲土地の所有者」, three short body lines 「記録がないので、所有者と確かめられない」, 「所有者であることを、自分で証明する」 and 「たとえば：権利証、売買契約書」, and a small dark navy tag 「規則209条1項4号」 at the bottom.
+- The two cards have clearly different texts; the texts are NOT identical.
 
-PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
-- Label tab: 「③　本番での読み方3ステップ」
+PANEL 3 (surprised then understanding mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
+- Label tab: 「③　2つのひっかけ」
 - LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
-- Three step cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a dark navy number badge, and a dark navy heading, with no check mark and no cross. The step cards are separated only by a small empty gap, with nothing drawn between them.
-- Step card 1: heading 「ステップ1　申請できる土地か」, body 「乙に表題登記があれば、申請できる」, and a small tag 「双方が未登記なら不可（肢D1998）」.
-- Step card 2: heading 「ステップ2　申請人は記録に載る人か」, body 「甲は未登記。甲の所有者は記録に載らない」.
-- Step card 3: heading 「ステップ3　載らないなら自分で証明」, a dark navy ribbon tag with large white text 「ひっかけ：乙に登記があるから不要、は誤り」, body 「証するのは、乙でなく甲の所有権」.
+- Two cards stacked from top to bottom, both the same size, each with the same pale gray fill, a dark navy outline, and a dark navy heading placed fully INSIDE the card, with no check mark and no cross. The two cards are separated only by a small empty gap, with nothing drawn between them.
+- Top card: a dark navy ribbon tag with large white text 「ひっかけ1：乙に登記がある」, two short body lines 「乙の記録は、乙の所有者のこと」 and 「甲の所有者は、乙の記録では確かめられない」.
+- Bottom card: a dark navy ribbon tag with large white text 「ひっかけ2：表題登記がない」, two short body lines 「乙に表題登記があれば、申請はできる」 and 「この肢が問うのは、添える情報」.
 - There is no check mark and no cross anywhere in this panel.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「表題登記がない、
-に引かれました」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「できるかと、何を
-添えるかは別の話よ」 with the part 「別の話」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「乙に登記があれば、
-証明は省けますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「省けない。
-証するのは
-甲の所有権よ」 with the part 「甲の所有権」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「乙に登記があれば、
+乙の記録で足りますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「足りないわ。確かめたい
+のは甲の所有者でしょ」 with the part 「甲の所有者」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「表題登記がないなら、
+申請できないのでは？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「乙にあれば申請できるの。
+問いは添える情報よ」 with the part 「添える情報」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　肢の答えは〇」
-- 藍子 bubble (left, spoken first): 「載らない人は、
-自分で証明するんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, spoken as the answer): 「そう。記録で
-確かめられない所だけよ」 with the part 「記録で確かめられない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「申請人が登記記録に載らないなら、自分で証明する」, 「表題登記がない土地の所有者は、所有権を有することを証する情報を提供する（D1996は〇）」, 「申請できるかと、何を添えるかは、分けて読む」.
+- 藍子 bubble (left, spoken first): 「載っていないから、
+自分で証明なんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そう。確かめられない
+所だけよ」 with the part 「確かめられない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「記録に載っている申請人は、所有権の証明は要らない」, 「表題登記がない土地の所有者は、所有権を有することを証する情報を提供する（D1996は〇）」, 「証明するのは、申請人の土地（甲）の所有権。乙の記録では足りない」.
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
-- Line 1: 「登記記録に載らない所有者は、所有権を自分で証明」 with a yellow highlighter marker.
+- Line 1: 「未登記の所有者は、所有権を自分で証明する」 with a yellow highlighter marker.
 - Line 2: 「問題D1996　正解〇（R06-Q19イ）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 所, 押, 権, 番, 登, 肢, 規, 解, 記, 証, 請, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that no triangle, chevron, arrow, or connector is drawn between the stacked step cards; confirm that the conclusion banner is pale yellow with dark navy text; confirm that panel 1, panel 2 and panel 3 contain no check mark and no cross anywhere, and that the only blue check marks in the whole image are the three in the checklist of panel 4; confirm that the table in panel 2 has exactly four body rows in the given order and that row 3 is the highlighted row 「表題登記がない土地の所有者（肢D1996）」; confirm that the banner at the top of panel 1 reads 「筆界特定の申請」, the left land block reads 「甲土地」 with the tag 「表題登記がない」 and the right block reads 「乙土地」 with the tag 「表題登記がある」, never swapped; confirm that all four speech bubbles in panel 3 use the same text size confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two very small characters are drawn as specified and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 売, 所, 権, 登, 肢, 規, 解, 記, 証, 請, 買, 違, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that the conclusion banner is pale yellow with dark navy text; confirm that panel 1, panel 2 and panel 3 contain no check mark and no cross anywhere, and that the only blue check marks in the whole image are the three in the checklist of panel 4; confirm that every sheet, plate, tag and card in the whole image has the same pale gray fill with a dark navy outline and dark navy text (no pink, red, or blue fill on any tag or sheet); confirm that in panel 1 the left sheet reads 「乙土地の登記記録」 with 「所有者：氏名が載っている」 and the right sheet reads 「甲土地の登記記録」 with 「表題登記がないので、記録がない」, never swapped; confirm that in panel 2 the LEFT card heading is 「記録に載っている申請人」 and the RIGHT card heading is 「記録に載っていない申請人」 and only the right card is highlighted; confirm that all four speech bubbles in panel 3 use the same text size confirm the background is fully opaque with no transparency, alpha channel, or checkerboard.
 ```
 
 ### 第二案の品質ゲート（工程C）
-- [ ] 工程C：肝（ひっかけ・勘違い・対比）の確認：ひっかけ＝『表題登記がない』の語で『できない』と読ませる（コマ3の会話・ステップ1）、勘違い＝本人なら証明は要らない・乙の記録で足りる（コマ1の藍子の台詞・コマ3のリボン）、対比『記録に載っている』⇔『記録に載っていない』＝コマ2の当てはめ表
-- [ ] 工程C：初見の読者：コマ1で『筆界特定の申請。申請人は甲の所有者。問われているのは添える情報』と言える。コマ2の表で、載る申請人と載らない申請人の違いが言える。コマ3の3ステップを、本番の問題文の読み方として使える
-- [ ] 工程C：構成表の全文言を、記事（R06-Q19イ）と法令DB（規則209条1項4号・5号）に突き合わせ：『登記記録から所有者を確認できる』『所有権を有することを証する情報』『一筆の土地の一部の所有権を取得したことを証する情報』。結論は〇（提供しなければならない）
-- [ ] 工程C：コマ1〜3に印がなく、コマ4だけ青✓。コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。コマ3の顔アイコンは、会話の数と同じ4つ。図に『法123条』『申請適格』の語を入れていない
+- [ ] 工程C：肝（ひっかけ・勘違い・対比）の確認：ひっかけ＝乙の記録で足りる・『表題登記がない』で『できない』と読む（コマ3の2枚のカードと会話）、勘違い＝本人なら証明は要らない（コマ1の藍子の台詞）、対比『記録に載っている』⇔『記録に載っていない』＝コマ2の左右のカード
+- [ ] 工程C：初見の読者：コマ1で『甲の所有者が筆界特定で添える情報が問い。登記官が見る記録は乙にあるが甲にはない』と言える。コマ2で、載っている人は証明不要、載っていない人は自分で証明、と言える。言いたいことが1つ（確かめられない所だけ自分で証明）に絞られている
+- [ ] 工程C：構成表の全文言を、記事（R06-Q19イ）と突き合わせ：『登記記録から所有者を確認できる』『所有権を有することを証する情報』『権利証や売買契約書』。結論は〇（提供しなければならない）
+- [ ] 工程C：コマ1〜3に印がなく、コマ4だけ青✓。札・タグ・カードが同じ薄い灰色で、赤・青・ピンクに塗られていない。コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。『読み方3ステップ』『申請できる土地か』のステップがない
 
 ### 第二案の改訂履歴
 
-- 2026-10-10 B案v01：初版（ユーザー指示。第一案が『何を問う肢か・カギは何か』が読み取れなかったため、型2で組み替え。コマ1に『筆界特定の申請』と『この肢が問うこと』を明示、コマ2を申請人ごとの当てはめ表、コマ3を『できるか』と『何を添えるか』を分けて読む3ステップに）
+- 2026-10-10 B案v01：初版（ユーザー指示。第一案が『何を問う肢か・カギは何か』が読み取れなかったため、型2で組み替え）
+- 2026-10-10 B案v02：B案v01の画像（文言は構成表どおり）をユーザーが『何が言いたいかわかりにくい』と評価。言いたいことを1つに絞って全面再構成：コマ1を登記官が見る登記記録の図、コマ2を具体例つきの2枚のカード、コマ3を読み方ステップからひっかけ2つへの指摘に変更。別の論点（対象土地の要件・一部取得者）を図から外し、札・タグを同じ薄い灰色にして色の誤用（ピンク・水色）を防ぐ
