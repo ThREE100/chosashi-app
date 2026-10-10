@@ -35,6 +35,7 @@ LOGDIR = os.path.join(ROOT, '.drill-log')
 LOG = os.path.join(LOGDIR, 'log.jsonl')
 SESSION = os.path.join(LOGDIR, 'session.json')
 FOCUS = os.path.join(LOGDIR, 'focus.json')
+EXCLUDE = os.path.join(LOGDIR, 'review_exclude.json')   # ユーザー指示で復習から外した肢ID
 CYCLE = os.path.join(LOGDIR, 'must_cycle.json')   # 要復習の「一周」管理：今の周で出題済みの肢ID
 TAGS = os.path.join(LOGDIR, 'tags.jsonl')
 ISSUES = os.path.join(LOGDIR, 'issues.jsonl')
@@ -105,6 +106,13 @@ def read_log():
     return recs
 
 
+def read_exclude():
+    try:
+        return set(json.load(open(EXCLUDE, encoding='utf-8')).get('ids', []))
+    except Exception:
+        return set()
+
+
 def item_state(logs):
     """肢ごとの履歴から 現在の状態を出す。"""
     st = {}
@@ -125,6 +133,9 @@ def item_state(logs):
             s['ever_fail'] = True
         s['last'] = t
         s['last_res'] = r['res']
+    ex = read_exclude()
+    for iid, s in st.items():
+        s['excluded'] = iid in ex
     return st
 
 
@@ -141,6 +152,8 @@ def review_class(s):
     一度も間違えていない肢は None。"""
     if not s['ever_fail']:
         return None
+    if s.get('excluded'):   # ユーザーが「理解できた」として復習から外した肢
+        return 'done'
     w = wrong_total(s)
     return 'must' if s['cons'] < w else 'check' if s['cons'] == w else 'done'
 
@@ -611,10 +624,20 @@ def cmd_answer(a):
         print('→ 復習には、日付をまたいだ翌日（日本時間0時）以降に出ます。')
 
 
+def cmd_exclude(a):
+    """理解できた肢を復習から外す（ユーザー指示）。--undo で戻す。"""
+    ensure_log_branch()
+    ex = read_exclude()
+    for i in a.ids:
+        (ex.discard if a.undo else ex.add)(i)
+    json.dump({'ids': sorted(ex)}, open(EXCLUDE, 'w', encoding='utf-8'), ensure_ascii=False)
+    print(('復習に戻しました: ' if a.undo else '復習から除外しました: ') + ', '.join(a.ids) + f'（除外中 計{len(ex)}件）')
+
+
 def cmd_save(a):
     ensure_log_branch()
     sh('git', 'add', 'log.jsonl', cwd=LOGDIR)
-    for fn, pth in (('tags.jsonl', TAGS), ('issues.jsonl', ISSUES), ('must_cycle.json', CYCLE)):
+    for fn, pth in (('tags.jsonl', TAGS), ('issues.jsonl', ISSUES), ('must_cycle.json', CYCLE), ('review_exclude.json', EXCLUDE)):
         if os.path.exists(pth):
             sh('git', 'add', fn, cwd=LOGDIR)
     r = sh('git', 'diff', '--cached', '--quiet', check=False, cwd=LOGDIR)
@@ -834,9 +857,10 @@ def main():
     fc.add_argument('--exclude-subject', action='append')
     fc.add_argument('--exclude-topic', action='append')
     fc.add_argument('--count', type=int, default=100)
+    ex = sub.add_parser('exclude'); ex.add_argument('ids', nargs='+'); ex.add_argument('--undo', action='store_true')
     isu = sub.add_parser('issue'); isu.add_argument('id'); isu.add_argument('problem'); isu.add_argument('--proposal')
     a = p.parse_args()
-    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain, 'mark': cmd_mark, 'tag': cmd_tag, 'tags': cmd_tags, 'untag': cmd_untag, 'checks': cmd_checks, 'issue': cmd_issue, 'focus': cmd_focus}[a.cmd](a)
+    {'start': cmd_start, 'next': cmd_next, 'answer': cmd_answer, 'save': cmd_save, 'report': cmd_report, 'explain': cmd_explain, 'mark': cmd_mark, 'tag': cmd_tag, 'tags': cmd_tags, 'untag': cmd_untag, 'checks': cmd_checks, 'issue': cmd_issue, 'focus': cmd_focus, 'exclude': cmd_exclude}[a.cmd](a)
 
 
 if __name__ == '__main__':
