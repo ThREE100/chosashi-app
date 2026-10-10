@@ -22,6 +22,8 @@
 回答は 〇(o)・×(x)・？(?) の3択。
   〇/× が正解   → 定着(known)
   〇/× が不正解 → 誤解(miscon)   間違って覚えている（最優先で復習）
+復習の区分（誤解＋未習得の通算回数W、その後の連続正解数c）: c<W 要復習 / c=W チェック / c>W 除外。
+mixed の出題は 要復習3・チェック1・新規1（Wの多い順）。
   ？            → 未習得(unknown) 知らない（正誤は問わない）
 """
 import argparse, collections, re, datetime as dt, json, math, os, random, subprocess, sys
@@ -38,8 +40,9 @@ ISSUES = os.path.join(LOGDIR, 'issues.jsonl')
 BRANCH = 'drill-log'
 SUBJECTS = ['民法', '不動産登記法', '土地家屋調査士法']
 SUBJ_ALIAS = {'調査士法': '土地家屋調査士法', '不登法': '不動産登記法'}
-# 復習間隔（暦日）。連続正解数(streak)ごと。誤答・？は streak=0 に戻る。期限は日本時間の午前0時。
-INTERVALS = [1, 1, 3, 7, 21, 60]   # 誤答・？は翌日（日付をまたいだ後）から復習に出す。同じ日には出さない
+# （旧）復習間隔。2026-10-10から出題は下の「要復習／チェック／除外」のルールで決める（due_at は互換のため残してある）。
+# 誤答・？は日付をまたいだ翌日（日本時間0時）以降に出す。同じ日には出さない
+INTERVALS = [1, 1, 3, 7, 21, 60]
 FIRST_TRY_STREAK = 4      # 初見で正解した肢は streak=4（21日後に確認）から始める
 RETIRE_STREAK = 6         # これ以上は復習に出さない（定着）
 JST = dt.timezone(dt.timedelta(hours=9))   # 「日付をまたぐ」は日本時間の午前0時で数える
@@ -105,21 +108,40 @@ def item_state(logs):
     """肢ごとの履歴から 現在の状態を出す。"""
     st = {}
     for r in logs:
-        s = st.setdefault(r['id'], {'n': 0, 'known': 0, 'miscon': 0, 'unknown': 0, 'streak': 0, 'last': None, 'last_res': None, 'ever_fail': False})
+        s = st.setdefault(r['id'], {'n': 0, 'known': 0, 'miscon': 0, 'unknown': 0, 'streak': 0, 'cons': 0, 'last': None, 'last_res': None, 'ever_fail': False})
         s['n'] += 1
         s[r['res']] += 1
         t = dt.datetime.fromisoformat(r['t'])
         if r['res'] == 'known':
+            s['cons'] += 1
             if s['n'] == 1:
                 s['streak'] = FIRST_TRY_STREAK
             else:
                 s['streak'] += 1
         else:
             s['streak'] = 0
+            s['cons'] = 0
             s['ever_fail'] = True
         s['last'] = t
         s['last_res'] = r['res']
     return st
+
+
+def wrong_total(s):
+    """誤解＋未習得の通算回数。"""
+    return s['miscon'] + s['unknown']
+
+
+def review_class(s):
+    """復習の区分（2026-10-10 ユーザー指示）。誤解・未習得の通算回数 W と、その後の連続正解数 c で決める。
+      c < W  → 'must'  要復習（優先して出す）
+      c == W → 'check' チェック（優先度を下げて出す）
+      c > W  → 'done'  復習から除外
+    一度も間違えていない肢は None。"""
+    if not s['ever_fail']:
+        return None
+    w = wrong_total(s)
+    return 'must' if s['cons'] < w else 'check' if s['cons'] == w else 'done'
 
 
 def due_at(s):
@@ -181,8 +203,8 @@ def cmd_start(a):
     bank = load_bank(); logs = read_log(); st = item_state(logs)
     total = len(bank)
     seen = len(st)
-    due = [i for i, s in st.items() if due_at(s) and due_at(s) <= now() and i in bank]
-    print(f'問題バンク {total}肢 / 解答済み {seen}肢 / 復習の期限が来ている {len(due)}肢 / 記録 {len(logs)}件')
+    cls = collections.Counter(review_class(s) for i, s in st.items() if i in bank)
+    print(f'問題バンク {total}肢 / 解答済み {seen}肢 / 要復習 {cls["must"]}肢・チェック {cls["check"]}肢・復習から除外 {cls["done"]}肢 / 記録 {len(logs)}件')
     by = collections.Counter(bank[i]['subject'] for i in st if i in bank)
     for s in SUBJECTS:
         n = sum(1 for x in bank.values() if x['subject'] == s)
@@ -290,14 +312,16 @@ def pick(bank, st, n, subject, topic, mode):
         if iid in bank:
             answered_topics[(bank[iid]['subject'], bank[iid]['topic'])] += s['n']
 
-    def prio_review(i):
-        s = st[i]; d = due_at(s)
-        over = (nowt - d).total_seconds() / 86400
-        base = {'miscon': 3.0, 'unknown': 2.0, 'known': 1.0}[s['last_res']]
-        return base + min(over, 10) * 0.1 + s['miscon'] * 0.2
+    today = nowt.astimezone(JST).date()
 
-    due = [i for i in pool if i in st and due_at(st[i]) and due_at(st[i]) <= nowt and i not in last_session]
-    due.sort(key=prio_review, reverse=True)
+    def eligible(i):   # 同じ日（日本時間）に答えた肢と、直前の出題の肢は出さない
+        return i in st and st[i]['last'].astimezone(JST).date() < today and i not in last_session
+
+    def review_order(i):   # 誤解・未習得の通算回数が多い順。同数なら最後に答えたのが古い順
+        return (-wrong_total(st[i]), st[i]['last'])
+
+    must = sorted((i for i in pool if eligible(i) and review_class(st[i]) == 'must'), key=review_order)
+    check = sorted((i for i in pool if eligible(i) and review_class(st[i]) == 'check'), key=review_order)
     new = [i for i in pool if i not in st]
 
     def prio_new(i):
@@ -316,20 +340,23 @@ def pick(bank, st, n, subject, topic, mode):
                 new = tier_new
                 break
     if mode == 'review':
-        chosen = due[:n]
+        chosen = (must + check)[:n]
     elif mode == 'new':
         chosen = spread_by_topic(new, bank, st, n)
     elif mode == 'weak':
         # 弱い論点の肢（未出題＋復習が近いもの）を弱さ順に
-        cand = [i for i in pool if i not in last_session and (i not in st or (st[i]['streak'] < RETIRE_STREAK))]
+        cand = [i for i in pool if i not in last_session and (i not in st or review_class(st[i]) != 'done')]
         cand.sort(key=lambda i: -(weakness(ts[(pool[i]['subject'], pool[i]['topic'])]) if (pool[i]['subject'], pool[i]['topic']) in ts else 0.35) - random.random() * 0.3)
         chosen = cand[:n]
-    else:  # mixed: 1周目（全肢を1回解く）が終わるまでは復習は5問中1問まで、残りは新規
-        cap = max(1, n // 5) if new else max(1, n // 2)
-        k = min(len(due), cap if due else 0)
-        chosen = due[:k] + spread_by_topic(new, bank, st, n - k)
+    else:  # mixed: 要復習3・チェック1・新規1（5問のとき）。足りない区分は 要復習 → チェック → 新規 の順で埋める
+        n_rv = round(n * 0.6); n_ck = round(n * 0.2); n_nw = n - n_rv - n_ck
+        c_rv = must[:n_rv]
+        c_ck = check[:n_ck]
+        c_nw = spread_by_topic(new, bank, st, n_nw)
+        chosen = c_rv + c_ck + c_nw
         if len(chosen) < n:
-            chosen += [i for i in due[k:]][:n - len(chosen)]
+            rest = [i for i in must if i not in chosen] + [i for i in check if i not in chosen] + [i for i in new if i not in chosen]
+            chosen += rest[:n - len(chosen)]
     # 同じ論点が連続しないよう軽く散らす
     random.shuffle(chosen)
     return chosen
@@ -351,13 +378,17 @@ def cmd_next(a):
     subj = SUBJ_ALIAS.get(a.subject, a.subject)
     ids = pick(bank, st, a.n, subj, a.topic, a.mode)
     if not ids:
-        print('出題できる問題がありません（期限の来た復習なし／新規なし）。--mode new か別の科目を試してください。')
+        print('出題できる問題がありません（要復習・チェック・新規なし）。--mode new か別の科目を試してください。')
         return
     sess = {'started': now().isoformat(), 'ids': ids, 'recent': ids}
     json.dump(sess, open(SESSION, 'w', encoding='utf-8'), ensure_ascii=False)
     for k, i in enumerate(ids, 1):
         it = bank[i]
-        tag = '復習' if i in st else '新規'
+        if i in st:
+            s_ = st[i]; cl = review_class(s_)
+            tag = ('要復習' if cl == 'must' else 'チェック' if cl == 'check' else '復習') + f'（誤答{wrong_total(s_)}回）' if cl else '復習'
+        else:
+            tag = '新規'
         print(f'[{k}/{len(ids)}] ({i}) {tag}・{it["subject"]}／{it["topic"]}')
         print(f'  {stmt_text(it)}')
         print()
@@ -548,6 +579,11 @@ def cmd_answer(a):
     # 履歴
     st = item_state(read_log())[a.id]
     print(f'この肢: {st["n"]}回目（定着{st["known"]}／誤解{st["miscon"]}／未習得{st["unknown"]}）')
+    cl = review_class(st)
+    if cl:
+        w = wrong_total(st)
+        label = {'must': '要復習（優先して出す）', 'check': 'チェック扱い（優先度を下げて出す）', 'done': '復習から除外'}[cl]
+        print(f'復習の状態: {label} — 誤解・未習得の通算{w}回、その後の連続正解{st["cons"]}回')
     if res != 'known':
         print('→ 復習には、日付をまたいだ翌日（日本時間0時）以降に出ます。')
 
@@ -650,8 +686,8 @@ def cmd_mark(a):
         f.write(json.dumps(rec, ensure_ascii=False) + '\n')
     st = item_state(read_log())[a.id]
     print(f'訂正しました: {a.id} → {a.res}（{"誤解" if a.res == "miscon" else "未習得" if a.res == "unknown" else "定着"}扱い）')
-    d = due_at(st)
-    print('次の復習: ' + (d.astimezone(JST).strftime('%Y-%m-%d %H:%M JST') if d else 'なし'))
+    cl = review_class(st)
+    print('復習の状態: ' + ({'must': '要復習', 'check': 'チェック扱い', 'done': '復習から除外', None: '復習なし'}[cl]) + f'（誤解・未習得の通算{wrong_total(st)}回、連続正解{st["cons"]}回）')
 
 
 def read_tags():
