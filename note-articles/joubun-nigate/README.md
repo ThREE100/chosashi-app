@@ -48,3 +48,4 @@
 - いずれも、画像の生成・目視確認は未実施。
 - 区分所有法 第5条（規約による建物の敷地）：`kubunshoyuu-hou/art005-kiyaku-shikichi/`。図解7枚・4コマ6本・見出し画像のプロンプト（2026-10-09）。規約の種類×登記の種類で添付情報を当てはめる弱点を軸に構成。区分所有法31条は令和7年改正（2026-04-01施行）後の文言。法定敷地を規約敷地にできる点は条文に明記がなく、整理として扱っている（設計メモに記録）。
 - 次の候補は、`fukushuu-chuu-no-joubun-betsu-2026-10-09.md` で肢数の多い条文：不動産登記令 別表13の項（12肢）、不動産登記法 第41条第6号（7肢）、不動産登記令 別表12の項（7肢）、不動産登記規則 第118条（6肢）、民法 第177条（5肢）。
+- 条文を主役にした4コマ（各1本。記事・図解・見出し画像は未作成。2026-10-10）：不動産登記規則 第28条・第28条の2（`fudousan-touki-kisoku/art028-hozon-kikan/`）、不動産登記事務取扱手続準則 第79条第3号（`fudousan-touki-jimu-junsoku/art079-3-kaokubangou/`）、不動産登記規則 別表二・別表三（`fudousan-touki-kisoku/bessho02-03-shozai-kouzou/`）、土地家屋調査士法 第22条・第41条第1項（`chousashi-hou/art022-041-irai-ouyou-gimu/`）、不動産登記令 第13条と調査士報告方式（`fudousan-touki-rei/art013-chousashi-houkoku/`）、民法 第921条第1号（`minpou/art921-1-hotei-tanjun-shounin/`）。各フォルダの `prompt_4koma_01_*.md`（構成表を含む）と `src/spec_4koma_01.py`。機械チェックの「記事タイトルのIDがファイル名と違う」の1件は、ファイル名を条文別の名前にしているための表示です。
