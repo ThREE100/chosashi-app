@@ -48,11 +48,11 @@
 
 ### エ：代位原因を証する情報として、甲区分建物の所有権証明情報を援用できる
 
-区分建物が属する一棟の建物が新築された場合、その一棟に属する他の区分建物の表題登記は一括して申請しなければならず（不動産登記法48条1項）、甲区分建物の所有者Aは、乙区分建物の所有者Bに代わって乙区分建物の表題登記を申請することができます（同条2項）。
+区分建物は、一棟の建物を複数の専有部分に分けて別々の人が所有する形態であるため、一棟全体の情報（所在・構造・床面積等）を一貫した内容で登記する必要があります。そこで、区分建物が属する一棟の建物が新築された場合、その一棟に属する他の区分建物の表題登記は一括して申請しなければなりません（不動産登記法48条1項）。
 
-このときの代位原因は「Aが同じ一棟に属する甲区分建物の所有者であること」なので、それを証する情報は、甲区分建物の表題登記の申請情報と併せて提供した「Aが甲区分建物の所有権を有することを証する情報」そのものです。
+もっとも、一括申請が義務だと、一棟に属する専有部分の所有者のうち1人でも申請の準備が整わなければ、他の所有者全員の登記がそこで止まってしまいます。この不都合を解消するため、甲区分建物の所有者Aは、乙区分建物の所有者Bの同意を得ることなく、Bに代わって乙区分建物の表題登記を申請することができます（同条2項）。これはあくまで一括申請という仕組みが生む渋滞を解消するための措置であり、Aが乙区分建物の所有権を取得するわけではなく、登記上の表題部所有者は引き続きBのままです。
 
-甲・乙の表題登記は同時に一括して申請されるため、この情報を代位原因を証する情報として援用することができ、本肢は正しい記述です。
+このときの代位原因は「Aが同じ一棟に属する甲区分建物の所有者であること」なので、それを証する情報は、甲区分建物の表題登記の申請情報と併せて提供した「Aが甲区分建物の所有権を有することを証する情報」そのものです。甲・乙の表題登記は同時に一括して申請されるため、この情報を代位原因を証する情報として援用することができ、本肢は正しい記述です。
 
 **たとえば**、同じ一棟のマンションで、Aさんが自分の部屋（甲区分建物）の表題登記と一緒に、隣の部屋（乙区分建物、所有者B）の表題登記を代わりに申請するとします。
 
@@ -89,6 +89,7 @@ Aさんが乙の分を代わりに申請できる理由は「Aさんがこの一
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。「代位原因を証する情報」というキーワードはR01年度第14問・H27年度第11問にも登場しますが、いずれも土地区画整理事業施行者・地役権者・処分禁止の仮処分債権者などによる分筆登記の代位申請を扱うもので、本問エの「区分建物の代位表題登記における代位原因証明情報の援用の可否」という具体的な論点とは異なります。表題登記の添付情報というテーマ自体はH26年度第8問・H30年度第4問・R05年度第14問などでも扱われていますが、本問の5つの具体的論点との一致は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
 - **最新法令チェック**：相続登記義務化（不動産登記法76条の2、令和6年4月1日施行）及び住所変更登記義務化（同法76条の5、令和8年4月1日施行・施行済み）による影響を確認しました。本問は建物の表題登記等の添付情報（規約設定証明情報・戸籍全部事項証明書・登記識別情報・代位原因証明情報・住所証明情報）を扱う論点であり、これらの改正が新設したのは所有権に関する登記（権利部）の申請義務であって、表示に関する登記の添付情報の取扱い自体に変更はありません。オの住所証明情報（印鑑証明書の可否）も、初回の表題登記時に住所を証明する情報の話であり、既に登記済みの名義人が住所変更後に変更登記を申請する義務を定める住所変更登記義務化とは別の場面のため、影響はありません。
 - **肢エの法的正確性・論理性の再検証（2026-10-10実施）**：ユーザーの依頼を受け、肢エの結論（援用できる＝正）を改めて条文から再構成して検証しました。①不動産登記法48条1項により、区分建物の表題登記は同じ一棟に属する他の区分建物の表題登記と一括して申請しなければならない、②同条2項により、甲区分建物の所有者Aは乙区分建物の所有者Bに代わってBの表題登記を申請できる（代位申請）、③不動産登記令7条1項3号により、代位申請には代位原因を証する情報の提供が必要、④本問の代位原因は「Aが同じ一棟の甲区分建物の所有者であること」であり、これを証する情報は、Aが甲区分建物の表題登記の申請（所有権を証する情報の提供が必要）で既に提供している情報と実質的に同一である、⑤甲・乙の申請は48条1項により同時に一括してされるため、同一の情報を重ねて提出させる必要はなく、援用（同じ申請の束の中で既に提供済みの情報を引用すること）によって代位原因証明情報の提供に代えることができる、という4段階の論理で一貫しており、論理の飛躍や条文との矛盾は見つかりませんでした。断定的な先例・通達を確認できたわけではないため、この結論が条文からの推論であることは上記の記載のとおり正直に開示したままとしています。あわせて、`## インフォグラフィック プロンプト（作図ガイド）`のFinal check段落が、実際には左右対比枠で描かれていない肢エを「side-by-side comparison frame」と誤って参照し、実際に左右対比枠で描かれている肢イを指していなかった表記の誤りを発見し、修正しました（PANEL本体の図解指示自体に誤りはなく、Final checkの確認対象の取り違えのみでした）。
+- **肢エの「なぜ代位できるのか」という理解補助の追加（2026-10-10実施）**：肢エの本文は条文根拠と結論を示すにとどまり、「なぜ他人の持分についてまで代位申請が認められるのか」という制度趣旨の説明がなかったため、ユーザーから分かりにくいとの指摘を受けました。区分建物は一棟を複数人で分け合う形態のため一棟全体の情報を一貫させる必要があり、それが一括申請義務（48条1項）の理由であること、一括申請が義務であるがゆえに1人の準備不足が全員の足を止める渋滞を生むこと、その渋滞を解消するための安全弁として代位申請（同条2項）が認められていること、代位してもBの所有権自体は移転しないことを本文に追記しました。この制度趣旨の説明はローカル法令データベースの条文構造（48条1項が一括申請を義務付け、同条2項がその例外的な代位申請を認める構成になっていること）から合理的に導けるものであり、条文と矛盾しません。あわせて、この理解を補助する図解インフォグラフィックと4コマ漫画のプロンプトを新規作成し、本ファイル末尾に追加しました。
 
 ---
 
@@ -419,4 +420,267 @@ last panel's footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any
 kind), and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+## インフォグラフィック プロンプト（肢エの考え方：なぜ代位できるのか）
+
+肢エの結論（代位原因証明情報を援用できる）そのものではなく、「なぜ他人の区分建物についてまで代位申請が認められるのか」という制度趣旨を、一棟の建物の構造→一括申請義務→渋滞問題→代位という安全弁、という4段階の因果関係として示す補助的な図解。既存の②問題全体ポスター・⑤作図ガイドの内容は書き換えず、理解を補う別枠のプロンプトとして追加する。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the other infographics in this article, but built
+as a single 4-step cause-and-effect chain (not a 5-肢 checklist) that
+explains WHY 代位 by subrogation is allowed for 区分建物, not just THAT it
+is allowed.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each of the 4 panels is one link in
+a causal chain, connected to the next panel by a single downward arrow
+labeled 「だから」 or 「そこで」 (do not add any other connecting text).
+Panel 1 shows the structural fact (one building, many separate owners).
+Panel 2 shows the legal consequence that structural fact creates (a
+mandatory joint-filing rule). Panel 3 shows the practical problem that
+rule creates (one slow owner blocks everyone). Panel 4 shows the legal
+fix for that problem (subrogated filing, ownership unchanged). Use
+isometric building cutaways, document/envelope icons, and simple stick-
+figure-style isometric people with speech bubbles or thought bubbles to
+make each link concrete and visual, not just a labeled box.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image — no
+Chinese-only characters, no Korean Hangul, no other non-Japanese script,
+and no stray or decorative glyphs of any kind, even as small background
+or texture elements. Reproduce the exact text strings given below
+verbatim — do not paraphrase, translate, summarize, or substitute any
+characters. Within this English prompt text, use half-width parentheses
+( ) consistently — never open a parenthetical with a full-width （ and
+close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+なぜ他人の分まで
+代位申請できるのか
+
+Subtitle (smaller, centered, 1行):
+平成25年度午後第14問 肢エ 理解補助（区分建物の代位申請）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+一棟を複数人で分け合う区分建物
+Illustration: An isometric cutaway of one apartment building, showing
+three separate rooms labeled 甲区分建物・乙区分建物・丙区分建物, each with
+a different isometric figure standing inside representing a different
+owner (A・B・C). A dashed outline around the whole building emphasizes
+that all three rooms share one single physical structure (一棟の建物).
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一棟に複数の所有者
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Illustration leads in from Panel 1 with a downward arrow labeled だから.
+Heading (bold, ONE line):
+一棟全体の情報をまとめて登記する
+Illustration: An isometric registry-office desk with three application
+document bundles for 甲・乙・丙, all stacked together into a single tied
+bundle labeled 一括申請（不動産登記法48条1項）, with a green checkmark.
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一括申請が義務
+
+--- PANEL 3 ---
+Badge: a filled circle in blue containing the number 3.
+Illustration leads in from Panel 2 with a downward arrow labeled そこで.
+Heading (bold, ONE line):
+1人の準備不足が全員を止める
+Illustration: The same three isometric figures A・B・C standing in a
+queue at the registry desk. Figure B is shown asleep or shrugging with an
+empty-handed gesture (書類が未完成), while figures A and C stand behind
+with impatient expressions and a red ✕ over the whole bundle, since the
+bundle cannot be submitted without B's part.
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+渋滞が起きる
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Illustration leads in from Panel 3 with a downward arrow labeled だから.
+Heading (bold, ONE line):
+代位申請という安全弁（48条2項）
+Illustration: Figure A stepping forward and submitting the bundle at the
+registry desk, now including a document for 乙区分建物 stamped 代位申請
+with figure A's hand on it (not figure B's). Figure B remains in the
+background, uninvolved. A small inset shows the completed registry record
+for 乙区分建物 still listing B as 表題部所有者（Bのまま）, with a green
+checkmark, to make clear ownership did not move to A.
+着眼点 callout (1-2 sentences, verbatim, must state the causal order):
+一括申請が義務だからこそ、1人の準備不足が全員の登記を止めてしまいます。
+その渋滞を解消するため、他の区分建物の所有者が代わりに申請できる代位の
+仕組みが認められています。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+渋滞解消の安全弁
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法48条1項（一棟の区分建物の表題登記の一括申請）・同条2項（他の
+区分建物の所有者による代位申請）に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 棟・区・分・建・物・括・申・請・代・位・
+渋・滞・安・全・弁・登・記. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 4 exactly, badge numbers run 1-4 continuously, there is no intro
+illustration or paragraph block between the header and the panels, that
+each panel-to-panel arrow is labeled only with だから or そこで and no
+other connecting text, that Panel 4's inset clearly shows B (not A)
+remains the registered owner of 乙区分建物, confirm nothing is rendered
+below the last panel's footnote text (no summary recap panel, no trophy
+or medal icon, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
+
+## 4コマ漫画 構成表（肢エの理解補助）
+
+肢エの制度趣旨（なぜ代位申請ができるのか）を、4コマ漫画形式で説明するための構成表。登場人物はA（甲区分建物の所有者）・B（乙区分建物の所有者）の2名で、それぞれ同じ一棟に住む区分建物の所有者とする（特定の固有名詞・キャラクター名は付けない）。
+
+- **1コマ目**：場面＝新築マンションの一棟全体を俯瞰する図。甲区分建物にA、乙区分建物にBが住んでいる。セリフ（A）：「このマンション、1棟に何人も持ち主がいるんです」
+- **2コマ目**：場面＝登記所の窓口。甲と乙の申請書類が1つの束にまとめられている。セリフ（A）：「でも登記は、一棟分まとめて一括で申請しないといけないんです」。小さな注記：不動産登記法48条1項
+- **3コマ目**：場面＝Bの書類だけ未完成で、Aが困った顔で待たされている。セリフ（B）：「ごめんなさい、まだ書類の準備ができていなくて……」セリフ（A）：「それだと私の分も申請できないんです……」
+- **4コマ目**：場面＝Aが自分の書類と一緒にBの分も窓口に提出し、受け取った登記官がうなずいている。乙区分建物の登記記録には引き続きBの名前が表示されている。セリフ（A）：「だから甲建物の所有者である私が、Bさんの代わりに申請できるんです」セリフ（B）：「渋滞を解消するための仕組みなんですね」。小さな注記：不動産登記法48条2項、所有権はBのまま
+
+## 4コマ漫画 プロンプト（肢エの理解補助）
+
+```
+Create a Japanese-language 4-panel comic strip (4コマ漫画), portrait
+layout, 1080x2400 pixels, four equal-height panels stacked vertically
+from top to bottom, clean flat-design isometric illustration style with
+soft pastel colors (blue, green, beige, gray), consistent with the same
+visual language as the other infographics in this article, but drawn as
+a sequential narrative comic with two simple isometric characters (figure
+A and figure B, no specific names, generic neutral clothing) rather than
+as a diagram or poster.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image — no
+Chinese-only characters, no Korean Hangul, no other non-Japanese script,
+and no stray or decorative glyphs of any kind, even as small background
+or texture elements. Reproduce the exact dialogue strings given below
+verbatim inside speech bubbles — do not paraphrase, translate, summarize,
+or substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge, including inside every panel. Do NOT generate a
+transparent or alpha-channel background under any circumstances, even if
+the output file format supports transparency. There must be no
+checkerboard pattern, no partially transparent area, and no unpainted
+canvas edge anywhere in the final image.
+
+PANEL LAYOUT REQUIREMENT (critical): Draw exactly 4 panels of equal size,
+stacked vertically in a single column, each with a thin rounded border
+separating it from the next, in the traditional 4コマ漫画 (yonkoma)
+reading order top to bottom. Do not add a 5th panel, an intro panel, or
+any panel below panel 4. Do not merge any two panels into one.
+
+--- PANEL 1 ---
+Scene: An isometric cutaway view of a newly built apartment building,
+showing two separate rooms labeled 甲区分建物 and 乙区分建物, each with a
+different isometric figure standing inside — figure A in 甲区分建物,
+figure B in 乙区分建物.
+Speech bubble (figure A, verbatim):
+このマンション、1棟に何人も
+持ち主がいるんです
+
+--- PANEL 2 ---
+Scene: A registry-office counter. Figure A stands at the counter holding
+two document bundles, one labeled 甲 and one labeled 乙, tied together
+into a single bundle.
+Speech bubble (figure A, verbatim):
+でも登記は、一棟分まとめて
+一括で申請しないと
+いけないんです
+Small caption text (bottom corner of panel, small font, verbatim):
+不動産登記法48条1項
+
+--- PANEL 3 ---
+Scene: Figure B stands empty-handed with an apologetic expression. Figure
+A stands nearby with a troubled expression, holding only the 甲 document
+bundle (incomplete without B's part).
+Speech bubble (figure B, verbatim):
+ごめんなさい、まだ書類の
+準備ができていなくて……
+Speech bubble (figure A, verbatim):
+それだと私の分も
+申請できないんです……
+
+--- PANEL 4 ---
+Scene: Figure A submits a single combined bundle (甲 and 乙 together) at
+the registry counter to a registry-officer figure, who nods and accepts
+it. A small inset box in the corner of the panel shows the completed
+registry record for 乙区分建物, with B's name still listed as 表題部所有者.
+Speech bubble (figure A, verbatim):
+だから甲建物の所有者である
+私が、Bさんの代わりに
+申請できるんです
+Speech bubble (figure B, verbatim):
+渋滞を解消するための
+仕組みなんですね
+Small caption text (bottom corner of panel, small font, verbatim):
+不動産登記法48条2項・所有権はBのまま
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 棟・区・分・建・物・括・申・請・代・位・
+渋・滞・済・録・所・有・権. If any character renders as a Simplified or
+Traditional Chinese variant, redraw that character in the correct
+Japanese form. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it so that only standard
+Japanese text appears anywhere in the image. Confirm the panel count
+equals 4 exactly, arranged in a single vertical column in yonkoma reading
+order, confirm every speech bubble's text matches the dialogue given
+above verbatim with no paraphrasing, confirm Panel 4's inset clearly
+shows B (not A) remains the registered owner of 乙区分建物, confirm
+nothing is rendered below panel 4 (no summary recap panel, no trophy or
+medal icon, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
