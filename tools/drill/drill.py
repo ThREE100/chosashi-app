@@ -35,6 +35,7 @@ LOGDIR = os.path.join(ROOT, '.drill-log')
 LOG = os.path.join(LOGDIR, 'log.jsonl')
 SESSION = os.path.join(LOGDIR, 'session.json')
 FOCUS = os.path.join(LOGDIR, 'focus.json')
+CYCLE = os.path.join(LOGDIR, 'must_cycle.json')   # 要復習の「一周」管理：今の周で出題済みの肢ID
 TAGS = os.path.join(LOGDIR, 'tags.jsonl')
 ISSUES = os.path.join(LOGDIR, 'issues.jsonl')
 BRANCH = 'drill-log'
@@ -258,7 +259,9 @@ def cmd_focus(a):
 
 # 新規の出題順（2026-10-05ユーザー指示、2026-10-08に段階を追加）：
 #   R7〜H28 → H27〜H20 → H19〜H17（年度なしは最後）。各段階の未出題が残っている間は、次の段階の新規は出さない
-PRIORITY_TIERS = ((28, 99), (20, 27), (0, 19))
+PRIORITY_TIERS = ((28, 99), (20, 27))
+# H17〜H19（平成19年度以前）の新規は 2026-10-10 から停止（余裕があれば解く扱い）。--include-old を付けたときだけ出す
+OLD_TIER = (0, 19)
 
 
 def item_year(it):
@@ -290,7 +293,18 @@ def spread_by_topic(cands, bank, st, n):
     return chosen
 
 
-def pick(bank, st, n, subject, topic, mode):
+def read_cycle():
+    try:
+        return json.load(open(CYCLE, encoding='utf-8')).get('seen', [])
+    except Exception:
+        return []
+
+
+def write_cycle(seen):
+    json.dump({'seen': seen}, open(CYCLE, 'w', encoding='utf-8'), ensure_ascii=False)
+
+
+def pick(bank, st, n, subject, topic, mode, include_old=False):
     nowt = now()
     last_session = []
     if os.path.exists(SESSION):
@@ -334,11 +348,14 @@ def pick(bank, st, n, subject, topic, mode):
     new.sort(key=prio_new, reverse=True)
     # 年度の優先：上の段階の未出題が残っている間は、下の段階の新規は出さない（科目・論点の指定時は適用しない）
     if not subject and not topic:
-        for lo, hi in PRIORITY_TIERS:
+        tiers = PRIORITY_TIERS + ((OLD_TIER,) if include_old else ())
+        for lo, hi in tiers:
             tier_new = [i for i in new if lo <= item_year(pool[i]) <= hi]
             if tier_new:
                 new = tier_new
                 break
+        else:
+            new = []
     if mode == 'review':
         chosen = (must + check)[:n]
     elif mode == 'new':
@@ -348,15 +365,21 @@ def pick(bank, st, n, subject, topic, mode):
         cand = [i for i in pool if i not in last_session and (i not in st or review_class(st[i]) != 'done')]
         cand.sort(key=lambda i: -(weakness(ts[(pool[i]['subject'], pool[i]['topic'])]) if (pool[i]['subject'], pool[i]['topic']) in ts else 0.35) - random.random() * 0.3)
         chosen = cand[:n]
-    else:  # mixed: 要復習3・チェック1・新規1（5問のとき）。足りない区分は 要復習 → チェック → 新規 の順で埋める
-        n_rv = round(n * 0.6); n_ck = round(n * 0.2); n_nw = n - n_rv - n_ck
-        c_rv = must[:n_rv]
+    else:  # mixed: 要復習3・チェック2（5問のとき）。足りない区分は 要復習 → チェック → 新規 の順で埋める
+        n_rv = round(n * 0.6); n_ck = n - n_rv
+        # 要復習は「一周」方式：今の周でまだ出していない肢を W の多い順に出し、全部出したら周をリセットする
+        # （誤答の多い肢だけが続けて出るのを防ぐ）
+        seen = read_cycle()
+        c_rv = [i for i in must if i not in seen][:n_rv]
+        if len(c_rv) < n_rv:
+            seen = []                                  # 一周した → 新しい周を始める
+            c_rv += [i for i in must if i not in c_rv][:n_rv - len(c_rv)]
         c_ck = check[:n_ck]
-        c_nw = spread_by_topic(new, bank, st, n_nw)
-        chosen = c_rv + c_ck + c_nw
+        chosen = c_rv + c_ck
         if len(chosen) < n:
             rest = [i for i in must if i not in chosen] + [i for i in check if i not in chosen] + [i for i in new if i not in chosen]
             chosen += rest[:n - len(chosen)]
+        write_cycle(seen + [i for i in chosen if i in must and i not in seen])
     # 同じ論点が連続しないよう軽く散らす
     random.shuffle(chosen)
     return chosen
@@ -376,7 +399,7 @@ def cmd_next(a):
     ensure_log_branch()
     bank = load_bank(); st = item_state(read_log())
     subj = SUBJ_ALIAS.get(a.subject, a.subject)
-    ids = pick(bank, st, a.n, subj, a.topic, a.mode)
+    ids = pick(bank, st, a.n, subj, a.topic, a.mode, a.include_old)
     if not ids:
         print('出題できる問題がありません（要復習・チェック・新規なし）。--mode new か別の科目を試してください。')
         return
@@ -591,7 +614,7 @@ def cmd_answer(a):
 def cmd_save(a):
     ensure_log_branch()
     sh('git', 'add', 'log.jsonl', cwd=LOGDIR)
-    for fn, pth in (('tags.jsonl', TAGS), ('issues.jsonl', ISSUES)):
+    for fn, pth in (('tags.jsonl', TAGS), ('issues.jsonl', ISSUES), ('must_cycle.json', CYCLE)):
         if os.path.exists(pth):
             sh('git', 'add', fn, cwd=LOGDIR)
     r = sh('git', 'diff', '--cached', '--quiet', check=False, cwd=LOGDIR)
@@ -796,7 +819,7 @@ def main():
     sub = p.add_subparsers(dest='cmd', required=True)
     sub.add_parser('start')
     n = sub.add_parser('next'); n.add_argument('-n', type=int, default=10); n.add_argument('--subject'); n.add_argument('--topic')
-    n.add_argument('--mode', default='mixed', choices=['mixed', 'new', 'review', 'weak'])
+    n.add_argument('--include-old', action='store_true', help='H17〜H19の新規も出す'); n.add_argument('--mode', default='mixed', choices=['mixed', 'new', 'review', 'weak'])
     an = sub.add_parser('answer'); an.add_argument('id'); an.add_argument('ans')
     sub.add_parser('save')
     r = sub.add_parser('report'); r.add_argument('--json', action='store_true')
