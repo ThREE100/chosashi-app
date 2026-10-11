@@ -1,20 +1,20 @@
-# D1911 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D1911 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
-- 肢：D1911（民法／物権変動・対抗要件、出典 R06-Q02ア）。正解＝×（誤った記述）。誤解〇と答えて誤解が3回（2026-10-04・10-05・10-11）。10-06だけ×で正解。
+- 肢：D1911（民法／物権変動・対抗要件、出典 R06-Q02ア）。正解＝×（誤った記述）。誤解悪意（知っていただけ）と背信的悪意の線引き。
 - 記事：`note-articles/r6-mondai/q02-taikouyouken.md` R06-Q02ア「ＡＣ間の売買の時点でＡＢ間の売買についてＣが悪意であったときは、Ｂは登記なしでＣに対抗できる」は誤り。単純悪意者も177条の第三者に含まれる。除外される主な者（当事者本人・包括承継人・前主後主・不法占拠者・背信的悪意者）は、同じ記事と note-articles/topics/taikouyouken-daisansha-5ruikei.md の整理
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
 - 【出題者のひっかけ】問題文は『ＡＢ間の売買についてＣが悪意であったとき』としか書かず、背信的悪意者とは書いていない。『悪意＝事情を知って買った＝ずるい買い方』と読み替えさせ、『ずるい人は保護されないから、Ｂは登記なしで対抗できる』と思わせる。ひっかけの根拠は問題文の『悪意であったとき』。
-- 【受験者の勘違い・定着していない点】①『知っていて買った悪意者は保護に値しない』という道徳的な感覚で判断する。②悪意（事情を知っていただけ）と背信的悪意（自由競争の範囲を逸脱し、もっぱら相手を害する目的で買い受ける）を同じものと見て、線引きが見えていない。③第三者から除外される者（背信的悪意者など）が具体的に決まっていることを覚えていないため、『悪意』が除外の一つのように見える。（①〜③は、回答履歴から立てた推測。3回とも〇と答えて誤解で、10-06だけ×と答えて正解している。結論を理由なく暗記した回だけ当たり、直感に戻ると〇に戻る形。同じ問の兄弟肢のうち、同じ誤りの相手は『ずるい人は保護されない』という感覚で、兄弟肢D1912〈買受人〉・D1914〈相続人〉ではない）
+- 【受験者の勘違い・定着していない点】（推測）①『知っていて買った悪意者は保護に値しない』という道徳的な感覚で判断する。②悪意（事情を知っていただけ＝単純悪意）と背信的悪意（自由競争の範囲を逸脱し、もっぱら相手を害する目的で買い受ける）を同じものと見て、線引きが見えていない。③なぜ単純悪意でも第三者に含まれるのか（自由な取引の範囲内）の理由が定着していない。
 - 【対比する制度】「単純悪意」⇔「背信的悪意」：単純悪意（事情を知っていただけ）は自由な取引の範囲内にとどまるので第三者に含まれ、Ｂは登記がなければ対抗できない。背信的悪意（自由競争の範囲を逸脱し、もっぱら相手を害する目的で買い受ける）は第三者から除外され、Ｂは登記なしで対抗できる（結論が逆になる点）。
-- 【型の選び方】型：型3（第三案・理由説明）に型2のしくみ図（第三者から除外される主な者の一覧）を足した混成。理解の壁＝『知って買ったずるい人が、なぜ第三者として保護されるのか』が分からず、悪意と背信的悪意の線引きが見えない。3回〇と答えて誤解しているので、結論の暗記ではなく理由（知っていただけは自由な取引の範囲内）が読み取れる構成にした。コマ1＝事案と思い込み、コマ2＝除外される主な者の一覧と、この肢のＣの置き場所、コマ3＝理由の対比（単純悪意⇔背信的悪意）、コマ4＝結論。
-- 記事の範囲：R06-Q02ア（単純悪意者も177条の第三者に含まれ、Ｂは登記がなければ対抗できない。『知っていた』というだけでは自由な取引の範囲内にとどまり、信義則に反するとまではいえない）。除外される主な者は肢アの記事の本文と、topics記事の記述（記事は『5つに限られる』と書くが、不動産登記法第5条にも登記がないことを主張できない第三者の定めがあるため、図では『主なもの』と書き、『限られる』『だけ』とは書かない）。背信的悪意者の定義は肢アの記事の『自由競争の範囲を逸脱してもっぱら相手を害する目的で買い受けるような』を使う。
+- 【型の選び方】型：型4（対比）＋型3（理由説明）。理解の壁＝『知って買ったずるい人が、なぜ第三者として保護されるのか』が分からず、悪意と背信的悪意の線引きが見えない。試験を解く決め手は、Ｃが単純悪意か背信的悪意かの対比と、その理由（知っていただけは自由な取引の範囲内／害する目的は逸脱）なので、コマ2を『Ｃの悪意の中身で結論が分かれる』左右のカード、コマ3を『なぜ』の理由カードにした。除外される者の一覧（当事者・包括承継人など）は、肢の結論を決める要素ではないので入れない（2026-10-11の見直し。旧版は一覧がコマ2の主役でぼやけていた）。
+- 記事の範囲：R06-Q02ア（単純悪意者も177条の第三者に含まれ、Ｂは登記がなければ対抗できない。『知っていた』というだけでは自由な取引の範囲内にとどまり、信義則に反するとまではいえない）。背信的悪意者の定義は肢アの記事の『自由競争の範囲を逸脱してもっぱら相手を害する目的で買い受けるような』を使う。
 - 登場人物：Ａ（売主）・Ｂ（先に買った人）・Ｃ（あとで買った人）の3人。全員コマ1の図で紹介してから使う。ピクトグラムは全員同じ色。
-- 矢印の意味：矢印は使わない。コマ1は人型の一列とカード、コマ2は一覧のカードと帯、コマ3は上下2枚のカードとリボン。
+- 矢印の意味：矢印は使わない。コマ1は人型の一列とカード、コマ2は左右のカードと帯、コマ3は上下2枚のカードとリボン。
 - 配色：コマ1〜3は印（✓✕）を付けない（対抗できる・できないは文字で書く）。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。
-- コマの使い方：コマ1＝side（キャラは通常の大きさで左右の端。図は中央）、コマ2＝tori（トリ先生だけ。一覧が主役）、コマ3＝faces（左に上下2枚のカードとリボン、右に会話の縦並び。会話4つ＝顔4つ＝4行）、コマ4＝既定（暗記3点と結論）。
+- コマの使い方（キャラは不必要に小さくしない）：コマ1＝side（キャラは通常の大きさで左右の端。図は中央）、コマ2＝none（左右のカードと帯が主役）、コマ3＝faces（左に上下2枚のカードとリボン、右に会話の縦並び。会話4つ＝顔4つ＝4行）、コマ4＝既定（暗記3点と結論）。
 
 ## 記事タイトル
 
@@ -37,11 +37,10 @@
 | コマ1 図 | 図・カード | Ａ / Ｂ / Ｃ / 売主 / 先に買った人 / あとで買った人 / 先に / ＡがＢに売った / Ｂは登記をしていない / あとで / ＡがＣにも売った / Ｃは、ＡＢ間の売買を知っていた（悪意） / 悪意 / Ｂは、登記なしでＣに対抗できる？ | — |
 | コマ1 | 藍子（左・先に話す） | 知っていて買ったなら、登記なしで勝てますよね？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。悪意の中身を見なさい | 「悪意の中身」 |
-| コマ2 見出し | ラベル | ②　第三者から除外される者の主なもの | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 第三者から除外される者を、言えるか / 第三者から除外される者（主なもの） / 当事者本人 / 包括承継人（相続人など） / 前主・後主の関係にある者 / 不法占拠者 / 背信的悪意者 / 肢D1914はここ / この肢のＣ / 知っていただけ（単純悪意） / 上の5つには入らない / 入らなければ、原則どおり第三者に含まれる | — |
-| コマ2 | トリ先生（右・答える） | 悪意だけでは、除外されないのよ | 「除外されない」 |
-| コマ3 見出し | ラベル | ③　なぜ、悪意でも第三者なのか | — |
-| コマ3 図 | 図・カード | 単純悪意（知っていただけ） / 自由な取引の範囲内にとどまる / 信義則に反するとまではいえない / 第三者に含まれる / 背信的悪意（害する目的） / 自由競争の範囲を逸脱する / もっぱら相手を害する目的で買い受ける / 第三者から除外される / ひっかけ：悪意であったとき | — |
+| コマ2 見出し | ラベル | ②　Ｃの悪意の中身で、結論が分かれる | — |
+| コマ2 図 | 図・カード | 分かれ目 / Ｃが、知っていただけか、害する目的か / Ｃが単純悪意（知っていただけ） / Ｃは、第三者に含まれる / Ｂは、登記がなければ / Ｃに対抗できない / Ｃが背信的悪意（害する目的） / Ｃは、第三者から除外される / Ｂは、登記がなくても / Ｃに対抗できる / この肢のＣは、知っていただけ（単純悪意） | — |
+| コマ3 見出し | ラベル | ③　なぜ、結論が分かれるのか | — |
+| コマ3 図 | 図・カード | なぜ、単純悪意でも第三者なのか / 知っていただけでは、自由な取引の範囲内 / 信義則に反するとまではいえない / なぜ、背信的悪意者は除外されるのか / 自由競争の範囲を逸脱し / もっぱら相手を害する目的で買い受けるから / ひっかけ：悪意であったとき | — |
 | コマ3 | 藍子（左・1番目） | 知っていたのに、勝てないんですか？ | — |
 | コマ3 | トリ先生（右・2番目） | 知っていただけなら、自由な取引の範囲内よ | 「自由な取引の範囲内」 |
 | コマ3 | 藍子（左・3番目） | ではＣが除外されるのは、どんなときですか？ | — |
@@ -57,8 +56,7 @@
 ## 記事に無い条文（ユーザー指示で追加）
 
 - 民法第177条（法令DB note-articles/laws/minpou-1-soukyoku-bukken.md で原文を確認）：不動産に関する物権の得喪及び変更は、不動産登記法その他の登記に関する法律の定めるところに従いその登記をしなければ、第三者に対抗することができない。条文は『第三者』とだけ書き、善意などの限定は書いていない。図には条文番号を入れていない。
-- R06-Q02エ（肢D1914。note-articles/r6-mondai/q02-taikouyouken.md の同じ記事）：相続人は被相続人を包括承継するので、Ｂは登記なしで対抗できる。コマ2の一覧で『包括承継人（相続人など）』の行に『肢D1914はここ』のタグを付けるのに使った。新しい整理は足していない。
-- 除外される者の5類型と『入らなければ原則どおり第三者に含まれる』は、肢アの記事の本文と note-articles/topics/taikouyouken-daisansha-5ruikei.md の記述。ただし記事の『5つに限られる』は、不動産登記法第5条（詐欺又は強迫によって登記の申請を妨げた第三者、他人のために登記を申請する義務を負う第三者は、登記がないことを主張できない。法令DB note-articles/laws/fudousan-touki-hou.md で確認）と食い違う疑いがあるので、図では『主なもの』とし、法第5条は図に入れない。判例の事件番号も図に入れない。
+- 背信的悪意者の定義と『知っていただけでは自由な取引の範囲内』は、肢アの記事の本文による（新しい整理は足していない）。判例の事件番号は図に入れない。第三者から除外される者の一覧（当事者本人・包括承継人など）は、記事に『5つに限られる』とあるが不動産登記法第5条の定めと食い違う疑いがあるため、図には使わない。
 
 ## プロンプト本体
 
@@ -103,22 +101,21 @@ PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each abo
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。
 悪意の中身を見なさい」 with the part 「悪意の中身」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 2 (calm, explaining mood; ONLY トリ先生 appears in this panel (no 藍子), standing at the right and smaller than usual, so that the diagram or the items to memorize can be drawn large):
-- Label tab: 「②　第三者から除外される者の主なもの」
-- A concept diagram fills the center-left region, with no arrow, no check mark, and no cross. At the top left, a small dark navy tag 「出題者のねらい」 and, beside it, one line 「第三者から除外される者を、言えるか」.
-- Below, two cards side by side, top-aligned, both with the same pale gray fill, a dark navy outline, and a dark navy heading placed fully inside the card. Left card (wider), heading 「第三者から除外される者（主なもの）」, five body lines, each at least 24 px high: 「当事者本人」, 「包括承継人（相続人など）」, 「前主・後主の関係にある者」, 「不法占拠者」, 「背信的悪意者」, the part 「背信的悪意者」 with a yellow highlighter marker; a small dark navy tag 「肢D1914はここ」 sits at the right end of the line 「包括承継人（相続人など）」.
-- Right card (narrower), heading 「この肢のＣ」, two body lines: 「知っていただけ（単純悪意）」, 「上の5つには入らない」.
-- At the bottom, one wide dark navy band with large white text 「入らなければ、原則どおり第三者に含まれる」.
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　Ｃの悪意の中身で、結論が分かれる」
+- A small dark navy tag 「分かれ目」 at the top left, with one line beside it: 「Ｃが、知っていただけか、害する目的か」.
+- Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.
+- Left card, heading 「Ｃが単純悪意（知っていただけ）」, three body lines: 「Ｃは、第三者に含まれる」, 「Ｂは、登記がなければ」, 「Ｃに対抗できない」.
+- Right card, heading 「Ｃが背信的悪意（害する目的）」, three body lines: 「Ｃは、第三者から除外される」, 「Ｂは、登記がなくても」, 「Ｃに対抗できる」.
+- Under the two cards, one wide dark navy band with large white text 「この肢のＣは、知っていただけ（単純悪意）」.
 - The two cards have clearly different texts; the texts are NOT identical, so copy each character exactly as given.
-- トリ先生 bubble (right, spoken as the answer): 「悪意だけでは、
-除外されないのよ」 with the part 「除外されない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
-- Label tab: 「③　なぜ、悪意でも第三者なのか」
+- Label tab: 「③　なぜ、結論が分かれるのか」
 - LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - Two cards stacked from top to bottom, both the same size, each with a pale gray fill, a dark navy outline, and a dark navy heading placed fully inside the card, with no check mark and no cross. The two cards are separated only by a small empty gap, with nothing drawn between them.
-- Top card, heading 「単純悪意（知っていただけ）」, two body lines: 「自由な取引の範囲内にとどまる」, 「信義則に反するとまではいえない」, and a small dark navy tag 「第三者に含まれる」.
-- Bottom card, heading 「背信的悪意（害する目的）」, two body lines: 「自由競争の範囲を逸脱する」, 「もっぱら相手を害する目的で買い受ける」, and a small dark navy tag 「第三者から除外される」.
+- Top card, heading 「なぜ、単純悪意でも第三者なのか」, two body lines: 「知っていただけでは、自由な取引の範囲内」, 「信義則に反するとまではいえない」.
+- Bottom card, heading 「なぜ、背信的悪意者は除外されるのか」, two body lines: 「自由競争の範囲を逸脱し」, 「もっぱら相手を害する目的で買い受けるから」.
 - Under the two cards, a dark navy ribbon tag with large white text 「ひっかけ：悪意であったとき」, the same size as the card body text.
 - The two cards have clearly different texts; the texts are NOT identical.
 - 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「知っていたのに、
@@ -144,7 +141,7 @@ CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 占, 売, 対, 当, 承, 抗, 登, 肢, 解, 記, 買, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the word 「原則」 is spelled exactly like this everywhere (never 「思則」); confirm that the word 「第三者」 is spelled exactly like this everywhere (never 「時三者」); confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 売, 対, 抗, 登, 肢, 解, 記, 買, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the word 「第三者」 is spelled exactly like this everywhere (never 「時三者」); confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -211,10 +208,10 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [x] 4コマの目的（最優先。`MANGA_RULES.md`）適用済み：設計メモに【出題者のひっかけ】【受験者の勘違い・定着していない点】【対比する制度】の3行を書いた
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D1911_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1の図で、ＡがＢとＣに二重に売り、Ｂは未登記、Ｃは事情を知っていた（悪意）という事案と、問われているのが『Ｂは登記なしでＣに対抗できるか』であることが言える
-- [ ] 工程C：肝の確認：①第三者から除外される主な者は、当事者本人・包括承継人・前主後主・不法占拠者・背信的悪意者 ②知っていただけの単純悪意者はどれにも当てはまらず第三者に含まれる ③自由競争の範囲を逸脱しもっぱら相手を害する目的の背信的悪意者だけが除外される ④したがって本肢は×
-- [ ] 工程C：構成表の全文言を記事と突き合わせ：『単純悪意者』『自由競争の範囲』『もっぱら相手を害する目的』『背信的悪意者』『第三者』『信義則に反するとまではいえない』『原則どおり第三者に含まれる』（肢アの記事、topics記事）。法令DBで民法177条の原文を確認済み
-- [ ] 工程C：コマ1〜3に印がなく、コマ4だけ青✓。コマの使い方が隣り合うコマで同じにならない（side→tori→faces→既定）。判例の事件番号・丸数字⑤は図に入れていない
+- [ ] 工程C：初見の読者：コマ1の図で、ＡがＢとＣに二重に売り、Ｂは未登記、Ｃは事情を知っていた（悪意）という事案と、問われているのが『Ｂは登記なしでＣに対抗できるか』であることが言える。コマ2で『Ｃが単純悪意ならＢは登記がなければ対抗できず、背信的悪意ならＢは登記なしで対抗できる』、コマ3で『知っていただけは自由な取引の範囲内、害する目的は逸脱』が言える
+- [ ] 工程C：肝の確認：①知っていただけの単純悪意者は第三者に含まれる ②自由競争の範囲を逸脱しもっぱら相手を害する目的の背信的悪意者は第三者から除外される ③この肢のＣは単純悪意なので、Ｂは登記がなければ対抗できない ④したがって本肢は×
+- [ ] 工程C：構成表の全文言を記事と突き合わせ：『単純悪意』『背信的悪意』『自由な取引の範囲内』『自由競争の範囲を逸脱』『もっぱら相手を害する目的』『信義則に反するとまではいえない』（肢アの記事）。法令DBで民法177条の原文を確認済み
+- [ ] 工程C：コマ1〜3に印がなく、コマ4だけ青✓。コマの使い方が隣り合うコマで同じにならない（side→none→faces→既定）。判例の事件番号は図に入れていない
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -231,3 +228,4 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-11 v01：新規作成（一問一答で〇と答えて3回誤解した肢。型は型3＋型2の一覧。悪意と背信的悪意の対比を、除外される5つの一覧と理由の対比カードで示した）
+- 2026-10-11 v02：最新の作成ルールで見直し（ユーザー指示）。D1108の再設計と同じ考え方で、試験を解く決め手（Ｃが単純悪意か背信的悪意かの対比と理由）に絞り、除外される者の一覧と肢D1914のタグを外した。設計メモから回答履歴の記述を外した。キャラは必要以上に小さくしない
