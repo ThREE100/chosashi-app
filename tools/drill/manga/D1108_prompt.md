@@ -42,7 +42,7 @@
 | コマ2 見出し | ラベル | ②　確定したときと、取下げのとき | — |
 | コマ2 図 | 図・カード | 同じ裁判上の請求が終わる場面 / 権利が確定したかで、効果が分かれる / 権利が確定したとき / 147条2項 / 確定判決で権利が確定 / 終了した時から新たに進行 / 確定せずに終了したとき / 147条1項柱書のかっこ書 / 訴えの取下げなど / 終了の時から6か月は完成しない / 確定すれば、時効は新たに進行する / 確定しなければ、6か月の猶予だけ | — |
 | コマ3 見出し | ラベル | ③　なぜ、6か月は猶予される？ | — |
-| コマ3 図 | 図・カード | 取下げは、権利が確定していない / だから、新たに進行（更新）にはならない / 確定したときだけ、新たに進行する / でも、裁判上の請求はした / だから、すぐには完成させない / 終了の時から6か月は完成しない / 分かれ目：権利が確定したか / その6か月で、次の手を打つ / たとえば：和解のために取り下げても / 6か月以内に改めて請求などをすれば防げる | — |
+| コマ3 図 | 図・カード | 取下げは、権利が確定していない / だから、新たに進行（更新）にはならない / でも、裁判上の請求はした / だから、すぐには完成させない / 終了の時から6か月は完成しない / 分かれ目：権利が確定したか / その6か月で、次の手を打つ / たとえば：和解のために取り下げても / 6か月以内に改めて請求すれば防げる | — |
 | コマ3 | 藍子（左・1番目） | 取り下げたら、時効はどうなります？ | — |
 | コマ3 | トリ先生（右・2番目） | 確定しないから、新たに進行はしないの | 「新たに進行はしない」 |
 | コマ3 | 藍子（左・3番目） | それなら、すぐ完成するんですか？ | — |
@@ -51,7 +51,7 @@
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 確定なら更新、取下げなら6か月猶予ですね！ | — |
 | コマ4 | トリ先生（右・答える） | そう。この肢は〇よ。6か月以内が勝負よ | 「6か月以内が勝負」 |
-| コマ4 チェック欄 | 3項目（青✓） | 権利が確定したとき：終了した時から新たに進行（147条2項） / 確定せずに終了（取下げ）：終了の時から6か月は完成しない（147条1項柱書のかっこ書） / 6か月以内に改めて裁判上の請求などをすれば、完成を防げる | — |
+| コマ4 チェック欄 | 3項目（青✓） | 確定したとき：新たに進行（147条2項） / 取下げ：6か月は完成しない（147条1項柱書かっこ書） / 6か月以内に改めて請求すれば防げる | — |
 | 結論帯 | 1行目 | 確定すれば新たに進行、取下げなら6か月は完成しない | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D1108　正解〇（H28-Q01ウ） | — |
 
@@ -118,9 +118,9 @@ PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small ro
 - Label tab: 「③　なぜ、6か月は猶予される？」
 - LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - Three stacked cards of the same size, from top to bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card and two short body lines, with no arrow, no connector, no check mark, and no cross. The cards are separated only by a small empty gap.
-- Card 1, heading 「取下げは、権利が確定していない」, body 「だから、新たに進行（更新）にはならない」 and 「確定したときだけ、新たに進行する」.
+- Card 1, heading 「取下げは、権利が確定していない」, one body line 「だから、新たに進行（更新）にはならない」.
 - Card 2, heading 「でも、裁判上の請求はした」, body 「だから、すぐには完成させない」 and 「終了の時から6か月は完成しない」, and a dark navy ribbon tag with large white text 「分かれ目：権利が確定したか」.
-- Card 3, heading 「その6か月で、次の手を打つ」, body 「たとえば：和解のために取り下げても」 and 「6か月以内に改めて請求などをすれば防げる」.
+- Card 3, heading 「その6か月で、次の手を打つ」, body 「たとえば：和解のために取り下げても」 and 「6か月以内に改めて請求すれば防げる」.
 - There is no check mark and no cross anywhere in this panel.
 - 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「取り下げたら、
 時効はどうなります？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
@@ -138,7 +138,7 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both han
 6か月猶予ですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そう。この肢は〇よ。
 6か月以内が勝負よ」 with the part 「6か月以内が勝負」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「権利が確定したとき：終了した時から新たに進行（147条2項）」, 「確定せずに終了（取下げ）：終了の時から6か月は完成しない（147条1項柱書のかっこ書）」, 「6か月以内に改めて裁判上の請求などをすれば、完成を防げる」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「確定したとき：新たに進行（147条2項）」, 「取下げ：6か月は完成しない（147条1項柱書かっこ書）」, 「6か月以内に改めて請求すれば防げる」.
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「確定すれば新たに進行、取下げなら6か月は完成しない」 with a yellow highlighter marker.
@@ -234,3 +234,4 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 - 2026-10-11 v01：新規作成（型3＋型1の対比）
 - 2026-10-11 v02：ユーザー指示。出題当時の言い方（催告・中断）と今の言い方の違いの説明を外し、147条2項と147条1項柱書のかっこ書の対比と、6か月猶予の理由（権利が確定していないので更新にならないが、請求はしたので6か月は完成させない）に絞った。コマ1のキャラは通常サイズ（side）のまま、不必要に小さくしない
+- 2026-10-11 v02a（画像の品質チェック）：コマ4のチェック欄の文が長く、文字が28px未満に縮んだため3項目を短くした。コマ3の左のカードは1枚目の2行目（コマ2と重複）を削って文字を大きくした
