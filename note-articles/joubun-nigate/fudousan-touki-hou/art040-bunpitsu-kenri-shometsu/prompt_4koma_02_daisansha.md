@@ -1,4 +1,4 @@
-# D0646・D0743 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0646・D0743 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 > **このファイルについて**
 >
@@ -12,40 +12,46 @@
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 【型の選び方】型：型2（第二案：押さえどころ）の流れ。理由：誤解の型より『だれの承諾の情報を出すのか』という当てはめの表が壁になっているため、コマ2に承諾する人のカードを並べ、コマ3の最後に要役地の地役権を足した。
-- 【出題者のひっかけ】D0646は、抵当権者の承諾に加えて『当該抵当権を目的とする第三者の権利に関する登記があるとき』の第三者の承諾も要る、と書く。D0743は、地役権者が作成した情報のほかに、土地の抵当権者の承諾の情報も要る、と書く。どちらも、権利者本人の承諾だけで足りるように見せる（記事 H23-Q08ア、H24-Q07ウ）。
-- 【受験者の勘違い・定着していない点】承諾の情報は、消す権利の登記名義人（抵当権者・地役権者）の分だけで足りると思う。実際は、その権利を目的とする第三者の権利に関する登記があるとき、その第三者の承諾の情報も併せて提供する（法40条かっこ書、規則104条1項2号）。要役地の地役権を消すときも、土地を目的とする第三者（抵当権者）の承諾が要る（規則104条6項）。
-- 【対比する制度】「消す権利の登記名義人の承諾の情報だけで足りる」⇔「権利者本人に加えて、第三者の承諾の情報も併せて出す」：前者では足りない／後者が必要。結論が逆になる点。
-- 登場人物：当事者の記号は使わない。人物は文字タグ（『抵当権者』『転抵当権者』）だけで示す。
-- 矢印の意味：矢印は使わない。コマ2は縦に積んだ別カード。
-- 会話順：藍子の誤解（抵当権者の承諾だけで足りる）→トリ先生の訂正（第三者の承諾も要る）→地役権のときは？→土地の抵当権者の承諾。
-- 配色：コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ1・2は印なし。コマ4の暗記3点は青✓。
-- 記事の範囲：法40条かっこ書（権利を目的とする第三者の承諾）／規則104条1項2号（記事 H23-Q08ア）／規則104条6項（要役地の地役権。記事 H24-Q07ウ）。承諾するのは土地の所有者ではなく権利の登記名義人である点は、法令DBの法40条の原文による。
+- 【型の選び方】型：型4（2肢の対比）＋型3（理由説明）。理由：壁は『本人の承諾だけでは足りないのはなぜか』と、抵当権の場面と要役地の地役権の場面で承諾する第三者が誰かが結びつかないこと。コマ2で『本人の承諾だけ』と『第三者の承諾も併せて』を左右に並べ、コマ3で『消える権利で影響を受ける人がいるから』という理由と、2つの場面の当てはめ（転抵当権者／土地の抵当権者）を示す。
+- 【出題者のひっかけ】どちらの肢も、『〜のほか、〜も提供しなければならない』と、本人の承諾の情報にもう一人分の承諾の情報を足す書き方をしている。権利を消すのは権利者本人の承諾で足りると考える受験者に、足りない分があることを見落とさせる（記事 H23-Q08ア、H24-Q07ウ）。
+- 【受験者の勘違い・定着していない点】（推測）①権利を消す承諾の情報は、消える権利の登記名義人（抵当権者・地役権者）の分だけで足りると考える。②第三者の承諾が要ることは覚えていても、なぜ要るのか（消える権利で影響を受ける人がいるから）と、誰の承諾なのか（抵当権なら転抵当権者、要役地の地役権なら土地の抵当権者）が結びついていない。
+- 【対比する制度】「本人の承諾だけ」⇔「第三者の承諾も併せて」：どちらも分筆で権利を消す承諾の情報の話。本人の承諾の情報だけでは足りず、その権利を目的とする第三者（抵当権では転抵当権者、要役地の地役権では土地の抵当権者）の承諾の情報も併せて提供する（法40条かっこ書、規則104条1項2号・6項）。結論が逆になるのは、本人だけで足りるか、第三者の分も要るか。
+- 記事の範囲：H23-Q08ア（法40条かっこ書、規則104条1項2号。抵当権の登記がある土地を分筆し乙土地の抵当権を消すとき、その抵当権を目的とする第三者の権利に関する登記があれば、抵当権者の承諾の情報のほか、その第三者の承諾の情報も提供する。第三者の権利も抵当権の消滅によって影響を受けるから。たとえば転抵当）とH24-Q07ウ（規則104条6項。要役地の地役権を消すとき、分筆前の土地に抵当権の登記があれば、地役権者が作成した情報のほか、抵当権者の承諾の情報も提供する。地役権は要役地の担保価値にも影響し、抵当権者の利益を保護する必要があるから）。
+- extra_refs：①不動産登記法40条かっこ書・不動産登記規則104条1項2号・6項の原文は法令DB（note-articles/laws/fudousan-touki-hou.md・fudousan-touki-kisoku-1.md）で確認した。②コマ3の『消える権利で影響を受ける人がいる』という共通の言い方は、記事アの『第三者の権利も抵当権の消滅によって影響を受ける』とウの『地役権は要役地の担保価値にも影響するため、抵当権者の利益を保護する必要がある』を1つにまとめた整理で、記事にまとめた一文はない（ユーザーに伝える）。立法趣旨の断定はしていない。
+- 登場人物：当事者の記号（Ａ〜Ｚ）は使わない。人は文字ラベル（転抵当権者・土地の抵当権者）だけで示す。
+- 矢印の意味：矢印は使わない。コマ1は縦2枚の別カード、コマ2は左右のカード、コマ3は縦3枚の別カード。
+- 配色：コマ1〜3は印（✓✕）を付けない（コマ2の左右も、説明の対比であり正誤の印は付けない）。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。
+- コマの使い方（キャラの大きさ）：不必要に小さくしない。コマ1＝side（キャラは通常サイズで左右の端、図は中央のカード2枚と疑問バッジ。図の量が少ないので小さくする必要がない）、コマ2＝none（図が主役。左右のカードと帯）、コマ3＝faces（左に理由のカード3枚、右に会話4つの縦並び。カードと会話の量が多いので顔アイコンにして場所を確保）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。
 
 ## 構成表（文言の正本）
 
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
 | タイトル帯 | — | 権利を消すには、第三者の承諾の情報も併せて出す | 「第三者の承諾の情報」を黄色マーカー |
-| コマ1 見出し | ラベル | ①　問いの事案 | — |
-| コマ1 図 | 図・カード | 分筆する土地 / 抵当権（抵当権者） / その抵当権を目的とする転抵当権（転抵当権者） / 分筆後の乙土地の抵当権を消す / 承諾の情報は、だれの分が要る？ | — |
-| コマ1 | 藍子（左・先に話す） | 抵当権者の承諾だけで足りますよね？ | — |
-| コマ1 | トリ先生（右・答える） | 出たわね。本人の承諾に引かれたわね | 「本人の承諾」 |
-| コマ2 見出し | ラベル | ②　出題者のねらい | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 承諾の情報を出す人は、だれか / 権利の登記名義人 / 消す権利の登記名義人が作成した情報（抵当権者など） / その権利を目的とする第三者 / 転抵当権などの登記があるときは、その人の承諾の情報も併せて / 抵当証券が発行されているとき / 所持人または裏書人も承諾する人に含まれ、抵当証券も提供する / 承諾するのは、土地の所有者ではない | — |
-| コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
-| コマ3 図 | 図・カード | よくある勘違い / 消す権利の登記名義人の承諾の情報だけで足りる / ひっかけ：権利者本人の承諾に目が行く / 正しい整理 / 権利者本人に加えて、第三者の承諾の情報も併せて出す / たとえば：要役地の地役権を消すときは、地役権者が作成した情報のほか、その土地の抵当権者の承諾の情報も要る | — |
-| コマ3 | 藍子（左・1番目） | 承諾は、抵当権者の分だけですよね？ | — |
-| コマ3 | トリ先生（右・2番目） | 転抵当権者の承諾も、併せて要るのよ | 「併せて要る」 |
-| コマ3 | 藍子（左・3番目） | 地役権を消すときも、同じですか？ | — |
-| コマ3 | トリ先生（右・4番目） | 土地の抵当権者の承諾も、要るわ | 「抵当権者の承諾」 |
-| コマ4 見出し | ラベル | ④　結論は第三者も併せて | — |
+| コマ1 見出し | ラベル | ①　権利を消すとき、だれの承諾？ | — |
+| コマ1 図 | 図・カード | 分筆して、乙土地の権利を消す / 抵当権を消す / その抵当権に転抵当権がある / 要役地の地役権を消す / 分筆前の土地に抵当権がある / 承諾の情報は、だれの分が要る？ | — |
+| コマ1 | 藍子（左・先に話す） | 権利者が承諾すれば、足りますよね？ | — |
+| コマ1 | トリ先生（右・答える） | 出たわね。本人だけに目が行ったわね | 「本人だけ」 |
+| コマ2 見出し | ラベル | ②　本人だけか、第三者も併せてか | — |
+| コマ2 図 | 図・カード | どちらの場面でも / 承諾の情報は、本人の分で足りるか / 本人の承諾だけ / 抵当権者や地役権者の分だけ / これでは足りない / 第三者の承諾も併せて / 抵当権なら、転抵当権者の分 / 地役権なら、土地の抵当権者の分 / 本人の分に加えて、第三者の分も揃える / 分筆の申請情報と併せて提供する | — |
+| コマ3 見出し | ラベル | ③　なぜ、第三者の承諾が要る？ | — |
+| コマ3 図 | 図・カード | 権利が消えると、影響を受ける人がいる / その人の承諾の情報も、併せて要る / ひっかけ：本人の承諾にだけ目が行く / 抵当権を消すとき / 抵当権が消えると / 転抵当権者の権利に影響する / 要役地の地役権を消すとき / 要役地の担保価値に影響する / 抵当権者の利益を守るため | — |
+| コマ3 | 藍子（左・1番目） | なぜ、本人以外の承諾が要るんですか？ | — |
+| コマ3 | トリ先生（右・2番目） | 消える権利に、影響を受ける人がいるの | 「影響を受ける人」 |
+| コマ3 | 藍子（左・3番目） | 地役権の場合は、だれが影響を受けます？ | — |
+| コマ3 | トリ先生（右・4番目） | 要役地に抵当権があれば、その人よ | 「要役地に抵当権」 |
+| コマ4 見出し | ラベル | ④　結論は第三者の分も併せて | — |
 | コマ4 図 | 図・カード |  | — |
-| コマ4 | 藍子（左・先に話す） | 第三者の分も、揃えるんですね！ | — |
+| コマ4 | 藍子（左・先に話す） | 影響を受ける人の分も、揃えるんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そのとおり。分筆の申請と併せて出すのよ | 「併せて出す」 |
-| コマ4 チェック欄 | 3項目（青✓） | 権利の登記名義人が、権利を消すことを承諾した情報を、分筆の申請情報と併せて提供する（法40条） / その権利を目的とする第三者の権利の登記があるときは、その第三者の承諾した情報も併せて提供する（法40条かっこ書） / 要役地の地役権を消すときは、地役権者が作成した情報のほか、土地の抵当権者の承諾も要る（規則104条6項） | — |
-| 結論帯 | 1行目 | 権利者本人に加えて、第三者の承諾も併せて出す | 黄色マーカー |
-| 結論帯 | 2行目 | 問題D0646・D0743　どちらも〇 | — |
+| コマ4 チェック欄 | 3項目（青✓） | 抵当権を消すとき：転抵当権者の承諾も要る（法40条かっこ書） / 要役地の地役権を消すとき：土地の抵当権者の承諾も要る（規則104条6項） / 理由：消える権利で影響を受ける人の承諾も必要 | — |
+| 結論帯 | 1行目 | 本人に加え、第三者の承諾も併せて出す | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D0646・D0743　正解どちらも〇 | — |
+
+## 記事に無い条文（ユーザー指示で追加）
+
+- 不動産登記法40条かっこ書（法令DB note-articles/laws/fudousan-touki-hou.md 第40条）：権利を目的とする第三者の権利に関する登記がある場合にあっては、当該第三者が承諾したことを証する情報が併せて提供されたときに限る。不動産登記規則104条1項2号・6項（同 fudousan-touki-kisoku-1.md 第104条）：1項2号＝前号の権利を目的とする第三者の権利に関する登記があるときは、当該第三者が承諾したことを証する情報。6項＝要役地の地役権を消滅させるとき、当該土地を目的とする第三者の権利に関する登記がある場合は、当該第三者が承諾したことを証する情報が併せて提供されたときに限る。1項2号は記事のア、6項は記事のウにある。
+- 『消える権利で影響を受ける人がいる』：記事アの『第三者の権利も抵当権の消滅によって影響を受ける』と、ウの『地役権は要役地の担保価値にも影響するため、抵当権者の利益を保護する必要がある』を1つにまとめた整理。記事にまとめた一文はない。立法趣旨としては断定しない
 
 ## プロンプト本体
 
@@ -80,58 +86,60 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 TITLE BANNER: text 「権利を消すには、第三者の承諾の情報も併せて出す」 in large bold letters; the part 「第三者の承諾の情報」 has a yellow highlighter marker.
 
 PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each about 190 px tall, roughly half of the panel height, with the same full-body look as in the other panels): 藍子 at the left edge and トリ先生 at the right edge, both standing in the lower part of the panel; do NOT make them smaller than this just to leave empty space, and reduce them by at most about 15% only if the speech bubbles or the diagram would otherwise not fit (see the LAYOUT lines below); 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
-- Label tab: 「①　問いの事案」
+- Label tab: 「①　権利を消すとき、だれの承諾？」
 - LAYOUT (side characters): 藍子 stands at the left edge and トリ先生 at the right edge at the normal size, each taking only the outer 22% of the panel width, with their speech bubbles in the upper part above their own heads and never covering the diagram. The diagram described in the lines below is drawn large in the CENTER region only, between the two characters (about 56% of the panel width and the full panel height below the label tab); wherever a line below says the diagram fills the panel, it means this center region. The characters never overlap the diagram.
-- A diagram is drawn large in the center region: one simple land plot icon with a dark navy tag 「分筆する土地」.
-- On the plot, two stacked white cards: the upper card 「抵当権（抵当権者）」 and the lower card 「その抵当権を目的とする転抵当権（転抵当権者）」.
-- A white note card beside the plot reads 「分筆後の乙土地の抵当権を消す」. A small question badge 「承諾の情報は、だれの分が要る？」 sits above the plot (a question badge only, with no check mark and no cross).
-- 藍子 bubble (left, spoken first): 「抵当権者の承諾だけで
+- A diagram in the center, about 56 percent of the panel width: a small dark navy tag 「分筆して、乙土地の権利を消す」 at the top, and below it two SEPARATE cards stacked from top to bottom, both exactly the same size, each with the same pale gray fill, a dark navy outline, a dark navy heading placed fully INSIDE the card, and one dark navy body line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.
+- Card 1, heading 「抵当権を消す」, body 「その抵当権に転抵当権がある」. Card 2, heading 「要役地の地役権を消す」, body 「分筆前の土地に抵当権がある」.
+- At the bottom, a small question badge in a gray fill with dark navy text 「承諾の情報は、だれの分が要る？」 (a question badge only, with no check mark and no cross).
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, spoken first): 「権利者が承諾すれば、
 足りますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。
-本人の承諾に
-引かれたわね」 with the part 「本人の承諾」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+本人だけに
+目が行ったわね」 with the part 「本人だけ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
-- Label tab: 「②　出題者のねらい」
-- A full-width explanation panel fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「承諾の情報を出す人は、だれか」.
-- Three wide white cards stacked top to bottom with dark navy outlines and no arrows between them. Card 1, heading 「権利の登記名義人」, body 「消す権利の登記名義人が作成した情報（抵当権者など）」. Card 2, heading 「その権利を目的とする第三者」, body 「転抵当権などの登記があるときは、その人の承諾の情報も併せて」. Card 3, heading 「抵当証券が発行されているとき」, body 「所持人または裏書人も承諾する人に含まれ、抵当証券も提供する」.
-- At the bottom, one wide dark navy band with white text: 「承諾するのは、土地の所有者ではない」.
-- There is no check mark and no cross anywhere in this panel.
-
-PANEL 3 (surprised then convinced mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
-- Label tab: 「③　ひっかけと勘違い」
-- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
-- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
-- Two large cards side by side, with a wide example strip under them.
-- Left card, heading 「よくある勘違い」, body 「消す権利の登記名義人の承諾の情報だけで足りる」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：権利者本人の承諾に目が行く」.
-- Right card, heading 「正しい整理」, body 「権利者本人に加えて、第三者の承諾の情報も併せて出す」, with ONE blue check mark only (no cross on this card).
-- Example strip under the two cards: 「たとえば：要役地の地役権を消すときは、地役権者が作成した情報のほか、その土地の抵当権者の承諾の情報も要る」.
+- Label tab: 「②　本人だけか、第三者も併せてか」
+- A small dark navy tag 「どちらの場面でも」 at the top left, with one line beside it: 「承諾の情報は、本人の分で足りるか」.
+- Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.
+- Left card, heading 「本人の承諾だけ」, two body lines: 「抵当権者や地役権者の分だけ」, 「これでは足りない」.
+- Right card, heading 「第三者の承諾も併せて」, two body lines: 「抵当権なら、転抵当権者の分」, 「地役権なら、土地の抵当権者の分」.
+- Under the two cards, one wide dark navy band with white text in two lines: 「本人の分に加えて、第三者の分も揃える」 and 「分筆の申請情報と併せて提供する」.
 - The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「承諾は、抵当権者の
-分だけですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「転抵当権者の承諾も、
-併せて要るのよ」 with the part 「併せて要る」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「地役権を消すときも、
-同じですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「土地の抵当権者の
-承諾も、要るわ」 with the part 「抵当権者の承諾」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
-- Label tab: 「④　結論は第三者も併せて」
-- 藍子 bubble (left, spoken first): 「第三者の分も、
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
+- Label tab: 「③　なぜ、第三者の承諾が要る？」
+- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
+- Three stacked cards of the same size, from top to bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card and two short body lines, with no arrow, no connector, no check mark, and no cross. The cards are separated only by a small empty gap.
+- Card 1, heading 「権利が消えると、影響を受ける人がいる」, body 「その人の承諾の情報も、併せて要る」, and a dark navy ribbon tag with large white text 「ひっかけ：本人の承諾にだけ目が行く」.
+- Card 2, heading 「抵当権を消すとき」, body 「抵当権が消えると」 and 「転抵当権者の権利に影響する」.
+- Card 3, heading 「要役地の地役権を消すとき」, body 「要役地の担保価値に影響する」 and 「抵当権者の利益を守るため」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「なぜ、本人以外の
+承諾が要るんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「消える権利に、
+影響を受ける人がいるの」 with the part 「影響を受ける人」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「地役権の場合は、
+だれが影響を受けます？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「要役地に抵当権が
+あれば、その人よ」 with the part 「要役地に抵当権」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　結論は第三者の分も併せて」
+- 藍子 bubble (left, spoken first): 「影響を受ける人の分も、
 揃えるんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。
 分筆の申請と
 併せて出すのよ」 with the part 「併せて出す」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「権利の登記名義人が、権利を消すことを承諾した情報を、分筆の申請情報と併せて提供する（法40条）」, 「その権利を目的とする第三者の権利の登記があるときは、その第三者の承諾した情報も併せて提供する（法40条かっこ書）」, 「要役地の地役権を消すときは、地役権者が作成した情報のほか、土地の抵当権者の承諾も要る（規則104条6項）」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「抵当権を消すとき：転抵当権者の承諾も要る（法40条かっこ書）」, 「要役地の地役権を消すとき：土地の抵当権者の承諾も要る（規則104条6項）」, 「理由：消える権利で影響を受ける人の承諾も必要」.
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
-- Line 1: 「権利者本人に加えて、第三者の承諾も併せて出す」 with a yellow highlighter marker.
-- Line 2: 「問題D0646・D0743　どちらも〇」
+- Line 1: 「本人に加え、第三者の承諾も併せて出す」 with a yellow highlighter marker.
+- Line 2: 「問題D0646・D0743　正解どちらも〇」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 地, 当, 所, 承, 抵, 権, 登, 規, 記, 証, 請, 諾, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the word 「第三者」 is spelled exactly like this everywhere (never 「時三者」); confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 地, 当, 承, 抵, 権, 規, 解, 請, 諾 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the word 「第三者」 is spelled exactly like this everywhere (never 「時三者」); confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 保存名
@@ -143,10 +151,10 @@ Final check before rendering: confirm there are exactly four panels in one verti
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [x] 4コマの目的（最優先。`MANGA_RULES.md`）適用済み：設計メモに【出題者のひっかけ】【受験者の勘違い・定着していない点】【対比する制度】の3行を書いた
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0646-D0743_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1の事案（抵当権と転抵当権）と、コマ2の3枚のカード、コマ3の左右のカードの人の呼び名が一致している
-- [ ] 工程C：肝の確認：コマ2に『権利の登記名義人』『その権利を目的とする第三者』『抵当証券が発行されているとき』の3枚、コマ3に『本人だけ』⇔『第三者も併せて』の対比、コマ4の暗記3点に規則104条6項が入っている
-- [ ] 工程C：出典の確認：法40条・規則104条1項・6項は法令DBで確認済み。記事 H23-Q08ア、H24-Q07ウの本文と図の文言が一致している
-- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。結論は両肢とも〇
+- [ ] 工程C：初見の読者：コマ1で『分筆して乙土地の権利を消す。抵当権に転抵当権があるとき／要役地の地役権を消すとき、承諾の情報はだれの分が要る？』、コマ2で『本人の承諾だけでは足りず、第三者の承諾も併せて要る（抵当権なら転抵当権者、地役権なら土地の抵当権者）』、コマ3で『消える権利で影響を受ける人がいるから、その人の承諾も要る』が言える
+- [ ] 工程C：肝の確認：①抵当権を消すとき：転抵当権者の承諾も要る（法40条かっこ書） ②要役地の地役権を消すとき：土地の抵当権者の承諾も要る（規則104条6項） ③理由：消える権利で影響を受ける人がいるから ④肢D0646・D0743はどちらも〇
+- [ ] 工程C：構成表の全文言を記事・法令DBと突き合わせ：『転抵当権者』『土地の抵当権者』『要役地の担保価値に影響』『抵当権者の利益を守る』『分筆の申請情報と併せて』。抵当証券・土地の所有者は承諾しないという周辺情報は入れていない
+- [ ] 工程C：コマ1〜3に印がなく、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラは、図や会話が入らないコマだけ小さくしている（小さくしたコマはない）
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -162,4 +170,5 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
-- 2026-10-09 v01：初版（条文別『苦手克服』シリーズ（note-articles/joubun-nigate/）の第40条用。承諾する人の範囲を問う2肢を1本にまとめた。ChatGPTでの生成・検品はまだ）
+- 2026-10-09 v01：初版（条文別『苦手克服』シリーズ（note-articles/joubun-nigate/）の第40条用。承諾する人の範囲を問う2肢を1本にまとめた）
+- 2026-10-11 v02：最新ルールでの作り直し。決め手の対比（本人の承諾だけ⇔第三者の承諾も併せて）と理由（消える権利で影響を受ける人がいる）に絞り、抵当証券・土地の所有者は承諾しないという周辺情報を外した。コマ2を左右の対比カード、コマ3を理由の3枚カードにして、コマ1はキャラを通常サイズ（side）のまま

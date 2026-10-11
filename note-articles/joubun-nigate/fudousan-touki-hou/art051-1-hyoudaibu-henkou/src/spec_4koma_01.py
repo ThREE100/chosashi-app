@@ -1,0 +1,83 @@
+"""D0333・D0688・D1491 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v02（2026-10-11）。
+条文別『苦手克服』シリーズ 不動産登記法 第51条第1項 用。
+v02：コマ2を『判定の基準』だけでなく、コマ1の甲建物・乙建物にそのまま当てはめた2枚のカード（結論が逆）にし、
+乙建物が『要らない』理由（外壁材は登記事項でない／構造は構成材料・屋根の種類・階数）を図に入れた。"""
+
+def B(who, text, hl=None, brk=None):
+    return (who, text, hl, brk) if brk else (who, text, hl)
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0333・D0688・D1491", fid="D0333-D0688-D1491",
+    topic="不動産登記法／建物の分割・合併・合体・滅失・変更",
+    src="H20-Q05ア／H23-Q16ウ／R01-Q16エ",
+    truth="D0333＝×（誤った記述）／D0688・D1491＝〇",
+    miscon="：変更の登記の要否を工事の大きさで決めてしまう（法51条1項は登記事項の変更で決まる）",
+    article="note-articles/h20-mondai/q05-tatemono-taiwa.md",
+    art_head="ア「外壁・屋根の改修だけでは、変更登記は必要ない」。ほか、H23-Q16ウ（q16-hyouji-touki-gimu.md）、R01-Q16エ（q16-hyouji-touki-shinsei.md）",
+    letters="",
+    design=[
+        "【型の選び方】型：型1（第一案・定型）の流れで、コマ2に判定の基準と、コマ1の2つの建物への当てはめを置く。理由：誤解の型（大きな工事＝変更登記が要る／工事をしていない＝要らない）がはっきりしていて、思い込み→押さえどころ→違い→結論で足りるため。壁は『何で見分けるか』と『なぜ張り替えは要らず、分筆は要るのか』なので、コマ2を基準＋当てはめにした。",
+        "【出題者のひっかけ】D0333は『大規模な改修工事を行ったので』という工事の大きさ、D0688・D1491は『分筆』という土地側の出来事に目を向けさせ、建物の登記事項が変わったかどうかから目を逸らさせる（記事 H20-Q05ア、H23-Q16ウ、R01-Q16エ）。",
+        "【受験者の勘違い・定着していない点】受験者が陥りやすい勘違いは、変更の登記が要るかを『建物に工事をしたか』『工事が大きいか』で決めてしまうこと。実際は、法44条1項各号の登記事項（所在・種類・構造・床面積など）に変更があったかで決まる。外壁・屋根の材料の張り替えだけでは登記事項は変わらず（屋根の種類が変わらないとき）、逆に工事をしていなくても、敷地の分筆で地番が変われば所在が変わる。",
+        "【対比する制度】「大きな工事をしたから、変更の登記が要る」⇔「登記事項が変わったときに要る」：工事をしても登記事項が変わらなければ変更の登記は要らない（D0333）／工事をしていなくても、分筆で地番が変われば所在が変わり、1か月以内に要る（D0688・D1491）。結論が逆になる点。",
+        "登場人物：当事者の記号は使わない。建物は『甲建物』『乙建物』の文字タグで示す。",
+        "矢印の意味：矢印は使わない（取引も手続も流れもない）。コマ2は基準のカードと当てはめの左右2枚、コマ3は左右の別カード。",
+        "会話順：藍子の誤解（工事をした乙建物のほうが変更）→トリ先生の訂正（工事の大きさは関係ない）→工事なしでも要る場合→結論。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ4の暗記3点は青✓。",
+        "コマの使い方（キャラの大きさ）：コマ1＝side（通常サイズ。図は中央に建物2つで量が少ないので小さくする必要がない）、コマ2＝none（図が主役。基準のカードと当てはめの2枚）、コマ3＝faces（左にカードと例の帯、右に会話4つ。量が多いので顔アイコンにして場所を確保）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+        "記事の範囲：法51条1項／法44条1項各号の登記事項／規則114条（構造は構成材料・屋根の種類・階数。条文は法令DB fudousan-touki-kisoku-1.md の第114条で確認）／外壁材は登記事項ではない（記事 H20-Q05ア）／分筆で建物の所在する土地の地番が変わると所在の変更の登記（記事 H23-Q16ウ、R01-Q16エ）。『屋根の種類が変わるときは構造の変更』は記事 H20-Q05ア の本文。たとえばの一文（リフォームしても登記の中身が同じなら登記をやり直す必要はない）は記事 H20-Q05ア の例による。",
+    ],
+    review=[
+        "初見の読者：コマ1で『甲建物（工事なし・分筆）と乙建物（張り替え・屋根の種類は同じ）のどちらに変更の登記が要るか』、コマ2で『登記事項に変更があったかで決まる。甲は所在が変わるので要る、乙は外壁材は登記事項でなく屋根の種類が同じなら構造も同じなので要らない』、コマ3で『大工事だから要る、は罠』が言える",
+        "肝の確認：コマ2に『登記事項に変更があったか』の基準と甲・乙への当てはめ、コマ3に『工事の大きさ』⇔『登記事項の変更』の対比、コマ4の暗記3点に『張り替えだけなら不要』『工事なしでも分筆なら要る』が入っている",
+        "構成表の全文言を記事（H20-Q05ア、H23-Q16ウ、R01-Q16エ）・法令DB（法51条1項、法44条1項、規則114条）と突き合わせ：『屋根の種類は同じ』の限定が入っている",
+        "コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。結論は D0333＝×、D0688・D1491＝〇 の別を結論帯で示す",
+    ],
+    lead1="建物の工事をしていないのに、敷地の分筆で建物のある土地の地番が変わりました。別の建物では外壁と屋根の材料を張り替えましたが、屋根の種類は同じです。1か月以内の変更の登記が要るのは、どちらでしょうか。",
+    title="変更の登記は、工事の大きさでなく登記事項で決まる",
+    title_hl="登記事項で決まる",
+    panels=[
+        dict(label="①　問いの事案", chars="side", mood="curious, calm mood",
+             bubbles=[B("藍子", "工事をした乙建物のほうが、変更ですよね？", None, "工事をした乙建物の\nほうが、変更ですよね？"),
+                      B("トリ先生", "出たわね。工事の大きさに引かれたわね", "工事の大きさ", "出たわね。\n工事の大きさに\n引かれたわね")],
+             fig=["A comparison diagram is drawn large in the center region: two simple building icons side by side, each with a dark navy tag above it.",
+                  "The left building has the tag 「甲建物」 and a white note card under it with two short lines: 「建物は工事していない」 and 「敷地の分筆で土地の地番が変わった」.",
+                  "The right building has the tag 「乙建物」 and a white note card under it with two short lines: 「外壁と屋根の材料を張り替えた」 and 「屋根の種類は同じ」.",
+                  "A small question badge 「変更の登記が要るのは、どちら？」 sits above the two buildings (a question badge only, with no check mark and no cross)."]),
+        dict(label="②　出題者のねらい", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A full-width explanation panel fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「変更の登記が要るかを、何で見分けるか」.",
+                  "In the top center, one wide white card with a dark navy outline and the heading 「登記事項に変更があったか（法51条1項）」, and under the heading two small gray lines: 「所在・種類・構造・床面積など（法44条1項各号）」 and 「構造は構成材料・屋根の種類・階数（規則114条）」.",
+                  "Under that card, two white cards side by side, both exactly the same size and top-aligned, each with a dark navy outline, its dark navy heading placed fully INSIDE the card, and two short body lines (no arrows and no connectors, no check mark and no cross).",
+                  "Left card, heading 「甲建物：1か月以内に申請」, body 「分筆で土地の地番が変わった」 and 「だから建物の所在が変わる」.",
+                  "Right card, heading 「乙建物：変更の登記は要らない」, body 「外壁材は登記事項ではない」 and 「屋根の種類が同じなら構造も同じ」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　ひっかけと勘違い", chars="faces", opposite="lx", mood="surprised then convinced mood",
+             bubbles=[B("藍子", "大規模な改修だから、要りますよね？", None, "大規模な改修だから、\n要りますよね？"),
+                      B("トリ先生", "それが罠よ。工事の大きさは関係ないの", "関係ない", "それが罠よ。\n工事の大きさは\n関係ないの"),
+                      B("藍子", "工事なしでも要る場合があるんですか？", None, "工事なしでも要る\n場合があるんですか？"),
+                      B("トリ先生", "分筆で地番が変われば、所在が変わるわ", "所在が変わる", "分筆で地番が変われば、\n所在が変わるわ")],
+             fig=["Two large cards side by side, with a wide example strip under them.",
+                  "Left card, heading 「よくある勘違い」, body 「大きな工事をしたから、変更の登記が要る」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：外壁と屋根を全面的に張り替える大工事」.",
+                  "Right card, heading 「正しい整理」, body 「登記事項が変わったときに要る」, with ONE blue check mark only (no cross on this card).",
+                  "Example strip under the two cards: 「たとえば：外壁と屋根をリフォームしても、登記の中身が同じなら、登記をやり直す必要はない」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は登記事項", mood="relieved and convinced mood",
+             bubbles=[B("藍子", "工事の大きさでは決まらないんですね！", None, "工事の大きさでは\n決まらないんですね！"),
+                      B("トリ先生", "登記事項が変わったかを見るのよ", "登記事項が変わったか", "登記事項が\n変わったかを\n見るのよ")],
+             fig=[],
+             checklist=["変更の登記が要るかは、工事の大きさでなく、登記事項に変更があったかで決まる（法51条1項）",
+                        "外壁・屋根の材料の張り替えだけなら、登記事項は変わらない（屋根の種類が同じとき）",
+                        "工事をしなくても、敷地の分筆で地番が変われば、建物の所在の変更の登記が要る"]),
+    ],
+    band1="変更の登記は、登記事項が変わったときに要る",
+    band2="問題D0333・D0688・D1491　D0333＝×、D0688・D1491＝〇",
+    ver="v02",
+    rev=["2026-10-09 v01：初版（条文別『苦手克服』シリーズ 第51条第1項 用。類似の誤解を問う3肢を1本にまとめた。ChatGPTでの生成・検品はまだ）",
+         "2026-10-11 v02：最新ルールで作り直し。コマ2を、判定の基準（法51条1項・44条1項・規則114条）とコマ1の甲・乙建物への当てはめの2枚（結論が逆）に変え、乙建物が要らない理由を図に入れた。コマ3の例を、コマ2と重ならないリフォームの例（記事）に変え、藍子の台詞を問題文の語（大規模な改修）に結びつけた。個人の演習結果は記載しない"],
+)
+
+HEADER = dict(h1="建物は工事していないのに", h2="変更の登記は要る？", hkey="要る？",
+              scene_l="a small house with fresh exterior wall panels being installed and roof tiles being replaced, a ladder leaning on the wall",
+              scene_r="a land plot divided by a boundary line, a surveying tripod, a rubber stamp and a blank calendar page")

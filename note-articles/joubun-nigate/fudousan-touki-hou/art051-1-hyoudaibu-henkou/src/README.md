@@ -2,7 +2,7 @@
 
 `../prompt_*.md` は生成物です。直すときは、ここの設計データを直して再生成します（生成物を手で直さない）。
 
-- `specs_4koma.py`：4コマ4本の設計データ。`MANGA_RULES.md` の生成器 `gen_prompts.py`（`tools/drill/manga/`（mainブランチ））の `render(spec)` に渡して、`prompt_4koma_*.md` の本体を作る。機械チェックは同フォルダの `check_prompt.py`（NG 0件・WARN 0件）。単独のnote記事用の節（記事タイトル・冒頭文・見出し画像・画像ファイル名）は、画像に問題番号が載らないよう、外してある。
+- `spec_4koma_01.py`〜`spec_4koma_04.py`：4コマ4本の設計データ（SPEC と HEADER。2026-10-11に最新ルールで作り直し）。`specs_4koma.py` はこれらを読み込む口で、`MANGA_RULES.md` の生成器 `gen_prompts.py`（`tools/drill/manga/`、mainブランチ）の `render(spec)` に渡して、`prompt_4koma_*.md` の本体を作る。機械チェックは同フォルダの `check_prompt.py`（NG 0件・WARN 0件）。単独のnote記事用の節（記事タイトル・冒頭文・見出し画像・画像ファイル名）は、画像に問題番号が載らないよう外してある。
 - `gen_infographic.py`：図解6枚のプロンプトを組み立てる（標準ライブラリのみ。共通部品は `../../../common/infographic_parts.py`）。
 - `note_template.md`：記事の本文の元。`{{LAW51_1}}`・`{{LAW44_1}}` を `note-articles/laws/fudousan-touki-hou.md` の原文に差し替えて `note_art051-1.md` にする。
 

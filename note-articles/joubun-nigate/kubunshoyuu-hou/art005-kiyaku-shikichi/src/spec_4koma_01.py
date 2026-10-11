@@ -1,0 +1,87 @@
+"""区分所有法 第5条（規約敷地）苦手克服：4コマ1本目（D0402・D0405）の設計データ v02（2026-10-11、最新ルールでの作り直し）。
+H20-Q19肢2・5。v02：『規約の中身（何を定める規約を、設定したのか廃止したのか）を読めば、敷地権が生じるのか消えるのかが決まり、
+出す情報が変わる』に絞った。理由コマ（敷地権は分離処分できないもの。分離処分できるようになれば消える）を加えた。
+公開済みの肢単位版（D0402-D0405_prompt.md）の『原因→添付情報』の当てはめ表とは切り口を変えた。"""
+
+def B(who, text, hl=None, brk=None):
+    return [who, text, hl, brk] if brk else [who, text, hl]
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0402・D0405", fid="D0402-D0405",
+    topic="不動産登記法／区分建物・敷地権・共用部分",
+    src="H20-Q19肢2・5", truth="×・×（どちらも誤った記述）", miscon="（記載しない）",
+    article="note-articles/h20-mondai/q19-shikichiken.md",
+    art_head="2「他管轄の土地の登記事項証明書は敷地権発生の場合の添付情報」・5「規約設定証明に限らず、廃止証明・その他の事由証明でも足りる」",
+    letters="",
+    design=[
+        "【出題者のひっかけ】敷地権の消滅を原因とする変更登記の肢に、『規約』（D0405）や『他の登記所の管轄区域内にある土地の登記事項証明書』（D0402）という、敷地権が生じるときの添付情報と同じ言葉を出し、どの場面でも同じ書類が要るように見せる（記事 H20-Q19肢2・5、令別表15項）。",
+        "【受験者の勘違い・定着していない点】同じ『規約』という言葉に引かれて、何を定める規約を設定したのか、廃止したのかを読まずに、敷地権が生じるときの添付情報（イ・ホ）を消えるときにも出すと考える。敷地権が消えるのは、規約を廃止したか、分離処分を可能とする別段の定めなどで分離して処分できることになったときで、出すのは廃止または当該事由を証する情報（ロ・ハ）である。",
+        "【対比する制度】「敷地権が生じるとき」⇔「敷地権が消えるとき」：生じるときは、規約敷地を定める規約を設定したことを証する情報（令別表15項イ）と、土地が他の登記所の管轄なら、その土地の登記事項証明書（同ホ（２））／消えるときは、規約を廃止したことを証する情報（同ロ）、または分離処分できることとなった当該事由を証する情報（同ハ）。出す情報が逆になる点。",
+        "【型の選び方】型：型3（理由説明）＋型2（当てはめ表）。理由：公開済みの肢単位版は『原因→添付情報』の結論の当てはめが中心なので、条文の記事の4コマ1本目では、壁を『規約という同じ言葉に引かれて、規約の中身を読まない』に置いた。コマ1で3つの規約を並べて問い、コマ2で『規約の中身→生じるか消えるか→出す情報』の3行の表を示し、コマ3で『なぜ消えるときは廃止かその他の事由か（敷地権は分離して処分できないもの。できるようになれば敷地権でなくなる）』の理由を示す。",
+        "記事の範囲：区分所有法5条1項・22条1項ただし書、不動産登記法44条1項9号（敷地権は、登記された敷地利用権で、分離して処分できないもの）、不動産登記令別表15項のイ・ロ・ハ・ホ（note_art005 部品2・3・6、h20-mondai/q19-shikichiken.md 肢2・肢5）。D0402＝他の登記所の土地の登記事項証明書はホ（２）で、イ及びニの場合（敷地権が生じるとき）に限る。D0405＝消えるときの添付情報はロ（廃止）・ハ（その他の事由）で、イの規約を設定したことを証する情報ではない。",
+        "extra_refs：①令別表15項（イ〜ホ）は法令DB note-articles/laws/fudousan-touki-rei-betsuhyou.md で確認（ホの冒頭『イ及びニの場合には』で、（１）規約で定められた割合の規約、（２）他の登記所の管轄の土地の登記事項証明書）。②不動産登記法44条1項9号は note_art005.md 部品2と法令DBで確認。③『規約の中身を読めば生じるか消えるかが決まる』という整理は、note_art005.md 部品3・ポイント1の見分け方にあり、h20の記事（肢2・5）には直接ない。④消えるときの事由（別段の定め）の証明に、規約そのものを示すことが含まれうるため、『規約を設定した証明は消えるときに要らない』とは言い切らず、『イは生じるときの項目、消えるときの項目はロ・ハ』という令別表の位置づけで書いた。",
+        "登場人物：当事者の記号は使わない。建物・規約はカードと文字ラベル。",
+        "矢印の意味：矢印は使わない（取引も手続も流れもない）。コマ1は縦3枚の別カード、コマ2は3行の表、コマ3は縦3枚の別カード。",
+        "配色：コマ1〜3は印（✓✕）を付けない（コマ3は理由のカードで正誤の対比ではない）。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。『生じる』『消える』の語も濃紺で、青・赤にしない。",
+        "コマの使い方（キャラの大きさ）：不必要に小さくしない。コマ1＝side（キャラは通常サイズで左右の端、図は中央に縦3枚のカードと疑問バッジ。図の量が少ないので小さくする必要がない）、コマ2＝none（3行の表が主役で、台詞はない）、コマ3＝faces（左に理由のカード3枚、右に会話4つの縦並び。カードと会話の量が多いので顔アイコンにして場所を確保）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+        "公開済みの肢単位版（D0402-D0405_prompt.md）との違い：向こうは『生じるとき⇔消えるとき』の左右カードと原因ごとの当てはめが中心。こちらは、コマ1で規約の3つの言い方を並べて『規約の中身を読む』が壁だと示し、コマ3で理由（敷地権の定義と分離処分）を足した。同じ問の別の肢の記述は入れていない。",
+    ],
+    review=[
+        "初見の読者：コマ1で『規約の3つの言い方。添付情報は同じか』、コマ2で『規約の中身で、生じるか消えるかが決まり、出す情報が変わる（イ・ホ／ロ／ハ）』、コマ3で『敷地権は分離して処分できないもの。できるようになれば消えるので、出すのは廃止または当該事由の証明』が言える",
+        "肝の確認：①規約敷地を定める規約を設定したら敷地権が生じ、規約を設定したことを証する情報と（他の登記所の土地なら）登記事項証明書を出す ②規約を廃止したら消え、廃止を証する情報 ③分離処分を可能とする別段の定めなどで消えるときは当該事由を証する情報 ④土地の登記事項証明書は生じるときだけ ⑤肢D0402・D0405はどちらも×",
+        "構成表の全文言を記事・令別表15項と突き合わせ：『規約敷地を定める規約』『規約を設定したことを証する情報』『規約を廃止したことを証する情報』『その事由を証する情報』『他の登記所の土地の登記事項証明書』『分離して処分できない』。出題当時と今の言い方の違いの説明、他の肢の記述は入れていない",
+        "コマ1〜3に印がなく、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラは、図や会話が入らないコマだけ小さくしている",
+    ],
+    extra_refs=[
+        "不動産登記令別表15項の添付情報欄イ・ロ・ハ・ホ（法令DB note-articles/laws/fudousan-touki-rei-betsuhyou.md の十五）：イ＝区分所有法第5条第1項の規約を設定したことにより敷地権が生じたときは、当該規約を設定したことを証する情報。ロ＝イの規約を廃止したことにより分離して処分することができることとなったときは、当該規約を廃止したことを証する情報。ハ＝区分所有法第22条第1項ただし書の規約における別段の定めがあることその他の事由により分離して処分することができることとなったときは、当該事由を証する情報。ホ＝イ及びニの場合に、（２）敷地権の目的である土地が他の登記所の管轄区域内にあるときは、当該土地の登記事項証明書。",
+        "不動産登記法44条1項9号（法令DB note-articles/laws/fudousan-touki-hou.md、note_art005.md 部品2）：敷地権＝登記された敷地利用権で、区分所有法22条1項本文により専有部分と分離して処分することができないもの。『分離して処分できれば敷地権でなくなる』は、この定義と令別表15項ロ・ハの『分離して処分することができることとなったとき』の文言からの整理。",
+        "『規約の中身を読めば、生じるか消えるかが決まる』：note_art005.md 部品3（規約敷地を定める規約は敷地権を生じさせる側、分離処分を可能とする規約は敷地権を消す側）とポイント1の見分け方。h20-mondai/q19-shikichiken.md（肢2・肢5）にはこの整理が直接はない。",
+    ],
+    lead1="敷地権が消えたときの建物の表題部の変更登記では、どんな情報を出すのでしょうか。規約を設定したことを証する情報や、他の登記所の土地の登記事項証明書は、この場面でも必要なのでしょうか。",
+    title="規約の中身を読めば、出す情報が決まる",
+    title_hl="出す情報が決まる",
+    panels=[
+        dict(label="①　同じ規約でも、中身が違う", chars="side", mood="curious, calm mood",
+             bubbles=[B("藍子", "どれも規約だから、規約の証明ですよね？", None, "どれも規約だから、\n規約の証明ですよね？"),
+                      B("トリ先生", "出たわね。規約の中身が違うのよ", "規約の中身", "出たわね。\n規約の中身が\n違うのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「規約敷地を定める規約を設定した」. Card 2: 「その規約を廃止した」. Card 3: 「分離処分を可能とする規約を設定した」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「どれも規約。出す情報は同じ？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　規約の中身と、出す情報", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「出題者のねらい」 at the top left, with one line beside it: 「規約の中身で、出す情報が変わる」.",
+                  "A table of exactly three rows in the center, all rows the same height and the same width, each row a wide card with the same pale gray fill and a dark navy outline, containing three cells from left to right (no arrows, no connectors, no check mark, no cross, and no header row): the left cell holds the rule, the middle cell is a white pill with dark navy text saying whether the land right arises or disappears (the words 「生じる」 and 「消える」 are dark navy, never blue and never red), and the right cell holds the information to submit.",
+                  "Row 1: left cell 「規約敷地を定める規約を設定した」, middle pill 「敷地権が生じるとき」, right cell 「その規約を設定したことを証する情報」 and a second smaller line 「他の登記所の土地なら、その登記事項証明書も」, and a small dark navy tag 「イ・ホ」 at the right end of the row.",
+                  "Row 2: left cell 「その規約を廃止した」, middle pill 「敷地権が消えるとき」, right cell 「その規約を廃止したことを証する情報」, and a small dark navy tag 「ロ」 at the right end of the row.",
+                  "Row 3: left cell 「分離処分を可能とする別段の定め」, middle pill 「敷地権が消えるとき」, right cell 「その事由を証する情報」, and a small dark navy tag 「ハ」 at the right end of the row.",
+                  "The three rows have clearly different texts; the texts are NOT identical.",
+                  "Under the table, one wide dark navy band with white text: 「不動産登記令別表15項」."]),
+        dict(label="③　なぜ、消えるときは廃止か事由？", chars="faces", mood="thoughtful then confident mood",
+             bubbles=[B("藍子", "規約と書いてあるから、設定の証明では？", None, "規約と書いてあるから、\n設定の証明では？"),
+                      B("トリ先生", "それが罠。分離処分できれば敷地権は消えるのよ", "敷地権は消える", "それが罠。分離処分できれば\n敷地権は消えるのよ"),
+                      B("藍子", "では、土地の証明書は、消えるときも？", None, "では、土地の証明書は、\n消えるときも？"),
+                      B("トリ先生", "それは生じるときだけの添付情報よ", "生じるときだけ", "それは生じるときだけの\n添付情報よ")],
+             fig=["Three stacked cards of the same size, from top to bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card and two short body lines, with no arrow, no connector, no check mark, and no cross. The cards are separated only by a small empty gap.",
+                  "Card 1, heading 「敷地権は、分離して処分できないもの」, one body line 「分離して処分できれば、敷地権でなくなる」, and a small dark navy tag 「法44条1項9号」.",
+                  "Card 2, heading 「廃止か別段の定めで、分離処分できる」, body 「規約敷地の規約を廃止したとき」 and 「分離処分を可能とする別段の定めがあるとき」, and a dark navy ribbon tag with large white text 「分かれ目：敷地権が生じるのか、消えるのか」.",
+                  "Card 3, heading 「だから、出すのは廃止か事由の証明」, body 「廃止したことを証する情報」 and 「または、その事由を証する情報」.",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="④　結論はどちらも×",
+             bubbles=[B("藍子", "規約の中身で、出す情報が決まるんですね！", None, "規約の中身で、\n出す情報が\n決まるんですね！"),
+                      B("トリ先生", "そう。この2つの肢は、どちらも×よ", "どちらも×", "そう。この2つの肢は、\nどちらも×よ")],
+             fig=[],
+             checklist=["令別表15項：規約を設定した証明（イ）は、生じるとき",
+                        "消えるとき：廃止（ロ）かその他の事由（ハ）の証明",
+                        "他の登記所の土地の登記事項証明書は、生じるときだけ（ホ）"]),
+    ],
+    band1="規約の中身を読めば、出す情報が決まる", band2="問題D0402・D0405　正解×・×（H20-Q19肢2・5）",
+    ver="v02",
+    rev=["2026-10-09 v01：初版（条文別『苦手克服』シリーズ（note-articles/joubun-nigate/）の規約敷地用。敷地権の発生と消滅の添付情報の違いを問う2肢を1本にまとめた。ChatGPTでの生成・検品はまだ）",
+         "2026-10-11 v02：最新ルールで作り直し。決め手の対比（規約の中身→生じるか消えるか→令別表15項のイ・ホ／ロ／ハ）と理由（敷地権は分離して処分できないもの）に絞り、公開済みの肢単位版の当てはめ表と切り口を変えた。コマ1のキャラは通常サイズ（side）"],
+)
+
+HEADER = dict(h1="敷地権が消えるとき", h2="何を出す？", hkey="何を出す？",
+              scene_l="a simple apartment building icon with a small garden plot beside it, no text",
+              scene_r="a stack of document sheets with a folder and a paper clip, no text")

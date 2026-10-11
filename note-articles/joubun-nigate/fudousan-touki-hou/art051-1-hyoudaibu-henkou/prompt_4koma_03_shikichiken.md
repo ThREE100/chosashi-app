@@ -1,4 +1,4 @@
-# D0687・D1278・D1796 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0687・D1278・D1796 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 > **このファイルについて**
 >
@@ -12,15 +12,16 @@
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 【型の選び方】型：型2（第二案）の『壁がしくみ』の考え方を、型1の対比に持ち込んだ混成。理由：『建物には手を加えていないのに建物の登記が要る』という点は、敷地権の表示が建物の表題部の登記事項だというしくみが見えないと腑に落ちないため、コマ2にしくみのカードを置いた。
-- 【出題者のひっかけ】『規約により敷地とされた』『敷地権の割合に変更が生じた』と土地・権利の話で書き、建物の登記の話だと気づかせない（記事 R04-Q18イ、H23-Q16イ、H29-Q15イ）。
-- 【受験者の勘違い・定着していない点】建物に手を加えていないから、あるいは土地の話だから、建物の変更の登記は要らないと思う。実際は、敷地権の表示は建物の表題部の登記事項（法44条1項9号）なので、敷地権が生じたり割合が変わったりすれば、建物の表題部の変更の登記を1か月以内に申請しなければならない。
-- 【対比する制度】「建物の表題部の変更の登記が要る」⇔「登記官が職権でする」：建物の側は、所有者が1か月以内に申請する（法51条1項）／土地の敷地権である旨の登記は、登記官が職権で行う（法46条）。申請するのはどちらの登記かで結論が分かれる。
-- 登場人物：当事者の記号は使わない。区分建物・土地はアイコンと文字ラベルで示す。
-- 矢印の意味：矢印は使わない。コマ2は表題部のカード、コマ3は左右の別カード。
-- 会話順：藍子の誤解（建物は触っていないから要らない）→トリ先生の訂正（申請するのは建物の表題部の変更）→土地側はどうなるか→登記官が職権。
-- 配色：コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ1・2は印なし。コマ4の暗記3点は青✓。
-- 記事の範囲：法51条1項／法44条1項9号（敷地権は建物の表題部の登記事項。記事 H25-Q16ウの本文に法44条1項9号の記載）／法46条（敷地権である旨の登記は職権。記事 H18-Q19ウの本文。法令DB『第46条』で確認）。コマ3の『土地側は登記官が職権』は、記事 R04-Q18イ の本文にはなく、`extra_refs` に記載。
+- 【型の選び方】型：型2（＋型1の対比）。理由：壁は『敷地権は土地の権利の話なのに、なぜ建物の登記が要るのか』というしくみが見えないこと。コマ2で、敷地権の表示がある場所（建物の表題部）と、土地の側の登記（職権）を左右に並べ、申請するのはどちらかを先に示す。コマ3で、勘違いと正しい整理、3肢の当てはめを置く。
+- 【出題者のひっかけ】問題文が『規約敷地が生じたときであっても』『敷地権の割合について変更が生じた場合』と土地・権利の言い方で書き、建物の表題部の登記の話だと気づかせない。D1278はそのうえで、申請することを要しない、と言い切る（記事 R04-Q18イ、H23-Q16イ、H29-Q15イ）。
+- 【受験者の勘違い・定着していない点】建物に手を加えていないから、あるいは土地の話だから、建物の変更の登記は要らないと思い込む。実際は、敷地権の表示は建物の表題部の登記事項（法44条1項9号）なので、敷地権が生じたり割合が変わったりすれば、建物の側で、変更があった日から1か月以内に、表題部の変更の登記を申請しなければならない（法51条1項）。
+- 【対比する制度】「建物の表題部」⇔「土地の登記記録」：建物の表題部には敷地権の表示があり、変更の登記は所有者が申請する（法44条1項9号・51条1項）／土地の登記記録に載る敷地権である旨の登記は、登記官が職権でする（法46条）。申請するのがどちらの側かで、『要る』『要らない』が分かれる。
+- 登場人物：当事者の記号は使わない。区分建物は建物のアイコンと文字ラベル、土地は文字だけで示す。
+- 矢印の意味：矢印は使わない。コマ2は左右のカード、コマ3は左右のカードと帯。
+- 会話順：藍子の誤解（建物は触っていないから要らない）→トリ先生の訂正（土地の話に引かれた）→コマ3で、土地の登記ではと聞く→敷地権の表示は建物の表題部→土地側はどうなるか→登記官が職権。
+- 配色：コマ1・2は印なし。コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ4の暗記3点は青✓。カードは薄い灰色・濃紺の枠。
+- コマの使い方（キャラの大きさ）：コマ1＝side（図の量が少ないのでキャラは通常サイズ）、コマ2＝none（左右のカードが主役）、コマ3＝faces（左にカードと帯、右に会話4つ）、コマ4＝既定。隣り合うコマで同じ見せ方が続かない。
+- 記事の範囲：法51条1項／法44条1項9号（敷地権は建物の表題部の登記事項。記事 H25-Q16ウ・H25-Q17の本文、4コマの記事 note_art051-1.md の部品1）／法46条（敷地権である旨の登記は職権。記事 H18-Q19ウの本文、note_art051-1.md の落とし穴3）。3肢の言い方（規約敷地が生じた・割合の変更・申請を要しない）は各肢の問題文どおり。
 
 ## 構成表（文言の正本）
 
@@ -28,15 +29,15 @@
 |---|---|---|---|
 | タイトル帯 | — | 敷地権の変更は、建物の側で1か月以内に申請する | 「建物の側で」を黄色マーカー |
 | コマ1 見出し | ラベル | ①　問いの事案 | — |
-| コマ1 図 | 図・カード | 表題登記がある区分建物 / 土地 / 規約で、この建物の敷地になった / 建物には手を加えていない / 建物の登記で、しなければならないことは？ | — |
+| コマ1 図 | 図・カード | 表題登記がある区分建物 / 建物には手を加えていない / 規約で、土地がこの建物の敷地になった / 敷地権の割合が変わった / 建物の登記で、しなければならないことは？ | — |
 | コマ1 | 藍子（左・先に話す） | 建物は触っていないから、要らないですよね？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。土地の話に引かれたわね | 「土地の話」 |
 | コマ2 見出し | ラベル | ②　出題者のねらい | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 敷地権の表示は、どこの登記事項か / 建物の表題部の登記事項 / 所在 / 種類・構造・床面積 / 一棟の建物の構造・床面積 / 敷地権 / 法44条1項9号 / 敷地権が変われば、建物の表題部の変更の登記が要る（法51条1項） | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 敷地権は、建物と土地のどちらの登記か / 建物の表題部 / 敷地権の表示が載る（法44条1項9号） / 変われば、所有者が1か月以内に申請（法51条1項） / 敷地権の表示 / 土地の登記記録 / 敷地権である旨の登記が載る（法46条） / 登記官が職権でする / 敷地権が変われば、申請するのは建物の側 | — |
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
-| コマ3 図 | 図・カード | よくある勘違い / 建物に手を加えていないから、変更の登記は要らない / ひっかけ：規約で敷地になるのは、建物の工事ではない / 正しい整理 / 敷地権の表示が変わるので、建物の表題部の変更の登記が要る / 土地の側の、敷地権である旨の登記は、登記官が職権でする（法46条） | — |
+| コマ3 図 | 図・カード | よくある勘違い / 建物に手を加えていないから、変更の登記は要らない / ひっかけ：規約敷地が生じたときであっても、と土地の話で書く / 正しい整理 / 敷地権の表示が変わるので、建物の表題部の変更の登記が要る / 肢D1796は規約敷地、肢D0687は割合の変更。どちらも変更の登記が要る / 肢D1278は、申請を要しないと言い切るので誤り | — |
 | コマ3 | 藍子（左・1番目） | 敷地の話なら、土地の登記では？ | — |
-| コマ3 | トリ先生（右・2番目） | 申請するのは建物の表題部の変更よ | 「建物の表題部の変更」 |
+| コマ3 | トリ先生（右・2番目） | そこが罠。敷地権の表示は建物の表題部よ | 「建物の表題部」 |
 | コマ3 | 藍子（左・3番目） | 土地側の登記は、どうなるんですか？ | — |
 | コマ3 | トリ先生（右・4番目） | そちらは登記官が職権でするのよ | 「登記官が職権」 |
 | コマ4 見出し | ラベル | ④　結論は建物の側 | — |
@@ -49,8 +50,8 @@
 
 ## 記事に無い条文（ユーザー指示で追加）
 
-- 不動産登記法44条1項9号：建物又は附属建物が区分建物である場合において、敷地権があるときは、その敷地権が建物の表示に関する登記の登記事項である（法令DB `fudousan-touki-hou.md` 第44条で確認。記事 H25-Q16ウ の本文にも法44条1項9号の記載）。コマ2の『敷地権は建物の表題部の登記事項』の根拠。
-- 不動産登記法46条：登記官は、区分建物に関する敷地権について表題部に最初に登記をするときは、敷地権の目的である土地の登記記録について、職権で、敷地権である旨の登記をしなければならない（法令DB 第46条で確認。記事 H18-Q19ウ の本文に同旨）。コマ3の『土地側は登記官が職権』の根拠。記事 R04-Q18イ の本文には記載がない。
+- 不動産登記法44条1項9号：建物又は附属建物が区分建物である場合において、敷地権があるときは、その敷地権が建物の表示に関する登記の登記事項である（法令DB note-articles/laws/fudousan-touki-hou.md 第44条で確認。記事 H25-Q17 の本文にも同旨）。コマ2の『敷地権の表示は建物の表題部にある』の根拠。
+- 不動産登記法46条：登記官は、区分建物に関する敷地権について表題部に最初に登記をするときは、敷地権の目的である土地の登記記録について、職権で、敷地権である旨の登記をしなければならない（法令DB 第46条で確認。記事 H18-Q19ウ の本文、note_art051-1.md の落とし穴3に同旨）。肢D0687・D1278・D1796 の記事 R04-Q18イ の本文には記載がない。
 
 ## プロンプト本体
 
@@ -87,8 +88,8 @@ TITLE BANNER: text 「敷地権の変更は、建物の側で1か月以内に申
 PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each about 190 px tall, roughly half of the panel height, with the same full-body look as in the other panels): 藍子 at the left edge and トリ先生 at the right edge, both standing in the lower part of the panel; do NOT make them smaller than this just to leave empty space, and reduce them by at most about 15% only if the speech bubbles or the diagram would otherwise not fit (see the LAYOUT lines below); 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
 - Label tab: 「①　問いの事案」
 - LAYOUT (side characters): 藍子 stands at the left edge and トリ先生 at the right edge at the normal size, each taking only the outer 22% of the panel width, with their speech bubbles in the upper part above their own heads and never covering the diagram. The diagram described in the lines below is drawn large in the CENTER region only, between the two characters (about 56% of the panel width and the full panel height below the label tab); wherever a line below says the diagram fills the panel, it means this center region. The characters never overlap the diagram.
-- A diagram is drawn large in the center region: a simple apartment building icon with a dark navy tag 「表題登記がある区分建物」 and, next to it, a land plot icon with a dark navy tag 「土地」.
-- A white note card between them reads 「規約で、この建物の敷地になった」. A second small white note card under the building reads 「建物には手を加えていない」.
+- A diagram is drawn large in the center region: a simple apartment building icon on the left side of the region with a dark navy tag 「表題登記がある区分建物」, and under the tag a small white note card 「建物には手を加えていない」.
+- On the right side of the region, two white note cards stacked, both the same size: 「規約で、土地がこの建物の敷地になった」 and 「敷地権の割合が変わった」.
 - A small question badge 「建物の登記で、しなければならないことは？」 sits above the diagram (a question badge only, with no check mark and no cross).
 - 藍子 bubble (left, spoken first): 「建物は触っていないから、
 要らないですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
@@ -98,25 +99,26 @@ PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each abo
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
 - Label tab: 「②　出題者のねらい」
-- A full-width explanation panel fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「敷地権の表示は、どこの登記事項か」.
-- In the center, one tall white card with a dark navy outline and the heading 「建物の表題部の登記事項」, listing four short lines: 「所在」, 「種類・構造・床面積」, 「一棟の建物の構造・床面積」, 「敷地権」. The line 「敷地権」 has a yellow highlighter marker and a small dark navy tag 「法44条1項9号」 beside it.
-- At the bottom, one wide dark navy band with white text: 「敷地権が変われば、建物の表題部の変更の登記が要る（法51条1項）」.
-- There is no check mark and no cross anywhere in this panel.
+- A small dark navy tag 「出題者のねらい」 at the top left, with one line beside it: 「敷地権は、建物と土地のどちらの登記か」.
+- Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.
+- Left card, heading 「建物の表題部」, two body lines: 「敷地権の表示が載る（法44条1項9号）」, 「変われば、所有者が1か月以内に申請（法51条1項）」. The first body line has a yellow highlighter marker on 「敷地権の表示」.
+- Right card, heading 「土地の登記記録」, two body lines: 「敷地権である旨の登記が載る（法46条）」, 「登記官が職権でする」.
+- At the bottom, one wide dark navy band with white text: 「敷地権が変われば、申請するのは建物の側」.
+- The two cards have clearly different texts; the texts are NOT identical.
 
 PANEL 3 (surprised then convinced mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
 - Label tab: 「③　ひっかけと勘違い」
 - LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
-- Two large cards side by side, with a wide example strip under them.
-- Left card, heading 「よくある勘違い」, body 「建物に手を加えていないから、変更の登記は要らない」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：規約で敷地になるのは、建物の工事ではない」.
+- Two large cards side by side, with a wide strip under them.
+- Left card, heading 「よくある勘違い」, body 「建物に手を加えていないから、変更の登記は要らない」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：規約敷地が生じたときであっても、と土地の話で書く」.
 - Right card, heading 「正しい整理」, body 「敷地権の表示が変わるので、建物の表題部の変更の登記が要る」, with ONE blue check mark only (no cross on this card).
-- Example strip under the two cards: 「土地の側の、敷地権である旨の登記は、登記官が職権でする（法46条）」.
+- Strip under the two cards, two short lines of plain dark navy text on a pale gray fill, with no mark: 「肢D1796は規約敷地、肢D0687は割合の変更。どちらも変更の登記が要る」 and 「肢D1278は、申請を要しないと言い切るので誤り」.
 - The two cards have clearly different texts; the texts are NOT identical.
 - 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「敷地の話なら、
 土地の登記では？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「申請するのは
-建物の表題部の
-変更よ」 with the part 「建物の表題部の変更」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「そこが罠。敷地権の
+表示は建物の表題部よ」 with the part 「建物の表題部」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「土地側の登記は、
 どうなるんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「そちらは登記官が
@@ -137,7 +139,7 @@ CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 建, 所, 権, 物, 登, 規, 記, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 建, 所, 権, 物, 登, 肢, 規, 記, 請, 違, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 保存名
@@ -149,10 +151,10 @@ Final check before rendering: confirm there are exactly four panels in one verti
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [x] 4コマの目的（最優先。`MANGA_RULES.md`）適用済み：設計メモに【出題者のひっかけ】【受験者の勘違い・定着していない点】【対比する制度】の3行を書いた
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0687-D1278-D1796_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1の事案（表題登記済みの区分建物、土地が規約で敷地になる）と、コマ2の表題部のカード、コマ3の左右のカードが対応している
-- [ ] 工程C：肝の確認：コマ2に『敷地権は建物の表題部の登記事項』、コマ3に『申請するのは建物の側、土地側は登記官が職権』、コマ4の暗記3点に期限（1か月）が入っている
-- [ ] 工程C：出典の確認：法44条1項9号・法46条は法令DBで確認済み。記事にない整理（コマ3の職権の点）は `extra_refs` に出典を書いた。ユーザーに伝える
-- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。D1278は『要しない』が誤りの肢であることを結論帯に出す
+- [ ] 工程C：初見の読者：コマ1の事案（表題登記済みの区分建物、規約敷地が生じた・割合が変わった、建物には手を加えていない）と、コマ2の左右のカード、コマ3の勘違いと正しい整理が対応している
+- [ ] 工程C：肝の確認：コマ2に『敷地権の表示は建物の表題部にある（法44条1項9号）、変更は所有者が申請（法51条1項）／土地の側は登記官が職権（法46条）』、コマ3に3肢の当てはめ、コマ4の暗記3点に期限（1か月）が入っている
+- [ ] 工程C：出典の確認：法44条1項9号・法46条・法51条1項は法令DBで確認済み。法46条の対比は肢の記事 R04-Q18イ になく、同系統の記事 H18-Q19ウ と note_art051-1.md にある。extra_refs に書き、ユーザーに伝える
+- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（side→none→faces→既定）。D1278は『申請を要しない』と言い切る誤りの肢であることをコマ3の帯と結論帯に出す
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -168,4 +170,5 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
-- 2026-10-09 v01：初版（条文別『苦手克服』シリーズ 第51条第1項 用。敷地権の表示の変更を問う3肢を1本にまとめた。ChatGPTでの生成・検品はまだ）
+- 2026-10-09 v01：初版（条文別『苦手克服』シリーズ 第51条第1項 用。敷地権の表示の変更を問う3肢を1本にまとめた）
+- 2026-10-11 v02：最新ルールで作り直し。コマ1に規約敷地と割合の変更の両方（3肢の場面）を置き、コマ2を『建物の表題部（申請）⇔土地の登記記録（職権）』の左右のカードにして対比をコマ2に移した。コマ3は3肢の当てはめの帯を置き、ひっかけは問題文の言い方の引用にした。キャラは通常サイズのまま（コマ1はside）

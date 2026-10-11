@@ -1,4 +1,4 @@
-# D0333・D0688・D1491 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0333・D0688・D1491 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 > **このファイルについて**
 >
@@ -12,15 +12,16 @@
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 【型の選び方】型：型1（第一案・定型）の流れで、コマ2に『何で見分けるか』の判定カードを置く。理由：誤解の型（大きな工事＝変更登記が要る／工事をしていない＝要らない）がはっきりしていて、思い込み→押さえどころ→違い→結論で足りるため。
-- 【出題者のひっかけ】D0333は『大規模な改修工事を行ったので』という工事の大きさ、D0688・D1491は『分筆』という土地側の出来事に目を向けさせ、建物の登記事項（家屋の欄）が変わったかどうかから目を逸らさせる（記事 H20-Q05ア、H23-Q16ウ、R01-Q16エ）。
-- 【受験者の勘違い・定着していない点】変更の登記が要るかを『建物に工事をしたか』『工事が大きいか』で決めてしまう。実際は、法44条1項各号の登記事項（所在・種類・構造・床面積など）に変更があったかで決まる。外壁・屋根の材料の張り替えだけでは登記事項は変わらず（屋根の種類が変わらないとき）、逆に工事をしていなくても、敷地の分筆で地番が変われば所在が変わる。
-- 【対比する制度】「大きな工事をしたから、変更の登記が要る」⇔「登記事項（所在・種類・構造・床面積など）が変わったときに要る」：工事をしても登記事項が変わらなければ変更の登記は要らない（D0333）／工事をしていなくても、分筆で地番が変われば所在が変わり、1か月以内に要る（D0688・D1491）。結論が逆になる点。
+- 【型の選び方】型：型1（第一案・定型）の流れで、コマ2に判定の基準と、コマ1の2つの建物への当てはめを置く。理由：誤解の型（大きな工事＝変更登記が要る／工事をしていない＝要らない）がはっきりしていて、思い込み→押さえどころ→違い→結論で足りるため。壁は『何で見分けるか』と『なぜ張り替えは要らず、分筆は要るのか』なので、コマ2を基準＋当てはめにした。
+- 【出題者のひっかけ】D0333は『大規模な改修工事を行ったので』という工事の大きさ、D0688・D1491は『分筆』という土地側の出来事に目を向けさせ、建物の登記事項が変わったかどうかから目を逸らさせる（記事 H20-Q05ア、H23-Q16ウ、R01-Q16エ）。
+- 【受験者の勘違い・定着していない点】受験者が陥りやすい勘違いは、変更の登記が要るかを『建物に工事をしたか』『工事が大きいか』で決めてしまうこと。実際は、法44条1項各号の登記事項（所在・種類・構造・床面積など）に変更があったかで決まる。外壁・屋根の材料の張り替えだけでは登記事項は変わらず（屋根の種類が変わらないとき）、逆に工事をしていなくても、敷地の分筆で地番が変われば所在が変わる。
+- 【対比する制度】「大きな工事をしたから、変更の登記が要る」⇔「登記事項が変わったときに要る」：工事をしても登記事項が変わらなければ変更の登記は要らない（D0333）／工事をしていなくても、分筆で地番が変われば所在が変わり、1か月以内に要る（D0688・D1491）。結論が逆になる点。
 - 登場人物：当事者の記号は使わない。建物は『甲建物』『乙建物』の文字タグで示す。
-- 矢印の意味：矢印は使わない（取引も手続も流れもない）。コマ2は判定のカード、コマ3は左右の別カード。
+- 矢印の意味：矢印は使わない（取引も手続も流れもない）。コマ2は基準のカードと当てはめの左右2枚、コマ3は左右の別カード。
 - 会話順：藍子の誤解（工事をした乙建物のほうが変更）→トリ先生の訂正（工事の大きさは関係ない）→工事なしでも要る場合→結論。
-- 配色：コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ1・2は印なし。コマ4の暗記3点は青✓。
-- 記事の範囲：法51条1項／法44条1項各号の登記事項／規則114条（構造は構成材料・屋根の種類・階数）／分筆で建物の所在する土地の地番が変わると所在の変更（記事 H23-Q16ウ、R01-Q16エ）。『屋根の種類が変わるときは構造の変更』は記事 H20-Q05ア の本文。
+- 配色：コマ1・2は印（✓✕）を付けない。コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ4の暗記3点は青✓。
+- コマの使い方（キャラの大きさ）：コマ1＝side（通常サイズ。図は中央に建物2つで量が少ないので小さくする必要がない）、コマ2＝none（図が主役。基準のカードと当てはめの2枚）、コマ3＝faces（左にカードと例の帯、右に会話4つ。量が多いので顔アイコンにして場所を確保）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。
+- 記事の範囲：法51条1項／法44条1項各号の登記事項／規則114条（構造は構成材料・屋根の種類・階数。条文は法令DB fudousan-touki-kisoku-1.md の第114条で確認）／外壁材は登記事項ではない（記事 H20-Q05ア）／分筆で建物の所在する土地の地番が変わると所在の変更の登記（記事 H23-Q16ウ、R01-Q16エ）。『屋根の種類が変わるときは構造の変更』は記事 H20-Q05ア の本文。たとえばの一文（リフォームしても登記の中身が同じなら登記をやり直す必要はない）は記事 H20-Q05ア の例による。
 
 ## 構成表（文言の正本）
 
@@ -32,11 +33,11 @@
 | コマ1 | 藍子（左・先に話す） | 工事をした乙建物のほうが、変更ですよね？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。工事の大きさに引かれたわね | 「工事の大きさ」 |
 | コマ2 見出し | ラベル | ②　出題者のねらい | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 変更の登記が要るかを、何で見分けるか / 登記事項に変更があったか（法51条1項） / 所在・種類・構造・床面積など（法44条1項各号） / 変更があった：1か月以内に変更の登記を申請 / 変更がない：変更の登記は要らない | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 変更の登記が要るかを、何で見分けるか / 登記事項に変更があったか（法51条1項） / 所在・種類・構造・床面積など（法44条1項各号） / 構造は構成材料・屋根の種類・階数（規則114条） / 甲建物：1か月以内に申請 / 分筆で土地の地番が変わった / だから建物の所在が変わる / 乙建物：変更の登記は要らない / 外壁材は登記事項ではない / 屋根の種類が同じなら構造も同じ | — |
 | コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
-| コマ3 図 | 図・カード | よくある勘違い / 大きな工事をしたから、変更の登記が要る / ひっかけ：外壁と屋根を全面的に張り替える大工事 / 正しい整理 / 登記事項（所在・種類・構造・床面積など）が変わったときに要る / たとえば：工事をしていなくても、敷地の分筆で地番が変われば、建物の所在が変わるので変更の登記が要る | — |
-| コマ3 | 藍子（左・1番目） | 大工事なら、変更の登記ですよね？ | — |
-| コマ3 | トリ先生（右・2番目） | 工事の大きさは関係ないのよ | 「関係ない」 |
+| コマ3 図 | 図・カード | よくある勘違い / 大きな工事をしたから、変更の登記が要る / ひっかけ：外壁と屋根を全面的に張り替える大工事 / 正しい整理 / 登記事項が変わったときに要る / たとえば：外壁と屋根をリフォームしても、登記の中身が同じなら、登記をやり直す必要はない | — |
+| コマ3 | 藍子（左・1番目） | 大規模な改修だから、要りますよね？ | — |
+| コマ3 | トリ先生（右・2番目） | それが罠よ。工事の大きさは関係ないの | 「関係ない」 |
 | コマ3 | 藍子（左・3番目） | 工事なしでも要る場合があるんですか？ | — |
 | コマ3 | トリ先生（右・4番目） | 分筆で地番が変われば、所在が変わるわ | 「所在が変わる」 |
 | コマ4 見出し | ラベル | ④　結論は登記事項 | — |
@@ -95,9 +96,11 @@ PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each abo
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
 - Label tab: 「②　出題者のねらい」
 - A full-width explanation panel fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「変更の登記が要るかを、何で見分けるか」.
-- In the center, one wide white card with a dark navy outline and the heading 「登記事項に変更があったか（法51条1項）」, and under the heading a small gray line 「所在・種類・構造・床面積など（法44条1項各号）」.
-- Under that card, two white boxes side by side with dark navy outlines (no arrows and no connectors): the left box 「変更があった：1か月以内に変更の登記を申請」 and the right box 「変更がない：変更の登記は要らない」.
-- There is no check mark and no cross anywhere in this panel.
+- In the top center, one wide white card with a dark navy outline and the heading 「登記事項に変更があったか（法51条1項）」, and under the heading two small gray lines: 「所在・種類・構造・床面積など（法44条1項各号）」 and 「構造は構成材料・屋根の種類・階数（規則114条）」.
+- Under that card, two white cards side by side, both exactly the same size and top-aligned, each with a dark navy outline, its dark navy heading placed fully INSIDE the card, and two short body lines (no arrows and no connectors, no check mark and no cross).
+- Left card, heading 「甲建物：1か月以内に申請」, body 「分筆で土地の地番が変わった」 and 「だから建物の所在が変わる」.
+- Right card, heading 「乙建物：変更の登記は要らない」, body 「外壁材は登記事項ではない」 and 「屋根の種類が同じなら構造も同じ」.
+- The two cards have clearly different texts; the texts are NOT identical.
 
 PANEL 3 (surprised then convinced mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
 - Label tab: 「③　ひっかけと勘違い」
@@ -105,13 +108,14 @@ PANEL 3 (surprised then convinced mood; both characters appear ONLY as small rou
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side, with a wide example strip under them.
 - Left card, heading 「よくある勘違い」, body 「大きな工事をしたから、変更の登記が要る」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：外壁と屋根を全面的に張り替える大工事」.
-- Right card, heading 「正しい整理」, body 「登記事項（所在・種類・構造・床面積など）が変わったときに要る」, with ONE blue check mark only (no cross on this card).
-- Example strip under the two cards: 「たとえば：工事をしていなくても、敷地の分筆で地番が変われば、建物の所在が変わるので変更の登記が要る」.
+- Right card, heading 「正しい整理」, body 「登記事項が変わったときに要る」, with ONE blue check mark only (no cross on this card).
+- Example strip under the two cards: 「たとえば：外壁と屋根をリフォームしても、登記の中身が同じなら、登記をやり直す必要はない」.
 - The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「大工事なら、
-変更の登記ですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「工事の大きさは
-関係ないのよ」 with the part 「関係ない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「大規模な改修だから、
+要りますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「それが罠よ。
+工事の大きさは
+関係ないの」 with the part 「関係ない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「工事なしでも要る
 場合があるんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「分筆で地番が変われば、
@@ -132,7 +136,7 @@ CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 建, 張, 所, 物, 番, 登, 記, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 建, 張, 所, 物, 番, 登, 規, 記, 請, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 保存名
@@ -144,9 +148,9 @@ Final check before rendering: confirm there are exactly four panels in one verti
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [x] 4コマの目的（最優先。`MANGA_RULES.md`）適用済み：設計メモに【出題者のひっかけ】【受験者の勘違い・定着していない点】【対比する制度】の3行を書いた
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0333-D0688-D1491_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1の甲建物（工事なし・分筆）と乙建物（張り替え）の2つの事案が、コマ2の判定カード・コマ3の左右のカードと対応している
-- [ ] 工程C：肝の確認：コマ2に『登記事項に変更があったか』の判定、コマ3に『工事の大きさ』⇔『登記事項の変更』の対比、コマ4の暗記3点に『張り替えだけなら不要』『工事なしでも分筆なら要る』が入っている
-- [ ] 工程C：構成表の全文言を記事（H20-Q05ア、H23-Q16ウ、R01-Q16エ）と突き合わせ：『屋根の種類は同じ』の限定が入っている
+- [ ] 工程C：初見の読者：コマ1で『甲建物（工事なし・分筆）と乙建物（張り替え・屋根の種類は同じ）のどちらに変更の登記が要るか』、コマ2で『登記事項に変更があったかで決まる。甲は所在が変わるので要る、乙は外壁材は登記事項でなく屋根の種類が同じなら構造も同じなので要らない』、コマ3で『大工事だから要る、は罠』が言える
+- [ ] 工程C：肝の確認：コマ2に『登記事項に変更があったか』の基準と甲・乙への当てはめ、コマ3に『工事の大きさ』⇔『登記事項の変更』の対比、コマ4の暗記3点に『張り替えだけなら不要』『工事なしでも分筆なら要る』が入っている
+- [ ] 工程C：構成表の全文言を記事（H20-Q05ア、H23-Q16ウ、R01-Q16エ）・法令DB（法51条1項、法44条1項、規則114条）と突き合わせ：『屋根の種類は同じ』の限定が入っている
 - [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。結論は D0333＝×、D0688・D1491＝〇 の別を結論帯で示す
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
@@ -164,3 +168,4 @@ Final check before rendering: confirm there are exactly four panels in one verti
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-09 v01：初版（条文別『苦手克服』シリーズ 第51条第1項 用。類似の誤解を問う3肢を1本にまとめた。ChatGPTでの生成・検品はまだ）
+- 2026-10-11 v02：最新ルールで作り直し。コマ2を、判定の基準（法51条1項・44条1項・規則114条）とコマ1の甲・乙建物への当てはめの2枚（結論が逆）に変え、乙建物が要らない理由を図に入れた。コマ3の例を、コマ2と重ならないリフォームの例（記事）に変え、藍子の台詞を問題文の語（大規模な改修）に結びつけた。個人の演習結果は記載しない

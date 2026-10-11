@@ -1,4 +1,4 @@
-# D0537・D1093・D1890 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0537・D1093・D1890 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 > **このファイルについて**
 >
@@ -12,15 +12,17 @@
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 【型の選び方】型：型3（第三案・理由説明）の流れ。結論（共用部分でも義務は残る）だけでなく、『なぜ名義人でなく所有者なのか』が崩れない鍵なので、コマ2で通常の建物と共用部分の建物の義務者を並べ、コマ3の最後に理由を置いた。
-- 【出題者のひっかけ】『共用部分である旨の登記がある建物』という前提だけを見せて、登記記録に名義人がいないから義務もない、と思わせる。D1093は『申請することを要しない』という言い回し（記事 H22-Q06イ、H27-Q17エ、R05-Q17ウ）。
-- 【受験者の勘違い・定着していない点】共用部分である旨の登記がある建物は、変更の登記を申請する義務がなくなると思い込む。実際は、物理的な変更があれば義務は残り、義務者が『表題部所有者又は所有権の登記名義人』から『所有者』に変わるだけ（法51条1項かっこ書）。
-- 【対比する制度】「通常の建物」⇔「共用部分である旨の登記がある建物」：通常の建物は表題部所有者又は所有権の登記名義人が申請／共用部分である旨の登記がある建物は所有者が申請（法51条1項かっこ書）。どちらも期限は変更があった日から1か月以内で、義務は消えない。
-- 登場人物：当事者の記号は使わない。人物は文字タグ（『所有者』）だけで示す。
-- 矢印の意味：矢印は使わない。コマ2は上下2枚のカードの並置。
-- 会話順：藍子の誤解（共用部分だから義務はない）→トリ先生の訂正（床面積が変われば要る）→誰が申請するか→所有者。
-- 配色：コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ1・2は印なし。コマ4の暗記3点は青✓。
-- 記事の範囲：法51条1項かっこ書（共用部分である旨の登記がある建物は所有者）／床面積・種類の変更は登記事項の変更（記事 H22-Q06イ、R05-Q17ウ）／1か月。『名義人が登記記録に記録されていない』のは、共用部分である旨の登記をするときに登記官が職権で表題部所有者の登記又は権利に関する登記を抹消するため（法58条4項。法令DB『第58条』で確認。記事 H27-Q17エ の本文にはなく、`extra_refs` に記載）。
+- 【型の選び方】型：型3（理由説明）＋型4（近接制度との対比）。理由：結論（共用部分でも義務は残る）だけでなく、『なぜ名義人でなく所有者が申請するのか』が崩れない鍵なので、コマ2で通常の建物と共用部分である旨の登記がある建物の申請者を並べ、コマ3でひっかけと理由（名義人の登記が職権で抹消される）を置いた。
+- 【出題者のひっかけ】『共用部分である旨の登記がある建物』という前提と、肢の『申請することを要しない』（D1093）という言い回しで、共用部分なら変更の登記は免除されると読ませる。登記記録に名義人がいない建物なので、義務者もいないように見せる（記事 H27-Q17エ、H22-Q06イ、R05-Q17ウ）。
+- 【受験者の勘違い・定着していない点】受験者が陥りやすい勘違いは2つ。①共用部分である旨の登記がある建物は、変更の登記の義務がなくなると思い込む。②義務者が誰かが結びつかない（義務は消えず、義務者が『表題部所有者又は所有権の登記名義人』から『所有者』（規約で所有者と定められた者）に変わるだけ。法51条1項かっこ書）。
+- 【対比する制度】「通常の建物」⇔「共用部分である旨の登記がある建物」：通常の建物は表題部所有者又は所有権の登記名義人が申請／共用部分である旨の登記がある建物は所有者が申請（法51条1項かっこ書）。どちらも変更があった日から1か月以内に申請する義務は同じで、消えない。
+- 記事の範囲：法51条1項（かっこ書を含む。法令DB note-articles/laws/fudousan-touki-hou.md 第51条で原文確認）／床面積・種類の変更は登記事項の変更（H22-Q06イ、R05-Q17ウ）／規約により共用部分の所有者と定められた者が申請義務を負う（R05-Q17ウ）／『申請することを要しない』とする肢は誤り（H27-Q17エ）。
+- extra_refs：法58条4項（登記官は、共用部分である旨の登記をするときは、職権で、当該建物について表題部所有者の登記又は権利に関する登記を抹消しなければならない）は法令DB 第58条で原文確認した。コマ1の『登記記録に名義人の記録がない』とコマ3の理由の根拠。『名義人の登記が抹消されるので、申請する人は所有者になる』という理由づけは、58条4項と51条1項かっこ書をつないだ整理で、記事（H22-Q06イ、H27-Q17エ、R05-Q17ウ）には記載がない（ユーザーに伝える）。立法趣旨としては断定していない。
+- 登場人物：当事者の記号（Ａ〜Ｚ）は使わない。建物はアイコンと文字ラベル。
+- 矢印の意味：矢印は使わない。コマ2は上下2枚のカードの並置と帯、コマ3は左右の別カードと理由の帯。
+- 配色：コマ1・2は印（✓✕）を付けない。コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。
+- コマの使い方（キャラの大きさ）：不必要に小さくしない。コマ1＝side（キャラは通常サイズで左右の端、図は中央。図の量が少ないので小さくする必要がない）、コマ2＝none（図が主役の2枚のカード）、コマ3＝faces（左に比較カードと理由の帯、右に会話4つの縦並び。カードと会話の量が多いので顔アイコン）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。
+- 会話順：藍子の誤解（共用部分なら申請は不要）→トリ先生の訂正（床面積が変われば要る）→誰が申請するか→所有者。
 
 ## 構成表（文言の正本）
 
@@ -32,24 +34,25 @@
 | コマ1 | 藍子（左・先に話す） | 名義人がいないなら、義務もないのでは？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。名義人に引かれたわね | 「名義人に引かれた」 |
 | コマ2 見出し | ラベル | ②　出題者のねらい | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 変更の登記を申請する人は誰か / 通常の建物 / 表題部所有者又は所有権の登記名義人が申請 / 共用部分である旨の登記がある建物 / 所有者が申請（法51条1項かっこ書） / どちらも、変更があった日から1か月以内に申請 | — |
-| コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
-| コマ3 図 | 図・カード | よくある勘違い / 共用部分の建物は名義人がいないので、変更の登記の義務はない / ひっかけ：名義人が登記記録にいない建物 / 正しい整理 / 床面積や種類が変われば、所有者が1か月以内に申請する / 理由：共用部分である旨の登記をすると、登記官が職権で名義人の登記を抹消するので、基準が所有者になる（法58条4項） | — |
-| コマ3 | 藍子（左・1番目） | 共用部分だから、義務はないですよね？ | — |
-| コマ3 | トリ先生（右・2番目） | 共用部分でも、床面積が変われば要るのよ | 「床面積が変われば」 |
-| コマ3 | 藍子（左・3番目） | では、誰が申請するんですか？ | — |
+| コマ2 図 | 図・カード | 出題者のねらい / 変更の登記を申請する人は誰か / 通常の建物 / 表題部所有者又は所有権の登記名義人が申請 / 共用部分である旨の登記がある建物 / 所有者が申請（法51条1項かっこ書） / 申請する人は違うが、義務と1か月以内の期限は同じ | — |
+| コマ3 見出し | ラベル | ③　ひっかけと理由 | — |
+| コマ3 図 | 図・カード | よくある勘違い / 共用部分の建物は名義人がいないので、変更の登記の義務はない / ひっかけ：申請することを要しない、と書いた肢 / 正しい整理 / 床面積や種類が変われば、所有者が1か月以内に申請する / 理由：共用部分である旨の登記をすると、名義人の登記は職権で抹消されるので、申請する人は所有者になる（法58条4項） | — |
+| コマ3 | 藍子（左・1番目） | 共用部分なら、申請は不要ですよね？ | — |
+| コマ3 | トリ先生（右・2番目） | それが罠。床面積が変われば要るのよ | 「床面積が変われば」 |
+| コマ3 | 藍子（左・3番目） | 名義人がいないのに、誰が申請？ | — |
 | コマ3 | トリ先生（右・4番目） | 名義人の代わりに、所有者が申請するの | 「所有者が申請」 |
 | コマ4 見出し | ラベル | ④　結論は義務が残る | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 共用部分でも、義務は残るんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そのとおり。申請するのは所有者よ | 「申請するのは所有者」 |
-| コマ4 チェック欄 | 3項目（青✓） | 共用部分である旨の登記がある建物でも、床面積や種類が変われば、変更の登記が要る / 申請する人は、名義人ではなく所有者（法51条1項かっこ書） / 期限は、変更があった日から1か月以内。申請することを要しない、は誤り | — |
+| コマ4 チェック欄 | 3項目（青✓） | 共用部分である旨の登記がある建物でも、床面積や種類が変われば、変更の登記が要る / 申請する人は、名義人ではなく所有者（法51条1項かっこ書） / 期限は、変更があった日から1か月以内（法51条1項） | — |
 | 結論帯 | 1行目 | 共用部分の建物でも、所有者が1か月以内に申請する | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D0537・D1093・D1890　D0537・D1890＝〇、D1093＝× | — |
 
 ## 記事に無い条文（ユーザー指示で追加）
 
-- 不動産登記法58条4項：登記官は、共用部分である旨の登記又は団地共用部分である旨の登記をするときは、職権で、当該建物について表題部所有者の登記又は権利に関する登記を抹消しなければならない（法令DB `fudousan-touki-hou.md` 第58条で確認。law-commentary 第51条3項の解説にも同旨）。コマ1の『登記記録に名義人の記録がない』とコマ3の理由の説明の根拠。記事（H22-Q06イ、H27-Q17エ、R05-Q17ウ）には法58条4項の記載がない。
+- 不動産登記法51条1項（法令DB note-articles/laws/fudousan-touki-hou.md 第51条）：第44条第1項各号（第2号及び第6号を除く。）に掲げる登記事項について変更があったときは、表題部所有者又は所有権の登記名義人（共用部分である旨の登記又は団地共用部分である旨の登記がある建物の場合にあっては、所有者）は、当該変更があった日から1月以内に、当該登記事項に関する変更の登記を申請しなければならない。記事 H27-Q17エ・R05-Q17ウ の本文に同旨。
+- 不動産登記法58条4項（法令DB 第58条）：登記官は、共用部分である旨の登記又は団地共用部分である旨の登記をするときは、職権で、当該建物について表題部所有者の登記又は権利に関する登記を抹消しなければならない。コマ1の『登記記録に名義人の記録がない』とコマ3の理由の根拠。記事（H22-Q06イ、H27-Q17エ、R05-Q17ウ）には記載がない。『名義人の登記が抹消されるので、申請する人は所有者になる』という整理は、58条4項と51条1項かっこ書をつないだもので、立法趣旨の断定はしていない。
 
 ## プロンプト本体
 
@@ -99,35 +102,35 @@ PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a ful
 - Label tab: 「②　出題者のねらい」
 - A full-width explanation panel fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「変更の登記を申請する人は誰か」.
 - Two wide white cards stacked top and bottom, each with a dark navy outline and no arrow between them. The upper card has the heading 「通常の建物」 and the body 「表題部所有者又は所有権の登記名義人が申請」. The lower card has the heading 「共用部分である旨の登記がある建物」 and the body 「所有者が申請（法51条1項かっこ書）」.
-- At the bottom, one wide dark navy band with white text: 「どちらも、変更があった日から1か月以内に申請」.
+- At the bottom, one wide dark navy band with white text: 「申請する人は違うが、義務と1か月以内の期限は同じ」.
 - There is no check mark and no cross anywhere in this panel.
 
 PANEL 3 (surprised then convinced mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
-- Label tab: 「③　ひっかけと勘違い」
+- Label tab: 「③　ひっかけと理由」
 - LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - Two large cards side by side, with a wide reason strip under them.
-- Left card, heading 「よくある勘違い」, body 「共用部分の建物は名義人がいないので、変更の登記の義務はない」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：名義人が登記記録にいない建物」.
+- Left card, heading 「よくある勘違い」, body 「共用部分の建物は名義人がいないので、変更の登記の義務はない」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：申請することを要しない、と書いた肢」.
 - Right card, heading 「正しい整理」, body 「床面積や種類が変われば、所有者が1か月以内に申請する」, with ONE blue check mark only (no cross on this card).
-- Reason strip under the two cards: 「理由：共用部分である旨の登記をすると、登記官が職権で名義人の登記を抹消するので、基準が所有者になる（法58条4項）」.
+- Reason strip under the two cards: 「理由：共用部分である旨の登記をすると、名義人の登記は職権で抹消されるので、申請する人は所有者になる（法58条4項）」.
 - The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「共用部分だから、
-義務はないですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「共用部分でも、床面積が
+- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「共用部分なら、
+申請は不要ですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「それが罠。床面積が
 変われば要るのよ」 with the part 「床面積が変われば」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「では、誰が申請
-するんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「名義人がいないのに、
+誰が申請？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「名義人の代わりに、
 所有者が申請するの」 with the part 「所有者が申請」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は義務が残る」
 - 藍子 bubble (left, spoken first): 「共用部分でも、
 義務は残るんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。
 申請するのは
 所有者よ」 with the part 「申請するのは所有者」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「共用部分である旨の登記がある建物でも、床面積や種類が変われば、変更の登記が要る」, 「申請する人は、名義人ではなく所有者（法51条1項かっこ書）」, 「期限は、変更があった日から1か月以内。申請することを要しない、は誤り」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「共用部分である旨の登記がある建物でも、床面積や種類が変われば、変更の登記が要る」, 「申請する人は、名義人ではなく所有者（法51条1項かっこ書）」, 「期限は、変更があった日から1か月以内（法51条1項）」.
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「共用部分の建物でも、所有者が1か月以内に申請する」 with a yellow highlighter marker.
@@ -135,7 +138,7 @@ CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 建, 所, 権, 物, 登, 記, 請, 違, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 建, 所, 権, 物, 登, 肢, 記, 請, 違, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 保存名
@@ -147,10 +150,10 @@ Final check before rendering: confirm there are exactly four panels in one verti
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [x] 4コマの目的（最優先。`MANGA_RULES.md`）適用済み：設計メモに【出題者のひっかけ】【受験者の勘違い・定着していない点】【対比する制度】の3行を書いた
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0537-D1093-D1890_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1の事案（共用部分の登記がある集会室を増築）と、コマ2・3の『通常の建物／共用部分の建物』の対比が対応している
-- [ ] 工程C：肝の確認：コマ2で義務者が『表題部所有者又は所有権の登記名義人』⇔『所有者』と並び、コマ3で『義務は消えない』と『名義人がいないので所有者』の理由が読め、コマ4の暗記3点にも入っている
-- [ ] 工程C：出典の確認：法51条1項かっこ書は法令DBの第51条で確認済み。法58条4項は記事にないため `extra_refs` に出典を書いた。ユーザーに『記事にない整理』であることを伝える
-- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。D1093は『要しない』が誤りの肢であることを結論帯に出す
+- [ ] 工程C：初見の読者：コマ1で『共用部分である旨の登記がある集会室を増築した。名義人の記録はない。変更の登記は必要か』、コマ2で『申請する人が通常の建物と違う（名義人⇔所有者）。義務も1か月の期限も同じ』、コマ3で『申請を要しないと書く肢がひっかけ。名義人の登記が抹消されるので所有者が申請する』が言える
+- [ ] 工程C：肝の確認：①共用部分である旨の登記がある建物でも、床面積や種類が変われば変更の登記が要る ②申請する人は『名義人』ではなく『所有者』（法51条1項かっこ書） ③期限は変更があった日から1か月以内（法51条1項） ④D0537・D1890＝〇、D1093＝×
+- [ ] 工程C：出典の確認：法51条1項（かっこ書を含む）は原文確認済み。法58条4項と、これと51条1項かっこ書をつないだ理由づけは記事にないため extra_refs に書いた（ユーザーに『記事にない整理』と伝える）
+- [ ] 工程C：コマ1〜2に印がなく、コマ3は左赤✕・右青✓が1つずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -166,4 +169,5 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
-- 2026-10-09 v01：初版（条文別『苦手克服』シリーズ 第51条第1項 用。共用部分の建物の申請義務を問う3肢を1本にまとめた。ChatGPTでの生成・検品はまだ）
+- 2026-10-09 v01：初版（条文別『苦手克服』シリーズ 第51条第1項 用。共用部分の建物の申請義務を問う3肢を1本にまとめた）
+- 2026-10-11 v02：最新ルールで作り直し。決め手の対比（通常の建物＝名義人が申請／共用部分である旨の登記がある建物＝所有者が申請。義務と期限は同じ）とその理由に絞る。コマ2の帯を『申請する人は違うが、義務と1か月以内の期限は同じ』に、コマ3のひっかけのリボンを問題文の語（申請することを要しない）に、藍子の1番目の台詞を問題文に引かれる具体語に直した。コマ4の3つ目は法51条1項の期限に絞った。設計メモの勘違いは一般的な書き方にした。コマの使い方（side→none→faces→既定）は変えていない

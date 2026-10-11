@@ -1,4 +1,4 @@
-# D0649・D1850 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0649・D1850 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 > **このファイルについて**
 >
@@ -7,44 +7,46 @@
 > - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。
 
 - 肢：D0649・D1850（不動産登記法／土地の分筆・合筆・地積更正、出典 H23-Q08エ／R05-Q09ア）。正解＝×・×（どちらも誤った記述）。
-- 記事：`note-articles/h23-mondai/q08-bunpitsu-gappitsu-kenri.md` エ「権利を消したあとの分筆は、錯誤では戻せない」。ほか、R05-Q09ア（q09-bunpitsu.md）
+- 記事：`note-articles/h23-mondai/q08-bunpitsu-gappitsu-kenri.md` H23-Q08エ（承諾の情報を提供して権利を消した分筆は、分筆錯誤だけでは抹消を申請できない）を軸に、R05-Q09ア（分筆前から付いていた抵当権が写っただけなら、錯誤を原因に分筆の登記を抹消できる）と対比する
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 【型の選び方】型：型3（第三案・理由説明）の流れ。理由：結論（戻せる／戻せない）だけでなく、『なぜ権利を消した分筆は戻せないのか』が分からないと別の肢で崩れるため、コマ3の最後に理由（権利を消滅させたことまで錯誤とは限らない）を置いた。
-- 【出題者のひっかけ】D0649は『承諾…を提供して分筆の登記がされた場合であっても…錯誤…抹消を申請することができる』、D1850は『抵当権の設定の登記がされた土地について分筆の登記がされた後は、錯誤を原因とする…抹消をすることはできない』と、両極端な言い切りで書く。どちらも、分筆のときに権利を消したかどうかを見落とさせる（記事 H23-Q08エ、R05-Q09ア）。
-- 【受験者の勘違い・定着していない点】抵当権の登記がある土地の分筆は、どんな場合も錯誤で抹消できる（または、一切できない）と一本化する。実際は、分筆前から付いていた抵当権が転写されただけなら錯誤で分筆の登記を抹消でき（R05-Q09ア）、分筆のときに承諾で権利を消していたら、分筆錯誤を原因とする分筆の登記の抹消は申請できない（H23-Q08エ。条文に明記がなく、先例の扱い）。
-- 【対比する制度】「権利が転写されただけ」⇔「承諾で権利を消した」：前者は錯誤を原因に分筆の登記を抹消できる／後者は分筆錯誤では抹消できない。結論が逆になる点。
-- 登場人物：当事者の記号は使わない。分筆は『分筆の登記』の文字タグで示す。
-- 矢印の意味：矢印は使わない。コマ2は左右の別カード。
-- 会話順：藍子の誤解（抵当権があれば抹消できない／できる）→トリ先生の訂正（権利を消したかどうか）→なぜ戻せないか→結論。
-- 配色：コマ3は左（よくある勘違い）＝赤✕1つ、右（正しい整理）＝青✓1つ。コマ1・2は印なし。コマ4の暗記3点は青✓。
-- 記事の範囲：分筆のとき承諾で権利を消した場合は、分筆錯誤では抹消できない（記事 H23-Q08エ。条文に明記なし、登記実務の整理）／分筆前から付いていた抵当権なら錯誤で抹消できる（記事 R05-Q09ア）。是正の方法は、ユーザーが確認した先例（登記研究380号の質疑応答。根抵当権の事例で、旧法下）の趣旨：権利の登記を抹消→合筆→改めて権利を設定。理由は『分筆が錯誤でも、権利を消滅させたことまで錯誤とは限らない』。現行法の40条・規則104条で同じ扱いかは、直接確認できた資料がない。記事 H23-Q08エ の本文にある『登記の回復』の説明は、ユーザー指示（2026-10-09）で採用しない。
+- 【出題者のひっかけ】2肢は言い切りの向きが逆。D0649は『承諾…を提供して分筆の登記がされた場合であっても…分筆錯誤を原因として…抹消を申請することができる』と、錯誤なら承諾で権利を消した分筆でも戻せるように書く。D1850は『抵当権の設定の登記がされた土地について分筆の登記がされた後は、錯誤を原因とする…抹消をすることはできない』と、抵当権があれば戻せないように書く。どちらも、分筆のときに権利を消したかどうかを見落とさせる。
+- 【受験者の勘違い・定着していない点】推測：①錯誤による申請なら、分筆の登記はいつでも抹消できると考える（D0649の言い切りに乗る）。②抵当権の登記がある土地の分筆は、錯誤では抹消できないと決めつける（D1850の言い切りに乗る）。③どちらも、抵当権があるかどうかだけで答えを決め、分筆のときに承諾の情報で権利を消したかを確かめない。片方の言い切りだけを覚えると、逆向きの肢で迷う。
+- 【対比する制度】「権利が写っただけ」⇔「承諾で権利を消した」：前者（分筆前から付いていた抵当権が分筆後の土地に写っただけ）は、錯誤を原因に分筆の登記を抹消できる（D1850の『できない』は誤り）。後者（承諾の情報を提供して、権利が消滅した旨の登記までされた）は、分筆錯誤だけでは抹消を申請できない（D0649の『できる』は誤り）。結論が逆になる点は、分筆のときに権利を消す登記までしたか。
+- 【型の選び方】型：型4（複数肢の対比）＋型3（理由）。理由：壁＝2肢が逆向きの言い切りなのに、どちらも×で、どこで分かれるかを自分で並べ直せないこと。コマ1＝2肢の言い分を並べる（別々の問題文なので時系列でなく2枚のカード）、コマ2＝『写っただけ』⇔『承諾で消した』の左右対比（各カードに、どちらの肢がその場面で誤りかのタグ）、コマ3＝対比の両側の理由（写っただけなら公示関係は複雑にならない／承諾で消したなら権利の消滅まで登記され、分筆だけ抹消しても消えた抵当権は復活しない）、コマ4＝2肢とも×の整理。是正の手続・出題当時の言い方は決め手でないので入れない。
+- 記事の範囲：H23-Q08エ（承諾の情報を提供して分筆の登記がされた場合は、抵当権の消滅という権利変動を伴う。分筆錯誤を原因として単純に分筆の登記の抹消を申請することはできない。条文に明記はなく、登記実務の取扱いによる整理。分筆の登記だけを抹消しても、いったん消滅した抵当権が当然に復活するわけではない）、R05-Q09ア（分筆の登記の抹消ができなくなるのは、分筆と同時に消滅承諾の情報を添えて権利の登記を消滅させた場合で、公示関係が複雑になるため。分筆前から抵当権が設定されていたケースはそのような複雑化は生じず、錯誤を原因とする分筆登記の抹消ができる）。
+- extra_refs：①不動産登記法40条（登記官は、承諾に係る土地について当該権利が消滅した旨を登記しなければならない）：note-articles/laws/fudousan-touki-hou.md の第40条で確認。D0649の記事のア（H23-Q08ア）の解説にも引用がある。②『写っただけなら錯誤で抹消できる』はR05-Q09アの記事（note-articles/r5-mondai/q09-bunpitsu.md）から取った。D0649の記事（H23-Q08エ）にはない対比。③コマ3の理由は両方の記事の文言（『複雑化は生じず』『公示関係が複雑になる』『当然に復活するわけではない』）のとおりで、条文に直接の根拠はなく、登記実務の整理。『権利を消したことまで錯誤とは限らない』という言い方は、2つの記事にはなく、条文別記事（note_art040.md）にだけあるので、図には入れない。
+- 登場人物：当事者の記号（Ａ〜Ｚ）は使わない。甲土地・乙土地も図に出さず、文字ラベルのカードで示す。
+- 矢印の意味：矢印は使わない。コマ1は2枚のカード、コマ2は左右のカード、コマ3は3枚のカード。
+- 配色：コマ1〜3は印（✓✕）を付けない（肢の〇×と印の向きが重なって紛らわしいため、可否は文字で書く）。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、リボン・帯・タグは濃紺（白文字）、強調は黄色マーカーだけ。
+- コマの使い方（キャラの大きさ）：不必要に小さくしない。コマ1＝side（キャラは通常サイズで左右の端、図は中央に2枚のカードと疑問バッジ。図が少ないので小さくする必要がない）、コマ2＝none（左右のカードと帯が主役）、コマ3＝faces（左に理由のカード3枚、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。
+- コマごとに読者が言えること：コマ1＝2肢は言い切りが逆（できる／できない）だが、どちらも×。コマ2＝分筆前から付いていた抵当権が写っただけなら抹消できる（D1850は誤り）。承諾で権利を消したなら分筆錯誤だけでは抹消を申請できない（D0649は誤り）。コマ3＝写っただけなら公示関係は複雑にならない。承諾で消すと権利の消滅まで登記され、分筆だけ抹消しても消えた抵当権は当然には復活しない。コマ4＝抵当権の有無ではなく、権利を消したかで決まる。
 
 ## 構成表（文言の正本）
 
 | 領域 | 話者・用途 | 正確な文言 | 強調 |
 |---|---|---|---|
-| タイトル帯 | — | 権利を消した分筆は、錯誤では戻せない | 「錯誤では戻せない」を黄色マーカー |
-| コマ1 見出し | ラベル | ①　問いの事案 | — |
-| コマ1 図 | 図・カード | 分筆の登記（抵当権が転写されただけ） / 分筆前から付いていた抵当権 / 分筆の登記（承諾で権利を消した） / 分筆のときに承諾の情報を提供 / あとから錯誤で抹消できるのは、どちら？ | — |
-| コマ1 | 藍子（左・先に話す） | 錯誤なら、いつでも抹消できますよね？ | — |
-| コマ1 | トリ先生（右・答える） | 出たわね。権利を消したかを見なさい | 「権利を消したか」 |
-| コマ2 見出し | ラベル | ②　出題者のねらい | — |
-| コマ2 図 | 図・カード | 出題者のねらい / 分筆のときに何をしたかで、結論が分かれる / 権利が転写されただけ / 錯誤を原因に、分筆の登記を抹消できる / 承諾で権利を消した / 分筆錯誤では、分筆の登記を抹消できない | — |
-| コマ3 見出し | ラベル | ③　ひっかけと勘違い | — |
-| コマ3 図 | 図・カード | よくある勘違い / 抵当権の登記がある土地の分筆は、どんな場合も錯誤では抹消できない / ひっかけ：抵当権の登記がある、という前提 / 正しい整理 / 権利を消していなければ抹消できる。消した分筆は分筆錯誤では戻せない / 理由：分筆が錯誤でも、権利を消したことまで錯誤とは限らない。是正は、権利の登記を抹消し、合筆して、改めて設定する | — |
-| コマ3 | 藍子（左・1番目） | 抵当権があると、抹消はできませんか？ | — |
-| コマ3 | トリ先生（右・2番目） | 分筆前からなら、抹消できるのよ | 「抹消できる」 |
-| コマ3 | 藍子（左・3番目） | 承諾で消したあとは、なぜだめですか？ | — |
-| コマ3 | トリ先生（右・4番目） | 権利を消したことまで、錯誤とは限らないのよ | 「錯誤とは限らない」 |
+| タイトル帯 | — | 錯誤で戻せるかは、権利を消したかで決まる | 「権利を消したか」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　逆の言い切り、両方×？ | — |
+| コマ1 図 | 図・カード | 肢D0649の言い分 / 承諾の情報を出した分筆であっても / 錯誤で抹消を申請できる / 肢D1850の言い分 / 抵当権の登記がある土地の分筆の後は / 錯誤で抹消はできない / 錯誤で、分筆の登記を抹消できる？ | — |
+| コマ1 | 藍子（左・先に話す） | 言い切りが逆なのに、両方×ですか？ | — |
+| コマ1 | トリ先生（右・答える） | 出たわね。どちらも言い切りすぎなのよ | 「言い切りすぎ」 |
+| コマ2 見出し | ラベル | ②　写っただけと、承諾で消した | — |
+| コマ2 図 | 図・カード | 同じ分筆の錯誤でも / 分筆のときに何をしたかで、結論が分かれる / 権利が写っただけ / 分筆前から付いていた抵当権が写っただけ / 錯誤で、分筆の登記を抹消できる / 肢D1850は、この場面で誤り / 承諾で権利を消した / 権利が消滅した旨の登記もされた / 分筆錯誤だけでは、抹消を申請できない / 肢D0649は、この場面で誤り / 分筆のときに、権利を消す登記までしたか / ここが、錯誤で戻せるかの分かれ目 | — |
+| コマ3 見出し | ラベル | ③　なぜ、そうなる？ | — |
+| コマ3 図 | 図・カード | 写っただけの分筆なら / 消えた権利はない / 公示関係は複雑にならない / 承諾の情報を出した分筆なら / 登記官は、権利が消滅した旨を登記する / （法40条） / 分筆の登記だけを抹消しても / 消えた抵当権は、当然には復活しない / 公示関係が複雑になる | — |
+| コマ3 | 藍子（左・1番目） | 抵当権があると、抹消できませんよね？ | — |
+| コマ3 | トリ先生（右・2番目） | それが罠。写っただけなら抹消できるのよ | 「写っただけ」 |
+| コマ3 | 藍子（左・3番目） | 承諾で消した後も、錯誤なら戻せませんか？ | — |
+| コマ3 | トリ先生（右・4番目） | 消えた抵当権は、当然には復活しないのよ | 「当然には復活しない」 |
 | コマ4 見出し | ラベル | ④　結論は両方× | — |
 | コマ4 図 | 図・カード |  | — |
-| コマ4 | 藍子（左・先に話す） | 権利を消したかどうかが分かれ目ですね！ | — |
-| コマ4 | トリ先生（右・答える） | そのとおり。消す前に、よく考えるのよ | 「消す前に」 |
-| コマ4 チェック欄 | 3項目（青✓） | 分筆前から付いていた抵当権が転写されただけなら、錯誤を原因に分筆の登記を抹消できる / 分筆のときに承諾で権利を消したなら、分筆錯誤を原因とする分筆の登記の抹消は、申請できない（条文に明記がなく、先例の扱い） / 是正するときは、権利の登記を抹消し、合筆して、改めて権利を設定する（先例の扱い） | — |
-| 結論帯 | 1行目 | 権利を消したかどうかで、錯誤で戻せるかが決まる | 黄色マーカー |
+| コマ4 | 藍子（左・先に話す） | 抵当権の有無ではなく、消したかですね！ | — |
+| コマ4 | トリ先生（右・答える） | そのとおり。言い切りは危ないわよ | 「言い切り」 |
+| コマ4 チェック欄 | 3項目（青✓） | 分筆前から付いていた抵当権が写っただけなら、錯誤で分筆の登記を抹消できる（肢D1850は×） / 承諾で権利を消したなら、分筆錯誤だけでは抹消を申請できない（肢D0649は×。条文に明記がなく、登記実務の整理） / 見分け方：抵当権があるかではなく、分筆のときに権利を消したかを見る | — |
+| 結論帯 | 1行目 | 権利を消せば戻せず、写っただけなら戻せる | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D0649・D1850　どちらも×（誤った記述） | — |
 
 ## プロンプト本体
@@ -77,60 +79,64 @@ LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
 - Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
 - Conclusion banner at the bottom (about 110 px tall).
 
-TITLE BANNER: text 「権利を消した分筆は、錯誤では戻せない」 in large bold letters; the part 「錯誤では戻せない」 has a yellow highlighter marker.
+TITLE BANNER: text 「錯誤で戻せるかは、権利を消したかで決まる」 in large bold letters; the part 「権利を消したか」 has a yellow highlighter marker.
 
-PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each about 190 px tall, roughly half of the panel height, with the same full-body look as in the other panels): 藍子 at the left edge and トリ先生 at the right edge, both standing in the lower part of the panel; do NOT make them smaller than this just to leave empty space, and reduce them by at most about 15% only if the speech bubbles or the diagram would otherwise not fit (see the LAYOUT lines below); 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
-- Label tab: 「①　問いの事案」
+PANEL 1 (puzzled, curious mood; both characters appear at the NORMAL size (each about 190 px tall, roughly half of the panel height, with the same full-body look as in the other panels): 藍子 at the left edge and トリ先生 at the right edge, both standing in the lower part of the panel; do NOT make them smaller than this just to leave empty space, and reduce them by at most about 15% only if the speech bubbles or the diagram would otherwise not fit (see the LAYOUT lines below); 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　逆の言い切り、両方×？」
 - LAYOUT (side characters): 藍子 stands at the left edge and トリ先生 at the right edge at the normal size, each taking only the outer 22% of the panel width, with their speech bubbles in the upper part above their own heads and never covering the diagram. The diagram described in the lines below is drawn large in the CENTER region only, between the two characters (about 56% of the panel width and the full panel height below the label tab); wherever a line below says the diagram fills the panel, it means this center region. The characters never overlap the diagram.
-- A diagram is drawn large in the center region: two simple land plot icons side by side, each with a dark navy tag above it and a white note card under it.
-- Left plot, tag 「分筆の登記（抵当権が転写されただけ）」, note card 「分筆前から付いていた抵当権」. Right plot, tag 「分筆の登記（承諾で権利を消した）」, note card 「分筆のときに承諾の情報を提供」.
-- A small question badge 「あとから錯誤で抹消できるのは、どちら？」 sits above the two plots (a question badge only, with no check mark and no cross).
-- 藍子 bubble (left, spoken first): 「錯誤なら、いつでも
-抹消できますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A diagram in the center, about 56 percent of the panel width: two SEPARATE cards stacked from top to bottom, both exactly the same size, each with the same pale gray fill and a dark navy outline, a small dark navy tag fully inside the top of the card, and two short dark navy body lines, with only a small empty gap between them. Do NOT draw any arrow anywhere in this panel, do NOT connect the cards, and draw no check mark and no cross.
+- Top card: tag 「肢D0649の言い分」, body lines 「承諾の情報を出した分筆であっても」 and 「錯誤で抹消を申請できる」.
+- Bottom card: tag 「肢D1850の言い分」, body lines 「抵当権の登記がある土地の分筆の後は」 and 「錯誤で抹消はできない」.
+- At the top, a small question badge in a gray fill with dark navy text 「錯誤で、分筆の登記を抹消できる？」 (a question badge only, with no check mark and no cross).
+- The two cards have clearly different texts; the texts are NOT identical, so copy each character exactly as given.
+- 藍子 bubble (left, spoken first): 「言い切りが逆なのに、
+両方×ですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「出たわね。
-権利を消したかを
-見なさい」 with the part 「権利を消したか」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+どちらも
+言い切りすぎなのよ」 with the part 「言い切りすぎ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
-- Label tab: 「②　出題者のねらい」
-- A full-width explanation panel fills the whole panel, with a small dark navy tag 「出題者のねらい」 at the top left and a line beside it: 「分筆のときに何をしたかで、結論が分かれる」.
-- Two large white cards side by side with dark navy outlines (no arrows and no connectors). Left card, heading 「権利が転写されただけ」, body 「錯誤を原因に、分筆の登記を抹消できる」. Right card, heading 「承諾で権利を消した」, body 「分筆錯誤では、分筆の登記を抹消できない」.
-- There is no check mark and no cross anywhere in this panel.
-
-PANEL 3 (surprised then convinced mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
-- Label tab: 「③　ひっかけと勘違い」
-- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
-- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
-- Two large cards side by side, with a wide example strip under them.
-- Left card, heading 「よくある勘違い」, body 「抵当権の登記がある土地の分筆は、どんな場合も錯誤では抹消できない」, with ONE red cross only (no check mark on this card); a dark navy ribbon tag under the body, with large white text, reads 「ひっかけ：抵当権の登記がある、という前提」.
-- Right card, heading 「正しい整理」, body 「権利を消していなければ抹消できる。消した分筆は分筆錯誤では戻せない」, with ONE blue check mark only (no cross on this card).
-- Example strip under the two cards: 「理由：分筆が錯誤でも、権利を消したことまで錯誤とは限らない。是正は、権利の登記を抹消し、合筆して、改めて設定する」.
+- Label tab: 「②　写っただけと、承諾で消した」
+- A small dark navy tag 「同じ分筆の錯誤でも」 at the top left, with one line beside it: 「分筆のときに何をしたかで、結論が分かれる」.
+- Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark, no cross, and no arrow anywhere in this panel. Only a small empty gap separates the two cards, with nothing drawn between them.
+- Left card: heading 「権利が写っただけ」, two body lines 「分筆前から付いていた抵当権が写っただけ」 and 「錯誤で、分筆の登記を抹消できる」, and a small dark navy tag 「肢D1850は、この場面で誤り」.
+- Right card: heading 「承諾で権利を消した」, two body lines 「権利が消滅した旨の登記もされた」 and 「分筆錯誤だけでは、抹消を申請できない」, and a small dark navy tag 「肢D0649は、この場面で誤り」.
+- Under the two cards, one wide dark navy band with white text in two lines: 「分筆のときに、権利を消す登記までしたか」 and 「ここが、錯誤で戻せるかの分かれ目」.
 - The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「抵当権があると、
-抹消はできませんか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「分筆前からなら、
-抹消できるのよ」 with the part 「抹消できる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「承諾で消したあとは、
-なぜだめですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「権利を消したことまで、
-錯誤とは限らないのよ」 with the part 「錯誤とは限らない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
-PANEL 4 (relieved and convinced mood; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
+- Label tab: 「③　なぜ、そうなる？」
+- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
+- Three stacked cards of the same size, from top to bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card and two short body lines, with no arrow, no connector, no check mark, and no cross. The cards are separated only by a small empty gap.
+- Card 1, heading 「写っただけの分筆なら」, body 「消えた権利はない」 and 「公示関係は複雑にならない」.
+- Card 2, heading 「承諾の情報を出した分筆なら」, body 「登記官は、権利が消滅した旨を登記する」 and 「（法40条）」.
+- Card 3, heading 「分筆の登記だけを抹消しても」, body 「消えた抵当権は、当然には復活しない」 and 「公示関係が複雑になる」.
+- There is no check mark and no cross anywhere in this panel.
+- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「抵当権があると、
+抹消できませんよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「それが罠。写っただけなら
+抹消できるのよ」 with the part 「写っただけ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「承諾で消した後も、
+錯誤なら戻せませんか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「消えた抵当権は、
+当然には復活しないのよ」 with the part 「当然には復活しない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は両方×」
-- 藍子 bubble (left, spoken first): 「権利を消したかどうかが
-分かれ目ですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, spoken first): 「抵当権の有無ではなく、
+消したかですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そのとおり。
-消す前に、
-よく考えるのよ」 with the part 「消す前に」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「分筆前から付いていた抵当権が転写されただけなら、錯誤を原因に分筆の登記を抹消できる」, 「分筆のときに承諾で権利を消したなら、分筆錯誤を原因とする分筆の登記の抹消は、申請できない（条文に明記がなく、先例の扱い）」, 「是正するときは、権利の登記を抹消し、合筆して、改めて権利を設定する（先例の扱い）」.
+言い切りは
+危ないわよ」 with the part 「言い切り」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「分筆前から付いていた抵当権が写っただけなら、錯誤で分筆の登記を抹消できる（肢D1850は×）」, 「承諾で権利を消したなら、分筆錯誤だけでは抹消を申請できない（肢D0649は×。条文に明記がなく、登記実務の整理）」, 「見分け方：抵当権があるかではなく、分筆のときに権利を消したかを見る」.
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
-- Line 1: 「権利を消したかどうかで、錯誤で戻せるかが決まる」 with a yellow highlighter marker.
+- Line 1: 「権利を消せば戻せず、写っただけなら戻せる」 with a yellow highlighter marker.
 - Line 2: 「問題D0649・D1850　どちらも×（誤った記述）」
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 地, 当, 承, 抵, 権, 登, 記, 請, 諾, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 地, 当, 承, 抵, 権, 無, 登, 肢, 記, 請, 諾 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm that panel 1, panel 2 and panel 3 contain no check mark and no cross anywhere, and that the only blue check marks in the whole image are the three in the checklist of panel 4; confirm that in panel 1 the TOP card has the tag 「肢D0649の言い分」 and the BOTTOM card has the tag 「肢D1850の言い分」, never swapped; confirm that in panel 2 the LEFT card has the heading 「権利が写っただけ」 with the tag 「肢D1850は、この場面で誤り」 and the RIGHT card has the heading 「承諾で権利を消した」 with the tag 「肢D0649は、この場面で誤り」, never swapped confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 保存名
@@ -142,10 +148,10 @@ Final check before rendering: confirm there are exactly four panels in one verti
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [x] 4コマの目的（最優先。`MANGA_RULES.md`）適用済み：設計メモに【出題者のひっかけ】【受験者の勘違い・定着していない点】【対比する制度】の3行を書いた
 - [ ] 工程B：`python3 tools/drill/manga/check_prompt.py tools/drill/manga/D0649-D1850_prompt.md` が NG 0件
-- [ ] 工程C：初見の読者：コマ1の事案（抵当権の登記がある土地を分筆し、あとで錯誤に気づく）と、コマ2の左右のカード（転写されただけ／承諾で消した）が対応している
-- [ ] 工程C：肝の確認：コマ2に『錯誤で抹消できる』⇔『分筆錯誤では抹消できない』の対比、コマ3に理由（権利を消滅させたことまで錯誤とは限らない）、コマ4の暗記3点に是正の手順（権利の登記を抹消→合筆→改めて設定）が入っている
-- [ ] 工程C：出典の確認：『条文に明記がなく、先例の扱い』という整理は、図も断定せず、そのように書く。先例は旧法下の根抵当権の事例で、現行法での直接の確認はできていない
-- [ ] 工程C：コマの使い方が隣り合うコマで同じにならない（side→none→faces→両方）。結論は両肢とも×
+- [ ] 工程C：初見の読者：コマ1で『抵当権の登記がある土地を分筆したあと、錯誤と分かった。D0649は〜でも抹消できる、D1850は〜抹消はできない、と逆に言い切る』、コマ2で『写っただけなら抹消できる／承諾で消したなら抹消を申請できない。D1850は左の場面で誤り、D0649は右の場面で誤り』、コマ3で『写っただけなら複雑にならない。承諾で消すと権利の消滅まで登記され、分筆だけ抹消しても復活しない』が言える
+- [ ] 工程C：肝の確認：①写っただけなら錯誤で抹消できる（R05-Q09ア） ②承諾で権利を消したなら分筆錯誤だけでは抹消を申請できない（H23-Q08エ。条文に明記なく、登記実務の整理） ③承諾の情報があると、登記官は権利が消滅した旨を登記する（法40条） ④消えた抵当権は分筆の登記を抹消しても当然には復活しない ⑤D0649もD1850も×
+- [ ] 工程C：構成表の全文言を記事・法令DBと突き合わせ：『分筆前から付いていた抵当権』『権利が消滅した旨を登記』『当然には復活しない』『公示関係が複雑』『条文に明記がなく、登記実務の整理』。是正の手続・出題当時の言い方・『権利を消したことまで錯誤とは限らない』は入れていない
+- [ ] 工程C：コマ1〜3に印がなく、コマ4だけ青✓。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -161,4 +167,4 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
-- 2026-10-09 v01：初版（条文別『苦手克服』シリーズ（note-articles/joubun-nigate/）の第40条用。分筆のあとの錯誤による抹消を問う2肢を1本にまとめた。ChatGPTでの生成・検品はまだ）
+- 2026-10-11 v02：最新ルールで作り直し（型4＋型3。2肢を『言い切りが逆でどちらも×』の対比で1本にした。是正の手続（権利の登記を抹消→合筆→改めて設定）・『権利を消したことまで錯誤とは限らない』・タイトルの偏りを除き、理由をコマ3の3枚のカードに両側を入れた。コマ1をsideにした。ChatGPTでの生成・検品はまだ）
