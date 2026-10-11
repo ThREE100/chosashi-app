@@ -1,4 +1,4 @@
-# 不動産登記事務取扱手続準則 第79条第3号（家屋番号の定め方）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（ブランチ claude/kind-bell-y3f106）。
+# 不動産登記事務取扱手続準則 第79条第3号（家屋番号の定め方）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（mainブランチ）。
 """D1659（条文中心版）：不動産登記事務取扱手続準則 第79条第3号の本則と、管轄を異にするときのなお書き。"""
 
 SPEC = dict(

@@ -1,4 +1,4 @@
-# 不動産登記令 第13条と調査士報告方式の取扱い：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（ブランチ claude/kind-bell-y3f106）。
+# 不動産登記令 第13条と調査士報告方式の取扱い：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（mainブランチ）。
 """D1633（R03-Q04エ）を、不動産登記令第13条（条文の原則）と調査士報告方式（通達による取扱い）の二層で説明する4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。"""
 
 SPEC = dict(

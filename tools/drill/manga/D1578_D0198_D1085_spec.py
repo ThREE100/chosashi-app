@@ -1,6 +1,6 @@
 """D1578・D0198・D1085 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。
 
-使い方（ブランチ claude/kind-bell-y3f106 の tools/drill/manga/ で）:
+使い方（tools/drill/manga/ で）:
   1. manga_specs.py に次の2行を足す（SPECS の定義と HEADERS の定義のあとに）。
        from D1578_D0198_D1085_spec import SPEC, HEADER
        SPEC["header"] = HEADER; SPECS[SPEC["fid"]] = SPEC

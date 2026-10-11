@@ -1,5 +1,5 @@
 """D0411・D0413 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。
-使い方（ブランチ claude/kind-bell-y3f106 の tools/drill/manga/ で）:
+使い方（tools/drill/manga/ で）:
   python3 tools/drill/manga/render_spec.py tools/drill/manga/D0411_D0413_spec.py"""
 
 SPEC = dict(

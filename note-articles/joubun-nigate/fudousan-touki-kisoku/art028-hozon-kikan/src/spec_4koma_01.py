@@ -1,4 +1,4 @@
-# 不動産登記規則 第28条・第28条の2（保存期間）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（ブランチ claude/kind-bell-y3f106）。
+# 不動産登記規則 第28条・第28条の2（保存期間）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（mainブランチ）。
 """D1596・D1728・D2023 の4コマ解説図解（条文版：不動産登記規則第28条・第28条の2）の設計データ（SPEC）と見出し画像の設定（HEADER）。"""
 
 SPEC = dict(

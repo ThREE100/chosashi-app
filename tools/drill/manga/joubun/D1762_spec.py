@@ -1,4 +1,4 @@
-# 不動産登記規則 別表二・別表三（建物の表題部の所在欄・構造欄）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（ブランチ claude/kind-bell-y3f106）。
+# 不動産登記規則 別表二・別表三（建物の表題部の所在欄・構造欄）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（mainブランチ）。
 """D1762（規則別表二・別表三を主役にした版）の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。"""
 
 SPEC = dict(

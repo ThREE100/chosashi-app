@@ -1,4 +1,4 @@
-# 民法 第921条第1号（法定単純承認）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（ブランチ claude/kind-bell-y3f106）。
+# 民法 第921条第1号（法定単純承認）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（mainブランチ）。
 """D2016（R07-Q03エ）を、民法第921条第1号の条文そのものを主役にして作る4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。"""
 
 SPEC = dict(

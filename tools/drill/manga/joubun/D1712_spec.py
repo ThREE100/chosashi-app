@@ -1,4 +1,4 @@
-# 土地家屋調査士法 第22条・第41条第1項（依頼に応ずる義務と法人への準用）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（ブランチ claude/kind-bell-y3f106）。
+# 土地家屋調査士法 第22条・第41条第1項（依頼に応ずる義務と法人への準用）：4コマ1本の設計データ（SPEC と HEADER）。生成は tools/drill/manga/gen_prompts.py（mainブランチ）。
 """D1712（条文版：土地家屋調査士法 第22条・第41条第1項）の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。"""
 
 SPEC = dict(
