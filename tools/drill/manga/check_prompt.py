@@ -358,6 +358,11 @@ def main():
     # 10i キャラクターの大きさの方針（2026-10-11 ユーザー指示。不必要に小さくしない）が冒頭にある
     if "CHARACTER SIZE POLICY" not in main_body:
         WARN("冒頭に CHARACTER SIZE POLICY（キャラを不必要に小さくしない方針）がない（生成器で再生成する）")
+    # 10j 表情の記号（！？など）を許し、生成後の自動修正（余分な記号の削除・再生成）をさせない文がある（2026-10-11 ユーザー指示）
+    if "EXPRESSION MARKS (allowed)" not in main_body or "SINGLE PASS" not in main_body:
+        WARN("冒頭に EXPRESSION MARKS（表情の記号を許す）と SINGLE PASS（生成後に直さない）の文がない（生成器で再生成する）")
+    if "deliver the first image as it is" not in final:
+        WARN("Final check の末尾に『最初の1枚をそのまま出す』文がない（生成器で再生成する）")
     # 10h 過去に字が崩れた語は、Final check で綴りを確認させる
     for w, bad in GARBLED.items():
         if w in main_body and f"「{w}」" not in final:
