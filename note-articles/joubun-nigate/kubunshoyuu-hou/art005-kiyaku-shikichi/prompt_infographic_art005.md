@@ -202,10 +202,10 @@ Subtitle (smaller, centered, 1 line):
 「区分所有法 第5条・第22条」
 --- TABLE ---
 Render as a clean flat-design table with alternating row background colors, Japanese sans-serif font, no monospace font. Exactly 4 columns and exactly 5 data rows, no merged cells. Draw no check mark and no cross mark.
-Header row (dark navy cells with white text), in this order: 「登記」, 「規約を設定したことを証する情報」, 「規約の廃止や、分離処分できる事由を証する情報」, 「他の登記所の土地の登記事項証明書」.
+Header row (dark navy cells with white text), in this order: 「登記」, 「規約敷地を定める規約を設定したことを証する情報」, 「規約の廃止や、分離処分できる事由を証する情報」, 「他の登記所の土地の登記事項証明書」.
 Data row 1: 「区分建物の表題登記」, 「要る（規約敷地のとき）」, 「分離処分可能規約で敷地権とならないときは、その事由の証明」, 「要る」.
 Data row 2: 「敷地権が生じる変更の登記」, 「要る」, 「敷地権でなかった権利が敷地権となるときは、その事由の証明」, 「要る」.
-Data row 3: 「敷地権が消える変更の登記」, 「要らない」, 「要る（廃止の証明、またはその他の事由の証明）」, 「要らない」.
+Data row 3: 「敷地権が消える変更の登記」, 「要らない」, 「要る（廃止の証明、または分離処分可能規約の別段の定めなどの事由の証明）」, 「要らない」.
 Data row 4: 「敷地権付き区分建物どうしの合体（割合を合算）」, 「要らない」, 「要らない」, 「要らない」.
 Data row 5: 「土地の分筆」, 「要らない」, 「要らない」, 「要らない」.
 In the cells, the words beginning with 「要る」 are written in BLUE and the words 「要らない」 are written in RED; the longer cells that begin with other words are written in dark navy. Use words only.
