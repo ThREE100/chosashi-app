@@ -339,7 +339,7 @@ def main():
             if re.search(r"(?<![-\w])(red|blue)\b", ln, re.I) and not re.search(r"check mark|cross|「はい」|「いいえ」|OPPOSITE|opposite|no check", ln, re.I) and "- A checklist" not in ln:
                 WARN(f"{tag}: 青・赤を○×・はい／いいえ以外に使っていないか確認: {ln[:70]}")
         # 10c キャラの大きさは数値（px）で指定する
-        if ("face icons" in head1 or "VERY SMALL" in head1) and "px" not in head1:
+        if ("face icons" in head1 or "SMALLER than in the other panels" in head1) and "px" not in head1:
             R(f"{tag}: 顔アイコン・小さなキャラの大きさが数値（px）で指定されていない")
         # 10d キャラなしのコマに吹き出しを置かない
         if "NO character" in head1 and re.search(r"bubble", blk.split("\n", 1)[1]):
@@ -355,6 +355,9 @@ def main():
     # 10g 強調語（黄色マーカー）が吹き出しの文中にある（改行は除いて照合）
     for bm in re.finditer(r"bubble[^:]*: 「([^」]+)」 with the part 「([^」]+)」 highlighted", main_body):
         if bm.group(2) not in bm.group(1).replace("\n", ""): NG(f"強調語が吹き出しの文中にない: 「{bm.group(2)}」 / 「{bm.group(1).replace(chr(10), '/')}」")
+    # 10i キャラクターの大きさの方針（2026-10-11 ユーザー指示。不必要に小さくしない）が冒頭にある
+    if "CHARACTER SIZE POLICY" not in main_body:
+        WARN("冒頭に CHARACTER SIZE POLICY（キャラを不必要に小さくしない方針）がない（生成器で再生成する）")
     # 10h 過去に字が崩れた語は、Final check で綴りを確認させる
     for w, bad in GARBLED.items():
         if w in main_body and f"「{w}」" not in final:
