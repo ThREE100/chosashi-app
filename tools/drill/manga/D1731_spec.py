@@ -1,0 +1,72 @@
+"""D1731 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+R04-Q04オ（土地の表題部所有者の持分の更正の登記の申請を書面を提出する方法により行った場合における申請書の保存期間は、受付の日から30年間・〇）。
+『表示に関する登記の申請書（規則28条9号）』と『権利に関する登記の申請書（同条10号）』の対比に絞った。どちらも受付の日から30年だが、号が違う。表題部所有者の持分の更正は表示に関する登記。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1731", fid="D1731", topic="不動産登記法／登記制度・総則（登記官・図面・保存期間・管轄・通知）", src="R04-Q04オ",
+    truth="〇（正しい記述）",
+    miscon="表題部所有者の持分の更正は権利に関する登記だと考える、または、更正の申請書は特別に長い（短い）期間保存されると考える（表示に関する登記の申請書は、受付の日から30年間であることを見落とす）",
+    article="note-articles/r4-mondai/q04-hozon-kikan.md",
+    art_head="オ（書面申請の申請書は、受付の日から30年間）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『表題部所有者の持分の更正の登記』と、登記の種類を細かく書く。『更正』や『持分』という言葉から権利に関する登記を連想させ、表示に関する登記の申請書の保存期間（9号）と権利に関する登記の申請書の保存期間（10号）のどちらかを迷わせる。",
+        "【受験者の勘違い・定着していない点】（推測）①表題部所有者の持分の更正が、表示に関する登記か権利に関する登記かが判断できない。②規則28条の号（9号・10号）と年数が結びついていない。③表示に関する登記の申請書の保存期間は受付の日から30年間、という数字が定着していない。",
+        "【対比する制度】「表示に関する登記」⇔「権利に関する登記」（申請情報・添付情報の保存期間。規則28条9号と10号）：どちらも受付の日から30年間だが、号が違う。表題部所有者の持分の更正は表示に関する登記なので9号（記事オ）。",
+        "【型の選び方】型：型3（理由説明）。登記の種類を判定する流れがこの肢の肝なので、コマ1で『更正は権利の登記では？』という迷いを出し、コマ2で9号と10号を左右に並べ、コマ3で『表題部は表示に関する登記』という判定を上下のカードにした。",
+        "記事の範囲：R04-Q04オ（規則28条9号・10号）。表示に関する登記の申請情報とその添付情報は受付の日から30年間（9号）。権利に関する登記の申請情報とその添付情報も同じく30年間（10号）。",
+        "登場人物：人型は使わず、申請書は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①表示に関する登記の申請情報・添付情報は受付の日から30年間（規則28条9号）②権利に関する登記の申請情報・添付情報も受付の日から30年間（同条10号）③表題部所有者の持分の更正は表示に関する登記④肢D1731は『30年間』なので〇",
+    ],
+    extra_refs=[
+        "不動産登記規則28条9号・10号の文言は、記事オに引用されており、法令DB（note-articles/laws/）と照合済み。ほかの保存期間（4号・5号など）は記事オにないので図に入れない",
+    ],
+    lead1="土地の表題部所有者の持分の更正の登記を、書面を提出する方法で申請しました。この申請書は、登記所で何年間保存されるのでしょうか。",
+    title="表示の登記の申請書は、受付の日から30年", title_hl="受付の日から30年",
+    panels=[
+        dict(label="①　更正の申請書は、何年？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "更正の登記って、権利の登記ですよね？", None, "更正の登記って、\n権利の登記ですよね？"),
+                      ("トリ先生", "表題部の登記は、どっちなの", "どっちなの", "表題部の登記は、\nどっちなの")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「土地の表題部所有者の持分の更正」. Card 2: 「書面を提出する方法で申請」. Card 3: 「申請書は、登記所で保存される」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「申請書は、何年間保存される？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　表示の登記と、権利の登記", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「保存期間は、登記の種類の号で決まる」 at the top left, with one line beside it: 「申請情報とその添付情報」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「表示に関する登記」, a small tag 「規則28条9号」, two body lines: 「申請情報とその添付情報」, 「受付の日から30年間」.",
+                  "Right card, heading 「権利に関する登記」, a small tag 「規則28条10号」, two body lines: 「申請情報とその添付情報」, 「同じく受付の日から30年間」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、表示に関する登記の申請書」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　どちらの登記かを見分ける", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "持分の更正は、権利の登記では？", None, "持分の更正は、\n権利の登記では？"),
+                      ("トリ先生", "表題部所有者は、表示に関する登記よ", "表示に関する登記", "表題部所有者は、\n表示に関する登記よ"),
+                      ("藍子", "じゃあ、何号になりますか？", None, "じゃあ、\n何号になりますか？"),
+                      ("トリ先生", "9号で、受付の日から30年間なの", "9号", "9号で、受付の日から\n30年間なの")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「権利に関する登記だと考える（10号）」, body 「表題部所有者の持分の更正は、権利の登記ではない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「表示に関する登記（9号）」, body 「表題部の登記なので、申請書は受付の日から30年間」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "表示の登記の申請書は、30年なんですね！", None, "表示の登記の申請書は、\n30年なんですね！"),
+                      ("トリ先生", "そう。30年と書けば〇よ", "30年と書けば〇", "そう。30年と\n書けば〇よ")],
+             fig=[], checklist=["表示に関する登記の申請情報・添付情報は、受付の日から30年間（規則28条9号）", "権利に関する登記も受付の日から30年間（同条10号）", "表題部所有者の持分の更正は、表示に関する登記"])
+    ],
+    band1="表示に関する登記の申請書は、受付の日から30年間", band2="問題D1731　正解〇（R04-Q04オ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明。表示に関する登記（9号）と権利に関する登記（10号）の対比と、登記の種類の見分けに絞った）"],
+)
+
+HEADER = dict(h1="申請書の保存期間", h2="何年間？", hkey="何年間？",
+              scene_l="a stack of application papers on a shelf in a records room with a small calendar, no text",
+              scene_r="a rubber stamp pressing a date onto a document sheet, no text")

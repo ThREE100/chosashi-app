@@ -1,0 +1,72 @@
+"""D1850 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+R05-Q09ア（抵当権の設定の登記がされた土地について分筆の登記がされた後は、錯誤を原因とする当該分筆の登記の抹消をすることはできない・×）。
+『分筆と同時に消滅承諾書で一部の抵当権を消した場合（抹消できない）』と『分筆の前から付いていた抵当権（抹消できる）』の対比に絞った。記事アに条文の引用はないので、図にも条文番号は入れない。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1850", fid="D1850", topic="不動産登記法／土地の分筆・合筆・地積更正", src="R05-Q09ア",
+    truth="×（誤った記述）",
+    miscon="抵当権が付いた土地を分筆した後は、権利関係が複雑になるので、錯誤でも分筆の登記は抹消できないと考える（抹消できなくなるのが、分筆と同時に抵当権を一部消した場合だけであることを見落とす）",
+    article="note-articles/r5-mondai/q09-bunpitsu.md",
+    art_head="ア（分筆前に付いた抵当権なら、錯誤による分筆登記の抹消はできる）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『抵当権の設定の登記がされた土地について分筆の登記がされた後は』と一般論の形で書く。『抵当権が付いていれば、分筆後は抹消できない』という覚え方に乗せ、抹消できなくなるのは分筆と同時に消滅承諾書で抵当権を消した場合に限られることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①抵当権があると登記が複雑になるので、分筆の抹消はできないと広く覚えている。②『分筆と同時に抵当権を一部消した場合』と『分筆の前から付いていた抵当権』を区別していない。③錯誤による分筆登記の抹消が原則できることが結びついていない。",
+        "【対比する制度】「分筆の前から抵当権あり」⇔「分筆と同時に抵当権を消した」：前者は公示関係が複雑になり、分筆の抹消はできない（いったんすべての権利を消して合筆し、改めて登記し直す）／後者は複雑化せず、錯誤を原因とする分筆登記の抹消ができる（結論が逆になる点）。",
+        "【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で『抵当権が付いた土地を分筆してしまった』という場面を出し、コマ2で2つの場面を左右に並べ、コマ3で『なぜ抹消できなくなる場合があるのか』の理由（公示関係の複雑化）を上下のカードにした。",
+        "記事の範囲：R05-Q09ア。条文の引用は記事にないので、図にも条文番号は入れない（『消滅承諾書』『錯誤』『公示関係が複雑』は記事の言葉）。",
+        "登場人物：人型は使わず、土地・抵当権は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①分筆と同時に消滅承諾書で抵当権を一部消した場合は、分筆登記の抹消ができない②分筆の前から抵当権が付いていた場合は、錯誤を原因とする分筆登記の抹消ができる③肢D1850は『抹消することはできない』なので×",
+    ],
+    extra_refs=[
+        "この肢の結論は記事アの整理による。記事に条文の引用はないので、図にも条文番号は入れない",
+    ],
+    lead1="抵当権の設定の登記がされた土地について、分筆の登記がされました。この分筆が錯誤によるものだったとき、あとからその分筆の登記を抹消できるのでしょうか。",
+    title="分筆の前からの抵当権なら、錯誤で抹消できる", title_hl="錯誤で抹消できる",
+    panels=[
+        dict(label="①　抵当権つきの土地を、誤って分筆", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "抵当権があると、抹消できませんよね？", None, "抵当権があると、\n抹消できませんよね？"),
+                      ("トリ先生", "いつ付いた抵当権か、見るのよ", "いつ付いた", "いつ付いた\n抵当権か、\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「もとから抵当権が付いている土地」. Card 2: 「測量ミスで、誤って分筆してしまった」. Card 3: 「分筆の登記を、錯誤で抹消したい」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「分筆登記の抹消はできる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　抹消できる場合と、できない場合", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「同じ抵当権つきの土地でも」 at the top left, with one line beside it: 「抹消できるかは、抵当権の付き方で分かれる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「分筆の前から抵当権あり」, two body lines: 「分筆と同時の消滅承諾は、なし」, 「錯誤による分筆の抹消ができる」.",
+                  "Right card, heading 「分筆と同時に抵当権を消した」, two body lines: 「消滅承諾書で一部の抵当権を消した」, 「分筆の抹消はできない」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、分筆の前からの抵当権」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　なぜ、抹消できなくなる？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "抹消できなくなるのは、どんなときですか？", None, "抹消できなく\nなるのは、\nどんなときですか？"),
+                      ("トリ先生", "分筆と同時に、抵当権を消したときよ", "同時に、抵当権を消した", "分筆と同時に、\n抵当権を消したときよ"),
+                      ("藍子", "この肢は、どうなりますか？", None, "この肢は、\nどうなりますか？"),
+                      ("トリ先生", "もとから付いていたから、抹消できるの", "抹消できる", "もとから付いていたから、\n抹消できるの")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「分筆と同時に抵当権を一部消した」, body 「公示関係が複雑になる。いったんすべての権利を消し、合筆して登記し直す」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「分筆の前から付いていた抵当権」, body 「複雑化しない。錯誤による分筆登記の抹消ができる」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "もとからの抵当権なら、抹消できるんですね！", None, "もとからの抵当権なら、\n抹消できるんですね！"),
+                      ("トリ先生", "そう。できないと書けば×よ", "できないと書けば×", "そう。できないと\n書けば×よ")],
+             fig=[], checklist=["分筆と同時に消滅承諾書で抵当権を消した場合は、分筆の抹消はできない", "分筆の前から付いていた抵当権なら、錯誤による分筆登記の抹消ができる", "理由：前者は公示関係が複雑になるが、後者は複雑化しない"])
+    ],
+    band1="分筆の前から付いていた抵当権なら、分筆の抹消はできる", band2="問題D1850　正解×（R05-Q09ア）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。『分筆と同時に抵当権を消した場合』と『分筆の前からの抵当権』の対比に絞った。記事に条文の引用がないので図にも条文番号は入れていない）"],
+)
+
+HEADER = dict(h1="抵当権つきの土地の分筆", h2="錯誤で抹消できる？", hkey="できる？",
+              scene_l="a land plot with a small house-shaped key icon and a thin dividing line, no text",
+              scene_r="an eraser rubbing out a line across a land plot on a blank map, no text")

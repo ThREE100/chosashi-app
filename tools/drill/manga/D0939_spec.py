@@ -1,0 +1,72 @@
+"""D0939 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H26-Q06ウ（乙土地について合筆の登記がされたことにより、平成18年3月15日にされた分筆の登記において備え付けられた地積測量図は閉鎖される・×）。
+『地積測量図が閉鎖される事由（規則85条2項）』と『合筆の登記（含まれない）』の対比に絞った。逆の結論になる類似肢はD0937。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0939", fid="D0939", topic="不動産登記法／土地の滅失・地図・地積測量図・土地所在図", src="H26-Q06ウ",
+    truth="×（誤った記述）",
+    miscon="合筆で土地の形が変わるので、以前の分筆のときの地積測量図は古くなって閉鎖されると考える（閉鎖事由が規則85条2項に限られることを見落とす）",
+    article="note-articles/h26-mondai/q06-chisekisokuryouzu-heisa.md",
+    art_head="ウ（合筆の登記があっても、先行する分筆の登記の地積測量図は閉鎖されない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『合筆の登記が平成26年8月19日にされたことにより』『平成18年3月15日にされた分筆の登記において登記所に備え付けられた地積測量図は閉鎖される』と、日付を並べる。合筆の登記があれば古い図面は閉鎖される、という感覚に乗せ、閉鎖事由が限られていることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①土地の形や面積が変わると、古い図面は閉鎖されると考える。②閉鎖事由（規則85条2項）を条文どおりに覚えておらず、合筆が含まれないことに気づかない。③『変更後・更正後の図面がある変更・更正の登記』は閉鎖されるが、合筆はそれに当たらないことが結びついていない。",
+        "【対比する制度】「地積測量図が閉鎖される場合」⇔「合筆の登記」（変更後・更正後の図面がある変更・更正の登記、滅失の登記・表題部の抹消、換地処分の登記と、閉鎖事由に含まれない合筆）：結論が逆になる点。",
+        "【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で2つの日付（分筆・合筆）を出し、コマ2で閉鎖事由と合筆を左右に並べ、コマ3で『閉鎖事由に合筆は入っていない』理由を上下のカードにした。",
+        "記事の範囲：H26-Q06ウ（規則85条2項各号）。問題の前提の登記記録（157番など）は図に入れず、乙土地157番6と合筆された157番7、平成18年3月15日の分筆、平成26年8月19日の合筆だけを使う。逆の結論になる類似肢はD0937（図には入れない）。",
+        "登場人物：人型は使わず、土地・図面は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①地積測量図の閉鎖事由は規則85条2項各号に限られる（変更後・更正後の図面がある変更・更正の登記、滅失の登記・表題部の抹消、換地処分の登記）②合筆の登記は閉鎖事由に含まれない③肢D0939は『閉鎖される』なので×",
+    ],
+    extra_refs=[
+        "不動産登記規則85条2項の文言は、記事ウに引用された内容（変更後・更正後の図面がある変更・更正の登記、滅失の登記・表題部の抹消、換地処分の登記）を図にそろえた。法令DB（note-articles/laws/）と照合済み",
+    ],
+    lead1="157番6の土地に、157番7を合筆する登記がされました。平成18年3月15日の分筆の登記のときに備え付けられた地積測量図は、この合筆によってどうなるのでしょうか。",
+    title="合筆をしても、先の分筆の地積測量図は閉鎖されない", title_hl="閉鎖されない",
+    panels=[
+        dict(label="①　合筆したら、古い図面は？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "合筆したら、古い図面は閉鎖されますよね？", None, "合筆したら、\n古い図面は\n閉鎖されますよね？"),
+                      ("トリ先生", "閉鎖事由を思い出しなさい", "閉鎖事由", "閉鎖事由を\n思い出しなさい")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「平成18年3月15日　分筆（地積測量図を備え付け）」. Card 2: 「平成26年8月19日　157番7を合筆」. Card 3: 「先の分筆の地積測量図は、どうなる？」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「地積測量図は、閉鎖される？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　閉鎖される場合と、合筆", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「地積測量図が閉鎖される場合は、限られる」 at the top left, with one line beside it: 「合筆の登記は、その中に入っているか」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「地積測量図が閉鎖される場合」, a small tag 「規則85条2項」, three body lines: 「変更後・更正後の図面がある変更・更正の登記」, 「滅失の登記・表題部の抹消」, 「換地処分の登記」.",
+                  "Right card, heading 「合筆の登記」, two body lines: 「閉鎖事由に入っていない」, 「だから、閉鎖されない」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、合筆の登記」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　なぜ、閉鎖されない？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "なぜ、合筆では閉鎖されませんか？", None, "なぜ、合筆では\n閉鎖されませんか？"),
+                      ("トリ先生", "閉鎖事由に、合筆は入っていないの", "合筆は入っていない", "閉鎖事由に、\n合筆は入っていないの"),
+                      ("藍子", "閉鎖されるのは、どんなときですか？", None, "閉鎖されるのは、\nどんなときですか？"),
+                      ("トリ先生", "変更後の図面がある変更や更正などよ", "変更後の図面", "変更後の図面がある\n変更や更正などよ")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「合筆の登記」, body 「閉鎖事由に入っていない。先の分筆の地積測量図は閉鎖されない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「変更後・更正後の図面がある登記など」, body 「閉鎖事由。古い地積測量図は閉鎖される」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "合筆では、先の図面は閉鎖されないんですね！", None, "合筆では、\n先の図面は閉鎖されない\nんですね！"),
+                      ("トリ先生", "そう。閉鎖されると書けば×よ", "閉鎖されると書けば×", "そう。閉鎖されると\n書けば×よ")],
+             fig=[], checklist=["地積測量図の閉鎖事由は、規則85条2項各号に限られる", "合筆の登記は閉鎖事由に含まれない", "先の分筆のときの地積測量図は、合筆でも閉鎖されない"])
+    ],
+    band1="合筆では、先の分筆の地積測量図は閉鎖されない", band2="問題D0939　正解×（H26-Q06ウ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。閉鎖事由（規則85条2項）と合筆の対比に絞った）"],
+)
+
+HEADER = dict(h1="合筆をしたら", h2="古い図面は？", hkey="古い図面は？",
+              scene_l="two land plots being merged into one on a map, no text",
+              scene_r="an old rolled drawing sheet in a folder with a small closed-lock icon, no text")

@@ -1,0 +1,72 @@
+"""D1753 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+R04-Q09イ（いずれも同一の区分建物の敷地権である旨の登記がされている甲土地及び乙土地について、合筆の登記を申請することはできない・〇）。
+『合筆後も登記できる例外の権利（承役地の地役権など）』と『敷地権である旨の登記（例外に入っていない）』の対比に絞った。記事は、この扱いが41条6号の文言から直接読み取れず先例に基づく実務の取扱いだと注記しているので、図でもそれにそろえた。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1753", fid="D1753", topic="不動産登記法／土地の分筆・合筆・地積更正", src="R04-Q09イ",
+    truth="〇（正しい記述）",
+    miscon="同一の区分建物の敷地で、所有権の登記名義人も同じなら、合筆してよいと考える（敷地権である旨の登記を、合筆の制限に関わらない登記と見てしまう）",
+    article="note-articles/r4-mondai/q09-gappitsu.md",
+    art_head="イ（敷地権である旨の登記がある土地は、同一の区分建物の敷地でも合筆できない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『同一の区分建物の敷地権である旨の登記』と、同じ建物の敷地であることを強調する。『同じ建物の敷地なら一体として扱える』という感覚に乗せ、敷地権である旨の登記があること自体が合筆できない原因であることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①名義人が同じ・隣接・同じ建物の敷地と条件が揃っているので合筆できると考える。②合筆の制限（法41条6号）を『用益権や担保権』と覚え、敷地権である旨の登記が含まれることが結びついていない。③合筆後も登記できる権利が限られる（規則105条）ことと、敷地権である旨の登記がその例外に入らないことが結びついていない。",
+        "【対比する制度】「例外として残せる登記」⇔「敷地権である旨の登記」（合筆後も登記できる権利〔承役地の地役権など〕と対比）：41条6号は所有権以外の権利の登記がある土地の合筆を制限し、例外は規則105条の限られた権利だけ。敷地権である旨の登記（法46条）はその例外に含まれず、合筆できない（結論が逆になる点）。",
+        "【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で『同じ建物の敷地なら合筆できる』という思い込みを出し、コマ2で例外の権利と敷地権である旨の登記を左右に並べ、コマ3で『例外に入っていない』理由を上下のカードにした。",
+        "記事の範囲：R04-Q09イ（41条6号、規則105条、法46条）。敷地権である旨の登記がある土地は合筆できないが、この扱いは41条6号の文言から直接読み取れるものではなく先例に基づく実務の取扱い（記事の注記）。先例の番号は記事にないので図にも入れない。",
+        "登場人物：土地は文字のカードで示す（人型にしない）。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①所有権以外の権利の登記がある土地は合筆できない（法41条6号）②例外は規則105条の限られた権利（承役地の地役権など）③敷地権である旨の登記（法46条）は例外に入らず合筆できない④この扱いは条文の文言から直接読めず実務の取扱い（記事の注記）⑤肢D1753は『申請することはできない』なので〇",
+    ],
+    extra_refs=[
+        "不動産登記法41条6号・不動産登記規則105条・不動産登記法46条の文言は、記事イに引用されており、法令DB（note-articles/laws/）と照合済み",
+        "『敷地権である旨の登記がある土地は合筆できない』：記事イの整理による。41条6号の文言から直接読み取れず、実務の取扱いである旨を図でも書く（ユーザーに伝える）",
+    ],
+    lead1="所有権の登記名義人が同じ、隣り合う甲土地と乙土地があります。どちらも、同じ区分建物の敷地権である旨の登記がされています。この2筆について、合筆の登記を申請できるのでしょうか。",
+    title="敷地権の登記がある土地は、合筆できない", title_hl="合筆できない",
+    panels=[
+        dict(label="①　同じ建物の敷地なら、合筆できる？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "同じ建物の敷地なら、合筆できますよね？", None, "同じ建物の敷地なら、\n合筆できますよね？"),
+                      ("トリ先生", "出たわね。登記に何が付いているか見るのよ", "何が付いているか", "出たわね。\n登記に何が付いているか\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: one small card at the top labeled 「同じ区分建物」, and below it two adjacent land blocks of the same size side by side labeled 「甲土地」 (left) and 「乙土地」 (right), separated only by a small empty gap, with the caption 「所有権の登記名義人は同じ」. Under each land block, a small dark navy tag 「敷地権である旨の登記あり」. Do NOT draw any arrow anywhere in this panel and do NOT connect the shapes.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「合筆の登記を申請できる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　合筆後も残せる登記と、残せない登記", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「合筆の制限は、権利の登記しだい」 at the top left, with one line beside it: 「41条6号：所有権以外の権利の登記がある土地は合筆できない」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「例外として残せる登記」, a small tag 「規則105条」, two body lines: 「承役地の地役権の登記など」, 「限られた権利だけ」.",
+                  "Right card, heading 「敷地権である旨の登記」, a small tag 「法46条」, two body lines: 「例外に含まれていない」, 「だから、合筆できない」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、敷地権である旨の登記がある土地」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　なぜ、合筆できない？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "敷地権の登記は、条文に書いてありますか？", None, "敷地権の登記は、\n条文に書いてありますか？"),
+                      ("トリ先生", "41条6号の文言からは読めないの", "文言からは読めない", "41条6号の文言からは\n読めないの"),
+                      ("藍子", "じゃあ、どう覚えるんですか？", None, "じゃあ、\nどう覚えるんですか？"),
+                      ("トリ先生", "実務の取扱いで、合筆できないのよ", "実務の取扱い", "実務の取扱いで、\n合筆できないのよ")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「敷地権である旨の登記がある土地」, body 「規則105条の例外に含まれず、実務の取扱いで合筆できない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「承役地の地役権の登記がある土地」, body 「規則105条の例外。合筆後の土地にも登記できる」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "敷地権の登記がある土地は、合筆できないんですね！", None, "敷地権の登記がある\n土地は、合筆できない\nんですね！"),
+                      ("トリ先生", "そう。できないと書けば〇よ", "できないと書けば〇", "そう。できないと\n書けば〇よ")],
+             fig=[], checklist=["所有権以外の権利の登記がある土地は合筆できない（法41条6号）", "例外は承役地の地役権など限られた権利（規則105条）", "敷地権である旨の登記（法46条）がある土地は合筆できない（実務の取扱い）"])
+    ],
+    band1="敷地権である旨の登記がある土地は、合筆できない", band2="問題D1753　正解〇（R04-Q09イ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。例外の権利と敷地権である旨の登記の対比に絞った。条文の文言から直接読めない実務の取扱いである旨は記事にそろえた）"],
+)
+
+HEADER = dict(h1="敷地権の登記がある土地", h2="合筆できる？", hkey="できる？",
+              scene_l="two adjacent land plots beside a small apartment building icon, no text",
+              scene_r="a pencil about to erase a thin boundary line between two land plots, no text")
