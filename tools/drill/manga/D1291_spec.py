@@ -1,0 +1,72 @@
+"""D1291 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H29-Q17オ（甲区分建物の所有権の原始取得者が甲区分建物の表題登記を申請しない場合には、転得者は、当該原始取得者に代位して表題登記を申請することができる・〇）。
+『非区分建物の転得者（所有者として自分で申請できる）』と『区分建物の転得者（自分では申請できず、原始取得者に代位して申請する）』の対比に絞った。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1291", fid="D1291", topic="不動産登記法／区分建物・敷地権・共用部分", src="H29-Q17オ",
+    truth="〇（正しい記述）",
+    miscon="建物を買ったのだから、転得者が自分を表題部所有者として表題登記を申請できる、あるいは何もできないと考える（区分建物の転得者は、自分では申請できないが、原始取得者に代位して申請できることを見落とす）",
+    article="note-articles/h29-mondai/q17-kubun-tatemono.md",
+    art_head="オ（原始取得者が申請しない表題登記を、転得者が代位して申請できる）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『原始取得者が表題登記を申請しない場合には』『転得者は、…代位して』と、代位の形で書く。区分建物の転得者には申請義務も申請適格もない、という知識に乗せ、『だから何もできない』と誤解させ、代位して申請できることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①転得者は所有者なので、自分で表題登記を申請できると考える。②区分建物の転得者に申請義務も申請適格もない（非区分建物と異なる）ことは覚えているが、それだけで『申請できない』と思い込み、代位による申請に気づかない。③代位の根拠（民法423条）と、代位したときに誰が表題部所有者になるか（原始取得者）が結びついていない。",
+        "【対比する制度】「非区分建物の転得者」⇔「区分建物の転得者」：非区分建物では転得者にも申請義務・申請適格がある（記事は『非区分建物と異なり』と述べる）／区分建物の転得者は自分では申請できないが、原始取得者に代位して、原始取得者を表題部所有者とする表題登記を申請できる（民法423条）（結論が逆になる点）。",
+        "【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で『買った人は自分で申請できる』という思い込みを出し、コマ2で非区分建物の転得者と区分建物の転得者を左右に並べ、コマ3で『自分名義にはできないが、代位ならできる』という理由を上下のカードにした。",
+        "記事の範囲：H29-Q17オ（民法423条）。記事は、区分建物の表題登記は原則として原始取得者に申請義務があること、非区分建物と異なり転得者には申請義務も申請適格もないこと、転得者は原始取得者に代位して原始取得者を表題部所有者とする表題登記を申請できること、を述べる。理由の詳細（なぜ転得者に申請適格がないか）は記事に書かれていないので、図でも書かない。",
+        "登場人物：人型は使わず、建物・登記は文字のカードで示す（Ａ・Ｂなどの記号は使わない）。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①区分建物の表題登記は、原則として原始取得者に申請義務がある②非区分建物と異なり、区分建物の転得者には申請義務も申請適格もない③原始取得者が申請しないとき、転得者は原始取得者に代位して、原始取得者を表題部所有者とする表題登記を申請できる（民法423条）④肢D1291は『代位して…申請することができる』なので〇",
+    ],
+    extra_refs=[
+        "民法423条の文言は、記事オの引用と一致。法令DB（note-articles/laws/minpou-2-saiken.md 第423条）と照合済み。『非区分建物の転得者には申請義務・申請適格がある』は、記事の『非区分建物と異なり』の言い方に沿った整理（記事に直接の文はないので、図は『自分で申請できる』にとどめる）",
+    ],
+    lead1="甲区分建物の原始取得者が、甲区分建物の表題登記を申請しないまま、甲区分建物を転得者に譲りました。転得者は、原始取得者に代位して、表題登記を申請できるのでしょうか。",
+    title="区分建物の転得者は、代位して表題登記を申請できる", title_hl="代位して",
+    panels=[
+        dict(label="①　買った人は、自分で申請できる？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "買った人は、自分で申請できますよね？", None, "買った人は、\n自分で申請\nできますよね？"),
+                      ("トリ先生", "出たわね。区分建物は違うのよ", "区分建物は違う", "出たわね。\n区分建物は\n違うのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「原始取得者が、甲区分建物を取得」. Card 2: 「原始取得者は、表題登記を申請していない」. Card 3: 「転得者が、甲区分建物を買った」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「転得者は、表題登記を申請できる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　非区分建物と、区分建物", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「表題登記がないまま転売されたとき」 at the top left, with one line beside it: 「転得者にできることが、建物の種類で分かれる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「非区分建物の転得者」, two body lines: 「転得者にも申請義務がある」, 「自分で表題登記を申請できる」.",
+                  "Right card, heading 「区分建物の転得者」, a small tag 「民法423条」, two body lines: 「自分では申請できない」, 「原始取得者に代位して申請」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、区分建物の転得者」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　なぜ、代位して申請する？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "転得者は、何もできないんですか？", None, "転得者は、\n何もできない\nんですか？"),
+                      ("トリ先生", "自分名義はだめ。でも代位ならできるの", "代位ならできる", "自分名義はだめ。\nでも代位なら\nできるの"),
+                      ("藍子", "誰が表題部所有者になりますか？", None, "誰が表題部所有者に\nなりますか？"),
+                      ("トリ先生", "原始取得者よ。転得者ではないの", "原始取得者", "原始取得者よ。\n転得者ではないの")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「転得者が自分を表題部所有者として申請」, body 「区分建物の転得者には、申請義務も申請適格もない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「転得者が代位して申請」, body 「原始取得者を表題部所有者とする表題登記を申請できる（民法423条）」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "代位してなら、申請できるんですね！", None, "代位してなら、\n申請できるんですね！"),
+                      ("トリ先生", "そう。代位できると書けば〇よ", "代位できると書けば〇", "そう。代位できると\n書けば〇よ")],
+             fig=[], checklist=["区分建物の転得者に、申請義務も申請適格もない", "原始取得者が申請しないとき、転得者は代位して申請できる（民法423条）", "表題部所有者になるのは、原始取得者"])
+    ],
+    band1="区分建物の転得者は、原始取得者に代位して表題登記を申請できる", band2="問題D1291　正解〇（H29-Q17オ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。非区分建物の転得者と区分建物の転得者の対比と、自分名義ではなく代位して申請するという理由に絞った）"],
+)
+
+HEADER = dict(h1="区分建物を買ったら", h2="代位して申請？", hkey="申請？",
+              scene_l="an apartment building with a for-sale sign and a blank registration sheet, no text",
+              scene_r="two small figures where one holds a pen on behalf of the other, no text")

@@ -1,0 +1,72 @@
+"""D0376 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+R02-Q09イ（一筆の土地の一部が別の地目になったことにより、地目に関する変更の登記と分筆の登記とを一の申請情報により申請するときは、登記原因及びその日付を申請情報の内容としなければならない・〇）。
+『分筆の登記だけ（原因・日付の欄がない）』と『地目変更と分筆を一の申請情報で申請（地目変更の部分に原因・日付が要る）』の対比に絞った。同じ結論はH20-Q13エにもある。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0376", fid="D0376", topic="不動産登記法／土地の分筆・合筆・地積更正", src="R02-Q09イ",
+    truth="〇（正しい記述）",
+    miscon="分筆の登記には登記原因・日付の欄がないので、地目変更と一緒に申請しても要らないと考える（一括申請では地目変更の部分に登記原因・日付が要ることを見落とす）",
+    article="note-articles/r2-mondai/q09-bunpitsu-touki.md",
+    art_head="イ（地目変更と分筆を一の申請情報でするときは、登記原因・日付を記載する）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『分筆の登記』を中心に書き、地目変更を『一の申請情報』に含めるだけの形にする。分筆の登記には原因・日付の記載がない、という感覚に乗せ、一括申請では地目変更の部分に登記原因・日付が要ることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①分筆の申請書には原因・日付の欄がないので、一括申請でも要らないと考える。②地目変更の登記には『年月日地目変更』という登記原因・日付があることが結びついていない。③一の申請情報にまとめても、それぞれの登記に必要な事項は省略されないことが整理できていない。",
+        "【対比する制度】「分筆の登記だけ」⇔「地目変更と分筆を一の申請情報で」：分筆の登記だけなら登記原因・日付の欄はない（申請書の様式。記事・法令DBに明記はなく、登記実務の整理）／地目変更と分筆を一の申請情報で申請するときは、地目変更の部分について登記原因・日付が要る（記事イ・H20-Q13エ）（結論が逆になる点）。",
+        "【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で『分筆に原因は要らない』という思い込みを出し、コマ2で分筆だけの申請と一括申請を左右に並べ、コマ3で『地目変更が入るから原因・日付が要る』という理由を上下のカードにした。",
+        "記事の範囲：R02-Q09イ（同じ結論のH20-Q13エ）。記事は条番号を出さず、『地目変更についての登記原因（「年月日地目変更」など）及びその日付を申請情報の内容としなければならない』と述べる。図も条番号を入れない（不動産登記令3条6号は法令DBにあるが、記事の肢の解説に出ないので使わない）。",
+        "登場人物：人型は使わず、申請書・登記は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①地目変更と分筆を一の申請情報でするときは、地目変更についての登記原因（『年月日地目変更』など）及びその日付を申請情報の内容とする②分筆の登記だけなら原因・日付の欄はない（登記実務の整理）③肢D0376は『登記原因及びその日付を申請情報の内容としなければならない』なので〇",
+    ],
+    extra_refs=[
+        "『分筆の登記だけなら登記原因・日付の欄はない』：記事R02-Q09イにも法令DBにも直接の記述がない。令別表の分筆の登記（8の項）の申請情報に登記原因が掲げられていないことと、申請書の様式による整理（ユーザーに伝える）。令3条6号は登記原因及びその日付を申請情報の一般事項に挙げるが、図には条番号を入れない",
+    ],
+    lead1="一筆の土地の一部が別の地目になりました。地目に関する変更の登記と分筆の登記を、一の申請情報で申請します。この申請情報に、登記原因及びその日付を書かなければならないのでしょうか。",
+    title="地目変更と分筆の一括申請は、原因・日付を書く", title_hl="原因・日付を書く",
+    panels=[
+        dict(label="①　分筆に原因は要らないのでは？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "分筆に、原因や日付は要りませんよね？", None, "分筆に、\n原因や日付は\n要りませんよね？"),
+                      ("トリ先生", "出たわね。何を申請するのか見るのよ", "何を申請するのか", "出たわね。\n何を申請するのか\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「一筆の土地の一部が、別の地目になった」. Card 2: 「地目に関する変更の登記を申請したい」. Card 3: 「分筆の登記と、一の申請情報で申請したい」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「登記原因・日付は、要る？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　分筆だけと、一括申請", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「同じ分筆でも」 at the top left, with one line beside it: 「何を一緒に申請するかで、書く事項が変わる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「分筆の登記だけ」, two body lines: 「登記原因・日付の欄はない」, 「（申請書の様式）」.",
+                  "Right card, heading 「地目変更と分筆を一の申請情報で」, two body lines: 「地目変更の部分に」, 「登記原因・日付が要る」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、地目変更を含む一括申請」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　なぜ、原因・日付が要る？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "分筆に原因は要らないのでは？", None, "分筆に原因は\n要らないのでは？"),
+                      ("トリ先生", "分筆だけならね。でも地目変更が入るでしょ", "地目変更が入る", "分筆だけならね。\nでも地目変更が\n入るでしょ"),
+                      ("藍子", "何を書けばいいですか？", None, "何を書けば\nいいですか？"),
+                      ("トリ先生", "『年月日地目変更』と、その日付よ", "年月日地目変更", "『年月日地目変更』と、\nその日付よ")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「分筆と一緒なら、原因・日付は不要」, body 「地目変更の部分は、いつ地目が変わったかを示す必要がある」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「地目変更を含む一の申請情報」, body 「登記原因『年月日地目変更』と、その日付を書く」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "一括申請なら、原因と日付が要るんですね！", None, "一括申請なら、\n原因と日付が\n要るんですね！"),
+                      ("トリ先生", "そう。要ると書けば〇よ", "要ると書けば〇", "そう。要ると\n書けば〇よ")],
+             fig=[], checklist=["地目変更と分筆を一の申請情報でするときは、原因・日付を書く", "地目変更の登記原因は『年月日地目変更』など", "分筆の登記だけなら、原因・日付の欄はない"])
+    ],
+    band1="地目変更と分筆を一の申請情報でするときは、原因・日付が要る", band2="問題D0376　正解〇（R02-Q09イ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。分筆だけの申請と、地目変更を含む一括申請の対比に絞った。条番号は記事にそろえて入れていない）"],
+)
+
+HEADER = dict(h1="地目変更と分筆", h2="原因は要る？", hkey="要る？",
+              scene_l="a land plot with a dividing line and a small house icon on one part, no text",
+              scene_r="an application sheet with two small stamps on it, no text")
