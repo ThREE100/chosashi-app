@@ -1,4 +1,4 @@
-# D1753 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D1753 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D1753（不動産登記法／土地の分筆・合筆・地積更正、出典 R04-Q09イ）。正解＝〇（正しい記述）。誤解同一の区分建物の敷地で、所有権の登記名義人も同じなら、合筆してよいと考える（敷地権である旨の登記を、合筆の制限に関わらない登記と見てしまう）。
 - 記事：`note-articles/r4-mondai/q09-gappitsu.md` イ（敷地権である旨の登記がある土地は、同一の区分建物の敷地でも合筆できない）
@@ -12,6 +12,7 @@
 - 【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で『同じ建物の敷地なら合筆できる』という思い込みを出し、コマ2で例外の権利と敷地権である旨の登記を左右に並べ、コマ3で『例外に入っていない』理由を上下のカードにした。
 - 記事の範囲：R04-Q09イ（41条6号、規則105条、法46条）。敷地権である旨の登記がある土地は合筆できないが、この扱いは41条6号の文言から直接読み取れるものではなく先例に基づく実務の取扱い（記事の注記）。先例の番号は記事にないので図にも入れない。
 - 登場人物：土地は文字のカードで示す（人型にしない）。
+- コマ3の例外（v02）：右側は会話2つ（顔2つ）の下に、規則105条の4つの整理カードを置く（左は上下2枚のカード）。この肢だけコマ3の右の会話は4つではなく2つ。
 - 矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。
 - 配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。
 - コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。
@@ -40,11 +41,9 @@
 | コマ2 見出し | ラベル | ②　合筆後も残せる登記と、残せない登記 | — |
 | コマ2 図 | 図・カード | 合筆の制限は、権利の登記しだい / 41条6号：所有権以外の権利の登記がある土地は合筆できない / 例外として残せる登記 / 規則105条 / 承役地の地役権の登記など / 限られた権利だけ / 敷地権である旨の登記 / 法46条 / 例外に含まれていない / だから、合筆できない / この肢は、敷地権である旨の登記がある土地 | — |
 | コマ3 見出し | ラベル | ③　なぜ、合筆できない？ | — |
-| コマ3 図 | 図・カード | 敷地権である旨の登記がある土地 / 規則105条の例外に含まれず、実務の取扱いで合筆できない / 承役地の地役権の登記がある土地 / 規則105条の例外。合筆後の土地にも登記できる | — |
-| コマ3 | 藍子（左・1番目） | 敷地権の登記は、条文に書いてありますか？ | — |
-| コマ3 | トリ先生（右・2番目） | 41条6号の文言からは読めないの | 「文言からは読めない」 |
-| コマ3 | 藍子（左・3番目） | じゃあ、どう覚えるんですか？ | — |
-| コマ3 | トリ先生（右・4番目） | 実務の取扱いで、合筆できないのよ | 「実務の取扱い」 |
+| コマ3 図 | 図・カード | 敷地権である旨の登記がある土地 / 規則105条の4つの中にない。実務の取扱いで合筆できない / 規則105条の4つの登記がある土地 / 合筆後の土地にも登記できる / 規則105条が認める合筆後の登記（4つ） / 承役地の地役権の登記 / 担保権の登記（目的・受付年月日・受付番号・原因・日付が同一のもの） / 信託の登記（登記事項が同一のもの） / 鉱害賠償登録に関する登記（登録番号が同一のもの） / 敷地権である旨の登記は、この中にない | — |
+| コマ3 | 藍子（左・1番目） | 敷地権の登記は、105条の例外ですか？ | — |
+| コマ3 | トリ先生（右・2番目） | 4つの中に、入っていないのよ | 「入っていない」 |
 | コマ4 見出し | ラベル | ④　結論は〇 | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 敷地権の登記がある土地は、合筆できないんですね！ | — |
@@ -56,6 +55,7 @@
 ## 記事に無い条文（ユーザー指示で追加）
 
 - 不動産登記法41条6号・不動産登記規則105条・不動産登記法46条の文言は、記事イに引用されており、法令DB（note-articles/laws/）と照合済み
+- 規則105条の4つ（一 承役地についてする地役権の登記、二 担保権の登記で登記の目的・受付年月日・受付番号・登記原因及びその日付が同一のもの、三 信託の登記で法97条1項各号の登記事項が同一のもの、四 鉱害賠償登録に関する登記で登録番号が同一のもの）：法令DB note-articles/laws/fudousan-touki-kisoku-1.md 第百五条で確認。記事イにはこの4つの記載がなく、『承役地の地役権の登記など』とだけ書いてあるので、図の4つは法令DB由来（ユーザーに伝える）
 - 『敷地権である旨の登記がある土地は合筆できない』：記事イの整理による。41条6号の文言から直接読み取れず、実務の取扱いである旨を図でも書く（ユーザーに伝える）
 
 ## プロンプト本体
@@ -113,20 +113,17 @@ PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a ful
 
 PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
 - Label tab: 「③　なぜ、合筆できない？」
-- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
+- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 2 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 120 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 2 face icons and exactly 2 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
-- Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
-- Top card, heading 「敷地権である旨の登記がある土地」, body 「規則105条の例外に含まれず、実務の取扱いで合筆できない」, and ONE red cross only at the bottom of this card (no check mark on this card).
-- Bottom card, heading 「承役地の地役権の登記がある土地」, body 「規則105条の例外。合筆後の土地にも登記できる」, and ONE blue check mark only at the bottom of this card (no cross on this card).
-- The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「敷地権の登記は、
-条文に書いてありますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「41条6号の文言からは
-読めないの」 with the part 「文言からは読めない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「じゃあ、
-どう覚えるんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「実務の取扱いで、
-合筆できないのよ」 with the part 「実務の取扱い」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
+- Top card, heading 「敷地権である旨の登記がある土地」, body 「規則105条の4つの中にない。実務の取扱いで合筆できない」, and ONE red cross only at the bottom of this card (no check mark on this card).
+- Bottom card, heading 「規則105条の4つの登記がある土地」, body 「合筆後の土地にも登記できる」, and ONE blue check mark only at the bottom of this card (no cross on this card).
+- RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「規則105条が認める合筆後の登記（4つ）」, with the same pale gray fill and a dark navy outline, containing exactly four short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「承役地の地役権の登記」, 「担保権の登記（目的・受付年月日・受付番号・原因・日付が同一のもの）」, 「信託の登記（登記事項が同一のもの）」, 「鉱害賠償登録に関する登記（登録番号が同一のもの）」. Under the four rows, one small dark navy ribbon tag with white text 「敷地権である旨の登記は、この中にない」.
+- The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, row 1 of 2 in the conversation column; face icon at the LEFT end of its own row): 「敷地権の登記は、
+105条の例外ですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 2 in the conversation column; face icon at the RIGHT end of its own row): 「4つの中に、
+入っていないのよ」 with the part 「入っていない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
@@ -143,7 +140,7 @@ CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 建, 所, 承, 権, 物, 登, 肢, 規, 解, 記, 請 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 保, 号, 地, 建, 所, 承, 権, 物, 番, 登, 肢, 規, 解, 記, 認, 請, 録 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 2 face icons and exactly 2 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -230,3 +227,4 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。例外の権利と敷地権である旨の登記の対比に絞った。条文の文言から直接読めない実務の取扱いである旨は記事にそろえた）
+- 2026-10-12 v02：ユーザー指示（v01画像を見て）。コマ3の右側に、規則105条が認める合筆後の登記4つ（承役地の地役権・同一の担保権・同一の信託・鉱害賠償登録）の整理カードを足し、会話は2つに減らした。4つの文言は法令DB（fudousan-touki-kisoku-1.md 第105条）で確かめた（記事イは『承役地の地役権の登記など』としか書いていない）。v01画像のコマ3の台詞『読めないの』が『読めない の』と崩れたため、台詞自体を差し替えた
