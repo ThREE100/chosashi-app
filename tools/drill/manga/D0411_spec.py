@@ -1,0 +1,72 @@
+"""D0411 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H21-Q01ア（Ａが平成2年1月1日に自己の所有地と過失なく信じてＢ所有の甲土地の占有を開始し、平成10年1月1日に甲土地がＢからＣに譲渡されたときは、Ａは登記をしなくても、平成15年1月1日にＣに時効取得を主張できる・〇）。
+単独版（2026-10-12）。ユーザーの指示で、D0411・D0413の対比版（D0411-D0413_prompt.md）とは別に、D0411だけを1本にした。『時効完成の前に現れたＣ（当事者類似・登記不要）』と『時効完成の後に現れたＣ（対抗関係・登記が必要。D0412）』の対比に絞った。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0411", fid="D0411", topic="民法／時効・条件期限", src="H21-Q01ア",
+    truth="〇（正しい記述）",
+    miscon="Ｃが甲土地を買って所有者になったのだから、Ａは登記がなければＣに時効取得を主張できないと考える（Ｃが現れたのが時効完成の前であることを見落とす）",
+    article="note-articles/h21-mondai/q01-jikou-touki.md",
+    art_head="ア（時効完成前に現れた第三者には、登記がなくても時効取得を主張できる）",
+    letters="ＡＢＣ",
+    design=[
+        "【出題者のひっかけ】問題文が『甲土地がＢからＣに譲渡されたときは』と、第三者Ｃの登場を前に出す。第三者が出てきたら登記の先後で決まる（民法177条）、という感覚に乗せ、Ｃが現れた平成10年1月1日が時効の完成（平成12年1月1日）より前であることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①時効取得と第三者の問題は、いつでも登記が必要と覚えている。②『時効完成の前』と『完成の後』で扱いが逆になることが結びついていない。③10年の取得時効の完成日（占有開始の平成2年1月1日から10年後の平成12年1月1日）を計算せず、Ｃの登場時期と比べない。",
+        "【対比する制度】「時効完成の前に現れたＣ」⇔「時効完成の後に現れたＣ」：前は元の所有者と同じ立場（当事者類似）で、登記なしで時効取得を主張できる（記事ア）／後は二重譲渡に似た対抗関係で、民法177条により登記が必要（記事イ。D0412）（結論が逆になる点）。",
+        "【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で日付つきの事案と『Ｃが買ったから登記が要る』という思い込みを出し、コマ2で完成の前のＣと後のＣを左右に並べ、コマ3で『平成10年は完成の前』という日付の確認と理由（当事者類似）を上下のカードにした。",
+        "記事の範囲：H21-Q01ア。完成日（平成12年1月1日）は記事に書かれた日付。比較に使う『完成の後』は同じ記事のイ（平成13年1月1日にＣが取得・登記が必要・民法177条）。イの民法177条は、図では『対抗関係』と記事の言い方にそろえ、条番号を入れる場合も記事イの引用の範囲にとどめる。",
+        "登場人物：Ａ（占有者）・Ｂ（元の所有者）・Ｃ（Ｂから甲土地を買った人）を、コマ1の図で顔なしの人型ピクトグラムとして紹介してから使う。全員同じ薄い灰青で、色分けしない。",
+        "既存のD0411・D0413の対比版（D0411-D0413_prompt.md。型4）とは別の単独版で、型4のように2肢の文末の向きは扱わず、時効の前後の日付の判定に絞った。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①平成2年1月1日に占有開始、10年の取得時効の完成は平成12年1月1日②Ｃの取得は平成10年1月1日で完成の前③完成の前のＣは元の所有者と同じ立場（当事者類似）で、登記なしで主張できる④完成の後のＣは対抗関係で登記が必要（記事イ）⑤肢D0411は『登記をしなくても…主張することができる』なので〇",
+    ],
+    extra_refs=[
+        "完成の後のＣ（記事イ）：平成13年1月1日にＣがＢから譲り受けた場合は、二重譲渡に似た対抗関係で、民法177条により先に登記を備えた方が勝つ。肢D0411の解説に民法177条は出ないが、同じ記事のイにある",
+    ],
+    lead1="Ａは平成2年1月1日に、過失なく自分の土地だと信じて、Ｂ所有の甲土地の占有を始めました。平成10年1月1日に、甲土地はＢからＣに譲渡されています。Ａは登記なしで、平成15年1月1日にＣに時効取得を主張できるのでしょうか。",
+    title="時効完成の前のＣには、登記がなくても主張できる", title_hl="登記がなくても",
+    panels=[
+        dict(label="①　Ｃが買ったなら、登記が要る？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "Ｃが買ったなら、登記が要りますよね？", None, "Ｃが買ったなら、\n登記が要りますよね？"),
+                      ("トリ先生", "出たわね。日付を並べてみなさい", "日付を並べて", "出たわね。\n日付を並べて\nみなさい")],
+             fig=["A diagram in the center, about 56 percent of the panel width. At the top, ONE row, left to right, of three faceless flat pictogram figures in exactly the same single light gray-blue color, side by side with small gaps, with dark navy tags 「Ａ」, 「Ｂ」, 「Ｃ」 and, under each tag, a small caption: 「占有者」, 「元の所有者」, 「Ｂから買った人」. Below the row, three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line: 「平成2年1月1日　Ａが占有を開始」, 「平成10年1月1日　ＢからＣへ譲渡」, 「平成15年1月1日　ＡがＣに主張」. Do NOT draw any arrow anywhere in this panel and do NOT connect the shapes; they are separated only by small empty gaps.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「登記がなくても、Ｃに主張できる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　完成の前のＣと、完成の後のＣ", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「Ｃが現れた時期で、結論が逆になる」 at the top left, with one line beside it: 「10年の取得時効の完成は、平成12年1月1日」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「時効完成の前に現れたＣ」, a small tag 「当事者類似」, two body lines: 「元の所有者と同じ立場」, 「登記なしで主張できる」.",
+                  "Right card, heading 「時効完成の後に現れたＣ」, a small tag 「対抗関係」, two body lines: 「二重譲渡に似た関係」, 「登記が必要」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、平成10年に現れたＣ（完成の前）」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　なぜ、登記が要らない？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "平成10年は、完成の前ですか？", None, "平成10年は、\n完成の前ですか？"),
+                      ("トリ先生", "そう。完成は平成12年1月1日よ", "平成12年1月1日", "そう。完成は\n平成12年1月1日よ"),
+                      ("藍子", "完成の前のＣは、どう扱われますか？", None, "完成の前のＣは、\nどう扱われますか？"),
+                      ("トリ先生", "元の所有者と同じ立場。当事者類似よ", "当事者類似", "元の所有者と同じ立場。\n当事者類似よ")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「完成の前のＣにも、登記が必要と考える」, body 「完成の前のＣは、元の所有者と同じ立場。対抗関係に立たない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「時効完成の前に譲り受けたＣ」, body 「登記なしで、時効取得を主張できる」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "完成の前のＣには、登記なしで主張できるんですね！", None, "完成の前のＣには、\n登記なしで主張\nできるんですね！"),
+                      ("トリ先生", "そう。主張できると書けば〇よ", "主張できると書けば〇", "そう。主張できると\n書けば〇よ")],
+             fig=[], checklist=["時効完成の前に現れたＣは、元の所有者と同じ立場（当事者類似）", "Ａは登記がなくても、Ｃに時効取得を主張できる", "完成の後に現れたＣとは対抗関係で、登記が必要"])
+    ],
+    band1="時効完成の前に現れたＣには、登記なしで時効取得を主張できる", band2="問題D0411　正解〇（H21-Q01ア）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。時効完成の前に現れたＣと後に現れたＣの対比と、日付の判定に絞った単独版）"],
+)
+
+HEADER = dict(h1="Ｃが買ったなら", h2="登記は要る？", hkey="要る？",
+              scene_l="a farmer's plot of land with a small crop and a wooden fence, no text",
+              scene_r="a wall calendar with the tenth year circled and a blank deed sheet, no text")
