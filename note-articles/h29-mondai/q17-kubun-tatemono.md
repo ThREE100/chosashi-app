@@ -112,6 +112,19 @@
 
 この場合、Ｃさんは自分で表題登記の名義人になれるわけではありませんが、デベロッパーに代わって（代位して）、デベロッパー名義の表題登記を申請することができます。
 
+**ここが分かりにくいポイント**：
+「転得者には申請義務も申請適格もありません」と言われても、それを直接定めた条文が見当たらないため、理由がつかみにくいところです。これは、不動産登記法47条1項の対象範囲から読み取れる整理です。
+
+47条1項は「新築した建物又は区分建物以外の表題登記がない建物の所有権を取得した者は…表題登記を申請しなければならない」と定めています。「区分建物以外の」という限定は、新築した建物・既存の未登記建物のどちらにもかかっており、区分建物はこの条文の対象から除かれています。
+
+非区分建物（土地・通常の建物）であれば、この47条1項により「今、所有権を持っている人」がそのまま申請義務者・申請適格者になります。原始取得者が登記前に第三者へ売却してしまっても、買主（転得者）が自分の名義で表題登記を申請できるのです。
+
+ところが区分建物は、この「今の所有者が申請できる」というルールの対象外です。47条2項が定めるのは、原始取得者について相続その他の一般承継があった場合に限り、相続人等が「亡くなった原始取得者を表題部所有者とする」表題登記を申請できる、というごく限られた例外だけです。通常の売買による転得者には、この特則は及びません。
+
+つまり、転得者が自分の名義で区分建物の表題登記を申請できる根拠条文はどこにもなく、区分建物の表題登記はあくまで原始取得者を表題部所有者として扱う前提になっています。原始取得者が申請しない場合に転得者に残された手段は、自分の名義での直接申請ではなく、民法423条の債権者代位権を使って、原始取得者を表題部所有者とする表題登記を「代位して」申請する、という方法だけです。
+
+非区分建物（土地・通常の建物を含む）と区分建物とで、転得者の立場がこれほど違う理由を整理した個別テーマ記事「売ってしまったら、誰が登記する？〜土地・建物・区分建物で違う表題登記の申請資格〜」（`note-articles/topics/shinseishikaku-tochi-tatemono.md`）もあわせてご参照ください。
+
 ---
 
 ### まとめ
@@ -139,6 +152,7 @@
 - なお、ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、今回は参照できませんでした。
 - **重複出題チェック（2026-07-20実施）**：takuitsu.jsonを検索し、平成29年度より後に実施された試験（H30〜R07）で、本問と同一・類似の問題が再出題されていないかを確認したところ、**ウとほぼ同一の論点が令和4年度第17問で再出題されている、強い重複が見つかりました**。本問のウ「いずれも表題登記がある区分建物ではない甲建物及び乙建物が増築工事により相互に接続して区分建物になった場合には、甲建物及び乙建物についての表題部の変更の登記の申請は、一括してしなければならない」は、令和4年度第17問アとほぼ一言一句同じ記述・結論です。このほか、令和1年度第18問・令和6年度第18問も区分建物の登記に関する問題ですが、これらは「乙区分建物のみ滅失した場合の甲区分建物の非区分建物化」という別の論点を扱っており、本問との具体的な重複は確認できませんでした。noteで令和4年度第17問の解説記事を作成する際は、本記事のウと内容がほぼ重複するため、重複した解説にならないよう、既出の論点である旨に触れるか、本記事へのリンクを検討してください。
 - **ウに「間違いノート」補足を追加（mistake-note-prompt.md実施）**：読者から、ウの結論に自力でたどり着けなかったというフィードバックを受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。甲・乙建物がいずれも既に別々に表題登記済みであることから、「まとめて申請できる例外は規則35条が限定列挙しており、当てはまらなければ別々に申請すべき」という一登記一申請の原則の知識をそのまま当てはめてしまい、規則35条とは別に不動産登記法52条3項が区分建物化の場面専用の義務的一括申請を定めていることを見落としやすい点を掘り下げています。個別テーマ記事「申請は不動産ごとに1件が原則、規則35条の例外10パターンを整理」（`note-articles/topics/ittouki-isshinsei-gensoku.md`）へのリンクを本文に追加し、同記事の枠組み（規則35条の任意的併合）と本肢の根拠（法52条3項の義務的一括申請）が別物であることを明記しました。あわせて、この対比を軸にした個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズはエ（敷地権抹消の職権処理）を捉えた内容のままとし、変更していません。ウのつまずきどころ（規則35条と法52条3項という別条文の混同）はエのテーマ（職権処理の範囲）とは別の論点であり、無理に1つの言い回しにまとめるとどちらの内容も伝わりにくくなるためです。
+- **オに「転得者に申請適格がない理由」の補足を追加（2026-10-12実施）**：レビューで、オの解説が「転得者には申請義務も申請適格もありません」と結論だけを述べ、その理由を説明していないという指摘を受け、「たとえば」段落の直後に「ここが分かりにくいポイント」を追加しました。不動産登記法47条1項が「新築した建物又は区分建物以外の表題登記がない建物の所有権を取得した者」に申請義務を課す規定であり、「区分建物以外の」という限定により区分建物がこの条文の対象から除かれていること、非区分建物（土地・通常の建物）であれば47条1項により今の所有者がそのまま申請できる一方、区分建物にはこのルールが及ばないこと、47条2項は原始取得者の相続人等に限った例外にとどまり通常の転得者には及ばないことを整理しています。なお、区分建物の転得者に申請適格がないことを直接定めた条文・先例そのものは見当たらず、本補足はあくまで47条1項の対象範囲と区分建物の扱いの実務からの整理である旨も明記しました（個別テーマ記事`note-articles/topics/shinseishikaku-tochi-tatemono.md`の確認事項ブロックに同じ留保があり、整合させています）。同記事へのリンクを本文に追加し、あわせて非区分建物・区分建物を対比した個別インフォグラフィック（間違いノート型）を記事末尾に追加しました。タイトルのキャッチフレーズ・正誤判定・正解には変更ありません。
 
 ---
 
@@ -593,4 +607,121 @@ last panel's footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
 any kind), and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（オ肢・間違いノート）
+
+「非区分建物（47条1項の対象）」と「区分建物（47条1項の対象外）」を左右に対比させ、なぜ区分建物だけ転得者に申請適格がないのかを可視化する対比型の間違いノート。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) or Traditional Chinese
+characters (traditional hanzi, such as Taiwan/Hong Kong orthography) under
+any circumstances, even if a character looks similar to standard Japanese.
+Do NOT render any character that is not hiragana, katakana, or Jōyō kanji
+— no Latin alphabet letters and no other non-Japanese writing system —
+anywhere in the image, except for the half-width Arabic numerals (0-9)
+explicitly used in the verbatim text below. Reproduce the exact text
+strings given below verbatim — do not paraphrase, translate, summarize, or
+substitute any characters. Within this English prompt text, use
+half-width parentheses ( ) consistently — never open a parenthetical with
+a full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
+--- HEADER ---
+Title (large, bold):
+なぜ区分建物だけ、買主が申請できない？
+
+Subtitle (smaller, centered):
+平成29年度　午後の部　第17問オ－47条1項の対象範囲の違い
+
+--- COMPARISON ---
+Two side-by-side panels, both showing an original builder (原始取得者)
+selling to a buyer (転得者) before the 表題登記 is done, to emphasize that
+both scenarios start from the same "sold before registration" situation.
+
+LEFT PANEL header (pill badge, blue):
+非区分建物（土地・通常の建物）
+
+LEFT PANEL content: An isometric scene of a single house being handed
+from 原始取得者 to 転得者（買主）with an ownership-transfer arrow. The
+買主 figure holds a 表題登記 application document with a green checkmark,
+labeled「今の所有者が申請できる」. A small quoted rule text card:
+「新築した建物又は区分建物以外の表題登記
+がない建物の所有権を取得した者は、…表題
+登記を申請しなければならない
+(不動産登記法47条1項)」
+Conclusion tag (blue pill, short phrase):
+買主が自分の名義で申請可
+
+RIGHT PANEL header (pill badge, orange):
+区分建物（マンションの一室）
+
+RIGHT PANEL content: An isometric scene of a developer figure (原始取得者)
+selling one unit of a condominium building to a buyer (転得者). The 買主
+figure reaches for a 表題登記 application document, but a large red
+prohibition (no-entry) mark blocks the hand, labeled「区分建物は対象外」.
+A separate document, still bearing the developer's name tag, is instead
+being filed by the 買主 on the developer's behalf, labeled「代位して
+原始取得者の名義で申請」. A small quoted rule text card:
+「『区分建物以外の』という限定により、
+区分建物は47条1項の対象から除かれる」
+Conclusion tag (orange pill, short phrase):
+買主本人の名義では申請不可
+
+Between the two panels, a small connecting label:
+条文の対象に入っているかどうかで結論が逆になる
+
+--- CALLOUT: 誤りやすいポイント ---
+「転得者には申請適格がない」という結論だけを覚えようとすると、理由が
+つかめず忘れやすくなります。不動産登記法47条1項は「区分建物以外の」
+建物の取得者にだけ申請義務・申請適格を認めており、区分建物はそもそも
+この条文の対象外です。47条2項は原始取得者の相続人に限った例外にとど
+まり、通常の売買による転得者には及びません。そのため転得者は、民法
+423条の代位によってしか、原始取得者名義の表題登記を動かせません。
+
+--- FOOTER ---
+根拠条文：不動産登記法47条1項・47条2項／民法423条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, and not a Simplified Chinese or Traditional
+Chinese variant, paying special attention to the kanji
+新・築・区・分・建・物・取・得・権・利・申・請・義・務・適・格・原・
+始・転・得・相・続・承・継・代・位. If any character renders as a
+Simplified or Traditional Chinese variant, redraw that character in the
+correct Japanese form. Also scan the entire canvas for any character that
+is not standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or stray
+decorative glyph — and remove or redraw it so that only standard Japanese
+text appears anywhere in the image. Confirm every heading, panel label,
+quoted rule text, and callout text matches the Japanese text given above
+verbatim, with no paraphrasing and no substituted characters, and confirm
+the entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
