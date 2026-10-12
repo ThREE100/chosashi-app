@@ -1,17 +1,18 @@
-# D2012 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D2012 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
-- 肢：D2012（民法／共有・所有権・占有、出典 R07-Q02オ）。正解＝〇（正しい記述）。誤解占有を奪われたのは建物に住んでいたＢだけで、住んでいないＡは訴えを提起できないと考える（Ａも代理占有により占有者の地位があることを見落とす）。
+- 肢：D2012（民法／共有・所有権・占有、出典 R07-Q02オ）。正解＝〇（正しい記述）。誤解占有を奪われたのは建物に住んでいたＢだけで、住んでいないＡは訴えを提起できないと考える（Ａも代理占有により占有者の地位があることを見落とす）。また、占有回収の訴えが何を請求する訴えかが分かっていない。
 - 記事：`note-articles/r7-mondai/q02-senyuken.md` オ（間接占有者にも占有回収の訴えがある）
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
 - 【出題者のひっかけ】問題文が『Ｂが、Ｃによりその占有を奪われたとき』と、奪われた者をＢに限って書く。実際に占有を奪われたのはＢなので、Ｂだけが訴えられるという感覚に乗せ、Ａ（賃借人・転貸人）も訴えを提起できることを見落とさせる。
-- 【受験者の勘違い・定着していない点】（推測）①占有回収の訴えは、物理的に占有を奪われた本人だけのものと考える。②占有代理人Ｂを通じて占有する間接占有者Ａも、占有者としての地位があること（民法181条）が結びついていない。③占有の訴えが『占有者』と『他人のために占有をする者』の両方に認められること（民法197条）を押さえていない。
-- 【対比する制度】「直接占有者Ｂ」⇔「間接占有者Ａ」：Ｂは実際に占有していた本人として訴えを提起できる／Ａは代理占有（民法181条）により占有者の地位があり、同じく占有回収の訴え（民法200条）を提起できる。この2つの結論は同じだが、Ａについて『関係ない』と考える点がひっかけ（記事オ）。
-- 【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で『Ｂだけが訴えられる』という思い込みを出し、コマ2で直接占有者と間接占有者を左右に並べ、コマ3で『誰が物理的にいたかではなく、誰が占有者かで見る』という理由を上下のカードにした。
-- 記事の範囲：R07-Q02オ（民法181条・197条・200条）。3つの条文はすべて肢の解説に出る。Ａ（賃借人・転貸人）・Ｂ（転借人・直接占有者）・Ｃ（占有を奪った人）を、コマ1の図で人型ピクトグラムとして紹介する。
-- 登場人物：Ａ・Ｂ・Ｃを顔なしの人型ピクトグラムで紹介してから使う。全員同じ薄い灰青で、色分けしない。
+- 【受験者の勘違い・定着していない点】（推測）①占有回収の訴えが『占有を奪われたときの訴え』であり、物の返還・損害賠償を請求するものだと説明できない（占有保持・占有保全の訴えとの区別）。②占有回収の訴えは、物理的に占有を奪われた本人だけのものと考える。③占有代理人Ｂを通じて占有する間接占有者Ａも占有者であること（民法181条）、占有の訴えは占有者にも『他人のために占有をする者』にも認められること（民法197条）が結びついていない。
+- 【対比する制度】「占有回収の訴えとは」⇔「占有の訴え（3つ）」：占有の訴えは、妨害されたとき（占有保持の訴え・民法198条）、妨害されるおそれがあるとき（占有保全の訴え・199条）、奪われたとき（占有回収の訴え・200条）の3つ。この肢は『奪われたとき』の占有回収の訴えで、直接占有者Ｂだけでなく間接占有者Ａも提起できる（記事オ）。
+- 【型の選び方】型：型5（整理カード併用。型3の理由説明・型1の思い込みと組み合わせ）。コマ1で『奪われたのはＢだけ』という思い込みを出し、コマ2で占有回収の訴えとは何か（民法200条1項）と占有の訴えの3つ（197条〜200条）を左右に並べ、コマ3の左を✕✓のカード、右を会話1往復と、占有の訴えを提起できる人（197条の『占有者』と『他人のために占有をする者』）の整理カードにした。
+- 記事の範囲：R07-Q02オ（民法181条・197条・200条）。占有回収の訴えの説明（民法200条1項：占有者がその占有を奪われたときは、その物の返還及び損害の賠償を請求できる）と、占有保持・占有保全の訴えの説明（198条・199条）は、法令DB（note-articles/laws/minpou-1-soukyoku-bukken.md）で文言を確かめた。198条・199条は記事オに出ない（ユーザー指示で足した説明。ユーザーに伝える）。
+- 登場人物：Ａ（賃借人）・Ｂ（転借人）・Ｃ（占有を奪った人）を、コマ1の図で顔なしの人型ピクトグラムとして紹介してから使う。全員同じ薄い灰青で、色分けしない。
+- v01の画像検品で、コマ3の台詞の『代理占有』が『代理占者』と崩れていた（画像の文字化け）。v02では台詞を『Ｂを通じた代理占有』の位置と言い回しを変えて崩れにくくした。
 - 矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。
 - 配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。
 - コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。
@@ -37,25 +38,23 @@
 | コマ1 図 | 図・カード | Ａ / Ｂ / Ｃ / 賃借人 / 転借人 / 奪った人 / ＡがＢに、甲建物を転貸 / ＢがＣに、占有を奪われた / Ａは、Ｃに占有回収の訴えができる？ | — |
 | コマ1 | 藍子（左・先に話す） | 奪われたのはＢだけですよね？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。占有者は誰なのか見るのよ | 「占有者は誰」 |
-| コマ2 見出し | ラベル | ②　直接占有者と、間接占有者 | — |
-| コマ2 図 | 図・カード | 占有を奪われたとき / 訴えを提起できるのは、誰か / 直接占有者Ｂ / 民法200条 / 実際に占有していた / 占有回収の訴えを提起できる / 間接占有者Ａ / 民法181条・197条 / Ｂを通じた代理占有 / この肢は、間接占有者Ａの訴え | — |
-| コマ3 見出し | ラベル | ③　誰が占有者か | — |
-| コマ3 図 | 図・カード | 奪われたのはＢだけ。Ａは関係ない / Ａも、代理占有により占有者の地位がある / 間接占有者Ａ / 民法181条・197条・200条により、占有回収の訴えを提起できる | — |
-| コマ3 | 藍子（左・1番目） | 住んでいたのはＢですよね？ | — |
-| コマ3 | トリ先生（右・2番目） | 誰がいたかでなく、占有者かで見るの | 「占有者か」 |
-| コマ3 | 藍子（左・3番目） | Ａはなぜ占有者なんですか？ | — |
-| コマ3 | トリ先生（右・4番目） | Ｂを通じた代理占有よ。民法181条 | 「代理占有」 |
+| コマ2 見出し | ラベル | ②　占有回収の訴えとは | — |
+| コマ2 図 | 図・カード | 占有を奪われたときの訴え / 占有の訴えは、3つある / 占有回収の訴えとは / 民法200条 / 占有を奪われた占有者が / 物の返還を請求できる / 損害の賠償も請求できる / 占有の訴え（3つ） / 民法197条 / 妨害された：占有保持の訴え / 妨害のおそれ：占有保全の訴え / 奪われた：占有回収の訴え / この肢は、奪われたときの占有回収の訴え | — |
+| コマ3 見出し | ラベル | ③　誰が訴えを提起できるか | — |
+| コマ3 図 | 図・カード | 奪われたのはＢだけ。Ａは関係ない / Ａも、代理占有により占有者の地位がある / 間接占有者Ａ / 民法181条・197条・200条により、占有回収の訴えを提起できる / 占有の訴えを提起できる人（民法197条） / 占有者　間接占有者Ａ（代理占有） / 他人のために占有をする者　直接占有者Ｂ / どちらも占有回収の訴えを提起できる | — |
+| コマ3 | 藍子（左・1番目） | Ａはなぜ、占有者なんですか？ | — |
+| コマ3 | トリ先生（右・2番目） | Ｂを通じて占有しているからよ。民法181条 | 「Ｂを通じて占有」 |
 | コマ4 見出し | ラベル | ④　結論は〇 | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | Ａも、訴えを提起できるんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そう。できると書けば〇よ | 「できると書けば〇」 |
-| コマ4 チェック欄 | 3項目（青✓） | Ａは、Ｂを通じた代理占有により占有者の地位がある（民法181条） / 占有の訴えは、占有者にも認められる（民法197条） / 直接占有者Ｂだけでなく、間接占有者Ａも占有回収の訴えを提起できる（民法200条） | — |
+| コマ4 チェック欄 | 3項目（青✓） | 占有を奪われた占有者は、占有回収の訴えができる（民法200条） / Ａは代理占有で占有者（民法181条・197条） / ＢもＡも、占有回収の訴えを提起できる | — |
 | 結論帯 | 1行目 | 間接占有者のＡも、占有回収の訴えを提起できる | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D2012　正解〇（R07-Q02オ） | — |
 
 ## 記事に無い条文（ユーザー指示で追加）
 
-- 民法181条・197条・200条は、記事オの引用（占有権は代理人によって取得できる／占有の訴え／占有回収の訴え）を図にそろえた。法令DB（note-articles/laws/minpou-1-soukyoku-bukken.md）と照合済み
+- 民法198条（占有保持の訴え：占有者がその占有を妨害されたときは、その妨害の停止及び損害の賠償を請求できる）、199条（占有保全の訴え：妨害されるおそれがあるときは、妨害の予防又は損害賠償の担保を請求できる）、200条1項（占有回収の訴え：占有を奪われたときは、その物の返還及び損害の賠償を請求できる）。法令DB note-articles/laws/minpou-1-soukyoku-bukken.md で確認。198条・199条は記事オに出ない
 
 ## プロンプト本体
 
@@ -102,30 +101,28 @@ PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each abo
 見るのよ」 with the part 「占有者は誰」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
-- Label tab: 「②　直接占有者と、間接占有者」
-- A small dark navy tag 「占有を奪われたとき」 at the top left, with one line beside it: 「訴えを提起できるのは、誰か」.
+- Label tab: 「②　占有回収の訴えとは」
+- A small dark navy tag 「占有を奪われたときの訴え」 at the top left, with one line beside it: 「占有の訴えは、3つある」.
 - Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.
-- Left card, heading 「直接占有者Ｂ」, a small tag 「民法200条」, two body lines: 「実際に占有していた」, 「占有回収の訴えを提起できる」.
-- Right card, heading 「間接占有者Ａ」, a small tag 「民法181条・197条」, two body lines: 「Ｂを通じた代理占有」, 「占有回収の訴えを提起できる」.
-- Under the two cards, one wide dark navy band with large white text 「この肢は、間接占有者Ａの訴え」.
+- Left card, heading 「占有回収の訴えとは」, a small tag 「民法200条」, three body lines: 「占有を奪われた占有者が」, 「物の返還を請求できる」, 「損害の賠償も請求できる」.
+- Right card, heading 「占有の訴え（3つ）」, a small tag 「民法197条」, three body lines: 「妨害された：占有保持の訴え」, 「妨害のおそれ：占有保全の訴え」, 「奪われた：占有回収の訴え」.
+- Under the two cards, one wide dark navy band with large white text 「この肢は、奪われたときの占有回収の訴え」.
 - The two cards have clearly different texts; the texts are NOT identical.
 
 PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
-- Label tab: 「③　誰が占有者か」
-- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
+- Label tab: 「③　誰が訴えを提起できるか」
+- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 2 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 120 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 2 face icons and exactly 2 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
-- Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
+- LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
 - Top card, heading 「奪われたのはＢだけ。Ａは関係ない」, body 「Ａも、代理占有により占有者の地位がある」, and ONE red cross only at the bottom of this card (no check mark on this card).
 - Bottom card, heading 「間接占有者Ａ」, body 「民法181条・197条・200条により、占有回収の訴えを提起できる」, and ONE blue check mark only at the bottom of this card (no cross on this card).
-- The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「住んでいたのは
-Ｂですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「誰がいたかでなく、
-占有者かで見るの」 with the part 「占有者か」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「Ａはなぜ
+- RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「占有の訴えを提起できる人（民法197条）」, with the same pale gray fill and a dark navy outline, containing exactly two short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「占有者　間接占有者Ａ（代理占有）」, 「他人のために占有をする者　直接占有者Ｂ」. The row 「占有者　間接占有者Ａ（代理占有）」 is highlighted with a yellow marker. Under the two rows, one small dark navy ribbon tag with white text 「どちらも占有回収の訴えを提起できる」.
+- The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, row 1 of 2 in the conversation column; face icon at the LEFT end of its own row): 「Ａはなぜ、
 占有者なんですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「Ｂを通じた代理占有よ。
-民法181条」 with the part 「代理占有」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 2 in the conversation column; face icon at the RIGHT end of its own row): 「Ｂを通じて占有して
+いるからよ。
+民法181条」 with the part 「Ｂを通じて占有」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
@@ -133,7 +130,7 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both han
 提起できるんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そう。できると
 書けば〇よ」 with the part 「できると書けば〇」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「Ａは、Ｂを通じた代理占有により占有者の地位がある（民法181条）」, 「占有の訴えは、占有者にも認められる（民法197条）」, 「直接占有者Ｂだけでなく、間接占有者Ａも占有回収の訴えを提起できる（民法200条）」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「占有を奪われた占有者は、占有回収の訴えができる（民法200条）」, 「Ａは代理占有で占有者（民法181条・197条）」, 「ＢもＡも、占有回収の訴えを提起できる」.
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「間接占有者のＡも、占有回収の訴えを提起できる」 with a yellow highlighter marker.
@@ -141,7 +138,7 @@ CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 占, 地, 建, 物, 肢, 解, 認, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that the faceless pictograms Ａ, Ｂ, Ｃ are all drawn in exactly the same single light gray-blue color, the same shade for every one of them (they differ only by their letter tags); confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 保, 占, 地, 建, 物, 肢, 解, 請, 還, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 2 face icons and exactly 2 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that the faceless pictograms Ａ, Ｂ, Ｃ are all drawn in exactly the same single light gray-blue color, the same shade for every one of them (they differ only by their letter tags); confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -211,7 +208,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 工程C：初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える
 - [ ] 工程C：構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない
 - [ ] 工程C：コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない
-- [ ] 工程C：肝の確認：①Ｂ（転借人）は直接占有者、Ａ（賃借人・転貸人）は代理占有（民法181条）による間接占有者②占有回収の訴え（民法200条）は、占有者（197条）にも認められ、直接占有者Ｂだけでなく間接占有者Ａも提起できる③肢D2012は『Ａは、Ｃに対し、占有回収の訴えを提起することができる』なので〇
+- [ ] 工程C：肝の確認：①占有回収の訴えとは、占有者が占有を奪われたとき、その物の返還及び損害の賠償を請求する訴え（民法200条1項）②占有の訴えは3つ（占有保持＝妨害されたとき〔198条〕、占有保全＝妨害のおそれ〔199条〕、占有回収＝奪われたとき〔200条〕）③Ｂは直接占有者、Ａは代理占有（181条）による間接占有者④占有の訴えは占有者にも他人のために占有をする者にも認められる（197条）⑤肢D2012は『Ａは、Ｃに対し、占有回収の訴えを提起することができる』なので〇
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -228,3 +225,5 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。直接占有者Ｂと間接占有者Ａの対比と、誰が占有者かで見るという理由に絞った）
+- 2026-10-12 v01の画像を検品：構成表と本文は一致。台詞の文字崩れが1か所（コマ3の『代理占有』が『代理占者』）。コマ2のカードの見出しが赤みと青みで色分けされていた（カードは同じ薄い灰色・濃紺の枠）
+- 2026-10-12 v02：ユーザー指示。『占有回収の訴えとは何か』（民法200条1項：奪われたとき、物の返還と損害賠償を請求）を説明するコマ2に作り替え、占有の訴えの3つ（198条〜200条）の整理を並べた。直接占有者Ｂと間接占有者Ａの整理はコマ3の右側の整理カード（型5。197条の『占有者』と『他人のために占有をする者』）に移し、会話は1往復にして台詞の言い回しを変えた。198条・199条の説明は記事オに出ず、法令DBで確認
