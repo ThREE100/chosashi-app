@@ -1,0 +1,71 @@
+"""D0363 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H20-Q11ア（市街地の分筆の登記の申請をする場合において、乙1精度の地図が備え付けられているときであっても、甲2精度で地積測量図を作成すべきである（書面申請）・×）。
+『備え付けの地図の精度（関係しない）』と『現在の地域区分（市街地は精度区分甲二まで）』の対比に絞り、型5（整理カード併用）で地域区分ごとの精度区分を整理した。『甲二まで』は上限で、甲二ちょうどに限定されない。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0363", fid="D0363", topic="不動産登記法／土地の滅失・地図・地積測量図・土地所在図", src="H20-Q11ア",
+    truth="×（誤った記述）",
+    miscon="市街地の地積測量図は甲二で作成すべきと考える（『甲二まで』が上限で、甲一でもよいことを見落とす）。また、備え付けの地図の精度（乙1）に合わせると考える",
+    article="note-articles/h20-mondai/q11-zumen-sakusei.md",
+    art_head="ア（精度区分甲二までは上限であり、甲二ちょうどに限定されない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『乙1精度の地図が備え付けられているときであっても』と書き、地図の精度に引かれるか、地域の精度に従うか、の二択に見せる。市街地だから甲二、という結論に乗せ、『甲二ちょうど』と限定している点（本来は甲二まで＝上限）を見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①地積測量図の精度は、備え付けの地図の精度に合わせると考える。②市街地地域は『甲二』と覚え、規則10条4項1号の『甲二まで』が上限であること（甲一でもよい）を意識していない。③村落・農耕地域は乙一まで、山林・原野地域は乙三まで、という地域ごとの対応が言えない。",
+        "【対比する制度】「備え付けの地図の精度」⇔「現在の地域区分」：精度区分は、備え付けの地図の精度ではなく、その土地が現在属する地域区分で決まる（規則10条4項・77条5項）。市街地地域は甲二まで（甲一でも甲二でもよい）。この肢は『甲二ちょうど』と限定した点が誤り（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型1の思い込み・型3の理由説明と組み合わせ）。理由が『地域区分ごとの精度区分』の記憶なので、コマ3の右側は会話1往復と、3つの地域区分と精度区分の整理カードにした。コマ1で『市街地なら甲二』という思い込みを出し、コマ2で備え付けの地図の精度と現在の地域区分を左右に並べた。",
+        "記事の範囲：H20-Q11ア（規則10条4項・77条5項）。市街地地域は精度区分甲二まで、村落・農耕地域は乙一まで、山林・原野地域は乙三まで（記事の記述）。『まで』は上限で、それより精度の高い区分でもよい、という記事の説明を図にそろえる。",
+        "登場人物：人型は使わず、土地・地図・地積測量図は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①精度区分は備え付けの地図の精度ではなく、現在の地域区分で決まる（規則10条4項・77条5項）②市街地地域は精度区分甲二まで、村落・農耕地域は乙一まで、山林・原野地域は乙三まで③『甲二まで』は上限で、甲一でもよい④肢D0363は『甲２精度で…作成すべきである』と限定しているので×",
+    ],
+    extra_refs=[
+        "不動産登記規則10条4項（地図の誤差の限度）と77条5項（地積測量図への準用）は、記事アの引用。市街地地域は甲二まで、村落・農耕地域は乙一まで、山林・原野地域は乙三まで。法令DB（note-articles/laws/fudousan-touki-kisoku-1.md）と照合済み",
+    ],
+    lead1="市街地の土地について、分筆の登記を書面で申請します。乙1精度の地図が備え付けられています。このとき、地積測量図は、甲2精度で作成すべきなのでしょうか。",
+    title="市街地の地積測量図は、甲二まで。甲二ちょうどではない", title_hl="甲二まで",
+    panels=[
+        dict(label="①　市街地なら、甲二で作る？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "市街地なら、甲二で作るんですよね？", None, "市街地なら、\n甲二で作るんですよね？"),
+                      ("トリ先生", "出たわね。「まで」の意味を見るのよ", "「まで」の意味", "出たわね。\n「まで」の意味を\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「市街地の土地の分筆を申請する」. Card 2: 「乙1精度の地図が備え付けられている」. Card 3: 「地積測量図は、甲二精度で作る？」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「甲二で作るべき？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　備え付けの地図と、現在の地域", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「地積測量図の精度区分は」 at the top left, with one line beside it: 「何で決まるのか」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「備え付けの地図の精度」, two body lines: 「乙1の地図があっても」, 「それに合わせる必要はない」.",
+                  "Right card, heading 「現在の地域区分」, a small tag 「規則10条4項・77条5項」, two body lines: 「市街地地域は精度区分甲二まで」, 「甲一でも甲二でもよい」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、甲二ちょうどに限定した」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　地域ごとの精度区分", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "乙1の地図があるときは、どうなりますか？", None, "乙1の地図が\nあるときは、\nどうなりますか？"),
+                      ("トリ先生", "地図の精度でなく、地域で決まるのよ", "地域で決まる", "地図の精度でなく、\n地域で決まるのよ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「甲二精度で作成すべき」, body 「『甲二まで』は上限。甲二ちょうどではない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「市街地は、精度区分甲二まで」, body 「甲一又は甲二で、地積測量図を作成する」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「地域区分と精度区分（規則10条4項）」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「市街地地域　甲二まで」, 「村落・農耕地域　乙一まで」, 「山林・原野地域　乙三まで」. The row 「市街地地域　甲二まで」 is highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「『まで』は上限。精度が高い区分でもよい」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "甲二まで、なんですね！", None, "甲二まで、\nなんですね！"),
+                      ("トリ先生", "そう。甲二でなければと書けば×よ", "甲二でなければと書けば×", "そう。甲二でなければと\n書けば×よ")],
+             fig=[], checklist=["精度区分は、備え付けの地図ではなく現在の地域区分で決まる", "市街地地域は精度区分甲二まで（甲一でも甲二でもよい）", "『甲二まで』は上限で、甲二ちょうどに限定されない"])
+    ],
+    band1="精度区分は地域で決まり、市街地は甲二まで（上限）", band2="問題D0363　正解×（H20-Q11ア）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。備え付けの地図の精度と現在の地域区分の対比と、地域ごとの精度区分（まで＝上限）の整理に絞った）"],
+)
+
+HEADER = dict(h1="地積測量図の精度", h2="甲二ちょうど？", hkey="ちょうど？",
+              scene_l="a city block with small buildings and a surveying tripod beside a land plot, no text",
+              scene_r="a ruler and a measuring tape lying across a drawing sheet, no text")

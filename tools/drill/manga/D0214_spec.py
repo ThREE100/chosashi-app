@@ -1,0 +1,71 @@
+"""D0214 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H19-Q02エ（Ａが未登記のまま、背信的悪意者Ｃが登記を備え、さらに善意のＤに転売して登記した場合、ＡはＤに対して所有権を主張することができる・×）。
+『背信的悪意者Ｃ（177条の第三者から除外。Ａは登記なしで主張できる）』と『善意の転得者Ｄ（自分が背信的悪意者でない限り第三者として保護。Ａは主張できない）』の対比に絞った（相対的構成）。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0214", fid="D0214", topic="民法／物権変動・対抗要件", src="H19-Q02エ",
+    truth="×（誤った記述）",
+    miscon="Ｃが背信的悪意者なら、Ｃから買ったＤにも登記なしで主張できると考える（背信的悪意者の除外は、その者個人とＡの関係だけで、善意の転得者Ｄには及ばないことを見落とす）",
+    article="note-articles/h19-mondai/q02-daisansha-hogo.md",
+    art_head="エ（背信的悪意者からの善意の転得者には対抗できない＝相対的構成）",
+    letters="ＡＢＣＤ",
+    design=[
+        "【出題者のひっかけ】問題文が、Ｃについて『事情を十分に知りつつ専らＡを害する目的で』と悪質さを詳しく書き、続けて善意のＤへの転売を述べる。悪いのはＣだから、Ｃ以降の取引も無効になる、という感覚に乗せ、Ｄ自身が背信的悪意者でない限り保護されることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①背信的悪意者は第三者に当たらないという結論が、Ｃからの転得者Ｄにもそのまま及ぶと考える（絶対的構成のような理解）。②Ｂ・Ｃ間の売買が無効になるわけではなく、除外はＣ個人とＡの関係に限られることが結びついていない。③転得者Ｄは、Ｄ自身が背信的悪意者かどうかで判断することが整理できていない。",
+        "【対比する制度】「背信的悪意者Ｃ」⇔「善意の転得者Ｄ」：Ｃは民法177条の第三者から除外され、Ａは登記がなくてもＣに所有権を主張できる／Ｄは自分が背信的悪意者でない限り177条の第三者として保護され、Ａは登記がなければＤに主張できない（相対的構成。結論が逆になる点）。",
+        "【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1でＡ・Ｂ・Ｃ・Ｄの関係と『Ｃが悪いならＤにも主張できる』という思い込みを出し、コマ2でＣとＤを左右に並べ、コマ3で『除外されるのはＣ個人だけ。Ｂ・Ｃ間の売買は無効にならない』という理由を上下のカードにした。",
+        "記事の範囲：H19-Q02エ（民法177条、相対的構成）。記事は、背信的悪意者を第三者から除外する扱いは、その背信的悪意者個人とＡの関係で登記の欠缺の主張を制限するものであり、Ｂ・Ｃ間の売買自体を無効にするものではない、と説明する。",
+        "登場人物：Ａ（未登記で購入した人）・Ｂ（元の所有者）・Ｃ（背信的悪意者）・Ｄ（善意の転得者）を、コマ1の図で顔なしの人型ピクトグラムとして紹介してから使う。全員同じ薄い灰青で、色分けしない。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①背信的悪意者Ｃは、民法177条の第三者から除外される（Ａは登記なしでＣに主張できる）②Ｃからの転得者Ｄは、Ｄ自身が背信的悪意者でない限り第三者として保護される（相対的構成）③除外はＣ個人とＡの関係だけで、Ｂ・Ｃ間の売買は無効にならない④Ａは登記がなければＤに所有権を主張できない⑤肢D0214は『ＡはＤに対して主張することができる』なので×",
+    ],
+    extra_refs=[
+        "民法177条の文言は、記事エの引用と一致。法令DB（note-articles/laws/minpou-1-soukyoku-bukken.md 第177条）と照合済み。相対的構成は判例（肢の前提【判例】）の立場で、条文に直接の定めはない（記事も判例として述べる）",
+    ],
+    lead1="Ａは、Ｂ所有の不動産をＢから購入しましたが、まだ登記をしていません。事情を知りつつ専らＡを害する目的でＢから購入し登記をしたＣは、善意のＤに転売し、Ｄも登記をしました。ＡはＤに所有権を主張できるのでしょうか。",
+    title="背信的悪意者からの善意の転得者には、主張できない", title_hl="主張できない",
+    panels=[
+        dict(label="①　Ｃが悪い人なら、Ｄにも主張できる？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "Ｃが悪いなら、Ｄにも主張できますよね？", None, "Ｃが悪いなら、\nＤにも主張\nできますよね？"),
+                      ("トリ先生", "出たわね。Ｄ自身を見るのよ", "Ｄ自身", "出たわね。\nＤ自身を\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width. At the top, ONE row, left to right, of four faceless flat pictogram figures in exactly the same single light gray-blue color, side by side with small gaps, with dark navy tags 「Ａ」, 「Ｂ」, 「Ｃ」, 「Ｄ」 and, under each tag, a small caption: 「未登記で購入」, 「元の所有者」, 「背信的悪意者」, 「善意の転得者」. Below the row, two SEPARATE cards stacked from top to bottom, both the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line: 「ＣがＢから購入して登記し、Ｄに転売」, 「Ｄも登記をした」. Do NOT draw any arrow anywhere in this panel and do NOT connect the shapes; they are separated only by small empty gaps.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「ＡはＤに所有権を主張できる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　背信的悪意者Ｃと、善意の転得者Ｄ", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「同じ未登記のＡでも」 at the top left, with one line beside it: 「相手によって、主張できるかが分かれる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「背信的悪意者Ｃ」, a small tag 「民法177条」, two body lines: 「177条の第三者から除外」, 「Ａは登記なしで主張できる」.",
+                  "Right card, heading 「善意の転得者Ｄ」, a small tag 「相対的構成」, two body lines: 「Ｄ自身が背信的悪意者でない限り」, 「177条の第三者として保護」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、善意の転得者Ｄ」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　なぜ、Ｄには主張できない？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "Ｃがだめなら、Ｄもだめでは？", None, "Ｃがだめなら、\nＤもだめでは？"),
+                      ("トリ先生", "除外されるのは、Ｃ個人だけなの", "Ｃ個人だけ", "除外されるのは、\nＣ個人だけなの"),
+                      ("藍子", "Ｂ・Ｃの売買は、無効ですよね？", None, "Ｂ・Ｃの売買は、\n無効ですよね？"),
+                      ("トリ先生", "無効にはならないの。だからＤは保護よ", "無効にはならない", "無効にはならないの。\nだからＤは保護よ")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「Ｃがだめなら、Ｄにも主張できる」, body 「除外はＣ個人とＡの関係だけ。Ｂ・Ｃ間の売買は無効にならない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「善意の転得者Ｄ」, body 「Ｄ自身が背信的悪意者でないので保護され、Ａは登記なしでは主張できない」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "善意のＤには、主張できないんですね！", None, "善意のＤには、\n主張できない\nんですね！"),
+                      ("トリ先生", "そう。主張できると書けば×よ", "主張できると書けば×", "そう。主張できると\n書けば×よ")],
+             fig=[], checklist=["背信的悪意者Ｃは、民法177条の第三者から除外される", "除外はＣ個人とＡの関係だけ（相対的構成）", "善意のＤは保護され、Ａは登記なしではＤに主張できない"])
+    ],
+    band1="背信的悪意者からの善意の転得者Ｄには、登記なしでは主張できない", band2="問題D0214　正解×（H19-Q02エ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。背信的悪意者Ｃと善意の転得者Ｄの対比と、除外はＣ個人だけという相対的構成の理由に絞った）"],
+)
+
+HEADER = dict(h1="背信的悪意者から", h2="転得者には？", hkey="転得者には？",
+              scene_l="a land plot passing through four small figures in a row with a blank deed sheet, no text",
+              scene_r="a small figure with a mischievous look beside a plot and a calm figure holding a registration paper, no text")
