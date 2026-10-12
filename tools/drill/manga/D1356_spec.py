@@ -1,0 +1,71 @@
+"""D1356 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H30-Q11①（区分建物とは、一棟の建物の法令上区分された部分で独立して住居、店舗、事務所又は倉庫その他建物としての用途に供することができるものであって、専有部分であるものをいう（空欄①に『法令上』を入れた）・×）。
+『構造上の独立性（空欄①）』と『利用上の独立性（空欄⑤）』の対比に絞り、型5（整理カード併用）で区分建物の定義（法2条22号）の3つの要素を整理した。逆の結論になる類似肢はD1355（①に構造上を入れた〇）・D1357（②を住居とした〇）・D1358。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1356", fid="D1356", topic="不動産登記法／区分建物・敷地権・共用部分", src="H30-Q11①",
+    truth="×（誤った記述）",
+    miscon="区分建物は『法令（区分所有法）で区分された部分』のことだと考え、①に法令上を選ぶ（区分建物の定義は、一棟の建物の『構造上』区分された部分で始まることを覚えていない）",
+    article="note-articles/h30-mondai/q11-kubun-tatemono-shikichiken.md",
+    art_head="①（構造上：壁・床・天井ではっきり仕切られていること）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】語句群が『構造上、利用上、法令上』と、似た形の3語を並べる。区分建物は区分所有法に規定する専有部分であるもの、という定義の後半が『法令』を連想させ、①に法令上を選ばせる。",
+        "【受験者の勘違い・定着していない点】（推測）①区分建物の定義の前半（構造上区分された部分）と後半（専有部分であるもの）を混同し、法令に関わる言葉を前半に入れてしまう。②独立性の要件が2つあり（構造上の独立性＝①、利用上の独立性＝⑤）、①に利用上を入れる誤りも起きる。③定義の3つの要素（構造上区分された部分、独立して用途に供することができる、専有部分であるもの）の順を言えない。",
+        "【対比する制度】「構造上の独立性」⇔「利用上の独立性」：構造上の独立性＝壁・床・天井で他の部屋とはっきり区別される（空欄①）／利用上の独立性＝それだけで住居・店舗・事務所・倉庫などに使える（空欄⑤。記事の問題文）。①に入るのは前者で、『法令上』は定義の言葉ではない（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型1の思い込み・型3の理由説明と組み合わせ）。理由が『区分建物の定義の3つの要素のどれか』という文言の記憶なので、コマ3の右側は会話1往復と、法2条22号の定義の3つの要素の整理カードにした。コマ1で3つの語句から選ぶ場面を出し、コマ2で構造上の独立性と利用上の独立性を左右に並べた。",
+        "記事の範囲：H30-Q11①（構造上）。定義の文言は法令DB（note-articles/laws/fudousan-touki-hou.md 第2条22号）：一棟の建物の構造上区分された部分で独立して住居、店舗、事務所又は倉庫その他建物としての用途に供することができるものであって、建物の区分所有等に関する法律に規定する専有部分であるもの（区分所有法第4条第2項の規定により共用部分とされたものを含む。）。記事の肢①の解説に条番号は出ないので、設計メモのextra_refsに書く。",
+        "同じ問の他の空欄（②③④⑤⑥⑦）と、D1355（①構造上＝〇）・D1357（②住居＝〇）は図に入れない。利用上の独立性は、記事の問題文にある説明（それだけで住居、店舗、事務所又は倉庫などの用途に使用できる）の範囲で書く。",
+        "登場人物：人型は使わず、語句・定義は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①区分建物の定義は『一棟の建物の構造上区分された部分で独立して住居、店舗、事務所又は倉庫その他建物としての用途に供することができるもので、専有部分であるもの』（法2条22号）②①に入るのは構造上（壁・床・天井で区別される）③利用上の独立性は別の要件（空欄⑤。それだけで用途に使える）④『法令上』は定義の言葉ではない⑤肢D1356は①に法令上を入れたので×",
+    ],
+    extra_refs=[
+        "不動産登記法2条22号の文言（法令DB note-articles/laws/fudousan-touki-hou.md 第2条）：区分建物　一棟の建物の構造上区分された部分で独立して住居、店舗、事務所又は倉庫その他建物としての用途に供することができるものであって、建物の区分所有等に関する法律第二条第三項に規定する専有部分であるもの（同法第四条第二項の規定により共用部分とされたものを含む。）をいう。記事（H30-Q11）の肢①の解説には条番号が出ない",
+    ],
+    lead1="区分建物の定義は、『一棟の建物の（①）区分された部分で独立して住居、店舗、事務所又は倉庫その他建物としての用途に供することができるもの』と続きます。語句群は構造上・利用上・法令上です。①には、どれが入るのでしょうか。",
+    title="区分建物は、構造上区分された部分", title_hl="構造上",
+    panels=[
+        dict(label="①　①に入る語句は？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "法令上区分された部分、ですよね？", None, "法令上区分された\n部分、ですよね？"),
+                      ("トリ先生", "出たわね。定義を順に思い出すのよ", "定義を順に", "出たわね。\n定義を順に\n思い出すのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: one wide card at the top reading 「区分建物とは、一棟の建物の（①）区分された部分で…」, and under it three SEPARATE choice cards of the same size stacked from top to bottom, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text word: 「構造上」, 「利用上」, 「法令上」. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by small empty gaps.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「①に入る語句は？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　構造上の独立性と、利用上の独立性", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「区分建物の独立性は、2つある」 at the top left, with one line beside it: 「①は、このうちの前者」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「構造上の独立性」, a small tag 「空欄①」, two body lines: 「壁・床・天井で」, 「他の部屋とはっきり区別される」.",
+                  "Right card, heading 「利用上の独立性」, a small tag 「空欄⑤」, two body lines: 「それだけで」, 「住居・店舗などに使える」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、①に法令上を入れた」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　区分建物の定義の3つの要素", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "法令は、どこに出てきますか？", None, "法令は、\nどこに出てきますか？"),
+                      ("トリ先生", "最後の専有部分で出てくるのよ", "最後の専有部分", "最後の専有部分で\n出てくるのよ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「①に『法令上』を入れる」, body 「区分建物の定義の言葉ではない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「①は『構造上』」, body 「構造上区分された部分」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「区分建物の定義（法2条22号）」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「一棟の建物の構造上区分された部分」, 「独立して住居・店舗などの用途に使える」, 「区分所有法の専有部分であるもの」. The row 「一棟の建物の構造上区分された部分」 is highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「①は、1つ目の構造上」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "①は構造上で、法令上ではないんですね！", None, "①は構造上で、\n法令上ではない\nんですね！"),
+                      ("トリ先生", "そう。法令上と書けば×よ", "法令上と書けば×", "そう。法令上と\n書けば×よ")],
+             fig=[], checklist=["区分建物は、一棟の建物の構造上区分された部分（法2条22号）", "構造上の独立性は壁・床・天井で区別されること", "利用上の独立性は、それだけで用途に使えること"])
+    ],
+    band1="区分建物は、一棟の建物の構造上区分された部分", band2="問題D1356　正解×（H30-Q11①）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。構造上の独立性（①）と利用上の独立性（⑤）の対比と、区分建物の定義の3つの要素の整理に絞った）"],
+)
+
+HEADER = dict(h1="区分建物の定義", h2="①に入る語句は？", hkey="入る語句は？",
+              scene_l="an apartment building with clear walls between rooms drawn as a cutaway, no text",
+              scene_r="three small word cards on a desk with a pencil hovering over one, no text")

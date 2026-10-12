@@ -1,0 +1,70 @@
+"""D0448 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H21-Q08ウ（表題部所有者A・B・Cの持分がＡ10分の5、Ｂ10分の3、Ｃ10分の2と登記されている不動産について、Ｂを10分の2、Ｃを10分の3とする更正の登記をＣが申請するには、他の共有者Ａ及びＢの承諾を証する情報を提供することを要する・×）。
+『持分を更正することとなる他の共有者（持分が減るＢ）』と『持分が変わらない共有者（Ａ）』の対比に絞り、型5（整理カード併用）で各共有者の持分の増減と承諾の要否を整理した（法33条3項・4項）。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0448", fid="D0448", topic="不動産登記法／表題部所有者・所有権の登記", src="H21-Q08ウ",
+    truth="×（誤った記述）",
+    miscon="共有者の持分を直す更正なので、他の共有者全員（ＡもＢも）の承諾が要ると考える（承諾が要るのが持分を更正することとなる他の共有者だけで、持分の変わらないＡは含まれないことを見落とす）",
+    article="note-articles/h21-mondai/q08-hyoudaibu-shoyuusha.md",
+    art_head="ウ（持分の更正では、持分が減るＢの承諾は必要だが、持分の変わらないＡの承諾は不要）",
+    letters="ＡＢＣ",
+    design=[
+        "【出題者のひっかけ】問題文が『他の共有者Ａ及びＢの承諾を証する情報』と、申請人Ｃ以外の2人をそろえて挙げる。共有の持分を直すのだから共有者全員の承諾が要る、という感覚に乗せ、承諾が要るのは更正によって持分を更正することとなる他の共有者に限られることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①持分の更正は共有者全員に関わるので全員の承諾が要ると考える。②法33条4項の『その持分を更正することとなる他の共有者』が誰かを、持分の増減から読み取れない（Ｂは3→2で減る、Ａは5のまま変わらない）。③申請人Ｃ自身は『他の共有者』に入らず、承諾は要らないことが結びついていない。",
+        "【対比する制度】「持分を更正することとなる他の共有者」⇔「持分が変わらない共有者」：前者（持分が減るＢ）は承諾を証する情報が必要（法33条4項）／後者（Ａ）は承諾が不要（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型1の思い込み・型3の理由説明と組み合わせ）。理由が『共有者ごとに持分がどう変わるか』の整理なので、コマ3の右側は会話1往復と、Ａ・Ｂ・Ｃの持分の増減と承諾の要否を並べた整理カードにした。コマ1で思い込みを出し、コマ2で承諾が要る共有者と要らない共有者を左右に並べた。",
+        "記事の範囲：H21-Q08ウ（法33条3項・4項）。3項は共有者以外の者が更正の登記を申請できないこと、4項は更正の登記をする共有者は、その更正によって持分を更正することとなる他の共有者の承諾がなければ申請できないこと（法令DB note-articles/laws/fudousan-touki-hou.md 第33条）。肢ウの解説に出る条文は4項のみで、3項は法令DB由来（設計メモに書く）。",
+        "登場人物：Ａ・Ｂ・Ｃ（表題部所有者の共有者）を、コマ1の図で顔なしの人型ピクトグラムとして紹介してから使う。全員同じ薄い灰青で、色分けしない。Ｃが申請人。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①表題部所有者である共有者の持分の更正の登記は、当該共有者以外の者は申請できない（法33条3項）②更正の登記をする共有者は、その更正によって持分を更正することとなる他の共有者の承諾がなければ申請できない（同条4項）③この事例の持分の増減はＡ 10分の5のまま、Ｂ 10分の3→10分の2、Ｃ 10分の2→10分の3④承諾が要るのは持分が減るＢだけ（申請人Ｃは他の共有者に入らず、Ａは持分が変わらない）⑤肢D0448は『Ａ及びＢの承諾を要する』なので×",
+    ],
+    extra_refs=[
+        "不動産登記法33条3項・4項の文言（法令DB note-articles/laws/fudousan-touki-hou.md 第33条）：3 不動産の表題部所有者である共有者の持分についての更正の登記は、当該共有者以外の者は、申請することができない。4 前項の更正の登記をする共有者は、当該更正の登記によってその持分を更正することとなる他の共有者の承諾があるときでなければ、申請することができない。記事ウは4項のみ引用。3項は法令DBで確認",
+    ],
+    lead1="表題部所有者Ａ・Ｂ・Ｃの持分は、Ａ10分の5、Ｂ10分の3、Ｃ10分の2と登記されています。Ｂを10分の2、Ｃを10分の3とする更正の登記をＣが申請するとき、Ａ・Ｂの承諾を証する情報は必要なのでしょうか。",
+    title="持分の更正は、持分が減るＢの承諾だけでよい", title_hl="Ｂの承諾だけ",
+    panels=[
+        dict(label="①　ＡもＢも、承諾が要る？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "共有なら、ＡもＢも承諾が要りますよね？", None, "共有なら、\nＡもＢも承諾が\n要りますよね？"),
+                      ("トリ先生", "出たわね。持分の増減を見るのよ", "持分の増減", "出たわね。\n持分の増減を\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width. At the top, ONE row, left to right, of three faceless flat pictogram figures in exactly the same single light gray-blue color, side by side with small gaps, with dark navy tags 「Ａ」, 「Ｂ」, 「Ｃ」 and, under each tag, a small caption 「表題部所有者」. Below the row, two SEPARATE cards stacked from top to bottom, both the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line: 「更正前：Ａ10分の5　Ｂ10分の3　Ｃ10分の2」, 「更正後：Ａ10分の5　Ｂ10分の2　Ｃ10分の3」. Do NOT draw any arrow anywhere in this panel and do NOT connect the shapes; they are separated only by small empty gaps.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「Ｃが申請。Ａ・Ｂの承諾は要る？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　承諾が要る共有者と、要らない共有者", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「共有者の持分の更正では」 at the top left, with one line beside it: 「承諾が要るのは、全員ではない」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「持分を更正することとなる他の共有者」, a small tag 「法33条4項」, two body lines: 「承諾を証する情報が必要」, 「（この事例では、持分が減るＢ）」.",
+                  "Right card, heading 「持分が変わらない共有者」, two body lines: 「承諾は不要」, 「（この事例では、Ａ）」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、ＡもＢも承諾が要るとした」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　共有者ごとの持分と承諾", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "Ｃ自身の承諾は、要りますか？", None, "Ｃ自身の承諾は、\n要りますか？"),
+                      ("トリ先生", "申請する本人だから、要らないのよ", "申請する本人", "申請する本人だから、\n要らないのよ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「Ａ・Ｂ全員の承諾が必要」, body 「持分の変わらないＡの承諾は要らない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「Ｂの承諾を証する情報」, body 「持分が減るＢだけ。法33条4項」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「共有者ごとの持分と承諾」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「Ａ　10分の5のまま　承諾は不要」, 「Ｂ　10分の3から10分の2　承諾が必要」, 「Ｃ　10分の2から10分の3　申請人」. The row 「Ｂ　10分の3から10分の2　承諾が必要」 is highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「承諾が要るのは、持分を更正することとなる他の共有者」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "承諾が要るのは、Ｂだけなんですね！", None, "承諾が要るのは、\nＢだけなんですね！"),
+                      ("トリ先生", "そう。ＡもＢもと書けば×よ", "ＡもＢもと書けば×", "そう。ＡもＢもと\n書けば×よ")],
+             fig=[], checklist=["共有者の持分の更正は、その共有者以外は申請できない（法33条3項）", "更正で持分を更正することとなる他の共有者の承諾が要る（法33条4項）", "この事例で承諾が要るのは、持分が減るＢだけ"])
+    ],
+    band1="承諾が要るのは、持分を更正することとなる他の共有者だけ", band2="問題D0448　正解×（H21-Q08ウ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。承諾が要る共有者（持分を更正することとなる他の共有者）と要らない共有者の対比と、共有者ごとの持分の増減の整理に絞った）"],
+)
+
+HEADER = dict(h1="持分の更正の登記", h2="承諾は誰の？", hkey="誰の？",
+              scene_l="three small figures standing on one shared land plot with a blank deed sheet, no text",
+              scene_r="a stamp and a document sheet with a pencil correcting a fraction, no text")
