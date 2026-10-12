@@ -1,0 +1,73 @@
+"""D1788 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+R04-Q16ウ（乙建物の種類に変更が生じている場合には、当該変更に係る建物の表題部の変更の登記及び本件合併の登記の申請は、一の申請情報によってすることができる・〇）。
+『別々の申請になるのが原則』と『規則35条が認める例外（7号）』の対比に絞り、型5（整理カード併用）で規則35条7号の組合せ（表題部の変更・更正の登記と組み合わせられる5つの登記）を整理した。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1788", fid="D1788", topic="不動産登記法／建物の分割・合併・合体・滅失・変更", src="R04-Q16ウ",
+    truth="〇（正しい記述）",
+    miscon="登記の目的が違う（種類の変更と合併）ので、別々の申請情報で申請しなければならないと考える（規則35条7号の例外を見落とす）",
+    article="note-articles/r4-mondai/q16-tatemono-gappei.md",
+    art_head="ウ（種類変更の表題部変更登記と合併登記は、一の申請情報でできる）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『当該変更に係る建物の表題部の変更の登記及び本件合併の登記の申請』と、2つの登記を並べる。登記の目的が違えば別々に申請するもの、という感覚に乗せ、7号の例外で一の申請情報にできることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①目的が違う登記は別々の申請と考え、例外があることを思い出せない。②規則35条7号の組合せ（変更・更正と、分筆・合筆・分割・区分・合併）を、1つずつ言えない。③『同一の不動産』の要件を意識していない（種類変更の対象は乙建物、合併の対象にも乙建物が含まれる）。",
+        "【対比する制度】「別々の申請になるのが原則」⇔「規則35条が認める例外」：原則は、目的や原因が違う登記は別々の申請。例外として、規則35条7号が、同一の不動産について、表題部の変更・更正の登記と、分筆・合筆・建物の分割・区分・合併の登記を一の申請情報でできるとする（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型1の思い込み・型3の理由説明と組み合わせ）。理由が『規則35条7号の組合せに当たる』という列挙の記憶なので、コマ3の右側は会話1往復と、7号の組合せの整理カードにした。コマ1で思い込みを出し、コマ2で原則と例外を左右に並べた。",
+        "記事の範囲：R04-Q16ウ（規則35条7号）。原則（別々の申請）は、規則35条の見出し（令第4条ただし書の法務省令で定めるとき）に沿って、図では『別々の申請になるのが原則』とだけ書き、令4条の条番号は入れない（肢ウの解説に原則の条文は出ない）。",
+        "extra_refs：規則35条7号の文言（法令DB note-articles/laws/fudousan-touki-kisoku-1.md 第三十五条）：同一の不動産について申請する二以上の登記が、不動産の表題部の登記事項に関する変更の登記又は更正の登記及び土地の分筆の登記若しくは合筆の登記又は建物の分割の登記、建物の区分の登記若しくは建物の合併の登記であるとき。図の5つはこの文言どおり。",
+        "登場人物：人型は使わず、建物・登記は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①同一の不動産について、表題部の変更・更正の登記と、分筆・合筆・建物の分割・区分・合併の登記は、一の申請情報でできる（規則35条7号）②乙建物の種類変更の表題部変更登記と、乙建物を附属建物とする合併登記は、この組合せに当たる③肢D1788は『一の申請情報によってすることができる』なので〇",
+    ],
+    extra_refs=[
+        "規則35条7号の文言（法令DB note-articles/laws/fudousan-touki-kisoku-1.md 第三十五条）：同一の不動産について申請する二以上の登記が、不動産の表題部の登記事項に関する変更の登記又は更正の登記及び土地の分筆の登記若しくは合筆の登記又は建物の分割の登記、建物の区分の登記若しくは建物の合併の登記であるとき。記事ウの引用と一致",
+        "『別々の申請になるのが原則』：規則35条の見出し（令第四条ただし書の法務省令で定めるとき）にそった言い方。令4条の条番号は図に入れず、記事の言い方にそろえた（ユーザーに伝える）",
+    ],
+    lead1="乙建物を甲建物の附属建物とする合併の登記をします。乙建物には、種類に変更が生じています。この種類の変更の登記と合併の登記を、一の申請情報で申請できるのでしょうか。",
+    title="種類変更と合併は、一の申請情報でできる", title_hl="一の申請情報でできる",
+    panels=[
+        dict(label="①　種類変更と合併は、別々に申請？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "目的が違うから、別々の申請ですよね？", None, "目的が違うから、\n別々の申請ですよね？"),
+                      ("トリ先生", "出たわね。例外を忘れているわよ", "例外", "出たわね。\n例外を\n忘れているわよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「乙建物の種類に変更が生じている」. Card 2: 「建物の表題部の変更の登記を申請したい」. Card 3: 「乙建物を甲建物の附属建物とする合併の登記も申請したい」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「一の申請情報でできる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　原則と、例外", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「登記が2つ以上あるときは」 at the top left, with one line beside it: 「一の申請情報にできるかは、規則35条しだい」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「別々の申請になるのが原則」, two body lines: 「登記の目的や原因が違えば」, 「別々の申請情報にする」.",
+                  "Right card, heading 「規則35条が認める例外」, a small tag 「規則35条7号」, two body lines: 「同一の不動産について」, 「変更・更正の登記と合併の登記など」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、例外に当たる場面」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　7号の組合せ", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "目的が違うのに、まとめていいんですか？", None, "目的が違うのに、\nまとめていいんですか？"),
+                      ("トリ先生", "同一の不動産なら、7号の例外よ", "7号の例外", "同一の不動産なら、\n7号の例外よ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「種類変更と合併は別々に申請」, body 「同一の建物の変更と合併には当てはまらない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「同一の建物の変更と合併」, body 「一の申請情報でできる（規則35条7号）」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「規則35条7号の組合せ（同一の不動産）」, with the same pale gray fill and a dark navy outline. Inside the card, first one small tag row 「表題部の変更の登記・更正の登記」, then a small caption 「と一緒に申請できる登記（5つ）」, then exactly five short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「土地の分筆の登記」, 「土地の合筆の登記」, 「建物の分割の登記」, 「建物の区分の登記」, 「建物の合併の登記」. The row 「建物の合併の登記」 is highlighted with a yellow marker. Under the five rows, one small dark navy ribbon tag with white text 「今回の肢は、変更と合併の組合せ」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "変更と合併は、まとめて申請できるんですね！", None, "変更と合併は、\nまとめて申請\nできるんですね！"),
+                      ("トリ先生", "そう。できると書けば〇よ", "できると書けば〇", "そう。できると\n書けば〇よ")],
+             fig=[], checklist=["同一の不動産の表題部の変更・更正の登記と合併の登記などは、一の申請情報でできる（規則35条7号）", "組み合わせられるのは、分筆・合筆・建物の分割・区分・合併の5つ", "乙建物が居宅から事務所に変わっていても、1つの申請書でまとめられる"])
+    ],
+    band1="種類変更の登記と合併の登記は、一の申請情報でできる", band2="問題D1788　正解〇（R04-Q16ウ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。原則（別々の申請）と規則35条7号の例外の対比と、7号の組合せの整理に絞った）"],
+)
+
+HEADER = dict(h1="種類変更と合併", h2="まとめて申請？", hkey="まとめて申請？",
+              scene_l="two small building icons with a document sheet between them, no text",
+              scene_r="two application papers being clipped together into one, no text")
