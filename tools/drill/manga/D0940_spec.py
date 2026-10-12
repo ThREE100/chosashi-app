@@ -1,0 +1,73 @@
+"""D0940 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H26-Q06エ（甲土地及び乙土地が相互に接続している場合であっても、甲土地を乙土地に合筆する合筆の登記を申請することはできない・〇）。
+接続・地番区域・所有権の登記名義人が同じでも、地目が異なれば合筆できない（法41条2号）。型5（整理カード併用）で、合筆できない6つのケース（法41条1号〜6号）を整理して見せた。同じ問の肢ウはD0939。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0940", fid="D0940", topic="不動産登記法／土地の滅失・地図・地積測量図・土地所在図", src="H26-Q06エ",
+    truth="〇（正しい記述）",
+    miscon="接続していて、地番区域も所有権の登記名義人も同じなら、合筆できると考える（地目が異なるという、ほかの制限に当たることを見落とす）",
+    article="note-articles/h26-mondai/q06-chisekisokuryouzu-heisa.md",
+    art_head="エ（接続していても、地目などの制限に当たれば合筆できない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『相互に接続している場合であっても』と、接続だけを取り上げる。前提条件で地番区域と所有権の登記名義人が同一と示されているので、条件が揃っているように見せ、もう一方の土地が山林であること（地目が異なること）を見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①接続・地番区域・名義人の3つが揃えば合筆できると考える。②合筆できない場合が6つ（法41条1号〜6号）あることを、全部は思い出せない。③前提条件の登記記録の地目（甲土地は宅地、乙土地は山林）を読み取らず、2号（地目が異なる）に気づかない。",
+        "【対比する制度】「そろっている条件」⇔「そろっていない条件」：接続・地番区域・所有権の登記名義人は同じだが、地目が異なる（法41条2号）。結論が逆になる点＝条件の一部がそろっていても、1つでも制限に当たれば合筆できない。",
+        "【型の選び方】型：型5（整理カード併用。型1の思い込み・型3の理由説明と組み合わせ）。理由が『合筆できない6つのケースのどれに当たるか』という列挙の記憶なので、コマ3の右側は会話1往復と、法41条1号〜6号の整理カードにした。コマ1で思い込みを出し、コマ2でそろっている条件とそろっていない条件を左右に並べた。",
+        "記事の範囲：H26-Q06エ。肢エの解説は地目などの制限としか書いていないが、同じ記事の補足に法41条の6つの号の原文と、エは2号に当たるという説明がある。図の6つのケースはその補足の言い方に合わせた。前提条件の登記記録（甲土地は宅地、乙土地は山林）から、地目が異なることを読み取る。",
+        "extra_refs：不動産登記法41条2号・41条1号〜6号は記事の補足（同じファイル）にあり、法令DB（note-articles/laws/fudousan-touki-hou.md）と照合済み。drill.py explainの出力は肢エの解説だけで条文番号が出ないため、check_prompt.pyが拾えない場合は設計データのextra_refsに書く。",
+        "登場人物：土地は文字のカードで示す（人型にしない）。逆の結論になる類似肢はD0939（同じ問の肢ウ。図には入れない）。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①接続・地番区域・所有権の登記名義人が同じでも、地目が異なる土地は合筆できない（法41条2号）②合筆できない6つのケース（1号 接続していない、2号 地目又は地番区域が異なる、3号 表題部所有者又は所有権の登記名義人が異なる、4号 持分を異にする、5号 所有権の登記がない土地とある土地、6号 所有権以外の権利の登記がある土地）③前提条件の甲土地（宅地）と乙土地（山林）で地目が異なる④肢D0940は『申請することはできない』なので〇",
+    ],
+    extra_refs=[
+        "不動産登記法41条1号〜6号の文言（記事の補足に原文を引用）：次に掲げる合筆の登記は、することができない。一 相互に接続していない土地の合筆の登記 二 地目又は地番区域が相互に異なる土地の合筆の登記 三 表題部所有者又は所有権の登記名義人が相互に異なる土地の合筆の登記 四 表題部所有者又は所有権の登記名義人が相互に持分を異にする土地の合筆の登記 五 所有権の登記がない土地と所有権の登記がある土地との合筆の登記 六 所有権の登記以外の権利に関する登記がある土地（法務省令で定めるものがある土地を除く。）の合筆の登記。法令DB note-articles/laws/fudousan-touki-hou.md と照合済み",
+        "甲土地は宅地・乙土地は山林（前提条件の登記記録の最後の地目）。記事の補足も『一方が宅地でもう一方が山林というように地目が違っていれば、合筆できません』と書く。肢エの解説本文には2号と書かれていないので、補足から取ったことをユーザーに伝える",
+    ],
+    lead1="所有権の登記名義人が同じ、隣り合う甲土地と乙土地があります。地番区域も同じです。甲土地は宅地、乙土地は山林です。甲土地を乙土地に合筆する登記を申請できるのでしょうか。",
+    title="接続していても、地目が違えば合筆できない", title_hl="地目が違えば",
+    panels=[
+        dict(label="①　接続していて名義人が同じなら？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "接続していて名義人も同じなら、合筆できますよね？", None, "接続していて\n名義人も同じなら、\n合筆できますよね？"),
+                      ("トリ先生", "出たわね。ほかの条件も見るのよ", "ほかの条件", "出たわね。\nほかの条件も\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「甲土地（宅地）と乙土地（山林）が接続」. Card 2: 「地番区域と所有権の登記名義人は同じ」. Card 3: 「甲土地を乙土地に合筆したい」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「合筆の登記を申請できる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　そろっている条件と、そろっていない条件", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「接続・名義人が同じでも」 at the top left, with one line beside it: 「合筆できるかは、ほかの条件しだい」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「そろっている条件」, two body lines: 「相互に接続している」, 「地番区域・所有権の登記名義人が同じ」.",
+                  "Right card, heading 「そろっていない条件」, a small tag 「法41条2号」, two body lines: 「甲土地は宅地、乙土地は山林」, 「地目が相互に異なる」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、地目が異なる土地の合筆」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　合筆できない6つのケース", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "同じなのに、だめなんですか？", None, "同じなのに、\nだめなんですか？"),
+                      ("トリ先生", "制限は6つ。今回は2号よ", "2号", "制限は6つ。\n今回は2号よ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「地目が異なる土地（法41条2号）」, body 「接続・名義人が同じでも、合筆できない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「6つのどれにも当たらない土地」, body 「合筆の登記を申請できる」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「合筆できない6つのケース（法41条）」, with the same pale gray fill and a dark navy outline, containing exactly six short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「1号　相互に接続していない土地」, 「2号　地目又は地番区域が異なる土地」, 「3号　所有者・登記名義人が異なる土地」, 「4号　持分を異にする土地」, 「5号　所有権の登記がない土地とある土地」, 「6号　所有権以外の権利の登記がある土地」. The row 「2号　地目又は地番区域が異なる土地」 is highlighted with a yellow marker. Under the six rows, one small dark navy ribbon tag with white text 「今回の肢は、2号に当たる」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "地目が違えば、合筆できないんですね！", None, "地目が違えば、\n合筆できないんですね！"),
+                      ("トリ先生", "そう。できないと書けば〇よ", "できないと書けば〇", "そう。できないと\n書けば〇よ")],
+             fig=[], checklist=["接続・名義人が同じでも、地目が異なれば合筆できない（法41条2号）", "合筆できないのは6つのケース（法41条1号〜6号）", "前提の登記記録で、甲土地は宅地・乙土地は山林と地目が違う"])
+    ],
+    band1="接続・名義人が同じでも、地目が違えば合筆できない", band2="問題D0940　正解〇（H26-Q06エ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。合筆できない6つのケース（法41条）の整理カードと、2号（地目が異なる）への当てはめに絞った）"],
+)
+
+HEADER = dict(h1="接続していても", h2="合筆できる？", hkey="できる？",
+              scene_l="two adjacent land plots, one with a small house icon and one with small trees, no text",
+              scene_r="a pencil hovering over a boundary line between two different-colored land plots, no text")

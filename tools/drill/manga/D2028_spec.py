@@ -1,0 +1,73 @@
+"""D2028 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+R07-Q06ア（私人が所有する土地について、市町村が代位による土地の表題登記を嘱託する場合には、被代位者が所有権を有することを証する情報を提供することを要する・〇）。
+『代位による土地の表題登記の嘱託（所有権証明情報が要る）』と『市町村が自ら所有する建物の表題登記の嘱託（便宜省略できる）』の対比に絞った。代位は『誰が申請するか』の話で、所有者本人の証明は免除されない。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D2028", fid="D2028", topic="不動産登記法／申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）", src="R07-Q06ア",
+    truth="〇（正しい記述）",
+    miscon="官公署（市町村）が嘱託するのだから、所有権を証する情報は省略できると考える（代位による嘱託では、被代位者の所有権の証明が必要であることを見落とす）",
+    article="note-articles/r7-mondai/q06-shokutaku-touki.md",
+    art_head="ア（代位登記でも、本当の所有者の証明は必要）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『市町村が』『代位による』『嘱託する』と、官公署が嘱託する場面を強調する。官公署の嘱託は何かと簡略化される（委任状の期限・印鑑証明書など）という印象に乗せ、被代位者の所有権を証する情報は免除されないことを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①官公署の嘱託なら、添付情報は全体に省略できると考える。②『誰が申請するか』（代位）と『本当にその人の土地か』（所有権の証明）が別の話であることが結びついていない。③市町村が自ら所有する建物の表題登記の嘱託（所有権証明情報を便宜省略できる）と、代位による場合を混同する。",
+        "【対比する制度】「代位による土地の表題登記」⇔「市町村が所有する建物の表題登記」（いずれも嘱託）：前者は被代位者の所有権を証する情報が要る（令別表4の項ハ）／後者は官公署自身が所有者なので所有権証明情報を便宜省略できる（記事ウ。結論が逆になる点）。",
+        "【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で『市町村が嘱託するから省ける』という思い込みを出し、コマ2で代位による土地の嘱託と市町村自身の建物の嘱託を左右に並べ、コマ3で『代位は誰が申請するかの話』という理由を上下のカードにした。",
+        "記事の範囲：R07-Q06ア（令別表4の項添付情報欄ハ）。比較に使う市町村自身の建物の嘱託は、同じ記事のウ（所有権証明情報を便宜省略して差し支えない）。ウの根拠の準則の条番号は、図には入れず記事の言い方（便宜省略して差し支えない）にそろえた。",
+        "登場人物：人型は使わず、市町村・土地・建物は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①代位による土地の表題登記の嘱託でも、被代位者の所有権を証する情報の提供は必要（令別表4の項添付情報欄ハ）②代位は『誰が申請するか』の話で、所有者本人であることの証明は免除されない③市町村が自ら所有する建物の表題登記の嘱託は、所有権証明情報を便宜省略して差し支えない（記事ウ。別の場面）④肢D2028は『提供することを要する』なので〇",
+    ],
+    extra_refs=[
+        "令別表4の項（法令DB note-articles/laws/fudousan-touki-rei-betsuhyou.md）：土地の表題登記の添付情報 ハ 表題部所有者となる者が所有権を有することを証する情報。記事アの引用と一致",
+        "記事ウ：国又は地方公共団体が所有する建物の表題登記を官公署自身が嘱託する場合には、所有権を証する情報の提供を便宜省略して差し支えない（記事は準則87条3項を挙げるが、図には条番号を入れない）",
+    ],
+    lead1="私人が所有する土地について、市町村が、所有者に代わって土地の表題登記を嘱託します。このとき、その所有者が所有権を有することを証する情報は、提供する必要があるのでしょうか。",
+    title="代位の嘱託でも、所有権の証明は省けない", title_hl="省けない",
+    panels=[
+        dict(label="①　市町村が嘱託するなら、省ける？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "市町村が嘱託するなら、証明は省けますよね？", None, "市町村が嘱託するなら、\n証明は省けますよね？"),
+                      ("トリ先生", "出たわね。誰の何を証明するのか見るのよ", "誰の何を証明するのか", "出たわね。\n誰の何を証明するのか\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「私人が所有する土地」. Card 2: 「市町村が、代位して土地の表題登記を嘱託」. Card 3: 「被代位者（本当の所有者）の所有権の証明は？」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「所有権を証する情報は、要る？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　代位の嘱託と、自分の建物の嘱託", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「同じ市町村の嘱託でも」 at the top left, with one line beside it: 「所有権の証明が要るかは、場面で分かれる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「代位による土地の表題登記」, a small tag 「令別表4の項」, two body lines: 「被代位者の所有権を証する情報は要る」, 「代位は、誰が申請するかの話」.",
+                  "Right card, heading 「市町村が所有する建物の表題登記」, two body lines: 「官公署自身が所有者」, 「所有権証明情報は便宜省略できる」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、代位による土地の表題登記」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　なぜ、代位でも証明が要る？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "代位なら、手続は省略されませんか？", None, "代位なら、\n手続は省略\nされませんか？"),
+                      ("トリ先生", "代位は、誰が申請するかの話なの", "誰が申請するか", "代位は、\n誰が申請するかの\n話なの"),
+                      ("藍子", "じゃあ、所有権の証明は？", None, "じゃあ、\n所有権の証明は？"),
+                      ("トリ先生", "本当にその人の土地かは、別の話よ", "別の話", "本当にその人の\n土地かは、別の話よ")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「代位だから、証明は省ける」, body 「代位は『誰が申請するか』の話。所有権の証明は免除されない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「被代位者の所有権を証する情報」, body 「代位による嘱託でも、提供が必要（令別表4の項ハ）」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "代位でも、所有権の証明は要るんですね！", None, "代位でも、\n所有権の証明は\n要るんですね！"),
+                      ("トリ先生", "そう。要ると書けば〇よ", "要ると書けば〇", "そう。要ると\n書けば〇よ")],
+             fig=[], checklist=["代位による土地の表題登記の嘱託でも、被代位者の所有権を証する情報は要る（令別表4の項ハ）", "代位は『誰が申請するか』の話で、所有者本人の証明は免除されない", "市町村が自ら所有する建物の嘱託は、所有権証明情報を便宜省略できる（別の場面）"])
+    ],
+    band1="代位による嘱託でも、被代位者の所有権の証明は必要", band2="問題D2028　正解〇（R07-Q06ア）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。代位による土地の嘱託と、市町村自身の建物の嘱託（記事ウ）の対比に絞った）"],
+)
+
+HEADER = dict(h1="代位による嘱託", h2="証明は省ける？", hkey="省ける？",
+              scene_l="a small city hall building beside a land plot with a blank deed sheet, no text",
+              scene_r="a stamp and a document sheet with a magnifying glass checking it, no text")
