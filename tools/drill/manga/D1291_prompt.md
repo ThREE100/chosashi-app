@@ -1,16 +1,17 @@
-# D1291 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D1291 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
-- 肢：D1291（不動産登記法／区分建物・敷地権・共用部分、出典 H29-Q17オ）。正解＝〇（正しい記述）。誤解建物を買ったのだから、転得者が自分を表題部所有者として表題登記を申請できる、あるいは何もできないと考える（区分建物の転得者は、自分では申請できないが、原始取得者に代位して申請できることを見落とす）。
+- 肢：D1291（不動産登記法／区分建物・敷地権・共用部分、出典 H29-Q17オ）。正解＝〇（正しい記述）。誤解建物を買ったのだから、転得者が自分を表題部所有者として表題登記を申請できる、あるいは何もできないと考える（区分建物は法47条1項の対象外で、転得者は自分名義では申請できないが、原始取得者に代位して申請できることを見落とす）。
 - 記事：`note-articles/h29-mondai/q17-kubun-tatemono.md` オ（原始取得者が申請しない表題登記を、転得者が代位して申請できる）
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
-- 【出題者のひっかけ】問題文が『原始取得者が表題登記を申請しない場合には』『転得者は、…代位して』と、代位の形で書く。区分建物の転得者には申請義務も申請適格もない、という知識に乗せ、『だから何もできない』と誤解させ、代位して申請できることを見落とさせる。
-- 【受験者の勘違い・定着していない点】（推測）①転得者は所有者なので、自分で表題登記を申請できると考える。②区分建物の転得者に申請義務も申請適格もない（非区分建物と異なる）ことは覚えているが、それだけで『申請できない』と思い込み、代位による申請に気づかない。③代位の根拠（民法423条）と、代位したときに誰が表題部所有者になるか（原始取得者）が結びついていない。
-- 【対比する制度】「非区分建物の転得者」⇔「区分建物の転得者」：非区分建物では転得者にも申請義務・申請適格がある（記事は『非区分建物と異なり』と述べる）／区分建物の転得者は自分では申請できないが、原始取得者に代位して、原始取得者を表題部所有者とする表題登記を申請できる（民法423条）（結論が逆になる点）。
-- 【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で『買った人は自分で申請できる』という思い込みを出し、コマ2で非区分建物の転得者と区分建物の転得者を左右に並べ、コマ3で『自分名義にはできないが、代位ならできる』という理由を上下のカードにした。
-- 記事の範囲：H29-Q17オ（民法423条）。記事は、区分建物の表題登記は原則として原始取得者に申請義務があること、非区分建物と異なり転得者には申請義務も申請適格もないこと、転得者は原始取得者に代位して原始取得者を表題部所有者とする表題登記を申請できること、を述べる。理由の詳細（なぜ転得者に申請適格がないか）は記事に書かれていないので、図でも書かない。
+- 【出題者のひっかけ】問題文が『原始取得者が…申請しない場合には、転得者は…代位して』と書く。区分建物の転得者には申請義務も申請適格もない、という知識に乗せ、『だから何もできない』と誤解させ、代位して申請できることを見落とさせる。
+- 【受験者の勘違い・定着していない点】（推測）①転得者は所有者なので、非区分建物と同じように自分名義で申請できると考える。②区分建物の転得者に申請適格がないことは覚えていても、その理由（法47条1項の『区分建物以外の』という限定）が結びつかず、代位という手段に気づかない。③法47条2項の一般承継人（相続人）の例外を、転得者にも及ぶと混同する。
+- 【対比する制度】「非区分建物の転得者」⇔「区分建物の転得者」：非区分建物は法47条1項により今の所有者が申請でき、自分の名前で登記される／区分建物は同項の対象外で、転得者は自分名義では申請できず、民法423条で原始取得者に代位して申請する（表題部所有者は原始取得者）（結論が逆になる点）。
+- 【型の選び方】型：型5（整理カード併用。型1の思い込み・型3の理由説明と組み合わせ）。理由が『誰の名前で申請するか』の4つの場面の整理なので、コマ3の右側は会話1往復（転得者と一般承継人の違い）と、土地・非区分建物・区分建物の転得者・区分建物の相続人の整理カードにした。コマ1で思い込みを出し、コマ2で非区分建物と区分建物の転得者を左右に並べた。
+- 記事の範囲：H29-Q17オ（v02で補足が加わった。法47条1項・47条2項、民法423条）。47条1項は『新築した建物又は区分建物以外の表題登記がない建物の所有権を取得した者』に申請義務を課し、区分建物はその対象外。47条2項は区分建物の原始取得者に一般承継があった場合に限り、一般承継人が被承継人を表題部所有者とする表題登記を申請できる例外。転得者が自分名義で申請できる根拠条文はなく、残る手段は代位だけ（記事）。
+- 整理カードの『土地』の行は、同じ記事オの『非区分建物（土地・通常の建物）』の記述に沿い、法36条の条番号は図に入れない（法36条は別の個別テーマ記事 note-articles/topics/shinseishikaku-tochi-tatemono.md で確認）。『区分建物の転得者が自分名義で申請できない』の直接の条文は未確認と同テーマ記事にあるため、図は記事の言い方（47条1項の対象外、根拠条文はない）にそろえる。
 - 登場人物：人型は使わず、建物・登記は文字のカードで示す（Ａ・Ｂなどの記号は使わない）。
 - 矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。
 - 配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。
@@ -38,24 +39,22 @@
 | コマ1 | 藍子（左・先に話す） | 買った人は、自分で申請できますよね？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。区分建物は違うのよ | 「区分建物は違う」 |
 | コマ2 見出し | ラベル | ②　非区分建物と、区分建物 | — |
-| コマ2 図 | 図・カード | 表題登記がないまま転売されたとき / 転得者にできることが、建物の種類で分かれる / 非区分建物の転得者 / 転得者にも申請義務がある / 自分で表題登記を申請できる / 区分建物の転得者 / 民法423条 / 自分では申請できない / 原始取得者に代位して申請 / この肢は、区分建物の転得者 | — |
-| コマ3 見出し | ラベル | ③　なぜ、代位して申請する？ | — |
-| コマ3 図 | 図・カード | 転得者が自分を表題部所有者として申請 / 区分建物の転得者には、申請義務も申請適格もない / 転得者が代位して申請 / 原始取得者を表題部所有者とする表題登記を申請できる（民法423条） | — |
-| コマ3 | 藍子（左・1番目） | 転得者は、何もできないんですか？ | — |
-| コマ3 | トリ先生（右・2番目） | 自分名義はだめ。でも代位ならできるの | 「代位ならできる」 |
-| コマ3 | 藍子（左・3番目） | 誰が表題部所有者になりますか？ | — |
-| コマ3 | トリ先生（右・4番目） | 原始取得者よ。転得者ではないの | 「原始取得者」 |
+| コマ2 図 | 図・カード | 表題登記がないまま転売されたとき / 47条1項の対象かどうかで分かれる / 非区分建物の転得者 / 法47条1項 / 今の所有者として申請できる / 自分の名前で登記される / 区分建物の転得者 / 47条1項の対象外 / 自分名義では申請できない / 民法423条で、代位して申請 / この肢は、区分建物の転得者 | — |
+| コマ3 見出し | ラベル | ③　誰の名前で申請する？ | — |
+| コマ3 図 | 図・カード | 転得者が自分名義で申請 / 区分建物は47条1項の対象外。根拠条文はない / 転得者が代位して申請 / 原始取得者を表題部所有者として申請できる（民法423条） / 表題登記は、誰の名前で申請？ / 土地　買主の名前 / 非区分建物　買主の名前 / 区分建物の転得者　代位して原始取得者の名前 / 区分建物の相続人　亡き原始取得者の名前（法47条2項） / 区分建物だけ、買主の名前では登記できない | — |
+| コマ3 | 藍子（左・1番目） | 相続人の場合は、どう違いますか？ | — |
+| コマ3 | トリ先生（右・2番目） | 一般承継人は、亡き原始取得者の名前よ | 「亡き原始取得者」 |
 | コマ4 見出し | ラベル | ④　結論は〇 | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 代位してなら、申請できるんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そう。代位できると書けば〇よ | 「代位できると書けば〇」 |
-| コマ4 チェック欄 | 3項目（青✓） | 区分建物の転得者に、申請義務も申請適格もない / 原始取得者が申請しないとき、転得者は代位して申請できる（民法423条） / 表題部所有者になるのは、原始取得者 | — |
+| コマ4 チェック欄 | 3項目（青✓） | 区分建物は法47条1項の対象外。転得者に申請義務も申請適格もない / 転得者は代位して、原始取得者を表題部所有者として申請できる（民法423条） / 相続人は、亡き原始取得者の名前で申請できる（法47条2項） | — |
 | 結論帯 | 1行目 | 区分建物の転得者は、原始取得者に代位して表題登記を申請できる | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D1291　正解〇（H29-Q17オ） | — |
 
 ## 記事に無い条文（ユーザー指示で追加）
 
-- 民法423条の文言は、記事オの引用と一致。法令DB（note-articles/laws/minpou-2-saiken.md 第423条）と照合済み。『非区分建物の転得者には申請義務・申請適格がある』は、記事の『非区分建物と異なり』の言い方に沿った整理（記事に直接の文はないので、図は『自分で申請できる』にとどめる）
+- 民法423条の文言は、記事オの引用と一致。法令DB（note-articles/laws/minpou-2-saiken.md）と照合済み。法47条1項・2項は記事オの補足（v02）と法令DB（note-articles/laws/fudousan-touki-hou.md）で確認。土地（法36条）の行は同じ記事の『非区分建物（土地・通常の建物）』に沿った整理で、36条の条番号は図に入れない
 
 ## プロンプト本体
 
@@ -105,31 +104,27 @@ PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each abo
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
 - Label tab: 「②　非区分建物と、区分建物」
-- A small dark navy tag 「表題登記がないまま転売されたとき」 at the top left, with one line beside it: 「転得者にできることが、建物の種類で分かれる」.
+- A small dark navy tag 「表題登記がないまま転売されたとき」 at the top left, with one line beside it: 「47条1項の対象かどうかで分かれる」.
 - Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.
-- Left card, heading 「非区分建物の転得者」, two body lines: 「転得者にも申請義務がある」, 「自分で表題登記を申請できる」.
-- Right card, heading 「区分建物の転得者」, a small tag 「民法423条」, two body lines: 「自分では申請できない」, 「原始取得者に代位して申請」.
+- Left card, heading 「非区分建物の転得者」, a small tag 「法47条1項」, two body lines: 「今の所有者として申請できる」, 「自分の名前で登記される」.
+- Right card, heading 「区分建物の転得者」, a small tag 「47条1項の対象外」, two body lines: 「自分名義では申請できない」, 「民法423条で、代位して申請」.
 - Under the two cards, one wide dark navy band with large white text 「この肢は、区分建物の転得者」.
 - The two cards have clearly different texts; the texts are NOT identical.
 
 PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
-- Label tab: 「③　なぜ、代位して申請する？」
-- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
+- Label tab: 「③　誰の名前で申請する？」
+- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 2 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 120 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 2 face icons and exactly 2 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
-- Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
-- Top card, heading 「転得者が自分を表題部所有者として申請」, body 「区分建物の転得者には、申請義務も申請適格もない」, and ONE red cross only at the bottom of this card (no check mark on this card).
-- Bottom card, heading 「転得者が代位して申請」, body 「原始取得者を表題部所有者とする表題登記を申請できる（民法423条）」, and ONE blue check mark only at the bottom of this card (no cross on this card).
-- The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「転得者は、
-何もできない
-んですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「自分名義はだめ。
-でも代位なら
-できるの」 with the part 「代位ならできる」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「誰が表題部所有者に
-なりますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「原始取得者よ。
-転得者ではないの」 with the part 「原始取得者」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
+- Top card, heading 「転得者が自分名義で申請」, body 「区分建物は47条1項の対象外。根拠条文はない」, and ONE red cross only at the bottom of this card (no check mark on this card).
+- Bottom card, heading 「転得者が代位して申請」, body 「原始取得者を表題部所有者として申請できる（民法423条）」, and ONE blue check mark only at the bottom of this card (no cross on this card).
+- RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「表題登記は、誰の名前で申請？」, with the same pale gray fill and a dark navy outline, containing exactly four short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「土地　買主の名前」, 「非区分建物　買主の名前」, 「区分建物の転得者　代位して原始取得者の名前」, 「区分建物の相続人　亡き原始取得者の名前（法47条2項）」. The row 「区分建物の転得者　代位して原始取得者の名前」 is highlighted with a yellow marker. Under the four rows, one small dark navy ribbon tag with white text 「区分建物だけ、買主の名前では登記できない」.
+- The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, row 1 of 2 in the conversation column; face icon at the LEFT end of its own row): 「相続人の場合は、
+どう違いますか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 2 in the conversation column; face icon at the RIGHT end of its own row): 「一般承継人は、
+亡き原始取得者の
+名前よ」 with the part 「亡き原始取得者」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は〇」
@@ -137,7 +132,7 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both han
 申請できるんですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そう。代位できると
 書けば〇よ」 with the part 「代位できると書けば〇」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「区分建物の転得者に、申請義務も申請適格もない」, 「原始取得者が申請しないとき、転得者は代位して申請できる（民法423条）」, 「表題部所有者になるのは、原始取得者」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「区分建物は法47条1項の対象外。転得者に申請義務も申請適格もない」, 「転得者は代位して、原始取得者を表題部所有者として申請できる（民法423条）」, 「相続人は、亡き原始取得者の名前で申請できる（法47条2項）」.
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「区分建物の転得者は、原始取得者に代位して表題登記を申請できる」 with a yellow highlighter marker.
@@ -145,7 +140,7 @@ CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 売, 建, 所, 物, 登, 肢, 解, 記, 請, 買, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 代, 地, 売, 対, 建, 所, 承, 物, 登, 肢, 解, 記, 請, 買, 違 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 2 face icons and exactly 2 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -215,7 +210,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 工程C：初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える
 - [ ] 工程C：構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない
 - [ ] 工程C：コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない
-- [ ] 工程C：肝の確認：①区分建物の表題登記は、原則として原始取得者に申請義務がある②非区分建物と異なり、区分建物の転得者には申請義務も申請適格もない③原始取得者が申請しないとき、転得者は原始取得者に代位して、原始取得者を表題部所有者とする表題登記を申請できる（民法423条）④肢D1291は『代位して…申請することができる』なので〇
+- [ ] 工程C：肝の確認：①法47条1項は『新築した建物又は区分建物以外の表題登記がない建物』の所有権取得者に申請義務を課し、区分建物は対象外②非区分建物なら今の所有者（転得者）が自分の名前で申請できる③区分建物の転得者は自分名義では申請できず、民法423条で原始取得者に代位して申請する（表題部所有者は原始取得者）④法47条2項は区分建物の原始取得者に一般承継があった場合の一般承継人（相続人）の例外で、転得者には及ばない⑤肢D1291は『代位して…申請することができる』なので〇
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -232,3 +227,4 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。非区分建物の転得者と区分建物の転得者の対比と、自分名義ではなく代位して申請するという理由に絞った）
+- 2026-10-12 v02：ユーザー指示（記事H29-Q17オが更新されたため、読み込んで構成を見直した）。記事の補足（法47条1項の『区分建物以外の』という限定で区分建物は対象外、47条2項は一般承継人だけの例外）に合わせ、コマ2を『47条1項の対象かどうか』の対比にし、コマ3を型5（整理カード併用）にして、土地・非区分建物・区分建物の転得者・区分建物の相続人が誰の名前で申請するかを4行で整理した。会話は転得者と一般承継人の違いの1往復。記事にない理由の推測は入れず、根拠条文がない点は記事の言い方にそろえた
