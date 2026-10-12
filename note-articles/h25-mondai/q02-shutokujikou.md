@@ -24,6 +24,8 @@
 
 判例上、所有権だけでなく、継続的に用益する権利としての賃借権も時効取得の対象となり得るとされています。無権利者から賃借した場合であっても、賃借の意思をもって平穏かつ公然に土地の使用収益を継続すれば、賃借権を時効によって取得することができます。
 
+なぜ所有権以外の権利まで時効で取得できるのかというと、取得時効という制度そのものが、「本当は権利がなかったとしても、長期間にわたってその権利があるかのように振る舞われてきた事実状態」を、そのまま法的な権利として認めてしまう仕組みだからです。民法162条は、この仕組みを所有権について「所有の意思をもって、平穏に、かつ、公然と他人の物を占有した者は、その所有権を取得する」と定めていますが、民法163条は同じ仕組みを所有権以外の財産権にも広げ、「所有権以外の財産権を、自己のためにする意思をもって、平穏に、かつ、公然と行使する者は…その権利を取得する」と規定しています。賃借権は売買のように権利そのものが移転するわけではありませんが、163条の「自己のためにする意思」を、賃借人として土地を使う意思（地代を支払うなど、所有者としてではなく賃借人として振る舞っていることが外から見てわかる状態）と捉えることで、所有権と同じ理屈で時効取得の対象になります。つまり162条と163条は「どの権利が時効で成立するか」が違うだけで、「長期間の事実状態を権利として認める」という基本的な仕組みは共通しているのです。
+
 **たとえば**、実は所有者ではないCさんから「この土地を貸します」と言われて借り、Bさんが長年その土地を耕作し続けていた場合、Bさんは本当の所有者Aさんとの関係でも、賃借権を時効によって取得できる可能性があります。
 
 ### イ：占有開始時は善意でも、途中で「隠匿」になれば時効は成立しない
@@ -79,6 +81,7 @@
 - 各肢の法的根拠は、`note-articles/laws/`のローカル法令データベース（`minpou-1-soukyoku-bukken.md`）で条文原文を確認しました。イ・ウは、民法162条2項「十年間、所有の意思をもって、平穏に、かつ、公然と他人の物を占有した者は、その占有の開始の時に、善意であり、かつ、過失がなかったときは、その所有権を取得する」の文言構造（「平穏に、かつ、公然と…占有した者」＝10年間を通じて必要な要件と、「占有の開始の時に、善意であり、かつ、過失がなかったとき」＝開始時点のみで判断する要件とが文言上区別されている）から、平穏・公然は占有期間を通じて必要、善意無過失は占有開始時のみで判断するという読み方が条文の文言自体からも確認できます（この読み方は判例（大連判明治44年4月7日など）によっても確認されています）。エ・オ（占有の承継における善意無過失の判断基準）は、民法187条2項「前の占有者の占有を併せて主張する場合には、その瑕疵をも承継する」により、承継人が前主の占有を併せて主張する場合には前主の瑕疵（善意・悪意等）も引き継ぐことが条文の文言上確認でき、これが「合算する場合は最初の占有者を基準に判断する」という結論の条文上の手掛かりになっています。ただし、この結論を確定させているのは最高裁判例（最判昭和53年3月6日の趣旨）であり、187条2項の文言だけから一義的に導けるわけではない点は留保が必要です。ア（賃借権の時効取得）は、民法163条「所有権以外の財産権を、自己のためにする意思をもって、平穏に、かつ、公然と行使する者は…その権利を取得する」により、賃借権のような継続的な用益権も時効取得の対象となり得ることが条文の文言上確認できますが、無権利者からの賃借であっても要件を満たせば取得できるという点自体は判例の理解によるものです。
 - **重複出題チェック（2026-07-21実施）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。R02年度第2問が「不動産の取得時効」を正面から扱っていますが、占有の承継・善意無過失の判断基準という本問独自の具体的な組合せそのものの再出題は確認できませんでした。**具体的な出題内容としての重複は見つかりませんでした**。
 - **最新法令チェック（2026-08-16実施）**：相続登記義務化（不動産登記法76条の2、令和6年4月1日施行）・住所変更登記義務化（同法76条の5、令和8年4月1日施行、既に施行済み）は、いずれも不動産登記の申請義務についての改正であり、本問が扱う取得時効の要件（民法162条・163条・187条）とは論点が異なるため、影響はありません。
+- **肢アの「なぜ賃借権も時効取得できるのか」という理解補助の追加（2026-10-12実施）**：本文に、民法162条（所有権の時効取得）と163条（所有権以外の財産権の時効取得）が「長期間の事実状態を権利として認める」という共通の仕組みを持つこと、163条の「自己のためにする意思」を賃借人として行使する意思（地代の支払いなど、賃借人として振る舞っていることが外から見てわかる状態）と捉えることで賃借権にも時効取得が成立することを補足しました。この「自己のためにする意思」を賃借人としての行使意思に結び付ける具体的なあてはめ部分は判例の理解によるものであり、163条の条文の文言だけから一義的に導けるわけではない点は、既存の確認事項の記載と同様に留保が必要です。
 
 ---
 
@@ -426,5 +429,153 @@ nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
 no additional text block of any kind), and confirm the entire canvas,
 edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+## インフォグラフィック プロンプト（肢アの考え方：賃借権はなぜ時効取得できるのか）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the other infographics for this article, built as
+a set of 4 concept panels explaining WHY 賃借権 can be the subject of
+取得時効 (not a quick-reference conclusion poster, and not a flowchart of
+checking order — this is a reasoning/concept explainer).
+
+CONCEPT-EXPLAINER REQUIREMENT (critical): Each panel builds one step of a
+single line of reasoning, connected by small "だから" / "つまり" arrow
+labels between panels. Panel 2 must be drawn as a 対比枠型 (side-by-side
+comparison frame): a single panel split down the middle by a vertical
+divider line, with 民法162条 content on the left half and 民法163条
+content on the right half, so the reader sees at a glance that the two
+articles share the same structure but differ in one element. Do not
+compress multiple legal points into a single icon — each distinct point
+listed below must have its own visible label or icon.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+賃借権は、なぜ
+時効で取れてしまうのか
+Subtitle (smaller, centered, 1行):
+平成25年度午後第2問 肢アの考え方（取得時効）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1 ---
+Badge: a filled circle in beige containing the number 1.
+Heading (bold, ONE line):
+取得時効は「事実状態」を権利にする制度
+Diagram: An isometric hourglass standing on a land plot, sand slowly
+falling. Above the hourglass, a faded dashed-outline silhouette figure
+(representing an uncertain factual situation). Below the hourglass, after
+the sand has fallen, the same figure is redrawn solid and colored,
+holding a small certificate/key icon, with a green checkmark. A caption
+arrow from the faded figure to the solid figure reads 長期間、平穏・公然
+と占有・行使を続けた事実状態。
+Conclusion tag (beige banner below the illustration, 5-15 characters):
+事実状態が権利になる
+
+(small arrow label between Panel 1 and Panel 2): だから
+
+--- PANEL 2 ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+162条と163条は同じ仕組みの双子
+Diagram: A single panel split by a vertical divider line into two equal
+halves. LEFT HALF (labeled with a small tag 民法162条　所有権の時効取得):
+a figure standing on a land plot holding a house-shaped deed icon,
+labeled 所有の意思をもって占有。RIGHT HALF (labeled with a small tag
+民法163条　所有権以外の財産権の時効取得): a figure standing on the same
+land plot holding a key icon labeled 賃借権, labeled 自己のためにする
+意思をもって行使。Along the divider line, write a shared-condition tag:
+平穏に、かつ、公然と／20年または10年。
+Conclusion tag (green banner below the illustration, 5-15 characters):
+所有権だけではない
+
+(small arrow label between Panel 2 and Panel 3): つまり
+
+--- PANEL 3 ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+決め手は「どういう意思」で使ったか
+Diagram: An isometric figure (B) standing on a land plot, with two
+thought-bubble branches rising from the figure's head. LEFT bubble:
+所有者のつもりで使っていた, leading to a small label 所有権の時効取得
+(162条). RIGHT bubble (highlighted, thicker border, green checkmark):
+賃借人のつもりで使っていた（地代を払うなど）, leading to a small label
+賃借権の時効取得（163条）with a green checkmark stamp.
+着眼点 callout (1-2 sentences, verbatim):
+占有者・行使者がどういう意思で振る舞っていたかによって、時効で成立する
+権利の種類が変わります。賃借人として振る舞っていた場合は、賃借権が時効
+取得の対象になります。
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+意思の向きで権利が変わる
+
+(small arrow label between Panel 3 and Panel 4): だから
+
+--- PANEL 4 ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+貸主に権利がなくても対象になる
+Diagram: An isometric scene showing a figure labeled C (無権利者,
+drawn with a small dashed question-mark icon showing C has no true
+right) handing a key icon to a figure labeled B. A timeline arrow shows B
+continuing to use the land for many years, ending in a green checkmark
+stamp labeled 賃借権を時効取得。A separate small dashed-line figure labeled
+A（本当の所有者）stands off to the side, unaffected until the timeline
+completes.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+貸主の権利の有無は問わない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法162条（所有権の取得時効）・163条（所有権以外の財産権の取得時効）に
+基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 権・効・賃・借・無・占 and any
+character that has a visually similar Simplified or Traditional Chinese
+variant. If any character renders as a Simplified or Traditional Chinese
+variant, redraw that character in the correct Japanese form. Also scan
+the entire canvas for any character that is not standard Japanese
+hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
+Korean Hangul, other non-Japanese script, or stray decorative glyph — and
+remove or redraw it so that only standard Japanese text appears anywhere
+in the image. Confirm the panel count equals 4 exactly, badge numbers run
+1-4 continuously, Panel 2 is drawn as a single side-by-side comparison
+frame (not two separate panels), there is no intro illustration or
+paragraph block between the header and the panels, that the small
+だから／つまり arrow labels appear between panels exactly as specified,
+confirm nothing is rendered below the last panel's footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```
