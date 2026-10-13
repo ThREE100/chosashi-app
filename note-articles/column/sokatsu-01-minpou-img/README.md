@@ -4,7 +4,8 @@
 
 ## ファイル
 
-- `prompt_midashi_sokatsu-01-minpou.md` … 記事の見出し画像（1280×670px）のプロンプト1枚
+- `prompt_midashi_sokatsu-01-minpou.md` … 全体版の記事の見出し画像（1280×670px）のプロンプト1枚
+- `prompt_midashi_sokatsu-01-minpou-ch1.md`・`-ch2.md`・`-ch3.md` … 章ごとに分けた記事（`sokatsu-01-minpou-ch1〜3.md`）の見出し画像のプロンプト各1枚（ch1＝総則、ch2＝物権、ch3＝対抗要件・担保・相続。生成元は `src/gen_midashi_ch.py`）
 - `infographic/prompt_infographic_M?-?.md` … 論点ごとの図解のプロンプト（20ファイル・計23枚。M1-5、M1-6、M2-6は2枚）
 - `4koma/prompt_4koma_M?-?_<肢ID>.md` … 論点ごとの4コマのプロンプト（20本。構成表〈文言の正本〉・設計メモ・プロンプト本体・単独投稿用の見出し画像プロンプトつき）。`check_prompt.py` は全20本 NG 0件・WARN 0件
 - `src/` … 生成元。`spec_4koma_M?-?.py`（4コマの設計データ）、`gen_infographic_M?-?.py`（図解の組み立て）、`gen_midashi.py`（見出し画像）
