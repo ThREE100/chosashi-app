@@ -10,6 +10,8 @@ import re, subprocess, sys, itertools, difflib, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 RISKY = set("号録権地番建物登記所請還売買当初詐欺規対抗無過効張説解間違肢承諾譲渡押債抵援認届款占帯証代保")
+# 樹形図の意味の「木」「ツリー」の禁止（2026-10-13 ユーザー指示。日本語の「木」は何を指すのか読者に伝わらない。判定の流れ・分かれ道・流れ図などに言い換える）。実在の樹木（立木・竹木・木造など）は対象外
+TREE_WORDS = re.compile(r"決定木|判定木|ツリー|(?<![立竹樹植苗])木(?:では|に当て|の右|の左|の枝|の根|の分岐|の図|を描|で見|と呼)")
 GARBLED = {"原則": "思則", "まとめて": "まとかて", "第三者": "時三者", "合体": "合併"}   # 過去に画像で字が崩れた語（崩れた形）。本文にあれば Final check で綴りを確認させる
 LEFT, RIGHT = "藍子", "トリ先生"
 ng, warn = [], []
@@ -67,6 +69,8 @@ def main():
     if not args:
         print(__doc__); sys.exit(2)
     path = pathlib.Path(args[0]); src = path.read_text(encoding="utf8")
+    for w in dict.fromkeys(m.group(0) for m in TREE_WORDS.finditer(src)):
+        NG(f"樹形図の意味の『木』『ツリー』が本文にある:「{w}」。図・台詞・ラベルでは禁止（日本語の「木」は読者に伝わらない）。『判定の流れ』『分かれ道』『流れ図』などに言い換える（MANGA_RULES.md「禁止語」）")
     # 第二案（B案）の節（ファイル末尾の「## 第二案（B案）」以降）があるときは、第一案の検査から外し、第二案を別に検査する（2026-10-09追加）
     global SECOND_RESULT, THIRD_RESULT
     i2 = src.find("\n## 第二案（B案）"); i3 = src.find("\n## 第三案（C案）")
