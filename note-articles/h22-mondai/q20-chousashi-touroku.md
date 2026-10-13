@@ -248,7 +248,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-ア・イ・オはそれぞれ独立した経路・届出関係を示す系統図・関係図型、ウ・エは誤りやすい思い込みと正しいルールを対比する正誤対比型とする。5肢はいずれも独立した論点であり、決定木を共有する肢はない。
+ア・イ・オはそれぞれ独立した経路・届出関係を示す系統図・関係図型、ウ・エは誤りやすい思い込みと正しいルールを対比する正誤対比型とする。5肢はいずれも独立した論点であり、判定の流れ図を共有する肢はない。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,

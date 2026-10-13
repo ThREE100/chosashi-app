@@ -246,7 +246,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ウ・エ・オは「滅失登記を申請しようとしているのは誰か」という同じ決定木を共有し（仮登記名義人＝ウ、相続人＝エ、区分所有者の一人＝オ）、各パネルは自分の肢に関係する枝だけを強調する。ア・イは単一のチェックで完結する肢のため通常の図解で示す。②の色分け（誰が申請人になれるか＝緑、登記記録・保存にどう扱われるか＝青）を引き継いでいる。
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ウ・エ・オは「滅失登記を申請しようとしているのは誰か」という同じ判定の流れ図を共有し（仮登記名義人＝ウ、相続人＝エ、区分所有者の一人＝オ）、各パネルは自分の肢に関係する枝だけを強調する。ア・イは単一のチェックで完結する肢のため通常の図解で示す。②の色分け（誰が申請人になれるか＝緑、登記記録・保存にどう扱われるか＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -362,7 +362,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 申請人になろうとしているのは誰かを確認する
-Diagram: A decision flowchart shared with Panels 4 and 5. 共有決定木の
+Diagram: A decision flowchart shared with Panels 4 and 5. 共有判定の流れ図の
 起点「滅失登記を申請しようとしているのは誰か」を描き、3つの枝（仮登記
 名義人・相続人・区分所有者の一人）を並べる。仮登記名義人への枝
 （highlighted, thick border, full color, since this panel is about this
@@ -373,7 +373,7 @@ branch）を辿ると、焼失した建物のアイソメトリック建物と�
 所有者の一人への枝は、他のパネル（4・5）で扱うため、薄いグレーの点線
 で縮小表示する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この肢が滅失登記を申請しようとしているのが誰かを、共有の決定木
+まず、この肢が滅失登記を申請しようとしているのが誰かを、共有の判定の流れ図
 の「仮登記名義人」の枝として確認します。次に、滅失の登記を申請できる
 のは表題部所有者または所有権の登記名義人に限られることを確認し、消防
 署の焼失証明書や所有権登記名義人の承諾があっても、仮登記名義人自身は
@@ -385,7 +385,7 @@ Conclusion tag (green, 5-15 Japanese characters):
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 相続登記を経ていなくても申請できるかを確認する
-Diagram: The same three-way decision tree as Panels 3 and 5. 共有決定木
+Diagram: The same three-way decision tree as Panels 3 and 5. 共有判定の流れ図
 の起点を再掲し、相続人への枝（highlighted, thick border, full color,
 since this panel is about this branch）を辿ると、2つ目のひし形ノード
 「相続による所有権移転の登記を経ているか」がある。いいえ側
@@ -398,7 +398,7 @@ fact pattern）は、亡くなった所有権の登記名義人（グレーの�
 区分所有者の一人への枝は、他のパネル（3・5）で扱うため、薄いグレー
 の点線で縮小表示する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この肢が滅失登記を申請しようとしているのが誰かを、共有の決定木
+まず、この肢が滅失登記を申請しようとしているのが誰かを、共有の判定の流れ図
 の「相続人」の枝として確認します。次に、相続による所有権移転の登記を
 経ているかを確認し、経ていなくても、相続人であることを証する情報を
 提供すれば滅失の登記を申請できると判断します。
@@ -409,7 +409,7 @@ Conclusion tag (green, 5-15 Japanese characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 区分所有者の一人から申請できるかを確認する
-Diagram: The same three-way decision tree as Panels 3 and 4. 共有決定木
+Diagram: The same three-way decision tree as Panels 3 and 4. 共有判定の流れ図
 の起点を再掲し、区分所有者の一人への枝（highlighted, thick border,
 full color, since this panel is about this branch）を辿ると、所有者が
 異なる複数の区分建物が属する一棟の建物のアイソメトリック建物を描き、
@@ -419,7 +419,7 @@ full color, since this panel is about this branch）を辿ると、所有者が
 は後方に控えたまま描く。仮登記名義人への枝と相続人への枝は、他のパネル
 （3・4）で扱うため、薄いグレーの点線で縮小表示する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この肢が滅失登記を申請しようとしているのが誰かを、共有の決定木
+まず、この肢が滅失登記を申請しようとしているのが誰かを、共有の判定の流れ図
 の「区分所有者の一人」の枝として確認します。次に、これは所有者が異なる
 数個の区分建物が属する一棟の建物の滅失の登記であることを確認し、区分
 所有者全員がそろわなくても、そのうちの一人から申請できると判断します。

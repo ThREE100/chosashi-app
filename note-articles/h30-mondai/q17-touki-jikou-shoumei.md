@@ -361,7 +361,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 共同担保目録は請求情報に明記する
-Diagram: 決定木として描く。ひし形の分岐ノードに「共同担保目録（信託
+Diagram: 判定の流れ図として描く。ひし形の分岐ノードに「共同担保目録（信託
 目録）についても証明を求めるか？」と書く。「求める（○）」方向の矢印
 を、請求書の checkbox にペンでチェックが入り、その先に共同担保目録の
 ledger pages が証明書に添付される結論ノード「請求情報にその旨を記載
@@ -396,7 +396,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 送付なら送付費用も自己負担になる
-Diagram: 決定木として描く。ひし形の分岐ノードに「交付を送付（郵送）の
+Diagram: 判定の流れ図として描く。ひし形の分岐ノードに「交付を送付（郵送）の
 方法で受けるか？」と書く。「受ける（○）」方向の矢印を、envelope icon
 に証明書が覗いている図と、2つの coin-stack icon「手数料」「送付費用」
 が plus-sign icon でつながれた結論ノード「手数料に加えて送付費用も納付

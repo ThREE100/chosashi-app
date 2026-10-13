@@ -248,7 +248,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-ア・イ・エは、区分建物ごとに分岐点を置く決定木型。ウ・オは、正しい処理・正しい理解と誤解しやすい考え方を左右で対比する正誤対比型とする。
+ア・イ・エは、区分建物ごとに分岐点を置く判定の流れ図型。ウ・オは、正しい処理・正しい理解と誤解しやすい考え方を左右で対比する正誤対比型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,

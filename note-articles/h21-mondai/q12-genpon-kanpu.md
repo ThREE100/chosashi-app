@@ -272,7 +272,7 @@ written on them, Yes/No (or ○/✕) branch arrows, and a final conclusion
 node. Where a 肢 is resolved by a single check, a labeled illustrative
 diagram is sufficient — do not force a flowchart. Panels 1, 2 and 4
 share a single decision tree (a two-step "この書面は還付できるか"
-判定ツリー: Step 1 asks whether the document is a 申請専用書面, and Step
+判定の流れ図: Step 1 asks whether the document is a 申請専用書面, and Step
 2 asks whether it is one of the specifically enumerated 印鑑証明書
 types) — in each of these three panels, render the branch relevant to
 THIS panel with a thick highlighted border and full color, and render

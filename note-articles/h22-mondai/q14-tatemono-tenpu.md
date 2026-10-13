@@ -247,7 +247,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-5肢すべてが「この添付情報について、省略を認める特則があるか」という同じ判定木を共有する構成。ア・ウは特則があり省略できる枝を強調し、イ・エ・オは特則がなく原則どおり提供が必要な枝を強調する。
+5肢すべてが「この添付情報について、省略を認める特則があるか」という同じ判定の流れ図を共有する構成。ア・ウは特則があり省略できる枝を強調し、イ・エ・オは特則がなく原則どおり提供が必要な枝を強調する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,

@@ -244,7 +244,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-ア・イ・エは、名称のイメージだけで地目を思い込みやすい記述であるため、「誤りやすい思い込み」と「正しいルール」を左右で対比させる正誤対比型とする。ウ・オは、現況を段階的に確認して結論に至る決定木型とする。
+ア・イ・エは、名称のイメージだけで地目を思い込みやすい記述であるため、「誤りやすい思い込み」と「正しいルール」を左右で対比させる正誤対比型とする。ウ・オは、現況を段階的に確認して結論に至る判定の流れ図型とする。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,

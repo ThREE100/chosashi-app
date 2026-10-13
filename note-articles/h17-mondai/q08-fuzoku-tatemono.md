@@ -393,7 +393,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 追加新築は合併でなく変更登記による
-Diagram: 決定木として描く。開始ノード「甲建物の表題登記後に乙建物を
+Diagram: 判定の流れ図として描く。開始ノード「甲建物の表題登記後に乙建物を
 新築し、附属建物として追加するには何の登記をするか」（ひし形）→
 「乙建物について表題登記をしたうえで合併の登記」の矢印は赤い✕で「使え
 ない手順」という結論ノードへ、「甲建物の建物表題部変更登記のみ」の矢印は

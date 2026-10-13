@@ -381,7 +381,7 @@ paraphrasing and no substituted characters. Confirm nothing is rendered below th
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。「地図」と「地積測量図」、「地図の誤り」と「分筆手続の誤り」といった、似た言葉で異なる制度を見分ける肢が多いため、対比枠型と決定木型を肢ごとに使い分けて構成する。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
+問題文（ア〜オ5肢）を読んだ瞬間に、どんな図を描き、どの順番で条件を確認すれば正誤にたどり着けるかを示す作図ガイド。「地図」と「地積測量図」、「地図の誤り」と「分筆手続の誤り」といった、似た言葉で異なる制度を見分ける肢が多いため、対比枠型と判定の流れ図型を肢ごとに使い分けて構成する。`infographic-prompt-template.md`の「⑤ 作図ガイド型」に基づく。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -522,7 +522,7 @@ Badge: a filled circle in green containing the number 4(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
 閉鎖図面だけで誤りが分かるかを確認する
-Diagram: 縦方向の決定木。開始点はグレーの四角ノード「地図の区画に誤り
+Diagram: 縦方向の判定の流れ図。開始点はグレーの四角ノード「地図の区画に誤り
 があることが判明」。そこから下向きの矢印でひし形の分岐ノード「登記所
 に備え付けられている図面(閉鎖された地図に準ずる図面等)で、その誤りを
 確認できるか」につながる。Yes(緑・太い強調の矢印)は結論ノード(緑)「そ

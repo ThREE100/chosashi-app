@@ -255,7 +255,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-行為能力の問題文を読んだときに、「誰が」「いつ」取消しできるかを見分け、催告（オ）については相手が誰かによって無回答の効果が逆転するという条件を順に確認する決定木としてたどれるようにする5パネル構成。
+行為能力の問題文を読んだときに、「誰が」「いつ」取消しできるかを見分け、催告（オ）については相手が誰かによって無回答の効果が逆転するという条件を順に確認する判定の流れ図としてたどれるようにする5パネル構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,

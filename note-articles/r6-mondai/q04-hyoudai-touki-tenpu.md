@@ -685,7 +685,7 @@ Badge: a filled circle in green containing the number 5(numbers run
 continuously through all panels).
 Heading(bold, ONE line):
 名義一致から敷地権化の可否を順に確認する
-Diagram: 縦方向の決定木。開始点はグレーの四角ノード「地上権の登記名義
+Diagram: 縦方向の判定の流れ図。開始点はグレーの四角ノード「地上権の登記名義
 人＝区分建物の所有者(名義が一致)」。そこから下向きの矢印でひし形の分岐
 ノード「分離処分可能規約により、この地上権を敷地権としない旨が定めら
 れているか」につながる。Yes(オレンジ・太い強調の矢印)は結論ノード(緑)

@@ -55,6 +55,7 @@ for f in cfg["fourkoma"]:
 chk(len(re.findall(r"^> 【画像挿入】", note, re.M)) == ni + nf, f"画像挿入マーカー{ni + nf}か所", f"画像挿入マーカーの数が{ni + nf}か所でない")
 
 # 3 図解プロンプト
+TREE_WORDS = re.compile(r"決定木|判定木|ツリー|(?<![立竹樹植苗])木(?:では|に当て|の右|の左|の枝|の根|の分岐|の図|を描|で見|と呼)")  # 樹形図の意味の「木」の禁止（2026-10-13）
 blocks = re.findall(r"```text\n(.*?)\n```", info, re.S)
 chk(len(blocks) == ni, f"図解プロンプトのコードブロック{ni}個", f"図解プロンプトのコードブロックが{len(blocks)}個")
 for i, b in enumerate(blocks, 1):
@@ -63,6 +64,7 @@ for i, b in enumerate(blocks, 1):
     actual = RISKY & set(re.findall(r"[一-鿿]", body))
     if listed != actual: NG(f"図解{i}：Final checkの漢字リストと本文の漢字が違う（余分={sorted(listed-actual)}、不足={sorted(actual-listed)}）")
     if re.search(r"緑|green", b, re.I): NG(f"図解{i}：緑／greenの語が入っている")
+    if TREE_WORDS.search(b): NG(f"図解{i}：樹形図の意味の『木』『ツリー』が入っている（『判定の流れ』『流れ図』に言い換える）")
     if "BACKGROUND REQUIREMENT" not in b or "alpha" not in b: NG(f"図解{i}：背景の不透明化の指示がない")
     if "Jōyō" not in b: NG(f"図解{i}：日本語のみ・簡体字禁止の指示がない")
     if "注意：" in b: NG(f"図解{i}：独立した日本語の注意文がある")

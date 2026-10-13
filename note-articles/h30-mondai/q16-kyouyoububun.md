@@ -333,7 +333,7 @@ Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 所有権の有無で抹消される登記が変わる
-Diagram: 決定木として描く。ひし形の分岐ノードに「共用部分にする建物に
+Diagram: 判定の流れ図として描く。ひし形の分岐ノードに「共用部分にする建物に
 所有権の登記があるか？」と書く。「ある（○）」方向の矢印を、
 chain-and-padlock icon（権利）に赤い✕が重なった結論ノード「所有権その
 他の権利に関する登記が職権で抹消される」につなぐ。「ない（✕）」方向の
@@ -405,7 +405,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 種類変更は1か月以内に申請する
-Diagram: 決定木として描く。ひし形の分岐ノードに「登記事項（種類など）
+Diagram: 判定の流れ図として描く。ひし形の分岐ノードに「登記事項（種類など）
 に変更が生じたか？」と書く。「生じた（○）」方向の矢印を、
 storage-room icon「物置」が meeting-hall icon「集会所」に変わる矢印
 と、calendar icon「1か月以内」、document icon「変更登記申請」が並んだ

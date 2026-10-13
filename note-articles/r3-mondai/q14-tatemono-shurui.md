@@ -278,7 +278,7 @@ crossed-out 野球場・店舗・駐車場 (incorrect) label. Confirm nothing is
 
 対話形式の問題文を読んだときに、各肢でどんな図を描き、どの順番で条件を確認すれば正誤に
 たどり着けるかを示す作図ガイド。ア・エは「よくある思い込み」と「正しい判断基準」を
-左右で対比させる型、イ・ウ・オは条件を順に確認する決定木型で構成する。
+左右で対比させる型、イ・ウ・オは条件を順に確認する判定の流れ図型で構成する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,

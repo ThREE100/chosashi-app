@@ -324,7 +324,7 @@ characters):
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 抵当権者は申出人の資格に含まれない
-Diagram: 決定木として描く。開始ノード「申出をしようとしている人は誰か」
+Diagram: 判定の流れ図として描く。開始ノード「申出をしようとしている人は誰か」
 （ひし形）→ 「表題部所有者・所有権の登記名義人・その相続人等」の矢印は
 緑の○で「申出ができる」という結論ノードへ、「抵当権の登記名義人」の
 矢印は赤い✕で「申出人になれない」という別の結論ノードへ進む。抵当権者を
@@ -375,7 +375,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 地積の錯誤は更正登記とセットで申出
-Diagram: 決定木として描く。開始ノード「区画の誤りに加え、登記記録の
+Diagram: 判定の流れ図として描く。開始ノード「区画の誤りに加え、登記記録の
 地積にも錯誤があるか」（ひし形）→ Yes矢印（緑）→ 結論ノード「地図訂正の
 申出は、地積に関する更正の登記の申請と併せてしなければならない」（鎖
 アイコンで2つの書類をつないで示す）。No矢印（グレー、破線）→ 別の結論

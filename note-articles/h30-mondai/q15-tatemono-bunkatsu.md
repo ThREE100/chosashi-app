@@ -383,7 +383,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 変更登記と分割登記は一括申請できる
-Diagram: 決定木として描く。ひし形の分岐ノードに「表題部の変更・更正の
+Diagram: 判定の流れ図として描く。ひし形の分岐ノードに「表題部の変更・更正の
 登記と、分割・区分・合併の登記の組合せか？」と書く。「該当する（○）」
 方向の矢印を、単一の document/application-form icon の中に「表題部の
 変更の登記（増築）」と「分割の登記」の2枚のタグが plus-sign icon で
@@ -419,7 +419,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 分割では登記識別情報は通知されない
-Diagram: 決定木として描く。ひし形の分岐ノードに「申請人自らが登記
+Diagram: 判定の流れ図として描く。ひし形の分岐ノードに「申請人自らが登記
 名義人となる登記か？」と書く。「該当する（○）」方向の矢印を、
 certificate/notification envelope icon「登記識別情報」に緑のチェック
 マークが付いた結論ノード「登記識別情報が通知される」につなぐ。「該当し

@@ -346,7 +346,7 @@ Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 新築日が同一かを確認する
-Diagram: 決定木として描く。ひし形の分岐ノードに「附属建物の新築日は主
+Diagram: 判定の流れ図として描く。ひし形の分岐ノードに「附属建物の新築日は主
 である建物の新築日と同一か？」と書く。ノードの左右に、主である建物の
 アイソメトリック house icon（カレンダーに日付マーク）と附属建物の
 house icon（同じくカレンダー）を並べて配置する。ひし形から緑の○の

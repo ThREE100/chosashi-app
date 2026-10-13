@@ -257,7 +257,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-5肢すべてが「この添付情報は誰が作成したものか」という同じ判定木を共有する構成。ア・エは申請人本人・代理人自身が作成した情報の枝を、イ・ウは第三者が作成した情報の枝を、オは図面の枝を、それぞれ強調する。
+5肢すべてが「この添付情報は誰が作成したものか」という同じ判定の流れ図を共有する構成。ア・エは申請人本人・代理人自身が作成した情報の枝を、イ・ウは第三者が作成した情報の枝を、オは図面の枝を、それぞれ強調する。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,

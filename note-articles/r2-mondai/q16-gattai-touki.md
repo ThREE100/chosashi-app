@@ -254,7 +254,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ア・ウ・エは「合体前の建物にどの権利が登記されていたか」という同じ決定木を共有し（抵当権＝ア、所有権＝ウ、賃借権＝エ）、各パネルは自分の肢に関係する枝だけを強調する。イは持分割合の定め・書面申請・印鑑証明書の提供という3条件を順に確認する決定木、オは登記名義人の同一性を確認する単一チェックとして描く。②の色分け（添付情報として何が必要か＝緑、合体でどう登記されるか＝青）を引き継いでいる。
+上記②の「結論カード」ポスターとは別に、問題文を読んだときに実際に手を動かして描くべき図と、その図にたどり着くまでの確認順序を肢ごとに示す作図ガイド。ア・ウ・エは「合体前の建物にどの権利が登記されていたか」という同じ判定の流れ図を共有し（抵当権＝ア、所有権＝ウ、賃借権＝エ）、各パネルは自分の肢に関係する枝だけを強調する。イは持分割合の定め・書面申請・印鑑証明書の提供という3条件を順に確認する判定の流れ図、オは登記名義人の同一性を確認する単一チェックとして描く。②の色分け（添付情報として何が必要か＝緑、合体でどう登記されるか＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -339,7 +339,7 @@ Heading (bold, ONE line):
 存続する抵当権があるかを確認する
 Diagram: A decision flowchart shared with Panels 3 and 4 (a three-way
 tree branching by the type of right registered before the merger). 3
-方向に分岐する共有決定木の起点「合体前の建物に登記されていた権利は
+方向に分岐する共有判定の流れ図の起点「合体前の建物に登記されていた権利は
 何か」を描く。抵当権への枝（highlighted, thick border, full color,
 since this panel is about this branch）を辿ると、次のひし形ノード
 「合体後の建物にその抵当権が存続することとなるものがあるか」があり、
@@ -384,7 +384,7 @@ Conclusion tag (green, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 所有権の登記は職権でされるかを確認する
-Diagram: The same three-way decision tree as Panel 1. 共有決定木の起点
+Diagram: The same three-way decision tree as Panel 1. 共有判定の流れ図の起点
 「合体前の建物に登記されていた権利は何か」を再掲し、所有権への枝
 （highlighted, thick border, full color, since this panel is about this
 branch）を辿ると、結論ノード「登記官が表題登記の際に職権で所有権の
@@ -393,7 +393,7 @@ branch）を辿ると、結論ノード「登記官が表題登記の際に職�
 介さず所有権の登記を作り出す様子で描く。抵当権への枝と賃借権への枝は、
 他のパネル（1・4）で扱うため、薄いグレーの点線で縮小表示する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この肢がどの権利について尋ねているかを、共有の決定木の「所有権」
+まず、この肢がどの権利について尋ねているかを、共有の判定の流れ図の「所有権」
 の枝として確認します。次に、所有権の登記そのものは申請人が申請する
 ものではなく、登記官が表題登記をする際に職権で記録するものであること
 を確認します。
@@ -404,7 +404,7 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 賃借権が持分に登記できる権利かを確認する
-Diagram: The same three-way decision tree as Panels 1 and 3. 共有決定木
+Diagram: The same three-way decision tree as Panels 1 and 3. 共有判定の流れ図
 の起点を再掲し、賃借権への枝（highlighted, thick border, full color,
 since this panel is about this branch）を辿ると、ひし形ノード「賃借権
 は建物の持分の上に登記できる権利か」があり、いいえ側（highlighted）は
@@ -414,7 +414,7 @@ since this panel is about this branch）を辿ると、ひし形ノード「賃�
 の枝と所有権への枝は、他のパネル（1・3）で扱うため、薄いグレーの点線
 で縮小表示する。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、この肢がどの権利について尋ねているかを、共有の決定木の「賃借権」
+まず、この肢がどの権利について尋ねているかを、共有の判定の流れ図の「賃借権」
 の枝として確認します。次に、賃借権が建物の持分の上に登記できる権利
 かどうかを確認し、登記できない権利であるため、合体前の各建物に同一の
 賃借権があっても合体後の建物に存続させることはできないと判断します。
