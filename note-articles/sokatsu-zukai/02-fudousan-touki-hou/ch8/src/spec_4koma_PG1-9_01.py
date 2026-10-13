@@ -1,0 +1,75 @@
+"""D0583 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-13）。
+総合記事②不動産登記法編 第8章【PG1-9】用（1本目）。H22-Q15ウ（敷地のみに抵当権の設定の登記がある建物について敷地権付きの建物の区分の登記を申請する場合に、抵当権者が消滅を承諾したことを証する情報が提供されたときは、抵当権の登記が消滅した旨の登記がされる・×）。
+『特定登記（建物の抵当権で敷地権にも及ぶもの）なら、承諾情報で消滅の登記がされる』と『敷地のみの抵当権は特定登記ではない』の対比に絞り、型5（整理カード併用）で法55条1項の条件を整理した。
+承諾情報により消滅の登記がされる側の肢（D0404・D0990・D1089）は、条文別シリーズの4コマ（再利用）が扱う。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0583", fid="D0583", topic="不動産登記法／区分建物・敷地権・共用部分",
+    src="H22-Q15ウ",
+    truth="×（誤った記述）",
+    miscon="抵当権者が消滅を承諾すれば、敷地のみの抵当権も、建物の抵当権と同じように消滅した旨が登記されると考える（特定登記かどうかで扱いが違うことを見落とす）",
+    article="note-articles/h22-mondai/q15-kubun-tatemono.md",
+    art_head="ウ（敷地のみの抵当権は特定登記ではないので、消滅承諾の情報が提供されても、消滅した旨の登記がされるわけではない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】肢が『敷地である土地のみに抵当権の設定の登記があるもの』と書き、『抵当権者が抵当権の消滅を承諾したことを証する情報が提供されたときは、…消滅した旨の登記がされる』と言い切る。承諾情報で抵当権が消える、という正しい肢（法55条1項）と似せ、前提が『敷地のみの抵当権』だという一語を見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①承諾情報を提供すれば、どの抵当権でも消滅した旨が登記されると考える。②法55条1項の『特定登記』が、建物の抵当権で敷地権にも及ぶものだということが定着していない。③敷地のみの抵当権は建物の登記に基づかないので別扱いになることを、結びつけられない。",
+        "【対比する制度】「特定登記」⇔「敷地のみの抵当権」：特定登記（建物の抵当権で、敷地権にも及ぶもの）は、分離処分できることになる敷地権の変更の登記と併せて承諾情報が提供されれば、登記官が消滅した旨を登記する（法55条1項）／敷地のみの抵当権は特定登記ではないので、同じ扱いにはならない（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型1の思い込みと組み合わせ）。理由：結論の理由が『法55条1項の条件に当たるか』という列挙の記憶なので、コマ3の右側は会話1往復と、消滅した旨が登記される3つの条件の整理カードにした。コマ2は『特定登記』と『敷地のみの抵当権』の左右の対比。壁＝『承諾書があれば、どの抵当権も消える』。",
+        "コマごとに読者が言えること：コマ1＝敷地だけに抵当権があるとき、承諾情報で消滅した旨が登記されるか。コマ2＝特定登記は建物の抵当権で敷地権にも及ぶもの。敷地のみの抵当権は特定登記ではない。コマ3＝消滅した旨が登記されるのは、特定登記があり、敷地権の変更登記と併せて承諾情報が提供されたとき。コマ4＝D0583は×。",
+        "記事の範囲：H22-Q15ウ（法55条1項、規則125条）。『特定登記でないので、規則125条の対象とは整理されない』は、記事の整理（条文に直接の定めがなく、特定登記の定義と規則125条から導いたもの）。整理カードの3つの条件は、総合記事②第8章【PG1-9】の整理（法令DBで原文を確認）。",
+        "extra_refs：不動産登記法55条1項（敷地権付き区分建物のうち特定登記があるものについて、敷地利用権が専有部分と分離して処分できるものとなったことにより敷地権の変更の登記をする場合に、変更の登記の申請情報と併せて特定登記に係る権利の登記名義人が消滅を承諾したことを証する情報が提供されたときは、承諾に係る建物又は土地について権利が消滅した旨を登記しなければならない）、不動産登記規則125条は法令DB note-articles/laws/ で原文を確認。",
+        "登場人物：人型は使わず、登記と権利の名前は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は縦3枚のカード、コマ2は左右のカード、コマ3は上下のカードと整理カード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3の左は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話2つと整理カード）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で肢の問い（敷地のみの抵当権に承諾情報があれば、消滅の登記がされるか）、コマ2で特定登記と敷地のみの抵当権の対比、コマ3で消滅の登記がされる3つの条件が言える",
+        "構成表の全文言を記事（H22-Q15ウ）・法令DBと突き合わせ済み。『敷地のみの抵当権は特定登記でない』は記事の整理（解説上の整理）として扱った",
+        "コマ1・2に印がなく、コマ3の左は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①特定登記＝建物の抵当権で敷地権にも及ぶもの ②特定登記があり、分離処分できることになる敷地権の変更登記と併せて承諾情報が提供されると、登記官が消滅した旨を登記する（法55条1項） ③敷地のみの抵当権は特定登記でなく、同じ扱いにならない ④D0583は×",
+    ],
+    extra_refs=[
+        "不動産登記法55条1項、不動産登記規則125条。法令DB note-articles/laws/fudousan-touki-hou.md、fudousan-touki-kisoku-1.md と照合済み。『敷地のみの抵当権は特定登記でない』は記事（H22-Q15ウ）の整理（条文に直接の定めがなく、特定登記の定義と規則125条から導いたもの）",
+    ],
+    lead1="敷地の土地にだけ、抵当権の設定の登記があります。敷地権付きの建物の区分の登記を申請する際に、抵当権者の消滅の承諾情報を提供すれば、抵当権が消滅した旨の登記がされるのでしょうか。",
+    title="承諾があっても、敷地のみの抵当権は別扱い", title_hl="敷地のみの抵当権",
+    panels=[
+        dict(label="①　承諾があれば、消える？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "承諾書があれば、消えますよね？", None, "承諾書があれば、\n消えますよね？"),
+                      ("トリ先生", "出たわね。どの抵当権かを見なさい", "どの抵当権か", "出たわね。\nどの抵当権かを\n見なさい")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「敷地の土地にだけ、抵当権の登記がある」. Card 2: 「敷地権付きの建物の区分の登記を申請」. Card 3: 「抵当権者が、消滅を承諾した」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「消滅した旨の登記は、される？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　特定登記と、敷地のみの抵当権", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「承諾情報と抵当権」 at the top left, with one line beside it: 「どの抵当権かで、扱いが違う」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「特定登記」, a small tag 「法55条1項」, two body lines: 「建物の抵当権で、」, 「敷地権にも及ぶもの」.",
+                  "Right card, heading 「敷地のみの抵当権」, a small tag 「特定登記ではない」, two body lines: 「建物の登記に基づかない」, 「土地だけの抵当権」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢の抵当権は、右のカード」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　消える旨が登記される条件", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "敷地だけの抵当権も、同じですか？", None, "敷地だけの抵当権も、\n同じですか？"),
+                      ("トリ先生", "いいえ。特定登記じゃないのよ", "特定登記じゃない", "いいえ。\n特定登記じゃ\nないのよ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「承諾書があれば、消滅の登記がされる」, body 「この肢の言い分」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「敷地のみの抵当権は、特定登記ではない」, body 「消滅した旨の登記はされない」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「消滅した旨が登記される条件」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots), with no arrow and no check mark and no cross: 「特定登記がある敷地権付き区分建物」, 「分離処分できることになる敷地権の変更登記」, 「権利者の承諾情報を併せて提供」, with the first row highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「敷地のみの抵当権は、1つ目に当たらない」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "特定登記かどうかを、確かめるんですね！", None, "特定登記かどうかを、\n確かめるんですね！"),
+                      ("トリ先生", "そう。敷地だけなら別扱いよ", "別扱い", "そう。\n敷地だけなら\n別扱いよ")],
+             fig=[], checklist=["承諾で消滅の登記がされるのは、特定登記（法55条1項）", "特定登記は、建物の抵当権で敷地権にも及ぶもの", "敷地のみの抵当権は特定登記でなく、消滅した旨の登記はされない"])
+    ],
+    band1="敷地のみの抵当権は、特定登記ではない", band2="問題D0583　正解×（H22-Q15ウ）",
+    ver="v01",
+    rev=["2026-10-13 v01：新規作成（総合記事②不動産登記法編 第8章【PG1-9】用。型5（整理カード併用）。特定登記と敷地のみの抵当権の対比と、消滅した旨が登記される条件の整理に絞った）"],
+)
+
+HEADER = dict(h1="敷地だけの抵当権", h2="承諾すれば消える？", hkey="消える？",
+              scene_l="a land plot with a small house-shaped lock icon and a blank mortgage document, no text",
+              scene_r="a rubber stamp and a blank consent form on a desk, no text")

@@ -1,0 +1,75 @@
+"""D1359・D1361 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-13）。
+総合記事②不動産登記法編 第8章【PG1-1】用（1本目）。H30-Q11③（区分建物は専有部分であるもの〈規約共用部分を含む〉・〇）／H30-Q11④（区分建物には専有部分のほか規約共用部分を含む・〇）。
+『規約共用部分は区分建物に含まれる』と『法定共用部分は含まれない』の対比に絞り、型5（整理カード併用）で『専有部分・規約共用部分・法定共用部分』の3つを整理した。
+構造上の独立性と利用上の独立性の対比（D1364・D1356）は、既存の D1356 の4コマが扱うので、ここでは扱わない。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1359・D1361", fid="D1359-D1361", topic="不動産登記法／区分建物・敷地権・共用部分",
+    src="H30-Q11③・④",
+    truth="D1359＝〇（正しい記述）／D1361＝〇（正しい記述）",
+    miscon="共用部分と名のつくものは区分建物に入らないと考える（規約共用部分は含まれ、法定共用部分は含まれない、という区別が定着していない）",
+    article="note-articles/h30-mondai/q11-kubun-tatemono-shikichiken.md",
+    art_head="③・④（区分建物は専有部分であるもので、規約共用部分を含む。法定共用部分は含まない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】語句群に『専有部分、共用部分、法定共用部分、規約共用部分』と、似た4語が並ぶ。③に『共用部分』、④に『法定共用部分』を選ばせる言い分（逆の肢D1360・D1362）が用意され、『共用部分』という大きな語で、区分建物の外にあるように見せる。",
+        "【受験者の勘違い・定着していない点】（推測）①共用部分は専有部分ではないので、区分建物には入らないと考える。②規約共用部分は、規約で共用にした時点で専有部分ではなくなる、と早合点する。③法定共用部分と規約共用部分の区別が定着していない。",
+        "【対比する制度】「規約共用部分」⇔「法定共用部分」：規約共用部分＝本来は専有部分になれる部分を、規約で共用と定めたもの。区分建物に含まれる（法2条22号のかっこ書、区分所有法4条2項）／法定共用部分＝廊下・階段室など、構造上、区分所有者の全員又は一部の共用に供されるべき部分。区分所有権の目的にならず、区分建物にならない（区分所有法4条1項）（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型1の思い込みと組み合わせ）。理由：結論の理由が『専有部分・規約共用部分・法定共用部分のどれに当たるか』という3つの区別の記憶なので、コマ3の右側は会話1往復と、3つの整理カードにした。コマ2は『規約共用部分』と『法定共用部分』の左右の対比。壁＝『共用部分は区分建物に入らない』という一括りの思い込み。",
+        "コマごとに読者が言えること：コマ1＝規約で共用と定めた部分は、区分建物に含まれるか。コマ2＝共用部分には2種類ある。規約共用部分は区分建物に含まれ、法定共用部分は含まれない。コマ3＝専有部分と規約共用部分は入り、法定共用部分は入らない。コマ4＝D1359・D1361はどちらも〇。",
+        "記事の範囲：H30-Q11③・④（法2条22号、区分所有法2条3項・4条2項）。『法定共用部分は区分所有権の目的にならない』（区分所有法4条1項）は、総合記事②第8章【PG1-1】の整理（法令DBで原文を確認）。",
+        "extra_refs：区分所有法4条1項（数個の専有部分に通ずる廊下又は階段室その他構造上区分所有者の全員又はその一部の共用に供されるべき建物の部分は、区分所有権の目的とならない）、同条2項（第一条に規定する建物の部分及び附属の建物は、規約により共用部分とすることができる）、不動産登記法2条22号（区分所有法第四条第二項の規定により共用部分とされたものを含む）は法令DB note-articles/laws/ で原文を確認。",
+        "登場人物：人型は使わず、部分の名前は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は縦3枚のカード、コマ2は左右のカード、コマ3は上下のカードと整理カード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3の左は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話2つと整理カード）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で肢の問い（規約で共用と定めた部分は区分建物に含まれるか）、コマ2で規約共用部分と法定共用部分の対比、コマ3で3つの部分のうち区分建物に入るものが言える",
+        "構成表の全文言を記事（H30-Q11③・④）・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3の左は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①区分建物は、専有部分であるもの（規約共用部分を含む）（法2条22号） ②規約共用部分は、本来は専有部分になれる部分を規約で共用と定めたもの ③法定共用部分（廊下・階段室など）は区分所有権の目的にならず、区分建物にならない ④D1359・D1361は〇",
+    ],
+    extra_refs=[
+        "区分所有法4条1項・2項、不動産登記法2条22号。法令DB note-articles/laws/kubunshoyuu-hou.md、fudousan-touki-hou.md と照合済み",
+    ],
+    lead1="マンションの一室を集会室にして、規約で共用部分と定めました。この部分は、登記の上で区分建物に含まれるのでしょうか。",
+    title="規約共用部分は、区分建物に含まれる", title_hl="含まれる",
+    panels=[
+        dict(label="①　共用部分は、区分建物？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "共用部分は、区分建物じゃないですよね？", None, "共用部分は、\n区分建物じゃ\nないですよね？"),
+                      ("トリ先生", "出たわね。共用部分にも2種類あるのよ", "2種類", "出たわね。\n共用部分にも\n2種類あるのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「区分建物は、専有部分であるもの」. Card 2: 「規約で共用部分とした部分を含む」. Card 3: 「廊下や階段室はどうなる？」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「区分建物に入る部分は、どれ？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　2種類の共用部分", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「共用部分」 at the top left, with one line beside it: 「2種類あり、扱いが逆」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「規約共用部分」, a small tag 「区分所有法4条2項」, three body lines: 「専有部分になれる部分を」, 「規約で共用と定めたもの」, 「例：集会室」.",
+                  "Right card, heading 「法定共用部分」, a small tag 「区分所有法4条1項」, three body lines: 「廊下・階段室など」, 「構造上、全員の共用に」, 「供されるべき部分」.",
+                  "Under the two cards, one wide dark navy band with large white text 「区分建物に含まれるのは、規約共用部分」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　入るもの、入らないもの", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "規約共用部分は、入るんですか？", None, "規約共用部分は、\n入るんですか？"),
+                      ("トリ先生", "入るのよ。本来は専有部分になれるもの", "本来は専有部分になれる", "入るのよ。\n本来は専有部分に\nなれるもの")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「共用部分は、区分建物ではない」, body 「ありがちな思い込み」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「規約共用部分は、区分建物に含まれる」, body 「この2つの肢の言い分」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「区分建物に入るか」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots), with no arrow and no check mark and no cross: 「専有部分　入る」, 「規約共用部分　入る」, 「法定共用部分　入らない」, with the second row highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「かっこ書で、規約共用部分を含む」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇と〇",
+             bubbles=[("藍子", "規約で共用にしても、区分建物なんですね！", None, "規約で共用にしても、\n区分建物\nなんですね！"),
+                      ("トリ先生", "そう。法定共用部分は別よ", "法定共用部分は別", "そう。\n法定共用部分は\n別よ")],
+             fig=[], checklist=["区分建物は、専有部分であるもの（法2条22号）", "規約で共用にした部分（規約共用部分）も、区分建物に含まれる", "廊下・階段室などの法定共用部分は、含まれない"])
+    ],
+    band1="区分建物に含まれる共用部分は、規約共用部分", band2="問題D1359・D1361　正解〇・〇（H30-Q11③・④）",
+    ver="v01",
+    rev=["2026-10-13 v01：新規作成（総合記事②不動産登記法編 第8章【PG1-1】用。型5（整理カード併用）。規約共用部分と法定共用部分の対比に絞った）"],
+)
+
+HEADER = dict(h1="共用部分は", h2="区分建物に入る？", hkey="入る？",
+              scene_l="an apartment building with a small meeting room door, no text",
+              scene_r="a corridor and a staircase of an apartment building, no text")

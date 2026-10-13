@@ -1,0 +1,73 @@
+"""D0403・D0986 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-13）。
+総合記事②不動産登記法編 第8章【PG1-5】用（2本目）。H20-Q19肢3（新築前から敷地の権利を有していたとき、敷地権の登記原因の日付は区分建物が生じた日・〇）／H26-Q16ア（新築後に敷地の所有権を取得して取得の登記がされたとき、日付は取得の登記の日・〇）。
+『先に権利を持っていたか、新築のあとで取得したか』による日付の分かれ目に絞り、型4（共通の問い→分かれ目の対比）に型5（整理カード併用）を組み合わせた。登記原因の文言（敷地権・変更など）は別の4コマ（D1588・D1589・D1501）が扱う。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0403・D0986", fid="D0403-D0986", topic="不動産登記法／区分建物・敷地権・共用部分",
+    src="H20-Q19肢3／H26-Q16ア",
+    truth="D0403＝〇（正しい記述）／D0986＝〇（正しい記述）",
+    miscon="登記原因の日付は、権利変動のあった日（取得した日など）と考え、取得の登記がされた日を書く場面を、おかしいと疑う（日付の決め方が、新築より前から権利があったかどうかで分かれることが定着していない）",
+    article="note-articles/h20-mondai/q19-shikichiken.md",
+    art_head="肢3（新築前から敷地の権利を有していれば、区分建物が生じた日）。ほか、H26-Q16ア（note-articles/h26-mondai/q16-kubuntatemono.md。新築後に取得したときは、取得の登記の日）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】D0986は『所有権の取得の登記の日を申請情報の内容とする』と書き、通常の所有権移転では登記原因の日付は権利変動の日で、登記された日ではない、という一般原則を思い出させて、『登記の日を書くのはおかしい』と疑わせる。D0403は逆に、『区分建物が生じた日前から権利を有していた』ことが条件であると、読み落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①登記原因の日付は、権利変動のあった日だけだと思い込む。②敷地権の原因の日付が、新築より前から権利を持っていたか（区分建物が生じた日）、後から取得したか（取得の登記の日）で分かれることが定着していない。③条文に明記がなく、実務の取扱いなので、理屈で導こうとして外す。",
+        "【対比する制度】「区分建物が生じた日」⇔「取得の登記の日」：新築より前から敷地の登記した権利を持っていたときは、区分建物が生じた日（新築・区分の日）／新築のあとに敷地の所有権を取得し、その取得の登記がされたときは、取得の登記の日（結論が逆になる点）。どちらも条文に明記はなく、登記実務の取扱い。",
+        "【型の選び方】型：型4（共通の問い→分かれ目の対比）＋型5（整理カード併用）。理由：2肢は同じ問い（敷地権の原因の日付はいつか）から、権利を持った時期だけで答えが分かれるので、コマ1で共通の問いを置き、コマ2で2つの場合を左右に並べた。コマ3の右側は会話1往復と、日付の決め方の整理カード。壁＝『日付は権利を取得した日』という一般原則。",
+        "コマごとに読者が言えること：コマ1＝敷地権の登記原因の日付は、どの日を書くのか。コマ2＝新築より前から権利を持っていれば区分建物が生じた日、新築のあとに取得して登記したなら取得の登記の日。コマ3＝この日付の決め方は条文に明記がなく、実務の取扱い。コマ4＝D0403・D0986はどちらも〇。",
+        "記事の範囲：H20-Q19肢3（日付の定め方は先例・実務の取扱い。条文・準則では確認できない）、H26-Q16ア（取得の登記の日は、条文に明記がなく登記実務の取扱い）。コマ3の整理カードの3行目（区分建物が生じた日＝新築の日・区分した日など）は肢3の記事の文言。",
+        "登場人物：人型は使わず、権利と建物の名前は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は縦3枚のカード、コマ2は左右のカード、コマ3は上下のカードと整理カード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3の左は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話2つと整理カード）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で共通の問い（原因の日付はどの日か）、コマ2で2つの場合の対比、コマ3で日付の決め方の整理が言える",
+        "構成表の全文言を記事（H20-Q19肢3、H26-Q16ア）と突き合わせ済み。条文に明記がなく実務の取扱いであることを図に入れた（断定しない）",
+        "コマ1・2に印がなく、コマ3の左は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①新築より前から敷地の登記した権利を持っていた→区分建物が生じた日 ②新築のあとに敷地の所有権を取得し、取得の登記がされた→取得の登記の日 ③どちらも登記実務の取扱いで、条文に明記はない ④D0403・D0986は〇",
+    ],
+    extra_refs=[
+        "敷地権の登記原因及びその日付を記録する根拠は不動産登記規則118条（法令DB note-articles/laws/fudousan-touki-kisoku-1.md で確認）。日付の定め方そのもの（区分建物が生じた日／取得の登記の日）は条文・規則に明記がなく、登記実務の取扱い（記事 H20-Q19肢3・H26-Q16ア の整理）。",
+    ],
+    lead1="敷地権の登記原因の日付を、どの日にするかを考えます。建物を新築する前から敷地の権利を持っていた場合と、新築のあとで取得した場合で、同じ日付になるのでしょうか。",
+    title="敷地権の日付は、新築の前か後かで決まる", title_hl="新築の前か後か",
+    panels=[
+        dict(label="①　原因の日付は、どの日？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "日付は、権利を取得した日ですよね？", None, "日付は、\n権利を取得した日\nですよね？"),
+                      ("トリ先生", "出たわね。敷地権は少し違うのよ", "少し違う", "出たわね。\n敷地権は\n少し違うのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「区分建物が生じる（新築・区分）」. Card 2: 「敷地の所有権などを持つ（登記あり）」. Card 3: 「敷地権の登記原因の日付は？」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「原因の日付は、どの日を書く？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　権利を持った時期で分かれる", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「敷地権の登記原因の日付」 at the top left, with one line beside it: 「持った時期で、日付が変わる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「新築より前から権利を持っていた」, a small tag 「先に持っていた場合」, two body lines: 「日付は、」, 「区分建物が生じた日」.",
+                  "Right card, heading 「新築のあとで取得して登記した」, a small tag 「あとで取得した場合」, two body lines: 「日付は、」, 「所有権の取得の登記の日」.",
+                  "Under the two cards, one wide dark navy band with large white text 「分かれ目は、新築より前か、あとか」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　日付の決め方", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "登記の日を書くのは、変では？", None, "登記の日を書くのは、\n変では？"),
+                      ("トリ先生", "例外の扱いなの。そのまま覚えるのよ", "そのまま覚える", "例外の扱いなの。\nそのまま\n覚えるのよ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「日付は、いつも権利を取得した日」, body 「通常の登記の考え方」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「敷地権では、取得の登記の日を書く場合がある」, body 「新築のあとに取得したとき」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「敷地権の原因の日付」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots), with no arrow and no check mark and no cross: 「前から権利あり　区分建物が生じた日」, 「新築後に取得　取得の登記の日」, 「生じた日とは　新築の日・区分した日など」, with the first two rows highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「条文に明記はなく、登記実務の取扱い」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇と〇",
+             bubbles=[("藍子", "前か後かで、日付が決まるんですね！", None, "前か後かで、\n日付が決まる\nんですね！"),
+                      ("トリ先生", "そう。理屈より暗記の論点よ", "暗記", "そう。\n理屈より\n暗記の論点よ")],
+             fig=[], checklist=["新築より前から権利あり → 区分建物が生じた日", "新築のあとに取得して登記 → 取得の登記の日", "どちらも条文に明記がなく、登記実務の取扱い"])
+    ],
+    band1="敷地権の日付は、新築より前か後かで決まる", band2="問題D0403・D0986　正解〇・〇（H20-Q19肢3／H26-Q16ア）",
+    ver="v01",
+    rev=["2026-10-13 v01：新規作成（総合記事②不動産登記法編 第8章【PG1-5】用。型4（共通の問い→分かれ目の対比）＋型5。新築より前か後かによる日付の分かれ目に絞った）"],
+)
+
+HEADER = dict(h1="敷地権の日付", h2="新築の前？後？", hkey="前？後？",
+              scene_l="a calendar with two highlighted dates, no text",
+              scene_r="an apartment building under construction beside a land plot, no text")

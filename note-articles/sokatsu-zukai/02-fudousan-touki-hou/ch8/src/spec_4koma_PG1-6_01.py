@@ -1,0 +1,75 @@
+"""D2063・D2065 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-13）。
+総合記事②不動産登記法編 第8章【PG1-6】用（1本目）。R07-Q13ア（敷地権である旨の登記がある土地は、その登記を抹消した後でなければ地目の変更の登記を申請できない・×）／R07-Q13ウ（隣接する2筆のいずれにも敷地権である旨の登記がある場合に合筆の登記を申請できる・×）。
+『合筆はできない（法41条6号）』と『地目の変更は抹消せずにできる』の対比に絞り、型4（共通の事例→分かれ目の対比）に型5（整理カード併用）を組み合わせた。
+敷地権の旨の登記がある土地の権利の制限（D1799）は既存の D1795・D1798・D1799 の4コマが扱う。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D2063・D2065", fid="D2063-D2065", topic="不動産登記法／区分建物・敷地権・共用部分",
+    src="R07-Q13ア・ウ",
+    truth="D2063＝×（誤った記述）／D2065＝×（誤った記述）",
+    miscon="敷地権である旨の登記は案内にすぎないので合筆の妨げにならず、逆に、地目の変更は先に敷地権の登記を抹消しないとできない、と考える（できることとできないことが、逆に定着している）",
+    article="note-articles/r7-mondai/q13-shikichiken.md",
+    art_head="ア（地目の変更に、敷地権の登記の抹消は前提として要らない）・ウ（敷地権の旨の登記がある土地同士は、合筆できない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】アは『敷地権である旨の登記を抹消した後でなければ…地目を変更する登記の申請をすることができない』と、敷地権が絡むと何でも先に抹消が要るように見せる。ウは、敷地権である旨の登記が抵当権のような他人の権利ではなく、案内的な登記に見えることを利用して、『合筆の登記の申請をすることができる』と書く。",
+        "【受験者の勘違い・定着していない点】（推測）①敷地権である旨の登記は、土地がマンションの敷地だという案内にすぎず、合筆の妨げにならないと考える。②敷地権が絡むと、何をするにも先に敷地権の登記の抹消が必要だと一般化する。③敷地権である旨の登記が、権利部に記録される登記だということが定着していない。",
+        "【対比する制度】「合筆の登記」⇔「地目の変更の登記」：合筆の登記は、所有権の登記以外の権利に関する登記がある土地について、原則できない（法41条6号）。敷地権である旨の登記は権利部に記録される登記なので、2筆とも合筆できない／地目の変更の登記は表示に関する登記で、敷地権の登記の抹消が前提になるわけではなく、そのまま申請できる（結論が逆になる点）。",
+        "【型の選び方】型：型4（共通の事例→分かれ目の対比）＋型5（整理カード併用）。理由：2肢は同じ事例（敷地権である旨の登記がある土地）から、『合筆できるか』『地目変更に抹消が要るか』を問い、結論が逆になるので、コマ1で共通の事例、コマ2で2つの登記の左右の対比を置いた。コマ3の右側は会話1往復と、敷地権の旨の登記がある土地でできること・できないことの整理カード。壁＝『敷地権の旨の登記は案内にすぎない』。",
+        "コマごとに読者が言えること：コマ1＝敷地権である旨の登記がある土地で、合筆できるか、地目変更に抹消が要るか。コマ2＝合筆はできない。地目の変更は抹消せずにできる。コマ3＝敷地権の旨の登記は権利部の登記で、合筆の制限に当たる。地目変更は別の話。コマ4＝D2063・D2065はどちらも×。",
+        "記事の範囲：R07-Q13ア・ウ（法41条6号）。『敷地権の移転・担保権の登記が原則できない』（法73条2項）は、総合記事②第8章【PG1-6】の整理（法令DBで原文を確認）。『敷地権である旨の登記が権利部に記録される』『例外に列挙されていないので合筆できない』は、記事の整理。",
+        "extra_refs：不動産登記法41条6号（所有権の登記以外の権利に関する登記がある土地〔法務省令で定めるものがある土地を除く〕の合筆の登記は、することができない）、同法73条2項（第四十六条の規定により敷地権である旨の登記をした土地には、敷地権の移転の登記又は敷地権を目的とする担保権に係る権利に関する登記をすることができない。ただし書あり）は法令DB note-articles/laws/fudousan-touki-hou.md で原文を確認。",
+        "登場人物：人型は使わず、登記の名前は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は縦3枚のカード、コマ2は左右のカード、コマ3は上下のカードと整理カード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3の左は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話2つと整理カード）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で共通の事例と2つの問い、コマ2で合筆と地目の変更の対比、コマ3で敷地権の旨の登記がある土地でできること・できないことの整理が言える",
+        "構成表の全文言を記事（R07-Q13ア・ウ）・法令DBと突き合わせ済み。敷地権の旨の登記が権利部に記録されることは、記事の整理（解説上の整理）として扱った",
+        "コマ1・2に印がなく、コマ3の左は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①敷地権である旨の登記は権利部に記録される ②法41条6号により、所有権の登記以外の権利に関する登記がある土地は合筆できない（敷地権の旨の登記は、例外に列挙されていない） ③地目の変更の登記は、敷地権の登記の抹消が前提でなくそのまま申請できる ④D2063・D2065は×",
+    ],
+    extra_refs=[
+        "不動産登記法41条6号、73条2項。法令DB note-articles/laws/fudousan-touki-hou.md と照合済み。『敷地権である旨の登記は権利部に記録され、41条6号の例外に列挙されていない』は記事（R07-Q13ウ）の整理",
+    ],
+    lead1="敷地権である旨の登記がされている土地があります。隣り合う2筆の土地の合筆と、地目の変更の登記は、それぞれ申請することができるのでしょうか。",
+    title="敷地権の旨の登記があっても、地目の変更はできる", title_hl="地目の変更はできる",
+    panels=[
+        dict(label="①　敷地権の旨の登記がある土地", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "敷地権の登記は、案内にすぎませんよね？", None, "敷地権の登記は、\n案内にすぎ\nませんよね？"),
+                      ("トリ先生", "出たわね。権利部に載る登記よ", "権利部", "出たわね。\n権利部に載る\n登記よ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「土地に、敷地権である旨の登記がある」. Card 2: 「隣り合う2筆を、合筆できる？」. Card 3: 「地目を変えるのに、先に抹消が要る？」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「同じ土地でも、できることは同じ？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　合筆と地目の変更", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「敷地権である旨の登記がある土地」 at the top left, with one line beside it: 「登記によって、結論が逆」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「合筆の登記」, a small tag 「法41条6号」, two body lines: 「所有権以外の権利に関する登記が」, 「あると、原則できない」.",
+                  "Right card, heading 「地目の変更の登記」, a small tag 「表示に関する登記」, two body lines: 「敷地権の旨の登記があっても」, 「抹消せずに申請できる」.",
+                  "Under the two cards, one wide dark navy band with large white text 「合筆はできない。地目の変更はできる」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　できること、できないこと", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "地目変更は、先に抹消ですよね？", None, "地目変更は、\n先に抹消ですよね？"),
+                      ("トリ先生", "いいえ。地目変更は別次元の話よ", "別次元", "いいえ。\n地目変更は\n別次元の話よ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「敷地権の旨の登記は案内で、合筆できる」, body 「合筆できるとする言い方」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「権利部の登記だから、合筆できない」, body 「所有権以外の権利に関する登記にあたる」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「敷地権の旨の登記がある土地」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots), with no arrow and no check mark and no cross: 「合筆の登記　できない」, 「敷地権の移転・担保権の登記　原則できない」, 「地目の変更の登記　抹消せずにできる」, with the third row highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「抹消が前提になるわけではない」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×と×",
+             bubbles=[("藍子", "合筆はだめで、地目変更はいいんですね！", None, "合筆はだめで、\n地目変更は\nいいんですね！"),
+                      ("トリ先生", "そう。敷地権の旨の登記は権利部よ", "権利部", "そう。\n敷地権の旨の登記は\n権利部よ")],
+             fig=[], checklist=["敷地権の旨の登記がある土地は、合筆できない（法41条6号）", "地目の変更の登記は、敷地権の登記を抹消しなくても申請できる", "敷地権の旨の登記は、所有権以外の権利に関する登記にあたる"])
+    ],
+    band1="敷地権の旨の登記がある土地。合筆は不可、地目変更は可", band2="問題D2063・D2065　正解×・×（R07-Q13ア・ウ）",
+    ver="v01",
+    rev=["2026-10-13 v01：新規作成（総合記事②不動産登記法編 第8章【PG1-6】用。型4（共通の事例→分かれ目の対比）＋型5。合筆と地目の変更で結論が逆になる点に絞った）"],
+)
+
+HEADER = dict(h1="敷地権の旨の登記", h2="合筆も地目変更も？", hkey="も？",
+              scene_l="two adjacent land plots with a thin boundary line, no text",
+              scene_r="a land ledger page with a rubber stamp, no text")
