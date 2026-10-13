@@ -1,0 +1,71 @@
+"""D0473 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H21-Q13ウ（土地の登記記録の地積に錯誤があり、当該土地の地積測量図に誤りがある場合において、地積に関する更正の登記の申請をするときは、この申請と併せて地積測量図の訂正の申出をしなければならない・×）。
+『地図の訂正の申出（規則16条2項：地積に錯誤があれば地積更正と併せる）』と『地積測量図の訂正の申出（規則88条：併せる義務はない）』の対比に絞り、型5（整理カード併用）で3つの場面を整理した。逆の結論になる類似肢はD1266・D0933・D0562（いずれも地図の訂正で〇）。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0473", fid="D0473", topic="不動産登記法／土地の滅失・地図・地積測量図・土地所在図", src="H21-Q13ウ",
+    truth="×（誤った記述）",
+    miscon="地図の訂正で地積に錯誤があれば地積更正と併せる、という規則16条2項を、地積測量図の訂正の申出にも当てはめる（規則88条3項が16条2項を準用していないことを見落とす）",
+    article="note-articles/h21-mondai/q13-chizu-teisei.md",
+    art_head="ウ（地積更正の申請と地積測量図の訂正の申出は、義務的に結び付いていない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『地積に錯誤があり』『地積に関する更正の登記の申請をするときは』と書き、地図の訂正の申出の規則16条2項（地積に錯誤があれば地積更正と併せる）に似せる。地図の訂正と同じ扱いだと思わせ、地積測量図の訂正の申出には16条2項が準用されないことを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①地図の訂正の申出（併せて地積更正）と、地積測量図等の訂正の申出（規則88条）を同じ扱いと考える。②規則88条3項が準用する規則16条の項の範囲に、2項が入っていないことを知らない。③規則88条1項ただし書（表題部の更正登記ができるときは訂正の申出ができない）と、地積更正の登記に地積測量図が添付されることが結びついていない。",
+        "【対比する制度】「地図の訂正の申出」⇔「地積測量図の訂正の申出」：地図の訂正は、地積に錯誤があれば地積更正の登記の申請と併せてしなければならない（規則16条2項）／地積測量図等の訂正の申出は、併せる義務がなく、16条2項は準用されない（規則88条3項）（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型3の理由説明・型1の思い込みと組み合わせ）。理由が『3つの場面で、地積更正と併せる義務があるか』の整理なので、コマ3の右側は会話1往復と、地図の訂正・地積測量図の訂正・地積更正の登記の3行の整理カードにした。コマ1で思い込みを出し、コマ2で地図の訂正と地積測量図の訂正を左右に並べた。",
+        "記事の範囲：H21-Q13ウ（規則16条2項・88条）。規則88条1項ただし書は、土地所在図・地積測量図等を添付情報とする表題部の登記事項に関する更正の登記ができる場合には訂正の申出ができないとする（記事）。地積更正の登記に地積測量図が添付されることも記事の説明。規則88条3項の準用範囲（16条3項・4項・5項3号・6項〜14項）は記事に書かれているが、図には項の数字の列挙を入れない。",
+        "登場人物：人型は使わず、地図・地積測量図・登記は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①地図の訂正の申出は、地積に錯誤があれば地積更正の登記の申請と併せてしなければならない（規則16条2項。D1266・D0933・D0562）②地積測量図等の訂正の申出（規則88条）には、併せる義務がない（規則88条3項が準用する16条の項に2項はない）③地積更正の登記を申請すれば、添付情報として正しい地積測量図が提供される④肢D0473は『併せて地積測量図の訂正の申出をしなければならない』なので×",
+    ],
+    extra_refs=[
+        "規則88条（土地所在図の訂正等）・規則16条2項の文言は、記事ウの引用。法令DB note-articles/laws/fudousan-touki-kisoku-1.md で確認。88条3項は『第十六条第三項、第四項、第五項第三号及び第六項から第十四項までの規定は、第一項の申出について準用する』で、2項が含まれない。地積更正の登記の添付情報は令別表6の項（地積測量図）",
+    ],
+    lead1="土地の登記記録の地積に錯誤があり、その土地の地積測量図にも食い違いがあります。地積に関する更正の登記を申請するとき、あわせて地積測量図の訂正の申出をしなければならないのでしょうか。",
+    title="地積更正と地積測量図の訂正は、併せる義務がない", title_hl="併せる義務がない",
+    panels=[
+        dict(label="①　地図と同じで、併せる？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "地図と同じで、併せるんですよね？", None, "地図と同じで、\n併せるんですよね？"),
+                      ("トリ先生", "出たわね。訂正する対象を見るのよ", "訂正する対象", "出たわね。\n訂正する対象を\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「土地の登記記録の地積に、錯誤がある」. Card 2: 「地積測量図にも、誤りがある」. Card 3: 「地積に関する更正の登記を申請する」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「地積測量図の訂正の申出も、併せる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　地図の訂正と、地積測量図の訂正", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「地積に錯誤があるとき」 at the top left, with one line beside it: 「併せる義務があるかは、訂正する対象で分かれる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「地図の訂正の申出」, a small tag 「規則16条2項」, two body lines: 「地積更正の登記の申請と」, 「併せてしなければならない」.",
+                  "Right card, heading 「地積測量図の訂正の申出」, a small tag 「規則88条」, two body lines: 「併せる義務はない」, 「16条2項は準用されない」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、地積測量図の訂正の申出」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　3つの場面の整理", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "なぜ、併せなくていいんですか？", None, "なぜ、併せなくて\nいいんですか？"),
+                      ("トリ先生", "更正の登記で、正しい測量図が出るからよ", "正しい測量図", "更正の登記で、\n正しい測量図が\n出るからよ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「地積測量図も、併せて訂正を申し出る」, body 「規則16条2項は、地積測量図には準用されない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「地積更正の登記を申請」, body 「添付する地積測量図で、図面も正しくなる」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「地積に錯誤があるとき」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「地図の訂正（規則16条2項）　地積更正と併せる」, 「地積測量図の訂正（規則88条）　併せる義務なし」, 「地積更正の登記　地積測量図を添付」. The row 「地積測量図の訂正（規則88条）　併せる義務なし」 is highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「16条2項は、88条3項の準用の外」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "測量図の訂正は、併せなくていいんですね！", None, "測量図の訂正は、\n併せなくていい\nんですね！"),
+                      ("トリ先生", "そう。併せなければと書けば×よ", "併せなければと書けば×", "そう。併せなければと\n書けば×よ")],
+             fig=[], checklist=["地図の訂正は、地積に錯誤があれば地積更正と併せる（規則16条2項）", "地積測量図の訂正の申出は、併せる義務がない（規則88条）", "地積更正の登記を申請すれば、正しい地積測量図が添付される"])
+    ],
+    band1="地積測量図の訂正の申出は、地積更正と併せる義務がない", band2="問題D0473　正解×（H21-Q13ウ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。地図の訂正の申出（規則16条2項）と地積測量図の訂正の申出（規則88条）の対比と、3つの場面の整理に絞った）"],
+)
+
+HEADER = dict(h1="地積更正と", h2="測量図の訂正は？", hkey="訂正は？",
+              scene_l="a land plot with a rolled drawing sheet beside it and a pencil correcting a number, no text",
+              scene_r="a map sheet and a smaller drawing sheet side by side on a desk, no text")

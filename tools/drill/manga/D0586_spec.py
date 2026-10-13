@@ -1,0 +1,71 @@
+"""D0586 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H22-Q16ア（電子申請で表示に関する登記を申請する場合に、書面に記載された添付情報を、書面を電磁的記録にして作成者の電子署名を付けたもので提供できるもの：建物の表題登記を代理人が申請するときの、所有者が作成した代理権限を証する情報（委任状）・×）。
+『第三者が作成した証明情報（施工者・地役権者。作成者の電子署名で提供できる）』と『申請人側が作成した情報（所有者の委任状・代理人の調査報告情報。この方式の対象外）』の対比に絞り、型5（整理カード併用）でア〜オの添付情報の可否を整理した。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0586", fid="D0586", topic="不動産登記法／申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）", src="H22-Q16ア",
+    truth="×（誤った記述）",
+    miscon="書面の委任状もスキャンして電子署名を付ければ、この方式で提供できると考える（この方式は第三者が作成した証明情報が対象で、申請人本人が作成した委任状は対象外であることを見落とす）",
+    article="note-articles/h22-mondai/q16-denshi-shinsei-tenpu.md",
+    art_head="ア（所有者作成の代理権限証書〔委任状〕は、この方式の対象ではない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『その情報が書面に記載されているときは、当該書面を電磁的記録に記載したもので…作成者の電子署名が行われているもの』と、長い条件を述べる。書面ならスキャンして署名すればどれでも提供できる、という感覚に乗せ、誰が作成した情報かで対象が分かれることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①書面の添付情報は、すべてスキャンと作成者の電子署名で代替できると考える。②この方式は第三者が作成した証明情報（工事完了引渡証明情報・地役権者作成の情報）が対象で、申請人本人・代理人が作成した情報（委任状・調査報告情報）や図面（専用の電子データの方式）は対象外であることを整理できていない。",
+        "【対比する制度】「第三者が作成した情報」⇔「申請人側が作成した情報」：工事完了引渡証明情報（施工者作成）・地役権の範囲を証する情報（地役権者作成）は、作成者の電子署名で提供できる／所有者が作成した委任状・代理人（調査士）が作成した調査報告情報は対象外（結論が逆になる点）。建物図面・各階平面図も、図面専用の方式で、この方式の対象ではない。",
+        "【型の選び方】型：型5（整理カード併用。型3の理由説明・型1の思い込みと組み合わせ）。理由が『ア〜オの添付情報のどれが対象か』の整理なので、コマ3の右側は会話1往復と、5つの添付情報の可否の整理カードにした。コマ1で思い込みを出し、コマ2で第三者作成と申請人側作成を左右に並べた。",
+        "記事の範囲：H22-Q16ア（同じ問のイ〜オ）。記事は条番号を出さず（図面の補足で規則73条1項に触れるだけ）、この方式の対象を『第三者が作成した証明情報』と整理する。図も条番号を入れない。『誰が作った情報か』の整理は記事の言い方で、条文に直接の定めがあるかは記事に書かれていない（ユーザーに伝える）。",
+        "登場人物：人型は使わず、添付情報は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①この方式（書面を電磁的記録にして作成者の電子署名）は、第三者が作成した証明情報が対象（工事完了引渡証明情報・地役権者作成の情報）②所有者が作成した委任状・代理人が作成した調査報告情報は対象外③建物図面・各階平面図は図面専用の方式で対象外④肢D0586は委任状を『提供できるもの』としているので×",
+    ],
+    extra_refs=[
+        "『第三者が作成した証明情報が対象で、申請人側が作成した情報は対象外』：記事H22-Q16の整理。条文に直接の定めがあるかは記事に書かれていない。図面の方式は記事の補足（規則73条1項）で、図には条番号を入れない（ユーザーに伝える）",
+    ],
+    lead1="電子申請では、書面の添付情報を、スキャンして作成者の電子署名を付けたもので提供できる場合があります。建物の表題登記で、所有者が作成した委任状も、この方法で提供できるのでしょうか。",
+    title="所有者の委任状は、スキャン＋電子署名の対象外", title_hl="対象外",
+    panels=[
+        dict(label="①　委任状も、スキャンして署名すればいい？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "委任状も、スキャンして署名すればいいですよね？", None, "委任状も、\nスキャンして署名\nすればいいですよね？"),
+                      ("トリ先生", "出たわね。誰が作った情報か見るのよ", "誰が作った", "出たわね。\n誰が作った情報か\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「電子申請で、表示に関する登記を申請」. Card 2: 「添付情報が、書面に記載されている」. Card 3: 「書面をスキャンし、作成者の電子署名を付けたい」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「所有者の委任状も、この方式でよい？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　第三者が作った情報と、申請人側が作った情報", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「書面をスキャンして署名する方式は」 at the top left, with one line beside it: 「誰が作った情報かで、対象が分かれる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「第三者が作成した情報」, three body lines: 「工事完了引渡証明情報（施工者）」, 「地役権の範囲を証する情報」, 「作成者の電子署名で提供できる」.",
+                  "Right card, heading 「申請人側が作成した情報」, three body lines: 「所有者が作成した委任状」, 「代理人が作成した調査報告情報」, 「この方式の対象外」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、所有者が作成した委任状」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　ア〜オの添付情報", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "委任状も書面ですよね？", None, "委任状も\n書面ですよね？"),
+                      ("トリ先生", "書面でも、作ったのが本人だから対象外よ", "作ったのが本人", "書面でも、\n作ったのが本人だから\n対象外よ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「委任状もスキャン＋署名で提供できる」, body 「申請人本人が作った情報は、この方式の対象外」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「施工者・地役権者が作った証明情報」, body 「作成者の電子署名で提供できる」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「この方式で提供できる？」, with the same pale gray fill and a dark navy outline, containing exactly five short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「工事完了引渡証明情報　できる」, 「地役権の範囲を証する情報　できる」, 「所有者作成の委任状　できない」, 「調査士作成の調査報告情報　できない」, 「建物図面・各階平面図　できない」. The row 「所有者作成の委任状　できない」 is highlighted with a yellow marker. Under the five rows, one small dark navy ribbon tag with white text 「図面は、専用の電子データの方式」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "委任状は、対象外なんですね！", None, "委任状は、\n対象外なんですね！"),
+                      ("トリ先生", "そう。提供できると書けば×よ", "提供できると書けば×", "そう。提供できると\n書けば×よ")],
+             fig=[], checklist=["この方式の対象は、第三者が作成した証明情報", "所有者の委任状・調査士の調査報告情報は対象外", "図面は、専用の電子データの方式で提供する"])
+    ],
+    band1="この方式の対象は、第三者が作成した証明情報", band2="問題D0586　正解×（H22-Q16ア）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。第三者が作成した情報と申請人側が作成した情報の対比と、ア〜オの添付情報の可否の整理に絞った。条番号は記事にそろえて入れていない）"],
+)
+
+HEADER = dict(h1="電子申請の添付情報", h2="委任状はどう？", hkey="どう？",
+              scene_l="a document sheet being scanned on a flatbed scanner with a small signature seal, no text",
+              scene_r="a laptop screen showing an electronic form with a small seal icon, no text")
