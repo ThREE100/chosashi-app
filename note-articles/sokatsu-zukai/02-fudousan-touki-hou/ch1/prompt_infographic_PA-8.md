@@ -1,0 +1,70 @@
+# 総合記事②不動産登記法編 第1章　図解インフォグラフィック プロンプト（【PA-8】代理人が申請するとき、誰が押印し、本人の何を書き、取下げに特別の委任は要るか・1枚）
+
+総合記事②「直前期の苦手論点つぶし 不動産登記法編」第1章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch1.md`）に差し込む図解のプロンプトです。画像は生成していません（ChatGPTなどで手動生成）。作成のルールは `note-articles/infographic-prompt-template.md`（文字化け・簡体字対策、背景の不透明化、アウトロブロック禁止）に従いました。分類・早見表・カードの図は、はい／いいえの分岐ではないため、青・赤は使わず、濃紺・薄い灰色・薄い黄色のマーカーで描きます。判定の流れ図（フローチャート）の「はい」は青、「いいえ」は赤、中立の分岐（ある／ない）は濃紺です。画像の中には、図の番号・問題番号・個人の演習結果（誤答の回数など）を入れません。
+
+| 番号 | 図解 | 型 | サイズ | 保存名 | 記事の挿入位置 |
+|---|---|---|---|---|---|
+| 図解11 | 代理で申請するとき（押印・本人の表示・署名・取下げ） | カードポスター型（4枚） | 1080×2700 | 不登法編1_図解11_代理で申請するとき.png | 【PA-8】「中身の整理」の直後 |
+
+画像の使い方：ChatGPTに、下のコードブロックを貼って生成します（キャラクターは描かないので、参照画像は不要です）。サイズが1080幅で出せないときは、最も近い縦長で構いません。生成後は、各プロンプトの文言と画像の文字を一字ずつ突き合わせ、簡体字・余計な文字・透過がないことを確かめてください。
+
+## 図解11：代理で申請するとき（押印・本人の表示・署名・取下げ）
+
+- 型：カードポスター型（4枚）　／　サイズ：1080×2700　／　保存名：`不登法編1_図解11_代理で申請するとき.png`
+- 記事の挿入位置：【PA-8】「中身の整理」の直後
+
+```text
+Create a Japanese-language infographic, portrait layout, 1080x2700 pixels, clean flat-design isometric illustration style with soft pastel colors (light blue, cream, beige, gray), rounded card sections, in the same explainer-graphic style as the other posters of this series (icons: isometric houses, registry ledgers, calendars, rubber stamps, document sheets). This is a quick-reference poster with four numbered cards in one column; it is NOT a text-heavy document.
+GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro illustration and no paragraph of prose anywhere on this poster; go straight from the header to the cards. Every card communicates its point through the illustration plus one short heading, two short item lines, and one short conclusion tag. Do NOT render any paragraph of body text.
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only: hiragana, katakana, and Jōyō (regular Japanese) kanji, plus Arabic numerals and the symbols 「」（）・：／ as written below. Do NOT use Simplified Chinese characters and do NOT use Traditional Chinese characters, even where a glyph looks close to the correct Japanese kanji; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script (no Korean Hangul, no Latin words) and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, shorten, translate, reorder, or substitute any characters, and do not add any text that is not listed.
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin outside the cards, with a solid pale beige background. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
+Draw no check mark and no cross mark, and use no blue or red anywhere in this image (this poster has no YES/NO meaning); use only dark navy, pale gray, white, and the pale yellow highlighter.
+--- HEADER ---
+Title (large, bold, 2 lines):
+「代理で申請するとき」
+「押印は代理人、本人の表示は必須」
+Subtitle (smaller, centered, 1 line):
+「不動産登記令 第16条・第3条」
+--- CARD 1 ---
+Badge: a filled dark navy circle containing the number 1 (numbers run 1 to 4 in order).
+Heading (bold, ONE line):
+「押印するのは、誰か」
+Illustration: A document sheet with a rubber stamp and a pen held by a person pictogram, no text.
+Item lines (two or three short lines of dark navy text beside the illustration, each with a small dark navy dot at its left end, NO number on the dots):
+「現に手続をする代理人が記名押印すれば足りる（令16条1項）」
+「本人（未成年者など）の押印は要らない」
+Conclusion tag (a short pale-yellow banner directly below the illustration, a keyword phrase, not a sentence):
+「押印は代理人」
+--- CARD 2 ---
+Badge: a filled dark navy circle containing the number 2 (numbers run 1 to 4 in order).
+Heading (bold, ONE line):
+「本人の氏名・住所は、書くか」
+Illustration: A name tag and an address card side by side, no text on them.
+Item lines (two or three short lines of dark navy text beside the illustration, each with a small dark navy dot at its left end, NO number on the dots):
+「代理人が申請しても、本人の氏名・住所は申請情報の内容（令3条1号）」
+「成年後見人が代理でも、被後見人の氏名・住所を書く」
+Conclusion tag (a short pale-yellow banner directly below the illustration, a keyword phrase, not a sentence):
+「本人の表示は必ず書く」
+--- CARD 3 ---
+Badge: a filled dark navy circle containing the number 3 (numbers run 1 to 4 in order).
+Heading (bold, ONE line):
+「署名で足りるか」
+Illustration: A hand-signed paper next to a stamped paper, no text.
+Item lines (two or three short lines of dark navy text beside the illustration, each with a small dark navy dot at its left end, NO number on the dots):
+「署名で足りる場合がある（規則47条）」
+「ただし、合筆の登記・合体による登記等・建物の合併の登記は署名では足りない（同条3号イ（6））」
+Conclusion tag (a short pale-yellow banner directly below the illustration, a keyword phrase, not a sentence):
+「合筆・合体・合併は記名押印」
+--- CARD 4 ---
+Badge: a filled dark navy circle containing the number 4 (numbers run 1 to 4 in order).
+Heading (bold, ONE line):
+「補正のための取下げ」
+Illustration: A document sheet being taken back by a hand, no text.
+Item lines (two or three short lines of dark navy text beside the illustration, each with a small dark navy dot at its left end, NO number on the dots):
+「特別の委任は要らない」
+「通常の代理権の範囲（条文に明記はなく、実務上の整理）」
+Conclusion tag (a short pale-yellow banner directly below the illustration, a keyword phrase, not a sentence):
+「取下げに特別の委任は不要」
+--- FOOTER ---
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 代, 号, 建, 所, 押, 権, 物, 登, 規, 記, 請; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the number of cards equals 4 exactly, numbered 1 to 4 in order, with no duplicated or missing cards, confirm there is no intro illustration or paragraph block between the header and the cards, and confirm that no card contains a paragraph of body text. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
