@@ -79,3 +79,13 @@
 | D0363 | － | `D0363_prompt.md`（2026-10-12、ユーザー指示で作成。型5） |
 | D0586 | － | `D0586_prompt.md`（2026-10-13、ユーザー指示で作成。型5） |
 | D0473 | － | `D0473_prompt.md`（2026-10-13、ユーザー指示で作成。型5。逆の結論の肢はD1266・D0933・D0562） |
+
+## 総合記事③（土地家屋調査士法編）用の4コマ（2026-10-13。総合記事に差し込む体裁。保存先は `note-articles/sokatsu-zukai/03-chousashi-hou/`）
+
+| 問題 | プロンプト |
+|---|---|
+| D2000・D0902 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-1_01_hissoku-dairi-soudan.md` |
+| D0706 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-1_02_doui-de-jinin.md` |
+| D0610・D1612 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-2_01_shinsa-seikyu-saki.md` |
+| D0507 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-2_02_kekkaku-3nen.md` |
+| D0408 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-3_01_choukai-hosho.md` |

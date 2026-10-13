@@ -1,0 +1,73 @@
+"""D2000・D0902 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-13）。
+総合記事③土地家屋調査士法編【C1-1】用（1本目）。R06-Q20ア（筆界特定の手続の代理は、正当な事由がなくても拒める・〇）／H25-Q20ア（代理は拒めるが、その相談は正当な事由がなければ拒めない・×）。
+『筆界特定の代理も、その代理についての相談も、拒める』と『拒めない業務（筆界特定の書類の作成を含む）』の対比に絞り、型5（整理カード併用）で拒める3つの業務を整理した。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D2000・D0902", fid="D2000-D0902", topic="土地家屋調査士法／業務・義務・懲戒",
+    src="R06-Q20ア／H25-Q20ア",
+    truth="D2000＝〇（正しい記述）／D0902＝×（誤った記述）",
+    miscon="依頼応諾義務（法22条）の除外の範囲：筆界特定の代理は拒めるが、その相談は別で拒めない、と考える",
+    article="note-articles/h25-mondai/q20-chousashihou.md",
+    art_head="ア（H25：筆界特定手続の代理も、その相談も、正当な事由なく拒める）。ほか、R06-Q20ア（r6-mondai/q20-chousashihou-gyoumu-kitei.md。筆界特定の代理業務は、正当な事由がなくても依頼を拒める）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】D0902は『代理の依頼を拒むことはできるが、…当該代理についての相談の依頼を拒むことはできない』と、前半を正しい記述にそろえ、後半だけを逆にする。前半が正しいので後半も正しく見え、『代理』と『その相談』を別々に扱うと思わせる。",
+        "【受験者の勘違い・定着していない点】（推測）①『筆界特定は代理だけが除外されている』と覚え、相談（法3条1項6号）は義務の対象のままと考える。②法22条のかっこ書が、4号（代理）と6号のうち4号に関する部分（その代理についての相談）の両方を除いていることが定着していない。③筆界特定の『書類の作成』（5号）まで拒めると広げる（5号は拒めない）。",
+        "【対比する制度】「正当な事由がなくても拒める」⇔「正当な事由がなければ拒めない」：拒める業務は、筆界特定の代理（4号）・その代理についての相談（6号のうち4号に関する部分）・民間紛争解決手続代理関係業務（法22条かっこ書）／拒めない業務は、表示登記の調査・測量・申請の代理・書類の作成と、筆界特定の書類の作成（5号）など（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型1の思い込みと組み合わせ）。理由：結論の理由が『除外された3つの業務に入っているか』という列挙の記憶なので、コマ3の右側は会話1往復と、拒める3つの業務の整理カードにした。コマ2は『拒める／拒めない』の左右の対比、コマ3の左は肢の言い分（✕）と正しい整理（✓）。壁＝『代理は除外と覚えて、相談を落とす』。",
+        "コマごとに読者が言えること：コマ1＝2つの肢は、筆界特定の代理と、その代理についての相談を問うている。コマ2＝代理も相談も、法22条かっこ書で除かれているので拒める。表示登記の業務と筆界特定の書類の作成は拒めない。コマ3＝拒める業務は3つ。『代理は拒めるが相談は拒めない』は誤り。コマ4＝D2000は〇、D0902は×。",
+        "記事の範囲：H25-Q20ア（法22条かっこ書、法3条1項4号・6号）、R06-Q20ア（正当な事由がなくても依頼を拒める。拒んだときは速やかに依頼者へ通知）。『筆界特定の書類の作成（5号）は拒めない』は、総合記事③の【C1-1】の整理（法3条1項5号は法22条かっこ書の除外に入っていない）。",
+        "extra_refs：法22条のかっこ書（第3条第1項第4号及び第6号〔第4号に関する部分に限る〕に規定する業務並びに民間紛争解決手続代理関係業務は依頼応諾義務の対象から除く）、法3条1項（4号 筆界特定の手続についての代理、5号 筆界特定の手続の書類の作成、6号 前各号の事務についての相談、7号・8号 民間紛争解決手続代理関係業務）は法令DB note-articles/laws/chousashi-hou.md で原文を確認。民間紛争解決手続代理関係業務はカードに文言どおり載せる。",
+        "登場人物：人型は使わず、業務の名前は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は縦3枚のカード、コマ2は左右のカード、コマ3は上下のカードと整理カード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3の左は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話2つと整理カード）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で2つの肢の問い（筆界特定の代理と、その代理についての相談）、コマ2で拒める業務と拒めない業務の対比、コマ3で拒める3つの業務が言える",
+        "構成表の全文言を記事（H25-Q20ア、R06-Q20ア）・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3の左は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①法22条は、正当な事由がなければ依頼を拒んではならないと定める ②かっこ書で、筆界特定の代理（4号）・その代理についての相談（6号のうち4号に関する部分）・民間紛争解決手続代理関係業務は除かれる ③だから代理も相談も拒める ④筆界特定の書類の作成（5号）は除かれていない ⑤D2000は〇、D0902は×",
+    ],
+    extra_refs=[
+        "土地家屋調査士法22条（かっこ書：第三条第一項第四号及び第六号〔第四号に関する部分に限る。〕に規定する業務並びに民間紛争解決手続代理関係業務に関するものを除く）、同法3条1項（4号 筆界特定の手続についての代理、5号 筆界特定の手続の書類の作成、6号 前各号に掲げる事務についての相談、7号・8号 民間紛争解決手続代理関係業務）。法令DB note-articles/laws/chousashi-hou.md と照合済み",
+    ],
+    lead1="土地家屋調査士が、筆界特定の手続の代理を頼まれました。あわせて、その代理についての相談も頼まれました。正当な事由がなくても、どちらの依頼も断ってよいのでしょうか。",
+    title="筆界特定は、代理も相談も拒める", title_hl="代理も相談も",
+    panels=[
+        dict(label="①　代理と相談、どちらも拒める？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "代理は断れても、相談は断れませんよね？", None, "代理は断れても、\n相談は断れ\nませんよね？"),
+                      ("トリ先生", "出たわね。相談を別扱いしたわね", "相談を別扱い", "出たわね。\n相談を別扱い\nしたわね")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「筆界特定の手続の代理を頼まれた」. Card 2: 「その代理についての相談を頼まれた」. Card 3: 「正当な事由がなくても、断れる？」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「依頼を拒むことは、できる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　拒める業務と、拒めない業務", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「依頼応諾義務（法22条）」 at the top left, with one line beside it: 「どの業務かで、結論が変わる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「正当な事由がなくても拒める」, a small tag 「法22条かっこ書」, three body lines: 「筆界特定の手続の代理」, 「その代理についての相談」, 「民間紛争解決手続代理関係業務」.",
+                  "Right card, heading 「正当な事由がなければ拒めない」, a small tag 「法22条本文」, three body lines: 「表示登記の調査・測量」, 「表示登記の申請手続の代理・書類の作成」, 「筆界特定の書類の作成」, with the last line highlighted with a yellow marker.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　除かれているのは3つ", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "相談は、除かれていないのでは？", None, "相談は、\n除かれていないのでは？"),
+                      ("トリ先生", "いいえ。相談も、かっこ書で除かれているの", "相談も、かっこ書で除かれている", "いいえ。\n相談も、かっこ書で\n除かれているの")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「代理は拒めるが、相談は拒めない」, body 「肢D0902の言い分」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「代理も、その相談も、拒める」, body 「肢D2000は代理の話、肢D0902は相談の話」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「拒める業務（法22条かっこ書）」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots), with no arrow and no check mark and no cross: 「3条1項4号　筆界特定の代理」, 「6号の一部　その代理の相談」, 「7号・8号　民間紛争解決手続代理関係業務」. Under the three rows, one small dark navy ribbon tag with white text 「筆界特定の書類作成（5号）は、この中にない」, with the text 「5号」 highlighted with a yellow marker.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇と×",
+             bubbles=[("藍子", "代理も相談も、断れるんですね！", None, "代理も相談も、\n断れるんですね！"),
+                      ("トリ先生", "そう。書類作成は断れないのよ", "書類作成は断れない", "そう。\n書類作成は\n断れないのよ")],
+             fig=[], checklist=["筆界特定の手続の代理は、正当な事由がなくても拒める（肢D2000は〇）", "その代理についての相談も、同じく拒める（肢D0902は×）", "筆界特定の書類の作成（5号）は拒めない"])
+    ],
+    band1="筆界特定の代理も、その相談も、正当な事由なく拒める", band2="問題D2000・D0902　正解〇・×（R06-Q20ア／H25-Q20ア）",
+    ver="v01",
+    rev=["2026-10-13 v01：新規作成（総合記事③土地家屋調査士法編【C1-1】用。型5（整理カード併用）。法22条かっこ書の除外3つの整理と、拒めない業務との対比に絞った）"],
+)
+
+HEADER = dict(h1="筆界特定の依頼", h2="断れるのはどれ？", hkey="どれ？",
+              scene_l="a boundary line between two plots of land with a small paper document, no text",
+              scene_r="a desk with a blank consultation form and a rubber stamp, no text")
