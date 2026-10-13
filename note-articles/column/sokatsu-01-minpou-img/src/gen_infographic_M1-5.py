@@ -24,7 +24,7 @@ def img1():
             "Data row 3 (row label cell, dark navy, white text: " + q("相手方が悪意または有過失だと？") + "): second column " + q("目的を知り、又は知ることができたなら、無権代理行為とみなされる（107条）") + "; third column " + q("本人が追認しなければ、本人に効力を生じない（113条1項）") + ".",
             "The second-column and third-column cells of each data row have clearly different texts; the texts are NOT identical, so copy each cell exactly as given.",
             "--- CARD BELOW THE TABLE ---",
-            "One wide rounded card with a dark navy outline and a pale gray fill, with a dark navy heading " + q("濫用が無権代理にかわるとき") + " and one body line " + q("相手方が目的を知り、又は知ることができた場合に限る") + ". Draw this card as ONE separate card below the table, not as a row of the table. Draw no arrow."]
+            "One wide rounded card with a dark navy outline and a pale gray fill, with a dark navy heading " + q("無権代理行為とみなされるのは") + " and one body line " + q("相手方が目的を知り、又は知ることができたときに限る") + ". Draw this card as ONE separate card below the table, not as a row of the table. Draw no arrow."]
     txt = "\n".join(body)
     return txt + "\n--- FOOTER ---\n" + final(kanji_in(txt), "Confirm the table has exactly 3 columns and exactly 3 data rows, that the second header is 「代理権の濫用」 and the third header is 「無権代理」 and they are not swapped, that every cell reads exactly as given, that the card below the table is one separate card, and that no check mark, cross mark, blue or red appears anywhere.")
 
@@ -42,7 +42,7 @@ def img2():
             "NODE RESULT 1 (blue box): " + q("拒絶の効果は確定している") + " on the first line and " + q("無権代理人は、請求を拒める") + " on the next two lines.",
             "NODE DIAMOND 2: " + q("相続人は、無権代理人ひとりか？") + " The text is placed inside the diamond on 3 lines.",
             "  - Arrow right to RESULT 2 with the BLUE label " + q("はい") + ".",
-            "  - Arrow down to RESULT 3 with the RED label " + q("いいえ（共同相続）") + ".",
+            "  - Arrow down to RESULT 3 with the RED label " + q("いいえ") + ".",
             "NODE RESULT 2 (blue box): " + q("本人と無権代理人の地位が融合") + " on the first line, " + q("信義則上、追認の拒絶は許されない") + " on the second line and " + q("行為は当然に有効") + " on the third line.",
             "NODE RESULT 3 (red box): " + q("追認は共同相続人の全員でする") + " on the first line and " + q("他の相続人とともに拒絶し、請求を拒める") + " on the next two lines.",
             "Counts: 1 start node, 1 note card, 2 diamonds, 3 result boxes, 3 distinct paths from the start to a result box. Every diamond has exactly two exits, and no arrow leaves a result box. RESULT 1 and RESULT 3 have different texts, and RESULT 2 has its own text; do not copy one into another.",
@@ -65,7 +65,7 @@ def build_doc():
     checks = {
         1: ["文字が日本語の常用漢字・ひらがな・カタカナ・数字・「」（）・：／だけで、簡体字・繁体字・余計な文字がない",
             "表は3列（行見出し・代理権の濫用・無権代理）×3行で、左右の文言が全行で違う（見出しが入れ替わっていない）",
-            "表の下のカード（濫用が無権代理にかわるとき）が1枚だけあり、表の一部になっていない",
+            "表の下のカード（無権代理行為とみなされるのは）が1枚だけあり、表の一部になっていない",
             "✓・✕・青・赤が表のどこにもない／背景が透過でなく、カードの下に追加のまとめがない"],
         2: ["文字が日本語の常用漢字・ひらがな・カタカナ・数字・「」（）・：／だけで、簡体字・繁体字・余計な文字がない",
             "開始1・注記カード1・ひし形2・結果の箱3で、ひし形は右に青い「はい」、下に赤いラベルが付いている",

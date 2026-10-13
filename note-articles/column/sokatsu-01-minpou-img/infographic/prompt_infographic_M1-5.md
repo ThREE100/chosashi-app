@@ -30,7 +30,7 @@ Data row 2 (row label cell, dark navy, white text: 「本人に効果が帰属�
 Data row 3 (row label cell, dark navy, white text: 「相手方が悪意または有過失だと？」): second column 「目的を知り、又は知ることができたなら、無権代理行為とみなされる（107条）」; third column 「本人が追認しなければ、本人に効力を生じない（113条1項）」.
 The second-column and third-column cells of each data row have clearly different texts; the texts are NOT identical, so copy each cell exactly as given.
 --- CARD BELOW THE TABLE ---
-One wide rounded card with a dark navy outline and a pale gray fill, with a dark navy heading 「濫用が無権代理にかわるとき」 and one body line 「相手方が目的を知り、又は知ることができた場合に限る」. Draw this card as ONE separate card below the table, not as a row of the table. Draw no arrow.
+One wide rounded card with a dark navy outline and a pale gray fill, with a dark navy heading 「無権代理行為とみなされるのは」 and one body line 「相手方が目的を知り、又は知ることができたときに限る」. Draw this card as ONE separate card below the table, not as a row of the table. Draw no arrow.
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 代, 効, 対, 張, 権, 無, 認, 過; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the table has exactly 3 columns and exactly 3 data rows, that the second header is 「代理権の濫用」 and the third header is 「無権代理」 and they are not swapped, that every cell reads exactly as given, that the card below the table is one separate card, and that no check mark, cross mark, blue or red appears anywhere. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
@@ -38,7 +38,7 @@ Final check before rendering: scan every kanji glyph and confirm it is standard 
 検品チェック：
 - 文字が日本語の常用漢字・ひらがな・カタカナ・数字・「」（）・：／だけで、簡体字・繁体字・余計な文字がない
 - 表は3列（行見出し・代理権の濫用・無権代理）×3行で、左右の文言が全行で違う（見出しが入れ替わっていない）
-- 表の下のカード（濫用が無権代理にかわるとき）が1枚だけあり、表の一部になっていない
+- 表の下のカード（無権代理行為とみなされるのは）が1枚だけあり、表の一部になっていない
 - ✓・✕・青・赤が表のどこにもない／背景が透過でなく、カードの下に追加のまとめがない
 
 ## 図解：無権代理人が本人を相続したら追認を拒絶できるかの判定フロー
@@ -71,7 +71,7 @@ NODE DIAMOND 1: 「本人は、相続の前に追認を拒絶していたか？�
 NODE RESULT 1 (blue box): 「拒絶の効果は確定している」 on the first line and 「無権代理人は、請求を拒める」 on the next two lines.
 NODE DIAMOND 2: 「相続人は、無権代理人ひとりか？」 The text is placed inside the diamond on 3 lines.
   - Arrow right to RESULT 2 with the BLUE label 「はい」.
-  - Arrow down to RESULT 3 with the RED label 「いいえ（共同相続）」.
+  - Arrow down to RESULT 3 with the RED label 「いいえ」.
 NODE RESULT 2 (blue box): 「本人と無権代理人の地位が融合」 on the first line, 「信義則上、追認の拒絶は許されない」 on the second line and 「行為は当然に有効」 on the third line.
 NODE RESULT 3 (red box): 「追認は共同相続人の全員でする」 on the first line and 「他の相続人とともに拒絶し、請求を拒める」 on the next two lines.
 Counts: 1 start node, 1 note card, 2 diamonds, 3 result boxes, 3 distinct paths from the start to a result box. Every diamond has exactly two exits, and no arrow leaves a result box. RESULT 1 and RESULT 3 have different texts, and RESULT 2 has its own text; do not copy one into another.
