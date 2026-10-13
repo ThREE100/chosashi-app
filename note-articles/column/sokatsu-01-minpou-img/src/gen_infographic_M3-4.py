@@ -22,7 +22,7 @@ def img1():
          "; the third header " + q("対抗：第三者に主張できる？") + " with a small light-gray tag " + q("登記の話") + ". The two headers are NOT identical; copy each one exactly as given.",
          "Data row 1 (row label cell, dark navy, white text: " + q("遺産分割で取得") + "): second column " + q("相続開始の時にさかのぼって効力が生じる。ただし、第三者の権利は害せない（民法909条）") +
          "; third column " + q("法定相続分を超える部分は、登記などの対抗要件が必要（民法899条の2）") + ".",
-         "Data row 2 (row label cell, dark navy, white text: " + q("『相続させる』遺言で取得") + "): second column " + q("遺産分割方法の指定と解され、協議や審判を経ず、死亡と同時に承継される") +
+         "Data row 2 (row label cell, dark navy, white text: " + q("相続させる旨の遺言で取得") + "): second column " + q("遺産分割方法の指定と解され、協議や審判を経ず、死亡と同時に承継される") +
          "; third column " + q("法定相続分を超える部分は、遺言でも、登記などの対抗要件が必要（民法899条の2）") + ".",
          "Data row 3 (row label cell, dark navy, white text: " + q("特定遺贈で取得") + "): second column " + q("遺言という意思表示による個別の権利移転") +
          "; third column " + q("登記がなければ、相続人の債権者に対抗できない（民法177条）") + ".",
@@ -30,7 +30,7 @@ def img1():
          "--- SEPARATE CARD (a single rounded card placed under the table with a clear gap, NOT part of the table; this is the last element of the poster) ---",
          "Card heading (dark navy, one line): " + q("別の問い：遺産共有の分け方"),
          "Card body, two short lines: " + q("共有物分割ではなく、遺産分割で分ける（民法258条の2第1項）") + " and " + q("相続開始から10年を経過すると、共有物分割ができる例外がある（同条2項）") + ".",
-         "At the very bottom of the card, one small light-gray tag: " + q("承継と対抗は、別々に問われる")]
+         "At the very bottom of the card, one small light-gray tag: " + q("承継と対抗は、それぞれ別の問い")]
     txt = "\n".join(body)
     return txt + "\n--- FOOTER ---\n" + final(kanji_in(txt), "Confirm the table has exactly 3 columns and exactly 3 data rows with the two headers 承継：いつ自分のものになる？ and 対抗：第三者に主張できる？ in this order, that the separate card below it is the last element, that every cell reads exactly as given, and that no check mark, cross mark, blue or red appears anywhere.")
 
@@ -41,7 +41,7 @@ META = [
 
 
 def build_doc():
-    out = [f"# 【{M}】順次譲渡（A→B→C）で、相続人・債権者・他人物売買をどう扱うか　図解インフォグラフィック プロンプト（{len(META)}枚）\n"]
+    out = [f"# 【{M}】遺贈・遺産分割・遺言による承継は、登記が要るか　図解インフォグラフィック プロンプト（{len(META)}枚）\n"]
     out.append("民法編の総合記事（`note-articles/column/sokatsu-01-minpou.md`）の【M3-4】に差し込む図解のプロンプトです。画像は生成していません（ChatGPTなどで手動生成）。"
                "作成のルールは `note-articles/infographic-prompt-template.md`（文字化け・簡体字対策、背景の不透明化、○×・はい／いいえの配色、アウトロブロック禁止）に従いました。"
                "配色は、肯定＝青、否定＝赤、中立＝濃紺で統一していますが、この図解は対比表なので、○×・青・赤は使いません。画像の中には、図の番号を入れません。"

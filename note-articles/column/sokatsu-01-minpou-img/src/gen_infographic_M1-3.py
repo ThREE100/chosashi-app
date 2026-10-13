@@ -33,7 +33,7 @@ def img1():
             "Body (ONE line): " + q("登記がなくても守られる（判例）") + ".",
             "Under the body, a small dark navy tag: " + q("相続人は、善意でも第三者でない") + "."]
     txt = "\n".join(body)
-    return txt + "\n--- FOOTER ---\n" + final(kanji_in(txt), "Confirm there are exactly 1 start node, 3 diamonds and 4 result boxes, that DIAMOND 1 and DIAMOND 2 each show a blue 「はい」 and a red 「いいえ」, that DIAMOND 3 shows only the two navy labels 「心裡留保・虚偽表示」 and 「詐欺・錯誤」, that RESULT 1 and RESULT 2 are red and RESULT 3 and RESULT 4 are blue, that there is exactly one note card below the flowchart and it is not connected by any arrow, that no text overflows its box, and that no arrow label is hidden.")
+    return txt + "\n--- FOOTER ---\n" + final(kanji_in(txt), "Confirm there are exactly 1 start node, 3 diamonds and 4 result boxes, that DIAMOND 1 and DIAMOND 2 each show a blue 「はい」 and a red 「いいえ」, that DIAMOND 3 shows only the two navy labels 「心裡留保・虚偽表示」 and 「詐欺・錯誤」, that RESULT 1 and RESULT 2 are red and RESULT 3 and RESULT 4 are blue, that there is exactly one note card below the flowchart and it is not connected by any arrow, that no text overflows its box, and that no arrow label is hidden. Confirm that the second character of 心裡留保 is drawn exactly as 裡 (clothing radical on the left, 里 on the right) everywhere it appears.")
 
 META = [(1, "善意の第三者は守られるかの判定フロー", "フローチャート型", "1080×2500", "図解1_善意の第三者は守られるかの判定フロー", "【M1-3】の「判断のしかた」の直後", img1)]
 
