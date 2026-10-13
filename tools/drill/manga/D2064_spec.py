@@ -1,0 +1,71 @@
+"""D2064 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+R07-Q13イ（区分建物とその敷地権の目的となる土地の各所有権の登記名義人の住所が一致していない場合でも、各登記名義人の同一性を証する情報を添付すれば、住所の変更又は更正の登記をすることなく、敷地権の発生を原因とする区分建物の表題部の変更の登記を申請できる・×）。
+『同一性を証する情報』と『住所の変更・更正の登記』の対比に絞り、型5（整理カード併用）で『住所が古いままのとき、変更登記は要るか』を3つの登記（合体・合併・敷地権発生の表題部変更）で整理した。合体の行は肢D0995（H26-Q17オ）、合併の行は記事R04-Q16オの結論。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D2064", fid="D2064", topic="不動産登記法／区分建物・敷地権・共用部分", src="R07-Q13イ",
+    truth="×（誤った記述）",
+    miscon="同一人であることを証明する情報を添付すれば、住所が食い違っていても、住所の変更・更正の登記なしで申請できると考える（同一性証明は、登記記録上の住所の表示を書き換える効力がないことを見落とす）",
+    article="note-articles/r7-mondai/q13-shikichiken.md",
+    art_head="イ（住所が一致していなければ、まず住所変更登記が必要）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『各登記名義人の同一性を証する情報を添付情報とすれば』と、もっともらしい救済手段を示す。同じ人だと証明できるなら足りる、という感覚に乗せ、登記記録上の住所の表示は同一性証明では直らないことを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①『同一人であることの証明』と『登記記録の住所の表示を実体に合わせること』が別物だと区別できていない。②合体による登記等では住所変更の登記が不要（変更を証する情報で足りる）と覚え、敷地権発生の表題部の変更でも同じだと混同する。③建物側と敷地側の2つの登記記録を突き合わせる登記では、表示が一致していることが前提になることが結びついていない。",
+        "【対比する制度】「同一性を証する情報」⇔「住所の変更・更正の登記」：同一性を証する情報は、同じ人物であることの証明にはなるが、登記記録上の住所の表示を書き換える効力はない／敷地権の発生を原因とする区分建物の表題部の変更の登記の前提として、住所の変更又は更正の登記が別途要る（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型3の理由説明・型1の思い込みと組み合わせ）。理由が『記録どうしを突き合わせる登記か』という分かれ目の整理なので、コマ3の右側は会話1往復と、住所が古いままのときの変更登記の要否を3つの登記で並べた整理カードにした。コマ1で思い込みを出し、コマ2で同一性証明と住所変更登記を左右に並べた。",
+        "記事の範囲：R07-Q13イ。記事は『この扱いを直接定めた条文は確認できず、登記実務上の取扱い』と書く。図は条番号を入れず『実務の取扱い』と書く。整理カードの合体・合併の2行は、別の記事（H26-Q17オ＝合体は変更を証する情報で足りる、R04-Q16オ＝合併は先に住所変更の登記が必要。ともに登記実務の取扱い）の結論で、肢D0995の整理と同じ（ユーザーに伝える）。",
+        "登場人物：人型は使わず、区分建物・敷地・登記は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①区分建物と敷地の所有権の登記名義人の住所が一致していないとき、同一性を証する情報だけでは足りない②同一性証明は同じ人物であることの証明で、登記記録の住所の表示を書き換える効力はない③住所の変更又は更正の登記を別途行ってから、敷地権の発生を原因とする区分建物の表題部の変更の登記を申請する④条文に直接の定めはなく登記実務の取扱い⑤肢D2064は『住所の変更又は更正の登記をすることなく…申請することができる』なので×",
+    ],
+    extra_refs=[
+        "合体による登記等は住所変更の登記が不要（H26-Q17オ）・建物の合併は先に住所変更の登記が必要（R04-Q16オ）：別の記事の結論で、どちらも条文に明記がなく登記実務の取扱い。肢D0995のコマ3の整理カードと同じ。この肢の記事R07-Q13イに、合体・合併との比較はない（ユーザーに伝える）",
+    ],
+    lead1="区分建物と、その敷地権の目的となる土地で、所有権の登記名義人の住所が一致していません。同一性を証する情報を添付すれば、住所の変更登記をせずに、敷地権発生の表題部変更を申請できるのでしょうか。",
+    title="住所が食い違うなら、同一性証明では足りない", title_hl="足りない",
+    panels=[
+        dict(label="①　同じ人だと証明すれば足りる？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "同じ人だと証明すれば、足りますよね？", None, "同じ人だと証明\nすれば、足りますよね？"),
+                      ("トリ先生", "出たわね。記録の住所は直るのかしら", "記録の住所は直る", "出たわね。\n記録の住所は\n直るのかしら")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「建物側と敷地側で、名義人の住所が違う」. Card 2: 「各登記名義人の同一性を証する情報を添付する」. Card 3: 「住所の変更・更正の登記なしで申請したい」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「敷地権発生の表題部変更を申請できる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　同一性の証明と、住所の変更登記", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「名義人の住所が食い違うとき」 at the top left, with one line beside it: 「証明と登記は、別のもの」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「同一性を証する情報」, two body lines: 「同じ人物であることの証明」, 「登記記録の住所は書き換えない」.",
+                  "Right card, heading 「住所の変更・更正の登記」, a small tag 「実務の取扱い」, two body lines: 「登記記録の住所を実体に合わせる」, 「敷地権発生の登記の前提」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、変更・更正の登記を省いた」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　住所が古いままのとき", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "合体は、証明だけで足りましたよね？", None, "合体は、証明だけで\n足りましたよね？"),
+                      ("トリ先生", "合体は新規の登記。ここは記録の突き合わせが要るの", "記録の突き合わせ", "合体は新規の登記。\nここは記録の突き合わせが\n要るの")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「同一性証明だけで足りる」, body 「記録の住所の表示は、書き換えられない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「先に住所の変更・更正の登記」, body 「記録を実体に合わせてから、敷地権発生の登記へ」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「住所が古いままのとき、変更登記は？」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「合体による登記等　不要」, 「建物の合併の登記　先に変更登記」, 「敷地権発生の表題部変更　先に変更登記」. The row 「敷地権発生の表題部変更　先に変更登記」 is highlighted with a yellow marker. Under the rows, one small dark navy ribbon tag with white text 「分かれ目は、記録どうしを突き合わせるか」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "同一性証明だけでは、足りないんですね！", None, "同一性証明だけでは、\n足りないんですね！"),
+                      ("トリ先生", "そう。変更登記なしと書けば×よ", "変更登記なしと書けば×", "そう。変更登記なしと\n書けば×よ")],
+             fig=[], checklist=["住所が不一致なら、同一性証明だけでは足りない", "先に住所の変更又は更正の登記が必要", "条文に直接の定めはなく、登記実務の取扱い"])
+    ],
+    band1="住所が一致しないときは、先に住所の変更・更正の登記が必要", band2="問題D2064　正解×（R07-Q13イ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。同一性を証する情報と住所の変更・更正の登記の対比と、住所が古いままのときの変更登記の要否（合体・合併・敷地権発生）の整理に絞った）"],
+)
+
+HEADER = dict(h1="住所が食い違う", h2="同一性証明で足りる？", hkey="足りる？",
+              scene_l="two registry books side by side with different address labels, no text",
+              scene_r="an apartment building and its land plot with a blank certificate sheet, no text")

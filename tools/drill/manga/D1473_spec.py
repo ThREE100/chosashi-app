@@ -1,0 +1,70 @@
+"""D1473 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+R01-Q13ア（建物の表題部所有者Ａの申請によりされたＡを所有権の登記名義人とする保存の登記が錯誤により抹消された場合には、その建物の所有者Ｂの申請又は職権により、表題登記を改めてすることとなる・〇）。
+『表題部所有者本人の保存登記が錯誤で抹消された場合（登記記録を閉鎖し、表題登記をやり直す）』と『相続人等の保存登記が錯誤で抹消された場合（表題部所有者の記録を復活させ、閉鎖しない）』の対比に絞り、型5（整理カード併用）で3つの場合を整理した。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1473", fid="D1473", topic="不動産登記法／建物の分割・合併・合体・滅失・変更", src="R01-Q13ア",
+    truth="〇（正しい記述）",
+    miscon="保存登記が抹消されれば、表題部所有者の記録がそのまま復活すると考える（本人の保存登記が抹消された場合は、記録が閉鎖され、表題登記からやり直すことを見落とす）",
+    article="note-articles/r1-mondai/q13-tatemono-hyoudaibu.md",
+    art_head="ア（表題部所有者本人の保存登記が消えたら、登記記録ごと閉じてやり直す）",
+    letters="ＡＢ",
+    design=[
+        "【出題者のひっかけ】問題文が『表題部所有者Ａの申請によりされた…保存の登記が錯誤により抹消された場合』と、登記が消える場面を書く。保存登記が消えれば元の表題部所有者の記録が戻る、という感覚に乗せ、本人がした保存登記の場合は記録が閉鎖されることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①錯誤抹消なら、いつでも表題部所有者の記録が復活すると考える。②抹消された保存登記が『誰がしたものか』で扱いが分かれること（本人＝閉鎖、相続人等・区分建物の取得者＝復活）を整理できていない。③閉鎖された後は、真の所有者Ｂの申請又は職権で表題登記をやり直すことが結びついていない。",
+        "【対比する制度】「表題部所有者本人の保存登記」⇔「相続人等の保存登記」：本人の保存登記が錯誤抹消されると、いったん否定された表題部所有者を復活させるのは適当でなく、登記記録は閉鎖される（先例）。相続人等の保存登記が抹消されても、表題部所有者が所有者であった事実は否定されないので、記録を復活させ、閉鎖しない（記事イ。結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型3の理由説明・型1の思い込みと組み合わせ）。理由が『抹消された保存登記が誰のものか』の整理なので、コマ3の右側は会話1往復と、3つの場合（本人・相続人等・区分建物の取得者）の整理カードにした。コマ1で思い込みを出し、コマ2で本人の保存登記と相続人等の保存登記を左右に並べた。",
+        "記事の範囲：R01-Q13ア（イの結論との対比）。扱いは『先例による』と記事が書き、条文に直接の定めはない。先例の番号は記事の肢アの解説に出ないので図に入れない。",
+        "登場人物：Ａ（表題部所有者）・Ｂ（建物の真の所有者）を、コマ1の図で顔なしの人型ピクトグラムとして紹介してから使う。全員同じ薄い灰青で、色分けしない。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①所有権の保存の登記がされると、表題部所有者の記録は抹消される②表題部所有者本人がした保存登記が錯誤で抹消されると、登記記録は全部閉鎖される（先例）③建物が現存する以上、真の所有者Ｂの申請又は職権で、表題登記をやり直す④相続人等・区分建物の取得者の保存登記が抹消された場合は、表題部所有者の記録を復活させ、閉鎖しない（記事イ）⑤肢D1473は『表題登記を改めてすることとなる』なので〇",
+    ],
+    extra_refs=[
+        "相続人等・区分建物の取得者の保存登記が抹消された場合の扱い：記事R01-Q13イ（同じ問）。どちらも『先例による』扱いで、条文に直接の定めはない。先例の番号は記事の肢ア・イの解説に出ないので図に入れない",
+    ],
+    lead1="建物の表題部所有者Ａの申請で、Ａを所有権の登記名義人とする保存の登記がされましたが、その保存登記が錯誤により抹消されました。この建物の登記は、その後どうなるのでしょうか。",
+    title="本人の保存登記が消えたら、表題登記からやり直す", title_hl="やり直す",
+    panels=[
+        dict(label="①　保存登記が消えたら、どうなる？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "保存登記が消えたら、元に戻りますよね？", None, "保存登記が消えたら、\n元に戻りますよね？"),
+                      ("トリ先生", "出たわね。誰がした保存登記か見るのよ", "誰がした", "出たわね。\n誰がした保存登記か\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width. At the top, ONE row, left to right, of two faceless flat pictogram figures in exactly the same single light gray-blue color, side by side with small gaps, with dark navy tags 「Ａ」, 「Ｂ」 and, under each tag, a small caption: 「表題部所有者」, 「建物の真の所有者」. Below the row, two SEPARATE cards stacked from top to bottom, both the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line: 「Ａが、自分名義で保存登記」, 「その保存登記が、錯誤で抹消された」. Do NOT draw any arrow anywhere in this panel and do NOT connect the shapes; they are separated only by small empty gaps.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「登記は、その後どうなる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　本人の保存登記と、相続人等の保存登記", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「同じ保存登記の錯誤抹消でも」 at the top left, with one line beside it: 「誰がした保存登記かで、扱いが分かれる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「表題部所有者本人の保存登記」, a small tag 「先例による」, two body lines: 「錯誤で抹消されると」, 「登記記録は閉鎖される」.",
+                  "Right card, heading 「相続人等の保存登記」, a small tag 「先例による」, two body lines: 「錯誤で抹消されても」, 「表題部所有者の記録が復活」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、表題部所有者本人の保存登記」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　抹消された保存登記は、誰のもの？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "相続人の場合は、どうなりますか？", None, "相続人の場合は、\nどうなりますか？"),
+                      ("トリ先生", "所有者だった事実は揺らがないから、復活させるのよ", "復活", "所有者だった事実は\n揺らがないから、\n復活させるのよ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「抹消後も、元の登記記録を使う」, body 「いったん否定された表題部所有者は、復活させない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「閉鎖して、表題登記をやり直す」, body 「真の所有者Ｂの申請又は職権で」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「錯誤で抹消された保存登記は、誰の？」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「表題部所有者本人　登記記録を閉鎖」, 「相続人など　表題部所有者を復活」, 「区分建物の取得者　表題部所有者を復活」. The row 「表題部所有者本人　登記記録を閉鎖」 is highlighted with a yellow marker. Under the rows, one small dark navy ribbon tag with white text 「本人の場合は、表題登記からやり直し」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "本人の保存登記なら、やり直しなんですね！", None, "本人の保存登記なら、\nやり直しなんですね！"),
+                      ("トリ先生", "そう。改めてすると書けば〇よ", "改めてすると書けば〇", "そう。改めてすると\n書けば〇よ")],
+             fig=[], checklist=["本人の保存登記が錯誤抹消されると、登記記録は閉鎖される", "真の所有者Ｂの申請又は職権で、表題登記をやり直す", "相続人等の保存登記なら、表題部所有者を復活させ、閉鎖しない"])
+    ],
+    band1="本人の保存登記が錯誤抹消されると、登記記録は閉鎖される", band2="問題D1473　正解〇（R01-Q13ア）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。表題部所有者本人の保存登記と相続人等の保存登記の対比と、抹消された保存登記が誰のものかの3つの場合の整理に絞った）"],
+)
+
+HEADER = dict(h1="保存登記が錯誤で", h2="消えたら？", hkey="消えたら？",
+              scene_l="a house with a crossed-out registration sheet beside it, no text",
+              scene_r="a closed registry book next to a fresh blank registry sheet, no text")

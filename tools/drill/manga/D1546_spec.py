@@ -1,0 +1,72 @@
+"""D1546 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+R02-Q07エ（1平方メートル未満の端数を切り捨てて地積が表示されている土地について、その地目を宅地に変更する登記の申請は、地積の変更の登記の申請と併せてしなければならない・×）。
+『地目の変更の登記』と『地積の変更の登記』の対比に絞った。宅地にすると地積の表示単位が細かくなる場合があっても、それは記録上の処理で、地積の変更の登記を併せて申請する義務はない（記事は『条文に明記はなく、登記実務の整理』とする）。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1546", fid="D1546", topic="不動産登記法／土地の表題・地目・地積", src="R02-Q07エ",
+    truth="×（誤った記述）",
+    miscon="宅地にすると地積の表示単位が変わる（1㎡未満の切捨てから、原則0.01㎡まで）ので、地積の変更の登記も併せて申請しなければならないと考える（地目変更の登記だけで申請でき、併せる義務はないことを見落とす）",
+    article="note-articles/r2-mondai/q07-chimoku-henkou-touki.md",
+    art_head="エ（地目変更の申請は、地積の変更の申請と必ず併せてする必要はない）",
+    letters="",
+    design=[
+        "【出題者のひっかけ】問題文が『1平方メートル未満の端数を切り捨てて地積が表示されている土地』と、地積の表示の仕方を前に出す。宅地にすると表示単位が変わるから、地積も変える登記が要る、という感覚に乗せ、地目変更の登記だけで申請できることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①地目によって地積の表示単位が違うこと（宅地は原則0.01㎡まで）と、地積の変更の登記が要ることを結びつけてしまう。②地目変更の登記の登記原因が『年月日地目変更』で、地積の変更は別の登記であることを区別していない。",
+        "【対比する制度】「地目の変更の登記」⇔「地積の変更の登記」：宅地への地目変更の登記は、それ自体で申請できる（登記原因は『年月日地目変更』）／地積の変更の登記は別の登記で、地目変更に併せて申請しなければならないわけではない（結論が逆になる点）。",
+        "【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で『単位が変わるなら地積の変更も要る』という思い込みを出し、コマ2で地目の変更の登記と地積の変更の登記を左右に並べ、コマ3で『記録の書き方が変わるだけ』という理由を上下のカードにした。",
+        "記事の範囲：R02-Q07エ。記事は『地積欄の記録の書き方が変わる場合でも、それは地目変更に伴う記録上の処理で、別途地積の変更の登記を併せて申請しなければならないわけではない（条文に明記されたものではなく、登記実務上の取扱いによる整理）』と述べる。図も条番号を入れず、『実務の整理』と書く。",
+        "登場人物：人型は使わず、土地・登記は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①宅地は地積を原則0.01㎡まで表示するなど、地目によって地積の表示の仕方が違う②地目を宅地に変更する登記は、それ自体で申請できる（登記原因は『年月日地目変更』）③地積の変更の登記を併せて申請しなければならないわけではない（条文に明記はなく、登記実務の整理）④肢D1546は『併せてしなければならない』なので×",
+    ],
+    extra_refs=[
+        "『地積の変更の登記を併せて申請しなければならないわけではない』：記事R02-Q07エの整理で、条文に明記はなく登記実務上の取扱い。図も条番号を入れず『実務の整理』と書く（ユーザーに伝える）。宅地の地積の表示単位の詳細（0.01㎡など）は記事の言い方（宅地は原則0.01平方メートル単位など）にとどめる",
+    ],
+    lead1="1平方メートル未満の端数を切り捨てて地積が表示されている土地があります。この土地の地目を宅地に変更する登記は、地積の変更の登記と併せて申請しなければならないのでしょうか。",
+    title="宅地への地目変更は、地積の変更と併せなくてよい", title_hl="併せなくてよい",
+    panels=[
+        dict(label="①　単位が変わるなら、地積も変える？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "宅地は単位が細かいから、地積の変更も要りますよね？", None, "宅地は単位が細かい\nから、地積の変更も\n要りますよね？"),
+                      ("トリ先生", "出たわね。別の登記か見るのよ", "別の登記か", "出たわね。\n別の登記か\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「1平方メートル未満を切り捨てた地積の土地」. Card 2: 「地目を、宅地に変更する」. Card 3: 「地積の変更の登記も、併せて申請する？」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「併せて申請が必要？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　地目の変更と、地積の変更", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「同じ土地の登記でも」 at the top left, with one line beside it: 「地目の変更と地積の変更は、別の登記」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「地目の変更の登記」, a small tag 「登記原因：年月日地目変更」, two body lines: 「それ自体で申請できる」, 「地目を宅地に変える登記」.",
+                  "Right card, heading 「地積の変更の登記」, two body lines: 「地積そのものを変える登記」, 「地目変更に併せる必要はない」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、併せなければならないとした」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　なぜ、併せなくていい？", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "宅地は、地積の単位が細かいですよね？", None, "宅地は、地積の\n単位が細かいですよね？"),
+                      ("トリ先生", "そうよ。でも記録の書き方が変わるだけなの", "記録の書き方", "そうよ。でも記録の\n書き方が変わるだけ\nなの"),
+                      ("藍子", "別の登記は、要りませんか？", None, "別の登記は、\n要りませんか？"),
+                      ("トリ先生", "要らないの。登記実務の整理よ", "要らない", "要らないの。\n登記実務の整理よ")],
+             fig=["Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「単位が変わるので、地積の変更も必要」, body 「単位が変わるのは記録上の処理で、別の登記ではない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「地目の変更の登記だけ」, body 「登記原因『年月日地目変更』で申請できる」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "地目変更だけで申請できるんですね！", None, "地目変更だけで\n申請できるんですね！"),
+                      ("トリ先生", "そう。併せなければと書けば×よ", "併せなければと書けば×", "そう。併せなければと\n書けば×よ")],
+             fig=[], checklist=["地目を宅地に変更する登記は、それ自体で申請できる", "地積の変更の登記を併せて申請する必要はない", "条文に明記はなく、登記実務の整理"])
+    ],
+    band1="地目変更の登記は、地積の変更の登記と併せる必要がない", band2="問題D1546　正解×（R02-Q07エ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。地目の変更の登記と地積の変更の登記の対比と、記録の書き方が変わるだけという理由に絞った。条番号は記事にそろえて入れていない）"],
+)
+
+HEADER = dict(h1="宅地へ地目変更", h2="地積も変える？", hkey="変える？",
+              scene_l="a field turning into a house lot with a small house icon, no text",
+              scene_r="a measuring tape and a blank registry sheet side by side, no text")

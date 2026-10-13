@@ -90,3 +90,6 @@
 | D0507 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-2_02_kekkaku-3nen.md` |
 | D0408 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-3_01_choukai-hosho.md` |
 | D1083 | － | `D1083_prompt.md`（2026-10-13、ユーザー指示で作成。型5） |
+| D1546 | － | `D1546_prompt.md`（2026-10-13、ユーザー指示で作成） |
+| D1473 | － | `D1473_prompt.md`（2026-10-13、ユーザー指示で作成。型5） |
+| D2064 | － | `D2064_prompt.md`（2026-10-13、ユーザー指示で作成。型5。合体との比較はD0995） |
