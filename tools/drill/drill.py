@@ -278,10 +278,11 @@ def cmd_focus(a):
         print('出題フォーカスを解除しました（全分野のランダム出題）。')
     elif a.action == 'on':
         subs = [SUBJ_ALIAS.get(x, x) for x in (a.exclude_subject or [])]
-        fo = {'exclude_subjects': subs, 'exclude_topics': a.exclude_topic or [], 'remaining': a.count,
-              'started': now().isoformat(timespec='seconds')}
+        pref = [SUBJ_ALIAS.get(x, x) for x in (a.prefer_subject or [])]
+        fo = {'exclude_subjects': subs, 'exclude_topics': a.exclude_topic or [], 'prefer_subjects': pref,
+              'remaining': a.count, 'started': now().isoformat(timespec='seconds')}
         json.dump(fo, open(FOCUS, 'w', encoding='utf-8'), ensure_ascii=False)
-        print(f'出題フォーカスを開始: 除外 科目={subs} 論点={fo["exclude_topics"]}、残り{a.count}問')
+        print(f'出題フォーカスを開始: 除外 科目={subs} 論点={fo["exclude_topics"]}、優先 科目={pref}、残り{a.count}問')
     else:
         fo = read_focus()
         print('出題フォーカス: ' + (json.dumps(fo, ensure_ascii=False) if fo else 'なし（全分野ランダム）'))
@@ -400,12 +401,28 @@ def pick(bank, st, n, subject, topic, mode, include_old=False):
         # 要復習は「一周」方式：今の周でまだ出していない肢を W の多い順に出し、全部出したら周をリセットする
         # （誤答の多い肢だけが続けて出るのを防ぐ）
         seen = read_cycle()
-        c_rv = [i for i in must if i not in seen][:n_rv]
-        if len(c_rv) < n_rv:
-            seen = []                                  # 一周した → 新しい周を始める
-            c_rv += [i for i in must if i not in c_rv][:n_rv - len(c_rv)]
-        c_ck = check[:n_ck]
-        chosen = c_rv + c_ck
+        prefer = set((fo or {}).get('prefer_subjects', []))   # 優先科目（2026-10-13）：その科目の復習を先に出す
+        is_pref = lambda i: pool[i]['subject'] in prefer
+        if prefer:
+            pm = [i for i in must if is_pref(i)]; pc = [i for i in check if is_pref(i)]
+            pm_new = [i for i in pm if i not in seen]
+            if len(pm_new) < len(pm) and len(pm_new) < n_rv:
+                seen = [i for i in seen if i not in pm]    # 優先科目の要復習を一周した → 優先科目だけ新しい周へ
+                pm_new = pm
+            c_rv = pm_new[:n_rv]
+            c_ck = pc[:n_ck]
+            chosen = c_rv + c_ck
+            if len(chosen) < n:                            # 優先科目の中でまず埋める（要復習 → チェック）
+                rest = [i for i in pm if i not in chosen] + [i for i in pc if i not in chosen]
+                chosen += rest[:n - len(chosen)]
+                c_rv = [i for i in chosen if i in pm]
+        else:
+            c_rv = [i for i in must if i not in seen][:n_rv]
+            if len(c_rv) < n_rv:
+                seen = []                                  # 一周した → 新しい周を始める
+                c_rv += [i for i in must if i not in c_rv][:n_rv - len(c_rv)]
+            c_ck = check[:n_ck]
+            chosen = c_rv + c_ck
         if len(chosen) < n:
             rest = [i for i in must if i not in chosen] + [i for i in check if i not in chosen] + [i for i in new if i not in chosen]
             chosen += rest[:n - len(chosen)]
@@ -873,6 +890,7 @@ def main():
     fc.add_argument('action', choices=['on', 'off', 'status'])
     fc.add_argument('--exclude-subject', action='append')
     fc.add_argument('--exclude-topic', action='append')
+    fc.add_argument('--prefer-subject', action='append', help='復習（要復習・チェック）をこの科目から先に出す（足りなければ他の科目で埋める）')
     fc.add_argument('--count', type=int, default=100)
     ex = sub.add_parser('exclude'); ex.add_argument('ids', nargs='+'); ex.add_argument('--undo', action='store_true')
     isu = sub.add_parser('issue'); isu.add_argument('id'); isu.add_argument('problem'); isu.add_argument('--proposal')
