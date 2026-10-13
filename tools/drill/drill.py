@@ -280,7 +280,7 @@ def cmd_focus(a):
         subs = [SUBJ_ALIAS.get(x, x) for x in (a.exclude_subject or [])]
         pref = [SUBJ_ALIAS.get(x, x) for x in (a.prefer_subject or [])]
         fo = {'exclude_subjects': subs, 'exclude_topics': a.exclude_topic or [], 'prefer_subjects': pref,
-              'remaining': a.count, 'started': now().isoformat(timespec='seconds')}
+              'allow_today': bool(a.allow_today), 'remaining': a.count, 'started': now().isoformat(timespec='seconds')}
         json.dump(fo, open(FOCUS, 'w', encoding='utf-8'), ensure_ascii=False)
         print(f'出題フォーカスを開始: 除外 科目={subs} 論点={fo["exclude_topics"]}、優先 科目={pref}、残り{a.count}問')
     else:
@@ -360,7 +360,11 @@ def pick(bank, st, n, subject, topic, mode, include_old=False):
     today = nowt.astimezone(JST).date()
 
     def eligible(i):   # 同じ日（日本時間）に答えた肢と、直前の出題の肢は出さない
-        return i in st and st[i]['last'].astimezone(JST).date() < today and i not in last_session
+        if not (i in st and i not in last_session):
+            return False
+        if (fo or {}).get('allow_today'):   # 「本日2周目」：同じ日に答えた肢も出す（2026-10-13）
+            return True
+        return st[i]['last'].astimezone(JST).date() < today
 
     def review_order(i):   # 誤解・未習得の通算回数が多い順。同数なら最後に答えたのが古い順
         return (-wrong_total(st[i]), st[i]['last'])
@@ -890,6 +894,7 @@ def main():
     fc.add_argument('action', choices=['on', 'off', 'status'])
     fc.add_argument('--exclude-subject', action='append')
     fc.add_argument('--exclude-topic', action='append')
+    fc.add_argument('--allow-today', action='store_true', help='同じ日（日本時間）に答えた肢も復習に出す（本日2周目）')
     fc.add_argument('--prefer-subject', action='append', help='復習（要復習・チェック）をこの科目から先に出す（足りなければ他の科目で埋める）')
     fc.add_argument('--count', type=int, default=100)
     ex = sub.add_parser('exclude'); ex.add_argument('ids', nargs='+'); ex.add_argument('--undo', action='store_true')
