@@ -89,3 +89,4 @@
 | D0610・D1612 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-2_01_shinsa-seikyu-saki.md` |
 | D0507 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-2_02_kekkaku-3nen.md` |
 | D0408 | `note-articles/sokatsu-zukai/03-chousashi-hou/prompt_4koma_C1-3_01_choukai-hosho.md` |
+| D1083 | － | `D1083_prompt.md`（2026-10-13、ユーザー指示で作成。型5） |

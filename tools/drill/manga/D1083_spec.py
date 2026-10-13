@@ -1,0 +1,70 @@
+"""D1083 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-12）。
+H27-Q15エ（ＡがＢ所有の土地に使用借権を敷地利用権として区分建物を新築した場合には、Ａは、使用借権を敷地権として、区分建物の表題登記を申請することができる・×）。
+『登記できる敷地利用権（所有権・地上権・賃借権など）』と『使用借権（登記できない）』の対比に絞り、型5（整理カード併用）で敷地権になる3つの条件（法44条1項9号）を整理した。使用借権は敷地利用権ではあるが、登記できないので敷地権になれない。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1083", fid="D1083", topic="不動産登記法／区分建物・敷地権・共用部分", src="H27-Q15エ",
+    truth="×（誤った記述）",
+    miscon="区分建物の敷地を借りて建てたのだから、その使用借権も敷地権にできると考える（敷地権は敷地利用権のうち『登記されたもの』で、使用借権は登記できない権利であることを見落とす）",
+    article="note-articles/h27-mondai/q15-kubun-tatemono.md",
+    art_head="エ（使用借権は登記できないため、敷地権にはなれない）",
+    letters="ＡＢ",
+    design=[
+        "【出題者のひっかけ】問題文が『使用借権を敷地利用権として区分建物を新築した』と、使用借権が敷地利用権であることを先に述べる。敷地利用権なら敷地権にできる、という感覚に乗せ、敷地権になるには『登記されたもの』であることが必要で、使用借権は登記できない権利であることを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①敷地利用権と敷地権を同じものと考える。②敷地権の3つの条件（敷地利用権である・登記されている・専有部分と分離して処分できない）を、順に言えない。③登記できる権利が不動産登記法3条に列挙されており、使用貸借による使用借権が含まれないことを知らない。",
+        "【対比する制度】「登記できる敷地利用権」⇔「使用借権」：所有権・地上権・賃借権などは登記できるので、登記されれば敷地権になれる／使用借権は登記できない権利なので、敷地利用権であっても敷地権にはなれない（結論が逆になる点）。",
+        "【型の選び方】型：型5（整理カード併用。型1の思い込み・型3の理由説明と組み合わせ）。理由が『敷地権になる3つの条件のどれで止まるか』の整理なので、コマ3の右側は会話1往復と、法44条1項9号の3つの条件の整理カードにした。コマ1で思い込みを出し、コマ2で登記できる敷地利用権と使用借権を左右に並べた。",
+        "記事の範囲：H27-Q15エ（法44条1項9号、法3条）。敷地権は、敷地利用権のうち登記されたものであって、専有部分と分離して処分することができないもの。登記できる権利は法3条に列挙され、所有権・地上権・賃借権などが含まれるが、使用借権は含まれない（記事）。",
+        "登場人物：Ａ（借りた人）・Ｂ（土地の所有者）を、コマ1の図で顔なしの人型ピクトグラムとして紹介してから使う。全員同じ薄い灰青で、色分けしない。",
+        "矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える",
+        "構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない",
+        "コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①敷地権は、敷地利用権のうち登記されたものであって、専有部分と分離して処分することができないもの（法44条1項9号）②登記できる権利は法3条に列挙され、所有権・地上権・賃借権などは含まれるが、使用借権は含まれない③使用借権は敷地利用権でも登記できないので、敷地権になれない④肢D1083は『使用借権を敷地権として…申請することができる』なので×",
+    ],
+    extra_refs=[
+        "不動産登記法44条1項9号・3条は記事エの引用。法令DB（note-articles/laws/fudousan-touki-hou.md）と照合済み。法3条の列挙（所有権・地上権・永小作権・地役権・先取特権・質権・抵当権・賃借権・配偶者居住権・採石権）に使用借権はない",
+    ],
+    lead1="ＡはＢ所有の土地を無償で借り、その使用借権を敷地利用権として区分建物を新築しました。Ａは、使用借権を敷地権として、区分建物の表題登記を申請できるのでしょうか。",
+    title="使用借権は登記できないので、敷地権になれない", title_hl="敷地権になれない",
+    panels=[
+        dict(label="①　借りた土地なら、敷地権にできる？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "借りた土地に建てたなら、敷地権にできますよね？", None, "借りた土地に建てた\nなら、敷地権に\nできますよね？"),
+                      ("トリ先生", "出たわね。借り方の種類を見るのよ", "借り方の種類", "出たわね。\n借り方の種類を\n見るのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width. At the top, ONE row, left to right, of two faceless flat pictogram figures in exactly the same single light gray-blue color, side by side with small gaps, with dark navy tags 「Ａ」, 「Ｂ」 and, under each tag, a small caption: 「借りた人」, 「土地の所有者」. Below the row, two SEPARATE cards stacked from top to bottom, both the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line: 「Ｂの土地を、Ａが無償で借りた（使用貸借）」, 「Ａが、区分建物を新築した」. Do NOT draw any arrow anywhere in this panel and do NOT connect the shapes; they are separated only by small empty gaps.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「使用借権を敷地権として申請できる？」 (a question badge only, with no check mark and no cross).",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　登記できる敷地利用権と、使用借権", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「敷地を使う権利でも」 at the top left, with one line beside it: 「登記できるかで、敷地権になれるかが分かれる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.",
+                  "Left card, heading 「登記できる敷地利用権」, a small tag 「法3条」, two body lines: 「所有権・地上権・賃借権など」, 「登記されれば敷地権になれる」.",
+                  "Right card, heading 「使用借権」, two body lines: 「使用貸借による権利」, 「登記できない権利」.",
+                  "Under the two cards, one wide dark navy band with large white text 「この肢は、使用借権を敷地権にした」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　敷地権になる3つの条件", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "使用借権も、敷地利用権ですよね？", None, "使用借権も、\n敷地利用権ですよね？"),
+                      ("トリ先生", "そう。でも登記されなければ敷地権にならないの", "登記されなければ", "そう。でも登記されな\nければ敷地権に\nならないの")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「使用借権を敷地権として申請」, body 「登記できない権利は、敷地権になれない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「登記できる敷地利用権」, body 「登記されれば、敷地権になれる」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「敷地権になる3つの条件（法44条1項9号）」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「敷地利用権である」, 「登記されている」, 「専有部分と分離して処分できない」. The row 「登記されている」 is highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「使用借権は、登記で止まる」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×",
+             bubbles=[("藍子", "使用借権は、敷地権になれないんですね！", None, "使用借権は、\n敷地権になれない\nんですね！"),
+                      ("トリ先生", "そう。申請できると書けば×よ", "申請できると書けば×", "そう。申請できると\n書けば×よ")],
+             fig=[], checklist=["敷地権は、敷地利用権のうち登記されたもの（法44条1項9号）", "登記できる権利は法3条に列挙。使用借権は含まれない", "使用借権は敷地利用権でも、敷地権にはなれない"])
+    ],
+    band1="使用借権は登記できないので、敷地権になれない", band2="問題D1083　正解×（H27-Q15エ）",
+    ver="v01",
+    rev=["2026-10-12 v01：新規作成（型5（整理カード併用）。登記できる敷地利用権と使用借権の対比と、敷地権になる3つの条件（法44条1項9号）の整理に絞った）"],
+)
+
+HEADER = dict(h1="使用借権は", h2="敷地権になれる？", hkey="なれる？",
+              scene_l="an apartment building on a land plot with a small borrowed-land signboard, no text",
+              scene_r="a blank registry book with a pencil and a crossed-out small key icon, no text")
