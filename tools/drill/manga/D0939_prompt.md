@@ -1,17 +1,17 @@
-# D0939 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D0939 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
-- 肢：D0939（不動産登記法／土地の滅失・地図・地積測量図・土地所在図、出典 H26-Q06ウ）。正解＝×（誤った記述）。誤解合筆で土地の形が変わるので、以前の分筆のときの地積測量図は古くなって閉鎖されると考える（閉鎖事由が規則85条2項に限られることを見落とす）。
+- 肢：D0939（不動産登記法／土地の滅失・地図・地積測量図・土地所在図、出典 H26-Q06ウ）。正解＝×（誤った記述）。誤解合筆で土地の形が変わるので、以前の分筆のときの地積測量図は古くなって閉鎖されると考える（閉鎖事由が規則85条2項の3つに限られることを見落とす）。
 - 記事：`note-articles/h26-mondai/q06-chisekisokuryouzu-heisa.md` ウ（合筆の登記があっても、先行する分筆の登記の地積測量図は閉鎖されない）
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 
 ## 設計メモ（工程A）
 - 【出題者のひっかけ】問題文が『合筆の登記が平成26年8月19日にされたことにより』『平成18年3月15日にされた分筆の登記において登記所に備え付けられた地積測量図は閉鎖される』と、日付を並べる。合筆の登記があれば古い図面は閉鎖される、という感覚に乗せ、閉鎖事由が限られていることを見落とさせる。
-- 【受験者の勘違い・定着していない点】（推測）①土地の形や面積が変わると、古い図面は閉鎖されると考える。②閉鎖事由（規則85条2項）を条文どおりに覚えておらず、合筆が含まれないことに気づかない。③『変更後・更正後の図面がある変更・更正の登記』は閉鎖されるが、合筆はそれに当たらないことが結びついていない。
-- 【対比する制度】「地積測量図が閉鎖される場合」⇔「合筆の登記」（変更後・更正後の図面がある変更・更正の登記、滅失の登記・表題部の抹消、換地処分の登記と、閉鎖事由に含まれない合筆）：結論が逆になる点。
-- 【型の選び方】型：型3（理由説明）＋型1の思い込み。コマ1で2つの日付（分筆・合筆）を出し、コマ2で閉鎖事由と合筆を左右に並べ、コマ3で『閉鎖事由に合筆は入っていない』理由を上下のカードにした。
-- 記事の範囲：H26-Q06ウ（規則85条2項各号）。問題の前提の登記記録（157番など）は図に入れず、乙土地157番6と合筆された157番7、平成18年3月15日の分筆、平成26年8月19日の合筆だけを使う。逆の結論になる類似肢はD0937（図には入れない）。
-- 登場人物：人型は使わず、土地・図面は文字のカードで示す。
+- 【受験者の勘違い・定着していない点】（推測）①土地の形や面積が変わると、古い図面は閉鎖されると考える。②閉鎖事由（規則85条2項）の3つ（変更後・更正後の図面がある変更・更正の登記、滅失の登記・表題部の抹消、換地処分の登記）を言えない。③合筆の登記は、その3つに入らず、新しい地積測量図の提供も原則ないことが結びついていない。
+- 【対比する制度】「図面が閉鎖される登記」⇔「合筆の登記」：閉鎖されるのは規則85条2項の3つの場合だけ／合筆の登記はその中にない（結論が逆になる点）。
+- 【型の選び方】型：型5（整理カード併用。型3の理由説明・型1の思い込みと組み合わせ）。理由が『閉鎖事由の3つに入っているか』という列挙の記憶なので、コマ3の右側は会話1往復と、閉鎖される3つの場合の整理カードにした。コマ1で2つの日付（分筆・合筆）を出し、コマ2で閉鎖される登記と合筆の登記を左右に並べた。
+- 記事の範囲：H26-Q06ウ（規則85条2項各号）。問題の前提の登記記録（157番など）は図に入れず、乙土地157番6と合筆された157番7、平成18年3月15日の分筆、平成26年8月19日の合筆だけを使う。『合筆の登記には新しい地積測量図の提供も原則ない』は、令別表の合筆の登記の添付情報が地役権の登記がある承役地の場合だけであることによる整理で、記事にはない（図ではコマ2に『新しい図面の提供もない』と書く。ユーザーに伝える）。
+- 登場人物：人型は使わず、土地・図面は文字のカードで示す。逆の結論になる類似肢D0937・D0938は図に入れない。
 - 矢印の意味：矢印は使わない。コマ1は図（カード）、コマ2は左右のカード、コマ3は上下のカード。
 - 配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。
 - コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話4つの縦並び）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。
@@ -37,25 +37,24 @@
 | コマ1 図 | 図・カード | 平成18年3月15日　分筆（地積測量図を備え付け） / 平成26年8月19日　157番7を合筆 / 先の分筆の地積測量図は、どうなる？ / 地積測量図は、閉鎖される？ | — |
 | コマ1 | 藍子（左・先に話す） | 合筆したら、古い図面は閉鎖されますよね？ | — |
 | コマ1 | トリ先生（右・答える） | 閉鎖事由を思い出しなさい | 「閉鎖事由」 |
-| コマ2 見出し | ラベル | ②　閉鎖される場合と、合筆 | — |
-| コマ2 図 | 図・カード | 地積測量図が閉鎖される場合は、限られる / 合筆の登記は、その中に入っているか / 地積測量図が閉鎖される場合 / 規則85条2項 / 変更後・更正後の図面がある変更・更正の登記 / 滅失の登記・表題部の抹消 / 換地処分の登記 / 合筆の登記 / 閉鎖事由に入っていない / だから、閉鎖されない / この肢は、合筆の登記 | — |
-| コマ3 見出し | ラベル | ③　なぜ、閉鎖されない？ | — |
-| コマ3 図 | 図・カード | 合筆の登記 / 閉鎖事由に入っていない。先の分筆の地積測量図は閉鎖されない / 変更後・更正後の図面がある登記など / 閉鎖事由。古い地積測量図は閉鎖される | — |
-| コマ3 | 藍子（左・1番目） | なぜ、合筆では閉鎖されませんか？ | — |
-| コマ3 | トリ先生（右・2番目） | 閉鎖事由に、合筆は入っていないの | 「合筆は入っていない」 |
-| コマ3 | 藍子（左・3番目） | 閉鎖されるのは、どんなときですか？ | — |
-| コマ3 | トリ先生（右・4番目） | 変更後の図面がある変更や更正などよ | 「変更後の図面」 |
+| コマ2 見出し | ラベル | ②　閉鎖される登記と、合筆 | — |
+| コマ2 図 | 図・カード | 地積測量図が閉鎖されるのは / 限られた場合だけ / 図面が閉鎖される登記 / 規則85条2項 / 閉鎖事由は3つだけ / （変更後の図面がある場合など） / 合筆の登記 / 3つの中にない / 新しい図面の提供もない / この肢は、合筆の登記 | — |
+| コマ3 見出し | ラベル | ③　閉鎖される3つの場合 | — |
+| コマ3 図 | 図・カード | 合筆で、先の図面は閉鎖される / 合筆は閉鎖事由にない。図面はそのまま / 閉鎖事由に当たる登記 / 古い地積測量図が閉鎖される / 地積測量図が閉鎖される場合（規則85条2項） / 表題部の変更・更正の登記（変更後の図面あり） / 滅失の登記・表題部の抹消 / 換地処分の登記 / 合筆の登記は、この中にない / 合筆の登記 | — |
+| コマ3 | 藍子（左・1番目） | 合筆も、土地が変わりますよね？ | — |
+| コマ3 | トリ先生（右・2番目） | 変わっても、閉鎖事由は3つだけなの | 「3つだけ」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 合筆では、先の図面は閉鎖されないんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そう。閉鎖されると書けば×よ | 「閉鎖されると書けば×」 |
-| コマ4 チェック欄 | 3項目（青✓） | 地積測量図の閉鎖事由は、規則85条2項各号に限られる / 合筆の登記は閉鎖事由に含まれない / 先の分筆のときの地積測量図は、合筆でも閉鎖されない | — |
+| コマ4 チェック欄 | 3項目（青✓） | 地積測量図の閉鎖事由は、規則85条2項の3つだけ / 合筆の登記は、その3つの中にない / 先の分筆のときの地積測量図は、合筆でも閉鎖されない | — |
 | 結論帯 | 1行目 | 合筆では、先の分筆の地積測量図は閉鎖されない | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D0939　正解×（H26-Q06ウ） | — |
 
 ## 記事に無い条文（ユーザー指示で追加）
 
-- 不動産登記規則85条2項の文言は、記事ウに引用された内容（変更後・更正後の図面がある変更・更正の登記、滅失の登記・表題部の抹消、換地処分の登記）を図にそろえた。法令DB（note-articles/laws/）と照合済み
+- 不動産登記規則85条2項の3つの文言（法令DB note-articles/laws/fudousan-touki-kisoku-1.md 第八十五条2項）：一 表題部の登記事項に関する変更の登記又は更正の登記をした場合（変更後又は更正後の土地所在図、地積測量図、建物図面又は各階平面図がある場合に限る。）二 滅失の登記又は表題部の抹消をした場合 三 土地改良法又は土地区画整理法に基づく換地処分の登記をした場合（前号の場合を除く。）。記事ウの引用と一致
+- 『合筆の登記には新しい地積測量図の提供も原則ない』：令別表（法令DB fudousan-touki-rei-betsuhyou.md）の合筆の登記の添付情報は、地役権の登記がある承役地で地役権設定の範囲が合筆後の土地の一部であるときの情報だけで、地積測量図は掲げられていない。記事には書かれていない整理
 
 ## プロンプト本体
 
@@ -103,30 +102,28 @@ PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each abo
 思い出しなさい」 with the part 「閉鎖事由」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
-- Label tab: 「②　閉鎖される場合と、合筆」
-- A small dark navy tag 「地積測量図が閉鎖される場合は、限られる」 at the top left, with one line beside it: 「合筆の登記は、その中に入っているか」.
-- Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.
-- Left card, heading 「地積測量図が閉鎖される場合」, a small tag 「規則85条2項」, three body lines: 「変更後・更正後の図面がある変更・更正の登記」, 「滅失の登記・表題部の抹消」, 「換地処分の登記」.
-- Right card, heading 「合筆の登記」, two body lines: 「閉鎖事由に入っていない」, 「だから、閉鎖されない」.
+- Label tab: 「②　閉鎖される登記と、合筆」
+- A small dark navy tag 「地積測量図が閉鎖されるのは」 at the top left, with one line beside it: 「限られた場合だけ」.
+- Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.
+- Left card, heading 「図面が閉鎖される登記」, a small tag 「規則85条2項」, two body lines: 「閉鎖事由は3つだけ」, 「（変更後の図面がある場合など）」.
+- Right card, heading 「合筆の登記」, two body lines: 「3つの中にない」, 「新しい図面の提供もない」.
 - Under the two cards, one wide dark navy band with large white text 「この肢は、合筆の登記」.
 - The two cards have clearly different texts; the texts are NOT identical.
 
 PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
-- Label tab: 「③　なぜ、閉鎖されない？」
-- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
+- Label tab: 「③　閉鎖される3つの場合」
+- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 2 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 120 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 2 face icons and exactly 2 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
-- Two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
-- Top card, heading 「合筆の登記」, body 「閉鎖事由に入っていない。先の分筆の地積測量図は閉鎖されない」, and ONE red cross only at the bottom of this card (no check mark on this card).
-- Bottom card, heading 「変更後・更正後の図面がある登記など」, body 「閉鎖事由。古い地積測量図は閉鎖される」, and ONE blue check mark only at the bottom of this card (no cross on this card).
-- The two cards have clearly different texts; the texts are NOT identical.
-- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「なぜ、合筆では
-閉鎖されませんか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「閉鎖事由に、
-合筆は入っていないの」 with the part 「合筆は入っていない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「閉鎖されるのは、
-どんなときですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「変更後の図面がある
-変更や更正などよ」 with the part 「変更後の図面」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
+- Top card, heading 「合筆で、先の図面は閉鎖される」, body 「合筆は閉鎖事由にない。図面はそのまま」, and ONE red cross only at the bottom of this card (no check mark on this card).
+- Bottom card, heading 「閉鎖事由に当たる登記」, body 「古い地積測量図が閉鎖される」, and ONE blue check mark only at the bottom of this card (no cross on this card).
+- RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「地積測量図が閉鎖される場合（規則85条2項）」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「表題部の変更・更正の登記（変更後の図面あり）」, 「滅失の登記・表題部の抹消」, 「換地処分の登記」. Under the three rows, one small dark navy ribbon tag with white text 「合筆の登記は、この中にない」, with the text 「合筆の登記」 highlighted with a yellow marker.
+- The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, row 1 of 2 in the conversation column; face icon at the LEFT end of its own row): 「合筆も、
+土地が変わりますよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 2 in the conversation column; face icon at the RIGHT end of its own row): 「変わっても、
+閉鎖事由は
+3つだけなの」 with the part 「3つだけ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
@@ -135,7 +132,7 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both han
 んですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そう。閉鎖されると
 書けば×よ」 with the part 「閉鎖されると書けば×」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「地積測量図の閉鎖事由は、規則85条2項各号に限られる」, 「合筆の登記は閉鎖事由に含まれない」, 「先の分筆のときの地積測量図は、合筆でも閉鎖されない」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「地積測量図の閉鎖事由は、規則85条2項の3つだけ」, 「合筆の登記は、その3つの中にない」, 「先の分筆のときの地積測量図は、合筆でも閉鎖されない」.
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「合筆では、先の分筆の地積測量図は閉鎖されない」 with a yellow highlighter marker.
@@ -143,7 +140,7 @@ CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark
 
 EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
 
-Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 号, 地, 番, 登, 肢, 規, 解, 記 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 地, 当, 番, 登, 肢, 規, 解, 記 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 2 face icons and exactly 2 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
 ```
 
 ## 見出し画像プロンプト（苦手分析シリーズと同じ構成・背景は水彩の空）
@@ -213,7 +210,7 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 - [ ] 工程C：初見の読者：コマ1で問いの場面、コマ2で結論が分かれる2つの場面の対比、コマ3で理由、が言える
 - [ ] 工程C：構成表の全文言を記事・法令DBと突き合わせ済み。出題当時と今の言い方の違いは入れていない
 - [ ] 工程C：コマ1・2に印がなく、コマ3は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓の暗記3点。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない
-- [ ] 工程C：肝の確認：①地積測量図の閉鎖事由は規則85条2項各号に限られる（変更後・更正後の図面がある変更・更正の登記、滅失の登記・表題部の抹消、換地処分の登記）②合筆の登記は閉鎖事由に含まれない③肢D0939は『閉鎖される』なので×
+- [ ] 工程C：肝の確認：①地積測量図の閉鎖事由は規則85条2項各号の3つだけ（表題部の変更・更正の登記〔変更後・更正後の図面がある場合に限る〕、滅失の登記・表題部の抹消、換地処分の登記）②合筆の登記はその中にない③肢D0939は『閉鎖される』なので×
 
 ## 生成後の照合チェック（文言の正本は上の構成表）
 - [ ] 4コマ縦一列／タイトル帯・結論帯あり
@@ -230,3 +227,4 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
 - 2026-10-12 v01：新規作成（型3の理由説明＋型1の思い込み。閉鎖事由（規則85条2項）と合筆の対比に絞った）
+- 2026-10-13 v02：ユーザーの再依頼。型5（整理カード併用）に作り直した。コマ2は『図面が閉鎖される登記（3つだけ）⇔合筆の登記（3つの中にない・新しい図面の提供もない）』に簡単にし、コマ3の右側を会話1往復と、閉鎖される3つの場合の整理カード（合筆の登記を黄色マーカーのリボンで示す）にした。左は✕✓の2枚。『新しい図面の提供もない』は令別表の整理で記事にない（ユーザーに伝える）
