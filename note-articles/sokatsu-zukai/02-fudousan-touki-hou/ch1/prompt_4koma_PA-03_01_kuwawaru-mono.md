@@ -2,7 +2,7 @@
 
 > **このファイルについて**
 >
-> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」第1章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch1.md`）の、論点【PA-3】に差し込む4コマのプロンプトです。単独のnote記事にする場合の節（記事タイトル・冒頭文・見出し画像）は外してあり、生成元は `src/spec_4koma_PA-3_01.py` です。
+> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」第1章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch1.md`）の、論点【PA-3】に差し込む4コマのプロンプトです。単独のnote記事にする場合の節（記事タイトル・冒頭文・見出し画像）は外してあり、生成元は `src/spec_4koma_PA-03_01.py` です。
 > - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（`tools/drill/manga/`）に従い、生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-13）。
 > - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。
 
@@ -140,13 +140,13 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 ## 保存名
 
-- 4コマ（採用版）：`不登法編1_4コマ1_加わる者がいる更正は、証明の書類が要る.png`
-- 途中の版・不採用の版：`不登法編1_4コマ1_加わる者がいる更正は、証明の書類が要る_v01.png`
+- 4コマ（採用版）：`不登法編1_4コマ3_加わる者がいる更正は、証明の書類が要る.png`
+- 途中の版・不採用の版：`不登法編1_4コマ3_加わる者がいる更正は、証明の書類が要る_v01.png`
 
 ## 作成時の品質ゲート（`MANGA_RULES.md`の工程A〜C）
 - [x] 一発合格ルール（`MANGA_RULES.md`の「一発合格のための作成ルール」）適用済み
 - [x] 4コマの目的（最優先。`MANGA_RULES.md`）適用済み：設計メモに【出題者のひっかけ】【受験者の勘違い・定着していない点】【対比する制度】の3行を書いた
-- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py note-articles/sokatsu-zukai/02-fudousan-touki-hou/ch1/prompt_4koma_PA-3_01_kuwawaru-mono.md` が NG 0件
+- [ ] 工程B：`python3 tools/drill/manga/check_prompt.py note-articles/sokatsu-zukai/02-fudousan-touki-hou/ch1/prompt_4koma_PA-03_01_kuwawaru-mono.md` が NG 0件
 - [ ] 工程C：初見の読者：コマ1で2つの肢が『加わる者がいる更正』であること、コマ2で持分だけの更正との対比、コマ3で添付情報3つが言える
 - [ ] 工程C：構成表の全文言を記事（H27-Q05エ、H21-Q08イ）・法令DBと突き合わせ済み。承諾は『記録から外れる者』の分だけを書き、D0447（加わるだけ）の承諾は断定していない
 - [ ] 工程C：コマ1・2に印がなく、コマ3の左は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない
@@ -164,6 +164,6 @@ Final check before rendering: confirm there are exactly four panels in one verti
 - [ ] 図の部品（人物・バー・領域・タグ）の色が指定どおり（意味のない青・赤・緑・ピンクがない）。人物の頭の上に余計な印がない
 - [ ] 台詞の綴りが一字一句正本どおり（特に「原則」「まとめて」など崩れやすい語）
 
-## 改訂履歴（このファイルは `src/spec_4koma_PA-3_01.py` から `src/build_4koma.py` で生成。直すときは設計データを直して再生成する）
+## 改訂履歴（このファイルは `src/spec_4koma_PA-03_01.py` から `src/build_4koma.py` で生成。直すときは設計データを直して再生成する）
 
 - 2026-10-13 v01：新規作成（総合記事②不動産登記法編 第1章【PA-3】用。型5（整理カード併用）。加わる者がいる更正の添付情報3つを整理し、持分だけの更正との対比を置いた）

@@ -16,7 +16,7 @@
 ## 図解・4コマ・見出し画像のプロンプト
 
 - 土地家屋調査士法編（`sokatsu-03-chousashi-hou.md`）：`note-articles/sokatsu-zukai/03-chousashi-hou/`（2026-10-13。論点【C1-1】〜【C1-3】ごとに、図解インフォグラフィック10枚・4コマ5本・見出し画像1枚のプロンプト。既存の4コマ4本の再利用先も README に記載。画像は未生成）。
-- 不動産登記法編（`sokatsu-02-fudousan-touki-hou-ch1〜ch9.md`）：`note-articles/sokatsu-zukai/02-fudousan-touki-hou/`（2026-10-13。章ごと〈ch1〜ch9〉に、図解インフォグラフィック133枚・4コマ新作54本・見出し画像9枚のプロンプト。各章の最優先肢は新作または既存の4コマでカバー。画像は未生成）。
+- 不動産登記法編（`sokatsu-02-fudousan-touki-hou-ch1〜ch9.md`）：`note-articles/sokatsu-zukai/02-fudousan-touki-hou/`（2026-10-13。章ごと〈ch1〜ch9〉に、図解インフォグラフィック133枚・4コマ新作60本・見出し画像9枚のプロンプト。各章の最優先肢は新作または既存の4コマでカバー。画像は未生成）。
 
 ## 取り扱いの注意
 
