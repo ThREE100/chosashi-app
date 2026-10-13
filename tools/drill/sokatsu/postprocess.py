@@ -119,6 +119,10 @@ def reflow(text):
             out.append(f'{n}. {t}'); continue
         if ln.startswith('>'):
             out.append(ln); continue
+        if re.match(r'^【[A-Z0-9]+-\d+】', ln) and '、【' in ln and ln.endswith('肢）'):
+            blank()
+            for it in re.split(r'、(?=【)', ln.strip()): out.append(f'- {it}')
+            blank(); continue
         emit_para(ln.strip())
     # 連続する空行をまとめる
     res = []
