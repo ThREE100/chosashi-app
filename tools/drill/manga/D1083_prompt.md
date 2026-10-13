@@ -1,4 +1,4 @@
-# D1083 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
+# D1083 4コマ解説図解 プロンプト（ChatGPT貼付用・v02）
 
 - 肢：D1083（不動産登記法／区分建物・敷地権・共用部分、出典 H27-Q15エ）。正解＝×（誤った記述）。誤解区分建物の敷地を借りて建てたのだから、その使用借権も敷地権にできると考える（敷地権は敷地利用権のうち『登記されたもの』で、使用借権は登記できない権利であることを見落とす）。
 - 記事：`note-articles/h27-mondai/q15-kubun-tatemono.md` エ（使用借権は登記できないため、敷地権にはなれない）
@@ -38,16 +38,16 @@
 | コマ1 | 藍子（左・先に話す） | 借りた土地に建てたなら、敷地権にできますよね？ | — |
 | コマ1 | トリ先生（右・答える） | 出たわね。借り方の種類を見るのよ | 「借り方の種類」 |
 | コマ2 見出し | ラベル | ②　登記できる敷地利用権と、使用借権 | — |
-| コマ2 図 | 図・カード | 敷地を使う権利でも / 登記できるかで、敷地権になれるかが分かれる / 登記できる敷地利用権 / 法3条 / 所有権・地上権・賃借権など / 登記されれば敷地権になれる / 使用借権 / 使用貸借による権利 / 登記できない権利 / この肢は、使用借権を敷地権にした | — |
+| コマ2 図 | 図・カード | 敷地を使う権利でも / 登記できるかで、敷地権になれるかが分かれる / 登記できる敷地利用権 / 法3条 / 所有権・地上権・賃借権など / 登記でき、敷地権になる余地がある / 使用借権 / 使用貸借による権利 / 登記できない権利 / この肢は、使用借権を敷地権にした | — |
 | コマ3 見出し | ラベル | ③　敷地権になる3つの条件 | — |
-| コマ3 図 | 図・カード | 使用借権を敷地権として申請 / 登記できない権利は、敷地権になれない / 登記できる敷地利用権 / 登記されれば、敷地権になれる / 敷地権になる3つの条件（法44条1項9号） / 敷地利用権である / 登記されている / 専有部分と分離して処分できない / 使用借権は、登記で止まる | — |
+| コマ3 図 | 図・カード | 使用借権を敷地権として申請 / 登記できない権利は、敷地権になれない / 登記できる敷地利用権 / 登記され、分離処分できないものが敷地権 / 敷地権になる3つの条件（法44条1項9号） / 敷地利用権である / 登記されている / 専有部分と分離して処分できない / 使用借権は、登記で止まる | — |
 | コマ3 | 藍子（左・1番目） | 使用借権も、敷地利用権ですよね？ | — |
-| コマ3 | トリ先生（右・2番目） | そう。でも登記されなければ敷地権にならないの | 「登記されなければ」 |
+| コマ3 | トリ先生（右・2番目） | そう。でも登記できない権利は敷地権にならないの | 「登記できない権利」 |
 | コマ4 見出し | ラベル | ④　結論は× | — |
 | コマ4 図 | 図・カード |  | — |
 | コマ4 | 藍子（左・先に話す） | 使用借権は、敷地権になれないんですね！ | — |
 | コマ4 | トリ先生（右・答える） | そう。申請できると書けば×よ | 「申請できると書けば×」 |
-| コマ4 チェック欄 | 3項目（青✓） | 敷地権は、敷地利用権のうち登記されたもの（法44条1項9号） / 登記できる権利は法3条に列挙。使用借権は含まれない / 使用借権は敷地利用権でも、敷地権にはなれない | — |
+| コマ4 チェック欄 | 3項目（青✓） | 敷地権＝登記された敷地利用権で、分離処分できないもの（法44条1項9号） / 登記できる権利は法3条に列挙。使用借権は含まれない / 使用借権は敷地利用権でも、敷地権にはなれない | — |
 | 結論帯 | 1行目 | 使用借権は登記できないので、敷地権になれない | 黄色マーカー |
 | 結論帯 | 2行目 | 問題D1083　正解×（H27-Q15エ） | — |
 
@@ -104,7 +104,7 @@ PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a ful
 - Label tab: 「②　登記できる敷地利用権と、使用借権」
 - A small dark navy tag 「敷地を使う権利でも」 at the top left, with one line beside it: 「登記できるかで、敷地権になれるかが分かれる」.
 - Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross. Both headings and all body text use one single dark navy color, with emphasis only by a yellow marker.
-- Left card, heading 「登記できる敷地利用権」, a small tag 「法3条」, two body lines: 「所有権・地上権・賃借権など」, 「登記されれば敷地権になれる」.
+- Left card, heading 「登記できる敷地利用権」, a small tag 「法3条」, two body lines: 「所有権・地上権・賃借権など」, 「登記でき、敷地権になる余地がある」.
 - Right card, heading 「使用借権」, two body lines: 「使用貸借による権利」, 「登記できない権利」.
 - Under the two cards, one wide dark navy band with large white text 「この肢は、使用借権を敷地権にした」.
 - The two cards have clearly different texts; the texts are NOT identical.
@@ -115,14 +115,14 @@ PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small ro
 - IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
 - LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
 - Top card, heading 「使用借権を敷地権として申請」, body 「登記できない権利は、敷地権になれない」, and ONE red cross only at the bottom of this card (no check mark on this card).
-- Bottom card, heading 「登記できる敷地利用権」, body 「登記されれば、敷地権になれる」, and ONE blue check mark only at the bottom of this card (no cross on this card).
+- Bottom card, heading 「登記できる敷地利用権」, body 「登記され、分離処分できないものが敷地権」, and ONE blue check mark only at the bottom of this card (no cross on this card).
 - RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「敷地権になる3つの条件（法44条1項9号）」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots, so that they cannot be confused with the circled panel numbers), with no arrow and no check mark and no cross: 「敷地利用権である」, 「登記されている」, 「専有部分と分離して処分できない」. The row 「登記されている」 is highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「使用借権は、登記で止まる」.
 - The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical.
 - 藍子 bubble (left, row 1 of 2 in the conversation column; face icon at the LEFT end of its own row): 「使用借権も、
 敷地利用権ですよね？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- トリ先生 bubble (right, row 2 of 2 in the conversation column; face icon at the RIGHT end of its own row): 「そう。でも登記されな
-ければ敷地権に
-ならないの」 with the part 「登記されなければ」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 2 in the conversation column; face icon at the RIGHT end of its own row): 「そう。でも登記できない
+権利は敷地権に
+ならないの」 with the part 「登記できない権利」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 
 PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
 - Label tab: 「④　結論は×」
@@ -131,7 +131,7 @@ PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both han
 んですね！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
 - トリ先生 bubble (right, spoken as the answer): 「そう。申請できると
 書けば×よ」 with the part 「申請できると書けば×」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
-- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「敷地権は、敷地利用権のうち登記されたもの（法44条1項9号）」, 「登記できる権利は法3条に列挙。使用借権は含まれない」, 「使用借権は敷地利用権でも、敷地権にはなれない」.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「敷地権＝登記された敷地利用権で、分離処分できないもの（法44条1項9号）」, 「登記できる権利は法3条に列挙。使用借権は含まれない」, 「使用借権は敷地利用権でも、敷地権にはなれない」.
 
 CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
 - Line 1: 「使用借権は登記できないので、敷地権になれない」 with a yellow highlighter marker.
@@ -225,4 +225,5 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 ## 改訂履歴（このファイルは `manga_specs.py` から生成。直すときは設計データを直して再生成する）
 
-- 2026-10-12 v01：新規作成（型5（整理カード併用）。登記できる敷地利用権と使用借権の対比と、敷地権になる3つの条件（法44条1項9号）の整理に絞った）
+- 2026-10-13 v01：新規作成（型5。登記できる敷地利用権と使用借権の対比と、敷地権になる3つの条件の整理）
+- 2026-10-13 v01の画像を内容・論理の面で検品（ユーザー指示）：画像の文字・配置は構成表と一致。内容の修正点3つ：①『登記されれば敷地権になれる』は条件の1つ（登記）だけを言っていて、3つ目（専有部分と分離して処分できない）が抜けていた→『登記でき、敷地権になる余地がある』『登記され、分離処分できないものが敷地権』に直した。②会話の『登記されなければ敷地権にならない』は、使用借権はそもそも登記できないという論理とずれる→『登記できない権利は敷地権にならない』に直した。③コマ4のチェック1が条件の2つしか書いていなかった→『登記された敷地利用権で、分離処分できないもの』に直した。法44条1項9号の定義（区分所有法2条6項の敷地利用権で登記されたもの、22条1項本文により分離処分できないもの）は法令DBで確認
