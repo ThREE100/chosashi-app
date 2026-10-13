@@ -216,12 +216,12 @@ META = [
 ]
 FILES = {
     "00_zentai": ("prompt_infographic_00_zentai.md", "全体（章の冒頭）"),
-    "PF1-1": ("prompt_infographic_PF1-1.md", "【PF1-1】合併の登記ができないのはどんな場合か（法第56条）"),
-    "PF1-2": ("prompt_infographic_PF1-2.md", "【PF1-2】抵当権・賃借権などの登記があるとき合併できるか（法第56条第5号・規則第131条）"),
-    "PF1-3": ("prompt_infographic_PF1-3.md", "【PF1-3】区分建物の合併（区分合併）にはどんな要件があるか"),
-    "PF1-4": ("prompt_infographic_PF1-4.md", "【PF1-4】分棟・分割の登記と、一の申請情報でまとめられる組合せ"),
-    "PF1-5": ("prompt_infographic_PF1-5.md", "【PF1-5】分割の登記で、登記記録にはどう記録され、抵当権はどうなるか"),
-    "PF1-6": ("prompt_infographic_PF1-6.md", "【PF1-6】合併の添付情報・登記識別情報・登録免許税"),
+    "PF1-1": ("prompt_infographic_PF1-01.md", "【PF1-1】合併の登記ができないのはどんな場合か（法第56条）"),
+    "PF1-2": ("prompt_infographic_PF1-02.md", "【PF1-2】抵当権・賃借権などの登記があるとき合併できるか（法第56条第5号・規則第131条）"),
+    "PF1-3": ("prompt_infographic_PF1-03.md", "【PF1-3】区分建物の合併（区分合併）にはどんな要件があるか"),
+    "PF1-4": ("prompt_infographic_PF1-04.md", "【PF1-4】分棟・分割の登記と、一の申請情報でまとめられる組合せ"),
+    "PF1-5": ("prompt_infographic_PF1-05.md", "【PF1-5】分割の登記で、登記記録にはどう記録され、抵当権はどうなるか"),
+    "PF1-6": ("prompt_infographic_PF1-06.md", "【PF1-6】合併の添付情報・登記識別情報・登録免許税"),
 }
 
 def build_doc(key):

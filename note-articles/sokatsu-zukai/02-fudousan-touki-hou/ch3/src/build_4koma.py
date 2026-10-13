@@ -14,12 +14,14 @@ from specs_4koma import SPECS
 
 OUT = HERE.parent
 NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
-    "D1433-D1847": ("prompt_4koma_PC-1_01_zasshuchi-youto.md", "不登法第3章_4コマ1"),
-    "D1544-D0689-D1546": ("prompt_4koma_PC-2_01_chimoku-henkou-meigi.md", "不登法第3章_4コマ2"),
-    "D0190-D1265-D2019-D1495": ("prompt_4koma_PC-6_01_chizu-teisei-moushide.md", "不登法第3章_4コマ3"),
-    "D0752-D1047": ("prompt_4koma_PC-8_01_zumen-teisei-koushin.md", "不登法第3章_4コマ4"),
-    "D1159-D2046": ("prompt_4koma_PC-9_01_kiroku-shoryaku.md", "不登法第3章_4コマ5"),
-    "D0371-D1801": ("prompt_4koma_PC-12_01_kyakka-shinsa-seikyu.md", "不登法第3章_4コマ6"),
+    "D1433-D1847": ("prompt_4koma_PC-01_01_zasshuchi-youto.md", "不登法第3章_4コマ1"),
+    "D1544-D0689-D1546": ("prompt_4koma_PC-02_01_chimoku-henkou-meigi.md", "不登法第3章_4コマ2"),
+    "D1268-D1270-D0738": ("prompt_4koma_PC-04_01_kaibotsu-kasen.md", "不登法第3章_4コマ3"),
+    "D0190-D1265-D2019-D1495": ("prompt_4koma_PC-06_01_chizu-teisei-moushide.md", "不登法第3章_4コマ4"),
+    "D0752-D1047": ("prompt_4koma_PC-08_01_zumen-teisei-koushin.md", "不登法第3章_4コマ5"),
+    "D1159-D2046": ("prompt_4koma_PC-09_01_kiroku-shoryaku.md", "不登法第3章_4コマ6"),
+    "D0487-D0488": ("prompt_4koma_PC-10_01_kouzu-enkaku.md", "不登法第3章_4コマ7"),
+    "D0371-D1801": ("prompt_4koma_PC-12_01_kyakka-shinsa-seikyu.md", "不登法第3章_4コマ8"),
 }
 
 def cut(text, head):
@@ -33,7 +35,7 @@ def embed(text, sp, fname, savebase):
     body = lines[1]
     note = (
         "\n> **このファイルについて**\n>\n"
-        "> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」の第3章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch3.md`）の、論点【" + sp["_stem"].split("_")[2] + "】に差し込む4コマのプロンプトです。"
+        "> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」の第3章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch3.md`）の、論点【" + re.sub(r"(P[A-G]\d?)-0(\d)", r"\1-\2", sp["_stem"].split("_")[2]) + "】に差し込む4コマのプロンプトです。"
         "単独のnote記事にする場合の節（記事タイトル・冒頭文・見出し画像）は外してあり、生成元は `src/" + sp["_stem"] + ".py` です。\n"
         "> - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（`tools/drill/manga/`）に従い、生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-13）。\n"
         "> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。\n")

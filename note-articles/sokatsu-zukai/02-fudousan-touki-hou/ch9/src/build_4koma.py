@@ -15,12 +15,12 @@ from specs_4koma import SPECS
 OUT = HERE.parent
 REL = "note-articles/sokatsu-zukai/02-fudousan-touki-hou/ch9"
 NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
-    "D1080": ("prompt_4koma_PG2-1_01_kubun-gappei-setsuzoku.md", "不登法編ch9_4コマ1"),
-    "D0584": ("prompt_4koma_PG2-1_02_kubun-teitouken-tenshya.md", "不登法編ch9_4コマ2"),
-    "D1794-D1181": ("prompt_4koma_PG2-2_01_souzokunin-hyoudai-shinsei.md", "不登法編ch9_4コマ3"),
-    "D1279": ("prompt_4koma_PG2-3_01_gattai-shinseinin.md", "不登法編ch9_4コマ4"),
-    "D0886": ("prompt_4koma_PG2-4_01_meiginin-gimu.md", "不登法編ch9_4コマ5"),
-    "D1700-D1701": ("prompt_4koma_PG2-5_01_kyouyoubu-shinseinin-kiyaku.md", "不登法編ch9_4コマ6"),
+    "D1080": ("prompt_4koma_PG2-01_01_kubun-gappei-setsuzoku.md", "不登法編ch9_4コマ1"),
+    "D0584": ("prompt_4koma_PG2-01_02_kubun-teitouken-tenshya.md", "不登法編ch9_4コマ2"),
+    "D1794-D1181": ("prompt_4koma_PG2-02_01_souzokunin-hyoudai-shinsei.md", "不登法編ch9_4コマ3"),
+    "D1279": ("prompt_4koma_PG2-03_01_gattai-shinseinin.md", "不登法編ch9_4コマ4"),
+    "D0886": ("prompt_4koma_PG2-04_01_meiginin-gimu.md", "不登法編ch9_4コマ5"),
+    "D1700-D1701": ("prompt_4koma_PG2-05_01_kyouyoubu-shinseinin-kiyaku.md", "不登法編ch9_4コマ6"),
 }
 
 def cut(text, head):
@@ -34,7 +34,7 @@ def embed(text, sp, fname, savebase):
     body = lines[1]
     note = (
         "\n> **このファイルについて**\n>\n"
-        "> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」第9章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch9.md`）の、論点【" + sp["_stem"].split("_")[2] + "】に差し込む4コマのプロンプトです。"
+        "> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」第9章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch9.md`）の、論点【" + re.sub(r"(P[A-G]\d?)-0(\d)", r"\1-\2", sp["_stem"].split("_")[2]) + "】に差し込む4コマのプロンプトです。"
         "単独のnote記事にする場合の節（記事タイトル・冒頭文・見出し画像）は外してあり、生成元は `src/" + sp["_stem"] + ".py` です。\n"
         "> - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（`tools/drill/manga/`）に従い、生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-13）。\n"
         "> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。\n")

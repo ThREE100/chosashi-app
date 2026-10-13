@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""総合記事②不動産登記法編 第5章の4コマ6本：設計データ（spec_4koma_PE-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
+"""総合記事②不動産登記法編 第5章の4コマ9本：設計データ（spec_4koma_PE-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
 使い方: python3 note-articles/sokatsu-zukai/03-chousashi-hou/src/build_4koma.py [--check-only | --verify-sync]
 - 生成器は tools/drill/manga/gen_prompts.py の render()。一時フォルダに <fid>_prompt.md（単独記事用の節つき）を作って check_prompt.py を通し、
   NG 0件・WARN 0件のときだけ、総合記事に差し込む体裁（記事タイトル・冒頭文・見出し画像・画像ファイル名の節を外し、保存名を足した版）を ../prompt_4koma_*.md に書く。
@@ -14,12 +14,15 @@ from specs_4koma import SPECS
 
 OUT = HERE.parent
 NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
-    "D1454-D0784": ("prompt_4koma_PE-2_01_kosuu-suto-hitotou.md", "不動産登記法編⑤_4コマ1"),
-    "D2058-D0783": ("prompt_4koma_PE-3_01_ikkaku-senyuububun.md", "不動産登記法編⑤_4コマ2"),
-    "D1162": ("prompt_4koma_PE-4_01_ishitsu-no-ichibu.md", "不動産登記法編⑤_4コマ3"),
-    "D1778-D1382-D0979": ("prompt_4koma_PE-6_01_fuzoku-tatemono-hyouji.md", "不動産登記法編⑤_4コマ4"),
-    "D1473-D1474": ("prompt_4koma_PE-7_01_hozon-sakugo-massho.md", "不動産登記法編⑤_4コマ5"),
-    "D0674-D0675": ("prompt_4koma_PE-11_01_messhitsu-no-toki.md", "不動産登記法編⑤_4コマ6"),
+    "D1454-D0784": ("prompt_4koma_PE-02_01_kosuu-suto-hitotou.md", "不動産登記法編⑤_4コマ1"),
+    "D2058-D0783": ("prompt_4koma_PE-03_01_ikkaku-senyuububun.md", "不動産登記法編⑤_4コマ2"),
+    "D1162": ("prompt_4koma_PE-04_01_ishitsu-no-ichibu.md", "不動産登記法編⑤_4コマ3"),
+    "D1778-D1382-D0979": ("prompt_4koma_PE-06_01_fuzoku-tatemono-hyouji.md", "不動産登記法編⑤_4コマ4"),
+    "D1473-D1474": ("prompt_4koma_PE-07_01_hozon-sakugo-massho.md", "不動産登記法編⑤_4コマ5"),
+    "D0691-D1573": ("prompt_4koma_PE-09_01_bunkatsu-shinseinin.md", "不動産登記法編⑤_4コマ6"),
+    "D0674-D0675": ("prompt_4koma_PE-11_01_messhitsu-no-toki.md", "不動産登記法編⑤_4コマ7"),
+    "D0975-D1858-D2052": ("prompt_4koma_PE-12_01_zumen-youhi.md", "不動産登記法編⑤_4コマ8"),
+    "D0685": ("prompt_4koma_PE-13_01_zumen-hozon-kikan.md", "不動産登記法編⑤_4コマ9"),
 }
 
 def cut(text, head):
@@ -33,7 +36,7 @@ def embed(text, sp, fname, savebase):
     body = lines[1]
     note = (
         "\n> **このファイルについて**\n>\n"
-        "> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」第5章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch5.md`）の、論点【" + sp["_stem"].split("_")[2] + "】に差し込む4コマのプロンプトです。"
+        "> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」第5章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch5.md`）の、論点【" + re.sub(r"(P[A-G]\d?)-0(\d)", r"\1-\2", sp["_stem"].split("_")[2]) + "】に差し込む4コマのプロンプトです。"
         "単独のnote記事にする場合の節（記事タイトル・冒頭文・見出し画像）は外してあり、生成元は `src/" + sp["_stem"] + ".py` です。\n"
         "> - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（`tools/drill/manga/`）に従い、生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-13）。\n"
         "> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。\n")

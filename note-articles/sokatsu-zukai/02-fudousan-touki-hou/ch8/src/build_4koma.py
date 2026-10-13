@@ -14,12 +14,12 @@ from specs_4koma import SPECS
 
 OUT = HERE.parent
 NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
-    "D1359-D1361": ("prompt_4koma_PG1-1_01_kiyaku-kyouyou-bubun.md", "不登法8章_4コマ1"),
-    "D0403-D0986": ("prompt_4koma_PG1-5_01_genin-no-hizuke.md", "不登法8章_4コマ2"),
-    "D1588-D1589-D1501": ("prompt_4koma_PG1-5_02_genin-no-bungon.md", "不登法8章_4コマ3"),
-    "D2063-D2065": ("prompt_4koma_PG1-6_01_tochi-no-seigen.md", "不登法8章_4コマ4"),
-    "D2064": ("prompt_4koma_PG1-7_01_jusho-fuicchi.md", "不登法8章_4コマ5"),
-    "D0583": ("prompt_4koma_PG1-9_01_shikichi-nomi-teitouken.md", "不登法8章_4コマ6"),
+    "D1359-D1361": ("prompt_4koma_PG1-01_01_kiyaku-kyouyou-bubun.md", "不登法8章_4コマ1"),
+    "D0403-D0986": ("prompt_4koma_PG1-05_01_genin-no-hizuke.md", "不登法8章_4コマ2"),
+    "D1588-D1589-D1501": ("prompt_4koma_PG1-05_02_genin-no-bungon.md", "不登法8章_4コマ3"),
+    "D2063-D2065": ("prompt_4koma_PG1-06_01_tochi-no-seigen.md", "不登法8章_4コマ4"),
+    "D2064": ("prompt_4koma_PG1-07_01_jusho-fuicchi.md", "不登法8章_4コマ5"),
+    "D0583": ("prompt_4koma_PG1-09_01_shikichi-nomi-teitouken.md", "不登法8章_4コマ6"),
 }
 
 def cut(text, head):
@@ -33,7 +33,7 @@ def embed(text, sp, fname, savebase):
     body = lines[1]
     note = (
         "\n> **このファイルについて**\n>\n"
-        "> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」第8章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch8.md`）の、論点【" + sp["_stem"].split("_")[2] + "】に差し込む4コマのプロンプトです。"
+        "> - 総合記事②「直前期の苦手論点つぶし 不動産登記法編」第8章（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch8.md`）の、論点【" + re.sub(r"(P[A-G]\d?)-0(\d)", r"\1-\2", sp["_stem"].split("_")[2]) + "】に差し込む4コマのプロンプトです。"
         "単独のnote記事にする場合の節（記事タイトル・冒頭文・見出し画像）は外してあり、生成元は `src/" + sp["_stem"] + ".py` です。\n"
         "> - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（`tools/drill/manga/`）に従い、生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-13）。\n"
         "> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。\n")

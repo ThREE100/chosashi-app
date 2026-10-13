@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""総合記事②不動産登記法編 第4章の4コマ6本：設計データ（spec_4koma_PD-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
+"""総合記事②不動産登記法編 第4章の4コマ8本：設計データ（spec_4koma_PD-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
 使い方: python3 note-articles/sokatsu-zukai/02-fudousan-touki-hou/ch4/src/build_4koma.py [--check-only | --verify-sync]
 - 生成器は tools/drill/manga/gen_prompts.py の render()。一時フォルダに <fid>_prompt.md（単独記事用の節つき）を作って check_prompt.py を通し、
   NG 0件・WARN 0件のときだけ、総合記事に差し込む体裁（記事タイトル・冒頭文・見出し画像・画像ファイル名の節を外し、保存名を足した版）を ../prompt_4koma_*.md に書く。
@@ -14,12 +14,14 @@ from specs_4koma import SPECS
 
 OUT = HERE.parent
 NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
-    "D1668-D0530": ("prompt_4koma_PD-1_01_kanrinin-kyoka.md", "不動産登記法編4章_4コマ1"),
-    "D0339-D0342": ("prompt_4koma_PD-3_01_chiseki-keta.md", "不動産登記法編4章_4コマ2"),
-    "D1560-D0748": ("prompt_4koma_PD-9_01_seneki-yoeki.md", "不動産登記法編4章_4コマ3"),
-    "D0527-D0750": ("prompt_4koma_PD-9_02_tanpoken-doitsu.md", "不動産登記法編4章_4コマ4"),
-    "D0443-D0441": ("prompt_4koma_PD-11_01_daii-hanketsu.md", "不動産登記法編4章_4コマ5"),
-    "D1939": ("prompt_4koma_PD-11_02_henkou-kousei.md", "不動産登記法編4章_4コマ6"),
+    "D1668-D0530": ("prompt_4koma_PD-01_01_kanrinin-kyoka.md", "不動産登記法編4章_4コマ1"),
+    "D0339-D0342": ("prompt_4koma_PD-03_01_chiseki-keta.md", "不動産登記法編4章_4コマ2"),
+    "D1153-D1752-D0749": ("prompt_4koma_PD-07_01_gappitsu-seigen.md", "不動産登記法編4章_4コマ3"),
+    "D1560-D0748": ("prompt_4koma_PD-09_01_seneki-yoeki.md", "不動産登記法編4章_4コマ4"),
+    "D0527-D0750": ("prompt_4koma_PD-09_02_tanpoken-doitsu.md", "不動産登記法編4章_4コマ5"),
+    "D1051-D1052": ("prompt_4koma_PD-10_01_gappitsu-shikibetsu.md", "不動産登記法編4章_4コマ6"),
+    "D0443-D0441": ("prompt_4koma_PD-11_01_daii-hanketsu.md", "不動産登記法編4章_4コマ7"),
+    "D1939": ("prompt_4koma_PD-11_02_henkou-kousei.md", "不動産登記法編4章_4コマ8"),
 }
 
 def cut(text, head):
@@ -33,7 +35,7 @@ def embed(text, sp, fname, savebase):
     body = lines[1]
     note = (
         "\n> **このファイルについて**\n>\n"
-        "> - 総合記事②不動産登記法編 第4章「土地の分筆・合筆・地積更正」（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch4.md`）の、論点【" + sp["_stem"].split("_")[2] + "】に差し込む4コマのプロンプトです。"
+        "> - 総合記事②不動産登記法編 第4章「土地の分筆・合筆・地積更正」（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch4.md`）の、論点【" + re.sub(r"(P[A-G]\d?)-0(\d)", r"\1-\2", sp["_stem"].split("_")[2]) + "】に差し込む4コマのプロンプトです。"
         "単独のnote記事にする場合の節（記事タイトル・冒頭文・見出し画像）は外してあり、生成元は `src/" + sp["_stem"] + ".py` です。\n"
         "> - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（`tools/drill/manga/`）に従い、生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-13）。\n"
         "> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。\n")

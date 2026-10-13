@@ -231,12 +231,12 @@ META = [
 ]
 FILES = {
     "00_zentai": ("prompt_infographic_00_zentai.md", "全体（章の冒頭）"),
-    "PF2-1": ("prompt_infographic_PF2-1.md", "【PF2-1】合体とは何か。どんな場合が合体で、どんな場合は合体ではないのか"),
-    "PF2-2": ("prompt_infographic_PF2-2.md", "【PF2-2】合体前の建物にどんな登記があるかで、申請の形はどう変わるか"),
-    "PF2-3": ("prompt_infographic_PF2-3.md", "【PF2-3】合体による登記等は誰が、いつから1か月以内に申請するのか"),
-    "PF2-4": ("prompt_infographic_PF2-4.md", "【PF2-4】合体前の建物の権利は、合体後の建物にどう引き継がれ、どう消えるのか"),
-    "PF2-5": ("prompt_infographic_PF2-5.md", "【PF2-5】合体後の持分は、申請情報や添付情報にどう関わるのか"),
-    "PF2-6": ("prompt_infographic_PF2-6.md", "【PF2-6】合体による登記等で、何が不要になるのか"),
+    "PF2-1": ("prompt_infographic_PF2-01.md", "【PF2-1】合体とは何か。どんな場合が合体で、どんな場合は合体ではないのか"),
+    "PF2-2": ("prompt_infographic_PF2-02.md", "【PF2-2】合体前の建物にどんな登記があるかで、申請の形はどう変わるか"),
+    "PF2-3": ("prompt_infographic_PF2-03.md", "【PF2-3】合体による登記等は誰が、いつから1か月以内に申請するのか"),
+    "PF2-4": ("prompt_infographic_PF2-04.md", "【PF2-4】合体前の建物の権利は、合体後の建物にどう引き継がれ、どう消えるのか"),
+    "PF2-5": ("prompt_infographic_PF2-05.md", "【PF2-5】合体後の持分は、申請情報や添付情報にどう関わるのか"),
+    "PF2-6": ("prompt_infographic_PF2-06.md", "【PF2-6】合体による登記等で、何が不要になるのか"),
 }
 
 def build_doc(key):

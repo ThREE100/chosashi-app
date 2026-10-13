@@ -224,11 +224,11 @@ META = [
 ]
 FILES = {
     "00_zentai": ("prompt_infographic_00_zentai.md", "全体（章の冒頭）"),
-    "PG2-1": ("prompt_infographic_PG2-1.md", "【PG2-1】区分建物の表示・合併・区分に、非区分建物のルールをどこまで持ち込めるか"),
-    "PG2-2": ("prompt_infographic_PG2-2.md", "【PG2-2】区分建物の表題登記は、誰が申請できるのか（原始取得者・相続人・転得者）"),
-    "PG2-3": ("prompt_infographic_PG2-3.md", "【PG2-3】区分建物の登記の申請は「併せて」か「一括して」か、いつまでか"),
-    "PG2-4": ("prompt_infographic_PG2-4.md", "【PG2-4】建物の表題部の変更登記は、誰が・いつまでに・何を添えて申請するのか"),
-    "PG2-5": ("prompt_infographic_PG2-5.md", "【PG2-5】共用部分である旨の登記は、誰が申請し、何を提供し、団地ではいつ申請できるのか"),
+    "PG2-1": ("prompt_infographic_PG2-01.md", "【PG2-1】区分建物の表示・合併・区分に、非区分建物のルールをどこまで持ち込めるか"),
+    "PG2-2": ("prompt_infographic_PG2-02.md", "【PG2-2】区分建物の表題登記は、誰が申請できるのか（原始取得者・相続人・転得者）"),
+    "PG2-3": ("prompt_infographic_PG2-03.md", "【PG2-3】区分建物の登記の申請は「併せて」か「一括して」か、いつまでか"),
+    "PG2-4": ("prompt_infographic_PG2-04.md", "【PG2-4】建物の表題部の変更登記は、誰が・いつまでに・何を添えて申請するのか"),
+    "PG2-5": ("prompt_infographic_PG2-05.md", "【PG2-5】共用部分である旨の登記は、誰が申請し、何を提供し、団地ではいつ申請できるのか"),
 }
 
 def build_doc(key):

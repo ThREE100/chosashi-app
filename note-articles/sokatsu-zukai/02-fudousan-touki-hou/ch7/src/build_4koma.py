@@ -15,12 +15,12 @@ from specs_4koma import SPECS
 OUT = HERE.parent
 REL = "note-articles/sokatsu-zukai/02-fudousan-touki-hou/ch7"
 NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
-    "D0696-D0994": ("prompt_4koma_PF2-1_01_fuzoku-gattai.md", "登記法編7章_4コマ1"),
-    "D0700-D1785": ("prompt_4koma_PF2-2_01_mitouki-shinchiku.md", "登記法編7章_4コマ2"),
-    "D0697-D0699": ("prompt_4koma_PF2-3_01_kisanten.md", "登記法編7章_4コマ3"),
-    "D0387-D0500": ("prompt_4koma_PF2-4_01_teitouken-shouken.md", "登記法編7章_4コマ4"),
-    "D0991-D1593": ("prompt_4koma_PF2-4_02_chinshakuken.md", "登記法編7章_4コマ5"),
-    "D1176": ("prompt_4koma_PF2-5_01_mochibun-kakanai.md", "登記法編7章_4コマ6"),
+    "D0696-D0994": ("prompt_4koma_PF2-01_01_fuzoku-gattai.md", "登記法編7章_4コマ1"),
+    "D0700-D1785": ("prompt_4koma_PF2-02_01_mitouki-shinchiku.md", "登記法編7章_4コマ2"),
+    "D0697-D0699": ("prompt_4koma_PF2-03_01_kisanten.md", "登記法編7章_4コマ3"),
+    "D0387-D0500": ("prompt_4koma_PF2-04_01_teitouken-shouken.md", "登記法編7章_4コマ4"),
+    "D0991-D1593": ("prompt_4koma_PF2-04_02_chinshakuken.md", "登記法編7章_4コマ5"),
+    "D1176": ("prompt_4koma_PF2-05_01_mochibun-kakanai.md", "登記法編7章_4コマ6"),
 }
 
 def cut(text, head):
@@ -34,7 +34,7 @@ def embed(text, sp, fname, savebase):
     body = lines[1]
     note = (
         "\n> **このファイルについて**\n>\n"
-        "> - 総合記事② 不動産登記法編 第7章「建物の合体による登記等」（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch7.md`）の、論点【" + sp["_stem"].split("_")[2] + "】に差し込む4コマのプロンプトです。"
+        "> - 総合記事② 不動産登記法編 第7章「建物の合体による登記等」（`note-articles/column/sokatsu-02-fudousan-touki-hou-ch7.md`）の、論点【" + re.sub(r"(P[A-G]\d?)-0(\d)", r"\1-\2", sp["_stem"].split("_")[2]) + "】に差し込む4コマのプロンプトです。"
         "単独のnote記事にする場合の節（記事タイトル・冒頭文・見出し画像）は外してあり、生成元は `src/" + sp["_stem"] + ".py` です。\n"
         "> - 構成・体裁は、4コマ解説図解のルール `MANGA_RULES.md`（`tools/drill/manga/`）に従い、生成器 `gen_prompts.py` と機械チェック `check_prompt.py` で作りました（`check_prompt.py` は NG 0件・WARN 0件。2026-10-13）。\n"
         "> - 画像は生成していません（ChatGPTでの生成・検品はまだ）。生成後は、下の「生成後の照合チェック」で検品してください。\n")

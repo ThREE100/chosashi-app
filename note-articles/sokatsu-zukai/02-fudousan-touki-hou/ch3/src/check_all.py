@@ -15,7 +15,7 @@ def OK(msg): print("OK  ", msg)
 # 1. 4コマ：設計データから作り直した内容とファイルが一致し、check_prompt.py が NG 0件・WARN 0件
 r = subprocess.run([sys.executable, str(HERE / "build_4koma.py"), "--verify-sync"], capture_output=True, text=True)
 if r.returncode != 0: NG("4コマの機械チェック／同期が NG：\n" + r.stdout)
-else: OK("4コマ6本：生成元と一致、check_prompt.py NG 0件・WARN 0件")
+else: OK("4コマ8本：生成元と一致、check_prompt.py NG 0件・WARN 0件")
 
 # 2. 図解の生成元との同期（gen_infographic.py から作り直した内容とファイルが一致）
 sys.path.insert(0, str(HERE))
@@ -100,9 +100,10 @@ for m in re.finditer(r"^### 【(PC-\d+)】.*?(?=^### |\Z)", art, flags=re.M | re
 ids_in_sec = {k: set(re.findall(r"D\d{4}", re.search(r"\*\*この論点で出た肢\*\*：(.+)", v).group(1))) for k, v in secs.items()}
 if len(secs) != 12: NG(f"記事に論点が {len(secs)} 個しかない（12個のはず）")
 for k in ["PC-%d" % i for i in range(1, 13)]:
-    if not list(D.glob(f"prompt_infographic_{k}.md")): NG(f"{k}: 図解のファイルがない")
+    if not list(D.glob("prompt_infographic_PC-%02d.md" % int(k.split("-")[1]))): NG(f"{k}: 図解のファイルがない")
 SPEC4 = {"PC-1": ["D1433", "D1847"], "PC-2": ["D1544", "D0689", "D1546"], "PC-6": ["D0190", "D1265", "D2019", "D1495"],
-         "PC-8": ["D0752", "D1047"], "PC-9": ["D1159", "D2046"], "PC-12": ["D0371", "D1801"]}
+         "PC-8": ["D0752", "D1047"], "PC-9": ["D1159", "D2046"], "PC-12": ["D0371", "D1801"],
+         "PC-4": ["D1268", "D1270", "D0738"], "PC-10": ["D0487", "D0488"]}
 for k, ids in SPEC4.items():
     for i in ids:
         if i not in ids_in_sec.get(k, set()): NG(f"{k}: 4コマの肢 {i} が記事の同じ論点の『この論点で出た肢』にない")

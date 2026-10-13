@@ -13,7 +13,7 @@ def OK(msg): print("OK  ", msg)
 # 1. 4コマ：設計データから作り直した内容とファイルが一致し、check_prompt.py が NG 0件・WARN 0件
 r = subprocess.run([sys.executable, str(HERE / "build_4koma.py"), "--verify-sync"], capture_output=True, text=True)
 if r.returncode != 0: NG("4コマの機械チェック／同期が NG：\n" + r.stdout)
-else: OK("4コマ6本：生成元と一致、check_prompt.py NG 0件・WARN 0件")
+else: OK("4コマ8本：生成元と一致、check_prompt.py NG 0件・WARN 0件")
 
 # 2. 個人の演習結果・問題番号が図解と見出し画像に入っていない（4コマは肢IDのタグと結論帯の問題番号だけ許可）
 bad_words = ["誤答", "★", "のべ", "履歴", "回間違", "正答率"]
@@ -102,12 +102,12 @@ for f in sorted(D.glob("prompt_infographic_*.md")):
         if not flow and "use no blue or red anywhere" not in blk and "no blue or red" not in blk: NG(f"{f.name}: 分類中心の図に『青・赤を使わない』指示がない")
 OK("図解の配色指示（流れ図のみ青・赤）")
 
-# 7. 成果物の数：図解14枚・4コマ6本・見出し1枚
+# 7. 成果物の数：図解14枚・4コマ8本・見出し1枚
 n_img = sum(len(re.findall(r"^```text", f.read_text(encoding="utf8"), flags=re.M)) for f in D.glob("prompt_infographic_*.md"))
 n_4k = len(list(D.glob("prompt_4koma_*.md")))
 n_mid = len(list(D.glob("prompt_midashi_*.md")))
-if (n_img, n_4k, n_mid) != (14, 6, 1): NG(f"成果物の数が想定と違う：図解{n_img}・4コマ{n_4k}・見出し{n_mid}")
-else: OK("成果物：図解14枚・4コマ6本・見出し1枚")
+if (n_img, n_4k, n_mid) != (14, 8, 1): NG(f"成果物の数が想定と違う：図解{n_img}・4コマ{n_4k}・見出し{n_mid}")
+else: OK("成果物：図解14枚・4コマ8本・見出し1枚")
 
 print(f"\n結果: NG {len(ng)}件")
 sys.exit(1 if ng else 0)

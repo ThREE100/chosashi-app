@@ -13,45 +13,45 @@
 - `prompt_infographic_00_zentai.md`：図解1 敷地権の一生（生じて、載って、消えるまで）
 
 ### 【PG1-1】区分建物とは何か（構造上・利用上の独立性、専有部分・規約共用部分）
-- `prompt_infographic_PG1-1.md`：図解2 区分建物に入る部分は？（専有部分・規約共用部分・法定共用部分の線引き）
-- `prompt_4koma_PG1-1_01_kiyaku-kyouyou-bubun.md`：4コマ1（D1359・D1361）規約共用部分は区分建物に含まれる（法定共用部分は含まれない）
+- `prompt_infographic_PG1-01.md`：図解2 区分建物に入る部分は？（専有部分・規約共用部分・法定共用部分の線引き）
+- `prompt_4koma_PG1-01_01_kiyaku-kyouyou-bubun.md`：4コマ1（D1359・D1361）規約共用部分は区分建物に含まれる（法定共用部分は含まれない）
 - 既存（再利用）：D1356 区分建物の定義の「構造上」（法令上ではない）。構造上⇔利用上の対比（D1364 もここ）も扱う → `tools/drill/manga/D1356_prompt.md`
 
 ### 【PG1-2】何が敷地権になるのか（登記された敷地利用権・共有持分・使用借権は不可）
-- `prompt_infographic_PG1-2.md`：図解3 敷地権になれるか（判定の流れ。登記された権利か→分離して処分できないか）
+- `prompt_infographic_PG1-02.md`：図解3 敷地権になれるか（判定の流れ。登記された権利か→分離して処分できないか）
 - 既存（再利用）：D1083 使用借権は登記できず敷地権にならない → `tools/drill/manga/D1083_prompt.md`／D1795 共有持分でも敷地権になる → `tools/drill/manga/D1795_prompt.md`（条文別シリーズ `note-articles/joubun-nigate/kubunshoyuu-hou/art005-kiyaku-shikichi/prompt_4koma_05_bunri-shobun.md` にD1795・D1798・D1799をまとめた版もある）
 
 ### 【PG1-3】規約敷地とは何か（他棟の法定敷地でも規約敷地にできるか・規約の決議要件）
-- `prompt_infographic_PG1-3.md`：図解4 規約敷地とは何か（決め方と、他の建物の敷地との関係）
+- `prompt_infographic_PG1-03.md`：図解4 規約敷地とは何か（決め方と、他の建物の敷地との関係）
 - 既存（再利用）：D0501・D1088・D1797 → `note-articles/joubun-nigate/kubunshoyuu-hou/art005-kiyaku-shikichi/prompt_4koma_04_hotei-shikichi.md`
 
 ### 【PG1-4】区分建物の表題登記の申請（一括申請の原則と、分離処分可能規約を証する情報）
-- `prompt_infographic_PG1-4.md`：図解5 区分建物の表題登記（申請のルールは3つ）
+- `prompt_infographic_PG1-04.md`：図解5 区分建物の表題登記（申請のルールは3つ）
 - 既存（再利用）：D1578・D1085（＋D0198）敷地権にならないときも事由を証する情報が要る → `tools/drill/manga/D1578-D0198-D1085_prompt.md`（条文別シリーズ `note-articles/joubun-nigate/kubunshoyuu-hou/art005-kiyaku-shikichi/prompt_4koma_02_basho-goto.md` にも関連する版がある）
 
 ### 【PG1-5】敷地権付き区分建物の登記記録の書き方（階数・床面積・敷地権の原因及びその日付）
-- `prompt_infographic_PG1-5.md`：図解6 専有部分の記録の言い方（つい引かれる言い方に注意）／図解7 敷地権の原因の言い方（できごとごとに決まっている）／図解8 敷地権の日付は、いつ？（判定の流れ）
-- `prompt_4koma_PG1-5_01_genin-no-hizuke.md`：4コマ2（D0403・D0986）原因の日付は、新築より前から権利があったか、あとで取得したかで決まる
-- `prompt_4koma_PG1-5_02_genin-no-bungon.md`：4コマ3（D1588・D1589・D1501）割合の変更は「変更」（分割ではない）、地上権の期間満了による消滅は「敷地権消滅」
+- `prompt_infographic_PG1-05.md`：図解6 専有部分の記録の言い方（つい引かれる言い方に注意）／図解7 敷地権の原因の言い方（できごとごとに決まっている）／図解8 敷地権の日付は、いつ？（判定の流れ）
+- `prompt_4koma_PG1-05_01_genin-no-hizuke.md`：4コマ2（D0403・D0986）原因の日付は、新築より前から権利があったか、あとで取得したかで決まる
+- `prompt_4koma_PG1-05_02_genin-no-bungon.md`：4コマ3（D1588・D1589・D1501）割合の変更は「変更」（分割ではない）、地上権の期間満了による消滅は「敷地権消滅」
 - 既存（再利用）：D1580・D1583・D1587 「1階建」「1階部分」「敷地権」（新築ではない） → `tools/drill/manga/D1580-D1583-D1587_prompt.md`
 
 ### 【PG1-6】敷地権である旨の登記と、敷地権付き区分建物・土地への制限
-- `prompt_infographic_PG1-6.md`：図解9 敷地権の旨の登記と制限（できること・できないこと）
-- `prompt_4koma_PG1-6_01_tochi-no-seigen.md`：4コマ4（D2063・D2065）敷地権の旨の登記がある土地は、合筆はできない。地目の変更は抹消せずにできる
+- `prompt_infographic_PG1-06.md`：図解9 敷地権の旨の登記と制限（できること・できないこと）
+- `prompt_4koma_PG1-06_01_tochi-no-seigen.md`：4コマ4（D2063・D2065）敷地権の旨の登記がある土地は、合筆はできない。地目の変更は抹消せずにできる
 - 既存（再利用）：D1367・D1368 敷地権である旨の登記は登記官の職権 → `tools/drill/manga/D1368_prompt.md`／D1799 持分だけ売るには先に敷地権の抹消 → `note-articles/joubun-nigate/kubunshoyuu-hou/art005-kiyaku-shikichi/prompt_4koma_05_bunri-shobun.md`
 
 ### 【PG1-7】敷地権の発生・消滅の変更登記の申請（期間・住所の一致・一部の区分建物のみ・区分合併）
-- `prompt_infographic_PG1-7.md`：図解10 敷地権が生じたときの申請（住所をそろえて、1か月以内に）
-- `prompt_4koma_PG1-7_01_jusho-fuicchi.md`：4コマ5（D2064）住所が違うとき、同一性証明では足りず、先に住所の変更又は更正の登記
+- `prompt_infographic_PG1-07.md`：図解10 敷地権が生じたときの申請（住所をそろえて、1か月以内に）
+- `prompt_4koma_PG1-07_01_jusho-fuicchi.md`：4コマ5（D2064）住所が違うとき、同一性証明では足りず、先に住所の変更又は更正の登記
 - 既存（再利用）：D1796 敷地権が生じたら1か月以内に変更登記 → `tools/drill/manga/D1796_prompt.md`／D1798 一部の区分建物だけの分離処分可能規約 → `note-articles/joubun-nigate/kubunshoyuu-hou/art005-kiyaku-shikichi/prompt_4koma_05_bunri-shobun.md`
 
 ### 【PG1-8】敷地権に関する添付情報（発生では要るが消滅では要らない・合体・分筆）
-- `prompt_infographic_PG1-8.md`：図解11 敷地権の添付情報（生じるときと消えるとき。合体・分筆は要らない）
+- `prompt_infographic_PG1-08.md`：図解11 敷地権の添付情報（生じるときと消えるとき。合体・分筆は要らない）
 - 既存（再利用）：D0402・D0405・D1577（＋D1796）発生と消滅の添付情報、規約敷地の分筆 → `tools/drill/manga/D0402-D0405-D1577-D1796_prompt.md`（条文別シリーズ `note-articles/joubun-nigate/kubunshoyuu-hou/art005-kiyaku-shikichi/prompt_4koma_01_hassei-to-shometsu.md`・`prompt_4koma_02_basho-goto.md` にも関連する版がある。D1579 〔合体で割合を合算なら規約証明は要らない〕は後者が扱う）
 
 ### 【PG1-9】敷地権が消えるとき抵当権はどうなるか（法55条の承諾情報による消滅の登記）
-- `prompt_infographic_PG1-9.md`：図解12 敷地権が消えるとき抵当権はどうなる？（承諾情報による消滅の登記の流れ）
-- `prompt_4koma_PG1-9_01_shikichi-nomi-teitouken.md`：4コマ6（D0583）敷地のみの抵当権は特定登記ではなく、承諾があっても別扱い
+- `prompt_infographic_PG1-09.md`：図解12 敷地権が消えるとき抵当権はどうなる？（承諾情報による消滅の登記の流れ）
+- `prompt_4koma_PG1-09_01_shikichi-nomi-teitouken.md`：4コマ6（D0583）敷地のみの抵当権は特定登記ではなく、承諾があっても別扱い
 - 既存（再利用）：D0404・D0990・D1089 承諾情報により消滅した旨が登記される → `note-articles/joubun-nigate/kubunshoyuu-hou/art005-kiyaku-shikichi/prompt_4koma_06_teitoken.md`
 
 ### 見出し画像
@@ -107,3 +107,10 @@ python3 note-articles/sokatsu-zukai/02-fudousan-touki-hou/ch8/src/check_all.py  
 ```
 
 生成物（`prompt_*.md`）は手で直さず、`src/` の設計データ・スクリプトを直して再生成する。
+
+## 2026-10-13 追記：全論点に4コマをそろえた（ユーザー指示）
+
+- 4コマのなかった論点に新しい4コマを足した（上の各論点の欄）。既存の4コマ（再利用）がある論点はそのまま。
+- 作成済みの4コマは、設計内容のまま。変えたのは、**記事の順に並べるための番号**だけ（論点番号を2桁にそろえたファイル名〈PB-4 → PB-04〉と、4コマの通し番号を記事の順に振り直した保存名）。4コマの中身（セリフ・図・設計メモ）は変えていない。
+- 新しい4コマの挿入位置は、各論点の「肢ごとの判定」の直後（記事の順）。
+- 肢IDのタグ（結論帯の問題番号、カードや表の小タグ「肢D…」、チェック欄の「（肢D…は〇／×）」）は、作成済みの4コマと同じ形。

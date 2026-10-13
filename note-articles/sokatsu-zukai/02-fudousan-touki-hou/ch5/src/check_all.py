@@ -13,7 +13,7 @@ def OK(msg): print("OK  ", msg)
 # 1. 4コマ：設計データから作り直した内容とファイルが一致し、check_prompt.py が NG 0件・WARN 0件
 r = subprocess.run([sys.executable, str(HERE / "build_4koma.py"), "--verify-sync"], capture_output=True, text=True)
 if r.returncode != 0: NG("4コマの機械チェック／同期が NG：\n" + r.stdout)
-else: OK("4コマ6本：生成元と一致、check_prompt.py NG 0件・WARN 0件")
+else: OK("4コマ9本：生成元と一致、check_prompt.py NG 0件・WARN 0件")
 
 # 1b. 図解・見出し画像も、生成元から作り直した内容とファイルが一致する（手で直していない）
 import importlib.util

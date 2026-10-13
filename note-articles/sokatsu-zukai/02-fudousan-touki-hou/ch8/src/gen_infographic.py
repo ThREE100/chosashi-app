@@ -235,15 +235,15 @@ META = [
 ]
 FILES = {
     "00_zentai": ("prompt_infographic_00_zentai.md", "全体（章の冒頭）"),
-    "PG1-1": ("prompt_infographic_PG1-1.md", "【PG1-1】区分建物とは何か"),
-    "PG1-2": ("prompt_infographic_PG1-2.md", "【PG1-2】何が敷地権になるのか"),
-    "PG1-3": ("prompt_infographic_PG1-3.md", "【PG1-3】規約敷地とは何か"),
-    "PG1-4": ("prompt_infographic_PG1-4.md", "【PG1-4】区分建物の表題登記の申請"),
-    "PG1-5": ("prompt_infographic_PG1-5.md", "【PG1-5】敷地権付き区分建物の登記記録の書き方"),
-    "PG1-6": ("prompt_infographic_PG1-6.md", "【PG1-6】敷地権である旨の登記と制限"),
-    "PG1-7": ("prompt_infographic_PG1-7.md", "【PG1-7】敷地権の発生・消滅の変更登記の申請"),
-    "PG1-8": ("prompt_infographic_PG1-8.md", "【PG1-8】敷地権に関する添付情報"),
-    "PG1-9": ("prompt_infographic_PG1-9.md", "【PG1-9】敷地権が消えるとき抵当権はどうなるか"),
+    "PG1-1": ("prompt_infographic_PG1-01.md", "【PG1-1】区分建物とは何か"),
+    "PG1-2": ("prompt_infographic_PG1-02.md", "【PG1-2】何が敷地権になるのか"),
+    "PG1-3": ("prompt_infographic_PG1-03.md", "【PG1-3】規約敷地とは何か"),
+    "PG1-4": ("prompt_infographic_PG1-04.md", "【PG1-4】区分建物の表題登記の申請"),
+    "PG1-5": ("prompt_infographic_PG1-05.md", "【PG1-5】敷地権付き区分建物の登記記録の書き方"),
+    "PG1-6": ("prompt_infographic_PG1-06.md", "【PG1-6】敷地権である旨の登記と制限"),
+    "PG1-7": ("prompt_infographic_PG1-07.md", "【PG1-7】敷地権の発生・消滅の変更登記の申請"),
+    "PG1-8": ("prompt_infographic_PG1-08.md", "【PG1-8】敷地権に関する添付情報"),
+    "PG1-9": ("prompt_infographic_PG1-09.md", "【PG1-9】敷地権が消えるとき抵当権はどうなるか"),
 }
 
 def build_doc(key):
