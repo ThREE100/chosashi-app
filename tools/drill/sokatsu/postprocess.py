@@ -133,7 +133,7 @@ def reflow(text):
     return '\n'.join(res) + '\n'
 
 def norm(t):
-    return re.sub(r'[\s*#\-.)）：]', '', t)
+    return re.sub(r'[\s*#\-.)）：、]', '', t)
 
 # ---------------- 民法編の章分割 ----------------
 CH_TITLES = {
