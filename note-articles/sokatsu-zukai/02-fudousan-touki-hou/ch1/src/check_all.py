@@ -13,7 +13,7 @@ def OK(msg): print("OK  ", msg)
 # 1. 4コマ：設計データから作り直した内容とファイルが一致し、check_prompt.py が NG 0件・WARN 0件
 r = subprocess.run([sys.executable, str(HERE / "build_4koma.py"), "--verify-sync"], capture_output=True, text=True)
 if r.returncode != 0: NG("4コマの機械チェック／同期が NG：\n" + r.stdout)
-else: OK("4コマ12本：生成元と一致、check_prompt.py NG 0件・WARN 0件")
+else: OK("4コマ13本：生成元と一致、check_prompt.py NG 0件・WARN 0件")
 
 # 2. 個人の演習結果・問題番号が図解と見出し画像に入っていない（4コマは肢IDのタグと結論帯の問題番号だけ許可）
 bad_words = ["誤答", "★", "のべ", "履歴", "回間違", "正答率"]

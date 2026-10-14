@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""総合記事②不動産登記法編 第1章の4コマ12本：設計データ（spec_4koma_PA-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
+"""総合記事②不動産登記法編 第1章の4コマ13本：設計データ（spec_4koma_PA-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
 使い方: python3 note-articles/sokatsu-zukai/02-fudousan-touki-hou/ch1/src/build_4koma.py [--check-only | --verify-sync]
 - 生成器は tools/drill/manga/gen_prompts.py の render()。一時フォルダに <fid>_prompt.md（単独記事用の節つき）を作って check_prompt.py を通し、
   NG 0件・WARN 0件のときだけ、総合記事に差し込む体裁（記事タイトル・冒頭文・見出し画像・画像ファイル名の節を外し、保存名を足した版）を ../prompt_4koma_*.md に書く。
@@ -25,7 +25,8 @@ NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
     "D1036": ("prompt_4koma_PA-09_01_bunpitsu-genin-nichiji.md", "不登法編1_4コマ9"),
     "D0658-D0660-D1463": ("prompt_4koma_PA-10_01_ichi-shinsei-jouhou.md", "不登法編1_4コマ10"),
     "D1773-D1238": ("prompt_4koma_PA-11_01_tenpu-jouhou.md", "不登法編1_4コマ11"),
-    "D0476-D1826": ("prompt_4koma_PA-13_01_honnin-kakunin.md", "不登法編1_4コマ12"),
+    "D0944-D1325": ("prompt_4koma_PA-12_01_shutoku-sha-saikoku.md", "不登法編1_4コマ12"),
+    "D0476-D1826": ("prompt_4koma_PA-13_01_honnin-kakunin.md", "不登法編1_4コマ13"),
 }
 
 def cut(text, head):
