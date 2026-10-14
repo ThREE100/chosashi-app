@@ -100,6 +100,82 @@
 
 ---
 
+## 見出し画像プロンプト（個別テーマ・藍子のみ）
+
+noteの見出し画像（アイキャッチ）用です。個別テーマの解説記事の見出し画像は、女性キャラクター（藍子）だけを描きます。キャラクターは、別に渡すキャラクターシートに合わせます。サイズは1280x670pxで、苦手分析シリーズの会話式の見出し画像と共通です。
+
+```
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky
+(light blue, cream, fresh green), gentle clouds, clean outlines, consistent with
+the supplied reference header image. Keep exactly the same overall layout:
+the title block at the top center, the single character at the bottom center,
+and topic scenes fading softly into the left and right edges.
+
+CHARACTER (critical): draw only ONE character, 藍子, the young woman exam
+candidate, following the supplied character sheet exactly and without
+redesigning her (long wavy brown hair, blouse with thin blue vertical
+stripes). Place her at the bottom center, resting her chin on one hand
+with a pen, looking up with a curious smile, an open textbook on the desk
+in front of her. Do NOT draw トリ先生 or any bird, owl, mascot or other
+character. Keep her fully visible, with her face clear of the title text.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese
+title in two lines at the top center, over a soft white cloud-shaped glow
+so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke
+behind it:
+登記官が気づいたとき
+Line 2 is larger; the phrase 職権か催告か is red-orange and the rest is dark navy:
+職権か催告かで見分ける
+Below the title, a light blue rounded pill-shaped subtitle band with navy
+text:
+個別テーマ解説 地図の訂正と申請の催告
+Do not write any other text anywhere in the image: no captions, no labels,
+no signs with letters, no watermark, no panel numbers.
+
+BACKGROUND SCENES (illustration only, no text on any object; keep them soft
+and slightly faded so they never compete with the title or the characters):
+Left side: a cadastral map sheet with boundary lines and a magnifying glass lying on it, and a small survey marker stone
+Right side: a registry office counter with a stamp and a thick registry book, and a sealed notice envelope
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep
+the characters and the title away from the extreme edges so the image
+survives center cropping. Do not draw any flowchart, diamond, arrow between
+boxes, or ✓ or ✕ mark.
+
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 図, 訂, 正, 職, 権, 催, 告, 申, 請, 登, 記, 地, 図, 申, which have visually similar but structurally different Simplified or Traditional Chinese counterparts. If any character renders as a Simplified or Traditional Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji, and remove it. Confirm the title and subtitle are reproduced exactly as written, that the image is 1280x670 landscape, that the single character matches the supplied character sheet and no second character appears, and that the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
 ## インフォグラフィック プロンプト（登記官が気づいたときの判定フロー）
 
 フローチャート1枚です。ノード数と経路数、配置（縦の中心線、結果ノードはダイヤの右）を明記してあります（点検済み、2026-10-14）。
