@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""総合記事② 不動産登記法編 第7章の4コマ6本：設計データ（spec_4koma_PF2-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
+"""総合記事② 不動産登記法編 第7章の4コマ7本：設計データ（spec_4koma_PF2-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
 使い方: python3 note-articles/sokatsu-zukai/02-fudousan-touki-hou/ch7/src/build_4koma.py [--check-only | --verify-sync]
 - 生成器は tools/drill/manga/gen_prompts.py の render()。一時フォルダに <fid>_prompt.md（単独記事用の節つき）を作って check_prompt.py を通し、
   NG 0件・WARN 0件のときだけ、総合記事に差し込む体裁（記事タイトル・冒頭文・見出し画像・画像ファイル名の節を外し、保存名を足した版）を ../prompt_4koma_*.md に書く。
@@ -21,6 +21,7 @@ NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
     "D0387-D0500": ("prompt_4koma_PF2-04_01_teitouken-shouken.md", "登記法編7章_4コマ4"),
     "D0991-D1593": ("prompt_4koma_PF2-04_02_chinshakuken.md", "登記法編7章_4コマ5"),
     "D1176": ("prompt_4koma_PF2-05_01_mochibun-kakanai.md", "登記法編7章_4コマ6"),
+    "D0498": ("prompt_4koma_PF2-06_01_shikichiken-shomei.md", "登記法編7章_4コマ7"),
 }
 
 def cut(text, head):

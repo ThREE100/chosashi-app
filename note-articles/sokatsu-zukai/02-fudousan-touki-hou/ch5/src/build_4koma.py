@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""総合記事②不動産登記法編 第5章の4コマ9本：設計データ（spec_4koma_PE-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
+"""総合記事②不動産登記法編 第5章の4コマ13本：設計データ（spec_4koma_PE-*.py）から prompt_4koma_*.md を生成し、check_prompt.py で機械チェックする。
 使い方: python3 note-articles/sokatsu-zukai/03-chousashi-hou/src/build_4koma.py [--check-only | --verify-sync]
 - 生成器は tools/drill/manga/gen_prompts.py の render()。一時フォルダに <fid>_prompt.md（単独記事用の節つき）を作って check_prompt.py を通し、
   NG 0件・WARN 0件のときだけ、総合記事に差し込む体裁（記事タイトル・冒頭文・見出し画像・画像ファイル名の節を外し、保存名を足した版）を ../prompt_4koma_*.md に書く。
@@ -14,15 +14,19 @@ from specs_4koma import SPECS
 
 OUT = HERE.parent
 NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
-    "D1454-D0784": ("prompt_4koma_PE-02_01_kosuu-suto-hitotou.md", "不動産登記法編⑤_4コマ1"),
-    "D2058-D0783": ("prompt_4koma_PE-03_01_ikkaku-senyuububun.md", "不動産登記法編⑤_4コマ2"),
-    "D1162": ("prompt_4koma_PE-04_01_ishitsu-no-ichibu.md", "不動産登記法編⑤_4コマ3"),
-    "D1778-D1382-D0979": ("prompt_4koma_PE-06_01_fuzoku-tatemono-hyouji.md", "不動産登記法編⑤_4コマ4"),
-    "D1473-D1474": ("prompt_4koma_PE-07_01_hozon-sakugo-massho.md", "不動産登記法編⑤_4コマ5"),
-    "D0691-D1573": ("prompt_4koma_PE-09_01_bunkatsu-shinseinin.md", "不動産登記法編⑤_4コマ6"),
-    "D0674-D0675": ("prompt_4koma_PE-11_01_messhitsu-no-toki.md", "不動産登記法編⑤_4コマ7"),
-    "D0975-D1858-D2052": ("prompt_4koma_PE-12_01_zumen-youhi.md", "不動産登記法編⑤_4コマ8"),
-    "D0685": ("prompt_4koma_PE-13_01_zumen-hozon-kikan.md", "不動産登記法編⑤_4コマ9"),
+    "D1831": ("prompt_4koma_PE-01_01_hyoudaibu-kiroku-shinki.md", "不動産登記法編⑤_4コマ1"),
+    "D1454-D0784": ("prompt_4koma_PE-02_01_kosuu-suto-hitotou.md", "不動産登記法編⑤_4コマ2"),
+    "D2058-D0783": ("prompt_4koma_PE-03_01_ikkaku-senyuububun.md", "不動産登記法編⑤_4コマ3"),
+    "D1162": ("prompt_4koma_PE-04_01_ishitsu-no-ichibu.md", "不動産登記法編⑤_4コマ4"),
+    "D1381-D1967": ("prompt_4koma_PE-05_01_shozai-genni-sonsuru-tochi.md", "不動産登記法編⑤_4コマ5"),
+    "D1778-D1382-D0979": ("prompt_4koma_PE-06_01_fuzoku-tatemono-hyouji.md", "不動産登記法編⑤_4コマ6"),
+    "D1473-D1474": ("prompt_4koma_PE-07_01_hozon-sakugo-massho.md", "不動産登記法編⑤_4コマ7"),
+    "D1687": ("prompt_4koma_PE-08_01_fuzoku-tatemono-kousei.md", "不動産登記法編⑤_4コマ8"),
+    "D0691-D1573": ("prompt_4koma_PE-09_01_bunkatsu-shinseinin.md", "不動産登記法編⑤_4コマ9"),
+    "D1457-D2059": ("prompt_4koma_PE-10_01_kyouyoubun-nuku-mono.md", "不動産登記法編⑤_4コマ10"),
+    "D0674-D0675": ("prompt_4koma_PE-11_01_messhitsu-no-toki.md", "不動産登記法編⑤_4コマ11"),
+    "D0975-D1858-D2052": ("prompt_4koma_PE-12_01_zumen-youhi.md", "不動産登記法編⑤_4コマ12"),
+    "D0685": ("prompt_4koma_PE-13_01_zumen-hozon-kikan.md", "不動産登記法編⑤_4コマ13"),
 }
 
 def cut(text, head):

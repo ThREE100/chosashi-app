@@ -16,12 +16,16 @@ OUT = HERE.parent
 NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
     "D1433-D1847": ("prompt_4koma_PC-01_01_zasshuchi-youto.md", "不登法第3章_4コマ1"),
     "D1544-D0689-D1546": ("prompt_4koma_PC-02_01_chimoku-henkou-meigi.md", "不登法第3章_4コマ2"),
-    "D1268-D1270-D0738": ("prompt_4koma_PC-04_01_kaibotsu-kasen.md", "不登法第3章_4コマ3"),
-    "D0190-D1265-D2019-D1495": ("prompt_4koma_PC-06_01_chizu-teisei-moushide.md", "不登法第3章_4コマ4"),
-    "D0752-D1047": ("prompt_4koma_PC-08_01_zumen-teisei-koushin.md", "不登法第3章_4コマ5"),
-    "D1159-D2046": ("prompt_4koma_PC-09_01_kiroku-shoryaku.md", "不登法第3章_4コマ6"),
-    "D0487-D0488": ("prompt_4koma_PC-10_01_kouzu-enkaku.md", "不登法第3章_4コマ7"),
-    "D0371-D1801": ("prompt_4koma_PC-12_01_kyakka-shinsa-seikyu.md", "不登法第3章_4コマ8"),
+    "D0988-D1280": ("prompt_4koma_PC-03_01_kisanten-kubun-henkou.md", "不登法第3章_4コマ3"),
+    "D1268-D1270-D0738": ("prompt_4koma_PC-04_01_kaibotsu-kasen.md", "不登法第3章_4コマ4"),
+    "D0642-D0643": ("prompt_4koma_PC-05_01_chiban-genritsu-reigai.md", "不登法第3章_4コマ5"),
+    "D0190-D1265-D2019-D1495": ("prompt_4koma_PC-06_01_chizu-teisei-moushide.md", "不登法第3章_4コマ6"),
+    "D1931-D1059": ("prompt_4koma_PC-07_01_chizu-teisei-hoshiki.md", "不登法第3章_4コマ7"),
+    "D0752-D1047": ("prompt_4koma_PC-08_01_zumen-teisei-koushin.md", "不登法第3章_4コマ8"),
+    "D1159-D2046": ("prompt_4koma_PC-09_01_kiroku-shoryaku.md", "不登法第3章_4コマ9"),
+    "D0487-D0488": ("prompt_4koma_PC-10_01_kouzu-enkaku.md", "不登法第3章_4コマ10"),
+    "D0485-D0369": ("prompt_4koma_PC-11_01_shinseinin-zumen.md", "不登法第3章_4コマ11"),
+    "D0371-D1801": ("prompt_4koma_PC-12_01_kyakka-shinsa-seikyu.md", "不登法第3章_4コマ12"),
 }
 
 def cut(text, head):

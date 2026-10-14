@@ -1,0 +1,78 @@
+"""D1381・D1967 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-14）。
+総合記事②不動産登記法編 第5章【PE-5】用。H30-Q14エ（区分建物でない建物で、主である建物の土地の地番と附属建物の地下車庫の土地の地番が同一でないとき、附属建物の土地の地番は主である建物の所在欄に記録されない・×）／R06-Q13ウ（仮換地が指定された土地の上に建物が新築された場合、表題登記の申請情報である建物の所在として、当該建物が現に存する土地の地番を提供しなければならない・〇）。
+【PE-5】の4肢（D1381・D1763・D1967・D1762）のうち、D1762には既存の4コマがあり、D1763は図解8が担当するので、既存の4コマがなく、受験者が『所在は主である建物の土地だけ』と取り違えやすいD1381と、『現に存する土地』⇔『予定地番』の対比が立つD1967に絞った。
+『所在欄に書くのは、建物が現に存する土地の地番（主である建物の土地が先、地下車庫の土地は後ろ）。仮換地の予定地番は、かっこ書きで併記してもよい任意のもの』を、型4（複数肢の対比。コマ1は肢のカード）に型3（理由説明）を組み合わせて整理した。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1381・D1967", fid="D1381-D1967", topic="不動産登記法／建物の認定・個数・種類構造床面積",
+    src="H30-Q14エ／R06-Q13ウ",
+    truth="D1381＝×（誤った記述）／D1967＝〇（正しい記述）",
+    miscon="建物の所在は、主である建物が存する土地の地番だけを書くものと考え、附属建物の地下車庫が別の地番の土地にあっても、その地番は所在欄に載らないと考える。また、仮換地の上の建物は、仮換地の予定地番や従前の土地の地番で所在を書くものと考える",
+    article="note-articles/h30-mondai/q14-fuzoku-tatemono.md",
+    art_head="エ（H30：主である建物の土地の地番と附属建物の地下車庫の土地の地番が異なっても、附属建物の土地の地番は所在欄に後ろから記録される。準則88条2項は2筆以上にまたがる建物の記録順の定めで、附属建物の土地の地番を所在欄に記録する点を直接定めた条文は法令DBで確認できず、登記実務上の取扱い）。ほか、R06-Q13ウ（r6-mondai/q13-tatemono-shozai.md。仮換地上の建物の所在は、仮換地の場所に現に登記記録が存在する土地の現在の地番。予定地番の併記は任意）。章の記事 note-articles/column/sokatsu-02-fudousan-touki-hou-ch5.md 【PE-5】",
+    letters="",
+    design=[
+        "【出題者のひっかけ】D1381は、肢が『附属建物である地下車庫が存在する土地の地番は、主である建物の表示欄の所在欄に記録されない』と言い切り、所在は主である建物の土地の地番だけと思い込ませる（実際は後ろに記録される。×）。D1967は『仮換地が指定された土地の上に』と始め、仮換地や従前の土地の地番を答えさせたくなるが、書くのは『現に存する土地の地番』である（〇）。どちらも、建物が現にどの土地にあるかを見落とさせる。",
+        "【受験者の勘違い・定着していない点】（推測）①建物の所在を『主である建物の土地の地番』と一つに決めてしまい、別の地番の土地にある地下車庫は所在欄に載らないと考える。②仮換地は、換地処分までは独自の地番を持つ土地ではなく、建物の下には底地という別の登記記録の土地があるため、予定地番や従前の土地の地番を所在にすると考える。③予定地番のかっこ書きを、書かなければならないものと取り違える。",
+        "【対比する制度】「現に存する土地の地番」⇔「仮換地の予定地番」：所在として必ず記録するのは建物が現に存する土地の地番（主である建物の土地が先、地下車庫の土地は後ろ、仮換地の上の建物は仮換地の場所に現に登記記録がある土地の地番）／仮換地の予定地番は、所在ではなく、かっこ書きで併記してもよいにとどまる（任意）（結論が逆になる点）。",
+        "【型の選び方】型：型4（複数肢の対比。コマ1は肢のカード）に型3（理由説明）を組み合わせる。理由：2肢は別々の場面（附属建物の地下車庫／仮換地の上の建物）で共通の日付がなく、『所在は主である建物の土地だけ』『仮換地なら予定地番』という別々の思い込みから出る。壁は『所在欄の地番は何を基準に書くか』という理由の欠落なので、コマ3で『現に存する土地かどうか』を理由に、地下車庫の土地と仮換地の場合を1つの整理にそろえた。コマ1＝2肢のカード（肢／場面／問い）、コマ2＝『現に存する土地の地番』と『仮換地の予定地番』の左右のカード、コマ3＝左は肢D1381の言い分（✕）と正しい整理（✓）、右は会話1往復と、所在欄の地番の決め方の整理カード、コマ4＝×・〇の整理。D1762（区分建物の非区分附属建物の所在は構造欄）のように区分建物の話にすると本論点の別の軸になるので入れていない。",
+        "コマごとに読者が言えること：コマ1＝2肢は、附属建物の地下車庫が別の地番にあるとき、仮換地の上に新築したときに、所在欄にどの地番を書くかを問う。コマ2＝書くのは建物が現に存する土地の地番で、仮換地の予定地番は所在ではなく、併記は任意。コマ3＝地下車庫の土地の地番も所在欄に後ろから記録される。仮換地の上なら現に存する土地の地番。コマ4＝D1381は×、D1967は〇。",
+        "記事の範囲：H30-Q14エ（準則88条2項。附属建物の土地の地番を所在欄に記録する点は実務の取扱い）、R06-Q13ウ（法44条1項1号、仮換地の上の建物の所在、予定地番の併記は任意）。総合記事【PE-5】の結論・判断のしかた1・2。増築で隣地にまたがったときの変更登記（D1763）と、区分建物の非区分附属建物の所在（D1762）は、この図に入れない。",
+        "extra_refs：法44条1項1号（建物の所在する市、区、郡、町、村、字及び土地の地番）・準則88条2項（2筆以上の土地にまたがる建物の所在は、床面積の多い部分又は主たる建物の所在する土地の地番を先に、他の土地の地番は後に記録）は法令DB note-articles/laws/fudousan-touki-hou.md・fudousan-touki-jimu-junsoku.md の原文で確認。準則の用語は『主たる建物』だが、図は記事の『主である建物』に合わせた。",
+        "同じ論点の他の肢（図には肢として載せない）：D1763（増築で隣接する土地にまたがったとき、地番を所在に加える変更登記ができる・×）は図解8が担当するので、この図には入れない。D1762（区分建物の非区分附属建物の所在は構造欄・〇）は既存の4コマ（D1762_prompt.md）があるので入れない。",
+        "登場人物：人型は使わず、建物と地番は文字のカードで示す。",
+        "矢印の意味：矢印は使わない。コマ1は縦2枚のカード、コマ2は左右のカード、コマ3は上下のカードと整理カード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3の左は上＝✕、下＝✓の1個ずつ。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、帯・リボンは濃紺（白文字）、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side（通常サイズのキャラが左右の端、図は中央）、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話1往復と整理カード）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で2肢が所在欄にどの地番を書くかを問うていること、コマ2で現に存する土地の地番が所在になり予定地番は任意と分かり、コマ3で地下車庫の土地も後ろに記録されることが言える",
+        "構成表の全文言を記事（H30-Q14エ、R06-Q13ウ）・総合記事【PE-5】・法令DB（法44条1項1号、準則88条2項）と突き合わせ済み。地下車庫の土地の地番を所在欄に記録する点は、条文に明記がないので『実務の取扱い』と添えた",
+        "コマ1・2に印がなく、コマ3の左は上＝✕・下＝✓の1個ずつ、コマ4だけ青✓。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①所在欄には建物が現に存する土地の地番を書く（主である建物の土地が先、地下車庫の土地は後ろ。実務の取扱い） ②仮換地の上の建物は、仮換地の場所に現に登記記録がある土地の地番 ③予定地番のかっこ書きの併記は任意 ④D1381は×、D1967は〇",
+    ],
+    extra_refs=[
+        "不動産登記法44条1項1号、不動産登記事務取扱手続準則88条2項。法令DB note-articles/laws/fudousan-touki-hou.md・fudousan-touki-jimu-junsoku.md と照合済み。附属建物の地下車庫の土地の地番を所在欄に記録する点は直接定めた条文がなく、記事（H30-Q14エ）も登記実務上の取扱いとする。仮換地の予定地番の併記が任意であることは記事（R06-Q13ウ）の先例の要旨に基づき、図には『実務の取扱い』と添えた",
+    ],
+    lead1="建物の所在の欄には、どの土地の地番が書かれるのでしょうか。附属建物の地下車庫が別の地番の土地にあるときや、仮換地の上に建物を新築したときは、どうなるのでしょうか。",
+    title="所在は、現に建つ土地の地番で書く", title_hl="現に建つ土地",
+    panels=[
+        dict(label="①　所在欄に、どの地番が載る？", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "所在は、主である建物の土地だけですよね？", None, "所在は、主である\n建物の土地だけ\nですよね？"),
+                      ("トリ先生", "出たわね。現に建つ土地を見落とす癖よ", "現に建つ土地", "出たわね。\n現に建つ土地を\n見落とす癖よ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: two SEPARATE cards stacked from top to bottom, both exactly the same size, each with the same pale gray fill, a dark navy outline, a small dark navy tag at its top left, one bold dark navy heading line, and one body line (each text at least 24 px high). Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: tag 「肢D1381」, heading 「地下車庫が、別の地番の土地にある」, body 「その地番は、所在欄に記録されない？」.",
+                  "Card 2: tag 「肢D1967」, heading 「仮換地の上に、建物を新築した」, body 「現に存する土地の地番を、所在とする？」.",
+                  "At the top, a small question badge in a gray fill with dark navy text 「所在欄に、どの地番が載る？」 (a question badge only, with no check mark and no cross).",
+                  "The two cards have clearly different texts; the texts are NOT identical. There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　現に存する土地と、予定地番", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「建物の所在」 at the top left, with one line beside it: 「どの地番が所在になるかを見る」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「現に存する土地の地番」, a small tag 「法44条1項1号」, three body lines: 「主である建物の土地が先、他は後ろ」, 「地下車庫の土地も後ろ（実務の取扱い）」, 「仮換地の上は、現に登記記録がある土地」, with the heading highlighted with a yellow marker.",
+                  "Right card, heading 「仮換地の予定地番」, a small tag 「実務の取扱い」, two body lines: 「かっこ書きで併記するかは、任意」, 「所在は、予定地番でなく現にある土地」.",
+                  "Under the two cards, one wide dark navy band with large white text 「肢D1381・肢D1967は、どちらも左の話」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　所在は、現に建つ土地で決まる", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "仮換地なら、予定地番を所在にしますか？", None, "仮換地なら、\n予定地番を\n所在にしますか？"),
+                      ("トリ先生", "いいえ。書くのは現に存する土地よ", "現に存する土地", "いいえ。\n書くのは\n現に存する土地よ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, a small tag 「肢D1381の言い分」, heading 「地下車庫の土地の地番は、所在欄に記録されない」, and ONE red cross only at the bottom of this card (no check mark on this card).",
+                  "Bottom card, heading 「地下車庫の土地の地番も、後ろに記録される」, body 「主である建物の土地が先（実務の取扱い）」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「所在欄の地番の決め方」 and a small dark navy tag 「法44条1項1号」 at its top right, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots), with no arrow and no check mark and no cross: 「肢D1381　地下車庫の土地は、後ろに記録」, 「肢D1967　仮換地の上は、現に存する土地」, 「予定地番のかっこ書きは、併記が任意」. Under the three rows, one small dark navy ribbon tag with white text 「ひっかけ：主である建物の土地だけ」, with the text 「主である建物の土地だけ」 highlighted with a yellow marker.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は×と〇",
+             bubbles=[("藍子", "どちらも、現に建つ土地を見るんですね！", None, "どちらも、\n現に建つ土地を\n見るんですね！"),
+                      ("トリ先生", "そう。主の地番だけで決めつけないことよ", "決めつけない", "そう。\n主の地番だけで\n決めつけないことよ")],
+             fig=[], checklist=["附属建物の地下車庫の土地の地番も、所在欄に後ろから記録される（肢D1381は×）", "仮換地の上の建物は、現に存する土地の地番を所在とする（肢D1967は〇）", "仮換地の予定地番のかっこ書きの併記は、任意"])
+    ],
+    band1="所在は、現に建つ土地の地番で書く", band2="問題D1381・D1967　正解×・〇（H30-Q14エ／R06-Q13ウ）",
+    final_extra="confirm that panel 1 and panel 2 contain no check mark and no cross anywhere, that the left side of panel 3 has exactly one red cross (top card) and one blue check mark (bottom card), and that the only other blue check marks in the whole image are the three in the checklist of panel 4; confirm that the two cards of panel 1 are in the order 肢D1381, 肢D1967, never swapped; confirm that the left card of panel 2 has the heading 「現に存する土地の地番」 and the right card has the heading 「仮換地の予定地番」, never swapped; confirm that the list card of panel 3 has exactly three rows",
+    ver="v01",
+    rev=["2026-10-14 v01：新規作成（総合記事②不動産登記法編 第5章【PE-5】用。型4（複数肢の対比。コマ1は肢のカード）に型3（理由説明）を組み合わせた。所在欄に書くのは現に存する土地の地番（主である建物の土地が先、地下車庫の土地は後ろ）で、仮換地の予定地番は併記が任意、という対比に絞った。D1762には既存の4コマ、D1763は図解8があるので扱わない）"],
+)
+
+HEADER = dict(h1="建物の所在", h2="どの地番が載る？", hkey="載る？",
+              scene_l="a small house with an underground garage entrance on a neat parcel map, no text",
+              scene_r="a blank land register page with a pen and a rubber stamp, no text")

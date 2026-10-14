@@ -1,0 +1,78 @@
+"""D0642・D0643 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-14）。
+総合記事②不動産登記法編 第3章【PC-5】用。H23-Q07イ（要役地の地役権を分筆後のいずれかの土地について消滅させ、その地役権を抹消するときは、分筆した土地について支号を用いない地番を存することができる・〇）／H23-Q07ウ（特別の事情があるときは、合筆した土地について、合筆前の首位の地番をもってその地番としなくても差し支えない・〇）。
+【PC-5】の3肢（D0642・D0643・D0940）のうち、D0940（宅地と山林は接続していても合筆できない）には既存の4コマ（tools/drill/manga/D0940_prompt.md）があるので、地番の付け方の2肢（D0642・D0643）に絞った。
+『分筆は支号を付ける、合筆は首位の地番、が原則。でも、どちらにも例外がある』という、原則だけを覚えた受験者が肢を×にしてしまう点を、型4（コマ3の右に型5の整理カード）で組んだ。"""
+import fig_parts as F
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D0642・D0643", fid="D0642-D0643", topic="不動産登記法／土地の表題・地目・地積",
+    src="H23-Q07イ・ウ",
+    truth="D0642＝〇（正しい記述）／D0643＝〇（正しい記述）",
+    miscon="分筆は『分筆前の地番に支号を付ける』、合筆は『合筆前の首位の地番にする』と、原則だけを覚えて、例外（要役地の地役権を消すときの分筆、特別の事情がある合筆）を知らず、肢を×にする。地役権を消すときは、どの土地に支号なしの地番を残すかも決まっていると思い込む",
+    article="note-articles/h23-mondai/q07-chiban.md",
+    art_head="イ（H23：要役地についてする地役権の登記がある土地で地番に支号がないものを分筆するとき、地役権を分筆後のいずれかの土地について消滅させることを証する地役権者作成の情報が提供され、その土地の地役権を抹消するときは、分筆した土地について支号を用いない地番を存することができる。不動産登記事務取扱手続準則67条1項5号、不動産登記規則104条6項。どの土地に残すかは定めがない）・ウ（特別の事情があるときは、合筆前の首位の地番をもってその地番としなくても差し支えない。準則67条1項7号。原則は同6号）。章の記事 note-articles/column/sokatsu-02-fudousan-touki-hou-ch3.md 【PC-5】",
+    letters="",
+    design=[
+        "【出題者のひっかけ】D0642は『要役地についてする地役権の登記がある土地で地番に支号がないもの』『当該地役権を分筆後のいずれかの土地について消滅させる』『支号を用いない地番を存する』と、長い前提を重ねる。分筆は支号を付けるものと覚えた受験者に、『支号を用いない』という結論が目に入った時点で×と読ませる。D0643は『特別の事情がある場合には』『合筆前の首位の地番をもってその地番としなくとも差し支えない』と書き、『合筆は首位の地番』という原則を知っている受験者に、例外を認める言い回しを誤りと見せる。",
+        "【受験者の勘違い・定着していない点】（推測）①分筆は『分筆前の地番に支号を付ける』、合筆は『合筆前の首位の地番とする』を、例外のない決まりと覚えている。例外は、分筆では規則104条6項の場面（準則67条1項5号）、合筆では特別の事情があるとき（同7号）に限られて認められることが定着していない。②地役権を消す分筆で、支号なしの地番をどの土地に残すかまで決まっていると思い込む（準則67条1項5号は定めていない）。",
+        "【対比する制度】「分筆の地番」⇔「合筆の地番」：分筆した土地は分筆前の地番に支号を付けて各筆の地番を定めるのが原則（準則67条1項4号）で、要役地の地役権を分筆後のいずれかの土地について消滅させるときは、支号を用いない地番を存することができる（同5号）／合筆した土地は合筆前の首位の地番とするのが原則（同6号）で、特別の事情があるときは、適宜の地番を定めて差し支えない（同7号）。どちらも原則と例外の2段で、原則だけ覚えると肢の結論が逆（〇を×）になる点。",
+        "【型の選び方】型：型4（複数肢の対比。コマ3の右に型5の整理カードを併用）。理由：2つの肢は共通の日付のない別々の場面（分筆と合筆）なので、時系列にはせず、コマ1は肢ごとのカード2枚（肢D0642・肢D0643）、コマ2は『分筆の地番』と『合筆の地番』の左右の対比カード（原則と例外を各カードに書く）、コマ3は両肢を『言い分』として並べ、右に『例外が使える場面』の整理カードを置いた。壁＝『原則だけを覚えていて、例外が肢で出ると×に見える』。既存の同章の4コマ（PC-4＝small→none→faces→既定の表と対比）と同じ型だが、コマ1を side（カード2枚を縦に並べる）にして見せ方を変えた。型1にしなかったのは、2肢とも〇で、ひっかけが『藍子の思い込み1つ』ではなく『分筆と合筆の両方に例外がある』ことだから。",
+        "コマごとに読者が言えること：コマ1＝2つの肢（要役地の地役権を消す分筆／特別の事情がある合筆）が、原則に反するように見える言い分を書いている。コマ2＝分筆は支号が原則で地役権を消すなら支号なしも可、合筆は首位の地番が原則で特別の事情があれば適宜の地番も可。コマ3＝どちらの言い分も〇。地役権の例外を使える場面と、どの土地に支号なしを残すかは準則が定めていないこと。コマ4＝D0642は〇、D0643は〇。",
+        "記事の範囲：H23-Q07イ・ウ（準則67条1項4号〜7号、規則104条6項）。章の記事【PC-5】の中身の整理（分筆の原則と地役権の例外、合筆の原則と特別の事情）。合筆の制限（法41条）は、既存の4コマ（D0940）と図解8の範囲なので、この本には入れない。",
+        "extra_refs：不動産登記事務取扱手続準則67条1項4号（『分筆した土地については、分筆前の地番に支号を付して各筆の地番を定める。ただし、本番に支号のある土地を分筆する場合には、その１筆には、従来の地番を存し、他の各筆には、本番の最終の支号を追い順次支号を付してその地番を定める』）・5号（『前号本文の規定にかかわらず、規則第１０４条第６項に規定する場合には、分筆した土地について支号を用いない地番を存することができる』）・6号（『合筆した土地については、合筆前の首位の地番をもってその地番とする』）・7号（『特別の事情があるときは、第３号、第４号及び第６号の規定にかかわらず、適宜の地番を定めて差し支えない』）は、法令DB note-articles/laws/fudousan-touki-jimu-junsoku.md の第67条で原文を確認。不動産登記規則104条6項（要役地についてする地役権の登記がある土地の分筆で、地役権者が作成した情報が提供されたとき、当該地役権が消滅した旨を登記）は note-articles/laws/fudousan-touki-kisoku-1.md の第百四条で原文を確認。",
+        "同じ論点の他の肢（図には肢として載せない）：D0940（接続する甲土地を乙土地に合筆する登記は申請できない。甲は宅地、乙は山林で地目が違う・〇。法41条2号）は既存の4コマ（tools/drill/manga/D0940_prompt.md）があるため、この本では扱わない。7号の特別の事情は準則では3号・4号・6号にかかる（分筆にも表題登記にも及ぶ）ので、図は『肢が問う場面』（合筆）に絞って書き、分筆では特別の事情が使えないとは書いていない。",
+        "登場人物：人型は使わず、肢・土地・条文の号は文字のカードで示す。事例の当事者は出さない。",
+        "矢印の意味：矢印は使わない。コマ1は縦2枚のカード、コマ2は左右のカード、コマ3は上下2枚のカードと右の整理カード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3の左は2枚とも正しい言い分なので、青✓を1個ずつ（✕は使わない。2肢とも〇）。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side（通常サイズのキャラが左右の端、図は中央にカード2枚）、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話2つと整理カード）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で2つの肢の言い分（支号なしの地番／首位でない地番）が言え、コマ2で分筆と合筆の原則と例外、コマ3で地役権の例外が使える場面とどの土地に残すかの定めがないことが言える",
+        "構成表の全文言を記事（H23-Q07イ・ウ）・法令DB（準則67条1項4号〜7号、規則104条6項）に突き合わせ済み。合筆の制限・D0940は、この本の範囲外",
+        "コマ1・2に印がなく、コマ3の左は青✓1個ずつ（2肢とも〇）、コマ4だけ青✓。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①分筆の原則は分筆前の地番に支号を付ける（準則67条1項4号） ②要役地の地役権を分筆後のいずれかの土地について消滅させるときは、支号を用いない地番を存することができる（同5号。どの土地に残すかは定めがない） ③合筆の原則は合筆前の首位の地番（同6号）、特別の事情があれば適宜の地番（同7号） ④D0642は〇、D0643は〇",
+    ],
+    extra_refs=[
+        "不動産登記事務取扱手続準則67条1項4号〜7号。法令DB note-articles/laws/fudousan-touki-jimu-junsoku.md の第67条で原文と照合済み。不動産登記規則104条6項は note-articles/laws/fudousan-touki-kisoku-1.md の第百四条で原文と照合済み。『どの土地に残すかの定めがない』は記事H23-Q07イの言い方にそろえた（図には『準則は定めていない』と書いた）",
+    ],
+    lead1="土地を分筆したり合筆したりするとき、登記官はどんな地番を付けるのでしょうか。地役権を消す分筆や、特別の事情がある合筆でも、原則どおりなのでしょうか。",
+    title="分筆は支号、合筆は首位。でも例外あり", title_hl="例外あり",
+    panels=[
+        dict(label="①　2つの肢を並べる", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "分筆は支号、合筆は首位。例外はないですよね？", None, "分筆は支号、\n合筆は首位。\n例外はないですよね？"),
+                      ("トリ先生", "出たわね。準則が例外を認めているのよ", "例外を認めている", "出たわね。\n準則が\n例外を認めているのよ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: a small question badge 「分筆と合筆に、例外はある？」 at the top (a question badge only, with no check mark and no cross), and under it two SEPARATE cards stacked from top to bottom, both exactly the same size, each with the same pale gray fill and a dark navy outline, with no check mark, no cross, and no arrow anywhere. The two cards are separated only by a small empty gap, with nothing drawn between them.",
+                  "Each card has a small dark navy tag at its top left, one bold dark navy heading line, and one body line (each text at least 24 px high).",
+                  "Card 1: tag 「肢D0642」, heading 「要役地の地役権を消す分筆」, body 「支号なしの地番を残せる」.",
+                  "Card 2: tag 「肢D0643」, heading 「特別の事情がある合筆」, body 「首位の地番でなくてよい」.",
+                  "The two cards have clearly different texts; the texts are NOT identical, so copy each character exactly as given."]),
+        dict(label="②　分筆の地番と、合筆の地番", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=F.two_cards("地番の定め方", "どちらも、原則と例外の2段",
+                             ("分筆の地番", "準則67条1項4号・5号", ["原則：分筆前の地番に支号を付ける", "例外：要役地の地役権を消すとき", "支号なしの地番を残せる"]),
+                             ("合筆の地番", "準則67条1項6号・7号", ["原則：合筆前の首位の地番", "例外：特別の事情があるとき", "適宜の地番を定めて差し支えない"]),
+                             None)),
+        dict(label="③　例外が使える場面", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "支号なしの地番は、どの土地に残るの？", None, "支号なしの地番は、\nどの土地に残るの？"),
+                      ("トリ先生", "準則は定めていないわ。選べるの", "定めていない", "準則は\n定めていないわ。\n選べるの")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, heading 「肢D0642の言い分」, body 「地役権を消す分筆は、支号なしも可」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "Bottom card, heading 「肢D0643の言い分」, body 「特別の事情があれば、首位でなくてよい」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「例外が使える場面」, with the same pale gray fill and a dark navy outline, containing exactly five short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots), with no arrow and no check mark and no cross: 「分筆：要役地の地役権を消す」, 「地役権者が作った情報を提供」, 「どの土地に残すかは定めなし」, 「合筆：特別の事情がある」, 「首位の地番によらなくてよい」, with the fifth row highlighted with a yellow marker. Under the five rows, one small dark navy ribbon tag with white text 「ひっかけ：例外はない、と決めつける」, with the text 「例外はない」 highlighted with a yellow marker.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇・〇",
+             bubbles=[("藍子", "原則と例外を、セットで覚えるんですね！", None, "原則と例外を、\nセットで覚える\nんですね！"),
+                      ("トリ先生", "そう。肢の言い分は、どちらも〇よ", "どちらも〇", "そう。\n肢の言い分は、\nどちらも〇よ")],
+             fig=[], checklist=["分筆の原則は支号。要役地の地役権を消すなら、支号なしを残せる（肢D0642は〇）",
+                                "合筆の原則は首位の地番。特別の事情があれば、適宜の地番でよい（肢D0643は〇）",
+                                "支号なしの地番を、どの土地に残すかは定めがない"]),
+    ],
+    band1="分筆は支号、合筆は首位。でも例外あり", band2="問題D0642・D0643　正解〇・〇（H23-Q07イ・ウ）",
+    ver="v01",
+    rev=["2026-10-14 v01：新規作成（総合記事②不動産登記法編 第3章【PC-5】用。型4（複数肢の対比。＋型5の整理カード）。D0940には既存の4コマがあるため、地番の付け方の2肢に絞った。2肢の言い分、分筆の地番と合筆の地番の原則と例外の対比、例外が使える場面の整理カードを組んだ）"],
+)
+
+HEADER = dict(h1="分筆と合筆の地番", h2="原則と例外は？", hkey="例外は？",
+              scene_l="a tidy desk with a land register map divided into two plots by a thin line, and a small numbered stake, no text",
+              scene_r="two adjoining land plots being merged on a drawing board with a ruler and a pencil, no text")

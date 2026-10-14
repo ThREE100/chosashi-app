@@ -15,11 +15,14 @@ from specs_4koma import SPECS
 OUT = HERE.parent
 NAMES = {  # fid -> (出力ファイル名, 保存名の頭)
     "D1359-D1361": ("prompt_4koma_PG1-01_01_kiyaku-kyouyou-bubun.md", "不登法8章_4コマ1"),
-    "D0403-D0986": ("prompt_4koma_PG1-05_01_genin-no-hizuke.md", "不登法8章_4コマ2"),
-    "D1588-D1589-D1501": ("prompt_4koma_PG1-05_02_genin-no-bungon.md", "不登法8章_4コマ3"),
-    "D2063-D2065": ("prompt_4koma_PG1-06_01_tochi-no-seigen.md", "不登法8章_4コマ4"),
-    "D2064": ("prompt_4koma_PG1-07_01_jusho-fuicchi.md", "不登法8章_4コマ5"),
-    "D0583": ("prompt_4koma_PG1-09_01_shikichi-nomi-teitouken.md", "不登法8章_4コマ6"),
+    "D1584": ("prompt_4koma_PG1-02_01_chijouken-shikichiken.md", "不登法8章_4コマ2"),
+    "D1792": ("prompt_4koma_PG1-04_01_ikkatsu-shinsei.md", "不登法8章_4コマ3"),
+    "D0403-D0986": ("prompt_4koma_PG1-05_01_genin-no-hizuke.md", "不登法8章_4コマ4"),
+    "D1588-D1589-D1501": ("prompt_4koma_PG1-05_02_genin-no-bungon.md", "不登法8章_4コマ5"),
+    "D2063-D2065": ("prompt_4koma_PG1-06_01_tochi-no-seigen.md", "不登法8章_4コマ6"),
+    "D2064": ("prompt_4koma_PG1-07_01_jusho-fuicchi.md", "不登法8章_4コマ7"),
+    "D1082": ("prompt_4koma_PG1-08_01_gattai-wariai-gassan.md", "不登法8章_4コマ8"),
+    "D0583": ("prompt_4koma_PG1-09_01_shikichi-nomi-teitouken.md", "不登法8章_4コマ9"),
 }
 
 def cut(text, head):

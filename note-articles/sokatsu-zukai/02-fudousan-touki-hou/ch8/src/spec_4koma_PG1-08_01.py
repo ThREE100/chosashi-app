@@ -1,0 +1,75 @@
+"""D1082 の4コマ解説図解の設計データ（SPEC）と見出し画像の設定（HEADER）。v01（2026-10-14）。
+総合記事②不動産登記法編 第8章【PG1-8】用（1本目）。H27-Q15ウ（いずれも敷地権付き区分建物の甲と乙を合体し、合体後も敷地権付き区分建物となる場合、敷地権の割合を合算したものが合体後の割合となるときは、敷地権の割合に係る規約を設定したことを証する情報を提供することを要しない・〇。不動産登記令別表13の項添付情報欄ヘのかっこ書）。
+【PG1-8】の5肢（D0402・D0405・D1082・D1579・D1577）のうち、D0402・D0405・D1577（発生と消滅の添付情報、規約敷地の分筆）には既存の4コマがあり、D1579（D1082の裏の肢）は条文別シリーズの既存の4コマが扱っている。合体の肢の表（〇）側のD1082は、4コマがまだないので、D1082に絞った。
+『割合が合算になる合体』と『合算にならない合体』の対比と、『なぜ合算なら要らないのか』（新たに規約を設定したといえない）を、型3（理由説明）に型5（整理カード併用）を組み合わせて組んだ。"""
+
+SPEC = dict(
+    ippatsu=True, purpose=True,
+    id="D1082", fid="D1082", topic="不動産登記法／区分建物・敷地権・共用部分",
+    src="H27-Q15ウ",
+    truth="D1082＝〇（正しい記述）",
+    miscon="敷地権付きの区分建物の登記には規約を証する情報が付き物だと一括りにして、合体でも割合の規約を証する情報が必ず要ると考えて×にする。または、合体のどんな場合にも例外が及ぶと広げて、合体前の建物の一方に敷地権がない場合や、合算した割合にならない場合まで『要らない』と考える",
+    article="note-articles/h27-mondai/q15-kubun-tatemono.md",
+    art_head="ウ（H27：いずれも敷地権付き区分建物である甲・乙を合体し、合体後も敷地権付き区分建物となる場合に、合体前の敷地権の割合を合算したものが合体後の割合となるときは、規約証明情報は不要。不動産登記令別表13の項添付情報欄ヘのかっこ書。趣旨は、あらためて規約を設定したものとはいえないため）。章の記事 note-articles/column/sokatsu-02-fudousan-touki-hou-ch8.md 【PG1-8】",
+    letters="",
+    design=[
+        "【出題者のひっかけ】肢が『敷地権の割合に係る規約を設定したことを証する情報を提供することを要しない』と言い切り、敷地権付きの区分建物には規約の証明が付き物だと思う受験者に『要しない』を疑わせる。同じ場面で合体前の割合を合算したものが合体後の割合『となるとき』という条件が付いていることを読み落とすと、一般論（要る）で×にしてしまう。",
+        "【受験者の勘違い・定着していない点】（推測）①敷地権が関わる登記には規約を証する情報が必ず要る、と一括りにする。②令別表13の項ヘのかっこ書の除外が、『合体前の二以上の建物がいずれも敷地権付き』『合体後も敷地権付き』『割合を合算したものが合体後の割合』の三つがそろったときに限られることが定着していない。③除外の理由（足し算で割合が出るので、新たに規約を設定したといえない）が分かっていないので、条件を一つ外した場面でも崩れる。",
+        "【対比する制度】「割合が合算になる合体」⇔「合算にならない合体」：割合が合算になる合体＝合体前の割合を足した割合がそのまま合体後の割合になるので、規約を証する情報は要らない（令別表13の項添付情報欄ヘのかっこ書）／合算にならない合体＝割合を足し算で出せないので、ヘの情報（規約を設定したことを証する情報・他の登記所の土地の登記事項証明書）を提供する（結論が逆になる点）。",
+        "【型の選び方】型：型3（理由説明）＋型5（整理カード併用）。理由：結論（合算なら要らない）だけでなく、『なぜ要らないのか』『どこまで要らないのか』が分からないと、条件を一つ外した場面で崩れるため、コマ2で合算になる合体と合算にならない合体を左右に並べ、コマ3の右側は会話1往復と、除外の三つの条件の整理カードにした。壁＝『敷地権付きなら規約証明は必ず要る』。既存の4コマ（D0402・D0405・D1577）は発生と消滅・分筆の話で、合体の例外は扱っていない。",
+        "コマごとに読者が言えること：コマ1＝敷地権付きの区分建物どうしの合体で、割合の規約を証する情報は要るか。コマ2＝割合が合算になる合体なら規約を証する情報は要らず、合算にならなければヘの情報が要る。コマ3＝新たに規約を設定したといえないから要らない。除外は、全部が敷地権付き・合体後も敷地権付き・合算が割合、の三つがそろったときだけ。コマ4＝D1082は〇。",
+        "記事の範囲：H27-Q15ウ（令別表13の項添付情報欄ヘのかっこ書）。章の記事【PG1-8】の『中身の整理』『たとえば』（3分の1と6分の1を合体して合算の2分の1になる場合は割合の規約証明情報は要らず、合算にならなければヘの情報が必要）。『新たに規約を設定したといえないため』は、記事が『趣旨としては…と説明されます』とする説明で、条文そのものに書かれた理由ではない（図にも趣旨として載せる）。",
+        "extra_refs：不動産登記令別表13の項添付情報欄ヘ（本文の（1）区分所有法5条1項の規約、（2）同22条2項ただし書の規約の割合、（3）他の登記所の土地の登記事項証明書と、かっこ書の除外）は、法令DB note-articles/laws/fudousan-touki-rei-betsuhyou.md の十三の項で原文を確認。不動産登記規則120条8項にも、割合を合算した割合が合体後の割合となるときに敷地権である旨の登記の規定（119条）を適用しない定めがあるが、別の話（敷地権である旨の登記）なので図には入れない。",
+        "同じ論点の他の肢（図には肢として載せない）：D1579（同じ合体で、合算になるのに規約証明を提供しなければならない・×。D1082の裏の肢）は、条文別シリーズに既存の4コマがあるので、肢のタグは付けず、コマ2の対比とコマ4の暗記で結論だけ触れる。D0402・D0405（敷地権の消滅を原因とする変更登記の添付情報）・D1577（規約敷地の分筆）にも既存の4コマがあり、今回は扱わない。",
+        "登場人物：人型は使わず、建物の割合と書類の名前は文字のカードで示す。事例の当事者は出さない。",
+        "矢印の意味：矢印は使わない。コマ1は縦3枚のカード、コマ2は左右のカード、コマ3は上下のカードと整理カード。",
+        "配色：コマ1・2は印（✓✕）を付けない。コマ3の左は上のカードに青✓1個だけ（下のカードには印を付けない）。コマ4の暗記3点だけ青✓。カードは薄い灰色・濃紺の枠、強調は黄色マーカーだけ。",
+        "コマの使い方（キャラは不必要に小さくしない）：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（左に上下2枚のカード、右に会話2つと整理カード）、コマ4＝既定（両方・通常サイズ）。隣り合うコマで同じ見せ方が続かない。",
+    ],
+    review=[
+        "初見の読者：コマ1で肢の問い（敷地権付きの区分建物どうしの合体で規約の証明は要るか）、コマ2で合算になる合体と合算にならない合体の違い、コマ3で要らない理由と除外の三つの条件が言える",
+        "構成表の全文言を記事（H27-Q15ウ・章の記事【PG1-8】）と法令DB（令別表13の項添付情報欄ヘ）に突き合わせ済み。『新たに規約を設定したといえない』は趣旨の説明として図に載せた（条文の文言ではない）",
+        "コマ1・2に印がなく、コマ3の左は上のカードに青✓1個だけ、コマ4だけ青✓3個。コマの使い方は side→none→faces→既定 で隣り合うコマが同じにならない。キャラを小さくしたコマはない",
+        "肝の確認：①敷地権付きの区分建物どうしの合体で、合体後も敷地権付き ②合体前の割合を合算したものが合体後の割合なら、規約を証する情報は要らない ③合算にならなければヘの情報が要る ④除かれるのは三つがそろったときだけ ⑤D1082は〇",
+    ],
+    extra_refs=[
+        "不動産登記令別表13の項添付情報欄ヘ。法令DB note-articles/laws/fudousan-touki-rei-betsuhyou.md の十三の項で原文と照合済み。記事（H27-Q15ウ）がヘのかっこ書を引いている。『新たに規約を設定したといえない』は記事の趣旨の説明（条文に直接の文言はない）",
+    ],
+    lead1="いずれも敷地権が付いた甲区分建物と乙区分建物を合体し、合体後も敷地権付きの区分建物になります。敷地権の割合が、合体前の割合を足したものになるとき、割合の規約を証する情報は必要なのでしょうか。",
+    title="合算の合体なら、規約証明は要らない", title_hl="規約証明は要らない",
+    panels=[
+        dict(label="①　敷地権付きどうしを合体", chars="side", mood="curious, calm mood",
+             bubbles=[("藍子", "敷地権があるなら、規約の証明は要りますよね？", None, "敷地権があるなら、\n規約の証明は\n要りますよね？"),
+                      ("トリ先生", "出たわね。足し算で済むなら話は別よ", "足し算", "出たわね。\n足し算で済むなら\n話は別よ")],
+             fig=["A diagram in the center, about 56 percent of the panel width: a small question badge 「肢D1082：割合を足しただけの合体で、規約の証明は要る？」 at the top (a question badge only, with no check mark and no cross), and under it three SEPARATE cards stacked from top to bottom, all the same size, each with the same pale gray fill, a dark navy outline, a small dark navy dot at its left end (NO number, NO digit, NO letter on the dots, so that they cannot be confused with the circled panel numbers), and one dark navy text line. Do NOT draw any arrow anywhere in this panel and do NOT connect the cards; they are separated only by a small empty gap.",
+                  "Card 1: 「敷地権付きの甲区分建物と乙区分建物」. Card 2: 「二つを合体して、一つの建物になる」. Card 3: 「合体後の建物も敷地権付きになる」.",
+                  "There is no check mark and no cross anywhere in this panel."]),
+        dict(label="②　合算になるか、ならないか", chars="none", mood="clear, calm infographic mood",
+             bubbles=[],
+             fig=["A small dark navy tag 「令別表十三の項」 at the top left, with one line beside it: 「割合が足し算で出るかで分かれる」.",
+                  "Two large cards side by side in the center, both exactly the same size and top-aligned, each with its dark navy heading placed fully INSIDE the card, with the same pale gray fill and a dark navy outline, and with no check mark and no cross.",
+                  "Left card, heading 「割合が合算になる合体」, a small tag 「ヘのかっこ書」, two body lines: 「割合は足し算で出る」, 「規約を証する情報は要らない」, with the heading highlighted with a yellow marker.",
+                  "Right card, heading 「合算にならない合体」, a small tag 「ヘ」, two body lines: 「規約を設定したことを証する情報」, 「他の登記所の土地の登記事項証明書」.",
+                  "Under the two cards, one wide dark navy band with large white text 「要らないのは、合算が合体後の割合になるときだけ」.",
+                  "The two cards have clearly different texts; the texts are NOT identical."]),
+        dict(label="③　要らない理由と条件", chars="faces", opposite="lx", mood="thoughtful then confident mood",
+             bubbles=[("藍子", "なぜ、要らないんですか？", None, "なぜ、\n要らないんですか？"),
+                      ("トリ先生", "新たに規約を設定したとは言えないからよ", "言えない", "新たに規約を\n設定したとは\n言えないからよ")],
+             fig=["LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.",
+                  "Top card, a small dark navy tag 「肢D1082の言い分」, heading 「合算なら、規約証明は要らない」, two body lines: 「3分の1 ＋ 6分の1 ＝ 2分の1」, 「足し算で割合が出る」, and ONE blue check mark only at the bottom of this card (no cross on this card).",
+                  "Bottom card, heading 「合算にならないなら」, two body lines: 「足し算では割合が出ない」, 「ヘの情報を提供する」, and no check mark and no cross on this card.",
+                  "RIGHT SIDE, under the two speech bubbles (the two speech bubbles and their two faces stay at the top of the right side): one tall list card with a dark navy heading 「除外が使える三つの条件」, with the same pale gray fill and a dark navy outline, containing exactly three short rows, each with a small dark navy dot at its left end (NO digit and NO letter on the dots), with no arrow and no check mark and no cross: 「合体前が、どちらも敷地権付き」, 「合体後も、敷地権付き」, 「合算がそのまま合体後の割合」, with the third row highlighted with a yellow marker. Under the three rows, one small dark navy ribbon tag with white text 「新たに規約を設定したといえない、という趣旨」.",
+                  "The list card is a part of the right side, and it is NOT a speech bubble. The left cards and the list card have clearly different texts; the texts are NOT identical."]),
+        dict(label="④　結論は〇",
+             bubbles=[("藍子", "合算で割合が出るなら、証明は要らないんですね！", None, "合算で割合が出るなら、\n証明は\n要らないんですね！"),
+                      ("トリ先生", "そう。条件が三つそろったときだけよ", "三つ", "そう。\n条件が三つ\nそろったときだけよ")],
+             fig=[], checklist=["敷地権付きどうしの合体で、割合が合算になれば、規約証明は不要（肢D1082は〇）", "合算にならなければ、ヘの情報を提供する", "足し算で割合が出るので、新たに規約を設定したといえない"])
+    ],
+    band1="割合の合算だけなら、規約の証明は不要", band2="問題D1082　正解〇（H27-Q15ウ）",
+    ver="v01",
+    rev=["2026-10-14 v01：新規作成（総合記事②不動産登記法編 第8章【PG1-8】用。型3（理由説明）＋型5。割合が合算になる合体と合算にならない合体の対比と、除外が使える三つの条件に絞った）"],
+)
+
+HEADER = dict(h1="割合を足すだけの合体", h2="規約の証明は要る？", hkey="要る？",
+              scene_l="two small apartment blocks with a door sign each, merging into one block, no text",
+              scene_r="a document sheet with a rubber stamp and a small calculator, no text")
