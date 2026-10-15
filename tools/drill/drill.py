@@ -335,7 +335,7 @@ def write_cycle(seen):
     json.dump({'seen': seen}, open(CYCLE, 'w', encoding='utf-8'), ensure_ascii=False)
 
 
-def pick(bank, st, n, subject, topic, mode, include_old=False):
+def pick(bank, st, n, subject, topic, mode, include_old=False, check_n=None):
     nowt = now()
     last_session = []
     if os.path.exists(SESSION):
@@ -402,6 +402,8 @@ def pick(bank, st, n, subject, topic, mode, include_old=False):
         chosen = cand[:n]
     else:  # mixed: 要復習3・チェック2（5問のとき）。足りない区分は 要復習 → チェック → 新規 の順で埋める
         n_rv = round(n * 0.6); n_ck = n - n_rv
+        if check_n is not None:   # チェックの問数を指定（残りが要復習）
+            n_ck = min(check_n, n); n_rv = n - n_ck
         # 要復習は「一周」方式：今の周でまだ出していない肢を W の多い順に出し、全部出したら周をリセットする
         # （誤答の多い肢だけが続けて出るのを防ぐ）
         seen = read_cycle()
@@ -450,7 +452,16 @@ def cmd_next(a):
     sync_log_branch()
     bank = load_bank(); st = item_state(read_log())
     subj = SUBJ_ALIAS.get(a.subject, a.subject)
-    ids = pick(bank, st, a.n, subj, a.topic, a.mode, a.include_old)
+    k_old = getattr(a, 'old_new', 0) or 0
+    ids = pick(bank, st, a.n - k_old, subj, a.topic, a.mode, a.include_old, getattr(a, 'check_n', None))
+    if k_old:   # H17〜H19（旧年度）の未出題を k_old 問まぜる（2026-10-15）
+        old = [i for i, x in bank.items()
+               if x.get('status', 'verified') in ('verified', 'provisional') and i not in st and i not in ids
+               and OLD_TIER[0] <= item_year(x) <= OLD_TIER[1]
+               and (not subj or x['subject'] == subj) and (not a.topic or x['topic'] == a.topic)]
+        random.shuffle(old)
+        ids = ids + spread_by_topic(old, bank, st, k_old)
+        random.shuffle(ids)
     if not ids:
         print('出題できる問題がありません（要復習・チェック・新規なし）。--mode new か別の科目を試してください。')
         return
@@ -880,7 +891,7 @@ def main():
     sub = p.add_subparsers(dest='cmd', required=True)
     sub.add_parser('start')
     n = sub.add_parser('next'); n.add_argument('-n', type=int, default=10); n.add_argument('--subject'); n.add_argument('--topic')
-    n.add_argument('--include-old', action='store_true', help='H17〜H19の新規も出す'); n.add_argument('--mode', default='mixed', choices=['mixed', 'new', 'review', 'weak'])
+    n.add_argument('--include-old', action='store_true', help='H17〜H19の新規も出す'); n.add_argument('--old-new', type=int, default=0, help='H17〜H19の未出題をこの問数だけまぜる（-n の内数）'); n.add_argument('--check-n', type=int, default=None, help='mixed のチェックの問数（残りは要復習）'); n.add_argument('--mode', default='mixed', choices=['mixed', 'new', 'review', 'weak'])
     an = sub.add_parser('answer'); an.add_argument('id'); an.add_argument('ans')
     sub.add_parser('save')
     r = sub.add_parser('report'); r.add_argument('--json', action='store_true')
