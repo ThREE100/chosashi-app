@@ -28,7 +28,7 @@
 
 Aが2個の区分建物（専有部分の全部）を所有し、敷地の所有権もAが単独で持っているなら、その所有権は専有部分と分離して処分できず、敷地権として登記されます。本肢は正しい内容です。
 
-**たとえば**、1人の所有者が2戸だけのアパートを新築し、敷地も自分のものであれば、土地と建物は一体の扱いとなり、敷地権として登記されます。
+**たとえば**、1人の所有者が2戸だけの建物を2個の区分建物として新築し、敷地も自分のものであれば、土地と建物は一体の扱いとなり、敷地権として登記されます。
 
 ### イ：準共有の賃借権でも、数人で持つ権利なので、分離処分できない
 
@@ -40,7 +40,7 @@ Aが2個の区分建物（専有部分の全部）を所有し、敷地の所有
 
 ### ウ：数個の専有部分を持つ場合、割合は床面積の割合による
 
-区分所有者が数個の専有部分を所有するときは、各専有部分に係る敷地利用権の割合は、専有部分の床面積の割合によります（区分所有法22条2項本文、同法14条1項）。
+区分所有者が数個の専有部分を所有するときは、各専有部分に係る敷地利用権の割合は、専有部分の床面積の割合によります（区分所有法22条2項本文、同法14条1項。Aは専有部分の全部を所有する者なので、同条3項で2項が準用されます）。
 
 規約でこの割合と違う定めをしていなければ、床面積の割合になります。床面積は壁などの内側で測ります（同法14条3項）。本肢は正しい内容です。
 
@@ -50,7 +50,7 @@ Aが2個の区分建物（専有部分の全部）を所有し、敷地の所有
 
 区分所有法22条2項は、区分所有者が「数個の専有部分を所有するとき」の割合を定めた規定です。本問のAとBは、それぞれ1個の専有部分しか持っていません。
 
-この場合、敷地利用権の割合は、A・Bがそれぞれ有する土地の持分の割合になります。建物の床面積の割合とは一致するとは限りません。本肢は正しい内容です。
+この場合、敷地利用権の割合は、A・Bがそれぞれ有する土地の持分の割合になります。建物の床面積の割合で決まるものではありません。本肢は正しい内容です。
 
 **たとえば**、土地の持分がAが3分の2、Bが3分の1で、建物の床面積はAもBも同じだとします。敷地権の割合は、床面積に関係なく、3分の2と3分の1です。
 
@@ -172,7 +172,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 敷・地・権・合・決・部・分・所・登・記・物・図・書・建・共・処・売・可・止・仮 — these
+kanji 敷・地・権・合・決・部・分・所・登・記・区・建・物・図・書・共・処・売・可・止・仮 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
@@ -209,7 +209,7 @@ Badge: a filled green circle containing the number 1 (numbers
 run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 専有部分を全部持つ人の単独所有権は敷地権
-Illustration: 2戸だけのアパートと、その敷地。すべての戸と敷地がAの持ち物で、敷地権の印が押されている様子。
+Illustration: 2個の区分建物からなる2戸だけの建物と、その敷地。すべての戸と敷地がAの持ち物で、敷地権の印が押されている様子。
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 敷地権として登記
@@ -261,7 +261,7 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 敷・地・権・合・決・部・分・所・登・記・物・図・書・建・共・処・売・可・止・仮. Also scan the entire canvas for any character that is not standard Japanese
+attention to 敷・地・権・合・決・部・分・所・登・記・区・建・物・図・書・共・処・売・可・止・仮. Also scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other
 non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. If any character renders as a Simplified or

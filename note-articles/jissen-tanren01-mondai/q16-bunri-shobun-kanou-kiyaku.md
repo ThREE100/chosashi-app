@@ -28,7 +28,7 @@
 
 一棟の建物の敷地が数筆あり、各区分所有者がそれぞれ別の筆を単独で所有している場合（いわゆる分有）は、この禁止の対象になりません。規約を定めなくても、専有部分と敷地利用権を分離して処分できます。本肢は正しい内容です。
 
-**たとえば**、タウンハウスのように、各戸の所有者が自分の戸の敷地を別々の土地として単独所有している場合は、建物と土地を別々に処分すること自体は、区分所有法の禁止にはあたりません。
+**たとえば**、1棟の2戸建ての建物（区分建物）で、甲の所有者が1筆目の土地を、乙の所有者が2筆目の土地を、それぞれ単独で所有している場合は、建物と土地を別々に処分すること自体は、区分所有法の禁止にはあたりません。
 
 ### イ：特定の区分建物についてだけ、規約を設定してもよい
 
@@ -122,7 +122,7 @@ Below the title, a light blue rounded pill-shaped subtitle band with navy text:
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
 TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the characters):
-Left side: a row of townhouses each with its own small garden, no text
+Left side: a two-unit apartment building with two separate small land plots beside it, no text
 Right side: a notary's desk with a stamp and a blank document, no text
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the characters and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
@@ -169,7 +169,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 分・処・可・規・約・敷・地・書・特・定・区・建・物・部・所・共・正・証・前・合・体・権 — these
+kanji 分・処・可・規・約・敷・地・建・区・物・所・筆・書・特・定・部・共・正・証・前・合・体 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
@@ -206,7 +206,7 @@ Badge: a filled green circle containing the number 1 (numbers
 run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 分有の敷地は規約なしで分離できる
-Illustration: タウンハウスの各戸が、それぞれ自分の敷地を持っている様子。規約の書類は「不要」と書いた薄い点線の札で示す。
+Illustration: 2戸建ての区分建物で、各戸の所有者がそれぞれ別の筆の敷地を単独で持っている様子。規約の書類は「不要」と書いた薄い点線の札で示す。
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 規約がなくてよい
@@ -258,7 +258,7 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 分・処・可・規・約・敷・地・書・特・定・区・建・物・部・所・共・正・証・前・合・体・権. Also scan the entire canvas for any character that is not standard Japanese
+attention to 分・処・可・規・約・敷・地・建・区・物・所・筆・書・特・定・部・共・正・証・前・合・体. Also scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other
 non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
