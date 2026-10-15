@@ -163,10 +163,10 @@ Below this frame draw one short plain dark navy arrow pointing down; this arrow 
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「新築と同日なら「新築」と記録する」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Close-up of Row 1: its cause cell is filled by a blue rubber stamp showing the correct word, with a small calendar page of the building's completion day beside it.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Close-up of Row 1: its cause cell is filled by a blue rubber stamp bearing the labelled word, with a small calendar page of the building's completion day beside it.
 Short labels on the left panel, each exactly once: 「10月20日」, 「敷地権」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「文言は「敷地権」」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Close-up of Row 1: its cause cell is filled by a red rubber stamp showing a different word, with a small icon of a newly built house crossed out beside it.
+RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Close-up of Row 1: its cause cell is filled by a red rubber stamp bearing the labelled word, with a small icon of a newly built house crossed out beside it.
 Short labels on the right panel, each exactly once: 「10月20日」, 「新築」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「「新築」は誤り」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
@@ -174,10 +174,10 @@ Put a small dark navy tag reading 「出題文の内容」 on the top edge of th
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「割合が変わったら「変更」と記録する」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Close-up of Row 2: the share cell shows an arrow from the larger fraction to the smaller one, and its cause cell is filled by a blue rubber stamp showing the correct word.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Close-up of Row 2: the share cell shows an arrow from the larger fraction to the smaller one, and its cause cell is filled by a blue rubber stamp bearing the labelled word.
 Short labels on the left panel, each exactly once: 「11月20日」, 「変更」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「原因は「変更」」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Close-up of Row 2: the share cell shows the same arrow, but its cause cell is filled by a red rubber stamp showing another word, with a pair of scissors icon beside it.
+RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Close-up of Row 2: the share cell shows the same arrow, but its cause cell is filled by a red rubber stamp bearing the labelled word, with a pair of scissors icon beside it.
 Short labels on the right panel, each exactly once: 「11月20日」, 「分割」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「「分割」は誤り」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
@@ -188,7 +188,7 @@ Below the banner place two panels side by side, equal width, each with a thick r
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: A room divided by a new wall into two rooms in the isometric building; below it, the ledger row with the share changing to the smaller fraction, and the cause cell filled by a blue rubber stamp with the correct word.
 Short labels on the left panel, each exactly once: 「部屋を区分」, 「変更」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「原因は「変更」」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: The same divided room; below it, the ledger row with the share changing, but the cause cell is filled by a red rubber stamp showing a different word, scissors icon beside it.
+RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: The same divided room; below it, the ledger row with the share changing, but the cause cell is filled by a red rubber stamp bearing the labelled word, scissors icon beside it.
 Short labels on the right panel, each exactly once: 「部屋を区分」, 「分割」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「分けても「分割」ではない」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
@@ -222,10 +222,10 @@ Below this frame draw one short plain dark navy arrow pointing down; this arrow 
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「原因は「敷地権消滅」と記録する」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: The struck-out ledger row with a blue rubber stamp in its cause cell showing the correct word, and the expired calendar page pinned beside it.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: The struck-out ledger row with a blue rubber stamp in its cause cell bearing the labelled word, and the expired calendar page pinned beside it.
 Short labels on the left panel, each exactly once: 「敷地権消滅」, 「抹消の行」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「敷地権消滅」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: A ledger row with a red rubber stamp showing another word in its cause cell, and beside it a signed agreement sheet that allows separate disposal of the room and the land.
+RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: A ledger row with a red rubber stamp bearing the labelled word in its cause cell, and beside it a signed agreement sheet that allows separate disposal of the room and the land.
 Short labels on the right panel, each exactly once: 「非敷地権」, 「規約の書面」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「非敷地権は別の場面」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
@@ -312,7 +312,7 @@ Short labels on the left panel, each exactly once: 「同じ管轄」, 「証明
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「同じ管轄なら不要」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: The faceless owner pictogram attaches a ledger copy sheet to the bundle even though the plot is in the same district; a surplus paper pile grows beside the desk.
 Short labels on the right panel, each exactly once: 「同じ管轄」, 「証明書を添付」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「同じでも添付は誤り」
+Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「同じ管轄でも必要は誤り」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:

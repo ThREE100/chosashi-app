@@ -69,7 +69,7 @@ A slim pale-yellow banner across the top of the row, with this claim text exactl
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: The plain handshake note stays outside the edge of the ledger, stopped by a low barrier. The room's registry sheet beside it has a blank land-right row.
 Short labels on the left panel, each exactly once: 「使用借権」, 「登記簿」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「登記できず敷地権外」
+Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「登記できず敷地権にならない」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: The plain handshake note is placed inside a row of the room's registry sheet, with a thick chain tying the note to the room.
 Short labels on the right panel, each exactly once: 「使用借権」, 「敷地権の表示」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「使用借権も敷地権」
@@ -126,7 +126,7 @@ Put a small dark navy tag reading 「出題文の内容」 on the top edge of th
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「規約の設定後に表題部の変更登記ができる」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: The right building's registry sheet with a title section. A pencil adds a new land-right block, and a stamp is pressed beside it. A calendar page next to it shows the rule being made first.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: The right building's registry sheet with a title section. A pencil adds a new land-right block, and a stamp is pressed beside it. A small rule document sheet with a stamp lies beside the pencil.
 Short labels on the left panel, each exactly once: 「表題部」, 「変更登記」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「敷地権の発生で変更登記」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: The same registry sheet unchanged, with a big red cross over the pencil, and the stamp lying aside.
@@ -156,7 +156,7 @@ Subtitle (smaller, centered, 1 line):
 --- SECTION 1: THE STATE (full width, dark navy frame) ---
 Section label (navy pill at the top-left of the frame):
 「出題文の状態」
-Illustration: Isometric meeting room with a long table and eight faceless simple pictograms seated around it. One blue pictogram raises a hand; the others keep their hands down. On the wall behind them a screen shows a building plan with an extra land plot added beside it. On the table lies a thick minutes document with a stamp. Beside the screen stands a pie chart with exactly three quarters filled in blue.
+Illustration: Isometric meeting room with a long table and eight faceless simple pictograms seated around it. One blue pictogram raises a hand; the others keep their hands down. On the wall behind them a screen shows a building plan with an extra land plot added beside it. On the table lies a thick minutes document with a stamp.
 Short labels placed on the objects, each exactly once: 「丙土地」, 「議事録」, 「集会」.
 Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.
 --- SECTION 2: CLAIM 1 (full-width row) ---
@@ -193,7 +193,7 @@ Subtitle (smaller, centered, 1 line):
 --- SECTION 1: THE STATE (full width, dark navy frame) ---
 Section label (navy pill at the top-left of the frame):
 「出題文の状態」
-Illustration: Isometric view of a newly built apartment building where every window carries a small key tag held by a single faceless blue pictogram standing at the entrance. Beside the building stands a notary desk with a stamped certificate bearing a red seal. Four small icons float above the certificate: a shared hallway, a garden plot, a pair of keys separated by a scissors, and a pie share chart. Separately, on the right, a signboard shows a staircase and an elevator with a pie chart of floor-area shares.
+Illustration: Isometric view of a newly built apartment building where every window carries a small key tag held by a single faceless blue pictogram standing at the entrance. Beside the building stands a notary desk with a stamped certificate bearing a red seal. Four small icons float above the certificate: a small shared meeting room, a garden plot, a pair of keys separated by a scissors, and a pie share chart. Separately, on the right, a signboard shows a staircase and an elevator with a pie chart of floor-area shares.
 Short labels placed on the objects, each exactly once: 「公正証書」, 「最初の所有者」, 「階段室」, 「持分割合」.
 Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.
 --- SECTION 2: CLAIM 1 (full-width row) ---

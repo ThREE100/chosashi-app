@@ -44,7 +44,7 @@ Below the banner place two panels side by side, equal width, each with a thick r
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the highlighted room used as a small shop with its own door, a counter and a shop sign; a faceless person walks in directly from the corridor without passing through any other room. A blue arrow runs from the corridor to the door.
 Short labels on the left panel, each exactly once: 「利用上の独立性」, 「専用の玄関」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「使える＝利用上」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of the same shop room, but the usable-by-itself arrow is tied to a red name plate that belongs to the wall-partition idea, as if the two names were swapped. A faceless person looks puzzled.
+RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of the same shop room with its own door and counter. A red name plate carrying the label is stuck on the blue arrow that runs from the corridor to the door (the usable-by-itself idea), while the walls of the room have no plate at all. A faceless person looks puzzled.
 Short labels on the right panel, each exactly once: 「構造上の独立性」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「呼び名の取り違え」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
