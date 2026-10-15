@@ -13,6 +13,9 @@ sys.path.insert(0, HERE)
 from common import quote_block, quote_block_dialogue, infographic_prompt, midashi_prompt  # noqa: E402
 from specs import SPECS  # noqa: E402
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(HERE)), "tools"))
+from split_paragraphs import process as split_long_paragraphs  # noqa: E402
+
 OUT = os.path.dirname(HERE)
 
 
@@ -55,7 +58,10 @@ def build(n):
     out.append("```")
     out.append("")
     path = os.path.join(OUT, "q%02d-%s.md" % (n, s["slug"]))
-    open(path, "w", encoding="utf-8").write("\n".join(out))
+    final = "\n".join(out)
+    # 解説文の1段落が長すぎるとき（format-templateの「1段落は4行以内」）は、文の区切りで分ける
+    final, _changed = split_long_paragraphs(final)
+    open(path, "w", encoding="utf-8").write(final)
     return path
 
 

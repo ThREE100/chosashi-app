@@ -1,9 +1,8 @@
-"""実践答練 第2回 択一式の指定をまとめる（第1問〜第10問＝specs_a、第11問〜第20問＝specs_b）。"""
-from specs_a import A
-
-SPECS = dict(A)
-try:
-    from specs_b import B
-    SPECS.update(B)
-except ImportError:
-    pass
+"""実践答練 第2回 択一式の指定をまとめる（specs_a＝第1〜5問、specs_b＝第6〜10問、specs_c＝第11〜15問、specs_d＝第16〜20問）。"""
+SPECS = {}
+for _name, _var in (("specs_a", "A"), ("specs_b", "B"), ("specs_c", "C"), ("specs_d", "D")):
+    try:
+        _mod = __import__(_name)
+        SPECS.update(getattr(_mod, _var))
+    except ImportError:
+        pass
