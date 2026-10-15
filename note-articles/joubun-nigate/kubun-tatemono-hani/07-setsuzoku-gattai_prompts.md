@@ -39,13 +39,13 @@ Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「独立性のない増築部分は共有にならない」
+「独立性のない増築部分は共有になる」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: the new passage merges into the existing building owned by one faceless owner (shown with a key); the faceless person with banknotes stands aside and receives nothing. A soft blue glow on the merged building.
 Short labels on the left panel, each exactly once: 「既存の所有者」, 「付合する」, 「費用だけ出した人」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「既存の所有者のもの」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric illustration: the new passage is split in half with a dividing line; two faceless people stand on either side, each holding a half share token. A soft red glow.
-Short labels on the right panel, each exactly once: 「共有者の甲」, 「共有者の乙」, 「共有になる」.
+Short labels on the right panel, each exactly once: 「所有者」, 「費用を出した人」, 「共有になる」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「共有者になる」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- FOOTER ---
@@ -78,8 +78,8 @@ Below this frame draw one short plain dark navy arrow pointing down; this arrow 
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「区分の要件を欠いたら合体の登記等を申請する」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: one big room with no partition, a faceless owner handing a document folder to a clerk at a counter; a calendar page marked within one month. A new single registry sheet replaces two old sheets that are stamped as closed.
-Short labels on the left panel, each exactly once: 「1個の建物」, 「新しい記録」, 「閉鎖の記録」, 「一月以内」.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: one big room with no partition, a faceless owner handing a document folder to a clerk at a counter; a calendar page marked within one month. A new single registry sheet appears, and the two old sheets are stamped as cancelled.
+Short labels on the left panel, each exactly once: 「1個の建物」, 「新しい記録」, 「抹消した記録」, 「一月以内」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「合体の登記等を申請」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric illustration: the same big room with no partition, but the registry still shows two separate room sheets unchanged on a shelf; the faceless owner walks away without filing anything.
 Short labels on the right panel, each exactly once: 「そのまま」, 「2室の記録」, 「申請しない」.
@@ -87,13 +87,13 @@ Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「登記名義人は合体の登記等を申請できる」
+「登記名義人は合体の登記等を申請できない」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: two faceless owners standing side by side at a counter, both holding their ownership registry sheets, and the clerk accepts their joint filing document with an open stamp. Soft blue glow.
-Short labels on the left panel, each exactly once: 「名義人の甲」, 「名義人の乙」, 「申請できる」.
+Short labels on the left panel, each exactly once: 「名義人」, 「もう一人の名義人」, 「申請できる」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「申請できる」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric illustration: two faceless owners at a counter blocked by a closed gate sign; the clerk shows a crossed-out filing document. Soft red glow.
-Short labels on the right panel, each exactly once: 「名義人の甲」, 「名義人の乙」, 「閉まった窓口」.
+Short labels on the right panel, each exactly once: 「名義人」, 「もう一人の名義人」, 「閉まった窓口」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「申請できない」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- FOOTER ---
@@ -126,7 +126,7 @@ Below this frame draw one short plain dark navy arrow pointing down; this arrow 
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「表題部所有者が一月以内に申請する」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: the faceless owner at a counter hands a folder to a clerk; the calendar shows a page marked within one month; one new registry sheet appears and two old sheets are stamped as closed.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: the faceless owner at a counter hands a folder to a clerk; the calendar shows a page marked within one month; one new registry sheet appears and the two old sheets are stamped as cancelled.
 Short labels on the left panel, each exactly once: 「表題部所有者」, 「一月以内」, 「新しい記録」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「一月以内に申請」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric illustration: the faceless owner leaves the two registry sheets unchanged on the shelf and the calendar pages turn over many times; a faint red glow over the calendar.
@@ -164,10 +164,10 @@ A slim pale-yellow banner across the top of the row, with this claim text exactl
 「乙の検査済証は所有権を証する情報として付けられる」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: a document folder on the counter containing the registry-based items; the right building's registry sheet shows the owner already listed, so a faceless clerk points at the sheet and the inspection certificate is placed aside, not required. The left building's owner uses a small identification key card.
-Short labels on the left panel, each exactly once: 「所有者は記録済」, 「不要な書類」, 「識別情報」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「証する情報は不要」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric illustration: a faceless person attaches the inspection certificate to the filing folder as proof of ownership for the right building, with a crossed-out pointing arrow, and the clerk shakes the head. Soft red glow.
-Short labels on the right panel, each exactly once: 「検査済証」, 「付けて提出」, 「受け付けない」.
+Short labels on the left panel, each exactly once: 「所有者は記録済」, 「不要な書類」, 「登記識別情報」.
+Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「乙は証明不要」
+RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric illustration: a faceless person attaches the inspection certificate to the filing folder as proof of ownership for the right building, pointing at the right building's registry sheet. Soft red glow.
+Short labels on the right panel, each exactly once: 「検査済証」, 「乙にも付ける」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「検査済証を付ける」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- FOOTER ---
@@ -209,7 +209,7 @@ Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「合算で決まっても規約証明情報が要る、は誤り」
+「合算で決まっても規約証明情報が要る」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: two land-share tokens are added together on a small scale into a single larger token; no extra document appears, and a faceless clerk accepts the filing. Soft blue glow.
 Short labels on the left panel, each exactly once: 「持分の足し算」, 「追加書類なし」, 「受理される」.
@@ -257,13 +257,13 @@ Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「主従の関係がなくても区分合併できる」
+「主従の関係がなければ区分合併できない」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: the two rooms touching along a wall are drawn as equal-sized peers with no main or accessory building arrow; the registry sheets are merged by a faceless clerk. Soft blue glow.
 Short labels on the left panel, each exactly once: 「対等な2室」, 「接している」, 「合併できる」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「主従は不要」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric illustration: a faceless clerk rejects the merge, pointing to a missing arrow marking one room as main and one as accessory. Soft red glow.
-Short labels on the right panel, each exactly once: 「主従の矢印」, 「ない」, 「断られる」.
+Short labels on the right panel, each exactly once: 「主従の矢印なし」, 「断られる」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「主従が必要」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- FOOTER ---
@@ -289,7 +289,7 @@ Subtitle (smaller, centered, 1 line):
 --- SECTION 1: THE STATE (full width, dark navy frame) ---
 Section label (navy pill at the top-left of the frame):
 「出題文の状態」
-Illustration: Isometric illustration of a small building whose two rooms are merged into one ordinary house, beside a land plot with a rubber-stamp label on its registry sheet showing a land-right note. A faceless owner stands at the building and a faceless clerk stands near the land's registry sheet.
+Illustration: Isometric illustration of a small building that contains exactly two adjacent rooms, each carrying a small land-right mark, with a dashed arrow showing the two rooms will be merged into one ordinary house. Beside it, a land plot whose registry sheet shows a land-right note. A faceless owner stands at the building and a faceless clerk stands near the land's registry sheet.
 Short labels placed on the objects, each exactly once: 「甲区分建物」, 「乙区分建物」, 「土地の記録」, 「登記官」.
 Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.
 --- SECTION 2: CLAIM 1 (full-width row) ---
@@ -342,7 +342,7 @@ Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「敷地権の割合が違っても合併できる」
+「敷地権の割合が違えば合併できない」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: two different-sized pie-shaped shares of the same land plot sit side by side, and a faceless clerk merges the two registry sheets regardless. Blue glow.
 Short labels on the left panel, each exactly once: 「大きい持分」, 「小さい持分」, 「合併できる」.
@@ -411,7 +411,7 @@ Subtitle (smaller, centered, 1 line):
 --- SECTION 1: THE STATE (full width, dark navy frame) ---
 Section label (navy pill at the top-left of the frame):
 「出題文の状態」
-Illustration: Isometric illustration of a main building A with an accessory condominium unit on its side, and another main building B with its own accessory condominium unit. The unit of A is shown being detached on a dashed outline and moved toward B's accessory unit. Registry sheets for A and B sit in front.
+Illustration: Isometric illustration of a main building A with an accessory condominium unit on its side, and another main building B with its own accessory condominium unit. The unit of A is shown being detached on a dashed outline and moved toward B's accessory unit, which stands close beside it. Registry sheets for A and B sit in front.
 Short labels placed on the objects, each exactly once: 「甲建物」, 「乙建物」, 「甲の附属」, 「乙の附属」.
 Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.
 --- SECTION 2: CLAIM 1 (full-width row) ---
@@ -427,7 +427,7 @@ Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「接続していれば一の申請でできる」
+「接続していても一の申請はできない」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric illustration: the two accessory units touching along a wall, and a single combined filing sheet carrying both the split and merge stamps is accepted by a faceless clerk. Blue glow.
 Short labels on the left panel, each exactly once: 「壁で接続」, 「一の申請」, 「受理される」.

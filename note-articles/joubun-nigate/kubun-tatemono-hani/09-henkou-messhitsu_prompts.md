@@ -35,18 +35,18 @@ Short labels on the left panel, each exactly once: 「地番が変更」, 「名
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「名義人に申請義務」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric single-family house on a parcel whose number plate has changed; a faceless owner pictogram sits relaxed with the registry sheet left unchanged and an old number still shown, with a large blank space in place of an application form.
 Short labels on the right panel, each exactly once: 「登記はそのまま」, 「申請しない」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「登記が現実とずれる」
+Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「申請しなくてよい」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「所在の変更には変更後の建物図面を添付する」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric apartment building on one parcel with a dashed outline of a smaller parcel left without the building; beside it lies a floor-plan style building drawing sheet placed on top of the application documents, with a checked stack of papers.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric apartment building on one parcel with a dashed outline of a smaller parcel left without the building; beside it lies a floor-plan style building drawing sheet placed on top of a neat stack of application documents.
 Short labels on the left panel, each exactly once: 「建物図面」, 「変更後」, 「所在の変更」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「変更後の建物図面を添付」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric apartment building and the same two parcels; the application documents are stacked on a desk with an empty slot where a drawing sheet should be, and a faceless clerk pictogram holds out an empty hand.
 Short labels on the right panel, each exactly once: 「図面なし」, 「申請書だけ」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「図面が足りない」
+Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「図面は要らない」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 建, 所, 権, 物, 番, 登, 記, 請; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 2 claim row(s), each with a blue left panel and a red right panel, with no duplicated or missing panels, confirm every label appears exactly once and reads exactly as given, confirm the 「出題文の内容」 tag appears exactly 2 time(s), and confirm that no panel contains a full sentence of explanatory prose. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
@@ -76,25 +76,25 @@ Short labels placed on the objects, each exactly once: 「増築した部屋」,
 Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.
 --- SECTION 2: CLAIM 1 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「図面は変更の箇所を示せば足りる」
+「一棟の建物の図面も添付しなければならない」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric apartment building with only the extended room highlighted by a bold outline; a single floor-plan drawing sheet showing just the changed part is placed on a desk.
 Short labels on the left panel, each exactly once: 「変更の箇所」, 「平面図」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「変更の箇所を示せば足りる」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric apartment building entirely outlined; a very tall stack of whole-building drawing sheets covering the full building, piled on a desk and overflowing, with a faceless pictogram looking tired.
 Short labels on the right panel, each exactly once: 「全体の図面」, 「一式すべて」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「全体まで求められない」
+Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「一棟の図面も必要」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「登記前の買主は変更の登記を申請する義務を負わない」
+「登記前の買主にも申請義務がある」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric scene of two stages from left to right: first a faceless buyer holding a key while the registry sheet still shows the seller's name, then, after an arrow marked next, the registry sheet showing the buyer's name and a small calendar with a one-month span, with the buyer holding an application form.
 Short labels on the left panel, each exactly once: 「売主の名義」, 「買主の名義」, 「1か月以内」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「名義人になってから義務」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric scene of a faceless buyer holding a key and an application form immediately, while the registry sheet still shows the seller's name; a stopwatch beside the buyer is running.
 Short labels on the right panel, each exactly once: 「名義はまだ売主」, 「すぐ申請」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「登記前の義務はない」
+Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「登記前から義務がある」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 売, 建, 所, 物, 登, 記, 請, 買; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 2 claim row(s), each with a blue left panel and a red right panel, with no duplicated or missing panels, confirm every label appears exactly once and reads exactly as given, confirm the 「出題文の内容」 tag appears exactly 2 time(s), and confirm that no panel contains a full sentence of explanatory prose. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
@@ -124,14 +124,14 @@ Short labels placed on the objects, each exactly once: 「共用ベランダ」,
 Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.
 --- SECTION 2: CLAIM 1 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「隣の土地の地番を所在欄に加えられる」
+「隣の土地の地番を所在欄に加えられない」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
 LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric registry sheet whose location row lists two parcel numbers, the original one and a newly added one, with a pen adding the second number; the apartment building with its balcony over both parcels stands behind the sheet.
 Short labels on the left panel, each exactly once: 「地番を追加」, 「所在の欄」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「所在欄に加えられる」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric registry sheet whose location row lists only one parcel number, with a large bold barrier sign in front of a pen that tries to add a second number; the balcony still extends over the adjacent parcel in the background.
 Short labels on the right panel, each exactly once: 「追加できない」, 「所在の欄」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「加えられない扱い」
+Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「加えられない」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 建, 所, 物, 番; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 1 claim row(s), each with a blue left panel and a red right panel, with no duplicated or missing panels, confirm every label appears exactly once and reads exactly as given, confirm the 「出題文の内容」 tag appears exactly 1 time(s), and confirm that no panel contains a full sentence of explanatory prose. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
@@ -168,7 +168,7 @@ Short labels on the left panel, each exactly once: 「一人が申請」, 「他
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「一人から申請できる」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric scene where all four faceless owner pictograms stand tightly in line in front of a registry office window, each holding a form, with a closed gate that stays shut until the fourth owner arrives.
 Short labels on the right panel, each exactly once: 「全員が必要」, 「閉じた門」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「全員がそろう必要はない」
+Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「全員がそろう必要がある」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 建, 所, 物, 登, 記, 請; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 1 claim row(s), each with a blue left panel and a red right panel, with no duplicated or missing panels, confirm every label appears exactly once and reads exactly as given, confirm the 「出題文の内容」 tag appears exactly 1 time(s), and confirm that no panel contains a full sentence of explanatory prose. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
