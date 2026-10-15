@@ -174,7 +174,7 @@ C[13] = dict(
 
 C[14] = dict(
     slug="fuzoku-tatemono",
-    title="職権で分割された乙建物に登記識別情報はないんです",
+    title="分割された乙建物に登記識別情報はないんです",
     ask="wrong",
     truth=dict(ア=True, イ=True, ウ=False, エ=True, オ=False),
     choices={1: "アイ", 2: "アエ", 3: "イウ", 4: "ウオ", 5: "エオ"},
