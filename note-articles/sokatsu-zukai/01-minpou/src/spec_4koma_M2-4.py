@@ -1,7 +1,7 @@
 # 民法編・総合記事【M2-4】占有の訴えの相手方と、本権との関係：4コマ1本の設計データ（SPEC と HEADER）。
 """D0217・D0219・D1621（H19-Q03イ・エ／R03-Q02イ）を、論点全体の整理（占有の訴えは本権の有無を問わない。相手方は占有を保つ者）として作る4コマの設計データ。
 D1621は既存の tools/drill/manga/D1621_prompt.md（所有権を防御方法にできないことだけを深掘りする版）がある。今回は、3肢を並べて占有の訴えの全体像を整理する別の角度。
-使い方: python3 tools/drill/manga/render_spec.py note-articles/column/sokatsu-01-minpou-img/src/spec_4koma_M2-4.py note-articles/column/sokatsu-01-minpou-img/4koma"""
+使い方: python3 tools/drill/manga/render_spec.py note-articles/sokatsu-zukai/01-minpou/src/spec_4koma_M2-4.py note-articles/sokatsu-zukai/01-minpou/4koma"""
 
 SPEC = dict(
     ippatsu=True, purpose=True,

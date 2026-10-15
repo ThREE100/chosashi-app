@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """総合記事（民法編）の見出し画像プロンプトを作る。4コマの見出し画像の生成器 gen_prompts.header_prompt を使い、
 サブタイトルだけこの記事用に差し替える（数字のない文言なので、数字の許可の一文も直す）。
-使い方: python3 note-articles/column/sokatsu-01-minpou-img/src/gen_midashi.py"""
+使い方: python3 note-articles/sokatsu-zukai/01-minpou/src/gen_midashi.py"""
 import sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[4]
 sys.path.insert(0, str(ROOT / "tools/drill/manga"))
@@ -49,5 +49,5 @@ ChatGPTに、キャラクターの参照画像（トリ先生と藍子の基準�
 - [ ] 左右のテーマの場面に文字がなく、タイトル・キャラより目立たない
 - [ ] 背景が不透明（透過・チェッカーボードなし）、中央でトリミングしても主要要素が切れない
 """
-(ROOT / "note-articles/column/sokatsu-01-minpou-img/prompt_midashi_sokatsu-01-minpou.md").write_text(out, encoding="utf8")
+(ROOT / "note-articles/sokatsu-zukai/01-minpou/prompt_midashi_sokatsu-01-minpou.md").write_text(out, encoding="utf8")
 print("written", len(out))

@@ -1,7 +1,7 @@
 # 民法編・総合記事【M2-3】占有回収の訴えを起こせるのは誰か：4コマ1本の設計データ（SPEC と HEADER）。
 """D0820・D1620・D2012（H25-Q03ア／R03-Q02ア／R07-Q02オ）を、論点全体の整理（3つの場面とも『法律上の占有者』なら提起できる）として作る4コマの設計データ。
 D2012は既存の tools/drill/manga/D2012_prompt.md（転貸人だけを深掘りする版）がある。今回は、3肢を並べて『誰が占有者か』の見分け方を整理する別の角度。
-使い方: python3 tools/drill/manga/render_spec.py note-articles/column/sokatsu-01-minpou-img/src/spec_4koma_M2-3.py note-articles/column/sokatsu-01-minpou-img/4koma"""
+使い方: python3 tools/drill/manga/render_spec.py note-articles/sokatsu-zukai/01-minpou/src/spec_4koma_M2-3.py note-articles/sokatsu-zukai/01-minpou/4koma"""
 
 SPEC = dict(
     ippatsu=True, purpose=True,

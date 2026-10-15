@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """民法編を章ごとに分けた記事（sokatsu-01-minpou-ch1〜3.md）の見出し画像プロンプトを作る。
 4コマ解説図解の見出し画像の生成器 gen_prompts.header_prompt を使い、サブタイトルだけ差し替える（数字のない文言）。
-使い方: python3 note-articles/column/sokatsu-01-minpou-img/src/gen_midashi_ch.py"""
+使い方: python3 note-articles/sokatsu-zukai/01-minpou/src/gen_midashi_ch.py"""
 import sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[4]
 sys.path.insert(0, str(ROOT / "tools/drill/manga"))
@@ -24,7 +24,7 @@ CH = {
             scene_l="two faceless buyers on either side of one flat house, and a blank registry ledger with a rubber stamp",
             scene_r="a family tree sketch with blank nodes, a small wooden box, and a house key"),
 }
-OUT = ROOT / "note-articles/column/sokatsu-01-minpou-img"
+OUT = ROOT / "note-articles/sokatsu-zukai/01-minpou"
 a = "and the Arabic numeral 4; the only Latin letters and digits allowed are those in the subtitle exactly as written below."
 for k, c in CH.items():
     assert len(c["h1"]) <= 16 and len(c["h2"]) <= 16, c
