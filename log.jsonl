@@ -2573,3 +2573,8 @@
 {"t": "2026-10-15T08:06:23+00:00", "id": "D1587", "ans": "x", "truth": false, "res": "known"}
 {"t": "2026-10-15T08:06:23+00:00", "id": "D1290", "ans": "o", "truth": false, "res": "miscon"}
 {"t": "2026-10-15T08:06:23+00:00", "id": "D1359", "ans": "x", "truth": true, "res": "miscon"}
+{"t": "2026-10-15T08:26:54+00:00", "id": "D1795", "ans": "?", "truth": false, "res": "unknown"}
+{"t": "2026-10-15T08:26:55+00:00", "id": "D1796", "ans": "o", "truth": true, "res": "known"}
+{"t": "2026-10-15T08:26:55+00:00", "id": "D1580", "ans": "x", "truth": true, "res": "miscon"}
+{"t": "2026-10-15T08:26:55+00:00", "id": "D1584", "ans": "x", "truth": true, "res": "miscon"}
+{"t": "2026-10-15T08:26:55+00:00", "id": "D1368", "ans": "x", "truth": false, "res": "known"}
