@@ -18,11 +18,11 @@
 
 ---
 
-登記の申請は、原則として「一つの不動産ごと」に、「一つの登記の目的ごと」に別々の申請情報（申請書）で行います（不動産登記令4条）。
+登記の申請は、原則として「一つの不動産ごと」に、「一つの登記の目的・登記原因ごと」に別々の申請情報（申請書）で行います（不動産登記令4条）。
 
 例外として、一の申請情報にまとめてよい場合は限られています。「まとめられる組合せ」と「まとめられない組合せ」を見分けるのが本問のポイントです。「誤っているもの」を選ぶ形式です。
 
-### ア：合体による登記等と所有権の登記は、必ず一の申請情報でする
+### ア：所有権の登記も併せて申請するときは、合体による登記等と一の申請情報でする
 
 合体とは、別々の2つの建物が増築などで構造上1つの建物になることです。その登記（合体後の建物の表題登記と、合体前の建物の表題部の登記の抹消）を、「合体による登記等」といいます。
 
@@ -34,11 +34,13 @@
 
 同じ不動産について、表題部の登記事項に関する変更の登記と、土地の分筆の登記を申請するときは、一の申請情報によって申請できます（不動産登記規則35条7号）。本肢は正しい記述です。
 
-**たとえば**、一筆の土地の一部が農地から宅地に変わったので、地目の変更をしたうえで宅地の部分を分筆したい場合は、1通の申請書で足ります。
+**たとえば**、一筆の土地の一部が農地から宅地に変わったので、その部分を分筆し、宅地への地目の変更もしたい場合は、分筆と地目の変更を1通の申請書で申請できます。
 
 ### ウ：建物の分割と合体による登記等を、一の申請情報にまとめる規定はない
 
-一の申請情報でできる組合せは、規則35条に列挙されています。建物の分割の登記と、建物の合体による登記等を一の申請情報で申請できるとする規定は、そこにありません。したがって、それぞれ別の申請情報で申請します。本肢は誤りです。
+一の申請情報でできる組合せは、規則35条に列挙されています。建物の分割の登記と、建物の合体による登記等を一の申請情報で申請できるとする規定は、そこにありません（なお、建物の分割と建物の合併の組合せは、同条2号・3号で一の申請情報にできます）。
+
+したがって、それぞれ別の申請情報で申請します。本肢は誤りです。
 
 **たとえば**、附属建物を分割したうえで別の建物と合体させたい場合は、「分割の登記」と「合体による登記等」を、2通の申請書で別々に申請します。
 
@@ -58,7 +60,7 @@
 
 ### まとめ
 
-- **ア（正）** 合体による登記等と所有権の登記は、必ず一の申請情報でする
+- **ア（正）** 所有権の登記も併せて申請するときは、合体による登記等と一の申請情報でする
 - **イ（正）** 地目の変更の登記と分筆の登記は、一の申請情報で申請できる
 - **ウ（誤）** 建物の分割と合体による登記等を、一の申請情報にまとめる規定はない
 - **エ（正）** 建物の区分と、接続する区分建物への合併は、一の申請情報でできる
@@ -80,11 +82,13 @@
 
 ## 見出し画像用フレーズ
 
-- 合体と所有権の登記は、必ず同じ申請書なんです
+- 所有権の登記も併せるなら、同じ申請書なんです
 - 地目変更と分筆は、一枚の申請書にできます
 - 分割と合体は、まとめて申請できないんです
 - 区分と接続する区分建物への合併は、まとめられます
 - 表題登記と共用部分の登記は、別々に申請するんです
+
+---
 
 ---
 
@@ -134,7 +138,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 申・請・分・登・記・情・報・有・権・区・割・表・題・共 — these
+kanji 申・請・分・登・記・情・報・有・権・併・区・割・表・題 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
@@ -165,10 +169,10 @@ Subtitle (smaller, centered, 1行):
 --- COLUMN A, CARD 1 ---
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
-合体の登記と所有権の登記は必ず一緒
+所有権の登記も併せるなら一緒に
 Illustration: Two buildings merging into one building with an arrow, and two forms clipped together into a single application sheet labelled 「合体」 and 「所有権」.
 Conclusion tag (a short green banner below the illustration, 5-15 characters):
-必ず一の申請情報
+一の申請情報で申請する
 
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
@@ -209,7 +213,7 @@ Conclusion tag (a short blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 申・請・分・登・記・情・報・有・権・区・割・表・題・共 and any
+attention to 申・請・分・登・記・情・報・有・権・併・区・割・表・題 and any
 character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (3

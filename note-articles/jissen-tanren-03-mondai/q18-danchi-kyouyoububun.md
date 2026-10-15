@@ -30,16 +30,16 @@
 
 **たとえば**、1号館と2号館がある団地で、1号館の中の部屋を団地共用部分にした場合でも、その共有者は1号館の所有者だけではなく、2号館の所有者を含む団地建物所有者全員です。
 
-### イ：家屋番号ではなく、一棟の建物の所在と、構造・床面積または名称を提供する
+### イ：区分建物のときは、家屋番号ではなく一棟の建物の表示を提供する
 
 団地共用部分である旨の登記では、団地共用部分を共用すべき者の所有する建物が区分建物であるときは、次の事項を申請情報とします（不動産登記令別表19項申請情報ロ）。
 
 - 当該建物が属する一棟の建物の所在する市・区・郡・町・村・字および土地の地番
 - その一棟の建物の構造および床面積、または名称
 
-家屋番号は申請情報になっていません。本肢は誤りです。
+区分建物のときは、家屋番号は申請情報になっていません（区分建物でないときは、建物の所在・地番と家屋番号を提供します。同別表の申請情報イ）。本肢は誤りです。
 
-**たとえば**、1号館と2号館の区分建物を共用すべき者の建物とするなら、申請書には、「それぞれの一棟の建物の所在地番と名称」を書きます。各部屋の家屋番号は書きません。
+**たとえば**、団地を構成する1号館・2号館の各区分建物が、団地共用部分を共用すべき者の建物だとします。その場合、申請書には、「一棟ごとの建物の所在地番と名称」を書き、各部屋の家屋番号は書きません。
 
 ### ウ：抵当権者の承諾に代わる裁判があれば、団地共用部分である旨の登記を申請できる
 
@@ -59,7 +59,7 @@
 
 ### オ：全部を所有する人が規約を設定するときは、公正証書が必要
 
-一団地内の数棟の建物の全部を所有する人は、公正証書によって、団地共用部分とする規約を設定できます（区分所有法67条2項）。つまり、公正証書によることが必要です。
+一団地内の数棟の建物の全部を所有する人は、公正証書によって、団地共用部分とする規約を設定できます（区分所有法67条2項）。つまり、この方法で規約を設定するときは、公正証書を作ることになります。
 
 「公正証書による必要はない」とする本肢は誤りです。
 
@@ -70,12 +70,12 @@
 ### まとめ
 
 - **ア（正）** 団地共用部分は、一部の棟の所有者だけの共有にはできない
-- **イ（誤）** 申請情報にするのは、家屋番号ではなく、一棟の建物の所在と、構造・床面積または名称
+- **イ（誤）** 区分建物のときは、家屋番号ではなく、一棟の建物の所在と、構造・床面積または名称を提供する
 - **ウ（正）** 抵当権者の承諾に代わる裁判があれば、団地共用部分である旨の登記を申請できる
 - **エ（誤）** 規約の廃止後に所有権を取得した人は、表題登記を申請する
 - **オ（誤）** 全部を所有する人が規約を設定するときは、公正証書が必要
 
-団地共用部分は、「全員の共有」「家屋番号は書かない」「抹消でなく表題登記」「規約の設定は公正証書」の4点を、セットで押さえておきましょう。
+団地共用部分は、「全員の共有」「区分建物は家屋番号を書かない」「抹消でなく表題登記」「規約の設定は公正証書」の4点を、セットで押さえておきましょう。
 
 **正解：ア・ウの組合せ（選択肢2番）**
 
@@ -92,10 +92,12 @@
 ## 見出し画像用フレーズ
 
 - 団地共用部分は、一部の棟だけの共有にできません
-- 申請情報に、家屋番号は書かないんです
+- 区分建物なら、家屋番号は書かないんです
 - 承諾に代わる裁判があれば、抵当権者の承諾は要りません
 - 規約を廃止したら、申請するのは表題登記なんです
 - 全部の所有者が規約を決めるときも、公正証書が必要です
+
+---
 
 ---
 
@@ -145,7 +147,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 共・用・登・記・書・団・地・分・有・正・証・申・請・情 — these
+kanji 共・用・分・登・記・書・表・団・地・有・正・証・物・示 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
@@ -177,7 +179,7 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 団地共用部分は全員の共有
-Illustration: Two apartment buildings labelled 「1号館」 and 「2号館」 and a community hall icon. All residents of both buildings hold hands around the hall.
+Illustration: Two apartment buildings labelled 「1号館」 and 「2号館」 and a community hall icon. All unit owners of both buildings (drawn as small owner icons) hold hands around the hall.
 Conclusion tag (a short green banner below the illustration, 5-15 characters):
 一部共用はない
 
@@ -195,10 +197,10 @@ Conclusion tag (a short green banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 3 ---
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
-申請情報は一棟の所在と構造・床面積か名称
+区分建物は一棟の建物の表示を提供
 Illustration: An application form listing an address and a building name for each building, plus an empty house-number field with a red ✕ over it.
 Conclusion tag (a short blue banner below the illustration, 5-15 characters):
-家屋番号は書かない
+一棟の建物の表示を書く
 
 --- COLUMN B, CARD 4 ---
 Badge: a filled blue circle containing the number 4.
@@ -220,7 +222,7 @@ Conclusion tag (a short blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 共・用・登・記・書・団・地・分・有・正・証・申・請・情 and any
+attention to 共・用・分・登・記・書・表・団・地・有・正・証・物・示 and any
 character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (2
