@@ -236,7 +236,7 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 事前通知が難しければ事後でよい
-Illustration: A surveyor character with a tripod stands at a boundary line between two houses. Two small envelopes: the first labeled「使用前」, the second labeled「使用後・遅滞なく」marked with a green ✓ and a small note label「あらかじめ通知が難しいとき」.
+Illustration: A surveyor character with a tripod stands at a boundary line between two houses. Two small boxes side by side. Left box: an envelope labeled「使用前の通知」(the normal rule), marked with a green ✓. Right box: an envelope labeled「使用後・遅滞なく」with a small note label「あらかじめ通知が難しいとき」, also marked with a green ✓.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 使用後の通知も可
 

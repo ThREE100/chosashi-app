@@ -234,7 +234,7 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 本人が死亡しても代理権は消えない
-Illustration: A chain of three characters: a minor character labeled「本人」fading out with a small cross icon labeled「死亡」, a legal guardian character labeled「法定代理人」, and a qualified-agent character labeled「資格者代理人」still holding a signed paper labeled「委任状」with a green ✓.
+Illustration: A chain of three characters: a minor character labeled「本人」drawn as a faded outline with a small label「死亡」, a legal guardian character labeled「法定代理人」, and a qualified-agent character labeled「資格者代理人」still holding a signed paper labeled「委任状」with a green ✓.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 本人の死亡では不消滅
 
@@ -242,7 +242,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 法定代理人が死亡しても消えない
-Illustration: The same chain: the legal guardian character labeled「法定代理人」fading out, while the qualified-agent character labeled「資格者代理人」keeps holding the signed paper labeled「委任状」with a green ✓.
+Illustration: The same chain: the legal guardian character labeled「法定代理人」drawn as a faded outline with a small label「死亡」, while the qualified-agent character labeled「資格者代理人」keeps holding the signed paper labeled「委任状」with a green ✓.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 法定代理人の死亡は不消滅
 
@@ -269,7 +269,7 @@ Conclusion tag (orange banner below the illustration, 5-15 characters):
 Badge: a filled orange circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 法定代理人の破産でも代理権は消えない
-Illustration: The legal guardian character labeled「法定代理人」with a bankruptcy-gavel icon labeled「破産手続開始」, while a small separate circle shows the qualified-agent character labeled「資格者代理人」holding the signed paper labeled「委任状」intact with a green ✓. A gray tag says「法定代理人自身の代理権は消える」.
+Illustration: The legal guardian character labeled「法定代理人」with a bankruptcy-gavel icon labeled「破産手続開始」, while a small separate circle shows the qualified-agent character labeled「資格者代理人」holding the signed paper labeled「委任状」intact with a green ✓.
 Conclusion tag (orange banner below the illustration, 5-15 characters):
 資格者代理人の権限は存続
 

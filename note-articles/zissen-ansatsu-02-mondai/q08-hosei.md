@@ -239,7 +239,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 期限内に直さなければ却下する旨
-Illustration: A document with a clock beside it; if the clock runs out, a dark gray stamp labeled「却下」descends onto the document. A small green ✓ next to the clock-and-stamp pair (no red mark).
+Illustration: A registrar character on the phone; a speech bubble shows a clock and a dark gray stamp labeled「却下」pointing at a document, to show what will happen if the clock runs out. A small green ✓ is placed on the speech bubble (no other mark).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 直さなければ却下
 
