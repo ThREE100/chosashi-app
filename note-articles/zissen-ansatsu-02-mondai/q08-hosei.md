@@ -206,7 +206,7 @@ image.
 
 COLOR RULE (critical): Use green for every "yes / allowed / correct" mark (checkmarks) and red
 for every "no / not allowed / not required" mark (✕ marks). Never use blue for a checkmark. One box or
-card shows only ONE kind of mark — never a checkmark and a ✕ together in the same box.
+object carries only ONE kind of mark — never a checkmark and a ✕ together on the same box or object. A card may contain two separate boxes with different marks only where its illustration description says so.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -271,5 +271,5 @@ across all columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm that no box shows both a checkmark and a ✕ at the same time, and that every checkmark is green and every ✕ is red. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no single box or object shows both a checkmark and a ✕ at the same time, and that every checkmark is green and every ✕ is red. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
