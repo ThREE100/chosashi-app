@@ -34,7 +34,7 @@ P = dict(
              right=["分筆の添付情報は、令別表八の項に決まっています。中心は分筆後の土地の地積測量図で、規約を証する情報は載っていません。管轄が違う規約敷地でも同じです。",
                     "規約を証する情報が要るのは、建物の表題部の変更の登記のときです（令別表十五の項）。分筆の申請書に、これを付け足す場面ではありません。"],
              how=["分筆・合筆・地目変更は、土地の表示に関する登記です。添付情報は、別表の該当する項だけを見る。",
-                  "規約を証する情報・土地の登記事項証明書が出てくるのは、敷地権を生じさせる、または消す、建物の表題部の登記。",
+                  "規約を証する情報が出てくるのは、敷地権を生じさせる、または消す、建物の表題部の登記。土地の登記事項証明書が出てくるのは、生じさせる場合だけ。",
                   "管轄が違う土地の話は、建物の側の登記（別表十五の項）で出てくる。分筆の添付情報にはなりません。"],
              examples=[
                  ("D1577", "正しい", "甲区分建物の規約敷地である乙土地は、別の登記所の管轄にある。乙土地を分筆するとき、規約を設定したことを証する情報は添付しなくてよい。", "分筆の添付情報（令別表八の項）に、規約を証する情報は載っていない。"),
@@ -130,7 +130,7 @@ P = dict(
                         labels=["甲土地", "Aの持分", "敷地権の旗", "買主"]),
              pairs=[dict(ids=["D1799"], claim="敷地権を消さずに持分だけ移転できる", stmt="wrong",
                          right=dict(draw="Isometric: three steps drawn left to right as a staircase. Step one: a rule paper allowing separate disposal. Step two: the building sheet changes and the blue flag is taken off. Step three: A's share moves over to the buyer. Each step is higher than the last.", labels=["規約を定める", "旗を外す", "持分の移転"], tag="先に敷地権を消す"),
-                         wrong=dict(draw="Isometric: A's share with the blue flag still attached is pushed directly across a gap toward the buyer, but a blue barrier stops it halfway and the share is stuck at the barrier.", labels=["旗がついたまま", "持分の移転"], tag="旗のまま移せない"))]),
+                         wrong=dict(draw="Isometric: A's share with the blue flag still attached slides directly across to the buyer with nothing in the way, and a faceless seller pictogram smiles in relief.", labels=["旗がついたまま", "持分の移転"], tag="旗のまま移せる"))]),
     ],
     midashi=dict(t1="敷地権のある土地", t2="何をする前に何が要る？", hot="何が要る", sub="苦手克服　区分建物の範囲（5）",
                  left="A condominium building on a plot of land with a small blue flag, in soft watercolor style, with a land registry sheet beside it.",

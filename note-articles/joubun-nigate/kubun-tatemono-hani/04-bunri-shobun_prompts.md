@@ -72,7 +72,7 @@ Short labels on the left panel, each exactly once: 「廃止の証明」, 「証
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「消滅では要らない」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: The counter scene: the applicant hands over a thick stack including a land certificate sheet fetched from the other registry office, with a red arrow showing it traveling across the dashed boundary.
 Short labels on the right panel, each exactly once: 「土地の証明書」, 「取り寄せる」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「必ず要るとは言えない」
+Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「消滅でも必ず要る」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- SECTION 3: CLAIM 2 (full-width row) ---
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
@@ -126,7 +126,7 @@ Put a small dark navy tag reading 「出題文の内容」 on the top edge of th
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「承諾があれば消滅した旨が登記される」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Registry sheet with the mortgage line given a small added note line beneath it, and the mortgage line crossed out. A blue stamp with a calendar page beside it.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Registry sheet where a small added note line (a sub-entry attached beneath the mortgage line) records that the mortgage has disappeared. A blue stamp with a calendar page beside it.
 Short labels on the left panel, each exactly once: 「付記登記」, 「消滅した旨」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「消滅した旨が登記される」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Registry sheet where the mortgage line is untouched and no note line is added, even though the consent paper lies beside it; a red cross over the sheet.
@@ -163,7 +163,7 @@ Below this frame draw one short plain dark navy arrow pointing down; this arrow 
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「滅失でも承諾で土地の権利が消える旨が登記される」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Registry sheet of the land: the mortgage line receives a small added note line and is crossed out. The consent paper rests beside it with a blue stamp.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Registry sheet of the land: only a small note line meaning the mortgage has disappeared is added; the mortgage line itself is not copied onto this sheet. The consent paper rests beside it with a blue stamp.
 Short labels on the left panel, each exactly once: 「土地の記録」, 「消滅した旨」.
 Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「土地について消滅」
 RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Registry sheet of the land: the mortgage line stays intact even though the building outline has vanished and the consent paper lies unused; red cross over the sheet.
