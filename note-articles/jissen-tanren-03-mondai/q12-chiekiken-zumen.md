@@ -30,7 +30,7 @@
 
 **たとえば**、通行地役権のある甲土地を2筆に分け、通行地役権が及ぶのは分筆後の一方の土地全体だけだとします。この場合、その土地全体が範囲であると分かるため、図面は不要です。
 
-### イ：地役権のある土地を合筆すると、範囲は必ず一部になるため、地役権図面が必要
+### イ：地役権のない土地と合筆すると、範囲は必ず一部になるため、地役権図面が必要
 
 承役地を合筆する場合、地役権設定の範囲が合筆後の土地の一部になるときは、地役権図面を提供します（令別表9項添付情報）。
 
@@ -40,7 +40,7 @@
 
 ### ウ：地役権図面は承役地のものなので、要役地の分筆では提供しない
 
-地役権図面は、承役地について備え付けられるものです。要役地を分筆する場合には、地役権の範囲に変わりがないため、地役権図面を提供することはありません。本肢は正しい記述です。
+地役権図面は、承役地について備え付けられるものです。要役地を分筆する場合（承役地としての分筆でないとき）には、地役権の範囲に変わりがないため、地役権図面を提供することはありません。本肢は正しい記述です。
 
 **たとえば**、通行地役権の便益を受けている要役地の乙土地を2筆に分けても、通行する範囲（承役地側の範囲）は変わりません。そのため、地役権図面は不要です。
 
@@ -63,7 +63,7 @@
 ### まとめ
 
 - **ア（正）** 地役権の範囲が分筆後の土地の全部なら、地役権図面は不要
-- **イ（正）** 地役権のある土地を合筆すると、範囲は必ず一部になるため、地役権図面が必要
+- **イ（正）** 地役権のない土地と合筆すると、範囲は必ず一部になるため、地役権図面が必要
 - **ウ（正）** 地役権図面は承役地のものなので、要役地の分筆では提供しない
 - **エ（誤）** 書面の地役権図面に署名・押印するのは、作成者ではなく地役権者
 - **オ（誤）** 地役権図面は、地積測量図と同じ縮尺にする必要はなく、適宜の縮尺でよい
@@ -85,10 +85,12 @@
 ## 見出し画像用フレーズ
 
 - 範囲が全部なら、地役権図面はいらないんです
-- 合筆すると、範囲は必ず一部になるんです
+- 地役権のない土地と合筆すると、範囲は必ず一部なんです
 - 要役地の分筆では、地役権図面は出しません
 - 署名するのは、作成者でなく地役権者なんです
 - 地役権図面の縮尺は、自由に決められるんです
+
+---
 
 ---
 
@@ -140,7 +142,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・役・権・図・要・署・名・成・承・筆・縮・尺・分・積 — these
+kanji 地・役・権・図・要・署・名・成・筆・縮・尺・分・承・積 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
@@ -179,7 +181,7 @@ Conclusion tag (a short green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-承役地の合筆は範囲が必ず一部
+地役権のない土地との合筆は必ず一部
 Illustration: Two land plots merging; only the original plot is shaded as right-of-way, and a drawing sheet 「地役権図面」 is attached.
 Conclusion tag (a short green banner below the illustration, 5-15 characters):
 地役権図面が必要
@@ -215,7 +217,7 @@ Conclusion tag (a short blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 地・役・権・図・要・署・名・成・承・筆・縮・尺・分・積 and any
+attention to 地・役・権・図・要・署・名・成・筆・縮・尺・分・承・積 and any
 character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (3

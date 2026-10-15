@@ -26,7 +26,7 @@
 
 縮尺が土地所在図と同じでなければ兼ねられないという条件は、書面で作った図面の場合の話です（準則51条4項）。電子申請の場合にはその条件がありません。本肢は誤りです。
 
-**たとえば**、オンラインで分筆の登記を申請するときは、1つの地積測量図のデータで、土地所在図の役割も果たせます。
+**たとえば**、オンラインで土地の表題登記を申請するときは、1つの地積測量図のデータで、土地所在図の役割も果たさせることができます。
 
 ### イ：書面の地積測量図は、申請人は記名だけでよい
 
@@ -60,7 +60,7 @@
 
 また、土地の形状によっては、方位を変えたり、縮図にしたりして作成することも認められています（先例による取扱い）。本肢は正しい記述です。
 
-**たとえば**、細長い土地を普通の向きで描くと用紙に収まらない場合は、図を回転させて方位を変えたり、縮尺を小さくしたりして作図できます。
+**たとえば**、細長い土地を普通の向きで描くと用紙に収まらない場合は、図を回転させて方位を変えたり、縮尺の分母を大きくして図を小さくしたりして作図できます。
 
 ---
 
@@ -94,6 +94,8 @@
 - 電子データにも、作成年月日と氏名を書くんです
 - 基準点がなければ、近くの地物を基準にするんです
 - 土地の形によっては、方位を変えて作図できます
+
+---
 
 ---
 
@@ -145,7 +147,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 成・図・地・記・名・録・申・請・方・積・測・量・縮・人 — these
+kanji 成・図・記・名・地・録・申・請・方・積・測・量・縮・人 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
@@ -184,10 +186,10 @@ Conclusion tag (a short green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-書面は申請人が記名、作成者が署名
+申請人は記名、作成者は署名か記名押印
 Illustration: A paper survey drawing with two signature fields; the applicant field shows a printed name labelled 「申請人 記名」, and the maker field shows a handwritten signature labelled 「作成者 署名」.
 Conclusion tag (a short green banner below the illustration, 5-15 characters):
-署名・押印は作成者
+署名や押印は作成者
 
 --- COLUMN A, CARD 3 ---
 Badge: a filled green circle containing the number 3.
@@ -212,7 +214,7 @@ Conclusion tag (a short blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 方位を変え縮図にして作成できる
-Illustration: A long narrow land plot drawn rotated and shrunk to fit on one sheet of paper. Labels 「方位」 and 「縮図」.
+Illustration: A long narrow land plot drawn rotated and drawn at a smaller scale to fit on one sheet of paper. Labels 「方位」 and 「縮図」.
 Conclusion tag (a short blue banner below the illustration, 5-15 characters):
 作成方法の工夫が可能
 
@@ -220,7 +222,7 @@ Conclusion tag (a short blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 成・図・地・記・名・録・申・請・方・積・測・量・縮・人 and any
+attention to 成・図・記・名・地・録・申・請・方・積・測・量・縮・人 and any
 character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (3

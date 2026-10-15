@@ -84,7 +84,7 @@ AとBのうち、Aは登記識別情報を提供できているので、Aへの�
 - 正解番号（3番＝イ・エ）は、提供された答練の正答表と、各肢の結論の判定の両方で確認済みです。
 - イ・エ・オの根拠は、`note-articles/laws/`の不動産登記令4条、不動産登記規則128条1項・102条1項、登録免許税法別表第一の一（十三）の条文で確認済みです。アの根拠は不動産登記令8条（登記識別情報の提供）と不動産登記法23条1項（事前通知）です。
 - アは、法23条1項が「登記識別情報を提供することができないとき」に登記義務者に通知すると定めていることから、提供できた名義人には通知しないと整理した結論で、共有名義の場合を直接扱った条文は確認していません。
-- ウは、代位申請が登記請求権を保全するために必要な場合に限られるという考え方からの整理で、合併の代位申請を直接否定する条文は確認していません。同じ考え方で土地の分筆の代位申請を否定した過去問（平成18年度午後第14問オ）が、苦手分析の記事（`column/nigate-23-bunpitsu-bunkatsu-shoudaku-ikkatsu.md`）で整理されています。
+- ウは、代位申請が登記請求権を保全するために必要な場合に限られるという考え方からの整理で、合併の代位申請を直接否定する条文は確認していません。合筆して売却する契約の買主による代位申請を否定した過去問（令和6年度午後第11問イ）の解説記事（`r6-mondai/q11-daii-ni-yoru-touki.md`）と同じ考え方です。同じ考え方で土地の分筆の代位申請を否定した過去問（平成18年度午後第14問オ）が、苦手分析の記事（`column/nigate-23-bunpitsu-bunkatsu-shoudaku-ikkatsu.md`）で整理されています。
 - イの「登記の目的が同じなら一の申請情報にできる」は、令4条ただし書の読み方による整理です。
 - 適用法令の現行性チェック（2026-10-15）：上記の各条文は、ローカル法令データベースの現行版で確認し、出題内容に影響する変更はありません。
 
@@ -95,6 +95,8 @@ AとBのうち、Aは登記識別情報を提供できているので、Aへの�
 - 合併は、代位申請ではできないんです
 - 担保権のある建物を分けたら、共同担保目録を作ります
 - 表題登記だけの建物なら、登録免許税はかかりません
+
+---
 
 ---
 
@@ -146,7 +148,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 物・録・分・割・登・記・申・請・担・保・併・位・共・情 — these
+kanji 登・記・録・物・分・割・申・請・担・保・併・位・共・情 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
@@ -185,7 +187,7 @@ Conclusion tag (a short green banner below the illustration, 5-15 characters):
 --- COLUMN A, CARD 2 ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-別々の建物の分割も一の申請情報で
+同じ登記所内の分割は一の申請情報で
 Illustration: Two buildings each with an annex being divided, and the two forms clipped together into one application sheet.
 Conclusion tag (a short green banner below the illustration, 5-15 characters):
 目的が同じならまとめる
@@ -221,7 +223,7 @@ Conclusion tag (a short blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 物・録・分・割・登・記・申・請・担・保・併・位・共・情 and any
+attention to 登・記・録・物・分・割・申・請・担・保・併・位・共・情 and any
 character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly (3
