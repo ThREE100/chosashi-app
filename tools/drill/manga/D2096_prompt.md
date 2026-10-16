@@ -210,3 +210,140 @@ ChatGPTで生成した画像は、保存するときに次の名前へ変更す�
 
 - 2026-10-07 v02：①吹き出しの改行位置を文節の区切りで固定（17字以上は全て）／②コマをまたぐ図・ラベル・リボンの見た目の継続（CONTINUITY）を共通ルールに追加／③藍子の人体構造・手の割り当て・ポーズ変更・記事内容の理解に必要な要素の表現（共通ルール）／④コマ3のトリ先生の台詞を、コマ2と重なっていた「届出先は調査士会と連合会の両方よ」から、記事の「法務局への届出ではありません」に直した
 - 2026-10-07 v01：初版
+
+## 第三案（C案）：構成表3とプロンプト本体3
+
+第三案（C案・型6 つまずき固定）。『定款の変更を、会社の変更と同じ法務局へ届け出ると覚えてしまう』というつまずきそのものをコマ1の藍子の台詞に載せ、コマ3で覚え違いと正しい覚え方を上下に並べ、コマ4で誤った覚え方を名指しして否定する。同じ間違いが起きないよう、『法務局ではない／調査士会と連合会の両方へ』を全コマで同じ言い方で繰り返す構成。どれか1つを選んで、ChatGPTに貼る。見出し画像・記事タイトル・冒頭文は第一案と共通。第三案の本文画像は、保存名の末尾に `_C案` を付ける（例：`4コマ解説図解<ID>～<出典>～_C案.png`）。
+
+### 設計メモ3（工程A）
+- 【型の選び方】型：型6（第六案・つまずき固定）。理由…同じ所で落ちる原因が『届出先を法務局と覚える』というつまずきの中身なので、結論や理由の説明ではなく、つまずきの言葉そのものをコマ1の藍子に言わせ、コマ4で名指しして否定する。
+- 【出題者のひっかけ】問題文の『法務局又は地方法務局に届け出なければならない』。定款の変更＝会社の変更＝法務局、という連想に乗せて、届出先を取り違えさせる。法34条2項の届出先は、主たる事務所の所在地の土地家屋調査士会と日本土地家屋調査士会連合会の両方で、法務局ではない。この肢は誤り（×）。
+- 【受験者の勘違い・定着していない点】定款の変更の届出先を、会社の変更と同じ法務局と覚えている（つまずき）。届出先が調査士会と連合会の『両方』であること、期限が『変更の日から2週間以内』であることも、法務局という覚え違いに隠れて定着しにくい。（つまずきの内容は、ユーザーから受けた報告による。図には回数などの履歴は書かない）
+- 【対比する制度】「法務局」⇔「調査士会と連合会」：法務局は届出先ではない／調査士会と連合会の両方が届出先（結論が逆になる）。
+- 合言葉：『法務局ではない。調査士会と連合会の両方へ、2週間以内』。コマ1のトリ先生の台詞（の要旨）、コマ2の帯、コマ3の✓カード、コマ4の復唱に同じ言い方で載せる。つまずきの文『法務局に届け出る』は、コマ1の藍子の台詞、コマ3の✕カード、コマ4の否定の1行に同じ言い方で載せる。
+- 登場人物：当事者の記号は使わない。調査士法人・法務局・調査士会・連合会は、建物アイコンと文字ラベルで示す。
+- 矢印の意味：コマ1は『届出先？』の問いの矢印1本（？バッジつき）。コマ2は『届出』の矢印2本。コマ3は矢印なし（上下のカード）。
+- 配色：コマ1・2は印（✓✕）を付けない。コマ3は上＝赤✕（覚え違い）1個、下＝青✓（正しい覚え方）1個。コマ4の暗記3点だけ青✓。
+- コマの使い方：コマ1＝side、コマ2＝none（図が主役）、コマ3＝faces（opposite=lx：左に上下2枚のカード、右に会話4つ）、コマ4＝既定。
+
+### 構成表3（文言の正本）
+
+| 領域 | 話者・用途 | 正確な文言 | 強調 |
+|---|---|---|---|
+| タイトル帯 | — | 調査士法人の定款変更の届出先は、法務局ではない | 「法務局ではない」を黄色マーカー |
+| コマ1 見出し | ラベル | ①　ここで落ちる | — |
+| コマ1 図 | 図・カード | 調査士法人 / 定款を変更 / 法務局又は地方法務局 / 届出先？ / ここで落ちる：届出先の取り違え | — |
+| コマ1 | 藍子（左・先に話す） | 定款を変えたら、法務局に届け出ますよね？ | 「法務局に届け出ますよね？」 |
+| コマ1 | トリ先生（右・答える） | 出たわね、その覚え違い。届出先は法務局じゃないの | 「法務局じゃない」 |
+| コマ2 見出し | ラベル | ②　正しい形 | — |
+| コマ2 図 | 図・カード | 法務局ではない。調査士会と連合会の両方へ、2週間以内 / 両方 / 調査士法人 / 定款を変更 / 変更に係る事項を届出 / 主たる事務所の所在地の土地家屋調査士会 / 日本土地家屋調査士会連合会 / 変更の日から2週間以内 / 土地家屋調査士法34条2項 | — |
+| コマ3 見出し | ラベル | ③　覚え違いの出どころ | — |
+| コマ3 図 | 図・カード | 覚え違い / 定款を変えたら、法務局に届け出る / 正しい覚え方 / 調査士会と連合会の両方へ、2週間以内 | — |
+| コマ3 | 藍子（左・1番目） | 株式会社と同じで、法務局だと思ってました | — |
+| コマ3 | トリ先生（右・2番目） | 会社の連想ね。でも調査士法人は別の所よ | 「別の所」 |
+| コマ3 | 藍子（左・3番目） | どこを覚え直せばいいですか？ | — |
+| コマ3 | トリ先生（右・4番目） | 法務局を外して、会と連合会の両方よ | 「会と連合会の両方」 |
+| コマ4 見出し | ラベル | ④　合言葉で終わらせる | — |
+| コマ4 図 | 図・カード |  | — |
+| コマ4 | 藍子（左・先に話す） | 法務局は外して、両方へ2週間以内！ | — |
+| コマ4 | トリ先生（右・答える） | そう。法務局への届出と書いてあれば×よ | 「法務局への届出と書いてあれば×」 |
+| コマ4 チェック欄 | 3項目（青✓） | 『法務局に届け出る』は覚え違い。届出先は法務局ではない / 主たる事務所の所在地の調査士会と連合会の両方へ届け出る / 変更の日から2週間以内（法34条2項） | — |
+| 結論帯 | 1行目 | 法務局ではない。調査士会と連合会の両方へ | 黄色マーカー |
+| 結論帯 | 2行目 | 問題D2096　正解×（R07-Q20ア） | — |
+
+### プロンプト本体3
+
+```text
+Create ONE complete vertical Japanese study infographic in the form of a four-panel comic, in a single image. Canvas: 1080x1920 px portrait (9:16). If exactly 9:16 is impossible, use the closest portrait size and keep the same layout proportions.
+
+CRITICAL TEXT REQUIREMENT: All text must be Japanese only, using standard Japanese kanji (joyo kanji), hiragana, katakana, Arabic numerals, circled numbers. Never use simplified Chinese characters, traditional Chinese characters, Latin-alphabet words, Korean, or pseudo-text. Render every text string verbatim, exactly as given between the quotation marks 「」. Do not paraphrase, shorten, add, reorder, or translate any text. Do not add any text that is not listed (cartoon expression marks such as ！ and ？ beside a character's face are decoration, not text, and are allowed).
+
+BACKGROUND REQUIREMENT: The whole image has a fully opaque background (solid or subtly textured light cream). No transparency, no alpha channel, no checkerboard, no transparent areas anywhere.
+
+CHARACTERS: The attached character-specification images are the single authoritative reference for two recurring characters, and you must reproduce them faithfully in every panel: same face, body shape, clothing, colors, proportions, and drawing style, including the same hairstyle for 藍子 in all four panels. Only expression, gaze, hand position, and posture may change. (1) 「トリ先生」 is the TEACHER: a plump, round bird character who knows the exam inside out; sharp-tongued but full of love for beginners (exasperated, scolding-yet-caring expressions; wings used as hands). (2) 「藍子」 is the STUDENT: a serious, straightforward young woman exam-taker in a collared light-blue blouse with thin blue pinstripes (sleeves rolled up) and a navy pencil skirt with navy pumps, no jacket, often holding a navy clipboard and a pencil; earnest and headstrong (confident, startled, realizing, relieved expressions). Do not redesign either character and do not add any other character. Organizations and buildings in the diagrams are NOT characters: draw them only as simple, faceless, flat icons with the exact text labels given below.
+
+CHARACTER SIZE POLICY: draw 藍子 and トリ先生 as large and as clear as the layout allows, at the size given in each PANEL line. Never shrink a character just to make it small or to leave empty space, and never draw a character at the smallest possible size by default (this happens most often in panel 1). Reduce a character's size ONLY when the diagram, the cards, or the speech bubbles of that panel genuinely do not fit otherwise, and then reduce it only as much as needed, keeping the face large enough to read the expression. Characters become icon-sized only in a panel whose PANEL line explicitly asks for face icons.
+
+EXPRESSION MARKS (allowed): small cartoon expression marks and effects around the characters, such as ！, ？, sweat drops, sparkles, anger marks, hearts, surprise lines, and thought dots, may appear whenever they match a character's emotion, in any soft color (these marks are exempt from the color rule for YES/NO marks). They are decoration: they are not part of the given text and not part of the YES/NO mark system, so they are NEVER counted as extra text, extra marks, or errors, and nothing is deleted, redrawn, or regenerated because of them. They must stay small, must not cover any given text or diagram, and must not be drawn as a check mark or a cross on a card.
+
+SINGLE PASS: generate the image once. The checklists in this prompt, including the final check at the end, are guides to apply silently while drawing. After the image is produced, do not audit it again, do not list or announce defects (for example an extra or unexpected mark or symbol), and do not delete, redo, or regenerate any part of it; deliver the first image as it is.
+
+ANATOMY (critical, 藍子): keep her human anatomy strictly correct in every panel: exactly one head, one torso, exactly two arms (one left, one right) and exactly two hands in total. Never draw extra arms, extra hands, extra fingers, floating hands, duplicated hands, arms that do not grow from the shoulders, or fused hands. Each hand has exactly five fingers. Check that every shoulder, elbow, and wrist connects naturally. HAND COUNT RULE: before drawing each panel, assign both of 藍子's hands a job (for example, one hand points while the other hand holds the clipboard or hangs at her side; or one hand touches her chin while the other holds the clipboard; or both hands are raised in a small cheer). When she points, only ONE arm points; her other hand must not be clasped, raised, or clenched at the same time, so there are never three hands in a panel. POSE: change 藍子's pose from panel to panel (for example standing, sitting, leaning forward, resting a hand on her chin) and use a different set of poses each time this image is generated. CONTENT: in each panel, express through the diagram, labels, and scene the elements a reader needs in order to understand this article's content and pass the land and building surveyor exam, without adding any text beyond the given strings.
+
+FIXED POSITIONS AND SPEECH BUBBLES: In every panel in which a character appears, 藍子 (the student) stands on the LEFT side and トリ先生 (the teacher) stands on the RIGHT side. A panel does not have to show both characters: when the diagram, the flowchart, or the items to memorize need more space, the PANEL line may show only one of the two characters, show both at the normal size at the two outer edges, show both as small face icons in a vertical conversation column, or show both smaller than normal; in that case follow the PANEL line and its LAYOUT lines, and a character who is not drawn has no speech bubble; in a panel marked as face icons, each character appears only as a small round face icon inside the vertical conversation column described in the LAYOUT lines, with exactly one face icon for each speech bubble and never more face icons than bubbles. Every speech bubble is placed in the upper area on the SAME SIDE as its speaker, and its tail points directly at that speaker's mouth. Never point a tail at the other character and never place a bubble on the opposite side from its speaker. Each bubble is short, with large, high-contrast, mobile-readable Japanese text (character height at least 40 px). Reading order is top to bottom, 藍子 first, then トリ先生. 藍子 asks or voices the misconception and トリ先生 answers or corrects, so 藍子's line is always the first one read in a panel.
+
+STYLE: clean, warm, trustworthy flat digital illustration for a Japanese study column; simple outlines, soft pastel colors, readable silhouettes. Emphasis color: use a yellow highlighter marker only on the strings marked as emphasized. Color rule: affirmative marks, check marks, and the YES branch arrows and result boxes of any flowchart are BLUE. Negative marks, crosses, and the NO branch arrows and result boxes of any flowchart are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, and stamps. Keep every stamp, arrow, and label fully inside its own card or panel frame with clear margins; nothing overlaps a frame edge or a character's pointing wing.
+
+CONTINUITY: any object, label, ribbon, tag, or figure that appears in more than one panel keeps the same look, the same color, and the same label text in every panel in which it appears (for example, a ribbon on a plot of land does not disappear after a step of the diagram), unless that panel's own description says that it changes. Every speech bubble's line breaks follow phrase boundaries as written inside its quotation marks; never split a word across lines.
+
+LAYOUT (top to bottom, one column, exactly four panels, no side-by-side panels):
+- Title banner (about 190 px tall).
+- Panel 1 (about 395 px), Panel 2 (about 395 px), Panel 3 (about 395 px), Panel 4 (about 395 px), separated by thin frame lines and about 14 px gaps.
+- Conclusion banner at the bottom (about 110 px tall).
+
+TITLE BANNER: text 「調査士法人の定款変更の届出先は、法務局ではない」 in large bold letters; the part 「法務局ではない」 has a yellow highlighter marker.
+
+PANEL 1 (curious, calm mood; both characters appear at the NORMAL size (each about 190 px tall, roughly half of the panel height, with the same full-body look as in the other panels): 藍子 at the left edge and トリ先生 at the right edge, both standing in the lower part of the panel; do NOT make them smaller than this just to leave empty space, and reduce them by at most about 15% only if the speech bubbles or the diagram would otherwise not fit (see the LAYOUT lines below); 藍子's hands: one hand holds the clipboard against her chest and the other touches her chin (two hands in total)):
+- Label tab: 「①　ここで落ちる」
+- LAYOUT (side characters): 藍子 stands at the left edge and トリ先生 at the right edge at the normal size, each taking only the outer 22% of the panel width, with their speech bubbles in the upper part above their own heads and never covering the diagram. The diagram described in the lines below is drawn large in the CENTER region only, between the two characters (about 56% of the panel width and the full panel height below the label tab); wherever a line below says the diagram fills the panel, it means this center region. The characters never overlap the diagram.
+- Small diagram in the middle: a flat building icon labeled 「調査士法人」 holding a small document labeled 「定款を変更」. A solid navy arrow points from it to a second building icon labeled 「法務局又は地方法務局」, with a small question badge 「届出先？」 (a question badge only, with no check mark and no cross).
+- Under the diagram, one dark navy ribbon tag with white text 「ここで落ちる：届出先の取り違え」.
+- 藍子 bubble (left, spoken first): 「定款を変えたら、
+法務局に届け出ますよね？」 with the part 「法務局に届け出ますよね？」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「出たわね、その覚え違い。
+届出先は
+法務局じゃないの」 with the part 「法務局じゃない」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 2 (clear, calm infographic mood; NO character appears in this panel (a full-width diagram panel with no speech bubble): the whole panel is the diagram, the infographic, or the explanation cards, drawn large):
+- Label tab: 「②　正しい形」
+- At the top, one wide dark navy band with large white text 「法務局ではない。調査士会と連合会の両方へ、2週間以内」, with the text 「両方」 highlighted with a yellow marker.
+- Below the band, the building icon 「調査士法人」 on the left holding a small document 「定款を変更」, with two solid navy arrows labeled 「変更に係る事項を届出」 pointing to two building icons on the right, one above the other: 「主たる事務所の所在地の土地家屋調査士会」 and 「日本土地家屋調査士会連合会」.
+- Two small tags at the bottom: 「変更の日から2週間以内」 and 「土地家屋調査士法34条2項」.
+- There is no check mark and no cross anywhere in this panel.
+
+PANEL 3 (thoughtful then confident mood; both characters appear ONLY as small round face icons (heads only, each about 72 px across, no bodies and no hands) inside a vertical conversation column on the right side of the panel, exactly one face icon for each speech bubble (see the LAYOUT lines below)):
+- Label tab: 「③　覚え違いの出どころ」
+- LAYOUT (two columns, fixed): the panel below the label tab is divided into a LEFT column (about 56% of the panel width) and a RIGHT column (about 44%). The LEFT column holds ALL of the diagram, cards, and ribbons described in the lines below, drawn large; it has no face icon, no speech bubble, and no character. The RIGHT column is a vertical conversation of EXACTLY 4 rows stacked from top to bottom in the speaking order of the bubble lines below (row 1 at the top is the first line), each row about 82 px tall, all rows the same height, never overlapping. Each row contains EXACTLY ONE round face icon and EXACTLY ONE speech bubble that belongs to it: in a 藍子 row her face icon is at the LEFT end of the row and the bubble is to its right, with the tail pointing left at her face; in a トリ先生 row his face icon is at the RIGHT end of the row and the bubble is to its left, with the tail pointing right at his face. So the right column shows exactly 4 face icons and exactly 4 speech bubbles in total, one pair per row, and no other face, character, or bubble appears anywhere else in the panel. The text inside each bubble is at least 32 px high, written on 2 or 3 lines exactly as broken in the bubble lines below.
+- IMPORTANT: the two comparison cards must show OPPOSITE marks, not the same mark. The left card shows ONE RED cross only; the right card shows ONE BLUE check mark only. Do not draw the same mark on both cards and never draw a check mark on the left card or a cross on the right card. Place each mark in the empty space below the card's body text, never touching or overlapping the text. The two cards also have clearly different texts; the two texts are NOT identical.
+- LEFT SIDE: two stacked cards of the same size, top and bottom, with the same pale gray fill and a dark navy outline, each with a dark navy heading placed INSIDE the card, with no arrow and no connector. The cards are separated only by a small empty gap.
+- Top card, heading 「覚え違い」, body 「定款を変えたら、法務局に届け出る」, and ONE red cross only at the bottom of this card (no check mark on this card).
+- Bottom card, heading 「正しい覚え方」, body 「調査士会と連合会の両方へ、2週間以内」, and ONE blue check mark only at the bottom of this card (no cross on this card).
+- The two cards have clearly different texts; the texts are NOT identical.
+- 藍子 bubble (left, row 1 of 4 in the conversation column; face icon at the LEFT end of its own row): 「株式会社と同じで、
+法務局だと
+思ってました」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 2 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「会社の連想ね。
+でも調査士法人は
+別の所よ」 with the part 「別の所」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- 藍子 bubble (left, row 3 of 4 in the conversation column; face icon at the LEFT end of its own row): 「どこを覚え直せば
+いいですか？」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, row 4 of 4 in the conversation column; face icon at the RIGHT end of its own row): 「法務局を外して、
+会と連合会の
+両方よ」 with the part 「会と連合会の両方」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+
+PANEL 4 (藍子 relieved, トリ先生 smiling proudly; 藍子's hands: both hands raised in a small cheering fist (two hands in total)):
+- Label tab: 「④　合言葉で終わらせる」
+- 藍子 bubble (left, spoken first): 「法務局は外して、
+両方へ2週間以内！」. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- トリ先生 bubble (right, spoken as the answer): 「そう。法務局への届出と
+書いてあれば×よ」 with the part 「法務局への届出と書いてあれば×」 highlighted in yellow. The line breaks inside the quotation marks are intentional: keep them exactly and never split a word across lines.
+- A checklist card in the middle with exactly three items, each with a BLUE check mark and no other mark; each item is written on at most two lines with text at least 28 px high: 「『法務局に届け出る』は覚え違い。届出先は法務局ではない」, 「主たる事務所の所在地の調査士会と連合会の両方へ届け出る」, 「変更の日から2週間以内（法34条2項）」.
+
+CONCLUSION BANNER (solid pale yellow fill with a thin dark navy outline and dark navy text; large text, two lines):
+- Line 1: 「法務局ではない。調査士会と連合会の両方へ」 with a yellow highlighter marker.
+- Line 2: 「問題D2096　正解×（R07-Q20ア）」
+
+EMOTIONAL ARC: confident (panel 1) -> puzzled (panel 2) -> realizing (panel 3) -> relieved and convinced (panel 4).
+
+Final check before rendering: confirm there are exactly four panels in one vertical column; confirm every text string matches the given string exactly and no extra text exists anywhere (including backgrounds, signs, papers, and frames; cartoon expression marks such as ！ and ？ beside the characters' faces are allowed and are not extra text); confirm that wherever 藍子 appears she is on the left and wherever トリ先生 appears he is on the right, and that panels showing one character or two smaller characters are drawn as specified, and that no character is smaller than its PANEL line specifies and every bubble tail points at its own speaker; confirm both characters match the attached references in all panels and 藍子 has the same hairstyle in every panel; confirm the characters 地, 届, 所, 款, 解, 違, 間 are drawn as proper Japanese kanji forms and never as simplified or traditional Chinese variants; confirm every stamp, arrow, and label stays inside its own card or panel frame; confirm 藍子 has exactly two arms and two hands with five fingers each in every panel and her pose differs from panel to panel; confirm the left comparison card has only a red cross and the right card only a blue check mark; confirm that the conversation column has exactly 4 face icons and exactly 4 speech bubbles, one pair per row in the speaking order from top to bottom, that each bubble tail points at the face icon in its own row, that no face, character, or bubble appears outside the right column, and that the diagram stays in the left column; confirm that in the panels marked as normal-size side characters the two characters are NOT shrunk, stand at the outer edges, and the diagram stays in the center region without being covered; confirm that nothing but the given text appears above the heads of the pictograms; confirm that every panel marked as having no character contains no character and no speech bubble; confirm that every question badge has a pale gray fill with a dark navy outline and dark navy text and carries no check mark or cross; confirm that the conclusion banner is pale yellow with dark navy text; confirm the background is fully opaque with no transparency, alpha channel, or checkerboard. This list is only a guide for drawing: apply it silently while drawing, never audit the finished image against it, never announce a defect, and never delete, redo, or regenerate anything afterwards; deliver the first image as it is.
+```
+
+### 第三案の品質ゲート（工程C）
+- [ ] 工程C：初見の読者：コマ1の藍子の台詞がつまずきそのもの（法務局に届け出る）で、コマ3の✕カードとコマ4の否定の1行に同じ言い方で出ている
+- [ ] 工程C：合言葉『法務局ではない。調査士会と連合会の両方へ、2週間以内』が、コマ1〜4で言い方を変えずに出ている
+- [ ] 工程C：条文の突き合わせ：法34条2項（変更の日から二週間以内、主たる事務所の所在地の調査士会と調査士会連合会に届出）を法令DBで確認済み。株式会社との連想は『覚え違いの出どころ』としてだけ書き、会社法の条文の説明は図に入れていない
+- [ ] 工程C：コマ3の上下のカードのマークが逆で（覚え違い＝赤✕、正しい覚え方＝青✓）、コマ1・2に印がなく、コマ4だけ青✓×3
+
+### 第三案の改訂履歴
+
+- 2026-10-16 C案v01：初版（第三案。型6 つまずき固定。ユーザー指示：続けて間違えたポイント『届出先を法務局と覚える』に言及し、その間違いが起こらないよう強調する構成と会話にした）
