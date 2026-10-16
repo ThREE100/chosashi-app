@@ -23,6 +23,9 @@ table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left:
 table.t td.genin { font-size: 17px; }
 table.t td .ink { font-size: 19px; }
 table.t td.genin .ink { font-size: 18px; }
+.mokuteki { min-height: 62px; }
+.tenpu { min-height: 110px; }
+.shinseinin { min-height: 110px; }
 .setsumei { border: 3px solid #111; min-height: 420px; padding: 24px 28px; font-size: 25px; line-height: 1.9;
              text-indent: 1em; }
 .caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
@@ -46,8 +49,16 @@ table.s td.l { width: 150px; text-align: center; font-size: 21px; }
 .good { outline: 3px solid #2e9e44; outline-offset: 3px; background: #f1faf2; }
 .okwrap { position: relative; }
 .check { position: absolute; right: -14px; top: -22px; }
+table.s td.one { height: 62px; }   /* 表のセルの height は最小の高さ（中の文字に合わせて伸びる） */
+table.s td.two { height: 100px; }
+/* 添削の3コマ：横1200pxの縦長にするため、コマの最小の高さを決める（中の文字に合わせて伸びる） */
+.panel.tall { min-height: 420px; }
+.panel.last { border-bottom: none; }
+.caption.tensaku { margin: 10px 0 30px; }
+.strike { text-decoration: line-through; text-decoration-thickness: 3px; }
 </style></head><body>
-<div class="panel"><div class="ptitle ng">①誤答</div><div class="sub">本件新建物に関する登記の申請書（抜粋）</div><div class="okwrap"><table class="s"><tr><td class="l">申　請　人</td><td style="height:100px"><span class="ink">Ｃ市Ｄ町一丁目３番２号　甲野春男<br>Ｃ市Ｄ町一丁目３番２号　甲野冬子</span></td></tr><tr><td class="l">所　　在</td><td style="height:62px"><span class="ink">Ｃ市Ｄ町一丁目11番地</span></td></tr></table></div></div>
-<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="sub">本件新建物に関する登記の申請書（抜粋）</div><div class="okwrap"><table class="s"><tr><td class="l">申　請　人</td><td style="height:100px"><span class="ink">Ｃ市Ｄ町一丁目３番２号　</span><span class="caret">∧</span><span class="red">持分２分の１</span>　<span class="ink">甲野春男</span><br><span class="ink">Ｃ市Ｄ町一丁目３番２号　</span><span class="caret">∧</span><span class="red">２分の１</span>　<span class="ink">甲野冬子</span></td></tr><tr><td class="l">所　　在</td><td style="height:62px"><span class="ink">Ｃ市Ｄ町一丁目11番地</span><span class="caret">∧</span><span class="red">、10番地</span></td></tr></table></div><div class="bubrow"><span class="bubble">申請人：表題登記は、表題部所有者になる者が2人以上なら持分を書く（令3条9号）。<br>第1欄の表題部変更登記とは違う</span></div><div class="bubrow"><span class="bubble">所在：概略図にD-Cの線がない。座標で描くと南西の角の約1.0㎡が10番。<br>床面積の多い11番地が先（準則88条2項）</span></div></div>
-<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div><div class="sub">本件新建物に関する登記の申請書（抜粋）</div><div class="okwrap"><table class="s good"><tr><td class="l">申　請　人</td><td style="height:100px"><span class="ink">Ｃ市Ｄ町一丁目３番２号　持分２分の１　甲野春男<br>Ｃ市Ｄ町一丁目３番２号　　　２分の１　甲野冬子</span></td></tr><tr><td class="l">所　　在</td><td style="height:62px"><span class="ink">Ｃ市Ｄ町一丁目11番地、10番地</span></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
-<div class="caption" style="margin:10px 0 30px">平成25年度 第22問｜表題登記の申請人には持分、所在は座標で決めて11番地、10番地</div></body></html>
+<div class="panel tall"><div class="ptitle ng">①誤答</div><div class="sub">本件新建物に関する登記の申請書（抜粋）</div><table class="s"><tr><td class="l">所　　在</td><td class="one"><span class="ink">Ｃ市Ｄ町一丁目11番地</span></td></tr></table></div>
+<div class="panel tall"><div class="ptitle fix">②添削（赤ペン）</div><div class="sub">本件新建物に関する登記の申請書（抜粋）</div><table class="s"><tr><td class="l">所　　在</td><td class="one"><span class="ink">Ｃ市Ｄ町一丁目11番地</span><span class="caret">∧</span><span class="red">、10番地</span></td></tr></table><div class="bubrow"><span class="bubble">概略図にはD-Cの線がない。座標で描くと南西の角の約1.0㎡が10番に入る。</span></div><div class="bubrow"><span class="bubble">床面積の多い11番地が先（準則88条2項）。地番の順の「10番地、11番地」にしない</span></div></div>
+<div class="panel tall last"><div class="ptitle ok">③正解</div><div class="sub">本件新建物に関する登記の申請書（抜粋）</div>
+<div class="okwrap good"><table class="s"><tr><td class="l">所　　在</td><td class="one"><span class="ink">Ｃ市Ｄ町一丁目11番地、10番地</span></td></tr></table><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="caption tensaku">平成25年度 第22問｜所在は座標で決めて11番地、10番地</div></body></html>
