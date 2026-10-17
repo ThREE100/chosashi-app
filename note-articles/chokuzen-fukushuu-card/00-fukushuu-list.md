@@ -6,25 +6,25 @@
 
 | 論点 | 要復習 | チェック | 計 | 詳細（原因・理解のポイント・図解） | 図解カード |
 |---|---|---|---|---|---|
-| 不動産登記法／申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報） | 73 | 5 | 78 | [f01-shinsei-souron.md](f01-shinsei-souron.md) | （作成中） |
-| 不動産登記法／建物の分割・合併・合体・滅失・変更 | 59 | 3 | 62 | [f02-tatemono-bunkatsu-gappei.md](f02-tatemono-bunkatsu-gappei.md) | （作成中） |
+| 不動産登記法／申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報） | 73 | 5 | 78 | [f01-shinsei-souron.md](f01-shinsei-souron.md) | 18枚（14グループ） |
+| 不動産登記法／建物の分割・合併・合体・滅失・変更 | 59 | 3 | 62 | [f02-tatemono-bunkatsu-gappei.md](f02-tatemono-bunkatsu-gappei.md) | 21枚（11グループ） |
 | 不動産登記法／区分建物・敷地権・共用部分 | 54 | 0 | 54 | [f03-kubun-tatemono.md](f03-kubun-tatemono.md) | 既存教材を参照 |
-| 不動産登記法／土地の分筆・合筆・地積更正 | 39 | 5 | 44 | [f04-tochi-bunpitsu-gappitsu.md](f04-tochi-bunpitsu-gappitsu.md) | （作成中） |
-| 不動産登記法／建物の認定・個数・種類構造床面積 | 28 | 3 | 31 | [f05-tatemono-nintei.md](f05-tatemono-nintei.md) | （作成中） |
-| 不動産登記法／土地の滅失・地図・地積測量図・土地所在図 | 18 | 3 | 21 | [f06-chizu-sokuryozu.md](f06-chizu-sokuryozu.md) | （作成中） |
-| 不動産登記法／表題部所有者・所有権の登記 | 18 | 1 | 19 | [f07-hyodaibu-shoyusha.md](f07-hyodaibu-shoyusha.md) | （作成中） |
-| 不動産登記法／土地の表題・地目・地積 | 13 | 2 | 15 | [f08-tochi-hyodai-chimoku.md](f08-tochi-hyodai-chimoku.md) | （作成中） |
-| 不動産登記法／登記制度・総則（登記官・図面・保存期間・管轄・通知） | 8 | 1 | 9 | [f09-touki-seido-souron.md](f09-touki-seido-souron.md) | （作成中） |
-| 不動産登記法／筆界特定・境界 | 5 | 2 | 7 | [f10-hikkai-tokutei.md](f10-hikkai-tokutei.md) | （作成中） |
-| 不動産登記法／建物図面・各階平面図 | 5 | 0 | 5 | [f11-tatemono-zumen.md](f11-tatemono-zumen.md) | （作成中） |
+| 不動産登記法／土地の分筆・合筆・地積更正 | 39 | 5 | 44 | [f04-tochi-bunpitsu-gappitsu.md](f04-tochi-bunpitsu-gappitsu.md) | 15枚（9グループ） |
+| 不動産登記法／建物の認定・個数・種類構造床面積 | 28 | 3 | 31 | [f05-tatemono-nintei.md](f05-tatemono-nintei.md) | 9枚（7グループ） |
+| 不動産登記法／土地の滅失・地図・地積測量図・土地所在図 | 18 | 3 | 21 | [f06-chizu-sokuryozu.md](f06-chizu-sokuryozu.md) | 7枚（5グループ） |
+| 不動産登記法／表題部所有者・所有権の登記 | 18 | 1 | 19 | [f07-hyodaibu-shoyusha.md](f07-hyodaibu-shoyusha.md) | 6枚（5グループ） |
+| 不動産登記法／土地の表題・地目・地積 | 13 | 2 | 15 | [f08-tochi-hyodai-chimoku.md](f08-tochi-hyodai-chimoku.md) | 7枚（4グループ） |
+| 不動産登記法／登記制度・総則（登記官・図面・保存期間・管轄・通知） | 8 | 1 | 9 | [f09-touki-seido-souron.md](f09-touki-seido-souron.md) | 4枚（3グループ） |
+| 不動産登記法／筆界特定・境界 | 5 | 2 | 7 | [f10-hikkai-tokutei.md](f10-hikkai-tokutei.md) | 3枚（3グループ） |
+| 不動産登記法／建物図面・各階平面図 | 5 | 0 | 5 | [f11-tatemono-zumen.md](f11-tatemono-zumen.md) | 2枚（2グループ） |
 | 不動産登記法／登録免許税 | 3 | 0 | 3 | [f12-tourokumenkyozei.md](f12-tourokumenkyozei.md) | 2枚（2グループ） |
-| 民法／共有・所有権・占有 | 16 | 2 | 18 | [m01-kyoyu-shoyuken-senyu.md](m01-kyoyu-shoyuken-senyu.md) | （作成中） |
-| 民法／意思表示・無効取消 | 9 | 5 | 14 | [m02-ishi-hyoji.md](m02-ishi-hyoji.md) | （作成中） |
-| 民法／物権変動・対抗要件 | 9 | 0 | 9 | [m03-bukken-hendo.md](m03-bukken-hendo.md) | （作成中） |
-| 民法／時効・条件期限 | 8 | 0 | 8 | [m04-jikou.md](m04-jikou.md) | （作成中） |
-| 民法／用益権・担保物権 | 6 | 0 | 6 | [m05-youeki-tanpo.md](m05-youeki-tanpo.md) | （作成中） |
-| 民法／代理 | 4 | 2 | 6 | [m06-dairi.md](m06-dairi.md) | （作成中） |
-| 民法／相続・親族 | 2 | 0 | 2 | [m07-souzoku.md](m07-souzoku.md) | （作成中） |
+| 民法／共有・所有権・占有 | 16 | 2 | 18 | [m01-kyoyu-shoyuken-senyu.md](m01-kyoyu-shoyuken-senyu.md) | 6枚（5グループ） |
+| 民法／意思表示・無効取消 | 9 | 5 | 14 | [m02-ishi-hyoji.md](m02-ishi-hyoji.md) | 5枚（4グループ） |
+| 民法／物権変動・対抗要件 | 9 | 0 | 9 | [m03-bukken-hendo.md](m03-bukken-hendo.md) | 3枚（3グループ） |
+| 民法／時効・条件期限 | 8 | 0 | 8 | [m04-jikou.md](m04-jikou.md) | 4枚（3グループ） |
+| 民法／用益権・担保物権 | 6 | 0 | 6 | [m05-youeki-tanpo.md](m05-youeki-tanpo.md) | 2枚（2グループ） |
+| 民法／代理 | 4 | 2 | 6 | [m06-dairi.md](m06-dairi.md) | 2枚（2グループ） |
+| 民法／相続・親族 | 2 | 0 | 2 | [m07-souzoku.md](m07-souzoku.md) | 2枚（2グループ） |
 | 土地家屋調査士法／調査士会・資格・その他 | 1 | 1 | 2 | [c01-chousashikai-shikaku.md](c01-chousashikai-shikaku.md) | 既存教材を参照 |
 | 土地家屋調査士法／調査士法人 | 1 | 0 | 1 | [c02-chousashi-houjin.md](c02-chousashi-houjin.md) | 既存教材を参照 |
 
