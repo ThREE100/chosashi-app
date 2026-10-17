@@ -11,7 +11,7 @@ ORDER = ["f01-shinsei-souron", "f02-tatemono-bunkatsu-gappei", "f03-kubun-tatemo
          "f07-hyodaibu-shoyusha", "f08-tochi-hyodai-chimoku", "f09-touki-seido-souron", "f10-hikkai-tokutei", "f11-tatemono-zumen", "f12-tourokumenkyozei",
          "m01-kyoyu-shoyuken-senyu", "m02-ishi-hyoji", "m03-bukken-hendo", "m04-jikou", "m05-youeki-tanpo", "m06-dairi", "m07-souzoku",
          "c01-chousashikai-shikaku", "c02-chousashi-houjin"]
-REF = {"f03-kubun-tatemono", "c01-chousashikai-shikaku", "c02-chousashi-houjin"}
+REF = {"c01-chousashikai-shikaku", "c02-chousashi-houjin"}
 KUBUN = OUT.parent / "joubun-nigate" / "kubun-tatemono-hani"
 
 def load_work(slug): return json.loads((OUT / "work" / f"{slug}_items.json").read_text(encoding="utf8"))
@@ -96,5 +96,6 @@ def make_master():
          "| 論点 | 要復習 | チェック | 計 | 詳細（原因・理解のポイント・図解） | 図解カード |", "|---|---|---|---|---|---|"] + rows + [""] + body
     (OUT / "00-fukushuu-list.md").write_text("\n".join(L), encoding="utf8")
 
-make_ref_f03(); make_ref_c(); make_master()
+if not (OUT / "parts" / "f03-kubun-tatemono.py").exists(): make_ref_f03()   # f03 は parts があれば build.py が作る
+make_ref_c(); make_master()
 print("ok")
