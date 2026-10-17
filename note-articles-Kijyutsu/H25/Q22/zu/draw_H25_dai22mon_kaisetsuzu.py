@@ -1,14 +1,17 @@
-"""平成25年度 第22問（建物）の解説図17枚を、座標成果・各階平面見取図の寸法から作図してPNGに書き出す。
+"""平成25年度 第22問（建物）の解説図20枚を、座標成果・各階平面見取図の寸法から作図してPNGに書き出す。
 
-`../prompt_H25_dai22mon_kaisetsuzu.md` の図1〜図17どおり（番号は記事の挿入順）。作図の共通部品は `tools/zu_helpers.py`。
-2026-10-05、本文で説明しているのに図がなかった7か所の図（図2 注の仕分け、図3 解体移転とえい行移転、図4 主である建物の滅失と
-附属建物、図6 建物の位置の計算、図9 鉄骨柱の測り方、図15 12番の分筆と所在の変更、図16 形成的登記と報告的登記）を加え、
-番号を記事の挿入順に振り直した（旧図2→図5、旧図3→図7、旧図4→図8、旧図5→図10、旧図6→図11、旧図7→図12、旧図8→図13、
-旧図9→図14、旧図10→図17。中身は変えていない）。固定配置の図は check_fixed で文字の重なりとはみ出しを調べる。
-図8（建物図面）と図13（各階平面図）の完成形は、答案用紙の第4欄（建物図面及び各階平面図）の欄の形
-（家屋番号・建物の所在、建物図面の側は「申請人」〈（略）の印刷なし〉と縮尺1/500、各階平面図の側は「作成者（略）
-（平成何年何月何日作成）」と縮尺1/250）の枠の中に描く。答案用紙は試験の答案用紙の原本
-（`../touan_youshi/H25_dai22mon_touan_youshi.pdf` の2ページ目。`public/kijutsu/H25-tatemono/a2.webp` と同じもの）で確かめた。
+`../prompt_H25_dai22mon_kaisetsuzu.md` の図1〜図20どおり（番号は記事の挿入順）。作図の共通部品は `tools/zu_helpers.py`。
+2026-10-05、本文で説明しているのに図がなかった7か所の図（注の仕分け、解体移転とえい行移転、主である建物の滅失と附属建物、
+建物の位置の計算、鉄骨柱の測り方、12番の分筆と所在の変更、形成的登記と報告的登記）を加えた。
+2026-10-16、最新の執筆ルールでの照らし直しで、所在の順序の誤り比較図（図8）、第1欄・第2欄の添付情報の当てはめ表（図17・図18）を加え、
+番号を記事の挿入順に振り直した（旧図8→図9、旧図9→図10、旧図10→図11、旧図11→図12、旧図12→図13、旧図13→図14、旧図14→図15、
+旧図15→図16、旧図16→図19、旧図17→図20。描き直していない図は中身を変えていない）。あわせて、図9（建物図面）と図14（各階平面図）の
+完成形を、試験の答案用紙の第4欄の枠の寸法（mm）どおりの1枚の枠の中に、建物図面は縮尺1/500・各階平面図は縮尺1/250の実際の大きさで
+描き直した（各階平面図には方位を描かない。不動産登記規則第83条第1項）。画像の中に図の番号は書かない。
+固定配置の図は check_fixed で文字の重なりとはみ出しを調べる。
+第4欄の形は試験の答案用紙の原本（`../touan_youshi/H25_dai22mon_touan_youshi.pdf` の2ページ目。`public/kijutsu/H25-tatemono/a2.webp`
+と同じもの）で確かめた：1枚の枠の左半分が各階平面図、右半分が建物図面。家屋番号・建物の所在は建物図面の側に1組、
+建物図面の側の下は「申請人」（（略）の印刷なし）と縮尺1/500、各階平面図の側の下は「作成者（略）（平成何年何月何日作成）」と縮尺1/250。
 敷地は〔筆界点の座標成果〕の (X＝北, Y＝東)。建物の平面は (東, 南)（原点＝建物の1階の北西の角の壁の中心線）で持ち、
 zu_helpers の (北, 東) には P()（求積図）・B_()（敷地の上に置く）で変換する。
 実行: python3 note-articles-Kijyutsu/H25/Q22/zu/draw_H25_dai22mon_kaisetsuzu.py [出力フォルダ]
@@ -111,31 +114,6 @@ def dims(z, pts, labels, fs=14, ref=None, outward=True):
     for i, t in enumerate(labels):
         if t:
             z.edge_label(pts[i], pts[(i + 1) % len(pts)], t, c, fs=fs, outward=outward)
-
-
-def dist_arrow(z, p, q, text, fs=15, offs=((14, 0), (-14, 0), (0, 12), (0, -12))):
-    """筆界から外壁までの距離の矢印（両向き）と数値。"""
-    z.ax.annotate('', xy(q), xytext=xy(p), arrowprops=dict(arrowstyle='<|-|>', color=BLACK, lw=1.6,
-                                                           mutation_scale=14, shrinkA=0, shrinkB=0), zorder=6)
-    z.segments.append((xy(p), xy(q)))
-    return z.free_text((p + q) / 2, text, fs=fs, offsets=offs)
-
-
-def cell(fig, x0, y0, x1, y1, text='', fs=14, ha='center', lw=1.6, color=BLACK):
-    """答案用紙の欄（図の座標 0〜1）。"""
-    fig.add_artist(Rectangle((x0, y0), x1 - x0, y1 - y0, transform=fig.transFigure, fill=False, lw=lw, ec=BLACK))
-    if text:
-        x = (x0 + x1) / 2 if ha == 'center' else x0 + 0.012
-        fig.text(x, (y0 + y1) / 2, text, ha=ha, va='center', fontsize=fs, color=color)
-
-
-def sheet_header(fig, title):
-    """第4欄の上の欄：家屋番号（空欄。登記所が付ける）と建物の所在。"""
-    cell(fig, 0.06, 0.885, 0.20, 0.935, '家屋番号', fs=15)
-    cell(fig, 0.20, 0.885, 0.46, 0.935)
-    fig.text(0.70, 0.910, title, ha='center', va='center', fontsize=20)
-    cell(fig, 0.06, 0.835, 0.20, 0.885, '建物の所在', fs=15)
-    cell(fig, 0.20, 0.835, 0.94, 0.885, 'C市D町一丁目11番地、10番地', fs=16, ha='left', color=INK)
 
 
 OFFS = ((0, 0), (0, 14), (0, -14), (18, 0), (-18, 0), (24, 12), (-24, -12))
@@ -306,48 +284,170 @@ def zu07():
     save(fig, zs, 'H25_dai22mon_zu07_shozai_ayamari_hikaku')
 
 
-# ---- 図8：建物図面の完成形（答案用紙の第4欄の右半分の形） ----
-def zu08():
+# ---- 答案用紙の第4欄（建物図面及び各階平面図）。2026-10-16、試験の答案用紙の寸法どおりに描き直した ----
+# 寸法は試験の答案用紙の原本（`../touan_youshi/H25_dai22mon_touan_youshi_p2.png`、A3横 420mm × 297mm を 2481px × 1754px で
+# 画像にしたもの。1mm ＝ 5.907px）の罫線の位置から mm に直した値。作図は用紙の左下を原点とする mm の座標で行い、図面の中身は
+# 建物図面が縮尺1/500（1m ＝ 2mm）、各階平面図が縮尺1/250（1m ＝ 4mm）の実際の大きさで描く。
+# 第4欄は1枚の枠の左半分が各階平面図、右半分が建物図面（中央の上下に短い仕切りの線だけが印刷）。枠の上の「家屋番号」の箱と、
+# 枠の中の上端の「建物の所在」の欄は、建物図面の側に1組だけ。下に「作成者（略）（平成何年何月何日作成）」「縮尺 1/250」と
+# 「申請人」（（略）の印刷なし）「縮尺 1/500」。縮尺は分数の形で印刷。「（単位：m）」は枠の中の右下。
+FR_L, FR_R, FR_B, FR_T = 46.4, 359.2, 45.6, 259.4     # 図を描く枠
+MID = 202.8                                          # 中央の仕切り
+SH_X0, SH_X1, SH_Y0, SH_Y1 = 38.0, 367.0, 14.0, 282.0  # 画像に入れる範囲（mm）
+SHEET_MM = dict(frame=(FR_L, FR_R, FR_B, FR_T), mid=MID, kaoku=(210.8, 276.1, FR_T, 270.4), kaoku_div=236.0,
+                shozai=(210.8, FR_R, 248.2, FR_T), sakusei=(FR_L, 195.5, 31.0, FR_B), sakusei_div=(69.4, 157.4, 158.0, 172.7),
+                shinsei=(211.8, FR_R, 30.3, FR_B), shinsei_div=(241.1, 321.8, 322.5, 337.2))
+
+
+def M(x, y):
+    """用紙の mm の位置（x：右向き、y：上向き）を zu_helpers の複素数（北＝縦、東＝横）にする。"""
+    return complex(y, x)
+
+
+ZUMEN_X0, ZUMEN_Y0, ZUMEN_E0, ZUMEN_N0 = 281.0, 150.0, 84.3, 28.2
+
+
+def S500(p):
+    """建物図面（縮尺1/500）：敷地の座標 X＋Yi [m] を用紙の mm に置く。1m ＝ 2mm。"""
+    return M(ZUMEN_X0 + 2 * (p.imag - ZUMEN_E0), ZUMEN_Y0 + 2 * (p.real - ZUMEN_N0))
+
+
+def S250(e, s, x0, y0):
+    """各階平面図（縮尺1/250）：建物の (東, 南) [m] を用紙の mm に置く。原点（1階の北西の角）を (x0, y0) mm に。1m ＝ 4mm。"""
+    return M(x0 + 4 * e, y0 - 4 * s)
+
+
+def sheet_figure(title):
     setup_font()
-    fig = plt.figure(figsize=(16, 14), dpi=100)
+    w_mm, h_mm = SH_X1 - SH_X0, SH_Y1 - SH_Y0
+    fig = plt.figure(figsize=(22, 22 * h_mm / w_mm), dpi=100)
     fig.patch.set_facecolor('white')
-    fig.suptitle('建物図面の完成形（答案用紙の第4欄の右側・縮尺1/500で描く内容）', fontsize=22, weight='bold', y=0.985)
-    sheet_header(fig, '建　物　図　面')
-    cell(fig, 0.06, 0.085, 0.94, 0.835, lw=1.8)
-    fig.text(0.925, 0.10, '（単位：m）', ha='right', va='bottom', fontsize=13)
-    cell(fig, 0.06, 0.035, 0.20, 0.085, '申　請　人', fs=15)
-    cell(fig, 0.20, 0.035, 0.74, 0.085, '甲野春男　甲野冬子', fs=16, ha='left', color=INK)
-    cell(fig, 0.74, 0.035, 0.83, 0.085, '縮尺', fs=15)
-    cell(fig, 0.83, 0.035, 0.94, 0.085, '1/500', fs=15)
-    ax = fig.add_axes([0.08, 0.12, 0.84, 0.70])
-    z = Zu(ax, fontsize=15)
-    fit(ax, OUTER, margin=0.06, extra=[xy(complex(41.6, 70.0)), xy(complex(15.0, 99.0))], pad_aspect=True)
-    z.north_arrow()
-    # 隣接地との境（11番・10番に接する部分だけ）
-    z.line(complex(39.24, 69.5), A, color=BLACK, lw=1.4)
-    z.line(B, complex(39.24, 97.6), color=BLACK, lw=1.4)
-    z.line(complex(17.07, 72.5), F, color=BLACK, lw=1.4)
-    z.line(E, complex(17.07, 97.6), color=BLACK, lw=1.4)
-    z.poly(LOT11, color=BLACK, lw=2.2)
-    z.poly(LOT10, color=BLACK, lw=2.2)
-    bldg = [B_(*v) for v in F1]
-    z.poly(bldg, color=BLACK, lw=2.6)
-    assert round(area(bldg), 4) == 148.2299
-    # 距離（外壁まで）：北西・北東の角から北の道路境A-Bまで2.60、南西の角から西の筆界D-Fまで2.56
+    ax = fig.add_axes([0, 0, 1, 1])
+    z = Zu(ax, fontsize=10)
+    ax.set_xlim(SH_X0, SH_X1)
+    ax.set_ylim(SH_Y0, SH_Y1)
+    ax.set_aspect('equal')
+    ax.axis('off')
+    ax.text((SH_X0 + SH_X1) / 2, 277.5, title, ha='center', va='center', fontsize=21, weight='bold')
+    return fig, ax, z
+
+
+def sheet4(ax):
+    """第4欄の印刷（試験の答案用紙どおり）と、建物の所在・申請人の記入。"""
+    def rect(x0, x1, y0, y1, lw=1.3):
+        ax.add_patch(Rectangle((x0, y0), x1 - x0, y1 - y0, fill=False, lw=lw, ec=BLACK, zorder=3))
+
+    def ln(x0, y0, x1, y1, lw=1.0):
+        ax.plot([x0, x1], [y0, y1], color=BLACK, lw=lw, zorder=3)
+
+    def txt(x, y, s, fs=12, ha='center', **kw):
+        ax.text(x, y, s, ha=ha, va='center', fontsize=fs, zorder=4, family='Noto Serif CJK JP', **kw)
+
+    S = SHEET_MM
+    ax.text(FR_L + 1.0, 265.5, '第4欄　建物図面及び各階平面図', ha='left', va='center', fontsize=13, weight='bold', zorder=4)
+    rect(FR_L, FR_R, FR_B, FR_T, lw=1.6)                         # 図を描く枠
+    ln(MID, FR_T, MID, 249.6, lw=1.6)                            # 中央の仕切り（上下の短い線だけが印刷）
+    ln(MID, FR_B, MID, 55.5, lw=1.6)
+    rect(*S['kaoku'])                                            # 家屋番号の箱（枠の外の上）
+    ln(S['kaoku_div'], FR_T, S['kaoku_div'], 270.4)
+    txt(223.4, 264.9, '家 屋 番 号', fs=11)
+    txt(311.5, 270.7, '建　　物　　図　　面', fs=14)
+    txt(311.5, 263.4, '各　階　平　面　図', fs=14)
+    rect(*S['shozai'])                                           # 建物の所在の欄（枠の中の上端）
+    ln(S['kaoku_div'], 248.2, S['kaoku_div'], FR_T)
+    txt(223.4, 253.8, '建物の所在', fs=11)
+    ax.text(240.0, 253.8, 'C市D町一丁目11番地、10番地', ha='left', va='center', fontsize=12, color=INK, zorder=4)
+    x0, x1, y0, y1 = S['sakusei']                                # 作成者・縮尺 1/250
+    rect(x0, x1, y0, y1)
+    for x in S['sakusei_div']:
+        ln(x, y0, x, y1)
+    txt(57.7, 38.3, '作　成　者', fs=11)
+    txt(84.6, 41.6, '（略）', fs=11)
+    txt(156.2, 34.4, '（平成何年何月何日作成）', fs=10, ha='right')
+    txt(165.0, 38.3, '縮尺', fs=10)
+    ln(175.0, 32.3, 194.0, 44.3, lw=0.9)
+    txt(180.5, 42.3, '1', fs=10)
+    txt(189.0, 34.0, '250', fs=10)
+    x0, x1, y0, y1 = S['shinsei']                                # 申請人・縮尺 1/500
+    rect(x0, x1, y0, y1)
+    for x in S['shinsei_div']:
+        ln(x, y0, x, y1)
+    txt(226.4, 38.0, '申　請　人', fs=11)
+    ax.text(246.0, 38.0, '甲野春男　甲野冬子', ha='left', va='center', fontsize=12, color=INK, zorder=4)
+    txt(329.6, 38.0, '縮尺', fs=10)
+    ln(339.0, 31.8, 358.0, 43.8, lw=0.9)
+    txt(344.0, 42.0, '1', fs=10)
+    txt(353.0, 33.6, '500', fs=10)
+    txt(339.0, 50.8, '（単位：m）', fs=10)
+
+
+def zumen_content(z):
+    """右半分：建物図面（縮尺1/500、1m ＝ 2mm）。敷地（11番・10番）と1階の位置・形状、筆界から外壁までの距離、地番・道路・方位。"""
+    for a, b in [(complex(39.24, 69.5), A), (B, complex(39.24, 97.6)), (complex(17.07, 72.5), F), (E, complex(17.07, 97.6))]:
+        z.line(S500(a), S500(b), lw=1.0)
+    z.poly([S500(p) for p in LOT11], lw=1.4)
+    z.poly([S500(p) for p in LOT10], lw=1.4)
+    bldg = [S500(B_(*v)) for v in F1]
+    z.poly(bldg, lw=2.0)
+    z.north_arrow(pos=(0.86, 0.62), length=0.05)
     w_ext, e_ext = W0 - HALF, W0 + 14.56 + HALF
-    dist_arrow(z, complex(N_EXT, w_ext), complex(39.24, w_ext), '2.60', offs=((-18, 0), (-22, 6), (18, 0)))
-    dist_arrow(z, complex(N_EXT, e_ext), complex(39.24, e_ext), '2.60', offs=((-18, 0), (-22, 6), (-22, -6)))
-    dist_arrow(z, complex(S_EXT, w_ext), complex(S_EXT, Y_DF), '2.56', offs=((0, -13), (0, -17), (0, 13)))
-    for p, t in [(complex(24.6, 90.6), '11'), (centroid(LOT10), '10')]:
-        z.free_text(p, t, fs=18, offsets=OFFS)
-    for p, t in [(complex(40.5, 84.0), '道路　51'), (complex(30.0, 96.9), '9-1'), (complex(16.0, 86.0), '16-1'),
-                 (complex(16.0, 74.0), '15-1'), (complex(30.0, 71.0), '12-1')]:
-        z.free_text(p, t, fs=15, offsets=OFFS)
-    save(fig, [z], 'H25_dai22mon_zu08_tatemono_zumen')
+    for p, q, dirs in [(complex(N_EXT, w_ext), complex(39.24, w_ext), (200, 215, 185)),
+                       (complex(N_EXT, e_ext), complex(39.24, e_ext), (-20, -35, -5)),
+                       (complex(S_EXT, w_ext), complex(S_EXT, Y_DF), (-120, -135, -105))]:
+        z.dim_line(S500(p), S500(q), lw=1.1)
+        z.callout(S500((p + q) / 2), {True: '2.60'}.get(abs(p.imag - q.imag) < 1e-9, '2.56'), dirs=dirs, fs=10,
+                  dists=(30, 40, 52, 64))
+    z.free_text(S500(complex(37.9, 85.0)), '11', fs=10, offsets=((0, 0), (8, 0), (-8, 0), (16, 0)))
+    z.free_text(S500(centroid(LOT10)), '10', fs=11)
+    for p, t in [(complex(41.4, 84.0), '道路（51）'), (complex(30.0, 98.6), '9-1'), (complex(15.3, 86.0), '16-1'),
+                 (complex(15.3, 73.8), '15-1'), (complex(30.0, 70.6), '12-1')]:
+        z.free_text(S500(p), t, fs=10)
 
 
-# ---- 図10：1階の求積図 ----
-def zu10():
+def heimen_content(z):
+    """左半分：各階平面図（縮尺1/250、1m ＝ 4mm）。壁の中心線の辺長（小数第2位）、各階の別、2階には1階の位置を点線で。方位は書かない。"""
+    x0, y1, y2 = 66.0, 232.0, 160.0
+    z.free_text(M(58.0, 240.5), '1階', fs=12, ha='left')
+    f1 = [S250(e, s, x0, y1) for e, s in F1]
+    z.poly(f1, lw=1.6)
+    c1 = S250(7.0, 5.5, x0, y1)
+    for i, t in enumerate(['8.19', None, '2.73', None, '3.64', '9.10', '4.55', None, '10.01', '10.92']):
+        if t:
+            z.edge_label(f1[i], f1[(i + 1) % len(f1)], t, c1, fs=10, dists=(7, 11, 15))
+    z.callout(S250(8.19, 0.455, x0, y1), '0.91', dirs=(-150, -165, -135), fs=9, dists=(24, 32, 42))
+    z.callout(S250(10.92, 0.455, x0, y1), '0.91', dirs=(-30, -15, -45), fs=9, dists=(24, 32, 42))
+    z.callout(S250(10.01, 10.01, x0, y1), '1.82', dirs=(-20, -35, -5), fs=9, dists=(24, 32, 42))
+    z.free_text(M(136.0, 211.0), '1階\n8.19×10.92＝89.4348\n1.82×10.01＝18.2182\n0.91×8.19＝7.4529\n3.64×9.10＝33.1240\n'
+                '計　148.2299\n床面積　148.22㎡', fs=11, ha='left', linespacing=1.6)
+    z.free_text(M(58.0, 168.5), '2階', fs=12, ha='left')
+    for a, b in [((3.64, 0), (0, 0)), ((0, 0), (0, 10.92)), ((0, 10.92), (3.64, 10.92)),
+                 ((8.19, 0), (8.19, 0.91)), ((8.19, 0.91), (10.92, 0.91)), ((10.92, 0.91), (10.92, 0)),
+                 ((14.56, 9.1), (10.01, 9.1)), ((10.01, 9.1), (10.01, 10.92))]:
+        z.line(S250(*a, x0, y2), S250(*b, x0, y2), lw=1.0, ls=':')
+    f2 = [S250(e, s, x0, y2) for e, s in F2]
+    z.poly(f2, lw=1.6)
+    c2 = S250(9.1, 5.46, x0, y2)
+    for i, t in enumerate(['10.92', '10.92', '10.92', '10.92']):
+        z.edge_label(f2[i], f2[(i + 1) % 4], t, c2, fs=10, dists=(7, 11, 15))
+    z.free_text(M(136.0, 141.0), '2階\n10.92×10.92＝119.2464\n計　119.2464\n床面積　119.24㎡', fs=11, ha='left', linespacing=1.6)
+    z.free_text(M(66.0, 106.0), '点線は1階の位置', fs=10, ha='left', color=GRAY)
+
+
+# ---- 図9：建物図面の完成形（答案用紙の第4欄の建物図面の側。用紙の大きさと縮尺1/500の実際の大きさ） ----
+def zu09():
+    fig, ax, z = sheet_figure('建物図面の完成形（答案用紙の第4欄の建物図面の側・縮尺1/500の実際の大きさ）')
+    sheet4(ax)
+    zumen_content(z)
+    assert round(area([B_(*v) for v in F1]), 4) == 148.2299
+    ax.text((SH_X0 + SH_X1) / 2, 22.0, '距離は外壁まで（別紙1の（注）4）：北西・北東の角から北の道路（51）との境まで2.60、南西の角から西の12番1との境まで2.56。'
+            'D-Cの線は建物の南西の角を切る', ha='center', va='center', fontsize=13)
+    ax.text((SH_X0 + SH_X1) / 2, 16.5, '家屋番号は登記官が付けるので空欄。各階平面図の側（左半分）は床面積を求めてから描く（第3章）。敷地の辺長は書かない',
+            ha='center', va='center', fontsize=12, color=GRAY)
+    save(fig, [z], 'H25_dai22mon_zu09_tatemono_zumen')
+
+
+# ---- 図11：1階の求積図 ----
+def zu11():
     fig, axes = new_figure('本件新建物1階の求積図（壁の中心線）',
                            '1階 床面積：148.22㎡（8.19×10.92＋1.82×10.01＋0.91×8.19＋3.64×9.10＝148.2299）',
                            w=16, h=12)
@@ -375,11 +475,11 @@ def zu10():
     z.free_text(P(12.74, 4.55), '④\n3.64×9.10', fs=15, offsets=OFFS)
     z.callout(P(12.3, 10.0), '南東の欠け（4.55×1.82）\nは建物の外', dirs=(-20, -35, -5), dists=(40, 60, 80), fs=14, color=GRAY)
     z.callout(P(9.55, 0.3), '北の欠け（2.73×0.91）', dirs=(70, 55, 85), dists=(55, 75, 95), fs=14, color=GRAY)
-    save(fig, [z], 'H25_dai22mon_zu10_1kai_kyuuseki')
+    save(fig, [z], 'H25_dai22mon_zu11_1kai_kyuuseki')
 
 
-# ---- 図11：2階の誤り比較図 ----
-def zu11():
+# ---- 図12：2階の誤り比較図 ----
+def zu12():
     fig, axes = new_figure('2階の位置：北西の角で合わせるか、東の辺でそろえるか',
                            '床面積はどちらも119.24㎡で同じ。丸印（別紙1の（注）9）で重ねると、2階の西の端は14.56−10.92＝3.64東',
                            w=16, h=10, ncols=2)
@@ -413,11 +513,11 @@ def zu11():
         zs.append(z)
     zs[1].north_arrow()
     fig.add_artist(plt.Line2D([0.5, 0.5], [0.13, 0.86], transform=fig.transFigure, color=GRAY, lw=1.2))
-    save(fig, zs, 'H25_dai22mon_zu11_2kai_ayamari_hikaku')
+    save(fig, zs, 'H25_dai22mon_zu12_2kai_ayamari_hikaku')
 
 
-# ---- 図12：2階の求積図 ----
-def zu12():
+# ---- 図13：2階の求積図 ----
+def zu13():
     fig, axes = new_figure('本件新建物2階の求積図（1階の外形を点線で重ねる）',
                            '2階 床面積：119.24㎡（10.92×10.92＝119.2464）。北の欠け・南東の欠けの上にも2階が張り出す',
                            w=16, h=12)
@@ -437,60 +537,25 @@ def zu12():
     dims(z, f2, ['10.92', '10.92', '10.92', '10.92'], fs=15, ref=P(9.1, 5.46))
     z.free_text(P(9.1, 4.2), '10.92×10.92\n＝119.2464', fs=17, offsets=OFFS)
     z.callout(P(0, 3.0), '点線＝1階の位置', dirs=(180, 165, 195), dists=(30, 45, 60), fs=14)
-    save(fig, [z], 'H25_dai22mon_zu12_2kai_kyuuseki')
+    save(fig, [z], 'H25_dai22mon_zu13_2kai_kyuuseki')
 
 
-# ---- 図13：各階平面図の完成形（答案用紙の第4欄の左側の形） ----
-def zu13():
-    setup_font()
-    fig = plt.figure(figsize=(18, 11.5), dpi=100)
-    fig.patch.set_facecolor('white')
-    fig.suptitle('各階平面図の完成形（答案用紙の第4欄の左側・縮尺1/250で描く内容）', fontsize=22, weight='bold', y=0.98)
-    cell(fig, 0.04, 0.875, 0.16, 0.92, '家屋番号', fs=15)
-    cell(fig, 0.16, 0.875, 0.40, 0.92)
-    fig.text(0.70, 0.897, '各　階　平　面　図', ha='center', va='center', fontsize=20)
-    cell(fig, 0.04, 0.83, 0.16, 0.875, '建物の所在', fs=15)
-    cell(fig, 0.16, 0.83, 0.96, 0.875, 'C市D町一丁目11番地、10番地', fs=16, ha='left', color=INK)
-    cell(fig, 0.04, 0.13, 0.96, 0.83, lw=1.8)
-    cell(fig, 0.04, 0.06, 0.14, 0.13, '作　成　者', fs=15)
-    cell(fig, 0.14, 0.06, 0.78, 0.13, '（略）　　　　　　　　　　　　（平成何年何月何日作成）', fs=15)
-    cell(fig, 0.78, 0.06, 0.86, 0.13, '縮尺', fs=15)
-    cell(fig, 0.86, 0.06, 0.96, 0.13, '1/250', fs=15)
-    fig.text(0.5, 0.025, '壁の中心線の寸法（柱の両面被覆。別紙1の（注）5）で「1階」「2階」を書き分け、2階の図には1階の位置を点線で示す。'
-             '求積の式と床面積を各階の横に書く', ha='center', va='center', fontsize=14)
-    axes = [fig.add_axes([0.05, 0.16, 0.26, 0.62]), fig.add_axes([0.50, 0.16, 0.26, 0.62])]
-    tables = ['1階\n8.19×10.92＝89.4348\n1.82×10.01＝18.2182\n0.91×8.19＝7.4529\n3.64×9.10＝33.1240\n'
-              '計　148.2299\n床面積　148.22㎡',
-              '2階\n10.92×10.92＝119.2464\n計　119.2464\n床面積　119.24㎡']
-    zs = []
-    f1 = [P(*v) for v in F1]
-    for k, name in enumerate(['1階', '2階']):
-        ax = axes[k]
-        z = Zu(ax, fontsize=13)
-        ax.set_title(name, fontsize=17, weight='bold')
-        fit(ax, f1, margin=0.18, pad_aspect=True)
-        if name == '1階':
-            z.poly(f1, color=BLACK, lw=2.4)
-            dims(z, f1, ['8.19', None, '2.73', None, '3.64', '9.10', '4.55', None, '10.01', '10.92'], fs=13, ref=P(7.0, 5.5))
-            z.free_text(P(10.01, 10.01), '1.82', fs=13, offsets=((-14, 0), (-17, 0), (-20, 0)), rotation=90)
-            z.free_text(P(8.19, 0.455), '0.91', fs=12, offsets=((-17, 0), (-20, 7), (-20, -7)))
-            z.free_text(P(10.92, 0.455), '0.91', fs=12, offsets=((17, 0), (20, 7), (20, -7)))
-        else:
-            for a, b in [((3.64, 0), (0, 0)), ((0, 0), (0, 10.92)), ((0, 10.92), (3.64, 10.92)),
-                         ((8.19, 0), (8.19, 0.91)), ((8.19, 0.91), (10.92, 0.91)), ((10.92, 0.91), (10.92, 0)),
-                         ((14.56, 9.1), (10.01, 9.1)), ((10.01, 9.1), (10.01, 10.92))]:
-                z.line(P(*a), P(*b), color=BLACK, lw=1.4, ls=':')
-            f2 = [P(*v) for v in F2]
-            z.poly(f2, color=BLACK, lw=2.4)
-            dims(z, f2, ['10.92', '10.92', '10.92', '10.92'], fs=13, ref=P(9.1, 5.46))
-        zs.append(z)
-        fig.text(0.32 + 0.45 * k, 0.47, tables[k], ha='left', va='center', fontsize=14, linespacing=1.6)
-    zs[1].north_arrow()
-    save(fig, zs, 'H25_dai22mon_zu13_kakukai_heimenzu')
-
-
-# ---- 図14：附属建物の増改築の前後比較図 ----
+# ---- 図14：問4の完成形（答案用紙の第4欄：各階平面図と建物図面を実際の大きさで） ----
 def zu14():
+    fig, ax, z = sheet_figure('各階平面図の完成形（答案用紙の第4欄の各階平面図の側・縮尺1/250の実際の大きさ）')
+    sheet4(ax)
+    heimen_content(z)
+    zumen_content(z)
+    assert round(area([P(*v) for v in F1]), 4) == 148.2299 and round(area([P(*v) for v in F2]), 4) == 119.2464
+    ax.text((SH_X0 + SH_X1) / 2, 22.0, '各階平面図は壁の中心線の寸法（柱の両面被覆。別紙1の（注）5）で「1階」「2階」を書き分け、2階の図には1階の位置を点線で示す。'
+            '求積の式と床面積を各階の横に書く', ha='center', va='center', fontsize=13)
+    ax.text((SH_X0 + SH_X1) / 2, 16.5, '方位は建物図面だけに書く（不動産登記規則第82条第2項。各階平面図の第83条第1項には方位がない）。'
+            '作成者の「（略）」と縮尺は印刷済み', ha='center', va='center', fontsize=12, color=GRAY)
+    save(fig, [z], 'H25_dai22mon_zu14_kakukai_heimenzu')
+
+
+# ---- 図15：附属建物の増改築の前後比較図 ----
+def zu15():
     fig, axes = new_figure('附属建物の増改築（工事前の物置 → 工事後の店舗）',
                            '所在　12番地 → 12番地1（平成25年8月5日分筆により変更）。構造は鉄骨造陸屋根平家建のまま（別紙1の2）',
                            w=16, h=10, ncols=2)
@@ -519,11 +584,11 @@ def zu14():
         ax.set_title(title, fontsize=18, weight='bold', pad=10)
         zs.append(z)
     fig.add_artist(plt.Line2D([0.5, 0.5], [0.13, 0.86], transform=fig.transFigure, color=GRAY, lw=1.2))
-    save(fig, zs, 'H25_dai22mon_zu14_fuzoku_zoukaichiku')
+    save(fig, zs, 'H25_dai22mon_zu15_fuzoku_zoukaichiku')
 
 
-# ---- 図17：本番で解く順番 ----
-def zu17():
+# ---- 図20：本番で解く順番 ----
+def zu20():
     """本番で解く順番。固定配置の図。check_fixed で文字の重なりとはみ出しを調べ、目視でも確認する。"""
     setup_font()
     fig = plt.figure(figsize=(16, 8), dpi=100)
@@ -559,8 +624,8 @@ def zu17():
     fig.text(0.5, 0.09, '第2欄の所在の欄は、③では空けておき、⑤でD-Cの線を引いてから書く（概略図の見た目で「11番地」と書かない）。\n'
              '求積は問2だけでなく、第1欄の取り壊した主である建物の行（登記記録の抜粋に床面積がない）にも入る',
              ha='center', va='center', fontsize=15)
-    check_fixed(fig, 'H25_dai22mon_zu17_toku_junban')
-    path = os.path.join(OUT, 'H25_dai22mon_zu17_toku_junban.png')
+    check_fixed(fig, 'H25_dai22mon_zu20_toku_junban')
+    path = os.path.join(OUT, 'H25_dai22mon_zu20_toku_junban.png')
     fig.savefig(path, facecolor='white')
     plt.close(fig)
     print('書き出し:', path)
@@ -902,12 +967,12 @@ def zu06():
     save(fig, zs, 'H25_dai22mon_zu06_tatemono_ichi_keisan')
 
 
-# ---- 図9：鉄骨柱の測り方の誤り比較図（建物の北西の角の詳細。柱の大きさは模式） ----
+# ---- 図10：鉄骨柱の測り方の誤り比較図（建物の北西の角の詳細。柱の大きさは模式） ----
 COL = 0.07     # 柱の半分の幅（模式）
 L9E, L9S = 1.30, 0.95   # 描く範囲：角から東へ・南へ
 
 
-def zu09():
+def zu10():
     fig, axes = new_figure('鉄骨柱の両面が被覆されているときは、柱の中心線で測る',
                            '別紙1の（注）5：鉄骨柱の両面は被覆、測定値は柱の中心から。別紙1の（注）6：壁厚は20センチ。\n'
                            '両面被覆なら柱の中心線＝壁の中心線なので、測定値（8.19・10.92など）をそのまま使う（不動産登記規則第115条）。'
@@ -955,16 +1020,16 @@ def zu09():
         ax.set_title(title, fontsize=17, weight='bold', color=tcol, pad=10)
         zs.append(z)
     vline(fig, 0.5, 0.17, 0.86)
-    save(fig, zs, 'H25_dai22mon_zu09_hashira_hikaku')
+    save(fig, zs, 'H25_dai22mon_zu10_hashira_hikaku')
 
 
-# ---- 図15：12番の分筆と附属建物の所在の変更（12番2の西の端と附属建物の位置は模式） ----
+# ---- 図16：12番の分筆と附属建物の所在の変更（12番2の西の端と附属建物の位置は模式） ----
 W12 = 58.57    # 12番2の西の端（道路との境）。問題に座標がないので模式
 FZ_W = 66.57 + 1.40 + 0.10     # 附属建物の西の壁の中心線（概略図の1.40を目安にした模式）
 FZ_N = 39.24 - 1.00 - 0.10     # 附属建物の北の壁の中心線（模式）
 
 
-def zu15():
+def zu16():
     fig, axes = new_figure('12番の分筆（8月5日）で、附属建物の所在が「12番地」から「12番地1」に変わる',
                            '原因「平成25年8月5日分筆により変更」（不動産登記法第51条第1項で1月以内に申請）。家屋番号は、申請書には今の「12番の1」を書き、\n'
                            '登記官が変える（不動産登記事務取扱手続準則第79条第10号）。G・H・A・D・Fは座標どおり、12番2の西の端と附属建物の位置は模式',
@@ -1008,11 +1073,11 @@ def zu15():
         ax.set_title(title, fontsize=17, weight='bold', pad=10)
         zs.append(z)
     vline(fig, 0.5, 0.16, 0.86)
-    save(fig, zs, 'H25_dai22mon_zu15_bunpitsu_shozai')
+    save(fig, zs, 'H25_dai22mon_zu16_bunpitsu_shozai')
 
 
-# ---- 図16：形成的登記と報告的登記の比較図 ----
-def zu16():
+# ---- 図19：形成的登記と報告的登記の比較図 ----
+def zu19():
     fig, ax = fixed_figure('共有の建物の滅失登記は、共有者の1人で申請できる', w=16, h=10.5, rect=(0.02, 0.10, 0.96, 0.78))
     blocks = [(2, '誤り：共有物の登記だから共有者全員で', RED,
                ['形成的登記の考え方', '合併・分割のように、登記で建物の\n個数や範囲を新しく作り変える', 'その考え方を滅失登記にも\nあてはめてしまう',
@@ -1034,11 +1099,108 @@ def zu16():
     vline(fig, 0.5, 0.08, 0.90)
     fig.text(0.5, 0.05, '本件取壊建物の建物滅失登記：滅失の日から1月以内に申請（不動産登記法第57条）。怠ると10万円以下の過料（同法第164条第1項）',
              ha='center', va='center', fontsize=15)
-    save_fixed(fig, 'H25_dai22mon_zu16_keiseiteki_houkokuteki')
+    save_fixed(fig, 'H25_dai22mon_zu19_keiseiteki_houkokuteki')
+
+
+# ======================================================================
+# 2026-10-16追加：本文に対して図がなかった所在の順序（図8）と、添付情報の各号の当てはめ表（図17・図18）
+# ======================================================================
+
+# ---- 図8：所在の順序の誤り比較図（地番の順ではなく床面積の多い順） ----
+def zu08():
+    """所在の順序。固定配置の図なので check_fixed で文字の重なりを調べ、目視でも確認する。"""
+    on11, on10 = 147.2, 1.0          # 1階のうち11番の上・10番の上（記事の約147.2㎡・約1.0㎡。照合スクリプトで多角形を切って確かめる）
+    fig, ax = fixed_figure('2筆にまたがる建物の所在は、地番の順ではなく床面積の多い順', w=16, h=10,
+                           rect=(0.02, 0.10, 0.96, 0.78))
+    for x0, title, col in [(2, '誤り：地番の順に書く', RED), (52, '正しい：床面積の多い部分の地番が先', GREEN)]:
+        ax.text(x0 + 23, 99, title, ha='center', va='center', fontsize=19, weight='bold', color=col)
+        rbox(ax, x0 + 0.5, 4, 45, 86, col, alpha=0.06)
+    # 左：番号の小さい順
+    ax.text(25, 80, '番号の小さい10番地を先に', ha='center', va='center', fontsize=15)
+    for k, (no, t) in enumerate([('1番目', '10番地'), ('2番目', '11番地')]):
+        ax.text(10, 62 - 16 * k, no, ha='left', va='center', fontsize=15, color=GRAY)
+        ax.text(26, 62 - 16 * k, t, ha='left', va='center', fontsize=20, weight='bold', color=RED)
+    rbox(ax, 4, 9, 42, 17, RED, alpha=0.10, lw=1.4)
+    ax.text(25, 21.5, 'C市D町一丁目10番地、11番地', ha='center', va='center', fontsize=16, weight='bold', color=RED)
+    ax.text(25, 13.0, '（番号の順にしてしまう誤り）', ha='center', va='center', fontsize=14, color=RED)
+    # 右：床面積の棒
+    ax.text(75, 80, '本件新建物の1階のうち、どちらの土地の上が多いか', ha='center', va='center', fontsize=15)
+    full = 30.0
+    for k, (lot, v, c) in enumerate([('11番の上', on11, GREEN), ('10番の上', on10, ORANGE)]):
+        y = 64 - 15 * k
+        ax.text(56, y, lot, ha='left', va='center', fontsize=15)
+        bar = max(full * v / on11, 0.6)
+        ax.add_patch(Rectangle((66, y - 3.2), bar, 6.4, facecolor=c, alpha=0.55, edgecolor=c))
+        if k == 0:     # 長い棒は棒の中に白抜きで
+            ax.text(66 + bar - 1.0, y, f'約{v:.1f}㎡', ha='right', va='center', fontsize=15, weight='bold', color='white')
+        else:          # 短い棒は棒の右に
+            ax.text(68 + bar, y, f'約{v:.1f}㎡', ha='left', va='center', fontsize=15, weight='bold')
+    rbox(ax, 54, 9, 42, 17, GREEN, alpha=0.12, lw=1.4)
+    ax.text(75, 21.5, 'C市D町一丁目11番地、10番地', ha='center', va='center', fontsize=16, weight='bold', color=GREEN)
+    ax.text(75, 13.0, '（不動産登記事務取扱手続準則第88条第2項）', ha='center', va='center', fontsize=14, color=GREEN)
+    vline(fig, 0.5, 0.08, 0.90)
+    fig.text(0.5, 0.05, '10番の上は南西の角の約1.0㎡だけでも所在に書く。順序は床面積の多い11番地が先（第2欄の所在、建物図面・各階平面図の建物の所在も同じ）',
+             ha='center', va='center', fontsize=15)
+    save_fixed(fig, 'H25_dai22mon_zu08_shozai_junjo')
+
+
+def tekiyou_table(name, title, caption, rows):
+    """各号・本問の事実・結果の3列の当てはめ表（固定配置）。rows：[(各号, 事実, 結果, 色)]"""
+    fig, ax = fixed_figure(title, w=16, h=12, rect=(0.02, 0.12, 0.96, 0.78))
+    cols = [(1, 30, '各号（添付情報欄など）'), (30, 77, '本問の事実'), (77, 99, '結果')]
+    top = 99.0
+    rh = (top - 9 - 1.0) / len(rows)
+    for x0, x1, t in cols:
+        ax.add_patch(Rectangle((x0, top - 9), x1 - x0, 9, facecolor=to_rgba(BLACK, 0.06), edgecolor=BLACK, lw=1.4))
+        ax.text((x0 + x1) / 2, top - 4.5, t, ha='center', va='center', fontsize=15, weight='bold')
+    for j, (a, b, c, col) in enumerate(rows):
+        y1 = top - 9 - j * rh
+        y0 = y1 - rh
+        for x0, x1, _ in cols:
+            ax.add_patch(Rectangle((x0, y0), x1 - x0, rh, fill=False, edgecolor=BLACK, lw=1.1))
+        ym = (y0 + y1) / 2
+        ax.text(2.2, ym, a, ha='left', va='center', fontsize=13.5, weight='bold', linespacing=1.6)
+        ax.text(31.2, ym, b, ha='left', va='center', fontsize=13, linespacing=1.6)
+        ax.text(88, ym, c, ha='center', va='center', fontsize=14, weight='bold', color=col, linespacing=1.6)
+    fig.text(0.5, 0.065, caption[0], ha='center', va='center', fontsize=14.5)
+    fig.text(0.5, 0.025, caption[1], ha='center', va='center', fontsize=13.5, color=GRAY)
+    save_fixed(fig, name)
+
+
+# ---- 図17：第1欄（建物表題部変更登記）の添付情報の当てはめ表 ----
+def zu17():
+    tekiyou_table(
+        'H25_dai22mon_zu17_tenpu_dai1ran', '第1欄の添付情報：不動産登記令別表14の項の各号を事実に当てはめる',
+        ('入れるのは建物図面・各階平面図・所有権証明情報・代理権限証明情報の4つ（答案用紙の欄の名前が「添付情報」なので「〜情報」で書く）',
+         '登録免許税は答案用紙に欄がない（表題部の変更の登記は登録免許税法別表第一の一（十三）に当たらない）'),
+        [('イ　所在を変更するとき', '12番の分筆（8月5日）で、所在が\n12番地 → 12番地1', '建物図面', GREEN),
+         ('ロ（1）　床面積を変更するとき', '主である建物の取壊し（7月26日）、\n附属建物の増築（22.50 → 38.25）', '建物図面・\n各階平面図', GREEN),
+         ('ロ（2）　床面積が増加するとき', '南へ4.50×3.50＝15.75㎡増えた部分が\n甲野春男・甲野冬子のものであること', '所有権証明情報', GREEN),
+         ('ハ　附属建物を新築したとき', '新築した附属建物はない', '当たらない', GRAY),
+         ('ニ　共用部分である旨の登記', '共用部分である旨の登記はない', '当たらない', GRAY),
+         ('種類の変更（物置 → 店舗）', '別表14の項の添付情報欄に定めがない', '足すものなし', GRAY),
+         ('令第7条第1項第2号　代理人', '土地家屋調査士が代理して申請する', '代理権限証明情報', GREEN),
+         ('住所証明情報', '表題登記の別表12の項ニの情報。\n別表14の項にはない', '入れない', GRAY)])
+
+
+# ---- 図18：第2欄（建物表題登記）の添付情報の当てはめ表 ----
+def zu18():
+    tekiyou_table(
+        'H25_dai22mon_zu18_tenpu_dai2ran', '第2欄の添付情報：不動産登記令別表12の項の各号を事実に当てはめる',
+        ('入れるのは建物図面・各階平面図・所有権証明情報・住所証明情報・代理権限証明情報の5つ',
+         '登録免許税は答案用紙に欄がない（建物の表題登記は登録免許税法別表第一に載っていない）'),
+        [('イ　建物図面', '本件新建物の敷地と1階の位置・形状', '建物図面', GREEN),
+         ('ロ　各階平面図', '1階148.22㎡・2階119.24㎡', '各階平面図', GREEN),
+         ('ハ　所有権を有することを証する情報', '材料を出した乙川建設ではなく、代金を払い終えた\n2人が所有者（準則第87条第1項：建築請負人の証明情報など）',
+          '所有権証明情報', GREEN),
+         ('ニ　住所を証する情報', '表題部所有者になる甲野春男・甲野冬子の2人の分', '住所証明情報', GREEN),
+         ('ホ・ヘ　区分建物・敷地権', '区分建物ではない', '当たらない', GRAY),
+         ('ト　法第47条第2項（一般承継人）', '所有者本人の2人が申請する', '当たらない', GRAY),
+         ('令第7条第1項第2号　代理人', '土地家屋調査士が代理して申請する', '代理権限証明情報', GREEN)])
 
 
 if __name__ == '__main__':
-    # 記事の挿入順（図1〜図17）
+    # 記事の挿入順（図1〜図20）
     zu01()
     zu02()
     zu03()
@@ -1056,4 +1218,7 @@ if __name__ == '__main__':
     zu15()
     zu16()
     zu17()
+    zu18()
+    zu19()
+    zu20()
     print('重なり合計:', len(PROBLEMS))

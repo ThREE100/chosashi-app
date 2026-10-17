@@ -23,6 +23,9 @@ table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left:
 table.t td.genin { font-size: 17px; }
 table.t td .ink { font-size: 19px; }
 table.t td.genin .ink { font-size: 18px; }
+.mokuteki { min-height: 62px; }
+.tenpu { min-height: 110px; }
+.shinseinin { min-height: 110px; }
 .setsumei { border: 3px solid #111; min-height: 420px; padding: 24px 28px; font-size: 25px; line-height: 1.9;
              text-indent: 1em; }
 .caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px;
@@ -46,13 +49,20 @@ table.s td.l { width: 150px; text-align: center; font-size: 21px; }
 .good { outline: 3px solid #2e9e44; outline-offset: 3px; background: #f1faf2; }
 .okwrap { position: relative; }
 .check { position: absolute; right: -14px; top: -22px; }
+table.s td.one { height: 62px; }   /* 表のセルの height は最小の高さ（中の文字に合わせて伸びる） */
+table.s td.two { height: 100px; }
+/* 添削の3コマ：横1200pxの縦長にするため、コマの最小の高さを決める（中の文字に合わせて伸びる） */
+.panel.tall { min-height: 420px; }
+.panel.last { border-bottom: none; }
+.caption.tensaku { margin: 10px 0 30px; }
+.strike { text-decoration: line-through; text-decoration-thickness: 3px; }
 </style></head><body><div class="page">
 <div class="head1">本件旧建物に関する登記の申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px"><span class="ink">建物表題部変更登記</span></div></div>
-<div class="row"><div class="lab">添　付　情　報</div><div class="box" style="height:110px"><span class="ink">建物図面　各階平面図　所有権証明情報　代理権限証明情報</span></div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box mokuteki"><span class="ink">建物表題部変更登記</span></div></div>
+<div class="row"><div class="lab">添　付　情　報</div><div class="box tenpu"><span class="ink">建物図面　各階平面図　所有権証明情報　代理権限証明情報</span></div></div>
 <div class="dateline">平成25年８月23日申請　　Ｃ地方法務局</div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:110px"><span class="ink">Ｃ市Ｄ町一丁目３番２号　甲野春男<br>Ｃ市Ｄ町一丁目３番２号　甲野冬子</span></div></div>
+<div class="row"><div class="lab">申　　請　　人</div><div class="box shinseinin"><span class="ink">Ｃ市Ｄ町一丁目３番２号　甲野春男<br>Ｃ市Ｄ町一丁目３番２号　甲野冬子</span></div></div>
 <div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
-<table class="t"><colgroup><col style="width:5.7%"><col style="width:15.9%"><col style="width:12.7%"><col style="width:4.1%"><col style="width:12.4%"><col style="width:5.7%"><col style="width:10.3%"><col style="width:9.7%"><col style="width:23.5%"></colgroup><tr><td class="lab2 val" colspan="2">不動産番号</td><td class="val" colspan="7"></td></tr><tr><td class="vert" rowspan="7">建物の表示</td><td class="lab2" rowspan="2">所　　在</td><td class="val" colspan="7"><span class="ink">Ｃ市Ｄ町一丁目12番地</span></td></tr><tr><td class="val" colspan="4"><span class="ink">Ｃ市Ｄ町一丁目12番地１</span></td><td class="val genin" colspan="3"><span class="ink">平成25年８月５日分筆により変更</span></td></tr><tr><td class="lab2 val">家屋番号</td><td class="val" colspan="2"><span class="ink">12番の１</span></td><td class="val" colspan="5"></td></tr><tr><td class="head">主である建物<br>又は附属建物</td><td class="head">①種類</td><td class="head" colspan="2">②構造</td><td class="head" colspan="3">③床面積　m²</td><td class="head">登記原因及びその日付</td></tr><tr><td class="entry center"><span class="ink">主</span></td><td class="entry center"><span class="ink">倉庫</span></td><td class="entry center" colspan="2"><span class="ink">軽量鉄骨造亜鉛<br>メッキ鋼板ぶき<br>２階建</span></td><td class="entry int" colspan="2"><span class="ink">1階　148</span><br><span class="ink">2階　119</span></td><td class="entry dec"><span class="ink">22</span><br><span class="ink">24</span></td><td class="entry genin"><span class="ink">平成25年７月26日取壊し</span></td></tr><tr><td class="entry center"></td><td class="entry center"><span class="ink">店舗</span></td><td class="entry center" colspan="2"><span class="ink">鉄骨造陸屋根<br>平家建</span></td><td class="entry int" colspan="2"><span class="ink">38</span></td><td class="entry dec"><span class="ink">25</span></td><td class="entry genin"><span class="ink">平成25年７月26日主である建物に変更、平成25年８月18日種類変更、増築</span></td></tr><tr><td class="entry center"><span class="ink">符号１</span></td><td class="entry center"><span class="ink">物置</span></td><td class="entry center" colspan="2"><span class="ink">鉄骨造陸屋根<br>平家建</span></td><td class="entry int" colspan="2"><span class="ink">22</span></td><td class="entry dec"><span class="ink">50</span></td><td class="entry genin"><span class="ink">平成25年７月26日主である建物に変更</span></td></tr></table>
-<div class="caption">平成25年度 土地家屋調査士試験 第22問 第1欄 登記申請書 解答例</div>
+<table class="t"><colgroup><col style="width:5.56%"><col style="width:16.13%"><col style="width:12.56%"><col style="width:4.17%"><col style="width:12.26%"><col style="width:5.56%"><col style="width:10.27%"><col style="width:10.02%"><col style="width:23.47%"></colgroup><tr><td class="lab2 val" colspan="2">不動産番号</td><td class="val" colspan="7"></td></tr><tr><td class="vert" rowspan="7">建物の表示</td><td class="lab2" rowspan="2">所　　在</td><td class="val" colspan="7"><span class="ink">Ｃ市Ｄ町一丁目12番地</span></td></tr><tr><td class="val" colspan="4"><span class="ink">Ｃ市Ｄ町一丁目12番地１</span></td><td class="val genin" colspan="3"><span class="ink">平成25年８月５日分筆により変更</span></td></tr><tr><td class="lab2 val">家屋番号</td><td class="val" colspan="2"><span class="ink">12番の１</span></td><td class="val" colspan="5"></td></tr><tr><td class="head">主である建物<br>又は附属建物</td><td class="head">①種類</td><td class="head" colspan="2">②構造</td><td class="head" colspan="3">③床面積　m²</td><td class="head">登記原因及びその日付</td></tr><tr><td class="entry center"><span class="ink">主</span></td><td class="entry center"><span class="ink">倉庫</span></td><td class="entry center" colspan="2"><span class="ink">軽量鉄骨造亜鉛<br>メッキ鋼板ぶき<br>２階建</span></td><td class="entry int" colspan="2"><span class="ink">1階　148</span><br><span class="ink">2階　119</span></td><td class="entry dec"><span class="ink">22</span><br><span class="ink">24</span></td><td class="entry genin"><span class="ink">平成25年７月26日取壊し</span></td></tr><tr><td class="entry center"></td><td class="entry center"><span class="ink">店舗</span></td><td class="entry center" colspan="2"><span class="ink">鉄骨造陸屋根<br>平家建</span></td><td class="entry int" colspan="2"><span class="ink">38</span></td><td class="entry dec"><span class="ink">25</span></td><td class="entry genin"><span class="ink">平成25年７月26日主である建物に変更、平成25年８月18日種類変更、増築</span></td></tr><tr><td class="entry center"><span class="ink">符号１</span></td><td class="entry center"><span class="ink">物置</span></td><td class="entry center" colspan="2"><span class="ink">鉄骨造陸屋根<br>平家建</span></td><td class="entry int" colspan="2"><span class="ink">22</span></td><td class="entry dec"><span class="ink">50</span></td><td class="entry genin"><span class="ink">平成25年７月26日主である建物に変更</span></td></tr></table>
+<div class="caption">平成25年度 土地家屋調査士試験 第22問 問1 登記申請書 解答例</div>
 </div></body></html>

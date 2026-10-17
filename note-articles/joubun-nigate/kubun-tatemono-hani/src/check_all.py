@@ -9,7 +9,7 @@ RISKY = set("号録権地番建物登記所請還売買当初詐欺規対抗無�
 TREE = re.compile(r"決定木|判定木|ツリー|(?<![立竹樹植苗])木(?:では|に当て|の右|の左|の枝|の根|の分岐|の図|を描|で見|と呼)")
 ng, okc = [], 0
 def NG(m): ng.append(m)
-ns = [int(a) for a in sys.argv[1:]] or list(range(1, 10))
+ns = [int(a) for a in sys.argv[1:]] or list(range(1, 11))
 for n in ns:
     f = OUT / "parts" / f"part{n}.py"
     if not f.exists(): NG(f"part{n}.py がない"); continue
@@ -20,7 +20,7 @@ for n in ns:
     note = (OUT / f"{n:02d}-{P['slug']}.md").read_text(encoding="utf8")
     prom = (OUT / f"{n:02d}-{P['slug']}_prompts.md").read_text(encoding="utf8")
     # 1 肢の網羅と正誤
-    ex_ids = [e[0] for e in P["points"] and [e for p in P["points"] for e in p["examples"]]]
+    ex_ids = [e[0] for p in P["points"] for e in p["examples"] if e[0]]
     miss = set(truth) - set(ex_ids); extra = set(ex_ids) - set(truth)
     if miss: NG(f"{tag} 「たとえば」にない肢: {sorted(miss)}")
     if extra: NG(f"{tag} この回にない肢が入っている: {sorted(extra)}")
@@ -28,14 +28,16 @@ for n in ns:
         for iid, kind, text, why in p["examples"]:
             if iid in truth and (kind == "正しい") != truth[iid]: NG(f"{tag} {iid} の正誤が、バンクの値（{'正' if truth[iid] else '誤'}）と食い違う")
             if kind not in ("正しい", "誤り"): NG(f"{tag} {iid} の判定は『正しい』か『誤り』")
-    pair_ids = [i for s in P["scenes"] for p in s["pairs"] for i in p["ids"]]
+    pair_ids = [i for s in P["scenes"] for p in s.get("pairs", []) for i in p["ids"]]
     miss = set(truth) - set(pair_ids)
     if miss: NG(f"{tag} 図解のpairにない肢: {sorted(miss)}")
     for s in P["scenes"]:
-        for p in s["pairs"]:
-            tr = [truth[i] for i in p["ids"] if i in truth]
-            if tr and len(set(tr)) != 1: NG(f"{tag} 1つのpairに、正しい肢と誤った肢が混ざっている: {p['ids']}")
-            elif tr and (p["stmt"] == "right") != tr[0]: NG(f"{tag} pair {p['ids']} の stmt（出題文の内容の側）が正誤と食い違う")
+        for p in s.get("pairs", []):
+            if "wrong" in p or "stmt" in p: NG(f"{tag} pair {p['ids']} に wrong／stmt が残っている（正解だけを描く形に改めた）")
+            if not p.get("pitfall"): NG(f"{tag} pair {p['ids']} に pitfall（間違えやすいポイント）がない")
+            elif len(p["pitfall"]) > 52: NG(f"{tag} pair {p['ids']} の pitfall が52字を超える: {len(p['pitfall'])}字")
+            if len(p["claim"]) > 36: NG(f"{tag} pair {p['ids']} の claim が36字を超える: {p['claim']}")
+            if "誤" in p["claim"] or "誤" in p["right"]["tag"]: NG(f"{tag} pair {p['ids']} の見出し（claim／tag）に『誤』がある。見出しは正しい内容を言い切る文にする")
     # 2 マーカーと図解
     nsc = len(P["scenes"]); marks = re.findall(r"^> 【画像挿入】図解(\d+)「", note, re.M)
     if sorted(set(int(x) for x in marks)) != list(range(1, nsc + 1)): NG(f"{tag} 画像挿入マーカーと図解の数が合わない（マーカー {sorted(set(marks))} / 図解 {nsc}）")
@@ -49,6 +51,7 @@ for n in ns:
         actual = (RISKY & set(re.findall(r"[一-鿿]", body))) if i <= nsc else set(re.findall(r"[一-鿿]", body.split("TEXT (reproduce verbatim")[1].split("TOPIC SCENES")[0]))
         if i <= nsc and listed != actual: NG(f"{tag} 図解{i}：Final checkの漢字リストが本文と違う 余分={sorted(listed-actual)} 不足={sorted(actual-listed)}")
         if re.search(r"緑|green", b, re.I): NG(f"{tag} 図{i}：緑／green")
+        if "誤ったイメージ" in b or "出題文の内容" in b: NG(f"{tag} 図{i}：『誤ったイメージ』『出題文の内容』が残っている")
         if TREE.search(b): NG(f"{tag} 図{i}：樹形図の『木』『ツリー』")
         if "BACKGROUND REQUIREMENT" not in b or "alpha" not in b: NG(f"{tag} 図{i}：背景の不透明化の指示がない")
         if "注意：" in b or re.search(r"[✓✕✗]", b): NG(f"{tag} 図{i}：独立した日本語の注意文か✓✕")
@@ -72,14 +75,21 @@ for n in ns:
     if mt["hot"] not in mt["t2"]: NG(f"{tag} 見出し画像の強調語がタイトル2行目にない")
     for s in (mt["t1"], mt["t2"], mt["sub"]):
         if s not in prom: NG(f"{tag} 見出し画像プロンプトに『{s}』がない")
+    # 3b 画像に載る文言に、A・B・C以外のラテン文字を入れない
+    for k, s in enumerate(P["scenes"], 1):
+        strs = [s.get("t1", ""), s.get("t2", ""), s.get("sub", "")] + list(s.get("state", {}).get("labels", []))
+        for p in s.get("pairs", []):
+            strs += [p["claim"], p["right"]["tag"], p["pitfall"]] + list(p["right"].get("labels", []))
+        for x in strs:
+            if re.search(r"[D-Za-zＡ-Ｚａ-ｚ]", x): NG(f"{tag} 図解{k}：画像に載る文言にA・B・C以外のラテン文字がある: {x[:20]}")
     # 4 禁止：画像のタイトル／ラベルに結論や問題番号は入れない（labels 重複）
     for k, s in enumerate(P["scenes"], 1):
+        if "pairs" not in s: continue
         labs = list(s["state"].get("labels", []))
         if len(labs) != len(set(labs)): NG(f"{tag} 図解{k}：state のラベルが重複")
         for p in s["pairs"]:
-            for side in ("right", "wrong"):
-                l2 = p[side].get("labels", [])
-                if len(l2) != len(set(l2)): NG(f"{tag} 図解{k}：{side} のラベルが重複")
+            l2 = p["right"].get("labels", [])
+            if len(l2) != len(set(l2)): NG(f"{tag} 図解{k}：right のラベルが重複")
     print(f"[{n}] 肢{len(truth)} / 図解{nsc}枚 / pair{len(pair_ids)}")
 for m in ng: print("NG  ", m)
 print(f"結果: NG {len(ng)}件")

@@ -4,10 +4,10 @@ import re, pathlib
 def laws_dir(root):
     return pathlib.Path(root) / "note-articles" / "laws"
 
-def kubun_article(root, n, paras=None):
-    """区分所有法（kubunshoyuu-hou.md）の第n条（例 '第5条'）から、(見出し, [項の本文...]) を返す。
+def kubun_article(root, n, paras=None, fname="kubunshoyuu-hou.md"):
+    """区分所有法（kubunshoyuu-hou.md。fname を渡すと土地家屋調査士法 chousashi-hou.md などの同じ形式の法令）の第n条（例 '第5条'）から、(見出し, [項の本文...]) を返す。
     paras に ['５', '６'] のように項の頭の数字を指定すると、その項だけ返す（第1項は '1'）。"""
-    t = (laws_dir(root) / "kubunshoyuu-hou.md").read_text(encoding="utf8")
+    t = (laws_dir(root) / fname).read_text(encoding="utf8")
     m = re.search(r"^### " + re.escape(n) + r"\n", t, re.M)
     e = re.search(r"^### 第", t[m.end():], re.M)
     body = t[m.end():m.end() + e.start()]

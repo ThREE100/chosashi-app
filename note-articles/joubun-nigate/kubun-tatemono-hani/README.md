@@ -1,21 +1,22 @@
-# 区分建物の範囲　苦手克服シリーズ（全9回）
+# 区分建物の範囲　苦手克服シリーズ（全10回）
 
-択一式の一問一答で、復習・チェックの対象になっている区分建物の肢を、論点ごとの9つのグループにまとめた苦手克服の記事です（2026-10-15作成）。
-敷地権や規約敷地は、出題文の状態そのものが頭に浮かびにくいのが弱点です。そこで各回の図解は、「①出題文の状態の絵 → ②正しいイメージ（青）→ ③誤ったイメージ（赤）」の順で、確かめる記述1つにつき1組の絵を並べる形にしました。文章の知識と絵をつなげるための図です。
+択一式の一問一答で、復習・チェックの対象になっている区分建物の肢を、論点ごとの10のグループにまとめた苦手克服の記事です（2026-10-15作成）。
+敷地権や規約敷地は、出題文の状態そのものが頭に浮かびにくいのが弱点です。そこで各回の図解は、「①出題文の状態の絵 → ②正しいイメージ（青）」の順で、確かめる内容1つにつき1枚の絵を描く形にしました（2026-10-17に、正誤を並べる形から、正解だけを描く形に改めました）。見出しは正しい内容を言い切る文にし、間違えやすいポイントは正しいイメージの下に文字で添えます。文章の知識と絵をつなげるための図です。
 
 ## 構成
 
 1. [区分建物とは何か・登記記録の読み方](01-kihon.md)　（肢13／図解5枚／見出し画像1枚。画像プロンプトは [01-kihon_prompts.md](01-kihon_prompts.md)）
-2. [敷地権が成り立つ土地と権利](02-shikichi-seiritsu.md)　（肢10／図解6枚／見出し画像1枚。画像プロンプトは [02-shikichi-seiritsu_prompts.md](02-shikichi-seiritsu_prompts.md)）
-3. [敷地権の登記の流れ・記録・原因の日付](03-shikichiken-kiroku.md)　（肢15／図解9枚／見出し画像1枚。画像プロンプトは [03-shikichiken-kiroku_prompts.md](03-shikichiken-kiroku_prompts.md)）
-4. [分離処分可能規約と敷地権の消滅・抵当権](04-bunri-shobun.md)　（肢9／図解6枚／見出し画像1枚。画像プロンプトは [04-bunri-shobun_prompts.md](04-bunri-shobun_prompts.md)）
-5. [敷地権のある土地の分筆・合筆・地目変更・移転](05-shikichi-no-tochi.md)　（肢6／図解5枚／見出し画像1枚。画像プロンプトは [05-shikichi-no-tochi_prompts.md](05-shikichi-no-tochi_prompts.md)）
-6. [区分建物の表題登記を申請する人と組み合わせ](06-hyodai-shinsei.md)　（肢16／図解8枚／見出し画像1枚。画像プロンプトは [06-hyodai-shinsei_prompts.md](06-hyodai-shinsei_prompts.md)）
-7. [区分・接続・合体・合併・分割](07-setsuzoku-gattai.md)　（肢17／図解11枚／見出し画像1枚。画像プロンプトは [07-setsuzoku-gattai_prompts.md](07-setsuzoku-gattai_prompts.md)）
-8. [共用部分である旨の登記](08-kyoyobubun.md)　（肢11／図解6枚／見出し画像1枚。画像プロンプトは [08-kyoyobubun_prompts.md](08-kyoyobubun_prompts.md)）
-9. [区分建物の変更・滅失・所在](09-henkou-messhitsu.md)　（肢6／図解4枚／見出し画像1枚。画像プロンプトは [09-henkou-messhitsu_prompts.md](09-henkou-messhitsu_prompts.md)）
+2. [その権利は、敷地権になる？](02-teigi-yomu.md)　（肢15／図解11枚／見出し画像1枚。画像プロンプトは [02-teigi-yomu_prompts.md](02-teigi-yomu_prompts.md)）
+3. [敷地権が成り立つ土地と権利](03-shikichi-seiritsu.md)　（肢10／図解6枚／見出し画像1枚。画像プロンプトは [03-shikichi-seiritsu_prompts.md](03-shikichi-seiritsu_prompts.md)）
+4. [敷地権の登記の流れ・記録・原因の日付](04-shikichiken-kiroku.md)　（肢15／図解9枚／見出し画像1枚。画像プロンプトは [04-shikichiken-kiroku_prompts.md](04-shikichiken-kiroku_prompts.md)）
+5. [分離処分可能規約と敷地権の消滅・抵当権](05-bunri-shobun.md)　（肢9／図解6枚／見出し画像1枚。画像プロンプトは [05-bunri-shobun_prompts.md](05-bunri-shobun_prompts.md)）
+6. [敷地権のある土地の分筆・合筆・地目変更・移転](06-shikichi-no-tochi.md)　（肢6／図解5枚／見出し画像1枚。画像プロンプトは [06-shikichi-no-tochi_prompts.md](06-shikichi-no-tochi_prompts.md)）
+7. [区分建物の表題登記を申請する人と組み合わせ](07-hyodai-shinsei.md)　（肢16／図解8枚／見出し画像1枚。画像プロンプトは [07-hyodai-shinsei_prompts.md](07-hyodai-shinsei_prompts.md)）
+8. [区分・接続・合体・合併・分割](08-setsuzoku-gattai.md)　（肢17／図解11枚／見出し画像1枚。画像プロンプトは [08-setsuzoku-gattai_prompts.md](08-setsuzoku-gattai_prompts.md)）
+9. [共用部分である旨の登記](09-kyoyobubun.md)　（肢11／図解6枚／見出し画像1枚。画像プロンプトは [09-kyoyobubun_prompts.md](09-kyoyobubun_prompts.md)）
+10. [区分建物の変更・滅失・所在](10-henkou-messhitsu.md)　（肢6／図解4枚／見出し画像1枚。画像プロンプトは [10-henkou-messhitsu_prompts.md](10-henkou-messhitsu_prompts.md)）
 
-合計：肢103、図解60枚（正誤を確かめる記述の組 101）、見出し画像9枚。
+合計：肢118、図解71枚（正誤を確かめる記述の組 110）、見出し画像10枚。
 
 ## 読み方・使い方
 
@@ -23,6 +24,14 @@
 - 図解の画像は、プロンプトをChatGPT（画像生成）に貼って作ります。画像の生成と目視確認は未実施です。
 - 肢の番号と、どの肢がどのポイントに入っているかは、作業用の [grouping.md](grouping.md) にあります（記事・画像には載せていません）。
 - 作り方：`src/build.py`（記事とプロンプトを生成）、`src/check_all.py`（機械チェック）、`parts/partN.py`（元データ）、`work/`（肢の抽出結果）。
+
+## 構成の考え方（2026-10-17に見直し）
+
+敷地権まわりは、定義から順に読む構成にしました。第2回「敷地権を定義から読み解く」を土台に置き、第3回以降はその細部を肢ごとに掘り下げます。
+- 土台：第1回（区分建物とは）→ 第2回（敷地・敷地利用権・敷地権の定義、成立条件、割合、判定の流れ）
+- 敷地権が成り立つ土地と権利：第3回　／　敷地権の登記の記録と日付：第4回　／　分離処分可能規約・消滅・抵当権：第5回　／　敷地権のある土地の手続：第6回
+- 区分建物そのものの手続：第7回（表題登記の申請人）、第8回（接続・合体・合併・分割）、第9回（共用部分）、第10回（変更・滅失・所在）
+- つまずき方の型（A 言葉の混同／B 成立条件／C 割合／D 敷地権の有無と表題登記・合併の別／E 登記が動くとき／F 敷地権の土地の手続）は、第2回の第6章で整理し、詳しくは次の回に送ります：A・B・C→第2回と第3回、E→第4回と第5回、F→第6回、D→第8回と第2回。
 
 ## このシリーズの位置づけ
 
