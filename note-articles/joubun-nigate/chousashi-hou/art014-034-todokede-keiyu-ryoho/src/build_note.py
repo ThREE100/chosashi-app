@@ -14,7 +14,17 @@ def quote(n, paras=None):
         lines += ([">"] if i else []) + ["> " + it]
     return "\n".join(lines)
 
+def fudo_all(head, title):
+    b = lp.fudo_article(ROOT, head)
+    paras = [x.strip() for x in b.split("\n\n")[1:] if x.strip()]
+    out = [f"> **{title}**"]
+    for x in paras:
+        out += [">", "> " + x]
+    return "\n".join(out)
+
 t = (_here.parent / "note_template.md").read_text(encoding="utf8")
-t = t.replace("{{LAW14}}", quote("第14条")).replace("{{LAW34_2}}", quote("第34条", ["２"]))
+t = t.replace("{{LAW14}}", quote("第14条")).replace("{{LAW34_2}}", quote("第34条", ["２"]))\
+     .replace("{{LAW6}}", fudo_all("##### 第6条（登記所）", "不動産登記法 第6条（登記所）"))\
+     .replace("{{LAW124}}", fudo_all("##### 第124条（筆界特定の事務）", "不動産登記法 第124条（筆界特定の事務）"))
 _here.parent.parent.joinpath("note_art014-034.md").write_text(t, encoding="utf8")
 print(len(t))

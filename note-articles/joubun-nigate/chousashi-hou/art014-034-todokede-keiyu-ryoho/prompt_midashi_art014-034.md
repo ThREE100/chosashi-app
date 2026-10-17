@@ -1,14 +1,14 @@
-# 土地家屋調査士法　届出先の区別　見出し画像プロンプト（note見出し画像・1280×670px）
+# 届出先・申請先の決め方　見出し画像プロンプト（note見出し画像・1280×670px）
 
-条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、土地家屋調査士法の届出先の区別（経由か、両方か）の記事の見出し画像です。4コマ解説図解の見出し画像のプロンプト（`tools/drill/manga/gen_prompts.py` の `header_prompt`、mainブランチ）を参照して、同じ構成・同じ配色（水彩の空）で作りました。サブタイトルは、このシリーズ用の `苦手克服　土地家屋調査士法　届出先` です。画像は生成していません。
+条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、土地家屋調査士法の届出先と不動産登記法の申請先の決め方（経由か、両方か。管轄にまたがるとき）の記事の見出し画像です。4コマ解説図解の見出し画像のプロンプト（`tools/drill/manga/gen_prompts.py` の `header_prompt`、mainブランチ）を参照して、同じ構成・同じ配色（水彩の空）で作りました。サブタイトルは、このシリーズ用の `苦手克服　届出先と申請先` です。画像は生成していません。
 
 ChatGPTに、キャラクターの参照画像（トリ先生と藍子の基準画像。`CHATGPT_MANGA_WORKFLOW.md` §3の6枚）を添付し、どちらがトリ先生でどちらが藍子かを一言添えて、下のコードブロックを貼ります。
 
 ## 見出し画像の文言（正本）
 
-- タイトル1行目：調査士と調査士法人の届出（薄い黄色のマーカー）
-- タイトル2行目：経由か、両方か（「両方か」を赤みのあるオレンジ）
-- サブタイトル：苦手克服　土地家屋調査士法　届出先
+- タイトル1行目：届出先・申請先の決め方（薄い黄色のマーカー）
+- タイトル2行目：どこに出す？（「出す？」を赤みのあるオレンジ）
+- サブタイトル：苦手克服　届出先と申請先
 
 1行目・2行目は、結論を書かず、問いかけにしています（1行16字以内）。
 
@@ -28,26 +28,26 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
 TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
-調査士と調査士法人の届出
-Line 2 is larger; the phrase 両方か is red-orange and the rest is dark navy:
-経由か、両方か
+届出先・申請先の決め方
+Line 2 is larger; the phrase 出す？ is red-orange and the rest is dark navy:
+どこに出す？
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-苦手克服　土地家屋調査士法　届出先
+苦手克服　届出先と申請先
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
 TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the characters):
 Left side: a person pictogram handing a blank document sheet to a small office building, with a larger building standing behind it
-Right side: two building icons side by side (a small one and a larger one) with two blank document sheets, and a blank two-week calendar
+Right side: a blank map sheet with a boundary line running between two adjoining office buildings, and a blank document sheet
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the characters and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 調, 査, 士, 法, 人, 届, 出, 経, 由, 両, 方, 苦, 手, 克, 服, 土, 地, 家, 屋, 先; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written; scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 届, 出, 先, 申, 請, 決, 方, 苦, 手, 克, 服; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm both characters match the attached references and 藍子 keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## 保存名
 
-- 見出し画像（採用版）：`届出先の区別_見出し.png`
-- 途中の版・不採用の版：`届出先の区別_見出し_v01.png`
+- 見出し画像（採用版）：`届出先と申請先_見出し.png`
+- 途中の版・不採用の版：`届出先と申請先_見出し_v01.png`
 
 ## 見出し画像の検品
 

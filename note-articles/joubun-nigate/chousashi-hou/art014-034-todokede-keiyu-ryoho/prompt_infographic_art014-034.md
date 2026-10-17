@@ -1,6 +1,6 @@
-# 土地家屋調査士法　届出先の区別（経由か、両方か）　図解インフォグラフィック プロンプト（5枚）
+# 届出先・申請先の決め方（調査士法の届出先／不動産登記法の申請先）　図解インフォグラフィック プロンプト（7枚）
 
-条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、土地家屋調査士法の届出先の区別（調査士会を経由して連合会に届け出る場合と、調査士会と連合会の両方に届け出る場合）の記事に差し込む図解のプロンプトです。画像は生成していません（ChatGPTなどで手動生成）。作成のルールは `note-articles/infographic-prompt-template.md`（文字化け・簡体字対策、背景の不透明化、はい／いいえの配色、アウトロブロック禁止）に従いました。配色は、肯定＝青、否定＝赤、中立＝濃紺で統一しています。画像の中には、図の番号を入れません。
+条文別『苦手克服』シリーズ（`note-articles/joubun-nigate/`）の、届出先・申請先の決め方（第1部：土地家屋調査士法の届出先、調査士会を経由する場合と両方に届け出る場合。第2部：不動産登記法の申請先、登記と筆界特定）の記事に差し込む図解のプロンプトです。画像は生成していません（ChatGPTなどで手動生成）。作成のルールは `note-articles/infographic-prompt-template.md`（文字化け・簡体字対策、背景の不透明化、はい／いいえの配色、アウトロブロック禁止）に従いました。配色は、肯定＝青、否定＝赤、中立＝濃紺で統一しています。画像の中には、図の番号を入れません。
 
 | 番号 | 図解 | 型 | サイズ | 保存名 | 記事の挿入位置 |
 |---|---|---|---|---|---|
@@ -9,8 +9,10 @@
 | 図解3 | 調査士（個人）の手続の一覧表 | 早見表型（3列） | 1080×1900 | 図解3_個人の手続の一覧表.png | 「部品2：調査士（個人）」の節の終わり |
 | 図解4 | 調査士法人の届出の一覧表 | 早見表型（4列） | 1080×2300 | 図解4_法人の届出の一覧表.png | 「部品3：調査士法人」の節の、届出の一覧のあと |
 | 図解5 | 調査士法人が解散したとき、どの条文で届け出るか | フローチャート型 | 1080×1900 | 図解5_解散と合併の仕分け.png | 「解散と合併は、条文が分かれる」の節の終わり |
+| 図解6 | 登記の申請と筆界特定の申請の対比表 | 対比表型（3列） | 1080×1900 | 図解6_登記と筆界特定の申請先の対比表.png | 「部品5：登記は登記所、筆界特定は法務局又は地方法務局」の節の終わり |
+| 図解7 | 管轄区域にまたがるとき、どこに申請するか | フローチャート型 | 1080×2000 | 図解7_管轄にまたがるときの申請先.png | 「部品7：指定がされる前でも、そのうちの一つに申請できる」の節の終わり |
 
-画像の使い方：ChatGPTに、下のコードブロックを貼って生成します（キャラクターは描かないので、参照画像は不要です）。サイズが1080幅で出せないときは、最も近い縦長で構いません。生成後は、各プロンプトの文言と画像の文字を一字ずつ突き合わせ、簡体字・余計な文字・透過がないことを確かめてください。表の行数（図解3は5行、図解4は7行）と、流れ図の分岐の数も確かめてください。
+画像の使い方：ChatGPTに、下のコードブロックを貼って生成します（キャラクターは描かないので、参照画像は不要です）。サイズが1080幅で出せないときは、最も近い縦長で構いません。生成後は、各プロンプトの文言と画像の文字を一字ずつ突き合わせ、簡体字・余計な文字・透過がないことを確かめてください。表の行数（図解3は5行、図解4は7行、図解6は5行）と、流れ図の分岐の数も確かめてください。
 
 ## 図解1：届出先は、経由か、両方か（4つのパターン）
 
@@ -181,4 +183,67 @@ At the very bottom, one small light-gray tag centered across both result boxes: 
 Counts: 1 start node, 1 diamond, 2 result boxes, 2 distinct paths from the start to a result box. The diamond has exactly two exits, and no arrow leaves a result box. The two blue result boxes have different texts (the strings 「40条3項の届出」 and 「39条2項の届出」 are NOT identical); do not copy one into the other.
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 届, 登, 解, 記, 証, 間; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm there are exactly 1 start node, 1 diamond and 2 result boxes, that the diamond shows only the two navy labels 合併 and 合併以外 and no はい or いいえ, that both result boxes are blue and have different texts, that no text overflows its box, and that no arrow label is hidden. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+## 図解6：登記の申請と筆界特定の申請の対比表
+
+- 型：対比表型（3列）　／　サイズ：1080×1900　／　保存名：`図解6_登記と筆界特定の申請先の対比表.png`
+- 記事の挿入位置：「部品5：登記は登記所、筆界特定は法務局又は地方法務局」の節の終わり
+
+```text
+Create a Japanese-language infographic, portrait layout, 1080x1900 pixels, clean flat-design isometric illustration style with soft pastel colors (light blue, cream, beige, gray), rounded card sections, in the same explainer-graphic style as the other posters of this series (icons: isometric houses, registry ledgers, calendars, rubber stamps, document sheets). This is a comparison table poster with three columns (対比表).
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only: hiragana, katakana, and Jōyō (regular Japanese) kanji, plus Arabic numerals and the symbols 「」（）・：／ as written below. Do NOT use Simplified Chinese characters and do NOT use Traditional Chinese characters, even where a glyph looks close to the correct Japanese kanji; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script (no Korean Hangul, no Latin words) and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, shorten, translate, reorder, or substitute any characters, and do not add any text that is not listed.
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin outside the cards, with a solid pale beige background. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
+COLOR RULE: affirmative labels and the YES branch (arrows, labels, and result boxes of any flowchart) are BLUE. Negative labels and the NO branch (arrows, labels, and result boxes of any flowchart) are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, badges, and headings, and a pale yellow highlighter only for strings marked as emphasized.
+--- HEADER ---
+Title (large, bold, 2 lines):
+「登記と筆界特定の申請先」
+「どこが違う？」
+Subtitle (smaller, centered, 1 line):
+「不動産登記法 第6条・第124条」
+--- TABLE ---
+Render as a clean flat-design table with alternating row background colors, Japanese sans-serif font, no monospace font. Exactly 3 columns (one row-label column and two data columns) and exactly 5 data rows, no merged cells. Draw no check mark and no cross mark, and use no blue or red anywhere in this table.
+Header row (dark navy cells with white text), from left to right: the first cell is empty; the second header 「登記の申請」; the third header 「筆界特定の申請」. The two headers are NOT identical.
+Data row 1 (row label cell, dark navy, white text: 「事務をつかさどる所」): second column 「登記所（法務局・地方法務局・支局・出張所）」; third column 「法務局又は地方法務局」.
+Data row 2 (row label cell, dark navy, white text: 「管轄の基準」): second column 「不動産の所在地」; third column 「対象土地の所在地」.
+Data row 3 (row label cell, dark navy, white text: 「二以上にまたがるとき」): second column 「事務を行う所が指定される」; third column 「事務を行う所が指定される」.
+Data row 4 (row label cell, dark navy, white text: 「指定がされる前」): second column 「一の登記所に申請できる」; third column 「一の法務局又は地方法務局に申請できる」.
+Data row 5 (row label cell, dark navy, white text: 「根拠」): second column 「不動産登記法6条」; third column 「不動産登記法124条」.
+In data row 1 the words 「登記所」 in the second column and the words 「法務局又は地方法務局」 in the third column have a pale yellow highlighter marker, and in data row 4 the words 「申請できる」 in both columns have a pale yellow highlighter marker. The second and third columns of data row 3 have the same text on purpose; draw the same string in both cells. Every other cell has its own text exactly as given.
+--- FOOTER ---
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 対, 張, 所, 登, 記, 請, 違; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the table has exactly 3 columns and exactly 5 data rows, that every cell reads exactly as given, that only the marked phrases carry the yellow marker, and that no check mark or cross mark appears anywhere. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+```
+
+## 図解7：管轄区域にまたがるとき、どこに申請するか
+
+- 型：フローチャート型　／　サイズ：1080×2000　／　保存名：`図解7_管轄にまたがるときの申請先.png`
+- 記事の挿入位置：「部品7：指定がされる前でも、そのうちの一つに申請できる」の節の終わり
+
+```text
+Create a Japanese-language infographic, portrait layout, 1080x2000 pixels, clean flat-design isometric illustration style with soft pastel colors (light blue, cream, beige, gray), rounded card sections, in the same explainer-graphic style as the other posters of this series (icons: isometric houses, registry ledgers, calendars, rubber stamps, document sheets). This is a flowchart poster (判定の流れ).
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only: hiragana, katakana, and Jōyō (regular Japanese) kanji, plus Arabic numerals and the symbols 「」（）・：／ as written below. Do NOT use Simplified Chinese characters and do NOT use Traditional Chinese characters, even where a glyph looks close to the correct Japanese kanji; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script (no Korean Hangul, no Latin words) and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, shorten, translate, reorder, or substitute any characters, and do not add any text that is not listed.
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin outside the cards, with a solid pale beige background. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
+COLOR RULE: affirmative labels and the YES branch (arrows, labels, and result boxes of any flowchart) are BLUE. Negative labels and the NO branch (arrows, labels, and result boxes of any flowchart) are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, badges, and headings, and a pale yellow highlighter only for strings marked as emphasized.
+--- HEADER ---
+Title (large, bold, 2 lines):
+「管轄区域にまたがるとき」
+「どこに申請する？」
+Subtitle (smaller, centered, 1 line):
+「不動産登記法 第6条・第124条」
+--- FLOWCHART ---
+Layout: one vertical center line down the middle of the canvas for START, DIAMOND 1 and DIAMOND 2, in this order from top to bottom. RESULT 1 sits to the RIGHT of DIAMOND 1 on the same row, with at least 60 px of empty space between them. RESULT 2 and RESULT 3 sit below DIAMOND 2, one at the lower left and one at the lower right. All arrows are straight or have at most one right-angle bend and never cross each other.
+NODE START (rounded pill, dark navy): 「申請先を決める」
+NODE DIAMOND 1: 「対象の不動産は、二以上の管轄区域にまたがるか？」 The text is placed inside the diamond on 3 lines; enlarge the diamond so that all text stays inside it. This diamond has TWO neutral branches whose arrows and labels are dark navy (NOT blue and NOT red) and carry the labels 「またがらない」 and 「またがる」; do not draw the strings 「はい」 or 「いいえ」 on these arrows.
+  - Arrow right with the label 「またがらない」 to RESULT 1.
+  - Arrow down with the label 「またがる」 to DIAMOND 2.
+NODE RESULT 1 (blue box): 「所在地を管轄する所に」 on the first line and 「申請する」 on the second line.
+NODE DIAMOND 2: 「事務を行う所の指定は、されたか？」 The text is placed inside the diamond on 3 lines. This diamond has TWO neutral navy branches with the labels 「された」 and 「まだ」.
+  - Arrow down-left with the label 「された」 to RESULT 2.
+  - Arrow down-right with the label 「まだ」 to RESULT 3.
+NODE RESULT 2 (blue box): 「指定された所に」 on the first line and 「申請する」 on the second line.
+NODE RESULT 3 (blue box): 「そのうち一つに」 on the first line and 「申請できる」 on the second line.
+At the very bottom, one small light-gray tag centered across the canvas: 「筆界特定でも、登記でも同じ」
+Counts: 1 start node, 2 diamonds, 3 result boxes, 3 distinct paths from the start to a result box. Every diamond has exactly two exits, and no arrow leaves a result box. The three blue boxes have different texts (the strings 「所在地を管轄する所に」, 「指定された所に」 and 「そのうち一つに」 are NOT identical); do not copy one into another.
+--- FOOTER ---
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 対, 所, 登, 記, 請; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm there are exactly 1 start node, 2 diamonds and 3 result boxes, that both diamonds show only their two navy labels and no はい or いいえ, that all three result boxes are blue and have different texts, that no text overflows its box, and that no arrow label is hidden. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
