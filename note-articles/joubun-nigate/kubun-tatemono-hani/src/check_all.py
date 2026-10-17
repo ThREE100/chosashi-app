@@ -9,7 +9,7 @@ RISKY = set("号録権地番建物登記所請還売買当初詐欺規対抗無�
 TREE = re.compile(r"決定木|判定木|ツリー|(?<![立竹樹植苗])木(?:では|に当て|の右|の左|の枝|の根|の分岐|の図|を描|で見|と呼)")
 ng, okc = [], 0
 def NG(m): ng.append(m)
-ns = [int(a) for a in sys.argv[1:]] or list(range(1, 10))
+ns = [int(a) for a in sys.argv[1:]] or list(range(1, 11))
 for n in ns:
     f = OUT / "parts" / f"part{n}.py"
     if not f.exists(): NG(f"part{n}.py がない"); continue
@@ -20,7 +20,7 @@ for n in ns:
     note = (OUT / f"{n:02d}-{P['slug']}.md").read_text(encoding="utf8")
     prom = (OUT / f"{n:02d}-{P['slug']}_prompts.md").read_text(encoding="utf8")
     # 1 肢の網羅と正誤
-    ex_ids = [e[0] for e in P["points"] and [e for p in P["points"] for e in p["examples"]]]
+    ex_ids = [e[0] for p in P["points"] for e in p["examples"] if e[0]]
     miss = set(truth) - set(ex_ids); extra = set(ex_ids) - set(truth)
     if miss: NG(f"{tag} 「たとえば」にない肢: {sorted(miss)}")
     if extra: NG(f"{tag} この回にない肢が入っている: {sorted(extra)}")
@@ -28,11 +28,11 @@ for n in ns:
         for iid, kind, text, why in p["examples"]:
             if iid in truth and (kind == "正しい") != truth[iid]: NG(f"{tag} {iid} の正誤が、バンクの値（{'正' if truth[iid] else '誤'}）と食い違う")
             if kind not in ("正しい", "誤り"): NG(f"{tag} {iid} の判定は『正しい』か『誤り』")
-    pair_ids = [i for s in P["scenes"] for p in s["pairs"] for i in p["ids"]]
+    pair_ids = [i for s in P["scenes"] for p in s.get("pairs", []) for i in p["ids"]]
     miss = set(truth) - set(pair_ids)
     if miss: NG(f"{tag} 図解のpairにない肢: {sorted(miss)}")
     for s in P["scenes"]:
-        for p in s["pairs"]:
+        for p in s.get("pairs", []):
             tr = [truth[i] for i in p["ids"] if i in truth]
             if tr and len(set(tr)) != 1: NG(f"{tag} 1つのpairに、正しい肢と誤った肢が混ざっている: {p['ids']}")
             elif tr and (p["stmt"] == "right") != tr[0]: NG(f"{tag} pair {p['ids']} の stmt（出題文の内容の側）が正誤と食い違う")
@@ -74,6 +74,7 @@ for n in ns:
         if s not in prom: NG(f"{tag} 見出し画像プロンプトに『{s}』がない")
     # 4 禁止：画像のタイトル／ラベルに結論や問題番号は入れない（labels 重複）
     for k, s in enumerate(P["scenes"], 1):
+        if "pairs" not in s: continue
         labs = list(s["state"].get("labels", []))
         if len(labs) != len(set(labs)): NG(f"{tag} 図解{k}：state のラベルが重複")
         for p in s["pairs"]:

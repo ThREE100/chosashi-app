@@ -8,7 +8,7 @@ ROOT = next(p for p in HERE.parents if (p / "note-articles").is_dir())
 sys.path.insert(0, str(HERE))
 import scene_lib as sl
 
-TOTAL = 9
+TOTAL = 10
 def load(n):
     f = HERE.parent / "parts" / f"part{n}.py"
     spec = importlib.util.spec_from_file_location(f"part{n}", f); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
@@ -52,9 +52,10 @@ def build_note(P):
         for e in laws: L += render_law(e) + [""]
     L += ["---", ""]
     for k, p in enumerate(P["points"], 1):
-        L += [f"### {p['h']}", "", "**よくある勘違い**", ""] + [x for x in sum(([s, ""] for s in p["wrong"]), [])]
+        L += [f"### {p['h']}", ""]
+        if p["wrong"]: L += ["**よくある勘違い**", ""] + [x for x in sum(([s, ""] for s in p["wrong"]), [])]
         L += ["**正しい整理**", ""] + [x for x in sum(([s, ""] for s in p["right"]), [])]
-        L += ["**見分け方**", ""] + [f"- {s}" for s in p["how"]] + [""]
+        if p["how"]: L += ["**見分け方**", ""] + [f"- {s}" for s in p["how"]] + [""]
         L += ["**たとえば**", ""]
         for _iid, kind, text, why in p["examples"]:
             L.append(f"- {text}　→　**{kind}**。{why}")
@@ -73,7 +74,7 @@ def build_prompts(P):
         "記事 `" + f"{n:02d}-{P['slug']}.md" + "` の画像プロンプトです。図解の画像は、記事に出てくる順に、図解1から番号を振っています（画像の中に番号は入りません）。画像は生成していません。ChatGPT（画像生成）に、各コードブロックをそのまま貼ります。", "",
         "どの図解も、1枚の中で「出題文の状態」→「正しいイメージ」（青）と「誤ったイメージ」（赤）の順に並べます。「出題文の内容」の札は、問われている記述が描かれている側のパネルに付きます。", ""]
     for k, sc in enumerate(P["scenes"], 1):
-        L += [f"## 図解{k}：{sc['title']}", "", sc["memo"], "", "```text", sl.scene_prompt(sc), "```", ""]
+        L += [f"## 図解{k}：{sc['title']}", "", sc["memo"], "", "```text", (sl.scene_prompt(sc) if "pairs" in sc else sc["raw"]), "```", ""]
     L += ["## 見出し画像", "", "note見出し画像（1280×670px）です。ChatGPTに、キャラクターの参照画像（トリ先生と藍子の基準画像。`CHATGPT_MANGA_WORKFLOW.md` §3の6枚）を添付し、どちらがトリ先生でどちらが藍子かを一言添えて、下のコードブロックを貼ります。", "",
           f"- タイトル1行目：{P['midashi']['t1']}", f"- タイトル2行目：{P['midashi']['t2']}（「{P['midashi']['hot']}」を赤みのあるオレンジ）", f"- サブタイトル：{P['midashi']['sub']}", "",
           "```text", sl.midashi_prompt(P["midashi"]), "```", ""]
