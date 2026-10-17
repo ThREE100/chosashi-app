@@ -1,0 +1,1070 @@
+{
+ "slug": "f04-tochi-bunpitsu-gappitsu",
+ "subject": "不動産登記法",
+ "topic": "土地の分筆・合筆・地積更正",
+ "items": [
+  {
+   "id": "D0026",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔土地の分筆登記の申請に関する規律〕【不登法】仮差押えの登記がされている土地について、所有権の登記名義人が分筆の登記の申請をするときは、仮差押債権者が承諾したことを証する情報を申請情報と併せて提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 6,
+   "cons": 0,
+   "n": 8,
+   "miscon": 6,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 6
+   },
+   "history": "✗✗✗✗○○✗✗",
+   "sources": [
+    {
+     "label": "1",
+     "q": "H17-Q06",
+     "note_path": "note-articles/h17-mondai/q06-bunpitsu-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0649",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔所有権以外の権利のある土地の分筆及び合筆の登記〕抵当権の登記がある甲土地を甲土地及び乙土地に分筆する際に、乙土地について抵当権者が当該抵当権を消滅させることを承諾したことを証する情報を提供して分筆の登記がされた場合であっても、当該分筆の登記が錯誤により申請がされたときは、分筆錯誤を原因として、当該分筆の登記の抹消を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 4,
+   "cons": 0,
+   "n": 5,
+   "miscon": 3,
+   "unknown": 1,
+   "wrong_dir": {
+    "誤った記述を〇": 3,
+    "不明(?)": 1
+   },
+   "history": "✗✗○？✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H23-Q08",
+     "note_path": "note-articles/h23-mondai/q08-bunpitsu-gappitsu-kenri.md"
+    }
+   ]
+  },
+  {
+   "id": "D1753",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "いずれも同一の区分建物の敷地権である旨の登記がされている甲土地及び乙土地について、本件合筆の登記を申請することはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 4,
+   "cons": 0,
+   "n": 4,
+   "miscon": 4,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 4
+   },
+   "history": "✗✗✗✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R04-Q09",
+     "note_path": "note-articles/r4-mondai/q09-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1949",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "承役地についてする地役権の登記がある甲土地に地役権の登記がない乙土地を合筆する合筆の登記を申請する場合には、地役権設定の範囲を申請情報の内容としなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 4,
+   "cons": 0,
+   "n": 5,
+   "miscon": 4,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 4
+   },
+   "history": "✗✗○✗✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R06-Q09",
+     "note_path": "note-articles/r6-mondai/q09-gappitsu-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D0376",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔分筆の登記の申請情報又は添付情報〕一筆の土地の一部が別の地目になったことにより、地目に関する変更の登記と分筆の登記とを一の申請情報により申請するときは、登記原因及びその日付を申請情報の内容としなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 1,
+   "unknown": 2,
+   "wrong_dir": {
+    "不明(?)": 2,
+    "正しい記述を×": 1
+   },
+   "history": "？○✗？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R02-Q09",
+     "note_path": "note-articles/r2-mondai/q09-bunpitsu-touki.md"
+    },
+    {
+     "label": "エ",
+     "q": "H20-Q13",
+     "note_path": "note-articles/h20-mondai/q13-bunpitsu-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1555",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔土地の分筆の登記〕共有に属する土地の一部の持分について，当該持分を有する共有者と国との間で買収協議が成立した場合，国は，その者に代位して分筆の登記を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 5,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗✗○✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R02-Q09",
+     "note_path": "note-articles/r2-mondai/q09-bunpitsu-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D1850",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔土地の分筆の登記〕抵当権の設定の登記がされた土地について分筆の登記がされた後は、錯誤を原因とする当該分筆の登記の抹消をすることはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 3,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗✗✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R05-Q09",
+     "note_path": "note-articles/r5-mondai/q09-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0443",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "地積に誤りがある土地の利害関係人は、当該土地の所有権の登記名義人に対し地積の更正の登記手続を命ずる判決を得て、代位により地積の更正の登記を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H21-Q07",
+     "note_path": "note-articles/h21-mondai/q07-chiseki-kousei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1560",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔甲土地を隣接する乙土地に合筆する合筆の登記（以下「本件合筆の登記」という。）〕甲土地と乙土地に，いずれも丙土地を承役地とする地役権の登記がされており，それぞれ地役権設定の目的及び範囲並びに登記の年月日が同一であるときは，本件合筆の登記を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R02-Q10",
+     "note_path": "note-articles/r2-mondai/q10-gappitsu-seigen.md"
+    }
+   ]
+  },
+  {
+   "id": "D1939",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "土地の登記記録の地積に誤りがあることが判明した後に当該土地の所有権の登記名義人となった者は、その者に係る所有権の登記があった日から1か月以内に、当該土地の地積に関する更正の登記を申請しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗✗○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R06-Q07",
+     "note_path": "note-articles/r6-mondai/q07-chiseki-kosei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0339",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔甲土地から乙土地を分筆する場合に、申請情報として提供する乙土地の地積〕居宅の敷地である宅地の一部を、公衆用道路として分筆した。乙土地の実測面積は9.0025平方メートルであったので、地積を9.00平方メートルとする。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H20-Q06",
+     "note_path": "note-articles/h20-mondai/q06-chiseki-tan-i.md"
+    }
+   ]
+  },
+  {
+   "id": "D0342",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔甲土地から乙土地を分筆する場合に、申請情報として提供する乙土地の地積〕畑の一部を、宅地造成工事中の土地として分筆した。乙土地の実測面積は215.4766平方メートルであったので、地積を215平方メートルとする。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H20-Q06",
+     "note_path": "note-articles/h20-mondai/q06-chiseki-tan-i.md"
+    }
+   ]
+  },
+  {
+   "id": "D0348",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "甲土地に要役地についてする地役権の登記がある場合には、乙土地に合筆しようとする部分について地役権を消滅させることを証する地役権者の作成した情報を提供して、本件分合筆の登記を申請することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H20-Q08",
+     "note_path": "note-articles/h20-mondai/q08-bungappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0375",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔分筆の登記の申請情報又は添付情報〕一筆の土地の一部について売買したことにより所有権の移転の登記をする前提として分筆の登記を申請する場合、当該土地が敷地権付き区分建物の法定敷地であるときは、その分筆の登記の申請情報には、分離処分を可能とする定めを設定した規約を証する情報を提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H20-Q13",
+     "note_path": "note-articles/h20-mondai/q13-bunpitsu-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0441",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔地積の更正の登記〕地積に誤りがあり土地の一部について所有権を取得した者は、当該部分の所有権を証する情報を提供して、代位により地積の更正及び当該部分の分筆の登記を申請することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H21-Q07",
+     "note_path": "note-articles/h21-mondai/q07-chiseki-kousei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0527",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔隣接する甲土地と乙土地の合筆の登記〕甲土地及び乙土地について、いずれも先取特権の登記がされている場合であっても、当該先取特権の登記の目的並びに登記原因及びその日付が同一であれば合筆の登記をすることは妨げられない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H22-Q04",
+     "note_path": "note-articles/h22-mondai/q04-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0528",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔隣接する甲土地と乙土地の合筆の登記〕甲土地及び乙土地について、いずれも破産手続開始の登記がされている場合には、その後いずれも破産手続終結の登記がされているときであっても、破産手続開始の登記を抹消しなければ合筆の登記をすることができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H22-Q04",
+     "note_path": "note-articles/h22-mondai/q04-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0530",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔隣接する甲土地と乙土地の合筆の登記〕甲土地及び乙土地について、不在者の財産管理人が合筆の登記を申請するには、家庭裁判所の許可を得なければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H22-Q04",
+     "note_path": "note-articles/h22-mondai/q04-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0597",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔分筆の登記〕所有権移転請求権保全の仮登記がされている甲土地から乙土地を分筆する場合には、分筆後の乙土地について仮登記権利者が権利の消滅を承諾したことを証する情報が提供されたときであっても、分筆後の乙土地の登記記録には当該仮登記が転写される。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H22-Q18",
+     "note_path": "note-articles/h22-mondai/q18-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0599",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔分筆の登記〕競売の申立てによる差押えの登記がされている甲土地から乙土地を分筆する場合には、分筆後の甲土地について競売申立権者が差押えの消滅を承諾したことを証する情報が提供されたときであっても、分筆後の甲土地について差押えの登記の抹消をすることはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H22-Q18",
+     "note_path": "note-articles/h22-mondai/q18-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0600",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔分筆の登記〕抵当権の設定の登記がされている甲土地から乙土地を分筆する場合において、分筆後の甲土地及び乙土地の2筆の土地について抵当権者が抵当権の消滅を承諾したことを証する情報が提供されたときは、甲土地の登記記録には抵当権が消滅した旨の記録がされ、乙土地の登記記録には抵当権の設定の登記は転写されない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H22-Q18",
+     "note_path": "note-articles/h22-mondai/q18-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0646",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔所有権以外の権利のある土地の分筆及び合筆の登記〕抵当権の登記がある甲土地を甲土地及び乙土地に分筆し、乙土地については、抵当権を消滅させる登記を申請する場合において、当該抵当権を目的とする第三者の権利に関する登記があるときは、当該分筆の登記後の乙土地について、抵当権者が当該抵当権を消滅させることを承諾したことを証する情報のほか、当該第三者が当該抵当権を消滅させることを承諾したことを証する情報も提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H23-Q08",
+     "note_path": "note-articles/h23-mondai/q08-bunpitsu-gappitsu-kenri.md"
+    }
+   ]
+  },
+  {
+   "id": "D0648",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔所有権以外の権利のある土地の分筆及び合筆の登記〕永小作権又は採石権の登記がある土地は、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であっても、合筆の登記を申請することはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H23-Q08",
+     "note_path": "note-articles/h23-mondai/q08-bunpitsu-gappitsu-kenri.md"
+    }
+   ]
+  },
+  {
+   "id": "D0743",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔分筆の登記〕要役地についてする地役権の登記がある甲土地から乙土地を分筆し、乙土地について地役権を消滅させる登記を申請する場合において、分筆前の甲土地を目的とする抵当権の登記があるときは、分筆後の乙土地について地役権を消滅させることを証する地役権者が作成した情報のほか、抵当権者が当該地役権を消滅させることを承諾したことを証する情報も、申請情報と併せて登記所に提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H24-Q07",
+     "note_path": "note-articles/h24-mondai/q07-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0744",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "A及びBが所有権の登記名義人である甲土地から乙土地を分筆する分筆の登記を申請する場合において、分筆後の甲土地をAが単独で所有し、乙土地をBが単独で所有することを証する情報を提供したときは、分筆後の甲土地にあってはAが単独所有者として登記され、乙土地にあってはBが単独所有者として登記される。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H24-Q07",
+     "note_path": "note-articles/h24-mondai/q07-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0748",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "甲土地に承役地についてする地役権の登記がある場合には、甲土地を他の土地に合筆する合筆の登記を申請することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H24-Q08",
+     "note_path": "note-articles/h24-mondai/q08-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0749",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "甲土地にAを表題部所有者とする表題登記のみがされている場合において、乙土地にAを所有権の登記名義人とする所有権の登記がされたときは、甲土地を乙土地に合筆する合筆の登記を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H24-Q08",
+     "note_path": "note-articles/h24-mondai/q08-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0750",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "甲土地に順位1番及び順位2番の抵当権の登記があり、乙土地に順位1番の抵当権の登記がある場合には、甲土地の順位2番及び乙土地の順位1番の抵当権の登記の登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一であっても、甲土地を乙土地に合筆する合筆の登記の申請をすることはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H24-Q08",
+     "note_path": "note-articles/h24-mondai/q08-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0956",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "A及びBが所有権の登記名義人である土地について，Aが単独で地積の更正の登記を申請する場合であっても，Bが承諾したことを証する情報を提供することを要しない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H26-Q09",
+     "note_path": "note-articles/h26-mondai/q09-chiseki-kousei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0957",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "抵当権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記を申請する場合において，その抵当権の登記名義人が当該抵当権を分筆後の甲土地について消滅させることを承諾したことを証する情報を提供したときは，分筆後の甲土地の登記記録には当該抵当権が消滅した旨が記録され，乙土地の登記記録には当該抵当権の設定の登記が転写される。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H26-Q10",
+     "note_path": "note-articles/h26-mondai/q10-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0959",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "A，B及びCが表題部所有者である土地について，A，B及びCとDとの間で売買契約が締結され，Dが当該土地の所有権を取得した場合には，Dは，A，B及びCの承諾があったことを証する情報を提供しても，当該土地について分筆の登記の申請をすることはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H26-Q10",
+     "note_path": "note-articles/h26-mondai/q10-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1051",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "委任による代理人によって所有権の登記のある土地の合筆の登記を申請した場合において，当該代理人が登記識別情報の通知を受けることができる旨の特別の委任を受けていないときは，当該代理人は，登記識別情報の通知を受けることができない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H27-Q09",
+     "note_path": "note-articles/h27-mondai/q09-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1052",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "土地の所有権の登記名義人が合筆の登記を申請する場合において，登記識別情報を提供することができない理由を申請情報の内容とするときは，その理由を証する情報を提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H27-Q09",
+     "note_path": "note-articles/h27-mondai/q09-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1275",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔隣接する甲土地を乙土地に合筆する合筆の登記（以下「本件合筆の登記」という。）〕乙土地の所有権の登記名義人であるＡを地上権者とする地上権の設定の登記が，Ｂを所有権の登記名義人とする甲土地にされている場合には，その後にＡが甲土地の所有権の登記名義人になったときであっても，当該地上権の抹消の登記をした後でなければ，本件合筆の登記を申請することはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H29-Q14",
+     "note_path": "note-articles/h29-mondai/q14-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1669",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "Ａ及びＢが所有権の登記名義人（持分は各2分の1）である土地の分筆の登記をしようとする場合には、Ａが当該登記の申請情報と併せてＢがこれに承諾したことを証する情報を提供したとしても、Ａは、単独で、当該登記の申請をすることはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R03-Q11",
+     "note_path": "note-articles/r3-mondai/q11-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1750",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔土地の分筆の登記〕根抵当権設定の仮登記がある土地について分筆の登記がされたときは、登記官は、新たに共同担保目録を作成しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R04-Q08",
+     "note_path": "note-articles/r4-mondai/q08-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1752",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "乙土地が第三者に使用貸借されているとしても、本件合筆の登記を申請することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R04-Q09",
+     "note_path": "note-articles/r4-mondai/q09-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1940",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "〔土地の分筆の登記〕要役地についてする地役権の登記がある土地について、その所有権の登記名義人であり、地役権者である株式会社が分筆の登記を申請する場合において、当該地役権を分筆後のいずれかの土地について消滅させることを証する書面を添付情報として提供し、当該株式会社の会社法人等番号を申請情報として提供したときは、当該株式会社の印鑑に関する証明書の提供を要しない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R06-Q08",
+     "note_path": "note-articles/r6-mondai/q08-bunpitsu-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D2053",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "Ａ及びＢが所有権の登記名義人である甲土地から乙土地を分筆する分筆の登記の申請がされた場合において、分筆後の甲土地をＡが単独で所有し、乙土地をＢが単独で所有する旨の共有物分割の判決があったことを証する情報が提供されたときは、甲土地の登記記録にはＡが単独所有者として登記され、乙土地の登記記録にはＢが単独所有者として登記される。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R07-Q11",
+     "note_path": "note-articles/r7-mondai/q11-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1153",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "甲土地及び乙土地の地目がいずれも保安林であるときは，保安林としての指定が解除されない限り，甲土地を乙土地に合筆する合筆の登記を申請することができない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H28-Q10",
+     "note_path": "note-articles/h28-mondai/q10-gappitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1666",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "賃借権の設定の登記がされている甲土地の所有権の登記名義人であるＡは、当該賃借権の登記名義人であるＢが承諾したことを証する情報を提供することなく、甲土地の分筆の登記を申請することができる。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R03-Q11",
+     "note_path": "note-articles/r3-mondai/q11-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1668",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "Ａの相続財産の管理人として選任されたＢが、亡Ａ相続財産を所有権の登記名義人とする土地の分筆の登記を申請するときは、その申請情報と併せて家庭裁判所の許可を証する情報を提供しなければならない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R03-Q11",
+     "note_path": "note-articles/r3-mondai/q11-bunpitsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1946",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "登記記録の地目がいずれも同一である甲土地及び乙土地について、その現況の地目が甲土地と乙土地とでそれぞれ異なる場合であっても、乙土地を甲土地に合筆する合筆の登記を申請することができる。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R06-Q09",
+     "note_path": "note-articles/r6-mondai/q09-gappitsu-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D2056",
+   "subject": "不動産登記法",
+   "topic": "土地の分筆・合筆・地積更正",
+   "statement": "抵当権の設定の登記がされている甲土地から乙土地を分筆する分筆の登記の申請を書面を提出する方法によりする場合において、当該抵当権を分筆後の乙土地について消滅させることを当該抵当権の登記名義人が承諾したことを証する情報を提供するときは、当該情報に添付すべき当該登記名義人の印鑑に関する証明書は、作成後3月以内のものでなければならない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R07-Q11",
+     "note_path": "note-articles/r7-mondai/q11-bunpitsu.md"
+    }
+   ]
+  }
+ ]
+}

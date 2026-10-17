@@ -1,0 +1,80 @@
+{
+ "slug": "f12-tourokumenkyozei",
+ "subject": "不動産登記法",
+ "topic": "登録免許税",
+ "items": [
+  {
+   "id": "D1605",
+   "subject": "不動産登記法",
+   "topic": "登録免許税",
+   "statement": "〔登録免許税の組合せ〕【登免税】いずれも所有権の登記のある2筆の土地の合筆の登記の申請と、所有権の登記のある土地の一部の地目が墓地になったためにする一部地目変更及び当該土地を2筆にする分筆の登記の申請について、各登録免許税は、いずれも合計1,000円となる（登録免許税の額が最も低額となるように申請する場合）。",
+   "truth": true,
+   "cls": "must",
+   "W": 4,
+   "cons": 0,
+   "n": 5,
+   "miscon": 4,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 4
+   },
+   "history": "✗✗○✗✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R02-Q19",
+     "note_path": "note-articles/r2-mondai/q19-touroku-menkyozei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1606",
+   "subject": "不動産登記法",
+   "topic": "登録免許税",
+   "statement": "〔登録免許税の組合せ〕【登免税】2筆の土地の所有権を敷地権とする所有権の登記のある1個の区分建物を2個の区分建物とする再区分の登記の申請と、国と私人が共有する所有権の登記のある土地を2筆にする分筆の登記の申請について、各登録免許税は、いずれも2,000円となる（登録免許税の額が最も低額となるように申請する場合）。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "正しい記述を×": 1,
+    "不明(?)": 1
+   },
+   "history": "✗○？○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R02-Q19",
+     "note_path": "note-articles/r2-mondai/q19-touroku-menkyozei.md"
+    }
+   ]
+  },
+  {
+   "id": "D2093",
+   "subject": "不動産登記法",
+   "topic": "登録免許税",
+   "statement": "いずれも所有権の登記のある3筆の土地を合筆する旨の登記をした後に、錯誤を原因として当該登記を抹消する旨の登記の申請をする場合には、納付すべき登録免許税の額は3,000円となる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R07-Q19",
+     "note_path": "note-articles/r7-mondai/q19-touroku-menkyozei.md"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "slug": "m03-bukken-hendo",
+ "subject": "民法",
+ "topic": "物権変動・対抗要件",
+ "items": [
+  {
+   "id": "D0116",
+   "subject": "民法",
+   "topic": "物権変動・対抗要件",
+   "statement": "〔相続が関係する物権変動〕【判例】Ａが死亡し、その共同相続人であるＢとＣとの間でＡの所有していた土地をＢが単独で相続する旨の遺産分割協議が成立したが、その土地について、Ｂが遺産分割協議を前提とする相続登記をする前に、ＣがＢとＣを共同相続人とする相続登記をし、Ｃ名義の土地持分をＤに譲渡し、その旨の登記をした場合、Ｂは、Ｄに対し、当該土地持分の取得を対抗することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 6,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗✗○○✗○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H18-Q03",
+     "note_path": "note-articles/h18-mondai/q03-souzoku-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D0214",
+   "subject": "民法",
+   "topic": "物権変動・対抗要件",
+   "statement": "【判例】Ａは、Ｂ所有の不動産をＢから購入したが、いまだ所有権の移転の登記を経由していなかった。Ｃは、この事情を十分に知りつつ専らＡを害する目的で、当該不動産をＢから購入して所有権の移転の登記を完了し、さらに、善意のＤに当該不動産を転売し、Ｄへの所有権の移転の登記をした。この場合、ＡはＤに対して不動産の所有権を主張することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗○✗✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H19-Q02",
+     "note_path": "note-articles/h19-mondai/q02-daisansha-hogo.md"
+    }
+   ]
+  },
+  {
+   "id": "D1209",
+   "subject": "民法",
+   "topic": "物権変動・対抗要件",
+   "statement": "〔不動産の物権変動（判例）〕【判例】A所有の土地をBがCに売却し、その後BがAから当該土地を買い受けた場合において、いずれの売買契約にも所有権の移転時期や方法に関する特約がないときは、BがAから当該土地を買い受け、かつ、AからBへの所有権の移転の登記がされた時点で、Cに当該土地の所有権が移転する。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 4,
+   "miscon": 1,
+   "unknown": 2,
+   "wrong_dir": {
+    "不明(?)": 2,
+    "誤った記述を〇": 1
+   },
+   "history": "？？✗○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H29-Q02",
+     "note_path": "note-articles/h29-mondai/q02-bukken-hendou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1210",
+   "subject": "民法",
+   "topic": "物権変動・対抗要件",
+   "statement": "〔不動産の物権変動（判例）〕【判例】Cが占有しているA所有の土地をAがBに売却し、AからBへの所有権の移転の登記がされた後、Cにつき当該土地の取得時効が完成して、Cが時効を援用した場合、Cは、Bに対し、登記なくして当該土地の所有権を主張することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 5,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 3
+   },
+   "history": "✗✗○✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H29-Q02",
+     "note_path": "note-articles/h29-mondai/q02-bukken-hendou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1211",
+   "subject": "民法",
+   "topic": "物権変動・対抗要件",
+   "statement": "〔不動産の物権変動（判例）〕【判例】A所有の土地をAがBに売却し、AからBへの所有権の移転の登記がされた後、AがBの債務不履行により当該売買契約を解除したが、その解除後、BがCに当該土地を売却し、BからCへの所有権の移転の登記がされた場合、Aは、Cに対し、登記なくして当該土地の所有権を主張することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 5,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗✗○✗○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H29-Q02",
+     "note_path": "note-articles/h29-mondai/q02-bukken-hendou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1911",
+   "subject": "民法",
+   "topic": "物権変動・対抗要件",
+   "statement": "〔Ａがその所有する甲土地をＢに売却した場合〕【判例】Ａが甲土地をＢに売却した後、その旨の登記がされない間に、更に甲土地をＣに売却した場合において、ＡＣ間の売買の時点で、ＡＢ間の売買についてＣが悪意であったときは、Ｂは、甲土地について所有権の移転の登記を備えなくても、Ｃに対し、甲土地の所有権の取得を対抗することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 5,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗✗○✗○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R06-Q02",
+     "note_path": "note-articles/r6-mondai/q02-taikouyouken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0115",
+   "subject": "民法",
+   "topic": "物権変動・対抗要件",
+   "statement": "〔相続が関係する物権変動〕【判例】Ａがその所有する土地をＢに遺贈する旨の遺言をした後に死亡したが、Ｂがこれに基づく登記をしない間に、Ａを相続したＣの債権者Ｄが代位によりその土地について相続登記をしてこれを差し押さえた場合、Ｂは、Ｄに対し、土地所有権の取得を対抗することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H18-Q03",
+     "note_path": "note-articles/h18-mondai/q03-souzoku-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D0322",
+   "subject": "民法",
+   "topic": "物権変動・対抗要件",
+   "statement": "〔不動産の物権変動〕【判例】不動産を買い受けた者は、その登記をしていないうちに、売主が背信的悪意者に二重に譲渡し、さらにその背信的悪意者から当該不動産を買い受けて登記を備えた者に対しては、その者自身が背信的悪意者でない限り、所有権の取得を対抗することができない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H20-Q02",
+     "note_path": "note-articles/h20-mondai/q02-bukken-hendou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0722",
+   "subject": "民法",
+   "topic": "物権変動・対抗要件",
+   "statement": "〔甲土地がAからBへ、BからCへと順次譲渡された場合〕【判例】甲土地の所有権の登記名義人がいまだAのままである場合には、Cは、Bの相続人であるDに対し、甲土地の所有権を主張することができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H24-Q03",
+     "note_path": "note-articles/h24-mondai/q03-taikouyouken.md"
+    }
+   ]
+  }
+ ]
+}

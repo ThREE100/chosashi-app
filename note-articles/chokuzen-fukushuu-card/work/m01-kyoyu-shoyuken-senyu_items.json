@@ -1,0 +1,443 @@
+{
+ "slug": "m01-kyoyu-shoyuken-senyu",
+ "subject": "民法",
+ "topic": "共有・所有権・占有",
+ "items": [
+  {
+   "id": "D0624",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔Ａ、Ｂ及びＣが各３分の１の持分で甲土地を共有している場合〕【判例】第三者Ｅが甲土地を不法に占有したことによりＡ、Ｂ及びＣの使用が妨げられた場合であっても、Ａは、Ｅに対してその持分割合を超えて損害賠償を請求することはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 5,
+   "cons": 0,
+   "n": 7,
+   "miscon": 5,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 5
+   },
+   "history": "✗✗✗○○✗✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H23-Q03",
+     "note_path": "note-articles/h23-mondai/q03-kyouyu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1621",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔占有権〕【判例】甲土地の占有者であるＡから占有の訴えを提起されたＢは、その訴えに対する防御方法として、甲土地の所有権が自らにあることを主張することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 4,
+   "cons": 2,
+   "n": 6,
+   "miscon": 3,
+   "unknown": 1,
+   "wrong_dir": {
+    "誤った記述を〇": 3,
+    "不明(?)": 1
+   },
+   "history": "✗✗？✗○○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R03-Q02",
+     "note_path": "note-articles/r3-mondai/q02-senyuken.md"
+    }
+   ]
+  },
+  {
+   "id": "D2012",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔占有権〕【判例】甲建物の賃借人であるＡから甲建物を転借して占有しているＢが、Ｃによりその占有を奪われたときは、Ａは、Ｃに対し、占有回収の訴えを提起することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1,
+    "正しい記述を×": 2
+   },
+   "history": "？○✗✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R07-Q02",
+     "note_path": "note-articles/r7-mondai/q02-senyuken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0217",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔占有訴権〕【判例】ＡがＢに無断でＢの所有する土地上に建物を建築して占有している場合において、Ｂが当該建物を解体するために重機を当該土地に持ち込もうとしているときは、Ａは、Ｂに対し、占有保全の訴えにより、建物の解体の予防を請求することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1,
+    "正しい記述を×": 1
+   },
+   "history": "？✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H19-Q03",
+     "note_path": "note-articles/h19-mondai/q03-senyu-soken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0219",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔占有訴権〕【判例】Ａが占有する建物の占有をＢが奪い、その後、これをＣに貸与した場合であっても、Ａは、なおＢに対し、占有回収の訴えにより、建物の返還を請求することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "正しい記述を×": 1,
+    "不明(?)": 1
+   },
+   "history": "✗？○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H19-Q03",
+     "note_path": "note-articles/h19-mondai/q03-senyu-soken.md"
+    }
+   ]
+  },
+  {
+   "id": "D1315",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "【判例】不動産の付合によって付合した物の所有権を喪失し、損失を受けた者は、当該不動産の付合によって所有権を取得した者に対し、その償金を請求することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 0,
+   "unknown": 2,
+   "wrong_dir": {
+    "不明(?)": 2
+   },
+   "history": "？？○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H30-Q02",
+     "note_path": "note-articles/h30-mondai/q02-fugou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1414",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔Ａが所有し、所有権の登記名義人である甲土地〕【判例】Ａは、Ｂに対し、甲土地を売却し、Ｂが甲土地の所有権を取得したが、甲土地の所有権の登記名義人は、Ａのままであった。この場合において、甲土地をＣが違法に占有しているときは、Ｂは、甲土地の所有権に基づき、Ｃに対し、甲土地の明渡しを求めることができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R01-Q01",
+     "note_path": "note-articles/r1-mondai/q01-buttenteki-seikyu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1419",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔Ａ、Ｂ及びＣが各3分の1の持分で甲土地を共有している場合〕【判例】第三者Ｄが違法に甲土地を占有している場合には、Ａは、Ｂ及びＣの同意を得なくても、Ｄに対して、甲土地の明渡しを請求することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R01-Q02",
+     "note_path": "note-articles/r1-mondai/q02-kyouyuu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0523",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔公道に至るための他の土地の通行権〕【判例】Ｃが丙土地を所有している場合において、Ａが所有する一筆の土地を甲土地と乙土地に分筆して、乙土地をＢに譲渡したときは、Ａは、乙土地について通行権を主張することができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H22-Q03",
+     "note_path": "note-articles/h22-mondai/q03-ijouchi-tsuukouken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0524",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔公道に至るための他の土地の通行権〕【判例】Ｃが乙土地及び丙土地を所有している場合において、所有者であるＡから甲土地を譲り受けたＢが甲土地についてＡから所有権の移転の登記を得ていないときは、Ｂは、乙土地及び丙土地のいずれについても通行権を主張することができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H22-Q03",
+     "note_path": "note-articles/h22-mondai/q03-ijouchi-tsuukouken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0525",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔公道に至るための他の土地の通行権〕【判例】Ｃが丙土地を所有し、Ａがその所有に係る甲土地及び乙土地のうち乙土地について抵当権を設定していた場合において、当該抵当権の実行としての競売による競落により、Ｂが乙土地を取得したときは、Ａは、乙土地について通行権を主張することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H22-Q03",
+     "note_path": "note-articles/h22-mondai/q03-ijouchi-tsuukouken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0820",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔占有権〕【判例】法人の代表者が建物を当該法人の機関として占有しつつ、当該代表者個人のためにも占有していた場合には、当該代表者は、その占有を奪われたときであっても、当該代表者個人としての占有回収の訴えを提起することができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H25-Q03",
+     "note_path": "note-articles/h25-mondai/q03-senyuken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0822",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔占有権〕【判例】善意の占有者が本権の訴えにおいて敗訴したときは、その占有の開始の時から悪意の占有者とみなされる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H25-Q03",
+     "note_path": "note-articles/h25-mondai/q03-senyuken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0824",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "【判例】代理人によって占有をする場合において、本人がその代理人に対して以後第三者のためにその物を占有することを命じ、その代理人がこれを承諾したときは、その第三者は、占有権を取得する。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H25-Q03",
+     "note_path": "note-articles/h25-mondai/q03-senyuken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0913",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔物権的請求権〕【判例】所有者は，その所有権の取得について対抗要件を備えていなくても，その所有物を不法に占有する者に対して，所有権に基づく返還請求権を行使することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H26-Q02",
+     "note_path": "note-articles/h26-mondai/q02-bukkentekiseikyuuken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0916",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔物権的請求権〕【判例】所有者は，その所有物について権原を有しない者から賃借して占有する者だけでなく，当該所有物を賃貸した者に対しても，所有権に基づく返還請求権を行使することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H26-Q02",
+     "note_path": "note-articles/h26-mondai/q02-bukkentekiseikyuuken.md"
+    }
+   ]
+  },
+  {
+   "id": "D1620",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔占有権〕【判例】他人のために占有をする者であっても、その占有を奪われたときは、占有回収の訴えを提起することができる。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R03-Q02",
+     "note_path": "note-articles/r3-mondai/q02-senyuken.md"
+    }
+   ]
+  },
+  {
+   "id": "D1815",
+   "subject": "民法",
+   "topic": "共有・所有権・占有",
+   "statement": "〔物権的請求権〕【判例】Ａが甲土地の所有者Ｂから甲土地を買った場合において、ＡＢ間の売買契約上、甲土地の所有権の移転時期に関する特約がないときは、Ａは、当該契約締結後直ちに、Ｂに対して所有権に基づき甲土地の引渡しを請求することができる。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R05-Q02",
+     "note_path": "note-articles/r5-mondai/q02-bukkenteki-seikyuuken.md"
+    }
+   ]
+  }
+ ]
+}

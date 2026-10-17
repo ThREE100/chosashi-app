@@ -1,0 +1,347 @@
+{
+ "slug": "m02-ishi-hyoji",
+ "subject": "民法",
+ "topic": "意思表示・無効取消",
+ "items": [
+  {
+   "id": "D0323",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "〔無効と取消しの区別〕【民法】「行為の後、一定の期間が経過することによって、確定的に有効となる場合がある」という性質は、取り消すことができる法律行為のみに当てはまり、無効な法律行為には当てはまらない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H20-Q03",
+     "note_path": "note-articles/h20-mondai/q03-mukou-torikeshi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0324",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "〔無効と取消しの区別〕【民法】「だれでもその効力がない旨を主張することができる」という性質は、取り消すことができる法律行為のみに当てはまる。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 2,
+   "wrong_dir": {
+    "不明(?)": 2
+   },
+   "history": "？？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H20-Q03",
+     "note_path": "note-articles/h20-mondai/q03-mukou-torikeshi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0613",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "〔意思表示〕【判例】Aが、A所有の甲土地を売り渡すつもりで、錯誤によりA所有の乙土地をBに対して売り渡した場合には、Aに重大な過失があるときであっても、Bは、当該売買契約の取消しを主張することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H23-Q01",
+     "note_path": "note-articles/h23-mondai/q01-ishi-hyouji.md"
+    }
+   ]
+  },
+  {
+   "id": "D0810",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "【判例】Aが成年者であることを信じさせるため詐術を用いた場合には、Aが未成年者であることをCが知っていたときであっても、Aは、本件売買契約を取り消すことができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H25-Q01",
+     "note_path": "note-articles/h25-mondai/q01-miseinensha-sajutsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1014",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "〔詐欺又は強迫による意思表示〕【判例】Ａが，Ｂの詐欺により，Ｂからその所有する土地を買い受け，ＢからＡへの所有権の移転の登記がされた後，Ａが，Ｂに欺罔されていることを知らないまま，当該土地にＣを抵当権者とする抵当権を設定し，その旨の登記がされた場合において，Ｃが当該抵当権の設定時にＢによる詐欺の事実を知らなかったときは，Ａは，詐欺を理由としてＡＢ間の売買の意思表示を取り消すことができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1,
+    "誤った記述を〇": 1
+   },
+   "history": "？✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H27-Q01",
+     "note_path": "note-articles/h27-mondai/q01-sagi-kyouhaku.md"
+    }
+   ]
+  },
+  {
+   "id": "D1715",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "〔制限行為能力者〕本人以外の者の請求により保佐開始の審判をするには、本人の同意がなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R04-Q01",
+     "note_path": "note-articles/r4-mondai/q01-seigen-koui-nouryoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D1717",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "〔意思表示〕【判例】AがBと通謀してAの所有する甲土地をBに売却したように仮装し、AからBへの所有権の移転の登記がされた。その後、Bから甲土地を買い受けたCが、AB間の売却が仮装のものであることについて善意であった場合には、Cは、BからCへの甲土地の所有権の移転の登記がされていなくても、Aに対して甲土地の所有権の取得を対抗することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1,
+    "正しい記述を×": 1
+   },
+   "history": "？✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R04-Q02",
+     "note_path": "note-articles/r4-mondai/q02-ishi-hyouji.md"
+    }
+   ]
+  },
+  {
+   "id": "D1718",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "〔意思表示〕【判例】AがBと通謀してAの所有する甲土地をBに売却したように仮装し、AからBへの所有権の移転の登記がされた。その後、Bが死亡し、AB間の売却が仮装のものであることについて善意のCがBを単独で相続した場合には、Cは、Aに対して甲土地の所有権の取得を対抗することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1,
+    "誤った記述を〇": 1
+   },
+   "history": "？✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R04-Q02",
+     "note_path": "note-articles/r4-mondai/q02-ishi-hyouji.md"
+    }
+   ]
+  },
+  {
+   "id": "D2005",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "【判例】買主の詐欺によって不動産を売却した者は、当該不動産の売買の意思表示を取り消す前に当該買主が詐欺の事実につき善意無過失の第三者に当該不動産を転売していた場合には、当該第三者への所有権の移転の登記がされていないときであっても、その取消しを当該第三者に対抗することができない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1,
+    "正しい記述を×": 1
+   },
+   "history": "？✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R07-Q01",
+     "note_path": "note-articles/r7-mondai/q01-ishihyouji.md"
+    }
+   ]
+  },
+  {
+   "id": "D0325",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "〔無効と取消しの区別〕【民法】「効力がない旨の主張がされた時から、将来に向かってのみその効力を失う」という性質は、取り消すことができる法律行為のみに当てはまる。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H20-Q03",
+     "note_path": "note-articles/h20-mondai/q03-mukou-torikeshi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0811",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "【判例】Aは、成年に達する前であっても、Bの同意を得れば、本件売買契約を追認することができる。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H25-Q01",
+     "note_path": "note-articles/h25-mondai/q01-miseinensha-sajutsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1713",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "〔制限行為能力者〕時効の期間満了前6か月以内の間に成年被後見人に成年後見人がない場合には、その成年被後見人が行為能力者となった時又は成年後見人が就職した時から6か月を経過するまでの間は、その成年被後見人に対して、時効は完成しない。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R04-Q01",
+     "note_path": "note-articles/r4-mondai/q01-seigen-koui-nouryoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D2003",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "【判例】錯誤による意思表示は、その錯誤が表意者の重大な過失によるものであった場合であっても、相手方が表意者に錯誤があることを重大な過失により知らなかったときは、取り消すことができる。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R07-Q01",
+     "note_path": "note-articles/r7-mondai/q01-ishihyouji.md"
+    }
+   ]
+  },
+  {
+   "id": "D2007",
+   "subject": "民法",
+   "topic": "意思表示・無効取消",
+   "statement": "【判例】表意者がその真意ではないことを知って意思表示をした場合において、当該意思表示の相手方がその旨を知っていたときは、当該意思表示の無効は、善意有過失の第三者に対抗することができる。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R07-Q01",
+     "note_path": "note-articles/r7-mondai/q01-ishihyouji.md"
+    }
+   ]
+  }
+ ]
+}

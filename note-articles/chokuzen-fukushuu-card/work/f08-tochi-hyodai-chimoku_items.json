@@ -1,0 +1,367 @@
+{
+ "slug": "f08-tochi-hyodai-chimoku",
+ "subject": "不動産登記法",
+ "topic": "土地の表題・地目・地積",
+ "items": [
+  {
+   "id": "D0686",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔不動産の表示〕区分建物の一部を増築した後に、当該建物について共用部分である旨の登記がされた場合には、増築した当時の増築に係る区分建物の所有権の登記名義人は、共用部分である旨の登記がされた日から１か月以内に、増築の登記を申請しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 4,
+   "miscon": 0,
+   "unknown": 3,
+   "wrong_dir": {
+    "不明(?)": 3
+   },
+   "history": "？？？○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H23-Q16",
+     "note_path": "note-articles/h23-mondai/q16-hyouji-touki-gimu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1546",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔地目の変更の登記〕1平方メートル未満の端数を切り捨てて地積が表示されている土地について，その地目を宅地に変更する登記の申請は，地積の変更の登記の申請と併せてしなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗○✗✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R02-Q07",
+     "note_path": "note-articles/r2-mondai/q07-chimoku-henkou-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D1544",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "地目が山林である土地の地上権の登記名義人が当該土地を切り開いて宅地とした場合，当該土地の所有権の登記名義人は，地目の変更の登記を申請しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R02-Q07",
+     "note_path": "note-articles/r2-mondai/q07-chimoku-henkou-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D0433",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔地目の基本原則(対話形式)〕【不登法】一筆の土地のうちに現況や利用目的が異なる部分があっても、それが部分的でわずかな差異であるときは、土地全体の状況を見て「畑」又は「雑種地」と判断するが、土地全体が複合的用途に利用されていると認められるときは、「畑・雑種地」のようにしても差し支えない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H21-Q05",
+     "note_path": "note-articles/h21-mondai/q05-chimoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0566",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔地目の認定〕【不登法・準則】水面のうち、かんがい用水でない水の貯留池の地目は、ため池である。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H22-Q12",
+     "note_path": "note-articles/h22-mondai/q12-chimoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0642",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔登記官が定める土地の地番〕要役地についてする地役権の登記がある土地で地番に支号がないものについて分筆の登記をする場合において、当該地役権を分筆後のいずれかの土地について消滅させることを証する地役権者が作成した情報が提供され、当該土地の地役権を抹消するときは、分筆した土地について支号を用いない地番を存することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H23-Q07",
+     "note_path": "note-articles/h23-mondai/q07-chiban.md"
+    }
+   ]
+  },
+  {
+   "id": "D0643",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔登記官が定める土地の地番〕特別の事情がある場合には、合筆した土地について、合筆前の首位の地番をもってその地番としなくとも差し支えない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H23-Q07",
+     "note_path": "note-articles/h23-mondai/q07-chiban.md"
+    }
+   ]
+  },
+  {
+   "id": "D0687",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔不動産の表示〕区分建物の表題登記の申請をした際に申請情報として提供した所有権敷地権の割合について変更が生じた場合には、所有権の登記名義人は、変更の日から１か月以内に、表題部に関する変更の登記を申請しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H23-Q16",
+     "note_path": "note-articles/h23-mondai/q16-hyouji-touki-gimu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0688",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔不動産の表示〕分筆により建物の所有する土地の地番が変更した場合には、当該建物の所有権の登記名義人は、変更の日から１か月以内に、建物の所在に関する変更の登記を申請しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H23-Q16",
+     "note_path": "note-articles/h23-mondai/q16-hyouji-touki-gimu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0689",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔不動産の表示〕地目が山林として登記されている土地上に住宅が建築された後に当該土地の所有権を新たに取得した者は、その取得の日から１か月以内に、当該土地の地目の変更の登記を申請しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H23-Q16",
+     "note_path": "note-articles/h23-mondai/q16-hyouji-touki-gimu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0738",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "河川区域内の土地である旨の登記のある土地の地目に変更があった場合でも、河川区域内の土地である旨の登記の抹消をしなければ、地目の変更の登記を申請することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H24-Q06",
+     "note_path": "note-articles/h24-mondai/q06-chimoku-henkou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1041",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "電子申請により土地の表題登記を申請する場合において，申請人が，電子署名に係る地方公共団体の認証業務に関する法律の規定に基づき作成された電子証明書を提供したときは，当該電子証明書の提供をもって，当該申請人の現在の住所を証する情報の提供に代えることができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H27-Q07",
+     "note_path": "note-articles/h27-mondai/q07-tochi-hyoudai.md"
+    }
+   ]
+  },
+  {
+   "id": "D1047",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔土地の地番又は地番区域〕地積測量図に記録された地番に誤りがある場合において，その訂正の申出をするときは，訂正後の地積測量図を提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H27-Q08",
+     "note_path": "note-articles/h27-mondai/q08-chiban.md"
+    }
+   ]
+  },
+  {
+   "id": "D1745",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "〔土地の表題部の変更又は更正の登記〕雑種地として登記されている土地を宅地の用途に変更した場合には、当該土地の所有権の登記名義人は、当該用途に変更があった日から1か月以内に、地目に関する変更の登記を申請しなければならない。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R04-Q07",
+     "note_path": "note-articles/r4-mondai/q07-hyoudaibu-hensei-kousei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1847",
+   "subject": "不動産登記法",
+   "topic": "土地の表題・地目・地積",
+   "statement": "水力発電のためにのみ使用される排水路の地目は、雑種地とする。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R05-Q08",
+     "note_path": "note-articles/r5-mondai/q08-chimoku.md"
+    }
+   ]
+  }
+ ]
+}

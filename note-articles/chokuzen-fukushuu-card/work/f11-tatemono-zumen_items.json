@@ -1,0 +1,127 @@
+{
+ "slug": "f11-tatemono-zumen",
+ "subject": "不動産登記法",
+ "topic": "建物図面・各階平面図",
+ "items": [
+  {
+   "id": "D1460",
+   "subject": "不動産登記法",
+   "topic": "建物図面・各階平面図",
+   "statement": "〔建物図面及び各階平面図〕資格者代理人が電子署名を行って提供する建物図面又は各階平面図には、作成の年月日並びに申請人及び作成者の氏名又は名称を記録しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R01-Q10",
+     "note_path": "note-articles/r1-mondai/q10-tatemono-zumen.md"
+    }
+   ]
+  },
+  {
+   "id": "D0683",
+   "subject": "不動産登記法",
+   "topic": "建物図面・各階平面図",
+   "statement": "区分建物の増築の登記を申請する場合において、一棟の建物についても登記内容に変更があるときは、当該箇所を表示した一棟の建物に関する建物図面及び各階平面図を添付しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H23-Q15",
+     "note_path": "note-articles/h23-mondai/q15-tatemonozumen-kaisuheimenzu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0685",
+   "subject": "不動産登記法",
+   "topic": "建物図面・各階平面図",
+   "statement": "〔建物図面及び各階平面図〕建物を甲土地から乙土地にえい行移転したことによる建物の所在の変更の登記をした場合における従前の建物図面の保存期間は、３０年である。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H23-Q15",
+     "note_path": "note-articles/h23-mondai/q15-tatemonozumen-kaisuheimenzu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0792",
+   "subject": "不動産登記法",
+   "topic": "建物図面・各階平面図",
+   "statement": "〔建物図面又は各階平面図〕建物図面の作成に当たり、建物がその図面上において極めて僅少となり、その形状を図示し難いときは、その位置のみを記入し、その用紙の余白の適宜の箇所に適宜の縮尺により拡大表示し、その位置、形状及び縮尺を明らかにすることができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H24-Q17",
+     "note_path": "note-articles/h24-mondai/q17-tatemonozumen.md"
+    }
+   ]
+  },
+  {
+   "id": "D0975",
+   "subject": "不動産登記法",
+   "topic": "建物図面・各階平面図",
+   "statement": "〔建物図面又は各階平面図〕建物の種類の変更の登記を申請する場合において，登記所に当該建物の建物図面及び各階平面図が備え付けられていないときは，申請情報と併せて当該建物の建物図面及び各階平面図を提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H26-Q13",
+     "note_path": "note-articles/h26-mondai/q13-tatemonozumen.md"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "slug": "m05-youeki-tanpo",
+ "subject": "民法",
+ "topic": "用益権・担保物権",
+ "items": [
+  {
+   "id": "D0418",
+   "subject": "民法",
+   "topic": "用益権・担保物権",
+   "statement": "【判例】地上権者は、土地の所有者の承諾を得ないで、地上権を譲渡し、又は地上権を目的とする抵当権を設定することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 5,
+   "cons": 3,
+   "n": 9,
+   "miscon": 5,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 5
+   },
+   "history": "✗✗✗✗○✗○○○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H21-Q02",
+     "note_path": "note-articles/h21-mondai/q02-chijouken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0313",
+   "subject": "民法",
+   "topic": "用益権・担保物権",
+   "statement": "〔不動産質〕質権者は、被担保債権の全部の弁済を受けるまで、目的である不動産の全部について、その権利を行使することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 4,
+   "miscon": 0,
+   "unknown": 3,
+   "wrong_dir": {
+    "不明(?)": 3
+   },
+   "history": "？？？○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H20-Q01",
+     "note_path": "note-articles/h20-mondai/q01-fudousan-shichi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0314",
+   "subject": "民法",
+   "topic": "用益権・担保物権",
+   "statement": "〔不動産質〕質権者は、設定者の承諾を得なければ、その目的である不動産について転質をすることができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 4,
+   "miscon": 0,
+   "unknown": 3,
+   "wrong_dir": {
+    "不明(?)": 3
+   },
+   "history": "？？？○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H20-Q01",
+     "note_path": "note-articles/h20-mondai/q01-fudousan-shichi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0315",
+   "subject": "民法",
+   "topic": "用益権・担保物権",
+   "statement": "〔不動産質〕質権者は、設定者の承諾を得なければ、その目的である不動産の用法に従って、その使用及び収益をすることができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 4,
+   "miscon": 0,
+   "unknown": 3,
+   "wrong_dir": {
+    "不明(?)": 3
+   },
+   "history": "？？？○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H20-Q01",
+     "note_path": "note-articles/h20-mondai/q01-fudousan-shichi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0419",
+   "subject": "民法",
+   "topic": "用益権・担保物権",
+   "statement": "【判例】地上権者は、設定契約において特段の定めがない場合であっても、土地の所有者に対して地代の支払義務を負い、その場合の地代の額は、当事者の請求により裁判所が定める。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 4,
+   "miscon": 0,
+   "unknown": 3,
+   "wrong_dir": {
+    "不明(?)": 3
+   },
+   "history": "？？？○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H21-Q02",
+     "note_path": "note-articles/h21-mondai/q02-chijouken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0417",
+   "subject": "民法",
+   "topic": "用益権・担保物権",
+   "statement": "【判例】地上権を時効によって取得するためには、土地の継続的な使用という外形的事実が存在し、かつ、その使用が地上権行使の意思に基づくものであることが客観的に表現されていることが必要である。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 0,
+   "unknown": 2,
+   "wrong_dir": {
+    "不明(?)": 2
+   },
+   "history": "？？○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H21-Q02",
+     "note_path": "note-articles/h21-mondai/q02-chijouken.md"
+    }
+   ]
+  }
+ ]
+}

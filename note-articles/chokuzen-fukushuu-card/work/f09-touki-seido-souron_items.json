@@ -1,0 +1,223 @@
+{
+ "slug": "f09-touki-seido-souron",
+ "subject": "不動産登記法",
+ "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+ "items": [
+  {
+   "id": "D1728",
+   "subject": "不動産登記法",
+   "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+   "statement": "〔登記記録等の保存期間〕法定相続情報一覧図つづり込み帳の保存期間は、作成の年の翌年から30年間である。",
+   "truth": false,
+   "cls": "must",
+   "W": 4,
+   "cons": 0,
+   "n": 6,
+   "miscon": 4,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 4
+   },
+   "history": "✗✗✗○○✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R04-Q04",
+     "note_path": "note-articles/r4-mondai/q04-hozon-kikan.md"
+    }
+   ]
+  },
+  {
+   "id": "D1731",
+   "subject": "不動産登記法",
+   "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+   "statement": "〔登記記録等の保存期間〕土地の表題部所有者の持分の更正の登記の申請を書面を提出する方法により行った場合における申請書の保存期間は、受付の日から30年間である。",
+   "truth": true,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 3,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 3
+   },
+   "history": "✗✗✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R04-Q04",
+     "note_path": "note-articles/r4-mondai/q04-hozon-kikan.md"
+    }
+   ]
+  },
+  {
+   "id": "D0591",
+   "subject": "不動産登記法",
+   "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+   "statement": "〔不動産〕登記事項証明書及び登記事項要約書の交付は、いずれも電子情報処理組織を使用して請求することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H22-Q17",
+     "note_path": "note-articles/h22-mondai/q17-jouhou-koukai.md"
+    }
+   ]
+  },
+  {
+   "id": "D0592",
+   "subject": "不動産登記法",
+   "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+   "statement": "〔不動産〕地図が電磁的記録に記録されている場合には、当該記録された地図の内容を証明した書面の交付は、電子情報処理組織を使用して請求することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H22-Q17",
+     "note_path": "note-articles/h22-mondai/q17-jouhou-koukai.md"
+    }
+   ]
+  },
+  {
+   "id": "D0593",
+   "subject": "不動産登記法",
+   "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+   "statement": "〔不動産〕建物の表題登記の申請情報に添付された表題部所有者となる者が所有権を有することを証する情報を記載した書面の閲覧は、請求人が利害関係を有する部分に限り請求することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H22-Q17",
+     "note_path": "note-articles/h22-mondai/q17-jouhou-koukai.md"
+    }
+   ]
+  },
+  {
+   "id": "D0997",
+   "subject": "不動産登記法",
+   "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+   "statement": "〔登記事項の証明等〕一棟の建物に属する全ての区分建物である建物の登記記録に記録されている事項のうち現に効力を有するものを証明した書面の交付を請求することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H26-Q18",
+     "note_path": "note-articles/h26-mondai/q18-toukijikou-shoumei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1068",
+   "subject": "不動産登記法",
+   "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+   "statement": "〔建物の管轄登記所〕【不登法】甲登記所において登記されている建物について、市町村の合併により管轄登記所が甲登記所から乙登記所に転属した場合には、当該建物に係る不動産所在事項の変更の登記の申請は、乙登記所にしなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H27-Q12",
+     "note_path": "note-articles/h27-mondai/q12-kankatsu-toukisho.md"
+    }
+   ]
+  },
+  {
+   "id": "D1097",
+   "subject": "不動産登記法",
+   "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+   "statement": "〔登記所に保存される情報の保存期間〕閉鎖した土地所在図は，申請書類つづり込み帳につづり込まれたものを除き，閉鎖した日から30年間保存される。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H27-Q18",
+     "note_path": "note-articles/h27-mondai/q18-hozon-kikan.md"
+    }
+   ]
+  },
+  {
+   "id": "D2027",
+   "subject": "不動産登記法",
+   "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+   "statement": "〔保存期間が永久の登記記録等〕【不登規則】閉鎖した地積測量図の保存期間は、永久と定められている。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R07-Q05",
+     "note_path": "note-articles/r7-mondai/q05-hozonkikan.md"
+    }
+   ]
+  }
+ ]
+}
