@@ -1,0 +1,202 @@
+{
+ "slug": "m04-jikou",
+ "subject": "民法",
+ "topic": "時効・条件期限",
+ "items": [
+  {
+   "id": "D0413",
+   "subject": "民法",
+   "topic": "時効・条件期限",
+   "statement": "〔取得時効と登記(対話形式)〕【判例】Aが平成2年1月1日に自己の所有地であると過失なく信じて甲土地(B所有)の占有を開始し、以後所有の意思をもって平穏・公然に占有を続けている場合において、Aは所有権の移転の登記をしなければ、平成15年1月1日に元の所有者Bに対して時効取得を主張することができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 7,
+   "cons": 2,
+   "n": 9,
+   "miscon": 7,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 7
+   },
+   "history": "✗✗✗✗✗✗✗○○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H21-Q01",
+     "note_path": "note-articles/h21-mondai/q01-jikou-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D0411",
+   "subject": "民法",
+   "topic": "時効・条件期限",
+   "statement": "〔取得時効と登記(対話形式)〕【判例】Aが平成2年1月1日に自己の所有地であると過失なく信じて甲土地(B所有)の占有を開始し、所有の意思をもって平穏・公然に占有を続けている場合において、平成10年1月1日に甲土地がBからCに譲渡されたときは、Aは所有権の移転の登記をしなくても、平成15年1月1日にCに対して甲土地の時効取得を主張することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 3
+   },
+   "history": "✗○✗✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H21-Q01",
+     "note_path": "note-articles/h21-mondai/q01-jikou-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D1108",
+   "subject": "民法",
+   "topic": "時効・条件期限",
+   "statement": "〔Aが Bに対して100万円を貸し付けた後その返還期日を経過した事例〕【判例】AがBに対して貸金返還請求の訴えを提起した場合には、その訴訟手続におけるAの権利行使の意思の表示は、その訴えが取り下げられたときにおいても、Bに対する催告として時効の中断の効力を有する。",
+   "truth": true,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 4,
+   "miscon": 1,
+   "unknown": 2,
+   "wrong_dir": {
+    "正しい記述を×": 1,
+    "不明(?)": 2
+   },
+   "history": "✗？？○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H28-Q01",
+     "note_path": "note-articles/h28-mondai/q01-shoumetsujikou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0720",
+   "subject": "民法",
+   "topic": "時効・条件期限",
+   "statement": "〔法律行為に付された条件〕【判例】「Aが大学で進級することができなかったら、Bは、Aに対して支払ってきた奨学金をその後は支払わない。」旨の契約をA及びBが締結した場合において、Aが大学で進級することができなかったときは、Bは、Aが大学で進級することができなかったことを知らなくても、Aに対して奨学金を支払う義務を免れる。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "正しい記述を×": 1,
+    "不明(?)": 1
+   },
+   "history": "✗？○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H24-Q02",
+     "note_path": "note-articles/h24-mondai/q02-jouken.md"
+    }
+   ]
+  },
+  {
+   "id": "D1109",
+   "subject": "民法",
+   "topic": "時効・条件期限",
+   "statement": "〔Aが Bに対して100万円を貸し付けた後その返還期日を経過した事例〕【判例】時効の完成前にBがAに対して債務の一部弁済として50万円を支払ったときは、当該債務の残部について時効の中断の効力は生じない。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1,
+    "誤った記述を〇": 1
+   },
+   "history": "？✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H28-Q01",
+     "note_path": "note-articles/h28-mondai/q01-shoumetsujikou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1521",
+   "subject": "民法",
+   "topic": "時効・条件期限",
+   "statement": "〔不動産の取得時効〕【判例】Ａが，甲不動産を10年間占有したことを理由として甲不動産の所有権の時効取得を主張する場合，その占有の開始の時に，Ａが甲不動産を自己の所有と信じたことにつき無過失であったことは推定されない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R02-Q02",
+     "note_path": "note-articles/r2-mondai/q02-shutoku-jikou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0207",
+   "subject": "民法",
+   "topic": "時効・条件期限",
+   "statement": "〔法律行為の条件〕【判例・民法】当事者が停止条件を付して契約を締結したが、実際には停止条件とした事実が既に発生していたときは、その条件は付されなかったのと同様に扱われ、契約は有効である。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H19-Q01",
+     "note_path": "note-articles/h19-mondai/q01-joken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0620",
+   "subject": "民法",
+   "topic": "時効・条件期限",
+   "statement": "〔時効の援用〕【判例】Ａに対する貸金債務を承認したＢが、Ａから貸金返還請求を受けた場合には、Ｂは、その承認の際に、その貸金債務について消滅時効が完成していることを知らなかったときであっても、貸金債務の消滅時効を援用してＡからの請求を拒むことができない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H23-Q02",
+     "note_path": "note-articles/h23-mondai/q02-jikou-engyo.md"
+    }
+   ]
+  }
+ ]
+}

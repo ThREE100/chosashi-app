@@ -1,0 +1,175 @@
+{
+ "slug": "f10-hikkai-tokutei",
+ "subject": "不動産登記法",
+ "topic": "筆界特定・境界",
+ "items": [
+  {
+   "id": "D1996",
+   "subject": "不動産登記法",
+   "topic": "筆界特定・境界",
+   "statement": "表題登記がない甲土地の所有者が、甲土地とこれに隣接する表題登記がある乙土地との間の筆界について筆界特定の申請をする場合には、甲土地の所有者は、甲土地の所有権を有することを証する情報を提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 6,
+   "cons": 0,
+   "n": 6,
+   "miscon": 6,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 6
+   },
+   "history": "✗✗✗✗✗✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R06-Q19",
+     "note_path": "note-articles/r6-mondai/q19-hikkai-tokutei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0369",
+   "subject": "不動産登記法",
+   "topic": "筆界特定・境界",
+   "statement": "〔筆界特定制度〕筆界特定の申請情報の内容である工作物、囲障又は境界標の有無その他の対象土地の状況については、図面によりその内容を明らかにして申請しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H20-Q12",
+     "note_path": "note-articles/h20-mondai/q12-hikkai-tokutei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0371",
+   "subject": "不動産登記法",
+   "topic": "筆界特定・境界",
+   "statement": "〔筆界特定制度〕筆界特定の申請が却下された場合、その申請人は、筆界特定登記官の当該却下処分に対し、審査請求をすることができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H20-Q12",
+     "note_path": "note-articles/h20-mondai/q12-hikkai-tokutei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0485",
+   "subject": "不動産登記法",
+   "topic": "筆界特定・境界",
+   "statement": "〔却下される筆界特定の申請〕【不登法】筆界特定の申請のうち、一筆の土地の一部の所有権を取得した者が、取得した部分以外の土地部分の筆界についてする筆界特定の申請は、却下される。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H21-Q15",
+     "note_path": "note-articles/h21-mondai/q15-hikkai-kyakka.md"
+    }
+   ]
+  },
+  {
+   "id": "D0895",
+   "subject": "不動産登記法",
+   "topic": "筆界特定・境界",
+   "statement": "〔筆界特定後の手続・記録〕【不登法】何人も、登記官に対し、手数料を納付して、筆界特定書の写しの交付を請求することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H25-Q18",
+     "note_path": "note-articles/h25-mondai/q18-hikkaitokutei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1801",
+   "subject": "不動産登記法",
+   "topic": "筆界特定・境界",
+   "statement": "既に筆界特定がされている土地の筆界について更に筆界特定の申請がされた場合には、既にされた筆界特定の内容に明白かつ重大な誤りがあったとしても、筆界特定登記官は、当該申請を却下しなければならない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R04-Q19",
+     "note_path": "note-articles/r4-mondai/q19-hikkai-tokutei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1892",
+   "subject": "不動産登記法",
+   "topic": "筆界特定・境界",
+   "statement": "〔筆界特定の手続〕筆界調査委員が実地調査を行うために他人の土地に立ち入る場合において、当該土地の占有者がいないときは、あらかじめ土地の表題部所有者又は所有権登記名義人に通知をしなければならない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R05-Q18",
+     "note_path": "note-articles/r5-mondai/q18-hikkaitokutei.md"
+    }
+   ]
+  }
+ ]
+}

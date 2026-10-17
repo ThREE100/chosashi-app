@@ -1,0 +1,128 @@
+{
+ "f03-kubun-tatemono": {
+  "subject": "不動産登記法",
+  "topic": "区分建物・敷地権・共用部分",
+  "must": 54,
+  "check": 0
+ },
+ "f12-tourokumenkyozei": {
+  "subject": "不動産登記法",
+  "topic": "登録免許税",
+  "must": 3,
+  "check": 0
+ },
+ "f05-tatemono-nintei": {
+  "subject": "不動産登記法",
+  "topic": "建物の認定・個数・種類構造床面積",
+  "must": 28,
+  "check": 3
+ },
+ "m01-kyoyu-shoyuken-senyu": {
+  "subject": "民法",
+  "topic": "共有・所有権・占有",
+  "must": 16,
+  "check": 2
+ },
+ "m05-youeki-tanpo": {
+  "subject": "民法",
+  "topic": "用益権・担保物権",
+  "must": 6,
+  "check": 0
+ },
+ "m03-bukken-hendo": {
+  "subject": "民法",
+  "topic": "物権変動・対抗要件",
+  "must": 9,
+  "check": 0
+ },
+ "m04-jikou": {
+  "subject": "民法",
+  "topic": "時効・条件期限",
+  "must": 8,
+  "check": 0
+ },
+ "f07-hyodaibu-shoyusha": {
+  "subject": "不動産登記法",
+  "topic": "表題部所有者・所有権の登記",
+  "must": 18,
+  "check": 1
+ },
+ "f04-tochi-bunpitsu-gappitsu": {
+  "subject": "不動産登記法",
+  "topic": "土地の分筆・合筆・地積更正",
+  "must": 39,
+  "check": 5
+ },
+ "f08-tochi-hyodai-chimoku": {
+  "subject": "不動産登記法",
+  "topic": "土地の表題・地目・地積",
+  "must": 13,
+  "check": 2
+ },
+ "c02-chousashi-houjin": {
+  "subject": "土地家屋調査士法",
+  "topic": "調査士法人",
+  "must": 1,
+  "check": 0
+ },
+ "f11-tatemono-zumen": {
+  "subject": "不動産登記法",
+  "topic": "建物図面・各階平面図",
+  "must": 5,
+  "check": 0
+ },
+ "c01-chousashikai-shikaku": {
+  "subject": "土地家屋調査士法",
+  "topic": "調査士会・資格・その他",
+  "must": 1,
+  "check": 1
+ },
+ "f06-chizu-sokuryozu": {
+  "subject": "不動産登記法",
+  "topic": "土地の滅失・地図・地積測量図・土地所在図",
+  "must": 18,
+  "check": 3
+ },
+ "f01-shinsei-souron": {
+  "subject": "不動産登記法",
+  "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+  "must": 73,
+  "check": 5
+ },
+ "f02-tatemono-bunkatsu-gappei": {
+  "subject": "不動産登記法",
+  "topic": "建物の分割・合併・合体・滅失・変更",
+  "must": 59,
+  "check": 3
+ },
+ "f10-hikkai-tokutei": {
+  "subject": "不動産登記法",
+  "topic": "筆界特定・境界",
+  "must": 5,
+  "check": 2
+ },
+ "m07-souzoku": {
+  "subject": "民法",
+  "topic": "相続・親族",
+  "must": 2,
+  "check": 0
+ },
+ "f09-touki-seido-souron": {
+  "subject": "不動産登記法",
+  "topic": "登記制度・総則（登記官・図面・保存期間・管轄・通知）",
+  "must": 8,
+  "check": 1
+ },
+ "m02-ishi-hyoji": {
+  "subject": "民法",
+  "topic": "意思表示・無効取消",
+  "must": 9,
+  "check": 5
+ },
+ "m06-dairi": {
+  "subject": "民法",
+  "topic": "代理",
+  "must": 4,
+  "check": 2
+ }
+}

@@ -1,0 +1,759 @@
+{
+ "slug": "f05-tatemono-nintei",
+ "subject": "不動産登記法",
+ "topic": "建物の認定・個数・種類構造床面積",
+ "items": [
+  {
+   "id": "D1222",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔不動産登記法の目的・建物の定義（空欄）〕【不登法】表示に関する登記と権利に関する登記は、登記簿に、「登記情報」を一筆の土地又は一個の建物ごとに表題部と権利部に区分して、登記記録として記録することにより行う。",
+   "truth": false,
+   "cls": "must",
+   "W": 4,
+   "cons": 0,
+   "n": 5,
+   "miscon": 4,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 4
+   },
+   "history": "✗✗✗○✗",
+   "sources": [
+    {
+     "label": "③誤",
+     "q": "H29-Q04",
+     "note_path": "note-articles/h29-mondai/q04-touki-mokuteki-anaume.md"
+    }
+   ]
+  },
+  {
+   "id": "D1762",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の所在又は家屋番号〕区分建物である甲建物に区分建物でない附属建物があるときは、甲建物の表題部の附属建物の表示欄の構造欄に附属建物の所在が記録される。",
+   "truth": true,
+   "cls": "must",
+   "W": 4,
+   "cons": 2,
+   "n": 6,
+   "miscon": 4,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 4
+   },
+   "history": "✗✗✗✗○○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R04-Q11",
+     "note_path": "note-articles/r4-mondai/q11-tatemono-shozai.md"
+    }
+   ]
+  },
+  {
+   "id": "D0860",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "団地共用部分である旨の登記を申請する場合においては、団地共用部分を共用すべき者の所有する区分建物でない建物について当該建物の不動産番号を申請情報の内容とするときであっても、当該建物の家屋番号を申請情報の内容としなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 1,
+   "n": 5,
+   "miscon": 1,
+   "unknown": 2,
+   "wrong_dir": {
+    "不明(?)": 2,
+    "誤った記述を〇": 1
+   },
+   "history": "？✗○？○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R05-Q17",
+     "note_path": "note-articles/r5-mondai/q17-kyouyoububun.md"
+    },
+    {
+     "label": "イ",
+     "q": "H25-Q11",
+     "note_path": "note-articles/h25-mondai/q11-kaokubangou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1382",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔附属建物の登記〕附属建物が主である建物と同一の一棟の建物に属する区分建物である場合において，当該附属建物に関する登記事項を記録するには，その一棟の建物の所在する市，区，郡，町，村，字及び土地の地番並びに構造及び床面積を記録することを要する。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 3,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗○✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H30-Q14",
+     "note_path": "note-articles/h30-mondai/q14-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D1454",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の個数〕【不登法】一筆の土地の上に同一の者の所有に属する三棟の建物がある場合には、それぞれの建物が異なる借主の居宅として利用されているときでも、三棟の建物を一個の建物として取り扱うことができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "誤った記述を〇": 1,
+    "不明(?)": 1
+   },
+   "history": "✗？○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R01-Q09",
+     "note_path": "note-articles/r1-mondai/q09-tatemono-kosuu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1778",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "同一の土地上にいずれも区分建物であって、それぞれ別の一棟の建物に属する甲建物と乙建物がある場合において、甲建物を主である建物、乙建物を附属建物とする表題登記を申請するときは、乙建物が属する一棟の建物の所在地番を申請情報の内容とすることを要しない。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "誤った記述を〇": 1,
+    "不明(?)": 1
+   },
+   "history": "✗？○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R04-Q14",
+     "note_path": "note-articles/r4-mondai/q14-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D2058",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "区分建物である建物の登記記録の表題部のうち、一棟の建物の表題部には、当該一棟の建物の種類が記録される。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗✗○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R07-Q12",
+     "note_path": "note-articles/r7-mondai/q12-tatemono-shurui.md"
+    }
+   ]
+  },
+  {
+   "id": "D0691",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔附属建物をめぐる登記と図面〕附属建物として登記されている建物を、登記記録上、別の1個の建物とする登記を申請する場合において、当該建物が共有であるときは、共有者全員で申請しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H23-Q17",
+     "note_path": "note-articles/h23-mondai/q17-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D0695",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔附属建物をめぐる登記と図面〕表題登記があり、既に建物図面が登記所に提出されている建物について、当該建物の数個の附属建物のうち、その一つを残して他の全ての附属建物を取り壊した場合であっても、附属建物の滅失による表題部の変更の登記を申請するときは、建物図面の添付を省略することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H23-Q17",
+     "note_path": "note-articles/h23-mondai/q17-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D0783",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の個数に関する正誤〕【不登法】登記記録は、区分建物については1棟の建物ごとに、区分建物でない建物については1個の建物ごとに作成される。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H24-Q15",
+     "note_path": "note-articles/h24-mondai/q15-tatemono-kosuu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0784",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の個数に関する正誤〕【不登法】1棟の建物に構造上区分された数個の部分があり、独立して住居としての用途に供することができるものと倉庫としての用途に供することができるものとがある場合において、これらの2個の部分が隣接していないときは、その所有者が同一であっても、これらを1個の建物として登記することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H24-Q15",
+     "note_path": "note-articles/h24-mondai/q15-tatemono-kosuu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0859",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "建物の分割の登記を申請するときは、分割前の建物の家屋番号を申請情報の内容とすることを要しない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H25-Q11",
+     "note_path": "note-articles/h25-mondai/q11-kaokubangou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0863",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "主である建物の所在する土地と附属建物の所在する土地が管轄登記所を異にする場合において、建物の表題登記を申請したときは、主である建物のほか、附属建物にも、家屋番号が付される。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H25-Q11",
+     "note_path": "note-articles/h25-mondai/q11-kaokubangou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0865",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の種類又は構造〕床面積に算入しない部分があり、当該部分の屋根の種類と他の部分の屋根の種類が異なる建物について、その建物の構造を定める場合には、屋根の種類による区分として、床面積に算入しない部分の屋根の種類によって定めることを要しない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H25-Q12",
+     "note_path": "note-articles/h25-mondai/q12-tatemono-shurui-kouzou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0978",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔附属建物に関する誤り探し〕【不登法】甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合には、添付情報として、合併後の建物図面及び各階平面図を提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H26-Q14",
+     "note_path": "note-articles/h26-mondai/q14-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D0979",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔附属建物に関する誤り探し〕【不登法】附属建物がある区分建物の表題登記を申請する場合において、附属建物が主である建物と同一の一棟の建物に属する区分建物であるときは、当該附属建物の所在地番並びに構造及び床面積を申請情報の内容とすることを要しない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H26-Q14",
+     "note_path": "note-articles/h26-mondai/q14-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D0980",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔附属建物に関する誤り探し〕【不登法】甲建物の敷地に乙建物の敷地を合筆する合筆の登記がされた後、甲建物を乙建物の附属建物とする建物の合併の登記を申請する場合において、合筆による乙建物の所在の変更の登記を申請するときは、当該合併の登記と当該所在の変更の登記を一の申請情報によって申請することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H26-Q14",
+     "note_path": "note-articles/h26-mondai/q14-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D0982",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の床面積の定め方〕区分建物が属する一棟の建物の床面積は，各階ごとに壁その他の区画の内側線で囲まれた部分の水平投影面積により定める。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H26-Q15",
+     "note_path": "note-articles/h26-mondai/q15-yukamenseki.md"
+    }
+   ]
+  },
+  {
+   "id": "D0984",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の床面積の定め方〕観覧席の部分には固定式の屋根の設備を有し，競技場の部分には開閉式の屋根の設備を有するスポーツ施設は，観覧席部分の面積のほか，競技場部分の面積も，床面積に算入する。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H26-Q15",
+     "note_path": "note-articles/h26-mondai/q15-yukamenseki.md"
+    }
+   ]
+  },
+  {
+   "id": "D1286",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "店舗として使用されている平家建の建物が鉄骨の柱により地盤面から2.0メートル床上げされている場合において，床上げされた場所が外気と遮断する壁のない店舗用の駐車場として使用されているときは，建物の構造欄には，「平家建」と表示する。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H29-Q16",
+     "note_path": "note-articles/h29-mondai/q16-tatemono-kouzou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1377",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の床面積〕地階があるときは，その床面積は，地上階の床面積の記録の次に記録される。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H30-Q13",
+     "note_path": "note-articles/h30-mondai/q13-yukamenseki.md"
+    }
+   ]
+  },
+  {
+   "id": "D1381",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔附属建物の登記〕区分建物でない建物の登記記録において，主である建物が存在する土地の地番と附属建物である地下車庫が存在する土地の地番とが同一ではない場合には，当該附属建物が存在する土地の地番は，主である建物の表示欄の所在欄に記録されない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H30-Q14",
+     "note_path": "note-articles/h30-mondai/q14-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D1455",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の個数〕【不登法】Ａが所有権の登記名義人である甲建物に近接して、甲建物と効用上一体として利用する乙建物をＡが新築した場合において、甲建物に抵当権の設定の登記がされているときは、甲建物を主である建物、乙建物を附属建物とする一個の建物として取り扱うことはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R01-Q09",
+     "note_path": "note-articles/r1-mondai/q09-tatemono-kosuu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1573",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔附属建物の登記〕主である建物の登記記録から附属建物を分割する建物の分割の登記を申請する場合において，当該附属建物が共有名義であるときは，他の共有者の承諾を証する情報を提供すれば，当該申請は，共有者の一人からすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R02-Q13",
+     "note_path": "note-articles/r2-mondai/q13-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D1576",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔附属建物の登記〕附属建物を新築した場合において，建物の表題部の変更の登記を申請するときは，添付情報として，附属建物について表題部所有者又は所有権の登記名義人が所有権を有することを証する情報を提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R02-Q13",
+     "note_path": "note-articles/r2-mondai/q13-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D1763",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の所在又は家屋番号〕区分建物の属する一棟の建物に共用部分である2階ベランダ部分を増築したことにより一棟の建物が隣接する土地にまたがった場合には、当該隣接する土地の地番を当該一棟の建物の所在欄に加える旨の当該区分建物の表題部の変更の登記を申請することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R04-Q11",
+     "note_path": "note-articles/r4-mondai/q11-tatemono-shozai.md"
+    }
+   ]
+  },
+  {
+   "id": "D1869",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "次の〔図3〕（図は省略）のとおり、機械室、冷却装置室及び屋上に出入りするための階段室が設置されている天井高2.5メートルの塔屋について、当該塔屋の一部が、管理事務所及び倉庫として使用されている場合には、管理事務所及び倉庫として使用されていない部分も含めた当該塔屋全体を建物の床面積に算入する。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R05-Q12",
+     "note_path": "note-articles/r5-mondai/q12-yukamenseki.md"
+    }
+   ]
+  },
+  {
+   "id": "D1967",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "仮換地が指定された土地の上に建物が新築された場合において、当該建物の表題登記を申請するときは、申請情報である建物の所在として、当該建物が現に存する土地の地番を提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R06-Q13",
+     "note_path": "note-articles/r6-mondai/q13-tatemono-shozai.md"
+    }
+   ]
+  },
+  {
+   "id": "D1681",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "〔建物の種類の定め方〕【不登法】区分建物でない建物として登記されている6階建てのビルについて、1階から3階までをパチンコ店、4階から5階までを映画館、6階をオーナーが居住する部分として利用されている場合には、当該ビルに関する建物の種類は「遊技場・映画館・居宅」と定められる。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R03-Q14",
+     "note_path": "note-articles/r3-mondai/q14-tatemono-shurui.md"
+    }
+   ]
+  },
+  {
+   "id": "D1779",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "甲建物とその附属建物である乙建物が同一の土地上にある場合において、甲建物を取り壊して、当該土地上に同じ床面積の丙建物を新築したときは、甲建物の登記記録の主である建物の表示を丙建物の表示に変更する建物の表題部の変更の登記を申請することはできない。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R04-Q14",
+     "note_path": "note-articles/r4-mondai/q14-fuzoku-tatemono.md"
+    }
+   ]
+  },
+  {
+   "id": "D2059",
+   "subject": "不動産登記法",
+   "topic": "建物の認定・個数・種類構造床面積",
+   "statement": "登記官は、表題登記のある建物について共用部分である旨の登記をするときは、当該建物の種類に関する登記事項を抹消する記号を記録しなければならない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R07-Q12",
+     "note_path": "note-articles/r7-mondai/q12-tatemono-shurui.md"
+    }
+   ]
+  }
+ ]
+}

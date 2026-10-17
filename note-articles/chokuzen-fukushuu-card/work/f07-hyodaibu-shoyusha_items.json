@@ -1,0 +1,464 @@
+{
+ "slug": "f07-hyodaibu-shoyusha",
+ "subject": "不動産登記法",
+ "topic": "表題部所有者・所有権の登記",
+ "items": [
+  {
+   "id": "D0448",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の登記〕表題部所有者A、B及びCの持分が、Aは１０分の５、Bは１０分の３、Cは１０分の２と登記されている不動産について、Bの持分を１０分の２、Cの持分を１０分の３とする更正の登記をCが申請するに当たっては、他の共有者A及びBの承諾を証する情報を提供することを要する。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗○✗✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H21-Q08",
+     "note_path": "note-articles/h21-mondai/q08-hyoudaibu-shoyuusha.md"
+    }
+   ]
+  },
+  {
+   "id": "D1033",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の登記〕表題部所有者として誤ってＡ及びＢが登記されているが，真実の所有者はＡ及びＣである場合において，これを是正するための表題部所有者の更正の登記をＣが申請するときは，Ｂの承諾を証する情報又はＢに対抗することができる裁判があったことを証する情報のほか，Ｃが所有権を有することを証する情報及びＣの住所を証する情報を併せて提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "正しい記述を×": 1,
+    "不明(?)": 1
+   },
+   "history": "✗○？○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H27-Q05",
+     "note_path": "note-articles/h27-mondai/q05-hyoudaibu-shoyuusha.md"
+    }
+   ]
+  },
+  {
+   "id": "D0447",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の登記〕表題部所有者AからA及びBとする更正の登記を申請するに当たっては、Bが所有権を有することを証する情報を提供することを要する。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H21-Q08",
+     "note_path": "note-articles/h21-mondai/q08-hyoudaibu-shoyuusha.md"
+    }
+   ]
+  },
+  {
+   "id": "D0667",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部の更正の登記〕表題部に共有者A持分２分の１、共有者B持分２分の１と記録されている場合において、共有者A持分３分の２、共有者B持分３分の１とする表題部所有者の更正の登記をAが申請するときは、Bの承諾書とともに、Aの共有持分権を証する情報を提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H23-Q12",
+     "note_path": "note-articles/h23-mondai/q12-hyoudaibu-kousei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0701",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔建物の表題登記の申請〕表題登記がある区分建物でない建物（以下本問において「非区分建物」という。）に接続して区分建物が新築されて一棟の建物となったことにより、当該表題登記がある非区分建物が区分建物となった場合における当該新築に係る区分建物についての表題登記の申請は、当該接続前の表題登記がある非区分建物についての表題部の登記の抹消の申請と併せてしなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H23-Q19",
+     "note_path": "note-articles/h23-mondai/q19-kubun-tatemono-hyoudai.md"
+    }
+   ]
+  },
+  {
+   "id": "D0702",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔建物の表題登記の申請〕表題登記がない建物に接続して区分建物が新築されて一棟の建物となった場合には、当該区分建物の所有者が、他の区分建物の所有者に代わって、当該他の区分建物についての表題登記を申請することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H23-Q19",
+     "note_path": "note-articles/h23-mondai/q19-kubun-tatemono-hyoudai.md"
+    }
+   ]
+  },
+  {
+   "id": "D0703",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "一棟の建物に属する区分建物全部の原始所得者が、その表題登記をしない間に、そのうちの一部の区分建物を他に売却した場合には、その売却した区分建物の表題登記の申請は、原始所得者が、その転得者に代位してする方法により、しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H23-Q19",
+     "note_path": "note-articles/h23-mondai/q19-kubun-tatemono-hyoudai.md"
+    }
+   ]
+  },
+  {
+   "id": "D0705",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔建物の表題登記の申請〕新築された表題登記がない区分建物の原始所得者が死亡した場合には、その相続人は、自己を当該区分建物の表題部所有者とする表題登記を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H23-Q19",
+     "note_path": "note-articles/h23-mondai/q19-kubun-tatemono-hyoudai.md"
+    }
+   ]
+  },
+  {
+   "id": "D0842",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔H25問7・表の形式の肢〕甲土地の所有権の登記名義人としてA及びBが記録されている場合において、更正後の地積が減少することとなる甲土地の地積の更正の登記を申請するときは、当該申請をAが単独ですることができる。（代位による登記の申請は考慮しない。）",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H25-Q07",
+     "note_path": "note-articles/h25-mondai/q07-tandoku-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0923",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の沿革（穴埋め）〕【表題部所有者の沿革】不動産の物理的状況を把握するための公簿として、昭和35年改正前には登記簿の制度が存在した。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア誤",
+     "q": "H26-Q04",
+     "note_path": "note-articles/h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0927",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の沿革（穴埋め）〕【表題部所有者の沿革】昭和35年に、表題部に当たる台帳制度と権利部に当たる登記簿の制度が統合・一元化された。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ誤",
+     "q": "H26-Q04",
+     "note_path": "note-articles/h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0929",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の沿革（穴埋め）〕【表題部所有者の沿革】表題部所有者の記録は、所有権の登記がない不動産について表題部の変更の登記や更正の登記の申請代理人を特定する機能を有する。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ誤",
+     "q": "H26-Q04",
+     "note_path": "note-articles/h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0930",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の沿革（穴埋め）〕【表題部所有者の沿革】表題部所有者の記録は、所有権の保存の登記を申請する際の申請適格者を特定する機能も有する。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ正",
+     "q": "H26-Q04",
+     "note_path": "note-articles/h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0931",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の沿革（穴埋め）〕【表題部所有者の沿革】表題部所有者の記録は、所有権の移転の登記を申請する際の申請適格者を特定する機能も有する。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ誤",
+     "q": "H26-Q04",
+     "note_path": "note-articles/h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md"
+    }
+   ]
+  },
+  {
+   "id": "D1030",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の登記〕表題部所有者として誤ってＡが登記されているが，真実の所有者はＢである場合には，Ａは，表題部所有者の更正の登記を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H27-Q05",
+     "note_path": "note-articles/h27-mondai/q05-hyoudaibu-shoyuusha.md"
+    }
+   ]
+  },
+  {
+   "id": "D1031",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の登記〕表題部所有者としてＡが登記されている土地をＡがＢに対して売却したときは，Ｂは，ＡからＢへの表題部所有者についての変更の登記を申請することができない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H27-Q05",
+     "note_path": "note-articles/h27-mondai/q05-hyoudaibu-shoyuusha.md"
+    }
+   ]
+  },
+  {
+   "id": "D1032",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "〔表題部所有者の登記〕表題部所有者のＡ及びＢの持分が誤ってＡは5分の3，Ｂは5分の2と登記されているが，真実の持分はＡが5分の2，Ｂが5分の3である場合において，Ａがこれを是正するための表題部所有者についての持分の更正の登記を申請するときは，Ｂが所有権を有することを証する情報を提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H27-Q05",
+     "note_path": "note-articles/h27-mondai/q05-hyoudaibu-shoyuusha.md"
+    }
+   ]
+  },
+  {
+   "id": "D1238",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "Ａが所有権の登記名義人である建物について，一部取壊しの工事が完了した3週間後に増築の工事が完成した場合において，一の申請情報によって建物の表題部の変更の登記を申請するときは，全ての工事完成後の床面積が減少する場合であっても，所有権を有することを証する情報を添付しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H29-Q07",
+     "note_path": "note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1773",
+   "subject": "不動産登記法",
+   "topic": "表題部所有者・所有権の登記",
+   "statement": "Aが所有する土地上に建物が新築された場合において、当該建物の所有者であるBが当該建物の表題登記を申請するときは、Bは、当該土地の借地権を有していることを証する情報を提供しなければならない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R04-Q13",
+     "note_path": "note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md"
+    }
+   ]
+  }
+ ]
+}

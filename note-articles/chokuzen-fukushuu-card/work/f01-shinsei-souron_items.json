@@ -1,0 +1,1881 @@
+{
+ "slug": "f01-shinsei-souron",
+ "subject": "不動産登記法",
+ "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+ "items": [
+  {
+   "id": "D1448",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔土地の表示〕会社法人等番号を有する法人が所有権の登記名義人である土地について、地目の変更の登記を当該法人の支配人によって申請する場合には、当該申請を受ける登記所が、当該法人についての当該支配人の登記を受けた登記所と同一であり、かつ、法務大臣が指定した登記所以外のものでない限り、当該支配人の権限を証する登記事項証明書を提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 4,
+   "cons": 2,
+   "n": 6,
+   "miscon": 3,
+   "unknown": 1,
+   "wrong_dir": {
+    "誤った記述を〇": 3,
+    "不明(?)": 1
+   },
+   "history": "✗✗✗？○○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R01-Q08",
+     "note_path": "note-articles/r1-mondai/q08-shinsei-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1633",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔電子申請(合筆)での添付情報等〕【不登法】調査士が委任状を確認した上でスキャナにより読み取って電磁的記録を作成し、調査士による電子署名を付し、その作成過程が記録された不動産の調査に関する報告を申請情報と併せて提供する方式(調査士報告方式)により登記の申請をした場合であっても、登記官に対して当該委任状原本の提示を省略することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 4,
+   "cons": 1,
+   "n": 5,
+   "miscon": 4,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 4
+   },
+   "history": "✗✗✗✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R03-Q04",
+     "note_path": "note-articles/r3-mondai/q04-denshi-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0586",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "建物の表題登記を代理人によって申請する場合に提供する当該建物の所有者が作成した代理権限を証する情報",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗○✗✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H22-Q16",
+     "note_path": "note-articles/h22-mondai/q16-denshi-shinsei-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D2028",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔嘱託登記〕私人が所有する土地について、市町村が代位による土地の表題登記を嘱託する場合には、当該土地についての被代位者が所有権を有することを証する情報を提供することを要する。",
+   "truth": true,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 3,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 3
+   },
+   "history": "✗✗✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R07-Q06",
+     "note_path": "note-articles/r7-mondai/q06-shokutaku-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D1138",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔土地の表示登記の代理〕【不登法】委任による代理人により土地の分筆の登記を申請した後に、申請意思の撤回により当該代理人が当該登記の申請を取り下げるときは、当該登記の申請の取下げに関する委任状を添付しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 3,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗○✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H28-Q07",
+     "note_path": "note-articles/h28-mondai/q07-dairi.md"
+    }
+   ]
+  },
+  {
+   "id": "D1482",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の代位申請〕【判例】Ａ及びＢが所有権の登記名義人であり、地目が農地である土地について、農地法所定の許可を受けた上で宅地としたにもかかわらず、Ｂが地目の変更の登記の申請に応じないときは、Ａは、Ｂに代位して、当該土地の地目の変更の登記を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 2
+   },
+   "history": "✗✗○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R01-Q14",
+     "note_path": "note-articles/r1-mondai/q14-daii-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1483",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔建物の表示〕建物の表題登記の申請をする場合において、表題部所有者となる者の所有権を有することを証する情報として当該建物の敷地所有者による証明情報を添付するときは、敷地の共有者の一部の者による証明でも差し支えない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "正しい記述を×": 1,
+    "不明(?)": 1
+   },
+   "history": "✗？○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R01-Q15",
+     "note_path": "note-articles/r1-mondai/q15-tatemono-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0354",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の申請〕区分建物でない建物の表題部所有者は、その建物に接続して区分建物が新築された場合には、当該新築された区分建物の所有者に代位して、その区分建物の表題登記を申請することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H20-Q09",
+     "note_path": "note-articles/h20-mondai/q09-touki-shinseinin.md"
+    }
+   ]
+  },
+  {
+   "id": "D0357",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の申請〕表題部所有者であるA及びBは、その持分に変更が生じたときは、表題部所有者の持分の変更の登記を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H20-Q09",
+     "note_path": "note-articles/h20-mondai/q09-touki-shinseinin.md"
+    }
+   ]
+  },
+  {
+   "id": "D0359",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "電子申請により表題登記を申請する場合において、申請人が電子証明書を提供したときは、住所を証する情報の提供を要しない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H20-Q10",
+     "note_path": "note-articles/h20-mondai/q10-denshi-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0438",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "登記識別情報に関する証明は、提供する登記識別情報が有効であることのほか、登記識別情報が通知されていないこと又は失効していることについても請求することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H21-Q06",
+     "note_path": "note-articles/h21-mondai/q06-shikibetsujoho-shomei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0455",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔作成後3月以内を要する添付情報〕【不登令】法定代理人による地目の変更の登記の申請に当たり、当該法定代理人の権限を証する情報として提供された、市町村長が作成した当該申請者本人についての戸籍謄本は、作成後3月以内のものでなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H21-Q09",
+     "note_path": "note-articles/h21-mondai/q09-tenpu-3getsu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0476",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔不動産登記法第２４条に基づく登記官による本人確認（以下「本人確認調査」という。）〕所有権の登記がある土地の合筆の登記が申請された場合において、申請前３月以内に所有権の登記名義人の住所の変更の登記がされているときは、登記官は、当該申請人について本人確認調査をしなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H21-Q14",
+     "note_path": "note-articles/h21-mondai/q14-honnin-kakunin.md"
+    }
+   ]
+  },
+  {
+   "id": "D0478",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔不動産登記法第２４条に基づく登記官による本人確認（以下「本人確認調査」という。）〕本人確認調査の契機とするための不正登記防止の申出は、申出書を送付することによってすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H21-Q14",
+     "note_path": "note-articles/h21-mondai/q14-honnin-kakunin.md"
+    }
+   ]
+  },
+  {
+   "id": "D0543",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記完了通知の通知先〕【不登規則】表題部の所有者欄にA、B及びCの3人の共有の登記がされている土地について、職権による地目の変更の登記が完了した場合には、登記官は、Aに対して当該登記が完了した旨を通知すれば足りる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H22-Q07",
+     "note_path": "note-articles/h22-mondai/q07-touki-kanryou-tsuuchi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0544",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記完了通知の通知先〕【不登規則】表題部の所有者欄にA、B及びCの3人の共有の登記がされている土地について、Dが当該土地の所有者をD、E及びFに更正する旨の表題部所有者についての更正の登記を申請し、登記が完了した場合には、登記官は、D及びEに対して当該登記が完了した旨を通知すれば足りる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H22-Q07",
+     "note_path": "note-articles/h22-mondai/q07-touki-kanryou-tsuuchi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0549",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の申請の取り下げ〕代理人が書面申請の方法によって行った登記の申請を取り下げた場合には、申請書及び代理権限証書を除いた添付書面が還付される。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H22-Q08",
+     "note_path": "note-articles/h22-mondai/q08-toriage.md"
+    }
+   ]
+  },
+  {
+   "id": "D0554",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記申請手続の委任〕土地の合筆の登記の申請の委任を受けた代理人が、当該申請を補正のために取り下げるには、委任者から特別の委任を受けなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H22-Q09",
+     "note_path": "note-articles/h22-mondai/q09-ininn.md"
+    }
+   ]
+  },
+  {
+   "id": "D0577",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔建物表示登記の添付情報〕【不登令】区分建物の表題登記の申請をする場合において、敷地権の目的である土地に当該建物を管轄する登記所の管轄区域外にあるものがあるときは、当該土地の不動産番号を提供すれば、当該土地の登記事項証明書を提供する必要はない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H22-Q14",
+     "note_path": "note-articles/h22-mondai/q14-tatemono-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0589",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "建物を取り壊したことにより建物の滅失の登記を代理人によって申請する場合に提供する代理人が作成した不動産登記規則第93条に規定する調査報告情報",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H22-Q16",
+     "note_path": "note-articles/h22-mondai/q16-denshi-shinsei-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0601",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "所有権の登記がある土地の合筆の登記の申請を電子申請の方法でした場合における登記識別情報の通知は、申請人からの申出があっても、登記識別情報を記載した書面を送付して交付する方法ですることはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H22-Q19",
+     "note_path": "note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0604",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "所有権の登記がある土地の合筆の登記がされた場合において、登記識別情報の通知を受ける特別の委任を受けた代理人があるときは、登記識別情報は、当該代理人に対して通知される。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H22-Q19",
+     "note_path": "note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0626",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記官が行う登記識別情報の通知〕所有権の登記名義人が二人以上である土地の合筆の登記の申請については、登記名義人ごとに同一の内容の登記識別情報を通知しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H23-Q04",
+     "note_path": "note-articles/h23-mondai/q04-touki-shikibetsu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0628",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記官が行う登記識別情報の通知〕登記識別情報を記載した書面の交付を受けた者が、当該書面を自宅の火災により焼失してしまった場合には、登記識別情報の再発行をすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H23-Q04",
+     "note_path": "note-articles/h23-mondai/q04-touki-shikibetsu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0657",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔一の申請情報で申請する登記〕甲土地についてする地積の更正の登記と更正後の分筆の登記は、一の申請情報で申請することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H23-Q10",
+     "note_path": "note-articles/h23-mondai/q10-ichi-no-shinsei-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0658",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔一の申請情報で申請する登記〕甲土地についてする表題部所有者の住所の変更の登記と合筆の登記は、一の申請情報で申請することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H23-Q10",
+     "note_path": "note-articles/h23-mondai/q10-ichi-no-shinsei-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0660",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔一の申請情報で申請する登記〕同一の登記所の管轄区域内にある甲建物の滅失の登記と乙建物の表題登記は、登記名義人が同一であれば、一の申請情報で申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H23-Q10",
+     "note_path": "note-articles/h23-mondai/q10-ichi-no-shinsei-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0661",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の代位申請〕所有権の登記名義人がAである甲土地の一部を買い受けたBが、当該部分にCを抵当権者とする抵当権を設定した場合であっても、Cは、A及びBに代位して甲土地から抵当権が設定された部分を分筆する登記を申請することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H23-Q11",
+     "note_path": "note-articles/h23-mondai/q11-daii-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0665",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の代位申請〕甲土地の一部に地役権の設定を受けた地役権者Aは、甲土地の所有者Bに代位して分筆の登記を申請することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H23-Q11",
+     "note_path": "note-articles/h23-mondai/q11-daii-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0768",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔建物の表示〕共用部分である旨の登記を申請する場合において、抵当証券が発行されていない抵当権の登記があるときは、添付情報として、当該抵当権の登記名義人の承諾を証する当該登記名義人が作成した情報又は当該登記名義人に対抗することができる裁判があったことを証する情報を提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H24-Q12",
+     "note_path": "note-articles/h24-mondai/q12-tatemono-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0769",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔建物の表示〕共用部分である旨を定めた規約を廃止した場合において、建物の表題登記を申請するときは、添付情報として、表題部所有者となる者が所有権を有することを証する情報を提供することを要しない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H24-Q12",
+     "note_path": "note-articles/h24-mondai/q12-tatemono-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0770",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔建物の表示〕敷地権の発生を原因とする建物の表題部の変更の登記を申請をする場合には、敷地権の目的である土地が当該建物を管轄する登記所の管轄区域内にあるときであっても、添付情報として、当該土地の登記事項証明書を提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H24-Q12",
+     "note_path": "note-articles/h24-mondai/q12-tatemono-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0828",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔一の申請情報でできる申請〕【不登法】所有権の登記名義人がAである甲建物の登記記録からその附属建物を分割する建物の分割の登記と当該附属建物を所有権の登記名義人がAである乙建物の附属建物とする建物の合併の登記は、一の申請情報によってAが申請することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H25-Q04",
+     "note_path": "note-articles/h25-mondai/q04-ikkatsu-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0830",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔書面申請の原本還付〕【不登法】書面申請における添付書面（磁気ディスクを除く。）の原本は、登記官の調査完了前であっても、請求により、原本の還付を受けることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H25-Q05",
+     "note_path": "note-articles/h25-mondai/q05-genpon-kanpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0831",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔書面申請の原本還付〕【不登法】書面申請における添付書面（磁気ディスクを除く。）の原本の還付は、申出により、原本を送付する方法によって受けることができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H25-Q05",
+     "note_path": "note-articles/h25-mondai/q05-genpon-kanpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0876",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔建物表示登記の添付情報〕【不登法】甲区分建物及び乙区分建物が属する一棟の建物が新築された場合において、甲区分建物の所有者Aが乙区分建物の所有者Bに代わって乙区分建物についての表題登記を申請するときは、代位原因を証する情報として、甲区分建物の表題登記の申請情報に添付したAが甲区分建物の所有権を有することを証する情報を援用することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H25-Q14",
+     "note_path": "note-articles/h25-mondai/q14-tenpu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0879",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔相続があった場合の表示〕甲土地の所有権の登記名義人が死亡し、その相続人がA、B及びCである場合において、「甲土地から乙土地を分筆した上、分筆後の甲土地をAが相続し、乙土地をBが相続する」旨の内容の遺産分割協議書を相続があったことを証する情報の一部として提供すれば、A及びBが共同して当該土地の分筆の登記の申請をすることができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H25-Q15",
+     "note_path": "note-articles/h25-mondai/q15-souzoku-hyouji-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D0880",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔相続があった場合の表示〕相続があったことを証する情報として戸籍の全部事項証明書及び遺産分割協議書を提供した場合には、「相続関係説明図」を提供すれば、原本と相違ない旨を記載した謄本を提出することなく、当該戸籍の全部事項証明書及び遺産分割協議書について原本の還付を請求することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H25-Q15",
+     "note_path": "note-articles/h25-mondai/q15-souzoku-hyouji-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D0947",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔表示〕（改）会社法人等番号を有する法人Aが表題部所有者である土地につき地目の変更の登記を申請する場合において，法人Aの会社法人等番号を申請情報と併せて提供したときは，法人Aの代表者の資格を証する情報を提供することを要しない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H26-Q08",
+     "note_path": "note-articles/h26-mondai/q08-tenpu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0969",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔建物の登記の申請情報〕甲建物の附属建物として登記されている区分建物を分割して，これを乙建物の附属建物に合併しようとする場合において，乙建物の当該附属建物が甲建物の附属建物と接続する区分建物であるときは，建物の分割の登記及び建物の合併の登記を一の申請情報によって申請することはできない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H26-Q12",
+     "note_path": "note-articles/h26-mondai/q12-tatemono-shinsei-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1025",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔申請情報の内容〕所有権の登記名義人が合体による登記等を書面により申請する場合において，申請書に申請人の署名があるときは，申請人は申請書に押印することを要しない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H27-Q04",
+     "note_path": "note-articles/h27-mondai/q04-shinsei-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1026",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔申請情報の内容〕未成年者が所有権の登記名義人である土地についてその親権者が当該未成年者を代理して分筆の登記を申請するときは，当該未成年者は申請書に押印することを要しない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H27-Q04",
+     "note_path": "note-articles/h27-mondai/q04-shinsei-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1027",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "成年被後見人が所有権の登記名義人である建物についてその成年後見人が当該成年被後見人を代理して建物の表題部の変更の登記を申請するときは，当該成年被後見人の氏名及び住所を申請情報の内容とすることを要しない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H27-Q04",
+     "note_path": "note-articles/h27-mondai/q04-shinsei-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1028",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "株式会社が所有する建物について建物の表題登記を申請するときは，その代表取締役の氏名及び住所を申請情報の内容としなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H27-Q04",
+     "note_path": "note-articles/h27-mondai/q04-shinsei-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1036",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔土地の表示〕地積の変更の登記と分筆の登記とを一の申請情報により申請する場合には，地積の変更の登記についてのみ登記原因及びその日付を申請情報の内容としなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H27-Q06",
+     "note_path": "note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1038",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔土地の表示〕所有権が敷地権である旨の登記がされている規約敷地を分筆する場合において，当該規約敷地が区分建物と異なる登記所の管轄区域内にあるときは，当該規約を設定したことを証する情報を添付情報として提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H27-Q06",
+     "note_path": "note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1039",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔土地の表示〕甲土地を要役地とする地役権の設定の登記がされている乙土地と，地役権の設定の登記がされていない丙土地との合筆の登記を申請する場合には，当該地役権設定の範囲を証する地役権者が作成した情報又は当該地役権者に対抗することができる裁判があったことを証する情報及び地役権図面を添付情報として提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H27-Q06",
+     "note_path": "note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1062",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の代位申請〕Ａ及びＢを所有権の登記名義人とする土地について、ＡがＢに対して共有物分割の訴えを提起し、確定判決を得た場合には、Ａは、その正本を代位原因を証する情報として提供して、Ｂに代位して分筆の登記を申請することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H27-Q11",
+     "note_path": "note-articles/h27-mondai/q11-daii-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1228",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記識別情報の通知〕所有権の登記名義人であるＡの申請により，甲土地と乙土地との合筆の登記をする場合において，甲土地と乙土地に，登記の目的，申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のＢを登記名義人とする抵当権の設定の登記がされているときは，Ｂに登記識別情報が通知される。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H29-Q05",
+     "note_path": "note-articles/h29-mondai/q05-touki-shikibetsu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1229",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "Ａを所有権の登記名義人とする甲土地と乙土地との合筆の登記を，資格者代理人Ｂが電子申請の方法により申請するに際し，Ｂが登記識別情報の通知を受けるための特別の委任を受けていた場合において，登記識別情報の送信が可能になった時から30日以内にＢが自己の使用に係る電子計算機に備えられたファイルに当該登記識別情報を記録しないときは，Ｂに登記識別情報は通知されない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H29-Q05",
+     "note_path": "note-articles/h29-mondai/q05-touki-shikibetsu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1321",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔表示〕会社法人等番号を有しない法人が土地の地積に関する更正の登記を申請するときは，作成後3月以内の当該法人の代表者の資格を証する情報を添付情報として提供しなければならない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H30-Q04",
+     "note_path": "note-articles/h30-mondai/q04-shinsei-tenpu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1325",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記官による調査〕【不登法】登記官は、不動産の表示に関する登記について、申請をすべき事項で申請のないものを発見したときは、直ちに職権でその登記をすることなく、その申請の義務がある者に登記の申請を催告することとされている。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H30-Q05",
+     "note_path": "note-articles/h30-mondai/q05-tokikan-chousa.md"
+    }
+   ]
+  },
+  {
+   "id": "D1339",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "本人確認情報と併せて提供する資格者代理人である土地家屋調査士が所属する土地家屋調査士会が発行した職印に関する証明書は、発行後3月以内のものであることを要する。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H30-Q07",
+     "note_path": "note-articles/h30-mondai/q07-honnin-kakunin.md"
+    }
+   ]
+  },
+  {
+   "id": "D1344",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔土地の表示〕書面申請により分筆の登記を申請する場合において，受領証の交付を請求するときは，申請書の内容と同一の内容を記載した書面に地積測量図の写しを添付したものを提出しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H30-Q08",
+     "note_path": "note-articles/h30-mondai/q08-tochi-hyouji.md"
+    }
+   ]
+  },
+  {
+   "id": "D1487",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔建物の表示〕表題登記がされていない建物を相続したＡが、Ａを所有者とする建物の表題登記を申請する場合には、所有権を有することを証する情報及び住所を証する情報として、Ａの住所が記載されている法定相続情報一覧図の写しを提供することができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R01-Q15",
+     "note_path": "note-articles/r1-mondai/q15-tatemono-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1491",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔不動産の表示〕敷地となっている土地の分筆の登記により区分建物でない建物が所在する土地の地番に変更が生じた場合には、当該建物の所有権の登記名義人は、当該建物の所在に関する変更の登記を申請する義務を負う。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R01-Q16",
+     "note_path": "note-articles/r1-mondai/q16-hyouji-touki-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1530",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "Ｂは，電子申請の方法により，土地の合筆の登記を申請する場合，添付情報として，登記識別情報を提供することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R02-Q04",
+     "note_path": "note-articles/r2-mondai/q04-dairiken-han-i.md"
+    }
+   ]
+  },
+  {
+   "id": "D1531",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "Ｂは，電子申請の方法により，土地の合筆の登記を申請し，当該登記が完了した場合，Ｂの使用に係る電子計算機に備え付けられたファイルに記録する方法で，登記識別情報の通知を受けることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R02-Q04",
+     "note_path": "note-articles/r2-mondai/q04-dairiken-han-i.md"
+    }
+   ]
+  },
+  {
+   "id": "D1634",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔電子申請(合筆)での添付情報等〕【不登法】電子申請の方法により土地の合筆の登記の申請をした場合において、その後当該申請を取り下げるときは、申請を取り下げる旨の情報を記載した書面を登記所に提出する方法によってすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R03-Q04",
+     "note_path": "note-articles/r3-mondai/q04-denshi-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1635",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の申請の添付情報〕共通する添付情報のある2つの申請を同一の登記所に対して同時に行う場合において、当該添付情報を一の申請の申請情報と併せて提供し、その旨を他の申請の申請情報の内容としたときは、当該他の申請について当該添付情報を提供することを要しない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R03-Q05",
+     "note_path": "note-articles/r3-mondai/q05-tenpu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1638",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の申請の添付情報〕所有権の登記がある区分建物でない甲建物と所有権の登記はないが表題登記がある区分建物でない乙建物とが増築工事により合体して1個の区分建物でない建物となった場合において、合体による建物の表題登記及び合体前の建物についての表題部の登記の抹消並びに所有権の保存の登記の申請をするときは、乙建物の新築時の建築基準法第7条の検査済証を当該申請情報と併せて提供すべき所有権を証する情報とすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R03-Q05",
+     "note_path": "note-articles/r3-mondai/q05-tenpu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1639",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の申請の添付情報〕電子申請の方法によって登記を申請する場合において、登記事項証明書を併せて提供しなければならないものとされているときは、登記事項証明書の提供に代えて、当該申請に係る不動産の不動産番号を送信しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R03-Q05",
+     "note_path": "note-articles/r3-mondai/q05-tenpu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1644",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記の申請の却下〕電子申請の方法によってされた登記の申請を却下するときは、その決定書は電磁的記録をもって作成される。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R03-Q06",
+     "note_path": "note-articles/r3-mondai/q06-kyakka.md"
+    }
+   ]
+  },
+  {
+   "id": "D1732",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記識別情報の通知・証明〕【不登法】成年後見人が、いずれも成年被後見人が所有権の登記名義人である甲土地と乙土地について、成年被後見人の法定代理人として合筆の登記を申請し、その登記が完了したときは、登記識別情報は成年後見人に対して通知される。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R04-Q05",
+     "note_path": "note-articles/r4-mondai/q05-touki-shikibetsu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1733",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記識別情報の通知・証明〕【不登法】いずれもA及びBが所有権の登記名義人である甲土地と乙土地について、A及びBが合筆の登記を申請し、その登記が完了したときは、登記官は、A又はBのいずれか一方に登記識別情報を通知すれば足りる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R04-Q05",
+     "note_path": "note-articles/r4-mondai/q05-touki-shikibetsu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1734",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔登記識別情報の通知・証明〕【不登法】土地家屋調査士が本人を代理して登記識別情報に関する証明を請求する場合には、代理人の権限を証する情報を提供しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R04-Q05",
+     "note_path": "note-articles/r4-mondai/q05-touki-shikibetsu-jouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1826",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "不動産の表示に関する登記の申請が申請人となるべき者以外の者によってされていると疑うに足りる相当な理由がある場合において、当該申請を却下すべきときであっても、登記官は、当該申請の申請人に対し、その申請の権限の有無を調査しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R05-Q04",
+     "note_path": "note-articles/r5-mondai/q04-touki-chousa.md"
+    }
+   ]
+  },
+  {
+   "id": "D1897",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "委任を受けた土地家屋調査士が、法定相続情報一覧図の写しの交付の申出をする場合には、代理人の権限を証する書面として、委任状以外の書面を添付する必要はない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R05-Q19",
+     "note_path": "note-articles/r5-mondai/q19-houtei-souzoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D1898",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "法定相続情報一覧図の保管の申出は、申出人の住所地を管轄する登記所に申出をすることができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R05-Q19",
+     "note_path": "note-articles/r5-mondai/q19-houtei-souzoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D1922",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔表題登記の添付情報〕複数の者が共有する土地を敷地とする建物の表題登記を申請する場合には、表題部所有者となる者の所有権を有することを証する情報として提供する当該建物の敷地所有者による証明情報は、当該敷地の持分の過半数を有する者によるものでなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R06-Q04",
+     "note_path": "note-articles/r6-mondai/q04-hyoudai-touki-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1924",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔表題登記の添付情報〕区分建物の表題登記を申請する場合において、規約により専有部分と敷地利用権との分離処分を可能とする旨を定めたことにより地上権が当該区分建物の敷地権とならないときであっても、その敷地利用権が地上権であり、かつ、当該区分建物が属する一棟の建物の敷地について登記された地上権の登記名義人が当該区分建物の所有者であるときは、添付情報として、当該規約の定めを証する情報を提供することを要しない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R06-Q04",
+     "note_path": "note-articles/r6-mondai/q04-hyoudai-touki-tenpu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1925",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "【不登令】地役権の登記がある承役地の分筆の登記を申請する場合において、地役権設定の範囲が分筆後の土地の一部であるときに提供する当該地役権設定の範囲を証する書面は、調査士報告方式の対象となる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R06-Q05",
+     "note_path": "note-articles/r6-mondai/q05-chousashi-houkoku-houshiki.md"
+    }
+   ]
+  },
+  {
+   "id": "D2087",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔法定相続情報を記載した書面（以下「法定相続情報一覧図」という。）〕法定相続情報一覧図の写しの再交付の申出は、当該法定相続情報一覧図の保存期間が満了するまで行うことができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R07-Q18",
+     "note_path": "note-articles/r7-mondai/q18-houtei-souzoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0944",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔表示〕表題登記がない土地の所有者であるAが，当該土地の表題登記を申請することなくBとの間で売買契約を締結し，Bが当該土地の所有権を取得した場合には，Bは，その所有権の取得の日から1か月以内に，当該土地の表題登記を申請しなければならない。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H26-Q07",
+     "note_path": "note-articles/h26-mondai/q07-shinsei-gimu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1133",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔土地の表示登記の申請・添付情報〕【不登法】土地の合筆の登記を申請する場合には、所有権の登記名義人が登記識別情報を提供することができないときに提供する資格者代理人が作成した本人確認情報は、作成後3か月以内のものでなければならない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H28-Q06",
+     "note_path": "note-articles/h28-mondai/q06-tochihyouji-shinseijouhou.md"
+    }
+   ]
+  },
+  {
+   "id": "D1242",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔電子申請（電子署名・添付情報）〕【不登令】表示に関する登記の電子申請において、申請人又はその代表者若しくは代理人は、申請情報に電子署名を行わなければならない。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H29-Q08",
+     "note_path": "note-articles/h29-mondai/q08-denshi-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1246",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔電子申請（電子署名・添付情報）〕【不登令】電子申請の方法により申請をする場合において、書面に記載された情報を電磁的記録に記録したものを添付情報とするときは、申請人等は、当該書面を登記官に提示する必要はない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H29-Q08",
+     "note_path": "note-articles/h29-mondai/q08-denshi-shinsei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1463",
+   "subject": "不動産登記法",
+   "topic": "申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報）",
+   "statement": "〔一の申請情報により申請することができる登記〕甲土地及び乙土地の表題部所有者であるＡは、甲土地の表題部所有者の氏名についての変更の登記と、乙土地を甲土地に合筆する合筆の登記を、一の申請情報によって申請することができない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R01-Q11",
+     "note_path": "note-articles/r1-mondai/q11-ichi-no-shinsei.md"
+    }
+   ]
+  }
+ ]
+}

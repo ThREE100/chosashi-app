@@ -1,0 +1,55 @@
+{
+ "slug": "c01-chousashikai-shikaku",
+ "subject": "土地家屋調査士法",
+ "topic": "調査士会・資格・その他",
+ "items": [
+  {
+   "id": "D1712",
+   "subject": "土地家屋調査士法",
+   "topic": "調査士会・資格・その他",
+   "statement": "〔土地家屋調査士又は土地家屋調査士法人〕土地家屋調査士法人は、正当な事由がある場合でなければ、不動産の表示に関する登記の申請手続の代理の依頼を拒むことはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 7,
+   "cons": 3,
+   "n": 10,
+   "miscon": 7,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 7
+   },
+   "history": "✗✗✗✗✗✗✗○○○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "R03-Q20",
+     "note_path": "note-articles/r3-mondai/q20-chousashihou.md"
+    }
+   ]
+  },
+  {
+   "id": "D0805",
+   "subject": "土地家屋調査士法",
+   "topic": "調査士会・資格・その他",
+   "statement": "〔土地家屋調査士会の会則・指導監督〕土地家屋調査士会は、入会金に関する規定を会則に記載しなければならず、入会金に関する会則の規定を定め、又は変更するには、法務大臣の認可を受けなければならない。",
+   "truth": true,
+   "cls": "check",
+   "W": 3,
+   "cons": 3,
+   "n": 8,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 3
+   },
+   "history": "✗✗○○✗○○○",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H24-Q20",
+     "note_path": "note-articles/h24-mondai/q20-chousashikai.md"
+    }
+   ]
+  }
+ ]
+}

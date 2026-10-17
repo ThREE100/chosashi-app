@@ -1,0 +1,513 @@
+{
+ "slug": "f06-chizu-sokuryozu",
+ "subject": "不動産登記法",
+ "topic": "土地の滅失・地図・地積測量図・土地所在図",
+ "items": [
+  {
+   "id": "D1058",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔地図の訂正〕一筆の土地についてする地図に表示された土地の区画の訂正の申出及び地番の訂正の申出は，一の申出情報によってすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 4,
+   "cons": 0,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 2,
+   "wrong_dir": {
+    "誤った記述を〇": 2,
+    "不明(?)": 2
+   },
+   "history": "✗？？✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H27-Q10",
+     "note_path": "note-articles/h27-mondai/q10-chizu-teisei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0363",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔土地所在図・地積測量図・地役権図面〕【不登規則】市街地の分筆の登記の申請をする場合において、乙１精度の地図が備え付けられているときであっても、甲２精度で地積測量図を作成すべきである(書面申請)。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗○✗✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "H20-Q11",
+     "note_path": "note-articles/h20-mondai/q11-zumen-sakusei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0473",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔地図等の訂正〕土地の登記記録の地積に錯誤があり、当該土地の地積測量図に誤りがある場合において、地積に関する更正の登記の申請をするときは、この申請と併せて地積測量図の訂正の申出をしなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗○✗✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H21-Q13",
+     "note_path": "note-articles/h21-mondai/q13-chizu-teisei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0939",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "乙土地について合筆の登記が平成26年8月19日にされたことにより，平成18年3月15日にされた分筆の登記において登記所に備え付けられた地積測量図は閉鎖される。",
+   "truth": false,
+   "cls": "must",
+   "W": 3,
+   "cons": 0,
+   "n": 4,
+   "miscon": 3,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 3
+   },
+   "history": "✗○✗✗",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H26-Q06",
+     "note_path": "note-articles/h26-mondai/q06-chisekisokuryouzu-heisa.md"
+    }
+   ]
+  },
+  {
+   "id": "D0190",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔地図・建物所在図〕【不登法】地図に表示された土地の地番に誤りがある場合において、当該土地が所有権の登記がある土地であるときは、当該土地の所有権の登記名義人又はその相続人その他の一般承継人は、その訂正の申出をすることができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "4",
+     "q": "H18-Q17",
+     "note_path": "note-articles/h18-mondai/q17-chizu-tatemono-shozaizu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0488",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔公図の沿革と地図に準ずる図面〕【公図の沿革】更正図等の正本は、土地台帳附属地図として「市町村役場」に保管されることとなった。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 3,
+   "miscon": 1,
+   "unknown": 1,
+   "wrong_dir": {
+    "誤った記述を〇": 1,
+    "不明(?)": 1
+   },
+   "history": "✗？○",
+   "sources": [
+    {
+     "label": "③",
+     "q": "H21-Q16",
+     "note_path": "note-articles/h21-mondai/q16-kouzu-rekishi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0940",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "甲土地及び乙土地が相互に接続している場合であっても，甲土地を乙土地に合筆する合筆の登記を申請することはできない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 1,
+   "n": 4,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗○✗○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H26-Q06",
+     "note_path": "note-articles/h26-mondai/q06-chisekisokuryouzu-heisa.md"
+    }
+   ]
+  },
+  {
+   "id": "D2019",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔地図の訂正〕地図に表示された土地の区画に誤りがある場合には、登記官は、当該土地の表題部所有者又は所有権の登記名義人からの地図訂正の申出がなくても、職権でその訂正をすることができる。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 3,
+   "miscon": 2,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 2
+   },
+   "history": "✗○✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R07-Q04",
+     "note_path": "note-articles/r7-mondai/q04-chizu-teisei.md"
+    }
+   ]
+  },
+  {
+   "id": "D0487",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔公図の沿革と地図に準ずる図面〕【公図の沿革】地租改正の際に作成された図面は、「改租図」である。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "②",
+     "q": "H21-Q16",
+     "note_path": "note-articles/h21-mondai/q16-kouzu-rekishi.md"
+    }
+   ]
+  },
+  {
+   "id": "D0732",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "電磁的記録に記録する地図には、各筆界点の座標値が記録される。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H24-Q05",
+     "note_path": "note-articles/h24-mondai/q05-chizu.md"
+    }
+   ]
+  },
+  {
+   "id": "D0752",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "土地の地積測量図の求積方法に誤りがあり、当該土地の登記記録の地積と正しい地積とが異なる場合には、地積測量図の訂正の申出をすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H24-Q09",
+     "note_path": "note-articles/h24-mondai/q09-chisekisokuryouzu-teisei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1059",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "書面による地図の訂正の申出をするときは，その申出書に記名押印した申出者の印鑑に関する証明書を添付しなければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H27-Q10",
+     "note_path": "note-articles/h27-mondai/q10-chizu-teisei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1265",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔地図等の訂正〕地図に表示された土地の区画に誤りがある場合に，当該土地の所有権を売買により取得した者は，所有権の移転の登記を受ける前であっても，当該土地の区画の誤りの訂正の申出をすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H29-Q12",
+     "note_path": "note-articles/h29-mondai/q12-chizu-teisei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1495",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "土地の所有権の登記名義人と隣接地の所有権の登記名義人との間で両土地の地番を付け替える旨の合意をしたときは、当該土地の所有権の登記名義人は、地図に準ずる図面に表示された土地の地番に誤りがあるとして、地図等の訂正の申出をすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "R01-Q17",
+     "note_path": "note-articles/r1-mondai/q17-chizu-teisei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1931",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔地図等〕地図に表示された隣接する2筆の土地の区画に誤りがあることによる地図の訂正の申出をする場合において、当該2筆の土地が同一の登記所の管轄区域内にあるときは、一の地図訂正申出情報により申出をすることができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R06-Q06",
+     "note_path": "note-articles/r6-mondai/q06-chizu-teisei.md"
+    }
+   ]
+  },
+  {
+   "id": "D1953",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "承役地についてする地役権の登記がある甲土地に地役権図面が備え付けられている場合において、新たな地役権図面を添付情報として提供して甲土地から乙土地を分筆する分筆の登記を申請し、当該登記がされたときは、従前の地役権図面は、閉鎖される。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R06-Q10",
+     "note_path": "note-articles/r6-mondai/q10-chiekiken-zumen.md"
+    }
+   ]
+  },
+  {
+   "id": "D2044",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "書面を提出する方法により地積に関する更正の登記を申請した場合に、作成者が署名した地積測量図には、その作成者の押印は要しない。",
+   "truth": true,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "R07-Q09",
+     "note_path": "note-articles/r7-mondai/q09-chisekisokuryouzu.md"
+    }
+   ]
+  },
+  {
+   "id": "D2046",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "分筆の登記を申請する際に添付する地積測量図には、分筆前の土地が広大であって、分筆後の土地の一方がわずかであるときは、地積の記録を便宜省略することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "R07-Q09",
+     "note_path": "note-articles/r7-mondai/q09-chisekisokuryouzu.md"
+    }
+   ]
+  },
+  {
+   "id": "D1159",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔地積測量図・地役権図面〕【不登規則】地積測量図に、基本三角点等に基づく測量の成果による筆界点の座標値を記録した場合には、方位を記録することを要しない。",
+   "truth": false,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H28-Q11",
+     "note_path": "note-articles/h28-mondai/q11-chisekisokuryouzu-chiekikenzumen.md"
+    }
+   ]
+  },
+  {
+   "id": "D1268",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔土地の登記原因と登記の目的の対応〕【不登法】天災等の自然現象によって一筆の土地の一部が常時海面下に没する状態になった場合に申請する登記の目的は、地積に関する変更の登記である。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H29-Q13",
+     "note_path": "note-articles/h29-mondai/q13-tochi-hyouji-touki.md"
+    }
+   ]
+  },
+  {
+   "id": "D1270",
+   "subject": "不動産登記法",
+   "topic": "土地の滅失・地図・地積測量図・土地所在図",
+   "statement": "〔土地の登記原因と登記の目的の対応〕【不登法】一筆の土地の全部が河川法第6条第1項の河川区域内の土地になった場合に嘱託する登記の目的は、河川区域内の土地である旨の登記である。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？○",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H29-Q13",
+     "note_path": "note-articles/h29-mondai/q13-tochi-hyouji-touki.md"
+    }
+   ]
+  }
+ ]
+}

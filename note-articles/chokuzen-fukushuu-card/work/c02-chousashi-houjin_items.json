@@ -1,0 +1,32 @@
+{
+ "slug": "c02-chousashi-houjin",
+ "subject": "土地家屋調査士法",
+ "topic": "調査士法人",
+ "items": [
+  {
+   "id": "D2096",
+   "subject": "土地家屋調査士法",
+   "topic": "調査士法人",
+   "statement": "〔土地家屋調査士又は土地家屋調査士法人〕土地家屋調査士法人は、定款を変更したときは、法定の期間内に、変更に係る事項を、主たる事務所の所在地を管轄する法務局又は地方法務局に届け出なければならない。",
+   "truth": false,
+   "cls": "must",
+   "W": 6,
+   "cons": 0,
+   "n": 9,
+   "miscon": 5,
+   "unknown": 1,
+   "wrong_dir": {
+    "誤った記述を〇": 5,
+    "不明(?)": 1
+   },
+   "history": "✗✗✗？✗○○○✗",
+   "sources": [
+    {
+     "label": "ア",
+     "q": "R07-Q20",
+     "note_path": "note-articles/r7-mondai/q20-chousashihou.md"
+    }
+   ]
+  }
+ ]
+}

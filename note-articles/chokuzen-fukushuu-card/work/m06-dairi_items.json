@@ -1,0 +1,151 @@
+{
+ "slug": "m06-dairi",
+ "subject": "民法",
+ "topic": "代理",
+ "items": [
+  {
+   "id": "D0512",
+   "subject": "民法",
+   "topic": "代理",
+   "statement": "【判例】ＣがＢに対し甲不動産の引渡しを求めたところ、ＢがＡの無権代理行為の追認を拒絶した後Ｂが死亡してその地位をＡが単独で相続した場合には、Ａは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされても、Ｂの上記追認拒絶の効果を主張してＣの請求を拒むことができない。",
+   "truth": false,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 2,
+   "wrong_dir": {
+    "不明(?)": 2
+   },
+   "history": "？？",
+   "sources": [
+    {
+     "label": "イ",
+     "q": "H22-Q01",
+     "note_path": "note-articles/h22-mondai/q01-muken-dairi-souzoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0514",
+   "subject": "民法",
+   "topic": "代理",
+   "statement": "【判例】ＣがＢに対し甲不動産の引渡しを求めたところ、Ｂが死亡してその地位をＡが単独で相続した場合には、Ａは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされたときは、無権代理行為の追認を拒絶してＣの請求を拒むことができない。",
+   "truth": true,
+   "cls": "must",
+   "W": 2,
+   "cons": 0,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 2,
+   "wrong_dir": {
+    "不明(?)": 2
+   },
+   "history": "？？",
+   "sources": [
+    {
+     "label": "エ",
+     "q": "H22-Q01",
+     "note_path": "note-articles/h22-mondai/q01-muken-dairi-souzoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0103",
+   "subject": "民法",
+   "topic": "代理",
+   "statement": "〔代理をめぐる判例の趣旨〕【判例】AがBの代理人であることを示さずに、B本人であると名乗って売買契約を締結した場合、AをB本人であると過失なく信じたCは、本件契約を取り消すことができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "誤った記述を〇": 1
+   },
+   "history": "✗",
+   "sources": [
+    {
+     "label": "2",
+     "q": "H18-Q01",
+     "note_path": "note-articles/h18-mondai/q01-dairiken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0105",
+   "subject": "民法",
+   "topic": "代理",
+   "statement": "〔代理をめぐる判例の趣旨〕【判例】Aが甲土地の代金を着服する意図を持ってBの代理人として売買契約を締結し、その代金を自ら費消した場合、Bは、CがAの意図を契約締結時に過失なく知らなかったとしても、Cに対し、本件契約の無効を主張することができる。",
+   "truth": false,
+   "cls": "must",
+   "W": 1,
+   "cons": 0,
+   "n": 1,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？",
+   "sources": [
+    {
+     "label": "4",
+     "q": "H18-Q01",
+     "note_path": "note-articles/h18-mondai/q01-dairiken.md"
+    }
+   ]
+  },
+  {
+   "id": "D0513",
+   "subject": "民法",
+   "topic": "代理",
+   "statement": "【判例】ＣがＢに対し甲不動産の引渡しを求めたところ、Ｂが死亡してその地位をＡが他の相続人とともに共同で相続した場合には、Ａは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされたときは、他の相続人とともに無権代理行為の追認を拒絶してＣの請求を拒むことができる。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 1,
+   "unknown": 0,
+   "wrong_dir": {
+    "正しい記述を×": 1
+   },
+   "history": "✗○",
+   "sources": [
+    {
+     "label": "ウ",
+     "q": "H22-Q01",
+     "note_path": "note-articles/h22-mondai/q01-muken-dairi-souzoku.md"
+    }
+   ]
+  },
+  {
+   "id": "D0515",
+   "subject": "民法",
+   "topic": "代理",
+   "statement": "【判例】ＣがＢに対し甲不動産の引渡しを求めたところ、Ａが死亡してその地位をＢ及びＡＢ間の子Ｄが共同で相続した後Ｂが死亡してその地位をＤが単独で相続した場合には、Ｄは、Ｃから当該売買契約に基づく甲不動産の引渡請求をされたときは、無権代理行為の追認を拒絶してＣの請求を拒むことができない。",
+   "truth": true,
+   "cls": "check",
+   "W": 1,
+   "cons": 1,
+   "n": 2,
+   "miscon": 0,
+   "unknown": 1,
+   "wrong_dir": {
+    "不明(?)": 1
+   },
+   "history": "？○",
+   "sources": [
+    {
+     "label": "オ",
+     "q": "H22-Q01",
+     "note_path": "note-articles/h22-mondai/q01-muken-dairi-souzoku.md"
+    }
+   ]
+  }
+ ]
+}
