@@ -8,7 +8,7 @@
 |---|---|---|---|---|---|
 | 不動産登記法／申請総論（申請情報・添付情報・代理・却下取下・還付・電子申請・登記識別情報） | 73 | 5 | 78 | [f01-shinsei-souron.md](f01-shinsei-souron.md) | 18枚（14グループ） |
 | 不動産登記法／建物の分割・合併・合体・滅失・変更 | 59 | 3 | 62 | [f02-tatemono-bunkatsu-gappei.md](f02-tatemono-bunkatsu-gappei.md) | 21枚（11グループ） |
-| 不動産登記法／区分建物・敷地権・共用部分 | 54 | 0 | 54 | [f03-kubun-tatemono.md](f03-kubun-tatemono.md) | 既存教材を参照 |
+| 不動産登記法／区分建物・敷地権・共用部分 | 54 | 0 | 54 | [f03-kubun-tatemono.md](f03-kubun-tatemono.md) | 18枚（11グループ） |
 | 不動産登記法／土地の分筆・合筆・地積更正 | 39 | 5 | 44 | [f04-tochi-bunpitsu-gappitsu.md](f04-tochi-bunpitsu-gappitsu.md) | 15枚（9グループ） |
 | 不動産登記法／建物の認定・個数・種類構造床面積 | 28 | 3 | 31 | [f05-tatemono-nintei.md](f05-tatemono-nintei.md) | 9枚（7グループ） |
 | 不動産登記法／土地の滅失・地図・地積測量図・土地所在図 | 18 | 3 | 21 | [f06-chizu-sokuryozu.md](f06-chizu-sokuryozu.md) | 7枚（5グループ） |
