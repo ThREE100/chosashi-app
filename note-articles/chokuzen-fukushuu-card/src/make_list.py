@@ -27,7 +27,11 @@ def kubun_parts():
         ids = [i["id"] for i in json.loads(pathlib.Path(f).read_text(encoding="utf8"))["items"]]
         pf = KUBUN / "parts" / f"part{n}.py"
         spec = importlib.util.spec_from_file_location(f"kp{n}", pf); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
-        res[n] = dict(title=m.P["title"], slug=m.P["slug"], ids=set(ids))
+        fig = {}
+        for k, sc in enumerate(m.P["scenes"], 1):
+            got = {i for pr in sc.get("pairs", []) for i in pr.get("ids", [])} | set(re.findall(r"D\d{4}", sc.get("memo", "")))
+            for i in sorted(got): fig.setdefault(i, []).append((k, sc["title"]))
+        res[n] = dict(title=m.P["title"], slug=m.P["slug"], ids=set(ids), fig=fig)
     return res
 
 def make_ref_f03():
@@ -42,7 +46,11 @@ def make_ref_f03():
         used |= set(ids)
         L += [f"## 第{n}回：{p['title']}（{len(ids)}肢）", "",
               f"- 記事：`note-articles/joubun-nigate/kubun-tatemono-hani/{n:02d}-{p['slug']}.md`　図解プロンプト：`{n:02d}-{p['slug']}_prompts.md`", ""]
-        for iid in ids: L += [B.item_line(items[iid]), ""]
+        for iid in ids:
+            ln = B.item_line(items[iid])
+            fg = p["fig"].get(iid)
+            if fg: ln += "\n  - 対応する図解：" + "、".join(f"図解{k}「{ttl}」" for k, ttl in fg) + f"（`{n:02d}-{p['slug']}_prompts.md`）"
+            L += [ln, ""]
     rest = [i for i in items if i not in used]
     if rest:
         L += ["## 既存シリーズにない肢", ""] + [B.item_line(items[i]) + "\n" for i in rest]
