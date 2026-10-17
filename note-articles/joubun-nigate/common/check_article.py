@@ -34,13 +34,18 @@ for qd in cfg["law_quotes"]:
         chk(items and not miss, f"{lname}{qd['article']}の原文（{len(items)}項）が laws/ と一致", f"{lname}{qd['article']}の原文が laws/ と一致しない: {len(miss)}項")
         if cap and cap not in note: NG(f"{lname}{qd['article']}の見出し {cap} が記事にない")
         continue
+    if qd["kind"] == "verbatim":
+        src = (ROOT / "note-articles/laws" / qd["file"]).read_text(encoding="utf8")
+        miss = [l for l in qd["lines"] if l not in src or ("> " + l) not in note]
+        chk(not miss, f"{qd['file']}の引用（{len(qd['lines'])}行）が laws/ と一致", f"{qd['file']}の引用が laws/ と一致しない: {len(miss)}行 {miss[:1]}")
+        continue
     b = block(qd["head"])
     if qd["kind"] == "fudo_item":
         line = next(l for l in b.split("\n") if l.startswith(qd["prefix"]))
         chk(("> " + line) in note, f"{qd['head']}の{qd['prefix']}の原文が laws/ と一致", f"{qd['head']}の{qd['prefix']}の原文が laws/ と一致しない")
         continue
     if qd["kind"] == "first_paragraph":
-        t = b.split("\n\n")[1].strip(); chk(("> " + t) in note, f"{qd['head']}の原文が laws/ と一致", f"{qd['head']}の原文が laws/ と一致しない")
+        t = b.split("\n\n")[1].split("\n- ")[0].strip(); chk(("> " + t) in note, f"{qd['head']}の原文が laws/ と一致", f"{qd['head']}の原文が laws/ と一致しない")
     else:
         items = [l for l in b.split("\n") if l.startswith("- ")]
         miss = [l for l in items if ("> " + l) not in note]

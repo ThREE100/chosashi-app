@@ -1,0 +1,26 @@
+{
+ "note": "note_art054-1-3.md",
+ "infographic": "prompt_infographic_art054-1-3.md",
+ "midashi": "prompt_midashi_art054-1-3.md",
+ "fourkoma": [],
+ "n_infographic": 5,
+ "law_quotes": [
+  {"head": "##### 第54条（建物の分割、区分又は合併の登記）", "kind": "first_paragraph"},
+  {"head": "##### 第54条（建物の分割、区分又は合併の登記）", "kind": "list_items"},
+  {"head": "##### 第56条（建物の合併の登記の制限）", "kind": "first_paragraph"},
+  {"head": "##### 第56条（建物の合併の登記の制限）", "kind": "list_items"},
+  {"kind": "verbatim", "file": "fudousan-touki-jimu-junsoku.md", "lines": [
+   "法第５４条第１項第３号の建物の合併の登記は、次に掲げる場合には、することができない。",
+   "(1) 附属合併にあっては、合併しようとする建物が主たる建物と附属建物の関係にないとき。",
+   "(2) 区分合併にあっては、区分された建物が互いに接続していないとき。"]}
+ ],
+ "table_rows": {"2": 5, "4": 6},
+ "flows": [{"image": 3, "diamonds": 4, "results": 5}],
+ "midashi_texts": [
+  "区分合併と附属合併",
+  "どちらを選ぶ？",
+  "苦手克服　不動産登記法　建物の合併"
+ ],
+ "midashi_digit_fix": true,
+ "note_required": ["部品1", "部品5", "ポイント1", "ポイント4", "確認事項", "54条1項3号", "準則86条"]
+}
