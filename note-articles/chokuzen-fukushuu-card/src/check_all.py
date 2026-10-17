@@ -55,13 +55,15 @@ for slug in slugs:
             labs = list(cd["state"].get("labels", []))
             if len(labs) != len(set(labs)): NG(f"{tg}：stateのラベルが重複")
             for p in cd["pairs"]:
-                tr = [truth[i] for i in p["ids"] if i in truth]
-                if not tr: NG(f"{tg}：pairの肢が論点にない {p['ids']}")
-                elif len(set(tr)) != 1: NG(f"{tg}：pairに正しい肢と誤った肢が混在 {p['ids']}")
-                elif (p["stmt"] == "right") != tr[0]: NG(f"{tg}：pair {p['ids']} の stmt が正誤と食い違う")
-                for side in ("right", "wrong"):
-                    l2 = p[side].get("labels", [])
-                    if len(l2) != len(set(l2)): NG(f"{tg}：{side} のラベル重複")
+                if not [i for i in p["ids"] if i in truth]: NG(f"{tg}：pairの肢が論点にない {p['ids']}")
+                if "wrong" in p or "stmt" in p: NG(f"{tg}：pair {p['ids']} に wrong／stmt が残っている（正解だけを描く形に改めた）")
+                if not p.get("pitfall"): NG(f"{tg}：pair {p['ids']} に pitfall（間違えやすいポイント）がない")
+                elif len(p["pitfall"]) > 52: NG(f"{tg}：pair {p['ids']} の pitfall が52字超（{len(p['pitfall'])}字）")
+                if len(p["claim"]) > 36: NG(f"{tg}：pair {p['ids']} の claim が36字超：{p['claim']}")
+                if "誤" in p["claim"] or "誤" in p["right"]["tag"]: NG(f"{tg}：pair {p['ids']} の見出し（claim／tag）に『誤』がある。正しい内容を言い切る")
+                if p["claim"].endswith(("？", "?")): NG(f"{tg}：pair {p['ids']} の claim が疑問形。正しい内容を言い切る文にする")
+                l2 = p["right"].get("labels", [])
+                if len(l2) != len(set(l2)): NG(f"{tg}：right のラベル重複")
         elif cd["kind"] == "table":
             if not 2 <= len(cd["cols"]) <= 4 or not 2 <= len(cd["rows"]) <= 8: NG(f"{tg}：表の大きさが範囲外")
             for r in cd["rows"]:

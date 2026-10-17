@@ -44,10 +44,9 @@ P = dict(
                 kind="pairs", memo="合筆の登記を抹消するときの税額のイメージ。",
                 t1="合筆の抹消は", t2="税金がかからない", sub="表題部の登記の抹消",
                 state=dict(draw="Isometric illustration of three adjacent land plots merged into one plot with a rubber stamp on a registry ledger page, and next to it the same ledger page with a thin dark cancellation line drawn through the stamp. A faceless person pictogram holds a small calculator.", labels=["合筆", "抹消"]),
-                pairs=[dict(ids=["D2093"], claim="合筆の抹消にも3,000円かかる？",
+                pairs=[dict(ids=["D2093"], claim="合筆の登記の抹消には税金がかからない",
                             right=dict(draw="Isometric view of the cancelled ledger page next to a small cash register whose drawer is closed and empty; a blue circle mark floats above the register.", labels=["課税範囲外"], tag="税額はゼロ"),
-                            wrong=dict(draw="Isometric view of the cancelled ledger page with three coins marked 1,000 stacked on a cash register tray, as if the amount were being charged.", labels=["3,000円"], tag="数え間違い"),
-                            stmt="wrong")])],
+                            pitfall="3,000円かかると思いがちですが、実際は表題部の登記の抹消なので課税されません")])],
         ),
     ],
 )
