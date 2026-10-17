@@ -31,10 +31,9 @@ P = dict(
                 kind="pairs", memo="10年の短期取得時効で、推定される要素と推定されない要素を確かめるカード。",
                 t1="無過失だけは", t2="推定されない", sub="短期取得時効の立証",
                 state=dict(draw="Isometric illustration of a faceless person pictogram standing on a land plot with a small house, holding a checklist of four boxes. A calendar showing ten pages is placed beside the plot.", labels=["占有者", "10年"]),
-                pairs=[dict(ids=["D1521"], claim="無過失も推定される？",
+                pairs=[dict(ids=["D1521"], claim="短期取得時効で無過失は推定されない",
                             right=dict(draw="Isometric view of the checklist where four boxes are pre-checked automatically and one extra box labeled no-fault is left empty for the person to fill in with documents, with a blue circle mark.", labels=["無過失は立証"], tag="自分で証明"),
-                            wrong=dict(draw="Isometric view of the checklist where all five boxes are pre-checked automatically, with a red cross mark.", labels=["全て推定"], tag="推定の範囲の誤り"),
-                            stmt="right")])],
+                            pitfall="無過失まで推定されると思いがちですが、実際は時効を主張する側が立証します")])],
         ),
         dict(
             title="時効の更新・猶予・援用",

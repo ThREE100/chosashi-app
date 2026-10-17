@@ -36,9 +36,9 @@ Final check before rendering: scan every kanji glyph and confirm it is standard 
 所有者の返還請求について、登記の要否・相手方・請求の時期を確かめるカード。
 
 ```text
-Create a Japanese-language infographic, portrait layout, 1080x2700 pixels, clean flat-design isometric illustration style with soft pastel colors (light blue, cream, beige, gray), rounded card sections, in the same explainer-graphic style as the other posters of this series (icons: isometric houses, registry ledgers, calendars, rubber stamps, document sheets). This is a scene-illustration poster: it first draws the situation described in a question (the state), then shows the correct picture and the mistaken picture side by side. It is NOT a text-heavy document.
-GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro paragraph and no prose anywhere. Every panel communicates through the isometric illustration plus short labels placed directly on or beside the objects. Do NOT render any full-sentence explanation, legal citation, or paragraph of body text. Do not draw any person with a face; use faceless simple pictograms when a person is needed.
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only: hiragana, katakana, and Jōyō (regular Japanese) kanji, plus Arabic numerals and the symbols 「」（）・：／ as written below. Do NOT use Simplified Chinese characters and do NOT use Traditional Chinese characters, even where a glyph looks close to the correct Japanese kanji; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script (no Korean Hangul, no Latin words) and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, shorten, translate, reorder, or substitute any characters, and do not add any text that is not listed.
+Create a Japanese-language infographic, portrait layout, 1080x2460 pixels, clean flat-design isometric illustration style with soft pastel colors (light blue, cream, beige, gray), rounded card sections, in the same explainer-graphic style as the other posters of this series (icons: isometric houses, registry ledgers, calendars, rubber stamps, document sheets). This is a scene-illustration poster: it first draws the situation described in a question (the state), then shows only the correct picture for each point, with a short text note about a common pitfall under each correct picture. It is NOT a text-heavy document.
+GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro paragraph and no prose anywhere except the one short pitfall note under each correct picture. Every panel communicates through the isometric illustration plus short labels placed directly on or beside the objects. Do NOT render any full-sentence explanation or legal citation. Do not draw any person with a face; use faceless simple pictograms when a person is needed. Draw ONLY correct pictures: never draw a mistaken picture, a crossed-out picture, or a side-by-side correct/incorrect comparison.
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only: hiragana, katakana, and Jōyō (regular Japanese) kanji, plus Arabic numerals and the symbols 「」（）・：／ as written below. Do NOT use Simplified Chinese characters and do NOT use Traditional Chinese characters, even where a glyph looks close to the correct Japanese kanji; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script (no Korean Hangul, no Latin words; the only exception is the single capital letters A, B and C, which may appear exactly where they are written in the strings below as names of persons or buildings) and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, shorten, translate, reorder, or substitute any characters, and do not add any text that is not listed.
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin outside the cards, with a solid pale beige background. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 COLOR RULE: affirmative labels and the YES branch (arrows, labels, and result boxes of any flowchart) are BLUE. Negative labels and the NO branch (arrows, labels, and result boxes of any flowchart) are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, badges, and headings, and a pale yellow highlighter only for strings marked as emphasized.
 --- HEADER ---
@@ -53,41 +53,29 @@ Section label (navy pill at the top-left of the frame):
 Illustration: Isometric illustration of a vacant land plot with a small house. A faceless blue person pictogram holding a sales contract stands at the entrance. A faceless gray person pictogram sits inside the house, and another faceless gray person pictogram stands behind with a key ring, as the one who rented the house out to the person inside. A registry ledger on the side still shows the former owner's name.
 Short labels placed on the objects, each exactly once: 「買主」, 「居座る人」, 「貸した人」.
 Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.
---- SECTION 2: CLAIM 1 (full-width row) ---
-A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「登記がなくても請求できる？」
-Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the buyer pictogram pointing at the occupant while the ledger still shows the former owner, with a blue circle mark floating above.
-Short labels on the left panel, each exactly once: 「登記なしで請求」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「不法占有者には可」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of the buyer pictogram stopped by a closed gate labeled with the ledger, unable to approach the occupant, with a red cross mark floating above.
-Short labels on the right panel, each exactly once: 「登記待ち」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「登記と混同」
-Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
---- SECTION 3: CLAIM 2 (full-width row) ---
-A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「貸した人にも請求できる？」
-Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the buyer pictogram with arrows pointing both to the occupant inside the house and to the person who rented it out, with a blue circle mark.
-Short labels on the left panel, each exactly once: 「貸主にも請求」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「間接占有も相手方」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of the buyer pictogram with an arrow pointing only to the occupant inside the house, while the person who rented it out is crossed out with a red cross mark.
-Short labels on the right panel, each exactly once: 「住む人だけ」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「相手が狭すぎ」
-Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
---- SECTION 4: CLAIM 3 (full-width row) ---
-A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「契約後すぐ引渡しを求められる？」
-Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of a signed sales contract with a stamp, and a key handed over right away along a short arrow, with a blue circle mark.
-Short labels on the left panel, each exactly once: 「契約時に移転」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「特約なしは即移転」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of a long arrow with a calendar page and a waiting clock between a signed contract and a key, with a red cross mark.
-Short labels on the right panel, each exactly once: 「待たされる」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「時期の誤解」
-Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
+--- SECTION 2: POINT 1 (full-width row) ---
+A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:
+「不法占有者には登記なしで返還請求できる」
+Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the buyer pictogram pointing at the occupant while the ledger still shows the former owner, with a blue circle mark floating above.
+Short labels on the panel, each exactly once: 「登記なしで請求」.
+Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): 「不法占有者には可」
+Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading 「間違えやすいポイント」 followed by this text exactly: 「登記がないと負けると思いがちですが、実際は不法占有者に登記は要りません」. The note is plain text only, with no illustration and no cross mark.
+--- SECTION 3: POINT 2 (full-width row) ---
+A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:
+「貸している人にも返還請求できる」
+Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the buyer pictogram with arrows pointing both to the occupant inside the house and to the person who rented it out, with a blue circle mark.
+Short labels on the panel, each exactly once: 「貸主にも請求」.
+Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): 「間接占有も相手方」
+Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading 「間違えやすいポイント」 followed by this text exactly: 「住んでいる人だけが相手と思いがちですが、実際は貸した人にも請求できます」. The note is plain text only, with no illustration and no cross mark.
+--- SECTION 4: POINT 3 (full-width row) ---
+A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:
+「特約がなければ契約と同時に所有権が移る」
+Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of a signed sales contract with a stamp, and a key handed over right away along a short arrow, with a blue circle mark.
+Short labels on the panel, each exactly once: 「契約時に移転」.
+Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): 「特約なしは即移転」
+Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading 「間違えやすいポイント」 followed by this text exactly: 「登記や引渡しまで移らないと思いがちですが、実際は契約と同時に移ります」. The note is plain text only, with no illustration and no cross mark.
 --- FOOTER ---
-Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 占, 所, 渡, 登, 解, 記, 請, 買, 還, 間; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 3 claim row(s), each with a blue left panel and a red right panel, with no duplicated or missing panels, confirm every label appears exactly once and reads exactly as given, confirm the 「出題文の内容」 tag appears exactly 3 time(s), and confirm that no panel contains a full sentence of explanatory prose. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 占, 所, 権, 渡, 登, 記, 請, 買, 違, 還, 間; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 3 point row(s), each with one blue correct panel and one gray pitfall note, with no duplicated or missing panels, confirm that the only Latin letters anywhere are the capital letters A, B and C exactly where they are written in the strings above, confirm that no mistaken picture, no red panel, and no side-by-side comparison is drawn anywhere, confirm every label appears exactly once and reads exactly as given, and confirm that no panel contains a full sentence of explanatory prose other than the single pitfall note under each correct picture. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## カード3：占有回収の訴えを／起こせる人（グループ3　占有の訴え：誰が・誰に・何を）
@@ -125,9 +113,9 @@ Final check before rendering: scan every kanji glyph and confirm it is standard 
 占有保全の訴え・奪った者が貸した場合・本権の主張について確かめるカード。
 
 ```text
-Create a Japanese-language infographic, portrait layout, 1080x2700 pixels, clean flat-design isometric illustration style with soft pastel colors (light blue, cream, beige, gray), rounded card sections, in the same explainer-graphic style as the other posters of this series (icons: isometric houses, registry ledgers, calendars, rubber stamps, document sheets). This is a scene-illustration poster: it first draws the situation described in a question (the state), then shows the correct picture and the mistaken picture side by side. It is NOT a text-heavy document.
-GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro paragraph and no prose anywhere. Every panel communicates through the isometric illustration plus short labels placed directly on or beside the objects. Do NOT render any full-sentence explanation, legal citation, or paragraph of body text. Do not draw any person with a face; use faceless simple pictograms when a person is needed.
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only: hiragana, katakana, and Jōyō (regular Japanese) kanji, plus Arabic numerals and the symbols 「」（）・：／ as written below. Do NOT use Simplified Chinese characters and do NOT use Traditional Chinese characters, even where a glyph looks close to the correct Japanese kanji; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script (no Korean Hangul, no Latin words) and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, shorten, translate, reorder, or substitute any characters, and do not add any text that is not listed.
+Create a Japanese-language infographic, portrait layout, 1080x2460 pixels, clean flat-design isometric illustration style with soft pastel colors (light blue, cream, beige, gray), rounded card sections, in the same explainer-graphic style as the other posters of this series (icons: isometric houses, registry ledgers, calendars, rubber stamps, document sheets). This is a scene-illustration poster: it first draws the situation described in a question (the state), then shows only the correct picture for each point, with a short text note about a common pitfall under each correct picture. It is NOT a text-heavy document.
+GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro paragraph and no prose anywhere except the one short pitfall note under each correct picture. Every panel communicates through the isometric illustration plus short labels placed directly on or beside the objects. Do NOT render any full-sentence explanation or legal citation. Do not draw any person with a face; use faceless simple pictograms when a person is needed. Draw ONLY correct pictures: never draw a mistaken picture, a crossed-out picture, or a side-by-side correct/incorrect comparison.
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only: hiragana, katakana, and Jōyō (regular Japanese) kanji, plus Arabic numerals and the symbols 「」（）・：／ as written below. Do NOT use Simplified Chinese characters and do NOT use Traditional Chinese characters, even where a glyph looks close to the correct Japanese kanji; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script (no Korean Hangul, no Latin words; the only exception is the single capital letters A, B and C, which may appear exactly where they are written in the strings below as names of persons or buildings) and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, shorten, translate, reorder, or substitute any characters, and do not add any text that is not listed.
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin outside the cards, with a solid pale beige background. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 COLOR RULE: affirmative labels and the YES branch (arrows, labels, and result boxes of any flowchart) are BLUE. Negative labels and the NO branch (arrows, labels, and result boxes of any flowchart) are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, badges, and headings, and a pale yellow highlighter only for strings marked as emphasized.
 --- HEADER ---
@@ -142,41 +130,29 @@ Section label (navy pill at the top-left of the frame):
 Illustration: Isometric illustration of an empty land plot with a small hut. A faceless blue person pictogram stands in front of the hut. On the other side of the land, a faceless gray person pictogram stands next to a heavy excavator, ready to pull down the hut. A small ledger page lies on the ground.
 Short labels placed on the objects, each exactly once: 「小屋の占有者」, 「所有者」, 「重機」.
 Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.
---- SECTION 2: CLAIM 1 (full-width row) ---
-A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「予防を請求できる？」
-Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the hut occupant pictogram holding up a stop shield in front of the excavator, with a blue circle mark.
-Short labels on the left panel, each exactly once: 「解体を止める」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「占有保全の訴え」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of the excavator rolling toward the hut while the occupant pictogram stands aside with empty hands, with a red cross mark.
-Short labels on the right panel, each exactly once: 「止められない」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「無権原と混同」
-Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
---- SECTION 3: CLAIM 2 (full-width row) ---
-A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「奪った者が貸したら？」
-Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the original holder pictogram with an arrow pointing to the person who took the building, who stands behind a tenant who now lives inside, with a blue circle mark.
-Short labels on the left panel, each exactly once: 「奪った本人へ請求」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「貸しても請求可」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of the original holder pictogram facing a closed door with a tenant inside and the taker no longer in the picture, with a red cross mark.
-Short labels on the right panel, each exactly once: 「請求できない」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「貸与の誤解」
-Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
---- SECTION 4: CLAIM 3 (full-width row) ---
-A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「所有権を理由に反論できる？」
-Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of two separate courtroom desks side by side, one for the possession case and one for the ownership case, with a blue circle mark.
-Short labels on the left panel, each exactly once: 「占有の訴え」, 「本権の訴え」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「別々に争う」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of an ownership certificate being pushed across into the possession case desk as a defense, with a red cross mark.
-Short labels on the right panel, each exactly once: 「所有権で反論」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「本権と混同」
-Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
+--- SECTION 2: POINT 1 (full-width row) ---
+A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:
+「無権原の占有者も占有保全の訴えができる」
+Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the hut occupant pictogram holding up a stop shield in front of the excavator, with a blue circle mark.
+Short labels on the panel, each exactly once: 「解体を止める」.
+Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): 「占有保全の訴え」
+Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading 「間違えやすいポイント」 followed by this text exactly: 「権利のない占有者は保護されないと思いがちですが、実際は解体の予防を請求できます」. The note is plain text only, with no illustration and no cross mark.
+--- SECTION 3: POINT 2 (full-width row) ---
+A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:
+「奪った者が貸しても本人に占有回収できる」
+Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the original holder pictogram with an arrow pointing to the person who took the building, who stands behind a tenant who now lives inside, with a blue circle mark.
+Short labels on the panel, each exactly once: 「奪った本人へ請求」.
+Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): 「貸しても請求可」
+Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading 「間違えやすいポイント」 followed by this text exactly: 「貸した後は請求できないと思いがちですが、実際は侵奪者本人に請求できます」. The note is plain text only, with no illustration and no cross mark.
+--- SECTION 4: POINT 3 (full-width row) ---
+A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:
+「占有の訴えと所有権の訴えは別に争う」
+Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of two separate courtroom desks side by side, one for the possession case and one for the ownership case, with a blue circle mark.
+Short labels on the panel, each exactly once: 「占有の訴え」, 「本権の訴え」.
+Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): 「別々に争う」
+Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading 「間違えやすいポイント」 followed by this text exactly: 「所有権で反論できると思いがちですが、実際は防御方法にできません」. The note is plain text only, with no illustration and no cross mark.
 --- FOOTER ---
-Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 保, 占, 所, 権, 無, 解, 請; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 3 claim row(s), each with a blue left panel and a red right panel, with no duplicated or missing panels, confirm every label appears exactly once and reads exactly as given, confirm the 「出題文の内容」 tag appears exactly 3 time(s), and confirm that no panel contains a full sentence of explanatory prose. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 保, 占, 所, 権, 無, 解, 請, 違, 間; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 3 point row(s), each with one blue correct panel and one gray pitfall note, with no duplicated or missing panels, confirm that the only Latin letters anywhere are the capital letters A, B and C exactly where they are written in the strings above, confirm that no mistaken picture, no red panel, and no side-by-side comparison is drawn anywhere, confirm every label appears exactly once and reads exactly as given, and confirm that no panel contains a full sentence of explanatory prose other than the single pitfall note under each correct picture. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## カード5：条文は起点と／主語で読む（グループ4　占有の細部と付合の償金）
@@ -213,9 +189,9 @@ Final check before rendering: scan every kanji glyph and confirm it is standard 
 分割・譲渡・競売で袋地ができたときの通行権の範囲を確かめるカード。
 
 ```text
-Create a Japanese-language infographic, portrait layout, 1080x2700 pixels, clean flat-design isometric illustration style with soft pastel colors (light blue, cream, beige, gray), rounded card sections, in the same explainer-graphic style as the other posters of this series (icons: isometric houses, registry ledgers, calendars, rubber stamps, document sheets). This is a scene-illustration poster: it first draws the situation described in a question (the state), then shows the correct picture and the mistaken picture side by side. It is NOT a text-heavy document.
-GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro paragraph and no prose anywhere. Every panel communicates through the isometric illustration plus short labels placed directly on or beside the objects. Do NOT render any full-sentence explanation, legal citation, or paragraph of body text. Do not draw any person with a face; use faceless simple pictograms when a person is needed.
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only: hiragana, katakana, and Jōyō (regular Japanese) kanji, plus Arabic numerals and the symbols 「」（）・：／ as written below. Do NOT use Simplified Chinese characters and do NOT use Traditional Chinese characters, even where a glyph looks close to the correct Japanese kanji; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script (no Korean Hangul, no Latin words) and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, shorten, translate, reorder, or substitute any characters, and do not add any text that is not listed.
+Create a Japanese-language infographic, portrait layout, 1080x2460 pixels, clean flat-design isometric illustration style with soft pastel colors (light blue, cream, beige, gray), rounded card sections, in the same explainer-graphic style as the other posters of this series (icons: isometric houses, registry ledgers, calendars, rubber stamps, document sheets). This is a scene-illustration poster: it first draws the situation described in a question (the state), then shows only the correct picture for each point, with a short text note about a common pitfall under each correct picture. It is NOT a text-heavy document.
+GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro paragraph and no prose anywhere except the one short pitfall note under each correct picture. Every panel communicates through the isometric illustration plus short labels placed directly on or beside the objects. Do NOT render any full-sentence explanation or legal citation. Do not draw any person with a face; use faceless simple pictograms when a person is needed. Draw ONLY correct pictures: never draw a mistaken picture, a crossed-out picture, or a side-by-side correct/incorrect comparison.
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only: hiragana, katakana, and Jōyō (regular Japanese) kanji, plus Arabic numerals and the symbols 「」（）・：／ as written below. Do NOT use Simplified Chinese characters and do NOT use Traditional Chinese characters, even where a glyph looks close to the correct Japanese kanji; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script (no Korean Hangul, no Latin words; the only exception is the single capital letters A, B and C, which may appear exactly where they are written in the strings below as names of persons or buildings) and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, shorten, translate, reorder, or substitute any characters, and do not add any text that is not listed.
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin outside the cards, with a solid pale beige background. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 COLOR RULE: affirmative labels and the YES branch (arrows, labels, and result boxes of any flowchart) are BLUE. Negative labels and the NO branch (arrows, labels, and result boxes of any flowchart) are RED. Use only these two colors for YES/NO meaning; use dark navy for neutral arrows, outlines, badges, and headings, and a pale yellow highlighter only for strings marked as emphasized.
 --- HEADER ---
@@ -230,39 +206,27 @@ Section label (navy pill at the top-left of the frame):
 Illustration: Isometric illustration of a land plot divided into two parts: the front part touching a public road and the back part, a landlocked parcel, with a faceless blue person pictogram standing on the back part. A separate third-party land plot lies beside them. A narrow public road runs along the front.
 Short labels placed on the objects, each exactly once: 「袋地」, 「分けた土地」, 「公道」, 「他人の土地」.
 Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.
---- SECTION 2: CLAIM 1 (full-width row) ---
-A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「譲渡した土地を通れる？」
-Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the blue pictogram walking across the front part that was sold, from the back part to the public road, with a blue circle mark.
-Short labels on the left panel, each exactly once: 「分けた土地を通る」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「通行できる」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of the blue pictogram stopped at the border of the front part that was sold, with a red cross mark on the border.
-Short labels on the right panel, each exactly once: 「通れない」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「通行権の誤解」
-Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
---- SECTION 3: CLAIM 2 (full-width row) ---
-A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「登記がないと主張できない？」
-Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the blue pictogram walking along the path while the registry ledger lies in a corner unopened, with a blue circle mark.
-Short labels on the left panel, each exactly once: 「登記は不要」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「当然に生じる」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of the blue pictogram blocked by a barrier with a registry ledger icon on it, with a red cross mark.
-Short labels on the right panel, each exactly once: 「登記が必要」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「登記と混同」
-Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
---- SECTION 4: CLAIM 3 (full-width row) ---
-A slim pale-yellow banner across the top of the row, with this claim text exactly:
-「競売で袋地ができたら？」
-Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of a gavel next to the front part that was bought at auction, with the blue pictogram passing through that same front part, and a blue circle mark.
-Short labels on the left panel, each exactly once: 「競売地を通る」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「分割に準じる」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: Isometric view of the blue pictogram cutting across the unrelated third-party land plot instead, with a red cross mark.
-Short labels on the right panel, each exactly once: 「他人の土地を通る」.
-Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「相手の誤り」
-Put a small dark navy tag reading 「出題文の内容」 on the top edge of the LEFT (blue) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
+--- SECTION 2: POINT 1 (full-width row) ---
+A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:
+「分けて譲渡した土地にも通行権を主張できる」
+Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the blue pictogram walking across the front part that was sold, from the back part to the public road, with a blue circle mark.
+Short labels on the panel, each exactly once: 「分けた土地を通る」.
+Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): 「通行できる」
+Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading 「間違えやすいポイント」 followed by this text exactly: 「譲渡した土地は通れないと思いがちですが、実際は通行権を主張できます」. The note is plain text only, with no illustration and no cross mark.
+--- SECTION 3: POINT 2 (full-width row) ---
+A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:
+「通行権の主張に登記は要らない」
+Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of the blue pictogram walking along the path while the registry ledger lies in a corner unopened, with a blue circle mark.
+Short labels on the panel, each exactly once: 「登記は不要」.
+Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): 「当然に生じる」
+Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading 「間違えやすいポイント」 followed by this text exactly: 「登記が必要と思いがちですが、実際は登記がなくても主張できます」. The note is plain text only, with no illustration and no cross mark.
+--- SECTION 4: POINT 3 (full-width row) ---
+A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:
+「競売で袋地ができても分割に準じる」
+Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): 「正しいイメージ」. Illustration: Isometric view of a gavel next to the front part that was bought at auction, with the blue pictogram passing through that same front part, and a blue circle mark.
+Short labels on the panel, each exactly once: 「競売地を通る」.
+Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): 「分割に準じる」
+Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading 「間違えやすいポイント」 followed by this text exactly: 「他人の土地を通ると思いがちですが、実際は競売で分かれた土地を通れます」. The note is plain text only, with no illustration and no cross mark.
 --- FOOTER ---
-Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 売, 張, 当, 権, 渡, 登, 解, 記, 譲; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 3 claim row(s), each with a blue left panel and a red right panel, with no duplicated or missing panels, confirm every label appears exactly once and reads exactly as given, confirm the 「出題文の内容」 tag appears exactly 3 time(s), and confirm that no panel contains a full sentence of explanatory prose. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: scan every kanji glyph and confirm it is standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 地, 売, 張, 当, 権, 渡, 登, 記, 譲, 違, 間; if any character renders as a Chinese variant, redraw it in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji (including Chinese-only characters, Korean Hangul, other non-Japanese script, or stray decorative glyphs) and remove or redraw it. Confirm the poster has exactly 1 state section followed by exactly 3 point row(s), each with one blue correct panel and one gray pitfall note, with no duplicated or missing panels, confirm that the only Latin letters anywhere are the capital letters A, B and C exactly where they are written in the strings above, confirm that no mistaken picture, no red panel, and no side-by-side comparison is drawn anywhere, confirm every label appears exactly once and reads exactly as given, and confirm that no panel contains a full sentence of explanatory prose other than the single pitfall note under each correct picture. Confirm nothing is rendered below the last element: no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
