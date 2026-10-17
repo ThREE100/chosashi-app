@@ -463,7 +463,7 @@ I点はBCとY＝485.26の交点で I ＝ B ＋ (C − B) × 0.57 ÷ 10.57 ＝（
 第1回は不動産登記法 第51条第1項（`art051-1-hyoudaibu-henkou/`）、第2回は同 第40条（`art040-bunpitsu-kenri-shometsu/`）、第3回は区分所有法 第5条の規約敷地（`kubunshoyuu-hou/art005-kiyaku-shikichi/`。図解7枚・4コマ6本）。第1・2回は図解6枚・4コマ4本・見出し画像のプロンプトまで（画像の生成・目視確認は未実施）。4コマは、`tools/drill/manga/`の生成器・機械チェックで作る。
 
 ### 区分建物の範囲の苦手克服（`note-articles/joubun-nigate/kubun-tatemono-hani/`、2026-10-15追加）
-区分建物・敷地権・共用部分に関わる復習・チェック対象の肢を10の論点にまとめ、各回に記事と「出題文の状態→正しいイメージ→誤ったイメージ」の図解プロンプトを付けたシリーズ。入口は同フォルダの`README.md`。作り方は`src/build.py`（`parts/partN.py`から記事とプロンプトを生成）と`src/check_all.py`（機械チェック）。肢の抽出は`tools/drill`の`review_class`（最新の`drill-log`を取得してから）で行う。
+区分建物・敷地権・共用部分に関わる復習・チェック対象の肢を10の論点にまとめ、各回に記事と「出題文の状態→正しいイメージ（正解だけを描き、間違えやすいポイントは絵の下に文字で添える）」の図解プロンプトを付けたシリーズ（2026-10-17に正誤を並べる形から正解だけの形へ改めた）。入口は同フォルダの`README.md`。作り方は`src/build.py`（`parts/partN.py`から記事とプロンプトを生成）と`src/check_all.py`（機械チェック）。肢の抽出は`tools/drill`の`review_class`（最新の`drill-log`を取得してから）で行う。
 
 ## 総合記事（`note-articles/column/sokatsu-0N-*.md`）の図解・4コマ・見出し画像のプロンプトについて(2026-10-13追加)
 

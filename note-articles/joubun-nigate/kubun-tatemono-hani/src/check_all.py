@@ -75,6 +75,13 @@ for n in ns:
     if mt["hot"] not in mt["t2"]: NG(f"{tag} 見出し画像の強調語がタイトル2行目にない")
     for s in (mt["t1"], mt["t2"], mt["sub"]):
         if s not in prom: NG(f"{tag} 見出し画像プロンプトに『{s}』がない")
+    # 3b 画像に載る文言に、A・B・C以外のラテン文字を入れない
+    for k, s in enumerate(P["scenes"], 1):
+        strs = [s.get("t1", ""), s.get("t2", ""), s.get("sub", "")] + list(s.get("state", {}).get("labels", []))
+        for p in s.get("pairs", []):
+            strs += [p["claim"], p["right"]["tag"], p["pitfall"]] + list(p["right"].get("labels", []))
+        for x in strs:
+            if re.search(r"[D-Za-zＡ-Ｚａ-ｚ]", x): NG(f"{tag} 図解{k}：画像に載る文言にA・B・C以外のラテン文字がある: {x[:20]}")
     # 4 禁止：画像のタイトル／ラベルに結論や問題番号は入れない（labels 重複）
     for k, s in enumerate(P["scenes"], 1):
         if "pairs" not in s: continue

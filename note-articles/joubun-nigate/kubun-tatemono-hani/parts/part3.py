@@ -211,7 +211,7 @@ P = dict(
              'right': {'draw': 'The four small icons sit inside the certificate. The staircase signboard with its pie chart stands outside the '
                                'certificate and is linked to a meeting room icon with a three-quarters pie chart.',
                        'labels': ['公正証書', '集会の決議'],
-                       'tag': '公正証書は四つの事項だけ'},
+                       'tag': '持分の変更は集会の決議'},
              'pitfall': '公正証書なら何でも決められると思いがちですが、決められるのは32条の4事項だけです'}]},
  {'title': '分離処分可能規約と添付情報',
   'note': '名義が一致するのに敷地権にならないときは、規約を証する情報が要ることを確かめます。',
@@ -237,7 +237,7 @@ P = dict(
                                'bundle as the explanation. Two small land-right icons, a house-key and an underground pillar, both stand beside the '
                                'desk and both lead to the same rule sheet.',
                        'labels': ['規約', '同じ名義'],
-                       'tag': '分かれる理由を示す'},
+                       'tag': 'どちらも規約の証明が要る'},
              'pitfall': '地上権なら要らないと思いがちですが、権利の種類を問わず規約の証明が必要です'}]}],
     midashi=dict(t1="敷地権になれるのは", t2="どんな土地と権利？", hot="権利", sub="苦手克服　区分建物の範囲（2）",
                  left="an isometric apartment building standing on a land plot, with a small open registry ledger and a key beside it",

@@ -97,7 +97,7 @@ P = {'no': 1,
              'memo': 'マンションの一室を切り出した状態。構造上の独立性（壁・床・天井）と利用上の独立性（それだけで使える）を絵にする。',
              't1': 'マンションの一室が',
              't2': '区分建物になる条件',
-             'sub': '区分建物の範囲\u3000状態と正誤のイメージ',
+             'sub': '区分建物の範囲\u3000状態と正しいイメージ',
              'state': {'draw': 'Isometric cutaway illustration of a five-storey apartment building, with one room on the third floor highlighted by '
                                'a thick outline. The highlighted room is enclosed by solid walls, a floor and a ceiling, has its own front door '
                                'facing the corridor, and has a small kitchen and a bed inside. Beside the building, a faceless person pictogram '
@@ -123,7 +123,7 @@ P = {'no': 1,
              'memo': '専有部分、規約共用部分、共用部分である旨の登記がある建物（集会室）の状態。',
              't1': 'マンションの部屋と',
              't2': '共用部分の関係',
-             'sub': '区分建物の範囲\u3000状態と正誤のイメージ',
+             'sub': '区分建物の範囲\u3000状態と正しいイメージ',
              'state': {'draw': 'Isometric illustration of a four-storey apartment building. On the third floor a unit with a door sign is drawn in '
                                'light blue. On the ground floor a meeting room has a small sign saying it was set as shared by agreement, with a '
                                'document of the agreement pinned to its door. The corridor and the staircase of the building are drawn as plain open '
@@ -155,7 +155,7 @@ P = {'no': 1,
              'memo': '一棟の建物の床面積（壁の中心線）と、柱の凹凸を無視した求積の状態。',
              't1': '床面積は',
              't2': 'どの線で測る？',
-             'sub': '区分建物の範囲\u3000状態と正誤のイメージ',
+             'sub': '区分建物の範囲\u3000状態と正しいイメージ',
              'state': {'draw': 'Isometric view of one floor plan of an apartment building cut open from above: four rooms arranged in a row along a '
                                'corridor, with thick walls between them. In the top-left room, a square structural column sticks out from the wall '
                                'into the room. A faceless surveyor pictogram stands with a measuring tape in the corridor.',
@@ -180,7 +180,7 @@ P = {'no': 1,
              'memo': '階数の書き方（○階建）と、床面積の階名（○階部分）の状態。',
              't1': 'マンションの階の',
              't2': '登記での書き方',
-             'sub': '区分建物の範囲\u3000状態と正誤のイメージ',
+             'sub': '区分建物の範囲\u3000状態と正しいイメージ',
              'state': {'draw': 'Isometric cutaway of a three-storey apartment building with one basement level. On the ground floor there is a unit '
                                'with a floor area figure beside it. In the basement and the ground floor together there is another unit with a wine '
                                'rack visible, shown as a unit that spans both levels. A faceless person stands in front of the building holding a '
@@ -214,7 +214,7 @@ P = {'no': 1,
              'memo': '専有部分ごとの登記記録、表題部の2段、一棟分をまとめた証明書の状態。',
              't1': '一棟のマンションと',
              't2': '登記記録の関係',
-             'sub': '区分建物の範囲\u3000状態と正誤のイメージ',
+             'sub': '区分建物の範囲\u3000状態と正しいイメージ',
              'state': {'draw': 'Isometric illustration of a ten-unit apartment building on the left, with ten registry sheets lined up on the right, '
                                'one sheet per unit, each connected to its unit by a thin line. Each sheet has an upper block and a lower block in '
                                'its title part. A faceless clerk pictogram stands behind a counter at the far right.',

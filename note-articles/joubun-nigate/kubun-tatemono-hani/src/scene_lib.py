@@ -6,6 +6,9 @@ for _p in _here.parents:
         sys.path.insert(0, str(_p / "common")); break
 from infographic_parts import q, kanji_in, lead, TEXTREQ, BGREQ, COLOR, final, RISKY
 
+TEXTREQ_SCENE = TEXTREQ.replace("(no Korean Hangul, no Latin words)", "(no Korean Hangul, no Latin words; the only exception is the single capital letters A, B and C, which may appear exactly where they are written in the strings below as names of persons or buildings)")
+assert TEXTREQ_SCENE != TEXTREQ
+
 STATE_CAP = "出題文の状態"
 RIGHT_CAP = "正しいイメージ"
 PITFALL_CAP = "間違えやすいポイント"
@@ -20,7 +23,7 @@ def scene_prompt(sc):
     size = f"1080x{900 + 520 * n}"
     body = [lead(size, "This is a scene-illustration poster: it first draws the situation described in a question (the state), then shows only the correct picture for each point, with a short text note about a common pitfall under each correct picture. It is NOT a text-heavy document."),
             "GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro paragraph and no prose anywhere except the one short pitfall note under each correct picture. Every panel communicates through the isometric illustration plus short labels placed directly on or beside the objects. Do NOT render any full-sentence explanation or legal citation. Do not draw any person with a face; use faceless simple pictograms when a person is needed. Draw ONLY correct pictures: never draw a mistaken picture, a crossed-out picture, or a side-by-side correct/incorrect comparison.",
-            TEXTREQ, BGREQ, COLOR,
+            TEXTREQ_SCENE, BGREQ, COLOR,
             "--- HEADER ---", "Title (large, bold, 2 lines):", q(sc["t1"]), q(sc["t2"]), "Subtitle (smaller, centered, 1 line):", q(sc["sub"]),
             "--- SECTION 1: THE STATE (full width, dark navy frame) ---",
             "Section label (navy pill at the top-left of the frame):", q(STATE_CAP),
@@ -38,7 +41,7 @@ def scene_prompt(sc):
         body.append(f"Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading {q(PITFALL_CAP)} followed by this text exactly: " + q(p["pitfall"]) + ". The note is plain text only, with no illustration and no cross mark.")
     txt = "\n".join(body)
     extra = (f"Confirm the poster has exactly 1 state section followed by exactly {n} point row(s), each with one blue correct panel and one gray pitfall note, with no duplicated or missing panels, "
-             f"confirm that no mistaken picture, no red panel, and no side-by-side comparison is drawn anywhere, confirm every label appears exactly once and reads exactly as given, and confirm that no panel contains a full sentence of explanatory prose other than the single pitfall note under each correct picture.")
+             f"confirm that the only Latin letters anywhere are the capital letters A, B and C exactly where they are written in the strings above, confirm that no mistaken picture, no red panel, and no side-by-side comparison is drawn anywhere, confirm every label appears exactly once and reads exactly as given, and confirm that no panel contains a full sentence of explanatory prose other than the single pitfall note under each correct picture.")
     return txt + "\n--- FOOTER ---\n" + final(kanji_in(txt), extra)
 
 def flow_or_card_note():
