@@ -6,6 +6,7 @@
 
 ## 入口
 
+- [00-midashi-prompts.md](00-midashi-prompts.md)：f01〜f12・m01〜m07 の各回の見出し画像プロンプト（トリ先生と藍子。1つのファイルに19本）
 - [00-fukushuu-list.md](00-fukushuu-list.md)：全論点の復習リスト（論点別の一覧。要復習は誤解・未習得の回数が多い順、そのあとにチェック）
 
 ## 論点別の資料
@@ -61,6 +62,7 @@
 - `parts/<slug>.py`：論点ごとの元データ（書き方は [AUTHORING.md](AUTHORING.md)）
 - `src/build.py <slug>`：論点別の資料（`<slug>.md`）と図解プロンプト（`<slug>_prompts.md`）を生成
 - `src/make_list.py`：全論点の復習リスト（`00-fukushuu-list.md`）と、既存教材を案内する論点の資料を生成
+- `src/make_midashi.py`：見出し画像プロンプトを1つのファイル（`00-midashi-prompts.md`）にまとめる
 - `src/check_all.py`：機械チェック（肢の過不足、正誤の整合、画像に載せてはいけない語、Final checkの漢字リストなど）。現在 NG 0件
 
 復習対象は日々変わります。最新の状態に直すときは、`extract.py` を再実行し、増えた肢を `parts/` のグループに足して `build.py` と `check_all.py` を実行します。
