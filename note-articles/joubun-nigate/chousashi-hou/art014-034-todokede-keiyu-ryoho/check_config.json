@@ -1,0 +1,32 @@
+{
+ "note": "note_art014-034.md",
+ "infographic": "prompt_infographic_art014-034.md",
+ "midashi": "prompt_midashi_art014-034.md",
+ "fourkoma": [],
+ "n_infographic": 5,
+ "law_quotes": [
+  {"kind": "chousashi", "article": "第14条"},
+  {"kind": "chousashi", "article": "第34条", "paras": ["２"]}
+ ],
+ "table_rows": {"3": 5, "4": 7},
+ "flows": [
+  {"image": 2, "diamonds": 1, "results": 2},
+  {"image": 5, "diamonds": 1, "results": 2}
+ ],
+ "midashi_texts": [
+  "調査士と調査士法人の届出",
+  "経由か、両方か",
+  "苦手克服　土地家屋調査士法　届出先"
+ ],
+ "midashi_digit_fix": true,
+ "note_required": [
+  "部品1",
+  "部品4",
+  "ポイント1",
+  "ポイント4",
+  "確認事項",
+  "14条",
+  "34条2項",
+  "63条の2"
+ ]
+}

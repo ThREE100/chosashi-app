@@ -27,11 +27,12 @@ law = (ROOT / "note-articles/laws/fudousan-touki-hou.md").read_text(encoding="ut
 def block(head):
     i = law.index(head); return law[i:law.index("\n##### ", i + 5)]
 for qd in cfg["law_quotes"]:
-    if qd["kind"] == "kubun":
-        cap, items = lp.kubun_article(ROOT, qd["article"], qd.get("paras"))
+    if qd["kind"] in ("kubun", "chousashi"):
+        fname, lname = ("kubunshoyuu-hou.md", "区分所有法") if qd["kind"] == "kubun" else ("chousashi-hou.md", "土地家屋調査士法")
+        cap, items = lp.kubun_article(ROOT, qd["article"], qd.get("paras"), fname)
         miss = [x for x in items if ("> " + x) not in note]
-        chk(items and not miss, f"区分所有法{qd['article']}の原文（{len(items)}項）が laws/ と一致", f"区分所有法{qd['article']}の原文が laws/ と一致しない: {len(miss)}項")
-        if cap and cap not in note: NG(f"区分所有法{qd['article']}の見出し {cap} が記事にない")
+        chk(items and not miss, f"{lname}{qd['article']}の原文（{len(items)}項）が laws/ と一致", f"{lname}{qd['article']}の原文が laws/ と一致しない: {len(miss)}項")
+        if cap and cap not in note: NG(f"{lname}{qd['article']}の見出し {cap} が記事にない")
         continue
     b = block(qd["head"])
     if qd["kind"] == "fudo_item":
@@ -72,8 +73,7 @@ for i, b in enumerate(blocks, 1):
     if re.search(r"D\d{4}|問題\d|図解\d|画像\d", body.split("--- HEADER ---")[1] if "--- HEADER ---" in body else body): NG(f"図解{i}：画像に載る文言に、問題番号か図の番号がある")
 for k, want in cfg.get("table_rows", {}).items():
     got = len(re.findall(r"^Data row \d+(?::| \()", blocks[int(k) - 1], re.M)); chk(got == want, f"図解{k}の表の行数 {got}", f"図解{k}の表の行数 {got}（期待 {want}）")
-fl = cfg.get("flow")
-if fl:
+for fl in ([cfg["flow"]] if cfg.get("flow") else []) + cfg.get("flows", []):
     b = blocks[fl["image"] - 1]
     chk(len(re.findall(r"^NODE DIAMOND \d", b, re.M)) == fl["diamonds"] and len(re.findall(r"^NODE RESULT \d", b, re.M)) == fl["results"],
         f"図解{fl['image']}：ダイヤ{fl['diamonds']}個・結果{fl['results']}個", f"図解{fl['image']}：ダイヤ・結果の数が違う")
@@ -102,7 +102,7 @@ for s in cfg["midashi_texts"][:2]:
 if "Arabic numeral 4;" in mid and cfg.get("midashi_digit_fix"): NG("見出し画像：4コマ用の数字の指示が残っている")
 
 # 5b 記事のタイトル（2026-10-09 ユーザー指示の形）
-if not re.match(r"^## 【土地家屋調査士受験生向け】条文別 苦手克服〜(不動産登記法|区分所有法|民法|不動産登記令|不動産登記規則) 第[^（）〜]+（[^（）〜]+）〜$", note.split("\n")[0]): NG("記事のタイトルが、指定の形（条文別 苦手克服〜法令名 条（見出し）〜）でない")
+if not re.match(r"^## 【土地家屋調査士受験生向け】条文別 苦手克服〜(不動産登記法|区分所有法|民法|不動産登記令|不動産登記規則|土地家屋調査士法) 第[^（）〜]+（[^（）〜]+）〜$", note.split("\n")[0]): NG("記事のタイトルが、指定の形（条文別 苦手克服〜法令名 条（見出し）〜）でない")
 
 # 6 記事：表を使わない、個人の演習結果・問題番号が入っていない
 if re.search(r"^\|", note, re.M): NG("記事にMarkdownの表がある（シリーズは表を使わない）")
