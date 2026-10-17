@@ -26,6 +26,7 @@ for n in range(1, 11):
     for k, p in enumerate(P["points"], 1):
         G += [f"### {p['h']}", ""]
         for e in p["examples"]:
+            if not e[0]: continue   # 肢IDのない補足の例文は一覧に載せない
             it = iid[e[0]]
             G.append(f"- {e[0]}（{it['q']}{it['label']}／{'要復習' if it['rc']=='must' else 'チェック'}／{'正' if it['truth'] else '誤'}）{it['statement'][:60].replace(chr(10),' ')}…")
         G.append("")

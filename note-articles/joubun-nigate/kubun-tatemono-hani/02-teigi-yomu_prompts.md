@@ -25,7 +25,7 @@ The three cards together form one nested picture: each next card repeats the pre
 Badge: a filled dark navy circle containing the number 1 (numbers run 1 to 3 in order).
 Heading (bold, ONE line):
 「建物の敷地」
-Illustration: An isometric apartment building standing on a land plot in pale beige. One large outer ring (a rounded circle outline in pale blue) surrounds the land plot and the building. Beside the plot a small tag 「建物が所在する土地」.
+Illustration: An isometric apartment building standing on a land plot in pale beige. One large outer ring (a rounded circle outline in pale blue) surrounds the land plot and the building. Beside the plot a small tag 「建物が所在する土地など」.
 Conclusion tag (a short pale-yellow banner directly below the illustration, a keyword phrase, not a sentence):
 「土地そのもの」
 --- CARD 2 ---
@@ -120,11 +120,11 @@ Below this frame draw one short plain dark navy arrow pointing down; this arrow 
 A slim pale-yellow banner across the top of the row, with this claim text exactly:
 「敷地権の種類に使用貸借権が載る」
 Below the banner place two panels side by side, equal width, each with a thick rounded frame.
-LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: The handshake note stays outside the edge of the ledger, stopped by a low barrier. The room's registry sheet beside it shows a land-right block whose filled row holds the underground pillar icon.
-Short labels on the left panel, each exactly once: 「敷地権の表示」, 「地上権」.
-Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「載る種類は登記できる権利」
-RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: The handshake note is placed inside a filled row of the room's land-right block, tied to the room by a chain.
-Short labels on the right panel, each exactly once: 「敷地権の表示」, 「使用借権」.
+LEFT PANEL (BLUE frame). Panel label (blue pill): 「正しいイメージ」. Illustration: The handshake note stays outside the edge of the ledger, stopped by a low barrier. Inside the ledger, the three rows (the house-key icon, the underground pillar icon, and the rental paper with a coin icon) stay filled with blue stamps.
+Short labels on the left panel, each exactly once: 「使用借権」, 「地上権」.
+Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): 「登記できる権利だけが載る」
+RIGHT PANEL (RED frame). Panel label (red pill): 「誤ったイメージ」. Illustration: The handshake note is placed inside the ledger as an extra filled row with a stamp, tied to the building by a chain.
+Short labels on the right panel, each exactly once: 「使用借権」.
 Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): 「使用借権が載ると誤解」
 Put a small dark navy tag reading 「出題文の内容」 on the top edge of the RIGHT (red) panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.
 --- FOOTER ---
@@ -444,9 +444,9 @@ NODE DIAMOND 4: 「分離して処分できる規約の定めがないか」 The
   - Arrow down with the label 「はい」 to the final RESULT box.
   - Arrow right with the label 「いいえ」 to RESULT 4.
 NODE RESULT 1 (red box on the right): 「敷地利用権ではない」
-NODE RESULT 2 (red box on the right): 「登記できない権利や未登記は敷地権にならない」
-NODE RESULT 3 (red box on the right): 「分離処分の禁止の対象外で敷地権にならない」
-NODE RESULT 4 (red box on the right): 「規約で分離できるので敷地権にならない」
+NODE RESULT 2 (red box on the right): 「未登記または登記できない権利」
+NODE RESULT 3 (red box on the right): 「分離処分の禁止の対象外」
+NODE RESULT 4 (red box on the right): 「規約で分離できる権利」
 NODE FINAL RESULT (blue box at the bottom of the main line): 「敷地権になる」
 Counts: 1 start node, 4 diamonds, 5 result boxes (4 red and 1 blue), 5 distinct paths from the start to a result box. Every diamond has exactly two exits, and no arrow leaves a result box.
 Under the final blue box, one small light-gray tag centered: 「建物の表題部に敷地権の表示」
