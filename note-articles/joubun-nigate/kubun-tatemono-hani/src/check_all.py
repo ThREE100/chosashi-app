@@ -33,9 +33,11 @@ for n in ns:
     if miss: NG(f"{tag} 図解のpairにない肢: {sorted(miss)}")
     for s in P["scenes"]:
         for p in s.get("pairs", []):
-            tr = [truth[i] for i in p["ids"] if i in truth]
-            if tr and len(set(tr)) != 1: NG(f"{tag} 1つのpairに、正しい肢と誤った肢が混ざっている: {p['ids']}")
-            elif tr and (p["stmt"] == "right") != tr[0]: NG(f"{tag} pair {p['ids']} の stmt（出題文の内容の側）が正誤と食い違う")
+            if "wrong" in p or "stmt" in p: NG(f"{tag} pair {p['ids']} に wrong／stmt が残っている（正解だけを描く形に改めた）")
+            if not p.get("pitfall"): NG(f"{tag} pair {p['ids']} に pitfall（間違えやすいポイント）がない")
+            elif len(p["pitfall"]) > 52: NG(f"{tag} pair {p['ids']} の pitfall が52字を超える: {len(p['pitfall'])}字")
+            if len(p["claim"]) > 36: NG(f"{tag} pair {p['ids']} の claim が36字を超える: {p['claim']}")
+            if "誤" in p["claim"] or "誤" in p["right"]["tag"]: NG(f"{tag} pair {p['ids']} の見出し（claim／tag）に『誤』がある。見出しは正しい内容を言い切る文にする")
     # 2 マーカーと図解
     nsc = len(P["scenes"]); marks = re.findall(r"^> 【画像挿入】図解(\d+)「", note, re.M)
     if sorted(set(int(x) for x in marks)) != list(range(1, nsc + 1)): NG(f"{tag} 画像挿入マーカーと図解の数が合わない（マーカー {sorted(set(marks))} / 図解 {nsc}）")
@@ -49,6 +51,7 @@ for n in ns:
         actual = (RISKY & set(re.findall(r"[一-鿿]", body))) if i <= nsc else set(re.findall(r"[一-鿿]", body.split("TEXT (reproduce verbatim")[1].split("TOPIC SCENES")[0]))
         if i <= nsc and listed != actual: NG(f"{tag} 図解{i}：Final checkの漢字リストが本文と違う 余分={sorted(listed-actual)} 不足={sorted(actual-listed)}")
         if re.search(r"緑|green", b, re.I): NG(f"{tag} 図{i}：緑／green")
+        if "誤ったイメージ" in b or "出題文の内容" in b: NG(f"{tag} 図{i}：『誤ったイメージ』『出題文の内容』が残っている")
         if TREE.search(b): NG(f"{tag} 図{i}：樹形図の『木』『ツリー』")
         if "BACKGROUND REQUIREMENT" not in b or "alpha" not in b: NG(f"{tag} 図{i}：背景の不透明化の指示がない")
         if "注意：" in b or re.search(r"[✓✕✗]", b): NG(f"{tag} 図{i}：独立した日本語の注意文か✓✕")
@@ -78,9 +81,8 @@ for n in ns:
         labs = list(s["state"].get("labels", []))
         if len(labs) != len(set(labs)): NG(f"{tag} 図解{k}：state のラベルが重複")
         for p in s["pairs"]:
-            for side in ("right", "wrong"):
-                l2 = p[side].get("labels", [])
-                if len(l2) != len(set(l2)): NG(f"{tag} 図解{k}：{side} のラベルが重複")
+            l2 = p["right"].get("labels", [])
+            if len(l2) != len(set(l2)): NG(f"{tag} 図解{k}：right のラベルが重複")
     print(f"[{n}] 肢{len(truth)} / 図解{nsc}枚 / pair{len(pair_ids)}")
 for m in ng: print("NG  ", m)
 print(f"結果: NG {len(ng)}件")

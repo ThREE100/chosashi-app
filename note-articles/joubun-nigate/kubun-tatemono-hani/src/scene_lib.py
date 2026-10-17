@@ -8,17 +8,18 @@ from infographic_parts import q, kanji_in, lead, TEXTREQ, BGREQ, COLOR, final, R
 
 STATE_CAP = "出題文の状態"
 RIGHT_CAP = "正しいイメージ"
-WRONG_CAP = "誤ったイメージ"
-STMT_CAP = "出題文の内容"
+PITFALL_CAP = "間違えやすいポイント"
 
 def scene_prompt(sc):
-    """sc: dict(size, t1, t2, sub, state=dict(draw, labels=[str..]), pairs=[dict(claim, right=dict(draw,labels,tag), wrong=dict(draw,labels,tag), stmt='right'|'wrong')])
-    stmt は、出題文の内容がどちら側のパネルに描かれるか（肢が正しければ right、誤りなら wrong）。"""
+    """sc: dict(t1, t2, sub, state=dict(draw, labels=[str..]),
+                pairs=[dict(claim, right=dict(draw, labels, tag), pitfall)])
+    2026-10-17の改訂：正解だけを描く。claim は『正しい内容を言い切る文』（見出し）。
+    pitfall は、間違えやすい点を正しいイメージの下にテキストで添える短い文（見出しにはしない）。"""
     n = len(sc["pairs"])
     assert 1 <= n <= 3
-    size = f"1080x{900 + 600 * n}"
-    body = [lead(size, "This is a scene-illustration poster: it first draws the situation described in a question (the state), then shows the correct picture and the mistaken picture side by side. It is NOT a text-heavy document."),
-            "GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro paragraph and no prose anywhere. Every panel communicates through the isometric illustration plus short labels placed directly on or beside the objects. Do NOT render any full-sentence explanation, legal citation, or paragraph of body text. Do not draw any person with a face; use faceless simple pictograms when a person is needed.",
+    size = f"1080x{900 + 520 * n}"
+    body = [lead(size, "This is a scene-illustration poster: it first draws the situation described in a question (the state), then shows only the correct picture for each point, with a short text note about a common pitfall under each correct picture. It is NOT a text-heavy document."),
+            "GLANCEABLE-POSTER REQUIREMENT (critical): There is no intro paragraph and no prose anywhere except the one short pitfall note under each correct picture. Every panel communicates through the isometric illustration plus short labels placed directly on or beside the objects. Do NOT render any full-sentence explanation or legal citation. Do not draw any person with a face; use faceless simple pictograms when a person is needed. Draw ONLY correct pictures: never draw a mistaken picture, a crossed-out picture, or a side-by-side correct/incorrect comparison.",
             TEXTREQ, BGREQ, COLOR,
             "--- HEADER ---", "Title (large, bold, 2 lines):", q(sc["t1"]), q(sc["t2"]), "Subtitle (smaller, centered, 1 line):", q(sc["sub"]),
             "--- SECTION 1: THE STATE (full width, dark navy frame) ---",
@@ -28,22 +29,16 @@ def scene_prompt(sc):
         body.append("Short labels placed on the objects, each exactly once: " + ", ".join(q(l) for l in sc["state"]["labels"]) + ".")
     body.append("Below this frame draw one short plain dark navy arrow pointing down; this arrow means only 'next', carries no text, and is NOT a YES or NO arrow.")
     for k, p in enumerate(sc["pairs"], 1):
-        body += [f"--- SECTION {k + 1}: CLAIM {k} (full-width row) ---",
-                 "A slim pale-yellow banner across the top of the row, with this claim text exactly:", q(p["claim"]),
-                 "Below the banner place two panels side by side, equal width, each with a thick rounded frame.",
-                 f"LEFT PANEL (BLUE frame). Panel label (blue pill): {q(RIGHT_CAP)}. Illustration: " + p["right"]["draw"]]
+        body += [f"--- SECTION {k + 1}: POINT {k} (full-width row) ---",
+                 "A slim pale-yellow banner across the top of the row, stating the correct content, with this text exactly:", q(p["claim"]),
+                 f"Below the banner place one wide panel with a thick rounded BLUE frame. Panel label (blue pill): {q(RIGHT_CAP)}. Illustration: " + p["right"]["draw"]]
         if p["right"].get("labels"):
-            body.append("Short labels on the left panel, each exactly once: " + ", ".join(q(l) for l in p["right"]["labels"]) + ".")
-        body.append("Conclusion tag at the bottom of the left panel (blue banner, keyword phrase, not a sentence): " + q(p["right"]["tag"]))
-        body += [f"RIGHT PANEL (RED frame). Panel label (red pill): {q(WRONG_CAP)}. Illustration: " + p["wrong"]["draw"]]
-        if p["wrong"].get("labels"):
-            body.append("Short labels on the right panel, each exactly once: " + ", ".join(q(l) for l in p["wrong"]["labels"]) + ".")
-        body.append("Conclusion tag at the bottom of the right panel (red banner, keyword phrase, not a sentence): " + q(p["wrong"]["tag"]))
-        side = "LEFT (blue)" if p["stmt"] == "right" else "RIGHT (red)"
-        body.append(f"Put a small dark navy tag reading {q(STMT_CAP)} on the top edge of the {side} panel only (the other panel carries no such tag); it marks the panel that depicts what the question statement says.")
+            body.append("Short labels on the panel, each exactly once: " + ", ".join(q(l) for l in p["right"]["labels"]) + ".")
+        body.append("Conclusion tag at the bottom of the panel (blue banner, keyword phrase, not a sentence): " + q(p["right"]["tag"]))
+        body.append(f"Directly under the blue panel, outside its frame, place a slim plain note strip (light gray background, dark navy text, NOT red) with the small heading {q(PITFALL_CAP)} followed by this text exactly: " + q(p["pitfall"]) + ". The note is plain text only, with no illustration and no cross mark.")
     txt = "\n".join(body)
-    extra = (f"Confirm the poster has exactly 1 state section followed by exactly {n} claim row(s), each with a blue left panel and a red right panel, with no duplicated or missing panels, "
-             f"confirm every label appears exactly once and reads exactly as given, confirm the {q(STMT_CAP)} tag appears exactly {n} time(s), and confirm that no panel contains a full sentence of explanatory prose.")
+    extra = (f"Confirm the poster has exactly 1 state section followed by exactly {n} point row(s), each with one blue correct panel and one gray pitfall note, with no duplicated or missing panels, "
+             f"confirm that no mistaken picture, no red panel, and no side-by-side comparison is drawn anywhere, confirm every label appears exactly once and reads exactly as given, and confirm that no panel contains a full sentence of explanatory prose other than the single pitfall note under each correct picture.")
     return txt + "\n--- FOOTER ---\n" + final(kanji_in(txt), extra)
 
 def flow_or_card_note():
