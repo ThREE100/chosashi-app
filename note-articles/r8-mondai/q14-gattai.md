@@ -48,9 +48,9 @@
 
 登記名義人が同一の建物が合体し、合体前の建物の抵当権の登記が合体後も存続するときは、原則として、登記名義人が同一でないとみなした場合の持分を、申請情報の内容にします（不動産登記令別表の十三の項ニ）。
 
-ただし、存続する抵当権が複数ある場合に、それらの登記の目的、受付の年月日及び受付番号、登記原因及びその日付並びに登記名義人がいずれも同一であるときは、その持分は申請情報の内容にしなくて構いません（同欄のかっこ書）。本肢は正しいといえます。
+ただし、存続する抵当権が複数ある場合に、それらの登記の目的、受付の年月日及び受付番号、登記原因及びその日付並びに登記名義人がいずれも同一であるときは、その持分は申請情報の内容にしなくて構いません（同欄ニのかっこ書）。本肢は正しいといえます。
 
-**たとえば**、同じ所有者の2棟に、同じ日に同じ原因で設定された同内容の抵当権が付いているときは、合体後の建物について持分を分けて書く必要はありません。
+**たとえば**、同じ所有者の2棟に、同じ受付年月日・受付番号で登記された共同抵当（登記の目的・原因・名義人も同じ）が付いているときは、合体後の建物について持分を分けて書く必要はありません。
 
 ※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q16-gattai-touki.md`、`note-articles/h28-mondai/q15-gattai.md`、`note-articles/h21-mondai/q18-gattai-touki.md`、`note-articles/h20-mondai/q15-gattai-touki.md`
 
@@ -58,7 +58,9 @@
 
 合体は、二以上の建物が合体して一個の建物になる場合のことです（不動産登記法49条1項）。
 
-主である建物と附属建物は、もともと1個の建物として登記されています。附属建物とつながっても、合体にはなりません。床面積などの変更を、建物の表題部の変更の登記（同法51条）として申請します。本肢は誤りです。
+主である建物と附属建物は、もともと1個の建物として登記されています。附属建物とつながっても、合体にはなりません。
+
+床面積などの変更を、建物の表題部の変更の登記（同法51条）として申請します（準則95条も、主たる建物と附属建物の合体を表題部の変更の登記として扱います）。本肢は誤りです。
 
 **たとえば**、母屋と、その附属建物の物置を、増築で渡り廊下につないだときは、「合体」ではなく、母屋の登記の床面積などを直す変更の登記になります。
 
@@ -72,7 +74,7 @@
 
 **たとえば**、引っ越しをしたまま登記簿の住所を直していない所有者でも、住民票などを付ければ、住所変更の登記を先にしなくても、合体による登記等を申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q16-gattai.md`、`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`
+※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/r5-mondai/q16-gattai.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`
 
 ---
 
@@ -659,7 +661,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 所・変・更・登・記・合・体・申・請・証・付・前・建・物・有・権・義・録・関・部・認・取・確 — always
+any characters. Pay special attention to the kanji 所・変・更・登・記・合・体・申・請・証・付・前・建・物・有・権・義・録・取・認・確 — always
 draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
@@ -686,7 +688,7 @@ Result box: 住所の変更があったことを証する情報（住民票の�
 Side note box (compare): 他の多くの登記でも、住所が違えば、まず住所変更の登記が必要になる。合体による登記等は、その例外。
 
 --- CALLOUT: 誤りやすいポイント ---
-合体による登記等は、表示に関する登記の中で、権利部の名義人の住所の表示も実態に合わせる扱いが認められています。先に住所変更の登記をする必要はありません。
+合体による登記等では、先に住所変更の登記をする必要はないとする取扱いが認められています。
 
 --- FOOTER ---
 先例に基づく取扱い（原文は未確認）

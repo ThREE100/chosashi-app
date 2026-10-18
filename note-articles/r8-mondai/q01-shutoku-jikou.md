@@ -32,7 +32,9 @@
 
 登記がないと負けるのは、時効が完成した後に現れた第三者のほうです（民法177条）。本肢は正しいといえます。
 
-**たとえば**、Bが占有を続けて10年がたつ前に、元の所有者AがCに土地を売ってCが登記を済ませたとします。その後に10年がたてば、BはCに対して、登記なしで「時効で自分の物になった」と主張できます。
+**たとえば**、Bが占有を始めて数年後に、元の所有者AがCに土地を売ってCが登記を済ませたとします。
+
+その後、Bの占有開始から時効の期間（善意無過失なら10年、そうでなければ20年）が過ぎれば、BはCに対して、登記なしで「時効で自分の物になった」と主張できます。
 
 ※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/h21-mondai/q01-jikou-touki.md`、`note-articles/h25-mondai/q02-shutokujikou.md`、`note-articles/r2-mondai/q02-shutoku-jikou.md`
 
@@ -273,7 +275,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 一筆の土地の模型の端だけが色付きで切り取られ、その部分に取得者が立っている様子。分筆線の点線が引かれている。
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
-分筆が前提
+登記は分筆から
 
 --- FOOTER ---
 
