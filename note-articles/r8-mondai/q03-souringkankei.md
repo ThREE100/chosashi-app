@@ -186,9 +186,22 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 隣・地・相・関・係・境・界・標・調・査・承・通・知・測・量・士・前・渡・判・付・迫・分 — these
+kanji 隣・地・相・関・係・境・界・標・調・査・承・通・知・測・量・士・書・渡・前・判・付・迫 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -223,7 +236,8 @@ Badge: a filled green circle containing the number 1 (numbers
 run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 境界標の調査は承諾なしで隣地を使える
-Illustration: 測量器具を持つ調査士が隣の庭の境界標に近づき、手前にある「通知」の封筒だけを隣人に渡し、承諾の判子には×が付いている様子。
+Illustration: 測量器具を持つ調査士が隣の庭の境界標に近づき、「通知」と書かれた封筒を隣人に渡している。手前には「承諾書」の書類と判子があり、赤い×が付いている。境界標の石柱は無地で、文字は一切入れない。
+Words allowed inside this illustration (verbatim, nothing else): 「通知」 「承諾書」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 承諾は不要・通知は必要
@@ -234,6 +248,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 急迫の事情なら枝を自分で切れる
 Illustration: 嵐の中、隣の木の折れかけた枝が家の屋根に迫り、住人が枝切りばさみで枝を切ろうとしている様子。稲妻のアイコンが添えられている。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 急ぐなら切れる
@@ -246,7 +261,8 @@ Badge: a filled blue circle containing the number 3 (numbers
 run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 袋地の通行者は通路を開設できる
-Illustration: 他の土地に囲まれた袋地から公道へ細い通路が敷かれる様子。通路の横にスコップとコーンが置かれている。
+Illustration: 他の土地に囲まれた袋地から公道へ細い通路が敷かれる様子。通路の横にスコップとコーンが置かれている。袋地の家の近くに「袋地」、道路に「公道」の札だけを置く。
+Words allowed inside this illustration (verbatim, nothing else): 「袋地」 「公道」
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 必要なら通路を開設
@@ -255,8 +271,9 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 Badge: a filled blue circle containing the number 4 (numbers
 run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
-分割で袋地になっても通れるのは分割者の土地だけ
-Illustration: 1つの土地が甲と乙に分けられ、乙の持ち主が甲の中の通路を通って公道に出ている。関係のない隣の丙の土地には通行止めの赤い×がある様子。
+分割の袋地は分割者の土地だけ通れる
+Illustration: 1つの土地が甲と乙に分けられ、乙は壁に囲まれて公道に面しない袋地になっている。乙の持ち主が、甲の土地の中の通路を通って公道に出ている。関係のない隣の丙の土地の入口には、赤い×印だけを置く（標識や文字は描かない）。3つの区画の名前は「甲」「乙」「丙」の3語だけで、公道の側にも文字は入れない。
+Words allowed inside this illustration (verbatim, nothing else): 「甲」 「乙」 「丙」
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 分割した相手の土地だけ
@@ -266,7 +283,8 @@ Badge: a filled blue circle containing the number 5 (numbers
 run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 ライフライン設備は設置できる権利
-Illustration: 隣の土地を通して自分の家へ水道管と電線が引かれる様子。持ち主は「通知」の封筒を受け取り、請求書には赤い×が付いている。
+Illustration: 隣の土地を通して自分の家へ水道管と電線が引かれる様子。持ち主は「通知」と書かれた封筒を受け取っている。「請求書」の書類には赤い×が付いている。
+Words allowed inside this illustration (verbatim, nothing else): 「通知」 「請求書」
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 請求ではなく権利
@@ -275,7 +293,7 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 隣・地・相・関・係・境・界・標・調・査・承・通・知・測・量・士・前・渡・判・付・迫・分. Also scan the entire canvas for any character that is not standard Japanese
+attention to 隣・地・相・関・係・境・界・標・調・査・承・通・知・測・量・士・書・渡・前・判・付・迫. Also scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other
 non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
@@ -286,6 +304,8 @@ confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
@@ -345,6 +365,14 @@ below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -490,6 +518,14 @@ background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 設・備・権・請・求・誤・理・隣・地・所・有・図・条・定・囲・用・法・目・的・通・知・償・金・合・分・相 — always
 draw the standard Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the illustrations and diagrams, render ONLY the words that are
+written in this prompt (the labels, flowchart conditions and callout text
+given below), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing; leave other
+surfaces blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

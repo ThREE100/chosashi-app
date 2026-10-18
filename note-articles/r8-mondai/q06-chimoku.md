@@ -186,6 +186,19 @@ kanji 地・目・認・定・設・敷・用・業・付・貯・体・農・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -220,6 +233,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 工場の敷地は宅地になる
 Illustration: 工業専用地域の看板のない工場の模型と、地目の札「宅地」が土地に刺さり、「工場用地」の札には赤い×が付く様子。
+Words allowed inside this illustration (verbatim, nothing else): 「宅地」 「工場用地」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 工場用地はない
@@ -230,6 +244,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 発電用ダムの貯水池は池沼
 Illustration: 山あいのダムに水がたまり、発電機のアイコンが添えられ、地目の札「池沼」が立っている様子。
+Words allowed inside this illustration (verbatim, nothing else): 「池沼」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 池沼
@@ -240,6 +255,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 校舎と一体の運動場は学校用地
 Illustration: 小学校の校舎と校庭のトラックが1つの土地に収まり、地目の札「学校用地」が立ち、「雑種地」の札には赤い×が付く様子。
+Words allowed inside this illustration (verbatim, nothing else): 「学校用地」 「雑種地」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 学校用地
@@ -253,6 +269,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 牧場地域の牧畜用の建物の敷地は牧場
 Illustration: 牧場の柵の中にある牛舎の模型と、地目の札「牧場」が立ち、「宅地」の札には赤い×が付く様子。
+Words allowed inside this illustration (verbatim, nothing else): 「牧場」 「宅地」
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 すべて牧場
@@ -263,6 +280,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 田と畑は用水の利用で決まる
 Illustration: 水を引いた水田と、水を引かない畑が左右に並び、それぞれに「田」「畑」の札が立つ様子。
+Words allowed inside this illustration (verbatim, nothing else): 「田」 「畑」
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 用水の有無で決まる
@@ -282,6 +300,8 @@ confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
@@ -341,6 +361,14 @@ below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

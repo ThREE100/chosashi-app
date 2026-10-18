@@ -178,6 +178,13 @@ for path in files:
             if "誤答" in c or "ドリル" in c:
                 bad(f, name + "に個人の演習結果らしい語")
         ip = codes[1]
+        if "ILLUSTRATION TEXT RULE" not in ip or ip.count("Words allowed inside this illustration") != 5:
+            bad(f, "総論に『絵の中の文字は指定した語だけ』の指示（ILLUSTRATION TEXT RULE と各カードの Words allowed）がない")
+        if "DIAGRAM TEXT RULE" not in codes[2]:
+            bad(f, "作図ガイドに『絵の中の文字は指定した語だけ』の指示（DIAGRAM TEXT RULE）がない")
+        for k in range(3, len(codes)):
+            if "ILLUSTRATION TEXT RULE" not in codes[k]:
+                bad(f, "間違いノートに『絵の中の文字は指定した語だけ』の指示がない")
         if len(re.findall(r"CARD \d+ ---", ip)) != 5:
             bad(f, "カードが5枚でない")
         hp = codes[0]

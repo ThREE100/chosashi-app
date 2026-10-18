@@ -86,7 +86,7 @@
 - **イ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
 - **ウ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
 - **エ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`
-- **オ**　関連する過去の記事：`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`
+- **オ**　関連する過去の記事：`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`
 
 **このまま使える点／使う前に確認したい点**
 
@@ -186,6 +186,19 @@ kanji 部・分・床・面・積・建・物・定・出・窓・条・屋・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -220,6 +233,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 出窓は高さ1.5メートル以上で床面と同じ高さなら算入
 Illustration: 床まで届く大きな出窓が緑のチェックマークで枠に入り、腰高の出窓は赤い×で枠の外に出る様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 条件を満たす出窓だけ
@@ -230,6 +244,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 屋上出入口だけの塔屋は算入しない
 Illustration: ビルの屋上の小さな階段室のアイコンに赤い×が付き、横の倉庫付きの塔屋には緑のチェックマークが付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 出入口だけなら不算入
@@ -243,6 +258,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 一棟の建物の床面積は壁の中心線で測る
 Illustration: マンションの平面図で、壁の厚みの真ん中に1本の線が引かれ、専有部分は内側に別の線が引かれる様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 一棟は中心線
@@ -253,6 +269,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 吹抜は上階に入れず1階に入れる
 Illustration: 2階建ての家の断面で、吹抜のリビングが1階の床面積に色付けされ、2階には赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 上階には入れない
@@ -263,6 +280,7 @@ run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 エレベーター室は各階に算入する
 Illustration: 5階建てのビルの断面で、エレベーター室が全部の階に色付けされている様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 各階に入る
@@ -282,6 +300,8 @@ confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
@@ -340,6 +360,14 @@ below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

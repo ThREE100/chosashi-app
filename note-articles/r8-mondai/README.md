@@ -60,3 +60,7 @@
 - `src/lib.py`：問題文の引用、見出し画像・総論・間違いノートのプロンプトの組み立て、正解番号。
 - `src/rel.py`・`src/relkw.py`：欄外メモ（関連記事）の元データ。
 - `src/check_articles.py`：形式の機械チェック（`python3 src/check_articles.py` でNG 0件）。
+
+## 画像の中の文字（2026-10-18）
+
+総論・作図ガイド・間違いノートのプロンプトには、「絵の中に入れる文字は、指定した語だけ」の指示（`ILLUSTRATION TEXT RULE`／`DIAGRAM TEXT RULE`）を入れています。総論のカードには、絵に入れてよい語を示す `Words allowed inside this illustration` の行があります。第3問の総論は、第1・3・4・5カードの絵の指定を、この指示に合わせて直しました（境界標は無地、第4カードは乙を公道に面しない袋地にして甲の通路を通る絵、標識は文字なしの×印）。
