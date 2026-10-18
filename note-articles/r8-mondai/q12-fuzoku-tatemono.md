@@ -211,6 +211,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -230,8 +233,6 @@ Subtitle (smaller, centered, 1行):
 図面と記録の仕方
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 附属建物の取壊しでは建物図面を省略できる
 Illustration: 母屋と物置のうち物置が取り壊され、母屋の建物図面はそのまま使われる様子。新しい図面を作る手には赤い×が付く。
@@ -241,8 +242,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 図面は省略できる
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 床面積の変更は符号以外を書き直す
 Illustration: 登記簿の附属建物の欄で、符号だけ残して他の記録が線で消され、新しい記録が書き直される様子。
@@ -252,8 +251,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 全部書き直す
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 同じ種類でも「同上」と書かない
 Illustration: 登記簿の2行目に「同上」の札が貼られて赤い×が付き、物置の記録が全文書かれる様子。
@@ -266,8 +263,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 制限と区分建物
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 抵当権があっても附属建物を新築できる
 Illustration: 抵当権の札が付いた母屋の隣に新しい物置が建ち、緑のチェックマークが付く様子。
@@ -277,8 +272,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 制限にならない
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物の附属建物は構造欄に敷地権
 Illustration: 一戸建ての登記簿の附属建物の構造欄に、敷地権の記号が記録される様子。
@@ -297,7 +290,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「図面と記録の仕方」 and 2 cards under 「制限と区分建物」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

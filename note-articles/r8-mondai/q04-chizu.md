@@ -216,6 +216,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -235,8 +238,6 @@ Subtitle (smaller, centered, 1行):
 定義と記録事項
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 地図は区画、準ずる図面は位置と形状
 Illustration: 左に筆界線がくっきり描かれた精密な地図、右にだいたいの形だけが描かれた古い図面が並び、それぞれの下に「区画を明確に」「位置と形状」の札が付いている様子。
@@ -246,8 +247,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 区画か位置・形状か
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 地図には図郭線の座標値を記録する
 Illustration: 地図1枚の外枠の4隅に座標を示す小さな目盛りの記号（数字は書かない）が付き、隣の地図とつながる様子。
@@ -257,8 +256,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 座標値も記録
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 特段の事由で接続区域も一体で作成できる
 Illustration: 地番区域の境目をまたいで1枚の地図が広がり、境目の点線の向こう側の区域も同じ地図に含まれている様子。
@@ -271,8 +268,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 事業と調査
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 地図作成事業の地積更正は職権で行う
 Illustration: 法務局の職員が測量して土地の面積を直し、登記簿の原因欄に印鑑が押される様子。申請書は描かない。
@@ -282,8 +277,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 原因は錯誤、地図作成
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 街区境界調査図は地図そのものではない
 Illustration: 街区の外周だけを測った図面と、街区の中の一筆ずつが描かれた地図が並び、前者に「外周のみ」の札が付く様子。
@@ -302,7 +295,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「定義と記録事項」 and 2 cards under 「事業と調査」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

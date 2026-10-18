@@ -211,6 +211,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -230,8 +233,6 @@ Subtitle (smaller, centered, 1行):
 却下される
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 事前通知に期間内の申出がない
 Illustration: 登記官から届いた通知の封筒と、2週間を示すカレンダー、返事の来ない空の郵便受けが並び、申請書に却下のスタンプが押される様子。
@@ -241,8 +242,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 申出がなければ却下
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 筆界が確認できない地積更正
 Illustration: 隣り合う2人が別々の線を指さしており、調査員が首をかしげて、申請書に却下のスタンプが押される様子。
@@ -252,8 +251,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 調査と合わず却下
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 権利能力なき社団を所有者とする申請
 Illustration: 「社団」を示す人々のマークが建物の模型の持ち主になろうとして、赤い×で止められ、代表者個人のマークが横に立つ様子。
@@ -266,8 +263,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 却下ではない・交付先
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 決定書の交付先は代理人
 Illustration: 代理人（調査士）のマークが決定書の封筒を受け取り、申請人のマークには矢印が向かない様子。
@@ -277,8 +272,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 代理人に交付すれば足りる
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 管轄が指定されたら移送される
 Illustration: 二つの登記所の境にまたがる建物の模型と、申請書が一方の登記所から指定された登記所へ矢印で運ばれる様子。却下のスタンプには赤い×が付く。
@@ -297,7 +290,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「却下される」 and 2 cards under 「却下ではない・交付先」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

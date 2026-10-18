@@ -149,7 +149,7 @@ def infographic(n, d):
     a("transparent area, and no unpainted canvas edge anywhere in the final")
     a("image.")
     a("")
-    if d.get("no_badge"):
+    if d.get("no_badge", True):
         a("NO NUMBERING (critical): do not draw any number, numbered circle, badge or")
         a("sequence mark on or near any card. The cards are not numbered.")
         a("")
@@ -178,7 +178,7 @@ def infographic(n, d):
         for c in cards:
             num += 1
             a("--- CARD {} ---".format(num) if single else "--- {}, CARD {} ---".format(col_name, num))
-            if not d.get("no_badge"):
+            if not d.get("no_badge", True):
                 a("Badge: a filled {} circle containing the number {} (numbers".format(color, num))
                 a("run continuously across all columns — do not restart at 1 in column B).")
             a("Heading (bold, ONE line, ~20 characters or fewer):")
@@ -203,7 +203,7 @@ def infographic(n, d):
     a("Japanese text appears anywhere in the image. If any character renders as a Simplified or")
     a("Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the")
     a("number of cards equals {} exactly ({}), with no duplicated or missing cards,".format(total, count_desc))
-    if d.get("no_badge"):
+    if d.get("no_badge", True):
         a("that no card carries a number, numbered circle or any numbering,")
     else:
         a("that badge numbers run 1-{} continuously without resetting,".format(total))

@@ -161,7 +161,6 @@ DATA[3] = dict(
     h_l1="隣の土地を使う、", h_l2="承諾は必要？", h_hl="承諾は必要？", h_sub_topic="相隣関係",
     h_left="a measuring tripod beside a boundary fence and a plot model, no text",
     h_right="a water pipe and a power line running toward a house between two plots, no text",
-    no_badge=True,
     theme="相隣関係", info_title="隣の土地、どこまで使える？",
     desc="隣地の使用・枝の切取り（グループA）と、通行・設備の設置（グループB）の2グループに分け、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成。",
     cols=[("隣地を使う・枝を切る", "green", [

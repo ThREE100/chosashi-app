@@ -209,6 +209,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -228,8 +231,6 @@ Subtitle (smaller, centered, 1行):
 申請の組合せと添付情報
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物になる変更は新築区分建物と併せて
 Illustration: 既存の店舗の上に新しい区分建物が建ち、2枚の申請書が1つのクリップで留められる様子。
@@ -239,8 +240,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 併せて申請
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 取壊しと増築では増築部分の所有権を証明
 Illustration: 建物の一部が壊され別の部分が増築される様子。増築部分にだけ確認済証のアイコンが付く。
@@ -253,8 +252,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 申請人・期限・承諾
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 代理でも未成年者の氏名・住所を書く
 Illustration: 申請書に、未成年の子と代理人の2人の名前の欄が並ぶ様子。
@@ -264,8 +261,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 未成年者が申請人
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 取得した人の期限は名義人になった日から
 Illustration: 売買の日のカレンダーには赤い×、所有権の移転の登記がされた日のカレンダーに丸が付く様子。
@@ -275,8 +270,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 登記の日から1か月
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 床面積が減っても抵当権者の承諾は不要
 Illustration: 抵当権の札が付いた建物の一部が壊され、承諾書の枠に赤い×が付く様子。
@@ -295,7 +288,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「申請の組合せと添付情報」 and 3 cards under 「申請人・期限・承諾」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

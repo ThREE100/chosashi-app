@@ -209,6 +209,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -228,8 +231,6 @@ Subtitle (smaller, centered, 1行):
 費用と申請
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 各土地の所有者が申請人なら費用は等しく負担
 Illustration: 隣り合う2つの土地の所有者が、費用の硬貨の山を半分ずつに分けている様子。
@@ -239,8 +240,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 等しい割合
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 共通の土地があれば一の申請情報でできる
 Illustration: 甲土地を中心に、東の乙と西の丙の2つの申請書が1枚にまとめられている様子。
@@ -250,8 +249,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 一の申請情報
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 隣の所有者の主張する線も申請書に書く
 Illustration: 申請書の欄に、申請人の主張する線と、隣人の主張する別の線が並んで書かれている様子。
@@ -264,8 +261,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 効果と取下げ
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 筆界特定では境界標を設置しない
 Illustration: 筆界特定書と図面だけが出てきて、現地に杭を打とうとする手には赤い×が付く様子。
@@ -275,8 +270,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 杭は打たれない
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 取下げで返るのは添付書面だけ
 Illustration: 取下げの窓口で、添付書面の書類が返され、申請書の書類は窓口に残る様子。
@@ -295,7 +288,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「費用と申請」 and 2 cards under 「効果と取下げ」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

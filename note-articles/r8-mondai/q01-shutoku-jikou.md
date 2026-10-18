@@ -217,6 +217,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -236,8 +239,6 @@ Subtitle (smaller, centered, 1行):
 登記と期間のルール
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 完成前の買主には登記なしで対抗できる
 Illustration: 占有を続けるB（土地の模型と「10年」の札）の手前で、Aから土地を買って登記を済ませたCが立っているが、完成前を示す砂時計が残っており、Bの前でCの登記簿が盾に弾かれている様子。
@@ -247,8 +248,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 登記なしで勝てる
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 悪意の前主の占有を足すと20年が必要
 Illustration: AとCの占有期間を示す2本の帯（3と7を示す長さの違いだけで数字は書かない）がつながっており、前の帯に「知っていた」の吹き出しがあり、カレンダーが20年分を要求している様子。
@@ -258,8 +257,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 7年では足りない
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 10年の時効では無過失を自分で示す
 Illustration: 天秤の片側に「善意・平穏・公然」の札が最初から載っていて、もう片側の「無過失」の札だけが空で、占有者が自分で札を置こうとしている様子。
@@ -272,8 +269,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 何が取得できる？
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 賃借権も時効取得できる
 Illustration: 土地の模型の横に賃貸借契約書と賃料の封筒、時効の砂時計が並び、「賃借権」の札がチェックマークとともに取得者の手に渡る様子。
@@ -283,8 +278,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 所有権だけではない
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 土地の一部だけでも時効取得できる
 Illustration: 一筆の土地の模型の端だけが色付きで切り取られ、その部分に取得者が立っている様子。分筆線の点線が引かれている。
@@ -303,7 +296,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「登記と期間のルール」 and 2 cards under 「何が取得できる？」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

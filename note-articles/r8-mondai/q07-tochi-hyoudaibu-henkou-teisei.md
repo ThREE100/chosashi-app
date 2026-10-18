@@ -209,6 +209,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -228,8 +231,6 @@ Subtitle (smaller, centered, 1行):
 申請人と添付情報
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人の1人で地積更正を申請できる
 Illustration: 亡くなった所有者の土地の前に3人の相続人が並び、1人だけが申請書を手に持ち、他の2人の承諾書の枠には赤い×が付く様子。
@@ -239,8 +240,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 承諾書は不要
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権の登記があっても地目変更できる
 Illustration: マンションの敷地の一部が駐車場に変わり、土地の模型の横に地目変更の札があり、敷地権のマークを消す作業には赤い×が付く様子。
@@ -250,8 +249,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 敷地権は消さない
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 地積が増えても所有権の証明は不要
 Illustration: 実測で広がった土地の模型に、地積測量図のアイコンだけが添えられ、所有権の証明書の枠には赤い×が付く様子。
@@ -264,8 +261,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 一緒に申請する登記
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 合筆と地積更正は一の申請情報で申請できる
 Illustration: 2筆の土地が1筆に合わさり、1枚の申請書に合筆と地積更正の2つの項目が書かれている様子。
@@ -275,8 +270,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 1枚の申請書
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 地図の区画の訂正と地積更正は併せて申請
 Illustration: ずれた形の地図と、面積の違う土地の模型が並び、2つの書類が1つのクリップで留められる様子。
@@ -295,7 +288,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「申請人と添付情報」 and 2 cards under 「一緒に申請する登記」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

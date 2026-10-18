@@ -180,6 +180,8 @@ for path in files:
         ip = codes[1]
         if "ILLUSTRATION TEXT RULE" not in ip or ip.count("Words allowed inside this illustration") != 5:
             bad(f, "総論に『絵の中の文字は指定した語だけ』の指示（ILLUSTRATION TEXT RULE と各カードの Words allowed）がない")
+        if "NO NUMBERING" not in ip or "Badge:" in ip:
+            bad(f, "総論のカードに番号の丸がある、または NO NUMBERING の指示がない")
         if "DIAGRAM TEXT RULE" not in codes[2]:
             bad(f, "作図ガイドに『絵の中の文字は指定した語だけ』の指示（DIAGRAM TEXT RULE）がない")
         for k in range(3, len(codes)):

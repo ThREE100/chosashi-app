@@ -209,6 +209,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -228,8 +231,6 @@ Subtitle (smaller, centered, 1行):
 時効で消える？
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 所有権に基づく請求権は時効で消えない
 Illustration: 登記簿に他人の名前が書かれた土地の模型の前で、所有者が抹消のスタンプを持っており、横の砂時計が何度ひっくり返されても盾（所有権）に守られて残っている様子。
@@ -239,8 +240,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 いつでも請求できる
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 地役権は20年で時効消滅する
 Illustration: 隣地を通る細い道と、一度も通られていない足跡のない道、20年を示すカレンダーが並び、道の権利札が砂時計とともに消えていく様子。
@@ -253,8 +252,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 占有・共有・付合は？
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 占有回収の訴えで占有は続く
 Illustration: 奪われた土地の模型を取り戻す手と、占有期間を示す帯が途切れずにつながっている様子。裁判官の木槌が添えられている。
@@ -264,8 +261,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 占有は続いていた
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 賃借人の農作物は賃借人の物
 Illustration: 借りた畑で野菜を育てる借主と、野菜に借主の名札が付いている様子。地主は畑の縁に立っている。
@@ -275,8 +270,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 借主の物
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 持分の放棄で他の共有者の持分が増える
 Illustration: 3人で3等分された丸いケーキの1切れが放棄され、残る2人のケーキが同じ大きさに広がって2等分になる様子。数字は書かない。
@@ -295,7 +288,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「時効で消える？」 and 3 cards under 「占有・共有・付合は？」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

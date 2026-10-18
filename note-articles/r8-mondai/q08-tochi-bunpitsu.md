@@ -212,6 +212,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -231,8 +234,6 @@ Subtitle (smaller, centered, 1行):
 地図と通知
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 分筆線の位置は地図訂正で直せない
 Illustration: 土地の模型に引かれた分筆の点線が、ずらした位置のまま地図に写り、地図訂正の申出書に赤い×が付く様子。
@@ -242,8 +243,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 地図訂正では不可
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 分筆では識別情報は通知されない
 Illustration: 分筆された2つの土地の模型の手前に、識別情報の通知書の封筒があり、赤い×で届かない様子。
@@ -256,8 +255,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 権利と申請人
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 消滅させる抵当権は一方の土地だけ
 Illustration: 2つに分けた土地の模型のうち、乙の土地だけ抵当権の札が外れ、甲の土地には札が残る様子。
@@ -267,8 +264,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 片方だけ消せる
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人の1人で一部地目変更分筆を申請できる
 Illustration: 亡くなった所有者の土地の一部が駐車場に変わり、3人の相続人のうち1人だけが申請書を出す様子。
@@ -278,8 +273,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 単独で申請できる
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権のある土地の分筆は全員の申請ではない
 Illustration: マンションの敷地の分筆の申請書に、住戸の所有者全員の名前を並べる枠があり、赤い×が付く様子。
@@ -298,7 +291,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「地図と通知」 and 3 cards under 「権利と申請人」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

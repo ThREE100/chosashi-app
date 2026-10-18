@@ -556,3 +556,4 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 個人の解答結果をもとにした分析は`note-articles/r8-mondai/personal/`にあり、noteには載せない。記事は手で直さず、`src/d*.py`のデータを直して`src/build.py`で作り直し、`src/check_articles.py`でNG 0件にする。詳細は`note-articles/r8-mondai/README.md`。
 **年度別の解説記事（`r8-mondai/`など）のnote見出し画像は、女性のMCキャラクター1人だけを描く（トリ先生・藍子は入れない。基準画像は「キャラクターシート_MC-01〜MC-04」の4枚。2026-10-18 ユーザー指示）。** プロンプトは`r8-mondai/src/lib.py`の`header_prompt()`で作る。
 **図解インフォグラフィックのプロンプト（②③④⑤）には、「絵の中に入れる文字は、指定した語だけ」という指示（`ILLUSTRATION TEXT RULE`／`DIAGRAM TEXT RULE`。②③のカードは`Words allowed inside this illustration`の行つき）を必ず入れる（2026-10-18 ユーザー指示。令和8年度第3問の総論画像で、絵の中の勝手な文字が崩れたため）。ルールの本文は`note-articles/infographic-prompt-template.md`の「絵の中の文字は、指定した語だけ」の節。**
+**総論（②）のカードには番号の丸を付けない（2026-10-18 ユーザー指示。令和8年度は全20問で番号なし。`NO NUMBERING`の指示。作図ガイド⑤のパネル番号は付ける）。**

@@ -211,6 +211,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -230,8 +233,6 @@ Subtitle (smaller, centered, 1行):
 所在の記録の仕方
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 またがる建物は床面積の多い土地が先
 Illustration: 点線をまたいで建つ建物の模型で、広いほうの土地の側に「大」の札、狭いほうに「小」の札があり、地番の札が大きいほうから順に並ぶ様子。
@@ -241,8 +242,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 広い土地が先
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 さん橋の上の建物は「地先」と記録する
 Illustration: 港のさん橋の上の小さな建物と、岸に最も近い土地の地番の杭があり、杭に「地先」の札が付く様子。
@@ -255,8 +254,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 所在が変わったとき
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 分筆で所在が変われば原因日は分筆の日
 Illustration: 敷地が2つに分筆される様子と、建物の登記簿に変更の付箋が付き、カレンダーの分筆の日が丸で囲まれている様子。
@@ -266,8 +263,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 1か月以内に変更
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 錯誤の更正には期限がない
 Illustration: 最初から違う地番が書かれた登記簿に、訂正の付箋が貼られ、砂時計には赤い×が付く様子。
@@ -277,8 +272,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 更正に期限なし
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 えい行移転は所在の変更になる
 Illustration: 建物をレールで引いて隣の土地へ移す様子。滅失と新築のスタンプには赤い×が付き、所在変更の付箋が貼られる。
@@ -297,7 +290,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「所在の記録の仕方」 and 3 cards under 「所在が変わったとき」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

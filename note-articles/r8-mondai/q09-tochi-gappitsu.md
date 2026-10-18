@@ -211,6 +211,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -230,8 +233,6 @@ Subtitle (smaller, centered, 1行):
 権利の登記があるとき
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 抵当権が一部しか同じでなければ不可
 Illustration: 甲の土地に2枚、乙の土地に1枚の抵当権の札が付き、1枚だけ対応する札のない甲の札に赤い×が付く様子。
@@ -241,8 +242,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 1件余ると不可
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 信託目録の登記事項が同一なら可
 Illustration: 2筆の土地に同じ内容の信託の書類が付き、2つが1筆に合わさる様子。緑のチェックマーク付き。
@@ -252,8 +251,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 同一なら合筆できる
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 買戻特約は期間満了でも抹消が先
 Illustration: 期間満了を示す砂時計と、まだ登記簿に残る買戻しの札があり、札を抹消してから土地が合わさる様子。
@@ -266,8 +263,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 地目・地図
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 現況の地目が違えば合筆できない
 Illustration: 登記簿は同じ「畑」の札だが、片方の土地は現況が駐車場で、2つの土地の間に赤い×が付く様子。
@@ -277,8 +272,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 現況が違えば不可
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 同一の地図にない土地でも合筆できる
 Illustration: 別々の地図に載った2筆が隣り合って接続し、緑のチェックマークで合筆される様子。
@@ -297,7 +290,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「権利の登記があるとき」 and 2 cards under 「地目・地図」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

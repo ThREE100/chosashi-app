@@ -210,6 +210,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -229,8 +232,6 @@ Subtitle (smaller, centered, 1行):
 誰が申請する？
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物は新築した人が表題部所有者
 Illustration: 分譲業者が新築したマンションの前に立ち、登記簿の表題部所有者欄に業者の名前が入り、買主の名前の枠には赤い×が付く様子。
@@ -240,8 +241,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 売る前の人が名義
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 共有の建物は1人でも申請できる
 Illustration: 兄弟2人の建物の前で、兄だけが申請書を出し、書類に2人の名前が並んでいる様子。
@@ -251,8 +250,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 単独で申請できる
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 配偶者居住権者に申請義務はない
 Illustration: 家の前で、所有権者の長男が申請書を持ち、居住する母には鍵のアイコンだけが付いている様子。
@@ -265,8 +262,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 どう申請する？
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 一棟の建物だけの表題登記はない
 Illustration: マンション全体の建物の絵に、一棟の表示のカードだけを提出しようとして、赤い×で止められ、各部屋のカードと一緒に出す様子。
@@ -276,8 +271,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 一棟と各区分を併せる
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 保存の登記が消えたら表題登記を改める
 Illustration: 無権利者名義の登記簿が消され、本当の所有者の名義で新しい表題登記が作られる様子。
@@ -296,7 +289,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「誰が申請する？」 and 2 cards under 「どう申請する？」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

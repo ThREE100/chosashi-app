@@ -213,6 +213,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -232,8 +235,6 @@ Subtitle (smaller, centered, 1行):
 合併できない場合
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 所有権の仮登記があると合併できない
 Illustration: 隣り合う2つの区分建物に、同じ仮登記の札が付き、合併の矢印が赤い×で止められる様子。
@@ -243,8 +244,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 仮登記は例外に入らない
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 共用部分の登記がある建物は合併できない
 Illustration: 上下に重なる集会室と管理人室に、共用部分の札が付き、合併の矢印に赤い×が付く様子。
@@ -257,8 +256,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 申請と条件
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 他の登記所の建物は主の登記所へ申請
 Illustration: 2つの登記所のうち、主である建物の登記所へ向かって申請書が運ばれる様子。
@@ -268,8 +265,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 主の登記所へ
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 相続登記なしで合併を申請できる
 Illustration: 亡くなった名義人の建物の前で、相続人が申請書を出し、相続登記の書類の枠には赤い×が付く様子。
@@ -279,8 +274,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 相続登記は不要
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 効用上一体でなければ附属建物にできない
 Illustration: 別々の家族が使う2つの住戸が、一体の矢印で結ばれず、附属建物の札には赤い×が付く様子。
@@ -299,7 +292,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「合併できない場合」 and 3 cards under 「申請と条件」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

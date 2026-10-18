@@ -209,6 +209,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -228,8 +231,6 @@ Subtitle (smaller, centered, 1行):
 施設の敷地
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 工場の敷地は宅地になる
 Illustration: 工業専用地域の看板のない工場の模型と、地目の札「宅地」が土地に刺さり、「工場用地」の札には赤い×が付く様子。
@@ -239,8 +240,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 工場用地はない
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 発電用ダムの貯水池は池沼
 Illustration: 山あいのダムに水がたまり、発電機のアイコンが添えられ、地目の札「池沼」が立っている様子。
@@ -250,8 +249,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 池沼
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 校舎と一体の運動場は学校用地
 Illustration: 小学校の校舎と校庭のトラックが1つの土地に収まり、地目の札「学校用地」が立ち、「雑種地」の札には赤い×が付く様子。
@@ -264,8 +261,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 農耕地・牧場
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 牧場地域の牧畜用の建物の敷地は牧場
 Illustration: 牧場の柵の中にある牛舎の模型と、地目の札「牧場」が立ち、「宅地」の札には赤い×が付く様子。
@@ -275,8 +270,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 すべて牧場
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 田と畑は用水の利用で決まる
 Illustration: 水を引いた水田と、水を引かない畑が左右に並び、それぞれに「田」「畑」の札が立つ様子。
@@ -295,7 +288,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「施設の敷地」 and 2 cards under 「農耕地・牧場」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
