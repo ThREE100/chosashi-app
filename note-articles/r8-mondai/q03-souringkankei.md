@@ -213,6 +213,9 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
 sits in. Draw only the legally correct rule on every card; never draw a
@@ -232,8 +235,6 @@ Subtitle (smaller, centered, 1行):
 隣地を使う・枝を切る
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 境界標の調査は承諾なしで隣地を使える
 Illustration: 測量器具を持つ調査士が隣の庭の境界標に近づき、「通知」と書かれた封筒を隣人に渡している。手前には「承諾書」の書類と判子があり、赤い×が付いている。境界標の石柱は無地で、文字は一切入れない。
@@ -243,8 +244,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 承諾は不要・通知は必要
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 急迫の事情なら枝を自分で切れる
 Illustration: 嵐の中、隣の木の折れかけた枝が家の屋根に迫り、住人が枝切りばさみで枝を切ろうとしている様子。稲妻のアイコンが添えられている。
@@ -257,8 +256,6 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 通行と設備
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 袋地の通行者は通路を開設できる
 Illustration: 他の土地に囲まれた袋地から公道へ細い通路が敷かれる様子。通路の横にスコップとコーンが置かれている。袋地の家の近くに「袋地」、道路に「公道」の札だけを置く。
@@ -268,19 +265,15 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 必要なら通路を開設
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 分割の袋地は分割者の土地だけ通れる
-Illustration: 1つの土地が甲と乙に分けられ、乙は壁に囲まれて公道に面しない袋地になっている。乙の持ち主が、甲の土地の中の通路を通って公道に出ている。関係のない隣の丙の土地の入口には、赤い×印だけを置く（標識や文字は描かない）。3つの区画の名前は「甲」「乙」「丙」の3語だけで、公道の側にも文字は入れない。
-Words allowed inside this illustration (verbatim, nothing else): 「甲」 「乙」 「丙」
+Illustration: 真上から見た地図風の絵。画面の下に公道が横に通る。公道に面して、左に「甲」の土地、右に「丙」の土地が並ぶ。その2つの土地の奥（上）に「乙」の土地があり、乙は甲と丙に囲まれて公道に面しない袋地になっている。乙の持ち主（人物のアイコン）が、甲の土地の中の通路を通って公道へ出る緑の矢印と緑のチェックマーク。甲の土地の上には、持ち主が別の人に代わったことを示す、鍵を渡す2つの手のアイコン（文字なし）。乙から丙の土地を通って公道へ向かう矢印には、赤い×印だけを置く（標識や文字は描かない）。絵の中の文字は「甲」「乙」「丙」の3語だけで、公道にも文字は入れない。
+Words allowed inside this illustration (verbatim, nothing else): 「甲」 「丙」 「乙」 「甲」 「乙」 「丙」
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 分割した相手の土地だけ
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 ライフライン設備は設置できる権利
 Illustration: 隣の土地を通して自分の家へ水道管と電線が引かれる様子。持ち主は「通知」と書かれた封筒を受け取っている。「請求書」の書類には赤い×が付いている。
@@ -299,7 +292,7 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「隣地を使う・枝を切る」 and 3 cards under 「通行と設備」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.

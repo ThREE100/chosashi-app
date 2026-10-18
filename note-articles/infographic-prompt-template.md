@@ -191,6 +191,7 @@ channel anywhere.
 3. **指定した語は、短く・大きく・はっきり読める語にする。** 長い語や画数の多い語は崩れやすいので、標識の語は×印や記号で代える（例：「通行止め」の標識の文字をやめ、赤い×印だけにする）。
 4. **`Final check before rendering:` にも「絵の中に指定した語以外の文字がなく、指定した語ははっきり読めること」を確認する一文を入れる。**
 5. 画像ができたら、絵の中の文字（特に指定した語）が正しい字で読めるかを拡大して確認する。崩れていたら、その語を記号に代えるか、指定をやめて再生成する。
+**カードに番号を付けない指定（ユーザーが番号不要としたとき）**：`Badge:` の行（番号つきの丸）を全カードから外し、`NO NUMBERING (critical): do not draw any number, numbered circle, badge or sequence mark on or near any card.` の段落を `COLOR RULE FOR MARKS` の前に置き、Final checkのバッジ番号の確認文を「どのカードにも番号・番号つきの丸を描かない」の確認文に代える。令和8年度第3問の総論がこの形（`src/d01.py` の `no_badge=True`）。
 令和8年度の `r8-mondai/` では、`src/lib.py` の `infographic()`・`guide_prompt()`・`mistake_prompt()` がこの指示を自動で入れ、`src/check_articles.py` が入っていることを確かめる。
 
 ## 禁止語：樹形図の意味の「木」「ツリー」「決定木」（必須・厳守、2026-10-13 ユーザー指示）

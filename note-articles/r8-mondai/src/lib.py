@@ -149,6 +149,10 @@ def infographic(n, d):
     a("transparent area, and no unpainted canvas edge anywhere in the final")
     a("image.")
     a("")
+    if d.get("no_badge"):
+        a("NO NUMBERING (critical): do not draw any number, numbered circle, badge or")
+        a("sequence mark on or near any card. The cards are not numbered.")
+        a("")
     a("COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or")
     a("prohibition mark is drawn in red, regardless of the color of the column it")
     a("sits in. Draw only the legally correct rule on every card; never draw a")
@@ -174,8 +178,9 @@ def infographic(n, d):
         for c in cards:
             num += 1
             a("--- CARD {} ---".format(num) if single else "--- {}, CARD {} ---".format(col_name, num))
-            a("Badge: a filled {} circle containing the number {} (numbers".format(color, num))
-            a("run continuously across all columns — do not restart at 1 in column B).")
+            if not d.get("no_badge"):
+                a("Badge: a filled {} circle containing the number {} (numbers".format(color, num))
+                a("run continuously across all columns — do not restart at 1 in column B).")
             a("Heading (bold, ONE line, ~20 characters or fewer):")
             a(c["h"])
             a("Illustration: {}".format(c["ill"]))
@@ -198,7 +203,10 @@ def infographic(n, d):
     a("Japanese text appears anywhere in the image. If any character renders as a Simplified or")
     a("Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the")
     a("number of cards equals {} exactly ({}), with no duplicated or missing cards,".format(total, count_desc))
-    a("that badge numbers run 1-{} continuously without resetting,".format(total))
+    if d.get("no_badge"):
+        a("that no card carries a number, numbered circle or any numbering,")
+    else:
+        a("that badge numbers run 1-{} continuously without resetting,".format(total))
     a("confirm there is no intro illustration or paragraph block between the")
     a("header and the cards, and confirm that no card contains a full sentence of explanatory prose —")
     a("every card's takeaway must read as a short heading + a short conclusion tag, at a glance.")
