@@ -32,8 +32,6 @@
 
 **たとえば**、借地人が取り壊した建物の登記が残っているとき、地主は、借地人の承諾をもらえなくても、建物収去土地明渡請求権を保全するためなどの代位原因を示す情報（代位原因を証する情報）を付けて、代位して滅失の登記を申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`
-
 ### イ：共用部分の建物の滅失の登記には、所有者を証する情報を提供する
 
 共用部分である旨の登記がある建物は、表題部所有者や所有権の登記名義人がいません。滅失の登記は、その建物の所有者が申請します（不動産登記法57条かっこ書）。
@@ -41,8 +39,6 @@
 そのため、添付情報として、当該建物の所有者を証する情報を提供します（不動産登記令別表の十七の項）。本肢は正しいといえます。
 
 **たとえば**、マンションの集会所が共用部分である旨の登記を受けたまま取り壊されたときは、区分所有者が所有者であることを示す情報を付けて、滅失の登記を申請します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`、`note-articles/h19-mondai/q05-kubun-tatemono-hyouji.md`
 
 ### ウ：敷地権付き区分建物の滅失では、抵当権の消滅の承諾で、土地について消滅した旨が記録される
 
@@ -54,8 +50,6 @@
 
 **たとえば**、分譲マンションの1室が火災で消滅して抵当権者が「土地の抵当権はなくしてよい」と承諾したときは、滅失の登記の際に、その土地について抵当権が消滅した旨が建物の登記記録に記録されます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q17-tatemono-messhitsu.md`
-
 ### エ：主要構造部分が焼失して効用が失われたときは、残部があっても滅失
 
 建物が滅失したかどうかは、建物としての効用が失われたかどうかで判断します。柱や壁、屋根などの主要構造部分が焼失し、建物として使えなくなったときは、残部が焼失していなくても、滅失として、滅失の登記を申請できます。
@@ -63,8 +57,6 @@
 反対に、一部が焼失しても、主要構造部分が残って建物として使えるなら、滅失にはなりません。本肢は正しいといえます。
 
 **たとえば**、火災で屋根と壁が焼け落ち、基礎や一部の壁だけが残った建物は、建物として使えないので、滅失の登記を申請できます。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h29-mondai/q16-tatemono-kouzou.md`、`note-articles/h23-mondai/q13-tatemono-messitsu.md`
 
 ### オ：区分建物の滅失の登記は、その所有者が申請する
 
@@ -75,8 +67,6 @@
 他の区分建物の所有者Bが、自分の建物の表題部の変更の登記と併せて、Aに代位して甲区分建物の滅失の登記を申請できる、という扱いは認められていません。本肢は誤りです。
 
 **たとえば**、マンションの最上階の1室が取り壊されたとき、その滅失の登記は、取り壊された部屋の所有者が申請します。階下の住人が、自分の登記の変更と一緒に代わって申請することはできません。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q17-tatemono-messitsu.md`、`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/r2-mondai/q17-tatemono-messhitsu.md`
 
 ---
 
@@ -96,14 +86,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q17-tatemono-messitsu.md`、`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/r2-mondai/q17-tatemono-messhitsu.md`、`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h23-mondai/q13-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`、`note-articles/h19-mondai/q18-tatemono-messhitsu.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/R2/Q22/note_R2_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/R7/Q22/note_R7_dai22mon_tatemono_kaisetsu.md`、`note-articles/h19-mondai/q05-kubun-tatemono-hyouji.md`、`note-articles/h29-mondai/q16-tatemono-kouzou.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`
+- **イ**　関連する過去の記事：`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`、`note-articles/h19-mondai/q05-kubun-tatemono-hyouji.md`
+- **ウ**　関連する過去の記事：`note-articles/r2-mondai/q17-tatemono-messhitsu.md`
+- **エ**　関連する過去の記事：`note-articles/h29-mondai/q16-tatemono-kouzou.md`、`note-articles/h23-mondai/q13-tatemono-messitsu.md`
+- **オ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q17-tatemono-messitsu.md`、`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/r2-mondai/q17-tatemono-messhitsu.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（2番＝ア・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法55条・57条、不動産登記令3条・7条・別表の十七の項、不動産登記規則125条は、`note-articles/laws/`配下の原文で確認しました。
 - アは、過去問の一問一答バンクに、承諾を証する情報を提供するとする誤りの肢があり、結論は一致しています。ウは、バンクに同旨の正しい肢があります。エは、建物の滅失の意義（効用の喪失）に関するバンクの肢と、結論が一致しています。
 - オは、他の区分建物の所有者による代位申請を認める定めが`laws/`に見当たらず、解答速報の正解（2番＝ア・オ）と整合するように整理しました。建物の滅失の効用喪失の判断は、通達に基づく扱いで、原文は未確認です。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

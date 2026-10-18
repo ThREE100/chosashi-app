@@ -131,6 +131,7 @@ def build_article(n, d):
             a(x)
             a("")
     qp = [p for p in (("note-articles/" + x) if not x.startswith("note-articles") else x for x in REL_Q.get(n, [])) if os.path.exists(os.path.join(lib.REPO, p))]
+    memo = []
     for i, c in enumerate(d["ch"]):
         letter = LET[i]
         a("### {}：{}".format(letter, c["h"]))
@@ -147,11 +148,10 @@ def build_article(n, d):
         else:
             paths = rel_paths("{}{}".format(n, letter), c.get("rel_extra", ()))
         if paths:
-            a("※欄外メモ（note投稿時は削除）　関連する過去の記事：" + "、".join("`{}`".format(p) for p in paths))
+            memo.append("- **{}**　関連する過去の記事：".format(letter) + "、".join("`{}`".format(p) for p in paths))
         else:
             fb = [p for p in qp[:3]]
-            a("※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：" + "、".join("`{}`".format(p) for p in fb))
-        a("")
+            memo.append("- **{}**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：".format(letter) + "、".join("`{}`".format(p) for p in fb))
     a("---")
     a("")
     a("### まとめ")
@@ -169,13 +169,18 @@ def build_article(n, d):
     if qp:
         a("※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：" + "、".join("`{}`".format(p) for p in qp))
         a("")
+    a("※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：")
+    a("")
+    for m in memo:
+        a(m)
+    a("")
     a("**このまま使える点／使う前に確認したい点**")
     a("")
-    a("- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。")
+    a("- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。")
     a("- 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（{}番＝{}・{}）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。".format(ANSWER[n], cb[0], cb[1]))
     for b in d["confirm"]:
         a("- " + b)
-    a("- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。")
+    a("- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。")
     a("")
     a("---")
     a("")

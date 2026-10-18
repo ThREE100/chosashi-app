@@ -30,8 +30,6 @@
 
 **たとえば**、調査士が業務の不適切さを理由に戒告を受けたときは、その処分は、官報に載って公に知らされます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q20-chousashihou.md`、`note-articles/h20-mondai/q20-choukai.md`
-
 ### イ：領収証は、電磁的記録で作成して保存できる
 
 調査士は、依頼者から報酬を受けたときは、領収証の正本と副本を作成し、正本を依頼者に交付し、副本は保存します（調査士法施行規則27条1項）。この領収証は、電磁的記録で作成及び保存ができます（同条2項）。
@@ -39,8 +37,6 @@
 「電磁的記録をもって作成及び保存することができない」とする本肢は誤りです。
 
 **たとえば**、調査士が報酬を受け取ったとき、紙の領収証を出さなくても、電子データで領収証を作り、依頼者に渡して、控えも電子データで保存できます。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q20-chousashihou.md`、`note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md`、`note-articles/r5-mondai/q20-chousashihou.md`
 
 ### ウ：執行猶予付きの拘禁刑が確定したときは、登録を取り消さなければならない
 
@@ -50,8 +46,6 @@
 
 **たとえば**、調査士が拘禁刑1年、執行猶予3年の判決を受けて確定したときは、連合会は、その調査士の登録を取り消さなければなりません。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q20-chousashihou.md`、`note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md`、`note-articles/r5-mondai/q20-chousashihou.md`
-
 ### エ：調査士法人が合併できるのは、他の調査士法人だけ
 
 調査士法人は、総社員の同意があるときは、他の調査士法人と合併することができます（調査士法40条）。
@@ -60,8 +54,6 @@
 
 **たとえば**、調査士法人同士なら、総社員の同意で1つの調査士法人にまとめられますが、司法書士法人と合併して、1つの法人になることはできません。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q20-chousashihou.md`、`note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md`、`note-articles/r5-mondai/q20-chousashihou.md`
-
 ### オ：筆界特定の依頼を承諾しないときは、速やかに依頼者に通知する
 
 調査士は、正当な事由がなければ、依頼を拒んではなりません（調査士法22条）。ただし、筆界特定の手続の代理などの業務は、この義務から除かれ、依頼を断ることができます。
@@ -69,8 +61,6 @@
 筆界特定の手続の代理に関する業務の依頼を承諾しないときは、速やかに、その旨を依頼者に通知しなければなりません（調査士法施行規則25条2項）。本肢は正しいといえます。
 
 **たとえば**、依頼された筆界特定の代理を引き受けないと決めたときは、依頼者が別の調査士を探せるように、速やかに「お引き受けしません」と連絡します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r3-mondai/q20-chousashihou.md`、`note-articles/h19-mondai/q20-chosashi-gimu.md`
 
 ---
 
@@ -90,14 +80,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q20-chousashihou.md`、`note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md`、`note-articles/r5-mondai/q20-chousashihou.md`、`note-articles/r4-mondai/q20-chousashihou.md`、`note-articles/r3-mondai/q20-chousashihou.md`、`note-articles/r2-mondai/q20-chousashihou.md`、`note-articles/h30-mondai/q20-chousashi-touroku.md`、`note-articles/h29-mondai/q20-chousashi-houjin.md`、`note-articles/h28-mondai/q20-chousashihou-hikkai-dairi.md`、`note-articles/h26-mondai/q20-chousashihou.md`、`note-articles/h25-mondai/q20-chousashihou.md`、`note-articles/jissen-tanren01-mondai/q20-chousashi-houtorikeshi.md`、`note-articles/chokuzen-fukushuu-card/c01-chousashikai-shikaku.md`、`note-articles/chokuzen-fukushuu-card/c02-chousashi-houjin.md`、`note-articles/h19-mondai/q20-chosashi-gimu.md`、`note-articles/h20-mondai/q20-choukai.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/r5-mondai/q20-chousashihou.md`、`note-articles/h20-mondai/q20-choukai.md`
+- **イ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q20-chousashihou.md`、`note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md`、`note-articles/r5-mondai/q20-chousashihou.md`
+- **ウ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q20-chousashihou.md`、`note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md`、`note-articles/r5-mondai/q20-chousashihou.md`
+- **エ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q20-chousashihou.md`、`note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md`、`note-articles/r5-mondai/q20-chousashihou.md`
+- **オ**　関連する過去の記事：`note-articles/r3-mondai/q20-chousashihou.md`、`note-articles/h19-mondai/q20-chosashi-gimu.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（2番＝ア・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の調査士法5条・15条・22条・40条・42条・43条・46条、調査士法施行規則25条・27条は、`note-articles/laws/`配下の原文で確認しました。
 - ウは、問題文が「拘禁刑」の表記で、令和7年6月1日施行の刑法改正後の用語です。調査士法5条1号も「拘禁刑」になっています。
 - ア・オは、過去問の一問一答バンクに同旨の出題があり、結論は一致しています。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

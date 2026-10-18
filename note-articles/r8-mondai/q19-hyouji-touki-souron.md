@@ -30,8 +30,6 @@
 
 **たとえば**、表題部所有者である兄弟の1人が、自分の持分を弟に譲ったときは、表題部の持分を直すのではなく、先に所有権の保存の登記をして、そのうえで持分の移転の登記をします。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h20-mondai/q09-touki-shinseinin.md`、`note-articles/h19-mondai/q08-hyoudaibu-henko.md`
-
 ### イ：登記官は、姪が申請人である登記をすることができない
 
 登記官又はその配偶者もしくは四親等内の親族が登記の申請人であるときは、その登記官は、その登記をすることができません（不動産登記法10条）。
@@ -39,8 +37,6 @@
 姪は三親等の親族なので、四親等内に含まれます。本肢は正しいといえます。
 
 **たとえば**、登記官の姪が、自分の土地の地目の変更の登記を申請したときは、その登記官は、その登記を自分では実行できません。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q08-hyoudaibu-shoyuusha.md`、`note-articles/r7-mondai/q18-houtei-souzoku.md`、`note-articles/r5-mondai/q19-houtei-souzoku.md`
 
 ### ウ：共通する添付情報は、一の申請情報と併せて提供すれば足りる
 
@@ -50,8 +46,6 @@
 
 **たとえば**、土地の分筆と合筆を同時に申請するとき、共通して必要な代理権限の書類は、1通だけ付ければ足ります。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r3-mondai/q05-tenpu-jouhou.md`、`note-articles/h30-mondai/q04-shinsei-tenpu-jouhou.md`、`note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md`
-
 ### エ：所有者が表題部所有者と異なるときは、所有者が承諾を得て更正を申請できる
 
 不動産の所有者と表題部所有者とが異なる場合に、表題部所有者を直す更正の登記は、不動産の所有者だけが申請できます。その申請は、当該表題部所有者の承諾があるときでなければできません（不動産登記法33条1項・2項）。
@@ -60,8 +54,6 @@ AとBを共有者とする登記がされたが、実際の所有者はBだけ�
 
 **たとえば**、兄弟2人の名前で建物の表題登記をしたものの、実際には弟1人が建てた建物だったと分かったときは、弟が、兄の承諾書を付けて、表題部所有者を弟だけにする更正の登記を申請します。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h27-mondai/q05-hyoudaibu-shoyuusha.md`
-
 ### オ：相続人は、法定相続情報一覧図の写しを付けても、相続人である旨を申請情報にする
 
 表題部所有者や所有権の登記名義人の相続人が、表示に関する登記を申請するときは、申請人が相続人である旨を、申請情報の内容にします（不動産登記法30条、不動産登記令3条10号）。
@@ -69,8 +61,6 @@ AとBを共有者とする登記がされたが、実際の所有者はBだけ�
 法定相続情報一覧図の写しは、相続があったことを証する添付情報です。これを提供しても、申請情報から「相続人である旨」を省けるわけではありません。「必要はない」とする本肢は誤りです。
 
 **たとえば**、亡くなった父名義の土地の地積更正を子が申請するときは、法定相続情報一覧図の写しを付けたうえで、申請書にも「申請人は表題部所有者（又は所有権の登記名義人）の相続人である」と記載します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r6-mondai/q04-hyoudai-touki-tenpu.md`、`note-articles/r5-mondai/q19-houtei-souzoku.md`、`note-articles/r2-mondai/q05-houtei-souzoku-jouhou.md`、`note-articles/h30-mondai/q04-shinsei-tenpu-jouhou.md`
 
 ---
 
@@ -90,13 +80,21 @@ AとBを共有者とする登記がされたが、実際の所有者はBだけ�
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q08-hyoudaibu-shoyuusha.md`、`note-articles/r7-mondai/q18-houtei-souzoku.md`、`note-articles/r5-mondai/q19-houtei-souzoku.md`、`note-articles/r3-mondai/q08-hyoudaibu-shoyuusha.md`、`note-articles/r2-mondai/q05-houtei-souzoku-jouhou.md`、`note-articles/h29-mondai/q11-hyoudaibu-shoyuusha.md`、`note-articles/h27-mondai/q05-hyoudaibu-shoyuusha.md`、`note-articles/h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md`、`note-articles/h26-mondai/q07-shinsei-gimu.md`、`note-articles/jissen-tanren01-mondai/q19-houtei-souzoku-jouhou.md`、`note-articles/chokuzen-fukushuu-card/f07-hyodaibu-shoyusha.md`、`note-articles/h20-mondai/q09-touki-shinseinin.md`、`note-articles/h19-mondai/q08-hyoudaibu-henko.md`、`note-articles/r3-mondai/q05-tenpu-jouhou.md`、`note-articles/h30-mondai/q04-shinsei-tenpu-jouhou.md`、`note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md`、`note-articles/r6-mondai/q04-hyoudai-touki-tenpu.md`、`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/h20-mondai/q09-touki-shinseinin.md`、`note-articles/h19-mondai/q08-hyoudaibu-henko.md`
+- **イ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q08-hyoudaibu-shoyuusha.md`、`note-articles/r7-mondai/q18-houtei-souzoku.md`、`note-articles/r5-mondai/q19-houtei-souzoku.md`
+- **ウ**　関連する過去の記事：`note-articles/r3-mondai/q05-tenpu-jouhou.md`、`note-articles/h30-mondai/q04-shinsei-tenpu-jouhou.md`、`note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md`
+- **エ**　関連する過去の記事：`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h27-mondai/q05-hyoudaibu-shoyuusha.md`
+- **オ**　関連する過去の記事：`note-articles/r6-mondai/q04-hyoudai-touki-tenpu.md`、`note-articles/r5-mondai/q19-houtei-souzoku.md`、`note-articles/r2-mondai/q05-houtei-souzoku-jouhou.md`、`note-articles/h30-mondai/q04-shinsei-tenpu-jouhou.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（3番＝イ・エ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法10条・30条・31条・32条・33条、不動産登記令3条10号、不動産登記規則37条は、`note-articles/laws/`配下の原文で確認しました。
 - 過去問の一問一答バンクにも、ア・ウ・オに同型の誤りの肢があり、結論は一致しています。オは、法定相続情報一覧図の写しが添付情報であって、申請情報の内容を代替しないことから整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

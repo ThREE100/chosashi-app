@@ -32,8 +32,6 @@
 
 **たとえば**、隣り合う2つの区分建物に、同じ内容の所有権の移転の仮登記が付いていても、仮登記がある限り、合併の登記は申請できません。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/r3-mondai/q16-tatemono-bunkatsu-gappei.md`
-
 ### イ：他の登記所の建物を附属建物にする合併は、主である建物の登記所に申請する
 
 甲登記所の建物を乙登記所の建物の附属建物にする合併では、合併後は乙建物の登記記録の表題部に附属建物として記録されます（不動産登記規則132条1項）。
@@ -41,8 +39,6 @@
 管轄の登記所は主である建物の登記所と考えられ（準則5条は、附属建物の管轄が異なっても主である建物の登記所が管轄とします）、建物の合併の登記は、乙登記所に申請します。本肢は正しいといえます。
 
 **たとえば**、別の地域の登記所に登記された物置を、自宅の附属建物にしたいときは、自宅を管轄する乙登記所に合併の登記を申請します。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/r3-mondai/q16-tatemono-bunkatsu-gappei.md`
 
 ### ウ：所有権の登記名義人が死亡していても、相続登記なしで合併を申請できる
 
@@ -52,8 +48,6 @@
 
 **たとえば**、登記名義人の父が亡くなったまま登記が父の名義の2棟の建物は、相続人が、相続の登記を先にしなくても、合併の登記を申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/h28-mondai/q14-tatemono-gappei.md`、`note-articles/h17-mondai/q12-tatemono-gappei.md`
-
 ### エ：共用部分である旨の登記がある建物は、合併できない
 
 共用部分である旨の登記がある建物の合併の登記は、することができません（不動産登記法56条1号）。上下階で隣接しているかどうかは関係がありません。
@@ -61,8 +55,6 @@
 共用部分である旨の登記が両方にある区分建物の合併を「申請することができる」とする本肢は誤りです。
 
 **たとえば**、マンションの集会室と管理人室が、どちらも共用部分である旨の登記を受けているときは、上下に重なっていても、合併の登記はできません。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r6-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/r1-mondai/q12-tatemono-bunkatsu-gappei.md`、`note-articles/h18-mondai/q12-tatemono-gappei.md`
 
 ### オ：効用上一体でないときは、区分建物を附属建物にする合併はできない
 
@@ -73,8 +65,6 @@
 接続する区分建物でも、効用上一体として利用されていないなら、乙区分建物を甲区分建物の附属建物とする合併はできません。本肢は正しいといえます。
 
 **たとえば**、隣り合う2つの住戸を別々の家族が使っていて、互いに一体として使われていないときは、片方を、もう一方の附属建物にすることはできません。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h28-mondai/q14-tatemono-gappei.md`
 
 ---
 
@@ -94,14 +84,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/r3-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r1-mondai/q12-tatemono-bunkatsu-gappei.md`、`note-articles/h28-mondai/q14-tatemono-gappei.md`、`note-articles/h25-mondai/q17-tatemono-gappei.md`、`note-articles/h24-mondai/q14-tatemono-bunkatsu.md`、`note-articles/h22-mondai/q05-tatemono-gappei.md`、`note-articles/h21-mondai/q11-tatemono-gappei.md`、`note-articles/h20-mondai/q18-gappei-touki.md`、`note-articles/h18-mondai/q12-tatemono-gappei.md`、`note-articles/h17-mondai/q12-tatemono-gappei.md`、`note-articles/jissen-tanren01-mondai/q14-tatemono-gappei.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/H26/Q22/note_H26_dai22mon_tatemono_kaisetsu.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/r3-mondai/q16-tatemono-bunkatsu-gappei.md`
+- **イ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/r3-mondai/q16-tatemono-bunkatsu-gappei.md`
+- **ウ**　関連する過去の記事：`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/h28-mondai/q14-tatemono-gappei.md`、`note-articles/h17-mondai/q12-tatemono-gappei.md`
+- **エ**　関連する過去の記事：`note-articles/r6-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/r1-mondai/q12-tatemono-bunkatsu-gappei.md`、`note-articles/h18-mondai/q12-tatemono-gappei.md`
+- **オ**　関連する過去の記事：`note-articles/h28-mondai/q14-tatemono-gappei.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（4番＝イ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法2条23号・30条・56条、不動産登記規則131条・132条、不動産登記事務取扱手続準則5条・78条1項は、`note-articles/laws/`配下の原文で確認しました。
 - アは、規則131条の例外が担保権と信託の登記に限られることから整理しました。過去問の一問一答バンクにも同型の誤りの肢があります。ウ・エ・オも、過去問に同旨の出題があり、結論は一致しています。
 - イの申請先は、規則132条（乙建物の登記記録の表題部に附属合併後の建物を記録する）から整理したもので、管轄は、準則5条（附属建物の管轄が異なっても主である建物の登記所が管轄とする）の趣旨からも、主である建物の登記所と整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

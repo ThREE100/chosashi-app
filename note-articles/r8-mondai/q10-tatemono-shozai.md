@@ -30,8 +30,6 @@
 
 **たとえば**、建物の床面積の6割が甲土地、4割が乙土地にあるときは、所在は「甲番地、乙番地」の順に記録します。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`
-
 ### イ：分筆で所在の地番が変わったときは、分筆の登記の日が原因の日付
 
 分筆の登記によって、建物が所在する土地の地番が変わったときは、建物の表題部所有者又は所有権の登記名義人は、1か月以内に、所在に関する変更の登記を申請しなければなりません（不動産登記法51条1項）。
@@ -40,8 +38,6 @@
 
 **たとえば**、1筆の敷地を分筆して、建物の敷地が乙土地だけになったときは、分筆の登記がされた日を原因の日付にして、建物の所在の変更の登記を申請します。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`
-
 ### ウ：錯誤による所在の更正の登記に、1か月の期限はない
 
 1か月以内の申請義務があるのは、変更があったときの登記です（不動産登記法51条1項）。もともと登記が間違っていた場合の更正の登記には、申請期限や申請義務の定めがありません（同法53条）。
@@ -49,8 +45,6 @@
 「錯誤の事実を知った日から1か月以内に、更正の登記を申請しなければならない」とする本肢は誤りです。
 
 **たとえば**、建物の登記簿の所在が、最初から別の土地の地番で書かれていたと気づいたときは、いつまでに直さなければならないという期限はありません。ただし、早めに更正の登記を申請するほうが望ましいでしょう。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`
 
 ### エ：えい行移転は、滅失と表題登記ではなく、所在の変更
 
@@ -62,8 +56,6 @@
 
 **たとえば**、建物を壊さずに、レールで引いて隣の町の土地へ動かしたときは、建物の所在の変更の登記を申請します。滅失の登記と新たな表題登記は要りません。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/h27-mondai/q12-kankatsu-toukisho.md`、`note-articles/h23-mondai/q14-kankatsu.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`
-
 ### オ：さん橋の上の建物は、最も近い土地の地番に「地先」と記録する
 
 建物が永久的な施設としてのさん橋の上に存する場合は、その建物から最も近い土地の地番を用いて、「何番地先」のように所在を記録します（準則88条4項）。
@@ -71,8 +63,6 @@
 固定した浮船を利用した建物も、同じ扱いです。本肢は正しいといえます。
 
 **たとえば**、港のさん橋の上に建っている売店は、岸に最も近い土地が「10番」なら、所在は「10番地先」と記録します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q11-tatemono-shozai.md`、`note-articles/h25-mondai/q10-tatemono-shozai.md`
 
 ---
 
@@ -92,14 +82,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`、`note-articles/h25-mondai/q10-tatemono-shozai.md`、`note-articles/h23-mondai/q14-kankatsu.md`、`note-articles/h25-mondai/q11-kaokubangou.md`、`note-articles/jissen-tanren01-mondai/q10-chiban.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`、`note-articles/h27-mondai/q12-kankatsu-toukisho.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`
+- **イ**　関連する過去の記事：`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`
+- **ウ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`
+- **エ**　関連する過去の記事：`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/h27-mondai/q12-kankatsu-toukisho.md`、`note-articles/h23-mondai/q14-kankatsu.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`
+- **オ**　関連する過去の記事：`note-articles/r2-mondai/q11-tatemono-shozai.md`、`note-articles/h25-mondai/q10-tatemono-shozai.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（4番＝イ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法51条・53条、不動産登記事務取扱手続準則4条（1項・2項）・85条・88条は、`note-articles/laws/`配下の原文で確認しました。
 - イの原因の日付が分筆の登記の日であることは、登記実務の取扱いによるもので、条文・準則の原文では確認できていません（原文は未確認）。過去問の一問一答バンクで確認できたのは、変更の日から1か月以内に申請する義務（法51条1項）までです。
 - ウは、法51条1項（変更の登記に1か月の期限）と法53条（更正の登記に期限の定めがない）の違いから整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

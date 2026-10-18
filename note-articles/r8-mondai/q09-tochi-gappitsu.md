@@ -30,8 +30,6 @@
 
 **たとえば**、甲土地の抵当権が2件で、乙土地は1件しかない場合、1件が同じ内容でも、残る1件は合筆後の土地に引き継げないので、合筆の登記はできません。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h24-mondai/q08-gappitsu.md`
-
 ### イ：信託目録の登記事項が同一なら、合筆できる
 
 信託の登記がある土地でも、信託の登記の登記事項（不動産登記法97条1項各号）が同一であれば、合筆の登記ができます（不動産登記規則105条3号）。
@@ -39,8 +37,6 @@
 「信託目録の登記事項が同一でも合筆できない」とする本肢は誤りです。
 
 **たとえば**、同じ信託の内容で信託の登記がされた隣り合う2筆の土地は、信託の内容が全く同じなら、合筆できます。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q10-gappitsu-seigen.md`、`note-articles/h28-mondai/q10-gappitsu.md`、`note-articles/h22-mondai/q04-gappitsu.md`
 
 ### ウ：現況の地目が異なる土地は、登記記録の地目が同じでも合筆できない
 
@@ -52,8 +48,6 @@
 
 **たとえば**、登記簿上はどちらも「畑」でも、片方がすでに駐車場になっているなら、その土地の地目変更の登記を先にしてからでないと、合筆はできません。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r6-mondai/q09-gappitsu-touki.md`、`note-articles/h20-mondai/q08-bungappitsu.md`、`note-articles/h18-mondai/q13-tochi-gappitsu.md`
-
 ### エ：同一の地図に記録されていなくても、接続していれば合筆できる
 
 合筆できない場合は、不動産登記法41条に限定されています。相互に接続していない土地は合筆できません（同条1号）が、同一の地図や地図に準ずる図面に記録されているかどうかは、制限の要件にありません。
@@ -62,8 +56,6 @@
 
 **たとえば**、一方が地図に記録され、もう一方が地図に準ずる図面に記録されていても、隣り合っていて他の要件を満たせば、合筆できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q09-gappitsu.md`
-
 ### オ：買戻しの特約の登記は、期間満了でも抹消しなければ合筆できない
 
 所有権の登記以外の権利に関する登記がある土地は、原則として合筆できません。例外として合筆後も引き継げる登記は、地役権・担保権・信託・鉱害賠償登録に関する一定の登記だけです（不動産登記法41条6号、不動産登記規則105条）。
@@ -71,8 +63,6 @@
 買戻しの特約の登記は、この例外に含まれません。期間が満了していても、登記を抹消しなければ合筆できません。本肢は誤りです。
 
 **たとえば**、買戻しの期間が過ぎた土地でも、登記簿に買戻しの特約が残っている間は、合筆できません。先に特約の登記を抹消します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h18-mondai/q13-tochi-gappitsu.md`
 
 ---
 
@@ -92,14 +82,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q09-gappitsu-touki.md`、`note-articles/r4-mondai/q09-gappitsu.md`、`note-articles/r2-mondai/q10-gappitsu-seigen.md`、`note-articles/h29-mondai/q14-gappitsu.md`、`note-articles/h28-mondai/q10-gappitsu.md`、`note-articles/h27-mondai/q09-gappitsu.md`、`note-articles/h24-mondai/q08-gappitsu.md`、`note-articles/h23-mondai/q08-bunpitsu-gappitsu-kenri.md`、`note-articles/h22-mondai/q04-gappitsu.md`、`note-articles/h20-mondai/q08-bungappitsu.md`、`note-articles/h19-mondai/q10-gappitsu.md`、`note-articles/h18-mondai/q13-tochi-gappitsu.md`、`note-articles/chokuzen-fukushuu-card/f04-tochi-bunpitsu-gappitsu.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/h24-mondai/q08-gappitsu.md`
+- **イ**　関連する過去の記事：`note-articles/r2-mondai/q10-gappitsu-seigen.md`、`note-articles/h28-mondai/q10-gappitsu.md`、`note-articles/h22-mondai/q04-gappitsu.md`
+- **ウ**　関連する過去の記事：`note-articles/r6-mondai/q09-gappitsu-touki.md`、`note-articles/h20-mondai/q08-bungappitsu.md`、`note-articles/h18-mondai/q13-tochi-gappitsu.md`
+- **エ**　関連する過去の記事：`note-articles/r4-mondai/q09-gappitsu.md`
+- **オ**　関連する過去の記事：`note-articles/h18-mondai/q13-tochi-gappitsu.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（1番＝ア・ウ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法41条・97条、不動産登記規則105条は、`note-articles/laws/`配下の原文で確認しました。
 - ア・イ・エ・オは、過去問の一問一答バンクにも同型の出題があり、結論は一致しています。
 - ウは、現況の地目が異なる土地の合筆が許されないことを、法41条2号の趣旨と、登記の内容が現況と合っていない場合の扱い（不動産登記法25条11号）から整理したもので、現況の地目を要件とする具体の先例は原文を確認できていません。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

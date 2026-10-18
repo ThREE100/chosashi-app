@@ -32,8 +32,6 @@
 
 **たとえば**、分筆の線を、思っていた位置と少しずらして申請してしまった場合、地図訂正の申出では線を動かせません。位置を改めるには、分筆の錯誤を原因とする登記で是正し、正しい線で改めて分筆するなど、別の手続が必要になります（先例・実務の取扱い）。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`
-
 ### イ：分筆の登記では、登記識別情報は通知されない
 
 登記識別情報が通知されるのは、その登記をすることで申請人自らが登記名義人になる場合です（不動産登記法21条）。
@@ -41,8 +39,6 @@
 分筆の登記は、土地を分けるだけで、登記名義人が新しくなるわけではありません。乙土地の所有権の登記名義人にも、新しい登記識別情報は通知されません。本肢は誤りです。
 
 **たとえば**、1筆を2筆に分筆しても、新しい識別情報の通知書は届きません。以前の識別情報を引き続き使います。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h30-mondai/q08-tochi-hyouji.md`、`note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md`、`note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md`、`note-articles/h17-mondai/q09-touki-shikibetsu-jouhou.md`
 
 ### ウ：分筆で消滅させる抵当権の登記は、一方の土地についてだけ
 
@@ -52,8 +48,6 @@
 
 **たとえば**、2筆に分筆するとき、抵当権者が「乙土地からは抵当権を外してよい」と承諾すれば、乙土地には抵当権が付かなくなり、甲土地にだけ残ります。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r7-mondai/q11-bunpitsu.md`、`note-articles/r5-mondai/q09-bunpitsu.md`、`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r3-mondai/q11-bunpitsu.md`
-
 ### エ：相続人の1人は、一部地目変更分筆登記を単独で申請できる
 
 表題部所有者又は所有権の登記名義人が申請できる表示に関する登記は、その人に相続があったときは、相続人が申請できます（不動産登記法30条）。
@@ -62,8 +56,6 @@
 
 **たとえば**、亡くなった父の土地の一部が駐車場になったとき、子のうち1人が単独で、その部分を分筆して地目を変える登記を申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q08-bunpitsu.md`
-
 ### オ：敷地権のある土地の分筆は、区分建物の所有者全員の申請ではない
 
 分筆の登記は、表題部所有者又は所有権の登記名義人以外の者は、申請できません（不動産登記法39条1項）。
@@ -71,8 +63,6 @@
 敷地権である旨の登記がされている土地でも、「区分建物の所有権の登記名義人の全員が申請人とならなければならない」という定めはありません。本肢は誤りです。
 
 **たとえば**、分譲マンションの敷地を分筆するときに、住戸の所有者全員が申請書に名前を並べなければならない、という決まりはありません。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r2-mondai/q14-shikichiken.md`、`note-articles/r1-mondai/q18-kubun-tatemono.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`
 
 ---
 
@@ -92,15 +82,23 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q11-bunpitsu.md`、`note-articles/r6-mondai/q08-bunpitsu-touki.md`、`note-articles/r5-mondai/q09-bunpitsu.md`、`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r3-mondai/q11-bunpitsu.md`、`note-articles/r2-mondai/q09-bunpitsu-touki.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`、`note-articles/h26-mondai/q10-bunpitsu.md`、`note-articles/h25-mondai/q09-bunpitsu.md`、`note-articles/h24-mondai/q07-bunpitsu.md`、`note-articles/h23-mondai/q06-bunpitsu.md`、`note-articles/h22-mondai/q18-bunpitsu.md`、`note-articles/h19-mondai/q12-bunpitsu.md`、`note-articles/h18-mondai/q14-bunpitsu-touki.md`、`note-articles/h20-mondai/q13-bunpitsu-tenpu.md`、`note-articles/h17-mondai/q06-bunpitsu-shinsei.md`、`note-articles/chokuzen-fukushuu-card/f04-tochi-bunpitsu-gappitsu.md`、`note-articles/h30-mondai/q08-tochi-hyouji.md`、`note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md`、`note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md`、`note-articles/h17-mondai/q09-touki-shikibetsu-jouhou.md`、`note-articles/r2-mondai/q14-shikichiken.md`、`note-articles/r1-mondai/q18-kubun-tatemono.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`
+- **イ**　関連する過去の記事：`note-articles/h30-mondai/q08-tochi-hyouji.md`、`note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md`、`note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md`、`note-articles/h17-mondai/q09-touki-shikibetsu-jouhou.md`
+- **ウ**　関連する過去の記事：`note-articles/r7-mondai/q11-bunpitsu.md`、`note-articles/r5-mondai/q09-bunpitsu.md`、`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r3-mondai/q11-bunpitsu.md`
+- **エ**　関連する過去の記事：`note-articles/r4-mondai/q08-bunpitsu.md`
+- **オ**　関連する過去の記事：`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r2-mondai/q14-shikichiken.md`、`note-articles/r1-mondai/q18-kubun-tatemono.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（2番＝ア・エ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法21条・30条・39条・40条、不動産登記規則16条・104条は、`note-articles/laws/`配下の原文で確認しました。
 - アの「分筆の錯誤を原因とする登記で是正し、改めて分筆するなど別の手続が必要」という部分は、先例に基づく実務の扱いで、先例の原文と是正の具体的な形（錯誤による抹消のうえ再分筆か、合筆か）は確認できていません。過去問の一問一答バンクにも、分筆線の誤りを地図訂正や地積更正で直せるとする誤りの肢があり、結論は一致しています。
 - ウは、条文（法40条・規則104条）の文言が一方の土地についての消滅を想定した書き方であること、過去問に同型の誤りの肢があることから誤りと整理しました。双方の土地について消滅させることを承諾しても、登記官が双方に消滅の記録をすることはできないという整理は、過去の出題（令和5年度の同旨の肢）とも一致しています。
 - エは、過去問に同旨の出題があり、結論は一致しています。オは、法39条1項の申請人の定めから整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

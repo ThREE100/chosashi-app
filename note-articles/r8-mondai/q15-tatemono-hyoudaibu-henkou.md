@@ -30,8 +30,6 @@
 
 **たとえば**、1階建ての店舗の上に、新しく区分建物を建てて一棟の建物にしたときは、店舗の変更の登記と、新しい区分建物の表題登記を、同時に申請します。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q17-kubun-tatemono.md`、`note-articles/h29-mondai/q17-kubun-tatemono.md`
-
 ### イ：取壊しと増築を同時にしたときは、増築部分の所有権を証する情報が必要
 
 建物の床面積が増加する変更の登記では、増加した部分について、所有権を有することを証する情報を提供します（不動産登記令別表の十四の項ロ（２））。
@@ -39,8 +37,6 @@
 建物の一部の取壊しと増築を同時にしたときは、床面積が結果として減少しても、新しく増築した部分については所有権を証する情報が要るという取扱いです（実務上の取扱い）。本肢は正しいといえます。
 
 **たとえば**、古い部分を10平方メートル壊して、新しい部分を6平方メートル増築した場合、全体の床面積は減りますが、増築した6平方メートル分について、確認済証・検査済証や工事完了引渡証明書などで所有権を証明します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md`
 
 ### ウ：代理人が申請するときも、未成年者の氏名と住所を申請情報にする
 
@@ -50,8 +46,6 @@
 
 **たとえば**、未成年の子が所有する建物の床面積の変更を、土地家屋調査士が両親から依頼されて申請するときは、申請書に、子の氏名・住所と、調査士の氏名・住所の両方を書きます。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
-
 ### エ：変更後に取得した人の期限は、所有権の登記名義人になった日から1か月
 
 建物の表題部の登記事項に変更があった後に、所有権の登記名義人となった人は、その人に係る所有権の登記があった日から1か月以内に、変更の登記を申請しなければなりません（不動産登記法51条2項）。
@@ -60,8 +54,6 @@
 
 **たとえば**、一部が取り壊された建物を買った人は、買った日から1か月ではなく、自分への所有権の移転の登記がされた日から1か月以内に、床面積の変更の登記を申請します。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
-
 ### オ：床面積が減る変更の登記に、抵当権者の承諾は要らない
 
 建物の表題部の変更の登記の添付情報を定める不動産登記令別表の十四の項には、抵当権の登記名義人の承諾を証する情報を提供する定めがありません。床面積が減少する場合も同じです。
@@ -69,8 +61,6 @@
 床面積の変更は、建物の現況を登記に反映させる登記で、抵当権者の承諾が登記の要件にならないためです。「承諾を証する情報を提供しなければならない」とする本肢は誤りです。
 
 **たとえば**、抵当権が付いた建物の一部を取り壊して床面積が減ったときも、抵当権者に承諾をもらわずに、変更の登記を申請できます。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
 
 ---
 
@@ -90,14 +80,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`、`note-articles/h30-mondai/q12-tatemono-hyoudaibu.md`、`note-articles/h26-mondai/q11-tatemono-hyoudaibu-henkou.md`、`note-articles/h27-mondai/q14-tatemono-hyoudai.md`、`note-articles/h22-mondai/q14-tatemono-tenpu.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md`、`note-articles/r4-mondai/q17-kubun-tatemono.md`、`note-articles/h29-mondai/q17-kubun-tatemono.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/r4-mondai/q17-kubun-tatemono.md`、`note-articles/h29-mondai/q17-kubun-tatemono.md`
+- **イ**　関連する過去の記事：`note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md`
+- **ウ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
+- **エ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
+- **オ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（5番＝エ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法51条・52条、不動産登記令3条・別表の十四の項は、`note-articles/laws/`配下の原文で確認しました。
 - イは、令別表の十四の項ロが「床面積が増加するとき」の増加部分の所有権を証する情報を求めていることから整理しました。一部の取壊しと増築を同時にして、結果として床面積が減る場合の取扱いまでは、`laws/`で確認できていません。
 - ウ・オは、過去問の一問一答バンクにも同旨の出題があり、結論は一致しています。エは、法51条2項の文言から整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

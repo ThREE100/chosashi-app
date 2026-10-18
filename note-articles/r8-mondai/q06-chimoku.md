@@ -30,8 +30,6 @@
 
 **たとえば**、工業専用地域に建つ工場の敷地でも、登記簿上の地目は「宅地」です。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h22-mondai/q12-chimoku.md`
-
 ### イ：発電用のダムの貯水池用地は、池沼
 
 かんがい用水でない水の貯留池は、「池沼」です（準則68条8号）。発電のためのダムの貯水池は、耕地のかんがい用ではないため、池沼にあたります。
@@ -39,8 +37,6 @@
 耕地のかんがい用の用水貯留池は「ため池」で、別の地目です（同条17号）。本肢は正しいといえます。
 
 **たとえば**、農業用水をためる池は「ため池」、発電のためにせき止めた水をためる池は「池沼」です。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h18-mondai/q07-chimoku-nintei.md`
 
 ### ウ：校舎と一体の運動場がある土地は、学校用地
 
@@ -50,8 +46,6 @@
 
 **たとえば**、小学校の校庭は、校舎の敷地と同じく「学校用地」です。雑種地にはなりません。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h30-mondai/q09-chimoku.md`、`note-articles/h17-mondai/q16-chimoku-nintei.md`
-
 ### エ：牧場地域内の牧畜用の建物の敷地は、すべて牧場
 
 牧畜のために使用する建物の敷地、牧草栽培地及び林地などで、牧場地域内にあるものは、すべて「牧場」とされます（準則69条4号）。建物が永久的設備かどうかは問われず、宅地にはなりません。
@@ -60,8 +54,6 @@
 
 **たとえば**、牧場の中の牛舎の敷地は、牛舎が頑丈な建物でも、地目は牧場です。畑の中の農具小屋は、永久的な建物のときだけ宅地になります。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q08-chimoku.md`、`note-articles/h25-mondai/q08-chimoku.md`
-
 ### オ：田と畑は、用水を利用するかどうかで決まる
 
 農耕地のうち、用水を利用して耕作する土地は「田」、用水を利用しないで耕作する土地は「畑」です（準則68条1号・2号）。何を栽培しているかではなく、耕作に用水を利用するかどうかで区別します。
@@ -69,8 +61,6 @@
 本肢は正しいといえます。
 
 **たとえば**、稲を育てるために水を引いている土地は田、水を引かずに野菜を育てている土地は畑です。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r1-mondai/q05-chimoku.md`
 
 ---
 
@@ -90,14 +80,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q08-chimoku.md`、`note-articles/r4-mondai/q06-chimoku.md`、`note-articles/r3-mondai/q10-chimoku.md`、`note-articles/r2-mondai/q06-chimoku-nintei.md`、`note-articles/r1-mondai/q05-chimoku.md`、`note-articles/h30-mondai/q09-chimoku.md`、`note-articles/h25-mondai/q08-chimoku.md`、`note-articles/h22-mondai/q12-chimoku.md`、`note-articles/h21-mondai/q05-chimoku.md`、`note-articles/h19-mondai/q13-chimoku.md`、`note-articles/h18-mondai/q07-chimoku-nintei.md`、`note-articles/h17-mondai/q16-chimoku-nintei.md`、`note-articles/jissen-tanren01-mondai/q11-chimoku.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/h22-mondai/q12-chimoku.md`
+- **イ**　関連する過去の記事：`note-articles/h18-mondai/q07-chimoku-nintei.md`
+- **ウ**　関連する過去の記事：`note-articles/h30-mondai/q09-chimoku.md`、`note-articles/h17-mondai/q16-chimoku-nintei.md`
+- **エ**　関連する過去の記事：`note-articles/r5-mondai/q08-chimoku.md`、`note-articles/h25-mondai/q08-chimoku.md`
+- **オ**　関連する過去の記事：`note-articles/r1-mondai/q05-chimoku.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（4番＝イ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記規則99条、不動産登記事務取扱手続準則68条・69条は、`note-articles/laws/`配下の原文で確認しました。
 - イの発電用ダムの貯水池用地を池沼とすることは、準則68条8号（かんがい用水でない水の貯留池）の文言から導いたもので、ダムを例示した規定は見つかっていません。解答速報の正解（4番＝イ・オ）と整合しています。
 - 過去問の一問一答バンクにも、工場用地・牧場・学校用地・水力発電のダム貯水池用地の肢があり、結論は一致しています。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

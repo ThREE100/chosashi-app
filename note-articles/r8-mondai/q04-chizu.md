@@ -34,8 +34,6 @@
 
 **たとえば**、新しく作る精密な地図は、「どこが筆界か」まで正確に示します。古い公図のような地図に準ずる図面は、土地のおよその位置と形を示すにとどまります。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/h21-mondai/q13-chizu-teisei.md`
-
 ### イ：特段の事由があるときは、接続する区域を含めて地図を作成できる
 
 地図は、地番区域又はその適宜の一部ごとに、正確な測量及び調査の成果に基づいて作成します（不動産登記規則10条1項本文）。
@@ -44,8 +42,6 @@
 
 **たとえば**、地番区域の境目で、隣の区域と一緒に測量したほうが実情に合うときは、境目の向こうの区域を含めて1つの地図にできます。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`
-
 ### ウ：地図作成事業による職権の地積更正の原因は「錯誤、地図作成」
 
 法務局が行う地図作成事業では、登記官が、事業の対象になった土地について、職権で地積に関する更正の登記をすることがあります。このとき、登記原因及びその日付の欄には、「錯誤、地図作成」と日付が記録されます（原因の欄番号は③）。
@@ -53,8 +49,6 @@
 申請に基づく登記ではなく、登記官が職権でするため、申請人が原因を書くことはありません。本肢は正しいといえます。
 
 **たとえば**、法務局が地域の地図を新しく作る事業で、測量の結果、ある土地の登記簿上の面積が実際と違うと分かったときは、登記官が職権で面積を直し、原因欄に「錯誤、地図作成」と記録します。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`
 
 ### エ：街区境界調査図は、地図そのものとしては扱われない
 
@@ -66,8 +60,6 @@
 
 **たとえば**、道路などで区切られた一まとまりの区域（街区）の外側との境界だけを先に測った図は、街区の中の一筆ごとの境界までは示していません。だから、各土地の区画を明確にする地図とは別の扱いになります。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`
-
 ### オ：地図には、図郭線とその座標値が記録される
 
 地図には、地番区域の名称、地図の番号、縮尺、平面直角座標系の番号又は記号、図郭線及びその座標値、各土地の区画及び地番などを記録します（不動産登記規則13条1項）。
@@ -75,8 +67,6 @@
 図郭線の座標値は、記録事項の1つです。「記録されない」とする本肢は誤りです。
 
 **たとえば**、地図1枚ごとの外枠（図郭線）の角に座標値が書かれているのは、その地図が広い範囲のどこにあたるのかを、座標で示すためです。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`
 
 ---
 
@@ -96,15 +86,23 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h30-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h26-mondai/q05-chizu.md`、`note-articles/h24-mondai/q05-chizu.md`、`note-articles/h21-mondai/q13-chizu-teisei.md`、`note-articles/h21-mondai/q16-kouzu-rekishi.md`、`note-articles/h18-mondai/q17-chizu-tatemono-shozaizu.md`、`note-articles/h17-mondai/q17-tochishozaizu.md`、`note-articles/jissen-tanren01-mondai/q07-chizu-teisei.md`、`note-articles/chokuzen-fukushuu-card/f06-chizu-sokuryozu.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/h21-mondai/q13-chizu-teisei.md`
+- **イ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`
+- **ウ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`
+- **エ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`
+- **オ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（3番＝イ・ウ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法14条、不動産登記規則10条・13条は、`note-articles/laws/`配下の原文で確認しました。
 - イの問題文は「特段の事情」ですが、規則10条1項ただし書の文言は「特段の事由」です。意味は同じなので、正しい記述として扱いました。
 - ウの「錯誤、地図作成」という原因の記録は、過去の試験で登記記録の例として出た表記と一致しますが、扱いを定めた通達の原文は`laws/`に収録がなく、確認できていません。エの街区境界調査図の備付けの扱いも、`laws/`に収録がなく、国土調査法の送付・備付けの規定と通達の原文を確認できていません。エは、国土調査法21条の2の文言（先行して行うのは街区外土地との境界に関する測量のみ）と、規則10条5項（地図として備え付けるのは地籍図の写し）から、地図そのものとは扱われないと整理した暫定の説明です。ウ・エの正誤は、解答速報の正解（3番＝イ・ウ）と整合しています。
 - 国土調査法21条の2の条文は、問題文に掲載された参考条文の文言によっています。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

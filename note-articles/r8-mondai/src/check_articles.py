@@ -91,8 +91,8 @@ for path in files:
             bad(f, "たとえばがない: " + s[:10])
         if not re.search(r"本肢は(誤りです|正しいといえます)", s):
             bad(f, "肢の結論句がない: " + s[:6])
-        if "※欄外メモ" not in s:
-            bad(f, "欄外メモがない: " + s[:6])
+        if "※欄外メモ" in s:
+            bad(f, "note貼付範囲に欄外メモが残っている: " + s[:6])
     expl = "\n".join(sec[1:6])
     if "この肢は誤りです" in expl:
         bad(f, "結論句の表記が混在")
@@ -192,8 +192,14 @@ for path in files:
     for p in re.findall(r"`(note-articles[^`]*\.md)`", text):
         if not os.path.exists(os.path.join(REPO, p)):
             bad(f, "リンク先が存在しない: " + p)
-    if len(re.findall(r"※欄外メモ", text)) < 6:
-        bad(f, "欄外メモが6か所未満")
+    tail = text.split("**正解：")[-1]
+    if len(re.findall(r"^※欄外メモ", tail, flags=re.M)) != 2:
+        bad(f, "正解の後ろの欄外メモ（論点別・各肢別）が2か所でない")
+    memo_lines = re.findall(r"^- \*\*([アイウエオ])\*\*　", tail, flags=re.M)
+    if memo_lines != list("アイウエオ"):
+        bad(f, "各肢の欄外メモがア〜オ順に5件ない: " + "".join(memo_lines))
+    if "※欄外メモ" in text.split("**正解：")[0]:
+        bad(f, "正解より前に欄外メモがある")
     # 13 個人用の分析ファイル（誤答の問題のみ）
     if n in (3, 4, 13, 14, 17, 18):
         pf = os.path.join(ROOT, "personal", "q{:02d}-analysis.md".format(n))

@@ -30,8 +30,6 @@
 
 **たとえば**、母屋と物置の2棟のうち物置を壊しても、母屋の位置や形は変わらないので、建物図面を新しく作って添付する必要はありません。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q14-fuzoku-tatemono.md`、`note-articles/r4-mondai/q14-fuzoku-tatemono.md`、`note-articles/r2-mondai/q13-fuzoku-tatemono.md`
-
 ### イ：附属建物の床面積の変更では、変更前の記録を符号以外すべて抹消して記録し直す
 
 附属建物の種類、構造又は床面積に関する変更の登記や更正の登記では、表題部に附属建物に関する記録をするときは、変更後又は更正後の種類、構造及び床面積の全部を記録し、従前の登記事項（符号を除く。）の全部を抹消します（準則94条1項）。
@@ -40,8 +38,6 @@
 
 **たとえば**、物置の床面積だけが変わった場合も、物置の欄は、種類・構造・床面積を3つとも新しく書き直し、符号以外の従来の記録は全部消されます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`、`note-articles/h30-mondai/q14-fuzoku-tatemono.md`
-
 ### ウ：附属建物の記録は、種類が同じでも「同上」と略さない
 
 表題部に附属建物に関する事項を記録するとき、種類、構造及び床面積が直前に記録された附属建物と同一でも、「同上」のように略記してはなりません（準則92条）。
@@ -49,8 +45,6 @@
 種類だけが同じ場合でも同様で、略記する定めはありません。「種類欄に「同上」と記録される」とする本肢は誤りです。
 
 **たとえば**、物置が2つ並んで登記されても、2つ目の欄にも、物置の種類・構造・床面積をそのまま書き、「同上」とは書きません。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h30-mondai/q14-fuzoku-tatemono.md`
 
 ### エ：抵当権の登記があっても、附属建物の新築による変更の登記はできる
 
@@ -62,8 +56,6 @@
 
 **たとえば**、抵当権の付いた母屋の隣に物置を建てたときも、物置を附属建物とする変更の登記を申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r1-mondai/q09-tatemono-kosuu.md`
-
 ### オ：敷地権付き区分建物が附属建物のときは、構造欄に敷地権を記録する
 
 区分建物でない建物の附属建物が、敷地権付き区分建物である場合には、主である建物の表題部の附属建物の表示欄の構造欄に、その附属建物が属する一棟の建物の所在などと、敷地権の内容が記録されます（不動産登記規則別表二）。
@@ -71,8 +63,6 @@
 本肢は正しいといえます。
 
 **たとえば**、一戸建ての敷地の端にある小さなマンションの一室を、一戸建ての附属建物にするときは、附属建物の欄の構造欄に、その一室の敷地権の内容が記録されます。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q14-fuzoku-tatemono.md`、`note-articles/r4-mondai/q14-fuzoku-tatemono.md`、`note-articles/r2-mondai/q13-fuzoku-tatemono.md`
 
 ---
 
@@ -92,14 +82,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q14-fuzoku-tatemono.md`、`note-articles/r4-mondai/q14-fuzoku-tatemono.md`、`note-articles/r2-mondai/q13-fuzoku-tatemono.md`、`note-articles/h30-mondai/q14-fuzoku-tatemono.md`、`note-articles/h26-mondai/q14-fuzoku-tatemono.md`、`note-articles/h23-mondai/q17-fuzoku-tatemono.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`、`note-articles/h17-mondai/q08-fuzoku-tatemono.md`、`note-articles/r1-mondai/q09-tatemono-kosuu.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q14-fuzoku-tatemono.md`、`note-articles/r4-mondai/q14-fuzoku-tatemono.md`、`note-articles/r2-mondai/q13-fuzoku-tatemono.md`
+- **イ**　関連する過去の記事：`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`、`note-articles/h30-mondai/q14-fuzoku-tatemono.md`
+- **ウ**　関連する過去の記事：`note-articles/h30-mondai/q14-fuzoku-tatemono.md`
+- **エ**　関連する過去の記事：`note-articles/r1-mondai/q09-tatemono-kosuu.md`
+- **オ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q14-fuzoku-tatemono.md`、`note-articles/r4-mondai/q14-fuzoku-tatemono.md`、`note-articles/r2-mondai/q13-fuzoku-tatemono.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（4番＝イ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記事務取扱手続準則78条1項・92条・94条1項は、`note-articles/laws/`配下の原文で確認しました。
 - アの図面の提供を省略できる点は、不動産登記令別表十四の項の添付情報欄（建物図面が必要な場合の列挙に附属建物の取壊しがない）で確認しました。オの附属建物が区分建物の場合の記録は、不動産登記規則別表二（附属建物の表示欄・構造欄）で確認しました。過去問の一問一答バンクにも、アは同旨の出題（省略できる旨の肢と、省略できないとする誤りの肢）があり、結論は一致しています。
 - エは、過去問の一問一答バンクに同型の誤りの肢があり、結論は一致しています。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

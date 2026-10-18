@@ -30,8 +30,6 @@
 
 **たとえば**、床から立ち上がった腰高の出窓は、床面と同じ高さではないので床面積に入りません。床まで届く高さ1.5メートル以上の出窓は、床面積に入ります。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q10-tatemonozumen.md`、`note-articles/r4-mondai/q12-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`
-
 ### イ：屋上の出入口だけのための塔屋は、床面積に算入しない
 
 屋上に出るための出入口だけに使われる塔屋は、外気分断性があっても、建物の床面積には算入しません。階として扱われず、居室などとしての実質がないためです。
@@ -39,8 +37,6 @@
 算入されるのは、塔屋の一部が管理事務所や倉庫などとして実際に使われているときで、そのときは塔屋全体が算入されます。階段室・機械室・水槽など、設備や出入口を収めるだけの塔屋は算入しません。「外気分断性がある場合には算入する」とする本肢は誤りです。
 
 **たとえば**、ビルの屋上に出るための階段を覆っている小さな塔屋は、床面積に入りません。同じ塔屋の一部が倉庫に使われているときは、塔屋全体が床面積に入ります。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
 
 ### ウ：区分建物が属する一棟の建物の床面積は、壁の中心線で測る
 
@@ -50,8 +46,6 @@
 
 **たとえば**、マンションの一棟全体の床面積は、外壁や隣の住戸との壁の厚みの真ん中で測り、各住戸の専有部分の床面積は、壁の内側で測ります。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
-
 ### エ：吹抜は、上階には算入せず、1階には算入する
 
 建物の一部が上階まで吹抜になっている場合、その吹抜の部分は、上階の床面積に算入しません（準則82条8号）。
@@ -60,8 +54,6 @@
 
 **たとえば**、2階建ての家で、リビングが2階の天井まで吹き抜けているときは、リビングの広さは1階の床面積に入り、2階の床面積には入りません。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`
-
 ### オ：エレベーター室は、各階の床面積に算入する
 
 階段室、エレベーター室などは、床を有するものとみなして、各階の床面積に算入します（準則82条6号）。
@@ -69,8 +61,6 @@
 1階部分だけを算入するのではありません。本肢は誤りです。
 
 **たとえば**、5階建てのビルのエレベーター室は、1階から5階まで各階の床面積に入ります。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`
 
 ---
 
@@ -90,14 +80,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/r4-mondai/q12-yukamenseki.md`、`note-articles/r2-mondai/q12-kouzou-yukamenseki.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h28-mondai/q12-tatemono-kouzou-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h21-mondai/q17-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`、`note-articles/h19-mondai/q04-yukamenseki.md`、`note-articles/h17-mondai/q04-yukamenseki.md`、`note-articles/chokuzen-fukushuu-card/f05-tatemono-nintei.md`、`note-articles/r5-mondai/q10-tatemonozumen.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/r5-mondai/q10-tatemonozumen.md`、`note-articles/r4-mondai/q12-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`
+- **イ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
+- **ウ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
+- **エ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`
+- **オ**　関連する過去の記事：`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（1番＝ア・ウ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記規則115条、不動産登記事務取扱手続準則82条6号・8号・11号は、`note-articles/laws/`配下の原文で確認しました。
 - イの屋上出入口専用の塔屋を床面積に算入しない扱いは、`laws/`の準則・規則に直接の定めが見つからず、通達に基づく取扱いと理解しています（原文は未確認）。過去問の一問一答バンクにも、算入するとする誤りの肢と、塔屋の一部が管理事務所や倉庫として使われるときは全体を算入する旨の正しい肢があり、結論は一致しています。
 - ウの「区分建物が属する一棟の建物」を中心線で測る点は、規則115条の本文（中心線）とかっこ書（区分建物は内側線）から整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

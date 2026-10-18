@@ -30,8 +30,6 @@
 
 **たとえば**、隣り合う甲土地と乙土地の所有者AとBが、2人で筆界特定を申請したときは、測量などの費用を、A・Bで半分ずつ負担します。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q16-hikkaitokutei.md`、`note-articles/r6-mondai/q19-hikkai-tokutei.md`、`note-articles/r5-mondai/q18-hikkaitokutei.md`
-
 ### イ：対象土地の一を共通にする複数の申請は、一の申請情報でできる
 
 対象土地の一を共通にする複数の筆界特定の申請は、一の筆界特定申請情報によってすることができます（不動産登記規則208条）。
@@ -39,8 +37,6 @@
 甲土地と乙土地の申請と、甲土地と丙土地の申請は、甲土地が共通なので、一の申請情報でできます。本肢は正しいといえます。
 
 **たとえば**、甲土地の所有者が、東隣の乙土地と西隣の丙土地の両方との筆界を知りたいときは、甲土地を共通にして、1枚の申請書で申請できます。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q19-hikkai-tokutei.md`、`note-articles/h28-mondai/q18-hikkaitokutei.md`
 
 ### ウ：筆界特定では、境界標を設置することは定められていない
 
@@ -50,8 +46,6 @@
 
 **たとえば**、筆界特定がされても、現地には杭などは打たれません。結果は、筆界特定書という書面と図面で示されます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h20-mondai/q12-hikkai-tokutei.md`
-
 ### エ：申請人以外の所有者が主張する筆界の線も、申請情報に書く
 
 筆界特定の申請では、申請人が主張する筆界の線と根拠のほか、対象土地の所有権登記名義人等であって申請人以外のものが、筆界として特定の線を主張しているときは、その線も、筆界特定申請情報の内容にします（不動産登記規則207条3項5号・6号）。
@@ -60,8 +54,6 @@
 
 **たとえば**、申請人が「境界はここ」と主張し、隣の所有者が「いや、あちらだ」と主張しているときは、申請書には、隣人の主張する線も記載します。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h28-mondai/q18-hikkaitokutei.md`
-
 ### オ：取下げのときに還付されるのは、添付書面だけで、申請書は含まれない
 
 筆界特定の申請を取り下げたときは、筆界特定登記官は、筆界特定添付書面を還付します（不動産登記規則245条3項）。
@@ -69,8 +61,6 @@
 還付されるのは添付書面で、申請書は含まれません。「申請書及び添付書面は、申請人に還付される」とする本肢は誤りです。
 
 **たとえば**、筆界特定の申請を取り下げたときは、添えていた書類は返ってきますが、提出した申請書そのものは返ってきません。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h28-mondai/q18-hikkaitokutei.md`
 
 ---
 
@@ -90,14 +80,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q16-hikkaitokutei.md`、`note-articles/r6-mondai/q19-hikkai-tokutei.md`、`note-articles/r5-mondai/q18-hikkaitokutei.md`、`note-articles/r4-mondai/q19-hikkai-tokutei.md`、`note-articles/r3-mondai/q19-hikkai-tokutei.md`、`note-articles/r2-mondai/q18-hikkai-tokutei.md`、`note-articles/h30-mondai/q19-hikkai-tokutei.md`、`note-articles/h29-mondai/q19-hikkai-tokutei.md`、`note-articles/h28-mondai/q18-hikkaitokutei.md`、`note-articles/h26-mondai/q19-hikkaitokutei.md`、`note-articles/h25-mondai/q18-hikkaitokutei.md`、`note-articles/h24-mondai/q10-hikkaitokutei.md`、`note-articles/h23-mondai/q09-hikkai-shoyukenkai.md`、`note-articles/h22-mondai/q10-hikkai-tokutei.md`、`note-articles/h21-mondai/q15-hikkai-kyakka.md`、`note-articles/h20-mondai/q12-hikkai-tokutei.md`、`note-articles/h19-mondai/q09-hikkai-tokutei.md`、`note-articles/jissen-tanren01-mondai/q18-hikkai-tokutei.md`、`note-articles/chokuzen-fukushuu-card/f10-hikkai-tokutei.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q16-hikkaitokutei.md`、`note-articles/r6-mondai/q19-hikkai-tokutei.md`、`note-articles/r5-mondai/q18-hikkaitokutei.md`
+- **イ**　関連する過去の記事：`note-articles/r4-mondai/q19-hikkai-tokutei.md`、`note-articles/h28-mondai/q18-hikkaitokutei.md`
+- **ウ**　関連する過去の記事：`note-articles/h20-mondai/q12-hikkai-tokutei.md`
+- **エ**　関連する過去の記事：`note-articles/h28-mondai/q18-hikkaitokutei.md`
+- **オ**　関連する過去の記事：`note-articles/h28-mondai/q18-hikkaitokutei.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（5番＝ウ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法143条・146条、不動産登記規則207条・208条・245条は、`note-articles/laws/`配下の原文で確認しました。
 - ウの境界標の設置は、法・規則に定めがないことから誤りと整理しました。エは、規則207条3項5号・6号が「するものとする」と定めています。
 - 過去問の一問一答バンクにも、取下げ・申請情報・境界標に関する筆界特定の肢があり、結論は矛盾しません。手続費用の負担割合の肢は、バンクにはありません。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

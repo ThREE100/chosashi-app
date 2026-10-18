@@ -30,8 +30,6 @@
 
 **たとえば**、分譲業者Aが新築したマンションの1室を売ったときも、表題登記は、まずAを表題部所有者として申請します。買主Bの名義にするのは、その後の所有権の保存の登記です。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`
-
 ### イ：共有の建物の表題登記は、共有者の1人が単独で申請できる
 
 共有の建物の表題登記は、共有者全員で申請しなければならないわけではありません。共有者のうちの1人が、単独で、共有者全員を表題部所有者として申請できます。
@@ -39,8 +37,6 @@
 共有者1人の申請は、共有物の保存行為（民法252条5項）にあたると整理されています。申請情報には、各共有者の持分を記載します（不動産登記令3条9号）。「A及びBが共同してしなければならない」とする本肢は誤りです。
 
 **たとえば**、兄弟2人が共有で建物を新築した場合、兄だけが申請書を出して、兄と弟の2人を表題部所有者とする表題登記を申請できます。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`
 
 ### ウ：配偶者居住権を取得しただけの人は、表題登記の申請義務を負わない
 
@@ -50,8 +46,6 @@
 
 **たとえば**、父が亡くなり、遺産分割で、長男Bが建物の所有権を、母Cが配偶者居住権を取得したとします。未登記の建物の表題登記を申請する義務を負うのは、長男Bです。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`
-
 ### エ：区分建物の表題登記に、一棟の建物の表示だけを申請する方法はない
 
 区分建物の表題登記は、一棟の建物の表示と、各区分建物の表示（種類、構造及び床面積など）を、合わせて登記するものです（不動産登記法44条1項）。申請は、同じ一棟の建物に属する他の区分建物の表題登記の申請と併せてします（同法48条1項）。
@@ -60,8 +54,6 @@
 
 **たとえば**、分譲マンションが完成しても、一部の住戸の用途が決まっていないという理由で、建物全体の登記の土台だけを先に申請するという方法はありません。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`
-
 ### オ：保存の登記が錯誤で抹消されたときは、真実の所有者の申請か職権で表題登記がされる
 
 無権利者Aを表題部所有者とする表題登記がされ、さらにAを所有権の登記名義人とする所有権の保存の登記がされていた場合に、その保存の登記が錯誤により抹消されたときは、いったん否定されたAを表題部所有者として復活させるのは適当でないため、登記記録は閉鎖されるとされています（先例）。
@@ -69,8 +61,6 @@
 建物は現に存在するので、真実の所有者Bからの申請、または登記官の職権によって、改めて甲建物についての表題登記がされることになります。本肢は正しいといえます。
 
 **たとえば**、他人の建物を、自分の物だと偽って表題登記と保存の登記をした人の名義が、あとから取り消されたときは、建物の本当の所有者の名義で、登記を改めて作り直す扱いになります。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`
 
 ---
 
@@ -90,15 +80,23 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/h29-mondai/q15-tatemono-shinsei-gimu.md`、`note-articles/h27-mondai/q14-tatemono-hyoudai.md`、`note-articles/h26-mondai/q12-tatemono-shinsei-jouhou.md`、`note-articles/h24-mondai/q13-tatemono-hyouji-touki.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`、`note-articles/h21-mondai/q10-tatemono-hyoji.md`、`note-articles/h18-mondai/q04-tatemono-hyoudai-touki.md`、`note-articles/h17-mondai/q05-hyodai-toki-gimu.md`、`note-articles/chokuzen-fukushuu-card/f01-shinsei-souron.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`
+- **イ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`
+- **ウ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`
+- **エ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`
+- **オ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（4番＝ウ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法44条・47条・48条・74条は、`note-articles/laws/`配下の原文で確認しました。
 - アは、47条1項の「区分建物以外」という文言と、74条2項（区分建物は、表題部所有者から所有権を取得した者も保存の登記を申請できる）から整理しました。過去問の一問一答バンクにも同型の出題があります。イは、過去問に同旨の出題（共有者の1人が単独で申請できる）があります。
 - ウは、47条1項が「所有権を取得した者」に限っていることから整理しました。過去問の一問一答バンクには、配偶者居住権の肢はありません。
 - エの「一棟の建物の表題部に記録すべき事項のみを申請情報とする表題登記」は、法令データベースに根拠となる定めが見つかりませんでした。オは、`laws/`に直接の定めがなく、先例に基づく扱いと理解しています（原文は未確認）。正解（4番＝ウ・オ）との整合から、エを誤り、オを正しいと整理しています。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

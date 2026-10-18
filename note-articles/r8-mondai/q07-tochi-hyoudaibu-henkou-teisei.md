@@ -30,8 +30,6 @@
 
 **たとえば**、亡くなった父名義の土地の面積が実測と違うと分かったとき、兄弟3人のうち長男だけで地積更正を申請できます。弟たちの承諾書は要りません。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`
-
 ### イ：敷地権の登記があっても、地目変更の登記は申請できる
 
 地目に変更があったときは、所有権の登記名義人は、1か月以内に地目の変更の登記を申請しなければなりません（不動産登記法37条1項）。
@@ -39,8 +37,6 @@
 敷地権である旨の登記がされている土地でも、この義務は変わりません。敷地権である旨の登記を抹消した後でなければ申請できない、という定めはなく、本肢は誤りです。
 
 **たとえば**、敷地権付きマンションの敷地の一筆全体が駐車場（雑種地）に変わったときも、敷地権の登記を消すことなく、地目の変更の登記を申請します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r7-mondai/q13-shikichiken.md`、`note-articles/r2-mondai/q07-chimoku-henkou-touki.md`、`note-articles/h28-mondai/q08-chimoku-henkou.md`、`note-articles/h24-mondai/q06-chimoku-henkou.md`
 
 ### ウ：地積更正では、増加部分の所有権の証明は要らない
 
@@ -50,8 +46,6 @@
 
 **たとえば**、実測したら登記簿より面積が広かった土地の地積更正では、測量図は必要ですが、広がった部分が自分の物だという証明書は要りません。建物を増築して床面積が増えたときは、増築部分の所有権の証明が要ります。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/h17-mondai/q15-tiseki-kousei.md`
-
 ### エ：合筆と合筆後の地積更正は、一の申請情報で申請できる
 
 同一の不動産について、表題部の登記事項に関する変更の登記又は更正の登記と、土地の合筆の登記を申請するときは、一の申請情報で申請できます（不動産登記規則35条7号）。
@@ -60,8 +54,6 @@
 
 **たとえば**、2筆を合筆して、合筆後の土地の面積も実測に合わせて直したいときは、1枚の申請書で申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`
-
 ### オ：地図の区画の訂正で地積に錯誤があれば、地積更正と併せて申出をする
 
 地図に表示された土地の区画に誤りがあるときは、所有権の登記名義人などが、その訂正の申出をすることができます（不動産登記規則16条1項）。
@@ -69,8 +61,6 @@
 この場合に、土地の登記記録の地積にも錯誤があるときは、地図訂正の申出は、地積に関する更正の登記の申請と併せてしなければなりません（同条2項）。本肢は正しいといえます。
 
 **たとえば**、地図上の土地の形が実際と違い、登記簿の面積も実測と合わないときは、地図の訂正と地積更正を同時に申請します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h27-mondai/q10-chizu-teisei.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`
 
 ---
 
@@ -90,14 +80,22 @@
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q07-chiseki-kosei.md`、`note-articles/r5-mondai/q07-tochi-hyoudai.md`、`note-articles/r4-mondai/q07-hyoudaibu-hensei-kousei.md`、`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/r2-mondai/q07-chimoku-henkou-touki.md`、`note-articles/h27-mondai/q07-tochi-hyoudai.md`、`note-articles/h26-mondai/q09-chiseki-kousei.md`、`note-articles/h24-mondai/q06-chimoku-henkou.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`、`note-articles/h21-mondai/q07-chiseki-kousei.md`、`note-articles/h17-mondai/q15-tiseki-kousei.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`、`note-articles/r7-mondai/q13-shikichiken.md`、`note-articles/h28-mondai/q08-chimoku-henkou.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`、`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h27-mondai/q10-chizu-teisei.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`
+- **イ**　関連する過去の記事：`note-articles/r7-mondai/q13-shikichiken.md`、`note-articles/r2-mondai/q07-chimoku-henkou-touki.md`、`note-articles/h28-mondai/q08-chimoku-henkou.md`、`note-articles/h24-mondai/q06-chimoku-henkou.md`
+- **ウ**　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/h17-mondai/q15-tiseki-kousei.md`
+- **エ**　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`
+- **オ**　関連する過去の記事：`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h27-mondai/q10-chizu-teisei.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（3番＝イ・ウ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法30条・37条、不動産登記令別表の六の項・十四の項、不動産登記規則16条・35条は、`note-articles/laws/`配下の原文で確認しました。
 - ア・エ・オは、過去問の一問一答バンクにも同旨の出題があり、結論は一致しています。ウは、バンクに「増加部分の所有権を証する情報を提供しなければならない」という誤りの肢があり、結論は一致しています。
 - イの敷地権の登記がある土地の地目の変更は、法37条1項の申請義務に例外が定められていないことから、申請できると整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 

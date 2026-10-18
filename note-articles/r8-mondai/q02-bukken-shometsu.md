@@ -30,8 +30,6 @@
 
 **たとえば**、自分の土地に他人名義の登記がされている場合、所有者は何十年たっても「その登記を消してください」と求めることができます。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
-
 ### イ：占有回収の訴えで占有を回復すれば、占有は続いていたことになる
 
 占有者が占有物の所持を失うと、占有権は消滅するのが原則です。しかし、占有者が占有回収の訴えを提起したときは、占有権は消滅しません（民法203条ただし書）。
@@ -39,8 +37,6 @@
 勝訴して現実に占有を回復すれば、占有を失っていた間も占有が続いていたものとして主張できます。「主張することはできない」とする本肢は誤りです。
 
 **たとえば**、取得時効が進んでいる途中で土地を奪われた人が、1年以内に占有回収の訴えを起こして勝訴し、土地の占有を取り戻せば、奪われていた間も含めて占有期間に数えられます。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/h19-mondai/q03-senyu-soken.md`
 
 ### ウ：賃借人が植えた農作物は、賃借人の物
 
@@ -50,8 +46,6 @@
 
 **たとえば**、畑を借りた人が育てた野菜は、地主の物ではなく、借りた人の物です。収穫して売るのに地主の許可は要りません。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
-
 ### エ：持分を放棄すると、他の共有者に帰属して持分が増える
 
 共有者の1人が持分を放棄したときは、その持分は他の共有者に帰属します（民法255条）。他の共有者の持分の割合に応じて加わると考えるのが一般的です。
@@ -60,8 +54,6 @@ BとCの持分は同じ3分の1ずつなので、Aの3分の1が6分の1ずつ�
 
 **たとえば**、3人で3分の1ずつ持つ建物で1人が持分を手放すと、残る2人の持分は各2分の1になり、2人で建物全部を持つ形になります。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
-
 ### オ：地役権は、20年の時効で消滅する
 
 所有権は時効で消滅しませんが、所有権以外の財産権である地役権は、権利を行使できる時から20年間行使しないと、時効によって消滅します（民法166条2項）。
@@ -69,8 +61,6 @@ BとCの持分は同じ3分の1ずつなので、Aの3分の1が6分の1ずつ�
 起算点は、継続的でなく行使される地役権は最後の行使の時、継続的に行使される地役権は行使を妨げる事実が生じた時です（民法291条）。「時効によっては消滅しない」とする本肢は誤りです。
 
 **たとえば**、隣の土地を通る通行地役権を設定したのに、最後に通ってから20年間、一度も通らなかった場合は、地役権が時効で消滅することがあります。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
 
 ---
 
@@ -90,14 +80,22 @@ BとCの持分は同じ3分の1ずつなので、Aの3分の1が6分の1ずつ�
 
 ※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`、`note-articles/h19-mondai/q03-senyu-soken.md`、`note-articles/r5-mondai/q02-bukkenteki-seikyuuken.md`、`note-articles/h26-mondai/q02-bukkentekiseikyuuken.md`、`note-articles/h30-mondai/q02-fugou.md`、`note-articles/r1-mondai/q02-kyouyuu.md`、`note-articles/h27-mondai/q02-kyouyuu.md`
 
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
+- **イ**　関連する過去の記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/h19-mondai/q03-senyu-soken.md`
+- **ウ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
+- **エ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
+- **オ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（3番＝イ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の民法166条・203条・242条・255条・291条は、`note-articles/laws/`配下の原文で確認しました。
 - ア・ウの結論は判例の内容で、判例の原文は本環境では確認できていません（判例番号は本文に書いていません）。イは過去問の一問一答バンクに同旨の出題（占有を回復しても継続は主張できない、という誤りの肢）があり、結論は一致しています。
 - エの「他の共有者の持分の割合に応じて加わる」という按分の考え方は、一般的な理解に基づくもので、民法255条の文言には按分の定めがありません。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 
