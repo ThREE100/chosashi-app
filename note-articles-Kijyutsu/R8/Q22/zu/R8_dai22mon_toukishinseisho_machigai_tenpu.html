@@ -1,0 +1,40 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }
+.page { padding: 60px 60px 40px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 40px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 22px; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; min-height: 62px; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.plainrow { display: flex; font-size: 22px; margin-bottom: 22px; }
+.plainrow .ryaku { flex: 1; text-align: center; }
+.date { font-size: 23px; margin: 0 0 22px 170px; }
+table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-bottom: 26px; }
+table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 10px; vertical-align: middle; line-height: 1.5; }
+table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.12em; padding: 0 4px; font-size: 19px; }
+table.t td.head { text-align: center; font-size: 18px; height: 60px; }
+table.t td.e { height: 92px; }
+table.t td.c { text-align: center; }
+table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.t td .ink { font-size: 20px; }
+table.t td.g .ink { font-size: 18px; }
+.note { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 16px; color: #555; margin: -16px 0 22px; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 24px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold; margin-bottom: 20px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { text-decoration: line-through; text-decoration-color: #d0021b; text-decoration-thickness: 3px; }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+.bubble { display: inline-block; border: 2.5px solid #d0021b; border-radius: 14px; padding: 8px 18px; color: #d0021b;
+           font-size: 21px; font-weight: bold; background: #fff5f5; line-height: 1.5; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubrow { margin: 14px 0 0; text-align: right; }
+.bubrow .bubble { text-align: left; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+.tall { min-height: 1300px; display: flex; flex-direction: column; justify-content: space-around; }
+</style></head><body><div class="tall">
+<div class="panel"><div class="ptitle ng">①誤答（添付書類）</div><div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:110px"><span class="ink">建物図面　各階平面図　登記識別情報　印鑑証明書<br>規約証明書　代理権限証書</span></div></div></div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:110px"><span class="ink">建物図面　各階平面図　</span><span class="ink strike">登記識別情報　印鑑証明書</span><br><span class="ink">規約証明書　</span><span class="red">抵当権消滅承諾証明書</span><span class="ink">　代理権限証書</span></div></div><div class="bubrow"><span class="bubble">区分は表示に関する登記で、登記識別情報・印鑑証明書は要らない。<br>Eタイプの1番抵当権を消すには、蓮の花銀行の承諾書が要る（法第54条第3項・第40条）</span></div></div>
+<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div><div class="row"><div class="lab">添　付　書　類</div><div class="box good" style="min-height:110px"><span class="ink">建物図面　各階平面図　規約証明書<br>抵当権消滅承諾証明書　代理権限証書</span></div></div></div>
+<div class="caption" style="margin:10px 0 30px">令和8年度 第22問｜要らない2つを消して、抵当権の承諾書を足す</div></div></body></html>
