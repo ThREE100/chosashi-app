@@ -47,8 +47,9 @@ for n in ns:
             errs.append("パネル%d: 禁止語（決定木・ツリー）" % (i + 1))
     if g["field"].count("ア") or "ア〜オ" in g["field"]:
         errs.append("fieldに肢の範囲")
-    if prompt_paren := (pr.count("(") - pr.count(")")):
-        errs.append("半角括弧の開閉の不一致 %d" % prompt_paren)
+    # 固定文（テンプレート由来）に閉じ括弧が1つ余分にあるため、差は-1が正常
+    if (pr.count("(") - pr.count(")")) != -1:
+        errs.append("半角括弧の開閉の不一致 %d" % (pr.count("(") - pr.count(")") + 1))
     if "```" in pr:
         errs.append("コードフェンスを含む")
     for i in range(1, 6):
