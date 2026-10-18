@@ -287,3 +287,162 @@ no re-listed ○/✕ grid of all 肢, and no additional text block of any kind �
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、「その土地の主な用途は何か」を見分けて地目の札を選ぶ5パネル構成。②の色分け（施設の敷地＝緑、農耕地・牧場＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (この土地、地目は何になる？), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a simple land-plot model with a small signpost plate showing the registered land category (地目), a factory building, a dam reservoir, a school building with a running track, a cattle barn inside a fenced pasture, and a paddy field beside a dry field. Each land plot carries one plate such as 「宅地」「池沼」「学校用地」「牧場」「田」「畑」, and a wrong plate is drawn faded with a red cross.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Every panel shows, at the top of its diagram, a small row of land-category plates. The plate that is the correct answer for THIS panel is drawn in full color with a thick border, and the other plates (the tempting wrong answers) are drawn faded, greyed-out, with a thin dotted outline, instead of being omitted. Panels 1 to 3 (green) are about land under facilities, and panels 4 and 5 (blue) are about farmland and pasture.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第6問 作図ガイド（地目の認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+工場の敷地は宅地で、工場用地はない
+Diagram: A decision flowchart. Top: a factory building on a land plot, with a faded label 「工業専用地域」 beside it. Diamond 1 reads 「建物の敷地か」. Yes arrow leads to the conclusion node 「宅地」 (thick border, full color). No arrow leads to a faded node 「ほかの地目の基準で判断」. Beside the flowchart, a faded plate 「工場用地」 with a red cross and a small note 「地目の23種類にはない」. A faded side note shows that the 工業専用地域 designation does not change the land category. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記できる地目に「工場用地」があるかを確認し、次にその土地が建物の敷地かを確認します。工場の敷地は建物の敷地として宅地です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+工場用地はない
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+発電用ダムの貯水池は池沼
+Diagram: A decision flowchart. Top: a mountain dam with a calm reservoir and a small power-generator icon. Diamond 1 reads 「耕地のかんがい用の貯水池か」. Yes arrow leads to a faded node 「ため池」. No arrow leads to the conclusion node 「池沼」 (thick border, full color), because the water is stored for power generation, not for irrigation. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その貯水池が耕地のかんがい用かどうかを確認し、次にかんがい用でなければ池沼と判断します。発電用のダムの貯水池は池沼です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+かんがい用でなければ池沼
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+校舎と一体の運動場は学校用地
+Diagram: A decision flowchart. Top: a school building and a running-track ground drawn as one connected land plot. Diamond 1 reads 「校舎の敷地や運動場にあたるか」. Yes arrow leads to the conclusion node 「学校用地」 (thick border, full color). No arrow leads to a faded diamond 「ほかのどの地目にもあたらないか」, and from it a faded node 「雑種地」 is reached only when the answer is yes. A faded plate 「雑種地」 with a red cross sits on the school ground. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その運動場が校舎の敷地と一体で使われているかを確認し、次に学校用地にあたるかを確認します。雑種地は、ほかのどの地目にもあたらない土地に限られます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+雑種地ではない
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+牧場地域の牧畜用の建物の敷地は牧場
+Diagram: A side-by-side comparison frame. LEFT box (highlighted with a thick colored border, full color) labeled 「牧場地域内」: a fenced pasture with a cattle barn, the plate 「牧場」 stands on the barn site, and a small note 「永久的設備かは問わない」. RIGHT box (faded, greyed-out, dotted outline) labeled 「耕作地の区域内の農具小屋」: a small tool shed in a field with a plate 「宅地」 and a small note 「永久的設備のときだけ」. A faded cross marks the plate 「宅地」 on the barn site.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その建物が牧場地域内にあり牧畜のために使われているかを確認し、次に永久的設備かどうかを見ます。牧場地域内ではすべて牧場で、永久的設備かは問いません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+すべて牧場
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+田と畑は耕作に用水を使うかで決まる
+Diagram: A decision flowchart. Top: a farmland plot. Diamond 1 reads 「耕作に用水を利用するか」. Yes arrow leads to the conclusion node 「田」 (a flooded paddy with a rice plant). No arrow leads to the conclusion node 「畑」 (a dry field with vegetables). A small faded note states that the crop grown is not the test. Both branches end in their own conclusion node, and there are no loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その農耕地で耕作に用水を利用するかを確認します。用水を利用すれば田、利用しなければ畑で、何を栽培するかでは決まりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+用水の有無で決まる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則99条、不動産登記事務取扱手続準則68条・69条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 地、目、認、定、産、登、記、規、条、務、取、続、敷、用、確、建、物、貯、判、体、的、設、備、決、農、有. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

@@ -287,3 +287,162 @@ no re-listed ○/✕ grid of all 肢, and no additional text block of any kind �
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、「何を併せて申請するか」「誰が」「いつまでに」「何を添えて」申請するかを見分ける5パネル構成。『誤っているもの』を選ぶ問題だが、各パネルは肢の正しいルールを示している。②の色分け（申請の組合せと添付情報＝緑、申請人・期限・承諾＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (建物の変更登記、ここがポイント), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric icons of an existing shop building with a newly built unit on top, a paper clip binding two application forms, a demolition-and-extension building drawing, an application form with applicant fields, a calendar, and a mortgage tag - adapt the icon set to the topic of changes in a building's 表題部.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Every panel teaches the correct rule of its own choice. Do not mark any panel with a 正 or 誤 stamp, and do not draw an overall answer.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第15問 作図ガイド（建物の表題部の変更の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+区分建物になる変更は新築の表題登記と併せて申請
+Diagram: An isometric drawing: an existing one-story shop (a building that is not a section of a divided building) with a newly built unit attached to it, forming one building. Below, two application forms,「既存の建物の表題部の変更の登記」 and「新築した区分建物の表題登記」, are held together by one clip labeled「併せて申請」. A green check mark sits on the clip.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、既存の建物に接続して区分建物が新築され、既存の建物が区分建物になったかを確認します。次に、既存の建物の表題部の変更の登記を、新築した区分建物の表題登記と併せて申請します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+併せて申請する
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+取壊しと増築を同時にしたら増築部分の所有権を証明
+Diagram: Four numbered steps from left to right. ① A building with a part being demolished (dotted outline, 10 square meters). ② A new part being added (colored, 6 square meters). ③ The total floor area decreases as a result (a down arrow). ④ A document stack labeled「増築部分の所有権を証する情報」 (examples drawn as small icons: 確認済証, 検査済証, 工事完了引渡証明書) with a green check mark, attached only to the new part.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、増築した部分があるかを確認し、次に全体の床面積が減っていても、増築部分について所有権を有することを証する情報が要ることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+床面積が減っても必要
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+代理人が申請しても未成年者の氏名と住所を書く
+Diagram: An application form drawn large. The applicant field is highlighted with a thick border and filled with「未成年者の氏名・住所」 (a child icon), with a green check mark. Below it, a separate field labeled「代理人の氏名・住所」 (a surveyor icon, with a note that the parents are the ones who entrusted the agent). A small arrow shows that the agent files on behalf of the applicant, but the applicant field stays with the minor.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請人は誰かを確認します。申請人は所有権の登記名義人である未成年者なので、その氏名と住所を申請情報にし、次に代理人の氏名と住所も別に記載します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+申請人は未成年者
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+期限は所有権の登記名義人になった日から1か月
+Diagram: A decision flowchart. Top: a timeline with a building partly demolished, then a purchase by the buyer. A diamond node asks:「自分への所有権の移転の登記がされたか」. The Yes arrow goes to a green conclusion node:「その登記があった日から1か月以内に変更の登記を申請」 (a calendar with the registration day circled). The No arrow goes to its own conclusion node:「まだ登記名義人ではなく、申請義務は生じていない」. A faded calendar on the purchase day with a red ✕ and a note「取得した日から1か月ではない」 is placed beside the timeline. No loop arrows; every branch ends in its own conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、自分への所有権の移転の登記がされて所有権の登記名義人になったかを確認します。次に、名義人になった日から1か月以内かを数え、取得した日は起算日にしません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記の日から1か月
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+床面積が減る変更の登記に抵当権者の承諾は要らない
+Diagram: A building with a mortgage tag labeled「抵当権の登記」, part of it demolished (dotted outline, floor area decreases). Beside it, a checklist of the attached information for a 表題部's change of registration (令別表の十四の項), with items such as 図面 and 所有権を証する情報 ticked. A slot labeled「抵当権者の承諾を証する情報」 is drawn faded and empty with a red ✕, to show that this item is not in the list.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の表題部の変更の登記の添付情報を定める令別表の十四の項に、抵当権者の承諾を証する情報が含まれているかを確認します。含まれていないので、床面積が減少しても承諾は要りません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾は要らない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法51条2項・52条1項、不動産登記令3条・別表の十四の項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 建、物、部、変、更、登、記、産、法、条、整、理、区、分、併、申、請、存、続、確、認、取、時、所、有、権. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

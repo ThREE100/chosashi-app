@@ -289,3 +289,162 @@ no re-listed ○/✕ grid of all 肢, and no additional text block of any kind �
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、「却下されるのか、却下ではなく別の扱いになるのか」を見分ける5パネル構成。②の色分け（却下される＝緑、却下ではない・交付先＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (どんなとき、申請は却下される？), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a registry application form with a red rejection stamp, a notice envelope with a 2-week calendar and an empty mailbox for the advance notice, a registry-office staff member inspecting a land plot, a decision-document envelope handed to an agent, two registry offices straddling one building with an arrow moving the application, and a group of people marked as an unincorporated association with a red cross on its name.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Panels 1, 3 and 5 (ア, ウ, オ) use green badges and end in a rejection (却下); panels 2 and 4 (イ, エ) use blue badges and show the delivery of the decision document and the transfer that is not a rejection. In each flowchart the branch that belongs to that panel's own choice is drawn with a thick border and full color, and the other branches are faded and grey.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第5問 作図ガイド（登記の申請の却下）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+事前通知に期間内の申出がなければ却下される
+Diagram: A decision flowchart read from top to bottom. Start node: 「登記識別情報を提供できないので、登記官が登記義務者に事前通知(不動産登記法23条1項)」, drawn as a notice envelope. Diamond node: 「発送の日から2週間(外国に住所があるときは4週間)以内に、申請の内容が真実だという申出があったか」. Branch 「なかった」 (thick border, full color) goes to a conclusion node 「申請は却下される(法25条10号)」 with a red rejection stamp, drawn with a calendar and an empty mailbox. Branch 「あった」 (faded, grey) goes to its own conclusion node 「却下の理由にはならない」. Beside the flowchart a faded small box labeled 「登記官の本人確認の調査(法24条1項)は別の仕組み」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記識別情報を提供できず事前通知が行われたことを確認します。次に、期間内に申出があったかを確認し、なければ疑うに足りる理由の有無にかかわらず却下されると判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+申出がなければ却下
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+却下の決定書は代理人に交付すれば足りる
+Diagram: A decision flowchart read from top to bottom. Start node: 「登記官が申請を却下する」, drawn as a decision-document envelope. Diamond node: 「代理人によって申請されたか」. Branch 「はい」 (thick border, full color) goes to a conclusion node 「その代理人に交付すれば足りる(不動産登記規則38条1項)」, drawn as the envelope handed to an agent (a land and house investigator) with a check mark, while the arrow toward the applicant is crossed out in red. Branch 「いいえ」 (faded, grey) goes to its own conclusion node 「申請人ごとに交付する」. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、却下された申請が代理人によってされたものかを確認します。次に、代理人によるときは決定書をその代理人に交付すれば足りると判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+代理人に交付で足りる
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+筆界を確認できない地積更正は却下される
+Diagram: A decision flowchart read from top to bottom. Start node: 「地積に関する更正の登記の申請」, then a node 「登記官が必要に応じて実地調査をする(不動産登記法29条)」, drawn as a registry staff member inspecting a land plot. Diamond node: 「申請に係る表示が調査の結果と合致するか」. Branch 「合致しない(筆界を確認できない場合を含む)」 (thick border, full color) goes to a conclusion node 「申請は却下される(法25条11号)」 with a red rejection stamp, drawn as two neighbours pointing at different boundary lines while the inspector tilts his head. Branch 「合致する」 (faded, grey) goes to its own conclusion node 「却下の理由にはならない」. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記官の調査があることを確認します。次に、申請に係る表示が調査の結果と合致するかを確認し、筆界を確認できない場合は合致しないので却下されると判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+調査と合わず却下
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+管轄の指定があれば却下でなく移送される
+Diagram: A decision flowchart read from top to bottom. Start node: 「不動産が二つの登記所の管轄区域にまたがる」, drawn as a building model straddling a line between two registry offices; a note 「指定されるまではどちらの登記所にも申請できる(不動産登記法6条)」. Diamond node: 「一方に申請した後、他方の登記所が指定されたか」. Branch 「指定された」 (thick border, full color) goes to a conclusion node 「申請を受けた登記所が、指定された登記所に事件を移送する(不動産登記規則40条1項)」, drawn as the application form carried by an arrow from one office to the other, with a red cross on the rejection stamp. Branch 「指定されていない」 (faded, grey) goes to its own node 「どちらの登記所でも申請できる」. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、不動産が二つの登記所の管轄区域にまたがり、申請の後に他方の登記所が指定されたかを確認します。次に、指定されたときは却下ではなく、指定された登記所への移送になると判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+却下ではなく移送
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+権利能力なき社団を所有者とする表題登記は却下
+Diagram: A decision flowchart read from top to bottom. Start node: 「建物の表題登記の申請」. Diamond node: 「表題部所有者となる者が権利能力を有するか」. Branch 「有しない(権利能力のない社団)」 (thick border, full color) goes to a conclusion node 「申請は却下される(法25条13号、令20条2号)」 with a red rejection stamp, drawn as a group of people marked as an association trying to become the owner of a building model and stopped by a red cross. Beside it a small note 「社団の不動産は、構成員全員の共有名義か代表者の個人名義で登記する」 with the figure of a representative standing next to the building. Branch 「有する」 (faded, grey) goes to its own conclusion node 「却下の理由にはならない」. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、表題部所有者となる者が権利能力を有するかを確認します。次に、権利能力のない社団は法人ではなく社団名義では登記できないので、却下されると判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+社団名義は不可
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法6条・23条・24条・25条・29条、不動産登記規則38条・40条・70条、不動産登記令20条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 登、記、申、請、却、下、産、法、条、規、前、通、知、期、間、出、行、確、認、理、有、判、定、決、書、代. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

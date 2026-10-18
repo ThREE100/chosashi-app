@@ -164,12 +164,12 @@ for path in files:
         bad(f, "セクションの順序: {}".format(order))
     # 11 プロンプト
     codes = re.findall(r"```[a-z]*\n(.*?)```", text, flags=re.S)
-    expect = 2 + (5 if n in (3, 4, 13, 14, 17, 18) else 0)
+    expect = 3 + len({3: "オ", 4: "アウエオ", 13: "エ", 14: "イオ", 17: "エオ", 18: "アエ"}.get(n, ""))
     if len(codes) != expect:
         bad(f, "コードブロックが{}個でない: {}".format(expect, len(codes)))
     else:
         for i, c in enumerate(codes):
-            name = ["見出し画像", "インフォグラフィック"][i] if i < 2 else "間違いノート" + LET[i - 2]
+            name = ["見出し画像", "インフォグラフィック", "作図ガイド"][i] if i < 3 else "間違いノート"
             for need in ("Traditional Chinese", "transparent", "alpha"):
                 if need not in c:
                     bad(f, name + "に必須文言なし: " + need)

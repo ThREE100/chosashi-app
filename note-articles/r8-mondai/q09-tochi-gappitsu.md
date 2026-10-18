@@ -289,3 +289,162 @@ no re-listed ○/✕ grid of all 肢, and no additional text block of any kind �
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、2筆の土地のうち「権利の登記」「地目」「地図」のどれで合筆の可否が決まるかを見分ける5パネル構成。②の色分け（権利の登記があるとき＝緑、地目・地図＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (合筆できる？できない？), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - two adjacent land plots (甲 and 乙) that merge into one plot, mortgage tags attached to the plots, a trust document, a repurchase-agreement (買戻し) tag with an hourglass, a land-category plate, and two map sheets. A case where merging is allowed is drawn with a green check mark, and a case where it is not allowed is drawn with a red cross between the two plots.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+All five panels use the same two-plot model (甲 on the left, 乙 on the right). The element that decides the answer in THIS panel is highlighted with a thick border and full color, and the other elements are drawn faded with a dotted outline instead of being omitted.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第9問 作図ガイド（土地の合筆の制限）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+抵当権が一部しか同一でなければ合筆不可
+Diagram: A decision flowchart. Top: plot 甲 with two mortgage tags (順位1番 and 順位2番) and plot 乙 with one mortgage tag (順位1番). Diamond reads 「甲と乙の担保権の登記が、1件ずつ全部そろって同一か」. No arrow (the 甲 順位1番 has no matching tag on 乙, even if 甲 順位2番 and 乙 順位1番 are identical) leads to the conclusion node 「合筆できない」 (thick border, full color, red cross between the two plots). Yes arrow leads to a faded node 「合筆できる」. Small basis tags 「41条6号、規則105条2号」. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、甲土地と乙土地の担保権の登記が1件ずつ対応しているかを確認し、次に対応するものが乙にない甲の1件が残っていないかを確認します。残る1件があるので合筆できません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+1件余ると合筆不可
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+信託目録の登記事項が同一なら合筆できる
+Diagram: An illustrative diagram. Top: plots 甲 and 乙, each with a trust document, and the two trust documents carry exactly the same items (a bracket between them labeled 「信託目録の登記事項が同一」). Below, the two plots merge into one plot with a green check mark. A small faded note says the registered items are those listed in 97条1項. A small basis tag 「規則105条3号」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、両方の土地に信託の登記があることを確認し、次に信託目録に記録された登記事項が同一かを確認します。同一であれば合筆の登記ができます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+同一なら合筆できる
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+現況の地目が違えば合筆できない
+Diagram: A decision flowchart. Top: plots 甲 and 乙 whose registered land category is the same plate 「畑」, while plot 甲 is actually used as a parking lot. Diamond 1 reads 「登記記録上の地目は同じか」 with a Yes arrow to Diamond 2 reads 「現況の地目も同じか」. Diamond 2 No arrow leads to the conclusion node 「合筆できない(41条2号)」 (thick border, full color, red cross) and then a node 「先に地目の変更の登記をして現況に合わせる」. Diamond 2 Yes arrow leads to a faded node 「ほかの制限を確認」. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記記録上の地目が同じかを確認し、次に現況の地目も同じかを確認します。現況が違えば合筆できず、先に地目の変更の登記をします。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+現況が違えば不可
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+地図が別でも接続していれば合筆できる
+Diagram: A decision flowchart. Top: plot 甲 on one map sheet and plot 乙 on a different map sheet, the two plots touching each other along a boundary. Diamond reads 「甲と乙は相互に接続しているか」. Yes arrow leads to the conclusion node 「地図が別でも制限にあたらず、ほかの要件を満たせば合筆できる」 (thick border, full color, green check mark). No arrow leads to a node 「合筆できない(41条1号)」. A faded note says the same-map point is not among the limits in 41条. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、2筆の土地が相互に接続しているかを確認し、次に同一の地図に載っているかが制限の要件にあるかを確認します。合筆できない場合は41条に限られ、同一の地図は要件にありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+接続していれば可
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+買戻特約は期間満了でも抹消が先
+Diagram: A decision flowchart. Top: plots 甲 and 乙 each with a 「買戻しの特約」 tag, and an hourglass labeled 「期間満了」 running out. Diamond reads 「買戻しの特約の登記は、合筆後も引き継げる登記の例外に含まれるか」. Yes arrow leads to a faded node 「地役権・担保権・信託・鉱害賠償登録の一定の登記」. No arrow leads to the conclusion node 「期間満了でも、特約の登記を抹消してから合筆する」 (thick border, full color, tag removed first and then the plots merge). A small basis tag 「41条6号、規則105条」. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、買戻しの特約の登記が合筆後も引き継げる登記の例外に含まれるかを確認し、次に買戻し期間が満了していても結論が変わるかを確認します。例外に含まれないので、期間満了でも抹消が先です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+抹消してから合筆
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法41条・97条、不動産登記規則105条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 地、合、筆、産、登、記、法、条、規、抵、当、権、部、可、保、確、認、信、託、目、録、現、況、変、更、図. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

@@ -290,3 +290,162 @@ no re-listed ○/✕ grid of all 肢, and no additional text block of any kind �
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、分筆の登記で「地図・登記識別情報・権利の消滅・申請人」のどこが問われているかを見分ける5パネル構成。②の色分け（地図と通知＝緑、権利と申請人＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (分筆の登記、ここがポイント), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a land plot divided by a dashed split line into two plots (甲 and 乙), a map sheet with a split line, an envelope for a registration identification information notice, a mortgage tag attached to a plot, a deceased owner with heirs, and a condominium site. Rules that apply are shown in full color, and things that do not happen are drawn faded with a red cross.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Whenever a split is shown, every panel uses the same two-plot model (甲 and 乙); the part relevant to this panel is highlighted with a thick border and full color, and the unrelated part is faded with a dotted outline.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第8問 作図ガイド（土地の分筆の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+分筆線のずれは地図訂正の申出で直せない
+Diagram: A decision flowchart. Top: a land plot with a dashed split line, copied to a map sheet exactly as the survey map attached to the application showed it. Diamond reads 「地図に表示された区画や地番が実際と違うか」. Yes arrow leads to a faded node 「地図訂正の申出ができる(規則16条1項)」. No arrow (the split line was recorded just as the attached survey map showed it, so the error is in the content of the registration) leads to the conclusion node 「地図訂正の申出では分筆線を直せない」 (thick border, full color). No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図の区画や地番が実際と違うのか、提供した地積測量図の分筆線の位置が違うのかを確認します。後者は登記の内容の誤りで、地図訂正の申出では直せません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地図訂正では直せない
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+分筆では登記識別情報は通知されない
+Diagram: A decision flowchart. Top: a plot split into 甲 and 乙, with a faded envelope labeled 「登記識別情報の通知書」 carrying a red cross. Diamond reads 「申請人が自ら登記名義人になる登記か(21条)」. Yes arrow leads to a faded node 「登記識別情報が通知される」. No arrow (a split only divides the land and the registered owner does not change) leads to the conclusion node 「新しい識別情報は通知されない」 (thick border, full color), with a small note that the earlier identification information keeps being used. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その登記で申請人が新たに登記名義人になるかを確認し、次に分筆が土地を分けるだけの登記かを確認します。名義人が新しくならないので、通知されません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+通知はされない
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+消滅させる抵当権は一方の土地だけ
+Diagram: A decision flowchart. Top: a plot with a mortgage tag split into 甲 and 乙, with a mortgagee's consent document attached. Diamond reads 「承諾は分筆後のどちらの土地についての消滅か」. Branch 「一方の土地(例：乙)」 leads to the conclusion node 「承諾した土地だけ消滅の登記がされ、もう一方に抵当権が残る」 (thick border, full color, 乙 without a tag and 甲 still with a tag; basis tag 「40条、規則104条」). Branch 「甲と乙の双方」 leads to a faded node with a red cross 「そのような消滅の定めはない」. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抵当権者が分筆後のどの土地について消滅を承諾したかを確認し、次に消滅の登記がどの土地についてされるかを確認します。承諾した一方の土地についてだけされます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一方だけ消せる
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+相続人の1人で一部地目変更分筆を申請できる
+Diagram: A decision flowchart. Top: a deceased owner silhouette above a plot of which one part has become a parking lot, with three heirs below. Step 1: a box 「名義人に相続があった → 相続人が申請できる(30条)」. Diamond reads 「ほかの相続人の同意や共同での申請が要るか」. Yes arrow leads to a faded node with a red cross 「定めはない」. No arrow leads to the conclusion node 「相続人の1人が単独で申請できる」 (thick border, full color, one heir highlighted). No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、名義人に相続があり相続人が申請できること（不動産登記法30条）を確認し、次にほかの相続人の同意や共同申請が要るかを確認します。要らず、1人で申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+単独で申請できる
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+敷地権のある土地の分筆は全員の申請ではない
+Diagram: A decision flowchart. Top: a condominium building on a site plot marked with 「敷地権」. Step 1: a box 「分筆を申請できるのは、表題部所有者又は所有権の登記名義人(39条1項)」. Diamond reads 「区分建物の所有者の全員が申請人になる定めがあるか」. Yes arrow leads to a faded node with a red cross showing all the unit owners' names in a row. No arrow leads to the conclusion node 「全員の申請は要らない」 (thick border, full color). No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆の登記を申請できる人が名義人であること（不動産登記法39条1項）を確認し、次に区分建物の所有者全員が申請人になる定めがあるかを確認します。そのような定めはありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+全員の申請は不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法21条・30条・39条・40条、不動産登記規則16条・104条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 地、分、筆、登、記、産、法、条、規、図、訂、正、申、出、区、画、積、測、量、位、確、認、誤、通、知、請. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```

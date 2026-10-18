@@ -297,6 +297,165 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 ---
 
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、「地図か地図に準ずる図面か」と「記録事項・備付けの根拠はどこか」を見分ける5パネル構成。②の色分け（定義と記録事項＝緑、事業と調査＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (地図と準ずる図面、何が違う？), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a precise map sheet with sharp boundary lines, an old rough map showing only approximate positions and shapes, a sheet frame (図郭線) with coordinate tick marks at the four corners, a map crossing a dotted district boundary line, a land-registry office staff member with a surveying tool, a block (street block) outline with only its outer boundary measured, and a registry stamp.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Panel 1 (ア) uses a two-box comparison frame: the left box is 地図 and the right box is 地図に準ずる図面; the box that belongs to the choice is drawn with a thick border and full color and the other box is faded and grey. Panel 4 (エ) also contrasts a map with a map-equivalent drawing, but as a decision flowchart. The other panels are independent diagrams.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第4問 作図ガイド（地図と地図に準ずる図面）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+地図に準ずる図面は位置・形状・地番を表示
+Diagram: A side-by-side comparison frame with two boxes. LEFT box (faded, grey, dotted outline, because it is the definition of the other drawing) labeled 「地図(不動産登記法14条2項)」: a precise map sheet with sharp boundary lines and the tag 「各土地の区画を明確にし、地番を表示」. RIGHT box (thick border, full color) labeled 「地図に準ずる図面(同条5項)」: an old rough map with the tag 「土地の位置、形状及び地番を表示」. Between the two boxes, a small note 「区画を明確にするのは地図」. A red cross is drawn on the phrase 「区画を明確にし」 in the right box to show it does not belong to the drawing that is only equivalent to a map.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、問われているのが地図か、地図に準ずる図面かを確認します。次に、区画を明確にするのは地図の定義で、準ずる図面は位置・形状・地番を表示するものだと対応させます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+区画か位置・形状か
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+特段の事由があれば接続区域も含めて作成できる
+Diagram: A decision flowchart read from top to bottom. Start node: 「地図は地番区域又はその適宜の一部ごとに作成する(不動産登記規則10条1項本文)」. Diamond node: 「接続する区域と一体として作成することを相当とする特段の事由があるか」. Branch 「ある」 (thick border, full color) goes to a conclusion node 「接続する区域を含めて地図を作成できる(同項ただし書)」, drawn as one map sheet extending across a dotted district boundary line into the neighbouring district. Branch 「ない」 (faded, grey) goes to its own conclusion node 「地番区域ごとに作成する」. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図は地番区域又はその適宜の一部ごとに作る原則だと確認します。次に、特段の事由があるかを確認し、あれば接続する区域も含めて作成できると判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+接続区域も含められる
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+職権の地積更正の原因は「錯誤、地図作成」
+Diagram: An illustrative step diagram read from left to right with three numbered steps. Step 1: a registry-office staff member with a surveying tool and a district map, labeled 「法務局地図作成事業の対象土地を測量」. Step 2: an arrow to a registry book where the area is corrected by a stamp, labeled 「登記官が職権で地積に関する更正の登記」, with a small blank application form crossed out in red to show that no application is filed. Step 3: the registry entry showing 「錯誤、地図作成」 in the cause column with a date and the column number 「③」, labeled 「登記原因及びその日付」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図作成事業の対象土地で登記官が職権で地積を更正することを確認します。次に、申請ではないので申請人は原因を書かず、原因及びその日付は「錯誤、地図作成」と記録されると判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原因は錯誤、地図作成
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+街区境界調査図は地図として備え付けられない
+Diagram: A decision flowchart read from top to bottom. Diamond node: 「国土調査法20条1項により送付された地籍図の写しか」. Branch 「はい」 (faded, grey, because it is not this choice's case) goes to a conclusion node 「地図として備え付ける(不動産登記規則10条5項)」. Branch 「いいえ(街区境界調査図)」 (thick border, full color) goes to a second node 「街区の外周の境界の測量だけで、街区内の各土地の区画までは明らかでない」, drawn as a street block with only its outer boundary line measured and the inner plots left blank, then to a conclusion node 「地図としては備え付けられない。地図に準ずる図面の扱い」. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記所に送られたのが地籍図の写しか街区境界調査図かを確認します。次に、街区境界調査図は街区の外周を測っただけで各土地の区画を明らかにしないので、地図には当たらないと判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地図に準ずる扱い
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+地図には図郭線とその座標値を記録する
+Diagram: An illustrative diagram of one map sheet with its frame line (図郭線) drawn as a thick rectangle and small coordinate tick marks at the four corners, each labeled 「座標値」. Beside the sheet a numbered checklist of the recorded items in order: 「地番区域の名称」「地図の番号」「縮尺」「平面直角座標系の番号又は記号」「図郭線及びその座標値」「各土地の区画及び地番」, with a check mark on the item 「図郭線及びその座標値」 highlighted by a thick border, and a red cross on a tag 「座標値は記録されない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図の記録事項を定める不動産登記規則13条1項の各項目を確認します。次に、図郭線が座標値とあわせて記録事項に入っているので、記録されないとはいえないと判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+座標値も記録
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法14条、不動産登記規則10条・13条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 地、図、面、産、登、記、法、条、規、位、確、認、区、画、定、義、特、続、部、判、権、積、更、正、錯、誤. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
+```
+
+---
+
 ## インフォグラフィック プロンプト（ア肢・間違いノート）
 
 アの記述を、正しいルールの側から理解するための解説図解です。
@@ -362,91 +521,6 @@ Bottom row: 問題文の記述「地図に準ずる図面は、〜各土地の�
 
 --- FOOTER ---
 不動産登記法14条2項・4項・5項
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese. Also scan the entire canvas for any character that is not
-standard Japanese hiragana, katakana, or Jōyō kanji — including any
-Chinese-only character, Korean Hangul, other non-Japanese script, or
-stray decorative glyph — and remove or redraw it. Confirm every
-heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters,
-confirm nothing is rendered below the FOOTER's small footnote text (no
-summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
-no additional text block of any kind), and confirm the entire canvas,
-edge to edge, is filled with a fully opaque background with no
-transparency or alpha channel anywhere.
-```
-
----
-
-## インフォグラフィック プロンプト（イ肢・間違いノート）
-
-イの記述を、正しいルールの側から理解するための解説図解です。
-
-```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
-clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), rounded panel sections, consistent with the
-same visual language as the whole-problem poster for this article, but
-built as a single detailed explainer panel rather than a multi-card
-poster.
-
-MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
-specific point of confusion, not to be a glanceable summary. Unlike a
-quick-reference poster, this image MAY include flowchart branches with
-written conditions, side-by-side comparisons with quoted article text,
-and short explanatory sentences (1-3 sentences per callout box) labeled
-「誤りやすいポイント」or similar. Prioritize clarity and completeness of
-the reasoning over brevity. Use a green check mark for the correct rule
-and a red cross mark for the wrong rule; never write any person's study
-record, answer history, or past question numbers in the image.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Do NOT use Traditional Chinese
-characters (traditional hanzi) either, even where a traditional-hanzi
-glyph looks close to the correct Japanese kanji form — every glyph must
-match the standard Japanese Jōyō form exactly, not the Chinese
-traditional variant. Do NOT render any character that is not standard
-Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
-no Chinese-only characters, no Korean Hangul, no other non-Japanese
-script, and no stray or decorative glyphs of any kind, even as small
-background or texture elements. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 特・続・区・地・図・囲・部・正・確・測・量・調・査・規・条・体・相・当・書・境・目・合・用・産・登・記 — always
-draw the standard Japanese (Jōyō) form.
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
-from edge to edge. Do NOT generate a transparent or alpha-channel
-background under any circumstances, even if the output file format
-supports transparency. Fill the full canvas — including every corner and
-margin outside the panel/flowchart/comparison — with a solid or
-illustrated opaque background. There must be no checkerboard pattern, no
-partially transparent area, and no unpainted canvas edge anywhere in the
-final image.
-
---- HEADER ---
-Title (large, bold):
-特段の事由があるときは、接続区域を含めて地図を作成できる
-
-Subtitle (smaller, centered):
-令和8年度 第4問 イ－原則と例外
-
---- FLOWCHART ---
-Top node: 地図は、どの範囲で作成するか。
-Step 1 box (rule): 地番区域又はその適宜の一部ごとに、正確な測量及び調査の成果に基づき作成する。（規則10条1項本文）
-Branch (diamond): 地番区域の全部又は一部とこれに接続する区域を一体として作成することを相当とする特段の事由があるか。
-Arrow YES (green): 接続する区域を含めて、地図を作成できる。（同項ただし書）
-Arrow NO (gray): 地番区域又はその適宜の一部ごとに作成する。
-Side box: 問題文は「特段の事情」、規則の文言は「特段の事由」。意味は同じ。
-
---- CALLOUT: 誤りやすいポイント ---
-原則は地番区域ごとですが、区域の境目をまたいで一体で作るほうが適切な場合の例外が、条文に用意されています。
-
---- FOOTER ---
-不動産登記規則10条1項
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
