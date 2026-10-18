@@ -22,8 +22,6 @@
 
 手続の細かい規定が並ぶ分野です。肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q16-hikkaitokutei.md`、`note-articles/r6-mondai/q19-hikkai-tokutei.md`、`note-articles/r5-mondai/q18-hikkaitokutei.md`、`note-articles/r4-mondai/q19-hikkai-tokutei.md`、`note-articles/r3-mondai/q19-hikkai-tokutei.md`、`note-articles/r2-mondai/q18-hikkai-tokutei.md`、`note-articles/h30-mondai/q19-hikkai-tokutei.md`、`note-articles/h29-mondai/q19-hikkai-tokutei.md`、`note-articles/h28-mondai/q18-hikkaitokutei.md`、`note-articles/h26-mondai/q19-hikkaitokutei.md`、`note-articles/h25-mondai/q18-hikkaitokutei.md`、`note-articles/h24-mondai/q10-hikkaitokutei.md`、`note-articles/h23-mondai/q09-hikkai-shoyukenkai.md`、`note-articles/h22-mondai/q10-hikkai-tokutei.md`、`note-articles/h21-mondai/q15-hikkai-kyakka.md`、`note-articles/h20-mondai/q12-hikkai-tokutei.md`、`note-articles/h19-mondai/q09-hikkai-tokutei.md`、`note-articles/jissen-tanren01-mondai/q18-hikkai-tokutei.md`、`note-articles/chokuzen-fukushuu-card/f10-hikkai-tokutei.md`
-
 ### ア：各土地の所有者が申請人なら、手続費用は等しい割合で負担する
 
 筆界特定の手続にかかる費用（手続費用）は、筆界特定の申請人が負担します（不動産登記法146条1項）。
@@ -89,6 +87,8 @@
 **正解：ウ・オの組合せ（選択肢5番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q16-hikkaitokutei.md`、`note-articles/r6-mondai/q19-hikkai-tokutei.md`、`note-articles/r5-mondai/q18-hikkaitokutei.md`、`note-articles/r4-mondai/q19-hikkai-tokutei.md`、`note-articles/r3-mondai/q19-hikkai-tokutei.md`、`note-articles/r2-mondai/q18-hikkai-tokutei.md`、`note-articles/h30-mondai/q19-hikkai-tokutei.md`、`note-articles/h29-mondai/q19-hikkai-tokutei.md`、`note-articles/h28-mondai/q18-hikkaitokutei.md`、`note-articles/h26-mondai/q19-hikkaitokutei.md`、`note-articles/h25-mondai/q18-hikkaitokutei.md`、`note-articles/h24-mondai/q10-hikkaitokutei.md`、`note-articles/h23-mondai/q09-hikkai-shoyukenkai.md`、`note-articles/h22-mondai/q10-hikkai-tokutei.md`、`note-articles/h21-mondai/q15-hikkai-kyakka.md`、`note-articles/h20-mondai/q12-hikkai-tokutei.md`、`note-articles/h19-mondai/q09-hikkai-tokutei.md`、`note-articles/jissen-tanren01-mondai/q18-hikkai-tokutei.md`、`note-articles/chokuzen-fukushuu-card/f10-hikkai-tokutei.md`
 
 **このまま使える点／使う前に確認したい点**
 

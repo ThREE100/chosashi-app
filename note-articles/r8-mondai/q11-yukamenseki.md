@@ -22,8 +22,6 @@
 
 床面積は、規則115条と準則82条が基準になります。何を床面積に入れ、何を入れないのかを、肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/r4-mondai/q12-yukamenseki.md`、`note-articles/r2-mondai/q12-kouzou-yukamenseki.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h28-mondai/q12-tatemono-kouzou-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h21-mondai/q17-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`、`note-articles/h19-mondai/q04-yukamenseki.md`、`note-articles/h17-mondai/q04-yukamenseki.md`、`note-articles/chokuzen-fukushuu-card/f05-tatemono-nintei.md`、`note-articles/r5-mondai/q10-tatemonozumen.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`
-
 ### ア：出窓は、高さ1.5メートル以上で床面と同じ高さのものだけ算入する
 
 出窓は、その高さが1.5メートル以上のもので、その下部が床面と同一の高さにあるものに限り、床面積に算入します（不動産登記事務取扱手続準則82条11号）。
@@ -89,6 +87,8 @@
 **正解：ア・ウの組合せ（選択肢1番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/r4-mondai/q12-yukamenseki.md`、`note-articles/r2-mondai/q12-kouzou-yukamenseki.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h28-mondai/q12-tatemono-kouzou-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h21-mondai/q17-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`、`note-articles/h19-mondai/q04-yukamenseki.md`、`note-articles/h17-mondai/q04-yukamenseki.md`、`note-articles/chokuzen-fukushuu-card/f05-tatemono-nintei.md`、`note-articles/r5-mondai/q10-tatemonozumen.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`
 
 **このまま使える点／使う前に確認したい点**
 

@@ -22,8 +22,6 @@
 
 肢ごとに、「承諾が要るのか」「誰に何を請求できるのか」を確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/h28-mondai/q02-souringkankei.md`、`note-articles/r2-mondai/q03-sourin-kankei.md`、`note-articles/h22-mondai/q03-ijouchi-tsuukouken.md`
-
 ### ア：境界標の調査のための隣地使用に、承諾は要らない
 
 土地の所有者は、境界標の調査や境界に関する測量のために必要な範囲で、隣地を使用できます（民法209条1項2号）。隣地の所有者の承諾を得る必要はありません。
@@ -93,6 +91,8 @@ Bが通れるのは、分割の相手方であるAの甲土地（Dに譲渡さ�
 **正解：イ・ウの組合せ（選択肢3番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/h28-mondai/q02-souringkankei.md`、`note-articles/r2-mondai/q03-sourin-kankei.md`、`note-articles/h22-mondai/q03-ijouchi-tsuukouken.md`
 
 **このまま使える点／使う前に確認したい点**
 

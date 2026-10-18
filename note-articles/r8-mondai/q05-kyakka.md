@@ -22,8 +22,6 @@
 
 「却下されるのか」「却下ではなく別の扱いになるのか」を、肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r3-mondai/q06-kyakka.md`、`note-articles/h29-mondai/q10-kyakka-torisage.md`、`note-articles/h22-mondai/q08-toriage.md`、`note-articles/h21-mondai/q15-hikkai-kyakka.md`、`note-articles/h17-mondai/q18-kyakka-torisage.md`、`note-articles/jissen-tanren01-mondai/q05-kyakka-torisage.md`、`note-articles/chokuzen-fukushuu-card/f01-shinsei-souron.md`、`note-articles/r2-mondai/q01-kenri-nouryoku-naki-shadan.md`、`note-articles/h28-mondai/q04-toukishikibetsujouhou.md`
-
 ### ア：事前通知に、期間内に申出がなければ却下される
 
 登記識別情報を提供できないときは、登記官が登記義務者に事前通知をします。申請の内容が真実であれば、期間内に申出をしてもらいます（不動産登記法23条1項）。
@@ -91,6 +89,8 @@
 **正解：ウ・オの組合せ（選択肢5番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r3-mondai/q06-kyakka.md`、`note-articles/h29-mondai/q10-kyakka-torisage.md`、`note-articles/h22-mondai/q08-toriage.md`、`note-articles/h21-mondai/q15-hikkai-kyakka.md`、`note-articles/h17-mondai/q18-kyakka-torisage.md`、`note-articles/jissen-tanren01-mondai/q05-kyakka-torisage.md`、`note-articles/chokuzen-fukushuu-card/f01-shinsei-souron.md`、`note-articles/r2-mondai/q01-kenri-nouryoku-naki-shadan.md`、`note-articles/h28-mondai/q04-toukishikibetsujouhou.md`
 
 **このまま使える点／使う前に確認したい点**
 

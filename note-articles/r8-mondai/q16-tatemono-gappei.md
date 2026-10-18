@@ -24,8 +24,6 @@
 
 権利の登記があるとき、申請先、相続、共用部分、効用上の一体性を、肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/r3-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r1-mondai/q12-tatemono-bunkatsu-gappei.md`、`note-articles/h28-mondai/q14-tatemono-gappei.md`、`note-articles/h25-mondai/q17-tatemono-gappei.md`、`note-articles/h24-mondai/q14-tatemono-bunkatsu.md`、`note-articles/h22-mondai/q05-tatemono-gappei.md`、`note-articles/h21-mondai/q11-tatemono-gappei.md`、`note-articles/h20-mondai/q18-gappei-touki.md`、`note-articles/h18-mondai/q12-tatemono-gappei.md`、`note-articles/h17-mondai/q12-tatemono-gappei.md`、`note-articles/jissen-tanren01-mondai/q14-tatemono-gappei.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/H26/Q22/note_H26_dai22mon_tatemono_kaisetsu.md`
-
 ### ア：所有権の仮登記があるときは、区分建物の合併はできない
 
 所有権等の登記以外の権利に関する登記がある建物は、原則として合併できません（不動産登記法56条5号）。例外は、担保権の登記で一定の項目が同一のものと、信託の登記で登記事項が同一のものだけです（不動産登記規則131条）。
@@ -93,6 +91,8 @@
 **正解：イ・オの組合せ（選択肢4番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r4-mondai/q16-tatemono-gappei.md`、`note-articles/r3-mondai/q16-tatemono-bunkatsu-gappei.md`、`note-articles/r1-mondai/q12-tatemono-bunkatsu-gappei.md`、`note-articles/h28-mondai/q14-tatemono-gappei.md`、`note-articles/h25-mondai/q17-tatemono-gappei.md`、`note-articles/h24-mondai/q14-tatemono-bunkatsu.md`、`note-articles/h22-mondai/q05-tatemono-gappei.md`、`note-articles/h21-mondai/q11-tatemono-gappei.md`、`note-articles/h20-mondai/q18-gappei-touki.md`、`note-articles/h18-mondai/q12-tatemono-gappei.md`、`note-articles/h17-mondai/q12-tatemono-gappei.md`、`note-articles/jissen-tanren01-mondai/q14-tatemono-gappei.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/H26/Q22/note_H26_dai22mon_tatemono_kaisetsu.md`
 
 **このまま使える点／使う前に確認したい点**
 

@@ -22,8 +22,6 @@
 
 申請義務の根拠は、不動産登記法47条1項の「所有権を取得した者」です。この言葉に当てはめて、肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/h29-mondai/q15-tatemono-shinsei-gimu.md`、`note-articles/h27-mondai/q14-tatemono-hyoudai.md`、`note-articles/h26-mondai/q12-tatemono-shinsei-jouhou.md`、`note-articles/h24-mondai/q13-tatemono-hyouji-touki.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`、`note-articles/h21-mondai/q10-tatemono-hyoji.md`、`note-articles/h18-mondai/q04-tatemono-hyoudai-touki.md`、`note-articles/h17-mondai/q05-hyodai-toki-gimu.md`、`note-articles/chokuzen-fukushuu-card/f01-shinsei-souron.md`
-
 ### ア：区分建物は、新築した人（原始取得者）を表題部所有者として申請する
 
 新築した建物の所有権を取得した人は、取得の日から1か月以内に表題登記を申請しなければなりません（不動産登記法47条1項）。区分建物を新築したAは、この申請義務を負います。
@@ -89,6 +87,8 @@
 **正解：ウ・オの組合せ（選択肢4番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r6-mondai/q15-tatemono-hyoji-touki.md`、`note-articles/r5-mondai/q13-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/h29-mondai/q15-tatemono-shinsei-gimu.md`、`note-articles/h27-mondai/q14-tatemono-hyoudai.md`、`note-articles/h26-mondai/q12-tatemono-shinsei-jouhou.md`、`note-articles/h24-mondai/q13-tatemono-hyouji-touki.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`、`note-articles/h21-mondai/q10-tatemono-hyoji.md`、`note-articles/h18-mondai/q04-tatemono-hyoudai-touki.md`、`note-articles/h17-mondai/q05-hyodai-toki-gimu.md`、`note-articles/chokuzen-fukushuu-card/f01-shinsei-souron.md`
 
 **このまま使える点／使う前に確認したい点**
 

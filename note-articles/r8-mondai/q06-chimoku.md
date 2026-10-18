@@ -22,8 +22,6 @@
 
 工場、ダム、学校、牧場、農耕地について、地目がどう認定されるのかを、肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q08-chimoku.md`、`note-articles/r4-mondai/q06-chimoku.md`、`note-articles/r3-mondai/q10-chimoku.md`、`note-articles/r2-mondai/q06-chimoku-nintei.md`、`note-articles/r1-mondai/q05-chimoku.md`、`note-articles/h30-mondai/q09-chimoku.md`、`note-articles/h25-mondai/q08-chimoku.md`、`note-articles/h22-mondai/q12-chimoku.md`、`note-articles/h21-mondai/q05-chimoku.md`、`note-articles/h19-mondai/q13-chimoku.md`、`note-articles/h18-mondai/q07-chimoku-nintei.md`、`note-articles/h17-mondai/q16-chimoku-nintei.md`、`note-articles/jissen-tanren01-mondai/q11-chimoku.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`
-
 ### ア：工場の敷地の地目は、工場用地ではなく宅地
 
 登記できる地目は、不動産登記規則99条に定められた23種類で、「工場用地」という地目はありません。
@@ -89,6 +87,8 @@
 **正解：イ・オの組合せ（選択肢4番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q08-chimoku.md`、`note-articles/r4-mondai/q06-chimoku.md`、`note-articles/r3-mondai/q10-chimoku.md`、`note-articles/r2-mondai/q06-chimoku-nintei.md`、`note-articles/r1-mondai/q05-chimoku.md`、`note-articles/h30-mondai/q09-chimoku.md`、`note-articles/h25-mondai/q08-chimoku.md`、`note-articles/h22-mondai/q12-chimoku.md`、`note-articles/h21-mondai/q05-chimoku.md`、`note-articles/h19-mondai/q13-chimoku.md`、`note-articles/h18-mondai/q07-chimoku-nintei.md`、`note-articles/h17-mondai/q16-chimoku-nintei.md`、`note-articles/jissen-tanren01-mondai/q11-chimoku.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`
 
 **このまま使える点／使う前に確認したい点**
 

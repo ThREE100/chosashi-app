@@ -22,8 +22,6 @@
 
 肢ごとに、条文の定めを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q08-hyoudaibu-shoyuusha.md`、`note-articles/r7-mondai/q18-houtei-souzoku.md`、`note-articles/r5-mondai/q19-houtei-souzoku.md`、`note-articles/r3-mondai/q08-hyoudaibu-shoyuusha.md`、`note-articles/r2-mondai/q05-houtei-souzoku-jouhou.md`、`note-articles/h29-mondai/q11-hyoudaibu-shoyuusha.md`、`note-articles/h27-mondai/q05-hyoudaibu-shoyuusha.md`、`note-articles/h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md`、`note-articles/h26-mondai/q07-shinsei-gimu.md`、`note-articles/jissen-tanren01-mondai/q19-houtei-souzoku-jouhou.md`、`note-articles/chokuzen-fukushuu-card/f07-hyodaibu-shoyusha.md`、`note-articles/h20-mondai/q09-touki-shinseinin.md`、`note-articles/h19-mondai/q08-hyoudaibu-henko.md`、`note-articles/r3-mondai/q05-tenpu-jouhou.md`、`note-articles/h30-mondai/q04-shinsei-tenpu-jouhou.md`、`note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md`、`note-articles/r6-mondai/q04-hyoudai-touki-tenpu.md`、`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`
-
 ### ア：表題部所有者の持分の変更は、保存の登記の後、移転の登記でする
 
 表題部所有者の氏名や住所が変わったときは、変更の登記を申請できます（不動産登記法31条）。しかし、表題部所有者やその持分についての変更は、所有権の保存の登記をした後に、所有権の移転の登記の手続でするのでなければ、登記できません（同法32条）。
@@ -89,6 +87,8 @@ AとBを共有者とする登記がされたが、実際の所有者はBだけ�
 **正解：イ・エの組合せ（選択肢3番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q08-hyoudaibu-shoyuusha.md`、`note-articles/r7-mondai/q18-houtei-souzoku.md`、`note-articles/r5-mondai/q19-houtei-souzoku.md`、`note-articles/r3-mondai/q08-hyoudaibu-shoyuusha.md`、`note-articles/r2-mondai/q05-houtei-souzoku-jouhou.md`、`note-articles/h29-mondai/q11-hyoudaibu-shoyuusha.md`、`note-articles/h27-mondai/q05-hyoudaibu-shoyuusha.md`、`note-articles/h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md`、`note-articles/h26-mondai/q07-shinsei-gimu.md`、`note-articles/jissen-tanren01-mondai/q19-houtei-souzoku-jouhou.md`、`note-articles/chokuzen-fukushuu-card/f07-hyodaibu-shoyusha.md`、`note-articles/h20-mondai/q09-touki-shinseinin.md`、`note-articles/h19-mondai/q08-hyoudaibu-henko.md`、`note-articles/r3-mondai/q05-tenpu-jouhou.md`、`note-articles/h30-mondai/q04-shinsei-tenpu-jouhou.md`、`note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md`、`note-articles/r6-mondai/q04-hyoudai-touki-tenpu.md`、`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`
 
 **このまま使える点／使う前に確認したい点**
 

@@ -22,8 +22,6 @@
 
 肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q17-tatemono-messitsu.md`、`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/r2-mondai/q17-tatemono-messhitsu.md`、`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h23-mondai/q13-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`、`note-articles/h19-mondai/q18-tatemono-messhitsu.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/R2/Q22/note_R2_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/R7/Q22/note_R7_dai22mon_tatemono_kaisetsu.md`、`note-articles/h19-mondai/q05-kubun-tatemono-hyouji.md`、`note-articles/h29-mondai/q16-tatemono-kouzou.md`
-
 ### ア：借地上の建物の滅失は、土地所有者が建物所有者に代位して申請する
 
 建物が滅失したときは、表題部所有者又は所有権の登記名義人が、滅失の日から1か月以内に、滅失の登記を申請しなければなりません（不動産登記法57条）。借地の上の建物なら、申請義務を負うのは建物の所有者です。
@@ -95,6 +93,8 @@
 **正解：ア・オの組合せ（選択肢2番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q17-tatemono-messitsu.md`、`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/r2-mondai/q17-tatemono-messhitsu.md`、`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h23-mondai/q13-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`、`note-articles/h19-mondai/q18-tatemono-messhitsu.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/R2/Q22/note_R2_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/R7/Q22/note_R7_dai22mon_tatemono_kaisetsu.md`、`note-articles/h19-mondai/q05-kubun-tatemono-hyouji.md`、`note-articles/h29-mondai/q16-tatemono-kouzou.md`
 
 **このまま使える点／使う前に確認したい点**
 

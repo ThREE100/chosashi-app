@@ -22,8 +22,6 @@
 
 申請の条件が肢ごとに少しずつ違うので、一つずつ確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q16-gattai.md`、`note-articles/r4-mondai/q15-gattai-touki.md`、`note-articles/r2-mondai/q16-gattai-touki.md`、`note-articles/h28-mondai/q15-gattai.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h23-mondai/q18-tatemono-gattai.md`、`note-articles/h21-mondai/q18-gattai-touki.md`、`note-articles/h20-mondai/q15-gattai-touki.md`、`note-articles/h19-mondai/q06-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/H30/Q22/note_H30_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/H22/Q22/note_H22_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/R4/Q22/note_R4_dai22mon_tatemono_kaisetsu.md`、`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/h25-mondai/q14-tenpu-jouhou.md`、`note-articles/r1-mondai/q13-tatemono-hyoudaibu.md`
-
 ### ア：合体による登記等は、表題部所有者又は登記名義人のどちらかが申請する
 
 表題登記のみの建物（表題部所有者がいる）と、所有権の登記がある建物が合体した場合の申請人は、「表題部所有者又は所有権の登記名義人」と定められています（不動産登記法49条1項4号）。
@@ -74,7 +72,7 @@
 
 **たとえば**、引っ越しをしたまま登記簿の住所を直していない所有者でも、住民票などを付ければ、住所変更の登記を先にしなくても、合体による登記等を申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/r5-mondai/q16-gattai.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`
+※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q16-gattai.md`、`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`
 
 ---
 
@@ -91,6 +89,8 @@
 **正解：ウ・オの組合せ（選択肢5番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q16-gattai.md`、`note-articles/r4-mondai/q15-gattai-touki.md`、`note-articles/r2-mondai/q16-gattai-touki.md`、`note-articles/h28-mondai/q15-gattai.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h23-mondai/q18-tatemono-gattai.md`、`note-articles/h21-mondai/q18-gattai-touki.md`、`note-articles/h20-mondai/q15-gattai-touki.md`、`note-articles/h19-mondai/q06-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/H30/Q22/note_H30_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/H22/Q22/note_H22_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/R4/Q22/note_R4_dai22mon_tatemono_kaisetsu.md`、`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/h25-mondai/q14-tenpu-jouhou.md`、`note-articles/r1-mondai/q13-tatemono-hyoudaibu.md`
 
 **このまま使える点／使う前に確認したい点**
 

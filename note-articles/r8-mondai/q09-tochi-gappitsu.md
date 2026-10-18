@@ -22,8 +22,6 @@
 
 合筆の制限は不動産登記法41条に定められていて、権利の登記があるときの例外は不動産登記規則105条にあります。肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q09-gappitsu-touki.md`、`note-articles/r4-mondai/q09-gappitsu.md`、`note-articles/r2-mondai/q10-gappitsu-seigen.md`、`note-articles/h29-mondai/q14-gappitsu.md`、`note-articles/h28-mondai/q10-gappitsu.md`、`note-articles/h27-mondai/q09-gappitsu.md`、`note-articles/h24-mondai/q08-gappitsu.md`、`note-articles/h23-mondai/q08-bunpitsu-gappitsu-kenri.md`、`note-articles/h22-mondai/q04-gappitsu.md`、`note-articles/h20-mondai/q08-bungappitsu.md`、`note-articles/h19-mondai/q10-gappitsu.md`、`note-articles/h18-mondai/q13-tochi-gappitsu.md`、`note-articles/chokuzen-fukushuu-card/f04-tochi-bunpitsu-gappitsu.md`
-
 ### ア：抵当権の登記が一部しか同一でなければ、合筆できない
 
 所有権の登記以外の権利に関する登記がある土地は、原則として合筆できません（不動産登記法41条6号）。例外は、担保権の登記で、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のものなどです（不動産登記規則105条2号）。
@@ -91,6 +89,8 @@
 **正解：ア・ウの組合せ（選択肢1番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q09-gappitsu-touki.md`、`note-articles/r4-mondai/q09-gappitsu.md`、`note-articles/r2-mondai/q10-gappitsu-seigen.md`、`note-articles/h29-mondai/q14-gappitsu.md`、`note-articles/h28-mondai/q10-gappitsu.md`、`note-articles/h27-mondai/q09-gappitsu.md`、`note-articles/h24-mondai/q08-gappitsu.md`、`note-articles/h23-mondai/q08-bunpitsu-gappitsu-kenri.md`、`note-articles/h22-mondai/q04-gappitsu.md`、`note-articles/h20-mondai/q08-bungappitsu.md`、`note-articles/h19-mondai/q10-gappitsu.md`、`note-articles/h18-mondai/q13-tochi-gappitsu.md`、`note-articles/chokuzen-fukushuu-card/f04-tochi-bunpitsu-gappitsu.md`
 
 **このまま使える点／使う前に確認したい点**
 

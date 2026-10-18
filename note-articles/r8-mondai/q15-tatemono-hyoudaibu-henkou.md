@@ -22,8 +22,6 @@
 
 肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`、`note-articles/h30-mondai/q12-tatemono-hyoudaibu.md`、`note-articles/h26-mondai/q11-tatemono-hyoudaibu-henkou.md`、`note-articles/h27-mondai/q14-tatemono-hyoudai.md`、`note-articles/h22-mondai/q14-tatemono-tenpu.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md`、`note-articles/r4-mondai/q17-kubun-tatemono.md`、`note-articles/h29-mondai/q17-kubun-tatemono.md`
-
 ### ア：区分建物になったことによる変更の登記は、新築の区分建物の表題登記と併せて申請する
 
 表題登記がある区分建物でない建物に接続して区分建物が新築され、一棟の建物となって、既存の建物が区分建物になったときは、既存の建物の表題部の変更の登記の申請は、新築した区分建物の表題登記の申請と併せてしなければなりません（不動産登記法52条1項）。
@@ -89,6 +87,8 @@
 **正解：エ・オの組合せ（選択肢5番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`、`note-articles/h30-mondai/q12-tatemono-hyoudaibu.md`、`note-articles/h26-mondai/q11-tatemono-hyoudaibu-henkou.md`、`note-articles/h27-mondai/q14-tatemono-hyoudai.md`、`note-articles/h22-mondai/q14-tatemono-tenpu.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md`、`note-articles/r4-mondai/q17-kubun-tatemono.md`、`note-articles/h29-mondai/q17-kubun-tatemono.md`
 
 **このまま使える点／使う前に確認したい点**
 

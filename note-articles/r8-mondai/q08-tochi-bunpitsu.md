@@ -22,8 +22,6 @@
 
 分筆は、土地を分けるだけの手続に見えて、付いている権利の処理が問われる分野です。肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q11-bunpitsu.md`、`note-articles/r6-mondai/q08-bunpitsu-touki.md`、`note-articles/r5-mondai/q09-bunpitsu.md`、`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r3-mondai/q11-bunpitsu.md`、`note-articles/r2-mondai/q09-bunpitsu-touki.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`、`note-articles/h26-mondai/q10-bunpitsu.md`、`note-articles/h25-mondai/q09-bunpitsu.md`、`note-articles/h24-mondai/q07-bunpitsu.md`、`note-articles/h23-mondai/q06-bunpitsu.md`、`note-articles/h22-mondai/q18-bunpitsu.md`、`note-articles/h19-mondai/q12-bunpitsu.md`、`note-articles/h18-mondai/q14-bunpitsu-touki.md`、`note-articles/h20-mondai/q13-bunpitsu-tenpu.md`、`note-articles/h17-mondai/q06-bunpitsu-shinsei.md`、`note-articles/chokuzen-fukushuu-card/f04-tochi-bunpitsu-gappitsu.md`、`note-articles/h30-mondai/q08-tochi-hyouji.md`、`note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md`、`note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md`、`note-articles/h17-mondai/q09-touki-shikibetsu-jouhou.md`、`note-articles/r2-mondai/q14-shikichiken.md`、`note-articles/r1-mondai/q18-kubun-tatemono.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`
-
 ### ア：分筆線の位置が意思に反していても、地図訂正では直せない
 
 地図訂正の申出は、地図に表示された土地の区画や地番が、実際と違っているときの手続です（不動産登記規則16条1項）。
@@ -91,6 +89,8 @@
 **正解：ア・エの組合せ（選択肢2番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q11-bunpitsu.md`、`note-articles/r6-mondai/q08-bunpitsu-touki.md`、`note-articles/r5-mondai/q09-bunpitsu.md`、`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r3-mondai/q11-bunpitsu.md`、`note-articles/r2-mondai/q09-bunpitsu-touki.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`、`note-articles/h26-mondai/q10-bunpitsu.md`、`note-articles/h25-mondai/q09-bunpitsu.md`、`note-articles/h24-mondai/q07-bunpitsu.md`、`note-articles/h23-mondai/q06-bunpitsu.md`、`note-articles/h22-mondai/q18-bunpitsu.md`、`note-articles/h19-mondai/q12-bunpitsu.md`、`note-articles/h18-mondai/q14-bunpitsu-touki.md`、`note-articles/h20-mondai/q13-bunpitsu-tenpu.md`、`note-articles/h17-mondai/q06-bunpitsu-shinsei.md`、`note-articles/chokuzen-fukushuu-card/f04-tochi-bunpitsu-gappitsu.md`、`note-articles/h30-mondai/q08-tochi-hyouji.md`、`note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md`、`note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md`、`note-articles/h17-mondai/q09-touki-shikibetsu-jouhou.md`、`note-articles/r2-mondai/q14-shikichiken.md`、`note-articles/r1-mondai/q18-kubun-tatemono.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`
 
 **このまま使える点／使う前に確認したい点**
 

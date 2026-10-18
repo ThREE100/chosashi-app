@@ -26,8 +26,6 @@
 
 言葉が似ているので、定義の文言を取り違えないように、肢ごとに整理していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h30-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h26-mondai/q05-chizu.md`、`note-articles/h24-mondai/q05-chizu.md`、`note-articles/h21-mondai/q13-chizu-teisei.md`、`note-articles/h21-mondai/q16-kouzu-rekishi.md`、`note-articles/h18-mondai/q17-chizu-tatemono-shozaizu.md`、`note-articles/h17-mondai/q17-tochishozaizu.md`、`note-articles/jissen-tanren01-mondai/q07-chizu-teisei.md`、`note-articles/chokuzen-fukushuu-card/f06-chizu-sokuryozu.md`
-
 ### ア：地図に準ずる図面は、位置・形状・地番を表示するもの
 
 地図は、一筆又は二筆以上の土地ごとに作成し、各土地の区画を明確にし、地番を表示するものです（不動産登記法14条2項）。登記所には、地図が備え付けられるまでの間、これに代えて地図に準ずる図面を備え付けることができます（同条4項）。
@@ -95,6 +93,8 @@
 **正解：イ・ウの組合せ（選択肢3番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q04-chizu-teisei.md`、`note-articles/r6-mondai/q06-chizu-teisei.md`、`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h30-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h26-mondai/q05-chizu.md`、`note-articles/h24-mondai/q05-chizu.md`、`note-articles/h21-mondai/q13-chizu-teisei.md`、`note-articles/h21-mondai/q16-kouzu-rekishi.md`、`note-articles/h18-mondai/q17-chizu-tatemono-shozaizu.md`、`note-articles/h17-mondai/q17-tochishozaizu.md`、`note-articles/jissen-tanren01-mondai/q07-chizu-teisei.md`、`note-articles/chokuzen-fukushuu-card/f06-chizu-sokuryozu.md`
 
 **このまま使える点／使う前に確認したい点**
 

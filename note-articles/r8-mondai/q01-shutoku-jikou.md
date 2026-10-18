@@ -22,8 +22,6 @@
 
 肢ごとに、「誰が」「何年」「どの範囲で」占有してきたのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/h21-mondai/q01-jikou-touki.md`、`note-articles/h25-mondai/q02-shutokujikou.md`、`note-articles/r2-mondai/q02-shutoku-jikou.md`、`note-articles/h20-mondai/q02-bukken-hendou.md`、`note-articles/h29-mondai/q02-bukken-hendou.md`、`note-articles/h23-mondai/q02-jikou-engyo.md`、`note-articles/h28-mondai/q01-shoumetsujikou.md`、`note-articles/h26-mondai/q09-chiseki-kousei.md`
-
 ### ア：時効の完成前に登記を得た第三者には、登記なしで対抗できる
 
 時効によって所有権を取得した人は、時効が完成する前に土地を買って登記を得た第三者に対して、登記がなくても所有権の取得を主張できます（判例）。
@@ -97,6 +95,8 @@ Cの占有だけを主張するなら、Cは善意無過失なので10年で足�
 **正解：ア・ウの組合せ（選択肢1番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/h21-mondai/q01-jikou-touki.md`、`note-articles/h25-mondai/q02-shutokujikou.md`、`note-articles/r2-mondai/q02-shutoku-jikou.md`、`note-articles/h20-mondai/q02-bukken-hendou.md`、`note-articles/h29-mondai/q02-bukken-hendou.md`、`note-articles/h23-mondai/q02-jikou-engyo.md`、`note-articles/h28-mondai/q01-shoumetsujikou.md`、`note-articles/h26-mondai/q09-chiseki-kousei.md`
 
 **このまま使える点／使う前に確認したい点**
 

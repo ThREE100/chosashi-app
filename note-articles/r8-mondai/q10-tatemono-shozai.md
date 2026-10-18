@@ -22,8 +22,6 @@
 
 肢ごとに、「どの登記を」「いつまでに」「どう記録するか」を確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`、`note-articles/h25-mondai/q10-tatemono-shozai.md`、`note-articles/h23-mondai/q14-kankatsu.md`、`note-articles/h25-mondai/q11-kaokubangou.md`、`note-articles/jissen-tanren01-mondai/q10-chiban.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`、`note-articles/h27-mondai/q12-kankatsu-toukisho.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`
-
 ### ア：複数の土地にまたがる建物の所在は、床面積の多い部分の土地が先
 
 建物が2筆以上の土地にまたがって存在する場合、登記記録の所在欄には、床面積の多い部分又は主たる建物の所在する土地の地番を先に記録し、他の土地の地番を後に記録します（不動産登記事務取扱手続準則88条2項）。
@@ -91,6 +89,8 @@
 **正解：イ・オの組合せ（選択肢4番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`、`note-articles/h25-mondai/q10-tatemono-shozai.md`、`note-articles/h23-mondai/q14-kankatsu.md`、`note-articles/h25-mondai/q11-kaokubangou.md`、`note-articles/jissen-tanren01-mondai/q10-chiban.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`、`note-articles/h27-mondai/q12-kankatsu-toukisho.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`
 
 **このまま使える点／使う前に確認したい点**
 

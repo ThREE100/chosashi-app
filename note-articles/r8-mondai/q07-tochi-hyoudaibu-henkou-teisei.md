@@ -22,8 +22,6 @@
 
 肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q07-chiseki-kosei.md`、`note-articles/r5-mondai/q07-tochi-hyoudai.md`、`note-articles/r4-mondai/q07-hyoudaibu-hensei-kousei.md`、`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/r2-mondai/q07-chimoku-henkou-touki.md`、`note-articles/h27-mondai/q07-tochi-hyoudai.md`、`note-articles/h26-mondai/q09-chiseki-kousei.md`、`note-articles/h24-mondai/q06-chimoku-henkou.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`、`note-articles/h21-mondai/q07-chiseki-kousei.md`、`note-articles/h17-mondai/q15-tiseki-kousei.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`、`note-articles/r7-mondai/q13-shikichiken.md`、`note-articles/h28-mondai/q08-chimoku-henkou.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`、`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h27-mondai/q10-chizu-teisei.md`
-
 ### ア：相続人の1人による地積更正に、他の相続人の承諾は要らない
 
 表題部所有者又は所有権の登記名義人が申請人になれる表示に関する登記は、その人について相続があったときは、相続人が申請できます（不動産登記法30条）。相続人の1人だけで申請でき、他の相続人の承諾を証する情報を提供する必要はありません。
@@ -89,6 +87,8 @@
 **正解：イ・ウの組合せ（選択肢3番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q07-chiseki-kosei.md`、`note-articles/r5-mondai/q07-tochi-hyoudai.md`、`note-articles/r4-mondai/q07-hyoudaibu-hensei-kousei.md`、`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/r2-mondai/q07-chimoku-henkou-touki.md`、`note-articles/h27-mondai/q07-tochi-hyoudai.md`、`note-articles/h26-mondai/q09-chiseki-kousei.md`、`note-articles/h24-mondai/q06-chimoku-henkou.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`、`note-articles/h21-mondai/q07-chiseki-kousei.md`、`note-articles/h17-mondai/q15-tiseki-kousei.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`、`note-articles/r7-mondai/q13-shikichiken.md`、`note-articles/h28-mondai/q08-chimoku-henkou.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`、`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h27-mondai/q10-chizu-teisei.md`
 
 **このまま使える点／使う前に確認したい点**
 

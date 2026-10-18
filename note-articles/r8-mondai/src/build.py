@@ -131,9 +131,6 @@ def build_article(n, d):
             a(x)
             a("")
     qp = [p for p in (("note-articles/" + x) if not x.startswith("note-articles") else x for x in REL_Q.get(n, [])) if os.path.exists(os.path.join(lib.REPO, p))]
-    if qp:
-        a("※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：" + "、".join("`{}`".format(p) for p in qp))
-        a("")
     for i, c in enumerate(d["ch"]):
         letter = LET[i]
         a("### {}：{}".format(letter, c["h"]))
@@ -169,6 +166,9 @@ def build_article(n, d):
     a("")
     a("---")
     a("")
+    if qp:
+        a("※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：" + "、".join("`{}`".format(p) for p in qp))
+        a("")
     a("**このまま使える点／使う前に確認したい点**")
     a("")
     a("- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。")

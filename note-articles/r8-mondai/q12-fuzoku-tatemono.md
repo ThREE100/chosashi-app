@@ -22,8 +22,6 @@
 
 肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q14-fuzoku-tatemono.md`、`note-articles/r4-mondai/q14-fuzoku-tatemono.md`、`note-articles/r2-mondai/q13-fuzoku-tatemono.md`、`note-articles/h30-mondai/q14-fuzoku-tatemono.md`、`note-articles/h26-mondai/q14-fuzoku-tatemono.md`、`note-articles/h23-mondai/q17-fuzoku-tatemono.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`、`note-articles/h17-mondai/q08-fuzoku-tatemono.md`、`note-articles/r1-mondai/q09-tatemono-kosuu.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
-
 ### ア：附属建物の取壊しでは、建物図面の提供を省略できる
 
 建物図面を添付しなければならないのは、令別表十四の項で、所在の地番の変更・更正、床面積の変更・更正、附属建物の新築のときに限られています。附属建物の取壊しはこのどれにもあたらず、残る建物の位置や形状も変わらないので、建物図面の提供を省略できます。
@@ -91,6 +89,8 @@
 **正解：イ・オの組合せ（選択肢4番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q14-fuzoku-tatemono.md`、`note-articles/r4-mondai/q14-fuzoku-tatemono.md`、`note-articles/r2-mondai/q13-fuzoku-tatemono.md`、`note-articles/h30-mondai/q14-fuzoku-tatemono.md`、`note-articles/h26-mondai/q14-fuzoku-tatemono.md`、`note-articles/h23-mondai/q17-fuzoku-tatemono.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`、`note-articles/h17-mondai/q08-fuzoku-tatemono.md`、`note-articles/r1-mondai/q09-tatemono-kosuu.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
 
 **このまま使える点／使う前に確認したい点**
 

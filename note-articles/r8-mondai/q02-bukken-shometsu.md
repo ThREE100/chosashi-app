@@ -22,8 +22,6 @@
 
 肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`、`note-articles/h19-mondai/q03-senyu-soken.md`、`note-articles/r5-mondai/q02-bukkenteki-seikyuuken.md`、`note-articles/h26-mondai/q02-bukkentekiseikyuuken.md`、`note-articles/h30-mondai/q02-fugou.md`、`note-articles/r1-mondai/q02-kyouyuu.md`、`note-articles/h27-mondai/q02-kyouyuu.md`
-
 ### ア：所有権に基づく抹消登記請求権は、時効で消滅しない
 
 所有権に基づく妨害排除請求権は、所有権から生じる権利で、所有権がある限り、時効によって消滅しません（判例）。民法166条2項は、消滅時効にかかる対象を「債権又は所有権以外の財産権」としており、所有権そのものは対象に入っていません。
@@ -89,6 +87,8 @@ BとCの持分は同じ3分の1ずつなので、Aの3分の1が6分の1ずつ�
 **正解：イ・オの組合せ（選択肢3番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`、`note-articles/h19-mondai/q03-senyu-soken.md`、`note-articles/r5-mondai/q02-bukkenteki-seikyuuken.md`、`note-articles/h26-mondai/q02-bukkentekiseikyuuken.md`、`note-articles/h30-mondai/q02-fugou.md`、`note-articles/r1-mondai/q02-kyouyuu.md`、`note-articles/h27-mondai/q02-kyouyuu.md`
 
 **このまま使える点／使う前に確認したい点**
 

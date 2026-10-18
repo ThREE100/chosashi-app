@@ -22,8 +22,6 @@
 
 条文の細かい定めが問われるので、肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q20-chousashihou.md`、`note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md`、`note-articles/r5-mondai/q20-chousashihou.md`、`note-articles/r4-mondai/q20-chousashihou.md`、`note-articles/r3-mondai/q20-chousashihou.md`、`note-articles/r2-mondai/q20-chousashihou.md`、`note-articles/h30-mondai/q20-chousashi-touroku.md`、`note-articles/h29-mondai/q20-chousashi-houjin.md`、`note-articles/h28-mondai/q20-chousashihou-hikkai-dairi.md`、`note-articles/h26-mondai/q20-chousashihou.md`、`note-articles/h25-mondai/q20-chousashihou.md`、`note-articles/jissen-tanren01-mondai/q20-chousashi-houtorikeshi.md`、`note-articles/chokuzen-fukushuu-card/c01-chousashikai-shikaku.md`、`note-articles/chokuzen-fukushuu-card/c02-chousashi-houjin.md`、`note-articles/h19-mondai/q20-chosashi-gimu.md`、`note-articles/h20-mondai/q20-choukai.md`
-
 ### ア：戒告の処分をしたときは、遅滞なく官報で公告する
 
 法務大臣は、調査士に対して戒告などの懲戒処分をしたとき（調査士法42条）、調査士法人に対して戒告などの処分をしたとき（同法43条1項）は、遅滞なく、その旨を官報で公告しなければなりません（同法46条）。
@@ -89,6 +87,8 @@
 **正解：ア・オの組合せ（選択肢2番）**
 
 ---
+
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q20-chousashihou.md`、`note-articles/r6-mondai/q20-chousashihou-gyoumu-kitei.md`、`note-articles/r5-mondai/q20-chousashihou.md`、`note-articles/r4-mondai/q20-chousashihou.md`、`note-articles/r3-mondai/q20-chousashihou.md`、`note-articles/r2-mondai/q20-chousashihou.md`、`note-articles/h30-mondai/q20-chousashi-touroku.md`、`note-articles/h29-mondai/q20-chousashi-houjin.md`、`note-articles/h28-mondai/q20-chousashihou-hikkai-dairi.md`、`note-articles/h26-mondai/q20-chousashihou.md`、`note-articles/h25-mondai/q20-chousashihou.md`、`note-articles/jissen-tanren01-mondai/q20-chousashi-houtorikeshi.md`、`note-articles/chokuzen-fukushuu-card/c01-chousashikai-shikaku.md`、`note-articles/chokuzen-fukushuu-card/c02-chousashi-houjin.md`、`note-articles/h19-mondai/q20-chosashi-gimu.md`、`note-articles/h20-mondai/q20-choukai.md`
 
 **このまま使える点／使う前に確認したい点**
 
