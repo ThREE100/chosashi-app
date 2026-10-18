@@ -205,6 +205,25 @@ for path in files:
         pf = os.path.join(ROOT, "personal", "q{:02d}-analysis.md".format(n))
         if not os.path.exists(pf):
             bad(f, "個人用の分析ファイルがない")
+    # 13b 作図ガイド（全問）と間違いノート（本番で間違えた肢だけ）
+    MISTAKE = {3: "オ", 4: "アウエオ", 13: "エ", 14: "イオ", 17: "エオ", 18: "アエ"}
+    if text.count("## インフォグラフィック プロンプト（作図ガイド）") != 1:
+        bad(f, "作図ガイドの見出しが1つでない")
+    else:
+        gsec = text.split("## インフォグラフィック プロンプト（作図ガイド）")[1]
+        gsec = re.split(r"^## ", gsec, flags=re.M)[0]
+        if gsec.count("```") != 2:
+            bad(f, "作図ガイドのコードフェンスが2つでない")
+        for i in range(1, 6):
+            if "--- PANEL %d（%s） ---" % (i, "アイウエオ"[i - 1]) not in gsec:
+                bad(f, "作図ガイドのPANEL %dがない" % i)
+        if "--- PANEL 6" in gsec:
+            bad(f, "作図ガイドのパネルが6枚以上")
+        if re.search(r"Subtitle[^\n]*\n[^\n]*(ア〜オ|1〜5)", gsec):
+            bad(f, "作図ガイドのサブタイトルに肢の範囲")
+    got = "".join(re.findall(r"^## インフォグラフィック プロンプト（([アイウエオ])肢・間違いノート）", text, flags=re.M))
+    if got != MISTAKE.get(n, ""):
+        bad(f, "間違いノートの肢が違う: 期待=%s 実際=%s" % (MISTAKE.get(n, ""), got))
     # 14 記事に個人の演習結果が入っていないか
     for pat in ("あなたの解答", "あなたの判断", "自信あり", "迷いの印"):
         if pat in text:

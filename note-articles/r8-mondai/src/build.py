@@ -27,6 +27,13 @@ for p in sorted(glob.glob(os.path.join(HERE, "d[0-9][0-9]*.py"))):
     m = importlib.import_module(os.path.basename(p)[:-3])
     DATA.update(m.DATA)
 
+GUIDE = {}
+for p in sorted(glob.glob(os.path.join(HERE, "g[0-9][0-9]*.py"))):
+    m = importlib.import_module(os.path.basename(p)[:-3])
+    GUIDE.update(m.GUIDE)
+for _n, _g in GUIDE.items():
+    DATA[_n]["guide"] = _g
+
 ITEMS = {i["id"]: i for i in json.load(open(os.path.join(lib.REPO, "tools", "drill", "data", "items.json"), encoding="utf-8"))["items"]}
 
 from relkw import REL_KW  # noqa: E402
@@ -209,8 +216,22 @@ def build_article(n, d):
     a(lib.infographic(n, d))
     a("```")
     a("")
+    if d.get("guide"):
+        a("---")
+        a("")
+        a("## インフォグラフィック プロンプト（作図ガイド）")
+        a("")
+        a(d["guide"]["desc"])
+        a("")
+        a("```")
+        a(lib.guide_prompt(n, d))
+        a("```")
+        a("")
     if d.get("mistakes"):
+        wrong = [x for x in LET if d["personal"]["items"][x]["verdict"] == "相違"]
         for i, letter in enumerate(LET):
+            if letter not in wrong:
+                continue
             m = d["mistakes"][letter]
             a("---")
             a("")
