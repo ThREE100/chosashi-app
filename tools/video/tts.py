@@ -105,10 +105,46 @@ def segments(reading: str) -> list[tuple[str, float]]:
     return out
 
 
+def apply_fx(y: np.ndarray, sr: int, fx: dict | None) -> np.ndarray:
+    """声の加工（ボイスチェンジャー）。voices.json の各声に "fx" を書くと掛かる。
+
+    "pitch": 1.35   声の高さの倍率。声の通り道（フォルマント）ごと上げるので、
+                    マスコットキャラクターのような「機械で変換した声」になる。話す速さは変わらない。
+    "tempo": 1.0    話す速さの倍率（加工のあとに掛ける）。
+    "bright": 3     高い音を持ち上げる量（dB）。こもりを取って、軽い声にする。
+    """
+    if not fx:
+        return y
+    import subprocess
+
+    p = float(fx.get("pitch", 1.0))
+    t = float(fx.get("tempo", 1.0))
+    chain = []
+    if p != 1.0:
+        chain += [f"asetrate={int(sr * p)}", f"aresample={sr}"]
+        # atempo は 0.5〜2.0 の範囲なので、高さを上げた分だけ遅くして長さを戻す
+        k = t / p
+        while k < 0.5:
+            chain.append("atempo=0.5")
+            k /= 0.5
+        chain.append(f"atempo={k:.5f}")
+    elif t != 1.0:
+        chain.append(f"atempo={t:.5f}")
+    if fx.get("bright"):
+        chain.append(f"treble=g={float(fx['bright'])}:f=3000")
+    pcm = (np.clip(y, -1, 1) * 32767).astype(np.int16).tobytes()
+    out = subprocess.run(["ffmpeg", "-loglevel", "error", "-f", "s16le", "-ar", str(sr), "-ac", "1", "-i", "pipe:0",
+                          "-af", ",".join(chain), "-f", "s16le", "-ar", str(sr), "-ac", "1", "pipe:1"],
+                         input=pcm, capture_output=True, check=True).stdout
+    return np.frombuffer(out, dtype=np.int16).astype(np.float32) / 32768.0
+
+
 def synth_with_pauses(provider, voice_key: str, reading: str):
     parts = []
+    fx = provider.voices[voice_key].get("fx")
     for text, sec in segments(reading):
         y, sr = provider.synth(voice_key, text)
+        y = apply_fx(y, sr, fx)
         parts += [y, np.zeros(int(sec * sr), dtype=np.float32)]
     return (np.concatenate(parts) if parts else np.zeros(int(0.2 * SR), dtype=np.float32)), SR
 
