@@ -347,8 +347,12 @@ for i, (head, body) in enumerate(STEPS11):
     ax.text(6, y - 2.7, body, ha='left', va='center', fontsize=14, color=BLACK)
     if i < len(STEPS11) - 1:
         arrow(ax, 50, y - 5.8, 50, y - 8.4)
-fig.text(0.5, 0.035, '10分考えて手が止まったら後回し。K点が要らない欄（問1・問3の多くの欄・問4のC点）を先に取り、戻ったら①からやり直す',
-         ha='center', va='center', fontsize=15.5, weight='bold')
+        if i == 2:
+            ax.text(52.5, y - 7.1, '←　ここまで3分。浮かばなければ、続けるか他の欄に移るかを判断', ha='left', va='center',
+                    fontsize=14, weight='bold', color=RED)
+fig.text(0.5, 0.05, '①〜③を3分やって浮かばなければ判断：K点にぶら下がる欄の多さと、K点なしで書ける欄（問1・問3の多くの欄・問4のC点）の残りを比べ、\n'
+         '移るなら「K ← L ← H・I・M、交点？」とメモを残して、戻ったら続きから',
+         ha='center', va='center', fontsize=15, weight='bold', linespacing=1.6)
 put_board(fig, 'R8_dai21mon_zu11_K_mayottara.png')
 
 # ---- zu12：申請件数と登録免許税 ----
