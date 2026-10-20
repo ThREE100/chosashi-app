@@ -3,7 +3,7 @@
 `../prompt_R8_dai21mon_kaiwa_kaisetsuzu.md`（基本フォーム `../../../prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作成）
 の指示を、そのままPythonにしたもの。図に書く数値はすべて座標から計算し直し、記事の数値と一致しなければ止まる。
 PNG名の番号（zu01〜zu21）は記事の挿入順の管理用で、画像の中のタイトルには図番を入れない。
-答案用紙の様式は未発表（2026-10-18時点）なので、第5欄の地積測量図の枠は令和7年度の答案用紙（第3欄）の形にならった仮のもの。
+第5欄の地積測量図の枠は、アガルートの解答例（2026-10-20受領）に再現された答案用紙の第5欄の形（令和7年度の第3欄と同じ形）。
 
 実行: python3 note-articles-Kijyutsu/R8/Q21/zu/draw_R8_dai21mon_kaisetsuzu.py [出力フォルダ]
 """
@@ -399,7 +399,7 @@ rbox(ax, 1, 3, 98, 42, 'ワナ', '登記記録の抜粋の「M市N町一丁目25
 put_board(fig, 'R8_dai21mon_zu14_juusho.png')
 
 # ---- zu15：甲区の持分の追いかけと記号欄 ----
-fig, ax = board(11, '問3　甲土地の甲区を持分ごとに追う　記号欄は「イ　エ」')
+fig, ax = board(11, '問3　甲土地の甲区を持分ごとに追う　記号欄は「イ、エ」')
 rbox(ax, 1, 66, 30, 27, '順位1　昭和41年8月25日', '所有権移転（売買）\n佐藤啓次郎\n→ ア 登記済証', GRAY)
 rbox(ax, 35, 66, 30, 27, '順位2　平成18年9月28日', '相続　共有\n佑介 2分の1 → イ\n由里香 2分の1 → ウ', BLUE)
 rbox(ax, 69, 66, 30, 27, '順位3　令和6年7月4日', '由里香持分全部移転（相続）\n佑介 2分の1 → エ', BLUE)
@@ -519,7 +519,7 @@ for ax, ok in [(ax1, False), (ax2, True)]:
     zs.append(z)
 ALL += save(fig, zs, 'R8_dai21mon_zu19_I_egakanai.png')
 
-# ---- zu20：第5欄 地積測量図の完成見本（答案用紙の様式は未発表。令和7年度の第3欄の形にならった仮の枠） ----
+# ---- zu20：第5欄 地積測量図の完成見本（解答例に再現された答案用紙の第5欄の形） ----
 setup_font()
 fig = plt.figure(figsize=(16, 13), dpi=100)
 fig.patch.set_facecolor('white')
@@ -568,9 +568,9 @@ fline(0.885, BB + 0.01, 0.925, BT - 0.01, lw=1.0)
 fig.text(0.892, BT - 0.016, '1', fontsize=13, ha='center', va='center')
 fig.text(0.915, BB + 0.016, '250', fontsize=13, ha='center', va='center')
 fig.text(0.5, 0.115,
-         '答案用紙の様式は未発表のため、令和7年度の答案用紙の地積測量図の欄の形にならった仮の枠（印刷の位置・欄の番号は本番の用紙で確かめる）\n'
+         '印刷済み：「第5欄」「地積測量図」、地番・土地の所在の欄の枠、作成者と申請人の「（略）」、作成日の欄、縮尺 1/250\n'
          '書くもの：地番（2番42、2番58、2番59）、土地の所在（M市A町二丁目）、図（縮尺1/250で 1m ＝ 4mm）、辺長10本、分筆線JK・LM、符号（イ）（ロ）（ハ）、\n'
-         '境界標の記号と凡例、「（単位：ｍ）」、方位記号、隣接地の地番、M市基準点T1・T2の位置と点名（問題文の注6）\n'
+         '境界標の記号と凡例、「（単位：ｍ）」、方位記号、隣接地の地番（点で接する2－18・2－55も）、M市基準点T1・T2の位置と点名（問題文の注6）\n'
          '書かないもの：座標値・座標系の番号・地積と求積方法・測量年月日（問題文の注5）、I点。辺長は小数第3位を四捨五入（LK は 14.1567… なので 14.16）',
          ha='center', va='center', fontsize=13.5, linespacing=1.6)
 ax = fig.add_axes([IL + 0.01, IB + 0.01, IR - IL - 0.02, IT - IB - 0.065])
@@ -592,7 +592,7 @@ for n, (p, q, s) in SIDES.items():
         z.edge_label(p, q, s, centroid(OTSU1), fs=13, dists=(12, 18, 24))
 z.free_text(cu, '（イ）\n2－42', fs=16)
 z.callout(centroid(S58), '（ロ）2－58', dirs=(-150, 180, -120), dists=(60, 80, 100), fs=14)
-z.callout(centroid(S59), '（ハ）2－59', dirs=(150, 180, 120), dists=(60, 80, 100), fs=14)
+z.callout(centroid(S59), '（ハ）2－59', dirs=(-165, 180, -145), dists=(60, 80, 100), fs=14)
 for n in ['D', 'J', 'C', 'B', 'M', 'H', 'L', 'K']:
     z.point(globals()[n], 'metal' if KUI[n] == 'metal' else 'concrete', size=(9 if KUI[n] == 'metal' else 7))
     z.point_label(globals()[n], n, away=cu)
@@ -604,7 +604,9 @@ z.edge_label(C, B, '2－43', cu, fs=14, dists=(40, 50), rotate=False)
 z.edge_label(B, M, '2－56', cu, fs=14, dists=(36, 46), rotate=False)
 z.edge_label(M, H, '2－57', cu, fs=14, dists=(36, 46), rotate=False)
 z.edge_label(L, K, '2－19', cu, fs=14, dists=(50, 60, 70), rotate=False)
-z.free_text(P(510.5, 471.5), '（単位：ｍ）\n◎ コンクリート杭：D・C・H・K・L・M\n● 金属標：B・J\n△ 基準点：T1・T2', fs=12,
+z.free_text(D, '2－18', fs=14, offsets=((-40, 22), (-50, 10), (-30, 34), (-60, 0)))
+z.free_text(B, '2－55', fs=14, offsets=((36, -24), (46, -12), (30, -36), (56, 0)))
+z.free_text(P(500.0, 471.5), '（単位：ｍ）\n◎ コンクリート杭：D・C・H・K・L・M\n● 金属標：B・J\n△ 基準点：T1・T2', fs=12,
             ha='left', va='top', offsets=((0, 0), (0, -20), (20, 0), (0, -40)))
 ALL += save(fig, [z], 'R8_dai21mon_zu20_chiseki_sokuryouzu.png')
 

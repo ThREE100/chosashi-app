@@ -4,10 +4,12 @@ HTML＋ヘッドレスブラウザでPNGに書き出す。
 - 完成形：`../prompt_R8_dai21mon_toukishinseisho_gazou.md` どおり（問3・令和8年8月20日の土地分合筆登記）。縦長（横1200px）
 - 添削　：`../prompt_R8_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 第1欄（問1のア〜エ）・第2欄（問2のK点）・第4欄（問4のC点）：申請書でない解答欄を別の画像にする（横1200px）
-- 令和8年度の答案用紙の様式は未発表（2026-10-18時点）。欄の形・順序は令和7年度の試験の答案用紙
-  （`public/kijutsu/R07-tochi/a1.png`）にならった仮のもの。問3の問題文にある「記号欄」は、添付書類の欄の下に仮に置いた。
-  土地の表示の列幅は令和7年度の答案用紙の画像の縦の罫線から測った比（縦書き6・地番18・地目15・地積25〈整数部15・小数部10〉・原因36）
-  本番の答案用紙が公表されたら、欄の順序・列幅・印刷文字をその用紙に合わせて直す
+- 欄の形・順序・印刷文字は、アガルートの解答例（2026-10-20受領、答案用紙を再現したもの）どおり：第3欄の申請書は
+  登記の目的・添付書類・記号欄（小さな枠）・「令和８年８月20日　申請　Ａ地方法務局」・申請人・代理人（略）・登録免許税の順。
+  土地の表示は記入行6行、見出しは「③地　積（㎡）」。列幅は解答例の画像の縦の罫線から測った比
+  （縦書き6・地番16・地目16・地積21〈整数部14・小数部7〉・原因41）
+- 解答例は（イ）の行と合筆後の行の地目を空欄にしているが、完成形の画像は自分で解いたときの記入（宅地）のままにした（ユーザー指示）
+  記号欄は解答例どおり「イ，エ」
 
 R5/Q21の `make_R5_dai21mon_shinseisho_gazou.py` の様式（CSS・土地の表示の表）を使った。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP。なければIPA明朝・IPAゴシック）
@@ -81,13 +83,13 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
              f'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 
-def land_table(rows, n_rows=5, shozai='Ｍ市Ａ町二丁目', compact=False):
+def land_table(rows, n_rows=6, shozai='Ｍ市Ａ町二丁目', compact=False):
     """土地の表示の表。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。各値は HTML（記入部分は呼び出し側で .ink を付ける）"""
-    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:18%"><col style="width:15%">'
-         '<col style="width:15%"><col style="width:10%"><col style="width:36%"></colgroup>',
+    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:16%"><col style="width:16%">'
+         '<col style="width:14%"><col style="width:7%"><col style="width:41%"></colgroup>',
          f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
          f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地　　番</td>'
-         '<td class="head">②地　　目</td><td class="head" colspan="2">③地　　積（m²）</td>'
+         '<td class="head">②地　　目</td><td class="head" colspan="2">③地　　積（㎡）</td>'
          '<td class="head">登記原因及びその日付</td></tr>']
     for i in range(n_rows):
         c, m, a, b, g = rows[i] if i < len(rows) else ('', '', '', '', '')
@@ -106,30 +108,30 @@ def page(body):
 
 
 # ---- 完成形（記入データは prompt_R8_dai21mon_toukishinseisho_gazou.md のとおり） ----
-DATE = '令和８年８月20日　申請　○○地方法務局'
+DATE = '令和８年８月20日　申請　Ａ地方法務局'
 PURPOSE = '土地分合筆登記'
 ATTACH = '地積測量図　登記識別情報　印鑑証明書　代理権限証書'
-KIGOU = 'イ　エ'
+KIGOU = 'イ，エ'
 APPLICANT = 'Ｍ市Ａ町二丁目２番19号　佐藤佑介'
 TAX = '金2,000円'
 SHOZAI = 'Ｍ市Ａ町二丁目'
 ROWS = [('２番19', '宅地', '413', '30', ''),
-        ('（イ）２番19', '宅地', '392', '17', '③２番42に一部合併'),
-        ('（ロ）', '', '21', '15', '２番19から分筆して２番42に合併する部分'),
+        ('(イ)２番19', '宅地', '392', '17', '③２番42に一部合併'),
+        ('(ロ)', '', '21', '15', '２番19から分割して２番42に合併する部分'),
         ('２番42', '宅地', '344', '84', ''),
         ('２番42', '宅地', '365', '99', '③２番19から一部合併')]
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
 <div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:62px">{ink(PURPOSE)}</div></div>
 <div class="row"><div class="lab">添　付　書　類</div><div class="box fix" style="min-height:130px">{ink(ATTACH)}</div></div>
-<div class="row"><div class="lab">記　　　　号</div><div class="box" style="min-height:62px">{ink(KIGOU)}</div></div>
+<div class="row"><div class="lab" style="padding-left:150px;width:420px">記　号　欄</div><div class="box" style="min-height:62px;flex:0 0 300px;text-align:center">{ink(KIGOU)}</div></div>
 <div class="plain">{DATE}</div>
 <div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:96px">{ink(APPLICANT)}</div></div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
 <div class="row"><div class="lab">登録免許税</div><div class="box" style="min-height:62px">{ink(TAX)}</div></div>
 <div style="margin-top:14px"></div>
 {land_table([tuple(ink(v) for v in r) for r in ROWS], shozai=ink(SHOZAI))}
-<div class="caption">令和8年度 土地家屋調査士試験 第21問 登記申請書 解答例（答案用紙の様式は未発表のため、令和7年度の様式にならった仮の形）</div>
+<div class="caption">令和8年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
 </div>''')
 
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ。添付書類の欄だけ） ----
@@ -152,7 +154,7 @@ machigai = page(f'''
 <div class="panel" style="min-height:420px"><div class="ptitle fix">②添削（赤ペン）</div>{fix_panel}</div>
 <div class="panel" style="min-height:420px"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">令和8年度 第21問｜分合筆（合筆）の添付書類に印鑑証明書を忘れない</div>''')
-# ---- 第1欄（申請書でない解答欄。令和7年度の第2欄の形にならった仮の形） ----
+# ---- 第1欄（申請書でない解答欄。解答例に再現された答案用紙の第1欄の形） ----
 RAN_CSS = '''
 .ranpage { padding: 50px 60px 34px; }
 .ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 14px; }
@@ -165,7 +167,7 @@ table.ran td.v .ink { font-size: 28px; }
 
 
 def ran_image(head, pairs, caption):
-    """記号と記入欄を1行に2組ずつ並べた穴埋めの欄（令和7年度の試験の答案用紙の第2欄の形にならった仮の形）"""
+    """記号と記入欄を1行に2組ずつ並べた穴埋めの欄（解答例に再現された答案用紙の第1欄の形）"""
     trs = ''
     for i in range(0, len(pairs), 2):
         cells = ''.join(f'<td class="k">{k}</td><td class="v">{ink(v)}</td>' for k, v in pairs[i:i + 2])
@@ -178,10 +180,10 @@ def ran_image(head, pairs, caption):
 
 
 DAI1 = [('ア', '登記名義人'), ('イ', '運転免許証'), ('ウ', '個人番号カード'), ('エ', '旅券等')]
-dai1 = ran_image('第1欄', DAI1, '令和8年度 土地家屋調査士試験 第21問 第1欄（問1）解答例（答案用紙の様式は未発表のため仮の形）')
+dai1 = ran_image('第1欄', DAI1, '令和8年度 土地家屋調査士試験 第21問 第1欄（問1）解答例')
 
 
-# ---- 座標の欄（申請書でない解答欄。2026-10-02追加。令和7年度の試験の答案用紙の第1欄・第4欄の形：左上の斜線の欄・X座標（m）・Y座標（m）、3列等幅） ----
+# ---- 座標の欄（申請書でない解答欄。2026-10-02追加。解答例に再現された答案用紙の第2欄・第4欄の形：左上の斜線の欄・X座標（m）・Y座標（m）、3列等幅） ----
 Z_CSS = '''
 .ranpage { padding: 50px 60px 34px; }
 .ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 14px; }
@@ -203,9 +205,9 @@ def zahyou(head, rows, caption):
 
 
 dai2 = zahyou('第2欄', [('Ｋ点', '506.23', '492.18')],
-               '令和8年度 土地家屋調査士試験 第21問 第2欄（問2）解答例（答案用紙の様式は未発表のため仮の形）')
+               '令和8年度 土地家屋調査士試験 第21問 第2欄（問2）解答例')
 dai4 = zahyou('第4欄', [('Ｃ点', '510.78', '506.79')],
-               '令和8年度 土地家屋調査士試験 第21問 第4欄（問4）解答例（答案用紙の様式は未発表のため仮の形）')
+               '令和8年度 土地家屋調査士試験 第21問 第4欄（問4）解答例')
 
 exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
 with sync_playwright() as p:
