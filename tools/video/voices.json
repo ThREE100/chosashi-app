@@ -6,15 +6,18 @@
       "half_tone": 1.0,
       "gain": 1.5,
       "fx": {
-        "pitch": 1.4,
-        "bright": 3
-      }
+        "pitch": 1.6,
+        "bright": 3,
+        "tempo": 1.05
+      },
+      "intonation": 1.6
     },
     "aiko": {
       "htsvoice": "voices/htsvoice-tohoku-f01/tohoku-f01-neutral.htsvoice",
       "speed": 1.25,
       "half_tone": 0.0,
-      "gain": 1.0
+      "gain": 1.0,
+      "intonation": 1.4
     }
   },
   "voicevox": {
@@ -24,15 +27,18 @@
       "gain": 1.0,
       "_memo": "成人男性の声（例 13=青山龍星、11=玄野武宏）を fx で高くするとマスコット風になる。IDはローカルの VOICEVOX の /speakers で確かめる",
       "fx": {
-        "pitch": 1.3,
-        "bright": 2
-      }
+        "pitch": 1.45,
+        "bright": 3,
+        "tempo": 1.05
+      },
+      "intonation": 1.3
     },
     "aiko": {
       "speaker": 8,
       "speed": 1.1,
       "gain": 1.0,
-      "_memo": "8=春日部つむぎ ノーマル"
+      "_memo": "8=春日部つむぎ ノーマル",
+      "intonation": 1.2
     }
   }
 }

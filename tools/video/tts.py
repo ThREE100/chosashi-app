@@ -105,6 +105,57 @@ def segments(reading: str) -> list[tuple[str, float]]:
     return out
 
 
+# 語尾の上げ下げ（半音の数）。セリフの終わり方から自動で決め、↑・↓ の記号で手で指定もできる。
+ENDINGS = {"up": 5.0, "soft_up": 3.5, "down": -3.0}
+
+
+def ending_of(text: str) -> str | None:
+    """セグメントの終わり方から語尾の上げ下げを決める。"""
+    if "↓" in text:
+        return "down"
+    if "↑" in text or re.search(r"[？?]\s*$", text):
+        return "up"
+    if re.search(r"(ね|かな|よね|でしょう)[。．]?\s*$", text):
+        return "soft_up"
+    return None
+
+
+def apply_prosody(y: np.ndarray, sr: int, intonation: float = 1.0, ending: str | None = None) -> np.ndarray:
+    """抑揚を付け直す（Open JTalk 用）。声の高さの動きを intonation 倍に広げ、語尾を上げ下げする。
+    WORLD（pyworld）で声を「高さ」と「声色」に分け、高さだけを変えて組み立て直す。"""
+    if intonation == 1.0 and not ending:
+        return y
+    import pyworld as pw
+
+    x = y.astype(np.float64)
+    f0, t = pw.dio(x, sr, frame_period=5.0)
+    f0 = pw.stonemask(x, f0, t, sr)
+    voiced = f0 > 0
+    if voiced.sum() < 5:
+        return y
+    lf = np.zeros_like(f0)
+    lf[voiced] = np.log(f0[voiced])
+    m = np.median(lf[voiced])
+    lf[voiced] = m + (lf[voiced] - m) * intonation
+    if ending:
+        # 語尾の0.35秒を、文全体の中央の高さから ENDINGS 半音だけ上（下）の高さへ、なめらかに近づける。
+        # （足し算だと、抑揚を広げたぶん深くなった Open JTalk の語尾の下がりに打ち消されてしまう）
+        last = np.nonzero(voiced)[0][-1]
+        n = min(last + 1, int(0.35 / 0.005))
+        idx = np.arange(last + 1 - n, last + 1)
+        w = np.linspace(0, 1, n) ** 1.2
+        target = m + ENDINGS[ending] * np.log(2) / 12
+        v = voiced[idx]
+        blended = lf[idx[v]] * (1 - w[v]) + target * w[v]
+        # 上げるときは今より高いときだけ、下げるときは今より低いときだけ動かす（もとから下がっている語尾をさらに上げない）
+        lf[idx[v]] = np.minimum(lf[idx[v]], blended) if ending == "down" else np.maximum(lf[idx[v]], blended)
+    f0[voiced] = np.exp(lf[voiced])
+    sp = pw.cheaptrick(x, f0, t, sr)
+    ap = pw.d4c(x, f0, t, sr)
+    out = pw.synthesize(f0, sp, ap, sr, frame_period=5.0)[: len(y)]
+    return out.astype(np.float32)
+
+
 def apply_fx(y: np.ndarray, sr: int, fx: dict | None) -> np.ndarray:
     """声の加工（ボイスチェンジャー）。voices.json の各声に "fx" を書くと掛かる。
 
@@ -143,7 +194,8 @@ def synth_with_pauses(provider, voice_key: str, reading: str):
     parts = []
     fx = provider.voices[voice_key].get("fx")
     for text, sec in segments(reading):
-        y, sr = provider.synth(voice_key, text)
+        ending = ending_of(text)
+        y, sr = provider.synth(voice_key, text.replace("↑", "").replace("↓", ""), ending=ending)
         y = apply_fx(y, sr, fx)
         parts += [y, np.zeros(int(sec * sr), dtype=np.float32)]
     return (np.concatenate(parts) if parts else np.zeros(int(0.2 * SR), dtype=np.float32)), SR
@@ -166,7 +218,7 @@ class OpenJTalk:
             self.engines[key] = self.pj.HTSEngine(path.encode())
         return self.engines[key]
 
-    def synth(self, voice_key: str, text: str):
+    def synth(self, voice_key: str, text: str, ending: str | None = None):
         v = self.voices[voice_key]
         eng = self._engine(voice_key)
         eng.set_speed(v.get("speed", 1.0))
@@ -175,7 +227,7 @@ class OpenJTalk:
         x = eng.synthesize(labels)
         sr = eng.get_sampling_frequency()
         eng.refresh()
-        x = (x / 32768.0).astype(np.float32) * v.get("gain", 1.0)
+        x = apply_prosody((x / 32768.0).astype(np.float32), sr, v.get("intonation", 1.0), ending) * v.get("gain", 1.0)
         if sr != SR:
             x = np.interp(np.linspace(0, len(x), int(len(x) * SR / sr), endpoint=False), np.arange(len(x)), x).astype(np.float32)
         return x, SR
@@ -186,14 +238,20 @@ class Voicevox:
         self.voices = voices
         self.url = url
 
-    def synth(self, voice_key: str, text: str):
+    def synth(self, voice_key: str, text: str, ending: str | None = None):
         v = self.voices[voice_key]
         sp = v["speaker"]
         q = urllib.request.urlopen(urllib.request.Request(
             f"{self.url}/audio_query?speaker={sp}&text={urllib.parse.quote(text)}", method="POST"))
         query = json.load(q)
         query["speedScale"] = v.get("speed", 1.0)
+        query["intonationScale"] = v.get("intonation", 1.0)
         query["outputSamplingRate"] = SR
+        if ending and query.get("accent_phrases"):
+            # 最後のモーラの高さを上げ下げする（VOICEVOX の高さはおよそ対数。0.06 ≒ 1半音）
+            mora = query["accent_phrases"][-1]["moras"][-1]
+            if mora.get("pitch", 0) > 0:
+                mora["pitch"] += ENDINGS[ending] * 0.06
         req = urllib.request.Request(f"{self.url}/synthesis?speaker={sp}", data=json.dumps(query).encode(),
                                      headers={"Content-Type": "application/json"}, method="POST")
         wav = urllib.request.urlopen(req).read()

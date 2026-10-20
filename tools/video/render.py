@@ -186,7 +186,7 @@ class Renderer:
         voice = self.chars[spk]["voice"]
         local_yomi = beat.get("yomi", {})
         for i, page in enumerate(split_pages(beat["text"])):
-            shown = page.replace("|", "")  # 「|」は間の記号。字幕には出さない
+            shown = re.sub(r"[|↑↓]", "", page)  # 「|」は間、「↑」「↓」は語尾の上げ下げの記号。字幕には出さない
             gap = GAP_TURN if (i == 0 and prev_speaker not in (None, spk)) else GAP
             closed = self.shot(self.state(chapter, stage, spk, shown, False))
             self.hold(closed, gap)

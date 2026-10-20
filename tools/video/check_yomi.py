@@ -44,8 +44,8 @@ def main():
                 n += 1
                 reading = tts.to_reading(page, beat.get("yomi"))
                 segs = tts.segments(reading)
-                lines.append(f"\n[{n}] {names[beat['speaker']]}：{page.replace('|', '')}")
-                lines.append("    " + " ".join(f"{kana(t)}" + (f" ⏸{sec:.2f}" if sec else "") for t, sec in segs))
+                lines.append(f"\n[{n}] {names[beat['speaker']]}：{re.sub(r'[|↑↓]', '', page)}")
+                lines.append("    " + " ".join(f"{kana(t)}" + ({"up": "↗", "soft_up": "↗(弱)", "down": "↘"}.get(tts.ending_of(t), "")) + (f" ⏸{sec:.2f}" if sec else "") for t, sec in segs))
                 for t, _ in segs:
                     for node in pyopenjtalk.run_frontend(t):
                         if KANJI.search(node["string"]):
