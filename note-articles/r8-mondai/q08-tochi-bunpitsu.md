@@ -22,8 +22,6 @@
 
 分筆は、土地を分けるだけの手続に見えて、付いている権利の処理が問われる分野です。肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q11-bunpitsu.md`、`note-articles/r6-mondai/q08-bunpitsu-touki.md`、`note-articles/r5-mondai/q09-bunpitsu.md`、`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r3-mondai/q11-bunpitsu.md`、`note-articles/r2-mondai/q09-bunpitsu-touki.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`、`note-articles/h26-mondai/q10-bunpitsu.md`、`note-articles/h25-mondai/q09-bunpitsu.md`、`note-articles/h24-mondai/q07-bunpitsu.md`、`note-articles/h23-mondai/q06-bunpitsu.md`、`note-articles/h22-mondai/q18-bunpitsu.md`、`note-articles/h19-mondai/q12-bunpitsu.md`、`note-articles/h18-mondai/q14-bunpitsu-touki.md`、`note-articles/h20-mondai/q13-bunpitsu-tenpu.md`、`note-articles/h17-mondai/q06-bunpitsu-shinsei.md`、`note-articles/chokuzen-fukushuu-card/f04-tochi-bunpitsu-gappitsu.md`、`note-articles/h30-mondai/q08-tochi-hyouji.md`、`note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md`、`note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md`、`note-articles/h17-mondai/q09-touki-shikibetsu-jouhou.md`、`note-articles/r2-mondai/q14-shikichiken.md`、`note-articles/r1-mondai/q18-kubun-tatemono.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`
-
 ### ア：分筆線の位置が意思に反していても、地図訂正では直せない
 
 地図訂正の申出は、地図に表示された土地の区画や地番が、実際と違っているときの手続です（不動産登記規則16条1項）。
@@ -34,8 +32,6 @@
 
 **たとえば**、分筆の線を、思っていた位置と少しずらして申請してしまった場合、地図訂正の申出では線を動かせません。位置を改めるには、分筆の錯誤を原因とする登記で是正し、正しい線で改めて分筆するなど、別の手続が必要になります（先例・実務の取扱い）。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`
-
 ### イ：分筆の登記では、登記識別情報は通知されない
 
 登記識別情報が通知されるのは、その登記をすることで申請人自らが登記名義人になる場合です（不動産登記法21条）。
@@ -43,8 +39,6 @@
 分筆の登記は、土地を分けるだけで、登記名義人が新しくなるわけではありません。乙土地の所有権の登記名義人にも、新しい登記識別情報は通知されません。本肢は誤りです。
 
 **たとえば**、1筆を2筆に分筆しても、新しい識別情報の通知書は届きません。以前の識別情報を引き続き使います。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h30-mondai/q08-tochi-hyouji.md`、`note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md`、`note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md`、`note-articles/h17-mondai/q09-touki-shikibetsu-jouhou.md`
 
 ### ウ：分筆で消滅させる抵当権の登記は、一方の土地についてだけ
 
@@ -54,8 +48,6 @@
 
 **たとえば**、2筆に分筆するとき、抵当権者が「乙土地からは抵当権を外してよい」と承諾すれば、乙土地には抵当権が付かなくなり、甲土地にだけ残ります。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r7-mondai/q11-bunpitsu.md`、`note-articles/r5-mondai/q09-bunpitsu.md`、`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r3-mondai/q11-bunpitsu.md`
-
 ### エ：相続人の1人は、一部地目変更分筆登記を単独で申請できる
 
 表題部所有者又は所有権の登記名義人が申請できる表示に関する登記は、その人に相続があったときは、相続人が申請できます（不動産登記法30条）。
@@ -64,8 +56,6 @@
 
 **たとえば**、亡くなった父の土地の一部が駐車場になったとき、子のうち1人が単独で、その部分を分筆して地目を変える登記を申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q08-bunpitsu.md`
-
 ### オ：敷地権のある土地の分筆は、区分建物の所有者全員の申請ではない
 
 分筆の登記は、表題部所有者又は所有権の登記名義人以外の者は、申請できません（不動産登記法39条1項）。
@@ -73,8 +63,6 @@
 敷地権である旨の登記がされている土地でも、「区分建物の所有権の登記名義人の全員が申請人とならなければならない」という定めはありません。本肢は誤りです。
 
 **たとえば**、分譲マンションの敷地を分筆するときに、住戸の所有者全員が申請書に名前を並べなければならない、という決まりはありません。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r2-mondai/q14-shikichiken.md`、`note-articles/r1-mondai/q18-kubun-tatemono.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`
 
 ---
 
@@ -92,15 +80,25 @@
 
 ---
 
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q11-bunpitsu.md`、`note-articles/r6-mondai/q08-bunpitsu-touki.md`、`note-articles/r5-mondai/q09-bunpitsu.md`、`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r3-mondai/q11-bunpitsu.md`、`note-articles/r2-mondai/q09-bunpitsu-touki.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`、`note-articles/h26-mondai/q10-bunpitsu.md`、`note-articles/h25-mondai/q09-bunpitsu.md`、`note-articles/h24-mondai/q07-bunpitsu.md`、`note-articles/h23-mondai/q06-bunpitsu.md`、`note-articles/h22-mondai/q18-bunpitsu.md`、`note-articles/h19-mondai/q12-bunpitsu.md`、`note-articles/h18-mondai/q14-bunpitsu-touki.md`、`note-articles/h20-mondai/q13-bunpitsu-tenpu.md`、`note-articles/h17-mondai/q06-bunpitsu-shinsei.md`、`note-articles/chokuzen-fukushuu-card/f04-tochi-bunpitsu-gappitsu.md`、`note-articles/h30-mondai/q08-tochi-hyouji.md`、`note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md`、`note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md`、`note-articles/h17-mondai/q09-touki-shikibetsu-jouhou.md`、`note-articles/r2-mondai/q14-shikichiken.md`、`note-articles/r1-mondai/q18-kubun-tatemono.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`
+
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`
+- **イ**　関連する過去の記事：`note-articles/h30-mondai/q08-tochi-hyouji.md`、`note-articles/h22-mondai/q19-touki-shikibetsu-jouhou.md`、`note-articles/h18-mondai/q15-touki-shikibetsu-jouhou.md`、`note-articles/h17-mondai/q09-touki-shikibetsu-jouhou.md`
+- **ウ**　関連する過去の記事：`note-articles/r7-mondai/q11-bunpitsu.md`、`note-articles/r5-mondai/q09-bunpitsu.md`、`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r3-mondai/q11-bunpitsu.md`
+- **エ**　関連する過去の記事：`note-articles/r4-mondai/q08-bunpitsu.md`
+- **オ**　関連する過去の記事：`note-articles/r4-mondai/q08-bunpitsu.md`、`note-articles/r2-mondai/q14-shikichiken.md`、`note-articles/r1-mondai/q18-kubun-tatemono.md`、`note-articles/h28-mondai/q09-tochi-bunpitsu.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（2番＝ア・エ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法21条・30条・39条・40条、不動産登記規則16条・104条は、`note-articles/laws/`配下の原文で確認しました。
 - アの「分筆の錯誤を原因とする登記で是正し、改めて分筆するなど別の手続が必要」という部分は、先例に基づく実務の扱いで、先例の原文と是正の具体的な形（錯誤による抹消のうえ再分筆か、合筆か）は確認できていません。過去問の一問一答バンクにも、分筆線の誤りを地図訂正や地積更正で直せるとする誤りの肢があり、結論は一致しています。
 - ウは、条文（法40条・規則104条）の文言が一方の土地についての消滅を想定した書き方であること、過去問に同型の誤りの肢があることから誤りと整理しました。双方の土地について消滅させることを承諾しても、登記官が双方に消滅の記録をすることはできないという整理は、過去の出題（令和5年度の同旨の肢）とも一致しています。
 - エは、過去問に同旨の出題があり、結論は一致しています。オは、法39条1項の申請人の定めから整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 
@@ -191,6 +189,19 @@ kanji 分・筆・登・記・地・図・通・知・位・訂・正・可・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -200,6 +211,9 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
 
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
@@ -220,21 +234,19 @@ Subtitle (smaller, centered, 1行):
 地図と通知
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 分筆線の位置は地図訂正で直せない
 Illustration: 土地の模型に引かれた分筆の点線が、ずらした位置のまま地図に写り、地図訂正の申出書に赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 地図訂正では不可
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 分筆では識別情報は通知されない
 Illustration: 分筆された2つの土地の模型の手前に、識別情報の通知書の封筒があり、赤い×で届かない様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 通知はされない
@@ -243,31 +255,28 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 権利と申請人
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 消滅させる抵当権は一方の土地だけ
 Illustration: 2つに分けた土地の模型のうち、乙の土地だけ抵当権の札が外れ、甲の土地には札が残る様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 片方だけ消せる
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人の1人で一部地目変更分筆を申請できる
 Illustration: 亡くなった所有者の土地の一部が駐車場に変わり、3人の相続人のうち1人だけが申請書を出す様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 単独で申請できる
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権のある土地の分筆は全員の申請ではない
 Illustration: マンションの敷地の分筆の申請書に、住戸の所有者全員の名前を並べる枠があり、赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 全員は不要
@@ -282,13 +291,182 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「地図と通知」 and 3 cards under 「権利と申請人」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、分筆の登記で「地図・登記識別情報・権利の消滅・申請人」のどこが問われているかを見分ける5パネル構成。②の色分け（地図と通知＝緑、権利と申請人＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (分筆の登記、ここがポイント), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a land plot divided by a dashed split line into two plots (甲 and 乙), a map sheet with a split line, an envelope for a registration identification information notice, a mortgage tag attached to a plot, a deceased owner with heirs, and a condominium site. Rules that apply are shown in full color, and things that do not happen are drawn faded with a red cross.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Whenever a split is shown, every panel uses the same two-plot model (甲 and 乙); the part relevant to this panel is highlighted with a thick border and full color, and the unrelated part is faded with a dotted outline.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第8問 作図ガイド（土地の分筆の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+分筆線のずれは地図訂正の申出で直せない
+Diagram: A decision flowchart. Top: a land plot with a dashed split line, copied to a map sheet exactly as the survey map attached to the application showed it. Diamond reads 「地図に表示された区画や地番が実際と違うか」. Yes arrow leads to a faded node 「地図訂正の申出ができる(規則16条1項)」. No arrow (the split line was recorded just as the attached survey map showed it, so the error is in the content of the registration) leads to the conclusion node 「地図訂正の申出では分筆線を直せない」 (thick border, full color). No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図の区画や地番が実際と違うのか、提供した地積測量図の分筆線の位置が違うのかを確認します。後者は登記の内容の誤りで、地図訂正の申出では直せません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地図訂正では直せない
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+分筆では登記識別情報は通知されない
+Diagram: A decision flowchart. Top: a plot split into 甲 and 乙, with a faded envelope labeled 「登記識別情報の通知書」 carrying a red cross. Diamond reads 「申請人が自ら登記名義人になる登記か(21条)」. Yes arrow leads to a faded node 「登記識別情報が通知される」. No arrow (a split only divides the land and the registered owner does not change) leads to the conclusion node 「新しい識別情報は通知されない」 (thick border, full color), with a small note that the earlier identification information keeps being used. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その登記で申請人が新たに登記名義人になるかを確認し、次に分筆が土地を分けるだけの登記かを確認します。名義人が新しくならないので、通知されません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+通知はされない
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+消滅させる抵当権は一方の土地だけ
+Diagram: A decision flowchart. Top: a plot with a mortgage tag split into 甲 and 乙, with a mortgagee's consent document attached. Diamond reads 「承諾は分筆後のどちらの土地についての消滅か」. Branch 「一方の土地(例：乙)」 leads to the conclusion node 「承諾した土地だけ消滅の登記がされ、もう一方に抵当権が残る」 (thick border, full color, 乙 without a tag and 甲 still with a tag; basis tag 「40条、規則104条」). Branch 「甲と乙の双方」 leads to a faded node with a red cross 「そのような消滅の定めはない」. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、抵当権者が分筆後のどの土地について消滅を承諾したかを確認し、次に消滅の登記がどの土地についてされるかを確認します。承諾した一方の土地についてだけされます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一方だけ消せる
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+相続人の1人で一部地目変更分筆を申請できる
+Diagram: A decision flowchart. Top: a deceased owner silhouette above a plot of which one part has become a parking lot, with three heirs below. Step 1: a box 「名義人に相続があった → 相続人が申請できる(30条)」. Diamond reads 「ほかの相続人の同意や共同での申請が要るか」. Yes arrow leads to a faded node with a red cross 「定めはない」. No arrow leads to the conclusion node 「相続人の1人が単独で申請できる」 (thick border, full color, one heir highlighted). No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、名義人に相続があり相続人が申請できること（不動産登記法30条）を確認し、次にほかの相続人の同意や共同申請が要るかを確認します。要らず、1人で申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+単独で申請できる
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+敷地権のある土地の分筆は全員の申請ではない
+Diagram: A decision flowchart. Top: a condominium building on a site plot marked with 「敷地権」. Step 1: a box 「分筆を申請できるのは、表題部所有者又は所有権の登記名義人(39条1項)」. Diamond reads 「区分建物の所有者の全員が申請人になる定めがあるか」. Yes arrow leads to a faded node with a red cross showing all the unit owners' names in a row. No arrow leads to the conclusion node 「全員の申請は要らない」 (thick border, full color). No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆の登記を申請できる人が名義人であること（不動産登記法39条1項）を確認し、次に区分建物の所有者全員が申請人になる定めがあるかを確認します。そのような定めはありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+全員の申請は不要
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法21条・30条・39条・40条、不動産登記規則16条・104条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 地、分、筆、登、記、産、法、条、規、図、訂、正、申、出、区、画、積、測、量、位、確、認、誤、通、知、請. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```

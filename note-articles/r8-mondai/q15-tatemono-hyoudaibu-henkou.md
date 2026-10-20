@@ -22,8 +22,6 @@
 
 肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`、`note-articles/h30-mondai/q12-tatemono-hyoudaibu.md`、`note-articles/h26-mondai/q11-tatemono-hyoudaibu-henkou.md`、`note-articles/h27-mondai/q14-tatemono-hyoudai.md`、`note-articles/h22-mondai/q14-tatemono-tenpu.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md`、`note-articles/r4-mondai/q17-kubun-tatemono.md`、`note-articles/h29-mondai/q17-kubun-tatemono.md`
-
 ### ア：区分建物になったことによる変更の登記は、新築の区分建物の表題登記と併せて申請する
 
 表題登記がある区分建物でない建物に接続して区分建物が新築され、一棟の建物となって、既存の建物が区分建物になったときは、既存の建物の表題部の変更の登記の申請は、新築した区分建物の表題登記の申請と併せてしなければなりません（不動産登記法52条1項）。
@@ -31,8 +29,6 @@
 本肢は正しいといえます。
 
 **たとえば**、1階建ての店舗の上に、新しく区分建物を建てて一棟の建物にしたときは、店舗の変更の登記と、新しい区分建物の表題登記を、同時に申請します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q17-kubun-tatemono.md`、`note-articles/h29-mondai/q17-kubun-tatemono.md`
 
 ### イ：取壊しと増築を同時にしたときは、増築部分の所有権を証する情報が必要
 
@@ -42,8 +38,6 @@
 
 **たとえば**、古い部分を10平方メートル壊して、新しい部分を6平方メートル増築した場合、全体の床面積は減りますが、増築した6平方メートル分について、確認済証・検査済証や工事完了引渡証明書などで所有権を証明します。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md`
-
 ### ウ：代理人が申請するときも、未成年者の氏名と住所を申請情報にする
 
 登記を申請するときは、申請人の氏名と住所を、申請情報の内容にします（不動産登記令3条1号）。申請人は、建物の所有権の登記名義人である未成年者です。
@@ -51,8 +45,6 @@
 親権者である父母から委任を受けた代理人が申請する場合も、申請人は未成年者なので、その氏名と住所を申請情報にします。代理人の氏名と住所も、別に必要です（同条3号）。本肢は正しいといえます。
 
 **たとえば**、未成年の子が所有する建物の床面積の変更を、土地家屋調査士が両親から依頼されて申請するときは、申請書に、子の氏名・住所と、調査士の氏名・住所の両方を書きます。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
 
 ### エ：変更後に取得した人の期限は、所有権の登記名義人になった日から1か月
 
@@ -62,8 +54,6 @@
 
 **たとえば**、一部が取り壊された建物を買った人は、買った日から1か月ではなく、自分への所有権の移転の登記がされた日から1か月以内に、床面積の変更の登記を申請します。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
-
 ### オ：床面積が減る変更の登記に、抵当権者の承諾は要らない
 
 建物の表題部の変更の登記の添付情報を定める不動産登記令別表の十四の項には、抵当権の登記名義人の承諾を証する情報を提供する定めがありません。床面積が減少する場合も同じです。
@@ -71,8 +61,6 @@
 床面積の変更は、建物の現況を登記に反映させる登記で、抵当権者の承諾が登記の要件にならないためです。「承諾を証する情報を提供しなければならない」とする本肢は誤りです。
 
 **たとえば**、抵当権が付いた建物の一部を取り壊して床面積が減ったときも、抵当権者に承諾をもらわずに、変更の登記を申請できます。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
 
 ---
 
@@ -90,14 +78,24 @@
 
 ---
 
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`、`note-articles/h30-mondai/q12-tatemono-hyoudaibu.md`、`note-articles/h26-mondai/q11-tatemono-hyoudaibu-henkou.md`、`note-articles/h27-mondai/q14-tatemono-hyoudai.md`、`note-articles/h22-mondai/q14-tatemono-tenpu.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md`、`note-articles/r4-mondai/q17-kubun-tatemono.md`、`note-articles/h29-mondai/q17-kubun-tatemono.md`
+
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/r4-mondai/q17-kubun-tatemono.md`、`note-articles/h29-mondai/q17-kubun-tatemono.md`
+- **イ**　関連する過去の記事：`note-articles/h29-mondai/q07-shoyuuken-shoumei-jouhou.md`
+- **ウ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
+- **エ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
+- **オ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q14-tatemono-hyoudai.md`、`note-articles/r4-mondai/q13-tatemono-hyoudai-touki.md`、`note-articles/r3-mondai/q15-tatemono-henkou-kousei.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（5番＝エ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法51条・52条、不動産登記令3条・別表の十四の項は、`note-articles/laws/`配下の原文で確認しました。
 - イは、令別表の十四の項ロが「床面積が増加するとき」の増加部分の所有権を証する情報を求めていることから整理しました。一部の取壊しと増築を同時にして、結果として床面積が減る場合の取扱いまでは、`laws/`で確認できていません。
 - ウ・オは、過去問の一問一答バンクにも同旨の出題があり、結論は一致しています。エは、法51条2項の文言から整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 
@@ -188,6 +186,19 @@ kanji 建・物・変・更・登・記・部・申・請・合・付・区・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -197,6 +208,9 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
 
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
@@ -217,21 +231,19 @@ Subtitle (smaller, centered, 1行):
 申請の組合せと添付情報
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物になる変更は新築区分建物と併せて
 Illustration: 既存の店舗の上に新しい区分建物が建ち、2枚の申請書が1つのクリップで留められる様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 併せて申請
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 取壊しと増築では増築部分の所有権を証明
 Illustration: 建物の一部が壊され別の部分が増築される様子。増築部分にだけ確認済証のアイコンが付く。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 増築部分の証明が要る
@@ -240,31 +252,28 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 申請人・期限・承諾
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 代理でも未成年者の氏名・住所を書く
 Illustration: 申請書に、未成年の子と代理人の2人の名前の欄が並ぶ様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 未成年者が申請人
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 取得した人の期限は名義人になった日から
 Illustration: 売買の日のカレンダーには赤い×、所有権の移転の登記がされた日のカレンダーに丸が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 登記の日から1か月
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 床面積が減っても抵当権者の承諾は不要
 Illustration: 抵当権の札が付いた建物の一部が壊され、承諾書の枠に赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 承諾は不要
@@ -279,13 +288,182 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「申請の組合せと添付情報」 and 3 cards under 「申請人・期限・承諾」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、「何を併せて申請するか」「誰が」「いつまでに」「何を添えて」申請するかを見分ける5パネル構成。『誤っているもの』を選ぶ問題だが、各パネルは肢の正しいルールを示している。②の色分け（申請の組合せと添付情報＝緑、申請人・期限・承諾＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (建物の変更登記、ここがポイント), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric icons of an existing shop building with a newly built unit on top, a paper clip binding two application forms, a demolition-and-extension building drawing, an application form with applicant fields, a calendar, and a mortgage tag - adapt the icon set to the topic of changes in a building's 表題部.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Every panel teaches the correct rule of its own choice. Do not mark any panel with a 正 or 誤 stamp, and do not draw an overall answer.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第15問 作図ガイド（建物の表題部の変更の登記）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+区分建物になる変更は新築の表題登記と併せて申請
+Diagram: An isometric drawing: an existing one-story shop (a building that is not a section of a divided building) with a newly built unit attached to it, forming one building. Below, two application forms,「既存の建物の表題部の変更の登記」 and「新築した区分建物の表題登記」, are held together by one clip labeled「併せて申請」. A green check mark sits on the clip.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、既存の建物に接続して区分建物が新築され、既存の建物が区分建物になったかを確認します。次に、既存の建物の表題部の変更の登記を、新築した区分建物の表題登記と併せて申請します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+併せて申請する
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+取壊しと増築を同時にしたら増築部分の所有権を証明
+Diagram: Four numbered steps from left to right. ① A building with a part being demolished (dotted outline, 10 square meters). ② A new part being added (colored, 6 square meters). ③ The total floor area decreases as a result (a down arrow). ④ A document stack labeled「増築部分の所有権を証する情報」 (examples drawn as small icons: 確認済証, 検査済証, 工事完了引渡証明書) with a green check mark, attached only to the new part.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、増築した部分があるかを確認し、次に全体の床面積が減っていても、増築部分について所有権を有することを証する情報が要ることを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+床面積が減っても必要
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+代理人が申請しても未成年者の氏名と住所を書く
+Diagram: An application form drawn large. The applicant field is highlighted with a thick border and filled with「未成年者の氏名・住所」 (a child icon), with a green check mark. Below it, a separate field labeled「代理人の氏名・住所」 (a surveyor icon, with a note that the parents are the ones who entrusted the agent). A small arrow shows that the agent files on behalf of the applicant, but the applicant field stays with the minor.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請人は誰かを確認します。申請人は所有権の登記名義人である未成年者なので、その氏名と住所を申請情報にし、次に代理人の氏名と住所も別に記載します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+申請人は未成年者
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+期限は所有権の登記名義人になった日から1か月
+Diagram: A decision flowchart. Top: a timeline with a building partly demolished, then a purchase by the buyer. A diamond node asks:「自分への所有権の移転の登記がされたか」. The Yes arrow goes to a green conclusion node:「その登記があった日から1か月以内に変更の登記を申請」 (a calendar with the registration day circled). The No arrow goes to its own conclusion node:「まだ登記名義人ではなく、申請義務は生じていない」. A faded calendar on the purchase day with a red ✕ and a note「取得した日から1か月ではない」 is placed beside the timeline. No loop arrows; every branch ends in its own conclusion node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、自分への所有権の移転の登記がされて所有権の登記名義人になったかを確認します。次に、名義人になった日から1か月以内かを数え、取得した日は起算日にしません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+登記の日から1か月
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+床面積が減る変更の登記に抵当権者の承諾は要らない
+Diagram: A building with a mortgage tag labeled「抵当権の登記」, part of it demolished (dotted outline, floor area decreases). Beside it, a checklist of the attached information for a 表題部's change of registration (令別表の十四の項), with items such as 図面 and 所有権を証する情報 ticked. A slot labeled「抵当権者の承諾を証する情報」 is drawn faded and empty with a red ✕, to show that this item is not in the list.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物の表題部の変更の登記の添付情報を定める令別表の十四の項に、抵当権者の承諾を証する情報が含まれているかを確認します。含まれていないので、床面積が減少しても承諾は要りません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+承諾は要らない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法51条2項・52条1項、不動産登記令3条・別表の十四の項に基づく整理です。
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 建、物、部、変、更、登、記、産、法、条、整、理、区、分、併、申、請、存、続、確、認、取、時、所、有、権. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```

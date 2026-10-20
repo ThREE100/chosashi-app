@@ -22,8 +22,6 @@
 
 肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q07-chiseki-kosei.md`、`note-articles/r5-mondai/q07-tochi-hyoudai.md`、`note-articles/r4-mondai/q07-hyoudaibu-hensei-kousei.md`、`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/r2-mondai/q07-chimoku-henkou-touki.md`、`note-articles/h27-mondai/q07-tochi-hyoudai.md`、`note-articles/h26-mondai/q09-chiseki-kousei.md`、`note-articles/h24-mondai/q06-chimoku-henkou.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`、`note-articles/h21-mondai/q07-chiseki-kousei.md`、`note-articles/h17-mondai/q15-tiseki-kousei.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`、`note-articles/r7-mondai/q13-shikichiken.md`、`note-articles/h28-mondai/q08-chimoku-henkou.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`、`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h27-mondai/q10-chizu-teisei.md`
-
 ### ア：相続人の1人による地積更正に、他の相続人の承諾は要らない
 
 表題部所有者又は所有権の登記名義人が申請人になれる表示に関する登記は、その人について相続があったときは、相続人が申請できます（不動産登記法30条）。相続人の1人だけで申請でき、他の相続人の承諾を証する情報を提供する必要はありません。
@@ -31,8 +29,6 @@
 地積更正は、土地の実際の面積に合わせて登記を直すもので、他の相続人の権利を処分するものではないからです。本肢は正しいといえます。
 
 **たとえば**、亡くなった父名義の土地の面積が実測と違うと分かったとき、兄弟3人のうち長男だけで地積更正を申請できます。弟たちの承諾書は要りません。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`
 
 ### イ：敷地権の登記があっても、地目変更の登記は申請できる
 
@@ -42,8 +38,6 @@
 
 **たとえば**、敷地権付きマンションの敷地の一筆全体が駐車場（雑種地）に変わったときも、敷地権の登記を消すことなく、地目の変更の登記を申請します。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r7-mondai/q13-shikichiken.md`、`note-articles/r2-mondai/q07-chimoku-henkou-touki.md`、`note-articles/h28-mondai/q08-chimoku-henkou.md`、`note-articles/h24-mondai/q06-chimoku-henkou.md`
-
 ### ウ：地積更正では、増加部分の所有権の証明は要らない
 
 地積に関する変更の登記・更正の登記の添付情報は、地積測量図です（不動産登記令別表の六の項）。地積が増加する場合でも、増加部分の所有権を証する情報を添付する定めはありません。
@@ -51,8 +45,6 @@
 建物の床面積が増加する場合には、増加部分の所有権を証する情報が必要です（令別表の十四の項）。土地と建物で扱いが違う点に注意が必要です。「提供しなければならない」とする本肢は誤りです。
 
 **たとえば**、実測したら登記簿より面積が広かった土地の地積更正では、測量図は必要ですが、広がった部分が自分の物だという証明書は要りません。建物を増築して床面積が増えたときは、増築部分の所有権の証明が要ります。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/h17-mondai/q15-tiseki-kousei.md`
 
 ### エ：合筆と合筆後の地積更正は、一の申請情報で申請できる
 
@@ -62,8 +54,6 @@
 
 **たとえば**、2筆を合筆して、合筆後の土地の面積も実測に合わせて直したいときは、1枚の申請書で申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`
-
 ### オ：地図の区画の訂正で地積に錯誤があれば、地積更正と併せて申出をする
 
 地図に表示された土地の区画に誤りがあるときは、所有権の登記名義人などが、その訂正の申出をすることができます（不動産登記規則16条1項）。
@@ -71,8 +61,6 @@
 この場合に、土地の登記記録の地積にも錯誤があるときは、地図訂正の申出は、地積に関する更正の登記の申請と併せてしなければなりません（同条2項）。本肢は正しいといえます。
 
 **たとえば**、地図上の土地の形が実際と違い、登記簿の面積も実測と合わないときは、地図の訂正と地積更正を同時に申請します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h27-mondai/q10-chizu-teisei.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`
 
 ---
 
@@ -90,14 +78,24 @@
 
 ---
 
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q07-chiseki-kosei.md`、`note-articles/r5-mondai/q07-tochi-hyoudai.md`、`note-articles/r4-mondai/q07-hyoudaibu-hensei-kousei.md`、`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/r2-mondai/q07-chimoku-henkou-touki.md`、`note-articles/h27-mondai/q07-tochi-hyoudai.md`、`note-articles/h26-mondai/q09-chiseki-kousei.md`、`note-articles/h24-mondai/q06-chimoku-henkou.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`、`note-articles/h21-mondai/q07-chiseki-kousei.md`、`note-articles/h17-mondai/q15-tiseki-kousei.md`、`note-articles/jissen-tanren01-mondai/q12-hyoudaibu-henkou-teisei.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`、`note-articles/r7-mondai/q13-shikichiken.md`、`note-articles/h28-mondai/q08-chimoku-henkou.md`、`note-articles/h29-mondai/q13-tochi-hyouji-touki.md`、`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h27-mondai/q10-chizu-teisei.md`
+
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`
+- **イ**　関連する過去の記事：`note-articles/r7-mondai/q13-shikichiken.md`、`note-articles/r2-mondai/q07-chimoku-henkou-touki.md`、`note-articles/h28-mondai/q08-chimoku-henkou.md`、`note-articles/h24-mondai/q06-chimoku-henkou.md`
+- **ウ**　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/h17-mondai/q15-tiseki-kousei.md`
+- **エ**　関連する過去の記事：`note-articles/r2-mondai/q08-chiseki-kousei.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`
+- **オ**　関連する過去の記事：`note-articles/r5-mondai/q06-chizu.md`、`note-articles/h29-mondai/q12-chizu-teisei.md`、`note-articles/h27-mondai/q10-chizu-teisei.md`、`note-articles/h22-mondai/q11-chiseki-kousei.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（3番＝イ・ウ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法30条・37条、不動産登記令別表の六の項・十四の項、不動産登記規則16条・35条は、`note-articles/laws/`配下の原文で確認しました。
 - ア・エ・オは、過去問の一問一答バンクにも同旨の出題があり、結論は一致しています。ウは、バンクに「増加部分の所有権を証する情報を提供しなければならない」という誤りの肢があり、結論は一致しています。
 - イの敷地権の登記がある土地の地目の変更は、法37条1項の申請義務に例外が定められていないことから、申請できると整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 
@@ -188,6 +186,19 @@ kanji 地・変・更・正・出・部・申・請・付・相・続・積・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -197,6 +208,9 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
 
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
@@ -217,31 +231,28 @@ Subtitle (smaller, centered, 1行):
 申請人と添付情報
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人の1人で地積更正を申請できる
 Illustration: 亡くなった所有者の土地の前に3人の相続人が並び、1人だけが申請書を手に持ち、他の2人の承諾書の枠には赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 承諾書は不要
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権の登記があっても地目変更できる
 Illustration: マンションの敷地の一部が駐車場に変わり、土地の模型の横に地目変更の札があり、敷地権のマークを消す作業には赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 敷地権は消さない
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 地積が増えても所有権の証明は不要
 Illustration: 実測で広がった土地の模型に、地積測量図のアイコンだけが添えられ、所有権の証明書の枠には赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 地積測量図だけ
@@ -250,21 +261,19 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 一緒に申請する登記
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 合筆と地積更正は一の申請情報で申請できる
 Illustration: 2筆の土地が1筆に合わさり、1枚の申請書に合筆と地積更正の2つの項目が書かれている様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 1枚の申請書
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 地図の区画の訂正と地積更正は併せて申請
 Illustration: ずれた形の地図と、面積の違う土地の模型が並び、2つの書類が1つのクリップで留められる様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 地積に錯誤なら併せる
@@ -279,13 +288,182 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「申請人と添付情報」 and 2 cards under 「一緒に申請する登記」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、「誰が申請するか」「何を添付するか」「どの登記と一緒に申請するか」を切り分ける5パネル構成。「誤っているもの」を選ぶ問題だが、各パネルは正しい扱いを示す。②の色分け（申請人と添付情報＝緑、一緒に申請する登記＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (土地の変更・更正、誰が何を出す？), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a land-plot model, a deceased owner silhouette with three heirs, an application form, a survey-map document icon labeled 「地積測量図」, a building model for comparison, two plots merging into one, and a mismatched map next to a plot. Rules that apply are shown in full color, and anything the rule does not require is drawn as a faded, dotted-outline document with a red cross.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Every panel uses the same style: the correct rule is highlighted with a thick border and full color, and the unrelated or not-required item is drawn faded with a dotted outline instead of being omitted.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第7問 作図ガイド（表題部の変更・更正）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+相続人の1人で地積更正を申請できる
+Diagram: An illustrative diagram. Top: a deceased owner silhouette above a land plot, with three heirs standing below. Only one heir (highlighted, full color) holds an application form labeled 「地積に関する更正の登記」 and a small legal-basis tag 「不動産登記法30条」. The other two heirs each have a faded, dotted-outline document labeled 「承諾を証する情報」 with a red cross. A short note says that a correction of the area does not dispose of the other heirs' rights.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、名義人に相続があったので相続人が申請できること（不動産登記法30条）を確認し、次に他の相続人の承諾を証する情報が要るかを確認します。承諾の情報は要りません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承諾の情報は不要
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+敷地権の登記があっても地目変更できる
+Diagram: A decision flowchart. Top: a condominium site land plot with a small 「敷地権」 mark, part of which has become a parking lot. Step 1: a box 「地目に変更があった」 leads to a box 「所有権の登記名義人は1か月以内に地目変更の登記を申請する(37条1項)」. Step 2: Diamond reads 「敷地権の登記を先に抹消する定めがあるか」. Yes arrow leads to a faded node with a red cross 「定めはない」. No arrow leads to the conclusion node 「敷地権の登記を残したまま地目変更を申請できる」 (thick border, full color). No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地目が変わったら1か月以内に申請する義務があること（不動産登記法37条1項）を確認し、次に敷地権の登記を先に抹消する定めがあるかを確認します。そのような定めはありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+敷地権を消さずに申請
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+地積が増えても所有権の証明は不要
+Diagram: A side-by-side comparison frame. LEFT box (highlighted with a thick colored border, full color) labeled 「土地の地積更正」: a plot that has grown after a survey, with only a 「地積測量図」 document attached (basis tag 「令別表六の項」); a faded dotted-outline document 「増加部分の所有権の証明」 carries a red cross. RIGHT box (faded, greyed-out, dotted outline) labeled 「建物の床面積の増加」: a building with an extension and a document 「増加部分の所有権の証明」 attached (basis tag 「令別表十四の項」).
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、これが土地の地積更正か建物の床面積の増加かを確認し、次に土地なら添付情報が地積測量図であることを確認します。土地では増加部分の所有権の証明は要りません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地積測量図だけ
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+合筆と合筆後の地積更正は一の申請情報
+Diagram: An illustrative flow, top to bottom. Step 1: two plots merging into one plot, with the merged plot remaining as the same real property. Step 2: a single application form with two lines 「土地の合筆の登記」 and 「合筆後の土地の地積に関する更正の登記」 held together by one clip. Step 3: the conclusion node 「一の申請情報で申請できる」 (thick border, full color) with a small basis tag 「規則35条7号」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、合筆後の土地が同一の不動産として存続することを確認し、次に表題部の更正の登記と合筆の登記の組合せにあたることを確認します。一の申請情報で申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+一の申請情報でできる
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+地図の区画の訂正は地積更正と併せる
+Diagram: A decision flowchart. Top: a map whose plot outline is wrong, next to a plot model. Step 1: a box 「地図の区画に誤りがある → 訂正の申出ができる(規則16条1項)」. Diamond reads 「登記記録の地積にも錯誤があるか」. Yes arrow leads to the conclusion node 「地積更正の登記の申請と併せて申出をする」 (thick border, full color, with a small tag 「同条2項」). No arrow leads to a node 「地図の訂正の申出だけをする」. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地図の区画に誤りがあり訂正の申出ができること（規則16条1項）を確認し、次に登記記録の地積にも錯誤があるかを確認します。あれば地積更正と併せて申出をします。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+地積に錯誤なら併せる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法30条・37条、不動産登記令別表の六の項・十四の項、不動産登記規則16条・35条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 部、変、更、正、産、登、記、法、条、規、相、続、地、積、申、請、義、確、認、承、証、敷、権、目、務、抹. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```

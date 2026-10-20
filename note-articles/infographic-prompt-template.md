@@ -89,6 +89,22 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -122,14 +138,15 @@ Subtitle (smaller, centered, {N}行):
 {COLUMN_A_LABEL}
 
 --- COLUMN A, CARD {N} ---
-Badge: a filled circle in {COLUMN_A_COLOR} containing the number {N} (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
 {CARD_HEADING_SHORT}
 Illustration: {CARD_ILLUSTRATION_DESC} (embed any ✕/✓ marks and short
 name-tag labels directly inside the illustration itself, e.g. a crossed-out
-document icon with a 2-4 character label next to it)
+document icon with a 2-4 character label next to it. Write every word that
+may appear inside the illustration in 「」 in this line.)
+Words allowed inside this illustration (verbatim, nothing else): {「語」を列挙。
+文字を入れない絵は "none (no text of any kind inside this illustration)" と書く}
 Conclusion tag (a short colored banner/pill directly below the illustration,
 {COLUMN_A_COLOR}, 5-15 Japanese characters, a keyword phrase — NOT a
 sentence, NOT a legal citation):
@@ -149,11 +166,14 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals {CARD_COUNT}
-exactly, with no duplicated or missing cards, confirm there is no intro
+exactly, with no duplicated or missing cards, confirm that no card carries a
+number, numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, confirm
 that no card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance — confirm nothing is rendered below the last card (no summary
+glance — confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no pseudo-writing)
+and that each allowed word is clearly legible — confirm nothing is rendered below the last card (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
 and no additional text block of any kind — the poster ends immediately
 after the last card), and confirm the entire canvas, edge to edge, is
@@ -166,6 +186,15 @@ channel anywhere.
 **アウトロブロック禁止（重要・厳守、2026-09-16追加）**：カード群（②③の「俯瞰カードポスター型」「対比表型」「早見表型」「フローチャート／判定フロー型」、④のパネル、⑤のパネル）の最後の要素（最後のカード／最後のパネル／表の最終行）のあとは、必ずFOOTERの`Final check before rendering:`パラグラフだけを置く。画像生成AIが指示していないにもかかわらず、最後のカードの下に「正解のまとめ」「トロフィー・メダルのアイコン付きの正誤一覧」「肢ごとの○×を再掲するグリッド」といった**独自の追加サマリーパネル**を描き足してしまう事故が実際に発生した（ユーザー提示のスクリーンショットで確認）。これを防ぐため、`Final check before rendering:`パラグラフに、「最後のカード／パネルの後には、追加のサマリーパネル・トロフィーやメダルのアイコン・正誤を再掲する○×グリッド・その他いかなる文字ブロックも描画しない（confirm nothing is rendered below the last card/panel — no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind）」という趣旨の一文を必ず含める。過去に作成したプロンプトにこの一文がない場合は、発見しだい追記する。
 
 **簡体字注意文の画像内描画事故（2026-09-11判明・再発防止）**：FOOTER直前に「注意：特に「共」「担」「保」…の各漢字は、簡体字ではなく標準的な日本語の常用漢字の字形で描画すること。」のような、独立した日本語の注意喚起文を1文だけ置く運用を一部の記事で行っていたところ、画像生成AIがこの文自体を**指示ではなくポスター上の可視テキストとして描画してしまう**事故が実際に発生した（ユーザー提示のスクリーンショットで確認）。原因は、この注意文が日本語であるため、プロンプト中の他の「そのまま描画すべき日本語ラベル」と区別がつかず、画像生成AIに指示ではなく描画対象の文字列として解釈されたことにある。英語で書かれた`Final check before rendering:`以降の段落は指示文として認識され描画されない一方、独立した日本語の一文はその保護を受けられない。**再発防止策**：漢字個別の注意喚起は、独立した日本語の文としてプロンプトのどこにも置かず、必ず英語の`Final check`パラグラフに埋め込む（例：`Final check before rendering: scan every kanji glyph, paying special attention to 共・担・保・録・登・記・筆・仮, and confirm each is in standard Japanese (Jōyō) form, not Simplified Chinese.`のように、漢字リストを英文の一部として文中に挿入する）。過去に作成した記事のプロンプトでこのパターン（FOOTER直前の独立した日本語「注意：」文）が見つかった場合は、発見ししだいこの形式に修正する。
+
+**絵の中の文字は、指定した語だけ（重要・厳守、2026-10-18 ユーザー指示）**：画像生成AIは、絵の中の小道具（境界標の石柱、標識、書類、看板など）に、指示していない文字を勝手に描き込み、しかもその文字が崩れる。令和8年度第3問の総論画像で、境界標の石柱の刻字が判読できない・標識の「通行止め」が別の字に崩れる・「関係ない土地」の「関」が崩れる・書類の「通知」が判読できない、という事故が実際に発生した（ユーザー提示の画像で確認。指示のない「袋地」「公道」のラベルも勝手に追加されていた）。これを防ぐため、②③④⑤のすべてのプロンプトに次を必ず入れる。
+1. **指示文に「絵の中に入れる文字は、指定した語だけ」という趣旨の一文を入れる。** 雛形の `ILLUSTRATION TEXT RULE`（②・④）／`DIAGRAM TEXT RULE`（⑤）を、`CRITICAL TEXT REQUIREMENT` の直後・`BACKGROUND REQUIREMENT` の前に置く。日本語のこの一文は、独立した日本語の文として置かず、英語の文の中に括弧で埋め込む（独立した日本語の文は、指示ではなく描画する文字と誤解される。上記「簡体字注意文の画像内描画事故」と同じ理由）。
+2. **②③のカードでは、`Illustration:` の行の中で絵に入れてよい語を「」で囲み、その直下に `Words allowed inside this illustration (verbatim, nothing else): 「語」「語」` の行を置く。** 文字を入れない絵は `none (no text of any kind inside this illustration)` と書く。「」で囲んだ語以外（石柱の刻字、標識、看板、疑似文字）は描かせない。刻字や標識の文字が要らないときは、絵の説明に「無地」「文字は入れない」と書く。
+3. **指定した語は、短く・大きく・はっきり読める語にする。** 長い語や画数の多い語は崩れやすいので、標識の語は×印や記号で代える（例：「通行止め」の標識の文字をやめ、赤い×印だけにする）。
+4. **`Final check before rendering:` にも「絵の中に指定した語以外の文字がなく、指定した語ははっきり読めること」を確認する一文を入れる。**
+5. 画像ができたら、絵の中の文字（特に指定した語）が正しい字で読めるかを拡大して確認する。崩れていたら、その語を記号に代えるか、指定をやめて再生成する。
+**②（総論）のカードには番号を付けない（2026-10-18 ユーザー指示。令和8年度の全20問の総論で実施。以後の②も番号なしを標準とする）**：`Badge:` の行（番号つきの丸）を全カードから外し、`NO NUMBERING (critical): do not draw any number, numbered circle, badge or sequence mark on or near any card.` の段落を `COLOR RULE FOR MARKS` の前に置き、Final checkのバッジ番号の確認文を「どのカードにも番号・番号つきの丸を描かない」の確認文に代える。令和8年度の`r8-mondai/`は、`src/lib.py`の`infographic()`が自動でこの形にする（データの`no_badge`を`False`にすると番号つきに戻せる）。
+令和8年度の `r8-mondai/` では、`src/lib.py` の `infographic()`・`guide_prompt()`・`mistake_prompt()` がこの指示を自動で入れ、`src/check_articles.py` が入っていることを確かめる。
 
 ## 禁止語：樹形図の意味の「木」「ツリー」「決定木」（必須・厳守、2026-10-13 ユーザー指示）
 
@@ -404,6 +433,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji {列挙する漢字} — always
 draw the standard Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the illustrations and
+diagrams, render ONLY the words that are written in this prompt (the labels,
+flowchart conditions and callout text given below), each one large, clear
+and exactly as written. Do not add any other text, inscriptions, signs,
+numbers or pseudo-writing; leave other surfaces blank or use an icon or mark
+instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -589,6 +627,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

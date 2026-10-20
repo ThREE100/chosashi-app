@@ -22,8 +22,6 @@
 
 工場、ダム、学校、牧場、農耕地について、地目がどう認定されるのかを、肢ごとに確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q08-chimoku.md`、`note-articles/r4-mondai/q06-chimoku.md`、`note-articles/r3-mondai/q10-chimoku.md`、`note-articles/r2-mondai/q06-chimoku-nintei.md`、`note-articles/r1-mondai/q05-chimoku.md`、`note-articles/h30-mondai/q09-chimoku.md`、`note-articles/h25-mondai/q08-chimoku.md`、`note-articles/h22-mondai/q12-chimoku.md`、`note-articles/h21-mondai/q05-chimoku.md`、`note-articles/h19-mondai/q13-chimoku.md`、`note-articles/h18-mondai/q07-chimoku-nintei.md`、`note-articles/h17-mondai/q16-chimoku-nintei.md`、`note-articles/jissen-tanren01-mondai/q11-chimoku.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`
-
 ### ア：工場の敷地の地目は、工場用地ではなく宅地
 
 登記できる地目は、不動産登記規則99条に定められた23種類で、「工場用地」という地目はありません。
@@ -31,8 +29,6 @@
 工場が建っている土地は、建物の敷地として「宅地」と認定されます（準則68条3号）。地目は土地の現況と利用目的で決まるので、都市計画法上の工業専用地域に指定されていても、そのことは地目に影響しません。本肢は誤りです。
 
 **たとえば**、工業専用地域に建つ工場の敷地でも、登記簿上の地目は「宅地」です。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h22-mondai/q12-chimoku.md`
 
 ### イ：発電用のダムの貯水池用地は、池沼
 
@@ -42,8 +38,6 @@
 
 **たとえば**、農業用水をためる池は「ため池」、発電のためにせき止めた水をためる池は「池沼」です。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h18-mondai/q07-chimoku-nintei.md`
-
 ### ウ：校舎と一体の運動場がある土地は、学校用地
 
 校舎、附属施設の敷地及び運動場は、「学校用地」です（準則68条4号）。小学校の校舎と一体として使われている運動場は、学校用地に含まれます。
@@ -51,8 +45,6 @@
 雑種地は、ほかのいずれの地目にも当たらない土地に限られます（同条23号）。本肢は誤りです。
 
 **たとえば**、小学校の校庭は、校舎の敷地と同じく「学校用地」です。雑種地にはなりません。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h30-mondai/q09-chimoku.md`、`note-articles/h17-mondai/q16-chimoku-nintei.md`
 
 ### エ：牧場地域内の牧畜用の建物の敷地は、すべて牧場
 
@@ -62,8 +54,6 @@
 
 **たとえば**、牧場の中の牛舎の敷地は、牛舎が頑丈な建物でも、地目は牧場です。畑の中の農具小屋は、永久的な建物のときだけ宅地になります。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r5-mondai/q08-chimoku.md`、`note-articles/h25-mondai/q08-chimoku.md`
-
 ### オ：田と畑は、用水を利用するかどうかで決まる
 
 農耕地のうち、用水を利用して耕作する土地は「田」、用水を利用しないで耕作する土地は「畑」です（準則68条1号・2号）。何を栽培しているかではなく、耕作に用水を利用するかどうかで区別します。
@@ -71,8 +61,6 @@
 本肢は正しいといえます。
 
 **たとえば**、稲を育てるために水を引いている土地は田、水を引かずに野菜を育てている土地は畑です。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r1-mondai/q05-chimoku.md`
 
 ---
 
@@ -90,14 +78,24 @@
 
 ---
 
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r5-mondai/q08-chimoku.md`、`note-articles/r4-mondai/q06-chimoku.md`、`note-articles/r3-mondai/q10-chimoku.md`、`note-articles/r2-mondai/q06-chimoku-nintei.md`、`note-articles/r1-mondai/q05-chimoku.md`、`note-articles/h30-mondai/q09-chimoku.md`、`note-articles/h25-mondai/q08-chimoku.md`、`note-articles/h22-mondai/q12-chimoku.md`、`note-articles/h21-mondai/q05-chimoku.md`、`note-articles/h19-mondai/q13-chimoku.md`、`note-articles/h18-mondai/q07-chimoku-nintei.md`、`note-articles/h17-mondai/q16-chimoku-nintei.md`、`note-articles/jissen-tanren01-mondai/q11-chimoku.md`、`note-articles/chokuzen-fukushuu-card/f08-tochi-hyodai-chimoku.md`
+
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/h22-mondai/q12-chimoku.md`
+- **イ**　関連する過去の記事：`note-articles/h18-mondai/q07-chimoku-nintei.md`
+- **ウ**　関連する過去の記事：`note-articles/h30-mondai/q09-chimoku.md`、`note-articles/h17-mondai/q16-chimoku-nintei.md`
+- **エ**　関連する過去の記事：`note-articles/r5-mondai/q08-chimoku.md`、`note-articles/h25-mondai/q08-chimoku.md`
+- **オ**　関連する過去の記事：`note-articles/r1-mondai/q05-chimoku.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（4番＝イ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記規則99条、不動産登記事務取扱手続準則68条・69条は、`note-articles/laws/`配下の原文で確認しました。
 - イの発電用ダムの貯水池用地を池沼とすることは、準則68条8号（かんがい用水でない水の貯留池）の文言から導いたもので、ダムを例示した規定は見つかっていません。解答速報の正解（4番＝イ・オ）と整合しています。
 - 過去問の一問一答バンクにも、工場用地・牧場・学校用地・水力発電のダム貯水池用地の肢があり、結論は一致しています。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 
@@ -188,6 +186,19 @@ kanji 地・目・認・定・設・敷・用・業・付・貯・体・農・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -197,6 +208,9 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
 
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
@@ -217,31 +231,28 @@ Subtitle (smaller, centered, 1行):
 施設の敷地
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 工場の敷地は宅地になる
 Illustration: 工業専用地域の看板のない工場の模型と、地目の札「宅地」が土地に刺さり、「工場用地」の札には赤い×が付く様子。
+Words allowed inside this illustration (verbatim, nothing else): 「宅地」 「工場用地」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 工場用地はない
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 発電用ダムの貯水池は池沼
 Illustration: 山あいのダムに水がたまり、発電機のアイコンが添えられ、地目の札「池沼」が立っている様子。
+Words allowed inside this illustration (verbatim, nothing else): 「池沼」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 池沼
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 校舎と一体の運動場は学校用地
 Illustration: 小学校の校舎と校庭のトラックが1つの土地に収まり、地目の札「学校用地」が立ち、「雑種地」の札には赤い×が付く様子。
+Words allowed inside this illustration (verbatim, nothing else): 「学校用地」 「雑種地」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 学校用地
@@ -250,21 +261,19 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 農耕地・牧場
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 牧場地域の牧畜用の建物の敷地は牧場
 Illustration: 牧場の柵の中にある牛舎の模型と、地目の札「牧場」が立ち、「宅地」の札には赤い×が付く様子。
+Words allowed inside this illustration (verbatim, nothing else): 「牧場」 「宅地」
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 すべて牧場
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 田と畑は用水の利用で決まる
 Illustration: 水を引いた水田と、水を引かない畑が左右に並び、それぞれに「田」「畑」の札が立つ様子。
+Words allowed inside this illustration (verbatim, nothing else): 「田」 「畑」
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 用水の有無で決まる
@@ -279,13 +288,182 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「施設の敷地」 and 2 cards under 「農耕地・牧場」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、「その土地の主な用途は何か」を見分けて地目の札を選ぶ5パネル構成。②の色分け（施設の敷地＝緑、農耕地・牧場＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (この土地、地目は何になる？), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a simple land-plot model with a small signpost plate showing the registered land category (地目), a factory building, a dam reservoir, a school building with a running track, a cattle barn inside a fenced pasture, and a paddy field beside a dry field. Each land plot carries one plate such as 「宅地」「池沼」「学校用地」「牧場」「田」「畑」, and a wrong plate is drawn faded with a red cross.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Every panel shows, at the top of its diagram, a small row of land-category plates. The plate that is the correct answer for THIS panel is drawn in full color with a thick border, and the other plates (the tempting wrong answers) are drawn faded, greyed-out, with a thin dotted outline, instead of being omitted. Panels 1 to 3 (green) are about land under facilities, and panels 4 and 5 (blue) are about farmland and pasture.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第6問 作図ガイド（地目の認定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+工場の敷地は宅地で、工場用地はない
+Diagram: A decision flowchart. Top: a factory building on a land plot, with a faded label 「工業専用地域」 beside it. Diamond 1 reads 「建物の敷地か」. Yes arrow leads to the conclusion node 「宅地」 (thick border, full color). No arrow leads to a faded node 「ほかの地目の基準で判断」. Beside the flowchart, a faded plate 「工場用地」 with a red cross and a small note 「地目の23種類にはない」. A faded side note shows that the 工業専用地域 designation does not change the land category. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記できる地目に「工場用地」があるかを確認し、次にその土地が建物の敷地かを確認します。工場の敷地は建物の敷地として宅地です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+工場用地はない
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+発電用ダムの貯水池は池沼
+Diagram: A decision flowchart. Top: a mountain dam with a calm reservoir and a small power-generator icon. Diamond 1 reads 「耕地のかんがい用の貯水池か」. Yes arrow leads to a faded node 「ため池」. No arrow leads to the conclusion node 「池沼」 (thick border, full color), because the water is stored for power generation, not for irrigation. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その貯水池が耕地のかんがい用かどうかを確認し、次にかんがい用でなければ池沼と判断します。発電用のダムの貯水池は池沼です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+かんがい用でなければ池沼
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+校舎と一体の運動場は学校用地
+Diagram: A decision flowchart. Top: a school building and a running-track ground drawn as one connected land plot. Diamond 1 reads 「校舎の敷地や運動場にあたるか」. Yes arrow leads to the conclusion node 「学校用地」 (thick border, full color). No arrow leads to a faded diamond 「ほかのどの地目にもあたらないか」, and from it a faded node 「雑種地」 is reached only when the answer is yes. A faded plate 「雑種地」 with a red cross sits on the school ground. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その運動場が校舎の敷地と一体で使われているかを確認し、次に学校用地にあたるかを確認します。雑種地は、ほかのどの地目にもあたらない土地に限られます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+雑種地ではない
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+牧場地域の牧畜用の建物の敷地は牧場
+Diagram: A side-by-side comparison frame. LEFT box (highlighted with a thick colored border, full color) labeled 「牧場地域内」: a fenced pasture with a cattle barn, the plate 「牧場」 stands on the barn site, and a small note 「永久的設備かは問わない」. RIGHT box (faded, greyed-out, dotted outline) labeled 「耕作地の区域内の農具小屋」: a small tool shed in a field with a plate 「宅地」 and a small note 「永久的設備のときだけ」. A faded cross marks the plate 「宅地」 on the barn site.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その建物が牧場地域内にあり牧畜のために使われているかを確認し、次に永久的設備かどうかを見ます。牧場地域内ではすべて牧場で、永久的設備かは問いません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+すべて牧場
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+田と畑は耕作に用水を使うかで決まる
+Diagram: A decision flowchart. Top: a farmland plot. Diamond 1 reads 「耕作に用水を利用するか」. Yes arrow leads to the conclusion node 「田」 (a flooded paddy with a rice plant). No arrow leads to the conclusion node 「畑」 (a dry field with vegetables). A small faded note states that the crop grown is not the test. Both branches end in their own conclusion node, and there are no loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その農耕地で耕作に用水を利用するかを確認します。用水を利用すれば田、利用しなければ畑で、何を栽培するかでは決まりません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+用水の有無で決まる
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記規則99条、不動産登記事務取扱手続準則68条・69条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 地、目、認、定、産、登、記、規、条、務、取、続、敷、用、確、建、物、貯、判、体、的、設、備、決、農、有. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```

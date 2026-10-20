@@ -22,8 +22,6 @@
 
 肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q17-tatemono-messitsu.md`、`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/r2-mondai/q17-tatemono-messhitsu.md`、`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h23-mondai/q13-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`、`note-articles/h19-mondai/q18-tatemono-messhitsu.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/R2/Q22/note_R2_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/R7/Q22/note_R7_dai22mon_tatemono_kaisetsu.md`、`note-articles/h19-mondai/q05-kubun-tatemono-hyouji.md`、`note-articles/h29-mondai/q16-tatemono-kouzou.md`
-
 ### ア：借地上の建物の滅失は、土地所有者が建物所有者に代位して申請する
 
 建物が滅失したときは、表題部所有者又は所有権の登記名義人が、滅失の日から1か月以内に、滅失の登記を申請しなければなりません（不動産登記法57条）。借地の上の建物なら、申請義務を負うのは建物の所有者です。
@@ -34,8 +32,6 @@
 
 **たとえば**、借地人が取り壊した建物の登記が残っているとき、地主は、借地人の承諾をもらえなくても、建物収去土地明渡請求権を保全するためなどの代位原因を示す情報（代位原因を証する情報）を付けて、代位して滅失の登記を申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`
-
 ### イ：共用部分の建物の滅失の登記には、所有者を証する情報を提供する
 
 共用部分である旨の登記がある建物は、表題部所有者や所有権の登記名義人がいません。滅失の登記は、その建物の所有者が申請します（不動産登記法57条かっこ書）。
@@ -43,8 +39,6 @@
 そのため、添付情報として、当該建物の所有者を証する情報を提供します（不動産登記令別表の十七の項）。本肢は正しいといえます。
 
 **たとえば**、マンションの集会所が共用部分である旨の登記を受けたまま取り壊されたときは、区分所有者が所有者であることを示す情報を付けて、滅失の登記を申請します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`、`note-articles/h19-mondai/q05-kubun-tatemono-hyouji.md`
 
 ### ウ：敷地権付き区分建物の滅失では、抵当権の消滅の承諾で、土地について消滅した旨が記録される
 
@@ -56,8 +50,6 @@
 
 **たとえば**、分譲マンションの1室が火災で消滅して抵当権者が「土地の抵当権はなくしてよい」と承諾したときは、滅失の登記の際に、その土地について抵当権が消滅した旨が建物の登記記録に記録されます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q17-tatemono-messhitsu.md`
-
 ### エ：主要構造部分が焼失して効用が失われたときは、残部があっても滅失
 
 建物が滅失したかどうかは、建物としての効用が失われたかどうかで判断します。柱や壁、屋根などの主要構造部分が焼失し、建物として使えなくなったときは、残部が焼失していなくても、滅失として、滅失の登記を申請できます。
@@ -65,8 +57,6 @@
 反対に、一部が焼失しても、主要構造部分が残って建物として使えるなら、滅失にはなりません。本肢は正しいといえます。
 
 **たとえば**、火災で屋根と壁が焼け落ち、基礎や一部の壁だけが残った建物は、建物として使えないので、滅失の登記を申請できます。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h29-mondai/q16-tatemono-kouzou.md`、`note-articles/h23-mondai/q13-tatemono-messitsu.md`
 
 ### オ：区分建物の滅失の登記は、その所有者が申請する
 
@@ -77,8 +67,6 @@
 他の区分建物の所有者Bが、自分の建物の表題部の変更の登記と併せて、Aに代位して甲区分建物の滅失の登記を申請できる、という扱いは認められていません。本肢は誤りです。
 
 **たとえば**、マンションの最上階の1室が取り壊されたとき、その滅失の登記は、取り壊された部屋の所有者が申請します。階下の住人が、自分の登記の変更と一緒に代わって申請することはできません。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q17-tatemono-messitsu.md`、`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/r2-mondai/q17-tatemono-messhitsu.md`
 
 ---
 
@@ -96,14 +84,24 @@
 
 ---
 
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q17-tatemono-messitsu.md`、`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/r2-mondai/q17-tatemono-messhitsu.md`、`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h23-mondai/q13-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`、`note-articles/h19-mondai/q18-tatemono-messhitsu.md`、`note-articles/chokuzen-fukushuu-card/f02-tatemono-bunkatsu-gappei.md`、`note-articles-Kijyutsu/R2/Q22/note_R2_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles-Kijyutsu/R7/Q22/note_R7_dai22mon_tatemono_kaisetsu.md`、`note-articles/h19-mondai/q05-kubun-tatemono-hyouji.md`、`note-articles/h29-mondai/q16-tatemono-kouzou.md`
+
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　関連する過去の記事：`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`
+- **イ**　関連する過去の記事：`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/h29-mondai/q18-tatemono-messitsu.md`、`note-articles/h20-mondai/q04-tatemono-messhitsu.md`、`note-articles/h19-mondai/q05-kubun-tatemono-hyouji.md`
+- **ウ**　関連する過去の記事：`note-articles/r2-mondai/q17-tatemono-messhitsu.md`
+- **エ**　関連する過去の記事：`note-articles/h29-mondai/q16-tatemono-kouzou.md`、`note-articles/h23-mondai/q13-tatemono-messitsu.md`
+- **オ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q17-tatemono-messitsu.md`、`note-articles/r3-mondai/q17-tatemono-messitsu.md`、`note-articles/r2-mondai/q17-tatemono-messhitsu.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（2番＝ア・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法55条・57条、不動産登記令3条・7条・別表の十七の項、不動産登記規則125条は、`note-articles/laws/`配下の原文で確認しました。
 - アは、過去問の一問一答バンクに、承諾を証する情報を提供するとする誤りの肢があり、結論は一致しています。ウは、バンクに同旨の正しい肢があります。エは、建物の滅失の意義（効用の喪失）に関するバンクの肢と、結論が一致しています。
 - オは、他の区分建物の所有者による代位申請を認める定めが`laws/`に見当たらず、解答速報の正解（2番＝ア・オ）と整合するように整理しました。建物の滅失の効用喪失の判断は、通達に基づく扱いで、原文は未確認です。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 
@@ -194,6 +192,19 @@ kanji 建・物・滅・失・申・請・登・記・借・地・所・有・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -203,6 +214,9 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
 
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
@@ -223,21 +237,19 @@ Subtitle (smaller, centered, 1行):
 誰が申請する？
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 借地の建物は土地所有者が代位して申請できる
 Illustration: 取り壊された建物の跡地の前で、地主が申請書を持ち、代位原因の書類が添えられ、承諾書の枠には赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 承諾ではなく代位
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物は所有者が申請する
 Illustration: 取り壊された部屋の所有者が申請書を出し、階下の住人が代わって出そうとするのを赤い×で止められる様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 他の所有者は代位不可
@@ -246,31 +258,28 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 何をどう扱う？
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 共用部分は所有者を証する情報を添える
 Illustration: 共用部分の建物の取壊しの前で、区分所有者の名簿のアイコンが申請書に添えられる様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 所有者の証明
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権付きの抵当権は承諾で消滅を記録
 Illustration: 区分建物の滅失の登記簿に、土地の抵当権が消滅した旨の付記が書き込まれ、抵当権者の承諾書が添えられている様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 土地の抵当権が消える
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 効用がなければ残部があっても滅失
 Illustration: 焼け落ちた建物の基礎と壁の一部が残っているが、建物として使えないことを示す×のアイコンが付き、滅失の登記が申請される様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 効用の喪失で判断
@@ -285,11 +294,13 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「誰が申請する？」 and 3 cards under 「何をどう扱う？」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
@@ -298,254 +309,169 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 ---
 
-## インフォグラフィック プロンプト（ア肢・間違いノート）
+## インフォグラフィック プロンプト（作図ガイド）
 
-アの記述を、正しいルールの側から理解するための解説図解です。
+問題文を読んだ瞬間に、「誰が申請するか」と「何を添付し、権利や滅失をどう扱うか」を見分ける5パネル構成（誤っているものを選ぶ問題でも、各パネルでは正しいルールを描く）。②の色分け（誰が申請する？＝緑、何をどう扱う？＝青）を引き継いでいる。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
-same visual language as the whole-problem poster for this article, but
-built as a single detailed explainer panel rather than a multi-card
-poster.
+same visual language as the whole-problem poster for this article (建物の滅失、誰がどう申請する？), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
 
-MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
-specific point of confusion, not to be a glanceable summary. Unlike a
-quick-reference poster, this image MAY include flowchart branches with
-written conditions, side-by-side comparisons with quoted article text,
-and short explanatory sentences (1-3 sentences per callout box) labeled
-「誤りやすいポイント」or similar. Prioritize clarity and completeness of
-the reasoning over brevity. Use a green check mark for the correct rule
-and a red cross mark for the wrong rule; never write any person's study
-record, answer history, or past question numbers in the image.
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric building icons (a demolished building drawn as a dashed outline or a burned-out frame), a land plot with a landowner figure, a condominium building with one unit missing, a document icon for 「代位原因を証する情報」 and for a certificate of ownership, a mortgage-seal icon with a small tag, and a magnifying glass for judging whether the building still serves its purpose.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Panels 1 and 5 share one 'who files' frame: a row of three figures, the 建物の所有者, the 土地の所有者, and 別の区分建物の所有者. Each of these two panels highlights only its own figure with a thick border and full color, and draws the other figures faded, greyed out, and with dotted outlines rather than omitting them. Do not draw any loop arrow in the flowcharts.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
 even if a character looks similar. Do NOT use Traditional Chinese
 characters (traditional hanzi) either, even where a traditional-hanzi
-glyph looks close to the correct Japanese kanji form — every glyph must
+glyph looks close to the correct Japanese kanji form - every glyph must
 match the standard Japanese Jōyō form exactly, not the Chinese
 traditional variant. Do NOT render any character that is not standard
-Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
 no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 借・地・建・物・滅・失・所・有・代・位・申・請・承・取・登・記・義・務・部・権・法・条・証・理・産・号 — always
-draw the standard Japanese (Jōyō) form.
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
-supports transparency. Fill the full canvas — including every corner and
-margin outside the panel/flowchart/comparison — with a solid or
-illustrated opaque background. There must be no checkerboard pattern, no
-partially transparent area, and no unpainted canvas edge anywhere in the
-final image.
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
-Title (large, bold):
-借地上の建物の滅失は、土地所有者が代位して申請できる
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
 
-Subtitle (smaller, centered):
-令和8年度 第17問 ア－必要なのは承諾ではなく代位原因
+Subtitle (smaller, centered, 1行):
+令和8年度午後第17問 作図ガイド（建物の滅失）
 
---- FLOWCHART ---
-Step 1 box: 借地上の建物が取り壊された。
-Step 2 box: 滅失の登記を申請する義務を負うのは、建物の表題部所有者又は所有権の登記名義人。（滅失の日から1か月以内）
-Branch (diamond): 建物の所有者が、滅失の登記を申請しないとき、土地の所有者は申請できるか。
-Arrow YES (green): 土地の所有者が、建物の所有者に代わって（代位して）申請できる。（民法423条）
-Info box (green): 提供する情報は、代位原因を証する情報。申請人は代位者である旨を申請情報にする。
-Warning box (red): 建物の所有者の承諾を証する情報は、提供する必要がない。
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
---- CALLOUT: 誤りやすいポイント ---
-「承諾をもらわないと申請できない」と考えがちですが、代位は、本人の承諾がなくてもできる制度です。必要なのは、代位して申請する理由を示す情報です。
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+借地の建物の滅失は土地所有者が代位申請
+Diagram: A vertical three-step chain on an isometric scene of a vacant leased plot where a demolished building is shown as a dashed outline, with a landowner figure labeled 「土地の所有者」 and a tenant figure labeled 「建物の所有者」. Step 1 (rounded rectangle): 「滅失の登記を申請する義務を負うのは建物の所有者 (法57条)」. Step 2 (diamond node with thick highlighted border): 「建物の所有者が申請しないか」, with the はい branch leading down to a rounded rectangle 「土地の所有者が代位して申請できる」, and the いいえ branch (drawn small and greyed out) leading to a grey node 「建物の所有者が自分で申請」. Step 3: the document 「代位原因を証する情報」 is attached in full color, while a faded document 「承諾を証する情報」 carries a red cross and the label 「提供するものではない」. The final conclusion node reads 「承諾ではなく代位原因を示して申請」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失の登記を申請する義務を負うのが建物の所有者であることを確認し、次に所有者が申請しないときに土地の所有者が代位して申請できることを確認します。添付するのは代位原因を証する情報で、承諾を証する情報ではありません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+承諾ではなく代位
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+共用部分の滅失は所有者を証する情報を添付
+Diagram: A vertical decision flowchart on an isometric scene of a condominium whose common-use meeting room has been demolished (dashed outline) and a small tag 「共用部分である旨の登記」. Start with a diamond node (thick highlighted border): 「共用部分である旨の登記がある建物か」. The はい branch leads to a rounded rectangle 「表題部所有者・登記名義人がいない。申請するのはその建物の所有者 (法57条かっこ書)」, and then to a green checkmark conclusion node 「添付情報は所有者を証する情報」. The いいえ branch (drawn small and greyed out) leads to a grey node 「表題部所有者または登記名義人が申請」. Beside the green node, a document icon labeled 「区分所有者であることを示す情報」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、共用部分である旨の登記がある建物かを確認し、次にその建物には登記名義人がいないので、所有者が申請することを確認します。そのため、添付情報として所有者を証する情報を提供します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+所有者の証明を添付
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+抵当権者が承諾すれば土地の抵当権消滅を記録
+Diagram: A vertical decision flowchart on an isometric scene of a condominium where one unit has burned down (dashed outline) above a land plot. Start with a diamond node (thick highlighted border): 「敷地権の登記の後に、その区分建物へ抵当権の登記がされたか」. The はい branch (the registered mortgage is shown reaching down to the land) leads to a second diamond node: 「滅失の登記の申請に、抵当権者が土地の抵当権の消滅を承諾した情報を添えたか」. Its はい branch leads to a green checkmark conclusion node 「区分建物の登記記録に、土地の抵当権が消滅した旨を付記登記で記録」. Its いいえ branch (drawn small and greyed out) leads to a grey node 「この記録の対象にならない」. The first diamond's いいえ branch (small, greyed out) leads to a grey node 「別の扱いになる」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、敷地権の登記の後に、その区分建物へ抵当権の登記がされたかを確認し、次に抵当権者が土地の抵当権の消滅を承諾した情報を添えたかを確認します。添えたときは、土地について抵当権が消滅した旨が記録されます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+消滅した旨を記録
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+効用を失えば残部があっても滅失
+Diagram: A vertical decision flowchart on an isometric scene of a burned building whose roof and walls have collapsed, with only the foundation and a small wall section left standing. Start with a diamond node (thick highlighted border): 「主要構造部分が焼失し、建物としての効用が失われたか」. The はい branch (thick arrow) leads to a green checkmark conclusion node 「残部が焼失していなくても滅失。滅失の登記を申請できる」. The いいえ branch (drawn small) shows a building that lost part of itself but still has its main structure and can be used, leading to a grey conclusion node 「滅失にはならない」. A magnifying glass icon beside the diamond is labeled 「判断の基準は効用」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、主要構造部分が焼失して建物としての効用が失われたかを確認します。効用が失われていれば、残部が焼失していなくても滅失として、滅失の登記を申請できます。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+効用の喪失で判断
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+区分建物の滅失は取り壊された部屋の所有者が申請
+Diagram: An illustrative diagram of an isometric condominium building with a demolished upper unit shown as a dashed outline labeled 「甲区分建物」, and a lower intact unit labeled 「乙区分建物」. UPPER-LEFT: the owner of the demolished unit 「Aは甲の所有者」 holds an application document and is drawn in full color with a thick border, with a green arrow to a registry-office icon and the label 「滅失の登記は所有者が申請 (法57条)」. LOWER-RIGHT: the owner of the lower unit 「Bは乙の所有者」 is drawn faded and greyed out with a dotted outline, holding a second application document with a red cross and the label 「乙の変更の登記と併せて代位申請はできない」. A small side note: 「新築や区分建物になったときの代位申請の特則は、滅失にはない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、滅失したのがどの区分建物かを確認し、次にその建物の所有者が申請することを確認します。ほかの区分建物の所有者が、自分の登記の変更と併せて代位して申請することは認められません。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+他の所有者は代位不可
 
 --- FOOTER ---
-不動産登記法57条・不動産登記令3条4号・7条1項3号
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記法55条・57条、不動産登記令3条・7条・別表の十七の項、不動産登記規則125条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese. Also scan the entire canvas for any character that is not
-standard Japanese hiragana, katakana, or Jōyō kanji — including any
-Chinese-only character, Korean Hangul, other non-Japanese script, or
-stray decorative glyph — and remove or redraw it. Confirm every
-heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters,
-confirm nothing is rendered below the FOOTER's small footnote text (no
-summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
-no additional text block of any kind), and confirm the entire canvas,
-edge to edge, is filled with a fully opaque background with no
-transparency or alpha channel anywhere.
-```
-
----
-
-## インフォグラフィック プロンプト（イ肢・間違いノート）
-
-イの記述を、正しいルールの側から理解するための解説図解です。
-
-```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
-clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), rounded panel sections, consistent with the
-same visual language as the whole-problem poster for this article, but
-built as a single detailed explainer panel rather than a multi-card
-poster.
-
-MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
-specific point of confusion, not to be a glanceable summary. Unlike a
-quick-reference poster, this image MAY include flowchart branches with
-written conditions, side-by-side comparisons with quoted article text,
-and short explanatory sentences (1-3 sentences per callout box) labeled
-「誤りやすいポイント」or similar. Prioritize clarity and completeness of
-the reasoning over brevity. Use a green check mark for the correct rule
-and a red cross mark for the wrong rule; never write any person's study
-record, answer history, or past question numbers in the image.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Do NOT use Traditional Chinese
-characters (traditional hanzi) either, even where a traditional-hanzi
-glyph looks close to the correct Japanese kanji form — every glyph must
-match the standard Japanese Jōyō form exactly, not the Chinese
-traditional variant. Do NOT render any character that is not standard
-Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
-no Chinese-only characters, no Korean Hangul, no other non-Japanese
-script, and no stray or decorative glyphs of any kind, even as small
-background or texture elements. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 共・用・部・分・滅・失・所・有・証・申・請・理・登・記・建・物・権・義・抹・消・録・前・法・条・書・付 — always
-draw the standard Japanese (Jōyō) form.
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
-from edge to edge. Do NOT generate a transparent or alpha-channel
-background under any circumstances, even if the output file format
-supports transparency. Fill the full canvas — including every corner and
-margin outside the panel/flowchart/comparison — with a solid or
-illustrated opaque background. There must be no checkerboard pattern, no
-partially transparent area, and no unpainted canvas edge anywhere in the
-final image.
-
---- HEADER ---
-Title (large, bold):
-共用部分の滅失には、所有者を証する情報が要る
-
-Subtitle (smaller, centered):
-令和8年度 第17問 イ－申請人が所有者になる理由
-
---- FLOWCHART ---
-Top node: 共用部分である旨の登記がある建物が滅失した。
-Step 1 box: 共用部分である旨の登記がある建物は、表題部所有者や所有権の登記名義人の登記が抹消されている。（登記記録に所有者の名前がない）
-Step 2 box (green): 滅失の登記は、その建物の所有者が申請する。（法57条かっこ書）
-Step 3 box (green): 添付情報として、当該建物の所有者を証する情報を提供する。（令別表の十七の項）
-
---- CALLOUT: 誤りやすいポイント ---
-登記記録に所有者が載っていないので、申請人が本当に所有者であることを、申請のたびに証明する必要があります。
-
---- FOOTER ---
-不動産登記法57条・不動産登記令別表の十七の項
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese. Also scan the entire canvas for any character that is not
-standard Japanese hiragana, katakana, or Jōyō kanji — including any
-Chinese-only character, Korean Hangul, other non-Japanese script, or
-stray decorative glyph — and remove or redraw it. Confirm every
-heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters,
-confirm nothing is rendered below the FOOTER's small footnote text (no
-summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
-no additional text block of any kind), and confirm the entire canvas,
-edge to edge, is filled with a fully opaque background with no
-transparency or alpha channel anywhere.
-```
-
----
-
-## インフォグラフィック プロンプト（ウ肢・間違いノート）
-
-ウの記述を、正しいルールの側から理解するための解説図解です。
-
-```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
-clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), rounded panel sections, consistent with the
-same visual language as the whole-problem poster for this article, but
-built as a single detailed explainer panel rather than a multi-card
-poster.
-
-MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
-specific point of confusion, not to be a glanceable summary. Unlike a
-quick-reference poster, this image MAY include flowchart branches with
-written conditions, side-by-side comparisons with quoted article text,
-and short explanatory sentences (1-3 sentences per callout box) labeled
-「誤りやすいポイント」or similar. Prioritize clarity and completeness of
-the reasoning over brevity. Use a green check mark for the correct rule
-and a red cross mark for the wrong rule; never write any person's study
-record, answer history, or past question numbers in the image.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Do NOT use Traditional Chinese
-characters (traditional hanzi) either, even where a traditional-hanzi
-glyph looks close to the correct Japanese kanji form — every glyph must
-match the standard Japanese Jōyō form exactly, not the Chinese
-traditional variant. Do NOT render any character that is not standard
-Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
-no Chinese-only characters, no Korean Hangul, no other non-Japanese
-script, and no stray or decorative glyphs of any kind, even as small
-background or texture elements. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 敷・地・権・付・区・分・建・物・滅・失・抵・当・消・記・録・登・効・特・定・申・請・併・目・的・承・産 — always
-draw the standard Japanese (Jōyō) form.
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
-from edge to edge. Do NOT generate a transparent or alpha-channel
-background under any circumstances, even if the output file format
-supports transparency. Fill the full canvas — including every corner and
-margin outside the panel/flowchart/comparison — with a solid or
-illustrated opaque background. There must be no checkerboard pattern, no
-partially transparent area, and no unpainted canvas edge anywhere in the
-final image.
-
---- HEADER ---
-Title (large, bold):
-敷地権付き区分建物の滅失と、抵当権の消滅
-
-Subtitle (smaller, centered):
-令和8年度 第17問 ウ－土地について消滅した旨の記録
-
---- FLOWCHART ---
-Step 1 box: 敷地権の登記がされた後に、区分建物に抵当権の登記がされた。（この抵当権は、敷地権にも効力が及ぶ登記で、特定登記という）
-Step 2 box: その区分建物が滅失し、滅失の登記を申請する。
-Branch (diamond): 申請情報と併せて、抵当権者が、敷地権の目的であった土地について抵当権を消滅させることを承諾した情報を提供したか。
-Arrow YES (green): 土地について抵当権が消滅した旨が、付記登記として、区分建物の登記記録に記録される。
-Arrow NO (gray): 土地について消滅した旨の登記はされない。（抵当権は土地の登記記録に残る）
-
---- CALLOUT: 誤りやすいポイント ---
-建物がなくなっても、敷地権（土地）に及んでいた抵当権は、それだけでは消えません。抵当権者が土地について消滅させることを承諾したときに、その旨が記録されます。
-
---- FOOTER ---
-不動産登記法55条4項・不動産登記規則125条
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese. Also scan the entire canvas for any character that is not
-standard Japanese hiragana, katakana, or Jōyō kanji — including any
-Chinese-only character, Korean Hangul, other non-Japanese script, or
-stray decorative glyph — and remove or redraw it. Confirm every
-heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters,
-confirm nothing is rendered below the FOOTER's small footnote text (no
-summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
-no additional text block of any kind), and confirm the entire canvas,
-edge to edge, is filled with a fully opaque background with no
-transparency or alpha channel anywhere.
+Chinese, paying special attention to 建、物、滅、失、産、登、記、法、条、規、借、地、所、有、代、位、申、請、義、務、確、認、付、証、承、共. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -587,6 +513,14 @@ background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 効・用・失・部・滅・判・分・屋・建・物・登・記・申・請・会・通・誤・義・取 — always
 draw the standard Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the illustrations and diagrams, render ONLY the words that are
+written in this prompt (the labels, flowchart conditions and callout text
+given below), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing; leave other
+surfaces blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -669,6 +603,14 @@ background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 区・分・建・物・滅・失・所・有・申・請・併・代・位・認・取・登・記・法・条・部・変・更・定・産・確 — always
 draw the standard Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the illustrations and diagrams, render ONLY the words that are
+written in this prompt (the labels, flowchart conditions and callout text
+given below), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing; leave other
+surfaces blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

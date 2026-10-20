@@ -91,8 +91,8 @@ for path in files:
             bad(f, "たとえばがない: " + s[:10])
         if not re.search(r"本肢は(誤りです|正しいといえます)", s):
             bad(f, "肢の結論句がない: " + s[:6])
-        if "※欄外メモ" not in s:
-            bad(f, "欄外メモがない: " + s[:6])
+        if "※欄外メモ" in s:
+            bad(f, "note貼付範囲に欄外メモが残っている: " + s[:6])
     expl = "\n".join(sec[1:6])
     if "この肢は誤りです" in expl:
         bad(f, "結論句の表記が混在")
@@ -164,12 +164,12 @@ for path in files:
         bad(f, "セクションの順序: {}".format(order))
     # 11 プロンプト
     codes = re.findall(r"```[a-z]*\n(.*?)```", text, flags=re.S)
-    expect = 2 + (5 if n in (3, 4, 13, 14, 17, 18) else 0)
+    expect = 3 + len({3: "オ", 4: "アウエオ", 13: "エ", 14: "イオ", 17: "エオ", 18: "アエ"}.get(n, ""))
     if len(codes) != expect:
         bad(f, "コードブロックが{}個でない: {}".format(expect, len(codes)))
     else:
         for i, c in enumerate(codes):
-            name = ["見出し画像", "インフォグラフィック"][i] if i < 2 else "間違いノート" + LET[i - 2]
+            name = ["見出し画像", "インフォグラフィック", "作図ガイド"][i] if i < 3 else "間違いノート"
             for need in ("Traditional Chinese", "transparent", "alpha"):
                 if need not in c:
                     bad(f, name + "に必須文言なし: " + need)
@@ -178,6 +178,15 @@ for path in files:
             if "誤答" in c or "ドリル" in c:
                 bad(f, name + "に個人の演習結果らしい語")
         ip = codes[1]
+        if "ILLUSTRATION TEXT RULE" not in ip or ip.count("Words allowed inside this illustration") != 5:
+            bad(f, "総論に『絵の中の文字は指定した語だけ』の指示（ILLUSTRATION TEXT RULE と各カードの Words allowed）がない")
+        if "NO NUMBERING" not in ip or "Badge:" in ip:
+            bad(f, "総論のカードに番号の丸がある、または NO NUMBERING の指示がない")
+        if "DIAGRAM TEXT RULE" not in codes[2]:
+            bad(f, "作図ガイドに『絵の中の文字は指定した語だけ』の指示（DIAGRAM TEXT RULE）がない")
+        for k in range(3, len(codes)):
+            if "ILLUSTRATION TEXT RULE" not in codes[k]:
+                bad(f, "間違いノートに『絵の中の文字は指定した語だけ』の指示がない")
         if len(re.findall(r"CARD \d+ ---", ip)) != 5:
             bad(f, "カードが5枚でない")
         hp = codes[0]
@@ -192,13 +201,38 @@ for path in files:
     for p in re.findall(r"`(note-articles[^`]*\.md)`", text):
         if not os.path.exists(os.path.join(REPO, p)):
             bad(f, "リンク先が存在しない: " + p)
-    if len(re.findall(r"※欄外メモ", text)) < 6:
-        bad(f, "欄外メモが6か所未満")
+    tail = text.split("**正解：")[-1]
+    if len(re.findall(r"^※欄外メモ", tail, flags=re.M)) != 2:
+        bad(f, "正解の後ろの欄外メモ（論点別・各肢別）が2か所でない")
+    memo_lines = re.findall(r"^- \*\*([アイウエオ])\*\*　", tail, flags=re.M)
+    if memo_lines != list("アイウエオ"):
+        bad(f, "各肢の欄外メモがア〜オ順に5件ない: " + "".join(memo_lines))
+    if "※欄外メモ" in text.split("**正解：")[0]:
+        bad(f, "正解より前に欄外メモがある")
     # 13 個人用の分析ファイル（誤答の問題のみ）
     if n in (3, 4, 13, 14, 17, 18):
         pf = os.path.join(ROOT, "personal", "q{:02d}-analysis.md".format(n))
         if not os.path.exists(pf):
             bad(f, "個人用の分析ファイルがない")
+    # 13b 作図ガイド（全問）と間違いノート（本番で間違えた肢だけ）
+    MISTAKE = {3: "オ", 4: "アウエオ", 13: "エ", 14: "イオ", 17: "エオ", 18: "アエ"}
+    if text.count("## インフォグラフィック プロンプト（作図ガイド）") != 1:
+        bad(f, "作図ガイドの見出しが1つでない")
+    else:
+        gsec = text.split("## インフォグラフィック プロンプト（作図ガイド）")[1]
+        gsec = re.split(r"^## ", gsec, flags=re.M)[0]
+        if gsec.count("```") != 2:
+            bad(f, "作図ガイドのコードフェンスが2つでない")
+        for i in range(1, 6):
+            if "--- PANEL %d（%s） ---" % (i, "アイウエオ"[i - 1]) not in gsec:
+                bad(f, "作図ガイドのPANEL %dがない" % i)
+        if "--- PANEL 6" in gsec:
+            bad(f, "作図ガイドのパネルが6枚以上")
+        if re.search(r"Subtitle[^\n]*\n[^\n]*(ア〜オ|1〜5)", gsec):
+            bad(f, "作図ガイドのサブタイトルに肢の範囲")
+    got = "".join(re.findall(r"^## インフォグラフィック プロンプト（([アイウエオ])肢・間違いノート）", text, flags=re.M))
+    if got != MISTAKE.get(n, ""):
+        bad(f, "間違いノートの肢が違う: 期待=%s 実際=%s" % (MISTAKE.get(n, ""), got))
     # 14 記事に個人の演習結果が入っていないか
     for pat in ("あなたの解答", "あなたの判断", "自信あり", "迷いの印"):
         if pat in text:

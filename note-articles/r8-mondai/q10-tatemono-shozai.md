@@ -22,8 +22,6 @@
 
 肢ごとに、「どの登記を」「いつまでに」「どう記録するか」を確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`、`note-articles/h25-mondai/q10-tatemono-shozai.md`、`note-articles/h23-mondai/q14-kankatsu.md`、`note-articles/h25-mondai/q11-kaokubangou.md`、`note-articles/jissen-tanren01-mondai/q10-chiban.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`、`note-articles/h27-mondai/q12-kankatsu-toukisho.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`
-
 ### ア：複数の土地にまたがる建物の所在は、床面積の多い部分の土地が先
 
 建物が2筆以上の土地にまたがって存在する場合、登記記録の所在欄には、床面積の多い部分又は主たる建物の所在する土地の地番を先に記録し、他の土地の地番を後に記録します（不動産登記事務取扱手続準則88条2項）。
@@ -31,8 +29,6 @@
 地番の順序は、法務大臣や法務局の長が定めるものではありません。本肢は誤りです。
 
 **たとえば**、建物の床面積の6割が甲土地、4割が乙土地にあるときは、所在は「甲番地、乙番地」の順に記録します。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`
 
 ### イ：分筆で所在の地番が変わったときは、分筆の登記の日が原因の日付
 
@@ -42,8 +38,6 @@
 
 **たとえば**、1筆の敷地を分筆して、建物の敷地が乙土地だけになったときは、分筆の登記がされた日を原因の日付にして、建物の所在の変更の登記を申請します。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`
-
 ### ウ：錯誤による所在の更正の登記に、1か月の期限はない
 
 1か月以内の申請義務があるのは、変更があったときの登記です（不動産登記法51条1項）。もともと登記が間違っていた場合の更正の登記には、申請期限や申請義務の定めがありません（同法53条）。
@@ -51,8 +45,6 @@
 「錯誤の事実を知った日から1か月以内に、更正の登記を申請しなければならない」とする本肢は誤りです。
 
 **たとえば**、建物の登記簿の所在が、最初から別の土地の地番で書かれていたと気づいたときは、いつまでに直さなければならないという期限はありません。ただし、早めに更正の登記を申請するほうが望ましいでしょう。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`
 
 ### エ：えい行移転は、滅失と表題登記ではなく、所在の変更
 
@@ -64,8 +56,6 @@
 
 **たとえば**、建物を壊さずに、レールで引いて隣の町の土地へ動かしたときは、建物の所在の変更の登記を申請します。滅失の登記と新たな表題登記は要りません。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/h27-mondai/q12-kankatsu-toukisho.md`、`note-articles/h23-mondai/q14-kankatsu.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`
-
 ### オ：さん橋の上の建物は、最も近い土地の地番に「地先」と記録する
 
 建物が永久的な施設としてのさん橋の上に存する場合は、その建物から最も近い土地の地番を用いて、「何番地先」のように所在を記録します（準則88条4項）。
@@ -73,8 +63,6 @@
 固定した浮船を利用した建物も、同じ扱いです。本肢は正しいといえます。
 
 **たとえば**、港のさん橋の上に建っている売店は、岸に最も近い土地が「10番」なら、所在は「10番地先」と記録します。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r2-mondai/q11-tatemono-shozai.md`、`note-articles/h25-mondai/q10-tatemono-shozai.md`
 
 ---
 
@@ -92,14 +80,24 @@
 
 ---
 
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`、`note-articles/h25-mondai/q10-tatemono-shozai.md`、`note-articles/h23-mondai/q14-kankatsu.md`、`note-articles/h25-mondai/q11-kaokubangou.md`、`note-articles/jissen-tanren01-mondai/q10-chiban.md`、`note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md`、`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`、`note-articles/h27-mondai/q12-kankatsu-toukisho.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`
+
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`
+- **イ**　関連する過去の記事：`note-articles/r1-mondai/q16-hyouji-touki-shinsei.md`、`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`
+- **ウ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r6-mondai/q13-tatemono-shozai.md`、`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/r2-mondai/q11-tatemono-shozai.md`
+- **エ**　関連する過去の記事：`note-articles/r4-mondai/q11-tatemono-shozai.md`、`note-articles/h27-mondai/q12-kankatsu-toukisho.md`、`note-articles/h23-mondai/q14-kankatsu.md`、`note-articles/h18-mondai/q06-fuzoku-tatemono.md`
+- **オ**　関連する過去の記事：`note-articles/r2-mondai/q11-tatemono-shozai.md`、`note-articles/h25-mondai/q10-tatemono-shozai.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（4番＝イ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法51条・53条、不動産登記事務取扱手続準則4条（1項・2項）・85条・88条は、`note-articles/laws/`配下の原文で確認しました。
 - イの原因の日付が分筆の登記の日であることは、登記実務の取扱いによるもので、条文・準則の原文では確認できていません（原文は未確認）。過去問の一問一答バンクで確認できたのは、変更の日から1か月以内に申請する義務（法51条1項）までです。
 - ウは、法51条1項（変更の登記に1か月の期限）と法53条（更正の登記に期限の定めがない）の違いから整理しました。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 
@@ -190,6 +188,19 @@ kanji 建・物・所・在・記・録・床・面・積・地・順・橋・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -199,6 +210,9 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
 
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
@@ -219,21 +233,19 @@ Subtitle (smaller, centered, 1行):
 所在の記録の仕方
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 またがる建物は床面積の多い土地が先
 Illustration: 点線をまたいで建つ建物の模型で、広いほうの土地の側に「大」の札、狭いほうに「小」の札があり、地番の札が大きいほうから順に並ぶ様子。
+Words allowed inside this illustration (verbatim, nothing else): 「大」 「小」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 広い土地が先
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 さん橋の上の建物は「地先」と記録する
 Illustration: 港のさん橋の上の小さな建物と、岸に最も近い土地の地番の杭があり、杭に「地先」の札が付く様子。
+Words allowed inside this illustration (verbatim, nothing else): 「地先」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 最も近い土地の地番
@@ -242,31 +254,28 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 所在が変わったとき
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 分筆で所在が変われば原因日は分筆の日
 Illustration: 敷地が2つに分筆される様子と、建物の登記簿に変更の付箋が付き、カレンダーの分筆の日が丸で囲まれている様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 1か月以内に変更
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 錯誤の更正には期限がない
 Illustration: 最初から違う地番が書かれた登記簿に、訂正の付箋が貼られ、砂時計には赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 更正に期限なし
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 えい行移転は所在の変更になる
 Illustration: 建物をレールで引いて隣の土地へ移す様子。滅失と新築のスタンプには赤い×が付き、所在変更の付箋が貼られる。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 滅失ではない
@@ -281,13 +290,182 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「所在の記録の仕方」 and 3 cards under 「所在が変わったとき」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、建物の所在について「地番をどの順に書くか」「所在が変わった理由は変更か更正か」を見分ける5パネル構成。②の色分け（所在の記録の仕方＝緑、所在が変わったとき＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (建物の所在、どう記録する？), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a building model standing on land plots, a dashed boundary line between two plots (甲 and 乙), a split line dividing a plot, a calendar, a registration record with a correction note, a building pulled on rails to another plot, and a pier on a harbor with a nearest-plot number stake. A correct treatment is shown in full color, and a treatment that does not apply is drawn faded with a red cross.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Panels 2, 3, and 4 are all about a building whose location changes, so they use the same style: the case relevant to the panel is highlighted with a thick border and full color, and the contrasting cases are drawn faded with a dotted outline instead of being omitted.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第10問 作図ガイド（建物の所在）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+またがる建物は床面積の多い土地が先
+Diagram: An illustrative diagram. A building model straddling a dashed boundary between plots 甲 and 乙, with 甲 holding the larger share of the floor area (例：約6割) and 乙 the smaller (例：約4割). Below, the registered location line is built left to right: 「甲番地」 first, then 「乙番地」, with a numbered arrow. A faded speech balloon 「法務大臣や法務局の長が定める」 carries a red cross. A small basis tag 「準則88条2項」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が2筆以上の土地にまたがるかを確認し、次にどの土地に床面積の多い部分（又は主たる建物）があるかを確認します。その土地の地番を先に記録します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+床面積の多い土地が先
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+分筆で所在が変われば原因日は分筆の登記の日
+Diagram: A timeline from left to right. Point 1: a single plot with a building. Point 2: the plot is split and the building now stands only on plot 乙, with the calendar date circled labeled 「分筆の登記がされた日」. Point 3: a registration record gets a change note labeled 「所在の変更の登記」 whose cause-date line shows that circled date. A bracket labeled 「1か月以内に申請(51条1項)」 spans from point 2 to point 3.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、分筆の登記でこの建物の敷地の地番が変わったことを確認し、次に原因の日付が分筆の登記がされた日になることを確認します。所在の変更の登記は1か月以内に申請します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+原因日は分筆の登記日
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+錯誤による所在の更正に期限はない
+Diagram: A decision flowchart. Top: a registration record that shows a wrong plot number. Diamond reads 「登記の後に所在が変わったのか、最初から誤っていたのか」. Branch 「変わった(変更)」 leads to a faded node 「1か月以内に変更の登記を申請(51条1項)」. Branch 「最初から誤り(錯誤)」 leads to the conclusion node 「更正の登記に申請期限の定めはない(53条)」 (thick border, full color, hourglass with a red cross). No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、登記の後に所在が変わったのか、最初から誤っていたのかを確認し、次に誤りなら更正の登記にあたることを確認します。更正の登記には期限の定めがありません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+更正に期限なし
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+えい行移転は滅失ではなく所在の変更
+Diagram: A decision flowchart. Top: a building pulled on rails to a plot in another office's area. Diamond reads 「建物を解体して移したか」. Yes arrow leads to a faded node 「滅失と新築として扱う(準則85条1項)」. No arrow (moved without being demolished) leads to the conclusion node 「所在の変更の登記を申請する(同条2項)」 (thick border, full color), with a faded stamp pair 「滅失」「新たな表題登記」 carrying a red cross. A small note says the same applies when the registry office changes. No loop arrows.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物を取り壊したのか、壊さずに移したのかを確認し、次に壊さずに移したえい行移転なら所在の変更として扱うことを確認します。管轄の登記所が変わっても同じです。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+滅失ではない
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+さん橋の上の建物は「何番地先」と記録
+Diagram: An illustrative diagram. A harbor pier (a permanent structure) with a small shop building on it, and the nearest land plot on the shore with a number stake 「10番」. A dotted line connects the building to that nearest plot. Below, the registered location line reads 「10番地先」. A small side note says a fixed floating boat is treated the same way. A small basis tag 「準則88条4項」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、建物が永久的な施設としてのさん橋の上にあることを確認し、次にその建物から最も近い土地の地番を確認します。その地番に「地先」を付けて記録します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+最も近い土地の地番
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+不動産登記法51条・53条、不動産登記事務取扱手続準則4条・85条・88条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 建、物、所、在、産、登、記、法、条、務、取、続、床、面、積、地、筆、確、認、部、分、録、変、敷、付、更. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```

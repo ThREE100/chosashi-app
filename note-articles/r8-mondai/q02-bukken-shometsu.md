@@ -22,8 +22,6 @@
 
 肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`、`note-articles/h19-mondai/q03-senyu-soken.md`、`note-articles/r5-mondai/q02-bukkenteki-seikyuuken.md`、`note-articles/h26-mondai/q02-bukkentekiseikyuuken.md`、`note-articles/h30-mondai/q02-fugou.md`、`note-articles/r1-mondai/q02-kyouyuu.md`、`note-articles/h27-mondai/q02-kyouyuu.md`
-
 ### ア：所有権に基づく抹消登記請求権は、時効で消滅しない
 
 所有権に基づく妨害排除請求権は、所有権から生じる権利で、所有権がある限り、時効によって消滅しません（判例）。民法166条2項は、消滅時効にかかる対象を「債権又は所有権以外の財産権」としており、所有権そのものは対象に入っていません。
@@ -31,8 +29,6 @@
 他人名義の所有権移転登記の抹消登記手続を求める権利も同様です。本肢は正しいといえます。
 
 **たとえば**、自分の土地に他人名義の登記がされている場合、所有者は何十年たっても「その登記を消してください」と求めることができます。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
 
 ### イ：占有回収の訴えで占有を回復すれば、占有は続いていたことになる
 
@@ -42,8 +38,6 @@
 
 **たとえば**、取得時効が進んでいる途中で土地を奪われた人が、1年以内に占有回収の訴えを起こして勝訴し、土地の占有を取り戻せば、奪われていた間も含めて占有期間に数えられます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/h19-mondai/q03-senyu-soken.md`
-
 ### ウ：賃借人が植えた農作物は、賃借人の物
 
 土地に付合した物は、原則として土地の所有者のものになります（民法242条本文）。ただし、賃借権などの権原によって物を付けた人の権利は妨げられません（同条ただし書）。
@@ -51,8 +45,6 @@
 判例は、耕作者が植えた農作物は土地に付合せず、耕作者の所有としています。Aの所有物にはならず、本肢は正しいといえます。
 
 **たとえば**、畑を借りた人が育てた野菜は、地主の物ではなく、借りた人の物です。収穫して売るのに地主の許可は要りません。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
 
 ### エ：持分を放棄すると、他の共有者に帰属して持分が増える
 
@@ -62,8 +54,6 @@ BとCの持分は同じ3分の1ずつなので、Aの3分の1が6分の1ずつ�
 
 **たとえば**、3人で3分の1ずつ持つ建物で1人が持分を手放すと、残る2人の持分は各2分の1になり、2人で建物全部を持つ形になります。
 
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
-
 ### オ：地役権は、20年の時効で消滅する
 
 所有権は時効で消滅しませんが、所有権以外の財産権である地役権は、権利を行使できる時から20年間行使しないと、時効によって消滅します（民法166条2項）。
@@ -71,8 +61,6 @@ BとCの持分は同じ3分の1ずつなので、Aの3分の1が6分の1ずつ�
 起算点は、継続的でなく行使される地役権は最後の行使の時、継続的に行使される地役権は行使を妨げる事実が生じた時です（民法291条）。「時効によっては消滅しない」とする本肢は誤りです。
 
 **たとえば**、隣の土地を通る通行地役権を設定したのに、最後に通ってから20年間、一度も通らなかった場合は、地役権が時効で消滅することがあります。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
 
 ---
 
@@ -90,14 +78,24 @@ BとCの持分は同じ3分の1ずつなので、Aの3分の1が6分の1ずつ�
 
 ---
 
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`、`note-articles/h19-mondai/q03-senyu-soken.md`、`note-articles/r5-mondai/q02-bukkenteki-seikyuuken.md`、`note-articles/h26-mondai/q02-bukkentekiseikyuuken.md`、`note-articles/h30-mondai/q02-fugou.md`、`note-articles/r1-mondai/q02-kyouyuu.md`、`note-articles/h27-mondai/q02-kyouyuu.md`
+
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
+- **イ**　関連する過去の記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/h19-mondai/q03-senyu-soken.md`
+- **ウ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
+- **エ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
+- **オ**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r3-mondai/q02-senyuken.md`、`note-articles/r7-mondai/q02-senyuken.md`、`note-articles/h25-mondai/q03-senyuken.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（3番＝イ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の民法166条・203条・242条・255条・291条は、`note-articles/laws/`配下の原文で確認しました。
 - ア・ウの結論は判例の内容で、判例の原文は本環境では確認できていません（判例番号は本文に書いていません）。イは過去問の一問一答バンクに同旨の出題（占有を回復しても継続は主張できない、という誤りの肢）があり、結論は一致しています。
 - エの「他の共有者の持分の割合に応じて加わる」という按分の考え方は、一般的な理解に基づくもので、民法255条の文言には按分の定めがありません。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 
@@ -188,6 +186,19 @@ kanji 消・権・物・滅・時・効・所・有・請・求・登・記・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -197,6 +208,9 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
 
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
@@ -217,21 +231,19 @@ Subtitle (smaller, centered, 1行):
 時効で消える？
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 所有権に基づく請求権は時効で消えない
 Illustration: 登記簿に他人の名前が書かれた土地の模型の前で、所有者が抹消のスタンプを持っており、横の砂時計が何度ひっくり返されても盾（所有権）に守られて残っている様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 いつでも請求できる
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 地役権は20年で時効消滅する
 Illustration: 隣地を通る細い道と、一度も通られていない足跡のない道、20年を示すカレンダーが並び、道の権利札が砂時計とともに消えていく様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 20年で消滅
@@ -240,31 +252,28 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 占有・共有・付合は？
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 占有回収の訴えで占有は続く
 Illustration: 奪われた土地の模型を取り戻す手と、占有期間を示す帯が途切れずにつながっている様子。裁判官の木槌が添えられている。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 占有は続いていた
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 賃借人の農作物は賃借人の物
 Illustration: 借りた畑で野菜を育てる借主と、野菜に借主の名札が付いている様子。地主は畑の縁に立っている。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 借主の物
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 持分の放棄で他の共有者の持分が増える
 Illustration: 3人で3等分された丸いケーキの1切れが放棄され、残る2人のケーキが同じ大きさに広がって2等分になる様子。数字は書かない。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 残る人の持分が増える
@@ -279,13 +288,182 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (2 cards under 「時効で消える？」 and 3 cards under 「占有・共有・付合は？」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、「時効で消える権利か、消えない権利か」と「占有・付合・共有の特別な扱い」を見分ける5パネル構成。「誤っているもの」を選ぶ問題なので、各パネルでは正しいルールそのものを図にしている。②の色分け（時効で消える？＝緑、占有・共有・付合は？＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (消える権利と消えない権利), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - a land-plot model with a registry book showing another person's name for the removal request, an hourglass icon for the extinctive prescription, a footpath icon with no footprints for the easement, a gavel icon for the possession recovery suit, a possession bar that stays unbroken, a vegetable field with a tenant's name tag, and a round cake divided into three equal slices with one slice given up for the co-ownership share.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Panels 1 and 5 (ア, オ) share the same two-branch frame "is the right ownership, or a property right other than ownership?": panel 1 highlights the ownership branch (thick border, full color) and panel 5 highlights the other branch, and in each panel the unrelated branch is faded and grey. Panels 2, 3 and 4 (イ, ウ, エ) are independent diagrams.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第2問 作図ガイド（物権の消滅）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+所有権に基づく抹消登記請求権は時効で消えない
+Diagram: A decision flowchart read from top to bottom. Start node: 「他人名義の所有権移転登記の抹消を求める権利」, drawn as a land-plot model with a registry book showing another person's name and the owner holding a removal stamp. Diamond node: 「所有権から生じる請求権か、所有権以外の財産権か」. Branch 「所有権から生じる請求権」 (thick border, full color) goes to a conclusion node 「所有権がある限り時効で消滅しない」 with an hourglass bouncing off a shield. Branch 「所有権以外の財産権」 (faded, grey, because it is panel 5's case) goes to its own node 「消滅時効の対象(民法166条2項)」. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、その請求権が所有権そのものから生じるものかを確認します。次に、所有権がある限り時効では消えず、民法166条2項の対象になるのは債権と所有権以外の財産権だと判定します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+いつでも請求できる
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in blue containing the number 2.
+Heading (bold, ONE line):
+占有回収の訴えで占有は続いていたことになる
+Diagram: A decision flowchart read from top to bottom. Start node: 「占有者が占有物の所持を失った」. Diamond node: 「占有回収の訴えを提起したか」. Branch 「提起した」 (thick border, full color) goes to a node 「占有権は消滅しない(民法203条ただし書)」, then to a conclusion node 「勝訴して現実に占有を回復すれば、失っていた間も占有は継続」, drawn as a possession bar that stays unbroken with a gavel icon. Branch 「提起しない」 (faded, grey) goes to its own conclusion node 「占有権は消滅するのが原則」, drawn as a broken possession bar. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、占有物の所持を失った後に占有回収の訴えを提起したかを確認します。次に、提起して勝訴し現実に占有を回復したときは、失っていた間の占有の継続を主張できると判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+占有は続いていた
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+賃借人が植えた農作物は賃借人の物
+Diagram: A decision flowchart read from top to bottom. Start node: 「土地に農作物が植えられた」, drawn as a rented field with vegetables. Diamond node: 「賃借権などの権原によって植えたか」. Branch 「はい」 (thick border, full color) goes to a node 「権原によって付けた人の権利は妨げられない(民法242条ただし書)」, then to a conclusion node 「農作物は耕作者の所有物」, drawn as vegetables with the tenant's name tag while the landowner stands at the edge of the field. Branch 「いいえ」 (faded, grey) goes to its own conclusion node 「付合した物は土地の所有者のもの(同条本文)」. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、農作物を賃借権などの権原によって植えたかを確認します。次に、権原によって植えたのであれば付合せず、耕作者の所有物になると判定します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+農作物は借主の物
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+持分を放棄すると残る共有者の持分が増える
+Diagram: An illustrative step diagram read from left to right with numbered steps. Step 1: a round cake divided into three equal slices labeled 「A」「B」「C」, each labeled 「3分の1」. Step 2: the slice of A is given up (drawn with a faint dotted outline and an arrow pointing to the other two slices), labeled 「Aが持分を放棄(民法255条)」. Step 3: the two remaining slices of B and C grow to equal halves, labeled 「他の共有者に帰属」 and 「B・Cは各2分の1」. Under step 3, a small equation 「3分の1＋6分の1＝2分の1」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、放棄された持分が他の共有者に帰属することを確認します。次に、BとCの持分は同じなので6分の1ずつ加わり、各2分の1になると計算します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+各2分の1になる
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in green containing the number 5.
+Heading (bold, ONE line):
+地役権は20年の消滅時効にかかる
+Diagram: A decision flowchart read from top to bottom, sharing the two-branch frame with panel 1. Diamond node: 「所有権か、所有権以外の財産権か」. Branch 「所有権」 (faded, grey, because it is panel 1's case) goes to its own node 「時効で消滅しない」. Branch 「所有権以外の財産権(地役権)」 (thick border, full color) goes to a node 「行使できる時から20年行使しないと時効消滅(民法166条2項)」, drawn as a footpath with no footprints beside a calendar showing 「20年」 and a fading easement tag. Then a second small node for the starting point of the period 「継続的でない地役権は最後の行使の時、継続的な地役権は行使を妨げる事実が生じた時(民法291条)」. No arrow returns to an earlier node.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、地役権が所有権ではなく所有権以外の財産権であることを確認します。次に、20年行使しないと時効で消滅し、起算点は継続的かどうかで分かれると確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+20年で消滅
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+民法166条・203条・242条・255条・291条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 物、権、消、滅、法、条、所、有、抹、登、記、請、求、時、効、確、認、産、判、定、占、続、失、現、間、継. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```

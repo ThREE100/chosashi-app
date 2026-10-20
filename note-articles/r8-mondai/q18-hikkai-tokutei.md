@@ -22,8 +22,6 @@
 
 手続の細かい規定が並ぶ分野です。肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
-※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q16-hikkaitokutei.md`、`note-articles/r6-mondai/q19-hikkai-tokutei.md`、`note-articles/r5-mondai/q18-hikkaitokutei.md`、`note-articles/r4-mondai/q19-hikkai-tokutei.md`、`note-articles/r3-mondai/q19-hikkai-tokutei.md`、`note-articles/r2-mondai/q18-hikkai-tokutei.md`、`note-articles/h30-mondai/q19-hikkai-tokutei.md`、`note-articles/h29-mondai/q19-hikkai-tokutei.md`、`note-articles/h28-mondai/q18-hikkaitokutei.md`、`note-articles/h26-mondai/q19-hikkaitokutei.md`、`note-articles/h25-mondai/q18-hikkaitokutei.md`、`note-articles/h24-mondai/q10-hikkaitokutei.md`、`note-articles/h23-mondai/q09-hikkai-shoyukenkai.md`、`note-articles/h22-mondai/q10-hikkai-tokutei.md`、`note-articles/h21-mondai/q15-hikkai-kyakka.md`、`note-articles/h20-mondai/q12-hikkai-tokutei.md`、`note-articles/h19-mondai/q09-hikkai-tokutei.md`、`note-articles/jissen-tanren01-mondai/q18-hikkai-tokutei.md`、`note-articles/chokuzen-fukushuu-card/f10-hikkai-tokutei.md`
-
 ### ア：各土地の所有者が申請人なら、手続費用は等しい割合で負担する
 
 筆界特定の手続にかかる費用（手続費用）は、筆界特定の申請人が負担します（不動産登記法146条1項）。
@@ -31,8 +29,6 @@
 申請人が2人で、1人が一方の対象土地の所有権登記名義人等、もう1人が他方の対象土地の所有権登記名義人等であるときは、各申請人は、等しい割合で手続費用を負担します（同条2項）。本肢は正しいといえます。
 
 **たとえば**、隣り合う甲土地と乙土地の所有者AとBが、2人で筆界特定を申請したときは、測量などの費用を、A・Bで半分ずつ負担します。
-
-※欄外メモ（note投稿時は削除）　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q16-hikkaitokutei.md`、`note-articles/r6-mondai/q19-hikkai-tokutei.md`、`note-articles/r5-mondai/q18-hikkaitokutei.md`
 
 ### イ：対象土地の一を共通にする複数の申請は、一の申請情報でできる
 
@@ -42,8 +38,6 @@
 
 **たとえば**、甲土地の所有者が、東隣の乙土地と西隣の丙土地の両方との筆界を知りたいときは、甲土地を共通にして、1枚の申請書で申請できます。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/r4-mondai/q19-hikkai-tokutei.md`、`note-articles/h28-mondai/q18-hikkaitokutei.md`
-
 ### ウ：筆界特定では、境界標を設置することは定められていない
 
 筆界特定登記官は、筆界特定をしたときは、筆界特定書を作成し、図面などで筆界特定の内容を示します（不動産登記法143条）。
@@ -51,8 +45,6 @@
 筆界特定は、筆界の位置を明らかにする手続で、現地に境界標を設置する定めはありません。「永続性のある境界標を設置しなければならない」とする本肢は誤りです。
 
 **たとえば**、筆界特定がされても、現地には杭などは打たれません。結果は、筆界特定書という書面と図面で示されます。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h20-mondai/q12-hikkai-tokutei.md`
 
 ### エ：申請人以外の所有者が主張する筆界の線も、申請情報に書く
 
@@ -62,8 +54,6 @@
 
 **たとえば**、申請人が「境界はここ」と主張し、隣の所有者が「いや、あちらだ」と主張しているときは、申請書には、隣人の主張する線も記載します。
 
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h28-mondai/q18-hikkaitokutei.md`
-
 ### オ：取下げのときに還付されるのは、添付書面だけで、申請書は含まれない
 
 筆界特定の申請を取り下げたときは、筆界特定登記官は、筆界特定添付書面を還付します（不動産登記規則245条3項）。
@@ -71,8 +61,6 @@
 還付されるのは添付書面で、申請書は含まれません。「申請書及び添付書面は、申請人に還付される」とする本肢は誤りです。
 
 **たとえば**、筆界特定の申請を取り下げたときは、添えていた書類は返ってきますが、提出した申請書そのものは返ってきません。
-
-※欄外メモ（note投稿時は削除）　関連する過去の記事：`note-articles/h28-mondai/q18-hikkaitokutei.md`
 
 ---
 
@@ -90,14 +78,24 @@
 
 ---
 
+※欄外メモ（note投稿時は削除）　この問題の論点に関する、過去に作成した記事：`note-articles/r7-mondai/q16-hikkaitokutei.md`、`note-articles/r6-mondai/q19-hikkai-tokutei.md`、`note-articles/r5-mondai/q18-hikkaitokutei.md`、`note-articles/r4-mondai/q19-hikkai-tokutei.md`、`note-articles/r3-mondai/q19-hikkai-tokutei.md`、`note-articles/r2-mondai/q18-hikkai-tokutei.md`、`note-articles/h30-mondai/q19-hikkai-tokutei.md`、`note-articles/h29-mondai/q19-hikkai-tokutei.md`、`note-articles/h28-mondai/q18-hikkaitokutei.md`、`note-articles/h26-mondai/q19-hikkaitokutei.md`、`note-articles/h25-mondai/q18-hikkaitokutei.md`、`note-articles/h24-mondai/q10-hikkaitokutei.md`、`note-articles/h23-mondai/q09-hikkai-shoyukenkai.md`、`note-articles/h22-mondai/q10-hikkai-tokutei.md`、`note-articles/h21-mondai/q15-hikkai-kyakka.md`、`note-articles/h20-mondai/q12-hikkai-tokutei.md`、`note-articles/h19-mondai/q09-hikkai-tokutei.md`、`note-articles/jissen-tanren01-mondai/q18-hikkai-tokutei.md`、`note-articles/chokuzen-fukushuu-card/f10-hikkai-tokutei.md`
+
+※欄外メモ（note投稿時は削除）　各肢（ア〜オ）に関連する、過去に作成した記事：
+
+- **ア**　この記述に近い肢を扱った記事は見つかりませんでした。同じ論点を扱う記事：`note-articles/r7-mondai/q16-hikkaitokutei.md`、`note-articles/r6-mondai/q19-hikkai-tokutei.md`、`note-articles/r5-mondai/q18-hikkaitokutei.md`
+- **イ**　関連する過去の記事：`note-articles/r4-mondai/q19-hikkai-tokutei.md`、`note-articles/h28-mondai/q18-hikkaitokutei.md`
+- **ウ**　関連する過去の記事：`note-articles/h20-mondai/q12-hikkai-tokutei.md`
+- **エ**　関連する過去の記事：`note-articles/h28-mondai/q18-hikkaitokutei.md`
+- **オ**　関連する過去の記事：`note-articles/h28-mondai/q18-hikkaitokutei.md`
+
 **このまま使える点／使う前に確認したい点**
 
-- 文章としては、各肢の「※欄外メモ」の行を除いて、このままnoteに貼り付けて投稿できる内容です。
+- 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（5番＝ウ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
 - 根拠の不動産登記法143条・146条、不動産登記規則207条・208条・245条は、`note-articles/laws/`配下の原文で確認しました。
 - ウの境界標の設置は、法・規則に定めがないことから誤りと整理しました。エは、規則207条3項5号・6号が「するものとする」と定めています。
 - 過去問の一問一答バンクにも、取下げ・申請情報・境界標に関する筆界特定の肢があり、結論は矛盾しません。手続費用の負担割合の肢は、バンクにはありません。
-- 各肢の「※欄外メモ」は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
+- 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
 
@@ -188,6 +186,19 @@ kanji 筆・界・特・定・続・用・申・請・地・所・有・合・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -197,6 +208,9 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
 
 COLOR RULE FOR MARKS: any check mark is drawn in green and any cross or
 prohibition mark is drawn in red, regardless of the color of the column it
@@ -217,31 +231,28 @@ Subtitle (smaller, centered, 1行):
 費用と申請
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 各土地の所有者が申請人なら費用は等しく負担
 Illustration: 隣り合う2つの土地の所有者が、費用の硬貨の山を半分ずつに分けている様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 等しい割合
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 共通の土地があれば一の申請情報でできる
 Illustration: 甲土地を中心に、東の乙と西の丙の2つの申請書が1枚にまとめられている様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 一の申請情報
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 隣の所有者の主張する線も申請書に書く
 Illustration: 申請書の欄に、申請人の主張する線と、隣人の主張する別の線が並んで書かれている様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 相手の線も記載
@@ -250,21 +261,19 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 効果と取下げ
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 筆界特定では境界標を設置しない
 Illustration: 筆界特定書と図面だけが出てきて、現地に杭を打とうとする手には赤い×が付く様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 杭は打たれない
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5 (numbers
-run continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 characters or fewer):
 取下げで返るのは添付書面だけ
 Illustration: 取下げの窓口で、添付書面の書類が返され、申請書の書類は窓口に残る様子。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
 申請書は還付されない
@@ -279,15 +288,184 @@ non-Japanese script, or stray decorative glyph — and remove or redraw it so th
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
 number of cards equals 5 exactly (3 cards under 「費用と申請」 and 2 cards under 「効果と取下げ」), with no duplicated or missing cards,
-that badge numbers run 1-5 continuously without resetting,
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion tag, at a glance.
 Confirm no card states a false rule — every card must show the legally correct rule only.
+Confirm that no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible.
 Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends
 immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（作図ガイド）
+
+問題文を読んだ瞬間に、「費用と申請」の規定か「効果と取下げ」の規定かを見分け、条文の細かい定めを肢ごとに確認する5パネル構成（誤っているものを選ぶ問題でも、各パネルでは正しいルールを描く）。②の色分け（費用と申請＝緑、効果と取下げ＝青）を引き継いでいる。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article (筆界特定、手続のポイント), but
+built as a set of 5 diagram-drawing panels (a "how to sketch this fact
+pattern, in the right order" study reference) rather than a
+quick-reference conclusion poster.
+
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there - isometric land-plot icons (adjacent plots 甲, 乙, 丙 with a dashed boundary line between them), two landowner figures, coins split into two equal piles for cost sharing, a single application form covering several plots, a boundary-stake icon with a red cross, a written decision document with a map drawing, and a returned-document tray for withdrawal.
+Where a 肢 requires checking multiple conditions in sequence before
+reaching a conclusion, draw the panel's diagram as an actual decision
+flowchart: diamond-shaped branch nodes with the condition written on
+them, Yes/No (はい/いいえ) branch arrows, and a final conclusion node. Where a
+肢 is resolved by a single check, a labeled illustrative diagram is
+sufficient - do not force a flowchart. Never draw a loop arrow that
+returns from a branch node to an earlier node; every branch must end in
+its own conclusion node.
+
+Panels 3 and 5 share one 'what the procedure ends with' frame: LEFT box 「筆界特定の結果」 holding the written decision and a drawing, RIGHT box 「取下げのとき」 holding the returned documents. Each of these two panels highlights only its own box with a thick border and full color, and draws the other box faded, greyed out, and with a dotted outline rather than omitting it. Do not draw any loop arrow in the flowcharts.
+Unlike a glanceable summary poster, each panel MAY include a short
+「着眼点」callout box with 1-2 sentences that state the checking ORDER in
+words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
+include case or precedent numbers (article/regulation numbers are fine);
+keep the callout text as written below verbatim, and keep every condition
+each callout describes faithful to the article's own body text - do not
+drop or merge a required element.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only - hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form - every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image -
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim - do not paraphrase, translate, summarize, or substitute
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently - never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the diagrams and illustrations, render ONLY the words written in 「」
+in each panel's Diagram line (plus that panel's heading, 着眼点 callout and
+conclusion tag), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing inside a diagram;
+leave other surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas - including every corner and
+margin outside the panels - with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+問題文を読んだら
+どんな図を描けばいいか
+
+Subtitle (smaller, centered, 1行):
+令和8年度午後第18問 作図ガイド（筆界特定）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
+
+--- PANEL 1（ア） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+各土地の所有者が申請人なら費用は等分
+Diagram: A vertical decision flowchart on an isometric scene of two adjacent plots 「甲土地」 and 「乙土地」 with two owner figures 「A」 and 「B」 together holding one application. Step 1 (a plain rounded rectangle): 「手続費用を負担するのは申請人 (法146条1項)」. Then a diamond node (thick highlighted border): 「申請人が2人で、一方は一方の対象土地の所有権登記名義人等、他方は他方の対象土地の所有権登記名義人等か」. The はい branch (thick arrow) leads to a green checkmark conclusion node 「各申請人は等しい割合で負担 (法146条2項)」, illustrated by two equal piles of coins. The いいえ branch (drawn small and greyed out) leads to a grey conclusion node 「この等分の定めは使えない」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、手続費用を負担するのは申請人であることを確認し、次に申請人が二人で、それぞれ別の対象土地の所有権登記名義人等かを確認します。そうであれば、等しい割合で負担します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+等しい割合で負担
+
+--- PANEL 2（イ） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+共通の土地があれば一の申請情報でできる
+Diagram: An illustrative diagram, resolved by a single check. In the center, a large plot 「甲土地」 in full color with a thick border; to the east a plot 「乙土地」 and to the west a plot 「丙土地」. Two thin application forms (「甲と乙」 and 「甲と丙」) are shown being stacked into one sheet labeled 「一の筆界特定申請情報」 with a green checkmark. A caption: 「対象土地の一を共通にしている (規則208条)」. A faded example on the side, two applications that share no plot, is drawn with a dotted outline and the label 「共通の土地がなければ別々」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、複数の申請が対象土地の一を共通にしているかを確認します。甲土地が共通なので、甲乙の申請と甲丙の申請は、一の筆界特定申請情報でできます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一の申請情報で可
+
+--- PANEL 3（ウ） ---
+Badge: a filled circle in blue containing the number 3.
+Heading (bold, ONE line):
+筆界特定に境界標の設置の定めはない
+Diagram: An illustrative diagram, resolved by a single check, using the left box of the shared frame. LEFT box (highlighted with a thick border, full color) labeled 「筆界特定の結果」: a written decision document 「筆界特定書」 and a map drawing, with a caption 「内容は書面と図面で示す (法143条)」. Beside it, a hand holding a boundary stake over the ground is drawn faded with a dotted outline and a large red cross, labeled 「境界標の設置は定められていない」. RIGHT box (faded, greyed out, dotted outline, since this panel is not about this branch) labeled 「取下げのとき」: a returned-document tray.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、筆界特定の結果として作られるのが筆界特定書と図面であることを確認し、次に現地へ境界標を設置する定めがあるかを確認します。その定めはないので、永続性のある境界標を設置しなければならないとはいえません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+境界標の設置なし
+
+--- PANEL 4（エ） ---
+Badge: a filled circle in green containing the number 4.
+Heading (bold, ONE line):
+隣の所有者が主張する線も申請情報に書く
+Diagram: A vertical decision flowchart on an isometric scene of two adjacent plots with two different boundary lines drawn on the same map: a solid line labeled 「申請人が主張する線」 and a dashed line labeled 「隣の所有者が主張する線」. Start with a diamond node (thick highlighted border): 「申請人以外の対象土地の所有権登記名義人等が、筆界として特定の線を主張しているか」. The はい branch (thick arrow) leads to a green checkmark conclusion node 「その線も筆界特定申請情報の内容にする (規則207条3項)」. The いいえ branch (drawn small and greyed out) leads to a grey conclusion node 「申請人の主張する線と根拠を記載」.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、申請人が主張する筆界の線と根拠を書くことを確認し、次に申請人以外の所有権登記名義人等が別の線を主張しているかを確認します。主張しているときは、その線も申請情報に書きます。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+相手の線も記載
+
+--- PANEL 5（オ） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+取下げで還付されるのは添付書面だけ
+Diagram: An illustrative diagram, resolved by a single check, using the right box of the shared frame. RIGHT box (highlighted with a thick border, full color) labeled 「取下げのとき」: a counter window where the attached documents 「添付書面」 are handed back to the applicant with a green arrow and the caption 「還付される (規則245条3項)」, while the document 「申請書」 stays on the counter with a red cross and the label 「還付されない」. LEFT box (faded, greyed out, dotted outline, since this panel is not about this branch) labeled 「筆界特定の結果」: a written decision document with a map drawing.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず、取り下げたときに返されるものが何かを確認し、次にそれに申請書が含まれるかを確認します。返されるのは添付書面で、申請書は還付されません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+申請書は還付されない
+
+--- FOOTER ---
+Small footnote text (bottom of panel, small font, verbatim):
+根拠：不動産登記法143条・146条、不動産登記規則207条・208条・245条
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to 筆、界、特、定、産、登、記、法、条、規、地、所、有、申、請、用、分、続、確、認、権、義、合、共、通、可. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji - including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph - and remove or redraw it
+so that only standard Japanese text appears anywhere in the image.
+Confirm the panel count equals 5 exactly, badge numbers run 1-5
+continuously, there is no intro illustration or paragraph block between
+the header and the panels, that every multi-condition 肢 is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure), that no 肢 with a genuinely hidden second
+condition has been flattened into a single check, that each 着眼点 callout
+states a checking order rather than only a conclusion and keeps every
+required element from the source article distinct (no merged or dropped
+requirements), that any panel sharing a decision tree with another panel
+clearly distinguishes its own highlighted branch from the other, faded
+branches, confirm nothing is rendered below the last panel's footnote
+text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
+grid of all 肢, and no additional text block of any kind), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background
+with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -330,6 +508,14 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 地・所・有・申・請・用・合・続・法・条・員・権・登・記・義・分・体・測・量・関・係・産 — always
 draw the standard Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the illustrations and diagrams, render ONLY the words that are
+written in this prompt (the labels, flowchart conditions and callout text
+given below), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing; leave other
+surfaces blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -357,173 +543,6 @@ Bottom strip: 手続費用は、測量に要する費用などで、申請人の
 
 --- FOOTER ---
 不動産登記法146条
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese. Also scan the entire canvas for any character that is not
-standard Japanese hiragana, katakana, or Jōyō kanji — including any
-Chinese-only character, Korean Hangul, other non-Japanese script, or
-stray decorative glyph — and remove or redraw it. Confirm every
-heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters,
-confirm nothing is rendered below the FOOTER's small footnote text (no
-summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
-no additional text block of any kind), and confirm the entire canvas,
-edge to edge, is filled with a fully opaque background with no
-transparency or alpha channel anywhere.
-```
-
----
-
-## インフォグラフィック プロンプト（イ肢・間違いノート）
-
-イの記述を、正しいルールの側から理解するための解説図解です。
-
-```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
-clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), rounded panel sections, consistent with the
-same visual language as the whole-problem poster for this article, but
-built as a single detailed explainer panel rather than a multi-card
-poster.
-
-MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
-specific point of confusion, not to be a glanceable summary. Unlike a
-quick-reference poster, this image MAY include flowchart branches with
-written conditions, side-by-side comparisons with quoted article text,
-and short explanatory sentences (1-3 sentences per callout box) labeled
-「誤りやすいポイント」or similar. Prioritize clarity and completeness of
-the reasoning over brevity. Use a green check mark for the correct rule
-and a red cross mark for the wrong rule; never write any person's study
-record, answer history, or past question numbers in the image.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Do NOT use Traditional Chinese
-characters (traditional hanzi) either, even where a traditional-hanzi
-glyph looks close to the correct Japanese kanji form — every glyph must
-match the standard Japanese Jōyō form exactly, not the Chinese
-traditional variant. Do NOT render any character that is not standard
-Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
-no Chinese-only characters, no Korean Hangul, no other non-Japanese
-script, and no stray or decorative glyphs of any kind, even as small
-background or texture elements. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 地・共・通・申・請・書・規・条・筆・界・特・定・判・行・産・登・記 — always
-draw the standard Japanese (Jōyō) form.
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
-from edge to edge. Do NOT generate a transparent or alpha-channel
-background under any circumstances, even if the output file format
-supports transparency. Fill the full canvas — including every corner and
-margin outside the panel/flowchart/comparison — with a solid or
-illustrated opaque background. There must be no checkerboard pattern, no
-partially transparent area, and no unpainted canvas edge anywhere in the
-final image.
-
---- HEADER ---
-Title (large, bold):
-対象土地の一が共通なら、一の申請情報でできる
-
-Subtitle (smaller, centered):
-令和8年度 第18問 イ－複数の申請を1つにまとめる
-
---- COMPARISON ---
-Left panel (green header 「一の申請情報でできる」): 甲土地と乙土地の申請、甲土地と丙土地の申請。甲土地が共通。1枚の申請書にまとめられる。（規則208条）緑のチェック。
-Right panel (red header 「一の申請情報ではできない」): 甲土地と乙土地の申請、丙土地と丁土地の申請。共通の土地がない。別々の申請書が必要。赤い×。
-Bottom strip: 条文の文言は、「対象土地の一を共通にする複数の筆界特定の申請は、一の筆界特定申請情報によってすることができる」。
-
---- CALLOUT: 誤りやすいポイント ---
-「共通の対象土地が1つでもあるかどうか」が判断の基準です。共通の土地がなければ、申請は別々に行います。
-
---- FOOTER ---
-不動産登記規則208条
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese. Also scan the entire canvas for any character that is not
-standard Japanese hiragana, katakana, or Jōyō kanji — including any
-Chinese-only character, Korean Hangul, other non-Japanese script, or
-stray decorative glyph — and remove or redraw it. Confirm every
-heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters,
-confirm nothing is rendered below the FOOTER's small footnote text (no
-summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
-no additional text block of any kind), and confirm the entire canvas,
-edge to edge, is filled with a fully opaque background with no
-transparency or alpha channel anywhere.
-```
-
----
-
-## インフォグラフィック プロンプト（ウ肢・間違いノート）
-
-ウの記述を、正しいルールの側から理解するための解説図解です。
-
-```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
-clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), rounded panel sections, consistent with the
-same visual language as the whole-problem poster for this article, but
-built as a single detailed explainer panel rather than a multi-card
-poster.
-
-MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
-specific point of confusion, not to be a glanceable summary. Unlike a
-quick-reference poster, this image MAY include flowchart branches with
-written conditions, side-by-side comparisons with quoted article text,
-and short explanatory sentences (1-3 sentences per callout box) labeled
-「誤りやすいポイント」or similar. Prioritize clarity and completeness of
-the reasoning over brevity. Use a green check mark for the correct rule
-and a red cross mark for the wrong rule; never write any person's study
-record, answer history, or past question numbers in the image.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Do NOT use Traditional Chinese
-characters (traditional hanzi) either, even where a traditional-hanzi
-glyph looks close to the correct Japanese kanji form — every glyph must
-match the standard Japanese Jōyō form exactly, not the Chinese
-traditional variant. Do NOT render any character that is not standard
-Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
-no Chinese-only characters, no Korean Hangul, no other non-Japanese
-script, and no stray or decorative glyphs of any kind, even as small
-background or texture elements. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 筆・界・特・定・境・標・設・続・書・図・面・申・請・調・査・委・員・測・量・地・出・登・記・録・現・況 — always
-draw the standard Japanese (Jōyō) form.
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
-from edge to edge. Do NOT generate a transparent or alpha-channel
-background under any circumstances, even if the output file format
-supports transparency. Fill the full canvas — including every corner and
-margin outside the panel/flowchart/comparison — with a solid or
-illustrated opaque background. There must be no checkerboard pattern, no
-partially transparent area, and no unpainted canvas edge anywhere in the
-final image.
-
---- HEADER ---
-Title (large, bold):
-筆界特定は、境界標を設置する手続ではない
-
-Subtitle (smaller, centered):
-令和8年度 第18問 ウ－成果は筆界特定書と図面
-
---- FLOWCHART ---
-Top node: 筆界特定の申請があった。
-Step 1 box: 筆界調査委員が、測量・実地調査などをして、意見を提出する。
-Step 2 box: 筆界特定登記官が、意見を踏まえ、登記記録・地図・現地の状況などを総合的に考慮して、筆界特定をする。（法143条1項）
-Step 3 box (green): 筆界特定書を作成し、図面などで筆界特定の内容を表示する。（同条2項）
-Step 4 box (green): 申請人への通知、公告、関係人への通知をする。（法144条）
-Warning box (red): 現地に永続性のある境界標を設置する手続は、定められていない。
-
---- CALLOUT: 誤りやすいポイント ---
-筆界特定は、筆界の位置を書面と図面で明らかにする手続です。現地に杭を設置するところまでは含まれません。
-
---- FOOTER ---
-不動産登記法143条・144条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
@@ -580,6 +599,14 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 隣・所・有・申・請・書・関・係・地・規・条・号・図・間・相・権・登・記・義・定・法・区・産 — always
 draw the standard Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the illustrations and diagrams, render ONLY the words that are
+written in this prompt (the labels, flowchart conditions and callout text
+given below), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing; leave other
+surfaces blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -606,91 +633,6 @@ Bottom strip: 申請人が主張する線とその根拠も、申請情報の内
 
 --- FOOTER ---
 不動産登記規則207条3項
-
-Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese. Also scan the entire canvas for any character that is not
-standard Japanese hiragana, katakana, or Jōyō kanji — including any
-Chinese-only character, Korean Hangul, other non-Japanese script, or
-stray decorative glyph — and remove or redraw it. Confirm every
-heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters,
-confirm nothing is rendered below the FOOTER's small footnote text (no
-summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
-no additional text block of any kind), and confirm the entire canvas,
-edge to edge, is filled with a fully opaque background with no
-transparency or alpha channel anywhere.
-```
-
----
-
-## インフォグラフィック プロンプト（オ肢・間違いノート）
-
-オの記述を、正しいルールの側から理解するための解説図解です。
-
-```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
-clean flat-design isometric illustration style with soft pastel colors
-(blue, green, beige, gray), rounded panel sections, consistent with the
-same visual language as the whole-problem poster for this article, but
-built as a single detailed explainer panel rather than a multi-card
-poster.
-
-MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
-specific point of confusion, not to be a glanceable summary. Unlike a
-quick-reference poster, this image MAY include flowchart branches with
-written conditions, side-by-side comparisons with quoted article text,
-and short explanatory sentences (1-3 sentences per callout box) labeled
-「誤りやすいポイント」or similar. Prioritize clarity and completeness of
-the reasoning over brevity. Use a green check mark for the correct rule
-and a red cross mark for the wrong rule; never write any person's study
-record, answer history, or past question numbers in the image.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
-only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
-Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Do NOT use Traditional Chinese
-characters (traditional hanzi) either, even where a traditional-hanzi
-glyph looks close to the correct Japanese kanji form — every glyph must
-match the standard Japanese Jōyō form exactly, not the Chinese
-traditional variant. Do NOT render any character that is not standard
-Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
-no Chinese-only characters, no Korean Hangul, no other non-Japanese
-script, and no stray or decorative glyphs of any kind, even as small
-background or texture elements. Reproduce the exact text strings given
-below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 取・下・還・付・書・面・申・請・筆・界・特・定・記・出・規・条・号・通・知・送・前・登・関・係・産 — always
-draw the standard Japanese (Jōyō) form.
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
-from edge to edge. Do NOT generate a transparent or alpha-channel
-background under any circumstances, even if the output file format
-supports transparency. Fill the full canvas — including every corner and
-margin outside the panel/flowchart/comparison — with a solid or
-illustrated opaque background. There must be no checkerboard pattern, no
-partially transparent area, and no unpainted canvas edge anywhere in the
-final image.
-
---- HEADER ---
-Title (large, bold):
-取下げで還付されるのは、添付書面だけ
-
-Subtitle (smaller, centered):
-令和8年度 第18問 オ－申請書は還付されない
-
---- FLOWCHART ---
-Top node: 筆界特定の申請を取り下げる。
-Step 1 box: 取下げは、書面申請なら、取下げを記載した書面を提出する。（規則245条1項2号）
-Step 2 box: 取下げできるのは、申請人への通知を発送する前まで。（同条2項）
-Step 3 box (green): 筆界特定登記官は、筆界特定添付書面を還付する。（同条3項）
-Warning box (red): 申請書は、還付されない。
-Side note: 公告や関係人への通知の後に取下げがあれば、その旨を公告・通知する。（同条4項・5項）
-
---- CALLOUT: 誤りやすいポイント ---
-「申請書及び添付書面が還付される」と考えがちですが、条文で還付されるのは、添付書面だけです。
-
---- FOOTER ---
-不動産登記規則245条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
