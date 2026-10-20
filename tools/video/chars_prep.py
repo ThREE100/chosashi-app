@@ -7,6 +7,7 @@ assets/characters/ に置いた絵（例 Tori_01_closed.png と Tori_01_open.png
 2. 口を開いた絵を、口を閉じた絵にいちばん重なる大きさ・位置に合わせる
    （生成AIで別々に作った2枚は大きさや位置が少しずつ違い、そのままだと口パクのたびに体が伸び縮みする）。
    もともと重なっている絵（重なり99%以上）は、そのまま使う。
+4. poses.json でそのキャラに "mirror": true を書くと、左右を反転する（画面の右にいるキャラを中央に向かせる）。
 3. poses.json でそのキャラに "mouth": {"method": "patch"} を書くと、閉じた絵をそのまま使い、
    口のまわりだけを開いた絵から貼り込む（口以外の描き方が違い、合わせても体が揺れるキャラ用。トリ先生）。
 
@@ -48,9 +49,12 @@ def common_box(key: str) -> tuple[int, int, int, int]:
     cache = os.path.join(DST, f"{key}_box.txt")
     ps = poses()[key]
     srcs = [p for pair in ps.values() for p in pair]
-    if os.path.exists(cache) and os.path.getmtime(cache) >= max(map(os.path.getmtime, srcs + [__file__])):
+    if os.path.exists(cache) and os.path.getmtime(cache) >= max(map(os.path.getmtime, srcs + [__file__, os.path.join(HERE, "poses.json")])):
         return tuple(map(int, open(cache).read().split()))
-    boxes = [clean(Image.open(c).convert("RGBA")).getchannel("A").point(lambda v: 255 if v > 20 else 0).getbbox() for c, _ in ps.values()]
+    ims = [clean(Image.open(c).convert("RGBA")) for c, _ in ps.values()]
+    if character_cfg(key).get("mirror"):
+        ims = [im.transpose(Image.FLIP_LEFT_RIGHT) for im in ims]
+    boxes = [im.getchannel("A").point(lambda v: 255 if v > 20 else 0).getbbox() for im in ims]
     m = 12
     w, h = Image.open(srcs[0]).size
     box = (max(0, min(b[0] for b in boxes) - m), max(0, min(b[1] for b in boxes) - m),
@@ -150,11 +154,15 @@ def mouth_patch(closed: Image.Image, opened: Image.Image, cfg: dict) -> Image.Im
     return Image.composite(opened, closed, mask)
 
 
-def mouth_cfg(key: str) -> dict:
+def character_cfg(key: str) -> dict:
     import json
 
     with open(os.path.join(HERE, "poses.json"), encoding="utf-8") as f:
-        return json.load(f).get(key, {}).get("mouth", {})
+        return json.load(f).get(key, {})
+
+
+def mouth_cfg(key: str) -> dict:
+    return character_cfg(key).get("mouth", {})
 
 
 def poses() -> dict[str, dict[int, tuple[str, str]]]:
@@ -186,6 +194,8 @@ def prepared(key: str, pose: int, verbose: bool = False) -> tuple[str, str] | No
     if not (os.path.exists(o_dst) and os.path.getmtime(o_dst) >= newest):
         closed = clean(Image.open(c_src).convert("RGBA"))
         opened = clean(Image.open(o_src).convert("RGBA"))
+        if character_cfg(key).get("mirror"):  # 左右を反転（画面の中央を向かせる）
+            closed, opened = closed.transpose(Image.FLIP_LEFT_RIGHT), opened.transpose(Image.FLIP_LEFT_RIGHT)
         aligned, iou = align(closed, opened)
         mc = mouth_cfg(key)
         if mc.get("method") == "patch":

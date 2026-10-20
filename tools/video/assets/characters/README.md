@@ -7,19 +7,19 @@
 キャラは台本の characters のキー（`aiko`・`tori`）。大文字小文字は問わない（`Aiko_01_closed.png` でよい）。
 番号のない `aiko_closed.png`・`aiko_open.png` はポーズ1として扱う。キャラと番号の間に `Aiko_upper_01_closed.png` のような語をはさんでもよい（読み飛ばす）。.webp でもよい。
 
-今あるポーズ（藍子は2026-10-20に差し替えた上半身の絵 `Aiko_upper_NN_*.png`、トリ先生は全身の絵。名前は `../../poses.json` で付けている）：
+今あるポーズ（藍子・トリ先生とも、2026-10-20に差し替えた上半身の絵 `Aiko_upper_NN_*.png`・`Tori_upper_NN_*.png`。閉じた絵と開いた絵が完全に重なっている。トリ先生は動画では左右を反転して画面の中央に向ける。名前は `../../poses.json` で付けている）：
 
 | 番号 | 藍子（aiko） | トリ先生（tori） |
 |---|---|---|
-| 01 | normal 正面で微笑む | normal 立ち姿 |
+| 01 | normal 正面で微笑む | normal 腰に手 |
 | 02 | tablet タブレットを抱える | tablet タブレットを見る |
-| 03 | explain 手のひらで示す | explain 胸に手・片手を上げて説明 |
+| 03 | explain 手のひらで示す | explain 羽を上げて説明 |
 | 04 | point 指さし（ひらめき） | point 指さし |
-| 05 | hello 手を振る | praise 目を閉じて片手を上げる（ほめる） |
+| 05 | hello 手を振る | praise 目を閉じて両羽を上げる（ほめる） |
 | 06 | think あごに手（考える） | think あごに手 |
-| 07 | worry ほおに手（困る） | teach 片手を上げて教える |
+| 07 | worry ほおに手（困る） | teach 胸の前で指を立てて教える |
 | 08 | hope 胸の前で手を組む | strict 腕組み（厳しく） |
-| 09 | relief 胸に手（ほっとする） | sit 座る |
+| 09 | relief 胸に手（ほっとする） | calm 胸に手（落ち着いて話す） |
 | 10 | shrug 両手を広げる（えっ？） | good 親指を立てる |
 
 ## 絵の条件
