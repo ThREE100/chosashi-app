@@ -20,6 +20,7 @@ import wave
 import numpy as np
 
 import characters
+import chars_prep
 import jingle
 import tts
 
@@ -84,6 +85,10 @@ class Renderer:
             voices = json.load(f)
         self.tts = None if preview else tts.make_provider(tts_name or self.sc.get("tts", "openjtalk"), voices)
         self.chars = self.sc["characters"]
+        with open(os.path.join(HERE, "poses.json"), encoding="utf-8") as f:
+            self.pose_cfg = json.load(f)
+        self.pose = {k: 1 for k in self.chars}   # 今のポーズ（聞き手のときは最後のポーズのまま）
+        self.turns = {k: 0 for k in self.chars}
         self.audio: list[np.ndarray] = []
         self.t = 0.0
         self.segments: list[tuple[str, float]] = []  # (画像ファイル, 秒)
@@ -99,12 +104,31 @@ class Renderer:
         if imgs:
             p = os.path.join(self.sdir, imgs[state])
             return f'<img src="file://{p}">'
-        # assets/characters/<key>_closed.png と <key>_open.png を置けば、台本を書き換えなくてもそちらを使う
-        for ext in ("png", "webp"):
-            p = os.path.join(HERE, "assets", "characters", f"{key}_{state}.{ext}")
-            if os.path.exists(p):
-                return f'<img src="file://{p}">'
+        # assets/characters/<キャラ>_<番号>_closed.png・_open.png があれば、破片を消して口の位置を合わせた写しを使う
+        prep = chars_prep.prepared(c.get("avatar", key), self.pose[key])
+        if prep:
+            return f'<img src="file://{prep[1] if mouth_open else prep[0]}">'
         return characters.BUILTIN[c.get("avatar", key)](mouth_open)
+
+    def choose_pose(self, key: str, beat: dict) -> int:
+        """beat の "pose"（名前か番号）か、なければセリフから自動で選ぶ。"""
+        cfg = self.pose_cfg.get(c_key := self.chars[key].get("avatar", key), {})
+        names = cfg.get("names", {})
+        p = beat.get("pose")
+        if p is None:
+            for pat, name in cfg.get("auto", []):
+                if re.search(pat, beat.get("text", "")):
+                    p = name
+                    break
+        if p is None:
+            seq = cfg.get("default", [1])
+            p = seq[self.turns[key] % len(seq)]
+        self.turns[key] += 1
+        if isinstance(p, str):
+            if p not in names:
+                raise SystemExit(f"{c_key} にポーズ「{p}」はありません（poses.json）: {list(names)}")
+            p = names[p]
+        return int(p)
 
     def state(self, chapter: str, stage: dict, speaker: str | None, text: str | None, mouth_open: bool = False) -> dict:
         st = {"series": self.sc.get("series", ""), "chapter": chapter, "stage": stage, "sub": None}
@@ -183,6 +207,7 @@ class Renderer:
 
     def speak(self, chapter: str, stage: dict, beat: dict, prev_speaker: str | None):
         spk = beat["speaker"]
+        self.pose[spk] = self.choose_pose(spk, beat)
         voice = self.chars[spk]["voice"]
         local_yomi = beat.get("yomi", {})
         for i, page in enumerate(split_pages(beat["text"])):

@@ -1,0 +1,27 @@
+{
+  "_説明": "ポーズの名前と、assets/characters/ の絵の番号の対応。台本の beat に \"pose\": \"think\"（名前）か \"pose\": 6（番号）と書く。書かないときは auto の規則でセリフから選ぶ（上から順に、最初に当てはまったもの）。",
+  "aiko": {
+    "names": {"normal": 1, "tablet": 2, "explain": 3, "point": 4, "hello": 5, "think": 6, "shy": 7, "hope": 8, "sit": 9, "confident": 10},
+    "auto": [
+      ["^(はい|こんにちは|よろしく)", "hello"],
+      ["(あっ|わかった|そうか|なるほど)", "point"],
+      ["……", "shy"],
+      ["[？?]", "think"],
+      ["(ですね|んですね)。?$", "hope"],
+      ["(します！|ます！)", "confident"]
+    ],
+    "default": ["normal", "explain"]
+  },
+  "tori": {
+    "names": {"normal": 1, "tablet": 2, "explain": 3, "point": 4, "praise": 5, "think": 6, "teach": 7, "strict": 8, "sit": 9, "good": 10},
+    "auto": [
+      ["(上出来|そのとおり|その通り|いい質問|正解)", "good"],
+      ["(そういうこと|よくできました)", "praise"],
+      ["(待ちなさい|わな|ワナ|違う|ダメ|だめ)", "strict"],
+      ["(覚えておきなさい|ここが大事|ポイント)", "teach"],
+      ["[？?]", "think"],
+      ["(次回|それから)", "point"]
+    ],
+    "default": ["explain", "normal"]
+  }
+}
