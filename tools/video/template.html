@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<style>
+  :root { --navy:#1e3a8a; --tori:#c2410c; --bg1:#eef4fb; --bg2:#fdf6ec; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html,body { width:1920px; height:1080px; overflow:hidden;
+    font-family:"Noto Sans CJK JP","Noto Sans JP","IPAPGothic","IPAGothic",sans-serif; color:#0f172a; }
+  body { background:linear-gradient(160deg,var(--bg1),var(--bg2)); position:relative; }
+  #header { position:absolute; left:0; top:0; width:100%; height:86px; background:var(--navy); color:#fff;
+    display:flex; align-items:center; padding:0 48px; gap:28px; }
+  #series { font-size:28px; opacity:.85; white-space:nowrap; }
+  #chapter { font-size:36px; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  #stage { position:absolute; left:330px; top:108px; width:1260px; height:660px; background:#fff; border-radius:22px;
+    box-shadow:0 6px 24px #0f172a22; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+  #stage img { max-width:96%; max-height:94%; object-fit:contain; }
+  #bullets { width:88%; font-size:40px; line-height:1.6; }
+  #bullets li { margin:10px 0 10px 1.2em; }
+  #bullets h2 { font-size:46px; color:var(--navy); margin-bottom:18px; border-left:12px solid var(--navy); padding-left:18px; }
+  .card { text-align:center; }
+  .card .t1 { font-size:34px; color:#475569; margin-bottom:22px; }
+  .card .t2 { font-size:72px; font-weight:bold; color:var(--navy); line-height:1.3; }
+  .card .t3 { font-size:40px; color:var(--tori); margin-top:26px; }
+  #sub { position:absolute; left:330px; top:792px; width:1260px; height:262px; background:#ffffffee; border-radius:22px;
+    border:5px solid var(--navy); padding:52px 40px 20px; font-size:42px; line-height:1.5; }
+  #sub.tori { border-color:var(--tori); }
+  #name { position:absolute; left:28px; top:-28px; background:var(--navy); color:#fff; font-size:32px; font-weight:bold;
+    padding:6px 26px; border-radius:30px; }
+  #sub.tori #name { background:var(--tori); }
+  #sub.hidden { display:none; }
+  .chara { position:absolute; bottom:12px; width:300px; height:346px; transition:none; }
+  .chara svg, .chara img { width:100%; height:100%; object-fit:contain; }
+  #c-left { left:14px; } #c-right { right:14px; }
+  .dim { opacity:.55; filter:saturate(.6); }
+  .chara .label { position:absolute; bottom:-6px; width:100%; text-align:center; font-size:24px; color:#334155; }
+  #credit { position:absolute; right:28px; top:96px; font-size:20px; color:#64748b; }
+</style></head>
+<body>
+  <div id="header"><div id="series"></div><div id="chapter"></div></div>
+  <div id="stage"></div>
+  <div id="c-left" class="chara"></div>
+  <div id="c-right" class="chara"></div>
+  <div id="sub"><div id="name"></div><div id="text"></div></div>
+<script>
+  function esc(s){ return s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  // state: {series, chapter, stage:{kind,...}, left:{html,dim}, right:{html,dim}, sub:{name,cls,text}|null}
+  window.setState = function(st){
+    document.getElementById('series').textContent = st.series || '';
+    document.getElementById('chapter').textContent = st.chapter || '';
+    const stage = document.getElementById('stage');
+    const s = st.stage || {kind:'none'};
+    if (s.kind === 'image') stage.innerHTML = `<img src="${s.src}">`;
+    else if (s.kind === 'bullets') stage.innerHTML = `<div id="bullets">${s.heading?`<h2>${esc(s.heading)}</h2>`:''}<ul>${s.items.map(i=>`<li>${esc(i)}</li>`).join('')}</ul></div>`;
+    else if (s.kind === 'card') stage.innerHTML = `<div class="card"><div class="t1">${esc(s.top||'')}</div><div class="t2">${esc(s.title||'').replace(/\n/g,'<br>')}</div><div class="t3">${esc(s.bottom||'')}</div></div>`;
+    else stage.innerHTML = '';
+    for (const side of ['left','right']) {
+      const el = document.getElementById('c-'+side), c = st[side];
+      el.innerHTML = c ? c.html : '';
+      el.className = 'chara' + (c && c.dim ? ' dim' : '');
+    }
+    const sub = document.getElementById('sub');
+    if (st.sub) {
+      sub.className = st.sub.cls || '';
+      document.getElementById('name').textContent = st.sub.name;
+      document.getElementById('text').textContent = st.sub.text;
+    } else sub.className = 'hidden';
+  };
+</script>
+</body></html>

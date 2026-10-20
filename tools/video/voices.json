@@ -1,0 +1,30 @@
+{
+  "openjtalk": {
+    "tori": {
+      "htsvoice": "voices/hts_voice_nitech_jp_atr503_m001-1.05/nitech_jp_atr503_m001.htsvoice",
+      "speed": 1.25,
+      "half_tone": 1.0,
+      "gain": 1.5
+    },
+    "aiko": {
+      "htsvoice": "voices/htsvoice-tohoku-f01/tohoku-f01-neutral.htsvoice",
+      "speed": 1.25,
+      "half_tone": 0.0,
+      "gain": 1.0
+    }
+  },
+  "voicevox": {
+    "tori": {
+      "speaker": 13,
+      "speed": 1.1,
+      "gain": 1.0,
+      "_memo": "13=青山龍星 ノーマル。ローカルの VOICEVOX で /speakers を見て好みのIDに変える"
+    },
+    "aiko": {
+      "speaker": 8,
+      "speed": 1.1,
+      "gain": 1.0,
+      "_memo": "8=春日部つむぎ ノーマル"
+    }
+  }
+}
