@@ -94,10 +94,16 @@ class Renderer:
     # ---------- 画面 ----------
     def char_html(self, key: str, mouth_open: bool) -> str:
         c = self.chars[key]
+        state = "open" if mouth_open else "closed"
         imgs = c.get("images")
         if imgs:
-            p = os.path.join(self.sdir, imgs["open" if mouth_open else "closed"])
+            p = os.path.join(self.sdir, imgs[state])
             return f'<img src="file://{p}">'
+        # assets/characters/<key>_closed.png と <key>_open.png を置けば、台本を書き換えなくてもそちらを使う
+        for ext in ("png", "webp"):
+            p = os.path.join(HERE, "assets", "characters", f"{key}_{state}.{ext}")
+            if os.path.exists(p):
+                return f'<img src="file://{p}">'
         return characters.BUILTIN[c.get("avatar", key)](mouth_open)
 
     def state(self, chapter: str, stage: dict, speaker: str | None, text: str | None, mouth_open: bool = False) -> dict:
