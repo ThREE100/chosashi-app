@@ -189,9 +189,11 @@ MAP = [('時系列の図', 'zu01_jikeiretsu'), ('北を上にして', 'zu02_zent
        ('申請件数と登録免許税', 'zu08_kensuu'), ('合筆の制限', 'zu09_goppitsu_seigen'), ('本件登記1と本件登記2の地積測量図の範囲', 'zu10_chiseki_hani_8gatsu'),
        ('甲土地の公差', 'zu11_kousa'), ('（イ）2番19の地積', 'zu12_i_chiseki'), ('合筆後の2番42', 'zu13_gappei_go'),
        ('申請人の住所', 'zu14_juusho'), ('甲区の持分', 'zu15_kouku_mochibun'), ('「添付書類」欄の誤答', 'toukishinseisho_machigai'),
-       ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('C点の求め方', 'zu16_C_housha'), ('第4欄', 'dai4ran_kansei'),
-       ('本件登記2の分筆', 'zu17_sanpitsu'), ('新しい地番', 'zu18_chiban'), ('地積測量図に描く範囲', 'zu19_I_egakanai'),
-       ('第5欄の地積測量図', 'zu20_chiseki_sokuryouzu'), ('本番で解く順番', 'zu21_kaku_junban')]
+       ('（ロ）の原因の書き方', 'zu16_bunkatsu'), ('分合筆で変わる欄', 'zu17_chimoku_ran'),
+       ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('C点の求め方', 'zu18_C_housha'), ('第4欄', 'dai4ran_kansei'),
+       ('本件登記2の分筆', 'zu19_sanpitsu'), ('新しい地番', 'zu20_chiban'), ('地積測量図に描く範囲', 'zu21_I_egakanai'),
+       ('隣接地の地番の図', 'zu22_rinsetsu'),
+       ('第5欄の地積測量図', 'zu23_chiseki_sokuryouzu'), ('本番で解く順番', 'zu24_kaku_junban')]
 judge(f'マーカーの数 {len(markers)}（{len(MAP)}）', len(markers) == len(MAP))
 for mk, (head, png) in zip(markers, MAP):
     judge(f'マーカー「{head}」→ zu/R8_dai21mon_{png}.png', head in mk and os.path.exists(os.path.join(HERE, 'zu', f'R8_dai21mon_{png}.png')))
@@ -214,7 +216,9 @@ TRAPS = [('本人確認情報の（ア）は「登記名義人」', '不動産�
          ('C点は時計回りに足す', 'C点の求め方', '放射の検算になる'),
          ('本件登記2は3筆の分筆', '本件登記2の分筆', '3,000円よ'),
          ('新しい地番は面積の大きい順', '新しい地番', 'D・J・Kが2番59'),
-         ('I点は描かない', '地積測量図に描く範囲', 'D→K→L→Hです')]
+         ('I点は描かない', '地積測量図に描く範囲', 'D→K→L→Hです'),
+         ('（ロ）の原因は「分割して」', '（ロ）の原因の書き方', '直して並べます'),
+         ('隣接地は角で接する土地も', '隣接地の地番の図', '書き漏らさないようにします')]
 summ = text[text.index('今日のわなをおさらい'):text.index('全部の問が')]
 items = [l for l in summ.splitlines() if l.startswith('- **')]
 judge(f'まとめのワナ {len(items)}項目 ＝ 対応表 {len(TRAPS)}', len(items) == len(TRAPS))
@@ -236,7 +240,7 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + title[2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-judge('解説図プロンプトの図の数 21枚', len(re.findall(r'^- \*\*図\d+：', fig, re.M)) == 21)
+judge('解説図プロンプトの図の数 24枚', len(re.findall(r'^- \*\*図\d+：', fig, re.M)) == 24)
 for s in ['（506.23, 492.18）', '（510.78, 506.79）', '（492.10, 491.31）', '392.1763', '21.1533', '365.99', '352.29', '9.64', '4.02',
           '14.16（14.1567…）', '位置は模式']:
     check('解説図プロンプトの数値', s, fig, '解説図')
@@ -279,6 +283,24 @@ for n, s in [('dai1ran_kansei', ['第1欄', '登記名義人', '運転免許証'
     judge(f'{n}.html の記入：{"・".join(s)}', all(x in h_ for x in s))
 judge('地積測量図の枠の書式（第5欄・地番・土地の所在・地積測量図・作成日・縮尺）',
       all(x in draw for x in ["'第5欄'", "'地　　番'", "'土地の所在'", "'地　積　測　量　図'", '（令和８年○月○日作成）', "'縮尺'", "'250'"]))
+
+# ---- 動画化の準備（douga/：計算過程のコマ・絵コンテ・試作の動画） ----
+DOUGA = {'D01_C_housha': 7, 'D02_L_ten': 6, 'D03_K_kouten': 8, 'D04_kou_menseki': 8, 'D05_ro_sankaku': 4,
+         'D06_i_menseki': 9, 'D07_gappei_go': 4, 'D08_sanpitsu_menseki': 12, 'D09_henchou': 12}
+ddir = os.path.join(HERE, 'douga')
+kontei = open(os.path.join(ddir, 'kontei_R8_dai21mon_douga.md'), encoding='utf-8').read()
+for d, n in DOUGA.items():
+    frames = sorted(x for x in os.listdir(os.path.join(ddir, d)) if x.endswith('.png'))
+    judge(f'動画 {d}：コマ{n}枚（1280×720）', frames == [f'step{k:02d}.png' for k in range(1, n + 1)]
+          and all(png_size(os.path.join(ddir, d, x)) == (1280, 720) for x in frames))
+    judge(f'動画 {d}：絵コンテに{n}ステップ', f'## {d}：' in kontei and f'（{n}コマ）' in kontei.split(f'## {d}：')[1].split('\n## ')[0])
+    judge(f'動画 {d}.mp4 がある', os.path.getsize(os.path.join(ddir, d + '.mp4')) > 10000)
+for s in ['510.7797… ＋ 506.7900…i', '492.10 ＋ 491.3098…i', '−7.0977 − 21.6825i', '224.2185 − 88.9943i', '506.2288… ＋ 492.1798…i',
+          '826.65', '21.1533', '392.17', '344.84 ＋ 21.15', '352.29', '9.64', '4.02', '14.1567…', '（452.72, 506.61）', '（491.40, 490.94）', '（505.37, 492.46）']:
+    judge(f'絵コンテに記事と同じ値：{s}', s in kontei)
+for s in ['510.7797… ＋ 506.7900…i', '492.10 ＋ 491.3098…i', '506.2288… ＋ 492.1798…i', '392.17', '352.29']:
+    judge(f'記事にも同じ値：{s}', s in text)
+judge('絵コンテに図番がない', not re.search('図[0-9０-９]', kontei))
 
 print('NG件数:', ng)
 sys.exit(1 if ng else 0)
