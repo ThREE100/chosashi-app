@@ -234,7 +234,7 @@ def zu02():
     rbox(ax, 86, 30, 12.5, 42, RED, alpha=0.06)
     ax.text(92.3, 51, '区分は\n形成的\n登記\n\n申請の\n義務も\n期限も\nない', ha='center', va='center', fontsize=13,
             color=RED, linespacing=1.35)
-    ax.text(50, 8, '区分の原因には日付を書かない。敷地権の原因は、敷地権が生じた平成12年6月17日のまま',
+    ax.text(50, 8, '区分の原因には日付を書かない。敷地権の原因は、割合が変わる701が10月18日の変更、702が平成12年6月17日',
             ha='center', va='center', fontsize=15, weight='bold', color=GREEN)
     fig.text(0.5, 0.05, '登記記録の抜粋は令和8年9月1日現在。事実関係8で、それ以外の変更はないことを確かめている',
              ha='center', va='center', fontsize=14)
@@ -384,9 +384,9 @@ def zu06():
 # ======================================================================
 
 def zu07():
-    fig, axes = new_figure('Dタイプの北の距離は1.6（1階の0.6を写さない）',
+    fig, axes = new_figure('Dタイプを描く位置は北1.6（1階の0.6の位置に描かない）',
                            '図1〔調査図〕の0.6は1階の北の外壁まで。7階の北の外壁は、X1通りとX2通りの間の1.00だけ南にあるので0.6＋1.0＝1.6。'
-                           '\n西の外壁は1階も7階もY1通りなので0.8のまま（壁厚はどちらも12cmで、外壁から壁の中心までの0.06は打ち消し合う）',
+                           '\n西の外壁は1階も7階もY1通りなので0.8のまま。答案用紙には1階の点線と0.6・0.8が記載済みなので、1.6は描く位置の確かめに使い、書き足さない',
                            w=16, h=11)
     fig.subplots_adjust(top=0.90, bottom=0.17)
     ax = axes[0]
@@ -403,8 +403,8 @@ def zu07():
     z.dim_line(P(2.4, 0), P(2.4, 0.6), color=RED)
     z.dim_line(P(5.6, 0), P(5.6, 1.6), color=GREEN)
     z.dim_line(P(0, 3.6), P(0.8, 3.6), color=GREEN)
-    z.callout(P(2.4, 0.3), '0.6（1階の北の外壁まで）', dirs=(150, 170, 135), dists=(80, 100, 130), fs=13, color=RED)
-    z.callout(P(5.6, 0.8), '1.6（7階のDタイプの北の外壁まで）', dirs=(30, 15, 45), dists=(70, 95), fs=13, color=GREEN)
+    z.callout(P(2.4, 0.3), '0.6（1階の北の外壁。ここに描くのは誤り）', dirs=(150, 170, 135), dists=(80, 100, 130), fs=13, color=RED)
+    z.callout(P(5.6, 0.8), '1.6（7階のDタイプの北の外壁。正しい位置）', dirs=(30, 15, 45), dists=(70, 95), fs=13, color=GREEN)
     z.callout(P(0.4, 3.6), '0.8（西）', dirs=(200, 180, 220), dists=(60, 80), fs=13, color=GREEN)
     z.free_text(P(7.2, 1.1), 'バルコニー（7階）', fs=12, color=GRAY,
                 bbox=dict(boxstyle='round,pad=0.15', fc='white', ec='none'))
@@ -443,60 +443,110 @@ def box(ax, x0, y0, x1, y1, text='', fs=12, ha='center', color=BLACK, lw=1.4):
         ax.text(x, (y0 + y1) / 2, text, ha=ha, va='center', fontsize=fs, color=color)
 
 
-def zu08():
-    """建物図面の完成形（仮の枠。縮尺1/500＝1mが2mm）。"""
-    Wm, Hm = 190, 150
-    fig, ax = frame_fig('建物図面（Dタイプ・家屋番号6番3の701）の完成形　仮の答案用紙の枠・縮尺1/500の実際の大きさ', Wm, Hm)
-    box(ax, 0, 0, Wm, Hm, lw=1.8)
-    ax.text(150, Hm + 22, '建　物　図　面', ha='center', va='center', fontsize=15)
-    box(ax, 0, Hm + 12, 26, Hm + 24, '家屋番号', fs=11)
-    box(ax, 26, Hm + 12, 96, Hm + 24, 'B町四丁目6番3の701', fs=12, ha='left', color=INK)
-    box(ax, 0, Hm, 26, Hm + 12, '建物の所在', fs=11)
-    box(ax, 26, Hm, 120, Hm + 12, 'A市B町四丁目6番地3', fs=12, ha='left', color=INK)
-    box(ax, 0, -14, 26, 0, '申　請　人', fs=11)
-    box(ax, 26, -14, 150, 0, '白石　恵', fs=12, color=INK)
-    box(ax, 150, -14, 166, 0, '縮尺', fs=11)
-    box(ax, 166, -14, Wm, 0, '1/500', fs=11)
-    z = Zu(ax, fontsize=10)
+# 答案用紙の第3欄（アガルートの解答例〈答案用紙の再現〉の2ページ目から測った寸法。A3横で1px＝0.21mm）
+# 1枚の枠（横301.8mm×縦231mm）の左半分が各階平面図、右半分が建物図面（イ）。家屋番号（印刷「（略）」）・建物の所在
+# （記入済み）の欄は右上、作成者（略）・縮尺1/250と申請人（略）・縮尺1/250は枠の下。左右の境は枠の上下の短い線。
+# 印刷の（略）の欄にも、自力で解いた答え（家屋番号・申請人）を記入する（ユーザー指示、2026-10-20）。
+SW, SH, SMID = 301.8, 231.0, 150.9
+MMPX = 7   # 1mm を 7px で描く
+
+
+def sheet3(title, side, name):
+    setup_font()
+    x0, x1 = (-30, SMID + 6) if side == 'left' else (SMID - 6, SW + 8)
+    y0, y1 = -24, SH + 20
+    W, H = (x1 - x0) * MMPX / 100, (y1 - y0) * MMPX / 100
+    fig = plt.figure(figsize=(W, H + 0.8), dpi=100)
+    fig.patch.set_facecolor('white')
+    fig.suptitle(title, fontsize=17, weight='bold', y=0.99)
+    ax = fig.add_axes([0, 0, 1, H / (H + 0.8)])
+    ax.set_xlim(x0, x1)
+    ax.set_ylim(y0, y1)
     ax.set_aspect('equal')
-    k, ox, oy = 2.0, 70, 52    # 1m＝2mm、敷地のA点を (ox, oy+27.5) に置く
+    ax.axis('off')
+    box(ax, 0, 0, SW, SH, lw=1.8)
+    for ya, yb in ((SH - 10, SH), (0, 10)):
+        ax.plot([SMID, SMID], [ya, yb], color=BLACK, lw=1.8)
+    z = Zu(ax, fontsize=9)
+    ax.set_aspect('equal')
+    if side == 'left':
+        ax.text(-26, SH + 3, '第3欄', ha='left', va='center', fontsize=13, weight='bold')
+        ax.text(80, SH + 3.5, '各　階　平　面　図', ha='center', va='center', fontsize=15)
+        box(ax, 0, -14.5, 18.7, 0, '作 成 者', fs=11)
+        box(ax, 18.7, -14.5, 108.6, 0)
+        ax.text(63, -5, '（略）', ha='center', va='center', fontsize=11)
+        ax.text(106, -11.5, '（令和8年○月○日作成）', ha='right', va='center', fontsize=9)
+        box(ax, 108.6, -14.5, 118.7, 0, '縮尺', fs=10)
+        box(ax, 118.7, -14.5, 142.8, 0)
+        ax.plot([120.5, 141], [-13.5, -1], color=BLACK, lw=0.9)
+        ax.text(123.5, -3.5, '1', ha='center', va='center', fontsize=10)
+        ax.text(138, -11, '250', ha='center', va='center', fontsize=10)
+        # Dタイプ7階の内法（1/250＝1mが4mm）。内法の北西の角を (68, 148.7) に置く
+        k, ox, oy = 4.0, 68.0, 148.7
+        dd = [complex(oy - (-q.real - 1.06) * k, ox + (q.imag - 0.06) * k) for q in D_IN]
+        z.poly(dd, color=INK, lw=1.6)
+        dims(z, dd, ['5.18', '8.88', '0.95', None, '3.23', None, '1.00', '8.88'], fs=9)
+        z.edge_label(dd[3], dd[4], '1.00', centroid(dd), fs=8, outward=False)
+        z.edge_label(dd[5], dd[6], '1.00', centroid(dd), fs=8, outward=False)
+        ax.text(78.4, 155.5, '7階', ha='center', va='center', fontsize=11, color=INK, weight='bold')
+        ax.text(52, 82, '求　積　表\n5.18 × 8.88 ＝ 45.9984\n3.23 × 1.00 ＝ 3.2300\n　合計　49.2284\n　床面積　49.22㎡', ha='left',
+                va='center', fontsize=10, color=INK, linespacing=1.6)
+        assert round(area(dd) / (k * k), 4) == 49.2284
+        fig.text(0.5, 0.012, '内法の辺長（小数第2位まで。問題文の注4）と求積表を書く。専有部分は7階だけなので重ねる下の階はなく、方位も書かない',
+                 ha='center', va='bottom', fontsize=10)
+    else:
+        ax.text(263, SH + 4.5, '建　物　図　面　（イ）', ha='center', va='center', fontsize=15)
+        box(ax, 159.6, SH, 183.8, SH + 10, '家屋番号', fs=10)
+        box(ax, 183.8, SH, 221.6, SH + 10)
+        ax.text(202.7, SH + 7.3, '（略）', ha='center', va='center', fontsize=8, color=GRAY)
+        ax.text(202.7, SH + 3.3, 'B町四丁目6番3の701', ha='center', va='center', fontsize=9, color=INK)
+        box(ax, 159.6, SH - 10, 183.8, SH, '建物の所在', fs=10)
+        box(ax, 183.8, SH - 10, SW, SH)
+        ax.text(186, SH - 5, 'A市B町四丁目6番地3', ha='left', va='center', fontsize=12)
+        box(ax, 158.8, -14.5, 177.7, 0, '申 請 人', fs=11)
+        box(ax, 177.7, -14.5, 267.5, 0)
+        ax.text(222.6, -4.5, '（略）', ha='center', va='center', fontsize=9, color=GRAY)
+        ax.text(222.6, -10, '白石　恵', ha='center', va='center', fontsize=11, color=INK)
+        box(ax, 267.5, -14.5, 277.6, 0, '縮尺', fs=10)
+        box(ax, 277.6, -14.5, SW, 0)
+        ax.plot([279.4, 300], [-13.5, -1], color=BLACK, lw=0.9)
+        ax.text(282.5, -3.5, '1', ha='center', va='center', fontsize=10)
+        ax.text(296, -11, '500', ha='center', va='center', fontsize=10)
+        ax.text(296, 7, '（単位：m）', ha='right', va='center', fontsize=10)
+        k, ox, oy = 2.0, 206.0, 123.5      # 1/500＝1mが2mm。本件土地の北西の角（A点）を (206, 123.5) に置く
 
-    top = oy + 13.75 * k
+        def S(pts):   # 敷地座標(m) の点 → 枠の mm 座標の点（複素数 縦＋横i）
+            return [complex(oy + p.real * k, ox + p.imag * k) for p in pts]
 
-    def S(pts):   # 敷地座標(m) の点 → 枠の mm 座標の点（複素数 縦＋横i）
-        return [complex(top - (-p.real) * k, ox + p.imag * k) for p in pts]
+        def Sm(e, s_):
+            return S([P(e, s_)])[0]
+        z.poly(S(SITE), color=GRAY, lw=1.1)
+        z.poly(S(shift(F1, OE, OS)), color=GRAY, lw=0.9, ls=(0, (3, 2)))
+        z.poly(S(shift(F7, OE, OS)), color=INK, lw=1.0, ls='-.')
+        z.poly(S(shift(D_IN, OE, OS)), color=INK, lw=1.5)
+        for (e0, s0, e1, s1) in [(-5, 0, 0, 0), (-5, 1.9, 0, 1.9), (17, 0, 21, 0), (-5, 13.75, 0, 13.75),
+                                 (17, 13.75, 21, 13.75), (7.0, 13.75, 7.2, 16.5), (14.9, 13.75, 15.1, 16.5)]:
+            z.line(Sm(e0, s0), Sm(e1, s1), color=GRAY, lw=0.8)
+        for (e, s_, t) in [(8.5, -4.5, '道'), (-4.2, 0.9, '6-10'), (-4.2, 7.0, '6-12'), (23.5, 7.0, '6-17'),
+                           (3.5, 17.8, '6-5'), (11.0, 17.8, '6-1'), (19.0, 17.8, '6-7'), (6.0, 12.6, '6-3')]:
+            ax.text(*xy(Sm(e, s_)), t, ha='center', va='center', fontsize=8, color=GRAY)
+        ax.text(*xy(Sm(-1.4, 0.6)), '0.8', ha='center', va='center', fontsize=7, color=GRAY)
+        ax.text(*xy(Sm(0.6, -2.4)), '0.6', ha='center', va='center', fontsize=7, color=GRAY, rotation=90)
+        ax.text(*xy(Sm(-1.4, 11.7)), '0.8', ha='center', va='center', fontsize=7, color=GRAY)
+        ax.annotate('', xy=(264, 190), xytext=(264, 172), arrowprops=dict(arrowstyle='-|>', lw=1.4, color=GRAY))
+        ax.text(223, 77, '建物の存する部分　7階', ha='center', va='center', fontsize=11, color=INK, weight='bold')
+        ax.text(165, 40, '灰色：答案用紙に記載済み（敷地・隣接地・1階の点線・距離0.6と0.8・方位・建物の所在）\n'
+                '青　：記入する（一棟の7階の一点鎖線、Dタイプの実線、建物の存する部分）。\n'
+                '　　　家屋番号・申請人は（略）の印刷だが、自分の答えを記入', ha='left', va='center', fontsize=8.5,
+                color=GRAY, linespacing=1.6)
+        fig.text(0.5, 0.012, 'Dタイプの実線は、7階の北の外壁（筆界から1.6）から描く。1.6は位置の確かめで、図には書き足さない。敷地の辺長は書かない',
+                 ha='center', va='bottom', fontsize=10)
+    save(fig, [z], name)
 
-    def Sm(e, s):
-        return S([P(e, s)])[0]
-    site = S(SITE)
-    z.poly(site, color=GRAY, lw=1.6)
-    z.poly(S(shift(F1, OE, OS)), color=GRAY, lw=1.2, ls=(0, (3, 2)))
-    z.poly(S(shift(F7, OE, OS)), color=INK, lw=1.4, ls='-.')
-    z.poly(S(shift(D_C, OE, OS)), color=INK, lw=2.4)
-    # 隣接地・道（記載済み）は灰色
-    for (e, s, t) in [(8.5, -3.2, '道'), (-3.4, 0.9, '6－10'), (-3.4, 7.5, '6－12'), (3.5, 16.0, '6－5'),
-                      (11.0, 16.0, '6－1'), (20.0, 6.0, '6－17'), (20.0, 15.8, '6－7')]:
-        ax.text(*xy(Sm(e, s)), t, ha='center', va='center', fontsize=10, color=GRAY)
-    for (e0, s0, e1, s1) in [(-6, 0, 0, 0), (-6, 1.9, 0, 1.9), (0, 13.75, 0, 17), (7.0, 13.75, 7.0, 17),
-                             (17, 13.75, 17, 17), (17, 0, 23, 0), (-6, 13.75, 0, 13.75), (17, 13.75, 23, 13.75)]:
-        z.line(Sm(e0, s0), Sm(e1, s1), color=GRAY, lw=1.0)
-    ax.text(*xy(Sm(9.0, 9.2)), '6－3', ha='center', va='center', fontsize=10, color=GRAY)
-    ax.text(*xy(Sm(3.5, 6.5)), 'D', ha='center', va='center', fontsize=11, color=INK, weight='bold')
-    # 距離（北1.6・西0.8）は小さいので引き出し線で外に書く
-    z.dim_line(Sm(2.6, 0), Sm(2.6, 1.6), color=INK, lw=1.0)
-    z.dim_line(Sm(0, 9.5), Sm(0.8, 9.5), color=INK, lw=1.0)
-    z.callout(Sm(2.6, 0.8), '1.6', dirs=(120, 135, 105), dists=(40, 55), fs=11, color=INK)
-    z.callout(Sm(0.4, 9.5), '0.8', dirs=(200, 215, 185), dists=(40, 55), fs=11, color=INK)
-    ax.text(*xy(Sm(8.5, 21.0)), '建物の存する部分　7階', ha='center', va='center', fontsize=12, color=INK, weight='bold')
-    # 方位記号
-    ax.annotate('', xy=(170, 132), xytext=(170, 112), arrowprops=dict(arrowstyle='-|>', lw=2, color=GRAY, mutation_scale=16))
-    ax.text(170, 136, 'N', ha='center', va='center', fontsize=12, color=GRAY, weight='bold')
-    # 凡例
-    ax.text(4, 34, '灰色：答案用紙に記載済み（敷地・隣接地・\n1階の点線・方位）\n青：記入する（一棟の7階の一点鎖線、\nDタイプの実線、距離、建物の存する部分）',
-            ha='left', va='center', fontsize=9.5, color=GRAY, linespacing=1.5)
-    fig.text(0.5, 0.012, '答案用紙の形式は未発表のため、枠は令和7年度の第3欄にならった仮の形。敷地の辺長は書かない',
-             ha='center', va='bottom', fontsize=11)
-    save(fig, [z], 'R8_dai22mon_zu08_tatemono_zumen')
+
+def zu08():
+    """建物図面の完成形（答案用紙の第3欄の右半分）。"""
+    sheet3('建物図面（イ）の完成形（答案用紙の第3欄の右半分・縮尺1/500の実際の大きさ）', 'right', 'R8_dai22mon_zu08_tatemono_zumen')
 
 
 # ======================================================================
@@ -633,38 +683,8 @@ def zu12():
 # ======================================================================
 
 def zu13():
-    Wm, Hm = 190, 150
-    fig, ax = frame_fig('各階平面図（Dタイプ・家屋番号6番3の701）の完成形　仮の答案用紙の枠・縮尺1/250の実際の大きさ', Wm, Hm)
-    box(ax, 0, 0, Wm, Hm, lw=1.8)
-    ax.text(150, Hm + 22, '各　階　平　面　図', ha='center', va='center', fontsize=15)
-    box(ax, 0, Hm + 12, 26, Hm + 24, '家屋番号', fs=11)
-    box(ax, 26, Hm + 12, 96, Hm + 24, 'B町四丁目6番3の701', fs=12, ha='left', color=INK)
-    box(ax, 0, Hm, 26, Hm + 12, '建物の所在', fs=11)
-    box(ax, 26, Hm, 120, Hm + 12, 'A市B町四丁目6番地3', fs=12, ha='left', color=INK)
-    box(ax, 0, -14, 26, 0, '作　成　者', fs=11)
-    box(ax, 26, -14, 150, 0, '（土地家屋調査士の記名）', fs=11, color=GRAY)
-    box(ax, 150, -14, 166, 0, '縮尺', fs=11)
-    box(ax, 166, -14, Wm, 0, '1/250', fs=11)
-    z = Zu(ax, fontsize=10)
-    ax.set_aspect('equal')
-    k, ox, oy = 4.0, 30, 135   # 1m＝4mm。内法の北西の角を (ox, oy) に
-
-    # 内法の北西の角を枠の mm 座標の (ox, oy) に置く（複素数 縦＋横i）
-    dd = [complex(oy - (-q.real - 1.06) * k, ox + (q.imag - 0.06) * k) for q in D_IN]
-    z.poly(dd, color=INK, lw=2.2)
-    dims(z, dd, ['5.18', '8.88', '0.95', None, '3.23', None, '1.00', '8.88'], fs=10)
-    z.edge_label(dd[3], dd[4], '1.00', centroid(dd), fs=9, outward=False)
-    z.edge_label(dd[5], dd[6], '1.00', centroid(dd), fs=9, outward=False)
-    c = centroid(dd)
-    ax.text(c.imag, oy + 8, '7階', ha='center', va='center', fontsize=13, color=INK, weight='bold')
-    ax.text(85, 110, '7階\n5.18×8.88＝45.9984\n3.23×1.00＝3.2300\n計　49.2284\n床面積　49.22㎡', ha='left', va='center',
-            fontsize=12, color=INK, linespacing=1.6)
-    ax.text(85, 70, '・内法（壁の内側の線）で書く\n・専有部分は7階だけなので、\n　重ねて描く下の階はない\n・各階平面図に方位は書かない',
-            ha='left', va='center', fontsize=10.5, color=GRAY, linespacing=1.6)
-    assert round(area(dd) / (k * k), 4) == 49.2284
-    fig.text(0.5, 0.012, '答案用紙の形式は未発表のため、枠は令和7年度の第3欄にならった仮の形。辺長は小数第2位まで（問題文の注4）',
-             ha='center', va='bottom', fontsize=11)
-    save(fig, [z], 'R8_dai22mon_zu13_kakukai_heimenzu')
+    """各階平面図の完成形（答案用紙の第3欄の左半分）。"""
+    sheet3('各階平面図の完成形（答案用紙の第3欄の左半分・縮尺1/250の実際の大きさ）', 'left', 'R8_dai22mon_zu13_kakukai_heimenzu')
 
 
 # ======================================================================
@@ -686,7 +706,7 @@ def zu14():
             linespacing=1.4)
     ax.text(74.5, 29, '抵当権者の承諾を証する情報を提供\n（不動産登記法第54条第3項で準用する第40条）', ha='center', va='center',
             fontsize=13, linespacing=1.4)
-    ax.text(50, 10, '添付書類に「抵当権消滅承諾証明書」（蓮の花銀行の承諾書）を入れる。区分するだけなら承諾は要らない',
+    ax.text(50, 10, '添付書類に「抵当権消滅承諾書」（蓮の花銀行の承諾書）を入れる。区分するだけなら承諾は要らない',
             ha='center', va='center', fontsize=15, weight='bold')
     fig.text(0.5, 0.045, '買主の安田結さんは、抵当権の付いていないEタイプを買える。Dタイプには1番抵当権が残る', ha='center', va='center',
              fontsize=14)
@@ -724,11 +744,11 @@ def zu15():
 # ======================================================================
 
 def zu16():
-    fig, ax = fixed_figure('問4　規約証明書は「集会の議事録」か「全員の書面による合意」', w=18, h=10.5,
+    fig, ax = fixed_figure('問4　規約証明書は「集会の議事録」か「全員の合意書」', w=18, h=10.5,
                            rect_=(0.02, 0.09, 0.96, 0.79))
     cols = [(1, GREEN, 'イ　議事録', ['区分所有者集会で規約を設定', '（第31条第1項の特別決議）', '議長と出席した区分所有者2人が署名',
                                          '（第42条第1項・第3項）']),
-            (34, GREEN, 'ウ　書面による合意', ['区分所有者全員の書面又は', '電磁的方法による合意', '→ 書面による決議があった',
+            (34, GREEN, 'ウ　合意書', ['区分所有者全員の書面又は', '電磁的方法による合意', '→ 書面による決議があった',
                                               'ものとみなす（第45条第2項）']),
             (67, RED, '本問では使えない：公正証書', ['最初に専有部分の全部を', '所有する者が設定する規約', '（第32条。分譲前の',
                                                    '分譲業者など）'])]

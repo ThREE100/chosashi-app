@@ -11,16 +11,20 @@ body { background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMi
 .plainrow .ryaku { flex: 1; text-align: center; }
 .date { font-size: 23px; margin: 0 0 22px 170px; }
 table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-bottom: 26px; }
-table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 10px; vertical-align: middle; line-height: 1.5; }
+table.t td { border: 1.5px solid #111; font-size: 17px; padding: 8px 10px; vertical-align: middle; line-height: 1.5; }
 table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.12em; padding: 0 4px; font-size: 19px; }
 table.t td.head { text-align: center; font-size: 18px; height: 60px; }
 table.t td.e { height: 92px; }
 table.t td.c { text-align: center; }
-table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
-table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
+table.t td.int { vertical-align: bottom; text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
+table.t td.dec { vertical-align: bottom; text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
 table.t td .ink { font-size: 20px; }
 table.t td.g .ink { font-size: 18px; }
 .note { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 16px; color: #555; margin: -16px 0 22px; }
+td.note2 { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 14px !important; color: #555; }
+.ryk { color: #888; font-size: 15px; }
+.ranlab { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; font-size: 24px; margin-bottom: 14px; }
+.colsep { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; color: #888; font-size: 16px; border-top: 2px dashed #aaa; padding-top: 6px; margin: 10px 0 18px; }
 .caption { text-align: center; font-size: 17px; color: #555; margin-top: 24px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
 .panel { padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }
 .ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold; margin-bottom: 20px; }
@@ -34,7 +38,7 @@ table.t td.g .ink { font-size: 18px; }
 .good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
 .tall { min-height: 1300px; display: flex; flex-direction: column; justify-content: space-around; }
 </style></head><body><div class="tall">
-<div class="panel"><div class="ptitle ng">①誤答（添付書類）</div><div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:110px"><span class="ink">建物図面　各階平面図　登記識別情報　印鑑証明書<br>規約証明書　代理権限証書</span></div></div></div>
-<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:110px"><span class="ink">建物図面　各階平面図　</span><span class="ink strike">登記識別情報　印鑑証明書</span><br><span class="ink">規約証明書　</span><span class="red">抵当権消滅承諾証明書</span><span class="ink">　代理権限証書</span></div></div><div class="bubrow"><span class="bubble">区分は表示に関する登記で、登記識別情報・印鑑証明書は要らない。<br>Eタイプの1番抵当権を消すには、蓮の花銀行の承諾書が要る（法第54条第3項・第40条）</span></div></div>
-<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div><div class="row"><div class="lab">添　付　書　類</div><div class="box good" style="min-height:110px"><span class="ink">建物図面　各階平面図　規約証明書<br>抵当権消滅承諾証明書　代理権限証書</span></div></div></div>
+<div class="panel"><div class="ptitle ng">①誤答（添付書類）</div><div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:96px"><span class="ink">建物図面　各階平面図　登記識別情報　印鑑証明書<br>規約証明書　代理権限証書</span></div></div></div>
+<div class="panel"><div class="ptitle fix">②添削（赤ペン）</div><div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:96px"><span class="ink">建物図面　各階平面図　</span><span class="ink strike">登記識別情報　印鑑証明書</span><br><span class="ink">規約証明書　</span><span class="red">抵当権消滅承諾書</span><span class="ink">　代理権限証書</span></div></div><div class="bubrow"><span class="bubble">区分は表示に関する登記で、登記識別情報・印鑑証明書は要らない。<br>Eタイプの1番抵当権を消すには、蓮の花銀行の承諾書が要る（法第54条第3項・第40条）</span></div></div>
+<div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div><div class="row"><div class="lab">添　付　書　類</div><div class="box good" style="min-height:96px"><span class="ink">規約証明書　建物図面　各階平面図<br>抵当権消滅承諾書　代理権限証書</span></div></div></div>
 <div class="caption" style="margin:10px 0 30px">令和8年度 第22問｜要らない2つを消して、抵当権の承諾書を足す</div></div></body></html>
