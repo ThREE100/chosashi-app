@@ -1,8 +1,8 @@
-"""令和8年度 第21問（土地）会話形式note記事の解説図21枚を、座標値から作図する。
+"""令和8年度 第21問（土地）会話形式note記事の解説図24枚を、座標値から作図する。
 
 `../prompt_R8_dai21mon_kaiwa_kaisetsuzu.md`（基本フォーム `../../../prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作成）
 の指示を、そのままPythonにしたもの。図に書く数値はすべて座標から計算し直し、記事の数値と一致しなければ止まる。
-PNG名の番号（zu01〜zu21）は記事の挿入順の管理用で、画像の中のタイトルには図番を入れない。
+PNG名の番号（zu01〜zu24）は記事の挿入順の管理用で、画像の中のタイトルには図番を入れない。
 第5欄の地積測量図の枠は、アガルートの解答例（2026-10-20受領）に再現された答案用紙の第5欄の形（令和7年度の第3欄と同じ形）。
 
 実行: python3 note-articles-Kijyutsu/R8/Q21/zu/draw_R8_dai21mon_kaisetsuzu.py [出力フォルダ]
@@ -438,7 +438,7 @@ z.point(Cw, 'dot', color=GRAY)
 z.callout(Cw, '誤り（452.72, 506.61）\n反時計回りに引いた点', dirs=(180, 160, -160), color=GRAY, dists=(70, 90, 110))
 z.edge_label(T2, C, '29.03', centroid(OTSU), color=RED, fs=15, dists=(16, 22))
 z.callout(T2 + P(2.5, 3.2), '90°04′40″', dirs=(0, 30, -30), color=RED, dists=(40, 60, 80), fs=14)
-ALL += save(fig, [z], 'R8_dai21mon_zu16_C_housha.png')
+ALL += save(fig, [z], 'R8_dai21mon_zu18_C_housha.png')
 
 # ---- zu17：本件登記2は3筆 ----
 fig, (ax1, ax2) = new_figure('問5　本件登記2は3筆への分筆（離れた2つの三角形は1筆にできない）',
@@ -469,7 +469,7 @@ for ax, ok in [(ax1, False), (ax2, True)]:
         z.point(globals()[n], 'dot')
         z.point_label(globals()[n], n, away=centroid(URI))
     zs.append(z)
-ALL += save(fig, zs, 'R8_dai21mon_zu17_sanpitsu.png')
+ALL += save(fig, zs, 'R8_dai21mon_zu19_sanpitsu.png')
 
 # ---- zu18：新しい地番 ----
 fig, (ax,) = new_figure('問5　新しい地番は面積の大きい順（問題文の注7）',
@@ -487,7 +487,7 @@ z.callout(centroid(S59), '2番59\nD・J・K　4.02㎡', dirs=(180, 160, -160), c
 for n in ['D', 'J', 'K', 'L', 'M', 'H', 'C', 'B']:
     z.point(globals()[n], KUI[n])
     z.point_label(globals()[n], n, away=centroid(URI))
-ALL += save(fig, [z], 'R8_dai21mon_zu18_chiban.png')
+ALL += save(fig, [z], 'R8_dai21mon_zu20_chiban.png')
 
 # ---- zu19：I点は描かない ----
 fig, (ax1, ax2) = new_figure('問5　地積測量図に描くのは、11月の分筆前の2番42（I点は描かない）',
@@ -517,7 +517,7 @@ for ax, ok in [(ax1, False), (ax2, True)]:
             z.point(globals()[n], 'dot')
             z.point_label(globals()[n], n, away=centroid(URI))
     zs.append(z)
-ALL += save(fig, zs, 'R8_dai21mon_zu19_I_egakanai.png')
+ALL += save(fig, zs, 'R8_dai21mon_zu21_I_egakanai.png')
 
 # ---- zu20：第5欄 地積測量図の完成見本（解答例に再現された答案用紙の第5欄の形） ----
 setup_font()
@@ -608,7 +608,7 @@ z.free_text(D, '2－18', fs=14, offsets=((-40, 22), (-50, 10), (-30, 34), (-60, 
 z.free_text(B, '2－55', fs=14, offsets=((36, -24), (46, -12), (30, -36), (56, 0)))
 z.free_text(P(500.0, 471.5), '（単位：ｍ）\n◎ コンクリート杭：D・C・H・K・L・M\n● 金属標：B・J\n△ 基準点：T1・T2', fs=12,
             ha='left', va='top', offsets=((0, 0), (0, -20), (20, 0), (0, -40)))
-ALL += save(fig, [z], 'R8_dai21mon_zu20_chiseki_sokuryouzu.png')
+ALL += save(fig, [z], 'R8_dai21mon_zu23_chiseki_sokuryouzu.png')
 
 # ---- zu21：本番で解く順番 ----
 fig, ax = board(12, '本番で解く順番　K点がなくても書ける欄を先に')
@@ -628,6 +628,76 @@ for i, (head, body, ec) in enumerate(STEPS):
         arrow(ax, 50, y - 6.8, 50, y - 11.0)
 fig.text(0.5, 0.04, '青：K点がなくても書ける　／　橙：K点が要る。K点と作図で手間取っても、青の欄の点は先に取っておける',
          ha='center', va='center', fontsize=16)
-put_board(fig, 'R8_dai21mon_zu21_kaku_junban.png')
+put_board(fig, 'R8_dai21mon_zu24_kaku_junban.png')
+
+
+# =====================================================================
+# 2026-10-20追加（解答例との照合で直した会話に合わせた図。画像の中に図番は入れない）
+#   zu16 （ロ）の原因は「分割して」、zu17 変わらない地目の欄、zu22 隣接地は角で接する2－18・2－55も
+# =====================================================================
+
+# ---- zu16：（ロ）の原因は「分割して」 ----
+fig, ax = board(10, '問3　（ロ）の原因は「2番19から分割して2番42に合併する部分」')
+rbox(ax, 1, 50, 48, 42, '分筆（11月の本件登記2の2番58・2番59）',
+     '分けた土地ごとに地番と登記記録が作られる\n（不動産登記規則第101条第1項）\n→ 新しい行の原因は「2番42から分筆」\n　1筆として登記記録が残る', GRAY)
+rbox(ax, 51, 50, 48, 42, '分合筆の（ロ）（8月の本件登記1の三角形I・K・L）',
+     '地番も登記記録も作られず、すぐ2番42に入る\n（一度も1筆にならない）\n→ 原因は「2番19から分割して\n　2番42に合併する部分」', RED)
+rbox(ax, 1, 3, 98, 40, '申請書の土地の表示（3行目）',
+     '①地番：（ロ）（符号だけ）　②地目：書かない　③地積：21.15\n'
+     '登記原因：「2番19から分割して2番42に合併する部分」（「分筆して」と書かない）\n'
+     '同じ書き方の年度：令和2年度（32番5から分割して32番4に合併する部分）・平成28年度（40番2から分割して32番1に合併する部分）', BLUE)
+put_board(fig, 'R8_dai21mon_zu16_bunkatsu.png')
+
+# ---- zu17：変わらない地目の欄 ----
+fig, ax = board(10, '問3　分合筆で変わるのは地番・地積・原因　地目は宅地のまま')
+ROWS2 = [('1行目', '2番19', '宅地', '413.30', '（空欄）'),
+         ('2行目', '（イ）2番19', '宅地（空欄でもよい）', '392.17', '③2番42に一部合併'),
+         ('3行目', '（ロ）', '（書かない）', '21.15', '2番19から分割して2番42に合併する部分'),
+         ('4行目', '2番42', '宅地', '344.84', '（空欄）'),
+         ('5行目', '2番42', '宅地（空欄でもよい）', '365.99', '③2番19から一部合併')]
+xs2 = [1, 10, 25, 45, 59]
+ws2 = [9, 15, 20, 14, 40]
+for j, hd in enumerate(['行', '①地番', '②地目', '③地積', '登記原因及びその日付']):
+    ax.add_patch(Rectangle((xs2[j], 84), ws2[j], 9, facecolor='#eeeeee', edgecolor=BLACK, lw=1.2))
+    ax.text(xs2[j] + ws2[j] / 2, 88.5, hd, ha='center', va='center', fontsize=15, weight='bold')
+for i, row in enumerate(ROWS2):
+    y = 84 - (i + 1) * 11
+    for j, t in enumerate(row):
+        fc = '#eef7ee' if (j == 2 and i in (1, 4)) else 'white'
+        ax.add_patch(Rectangle((xs2[j], y), ws2[j], 11, facecolor=fc, edgecolor=BLACK, lw=1.0))
+        col = GREEN if (j == 2 and i in (1, 4)) else (RED if j in (3, 4) and i in (1, 2, 4) else BLACK)
+        ax.text(xs2[j] + ws2[j] / 2, y + 5.5, t, ha='center', va='center', fontsize=12.5, color=col,
+                weight=('bold' if col != BLACK else 'normal'))
+ax.text(50, 20, '赤：分合筆で変わる欄（地積・原因）。緑：変わらない地目。宅地と書いても空欄にしても、中身は同じ宅地', ha='center',
+        va='center', fontsize=14.5, weight='bold')
+ax.text(50, 11, '予備校の解答例は2行目・5行目の地目を空欄にしている（この記事の完成形は「宅地」と記入）。\n'
+        '大事なのは、変わる地番・地積・原因を1つも落とさないこと', ha='center', va='center', fontsize=14, linespacing=1.6)
+put_board(fig, 'R8_dai21mon_zu17_chimoku_ran.png')
+
+# ---- zu22：隣接地は角で接する2－18・2－55も ----
+DN, BE_ = D + P(4.0, 0.0), B + P(0.0, 5.0)     # 隣地の境界線の延長（位置は模式）
+fig, (ax,) = new_figure('問5　隣接地の地番は、角（点）で接する2－18・2－55も書く',
+                        '辺で接するのは2－41（北）・2－43（東）・2－56と2－57（南）・2－19（西）。D点は2－18の南東の角、B点は2－55の北西の角とも接している。\n'
+                        'D点から北・B点から東へ延ばした隣地どうしの境界線（細い灰色）の位置は模式。')
+z = Zu(ax)
+fit(ax, [D, C, B, H, L, K, M, J, E, A, DN, BE_, F], margin=0.06, pad_aspect=True)
+z.poly(OTSU1, lw=2.2, fill=BLUE)
+for p, q in [(E, D), (D, DN), (B, BE_), (B, A), (F, H)]:
+    z.line(p, q, color=GRAY, lw=1.2)
+z.north_arrow()
+for n in ['D', 'C', 'B', 'H', 'L', 'K', 'M', 'J']:
+    z.point(globals()[n], 'dot', color=(RED if n in 'DB' else BLACK))
+    z.point_label(globals()[n], n, away=centroid(OTSU1), color=(RED if n in 'DB' else BLACK))
+z.free_text(centroid(OTSU1), '2番42\n（11月の分筆前）', fs=16)
+z.free_text(D + P(2.0, -4.0), '2－18', fs=16, color=RED, offsets=((0, 0), (-20, 10), (0, 20)))
+z.free_text(B + P(-1.5, 3.0), '2－55', fs=16, color=RED, offsets=((0, 0), (20, -10), (0, -20)))
+z.free_text((D + C) / 2 + P(2.2, 0), '2－41', fs=15)
+z.free_text((C + B) / 2 + P(0, 3.0), '2－43', fs=15)
+z.free_text((B + M) / 2 + P(-1.8, 0), '2－56', fs=15)
+z.free_text((M + H) / 2 + P(-1.8, -0.8), '2－57', fs=15)
+z.free_text((K + L) / 2 + P(0, -4.0), '2－19', fs=15)
+z.callout(D, '点で接する', dirs=(150, 170, 130), color=RED, dists=(70, 90, 110), fs=14)
+z.callout(B, '点で接する', dirs=(-30, -10, -50), color=RED, dists=(70, 90, 110), fs=14)
+ALL += save(fig, [z], 'R8_dai21mon_zu22_rinsetsu.png')
 
 print('重なりの合計:', len(ALL))
