@@ -173,7 +173,7 @@ for w in ['PDF', '✕', '✓', '名変', 'コンクリートくい', '図1']:
 
 # ---- lint と キー列の再現 ----
 res = simulate(os.path.join(HERE, ART))
-judge(f'キー列の再現（表示 {len(res)}個）すべて一致', len(res) == 16 and all(ok for *_, ok in res))
+judge(f'キー列の再現（表示 {len(res)}個）すべて一致', len(res) == 19 and all(ok for *_, ok in res))
 import io
 import contextlib
 buf = io.StringIO()
@@ -186,14 +186,16 @@ markers = [l for l in text.splitlines() if l.startswith('> 【画像挿入】')]
 MAP = [('時系列の図', 'zu01_jikeiretsu'), ('北を上にして', 'zu02_zentaizu'), ('注の仕分け', 'zu03_chuu_shiwake'),
        ('不動産登記規則第72条第1項の整理図', 'zu04_kisoku72_1'), ('本人確認の書類', 'zu05_shorui'), ('第1欄', 'dai1ran_kansei'),
        ('L点の求め方', 'zu06_L_ten'), ('K点の求め方', 'zu07_K_ten'), ('第2欄', 'dai2ran_kansei'),
-       ('申請件数と登録免許税', 'zu08_kensuu'), ('合筆の制限', 'zu09_goppitsu_seigen'), ('本件登記1と本件登記2の地積測量図の範囲', 'zu10_chiseki_hani_8gatsu'),
-       ('甲土地の公差', 'zu11_kousa'), ('（イ）2番19の地積', 'zu12_i_chiseki'), ('合筆後の2番42', 'zu13_gappei_go'),
-       ('申請人の住所', 'zu14_juusho'), ('甲区の持分', 'zu15_kouku_mochibun'), ('「添付書類」欄の誤答', 'toukishinseisho_machigai'),
-       ('（ロ）の原因の書き方', 'zu16_bunkatsu'), ('分合筆で変わる欄', 'zu17_chimoku_ran'),
-       ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('C点の求め方', 'zu18_C_housha'), ('第4欄', 'dai4ran_kansei'),
-       ('本件登記2の分筆', 'zu19_sanpitsu'), ('新しい地番', 'zu20_chiban'), ('地積測量図に描く範囲', 'zu21_I_egakanai'),
-       ('隣接地の地番の図', 'zu22_rinsetsu'),
-       ('第5欄の地積測量図', 'zu23_chiseki_sokuryouzu'), ('本番で解く順番', 'zu24_kaku_junban')]
+       ('条件の数え方', 'zu08_K_jouken'), ('補助線で交点の式を作り直す', 'zu09_K_hojosen'), ('5つの型の表', 'zu10_K_pattern'),
+       ('手が止まったときの手順', 'zu11_K_mayottara'),
+       ('申請件数と登録免許税', 'zu12_kensuu'), ('合筆の制限', 'zu13_goppitsu_seigen'), ('本件登記1と本件登記2の地積測量図の範囲', 'zu14_chiseki_hani_8gatsu'),
+       ('甲土地の公差', 'zu15_kousa'), ('（イ）2番19の地積', 'zu16_i_chiseki'), ('合筆後の2番42', 'zu17_gappei_go'),
+       ('申請人の住所', 'zu18_juusho'), ('甲区の持分', 'zu19_kouku_mochibun'), ('「添付書類」欄の誤答', 'toukishinseisho_machigai'),
+       ('（ロ）の原因の書き方', 'zu20_bunkatsu'), ('分合筆で変わる欄', 'zu21_chimoku_ran'),
+       ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('C点の求め方', 'zu22_C_housha'), ('第4欄', 'dai4ran_kansei'),
+       ('本件登記2の分筆', 'zu23_sanpitsu'), ('新しい地番', 'zu24_chiban'), ('地積測量図に描く範囲', 'zu25_I_egakanai'),
+       ('隣接地の地番の図', 'zu26_rinsetsu'),
+       ('第5欄の地積測量図', 'zu27_chiseki_sokuryouzu'), ('本番で解く順番', 'zu28_kaku_junban')]
 judge(f'マーカーの数 {len(markers)}（{len(MAP)}）', len(markers) == len(MAP))
 for mk, (head, png) in zip(markers, MAP):
     judge(f'マーカー「{head}」→ zu/R8_dai21mon_{png}.png', head in mk and os.path.exists(os.path.join(HERE, 'zu', f'R8_dai21mon_{png}.png')))
@@ -235,12 +237,24 @@ for trap, figkey, key in TRAPS:
         prev = lines[j]
     judge(f'  図「{figkey}」は「{key}」の会話の直後', bool(idx) and key in prev)
 
+# ---- K点に全く手が出なかった人への節（2026-10-20追加） ----
+ksec = text[text.index('### K点に全く手が出なかった人へ'):text.index('## 第4章')]
+for s_ in ['調査図素図の注4', '条件の数を数える', '芋づる', 'K ← L ← H・I・M', '補助線', '7.0977 ＋ 21.6825i', '231.3162 − 67.3118i',
+           '21.6825 ＋ 67.3118 ＝ 88.9943', '2直線の交点', '直線上で決まった距離', '平行で決まった幅だけ離れた直線', '垂線の足', '面積の条件',
+           '令和3年度のH点', '平成30年度のI点', '平成28年度のJ点', '平成24年度のK点', '平成22年度のK点', '令和5年度のB点・H点', '平成29年度のH点・I点',
+           '令和元年度のG点', '平成20年度のF点', '平成24年度のL点', '平成21年度のJ点', '令和7年度の2等分', 't ＝ 0.24', '0.37', '10分']:
+    judge(f'K点の節に「{s_}」', s_ in ksec)
+_D, _J, _I, _L = P(510.78, 490.69), P(510.78, 492.46), P(498.53, 494.70), P(492.10, 491.31)
+judge('高さの比の値（21.6825・−67.3118、和88.9943、K一致）',
+      disp((_J - _D).conjugate() * (_I - _D)) == '7.0977 ＋ 21.6825i' and disp((_L - _D).conjugate() * (_I - _D)) == '231.3162 − 67.3118i'
+      and disp(_J + (_L - _J) * 21.6825 / (21.6825 + 67.3118)) == '506.2288… ＋ 492.1798…i')
+
 # ---- 解説図プロンプト ----
 a = base.index('あなたは土地家屋調査士試験の教材デザイナーです。')
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + title[2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-judge('解説図プロンプトの図の数 24枚', len(re.findall(r'^- \*\*図\d+：', fig, re.M)) == 24)
+judge('解説図プロンプトの図の数 28枚', len(re.findall(r'^- \*\*図\d+：', fig, re.M)) == 28)
 for s in ['（506.23, 492.18）', '（510.78, 506.79）', '（492.10, 491.31）', '392.1763', '21.1533', '365.99', '352.29', '9.64', '4.02',
           '14.16（14.1567…）', '位置は模式']:
     check('解説図プロンプトの数値', s, fig, '解説図')
@@ -286,7 +300,8 @@ judge('地積測量図の枠の書式（第5欄・地番・土地の所在・地
 
 # ---- 動画化の準備（douga/：計算過程のコマ・絵コンテ・試作の動画） ----
 DOUGA = {'D01_C_housha': 7, 'D02_L_ten': 6, 'D03_K_kouten': 8, 'D04_kou_menseki': 8, 'D05_ro_sankaku': 4,
-         'D06_i_menseki': 9, 'D07_gappei_go': 4, 'D08_sanpitsu_menseki': 12, 'D09_henchou': 12}
+         'D06_i_menseki': 9, 'D07_gappei_go': 4, 'D08_sanpitsu_menseki': 12, 'D09_henchou': 12,
+         'D10_K_hojosen': 9}
 ddir = os.path.join(HERE, 'douga')
 kontei = open(os.path.join(ddir, 'kontei_R8_dai21mon_douga.md'), encoding='utf-8').read()
 for d, n in DOUGA.items():
@@ -296,7 +311,8 @@ for d, n in DOUGA.items():
     judge(f'動画 {d}：絵コンテに{n}ステップ', f'## {d}：' in kontei and f'（{n}コマ）' in kontei.split(f'## {d}：')[1].split('\n## ')[0])
     judge(f'動画 {d}.mp4 がある', os.path.getsize(os.path.join(ddir, d + '.mp4')) > 10000)
 for s in ['510.7797… ＋ 506.7900…i', '492.10 ＋ 491.3098…i', '−7.0977 − 21.6825i', '224.2185 − 88.9943i', '506.2288… ＋ 492.1798…i',
-          '826.65', '21.1533', '392.17', '344.84 ＋ 21.15', '352.29', '9.64', '4.02', '14.1567…', '（452.72, 506.61）', '（491.40, 490.94）', '（505.37, 492.46）']:
+          '826.65', '21.1533', '392.17', '344.84 ＋ 21.15', '352.29', '9.64', '4.02', '14.1567…', '（452.72, 506.61）', '（491.40, 490.94）', '（505.37, 492.46）',
+          '7.0977 ＋ 21.6825i', '231.3162 − 67.3118i', '21.6825 ÷ (21.6825 ＋ 67.3118)']:
     judge(f'絵コンテに記事と同じ値：{s}', s in kontei)
 for s in ['510.7797… ＋ 506.7900…i', '492.10 ＋ 491.3098…i', '506.2288… ＋ 492.1798…i', '392.17', '352.29']:
     judge(f'記事にも同じ値：{s}', s in text)

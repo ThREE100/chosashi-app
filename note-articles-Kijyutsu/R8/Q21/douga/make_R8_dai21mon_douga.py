@@ -476,6 +476,52 @@ ANIMS.append(dict(id='D09_henchou', title='問5　地積測量図の辺長10本'
                   view=view([D, C, B, Hp, K, L], margin=0.10), base=nothing, steps=d09_steps))
 
 
+# D10：K点の別解（補助線で高さの比。2026-10-20追加、記事の「K点に全く手が出なかった人へ」）
+UDI = (I - D) / abs(I - D)
+FJ = D + UDI * ((J - D) / UDI).real
+FL = D + UDI * ((L - D) / UDI).real
+DIe0, DIe1 = D + (D - I) * 0.12, FL + (FL - D) / abs(FL - D) * 1.2
+TJ, TL = ((J - D).conjugate() * (I - D)).imag, ((L - D).conjugate() * (I - D)).imag
+assert disp((J - D).conjugate() * (I - D)) == '7.0977 ＋ 21.6825i' and disp((L - D).conjugate() * (I - D)) == '231.3162 − 67.3118i'
+assert disp(J + (L - J) * 21.6825 / (21.6825 + 67.3118)) == '506.2288… ＋ 492.1798…i'
+assert f'{abs(J - FJ):.2f}' == '1.68' and f'{abs(L - FL):.2f}' == '5.22'
+ctr10 = K + P(0, -3)
+ANIMS.append(dict(
+    id='D10_K_hojosen', title='問2　K点の別解（DIを延ばし、J・Lから垂線を下ろす）', article='第3章（K点に全く手が出なかった人へ）',
+    view=view([D, J, I, L, FJ, FL, DIe0, DIe1], margin=0.08),
+    base=nothing,
+    steps=[
+        S('直線DIと点J・L', ['KはJL上、かつDI上（調査図素図の注4）', '交点の式を忘れたら、図に戻る', '電卓：B＝L、C＝I、D＝D、F＝J'], 7,
+          '交点の式を忘れたときは、図に戻ります。直線DIと、JとLの2点を描きます。',
+          lambda sc: (sc.line(D, I, lw=2.4), sc.dot(D, 'concrete'), sc.dot(I, 'concrete'), sc.dot(J, 'metal'), sc.dot(L),
+                      sc.name(D, 'D', D + P(0.3, 3)), sc.name(I, 'I', I + P(0.3, -3)), sc.name(J, 'J', ctr10), sc.name(L, 'L', ctr10))),
+        S('補助線：DIを延ばす', ['問題用紙の図は線がIで切れている', 'DIを両側に延ばしておく'], 6,
+          '補助線として、直線DIを両側に長く延ばします。問題用紙の図では、線がIで切れているからです。',
+          lambda sc: (sc.line(DIe0, DIe1, lw=1.4, ls='--'),)),
+        S('Jから垂線（高さ1.68）', ['JからDIへ垂線を下ろす', 'DIからJまでの高さ 1.68'], 6,
+          'JからDIへ垂線を下ろします。DIからJまでの高さは1.68です。',
+          lambda sc: (sc.line(J, FJ, lw=1.8, ls=':'), sc.callout((J + FJ) / 2, '高さ1.68', dirs=(60, 80, 40, 100), dists=(50, 70, 90), fs=12))),
+        S('Lから垂線（高さ5.22）', ['LからDIの延長へ垂線を下ろす', 'DIからLまでの高さ 5.22', 'JとLはDIの反対側'], 7,
+          'Lからも、DIの延長へ垂線を下ろします。高さは5.22。JとLは、DIの線の反対側にあります。',
+          lambda sc: (sc.line(L, FL, lw=1.8, ls=':'), sc.edge(L, FL, '高さ5.22', I, fs=12))),
+        S('JLを結ぶと相似', ['JK：KL ＝ Jの高さ：Lの高さ', '垂線どうしは平行 → 相似な直角三角形', '高さは三角形の面積で比べる'], 8,
+          'JとLを結ぶと、相似な直角三角形が2つできます。JKとKLの比は、高さの比です。高さは三角形の面積で比べます。',
+          lambda sc: (sc.line(J, L, lw=2.2),)),
+        S('△DIJの面積の2倍', ['Conjg(J − D) × (I − D)', '表示：7.0977 ＋ 21.6825i', 'iの係数 ＋21.6825'], 8,
+          '三角形DIJの面積の2倍は、共役のJマイナスDかけるIマイナスDのiの係数で、プラス21.6825です。',
+          lambda sc: (sc.poly([D, I, J], lw=1.0, fill=ORANGE),)),
+        S('△DILの面積の2倍', ['Conjg(L − D) × (I − D)', '表示：231.3162 − 67.3118i', 'iの係数 −67.3118（符号が逆）'], 8,
+          '三角形DILの面積の2倍は、iの係数がマイナス67.3118。符号が逆なのは、LがDIの反対側にあるからです。',
+          lambda sc: (sc.poly([D, I, L], lw=1.0, fill=BLUE),)),
+        S('t ＝ J側 ÷ 両側の合計', ['t ＝ 21.6825 ÷ (21.6825 ＋ 67.3118)', '＝ 21.6825 ÷ 88.9943 ＝ 0.2436…', '分母は交点の式と同じ88.9943'], 8,
+          'tは、J側の21.6825を、両側の合計88.9943で割った0.2436。分母は、交点の式の分母と同じ数です。',
+          lambda sc: ()),
+        S('K ＝ J ＋ (L − J) × t', ['表示：506.2288… ＋ 492.1798…i', '▶ K点（506.23, 492.18）', '交点の式と同じ答え'], 8,
+          'JにLマイナスJのt倍を足して、K点は506.23、492.18。交点の式と同じ答えになりました。',
+          lambda sc: (sc.dot(K), sc.callout(K, 'K（506.23, 492.18）', dirs=(-150, -170, -130), dists=(80, 100, 120), fs=12))),
+    ]))
+
+
 # ---- 実行 -----------------------------------------------------------------
 def main():
     total_probs = 0
