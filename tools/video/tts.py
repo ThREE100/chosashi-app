@@ -33,15 +33,84 @@ def yomi_dict() -> list[tuple[str, str]]:
     return _YOMI
 
 
-def to_reading(text: str) -> str:
-    s = text
-    for k, v in yomi_dict():
-        s = s.replace(k, v)
+LETTERS = dict(zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ", [
+    "エー", "ビー", "シイ",  # 「シー」だと前の語によって「スィー」と読まれる
+    "ディー", "イー", "エフ", "ジー", "エイチ", "アイ", "ジェー", "ケー", "エル", "エム",
+    "エヌ", "オー", "ピー", "キュー", "アール", "エス", "ティー", "ユー", "ブイ", "ダブリュー", "エックス", "ワイ", "ゼット"]))
+
+
+def hira2kata(s: str) -> str:
+    """読みはカタカナにして渡す（ひらがなだと Open JTalk が漢字に直して解析し直し、「はちいち」を「八一＝ハチジューイチ」と読む）。"""
+    return "".join(chr(ord(c) + 0x60) if "ぁ" <= c <= "ゖ" else c for c in s)
+
+
+def _apply(s: str, pairs) -> str:
+    for k, v in sorted(pairs, key=lambda kv: -len(kv[0])):
+        s = s.replace(k, hira2kata(v))
+    return s
+
+
+def to_reading(text: str, local: dict | None = None) -> str:
+    """字幕の文字列を、音声合成に渡す読みの文字列にする。
+    local＝その場面だけの読み（台本の beat の "yomi"）→ yomi_dict.json → 記号・角度・アルファベットの自動変換、の順。"""
+    s = _apply(text, (local or {}).items())
+    s = _apply(s, yomi_dict())
+    # 全角の英数字を半角に
+    s = s.translate({c: c - 0xFEE0 for c in range(ord("Ａ"), ord("ｚ") + 1)} | {c: c - 0xFEE0 for c in range(ord("０"), ord("９") + 1)})
+    # 角度：325°06′51″ も 325度06分51秒 も「サンビャクニジューゴド ロップン ゴジューイチビョー」に（頭の0を読まない）
+    s = re.sub(r"(\d+)°(\d+)′([\d.]+)″", r"\1度\2分\3秒", s)
+    s = re.sub(r"(\d+)°", r"\1度", s)
+    s = re.sub(r"(?<=度)0(\d)(?=分)", r"\1", s)
+    s = re.sub(r"(?<=分)0(\d)(?=[.\d]*秒)", r"\1", s)
     # 記号の読み
-    s = s.replace("＝", "イコール").replace("→", "から").replace("〜", "から")
-    s = re.sub(r"[「」『』（）()【】]", "、", s)
+    s = s.replace("＝", "イコール").replace("→", "から").replace("〜", "から").replace("−", "マイナス")
+    s = re.sub(r"[「」『』（）()【】\[\]]", "、", s)
+    # 「問1」は前の語によって「トエイチ」と読まれるので、カタカナにしておく
+    s = re.sub(r"問(?=\d)", "トイ", s)
+    # アルファベット（点名・略語）は1文字ずつ名前で読む。辞書に入れた語（F-789SG など）はすでにカタカナになっている
+    s = re.sub(r"[A-Za-z]", lambda m: LETTERS[m.group().upper()], s)
     s = re.sub(r"、{2,}", "、", s).strip("、")
     return s
+
+
+# 間（ま）の長さ（秒）。文の終わり・沈黙の記号・手で入れる区切りの記号で、音声をいったん切ってすき間を入れる。
+PAUSES = [
+    (r"(?:……|…|・・・|‥|――|—)+", 0.65),   # 言いよどみ・沈黙
+    (r"\|\|", 0.7),                          # 手で入れる長い間（yomi に「||」と書く）
+    (r"\|", 0.3),                             # 手で入れる短い間（yomi に「|」と書く）
+    (r"(?<=[。．])", 0.35),                   # 文の終わり
+    (r"(?<=[！？!?])", 0.4),                  # 感嘆・疑問の終わり
+]
+
+
+def segments(reading: str) -> list[tuple[str, float]]:
+    """読みの文字列を、(読み上げる部分, その後の間の秒数) の並びに分ける。"""
+    pat = "|".join(f"({p})" for p, _ in PAUSES)
+    out, pos = [], 0
+    for m in re.finditer(pat, reading):
+        if m.start() == m.end() and m.start() == pos and out:
+            continue
+        sec = next(PAUSES[i][1] for i, g in enumerate(m.groups()) if g is not None)
+        part = reading[pos:m.start()]
+        if part.strip("、 　"):
+            out.append((part.strip("、 　"), sec))
+        elif out:  # 記号が続いたときは、長いほうの間をとる
+            out[-1] = (out[-1][0], max(out[-1][1], sec))
+        pos = m.end()
+    rest = reading[pos:].strip("、 　")
+    if rest:
+        out.append((rest, 0.0))
+    if out:
+        out[-1] = (out[-1][0], 0.0)  # ページの最後の間は、ページの間のすき間に任せる
+    return out
+
+
+def synth_with_pauses(provider, voice_key: str, reading: str):
+    parts = []
+    for text, sec in segments(reading):
+        y, sr = provider.synth(voice_key, text)
+        parts += [y, np.zeros(int(sec * sr), dtype=np.float32)]
+    return (np.concatenate(parts) if parts else np.zeros(int(0.2 * SR), dtype=np.float32)), SR
 
 
 class OpenJTalk:

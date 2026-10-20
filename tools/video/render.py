@@ -180,17 +180,15 @@ class Renderer:
         voice = self.chars[spk]["voice"]
         local_yomi = beat.get("yomi", {})
         for i, page in enumerate(split_pages(beat["text"])):
+            shown = page.replace("|", "")  # 「|」は間の記号。字幕には出さない
             gap = GAP_TURN if (i == 0 and prev_speaker not in (None, spk)) else GAP
-            closed = self.shot(self.state(chapter, stage, spk, page, False))
+            closed = self.shot(self.state(chapter, stage, spk, shown, False))
             self.hold(closed, gap)
             if self.preview:
-                self.hold(closed, max(1.5, len(page) * 0.12))
+                self.hold(closed, max(1.5, len(shown) * 0.12))
                 continue
-            opened = self.shot(self.state(chapter, stage, spk, page, True))
-            reading = page
-            for k, v in sorted(local_yomi.items(), key=lambda kv: -len(kv[0])):
-                reading = reading.replace(k, v)
-            y, sr = self.tts.synth(voice, tts.to_reading(reading))
+            opened = self.shot(self.state(chapter, stage, spk, shown, True))
+            y, sr = tts.synth_with_pauses(self.tts, voice, tts.to_reading(page, local_yomi))
             t0 = self.t
             hop = 1.0 / FPS_MOUTH
             track = mouth_track(y, sr)
@@ -207,7 +205,7 @@ class Renderer:
             rest = len(y) / sr - len(track) * hop
             self.segments.append((run_img or closed, run_len + max(0.0, rest)))
             self.add_audio(y)
-            self.srt.append((t0, self.t, self.chars[spk]["name"], page))
+            self.srt.append((t0, self.t, self.chars[spk]["name"], shown))
         if beat.get("pause"):
             self.hold(self.segments[-1][0], beat["pause"])
 
