@@ -367,7 +367,7 @@ note-articles-Kijyutsu/
     │   └── zu/                                            解説図28枚（zu01〜zu28、画像の中に図番なし）と作図スクリプト draw_R8_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削・第1欄・第2欄・第4欄のPNGとHTMLと生成スクリプト make_R8_dai21mon_shinseisho_gazou.py
     └── Q22/
         ├── note_R8_dai22mon_tatemono_kaisetsu.md           note記事本文（会話形式。自力で解いた後、アガルートの解答例と照合済み）
-        ├── prompt_R8_dai22mon_kaisetsuzu.md                解説図18枚の内容と座標（各階平面図は答案用紙の第3欄の枠の中、建物図面は説明図と記入の完成形に分けて拡大）
+        ├── prompt_R8_dai22mon_kaisetsuzu.md                解説図18枚の内容と座標（各階平面図は答案用紙の第3欄の枠の中、建物図面は拡大した説明図と、答案用紙の右半分＝A4を実寸で描いた記入の完成形）
         ├── prompt_R8_dai22mon_toukishinseisho_gazou.md     登記申請書・第1欄・第4欄の記入データ（欄の形は解答例の答案用紙どおり、（略）の欄にも記入）
         ├── prompt_R8_dai22mon_toukishinseisho_machigai.md  欄ごとの添削5枚（申請人・添付書類・登録免許税・区分した建物の表示の原因・敷地権の原因）
         ├── prompt_R8_dai22mon_miidashi_gazou.md            note見出し画像（サムネイル）作成プロンプト（1280×670px）
