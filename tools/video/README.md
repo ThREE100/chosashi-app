@@ -220,3 +220,14 @@ VOICEVOX は https://voicevox.hiroshiba.jp/ から入れて起動しておくだ
 - **図の読みやすさ**：zu/ の図はnote用（4:3）で文字が小さい。動画用に16:9・大きい文字で描き出す設定を作図スクリプトに足すと見やすくなる。
 - **ショート動画**：同じ台本から縦1080×1920のショート（1つのワナだけ・60秒）を書き出すレイアウト。
 - **択一式**：一問一答ドリル・4コマの肢を「藍子の誤答→トリ先生の訂正」の60秒動画にする。
+
+## ElevenLabs の声を使う（2026-10-21追加）
+
+`render.py <台本> --tts elevenlabs` で、セリフを ElevenLabs の Text to Speech API で読み上げる（口パク・字幕・動画の組み立ては今までどおり）。
+
+1. ElevenLabs でアカウントを作り、API キーを発行する（Settings → API Keys）。**キーはチャットやファイルに書かない。**環境変数 `ELEVENLABS_API_KEY` にだけ設定する。
+   - ローカルPC: `export ELEVENLABS_API_KEY=...`（Windows は環境変数の設定画面）。
+   - クラウドのセッション: 環境の設定で「Allowed domains」に `api.elevenlabs.io` を足し、キーを環境変数（secret）に入れて、新しいセッションを始める。
+2. Voice Library で日本語に合う声を選んで My Voices に追加し、`voices.json` の `elevenlabs.tori.voice_id`・`elevenlabs.aiko.voice_id` に声のIDを書く（`REPLACE_WITH_VOICE_ID` を置き換える）。`stability`（低いほど抑揚が大きい）・`style`・`speed` は聞きながら調整する。
+3. 同じ（声・設定・文）の音声は `voices_cache/elevenlabs/` に保存され、書き出しをやり直しても課金されない。終了時に「課金対象○文字／キャッシュ再利用○文字」を表示する。
+4. ピッチ・語尾の上げ下げは声側に任せる（`intonation`・`fx` は使わない）。読みの辞書（`yomi_dict.json`）・間（`……`・`|`）はそのまま効く。

@@ -469,12 +469,14 @@ class Renderer:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script")
-    ap.add_argument("--tts", choices=["openjtalk", "voicevox"])
+    ap.add_argument("--tts", choices=["openjtalk", "voicevox", "elevenlabs"])
     ap.add_argument("--preview", action="store_true")
     a = ap.parse_args()
     r = Renderer(a.script, a.tts, a.preview)
     r.run()
     print(f"書き出し先: {r.out}（{r.t:.1f}秒）")
+    if r.tts is not None and hasattr(r.tts, "chars_billed"):
+        print(f"ElevenLabs: 今回の課金対象 {r.tts.chars_billed} 文字／キャッシュ再利用 {r.tts.chars_cached} 文字")
 
 
 if __name__ == "__main__":

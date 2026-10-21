@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -259,7 +260,53 @@ class Voicevox:
         return x * v.get("gain", 1.0), SR
 
 
+class ElevenLabs:
+    """ElevenLabs の Text to Speech API。キーは環境変数 ELEVENLABS_API_KEY だけから読む（ファイル・リポジトリには書かない）。
+    同じ（声・モデル・設定・文）の音声は voices_cache/elevenlabs/ に保存して再利用し、書き出しをやり直しても課金されない。
+    ピッチ・語尾の上げ下げは声側に任せる（Open JTalk 用の apply_prosody は使わない）。"""
+
+    URL = "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=pcm_24000"
+
+    def __init__(self, voices: dict):
+        self.voices = voices
+        self.key = os.environ.get("ELEVENLABS_API_KEY")
+        self.cache = os.path.join(HERE, "voices_cache", "elevenlabs")
+        os.makedirs(self.cache, exist_ok=True)
+        self.chars_billed = 0
+        self.chars_cached = 0
+
+    def synth(self, voice_key: str, text: str, ending: str | None = None):
+        import hashlib
+
+        v = self.voices[voice_key]
+        body = {"text": text, "model_id": v.get("model_id", "eleven_multilingual_v2"),
+                "voice_settings": v.get("voice_settings", {})}
+        if v.get("language_code"):
+            body["language_code"] = v["language_code"]
+        h = hashlib.sha256(json.dumps([v["voice_id"], body], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:24]
+        path = os.path.join(self.cache, h + ".pcm")
+        if os.path.exists(path):
+            self.chars_cached += len(text)
+            raw = open(path, "rb").read()
+        else:
+            if not self.key:
+                raise SystemExit("環境変数 ELEVENLABS_API_KEY がありません（キーはチャットやファイルに書かず、環境変数に設定してください）")
+            req = urllib.request.Request(self.URL.format(voice_id=v["voice_id"]), data=json.dumps(body).encode(),
+                                         headers={"xi-api-key": self.key, "Content-Type": "application/json"}, method="POST")
+            try:
+                raw = urllib.request.urlopen(req, timeout=120).read()
+            except urllib.error.HTTPError as e:
+                raise SystemExit(f"ElevenLabs のエラー {e.code}: {e.read().decode('utf-8', 'replace')[:300]}")
+            open(path, "wb").write(raw)
+            self.chars_billed += len(text)
+        x = np.frombuffer(raw, dtype=np.int16).astype(np.float32) / 32768.0
+        x = np.interp(np.linspace(0, len(x), int(len(x) * 2), endpoint=False), np.arange(len(x)), x).astype(np.float32)  # 24k→48k
+        return x * v.get("gain", 1.0), SR
+
+
 def make_provider(name: str, voices: dict):
+    if name == "elevenlabs":
+        return ElevenLabs(voices["elevenlabs"])
     if name == "openjtalk":
         return OpenJTalk(voices["openjtalk"])
     if name == "voicevox":

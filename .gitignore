@@ -29,3 +29,4 @@ __pycache__
 # 一問一答ドリルの記録用worktree（drill-logブランチ）
 .drill-log/
 tools/drill/work/
+tools/video/voices_cache/

@@ -40,5 +40,29 @@
       "_memo": "8=春日部つむぎ ノーマル",
       "intonation": 1.2
     }
+  },
+  "elevenlabs": {
+    "_note": "voice_id は ElevenLabs の Voice Library で選んだ声のID（My Voices に追加してから）。キーは環境変数 ELEVENLABS_API_KEY",
+    "tori": {
+      "voice_id": "REPLACE_WITH_VOICE_ID",
+      "model_id": "eleven_multilingual_v2",
+      "voice_settings": {
+        "stability": 0.4,
+        "similarity_boost": 0.8,
+        "style": 0.3,
+        "use_speaker_boost": true,
+        "speed": 1.05
+      }
+    },
+    "aiko": {
+      "voice_id": "REPLACE_WITH_VOICE_ID",
+      "model_id": "eleven_multilingual_v2",
+      "voice_settings": {
+        "stability": 0.45,
+        "similarity_boost": 0.8,
+        "style": 0.2,
+        "use_speaker_boost": true
+      }
+    }
   }
 }
