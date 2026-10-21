@@ -4,7 +4,7 @@
 - 解答例の答え（KAITOUREI。欄・空欄ごと）が記事・申請書のHTML・付属プロンプトにあること
 - 自分の計算（敷地の辺長・面積、DタイプとEタイプの内法の床面積、登記記録76.16との検算、建物図面の距離、敷地権の割合）
 - 記事に書いた計算式の値と答え
-- 画像挿入マーカー25か所と zu/ のPNG25枚の対応（順番）、まとめのわな→図の対応表（TRAPS）
+- 画像挿入マーカー26か所と zu/ のPNG26枚の対応（順番）、まとめのわな→図の対応表（TRAPS）
 - 付属プロンプト・HTML の記入データが記事と同じか
 - タイトル形式と note 向けの体裁（話者名の行末の半角スペース2つ、同じ話者の連続、区切り線、禁止記号、画像の中の図番）
 実行: python3 note-articles-Kijyutsu/R8/Q22/verify_R8_dai22mon.py
@@ -102,19 +102,20 @@ ok(abs((0.95 * 8.88 + 3.23 * 9.88 + 1.00 * 8.88) - 49.2284) < 1e-9, '解答例�
 
 # ---- 3. マーカーとPNG ----
 ORDER = ['zu01_kubun_bunkatsu', 'zu02_jikeiretsu', 'zu03_chuu_shiwake', 'zu04_dokuritsusei', 'dai1ran_kansei',
-         'zu05_shikichi_henchou', 'zu06_ittensasen', 'zu07_kita_kyori', 'zu08_tatemono_zumen', 'zu09_ps_ayamari',
-         'zu10_D_kyuuseki', 'zu11_E_kyuuseki', 'zu12_kensan', 'zu13_kakukai_heimenzu',
-         'toukishinseisho_machigai_shinseinin', 'toukishinseisho_machigai_tenpu', 'zu14_teitouken',
+         'zu05_shikichi_henchou', 'zu06_ittensasen', 'zu07_kita_kyori', 'zu08_tatemono_zumen_kisai',
+         'zu09_tatemono_zumen_kansei', 'zu10_ps_ayamari',
+         'zu11_D_kyuuseki', 'zu12_E_kyuuseki', 'zu13_kensan', 'zu14_kakukai_heimenzu',
+         'toukishinseisho_machigai_shinseinin', 'toukishinseisho_machigai_tenpu', 'zu15_teitouken',
          'toukishinseisho_machigai_menkyo', 'toukishinseisho_machigai_genin', 'toukishinseisho_machigai_shikichiken',
-         'zu15_wariai', 'toukishinseisho_kansei', 'zu16_kiyaku_shoumei', 'dai4ran_kansei', 'zu17_toku_junban']
+         'zu16_wariai', 'toukishinseisho_kansei', 'zu17_kiyaku_shoumei', 'dai4ran_kansei', 'zu18_toku_junban']
 KEY = ['区分と分割', '時系列メモ', '注の仕分け', '二つの独立性', '第1欄（問1）', '本件土地（6番3）の辺長確認図', '一点鎖線の比較', '北の距離の図',
-       '建物図面の完成形', 'PSの欠けの誤り', 'Dタイプ（701）7階部分の求積図', 'Eタイプ（702）7階部分の求積図', '合計の検算',
+       '建物図面に書くもの・書かないものの説明図', '建物図面の記入の完成形', 'PSの欠けの誤り', 'Dタイプ（701）7階部分の求積図', 'Eタイプ（702）7階部分の求積図', '合計の検算',
        '各階平面図の完成形', '申請人の欄の添削', '添付書類の欄の添削', '抵当権の行方', '登録免許税の欄の添削',
        '区分した建物の表示の原因の添削', '敷地権の表示の原因の添削', '敷地権の割合の図', '登記申請書の完成形', '規約証明書の図',
        '第4欄（問4）', '本番で解く順番']
 marks = re.findall(r'^> 【画像挿入】(.+)$', ART, flags=re.M)
 pngs = sorted(os.path.basename(p) for p in glob.glob(os.path.join(ZU, 'R8_dai22mon_*.png')))
-ok(len(marks) == len(ORDER) == len(KEY) == len(pngs) == 25, f'マーカー{len(marks)}か所・PNG{len(pngs)}枚・一覧25')
+ok(len(marks) == len(ORDER) == len(KEY) == len(pngs) == 26, f'マーカー{len(marks)}か所・PNG{len(pngs)}枚・一覧26')
 for i, (m, k, o) in enumerate(zip(marks, KEY, ORDER)):
     ok(m.startswith(k), f'マーカー{i + 1}「{k}」→ {o}')
     ok(f'R8_dai22mon_{o}.png' in pngs, f'PNG R8_dai22mon_{o}.png がある')
@@ -123,16 +124,16 @@ TRAPS = [('建物分割登記ではなく、区分建物区分登記', 'zu01_kub
          ('行き来できないことは構造上の独立性の話', 'zu04_dokuritsusei'),
          ('一棟の7階を一点鎖線で描く', 'zu06_ittensasen'),
          ('0.6＋1.0＝1.6', 'zu07_kita_kyori'),
-         ('囲む壁ごと除く', 'zu09_ps_ayamari'),
-         ('引き算で出さず、自分で測る', 'zu12_kensan'),
+         ('囲む壁ごと除く', 'zu10_ps_ayamari'),
+         ('引き算で出さず、自分で測る', 'zu13_kensan'),
          ('安田結さんはまだ名義人ではない', 'toukishinseisho_machigai_shinseinin'),
          ('登記識別情報・印鑑証明書は要らない', 'toukishinseisho_machigai_tenpu'),
-         ('抵当権消滅承諾書を付ける', 'zu14_teitouken'),
+         ('抵当権消滅承諾書を付ける', 'zu15_teitouken'),
          ('「不要」ではない', 'toukishinseisho_machigai_menkyo'),
          ('702の行だけが', 'toukishinseisho_machigai_genin'),
          ('『③令和8年10月18日変更』', 'toukishinseisho_machigai_shikichiken'),
-         ('規約で定めた70分の3・70分の2', 'zu15_wariai'),
-         ('公正証書は分譲前の分譲業者のもの', 'zu16_kiyaku_shoumei')]
+         ('規約で定めた70分の3・70分の2', 'zu16_wariai'),
+         ('公正証書は分譲前の分譲業者のもの', 'zu17_kiyaku_shoumei')]
 matome = ART[ART.index('「最後にまとめます！'):]
 items = re.findall(r'^- (.+)$', matome, flags=re.M)
 ok(len(items) == len(TRAPS), f'まとめのわな{len(items)}項目＝対応表{len(TRAPS)}')
