@@ -1,0 +1,15 @@
+{
+  "format": "jingle/1",
+  "tempo": 100,
+  "length_beats": 7,
+  "tracks": [
+    {"instrument": "pad", "vel": 0.4, "notes": [
+      {"at": 0, "chord": "F", "len": 2}, {"at": 2, "chord": "G", "len": 2}, {"at": 4, "chord": "C", "len": 3}
+    ]},
+    {"instrument": "bell", "vel": 0.45, "notes": [
+      {"at": 0, "note": "A5", "len": 1}, {"at": 1, "note": "C6", "len": 1},
+      {"at": 2, "note": "B5", "len": 1}, {"at": 3, "note": "D6", "len": 1},
+      {"at": 4, "note": "E6", "len": 3}
+    ]}
+  ]
+}
