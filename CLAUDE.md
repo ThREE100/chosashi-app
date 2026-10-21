@@ -563,3 +563,4 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 会話形式のnote記事（トリ先生・藍子）と作図済みの解説図から、YouTube用の解説動画（1920×1080のMP4）・サムネイル・概要欄（チャプターつき）・字幕を作る仕組みは`tools/video/`にある（手順・台本言語KaisetsuScriptの書き方・台本の仕上げのルールは`tools/video/README.md`）。
 台本（`tools/video/episodes/*.json`）は`article2script.py`で記事から下書きを作り、Claude Codeが仕上げ（数値・結論は記事のまま、電卓のキー列は読み上げない、読みを`yomi`に書く）、`render.py`で書き出す。音声はOpen JTalk（オフライン）、ローカルPCではVOICEVOX（`--tts voicevox`）。書き出した動画（`out/`）と声データ（`voices/`）はコミットしない。
 第1作は令和7年第21問の第1回（`R7_Q21_ep01.json`、約4分12秒）。アバターは仮のSVGで、本物のキャラクター画像（口を閉じた・開いた2枚）に差し替えられる。
+YouTube 用の画面の基準（1920×1080・図の枠1440×810・字幕2行44px・図の中の文字は実寸28px以上）と、図を動画用にする手順（`prep_figures.py`で高解像度・大きな文字に描き直す → 場面ごとにズーム・強調 → `check_shots.py`で文字の大きさ・切れを点検 → `render.py`）は`tools/video/YOUTUBE_VISUAL_SPEC.md`にある（2026-10-21、令和8年第21問の図21枚を分析して決めた）。note用の図（文字14〜22px）はそのままでは動画で5〜15pxになり読めない。文字が主役の整理図は、台本の`rows`・`cards`・`bullets`（動画用の画面）で作り直す。見本は`tools/video/episodes/R8_Q21_ep01.json`。

@@ -123,6 +123,23 @@ ffmpeg と Chromium（Playwright）が必要。クラウドのセッションに
 - 書かないときは、話し手のポーズをセリフから自動で選ぶ（`poses.json` の `auto`。例：トリ先生は「上出来」→ good、「待ちなさい」「わな」→ strict、「？」→ think。藍子は「あっ」→ point、「？」→ think、「……」→ shy）。当てはまらないときは `default` を順に使う。
 - 聞き手は、最後に話したときのポーズのまま薄く表示する。
 
+## YouTube 用の画面と、図の動画化（2026-10-21 追加）
+
+画面の配置・文字の大きさの基準・図の分析・手順は **`YOUTUBE_VISUAL_SPEC.md`** にまとめた。要点:
+
+- 1920×1080（16:9）。図の枠は 1440×810、字幕は2行・44px。
+- 図の中の文字は実寸 28px 未満を使わない。note 用の図（文字14〜22px）は、そのままでは動画で7〜15pxになる。
+- 座標図形の図は `prep_figures.py` で**高解像度・大きな文字**にして場面ごとに**ズーム**する。文字が主役の整理図は、動画用の画面（縦の表 `rows`・カード `cards`・箇条書き `bullets`）で作り直す。
+- 場面は `check_shots.py` で点検する（文字が小さすぎる・途中で切れている場面が出る）。
+- `render.py` は図が動く間は話さず、先に図を見せてから話し始める。最後に `pacing.txt`（話す速さ・図の動く間隔・画面のはみ出し）を出す。
+
+```bash
+python3 prep_figures.py ../../note-articles-Kijyutsu/R8/Q21/zu/draw_R8_dai21mon_kaisetsuzu.py --out out/zu_hires/R8_Q21   # 図を動画用に（台本の figures に書けば render.py が自動で実行）
+python3 check_shots.py episodes/R8_Q21_ep01.json --png                                                               # 場面の点検と確認画像
+python3 render.py episodes/R8_Q21_ep01.json                                                                          # 書き出し
+```
+見本は `episodes/R8_Q21_ep01.json`（令和8年 第21問 第1回。第1章・第2章）。
+
 ## 読み間違い・間の直し方
 
 ### 1. まず聞かずに一覧で確かめる
