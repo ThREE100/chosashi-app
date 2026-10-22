@@ -1,0 +1,197 @@
+"""毎日ドリルのA4印刷用HTMLを out/ に作る。
+  out/dayNN-am.html      朝（オリジナル択一1問＋書いて説明）の問題 1ページ
+  out/dayNN-am-ans.html  朝の解答（原文の根拠つき）
+  out/dayNN-pm.html      夜（記述式：計算または申請書の欄）の問題 1ページ
+  out/dayNN-pm-ans.html  夜の解答
+  out/index.html         日ごとの一覧
+ブラウザで開き、印刷（A4・余白なし）またはタブレットで書き込む。
+使い方: python3 daily-drill/build.py"""
+import glob
+import html
+import json
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+from lawtext import article  # noqa: E402
+
+OUT = os.path.join(HERE, 'out')
+E = html.escape
+CIRC = ['①', '②', '③', '④', '⑤']
+
+CSS = """
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+"""
+
+
+def page(title, body, foot='', flow=False, right='条文は note-articles/laws/ の原文で照合済み'):
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<title>{E(title)}</title><style>{CSS}</style></head><body><div class="sheet{" flow" if flow else ""}">{body}'
+            f'<div class="foot"><span>{E(foot)}</span><span>{E(right)}</span></div></div></body></html>')
+
+
+def head(day, kind, theme, minutes):
+    return (f'<div class="hd"><h1>第{day}日　{kind}</h1><span class="meta">日付：　　月　　日　／　目安 {minutes}分　／　時間：　　分</span></div>'
+            f'<p class="theme">{E(theme)}</p>')
+
+
+def lines(mm):
+    return f'<div class="lines" style="height:{mm}mm"></div>'
+
+
+def quote_block(b):
+    return f'<blockquote>{E(b["law"])}{E(_art(b["article"]))}「{E(b["quote"])}」</blockquote>'
+
+
+def _art(a):
+    return a if a.startswith(('第', '別表')) else f'{a}の項'
+
+
+# ---------- 朝 ----------
+def am_q(p):
+    st = ''.join(f'<li><span class="lb">{s["label"]}</span><span>{E(s["text"])}</span></li>' for s in p['statements'])
+    ch = ''.join(f'<span>{CIRC[i]} {"・".join(c)}</span>' for i, c in enumerate(p['choices']))
+    body = head(p['day'], '朝：択一1問＋書いて説明', p['theme'], 15)
+    body += f'<h2>択一（5分）</h2><p>{E(p["stem"])}</p><ol class="st">{st}</ol><div class="ch">{ch}</div>'
+    body += '<p>解答：<span class="box"></span></p>'
+    body += f'<h2>書いて説明（10分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(p["write"]["prompt"])}</p>{lines(104)}'
+    return page(f'第{p["day"]}日 朝 問題', body, f'{p["id"]}')
+
+
+def am_a(p):
+    want = (p['mode'] == '正しい')
+    ans = [s['label'] for s in p['statements'] if s['truth'] == want]
+    idx = [i for i, c in enumerate(p['choices']) if set(c) == set(ans)][0]
+    body = head(p['day'], '朝：解答', p['theme'], 15)
+    body += f'<div class="ans">正解：<b>{CIRC[idx]}</b>（{"・".join(ans)}）　※問題は「{p["mode"]}もの」を選ぶ</div>'
+    for s in p['statements']:
+        mark = '<span class="ok">○ 正しい</span>' if s['truth'] else '<span class="ng">× 誤り</span>'
+        body += f'<div class="q"><b>{s["label"]}</b>　{mark}　{E(s["note"])}</div>'
+        body += ''.join(quote_block(b) for b in s['basis'])
+    w = p['write']
+    body += '<h2>書いて説明：模範解答</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li>{E(m)}</li>' for m in w['model']) + '</ul>'
+    body += '<p class="q">採点ポイント（言葉が入っていれば○）</p><ul class="chk">' + ''.join(f'<li>□ {E(x)}</li>' for x in w['points']) + '</ul>'
+    full = w['basis'][0]
+    txt = article(full['law'], full['article']) or ''
+    txt = '\n'.join(ln for ln in txt.split('\n') if not ln.startswith('#')).strip()
+    body += f'<h2>原文（音読用）　<span class="src">{E(full["law"])}{E(_art(full["article"]))}</span></h2><div class="full">{E(txt)}</div>'
+    return page(f'第{p["day"]}日 朝 解答', body, f'{p["id"]} 解答', flow=True)
+
+
+# ---------- 夜 ----------
+def fmt_pt(name, v):
+    return f'<tr><th>{E(name)}</th><td>X ＝ {v[0]:.2f}　　Y ＝ {v[1]:.2f}</td></tr>'
+
+
+def pm_q(p):
+    body = head(p['day'], '夜：記述式ドリル', p['title'], 15)
+    if p['kind'] == 'calc':
+        g = p['given']
+        rows = ''
+        if p['type'] == 'radial':
+            rows += fmt_pt('器械点 T1', g['T1']) + fmt_pt('後視点 T2', g['T2'])
+            for o in g['obs']:
+                a = o['angle']
+                rows += f'<tr><th>点{o["name"]}</th><td>後視T2からの観測角 {a[0]}°{a[1]:02d}′{a[2]:02d}″（時計回り）　距離 {o["dist"]:.2f} m</td></tr>'
+            intro = 'T1に器械を据え、T2を後視して、次の点を観測した。'
+        elif p['type'] == 'area':
+            rows = ''.join(fmt_pt(f'点{k}', g[k]) for k in 'ABCD')
+            intro = '次の4点で囲まれた四角形ABCDの土地（地目は宅地）がある。'
+        else:
+            rows = ''.join(fmt_pt(f'点{k}', g[k]) for k in 'ABCDEFH' if k in g)
+            intro = '次の点の座標が与えられている。'
+        body += f'<h2>問題</h2><p>{E(intro)}座標は、Xが北、Yが東である。答えは、小数第3位を四捨五入して小数第2位まで書く（面積の問題を除く）。</p><table class="pt">{rows}</table>'
+        body += '<h2>求めるもの</h2>' + ''.join(f'<p class="q">（{i + 1}）{E(a)}</p><p>X ＝ <span class="box" style="min-width:34mm"></span>　　Y ＝ <span class="box" style="min-width:34mm"></span></p>'
+                                                  if p['type'] != 'area' else f'<p class="q">（{i + 1}）{E(a)}</p><p>地積 ＝ <span class="box" style="min-width:34mm"></span> ㎡</p>'
+                                                  for i, a in enumerate(p['ask']))
+        body += '<h2>電卓のキー操作・計算メモ</h2>' + lines(110)
+    else:
+        sc = ''.join(f'<li>{E(x)}</li>' for x in p['scenario'])
+        body += f'<h2>事案</h2><ul style="margin:0;padding-left:5mm">{sc}</ul><h2>答えよ</h2>'
+        n = len(p['fields'])
+        h = 190 // n if n else 20
+        for f in p['fields']:
+            body += f'<p class="q">{E(f["q"])}</p>{lines(max(h - 16, 12))}'
+    return page(f'第{p["day"]}日 夜 問題', body, p['id'], right='' if p['kind'] == 'calc' else '条文は note-articles/laws/ の原文で照合済み')
+
+
+def pm_a(p):
+    body = head(p['day'], '夜：解答', p['title'], 15)
+    if p['kind'] == 'calc':
+        g = p['given']
+        for i, (a, q) in enumerate(zip(p['answers'], p['ask'])):
+            val = f'X ＝ {a[0]}　Y ＝ {a[1]}' if len(a) == 2 else f'{a[0]} ㎡'
+            body += f'<div class="ans"><b>（{i + 1}）{E(q)}</b>　→　<b>{E(val)}</b></div>'
+        body += '<h2>解き方（複素数モード）</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li><code>{E(s)}</code></li>' for s in p['steps']) + '</ul>'
+        body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
+        for b in p.get('basis', []):
+            body += quote_block(b)
+        body += '<h2>できたか</h2><ul class="chk"><li>□ 式が立てられた</li><li>□ 電卓で打てた</li><li>□ 検算した</li><li>□ 制限時間内に終わった</li></ul>'
+    else:
+        for f in p['fields']:
+            body += f'<div class="q">{E(f["q"])}</div><div class="ans">{E(f["answer"])}</div>'
+            body += ''.join(quote_block(b) for b in f['basis'])
+            if f['note']:
+                body += f'<p class="src">{E(f["note"])}</p>'
+    return page(f'第{p["day"]}日 夜 解答', body, f'{p["id"]} 解答', flow=True)
+
+
+def main():
+    os.makedirs(OUT, exist_ok=True)
+    am = {json.load(open(f, encoding='utf-8'))['day']: json.load(open(f, encoding='utf-8')) for f in glob.glob(os.path.join(HERE, 'morning', 'problems', '*.json'))}
+    pm = {json.load(open(f, encoding='utf-8'))['day']: json.load(open(f, encoding='utf-8')) for f in glob.glob(os.path.join(HERE, 'evening', 'problems', '*.json'))}
+    rows = ''
+    for d in sorted(set(am) | set(pm)):
+        links = []
+        if d in am:
+            for suf, fn, lab in (('', am_q, '朝 問題'), ('-ans', am_a, '朝 解答')):
+                n = f'day{d:02d}-am{suf}.html'
+                open(os.path.join(OUT, n), 'w', encoding='utf-8').write(fn(am[d]))
+                links.append(f'<a href="{n}">{lab}</a>')
+        if d in pm:
+            for suf, fn, lab in (('', pm_q, '夜 問題'), ('-ans', pm_a, '夜 解答')):
+                n = f'day{d:02d}-pm{suf}.html'
+                open(os.path.join(OUT, n), 'w', encoding='utf-8').write(fn(pm[d]))
+                links.append(f'<a href="{n}">{lab}</a>')
+        rows += f'<tr><td>第{d}日</td><td>{E(am[d]["theme"]) if d in am else ""}</td><td>{E(pm[d]["title"]) if d in pm else ""}</td><td>{" ／ ".join(links)}</td></tr>'
+    idx = (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>毎日ドリル</title>'
+           f'<style>{CSS}table{{border-collapse:collapse;width:100%}}td,th{{border:1px solid var(--line);padding:2mm 3mm;text-align:left;font-size:10pt}}a{{color:var(--g)}}</style></head>'
+           f'<body><div class="sheet"><div class="hd"><h1>毎日ドリル（朝：択一＋書いて説明／夜：記述式）</h1></div>'
+           f'<table><tr><th>日</th><th>朝の論点</th><th>夜の内容</th><th>リンク</th></tr>{rows}</table></div></body></html>')
+    open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(idx)
+    print('out/ に', len(os.listdir(OUT)), 'ファイル')
+
+
+if __name__ == '__main__':
+    main()
