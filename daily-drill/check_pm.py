@@ -111,6 +111,9 @@ def check_shinsei2(p):
         err(pid, '合筆・合体・合併で登記識別情報を提供するのに、添付情報に印鑑証明書がない（規則第47条第3号イ（6））')
     if '提供しないものとして答える' in json.dumps(p['exam']['notes'], ensure_ascii=False) and '印鑑証明書' in json.dumps(p['exam']['notes'], ensure_ascii=False) and re.search('合筆|合併|合体', pu):
         err(pid, '合筆・合体・合併の問で「印鑑証明書は提供しないものとして答える」の約束がある（本番の答案と逆の癖がつく）')
+    # 所有権の登記がある建物の合体（登記識別情報を提供する）なら、令別表十三の項申請情報欄ロの「所有権の登記の表示」の表が要る
+    if '合体' in pu and '登記識別情報' in at and not any('所有権登記の表示' in it['label'] for it in items if it['kind'] == 'table'):
+        err(pid, '所有権の登記がある建物の合体なのに「合体前の建物の所有権登記の表示」の表がない（令別表十三の項申請情報欄ロ）')
     if p.get('module'):
         check_module(p, items)
         return
