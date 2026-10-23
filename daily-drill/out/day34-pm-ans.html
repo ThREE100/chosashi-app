@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第34日 夜 解答</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet flow"><div class="hd"><h1>第34日　夜：解答（記入例）</h1><span class="meta">日付：　　月　　日　／　目安 15分　／　時間：　　分</span></div><p class="theme">土地分合筆登記の申請書（問題文・登記記録・測量成果から記入する）</p><div class="form"><div class="ttl">土 地 分 合 筆 登 記 申 請 書</div><div class="row"><div class="lb">登記の目的</div><div class="val" style="min-height:9mm">土地分合筆登記</div></div><div class="row"><div class="lb">添付情報</div><div class="val" style="min-height:16mm">地積測量図、登記識別情報、印鑑証明書、代理権限証明情報</div></div><div class="row"><div class="lb">申請日・提出先</div><div class="val" style="min-height:9mm">令和8年10月26日申請　A地方法務局</div></div><div class="row"><div class="lb">申請人（住所・氏名）</div><div class="val" style="min-height:16mm">B市C町八丁目9番10号　高橋美咲</div></div><div class="row"><div class="lb">代理人（住所・氏名）</div><div class="val" style="min-height:16mm">A市D町一丁目2番3号　土地家屋調査士　斉藤一郎</div></div><div class="row"><div class="lb">登録免許税</div><div class="val" style="min-height:9mm">金2,000円</div></div><div class="row"><div class="lb">土地の表示</div><div class="val tbl-wrap" style="padding:0"><table class="t"><tr><th></th><th>所在</th><th>地番</th><th>地目</th><th>地積（㎡）</th><th>原因及びその日付</th></tr><tr><td class="rn">20番1</td><td>A市B町四丁目</td><td>20番1</td><td>宅地</td><td>211.50</td><td></td></tr><tr><td class="rn">（イ）</td><td></td><td>20番1</td><td></td><td>175.60</td><td>③21番に一部合併</td></tr><tr><td class="rn">（ロ）</td><td></td><td></td><td></td><td>36.91</td><td>20番1から分割して21番に合併する部分</td></tr><tr><td class="rn">21番（合筆前）</td><td>A市B町四丁目</td><td>21番</td><td>宅地</td><td>131.90</td><td></td></tr><tr><td class="rn">21番（合筆後）</td><td></td><td>21番</td><td></td><td>168.81</td><td>③20番1から一部合併</td></tr></table></div></div></div><div class="q">登記の目的</div><blockquote>不動産登記規則第35条「土地の一部を分筆して、これを他の土地に合筆しようとする場合において、分筆の登記及び合筆の登記の申請をするとき」</blockquote><p class="src">20番1の土地の一部を分けて21番の土地に合わせるので、分筆と合筆を一の申請情報で申請する（規則第35条第1号）。分筆と合筆の2件に分けない。分筆後の地積の合計212.51と登記記録211.50の差1.01は、市街地地域の甲2の誤差の限度1.28以内なので、地積の更正の登記は要らない（甲3の2.56で比べない）。</p><div class="q">添付情報</div><blockquote>不動産登記規則第47条「合筆の登記、合体による登記等又は建物の合併の登記」</blockquote><blockquote>不動産登記令別表八の項「分筆後の土地の地積測量図」</blockquote><blockquote>不動産登記令第8条「所有権の登記がある土地の合筆の登記」</blockquote><blockquote>不動産登記令第8条「当該合筆に係る土地のうちいずれか一筆の土地の所有権の登記名義人の登記識別情報」</blockquote><blockquote>不動産登記令第7条「当該代理人の権限を証する情報」</blockquote><p class="src">分筆を含むので地積測量図（令別表八の項）。合筆を含むので、所有権の登記名義人の登記識別情報（令第8条第1項第1号）が要り、いずれか1筆の分で足りる（同条第2項第1号）。代理人が申請するので代理権限証明情報。合筆・合体による登記等・建物の合併を申請する所有権の登記名義人は、委任状の印鑑に関する証明書（印鑑証明書）も提供する（令第18条第2項。省略できる場合を定める規則第49条第2項第4号は規則第48条第4号・第5号を引くが、第48条第4号のかっこ書で、規則第47条第3号イ（6）の合筆・合体・合併の申請人は除かれる）。</p><div class="q">申請日・提出先</div><p class="src">問題文に書いてある。</p><div class="q">申請人（住所・氏名）</div><blockquote>不動産登記法第39条「分筆又は合筆の登記は、表題部所有者又は所有権の登記名義人以外の者は、申請することができない」</blockquote><p class="src">2つの土地の所有権の登記名義人の高橋美咲が申請する。買う予定の山本大輔は申請人にならない。</p><div class="q">代理人（住所・氏名）</div><p class="src">事実関係3に書いてある。</p><div class="q">登録免許税</div><blockquote>登録免許税法別表第一「土地の分筆又は建物の分割若しくは区分による登記事項の変更の登記」</blockquote><blockquote>登録免許税法別表第一「土地の合筆又は建物の合併による登記事項の変更の登記」</blockquote><p class="src">分合筆の後の土地は（イ）の20番1と合筆後の21番の2個なので、2個×1,000円＝2,000円。分筆の登記と合筆の登記を別々に申請すると、分筆後2個の2,000円と合筆後1個の1,000円で、合計3,000円になる。</p><div class="q">土地の表示</div><blockquote>不動産登記事務取扱手続準則第76条「「③何番に一部合併」」</blockquote><blockquote>不動産登記事務取扱手続準則第76条「「③何番から一部合併」」</blockquote><blockquote>不動産登記事務取扱手続準則第72条「分筆前の地積を基準にして規則第７７条第５項の規定による地積測量図の誤差の限度内であるときは」</blockquote><blockquote>不動産登記規則第10条「市街地地域については、国土調査法施行令（昭和二十七年政令第五十九号）別表第四に掲げる精度区分」</blockquote><blockquote>不動産登記法第41条「地目又は地番区域が相互に異なる土地の合筆の登記」</blockquote><blockquote>不動産登記規則第100条「一平方メートルの百分の一（宅地及び鉱泉地以外の土地で十平方メートルを超えるものについては、一平方メートル）未満の端数は、切り捨てる」</blockquote><p class="src">（イ）は13.80×（12.85＋12.60）÷2＝175.605→175.60、（ロ）は13.80×（2.55＋2.80）÷2＝36.915→36.91（宅地なので小数第2位未満切捨て）。（ロ）は分けたあと21番に入るので地番を持たず、「20番1から分割して21番に合併する部分」。合筆後の21番は登記記録の131.90＋36.91＝168.81（21番を座標で測った132.48に足した169.39は誤り。合筆後の地積は、合筆先の21番の登記記録の地積に（ロ）を加える。21番自体は今回測量しておらず、座標の132.48と登記記録の差0.58も21番の甲2の誤差の限度0.96以内で、21番の地積を更正する登記はしない）。原因は、20番1の行が「③21番に一部合併」、合筆後の21番の行が「③20番1から一部合併」で、日付は書かない（準則第76条）。2つの土地は同じ所有者・同じ地目（宅地）で接していて、所有権以外の権利の登記もないので、合筆の制限（法第41条）に当たらない。</p><div class="foot"><span>PM-34 解答</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div></body></html>

@@ -1,0 +1,81 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第43日 夜 問題</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet"><div class="hd"><h1>第43日　夜：記述式ドリル（問題）</h1><span class="meta">日付：　　月　　日　／　目安 15分　／　時間：　　分</span></div><p class="theme">区分建物表題部変更登記（区分建物を増築した場合）の申請書（問題文・登記記録から記入する）</p><div class="ex"><p>土地家屋調査士の斉藤一郎は、石井次郎から次のとおり依頼を受けた。【事実関係】、【登記記録・寸法】及び【注】に基づき、令和8年10月26日にA地方法務局に提出する申請書（2枚目の答案用紙）の空欄を記入しなさい。</p><div class="g2"><div><h2>事実関係</h2><ol><li>A市B町八丁目5番の土地の上の一棟の建物（以下「本件一棟」という。）は、縦割りの2個の区分建物からなり、西側の家屋番号5番の1を石井一男（B市C町六丁目1番1号）が、東側の家屋番号5番の2（以下「本件建物」という。）を長男の石井次郎（B市C町六丁目1番2号）が所有している。土地は石井一男が所有し、石井次郎は無償で使っている（敷地権の登記はない）。登記記録は【登記記録・寸法】のとおりである。</li><li>石井次郎は、本件建物の1階の東側に、南の外壁にそろえて居室（木造かわらぶき平家建）を増築した。工事は令和8年10月2日に完了し、同年10月9日に検査済証が交付された。元の東の外壁は、出入口を設けてそのまま残し、増築した居室は本件建物の一部として使われている。2階は工事をしていない。</li><li>増築の工事代金は、父の石井一男が負担して石井次郎に贈与した。施工者は株式会社H建設で、工事完了引渡証明書を石井次郎あてに交付した。</li><li>石井一男は、5番の1について何の工事もしておらず、本件の申請には関与しない。</li><li>石井次郎は、令和8年10月13日、本件の登記の申請手続を、A市D町一丁目2番3号に事務所を有する土地家屋調査士斉藤一郎に委任した。申請は、斉藤一郎が代理人としてする。石井次郎の住所に変更はない。</li></ol><h2>注</h2><ol class="notes"><li>床面積は、不動産登記規則第115条により求め、小数第2位未満を切り捨てる。区分建物の床面積は「1階部分　何.何」の形、一棟の建物の床面積は「1階　何.何」の形で書く。</li><li>「一棟の建物の表示」「区分した建物の表示」の表は、次の約束で記入する。①変更前の行：登記記録のとおり書く（原因及びその日付の欄は空欄）。②変更後の行：変わる事項（床面積は変わらない階も含めて各階）と原因及びその日付だけを書き、変わらない欄は空欄とする。原因及びその日付の欄には、変更する欄の番号を冠記して書く。一棟の建物の表題部は①構造、②床面積の順、区分建物の表題部は①種類、②構造、③床面積の順である。</li><li>「添付情報」には、本件申請で提供が必要なものを、情報の名称で、当てはまるものだけ書く（登記識別情報及び印鑑証明書は、本件の申請では提供しないものとして答える）。申請人・代理人の住所氏名は、事実関係及び登記記録のとおりに書く。</li></ol></div><div><h2>登記記録・寸法</h2><table class="reg"><caption>一棟の建物の表示</caption><tr><th>所在</th><td>A市B町八丁目5番地</td></tr><tr><th>構造</th><td>木造かわらぶき2階建</td></tr><tr><th>床面積</th><td>1階　96.00㎡
+2階　96.00㎡</td></tr></table><table class="reg"><caption>本件建物（5番の2）表題部</caption><tr><th>種類・構造</th><td>居宅　木造かわらぶき2階建</td></tr><tr><th>床面積</th><td>1階部分　45.24㎡
+2階部分　45.24㎡</td></tr><tr><th>原因及びその日付</th><td>平成27年6月10日新築</td></tr><tr><th>甲区 1番</th><td>所有権保存　平成27年7月1日受付　第2468号　所有者　B市C町六丁目1番2号　石井次郎</td></tr></table><table class="reg"><caption>寸法（壁の中心線間）</caption><tr><th>本件一棟（増築前）</th><td>東西12.00m（界壁で西6.00m・東6.00m）・南北8.00m（1階・2階とも）</td></tr><tr><th>増築部分</th><td>本件建物の1階の東の外壁の中心線から東へ2.73m、南の外壁の中心線から北へ4.55m</td></tr><tr><th>壁の厚さ</th><td>外壁・界壁とも0.20m（中心線から内側の面まで0.10m）</td></tr></table></div></div></div><div class="foot"><span>PM-43　1/2</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div><div class="sheet"><div class="hd"><h1>第43日　夜：記述式ドリル（答案用紙）</h1><span class="meta">日付：　　月　　日　／　目安 15分　／　時間：　　分</span></div><p class="theme">白紙の申請書に記入する</p><div class="form"><div class="ttl">区 分 建 物 表 題 部 変 更 登 記 申 請 書</div><div class="row"><div class="lb">登記の目的</div><div class="val" style="min-height:9mm"></div></div><div class="row"><div class="lb">添付情報</div><div class="val" style="min-height:16mm"></div></div><div class="row"><div class="lb">申請日・提出先</div><div class="val" style="min-height:9mm"></div></div><div class="row"><div class="lb">申請人（所有権の登記名義人）の住所・氏名</div><div class="val" style="min-height:16mm"></div></div><div class="row"><div class="lb">代理人（住所・氏名）</div><div class="val" style="min-height:16mm"></div></div><div class="row"><div class="lb">一棟の建物の表示</div><div class="val tbl-wrap" style="padding:0"><table class="t"><tr><th></th><th>所在</th><th>構造</th><th>床面積（㎡）</th><th>原因及びその日付</th></tr><tr><td class="rn">変更前</td><td></td><td></td><td></td><td></td></tr><tr><td class="rn">変更後</td><td></td><td></td><td></td><td></td></tr></table></div></div><div class="row"><div class="lb">区分した建物の表示</div><div class="val tbl-wrap" style="padding:0"><table class="t"><tr><th></th><th>家屋番号</th><th>種類</th><th>構造</th><th>床面積（㎡）</th><th>原因及びその日付</th></tr><tr><td class="rn">変更前</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rn">変更後</td><td></td><td></td><td></td><td></td><td></td></tr></table></div></div></div><div class="foot"><span>PM-43　2/2</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div></body></html>

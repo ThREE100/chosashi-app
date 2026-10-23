@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第49日 夜 問題</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet"><div class="hd"><h1>第49日　夜：記述式ドリル（問題）</h1><span class="meta">日付：　　月　　日　／　目安 15分　／　時間：　　分</span></div><p class="theme">建物滅失登記の申請書（問題文・登記記録・配置図から記入する）</p><div class="ex"><p>土地家屋調査士の斉藤一郎は、佐藤春子から次のとおり依頼を受けた。【事実関係】、【建物の登記記録】、【配置図】及び【注】に基づき、令和8年10月26日にA地方法務局に提出する申請書（2枚目の答案用紙）の空欄を記入しなさい。</p><div class="g2"><div><h2>事実関係</h2><ol><li>佐藤春子（B市C町七丁目2番5号）は、A市B町九丁目80番の土地の上に、居宅（家屋番号80番の1。物置が符号1の附属建物として登記されている。以下「本件建物」という。）と、離れの居宅（家屋番号80番の2）を所有している。登記記録は【建物の登記記録】のとおりである。</li><li>本件建物は、令和8年8月末まで山中良太に賃貸していたが、山中良太は退去した。佐藤春子は、老朽化した本件建物を、物置も含めて取り壊すこととし、令和8年9月20日に株式会社東和解体と解体工事の請負契約を締結した。工事は9月29日に着工し、令和8年10月7日に、居宅・物置とも全部の取壊しが完了した。東和解体の取壊証明書の作成日は、令和8年10月12日である。</li><li>離れの居宅（家屋番号80番の2）は取り壊しておらず、佐藤春子の長女が住んでいる。80番の土地には、令和9年に長女の夫が新しい居宅を建てる予定である。</li><li>本件建物には、B信用金庫の抵当権の設定の登記がある。B信用金庫には取壊しを連絡済みである。</li><li>佐藤春子は、令和8年10月13日、必要な登記の申請手続を、A市D町一丁目2番3号に事務所を有する土地家屋調査士斉藤一郎に委任した。申請は、斉藤一郎が代理人としてする。佐藤春子の住所に変更はない。</li></ol><h2>注</h2><ol class="notes"><li>配置図の建物は外形の概略で、点線は取り壊した建物である。</li><li>「建物の表示」の表は、次の約束で記入する。①主である建物の行：登記記録の所在・家屋番号・種類・構造・床面積を書き、原因及びその日付の欄に、取壊しの日と「取壊し」の記載を書く。②附属建物の行：種類・構造・床面積を書き（所在・家屋番号の欄は空欄）、原因及びその日付の欄は、記載が必要なときだけ書く。滅失しない建物の行は設けていない。</li><li>「添付情報」には、法令（不動産登記令及び同令別表）で本件申請に提供が必要とされるものだけを、情報の名称で書く（登記識別情報及び印鑑証明書は、本件の申請では提供しないものとして答える）。申請人・代理人の住所氏名は、事実関係及び登記記録のとおりに書く。登録免許税の欄は、答案用紙にない。</li></ol></div><div><h2>建物の登記記録</h2><table class="reg"><caption>家屋番号80番の1 表題部（主である建物の表示）</caption><tr><th>所在</th><td>A市B町九丁目80番地</td></tr><tr><th>家屋番号</th><td>80番の1</td></tr><tr><th>種類・構造</th><td>居宅　木造スレートぶき2階建</td></tr><tr><th>床面積</th><td>1階　59.62㎡　2階　44.71㎡</td></tr><tr><th>原因及びその日付</th><td>昭和62年6月10日新築</td></tr></table><table class="reg"><caption>家屋番号80番の1 表題部（附属建物の表示）</caption><tr><th>符号1</th><td>物置　木造スレートぶき平家建　9.93㎡　昭和62年6月10日新築</td></tr></table><table class="reg"><caption>家屋番号80番の1 権利部（甲区・乙区）</caption><tr><th>甲区 1番</th><td>所有権保存　昭和62年7月1日受付　第7777号　所有者　B市C町七丁目2番5号　佐藤春子</td></tr><tr><th>乙区 1番</th><td>抵当権設定　平成31年3月1日受付　第1515号　原因　平成31年2月27日金銭消費貸借同日設定　債権額　金700万円　抵当権者　A市E町三丁目1番　B信用金庫</td></tr></table><table class="reg"><caption>家屋番号80番の2 表題部</caption><tr><th>所在・家屋番号</th><td>A市B町九丁目80番地　80番の2</td></tr><tr><th>種類・構造・床面積</th><td>居宅　木造かわらぶき平家建　28.98㎡</td></tr><tr><th>甲区 1番</th><td>所有権保存　平成22年5月6日受付　所有者　B市C町七丁目2番5号　佐藤春子</td></tr></table><h2>配置図（座標は平面直角座標系）</h2><div class="figrow"><svg class="fig" viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, Meiryo, sans-serif"><rect x="2" y="2" width="996" height="556" fill="#fff" stroke="#cfd8d4" stroke-width="3" rx="14"/><line x1="153.4" y1="71.7" x2="766.6" y2="75.1" stroke="#dfe5e2" stroke-width="34" stroke-linecap="round"/><polygon points="204.5,114.3 715.5,114.3 715.5,455.0 204.5,455.0" fill="#f4f8f6" stroke="#1d2b27" stroke-width="4" stroke-linejoin="round"/><polygon points="545.2,369.8 545.2,292.3 653.7,292.3 653.7,369.8" fill="#e8f4f0" stroke="#1d2b27" stroke-width="4" stroke-linejoin="round"/><line x1="238.5" y1="386.9" x2="238.5" y2="262.8" stroke="#7a8782" stroke-width="3" stroke-dasharray="14 9" stroke-linecap="round"/><line x1="238.5" y1="262.8" x2="378.1" y2="262.8" stroke="#7a8782" stroke-width="3" stroke-dasharray="14 9" stroke-linecap="round"/><line x1="378.1" y1="262.8" x2="378.1" y2="386.9" stroke="#7a8782" stroke-width="3" stroke-dasharray="14 9" stroke-linecap="round"/><line x1="378.1" y1="386.9" x2="238.5" y2="386.9" stroke="#7a8782" stroke-width="3" stroke-dasharray="14 9" stroke-linecap="round"/><line x1="408.9" y1="386.9" x2="408.9" y2="340.4" stroke="#7a8782" stroke-width="3" stroke-dasharray="14 9" stroke-linecap="round"/><line x1="408.9" y1="340.4" x2="470.9" y2="340.4" stroke="#7a8782" stroke-width="3" stroke-dasharray="14 9" stroke-linecap="round"/><line x1="470.9" y1="340.4" x2="470.9" y2="386.9" stroke="#7a8782" stroke-width="3" stroke-dasharray="14 9" stroke-linecap="round"/><line x1="470.9" y1="386.9" x2="408.9" y2="386.9" stroke="#7a8782" stroke-width="3" stroke-dasharray="14 9" stroke-linecap="round"/><text x="460.0" y="294.6" font-size="34" fill="#7a8782" font-weight="700" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">80番</text><text x="599.4" y="341.1" font-size="34" fill="#7a8782" font-weight="700" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">80番の2</text><text x="460.0" y="78.0" font-size="30" fill="#7a8782" font-weight="500" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">市道</text><text x="306.7" y="326.7" font-size="30" fill="#7a8782" font-weight="500" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">（取壊し）</text><circle cx="204.5" cy="114.3" r="9" fill="#1d2b27"/><text x="218.5" y="100.3" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">A</text><circle cx="715.5" cy="114.3" r="9" fill="#1d2b27"/><text x="729.5" y="100.3" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">B</text><circle cx="715.5" cy="455.0" r="9" fill="#1d2b27"/><text x="729.5" y="441.0" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">C</text><circle cx="204.5" cy="455.0" r="9" fill="#1d2b27"/><text x="218.5" y="441.0" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">D</text><g><line x1="930" y1="170" x2="930" y2="110" stroke="#1d2b27" stroke-width="4"/><polygon points="930,96 919,124 941,124" fill="#1d2b27"/><text x="930" y="86" font-size="32" font-weight="700" text-anchor="middle" fill="#1d2b27" stroke="#fff" stroke-width="6" paint-order="stroke">北</text></g></svg></div><p style="font-size:8.2pt;color:var(--mute);line-height:1.5">図は、市道（北）に接する80番の土地と、取り壊した本件建物・物置（点線）、残る離れの居宅の概略である。</p></div></div></div><div class="foot"><span>PM-49　1/2</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div><div class="sheet"><div class="hd"><h1>第49日　夜：記述式ドリル（答案用紙）</h1><span class="meta">日付：　　月　　日　／　目安 15分　／　時間：　　分</span></div><p class="theme">白紙の申請書に記入する</p><div class="form"><div class="ttl">登 記 申 請 書</div><div class="row"><div class="lb">登記の目的</div><div class="val" style="min-height:9mm"></div></div><div class="row"><div class="lb">添付情報</div><div class="val" style="min-height:9mm"></div></div><div class="row"><div class="lb">申請日・提出先</div><div class="val" style="min-height:9mm"></div></div><div class="row"><div class="lb">申請人（所有権の登記名義人）の住所・氏名</div><div class="val" style="min-height:16mm"></div></div><div class="row"><div class="lb">代理人（住所・氏名）</div><div class="val" style="min-height:16mm"></div></div><div class="row"><div class="lb">建物の表示</div><div class="val tbl-wrap" style="padding:0"><table class="t"><tr><th></th><th>所在</th><th>家屋番号</th><th>種類</th><th>構造</th><th>床面積（㎡）</th><th>原因及びその日付</th></tr><tr><td class="rn">主である建物</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rn">附属建物 符号1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></div></div></div><div class="foot"><span>PM-49　2/2</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div></body></html>
