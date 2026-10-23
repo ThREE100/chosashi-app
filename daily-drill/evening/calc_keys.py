@@ -223,8 +223,37 @@ def pm08(p):
     return [('点C（放射）', d.steps[:2]), ('点D・E・F・（イ）（ロ）・差と誤差の限度', d.steps[2:])], {'C': Cxy, 'D': Dxy, 'E': Exy, 'F': Fxy, 'ai': ai, 'ar': ar, 'diff': diff, 'kk': kk}
 
 
+def pm09(p):
+    v = p['verify']
+    pts = v['pts']
+    d = Doc()
+    d.add('割り当て', 'A〜F＝点A〜F（変数A〜Fにそのまま入れる）', '\n'.join(f'{cx(*pts[n])} [SHIFT] [STO] [{n}]' for n in 'ABCDEF'), show=False)
+    L = {}
+    for u, w in (('A', 'B'), ('B', 'F'), ('F', 'C'), ('C', 'D'), ('D', 'E'), ('E', 'A'), ('E', 'F')):
+        d.add(f'辺{u}{w}', f'Abs({u} − {w})', f'[Abs] [ALPHA] [{u}] [−] [ALPHA] [{w}] [)] [=]')
+    d.add('12番1の倍面積', '四角形A・B・F・E：Conjg(F − A) × (E − B)　のiの係数の絶対値 ÷ 2', '[Apps] [4] [ALPHA] [F] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [E] [−] [ALPHA] [B] [)] [=]')
+    d.add('12番2の倍面積', '四角形E・F・C・D：Conjg(C − E) × (D − F)　のiの係数の絶対値 ÷ 2', '[Apps] [4] [ALPHA] [C] [−] [ALPHA] [E] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [F] [)] [=]')
+    d.run()
+    st = d.steps
+    lens = [round(val(s) + 1e-9, 2) for s in st[1:8]]
+    a1 = math.floor(abs(val(st[8], 1)) / 2 * 100 + 1e-9) / 100
+    a2 = math.floor(abs(val(st[9], 1)) / 2 * 100 + 1e-9) / 100
+    return [('辺長7つと地積2つ', st)], {'lens': lens, 'a1': a1, 'a2': a2}
+
+
+def pm10(p):
+    d = Doc()
+    d.add('1階の床面積', '9.10 × 6.37 ＋ 2.73 × 1.82（普通の四則計算）', '9.1 [×] 6.37 [+] 2.73 [×] 1.82 [=]')
+    d.add('2階の床面積', '9.10 × 4.55', '9.1 [×] 4.55 [=]')
+    d.add('北東の角から北側の筆界まで', '417.00 − (400.00 ＋ 3.50 ＋ 8.19)', '417 [−] [(] 400 [+] 3.5 [+] 8.19 [)] [=]')
+    d.add('北東の角から東側の筆界まで', '320.00 − (300.00 ＋ 4.00 ＋ 9.10)', '320 [−] [(] 300 [+] 4 [+] 9.1 [)] [=]')
+    d.run()
+    st = d.steps
+    return [('床面積と距離（普通の四則計算）', st)], {'f1': math.floor(val(st[0]) * 100 + 1e-9) / 100, 'f2': math.floor(val(st[1]) * 100 + 1e-9) / 100, 'dn': round(val(st[2]) + 1e-9, 2), 'de': round(val(st[3]) + 1e-9, 2)}
+
+
 def main():
-    for pid, fn in (('PM-01', pm01), ('PM-04', pm04), ('PM-07', pm07), ('PM-08', pm08)):
+    for pid, fn in (('PM-01', pm01), ('PM-04', pm04), ('PM-07', pm07), ('PM-08', pm08), ('PM-09', pm09), ('PM-10', pm10)):
         fp = os.path.join(PROB, pid + '.json')
         p = json.load(open(fp, encoding='utf-8'))
         groups, got = fn(p)

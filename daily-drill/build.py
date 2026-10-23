@@ -17,6 +17,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from lawtext import article  # noqa: E402
 import figure  # noqa: E402
+import draw_forms  # noqa: E402
 
 OUT = os.path.join(HERE, 'out')
 E = html.escape
@@ -69,9 +70,11 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
 .ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
 .ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
 .ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
 .q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
 .dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
 .tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
 .tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
 .tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
@@ -199,12 +202,13 @@ def exam_body(p):
     if p.get('layout') == 'generic':
         c = p['calc']
         names = p['coords']
-        right += '<h2>現況（座標は平面直角座標系）</h2>'
+        right += '<h2>' + ex.get('fig_title', '現況（座標は平面直角座標系）') + '</h2>'
         right += f'<div class="figrow">{figure.svg_generic(p["fig"], vh=560)}</div>'
-        right += '<div class="coord"><table><tr><th>点</th>' + ''.join(f'<th>{n}</th>' for n in names) + '</tr>'
-        right += '<tr><th>X（北）</th>' + ''.join(f'<td>{c["points"][n][0]:.2f}</td>' for n in names) + '</tr>'
-        right += '<tr><th>Y（東）</th>' + ''.join(f'<td>{c["points"][n][1]:.2f}</td>' for n in names) + '</tr></table></div>'
-        right += '<p style="font-size:8.2pt;color:var(--mute);line-height:1.5">点A〜Dは本件土地の境界標。点a〜dは居宅の外形の角（令和8年10月5日完成）。</p>'
+        if names:
+            right += '<div class="coord"><table><tr><th>点</th>' + ''.join(f'<th>{n}</th>' for n in names) + '</tr>'
+            right += '<tr><th>X（北）</th>' + ''.join(f'<td>{c["points"][n][0]:.2f}</td>' for n in names) + '</tr>'
+            right += '<tr><th>Y（東）</th>' + ''.join(f'<td>{c["points"][n][1]:.2f}</td>' for n in names) + '</tr></table></div>'
+        right += '<p style="font-size:8.2pt;color:var(--mute);line-height:1.5">' + E(ex.get('fig_note', '点A〜Dは本件土地の境界標。点a〜dは居宅の外形の角（令和8年10月5日完成）。')) + '</p>'
     elif p['form_type'] == 'land':
         c = p['calc']
         names = list(c['points'].keys())
@@ -261,6 +265,32 @@ def coord_table(p):
 
 
 
+def calc2_answer_box_compact(p, filled=False):
+    """回答欄が多いとき、2列に並べて場所を節約する（辺長・地積など単独の欄用）。xyの欄は通常の表にする。"""
+    cells = []
+    for a in p['answers']:
+        unit = {'area': '㎡', 'len': 'm'}.get(a['kind'], '')
+        v = E(a['value']) if filled else ''
+        wide = a['kind'] == 'text'
+        cells.append((a['label'], v, unit, wide))
+    rows = ''
+    i = 0
+    while i < len(cells):
+        lab, v, u, wide = cells[i]
+        if wide:
+            rows += f'<tr><th>{E(lab)}</th><td colspan="3"><span class="box" style="min-width:70mm">{v}</span></td></tr>'
+            i += 1
+            continue
+        if i + 1 < len(cells) and not cells[i + 1][3]:
+            l2, v2, u2, _ = cells[i + 1]
+            rows += f'<tr><th>{E(lab)}</th><td><span class="box" style="min-width:24mm">{v}</span> {u}</td><th>{E(l2)}</th><td><span class="box" style="min-width:24mm">{v2}</span> {u2}</td></tr>'
+            i += 2
+        else:
+            rows += f'<tr><th>{E(lab)}</th><td colspan="3"><span class="box" style="min-width:24mm">{v}</span> {u}</td></tr>'
+            i += 1
+    return f'<table class="ans-box c2">{rows}</table>'
+
+
 def calc2_answer_box(p, filled=False):
     rows = ''
     for a in p['answers']:
@@ -279,13 +309,13 @@ def calc2_answer_box(p, filled=False):
     return f'<table class="ans-box">{rows}</table>'
 
 
-def calc2_tables(p):
+def calc2_tables(p, cols=2):
     out = ''
     for t in p['tables']:
         th = ''.join(f'<th>{E(c)}</th>' for c in t['cols'])
         tr = ''.join('<tr>' + ''.join(f'<td>{E(c)}</td>' for c in r) + '</tr>' for r in t['rows'])
         out += f'<div><table><caption>{E(t["title"])}</caption><tr>{th}</tr>{tr}</table></div>'
-    return f'<div class="tg">{out}</div>'
+    return f'<div class="tg" style="grid-template-columns:repeat({cols},1fr)">{out}</div>'
 
 
 def calc2_q(p):
@@ -329,7 +359,55 @@ def calc2_a(p):
     return pages(f'第{p["day"]}日 夜 解答', [sheet1, body2], f'{p["id"]} 解答', right='', flow=True)
 
 
+def draw_q(p):
+    x = p['text']
+    mins = p.get('minutes', 20)
+    s1 = head(p['day'], '夜：記述式ドリル（問題）', p['title'], mins)
+    s1 += '<h2>解答欄（先に書く）</h2>' + calc2_answer_box_compact(p)
+    s1 += '<div class="q2"><p>' + E(x['lead']) + '</p>'
+    s1 += '<h2>【条件】</h2><ol>' + ''.join(f'<li>{E(t)}</li>' for t in x['conditions']) + '</ol>'
+    s1 += '<h2>【聞き取り結果】</h2><ol>' + ''.join(f'<li>{E(t)}</li>' for t in x['hearing']) + '</ol>'
+    s1 += '<h2>【注】</h2><ol>' + ''.join(f'<li>{E(t)}</li>' for t in x['notes']) + '</ol></div>'
+    s1 += calc2_tables(p, 3 if len(p['tables']) >= 3 else 2)
+    s1 = '<div class="dense">' + s1 + '</div>'
+    if p['draw'] == 'chiseki':
+        s2 = head(p['day'], '夜：記述式ドリル（答案用紙）', '地積測量図を作成する（実寸・縮尺250分の1）', mins) + f'<div class="drawwrap">{draw_forms.chiseki_blank()}</div>'
+    else:
+        a, b2 = draw_forms.tatemono_blank()
+        s2 = head(p['day'], '夜：記述式ドリル（答案用紙）', '建物図面（500分の1）・各階平面図（250分の1）を作成する（実寸）', mins) + f'<div class="drawwrap">{a}</div><div class="drawwrap">{b2}</div>'
+    return pages(f'第{p["day"]}日 夜 問題', [s1, s2], p['id'], right='')
+
+
+def draw_a(p):
+    body = head(p['day'], '夜：解答', p['title'], p.get('minutes', 20))
+    body += '<h2>答え</h2>' + calc2_answer_box_compact(p, filled=True)
+    body += '<h2>自己採点（できた項目に○。作図は定規で長さを測って確かめる）</h2><table class="pt">' + ''.join(f'<tr><td style="width:7mm">□</td><td>{E(t)}</td><td class="src" style="width:46mm">{E(b_)}</td></tr>' for t, b_ in p['rubric']) + '</table>'
+    body += '<h2>解き方</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li>{E(s)}</li>' for s in p['steps']) + '</ul>'
+    body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
+    sheets = [body]
+    if p['draw'] == 'chiseki':
+        sheets.append(head(p['day'], '夜：解答（模範の作図）', '地積測量図（実寸・縮尺250分の1。座標から機械で作図）', 20) + f'<div class="drawwrap">{draw_forms.chiseki_solved(p["spec"])}</div>')
+    else:
+        a, b2 = draw_forms.tatemono_solved(p['spec'])
+        sheets.append(head(p['day'], '夜：解答（模範の作図）', '建物図面・各階平面図（実寸。座標から機械で作図）', 20) + f'<div class="drawwrap">{a}</div><div class="drawwrap">{b2}</div>')
+    if p.get('keys'):
+        body2 = head(p['day'], '夜：解答（電卓操作）', 'キヤノン F-789SG・複素数モード（[MODE] [2]）。負の数は「0 − 数」で入れる', 20)
+        for g in p['keys']:
+            body2 += f'<h2>{E(g["title"])}</h2>'
+            for s in g['steps']:
+                body2 += f'<div class="q">{E(s["title"])}</div>'
+                if s.get('formula'):
+                    body2 += f'<p class="src" style="margin:0">式：{E(s["formula"])}</p>'
+                body2 += f'<pre class="keys">{E(s["keys"])}</pre>'
+                if s.get('display'):
+                    body2 += f'<p class="ans" style="margin:.5mm 0 1.5mm">表示：<b>{E(s["display"])}</b></p>'
+        sheets.append(body2)
+    return pages(f'第{p["day"]}日 夜 解答', sheets, f'{p["id"]} 解答', right='', flow=True)
+
+
 def pm_q(p):
+    if p['kind'] == 'draw':
+        return draw_q(p)
     if p['kind'] == 'calc2':
         return calc2_q(p)
     if p['kind'] == 'shinsei2':
@@ -353,6 +431,8 @@ def pm_q(p):
 
 
 def pm_a(p):
+    if p['kind'] == 'draw':
+        return draw_a(p)
     if p['kind'] == 'calc2':
         return calc2_a(p)
     if p['kind'] == 'shinsei2':

@@ -57,7 +57,7 @@ def check_shinsei2(p):
         for b in it.get('basis', []):
             quote_ok(pid, it['label'], b)
     table = [it for it in items if it['kind'] == 'table'][0]
-    if p.get('layout') == 'generic':
+    if p.get('layout') == 'generic' and p['form_type'] == 'land':
         c = p['calc']
         P = {k: tuple(v) for k, v in c['points'].items()}
         at = poly_area([P[n] for n in 'ABCD'])
@@ -93,6 +93,27 @@ def check_shinsei2(p):
         tax = [it for it in items if it['id'] == 'tax'][0]['answer']
         if tax != '金2,000円':
             err(pid, '登録免許税が分筆後の2個分（2,000円）でない')
+    elif p.get('layout') == 'generic':      # 建物の合併（PM-11）
+        P_ = {k: tuple(v) for k, v in p['calc']['points'].items()}
+        o1 = floor2(poly_area([P_[k] for k in P_ if k.startswith('p')]))
+        o2 = floor2(poly_area([P_[k] for k in P_ if k.startswith('q')]))
+        kk_ = floor2(poly_area([P_[k] for k in P_ if k.startswith('k')]))
+        rows = {r['name']: r['cells'] for r in table['rows']}
+        if f'{kk_:.2f}' != rows['甲建物'][4] or f'{kk_:.2f}' != rows['附属建物 符号1'][4]:
+            err(pid, f'甲建物の床面積が座標と合わない（計算 {kk_}）')
+        for k in ('乙建物', '合併後の主である建物'):
+            if f'1階　{o1:.2f}\n2階　{o2:.2f}' != rows[k][4]:
+                err(pid, f'{k}の床面積が座標と合わない（計算 {o1}, {o2}）')
+        regs = {s_['name']: dict(map(tuple, s_['rows'])) for s_ in p['exam']['register']}
+        m_otsu = {k: v for k, v in regs['乙建物 権利部（甲区・乙区）'].items() if k.startswith('乙区')}
+        m_kou = {k: v for k, v in regs['甲建物 権利部（甲区・乙区）'].items() if k.startswith('乙区')}
+        if m_otsu != m_kou:
+            err(pid, '2つの建物の抵当権が同一でない（規則第131条第1号の設計が崩れる）')
+        own = [v for s_ in regs.values() for k, v in s_.items() if k.startswith('甲区')]
+        if len({o.split('所有者')[-1].strip() for o in own}) != 1:
+            err(pid, '所有者が同一でない')
+        if [it for it in items if it['id'] == 'tax'][0]['answer'] != '金1,000円':
+            err(pid, '登録免許税が合併後の1個分（1,000円）でない')
     else:
         fl = {f['name']: floor2(poly_area(f['outline'])) for f in p['plan']['floors']}
         cell = table['rows'][-1]['cells'][3]
@@ -282,6 +303,58 @@ def check_calc2(p):
         err(pid, '条件・聞き取り結果がない')
 
 
+def check_draw(p):
+    pid, v = p['id'], p['verify']
+    sys.path.insert(0, os.path.join(HERE, 'evening'))
+    import calc_keys as ck
+    if v['type'] == 'pm09':
+        pts = {k: tuple(x) for k, x in v['pts'].items()}
+        sides = ['AB', 'BF', 'FC', 'CD', 'DE', 'EA', 'EF']
+        for s_, a in zip(sides, [a for a in p['answers'] if a['label'].startswith('辺')]):
+            want = round(math.hypot(pts[s_[0]][0] - pts[s_[1]][0], pts[s_[0]][1] - pts[s_[1]][1]) + 1e-9, 2)
+            _near(pid, f'辺{s_}', float(a['value']), want, 1e-9)
+        fr = lambda names: [(Fraction(str(pts[n][0])), Fraction(str(pts[n][1]))) for n in names]
+        def shoe(f):
+            return abs(sum(f[i][0] * f[(i + 1) % len(f)][1] - f[(i + 1) % len(f)][0] * f[i][1] for i in range(len(f)))) / 2
+        a1 = math.floor(shoe(fr('ABFE')) * 100) / 100
+        a2 = math.floor(shoe(fr('EFCD')) * 100) / 100
+        _near(pid, '12番1', float(_ans(p, '12番1')), a1, 1e-9); _near(pid, '12番2', float(_ans(p, '12番2')), a2, 1e-9)
+        if abs(a1 + a2 - v['reg']) > 1.0:
+            err(pid, '分筆後の合計と登記記録の地積の差が大きい')
+        _, got = ck.pm09(p)
+        for s_, w in zip(sides, got['lens']):
+            _near(pid, f'キー列の辺{s_}', float(_ans(p, f'辺{s_}')), w, 1e-9)
+        _near(pid, 'キー列12番1', float(_ans(p, '12番1')), got['a1'], 1e-9); _near(pid, 'キー列12番2', float(_ans(p, '12番2')), got['a2'], 1e-9)
+        sp = p['spec']
+        if [l['area'] for l in sp['lots']] != [a1, a2] or len(sp['sides']) != 7:
+            err(pid, '作図の仕様と答えが合わない')
+    else:
+        b1 = [tuple(x) for x in v['b1']]; b2 = [tuple(x) for x in v['b2']]
+        f1 = floor2(poly_area(b1)); f2 = floor2(poly_area(b2))
+        _near(pid, '1階', float(_ans(p, '1階の床面積')), f1, 1e-9); _near(pid, '2階', float(_ans(p, '2階の床面積')), f2, 1e-9)
+        # 表（e, n）から三角形分割で求め直す
+        tabs = {t['title'][:12]: t for t in p['tables']}
+        def from_table(key):
+            t = [t for t in p['tables'] if key in t['title']][0]
+            return [(float(r[1]), float(r[2])) for r in t['rows']]
+        t1, t2 = from_table('1階の外形'), from_table('2階の外形')
+        _near(pid, '表から1階', float(_ans(p, '1階の床面積')), floor2(_tri_area(t1)), 1e-9)
+        _near(pid, '表から2階', float(_ans(p, '2階の床面積')), floor2(_tri_area(t2)), 1e-9)
+        site = v['site']
+        ne = max(b1, key=lambda c: c[0] + c[1])
+        _near(pid, '北', float(_ans(p, '1階の北東の角から北側の筆界')), round(max(c[0] for c in site) - max(c[0] for c in b1) + 1e-9, 2), 1e-9)
+        _near(pid, '東', float(_ans(p, '1階の北東の角から東側の筆界')), round(max(c[1] for c in site) - max(c[1] for c in b1) + 1e-9, 2), 1e-9)
+        _, got = ck.pm10(p)
+        _near(pid, 'キー列1階', f1, got['f1'], 1e-9); _near(pid, 'キー列2階', f2, got['f2'], 1e-9)
+        _near(pid, 'キー列北', float(_ans(p, '1階の北東の角から北側の筆界')), got['dn'], 1e-9); _near(pid, 'キー列東', float(_ans(p, '1階の北東の角から東側の筆界')), got['de'], 1e-9)
+        if not all(min(c[0] for c in site) < c[0] < max(c[0] for c in site) and min(c[1] for c in site) < c[1] < max(c[1] for c in site) for c in b1):
+            err(pid, '建物が敷地の外にある')
+    if len(p['rubric']) < 8:
+        err(pid, '自己採点の項目が少ない')
+    if p.get('keys') is None:
+        err(pid, '電卓のキー列がない')
+
+
 def main():
     files = sorted(glob.glob(os.path.join(HERE, 'evening', 'problems', '*.json')))
     for fp in files:
@@ -289,7 +362,9 @@ def main():
         pid = p['id']
         if BANNED.search(json.dumps(p, ensure_ascii=False)):
             err(pid, '禁止語（個人の演習結果・過去問の出典は入れない）')
-        if p['kind'] == 'calc2':
+        if p['kind'] == 'draw':
+            check_draw(p)
+        elif p['kind'] == 'calc2':
             check_calc2(p)
         elif p['kind'] == 'shinsei2':
             check_shinsei2(p)

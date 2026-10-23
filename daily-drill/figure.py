@@ -327,6 +327,8 @@ def svg_generic(fig, reveal=False, vh=700, labels=None):
             parts.append(_label(f.xy(t['xy']), t['text'], dx=0, dy=8, size=30, color=MUTE, anchor='middle', weight='500'))
         for nm, v in fig['points'].items():
             kind = v['kind']
+            if kind == 'hidden':
+                continue
             if kind == 'ref':
                 kind = 'given'
             if kind == 'unknown' and reveal:

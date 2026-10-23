@@ -23,6 +23,7 @@ PM_TOPIC = {   # 夜の内容ごとの見出し画像の文言と情景
     'foot': ('記述式の計算練習', '計算練習', 'a straight boundary line on a coordinate grid with a perpendicular dropped from a point, a small right-angle mark', 'a plain calculator, a pencil and a sheet of scratch paper with only drawn lines (no numbers or letters)'),
     'parallel': ('記述式の計算練習', '計算練習', 'two parallel lines on a coordinate grid and a third line crossing them', 'a plain calculator, a pencil and a sheet of scratch paper with only drawn lines (no numbers or letters)'),
     'area': ('記述式の計算練習', '計算練習', 'a quadrilateral land parcel on a coordinate grid with its two diagonals drawn', 'a plain calculator, a pencil and a sheet of scratch paper with only drawn lines (no numbers or letters)'),
+    'draw': ('記述式の作図練習', '作図練習', 'a drafting table with a scale ruler, a triangle ruler and a pencil, and a plain sheet with only a ruled frame (no letters)', 'a plain survey map style sketch with only lines and small dots (no numbers or letters), and a compass-like north arrow shape'),
     'shinsei': ('記述式の申請書練習', '申請書練習', 'a stack of blank application forms and a stamp, no text on them', 'a fountain pen, a seal (inkan) and an official-looking blank form with only ruled boxes (no letters)'),
 }
 
@@ -72,7 +73,7 @@ def build(day):
          '毎朝ドリル', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝10分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:02d}-am.html（問題）／out/day{day:02d}-am-ans.html（解答）'),
         ('PM', None, '毎日これだけ', None, None, '土地家屋調査士　記述式　毎晩15分', None, None, '記、述、練、習', f'out/day{day:02d}-pm.html（問題）／out/day{day:02d}-pm-ans.html（解答）')):
         if ampm == 'PM':
-            key = {'PM-01': 'radial', 'PM-04': 'foot', 'PM-07': 'area'}.get(pm['id'], 'shinsei') if pm['kind'] == 'calc2' else 'shinsei'
+            key = {'PM-01': 'radial', 'PM-04': 'foot', 'PM-07': 'area', 'PM-08': 'intersection'}.get(pm['id'], 'shinsei') if pm['kind'] == 'calc2' else ('draw' if pm['kind'] == 'draw' else 'shinsei')
             l2, hl, left, right = PM_TOPIC[key]
             l2, hl, left, right = PM_TOPIC[key][0], PM_TOPIC[key][1], PM_TOPIC[key][2], PM_TOPIC[key][3]
             what = '座標計算の練習' if pm['kind'] == 'calc2' else '申請書の欄の練習'
