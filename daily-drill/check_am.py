@@ -64,6 +64,8 @@ def check(p):
     for b in w['basis']:
         check_quote(pid, '書く', b)
         cited += normalize(article(b['law'], b['article']) or '')
+    if 'cloze' in w:
+        check_cloze(pid, w)
     model = normalize(''.join(w['model']))
     for pt in w['points']:
         if normalize(pt) not in model:
@@ -88,6 +90,37 @@ def check(p):
                 err(pid, f"独立照合に {s['label']} の判定がない")
             elif v != s['truth']:
                 err(pid, f"独立照合の判定と不一致 {s['label']}（問題の想定 {s['truth']}、照合 {v}）")
+
+
+def fill(lines, blanks):
+    out = []
+    for ln in lines:
+        for i, b in enumerate(blanks, 1):
+            ln = ln.replace('{%d}' % i, b)
+        out.append(ln)
+    return out
+
+
+def check_cloze(pid, w):
+    """空欄補充：空欄の番号が1..nで1回ずつ、埋めた文が条文の原文に一字一句あり、模範解答・採点ポイントと一致すること。"""
+    text = '\n'.join(w['cloze'])
+    n = len(w['blanks'])
+    found = sorted(int(x) for x in re.findall(r'\{(\d+)\}', text))
+    if found != list(range(1, n + 1)):
+        err(pid, f'空欄の番号が1〜{n}を1回ずつになっていない（{found}）')
+    filled = fill(w['cloze'], w['blanks'])
+    if filled != w['model']:
+        err(pid, '模範解答が、空欄を答えで埋めた文と一致しない')
+    if list(w['points']) != list(w['blanks']):
+        err(pid, '採点ポイントが空欄の答えと一致しない')
+    b0 = w['basis'][0]
+    art = normalize(article(b0['law'], b0['article']) or '')
+    for ln in filled:
+        if normalize(ln) not in art:
+            err(pid, f'埋めた文が{b0["law"]}{b0["article"]}の原文と一致しない「{ln[:24]}…」')
+    for a in w['blanks']:
+        if len(a) > 12:
+            err(pid, f'空欄の答え「{a}」が長い（キーワードだけを空欄にする）')
 
 
 def check_quote(pid, where, b):

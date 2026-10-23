@@ -10,6 +10,7 @@ import glob
 import html
 import json
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -49,6 +50,9 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
 .chk{margin:0;padding:0;list-style:none;columns:2}
 .foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 3.2mm;font-size:11pt;line-height:2.1}
+.blank{display:inline-block;min-width:27mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
 code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 @page{size:A4;margin:0}
 @media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
@@ -79,13 +83,35 @@ def _art(a):
 
 
 # ---------- 朝 ----------
+CN = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩', '⑪', '⑫', '⑬', '⑭', '⑮', '⑯', '⑰', '⑱', '⑲', '⑳']
+
+
+def cloze_html(w, answers=False):
+    """空欄補充。問題では下線つきの空欄（番号入り）、解答では答えを太字で埋める。"""
+    out = ''
+    for ln in w['cloze']:
+        parts = re.split(r'\{(\d+)\}', ln)
+        h = ''
+        for i, seg in enumerate(parts):
+            if i % 2 == 0:
+                h += E(seg)
+            else:
+                n = int(seg)
+                h += (f'<b class="ok">{E(w["blanks"][n - 1])}</b>' if answers else f'<span class="blank">{CN[n - 1]}</span>')
+        out += f'<p class="cl">{h}</p>'
+    return f'<div class="clz">{out}</div>'
+
 def am_q(p):
     st = ''.join(f'<li><span class="lb">{s["label"]}</span><span>{E(s["text"])}</span></li>' for s in p['statements'])
     ch = ''.join(f'<span>{CIRC[i]} {"・".join(c)}</span>' for i, c in enumerate(p['choices']))
     body = head(p['day'], '朝：択一1問＋書いて説明', p['theme'], 15)
     body += f'<h2>択一（5分）</h2><p>{E(p["stem"])}</p><ol class="st">{st}</ol><div class="ch">{ch}</div>'
     body += '<p>解答：<span class="box"></span></p>'
-    body += f'<h2>書いて説明（10分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(p["write"]["prompt"])}</p>{lines(104)}'
+    w = p['write']
+    if 'cloze' in w:
+        body += f'<h2>条文の空欄補充（10分）　<span class="src">見出しの語は原文どおり、空欄にキーワードを</span></h2><p>{E(w["prompt"])}</p>{cloze_html(w)}'
+    else:
+        body += f'<h2>書いて説明（10分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(w["prompt"])}</p>{lines(104)}'
     return page(f'第{p["day"]}日 朝 問題', body, f'{p["id"]}')
 
 
@@ -100,8 +126,12 @@ def am_a(p):
         body += f'<div class="q"><b>{s["label"]}</b>　{mark}　{E(s["note"])}</div>'
         body += ''.join(quote_block(b) for b in s['basis'])
     w = p['write']
-    body += '<h2>書いて説明：模範解答</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li>{E(m)}</li>' for m in w['model']) + '</ul>'
-    body += '<p class="q">採点ポイント（言葉が入っていれば○）</p><ul class="chk">' + ''.join(f'<li>□ {E(x)}</li>' for x in w['points']) + '</ul>'
+    if 'cloze' in w:
+        body += '<h2>条文の空欄補充：答え</h2>' + cloze_html(w, answers=True)
+        body += '<p class="q">自己採点（合っていれば□にチェック）</p><ul class="chk">' + ''.join(f'<li>□ {CN[i]} {E(x)}</li>' for i, x in enumerate(w['blanks'])) + '</ul>'
+    else:
+        body += '<h2>書いて説明：模範解答</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li>{E(m)}</li>' for m in w['model']) + '</ul>'
+        body += '<p class="q">採点ポイント（言葉が入っていれば○）</p><ul class="chk">' + ''.join(f'<li>□ {E(x)}</li>' for x in w['points']) + '</ul>'
     full = w['basis'][0]
     txt = article(full['law'], full['article']) or ''
     txt = '\n'.join(ln for ln in txt.split('\n') if not ln.startswith('#')).strip()
