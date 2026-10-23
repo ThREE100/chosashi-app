@@ -18,3 +18,5 @@
 | Day006-PM | 【土地家屋調査士試験】Day006-PM_毎日これだけ ｜記述式演習 | `day006-pm.md` | `out/day06-pm.html`・`-ans.html` |
 | Day007-AM | 【土地家屋調査士試験】Day007-AM_毎朝10分ドリル ｜択一＋条文の空欄補充 | `day007-am.md` | `out/day07-am.html`・`-ans.html` |
 | Day007-PM | 【土地家屋調査士試験】Day007-PM_毎日これだけ ｜記述式演習 | `day007-pm.md` | `out/day07-pm.html`・`-ans.html` |
+| Day008-AM | 【土地家屋調査士試験】Day008-AM_毎朝10分ドリル ｜択一＋条文の空欄補充 | `day008-am.md` | `out/day08-am.html`・`-ans.html` |
+| Day008-PM | 【土地家屋調査士試験】Day008-PM_毎日これだけ ｜記述式演習 | `day008-pm.md` | `out/day08-pm.html`・`-ans.html` |
