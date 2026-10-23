@@ -78,6 +78,13 @@ def check_module(p, items):
             err(pid, f'登録免許税が{n_}個分（金{n_ * 1000:,}円）でない')
         if not n_ and tx:
             err(pid, '課税されない登記に登録免許税の欄がある')
+    # 申請人などの住所・氏名が問題文（事実関係・登記記録）に書いてあること（答えにしかない住所を防ぐ）
+    exam_txt = json.dumps(p['exam'], ensure_ascii=False)
+    for it in items:
+        if it['kind'] == 'field' and not it.get('copy') and ('申請人' in it['label'] or '代位' in it['label'] or '所有者' in it['label']):
+            for tok in re.split(r'[　\n、（）]', it['answer']):
+                if len(tok) >= 4 and re.search(r'[町市村]|番|号', tok) and tok not in exam_txt:
+                    err(pid, f"欄「{it['label']}」の「{tok}」が問題文にない")
     for k in ('lead', 'facts', 'register', 'notes'):
         if not p['exam'].get(k):
             err(pid, f'exam.{k} がない')
