@@ -60,6 +60,13 @@ def check(p):
         for b in s['basis']:
             check_quote(pid, s['label'], b)
     w = p['write']
+    # 択一と空欄補充は、出題する条文（分野）を分ける。択一の文面が空欄補充のヒントになるのを防ぐ
+    q_arts = {(b['law'], b['article']) for s in p['statements'] for b in s['basis']}
+    w_arts = {(b['law'], b['article']) for b in w['basis']}
+    if q_arts & w_arts:
+        err(pid, f'択一と空欄補充が同じ条文を出題している：{sorted(q_arts & w_arts)}')
+    if not w.get('theme'):
+        err(pid, '空欄補充のテーマ（write.theme）がない')
     cited = ''
     for b in w['basis']:
         check_quote(pid, '書く', b)
@@ -113,12 +120,11 @@ def check_cloze(pid, w):
         err(pid, '模範解答が、空欄を答えで埋めた文と一致しない')
     if list(w['points']) != list(w['blanks']):
         err(pid, '採点ポイントが空欄の答えと一致しない')
-    b0 = w['basis'][0]
-    art = normalize(article(b0['law'], b0['article']) or '')
+    art = ''.join(normalize(article(b['law'], b['article']) or '') for b in w['basis'])
     for ln in filled:
-        for seg in ln.split('…'):   # 「…」は条文の言葉の省略。前後の各部分が原文に一字一句あること
+        for seg in ln.split('…'):   # 「…」は条文の言葉の省略。前後の各部分が、引用した条文の原文に一字一句あること
             if normalize(seg) not in art:
-                err(pid, f'埋めた文が{b0["law"]}{b0["article"]}の原文と一致しない「{seg[:24]}」')
+                err(pid, f'埋めた文が引用した条文の原文と一致しない「{seg[:24]}」')
     for a in w['blanks']:
         if len(a) > 12:
             err(pid, f'空欄の答え「{a}」が長い（キーワードだけを空欄にする）')

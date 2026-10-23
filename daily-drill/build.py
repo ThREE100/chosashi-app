@@ -51,8 +51,8 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .chk{margin:0;padding:0;list-style:none;columns:2}
 .foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
 .clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
-.cl{margin:0 0 3.2mm;font-size:11pt;line-height:2.1}
-.blank{display:inline-block;min-width:27mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
 code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 @page{size:A4;margin:0}
 @media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
@@ -104,7 +104,7 @@ def cloze_html(w, answers=False):
 def am_q(p):
     st = ''.join(f'<li><span class="lb">{s["label"]}</span><span>{E(s["text"])}</span></li>' for s in p['statements'])
     ch = ''.join(f'<span>{CIRC[i]} {"・".join(c)}</span>' for i, c in enumerate(p['choices']))
-    body = head(p['day'], '朝：択一1問＋書いて説明', p['theme'], 15)
+    body = head(p['day'], '朝：択一1問＋条文の空欄補充', f'択一：{p["theme"]}　／　空欄補充：{p["write"]["theme"]}', 15)
     body += f'<h2>択一（5分）</h2><p>{E(p["stem"])}</p><ol class="st">{st}</ol><div class="ch">{ch}</div>'
     body += '<p>解答：<span class="box"></span></p>'
     w = p['write']
@@ -119,7 +119,7 @@ def am_a(p):
     want = (p['mode'] == '正しい')
     ans = [s['label'] for s in p['statements'] if s['truth'] == want]
     idx = [i for i, c in enumerate(p['choices']) if set(c) == set(ans)][0]
-    body = head(p['day'], '朝：解答', p['theme'], 15)
+    body = head(p['day'], '朝：解答', f'択一：{p["theme"]}　／　空欄補充：{p["write"]["theme"]}', 15)
     body += f'<div class="ans">正解：<b>{CIRC[idx]}</b>（{"・".join(ans)}）　※問題は「{p["mode"]}もの」を選ぶ</div>'
     for s in p['statements']:
         mark = '<span class="ok">○ 正しい</span>' if s['truth'] else '<span class="ng">× 誤り</span>'
