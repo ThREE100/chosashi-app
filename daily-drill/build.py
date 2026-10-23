@@ -104,14 +104,14 @@ def cloze_html(w, answers=False):
 def am_q(p):
     st = ''.join(f'<li><span class="lb">{s["label"]}</span><span>{E(s["text"])}</span></li>' for s in p['statements'])
     ch = ''.join(f'<span>{CIRC[i]} {"・".join(c)}</span>' for i, c in enumerate(p['choices']))
-    body = head(p['day'], '朝：択一1問＋条文の空欄補充', f'択一：{p["theme"]}　／　空欄補充：{p["write"]["theme"]}', 15)
-    body += f'<h2>択一（5分）</h2><p>{E(p["stem"])}</p><ol class="st">{st}</ol><div class="ch">{ch}</div>'
+    body = head(p['day'], '朝：択一1問＋条文の空欄補充', f'択一：{p["theme"]}　／　空欄補充：{p["write"]["theme"]}', 5)
+    body += f'<h2>択一（2分）</h2><p>{E(p["stem"])}</p><ol class="st">{st}</ol><div class="ch">{ch}</div>'
     body += '<p>解答：<span class="box"></span></p>'
     w = p['write']
     if 'cloze' in w:
-        body += f'<h2>条文の空欄補充（10分）　<span class="src">条文のキーワードを空欄に</span></h2><p>{E(w["prompt"])}</p>{cloze_html(w)}'
+        body += f'<h2>条文の空欄補充（3分）　<span class="src">条文のキーワードを空欄に</span></h2><p>{E(w["prompt"])}</p>{cloze_html(w)}'
     else:
-        body += f'<h2>書いて説明（10分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(w["prompt"])}</p>{lines(104)}'
+        body += f'<h2>書いて説明（3分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(w["prompt"])}</p>{lines(104)}'
     return page(f'第{p["day"]}日 朝 問題', body, f'{p["id"]}')
 
 
@@ -119,7 +119,7 @@ def am_a(p):
     want = (p['mode'] == '正しい')
     ans = [s['label'] for s in p['statements'] if s['truth'] == want]
     idx = [i for i, c in enumerate(p['choices']) if set(c) == set(ans)][0]
-    body = head(p['day'], '朝：解答', f'択一：{p["theme"]}　／　空欄補充：{p["write"]["theme"]}', 15)
+    body = head(p['day'], '朝：解答', f'択一：{p["theme"]}　／　空欄補充：{p["write"]["theme"]}', 5)
     body += f'<div class="ans">正解：<b>{CIRC[idx]}</b>（{"・".join(ans)}）　※問題は「{p["mode"]}もの」を選ぶ</div>'
     for s in p['statements']:
         mark = '<span class="ok">○ 正しい</span>' if s['truth'] else '<span class="ng">× 誤り</span>'
