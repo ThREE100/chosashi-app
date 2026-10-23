@@ -16,6 +16,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from lawtext import article  # noqa: E402
+import figure  # noqa: E402
 
 OUT = os.path.join(HERE, 'out')
 E = html.escape
@@ -53,6 +54,14 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
 .cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
 .blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
 code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 @page{size:A4;margin:0}
 @media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
@@ -140,32 +149,32 @@ def am_a(p):
 
 
 # ---------- 夜 ----------
-def fmt_pt(name, v):
-    return f'<tr><th>{E(name)}</th><td>X ＝ {v[0]:.2f}　　Y ＝ {v[1]:.2f}</td></tr>'
+def coord_table(p):
+    """与えられた点の座標表（求める点は載せない）。図の下に横長で置く。"""
+    g = p['given']
+    names = {'radial': ['T1', 'T2'], 'area': list('ABCD'), 'foot': ['F', 'H', 'E']}.get(p['type'], list('ABCD'))
+    head_ = '<tr><th>点</th>' + ''.join(f'<th>{E(k)}</th>' for k in names) + '</tr>'
+    rx = '<tr><th>X（北）</th>' + ''.join(f'<td>{g[k][0]:.2f}</td>' for k in names) + '</tr>'
+    ry = '<tr><th>Y（東）</th>' + ''.join(f'<td>{g[k][1]:.2f}</td>' for k in names) + '</tr>'
+    extra = ''
+    if p['type'] == 'radial':
+        for o in g['obs']:
+            a = o['angle']
+            extra += f'<p><b>点{o["name"]}</b>：後視T2から時計回りに {a[0]}°{a[1]:02d}′{a[2]:02d}″、距離 {o["dist"]:.2f} m</p>'
+    if p['type'] == 'parallel':
+        extra += f'<p>直線ABに平行で、西側に <b>{g["off"]:.2f} m</b> 離れた直線を使う。</p>'
+    return f'<div class="coord"><table>{head_}{rx}{ry}</table>{extra}</div>'
 
 
 def pm_q(p):
     body = head(p['day'], '夜：記述式ドリル', p['title'], 15)
     if p['kind'] == 'calc':
-        g = p['given']
-        rows = ''
-        if p['type'] == 'radial':
-            rows += fmt_pt('器械点 T1', g['T1']) + fmt_pt('後視点 T2', g['T2'])
-            for o in g['obs']:
-                a = o['angle']
-                rows += f'<tr><th>点{o["name"]}</th><td>後視T2からの観測角 {a[0]}°{a[1]:02d}′{a[2]:02d}″（時計回り）　距離 {o["dist"]:.2f} m</td></tr>'
-            intro = 'T1に器械を据え、T2を後視して、次の点を観測した。'
-        elif p['type'] == 'area':
-            rows = ''.join(fmt_pt(f'点{k}', g[k]) for k in 'ABCD')
-            intro = '次の4点で囲まれた四角形ABCDの土地（地目は宅地）がある。'
-        else:
-            rows = ''.join(fmt_pt(f'点{k}', g[k]) for k in 'ABCDEFH' if k in g)
-            intro = '次の点の座標が与えられている。'
-        body += f'<h2>問題</h2><p>{E(intro)}座標は、Xが北、Yが東である。答えは、小数第3位を四捨五入して小数第2位まで書く（面積の問題を除く）。</p><table class="pt">{rows}</table>'
+        intro = {'radial': 'T1に器械を据え、T2を後視して、次の点を観測した。', 'area': '次の4点で囲まれた四角形ABCDの土地（地目は宅地）がある。'}.get(p['type'], '次の点の座標が与えられている。')
+        body += f'<h2>問題</h2><p>{E(intro)}座標は、Xが北、Yが東である。答えは、小数第3位を四捨五入して小数第2位まで書く（面積の問題を除く）。</p>'
+        body += f'<div class="figrow">{figure.svg(p)}{coord_table(p)}</div>'
         body += '<h2>求めるもの</h2>' + ''.join(f'<p class="q">（{i + 1}）{E(a)}</p><p>X ＝ <span class="box" style="min-width:34mm"></span>　　Y ＝ <span class="box" style="min-width:34mm"></span></p>'
                                                   if p['type'] != 'area' else f'<p class="q">（{i + 1}）{E(a)}</p><p>地積 ＝ <span class="box" style="min-width:34mm"></span> ㎡</p>'
                                                   for i, a in enumerate(p['ask']))
-        body += '<h2>電卓のキー操作・計算メモ</h2>' + lines(110)
     else:
         sc = ''.join(f'<li>{E(x)}</li>' for x in p['scenario'])
         body += f'<h2>事案</h2><ul style="margin:0;padding-left:5mm">{sc}</ul><h2>答えよ</h2>'
@@ -183,6 +192,7 @@ def pm_a(p):
         for i, (a, q) in enumerate(zip(p['answers'], p['ask'])):
             val = f'X ＝ {a[0]}　Y ＝ {a[1]}' if len(a) == 2 else f'{a[0]} ㎡'
             body += f'<div class="ans"><b>（{i + 1}）{E(q)}</b>　→　<b>{E(val)}</b></div>'
+        body += f'<h2>図（赤が求めた点）</h2><div class="figrow">{figure.svg(p, reveal=True)}{coord_table(p)}</div>'
         body += '<h2>解き方（複素数モード）</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li><code>{E(s)}</code></li>' for s in p['steps']) + '</ul>'
         body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
         for b in p.get('basis', []):
