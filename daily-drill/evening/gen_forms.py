@@ -20,7 +20,7 @@ def load(fp):
     return m
 
 
-def main(only=None):
+def main(only=None, json_only=False):
     reg = json.load(open(os.path.join(ROOT, 'registry.json'), encoding='utf-8'))
     made = json.load(open(os.path.join(ROOT, 'forms_made.json'), encoding='utf-8'))
     n = 0
@@ -40,10 +40,14 @@ def main(only=None):
         reg[pid] = r
         made[str(pl['no'])] = pid
         n += 1
+    if json_only:          # 並行して作るときは JSON だけ書き、registry.json・forms_made.json は最後にまとめて更新する
+        print(n, '問を書き出し（registry は更新しない）')
+        return
     json.dump(reg, open(os.path.join(ROOT, 'registry.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(made, open(os.path.join(ROOT, 'forms_made.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(n, '問を書き出し')
 
 
 if __name__ == '__main__':
-    main(set(sys.argv[1:]) or None)   # 例: python3 gen_forms.py PM-21 PM-28（指定した問だけ書き出す）
+    args = [a for a in sys.argv[1:] if a != '--json-only']
+    main(set(args) or None, '--json-only' in sys.argv)   # 例: python3 gen_forms.py PM-21 PM-28（指定した問だけ書き出す）
