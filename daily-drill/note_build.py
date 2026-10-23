@@ -12,6 +12,11 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, 'note')
 
+# noteタイトルの設定ルール（固定。番号は day001 のように3けた）
+TITLE_AM = '【土地家屋調査士試験】毎日ドリル day{day:03d}-AM｜朝10分・択一＋条文の空欄補充'
+TITLE_PM = '【土地家屋調査士試験】毎日ドリル day{day:03d}-PM｜夜15分・記述式演習'
+TITLE_RE = re.compile(r'^【土地家屋調査士試験】毎日ドリル day\d{3}-(AM｜朝10分・択一＋条文の空欄補充|PM｜夜15分・記述式演習)$')
+
 PM_TOPIC = {   # 夜の内容ごとの見出し画像の文言と情景
     'radial': ('記述式の計算練習', '計算練習', 'a sketch of a survey instrument (total station) on a tripod and a coordinate grid with a few survey points', 'a plain calculator, a pencil and a sheet of scratch paper with only drawn lines (no numbers or letters)'),
     'intersection': ('記述式の計算練習', '計算練習', 'two straight boundary lines crossing on a coordinate grid, the crossing point marked by a small circle', 'a plain calculator, a pencil and a sheet of scratch paper with only drawn lines (no numbers or letters)'),
@@ -63,7 +68,7 @@ def build(day):
     pm = [p for p in pm if p['day'] == day][0]
     items = []
     for ampm, title, l1, l2, hl, sub, left, right, kj, body in (
-        ('AM', f'【土地家屋調査士試験】毎日ドリル day{day:03d}-AM｜朝10分・択一＋条文の空欄補充',
+        ('AM', TITLE_AM.format(day=day),
          '毎日ドリル　朝', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝10分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:02d}-am.html（問題）／out/day{day:02d}-am-ans.html（解答）'),
         ('PM', None, '毎日ドリル　夜', None, None, '土地家屋調査士　記述式　毎晩15分', None, None, '記、述、練、習', f'out/day{day:02d}-pm.html（問題）／out/day{day:02d}-pm-ans.html（解答）')):
         if ampm == 'PM':
@@ -71,7 +76,8 @@ def build(day):
             l2, hl, left, right = PM_TOPIC[key]
             l2, hl, left, right = PM_TOPIC[key][0], PM_TOPIC[key][1], PM_TOPIC[key][2], PM_TOPIC[key][3]
             what = '座標計算の練習' if pm['kind'] == 'calc' else '申請書の欄の練習'
-            title = f'【土地家屋調査士試験】毎日ドリル day{day:03d}-PM｜夜15分・記述式の{what}'
+            title = TITLE_PM.format(day=day)
+        assert TITLE_RE.match(title), title
         badge = f'day{day:03d}-{ampm}'
         pr = prompt(badge, l1, l2, hl, sub, left, right, kj)
         md = f"""# {badge}
