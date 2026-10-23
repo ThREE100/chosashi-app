@@ -6,8 +6,9 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 rc = 0
-for s in ('check_am.py', 'check_pm.py'):
+for s in ('check_registry.py', 'check_am.py', 'check_pm.py'):
     rc |= subprocess.call([sys.executable, os.path.join(HERE, s)])
 if rc == 0:
+    subprocess.call([sys.executable, os.path.join(HERE, 'coverage.py')])
     subprocess.call([sys.executable, os.path.join(HERE, 'build.py')])
 sys.exit(rc)
