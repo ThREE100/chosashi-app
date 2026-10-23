@@ -93,6 +93,43 @@ def check_shinsei2(p):
         tax = [it for it in items if it['id'] == 'tax'][0]['answer']
         if tax != '金2,000円':
             err(pid, '登録免許税が分筆後の2個分（2,000円）でない')
+    elif p.get('layout') == 'generic' and 'area_checks' in p['calc']:      # 建物の分割・合体（PM-12・PM-14）
+        P_ = {k: tuple(v) for k, v in p['calc']['points'].items()}
+        rows = {r['name']: r['cells'] for r in table['rows']}
+        for ck_ in p['calc']['area_checks']:
+            vals = [floor2(_tri_area([P_[n] for n in ck_['values'][0]]))]
+            if len(ck_['values']) > 1:
+                vals.append(floor2(ck_['values'][1]))
+            want = ck_['fmt'].format(*vals)
+            if rows[ck_['row']][ck_['col']] != want:
+                err(pid, f"{ck_['row']}の床面積が座標と合わない（計算 {want!r}、記入 {rows[ck_['row']][ck_['col']]!r}）")
+        regs = {s_['name']: dict(map(tuple, s_['rows'])) for s_ in p['exam']['register']}
+        own = [v for s_ in regs.values() for k, v in s_.items() if '甲区' in k]
+        if len({o.split('所有者')[-1].strip() for o in own}) != 1:
+            err(pid, '所有者が同一でない')
+        tx = [it for it in items if it['id'] == 'tax']
+        n_ = p['calc']['tax_count']
+        if n_ and (not tx or tx[0]['answer'] != f'金{n_ * 1000:,}円'):
+            err(pid, f'登録免許税が{n_}個分でない')
+        if not n_ and tx:
+            err(pid, '課税されない登記に登録免許税の欄がある')
+    elif p.get('layout') == 'generic' and 'unit' in p['calc']:      # 建物の区分（PM-13）
+        u = p['calc']['unit']
+        tb_ = [it for it in items if it['kind'] == 'table' and it['id'] == 'bld'][0]
+        rows = {r['name']: r['cells'] for r in tb_['rows']}
+        want_u = floor2((6.00 - 0.10 - 0.10) * (6.00 - 0.10 - 0.10))
+        if abs(u['area'] - want_u) > 1e-9:
+            err(pid, '専有部分の内法の面積が合わない')
+        for k_ in ('（イ）部分', '（ロ）部分'):
+            if rows[k_][3] != f'1階　{want_u:.2f}\n2階　{want_u:.2f}':
+                err(pid, f'{k_}の床面積が合わない')
+        P_ = {k: tuple(v) for k, v in p['calc']['points'].items()}
+        tot = floor2(_tri_area([P_[k] for k in P_ if k.startswith('u')]))
+        if rows['区分前'][3] != f'1階　{tot:.2f}\n2階　{tot:.2f}':
+            err(pid, '区分前の床面積が座標と合わない')
+        tx = [it for it in items if it['id'] == 'tax'][0]['answer']
+        if tx != '金2,000円':
+            err(pid, '登録免許税が区分後の2個分でない')
     elif p.get('layout') == 'generic':      # 建物の合併（PM-11）
         P_ = {k: tuple(v) for k, v in p['calc']['points'].items()}
         o1 = floor2(poly_area([P_[k] for k in P_ if k.startswith('p')]))
