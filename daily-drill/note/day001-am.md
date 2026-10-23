@@ -8,7 +8,7 @@ day001-AM【土地家屋調査士】毎日ドリル朝｜択一1問＋条文の�
 
 - 画像に入れる番号：`day001-AM`（左上の緑のバッジ）
 - キャラクター：女性のMC1人だけ（トリ先生・藍子は入れない）。ChatGPTにはキャラクターシート MC-01〜MC-04 の4枚を添付して、次のプロンプトを貼る。
-- 画像の文字：1行目「毎日ドリル　朝」／2行目「択一と条文の空欄補充」（「空欄補充」を赤橙）／サブタイトル「土地家屋調査士　毎朝五分」
+- 画像の文字：1行目「毎日ドリル　朝」／2行目「択一と条文の空欄補充」（「空欄補充」を赤橙）／サブタイトル「土地家屋調査士　毎朝十五分」
 
 ### 見出し画像のプロンプト（ChatGPTに貼る）
 
@@ -30,7 +30,7 @@ TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title i
 Line 2 is larger; the phrase 空欄補充 is red-orange and the rest is dark navy:
 択一と条文の空欄補充
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-土地家屋調査士　毎朝五分
+土地家屋調査士　毎朝十五分
 NUMBERING BADGE: in the top-left corner, a small rounded green (#009775) pill with white bold half-width text, exactly this string and nothing else (lowercase letters "day", then the three digits, a hyphen, and capital letters):
 day001-AM
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
