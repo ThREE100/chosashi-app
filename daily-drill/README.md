@@ -19,6 +19,7 @@
 
 **記述式（夜）**
 - 計算（`evening/calc_exam.py`）：本番レベルの筆界点の計算。条件・聞き取り結果・注の文章と、地積測量図等の座標表・観測値の表、座標から正確に描いた図（`figure.py` の `svg_generic`）で出す。回答欄は問題文の最初に置く。複素数の式（方法A）で答えを出し、`check_pm.py` が三角関数・クラメルの公式・射影・二分法・三角形分割（方法B）で解き直して一致を確認。
+- 電卓操作（`evening/calc_keys.py`）：解答ページに、キヤノン F-789SG の複素数モードのキー列（式・キー・表示の3点セット）を載せる。キー列は `note-articles-Kijyutsu/tools/keysim_note_article.py` でそのまま実行して表示を再現し、`check_pm.py` が答えと一致することを確かめる（使うキーは note-articles-Kijyutsu の執筆指示書の「確認済みのキー操作」だけ。負の数は「0 − 数」で入れる）。問題を作り直したら `python3 daily-drill/evening/calc_exam.py` → `calc_keys.py` の順に実行する。
 - 申請書（`evening/gen_shinsei.py`）：土地2回・建物2回。登録免許税法・不動産登記令別表・規則・準則の原文を引用し、引用の原文照合に加え、問題文と条文だけを渡した別のエージェントに解かせて答えが一致することを確認。
 
 数値や論点を新しく作ったら `python3 daily-drill/check_all.py` がNG 0件になること。

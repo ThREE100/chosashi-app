@@ -214,6 +214,22 @@ def check_calc2(p):
         tot = floor2(poly_area([A_, B_, C_, D_]))
         _near(pid, '（ロ）', float(_ans(p, '分筆後の（ロ）')), tot - v['target'], 1e-9)
         _near(pid, 'EF', float(_ans(p, '分筆線EF')), math.hypot(Fr[0] - float(_ans(p, '点E')[0]), Fr[1] - float(_ans(p, '点E')[1])), 0.0051)
+    # 電卓（F-789SG）のキー列を実行して、答えと一致することを確かめる
+    sys.path.insert(0, os.path.join(HERE, 'evening'))
+    import calc_keys as ck
+    _, got = {'pm01': ck.pm01, 'pm04': ck.pm04, 'pm07': ck.pm07}[v['type']](p)
+    def eq(label, have, want):
+        if abs(float(have) - float(want)) > 1e-9:
+            err(pid, f'電卓のキー列の結果と答えが違う: {label} {have} ≠ {want}')
+    for nm, key in (('点P', 'P'), ('点Q', 'Q'), ('点R', 'R'), ('点H', 'H'), ('点I', 'I'), ('点J', 'J'), ('点E', 'E'), ('点F', 'F')):
+        if key in got and any(a['label'].startswith(nm) for a in p['answers']):
+            a = _ans(p, nm)
+            eq(nm + 'X', a[0], got[key][0]); eq(nm + 'Y', a[1], got[key][1])
+    for lab, key in (('12番の地積', 'area'), ('点Kから', 'dist'), ('分筆後の（ロ）', 'ro'), ('分筆線EF', 'ef')):
+        if key in got and any(a['label'].startswith(lab) for a in p['answers']):
+            eq(lab, _ans(p, lab), got[key])
+    if p.get('keys') is None:
+        err(pid, '電卓のキー列がない（evening/calc_keys.py を実行する）')
     # 構造チェック：回答欄が問題文の指示と合うこと、表に答えの点が載っていないこと
     names = {n for n, q in p['fig']['points'].items() if q['kind'] == 'unknown'}
     listed = {r[0] for t in p['tables'] for r in t['rows'] if t['cols'][0] == '点' and 'X（北）' in t['cols']}

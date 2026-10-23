@@ -361,5 +361,73 @@
    521.71,
    407.89
   ]
- }
+ },
+ "keys": [
+  {
+   "title": "点P・点Q（器械点T1から放射）",
+   "steps": [
+    {
+     "title": "割り当て",
+     "formula": "Y＝T1（器械点）、X＝T2（後視点）",
+     "keys": "545.28 [+] 409.64 [i] [SHIFT] [STO] [Y]\n543.9 [+] 388.15 [i] [SHIFT] [STO] [X]"
+    },
+    {
+     "title": "点P（放射）",
+     "formula": "P ＝ T1 ＋ 10.22∠( arg(T2 − T1) ＋ 339°02′24″ )",
+     "keys": "[ALPHA] [Y] [+] 10.22 [∠] [(] [Apps] [3] [ALPHA] [X] [−] [ALPHA] [Y] [)] [+] 339 [°′″] 2 [°′″] 24 [°′″] [)] [=]",
+     "display": "541.0200… ＋ 400.3501…i"
+    },
+    {
+     "title": "点Q（放射）",
+     "formula": "Q ＝ T1 ＋ 8.04∠( arg(T2 − T1) ＋ 220°13′50″ )",
+     "keys": "[ALPHA] [Y] [+] 8.04 [∠] [(] [Apps] [3] [ALPHA] [X] [−] [ALPHA] [Y] [)] [+] 220 [°′″] 13 [°′″] 50 [°′″] [)] [=]",
+     "display": "540.4912… ＋ 416.0983…i"
+    }
+   ]
+  },
+  {
+   "title": "点R（2直線の交点）",
+   "steps": [
+    {
+     "title": "割り当て",
+     "formula": "A＝K1、B＝K2、C＝S、D＝M",
+     "keys": "534.83 [+] 416.21 [i] [SHIFT] [STO] [A]\n527.28 [+] 416.37 [i] [SHIFT] [STO] [B]\n521.78 [+] 400.86 [i] [SHIFT] [STO] [C]\n521.71 [+] 407.89 [i] [SHIFT] [STO] [D]"
+    },
+    {
+     "title": "分子（iの係数）",
+     "formula": "Conjg(S − K1) × (M − S)",
+     "keys": "[Apps] [4] [ALPHA] [C] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [=]",
+     "display": "−106.997 − 92.816i"
+    },
+    {
+     "title": "分母（iの係数）",
+     "formula": "Conjg(K2 − K1) × (M − S)",
+     "keys": "[Apps] [4] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [=]",
+     "display": "1.6533 − 53.0653i"
+    },
+    {
+     "title": "点R",
+     "formula": "R ＝ K1 ＋ (K2 − K1) × 分子 ÷ 分母",
+     "keys": "[ALPHA] [A] [+] [(] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] [(] 0 [−] 92.816 [)] [÷] [(] 0 [−] 53.0653 [)] [=]",
+     "display": "521.6243… ＋ 416.4898…i"
+    }
+   ]
+  },
+  {
+   "title": "地積（座標法）",
+   "steps": [
+    {
+     "title": "割り当て（丸めた座標）",
+     "formula": "A＝P、B＝Q、C＝R、D＝S",
+     "keys": "541.02 [+] 400.35 [i] [SHIFT] [STO] [A]\n540.49 [+] 416.1 [i] [SHIFT] [STO] [B]\n521.62 [+] 416.49 [i] [SHIFT] [STO] [C]\n521.78 [+] 400.86 [i] [SHIFT] [STO] [D]"
+    },
+    {
+     "title": "面積（倍面積）",
+     "formula": "Conjg(R − P) × (S − Q)　のiの係数の絶対値 ÷ 2",
+     "keys": "[Apps] [4] [ALPHA] [C] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [B] [)] [=]",
+     "display": "117.0004 ＋ 597.6354i"
+    }
+   ]
+  }
+ ]
 }

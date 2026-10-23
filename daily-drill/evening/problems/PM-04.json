@@ -340,5 +340,92 @@
    306.1
   ],
   "off": 1.2
- }
+ },
+ "keys": [
+  {
+   "title": "点H・点I・点J・距離",
+   "steps": [
+    {
+     "title": "割り当て",
+     "formula": "A＝A、B＝B、C＝C、D＝D、E＝E、F＝F、Y＝K（Xは A′ に使う）",
+     "keys": "530.1 [+] 300.55 [i] [SHIFT] [STO] [A]\n509.3 [+] 300.13 [i] [SHIFT] [STO] [B]\n531.5 [+] 296.8 [i] [SHIFT] [STO] [C]\n531.1 [+] 330.6 [i] [SHIFT] [STO] [D]\n508.3 [+] 296.2 [i] [SHIFT] [STO] [E]\n508 [+] 330.1 [i] [SHIFT] [STO] [F]\n519.8 [+] 306.1 [i] [SHIFT] [STO] [Y]"
+    },
+    {
+     "title": "A′（ABを東へ1.20m、直角に）",
+     "formula": "A′ ＝ A ＋ 1.20 × (−i) × (B − A) ÷ Abs(B − A)　（ABはほぼ南北なので、−i倍が東向き）",
+     "keys": "[ALPHA] [A] [+] 1.2 [×] [(] 0 [−] 1 [i] [)] [×] [(] [ALPHA] [B] [−] [ALPHA] [A] [)] [÷] [Abs] [ALPHA] [B] [−] [ALPHA] [A] [)] [=]\n[SHIFT] [STO] [X]",
+     "display": "530.0757… ＋ 301.7497…i"
+    },
+    {
+     "title": "点Hの分子",
+     "formula": "Conjg(C − A′) × (D − C)　のiの係数",
+     "keys": "[Apps] [4] [ALPHA] [C] [−] [ALPHA] [X] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [=]",
+     "display": "−167.8714… ＋ 46.1589…i"
+    },
+    {
+     "title": "点Hの分母",
+     "formula": "Conjg(B − A) × (D − C)　のiの係数",
+     "keys": "[Apps] [4] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [=]",
+     "display": "−5.876 − 703.208i"
+    },
+    {
+     "title": "点H",
+     "formula": "H ＝ A′ ＋ (B − A) × 分子 ÷ 分母",
+     "keys": "[ALPHA] [X] [+] [(] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] 46.1589 [÷] [(] 0 [−] 703.208 [)] [=]",
+     "display": "531.4410… ＋ 301.7773…i"
+    },
+    {
+     "title": "Hを記憶（Cに上書き）",
+     "formula": "",
+     "keys": "531.44 [+] 301.78 [i] [SHIFT] [STO] [C]"
+    },
+    {
+     "title": "点Iの分子",
+     "formula": "Conjg(E − A′) × (F − E)　のiの係数",
+     "keys": "[Apps] [4] [ALPHA] [E] [−] [ALPHA] [X] [)] [×] [(] [ALPHA] [F] [−] [ALPHA] [E] [)] [=]",
+     "display": "−181.6039… − 739.8636…i"
+    },
+    {
+     "title": "点Iの分母",
+     "formula": "Conjg(B − A) × (F − E)　のiの係数",
+     "keys": "[Apps] [4] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [F] [−] [ALPHA] [E] [)] [=]",
+     "display": "−7.998 − 705.246i"
+    },
+    {
+     "title": "点I",
+     "formula": "I ＝ A′ ＋ (B − A) × 分子 ÷ 分母",
+     "keys": "[ALPHA] [X] [+] [(] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] [(] 0 [−] 739.8636 [)] [÷] [(] 0 [−] 705.246 [)] [=]",
+     "display": "508.2547… ＋ 301.3091…i"
+    },
+    {
+     "title": "Iを記憶（Dに上書き）",
+     "formula": "",
+     "keys": "508.25 [+] 301.31 [i] [SHIFT] [STO] [D]"
+    },
+    {
+     "title": "w（Kの、HからIへの割合）",
+     "formula": "w ＝ (K − H) ÷ (I − H)",
+     "keys": "[(] [ALPHA] [Y] [−] [ALPHA] [C] [)] [÷] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [=]\n[SHIFT] [STO] [A]",
+     "display": "0.4979… − 0.1963…i"
+    },
+    {
+     "title": "点J（垂線の足）",
+     "formula": "J ＝ H ＋ (I − H) × (w ＋ Conjg(w)) ÷ 2",
+     "keys": "[ALPHA] [C] [+] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [×] [(] [ALPHA] [A] [+] [Apps] [4] [ALPHA] [A] [)] [)] [÷] 2 [=]",
+     "display": "519.8922… ＋ 301.5459…i"
+    },
+    {
+     "title": "Jを記憶（Bに上書き）",
+     "formula": "",
+     "keys": "519.89 [+] 301.55 [i] [SHIFT] [STO] [B]"
+    },
+    {
+     "title": "KからJまでの距離",
+     "formula": "Abs(K − J)",
+     "keys": "[Abs] [ALPHA] [Y] [−] [ALPHA] [B] [)] [=]",
+     "display": "4.5508…"
+    }
+   ]
+  }
+ ]
 }

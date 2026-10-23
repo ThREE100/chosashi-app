@@ -244,5 +244,75 @@
   ],
   "d_AE": 9.5,
   "target": 280.0
- }
+ },
+ "keys": [
+  {
+   "title": "点E・点F・（ロ）の地積・EFの長さ",
+   "steps": [
+    {
+     "title": "割り当て",
+     "formula": "A＝A、B＝B、C＝C、D＝D",
+     "keys": "540.2 [+] 300 [i] [SHIFT] [STO] [A]\n539.4 [+] 326.1 [i] [SHIFT] [STO] [B]\n515.6 [+] 326.9 [i] [SHIFT] [STO] [C]\n516.3 [+] 300.6 [i] [SHIFT] [STO] [D]"
+    },
+    {
+     "title": "点E（ADの向きにAから9.50m）",
+     "formula": "E ＝ A ＋ (D − A) ÷ Abs(D − A) × 9.50",
+     "keys": "[ALPHA] [A] [+] [(] [ALPHA] [D] [−] [ALPHA] [A] [)] [÷] [Abs] [ALPHA] [D] [−] [ALPHA] [A] [)] [×] 9.5 [=]",
+     "display": "530.7029… ＋ 300.2384…i"
+    },
+    {
+     "title": "Eを記憶（Xに）",
+     "formula": "",
+     "keys": "530.7 [+] 300.24 [i] [SHIFT] [STO] [X]"
+    },
+    {
+     "title": "倍面積 p（t＝0のとき）",
+     "formula": "Conjg(B − A) × (E − B)　のiの係数（四角形ABFEの倍面積はF＝Bのとき）",
+     "keys": "[Apps] [4] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [X] [−] [ALPHA] [B] [)] [=]",
+     "display": "−667.986 ＋ 247.758i"
+    },
+    {
+     "title": "倍面積の増え方 q",
+     "formula": "Conjg(C − B) × (E − B)　のiの係数（Fが B→C へ t 進むと倍面積は p ＋ t × q）",
+     "keys": "[Apps] [4] [ALPHA] [C] [−] [ALPHA] [B] [)] [×] [(] [ALPHA] [X] [−] [ALPHA] [B] [)] [=]",
+     "display": "186.372 ＋ 622.428i"
+    },
+    {
+     "title": "t（倍面積が 2×280.00 になる位置）",
+     "formula": "t ＝ (560 − p) ÷ q　（pの符号に合わせて ±560.00）",
+     "keys": "[(] 560 [−] 247.758 [)] [÷] 622.428 [=]",
+     "display": "0.5016…"
+    },
+    {
+     "title": "点F",
+     "formula": "F ＝ B ＋ (C − B) × t",
+     "keys": "[ALPHA] [B] [+] [(] [ALPHA] [C] [−] [ALPHA] [B] [)] [×] 0.5016 [=]",
+     "display": "527.4619… ＋ 326.5012…i"
+    },
+    {
+     "title": "Fを記憶（Yに）",
+     "formula": "",
+     "keys": "527.46 [+] 326.5 [i] [SHIFT] [STO] [Y]"
+    },
+    {
+     "title": "検算：四角形ABFEの倍面積",
+     "formula": "Conjg(F − A) × (E − B)　のiの係数 ÷ 2 ≒ 280.00",
+     "keys": "[Apps] [4] [ALPHA] [Y] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [X] [−] [ALPHA] [B] [)] [=]",
+     "display": "−574.452 ＋ 560.0064i"
+    },
+    {
+     "title": "分筆前の倍面積",
+     "formula": "Conjg(C − A) × (D − B)　のiの係数 ÷ 2 ＝ 分筆前の面積",
+     "keys": "[Apps] [4] [ALPHA] [C] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [B] [)] [=]",
+     "display": "−117.69 ＋ 1248.69i"
+    },
+    {
+     "title": "分筆線EFの長さ",
+     "formula": "Abs(F − E)",
+     "keys": "[Abs] [ALPHA] [Y] [−] [ALPHA] [X] [)] [=]",
+     "display": "26.4591…"
+    }
+   ]
+  }
+ ]
 }

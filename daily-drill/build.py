@@ -93,14 +93,15 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
 .form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
 .tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
 code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 @page{size:A4;margin:0}
 @media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
 """
 
 
-def pages(title, bodies, foot='', right='条文は note-articles/laws/ の原文で照合済み'):
-    sheets = ''.join(f'<div class="sheet">{x}<div class="foot"><span>{E(foot)}　{i + 1}/{len(bodies)}</span><span>{E(right)}</span></div></div>' for i, x in enumerate(bodies))
+def pages(title, bodies, foot='', right='条文は note-articles/laws/ の原文で照合済み', flow=False):
+    sheets = ''.join(f'<div class="sheet{" flow" if flow else ""}">{x}<div class="foot"><span>{E(foot)}　{i + 1}/{len(bodies)}</span><span>{E(right)}</span></div></div>' for i, x in enumerate(bodies))
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<title>{E(title)}</title><style>{CSS}</style></head><body>{sheets}</body></html>')
 
@@ -303,10 +304,20 @@ def calc2_a(p):
     body = head(p['day'], '夜：解答', p['title'], 15)
     body += '<h2>答え</h2>' + calc2_answer_box(p, filled=True)
     body += f'<div class="figrow">{figure.svg_generic(p["fig"], reveal=True, vh=620)}</div>'
-    body += '<h2>解き方（複素数モード）</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li><code>{E(s)}</code></li>' for s in p['steps']) + '</ul>'
     body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
     body += '<h2>できたか</h2><ul class="chk"><li>□ 式が立てられた</li><li>□ 電卓で打てた</li><li>□ 検算した</li><li>□ 制限時間内に終わった</li></ul>'
-    return page(f'第{p["day"]}日 夜 解答', body, f'{p["id"]} 解答', flow=True, right='')
+    sheet1 = body
+    body2 = head(p['day'], '夜：解答（電卓操作）', 'キヤノン F-789SG・複素数モード（[MODE] [2]）。Z ＝ X ＋ Yi（X＝北、Y＝東）。負の数は「0 − 数」で入れる', 15)
+    for g in p['keys']:
+        body2 += f'<h2>{E(g["title"])}</h2>'
+        for s in g['steps']:
+            body2 += f'<div class="q">{E(s["title"])}</div>'
+            if s.get('formula'):
+                body2 += f'<p class="src" style="margin:0">式：{E(s["formula"])}</p>'
+            body2 += f'<pre class="keys">{E(s["keys"])}</pre>'
+            if s.get('display'):
+                body2 += f'<p class="ans" style="margin:.5mm 0 1.5mm">表示：<b>{E(s["display"])}</b></p>'
+    return pages(f'第{p["day"]}日 夜 解答', [sheet1, body2], f'{p["id"]} 解答', right='', flow=True)
 
 
 def pm_q(p):
