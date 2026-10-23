@@ -63,7 +63,7 @@ def build(day):
     pm = [p for p in pm if p['day'] == day][0]
     items = []
     for ampm, title, l1, l2, hl, sub, left, right, kj, body in (
-        ('AM', f'day{day:03d}-AM【土地家屋調査士】毎日ドリル朝｜択一1問＋条文の空欄補充',
+        ('AM', f'【土地家屋調査士試験】毎日ドリル day{day:03d}-AM｜朝10分・択一＋条文の空欄補充',
          '毎日ドリル　朝', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝10分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:02d}-am.html（問題）／out/day{day:02d}-am-ans.html（解答）'),
         ('PM', None, '毎日ドリル　夜', None, None, '土地家屋調査士　記述式　毎晩15分', None, None, '記、述、練、習', f'out/day{day:02d}-pm.html（問題）／out/day{day:02d}-pm-ans.html（解答）')):
         if ampm == 'PM':
@@ -71,7 +71,7 @@ def build(day):
             l2, hl, left, right = PM_TOPIC[key]
             l2, hl, left, right = PM_TOPIC[key][0], PM_TOPIC[key][1], PM_TOPIC[key][2], PM_TOPIC[key][3]
             what = '座標計算の練習' if pm['kind'] == 'calc' else '申請書の欄の練習'
-            title = f'day{day:03d}-PM【土地家屋調査士】毎日ドリル夜｜記述式（{what}）'
+            title = f'【土地家屋調査士試験】毎日ドリル day{day:03d}-PM｜夜15分・記述式の{what}'
         badge = f'day{day:03d}-{ampm}'
         pr = prompt(badge, l1, l2, hl, sub, left, right, kj)
         md = f"""# {badge}
