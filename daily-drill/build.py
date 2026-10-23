@@ -109,7 +109,7 @@ def am_q(p):
     body += '<p>解答：<span class="box"></span></p>'
     w = p['write']
     if 'cloze' in w:
-        body += f'<h2>条文の空欄補充（10分）　<span class="src">見出しの語は原文どおり、空欄にキーワードを</span></h2><p>{E(w["prompt"])}</p>{cloze_html(w)}'
+        body += f'<h2>条文の空欄補充（10分）　<span class="src">条文のキーワードを空欄に</span></h2><p>{E(w["prompt"])}</p>{cloze_html(w)}'
     else:
         body += f'<h2>書いて説明（10分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(w["prompt"])}</p>{lines(104)}'
     return page(f'第{p["day"]}日 朝 問題', body, f'{p["id"]}')

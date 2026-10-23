@@ -116,8 +116,9 @@ def check_cloze(pid, w):
     b0 = w['basis'][0]
     art = normalize(article(b0['law'], b0['article']) or '')
     for ln in filled:
-        if normalize(ln) not in art:
-            err(pid, f'埋めた文が{b0["law"]}{b0["article"]}の原文と一致しない「{ln[:24]}…」')
+        for seg in ln.split('…'):   # 「…」は条文の言葉の省略。前後の各部分が原文に一字一句あること
+            if normalize(seg) not in art:
+                err(pid, f'埋めた文が{b0["law"]}{b0["article"]}の原文と一致しない「{seg[:24]}」')
     for a in w['blanks']:
         if len(a) > 12:
             err(pid, f'空欄の答え「{a}」が長い（キーワードだけを空欄にする）')
