@@ -199,9 +199,11 @@ def exam_body(p):
     right = '<h2>' + ex.get('register_title', '登記記録' if p['form_type'] == 'land' else '土地の登記記録') + '</h2>'
     for sec in ex['register']:
         right += f'<table class="reg"><caption>{E(sec["name"])}</caption>' + ''.join(f'<tr><th>{E(k)}</th><td>{E(v)}</td></tr>' for k, v in sec['rows']) + '</table>'
-    if p.get('layout') == 'generic':
-        c = p['calc']
-        names = p['coords']
+    if p.get('layout') == 'none':
+        pass
+    elif p.get('layout') == 'generic':
+        c = p.get('calc', {})
+        names = p.get('coords', [])
         right += '<h2>' + ex.get('fig_title', '現況（座標は平面直角座標系）') + '</h2>'
         right += f'<div class="figrow">{figure.svg_generic(p["fig"], vh=560)}</div>'
         if names:

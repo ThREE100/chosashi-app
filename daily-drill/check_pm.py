@@ -47,6 +47,46 @@ def floor2(v):
     return math.floor(v * 100 + 1e-9) / 100
 
 
+def check_module(p, items):
+    """書式ひな形ドリル（evening/forms/pmNN.py）の共通チェック。"""
+    pid = p['id']
+    c = p.get('calc', {})
+    tables = {it['id']: it for it in items if it['kind'] == 'table'}
+    if not tables:
+        err(pid, '表（土地／建物の表示など）がない')
+    P_ = {k: tuple(v) for k, v in c.get('points', {}).items()}
+    for ck_ in c.get('area_checks', []):
+        tb = tables[ck_.get('table', next(iter(tables)))]
+        rows = {r['name']: r['cells'] for r in tb['rows']}
+        vals = []
+        for v in ck_['values']:
+            if isinstance(v, list) and all(isinstance(x, str) for x in v):
+                vals.append(floor2(_tri_area([P_[n] for n in v])))
+            elif isinstance(v, list):          # 複数の多角形を合わせた面積（合わせてから1回切り捨て）
+                vals.append(floor2(sum(_tri_area([P_[n] for n in poly]) for poly in v)))
+            else:
+                vals.append(floor2(v) if ck_.get('floor', True) else v)
+        want = ck_['fmt'].format(*vals)
+        if ck_['row'] not in rows:
+            err(pid, f"面積チェックの行「{ck_['row']}」が表にない")
+        elif rows[ck_['row']][ck_['col']] != want:
+            err(pid, f"{ck_['row']}の値が座標・寸法から求めた値と合わない（計算 {want!r}、記入 {rows[ck_['row']][ck_['col']]!r}）")
+    if 'tax_count' in c:
+        tx = [it for it in items if it['id'] == 'tax']
+        n_ = c['tax_count']
+        if n_ and (not tx or tx[0]['answer'] != f'金{n_ * 1000:,}円'):
+            err(pid, f'登録免許税が{n_}個分（金{n_ * 1000:,}円）でない')
+        if not n_ and tx:
+            err(pid, '課税されない登記に登録免許税の欄がある')
+    for k in ('lead', 'facts', 'register', 'notes'):
+        if not p['exam'].get(k):
+            err(pid, f'exam.{k} がない')
+    if len(p['exam']['facts']) < 4:
+        err(pid, '事実関係が少ない（4項目以上）')
+    if not any('約束' in n or '書く' in n for n in p['exam']['notes']):
+        err(pid, '注に答案用紙の書き方の約束がない')
+
+
 def check_shinsei2(p):
     pid = p['id']
     items = p['form']['items']
@@ -56,6 +96,9 @@ def check_shinsei2(p):
                 err(pid, f"欄「{it['label']}」に根拠も転記の印もない")
         for b in it.get('basis', []):
             quote_ok(pid, it['label'], b)
+    if p.get('module'):
+        check_module(p, items)
+        return
     table = [it for it in items if it['kind'] == 'table'][0]
     if p.get('layout') == 'generic' and p['form_type'] == 'land' and 'merge' in p['calc']:      # 土地合筆（PM-15）
         c = p['calc']
@@ -409,6 +452,9 @@ def check_draw(p):
 
 def main():
     files = sorted(glob.glob(os.path.join(HERE, 'evening', 'problems', '*.json')))
+    only = set(a for a in sys.argv[1:] if a.startswith('PM-'))
+    if only:
+        files = [f for f in files if os.path.basename(f)[:-5] in only]
     for fp in files:
         p = json.load(open(fp, encoding='utf-8'))
         pid = p['id']
