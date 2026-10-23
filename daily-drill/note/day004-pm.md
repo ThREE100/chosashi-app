@@ -8,7 +8,7 @@
 
 - 画像に入れる番号：`Day004-PM`（左上の緑のバッジ）
 - キャラクター：女性のMC1人だけ（トリ先生・藍子は入れない）。ChatGPTにはキャラクターシート MC-01〜MC-04 の4枚を添付して、次のプロンプトを貼る。
-- 画像の文字：1行目「毎日ドリル　夜」／2行目「記述式の計算練習」（「計算練習」を赤橙）／サブタイトル「土地家屋調査士　記述式　毎晩15分」
+- 画像の文字：1行目「毎日これだけ」／2行目「記述式の計算練習」（「計算練習」を赤橙）／サブタイトル「土地家屋調査士　記述式　毎晩15分」
 
 ### 見出し画像のプロンプト（ChatGPTに貼る）
 
@@ -26,7 +26,7 @@ CRITICAL TEXT REQUIREMENT: The title and the subtitle must be rendered in standa
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
 TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
-毎日ドリル　夜
+毎日これだけ
 Line 2 is larger; the phrase 計算練習 is red-orange and the rest is dark navy:
 記述式の計算練習
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:

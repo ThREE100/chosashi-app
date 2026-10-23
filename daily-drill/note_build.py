@@ -69,8 +69,8 @@ def build(day):
     items = []
     for ampm, title, l1, l2, hl, sub, left, right, kj, body in (
         ('AM', TITLE_AM.format(day=day),
-         '毎日ドリル　朝', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝10分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:02d}-am.html（問題）／out/day{day:02d}-am-ans.html（解答）'),
-        ('PM', None, '毎日ドリル　夜', None, None, '土地家屋調査士　記述式　毎晩15分', None, None, '記、述、練、習', f'out/day{day:02d}-pm.html（問題）／out/day{day:02d}-pm-ans.html（解答）')):
+         '毎朝ドリル', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝10分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:02d}-am.html（問題）／out/day{day:02d}-am-ans.html（解答）'),
+        ('PM', None, '毎日これだけ', None, None, '土地家屋調査士　記述式　毎晩15分', None, None, '記、述、練、習', f'out/day{day:02d}-pm.html（問題）／out/day{day:02d}-pm-ans.html（解答）')):
         if ampm == 'PM':
             key = pm['type'] if pm['kind'] == 'calc' else 'shinsei'
             l2, hl, left, right = PM_TOPIC[key]
