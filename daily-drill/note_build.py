@@ -34,7 +34,7 @@ Fill the whole canvas with the pastel sky and soft clouds.
 
 CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent or change any of them. Place her at the bottom center. POSE IS NOT FIXED: do not copy any pose from the attached images or from earlier header images; let her take a free, natural pose of your own choosing that fits the topic and suits her (for example standing, sitting, leaning, gesturing, or holding a small prop), and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text, and keep her hairstyle exactly as in the attached images. Keep her human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
 
-CRITICAL TEXT REQUIREMENT: The title and the subtitle must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, with no Latin letters and no digits. The ONLY exception is the numbering badge described below, which is half-width Latin letters, digits, and a hyphen, written exactly as given. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
+CRITICAL TEXT REQUIREMENT: The title and the subtitle must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, with no Latin letters and no digits. There are exactly two exceptions: (1) the numbering badge described below, which is half-width Latin letters, digits, and a hyphen, written exactly as given; and (2) the number 15 in the subtitle band, which must be the half-width Arabic digits 1 and 5 (never kanji numerals), written exactly as given. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
@@ -54,7 +54,7 @@ Right side: {right}
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character, the title, and the numbering badge away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the numbering badge ({badge}), the two title lines, and the subtitle, reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji {kj}; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is."""
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the numbering badge ({badge}), the two title lines, and the subtitle (whose number 15 is written with Arabic digits), reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji {kj}; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is."""
 
 
 def build(day):
@@ -64,8 +64,8 @@ def build(day):
     items = []
     for ampm, title, l1, l2, hl, sub, left, right, kj, body in (
         ('AM', f'day{day:03d}-AM【土地家屋調査士】毎日ドリル朝｜択一1問＋条文の空欄補充',
-         '毎日ドリル　朝', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝十五分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:02d}-am.html（問題）／out/day{day:02d}-am-ans.html（解答）'),
-        ('PM', None, '毎日ドリル　夜', None, None, '土地家屋調査士　記述式　毎晩十五分', None, None, '記、述、練、習', f'out/day{day:02d}-pm.html（問題）／out/day{day:02d}-pm-ans.html（解答）')):
+         '毎日ドリル　朝', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝15分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:02d}-am.html（問題）／out/day{day:02d}-am-ans.html（解答）'),
+        ('PM', None, '毎日ドリル　夜', None, None, '土地家屋調査士　記述式　毎晩15分', None, None, '記、述、練、習', f'out/day{day:02d}-pm.html（問題）／out/day{day:02d}-pm-ans.html（解答）')):
         if ampm == 'PM':
             key = pm['type'] if pm['kind'] == 'calc' else 'shinsei'
             l2, hl, left, right = PM_TOPIC[key]
@@ -100,7 +100,7 @@ def build(day):
         open(fn, 'w', encoding='utf-8').write(md)
         items.append(fn)
         # 簡易チェック：番号のバッジ以外に英数字が画像の文字に入っていない
-        for s in (l1, l2, sub):
+        for s in (l1, l2):
             assert not re.search(r'[0-9A-Za-z０-９]', s), s
     return items
 
