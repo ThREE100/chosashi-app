@@ -57,7 +57,22 @@ def check_shinsei2(p):
         for b in it.get('basis', []):
             quote_ok(pid, it['label'], b)
     table = [it for it in items if it['kind'] == 'table'][0]
-    if p.get('layout') == 'generic' and p['form_type'] == 'land':
+    if p.get('layout') == 'generic' and p['form_type'] == 'land' and 'merge' in p['calc']:      # 土地合筆（PM-15）
+        c = p['calc']
+        P_ = {k: tuple(v) for k, v in c['points'].items()}
+        m_ = c['merge']
+        a5 = floor2(_tri_area([P_[k] for k in m_['lot5']])); a6 = floor2(_tri_area([P_[k] for k in m_['lot6']]))
+        if (a5, a6) != (m_['reg5'], m_['reg6']):
+            err(pid, f'登記記録の地積と座標が合わない（計算 {a5}, {a6}）')
+        rows = {r['name']: r['cells'] for r in table['rows']}
+        if rows['合筆後'][3] != f'{a5 + a6:.2f}' or rows['合筆前（合筆先）'][3] != f'{a5:.2f}' or rows['合筆前（6番）'][3] != f'{a6:.2f}':
+            err(pid, '合筆の表の地積が合わない')
+        regs = {s_['name']: dict(map(tuple, s_['rows'])) for s_ in p['exam']['register']}
+        if regs['5番の土地 権利部（甲区・乙区）']['乙区 1番'] != regs['6番の土地 権利部（甲区・乙区）']['乙区 1番']:
+            err(pid, '2筆の抵当権が同一でない（規則第105条第2号の設計が崩れる）')
+        if [it for it in items if it['id'] == 'tax'][0]['answer'] != '金1,000円':
+            err(pid, '登録免許税が合筆後の1個分でない')
+    elif p.get('layout') == 'generic' and p['form_type'] == 'land':
         c = p['calc']
         P = {k: tuple(v) for k, v in c['points'].items()}
         at = poly_area([P[n] for n in 'ABCD'])
