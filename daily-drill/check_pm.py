@@ -103,6 +103,14 @@ def check_shinsei2(p):
                 err(pid, f"欄「{it['label']}」に根拠も転記の印もない")
         for b in it.get('basis', []):
             quote_ok(pid, it['label'], b)
+    # 合筆・合体による登記等・建物の合併を所有権の登記名義人が申請するとき（登記識別情報を提供するとき）は、印鑑証明書も要る
+    # （令第18条第2項、規則第47条第3号イ（6）。会社法人等番号を提供するときは規則第48条第1号で省略できる）
+    fl = {it['id']: it for it in items if it['kind'] == 'field'}
+    pu, at = fl.get('purpose', {}).get('answer', ''), fl.get('attach', {}).get('answer', '')
+    if re.search('合筆|合併|合体', pu) and '登記識別情報' in at and '会社法人等番号' not in at and '印鑑証明書' not in at:
+        err(pid, '合筆・合体・合併で登記識別情報を提供するのに、添付情報に印鑑証明書がない（規則第47条第3号イ（6））')
+    if '提供しないものとして答える' in json.dumps(p['exam']['notes'], ensure_ascii=False) and '印鑑証明書' in json.dumps(p['exam']['notes'], ensure_ascii=False) and re.search('合筆|合併|合体', pu):
+        err(pid, '合筆・合体・合併の問で「印鑑証明書は提供しないものとして答える」の約束がある（本番の答案と逆の癖がつく）')
     if p.get('module'):
         check_module(p, items)
         return
