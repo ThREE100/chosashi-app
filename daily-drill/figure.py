@@ -186,3 +186,84 @@ def svg(p, reveal=False):
             f'font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, Meiryo, sans-serif">'
             f'<rect x="2" y="2" width="{W - 4}" height="{H - 4}" fill="#fff" stroke="#cfd8d4" stroke-width="3" rx="14"/>'
             + ''.join(parts) + '</svg>')
+
+
+# ---------- 申請書ドリル用の図 ----------
+def svg_land(p):
+    """土地分筆：区画 A-B-C-D と分筆線 E-F。点の座標は図に重ねず、別の座標表に出す。"""
+    c = p['calc']
+    P = {k: tuple(v) for k, v in c['points'].items()}
+    f = Fig(list(P.values()))
+    xy = {k: f.xy(v) for k, v in P.items()}
+    parts = []
+    for key, fill in (('i', '#e8f4f0'), ('ro', '#fdf3e3')):
+        pts = c['polys'][key]
+        parts.append('<polygon points="' + ' '.join(f'{xy[n][0]:.1f},{xy[n][1]:.1f}' for n in pts) + f'" fill="{fill}" stroke="{INK}" stroke-width="4" stroke-linejoin="round"/>')
+    parts.append(_line(xy['E'], xy['F'], dash=True, color=ACC, w=6))
+    for key, name in (('i', c['names']['i']), ('ro', c['names']['ro'])):
+        pts = c['polys'][key]
+        cx = sum(xy[n][0] for n in pts) / len(pts)
+        cy = sum(xy[n][1] for n in pts) / len(pts)
+        parts.append(_label((cx, cy), name, dx=0, dy=10, size=46, color=MUTE, anchor='middle'))
+    for n in P:
+        parts.append(_pt(xy[n], n, 'given'))
+    ex, ey = xy['E'], xy['F']
+    parts.append(_label(((ex[0] + ey[0]) / 2, (ex[1] + ey[1]) / 2), '分筆線', dx=0, dy=-12, size=28, color=ACC, anchor='middle'))
+    parts.append(_north())
+    return (f'<svg class="fig" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" '
+            f'font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, Meiryo, sans-serif">'
+            f'<rect x="2" y="2" width="{W - 4}" height="{H - 4}" fill="#fff" stroke="#cfd8d4" stroke-width="3" rx="14"/>' + ''.join(parts) + '</svg>')
+
+
+def svg_plan(p):
+    """建物新築：各階平面図（寸法は壁の中心線間）。図形は外形の頂点（m）から描き、辺の長さを寸法として出す。"""
+    pl = p['plan']
+    gap = 2.4
+    total_h = sum(max(y for _, y in fl['outline']) - min(y for _, y in fl['outline']) for fl in pl['floors']) + gap * (len(pl['floors']) - 1)
+    total_w = max(max(x for x, _ in fl['outline']) for fl in pl['floors'])
+    extras_w = max((e['rect'][2] for e in pl.get('extras', [])), default=0)
+    total_w = max(total_w, extras_w)
+    HP = 1000
+    s = min((W - PAD - 160) / total_w, (HP - 2 * PAD - 40) / total_h)
+    parts = []
+    y_top = PAD + 40
+    for fl in pl['floors']:
+        ys = [y for _, y in fl['outline']]
+        h = max(ys) - min(ys)
+        ymax = max(ys)
+
+        def tr(pt, ymax=ymax, y_top=y_top):
+            return PAD + pt[0] * s, y_top + (ymax - pt[1]) * s
+        pts = [tr(q) for q in fl['outline']]
+        parts.append('<polygon points="' + ' '.join(f'{a:.1f},{b:.1f}' for a, b in pts) + f'" fill="#f4f8f6" stroke="{INK}" stroke-width="5" stroke-linejoin="round"/>')
+        # 辺の寸法
+        n = len(pts)
+        cxm = sum(a for a, _ in pts) / n
+        cym = sum(b for _, b in pts) / n
+        for i in range(n):
+            q0, q1 = fl['outline'][i], fl['outline'][(i + 1) % n]
+            ln = abs(q1[0] - q0[0]) + abs(q1[1] - q0[1])
+            m = ((pts[i][0] + pts[(i + 1) % n][0]) / 2, (pts[i][1] + pts[(i + 1) % n][1]) / 2)
+            vx, vy = m[0] - cxm, m[1] - cym
+            if abs(q1[1] - q0[1]) < 1e-9:        # 横の辺：上下に出す
+                dy = -14 if vy < 0 else 34
+                parts.append(_label(m, f'{ln:.2f}', dx=0, dy=dy, size=26, color=INK, anchor='middle', weight='500'))
+            else:                                 # 縦の辺：左右に出す
+                dx = -14 if vx < 0 else 14
+                parts.append(_label(m, f'{ln:.2f}', dx=dx, dy=9, size=26, color=INK, anchor='start' if vx >= 0 else 'end', weight='500'))
+        for e in pl.get('extras', []):
+            if e['floor'] != fl['name']:
+                continue
+            x0, y0, x1, y1 = e['rect']
+            a, b = tr((x0, y1)), tr((x1, y0))
+            fill = 'url(#hatch)' if e['style'] == 'hatch' else 'none'
+            dash = ' stroke-dasharray="10 7"' if e['style'] == 'dotted' else ''
+            parts.append(f'<rect x="{a[0]:.1f}" y="{a[1]:.1f}" width="{b[0] - a[0]:.1f}" height="{b[1] - a[1]:.1f}" fill="{fill}" stroke="{ACC if e["style"] == "dotted" else MUTE}" stroke-width="3"{dash}/>')
+            parts.append(_label(((a[0] + b[0]) / 2, (a[1] + b[1]) / 2), e['name'], dx=0, dy=8, size=24, color=ACC if e['style'] == 'dotted' else MUTE, anchor='middle', weight='500'))
+        parts.append(_label((PAD, y_top - 18 + (max(ys) - max(ys)) * s), fl['name'], dx=0, dy=-4, size=38, color=INK))
+        y_top += (h + gap) * s
+    parts.append(_north(x=W - 70, y=130))
+    defs = f'<defs><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="12" stroke="{MUTE}" stroke-width="3"/></pattern></defs>'
+    return (f'<svg class="fig" viewBox="0 0 {W} {HP}" xmlns="http://www.w3.org/2000/svg" role="img" '
+            f'font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, Meiryo, sans-serif">{defs}'
+            f'<rect x="2" y="2" width="{W - 4}" height="{HP - 4}" fill="#fff" stroke="#cfd8d4" stroke-width="3" rx="14"/>' + ''.join(parts) + '</svg>')

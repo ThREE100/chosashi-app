@@ -62,10 +62,39 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .coord th{background:var(--soft);font-weight:500;text-align:center}
 .coord td.n{text-align:center;font-weight:700}
 .coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
 code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 @page{size:A4;margin:0}
 @media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
 """
+
+
+def pages(title, bodies, foot='', right='条文は note-articles/laws/ の原文で照合済み'):
+    sheets = ''.join(f'<div class="sheet">{x}<div class="foot"><span>{E(foot)}　{i + 1}/{len(bodies)}</span><span>{E(right)}</span></div></div>' for i, x in enumerate(bodies))
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<title>{E(title)}</title><style>{CSS}</style></head><body>{sheets}</body></html>')
 
 
 def page(title, body, foot='', flow=False, right='条文は note-articles/laws/ の原文で照合済み'):
@@ -149,6 +178,52 @@ def am_a(p):
 
 
 # ---------- 夜 ----------
+def exam_body(p):
+    ex = p['exam']
+    body = head(p['day'], '夜：記述式ドリル（問題）', p['title'], 15)
+    left = '<h2>事実関係</h2><ol>' + ''.join(f'<li>{E(x)}</li>' for x in ex['facts']) + '</ol>'
+    left += '<h2>注</h2><ol class="notes">' + ''.join(f'<li>{E(x)}</li>' for x in ex['notes']) + '</ol>'
+    right = '<h2>' + ('登記記録' if p['form_type'] == 'land' else '土地の登記記録') + '</h2>'
+    for sec in ex['register']:
+        right += f'<table class="reg"><caption>{E(sec["name"])}</caption>' + ''.join(f'<tr><th>{E(k)}</th><td>{E(v)}</td></tr>' for k, v in sec['rows']) + '</table>'
+    if p['form_type'] == 'land':
+        c = p['calc']
+        names = list(c['points'].keys())
+        right += '<h2>測量成果（座標は平面直角座標系）</h2>'
+        right += f'<div class="figrow">{figure.svg_land(p)}</div>'
+        right += '<div class="coord"><table><tr><th>点</th>' + ''.join(f'<th>{n}</th>' for n in names) + '</tr>'
+        right += '<tr><th>X（北）</th>' + ''.join(f'<td>{c["points"][n][0]:.2f}</td>' for n in names) + '</tr>'
+        right += '<tr><th>Y（東）</th>' + ''.join(f'<td>{c["points"][n][1]:.2f}</td>' for n in names) + '</tr></table></div>'
+    else:
+        right += '<h2>各階平面図</h2>' + f'<div class="figrow">{figure.svg_plan(p)}</div>'
+        right += '<p style="font-size:8.2pt;color:var(--mute);line-height:1.5">' + '　'.join(E(x) for x in p['plan']['legend'] if x) + '</p>'
+    body += f'<div class="ex"><p>{E(ex["lead"])}</p><div class="g2"><div>{left}</div><div>{right}</div></div></div>'
+    return body
+
+
+def form_body(p, answers=False):
+    f = p['form']
+    body = head(p['day'], '夜：記述式ドリル（答案用紙）' if not answers else '夜：解答（記入例）', '白紙の申請書に記入する' if not answers else p['title'], 15)
+    out = f'<div class="form"><div class="ttl">{E(f["title"])}</div>'
+    for it in f['items']:
+        if it['kind'] == 'field':
+            h = 9 + 7 * (it['lines'] - 1)
+            v = E(it['answer']) if answers else ''
+            out += f'<div class="row"><div class="lb">{E(it["label"])}</div><div class="val" style="min-height:{h}mm">{v}</div></div>'
+        else:
+            th = '<tr>' + ''.join(f'<th>{E(c)}</th>' for c in it['cols']) + '</tr>'
+            trs = ''
+            for r in it['rows']:
+                rn = f'<td class="rn">{E(r["name"])}</td>' if it['cols'][0] == '' else ''
+                cells = ''.join(f'<td>{E(c) if answers else ""}</td>' for c in r['cells'])
+                trs += f'<tr>{rn}{cells}</tr>'
+            if it['cols'][0] != '' and not any(r['name'] for r in it['rows']):
+                pass
+            out += f'<div class="row"><div class="lb">{E(it["label"])}</div><div class="val tbl-wrap" style="padding:0"><table class="t">{th}{trs}</table></div></div>'
+    out += '</div>'
+    return body + out
+
+
 def coord_table(p):
     """与えられた点の座標表（求める点は載せない）。図の下に横長で置く。"""
     g = p['given']
@@ -167,6 +242,8 @@ def coord_table(p):
 
 
 def pm_q(p):
+    if p['kind'] == 'shinsei2':
+        return pages(f'第{p["day"]}日 夜 問題', [exam_body(p), form_body(p)], p['id'])
     body = head(p['day'], '夜：記述式ドリル', p['title'], 15)
     if p['kind'] == 'calc':
         intro = {'radial': 'T1に器械を据え、T2を後視して、次の点を観測した。', 'area': '次の4点で囲まれた四角形ABCDの土地（地目は宅地）がある。'}.get(p['type'], '次の点の座標が与えられている。')
@@ -186,6 +263,13 @@ def pm_q(p):
 
 
 def pm_a(p):
+    if p['kind'] == 'shinsei2':
+        body = form_body(p, answers=True)
+        for it in p['form']['items']:
+            body += f'<div class="q">{E(it["label"])}</div>'
+            body += ''.join(quote_block(x) for x in it['basis'])
+            body += f'<p class="src">{E(it["note"])}</p>'
+        return page(f'第{p["day"]}日 夜 解答', body, f'{p["id"]} 解答', flow=True)
     body = head(p['day'], '夜：解答', p['title'], 15)
     if p['kind'] == 'calc':
         g = p['given']
