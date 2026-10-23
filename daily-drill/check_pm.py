@@ -214,22 +214,62 @@ def check_calc2(p):
         tot = floor2(poly_area([A_, B_, C_, D_]))
         _near(pid, '（ロ）', float(_ans(p, '分筆後の（ロ）')), tot - v['target'], 1e-9)
         _near(pid, 'EF', float(_ans(p, '分筆線EF')), math.hypot(Fr[0] - float(_ans(p, '点E')[0]), Fr[1] - float(_ans(p, '点E')[1])), 0.0051)
+    for b_ in p.get('basis', []):
+        quote_ok(pid, '根拠', b_)
     # 電卓（F-789SG）のキー列を実行して、答えと一致することを確かめる
     sys.path.insert(0, os.path.join(HERE, 'evening'))
     import calc_keys as ck
-    _, got = {'pm01': ck.pm01, 'pm04': ck.pm04, 'pm07': ck.pm07}[v['type']](p)
+    _, got = {'pm01': ck.pm01, 'pm04': ck.pm04, 'pm07': ck.pm07, 'pm08': ck.pm08}[v['type']](p)
     def eq(label, have, want):
         if abs(float(have) - float(want)) > 1e-9:
             err(pid, f'電卓のキー列の結果と答えが違う: {label} {have} ≠ {want}')
-    for nm, key in (('点P', 'P'), ('点Q', 'Q'), ('点R', 'R'), ('点H', 'H'), ('点I', 'I'), ('点J', 'J'), ('点E', 'E'), ('点F', 'F')):
+    for nm, key in (('点P', 'P'), ('点Q', 'Q'), ('点R', 'R'), ('点H', 'H'), ('点I', 'I'), ('点J', 'J'), ('点E', 'E'), ('点F', 'F'), ('点C', 'C'), ('点D', 'D')):
         if key in got and any(a['label'].startswith(nm) for a in p['answers']):
             a = _ans(p, nm)
             eq(nm + 'X', a[0], got[key][0]); eq(nm + 'Y', a[1], got[key][1])
-    for lab, key in (('12番の地積', 'area'), ('点Kから', 'dist'), ('分筆後の（ロ）', 'ro'), ('分筆線EF', 'ef')):
+    for lab, key in (('12番の地積', 'area'), ('（イ）の地積', 'ai'), ('（ロ）の地積', 'ar'), ('分筆後の地積の合計', 'diff'), ('誤差の限度', 'kk'), ('点Kから', 'dist'), ('分筆後の（ロ）', 'ro'), ('分筆線EF', 'ef')):
         if key in got and any(a['label'].startswith(lab) for a in p['answers']):
             eq(lab, _ans(p, lab), got[key])
     if p.get('keys') is None:
         err(pid, '電卓のキー列がない（evening/calc_keys.py を実行する）')
+    if v['type'] == 'pm08':
+        T1, T2, A_, B_, K1, K2, S = (A(k) for k in ('T1', 'T2', 'A', 'B', 'K1', 'K2', 'S'))
+        o = v['obs']['C']
+        az = math.atan2(T2[1] - T1[1], T2[0] - T1[0])
+        ang = math.radians(o['angle'][0] + o['angle'][1] / 60 + o['angle'][2] / 3600)
+        Cc = (T1[0] + o['dist'] * math.cos(az + ang), T1[1] + o['dist'] * math.sin(az + ang))
+        ans = _ans(p, '点C')
+        _near(pid, '点CX', float(ans[0]), Cc[0]); _near(pid, '点CY', float(ans[1]), Cc[1])
+        Cr = tuple(map(float, ans))
+        Dd = _line_pt(K1, K2, Cr, S)
+        ans = _ans(p, '点D')
+        _near(pid, '点DX', float(ans[0]), Dd[0]); _near(pid, '点DY', float(ans[1]), Dd[1])
+        Dr = tuple(map(float, ans))
+        la = math.hypot(B_[0] - A_[0], B_[1] - A_[1])
+        Ee = (A_[0] + (B_[0] - A_[0]) / la * v['d_AE'], A_[1] + (B_[1] - A_[1]) / la * v['d_AE'])
+        ld = math.hypot(Cr[0] - Dr[0], Cr[1] - Dr[1])
+        Ff = (Dr[0] + (Cr[0] - Dr[0]) / ld * v['d_DF'], Dr[1] + (Cr[1] - Dr[1]) / ld * v['d_DF'])
+        ans = _ans(p, '点E'); _near(pid, '点EX', float(ans[0]), Ee[0]); _near(pid, '点EY', float(ans[1]), Ee[1])
+        ans = _ans(p, '点F'); _near(pid, '点FX', float(ans[0]), Ff[0]); _near(pid, '点FY', float(ans[1]), Ff[1])
+        Er, Fr = tuple(map(float, _ans(p, '点E'))), tuple(map(float, _ans(p, '点F')))
+        ai = floor2(_tri_area([A_, Er, Fr, Dr])); ar = floor2(_tri_area([Er, B_, Cr, Fr]))
+        _near(pid, '（イ）', float(_ans(p, '（イ）')), ai, 1e-9); _near(pid, '（ロ）', float(_ans(p, '（ロ）')), ar, 1e-9)
+        diff = round(ai + ar - v['reg'], 2)
+        _near(pid, '差', float(_ans(p, '分筆後の地積の合計')), diff, 1e-9)
+        kk = (0.05 + 0.01 * v['reg'] ** 0.25) * math.sqrt(v['reg'])
+        _near(pid, '誤差の限度', float(_ans(p, '誤差の限度')), math.floor(kk * 100 + 1e-9) / 100, 1e-9)
+        need = abs(diff) > math.floor(kk * 100 + 1e-9) / 100
+        if (_ans(p, '地積に関する更正') == '必要') != need:
+            err(pid, '更正の要否が計算と合わない')
+        if need and abs(diff) >= 2 * kk:
+            err(pid, '甲3の範囲も超えている（トラップの設計が崩れる）')
+        if need and _ans(p, '登記の目的') != '土地地積更正・分筆登記':
+            err(pid, '登記の目的が合わない')
+        for tb in p['tables']:
+            if tb['title'].startswith('誤差の限度'):
+                row = [r for r in tb['rows'] if abs(float(r[0]) - v['reg']) < 1e-9]
+                if not row or abs(float(row[0][1]) - math.floor(kk * 100 + 1e-9) / 100) > 1e-9 or abs(float(row[0][2]) - math.floor(2 * kk * 100 + 1e-9) / 100) > 1e-9:
+                    err(pid, '誤差の限度の表に登記記録の地積の行がない／値が合わない')
     # 構造チェック：回答欄が問題文の指示と合うこと、表に答えの点が載っていないこと
     names = {n for n, q in p['fig']['points'].items() if q['kind'] == 'unknown'}
     listed = {r[0] for t in p['tables'] for r in t['rows'] if t['cols'][0] == '点' and 'X（北）' in t['cols']}

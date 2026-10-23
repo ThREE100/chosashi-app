@@ -181,8 +181,50 @@ def pm07(p):
     return [('点E・点F・（ロ）の地積・EFの長さ', d.steps)], {'E': Exy, 'F': Fxy, 'ro': round(math.floor(tot * 100 + 1e-9) / 100 - v['target'], 2), 'ef': round(val(s[-1]) + 1e-9, 2), 'tot': tot, 'check': abs(val(s[-3], 1)) / 2}
 
 
+def pm08(p):
+    v = p['verify']
+    T1, T2, A, B, K1, K2, S = (v[k] for k in ('T1', 'T2', 'A', 'B', 'K1', 'K2', 'S'))
+    o = v['obs']['C']
+    reg = v['reg']
+    d = Doc()
+    d.add('割り当て', 'Y＝T1（器械点）、X＝T2（後視点）', f'{cx(*T1)} [SHIFT] [STO] [Y]\n{cx(*T2)} [SHIFT] [STO] [X]', show=False)
+    d.add('点C（放射）', f'C ＝ T1 ＋ {o["dist"]:.2f}∠( arg(T2 − T1) ＋ {o["angle"][0]}°{o["angle"][1]:02d}′{o["angle"][2]:02d}″ )',
+          f'[ALPHA] [Y] [+] {num(o["dist"])} [∠] [(] [Apps] [3] [ALPHA] [X] [−] [ALPHA] [Y] [)] [+] {dms_keys(o["angle"])} [)] [=]')
+    d.run()
+    Cxy = (r2(val(d.steps[-1])), r2(val(d.steps[-1], 1)))
+    d.add('割り当て（以後）', 'A＝K1、B＝K2、C＝C、D＝S、X＝A点、Y＝B点（Cは丸めた座標）',
+          f'{cx(*K1)} [SHIFT] [STO] [A]\n{cx(*K2)} [SHIFT] [STO] [B]\n{cx(*Cxy)} [SHIFT] [STO] [C]\n{cx(*S)} [SHIFT] [STO] [D]\n{cx(*A)} [SHIFT] [STO] [X]\n{cx(*B)} [SHIFT] [STO] [Y]', show=False)
+    d.add('点Dの分子', 'Conjg(C − K1) × (S − C)　のiの係数', '[Apps] [4] [ALPHA] [C] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [=]')
+    d.add('点Dの分母', 'Conjg(K2 − K1) × (S − C)　のiの係数', '[Apps] [4] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [=]')
+    d.run()
+    tn, td = val(d.steps[-2], 1), val(d.steps[-1], 1)
+    d.add('点D', 'D ＝ K1 ＋ (K2 − K1) × 分子 ÷ 分母', f'[ALPHA] [A] [+] [(] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] {sn(tn)} [÷] {sn(td)} [=]')
+    d.run()
+    Dxy = (r2(val(d.steps[-1])), r2(val(d.steps[-1], 1)))
+    d.add('Dを記憶（Eに）', '', f'{cx(*Dxy)} [SHIFT] [STO] [E]', show=False)
+    d.add('点E（ABの向きにAから7.60m）', 'E ＝ A ＋ (B − A) ÷ Abs(B − A) × 7.60', f'[ALPHA] [X] [+] [(] [ALPHA] [Y] [−] [ALPHA] [X] [)] [÷] [Abs] [ALPHA] [Y] [−] [ALPHA] [X] [)] [×] {num(v["d_AE"])} [=]')
+    d.run()
+    Exy = (r2(val(d.steps[-1])), r2(val(d.steps[-1], 1)))
+    d.add('点F（DCの向きにDから7.10m）', 'F ＝ D ＋ (C − D) ÷ Abs(C − D) × 7.10', f'[ALPHA] [E] [+] [(] [ALPHA] [C] [−] [ALPHA] [E] [)] [÷] [Abs] [ALPHA] [C] [−] [ALPHA] [E] [)] [×] {num(v["d_DF"])} [=]')
+    d.run()
+    Fxy = (r2(val(d.steps[-1])), r2(val(d.steps[-1], 1)))
+    d.add('E・Fを記憶（A・Bに上書き）', 'A＝E点、B＝F点（以後、Dは E の変数、A点はX、B点はY）', f'{cx(*Exy)} [SHIFT] [STO] [A]\n{cx(*Fxy)} [SHIFT] [STO] [B]', show=False)
+    d.add('（イ）の倍面積', '四角形A・E・F・D：Conjg(F − A) × (D − E)　のiの係数の絶対値 ÷ 2', '[Apps] [4] [ALPHA] [B] [−] [ALPHA] [X] [)] [×] [(] [ALPHA] [E] [−] [ALPHA] [A] [)] [=]')
+    d.add('（ロ）の倍面積', '四角形E・B・C・F：Conjg(C − E) × (F − B)　のiの係数の絶対値 ÷ 2', '[Apps] [4] [ALPHA] [C] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [B] [−] [ALPHA] [Y] [)] [=]')
+    d.run()
+    ai = math.floor(abs(val(d.steps[-2], 1)) / 2 * 100 + 1e-9) / 100
+    ar = math.floor(abs(val(d.steps[-1], 1)) / 2 * 100 + 1e-9) / 100
+    d.add('分筆後の合計と登記記録の差', '（イ）＋（ロ）− 登記記録の地積', f'[(] {num(ai)} [+] {num(ar)} [−] {num(reg)} [)] [=]')
+    d.add('誤差の限度（甲2）', '(0.05 ＋ 0.01 × ⁴√F) × √F　（F＝登記記録の地積。表の値は小数第2位未満切捨て）',
+          f'[(] 0.05 [+] 0.01 [×] [√] [(] [√] [(] {num(reg)} [)] [)] [)] [×] [√] [(] {num(reg)} [)] [=]')
+    d.run()
+    diff = round(val(d.steps[-2]) + 1e-9, 2)
+    kk = math.floor(val(d.steps[-1]) * 100 + 1e-9) / 100
+    return [('点C（放射）', d.steps[:2]), ('点D・E・F・（イ）（ロ）・差と誤差の限度', d.steps[2:])], {'C': Cxy, 'D': Dxy, 'E': Exy, 'F': Fxy, 'ai': ai, 'ar': ar, 'diff': diff, 'kk': kk}
+
+
 def main():
-    for pid, fn in (('PM-01', pm01), ('PM-04', pm04), ('PM-07', pm07)):
+    for pid, fn in (('PM-01', pm01), ('PM-04', pm04), ('PM-07', pm07), ('PM-08', pm08)):
         fp = os.path.join(PROB, pid + '.json')
         p = json.load(open(fp, encoding='utf-8'))
         groups, got = fn(p)

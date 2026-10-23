@@ -13,6 +13,7 @@ LAW_FILES = {
     '土地家屋調査士法施行規則': ['chousashi-hou-sekourule.md'],
     '不動産登記令別表': ['fudousan-touki-rei-betsuhyou.md'],
     '登録免許税法': ['touroku-menkyozei-hou.md'],
+    '民法': ['minpou-1-soukyoku-bukken.md', 'minpou-2-saiken.md', 'minpou-3-shinzoku-souzoku.md'],
 }
 _cache = {}
 

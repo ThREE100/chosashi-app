@@ -71,6 +71,7 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .ans-box th{background:var(--soft);font-weight:500;width:58mm}
 .ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
 .q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
 .tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
 .tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
 .tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
@@ -267,6 +268,9 @@ def calc2_answer_box(p, filled=False):
             fx = f'{a["value"][0]}' if filled else ''
             fy = f'{a["value"][1]}' if filled else ''
             cell = (f'<td>X ＝ <span class="box{" fill" if filled else ""}" style="min-width:34mm">{fx}</span>　　Y ＝ <span class="box" style="min-width:34mm">{fy}</span></td>')
+        elif a['kind'] == 'text':
+            v = E(a['value']) if filled else ''
+            cell = f'<td><span class="box" style="min-width:70mm">{v}</span></td>'
         else:
             unit = '㎡' if a['kind'] == 'area' else 'm'
             v = a['value'] if filled else ''
@@ -286,17 +290,20 @@ def calc2_tables(p):
 
 def calc2_q(p):
     x = p['text']
-    s1 = head(p['day'], '夜：記述式ドリル（問題）', p['title'], 15)
+    mins = p.get('minutes', 15)
+    s1 = head(p['day'], '夜：記述式ドリル（問題）', p['title'], mins)
     s1 += '<h2>解答欄（小数第2位まで。ここに先に書く）</h2>' + calc2_answer_box(p)
     s1 += '<div class="q2"><p>' + E(x['lead']) + '</p>'
     s1 += '<h2>【条件】</h2><ol>' + ''.join(f'<li>{E(t)}</li>' for t in x['conditions']) + '</ol>'
     s1 += '<h2>【聞き取り結果】</h2><ol>' + ''.join(f'<li>{E(t)}</li>' for t in x['hearing']) + '</ol>'
     s1 += '<h2>【注】</h2><ol>' + ''.join(f'<li>{E(t)}</li>' for t in x['notes']) + '</ol>'
     s1 += '<p style="color:var(--mute)">図・座標値・観測値の表は、次のページにある。</p></div>'
-    s2 = head(p['day'], '夜：記述式ドリル（図・測量成果）', p['title'], 15)
+    s2 = head(p['day'], '夜：記述式ドリル（図・測量成果）', p['title'], mins)
     s2 += '<h2>図（座標値にもとづく。黒丸＝与えられた点、赤い白抜き＝求める点）</h2>'
     s2 += f'<div class="figrow">{figure.svg_generic(p["fig"], vh=650)}</div>'
     s2 += '<h2>測量成果・地積測量図等の記載</h2>' + calc2_tables(p)
+    if len(p['answers']) > 6:
+        s1 = '<div class="dense">' + s1 + '</div>'
     return pages(f'第{p["day"]}日 夜 問題', [s1, s2], p['id'], right='')
 
 
@@ -304,6 +311,8 @@ def calc2_a(p):
     body = head(p['day'], '夜：解答', p['title'], 15)
     body += '<h2>答え</h2>' + calc2_answer_box(p, filled=True)
     body += f'<div class="figrow">{figure.svg_generic(p["fig"], reveal=True, vh=620)}</div>'
+    if p.get('basis'):
+        body += '<h2>根拠条文</h2>' + ''.join(quote_block(x) for x in p['basis'])
     body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
     body += '<h2>できたか</h2><ul class="chk"><li>□ 式が立てられた</li><li>□ 電卓で打てた</li><li>□ 検算した</li><li>□ 制限時間内に終わった</li></ul>'
     sheet1 = body
