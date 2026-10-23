@@ -13,9 +13,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, 'note')
 
 # noteタイトルの設定ルール（固定。番号は day001 のように3けた）
-TITLE_AM = '【土地家屋調査士試験】毎日ドリル day{day:03d}-AM｜朝10分・択一＋条文の空欄補充'
-TITLE_PM = '【土地家屋調査士試験】毎日ドリル day{day:03d}-PM｜夜15分・記述式演習'
-TITLE_RE = re.compile(r'^【土地家屋調査士試験】毎日ドリル day\d{3}-(AM｜朝10分・択一＋条文の空欄補充|PM｜夜15分・記述式演習)$')
+TITLE_AM = '【土地家屋調査士試験】Day{day:03d}-AM_毎朝10分ドリル ｜択一＋条文の空欄補充'
+TITLE_PM = '【土地家屋調査士試験】Day{day:03d}-PM_毎日これだけ ｜記述式演習'
+TITLE_RE = re.compile(r'^【土地家屋調査士試験】Day\d{3}-(AM_毎朝10分ドリル ｜択一＋条文の空欄補充|PM_毎日これだけ ｜記述式演習)$')
 
 PM_TOPIC = {   # 夜の内容ごとの見出し画像の文言と情景
     'radial': ('記述式の計算練習', '計算練習', 'a sketch of a survey instrument (total station) on a tripod and a coordinate grid with a few survey points', 'a plain calculator, a pencil and a sheet of scratch paper with only drawn lines (no numbers or letters)'),
@@ -49,7 +49,7 @@ Line 2 is larger; the phrase {hl} is red-orange and the rest is dark navy:
 {l2}
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
 {sub}
-NUMBERING BADGE: in the top-left corner, a small rounded green (#009775) pill with white bold half-width text, exactly this string and nothing else (lowercase letters "day", then the three digits, a hyphen, and capital letters):
+NUMBERING BADGE: in the top-left corner, a small rounded green (#009775) pill with white bold half-width text, exactly this string and nothing else (a capital letter D, lowercase "ay", then the three digits, a hyphen, and capital letters):
 {badge}
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
@@ -78,7 +78,7 @@ def build(day):
             what = '座標計算の練習' if pm['kind'] == 'calc' else '申請書の欄の練習'
             title = TITLE_PM.format(day=day)
         assert TITLE_RE.match(title), title
-        badge = f'day{day:03d}-{ampm}'
+        badge = f'Day{day:03d}-{ampm}'
         pr = prompt(badge, l1, l2, hl, sub, left, right, kj)
         md = f"""# {badge}
 
@@ -102,7 +102,7 @@ def build(day):
 
 不要（HTMLまたはHTMLを画像にしたものを貼る）。元：{body}
 """
-        fn = os.path.join(OUT, f'day{day:03d}-{ampm.lower()}.md')
+        fn = os.path.join(OUT, f'day{day:03d}-{ampm.lower()}.md')   # ファイル名は小文字のまま
         open(fn, 'w', encoding='utf-8').write(md)
         items.append(fn)
         # 簡易チェック：番号のバッジ以外に英数字が画像の文字に入っていない
@@ -111,7 +111,22 @@ def build(day):
     return items
 
 
+def index():
+    """note/README.md（タイトル・ファイルの一覧）を作り直す。"""
+    rows = ['# note投稿の一覧（タイトルと見出し画像プロンプト）', '',
+            '各ファイルに、noteタイトルと、ChatGPTに貼る見出し画像のプロンプト（女性のMC1人だけ・左上に番号バッジ）が入っている。本文は `out/` のHTML（または画像にしたもの）を貼る。キャラクターシート MC-01〜MC-04 の4枚を添付して使う。', '',
+            '| 番号 | noteタイトル | ファイル | 本文の元 |', '|---|---|---|---|']
+    for f in sorted(glob.glob(os.path.join(OUT, 'day*.md'))):
+        t = open(f, encoding='utf-8').read().split('\n')
+        title = t[4]
+        m = re.search(r'Day(\d{3})-(AM|PM)', title)
+        n = int(m.group(1))
+        rows.append(f"| Day{m.group(1)}-{m.group(2)} | {title} | `{os.path.basename(f)}` | `out/day{n:02d}-{m.group(2).lower()}.html`・`-ans.html` |")
+    open(os.path.join(OUT, 'README.md'), 'w', encoding='utf-8').write('\n'.join(rows) + '\n')
+
+
 if __name__ == '__main__':
     for a in sys.argv[1:] or ['1']:
         for fn in build(int(a)):
             print(fn)
+    index()

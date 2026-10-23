@@ -1,12 +1,12 @@
-# day005-PM
+# Day005-PM
 
 ## noteタイトル
 
-【土地家屋調査士試験】毎日ドリル day005-PM｜夜15分・記述式演習
+【土地家屋調査士試験】Day005-PM_毎日これだけ ｜記述式演習
 
 ## 見出し画像
 
-- 画像に入れる番号：`day005-PM`（左上の緑のバッジ）
+- 画像に入れる番号：`Day005-PM`（左上の緑のバッジ）
 - キャラクター：女性のMC1人だけ（トリ先生・藍子は入れない）。ChatGPTにはキャラクターシート MC-01〜MC-04 の4枚を添付して、次のプロンプトを貼る。
 - 画像の文字：1行目「毎日ドリル　夜」／2行目「記述式の計算練習」（「計算練習」を赤橙）／サブタイトル「土地家屋調査士　記述式　毎晩15分」
 
@@ -31,8 +31,8 @@ Line 2 is larger; the phrase 計算練習 is red-orange and the rest is dark nav
 記述式の計算練習
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
 土地家屋調査士　記述式　毎晩15分
-NUMBERING BADGE: in the top-left corner, a small rounded green (#009775) pill with white bold half-width text, exactly this string and nothing else (lowercase letters "day", then the three digits, a hyphen, and capital letters):
-day005-PM
+NUMBERING BADGE: in the top-left corner, a small rounded green (#009775) pill with white bold half-width text, exactly this string and nothing else (a capital letter D, lowercase "ay", then the three digits, a hyphen, and capital letters):
+Day005-PM
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
 TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the character):
@@ -41,7 +41,7 @@ Right side: a plain calculator, a pencil and a sheet of scratch paper with only 
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character, the title, and the numbering badge away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the numbering badge (day005-PM), the two title lines, and the subtitle (whose number 10 is written with Arabic digits), reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 記、述、練、習; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is.
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the numbering badge (Day005-PM), the two title lines, and the subtitle (whose number 10 is written with Arabic digits), reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 記、述、練、習; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is.
 ```
 
 ## 本文
