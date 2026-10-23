@@ -122,7 +122,7 @@ for law, u in order:
     prev = label
     n += 1
 last_first_pass = n - 1
-PMCYC = ['放射', '2直線の交点', '申請書の欄', '垂線の足', '平行線の離れ', '四角形の面積', '申請書の欄']
+PMCYC = ['筆界点の計算（放射・直線の交点）', '土地の申請書', '建物の申請書', '筆界点の計算（平行線・垂線の足）', '土地の申請書', '建物の申請書', '筆界点の計算（面積の条件）']
 for r in rows:
     r['date'] = START + datetime.timedelta(days=r['day'] - 1)
     r['wd'] = WD[r['date'].weekday()]

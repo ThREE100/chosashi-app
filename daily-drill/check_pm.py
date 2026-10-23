@@ -11,9 +11,9 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-sys.path.insert(0, os.path.join(HERE, 'evening'))
 from lawtext import article, normalize  # noqa: E402
-import calc_types as ct  # noqa: E402
+import math  # noqa: E402
+from fractions import Fraction  # noqa: E402
 
 BANNED = re.compile(r'誤答|正答率|回答回数|復習中|演習結果|令和[0-9０-９元]+年度|平成[0-9０-９元]+年度|第[0-9０-９]+問')
 nerr = 0
@@ -57,7 +57,21 @@ def check_shinsei2(p):
         for b in it.get('basis', []):
             quote_ok(pid, it['label'], b)
     table = [it for it in items if it['kind'] == 'table'][0]
-    if p['form_type'] == 'land':
+    if p.get('layout') == 'generic':
+        c = p['calc']
+        P = {k: tuple(v) for k, v in c['points'].items()}
+        at = poly_area([P[n] for n in 'ABCD'])
+        rows = {r['name']: r['cells'] for r in table['rows']}
+        if int(at) != c['registry_area'] or abs(float(rows['変更前'][3]) - c['registry_area']) > 1e-9:
+            err(pid, f'登記記録の地積{c["registry_area"]}が座標の面積{at:.4f}の整数部分と合わない')
+        if rows['変更後'][3] != f'{c["registry_area"]}.00':
+            err(pid, '変更後の地積の表し方が宅地（小数第2位まで）でない')
+        if any(not (0 < P[n][0] < 1e9) for n in P):
+            err(pid, '座標が不正')
+        inside = all(min(P[k][0] for k in 'ABCD') < P[n][0] < max(P[k][0] for k in 'ABCD') and min(P[k][1] for k in 'ABCD') < P[n][1] < max(P[k][1] for k in 'ABCD') for n in 'abcd')
+        if not inside:
+            err(pid, '建物の角が土地の外にある')
+    elif p['form_type'] == 'land':
         c = p['calc']
         P = {k: tuple(v) for k, v in c['points'].items()}
         # 方法B：分筆線の端点が筆界線上にあること（外積がほぼ0）と、面積を靴ひも公式で計算し直す
@@ -81,12 +95,135 @@ def check_shinsei2(p):
             err(pid, '登録免許税が分筆後の2個分（2,000円）でない')
     else:
         fl = {f['name']: floor2(poly_area(f['outline'])) for f in p['plan']['floors']}
-        cell = table['rows'][0]['cells'][3]
+        cell = table['rows'][-1]['cells'][3]
         if f"1階　{fl['1階']:.2f}" not in cell or f"2階　{fl['2階']:.2f}" not in cell:
             err(pid, f'床面積が合わない（計算 {fl}）')
     # 禁止語
     if BANNED.search(json.dumps(p, ensure_ascii=False)):
         err(pid, '禁止語')
+
+
+def _near(pid, label, got, want, tol=0.0051):
+    if abs(got - want) > tol:
+        err(pid, f'{label}: 別の方法 {want:.4f} と答え {got:.4f} が合わない')
+
+
+def _line_pt(a, b, c, d):
+    """直線abと直線cdの交点（連立一次方程式をクラメルの公式で解く。複素数は使わない）"""
+    (ax, ay), (bx, by), (cx, cy), (dx, dy) = a, b, c, d
+    a1, b1, c1 = by - ay, ax - bx, (by - ay) * ax + (ax - bx) * ay
+    a2, b2, c2 = dy - cy, cx - dx, (dy - cy) * cx + (cx - dx) * cy
+    det = a1 * b2 - a2 * b1
+    return ((c1 * b2 - c2 * b1) / det, (a1 * c2 - a2 * c1) / det)
+
+
+def _tri_area(pts):
+    """多角形を1点から三角形に割って求める（ガウスの公式とは別の方法）"""
+    o = pts[0]
+    s = 0.0
+    for i in range(1, len(pts) - 1):
+        u = (pts[i][0] - o[0], pts[i][1] - o[1])
+        v = (pts[i + 1][0] - o[0], pts[i + 1][1] - o[1])
+        s += (u[0] * v[1] - u[1] * v[0]) / 2
+    return abs(s)
+
+
+def _ans(p, label_start):
+    return [a for a in p['answers'] if a['label'].startswith(label_start)][0]['value']
+
+
+def check_calc2(p):
+    pid, v = p['id'], p['verify']
+    A = lambda k: tuple(v[k])
+    if v['type'] == 'pm01':
+        T1, T2 = A('T1'), A('T2')
+        az = math.atan2(T2[1] - T1[1], T2[0] - T1[0])
+        pts = {}
+        for n, o in v['obs'].items():
+            ang = math.radians(o['angle'][0] + o['angle'][1] / 60 + o['angle'][2] / 3600)
+            pts[n] = (T1[0] + o['dist'] * math.cos(az + ang), T1[1] + o['dist'] * math.sin(az + ang))
+            ans = _ans(p, '点' + n)
+            _near(pid, f'点{n}X', float(ans[0]), pts[n][0]); _near(pid, f'点{n}Y', float(ans[1]), pts[n][1])
+        R = _line_pt(A('K1'), A('K2'), A('S'), A('M'))
+        ans = _ans(p, '点R')
+        _near(pid, '点RX', float(ans[0]), R[0]); _near(pid, '点RY', float(ans[1]), R[1])
+        pp = [tuple(map(float, _ans(p, '点P'))), tuple(map(float, _ans(p, '点Q'))), tuple(map(float, ans)), A('S')]
+        fr = [(Fraction(str(x)), Fraction(str(y))) for x, y in pp]
+        s = abs(sum(fr[i][0] * fr[(i + 1) % 4][1] - fr[(i + 1) % 4][0] * fr[i][1] for i in range(4))) / 2
+        want = math.floor(s * 100) / 100
+        _near(pid, '地積', float(_ans(p, '12番の地積')), want, 1e-9)
+        _near(pid, '地積(三角形分割)', float(_ans(p, '12番の地積')), math.floor(_tri_area(pp) * 100 + 1e-7) / 100, 1e-9)
+        # 点Rが2直線の上にあること（小数第2位に丸めた値で、直線からの距離が0.01以内）
+        Rr = tuple(map(float, ans))
+        for a, b in ((A('K1'), A('K2')), (A('S'), A('M'))):
+            d = abs((b[0] - a[0]) * (Rr[1] - a[1]) - (b[1] - a[1]) * (Rr[0] - a[0])) / math.hypot(b[0] - a[0], b[1] - a[1])
+            if d > 0.011:
+                err(pid, f'点Rが筆界の直線上にない（{d:.4f}）')
+    elif v['type'] == 'pm04':
+        A_, B_, C_, D_, E_, F_, K = (A(k) for k in 'ABCDEFK')
+        ux, uy = B_[0] - A_[0], B_[1] - A_[1]
+        L = math.hypot(ux, uy)
+        nx, ny = -uy / L, ux / L          # 左（進行方向に対して）法線
+        if ny < 0:
+            nx, ny = -nx, -ny              # 東側（Yが大きい側）
+        a2 = (A_[0] + nx * v['off'], A_[1] + ny * v['off'])
+        b2 = (B_[0] + nx * v['off'], B_[1] + ny * v['off'])
+        H = _line_pt(a2, b2, C_, D_); I = _line_pt(a2, b2, E_, F_)
+        for nm, q in (('点H', H), ('点I', I)):
+            ans = _ans(p, nm)
+            _near(p['id'], nm + 'X', float(ans[0]), q[0]); _near(p['id'], nm + 'Y', float(ans[1]), q[1])
+        hx, hy = float(_ans(p, '点H')[0]), float(_ans(p, '点H')[1])
+        ix, iy = float(_ans(p, '点I')[0]), float(_ans(p, '点I')[1])
+        # 垂線の足：丸めたH・Iを使い、射影で求める（問題の手順どおり）
+        t = ((K[0] - hx) * (ix - hx) + (K[1] - hy) * (iy - hy)) / ((ix - hx) ** 2 + (iy - hy) ** 2)
+        J = (hx + (ix - hx) * t, hy + (iy - hy) * t)
+        ans = _ans(p, '点J')
+        _near(pid, '点JX', float(ans[0]), J[0]); _near(pid, '点JY', float(ans[1]), J[1])
+        dj = math.hypot(K[0] - float(ans[0]), K[1] - float(ans[1]))
+        _near(pid, '距離', float(_ans(p, '点Kから')), dj, 0.0051)
+        # 平行線とABの距離が1.20、HIがABと平行
+        cr = (ix - hx) * uy - (iy - hy) * ux
+        if abs(cr) / (L * math.hypot(ix - hx, iy - hy)) > 0.002:
+            err(pid, 'HIがABと平行でない')
+        dd = abs((hx - A_[0]) * uy - (hy - A_[1]) * ux) / L
+        _near(pid, 'ABからHIまでの距離', 1.20, dd, 0.01)
+    elif v['type'] == 'pm07':
+        A_, B_, C_, D_ = (A(k) for k in 'ABCD')
+        d = math.hypot(D_[0] - A_[0], D_[1] - A_[1])
+        E = (A_[0] + (D_[0] - A_[0]) / d * v['d_AE'], A_[1] + (D_[1] - A_[1]) / d * v['d_AE'])
+        ans = _ans(p, '点E')
+        _near(pid, '点EX', float(ans[0]), E[0]); _near(pid, '点EY', float(ans[1]), E[1])
+        # 面積の条件を二分法で解く（連立方程式の解法とは別）
+        lo, hi = 0.0, 1.0
+        def ar(t):
+            F = (B_[0] + (C_[0] - B_[0]) * t, B_[1] + (C_[1] - B_[1]) * t)
+            return poly_area([A_, B_, F, E])
+        for _ in range(60):
+            mid = (lo + hi) / 2
+            if (ar(mid) - v['target']) * (ar(lo) - v['target']) <= 0:
+                hi = mid
+            else:
+                lo = mid
+        t = (lo + hi) / 2
+        F = (B_[0] + (C_[0] - B_[0]) * t, B_[1] + (C_[1] - B_[1]) * t)
+        ans = _ans(p, '点F')
+        _near(pid, '点FX', float(ans[0]), F[0]); _near(pid, '点FY', float(ans[1]), F[1])
+        Fr = tuple(map(float, ans))
+        if abs(poly_area([A_, B_, Fr, E]) - v['target']) > 0.1:
+            err(pid, f'丸めたFで（イ）の面積が280から外れすぎ（{poly_area([A_, B_, Fr, E]):.3f}）')
+        tot = floor2(poly_area([A_, B_, C_, D_]))
+        _near(pid, '（ロ）', float(_ans(p, '分筆後の（ロ）')), tot - v['target'], 1e-9)
+        _near(pid, 'EF', float(_ans(p, '分筆線EF')), math.hypot(Fr[0] - float(_ans(p, '点E')[0]), Fr[1] - float(_ans(p, '点E')[1])), 0.0051)
+    # 構造チェック：回答欄が問題文の指示と合うこと、表に答えの点が載っていないこと
+    names = {n for n, q in p['fig']['points'].items() if q['kind'] == 'unknown'}
+    listed = {r[0] for t in p['tables'] for r in t['rows'] if t['cols'][0] == '点' and 'X（北）' in t['cols']}
+    if names & listed:
+        err(pid, f'求める点{names & listed}が与える表に載っている')
+    for t in p['text']['conditions'] + p['text']['hearing'] + p['text']['notes'] + [p['text']['lead']]:
+        if re.search(r'541\.02|540\.49', t):
+            err(pid, '本文に答えが漏れている')
+    if not p['text']['hearing'] or not p['text']['conditions']:
+        err(pid, '条件・聞き取り結果がない')
 
 
 def main():
@@ -96,23 +233,10 @@ def main():
         pid = p['id']
         if BANNED.search(json.dumps(p, ensure_ascii=False)):
             err(pid, '禁止語（個人の演習結果・過去問の出典は入れない）')
-        if p['kind'] == 'calc':
-            again = ct.GEN[p['type']](p['seed'])
-            for k in ('given', 'answers'):
-                if again[k] != p[k]:
-                    err(pid, f'シードから作り直した{k}と一致しない')
-            for e in ct.VERIFY[p['type']](p):
-                err(pid, '別の方法の検算：' + e)
-            for b in p.get('basis', []):
-                quote_ok(pid, '根拠', b)
+        if p['kind'] == 'calc2':
+            check_calc2(p)
         elif p['kind'] == 'shinsei2':
             check_shinsei2(p)
-        else:
-            for i, f in enumerate(p['fields']):
-                if not f['basis'] and not f['calc']:
-                    err(pid, f'欄{i + 1}: 根拠も計算の印もない')
-                for b in f['basis']:
-                    quote_ok(pid, f'欄{i + 1}', b)
     print(f'{len(files)}問を確認。NG {nerr}件')
     return nerr
 

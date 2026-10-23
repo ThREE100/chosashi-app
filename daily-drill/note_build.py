@@ -72,10 +72,10 @@ def build(day):
          '毎朝ドリル', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝10分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:02d}-am.html（問題）／out/day{day:02d}-am-ans.html（解答）'),
         ('PM', None, '毎日これだけ', None, None, '土地家屋調査士　記述式　毎晩15分', None, None, '記、述、練、習', f'out/day{day:02d}-pm.html（問題）／out/day{day:02d}-pm-ans.html（解答）')):
         if ampm == 'PM':
-            key = pm['type'] if pm['kind'] == 'calc' else 'shinsei'
+            key = {'PM-01': 'radial', 'PM-04': 'foot', 'PM-07': 'area'}.get(pm['id'], 'shinsei') if pm['kind'] == 'calc2' else 'shinsei'
             l2, hl, left, right = PM_TOPIC[key]
             l2, hl, left, right = PM_TOPIC[key][0], PM_TOPIC[key][1], PM_TOPIC[key][2], PM_TOPIC[key][3]
-            what = '座標計算の練習' if pm['kind'] == 'calc' else '申請書の欄の練習'
+            what = '座標計算の練習' if pm['kind'] == 'calc2' else '申請書の欄の練習'
             title = TITLE_PM.format(day=day)
         assert TITLE_RE.match(title), title
         badge = f'Day{day:03d}-{ampm}'

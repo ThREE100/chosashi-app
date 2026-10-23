@@ -66,6 +66,14 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
 .ex p{margin:0 0 1.2mm}
 .ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
 .reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
 .reg caption{text-align:left;font-weight:700;padding:.4mm 0}
@@ -183,10 +191,19 @@ def exam_body(p):
     body = head(p['day'], '夜：記述式ドリル（問題）', p['title'], 15)
     left = '<h2>事実関係</h2><ol>' + ''.join(f'<li>{E(x)}</li>' for x in ex['facts']) + '</ol>'
     left += '<h2>注</h2><ol class="notes">' + ''.join(f'<li>{E(x)}</li>' for x in ex['notes']) + '</ol>'
-    right = '<h2>' + ('登記記録' if p['form_type'] == 'land' else '土地の登記記録') + '</h2>'
+    right = '<h2>' + ex.get('register_title', '登記記録' if p['form_type'] == 'land' else '土地の登記記録') + '</h2>'
     for sec in ex['register']:
         right += f'<table class="reg"><caption>{E(sec["name"])}</caption>' + ''.join(f'<tr><th>{E(k)}</th><td>{E(v)}</td></tr>' for k, v in sec['rows']) + '</table>'
-    if p['form_type'] == 'land':
+    if p.get('layout') == 'generic':
+        c = p['calc']
+        names = p['coords']
+        right += '<h2>現況（座標は平面直角座標系）</h2>'
+        right += f'<div class="figrow">{figure.svg_generic(p["fig"], vh=560)}</div>'
+        right += '<div class="coord"><table><tr><th>点</th>' + ''.join(f'<th>{n}</th>' for n in names) + '</tr>'
+        right += '<tr><th>X（北）</th>' + ''.join(f'<td>{c["points"][n][0]:.2f}</td>' for n in names) + '</tr>'
+        right += '<tr><th>Y（東）</th>' + ''.join(f'<td>{c["points"][n][1]:.2f}</td>' for n in names) + '</tr></table></div>'
+        right += '<p style="font-size:8.2pt;color:var(--mute);line-height:1.5">点A〜Dは本件土地の境界標。点a〜dは居宅の外形の角（令和8年10月5日完成）。</p>'
+    elif p['form_type'] == 'land':
         c = p['calc']
         names = list(c['points'].keys())
         right += '<h2>測量成果（座標は平面直角座標系）</h2>'
@@ -241,7 +258,60 @@ def coord_table(p):
     return f'<div class="coord"><table>{head_}{rx}{ry}</table>{extra}</div>'
 
 
+
+def calc2_answer_box(p, filled=False):
+    rows = ''
+    for a in p['answers']:
+        if a['kind'] == 'xy':
+            fx = f'{a["value"][0]}' if filled else ''
+            fy = f'{a["value"][1]}' if filled else ''
+            cell = (f'<td>X ＝ <span class="box{" fill" if filled else ""}" style="min-width:34mm">{fx}</span>　　Y ＝ <span class="box" style="min-width:34mm">{fy}</span></td>')
+        else:
+            unit = '㎡' if a['kind'] == 'area' else 'm'
+            v = a['value'] if filled else ''
+            cell = f'<td><span class="box" style="min-width:34mm">{v}</span> {unit}</td>'
+        rows += f'<tr><th>{E(a["label"])}</th>{cell}</tr>'
+    return f'<table class="ans-box">{rows}</table>'
+
+
+def calc2_tables(p):
+    out = ''
+    for t in p['tables']:
+        th = ''.join(f'<th>{E(c)}</th>' for c in t['cols'])
+        tr = ''.join('<tr>' + ''.join(f'<td>{E(c)}</td>' for c in r) + '</tr>' for r in t['rows'])
+        out += f'<div><table><caption>{E(t["title"])}</caption><tr>{th}</tr>{tr}</table></div>'
+    return f'<div class="tg">{out}</div>'
+
+
+def calc2_q(p):
+    x = p['text']
+    s1 = head(p['day'], '夜：記述式ドリル（問題）', p['title'], 15)
+    s1 += '<h2>解答欄（小数第2位まで。ここに先に書く）</h2>' + calc2_answer_box(p)
+    s1 += '<div class="q2"><p>' + E(x['lead']) + '</p>'
+    s1 += '<h2>【条件】</h2><ol>' + ''.join(f'<li>{E(t)}</li>' for t in x['conditions']) + '</ol>'
+    s1 += '<h2>【聞き取り結果】</h2><ol>' + ''.join(f'<li>{E(t)}</li>' for t in x['hearing']) + '</ol>'
+    s1 += '<h2>【注】</h2><ol>' + ''.join(f'<li>{E(t)}</li>' for t in x['notes']) + '</ol>'
+    s1 += '<p style="color:var(--mute)">図・座標値・観測値の表は、次のページにある。</p></div>'
+    s2 = head(p['day'], '夜：記述式ドリル（図・測量成果）', p['title'], 15)
+    s2 += '<h2>図（座標値にもとづく。黒丸＝与えられた点、赤い白抜き＝求める点）</h2>'
+    s2 += f'<div class="figrow">{figure.svg_generic(p["fig"], vh=650)}</div>'
+    s2 += '<h2>測量成果・地積測量図等の記載</h2>' + calc2_tables(p)
+    return pages(f'第{p["day"]}日 夜 問題', [s1, s2], p['id'], right='')
+
+
+def calc2_a(p):
+    body = head(p['day'], '夜：解答', p['title'], 15)
+    body += '<h2>答え</h2>' + calc2_answer_box(p, filled=True)
+    body += f'<div class="figrow">{figure.svg_generic(p["fig"], reveal=True, vh=620)}</div>'
+    body += '<h2>解き方（複素数モード）</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li><code>{E(s)}</code></li>' for s in p['steps']) + '</ul>'
+    body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
+    body += '<h2>できたか</h2><ul class="chk"><li>□ 式が立てられた</li><li>□ 電卓で打てた</li><li>□ 検算した</li><li>□ 制限時間内に終わった</li></ul>'
+    return page(f'第{p["day"]}日 夜 解答', body, f'{p["id"]} 解答', flow=True, right='')
+
+
 def pm_q(p):
+    if p['kind'] == 'calc2':
+        return calc2_q(p)
     if p['kind'] == 'shinsei2':
         return pages(f'第{p["day"]}日 夜 問題', [exam_body(p), form_body(p)], p['id'])
     body = head(p['day'], '夜：記述式ドリル', p['title'], 15)
@@ -263,6 +333,8 @@ def pm_q(p):
 
 
 def pm_a(p):
+    if p['kind'] == 'calc2':
+        return calc2_a(p)
     if p['kind'] == 'shinsei2':
         body = form_body(p, answers=True)
         for it in p['form']['items']:

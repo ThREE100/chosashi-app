@@ -267,3 +267,89 @@ def svg_plan(p):
     return (f'<svg class="fig" viewBox="0 0 {W} {HP}" xmlns="http://www.w3.org/2000/svg" role="img" '
             f'font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, Meiryo, sans-serif">{defs}'
             f'<rect x="2" y="2" width="{W - 4}" height="{HP - 4}" fill="#fff" stroke="#cfd8d4" stroke-width="3" rx="14"/>' + ''.join(parts) + '</svg>')
+
+
+# ---------- 計算問題（本番レベル）：座標から正確に描く汎用の図 ----------
+def svg_generic(fig, reveal=False, vh=700, labels=None):
+    """fig: {points{名:{xy,kind,dx?,dy?}}, polys[{pts,fill,label}], lines[{a,b,style}], texts[{xy,text}], road?, offset?}。
+    kind: given/ref＝黒丸、unknown＝赤い白抜き（reveal=True で赤丸）。座標値は図に重ねず、別の表に出す。"""
+    P = {k: tuple(v['xy']) for k, v in fig['points'].items()}
+    extra = [tuple(t['xy']) for t in fig.get('texts', [])]
+    if 'road' in fig:
+        extra += [tuple(fig['road']['a']), tuple(fig['road']['b'])]
+    off = fig.get('offset')
+    o2 = None
+    if off:
+        za, zb = complex(*off['a']), complex(*off['b'])
+        n = complex(*off['n'])
+        o2 = (za + n * off['off'], zb + n * off['off'])
+        extra += [(o2[0].real, o2[0].imag), (o2[1].real, o2[1].imag)]
+    global H
+    h0 = H
+    H = vh
+    try:
+        f = Fig(list(P.values()) + extra)
+        parts = []
+        if 'road' in fig:
+            parts.append(_line(f.xy(fig['road']['a']), f.xy(fig['road']['b']), color='#dfe5e2', w=34))
+        for pg in fig.get('polys', []):
+            pts = [f.xy(P[n]) for n in pg['pts']]
+            parts.append('<polygon points="' + ' '.join(f'{x:.1f},{y:.1f}' for x, y in pts) + f'" fill="{pg["fill"]}" stroke="{INK}" stroke-width="4" stroke-linejoin="round"/>')
+        for ln in fig.get('lines', []):
+            a, b = f.xy(P[ln['a']]), f.xy(P[ln['b']])
+            st = ln['style']
+            if st == 'solid':
+                parts.append(_line(a, b, w=3.5))
+            elif st == 'dash':
+                parts.append(_line(a, b, dash=True, color=MUTE, w=3))
+            elif st == 'bold':
+                parts.append(_line(a, b, color=ACC if not reveal else ACC, w=6))
+            elif st == 'faint':
+                parts.append(_line(a, b, dash=True, color='#c9d2ce', w=2))
+        if off:
+            za, zb = complex(*off['a']), complex(*off['b'])
+            mm = za + (zb - za) * 0.2
+            mm2 = mm + complex(*off['n']) * off['off']
+            a1, a2 = f.xy((mm.real, mm.imag)), f.xy((mm2.real, mm2.imag))
+            tgt = P[off['to']]
+            k = ((complex(*tgt) - o2[0]) / (o2[1] - o2[0])).real
+            lo, hi = min(0, k), max(1, k)
+            s_, e_ = _extend((o2[0].real, o2[0].imag), (o2[1].real, o2[1].imag), lo - 0.15, hi + 0.15)
+            parts.append(_line(f.xy(s_), f.xy(e_), dash=True, color=ACC, w=3))
+            parts.append(_line(a1, a2, color=ACC, w=6))
+            parts.append(_label(a2, f'ABから{off["off"]:.2f}m（直角に測る）', dx=18, dy=6, size=24, color=ACC))
+        for pg in fig.get('polys', []):
+            pts = [f.xy(P[n]) for n in pg['pts']]
+            cx = sum(x for x, _ in pts) / len(pts)
+            cy = sum(y for _, y in pts) / len(pts)
+            parts.append(_label((cx, cy), pg['label'], dx=0, dy=10, size=34, color=MUTE, anchor='middle'))
+        for t in fig.get('texts', []):
+            parts.append(_label(f.xy(t['xy']), t['text'], dx=0, dy=8, size=30, color=MUTE, anchor='middle', weight='500'))
+        for nm, v in fig['points'].items():
+            kind = v['kind']
+            if kind == 'ref':
+                kind = 'given'
+            if kind == 'unknown' and reveal:
+                kind = 'reveal'
+            pos = f.xy(P[nm])
+            c = _pt(pos, nm, kind)
+            if 'dx' in v or 'dy' in v:
+                c = c.replace('></text>', '></text>')
+                c = _pt_at(pos, nm, kind, v.get('dx', 14), v.get('dy', -14))
+            parts.append(c)
+        parts.append(_north())
+        return (f'<svg class="fig" viewBox="0 0 {W} {vh}" xmlns="http://www.w3.org/2000/svg" role="img" '
+                f'font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, Meiryo, sans-serif">'
+                f'<rect x="2" y="2" width="{W - 4}" height="{vh - 4}" fill="#fff" stroke="#cfd8d4" stroke-width="3" rx="14"/>' + ''.join(parts) + '</svg>')
+    finally:
+        H = h0
+
+
+def _pt_at(pos, name, kind, dx, dy):
+    if kind == 'given':
+        c = f'<circle cx="{pos[0]:.1f}" cy="{pos[1]:.1f}" r="9" fill="{INK}"/>'
+    elif kind == 'unknown':
+        c = f'<circle cx="{pos[0]:.1f}" cy="{pos[1]:.1f}" r="11" fill="#fff" stroke="{ACC}" stroke-width="5"/>'
+    else:
+        c = f'<circle cx="{pos[0]:.1f}" cy="{pos[1]:.1f}" r="11" fill="{ACC}"/>'
+    return c + _label(pos, name, dx=dx, dy=dy, color=ACC if kind != 'given' else INK, anchor='end' if dx < 0 else 'start')
