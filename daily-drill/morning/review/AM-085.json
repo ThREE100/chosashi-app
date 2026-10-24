@@ -1,0 +1,12 @@
+{
+ "hash": "8f30a3b35a4aca09",
+ "reviewer": "資料（問題文・肢・条文原文・過去問の解説の記載）だけを渡した独立のエージェント",
+ "verdicts": {
+  "ア": true,
+  "イ": false,
+  "ウ": false,
+  "エ": false,
+  "オ": true
+ },
+ "ambiguous": {}
+}
