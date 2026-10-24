@@ -119,13 +119,13 @@ def log_box(p, side):
             f'<p class="src">記録：<code>python3 daily-drill/kiroku.py add {E(p["id"])} × {E(ex)} --item 欄の名前</code>（○ のときは型を書かない）。集計と解き直しの予定は daily-drill/log/report.md</p>')
 
 
-def pages(title, bodies, foot='', right='条文は note-articles/laws/ の原文で照合済み', flow=False):
+def pages(title, bodies, foot='', right='', flow=False):
     sheets = ''.join(f'<div class="sheet{" flow" if flow else ""}">{x}<div class="foot"><span>{E(foot)}　{i + 1}/{len(bodies)}</span><span>{E(right)}</span></div></div>' for i, x in enumerate(bodies))
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<title>{E(title)}</title><style>{CSS}</style></head><body>{sheets}</body></html>')
 
 
-def page(title, body, foot='', flow=False, right='条文は note-articles/laws/ の原文で照合済み'):
+def page(title, body, foot='', flow=False, right=''):
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<title>{E(title)}</title><style>{CSS}</style></head><body><div class="sheet{" flow" if flow else ""}">{body}'
             f'<div class="foot"><span>{E(foot)}</span><span>{E(right)}</span></div></div></body></html>')
@@ -145,9 +145,14 @@ def lines(mm):
     return f'<div class="lines" style="height:{mm}mm"></div>'
 
 
+def _pub_label(lab):
+    """公開用の根拠の呼び名（内部の資料名は出さない）"""
+    return {'過去問の解説': '登記実務の取扱い', '登記実務': '登記実務の取扱い'}.get(lab, lab)
+
+
 def quote_block(b):
     if 'doc' in b:          # 先例など：過去問の解説の記載
-        return f'<blockquote>{E(b.get("label", "先例"))}（過去問の解説 {E(b["doc"].split("/")[-1])}）「{E(b["quote"])}」</blockquote>'
+        return f'<blockquote>{E(_pub_label(b.get("label", "先例")))}「{E(b["quote"])}」</blockquote>'
     return f'<blockquote>{E(b["law"])}{E(_art(b["article"]))}「{E(b["quote"])}」</blockquote>'
 
 
@@ -409,10 +414,10 @@ def draw_a(p):
     body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
     sheets = [body]
     if p['draw'] == 'chiseki':
-        sheets.append(head(p['day'], '夜：解答（模範の作図）', '地積測量図（実寸・縮尺250分の1。座標から機械で作図）', p.get('minutes', 20)) + f'<div class="drawwrap">{draw_forms.chiseki_solved(p["spec"])}</div>')
+        sheets.append(head(p['day'], '夜：解答（模範の作図）', '地積測量図（実寸・縮尺250分の1）', p.get('minutes', 20)) + f'<div class="drawwrap">{draw_forms.chiseki_solved(p["spec"])}</div>')
     else:
         a, b2 = draw_forms.tatemono_solved(p['spec'])
-        sheets.append(head(p['day'], '夜：解答（模範の作図）', '建物図面・各階平面図（実寸。座標から機械で作図）', p.get('minutes', 20)) + f'<div class="drawwrap">{a}</div><div class="drawwrap">{b2}</div>')
+        sheets.append(head(p['day'], '夜：解答（模範の作図）', '建物図面・各階平面図（実寸）', p.get('minutes', 20)) + f'<div class="drawwrap">{a}</div><div class="drawwrap">{b2}</div>')
     if p.get('keys'):
         body2 = head(p['day'], '夜：解答（電卓操作）', 'キヤノン F-789SG・複素数モード（[MODE] [2]）。負の数は「0 − 数」で入れる', p.get('minutes', 20))
         for g in p['keys']:
@@ -450,7 +455,7 @@ def pm_q(p):
         h = 190 // n if n else 20
         for f in p['fields']:
             body += f'<p class="q">{E(f["q"])}</p>{lines(max(h - 16, 12))}'
-    return page(f'{daylab(p["day"])} 夜 問題', body, p['id'], right='' if p['kind'] == 'calc' else '条文は note-articles/laws/ の原文で照合済み')
+    return page(f'{daylab(p["day"])} 夜 問題', body, p['id'], right='')
 
 
 def pm_a(p):
