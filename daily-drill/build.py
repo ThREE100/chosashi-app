@@ -101,7 +101,13 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
 code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 @page{size:A4;margin:0}
-@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+@page flow{size:A4;margin:12mm 0 14mm}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;min-height:0;overflow:visible;page:flow;padding-top:0;padding-bottom:10mm}
+.keep,.q,.ans,blockquote,.cl,li,tr,.full,.form .row,pre.keys,.ans-box,.clz p,.pt tr{break-inside:avoid;page-break-inside:avoid}
+h2,.q,.hd{break-after:avoid;page-break-after:avoid}
+p,.full,li{orphans:3;widows:3}
+.sheet.flow .foot{position:static;margin-top:4mm}
+.sheet.flow:has(.amq){page:auto;padding-top:12mm;padding-bottom:12mm;min-height:297mm}.sheet.flow:has(.amq) .foot{position:absolute}}
 """
 
 
@@ -288,18 +294,15 @@ def am_a(p):
     body += f'<div class="ans">正解：<b>{CIRC[idx]}</b>（{"・".join(ans)}）　※問題は「{'正しいもの' if p['mode'] == '正しい' else '誤っているもの'}」を選ぶ</div>'
     for s in p['statements']:
         mark = '<span class="ok">○ 正しい</span>' if s['truth'] else '<span class="ng">× 誤り</span>'
-        body += f'<div class="q"><b>{s["label"]}</b>　{mark}　{E(s["note"])}</div>'
-        body += ''.join(quote_block(b) for b in s['basis'])
+        body += f'<div class="keep"><div class="q"><b>{s["label"]}</b>　{mark}　{E(s["note"])}</div>' + ''.join(quote_block(b) for b in s['basis']) + '</div>'
     w = p['write']
     if 'cloze' in w:
         body += '<h2>条文の空欄補充：答え</h2>' + cloze_html(w, answers=True)
-        body += '<p class="q">自己採点（合っていれば□にチェック）</p><ul class="chk">' + ''.join(f'<li>□ {CN[i]} {E(x)}</li>' for i, x in enumerate(w['blanks'])) + '</ul>'
     else:
         body += '<h2>書いて説明：模範解答</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li>{E(m)}</li>' for m in w['model']) + '</ul>'
-        body += '<p class="q">採点ポイント（言葉が入っていれば○）</p><ul class="chk">' + ''.join(f'<li>□ {E(x)}</li>' for x in w['points']) + '</ul>'
     full = w['basis'][0]
     txt = article(full['law'], full['article']) or ''
-    txt = '\n'.join(ln for ln in txt.split('\n') if not ln.startswith('#')).strip()
+    txt = '\n'.join(re.sub(r'^\s*- ', '', ln) for ln in txt.split('\n') if not ln.startswith('#')).strip()
     body += f'<h2>原文（音読用）　<span class="src">{E(full["law"])}{E(_art(full["article"]))}</span></h2><div class="full">{E(txt)}</div>'
     return page(f'{daylab(p["day"])} 朝 解答', body, f'{p["id"]} 解答', flow=True)
 
