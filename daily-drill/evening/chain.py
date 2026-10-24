@@ -281,9 +281,9 @@ def robustness(spec, raw, outA):
             v = abs(Pr[o['a']] - Pr[o['b']])
             if abs((v * 100) % 1 - 0.5) < 0.06:
                 errs.append(f"{o['label']}: 距離 {v:.5f} が四捨五入の境目に近い")
-        if o['kind'] == 'arith' and o.get('mode') == 'round2' and abs((outA[oid + '__raw'] * 100) % 1 - 0.5) < 0.06:
+        if o['kind'] == 'arith' and o.get('mode') in ('round', 'round2') and abs((outA[oid + '__raw'] * 100) % 1 - 0.5) < 0.06:
             errs.append(f"{o['label']}: {outA[oid + '__raw']:.5f} が四捨五入の境目に近い")
-        if o['kind'] in ('area', 'arith') and o.get('mode', 'floor2') != 'round2' and oid + '__raw' in outA:
+        if o['kind'] in ('area', 'arith') and o.get('mode', 'floor2') not in ('round', 'round2') and oid + '__raw' in outA:
             v = outA[oid + '__raw']
             q = v * 100 if o.get('mode', 'floor2') == 'floor2' else v
             if abs(q - round(q)) < 0.01:
@@ -321,7 +321,7 @@ def keys(spec):
             d.add(f'点{nm}の分子', 'Conjg(C − A) × (D − C)　のiの係数', '[Apps] [4] [ALPHA] [C] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [=]')
             d.add(f'点{nm}の分母', 'Conjg(B − A) × (D − C)　のiの係数', '[Apps] [4] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [C] [)] [=]')
             d.run()
-            tn, td = CK.val(d.steps[-2], 1), CK.val(d.steps[-1], 1)
+            tn, td = im(d.steps[-2]), im(d.steps[-1])
             d.add(f'点{nm}（交点）', f'{nm} ＝ A ＋ (B − A) × 分子 ÷ 分母', f'[ALPHA] [A] [+] [(] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] {CK.sn(tn)} [÷] {CK.sn(td)} [=]')
         elif op in ('along', 'ratio'):
             d.add(f'割り当て（点{nm}）', f'X＝{st["frm"]}、Y＝{st["to"]}', sto([(st['frm'], 'X'), (st['to'], 'Y')]), show=False)
@@ -344,7 +344,7 @@ def keys(spec):
                 d.add(f'割り当て（{nm}を{end}に置いたとき）', '、'.join(f'{v}＝{n}' for n, v in pairs), sto(pairs), show=False)
                 d.add(f'倍面積（{nm}＝{end}）', 'Σ Conjg(Pi) × Pi+1　のiの係数（符号つき）', ' [+] '.join(f'[Apps] [4] [ALPHA] [{names[i]}] [)] [×] [ALPHA] [{names[(i + 1) % len(vs)]}]' for i in range(len(vs))) + ' [=]')
             d.run()
-            s0, s1 = CK.val(d.steps[-3], 1), CK.val(d.steps[-1], 1)
+            s0, s1 = im(d.steps[-3]), im(d.steps[-1])
             sg = 1 if s0 + s1 > 0 else -1
             d.add('t（辺の上の位置の比）', f't ＝ ({"" if sg > 0 else "−"}2 × {st["target"]:.2f} − 倍面積0) ÷ (倍面積1 − 倍面積0)',
                   f'[(] {CK.sn(sg * 2 * st["target"])} [−] {CK.sn(s0)} [)] [÷] [(] {CK.sn(s1)} [−] {CK.sn(s0)} [)] [=]')
@@ -357,7 +357,7 @@ def keys(spec):
             d.add('比 k（Eに記憶）', f'k ＝ ({st["b"]} − {st["a"]}) ÷ ({st["b2"]} − {st["a2"]})', '[(] [ALPHA] [B] [−] [ALPHA] [A] [)] [÷] [(] [ALPHA] [Y] [−] [ALPHA] [X] [)] [=] [SHIFT] [STO] [E]', show=False)
             d.add(f'点{nm}（変換）', f'{nm} ＝ {st["a"]} ＋ ({st["p2"]} − {st["a2"]}) × k', '[ALPHA] [A] [+] [(] [ALPHA] [C] [−] [ALPHA] [X] [)] [×] [ALPHA] [E] [=]')
         d.run()
-        z = complex(CK.r2(CK.val(d.steps[-1])), CK.r2(CK.val(d.steps[-1], 1)))
+        z = complex(CK.r2(CK.val(d.steps[-1])), CK.r2(im(d.steps[-1])))
         P[nm] = z
         got[nm] = z
         groups.append((f'点{nm}', first, len(d.steps)))
@@ -374,7 +374,7 @@ def keys(spec):
             else:
                 d.add(o['label'] + '（倍面積）', 'Σ Conjg(Pi) × Pi+1　のiの係数の絶対値 ÷ 2', ' [+] '.join(f'[Apps] [4] [ALPHA] [{names[i]}] [)] [×] [ALPHA] [{names[(i + 1) % len(vs)]}]' for i in range(len(vs))) + ' [=]')
             d.run()
-            v = abs(CK.val(d.steps[-1], 1)) / 2
+            v = abs(im(d.steps[-1])) / 2
             got[oid] = floor2(v) if o.get('mode', 'floor2') == 'floor2' else float(math.floor(v + 1e-7))
         elif k == 'dist':
             d.add(f'割り当て（{o["label"]}）', f'X＝{o["a"]}、Y＝{o["b"]}', sto([(o['a'], 'X'), (o['b'], 'Y')]), show=False)
@@ -395,6 +395,11 @@ def keys(spec):
     if len(d.steps) > first:
         groups.append(('面積・距離など', first, len(d.steps)))
     return d.steps, groups, got
+
+
+def im(step):
+    """表示のiの係数。表示に i がない（実数だけ）ときは 0（倍面積や交点の分子が0になる場合）"""
+    return CK.val(step, 1) if 'i' in step.get('display', '') else 0.0
 
 
 def arith_keys(expr):
@@ -423,7 +428,7 @@ def build_problem(spec, day):
         elif o['kind'] == 'text':
             answers.append({'label': o['label'], 'kind': 'text', 'value': v})
         else:
-            unit_kind = 'area' if o['kind'] in ('area', 'arith') and o.get('unit', '㎡') == '㎡' else 'len'
+            unit_kind = 'area' if o.get('unit', '㎡' if o['kind'] in ('area', 'arith') else 'm') == '㎡' else 'len'   # 単位は unit（㎡／m）で変えられる
             val = f'{int(v)}' if o['kind'] == 'area' and o.get('mode') == 'int' else f'{v:.2f}'
             answers.append({'label': o['label'], 'kind': unit_kind, 'value': val})
     # 表

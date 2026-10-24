@@ -7,6 +7,7 @@ import math
 import os
 import re
 import sys
+import tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
@@ -56,10 +57,13 @@ class Doc:
         return '\n'.join(out)
 
     def run(self):
-        tmp = os.path.join(HERE, '_keys_tmp.md')
-        open(tmp, 'w', encoding='utf-8').write(self.md())
-        res = simulate(tmp)
-        os.remove(tmp)
+        fd, tmp = tempfile.mkstemp(suffix='.md', prefix='keys_')   # 同時に動いても衝突しないよう、毎回別のファイル
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
+            f.write(self.md())
+        try:
+            res = simulate(tmp)
+        finally:
+            os.remove(tmp)
         it = iter(res)
         for s in self.steps:
             if s['show']:
