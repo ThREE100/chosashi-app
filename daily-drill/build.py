@@ -131,8 +131,13 @@ def page(title, body, foot='', flow=False, right='条文は note-articles/laws/ 
             f'<div class="foot"><span>{E(foot)}</span><span>{E(right)}</span></div></div></body></html>')
 
 
+def daylab(day):
+    """見出しの日の表示（本番形式の統合問題などは、日の番号の代わりに名前を入れる）"""
+    return f'第{day}日' if isinstance(day, int) and day > 0 else str(day)
+
+
 def head(day, kind, theme, minutes):
-    return (f'<div class="hd"><h1>第{day}日　{kind}</h1><span class="meta">日付：　　月　　日　／　目安 {minutes}分　／　時間：　　分</span></div>'
+    return (f'<div class="hd"><h1>{daylab(day)}　{kind}</h1><span class="meta">日付：　　月　　日　／　目安 {minutes}分　／　時間：　　分</span></div>'
             f'<p class="theme">{E(theme)}</p>')
 
 
@@ -180,7 +185,7 @@ def am_q(p):
         body += f'<h2>条文の空欄補充（6分）　<span class="src">条文のキーワードを空欄に</span></h2><p>{E(w["prompt"])}</p>{cloze_html(w)}'
     else:
         body += f'<h2>書いて説明（6分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(w["prompt"])}</p>{lines(104)}'
-    return page(f'第{p["day"]}日 朝 問題', body, f'{p["id"]}')
+    return page(f'{daylab(p["day"])} 朝 問題', body, f'{p["id"]}')
 
 
 def am_a(p):
@@ -205,7 +210,7 @@ def am_a(p):
     txt = '\n'.join(ln for ln in txt.split('\n') if not ln.startswith('#')).strip()
     body += f'<h2>原文（音読用）　<span class="src">{E(full["law"])}{E(_art(full["article"]))}</span></h2><div class="full">{E(txt)}</div>'
     body += log_box(p, 'morning')
-    return page(f'第{p["day"]}日 朝 解答', body, f'{p["id"]} 解答', flow=True)
+    return page(f'{daylab(p["day"])} 朝 解答', body, f'{p["id"]} 解答', flow=True)
 
 
 # ---------- 夜 ----------
@@ -354,7 +359,7 @@ def calc2_q(p):
     s2 += '<h2>測量成果・地積測量図等の記載</h2>' + calc2_tables(p)
     if len(p['answers']) > 6:
         s1 = '<div class="dense">' + s1 + '</div>'
-    return pages(f'第{p["day"]}日 夜 問題', [s1, s2], p['id'], right='')
+    return pages(f'{daylab(p["day"])} 夜 問題', [s1, s2], p['id'], right='')
 
 
 def calc2_a(p):
@@ -377,7 +382,7 @@ def calc2_a(p):
             body2 += f'<pre class="keys">{E(s["keys"])}</pre>'
             if s.get('display'):
                 body2 += f'<p class="ans" style="margin:.5mm 0 1.5mm">表示：<b>{E(s["display"])}</b></p>'
-    return pages(f'第{p["day"]}日 夜 解答', [sheet1, body2], f'{p["id"]} 解答', right='', flow=True)
+    return pages(f'{daylab(p["day"])} 夜 解答', [sheet1, body2], f'{p["id"]} 解答', right='', flow=True)
 
 
 def draw_q(p):
@@ -396,7 +401,7 @@ def draw_q(p):
     else:
         a, b2 = draw_forms.tatemono_blank()
         s2 = head(p['day'], '夜：記述式ドリル（答案用紙）', '建物図面（500分の1）・各階平面図（250分の1）を作成する（実寸）', mins) + f'<div class="drawwrap">{a}</div><div class="drawwrap">{b2}</div>'
-    return pages(f'第{p["day"]}日 夜 問題', [s1, s2], p['id'], right='')
+    return pages(f'{daylab(p["day"])} 夜 問題', [s1, s2], p['id'], right='')
 
 
 def draw_a(p):
@@ -424,7 +429,7 @@ def draw_a(p):
                 if s.get('display'):
                     body2 += f'<p class="ans" style="margin:.5mm 0 1.5mm">表示：<b>{E(s["display"])}</b></p>'
         sheets.append(body2)
-    return pages(f'第{p["day"]}日 夜 解答', sheets, f'{p["id"]} 解答', right='', flow=True)
+    return pages(f'{daylab(p["day"])} 夜 解答', sheets, f'{p["id"]} 解答', right='', flow=True)
 
 
 def pm_q(p):
@@ -433,7 +438,7 @@ def pm_q(p):
     if p['kind'] == 'calc2':
         return calc2_q(p)
     if p['kind'] == 'shinsei2':
-        return pages(f'第{p["day"]}日 夜 問題', [exam_body(p), form_body(p)], p['id'])
+        return pages(f'{daylab(p["day"])} 夜 問題', [exam_body(p), form_body(p)], p['id'])
     body = head(p['day'], '夜：記述式ドリル', p['title'], 15)
     if p['kind'] == 'calc':
         intro = {'radial': 'T1に器械を据え、T2を後視して、次の点を観測した。', 'area': '次の4点で囲まれた四角形ABCDの土地（地目は宅地）がある。'}.get(p['type'], '次の点の座標が与えられている。')
@@ -449,7 +454,7 @@ def pm_q(p):
         h = 190 // n if n else 20
         for f in p['fields']:
             body += f'<p class="q">{E(f["q"])}</p>{lines(max(h - 16, 12))}'
-    return page(f'第{p["day"]}日 夜 問題', body, p['id'], right='' if p['kind'] == 'calc' else '条文は note-articles/laws/ の原文で照合済み')
+    return page(f'{daylab(p["day"])} 夜 問題', body, p['id'], right='' if p['kind'] == 'calc' else '条文は note-articles/laws/ の原文で照合済み')
 
 
 def pm_a(p):
@@ -464,7 +469,7 @@ def pm_a(p):
             body += ''.join(quote_block(x) for x in it['basis'])
             body += f'<p class="src">{E(it["note"])}</p>'
         body += log_box(p, 'evening')
-        return page(f'第{p["day"]}日 夜 解答', body, f'{p["id"]} 解答', flow=True)
+        return page(f'{daylab(p["day"])} 夜 解答', body, f'{p["id"]} 解答', flow=True)
     body = head(p['day'], '夜：解答', p['title'], 15)
     if p['kind'] == 'calc':
         g = p['given']
@@ -484,7 +489,7 @@ def pm_a(p):
             if f['note']:
                 body += f'<p class="src">{E(f["note"])}</p>'
     body += log_box(p, 'evening')
-    return page(f'第{p["day"]}日 夜 解答', body, f'{p["id"]} 解答', flow=True)
+    return page(f'{daylab(p["day"])} 夜 解答', body, f'{p["id"]} 解答', flow=True)
 
 
 def main():

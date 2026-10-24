@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第117日 夜 問題</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet"><div class="dense"><div class="hd"><h1>第117日　夜：記述式ドリル（問題）</h1><span class="meta">日付：　　月　　日　／　目安 20分　／　時間：　　分</span></div><p class="theme">作図：隅切りのある土地の分筆の登記等の地積測量図（縮尺250分の1）</p><h2>解答欄（先に書く）</h2><table class="ans-box c2"><tr><th>辺AHの長さ（m）</th><td><span class="box" style="min-width:24mm"></span> m</td><th>辺HBの長さ（m）</th><td><span class="box" style="min-width:24mm"></span> m</td></tr><tr><th>辺BCの長さ（m）</th><td><span class="box" style="min-width:24mm"></span> m</td><th>辺CDの長さ（m）</th><td><span class="box" style="min-width:24mm"></span> m</td></tr><tr><th>辺DEの長さ（m）</th><td><span class="box" style="min-width:24mm"></span> m</td><th>辺EFの長さ（m）</th><td><span class="box" style="min-width:24mm"></span> m</td></tr><tr><th>辺FGの長さ（m）</th><td><span class="box" style="min-width:24mm"></span> m</td><th>辺GAの長さ（m）</th><td><span class="box" style="min-width:24mm"></span> m</td></tr><tr><th>辺HEの長さ（m）</th><td><span class="box" style="min-width:24mm"></span> m</td><th>（イ）8番1の地積</th><td><span class="box" style="min-width:24mm"></span> ㎡</td></tr><tr><th>（ロ）8番2の地積</th><td colspan="3"><span class="box" style="min-width:24mm"></span> ㎡</td></tr><tr><th>分筆後の地積の合計と登記記録との差</th><td colspan="3"><span class="box" style="min-width:70mm"></span></td></tr><tr><th>地積に関する更正の登記の要否</th><td colspan="3"><span class="box" style="min-width:70mm"></span></td></tr><tr><th>図に描かない点</th><td colspan="3"><span class="box" style="min-width:70mm"></span></td></tr></table><div class="q2"><p>土地家屋調査士の斉藤一郎は、西田幸子から、A市C町二丁目8番の土地（以下「本件土地」という。宅地）を2筆に分筆する登記の依頼を受け、令和8年10月22日に現地を測量した。解答欄を埋め、2枚目の答案用紙に、申請情報と併せて提供する地積測量図を作成しなさい。</p><h2>【条件】</h2><ol><li>本件土地は、点A・H・B・C・D・E・F・Gを順に結んだ範囲である（北東の角は隅切りで、点B・Cの間が隅切りの辺。南の辺は点Fで折れている）。登記記録の地積は452.50平方メートルである。</li><li>分筆線は点Hと点Eを結ぶ直線で、点A・H・E・F・Gの部分を（イ）8番1、点H・B・C・D・Eの部分を（ロ）8番2とする。</li><li>点A〜Hは筆界点で、座標値と境界標は表のとおりである（基本三角点等T1・T2に基づく測量の成果）。点H・Eの金属標は今回の測量で設置した。点Qは、市の道路台帳に記載された、北側と東側の市道の境界線の交点（隅切りをする前の角）である。</li><li>本件土地の北側と東側は市道、西側は7番、南側は9番に接している。本件土地は市街地地域にある。登記記録の地積452.50㎡に対する誤差の限度（規則第10条第4項）は、精度区分の甲2で2.04㎡、甲3で4.08㎡である（いずれも小数第2位未満を切り捨てた値）。</li></ol><h2>【聞き取り結果】</h2><ol><li>西田幸子の話：「北東の角は、もとは道路の角（点Q）までうちの土地だったと思う。図面は角のある四角で描いてほしい。」</li><li>市の道路管理担当者の話：「隅切り部分は、昭和の終わりに分筆して市が取得しており、本件土地の筆界は点B・Cを結ぶ線だ。」</li></ol><h2>【注】</h2><ol><li>座標はXが北、Yが東、単位はメートル。平面直角座標系の系の番号は問題文で与えていないので、本問では記録を省略してよい。</li><li>地積測量図は規則第77条・第78条に従い、縮尺250分の1で作成する（上を北）。「作成者」「申請人」の欄は（略）と印刷済み。</li><li>距離は座標値から求めて小数第3位を四捨五入、地積は座標法で小数第2位未満を切り捨てる。地積に関する更正の登記の要否は、分筆前の地積（登記記録のもの）と分筆後の地積の合計の差を、誤差の限度と比べて判断する（準則第72条第1項）。作図は定規と鉛筆で（1mが4mm）。</li></ol></div><div class="tg" style="grid-template-columns:repeat(2,1fr)"><div><table><caption>基本三角点等（測量の基準とした点）</caption><tr><th>点</th><th>X（北）</th><th>Y（東）</th><th>備考</th></tr><tr><td>T1</td><td>626.40</td><td>398.10</td><td>器械点（北側の市道の向こう）</td></tr><tr><td>T2</td><td>620.70</td><td>434.90</td><td>後視点（北東の交差点の向こう）</td></tr></table></div><div><table><caption>点の座標値と境界標</caption><tr><th>点</th><th>X（北）</th><th>Y（東）</th><th>境界標</th></tr><tr><td>A</td><td>618.80</td><td>401.30</td><td>コンクリート杭</td></tr><tr><td>H</td><td>618.96</td><td>414.00</td><td>金属標</td></tr><tr><td>B</td><td>619.09</td><td>425.28</td><td>金属標</td></tr><tr><td>C</td><td>617.02</td><td>427.32</td><td>金属標</td></tr><tr><td>D</td><td>602.40</td><td>426.90</td><td>コンクリート杭</td></tr><tr><td>E</td><td>601.82</td><td>413.67</td><td>金属標</td></tr><tr><td>F</td><td>601.55</td><td>407.40</td><td>石杭</td></tr><tr><td>G</td><td>602.30</td><td>399.10</td><td>石杭</td></tr><tr><td>Q</td><td>619.12</td><td>427.38</td><td>なし（道路の交点）</td></tr></table></div></div></div><div class="foot"><span>PM-117　1/2</span><span></span></div></div><div class="sheet"><div class="hd"><h1>第117日　夜：記述式ドリル（答案用紙）</h1><span class="meta">日付：　　月　　日　／　目安 20分　／　時間：　　分</span></div><p class="theme">地積測量図を作成する（実寸・縮尺250分の1）</p><div class="drawwrap"><svg class="fig draw" viewBox="0 0 182.0 232.0" width="182.0mm" height="232.0mm" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, Meiryo, sans-serif"><rect x="0" y="0" width="182.0" height="232.0" fill="#fff"/><rect x="0.20" y="0.20" width="181.60" height="231.60" fill="none" stroke="#1d2b27" stroke-width="0.6"/><text x="91.00" y="5.40" font-size="4.4" fill="#1d2b27" font-weight="700" text-anchor="middle" stroke="#fff" stroke-width="0.9" paint-order="stroke" stroke-linejoin="round">地　積　測　量　図</text><line x1="0.20" y1="7.20" x2="181.80" y2="7.20" stroke="#1d2b27" stroke-width="0.35" stroke-linecap="round"/><line x1="0.20" y1="7.20" x2="0.20" y2="14.00" stroke="#1d2b27" stroke-width="0.35" stroke-linecap="round"/><text x="1.40" y="10.60" font-size="2.6" fill="#7a8782" font-weight="400" text-anchor="start" stroke="#fff" stroke-width="0.9" paint-order="stroke" stroke-linejoin="round">土地の所在</text><line x1="72.20" y1="7.20" x2="72.20" y2="14.00" stroke="#1d2b27" stroke-width="0.35" stroke-linecap="round"/><text x="73.40" y="10.60" font-size="2.6" fill="#7a8782" font-weight="400" text-anchor="start" stroke="#fff" stroke-width="0.9" paint-order="stroke" stroke-linejoin="round">地番</text><line x1="122.20" y1="7.20" x2="122.20" y2="14.00" stroke="#1d2b27" stroke-width="0.35" stroke-linecap="round"/><text x="123.40" y="10.60" font-size="2.6" fill="#7a8782" font-weight="400" text-anchor="start" stroke="#fff" stroke-width="0.9" paint-order="stroke" stroke-linejoin="round">縮尺</text><text x="152.20" y="13.20" font-size="3.4" fill="#1d2b27" font-weight="700" text-anchor="middle" stroke="#fff" stroke-width="0.9" paint-order="stroke" stroke-linejoin="round">1/250</text><line x1="0.20" y1="14.00" x2="181.80" y2="14.00" stroke="#1d2b27" stroke-width="0.35" stroke-linecap="round"/><line x1="0.20" y1="216.00" x2="181.80" y2="216.00" stroke="#1d2b27" stroke-width="0.35" stroke-linecap="round"/><line x1="0.20" y1="216.00" x2="0.20" y2="231.80" stroke="#1d2b27" stroke-width="0.35" stroke-linecap="round"/><text x="1.40" y="219.60" font-size="2.6" fill="#7a8782" font-weight="400" text-anchor="start" stroke="#fff" stroke-width="0.9" paint-order="stroke" stroke-linejoin="round">作成者</text><text x="45.70" y="226.50" font-size="3.4" fill="#1d2b27" font-weight="400" text-anchor="middle" stroke="#fff" stroke-width="0.9" paint-order="stroke" stroke-linejoin="round">（略）</text><line x1="91.20" y1="216.00" x2="91.20" y2="231.80" stroke="#1d2b27" stroke-width="0.35" stroke-linecap="round"/><text x="92.40" y="219.60" font-size="2.6" fill="#7a8782" font-weight="400" text-anchor="start" stroke="#fff" stroke-width="0.9" paint-order="stroke" stroke-linejoin="round">申請人</text><text x="136.70" y="226.50" font-size="3.4" fill="#1d2b27" font-weight="400" text-anchor="middle" stroke="#fff" stroke-width="0.9" paint-order="stroke" stroke-linejoin="round">（略）</text></svg></div><div class="foot"><span>PM-117　2/2</span><span></span></div></div></body></html>

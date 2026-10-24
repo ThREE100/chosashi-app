@@ -47,19 +47,20 @@ def parts(sid):
     if S:
         S['pid'] = f'{up}-1'
         p, _, _ = chain.build_problem(S, 0)
+        p['day'] = f'本番形式 {up}'
         p['title'] = '第1部　調査・計算：' + p['title']
         out['calc'] = p
     F = load(os.path.join(d, 'form.py'), 'PROBLEM')
     if F:
         p = dict(F)
-        p.update({'id': f'{up}-2', 'day': 0, 'kind': 'shinsei2', 'module': True})
+        p.update({'id': f'{up}-2', 'day': f'本番形式 {up}', 'kind': 'shinsei2', 'module': True})
         p.setdefault('layout', 'generic' if p.get('fig') else 'none')
         p['title'] = '第2部　申請書：' + p['title']
         out['form'] = p
     D = load(os.path.join(d, 'draw.py'), 'DRAW')
     if D:
         p = dict(D)
-        p.update({'id': f'{up}-3', 'day': 0, 'kind': 'draw'})
+        p.update({'id': f'{up}-3', 'day': f'本番形式 {up}', 'kind': 'draw'})
         p['title'] = '第3部　図面：' + p['title']
         out['draw'] = p
     return meta, out
@@ -128,7 +129,7 @@ def check(sid):
 
 def write(sid):
     meta, ps = parts(sid)
-    cover = B.head('本番形式', '記述式の統合問題（' + meta['title'] + '）', '第1部 調査・計算 → 第2部 申請書 → 第3部 図面を、1つの事案として通して解く', meta.get('minutes', 60))
+    cover = B.head(f'本番形式 {sid.upper()}', '記述式の統合問題（' + meta['title'] + '）', '第1部 調査・計算 → 第2部 申請書 → 第3部 図面を、1つの事案として通して解く', meta.get('minutes', 60))
     cover += '<h2>事案の全体と解き方の目安</h2>' + ''.join(f'<p>{B.E(x)}</p>' for x in meta['lead'])
     cover_html = B.page(f'本番形式 {sid}', cover, f'{sid.upper()} 表紙', right='')
     q = body_of(cover_html) + ''.join(body_of(B.pm_q(ps[k])) for k in ('calc', 'form', 'draw'))
