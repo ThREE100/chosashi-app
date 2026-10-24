@@ -71,3 +71,4 @@
 - 番号は Day001 のように、先頭が大文字のDで3けた（`note_build.py` の `TITLE_AM`・`TITLE_PM`。形が違うと作成時にエラーになる）。「ドリル」「これだけ」と「｜」の間には半角スペースが1つ入る。
 - 見出し画像の左上のバッジも同じ番号（Day001-AM / Day001-PM）。
 - **誤答の記録**：解いたら `python3 daily-drill/kiroku.py add <問題> <○|△|×> [型…]`（またはスキル `/kiroku`）。集計と解き直しの予定は `log/report.md`、説明は `log/README.md`。
+- **土曜の20問模擬**：`saturday/`（問題 `out/sat01.html`、解答 `out/sat01-ans.html`）。作り方は `RULES.md` の5。
