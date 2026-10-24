@@ -17,8 +17,8 @@ def solved(s):
     # ---- 建物図面
     cells = [(70, '土地の所在', s['addr']), (36, '地番', ''), (36, '家屋番号', ''), (40, '縮尺', '1/500')]
     p1, ar = frame(BD_H, '建　物　図　面', cells, [(91, '作成者', '（略）'), (91, '申請人', '（略）')], top_h=14.0, foot_h=12.0)
-    p1.append(_t(70.2 + 18, 7.2 + 6.0, s['lots_text'], 2.9, 'middle', weight='700'))
-    p1.append(_t(106.2 + 18, 7.2 + 6.0, s['house'], 2.6, 'middle', weight='700'))
+    p1.append(_t(70.2 + 18, 7.2 + 6.4, s['lots_text'], 2.9, 'middle', weight='700'))
+    p1.append(_t(106.2 + 18, 7.2 + 6.4, s['house'], 2.6, 'middle', weight='700'))
     allp = [c for v in s['site_lots'].values() for c in v]
     Xs, Ys = [c[0] for c in allp], [c[1] for c in allp]
     m = Map((ar[0], ar[1], ar[2], ar[3] - 8), 500, (min(Xs) - 2.5, max(Xs) + 2.5, min(Ys) - 3.0, max(Ys) + 3.0))
@@ -49,8 +49,8 @@ def solved(s):
     # ---- 各階平面図
     cells2 = [(70, '建物の所在', ''), (36, '家屋番号', ''), (36, '', ''), (40, '縮尺', '1/250')]
     p2, ar2 = frame(FP_H, '各　階　平　面　図', cells2, [(91, '作成者', '（略）'), (91, '申請人', '（略）')], top_h=14.0, foot_h=12.0)
-    p2.append(_t(0.2 + 35, 7.2 + 6.0, s['loc'], 2.9, 'middle', weight='700'))
-    p2.append(_t(70.2 + 18, 7.2 + 6.0, s['house'], 2.6, 'middle', weight='700'))
+    p2.append(_t(0.2 + 35, 7.2 + 6.4, s['loc'], 2.9, 'middle', weight='700'))
+    p2.append(_t(70.2 + 18, 7.2 + 6.4, s['house'], 2.6, 'middle', weight='700'))
     ax, ay, aw, ah = ar2
     pts = s['plan']
     bn0, bn1 = min(c[0] for c in pts), max(c[0] for c in pts)

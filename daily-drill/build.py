@@ -408,12 +408,12 @@ def draw_a(p):
     body += log_box(p, 'evening')
     sheets = [body]
     if p['draw'] == 'chiseki':
-        sheets.append(head(p['day'], '夜：解答（模範の作図）', '地積測量図（実寸・縮尺250分の1。座標から機械で作図）', 20) + f'<div class="drawwrap">{draw_forms.chiseki_solved(p["spec"])}</div>')
+        sheets.append(head(p['day'], '夜：解答（模範の作図）', '地積測量図（実寸・縮尺250分の1。座標から機械で作図）', p.get('minutes', 20)) + f'<div class="drawwrap">{draw_forms.chiseki_solved(p["spec"])}</div>')
     else:
         a, b2 = draw_forms.tatemono_solved(p['spec'])
-        sheets.append(head(p['day'], '夜：解答（模範の作図）', '建物図面・各階平面図（実寸。座標から機械で作図）', 20) + f'<div class="drawwrap">{a}</div><div class="drawwrap">{b2}</div>')
+        sheets.append(head(p['day'], '夜：解答（模範の作図）', '建物図面・各階平面図（実寸。座標から機械で作図）', p.get('minutes', 20)) + f'<div class="drawwrap">{a}</div><div class="drawwrap">{b2}</div>')
     if p.get('keys'):
-        body2 = head(p['day'], '夜：解答（電卓操作）', 'キヤノン F-789SG・複素数モード（[MODE] [2]）。負の数は「0 − 数」で入れる', 20)
+        body2 = head(p['day'], '夜：解答（電卓操作）', 'キヤノン F-789SG・複素数モード（[MODE] [2]）。負の数は「0 − 数」で入れる', p.get('minutes', 20))
         for g in p['keys']:
             body2 += f'<h2>{E(g["title"])}</h2>'
             for s in g['steps']:

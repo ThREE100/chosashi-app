@@ -13,7 +13,7 @@ assert floor2(area(IN_RO)) == FR
 k1 = K['k1']
 DISTS = [
  [(LAND['A'][0], 306.00), (k1[0] + HALF, 306.00), f'{DN:.2f}'],      # 北：市道との筆界 → （ロ）部分の北の外壁の面
- [(523.50, LAND['A'][1]), (523.50, k1[1] - HALF), f'{DW:.2f}'],      # 西：14番との筆界 → 西の外壁の面
+ [(525.60, LAND['A'][1]), (525.60, k1[1] - HALF), f'{DW:.2f}'],      # 西：14番との筆界 → 西の外壁の面
 ]
 for (a, b, t) in DISTS:
     assert f'{math.hypot(a[0] - b[0], a[1] - b[1]):.2f}' == t, (a, b, t)
