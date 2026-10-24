@@ -268,6 +268,17 @@ def _ans(p, label_start):
 
 def check_calc2(p):
     pid, v = p['id'], p['verify']
+    if v['type'] == 'chain':                 # 計算の連鎖のエンジン（evening/chain.py）：方法B・キー列・答えが一つに決まるか
+        sys.path.insert(0, os.path.join(HERE, 'evening'))
+        import chain
+        for e in chain.verify_problem(p):
+            err(pid, e)
+        _, raw, outA = chain.solve_a(v['spec'])
+        for e in chain.robustness(v['spec'], raw, outA):
+            err(pid, e)
+        for b_ in p.get('basis', []):
+            quote_ok(pid, '根拠', b_)
+        return
     A = lambda k: tuple(v[k])
     if v['type'] == 'pm01':
         T1, T2 = A('T1'), A('T2')
