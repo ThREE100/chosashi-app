@@ -1,0 +1,89 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第9日 朝 解答</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet flow"><div class="hd"><h1>第9日　朝：解答</h1><span class="meta">日付：　　月　　日　／　目安 10分　／　時間：　　分</span></div><p class="theme">択一：建物の合併の制限・滅失の登記・共用部分である旨の登記（法第56条〜第58条、規則第131条、準則第85条、先例）　／　空欄補充：建物の表題部の変更の登記・区分建物となった場合の一括申請・分割と区分の登記（法第51条・第52条・第54条）</p><div class="ans">正解：<b>③</b>（ア・ウ）　※問題は「正しいもの」を選ぶ</div><div class="q"><b>ア</b>　<span class="ok">○ 正しい</span>　法第56条第5号は抵当権などの登記がある建物の合併を制限するが、かっこ書きで「法務省令で定めるもの」を除いている。規則第131条第1号により、登記の目的・受付の年月日及び受付番号・登記原因及びその日付が同一の担保権の登記は合併後の登記記録に登記できるので、合併の制限に当たらない（所有権の登記名義人も同じA）。抵当権があるから合併できない、と即断させるのがひっかけ。</div><blockquote>不動産登記法第56条「所有権等の登記以外の権利に関する登記がある建物（権利に関する登記であって、合併後の建物の登記記録に登記することができるものとして法務省令で定めるものがある建物を除く。）の建物の合併の登記」</blockquote><blockquote>不動産登記規則第131条「担保権の登記であって、登記の目的、申請の受付の年月日及び受付番号並びに登記原因及びその日付が同一のもの」</blockquote><div class="q"><b>イ</b>　<span class="ng">× 誤り</span>　準則第85条第1項。解体移転は、既存の建物が滅失し新たな建物が建築されたものとして扱うので、甲建物の滅失の登記（法第57条）と新しい建物の表題登記になる。所在の変更として扱うのは、解体せずに引いて動かす「えい行移転」（同条第2項）。</div><blockquote>不動産登記事務取扱手続準則第85条「建物を解体移転した場合は、既存の建物が滅失し、新たな建物が建築されたものとして取り扱うものとする」</blockquote><div class="q"><b>ウ</b>　<span class="ok">○ 正しい</span>　法第57条は滅失の登記の申請義務を定める。一棟の建物の全部が滅失したときは、区分建物の所有者の一人から申請すれば足りる（条文に明記はなく、先例の取扱い）。</div><blockquote>不動産登記法第57条「建物が滅失したときは、表題部所有者又は所有権の登記名義人」</blockquote><blockquote>先例（過去問の解説 q17-tatemono-messitsu.md）「区分建物が属する一棟の建物の全部が滅失した場合の滅失登記は、区分建物の所有者の一人から申請すれば足ります」</blockquote><div class="q"><b>エ</b>　<span class="ng">× 誤り</span>　法第58条第6項。共用部分である旨の登記をすると表題部所有者の登記・権利に関する登記が職権で抹消される（同条第4項）ので、規約を廃止したときは、表題部の変更の登記ではなく「表題登記」を申請する。</div><blockquote>不動産登記法第58条「当該規約の廃止の日から一月以内に、当該建物の表題登記を申請しなければならない」</blockquote><div class="q"><b>オ</b>　<span class="ng">× 誤り</span>　法第58条第2項。共用部分である旨の登記は、その建物の表題部所有者又は所有権の登記名義人（A）以外の者は申請できない。管理者Bは申請できない。</div><blockquote>不動産登記法第58条「当該共用部分である旨の登記又は団地共用部分である旨の登記をする建物の表題部所有者又は所有権の登記名義人以外の者は、申請することができない」</blockquote><h2>条文の空欄補充：答え</h2><div class="clz"><p class="cl">第四十四条第一項各号（第二号及び第六号を除く。）に掲げる登記事項について変更があったときは、<b class="ok">表題部所有者</b>又は<b class="ok">所有権の登記名義人</b>（…）は、当該変更があった日から<b class="ok">一月</b>以内に、当該登記事項に関する変更の登記を申請しなければならない</p><p class="cl">いずれも表題登記がある二以上の建物（区分建物を除く。）が増築その他の工事により相互に接続して区分建物になった場合における当該表題登記がある二以上の建物についての表題部の変更の登記の申請は、<b class="ok">一括</b>してしなければならない</p><p class="cl">次に掲げる登記は、表題部所有者又は所有権の登記名義人以外の者は、申請することができない</p><p class="cl">一　建物の<b class="ok">分割</b>の登記（表題登記がある建物の<b class="ok">附属建物</b>を当該表題登記がある建物の登記記録から分割して登記記録上別の一個の建物とする登記をいう。…）</p><p class="cl">二　建物の<b class="ok">区分</b>の登記（表題登記がある建物又は附属建物の部分であって<b class="ok">区分建物</b>に該当するものを登記記録上区分建物とする登記をいう。…）</p></div><p class="q">自己採点（合っていれば□にチェック）</p><ul class="chk"><li>□ ① 表題部所有者</li><li>□ ② 所有権の登記名義人</li><li>□ ③ 一月</li><li>□ ④ 一括</li><li>□ ⑤ 分割</li><li>□ ⑥ 附属建物</li><li>□ ⑦ 区分</li><li>□ ⑧ 区分建物</li></ul><h2>原文（音読用）　<span class="src">不動産登記法第51条</span></h2><div class="full">第四十四条第一項各号（第二号及び第六号を除く。）に掲げる登記事項について変更があったときは、表題部所有者又は所有権の登記名義人（共用部分である旨の登記又は団地共用部分である旨の登記がある建物の場合にあっては、所有者）は、当該変更があった日から一月以内に、当該登記事項に関する変更の登記を申請しなければならない。
+
+2. 前項の登記事項について変更があった後に表題部所有者又は所有権の登記名義人となった者は、その者に係る表題部所有者についての更正の登記又は所有権の登記があった日から一月以内に、当該登記事項に関する変更の登記を申請しなければならない。
+
+3. 第一項の登記事項について変更があった後に共用部分である旨の登記又は団地共用部分である旨の登記があったときは、所有者（前二項の規定により登記を申請しなければならない者を除く。）は、共用部分である旨の登記又は団地共用部分である旨の登記がされた日から一月以内に、当該登記事項に関する変更の登記を申請しなければならない。
+
+4. 共用部分である旨の登記又は団地共用部分である旨の登記がある建物について、第一項の登記事項について変更があった後に所有権を取得した者（前項の規定により登記を申請しなければならない者を除く。）は、その所有権の取得の日から一月以内に、当該登記事項に関する変更の登記を申請しなければならない。
+
+5. 建物が区分建物である場合において、第四十四条第一項第一号（区分建物である建物に係るものに限る。）又は第七号から第九号までに掲げる登記事項（同号に掲げる登記事項にあっては、法務省令で定めるものに限る。次項及び第五十三条第二項において同じ。）に関する変更の登記は、当該登記に係る区分建物と同じ一棟の建物に属する他の区分建物についてされた変更の登記としての効力を有する。
+
+6. 前項の場合において、同項に規定する登記事項に関する変更の登記がされたときは、登記官は、職権で、当該一棟の建物に属する他の区分建物について、当該登記事項に関する変更の登記をしなければならない。</div><h2>記録（○・△・× と、引っかかった型に✓）</h2><ul class="chk"><li>□ M7　規則・準則・先例の知識</li><li>□ M8　似た制度・用語の取り違え</li><li>□ M2　主体のすり替え（誰が申請・誰の義務）</li><li>□ 他（メモ：　　　　　　　　）</li></ul><p class="src">記録：<code>python3 daily-drill/kiroku.py add AM-009 × M7 --item 欄の名前</code>（○ のときは型を書かない）。集計と解き直しの予定は daily-drill/log/report.md</p><div class="foot"><span>AM-009 解答</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div></body></html>
