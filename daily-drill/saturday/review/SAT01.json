@@ -128,5 +128,135 @@
    "オ": false
   },
   "issues": ""
+ },
+ "SAT01-Q11": {
+  "hash": "531fa07383d13bbd",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 1,
+  "verdicts": {
+   "ア": true,
+   "イ": true,
+   "ウ": false,
+   "エ": false,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT01-Q12": {
+  "hash": "66cfc782fffb88d1",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 3,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": true,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT01-Q13": {
+  "hash": "e8e0ddce382988f7",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 5,
+  "verdicts": {
+   "ア": false,
+   "イ": false,
+   "ウ": true,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT01-Q14": {
+  "hash": "1ff26aac48808603",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 2,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": false,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT01-Q15": {
+  "hash": "7472c680dbd5e06d",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 4,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": false,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT01-Q16": {
+  "hash": "d5c86113dd1558f8",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 4,
+  "verdicts": {
+   "ア": true,
+   "イ": true,
+   "ウ": false,
+   "エ": false,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT01-Q17": {
+  "hash": "5192ab10313e089a",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 2,
+  "verdicts": {
+   "ア": false,
+   "イ": true,
+   "ウ": false,
+   "エ": false,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT01-Q18": {
+  "hash": "11af6e6e8c4d0300",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 5,
+  "verdicts": {
+   "ア": false,
+   "イ": true,
+   "ウ": false,
+   "エ": false,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT01-Q19": {
+  "hash": "6b338ba927a016da",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 3,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": true,
+   "エ": false,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT01-Q20": {
+  "hash": "f8d160594a40b1fb",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 1,
+  "verdicts": {
+   "ア": false,
+   "イ": false,
+   "ウ": true,
+   "エ": true,
+   "オ": true
+  },
+  "issues": ""
  }
 }
