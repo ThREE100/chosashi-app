@@ -2008,5 +2008,58 @@
   "side": "evening",
   "forms_no": 30,
   "minutes": 15
+ },
+ "PM-82": {
+  "side": "evening",
+  "types": [
+   "T5"
+  ],
+  "level": "L2",
+  "traps": [
+   "C12",
+   "C7",
+   "C4",
+   "C5"
+  ],
+  "articles": [
+   "不動産登記規則第77条"
+  ],
+  "minutes": 20
+ },
+ "PM-83": {
+  "side": "evening",
+  "types": [
+   "T6",
+   "T1"
+  ],
+  "level": "L3",
+  "traps": [
+   "C13",
+   "C1",
+   "C4"
+  ],
+  "articles": [
+   "不動産登記規則第77条"
+  ],
+  "minutes": 20
+ },
+ "PM-84": {
+  "side": "evening",
+  "types": [
+   "T7",
+   "T1",
+   "T2"
+  ],
+  "level": "L3",
+  "traps": [
+   "C14",
+   "C1",
+   "C4",
+   "C5"
+  ],
+  "articles": [
+   "不動産登記規則第77条"
+  ],
+  "minutes": 20
  }
 }

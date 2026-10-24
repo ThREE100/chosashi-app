@@ -9,6 +9,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 def main(pid, answer=False):
     p = json.load(open(os.path.join(HERE, 'problems', pid + '.json'), encoding='utf-8'))
+    if p['kind'] == 'calc2':
+        return calc(p, answer)
     e = p['exam']
     print(f"■{pid} {p['title']}\n{e['lead']}\n【事実関係】")
     for i, f in enumerate(e['facts'], 1):
@@ -38,6 +40,26 @@ def main(pid, answer=False):
                 print(f"    行 {r['name']}" + (('：' + ' / '.join(c.replace(chr(10), '　') for c in r['cells'])) if answer else ''))
             if answer and it.get('note'):
                 print(f"    （解説）{it['note']}")
+
+
+def calc(p, answer):
+    t = p['text']
+    print(f"■{p['id']} {p['title']}\n{t['lead']}")
+    for k, h in (('conditions', '【条件】'), ('hearing', '【聞き取り結果】'), ('notes', '【注】')):
+        print(h)
+        for i, x in enumerate(t.get(k, []), 1):
+            print(f'{i} {x}')
+    for tb in p['tables']:
+        print('【' + tb['title'] + '】 ' + ' / '.join(tb['cols']))
+        for r in tb['rows']:
+            print('  ' + '｜'.join(r))
+    print('【解答欄】')
+    for a in p['answers']:
+        v = a['value']
+        print(f"・{a['label']}" + (('：' + ('（' + ', '.join(v) + '）' if isinstance(v, list) else v)) if answer else ''))
+    if answer:
+        print('【解き方】'); [print('  ' + x) for x in p['steps']]
+        print('【つまずき】' + p['trap'])
 
 
 if __name__ == '__main__':

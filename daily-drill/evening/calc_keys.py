@@ -31,6 +31,10 @@ def cx(x, y):
     return f'{num(x)} [+] {num(y)} [i]' if y >= 0 else f'{num(x)} [−] {num(-y)} [i]'
 
 
+def ang_s(a):
+    return f'{a[0]}°{a[1]:02d}′{a[2]:02d}″'
+
+
 def dms_keys(a):
     return f'{a[0]} [°′″] {a[1]} [°′″] {a[2]} [°′″]'
 
@@ -252,8 +256,107 @@ def pm10(p):
     return [('床面積と距離（普通の四則計算）', st)], {'f1': math.floor(val(st[0]) * 100 + 1e-9) / 100, 'f2': math.floor(val(st[1]) * 100 + 1e-9) / 100, 'dn': round(val(st[2]) + 1e-9, 2), 'de': round(val(st[3]) + 1e-9, 2)}
 
 
+def cxs(x, y):
+    """負の実部にも対応した複素数の入力キー"""
+    return f'{sn(x)} [+] {num(y)} [i]' if y >= 0 else f'{sn(x)} [−] {num(-y)} [i]'
+
+
+def xy(st):
+    return (r2(val(st)), r2(val(st, 1)))
+
+
+def pm82(p):
+    v = p['verify']
+    d = Doc()
+    d.add('割り当て', 'A＝A、D＝D（平面直角座標）、X＝A′、Y＝D′、B＝B′、C＝C′（任意の座標）',
+          '\n'.join(f'{cx(*v[k])} [SHIFT] [STO] [{m}]' for k, m in (('A', 'A'), ('D', 'D'), ('Aa', 'X'), ('Da', 'Y'), ('Ba', 'B'), ('Ca', 'C'))), show=False)
+    d.add('比 k（Eに記憶）', 'k ＝ (D − A) ÷ (D′ − A′)', '[(] [ALPHA] [D] [−] [ALPHA] [A] [)] [÷] [(] [ALPHA] [Y] [−] [ALPHA] [X] [)] [=] [SHIFT] [STO] [E]')
+    d.add('比の大きさ', 'Abs(k)（1に近いことを確かめる）', '[Abs] [ALPHA] [E] [)] [=]')
+    d.add('点B', 'B ＝ A ＋ (B′ − A′) × k', '[ALPHA] [A] [+] [(] [ALPHA] [B] [−] [ALPHA] [X] [)] [×] [ALPHA] [E] [=]')
+    d.add('点C', 'C ＝ A ＋ (C′ − A′) × k', '[ALPHA] [A] [+] [(] [ALPHA] [C] [−] [ALPHA] [X] [)] [×] [ALPHA] [E] [=]')
+    d.run()
+    B, C = xy(d.steps[3]), xy(d.steps[4])
+    d.add('B・Cを記憶（丸めた座標）', 'B＝点B、C＝点C', f'{cx(*B)} [SHIFT] [STO] [B]\n{cx(*C)} [SHIFT] [STO] [C]', show=False)
+    d.add('辺BC', 'Abs(C − B)', '[Abs] [ALPHA] [C] [−] [ALPHA] [B] [)] [=]')
+    d.add('地積（倍面積）', '四角形A・B・C・D：Conjg(C − A) × (D − B)　のiの係数の絶対値 ÷ 2', '[Apps] [4] [ALPHA] [C] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [D] [−] [ALPHA] [B] [)] [=]')
+    d.run()
+    bc = round(val(d.steps[-2]) + 1e-9, 2)
+    area = math.floor(abs(val(d.steps[-1], 1)) / 2 * 100 + 1e-9) / 100
+    return [('座標の変換（共通点A・D）', d.steps[:5]), ('辺BCと地積', d.steps[5:])], {'点B': B, '点C': C, '辺BC': bc, '本件土地の地積': area}
+
+
+def pm83(p):
+    v = p['verify']
+    o = v['obs']
+    T3 = v['T3']
+    d = Doc()
+    d.add('割り当て', 'X＝T1、Y＝T2、A＝T3', f'{cx(*v["T1"])} [SHIFT] [STO] [X]\n{cx(*v["T2"])} [SHIFT] [STO] [Y]\n{cx(*T3)} [SHIFT] [STO] [A]', show=False)
+    a = o['T101']
+    d.add('T101′（補正前）', f'T101′ ＝ T2 ＋ {a["dist"]:.2f}∠( arg(T1 − T2) ＋ {ang_s(a["angle"])} )',
+          f'[ALPHA] [Y] [+] {num(a["dist"])} [∠] [(] [Apps] [3] [ALPHA] [X] [−] [ALPHA] [Y] [)] [+] {dms_keys(a["angle"])} [)] [=]')
+    d.run()
+    T1p = xy(d.steps[1])
+    b = o['T3']
+    d.add('T101′を記憶', 'B＝T101′（丸めた座標）', f'{cx(*T1p)} [SHIFT] [STO] [B]', show=False)
+    d.add('T3′', f'T3′ ＝ T101′ ＋ {b["dist"]:.2f}∠( arg(T2 − T101′) ＋ {ang_s(b["angle"])} )',
+          f'[ALPHA] [B] [+] {num(b["dist"])} [∠] [(] [Apps] [3] [ALPHA] [Y] [−] [ALPHA] [B] [)] [+] {dms_keys(b["angle"])} [)] [=]')
+    d.run()
+    T3p = xy(d.steps[3])
+    d.add('補正量', 'T3 − T3′', f'[ALPHA] [A] [−] [(] {cx(*T3p)} [)] [=]')
+    d.run()
+    cr = xy(d.steps[4])
+    L = a['dist'] + b['dist']
+    d.add('T101（補正後）', f'T101 ＝ T101′ ＋ 補正量 × {a["dist"]:.2f} ÷ ( {a["dist"]:.2f} ＋ {b["dist"]:.2f} )',
+          f'[ALPHA] [B] [+] [(] {cxs(*cr)} [)] [×] {num(a["dist"])} [÷] [(] {num(a["dist"])} [+] {num(b["dist"])} [)] [=]')
+    d.run()
+    T101 = xy(d.steps[5])
+    d.add('T101を記憶', 'C＝T101（丸めた座標）', f'{cx(*T101)} [SHIFT] [STO] [C]', show=False)
+    got = {'点T3′': T3p, '補正量': cr, '点T101': T101}
+    for nm in 'PQ':
+        q = o[nm]
+        d.add(f'点{nm}（放射）', f'{nm} ＝ T101 ＋ {q["dist"]:.2f}∠( arg(T2 − T101) ＋ {ang_s(q["angle"])} )',
+              f'[ALPHA] [C] [+] {num(q["dist"])} [∠] [(] [Apps] [3] [ALPHA] [Y] [−] [ALPHA] [C] [)] [+] {dms_keys(q["angle"])} [)] [=]')
+    d.run()
+    got['点P'], got['点Q'] = xy(d.steps[-2]), xy(d.steps[-1])
+    return [('結合トラバース（T2→T101→T3）とコンパスの法則', d.steps[:7]), ('補正したT101から点P・Q', d.steps[7:])], got
+
+
+def pm84(p):
+    v = p['verify']
+    ox, oy = v['off']
+    sh = lambda k: (round(v[k][0] - ox, 2), round(v[k][1] - oy, 2))
+    o = v['obs']
+    d = Doc()
+    d.add('割り当て（ずらした座標）', 'Y＝T1、X＝T2（元の座標から −38500.00 ＋ 22700.00i を引いた値）', f'{cx(*sh("T1"))} [SHIFT] [STO] [Y]\n{cx(*sh("T2"))} [SHIFT] [STO] [X]', show=False)
+    for nm in 'PQ':
+        q = o[nm]
+        d.add(f'点{nm}（放射・ずらした座標）', f'{nm} ＝ T1 ＋ {q["dist"]:.2f}∠( arg(T2 − T1) ＋ {ang_s(q["angle"])} )',
+              f'[ALPHA] [Y] [+] {num(q["dist"])} [∠] [(] [Apps] [3] [ALPHA] [X] [−] [ALPHA] [Y] [)] [+] {dms_keys(q["angle"])} [)] [=]')
+    d.run()
+    Ps, Qs = xy(d.steps[1]), xy(d.steps[2])
+    d.add('割り当て（以後）', 'A＝K1、B＝K2、C＝Q、D＝S、E＝P（ずらした座標。P・Qは丸めた値）',
+          f'{cx(*sh("K1"))} [SHIFT] [STO] [A]\n{cx(*sh("K2"))} [SHIFT] [STO] [B]\n{cx(*Qs)} [SHIFT] [STO] [C]\n{cx(*sh("S"))} [SHIFT] [STO] [D]\n{cx(*Ps)} [SHIFT] [STO] [E]', show=False)
+    d.add('点Rの分子', 'Conjg(S − Q) × (Q − K1)　のiの係数', '[Apps] [4] [ALPHA] [D] [−] [ALPHA] [C] [)] [×] [(] [ALPHA] [C] [−] [ALPHA] [A] [)] [=]')
+    d.add('点Rの分母', 'Conjg(S − Q) × (K2 − K1)　のiの係数', '[Apps] [4] [ALPHA] [D] [−] [ALPHA] [C] [)] [×] [(] [ALPHA] [B] [−] [ALPHA] [A] [)] [=]')
+    d.run()
+    tn, td = val(d.steps[-2], 1), val(d.steps[-1], 1)
+    d.add('点R（ずらした座標）', 'R ＝ K1 ＋ (K2 − K1) × 分子 ÷ 分母', f'[ALPHA] [A] [+] [(] [ALPHA] [B] [−] [ALPHA] [A] [)] [×] {sn(tn)} [÷] {sn(td)} [=]')
+    d.run()
+    Rs = xy(d.steps[-1])
+    d.add('Rを記憶', 'F＝R（丸めた座標）', f'{cx(*Rs)} [SHIFT] [STO] [F]', show=False)
+    d.add('地積（倍面積）', '四角形K1・P・Q・R：Conjg(Q − K1) × (R − P)　のiの係数の絶対値 ÷ 2', '[Apps] [4] [ALPHA] [C] [−] [ALPHA] [A] [)] [×] [(] [ALPHA] [F] [−] [ALPHA] [E] [)] [=]')
+    off = f'[(] {sn(ox)} [)] [+] {num(oy)} [i]'
+    for nm, m in (('P', 'E'), ('Q', 'C'), ('R', 'F')):
+        d.add(f'点{nm}を元の座標に戻す', f'{nm} ＝ ずらした{nm} ＋ (−38500.00 ＋ 22700.00i)', f'[ALPHA] [{m}] [+] [(] {off} [)] [=]')
+    d.run()
+    st = d.steps
+    area = math.floor(abs(val(st[-4], 1)) / 2 * 100 + 1e-9) / 100
+    got = {'点P': xy(st[-3]), '点Q': xy(st[-2]), '点R': xy(st[-1]), '本件土地の地積': area}
+    return [('点P・Q（ずらした座標で放射）', st[:3]), ('点R・地積・元の座標に戻す', st[3:])], got
+
+
 def main():
-    for pid, fn in (('PM-01', pm01), ('PM-04', pm04), ('PM-07', pm07), ('PM-08', pm08), ('PM-09', pm09), ('PM-10', pm10)):
+    for pid, fn in (('PM-01', pm01), ('PM-04', pm04), ('PM-07', pm07), ('PM-08', pm08), ('PM-09', pm09), ('PM-10', pm10), ('PM-82', pm82), ('PM-83', pm83), ('PM-84', pm84)):
         fp = os.path.join(PROB, pid + '.json')
         p = json.load(open(fp, encoding='utf-8'))
         groups, got = fn(p)

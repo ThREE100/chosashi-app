@@ -348,12 +348,76 @@ def check_calc2(p):
         tot = floor2(poly_area([A_, B_, C_, D_]))
         _near(pid, '（ロ）', float(_ans(p, '分筆後の（ロ）')), tot - v['target'], 1e-9)
         _near(pid, 'EF', float(_ans(p, '分筆線EF')), math.hypot(Fr[0] - float(_ans(p, '点E')[0]), Fr[1] - float(_ans(p, '点E')[1])), 0.0051)
+    elif v['type'] == 'pm82':
+        # 方法B：回転角と縮尺を三角関数で出し、回転行列で直す（複素数は使わない）
+        A_, D_, Aa, Ba, Ca, Da = (A(k) for k in ('A', 'D', 'Aa', 'Ba', 'Ca', 'Da'))
+        th = math.atan2(D_[1] - A_[1], D_[0] - A_[0]) - math.atan2(Da[1] - Aa[1], Da[0] - Aa[0])
+        sc = math.hypot(D_[0] - A_[0], D_[1] - A_[1]) / math.hypot(Da[0] - Aa[0], Da[1] - Aa[1])
+        if abs(sc - 1) > 0.001:
+            err(pid, f'共通点2つの縮尺が1から離れすぎ（{sc:.5f}）')
+        def tr(q):
+            dx, dy = q[0] - Aa[0], q[1] - Aa[1]
+            return (A_[0] + sc * (dx * math.cos(th) - dy * math.sin(th)), A_[1] + sc * (dx * math.sin(th) + dy * math.cos(th)))
+        for nm, q in (('点B', tr(Ba)), ('点C', tr(Ca))):
+            a_ = _ans(p, nm); _near(pid, nm + 'X', float(a_[0]), q[0]); _near(pid, nm + 'Y', float(a_[1]), q[1])
+        Br, Cr = tuple(map(float, _ans(p, '点B'))), tuple(map(float, _ans(p, '点C')))
+        _near(pid, '辺BC', float(_ans(p, '辺BC')), math.hypot(Cr[0] - Br[0], Cr[1] - Br[1]))
+        _near(pid, '辺BC（確認図の辺長と一致）', float(_ans(p, '辺BC')), math.hypot(Ca[0] - Ba[0], Ca[1] - Ba[1]), 0.011)
+        _near(pid, '地積', float(_ans(p, '本件土地の地積')), math.floor(_tri_area([A_, Br, Cr, D_]) * 100 + 1e-7) / 100, 1e-9)
+    elif v['type'] == 'pm83':
+        # 方法B：方向角を三角関数で足していく（トラバース計算の表の形）
+        T1, T2, T3 = A('T1'), A('T2'), A('T3')
+        o = v['obs']
+        rad = lambda a: math.radians(a[0] + a[1] / 60 + a[2] / 3600)
+        rnd = lambda q: (round(q[0] + 1e-12, 2), round(q[1] + 1e-12, 2))
+        def rad_pt(st, bs, ob):
+            az = math.atan2(bs[1] - st[1], bs[0] - st[0]) + rad(ob['angle'])
+            return (st[0] + ob['dist'] * math.cos(az), st[1] + ob['dist'] * math.sin(az))
+        T1p = rnd(rad_pt(T2, T1, o['T101']))
+        T3p = rnd(rad_pt(T1p, T2, o['T3']))
+        a_ = _ans(p, '点T3′'); _near(pid, 'T3′X', float(a_[0]), T3p[0], 1e-9); _near(pid, 'T3′Y', float(a_[1]), T3p[1], 1e-9)
+        cx_, cy_ = round(T3[0] - T3p[0], 2), round(T3[1] - T3p[1], 2)
+        a_ = _ans(p, '補正量'); _near(pid, '補正量X', float(a_[0]), cx_, 1e-9); _near(pid, '補正量Y', float(a_[1]), cy_, 1e-9)
+        r_ = o['T101']['dist'] / (o['T101']['dist'] + o['T3']['dist'])
+        T101 = (T1p[0] + cx_ * r_, T1p[1] + cy_ * r_)
+        a_ = _ans(p, '点T101'); _near(pid, 'T101X', float(a_[0]), T101[0]); _near(pid, 'T101Y', float(a_[1]), T101[1])
+        T101r = tuple(map(float, a_))
+        if T101r == T1p:
+            err(pid, '補正の前後でT101が変わらない（コンパスの法則の練習にならない）')
+        for nm in 'PQ':
+            q = rad_pt(T101r, T2, o[nm])
+            a_ = _ans(p, '点' + nm); _near(pid, nm + 'X', float(a_[0]), q[0]); _near(pid, nm + 'Y', float(a_[1]), q[1])
+    elif v['type'] == 'pm84':
+        # 方法B：ずらさずに元の大きな座標のまま、三角関数とクラメルの公式で解く
+        T1, T2, K1, K2, S = (A(k) for k in ('T1', 'T2', 'K1', 'K2', 'S'))
+        o = v['obs']
+        az = math.atan2(T2[1] - T1[1], T2[0] - T1[0])
+        pts = {}
+        for nm in 'PQ':
+            an = math.radians(o[nm]['angle'][0] + o[nm]['angle'][1] / 60 + o[nm]['angle'][2] / 3600)
+            q = (T1[0] + o[nm]['dist'] * math.cos(az + an), T1[1] + o[nm]['dist'] * math.sin(az + an))
+            a_ = _ans(p, '点' + nm); _near(pid, nm + 'X', float(a_[0]), q[0]); _near(pid, nm + 'Y', float(a_[1]), q[1])
+            pts[nm] = tuple(map(float, a_))
+        R = _line_pt(K1, K2, pts['Q'], S)
+        a_ = _ans(p, '点R'); _near(pid, 'RX', float(a_[0]), R[0]); _near(pid, 'RY', float(a_[1]), R[1])
+        Rr = tuple(map(float, a_))
+        _near(pid, '地積', float(_ans(p, '本件土地の地積')), math.floor(_tri_area([K1, pts['P'], pts['Q'], Rr]) * 100 + 1e-7) / 100, 1e-9)
     for b_ in p.get('basis', []):
         quote_ok(pid, '根拠', b_)
     # 電卓（F-789SG）のキー列を実行して、答えと一致することを確かめる
     sys.path.insert(0, os.path.join(HERE, 'evening'))
     import calc_keys as ck
-    _, got = {'pm01': ck.pm01, 'pm04': ck.pm04, 'pm07': ck.pm07, 'pm08': ck.pm08}[v['type']](p)
+    _, got = {'pm01': ck.pm01, 'pm04': ck.pm04, 'pm07': ck.pm07, 'pm08': ck.pm08, 'pm82': ck.pm82, 'pm83': ck.pm83, 'pm84': ck.pm84}[v['type']](p)
+    if v['type'] in ('pm82', 'pm83', 'pm84'):      # キー列の結果は、答えの欄の頭の語で照らす
+        for lab, gv in got.items():
+            a_ = _ans(p, lab)
+            if isinstance(gv, tuple):
+                for i_, c_ in enumerate('XY'):
+                    if abs(float(a_[i_]) - gv[i_]) > 1e-9:
+                        err(pid, f'電卓のキー列の結果と答えが違う: {lab}{c_} {a_[i_]} ≠ {gv[i_]}')
+            elif abs(float(a_) - gv) > 1e-9:
+                err(pid, f'電卓のキー列の結果と答えが違う: {lab} {a_} ≠ {gv}')
+        got = {}
     def eq(label, have, want):
         if abs(float(have) - float(want)) > 1e-9:
             err(pid, f'電卓のキー列の結果と答えが違う: {label} {have} ≠ {want}')
