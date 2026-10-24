@@ -15,7 +15,7 @@ def norm(v):
         return [f'{float(x):.2f}' for x in v]
     s = str(v).strip().replace('㎡', '').replace('m', '').replace(',', '')
     try:
-        return f'{float(s):.2f}' if '.' in s else str(int(float(s)))
+        return f'{float(s):.2f}'          # 「1」と「1.00」は同じ数として比べる
     except ValueError:
         return s
 
