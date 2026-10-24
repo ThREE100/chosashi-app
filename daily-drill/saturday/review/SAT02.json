@@ -128,5 +128,135 @@
    "オ": false
   },
   "issues": ""
+ },
+ "SAT02-Q01": {
+  "hash": "b15c1f8e0c650481",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 2,
+  "verdicts": {
+   "ア": true,
+   "イ": true,
+   "ウ": false,
+   "エ": false,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT02-Q02": {
+  "hash": "cedd62c782e1a6f9",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 5,
+  "verdicts": {
+   "ア": true,
+   "イ": true,
+   "ウ": false,
+   "エ": false,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT02-Q03": {
+  "hash": "ad416cac13b8938c",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 1,
+  "verdicts": {
+   "ア": true,
+   "イ": true,
+   "ウ": false,
+   "エ": false,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT02-Q04": {
+  "hash": "7cb81c5c06553153",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 3,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": false,
+   "エ": true,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT02-Q05": {
+  "hash": "7a61692037455a63",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 4,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": false,
+   "エ": true,
+   "オ": false
+  },
+  "issues": "ウは規則16条5項2号の文言だけ見ると『区画・形状に誤りがあるときは土地所在図又は地積測量図』の提供が要るので、原文だけでは誤りと決まらない。誤りとする根拠は平成17年2月25日民二457号の先例（備付けの地積測量図で確認できるときは、それを特定する情報で足りる。note-articles/r1-mondai/q17・r6-mondai/q06）。肢は『誤りを証する情報として、別途、土地所在図又は地積測量図を作成して』と5項1号と2号を混ぜた書き方なので、『誤りを証する情報として、当該地積測量図を特定する情報を提供すれば足りる（とはいえない）』のように1号の話に絞ると先例と一対一に対応する。"
+ },
+ "SAT02-Q06": {
+  "hash": "adc49c3ac95e6db0",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 4,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": false,
+   "エ": true,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT02-Q07": {
+  "hash": "7ae1e62152c7dad7",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 1,
+  "verdicts": {
+   "ア": false,
+   "イ": true,
+   "ウ": false,
+   "エ": false,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT02-Q08": {
+  "hash": "71bd52d3d6cc3b60",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 3,
+  "verdicts": {
+   "ア": false,
+   "イ": true,
+   "ウ": true,
+   "エ": false,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT02-Q09": {
+  "hash": "1902770f83532edc",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 2,
+  "verdicts": {
+   "ア": false,
+   "イ": false,
+   "ウ": true,
+   "エ": false,
+   "オ": true
+  },
+  "issues": "ウは条文・準則の明文がなく先例（実務の取扱い）による。note-articles/r2-mondai/q06-chimoku-nintei.md アで『宅地工事完了＋確認済証があれば着工前でも宅地認定可』と確認。"
+ },
+ "SAT02-Q10": {
+  "hash": "c0264c89acf2617b",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 5,
+  "verdicts": {
+   "ア": false,
+   "イ": true,
+   "ウ": false,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
  }
 }
