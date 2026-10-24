@@ -8,6 +8,7 @@ import json
 import os
 import sys
 
+sys.dont_write_bytecode = True    # SPEC を秒単位で書き直したとき、古い __pycache__ を読まないように
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
@@ -15,6 +16,7 @@ import chain  # noqa: E402
 
 
 def load(fp):
+    importlib.invalidate_caches()
     spec = importlib.util.spec_from_file_location(os.path.basename(fp)[:-3], fp)
     m = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(m)

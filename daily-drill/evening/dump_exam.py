@@ -53,6 +53,12 @@ def calc(p, answer):
         print('【' + tb['title'] + '】 ' + ' / '.join(tb['cols']))
         for r in tb['rows']:
             print('  ' + '｜'.join(r))
+    f = p.get('fig', {})
+    tx = [t['text'] for t in f.get('texts', [])]
+    if tx:
+        print('【図に書いてある文字・寸法】' + '　'.join(tx))
+    if p['text'].get('fig_note'):
+        print('【図】' + p['text']['fig_note'])
     print('【解答欄】')
     for a in p['answers']:
         v = a['value']
