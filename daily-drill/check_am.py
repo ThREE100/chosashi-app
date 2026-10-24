@@ -56,6 +56,9 @@ def check(p):
         err(pid, f'問う向きに当てはまる肢が2つでない（{len(ans)}つ。3つなら問う向きを反対にする）')
     if any(len(c) != 2 for c in ch):
         err(pid, '選択肢は5つとも2肢の組合せにする（本番と同じ形）')
+    order = lambda c: ['アイウエオ'.index(x) for x in c]
+    if any(order(c) != sorted(order(c)) for c in ch) or [order(c) for c in ch] != sorted(order(c) for c in ch):
+        err(pid, '選択肢はアイウエオ順に並べる（① ア・イ、② ア・エ … のように、1つ目の肢、同じなら2つ目の肢の順）')
     for s in p['statements']:
         if not s['basis']:
             err(pid, f"{s['label']}: 根拠がない")

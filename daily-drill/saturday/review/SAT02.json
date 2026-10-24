@@ -13,9 +13,9 @@
   "issues": ""
  },
  "SAT02-Q12": {
-  "hash": "840f76f5ce46477e",
+  "hash": "6abe25e726361807",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 2,
+  "choice": 3,
   "verdicts": {
    "ア": true,
    "イ": false,
@@ -26,9 +26,9 @@
   "issues": ""
  },
  "SAT02-Q13": {
-  "hash": "d371564cadd65dcf",
+  "hash": "339013dc8a6a0d1a",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 4,
+  "choice": 5,
   "verdicts": {
    "ア": true,
    "イ": true,
@@ -39,9 +39,9 @@
   "issues": ""
  },
  "SAT02-Q14": {
-  "hash": "085282376ac41d5c",
+  "hash": "f957e938542d60b8",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 1,
+  "choice": 2,
   "verdicts": {
    "ア": true,
    "イ": false,
@@ -52,9 +52,9 @@
   "issues": ""
  },
  "SAT02-Q15": {
-  "hash": "338df1622a3b127d",
+  "hash": "d06787ca10e7a037",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 3,
+  "choice": 2,
   "verdicts": {
    "ア": false,
    "イ": true,
@@ -65,9 +65,9 @@
   "issues": ""
  },
  "SAT02-Q16": {
-  "hash": "435a89f6adff4b8c",
+  "hash": "e23d124beb35b8fe",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 3,
+  "choice": 2,
   "verdicts": {
    "ア": false,
    "イ": true,
@@ -78,9 +78,9 @@
   "issues": ""
  },
  "SAT02-Q17": {
-  "hash": "2826cdf50ac84c7e",
+  "hash": "b828b658bd2c5147",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 4,
+  "choice": 3,
   "verdicts": {
    "ア": false,
    "イ": true,
@@ -104,9 +104,9 @@
   "issues": "イは条文に直接の規定がなく先例による（note-articles/h30-mondai/q19-hikkai-tokutei.md の肢アの解説で、承継後に期日を開き直す必要はないとしている）。法令の原文だけでは確定できない肢として記録する。"
  },
  "SAT02-Q19": {
-  "hash": "f39b22d0a69c01fe",
+  "hash": "dd9326ff6a8ed651",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 5,
+  "choice": 3,
   "verdicts": {
    "ア": true,
    "イ": false,
@@ -130,9 +130,9 @@
   "issues": ""
  },
  "SAT02-Q01": {
-  "hash": "b15c1f8e0c650481",
+  "hash": "847c1f1bea77d6aa",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 2,
+  "choice": 1,
   "verdicts": {
    "ア": true,
    "イ": true,
@@ -143,7 +143,7 @@
   "issues": ""
  },
  "SAT02-Q02": {
-  "hash": "cedd62c782e1a6f9",
+  "hash": "fd3bd2301d485448",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
   "choice": 5,
   "verdicts": {
@@ -182,9 +182,9 @@
   "issues": ""
  },
  "SAT02-Q05": {
-  "hash": "311bc037ffe70c41",
+  "hash": "4f264f524f73bcb2",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 4,
+  "choice": 2,
   "verdicts": {
    "ア": true,
    "イ": false,
@@ -195,9 +195,9 @@
   "issues": ""
  },
  "SAT02-Q06": {
-  "hash": "adc49c3ac95e6db0",
+  "hash": "9d9b80ce6882cae9",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 4,
+  "choice": 3,
   "verdicts": {
    "ア": true,
    "イ": false,
@@ -208,9 +208,9 @@
   "issues": ""
  },
  "SAT02-Q07": {
-  "hash": "7ae1e62152c7dad7",
+  "hash": "0974884323d61543",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 1,
+  "choice": 4,
   "verdicts": {
    "ア": false,
    "イ": true,
@@ -221,9 +221,9 @@
   "issues": ""
  },
  "SAT02-Q08": {
-  "hash": "8033e1ada92ad29c",
+  "hash": "19209bfbcd40bc88",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 3,
+  "choice": 2,
   "verdicts": {
    "ア": false,
    "イ": true,
@@ -234,9 +234,9 @@
   "issues": ""
  },
  "SAT02-Q09": {
-  "hash": "1902770f83532edc",
+  "hash": "4ca674e8e5393e4c",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 2,
+  "choice": 5,
   "verdicts": {
    "ア": false,
    "イ": false,
@@ -247,9 +247,9 @@
   "issues": "ウは条文・準則の明文がなく先例（実務の取扱い）による。note-articles/r2-mondai/q06-chimoku-nintei.md アで『宅地工事完了＋確認済証があれば着工前でも宅地認定可』と確認。"
  },
  "SAT02-Q10": {
-  "hash": "c0264c89acf2617b",
+  "hash": "cc299dac7b9189c9",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 5,
+  "choice": 4,
   "verdicts": {
    "ア": false,
    "イ": true,

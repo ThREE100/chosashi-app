@@ -1,8 +1,8 @@
 {
  "SAT01-Q01": {
-  "hash": "059587ddf72c7bf2",
+  "hash": "6c8c56dfadc7e989",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 3,
+  "choice": 2,
   "verdicts": {
    "ア": true,
    "イ": false,
@@ -26,9 +26,9 @@
   "issues": ""
  },
  "SAT01-Q03": {
-  "hash": "29d82fea72612171",
+  "hash": "dc5445706061b3d0",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 4,
+  "choice": 5,
   "verdicts": {
    "ア": false,
    "イ": false,
@@ -52,9 +52,9 @@
   "issues": ""
  },
  "SAT01-Q05": {
-  "hash": "6fa43abefcd0ea80",
+  "hash": "e288f7798c60c411",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 5,
+  "choice": 3,
   "verdicts": {
    "ア": true,
    "イ": false,
@@ -78,9 +78,9 @@
   "issues": ""
  },
  "SAT01-Q07": {
-  "hash": "cc8d446200dc4809",
+  "hash": "a6875685d5dbe298",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 4,
+  "choice": 3,
   "verdicts": {
    "ア": true,
    "イ": false,
@@ -104,9 +104,9 @@
   "issues": ""
  },
  "SAT01-Q09": {
-  "hash": "41e9662b64befc4f",
+  "hash": "05c22af285559a3a",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 5,
+  "choice": 3,
   "verdicts": {
    "ア": false,
    "イ": true,
@@ -143,7 +143,7 @@
   "issues": ""
  },
  "SAT01-Q12": {
-  "hash": "66cfc782fffb88d1",
+  "hash": "f504a949cd2c688c",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
   "choice": 3,
   "verdicts": {
@@ -156,7 +156,7 @@
   "issues": ""
  },
  "SAT01-Q13": {
-  "hash": "e8e0ddce382988f7",
+  "hash": "032ac0e06aa835b8",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
   "choice": 5,
   "verdicts": {
@@ -182,9 +182,9 @@
   "issues": ""
  },
  "SAT01-Q15": {
-  "hash": "7472c680dbd5e06d",
+  "hash": "5b47297893f5eb79",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 4,
+  "choice": 2,
   "verdicts": {
    "ア": true,
    "イ": false,
@@ -208,9 +208,9 @@
   "issues": ""
  },
  "SAT01-Q17": {
-  "hash": "5192ab10313e089a",
+  "hash": "8174bdd917fe91c6",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 2,
+  "choice": 4,
   "verdicts": {
    "ア": false,
    "イ": true,
@@ -221,9 +221,9 @@
   "issues": ""
  },
  "SAT01-Q18": {
-  "hash": "11af6e6e8c4d0300",
+  "hash": "685229cc9d861087",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 5,
+  "choice": 4,
   "verdicts": {
    "ア": false,
    "イ": true,
@@ -234,9 +234,9 @@
   "issues": ""
  },
  "SAT01-Q19": {
-  "hash": "6b338ba927a016da",
+  "hash": "165fe03a438e22f1",
   "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
-  "choice": 3,
+  "choice": 4,
   "verdicts": {
    "ア": true,
    "イ": false,

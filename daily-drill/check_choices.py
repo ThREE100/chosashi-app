@@ -31,6 +31,9 @@ def one(pid, kind, mode, sts, chs, verdicts, page_q, page_a):
     h1 = where(chs, a1)
     if len(chs) != 5 or len({frozenset(c) for c in chs}) != 5 or any(len(c) != 2 for c in chs):
         ng.append(f'{pid}: 選択肢が「互いに異なる2肢の組合せ5つ」でない')
+    order = lambda c: ['アイウエオ'.index(x) for x in c]
+    if [order(c) for c in chs] != sorted(order(c) for c in chs) or any(order(c) != sorted(order(c)) for c in chs):
+        ng.append(f'{pid}: 選択肢がアイウエオ順に並んでいない')
     if len(h1) != 1:
         ng.append(f'{pid}: 正解の組合せ {"・".join(sorted(a1))} が選択肢に{len(h1)}つ')
     if verdicts is None:
