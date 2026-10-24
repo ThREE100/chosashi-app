@@ -27,6 +27,14 @@ AI, RO = _OUT['ai'], _OUT['ro']
 assert (AI, RO) == (214.81, 323.86)
 MARK = {'A': '金属標', 'B': '金属標', 'C': 'コンクリート杭', 'D': 'コンクリート杭', 'E': '金属標', 'F': '金属標'}
 
+import calc_keys as _ck  # noqa: E402
+_d = _ck.Doc()
+for a, b in SIDES:
+    _d.add(f'辺{a}{b}', f'Abs({b} − {a})', f'[Abs] {P[b][0]:g} [+] {P[b][1]:g} [i] [−] [(] {P[a][0]:g} [+] {P[a][1]:g} [i] [)] [)] [=]')
+_KEYS = [{'title': s_['title'], 'formula': s_['formula'], 'keys': s_['keys'], 'display': s_['display']} for s_ in _d.run()]
+for (a, b), s_ in zip(SIDES, _KEYS):
+    assert round(_ck.val(s_) + 1e-9, 2) == LEN[a + b], (a, b, s_['display'])
+
 DRAW = {
  'draw': 'chiseki',
  'title': '分筆の地積測量図を、第1部の座標値から縮尺250分の1で作成する',
@@ -60,6 +68,9 @@ DRAW = {
   {'label': '21番2（ロ）の地積（㎡）', 'kind': 'area', 'value': f'{RO:.2f}'},
   {'label': '隣接地の表示（北・西・東・南の順）', 'kind': 'text', 'value': '市道・20番・22番・25番'},
  ],
+ 'keys': [{'title': '辺長（複素数モードで Abs(終点 − 始点)）', 'steps': _KEYS}],
+ 'verify': {'areas': [['21番1（イ）の地積（㎡）', [list(P[k]) for k in 'ABFE'], 'floor'], ['21番2（ロ）の地積（㎡）', [list(P[k]) for k in 'EFCD'], 'floor']],
+            'lens': [[f'辺{a}{b}の長さ（m）', list(P[a]), list(P[b])] for a, b in SIDES]},
  'spec': {
   'addr': 'A市F町三丁目', 'lot_label': '21番1、21番2', 'scale': 250,
   'pts': {k: list(v) for k, v in P.items()},

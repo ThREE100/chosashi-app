@@ -491,8 +491,60 @@ def check_calc2(p):
         err(pid, '条件・聞き取り結果がない')
 
 
+def check_draw_module(p, report=None):
+    """作図の問題（evening/draw_specs・sougou の第3部）の共通の検査：答えの欄を座標から計算し直す、キー列の表示を再現する、模範の作図が描ける"""
+    report = report or (lambda m: err(p['id'], m))
+    v = p.get('verify', {})
+    ans = {a['label']: a for a in p['answers']}
+    seen = set()
+    for lab, poly, mode in v.get('areas', []):
+        f = [(Fraction(str(x)), Fraction(str(y))) for x, y in poly]
+        a2 = abs(sum(f[i][0] * f[(i + 1) % len(f)][1] - f[(i + 1) % len(f)][0] * f[i][1] for i in range(len(f))))
+        want = math.floor(a2 * 50 + Fraction(1, 10 ** 9)) / 100 if mode == 'floor' else round(float(a2 / 2) + 1e-9, 2)
+        if lab not in ans:
+            report(f'verify の欄「{lab}」が答えにない'); continue
+        seen.add(lab)
+        if abs(float(ans[lab]['value']) - want) > 1e-9:
+            report(f'{lab}：答え {ans[lab]["value"]} と座標からの計算 {want:.2f} が合わない')
+    for lab, a, b in v.get('lens', []):
+        want = round(math.hypot(a[0] - b[0], a[1] - b[1]) + 1e-9, 2)
+        if lab not in ans:
+            report(f'verify の欄「{lab}」が答えにない'); continue
+        seen.add(lab)
+        d = math.hypot(a[0] - b[0], a[1] - b[1]) * 100
+        if abs(d - math.floor(d) - 0.5) < 0.002:
+            report(f'{lab}：距離 {d / 100:.5f} が四捨五入の境目に近い（答えが一つに決まらない）')
+        if abs(float(ans[lab]['value']) - want) > 1e-9:
+            report(f'{lab}：答え {ans[lab]["value"]} と座標からの計算 {want:.2f} が合わない')
+    for a in p['answers']:
+        if a.get('kind') in ('area', 'len') and a['label'] not in seen:
+            report(f'答えの欄「{a["label"]}」を計算し直す式が verify にない')
+    sys.path.insert(0, os.path.join(HERE, 'evening'))
+    import calc_keys as ck
+    for g in p.get('keys') or []:
+        d = ck.Doc()
+        for s_ in g['steps']:
+            d.add(s_['title'], s_.get('formula', ''), s_['keys'], show=bool(s_.get('display')))
+        d.run()
+        for s_, got in zip(g['steps'], d.steps):
+            if s_.get('display') and abs(ck.val(got) - ck.val(s_)) > 1e-9:
+                report(f'キー列「{s_["title"]}」の表示 {got["display"]} が問題の表示 {s_["display"]} と合わない')
+    sys.path.insert(0, HERE)
+    import draw_forms as DF
+    try:
+        DF.chiseki_solved(p['spec']) if p['draw'] == 'chiseki' else DF.tatemono_solved(p['spec'])
+    except Exception as e:   # noqa: BLE001
+        report(f'模範の作図が描けない（{e}）')
+    if len(p['rubric']) < 8:
+        report('自己採点の項目が少ない（8つ以上）')
+    if not p.get('keys'):
+        report('電卓のキー列がない')
+
+
 def check_draw(p):
     pid, v = p['id'], p['verify']
+    if v['type'] == 'module':
+        return check_draw_module(p)
     sys.path.insert(0, os.path.join(HERE, 'evening'))
     import calc_keys as ck
     if v['type'] == 'pm09':

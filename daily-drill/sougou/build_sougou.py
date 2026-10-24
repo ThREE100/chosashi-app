@@ -98,6 +98,10 @@ def check(sid):
                 errs.append(f'{sid} 第3部: {k} がない')
         if len(p.get('rubric', [])) < 6:
             errs.append(f'{sid} 第3部: 自己採点の項目が少ない（6つ以上）')
+        if 'verify' in p:      # 答えの欄を座標から計算し直す・キー列の表示を再現する（evening の作図ドリルと同じ検査）
+            CP.check_draw_module(p, report=lambda m: errs.append(f'{sid} 第3部: {m}'))
+        else:
+            errs.append(f'{sid} 第3部: verify がない（答えの欄を座標から計算し直す式）')
         try:
             (B.draw_forms.chiseki_solved(p['spec']) if p['draw'] == 'chiseki' else B.draw_forms.tatemono_solved(p['spec']))
         except Exception as e:   # noqa: BLE001

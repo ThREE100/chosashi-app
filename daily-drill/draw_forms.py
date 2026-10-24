@@ -97,7 +97,20 @@ def chiseki_blank():
     return svg_wrap(CH_H, p)
 
 
+def _plugin(s):
+    """spec に 'renderer': '名前' があれば、daily-drill/drawing/r_名前.py の solved(s) で描く（区分建物・合体など、型ごとの描き方を共有の関数を書き換えずに足すため）"""
+    import importlib.util
+    import os
+    fp = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'drawing', f"r_{s['renderer']}.py")
+    sp = importlib.util.spec_from_file_location('r_' + s['renderer'], fp)
+    m = importlib.util.module_from_spec(sp)
+    sp.loader.exec_module(m)
+    return m.solved(s)
+
+
 def chiseki_solved(s):
+    if 'renderer' in s:
+        return _plugin(s)
     cells = [(72, '土地の所在', s['addr']), (50, '地番', s['lot_label']), (60, '縮尺', '1/250')]
     p, area = frame(CH_H, '地　積　測　量　図', cells, [(91, '作成者', '（略）'), (91, '申請人', '（略）')])
     pts = {k: tuple(v) for k, v in s['pts'].items()}
@@ -180,6 +193,8 @@ def _poly(m, pts, w=0.6, dash=None, fill='none'):
 
 
 def tatemono_solved(s):
+    if 'renderer' in s:
+        return _plugin(s)
     if 'annex' in s:                      # 附属建物があるとき（本番形式の統合問題 s02 から）
         return tatemono_annex_solved(s)
     """s: site（敷地の頂点 (X,Y)）、bld1/bld2（外形の頂点 (X,Y)）、dists（建物の位置を示す距離 [(建物側の点,敷地側の点,テキスト)]）、adj、addr、lot、house"""
