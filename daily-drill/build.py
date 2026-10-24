@@ -55,7 +55,7 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
 .cl{margin:0 0 1.2mm;font-size:10.5pt;line-height:1.75}
 .blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
-.amq{font-size:10pt;line-height:1.5}.amq .cl{font-size:10pt;line-height:1.6;margin:0 0 .6mm}.amq ol.st li{margin:.7mm 0}.amq h2{margin:2.5mm 0 1mm}.amq .clz{padding:2mm 3mm}.amq .theme{margin:0 0 1mm}
+.amq{font-size:9.5pt;line-height:1.45}.amq .cl{font-size:9pt;line-height:1.45;margin:0 0 .4mm}.amq .blank{min-width:16mm}.amq ol.st li{margin:.5mm 0}.amq h2{margin:2.5mm 0 1mm}.amq .clz{padding:2mm 3mm}.amq.tight{font-size:8.6pt;line-height:1.42}.amq.tight .cl{font-size:8.3pt;line-height:1.42}.amq.tight .theme{font-size:8.5pt}.amq .theme{margin:0 0 1mm}
 .figrow{margin:2mm 0}
 .figrow svg.fig{display:block;width:100%;height:auto}
 .coord{margin-top:2mm}
@@ -165,45 +165,90 @@ def _art(a):
 CN = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩', '⑪', '⑫', '⑬', '⑭', '⑮', '⑯', '⑰', '⑱', '⑲', '⑳']
 
 
-KOU = re.compile(r'^[２-９]　|^[1-9]\s')          # 項の番号（２　…）
-GOU = re.compile(r'^[一二三四五六七八九十]+　')    # 号の番号（一　…）
+LEVELS = [   # 行の頭の番号の種類（浅い順）。条の見出し【…】は0
+    (1, re.compile(r'^((?:[１-９]|[1-9][0-9]?\.?))[ 　]')),                  # 項（２　／ 規則の「2 」／「2. 」）
+    (2, re.compile(r'^([一二三四五六七八九十]+|\([0-9]+\))[ 　]?(?=\S)')),     # 号（一　／ 準則の「(1)」）
+    (3, re.compile(r'^([イロハニホヘトチリヌルヲワカヨタレソツネナラム])[ 　]')),  # 号の細分（イ　）
+    (4, re.compile(r'^(（[0-9０-９]+）)[ 　]')),                                # さらに細分（（１）　）
+]
+
+
+def _level(ln):
+    if ln.startswith('【'):
+        return 0, None
+    for lv, rx in LEVELS:
+        m = rx.match(ln)
+        if m and not (lv == 2 and not re.match(r'^([一二三四五六七八九十]+[ 　]|\([0-9]+\))', ln)):
+            return lv, m.group(1)
+    return 9, None          # 番号のない行（柱書・第1項）
+
+
+def _shorten(ln):
+    """空欄のある行の中で、空欄を含まない長いかっこ書きを「（略）」に、空欄を含まない文を「…」にする（A4 1枚に収めるため）。"""
+    has = lambda x: bool(re.search(r'\{\d+\}', x))
+    prev = None
+    while prev != ln:                       # 内側のかっこ書きから
+        prev = ln
+        ln = re.sub(r'（[^（）]{9,}）', lambda m: m.group(0) if has(m.group(0)) else '（略）', ln)
+    m = re.match(r'^(\S{1,4}[ 　])?(.*)$', ln)
+    head, body = (m.group(1) or ''), m.group(2)
+    sents = re.findall(r'[^。]*。|[^。]+$', body)
+    if len(sents) > 1:
+        kept, dropped = [], False
+        for x in sents:
+            if has(x):
+                kept.append(x)
+            elif not dropped or kept[-1:] != ['…']:
+                kept.append('…')
+            dropped = True
+        if kept and not has(sents[0]) and kept[0] == '…' and not head:
+            pass
+        body = ''.join(kept)
+    return head + body
 
 
 def cloze_lines(w):
     """問題ページに載せる行：空欄のない号・項は番号だけ残して「（略）」にする（A4 1枚に収め、問われる所に集中させる）。
-    項に空欄が1つもなければ、その項の号もまとめて「２　（略）」の1行にする。柱書（番号のない行）はそのまま。"""
-    lines = w['cloze']
-    out, i = [], 0
+    号・項の下の行（号・イロハ）に空欄が1つもなければ、まとめて「２　（略）」の1行にする。続く（略）は「六・七・八　（略）」にまとめる。
+    空欄のない柱書・項でも、その下に空欄のある号があるときは、意味が分かるよう全文を残す。番号のない行（第1項）に空欄がなければ「１　（略）」。"""
+    lines = [x.replace('**', '') for x in w['cloze']]   # 準則の太字の項番号
     has = lambda x: bool(re.search(r'\{\d+\}', x))
+    lv = [_level(x) for x in lines]
+    out = []
+    i = 0
     while i < len(lines):
-        ln = lines[i]
-        if KOU.match(ln):
-            j = i + 1
-            while j < len(lines) and GOU.match(lines[j]):
-                j += 1
-            block = lines[i:j]
-            if not any(has(x) for x in block):
-                out.append(ln.split('　', 1)[0] + '　（略）')
-                i = j
-                continue
-        if (KOU.match(ln) or GOU.match(ln)) and not has(ln):
-            out.append(ln.split('　', 1)[0] + '　（略）')
+        L, mk = lv[i]
+        if L == 0:
+            out.append(lines[i]); i += 1; continue
+        j = i + 1
+        top = 1 if L == 9 else L
+        while j < len(lines) and lv[j][0] not in (0, 9) and lv[j][0] > top and not (L == 9 and lv[j][0] == 1):
+            j += 1
+        sub = lines[i:j]
+        if not any(has(x) for x in sub):
+            out.append(('１' if L == 9 else mk) + '　（略）')
+            i = j
+            continue
+        if has(lines[i]) or j > i + 1:
+            out.append(_shorten(lines[i]))   # 空欄がある行、または下に空欄のある号を持つ柱書（空欄のないかっこ書・文は略す）
         else:
-            out.append(ln)
+            out.append(('１' if L == 9 else mk) + '　（略）')
         i += 1
-    merged = []                                       # 続く（略）は1行にまとめる（六・七・八　（略））
+    merged = []
     for ln in out:
-        if merged and ln.endswith('　（略）') and merged[-1].endswith('　（略）') and (ln[0] in '２３４５６７８９') == (merged[-1][0] in '２３４５６７８９'):
-            merged[-1] = merged[-1][:-len('　（略）')] + '・' + ln[:-len('　（略）')] + '　（略）'
-        else:
-            merged.append(ln)
+        if merged and ln.endswith('　（略）') and merged[-1].endswith('　（略）'):
+            p_, c_ = merged[-1][:-4], ln[:-4]
+            if _level(p_.split('・')[0] + '　x')[0] == _level(c_ + '　x')[0]:
+                merged[-1] = p_ + '・' + c_ + '　（略）'
+                continue
+        merged.append(ln)
     return merged
 
 
 def cloze_html(w, answers=False):
     """空欄補充。問題では下線つきの空欄（番号入り。空欄のない号・項は（略））、解答では答えを太字で埋めた全文。"""
     out = ''
-    for ln in (w['cloze'] if answers else cloze_lines(w)):
+    for ln in ([x.replace('**', '') for x in w['cloze']] if answers else cloze_lines(w)):
         parts = re.split(r'\{(\d+)\}', ln)
         h = ''
         for i, seg in enumerate(parts):
@@ -214,6 +259,12 @@ def cloze_html(w, answers=False):
                 h += (f'<b class="ok">{E(w["blanks"][n - 1])}</b>' if answers else f'<span class="blank">{CN[n - 1]}</span>')
         out += f'<p class="cl">{h}</p>'
     return f'<div class="clz">{out}</div>'
+
+def _am_len(p):
+    """朝の問題ページの文字量の目安（肢の文字数＋空欄補充の表示行の文字数＋行数×25）。多い日は文字を少し小さくしてA4 1枚に収める"""
+    l = cloze_lines(p['write']) if 'cloze' in p['write'] else []
+    return sum(len(s['text']) for s in p['statements']) + sum(len(x) for x in l) + 25 * len(l)
+
 
 def am_q(p):
     st = ''.join(f'<li><span class="lb">{s["label"]}</span><span>{E(s["text"])}</span></li>' for s in p['statements'])
@@ -226,7 +277,7 @@ def am_q(p):
         body += f'<h2>条文の空欄補充（6分）　<span class="src">条文のキーワードを空欄に</span></h2><p>{E(w["prompt"])}</p>{cloze_html(w)}'
     else:
         body += f'<h2>書いて説明（6分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(w["prompt"])}</p>{lines(104)}'
-    return page(f'{daylab(p["day"])} 朝 問題', '<div class="amq">' + body + '</div>', f'{p["id"]}', flow=True)   # 条文の全文の空欄補充は2枚になることがある
+    return page(f'{daylab(p["day"])} 朝 問題', '<div class="amq' + (' tight' if _am_len(p) > 1600 else '') + '">' + body + '</div>', f'{p["id"]}', flow=True)   # 条文の全文の空欄補充は2枚になることがある
 
 
 def am_a(p):

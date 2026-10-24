@@ -127,6 +127,8 @@ def check_cloze(pid, w):
         err(pid, '採点ポイントが空欄の答えと一致しない')
     art = ''.join(normalize(article(b['law'], b['article']) or '') for b in w['basis'])
     for ln in filled:
+        if ln.startswith('【'):          # 条の見出し（【不動産登記法第6条】）は条文の言葉ではない
+            continue
         for seg in ln.split('…'):   # 「…」は条文の言葉の省略。前後の各部分が、引用した条文の原文に一字一句あること
             if normalize(seg) not in art:
                 err(pid, f'埋めた文が引用した条文の原文と一致しない「{seg[:24]}」')
