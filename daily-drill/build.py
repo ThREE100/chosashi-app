@@ -104,6 +104,21 @@ code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 """
 
 
+_REG = json.load(open(os.path.join(HERE, 'registry.json'), encoding='utf-8'))
+_TAX = json.load(open(os.path.join(HERE, 'taxonomy.json'), encoding='utf-8'))
+
+
+def log_box(p, side):
+    """解答ページの最後に置く「記録」の欄：この問の想定のひっかけの型と、記録のコマンド"""
+    names = _TAX['traps_morning'] if side == 'morning' else _TAX['traps_evening']
+    ts = _REG.get(p['id'], {}).get('traps', [])
+    items = ''.join(f'<li>□ {E(t)}　{E(names.get(t, ""))}</li>' for t in ts)
+    ex = ts[0] if ts else ('M3' if side == 'morning' else 'A2')
+    return ('<h2>記録（○・△・× と、引っかかった型に✓）</h2>'
+            f'<ul class="chk">{items}<li>□ 他（メモ：　　　　　　　　）</li></ul>'
+            f'<p class="src">記録：<code>python3 daily-drill/kiroku.py add {E(p["id"])} × {E(ex)} --item 欄の名前</code>（○ のときは型を書かない）。集計と解き直しの予定は daily-drill/log/report.md</p>')
+
+
 def pages(title, bodies, foot='', right='条文は note-articles/laws/ の原文で照合済み', flow=False):
     sheets = ''.join(f'<div class="sheet{" flow" if flow else ""}">{x}<div class="foot"><span>{E(foot)}　{i + 1}/{len(bodies)}</span><span>{E(right)}</span></div></div>' for i, x in enumerate(bodies))
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
@@ -187,6 +202,7 @@ def am_a(p):
     txt = article(full['law'], full['article']) or ''
     txt = '\n'.join(ln for ln in txt.split('\n') if not ln.startswith('#')).strip()
     body += f'<h2>原文（音読用）　<span class="src">{E(full["law"])}{E(_art(full["article"]))}</span></h2><div class="full">{E(txt)}</div>'
+    body += log_box(p, 'morning')
     return page(f'第{p["day"]}日 朝 解答', body, f'{p["id"]} 解答', flow=True)
 
 
@@ -347,6 +363,7 @@ def calc2_a(p):
         body += '<h2>根拠条文</h2>' + ''.join(quote_block(x) for x in p['basis'])
     body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
     body += '<h2>できたか</h2><ul class="chk"><li>□ 式が立てられた</li><li>□ 電卓で打てた</li><li>□ 検算した</li><li>□ 制限時間内に終わった</li></ul>'
+    body += log_box(p, 'evening')
     sheet1 = body
     body2 = head(p['day'], '夜：解答（電卓操作）', 'キヤノン F-789SG・複素数モード（[MODE] [2]）。Z ＝ X ＋ Yi（X＝北、Y＝東）。負の数は「0 − 数」で入れる', 15)
     for g in p['keys']:
@@ -386,6 +403,7 @@ def draw_a(p):
     body += '<h2>自己採点（できた項目に○。作図は定規で長さを測って確かめる）</h2><table class="pt">' + ''.join(f'<tr><td style="width:7mm">□</td><td>{E(t)}</td><td class="src" style="width:46mm">{E(b_)}</td></tr>' for t, b_ in p['rubric']) + '</table>'
     body += '<h2>解き方</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li>{E(s)}</li>' for s in p['steps']) + '</ul>'
     body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
+    body += log_box(p, 'evening')
     sheets = [body]
     if p['draw'] == 'chiseki':
         sheets.append(head(p['day'], '夜：解答（模範の作図）', '地積測量図（実寸・縮尺250分の1。座標から機械で作図）', 20) + f'<div class="drawwrap">{draw_forms.chiseki_solved(p["spec"])}</div>')
@@ -443,6 +461,7 @@ def pm_a(p):
             body += f'<div class="q">{E(it["label"])}</div>'
             body += ''.join(quote_block(x) for x in it['basis'])
             body += f'<p class="src">{E(it["note"])}</p>'
+        body += log_box(p, 'evening')
         return page(f'第{p["day"]}日 夜 解答', body, f'{p["id"]} 解答', flow=True)
     body = head(p['day'], '夜：解答', p['title'], 15)
     if p['kind'] == 'calc':
@@ -462,6 +481,7 @@ def pm_a(p):
             body += ''.join(quote_block(b) for b in f['basis'])
             if f['note']:
                 body += f'<p class="src">{E(f["note"])}</p>'
+    body += log_box(p, 'evening')
     return page(f'第{p["day"]}日 夜 解答', body, f'{p["id"]} 解答', flow=True)
 
 
