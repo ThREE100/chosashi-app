@@ -1,0 +1,24 @@
+{
+ "id": "AM-020",
+ "day": 20,
+ "theme": "TODO（択一の論点。例：地目・地積の変更の登記（法第37条））",
+ "mode": "正しい",
+ "stem": "TODO（例：土地の表題部に関する登記の申請に関する次のアからオまでの記述のうち、正しいものの組合せはどれか。）",
+ "statements": [
+  {"label": "ア", "text": "TODO", "truth": true, "basis": [{"law": "不動産登記法", "article": "第○条", "quote": "TODO（原文の一字一句）"}], "note": "TODO（根拠の条・項・号と、誤りならどこがどう違うか）"},
+  {"label": "イ", "text": "TODO", "truth": true, "basis": [], "note": "TODO"},
+  {"label": "ウ", "text": "TODO", "truth": false, "basis": [], "note": "TODO"},
+  {"label": "エ", "text": "TODO", "truth": true, "basis": [], "note": "TODO"},
+  {"label": "オ", "text": "TODO", "truth": false, "basis": [], "note": "TODO"}
+ ],
+ "choices": [["ア", "ウ", "エ"], ["イ", "ウ", "オ"], ["ア", "イ", "エ"], ["ア", "エ", "オ"], ["ウ", "エ", "オ"]],
+ "write": {
+  "theme": "TODO（空欄補充の条文。択一と別の条文にする）",
+  "prompt": "TODO（法第○条が定める…を、号の順に要約した次の表の空欄に、条文の言葉を入れなさい。（…は、条文の言葉を省略した箇所））",
+  "cloze": ["一　TODO{1}TODO"],
+  "blanks": ["TODO"],
+  "model": ["一　TODO（模範解答：条文どおりの全文）"],
+  "points": ["TODO"],
+  "basis": [{"law": "不動産登記法", "article": "第○条", "quote": "TODO"}]
+ }
+}
