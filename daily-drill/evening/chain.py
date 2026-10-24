@@ -274,9 +274,16 @@ def robustness(spec, raw, outA):
             if not -0.001 < t < 1.001:
                 errs.append(f"{st['name']}: 垂線の足が線分 {st['a']}{st['b']} の外にある")
         P[st['name']] = r2(z)
+    Pr = dict(P)
     for o in spec['outputs']:
         oid = o.get('id') or o.get('pt') or o['label']
-        if o['kind'] in ('area', 'arith') and oid + '__raw' in outA:
+        if o['kind'] == 'dist':                    # 距離は四捨五入：境目（小数第3位が5付近）だと答えが割れる
+            v = abs(Pr[o['a']] - Pr[o['b']])
+            if abs((v * 100) % 1 - 0.5) < 0.06:
+                errs.append(f"{o['label']}: 距離 {v:.5f} が四捨五入の境目に近い")
+        if o['kind'] == 'arith' and o.get('mode') == 'round2' and abs((outA[oid + '__raw'] * 100) % 1 - 0.5) < 0.06:
+            errs.append(f"{o['label']}: {outA[oid + '__raw']:.5f} が四捨五入の境目に近い")
+        if o['kind'] in ('area', 'arith') and o.get('mode', 'floor2') != 'round2' and oid + '__raw' in outA:
             v = outA[oid + '__raw']
             q = v * 100 if o.get('mode', 'floor2') == 'floor2' else v
             if abs(q - round(q)) < 0.01:
