@@ -53,8 +53,9 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 .chk{margin:0;padding:0;list-style:none;columns:2}
 .foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
 .clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
-.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.cl{margin:0 0 1.2mm;font-size:10.5pt;line-height:1.75}
 .blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.amq{font-size:10pt;line-height:1.5}.amq .cl{font-size:10pt;line-height:1.6;margin:0 0 .6mm}.amq ol.st li{margin:.7mm 0}.amq h2{margin:2.5mm 0 1mm}.amq .clz{padding:2mm 3mm}.amq .theme{margin:0 0 1mm}
 .figrow{margin:2mm 0}
 .figrow svg.fig{display:block;width:100%;height:auto}
 .coord{margin-top:2mm}
@@ -164,10 +165,45 @@ def _art(a):
 CN = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩', '⑪', '⑫', '⑬', '⑭', '⑮', '⑯', '⑰', '⑱', '⑲', '⑳']
 
 
+KOU = re.compile(r'^[２-９]　|^[1-9]\s')          # 項の番号（２　…）
+GOU = re.compile(r'^[一二三四五六七八九十]+　')    # 号の番号（一　…）
+
+
+def cloze_lines(w):
+    """問題ページに載せる行：空欄のない号・項は番号だけ残して「（略）」にする（A4 1枚に収め、問われる所に集中させる）。
+    項に空欄が1つもなければ、その項の号もまとめて「２　（略）」の1行にする。柱書（番号のない行）はそのまま。"""
+    lines = w['cloze']
+    out, i = [], 0
+    has = lambda x: bool(re.search(r'\{\d+\}', x))
+    while i < len(lines):
+        ln = lines[i]
+        if KOU.match(ln):
+            j = i + 1
+            while j < len(lines) and GOU.match(lines[j]):
+                j += 1
+            block = lines[i:j]
+            if not any(has(x) for x in block):
+                out.append(ln.split('　', 1)[0] + '　（略）')
+                i = j
+                continue
+        if (KOU.match(ln) or GOU.match(ln)) and not has(ln):
+            out.append(ln.split('　', 1)[0] + '　（略）')
+        else:
+            out.append(ln)
+        i += 1
+    merged = []                                       # 続く（略）は1行にまとめる（六・七・八　（略））
+    for ln in out:
+        if merged and ln.endswith('　（略）') and merged[-1].endswith('　（略）') and (ln[0] in '２３４５６７８９') == (merged[-1][0] in '２３４５６７８９'):
+            merged[-1] = merged[-1][:-len('　（略）')] + '・' + ln[:-len('　（略）')] + '　（略）'
+        else:
+            merged.append(ln)
+    return merged
+
+
 def cloze_html(w, answers=False):
-    """空欄補充。問題では下線つきの空欄（番号入り）、解答では答えを太字で埋める。"""
+    """空欄補充。問題では下線つきの空欄（番号入り。空欄のない号・項は（略））、解答では答えを太字で埋めた全文。"""
     out = ''
-    for ln in w['cloze']:
+    for ln in (w['cloze'] if answers else cloze_lines(w)):
         parts = re.split(r'\{(\d+)\}', ln)
         h = ''
         for i, seg in enumerate(parts):
@@ -190,7 +226,7 @@ def am_q(p):
         body += f'<h2>条文の空欄補充（6分）　<span class="src">条文のキーワードを空欄に</span></h2><p>{E(w["prompt"])}</p>{cloze_html(w)}'
     else:
         body += f'<h2>書いて説明（6分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(w["prompt"])}</p>{lines(104)}'
-    return page(f'{daylab(p["day"])} 朝 問題', body, f'{p["id"]}', flow=True)   # 条文の全文の空欄補充は2枚になることがある
+    return page(f'{daylab(p["day"])} 朝 問題', '<div class="amq">' + body + '</div>', f'{p["id"]}', flow=True)   # 条文の全文の空欄補充は2枚になることがある
 
 
 def am_a(p):
