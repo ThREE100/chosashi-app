@@ -82,13 +82,14 @@ for law, key in ((HO, '不動産登記法'), (CH, '調査士法'), (MI, '民法'
 for k in units:   # 引用の多い順（同点は条番号順）に並べる
     units[k].sort(key=lambda u: (-u['w'], num(u['arts'][0])))
 
-# 先に「引用あり」、全部終わってから「引用なし」。法令の比率は 不動産登記法4：民法2：調査士法1（7日あたり）
+# 先に「引用あり」、全部終わってから「引用なし」。法令の比率は本番の配点（不動産登記法16：民法3：調査士法1）に合わせ、
+# 21日あたり 不動産登記法17：民法3：調査士法1（2026-10-24 改訂。以前の 4：2：1 は民法・調査士法に偏っていた）
 queues = {HO: units[HO + '_引用あり'] + units[HO + '_引用なし'], CH: units[CH + '_引用あり'] + units[CH + '_引用なし'], MI: units[MI + '_引用あり']}
-pattern = [HO, MI, HO, HO, MI, HO, CH]
+pattern = [HO, HO, HO, MI, HO, HO, HO, HO, HO, HO, MI, HO, HO, HO, HO, HO, HO, MI, HO, HO, CH]
 order = []
 i = 0
 while any(queues.values()):
-    law = pattern[i % 7]
+    law = pattern[i % len(pattern)]
     i += 1
     if not queues[law]:
         alt = [l for l in (HO, MI, CH) if queues[l]]

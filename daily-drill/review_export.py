@@ -19,11 +19,17 @@ for fp in sorted(glob.glob(os.path.join(HERE, 'morning', 'problems', '*.json')))
     seen = []
     for s in p['statements']:
         for b in s['basis']:
-            k = (b['law'], b['article'])
+            k = ('doc', b['doc'], b['quote']) if 'doc' in b else (b['law'], b['article'])
             if k not in seen:
                 seen.append(k)
-    print('--- 条文の原文 ---')
-    for law, art in seen:
-        print(f'【{law}】')
-        print(article(law, art))
+    print('--- 条文の原文・過去問の解説の記載 ---')
+    for k in seen:
+        if k[0] == 'doc':                # 先例など：解説の記載の前後（正誤は伏せたまま）
+            t = open(os.path.join(os.path.dirname(HERE), k[1]), encoding='utf-8').read()
+            i = t.find(k[2][:20])
+            print(f'【過去問の解説 {k[1]}】')
+            print(t[max(0, i - 300): i + 500])
+        else:
+            print(f'【{k[0]}】')
+            print(article(k[0], k[1]))
     print()

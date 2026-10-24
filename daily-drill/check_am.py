@@ -61,7 +61,7 @@ def check(p):
             check_quote(pid, s['label'], b)
     w = p['write']
     # 択一と空欄補充は、出題する条文（分野）を分ける。択一の文面が空欄補充のヒントになるのを防ぐ
-    q_arts = {(b['law'], b['article']) for s in p['statements'] for b in s['basis']}
+    q_arts = {(b['law'], b['article']) for s in p['statements'] for b in s['basis'] if 'law' in b}
     w_arts = {(b['law'], b['article']) for b in w['basis']}
     if q_arts & w_arts:
         err(pid, f'択一と空欄補充が同じ条文を出題している：{sorted(q_arts & w_arts)}')
@@ -130,7 +130,20 @@ def check_cloze(pid, w):
             err(pid, f'空欄の答え「{a}」が長い（キーワードだけを空欄にする）')
 
 
+def check_doc(pid, where, b):
+    """先例・判例など、条文の原文では決まらない根拠は、リポジトリの過去問の解説（note-articles/）の記載に一字一句あることで確かめる"""
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) if 'saturday' not in __file__ else os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    fp = os.path.join(root, b['doc'])
+    if not b['doc'].startswith('note-articles') or not os.path.exists(fp):
+        err(pid, f"{where}: 根拠の文書 {b['doc']} がない（note-articles/ の過去問の解説に限る）")
+        return
+    if normalize(b['quote']) not in normalize(open(fp, encoding='utf-8').read()):
+        err(pid, f"{where}: 引用が {b['doc']} の記載と一致しない「{b['quote'][:30]}…」")
+
+
 def check_quote(pid, where, b):
+    if 'doc' in b:
+        return check_doc(pid, where, b)
     art = article(b['law'], b['article'])
     if art is None:
         err(pid, f"{where}: {b['law']}{b['article']} が原文にない")

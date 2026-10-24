@@ -141,6 +141,8 @@ def lines(mm):
 
 
 def quote_block(b):
+    if 'doc' in b:          # 先例など：過去問の解説の記載
+        return f'<blockquote>{E(b.get("label", "先例"))}（過去問の解説 {E(b["doc"].split("/")[-1])}）「{E(b["quote"])}」</blockquote>'
     return f'<blockquote>{E(b["law"])}{E(_art(b["article"]))}「{E(b["quote"])}」</blockquote>'
 
 
