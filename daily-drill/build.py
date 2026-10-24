@@ -510,10 +510,15 @@ def main():
                 open(os.path.join(OUT, n), 'w', encoding='utf-8').write(fn(pm[d]))
                 links.append(f'<a href="{n}">{lab}</a>')
         rows += f'<tr><td>第{d}日</td><td>{E(am[d]["theme"]) if d in am else ""}</td><td>{E(pm[d]["title"]) if d in pm else ""}</td><td>{" ／ ".join(links)}</td></tr>'
+    extra = ''
+    for pre, lab in (('sat', '土曜の20問模擬（択一式）'), ('sougou', '本番形式の統合問題（記述式・60分）')):
+        fs = sorted(f for f in os.listdir(OUT) if f.startswith(pre) and f.endswith('.html') and not f.endswith('-ans.html'))
+        if fs:
+            extra += f'<h2>{lab}</h2><ul>' + ''.join(f'<li><a href="{f}">{f[:-5]} 問題</a> ／ <a href="{f[:-5]}-ans.html">解答</a></li>' for f in fs) + '</ul>'
     idx = (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>毎日ドリル</title>'
            f'<style>{CSS}table{{border-collapse:collapse;width:100%}}td,th{{border:1px solid var(--line);padding:2mm 3mm;text-align:left;font-size:10pt}}a{{color:var(--g)}}</style></head>'
            f'<body><div class="sheet"><div class="hd"><h1>毎日ドリル（朝：択一＋書いて説明／夜：記述式）</h1></div>'
-           f'<table><tr><th>日</th><th>朝の論点</th><th>夜の内容</th><th>リンク</th></tr>{rows}</table></div></body></html>')
+           f'<table><tr><th>日</th><th>朝の論点</th><th>夜の内容</th><th>リンク</th></tr>{rows}</table>{extra}</div></body></html>')
     open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(idx)
     print('out/ に', len(os.listdir(OUT)), 'ファイル')
 
