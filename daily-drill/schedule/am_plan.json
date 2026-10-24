@@ -1,0 +1,1607 @@
+[
+ {
+  "day": 23,
+  "id": "AM-023",
+  "takuitsu": "登記所・事務の委任・登記官（法第6条・第7条・第9条・第10条）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "kankatsu"
+  ],
+  "articles_hint": "法第6条・第7条・第9条・第10条",
+  "cloze_topic": "筆界特定（申請・手続・効果）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第123条〜第150条、規則第206条〜",
+  "mode": "正しい"
+ },
+ {
+  "day": 24,
+  "id": "AM-024",
+  "takuitsu": "筆界特定（申請・手続・効果）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "hikkai-tokutei",
+   "hikkaitokutei"
+  ],
+  "articles_hint": "法第123条〜第150条、規則第206条〜",
+  "cloze_topic": "地目の認定・地目変更の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "mode": "誤り"
+ },
+ {
+  "day": 25,
+  "id": "AM-025",
+  "takuitsu": "地目の認定・地目変更の登記",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "chimoku",
+   "chimoku-nintei",
+   "chimoku-henkou"
+  ],
+  "articles_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "cloze_topic": "民法：意思表示・無効と取消し・行為能力",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第3条〜第21条・第93条〜第126条",
+  "mode": "正しい"
+ },
+ {
+  "day": 26,
+  "id": "AM-026",
+  "takuitsu": "民法：意思表示・無効と取消し・行為能力",
+  "field": "民法",
+  "style": "条文",
+  "past_topics": [
+   "ishihyouji",
+   "ishi-hyouji",
+   "mukou-torikeshi",
+   "koui-nouryoku"
+  ],
+  "articles_hint": "民法第3条〜第21条・第93条〜第126条",
+  "cloze_topic": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "mode": "誤り"
+ },
+ {
+  "day": 27,
+  "id": "AM-027",
+  "takuitsu": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "bunpitsu",
+   "bunpitsu-touki",
+   "tochi-bunpitsu"
+  ],
+  "articles_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "cloze_topic": "地図・地図に準ずる図面・地図訂正",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "mode": "正しい"
+ },
+ {
+  "day": 28,
+  "id": "AM-028",
+  "takuitsu": "地図・地図に準ずる図面・地図訂正",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "chizu-teisei",
+   "chizu",
+   "chiban"
+  ],
+  "articles_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "cloze_topic": "建物の認定・種類・個数",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "mode": "誤り"
+ },
+ {
+  "day": 29,
+  "id": "AM-029",
+  "takuitsu": "建物の認定・種類・個数",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "tatemono-nintei",
+   "tatemono-kosuu",
+   "tatemono-shurui"
+  ],
+  "articles_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "cloze_topic": "建物の合併・分割",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第54条・第56条、規則第128条〜第134条",
+  "mode": "正しい"
+ },
+ {
+  "day": 30,
+  "id": "AM-030",
+  "takuitsu": "建物の合併・分割",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "tatemono-gappei",
+   "tatemono-bunkatsu",
+   "tatemono-bunkatsu-gappei"
+  ],
+  "articles_hint": "法第54条・第56条、規則第128条〜第134条",
+  "cloze_topic": "床面積（算入・不算入・区分建物の内法）",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第115条、準則第82条",
+  "mode": "誤り"
+ },
+ {
+  "day": 31,
+  "id": "AM-031",
+  "takuitsu": "床面積（算入・不算入・区分建物の内法）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "yukamenseki"
+  ],
+  "articles_hint": "規則第115条、準則第82条",
+  "cloze_topic": "区分建物（表題登記・専有部分・一括申請）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第47条・第48条、区分所有法第1条・第2条",
+  "mode": "正しい"
+ },
+ {
+  "day": 32,
+  "id": "AM-032",
+  "takuitsu": "区分建物（表題登記・専有部分・一括申請）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "kubun-tatemono",
+   "kubun-tatemono-hyouji",
+   "senyuken"
+  ],
+  "articles_hint": "法第47条・第48条、区分所有法第1条・第2条",
+  "cloze_topic": "民法：相続（法定相続・代襲・遺産分割・遺言）",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第882条〜第1044条",
+  "mode": "誤り"
+ },
+ {
+  "day": 33,
+  "id": "AM-033",
+  "takuitsu": "民法：相続（法定相続・代襲・遺産分割・遺言）",
+  "field": "民法",
+  "style": "事例",
+  "past_topics": [
+   "souzoku",
+   "houtei-souzoku",
+   "daishuu-souzoku",
+   "isanbunkatsu",
+   "igon"
+  ],
+  "articles_hint": "民法第882条〜第1044条",
+  "cloze_topic": "附属建物",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第2条第23号、準則第78条、規則第112条",
+  "mode": "正しい"
+ },
+ {
+  "day": 34,
+  "id": "AM-034",
+  "takuitsu": "附属建物",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "fuzoku-tatemono"
+  ],
+  "articles_hint": "法第2条第23号、準則第78条、規則第112条",
+  "cloze_topic": "建物の合体による登記等",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第49条・第50条、令別表十三、規則第120条",
+  "mode": "誤り"
+ },
+ {
+  "day": 35,
+  "id": "AM-035",
+  "takuitsu": "建物の合体による登記等",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "gattai-touki",
+   "gattai"
+  ],
+  "articles_hint": "法第49条・第50条、令別表十三、規則第120条",
+  "cloze_topic": "合筆の登記（制限・申請人）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第39条・第41条、規則第105条・第106条",
+  "mode": "正しい"
+ },
+ {
+  "day": 36,
+  "id": "AM-036",
+  "takuitsu": "合筆の登記（制限・申請人）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "gappitsu",
+   "tochi-gappitsu"
+  ],
+  "articles_hint": "法第39条・第41条、規則第105条・第106条",
+  "cloze_topic": "共用部分・共用部分である旨の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第58条、区分所有法第4条、規則第141条",
+  "mode": "誤り"
+ },
+ {
+  "day": 37,
+  "id": "AM-037",
+  "takuitsu": "共用部分・共用部分である旨の登記",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "kyouyoububun"
+  ],
+  "articles_hint": "法第58条、区分所有法第4条、規則第141条",
+  "cloze_topic": "敷地権（要件・割合・敷地権である旨の登記）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第44条第1項第9号・第46条、区分所有法第22条、規則第118条〜第123条",
+  "mode": "正しい"
+ },
+ {
+  "day": 38,
+  "id": "AM-038",
+  "takuitsu": "敷地権（要件・割合・敷地権である旨の登記）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "shikichiken"
+  ],
+  "articles_hint": "法第44条第1項第9号・第46条、区分所有法第22条、規則第118条〜第123条",
+  "cloze_topic": "登記識別情報（通知・提供・失効）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第21条・第22条、令第8条、規則第61条〜第68条",
+  "mode": "誤り"
+ },
+ {
+  "day": 39,
+  "id": "AM-039",
+  "takuitsu": "登記識別情報（通知・提供・失効）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "touki-shikibetsu-jouhou",
+   "toukishikibetsujouhou",
+   "touki-shikibetsu-joho"
+  ],
+  "articles_hint": "法第21条・第22条、令第8条、規則第61条〜第68条",
+  "cloze_topic": "民法：物権変動と対抗要件",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第176条・第177条",
+  "mode": "正しい"
+ },
+ {
+  "day": 40,
+  "id": "AM-040",
+  "takuitsu": "民法：物権変動と対抗要件",
+  "field": "民法",
+  "style": "条文",
+  "past_topics": [
+   "taikouyouken",
+   "bukken-hendou"
+  ],
+  "articles_hint": "民法第176条・第177条",
+  "cloze_topic": "地積測量図・建物図面・各階平面図",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第73条〜第83条、準則第50条〜第55条",
+  "mode": "誤り"
+ },
+ {
+  "day": 41,
+  "id": "AM-041",
+  "takuitsu": "地積測量図・建物図面・各階平面図",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "tatemonozumen",
+   "tatemono-zumen",
+   "chisekisokuryouzu",
+   "zumen-sakusei"
+  ],
+  "articles_hint": "規則第73条〜第83条、準則第50条〜第55条",
+  "cloze_topic": "建物の所在・家屋番号",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第112条、準則第79条・第88条",
+  "mode": "正しい"
+ },
+ {
+  "day": 42,
+  "id": "AM-042",
+  "takuitsu": "建物の所在・家屋番号",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "tatemono-shozai"
+  ],
+  "articles_hint": "規則第112条、準則第79条・第88条",
+  "cloze_topic": "調査士法：業務・義務・責任",
+  "cloze_field": "調査士法",
+  "cloze_hint": "調査士法第3条・第20条〜第25条",
+  "mode": "誤り"
+ },
+ {
+  "day": 43,
+  "id": "AM-043",
+  "takuitsu": "調査士法：業務・義務・責任",
+  "field": "調査士法",
+  "style": "事例",
+  "past_topics": [
+   "chousashihou"
+  ],
+  "articles_hint": "調査士法第3条・第20条〜第25条",
+  "cloze_topic": "表題部所有者（変更・更正・所有権証明）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第27条第3号・第31条〜第33条、準則第87条",
+  "mode": "正しい"
+ },
+ {
+  "day": 44,
+  "id": "AM-044",
+  "takuitsu": "表題部所有者（変更・更正・所有権証明）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "hyoudaibu-shoyuusha",
+   "shutoku-jikou"
+  ],
+  "articles_hint": "法第27条第3号・第31条〜第33条、準則第87条",
+  "cloze_topic": "建物の滅失の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第57条、準則第102条",
+  "mode": "誤り"
+ },
+ {
+  "day": 45,
+  "id": "AM-045",
+  "takuitsu": "建物の滅失の登記",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "tatemono-messitsu",
+   "tatemono-messhitsu"
+  ],
+  "articles_hint": "法第57条、準則第102条",
+  "cloze_topic": "地積の更正・地積に関する変更の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第37条・第38条、規則第10条第4項、準則第72条",
+  "mode": "正しい"
+ },
+ {
+  "day": 46,
+  "id": "AM-046",
+  "takuitsu": "地積の更正・地積に関する変更の登記",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "chiseki-kousei"
+  ],
+  "articles_hint": "法第37条・第38条、規則第10条第4項、準則第72条",
+  "cloze_topic": "民法：共有",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第249条〜第264条",
+  "mode": "誤り"
+ },
+ {
+  "day": 47,
+  "id": "AM-047",
+  "takuitsu": "民法：共有",
+  "field": "民法",
+  "style": "事例",
+  "past_topics": [
+   "kyouyuu"
+  ],
+  "articles_hint": "民法第249条〜第264条",
+  "cloze_topic": "申請情報・添付情報",
+  "cloze_field": "不登法",
+  "cloze_hint": "令第3条・第7条・別表、規則第34条〜第37条",
+  "mode": "正しい"
+ },
+ {
+  "day": 48,
+  "id": "AM-048",
+  "takuitsu": "申請情報・添付情報",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "tenpu-jouhou",
+   "tatemono-tenpu",
+   "shinsei-jouhou"
+  ],
+  "articles_hint": "令第3条・第7条・別表、規則第34条〜第37条",
+  "cloze_topic": "建物の表題登記・表題部の変更の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第47条・第51条・第53条",
+  "mode": "誤り"
+ },
+ {
+  "day": 49,
+  "id": "AM-049",
+  "takuitsu": "建物の表題登記・表題部の変更の登記",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "tatemono-hyoudai-touki",
+   "tatemono-hyoudai",
+   "tatemono-hyoudaibu-henkou",
+   "tatemono-hyoudaibu"
+  ],
+  "articles_hint": "法第47条・第51条・第53条",
+  "cloze_topic": "登録免許税（表示の登記）",
+  "cloze_field": "不登法",
+  "cloze_hint": "登録免許税法別表第一の一（十三）・第5条",
+  "mode": "正しい"
+ },
+ {
+  "day": 50,
+  "id": "AM-050",
+  "takuitsu": "登録免許税（表示の登記）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "touroku-menkyozei"
+  ],
+  "articles_hint": "登録免許税法別表第一の一（十三）・第5条",
+  "cloze_topic": "登記記録・保存期間・登記事項証明書",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第119条〜第121条、規則第28条",
+  "mode": "誤り"
+ },
+ {
+  "day": 51,
+  "id": "AM-051",
+  "takuitsu": "登記記録・保存期間・登記事項証明書",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "hozon-kikan",
+   "hozonkikan",
+   "toukijikou-shoumei"
+  ],
+  "articles_hint": "法第119条〜第121条、規則第28条",
+  "cloze_topic": "申請の手続（電子申請・代理・原本還付・取下げ・却下）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第17条・第18条・第25条、規則第39条・第55条",
+  "mode": "正しい"
+ },
+ {
+  "day": 52,
+  "id": "AM-052",
+  "takuitsu": "申請の手続（電子申請・代理・原本還付・取下げ・却下）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "denshi-shinsei",
+   "dairi",
+   "genpon-kanpu",
+   "kyakka-torisage",
+   "kyakka",
+   "kankatsu"
+  ],
+  "articles_hint": "法第17条・第18条・第25条、規則第39条・第55条",
+  "cloze_topic": "代位による申請・相続人による申請",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第30条・第33条、民法第423条",
+  "mode": "誤り"
+ },
+ {
+  "day": 53,
+  "id": "AM-053",
+  "takuitsu": "代位による申請・相続人による申請",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "daii-shinsei",
+   "touki-shinseinin"
+  ],
+  "articles_hint": "法第30条・第33条、民法第423条",
+  "cloze_topic": "民法：代理",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第99条〜第118条",
+  "mode": "正しい"
+ },
+ {
+  "day": 54,
+  "id": "AM-054",
+  "takuitsu": "民法：代理",
+  "field": "民法",
+  "style": "条文",
+  "past_topics": [
+   "dairi"
+  ],
+  "articles_hint": "民法第99条〜第118条",
+  "cloze_topic": "本人確認・事前通知・資格者代理人",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第23条・第24条、規則第70条〜第72条",
+  "mode": "誤り"
+ },
+ {
+  "day": 55,
+  "id": "AM-055",
+  "takuitsu": "本人確認・事前通知・資格者代理人",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "honnin-kakunin"
+  ],
+  "articles_hint": "法第23条・第24条、規則第70条〜第72条",
+  "cloze_topic": "筆界特定（申請・手続・効果）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第123条〜第150条、規則第206条〜",
+  "mode": "正しい"
+ },
+ {
+  "day": 56,
+  "id": "AM-056",
+  "takuitsu": "筆界特定（申請・手続・効果）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "hikkai-tokutei",
+   "hikkaitokutei"
+  ],
+  "articles_hint": "法第123条〜第150条、規則第206条〜",
+  "cloze_topic": "地目の認定・地目変更の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "mode": "誤り"
+ },
+ {
+  "day": 57,
+  "id": "AM-057",
+  "takuitsu": "地目の認定・地目変更の登記",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "chimoku",
+   "chimoku-nintei",
+   "chimoku-henkou"
+  ],
+  "articles_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "cloze_topic": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "mode": "正しい"
+ },
+ {
+  "day": 58,
+  "id": "AM-058",
+  "takuitsu": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "bunpitsu",
+   "bunpitsu-touki",
+   "tochi-bunpitsu"
+  ],
+  "articles_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "cloze_topic": "地図・地図に準ずる図面・地図訂正",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "mode": "誤り"
+ },
+ {
+  "day": 59,
+  "id": "AM-059",
+  "takuitsu": "地図・地図に準ずる図面・地図訂正",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "chizu-teisei",
+   "chizu",
+   "chiban"
+  ],
+  "articles_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "cloze_topic": "建物の認定・種類・個数",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "mode": "正しい"
+ },
+ {
+  "day": 60,
+  "id": "AM-060",
+  "takuitsu": "建物の認定・種類・個数",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "tatemono-nintei",
+   "tatemono-kosuu",
+   "tatemono-shurui"
+  ],
+  "articles_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "cloze_topic": "民法：時効（取得時効・消滅時効・完成猶予と更新）",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第144条〜第169条",
+  "mode": "誤り"
+ },
+ {
+  "day": 61,
+  "id": "AM-061",
+  "takuitsu": "民法：時効（取得時効・消滅時効・完成猶予と更新）",
+  "field": "民法",
+  "style": "事例",
+  "past_topics": [
+   "jikou"
+  ],
+  "articles_hint": "民法第144条〜第169条",
+  "cloze_topic": "建物の合併・分割",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第54条・第56条、規則第128条〜第134条",
+  "mode": "正しい"
+ },
+ {
+  "day": 62,
+  "id": "AM-062",
+  "takuitsu": "建物の合併・分割",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "tatemono-gappei",
+   "tatemono-bunkatsu",
+   "tatemono-bunkatsu-gappei"
+  ],
+  "articles_hint": "法第54条・第56条、規則第128条〜第134条",
+  "cloze_topic": "床面積（算入・不算入・区分建物の内法）",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第115条、準則第82条",
+  "mode": "誤り"
+ },
+ {
+  "day": 63,
+  "id": "AM-063",
+  "takuitsu": "床面積（算入・不算入・区分建物の内法）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "yukamenseki"
+  ],
+  "articles_hint": "規則第115条、準則第82条",
+  "cloze_topic": "調査士法：登録・懲戒",
+  "cloze_field": "調査士法",
+  "cloze_hint": "調査士法第8条〜第16条・第42条〜第46条",
+  "mode": "正しい"
+ },
+ {
+  "day": 64,
+  "id": "AM-064",
+  "takuitsu": "調査士法：登録・懲戒",
+  "field": "調査士法",
+  "style": "条文",
+  "past_topics": [
+   "chousashi-touroku"
+  ],
+  "articles_hint": "調査士法第8条〜第16条・第42条〜第46条",
+  "cloze_topic": "区分建物（表題登記・専有部分・一括申請）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第47条・第48条、区分所有法第1条・第2条",
+  "mode": "誤り"
+ },
+ {
+  "day": 65,
+  "id": "AM-065",
+  "takuitsu": "区分建物（表題登記・専有部分・一括申請）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "kubun-tatemono",
+   "kubun-tatemono-hyouji",
+   "senyuken"
+  ],
+  "articles_hint": "法第47条・第48条、区分所有法第1条・第2条",
+  "cloze_topic": "土地の表題登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第36条、令別表四",
+  "mode": "正しい"
+ },
+ {
+  "day": 66,
+  "id": "AM-066",
+  "takuitsu": "土地の表題登記",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "tochi-hyoudai"
+  ],
+  "articles_hint": "法第36条、令別表四",
+  "cloze_topic": "審査請求",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第156条〜第158条",
+  "mode": "誤り"
+ },
+ {
+  "day": 67,
+  "id": "AM-067",
+  "takuitsu": "審査請求",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "shinsaseikyuu"
+  ],
+  "articles_hint": "法第156条〜第158条",
+  "cloze_topic": "民法：意思表示・無効と取消し・行為能力",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第3条〜第21条・第93条〜第126条",
+  "mode": "正しい"
+ },
+ {
+  "day": 68,
+  "id": "AM-068",
+  "takuitsu": "民法：意思表示・無効と取消し・行為能力",
+  "field": "民法",
+  "style": "条文",
+  "past_topics": [
+   "ishihyouji",
+   "ishi-hyouji",
+   "mukou-torikeshi",
+   "koui-nouryoku"
+  ],
+  "articles_hint": "民法第3条〜第21条・第93条〜第126条",
+  "cloze_topic": "附属建物",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第2条第23号、準則第78条、規則第112条",
+  "mode": "誤り"
+ },
+ {
+  "day": 69,
+  "id": "AM-069",
+  "takuitsu": "附属建物",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "fuzoku-tatemono"
+  ],
+  "articles_hint": "法第2条第23号、準則第78条、規則第112条",
+  "cloze_topic": "建物の合体による登記等",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第49条・第50条、令別表十三、規則第120条",
+  "mode": "正しい"
+ },
+ {
+  "day": 70,
+  "id": "AM-070",
+  "takuitsu": "建物の合体による登記等",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "gattai-touki",
+   "gattai"
+  ],
+  "articles_hint": "法第49条・第50条、令別表十三、規則第120条",
+  "cloze_topic": "合筆の登記（制限・申請人）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第39条・第41条、規則第105条・第106条",
+  "mode": "誤り"
+ },
+ {
+  "day": 71,
+  "id": "AM-071",
+  "takuitsu": "合筆の登記（制限・申請人）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "gappitsu",
+   "tochi-gappitsu"
+  ],
+  "articles_hint": "法第39条・第41条、規則第105条・第106条",
+  "cloze_topic": "筆界特定（申請・手続・効果）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第123条〜第150条、規則第206条〜",
+  "mode": "正しい"
+ },
+ {
+  "day": 72,
+  "id": "AM-072",
+  "takuitsu": "筆界特定（申請・手続・効果）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "hikkai-tokutei",
+   "hikkaitokutei"
+  ],
+  "articles_hint": "法第123条〜第150条、規則第206条〜",
+  "cloze_topic": "地目の認定・地目変更の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "mode": "誤り"
+ },
+ {
+  "day": 73,
+  "id": "AM-073",
+  "takuitsu": "地目の認定・地目変更の登記",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "chimoku",
+   "chimoku-nintei",
+   "chimoku-henkou"
+  ],
+  "articles_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "cloze_topic": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "mode": "正しい"
+ },
+ {
+  "day": 74,
+  "id": "AM-074",
+  "takuitsu": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "bunpitsu",
+   "bunpitsu-touki",
+   "tochi-bunpitsu"
+  ],
+  "articles_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "cloze_topic": "民法：相続（法定相続・代襲・遺産分割・遺言）",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第882条〜第1044条",
+  "mode": "誤り"
+ },
+ {
+  "day": 75,
+  "id": "AM-075",
+  "takuitsu": "民法：相続（法定相続・代襲・遺産分割・遺言）",
+  "field": "民法",
+  "style": "事例",
+  "past_topics": [
+   "souzoku",
+   "houtei-souzoku",
+   "daishuu-souzoku",
+   "isanbunkatsu",
+   "igon"
+  ],
+  "articles_hint": "民法第882条〜第1044条",
+  "cloze_topic": "地図・地図に準ずる図面・地図訂正",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "mode": "正しい"
+ },
+ {
+  "day": 76,
+  "id": "AM-076",
+  "takuitsu": "地図・地図に準ずる図面・地図訂正",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "chizu-teisei",
+   "chizu",
+   "chiban"
+  ],
+  "articles_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "cloze_topic": "建物の認定・種類・個数",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "mode": "誤り"
+ },
+ {
+  "day": 77,
+  "id": "AM-077",
+  "takuitsu": "建物の認定・種類・個数",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "tatemono-nintei",
+   "tatemono-kosuu",
+   "tatemono-shurui"
+  ],
+  "articles_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "cloze_topic": "建物の合併・分割",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第54条・第56条、規則第128条〜第134条",
+  "mode": "正しい"
+ },
+ {
+  "day": 78,
+  "id": "AM-078",
+  "takuitsu": "建物の合併・分割",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "tatemono-gappei",
+   "tatemono-bunkatsu",
+   "tatemono-bunkatsu-gappei"
+  ],
+  "articles_hint": "法第54条・第56条、規則第128条〜第134条",
+  "cloze_topic": "床面積（算入・不算入・区分建物の内法）",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第115条、準則第82条",
+  "mode": "誤り"
+ },
+ {
+  "day": 79,
+  "id": "AM-079",
+  "takuitsu": "床面積（算入・不算入・区分建物の内法）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "yukamenseki"
+  ],
+  "articles_hint": "規則第115条、準則第82条",
+  "cloze_topic": "区分建物（表題登記・専有部分・一括申請）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第47条・第48条、区分所有法第1条・第2条",
+  "mode": "正しい"
+ },
+ {
+  "day": 80,
+  "id": "AM-080",
+  "takuitsu": "区分建物（表題登記・専有部分・一括申請）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "kubun-tatemono",
+   "kubun-tatemono-hyouji",
+   "senyuken"
+  ],
+  "articles_hint": "法第47条・第48条、区分所有法第1条・第2条",
+  "cloze_topic": "共用部分・共用部分である旨の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第58条、区分所有法第4条、規則第141条",
+  "mode": "誤り"
+ },
+ {
+  "day": 81,
+  "id": "AM-081",
+  "takuitsu": "共用部分・共用部分である旨の登記",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "kyouyoububun"
+  ],
+  "articles_hint": "法第58条、区分所有法第4条、規則第141条",
+  "cloze_topic": "民法：相隣関係・所有権の取得",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第209条〜第248条",
+  "mode": "正しい"
+ },
+ {
+  "day": 82,
+  "id": "AM-082",
+  "takuitsu": "民法：相隣関係・所有権の取得",
+  "field": "民法",
+  "style": "条文",
+  "past_topics": [
+   "souringkankei"
+  ],
+  "articles_hint": "民法第209条〜第248条",
+  "cloze_topic": "敷地権（要件・割合・敷地権である旨の登記）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第44条第1項第9号・第46条、区分所有法第22条、規則第118条〜第123条",
+  "mode": "誤り"
+ },
+ {
+  "day": 83,
+  "id": "AM-083",
+  "takuitsu": "敷地権（要件・割合・敷地権である旨の登記）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "shikichiken"
+  ],
+  "articles_hint": "法第44条第1項第9号・第46条、区分所有法第22条、規則第118条〜第123条",
+  "cloze_topic": "登記識別情報（通知・提供・失効）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第21条・第22条、令第8条、規則第61条〜第68条",
+  "mode": "正しい"
+ },
+ {
+  "day": 84,
+  "id": "AM-084",
+  "takuitsu": "登記識別情報（通知・提供・失効）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "touki-shikibetsu-jouhou",
+   "toukishikibetsujouhou",
+   "touki-shikibetsu-joho"
+  ],
+  "articles_hint": "法第21条・第22条、令第8条、規則第61条〜第68条",
+  "cloze_topic": "調査士法：調査士法人",
+  "cloze_field": "調査士法",
+  "cloze_hint": "調査士法第26条〜第41条",
+  "mode": "誤り"
+ },
+ {
+  "day": 85,
+  "id": "AM-085",
+  "takuitsu": "調査士法：調査士法人",
+  "field": "調査士法",
+  "style": "事例",
+  "past_topics": [
+   "chousashi-houjin"
+  ],
+  "articles_hint": "調査士法第26条〜第41条",
+  "cloze_topic": "地積測量図・建物図面・各階平面図",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第73条〜第83条、準則第50条〜第55条",
+  "mode": "正しい"
+ },
+ {
+  "day": 86,
+  "id": "AM-086",
+  "takuitsu": "地積測量図・建物図面・各階平面図",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "tatemonozumen",
+   "tatemono-zumen",
+   "chisekisokuryouzu",
+   "zumen-sakusei"
+  ],
+  "articles_hint": "規則第73条〜第83条、準則第50条〜第55条",
+  "cloze_topic": "建物の所在・家屋番号",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第112条、準則第79条・第88条",
+  "mode": "誤り"
+ },
+ {
+  "day": 87,
+  "id": "AM-087",
+  "takuitsu": "建物の所在・家屋番号",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "tatemono-shozai"
+  ],
+  "articles_hint": "規則第112条、準則第79条・第88条",
+  "cloze_topic": "筆界特定（申請・手続・効果）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第123条〜第150条、規則第206条〜",
+  "mode": "正しい"
+ },
+ {
+  "day": 88,
+  "id": "AM-088",
+  "takuitsu": "筆界特定（申請・手続・効果）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "hikkai-tokutei",
+   "hikkaitokutei"
+  ],
+  "articles_hint": "法第123条〜第150条、規則第206条〜",
+  "cloze_topic": "民法：物権変動と対抗要件",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第176条・第177条",
+  "mode": "誤り"
+ },
+ {
+  "day": 89,
+  "id": "AM-089",
+  "takuitsu": "民法：物権変動と対抗要件",
+  "field": "民法",
+  "style": "事例",
+  "past_topics": [
+   "taikouyouken",
+   "bukken-hendou"
+  ],
+  "articles_hint": "民法第176条・第177条",
+  "cloze_topic": "地目の認定・地目変更の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "mode": "正しい"
+ },
+ {
+  "day": 90,
+  "id": "AM-090",
+  "takuitsu": "地目の認定・地目変更の登記",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "chimoku",
+   "chimoku-nintei",
+   "chimoku-henkou"
+  ],
+  "articles_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "cloze_topic": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "mode": "誤り"
+ },
+ {
+  "day": 91,
+  "id": "AM-091",
+  "takuitsu": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "bunpitsu",
+   "bunpitsu-touki",
+   "tochi-bunpitsu"
+  ],
+  "articles_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "cloze_topic": "地図・地図に準ずる図面・地図訂正",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "mode": "正しい"
+ },
+ {
+  "day": 92,
+  "id": "AM-092",
+  "takuitsu": "地図・地図に準ずる図面・地図訂正",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "chizu-teisei",
+   "chizu",
+   "chiban"
+  ],
+  "articles_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "cloze_topic": "建物の認定・種類・個数",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "mode": "誤り"
+ },
+ {
+  "day": 93,
+  "id": "AM-093",
+  "takuitsu": "建物の認定・種類・個数",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "tatemono-nintei",
+   "tatemono-kosuu",
+   "tatemono-shurui"
+  ],
+  "articles_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "cloze_topic": "建物の合併・分割",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第54条・第56条、規則第128条〜第134条",
+  "mode": "正しい"
+ },
+ {
+  "day": 94,
+  "id": "AM-094",
+  "takuitsu": "建物の合併・分割",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "tatemono-gappei",
+   "tatemono-bunkatsu",
+   "tatemono-bunkatsu-gappei"
+  ],
+  "articles_hint": "法第54条・第56条、規則第128条〜第134条",
+  "cloze_topic": "表題部所有者（変更・更正・所有権証明）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第27条第3号・第31条〜第33条、準則第87条",
+  "mode": "誤り"
+ },
+ {
+  "day": 95,
+  "id": "AM-095",
+  "takuitsu": "表題部所有者（変更・更正・所有権証明）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "hyoudaibu-shoyuusha",
+   "shutoku-jikou"
+  ],
+  "articles_hint": "法第27条第3号・第31条〜第33条、準則第87条",
+  "cloze_topic": "民法：共有",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第249条〜第264条",
+  "mode": "正しい"
+ },
+ {
+  "day": 96,
+  "id": "AM-096",
+  "takuitsu": "民法：共有",
+  "field": "民法",
+  "style": "条文",
+  "past_topics": [
+   "kyouyuu"
+  ],
+  "articles_hint": "民法第249条〜第264条",
+  "cloze_topic": "建物の滅失の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第57条、準則第102条",
+  "mode": "誤り"
+ },
+ {
+  "day": 97,
+  "id": "AM-097",
+  "takuitsu": "建物の滅失の登記",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "tatemono-messitsu",
+   "tatemono-messhitsu"
+  ],
+  "articles_hint": "法第57条、準則第102条",
+  "cloze_topic": "地積の更正・地積に関する変更の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第37条・第38条、規則第10条第4項、準則第72条",
+  "mode": "正しい"
+ },
+ {
+  "day": 98,
+  "id": "AM-098",
+  "takuitsu": "地積の更正・地積に関する変更の登記",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "chiseki-kousei"
+  ],
+  "articles_hint": "法第37条・第38条、規則第10条第4項、準則第72条",
+  "cloze_topic": "申請情報・添付情報",
+  "cloze_field": "不登法",
+  "cloze_hint": "令第3条・第7条・別表、規則第34条〜第37条",
+  "mode": "誤り"
+ },
+ {
+  "day": 99,
+  "id": "AM-099",
+  "takuitsu": "申請情報・添付情報",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "tenpu-jouhou",
+   "tatemono-tenpu",
+   "shinsei-jouhou"
+  ],
+  "articles_hint": "令第3条・第7条・別表、規則第34条〜第37条",
+  "cloze_topic": "建物の表題登記・表題部の変更の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第47条・第51条・第53条",
+  "mode": "正しい"
+ },
+ {
+  "day": 100,
+  "id": "AM-100",
+  "takuitsu": "建物の表題登記・表題部の変更の登記",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "tatemono-hyoudai-touki",
+   "tatemono-hyoudai",
+   "tatemono-hyoudaibu-henkou",
+   "tatemono-hyoudaibu"
+  ],
+  "articles_hint": "法第47条・第51条・第53条",
+  "cloze_topic": "登録免許税（表示の登記）",
+  "cloze_field": "不登法",
+  "cloze_hint": "登録免許税法別表第一の一（十三）・第5条",
+  "mode": "誤り"
+ },
+ {
+  "day": 101,
+  "id": "AM-101",
+  "takuitsu": "登録免許税（表示の登記）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "touroku-menkyozei"
+  ],
+  "articles_hint": "登録免許税法別表第一の一（十三）・第5条",
+  "cloze_topic": "登記記録・保存期間・登記事項証明書",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第119条〜第121条、規則第28条",
+  "mode": "正しい"
+ },
+ {
+  "day": 102,
+  "id": "AM-102",
+  "takuitsu": "登記記録・保存期間・登記事項証明書",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "hozon-kikan",
+   "hozonkikan",
+   "toukijikou-shoumei"
+  ],
+  "articles_hint": "法第119条〜第121条、規則第28条",
+  "cloze_topic": "民法：意思表示・無効と取消し・行為能力",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第3条〜第21条・第93条〜第126条",
+  "mode": "誤り"
+ },
+ {
+  "day": 103,
+  "id": "AM-103",
+  "takuitsu": "民法：意思表示・無効と取消し・行為能力",
+  "field": "民法",
+  "style": "事例",
+  "past_topics": [
+   "ishihyouji",
+   "ishi-hyouji",
+   "mukou-torikeshi",
+   "koui-nouryoku"
+  ],
+  "articles_hint": "民法第3条〜第21条・第93条〜第126条",
+  "cloze_topic": "申請の手続（電子申請・代理・原本還付・取下げ・却下）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第17条・第18条・第25条、規則第39条・第55条",
+  "mode": "正しい"
+ },
+ {
+  "day": 104,
+  "id": "AM-104",
+  "takuitsu": "申請の手続（電子申請・代理・原本還付・取下げ・却下）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "denshi-shinsei",
+   "dairi",
+   "genpon-kanpu",
+   "kyakka-torisage",
+   "kyakka",
+   "kankatsu"
+  ],
+  "articles_hint": "法第17条・第18条・第25条、規則第39条・第55条",
+  "cloze_topic": "代位による申請・相続人による申請",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第30条・第33条、民法第423条",
+  "mode": "誤り"
+ },
+ {
+  "day": 105,
+  "id": "AM-105",
+  "takuitsu": "代位による申請・相続人による申請",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "daii-shinsei",
+   "touki-shinseinin"
+  ],
+  "articles_hint": "法第30条・第33条、民法第423条",
+  "cloze_topic": "調査士法：調査士会・連合会・公共嘱託登記",
+  "cloze_field": "調査士法",
+  "cloze_hint": "調査士法第47条〜第68条",
+  "mode": "正しい"
+ },
+ {
+  "day": 106,
+  "id": "AM-106",
+  "takuitsu": "調査士法：調査士会・連合会・公共嘱託登記",
+  "field": "調査士法",
+  "style": "条文",
+  "past_topics": [
+   "chousashihou"
+  ],
+  "articles_hint": "調査士法第47条〜第68条",
+  "cloze_topic": "本人確認・事前通知・資格者代理人",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第23条・第24条、規則第70条〜第72条",
+  "mode": "誤り"
+ },
+ {
+  "day": 107,
+  "id": "AM-107",
+  "takuitsu": "本人確認・事前通知・資格者代理人",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "honnin-kakunin"
+  ],
+  "articles_hint": "法第23条・第24条、規則第70条〜第72条",
+  "cloze_topic": "附属建物",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第2条第23号、準則第78条、規則第112条",
+  "mode": "正しい"
+ },
+ {
+  "day": 108,
+  "id": "AM-108",
+  "takuitsu": "附属建物",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "fuzoku-tatemono"
+  ],
+  "articles_hint": "法第2条第23号、準則第78条、規則第112条",
+  "cloze_topic": "建物の合体による登記等",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第49条・第50条、令別表十三、規則第120条",
+  "mode": "誤り"
+ },
+ {
+  "day": 109,
+  "id": "AM-109",
+  "takuitsu": "建物の合体による登記等",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "gattai-touki",
+   "gattai"
+  ],
+  "articles_hint": "法第49条・第50条、令別表十三、規則第120条",
+  "cloze_topic": "民法：相続（法定相続・代襲・遺産分割・遺言）",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第882条〜第1044条",
+  "mode": "正しい"
+ },
+ {
+  "day": 110,
+  "id": "AM-110",
+  "takuitsu": "民法：相続（法定相続・代襲・遺産分割・遺言）",
+  "field": "民法",
+  "style": "条文",
+  "past_topics": [
+   "souzoku",
+   "houtei-souzoku",
+   "daishuu-souzoku",
+   "isanbunkatsu",
+   "igon"
+  ],
+  "articles_hint": "民法第882条〜第1044条",
+  "cloze_topic": "合筆の登記（制限・申請人）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第39条・第41条、規則第105条・第106条",
+  "mode": "誤り"
+ },
+ {
+  "day": 111,
+  "id": "AM-111",
+  "takuitsu": "合筆の登記（制限・申請人）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "gappitsu",
+   "tochi-gappitsu"
+  ],
+  "articles_hint": "法第39条・第41条、規則第105条・第106条",
+  "cloze_topic": "床面積（算入・不算入・区分建物の内法）",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第115条、準則第82条",
+  "mode": "正しい"
+ },
+ {
+  "day": 112,
+  "id": "AM-112",
+  "takuitsu": "床面積（算入・不算入・区分建物の内法）",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "yukamenseki"
+  ],
+  "articles_hint": "規則第115条、準則第82条",
+  "cloze_topic": "区分建物（表題登記・専有部分・一括申請）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第47条・第48条、区分所有法第1条・第2条",
+  "mode": "誤り"
+ },
+ {
+  "day": 113,
+  "id": "AM-113",
+  "takuitsu": "区分建物（表題登記・専有部分・一括申請）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "kubun-tatemono",
+   "kubun-tatemono-hyouji",
+   "senyuken"
+  ],
+  "articles_hint": "法第47条・第48条、区分所有法第1条・第2条",
+  "cloze_topic": "筆界特定（申請・手続・効果）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第123条〜第150条、規則第206条〜",
+  "mode": "正しい"
+ },
+ {
+  "day": 114,
+  "id": "AM-114",
+  "takuitsu": "筆界特定（申請・手続・効果）",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "hikkai-tokutei",
+   "hikkaitokutei"
+  ],
+  "articles_hint": "法第123条〜第150条、規則第206条〜",
+  "cloze_topic": "地目の認定・地目変更の登記",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "mode": "誤り"
+ },
+ {
+  "day": 115,
+  "id": "AM-115",
+  "takuitsu": "地目の認定・地目変更の登記",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "chimoku",
+   "chimoku-nintei",
+   "chimoku-henkou"
+  ],
+  "articles_hint": "法第37条、規則第99条、準則第68条・第69条",
+  "cloze_topic": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "mode": "正しい"
+ },
+ {
+  "day": 116,
+  "id": "AM-116",
+  "takuitsu": "分筆の登記（申請人・地積測量図・権利の登記の移記）",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "bunpitsu",
+   "bunpitsu-touki",
+   "tochi-bunpitsu"
+  ],
+  "articles_hint": "法第39条・第40条、規則第78条・第101条〜第105条、準則第67条・第72条",
+  "cloze_topic": "民法：意思表示・無効と取消し・行為能力",
+  "cloze_field": "民法",
+  "cloze_hint": "民法第3条〜第21条・第93条〜第126条",
+  "mode": "誤り"
+ },
+ {
+  "day": 117,
+  "id": "AM-117",
+  "takuitsu": "民法：意思表示・無効と取消し・行為能力",
+  "field": "民法",
+  "style": "事例",
+  "past_topics": [
+   "ishihyouji",
+   "ishi-hyouji",
+   "mukou-torikeshi",
+   "koui-nouryoku"
+  ],
+  "articles_hint": "民法第3条〜第21条・第93条〜第126条",
+  "cloze_topic": "地図・地図に準ずる図面・地図訂正",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "mode": "正しい"
+ },
+ {
+  "day": 118,
+  "id": "AM-118",
+  "takuitsu": "地図・地図に準ずる図面・地図訂正",
+  "field": "不登法",
+  "style": "事例",
+  "past_topics": [
+   "chizu-teisei",
+   "chizu",
+   "chiban"
+  ],
+  "articles_hint": "法第14条、規則第10条〜第16条、準則第12条〜第17条",
+  "cloze_topic": "建物の認定・種類・個数",
+  "cloze_field": "不登法",
+  "cloze_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "mode": "誤り"
+ },
+ {
+  "day": 119,
+  "id": "AM-119",
+  "takuitsu": "建物の認定・種類・個数",
+  "field": "不登法",
+  "style": "規則準則",
+  "past_topics": [
+   "tatemono-nintei",
+   "tatemono-kosuu",
+   "tatemono-shurui"
+  ],
+  "articles_hint": "規則第111条〜第114条、準則第77条〜第81条",
+  "cloze_topic": "建物の合併・分割",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第54条・第56条、規則第128条〜第134条",
+  "mode": "正しい"
+ },
+ {
+  "day": 120,
+  "id": "AM-120",
+  "takuitsu": "建物の合併・分割",
+  "field": "不登法",
+  "style": "条文",
+  "past_topics": [
+   "tatemono-gappei",
+   "tatemono-bunkatsu",
+   "tatemono-bunkatsu-gappei"
+  ],
+  "articles_hint": "法第54条・第56条、規則第128条〜第134条",
+  "cloze_topic": "筆界特定（申請・手続・効果）",
+  "cloze_field": "不登法",
+  "cloze_hint": "法第123条〜第150条、規則第206条〜",
+  "mode": "誤り"
+ }
+]

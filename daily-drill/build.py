@@ -209,7 +209,6 @@ def am_a(p):
     txt = article(full['law'], full['article']) or ''
     txt = '\n'.join(ln for ln in txt.split('\n') if not ln.startswith('#')).strip()
     body += f'<h2>原文（音読用）　<span class="src">{E(full["law"])}{E(_art(full["article"]))}</span></h2><div class="full">{E(txt)}</div>'
-    body += log_box(p, 'morning')
     return page(f'{daylab(p["day"])} 朝 解答', body, f'{p["id"]} 解答', flow=True)
 
 

@@ -1,6 +1,6 @@
 """土曜の20問模擬を A4 の HTML にする。
   out/satNN.html      問題（20問・解答用紙つき。本番どおり 1問あたり約3分、20問で60分）
-  out/satNN-ans.html  正解一覧・各肢の正誤と解説・根拠条文（原文の引用）・記録の欄
+  out/satNN-ans.html  正解一覧・各肢の正誤と解説・根拠条文（原文の引用）
 使い方: python3 daily-drill/saturday/build_sat.py [SAT01]"""
 import glob
 import json
@@ -41,7 +41,7 @@ def build(sid):
     open(os.path.join(B.OUT, f'{sid.lower()}.html'), 'w', encoding='utf-8').write(B.page(f'土曜模擬 {sid}', body, f'{sid} 問題', flow=True, right='オリジナル問題（過去問の転載ではない）'))
     a = B.head(f'{sid[3:]}回（土曜）', '解答・解説', '正解の一覧、各肢の正誤と解説、根拠条文の原文', 60)
     a += '<h2>正解の一覧</h2><table class="pt"><tr>' + ''.join(f'<th>第{q["no"]}問</th>' for q in qs[:10]) + '</tr><tr>' + ''.join(f'<td style="text-align:center">{CIRC[answer_no(q) - 1]}</td>' for q in qs[:10]) + '</tr><tr>' + ''.join(f'<th>第{q["no"]}問</th>' for q in qs[10:]) + '</tr><tr>' + ''.join(f'<td style="text-align:center">{CIRC[answer_no(q) - 1]}</td>' for q in qs[10:]) + '</tr></table>'
-    a += '<p class="src">採点：20問中14問（7割）以上を目標に。間違えた問は、肢の型（下の M1〜）で記録する：<code>python3 daily-drill/kiroku.py add ' + sid + '-Q05 × M3</code></p>'
+    a += '<p class="src">採点：20問中14問（7割）以上を目標に。</p>'
     for q in qs:
         n = answer_no(q)
         a += f'<div class="q" style="margin-top:3mm"><b>第{q["no"]}問　正解 {CIRC[n - 1]}（{"・".join(answer_set(q))}）</b>　{E(q["theme"])}（{E(q["field"])}。{E(q["mode"])}ものを選ぶ）</div>'
