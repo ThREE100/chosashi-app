@@ -285,7 +285,7 @@ def am_a(p):
     ans = [s['label'] for s in p['statements'] if s['truth'] == want]
     idx = [i for i, c in enumerate(p['choices']) if set(c) == set(ans)][0]
     body = head(p['day'], '朝：解答', f'択一：{p["theme"]}　／　空欄補充：{p["write"]["theme"]}', 10)
-    body += f'<div class="ans">正解：<b>{CIRC[idx]}</b>（{"・".join(ans)}）　※問題は「{p["mode"]}もの」を選ぶ</div>'
+    body += f'<div class="ans">正解：<b>{CIRC[idx]}</b>（{"・".join(ans)}）　※問題は「{'正しいもの' if p['mode'] == '正しい' else '誤っているもの'}」を選ぶ</div>'
     for s in p['statements']:
         mark = '<span class="ok">○ 正しい</span>' if s['truth'] else '<span class="ng">× 誤り</span>'
         body += f'<div class="q"><b>{s["label"]}</b>　{mark}　{E(s["note"])}</div>'

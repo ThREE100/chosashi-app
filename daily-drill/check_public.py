@@ -6,7 +6,7 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BAN = re.compile(r'note-articles|laws/|照合済み|原文で照合|独立照合|\.md\b|\.py\b|\.json\b|daily-drill|registry|kiroku|check_|独立に解|機械で作図|過去問の解説|エージェント|AI|スクリプト')
+BAN = re.compile(r'誤りもの|note-articles|laws/|照合済み|原文で照合|独立照合|\.md\b|\.py\b|\.json\b|daily-drill|registry|kiroku|check_|独立に解|機械で作図|過去問の解説|エージェント|AI|スクリプト')
 ng = 0
 for fp in sorted(glob.glob(os.path.join(HERE, 'out', '*.html'))):
     t = re.sub(r'<style>.*?</style>', '', open(fp, encoding='utf-8').read(), flags=re.S)

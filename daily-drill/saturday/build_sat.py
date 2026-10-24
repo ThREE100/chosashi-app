@@ -44,7 +44,7 @@ def build(sid):
     a += '<p class="src">採点：20問中14問（7割）以上を目標に。</p>'
     for q in qs:
         n = answer_no(q)
-        a += f'<div class="q" style="margin-top:3mm"><b>第{q["no"]}問　正解 {CIRC[n - 1]}（{"・".join(answer_set(q))}）</b>　{E(q["theme"])}（{E(q["field"])}。{E(q["mode"])}ものを選ぶ）</div>'
+        a += f'<div class="q" style="margin-top:3mm"><b>第{q["no"]}問　正解 {CIRC[n - 1]}（{"・".join(answer_set(q))}）</b>　{E(q["theme"])}（{E(q["field"])}。{'正しいもの' if q["mode"] == '正しい' else '誤っているもの'}を選ぶ）</div>'
         for x in q['statements']:
             mark = '<span class="ok">○ 正しい</span>' if x['truth'] else '<span class="ng">× 誤り</span>'
             tr = f'　<span class="src">［{E(x["trap"])} {E(TRAPS.get(x["trap"], ""))}］</span>' if x.get('trap') else ''
