@@ -369,8 +369,6 @@ def calc2_a(p):
     if p.get('basis'):
         body += '<h2>根拠条文</h2>' + ''.join(quote_block(x) for x in p['basis'])
     body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
-    body += '<h2>できたか</h2><ul class="chk"><li>□ 式が立てられた</li><li>□ 電卓で打てた</li><li>□ 検算した</li><li>□ 制限時間内に終わった</li></ul>'
-    body += log_box(p, 'evening')
     sheet1 = body
     body2 = head(p['day'], '夜：解答（電卓操作）', 'キヤノン F-789SG・複素数モード（[MODE] [2]）。Z ＝ X ＋ Yi（X＝北、Y＝東）。負の数は「0 − 数」で入れる', 15)
     for g in p['keys']:
@@ -410,7 +408,6 @@ def draw_a(p):
     body += '<h2>自己採点（できた項目に○。作図は定規で長さを測って確かめる）</h2><table class="pt">' + ''.join(f'<tr><td style="width:7mm">□</td><td>{E(t)}</td><td class="src" style="width:46mm">{E(b_)}</td></tr>' for t, b_ in p['rubric']) + '</table>'
     body += '<h2>解き方</h2><ul style="margin:0;padding-left:5mm">' + ''.join(f'<li>{E(s)}</li>' for s in p['steps']) + '</ul>'
     body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
-    body += log_box(p, 'evening')
     sheets = [body]
     if p['draw'] == 'chiseki':
         sheets.append(head(p['day'], '夜：解答（模範の作図）', '地積測量図（実寸・縮尺250分の1。座標から機械で作図）', p.get('minutes', 20)) + f'<div class="drawwrap">{draw_forms.chiseki_solved(p["spec"])}</div>')
@@ -468,7 +465,6 @@ def pm_a(p):
             body += f'<div class="q">{E(it["label"])}</div>'
             body += ''.join(quote_block(x) for x in it['basis'])
             body += f'<p class="src">{E(it["note"])}</p>'
-        body += log_box(p, 'evening')
         return page(f'{daylab(p["day"])} 夜 解答', body, f'{p["id"]} 解答', flow=True)
     body = head(p['day'], '夜：解答', p['title'], 15)
     if p['kind'] == 'calc':
@@ -481,14 +477,12 @@ def pm_a(p):
         body += f'<h2>つまずきポイント</h2><p>{E(p["trap"])}</p>'
         for b in p.get('basis', []):
             body += quote_block(b)
-        body += '<h2>できたか</h2><ul class="chk"><li>□ 式が立てられた</li><li>□ 電卓で打てた</li><li>□ 検算した</li><li>□ 制限時間内に終わった</li></ul>'
     else:
         for f in p['fields']:
             body += f'<div class="q">{E(f["q"])}</div><div class="ans">{E(f["answer"])}</div>'
             body += ''.join(quote_block(b) for b in f['basis'])
             if f['note']:
                 body += f'<p class="src">{E(f["note"])}</p>'
-    body += log_box(p, 'evening')
     return page(f'{daylab(p["day"])} 夜 解答', body, f'{p["id"]} 解答', flow=True)
 
 
