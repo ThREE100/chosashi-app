@@ -34,7 +34,7 @@ SPEC = {
  'outputs': [
   {'kind': 'xy', 'pt': 'P'}, {'kind': 'xy', 'pt': 'Q'}, {'kind': 'xy', 'pt': 'R'},
   {'kind': 'area', 'id': 'S0', 'label': '本件土地の地積', 'poly': ['P', 'Q', 'R', 'S'], 'mode': 'floor2', 'fig_label': '112番'},
-  {'kind': 'num', 'id': 'diff', 'label': '登記記録の地積との差（㎡）', 'expr': 'abs({S0} - 533.00)'},
+  {'kind': 'num', 'id': 'diff', 'label': '登記記録の地積との差（絶対値・㎡）', 'expr': 'abs({S0} - 533.00)'},
   {'kind': 'num', 'id': 'otsu1', 'label': '誤差の限度（精度区分 乙1・㎡）',
    'expr': '((0.10 + 0.04 * 533.00 ** 0.25) * 533.00 ** 0.5 * 100 - ((0.10 + 0.04 * 533.00 ** 0.25) * 533.00 ** 0.5 * 100) % 1) / 100'},
   {'kind': 'text', 'id': 'need', 'label': '地積に関する更正の登記（必要／不要）', 'when': '{diff} > {otsu1}', 'value_true': '必要', 'value_false': '不要'},

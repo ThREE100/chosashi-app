@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第92日 夜 問題</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet"><div class="hd"><h1>第92日　夜：記述式ドリル（問題）</h1><span class="meta">日付：　　月　　日　／　目安 15分　／　時間：　　分</span></div><p class="theme">建物の角から筆界までの垂線の距離と、建物の所在の判断</p><h2>解答欄（小数第2位まで。ここに先に書く）</h2><table class="ans-box"><tr><th>点F</th><td>X ＝ <span class="box" style="min-width:34mm"></span>　　Y ＝ <span class="box" style="min-width:34mm"></span></td></tr><tr><th>北東の角P3から筆界までの距離（P3F）</th><td><span class="box" style="min-width:34mm"></span> m</td></tr><tr><th>点G</th><td>X ＝ <span class="box" style="min-width:34mm"></span>　　Y ＝ <span class="box" style="min-width:34mm"></span></td></tr><tr><th>南西の角P1から点Gまでの距離（P1G）</th><td><span class="box" style="min-width:34mm"></span> m</td></tr><tr><th>建物の所在（地番）</th><td><span class="box" style="min-width:70mm"></span></td></tr></table><div class="q2"><p>土地家屋調査士の加藤由美は、A市F町四丁目10番の土地の上に新築された倉庫（鉄骨造スレートぶき平家建。長方形）の建物表題登記の依頼を受け、令和8年10月23日に現地で測量を行った。【条件】、【聞き取り結果】、【注】及び次のページの図・表に基づき、解答欄の点F・点Gの座標、2つの距離、建物の所在（地番）を答えなさい。</p><h2>【条件】</h2><ol><li>10番（西側）と11番（東側）の筆界は、11番の地積測量図（令和2年作成）に記載された点K1・K2を結ぶ直線である。この筆界は南北の向きに対して少し傾いている。</li><li>建物の外壁の外面の角P1（南西）・P2（南東）・P3（北東）・P4（北西）の座標は、次のページの表のとおりである。外壁は東西・南北の向きに平行である。</li><li>点Fは、北東の角P3から筆界（直線K1K2）に下ろした垂線の足である。</li><li>点Gは、南の外壁の線（直線P1P2）と筆界（直線K1K2）の交点である。</li></ol><h2>【聞き取り結果】</h2><ol><li>建物の所有者の話：「倉庫は全部うちの10番の上に建てた。東側のブロック塀からも離して建てたので、11番にははみ出していない。」</li><li>11番の所有者の話：「東側のブロック塀は、うちが筆界から少し内側（11番の中）に造ったもので、筆界の位置を示すものではない。」</li></ol><h2>【注】</h2><ol><li>座標は平面直角座標系のものであり、Xが北、Yが東、単位はメートルである。点の座標値は、計算の結果を小数第3位で四捨五入して小数第2位まで求め、後の計算には丸めた値を使う。</li><li>距離は、丸めた座標値から求め、小数第3位で四捨五入して小数第2位まで求める。</li><li>建物の所在は、外壁の外面で囲まれた範囲がどの土地の上にあるかで判断する。2筆にまたがるときは、床面積の多い部分の地番を先に書き、他の地番を後に書く（準則第88条第2項。例「○番地、○番地」）。</li></ol><p style="color:var(--mute)">図・座標値・観測値の表は、次のページにある。</p></div><div class="foot"><span>PM-92　1/2</span><span></span></div></div><div class="sheet"><div class="hd"><h1>第92日　夜：記述式ドリル（図・測量成果）</h1><span class="meta">日付：　　月　　日　／　目安 15分　／　時間：　　分</span></div><p class="theme">建物の角から筆界までの垂線の距離と、建物の所在の判断</p><h2>図（座標値にもとづく。黒丸＝与えられた点、赤い白抜き＝求める点）</h2><div class="figrow"><svg class="fig" viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, Meiryo, sans-serif"><rect x="2" y="2" width="996" height="646" fill="#fff" stroke="#cfd8d4" stroke-width="3" rx="14"/><polygon points="283.8,457.5 499.0,457.5 499.0,285.3 283.8,285.3" fill="#fdf3e3" stroke="#1d2b27" stroke-width="4" stroke-linejoin="round"/><line x1="483.7" y1="516.1" x2="551.3" y2="70.0" stroke="#1d2b27" stroke-width="3.5" stroke-linecap="round"/><line x1="504.9" y1="511.9" x2="504.9" y2="400.7" stroke="#c9d2ce" stroke-width="2" stroke-dasharray="14 9" stroke-linecap="round"/><text x="391.4" y="381.4" font-size="34" fill="#7a8782" font-weight="700" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">倉庫</text><text x="364.2" y="184.0" font-size="30" fill="#7a8782" font-weight="500" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">10番</text><text x="636.2" y="184.0" font-size="30" fill="#7a8782" font-weight="500" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">11番</text><text x="567.6" y="553.0" font-size="30" fill="#7a8782" font-weight="500" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">ブロック塀</text><circle cx="483.7" cy="516.1" r="9" fill="#1d2b27"/><text x="497.7" y="502.1" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">K1</text><circle cx="551.3" cy="70.0" r="9" fill="#1d2b27"/><text x="565.3" y="56.0" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">K2</text><circle cx="283.8" cy="457.5" r="9" fill="#1d2b27"/><text x="297.8" y="443.5" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">P1</text><circle cx="499.0" cy="457.5" r="9" fill="#1d2b27"/><text x="447.0" y="491.5" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="end" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">P2</text><circle cx="499.0" cy="285.3" r="9" fill="#1d2b27"/><text x="447.0" y="271.3" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="end" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">P3</text><circle cx="283.8" cy="285.3" r="9" fill="#1d2b27"/><text x="297.8" y="271.3" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">P4</text><circle cx="518.2" cy="288.1" r="11" fill="#fff" stroke="#c8461a" stroke-width="5"/><text x="536.2" y="284.1" font-size="34" fill="#c8461a" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">F</text><circle cx="492.6" cy="457.5" r="11" fill="#fff" stroke="#c8461a" stroke-width="5"/><text x="510.6" y="477.5" font-size="34" fill="#c8461a" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">G</text><g><line x1="930" y1="170" x2="930" y2="110" stroke="#1d2b27" stroke-width="4"/><polygon points="930,96 919,124 941,124" fill="#1d2b27"/><text x="930" y="86" font-size="32" font-weight="700" text-anchor="middle" fill="#1d2b27" stroke="#fff" stroke-width="6" paint-order="stroke">北</text></g></svg></div><h2>測量成果・地積測量図等の記載</h2><div class="tg" style="grid-template-columns:repeat(2,1fr)"><div><table><caption>11番の地積測量図（令和2年作成）に記載された座標値</caption><tr><th>点</th><th>X（北）</th><th>Y（東）</th><th>備考</th></tr><tr><td>K1</td><td>481.62</td><td>336.05</td><td>10番と11番の筆界上</td></tr><tr><td>K2</td><td>500.48</td><td>338.91</td><td>10番と11番の筆界上</td></tr></table></div><div><table><caption>建物の外壁の外面の角の座標値（令和8年10月23日測量）</caption><tr><th>点</th><th>X（北）</th><th>Y（東）</th><th>備考</th></tr><tr><td>P1</td><td>484.10</td><td>327.60</td><td>南西の角</td></tr><tr><td>P2</td><td>484.10</td><td>336.70</td><td>南東の角</td></tr><tr><td>P3</td><td>491.38</td><td>336.70</td><td>北東の角</td></tr><tr><td>P4</td><td>491.38</td><td>327.60</td><td>北西の角</td></tr></table></div></div><div class="foot"><span>PM-92　2/2</span><span></span></div></div></body></html>

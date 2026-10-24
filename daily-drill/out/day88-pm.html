@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第88日 夜 問題</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet"><div class="hd"><h1>第88日　夜：記述式ドリル（問題）</h1><span class="meta">日付：　　月　　日　／　目安 15分　／　時間：　　分</span></div><p class="theme">建物図面の距離：筆界から外壁の外面まで（塀・フェンスと筆界の関係を確かめる）</p><h2>解答欄（小数第2位まで。ここに先に書く）</h2><table class="ans-box"><tr><th>西の筆界から南西の角の外壁まで</th><td><span class="box" style="min-width:34mm"></span> m</td></tr><tr><th>南の筆界から南西の角の外壁まで</th><td><span class="box" style="min-width:34mm"></span> m</td></tr><tr><th>東の筆界から南東の角の外壁まで</th><td><span class="box" style="min-width:34mm"></span> m</td></tr><tr><th>北の筆界から北西の角の外壁まで</th><td><span class="box" style="min-width:34mm"></span> m</td></tr></table><div class="q2"><p>土地家屋調査士の中村真理は、A市D町一丁目8番の土地（以下「本件土地」という。宅地）の上に新築された居宅（木造かわらぶき平家建。1階は長方形）の建物表題登記の依頼を受け、令和8年10月21日に現地で調査を行った。【条件】、【聞き取り結果】、【注】及び次のページの図・表に基づき、建物図面に記録する、筆界から建物の1階の外壁までの距離（解答欄の4つ）を答えなさい。</p><h2>【条件】</h2><ol><li>本件土地は、次のページの表の点S1・S2・S3・S4を順に結んだ長方形で、四隅には境界標がある。建物の外壁は本件土地の辺と平行である。</li><li>建物の1階は、壁の中心線で東西9.10m・南北7.28mの長方形である。外壁の厚さは0.16mである。</li><li>西側には高さ1.2mのブロック塀（厚さ0.12m）がある。建物の南西の角の外壁の外面から、ブロック塀の東面まで、直角に測って1.35mであった。ブロック塀の西面は、北西・南西の角の境界標（S4・S1）を結ぶ直線の上にあることを、境界標の位置で確かめた。</li><li>建物の南西の角の外壁の外面から、南側の筆界（S1・S2を結ぶ直線）まで、直角に測って2.20mであった。</li><li>東側には隣地（9番）の所有者が設けたフェンスがある。建物の南東の角の外壁の外面から、フェンスまで直角に測って2.85mであった。</li></ol><h2>【聞き取り結果】</h2><ol><li>本件土地の所有者の話：「西側のブロック塀は、私が自分の土地の中に造ったものです。塀の西面が隣地との境になるように造りました。」</li><li>東隣（9番）の所有者の話：「東側のフェンスは、境界標から少しうちの土地（9番）の側に入れて立てました。境界標は動かしていません。」</li></ol><h2>【注】</h2><ol><li>座標は平面直角座標系のものであり、Xが北、Yが東、単位はメートルである。</li><li>建物図面に記録する距離は、筆界から建物の1階の外壁の外面までの直角の距離とし、小数第2位まで求める（建物の位置を確かめるときは壁の中心線を使うが、図面に書く距離は外壁の外面まで）。</li><li>求める距離は、【条件】の測定値と座標値だけから求める（図から読み取らない）。</li></ol><p style="color:var(--mute)">図・座標値・観測値の表は、次のページにある。</p></div><div class="foot"><span>PM-88　1/2</span><span></span></div></div><div class="sheet"><div class="hd"><h1>第88日　夜：記述式ドリル（図・測量成果）</h1><span class="meta">日付：　　月　　日　／　目安 15分　／　時間：　　分</span></div><p class="theme">建物図面の距離：筆界から外壁の外面まで（塀・フェンスと筆界の関係を確かめる）</p><h2>図（座標値にもとづく。黒丸＝与えられた点、赤い白抜き＝求める点）</h2><div class="figrow"><svg class="fig" viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, Meiryo, sans-serif"><rect x="2" y="2" width="996" height="646" fill="#fff" stroke="#cfd8d4" stroke-width="3" rx="14"/><polygon points="264.9,488.5 645.8,488.5 645.8,70.0 264.9,70.0" fill="#e8f4f0" stroke="#1d2b27" stroke-width="4" stroke-linejoin="round"/><polygon points="308.7,424.0 566.0,424.0 566.0,218.2 308.7,218.2" fill="#fdf3e3" stroke="#1d2b27" stroke-width="4" stroke-linejoin="round"/><line x1="266.6" y1="480.0" x2="266.6" y2="78.5" stroke="#c8461a" stroke-width="6" stroke-linecap="round"/><line x1="648.9" y1="480.0" x2="648.9" y2="78.5" stroke="#c9d2ce" stroke-width="2" stroke-dasharray="14 9" stroke-linecap="round"/><text x="455.3" y="289.2" font-size="34" fill="#7a8782" font-weight="700" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round"></text><text x="437.4" y="331.1" font-size="34" fill="#7a8782" font-weight="700" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">居宅</text><text x="454.3" y="148.7" font-size="30" fill="#7a8782" font-weight="500" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">8番</text><text x="163.1" y="292.9" font-size="30" fill="#7a8782" font-weight="500" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">ブロック塀</text><text x="756.9" y="292.9" font-size="30" fill="#7a8782" font-weight="500" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">フェンス・9番</text><text x="454.3" y="553.0" font-size="30" fill="#7a8782" font-weight="500" text-anchor="middle" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">市道</text><circle cx="264.9" cy="488.5" r="9" fill="#1d2b27"/><text x="278.9" y="474.5" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">S1</text><circle cx="645.8" cy="488.5" r="9" fill="#1d2b27"/><text x="659.8" y="474.5" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">S2</text><circle cx="645.8" cy="70.0" r="9" fill="#1d2b27"/><text x="659.8" y="56.0" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">S3</text><circle cx="264.9" cy="70.0" r="9" fill="#1d2b27"/><text x="278.9" y="56.0" font-size="34" fill="#1d2b27" font-weight="700" text-anchor="start" stroke="#fff" stroke-width="7" paint-order="stroke" stroke-linejoin="round">S4</text><g><line x1="930" y1="170" x2="930" y2="110" stroke="#1d2b27" stroke-width="4"/><polygon points="930,96 919,124 941,124" fill="#1d2b27"/><text x="930" y="86" font-size="32" font-weight="700" text-anchor="middle" fill="#1d2b27" stroke="#fff" stroke-width="6" paint-order="stroke">北</text></g></svg></div><h2>測量成果・地積測量図等の記載</h2><div class="tg" style="grid-template-columns:repeat(2,1fr)"><div><table><caption>本件土地（8番）の地積測量図（平成30年作成）に記載された座標値</caption><tr><th>点</th><th>X（北）</th><th>Y（東）</th><th>備考</th></tr><tr><td>S1</td><td>482.30</td><td>351.20</td><td>南西の角</td></tr><tr><td>S2</td><td>482.30</td><td>364.67</td><td>南東の角</td></tr><tr><td>S3</td><td>497.10</td><td>364.67</td><td>北東の角</td></tr><tr><td>S4</td><td>497.10</td><td>351.20</td><td>北西の角</td></tr></table></div></div><div class="foot"><span>PM-88　2/2</span><span></span></div></div></body></html>

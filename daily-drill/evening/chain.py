@@ -482,7 +482,9 @@ def build_problem(spec, day):
 
 def auto_explain(st):
     op, n = st['op'], st['name']
-    return {'radial': f'{n} ＝ {st.get("station")} ＋ 距離∠( arg({st.get("back")} − {st.get("station")}) ＋ 水平角 )（後視から時計回り）',
+    br = st.get('backread', [0, 0, 0])
+    brs = f'（水平角 − 後視の読み {br[0]}°{br[1]:02d}′{br[2]:02d}″）' if br != [0, 0, 0] else '水平角'
+    return {'radial': f'{n} ＝ {st.get("station")} ＋ 距離∠( arg({st.get("back")} − {st.get("station")}) ＋ {brs} )（後視から時計回り）',
             'inter': f'{n} ＝ 直線{st.get("a")}{st.get("b")}と直線{st.get("c")}{st.get("d")}の交点',
             'along': f'{n} ＝ {st.get("frm")} ＋ ({st.get("to")} − {st.get("frm")}) ÷ Abs(…) × {st.get("dist")}',
             'ratio': f'{n} ＝ {st.get("frm")} ＋ ({st.get("to")} − {st.get("frm")}) × {st.get("num")}／{st.get("den")}',
