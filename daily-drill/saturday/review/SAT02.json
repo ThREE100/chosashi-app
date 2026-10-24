@@ -1,0 +1,132 @@
+{
+ "SAT02-Q11": {
+  "hash": "20b588c18f57d32a",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 5,
+  "verdicts": {
+   "ア": false,
+   "イ": false,
+   "ウ": false,
+   "エ": true,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT02-Q12": {
+  "hash": "840f76f5ce46477e",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 2,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": true,
+   "エ": false,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT02-Q13": {
+  "hash": "d371564cadd65dcf",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 4,
+  "verdicts": {
+   "ア": true,
+   "イ": true,
+   "ウ": false,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT02-Q14": {
+  "hash": "085282376ac41d5c",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 1,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": false,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT02-Q15": {
+  "hash": "338df1622a3b127d",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 3,
+  "verdicts": {
+   "ア": false,
+   "イ": true,
+   "ウ": true,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT02-Q16": {
+  "hash": "435a89f6adff4b8c",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 3,
+  "verdicts": {
+   "ア": false,
+   "イ": true,
+   "ウ": true,
+   "エ": false,
+   "オ": true
+  },
+  "issues": ""
+ },
+ "SAT02-Q17": {
+  "hash": "2826cdf50ac84c7e",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 4,
+  "verdicts": {
+   "ア": false,
+   "イ": true,
+   "ウ": false,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT02-Q18": {
+  "hash": "2eeb69b7de98769e",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 1,
+  "verdicts": {
+   "ア": true,
+   "イ": true,
+   "ウ": false,
+   "エ": false,
+   "オ": false
+  },
+  "issues": "イは条文に直接の規定がなく先例による（note-articles/h30-mondai/q19-hikkai-tokutei.md の肢アの解説で、承継後に期日を開き直す必要はないとしている）。法令の原文だけでは確定できない肢として記録する。"
+ },
+ "SAT02-Q19": {
+  "hash": "f39b22d0a69c01fe",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 5,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": true,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ },
+ "SAT02-Q20": {
+  "hash": "7d84ca0c337dad25",
+  "reviewer": "問題文だけ（正誤・解説・根拠なし）を渡した独立のエージェントが解いた結果",
+  "choice": 2,
+  "verdicts": {
+   "ア": true,
+   "イ": false,
+   "ウ": false,
+   "エ": true,
+   "オ": false
+  },
+  "issues": ""
+ }
+}

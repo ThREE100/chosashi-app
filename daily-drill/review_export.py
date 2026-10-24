@@ -10,8 +10,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lawtext import article  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ONLY = set(sys.argv[1:])          # 例：python3 review_export.py AM-009 AM-010（省くと全部）
 for fp in sorted(glob.glob(os.path.join(HERE, 'morning', 'problems', '*.json'))):
     p = json.load(open(fp, encoding='utf-8'))
+    if ONLY and p['id'] not in ONLY:
+        continue
     print(f"=== {p['id']} ===")
     print(p['stem'])
     for s in p['statements']:

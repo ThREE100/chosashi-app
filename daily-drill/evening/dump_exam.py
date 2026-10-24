@@ -9,6 +9,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 def main(pid, answer=False):
     p = json.load(open(os.path.join(HERE, 'problems', pid + '.json'), encoding='utf-8'))
+    dump(p, answer)
+
+
+def dump(p, answer=False):
+    pid = p['id']
+    if p['kind'] == 'draw':
+        return calc(p, answer)          # 作図：条件・表・答えの欄（作図そのものは答案用紙に描く）
     if p['kind'] == 'calc2':
         return calc(p, answer)
     e = p['exam']
