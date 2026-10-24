@@ -1,5 +1,5 @@
 """s04（合体後の建物）の建物図面・各階平面図。2筆（5番・6番）にまたがる敷地、合体後の建物の1階、各階平面図（1階・2階。2階の図に1階を点線）。
-spec：lots [[地番, [(X,Y)…], 地番を書く位置]]・split（筆界の2点）・bld1・bld2・dists・adj・addr・lot（地番欄）・loc（建物の所在）・house・areas（求積の行）。
+spec：lots [[地番, [(X,Y)…], 地番を書く位置]]・split（筆界の2点）・bld1・bld2・dists・adj・addr・lot（地番欄）・loc（建物の所在）・house・areas（求積の行）・inner_labels（[階の番号, 辺の番号]。辺長を内側に書く辺）。
 実寸：建物図面1/500（2mm/m）、各階平面図1/250（4mm/m）。不動産登記規則第82条・第83条の記載事項を描く。"""
 import math
 import os
@@ -56,8 +56,11 @@ def solved(s):
         for j in range(n):
             u, v = pts_[j], pts_[(j + 1) % n]
             L = math.hypot(u[0] - v[0], u[1] - v[1])
-            p2.append(dist_label(mm, u, v, f'{L:.2f}', side=_outside(scr, mm(*u), mm(*v)), off=2.2, size=2.5))
-        p2.append(_t(sub[0] + 1.5, sub[1] + 4.0, name, 3.4, weight='700'))
+            sd = _outside(scr, mm(*u), mm(*v))
+            if [i, j] in [list(x) for x in s.get('inner_labels', [])]:     # 下の階の点線と重なる辺は、内側に書く
+                sd = -sd
+            p2.append(dist_label(mm, u, v, f'{L:.2f}', side=sd, off=2.2, size=2.5))
+        p2.append(_t(sub[0] + 3.0, sub[1] + 4.0, name, 3.4, weight='700'))
         if i == 0:
             p2.append(_l(ax, ay + rh, ax + wl + 2, ay + rh, 0.2, MUTE, '0.8 0.8'))
     xr = ax + wl + 3
