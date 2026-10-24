@@ -46,4 +46,4 @@ Final check before rendering: confirm the image is exactly 1280x670 landscape; c
 
 ## 本文
 
-不要（HTMLまたはHTMLを画像にしたものを貼る）。元：out/day10-pm.html（問題）／out/day10-pm-ans.html（解答）
+不要（HTMLまたはHTMLを画像にしたものを貼る）。元：out/day010-pm.html（問題）／out/day010-pm-ans.html（解答）

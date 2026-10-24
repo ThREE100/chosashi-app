@@ -10,7 +10,7 @@
 
 ```
 python3 daily-drill/kiroku.py add PM-20 × A2 --item 添付情報 --min 18   # ×・△ は型を1つ以上
-python3 daily-drill/kiroku.py add day20-pm △ A5                         # 第20日の夜（dayNN-am / dayNN-pm）でもよい
+python3 daily-drill/kiroku.py add day020-pm △ A5                         # 第20日の夜（dayNNN-am / dayNNN-pm）でもよい
 python3 daily-drill/kiroku.py add AM-003 ○                               # ○ は型を書かない
 python3 daily-drill/kiroku.py add PM-82 × 他 --note "比の分子と分母を逆にした"   # 型に当てはまらないとき
 python3 daily-drill/kiroku.py due                                         # 今日解き直す問題

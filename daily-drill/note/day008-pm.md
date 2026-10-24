@@ -8,7 +8,7 @@
 
 - 画像に入れる番号：`Day008-PM`（左上の緑のバッジ）
 - キャラクター：女性のMC1人だけ（トリ先生・藍子は入れない）。ChatGPTにはキャラクターシート MC-01〜MC-04 の4枚を添付して、次のプロンプトを貼る。
-- 画像の文字：1行目「毎日これだけ」／2行目「記述式の申請書練習」（「申請書練習」を赤橙）／サブタイトル「土地家屋調査士　記述式　毎晩15分」
+- 画像の文字：1行目「毎日これだけ」／2行目「記述式の計算練習」（「計算練習」を赤橙）／サブタイトル「土地家屋調査士　記述式　毎晩15分」
 
 ### 見出し画像のプロンプト（ChatGPTに貼る）
 
@@ -27,8 +27,8 @@ BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from e
 
 TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
 毎日これだけ
-Line 2 is larger; the phrase 申請書練習 is red-orange and the rest is dark navy:
-記述式の申請書練習
+Line 2 is larger; the phrase 計算練習 is red-orange and the rest is dark navy:
+記述式の計算練習
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
 土地家屋調査士　記述式　毎晩15分
 NUMBERING BADGE: in the top-left corner, a small rounded green (#009775) pill with white bold half-width text, exactly this string and nothing else (a capital letter D, lowercase "ay", then the three digits, a hyphen, and capital letters):
@@ -36,8 +36,8 @@ Day008-PM
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
 TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the character):
-Left side: a stack of blank application forms and a stamp, no text on them
-Right side: a fountain pen, a seal (inkan) and an official-looking blank form with only ruled boxes (no letters)
+Left side: two straight boundary lines crossing on a coordinate grid, the crossing point marked by a small circle
+Right side: a plain calculator, a pencil and a sheet of scratch paper with only drawn lines (no numbers or letters)
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character, the title, and the numbering badge away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
@@ -46,4 +46,4 @@ Final check before rendering: confirm the image is exactly 1280x670 landscape; c
 
 ## 本文
 
-不要（HTMLまたはHTMLを画像にしたものを貼る）。元：out/day08-pm.html（問題）／out/day08-pm-ans.html（解答）
+不要（HTMLまたはHTMLを画像にしたものを貼る）。元：out/day008-pm.html（問題）／out/day008-pm-ans.html（解答）

@@ -70,8 +70,8 @@ def build(day):
     items = []
     for ampm, title, l1, l2, hl, sub, left, right, kj, body in (
         ('AM', TITLE_AM.format(day=day),
-         '毎朝ドリル', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝10分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:02d}-am.html（問題）／out/day{day:02d}-am-ans.html（解答）'),
-        ('PM', None, '毎日これだけ', None, None, '土地家屋調査士　記述式　毎晩15分', None, None, '記、述、練、習', f'out/day{day:02d}-pm.html（問題）／out/day{day:02d}-pm-ans.html（解答）')):
+         '毎朝ドリル', '択一と条文の空欄補充', '空欄補充', '土地家屋調査士　毎朝10分', AM_LEFT, AM_RIGHT, '択、筆、界、補、充、欄', f'out/day{day:03d}-am.html（問題）／out/day{day:03d}-am-ans.html（解答）'),
+        ('PM', None, '毎日これだけ', None, None, '土地家屋調査士　記述式　毎晩15分', None, None, '記、述、練、習', f'out/day{day:03d}-pm.html（問題）／out/day{day:03d}-pm-ans.html（解答）')):
         if ampm == 'PM':
             key = {'PM-01': 'radial', 'PM-04': 'foot', 'PM-07': 'area', 'PM-08': 'intersection'}.get(pm['id'], 'shinsei') if pm['kind'] == 'calc2' else ('draw' if pm['kind'] == 'draw' else 'shinsei')
             l2, hl, left, right = PM_TOPIC[key]
@@ -122,7 +122,7 @@ def index():
         title = t[4]
         m = re.search(r'Day(\d{3})-(AM|PM)', title)
         n = int(m.group(1))
-        rows.append(f"| Day{m.group(1)}-{m.group(2)} | {title} | `{os.path.basename(f)}` | `out/day{n:02d}-{m.group(2).lower()}.html`・`-ans.html` |")
+        rows.append(f"| Day{m.group(1)}-{m.group(2)} | {title} | `{os.path.basename(f)}` | `out/day{n:03d}-{m.group(2).lower()}.html`・`-ans.html` |")
     open(os.path.join(OUT, 'README.md'), 'w', encoding='utf-8').write('\n'.join(rows) + '\n')
 
 

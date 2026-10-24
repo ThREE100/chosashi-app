@@ -1,8 +1,8 @@
 """毎日ドリルのA4印刷用HTMLを out/ に作る。
-  out/dayNN-am.html      朝（オリジナル択一1問＋書いて説明）の問題 1ページ
-  out/dayNN-am-ans.html  朝の解答（原文の根拠つき）
-  out/dayNN-pm.html      夜（記述式：計算または申請書の欄）の問題 1ページ
-  out/dayNN-pm-ans.html  夜の解答
+  out/dayNNN-am.html      朝（オリジナル択一1問＋書いて説明）の問題 1ページ
+  out/dayNNN-am-ans.html  朝の解答（原文の根拠つき）
+  out/dayNNN-pm.html      夜（記述式：計算または申請書の欄）の問題 1ページ
+  out/dayNNN-pm-ans.html  夜の解答
   out/index.html         日ごとの一覧
 ブラウザで開き、印刷（A4・余白なし）またはタブレットで書き込む。
 使い方: python3 daily-drill/build.py"""
@@ -501,12 +501,12 @@ def main():
         links = []
         if d in am:
             for suf, fn, lab in (('', am_q, '朝 問題'), ('-ans', am_a, '朝 解答')):
-                n = f'day{d:02d}-am{suf}.html'
+                n = f'day{d:03d}-am{suf}.html'
                 open(os.path.join(OUT, n), 'w', encoding='utf-8').write(fn(am[d]))
                 links.append(f'<a href="{n}">{lab}</a>')
         if d in pm:
             for suf, fn, lab in (('', pm_q, '夜 問題'), ('-ans', pm_a, '夜 解答')):
-                n = f'day{d:02d}-pm{suf}.html'
+                n = f'day{d:03d}-pm{suf}.html'
                 open(os.path.join(OUT, n), 'w', encoding='utf-8').write(fn(pm[d]))
                 links.append(f'<a href="{n}">{lab}</a>')
         rows += f'<tr><td>第{d}日</td><td>{E(am[d]["theme"]) if d in am else ""}</td><td>{E(pm[d]["title"]) if d in pm else ""}</td><td>{" ／ ".join(links)}</td></tr>'

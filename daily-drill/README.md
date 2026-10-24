@@ -78,8 +78,8 @@
 
 | 種類 | できている範囲 | 置き場所 |
 |---|---|---|
-| 朝（択一＋条文の空欄補充） | **第1日〜第22日**（AM-001〜AM-022。全問、正誤を伏せた独立照合済み） | `morning/problems/`、`out/dayNN-am.html` |
-| 夜（記述式デイリー） | **第1日〜第120日**（PM-01〜PM-120。PM-115〜120 は作図だけの練習） | `evening/problems/`、`out/dayNN-pm.html` |
+| 朝（択一＋条文の空欄補充） | **第1日〜第22日**（AM-001〜AM-022。全問、正誤を伏せた独立照合済み） | `morning/problems/`、`out/dayNNN-am.html` |
+| 夜（記述式デイリー） | **第1日〜第120日**（PM-01〜PM-120。PM-115〜120 は作図だけの練習） | `evening/problems/`、`out/dayNNN-pm.html` |
 | noteのタイトル・見出し画像 | 第1日〜第22日（朝・夜） | `note/` |
 | 土曜の20問模擬 | 2回（SAT01・SAT02） | `saturday/`、`out/sat01.html`・`sat02.html` |
 | 本番形式の統合問題（60分） | 5問（s01 土地の地積更正・分筆、s02 建物の新築と附属建物、s03 建物区分、s04 合体、s05 土地分合筆） | `sougou/`、`out/sougouNN.html` |

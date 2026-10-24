@@ -8,7 +8,7 @@
 
 使い方（daily-drill で）:
   python3 kiroku.py add PM-20 × A2 --item 添付情報 --min 18      # 問題IDで記録
-  python3 kiroku.py add day20-pm × A2 A5                          # 第20日の夜（dayNN-am / dayNN-pm）でもよい
+  python3 kiroku.py add day020-pm × A2 A5                          # 第20日の夜（dayNNN-am / dayNNN-pm）でもよい
   python3 kiroku.py add AM-003 ○
   python3 kiroku.py report                                        # log/report.md を作り直す（型別の集計・再演習の予定・おすすめ）
   python3 kiroku.py due [--date 2026-10-30]                       # その日に解き直す問題
@@ -73,7 +73,7 @@ def resolve(ref, probs):
         return hit[0]
     ref = ref.upper()
     if ref not in probs:
-        sys.exit(f'問題 {ref} がない（AM-001 や PM-20、day20-pm の形で指定する）')
+        sys.exit(f'問題 {ref} がない（AM-001 や PM-20、day020-pm の形で指定する）')
     return ref
 
 
