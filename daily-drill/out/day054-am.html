@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第54日 朝 問題</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet"><div class="hd"><h1>第54日　朝：択一1問＋条文の空欄補充</h1><span class="meta">日付：　　月　　日　／　目安 10分　／　時間：　　分</span></div><p class="theme">択一：代理人の行為能力・自己契約・無権代理の追認と催告・無権代理人の責任（民法第102条・第108条・第113条・第114条・第117条）　／　空欄補充：事前通知・前の住所地への通知・登記官による本人確認（不動産登記法第23条・第24条）</p><h2>択一（4分）</h2><p>代理及び無権代理に関する次のアからオまでの記述のうち、判例の趣旨に照らし誤っているものの組合せはどれか。</p><ol class="st"><li><span class="lb">ア</span><span>Aは、Bから代理権を与えられていないのに、Bの代理人として、B所有の甲土地をCに売却する契約を締結した。Cは、Aに代理権がないことを知らず、知らないことに過失もなかった。その後、Aが死亡し、BがAを単独で相続した場合、Bは、本人として追認を拒絶することはできるが、Aが負っていた無権代理人としての損害賠償の責任を免れることはできない。</span></li><li><span class="lb">イ</span><span>Bは、代理権がないのに、Aの代理人としてCとの間で契約を締結した。その後、Aは、Cに対してではなくBに対して、その契約を追認する旨の意思表示をした。この場合でも、Cがその追認の事実を知ったときは、Aは、Cに対して追認を対抗することができる。</span></li><li><span class="lb">ウ</span><span>Aは、未成年者Bを代理人に選任し、BはAのためにすることを示してCとの間で売買契約を締結した。この場合、Aは、Bが未成年者であることを理由として、その売買契約を取り消すことができる。</span></li><li><span class="lb">エ</span><span>Aから甲土地の売却の代理権を与えられたBが、自らを買主として、Aの代理人として甲土地の売買契約を締結した。Aがこの契約をあらかじめ許諾していたときは、この契約は、代理権を有しない者がした行為とはみなされない。</span></li><li><span class="lb">オ</span><span>Bは、代理権がないのに、Aの代理人としてCとの間で契約を締結した。Cが、Aに対し、相当の期間を定めて、その期間内に追認をするかどうかを確答すべき旨の催告をしたが、Aがその期間内に確答をしなかったときは、Aは、追認をしたものとみなされる。</span></li></ol><div class="ch"><span>① ア・イ</span><span>② ア・エ</span><span>③ イ・ウ</span><span>④ ウ・オ</span><span>⑤ エ・オ</span></div><p>解答：<span class="box"></span></p><h2>条文の空欄補充（6分）　<span class="src">条文のキーワードを空欄に</span></h2><p>次の表は、不動産登記法第23条、第24条を、条・項の順に要約したものです。空欄（　）に条文の言葉を入れなさい。（…は、条文の言葉を省略した箇所）</p><div class="clz"><p class="cl">登記官は、…同条ただし書の規定により<span class="blank">①</span>を提供することができないときは、…同条に規定する<span class="blank">②</span>に対し、当該申請があった旨及び当該申請の内容が真実であると思料するときは…その旨の申出をすべき旨を<span class="blank">③</span>しなければならない</p><p class="cl">登記官は、当該期間内にあっては、当該<span class="blank">④</span>がない限り、当該申請に係る登記をすることができない</p><p class="cl">前項の登記の申請が<span class="blank">⑤</span>に関するものである場合において、同項の登記義務者の住所について<span class="blank">⑥</span>がされているときは、…当該登記義務者の登記記録上の<span class="blank">⑦</span>にあてて、当該申請があった旨を通知しなければならない</p><p class="cl">登記官は、…申請人となるべき者以外の者が申請していると疑うに足りる<span class="blank">⑧</span>があると認めるときは、…申請人又はその代表者若しくは代理人に対し、出頭を求め、<span class="blank">⑨</span>をし、又は文書の提示その他必要な情報の提供を求める方法により</p></div><div class="foot"><span>AM-054</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div></body></html>

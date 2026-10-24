@@ -74,17 +74,19 @@
 - **土曜の20問模擬**：`saturday/`（問題 `out/sat01.html`、解答 `out/sat01-ans.html`）。作り方は `RULES.md` の5。
 - **記述式デイリー（計算）の量産**：`evening/chain_specs/pmNN.py` の SPEC から `evening/gen_chain.py` で作る（Day85〜114 作成済み）。作り方は `RULES.md` の4.4。
 
-## 作成の進み具合（2026-10-24 時点）
+## 作成の進み具合（2026-10-25 時点）
 
 | 種類 | できている範囲 | 置き場所 |
 |---|---|---|
-| 朝（択一＋条文の空欄補充） | **第1日〜第22日**（AM-001〜AM-022。全問、正誤を伏せた独立照合済み） | `morning/problems/`、`out/dayNNN-am.html` |
+| 朝（択一＋条文の空欄補充） | **第1日〜第120日**（AM-001〜AM-120。全問、正誤を伏せた独立照合と解説の監査済み。第23日以降は出題頻度順：`schedule/am_plan.md`） | `morning/problems/`、`out/dayNNN-am.html` |
 | 夜（記述式デイリー） | **第1日〜第120日**（PM-01〜PM-120。PM-115〜120 は作図だけの練習） | `evening/problems/`、`out/dayNNN-pm.html` |
-| noteのタイトル・見出し画像 | 第1日〜第22日（朝・夜） | `note/` |
+| noteのタイトル・見出し画像 | 第1日〜第120日（朝・夜） | `note/` |
 | 土曜の20問模擬 | 2回（SAT01・SAT02） | `saturday/`、`out/sat01.html`・`sat02.html` |
 | 本番形式の統合問題（60分） | 5問（s01 土地の地積更正・分筆、s02 建物の新築と附属建物、s03 建物区分、s04 合体、s05 土地分合筆） | `sougou/`、`out/sougouNN.html` |
 
-朝と夜の両方がそろっているのは第22日まで（第23日〜第120日は夜だけ）。
+朝と夜の両方が第1日〜第120日までそろっている。
 
 - **作図だけの夜の問題**：`evening/draw_specs/pmNNN.py` の DRAW から `evening/gen_draw.py` で作る（座標・寸法は与え、実寸の作図と記載事項の判断を練習する）。答えの欄は `check_pm.py` の `check_draw_module` が座標から計算し直し、キー列の表示を再現する。既存の描き方で描けない図は `drawing/r_*.py`（`drawing/README.md`）。
 - **本番形式の統合問題**：`sougou/sNN/`（calc・form・draw・meta）。`sougou/build_sougou.py` が3部の検査と部をまたぐ値の一致を確かめる。答えを見ない担当が通して解いた結果は `sougou/sNN/solved_blind.json`。
+
+- **朝の第23日〜第120日の作り方**：`plan_am.py` が、過去問の解説記事の論点（平成17年度〜令和8年度の択一式）を数えた出題頻度で、21日周期（不動産登記法17・民法3・調査士法1）に論点を割り当てる（`schedule/am_plan.json`・`am_plan.md`）。空欄補充は翌日の択一の論点の条文（予習になる。同じ日の択一とは条文を分ける）。作成の担当は登録簿の行を `morning/reg_rows/` に書き、`morning/merge_reg_rows.py` で registry.json に取り込む。照合は、問題ファイルを見ずに解いてから（`review_export.py` は選択肢も出す）、問題ファイルを開いて解説を監査する2段で行う。

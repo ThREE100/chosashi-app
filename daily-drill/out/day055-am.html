@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第55日 朝 問題</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet"><div class="hd"><h1>第55日　朝：択一1問＋条文の空欄補充</h1><span class="meta">日付：　　月　　日　／　目安 10分　／　時間：　　分</span></div><p class="theme">択一：事前通知の期間・資格者代理人による本人確認情報（規則第70条・第72条、準則第49条）　／　空欄補充：筆界調査委員・測量及び実地調査の立会い・手続費用の負担（不動産登記法第127条・第136条・第146条）</p><h2>択一（4分）</h2><p>登記識別情報を提供することができない場合の事前通知及び資格者代理人による本人確認情報に関する次のアからオまでの記述のうち、正しいものの組合せはどれか。</p><ol class="st"><li><span class="lb">ア</span><span>土地家屋調査士Pは、A所有の甲土地と乙土地の合筆の登記の申請の代理を依頼されたが、Aが登記識別情報を提供することができないため、本人確認情報を提供することとした。PはAの氏名を知らず、面識もない。この場合、PがAから運転免許証の提示を受けて確認するときは、その運転免許証は、Pが提示を受ける日において有効なものでなければならない。</span></li><li><span class="lb">イ</span><span>土地家屋調査士Pは、2か月前に、Aについて資格者代理人として本人確認情報を提供して登記の申請をしたことがある。この場合、Pは、今回のAの申請について、Aの氏名を知り、かつ、Aと面識があるときに当たるものとして本人確認情報を作成することができる。</span></li><li><span class="lb">ウ</span><span>申請人がB株式会社である場合において、土地家屋調査士Pが本人確認情報を作成するときは、Pは、B株式会社の代表者本人と面談しなければならず、代表者に代わるべき者と面談しても足りない。</span></li><li><span class="lb">エ</span><span>所有権の登記名義人Aが建物の合併の登記を申請したが、登記識別情報を提供することができなかったため、登記官はAに対して事前通知をした。Aが外国に住所を有する場合には、申請の内容が真実である旨の申出をすべき期間は、通知を発送した日から四週間である。</span></li><li><span class="lb">オ</span><span>土地家屋調査士Pが、本人確認情報を提供して土地の合筆の登記を申請したが、登記官は、その本人確認情報の内容を相当と認めることができなかった。この場合、登記官は、当該申請を却下しなければならない。</span></li></ol><div class="ch"><span>① ア・エ</span><span>② ア・ウ</span><span>③ イ・エ</span><span>④ ウ・オ</span><span>⑤ イ・オ</span></div><p>解答：<span class="box"></span></p><h2>条文の空欄補充（6分）　<span class="src">条文のキーワードを空欄に</span></h2><p>次の表は、不動産登記法第127条、第136条、第146条を、条・項の順に要約したものです。空欄（　）に条文の言葉を入れなさい。（…は、条文の言葉を省略した箇所）</p><div class="clz"><p class="cl">筆界調査委員は、前項の職務を行うのに必要な<span class="blank">①</span>及び経験を有する者のうちから、<span class="blank">②</span>が任命する</p><p class="cl">筆界調査委員の任期は、<span class="blank">③</span>とする</p><p class="cl">筆界調査委員は、<span class="blank">④</span>とする</p><p class="cl">筆界調査委員は、対象土地の測量又は<span class="blank">⑤</span>を行うときは、あらかじめ、その旨並びにその日時及び場所を筆界特定の申請人及び<span class="blank">⑥</span>に通知して、これに<span class="blank">⑦</span>機会を与えなければならない</p><p class="cl">…その一人が対象土地の一方の土地の所有権登記名義人等であり、他の一人が他方の土地の所有権登記名義人等であるときは、各筆界特定の申請人は、<span class="blank">⑧</span>で手続費用を負担する</p><p class="cl">筆界特定登記官は、筆界特定の申請人に手続費用の<span class="blank">⑨</span>を予納させなければならない</p></div><div class="foot"><span>AM-055</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div></body></html>

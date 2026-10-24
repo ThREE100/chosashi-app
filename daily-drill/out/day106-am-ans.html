@@ -1,0 +1,81 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第106日 朝 解答</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet flow"><div class="hd"><h1>第106日　朝：解答</h1><span class="meta">日付：　　月　　日　／　目安 10分　／　時間：　　分</span></div><p class="theme">択一：調査士法人の調査士会への入会・届出、調査士会の報告義務、登録審査会、公共嘱託登記土地家屋調査士協会の定款（土地家屋調査士法第53条・第55条・第62条・第63条）　／　空欄補充：登記官による本人確認・資格者代理人による本人確認情報（法第24条、規則第59条・第72条）</p><div class="ans">正解：<b>④</b>（ウ・オ）　※問題は「誤りもの」を選ぶ</div><div class="q"><b>ア</b>　<span class="ok">○ 正しい</span>　土地家屋調査士法第53条第4項。管轄区域外に従たる事務所を設けたときは、主たる事務所の所在地で登記をした時に、従たる事務所の所在地の調査士会の会員となる（入会の手続を要しない。会員となる時点は、従たる事務所の所在地ではなく主たる事務所の所在地での登記の時）。</div><blockquote>土地家屋調査士法第53条「調査士法人は、その事務所の所在地を管轄する法務局又は地方法務局の管轄区域外に事務所を設け、又は移転したときは、事務所の新所在地（従たる事務所を設け、又は移転したときにあつては、主たる事務所の所在地）においてその旨の登記をした時に、当該事務所（従たる事務所を設け、又は移転したときにあつては、当該従たる事務所）の所在地を管轄する法務局又は地方法務局の管轄区域内に設立された調査士会の会員となる。」</blockquote><div class="q"><b>イ</b>　<span class="ok">○ 正しい</span>　土地家屋調査士法第53条第6項。届出の期間は会員となった日から二週間以内、添付は登記事項証明書及び定款の写し、届出先は当該調査士会及び調査士会連合会。</div><blockquote>土地家屋調査士法第53条「調査士法人は、第四項の規定により新たに調査士会の会員となつたときは、会員となつた日から二週間以内に、登記事項証明書及び定款の写しを添えて、その旨を、当該調査士会及び調査士会連合会に届け出なければならない。」</blockquote><div class="q"><b>ウ</b>　<span class="ng">× 誤り</span>　土地家屋調査士法第55条。報告の相手は法務大臣で、調査士会連合会ではない（報告先のすり替え）。なお、違反する「おそれがある」ときに注意を促し、勧告することができるのは第56条の定め。</div><blockquote>土地家屋調査士法第55条「調査士会は、所属の会員が、この法律又はこの法律に基づく命令に違反すると思料するときは、その旨を、法務大臣に報告しなければならない。」</blockquote><div class="q"><b>エ</b>　<span class="ok">○ 正しい</span>　土地家屋調査士法第62条第1項・第3項・第6項。会長は調査士会連合会の会長をもって充て（第4項）、委員は会長が法務大臣の承認を受けて委嘱する（第5項）。</div><blockquote>土地家屋調査士法第62条「調査士会連合会に、登録審査会を置く。」</blockquote><blockquote>土地家屋調査士法第62条「登録審査会は、会長及び委員四人をもつて組織する。」</blockquote><blockquote>土地家屋調査士法第62条「委員の任期は、二年とする。ただし、欠員が生じた場合の補充の委員の任期は、前任者の残任期間とする。」</blockquote><div class="q"><b>オ</b>　<span class="ng">× 誤り</span>　土地家屋調査士法第63条第1項第3号・第2項。協会の定款の、社員の資格・社員の加入・理事の過半数が社員であることの定めは、変更することができない（社員総会の決議でも変更できない。例外のない禁止を、手続を踏めば変更できるとすり替え）。</div><blockquote>土地家屋調査士法第63条「理事の員数の過半数は、社員（社員である調査士法人の社員を含む。）でなければならないものとすること。」</blockquote><blockquote>土地家屋調査士法第63条「前項に規定する定款の定めは、これを変更することができない。」</blockquote><h2>条文の空欄補充：答え</h2><div class="clz"><p class="cl">登記官は、登記の申請があった場合において、申請人となるべき者以外の者が申請していると疑うに足りる<b class="ok">相当</b>な理由があると認めるときは、…申請人又はその代表者若しくは代理人に対し、<b class="ok">出頭</b>を求め、質問をし、又は文書の提示その他必要な情報の提供を求める方法により、当該申請人の申請の<b class="ok">権限</b>の有無を調査しなければならない</p><p class="cl">登記官は、前項に規定する申請人又はその代表者若しくは代理人が<b class="ok">遠隔</b>の地に居住しているとき、その他相当と認めるときは、他の登記所の登記官に同項の調査を<b class="ok">嘱託</b>することができる</p><p class="cl">登記官は、法第二十四条第一項の規定により申請人の申請の権限の有無を調査したときは、その調査の結果を記録した<b class="ok">調書</b>を作成しなければならない</p><p class="cl">…が申請人…と<b class="ok">面談</b>した日時、場所及びその状況</p><p class="cl">資格者代理人が申請人の氏名を知り、かつ、当該申請人と<b class="ok">面識</b>があるときは、当該申請人の氏名を知り、かつ、当該申請人と面識がある旨及びその面識が生じた<b class="ok">経緯</b></p></div><p class="q">自己採点（合っていれば□にチェック）</p><ul class="chk"><li>□ ① 相当</li><li>□ ② 出頭</li><li>□ ③ 権限</li><li>□ ④ 遠隔</li><li>□ ⑤ 嘱託</li><li>□ ⑥ 調書</li><li>□ ⑦ 面談</li><li>□ ⑧ 面識</li><li>□ ⑨ 経緯</li></ul><h2>原文（音読用）　<span class="src">不動産登記法第24条</span></h2><div class="full">登記官は、登記の申請があった場合において、申請人となるべき者以外の者が申請していると疑うに足りる相当な理由があると認めるときは、次条の規定により当該申請を却下すべき場合を除き、申請人又はその代表者若しくは代理人に対し、出頭を求め、質問をし、又は文書の提示その他必要な情報の提供を求める方法により、当該申請人の申請の権限の有無を調査しなければならない。
+
+2. 登記官は、前項に規定する申請人又はその代表者若しくは代理人が遠隔の地に居住しているとき、その他相当と認めるときは、他の登記所の登記官に同項の調査を嘱託することができる。</div><div class="foot"><span>AM-106 解答</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div></body></html>

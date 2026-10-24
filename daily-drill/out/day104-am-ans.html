@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第104日 朝 解答</title><style>
+:root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
+*{box-sizing:border-box}
+html{background:#e9eeec}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
+.sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
+.hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
+.hd h1{font-size:13pt;margin:0;color:var(--g)}
+.hd .meta{font-size:9pt;color:var(--mute)}
+h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+.theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
+ol.st{list-style:none;margin:0;padding:0}
+ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
+ol.st .lb{flex:none;font-weight:700}
+.ch{display:flex;flex-wrap:wrap;gap:1mm 6mm;margin:2mm 0;font-size:10pt}
+.box{border:1px solid var(--ink);display:inline-block;min-width:16mm;height:7mm;vertical-align:middle;margin-left:2mm}
+.lines{background-image:repeating-linear-gradient(#fff 0,#fff 7.4mm,var(--line) 7.4mm,var(--line) 7.9mm);border:1px solid var(--line);}
+.pt{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.pt th,.pt td{border:1px solid var(--line);padding:1mm 2.5mm;text-align:left}
+.pt th{background:var(--soft);font-weight:500;width:26mm}
+.ans{border:1px dashed var(--g);padding:1.5mm 3mm;margin:1.5mm 0;font-size:10pt}
+.q{margin:2.5mm 0 1mm;font-weight:500}
+.tag{font-size:8.5pt;color:#fff;background:var(--g);padding:0 2mm;border-radius:2mm;margin-right:2mm}
+.ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
+blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
+.src{font-size:9pt;color:var(--mute)}
+.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.chk{margin:0;padding:0;list-style:none;columns:2}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+.clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
+.cl{margin:0 0 2.2mm;font-size:10.5pt;line-height:1.95}
+.blank{display:inline-block;min-width:24mm;border-bottom:1.5px solid var(--ink);text-align:left;font-size:8pt;color:var(--mute);margin:0 1mm;vertical-align:baseline}
+.figrow{margin:2mm 0}
+.figrow svg.fig{display:block;width:100%;height:auto}
+.coord{margin-top:2mm}
+.coord table{width:100%;border-collapse:collapse;font-size:10pt}
+.coord th,.coord td{border:1px solid var(--line);padding:.9mm 2mm;text-align:right;white-space:nowrap}
+.coord th{background:var(--soft);font-weight:500;text-align:center}
+.coord td.n{text-align:center;font-weight:700}
+.coord p{margin:1.2mm 0 0;font-size:9.5pt;color:var(--mute);line-height:1.5}
+.ex{font-size:8.3pt;line-height:1.44}
+.ex h2{font-size:9.5pt;margin:2.2mm 0 1mm}
+.ex p{margin:0 0 1.2mm}
+.ex ol{margin:0;padding-left:4.6mm}.ex ol li{margin:0 0 1.1mm}
+.ans-box{width:100%;border-collapse:collapse;margin:1mm 0 2mm;font-size:10pt}
+.ans-box th,.ans-box td{border:1.5px solid var(--ink);padding:1.2mm 2.5mm;text-align:left;height:9mm}
+.ans-box th{background:var(--soft);font-weight:500;width:58mm}
+.ans-box.c2 th{width:38mm;font-size:8.6pt}
+.ans-box td.fill{color:var(--g);font-weight:700;font-size:10.5pt}
+.q2{font-size:9pt;line-height:1.5}.q2 h2{font-size:9.8pt;margin:2.4mm 0 1mm}.q2 p{margin:0 0 1.4mm}.q2 ol{margin:0 0 1mm;padding-left:5mm}.q2 ol li{margin:0 0 1.3mm}
+.dense .ans-box th,.dense .ans-box td{padding:.3mm 2mm;height:6.4mm;font-size:9pt}.dense .box{height:5.4mm}.dense .q2{font-size:8.3pt;line-height:1.42}.dense .q2 h2{margin:1.6mm 0 .6mm}.dense .q2 li{margin:0 0 .7mm}
+.drawwrap{margin:0 0 3mm}.drawwrap svg{display:block;width:182mm;height:auto}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:2mm}
+.tg table{width:100%;border-collapse:collapse;font-size:9.2pt}.tg caption{text-align:left;font-weight:700;font-size:9pt;padding:.3mm 0}
+.tg th,.tg td{border:1px solid var(--line);padding:.7mm 1.8mm;text-align:center;white-space:nowrap}.tg th{background:var(--soft);font-weight:500}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;align-items:start}
+.reg{width:100%;border-collapse:collapse;margin:0 0 1.6mm;font-size:8.4pt}
+.reg caption{text-align:left;font-weight:700;padding:.4mm 0}
+.reg th,.reg td{border:1px solid var(--line);padding:.5mm 1.6mm;text-align:left}
+.reg th{background:var(--soft);font-weight:500;width:27mm}
+.ex .figrow{margin:1mm 0}.ex .coord table{font-size:8.2pt}.ex .coord th,.ex .coord td{padding:.4mm 1.2mm}
+.ex .notes{font-size:8.2pt;margin-top:1.5mm}
+.form{border:1.5px solid var(--ink);margin-top:2mm}
+.form .ttl{text-align:center;font-size:13pt;font-weight:700;letter-spacing:.3em;padding:2.5mm;border-bottom:1.5px solid var(--ink)}
+.form .row{display:flex;border-bottom:1px solid var(--ink)}
+.form .row:last-child{border-bottom:0}
+.form .lb{flex:0 0 33mm;padding:2mm 2.5mm;background:var(--soft);border-right:1px solid var(--ink);font-size:9.5pt;display:flex;align-items:center}
+.form .val{flex:1;padding:2mm 3mm;font-size:10.5pt;white-space:pre-wrap;color:var(--g);font-weight:500}
+.form table.t{width:100%;border-collapse:collapse;font-size:9.5pt}
+.form table.t th,.form table.t td{border:1px solid var(--ink);padding:1.5mm 2mm;text-align:center;height:13mm;vertical-align:middle}
+.form table.t th{background:var(--soft);font-weight:500;height:auto}
+.form table.t td{color:var(--g);font-weight:500;white-space:pre-wrap}
+.form table.t td.rn{background:var(--soft);color:var(--ink);font-weight:500;width:18mm}
+.tbl-wrap{padding:0}
+pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
+code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;overflow:visible}}
+</style></head><body><div class="sheet flow"><div class="hd"><h1>第104日　朝：解答</h1><span class="meta">日付：　　月　　日　／　目安 10分　／　時間：　　分</span></div><p class="theme">択一：申請の取下げ・原本の還付・代理権の不消滅・申請の却下（法第17条、規則第38条・第39条・第55条、先例）　／　空欄補充：代位による申請・相続人による申請（法第30条、民法第423条、令第3条）</p><div class="ans">正解：<b>⑤</b>（ア・ウ・オ）　※問題は「誤りもの」を選ぶ</div><div class="q"><b>ア</b>　<span class="ng">× 誤り</span>　不動産登記規則第39条第2項。申請の取下げは、登記完了後はすることができない。登記完了証の交付の前後は関係がない（取下げができる時期の終わりのすり替え）。</div><blockquote>不動産登記規則第39条「申請の取下げは、登記完了後は、することができない。」</blockquote><div class="q"><b>イ</b>　<span class="ok">○ 正しい</span>　不動産登記規則第55条第1項。原本還付ができない印鑑に関する証明書は、ただし書に掲げるもの（申請書・委任状に押印した申請人等のもの〈令第16条第2項・第18条第2項〉、同意・承諾を証する書面に押印した者のもの〈令第19条第2項〉など）に限られる。工事完了引渡証明書の真実性を担保するための施工会社の印鑑証明書はこれに当たらず、本文により原本の還付を請求できる（過去問の解説の整理）。</div><blockquote>不動産登記規則第55条「書面申請をした申請人は、申請書の添付書面（磁気ディスクを除く。）の原本の還付を請求することができる。」</blockquote><blockquote>先例（過去問の解説 q09-genpon-kanpu.md）「建物表題登記の所有権証明書として提供する工事完了引渡証明書の真実性を担保するために添付された印鑑証明書――は、原本の還付を請求することができます」</blockquote><div class="q"><b>ウ</b>　<span class="ng">× 誤り</span>　不動産登記法第17条第1号。登記の申請の委任による代理人の権限は、本人の死亡によっては消滅しない（民法第111条第1項第1号の原則〈本人の死亡で代理権は消滅〉に対する特則）。Bは、相続人から改めて委任を受けなくても申請できる。</div><blockquote>不動産登記法第17条「登記の申請をする者の委任による代理人の権限は、次に掲げる事由によっては、消滅しない。」</blockquote><blockquote>不動産登記法第17条「本人の死亡」</blockquote><div class="q"><b>エ</b>　<span class="ok">○ 正しい</span>　不動産登記規則第38条第1項ただし書（代理人による申請なら決定書は代理人に交付すれば足りる）・第3項（却下したときは添付書面を還付する。偽造の疑いがある書面は除く）。なお、還付されるのは添付書面で、申請書は還付されない。</div><blockquote>不動産登記規則第38条「登記官は、申請を却下するときは、決定書を作成して、これを申請人ごとに交付するものとする。ただし、代理人によって申請がされた場合は、当該代理人に交付すれば足りる。」</blockquote><blockquote>不動産登記規則第38条「登記官は、書面申請がされた場合において、申請を却下したときは、添付書面を還付するものとする。ただし、偽造された書面その他の不正な登記の申請のために用いられた疑いがある書面については、この限りでない。」</blockquote><div class="q"><b>オ</b>　<span class="ng">× 誤り</span>　不動産登記規則第55条第2項は、原本の還付を請求する申請人に「原本と相違ない旨を記載した謄本」の提出を求めるが、相続を証する情報として提供する戸籍謄本等は、相続関係説明図を提出すれば、戸籍謄本等の謄本を別に作って提出しなくてよいとされている（条文に明記はなく、登記実務の取扱い。過去問の解説の整理）。</div><blockquote>不動産登記規則第55条「前項本文の規定により原本の還付を請求する申請人は、原本と相違ない旨を記載した謄本を提出しなければならない。」</blockquote><blockquote>先例（過去問の解説 q09-genpon-kanpu.md）「相続関係説明図を添付すれば、戸籍謄本等の謄本を別に作って提出しなくてもよいとされています」</blockquote><h2>条文の空欄補充：答え</h2><div class="clz"><p class="cl">表題部所有者又は所有権の登記名義人が表示に関する登記の申請人となることができる場合において、当該表題部所有者又は登記名義人について相続その他の<b class="ok">一般承継</b>があったときは、<b class="ok">相続人</b>その他の一般承継人は、当該表示に関する登記を申請することができる</p><p class="cl">債権者は、自己の債権を<b class="ok">保全</b>するため必要があるときは、債務者に属する権利（以下「被代位権利」という。）を行使することができる。ただし、債務者の<b class="ok">一身</b>に専属する権利及び<b class="ok">差押え</b>を禁じられた権利は、この限りでない</p><p class="cl">債権者は、その債権の<b class="ok">期限</b>が到来しない間は、被代位権利を行使することができない。ただし、<b class="ok">保存行為</b>は、この限りでない</p><p class="cl">…他人に代わって登記を申請するときは、申請人が<b class="ok">代位者</b>である旨、当該他人の氏名又は名称及び住所並びに<b class="ok">代位原因</b></p></div><p class="q">自己採点（合っていれば□にチェック）</p><ul class="chk"><li>□ ① 一般承継</li><li>□ ② 相続人</li><li>□ ③ 保全</li><li>□ ④ 一身</li><li>□ ⑤ 差押え</li><li>□ ⑥ 期限</li><li>□ ⑦ 保存行為</li><li>□ ⑧ 代位者</li><li>□ ⑨ 代位原因</li></ul><h2>原文（音読用）　<span class="src">不動産登記法第30条</span></h2><div class="full">表題部所有者又は所有権の登記名義人が表示に関する登記の申請人となることができる場合において、当該表題部所有者又は登記名義人について相続その他の一般承継があったときは、相続人その他の一般承継人は、当該表示に関する登記を申請することができる。</div><div class="foot"><span>AM-104 解答</span><span>条文は note-articles/laws/ の原文で照合済み</span></div></div></body></html>
