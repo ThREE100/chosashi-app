@@ -110,6 +110,9 @@ def fill(lines, blanks):
     return out
 
 
+TRIVIAL = re.compile(r'^(前号|次号|前項|次項|同項|同号|同条|前条|次条|前各号|前各項|当該|その|これ|それ|この|次の|前|次|同|[二三四五六七八九十]|第.+[号項条])$')
+
+
 def check_cloze(pid, w):
     """空欄補充：空欄の番号が1..nで1回ずつ、埋めた文が条文の原文に一字一句あり、模範解答・採点ポイントと一致すること。"""
     text = '\n'.join(w['cloze'])
@@ -128,6 +131,8 @@ def check_cloze(pid, w):
             if normalize(seg) not in art:
                 err(pid, f'埋めた文が引用した条文の原文と一致しない「{seg[:24]}」')
     for a in w['blanks']:
+        if TRIVIAL.match(a):
+            err(pid, f'空欄の答え「{a}」は試験で問われない語（前号・同項・当該・二などの指示語や号の番号は空欄にしない）')
         if len(a) > 12:
             err(pid, f'空欄の答え「{a}」が長い（キーワードだけを空欄にする）')
 

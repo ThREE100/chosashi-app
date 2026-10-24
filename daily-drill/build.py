@@ -185,7 +185,7 @@ def am_q(p):
         body += f'<h2>条文の空欄補充（6分）　<span class="src">条文のキーワードを空欄に</span></h2><p>{E(w["prompt"])}</p>{cloze_html(w)}'
     else:
         body += f'<h2>書いて説明（6分）　<span class="src">原文を見ずに、条文の言葉で</span></h2><p>{E(w["prompt"])}</p>{lines(104)}'
-    return page(f'{daylab(p["day"])} 朝 問題', body, f'{p["id"]}')
+    return page(f'{daylab(p["day"])} 朝 問題', body, f'{p["id"]}', flow=True)   # 条文の全文の空欄補充は2枚になることがある
 
 
 def am_a(p):
