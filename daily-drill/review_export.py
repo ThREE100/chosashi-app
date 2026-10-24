@@ -19,6 +19,7 @@ for fp in sorted(glob.glob(os.path.join(HERE, 'morning', 'problems', '*.json')))
     print(p['stem'])
     for s in p['statements']:
         print(f"{s['label']} {s['text']}")
+    print('選択肢：' + '　'.join(f"{'①②③④⑤'[i]} {'・'.join(c)}" for i, c in enumerate(p['choices'])))
     seen = []
     for s in p['statements']:
         for b in s['basis']:
