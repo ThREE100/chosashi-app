@@ -1,5 +1,5 @@
 """朝の択一ドリル（morning/problems/*.json）の機械チェック。
-- 組合せ選択肢は5つ・互いに異なり、正解がちょうど1つ
+- 組合せ選択肢は5つ・互いに異なり、すべて2肢の組合せで、正解がちょうど1つ（問う向きに当てはまる肢はちょうど2つ）
 - 各肢の根拠の引用が、法令の原文（note-articles/laws/）の該当条に一字一句あること
 - 「書いて説明」の採点ポイントが、模範解答と引用条文の両方に含まれること
 - 個人の演習結果・過去問の出典を入れていないこと
@@ -52,8 +52,10 @@ def check(p):
     hits = [i + 1 for i, c in enumerate(ch) if set(c) == ans]
     if len(hits) != 1:
         err(pid, f'正解の選択肢がちょうど1つではない（該当 {hits}、正解の組合せ {sorted(ans)}）')
-    if len(ans) < 2:
-        err(pid, '正解の組合せが1つ以下')
+    if len(ans) != 2:
+        err(pid, f'問う向きに当てはまる肢が2つでない（{len(ans)}つ。3つなら問う向きを反対にする）')
+    if any(len(c) != 2 for c in ch):
+        err(pid, '選択肢は5つとも2肢の組合せにする（本番と同じ形）')
     for s in p['statements']:
         if not s['basis']:
             err(pid, f"{s['label']}: 根拠がない")
