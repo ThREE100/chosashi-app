@@ -180,6 +180,8 @@ def _poly(m, pts, w=0.6, dash=None, fill='none'):
 
 
 def tatemono_solved(s):
+    if 'annex' in s:                      # 附属建物があるとき（本番形式の統合問題 s02 から）
+        return tatemono_annex_solved(s)
     """s: site（敷地の頂点 (X,Y)）、bld1/bld2（外形の頂点 (X,Y)）、dists（建物の位置を示す距離 [(建物側の点,敷地側の点,テキスト)]）、adj、addr、lot、house"""
     cells = [(70, '土地の所在', s['addr']), (36, '地番', s['lot']), (36, '家屋番号', s['house']), (40, '縮尺', '1/500')]
     p1, area = frame(BD_H, '建　物　図　面', cells, [(91, '作成者', '（略）'), (91, '申請人', '（略）')], top_h=14.0, foot_h=12.0)
@@ -228,4 +230,86 @@ def tatemono_solved(s):
     for i, line in enumerate(s['areas']):
         p2.append(_t(ax + 2, y + 4.4 + i * 4.1, line, 2.8))
     p2.append(north_mark(ax + aw - 8, ay + 12))
+    return svg_wrap(BD_H, p1), svg_wrap(FP_H, p2)
+
+
+# ---- 附属建物つきの建物図面・各階平面図（2026-10-24、統合問題 s02 から移した）
+def _inside(poly, x, y):
+    c = False
+    for i in range(len(poly)):
+        (x1, y1), (x2, y2) = poly[i], poly[(i + 1) % len(poly)]
+        if (y1 > y) != (y2 > y) and x < x1 + (y - y1) * (x2 - x1) / (y2 - y1):
+            c = not c
+    return c
+
+
+def _outside(scr, a, b):
+    """辺 a→b（画面の mm）の、多角形の外側にあたる side（dist_label の向き）。凹んだ形でも辺長が内側に入らないように"""
+    mx, my = (a[0] + b[0]) / 2, (a[1] + b[1]) / 2
+    dx, dy = b[0] - a[0], b[1] - a[1]
+    ln = math.hypot(dx, dy) or 1
+    return 1 if not _inside(scr, mx - dy / ln * 1.0, my + dx / ln * 1.0) else -1
+
+
+def tatemono_annex_solved(s):
+    """建物図面（主である建物と附属建物の1階・距離・主附の別と符号）と、各階平面図（主の1階・2階、附属建物）"""
+    cells = [(70, '土地の所在', s['addr']), (36, '地番', s['lot']), (36, '家屋番号', s['house']), (40, '縮尺', '1/500')]
+    p1, ar = frame(BD_H, '建　物　図　面', cells, [(91, '作成者', '（略）'), (91, '申請人', '（略）')], top_h=14.0, foot_h=12.0)
+    st = [tuple(c) for c in s['site']]
+    Xs, Ys = [c[0] for c in st], [c[1] for c in st]
+    m = Map(ar, 500, (min(Xs) - 2.5, max(Xs) + 2.5, min(Ys) - 3.0, max(Ys) + 3.0))
+    p1.append(_poly(m, st, 0.5))
+    p1.append(_poly(m, s['bld1'], 0.7, fill='#e8f4f0'))
+    p1.append(_poly(m, s['annex'], 0.7, fill='#fdf3e3'))
+    for t, xy, size in s['marks']:
+        x, y = m(*xy)
+        p1.append(_t(x, y, t, size, 'middle', weight='700'))
+    for a, b, t in s['dists']:
+        qa, qb = m(*a), m(*b)
+        p1.append(_l(qa[0], qa[1], qb[0], qb[1], 0.3, ACC))
+        vert = abs(qa[0] - qb[0]) < 0.01
+        if vert:
+            p1.append(_t(qa[0] + 1.0, (qa[1] + qb[1]) / 2 + 0.9, t, 2.6, 'start', color=ACC))
+        else:
+            p1.append(_t((qa[0] + qb[0]) / 2, qa[1] - 0.9, t, 2.6, 'middle', color=ACC))
+    for t, xy in s['adj']:
+        x, y = m(*xy)
+        p1.append(_t(x, y, t, 3.0, 'middle', color=MUTE))
+    x, y = m(*s['lot_xy'])
+    p1.append(_t(x, y, s['lot'], 3.4, 'middle', weight='700'))
+    p1.append(north_mark(ar[0] + ar[2] - 8, ar[1] + 12))
+    # 各階平面図：3つの区画（主である建物の1階・2階、附属建物 符号1）
+    cells2 = [(70, '建物の所在', s['addr'] + s['lot'] + '地'), (36, '家屋番号', s['house']), (36, '', ''), (40, '縮尺', '1/250')]
+    p2, ar2 = frame(FP_H, '各　階　平　面　図', cells2, [(91, '作成者', '（略）'), (91, '申請人', '（略）')], top_h=14.0, foot_h=12.0)
+    ax, ay, aw, ah = ar2
+    ws = [aw * 0.37, aw * 0.37, aw * 0.26]
+    x0 = ax
+    for i, (name, pts_, under) in enumerate((('主である建物　1階', s['bld1'], None), ('主である建物　2階', s['bld2'], s['bld1']), ('符号1　附属建物　1階', s['annex'], None))):
+        ref = under or pts_
+        sub = (x0, ay + 6, ws[i], ah * 0.60)
+        bn0, bn1 = min(c[0] for c in ref), max(c[0] for c in ref)
+        bx0, bx1 = min(c[1] for c in ref), max(c[1] for c in ref)
+        mm = Map(sub, 250, (bn0 - 0.5, bn1 + 0.5, bx0 - 0.5, bx1 + 0.5))
+        if under:
+            p2.append(_poly(mm, under, 0.35, '1.4 1.0'))
+        p2.append(_poly(mm, pts_, 0.7, fill='#e8f4f0' if i < 2 else '#fdf3e3'))
+        n = len(pts_)
+        scr = [mm(*c) for c in pts_]
+        for j in range(n):
+            u, v = pts_[j], pts_[(j + 1) % n]
+            L = math.hypot(u[0] - v[0], u[1] - v[1])
+            sd = _outside(scr, mm(*u), mm(*v))
+            if (i, j) in [tuple(x) for x in s.get('inner_labels', [])]:      # 凹んだ角で辺長どうしが重なる辺は、内側に書く
+                sd = -sd
+            p2.append(dist_label(mm, u, v, f'{L:.2f}', side=sd, off=2.4, size=2.6))
+        p2.append(_t(sub[0] + 2, sub[1] - 1.4, name, 3.2, weight='700'))
+        if i < 2:
+            p2.append(_l(x0 + ws[i], ay + 2, x0 + ws[i], ay + ah * 0.66, 0.2, MUTE, '0.8 0.8'))
+        x0 += ws[i]
+    y = ay + ah * 0.66 + 5
+    p2.append(_l(ax, y - 3.5, ax + aw, y - 3.5, 0.2, MUTE))
+    p2.append(_t(ax + 2, y, '床面積と求積方法', 3.0, weight='700'))
+    for i, line in enumerate(s['areas']):
+        p2.append(_t(ax + 2 + (i % 2) * aw * 0.5, y + 4.6 + (i // 2) * 4.2, line, 2.8))
+    p2.append(north_mark(ax + aw - 6, ay + ah * 0.66 + 6))
     return svg_wrap(BD_H, p1), svg_wrap(FP_H, p2)

@@ -1,6 +1,5 @@
 """s02 第3部：建物図面（500分の1）・各階平面図（250分の1）。附属建物（符号1）を描くため、spec に annex（附属建物の外形）を持たせる。
-共有の draw_forms.tatemono_solved は主である建物の1階・2階しか描かないので、このファイルを読み込んだときに、
-spec に 'annex' があるときだけ下の annex_solved で描く包み（それ以外の spec は元の関数にそのまま渡す）を置く。共有のファイルは書き換えない。"""
+附属建物の作図は draw_forms.tatemono_solved が spec の annex を見て行う（draw_forms.tatemono_annex_solved）。"""
 import math
 import os
 import sys
@@ -18,88 +17,19 @@ m1, g2, g4 = M['m1'], G['g2'], G['g4']
 yd = 305.0     # 北・西の距離を描く位置
 DISTS = [
  [(SITE['A'][0], 305.80), (m1[0] + HALF_M, 305.80), f'{DN:.2f}'],          # 北：筆界 → 主である建物の北の外壁
- [(513.00, SITE['A'][1]), (513.00, m1[1] - HALF_M), f'{DW:.2f}'],          # 西
- [(509.00, g2[1] + HALF_G), (509.00, SITE['B'][1]), f'{DE:.2f}'],          # 東：附属建物の東の外壁 → 筆界
+ [(510.40, SITE['A'][1]), (510.40, m1[1] - HALF_M), f'{DW:.2f}'],          # 西
+ [(507.20, g2[1] + HALF_G), (507.20, SITE['B'][1]), f'{DE:.2f}'],          # 東：附属建物の東の外壁 → 筆界
  [(SITE['D'][0], 318.40), (g4[0] - HALF_G, 318.40), f'{DS:.2f}'],          # 南
 ]
 for (a, b, t) in DISTS:
     assert f'{math.hypot(a[0] - b[0], a[1] - b[1]):.2f}' == t, (a, b, t)
 
 
-def annex_solved(s):
-    """建物図面（主である建物と附属建物の1階・距離・主附の別と符号）と、各階平面図（主の1階・2階、附属建物）"""
-    cells = [(70, '土地の所在', s['addr']), (36, '地番', s['lot']), (36, '家屋番号', s['house']), (40, '縮尺', '1/500')]
-    p1, ar = DF.frame(DF.BD_H, '建　物　図　面', cells, [(91, '作成者', '（略）'), (91, '申請人', '（略）')], top_h=14.0, foot_h=12.0)
-    st = [tuple(c) for c in s['site']]
-    Xs, Ys = [c[0] for c in st], [c[1] for c in st]
-    m = DF.Map(ar, 500, (min(Xs) - 2.5, max(Xs) + 2.5, min(Ys) - 3.0, max(Ys) + 3.0))
-    p1.append(DF._poly(m, st, 0.5))
-    p1.append(DF._poly(m, s['bld1'], 0.7, fill='#e8f4f0'))
-    p1.append(DF._poly(m, s['annex'], 0.7, fill='#fdf3e3'))
-    for t, xy, size in s['marks']:
-        x, y = m(*xy)
-        p1.append(DF._t(x, y, t, size, 'middle', weight='700'))
-    for a, b, t in s['dists']:
-        qa, qb = m(*a), m(*b)
-        p1.append(DF._l(qa[0], qa[1], qb[0], qb[1], 0.3, DF.ACC))
-        vert = abs(qa[0] - qb[0]) < 0.01
-        if vert:
-            p1.append(DF._t(qa[0] + 1.0, (qa[1] + qb[1]) / 2 + 0.9, t, 2.6, 'start', color=DF.ACC))
-        else:
-            p1.append(DF._t((qa[0] + qb[0]) / 2, qa[1] - 0.9, t, 2.6, 'middle', color=DF.ACC))
-    for t, xy in s['adj']:
-        x, y = m(*xy)
-        p1.append(DF._t(x, y, t, 3.0, 'middle', color=DF.MUTE))
-    x, y = m(*s['lot_xy'])
-    p1.append(DF._t(x, y, s['lot'], 3.4, 'middle', weight='700'))
-    p1.append(DF.north_mark(ar[0] + ar[2] - 8, ar[1] + 12))
-    # 各階平面図：3つの区画（主である建物の1階・2階、附属建物 符号1）
-    cells2 = [(70, '建物の所在', s['addr'] + s['lot'] + '地'), (36, '家屋番号', s['house']), (36, '', ''), (40, '縮尺', '1/250')]
-    p2, ar2 = DF.frame(DF.FP_H, '各　階　平　面　図', cells2, [(91, '作成者', '（略）'), (91, '申請人', '（略）')], top_h=14.0, foot_h=12.0)
-    ax, ay, aw, ah = ar2
-    ws = [aw * 0.37, aw * 0.37, aw * 0.26]
-    x0 = ax
-    for i, (name, pts_, under) in enumerate((('主である建物　1階', s['bld1'], None), ('主である建物　2階', s['bld2'], s['bld1']), ('符号1　附属建物　1階', s['annex'], None))):
-        ref = under or pts_
-        sub = (x0, ay + 6, ws[i], ah * 0.60)
-        bn0, bn1 = min(c[0] for c in ref), max(c[0] for c in ref)
-        bx0, bx1 = min(c[1] for c in ref), max(c[1] for c in ref)
-        mm = DF.Map(sub, 250, (bn0 - 0.5, bn1 + 0.5, bx0 - 0.5, bx1 + 0.5))
-        if under:
-            p2.append(DF._poly(mm, under, 0.35, '1.4 1.0'))
-        p2.append(DF._poly(mm, pts_, 0.7, fill='#e8f4f0' if i < 2 else '#fdf3e3'))
-        n = len(pts_)
-        cxy = (sum(c[0] for c in pts_) / n, sum(c[1] for c in pts_) / n)
-        for j in range(n):
-            u, v = pts_[j], pts_[(j + 1) % n]
-            L = math.hypot(u[0] - v[0], u[1] - v[1])
-            side = 1 if ((v[1] - u[1]) * (cxy[0] - u[0]) - (v[0] - u[0]) * (cxy[1] - u[1])) < 0 else -1
-            p2.append(DF.dist_label(mm, u, v, f'{L:.2f}', side=-side, off=2.4, size=2.6))
-        p2.append(DF._t(sub[0] + 2, sub[1] - 1.4, name, 3.2, weight='700'))
-        if i < 2:
-            p2.append(DF._l(x0 + ws[i], ay + 2, x0 + ws[i], ay + ah * 0.66, 0.2, DF.MUTE, '0.8 0.8'))
-        x0 += ws[i]
-    y = ay + ah * 0.66 + 5
-    p2.append(DF._l(ax, y - 3.5, ax + aw, y - 3.5, 0.2, DF.MUTE))
-    p2.append(DF._t(ax + 2, y, '床面積と求積方法', 3.0, weight='700'))
-    for i, line in enumerate(s['areas']):
-        p2.append(DF._t(ax + 2 + (i % 2) * aw * 0.5, y + 4.6 + (i // 2) * 4.2, line, 2.8))
-    p2.append(DF.north_mark(ax + aw - 6, ay + ah * 0.66 + 6))
-    return DF.svg_wrap(DF.BD_H, p1), DF.svg_wrap(DF.FP_H, p2)
-
-
-if not getattr(DF.tatemono_solved, '_annex_wrap', False):
-    _orig = DF.tatemono_solved
-
-    def _wrap(s):
-        return annex_solved(s) if 'annex' in s else _orig(s)
-    _wrap._annex_wrap = True
-    DF.tatemono_solved = _wrap
-
 SPEC = {
  'site': [list(c) for c in site], 'bld1': [list(c) for c in b1], 'bld2': [list(c) for c in M2], 'annex': [list(c) for c in gg],
  'dists': [[list(a), list(b), t] for a, b, t in DISTS],
- 'marks': [['主である建物', [512.9, 306.6], 3.0], ['符号1', [509.6, 318.42], 3.0]],
+ 'inner_labels': [[0, 2]],
+ 'marks': [['主である建物', [513.3, 306.4], 2.5], ['符号1', [509.4, 314.6], 2.6]],
  'addr': ADDR, 'lot': LOT, 'house': '',
  'adj': [['市道', [521.6, 311.0]], ['6番', [511.0, 297.6]], ['8番', [511.0, 324.4]], ['12番', [500.4, 311.0]]],
  'lot_xy': [504.4, 307.0],
