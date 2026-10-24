@@ -45,10 +45,25 @@ def problems():
         for fp in glob.glob(os.path.join(HERE, d, 'problems', '*.json')):
             p = json.load(open(fp, encoding='utf-8'))
             out[p['id']] = (side, p.get('day'), p.get('title') or p.get('theme', ''))
+    for fp in glob.glob(os.path.join(HERE, 'saturday', 'q', 'SAT*-Q*.json')):   # 土曜の模擬（択一。型は朝と同じ M）
+        q = json.load(open(fp, encoding='utf-8'))
+        pid = os.path.basename(fp)[:-5]
+        out[pid] = ('morning', None, f'土曜模擬 第{q["no"]}問 {q["theme"]}')
+        SAT[pid] = {'traps': sorted({x['trap'] for x in q['statements'] if x.get('trap')}), 'field': q['field'], 'style': '土曜模擬'}
     return out
 
 
+SAT = {}
+
+
+def reg(pid):
+    """登録簿の分類（土曜模擬は問題ファイルの肢のひっかけから）"""
+    return REG.get(pid) or SAT.get(pid, {})
+
+
 def resolve(ref, probs):
+    if re.fullmatch(r'sat\d+-q\d+', ref.lower()):
+        ref = ref.upper()
     m = re.fullmatch(r'day0*(\d+)-(am|pm)', ref.lower())
     if m:
         day, side = int(m.group(1)), 'morning' if m.group(2) == 'am' else 'evening'
@@ -120,7 +135,7 @@ def cmd_add(a):
     err = validate(r, probs)
     if err:
         sys.exit('記録できない：' + ' ／ '.join(err))
-    expected = set(REG.get(pid, {}).get('traps', []))
+    expected = set(reg(pid).get('traps', []))
     extra = [t for t in traps if t != OTHER and t not in expected]
     os.makedirs(LOG, exist_ok=True)
     fp = os.path.join(LOG, r['date'].replace('-', '') + '.jsonl')
@@ -176,7 +191,7 @@ def write_report():
            '| 型 | 内容 | 引っかかった | 出会った | 率 |', '|---|---|---|---|---|']
     hit, met = collections.Counter(), collections.Counter()
     for r in rows:
-        for t in REG.get(r['id'], {}).get('traps', []):
+        for t in reg(r['id']).get('traps', []):
             met[(r['side'], t)] += 1
         if r['result'] != '○':
             for t in r['traps']:
@@ -190,7 +205,7 @@ def write_report():
     md += ['', '## 問題の型・分野別', '', '| 区分 | 解いた | ○ | 正答率 |', '|---|---|---|---|']
     grp = collections.defaultdict(list)
     for r in rows:
-        g = REG.get(r['id'], {})
+        g = reg(r['id'])
         if r['side'] == 'evening':
             for t in g.get('types', []):
                 grp[f'夜 {t} {TAX["evening_types"].get(t, {}).get("name", "")}'].append(r['result'])
