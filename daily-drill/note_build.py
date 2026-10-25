@@ -31,19 +31,24 @@ AM_LEFT = 'a softly faded open law book with a ribbon bookmark and a pencil, no 
 AM_RIGHT = 'a softly faded worksheet sheet with several empty bracket-shaped blanks drawn as plain underlined gaps (no letters inside), and a pencil'
 
 
-NIGHT_STYLE = ("STYLE: soft Japanese watercolor-like illustration of a calm, cozy NIGHT scene (this is the evening drill): a deep navy-to-indigo night sky with a gentle crescent moon, "
-               "a scattering of soft twinkling stars and faint wisps of night clouds, with a warm golden desk-lamp glow near the character. Clean outlines, consistent with the note.com explainer-column "
-               "header images of the same series (same watercolor touch, same layout), only the time of day is night. Keep exactly the same overall layout: the title block at the top center, "
-               "the single character at the bottom center, and topic scenes fading softly into the left and right edges.\n"
-               "Fill the whole canvas with the night sky (navy and indigo, soft stars, crescent moon); do not draw a daytime sky, a sun, or a bright blue sky. Light the character softly with the warm lamp light so her face stays clear and friendly.")
+NIGHT_STYLE = ("STYLE: soft Japanese watercolor-like illustration of an EVENING TWILIGHT landscape (this is the evening drill), consistent with the note.com explainer-column header images of the same series "
+               "(same watercolor touch, same layout); only the time of day is evening. BACKGROUND SCENE: a deep blue evening sky (dark navy at the top, softening to blue lower down) with soft, loosely "
+               "painted watercolor clouds lit in warm peach and orange from below; along the horizon, the last warm orange-gold sunset glow behind gently rolling distant hills; below the hills, "
+               "a quiet town with small warm window lights just coming on; leafy trees and bushes in the foreground framing the left and right edges in deep blue-green. Calm, cozy, and hopeful mood. "
+               "Keep exactly the same overall layout: the title block at the top center over the sky, the single character at the bottom center in front of the landscape.\n"
+               "Fill the whole canvas with this twilight landscape, edge to edge; do not draw a bright daytime sky or a sun. Light the character softly with the warm evening glow so her face stays clear and friendly.")
 
 
 def _night(p):
-    """見出し画像のプロンプトを夜の背景にする（夜の記述式用）。昼の空の指定を夜空に置き換え、文字が夜空でも読めるよう、題の後ろの光を明るくする。"""
+    """見出し画像のプロンプトを夕暮れ（宵）の背景にする（夜の記述式用）。昼の空の指定を夕暮れの風景に置き換え、文字が濃い空でも読めるよう題の後ろの光を明るくする。
+    左右の小物（電卓・図面など）は指定しない（TOPIC SCENES の節を外す）。"""
     a = p.index('STYLE:')
     b = p.index('Fill the whole canvas with the pastel sky and soft clouds.') + len('Fill the whole canvas with the pastel sky and soft clouds.')
     p = p[:a] + NIGHT_STYLE + p[b:]
-    p = p.replace('over a soft white cloud-shaped glow so it reads clearly', 'over a soft, bright cream-white moonlit cloud-shaped glow panel so the dark navy text reads clearly against the night sky')
+    p = p.replace('over a soft white cloud-shaped glow so it reads clearly', 'over a soft, bright cream-white cloud-shaped glow panel so the dark navy text reads clearly against the evening sky')
+    a = p.index('TOPIC SCENES')
+    b = p.index('LAYOUT:')
+    p = p[:a] + p[b:]
     return p
 
 
