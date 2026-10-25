@@ -20,7 +20,7 @@ IMG = os.path.join(HERE, 'images')
 def main():
     try:
         import pypdfium2 as pdfium
-        from PIL import Image  # noqa: F401
+        from PIL import Image
     except ImportError:
         sys.exit('pypdfium2 と pillow がない。 pip install pypdfium2 pillow で入れる。')
     args = sys.argv[1:]
@@ -46,6 +46,7 @@ def main():
                 page = doc[k]
                 scale = width / page.get_width()
                 im = page.render(scale=scale).to_pil().convert('RGB')
+                im = im.quantize(colors=64, method=Image.Quantize.MEDIANCUT)   # 色数を減らしてファイルを約3分の1に（文字・図の見た目は同じ）
                 out = os.path.join(IMG, f'{name}.png' if len(doc) == 1 else f'{name}-{k + 1}.png')
                 im.save(out, 'PNG', optimize=True)      # 文書情報（テキストのチャンク）は付けない
                 n_img += 1
