@@ -26,7 +26,7 @@ CIRC = ['①', '②', '③', '④', '⑤']
 CSS = """
 :root{--g:#009775;--ink:#1d2b27;--mute:#5d6b66;--line:#cfd8d4;--soft:#f2f8f6;--warn:#b3261e}
 *{box-sizing:border-box}
-html{background:#e9eeec}
+html{background:#e9eeec;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.6}
 .sheet{width:210mm;min-height:297mm;margin:8mm auto;background:#fff;padding:12mm 14mm;box-shadow:0 1px 6px rgba(0,0,0,.15);position:relative}
 .hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
@@ -101,12 +101,12 @@ blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);
 pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3px solid var(--g);font-family:"Space Mono",Menlo,monospace;font-size:8.6pt;white-space:pre-wrap;line-height:1.5}
 code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 @page{size:A4;margin:0}
-@page flow{size:A4;margin:12mm 0 14mm}
+@page flow{size:A4;margin:12mm 0 14mm;@bottom-right{content:"__LAW_BASE__";font-size:8pt;color:#5d6b66;margin-right:14mm}}
 @media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;min-height:0;overflow:visible;page:flow;padding-top:0;padding-bottom:10mm}
 .keep,.q,.ans,blockquote,.cl,li,tr,.full,.form .row,pre.keys,.ans-box,.clz p,.pt tr{break-inside:avoid;page-break-inside:avoid}
 h2,.q,.hd{break-after:avoid;page-break-after:avoid}
 p,.full,li{orphans:3;widows:3}
-.sheet.flow .foot{position:static;margin-top:4mm}
+.sheet.flow .foot{position:static;margin-top:4mm}.sheet.flow:not(:has(.amq)) .foot span:last-child{display:none}
 .sheet.flow:has(.amq){page:auto;padding-top:12mm;padding-bottom:12mm;min-height:297mm}.sheet.flow:has(.amq) .foot{position:absolute}}
 """
 
@@ -126,13 +126,25 @@ def log_box(p, side):
             f'<p class="src">記録：<code>python3 daily-drill/kiroku.py add {E(p["id"])} × {E(ex)} --item 欄の名前</code>（○ のときは型を書かない）。集計と解き直しの予定は daily-drill/log/report.md</p>')
 
 
+LAW_BASE = '令和8年8月時点の法令による'   # 各ページの下に出す法令の基準日（法令データを更新したらここを直す）
+
+
+CSS = CSS.replace('__LAW_BASE__', LAW_BASE)
+
+
+def _right(right):
+    return '　'.join(x for x in (right, LAW_BASE) if x)
+
+
 def pages(title, bodies, foot='', right='', flow=False):
+    right = _right(right)
     sheets = ''.join(f'<div class="sheet{" flow" if flow else ""}">{x}<div class="foot"><span>{E(foot)}　{i + 1}/{len(bodies)}</span><span>{E(right)}</span></div></div>' for i, x in enumerate(bodies))
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<title>{E(title)}</title><style>{CSS}</style></head><body>{sheets}</body></html>')
 
 
 def page(title, body, foot='', flow=False, right=''):
+    right = _right(right)
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<title>{E(title)}</title><style>{CSS}</style></head><body><div class="sheet{" flow" if flow else ""}">{body}'
             f'<div class="foot"><span>{E(foot)}</span><span>{E(right)}</span></div></div></body></html>')
