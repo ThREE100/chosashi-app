@@ -1,0 +1,42 @@
+﻿【メモ】問題を直した後に、noteに貼る画像を作り直す手順（Windows・PowerShell）
+
+■ 毎回の手順
+1. PowerShell を開き、リポジトリのフォルダに移る
+   cd $HOME\Documents\chosashi-app
+
+2. 最新の内容を取り込む（問題を直した分が入る）
+   git pull
+
+3. 画像を書き出す（朝・夜の「問題」ページだけ。解答・解説は書き出さない。全日で数分）
+   python daily-drill\make_images.py
+
+   一部だけ作り直すときは、日を指定する（例：第1日と第2日）
+   python daily-drill\make_images.py day001 day002
+
+   画像を大きくしたいとき（既定は横1240ピクセル）
+   python daily-drill\make_images.py --width 1600
+
+4. 最後に「…NG 0件」と出れば完了
+   できた画像：C:\Users\m2100\Documents\chosashi-app\daily-drill\images\
+
+■ 画像のファイル名
+- 朝の問題：day001-am.png（1枚）
+- 夜の問題：day001-pm-1.png（問題文）、day001-pm-2.png（図・測量成果など）
+- 番号は note のタイトル（Day001-AM／Day001-PM）と同じ日の番号
+
+■ 初回だけ必要なこと（済んでいれば不要）
+   python -m pip install pypdfium2 pillow
+   （PDFの手順の pypdf も入れておく：python -m pip install pypdf）
+
+■ 画像の中身
+- 印刷と同じ見た目（A4、網掛け・色あり、ヘッダー・フッターなし）
+- 右下に「令和8年8月時点の法令による」
+- 64色にして容量を約3分の1にしている（文字・図の見た目は同じ）
+- 画像に作成者・PCのユーザー名などの情報は入らない
+
+■ うまくいかないとき
+- 「Chrome / Edge が見つからない」と出たら、Edge の場所を指定して実行する
+    $env:CHROME_PATH = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+    python daily-drill\make_images.py
+- 「pypdfium2 と pillow がない」と出たら、初回の手順（pip install）をもう一度
+- 「can't open file」と出たら、手順1のフォルダに移っていない（cd をやり直す）

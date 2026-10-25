@@ -1,0 +1,34 @@
+﻿【メモ】問題を直した後に、配布用のPDFを作り直す手順（Windows・PowerShell）
+
+■ 毎回の手順
+1. PowerShell を開き、リポジトリのフォルダに移る
+   cd $HOME\Documents\chosashi-app
+
+2. 最新の内容を取り込む（問題を直した分が入る）
+   git pull
+
+3. PDFを書き出す（全ページ、数分かかる）
+   python daily-drill\make_pdf.py
+
+   一部だけ作り直すときは、名前の頭を付ける（例：第1日と第2日、土曜の模擬の第1回）
+   python daily-drill\make_pdf.py day001 day002 sat01
+
+4. 最後に「…NG 0件」と出れば完了
+   できたPDF：C:\Users\m2100\Documents\chosashi-app\daily-drill\pdf\
+
+■ 初回だけ必要なこと（済んでいれば不要）
+   python -m pip install pypdf
+
+■ PDFの中身
+- ヘッダー・フッター（日付・ファイルの場所）なし、網掛け・色あり、A4
+- 各ページの右下に「令和8年8月時点の法令による」
+- PDFのプロパティ（作成者など）は「毎日ドリル（土地家屋調査士試験）」などの決まった値だけ。
+  PCのユーザー名・ファイルの場所・ブラウザの情報は入らない（書き出し後に自動で検査している）
+
+■ うまくいかないとき
+- 「Chrome / Edge が見つからない」と出たら、Edge の場所を指定して実行する
+    $env:CHROME_PATH = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+    python daily-drill\make_pdf.py
+- 「pypdf がない」と出たら、初回の手順（pip install）をもう一度
+- 「can't open file」と出たら、手順1のフォルダに移っていない（cd をやり直す）
+- 作成者などの値を変えたいときは、daily-drill\make_pdf.py の先頭の DOC_INFO を書き換える（個人名は入れない）
