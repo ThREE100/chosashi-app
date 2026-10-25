@@ -31,8 +31,24 @@ AM_LEFT = 'a softly faded open law book with a ribbon bookmark and a pencil, no 
 AM_RIGHT = 'a softly faded worksheet sheet with several empty bracket-shaped blanks drawn as plain underlined gaps (no letters inside), and a pencil'
 
 
-def prompt(badge, l1, l2, hl, sub, left, right, kj):
-    return f"""Create a note.com article header image (eyecatch thumbnail), 1280x670px
+NIGHT_STYLE = ("STYLE: soft Japanese watercolor-like illustration of a calm, cozy NIGHT scene (this is the evening drill): a deep navy-to-indigo night sky with a gentle crescent moon, "
+               "a scattering of soft twinkling stars and faint wisps of night clouds, with a warm golden desk-lamp glow near the character. Clean outlines, consistent with the note.com explainer-column "
+               "header images of the same series (same watercolor touch, same layout), only the time of day is night. Keep exactly the same overall layout: the title block at the top center, "
+               "the single character at the bottom center, and topic scenes fading softly into the left and right edges.\n"
+               "Fill the whole canvas with the night sky (navy and indigo, soft stars, crescent moon); do not draw a daytime sky, a sun, or a bright blue sky. Light the character softly with the warm lamp light so her face stays clear and friendly.")
+
+
+def _night(p):
+    """見出し画像のプロンプトを夜の背景にする（夜の記述式用）。昼の空の指定を夜空に置き換え、文字が夜空でも読めるよう、題の後ろの光を明るくする。"""
+    a = p.index('STYLE:')
+    b = p.index('Fill the whole canvas with the pastel sky and soft clouds.') + len('Fill the whole canvas with the pastel sky and soft clouds.')
+    p = p[:a] + NIGHT_STYLE + p[b:]
+    p = p.replace('over a soft white cloud-shaped glow so it reads clearly', 'over a soft, bright cream-white moonlit cloud-shaped glow panel so the dark navy text reads clearly against the night sky')
+    return p
+
+
+def prompt(badge, l1, l2, hl, sub, left, right, kj, night=False):
+    out = f"""Create a note.com article header image (eyecatch thumbnail), 1280x670px
 (1.91:1 landscape aspect ratio).
 
 STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
@@ -61,6 +77,24 @@ Right side: {right}
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character, the title, and the numbering badge away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
 Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the numbering badge ({badge}), the two title lines, and the subtitle (whose number 10 is written with Arabic digits), reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji {kj}; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is."""
+    if night:
+        out = _night(out)
+    return out
+
+
+def pm_sentence(p):
+    """夜（記述式）のnote本文の冒頭に書く、どのような問題かの説明（1文）"""
+    m = p.get('minutes') or 15
+    t = p['title']
+    if p['kind'] == 'shinsei2':
+        form = t.split('の申請書')[0]
+        return f'今夜の記述式は、問題文・登記記録などの資料を読み取って、{form}の申請書の各欄（登記の目的・添付情報・申請人・土地や建物の表示など）を完成させる問題です（目安{m}分）。'
+    if p['kind'] == 'draw':
+        what = '地積測量図' if '地積測量図' in t else '建物図面・各階平面図'
+        return f'今夜の記述式は、与えられた座標・寸法から{what}を縮尺どおりに作図し、図面に書く事項（辺の長さ・地積や床面積・距離など）を判断する作図問題です（目安{m}分）。'
+    head, _, rest = t.partition('：')
+    topic = f'{head}（{rest}）' if rest else head
+    return f'今夜の記述式は、地積測量図や観測値などの資料から、{topic}を関数電卓の座標計算で求める計算問題です（目安{m}分）。'
 
 
 def build(day):
@@ -80,7 +114,7 @@ def build(day):
             title = TITLE_PM.format(day=day)
         assert TITLE_RE.match(title), title
         badge = f'Day{day:03d}-{ampm}'
-        pr = prompt(badge, l1, l2, hl, sub, left, right, kj)
+        pr = prompt(badge, l1, l2, hl, sub, left, right, kj, night=(ampm == 'PM'))
         md = f"""# {badge}
 
 ## noteタイトル
@@ -101,7 +135,9 @@ def build(day):
 
 ## 本文
 
-不要（HTMLまたはHTMLを画像にしたものを貼る）。元：{body}
+{pm_sentence(pm) + chr(10) + chr(10) + '（このあとに問題の画像を貼る：images/day%03d-pm-1.png・-2.png）' % day if ampm == 'PM' else '不要（HTMLまたはHTMLを画像にしたものを貼る）。'}
+
+元：{body}
 """
         fn = os.path.join(OUT, f'day{day:03d}-{ampm.lower()}.md')   # ファイル名は小文字のまま
         open(fn, 'w', encoding='utf-8').write(md)

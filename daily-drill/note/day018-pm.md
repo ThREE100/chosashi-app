@@ -16,8 +16,8 @@
 Create a note.com article header image (eyecatch thumbnail), 1280x670px
 (1.91:1 landscape aspect ratio).
 
-STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
-Fill the whole canvas with the pastel sky and soft clouds.
+STYLE: soft Japanese watercolor-like illustration of a calm, cozy NIGHT scene (this is the evening drill): a deep navy-to-indigo night sky with a gentle crescent moon, a scattering of soft twinkling stars and faint wisps of night clouds, with a warm golden desk-lamp glow near the character. Clean outlines, consistent with the note.com explainer-column header images of the same series (same watercolor touch, same layout), only the time of day is night. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
+Fill the whole canvas with the night sky (navy and indigo, soft stars, crescent moon); do not draw a daytime sky, a sun, or a bright blue sky. Light the character softly with the warm lamp light so her face stays clear and friendly.
 
 CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent or change any of them. Place her at the bottom center. POSE IS NOT FIXED: do not copy any pose from the attached images or from earlier header images; let her take a free, natural pose of your own choosing that fits the topic and suits her (for example standing, sitting, leaning, gesturing, or holding a small prop), and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text, and keep her hairstyle exactly as in the attached images. Keep her human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
 
@@ -25,7 +25,7 @@ CRITICAL TEXT REQUIREMENT: The title and the subtitle must be rendered in standa
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
-TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft, bright cream-white moonlit cloud-shaped glow panel so the dark navy text reads clearly against the night sky. Line 1 is dark navy with a pale yellow marker stroke behind it:
 毎日これだけ
 Line 2 is larger; the phrase 申請書練習 is red-orange and the rest is dark navy:
 記述式の申請書練習
@@ -46,4 +46,8 @@ Final check before rendering: confirm the image is exactly 1280x670 landscape; c
 
 ## 本文
 
-不要（HTMLまたはHTMLを画像にしたものを貼る）。元：out/day018-pm.html（問題）／out/day018-pm-ans.html（解答）
+今夜の記述式は、問題文・登記記録などの資料を読み取って、区分建物表題登記（新築した二世帯の建物）の申請書の各欄（登記の目的・添付情報・申請人・土地や建物の表示など）を完成させる問題です（目安15分）。
+
+（このあとに問題の画像を貼る：images/day018-pm-1.png・-2.png）
+
+元：out/day018-pm.html（問題）／out/day018-pm-ans.html（解答）
