@@ -20,7 +20,7 @@
 
 心裡留保・虚偽表示・錯誤・詐欺・強迫は、いずれも「本人の意思表示に問題がある」という点では共通しますが、①効果が無効なのか取消しなのか、②あとから登場した第三者がどこまで保護されるのか、という2点で扱いが大きく異なります。
 
-この違いを条文ごとに整理しながら、肢1〜5を順番に見ていきましょう。
+この違いを条文ごとに整理しながら、1〜5を順番に見ていきましょう。
 
 ### 1：相手方が真意を知っていた心裡留保は、無効になる
 
@@ -50,13 +50,11 @@ AとBが通謀して行った仮装の契約（虚偽表示）は、当事者間
 
 現行の民法95条は、法律行為の目的及び取引上の社会通念に照らして重要な錯誤に基づく意思表示を「取り消すことができる」と定めたうえで（同条1項）、錯誤が表意者の重大な過失によるものであった場合には、相手方が表意者に錯誤があることを知り又は重大な過失によって知らなかったとき、相手方が表意者と同一の錯誤に陥っていたときを除き、その取消しをすることができないとしています（同条3項）。
 
-本肢は「重大な過失があったときは、Aはその意思表示の取消を主張することができない」としており、現行法の規律と原則として一致します。なお、肢文には95条3項各号の例外（相手方が表意者の錯誤を知り又は重大な過失で知らなかったとき、相手方が同一の錯誤に陥っていたとき）が書かれていませんが、本肢はそのような事情のない通常の場面を述べたものとして読みます。
+本肢は「重大な過失があったときは、Aはその意思表示の取消を主張することができない」としており、現行法の規律と原則として一致します。
+
+なお、この記述には95条3項各号の例外（相手方が表意者の錯誤を知り又は重大な過失で知らなかったとき、相手方が同一の錯誤に陥っていたとき）が書かれていませんが、本肢はそのような事情のない通常の場面を述べたものとして読みます。
 
 したがって本肢は正しい記述です。
-
-なお、平成17年の出題当時の旧95条では、錯誤による意思表示の効果は「取消し」ではなく「無効」で、重大な過失がある表意者は自らその無効を主張できないとされていました。
-
-「取消し」が条文に明記されたのは平成29年民法改正（令和2年4月1日施行）からですが、重過失のある表意者が自らその効果を主張できないという結論は、原則として当時も現在も変わりません（現行法は3項で例外を明文化しています）。
 
 **たとえば**、Aさんが土地の面積を大きく勘違いしたまま契約書にサインしてしまい、しかもその勘違いが「少し確認すればすぐ分かった」ような重大な不注意によるものだったとします。
 
@@ -94,7 +92,7 @@ AとBが通謀して行った仮装の契約（虚偽表示）は、当事者間
 
 心裡留保・虚偽表示・錯誤・詐欺には、いずれも善意の第三者を保護する規定がありますが（心裡留保〔93条2項〕と虚偽表示〔94条2項〕は善意のみ、錯誤〔95条4項〕と詐欺〔96条3項〕は善意かつ無過失が要件）、強迫だけは第三者保護規定がなく、被害者側が一貫して手厚く保護されます。この「強迫だけは例外」という一点を見抜けるかどうかが、この問題の分かれ目です。
 
-**正解：肢５（選択肢５番）**
+**正解：５（選択肢５番）**
 
 ---
 
@@ -103,11 +101,11 @@ AとBが通謀して行った仮装の契約（虚偽表示）は、当事者間
 - **問題文の差し替え（2026-10-02）**：問題文は、提供された原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）の表記に置き換えました。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（選択肢5番）は、土地家屋調査士試験対策アプリの検証済みデータベース（この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、kaisetsu_plus.jsonのapproach／pitfalls／keyPointsを主たる根拠として使用）で確認済みです。
-- 条文レベルで確認できたもの：肢1（民法93条ただし書・相手方悪意/有過失の心裡留保は無効）、肢2（民法94条2項・虚偽表示は善意の第三者に対抗不可）、肢4（民法96条1項・詐欺による意思表示は取消可能）、肢5（民法96条3項は詐欺についてのみ善意無過失の第三者保護を定めており、強迫にはこの保護規定がないこと）は、WebSearchで複数の解説サイト（Wikibooks「民法第96条」「民法第93条」「民法第94条」等）の条文引用と突き合わせて確認しました。
-- 肢3については、平成17年当時（平成29年民法改正前）の旧民法95条は「法律行為の要素に錯誤があったときは、意思表示は無効とする。ただし、表意者に重大な過失があったときは、表意者は、自らその無効を主張することができない」と定めており、重過失のある表意者が自らその効果を主張できないという結論部分はこの旧95条ただし書と一致することをWebSearchで確認しました。ただし、本肢の問題文は「取消を主張することができない」という表現を使っており、平成17年当時の条文上の効果は本来「無効」であって「取消」ではありません（「取消」という効果が明文化されたのは令和2年施行の改正民法以降です）。この用語のずれはkaisetsu_plus.jsonのpitfallsにも「この問いでは正誤判定に影響しない」と明記されており、結論（肢3は正しい記述として扱う）自体はデータベースの判定に従っていますが、条文上の正確な効果は「無効」であった点を確認事項として正直に残します。（2026-10-01、2026年時点の法令による解説にそろえるため、本文の肢3は現行95条1項・3項で説明し、旧95条の扱いは補足に回しました。）
+- 条文レベルで確認できたもの：1（民法93条ただし書・相手方悪意/有過失の心裡留保は無効）、2（民法94条2項・虚偽表示は善意の第三者に対抗不可）、4（民法96条1項・詐欺による意思表示は取消可能）、5（民法96条3項は詐欺についてのみ善意無過失の第三者保護を定めており、強迫にはこの保護規定がないこと）は、WebSearchで複数の解説サイト（Wikibooks「民法第96条」「民法第93条」「民法第94条」等）の条文引用と突き合わせて確認しました。
+- 3については、平成17年当時（平成29年民法改正前）の旧民法95条は「法律行為の要素に錯誤があったときは、意思表示は無効とする。ただし、表意者に重大な過失があったときは、表意者は、自らその無効を主張することができない」と定めており、重過失のある表意者が自らその効果を主張できないという結論部分はこの旧95条ただし書と一致することをWebSearchで確認しました。ただし、本肢の問題文は「取消を主張することができない」という表現を使っており、平成17年当時の条文上の効果は本来「無効」であって「取消」ではありません（「取消」という効果が明文化されたのは令和2年施行の改正民法以降です）。この用語のずれはkaisetsu_plus.jsonのpitfallsにも「この問いでは正誤判定に影響しない」と明記されており、結論（3は正しい記述として扱う）自体はデータベースの判定に従っていますが、条文上の正確な効果は「無効」であった点を確認事項として正直に残します。（2026-10-26、出題当時との比較表現は本文から削除し、この確認事項ブロックにのみ記載する形に統一しました。本文は現行95条1項・3項による説明だけで完結させています。）
 - アガルート等のローカル教材PDFは本作業環境には存在せず、参照していません。本記事は上記アプリの検証済みデータベースと、WebSearchによる条文の裏取りのみに基づいて作成しています。
-- **96条3項の要件に関する時点のずれ（2026-09-19確認）**：肢5の解説で述べた「詐欺による意思表示の取消しは、善意かつ過失がない第三者には対抗できません（民法96条3項）」という記述は、`note-articles/laws/minpou-1-soukyoku-bukken.md`収録の現行条文の文言と一致しています。もっとも、この「善意でかつ過失がない」という要件は平成29年民法改正（令和2年4月1日施行）で追加されたものであり、本問が出題された平成17年当時の旧96条3項は「善意の第三者に対抗することができない」という文言で、無過失までは明文の要件とされていませんでした（WebSearchで複数の解説サイトにより確認）。もっとも、肢5自体の正誤は、強迫について詐欺（96条3項）のような第三者保護規定が置かれていないという点によるものであり、詐欺の第三者保護要件が善意のみか善意無過失かによって肢5の結論が左右されることはありません。本文はこの点を修正せず、確認事項として開示するにとどめます。
-- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（民法93条・94条2項・96条1項及び3項の引用文言を`note-articles/laws/minpou-1-soukyoku-bukken.md`の現行条文原文と突合し一致を確認。肢3の旧95条についてはWebSearchで平成29年改正前の条文文言を再確認。判例番号・先例番号は本文に記載していない）、B（正解「肢5（選択肢5番）」がまとめの正誤判定と整合していることを確認）、C（見出し・文体・正解の先出しの有無・全角括弧を確認し問題なし）、D（Markdown表の不使用を確認）、E（インフォグラフィック・作図ガイドの内容が本文と一致していることを確認）、F（テンプレート構造・タイトル文字数を確認）、G（重複出題チェック：`note-articles/*-mondai/`を検索し、意思表示の瑕疵を扱う類似分野の記事が平成19年度第2問・平成23年度第1問・令和4年度第2問・令和5年度第1問・令和6年度第1問・令和7年度第1問に存在することを確認しましたが、本問と同一の組合せ・文言の記事はなし。最新法令チェック：上記のとおり96条3項の要件に関する時点のずれを新たに発見し、確認事項ブロックに追記）を行いました。
+- **96条3項の要件に関する時点のずれ（2026-09-19確認）**：5の解説で述べた「詐欺による意思表示の取消しは、善意かつ過失がない第三者には対抗できません（民法96条3項）」という記述は、`note-articles/laws/minpou-1-soukyoku-bukken.md`収録の現行条文の文言と一致しています。もっとも、この「善意でかつ過失がない」という要件は平成29年民法改正（令和2年4月1日施行）で追加されたものであり、本問が出題された平成17年当時の旧96条3項は「善意の第三者に対抗することができない」という文言で、無過失までは明文の要件とされていませんでした（WebSearchで複数の解説サイトにより確認）。もっとも、5自体の正誤は、強迫について詐欺（96条3項）のような第三者保護規定が置かれていないという点によるものであり、詐欺の第三者保護要件が善意のみか善意無過失かによって5の結論が左右されることはありません。本文はこの点を修正せず、確認事項として開示するにとどめます。
+- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（民法93条・94条2項・96条1項及び3項の引用文言を`note-articles/laws/minpou-1-soukyoku-bukken.md`の現行条文原文と突合し一致を確認。3の旧95条についてはWebSearchで平成29年改正前の条文文言を再確認。判例番号・先例番号は本文に記載していない）、B（正解「5（選択肢5番）」がまとめの正誤判定と整合していることを確認）、C（見出し・文体・正解の先出しの有無・全角括弧を確認し問題なし）、D（Markdown表の不使用を確認）、E（インフォグラフィック・作図ガイドの内容が本文と一致していることを確認）、F（テンプレート構造・タイトル文字数を確認）、G（重複出題チェック：`note-articles/*-mondai/`を検索し、意思表示の瑕疵を扱う類似分野の記事が平成19年度第2問・平成23年度第1問・令和4年度第2問・令和5年度第1問・令和6年度第1問・令和7年度第1問に存在することを確認しましたが、本問と同一の組合せ・文言の記事はなし。最新法令チェック：上記のとおり96条3項の要件に関する時点のずれを新たに発見し、確認事項ブロックに追記）を行いました。
 
 ---
 
@@ -162,6 +160,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 悪・強・対・錯・誤・詐・張・無・効・過・失 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -186,24 +200,24 @@ Subtitle (smaller, centered, 1行):
 無効になる意思表示
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 相手が知っていた心裡留保は無効
 Illustration: 男性キャラクターAが「この土地、100万円で売るよ」という吹き出しを
 出しながら、頭上に「本当は売る気がない」という思考の吹き出しを浮かべている。向かい
 合う女性キャラクターBの頭上に「知っていた」という小さなラベルとチェックマークの
 アイコン。二人の間にある契約書のアイコンに大きく「無効」の朱色スタンプが押されている。
+Words allowed inside this illustration (verbatim, nothing else): 「この土地、100万円で売るよ」「本当は売る気がない」「知っていた」「無効」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 相手が悪意なら無効
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 虚偽表示は善意の第三者に対抗不可
 Illustration: 男性キャラクターAと女性キャラクターBが握手をしながら、二人の間に
 「仮装の契約」と書かれた破れた紙のラベルのアイコン。その契約書から矢印が伸びて、
 盾のアイコンを持つ第三者キャラクターCにつながり、Cの盾には「善意」の文字。Aから
 伸びる「無効を主張」という吹き出しがCの盾に跳ね返されている。
+Words allowed inside this illustration (verbatim, nothing else): 「仮装の契約」「善意」「無効を主張」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 善意の第三者に対抗不可
 
@@ -211,27 +225,26 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 取り消すことができる意思表示
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 重過失の錯誤は自分で主張不可
 Illustration: 男性キャラクターAが契約書にサインしながら困惑した表情。契約書の上に
 虫眼鏡のアイコンがあり「重大な勘違い」というラベル。Aの手が「取消しを主張」という
 ボタンに伸びているが、そのボタンには鍵のアイコンがかかっている。
+Words allowed inside this illustration (verbatim, nothing else): 「重大な勘違い」「取消しを主張」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 重過失なら主張不可
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 詐欺による意思表示は取消せる
 Illustration: 女性キャラクターBが「この土地は近々開発される」という嘘の吹き出しを
 出しながら、男性キャラクターAに契約書を差し出している。Aは契約書にサインした後、
 破線の矢印の先で契約書に「取消」のスタンプを押している。
+Words allowed inside this illustration (verbatim, nothing else): 「この土地は近々開発される」「取消」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 詐欺は取消し可
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 強迫の取消しは善意者にも対抗できる
 Illustration: 女性キャラクターBが拳を振り上げて男性キャラクターAを脅す構図。Aは
@@ -239,6 +252,7 @@ Illustration: 女性キャラクターBが拳を振り上げて男性キャラ�
 ともに引き裂き、その効果を示す矢印が、盾のアイコンを持つ第三者キャラクターCまで
 届いている。Cの盾には「善意」の文字があるが、盾にひびが入っており、対抗が及んで
 いることを示す。
+Words allowed inside this illustration (verbatim, nothing else): 「取消」「善意」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 善意者にも対抗可
 
@@ -249,12 +263,14 @@ standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chin
 attention to 悪・強・対・錯・誤・詐・張・無・効・過・失. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro
+illustration or paragraph block between the header and the cards, confirm
+that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -318,6 +334,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -469,7 +494,10 @@ element where the source article only requires 善意, that Panel 5's 対比
 枠型 layout clearly distinguishes its highlighted 強迫 framework from the
 faded 詐欺 framework rather than blending the two, that each 着眼点
 callout states a checking order or a correct-vs-mistaken distinction
-rather than only a conclusion, confirm nothing is rendered below the last
+rather than only a conclusion, confirm that no diagram or illustration
+contains any text other than the words specified above (no inscriptions
+on stones or signs, no pseudo-writing) and that each specified word is
+clearly legible, confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
 kind), and confirm the entire canvas, edge to edge, is filled with a
