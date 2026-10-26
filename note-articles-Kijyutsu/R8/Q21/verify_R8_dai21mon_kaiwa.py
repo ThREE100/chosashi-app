@@ -186,16 +186,16 @@ markers = [l for l in text.splitlines() if l.startswith('> 【画像挿入】')]
 MAP = [('時系列の図', 'zu01_jikeiretsu'), ('北を上にして', 'zu02_zentaizu'), ('注の仕分け', 'zu03_chuu_shiwake'),
        ('不動産登記規則第72条第1項の整理図', 'zu04_kisoku72_1'), ('本人確認の書類', 'zu05_shorui'), ('第1欄', 'dai1ran_kansei'),
        ('L点の求め方', 'zu06_L_ten'), ('K点の求め方', 'zu07_K_ten'), ('第2欄', 'dai2ran_kansei'),
-       ('条件の数え方', 'zu08_K_jouken'), ('補助線で交点の式を作り直す', 'zu09_K_hojosen'), ('5つの型の表', 'zu10_K_pattern'),
-       ('手が止まったときの手順', 'zu11_K_mayottara'),
-       ('申請件数と登録免許税', 'zu12_kensuu'), ('合筆の制限', 'zu13_goppitsu_seigen'), ('本件登記1と本件登記2の地積測量図の範囲', 'zu14_chiseki_hani_8gatsu'),
-       ('甲土地の面積の計算', 'zu15_kou_menseki'), ('甲土地の公差', 'zu16_kousa'), ('（ロ）三角形I・K・Lの面積', 'zu17_ro_menseki'), ('（イ）2番19の地積', 'zu18_i_chiseki'), ('合筆後の2番42', 'zu19_gappei_go'),
-       ('申請人の住所', 'zu20_juusho'), ('合筆の登記識別情報の図', 'zu21_shikibetsu_1hitsu'), ('甲区の持分', 'zu22_kouku_mochibun'), ('「添付書類」欄の誤答', 'toukishinseisho_machigai'),
-       ('（ロ）の原因の書き方', 'zu23_bunkatsu'), ('分合筆で変わる欄', 'zu24_chimoku_ran'),
-       ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('C点の求め方', 'zu25_C_housha'), ('第4欄', 'dai4ran_kansei'),
-       ('本件登記2の分筆', 'zu26_sanpitsu'), ('新しい地番', 'zu27_chiban'), ('11月の分筆後の合計と公差', 'zu28_kousa_11gatsu'), ('辺長10本の求め方', 'zu29_henchou'), ('地積測量図に描く範囲', 'zu30_I_egakanai'),
-       ('隣接地の地番の図', 'zu31_rinsetsu'),
-       ('第5欄の地積測量図', 'zu32_chiseki_sokuryouzu'), ('本番で解く順番', 'zu33_kaku_junban')]
+       ('条件の数え方', 'zu08_K_jouken'), ('補助線で交点の式を作り直す', 'zu09_K_hojosen'), ('5つの型の表', 'zu10_K_pattern'), ('線を延ばして描く図', 'zu11_K_nobasu'),
+       ('手が止まったときの手順', 'zu12_K_mayottara'),
+       ('申請件数と登録免許税', 'zu13_kensuu'), ('合筆の制限', 'zu14_goppitsu_seigen'), ('本件登記1と本件登記2の地積測量図の範囲', 'zu15_chiseki_hani_8gatsu'),
+       ('甲土地の面積の計算', 'zu16_kou_menseki'), ('甲土地の公差', 'zu17_kousa'), ('（ロ）三角形I・K・Lの面積', 'zu18_ro_menseki'), ('（イ）2番19の地積', 'zu19_i_chiseki'), ('合筆後の2番42', 'zu20_gappei_go'),
+       ('申請人の住所', 'zu21_juusho'), ('合筆の登記識別情報の図', 'zu22_shikibetsu_1hitsu'), ('甲区の持分', 'zu23_kouku_mochibun'), ('「添付書類」欄の誤答', 'toukishinseisho_machigai'),
+       ('（ロ）の原因の書き方', 'zu24_bunkatsu'), ('分合筆で変わる欄', 'zu25_chimoku_ran'),
+       ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('C点の求め方', 'zu26_C_housha'), ('第4欄', 'dai4ran_kansei'),
+       ('本件登記2の分筆', 'zu27_sanpitsu'), ('新しい地番', 'zu28_chiban'), ('11月の分筆後の合計と公差', 'zu29_kousa_11gatsu'), ('辺長10本の求め方', 'zu30_henchou'), ('地積測量図に描く範囲', 'zu31_I_egakanai'),
+       ('隣接地の地番の図', 'zu32_rinsetsu'),
+       ('第5欄の地積測量図', 'zu33_chiseki_sokuryouzu'), ('本番で解く順番', 'zu34_kaku_junban')]
 judge(f'マーカーの数 {len(markers)}（{len(MAP)}）', len(markers) == len(MAP))
 for mk, (head, png) in zip(markers, MAP):
     judge(f'マーカー「{head}」→ zu/R8_dai21mon_{png}.png', head in mk and os.path.exists(os.path.join(HERE, 'zu', f'R8_dai21mon_{png}.png')))
@@ -207,6 +207,7 @@ TRAPS = [('本人確認情報の（ア）は「登記名義人」', '不動産�
          ('（イ）〜（エ）は第2項第1号の書類', '本人確認の書類', '旅券等は、旅券と乗員手帳'),
          ('L点はMから真北に6.05m', 'L点の求め方', '区画の形が変わってしまう'),
          ('K点はJLとDIの交点', 'K点の求め方', 'KはちゃんとDとIの直線の上'),
+         ('問題用紙の図は線が途中で切れている', '線を延ばして描く図', 'どちらも線分の内側の交点よ'),
          ('本件登記1は分合筆の1件', '申請件数と登録免許税', '三角形は地番をもらわないまま'),
          ('家庭菜園でも宅地', '合筆の制限', '合筆の制限には当たりません'),
          ('本件登記1はC点を待たずに申請できる', '本件登記1と本件登記2の地積測量図の範囲', '11月5日なんですね'),
@@ -250,12 +251,26 @@ judge('高さの比の値（21.6825・−67.3118、和88.9943、K一致）',
       disp((_J - _D).conjugate() * (_I - _D)) == '7.0977 ＋ 21.6825i' and disp((_L - _D).conjugate() * (_I - _D)) == '231.3162 − 67.3118i'
       and disp(_J + (_L - _J) * 21.6825 / (21.6825 + 67.3118)) == '506.2288… ＋ 492.1798…i')
 
+# ---- 藍子の質問の行を全部拾い、思い込みを正す答えなら図・まとめ・TRAPSがそろっているか（チェック指示書6-2の7） ----
+# 値が None：情報を聞くだけの質問（答えが「違う／しなくていい」ではない）。値が文字列：訂正の図のマーカーの語（TRAPSにもある）
+QUESTIONS = {'電卓の準備はどうしますか': None, '読んではいたんです': None, '交点の式を思い出せなかったら': None,
+             '高さはどうやって出すんですか': None, '全然知らない形の問題': None,
+             '問題用紙の調査図素図じゃだめなんですか': '線を延ばして描く図', '見当』は、どうやってつけるんですか': None,
+             '何を見て決めればいいですか': None, '座標で計算した365.97㎡……': '合筆後の2番42', '地番はどうなりますか': None,
+             '本番の時間配分はどうしたらいいですか': None}
+_tl = text.split('\n')
+_qs = [_tl[i + 1] for i, l_ in enumerate(_tl[:-1]) if l_.startswith('**藍子**') and ('？' in _tl[i + 1] or 'でしょうか' in _tl[i + 1])]
+judge(f'藍子の質問の行 {len(_qs)}個がすべて分類済み', len(_qs) == len(QUESTIONS) and all(any(k in q for k in QUESTIONS) for q in _qs))
+for k, fk in QUESTIONS.items():
+    if fk:
+        judge(f'  思い込みを正す質問「{k}」の図がTRAPSにある', any(f == fk for _, f, _ in TRAPS))
+
 # ---- 解説図プロンプト ----
 a = base.index('あなたは土地家屋調査士試験の教材デザイナーです。')
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + title[2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-judge('解説図プロンプトの図の数 33枚', len(re.findall(r'^- \*\*図\d+：', fig, re.M)) == 33)
+judge('解説図プロンプトの図の数 34枚', len(re.findall(r'^- \*\*図\d+：', fig, re.M)) == 34)
 nums = [int(p[2:4]) for _, p in MAP if p.startswith('zu')]
 judge(f'解説図のPNGの番号が記事の挿入順に1〜{len(nums)}', nums == list(range(1, len(nums) + 1)))
 judge('作図スクリプトのタイトルに図番がない', not re.search(r"(new_figure|board|suptitle)\(\s*'図\d", draw))
