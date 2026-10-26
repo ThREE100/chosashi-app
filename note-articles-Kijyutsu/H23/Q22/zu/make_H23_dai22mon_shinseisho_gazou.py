@@ -44,12 +44,12 @@ table.bldg td.head {{ text-align: center; font-size: 18px; height: 70px; }}
 table.bldg td.val {{ height: 64px; }}
 table.bldg td.entry {{ height: 150px; }}
 table.bldg td.center {{ text-align: center; }}
-table.bldg td.struct {{ font-size: 17px; }}
+table.bldg td.struct {{ font-size: 17px; word-break: keep-all; }}
 table.bldg td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }}
 table.bldg td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }}
 table.bldg td.genin {{ font-size: 17px; }}
 table.bldg td .ink {{ font-size: 20px; }}
-table.bldg td.struct .ink, table.bldg td.genin .ink {{ font-size: 18px; }}
+table.bldg td.struct .ink, table.bldg td.genin .ink {{ font-size: 17px; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 第2欄 */
@@ -82,9 +82,10 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
              f'stroke="{GREEN}" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="{GREEN}" '
              f'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
-# 列（答案用紙の比率）：主である建物又は附属建物・①種類・②構造・③床面積（整数部・小数部）・登記原因及びその日付
-COLS = ('<colgroup><col style="width:13%"><col style="width:9%"><col style="width:31%">'
-        '<col style="width:12%"><col style="width:8%"><col style="width:27%"></colgroup>')
+# 列（試験の答案用紙の原本 touan_youshi/H23_dai22mon_touan_youshi_p1.png の罫線から測った比率。表の幅949px：131・88・286・195・249px
+# ＝13.8・9.3・30.1・20.5・26.2％。床面積の列は整数部12.3％・小数部8.2％に分ける。2026-10-26に原本を受け取って測り直した）
+COLS = ('<colgroup><col style="width:13.8%"><col style="width:9.3%"><col style="width:30.1%">'
+        '<col style="width:12.3%"><col style="width:8.2%"><col style="width:26.2%"></colgroup>')
 HEAD = ('<tr><td class="head lab2">主である建物<br>又は附属建物</td><td class="head">①種類</td>'
         '<td class="head">②構　造</td><td class="head" colspan="2">③床面積<br>（m²）</td>'
         '<td class="head">登記原因<br>及びその日付</td></tr>')
@@ -132,10 +133,10 @@ table = (f'<table class="bldg">{COLS}'
          f'{HEAD}{rows}</table>')
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('建物表題部変更登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:62px">{ink('建物図面　各階平面図　所有権証明書　代理権限証書')}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:54px">{ink('建物表題部変更登記')}</div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:54px">{ink('建物図面　各階平面図　所有権証明書　代理権限証書')}</div></div>
 <div class="dateline">平成23年8月21日申請　　Ａ地方法務局</div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:110px">{ink('Ａ市Ｂ町二丁目５番地２　畑山邦彦')}</div></div>
+<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:104px">{ink('Ａ市Ｂ町二丁目５番地２　畑山邦彦')}</div></div>
 <div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
 {table}
 <div class="caption">平成23年度 土地家屋調査士試験 第22問 問1 登記申請書 解答例</div>
@@ -209,7 +210,7 @@ machigai_shozai = page(f'''<div class="tall" style="min-height:1320px; display:f
 <div class="caption" style="margin:10px 0 30px">平成23年度 第22問｜申請書の所在の欄は主である建物の5番地2のまま</div></div>''')
 
 if __name__ == '__main__':
-    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
         pg = browser.new_page(viewport={'width': 1200, 'height': 800})

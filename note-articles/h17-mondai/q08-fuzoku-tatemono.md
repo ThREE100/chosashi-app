@@ -28,7 +28,9 @@
 
 建物の表示に関する登記の申請では、建物又は附属建物が区分建物であるときは、その建物が属する一棟の建物の構造及び床面積も申請情報の内容としなければなりません。一棟の建物に名称があるときは、その名称も申請情報の内容です（不動産登記令3条8号ヘ・ト）。
 
-ただし、一棟の建物の名称を申請情報の内容とする場合には、構造及び床面積を省略できます（同号ヘのかっこ書き）。もっとも、このかっこ書きには「ロに規定する場合を除く」とあり、ロは建物の表題登記を申請する場合です。つまり、建物の表題登記では、名称を申請情報にしても構造・床面積を省略することはできません。
+ただし、一棟の建物の名称を申請情報の内容とする場合には、構造及び床面積を省略できます（同号ヘのかっこ書き）。もっとも、このかっこ書きには「ロに規定する場合を除く」とあり、ロは建物の表題登記を申請する場合です。
+
+つまり、建物の表題登記では、名称を申請情報にしても構造・床面積を省略することはできません。
 
 アは「甲建物の表題登記の申請」の場面で、名称を申請情報にすれば構造・床面積を要しないとしているため、誤りです。
 
@@ -38,7 +40,9 @@
 
 ### イ：附属建物が区分建物でないときは、所在・地番・種類・構造・床面積を申請情報としなければならない
 
-附属建物が区分建物でない、ごく普通の建物（物置や車庫など）である場合には、通常の建物の表示に関する登記事項と同じように、その附属建物が所在する市、区、郡、町、村、字及び土地の地番、並びに種類、構造及び床面積を申請情報の内容としなければなりません（不動産登記令3条8号ホ）。これらは不動産登記法44条1項が定める登記事項でもあります。
+附属建物が区分建物でない、ごく普通の建物（物置や車庫など）である場合には、通常の建物の表示に関する登記事項と同じように、その附属建物が所在する市、区、郡、町、村、字及び土地の地番、並びに種類、構造及び床面積を申請情報の内容としなければなりません（不動産登記令3条8号ホ）。
+
+これらは不動産登記法44条1項が定める登記事項でもあります。
 
 イはこの原則どおりの内容で、正しい記述です。
 
@@ -161,6 +165,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・番・建・物・登・記・所 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -185,32 +205,36 @@ Subtitle (smaller, centered, 1行):
 申請情報に書くべきこと
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 一棟の名称のみでは省略不可
-Illustration: Isometric scene of a brand-new building icon (labeled 甲建物)
-with a ribbon reading 初めての表題登記; beside it, a torn-paper label
-reading 一棟の建物の名称 with a red X crossing out a speech bubble that
-says 構造・床面積は省略可; next to it, a clipboard/checklist icon
-reading 構造・床面積の記載が必要 with a green checkmark, showing that
+Illustration: Isometric scene of a brand-new building icon labeled「甲建物」
+with a ribbon reading「初めての表題登記」; beside it, a torn-paper label
+reading「一棟の建物の名称」with a red X crossing out a speech bubble that
+says「構造・床面積は省略可」; next to it, a clipboard/checklist icon
+reading「構造・床面積の記載が必要」with a green checkmark, showing that
 description of structure and floor area is still required even when the
 name is given.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲建物」「初めての表題登記」「一棟の建物の名称」「構造・床面積は省略可」
+「構造・床面積の記載が必要」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 省略はできない
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物でなければ細かく記載
-Illustration: Isometric small storage-shed icon (labeled 乙建物, 区分建物
-ではない) with a clipboard icon representing 申請情報, on which are
+Illustration: Isometric small storage-shed icon labeled「乙建物」「区分建物
+ではない」with a clipboard icon labeled「申請情報」, on which are
 attached exactly five torn-paper labels in this order, each showing one
 item only, no duplication, no omission, no paraphrasing:
-1. 所在
-2. 地番
-3. 種類
-4. 構造
-5. 床面積
+1.「所在」
+2.「地番」
+3.「種類」
+4.「構造」
+5.「床面積」
+Words allowed inside this illustration (verbatim, nothing else):
+「乙建物」「区分建物ではない」「申請情報」「所在」「地番」「種類」「構造」
+「床面積」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 5項目を記載
 
@@ -218,38 +242,43 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 附属建物にできるか・登記の方法
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 管轄が違っても附属建物にできる
 Illustration: Isometric map split by a dotted boundary line into two
-registry-office jurisdiction areas labeled 登記所A and 登記所B; a main
-house icon (labeled 甲建物) stands inside 登記所A's area, while a small
-shed icon (labeled 乙建物) sits just across the boundary inside 登記所B's
-area; an arrow/ribbon connecting them reads 附属建物として登記 with a
-green checkmark.
+registry-office jurisdiction areas labeled「登記所Ａ」and「登記所Ｂ」; a
+main house icon labeled「甲建物」stands inside「登記所Ａ」's area, while a
+small shed icon labeled「乙建物」sits just across the boundary inside
+「登記所Ｂ」's area; an arrow/ribbon connecting them reads「附属建物として
+登記」with a green checkmark.
+Words allowed inside this illustration (verbatim, nothing else):
+「登記所Ａ」「登記所Ｂ」「甲建物」「乙建物」「附属建物として登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 管轄またぎもOK
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 附属建物追加は変更登記で足りる
-Illustration: Isometric scene of an existing main house icon (labeled
-甲建物) with a completed registration stamp, next to a newly built shed
-icon (labeled 乙建物、新築) with an arrow pointing to a document icon
-labeled 建物表題部変更登記 marked with a green checkmark; a separate
-smaller path showing 表題登記 → 合併登記 is crossed out with a red X.
+Illustration: Isometric scene of an existing main house icon labeled
+「甲建物」with a completed registration stamp (no text on the stamp),
+next to a newly built shed icon labeled「乙建物」「新築」with an arrow
+pointing to a document icon labeled「建物表題部変更登記」marked with a
+green checkmark; a separate smaller path showing「表題登記」→「合併登記」
+is crossed out with a red X.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲建物」「乙建物」「新築」「建物表題部変更登記」「表題登記」「合併登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 変更登記でOK
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権なくても附属建物にできる
-Illustration: Isometric scene of a detached house icon (labeled 甲建物、
-敷地権なし) beside a small condominium-unit icon (labeled 乙建物、敷地権
-あり), linked together by a bracket icon into one registration card, with
-a green checkmark confirming the combination is allowed.
+Illustration: Isometric scene of a detached house icon labeled「甲建物」
+「敷地権なし」beside a small condominium-unit icon labeled「乙建物」
+「敷地権あり」, linked together by a bracket icon into one registration
+card (no text on the bracket), with a green checkmark confirming the
+combination is allowed.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲建物」「敷地権なし」「乙建物」「敷地権あり」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 組み合わせ可
 
@@ -260,12 +289,15 @@ standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chin
 権・地・番・建・物・登・記・所. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image.
 Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, that badge numbers run 1-5 continuously across both
-columns without resetting, confirm there is no intro illustration or
-paragraph block between the header and the cards, confirm that no card
-contains a full sentence of explanatory prose, and confirm Card 2's five
-labels are exactly 所在・地番・種類・構造・床面積, in that order, with no
-duplication, omission, or paraphrasing. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+missing cards, confirm that no card carries a number, numbered circle or
+any numbering, confirm there is no intro illustration or paragraph block
+between the header and the cards, confirm that no card contains a full
+sentence of explanatory prose, confirm Card 2's five labels are exactly
+所在・地番・種類・構造・床面積, in that order, with no duplication,
+omission, or paraphrasing, and confirm that no illustration contains any
+text other than its "Words allowed" words (no inscriptions on signs or
+documents, no pseudo-writing) and that each allowed word is clearly
+legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -318,6 +350,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

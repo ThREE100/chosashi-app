@@ -54,17 +54,17 @@
 
 **たとえば**、乙建物だけに設定されている抵当権について、抵当権者から「消滅させてもかまいません」という承諾書をもらったとしても、その承諾書を添付しただけでは抵当権の登記自体は消えないため、甲建物との合併の登記を申請することはできません。
 
-### エ：共有持分が同一でも、共有者の1人が単独で申請できるとは限らない（出題当時は共有者全員）
+### エ：共有持分が同一でも、共有者の1人が単独で申請できるとは限らない
 
 建物の合併の登記は、表題部所有者又は所有権の登記名義人以外の者は申請することができません（不動産登記法54条1項3号）。
 
-甲建物と乙建物の共有者及び共有持分が同一である場合、合併は共有物の軽微変更として、令和5年4月1日施行の民法改正後の民法251条1項かっこ書き・252条1項により、各共有者の持分の価格の過半数で決することができます。この考え方を登記の申請にあてはめ、持分の価格の過半数を有する共有者から申請できるとするのは、民法の規定からの整理と登記実務の取扱いによるものです（合併の登記の申請人をこの形で定めた条文は、法令データベースでは確認できませんでした。出題当時は共有者全員で申請しなければならないものとされていました）。
+甲建物と乙建物の共有者及び共有持分が同一である場合、合併は共有物の軽微変更として、令和5年4月1日施行の民法改正後の民法251条1項かっこ書き・252条1項により、各共有者の持分の価格の過半数で決することができます。この考え方を登記の申請にあてはめ、持分の価格の過半数を有する共有者から申請できるとするのは、民法の規定からの整理と登記実務の取扱いによるものです（合併の登記の申請人をこの形で定めた条文は、法令データベースでは確認できませんでした）。
 
 したがって、共有者の1人の持分が過半数に満たない場合には、その1人が単独で合併の登記を申請することはできません。本肢は「共有者の1人が、単独で申請することができる」と、持分に関係なく単独申請ができるかのように述べているため、誤りです。
 
 **たとえば**、AさんとBさんとCさんが3分の1ずつの持分で共有している甲建物・乙建物を合併したい場合、持分の割合が完全に同じであっても、Aさん1人の持分は3分の1で過半数に届かないため、Aさんだけで申請書を出すことはできません。
 
-AさんとBさん（持分の合計は3分の2）がそろって申請すれば足り、Cさんの協力は要りません（出題当時は、3人全員がそろって申請する必要がありました）。
+AさんとBさん（持分の合計は3分の2）がそろって申請すれば足り、Cさんの協力は要りません。
 
 ### オ：共用部分である旨の登記がある建物同士は、同じ一棟の共用部分であっても合併できない
 
@@ -83,7 +83,7 @@ AさんとBさん（持分の合計は3分の2）がそろって申請すれば�
 - **ア（正）**　所有権登記の有無が異なる建物同士は合併できない
 - **イ（誤）**　区分建物同士でも、主従関係があれば接続していなくても合併できる。接続が要件になるのは主従関係のない区分合併の場合のみ
 - **ウ（誤）**　乙建物のみの抵当権は、抵当権者の承諾証明情報を添付しても合併の妨げになる。同一内容の権利登記という例外にあたらない限り不可
-- **エ（誤）**　共有持分が同一でも、持分が過半数に満たない共有者の1人だけでは単独で申請できない（出題当時は共有者全員）
+- **エ（誤）**　共有持分が同一でも、持分が過半数に満たない共有者の1人だけでは単独で申請できない
 - **オ（誤）**　共用部分である旨の登記がある建物は、同じ一棟の共用部分であっても合併できない
 
 「所有権の登記の有無」というアの1点だけが正しく、イ〜オはいずれも「一見それらしいが、実は合併の制限を回避できていない」引っかけになっています。とくにウの承諾証明情報は、抵当権登記そのものを消す効果を持たない点に注意しましょう。
@@ -100,7 +100,7 @@ AさんとBさん（持分の合計は3分の2）がそろって申請すれば�
 - 条文レベルで確認できたもの（2026-08-18、`note-articles/laws/`のローカル法令データベースで再検証）：ア・オ・ウの前提となる不動産登記法56条の各号（1号＝共用部分・団地共用部分の登記がある建物、4号＝所有権登記の有無が異なる建物、5号＝所有権等の登記以外の権利に関する登記があり、法務省令で定める例外にあたらない建物）、オの前提となる58条4項（共用部分である旨の登記による権利登記の抹消）、エの前提となる54条1項3号（建物の合併の登記は表題部所有者又は所有権の登記名義人以外の者は申請できない旨）は、いずれも`fudousan-touki-hou.md`の条文原文で文言・項・号まで一致することを確認しました。
 - ウの例外規定（56条5号にいう「法務省令で定めるもの」）は、`fudousan-touki-kisoku-1.md`第131条（建物の合併の登記の制限の特例）で、「担保権の登記であって登記の目的・受付の年月日及び受付番号並びに登記原因及びその日付が同一のもの」（1号）と「信託の登記であって登記事項が同一のもの」（2号）の2類型に限られることを確認しました。本問の乙建物の抵当権は甲建物には同内容の登記がなく、いずれの類型にも該当しないため、承諾証明情報を添付しても合併の登記を申請することはできません。
 - イの根拠である不動産登記事務取扱手続準則86条についても、`fudousan-touki-jimu-junsoku.md`の条文原文で確認しました。同条は「1項・2項」という項立てではなく、本文（合併の登記ができない場合の総則）の下に（1）（附属合併は主従関係が必要）・（2）（区分合併は接続が必要）という2つの号を置く構造であるため、記事中の引用も「準則86条（1）」「準則86条（2）」という号形式に修正しています（本リポジトリの`h21-mondai/q11-tatemono-gappei.md`・`h27-mondai/q15-kubun-tatemono.md`で確立済みの引用形式に統一）。内容自体（主従関係があれば接続不要、接続が要件になるのは区分合併のみ）は条文原文と一致しています。
-- **エの最新法令への統一（2026-10-01、ユーザー指示）**：エの本文・まとめ・図解は、令和5年4月1日施行の民法251条1項かっこ書き・252条1項（持分の価格の過半数）に基づく説明に統一しました（従前は「共有者全員での申請が必要」と、申請人適格に関する条文構造から推論していました）。建物の合併の登記を共有物の軽微変更として扱う点は、分筆の登記と同様の整理であり、これを定めた通達の原文は未確認です。エの正誤（誤）と正解（1個＝選択肢1番）は変わりません。問題文は「共有者の1人が」とだけあり持分が示されていませんが、問題文の補記は行わず、本文・図解では「持分が過半数に満たない共有者の1人だけでは単独で申請できない（過半数を満たせば共有者全員でなくても申請できる）」という切り口で解説しています（2026-10-01、ユーザー指示）。
+- **エの最新法令への統一（2026-10-01、ユーザー指示）**：エの本文・まとめ・図解は、令和5年4月1日施行の民法251条1項かっこ書き・252条1項（持分の価格の過半数）に基づく説明に統一しました（従前は「共有者全員での申請が必要」と、申請人適格に関する条文構造から推論していました）。建物の合併の登記を共有物の軽微変更として扱う点は、分筆の登記と同様の整理であり、これを定めた通達の原文は未確認です。エの正誤（誤）と正解（1個＝選択肢1番）は変わりません。問題文は「共有者の1人が」とだけあり持分が示されていませんが、問題文の補記は行わず、本文・図解では「持分が過半数に満たない共有者の1人だけでは単独で申請できない（過半数を満たせば共有者全員でなくても申請できる）」という切り口で解説しています（2026-10-01、ユーザー指示）。**2026-10-26の見直し**：本文見出し・たとえば段落・まとめに残っていた「（出題当時は共有者全員）」という括弧書きを削除しました。この括弧書きは、法改正による条文構成の変化を述べたものではなく、記事自身の従前の（申請人適格からの推論による）誤った整理を指す記述であり、根拠条文が法令データベースで確認できていない以上、本文に残すべき確定情報ではないため削除し、上記の説明にのみ残しています。
 - **2026-10-08の改善（エの出典の種類）**：一問一答ドリルの条文照合で、建物の合併を共有物の軽微変更として過半数で申請できるとする出典が記事にないとの指摘を受けました。`note-articles/laws/minpou-1-soukyoku-bukken.md`の民法251条1項・252条1項は共有物の変更・管理の決め方を定めるだけで、合併の登記の申請人を定める規定は法令データベースにないため、本文に「民法の規定からの整理と登記実務の取扱いによる」と明記しました。通達等の原文は引き続き未確認です。結論（エ＝誤）は変わりません。
 - **最新法令チェック（2026-08-18実施）**：相続登記の申請義務化（令和3年法律24号、令和6年4月1日施行）・住所等変更登記の申請義務化（同法、令和8年4月1日施行）・2020年民法（債権関係）改正・2018年相続法改正・2022年土地家屋調査士法改正のいずれも、本問が扱う建物の合併の制限（不動産登記法56条・58条・54条、不動産登記事務取扱手続準則86条、不動産登記規則131条）には影響していません。これらの改正はいずれも相続による所有権移転登記や氏名・住所変更登記の申請義務、あるいは調査士の業務・懲戒に関する規律であり、建物の合併の登記の可否そのものを左右する改正は確認できませんでした。
 - **重複出題チェック（2026-08-06実施）**：`src/data/takuitsu.json`を検索し、本問と同一の肢の組合せ・事実関係を持つ問題が他年度に存在しないかを確認しました。「建物の合併」は平成17年度第12問・平成20年度第18問・平成21年度第11問・平成22年度第5問・平成25年度第17問・平成28年度第14問・令和1年度第12問・令和2年度・令和3年度第16問・令和4年度第16問・令和6年度第16問など、ほぼ毎年扱われる頻出テーマです。とくにエと同じ「共有者及び共有持分が同一である場合の単独申請の可否」は平成22年度第5問のイと同一論点ですが、事実関係（所有権登記の有無、区分建物の接続要件、抵当権の承諾証明の可否、共用部分の登記）を組み合わせた5肢全体としての一致は見つかりませんでした。個々の論点自体は他年度と重なるため、記事の言い回しが似すぎないよう配慮しています。
@@ -158,6 +158,22 @@ kanji 号・権・建・物・登・記・所・併・続・属・共・用, whi
 have Simplified Chinese look-alike forms with visibly different stroke
 shapes — always draw the standard Japanese (Jōyō) form of these characters.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -177,60 +193,65 @@ Subtitle (smaller, centered, 1行):
 建物合併の登記、5つの制限事由を整理する (平成18年度 第12問)
 
 --- CARD 1 ---
-Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 所有権登記の有無が違うと、合併できない
 Illustration: An isometric main house icon labeled 「甲建物」with a green
 「所有権登記あり」stamp, next to a smaller unfinished-looking building icon
 labeled「乙建物」with a gray「表題登記のみ」tag, a red X mark on the merge
 arrow between them.
+Words allowed inside this illustration (verbatim, nothing else): 「甲建物」
+「所有権登記あり」「乙建物」「表題登記のみ」
 Conclusion tag (colored banner below, blue, short phrase):
 所有権登記なし × 合併不可
 
 --- CARD 2 ---
-Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 区分建物でも、主従関係があれば接続してなくてもいい
-Illustration: Two isometric condominium unit icons ("101号室"主である建物,
+Illustration: Two isometric condominium unit icons (「101号室」主である建物,
 倉庫の区分建物「附属建物」) positioned apart with a dashed distance line
 between them, a green checkmark over the merge arrow, and a small
 「主従関係あり」tag between the two icons.
+Words allowed inside this illustration (verbatim, nothing else): 「101号室」
+「附属建物」「主従関係あり」
 Conclusion tag (colored banner below, blue, short phrase):
 主従関係があれば接続不要
 
 --- CARD 3 ---
-Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 抵当権者の承諾書があっても、合併できない
 Illustration: An isometric building icon labeled「乙建物」carrying a red
 「抵当権」tag, with a signed document icon labeled「承諾書」beside it, and a
 red X mark over the merge arrow toward a building icon labeled「甲建物」
 that has no such tag.
+Words allowed inside this illustration (verbatim, nothing else): 「乙建物」
+「抵当権」「承諾書」「甲建物」
 Conclusion tag (colored banner below, blue, short phrase):
 承諾書だけでは不可
 
 --- CARD 4 ---
-Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分が同じでも、1人では足りない
 Illustration: Three isometric person icons labeled「共有者Ａ」「共有者Ｂ」
-「共有者Ｃ」(each with a small "1/3" tag) in front of a merge-application
+「共有者Ｃ」(each with a small「1/3」tag) in front of a merge-application
 document: on the left (small label 「過半数に満たない」), person A alone
 reaching for the document with a red X mark; on the right (small label
 「過半数なら全員でなくても可」), A and B together (2/3) reaching for the
 document with a green checkmark, while a faint greyed-out silhouette of
 C stands off to the side, not required.
+Words allowed inside this illustration (verbatim, nothing else): 「共有者Ａ」
+「共有者Ｂ」「共有者Ｃ」「1/3」「過半数に満たない」「過半数なら全員でなくても可」
 Conclusion tag (colored banner below, blue, short phrase):
 持分の過半数で申請
 
 --- CARD 5 ---
-Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 共用部分の登記があると、同じ一棟でも合併できない
 Illustration: Two isometric room icons inside the same building outline,
 one labeled「集会室(共用部分)」and one labeled「管理人室(共用部分)」, both
 carrying a「共用部分である旨の登記」tag, a red X mark over the merge arrow
 between them despite being in the same building.
+Words allowed inside this illustration (verbatim, nothing else): 「集会室
+(共用部分)」「管理人室(共用部分)」「共用部分である旨の登記」
 Conclusion tag (colored banner below, blue, short phrase):
 同じ一棟でも不可
 
@@ -248,11 +269,15 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals
-5 exactly, with no duplicated or missing cards, confirm there is no intro
+5 exactly, with no duplicated or missing cards, confirm that no card carries
+a number, numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible — confirm
+nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -315,6 +340,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -413,7 +447,7 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分の過半数がなければ申請できない
 Diagram: Three isometric person icons labeled「共有者Ａ」「共有者Ｂ」
-「共有者Ｃ」(each with a small "1/3" tag) stand in front of a
+「共有者Ｃ」(each with a small「1/3」tag) stand in front of a
 merge-application document. One vignette shows person A alone reaching
 for the document with a red ✕ mark and a small label 「持分が過半数に満たない1人では不可」.
 A second vignette shows A and B together (2/3) reaching for the document
@@ -479,7 +513,10 @@ that Panels 1 and 4 remain simple labeled illustrative diagrams rather
 than being forced into a flowchart, that each 着眼点 callout states a
 checking order rather than only a conclusion and keeps every required
 element from the source article distinct (no merged or dropped
-requirements), confirm nothing is rendered below the last panel's
+requirements), confirm that no diagram contains any text other than the
+words written in 「」 in that panel's Diagram line, heading, 着眼点 callout
+or conclusion tag (no inscriptions on stones or signs, no pseudo-writing)
+and that each such word is clearly legible, confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully

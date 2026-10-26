@@ -432,4 +432,9 @@ for n_ in ['代位原因', '添付書類', '一棟の建物の表示の床面積
 extra_png = sorted(set(f[:-4] for f in os.listdir(ZU) if f.endswith('.png')) - {n for n, _ in PNGS})
 ok_if(f'zu/ に記事のマーカーと対応しないPNGがない : {extra_png}', not extra_png)
 
+# 画像の中のタイトルに図番がない（2026-10-07〜08のルール）
+titled = re.findall(r"(?:new_figure|fixed_figure|suptitle)\(\s*'([^']*)'", drw)
+numbered = [x for x in titled if re.match(r'図\d', x)]
+ok_if(f'作図スクリプトのタイトル {len(titled)}個に図番がない : {numbered}', not numbered)
+
 print('NG件数:', ng)

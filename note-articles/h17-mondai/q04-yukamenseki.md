@@ -28,7 +28,11 @@
 
 地下鉄の駅でいえば、壁で仕切られた事務室は「区画された部分」にあたるため算入し、誰でも通れる通路は「常時一般に開放されている」部分にあたるため算入しません。
 
-条文が除外の対象として明記しているのは「通路及び階段」で、ホームの名前は出てきません。ただ、問題は乗客が自由に出入りするホームも通路と同じように開放された部分として扱い、算入しないという前提で出題されています（ホームを不算入とすることを直接定めた条文は、法令データベースでは確認できませんでした）。アはこの原則どおりの内容で、正しい記述です。
+条文が除外の対象として明記しているのは「通路及び階段」で、ホームの名前は出てきません。
+
+ただ、問題は乗客が自由に出入りするホームも通路と同じように開放された部分として扱い、算入しないという前提で出題されています（ホームを不算入とすることを直接定めた条文は、法令データベースでは確認できませんでした）。
+
+アはこの原則どおりの内容で、正しい記述です。
 
 **たとえば**、地下鉄の駅構内をイメージしてください。駅員さんが働く事務室は壁とドアで囲われた独立した空間なので床面積に入りますが、乗客が行き交う改札内の通路や、電車を待つホームは壁で仕切られておらず誰でも通れる場所なので、床面積には入りません。
 
@@ -36,7 +40,9 @@
 
 野球場・競馬場またはこれらに類する施設の観覧席は、屋根の設備のある部分の面積を床面積として計算します（不動産登記事務取扱手続準則82条3号）。
 
-開閉式屋根を備えたドーム球場のような建物では、屋根が開いている状態でも「屋根の設備がある」ことに変わりはないため、開閉可能な部分の下にあたる観客席の部分も床面積に算入されると扱われています。条文は観覧席についての定めで、開閉式屋根を直接取り上げたものではなく、この結論は3号の文言から導かれる実務上の取扱いです。
+開閉式屋根を備えたドーム球場のような建物では、屋根が開いている状態でも「屋根の設備がある」ことに変わりはないため、開閉可能な部分の下にあたる観客席の部分も床面積に算入されると扱われています。
+
+条文は観覧席についての定めで、開閉式屋根を直接取り上げたものではなく、この結論は3号の文言から導かれる実務上の取扱いです。
 
 したがって「開閉可能な部分の下に当たる部分は、床面積に算入しない」とするイは誤りです。
 
@@ -149,6 +155,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・建 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -173,34 +195,34 @@ Subtitle (smaller, centered, 1行):
 算入する原則（見落としやすいポイント）
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 地下駅の事務室は床面積に算入する
 Illustration: 地下鉄駅構内の断面を示すアイソメトリックイラスト。壁とドアで囲まれた「事務室」という文字ラベル付きの小部屋を明るい青色で塗りつぶしチェックマークのアイコンを添え、隣接する「通路」「ホーム」という文字ラベル付きの開放的な空間はグレーの斜線パターンで対比させて描く。
+Words allowed inside this illustration (verbatim, nothing else): 「事務室」「通路」「ホーム」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 区画部分は算入
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 開閉式屋根の下も床面積に算入する
 Illustration: 開閉式屋根を持つドーム球場のアイソメトリックイラスト。屋根が半分スライドして開いた状態を描き、屋根の下のフィールド全体と観覧席を明るい青色で塗りつぶしてチェックマークのアイコンを添え、屋根の開閉部分にスライド矢印のアイコンを配置する。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 屋根開いても算入
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 階段室・エレベーター室も算入
 Illustration: 5階建てビルの断面を示すアイソメトリックイラスト。1階から5階まで各階を貫通する「階段室」「エレベーター室」という文字ラベル付きの縦長の空間を明るい青色で塗り分け、各階にそれぞれ小さなチェックマークのアイコンを配置する。
+Words allowed inside this illustration (verbatim, nothing else): 「階段室」「エレベーター室」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 各階ごとに算入
 
 --- COLUMN A, CARD 4 ---
-Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 天井が低くても1室の一部は算入
 Illustration: 屋根の傾斜に沿って天井が低くなった部屋のアイソメトリックイラスト。天井の高い手前部分と天井の低い奥部分（「天井高1.5m未満」という文字ラベル付き）を同じ明るい青色で塗り、部屋全体を1つの点線の枠で囲んでチェックマークのアイコンを添える。
+Words allowed inside this illustration (verbatim, nothing else): 「天井高1.5m未満」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 室の一部として算入
 
@@ -208,18 +230,18 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 算入しない原則
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 常時開放の通路・ホームは不算入
 Illustration: 地下鉄駅構内のアイソメトリックイラスト（Ａ列カード1と対になる構図）。壁のない開放的な「通路」「ホーム」という文字ラベル付きの空間をグレーの斜線パターンで塗り、バツ印のアイコンを添える。
+Words allowed inside this illustration (verbatim, nothing else): 「通路」「ホーム」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 開放部分は不算入
 
 --- COLUMN B, CARD 6 ---
-Badge: a filled blue circle containing the number 6.
 Heading (bold, ONE line, ~20 characters or fewer):
 上階まで続く吹抜けは不算入
 Illustration: 1階の玄関ホールから2階まで続く吹抜けのある住宅のアイソメトリックイラスト。2階部分の「吹抜け」という文字ラベル付きの範囲をグレーの斜線パターンで塗り、手すり越しに1階が見えるように描写してバツ印のアイコンを添える。
+Words allowed inside this illustration (verbatim, nothing else): 「吹抜け」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 吹抜けは不算入
 
@@ -228,12 +250,15 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese — especially 地・建. If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of
-cards equals 6 exactly, with no duplicated or missing cards, that badge
-numbers run 1-6 continuously across both columns without resetting,
+cards equals 6 exactly, with no duplicated or missing cards, confirm
+that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
-header and the cards, and confirm that no card contains a full sentence
+header and the cards, confirm that no card contains a full sentence
 of explanatory prose — every card's takeaway must read as a short
-heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+heading + a short conclusion tag, at a glance — and confirm that no
+illustration contains any text other than its "Words allowed" words
+(no inscriptions on stones or signs, no pseudo-writing) and that each
+allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -298,6 +323,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -442,7 +476,10 @@ between the header and the panels, that Panel 1's diamond shows both its
 the diamond, that Panels 2 and 3 each clearly cross out the mistaken
 「不算入」assumption while highlighting the correct「算入する」rule, that
 each 着眼点 callout states a checking order or a correct-vs-mistaken
-distinction rather than only a conclusion, confirm nothing is rendered
+distinction rather than only a conclusion, confirm that no diagram or
+illustration contains any text other than the words specified above (no
+inscriptions on stones or signs, no pseudo-writing) and that each
+specified word is clearly legible, confirm nothing is rendered
 below the last panel's footnote text (no summary recap panel, no trophy
 or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
 block of any kind), and confirm the entire canvas, edge to edge, is

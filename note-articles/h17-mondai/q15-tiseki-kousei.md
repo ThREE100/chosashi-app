@@ -147,6 +147,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所・単・独・買 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -172,33 +188,35 @@ Subtitle (smaller, centered, 1行):
 申請義務・添付書類は不要
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 更正登記に申請義務はない
 Illustration: An isometric person icon representing the new owner,
-beside a document icon labeled "地積更正登記" with a large red cross
-mark over it. Next to it, for contrast, a small "変更登記" document
-icon with a calendar labeled "1か月以内" carries a green checkmark.
+beside a document icon labeled「地積更正登記」with a large red cross
+mark over it. Next to it, for contrast, a small「変更登記」document
+icon with a calendar labeled「1か月以内」carries a green checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「地積更正
+登記」「変更登記」「1か月以内」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 申請義務なし
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 抵当権者の承諾は不要
 Illustration: An isometric bank icon (representing the 抵当権者)
-beside a land plot icon, with a small "承諾書" document between them
+beside a land plot icon, with a small「承諾書」document between them
 carrying a large red cross mark over it.
+Words allowed inside this illustration (verbatim, nothing else): 「承諾書」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 承諾は不要
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積増加分の証明情報は不要
 Illustration: An isometric small land plot growing into a larger one
-via an arrow. The newly added area carries a "所有権証明情報" document
+via an arrow. The newly added area carries a「所有権証明情報」document
 icon with a large red cross mark over it.
+Words allowed inside this illustration (verbatim, nothing else): 「所有権
+証明情報」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 証明情報は不要
 
@@ -206,23 +224,24 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 誰が申請できるか
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 共有者は1人で単独申請できる
 Illustration: Three isometric person icons representing co-owners
 standing side by side. Only one of them steps forward to submit an
-"地積更正登記" application at a registry desk; the other two stand
+「地積更正登記」application at a registry desk; the other two stand
 back, unobtrusive.
+Words allowed inside this illustration (verbatim, nothing else): 「地積更正
+登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 単独申請できる
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 買主は売主に代位して申請できる
 Illustration: An isometric buyer figure reaching from behind a seller
 figure to hand in an application document at a registry desk. A
-small arrow labeled "代位" connects the two figures.
+small arrow labeled「代位」connects the two figures.
+Words allowed inside this illustration (verbatim, nothing else): 「代位」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 代位申請できる
 
@@ -232,12 +251,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -286,6 +307,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

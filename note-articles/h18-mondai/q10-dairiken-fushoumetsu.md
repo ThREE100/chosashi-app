@@ -38,7 +38,9 @@
 
 委任による代理人（任意代理人）は、本人の許諾を得たとき、またはやむを得ない事由があるときでなければ復代理人を選任することができません（民法104条）。
 
-復代理人を選任した後の任意代理人の責任について、現行の民法には選任・監督の範囲に限定する特別な規定（旧105条）がなく、一般の債務不履行の原則（民法415条）によって判断されます。なお、委任による復受任者の選任については644条の2に規定があります（旧106条は、法定代理人についての現105条に繰り上がっています。エ参照）。
+復代理人を選任した後の任意代理人の責任について、現行の民法には選任・監督の範囲に限定する特別な規定（旧105条）がなく、一般の債務不履行の原則（民法415条）によって判断されます。
+
+なお、委任による復受任者の選任については644条の2に規定があります（旧106条は、法定代理人についての現105条に繰り上がっています。エ参照）。
 
 委任を受けた者（受任者）は、委任事務を処理するにあたり善良な管理者の注意義務を負っており（民法644条）、復代理人にその事務の一部を行わせた場合、復代理人は代理人の履行補助者としての地位に立つと解されています。
 
@@ -49,8 +51,6 @@
 **たとえば**、依頼者の同意を得て手続の一部を復代理人に任せた代理人が、復代理人を選ぶ際にも十分な注意を払い、その後の指示・確認も怠っていなかったとします。
 
 それでも、復代理人が委任事務の処理を誤ってしまえば、代理人は「自分は選任・監督をきちんとやった」とは主張できず、本人に対してその結果について責任を負うことになる、というのが本問の前提とする考え方です。
-
-※出題当時（平成18年）の民法105条は、任意代理人の責任を「復代理人の選任及び監督について」のみに限定していたため、選任・監督に落ち度がなければ代理人は責任を免れました。この規定は2020年（令和2年）4月1日施行の民法（債権法）改正で削除されており（旧106条は現105条に繰り上がりました）、現行法の下では、上記のとおり、選任・監督の過失の有無にかかわらず代理人が責任を負うと解されています（根拠は民法644条・644条の2・415条と、履行補助者の理論という学説・実務の説明です。直接定めた条文はなく、一次資料での確認もできていないため、要確認です）。
 
 ### ウ：登記申請の代理権は、本人の死亡によっても消滅しない
 
@@ -175,6 +175,19 @@ kanji 権・代・理・消・滅・復・任・監・督・登・記・誤, whi
 simplified-Chinese lookalikes with different stroke forms — always draw
 the standard Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -203,6 +216,7 @@ Illustration: An isometric elderly character (本人) with a court gavel icon
 labeled「後見開始」above their head, standing next to an unaffected agent
 character (代理人) holding a document with a green checkmark. A crossed-out
 speech bubble reads「後見人の承諾」with a red X mark over it.
+Words allowed inside this illustration (verbatim, nothing else): 「後見開始」「後見人の承諾」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 後見人の承諾は不要
@@ -217,6 +231,7 @@ sub-agent character (復代理人) with a green checkmark icon labeled
 「復代理人の行為について責任を負う」below the checkmark, illustrating that
 the agent's care in selecting/supervising does not excuse them. A small
 corner tag reads「履行補助者の法理（現行法）」.
+Words allowed inside this illustration (verbatim, nothing else): 「選任・監督にミスなし」「復代理人の行為について責任を負う」「履行補助者の法理（現行法）」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 過失なしでも責任あり
 
@@ -228,6 +243,7 @@ Illustration: A tombstone-style icon labeled「本人死亡」next to an agent
 character (代理人) who continues holding an unaffected registration
 document, with a green checkmark stamp reading「不登法17条の特則」and a
 crossed-out label「民法上は消滅」in the background for contrast.
+Words allowed inside this illustration (verbatim, nothing else): 「本人死亡」「不登法17条の特則」「民法上は消滅」
 Conclusion tag (soft green, 5-15 Japanese characters):
 登記申請は継続できる
 
@@ -241,6 +257,7 @@ child character (本人). Two labeled paths branch from the guardian: a large
 path labeled「原則：全責任」with a bold checkmark, and a small narrow path
 labeled「例外：やむを得ない事由があるときだけ選任・監督の範囲」. A red
 warning icon marked「原則と例外が逆だと誤り」sits between the two paths.
+Words allowed inside this illustration (verbatim, nothing else): 「原則：全責任」「例外：やむを得ない事由があるときだけ選任・監督の範囲」「原則と例外が逆だと誤り」
 Conclusion tag (soft beige, 5-15 Japanese characters):
 原則は全責任、例外だけ限定
 
@@ -252,6 +269,7 @@ Illustration: Two isometric agent characters (代理人A・代理人B) each
 independently stamping their own copy of the same registration document,
 with no linking chain or handcuff icon between them, and a small label
 「共同代理の定めなし」above the scene.
+Words allowed inside this illustration (verbatim, nothing else): 「共同代理の定めなし」
 Conclusion tag (soft beige, 5-15 Japanese characters):
 単独代理が原則
 
@@ -270,7 +288,10 @@ duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance — confirm nothing is rendered below the last card (no summary
+glance — confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible — confirm
+nothing is rendered below the last card (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
 and no additional text block of any kind — the poster ends immediately
 after the last card), and confirm the entire canvas, edge to edge, is
@@ -336,6 +357,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -475,7 +505,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 民法111条1項各号・653条各号（ア）、履行補助者の法理・民法104条・644条
-（イ、出題当時の民法105条は2020年改正で削除）、不動産登記法17条（ウ）、
+（イ）、不動産登記法17条（ウ）、
 民法105条（エ）、先例（オ、本文では番号を伏せています）に基づく整理
 です。
 
@@ -498,7 +528,11 @@ Panel 3's correct-rule-versus-common-mistake contrasts are not flattened
 into a flowchart where they do not belong, that each 着眼点 callout states a
 checking order rather than only a conclusion and keeps every required
 element from the source article distinct (no merged or dropped
-requirements), confirm nothing is rendered below the last panel's
+requirements), confirm that no diagram or illustration contains any text
+other than the words specified in its Diagram line, heading, 着眼点
+callout and conclusion tag (no inscriptions on stones or signs, no
+pseudo-writing) and that each word is clearly legible, confirm nothing is
+rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully

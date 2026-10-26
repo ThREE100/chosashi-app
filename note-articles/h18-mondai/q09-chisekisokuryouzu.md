@@ -160,6 +160,19 @@ kanji 登・記・録・筆・積・境・標・訂, which have simplified-Chine
 lookalikes with different stroke forms — always draw the standard
 Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -186,6 +199,7 @@ Illustration: An isometric land plot with a surveyor character holding a
 rolled-up map labeled「地積測量図」, handing it to a clerk character at a
 registry counter. Three small document icons beside them are labeled
 「表題登記」「変更/更正登記」「分筆登記」with a checkmark on each.
+Words allowed inside this illustration (verbatim, nothing else): 「地積測量図」「表題登記」「変更/更正登記」「分筆登記」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 3つの登記に添付
@@ -198,6 +212,7 @@ Illustration: An isometric triangulation point (三角点) icon on a hill with
 a green checkmark and label「原則」, connected by a solid line to a survey
 point. A separate faded utility pole icon labeled「近傍の恒久的な地物」has a
 small tag「特別の事情がある場合のみ」next to it, with a dashed line.
+Words allowed inside this illustration (verbatim, nothing else): 「原則」「近傍の恒久的な地物」「特別の事情がある場合のみ」
 Conclusion tag (blue, 5-15 Japanese characters):
 例外は限定的
 
@@ -208,6 +223,7 @@ Heading (bold, ONE line, ~20 Japanese characters or fewer):
 Illustration: An isometric boundary marker (コンクリート杭) at a corner of a
 land plot with a small circled number「①」tag on it, and a magnified note
 card nearby reading「①　コンクリート杭」.
+Words allowed inside this illustration (verbatim, nothing else): 「①」「①　コンクリート杭」
 Conclusion tag (green, 5-15 Japanese characters):
 符号+種類を記録
 
@@ -221,6 +237,7 @@ dotted line into a huge area labeled「広大な土地」and a tiny sliver label
 checkmark and「求積方法・座標値」with a crossed-out mark labeled
 「求積方法等は省略可」, while the tiny sliver has a checkmark notepad labeled
 「地積・求積方法・座標値をすべて記録」.
+Words allowed inside this illustration (verbatim, nothing else): 「広大な土地」「わずかな土地」「地積」「求積方法・座標値」「求積方法等は省略可」「地積・求積方法・座標値をすべて記録」
 Conclusion tag (green, 5-15 Japanese characters):
 特別の事情のみ省略可
 
@@ -232,6 +249,7 @@ Illustration: A branching flowchart with an isometric error icon (誤りのあ�
 地積測量図、赤い✕マーク) at the top. One branch leads to a document stamped
 「更正の登記」, the other (crossed with a "NOT both" icon) leads to a
 simpler form stamped「訂正の申出」held by a registered owner character.
+Words allowed inside this illustration (verbatim, nothing else): 「更正の登記」「訂正の申出」
 Conclusion tag (beige, 5-15 Japanese characters):
 更正登記が優先
 
@@ -253,7 +271,7 @@ with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -311,6 +329,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -462,7 +489,11 @@ hidden second condition has been flattened into a single check, that
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no
 merged or dropped requirements, e.g. エ keeps 地積・求積方法・筆界点間
-の距離・筆界点の座標値 as four distinct items), confirm nothing is
+の距離・筆界点の座標値 as four distinct items), confirm that no diagram or
+illustration contains any text other than the words specified in its
+Diagram line, heading, 着眼点 callout and conclusion tag (no inscriptions
+on stones or signs, no pseudo-writing) and that each word is clearly
+legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel,
 no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
 additional text block of any kind), and confirm the entire canvas, edge

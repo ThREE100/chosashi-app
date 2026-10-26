@@ -34,7 +34,9 @@
 
 本肢では、Bは甲土地の「全部」をAから賃借しているため、Cへの転貸部分を分筆しなくても、Bの賃借権自体は何ら害されません。
 
-また、賃借権については、特約がなければ賃借人に賃貸人へ登記への協力を求める権利（登記請求権）はないと解されています。民法605条は賃借権の登記に対抗力を与えるだけで、登記請求権を定めてはいません（登記請求権を否定する点は、条文に明記があるのではなく、判例・通説の考え方によるものです）。そのため、賃借権を被保全債権として分筆登記を代位申請することもできません。したがって、CがA及びBに代位して分筆登記を申請することは認められません。
+また、賃借権については、特約がなければ賃借人に賃貸人へ登記への協力を求める権利（登記請求権）はないと解されています。民法605条は賃借権の登記に対抗力を与えるだけで、登記請求権を定めてはいません（登記請求権を否定する点は、条文に明記があるのではなく、判例・通説の考え方によるものです）。
+
+そのため、賃借権を被保全債権として分筆登記を代位申請することもできません。したがって、CがA及びBに代位して分筆登記を申請することは認められません。
 
 **たとえば**、ビルのワンフロア全体を借りているBが、その一角だけをCに又貸ししている場合、又借り人のCが「自分の使っている部分を独立させたいから」という理由で、大家Aや借主Bに代わって分筆登記を強制的に進めることはできません。
 
@@ -76,7 +78,7 @@
 
 代位が認められるかどうかは、いつも「代位しなければ自分の権利が保全されないか」という一点に立ち返って考えると、場面が変わっても判断がぶれません。
 
-**正解：肢2が誤り（選択肢2番）**
+**正解：2が誤り（選択肢2番）**
 
 ---
 
@@ -85,14 +87,14 @@
 - **問題文の差し替えと誤記の訂正（2026-10-02）**：問題文は提供された原文テキスト（出典サイトの表記）に置き換えました。ただし、明らかな誤記は次のとおり訂正しています：「所有者に対して、土地の分筆の登記を申請」→「所有者に代位して、土地の分筆の登記を申請」、「抵当権が設立された部分」→「抵当権が設定された部分」。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（選択肢2番）は、ユーザーから提供された公式問題文に基づき、土地家屋調査士試験対策アプリのデータベース（takuitsu.json、id: chosashi_H18_q08）のcorrectAnswerフィールド（値:2）とも一致することを確認しています。ただし、同データベースのexplanationフィールドは空欄のため、各肢の法的根拠はデータベースの検証済み解説には基づいておらず、下記のとおり独自にWeb検索・条文確認を行っています。
-- なお、takuitsu.jsonに収録されている肢1・肢5の記述には、それぞれ「所有者に代位して」が「所有者に対して」、「抵当権が設定された」が「抵当権が設立された」となっている軽微な相違（データベース側の誤記とみられる）がありましたが、ユーザーから提供された確認済みの原文を優先して本文に採用しています。
-- 肢2・肢3（民法423条1項「債権者は、自己の債権を保全するため必要があるときは、債務者に属する権利…を行使することができる。」）は、`note-articles/laws/minpou-2-saiken.md`の条文原文で一致を確認しました。肢3は、この代位の一般原則を、合筆によって登記記録が一体化した場面に適用したものですが、この個別の適用場面そのものを直接述べた条文・先例までは確認できておらず、一般原則からの推論である点は明記しています。
-- 肢4（不動産登記法48条3項・4項）は、`note-articles/laws/fudousan-touki-hou.md`の条文原文（3項「表題登記がある建物（区分建物を除く。）に接続して区分建物が新築された場合における当該区分建物についての表題登記の申請は、当該表題登記がある建物についての表題部の変更の登記の申請と併せてしなければならない。」、4項「前項の場合において、当該区分建物の所有者は、当該表題登記がある建物の表題部所有者…に代わって、当該表題登記がある建物についての表題部の変更の登記を申請することができる。」）で一致を確認しました。なお、同法59条7号は「民法第四百二十三条その他の法令の規定により他人に代わって登記を申請した者（以下「代位者」という。）」と定めており、48条4項の「代わって」の仕組みも同法上の「代位者」による申請に含まれることを確認しています。
-- 肢1（土地区画整理法82条1項）は、当初は`note-articles/laws/`に土地区画整理法が収録されておらず、Web検索によりe-Gov法令検索や条文解説サイトの記載と照らし合わせて条文の存在と内容の大枠を確認するにとどめていましたが、2026-09-16に土地区画整理法の全文を`laws/tochi-kukaku-seiri-hou.md`として収録したため、条文原文（「施行者は、土地区画整理事業の施行のために必要がある場合においては、所有者に代わつて土地の分割又は合併の手続をすることができる。」）で確認済みです。
-- 肢5の「代位の代位」については、市販教材（アガルート等）の解説で「登記研究305号75頁」という先例番号が示されていましたが、この号数・頁数まで一次情報で実在確認することはできませんでした。「代位の代位」という考え方自体は登記実務・受験対策の解説で広く言及されている論点ですが、この特定の先例番号については、本記事執筆時点で独自に裏付けを取り切れていない点をご留意ください。
+- なお、takuitsu.jsonに収録されている1・5の記述には、それぞれ「所有者に代位して」が「所有者に対して」、「抵当権が設定された」が「抵当権が設立された」となっている軽微な相違（データベース側の誤記とみられる）がありましたが、ユーザーから提供された確認済みの原文を優先して本文に採用しています。
+- 2・3（民法423条1項「債権者は、自己の債権を保全するため必要があるときは、債務者に属する権利…を行使することができる。」）は、`note-articles/laws/minpou-2-saiken.md`の条文原文で一致を確認しました。3は、この代位の一般原則を、合筆によって登記記録が一体化した場面に適用したものですが、この個別の適用場面そのものを直接述べた条文・先例までは確認できておらず、一般原則からの推論である点は明記しています。
+- 4（不動産登記法48条3項・4項）は、`note-articles/laws/fudousan-touki-hou.md`の条文原文（3項「表題登記がある建物（区分建物を除く。）に接続して区分建物が新築された場合における当該区分建物についての表題登記の申請は、当該表題登記がある建物についての表題部の変更の登記の申請と併せてしなければならない。」、4項「前項の場合において、当該区分建物の所有者は、当該表題登記がある建物の表題部所有者…に代わって、当該表題登記がある建物についての表題部の変更の登記を申請することができる。」）で一致を確認しました。なお、同法59条7号は「民法第四百二十三条その他の法令の規定により他人に代わって登記を申請した者（以下「代位者」という。）」と定めており、48条4項の「代わって」の仕組みも同法上の「代位者」による申請に含まれることを確認しています。
+- 1（土地区画整理法82条1項）は、当初は`note-articles/laws/`に土地区画整理法が収録されておらず、Web検索によりe-Gov法令検索や条文解説サイトの記載と照らし合わせて条文の存在と内容の大枠を確認するにとどめていましたが、2026-09-16に土地区画整理法の全文を`laws/tochi-kukaku-seiri-hou.md`として収録したため、条文原文（「施行者は、土地区画整理事業の施行のために必要がある場合においては、所有者に代わつて土地の分割又は合併の手続をすることができる。」）で確認済みです。
+- 5の「代位の代位」については、市販教材（アガルート等）の解説で「登記研究305号75頁」という先例番号が示されていましたが、この号数・頁数まで一次情報で実在確認することはできませんでした。「代位の代位」という考え方自体は登記実務・受験対策の解説で広く言及されている論点ですが、この特定の先例番号については、本記事執筆時点で独自に裏付けを取り切れていない点をご留意ください。
 - ローカルのアガルート教材フォルダも確認しましたが、択一式については講義動画のチャプター一覧（対照表PDF）のみが保存されており、テキスト解説は含まれていなかったため、市販教材の記載内容は上記の先例番号の手がかり以外には参照していません。
 - **2026-10-08の改善（2の出典の種類）**：一問一答ドリルの条文照合で、賃借権に登記請求権がないとする根拠の種類が本文に示されていないとの指摘を受けました。`note-articles/laws/minpou-2-saiken.md`の民法605条は賃借権の登記に第三者への対抗力を与えるだけで、賃借人の登記請求権を定める規定はなく、登記請求権を否定する点は判例・通説の考え方によります。判例の原文までは確認していません。本文に、その旨と、被保全債権がない（登記請求権がない）という理由づけを明記しました。結論（2＝誤）は変わりません。
-- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。肢1（土地区画整理法82条1項）・肢2/3（民法423条1項）・肢4（不動産登記法48条3項・4項、59条7号の「代位者」定義）を`note-articles/laws/`の条文原文で再突合し、いずれも文言・項・号が一致することを確認しました（肢5の「代位の代位」を裏付ける先例番号は引き続き未確認である旨を本文に記載せず確認事項ブロックのみに留めています）。判例・先例・専門誌の具体的番号が本文に記載されていないこと、正解の先出しがないこと、全角括弧・敬体で統一されていること、Markdown表を使用していないことも確認しました。正解（選択肢2番＝肢2が誤り）は`src/data/takuitsu.json`のcorrectAnswerと再度一致を確認済みです。修正が必要な誤りは見つからず、本文に変更はありません。
+- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。1（土地区画整理法82条1項）・2/3（民法423条1項）・4（不動産登記法48条3項・4項、59条7号の「代位者」定義）を`note-articles/laws/`の条文原文で再突合し、いずれも文言・項・号が一致することを確認しました（5の「代位の代位」を裏付ける先例番号は引き続き未確認である旨を本文に記載せず確認事項ブロックのみに留めています）。判例・先例・専門誌の具体的番号が本文に記載されていないこと、正解の先出しがないこと、全角括弧・敬体で統一されていること、Markdown表を使用していないことも確認しました。正解（選択肢2番＝2が誤り）は`src/data/takuitsu.json`のcorrectAnswerと再度一致を確認済みです。修正が必要な誤りは見つからず、本文に変更はありません。
 
 ---
 
@@ -145,6 +147,19 @@ kanji 登・記・権・建・筆, which have simplified-Chinese lookalikes
 with different stroke forms — always draw the standard Japanese (Jōyō)
 form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -174,6 +189,7 @@ hard hat (土地区画整理事業の施行者) standing next to a land plot ico
 dividing line splits the plot in two, with a small arrow labeled「代位」
 pointing from the施行者 figure to a tiny owner figure (所有者) who is looking
 away. A checkmark stamp labeled「申請できる」overlays the scene.
+Words allowed inside this illustration (verbatim, nothing else): 「代位」「申請できる」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 施行者が代位して分筆
 
@@ -186,6 +202,7 @@ figure (B, labeled「全部賃借」) with a smaller sub-tenant figure (C) occup
 a corner, connected by a dashed arrow labeled「転貸」. A red crossed-out (✕)
 arrow runs from C toward the owner figure (A) and B, with a small torn
 label「登記請求権なし」nearby.
+Words allowed inside this illustration (verbatim, nothing else): 「全部賃借」「転貸」「登記請求権なし」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 代位申請できない
 
@@ -198,6 +215,7 @@ Illustration: A three-panel isometric timeline. Panel 1: land plots 甲 and
 registration. Panel 2: a gavel icon and a document labeled「判決」stamped
 「移転登記抹消」. Panel 3: the merged plot splitting back apart with an arrow
 labeled「代位」from figure A to figure B, and a checkmark on the split line.
+Words allowed inside this illustration (verbatim, nothing else): 「判決」「移転登記抹消」「代位」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 Aが代位して合筆抹消
 
@@ -210,6 +228,7 @@ next to a newly built condominium-style building (labeled B) that connects
 to it via a new wall section. A dashed arrow labeled「代位」runs from figure B
 to figure A, pointing at a document icon labeled「表題部変更登記」with a
 checkmark stamp.
+Words allowed inside this illustration (verbatim, nothing else): 「代位」「表題部変更登記」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 新築側が代位して変更登記
 
@@ -222,6 +241,7 @@ in the middle holding a small land-plot icon (a purchased portion of 甲土地)
 with a mortgage stamp icon labeled「抵当権」held by figure C on the right. Two
 stacked dashed arrows labeled「代位」run from C through B toward A, pointing
 at a dividing line on the land plot with a checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「抵当権」「代位」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 代位の代位で分筆できる
 
@@ -240,12 +260,15 @@ with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible — confirm
+nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-本問は「ア〜オ」ではなく「1〜5」の5つの記述そのものが選択肢になっている形式のため、パネルの表記も本文の見出し（### 1：〜、### 2：〜…）にあわせて「肢1」〜「肢5」とした。5つの記述すべてが「①法令が特別に代位を認める規定があるか→②なければ、代位しなければ自己の権利が保全されないという関係があるか」という同一の2段階の判定の流れ図を共有するため、この共有木を雛形として使い回し、各パネルは自分に関係する分岐だけを太い縁取り・実色で強調し、関係しない分岐は薄いグレーで縮小表示する構成にした。
+本問は「ア〜オ」ではなく「1〜5」の5つの記述そのものが選択肢になっている形式のため、パネルの表記も本文の見出し（### 1：〜、### 2：〜…）にあわせて、構造ラベルとして「PANEL N（肢N）」の形式とした。5つの記述すべてが「①法令が特別に代位を認める規定があるか→②なければ、代位しなければ自己の権利が保全されないという関係があるか」という同一の2段階の判定の流れ図を共有するため、この共有木を雛形として使い回し、各パネルは自分に関係する分岐だけを太い縁取り・実色で強調し、関係しない分岐は薄いグレーで縮小表示する構成にした。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
@@ -310,6 +333,15 @@ Japanese (Jōyō) form. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -330,7 +362,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（肢1） ---
+--- PANEL 1（1） ---
 Badge: a filled circle in green containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -351,7 +383,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特別規定で代位可
 
---- PANEL 2（肢2） ---
+--- PANEL 2（2） ---
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 全部賃借の転借人は代位を申請できない
@@ -376,7 +408,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保全の必要なしで代位不可
 
---- PANEL 3（肢3） ---
+--- PANEL 3（3） ---
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 判決後の合筆抹消もAが代位できる
@@ -403,7 +435,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 保全の必要ありで代位可
 
---- PANEL 4（肢4） ---
+--- PANEL 4（4） ---
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 区分建物化した既存建物も代位できる
@@ -426,7 +458,7 @@ Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 特別規定で代位可
 
---- PANEL 5（肢5） ---
+--- PANEL 5（5） ---
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 代位のそのまた代位も認められる
@@ -473,7 +505,11 @@ same shared two-step decision tree shape with its own relevant branch
 highlighted and the other branches faded rather than omitted, that each
 着眼点 callout states a checking order rather than only a conclusion and
 keeps every required element from the source article distinct (no merged
-or dropped requirements), confirm nothing is rendered below the last
+or dropped requirements), confirm that no diagram or illustration
+contains any text other than the words specified in its Diagram line,
+heading, 着眼点 callout and conclusion tag (no inscriptions on stones or
+signs, no pseudo-writing) and that each word is clearly legible, confirm
+nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
 kind), and confirm the entire canvas, edge to edge, is filled with a

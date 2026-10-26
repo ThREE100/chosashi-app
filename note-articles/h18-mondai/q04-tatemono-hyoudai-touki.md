@@ -76,8 +76,6 @@
 
 ただし、その申請情報には、AさんとBさんそれぞれの持分を記録しなければなりません。
 
-※出題当時（平成18年）の民法では、この保存行為に関する規定は252条ただし書に置かれていました。2023年（令和5年）4月1日施行の民法改正で共有に関する規定（252条）の構成が見直され、保存行為の規定は252条5項に移動しています（結論＝共有者の1人から単独で申請できる、という点自体は改正の前後で変わっていません）。
-
 ---
 
 ### まとめ
@@ -103,7 +101,7 @@
 - イ（不動産登記法47条1項、新築した者と所有権を取得した者それぞれに独立した申請義務がある旨）は、`note-articles/laws/fudousan-touki-hou.md`で条文原文を直接確認し、記事本文の記載と完全に一致することを確認済みです（同上、格上げ済み）。
 - ウ（準則88条4項、永久的施設としてのさん橋・固定した浮船上の建物の所在の記録方法）は、`note-articles/laws/fudousan-touki-jimu-junsoku.md`で条文原文（「建物が永久的な施設としてのさん橋の上に存する場合又は固定した浮船を利用したものである場合については、その建物から最も近い土地の地番を用い、『何番地先』のように記録するものとする。」）を直接確認し、記事本文の記載と完全に一致することを確認済みです（同上、格上げ済み）。一方、「敷地の地目に宅地以外の制限がない」という部分については、これを明記した積極的な条文までは`laws/`内でも特定できておらず、地目を要件とする規定が見当たらないことからの一般的な理解として記載している点にご留意ください。
 - エ（準則83条＝再築、準則85条＝解体移転、いずれも従前建物との同一性が認められず滅失＋新規表題登記となる旨）は、`note-articles/laws/fudousan-touki-jimu-junsoku.md`で条文原文（83条「既存の建物全部を取り壊し、その材料を用いて建物を建築した場合（再築）は、既存の建物が滅失し、新たな建物が建築されたものとして取り扱うものとする。」、85条「建物を解体移転した場合は、既存の建物が滅失し、新たな建物が建築されたものとして取り扱うものとする。」）を直接確認し、記事本文の記載と完全に一致することを確認済みです（同上、格上げ済み）。
-- **オの根拠条文の現行法対応（2026-09-30実施）**：本文が民法252条**ただし書**（出題当時の条文）を根拠として掲げたままで、252条**5項**への条文構成変更が確認事項ブロックにしか記載されていない状態だったため、`format-template.md`が定める「本文は現行法を基準とし、出題当時との違いは※メモとして本文中に記載する」方針に合わせて修正しました。本文の根拠条文を民法252条5項に直し、出題当時は252条ただし書だった旨を「たとえば」段落の直後に※メモとして追加しています。条文原文は`note-articles/laws/minpou-1-soukyoku-bukken.md`・`note-articles/laws/fudousan-touki-rei.md`で直接確認済みです。不動産登記令3条9号（「表題部所有者又は登記名義人となる者ごとの持分」を申請情報の内容とする旨）は記事本文の記載と完全に一致します。民法252条は令和3年改正（令和5年4月1日施行）により条文構成が見直されており、現行の条文では「各共有者は、前各項の規定にかかわらず、保存行為をすることができる」旨は252条5項に規定されています（`laws/`収録の現行条文で確認済み）。結論（共有者の1人から単独で申請できる）自体は改正の前後で変わっていないため、正解（選択肢5番）に影響はありません。
+- **オの根拠条文の現行法対応（2026-09-30実施、2026-10-26本文の※メモを確認事項ブロックへ移動）**：本文が民法252条**ただし書**（出題当時の条文）を根拠として掲げたままで、252条**5項**への条文構成変更が確認事項ブロックにしか記載されていない状態だったため、`format-template.md`が定める「本文は常に現行法を基準とする」ルールに合わせて修正しました。本文の根拠条文を民法252条5項に直し、出題当時との違いはこの確認事項ブロックにのみ記載します（本文中には※メモ等を置きません）。条文原文は`note-articles/laws/minpou-1-soukyoku-bukken.md`・`note-articles/laws/fudousan-touki-rei.md`で直接確認済みです。不動産登記令3条9号（「表題部所有者又は登記名義人となる者ごとの持分」を申請情報の内容とする旨）は記事本文の記載と完全に一致します。出題当時（平成18年）の民法では、この保存行為に関する規定は252条**ただし書**に置かれていましたが、2023年（令和5年）4月1日施行の民法改正で共有に関する規定（252条）の構成が見直され、保存行為の規定は252条**5項**に移動しています（`laws/`収録の現行条文で確認済み）。結論（共有者の1人から単独で申請できる）自体は改正の前後で変わっていないため、正解（選択肢5番）に影響はありません。
 - **法改正の影響チェック**：上記のとおり民法252条は令和3年改正（令和5年4月1日施行）で条文構成（ただし書→5項）が変わっていますが、結論（保存行為として共有者の1人から単独で申請できる）は変わっていないため、本問の正解には影響しません。また、相続登記の申請義務化・住所変更登記の申請義務化（2024年・2026年施行）、2022年の土地家屋調査士法改正はいずれも本問（建物の表題登記の申請単位・申請義務者・敷地の要件・再築と解体移転・共有者の単独申請）の論点とは直接関係がなく、正解（選択肢5番）に影響を与える法改正はありません。
 - WebFetchによる法務省・e-Gov等への直接アクセスができない環境だったため、上記の条文確認は当初Web検索のスニペットと、本リポジトリ内の他問題（令和2年度・令和4年度・令和5年度）の検証済みデータベース記載との突合によって行っていましたが、今回`note-articles/laws/`のローカル法令データベースが整備されたため、これを用いて条文原文レベルでの再確認を行いました。市販教材（アガルート等）のローカルフォルダは本作業環境には含まれていなかったため、今回も参照していません。
 - **重複出題チェック（2026-08-06実施）**：`takuitsu.json`全413問を「建物図面」「各階平面図」「解体移転」「さん橋」「浮船」「共有」「表題登記」等のキーワードで確認しました。建物の表題登記・建物図面・共有関連の論点は令和期を含め毎年のように出題される頻出テーマですが、本問（平成18年度第4問）のア〜オの組合せと完全に一致する問題は見当たりませんでした。特にウの「さん橋・固定浮船」の論点は令和2年度第11問オで、エの「再築・解体移転」の論点は令和5年度第5問エで、オの「共有者の単独申請」の論点は令和4年度第13問エで、それぞれ別の切り口（所在の記録方法、表題部登記記録の作成、添付情報）から再度出題されていることを確認しました。令和8年度以降が追加された際は再実施してください。
@@ -160,6 +158,22 @@ summarize, or substitute any characters. Characters such as 「登」「記」
 being rendered as Simplified Chinese variants — double-check each of these
 and redraw in standard Japanese Jōyō form if needed.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -184,8 +198,6 @@ Subtitle (smaller, centered, 1行):
 図面と申請義務の基本
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled circle in soft blue containing the number 1 (numbers run
-continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
 附属建物も合わせて1個、図面は1組
@@ -195,20 +207,23 @@ together inside one large dashed boundary box labeled「1個の建物」. Next
 to it, a single rolled blueprint icon labeled「1組」with a green checkmark,
 and beside it a stack of duplicate blueprint icons with a red X mark and a
 small label「×複数組」.
+Words allowed inside this illustration (verbatim, nothing else):
+「1個の建物」「1組」「×複数組」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
 NOT a legal citation):
 まとめて1個、図面は1組
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 新築主にも買主にも、それぞれ1か月の期限
-Illustration: Two isometric characters, one labeled「Aさん(新築主)」and
-one labeled「Bさん(買主)」, standing on either side of a small house icon
+Illustration: Two isometric characters, one labeled「Aさん（新築主）」and
+one labeled「Bさん（買主）」, standing on either side of a small house icon
 with a dashed arrow labeled「売買」between them. Each character has their
 own individual clock icon above their head counting down, both labeled
 「1か月」, with a small tag under each clock reading「申請義務あり」.
+Words allowed inside this illustration (verbatim, nothing else):
+「Aさん（新築主）」「Bさん（買主）」「売買」「1か月」「申請義務あり」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 2人とも申請義務あり
 
@@ -216,7 +231,6 @@ Conclusion tag (soft blue, 5-15 Japanese characters):
 所在・同一性・共有の特則
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 地目を問わず、さん橋の建物も登記できる
 Illustration: A row of three small isometric land-plot icons labeled
@@ -225,24 +239,28 @@ checkmark. Next to them, a separate isometric scene of a small building
 sitting on a permanent pier extending over water, labeled「さん橋」, with
 a dashed line pointing to the nearest shore plot and a small tag reading
 「◯番地先」.
+Words allowed inside this illustration (verbatim, nothing else):
+「宅地」「雑種地」「原野」「さん橋」「◯番地先」
 Conclusion tag (soft green, 5-15 Japanese characters):
 地目・所在は問わない
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 解体して別の敷地に建てれば同一性なし
 Illustration: A three-panel isometric sequence. Panel 1: an old house being
 dismantled into stacked wooden material bundles, labeled「解体」. Panel 2:
 the same material bundles being carried along a dashed path to a different
-land plot, labeled「別の敷地」. Panel 3: two stamps side by side — a red
-stamp labeled「滅失登記」over the now-empty original plot, and a green
-stamp labeled「表題登記」over the newly rebuilt house on the new plot.
+land plot, labeled「別の敷地」. Panel 3: two stamps side by side, both in
+the same neutral gray tone (not red — neither registration is a mistake,
+both are required steps) — one stamp labeled「滅失登記」over the now-empty
+original plot, and the other stamp labeled「表題登記」over the newly
+rebuilt house on the new plot.
+Words allowed inside this illustration (verbatim, nothing else):
+「解体」「別の敷地」「滅失登記」「表題登記」
 Conclusion tag (soft green, 5-15 Japanese characters):
 滅失登記＋新規の表題登記
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 共有建物は持分を記録し1人から申請可
 Illustration: An isometric house with two owner characters standing beside
@@ -251,6 +269,8 @@ one of the two characters steps forward toward a registry counter icon
 holding an application document, while the other stays behind with a small
 label「同行不要」. A green checkmark stamp reads「単独申請可」near the
 counter.
+Words allowed inside this illustration (verbatim, nothing else):
+「持分2分の1」「同行不要」「単独申請可」
 Conclusion tag (soft green, 5-15 Japanese characters):
 持分は記録、申請は1人でOK
 
@@ -265,10 +285,14 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, confirm there is no intro illustration or
-paragraph block between the header and the cards, and confirm that no card
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro illustration or
+paragraph block between the header and the cards, confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+read as a short heading + a short conclusion tag, at a glance — confirm
+that no illustration contains any text other than its "Words allowed"
+words (no inscriptions on stones or signs, no pseudo-writing) and that
+each allowed word is clearly legible — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -342,6 +366,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -436,9 +469,10 @@ Step 1: an old house being dismantled into stacked wooden material
 bundles, labeled「解体」. Step 2: the same material bundles being carried
 along a dashed path to a different land plot, labeled「別の敷地へ運搬」,
 with a small caption「種類・構造が同一でも」. Step 3: two stamps side by
-side — a red stamp labeled「滅失登記」over the now-empty original plot, and
-a green stamp labeled「表題登記」over the newly rebuilt house standing on
-the new plot.
+side, both in the same neutral gray tone (not red — neither registration
+is a mistake, both are required steps) — one stamp labeled「滅失登記」over
+the now-empty original plot, and the other stamp labeled「表題登記」over
+the newly rebuilt house standing on the new plot.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物を解体してから別の敷地に建て直していることを確認します。次に、
 材料や種類・構造が従前と同一であっても、解体前の建物との同一性は認められ

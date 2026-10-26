@@ -88,7 +88,7 @@
 - **イ**　関連する過去の記事：`note-articles/r2-mondai/q16-gattai-touki.md`、`note-articles/h25-mondai/q14-tenpu-jouhou.md`、`note-articles/h20-mondai/q15-gattai-touki.md`
 - **ウ**　関連する過去の記事：`note-articles/r2-mondai/q16-gattai-touki.md`、`note-articles/h28-mondai/q15-gattai.md`、`note-articles/h21-mondai/q18-gattai-touki.md`、`note-articles/h20-mondai/q15-gattai-touki.md`
 - **エ**　関連する過去の記事：`note-articles/r5-mondai/q16-gattai.md`、`note-articles/r1-mondai/q13-tatemono-hyoudaibu.md`、`note-articles/h28-mondai/q15-gattai.md`、`note-articles/h26-mondai/q17-gattai-touki.md`
-- **オ**　関連する過去の記事：`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/r5-mondai/q16-gattai.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`
+- **オ**　関連する過去の記事：`note-articles/r5-mondai/q16-gattai.md`、`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`
 
 **このまま使える点／使う前に確認したい点**
 

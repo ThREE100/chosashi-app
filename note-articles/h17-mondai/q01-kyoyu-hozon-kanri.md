@@ -40,7 +40,9 @@
 
 明渡しを求めるには、その理由を主張・立証する必要があります。したがって、「直ちに明渡しを請求することができる」とするイは誤りです。
 
-現行の民法でも、この結論は変わりません。共有物を使用する共有者がある場合でも、共有物の管理に関する事項は持分の過半数で決することができますが（民法252条1項後段）、その決定が共有物を使用する共有者に特別の影響を及ぼすときは、その共有者の承諾を得なければなりません（同条3項）。Ｂ及びＣが持分の過半数を占めていたとしても、この手続を経ることなく、持分の過半数であることだけを理由にＡに対して直ちに明渡しを請求することはできないため、イの結論は現行法のもとでも誤りのままです。
+共有物を使用する共有者がある場合でも、管理に関する事項は持分の過半数で決することができますが（民法252条1項後段）、その決定が使用中の共有者に特別の影響を及ぼすときは、その共有者の承諾を得なければなりません（同条3項）。
+
+Ｂ及びＣが持分の過半数を占めていたとしても、この手続を経ることなく、持分の過半数であることだけを理由にＡに対して直ちに明渡しを請求することはできません。
 
 **たとえば**、Ａ・Ｂ・Ｃが共有する建物にＡだけが住んでいるとします。
 
@@ -103,7 +105,8 @@
 - 判例についても確認済みです。イは最高裁昭和41年5月19日第一小法廷判決（共有物を単独で占有する他の共有者に対し、当然には明渡請求できないとする判例）、ウは最高裁昭和39年2月25日第三小法廷判決（共有物の賃貸借解除は管理行為に当たり、持分の過半数で決することができるとする判例）を、複数の実務解説サイトの引用で確認しました。
 - エの法的根拠について一点補足します。データベースのkeyPointsでは「持分への抵当権設定は自由（民法369条1項）」とされていますが、WebSearchで確認したところ、369条1項は抵当権の内容（優先弁済権）そのものを定める規定であり、「共有持分に単独で抵当権を設定できること」の直接の根拠条文としては、所有権の自由な処分を定める民法206条（各共有者の持分も所有権に準じて自由に処分できるという解釈）に基づくとする説明の方が実務解説サイトでは一般的でした。抵当権を設定できるという結論自体はデータベースと解説サイトで一致していますが、根拠条文の対応については369条1項と206条のいずれを主に引用するかで情報源に幅があった点を正直に付記します。
 - アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。本記事は上記アプリの検証済みデータベースとWebSearchによる条文・判例の確認のみに基づいて作成しています。なお、2026-10-05の再検証では、ユーザーから直接ご提供いただいた実務教材の抜粋画像を、イの正誤判定・根拠判例のクロスチェックに使用しました。当該教材の文言はそのまま転記せず、内容を自分の言葉で要約して記載しています。
-- **2026-10-05の再検証で確認した点**：ユーザーから、ユーザーから提供された実務教材の該当ページ（イについて「×　共有持分の価格が過半数を超えるものであっても、共有者の1人が排他的に使用している場合、当然の明渡請求は認められない（最判昭41.5.19）。」と示すもの）をもとに、イの正誤判定・根拠判例を再チェックするよう依頼を受けました。本記事のイの解説（共有者の一人が単独で占有する場合、持分の過半数を超える他の共有者であっても当然には明渡しを請求できず、理由を主張・立証する必要があるとする点、根拠を最高裁昭和41年5月19日第一小法廷判決とする点）は、ユーザーから提供された資料の内容と一致していることを確認しました。あわせて2026年時点の現行法への対応状況も確認し、令和3年の民法改正（令和5年4月1日施行）により新設された民法252条1項後段（共有物を使用する共有者があるときも、管理に関する事項は持分の過半数で決することができる旨の明記）・同条3項（その決定が使用中の共有者に特別の影響を及ぼすときは承諾を要する旨）を踏まえても、Ｂ・Ｃが持分の過半数であることのみを理由に「直ちに」明渡しを請求できるわけではないという結論は変わらないことを、`note-articles/laws/minpou-1-soukyoku-bukken.md`の条文原文（252条1項後段・3項）と突き合わせて確認し、本文に現行条文に基づく補足を追加しました。
+- **2026-10-05の再検証で確認した点**：ユーザーから、ユーザーから提供された実務教材の該当ページ（イについて「×　共有持分の価格が過半数を超えるものであっても、共有者の1人が排他的に使用している場合、当然の明渡請求は認められない（最判昭41.5.19）。」と示すもの）をもとに、イの正誤判定・根拠判例を再チェックするよう依頼を受けました。本記事のイの解説（共有者の一人が単独で占有する場合、持分の過半数を超える他の共有者であっても当然には明渡しを請求できず、理由を主張・立証する必要があるとする点、根拠を最高裁昭和41年5月19日第一小法廷判決とする点）は、ユーザーから提供された資料の内容と一致していることを確認しました。あわせて2026年時点の現行法への対応状況も確認し、令和3年の民法改正（令和5年4月1日施行）により新設された民法252条1項後段（共有物を使用する共有者があるときも、管理に関する事項は持分の過半数で決することができる旨の明記）・同条3項（その決定が使用中の共有者に特別の影響を及ぼすときは承諾を要する旨）を踏まえても、Ｂ・Ｃが持分の過半数であることのみを理由に「直ちに」明渡しを請求できるわけではないという結論は変わらないことを、`note-articles/laws/minpou-1-soukyoku-bukken.md`の条文原文（252条1項後段・3項）と突き合わせて確認しました。
+- **出題当時との比較表現の整理（2026-10-26実施）**：イの解説本文に置いていた「現行の民法でも、この結論は変わりません」「イの結論は現行法のもとでも誤りのままです」という出題当時との比較表現を削除し、本文は現行の民法252条1項後段・3項の内容だけを直接述べる形に書き改めました。平成17年の出題当時（令和3年の民法改正前）にはこの1項後段・3項に相当する明文規定はありませんでしたが、判例（最高裁昭和41年5月19日第一小法廷判決）によって同じ結論（イ＝誤り）が既に示されており、令和5年4月1日施行の改正でこの判例の考え方が明文化されたものです。結論自体は出題当時から変わっていません。
 - **QAチェックリスト再検証（2026-10-05実施）**：`note-articles/qa-checklist.md`の全19項目のうち、今回追加した箇所を中心に再検証しました。A（追加した民法252条1項後段・3項の引用文言を`note-articles/laws/minpou-1-soukyoku-bukken.md`の条文原文と直接突合し、一致することを確認。最判昭41.5.19は本文に判例番号を記載せず、確認事項ブロックにのみ記載していることを確認）、B（正解「アエの組合せ（選択肢2番）」は変更なく、まとめの正誤判定と整合していることを確認）、C（追加した本文が敬体・全角括弧で統一されていること、判定語の先出しがないことを確認）、G（最新法令チェック：令和3年改正・令和5年4月1日施行の民法252条1項後段・3項を踏まえてもイの結論（誤り）が変わらないことを確認）を実施し、修正すべき誤りは見つかりませんでした。
 - **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（民法252条5項・252条1項・206条・544条1項の引用文言を`note-articles/laws/minpou-1-soukyoku-bukken.md`・`minpou-2-saiken.md`の条文原文と直接突合し、いずれも一致することを確認。最判昭41.5.19・最判昭39.2.25はWebSearchで実在を再確認済みで、番号は本文でなく確認事項ブロックにのみ記載されていることを確認。試験範囲外の一般法は使用していない）、B（正解「アエの組合せ（選択肢2番）」がまとめの正誤判定と整合していることを確認）、C（各見出しが正しい結論を表していること、正解の先出しがないこと、敬体で統一されていること、全角括弧で統一されていることを確認）、D（Markdown表の不使用を確認）、E（インフォグラフィック・作図ガイドの内容が本文と一致していることを確認）、F（テンプレート構造・タイトル文字数20字を確認）、G（重複出題チェック：`note-articles/*-mondai/`を検索し、共有物の保存・管理・変更行為を扱う類似論点が平成23年度第3問・平成27年度第2問・令和元年度第2問等で繰り返し出題されていることを確認しましたが、具体的な事実関係・組合せが完全に一致する記事はなく独立記事として問題ないと判断。最新法令チェック：本文が引用する令和3年民法改正による保存行為の条番号移動（旧252条ただし書→現行252条5項）は既に本文内で開示済みで、結論への影響もないことを再確認）を行い、修正すべき誤りは見つかりませんでした。
 
@@ -162,6 +165,22 @@ kanji 権・物・持・占・渡・抵・当・解・除 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -186,24 +205,24 @@ Subtitle (smaller, centered, 1行):
 共有者が単独でできること
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 不法占有者への明渡請求は単独でできる
 Illustration: Isometric scene: person Ａ pointing at a stick-figure
 intruder labeled Ｄ standing in front of the building's door, a
 torn-paper label reading「保存行為」floating above Ａ, a small text tag
 reading「単独でOK」near Ａ.
+Words allowed inside this illustration (verbatim, nothing else): 「保存行為」「単独でOK」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 保存行為は単独可
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 自己の持分は単独で処分できる
 Illustration: Isometric scene: person Ａ stamping a document labeled
 「持分3分の1」with a hanko seal, a padlock-shaped icon representing
 抵当権 linked only to Ａ's one-third section of the building, a
 torn-paper label reading「持分の処分」floating above.
+Words allowed inside this illustration (verbatim, nothing else): 「持分3分の1」「持分の処分」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 持分の処分は自由
 
@@ -211,18 +230,17 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 他者の関与が必要なこと
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 賃貸借の解除は過半数の同意が必要
 Illustration: Isometric scene: a torn contract document with a large ×
 mark on it, person Ａ alone unable to tear it by himself, with Ｂ and Ｃ
 each holding up a check mark to show approval, a torn-paper label
 reading「管理行為」floating above, a small text tag reading「過半数で決定」.
+Words allowed inside this illustration (verbatim, nothing else): 「管理行為」「過半数で決定」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 過半数の同意が必要
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 占有権原があれば直ちに明渡し不可
 Illustration: Isometric scene: a person standing inside the building
@@ -230,6 +248,7 @@ Illustration: Isometric scene: a person standing inside the building
 holding a torn-paper tag reading「占有権原あり」, with Ｂ・Ｃ standing
 outside reaching toward the door but blocked by a translucent barrier, a
 small text label reading「直ちには不可」.
+Words allowed inside this illustration (verbatim, nothing else): 「占有権原あり」「直ちには不可」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 直ちには請求不可
 
@@ -239,12 +258,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 4 exactly, with
-no duplicated or missing cards, that badge numbers run 1-4 continuously
-across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro
+illustration or paragraph block between the header and the cards, confirm
+that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -310,6 +331,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -473,6 +503,9 @@ asserted) has not been flattened into a single check, that each 着眼点
 callout states a checking order rather than only a conclusion, that
 Panels 1, 3 and 4, which share one decision tree, each clearly
 distinguish their own highlighted branch from the other, faded branches,
+confirm that no diagram or illustration contains any text other than the
+words specified above (no inscriptions on stones or signs, no
+pseudo-writing) and that each specified word is clearly legible,
 confirm nothing is rendered below the last panel's footnote text (no
 summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
 all 肢, and no additional text block of any kind), and confirm the entire

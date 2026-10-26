@@ -70,7 +70,9 @@
 
 このことは、不動産登記事務取扱手続準則93条が、附属建物がある建物の表題登記で附属建物の新築の日が主である建物の新築の日と同じときは、原因及びその日付の記録を要しないとしていることからもうかがえます。
 
-国から払下げを受けた建物であっても同じです。国有建物の払下げの契約に係る情報は、表題部所有者となる者の所有権を証する情報の例として準則87条1項に挙げられていますが、それは「誰が所有者か」を示す資料であって、登記原因の日付になるわけではありません。したがって、「登記原因の日付は払下げの年月日である」とするエは誤りです。
+国から払下げを受けた建物であっても同じです。国有建物の払下げの契約に係る情報は、表題部所有者となる者の所有権を証する情報の例として準則87条1項に挙げられていますが、それは「誰が所有者か」を示す資料であって、登記原因の日付になるわけではありません。
+
+したがって、「登記原因の日付は払下げの年月日である」とするエは誤りです。
 
 **たとえば**、国が昭和50年4月に建てた倉庫を、平成17年6月に払下げを受けて自分の名前で表題登記をするとします。
 
@@ -169,6 +171,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・建・物・登・記・所 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -193,26 +211,28 @@ Subtitle (smaller, centered, 1行):
 誰が所有者と認められるか
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 実地調査権は所有者の認定にも及ぶ
 Illustration: An isometric registry official character visiting a vacant
-land plot with a magnifying glass, comparing a document tagged "所有権を
-証する情報" held by an applicant character against the actual state of
+land plot with a magnifying glass, comparing a document tagged「所有権を
+証する情報」held by an applicant character against the actual state of
 the land, with a small checkmark/question-mark icon over the applicant
 to show the official is verifying the real owner, not just the paper.
+Words allowed inside this illustration (verbatim, nothing else):
+「所有権を証する情報」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 実態調査で確認可
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 埋立地は免許取得者が所有者になる
 Illustration: An isometric scene with two characters: one labeled
-"Ａ社(免許)" holding a certificate tagged "埋立免許", and another labeled
-"Ｂ社(請負)" operating construction machinery on a reclaimed land plot;
+「Ａ社（免許）」holding a certificate tagged「埋立免許」, and another labeled
+「Ｂ社（請負）」operating construction machinery on a reclaimed land plot;
 an arrow from the completed land plot points to Ａ社, who is shown
-submitting a document tagged "表題登記申請" as the owner.
+submitting a document tagged「表題登記申請」as the owner.
+Words allowed inside this illustration (verbatim, nothing else):
+「Ａ社（免許）」「埋立免許」「Ｂ社（請負）」「表題登記申請」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 免許者本人が申請
 
@@ -220,37 +240,42 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 いつ・何を単位に申請するか
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物の売買取得に1か月ルールなし
-Illustration: An isometric apartment-block building (区分建物) with a
-handshake icon labeled "売買" between two characters in front of it, next
-to a calendar icon with a large cross/X mark over "1か月以内"; beside it,
-a separate small "新築" building icon shows a checkmark and a clock icon
-reading "1か月以内" to contrast the two situations.
+Illustration: An isometric apartment-block building (meaning: 区分建物,
+no text drawn on the building itself) with a handshake icon labeled
+「売買」between two characters in front of it, next to a calendar icon
+with a large cross/X mark over「1か月以内」; beside it, a separate small
+「新築」building icon shows a checkmark and a clock icon reading
+「1か月以内」to contrast the two situations.
+Words allowed inside this illustration (verbatim, nothing else):
+「売買」「1か月以内」「新築」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 1か月ルール対象外
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 登記原因の日付は新築の年月日
 Illustration: An isometric government building handing over a warehouse
 building to a recipient character, with two date-stamp icons floating
-above: one labeled "払下げの年月日" with a large cross/X mark, another
-labeled "新築の年月日" with a checkmark, with the checked stamp connected
-to a document labeled "登記原因及びその日付".
+above: one labeled「払下げの年月日」with a large cross/X mark, another
+labeled「新築の年月日」with a checkmark, with the checked stamp connected
+to a document labeled「登記原因及びその日付」.
+Words allowed inside this illustration (verbatim, nothing else):
+「払下げの年月日」「新築の年月日」「登記原因及びその日付」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 払下げ日ではない
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権なしでも他区分建物と併せ申請
 Illustration: An isometric multi-story building divided into several
-room units (区分建物), one unit marked with a small crossed-out "敷地権"
-tag to show it has no 敷地権, with dotted lines connecting all the units
-together into a single bundled folder icon labeled "併せて申請".
+room units (meaning: 区分建物, no text drawn on the units themselves), one
+unit marked with a small crossed-out「敷地権」tag, with dotted lines
+connecting all the units together into a single bundled folder icon
+labeled「併せて申請」.
+Words allowed inside this illustration (verbatim, nothing else):
+「敷地権」「併せて申請」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 他の部屋と併せ申請
 
@@ -261,12 +286,14 @@ standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chin
 attention to 権・地・建・物・登・記・所. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, that badge numbers run 1-5 continuously across both
-columns without resetting, confirm there is no intro illustration or
-paragraph block between the header and the cards, and confirm that no
-card contains a full sentence of explanatory prose — every card's
-takeaway must read as a short heading + a short conclusion tag, at a
-glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+missing cards, confirm that no card carries a number, numbered circle or
+any numbering, confirm there is no intro illustration or paragraph block
+between the header and the cards, confirm that no card contains a full
+sentence of explanatory prose — every card's takeaway must read as a
+short heading + a short conclusion tag, at a glance — confirm that no
+illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing) and that each allowed
+word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -333,6 +360,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

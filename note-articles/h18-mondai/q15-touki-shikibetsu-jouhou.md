@@ -165,6 +165,22 @@ kanji 登・記・識・別・情・報・合・筆・通・提・供・号, whi
 simplified-Chinese lookalikes with different stroke forms — always draw
 the standard Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -186,7 +202,6 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 亡失しても再通知はされない
 Illustration: An isometric character holding a torn ID-card document icon
@@ -194,12 +209,13 @@ labeled「登記識別情報通知書」with a red crack running through it. A l
 red X stamp overlays a speech bubble reading「再発行」. Small alternative
 icons (an envelope labeled「事前通知」and a badge icon labeled「本人確認」)
 sit faded in the background as alternatives.
+Words allowed inside this illustration (verbatim, nothing else): 「登記識別
+情報通知書」「再発行」「事前通知」「本人確認」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 再通知の制度はない
 
 --- CARD 2 ---
-Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 共有なら全員分の提供が必要
 Illustration: Two isometric characters labeled「共有者A」「共有者B」each
@@ -207,12 +223,13 @@ holding an ID-card icon labeled「登記識別情報」, both handing their card
 toward a document icon labeled「合筆申請書」. A red X overlays a single
 lone ID-card icon held up by only one character, showing that one card
 alone is not enough.
+Words allowed inside this illustration (verbatim, nothing else): 「共有者A」
+「共有者B」「登記識別情報」「合筆申請書」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 共有者全員分が必要
 
 --- CARD 3 ---
-Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 合筆はどれか一筆分でよい
 Illustration: Three isometric land-plot icons labeled「甲土地」「乙土地」
@@ -221,35 +238,37 @@ labeled「合筆後の土地」. Only the plot「甲土地」has a glowing green
 checkmarked ID-card icon next to it; the other two plots (乙土地・丙土地)
 have small grayed-out ID-card icons with a dash mark, showing they are not
 needed.
+Words allowed inside this illustration (verbatim, nothing else): 「甲土地」
+「乙土地」「丙土地」「合筆後の土地」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 一筆分の提供でよい
 
 --- CARD 4 ---
-Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 提供できなければ事前通知が来る
 Illustration: An isometric registry-office character (登記官) sending a
 flying envelope icon toward a登記名義人 character. The envelope has two
 small text labels attached below it:「申請がありました」「一定期間内に
 申出を」.
+Words allowed inside this illustration (verbatim, nothing else): 「申請が
+ありました」「一定期間内に申出を」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 登記官からの事前通知
 
 --- CARD 5 ---
-Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 分筆では登記識別情報は増えない
 Illustration: One isometric land-plot icon labeled「分筆前の土地」splitting
 with arrows into three smaller land-plot icons. Over all three smaller
 plots, a large stamp reads「通知は0通」with three small crossed-out
 ID-card icons.
+Words allowed inside this illustration (verbatim, nothing else): 「分筆前の
+土地」「通知は0通」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 分筆に通知なし
-
-(Instruction only — do not render this sentence in the image: number the cards 1 to 5 consecutively, with no duplicated, missing or reworded cards.)
 
 --- FOOTER ---
 Final check before rendering: scan every kanji glyph and confirm it is
@@ -262,10 +281,14 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, confirm there is no intro illustration or
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+read as a short heading + a short conclusion tag, at a glance — confirm that
+no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing) and that each allowed
+word is clearly legible — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -324,6 +347,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -349,14 +381,14 @@ Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all panels).
 Heading (bold, ONE line):
 再通知の制度があるかを確認する
-Diagram: A left "誤りやすい思い込み" frame shows a character holding a
-torn ID-card document icon labeled "登記識別情報通知書" with a red crack
-running through it, and a speech bubble reading "もう一度発行して" overlaid
-with a red prohibition mark. A right "正しいルール"（本肢が示す実際の結
+Diagram: A left「誤りやすい思い込み」frame shows a character holding a
+torn ID-card document icon labeled「登記識別情報通知書」with a red crack
+running through it, and a speech bubble reading「もう一度発行して」overlaid
+with a red prohibition mark. A right「正しいルール」（本肢が示す実際の結
 論、with a thick highlighted border and full color）frame shows the same
 character now facing three alternative icons lined up with green
-checkmarks: an envelope labeled "事前通知", a certificate icon labeled
-"本人確認情報", and a seal icon labeled "公証人の認証".
+checkmarks: an envelope labeled「事前通知」, a certificate icon labeled
+「本人確認情報」, and a seal icon labeled「公証人の認証」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 登記識別情報を亡失した場合に、同じ登記識別情報を再度発行してもらう「再通
 知」の制度があるかをまず確認します。この制度はないため、次に、事前通知・
@@ -370,14 +402,14 @@ characters):
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 名義人が1人か2人以上かを見る
-Diagram: Draw an actual decision flowchart. A land plot icon labeled "乙
-土地" leads into a diamond-shaped branch node reading "その一筆の所有権登
-記名義人は何人か". A "1人" arrow leads to a conclusion node reading "その
-1人の登記識別情報でよい", illustrated with a single character holding an
-ID-card icon labeled "登記識別情報" with a green checkmark. A "2人以上（共
-有）"（本肢のケース、with a thick highlighted border and full color）arrow
-leads to a separate conclusion node reading "共有者全員の登記識別情報が必
-要", illustrated with two characters labeled "共有者A"「共有者B」each
+Diagram: Draw an actual decision flowchart. A land plot icon labeled「乙
+土地」leads into a diamond-shaped branch node reading「その一筆の所有権登
+記名義人は何人か」. A「1人」arrow leads to a conclusion node reading「その
+1人の登記識別情報でよい」, illustrated with a single character holding an
+ID-card icon labeled「登記識別情報」with a green checkmark. A「2人以上（共
+有）」（本肢のケース、with a thick highlighted border and full color）arrow
+leads to a separate conclusion node reading「共有者全員の登記識別情報が必
+要」, illustrated with two characters labeled「共有者A」「共有者B」each
 holding their own ID-card icon, with a red X overlaying a single lone
 ID-card icon to show that one card alone is not enough. No arrow loops
 back to an earlier node.
@@ -395,12 +427,12 @@ Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 合筆対象のうち一筆を選べばよい
 Diagram: A labeled illustrative diagram (single check, no flowchart
-needed). Three isometric land-plot icons labeled "甲土地"「乙土地」「丙土
+needed). Three isometric land-plot icons labeled「甲土地」「乙土地」「丙土
 地」merge with arrows into one larger combined land-plot icon labeled
-"合筆後の土地". Only the plot「甲土地」has a glowing green checkmarked
-ID-card icon next to it labeled "この一筆分でよい"; the other two plots
+「合筆後の土地」. Only the plot「甲土地」has a glowing green checkmarked
+ID-card icon next to it labeled「この一筆分でよい」; the other two plots
 （乙土地・丙土地）have small greyed-out ID-card icons with a dash mark and
-a small label "不要", showing they are not needed.
+a small label「不要」, showing they are not needed.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 合筆の対象となる数筆の土地のうち、いずれの筆の登記識別情報を提供すべきか
 を確認します。合筆に係る土地のうちいずれか一筆分の登記識別情報を提供すれ
@@ -439,11 +471,11 @@ Heading (bold, ONE line):
 Diagram: A contrast frame, split left/right, used to tell apart two
 different situations rather than a sequence of checks. Left frame「新たに
 名義人になる登記（所有権の保存・移転など）」: a new owner figure receives
-a new ID-card icon with a green checkmark, labeled "新たな登記名義人に
-なる→通知される". Right frame「分筆」: one land-plot icon splits with
+a new ID-card icon with a green checkmark, labeled「新たな登記名義人に
+なる→通知される」. Right frame「分筆」: one land-plot icon splits with
 arrows into three smaller plots, and the same existing ID-card icon is
 copied unchanged onto all three, with three small crossed-out
-"新規発行なし" marks, labeled "同じ登記名義人のまま→通知されない". A thin
+「新規発行なし」marks, labeled「同じ登記名義人のまま→通知されない」. A thin
 vertical divider line separates the two frames.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、その登記によって申請人自らが新たに登記名義人となるかどうかを確認し
@@ -479,7 +511,11 @@ callout states a checking order rather than only a conclusion and keeps
 every required element from the source article distinct (no merged or
 dropped requirements), that every branch point where both outcomes are
 legally meaningful shows both destinations as explicit, separate
-conclusion nodes with no dangling or looping branch, confirm nothing is
+conclusion nodes with no dangling or looping branch, confirm that no
+diagram contains any text other than the words written in 「」 in that
+panel's Diagram line, heading, 着眼点 callout or conclusion tag (no
+inscriptions on stones or signs, no pseudo-writing) and that each such
+word is clearly legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
 text block of any kind), and confirm the entire canvas, edge to edge, is

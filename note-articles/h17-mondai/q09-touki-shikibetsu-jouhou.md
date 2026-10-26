@@ -52,7 +52,7 @@
 
 資格者代理人が申請人と面識がない場合に申請人について確認をするときは、運転免許証・個人番号カード・旅券等などのいずれか1以上の提示を受ける方法のほか、健康保険等の資格確認書などの書類については、そのうちいずれか2以上の提示を受けるか、そのうち1以上と官公庁発行の書類などのいずれか1以上を組み合わせて提示を受ける必要があります（不動産登記規則72条2項）。
 
-健康保険証は後者の類型に当たる書類です（現行の規則72条2項2号は、健康保険等の資格確認書として挙げています）。そのため、その提示だけを受ければ足りるわけではありません。
+健康保険証は後者の類型に当たる書類です。そのため、その提示だけを受ければ足りるわけではありません。
 
 本肢は誤りです。
 
@@ -141,6 +141,22 @@ summarize, or substitute any characters. Characters such as「登」「記」
 with Simplified Chinese variants — render them strictly in standard
 Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -162,54 +178,59 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled circle in soft green containing the letter「ア」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 合筆の登記には識別情報が必要
 Illustration: An isometric scene of two land plots merging into one
 (合筆), with a small key-shaped icon labeled「登記識別情報」being handed
 over alongside the application document, and a green checkmark.
+Words allowed inside this illustration (verbatim, nothing else):
+「登記識別情報」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft green, 5-15 Japanese characters):
 提供が必要
 
 --- CARD 2 ---
-Badge: a filled circle in soft red containing the letter「イ」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 分筆の登記には識別情報は不要
 Illustration: An isometric scene of one land plot splitting into two
 (分筆), with the same key-shaped icon labeled「登記識別情報」crossed out
 with a red ✕ mark beside the application document.
+Words allowed inside this illustration (verbatim, nothing else):
+「登記識別情報」
 Conclusion tag (soft red, 5-15 Japanese characters):
 提供は不要
 
 --- CARD 3 ---
-Badge: a filled circle in soft green containing the letter「ウ」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 提供できないときは事前通知
 Illustration: An isometric registry-office building sending an envelope
 icon labeled「申請があった旨の通知」toward a figure representing the
 登記名義人, with a small clock icon showing「一定期間内に申出」.
+Words allowed inside this illustration (verbatim, nothing else):
+「申請があった旨の通知」「一定期間内に申出」
 Conclusion tag (soft green, 5-15 Japanese characters):
 本人へ通知される
 
 --- CARD 4 ---
-Badge: a filled circle in soft green containing the letter「エ」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 資格者代理人は資格証明も必要
 Illustration: An isometric figure of a 資格者代理人 handing over two
 documents together to the registry office: one labeled「本人確認情報」
 and another labeled「代理を業とすることができる者であることを証する情報」.
+Words allowed inside this illustration (verbatim, nothing else):
+「本人確認情報」「代理を業とすることができる者であることを証する情報」
 Conclusion tag (soft green, 5-15 Japanese characters):
 資格証明も併せて提供
 
 --- CARD 5 ---
-Badge: a filled circle in soft red containing the letter「オ」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 健康保険証だけでは足りない
 Illustration: An isometric hand presenting a single health-insurance-card
 icon labeled「健康保険証」with a red ✕ mark, next to a scale/balance icon
 showing it needs to be paired with a second document icon to reach a
 green checkmark.
+Words allowed inside this illustration (verbatim, nothing else):
+「健康保険証」
 Conclusion tag (soft red, 5-15 Japanese characters):
 2点以上が必要
 
@@ -218,11 +239,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, confirm there is no intro
+with no duplicated or missing cards, confirm that no card carries a
+number, numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -275,6 +299,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

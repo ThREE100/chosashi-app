@@ -165,6 +165,24 @@ summarize, or substitute any characters. Characters such as 「登」「記」
 rendered as Simplified Chinese variants — double-check each of these and
 redraw in standard Japanese Jōyō form if needed.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered (the COLUMN
+A/B pill-shaped section headers are category labels, not numbering, and
+may remain).
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -189,8 +207,6 @@ Subtitle (smaller, centered, 1行):
 誰が申請できるか
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled circle in soft green containing the number 1 (numbers run
-continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
 相続人の一人が遺産分割書で分筆申請
@@ -199,13 +215,14 @@ line, with two character figures (labeled「兄」and「弟」) each standing on
 one zone. Between them floats a document icon labeled「遺産分割協議書」
 with a small attached diagram matching the two zones. A green checkmark
 stamp labeled「申請OK」sits above the document.
+Words allowed inside this illustration (verbatim, nothing else): 「兄」「弟」
+「遺産分割協議書」「申請OK」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
 NOT a legal citation):
 遺産分割協議書でOK
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 遺産分割禁止中でも分筆はできる
 Illustration: An isometric scroll icon labeled「遺産分割禁止　5年」being
@@ -214,11 +231,12 @@ a surveyor character with measuring tools into two zones, with a green
 checkmark stamp labeled「分筆OK」. A separate small icon of a house key
 with a red X and label「移転登記は不可」sits off to the side, smaller and
 clearly secondary.
+Words allowed inside this illustration (verbatim, nothing else): 「遺産分割
+禁止　5年」「分筆OK」「移転登記は不可」
 Conclusion tag (soft green, 5-15 Japanese characters):
 移転登記は別問題
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 土地全部の買主は代位で分筆できない
 Illustration: Two side-by-side isometric scenes. Left scene: a character
@@ -227,6 +245,8 @@ a document labeled「代位申請」and a green checkmark. Right scene: a
 character labeled「全部を購入」standing on an entire land plot, with an
 arrow toward the same document labeled「代位申請」crossed out with a red X
 and a small tag「保全の必要なし」.
+Words allowed inside this illustration (verbatim, nothing else): 「一部を
+購入」「全部を購入」「代位申請」「保全の必要なし」
 Conclusion tag (soft green, 5-15 Japanese characters):
 保全の必要なし
 
@@ -234,7 +254,6 @@ Conclusion tag (soft green, 5-15 Japanese characters):
 何を添付するか
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 承役地一部の地役権には証明情報が必要
 Illustration: An isometric land plot (承役地) split into two zones by a
@@ -242,19 +261,22 @@ dashed line. Only the right zone has a dotted overlay pattern labeled
 「地役権が残る範囲」. Next to it floats a small diagram icon labeled
 「地役権図面」and a certificate icon labeled「地役権者作成の証明情報」,
 both stamped with a checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「地役権
+が残る範囲」「地役権図面」「地役権者作成の証明情報」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 地役権図面+証明情報
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 誤差の限度内なら地積更正は不要
 Illustration: An isometric measuring tape and surveyor tools around a
 split land plot, with two small labels showing area numbers before and
-after subdivision (e.g.「登記簿上の地積」と「測量した地積の合計」) very
+after subdivision (「登記簿上の地積」と「測量した地積の合計」) very
 close together, connected by a small ruler icon labeled「誤差の限度内」
 with a green checkmark, and a separate crossed-out icon labeled
 「地積更正登記」.
+Words allowed inside this illustration (verbatim, nothing else): 「登記簿
+上の地積」「測量した地積の合計」「誤差の限度内」「地積更正登記」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 限度内は更正不要
 
@@ -269,10 +291,15 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, confirm there is no intro illustration or
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering (the COLUMN A/B pill headers are category
+labels, not numbering), confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+read as a short heading + a short conclusion tag, at a glance — confirm that
+no illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing) and that each allowed
+word is clearly legible — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -332,6 +359,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -358,16 +394,16 @@ continuously through all panels).
 Heading (bold, ONE line):
 相続人は遺産分割協議書で申請可
 Diagram: A family-tree relationship diagram. At the top, a figure labeled
-"A（被相続人）" with a small red X mark（死亡）sits above a horizontal
-bracket line connecting three same-generation figures below it: "B",
-"C", "D". Solid arrows run downward from A to each of B, C, D showing the
-inheritance. A land-plot icon labeled "甲土地" below is split by a dashed
-line into "（イ）部分" and "（ロ）部分"; a line connects B to（イ）部分
+「A（被相続人）」with a small red X mark（死亡）sits above a horizontal
+bracket line connecting three same-generation figures below it:「B」,
+「C」,「D」. Solid arrows run downward from A to each of B, C, D showing the
+inheritance. A land-plot icon labeled「甲土地」below is split by a dashed
+line into「（イ）部分」and「（ロ）部分」; a line connects B to（イ）部分
 and a separate line connects C to（ロ）部分, while D has no line drawn to
 either part and is rendered in a faded, greyed-out style to show D is not
 involved in this particular subdivision. Between the family tree and the
-land plot floats a document icon labeled "遺産分割協議書（分割後の図面付
-き）" with a green checkmark stamp labeled "申請できる".
+land plot floats a document icon labeled「遺産分割協議書（分割後の図面付
+き）」with a green checkmark stamp labeled「申請できる」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずAの相続人であるB・C・Dが登記名義人の地位を承継していることを確認しま
 す。次に、分筆後の各部分を表示した図面付きの遺産分割協議書を添付情報とし
@@ -381,17 +417,17 @@ characters):
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 地役権の範囲が一部かを確認する
-Diagram: A land-plot icon labeled "承役地" is split by a dashed line into
-two zones; only one zone carries a dotted overlay pattern labeled "地役
-権設定の範囲". This leads into a diamond-shaped branch node reading "地役
-権設定の範囲は分筆後の土地の一部にしか及ばないか". A "はい"（本肢のケー
+Diagram: A land-plot icon labeled「承役地」is split by a dashed line into
+two zones; only one zone carries a dotted overlay pattern labeled「地役
+権設定の範囲」. This leads into a diamond-shaped branch node reading「地役
+権設定の範囲は分筆後の土地の一部にしか及ばないか」. A「はい」（本肢のケー
 ス、with a thick highlighted border and full color）arrow leads to a
-conclusion node reading "地役権図面＋地役権者作成の証明情報（又は対抗でき
-る裁判があったことを証する情報）の提供が必要", illustrated with a small
+conclusion node reading「地役権図面＋地役権者作成の証明情報（又は対抗でき
+る裁判があったことを証する情報）の提供が必要」, illustrated with a small
 diagram icon and a certificate icon, both stamped with a checkmark. A
-"いいえ"（分筆後の土地の全部に地役権が及ぶ場合、faded and greyed-out）
-arrow leads to a separate, faded conclusion node reading "この追加の証明
-情報の提供は不要".
+「いいえ」（分筆後の土地の全部に地役権が及ぶ場合、faded and greyed-out）
+arrow leads to a separate, faded conclusion node reading「この追加の証明
+情報の提供は不要」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、地役権設定の範囲が分筆後のどちらか一部の土地にしか及ばないかを確認
 します。一部にしか及ばない場合は、その範囲を証する地役権者作成の情報又は
@@ -410,10 +446,10 @@ needed). An isometric surveyor character with measuring-tape and ruler
 tools stands beside a land plot split by a dashed line into two zones. Two
 small labels float near the plot:「登記簿上の地積」and「測量した地積の合
 計」, positioned very close together and bridged by a small ruler icon
-labeled "誤差の限度内" with a green checkmark, next to a crossed-out icon
-labeled "地積更正登記". A smaller, faded secondary icon off to the side
+labeled「誤差の限度内」with a green checkmark, next to a crossed-out icon
+labeled「地積更正登記」. A smaller, faded secondary icon off to the side
 shows the same two labels positioned far apart with a red X and the text
-"限度を超えれば地積更正登記が必要", kept small since it is not this 肢の
+「限度を超えれば地積更正登記が必要」, kept small since it is not this 肢の
 ケース.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 分筆前の登記記録上の地積と、分筆後の各部分を測量して得られた地積の合計と
@@ -430,13 +466,13 @@ Heading (bold, ONE line):
 分筆は表示登記、移転は権利登記
 Diagram: A contrast frame, split left/right, used to tell apart two
 different kinds of registration rather than a sequence of checks. Left
-frame「表示の登記（分筆）」: a torn scroll icon labeled "遺産分割禁止　5
-年" stands as a barrier, but behind it a surveyor character is still
+frame「表示の登記（分筆）」: a torn scroll icon labeled「遺産分割禁止　5
+年」stands as a barrier, but behind it a surveyor character is still
 splitting a land plot into two zones with measuring tools, with a green
-checkmark stamp labeled "遺産分割禁止期間中でも申請できる". Right frame
-「権利の登記（所有権移転）」: the same torn scroll icon labeled "遺産分割
-禁止　5年" stands in front of a house-key icon representing移転登記 with a
-red X stamp labeled "遺産分割の結果が確定するまで申請できない".
+checkmark stamp labeled「遺産分割禁止期間中でも申請できる」. Right frame
+「権利の登記（所有権移転）」: the same torn scroll icon labeled「遺産分割
+禁止　5年」stands in front of a house-key icon representing移転登記 with a
+red X stamp labeled「遺産分割の結果が確定するまで申請できない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、申請しようとしているのが土地の物理的状況を公示する表示の登記（分
 筆）なのか、権利の帰属を確定させる権利の登記（相続を原因とする所有権移
@@ -451,18 +487,18 @@ characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 全部購入なら代位申請できない
-Diagram: Draw an actual decision flowchart. A land-plot icon labeled "甲
-土地" leads into a diamond-shaped branch node reading "買主Bが取得したの
-は土地の一部か、全部か". A "一部" arrow leads to a conclusion node
-reading "分筆をしなければ移転登記を受けられない（保全の必要あり）→代位し
-て分筆の登記を申請できる", illustrated with a character labeled "一部を
-購入" standing on half of the land plot beside a document labeled "代位
-申請" with a green checkmark. A "全部"（本肢のケース、with a thick
+Diagram: Draw an actual decision flowchart. A land-plot icon labeled「甲
+土地」leads into a diamond-shaped branch node reading「買主Bが取得したの
+は土地の一部か、全部か」. A「一部」arrow leads to a conclusion node
+reading「分筆をしなければ移転登記を受けられない（保全の必要あり）→代位し
+て分筆の登記を申請できる」, illustrated with a character labeled「一部を
+購入」standing on half of the land plot beside a document labeled「代位
+申請」with a green checkmark. A「全部」（本肢のケース、with a thick
 highlighted border and full color）arrow leads to a separate conclusion
-node reading "分筆をしなくても移転登記を受けられる（保全の必要なし）→代
-位して分筆の登記を申請できない", illustrated with a character labeled
-"全部を購入" standing on the entire land plot beside the same document
-labeled "代位申請" crossed out with a red X. No arrow loops back to an
+node reading「分筆をしなくても移転登記を受けられる（保全の必要なし）→代
+位して分筆の登記を申請できない」, illustrated with a character labeled
+「全部を購入」standing on the entire land plot beside the same document
+labeled「代位申請」crossed out with a red X. No arrow loops back to an
 earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、買主が取得したのが土地の一部か全部かを確認します。一部を買い受けた
@@ -478,8 +514,8 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法39条1項（ア）、不動産登記令別表8項添付情報ロ・不
 動産登記規則79条（イ）、不動産登記事務取扱手続準則72条1項（ウ）、不動
-産登記法・不動産登記令8条1項の表示登記と権利の登記の区別（エ）、民法
-423条（オ）
+産登記法2条3号・4号の表示に関する登記と権利に関する登記の区別（エ）、
+民法423条（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
@@ -501,7 +537,11 @@ callout states a checking order rather than only a conclusion and keeps
 every required element from the source article distinct (no merged or
 dropped requirements), that every branch point where both outcomes are
 legally meaningful shows both destinations as explicit, separate
-conclusion nodes with no dangling or looping branch, confirm nothing is
+conclusion nodes with no dangling or looping branch, confirm that no
+diagram contains any text other than the words written in 「」 in that
+panel's Diagram line, heading, 着眼点 callout or conclusion tag (no
+inscriptions on stones or signs, no pseudo-writing) and that each such
+word is clearly legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
 text block of any kind), and confirm the entire canvas, edge to edge, is

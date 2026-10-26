@@ -36,7 +36,7 @@
 
 宅地は「建物の敷地及びその維持又は効用を果たすために必要な土地」を指します。
 
-石油タンクやガスタンクは建物そのものではありませんが、これらのタンクを支え、維持していくために必要な土地として、その敷地は宅地として認定されます（準則69条10号は、ガスタンク敷地又は石油タンク敷地は宅地とすると定めています）。したがって肢①は正しい記述です。
+石油タンクやガスタンクは建物そのものではありませんが、これらのタンクを支え、維持していくために必要な土地として、その敷地は宅地として認定されます（準則69条10号は、ガスタンク敷地又は石油タンク敷地は宅地とすると定めています）。したがって①は正しい記述です。
 
 **たとえば**、ガソリンスタンドの地下や工場の敷地内に据え付けられた大きな灯油タンク・ガスタンクをイメージしてください。タンク自体は建物ではありませんが、それを支え管理するための土地として、その真下・周辺の敷地は宅地として登記されます。
 
@@ -44,7 +44,7 @@
 
 耕作地の区域内にある農具小屋等の敷地は、その建物が永久的な設備と認められるものに限って宅地とされます（準則69条3号）。
 
-裏を返せば、いつでも撤去・移動できるような仮設の小屋にすぎない場合は、その敷地は宅地にならず、周囲の耕作地（畑など）と同じ地目のままです。したがって「仮設の農具小屋のある土地は、宅地である」とする肢②は誤りです。
+裏を返せば、いつでも撤去・移動できるような仮設の小屋にすぎない場合は、その敷地は宅地にならず、周囲の耕作地（畑など）と同じ地目のままです。したがって「仮設の農具小屋のある土地は、宅地である」とする②は誤りです。
 
 **たとえば**、田んぼのそばに、木材とトタン屋根で組んだだけの、いつでも解体して運び出せるような小さな道具置き場を建てたとします。
 
@@ -54,7 +54,7 @@
 
 墓地は、不動産登記事務取扱手続準則68条12号で「人の遺体又は遺骨を埋葬する土地」と定められています。
 
-人以外の動物の遺骸又は遺骨を埋める土地は、墓地には当たりません。ほかのどの地目にも当たらない土地として、雑種地になります（準則68条23号）。したがって「動物の遺骸又は遺骨を埋める土地は、墓地である」とする肢③は誤りです。
+人以外の動物の遺骸又は遺骨を埋める土地は、墓地には当たりません。ほかのどの地目にも当たらない土地として、雑種地になります（準則68条23号）。したがって「動物の遺骸又は遺骨を埋める土地は、墓地である」とする③は誤りです。
 
 **たとえば**、人のお墓が並ぶ区画は墓地ですが、動物の遺骸や遺骨を埋めるために使っている土地は、墓地ではなく雑種地として扱われます。
 
@@ -62,7 +62,9 @@
 
 準則68条5号は、鉄道用地を「鉄道の駅舎、附属施設及び路線の敷地」と定めています。鉄道専用の変電所は鉄道の附属施設にあたると考えられるため、その敷地は雑種地ではなく鉄道用地として扱われます。
 
-準則69条14号は「鉄塔敷地又は変電所敷地は、雑種地とする」と定めていますが、条文は鉄道に属する変電所を名指しで除いてはいません。同号は、鉄道に属さない一般の変電所や鉄塔の敷地を念頭に置いたものと整理されています（この整理は条文の文言そのものではなく、準則68条5号との関係を踏まえた取扱いです）。したがって「鉄道専用の変電所の敷地は、雑種地である」とする肢④は誤りです。
+準則69条14号は「鉄塔敷地又は変電所敷地は、雑種地とする」と定めていますが、条文は鉄道に属する変電所を名指しで除いてはいません。同号は、鉄道に属さない一般の変電所や鉄塔の敷地を念頭に置いたものと整理されています（この整理は条文の文言そのものではなく、準則68条5号との関係を踏まえた取扱いです）。
+
+したがって「鉄道専用の変電所の敷地は、雑種地である」とする④は誤りです。
 
 **たとえば**、電車に電気を送るためだけに線路の脇に設けられた変電所は、鉄道の設備の一部ですから、鉄道用地になります。電力会社が一般の電力供給のために別の場所に設ける変電所は、鉄道とは関係がないので、雑種地になります。
 
@@ -70,13 +72,19 @@
 
 準則68条15号は、水道用地を「専ら給水の目的で敷設する水道の水源地、貯水池、ろ水場又は水道線路に要する土地」と定めています。
 
-浄水場は専ら給水の目的の施設であり、その施設を管理する事務所の敷地も、水道用地として扱われます（条文に事務所の敷地が明記されているわけではなく、取扱いとしての整理です）。事務所があるからといって、その部分だけが宅地になるわけではありません。したがって「浄水場内にあって、その施設を管理する事務所の敷地は、宅地である」とする肢⑤は誤りです。
+浄水場は専ら給水の目的の施設であり、その施設を管理する事務所の敷地も、水道用地として扱われます（条文に事務所の敷地が明記されているわけではなく、取扱いとしての整理です）。事務所があるからといって、その部分だけが宅地になるわけではありません。
+
+したがって「浄水場内にあって、その施設を管理する事務所の敷地は、宅地である」とする⑤は誤りです。
 
 **たとえば**、広大な浄水場の敷地の中に、職員が管理業務を行う小さな事務所の建物が建っているとします。その事務所の敷地も、浄水場のほかの部分と同じ水道用地として扱います。
 
 ### ⑥：私有地でも一般公衆の交通に使われていれば公衆用道路である
 
-公衆用道路は、一般公衆の交通の用に供する道路を指し、その土地が公有か私有かは問いません。所有者が個人であっても、実際に地域住民などの通行の用に供されていれば、公衆用道路として認定されます（準則68条21号は、一般交通の用に供する道路を公衆用道路とし、道路法による道路であるかどうかを問わないと定めています）。したがって肢⑥は正しい記述です。
+公衆用道路は、一般公衆の交通の用に供する道路を指し、その土地が公有か私有かは問いません。
+
+所有者が個人であっても、実際に地域住民などの通行の用に供されていれば、公衆用道路として認定されます（準則68条21号は、一般交通の用に供する道路を公衆用道路とし、道路法による道路であるかどうかを問わないと定めています）。
+
+したがって⑥は正しい記述です。
 
 **たとえば**、個人が所有している土地であっても、近所の人たちが日常的に通り抜けの道として使っている生活道路になっているとします。
 
@@ -86,7 +94,7 @@
 
 火葬場は、その構内に建物の設備があるときは構内全部を宅地とし、建物の設備がないときは雑種地とするという基準で認定されます（準則69条12号）。
 
-つまり「建物の設備があるかどうか」が宅地と雑種地の分かれ目であり、建物の設備がある場合には雑種地ではなく宅地となります。したがって「構内に建物の設備がある火葬場の敷地は、雑種地である」とする肢⑦は誤りです。
+つまり「建物の設備があるかどうか」が宅地と雑種地の分かれ目であり、建物の設備がある場合には雑種地ではなく宅地となります。したがって「構内に建物の設備がある火葬場の敷地は、雑種地である」とする⑦は誤りです。
 
 **たとえば**、火葬場の敷地内に、遺族が待機するための建物や事務を行う建物が実際に建てられているケースを考えてください。
 
@@ -94,7 +102,7 @@
 
 ### ⑧：校舎・附属施設の敷地と運動場をあわせて学校用地という
 
-学校用地は、校舎及びその附属施設の敷地に加えて、運動場も含めた一つの地目として認定されます（準則68条4号）。校舎の敷地と運動場を別々の地目に分けるのではなく、学校としての一体的な利用に着目してまとめて扱われる点がポイントです。したがって肢⑧は正しい記述です。
+学校用地は、校舎及びその附属施設の敷地に加えて、運動場も含めた一つの地目として認定されます（準則68条4号）。校舎の敷地と運動場を別々の地目に分けるのではなく、学校としての一体的な利用に着目してまとめて扱われる点がポイントです。したがって⑧は正しい記述です。
 
 **たとえば**、小学校の校舎や体育館などの附属施設に加えて、児童が体育の授業や休み時間に使う校庭（運動場）も、まとめて「学校用地」という一つの地目で登記されます。
 
@@ -102,7 +110,7 @@
 
 テニスコートやプールは、宅地に接続するものは宅地とし、それ以外のものは雑種地とするという基準で認定されます（準則69条9号）。
 
-マンションの敷地は建物の敷地として宅地に当たるため、そこに接続して設けられたテニスコートも、宅地と一体のものとして宅地に含めて認定されます。したがって肢⑨は正しい記述です。
+マンションの敷地は建物の敷地として宅地に当たるため、そこに接続して設けられたテニスコートも、宅地と一体のものとして宅地に含めて認定されます。したがって⑨は正しい記述です。
 
 **たとえば**、マンションの共用施設として、建物の敷地にそのまま接続する形でテニスコートが設けられているとします。マンション本体の敷地（宅地）と地続きになっている以上、そのテニスコートの敷地部分も宅地として扱われます。
 
@@ -110,7 +118,7 @@
 
 建物として認定されるためには、屋根及び周壁又はこれらに類するものを有し、土地に定着した建造物であって、その目的とする用途に供し得る状態にあることが必要です（不動産登記規則111条）。実務ではこれを、外気分断性・定着性・用途性の3要件として整理します。
 
-鉄塔のように、脚部だけの構造で建物としての実質を備えていない工作物の敷地は、準則69条14号が鉄塔敷地を雑種地と定めています。したがって肢⑩は正しい記述です。
+鉄塔のように、脚部だけの構造で建物としての実質を備えていない工作物の敷地は、準則69条14号が鉄塔敷地を雑種地と定めています。したがって⑩は正しい記述です。
 
 **たとえば**、送電線を支えるために建てられた鉄塔の敷地をイメージしてください。屋根や壁を備えた居住・作業スペースがあるわけではなく、建物としての実質を欠くため、その敷地は雑種地として扱われます。
 
@@ -129,7 +137,9 @@
 - **⑨（正）** 宅地に接続するテニスコートは宅地
 - **⑩（正）** 建物の要件を備えない鉄塔等の敷地は雑種地
 
-地目の認定は、建物の有無・恒久性・利用実態という「現況」に着目するだけでなく、墓地・鉄道用地・水道用地のように、準則が専用の地目を定めている施設かどうかにも着目して決まります。とりわけ②の仮設建物と⑦の火葬場は「建物があれば宅地になるのか」という考え方が入れ替わりやすく、④の変電所と⑤の浄水場の事務所は「建物だから宅地」「変電所だから雑種地」と短絡しやすい、典型的なひっかけどころです。
+地目の認定は、建物の有無・恒久性・利用実態という「現況」に着目するだけでなく、墓地・鉄道用地・水道用地のように、準則が専用の地目を定めている施設かどうかにも着目して決まります。
+
+とりわけ②の仮設建物と⑦の火葬場は「建物があれば宅地になるのか」という考え方が入れ替わりやすく、④の変電所と⑤の浄水場の事務所は「建物だから宅地」「変電所だから雑種地」と短絡しやすい、典型的なひっかけどころです。
 
 この問題が求めているのは、「誤っているもののみを組み合わせたもの」です。つまり、選択肢の組合せに挙がった2つの記述が、どちらも誤りになっているものを選びます。
 
@@ -208,6 +218,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・建・物・所・種・雑・宅・墓・鉄・道・水 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -233,37 +259,40 @@ Subtitle (smaller, centered, 1行):
 宅地か雑種地かで分かれる
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 仮設の農具小屋は宅地にならない
 Illustration: An isometric small farm shed made of wood and a tin
-roof beside a rice paddy, labeled "仮設". The surrounding field keeps
+roof beside a rice paddy, labeled「仮設」. The surrounding field keeps
 the same pastel color as the shed's plot, showing the shed does not
-create a separate 宅地. A red cross mark sits over a "宅地" label.
+create a separate 宅地. A red cross mark sits over a「宅地」label.
+Words allowed inside this illustration (verbatim, nothing else): 「仮設」
+「宅地」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 恒久的でなければ不可
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 火葬場は建物設備があれば宅地
 Illustration: An isometric crematorium compound with a real building
-where families wait and staff work, labeled "建物の設備あり" with a
-green checkmark and a "宅地" tag. A small inset shows an outdoor
-furnace with no building, labeled "設備なし" with a red cross mark
-and a "雑種地" tag.
+where families wait and staff work, labeled「建物の設備あり」with a
+green checkmark and a「宅地」tag. A small inset shows an outdoor
+furnace with no building, labeled「設備なし」with a red cross mark
+and a「雑種地」tag.
+Words allowed inside this illustration (verbatim, nothing else): 「建物の
+設備あり」「宅地」「設備なし」「雑種地」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 設備なければ雑種地
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 タンクとコートは宅地、鉄塔は雑種地
 Illustration: Three small isometric scenes side by side. On the left,
-an oil tank fixed on a factory plot with a pastel "宅地" tag. In the
+an oil tank fixed on a factory plot with a pastel「宅地」tag. In the
 middle, a tennis court directly adjoining an apartment building's
-grounds with a pastel "宅地" tag. On the right, a transmission tower
-with only bare legs and no roof or walls with a "雑種地" tag.
+grounds with a pastel「宅地」tag. On the right, a transmission tower
+with only bare legs and no roof or walls with a「雑種地」tag.
+Words allowed inside this illustration (verbatim, nothing else): 「宅地」
+「雑種地」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 準則の個別の定め
 
@@ -271,38 +300,41 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 専用の地目・利用実態で決まる
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 鉄道・浄水場の施設は専用の地目
 Illustration: On the left, an isometric small substation beside a
-railway track, labeled "鉄道専用の変電所", with a "鉄道用地" tag. On
+railway track, labeled「鉄道専用の変電所」, with a「鉄道用地」tag. On
 the right, a water-treatment plant with a small office building inside
-the plant, the whole footprint inside one outline, labeled "管理事務所
-も同じ", with a "水道用地" tag.
+the plant, the whole footprint inside one outline, labeled「管理事務所
+も同じ」, with a「水道用地」tag.
+Words allowed inside this illustration (verbatim, nothing else): 「鉄道専用
+の変電所」「鉄道用地」「管理事務所も同じ」「水道用地」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 鉄道用地と水道用地
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 墓地は人の遺体・遺骨を埋める土地
 Illustration: On the left, an isometric cemetery with gravestones and
-a person paying respects, with a green checkmark and a "墓地" tag. On
+a person paying respects, with a green checkmark and a「墓地」tag. On
 the right, a small inset of a plain plot with a paw-print icon, labeled
-"動物の遺骸・遺骨", with a red cross mark over a "墓地" label and a
-"雑種地" tag.
+「動物の遺骸・遺骨」, with a red cross mark over a「墓地」label and a
+「雑種地」tag.
+Words allowed inside this illustration (verbatim, nothing else): 「墓地」
+「動物の遺骸・遺骨」「雑種地」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 動物は墓地でなく雑種地
 
 --- COLUMN B, CARD 6 ---
-Badge: a filled blue circle containing the number 6.
 Heading (bold, ONE line, ~20 characters or fewer):
 公衆用道路と学校用地
-Illustration: On the left, an isometric small road with a "私有地"
+Illustration: On the left, an isometric small road with a「私有地」
 sign, drawn with local residents walking along it daily, with a
-"公衆用道路" tag. On the right, a school campus showing the school
+「公衆用道路」tag. On the right, a school campus showing the school
 building, attached facilities, and playground as one unified plot
-labeled "学校用地".
+labeled「学校用地」.
+Words allowed inside this illustration (verbatim, nothing else): 「私有地」
+「公衆用道路」「学校用地」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 実際の使い方で決まる
 
@@ -312,12 +344,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 6 exactly, with
-no duplicated or missing cards, that badge numbers run 1-6 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -380,6 +414,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -575,7 +618,7 @@ characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-不動産登記事務取扱手続準則68条3号・4号・5号・12号・15号・21号・23号・69条3号・9号・10号・12号・14号、不動産登記規則111条
+不動産登記事務取扱手続準則68条4号・5号・12号・15号・21号・23号・69条3号・9号・10号・12号・14号、不動産登記規則111条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

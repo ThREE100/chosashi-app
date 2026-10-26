@@ -64,15 +64,15 @@
 
 ### まとめ
 
-- **肢1（誤）**　調査士法人は設立の登記をすることで成立する。法務大臣の許可は不要
-- **肢2（誤）**　社員は全員、業務執行の権利を有し義務を負う。定款で一部社員に限定できない
-- **肢3（誤）**　成立後2週間以内という期限は正しいが、届出先は法務局ではなく調査士会及び連合会
-- **肢4（正）**　競業避止義務は、総社員の同意があっても解除されない
-- **肢5（誤）**　調査士法人自体も懲戒処分（戒告・業務停止・解散）の対象となる
+- **1（誤）**　調査士法人は設立の登記をすることで成立する。法務大臣の許可は不要
+- **2（誤）**　社員は全員、業務執行の権利を有し義務を負う。定款で一部社員に限定できない
+- **3（誤）**　成立後2週間以内という期限は正しいが、届出先は法務局ではなく調査士会及び連合会
+- **4（正）**　競業避止義務は、総社員の同意があっても解除されない
+- **5（誤）**　調査士法人自体も懲戒処分（戒告・業務停止・解散）の対象となる
 
 法人の成立要件・業務執行権の分配・届出の期限と届出先・競業避止義務・法人自体への懲戒可否という5つの視点を切り分けて押さえておけば、この分野は安定した得点源になります。
 
-**正解：選択肢4番（肢4が正しい）**
+**正解：選択肢4番（4が正しい）**
 
 ---
 
@@ -144,6 +144,22 @@ summarize, or substitute any characters. Characters such as「登」「記」
 confused with Simplified Chinese variants — render them strictly in
 standard Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -165,58 +181,63 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 設立の登記をすることで成立する
 Illustration: An isometric office building with a large official stamp
 icon labeled「設立の登記」pressed onto a document in front of it. A
 crossed-out icon of a person in a suit labeled「法務大臣の許可」with a
 red ✕ mark next to it, showing this is NOT required.
+Words allowed inside this illustration (verbatim, nothing else): 「設立
+の登記」「法務大臣の許可」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 許可ではなく登記で成立
 
 --- CARD 2 ---
-Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 社員は全員、業務執行の権利と義務を持つ
 Illustration: Three isometric figures (社員) standing in a row inside an
 office, each holding an identical document icon labeled「業務執行」with a
 green checkmark. A crossed-out speech bubble icon showing「一部の社員だけ」
 with a red ✕ mark, indicating this is not allowed.
+Words allowed inside this illustration (verbatim, nothing else): 「業務
+執行」「一部の社員だけ」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 定款でも一部限定は不可
 
 --- CARD 3 ---
-Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 成立後2週間以内、届出先は調査士会と連合会
 Illustration: An isometric figure holding a document folder labeled
 「登記事項証明書・定款の写し」walking toward two building icons labeled
 「調査士会」and「連合会」, with a clock icon showing「2週間以内」. A
 crossed-out building icon labeled「法務局」with a red ✕ mark to its side.
+Words allowed inside this illustration (verbatim, nothing else): 「登記
+事項証明書・定款の写し」「調査士会」「連合会」「2週間以内」「法務局」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 届出先は法務局ではない
 
 --- CARD 4 ---
-Badge: a filled circle in soft blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 競業避止は、総社員の同意でも解除されない
 Illustration: An isometric figure (社員) attempting to sign a second
 contract labeled「他の業務」outside the office, with a large red stop-sign
 icon blocking them. A speech bubble from other figures saying「全員同意
 しても」with a red ✕ mark beside it.
+Words allowed inside this illustration (verbatim, nothing else): 「他の
+業務」「全員同意しても」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 全員一致でも越えられない
 
 --- CARD 5 ---
-Badge: a filled circle in soft blue containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 調査士法人自体も懲戒処分の対象になる
 Illustration: An isometric office building icon receiving a stamp labeled
 「戒告・業務停止・解散」directly on the building itself, alongside a
 smaller individual figure also receiving a separate stamp labeled
 「懲戒処分」, showing both are targeted simultaneously.
+Words allowed inside this illustration (verbatim, nothing else): 「戒告・
+業務停止・解散」「懲戒処分」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 法人も処分の対象
 
@@ -231,11 +252,15 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, confirm there is no intro
+with no duplicated or missing cards, confirm that no card carries a
+number, numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible — confirm
+nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -292,6 +317,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses consistently — never open a parenthetical with a full-width
 mark and close it with a half-width mark, or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -431,7 +465,10 @@ from the正しいルール side with a visible ✕ and checkmark, that no 選択
 with a genuinely hidden second condition has been flattened into a single
 check (Panel 3 must keep the correct 期限 and the correct 届出先 as two
 distinct facts, not merged into one label), that each 着眼点 callout
-states a checking order rather than only a conclusion, confirm nothing is
+states a checking order rather than only a conclusion, confirm that no
+diagram contains any text other than the specified 「」 words (no
+inscriptions, signs, or pseudo-writing) and that each allowed word is
+clearly legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 選択肢, and no
 additional text block of any kind), and confirm the entire canvas, edge

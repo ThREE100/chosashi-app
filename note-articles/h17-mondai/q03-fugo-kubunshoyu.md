@@ -82,9 +82,13 @@
 
 オは、Ａが増築部分を継続して使用できることを理由に、Ｂへの金銭の支払請求ができないとしています。しかし、「使用を続けられるかどうか」と「金銭的な精算を求められるかどうか」は別の問題です。
 
-増築部分がＢの所有になる（付合する）場合、その付合によって損失を受けたＡは、民法248条により、不当利得の規定（703条・704条）に従って、Ｂに対して償金を請求することができます。したがって、「使用を継続できるから金銭請求はできない」と言い切るオは、誤りです。
+増築部分がＢの所有になる（付合する）場合、その付合によって損失を受けたＡは、民法248条により、不当利得の規定（703条・704条）に従って、Ｂに対して償金を請求することができます。
 
-条文の構造は、付合（民法242条）によってＢが所有権を取得する→損失を受けたＡは248条によって償金を請求できる→その内容は703条・704条（不当利得）に従って決まる、という順序です。248条は「付合、混和又は加工」に伴う償金の請求の根拠で、703条は248条が準用する先の規定にあたります。
+したがって、「使用を継続できるから金銭請求はできない」と言い切るオは、誤りです。
+
+条文の構造は、付合（民法242条）によってＢが所有権を取得する→損失を受けたＡは248条によって償金を請求できる→その内容は703条・704条（不当利得）に従って決まる、という順序です。
+
+248条は「付合、混和又は加工」に伴う償金の請求の根拠で、703条は248条が準用する先の規定にあたります。
 
 **たとえば**、Ａが独立性のない出窓を自費で取り付け、その所有権がＢに帰属したとします。
 
@@ -173,6 +177,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・建・物・所・独・築 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -194,52 +214,52 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 同意の有無では所有権は決まらない
 Illustration: 賃貸人Ｂと賃借人Ａの間で同意書に判子（はんこ）を押す場面と、
 その脇に「独立性」の有無をチェックする天秤アイコンを並べ、天秤の傾きだけが
 結論を左右することを矢印で示す。同意書のアイコンには丸に斜線を入れ、
 「同意の有無では決まらない」ことを視覚的に示す。
+Words allowed inside this illustration (verbatim, nothing else): 「独立性」「同意の有無では決まらない」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 独立性の有無で判断
 
 --- CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 価値が増えても付合の判断は不変
 Illustration: 高級な床材とシステムキッチンのアイコン、その上に価値上昇を示す
 上向き矢印のグラフを配置するが、所有権を示す矢印は変わらず建物所有者Ｂの
 アイコンを指したままにする。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 価値増加は無関係
 
 --- CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 出窓は同意があってもＢのもの
 Illustration: 建物の外壁から張り出した出窓のアイソメアイコンの上に「同意済み」
 を示す判子マークを重ねるが、所有権を示す矢印は出窓から賃貸人Ｂのアイコンへ
 向かって伸びる構図にする。
+Words allowed inside this illustration (verbatim, nothing else): 「同意済み」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 独立性なしはＢに帰属
 
 --- CARD 4 ---
-Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 独立性のある増築部分はＡが取得
 Illustration: 甲建物の２階部分に、外部階段から直接出入りできる独立した部屋を
 アイソメトリックで描く。１階部分とは壁で完全に仕切られており、所有権を示す
 矢印は増築したＡのアイコンへ向かって伸びる構図にする。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 独立性ありはＡ取得
 
 --- CARD 5 ---
-Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 使用継続できても金銭請求は可能
 Illustration: 出窓のある部屋に住み続ける賃借人Ａのアイソメアイコンと、Ａから
 賃貸人Ｂへ向かって伸びる「償金請求」のラベル付き吹き出し矢印を配置する。
+Words allowed inside this illustration (verbatim, nothing else): 「償金請求」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 金銭請求の余地あり
 
@@ -249,13 +269,17 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, badge numbers run 1-5 continuously,
+with no duplicated or missing cards, confirm that no card carries a
+number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, confirm no card reproduces choice ア, イ, or オ's
 incorrect statement verbatim — only the corrected legal rule is shown
-for each — and confirm that no card contains a full sentence of
+for each — confirm that no card contains a full sentence of
 explanatory prose, every card's takeaway reading as a short heading + a
-short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+short conclusion tag, at a glance — and confirm that no illustration
+contains any text other than its "Words allowed" words (no inscriptions
+on stones or signs, no pseudo-writing) and that each allowed word is
+clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -329,6 +353,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -485,7 +518,10 @@ drawn as two distinct diamonds rather than merged into one check, that
 Panel 5's 対比枠型 layout clearly separates the 使用継続 side from the
 highlighted 金銭の精算 side rather than implying one determines the
 other, that each 着眼点 callout states a checking order rather than only
-a conclusion, confirm nothing is rendered below the last panel's
+a conclusion, confirm that no diagram or illustration contains any text
+other than the words specified above (no inscriptions on stones or
+signs, no pseudo-writing) and that each specified word is clearly
+legible, confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no re-
 listed ○/✕ grid of all 肢, and no additional text block of any kind), and
 confirm the entire canvas, edge to edge, is filled with a fully opaque

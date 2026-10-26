@@ -2,27 +2,25 @@
 
 **出題年度：平成17年度　第20問（改）**
 
-> 土地家屋調査士（以下「調査士」という。）及び土地家屋調査士法人（以下「調査士法人」という。）に関する次のアからオまでの記述のうち、誤っているものは、後記１から５までのうちどれか。  
+> 土地家屋調査士（以下「調査士」という。）及び土地家屋調査士法人（以下「調査士法人」という。）に関する次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか。  
 >　  
 > ア　調査士は、他の法務局又は地方法務局の管轄区域内に事務所を移転しようとするときは、日本土地家屋調査士会連合会に対し、所属する土地家屋調査士会の変更の登録の申請をしなければならない。  
 >　  
 > イ　調査士は、事務を受任しようとする場合には、あらかじめ、依頼をしようとする者に対し、報酬額の算定の方法その他の報酬の基準を示さなければならない。  
 >　  
-> ウ　調査士は、日本土地家屋調査士会連合会の定める様式により事件簿を調製し、その閉鎖後７年間保存しなければならない。  
+> ウ　調査士は、日本土地家屋調査士会連合会の定める様式により事件簿を調製し、その閉鎖後５年間保存しなければならない。  
 >　  
 > エ　調査士法人は、定款で定めるところにより、法令等に基づきすべての調査士が行うことができるものとして法務省令で定める業務の全部又は一部を行うことができる。  
 >　  
 > オ　従たる事務所を設ける調査士法人は、従たる事務所に、主たる事務所の所在地を管轄する法務局又は地方法務局の管轄区域内に設立された土地家屋調査士会の会員である社員を常駐させなければならない。  
 >　  
-> １　ア　　２　イ　　３　ウ　　４　エ　　５　オ
+> １　アエ　　２　アオ　　３　イウ　　４　ウオ　　５　エオ
 
 ---
 
 土地家屋調査士法・同法施行規則は、調査士や調査士法人が日々の業務でどのような手続・義務を負うかを定めています。
 
 今回の問題では、①事務所移転時の変更登録の手続、②報酬基準の明示義務、③事件簿の保存義務、④調査士法人が行える業務の範囲、⑤従たる事務所への社員の常駐義務という5つの論点を通して、組織運営に関するルールを確認します。
-
-あわせて、③の保存期間は法改正により出題当時から変わっている点にも注意が必要です。
 
 ### ア：事務所移転時は、連合会に対して変更登録を申請する
 
@@ -40,11 +38,11 @@
 
 ### ウ：事件簿は、閉鎖後7年間保存しなければならない
 
-調査士は、連合会の定める様式により事件簿を調製しなければならず、事件簿は、その閉鎖後7年間保存しなければなりません（土地家屋調査士法施行規則28条1項・2項）。本肢はこの規定のとおりであり、正しい記述です。
+調査士は、連合会の定める様式により事件簿を調製しなければならず、事件簿は、その閉鎖後7年間保存しなければなりません（土地家屋調査士法施行規則28条1項・2項）。
 
-**たとえば**、ある依頼案件について記録した事件簿を閉鎖した場合、調査士はその閉鎖の日から7年間、事件簿を保存しておく必要があります。
+本肢は保存期間を「閉鎖後５年間」としており、現行の7年間と食い違うため、誤りです。
 
-なお、この保存期間は、出題当時（平成17年）は「閉鎖後5年間」でしたが、令和2年8月1日施行の改正により「閉鎖後7年間」に延長されています。本記事は現行法に合わせ、本肢を「閉鎖後７年間」と改めた改題です。
+**たとえば**、ある依頼案件について記録した事件簿を閉鎖した場合、調査士はその閉鎖の日から7年間、事件簿を保存しておく必要があります。5年間保存すれば足りるわけではありません。
 
 ### エ：調査士法人は、定款により法務省令で定める業務の全部又は一部を行える
 
@@ -70,17 +68,17 @@
 
 - **ア（正）** 事務所移転時は、移転先の調査士会を経由して連合会に変更の登録を申請する
 - **イ（正）** 受任前に、報酬額の算定方法などの基準をあらかじめ依頼者に示す義務がある
-- **ウ（正）** 事件簿は、閉鎖後7年間保存しなければならない（令和2年8月1日施行の改正後の保存期間）
+- **ウ（誤）** 事件簿は、閉鎖後5年間ではなく7年間保存しなければならない
 - **エ（正）** 調査士法人は、定款により法務省令で定める業務の全部又は一部を行うことができる
 - **オ（誤）** 従たる事務所に常駐させる社員は、主たる事務所ではなく、その従たる事務所自体の所在地を管轄する調査士会の会員でなければならない
 
-移転・報酬・保存期間・業務範囲・常駐という5つの手続的な論点のうち、常駐させる社員の所属先（オ）を見抜けるかどうかが、この問題の分かれ目です。保存期間（ウ）は現行法の7年間で覚えておきましょう。
+移転・報酬・保存期間・業務範囲・常駐という5つの手続的な論点のうち、保存期間（ウ）の年数と、常駐させる社員の所属先（オ）の2つを見抜けるかどうかが、この問題の分かれ目です。
 
-**正解：オ（選択肢5番）**
+**正解：ウオの組合せ（選択肢4番）**
 
 ---
 
-※本記事は改題です。出題当時の問題は、１から５までの各記述のうち誤っているものを選ぶ単一選択で、肢３は「…事件簿を調製し、その閉鎖後５年間保存しなければならない。」でした（正解は肢５）。令和2年8月1日施行の改正で事件簿の保存期間が「閉鎖後７年間」になり、現行法では肢３も誤りとなって正解が一つに定まらなくなるため、各記述をアからオに改め、ウ（旧肢３）を「閉鎖後７年間」に直して、正解をオ（５番）としています。
+※本記事は改題です。出題当時の問題は、１から５までの各記述のうち誤っているものを選ぶ単一選択で、肢３（本記事のウ）は「…事件簿を調製し、その閉鎖後５年間保存しなければならない。」でした（出題当時は正しい記述で、誤りは肢５だけ。正解は肢５）。令和2年8月1日施行の改正で事件簿の保存期間が「閉鎖後７年間」になり、現行法では肢３も誤りとなって正解が一つに定まらなくなるため、各記述をアからオに改め、設問を「誤っているものの組合せは、後記１から５までのうち、どれか」、選択肢を「１　アエ　２　アオ　３　イウ　４　ウオ　５　エオ」に改めました。ウの文言は出題当時の「閉鎖後５年間」のまま変えておらず、現行法では誤りとなるため、誤りの組合せはウとオで、正解は４番（ウオ）です。
 
 ---
 
@@ -89,7 +87,7 @@
 - **問題文の差し替えと誤記の訂正（2026-10-02）**：問題文は提供された原文テキスト（出典サイトの表記）に置き換えました。ただし、明らかな誤記は次のとおり訂正しています：「事件簿を調整し」→「事件簿を調製し」。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - **2026-09-30の再検証で判明・修正した点（重要）**：ユーザーから、H17年度の問題文について公式の出題内容と異なる可能性があるとのご指摘を受け、ユーザーから提供された資料（過去問の原文と解説を収録した実務教材の該当ページ）を確認しました。その資料には本問について「改」という表示が付いた、肢をア〜オで表示し2つの組合せを選ぶ形式の問題文が掲載されていましたが、ユーザーから、この「改」はユーザーから提供された実務教材が独自に作成した改題であり、公式に改題された出題内容ではないとのご説明をいただきました。旧版の本記事はこの実務教材の改題版をそのまま出題内容として採用し、問題文の形式をア〜オの組合せ選択に変更し、タイトル脇に（改）を付記していましたが、これは誤りであったため、出題当時の元の問題文（1から5までの番号で示された単一選択の形式）に戻しました。あわせて、旧版で保存していた問題文には「事件簿を調整し」という表記がありましたが、条文（土地家屋調査士法施行規則28条1項）の正しい用字は「調製」であるため、この点も修正しています。
-- **改題（2026-10-02、ユーザー指示）**：解説は現行法令を基準にしています。土地家屋調査士法施行規則28条の事件簿の保存期間が令和2年8月1日施行の改正で「閉鎖後5年間」から「閉鎖後7年間」に延長され、出題当時は正しかった肢3（閉鎖後5年間）が現行法では誤りとなって、誤っている肢が肢3・肢5の2つになり単一選択が成立しなくなりました。そこで、設問を「次のアからオまでの記述のうち、誤っているものは、後記１から５までのうちどれか」に、選択肢を「１　ア　２　イ　３　ウ　４　エ　５　オ」に改め、旧肢3（ウ）を「閉鎖後７年間保存しなければならない」と直して、正解をオ（5番）としました（出題当時の正解は旧肢5＝選択肢5番で、番号は同じです）。
+- **改題（2026-10-26、ユーザー指示）**：解説は現行法令を基準にしています。土地家屋調査士法施行規則28条の事件簿の保存期間が令和2年8月1日施行の改正で「閉鎖後5年間」から「閉鎖後7年間」に延長され、出題当時は正しかった肢3（閉鎖後5年間）が現行法では誤りとなって、誤っている肢が肢3・肢5の2つになり単一選択が成立しなくなりました。そこで、設問を「次のアからオまでの記述のうち、誤っているものの組合せは、後記１から５までのうち、どれか」に、選択肢を「１　アエ　２　アオ　３　イウ　４　ウオ　５　エオ」に改め、旧肢3（ウ）は出題当時の文言（閉鎖後５年間）のままとして、正解をウオ（4番）としました（2026-10-02の改題では、ウを「閉鎖後７年間」に直して正解をオ〈5番〉としていましたが、ユーザー指示でウを出題当時の文言に戻しました）。
 - 出題年度・問題番号・元の問題文の内容は、ユーザーから直接ご提供いただいた資料で確認しました。本リポジトリの検証済みデータベース（`src/data/takuitsu.json`の`chosashi_H17_q20`エントリ）は、`explanation`フィールドが「申し訳ございません。WebFetchツールでページにアクセスできませんでした」というエラーメッセージのまま保存されており、正式な問題文・正解データが取得できていない状態でした。このため、本記事はユーザー提供の資料を一次資料として採用しています。
 - 各肢の条文根拠は、`note-articles/laws/chousashi-hou.md`（土地家屋調査士法）・`chousashi-hou-sekourule.md`（同法施行規則）の原文と突き合わせ、条文番号・文言レベルで確認しました。
   - ア（法13条1項「調査士は、他の法務局又は地方法務局の管轄区域内に事務所を移転しようとするときは、その管轄区域内に設立された調査士会を経由して、調査士会連合会に、所属する調査士会の変更の登録の申請をしなければならない。」）：完全一致。本肢は経由すべき調査士会について言及していませんが、結論（連合会に対し変更の登録を申請しなければならない）自体は条文と矛盾しないため、正誤判定には影響しません。
@@ -100,7 +98,7 @@
 - **重複出題チェック**：オの従たる事務所への社員常駐義務（法36条）は、`h19-mondai/q20-chosashi-gimu.md`オ・`h29-mondai/q20-chousashi-houjin.md`エ・`r4-mondai/q20-chousashihou.md`オで、いずれも同じ条文（法36条）を正しい記述として出題しています。本問（オ）はこれらとは逆に、常駐させる社員の所属先を「主たる事務所の所在地」に誤って置き換えたひっかけの形で出題されている点が特徴で、出題の向きが他年度の記事と異なるため、独立記事として問題ないと判断しました。
 - なお、本実行環境ではe-Gov法令検索や各解説サイトへの直接のページ取得（WebFetch）がアクセス制限により失敗するため、条文原文の確認はローカル法令データベースで行っています。
 - 本実行環境自体にはローカルの実務教材PDFは存在しませんが、今回はユーザーから直接提供された実務教材の抜粋（問題文原文とア〜オの正誤判定・根拠条文を示すもの）を、問題文の正確性の確認と解説内容のクロスチェックに使用しました。当該教材の文言はそのまま転記せず、内容を自分の言葉で要約・言い換えて上記に記載しています。当該教材の「改」表示による改題内容（ア〜オの組合せ選択形式）自体は、公式の出題内容ではないため、本記事の問題文としては採用していません。本記事はこの照合結果に加え、上記アプリの検証済みデータベース、ローカル法令データベースに基づいて作成しています。
-- **QAチェックリスト再検証（2026-09-30実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（土地家屋調査士法13条1項・29条1号・36条、同法施行規則21条・28条を`note-articles/laws/chousashi-hou.md`・`chousashi-hou-sekourule.md`の条文原文と改めて突き合わせ、いずれも文言まで一致することを確認。判例・先例・専門誌番号は本文に記載なし。一般法の適用除外チェックは本問では対象外）、B（「正解」欄がまとめの正誤判定と整合しており、出題当時の解答と現行法を基準にした場合の食い違いを注記していることを確認）、C（各見出しが正しい結論を表しており判定語を含まないこと、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの説明がないこと、全角括弧で統一されていることを確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックの内容を問題文・解説の訂正に合わせて全面的に書き改め、本文と一致していることを確認）、F（テンプレート構造・タイトルのキャッチフレーズが25字以内であること・確認事項ブロックの記載を確認）、G（重複出題チェックは上記のとおり実施済み。最新法令チェックとして、ウの事件簿保存期間（令和2年8月1日施行の改正で5年→7年）が出題当時と現行法とで食い違う点を、単一選択形式の問題文はそのままに注記で明示した点を確認しました）を実施し、上記の訂正以外に修正が必要な誤りは見つかりませんでした。
+- **QAチェックリスト再検証（2026-09-30実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（土地家屋調査士法13条1項・29条1号・36条、同法施行規則21条・28条を`note-articles/laws/chousashi-hou.md`・`chousashi-hou-sekourule.md`の条文原文と改めて突き合わせ、いずれも文言まで一致することを確認。判例・先例・専門誌番号は本文に記載なし。一般法の適用除外チェックは本問では対象外）、B（「正解」欄がまとめの正誤判定と整合しており、出題当時の解答と現行法を基準にした場合の食い違いを、まとめの後の改題の注記に記載していることを確認）、C（各見出しが正しい結論を表しており判定語を含まないこと、正解の先出しがないこと、敬体で統一されていること、条文解釈プロセスの説明がないこと、全角括弧で統一されていることを確認）、D（Markdown表の不使用を確認）、E（インフォグラフィックの内容を問題文・解説の訂正に合わせて全面的に書き改め、本文と一致していることを確認）、F（テンプレート構造・タイトルのキャッチフレーズが25字以内であること・確認事項ブロックの記載を確認）、G（重複出題チェックは上記のとおり実施済み。最新法令チェックとして、ウの事件簿保存期間（令和2年8月1日施行の改正で5年→7年）が出題当時と現行法とで食い違う点を、本文では現行法のみを述べ、出題当時との違いはまとめの後の改題の注記と本確認事項ブロックに記載した点を確認しました。2026-10-26に問題文・正解を改めたのに伴う再確認です）を実施し、上記の訂正以外に修正が必要な誤りは見つかりませんでした。
 
 ---
 
@@ -156,6 +154,22 @@ summarize, or substitute any characters. Characters such as「登」「記」
 prone to being confused with Simplified Chinese variants — render them
 strictly in standard Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -180,34 +194,37 @@ Subtitle (smaller, centered, 1行):
 正しい手続・義務
 
 --- COLUMN A, CARD 1（ア） ---
-Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 移転時は経由して連合会へ申請
 Illustration: An isometric figure carrying a document labeled「変更登録」
 walking from a building icon labeled「東京」through a smaller waypoint
 building icon labeled「経由する調査士会」toward a large building icon
 labeled「連合会」, with an arrow showing the path through the waypoint.
+Words allowed inside this illustration (verbatim, nothing else):
+「変更登録」「東京」「経由する調査士会」「連合会」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 経由して連合会へ
 
 --- COLUMN A, CARD 2（イ） ---
-Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 受任前に報酬基準をあらかじめ示す
 Illustration: An isometric surveyor figure handing a document labeled
 「報酬の算定方法」to a client figure, with a clock icon labeled「受任前」
 positioned before a contract-signing icon, showing the order of events.
+Words allowed inside this illustration (verbatim, nothing else):
+「報酬の算定方法」「受任前」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 あらかじめ示す義務
 
 --- COLUMN A, CARD 3（エ） ---
-Badge: a filled circle in soft blue containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 調査士法人は定款で業務を追加できる
 Illustration: An isometric office building icon labeled「調査士法人」with
 a document labeled「定款」in front of it, connected by an arrow to a
 separate icon labeled「法務省令で定める業務」with a green checkmark.
+Words allowed inside this illustration (verbatim, nothing else):
+「調査士法人」「定款」「法務省令で定める業務」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 定款で追加できる
 
@@ -215,25 +232,28 @@ Conclusion tag (soft blue, 5-15 Japanese characters):
 間違えやすい年数・所属先
 
 --- COLUMN B, CARD 4（ウ） ---
-Badge: a filled circle in soft red containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 事件簿の保存は5年でなく7年
 Illustration: A closed file-folder icon labeled「事件簿」with a small
 lock icon, sitting on a shelf, next to a calendar icon showing pages
-flipping forward. The number「5年」has a large red cross mark over it,
+flipping forward. The label「5年」has a large red cross mark over it,
 and an arrow points instead to a badge reading「7年」.
+Words allowed inside this illustration (verbatim, nothing else):
+「事件簿」「5年」「7年」
 Conclusion tag (soft red, 5-15 Japanese characters):
 7年間保存が必要
 
 --- COLUMN B, CARD 5（オ） ---
-Badge: a filled circle in soft red containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 常駐は、その事務所の管轄会員
 Illustration: Two isometric office buildings side by side, one labeled
 「主たる事務所（東京）」and one labeled「従たる事務所（大阪）」, each with
 its own local badge-wearing figure standing inside matching the local
-region. Next to the 大阪 building, a crossed-out figure wearing a「東京」
-badge with a red ✕ mark, showing this placement is not allowed.
+region. Next to the「従たる事務所（大阪）」building, a crossed-out figure
+wearing a「東京」badge with a red ✕ mark, showing this placement is not
+allowed.
+Words allowed inside this illustration (verbatim, nothing else):
+「主たる事務所（東京）」「従たる事務所（大阪）」「東京」
 Conclusion tag (soft red, 5-15 Japanese characters):
 その事務所の管轄会員
 
@@ -242,11 +262,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, confirm there is no intro
+with no duplicated or missing cards, confirm that no card carries a
+number, numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no pseudo-writing)
+and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -254,7 +277,7 @@ tag, at a glance. Confirm nothing is rendered below the last card (no summary re
 ## インフォグラフィック プロンプト（作図ガイド）
 
 各記述を読んだ瞬間に「まず何を確認し、次に何を確認して、どんな図にたどり
-着くか」を追体験できるよう、ア〜5の5つの記述分の作図ガイドパネルを1枚に
+着くか」を追体験できるよう、ア〜オの5つの記述分の作図ガイドパネルを1枚に
 まとめた。②の結論カードポスターとは別物として作成し、②の内容は変更して
 いない。
 
@@ -308,6 +331,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -323,7 +355,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成17年度第20問 作図ガイド（調査士・調査士法人）
+平成17年度 第20問 作図ガイド（調査士・調査士法人）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -409,7 +441,7 @@ leads to a badge-wearing figure standing inside the従たる事務所 matching
 the local region, ending at a green conclusion node reading「常駐の要件を
 満たす」. A red, thick-bordered「いいえ」 (the case this 肢 tests)arrow leads to a
 crossed-out figure wearing a「東京」badge standing inside the従たる事務所,
-ending at a red conclusion node reading「常駐の要件を満たさない」。
+ending at a red conclusion node reading「常駐の要件を満たさない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、常駐させる社員が主たる事務所の所在地を基準とする会員か、それとも
 その従たる事務所自体の所在地を基準とする会員かを確認します。従たる事務所

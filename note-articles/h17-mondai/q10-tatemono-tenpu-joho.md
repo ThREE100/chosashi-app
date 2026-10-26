@@ -104,7 +104,7 @@
 
 ## 見出し画像用フレーズ
 
-- 敷地権の中身、ぜんぶ書く必要があるって知ってた?
+- 敷地権の中身、ぜんぶ書く必要があるって知ってた？
 - 共用部分が別棟にあるとき、証明書が2つ必要なんです
 - 所有権登記のない建物の合体、添付する情報は4つなんです
 - 引渡証明書の印鑑証明書に、3箇月の期限はないんです
@@ -153,6 +153,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 登・記・権・地・番・建・物・所・証 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -177,27 +193,29 @@ Subtitle (smaller, centered, 1行):
 表示に関する登記の添付情報
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 未登記建物の合体は添付情報4つ
 Illustration: On the left, two separate isometric warehouse buildings
 (未登記の倉庫) with an arrow pointing right to a single combined
 warehouse building (合体後の1棟). Beside the combined building, draw
 exactly 4 document icons in this exact order, no omissions, no
-duplicates: (1)建物図面 (2)各階平面図 (3)所有権証明情報 (4)住所証明情報,
-each with a green checkmark.
+duplicates: (1)「建物図面」 (2)「各階平面図」 (3)「所有権証明情報」
+(4)「住所証明情報」, each with a green checkmark.
+Words allowed inside this illustration (verbatim, nothing else):
+「建物図面」「各階平面図」「所有権証明情報」「住所証明情報」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 4つの情報を提供
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 別棟共用部分は証明情報が2つ
 Illustration: An isometric main apartment building on the left and a
 smaller separate building (集会室などの別棟) on the right, connected
 by a dotted line. Above the separate building, draw exactly 2 document
-icons, labeled in this exact order: (1)変更又は更正を証する情報
-(2)共用部分である区分建物の所有者を証する情報.
+icons, labeled in this exact order: (1)「変更又は更正を証する情報」
+(2)「共用部分である区分建物の所有者を証する情報」.
+Words allowed inside this illustration (verbatim, nothing else):
+「変更又は更正を証する情報」「共用部分である区分建物の所有者を証する情報」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 証明情報が2つ
 
@@ -205,38 +223,43 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 権利に関する登記の添付情報
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物の敷地権情報が必要
 Illustration: An isometric apartment building (区分建物) above, with
 an isometric land plot directly below it, connected by a vertical line.
 Beside the land plot, draw exactly 3 information cards in this exact
-order, no omissions, no duplicates: (1)土地の所在・地番・地目及び地積
-(2)敷地権の種類及び割合 (3)敷地権の登記原因及び登記年月日.
+order, no omissions, no duplicates: (1)「土地の所在・地番・地目及び地積」
+(2)「敷地権の種類及び割合」(3)「敷地権の登記原因及び登記年月日」.
+Words allowed inside this illustration (verbatim, nothing else):
+「土地の所在・地番・地目及び地積」「敷地権の種類及び割合」
+「敷地権の登記原因及び登記年月日」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 土地情報も添付
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 引渡証明書の印鑑証明書に期限なし
 Illustration: An isometric scene of a builder handing house keys to a
-new owner in front of a detached house, with a 工事完了引渡証明書 icon, a
-red seal stamp (実印), and an 印鑑証明書 icon attached to it. Below, a
-calendar icon labeled 3箇月以内 with a large red ✕ mark over it and a
-small label 「期間の制限なし」.
+new owner in front of a detached house, with a icon labeled
+「工事完了引渡証明書」, a red seal stamp labeled「実印」, and an icon
+labeled「印鑑証明書」attached to it. Below, a calendar icon labeled
+「3箇月以内」with a large red ✕ mark over it and a small label
+「期間の制限なし」.
+Words allowed inside this illustration (verbatim, nothing else):
+「工事完了引渡証明書」「実印」「印鑑証明書」「3箇月以内」「期間の制限なし」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 3箇月の期限なし
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 共通添付情報は1回でよい
-Illustration: An isometric registry office counter (登記所) with two
+Illustration: An isometric registry office counter with two
 application form icons side by side. Only the first application form
 has a common attached-document icon stacked on it; the second
 application form has a small sticky note attached, labeled
 「添付情報は前件添付のとおり」.
+Words allowed inside this illustration (verbatim, nothing else):
+「添付情報は前件添付のとおり」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 1件でまとめてOK
 
@@ -246,11 +269,13 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose.
-Additionally, verify that Card 1 (未登記建物の合体) shows exactly 4 document icons (建物図面 / 各階平面図 / 所有権証明情報 / 住所証明情報) with checkmarks, and
+Confirm that no illustration contains any text other than its "Words
+allowed" words (no inscriptions on stones or signs, no pseudo-writing)
+and that each allowed word is clearly legible. Additionally, verify that Card 1 (未登記建物の合体) shows exactly 4 document icons (建物図面 / 各階平面図 / 所有権証明情報 / 住所証明情報) with checkmarks, and
 that Card 3 (敷地権) shows exactly 3 information cards in the order given
 (土地の所在・地番・地目及び地積 / 敷地権の種類及び割合 / 敷地権の登記
 原因及び登記年月日), with no omissions or duplicates. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
@@ -306,6 +331,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
