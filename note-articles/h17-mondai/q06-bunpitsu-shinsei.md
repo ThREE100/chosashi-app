@@ -18,7 +18,7 @@
 
 分筆登記は「一筆の土地を複数の土地に分ける」という物理的な変更を公示する登記であり、権利そのものの内容を変えるわけではありません。
 
-この性質を正しく理解していると、「担保権者や利害関係人の承諾が必要かどうか」を各場面で判断できるようになります。一方で、共有者自身が申請人になる場面だけは、扱いが変わってくる点に注意が必要です。順番に肢1〜5を見ていきましょう。
+この性質を正しく理解していると、「担保権者や利害関係人の承諾が必要かどうか」を各場面で判断できるようになります。一方で、共有者自身が申請人になる場面だけは、扱いが変わってくる点に注意が必要です。順番に1〜5を見ていきましょう。
 
 ### 1：仮差押があっても、分筆に債権者の承諾は不要
 
@@ -50,19 +50,25 @@ Aさんがこの土地を50坪ずつ2筆に分筆したい場合、Bさんに「
 
 本肢は、所有権以外の権利（地上権・賃借権など）が敷地権である旨の登記がされている土地について、所有権の登記名義人が分筆の登記を申請する場合を想定しています。
 
-分筆の登記を申請するときは、不動産登記令別表8項の添付情報欄に掲げる情報を提供します（同令7条1項6号）。そこに掲げられているのは、分筆後の土地の地積測量図と、地役権設定の範囲が分筆後の土地の一部であるときの地役権関係の情報だけです。敷地権を目的とする区分建物の所有権の登記名義人の承諾を証する情報は掲げられていないため、その提供は要求されておらず、本肢は誤りです。
+分筆の登記を申請するときは、不動産登記令別表8項の添付情報欄に掲げる情報を提供します（同令7条1項6号）。そこに掲げられているのは、分筆後の土地の地積測量図と、地役権設定の範囲が分筆後の土地の一部であるときの地役権関係の情報だけです。
 
-趣旨の補足として、敷地権である旨の登記は、区分建物の専有部分と敷地利用権（敷地権）とが分離して処分されないことを公示するための登記です。この登記がされている土地を分筆すること自体は、敷地の物理的な区分にとどまり、敷地権の内容や、専有部分と敷地利用権が一体として扱われるという規律自体を変更するものではない、と説明されます。
+敷地権を目的とする区分建物の所有権の登記名義人の承諾を証する情報は掲げられていないため、その提供は要求されておらず、本肢は誤りです。
+
+趣旨の補足として、敷地権である旨の登記は、区分建物の専有部分と敷地利用権（敷地権）とが分離して処分されないことを公示するための登記です。
+
+この登記がされている土地を分筆すること自体は、敷地の物理的な区分にとどまり、敷地権の内容や、専有部分と敷地利用権が一体として扱われるという規律自体を変更するものではない、と説明されます。
 
 **たとえば**、あるマンションの敷地となっている広い土地に「敷地権である旨の登記」がされていたとして、その敷地の一部を管理上の都合で分筆したいという場合でも、マンションの各区分所有者全員から承諾をもらう必要はありません。
 
 趣旨としては、分筆によって敷地権の内容自体が変わるわけではないためです。
 
-### 4：共有者の分筆登記は、持分の価格の過半数が必要。承諾書だけでは単独で申請できない（出題当時は全員の共同申請）
+### 4：共有者の分筆登記は、持分の価格の過半数が必要。承諾書だけでは単独で申請できない
 
 分筆の登記の申請人は、不動産登記法39条1項により表題部所有者又は所有権の登記名義人に限られます。
 
-土地が共有の場合、分筆は共有物の軽微変更として、令和5年4月1日施行の民法改正後の民法251条1項かっこ書き・252条1項により、各共有者の持分の価格の過半数で決することができます。この考え方を登記の申請にあてはめ、持分の価格の過半数を有する共有者から申請できるとするのは、民法の規定からの整理と登記実務の取扱いによるものです（分筆の登記の申請人をこの形で定めた条文は、法令データベースでは確認できませんでした。登記実務の取扱いは、令和5年3月28日付け法務省民二第533号通達の第１の１（2）で示されています。本問が出題された平成17年当時は、共有者全員が共同して申請人とならなければなりませんでした）。
+土地が共有の場合、分筆は共有物の軽微変更として、令和5年4月1日施行の民法改正後の民法251条1項かっこ書き・252条1項により、各共有者の持分の価格の過半数で決することができます。
+
+この考え方を登記の申請にあてはめ、持分の価格の過半数を有する共有者から申請できるとするのは、民法の規定からの整理と登記実務の取扱いによるものです（分筆の登記の申請人をこの形で定めた条文は、法令データベースでは確認できませんでした）。
 
 他の共有者の承諾を証する情報は、その共有者の申請人としての資格を基礎づけるものではないため、持分が過半数に満たない共有者の一人が、承諾を証する情報を提供しただけで単独の申請人になれるわけではありません。
 
@@ -70,7 +76,7 @@ Aさんがこの土地を50坪ずつ2筆に分筆したい場合、Bさんに「
 
 **たとえば**、AさんとBさんとCさんの3人が3分の1ずつ共有する土地を分筆したい場合、Aさん一人の持分は3分の1で過半数に届かないので、Bさん・Cさんから「分筆していいですよ」という承諾書をもらっても、Aさん一人だけで申請することはできません。
 
-AさんとBさん（持分の合計は3分の2）がそろって申請人になれば足り、Cさんの協力は要りません（出題当時は、A・B・Cの3人全員が申請人となる必要がありました）。
+AさんとBさん（持分の合計は3分の2）がそろって申請人になれば足り、Cさんの協力は要りません。
 
 ### 5：信託登記があっても、受託者は分筆登記を申請できる
 
@@ -89,12 +95,12 @@ AさんとBさん（持分の合計は3分の2）がそろって申請人にな�
 - **1（誤）** 仮差押えの効力は分筆後の各土地に当然に及び、債権者の承諾は不要
 - **2（正）** 共有物分割の裁判上の和解後は、持分移転登記請求権を保全するため代位して分筆登記を単独申請できる
 - **3（誤）** 分筆の登記の添付情報（令別表8項）に区分建物の所有権の登記名義人全員の承諾を証する情報は掲げられておらず、承諾は不要
-- **4（誤）** 共有者の分筆登記は持分の価格の過半数が必要で、承諾証明情報だけでは持分が過半数に満たない共有者は単独で申請できない（出題当時は全員の共同申請）
+- **4（誤）** 共有者の分筆登記は持分の価格の過半数が必要で、承諾証明情報だけでは持分が過半数に満たない共有者は単独で申請できない
 - **5（誤）** 受託者は信託財産の管理処分権に基づき単独で分筆登記を申請できる
 
 分筆登記は「物理的な区分にすぎないから、担保権者や区分建物所有者の承諾はいらない」という発想が土台にありますが、共有者自身が申請人になる場面だけは、持分の価格の過半数が必要になる（承諾書だけでは足りない）という対比が、この問題の核心です。この対比を押さえておけば、似たような場面が出題されても迷わず判断できます。
 
-**正解：肢２（選択肢２番）**
+**正解：2（選択肢2番）**
 
 ---
 
@@ -103,16 +109,17 @@ AさんとBさん（持分の合計は3分の2）がそろって申請人にな�
 - **問題文の差し替え（2026-10-02）**：問題文は、提供された原文テキスト（出典：行政書士西尾真一事務所・土地家屋調査士過去問解説サイト）の表記に置き換えました。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
 - 出題年度・問題番号・正解番号（選択肢2番）は、土地家屋調査士試験対策アプリの検証済みデータベース（この年度はtakuitsu.jsonのexplanationフィールドが空欄のため、kaisetsu_plus.jsonのapproach／pitfalls／keyPointsを主たる根拠として使用）で確認済みです。
-- 条文レベルで確認できたもの：肢4・共通の前提（不動産登記法39条1項・分筆登記の申請人が表題部所有者又は所有権登記名義人に限られること）、肢2（民事訴訟法267条・裁判上の和解の調書は確定判決と同一の効力を有すること、民法423条・債権者代位権の一般規定）、肢5（信託法26条本文・受託者の管理処分権）は、WebSearchで複数の解説サイト・Wikibooksの条文引用と突き合わせて確認しました。
-- 肢2について、qdata（kaisetsu_plus.json）のkeyPointsでは「不登法16条2項（代位申請）」、approachでは「不登法23条準用」という記載があり、両者が一致していませんでした。WebSearchで不動産登記法16条2項の内容を確認したところ、これは官庁・公署の嘱託登記に関する適用除外規定の一部であり、分筆登記の代位申請を直接根拠づける条文とは考えにくいものでした。そのため本記事では、より確実に確認できた「共有物分割の裁判上の和解後、分筆後の土地についての持分移転登記請求権を保全するため、取得者が他の共有者に代位して分筆登記を申請できる」という取扱い（先例上の考え方）と、その基礎となる民法423条・民事訴訟法267条を根拠として説明しました。DB記載の不登法上の具体的な条文番号（16条2項・23条）については、WebSearchでは実在・妥当性を確定できなかったため、断定を避けています。
-- 肢3（敷地権がある土地の分筆に区分建物所有者全員の承諾が不要であること）については、当初はWebSearchで直接の条文・先例を特定できず、「分筆はあくまで敷地の物理的区分であり、敷地権の内容（区分建物と敷地利用権の分離処分禁止）自体を変更するものではない」という一般原則からの推論で説明していました。2026-10-08に、不動産登記令7条1項6号・別表8項（分筆の登記の添付情報欄に、敷地権を目的とする区分建物の所有権の登記名義人の承諾を証する情報は掲げられていない）で条文上確認し、本文の根拠をこれに改めました（上記の一般原則の説明は趣旨の補足として残しています）。正誤の判定（誤り）は変わりません。
-- **肢4の最新法令への統一（2026-10-01、ユーザー指示）**：肢4の本文・まとめ・図解は、令和5年4月1日施行の民法251条1項かっこ書き・252条1項（持分の価格の過半数）に基づく説明に統一しました（従前は平成17年当時の「共有者全員による共同申請」で説明し、現在の扱いは確認事項で補足していました）。分筆を共有物の軽微変更として扱う点を定めた通達（令和5年3月28日付け法務省民二第533号）の原文は、この時点では未確認でしたが、2026-10-08に法務省サイトのPDFで確認しました（下の項を参照）。肢4の正誤（誤）と正解（肢2）は変わりません。問題文は「共有者の一人は」とだけあり持分が示されていませんが、問題文の補記は行わず、本文・図解では「承諾書があっても持分が過半数に満たない共有者の一人は単独で申請できない（過半数を満たせば、承諾書がなくても共有者全員でなくても申請できる）」という切り口で解説しています（2026-10-01、ユーザー指示）。
+- **出題当時との違い（確認事項に整理、2026-10-26）**：出題当時（平成17年度）は共有者全員による共同申請が必要でしたが、令和5年4月1日施行の民法改正（251条1項かっこ書き・252条1項）とそれに伴う登記実務の取扱いの変更により、持分の価格の過半数を有する共有者から申請できるようになりました（4の正誤判定自体は変わりません）。本文・たとえば段落・まとめは現行法の説明のみとし、出題当時との違いはこの確認事項ブロックに記載します。
+- 条文レベルで確認できたもの：4・共通の前提（不動産登記法39条1項・分筆登記の申請人が表題部所有者又は所有権登記名義人に限られること）、2（民事訴訟法267条・裁判上の和解の調書は確定判決と同一の効力を有すること、民法423条・債権者代位権の一般規定）、5（信託法26条本文・受託者の管理処分権）は、WebSearchで複数の解説サイト・Wikibooksの条文引用と突き合わせて確認しました。
+- 2について、qdata（kaisetsu_plus.json）のkeyPointsでは「不登法16条2項（代位申請）」、approachでは「不登法23条準用」という記載があり、両者が一致していませんでした。WebSearchで不動産登記法16条2項の内容を確認したところ、これは官庁・公署の嘱託登記に関する適用除外規定の一部であり、分筆登記の代位申請を直接根拠づける条文とは考えにくいものでした。そのため本記事では、より確実に確認できた「共有物分割の裁判上の和解後、分筆後の土地についての持分移転登記請求権を保全するため、取得者が他の共有者に代位して分筆登記を申請できる」という取扱い（先例上の考え方）と、その基礎となる民法423条・民事訴訟法267条を根拠として説明しました。DB記載の不登法上の具体的な条文番号（16条2項・23条）については、WebSearchでは実在・妥当性を確定できなかったため、断定を避けています。
+- 3（敷地権がある土地の分筆に区分建物所有者全員の承諾が不要であること）については、当初はWebSearchで直接の条文・先例を特定できず、「分筆はあくまで敷地の物理的区分であり、敷地権の内容（区分建物と敷地利用権の分離処分禁止）自体を変更するものではない」という一般原則からの推論で説明していました。2026-10-08に、不動産登記令7条1項6号・別表8項（分筆の登記の添付情報欄に、敷地権を目的とする区分建物の所有権の登記名義人の承諾を証する情報は掲げられていない）で条文上確認し、本文の根拠をこれに改めました（上記の一般原則の説明は趣旨の補足として残しています）。正誤の判定（誤り）は変わりません。
+- **4の最新法令への統一（2026-10-01、ユーザー指示）**：4の本文・まとめ・図解は、令和5年4月1日施行の民法251条1項かっこ書き・252条1項（持分の価格の過半数）に基づく説明に統一しました（従前は平成17年当時の「共有者全員による共同申請」で説明し、現在の扱いは確認事項で補足していました）。分筆を共有物の軽微変更として扱う点を定めた通達（令和5年3月28日付け法務省民二第533号）の原文は、この時点では未確認でしたが、2026-10-08に法務省サイトのPDFで確認しました（下の項を参照）。4の正誤（誤）と正解（2）は変わりません。問題文は「共有者の一人は」とだけあり持分が示されていませんが、問題文の補記は行わず、本文・図解では「承諾書があっても持分が過半数に満たない共有者の一人は単独で申請できない（過半数を満たせば、承諾書がなくても共有者全員でなくても申請できる）」という切り口で解説しています（2026-10-01、ユーザー指示）。2026-10-26、出題当時との違いの記述は本文から確認事項ブロック（上記）に移しました。
 - **2026-10-08の改善（4の出典の種類）**：一問一答ドリルの条文照合で、分筆を共有物の軽微変更として過半数で申請できるとする出典が本文にないとの指摘を受けました。`note-articles/laws/`の民法251条1項・252条1項は共有物の変更・管理の決め方を定めるだけで、分筆の登記の申請人を定める規定は法令データベースにないため、本文に「民法の規定からの整理と登記実務の取扱いによる」と明記しました。結論は変わりません。
 - **2026-10-08の追加原文での再確認（4）**：追加された原文（令和3年法律第24号の改め文、不動産登記規則の令和6年6月24日施行時点版、令和5年・令和6年の改正省令、相続登記義務化等に関する民事局長通達）で、4の根拠を確認し直しました。民法251条1項かっこ書き（形状又は効用の著しい変更を伴わない変更は同意を要する変更から除く）を加えた改正は、改め文の原文で確認でき、252条1項は現行の民法の条文で確認できます。民法等の一部を改正する法律の施行日（令和5年4月1日）は、不動産登記令・不動産登記規則の改正附則の「施行の日（令和五年四月一日）」で確認できます。しかし、このとき追加された原文のなかには、分筆の登記を共有物の軽微変更として持分の価格の過半数で申請できるとする通達の原文は見当たらず（その後、同日に別の資料で通達の原文を確認しました。下の項を参照）、不動産登記法39条・不動産登記規則の令和6年6月24日施行時点版・現行版にも、共有者の分筆の登記の申請人を定める規定は見当たりません。したがって、この項の時点では、4を誤りとする結論の根拠は、これまでどおり民法の規定からの整理と登記実務の取扱いによるものであり、確認できた根拠は増えていません。本文の変更はありません。
-- **2026-10-08の通達の原文確認（4）**：法務省サイト掲載のPDFで、令和5年3月28日付け法務省民二第533号通達「民法等の一部を改正する法律の施行に伴う不動産登記事務の取扱いについて（民法改正関係）」の原文を確認しました。第１の１（1）は、共有物に変更を加える行為でも形状又は効用の著しい変更を伴わないもの（軽微変更）は、各共有者の持分の価格の過半数で決することとされた（民法251条1項、252条1項）と述べ、第１の１（2）は、分筆又は合筆の登記は（1）の軽微変更に該当し、申請しようとする土地の表題部所有者又は所有権の登記名義人（不動産登記法39条1項）の持分の価格に従い、その合計が過半数となる場合には、これらの者が登記申請人となって分筆又は合筆の登記を申請することができ、それ以外の共有者らが登記申請人となる必要はないと定めています。したがって、4の本文の取扱い（持分の価格の過半数を有する共有者から申請でき、承諾書だけでは持分が過半数に満たない共有者は単独で申請できない）は、この通達の原文で確認できました。なお、通達は施行前の扱いを「従前の取扱い」と呼んで変更するとだけ述べており、出題当時が全員申請であったことを明記してはいません（本文の「出題当時は共有者全員」の記述は、原文での裏付けがありません）。
-- 肢1（仮差押えがある土地の分筆に承諾証明情報が不要であること）は、「分筆は物理的変更にとどまり、権利の内容自体を変更しないため、担保権者・差押債権者等の承諾は不要」という一般原則としてWebSearchで複数の解説サイトから確認できましたが、この結論を直接定める不動産登記規則の具体的な条番号までは特定できなかったため、条文番号の断定は避けています。**（2026-09-19追記）**もっとも、今回のQA再検証で`note-articles/laws/fudousan-touki-hou.md`を確認したところ、不動産登記法40条（分筆に伴う権利の消滅の登記）が、分筆後のいずれかの土地について当該権利（抵当権等）を消滅させたい場合に権利者の承諾を証する情報の提供を要求する規定であることを確認しました。これは裏を返せば、承諾がない限り仮差押え等の権利は分筆後のいずれの土地にもそのまま存続することを前提とした規定であり、本肢の結論（分筆に仮差押債権者の承諾は不要）を間接的に裏付けるものです。本文は変更せず、この根拠を確認事項として追記するにとどめます。
+- **2026-10-08の通達の原文確認（4）**：法務省サイト掲載のPDFで、令和5年3月28日付け法務省民二第533号通達「民法等の一部を改正する法律の施行に伴う不動産登記事務の取扱いについて（民法改正関係）」の原文を確認しました。第１の１（1）は、共有物に変更を加える行為でも形状又は効用の著しい変更を伴わないもの（軽微変更）は、各共有者の持分の価格の過半数で決することとされた（民法251条1項、252条1項）と述べ、第１の１（2）は、分筆又は合筆の登記は（1）の軽微変更に該当し、申請しようとする土地の表題部所有者又は所有権の登記名義人（不動産登記法39条1項）の持分の価格に従い、その合計が過半数となる場合には、これらの者が登記申請人となって分筆又は合筆の登記を申請することができ、それ以外の共有者らが登記申請人となる必要はないと定めています。したがって、4の本文の取扱い（持分の価格の過半数を有する共有者から申請でき、承諾書だけでは持分が過半数に満たない共有者は単独で申請できない）は、この通達の原文で確認できました。なお、通達は施行前の扱いを「従前の取扱い」と呼んで変更するとだけ述べており、出題当時が全員申請であったことを明記してはいません（上記「出題当時との違い」の記述は、この通達原文での直接の裏付けはなく、一般的な理解によるものです）。
+- 1（仮差押えがある土地の分筆に承諾証明情報が不要であること）は、「分筆は物理的変更にとどまり、権利の内容自体を変更しないため、担保権者・差押債権者等の承諾は不要」という一般原則としてWebSearchで複数の解説サイトから確認できましたが、この結論を直接定める不動産登記規則の具体的な条番号までは特定できなかったため、条文番号の断定は避けています。**（2026-09-19追記）**もっとも、今回のQA再検証で`note-articles/laws/fudousan-touki-hou.md`を確認したところ、不動産登記法40条（分筆に伴う権利の消滅の登記）が、分筆後のいずれかの土地について当該権利（抵当権等）を消滅させたい場合に権利者の承諾を証する情報の提供を要求する規定であることを確認しました。これは裏を返せば、承諾がない限り仮差押え等の権利は分筆後のいずれの土地にもそのまま存続することを前提とした規定であり、本肢の結論（分筆に仮差押債権者の承諾は不要）を間接的に裏付けるものです。本文は変更せず、この根拠を確認事項として追記するにとどめます。
 - アガルート等のローカル教材PDFは本作業環境には存在せず、参照していません。本記事は上記アプリの検証済みデータベースと、WebSearchによる条文・先例の裏取りのみに基づいて作成しています。
-- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（不動産登記法39条1項の引用文言を`note-articles/laws/fudousan-touki-hou.md`の条文原文と突合し一致を確認。あわせて40条を確認し肢1の根拠を補強（上記追記のとおり）。民事訴訟法267条・民法423条・信託法26条は試験範囲外の一般法だが、いずれも試験範囲法令による適用除外・修正はなく、そのまま適用してよいことを確認。判例・先例番号は本文に記載なし）、B（正解「肢2（選択肢2番）」がまとめの正誤判定と整合していることを確認）、C（見出し・文体・正解の先出しの有無・全角括弧を確認し問題なし）、D（Markdown表の不使用を確認）、E（インフォグラフィックの内容が本文・まとめと一致していることを確認）、F（テンプレート構造・タイトル文字数を確認）、G（重複出題チェック：`note-articles/*-mondai/`を検索し、分筆登記の申請人・添付情報を扱う関連論点は多数の年度で出題されていますが、本問（仮差押・代位・敷地権・共有者申請・信託の5論点の組合せ）と完全に一致する記事は見当たらず独立記事として問題ないと判断。最新法令チェック：肢4について既に開示済みの令和3年改正（令和5年4月1日以降、共有物分筆は持分の過半数で申請可能に変更）以外に、肢1・2・3・5に影響する改正は見当たらないことを確認）を行いました。肢2・肢3・肢1の一部で条文・先例を断定できていない点は、既存の開示のとおり未解決であり、今後の追加確認が望まれます。
+- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目に基づき再検証しました。A（不動産登記法39条1項の引用文言を`note-articles/laws/fudousan-touki-hou.md`の条文原文と突合し一致を確認。あわせて40条を確認し1の根拠を補強（上記追記のとおり）。民事訴訟法267条・民法423条・信託法26条は試験範囲外の一般法だが、いずれも試験範囲法令による適用除外・修正はなく、そのまま適用してよいことを確認。判例・先例番号は本文に記載なし）、B（正解「2（選択肢2番）」がまとめの正誤判定と整合していることを確認）、C（見出し・文体・正解の先出しの有無・全角括弧を確認し問題なし）、D（Markdown表の不使用を確認）、E（インフォグラフィックの内容が本文・まとめと一致していることを確認）、F（テンプレート構造・タイトル文字数を確認）、G（重複出題チェック：`note-articles/*-mondai/`を検索し、分筆登記の申請人・添付情報を扱う関連論点は多数の年度で出題されていますが、本問（仮差押・代位・敷地権・共有者申請・信託の5論点の組合せ）と完全に一致する記事は見当たらず独立記事として問題ないと判断。最新法令チェック：4について既に開示済みの令和3年改正（令和5年4月1日以降、共有物分筆は持分の過半数で申請可能に変更）以外に、1・2・3・5に影響する改正は見当たらないことを確認）を行いました。2・3・1の一部で条文・先例を断定できていない点は、既存の開示のとおり未解決であり、今後の追加確認が望まれます。
 
 ---
 
@@ -168,6 +175,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所・単・独 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -192,36 +215,40 @@ Subtitle (smaller, centered, 1行):
 第三者の承諾は不要
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 仮差押があっても承諾不要
-Illustration: One isometric land plot with a red "仮差押" tag attached,
-split by a dashed line into two plots; the same red "仮差押" tag appears
+Illustration: One isometric land plot with a red「仮差押」tag attached,
+split by a dashed line into two plots; the same red「仮差押」tag appears
 on both resulting plots. Next to it, a small consent-document icon with
-a large red X mark.
+a large red X mark (no text on the document).
+Words allowed inside this illustration (verbatim, nothing else):
+「仮差押」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 承諾は不要
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権があっても承諾不要
 Illustration: An isometric condominium building standing on a land plot
-labeled "敷地権". The land plot is split by a dashed line into two
+labeled「敷地権」. The land plot is split by a dashed line into two
 plots while the building above stays intact. Small icons of multiple
-residents each holding a consent-document icon, all crossed out with a
-large red X mark.
+residents each holding a consent-document icon (no text on the
+documents), all crossed out with a large red X mark.
+Words allowed inside this illustration (verbatim, nothing else):
+「敷地権」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 区分所有者の承諾不要
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 信託中でも受託者は分筆可
-Illustration: A land plot with a wooden nameplate labeled "信託". A
-single isometric figure in a suit (the trustee, labeled "受託者") stands
-alone next to the plot, submitting an application document. The plot is
-split by a dashed line into two plots, with no other figures present.
+Illustration: A land plot with a wooden nameplate labeled「信託」. A
+single isometric figure in a suit (the trustee, labeled「受託者」) stands
+alone next to the plot, submitting an application document (no text on
+the document). The plot is split by a dashed line into two plots, with
+no other figures present.
+Words allowed inside this illustration (verbatim, nothing else):
+「信託」「受託者」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 単独で申請可
 
@@ -229,29 +256,31 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 共有者自身が申請人になる場面
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 和解後は代位して単独申請
-Illustration: A shared land plot with two figures labeled "A" and "B"
+Illustration: A shared land plot with two figures labeled「Ａ」and「Ｂ」
 standing on it. The plot is split by a dashed line into a north half and
-a south half. Figure A holds a scroll-shaped document labeled "和解調書"
-and submits a single application alone; an arrow labeled "代位" points
-from figure A toward figure B's half of the plot.
+a south half. Figure Ａ holds a scroll-shaped document labeled「和解調書」
+and submits a single application alone; an arrow labeled「代位」points
+from figure Ａ toward figure Ｂ's half of the plot.
+Words allowed inside this illustration (verbatim, nothing else):
+「Ａ」「Ｂ」「和解調書」「代位」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 代位で単独申請
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 共有者の分筆は持分の過半数で
-Illustration: Three isometric figures labeled "A", "B", "C" (each with a
-small "1/3" tag) standing side by side on one shared land plot. Figures
-A and B stamp the same single application document together with their
-hanko seals and a green ✓, while a faint greyed-out silhouette of C
-stands off to the side. A separate smaller icon shows only figure A's
-single hanko seal on a document with a large red X mark and a small
-label 「持分が過半数に満たない1人では不可」; the A-and-B group carries a small label
-「過半数を満たせば全員でなくても可」.
+Illustration: Three isometric figures labeled「Ａ」「Ｂ」「Ｃ」(each with a
+small「1/3」tag) standing side by side on one shared land plot. Figures
+Ａ and Ｂ stamp the same single application document together with their
+hanko seals and a green ✓ (no text on the document), while a faint
+greyed-out silhouette of Ｃ stands off to the side. A separate smaller
+icon shows only figure Ａ's single hanko seal on a document with a large
+red X mark and a small label「持分が過半数に満たない1人では不可」; the
+Ａ-and-Ｂ group carries a small label「過半数を満たせば全員でなくても可」.
+Words allowed inside this illustration (verbatim, nothing else):
+「Ａ」「Ｂ」「Ｃ」「1/3」「持分が過半数に満たない1人では不可」「過半数を満たせば全員でなくても可」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 持分の過半数で申請
 
@@ -261,12 +290,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
-every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro illustration
+or paragraph block between the header and the cards, confirm that no
+card contains a full sentence of explanatory prose — every card's
+takeaway must read as a short heading + a short conclusion tag, at a
+glance — confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on signs or documents, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -320,6 +351,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -340,7 +380,7 @@ Subtitle (smaller, centered, 1行):
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
---- PANEL 1（ア） ---
+--- PANEL 1（1） ---
 Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 panels).
 Heading (bold, ONE line):
@@ -358,7 +398,7 @@ Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 承諾は不要
 
---- PANEL 2（イ） ---
+--- PANEL 2（2） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 和解調書があれば代位して申請できる
@@ -376,7 +416,7 @@ Diagram: 確認の手順として描く（分岐のない2段階の確認なの�
 Conclusion tag (blue, 5-15 Japanese characters):
 代位で単独申請
 
---- PANEL 3（ウ） ---
+--- PANEL 3（3） ---
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 敷地権の分筆に区分所有者の承諾は不要
@@ -392,7 +432,7 @@ Diagram: 上段にアイソメトリックの区分建物（マンション）�
 Conclusion tag (blue, 5-15 Japanese characters):
 承諾は不要
 
---- PANEL 4（エ） ---
+--- PANEL 4（4） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 承諾書だけでは共有者の単独申請不可
@@ -410,7 +450,7 @@ Diagram: 正誤対比の2枠構成にする。左枠に「よくある思い込�
 Conclusion tag (blue, 5-15 Japanese characters):
 持分の過半数で申請
 
---- PANEL 5（オ） ---
+--- PANEL 5（5） ---
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 受託者は管理処分権で単独申請できる
@@ -429,8 +469,8 @@ Conclusion tag (blue, 5-15 Japanese characters):
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
-条文根拠：ア（不動産登記法39条1項・40条）、イ（民事訴訟法267条・民法
-423条）、ウ（不動産登記法39条1項）、エ（不動産登記法39条1項・民法251条1項・252条1項）、オ
+条文根拠：1（不動産登記法39条1項・40条）、2（民事訴訟法267条・民法
+423条）、3（不動産登記法39条1項）、4（不動産登記法39条1項・民法251条1項・252条1項）、5
 （信託法26条本文）。
 
 Final check before rendering: scan every kanji glyph and confirm it is

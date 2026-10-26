@@ -28,7 +28,9 @@
 
 地図に表示された土地の区画又は地番に誤りがあるときは、当該土地の表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人が、その訂正の申出をすることができます（不動産登記規則16条1項）。
 
-共有者は、それぞれが「所有権の登記名義人」として登記されています。規則16条1項は、申出ができる者を「所有権の登記名義人」としているだけで、共有者全員で申出をしなければならないとも、他の共有者の同意が必要だとも定めていません。そのため、共有者のうちの1人も申出人の資格を満たし、単独で申出をすることができます（地図の訂正は、実際の状況に地図の記載を合わせるだけで、他の共有者の持分や権利関係を変動させるものでもありません）。
+共有者は、それぞれが「所有権の登記名義人」として登記されています。規則16条1項は、申出ができる者を「所有権の登記名義人」としているだけで、共有者全員で申出をしなければならないとも、他の共有者の同意が必要だとも定めていません。
+
+そのため、共有者のうちの1人も申出人の資格を満たし、単独で申出をすることができます（地図の訂正は、実際の状況に地図の記載を合わせるだけで、他の共有者の持分や権利関係を変動させるものでもありません）。
 
 本肢はこの理解と一致しており、正しいといえます。
 
@@ -148,6 +150,22 @@ summarize, or substitute any characters. Characters such as「登」「記」
 with Simplified Chinese variants — render them strictly in standard
 Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -169,54 +187,61 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled circle in soft green containing the letter「ア」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 共有者の1人から申出できる
 Illustration: An isometric land plot shared by three small figures
-labeled A・B・C, with only figure A stepping forward holding a document
-labeled「地図訂正申出」and a green checkmark, while B and C remain in the
-background without acting.
+labeled「Ａ」「Ｂ」「Ｃ」, with only figure Ａ stepping forward holding a
+document labeled「地図訂正申出」and a green checkmark, while Ｂ and Ｃ
+remain in the background without acting (no other text on them).
+Words allowed inside this illustration (verbatim, nothing else):
+「Ａ」「Ｂ」「Ｃ」「地図訂正申出」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft green, 5-15 Japanese characters):
 1人で申出可能
 
 --- CARD 2 ---
-Badge: a filled circle in soft red containing the letter「イ」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 抵当権者は申出できない
 Illustration: An isometric land plot with a small「抵当権」registration
-tag on it, and a figure representing the 抵当権者 reaching toward a
-「地図訂正申出」document with a large red ✕ mark blocking the hand.
+tag on it, and a figure representing the 抵当権者（no text label on the
+figure itself）reaching toward a「地図訂正申出」document with a large
+red ✕ mark blocking the hand.
+Words allowed inside this illustration (verbatim, nothing else):
+「抵当権」「地図訂正申出」
 Conclusion tag (soft red, 5-15 Japanese characters):
 申出人に含まれない
 
 --- CARD 3 ---
-Badge: a filled circle in soft green containing the letter「ウ」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 区画の誤りには測量図が必要
 Illustration: An isometric hand placing a folded document labeled「土地
 所在図・地積測量図」on top of a land-plot map that has a highlighted
-incorrect boundary line.
+incorrect boundary line (no text on the map).
+Words allowed inside this illustration (verbatim, nothing else):
+「土地所在図・地積測量図」
 Conclusion tag (soft green, 5-15 Japanese characters):
 測量図の提供が必要
 
 --- CARD 4 ---
-Badge: a filled circle in soft red containing the letter「エ」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 相続人は「その旨」で足りる
-Illustration: An isometric figure (相続人) holding a simple document
-labeled「一般承継人である旨」with a green checkmark, next to a crossed-out
-document labeled「亡くなった当時の住所」with a red ✕ mark.
+Illustration: An isometric figure (相続人, no text label on the figure
+itself) holding a simple document labeled「一般承継人である旨」with a
+green checkmark, next to a crossed-out document labeled「亡くなった当時の
+住所」with a red ✕ mark.
+Words allowed inside this illustration (verbatim, nothing else):
+「一般承継人である旨」「亡くなった当時の住所」
 Conclusion tag (soft red, 5-15 Japanese characters):
 住所までは不要
 
 --- CARD 5 ---
-Badge: a filled circle in soft green containing the letter「オ」.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 地積の錯誤は更正登記とセット
 Illustration: An isometric document labeled「地図訂正申出」linked by a
 chain icon to another document labeled「地積に関する更正の登記」, showing
 the two must be submitted together.
+Words allowed inside this illustration (verbatim, nothing else):
+「地図訂正申出」「地積に関する更正の登記」
 Conclusion tag (soft green, 5-15 Japanese characters):
 更正登記と併せて申出
 
@@ -225,11 +250,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
+with no duplicated or missing cards, confirm that no card carries a
+number, numbered circle or any numbering, confirm there is no intro
+illustration or paragraph block between the header and the cards,
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on signs or documents,
+no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -282,6 +310,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
