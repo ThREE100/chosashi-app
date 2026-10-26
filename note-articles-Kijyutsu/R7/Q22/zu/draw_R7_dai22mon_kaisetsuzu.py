@@ -1,13 +1,13 @@
-"""令和7年度 第22問（建物）の解説図11枚を、辺長・頂点座標から作図してPNGに書き出す。
+"""令和7年度 第22問（建物）の解説図20枚を、辺長・頂点座標から作図してPNGに書き出す。
 
-`../prompt_R7_dai22mon_kaisetsuzu.md` の図1〜図11どおり（番号は記事の挿入順。番号は管理用で、画像の中には書かない）。
-作図の共通部品は `tools/zu_helpers.py`。
-2026-10-08、最新の執筆指示書との照らし直しで、本文に対して足りなかった4枚（図1 滅失登記と表題部変更登記の比較、
-図2 建物ごとの時系列メモ、図4 注の仕分け、図6 符号の付け方）を足し、図の番号を記事の挿入順に振り直した
-（旧図1→図3、旧図2→図5、旧図3→図7、旧図4→図8、旧図5→図9、旧図6→図10、旧図7→図11。中身は変えていない。
-図10だけは、答案用紙の第3欄の左上の「第3欄」の印刷を描き足した）。
-新しい4枚は座標を使わない固定配置の図なので、check_fixed で文字の重なりと図の外へのはみ出しを調べ、目視でも確かめる。
-図10（各階平面図の完成形）は、答案用紙の第3欄の枠の中に、符号5・符号6を同じ縮尺で描く。
+`../prompt_R7_dai22mon_kaisetsuzu.md` の図1〜図20どおり（番号は記事の挿入順。番号は管理用で、画像の中には書かない）。
+作図の共通部品は `tools/zu_helpers.py`。固定配置の図（座標を使わない整理図）は `check_fixed` で文字の重なりと図の外へのはみ出しを調べ、目視でも確かめる。
+2026-10-08：最新の執筆指示書との照らし直しで、図3（滅失登記と表題部変更登記の比較）・図4（時系列メモ）・図6（注の仕分け）・図11（符号の付け方）を足した。
+2026-10-26：最新の基準（qa-checklist-kijutsu.md の6-2）で、説明の直後に図がなかった9か所（図1 報告的登記、図2 過料と刑罰、図8 所在の確認、
+図9 登記記録のとおりに写す、図10 符号2が主になる日、図12 添付書類の比較、図15 腰高壁と吹き抜けの境目、図16 階段室かどうか、図18 登録免許税）を足し、
+記事の挿入順に振り直した（旧図1〜11 → 図3・4・5・6・7・11・13・14・17・19・20）。作成済みの図は、環境が違うと再生成でバイトが変わるので、
+`git show HEAD:…` で元のPNGに戻して中身を変えない（図19は2026-10-08に「第3欄」の印刷を描き足した版）。
+図19（各階平面図の完成形）は、答案用紙の第3欄の枠の中に、符号5・符号6を同じ縮尺で描く。
 枠の形は試験の答案用紙（`../touan_youshi/R7_dai22mon_touan_youshi.pdf` の2ページ目）で確かめた形：1枚の枠の左半分・右半分とも
 各階平面図（右の「建物図面」の文字は二重線で消されている）、家屋番号（「（略）」と印刷）と建物の所在の欄は右上に1つだけ、
 枠の下に作成者（略）・（令和7年○月○日作成）・縮尺1/250と、申請人（略）・縮尺1/250。
@@ -84,7 +84,7 @@ def site_labels(z):
     z.free_text(P(-1.0, 13.75), '（425－3）', fs=11, color=GRAY, ha='right')
 
 
-def zu03():
+def zu05():
     fig, axes = new_figure('建物の変遷（家屋番号425番５の中身の移り変わり）',
                            '配置は調査図素図の筆界からの距離をもとにした模式図。斜線は取り壊した部分。家屋番号425番５の登記記録は最後まで1つのまま続く',
                            w=18, h=7.6, ncols=3)
@@ -127,7 +127,7 @@ def zu03():
     zs.append(z)
     for ax in axes:
         fit(ax, SITE, margin=0.06, extra=[xy(P(-8, -3)), xy(P(37, 31))], pad_aspect=True)
-    save(fig, zs, 'R7_dai22mon_zu03_hensen')
+    save(fig, zs, 'R7_dai22mon_zu05_hensen')
 
 
 def dims(z, pts, labels, fs=13):
@@ -138,7 +138,7 @@ def dims(z, pts, labels, fs=13):
             z.edge_label(pts[i], pts[(i + 1) % len(pts)], t, c, fs=fs)
 
 
-def zu05():
+def zu07():
     fig, axes = new_figure('符号2の1階：取り壊した張り出し部分を読み取る',
                            '配置図の斜線（取り壊した部分）は、符号2の1階の南西の張り出し5.00×3.00にぴったり重なる。138.50−15.00＝123.50（2階と同じ）',
                            w=16, h=7, ncols=2)
@@ -165,7 +165,7 @@ def zu05():
     z2.callout(centroid(notch), '撤去済み', dirs=(-30, -60, 0), fs=13, color=GRAY)
     axes[1].set_title('【工事後】', fontsize=17, weight='bold')
     fit(axes[1], before, margin=0.2, extra=[xy(P(30, 16))], pad_aspect=True)
-    save(fig, [z, z2], 'R7_dai22mon_zu05_fugou2_ichibu_torikowashi')
+    save(fig, [z, z2], 'R7_dai22mon_zu07_fugou2_ichibu_torikowashi')
 
 
 # ---- 新築倉庫（符号5） ----
@@ -179,7 +179,7 @@ assert round(area(F1), 2) == 190.75 and round(area(F2), 2) == 156.75 and round(a
 assert round(area(VOID_SW) + area(VOID_SE), 2) == 34.00
 
 
-def zu07():
+def zu13():
     fig, axes = new_figure('新築倉庫1階：柱の中心の寸法だけで測る誤り',
                            '〔調査・測量〕の（注）3：数値は柱の中心間の距離と壁の中心間の距離。\nA部分拡大図のとおり柱の中心と壁の中心は0.30ずれるので、両端に0.30を足して壁の中心線で測る',
                            w=16, h=7, ncols=2)
@@ -203,10 +203,10 @@ def zu07():
     z2.callout(P(25.2, 0.3), '□＝柱。柱の中心と壁の中心は0.30ずれる', dirs=(110, 125, 95, 140), fs=12)
     axes[1].set_title('正解：両端に0.30を足す（25.50m）', fontsize=17, weight='bold', color=GREEN)
     fit(axes[1], F1, margin=0.2, extra=[xy(P(12, -9))], pad_aspect=True)
-    save(fig, [z, z2], 'R7_dai22mon_zu07_hashirashin_ayamari')
+    save(fig, [z, z2], 'R7_dai22mon_zu13_hashirashin_ayamari')
 
 
-def zu08():
+def zu14():
     fig, axes = new_figure('新築倉庫（符号5）1階の床面積求積図',
                            '西側15.50×6.50＝100.75　＋　東側10.00×9.00＝90.00　＝　190.75㎡（東側が南へ2.50m深いL字形）',
                            w=16, h=8)
@@ -222,10 +222,10 @@ def zu08():
     z.free_text(P(12.75, 11.6), '新築倉庫 1階 床面積：190.75㎡', fs=16, weight='bold')
     fit(ax, F1, margin=0.12, extra=[xy(P(12.75, 12.8))], pad_aspect=True)
     z.north_arrow()
-    save(fig, [z], 'R7_dai22mon_zu08_souko_1kai_kyuuseki')
+    save(fig, [z], 'R7_dai22mon_zu14_souko_1kai_kyuuseki')
 
 
-def zu09():
+def zu17():
     fig, axes = new_figure('新築倉庫（符号5）2階の床面積求積図',
                            '腰高壁は壁なので吹き抜けとの境はその中心線。片面が格子手すりの階段は階段室といえず、吹き抜けと一体で床面積に入れない（190.75−34.00＝156.75）',
                            w=16, h=8.5)
@@ -255,7 +255,7 @@ def zu09():
     z.free_text(P(12.75, 11.8), '新築倉庫 2階 床面積：156.75㎡', fs=16, weight='bold')
     fit(ax, F1, margin=0.12, extra=[xy(P(12.75, 13.0)), xy(P(33, 5))], pad_aspect=True)
     z.north_arrow()
-    save(fig, [z], 'R7_dai22mon_zu09_souko_2kai_kyuuseki')
+    save(fig, [z], 'R7_dai22mon_zu17_souko_2kai_kyuuseki')
 
 
 def cell(fig, x0, y0, x1, y1, text='', fs=14, ha='center', lw=1.6, color=BLACK):
@@ -279,7 +279,7 @@ def same_scale(ax, center):
     fit(ax, [center], margin=0, extra=[(c[0] - w / 2, c[1] - h / 2), (c[0] + w / 2, c[1] + h / 2)], pad_aspect=True)
 
 
-def zu10():
+def zu19():
     """各階平面図の完成形（答案用紙の第3欄の枠の中。求積図とちがい塗り分けはしない）。"""
     setup_font()
     fig = plt.figure(figsize=(FW, FH), dpi=100)
@@ -363,10 +363,10 @@ def zu10():
              '　（問3）', ha='left', va='center', fontsize=14, linespacing=1.6, color=GRAY)
     zs[0].north_arrow()
     assert round(area(F1), 4) == 190.75 and round(area(F2), 4) == 156.75 and round(area(shuei), 4) == 10.00
-    save(fig, zs, 'R7_dai22mon_zu10_kakukai_heimenzu')
+    save(fig, zs, 'R7_dai22mon_zu19_kakukai_heimenzu')
 
 
-def zu11():
+def zu20():
     """本番で解く順番（どこまで倉庫の求積なしで書けるか）。固定配置の図なので重なり検査の対象外。"""
     fig = plt.figure(figsize=(16, 8), dpi=100)
     fig.patch.set_facecolor('white')
@@ -402,7 +402,7 @@ def zu11():
     fig.text(0.5, 0.09, '倉庫の2階は、吹き抜け・腰高壁・格子手すりの階段を図面で1つずつ確かめるので時間がかかる。\n'
              '先に第1欄・第2欄の大部分と第4欄を書いておけば、倉庫で時間が足りなくなっても申請書の点は取れている。',
              ha='center', va='center', fontsize=15)
-    path = os.path.join(OUT, 'R7_dai22mon_zu11_toku_junban.png')
+    path = os.path.join(OUT, 'R7_dai22mon_zu20_toku_junban.png')
     fig.savefig(path, dpi=100, facecolor='white')
     plt.close(fig)
     print('[重なり検査] 解く順番（固定配置）\n  →', path)
@@ -490,7 +490,7 @@ def _kiroku(ax, x, y, w, title, rows):
     return y - h
 
 
-def zu01():
+def zu03():
     """滅失登記と表題部変更登記の比較（この問題最大のわな）。固定配置の図。"""
     fig, ax = fixed_figure('主である建物がなくなっても、附属建物が残れば滅失登記ではない', w=17, h=11,
                            rect=(0.02, 0.11, 0.96, 0.77))
@@ -518,10 +518,10 @@ def zu01():
              ha='center', va='center', fontsize=15)
     fig.text(0.5, 0.025, '主である建物だけが消えたのは、その建物の登記事項（不動産登記法第44条第1項）が変わったということ → 表題部の変更の登記',
              ha='center', va='center', fontsize=15)
-    save_fixed(fig, 'R7_dai22mon_zu01_messhitsu_hikaku')
+    save_fixed(fig, 'R7_dai22mon_zu03_messhitsu_hikaku')
 
 
-def zu02():
+def zu04():
     """建物ごとの時系列メモ（申請の期限つき）。固定配置の図。1月〜2月と9月〜11月だけを描き、間は省略する。"""
     import datetime as dt
     fig, ax = fixed_figure('建物ごとの時系列メモ　期限は「変更があった日から1月以内」', w=18, h=10.5,
@@ -573,7 +573,7 @@ def zu02():
              ha='center', va='center', fontsize=14)
     fig.text(0.5, 0.025, '2件目の申請（10月23日）は、いちばん早い9月25日の取壊しの期限（10月25日）に間に合っている。全部終わるまで待つと1件目は期限切れ',
              ha='center', va='center', fontsize=14)
-    save_fixed(fig, 'R7_dai22mon_zu02_jikeiretsu')
+    save_fixed(fig, 'R7_dai22mon_zu04_jikeiretsu')
 
 
 CHUU_MONDAI = [('注1', '行為は全て適法、書類も全て適法に作成', None),
@@ -588,7 +588,7 @@ CHUU_CHOUSA = [('（注）1', '距離の単位はメートル', None),
                ('（注）4', '平面詳細図の隅は全て直角\n丸印は各階の重なる部分', '2階を1階に重ねる位置（各階平面図の点線）')]
 
 
-def zu04():
+def zu06():
     """注の仕分け図。固定配置の図。"""
     fig, ax = fixed_figure('注は2か所。番号がかぶるので「どちらの注か」を言い分ける', w=17, h=12.5,
                            rect=(0.02, 0.10, 0.96, 0.80))
@@ -630,10 +630,10 @@ def zu04():
              ha='center', va='center', fontsize=16, color=RED, weight='bold')
     fig.text(0.5, 0.02, '色付き＝この問題の答えに使う注（→の先が使う場面）、灰色＝本文では取り上げない注',
              ha='center', va='center', fontsize=14)
-    save_fixed(fig, 'R7_dai22mon_zu04_chuu_shiwake')
+    save_fixed(fig, 'R7_dai22mon_zu06_chuu_shiwake')
 
 
-def zu06():
+def zu11():
     """符号の付け方（使い回さない・工事完了の順）。固定配置の図。"""
     fig, ax = fixed_figure('附属建物の符号は使い回さない。新しい附属建物は工事完了の順に5・6', w=17, h=9.5,
                            rect=(0.02, 0.13, 0.96, 0.74))
@@ -660,7 +660,219 @@ def zu06():
             ha='left', va='center', fontsize=15)
     fig.text(0.5, 0.05, '問2の申請書：符号4の行は「令和7年9月25日取壊し」だけ、符号5・符号6の行はそれぞれ「新築」',
              ha='center', va='center', fontsize=15)
-    save_fixed(fig, 'R7_dai22mon_zu06_fugou_tsukekata')
+    save_fixed(fig, 'R7_dai22mon_zu11_fugou_tsukekata')
+
+
+# ======================================================================
+# 2026-10-26追加：最新の基準（6-2）で、わなの会話の直後に専用の図がなかった9か所（図1・図2・図8・図9・図10・図12・図15・図16・図18）
+# ======================================================================
+
+def card_figure(name, title, cols, bottom, w=17, h=9.5, top=84.0, line_step=8.6, fs=15):
+    """左右（2〜3列）に並べる固定配置の比較カード。cols: [(見出し, 色, [行...])]。行の先頭が '*' なら太字・色つき。
+    bottom: 図の下に書く文（最大2行）。check_fixed で文字の重なり・はみ出しを調べる。"""
+    fig, ax = fixed_figure(title, w=w, h=h, rect=(0.02, 0.11, 0.96, 0.77))
+    n = len(cols)
+    cw = (98.0 - 2.0 * (n - 1)) / n
+    for i, (head, col, lines) in enumerate(cols):
+        x0 = 1.0 + i * (cw + 2.0)
+        rbox(ax, x0, 4, cw, 80, col, alpha=0.08)
+        ax.text(x0 + cw / 2, 92, head, ha='center', va='center', fontsize=fs + 3, weight='bold', color=col, linespacing=1.35)
+        y = top - 4
+        for ln in lines:
+            bold = ln.startswith('*')
+            t = ln[1:] if bold else ln
+            k = t.count('\n') + 1
+            if not t:
+                y -= 3.5
+                continue
+            ax.text(x0 + cw / 2, y, t, ha='center', va='top', fontsize=fs, weight='bold' if bold else 'normal',
+                    color=col if bold else BLACK, linespacing=1.4)
+            y -= line_step * k * 0.78 + 2.4
+    if n == 2:
+        vline(fig, 0.5, 0.10, 0.90)
+    for k, t in enumerate(bottom):
+        fig.text(0.5, 0.065 - 0.04 * k, t, ha='center', va='center', fontsize=15)
+    save_fixed(fig, name)
+
+
+def zu01():
+    card_figure('R7_dai22mon_zu01_hokokuteki',
+                '表示に関する登記は、事実をありのまま報告する「報告的登記」',
+                [('誤り：権利を新しく作る\n「形成的登記」と考える', RED,
+                  ['形成的登記＝権利を新しく作る登記', '表示に関する登記は、これではない', '',
+                   '*「新しく作るものではないから、\n申請しなくてもよい」は誤り']),
+                 ('正解：現地の状態をそのまま報告する\n「報告的登記」', GREEN,
+                  ['登記事項に変更が生じた（物理的状態が変わった）', '↓', '所有者が「こうなりました」と報告', '↓',
+                   '登記記録に速やかに反映', '', '*だから申請義務がある\n（変更があった日から1月以内）'])],
+                ['不動産登記法第51条第1項：変更があった日から1月以内に、変更の登記を申請しなければならない',
+                 '問4の答え：ア＝物理（的状態）、イ＝報告（的登記）、ウ＝1月'], h=7.2)
+
+
+def zu02():
+    card_figure('R7_dai22mon_zu02_karyou',
+                '申請義務違反は「過料」。刑罰（懲役・罰金）ではない',
+                [('誤り：刑事罰を選ぶ', RED,
+                  ['6月以下の懲役（今の法律では拘禁刑）', '50万円以下の罰金', '', '*どちらも刑罰（刑事罰）', '犯罪として処罰される罰',
+                   '表示登記の申請義務違反は\nここまで重くない']),
+                 ('正解：10万円以下の過料', GREEN,
+                  ['*10万円以下の過料', '行政上のペナルティ（秩序罰）', '犯罪にはならない', '',
+                   '不動産登記法第164条第1項', '（第51条第1項〜第4項の申請を怠ったとき）'])],
+                ['語句群には、懲役・罰金・「3月以内の遅延損害金納付」などの選びたくなる語が混ぜてある',
+                 '問4の答え：エ＝10万円以下の過料'], h=6.6)
+
+
+def zu08():
+    """所在の確認：主である建物がある土地の地番を先に書く（準則第88条第2項）。"""
+    fig, axes = new_figure('所在は、主である建物がある土地の地番が先',
+                           '準則第88条第2項：2筆以上の土地にまたがる建物は、床面積の多い部分又は主である建物がある土地の地番を先に記録する。\n配置は調査図素図の距離をもとにした模式図',
+                           w=16, h=8, ncols=2)
+    fig.subplots_adjust(top=0.84, bottom=0.30)
+    zs = []
+    lot6 = rect(0, 0, 30, 9.5)
+    for k, (ax, ttl) in enumerate(zip(axes, ['工事前：主である建物は425番5の上', '本件工事1の後：主である建物（元の符号2）は425番6の上'])):
+        z = Zu(ax, fontsize=12)
+        z.poly(SITE, color=BLACK, lw=1.6)
+        z.poly(lot6, color=GRAY, lw=0, fill=ORANGE, alpha=0.10, check=False)
+        z.line(*BOUNDARY, color=BLACK, lw=1.2, ls='--')
+        ax.set_title(ttl, fontsize=14, weight='bold', pad=10)
+        z.free_text(P(31, 4.75), '425番6', fs=11, color=GRAY, ha='left')
+        z.free_text(P(31, 18.5), '425番5', fs=11, color=GRAY, ha='left')
+        if k == 0:
+            z.poly(OLD_MAIN, color=BLACK, fill=BLUE)
+            z.poly(FUGOU2, color=BLACK, fill=ORANGE)
+            z.free_text(centroid(OLD_MAIN), '主である建物', fs=11)
+            z.free_text(P(12, 5.2), '符号2', fs=11)
+        else:
+            z.poly(FUGOU2_AFTER, color=BLACK, fill=BLUE)
+            z.free_text(P(12, 5.2), '主である建物', fs=11)
+        z.poly(SHUEI, color=BLACK, fill=GREEN)
+        z.callout(centroid(SHUEI), '符号4　守衛所', dirs=(120, 150, 90), fs=11)
+        fit(ax, SITE, margin=0.06, extra=[xy(P(-3, -3)), xy(P(37, 31))], pad_aspect=True)
+        zs.append(z)
+    fig.text(0.27, 0.235, '所在：Ｙ市Ｋ区Ａ町三丁目425番地５、425番地６', ha='center', fontsize=15, weight='bold', color=BLUE)
+    fig.text(0.74, 0.235, '所在：Ｙ市Ｋ区Ａ町三丁目425番地６、425番地５', ha='center', fontsize=15, weight='bold', color=GREEN)
+    fig.text(0.5, 0.185, '土地の組み合わせは同じでも、主である建物が乗る土地が変われば、書く順番が入れ替わる（所在の変更）',
+             ha='center', fontsize=14, color=RED)
+    save(fig, zs, 'R7_dai22mon_zu08_shozai_kakunin')
+
+
+def zu09():
+    card_figure('R7_dai22mon_zu09_kisai_utsushi',
+                '消えていく行は、登記記録に書いてあるとおりに写す',
+                [('誤り：今の書き方にそろえる', RED,
+                  ['鉄骨造スレートぶき2階建', '', '登記記録は「葺」なのに、', 'ひらがなに直してしまう']),
+                 ('正解：登記記録のとおり', GREEN,
+                  ['*旧・主である建物の行：鉄骨造スレート葺2階建', '*符号2の行：鉄骨造亜鉛メッキ鋼板ぶき2階建', '',
+                   '漢字とひらがなが混ざっていても、', 'それぞれ登記記録のとおり'])],
+                ['写すだけの行（取り壊す行・消える符号2の行）に、自分の判断で書き換えを入れない',
+                 '新しく書き起こす行（新築の符号5・符号6）は、問題文の屋根構造どおりに書く'], h=5.8)
+
+
+def zu10():
+    """符号2が主になる日：主が消えた1月21日。固定配置の図。"""
+    fig, ax = fixed_figure('符号2が主である建物になった日は、主が消えた1月21日', w=17, h=9.5, rect=(0.02, 0.12, 0.96, 0.76))
+    ax.plot([6, 94], [58, 58], color=GRAY, lw=3)
+    pts = [(14, '1月21日', '主である建物の取壊しが完了\n→ 符号2が主を引き継ぐ', GREEN),
+           (60, '1月31日', '符号2自身の工事が完了\n（2階を事務所に・1階の一部を取壊し）', ORANGE),
+           (86, '2月6日', '申請', BLUE)]
+    for x, d, t, col in pts:
+        ax.plot([x], [58], 'o', ms=14, color=col, zorder=5)
+        ax.text(x, 66, d, ha='center', va='center', fontsize=20, weight='bold', color=col)
+        ax.text(x, 47, t, ha='center', va='top', fontsize=14, color=BLACK, linespacing=1.4)
+    rbox(ax, 2, 4, 46, 24, GREEN, alpha=0.10)
+    ax.text(25, 23, '「主である建物に変更」の日付', ha='center', va='center', fontsize=15, weight='bold', color=GREEN)
+    ax.text(25, 14, '令和7年1月21日符号2の附属建物を\n主である建物に変更', ha='center', va='center', fontsize=14, linespacing=1.4)
+    rbox(ax, 52, 4, 46, 24, ORANGE, alpha=0.10)
+    ax.text(75, 23, '「種類変更、一部取壊し」の日付', ha='center', va='center', fontsize=15, weight='bold', color=ORANGE)
+    ax.text(75, 14, '令和7年1月31日種類変更、一部取壊し', ha='center', va='center', fontsize=14)
+    ax.text(50, 90, '甲社と協議して符号2を主とすることを確認した日（事実関係5）は、原因の日付ではない', ha='center', va='center',
+            fontsize=14, color=RED, weight='bold')
+    fig.text(0.5, 0.06, '主がいなくなった瞬間に、符号2が主の座を引き継ぐ。協議した日でも、符号2自身の工事が終わった日でもない',
+             ha='center', va='center', fontsize=15)
+    save_fixed(fig, 'R7_dai22mon_zu10_shu_ni_naru_hi')
+
+
+def zu12():
+    """添付書類の比較：問1と問2。固定配置の図。"""
+    fig, ax = fixed_figure('添付書類は問1と問2で1つだけ違う（所有権証明書）', w=17, h=9.5, rect=(0.02, 0.12, 0.96, 0.76))
+    xs = [1, 30, 45, 60]   # 項目 / 問1 / 問2 / 理由
+    ax.text(xs[0], 92, '添付書類', fontsize=17, weight='bold', va='center')
+    ax.text(37, 92, '問1（2月6日）', fontsize=17, weight='bold', va='center', ha='center', color=BLUE)
+    ax.text(55, 92, '問2（10月23日）', fontsize=17, weight='bold', va='center', ha='center', color=GREEN)
+    ax.text(77, 92, '理由', fontsize=17, weight='bold', va='center', ha='center')
+    rows = [('建物図面', '必要', '必要', '床面積などが変わる（表題部の変更）'),
+            ('各階平面図', '必要', '必要', '各階の形と床面積を示す'),
+            ('所有権証明書', '不要', '必要', '問2だけ、まだ登記されていない新築の\n建物（符号5・符号6）が加わる'),
+            ('会社法人等番号', '必要', '必要', '申請人の法人の確認（申請人欄にも書く）'),
+            ('代理権限証書', '必要', '必要', '土地家屋調査士が代理して申請')]
+    for k, (item, a, b, why) in enumerate(rows):
+        y = 78 - k * 15
+        hot = item == '所有権証明書'
+        if hot:
+            rbox(ax, 0.2, y - 6.5, 99, 13, RED, alpha=0.10)
+        ax.plot([1, 99], [y - 7.5, y - 7.5], color=GRAY, lw=0.8)
+        ax.text(xs[0] + 1, y, item, fontsize=16, va='center', weight='bold' if hot else 'normal')
+        for x, v, col in [(37, a, BLUE), (55, b, GREEN)]:
+            ax.text(x, y, v, fontsize=17, va='center', ha='center', weight='bold' if (hot or v == '必要') else 'normal',
+                    color=col if v == '必要' else RED)
+        ax.text(66, y, why, fontsize=13, va='center', ha='left', linespacing=1.35)
+    fig.text(0.5, 0.06, '問1は、もともと登記されていた建物の姿が変わっただけ。新しく登記する建物がないので、所有権を証明する必要はない',
+             ha='center', va='center', fontsize=15)
+    save_fixed(fig, 'R7_dai22mon_zu12_tenpu_hikaku')
+
+
+def zu15():
+    """南西の吹き抜けと腰高壁：境目は壁の中心線。"""
+    fig, axes = new_figure('腰高壁は壁。吹き抜けとの境目は壁の中心線',
+                           '準則第82条第8号：吹抜の部分は、上階の床面積に算入しない。腰高壁（壁高H＝1.20）は低くても壁なので、\n吹き抜けの広さは壁の中心線で測る（0.30＋6.70）×（1.70＋0.30）',
+                           w=16, h=8, ncols=2, width_ratios=[1.5, 1])
+    fig.subplots_adjust(top=0.84, bottom=0.22)
+    ax = axes[0]
+    z = Zu(ax, fontsize=13)
+    z.poly(F2, color=BLACK, lw=2.0)
+    hatch(ax, VOID_SW)
+    z.poly(VOID_SW, color=BLACK, lw=0, fill=ORANGE, alpha=0.18, check=False)
+    z.line(P(0, 4.5), P(7, 4.5), color=PURPLE, lw=4.0)
+    z.line(P(7, 4.5), P(7, 6.5), color=PURPLE, lw=4.0)
+    z.free_text(P(8.5, 8.4), '吹き抜け（腰高壁の中心線まで）\n（0.30＋6.70）×（1.70＋0.30）\n＝7.00×2.00＝14.00㎡', fs=13)
+    z.callout(P(7, 5.5), '腰高壁（紫の線。北と東の2辺）', dirs=(0, -30, 30), fs=12, color=PURPLE)
+    z.free_text(P(11, 2.2), '2階の床', fs=13, color=BLUE)
+    fit(ax, [P(-1, -0.5), P(20, 10.6)], margin=0.0, pad_aspect=True)
+    axes[0].set_title('2階の南西部分（拡大）', fontsize=15, weight='bold')
+    zs = [z]
+    ax = axes[1]
+    ax.axis('off')
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 100)
+    ax.text(50, 92, '腰高壁を壁と考える理由', ha='center', fontsize=15, weight='bold', color=PURPLE)
+    for k, t in enumerate(['・壁の高さが1.20mでも、床面積を\n　区切る区画（壁）である', '・だから吹き抜けとの境目は、\n　腰高壁の中心線で引く',
+                           '・床面積から外れるのは\n　横7.00m×縦2.00m＝14.00㎡', '・格子手すりは壁の用をなさない\n　→ 次の図（階段室かどうか）']):
+        ax.text(4, 80 - k * 21, t, ha='left', va='top', fontsize=14, linespacing=1.45)
+    save(fig, zs, 'R7_dai22mon_zu15_koshidakabe_sakai')
+
+
+def zu16():
+    card_figure('R7_dai22mon_zu16_kaidanshitsu',
+                '片面が格子手すりの階段は「階段室」ではない',
+                [('誤り：階段だから床がある\n（階段室）として算入', RED,
+                  ['階段5.70×2.50＝14.25㎡を', '2階の床面積に足してしまう', '', '156.75＋14.25＝171.00㎡', '',
+                   '*階段室は壁で囲まれたもの。', '格子手すりは壁の用をなさない']),
+                 ('正解：吹き抜けと一体の開口として\n算入しない', GREEN,
+                  ['南東の吹き抜け2.30×2.50＝5.75', '＋ 階段5.70×2.50＝14.25', '＝ 8.00×2.50＝20.00㎡を除く', '',
+                   '*2階の床面積 190.75−14.00−20.00', '＝156.75㎡'])],
+                ['階段室・エレベーター室は、床を有するものとみなして各階の床面積に算入する（準則第82条第6号）。本問のエレベーター部分は算入する',
+                 '吹抜の部分は上階の床面積に算入しない（同第8号）'], h=7)
+
+
+def zu18():
+    card_figure('R7_dai22mon_zu18_touroku_menkyozei',
+                '本問の登記は非課税。答案用紙に登録免許税の欄もない',
+                [('課税される表示に関する登記', ORANGE,
+                  ['土地の分筆・合筆', '建物の分割・区分・合併', '', '*申請書に登録免許税を書く\n（区分後・合併後の個数などで計算）']),
+                 ('本問：建物表題部変更登記', GREEN,
+                  ['問1・問2とも、表題部の変更だけ', '', '*原則どおり非課税', '', '答案用紙の第1欄・第2欄には', '登録免許税の欄そのものがない'])],
+                ['表示に関する登記は、原則として登録免許税がかからない。例外の登記（上の左）に当たるかを確かめる',
+                 '欄がない年度は、申請書に登録免許税を書き足さない'], h=6.4)
 
 
 if __name__ == '__main__':
@@ -675,4 +887,13 @@ if __name__ == '__main__':
     zu09()
     zu10()
     zu11()
+    zu12()
+    zu13()
+    zu14()
+    zu15()
+    zu16()
+    zu17()
+    zu18()
+    zu19()
+    zu20()
     print('重なり合計:', len(PROBLEMS))

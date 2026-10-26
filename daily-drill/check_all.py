@@ -17,5 +17,6 @@ if rc == 0:
     subprocess.call([sys.executable, os.path.join(HERE, 'saturday', 'build_sat.py')])
     subprocess.call([sys.executable, os.path.join(HERE, 'kiroku.py'), 'report'])
     rc |= subprocess.call([sys.executable, os.path.join(HERE, 'check_public.py')])   # 公開用ページに内部の要素がないか
+    rc |= subprocess.call([sys.executable, os.path.join(HERE, 'leak_check.py')])   # 記述式の答えが問題ページ・白紙の答案用紙に出ていないか
     rc |= subprocess.call([sys.executable, os.path.join(HERE, 'check_choices.py')])   # 正解の組合せが選択肢にちょうど1つあるか（問題・独立の判定・印刷ページ）
 sys.exit(rc)
