@@ -116,10 +116,10 @@ TOI1_ATTACH = '建物図面　各階平面図　所有権証明情報　代理�
 TOI1_DAII = '不動産登記法第52条第4項'
 toi1 = page(f'''<div class="page">
 <div class="toi">問１</div><div class="sub">(1)</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:84px">{ink(TOI1_PURPOSE)}</div></div>
-<div class="row"><div class="lab">添　付　情　報</div><div class="box" style="height:120px">{ink(TOI1_ATTACH)}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:84px">{ink(TOI1_PURPOSE)}</div></div>
+<div class="row"><div class="lab">添　付　情　報</div><div class="box" style="min-height:120px">{ink(TOI1_ATTACH)}</div></div>
 <div class="sub">(2)</div>
-<div class="row"><div class="lab">代　位　原　因</div><div class="box" style="height:84px">{ink(TOI1_DAII)}</div></div>
+<div class="row"><div class="lab">代　位　原　因</div><div class="box" style="min-height:84px">{ink(TOI1_DAII)}</div></div>
 <div class="caption">平成22年度 土地家屋調査士試験 第22問 問1 解答例（答案用紙（その1）の上の部分）</div>
 </div>''')
 
@@ -131,8 +131,9 @@ APPLICANT = br(ink('Ａ市Ｄ町一丁目２番１号　持分　10分の４　�
                ink('Ａ市Ｄ町一丁目２番２号　　　　　10分の６　大面健一郎'))
 DAIRI = br('Ａ市Ｆ町二丁目６番８号', '波　　臼　　良　　子', '連絡先の電話番号　０＊＊－＊＊＊＊－１２３４')
 
-COLS = ('<colgroup><col style="width:5%"><col style="width:11%"><col style="width:10%"><col style="width:9%">'
-        '<col style="width:17%"><col style="width:12%"><col style="width:6%"><col style="width:30%"></colgroup>')
+# 列の幅は試験の答案用紙（その2）（public/kijutsu/H22-tatemono/a2.webp）の罫線から測った比（2026-10-26。照合スクリプトで測り直す）
+COLS_PCT = (3.57, 12.58, 10.17, 10.71, 16.85, 13.43, 6.37, 26.32)
+COLS = '<colgroup>' + ''.join(f'<col style="width:{w}%">' for w in COLS_PCT) + '</colgroup>'
 HEAD = ('<td class="head">地　番</td><td class="head">家屋番号</td><td class="head">①種類</td><td class="head">②構　造</td>'
         '<td class="head" colspan="2">③床面積　m²</td><td class="head">登記の原因及びその日付</td>')
 
@@ -155,21 +156,22 @@ TABLE = (f'<table class="t">{COLS}'
          f'<tr><td class="val" colspan="6"></td></tr>'
          f'<tr>{HEAD}</tr>{ROW1}{ROW2}{ROW3}<tr><td class="low" colspan="7"></td></tr></table>')
 
-S1_COLS = '<colgroup><col style="width:18%"><col style="width:13%"><col style="width:35%"><col style="width:34%"></colgroup>'
+S1_COLS_PCT = (20.9, 10.8, 31.24, 37.06)
+S1_COLS = '<colgroup>' + ''.join(f'<col style="width:{w}%">' for w in S1_COLS_PCT) + '</colgroup>'
 S1 = (f'<div class="sec">一　合体前の建物の所有権登記の表示</div><table class="t s">{S1_COLS}'
       '<tr><td class="head">家屋番号</td><td class="head">順位番号</td><td class="head">受付年月日及び受付番号</td>'
       '<td class="head">登記名義人の氏名</td></tr>'
       f'<tr><td>{ink("21番")}</td><td>{ink("１番")}</td><td>{ink("昭和51年２月17日第1110号")}</td><td>{ink("大面太郎")}</td></tr>'
       '<tr><td></td><td></td><td></td><td></td></tr></table>')
-S2_COLS = ('<colgroup><col style="width:12%"><col style="width:12%"><col style="width:15%"><col style="width:23%">'
-           '<col style="width:18%"><col style="width:20%"></colgroup>')
+S2_COLS_PCT = (13.75, 10.1, 12.28, 25.87, 20.28, 17.72)
+S2_COLS = '<colgroup>' + ''.join(f'<col style="width:{w}%">' for w in S2_COLS_PCT) + '</colgroup>'
 S2_HEAD = ('<tr><td class="head">家屋番号</td><td class="head">順位番号</td><td class="head">登記の<br>目的</td>'
            '<td class="head">受付年月日<br>及び受付番号</td><td class="head">登記名義人<br>の氏名</td>'
            '<td class="head">目的とする権利</td></tr>')
 S2_ROW = (f'<tr><td class="entry">{ink("21番")}</td><td class="entry">{ink("乙区２番")}</td>'
           f'<td class="entry">{ink("抵当権設定")}</td><td class="entry">{ink(br("昭和51年２月17日", "第1113号"))}</td>'
           f'<td class="entry">{ink("Ｂ信用金庫")}</td><td class="entry">{ink(br("大面太郎", "持分"))}</td></tr>')
-S2_EMPTY = '<tr>' + '<td class="entry" style="height:64px"></td>' * 6 + '</tr>'
+S2_EMPTY = '<tr>' + '<td class="entry" style="min-height:64px"></td>' * 6 + '</tr>'
 S2 = (f'<div class="sec">二　抵当権等の登記で合体後の登記建物につき存続すべきものの表示</div>'
       f'<table class="t s">{S2_COLS}{S2_HEAD}{S2_ROW}{S2_EMPTY}{S2_EMPTY}</table>')
 
@@ -186,10 +188,10 @@ TAX_OK = taxbox(ink('金1,200万円'), ink('金４万8,000円'))
 kansei = page(f'''<div class="page">
 <div class="toi">問２　(1)</div>
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:100px">{ink(PURPOSE)}</div></div>
-<div class="row"><div class="lab">添　付　情　報</div><div class="box" style="height:150px">{ink(br(*ATTACH))}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:100px">{ink(PURPOSE)}</div></div>
+<div class="row"><div class="lab">添　付　情　報</div><div class="box" style="min-height:150px">{ink(br(*ATTACH))}</div></div>
 <div class="dateline">平成22年８月22日　　申請　　Ａ地方法務局</div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:110px">{APPLICANT}</div></div>
+<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:110px">{APPLICANT}</div></div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="v">{DAIRI}</div></div>
 {TABLE}
 {S1}
@@ -247,10 +249,10 @@ def panel3(ng, fix, ok, bubble, caption, ng_note=''):
 # (a) 問1(2)の代位原因（問1の欄をまとめて見せる）
 def toi1_rows(daii):
     return (f'<div class="sub">(1)</div>'
-            f'<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:70px">{ink(TOI1_PURPOSE)}</div></div>'
-            f'<div class="row"><div class="lab">添　付　情　報</div><div class="box" style="height:70px">{ink(TOI1_ATTACH)}</div></div>'
+            f'<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:70px">{ink(TOI1_PURPOSE)}</div></div>'
+            f'<div class="row"><div class="lab">添　付　情　報</div><div class="box" style="min-height:70px">{ink(TOI1_ATTACH)}</div></div>'
             f'<div class="sub">(2)</div>'
-            f'<div class="row"><div class="lab">代　位　原　因</div><div class="box" style="height:84px">{daii}</div></div>')
+            f'<div class="row"><div class="lab">代　位　原　因</div><div class="box" style="min-height:84px">{daii}</div></div>')
 
 
 toi1_machigai = panel3(
@@ -267,25 +269,37 @@ toi1_machigai = panel3(
 NG_PURPOSE = '合体後の建物の表題登記及び合体前の建物の表題部の登記の抹消'
 
 
-def mokuteki_rows(purpose, applicant):
-    return (f'<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:100px">{purpose}</div></div>'
-            f'<div class="dateline">平成22年８月22日　　申請　　Ａ地方法務局</div>'
+def mokuteki_rows(purpose):
+    return f'<div class="row" style="margin-bottom:0"><div class="lab">登記の目的</div><div class="box" style="min-height:200px">{purpose}</div></div>'
+
+
+def shinseinin_rows(applicant):
+    return (f'<div class="dateline">平成22年８月22日　　申請　　Ａ地方法務局</div>'
             f'<div class="row" style="margin-bottom:0"><div class="lab">申　　請　　人</div>'
-            f'<div class="box" style="height:110px">{applicant}</div></div>')
+            f'<div class="box" style="min-height:150px">{applicant}</div></div>')
 
 
 NG_APPLICANT = br(ink('Ａ市Ｄ町一丁目２番１号　持分　10分の４　大面太郎（あ）'),
                   ink('Ａ市Ｄ町一丁目２番２号　　　　　10分の６　大面健一郎（い）'))
 FIX_APPLICANT = br(ink('Ａ市Ｄ町一丁目２番１号　持分　10分の４　大面太郎') + cut('（あ）'),
                    ink('Ａ市Ｄ町一丁目２番２号　　　　　10分の６　大面健一郎') + cut('（い）'))
+# 2026-10-26、1枚に2つの欄（登記の目的・申請人）の誤答が入っていたので、欄ごとの2枚に分けた
 machigai_mokuteki = panel3(
-    mokuteki_rows(ink(NG_PURPOSE), NG_APPLICANT),
-    mokuteki_rows(ink(NG_PURPOSE) + ins('並びに所有権の保存の登記'), FIX_APPLICANT),
-    mokuteki_rows(ink(PURPOSE), APPLICANT),
-    '22番は表題登記だけ。健一郎さんを登記名義人とする所有権の登記を併せて申請する<br>'
-    '（不動産登記法第49条第1項第4号・後段）。<br>'
-    '太郎さんと健一郎さんは別人なので、同一の者でないとみなす持分の（あ）（い）は付けない',
-    '平成22年度 第22問 問2(1)｜登記の目的に「並びに所有権の保存の登記」。持分は合意どおり、（あ）（い）なし')
+    mokuteki_rows(ink(NG_PURPOSE)),
+    mokuteki_rows(ink(NG_PURPOSE) + ins('並びに所有権の保存の登記')),
+    mokuteki_rows(ink(PURPOSE)),
+    '22番は表題登記だけ。健一郎さんを登記名義人とする所有権の登記を<br>'
+    '合体による登記等と併せて申請する（不動産登記法第49条第1項第4号・後段）。<br>'
+    '答案用紙（その2）の「法第74条第1項第1号の規定による……所有権保存の登記」の欄が合図',
+    '平成22年度 第22問 問2(1)｜登記の目的の最後に「並びに所有権の保存の登記」')
+machigai_shinseinin = panel3(
+    shinseinin_rows(NG_APPLICANT),
+    shinseinin_rows(FIX_APPLICANT),
+    shinseinin_rows(APPLICANT),
+    '太郎さんと健一郎さんは最初から別の人。<br>'
+    '同じ人を同一の者でないとみなす持分の（あ）（い）（平成30年。不動産登記令別表13の項申請情報欄ニ）は付けない。<br>'
+    '合意した持分（10分の４・10分の６）をそのまま書く',
+    '平成22年度 第22問 問2(1)｜申請人は合意どおりの持分で、（あ）（い）は付けない')
 
 
 # (c) 建物の表示（合体前の2行の構造）
@@ -336,7 +350,7 @@ machigai_sonzoku = panel3(
     '平成22年度 第22問 問2(1)｜存続登記の表は3行あっても、書くのはB信用金庫の抵当権の1行だけ')
 
 if __name__ == '__main__':
-    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
         pg = browser.new_page(viewport={'width': 1200, 'height': 100})   # 高さは内容に合わせる（full_page）
@@ -344,6 +358,7 @@ if __name__ == '__main__':
                            ('H22_dai22mon_toukishinseisho_kansei', kansei),
                            ('H22_dai22mon_toukishinseisho_machigai', machigai),
                            ('H22_dai22mon_toukishinseisho_machigai_mokuteki', machigai_mokuteki),
+                           ('H22_dai22mon_toukishinseisho_machigai_shinseinin', machigai_shinseinin),
                            ('H22_dai22mon_toukishinseisho_machigai_kouzou', machigai_kouzou),
                            ('H22_dai22mon_toukishinseisho_machigai_sonzoku', machigai_sonzoku)]:
             hp = os.path.join(OUT, name + '.html')
