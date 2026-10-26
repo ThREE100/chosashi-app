@@ -1,0 +1,58 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #fff; width: 1200px; font-family: "IPAMincho", "Noto Serif CJK JP", serif; color: #111; }
+.page { padding: 70px 70px 40px; min-height: 2300px; display: flex; flex-direction: column; }
+.page .caption { margin-top: auto; padding-top: 30px; }
+.title { text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 50px 0.9em; }
+.row { display: flex; align-items: flex-start; margin-bottom: 28px; position: relative; }
+.lab { width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }
+.box { flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.7; }
+.ink { color: #1a3a8f; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.plain { font-size: 22px; margin: 4px 0 24px; }
+.dairi { display: flex; font-size: 22px; margin: 4px 0 18px; }
+.dairi .lab { padding-top: 0; }
+.dairi .ryaku { flex: 1; text-align: right; padding-right: 180px; }
+.appbox { border: 2px solid #111; padding: 16px 22px; margin-bottom: 22px; position: relative; }
+table.app { border-collapse: collapse; font-size: 24px; line-height: 1.75; }
+table.app td { padding: 0; vertical-align: top; white-space: nowrap; }
+table.app td.k { width: 200px; }
+table.app td.r { width: 96px; }
+table.app td.center { text-align: center; }
+table.app td.gap { height: 14px; }
+table.land { width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }
+table.land td { border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 137px; vertical-align: middle; }
+table.land td.head { height: 50px; text-align: center; font-size: 20px; }
+table.land td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }
+table.land td.shozai-lab { text-align: center; height: 112px; }
+table.land td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }
+table.land td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }
+table.land td.chimoku { text-align: center; }
+table.land td .ink { font-size: 24px; }
+table.land td.cause .ink { font-size: 22px; line-height: 1.45; }
+.caption { text-align: center; font-size: 17px; color: #555; margin-top: 30px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.tnote { font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+/* 添削画像 */
+.panel { padding: 40px 70px 44px; border-bottom: 2px solid #bbb; }
+.panel:last-of-type { border-bottom: none; }
+.ptitle { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold; margin-bottom: 22px; }
+.ptitle.ng { color: #555; } .ptitle.fix { color: #d0021b; } .ptitle.ok { color: #2e9e44; }
+.strike { position: relative; }
+.strike::after { content: ""; position: absolute; left: -3px; right: -3px; top: 52%; border-top: 3px solid #d0021b;
+                  transform: rotate(-3deg); }
+.red { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.over { position: relative; display: inline-block; }
+.over .up { position: absolute; left: -6px; top: -26px; font-size: 19px; color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif;
+             white-space: nowrap; font-weight: bold; }
+.caret { color: #d0021b; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-weight: bold; }
+.bubble { display: inline-block; position: relative; border: 2.5px solid #d0021b; border-radius: 14px;
+           padding: 8px 18px; color: #d0021b; font-size: 22px; font-weight: bold; background: #fff5f5; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }
+.bubble::before { content: ""; position: absolute; top: -16px; left: 60px; border: 8px solid transparent;
+                   border-bottom: 8px solid #d0021b; }
+.bubrow { margin: 6px 0 4px 0; }
+.good { outline: 3px solid #2e9e44; outline-offset: 4px; border-radius: 2px; background: #f1faf2; }
+.check { position: absolute; right: -14px; top: -22px; }
+</style></head><body>
+<div class="panel" style="min-height:400px"><div class="ptitle ng">①誤答</div><div class="row"><div class="lab">登録免許税</div><div class="box" style="min-height:94px"><span class="ink">金2,000円</span></div></div></div>
+<div class="panel" style="min-height:400px"><div class="ptitle fix">②添削（赤ペン）</div><div class="row"><div class="lab">登録免許税</div><div class="box" style="min-height:94px"><span class="ink strike">金2,000円</span><br><span class="red">金3,000円</span></div></div><div class="bubrow"><span class="bubble">分筆後は10番1・10番8・10番9の3個 × 1,000円。残る10番1も数える</span></div></div>
+<div class="panel" style="min-height:400px"><div class="ptitle ok">③正解</div><div class="row"><div class="lab">登録免許税</div><div class="box good" style="min-height:94px"><span class="ink">金3,000円</span></div><svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" stroke="#2e9e44" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="#2e9e44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="caption" style="margin:10px 0 30px">令和3年度 第21問｜登録免許税は分筆後の土地の個数（登録免許税の欄）</div></body></html>
