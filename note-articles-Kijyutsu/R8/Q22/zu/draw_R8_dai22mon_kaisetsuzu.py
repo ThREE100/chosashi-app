@@ -1,6 +1,6 @@
-"""令和8年度 第22問（建物）の解説図18枚を、寸法・座標から作図してPNGに書き出す。
+"""令和8年度 第22問（建物）の解説図19枚を、寸法・座標から作図してPNGに書き出す。
 
-`../prompt_R8_dai22mon_kaisetsuzu.md` の図1〜図18どおり（番号は記事の挿入順。番号は管理用で、画像の中には書かない）。
+`../prompt_R8_dai22mon_kaisetsuzu.md` の図1〜図19どおり（番号は記事の挿入順。番号は管理用で、画像の中には書かない）。
 作図の共通部品は `tools/zu_helpers.py`。座標を使わない整理図（固定配置）は check_fixed で文字の重なりと
 図の外へのはみ出しを調べ、目視でも確かめる。
 
@@ -808,10 +808,36 @@ def zu15():
 
 
 # ======================================================================
-# 図16：敷地権の割合
+# 図16：一棟の建物の表示（名称を書くので構造・床面積を省略）
 # ======================================================================
 
 def zu16():
+    fig, ax = fixed_figure('一棟の建物の表示：名称を書くので、構造・床面積は書かない', w=18, h=8.2,
+                           rect_=(0.02, 0.09, 0.96, 0.81))
+    rbox(ax, 1, 22, 47, 66, RED, alpha=0.06)
+    ax.text(24.5, 82, '誤り：9階分の床面積を計算して書く', ha='center', va='center', fontsize=18, weight='bold', color=RED)
+    for y, t in [(68, '所在　A市B町四丁目6番地3'), (58, '名称　WKマンション'), (48, '構造　鉄筋コンクリート造陸屋根9階建'),
+                 (38, '床面積　1階〜9階の9つ（平面図から求積）')]:
+        ax.text(5, y, t, ha='left', va='center', fontsize=15, color=RED if y < 50 else BLACK)
+    ax.text(24.5, 28, '本番の時間を使うだけで、書く必要がない', ha='center', va='center', fontsize=14, color=RED)
+    rbox(ax, 51, 22, 47, 66, GREEN, alpha=0.07)
+    ax.text(74.5, 82, '正解：所在と名称だけ', ha='center', va='center', fontsize=18, weight='bold', color=GREEN)
+    for y, t in [(68, '所在　A市B町四丁目6番地3'), (58, '名称　WKマンション'), (48, '構造　省略'), (38, '床面積　省略')]:
+        ax.text(55, y, t, ha='left', va='center', fontsize=15, color=GREEN if y < 50 else BLACK,
+                weight='bold' if y < 50 else 'normal')
+    ax.text(74.5, 28, '登記記録の抜粋も「床面積（省略）」', ha='center', va='center', fontsize=14, color=GREEN)
+    ax.text(50, 12, '名称（ト）を申請情報の内容とするときは、一棟の建物の構造・床面積（ヘ）を省略できる（不動産登記令第3条第8号ヘ）',
+            ha='center', va='center', fontsize=14, weight='bold')
+    fig.text(0.5, 0.04, 'ただし、家屋番号を書かない申請（区分建物の表題登記など。同号ロに規定する場合）では省略できない',
+             ha='center', va='center', fontsize=13)
+    save_fixed(fig, 'R8_dai22mon_zu16_ittou_shouryaku')
+
+
+# ======================================================================
+# 図17：敷地権の割合
+# ======================================================================
+
+def zu17():
     fig, ax = fixed_figure('敷地権の割合は規約で70分の3・70分の2（床面積の割合ではない）', w=18, h=10,
                            rect_=(0.02, 0.10, 0.96, 0.78))
     rbox(ax, 1, 22, 47, 66, RED, alpha=0.06)
@@ -830,14 +856,14 @@ def zu16():
             color=GRAY)
     ax.text(50, 10, '規約で決めた割合を登記するので、規約を設定したことを証する情報（規約証明書）を添付する（不動産登記令別表16の項添付情報欄ハ（2））',
             ha='center', va='center', fontsize=14, weight='bold')
-    save_fixed(fig, 'R8_dai22mon_zu16_wariai')
+    save_fixed(fig, 'R8_dai22mon_zu17_wariai')
 
 
 # ======================================================================
-# 図17：規約証明書
+# 図18：規約証明書
 # ======================================================================
 
-def zu17():
+def zu18():
     fig, ax = fixed_figure('問4　規約証明書は「集会の議事録」か「全員の合意書」', w=18, h=10.5,
                            rect_=(0.02, 0.09, 0.96, 0.79))
     cols = [(1, GREEN, 'イ　議事録', ['区分所有者集会で規約を設定', '（第31条第1項の特別決議）', '議長と出席した区分所有者2人が署名',
@@ -855,14 +881,14 @@ def zu17():
             ha='center', va='center', fontsize=15, weight='bold', color=BLUE)
     fig.text(0.5, 0.04, '条文はすべて建物の区分所有等に関する法律。WKマンションは分譲済みで区分所有者が大勢いるので、集会の決議か全員の合意で規約を設定する',
              ha='center', va='center', fontsize=13.5)
-    save_fixed(fig, 'R8_dai22mon_zu17_kiyaku_shoumei')
+    save_fixed(fig, 'R8_dai22mon_zu18_kiyaku_shoumei')
 
 
 # ======================================================================
-# 図18：本番で解く順番
+# 図19：本番で解く順番
 # ======================================================================
 
-def zu18():
+def zu19():
     fig = plt.figure(figsize=(17, 8.5), dpi=100)
     setup_font()
     fig.patch.set_facecolor('white')
@@ -897,7 +923,7 @@ def zu18():
              '\n①〜④を先に書いておけば、⑤⑥で時間が足りなくなっても、問1・問4と申請書の大部分の点は取れている',
              ha='center', va='center', fontsize=14.5, linespacing=1.6)
     check_fixed(fig, '解く順番')
-    path = os.path.join(OUT, 'R8_dai22mon_zu18_toku_junban.png')
+    path = os.path.join(OUT, 'R8_dai22mon_zu19_toku_junban.png')
     fig.savefig(path, facecolor='white')
     plt.close(fig)
     print('書き出し:', path)
@@ -922,4 +948,5 @@ if __name__ == '__main__':
     zu16()
     zu17()
     zu18()
+    zu19()
     print('重なり合計:', len(PROBLEMS))
