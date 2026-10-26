@@ -32,12 +32,12 @@ GREEN = '#2e9e44'    # 正解の枠
 CSS = f'''
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }}
-.page {{ padding: 70px 60px 40px; min-height: 1650px; display: flex; flex-direction: column; }}
-.page.short {{ min-height: 1300px; }}
+.page {{ padding: 70px 60px 40px; min-height: 1500px; display: flex; flex-direction: column; }}
+.page.short {{ min-height: 760px; }}
 .page .caption {{ margin-top: auto; padding-top: 30px; }}
 .title {{ text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 48px 0.9em; }}
-.row {{ display: flex; align-items: flex-start; margin-bottom: 26px; }}
-.lab {{ width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }}
+.row {{ display: flex; align-items: flex-start; margin-bottom: 25px; }}
+.lab {{ width: 150px; font-size: 20px; padding-top: 10px; white-space: nowrap; }}
 .box {{ flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }}
 .ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 .plainrow {{ display: flex; font-size: 22px; margin-bottom: 22px; }}
@@ -49,10 +49,12 @@ table.bldg td {{ border: 1.5px solid #111; font-size: 19px; padding: 8px 10px; v
 table.bldg td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }}
 table.bldg td.vert.tight {{ letter-spacing: 0.15em; font-size: 20px; }}
 table.bldg td.lab2 {{ text-align: center; font-size: 19px; }}
-table.bldg td.head {{ text-align: center; font-size: 18px; height: 70px; }}
-table.bldg td.val {{ height: 64px; }}
-table.bldg td.entry {{ height: 170px; }}
-table.bldg td.entry.big {{ height: 330px; }}
+table.bldg td.head {{ text-align: center; font-size: 18px; height: 123px; }}
+table.bldg td.val {{ height: 110px; }}
+table.bldg td.kaoku {{ height: 78px; }}
+table.bldg.k3 td.kaoku {{ height: 52px; }}
+table.bldg td.entry {{ height: 208px; }}
+table.bldg td.entry.big {{ height: 456px; }}
 table.bldg td.center {{ text-align: center; }}
 table.bldg td.head .m2 {{ display: block; text-align: right; padding-right: 22%; font-size: 15px; line-height: 1.2; }}
 table.bldg td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }}
@@ -60,7 +62,7 @@ table.bldg td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-l
 table.bldg td.genin {{ font-size: 17px; }}
 table.bldg td .ink {{ font-size: 20px; }}
 table.ran2 {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
-table.ran2 td {{ border: 1.5px solid #111; font-size: 21px; padding: 14px 16px; height: 170px; vertical-align: middle; }}
+table.ran2 td {{ border: 1.5px solid #111; font-size: 21px; padding: 14px 16px; height: 124px; vertical-align: middle; }}
 table.ran2 td.no {{ text-align: center; font-size: 24px; }}
 table.ran2 td .ink {{ font-size: 23px; }}
 .circ {{ display: inline-block; border: 2.5px solid {INK}; border-radius: 50%; width: 38px; height: 38px; line-height: 33px;
@@ -68,6 +70,7 @@ table.ran2 td .ink {{ font-size: 23px; }}
 .plain {{ display: inline-block; width: 38px; text-align: center; }}
 .tnote {{ font-size: 17px; color: #444; margin-top: 12px; line-height: 1.6;
           font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
+.sp30 {{ min-height: 30px; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
@@ -97,11 +100,18 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
              f'stroke="{GREEN}" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="{GREEN}" '
              f'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
-COLS = ('<colgroup><col style="width:5%"><col style="width:11%"><col style="width:12%"><col style="width:21%">'
-        '<col style="width:14%"><col style="width:7%"><col style="width:30%"></colgroup>')
-HEAD = ('<tr><td class="head lab2">主である<br>建物又は<br>附属建物</td><td class="head">①種　類</td>'
-        '<td class="head">②構　造</td><td class="head" colspan="2">③床面積<br><span class="m2">m²</span></td>'
-        '<td class="head">原因及びその日付</td></tr>')
+# 表の列の幅の比と行の高さは、試験の答案用紙（touan_youshi/ の原本PDF）の罫線から測った値（2026-10-26、6-3）。表の幅470.6pt＝1080px
+# 縦の罫線のx（pt）：177.6｜203.1｜242.8｜254.1｜271.1｜320.7｜429.9｜497.9｜539.0｜648.2（第3欄の表も左端から同じ間隔）
+# 所在の欄の見出しは177.6〜242.8、家屋番号の見出しは203.1〜271.1で、主である建物又は附属建物の列（203.1〜254.1）の境と重ならないので、
+# 9つの細い列に分けて colspan で合わせる。③床面積の点線は497.9。行の高さ（pt）：所在48.1・家屋番号34.1（第1欄）／22.7（第3欄）・
+# 見出し53.8・データ行90.7（第1欄の2行）／198.5（第3欄の1行）→ ×2.295倍のpx
+COLS_PT = (25.5, 39.7, 11.3, 17.0, 49.6, 109.2, 68.0, 41.1, 109.2)
+COLS_PCT = tuple(round(100 * v / sum(COLS_PT), 2) for v in COLS_PT)
+COLS = '<colgroup>' + ''.join(f'<col style="width:{v}%">' for v in COLS_PCT) + '</colgroup>'
+HEAD_CELLS = ('<td class="head lab2" colspan="2">主である<br>建物又は<br>附属建物</td><td class="head" colspan="2">①種　類</td>'
+              '<td class="head">②構　造</td><td class="head" colspan="2">③床面積<br><span class="m2">m²</span></td>'
+              '<td class="head">原因及びその日付</td>')
+HEAD = f'<tr>{HEAD_CELLS}</tr>'
 
 
 def ink(s):
@@ -127,24 +137,25 @@ def area(floors, big=False):
 
 def entry_row(label='', kind='', struct='', floors=(('', '', ''),), genin='', big=False):
     b = ' big' if big else ''
-    return (f'<tr><td class="entry{b} lab2">{label}</td><td class="entry{b} center">{kind}</td>'
+    return (f'<tr><td class="entry{b} lab2" colspan="2">{label}</td><td class="entry{b} center" colspan="2">{kind}</td>'
             f'<td class="entry{b} center">{struct}</td>{area(floors, big)}<td class="entry{b} genin">{genin}</td></tr>')
 
 
-def table(shozai, kaoku_html, rows_html, nrows):
-    return (f'<table class="bldg">{COLS}'
-            f'<tr><td class="lab2 val" colspan="2">所　在</td><td class="val" colspan="5">{ink(shozai)}</td></tr>'
+def table(shozai, kaoku_html, rows_html, nrows, third=False):
+    k3 = ' k3' if third else ''
+    return (f'<table class="bldg{k3}">{COLS}'
+            f'<tr><td class="lab2 val" colspan="2">所　在</td><td class="val" colspan="7">{ink(shozai)}</td></tr>'
             f'<tr><td class="vert" rowspan="{nrows + 2}">建物の表示</td>'
-            f'<td class="lab2 val">家屋番号</td><td class="val" colspan="5">{kaoku_html}</td></tr>'
+            f'<td class="lab2 kaoku" colspan="3">家屋番号</td><td class="kaoku" colspan="5">{kaoku_html}</td></tr>'
             f'{HEAD}{rows_html}</table>')
 
 
 def front(mokuteki, tenpu_lines, shinseinin_lines):
     return (f'<div class="title">登記申請書</div>'
-            f'<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink(mokuteki)}</div></div>'
-            f'<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:130px">{ink(br(*tenpu_lines))}</div></div>'
-            f'<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:100px">{ink(br(*shinseinin_lines))}</div></div>'
-            '<div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>'
+            f'<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:83px">{ink(mokuteki)}</div></div>'
+            f'<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:131px">{ink(br(*tenpu_lines))}</div></div>'
+            f'<div class="row"><div class="lab">申　請　人</div><div class="box" style="min-height:131px">{ink(br(*shinseinin_lines))}</div></div>'
+            '<div class="plainrow"><div class="lab">代　理　人</div><div class="ryaku">（略）</div></div>'
             '<div class="plainrow"><div class="printed">令和２年10月16日　申請　Ａ地方法務局</div></div>')
 
 
@@ -160,7 +171,7 @@ rows1 = (entry_row('主', ink(br('居宅', '・', '店舗')), ink(br('木造ス�
 toi1 = page(front('建物滅失登記', ['変更証明書　代理権限証書'], SHINSEININ)
             + table('Ａ市Ｂ区Ｔ町三丁目39番地３', ink('39番３の４'), rows1, 2)
             + f'<div class="tnote">{NOTE1}</div>'
-            + '<div class="caption">令和2年度 土地家屋調査士試験 第22問 問1（第1欄） 登記申請書 解答例</div>')
+            + '<div class="caption">令和2年度 土地家屋調査士試験 第22問 問1 登記申請書 解答例</div>')
 
 # ---- 第3欄（問3）：本件新建物の建物表題登記 ----
 GENIN_OK = br('令和２年９月18日新築', '令和２年10月12日増築')
@@ -169,8 +180,8 @@ KIND3 = br('共同住宅', '・', '店舗')
 STRUCT3 = br('鉄骨造合金メッキ', '鋼板ぶき３階建')
 rows3 = entry_row('', ink(KIND3), ink(STRUCT3), FLOORS3, ink(GENIN_OK), big=True)
 toi3 = page(front('建物表題登記', ['建物図面　各階平面図　所有権証明書', '住所証明書　代理権限証書'], SHINSEININ)
-            + table('Ａ市Ｂ区Ｔ町三丁目42番地２、42番地１', '（記載不要）', rows3, 1)
-            + '<div class="caption">令和2年度 土地家屋調査士試験 第22問 問3（第3欄） 登記申請書 解答例</div>')
+            + table('Ａ市Ｂ区Ｔ町三丁目42番地２、42番地１', '（記載不要）', rows3, 1, third=True)
+            + '<div class="caption">令和2年度 土地家屋調査士試験 第22問 問3 登記申請書 解答例</div>')
 
 
 # ---- 第2欄（問2） ----
@@ -180,30 +191,29 @@ def umu(yes):
     return f'{a}・{b}'
 
 
-RAN2_COLS = '<colgroup><col style="width:8%"><col style="width:24%"><col style="width:68%"></colgroup>'
+RAN2_COLS = '<colgroup><col style="width:5.4%"><col style="width:22.3%"><col style="width:72.3%"></colgroup>'   # 答案用紙から測った幅25.5・104.9・340.2pt
 dai2 = page(
-    '<div class="ptitle" style="font-family:inherit;font-weight:normal;font-size:26px">第２欄</div>'
+    '<div class="ptitle" style="font-family:inherit;font-weight:normal;font-size:26px">第2欄</div>'
     f'<table class="ran2">{RAN2_COLS}'
     f'<tr><td class="no" rowspan="2">①</td><td>解体移転の場合</td><td>{umu(True)}　　{ink("建物滅失登記、建物表題登記")}</td></tr>'
     f'<tr><td>えい行移転の場合</td><td>{umu(False)}</td></tr></table>'
-    '<div style="height:30px"></div>'
+    '<div class="sp30"></div>'
     f'<table class="ran2">{RAN2_COLS}'
     f'<tr><td class="no" rowspan="2">②</td><td>解体移転の場合</td><td>{ink("解体によって建物の同一性が失われるため")}</td></tr>'
     f'<tr><td>えい行移転の場合</td><td>{ink(br("建物の同一性は失われず、同じ土地の中での移動で", "所在に変更が生じないため"))}</td></tr></table>'
-    '<div class="caption">令和2年度 土地家屋調査士試験 第22問 問2（第2欄） 解答例</div>', cls='page short')
+    '<div class="caption">令和2年度 土地家屋調査士試験 第22問 問2 解答例</div>', cls='page short')
 
 
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ）：第3欄の原因及びその日付 ----
 def snippet(genin_html, good=False, floor_html=None):
-    g = ' class="good"' if good else ''
+    g = ' good' if good else ''
     chk = CHECK_SVG if good else ''
     fl = floor_html or area(FLOORS3)
-    row = (f'<tr><td class="entry lab2"></td><td class="entry center">{ink(KIND3)}</td><td class="entry center">{ink(STRUCT3)}</td>'
+    row = (f'<tr><td class="entry lab2" colspan="2"></td><td class="entry center" colspan="2">{ink(KIND3)}</td><td class="entry center">{ink(STRUCT3)}</td>'
            f'{fl}<td class="entry genin">{genin_html}</td></tr>')
-    return (f'<div class="okwrap"><table class="bldg"{g}>{COLS}'
+    return (f'<div class="okwrap"><table class="bldg{g}">{COLS}'
             f'<tr><td class="vert tight" rowspan="2">建物の表示</td>'
-            '<td class="head lab2">主である<br>建物又は<br>附属建物</td><td class="head">①種　類</td><td class="head">②構　造</td>'
-            f'<td class="head" colspan="2">③床面積<br><span class="m2">m²</span></td><td class="head">原因及びその日付</td></tr>{row}</table>{chk}</div>')
+            f'{HEAD_CELLS}</tr>{row}</table>{chk}</div>')
 
 
 ng_panel = snippet(ink('令和２年９月18日新築'))
@@ -245,14 +255,14 @@ def bubble(text):
 
 # 申請人の欄：登記記録の住所（39番地３）を写した誤答 → 今の住所（42番地２）
 OLD_ADDR, NEW_ADDR = 'Ａ市Ｂ区Ｔ町三丁目39番地３', 'Ａ市Ｂ区Ｔ町三丁目42番地２'
-AFTER = ('<div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>'
+AFTER = ('<div class="plainrow"><div class="lab">代　理　人</div><div class="ryaku">（略）</div></div>'
          '<div class="plainrow"><div class="printed">令和２年10月16日　申請　Ａ地方法務局</div></div>')
 machigai_shinseinin = three(
     '令和2年度 第22問｜申請人の住所は、申請するときの今の住所',
-    boxrow('申　　請　　人', ink(br(OLD_ADDR, '五輪松子'))) + AFTER,
-    boxrow('申　　請　　人', br(f'<span class="ink strike">{OLD_ADDR}</span>　<span class="red">{NEW_ADDR}</span>', ink('五輪松子')))
+    boxrow('申　請　人', ink(br(OLD_ADDR, '五輪松子'))) + AFTER,
+    boxrow('申　請　人', br(f'<span class="ink strike">{OLD_ADDR}</span>　<span class="red">{NEW_ADDR}</span>', ink('五輪松子')))
     + bubble('10月3日に42番地２へ転居（事実関係3）。登記記録の住所を写さない') + AFTER,
-    boxrow('申　　請　　人', ink(br(NEW_ADDR, '五輪松子')), good=True) + AFTER)
+    boxrow('申　請　人', ink(br(NEW_ADDR, '五輪松子')), good=True) + AFTER)
 
 # 添付書類の欄：住所証明書の誤答 → 変更証明書
 MOKUTEKI = boxrow('登記の目的', ink('建物滅失登記'), height=62)
@@ -267,11 +277,11 @@ machigai_tenpu = three(
 
 # 建物の表示（主である建物の行）：下線の付いた当初の行を写した誤答 → 下線のない最新の行
 def row_main(kind, struct, ints, decs, good=False):
-    g = ' class="good"' if good else ''
+    g = ' good' if good else ''
     chk = CHECK_SVG if good else ''
-    return (f'<div class="okwrap"><table class="bldg"{g}>{COLS}'
-            f'<tr><td class="vert tight" rowspan="2">建物の表示</td>{HEAD[4:-5]}</tr>'
-            f'<tr><td class="entry lab2">主</td><td class="entry center">{kind}</td><td class="entry center">{struct}</td>'
+    return (f'<div class="okwrap"><table class="bldg{g}">{COLS}'
+            f'<tr><td class="vert tight" rowspan="2">建物の表示</td>{HEAD_CELLS}</tr>'
+            f'<tr><td class="entry lab2" colspan="2">主</td><td class="entry center" colspan="2">{kind}</td><td class="entry center">{struct}</td>'
             f'<td class="entry int">{ints}</td><td class="entry dec">{decs}</td>'
             f'<td class="entry genin">{ink(br("令和２年10月12日", "取壊し"))}</td></tr></table>{chk}</div>')
 
@@ -295,7 +305,7 @@ machigai_hyouji = three(
              br(ink('05'), ink('49')), good=True))
 
 if __name__ == '__main__':
-    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
         pg = browser.new_page(viewport={'width': 1200, 'height': 800})
