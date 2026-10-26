@@ -8,7 +8,7 @@
 - 「表示：（実部）− 1119.7006i」の形は、iの係数（符号を含む）だけを照らす
 
 - 未対応（2026-10-07時点）：記事の中で変数の状態を巻き戻して別解を始める書き方（H29/Q21の「Y＝Gから始める」）、
-  ∠ の後にかっこのない書き方（H23〜H25/Q21）、整数の表示（H22/Q21の「1」）。純虚数の表示（実部が丸めの誤差だけ）は2026-10-08に対応（R2/Q21）。年度の照合スクリプトで使うのは、全部の表示が一致した年度だけにする
+  ∠ の後にかっこのない書き方（H24・H25/Q21。H23/Q21の「∠ 120 [=]」のように度の数値だけを続ける形は2026-10-26に対応）、度分秒で表示する arg（H23/Q21は2026-10-26に対応）、整数の表示（H22/Q21の「1」）。純虚数の表示（実部が丸めの誤差だけ）は2026-10-08に対応（R2/Q21）。年度の照合スクリプトで使うのは、全部の表示が一致した年度だけにする
 
 使い方: python3 note-articles-Kijyutsu/tools/keysim_note_article.py 記事.md
        （照合スクリプトからは simulate(記事のパス) を呼ぶ。戻り値は [(行番号, 記事の表示, 再現した表示, 一致)]）
@@ -20,7 +20,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from calc_helpers import disp, fmt_num  # noqa: E402
+from calc_helpers import disp, fmt_num, to_dms  # noqa: E402
 
 
 def _arg(z):
@@ -81,6 +81,10 @@ def _to_expr(tk):
         if x == '[∠]':                       # r∠(θ) → polar(r, (θ))
             r = out.pop()
             out.append(f'polar({r},')
+            if re.match(r'^[0-9]+(?:\.[0-9]+)?$', tk[i + 1]) and (i + 2 >= len(tk) or tk[i + 2] in ('[=]', '[)]', '[SHIFT]')):
+                out.append(f'({tk[i + 1]}))')       # r∠120 のように、度の数値だけを続けて書く形（H23/Q21。2026-10-26追加）
+                i += 2
+                continue
             if tk[i + 1] != '[(]':
                 raise ValueError('∠ の後はかっこで角度を囲む')
             out.append('(')
@@ -154,7 +158,9 @@ def simulate(path):
         vs = [v for s, vv in results if s == blk for v in vv]
         used = sum(1 for m, _ in disp_lines if blk < m < n)
         v = complex(vs[min(used, len(vs) - 1)])
-        if '（実部）' in want:
+        if want.endswith('″') and '°' in want:   # arg の表示は度分秒（H23/Q21の120°00′04.14″。2026-10-26追加）
+            got = to_dms(math.radians(v.real))
+        elif '（実部）' in want:
             got = f'（実部）{"−" if v.imag < 0 else "＋"} {fmt_num(abs(v.imag))}i'
         else:
             if abs(v.imag) < 1e-9:

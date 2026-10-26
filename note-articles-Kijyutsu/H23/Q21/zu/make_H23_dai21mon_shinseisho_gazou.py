@@ -4,7 +4,8 @@
 - 添削　：`../prompt_H23_dai21mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
 - 問1（時効取得の要件となる具体的事実）・問2（C点・H点の座標値）：申請書でない解答欄も、答案用紙の欄の形で別の画像にする（横1200px）。
   欄の形は試験の答案用紙（`public/kijutsu/H23-tochi/a1.webp`）どおり。問1は大きな記述枠、問2は「C点の座標値」「H点の座標値」の
-  2つの表（それぞれ「X座標（m）」「Y座標（m）」）。採点欄の「※」の枠は描かない
+  2つの表（それぞれ「X座標（m）」「Y座標（m）」）。採点欄の「※」の枠は描かない。
+  枠の縦横比は答案用紙の画素から測った比にそろえる（問1の枠 425×321、問2の表 340×97〈見出し行39・記入行58〉。1px ≒ 0.3mm）
 
 様式の部品（CSS・土地の表示の表）は `../../../H28/Q21/zu/make_H28_dai21mon_shinseisho_gazou.py` と同じ。ただし、平成23年度の答案用紙には
 登録免許税の欄がなく、申請の日付と提出先（平成23年8月21日申請　Ａ地方法務局）と代理人（氏名・住所・電話番号）が印刷済みで、
@@ -40,12 +41,17 @@ body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAM
 .dairi .lab {{ padding-top: 0; }}
 .dairi .txt {{ flex: 1; line-height: 1.6; }}
 table.land {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
-table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; }}
-table.land.compact td.vert {{ letter-spacing: 0.02em; font-size: 15px; }}
+table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; vertical-align: middle; }}
+table.land td.row3 {{ height: 146px; }}
+table.land.compact td.row3 {{ height: 92px; }}
+table.land.compact td.vert {{ letter-spacing: 0.02em; font-size: 18px; }}
 .box.fix {{ line-height: 1.75; }}
-table.land td.head {{ height: 50px; text-align: center; font-size: 20px; }}
+table.land td.head {{ height: 99px; text-align: center; font-size: 20px; }}
+table.land td.head.chiseki .m2 {{ font-size: 16px; margin-top: 4px; display: block; width: fit-content; text-align: left; margin-left: 59.9%; transform: translateX(-50%); }}
+table.land td.head.chiseki > div:first-child {{ text-align: center; }}
+table.land td.shozai {{ height: 80px; }}
 table.land td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }}
-table.land td.shozai-lab {{ text-align: center; height: 76px; }}
+table.land td.shozai-lab {{ text-align: center; height: 80px; padding: 0; }}
 table.land td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }}
 table.land td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }}
 table.land td.chimoku {{ text-align: center; }}
@@ -84,18 +90,28 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
              f'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 
+# 答案用紙（a1.webp。A3横を1400pxで取り込んだ画像で、1px ≒ 0.3mm）の土地の表示の表から測った寸法（画素）：
+#   縦書き「土地の表示」の列（表の全高。所在の行を含む）23.5、①地番 85、②地目 85、③地積 142.5（点線は左から59.6%）、
+#   登記原因及びその日付 166 → 全体 502。所在の行の「所　在」のセルは70。行の高さ：所在 38、見出し 47、記入行 69（3行）
+# 列の境目（%）：縦書き列 4.7｜①地番 16.9｜②地目 16.9｜③地積 28.4（点線は左から59.9%）｜登記原因 33.1。
+# 「所　在」のセルの右端（18.6%）は①地番の列の途中にあるので、①地番の列を13.9と3.0に分けて7列で組む
+LAND_COLS = (4.7, 13.9, 3.0, 16.9, 17.0, 11.4, 33.1)
+
+
 def land_table(rows, n_rows=3, shozai='', compact=False):
-    """土地の表示の表。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。各値は HTML（記入部分は呼び出し側で .ink を付ける）"""
-    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:18%"><col style="width:15%">'
-         '<col style="width:13%"><col style="width:7%"><col style="width:41%"></colgroup>',
-         f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
-         f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地番</td>'
-         '<td class="head">②地目</td><td class="head" colspan="2">③地積　　m²</td>'
+    """土地の表示の表。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。各値は HTML（記入部分は呼び出し側で .ink を付ける）。
+    縦書きの「土地の表示」の列は所在の行から最終行までを結合する（答案用紙どおり）。"""
+    cg = ''.join(f'<col style="width:{w}%">' for w in LAND_COLS)
+    h = [f'<table class="land{" compact" if compact else ""}"><colgroup>{cg}</colgroup>',
+         f'<tr><td class="vert" rowspan="{n_rows + 2}">土地の表示</td><td class="shozai-lab">所　在</td>'
+         f'<td colspan="5" class="shozai">{shozai}</td></tr>',
+         '<tr><td class="head" colspan="2">①地番</td><td class="head">②地目</td>'
+         '<td class="head chiseki" colspan="2"><div>③地　　積</div><div class="m2">m²</div></td>'
          '<td class="head">登記原因及びその日付</td></tr>']
     for i in range(n_rows):
-        c, m, a, b, g = rows[i] if i < len(rows) else ('', '', '', '', '')
-        h.append(f'<tr><td>{c}</td><td class="chimoku">{m}</td><td class="int">{a}</td><td class="dec">{b}</td>'
-                 f'<td>{g}</td></tr>')
+        cc, mm, a, b2, gg = rows[i] if i < len(rows) else ('', '', '', '', '')
+        h.append(f'<tr><td class="row3" colspan="2">{cc}</td><td class="chimoku row3">{mm}</td><td class="int row3">{a}</td>'
+                 f'<td class="dec row3">{b2}</td><td class="row3">{gg}</td></tr>')
     h.append('</table>')
     return ''.join(h)
 
@@ -123,12 +139,12 @@ SHOZAI = 'Ａ市Ｂ町五丁目'
 ROWS = [('', '境内地', '113', '', '不詳')]
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('土地表題登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:150px">{items(TENPU)}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:78px">{ink('土地表題登記')}</div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:248px">{items(TENPU)}</div></div>
 <div class="plain">{DATE}</div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:130px">{ink(APPLICANT)}</div></div>
+<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:248px">{ink(APPLICANT)}</div></div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="txt">{DAIRI}</div></div>
-<div style="height:6px"></div>
+<div style="min-height:6px"></div>
 {land_table([tuple(ink(v) for v in r) for r in ROWS], shozai=ink(SHOZAI))}
 <div class="note">{NOTE}</div>
 <div class="caption">平成23年度 土地家屋調査士試験 第21問 登記申請書 解答例</div>
@@ -174,10 +190,10 @@ RAN_CSS = '''
 .ranhead {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 14px; }}
 .sub {{ font-size: 23px; margin: 26px 0 10px 20px; }}
 table.zahyo {{ width: 80%; margin-left: 20px; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
-table.zahyo td {{ border: 1.5px solid #111; font-size: 24px; height: 96px; text-align: center; vertical-align: middle; }}
-table.zahyo tr.h td {{ height: 60px; font-size: 22px; }}
+table.zahyo td {{ border: 1.5px solid #111; font-size: 24px; height: 147px; text-align: center; vertical-align: middle; }}
+table.zahyo tr.h td {{ height: 99px; font-size: 22px; }}
 table.zahyo td .ink {{ font-size: 30px; }}
-.kijutsu {{ border: 3px solid #111; padding: 26px 30px; min-height: 560px; font-size: 25px; line-height: 2.0; }}
+.kijutsu {{ border: 3px solid #111; padding: 26px 30px; min-height: 818px; font-size: 25px; line-height: 2.0; }}
 '''.format()
 TOI1 = '本件土地は国有財産であり、宗教法人雨堤天満宮にとって他人の物である。宗教法人雨堤天満宮は、昭和26年8月19日に50番1及び51番2を吉川仁志から買い受けて以降、本件土地を神社の敷地（神楽殿の敷地及び参道）として、所有の意思をもって維持、管理し、一般に開放してきた。その間、土地の所有に関する問合せやそれに伴う測量などはなく、平穏かつ公然と占有していた。この占有を昭和26年8月19日から20年間継続し、昭和46年8月19日に取得時効が完成した（民法第162条第1項）'
 TOI2 = [('C点の座標値', '316.94', '305.93'), ('H点の座標値', '313.37', '321.26')]
@@ -195,7 +211,7 @@ tbl = ''.join(f'''<div class="sub">{h}</div><table class="zahyo"><colgroup><col 
 toi2 = ran_page(f'''<div class="ran"><div class="ranhead">問２</div>{tbl}
 <div class="caption">平成23年度 土地家屋調査士試験 第21問 問2 解答例</div></div>''')
 
-exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
     pg = browser.new_page(viewport={'width': 1200, 'height': 200})
