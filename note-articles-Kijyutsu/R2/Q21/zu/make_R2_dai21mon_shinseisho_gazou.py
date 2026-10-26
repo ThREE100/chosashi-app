@@ -37,20 +37,21 @@ body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAM
 .page {{ padding: 80px 70px 40px; min-height: 1650px; display: flex; flex-direction: column; }}
 .page .caption {{ margin-top: auto; padding-top: 30px; }}
 .title {{ text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 56px 0.9em; }}
-.row {{ display: flex; align-items: flex-start; margin-bottom: 32px; }}
+.row {{ display: flex; align-items: flex-start; margin-bottom: 25px; width: 1033px; }}
 .lab {{ width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }}
-.box {{ flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 26px; line-height: 1.6; }}
+.box {{ flex: none; width: 863px; border: 2px solid #111; padding: 10px 16px; font-size: 26px; line-height: 1.6; }}
 .ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 .plain {{ font-size: 22px; margin: 4px 0 26px; }}
 .dairi {{ display: flex; font-size: 22px; margin-bottom: 26px; }}
 .dairi .lab {{ padding-top: 0; }}
 .dairi .ryaku {{ flex: 1; text-align: center; }}
 table.land {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
-table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; white-space: nowrap; }}
+table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 137px; vertical-align: middle; white-space: nowrap; }}
 table.land td.vert {{ white-space: normal; }}
 table.land td.head {{ height: 50px; text-align: center; font-size: 20px; }}
 table.land td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }}
-table.land td.shozai-lab {{ text-align: center; height: 76px; }}
+table.land td.shozai-lab {{ text-align: center; height: 112px; }}
+table.land td.shozai-val {{ height: 112px; }}
 table.land td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }}
 table.land td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }}
 table.land td.ryaku {{ text-align: center; }}
@@ -94,10 +95,11 @@ def page(body):
 
 def land_table(rows, n_rows=6, shozai=''):
     """土地の表示の表（R2の答案用紙の形）。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。すべての行で地積を点線で分ける。"""
-    # 列幅は答案用紙（touan_youshi の1ページ目）の比に合わせる：縦書きの列6・地番18・地目15・地積25（整数部15・小数部10）・原因36
-    h = ['<table class="land"><colgroup><col style="width:6%"><col style="width:18%"><col style="width:15%">'
-         '<col style="width:15%"><col style="width:10%"><col style="width:36%"></colgroup>',
-         f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
+    # 列幅・行の高さは答案用紙の原本PDF（touan_youshi の1ページ目）を get_drawings で測ったmmの比：縦書きの列10.0・地番31.0・地目25.0・地積42.0（整数部25.0・小数部17.0）・原因62.0（合計170.0mm）。
+    # 行の高さは 所在18.0・見出し8.0・記入行22.0mm（表の幅1060px ＝ 170.0mm なので 6.235px/mm → 112・50・137px）
+    h = ['<table class="land"><colgroup><col style="width:5.9%"><col style="width:18.2%"><col style="width:14.7%">'
+         '<col style="width:14.7%"><col style="width:10%"><col style="width:36.5%"></colgroup>',
+         f'<tr><td class="shozai-lab" colspan="2">所　在</td><td class="shozai-val" colspan="4">{shozai}</td></tr>',
          f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地　　番</td>'
          '<td class="head">②地　　目</td><td class="head" colspan="2">③地　積　（m²）</td>'
          '<td class="head">登記原因及びその日付</td></tr>']
@@ -143,10 +145,10 @@ def rows(i_int, i_dec, g_int, g_dec, red=None):
 applicant_html = '<br>'.join(f'<span class="ink">{a}{b}</span>' for a, b in APPLICANT)
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:62px">{ink('土地分合筆登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:150px">{ink(ATTACH1)}<br>{ink(ATTACH2)}</div></div>
-<div class="row"><div class="lab">登録免許税</div><div class="box" style="min-height:62px">{ink('金2,000円')}</div></div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:150px">{applicant_html}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:94px">{ink('土地分合筆登記')}</div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:268px">{ink(ATTACH1)}<br>{ink(ATTACH2)}</div></div>
+<div class="row"><div class="lab">登録免許税</div><div class="box" style="min-height:94px">{ink('金2,000円')}</div></div>
+<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:399px">{applicant_html}</div></div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
 <div class="plain">{DATE}</div>
 {land_table(rows('107', '73', '156', '12'), shozai=ink('Ａ市Ｂ町一丁目'))}
@@ -178,9 +180,10 @@ RAN_CSS = (
     '.ran { padding: 46px 60px 26px; }'
     '.rt { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin-bottom: 12px; }'
     'table.rz { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }'
-    'table.rz td { border: 1.5px solid #111; height: 84px; font-size: 22px; text-align: center; vertical-align: middle; }'
-    'table.rz td.head { height: 60px; font-size: 21px; }'
+    'table.rz td { border: 1.5px solid #111; height: 101px; font-size: 22px; text-align: center; vertical-align: middle; }'
+    'table.rz td.head { height: 101px; font-size: 21px; }'
     'table.rz td.ans { text-align: left; padding-left: 28px; }'
+    'table.rz.narrow { width: 743px; }'
     'table.rz td.diag { background: linear-gradient(to top right, transparent calc(50% - 1px), #111 50%, transparent calc(50% + 1px)); }'
     f'.ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; }}'
     '.cap { text-align: center; font-size: 17px; color: #555; margin-top: 22px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }')
@@ -202,7 +205,7 @@ def zahyou_table(rows_):
 def anaume_table(items):
     """穴埋めの欄。答案用紙の第3欄のとおり、記号と記入欄を1組ずつ縦に並べる（ア〜オの5行）。items: [(記号, 答え)]"""
     trs = ''.join(f'<tr><td>{m}</td><td class="ans">{ink(a)}</td></tr>' for m, a in items)
-    return ('<table class="rz"><colgroup><col style="width:15%"><col style="width:85%"></colgroup>'
+    return ('<table class="rz narrow"><colgroup><col style="width:14.9%"><col style="width:85.1%"></colgroup>'
             f'{trs}</table>')
 
 
@@ -211,7 +214,7 @@ DAI3 = [('ア', '不動産'), ('イ', '登記名義人'), ('ウ', '書面'), ('�
 dai1 = ran_page('第1欄', zahyou_table(DAI1), '令和2年度 土地家屋調査士試験 第21問 第1欄（問1　Ｂ点、Ｇ点及びＨ点の座標値）解答例')
 dai3 = ran_page('第3欄', anaume_table(DAI3), '令和2年度 土地家屋調査士試験 第21問 第3欄（問3　登記識別情報の説明のア〜オ）解答例')
 
-exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
     pg = browser.new_page(viewport={'width': 1200, 'height': 100})
