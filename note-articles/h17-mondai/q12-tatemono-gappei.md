@@ -54,7 +54,11 @@
 
 したがって、賃借権登記の内容がどれだけ同一であっても、56条5号の原則どおり合併登記をすることができず、「同一の賃借権の登記がある建物相互間においては、合併の登記をすることができない」とするウは正しい記述です。
 
-ここで見落としやすいのは、ウの事案では甲建物と乙建物の所有権登記名義人が同一で、かつ主従の関係もあるという点です。主従の関係があれば附属合併の要件自体は満たしていますが、56条5号は、56条2号（名義人の相違）や56条1号（共用部分である旨の登記）とは別個独立の制限事由であり、主従の関係が認められることとは無関係に働きます。つまり、名義人が一致し主従の関係もある建物同士であっても、賃借権の登記という別の要件で合併が妨げられることがあるのです。
+ここで見落としやすいのは、ウの事案では甲建物と乙建物の所有権登記名義人が同一で、かつ主従の関係もあるという点です。
+
+主従の関係があれば附属合併の要件自体は満たしていますが、56条5号は、56条2号（名義人の相違）や56条1号（共用部分である旨の登記）とは別個独立の制限事由であり、主従の関係が認められることとは無関係に働きます。
+
+つまり、名義人が一致し主従の関係もある建物同士であっても、賃借権の登記という別の要件で合併が妨げられることがあるのです。
 
 **たとえば**、同じ賃借人に、同じ契約日・同じ条件で賃貸している倉庫2棟があったとします。
 
@@ -88,7 +92,7 @@
 
 - **ア（誤）** 敷地（土地）の所有権登記名義人の相違は建物合併の制限事由ではない（建物自体の所有者相違を問題にする）
 - **イ（誤）** 表示に関する登記は相続人が自己の名で申請でき、事前の相続登記は不要
-- **ウ（正）** 賃借権の登記は合併登記の制限の特例（規則131条）の対象外であり、内容が同一でも合併の妨げになる
+- **ウ（正）** 賃借権の登記は合併登記の制限の特例の対象外であり、内容が同一でも合併の妨げになる
 - **エ（誤）** 区分建物同士の合併（区分合併）に必要なのは接続のみで、主従関係は不要
 - **オ（正）** 共用部分である旨の登記がある建物は、主従関係があっても合併登記できない
 
@@ -116,7 +120,7 @@
 
 ## 見出し画像用フレーズ
 
-- 敷地の所有者が違っても、合併できるって知ってた?
+- 敷地の所有者が違っても、合併できるって知ってた？
 - 名義人が死亡していても、相続登記なしで申請できるんです
 - 賃借権登記の内容が同じでも、合併はできないんです
 - 区分建物同士なら、主従関係がなくても合併できるんです
@@ -166,6 +170,22 @@ kanji 号・権・地・建・物・登・記・所・証・相・続・従・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -190,26 +210,29 @@ Subtitle (smaller, centered, 1行):
 制限事由にならない事情
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地の所有者違いは制限外
 Illustration: 同じ敷地の上に建つ二棟の倉庫のアイソメトリックイラスト。倉庫にはどちらも同じ「子」のラベルを付け、足元の土地には「親」のラベルを付ける。土地の名義人相違の部分には赤い×印、建物の名義人一致の部分には緑の○印を添える。
+Words allowed inside this illustration (verbatim, nothing else):
+「子」「親」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 建物名義が一致でOK
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 死亡後も相続登記なしで申請可
 Illustration: 「亡父」のラベルが付いた建物二棟から、相続を証する書類を持つ「子」のアイコンへ矢印が伸びるイラスト。矢印の途中に「相続登記」と書かれた看板があり、その看板に赤い×印を重ねる。
+Words allowed inside this illustration (verbatim, nothing else):
+「亡父」「子」「相続登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 相続登記は不要
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物は接続のみで合併可
 Illustration: マンションの「101号室」と「102号室」が壁続きで接しているアイソメトリックイラスト。二室の間に「主従関係なし」というラベルを薄いグレーで添えつつ、接続部分には緑のチェックマークを重ねる。
+Words allowed inside this illustration (verbatim, nothing else):
+「101号室」「102号室」「主従関係なし」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 接続のみで合併可
 
@@ -217,18 +240,21 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 実際に合併登記を制限する要件
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 賃借権登記は合併の妨げになる
 Illustration: 二棟の建物にそれぞれ「賃借権登記」の書類アイコンを添え、両方の書類の「登記の目的」「受付年月日」「受付番号」「登記原因」の4項目がすべて一致することを示す緑のチェックマークを付けつつも、建物全体には合併不可を示す赤い×印を重ね、「131条の例外は担保権・信託のみ」という小さな注記を添える。
+Words allowed inside this illustration (verbatim, nothing else):
+「賃借権登記」「登記の目的」「受付年月日」「受付番号」「登記原因」
+「131条の例外は担保権・信託のみ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 内容一致でも合併不可
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 共用部分の建物は合併不可
 Illustration: 「共用部分である旨の登記」のラベルが付いたマンションの集会室と、別の専有部分の附属建物とのアイソメトリックイラスト。両者の間に主従関係を示す矢印を描きつつ、集会室の建物には赤い×印を重ねる。
+Words allowed inside this illustration (verbatim, nothing else):
+「共用部分である旨の登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 主従関係でも不可
 
@@ -240,10 +266,13 @@ verify 号・権・地・建・物・登・記・所・証・相・続・従・�
 in standard Japanese form. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form.
 Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, that badge numbers run 1-5 continuously across both
-columns without resetting, confirm there is no intro illustration or
+missing cards, confirm that no card carries a number, numbered circle
+or any numbering, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
-card contains a full sentence of explanatory prose. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+card contains a full sentence of explanatory prose. Confirm that no
+illustration contains any text other than its "Words allowed" words
+(no inscriptions on stones or signs, no pseudo-writing) and that each
+allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -306,6 +335,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -321,7 +359,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成17年度第12問 作図ガイド（建物の合併登記）
+平成17年度 第12問 作図ガイド（建物の合併登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

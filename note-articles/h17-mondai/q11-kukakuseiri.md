@@ -42,7 +42,9 @@
 
 これに対し、換地計画において対応する換地の部分を定められなかった従前の宅地についての権利は、公告があった日が終了した時に消滅します（土地区画整理法104条）。
 
-権利が消滅した以上、その従前の宅地についての登記記録も、換地処分に伴う登記の手続の中で閉鎖されることになります。権利の消滅は土地区画整理法104条1項に定めがありますが、登記記録を閉鎖する手続の根拠規定は、本記事では条文で確認できていません。したがって、イは正しい記述です。
+権利が消滅した以上、その従前の宅地についての登記記録も、換地処分に伴う登記の手続の中で閉鎖されることになります。
+
+権利の消滅は土地区画整理法104条1項に定めがありますが、登記記録を閉鎖する手続の根拠規定は、本記事では条文で確認できていません。したがって、イは正しい記述です。
 
 **たとえば**、Ａさんが所有していた従前の宅地が、区画整理の結果、道路や公園などの公共用地として使われることになり、対応する換地が定められなかったとします。
 
@@ -162,6 +164,22 @@ kanji 権・地・番・建・物・登・記・所, which appear repeatedly bel
 render each in its standard Japanese (Jōyō) form, never the Simplified
 Chinese variant.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -186,25 +204,28 @@ Subtitle (smaller, centered, 1行):
 誰が登記するか
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 未登記地は施行者が代位申請
 Illustration: An isometric character wearing a construction helmet
-(labeled 施行者) holding a document labeled 代位申請 and submitting it
-at a government building icon (法務局). A second character labeled
-所有者 stands behind, simply watching, not holding any document.
+(labeled「施行者」) holding a document labeled「代位申請」and submitting
+it at a government building icon labeled「法務局」. A second character
+labeled「所有者」stands behind, simply watching, not holding any
+document.
+Words allowed inside this illustration (verbatim, nothing else):
+「施行者」「代位申請」「法務局」「所有者」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代位申請OK
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 分筆は所有者の義務ではない
 Illustration: A single land-plot icon split by a dashed line into two
 plots. Next to it, an isometric character wearing a construction helmet
-(labeled 施行者) holds a document labeled 分筆の手続. The 所有者
-character stands apart with a red prohibition (no-entry) mark over a
-label reading 申請不要.
+(labeled「施行者」) holds a document labeled「分筆の手続」. The character
+labeled「所有者」stands apart with a red prohibition (no-entry) mark over
+a label reading「申請不要」.
+Words allowed inside this illustration (verbatim, nothing else):
+「施行者」「分筆の手続」「所有者」「申請不要」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 申請義務なし
 
@@ -212,37 +233,40 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 いつ登記できるか
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 仮換地建物は予定地番も併記可
-Illustration: An isometric house standing on a plot labeled 仮換地.
+Illustration: An isometric house standing on a plot labeled「仮換地」.
 Next to the house, a document/label icon shows the text
 「所在：現在の地番（予定地番　○番）」, with the bracketed part
 (予定地番　○番) enclosed in a dashed outline to emphasize that it is
 written in parentheses alongside the current lot number.
+Words allowed inside this illustration (verbatim, nothing else):
+「仮換地」「所在：現在の地番（予定地番　○番）」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 括弧書きでOK
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 換地なし従前地は権利消滅
 Illustration: A two-panel timeline. Left panel: a land plot icon
-labeled 従前の宅地 with an official stamp reading 公告 being pressed
+labeled「従前の宅地」with an official stamp reading「公告」being pressed
 onto it. Right panel: the same plot icon now grayed out/faded, next
-to a registry-book icon stamped in red with 閉鎖.
+to a registry-book icon stamped in red with「閉鎖」.
+Words allowed inside this illustration (verbatim, nothing else):
+「従前の宅地」「公告」「閉鎖」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 登記記録も閉鎖
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 保留地は換地処分後に登記可
-Illustration: A land-plot icon labeled 保留地 with a padlock icon
+Illustration: A land-plot icon labeled「保留地」with a padlock icon
 overlaid on it. A horizontal timeline arrow beneath shows three
-stages in order: 換地処分の公告 → 翌日 → 表題登記が可能。 Before the
-first stage, the plot icon carries a red prohibition mark labeled
-表題登記不可.
+stages in order:「換地処分の公告」→「翌日」→「表題登記が可能」。Before
+the first stage, the plot icon carries a red prohibition mark labeled
+「表題登記不可」.
+Words allowed inside this illustration (verbatim, nothing else):
+「保留地」「換地処分の公告」「翌日」「表題登記が可能」「表題登記不可」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 公告後に申請可
 
@@ -254,10 +278,13 @@ attention to 権・地・番・建・物・登・記・所 in words such as 地�
 予定地番, 登記, 表題登記, 登記記録, 登記所, 権利, 建物, 施行者 — if any
 character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the number of cards equals 5
-exactly, with no duplicated or missing cards, that badge numbers run 1-5
-continuously across both columns without resetting, confirm there is no
+exactly, with no duplicated or missing cards, confirm that no card
+carries a number, numbered circle or any numbering, confirm there is no
 intro illustration or paragraph block between the header and the cards,
-and confirm that no card contains a full sentence of explanatory prose. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+and confirm that no card contains a full sentence of explanatory prose.
+Confirm that no illustration contains any text other than its "Words
+allowed" words (no inscriptions on stones or signs, no pseudo-writing)
+and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -317,6 +344,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -332,7 +368,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-平成17年度第11問 作図ガイド（土地区画整理事業の登記）
+平成17年度 第11問 作図ガイド（土地区画整理事業の登記）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
