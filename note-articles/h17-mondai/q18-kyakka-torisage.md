@@ -161,6 +161,22 @@ kanji 却・添・書・還・偽・造・請・記・筆・個・別・対 — 
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -185,7 +201,6 @@ Subtitle (smaller, centered, 1行):
 却下されたときの書類の扱い
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 却下でも添付書面は還付
 Illustration: An isometric registry clerk handing back a stack of
@@ -193,6 +208,8 @@ documents labeled「添付書面」to an applicant across a counter. One
 document marked with a torn red paper label「偽造書面等」has a red cross
 mark over it and is kept separately, locked inside a drawer/box, showing
 it is excluded from the return.
+Words allowed inside this illustration (verbatim, nothing else):
+「添付書面」「偽造書面等」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 原則として還付
 
@@ -200,29 +217,30 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 取下げの自由とその限界
 
 --- COLUMN B, CARD 2 ---
-Badge: a filled blue circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 不正の疑いでも取下げ可能
 Illustration: An isometric magnifying glass icon labeled「不正の疑い」
 hovering over a document, next to a person confidently pulling back a
 paper labeled「取下げ」, with an open unblocked arrow showing the action
 is not obstructed by any wall or barrier icon.
+Words allowed inside this illustration (verbatim, nothing else):
+「不正の疑い」「取下げ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 取下げは制限されない
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 事前通知後も回答前に取下げ可
 Illustration: An isometric envelope labeled「事前通知」sent from a
 registry office to a house icon labeled「登記名義人」, with a dotted
 clock icon labeled「回答前」, while a person pulls back a document
 labeled「取下げ」at the same time via an unblocked arrow.
+Words allowed inside this illustration (verbatim, nothing else):
+「事前通知」「登記名義人」「回答前」「取下げ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 回答を待たず取下げ可
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 一部の申請だけ取下げ可能
 Illustration: An isometric single combined document labeled「一の申請情報」
@@ -230,17 +248,20 @@ splitting into two separate document icons labeled「分筆の登記」and
 「合筆の登記」; the「合筆の登記」icon is being pulled back by a hand
 labeled「取下げ」, while the「分筆の登記」icon remains stamped and
 untouched beside it.
+Words allowed inside this illustration (verbatim, nothing else):
+「一の申請情報」「分筆の登記」「合筆の登記」「取下げ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 申請ごとに個別対応
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 登記完了後は取下げ不可
 Illustration: An isometric completed registry record book stamped
 「登記完了」, with a hand reaching to pull back a document labeled
 「取下げ」but blocked by a red X-mark barrier icon, indicating the action
 is no longer possible.
+Words allowed inside this illustration (verbatim, nothing else):
+「登記完了」「取下げ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 完了後は取下げ不可
 
@@ -250,12 +271,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no pseudo-writing)
+and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -313,6 +336,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

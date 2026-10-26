@@ -46,7 +46,9 @@
 
 土地所在図に誤りがあるときにその訂正の申出をすることができるのは、表題部所有者若しくは所有権の登記名義人又はこれらの相続人その他の一般承継人に限られています（不動産登記規則88条1項）。
 
-地図の訂正の申出（不動産登記規則16条1項）も、訂正を申し出られるのは当該土地の表題部所有者・所有権の登記名義人・その相続人等に限られており、土地所在図の訂正の申出も同じ考え方で、登記上の権利者側に限定されています。「何人も」訂正の申出をすることができるとするウは、この点で誤った記述です。
+地図の訂正の申出（不動産登記規則16条1項）も、訂正を申し出られるのは当該土地の表題部所有者・所有権の登記名義人・その相続人等に限られており、土地所在図の訂正の申出も同じ考え方で、登記上の権利者側に限定されています。
+
+「何人も」訂正の申出をすることができるとするウは、この点で誤った記述です。
 
 **たとえば**、自分の土地の分筆登記に添付されていた土地所在図に誤記が見つかったとき、その登記の表題部所有者や所有権の登記名義人、またはその相続人であれば訂正を申し出ることができます。
 
@@ -158,6 +160,22 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・記・録・登・所 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -182,38 +200,41 @@ Subtitle (smaller, centered, 1行):
 作成のルール
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 隣地の地番も記録事項
 Illustration: An isometric land plot survey diagram with a checklist
 board listing exactly these four items in this order (do not
-duplicate, omit, or paraphrase any item): 1. 方位　2. 縮尺
-3. 土地の形状　4. 隣地の地番. A dashed border shows the neighboring
-plot, labeled 隣地, each item on the checklist carrying a small green
+duplicate, omit, or paraphrase any item): 1.「方位」　2.「縮尺」
+3.「土地の形状」　4.「隣地の地番」. A dashed border shows the neighboring
+plot, labeled「隣地」, each item on the checklist carrying a small green
 checkmark.
+Words allowed inside this illustration (verbatim, nothing else):
+「方位」「縮尺」「土地の形状」「隣地の地番」「隣地」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 方位・縮尺・形状・隣地地番
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 市街地の縮尺は250分の1
 Illustration: Isometric city buildings and houses next to a
 ruler/scale icon showing exactly these two values (do not duplicate,
-omit, or paraphrase any item): 1. 250分の1　2. 500分の1. A large red X
-is drawn over the number 200分の1 to show it is not a valid choice.
+omit, or paraphrase any item): 1.「250分の1」　2.「500分の1」. A large red X
+is drawn over the label「200分の1」to show it is not a valid choice.
+Words allowed inside this illustration (verbatim, nothing else):
+「250分の1」「500分の1」「200分の1」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 200分の1はダメ
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 書面図面には作成日・署名が必要
 Illustration: An isometric paper document with a stamp and a
 signature line, labeled with exactly these three required items (do
-not duplicate, omit, or paraphrase any item): 1. 作成の年月日
-2. 申請人の記名　3. 作成者の署名又は記名押印. A small calendar icon
+not duplicate, omit, or paraphrase any item): 1.「作成の年月日」
+2.「申請人の記名」　3.「作成者の署名又は記名押印」. A small calendar icon
 sits beside the document, each item carrying a small green checkmark.
+Words allowed inside this illustration (verbatim, nothing else):
+「作成の年月日」「申請人の記名」「作成者の署名又は記名押印」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 記名・署名が必須
 
@@ -221,26 +242,28 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 訂正・兼用のルール
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 訂正申出は限られた人だけ
 Illustration: An isometric scene at a registry office window. Two
-figures labeled 表題部所有者 and 所有権の登記名義人 are handing in a
+figures labeled「表題部所有者」and「所有権の登記名義人」are handing in a
 correction request document with green checkmarks. A third figure
-labeled 第三者 is stopped by a barrier/gate icon in front of the window
+labeled「第三者」is stopped by a barrier/gate icon in front of the window
 with a red cross mark.
+Words allowed inside this illustration (verbatim, nothing else):
+「表題部所有者」「所有権の登記名義人」「第三者」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 何人もはダメ
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積測量図が土地所在図を兼ねる
-Illustration: Two isometric documents, one labeled 地積測量図 and one
-labeled 土地所在図, merging into a single overlapping sheet with an
+Illustration: Two isometric documents, one labeled「地積測量図」and one
+labeled「土地所在図」, merging into a single overlapping sheet with an
 equals sign between them. Two checkmark icons beside them list exactly
 these two conditions (do not duplicate, omit, or paraphrase any item):
-1. 縮尺が同一であること　2. 土地の所在を明確に表示できること.
+1.「縮尺が同一であること」　2.「土地の所在を明確に表示できること」.
+Words allowed inside this illustration (verbatim, nothing else):
+「地積測量図」「土地所在図」「縮尺が同一であること」「土地の所在を明確に表示できること」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 条件満たせば兼用可
 
@@ -250,15 +273,17 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance. Confirm the enumerated lists inside Card 1 (4 items),
 Card 2 (2 items), Card 3 (3 items), and Card 5 (2 items) each show the
 exact count and text specified above, with nothing added, removed, or
-reworded. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+reworded. Confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no pseudo-writing)
+and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -317,6 +342,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
