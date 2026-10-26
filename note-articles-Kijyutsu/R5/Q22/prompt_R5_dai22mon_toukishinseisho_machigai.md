@@ -2,7 +2,7 @@
 
 note記事「【土地家屋調査士受験生向け】令和5年度問題22（建物）〜区分合併と床面積の恐怖〜」第4章、藍子が『令和5年10月6日 増築、3番9の2を合併』と誤答し、トリ先生が「構造変更が抜けてるわよ！」と訂正し終えた直後に挿入する画像。
 
-**生成済み（2026-09-29）**：`zu/R5_dai22mon_toukishinseisho_machigai.png`（横1200pxの縦長。3コマを縦に積む）とHTML。作成スクリプトは `zu/make_R5_dai22mon_shinseisho_gazou.py`。**完成形（`prompt_R5_dai22mon_toukishinseisho_gazou.md`）の一部分だけを取り出し、誤答→添削→正解の過程を1枚で見せる。**
+**生成済み（2026-09-29。2026-10-26に区分した建物の表示の見出し・データ行の高さを答案用紙の罫線から測った値〈123px・156px〉に直した）**：`zu/R5_dai22mon_toukishinseisho_machigai.png`（横1200pxの縦長。3コマを縦に積む）とHTML。作成スクリプトは `zu/make_R5_dai22mon_shinseisho_gazou.py`。**完成形（`prompt_R5_dai22mon_toukishinseisho_gazou.md`）の一部分だけを取り出し、誤答→添削→正解の過程を1枚で見せる。**
 
 ※画像生成AI（Midjourney、DALL·E など）は文字中心の画像や添削記号の正確な配置に向きません。完成形と同じくHTML＋ヘッドレスブラウザでPNGに書き出す方式です。Claude（ファイル作成とコード実行ができる環境）で使ってください。
 

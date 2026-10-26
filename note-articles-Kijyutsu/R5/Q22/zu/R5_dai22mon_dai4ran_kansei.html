@@ -14,9 +14,18 @@ table.t { width: 100%; border-collapse: collapse; border: 3px solid #111; table-
 table.t td { border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }
 table.t td.vert { writing-mode: vertical-rl; text-align: center; letter-spacing: 0.35em; padding: 0; font-size: 21px; }
 table.t td.lab2 { text-align: center; font-size: 18px; }
-table.t td.head { text-align: center; font-size: 17px; height: 76px; }
-table.t td.val { height: 52px; }
+table.t td.head { text-align: center; font-size: 17px; }
 table.t td.entry { height: 128px; }
+/* 行の高さは答案用紙（PDF）の罫線から測った値（表の幅472pt＝1080px、倍率2.288）。ittou：所在の2段65・名称52・見出し68・データ139、
+   mokuteki：見出し117・データ195、kubun：見出し123・データ156、shiki：見出し123・データ195 */
+table.ittou td.val { height: 65px; } table.ittou td.nm { height: 52px; } table.ittou td.head { height: 68px; }
+table.ittou td.entry { height: 139px; }
+table.mokuteki td.head { height: 117px; } table.mokuteki td.entry { height: 195px; }
+table.kubun td.head { height: 123px; } table.kubun td.entry { height: 156px; }
+table.shiki td.head { height: 123px; } table.shiki td.entry { height: 195px; }
+/* 申請書の記入欄の最低の高さ（答案用紙の枠の高さ57pt・79pt・57pt・44pt、左の列の枠408pt＝910px、倍率2.23） */
+.box.h-mokuteki { min-height: 126px; } .box.h-tenpu { min-height: 177px; } .box.h-shinsei { min-height: 126px; }
+.box.h-menkyo { min-height: 97px; }
 table.t td.center { text-align: center; }
 table.t td.int { text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }
 table.t td.dec { text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }
@@ -29,7 +38,7 @@ table.t td.omitcell { position: relative; vertical-align: bottom; padding-bottom
             background: #fff; font-size: 17px; line-height: 37px; padding-left: 10px; white-space: nowrap; z-index: 2; }
 table.stack { margin-top: 0; border-top: none; }
 table.g { border-collapse: collapse; table-layout: fixed; width: 100%; }
-table.g td { border: 2px solid #111; height: 76px; font-size: 24px; }
+table.g td { border: 2px solid #111; height: 102px; font-size: 24px; }
 table.g td.k { text-align: center; }
 table.g td.v { padding-left: 22px; }
 table.g td.none { border-left: 2px solid #111; border-right: none; border-bottom: none; }
@@ -58,6 +67,5 @@ table.g td.none { border-left: 2px solid #111; border-right: none; border-bottom
 .check { position: absolute; right: -14px; top: -22px; }
 </style></head><body><div class="page">
 <div style="font-size:26px;font-weight:bold;font-family:'Noto Sans CJK JP',sans-serif;margin-bottom:10px">第4欄</div>
-<table class="g"><colgroup><col style="width:12%"><col style="width:38%"><col style="width:12%"><col style="width:38%">
-</colgroup><tr><td class="k">①</td><td class="v"><span class="ink">規約証明書</span></td><td class="k">②</td><td class="v"><span class="ink">敷地権</span></td></tr><tr><td class="k">③</td><td class="v"><span class="ink">敷地利用権</span></td><td class="k">④</td><td class="v"><span class="ink">分離</span></td></tr><tr><td class="k">⑤</td><td class="v"><span class="ink">処分</span></td><td class=none colspan=2></td></tr></table>
+<table class="g"><colgroup><col style="width:10.8%"><col style="width:39.5%"><col style="width:10.6%"><col style="width:39.1%"></colgroup><tr><td class="k">①</td><td class="v"><span class="ink">規約証明書</span></td><td class="k">②</td><td class="v"><span class="ink">敷地権</span></td></tr><tr><td class="k">③</td><td class="v"><span class="ink">敷地利用権</span></td><td class="k">④</td><td class="v"><span class="ink">分離</span></td></tr><tr><td class="k">⑤</td><td class="v"><span class="ink">処分</span></td><td class=none colspan=2></td></tr></table>
 <div class="caption">令和5年度 土地家屋調査士試験 第22問 第4欄（問4）解答例</div></div></body></html>
