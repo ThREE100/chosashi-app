@@ -36,6 +36,13 @@ td.note2 { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 
 .bubrow { margin: 14px 0 0; text-align: right; }
 .bubrow .bubble { text-align: left; }
 .good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+/* 問1・問4の解答欄の行の高さ（表のセルの height は最小の高さとして働く。原本の行は問1が15mm・問4が14mm） */
+table.t td.q1 { height: 110px; font-size: 24px; }
+table.t td.q1a { font-size: 28px; padding-left: 40px; }
+.q1w { display: flex; justify-content: space-between; align-items: baseline; }
+.dok { font-size: 22px; }
+table.t td.q4 { height: 84px; font-size: 24px; }
+table.t td.q4a { font-size: 26px; padding-left: 28px; }
 .tall { min-height: 1300px; display: flex; flex-direction: column; justify-content: space-around; }
 </style></head><body><div class="tall">
 <div class="panel"><div class="ptitle ng">①誤答（申請人）</div><div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:96px"><span class="ink">A市B町四丁目6番3－701号　白石恵<br>A市C町三丁目5番1号　安田結</span></div></div></div>
