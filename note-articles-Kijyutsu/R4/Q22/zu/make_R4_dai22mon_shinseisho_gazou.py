@@ -120,9 +120,9 @@ def entry_row(shu, kind, struct, floors, genin):
 EMPTY_ROW = ('<tr><td class="entry" colspan="2"></td><td class="entry" colspan="2"></td><td class="entry"></td>'
              '<td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr>')
 
-S_OLD = '木造スレー<br>トぶき平家<br>建'
-S_NEW = '木造スレー<br>トぶき２階<br>建'
-S_GAR = '鉄骨造亜鉛<br>メッキ鋼板<br>ぶき平家建'
+S_OLD = '木造スレートぶき<br>平家建'
+S_NEW = '木造スレートぶき<br>２階建'
+S_GAR = '鉄骨造亜鉛メッキ<br>鋼板ぶき平家建'
 GENIN_OK = '①②③令和４年９月30日<br>種類・構造変更、増築、<br>符号１の附属建物合体'
 
 ROW1 = entry_row(ink('主'), ink('事務所'), ink(S_OLD), [('', '72', '00')], '')
@@ -176,8 +176,8 @@ def snippet(row2, row1=ROW1, good=False):
 NG = '③令和４年９月30日増築、<br>符号１の附属建物合体'
 FIX = (f'<span class="caret">∨①②</span><span class="ink">③令和４年９月30日</span><br>'
        f'<span class="caret">∨種類・構造変更、</span><span class="ink">増築、</span><br><span class="ink">符号１の附属建物合体</span>')
-S_OLD_FIX = ink('木造スレー<br>トぶき') + '<span class="circle">' + ink('平家') + '</span><br>' + ink('建')
-S_NEW_FIX = ink('木造スレー<br>トぶき') + '<span class="circle">' + ink('２階') + '</span><br>' + ink('建')
+S_OLD_FIX = ink('木造スレートぶき<br>') + '<span class="circle">' + ink('平家建') + '</span>'
+S_NEW_FIX = ink('木造スレートぶき<br>') + '<span class="circle">' + ink('２階建') + '</span>'
 ROW1_FIX = entry_row(ink('主'), f'<span class="circle">{ink("事務所")}</span>', S_OLD_FIX,
                      [('', '72', '00')], '')
 ng_panel = snippet(entry_row('', ink('居宅'), ink(S_NEW), [('1階', '113', '00'), ('2階', '25', '00')], ink(NG)))

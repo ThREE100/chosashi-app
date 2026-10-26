@@ -86,7 +86,7 @@ check('所在は5番地3だけ', '所在は『A市B町一丁目5番地3』だけ
 check('建物図面の距離（主）', '『3.0』『3.0』『2.0』')
 check('建物図面の距離（車庫）', '『1.0』『1.0』『2.0』')
 check('東側の2.0は南東の角から', '東側の2.0は、主である建物も車庫も、南東の角から測っている')
-check('北東の角からだと約2.4', '車庫なら北東の角から辺BCまでは約2.4メートル')
+check('北東の角からだと約2.8・約2.4', '主である建物なら北東の角から辺BCまで約2.8メートル、車庫なら約2.4メートル')
 
 # ---- 1階：元の附属建物5.00×5.00＋増築部分4.00×4.00＋元の主である建物9.00×8.00（壁心。注7の0.15は引かない）----
 F1 = [(0, 3), (5, 3), (5, 4), (9, 4), (9, 0), (18, 0), (18, 8), (0, 8)]
@@ -120,7 +120,7 @@ assert wrong == 20.91 and round(wrong - w_g * h_g, 2) == 0.91
 check('藍子の誤答', '5.10かける4.10で、20.91平方メートル！')
 check('胴縁の中心から柱の外面', '胴縁の中心から柱の外面までは、胴縁の厚さの半分の0.05メートル')
 check('柱の外面の寸法', '横は5.10引く0.10で5.00メートル、縦は4.10引く0.10で4.00メートル。5.00かける4.00で、20.00平方メートルです')
-check('差', '0.91平方メートルも差がつく')
+check('差', 'その差の0.91平方メートルが、この問題の差のつくところ')
 check('車庫 求積表', '5.00 × 4.00 ＝ 20.0000\n- 合計：20.0000 （床面積：20.00平方メートル）')
 
 # ---- 問2（第2欄）・問3（第3欄）----
@@ -253,18 +253,32 @@ for bad in ['✕', '✓', '名変', '奥側', '手前側']:
 from PIL import Image
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
-PNGS = [('工事前（家屋番号5番3', 'R4_dai22mon_zu01_kouji_zengo', (1600, 1000)),
+PNGS = [('時系列の図', 'R4_dai22mon_zu01_jikeiretsu', (1600, 760)),
+        ('工事前（家屋番号5番3', 'R4_dai22mon_zu02_kouji_zengo', (1600, 1000)),
+        ('問2の判断の図', 'R4_dai22mon_zu03_ikko_tatemono', (1700, 840)),
         ('第2欄（問2）の完成形', 'R4_dai22mon_dai2ran_kansei', 'wide'),
-        ('本件土地をA・B・C・D点で結んだ台形', 'R4_dai22mon_zu02_shikichi_henchou', (1600, 1100)),
-        ('建物図面の完成形（答案用紙の第4欄の建物図面の枠の中', 'R4_dai22mon_zu03_tatemono_zumen', (1600, 1400)),
-        ('1階の床面積求積図', 'R4_dai22mon_zu04_1kai_kyuuseki', (1600, 1100)),
-        ('2階の床面積求積図', 'R4_dai22mon_zu05_2kai_kyuuseki', (1600, 1100)),
-        ('車庫の誤り比較図', 'R4_dai22mon_zu06_shako_ayamari_hikaku', (1600, 950)),
-        ('各階平面図の完成形（答案用紙の第4欄の各階平面図の枠の中', 'R4_dai22mon_zu07_kakukai_heimenzu', (1800, 1100)),
+        ('本件土地をA・B・C・D点で結んだ台形', 'R4_dai22mon_zu04_shikichi_henchou', (1600, 1100)),
+        ('斜めの辺BCまでの距離は角ごとに違う', 'R4_dai22mon_zu05_shahen_kyori', (1600, 1000)),
+        ('建物と車庫の位置を座標で確かめる図', 'R4_dai22mon_zu06_shozai_kakunin', (1800, 950)),
+        ('建物図面の完成形（答案用紙の第4欄の建物図面の枠の中', 'R4_dai22mon_zu07_tatemono_zumen', (1600, 1400)),
+        ('注の仕分けの図', 'R4_dai22mon_zu08_chuu_shiwake', (1800, 1250)),
+        ('壁の測り方の図', 'R4_dai22mon_zu09_hekishin', (1700, 840)),
+        ('1階の床面積求積図', 'R4_dai22mon_zu10_1kai_kyuuseki', (1600, 1100)),
+        ('2階の床面積求積図。元の附属建物', 'R4_dai22mon_zu11_2kai_kyuuseki', (1600, 900)),
+        ('2階の各階平面図の考え方の図', 'R4_dai22mon_zu12_tensen', (1700, 840)),
+        ('車庫の誤り比較図', 'R4_dai22mon_zu13_shako_ayamari_hikaku', (1600, 950)),
+        ('問題の図4の3本の線の見分け方の図', 'R4_dai22mon_zu14_san_bon_no_sen', (1800, 950)),
+        ('各階平面図の完成形（答案用紙の第4欄の各階平面図の枠の中', 'R4_dai22mon_zu15_kakukai_heimenzu', (1800, 1100)),
+        ('添付書類の要否の表', 'R4_dai22mon_zu16_tenpu_shorui', (1700, 860)),
+        ('同じ「5の3」でも書き方が違う', 'R4_dai22mon_zu17_juusho_shozai', (1700, 740)),
+        ('登録免許税の図', 'R4_dai22mon_zu18_touroku_menkyozei', (1700, 780)),
         ('「原因及びその日付」欄の①誤答', 'R4_dai22mon_toukishinseisho_machigai', 'tall'),
+        ('符号の付け方の図', 'R4_dai22mon_zu19_fugou_tsukekata', (1700, 860)),
         ('登記申請書（問1）の完成形', 'R4_dai22mon_toukishinseisho_kansei', 'tall'),
+        ('④の言葉の見分け方の図', 'R4_dai22mon_zu20_kengen', (1700, 820)),
+        ('付合の流れの図', 'R4_dai22mon_zu21_tsukou', (1700, 900)),
         ('第3欄（問3）の完成形', 'R4_dai22mon_dai3ran_kansei', 'wide'),
-        ('本番で解く順番の整理図', 'R4_dai22mon_zu08_toku_junban', (1600, 800))]
+        ('本番で解く順番の整理図', 'R4_dai22mon_zu22_toku_junban', (1600, 800))]
 ok = len(markers) == len(PNGS) and all(k in m for m, (k, _, _) in zip(markers, PNGS))
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'画像挿入マーカーとPNGの対応（記事の順） : {len(markers)}か所／{len(PNGS)}枚')
@@ -287,7 +301,7 @@ check('問2 ア〜エの語', 'ア＝効用上一体、イ＝所有者の意思�
 check('問3 ①〜④の語', '①所有者、②従、③付合、④権原ですね')
 # ---- 図面の完成形は答案用紙の第4欄の枠の中・各階平面図の完成形・解く順番（2026-10-02追加）----
 for n in ['### 答案用紙の欄の枠', '「建　物　図　面」', '「申　請　人」（「（略）」と印刷）', '「作　成　者」（「（略）」「（令和4年○月○日作成）」）',
-          '試験の答案用紙（`touan_youshi/R4_dai22mon_touan_youshi.pdf`', '「主である建物」「１階」「（略）」が印刷', '## 図7：各階平面図の完成形', '## 図8：本番で解く順番の整理図',
+          '試験の答案用紙（`touan_youshi/R4_dai22mon_touan_youshi.pdf`', '「主である建物」「１階」「（略）」が印刷', '## 図15：各階平面図の完成形', '## 図22：本番で解く順番の整理図',
           '主である建物の1階の形と求積表は書かない（問題文の注4'] :
     check('解説図プロンプト（第4欄の枠・図7・図8）', n, fig, '解説図')
 check('解く順番（計算のいらない欄）', '計算がいるのは、変更後の主である建物の1階113.00・2階25.00と、車庫の20.00の3か所だけ')
@@ -308,12 +322,12 @@ def html_has(name, *needles):
 h = html_has('R4_dai22mon_toukishinseisho_kansei', '建物表題部変更登記', '建物図面　各階平面図　所有権証明書　代理権限証書',
              '令和４年10月17日　申請　　Ｅ地方法務局', 'Ａ市Ｂ町一丁目５番３号　和田令子', 'Ａ市Ｂ町一丁目５番地３', '５番３',
              '原因及びその日付', '事務所', '居宅', '倉庫', '車庫', '>72<', '1階　113', '2階　25', '>20<', '符号１', '符号２',
-             '①②③令和４年９月30日種類・<br>構造変更、増築、符号１の附属<br>建物合体', '令和４年９月30日主である<br>建物に合体',
-             '令和４年９月30日新築', '鉄骨造亜鉛<br>メッキ鋼板<br>ぶき平家建')
+             '①②③令和４年９月30日<br>種類・構造変更、増築、<br>符号１の附属建物合体', '令和４年９月30日主である<br>建物に合体',
+             '令和４年９月30日新築', '鉄骨造亜鉛メッキ<br>鋼板ぶき平家建')
 for bad in ['登録免許税', '住所証明書', '登記識別情報', '20.91', '登記原因及びその日付', '建物合体登記']:
     absent('申請書のHTML', bad, h, '申請書HTML')
-html_has('R4_dai22mon_toukishinseisho_machigai', '③令和４年９月30日増築、符号１<br>の附属建物合体', '∨①②', '∨種類・構造変更、',
-         '①②③令和４年９月30日種類・<br>構造変更、増築、符号１の附属<br>建物合体', '<svg class="check"')
+html_has('R4_dai22mon_toukishinseisho_machigai', '③令和４年９月30日増築、<br>符号１の附属建物合体', '∨①②', '∨種類・構造変更、',
+         '①②③令和４年９月30日<br>種類・構造変更、増築、<br>符号１の附属建物合体', '<svg class="check"')
 html_has('R4_dai22mon_dai2ran_kansei', '第2欄', '効用上一体', '所有者の意思', '1個の建物', '>所有者<')
 html_has('R4_dai22mon_dai3ran_kansei', '第3欄', '>所有者<', '>従<', '>付合<', '>権原<')
 for bad in ['✓', '✕', '横1600']:
@@ -326,7 +340,7 @@ ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'作図の fit はすべて pad_aspect=True : {n_fit}か所')
 for n in ["cell(fig, 0.20, 0.885, 0.46, 0.935, '5番3'", "'A市B町一丁目5番地3', fs=16, ha='left', color=INK)",
           "cell(fig, 0.20, 0.035, 0.74, 0.085, '（略）'", '（令和4年○月○日作成）', "'主である建物　2階'", "'附属建物　符号2'",
-          'R4_dai22mon_zu08_toku_junban']:
+          'R4_dai22mon_zu22_toku_junban']:
     check('作図スクリプト（第4欄の枠・図7・図8）', n, drw, '作図')
 for n in ["scale_cell(fig, 0.83, 0.035, 0.94, 0.085, 500)", "scale_cell(fig, 0.86, 0.06, 0.96, 0.13, 250)",
           "'主である建物', ha='left'", "'1階', ha='left'", "fig.text(0.24, 0.775, '（略）'"]:
@@ -357,7 +371,7 @@ for bad in ['登録免許税', '添付情報', '一棟の建物', '登記原因�
 for n in ['250', '500']:
     check('答案用紙の縮尺の印刷', n, t2, '答案用紙')
 # 申請書の画像の欄名・順序が答案用紙と同じか（登記の目的→添付書類→申請日→申請人→代理人→所在→家屋番号）
-order = [h.find(k) for k in ['登記の目的', '添　付　書　類', '令和４年10月17日', '申　　請　　人', '代　　理　　人', '所　在', '家屋番号']]
+order = [h.find(k) for k in ['登記の目的', '添　付　書　類', '令和４年10月17日', '申　請　人', '代　理　人', '所　在', '家屋番号']]
 ok = all(i >= 0 for i in order) and order == sorted(order)
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'申請書HTMLの欄の順序が答案用紙どおり : {order}')
@@ -380,5 +394,90 @@ ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'タイトル形式（見出し{len(sub)}文字） : ' + title)
 check('見出し画像のサブタイトル', '〜' + sub + '〜', thumb, '見出し画像')
 check('見出し画像のタイトル', '令和4年度問題22（建物）', thumb, '見出し画像')
+
+# ---- 2026-10-26：最新の基準（qa-checklist-kijutsu.md の6-2・6-3）で足した確認 ----
+# 画像の中に図番を書かない：作図スクリプトのタイトルに、この記事の図番「図N」がない（問題の図を指す「図4の…」は、問題の図の番号なので除く）
+bad_titles = re.findall(r"(?:fixed_figure|new_figure|suptitle|set_title)\(\s*'図\d", drw)
+ok = not bad_titles
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'[作図スクリプト] タイトルの先頭に図番がない : {bad_titles}')
+
+# 6-2：まとめのわな20項目（1項目1わな）と、わな→図の対応表（TRAPS）。わなの会話の後ろ3つ以内のマーカーにその図があり、
+# 図のマーカーの直前の段落に決め手の語があること（図が会話から離れていないこと）
+TRAPS = [
+    ('申請の期限', 'まず時系列を整理するわよ', 'R4_dai22mon_zu01_jikeiretsu', '問題文の申請日は10月17日'),
+    ('合体の登記ではなく建物表題部変更登記', '登記の目的は『建物表題部変更登記』1本ですね！', 'R4_dai22mon_zu02_kouji_zengo', '1本ですね'),
+    ('問2のエは種類ではなく', '落ち着きなさい。本物の車庫を思い出して', 'R4_dai22mon_zu03_ikko_tatemono', '代表取締役が令子さんでも'),
+    ('東の辺だけが斜めの台形', '辺の長さも確かめておくわよ', 'R4_dai22mon_zu04_shikichi_henchou', '作図のチェック用'),
+    ('北東の角は遠くなる', '東側の2.0は、主である建物も車庫も', 'R4_dai22mon_zu05_shahen_kyori', '角の位置が北にあるほど遠くなる'),
+    ('所在は5番地3だけ', 'その位置で、所在も確かめておくの', 'R4_dai22mon_zu06_shozai_kakunin', 'どの角も本件土地の4つの辺の内側'),
+    ('どちらの注かを書き分ける', 'さあ本番、各階平面図と床面積よ', 'R4_dai22mon_zu08_chuu_shiwake', '計算は必要よ'),
+    ('壁の中心線で測る', '内法で測るのは区分建物のときよ', 'R4_dai22mon_zu09_hekishin', '0.15は引かなくていいのよ'),
+    ('合計113.00', '1階は、図2の寸法を使って', 'R4_dai22mon_zu10_1kai_kyuuseki', '横9.00メートル'),
+    ('2階は元の附属建物の真上', '2階は、元の附属建物の2階だけです', 'R4_dai22mon_zu11_2kai_kyuuseki', '合計：25.0000'),
+    ('1階の位置を点線で重ねる', '点線まで省いたら減点よ', 'R4_dai22mon_zu12_tensen', '点線まで省いたら減点よ'),
+    ('胴縁の中心ではなく、柱の外面', '正解。胴縁の中心線を壁心のつもりで掛けると20.91', 'R4_dai22mon_zu13_shako_ayamari_hikaku', '0.91平方メートルが'),
+    ('鉄骨柱の中心線の0.10・0.20', 'そこに気づくのは偉いわ', 'R4_dai22mon_zu14_san_bon_no_sen', '区画になるのは柱の外面の1本だけ'),
+    ('添付書類は4点', 'よし。住所証明書は？', 'R4_dai22mon_zu16_tenpu_shorui', '必要な4点と要らない1点'),
+    ('5番3号、所在は5番地3', 'いいわね。住所は住居表示', 'R4_dai22mon_zu17_juusho_shozai', '3通りに書き分けるのよ'),
+    ('登録免許税は非課税', '次、登録免許税の欄は？', 'R4_dai22mon_zu18_touroku_menkyozei', '分割・区分・合併などです'),
+    ('原因は③だけでなく', '待ちなさい。種類の欄も構造の欄も書き換えたのに', 'R4_dai22mon_toukishinseisho_machigai', '①②が加わるのよ'),
+    ('符号1は使い終わる', '車庫は『符号1』でいいですか？', 'R4_dai22mon_zu19_fugou_tsukekata', '次の番号を付けるのよ'),
+    ('権限ではなく権原', '最後の1文字が違うわ！', 'R4_dai22mon_zu20_kengen', '取り違える人が本当に多いの'),
+    ('付合して令子さんのもの', 'そこが考えどころよ。', 'R4_dai22mon_zu21_tsukou', '民法第248条'),
+]
+matome = text.split('今日のまとめよ。わなを1つずつ並べるわ」')[1].split('**藍子**')[0]
+items = [l[2:] for l in matome.splitlines() if l.startswith('- ')]
+ok = len(items) == len(TRAPS) == len({p_ for _, _, p_, _ in TRAPS}) and all(k in it for (k, _, _, _), it in zip(TRAPS, items))
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'まとめのわな{len(items)}項目と、わな→図の対応表{len(TRAPS)}組（図の重複なし・同じ順）')
+ok = all(it.count('。') == 0 and it.count('、') <= 3 for it in items)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + 'まとめの1項目に1つのわな')
+mk_pos = [m_.start() for m_ in re.finditer(r'^> 【画像挿入】.*$', text, re.M)]
+order_png = [n_ for _, n_, _ in PNGS]
+for key, phrase, png, word in TRAPS:
+    pos = text.find(phrase)
+    after = [k_ for k_, p_ in enumerate(mk_pos) if p_ > pos][:3]
+    k_png = order_png.index(png)
+    ok = pos >= 0 and text.count(phrase) == 1 and k_png in after and '\n## ' not in text[pos:mk_pos[k_png]]
+    prev = [l_ for l_ in text[:mk_pos[k_png]].splitlines() if l_.strip()][-1]
+    ok2 = word in prev
+    ng += (not ok) + (not ok2)
+    print(('OK ' if ok else 'NG ') + f'わなの会話のあと3つ以内のマーカーに図がある : {phrase[:16]}… → {png}')
+    print(('OK ' if ok2 else 'NG ') + f'わなの図のマーカーの直前の段落に決め手の語 : {word[:20]}')
+
+# 6-3：図の画像の決まり。申請書・添削のHTMLに inline の height がなく、「第1欄」などの見出しがなく、列の幅の比が答案用紙の原本から測った値と合う
+mk = open(os.path.join(ZU, 'make_R4_dai22mon_shinseisho_gazou.py'), encoding='utf-8').read()
+htmls = {f_[:-5]: open(os.path.join(ZU, f_), encoding='utf-8').read() for f_ in os.listdir(ZU) if f_.endswith('.html')}
+ok = 'style="height:' not in mk and not any('style="height:' in h_ for h_ in htmls.values())
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '申請書・添削のHTMLに style="height: がない（min-height）')
+ok = all('第1欄' not in h_ for h_ in htmls.values())
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '申請書・添削のHTMLに「第1欄」の見出しがない（第2欄・第3欄の画像は答案用紙の印刷どおり見出しを入れる）')
+pg1_ = pdf[0]
+vx = sorted({round(d['rect'].x0, 1) for d in pg1_.get_drawings() if d['rect'].width < 1.5 and 177.5 < d['rect'].x0 < 648 and d['rect'].y1 > 390})
+xs_ = [177.0] + vx + [649.0]
+pct_ = [100 * (b_ - a_) / (xs_[-1] - xs_[0]) for a_, b_ in zip(xs_, xs_[1:])]
+got_ = [100 * float(v_) / 472.0 for v_ in re.search(r'COL_PT = \(([^)]*)\)', mk).group(1).split(',')]
+ok = len(pct_) == len(got_) == 9 and all(abs(u_ - v_) < 0.3 for u_, v_ in zip(pct_, got_))
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'表の列の幅の比：答案用紙の原本PDFから測ると {[round(v_, 1) for v_ in pct_]}（HTMLの COL_PT から {[round(v_, 1) for v_ in got_]}）')
+# 本文の「a×b＝c」を計算し直す
+from decimal import Decimal
+n_calc = 0
+for m in re.finditer(r'(\d+\.\d+) × (\d+\.\d+) ＝ (\d+\.\d+)', text):
+    ok = Decimal(m.group(1)) * Decimal(m.group(2)) == Decimal(m.group(3))
+    n_calc += 1
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'[記事の求積表] {m.group(0)}')
+ok = 5.00 * 5.00 + 4.00 * 4.00 + 9.00 * 8.00 == 113.00 and 5.10 * 4.10 - 5.00 * 4.00 > 0.909 and n_calc >= 5
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'[記事の計算式] 求積表の式 {n_calc}個、1階の合計113.00、車庫の差0.91')
+import datetime as _dt
+ok = (_dt.date(2022, 9, 30) + _dt.timedelta(days=31)).isoformat() == '2022-10-31' and _dt.date(2022, 10, 17) <= _dt.date(2022, 10, 31)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '[期限] 9月30日の翌日から1月以内＝10月31日、10月17日の申請は期限内')
 
 print('NG件数:', ng)

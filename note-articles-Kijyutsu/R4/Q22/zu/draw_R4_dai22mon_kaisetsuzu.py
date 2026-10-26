@@ -465,7 +465,7 @@ def zu06():
     z2.callout(P(-0.025, 3.8), '胴縁の中心から柱の外面まで 0.05', dirs=(180, 195, 165), dists=(45, 60, 75), fs=12, color=RED)
     z2.callout(P(0.40, 4.0), '柱の外面＝床面積の区画', dirs=(60, 75, 45), dists=(45, 60, 80), fs=13, color=GREEN)
     z2.free_text(P(0.30, 3.62), '鉄骨柱（H形）', fs=12, ha='left', offsets=((4, 0), (4, 10), (4, -10)))
-    axes[1].set_title('図4の角（南西）の拡大', fontsize=16, weight='bold', pad=12)
+    axes[1].set_title('問題の図4の角（南西）の拡大', fontsize=16, weight='bold', pad=12)
     fit(axes[1], [P(-0.15, 3.3), P(0.6, 4.2)], margin=0.05, extra=[xy(P(-0.95, 3.2)), xy(P(0.75, 4.6))],
         pad_aspect=True)
     # 右：正解
@@ -754,7 +754,7 @@ def zu_tensen():
 
 def zu_san_bon_no_sen():
     """図14：図4に出てくる3本の線のうち、床面積の区画は「柱の外面」の1本だけ。"""
-    fig, axes = new_figure('図4の3本の線：床面積の区画になるのは「柱の外面」の1本だけ',
+    fig, axes = new_figure('問題の図4の3本の線：床面積の区画になるのは「柱の外面」の1本だけ',
                            '図3の5.10×4.10は「胴縁の中心線」、図4の0.10・0.20は「鉄骨柱の中心線」から測った寸法。どちらも区画の線ではない',
                            w=18, h=9.5, ncols=2, width_ratios=[1.25, 1])
     fig.subplots_adjust(top=0.86, wspace=0.05)
@@ -777,7 +777,7 @@ def zu_san_bon_no_sen():
     z.callout(P(0.65, 3.80), '鉄骨柱の中心線（赤の破線）\n図4の0.10・0.20はここから', dirs=(0, 15, -15), dists=(40, 55, 70), fs=12, color=RED)
     z.callout(P(0.55, 4.05), '胴縁の中心線（紫の一点鎖線）\n図3の5.10×4.10はここから', dirs=(-90, -75, -105), dists=(40, 55, 70), fs=12, color=PURPLE)
     z.callout(P(-0.025, 3.7), '柱の外面（緑の太線）\n＝床面積の区画', dirs=(180, 165, 195), dists=(50, 65, 80), fs=13, color=GREEN)
-    axes[0].set_title('図4の角（南西）の拡大', fontsize=16, weight='bold', pad=10)
+    axes[0].set_title('問題の図4の角（南西）の拡大', fontsize=16, weight='bold', pad=10)
     fit(axes[0], [P(-0.15, 3.3), P(0.65, 4.2)], margin=0.05, extra=[xy(P(-0.95, 3.1)), xy(P(1.6, 4.6))], pad_aspect=True)
     ax = axes[1]
     ax.set_xlim(0, 100)
