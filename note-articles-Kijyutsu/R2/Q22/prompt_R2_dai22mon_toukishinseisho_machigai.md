@@ -95,3 +95,4 @@ note記事「【土地家屋調査士受験生向け】令和2年度問題22（�
 - 添削2：`zu/R2_dai22mon_toukishinseisho_machigai_shinseinin.png`
 - 添削3：`zu/R2_dai22mon_toukishinseisho_machigai_tenpu.png`
 - 添削4：`zu/R2_dai22mon_toukishinseisho_machigai_hyouji.png`
+- 2026-10-26、申請書の完成形と同じ見直し（列の幅は答案用紙の原本から測り直し、inline の `height` は `min-height`、「第○欄」の見出しなし、正解の緑の枠が付かない不具合の修正）で、添削4枚（申請人・添付書類・建物の表示・原因）を描き出し直した。誤答・添削の内容は変えていない
