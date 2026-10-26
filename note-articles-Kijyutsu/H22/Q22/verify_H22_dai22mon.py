@@ -236,30 +236,35 @@ markers = re.findall(r'^> 【画像挿入】(.*)$', text, re.M)
 ZU = os.path.join(HERE, 'zu')
 PAIRS = [('問1の考え方の流れ図', 'H22_dai22mon_zu01_toi1_nagare.png'),
          ('問1（障壁を残す', 'H22_dai22mon_zu02_toi1_toi2.png'),
+         ('問1の添付情報の図', 'H22_dai22mon_zu03_toi1_tenpu.png'),
          ('問1(2)「代位原因」欄の①誤答', 'H22_dai22mon_toi1_machigai.png'),
          ('問1の完成形', 'H22_dai22mon_toi1_kansei.png'),
-         ('答案用紙の方位記号と同じ向き', 'H22_dai22mon_zu03_shikichi_henchou.png'),
-         ('東北東の境までの距離の検算図', 'H22_dai22mon_zu04_touhokutou_kenzan.png'),
-         ('所在の確認図', 'H22_dai22mon_zu05_shozai_kakunin.png'),
-         ('建物図面の完成形', 'H22_dai22mon_zu06_tatemono_zumen.png'),
-         ('1階の誤り比較図', 'H22_dai22mon_zu07_1kai_ayamari_hikaku.png'),
-         ('1階の床面積求積図', 'H22_dai22mon_zu08_1kai_kyuuseki.png'),
-         ('合体前の2つと増築部分の検算図', 'H22_dai22mon_zu09_gattaizen_kenzan.png'),
-         ('2階の床面積求積図', 'H22_dai22mon_zu10_2kai_kyuuseki.png'),
-         ('各階平面図の完成形', 'H22_dai22mon_zu11_kakai_heimenzu.png'),
-         ('合体後の甲区（所有権の登記）の行き先の図', 'H22_dai22mon_zu12_kouku_yukisaki.png'),
-         ('「登記の目的」欄と「申請人」欄の①誤答', 'H22_dai22mon_toukishinseisho_machigai_mokuteki.png'),
+         ('答案用紙の方位記号と同じ向き', 'H22_dai22mon_zu04_shikichi_henchou.png'),
+         ('東北東の境までの距離の検算図', 'H22_dai22mon_zu05_touhokutou_kenzan.png'),
+         ('所在の確認図', 'H22_dai22mon_zu06_shozai_kakunin.png'),
+         ('建物図面の完成形', 'H22_dai22mon_zu07_tatemono_zumen.png'),
+         ('1階の誤り比較図', 'H22_dai22mon_zu08_1kai_ayamari_hikaku.png'),
+         ('1階の床面積求積図', 'H22_dai22mon_zu09_1kai_kyuuseki.png'),
+         ('合体前の2つと増築部分の検算図', 'H22_dai22mon_zu10_gattaizen_kenzan.png'),
+         ('2階の床面積求積図', 'H22_dai22mon_zu11_2kai_kyuuseki.png'),
+         ('各階平面図の完成形', 'H22_dai22mon_zu12_kakai_heimenzu.png'),
+         ('合体後の甲区（所有権の登記）の行き先の図', 'H22_dai22mon_zu13_kouku_yukisaki.png'),
+         ('「登記の目的」欄の①誤答', 'H22_dai22mon_toukishinseisho_machigai_mokuteki.png'),
+         ('「申請人」欄の①誤答', 'H22_dai22mon_toukishinseisho_machigai_shinseinin.png'),
          ('「建物の表示」の合体前の2行の構造の①誤答', 'H22_dai22mon_toukishinseisho_machigai_kouzou.png'),
-         ('乙区の3件の振り分け図', 'H22_dai22mon_zu13_otsuku_furiwake.png'),
+         ('原因及びその日付の図', 'H22_dai22mon_zu14_genin_ranbangou.png'),
+         ('A銀行の抵当権の図', 'H22_dai22mon_zu15_a_ginkou_shoumetsu.png'),
+         ('存続登記に当たるかの図', 'H22_dai22mon_zu16_sonzoku_hani.png'),
          ('「二　抵当権等の登記で', 'H22_dai22mon_toukishinseisho_machigai_sonzoku.png'),
-         ('添付情報9つと根拠の表', 'H22_dai22mon_zu14_tenpu_jouhou.png'),
-         ('課税価格と登録免許税の組み立て図', 'H22_dai22mon_zu15_touroku_menkyozei.png'),
+         ('印鑑証明書の要否の図', 'H22_dai22mon_zu17_inkan_shoumei.png'),
+         ('添付情報9つと根拠の表', 'H22_dai22mon_zu18_tenpu_jouhou.png'),
+         ('課税価格と登録免許税の組み立て図', 'H22_dai22mon_zu19_touroku_menkyozei.png'),
          ('3コマ添削画像', 'H22_dai22mon_toukishinseisho_machigai.png'),
          ('登記申請書（問2(1)）の完成形', 'H22_dai22mon_toukishinseisho_kansei.png'),
-         ('本番で解く順番', 'H22_dai22mon_zu16_toku_junban.png')]
-ok = len(markers) == len(PAIRS) == 23
+         ('本番で解く順番', 'H22_dai22mon_zu20_toku_junban.png')]
+ok = len(markers) == len(PAIRS) == 28
 ng += (not ok)
-print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {len(markers)}個（想定23）')
+print(('OK ' if ok else 'NG ') + f'画像挿入マーカー（引用形式）: {len(markers)}個（想定28）')
 from PIL import Image
 pngs = sorted(f for f in os.listdir(ZU) if f.endswith('.png'))
 ok = sorted(f for _, f in PAIRS) == pngs
@@ -297,6 +302,7 @@ check('時系列メモ', '昭和51年2月17日に21番の所有権保存とA銀�
 H = {n: open(os.path.join(ZU, n + '.html'), encoding='utf-8').read() for n in
      ['H22_dai22mon_toi1_kansei', 'H22_dai22mon_toi1_machigai', 'H22_dai22mon_toukishinseisho_kansei',
       'H22_dai22mon_toukishinseisho_machigai', 'H22_dai22mon_toukishinseisho_machigai_mokuteki',
+      'H22_dai22mon_toukishinseisho_machigai_shinseinin',
       'H22_dai22mon_toukishinseisho_machigai_kouzou', 'H22_dai22mon_toukishinseisho_machigai_sonzoku']}
 for s_ in ['建物表題部変更登記', '建物図面　各階平面図　所有権証明情報　代理権限証明情報', '不動産登記法第52条第4項', '添　付　情　報']:
     check('問1HTML', s_, H['H22_dai22mon_toi1_kansei'], '問1HTML')
@@ -315,7 +321,8 @@ for s_ in ['金1,260万円', '金５万400円', '金1,200万円', '金４万8,00
     check('添削HTML', s_, m_, '添削HTML')
 # 本文の誤答ごとの添削（2026-10-05追加。標準セットで足りるかを本文から見直した）
 for n_, ss in [('H22_dai22mon_toi1_machigai', ['民法第423条', '不動産登記法第52条第4項', '①誤答', '②添削', '③正解']),
-               ('H22_dai22mon_toukishinseisho_machigai_mokuteki', ['並びに所有権の保存の登記', '（あ）', '①誤答', '②添削', '③正解']),
+               ('H22_dai22mon_toukishinseisho_machigai_mokuteki', ['並びに所有権の保存の登記', '①誤答', '②添削', '③正解']),
+               ('H22_dai22mon_toukishinseisho_machigai_shinseinin', ['（あ）', '（い）', '10分の４', '①誤答', '②添削', '③正解']),
                ('H22_dai22mon_toukishinseisho_machigai_kouzou', ['木造瓦葺', '木造セメント', 'スレート', '①誤答', '②添削', '③正解']),
                ('H22_dai22mon_toukishinseisho_machigai_sonzoku', ['第1112号', '第1113号', '第5567号', '①誤答', '②添削', '③正解'])]:
     for s_ in ss:
@@ -326,21 +333,20 @@ n_pad = draw.count('pad_aspect=True')
 ok = n_fit == n_pad and n_fit > 0
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + f'作図の fit {n_fit}か所がすべて pad_aspect=True（{n_pad}）')
-# 図面の完成形は答案用紙（その3）の欄の枠の中に描く（2026-09-30のH27/Q22の作り直しで入ったルール）
+# 図面の完成形は答案用紙（その3）の1枚の枠（左半分が各階平面図、右半分が建物図面）に実際の大きさで描く（2026-10-26。H25/Q22の見本）
 for s_ in ["'家屋番号'", "'建物の所在'", "SHOZAI = 'A市D町一丁目21番地、22番地'", "SHINSEININ = '大面太郎　大面健一郎'",
-           "'申　請　人'", "'作　成　者'", "'1/500'", "'1/250'", "'（平成22年8月10日作成）'", "'職印'",
-           "SAKUSEISHA = 'A市F町二丁目6番8号　土地家屋調査士　波臼良子'", "'建　物　図　面'", "'各　階　平　面　図'",
-           "答案用紙（その3）の欄・縮尺1/500で描く内容", "答案用紙（その3）の欄・縮尺1/250で描く内容",
-           "fit(axes[0], f1, margin=0.08, extra=ext7, pad_aspect=True)", "fit(axes[1], f1, margin=0.08, extra=ext7, pad_aspect=True)"]:
+           "'申　請　人'", "'作　成　者'", "'250'", "'500'", "'（平成22年8月10日作成）'", "'職印'", "'土地家屋調査士　波臼良子'",
+           "'建　　物　　図　　面'", "'各　階　平　面　図'", "'（単位：m）'", "1m ＝ 2mm", "1m ＝ 4mm",
+           "（答案用紙（その3）の建物図面の側・縮尺1/500の実際の大きさ）", "（答案用紙（その3）の各階平面図の側・縮尺1/250の実際の大きさ）"]:
     check('図面の欄の枠', s_, draw, '作図')
-for key in ['答案用紙（その3）の建物図面の欄の枠', '答案用紙（その3）の各階平面図の欄の枠']:
+for key in ['答案用紙（その3）の1枚の枠の建物図面の側', '答案用紙（その3）の1枚の枠の各階平面図の側']:
     check('マーカーに欄の枠', key)
-for s_ in ['答案用紙（その3）の建物図面の欄の枠', '答案用紙（その3）の各階平面図の欄の枠', '1階と2階は同じ縮尺', 'public/kijutsu/H22-tatemono/a3.webp']:
+for s_ in ['答案用紙（その3）の1枚の枠', '縮尺1/500の実際の大きさ', '縮尺1/250の実際の大きさ', 'public/kijutsu/H22-tatemono/a3.webp']:
     check('図のプロンプトに欄の枠', s_, fig, '解説図')
 # fit は文字より先（2026-09-30、H21/Q22）：各関数の中で fit が最初の文字の配置より前にあるか
 for fn in re.findall(r'def (zu\d\d)\(\):(.*?)(?=\ndef |\nif __name__)', draw, re.S):
     body = fn[1]
-    if 'box_fig' in body:   # 枠と文字だけの図は重なり検査の対象外（目視）
+    if 'box_fig' in body or 'sheet_figure' in body:   # 枠と文字だけの図（目視）と、軸の範囲を mm で決める答案用紙の図
         continue
     i_fit = body.find('fit(')
     i_txt = min([body.find(k) for k in ['free_text(', 'edge_label(', 'callout(', 'dims(', 'dist_arrow('] if body.find(k) >= 0] or [10**9])
@@ -359,6 +365,108 @@ for f_ in [f for _, f in PAIRS if '_zu' in f]:
 for f_ in [f for _, f in PAIRS if 'machigai' in f]:
     check('生成済みのファイル名', 'zu/' + f_, fix, '添削')
 check('生成済みのファイル名', 'zu/H22_dai22mon_toukishinseisho_kansei.png', form, '申請書')
+# ---- 2026-10-26 照らし直しで足した検査（qa-checklist-kijutsu.md の6-2・6-3） ----
+# まとめのわな→図の対応表：(まとめの項目の決め手の語, 誤答・迷いの会話の語, 図のPNG, 図のマーカーの直前の行にある決め手の語)
+TRAPS = [
+    ('22番の増築だけではなく', '21番の太郎さんは何も工事をしていないから、登記はいりません！', 'H22_dai22mon_zu01_toi1_nagare',
+     '22番だけ変更して、21番を放っておくことはできないわ'),
+    ('住所証明情報・登記識別情報は要らない', '住所証明情報と登記識別情報も要りますか？', 'H22_dai22mon_zu03_toi1_tenpu',
+     '建物図面、各階平面図、所有権証明情報、代理権限証明情報の4つです'),
+    ('民法第423条ではなく', '『民法第423条』！', 'H22_dai22mon_toi1_machigai', '代位原因は『不動産登記法第52条第4項』'),
+    ('軸に対して傾いた長方形', 'どの辺も両端でX座標もY座標もそろっていない', 'H22_dai22mon_zu04_shikichi_henchou', '座標の見た目にだまされるところでした'),
+    ('3.85は書かない', '3.85は書かないんですか？', 'H22_dai22mon_zu05_touhokutou_kenzan', '位置の決め手には21番の側の距離'),
+    ('床面積の多い21番地が先', '所在はどうなりますか？', 'H22_dai22mon_zu06_shozai_kakunin', '床面積の多い部分がある土地の地番を先に書く'),
+    ('5.40ではなく3.60', '191.61平方メートル！', 'H22_dai22mon_zu08_1kai_ayamari_hikaku', '答案の求積は長方形に分けて足しなさい'),
+    ('「並びに所有権の保存の登記」まで書く', '合体だから、『合体後の建物の表題登記及び合体前の建物の表題部の登記の抹消』です！',
+     'H22_dai22mon_zu13_kouku_yukisaki', '並びに所有権の保存の登記』です！'),
+    ('（あ）（い）は付けない', '（あ）と（い）を付けて', 'H22_dai22mon_toukishinseisho_machigai_shinseinin', '合意した持分をそのまま書きます'),
+    ('登記記録どおりの瓦葺', '構造は木造スレートぶき2階建……', 'H22_dai22mon_toukishinseisho_machigai_kouzou', 'スレートぶきは合体後の行だけ'),
+    ('欄の番号を付けない', '欄の番号は付けないのね？', 'H22_dai22mon_zu14_genin_ranbangou', '合体後の建物は新しく表題登記をするから、付けません'),
+    ('A銀行の抵当権は消滅の承諾', '全部書きます！', 'H22_dai22mon_zu15_a_ginkou_shoumetsu', 'その代わり、添付情報に抵当権消滅承諾証明情報'),
+    ('賃借権は存続登記に当たらない', 'この2つは書きますか？', 'H22_dai22mon_zu16_sonzoku_hani', '賃借権は存続登記に当たらないから'),
+    ('印鑑証明書は太郎さんの分だけ', '印鑑証明書は？', 'H22_dai22mon_zu17_inkan_shoumei', '申請書にも委任状にも印鑑証明書はいりません'),
+    ('工事費の370万円ではなく', '工事費の370万円を足して2,100万円', 'H22_dai22mon_zu19_touroku_menkyozei', '課税価格は金1,200万円、登録免許税は金4万8,000円です'),
+]
+matome = text.split('今日のまとめよ。わなを1つずつ並べるわ」')[1].split('**藍子**')[0]
+items = [l[2:] for l in matome.splitlines() if l.startswith('- ')]
+ok = len(items) == len(TRAPS) == len({p for _, _, p, _ in TRAPS}) and all(k in it for (k, _, _, _), it in zip(TRAPS, items))
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'まとめのわな{len(items)}項目と、わな→図の対応表{len(TRAPS)}組（図の重複なし・同じ順）')
+ok = all(it.count('。') <= 1 and it.count('、') <= 3 for it in items)
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + 'まとめの1項目に1つのわな')
+mk_pos = [m.start() for m in re.finditer(r'^> 【画像挿入】.*$', text, re.M)]
+order_png = [f[:-4] for _, f in PAIRS]
+for key, phrase, png, word in TRAPS:
+    pos = text.find(phrase)
+    after = [k for k, p_ in enumerate(mk_pos) if p_ > pos][:2]
+    k_png = order_png.index(png)
+    ok = pos >= 0 and k_png in after and '\n## ' not in text[pos:mk_pos[k_png]]
+    prev = [l for l in text[:mk_pos[k_png]].splitlines() if l.strip()][-1]
+    ok2 = word in prev
+    ng += (not ok) + (not ok2)
+    print(('OK ' if ok else 'NG ') + f'わなの会話のあと2つ以内のマーカーに図がある : {phrase[:16]}… → {png}')
+    print(('OK ' if ok2 else 'NG ') + f'わなの図のマーカーの直前の行に決め手の語 : {word[:20]}')
+# 画像の題に図番がない（作図スクリプトのタイトル、申請書・添削のHTML）
+titles = re.findall(r"(?:new_figure|box_fig|sheet_figure|suptitle)\(\s*'([^']*)'", draw)
+bad = [t for t in titles if re.search(r'図\s*[0-9０-９]', t)] + [n for n, h in H.items() if re.search(r'[図画]像?\s*[0-9０-９]+[　 ：]', h)]
+ng += bool(bad) or len(titles) < 20
+print(('OK ' if not bad and len(titles) >= 20 else 'NG ') + f'画像の題（{len(titles)}個）とHTMLに図番がない : {bad}')
+mk = open(os.path.join(ZU, 'make_H22_dai22mon_shinseisho_gazou.py'), encoding='utf-8').read()
+ok = 'style="height:' not in mk and not any('style="height:' in h for h in H.values())
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + '申請書・添削のHTMLに style="height: がない（min-height）')
+# 答案用紙の原本から罫線を測り直して、作図・HTMLの値と比べる（H25/Q22の見本にならう）
+import numpy as np
+ROOT = os.path.join(HERE, '..', '..', '..', 'public', 'kijutsu', 'H22-tatemono')
+
+
+def vlines(im, y0, y1, thr=200, frac=0.7):
+    d = im < thr
+    xs = [x for x in range(im.shape[1]) if d[y0:y1, x].sum() >= frac * (y1 - y0)]
+    out = []
+    for x in xs:
+        if out and x - out[-1][-1] <= 3:
+            out[-1].append(x)
+        else:
+            out.append([x])
+    return [sum(g) / len(g) for g in out]
+
+
+a2 = np.array(Image.open(os.path.join(ROOT, 'a2.webp')).convert('L'))
+for name, (y0, y1), extra in [('COLS_PCT', (472, 508), [575.0]), ('S1_COLS_PCT', (780, 808), []), ('S2_COLS_PCT', (972, 1000), [])]:
+    xs = sorted(vlines(a2, y0, y1) + extra)
+    pct = [100 * (b_ - a_) / (xs[-1] - xs[0]) for a_, b_ in zip(xs, xs[1:])]
+    got = [float(v) for v in re.search(name + r' = \(([^)]*)\)', mk).group(1).split(',')]
+    ok = len(pct) == len(got) and all(abs(u - v) < 0.6 for u, v in zip(pct, got))
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'表の列の幅の比 {name}：答案用紙（その2）から測ると {[round(v, 1) for v in pct]}')
+a3 = np.array(Image.open(os.path.join(ROOT, 'a3.webp')).convert('L'))
+PX = a3.shape[1] / 420.0                               # A3横 420mm
+def mm_x(px): return px / PX
+def mm_y(py): return 297.0 - py / PX
+fr = re.search(r"FR_L, FR_R, FR_B, FR_T = ([\d.]+), ([\d.]+), ([\d.]+), ([\d.]+)", draw).groups()
+FR = [float(v) for v in fr]
+v_sh = [x for x in vlines(a3, 147, 182) if x < 1150]                            # 建物の所在の欄の高さで縦の罫線（枠の左右・欄の仕切り）
+h_rows = [y for y in range(a3.shape[0]) if (a3[y, 80:560] < 150).sum() > 380]   # 枠の上下・作成者の欄の下（横の罫線）
+meas = {'枠の左': mm_x(v_sh[0]), '枠の右': mm_x(v_sh[-1]), '枠の上': mm_y(min(h_rows)), '図の枠の下': mm_y(sorted(set(h_rows))[2])}
+want = {'枠の左': FR[0], '枠の右': FR[1], '枠の上': FR[3], '図の枠の下': FR[2]}
+for k_ in meas:
+    ok = abs(meas[k_] - want[k_]) < 0.8
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'（その3）の{k_}：原本 {meas[k_]:.1f}mm・作図 {want[k_]}mm')
+mid = [x for x in vlines(a3, 145, 156, frac=0.8) if 500 < x < 620]
+ok = len(mid) == 1 and abs(mm_x(mid[0]) - float(re.search(r'^MID = ([\d.]+)', draw, re.M).group(1))) < 0.8
+ng += (not ok)
+print(('OK ' if ok else 'NG ') + f'（その3）の中央の仕切り：原本 {[round(mm_x(x), 1) for x in mid]}mm')
+for k_, (y0, y1), xs_draw in [('家屋番号・建物の所在の仕切り', (104, 140), [190.1, 217.8, 254.9]),
+                              ('作成者・申請人の欄の仕切り', (789, 834), [20.3, 45.6, 134.7, 146.4, 170.9, 191.7, 217.1, 306.3, 317.7, 342.3])]:
+    got = [mm_x(x) for x in vlines(a3, y0, y1, thr=185, frac=0.8) if x < 1150]
+    ok = all(any(abs(g - w) < 0.8 for g in got) for w in xs_draw)
+    ng += (not ok)
+    print(('OK ' if ok else 'NG ') + f'（その3）の{k_}：原本 {[round(g, 1) for g in got]}mm')
+for v_ in ['kaoku_div=217.8', 'sakusei_div=(45.6, 134.7, 146.4)', 'shinsei_div=(217.1, 306.3, 317.7)', 'kaoku=(190.1, 254.9']:
+    check('作図の枠の値', v_, draw, '作図')
 ok = lines[-1] == '---'
 ng += (not ok)
 print(('OK ' if ok else 'NG ') + '記事の最後が区切り線')

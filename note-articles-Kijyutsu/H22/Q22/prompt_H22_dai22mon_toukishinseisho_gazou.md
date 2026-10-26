@@ -12,7 +12,7 @@
 
 note記事「【土地家屋調査士受験生向け】平成22年度問題22（建物）〜障壁を残せば区分、除けば合体〜」に挿入する、**完成形（正解）**の画像。
 
-**生成済み**：`zu/make_H22_dai22mon_shinseisho_gazou.py`（HTML＋Playwright）で、画像1 `zu/H22_dai22mon_toi1_kansei.png`（1200×662px。問1は小さい欄なので横長）と画像2 `zu/H22_dai22mon_toukishinseisho_kansei.png`（1200×2451px の縦長）を書き出した（それぞれHTMLも同じ名前で保存）。
+**生成済み**：`zu/make_H22_dai22mon_shinseisho_gazou.py`（HTML＋Playwright）で、画像1 `zu/H22_dai22mon_toi1_kansei.png`（1200×662px。問1は小さい欄なので横長）と画像2 `zu/H22_dai22mon_toukishinseisho_kansei.png`（1200×2560px の縦長。2026-10-26、記入の枠を min-height にし、表の列の幅を試験の答案用紙（その2）〈`public/kijutsu/H22-tatemono/a2.webp`〉の罫線から測った比〈建物の表示 3.57・12.58・10.17・10.71・16.85・13.43・6.37・26.32%、一の表 20.9・10.8・31.24・37.06%、二の表 13.75・10.1・12.28・25.87・20.28・17.72%〉にした）を書き出した（それぞれHTMLも同じ名前で保存）。
 
 ---
 

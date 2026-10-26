@@ -200,7 +200,7 @@ def road(z):
     z.line(complex(-8.0, -6.0), complex(-8.0, 36.0), color=GRAY, lw=1.2)
 
 
-def zu03():
+def zu04():
     fig, axes = new_figure('21番・22番（敷地）の辺長確認図（作図チェック用）',
                            '座標の軸に対して傾いた長方形（21番18.00×25.00、22番12.00×25.00）。C・D・Eは一直線。\n'
                            '答案用紙の方位記号と同じ向き（道路が横）に回して描いた。座標から出す面積は21番450.02㎡・22番299.94㎡\n'
@@ -233,18 +233,10 @@ def zu03():
     z.free_text(complex(12.5, 24.0), '22番\n12.00×25.00', fs=16, offsets=OFFS)
     for p, t in NEIGHBORS:
         z.free_text(p, t, fs=15, color=GRAY, offsets=OFFS)
-    save(fig, [z], 'H22_dai22mon_zu03_shikichi_henchou')
+    save(fig, [z], 'H22_dai22mon_zu04_shikichi_henchou')
 
 
 INK = '#1a3a8f'   # 記入（濃い青）
-
-
-def cell(fig, x0, y0, x1, y1, text='', fs=14, ha='center', lw=1.6, color=BLACK):
-    """答案用紙の欄（図の座標 0〜1）。"""
-    fig.add_artist(Rectangle((x0, y0), x1 - x0, y1 - y0, transform=fig.transFigure, fill=False, lw=lw, ec=BLACK))
-    if text:
-        x = (x0 + x1) / 2 if ha == 'center' else x0 + 0.01
-        fig.text(x, (y0 + y1) / 2, text, ha=ha, va='center', fontsize=fs, color=color)
 
 
 SHOZAI = 'A市D町一丁目21番地、22番地'
@@ -252,48 +244,174 @@ SHINSEININ = '大面太郎　大面健一郎'
 SAKUSEISHA = 'A市F町二丁目6番8号　土地家屋調査士　波臼良子'   # 答案用紙（その3）に印刷済み（職印・作成日つき）
 
 
-def zu06():
+# ---- 答案用紙（その3）（各階平面図・建物図面）。2026-10-26、試験の答案用紙の寸法どおりの1枚の枠に描き直した ----
+# 寸法は試験の答案用紙（その3）の画像（public/kijutsu/H22-tatemono/a3.webp。A3横 420mm × 297mm を 1400px × 989px。
+# 1mm ＝ 3.333px）の罫線の位置から mm に直した値。作図は用紙の左下を原点とする mm の座標で行い、図面の中身は
+# 建物図面が縮尺1/500（1m ＝ 2mm）、各階平面図が縮尺1/250（1m ＝ 4mm）の実際の大きさで描く。
+# （その3）は1枚の枠の左半分が各階平面図、右半分が建物図面（中央の上下に短い仕切りの線だけが印刷）。枠の上の「家屋番号」の箱と、
+# 枠の中の上端の「建物の所在」の欄は、建物図面の側に1組だけ。下に「作成者（A市F町二丁目6番8号 土地家屋調査士 波臼良子 職印
+# （平成22年8月10日作成））」「縮尺 1/250」と、「申請人」（（略）の印刷なし）「縮尺 1/500」。方位記号は建物図面の側に印刷済み。
+FR_L, FR_R, FR_B, FR_T = 20.3, 342.3, 61.4, 253.9      # 図を描く枠
+MID = 181.5                                           # 中央の仕切り
+SH_X0, SH_X1, SH_Y0, SH_Y1 = 14.0, 348.0, 24.0, 276.0   # 画像に入れる範囲（mm）
+SHEET_MM = dict(frame=(FR_L, FR_R, FR_B, FR_T), mid=MID, kaoku=(190.1, 254.9, FR_T, 266.7), kaoku_div=217.8,
+                shozai=(190.1, FR_R, 241.6, FR_T), sakusei=(FR_L, 170.9, 45.1, FR_B), sakusei_div=(45.6, 134.7, 146.4),
+                shinsei=(191.7, FR_R, 45.1, FR_B), shinsei_div=(217.1, 306.3, 317.7),
+                north=((194.4, 198.0), (213.9, 233.1)))
+SHEET_PX = 1400 / 420                                 # 答案用紙の画像の 1mm あたりの画素数（照合スクリプトで測り直す）
+
+
+def M(x, y):
+    """用紙の mm の位置（x：右向き、y：上向き）を zu_helpers の複素数（縦, 横）にする。"""
+    return complex(y, x)
+
+
+ZX0, ZY0 = 232.0, 134.0                               # 建物図面：敷地の図面の座標の原点（E点）を置く用紙の位置（mm）
+
+
+def Z500(p):
+    """建物図面（縮尺1/500）：図面の座標 complex(v, u) [m] を用紙の mm に置く。1m ＝ 2mm。"""
+    return M(ZX0 + 2 * p.imag, ZY0 + 2 * p.real)
+
+
+def H250(x, s, x0, y0):
+    """各階平面図（縮尺1/250）：建物の (x, s) [m] を用紙の mm に置く。原点（1階の北北西の辺と西南西の辺の線の交点）を (x0, y0) mm に。"""
+    return M(x0 + 4 * x, y0 - 4 * s)
+
+
+def sheet_figure(title):
     setup_font()
-    fig = plt.figure(figsize=(16.5, 14), dpi=100)
+    w_mm, h_mm = SH_X1 - SH_X0, SH_Y1 - SH_Y0
+    fig = plt.figure(figsize=(22, 22 * h_mm / w_mm), dpi=100)
     fig.patch.set_facecolor('white')
-    fig.suptitle('建物図面の完成形（答案用紙（その3）の欄・縮尺1/500で描く内容）', fontsize=22, weight='bold', y=0.985)
-    # 答案用紙（その3）の建物図面の欄（家屋番号・建物の所在は用紙の上、申請人・縮尺は下）
-    cell(fig, 0.06, 0.885, 0.20, 0.935, '家屋番号', fs=15)
-    cell(fig, 0.20, 0.885, 0.46, 0.935)                       # 合体後の家屋番号は登記官が付けるので空欄
-    fig.text(0.70, 0.910, '建　物　図　面', ha='center', va='center', fontsize=20)
-    cell(fig, 0.06, 0.835, 0.20, 0.885, '建物の所在', fs=15)
-    cell(fig, 0.20, 0.835, 0.94, 0.885, SHOZAI, fs=16, ha='left', color=INK)
-    cell(fig, 0.06, 0.125, 0.94, 0.835, lw=1.8)
-    cell(fig, 0.06, 0.075, 0.20, 0.125, '申　請　人', fs=15)
-    cell(fig, 0.20, 0.075, 0.74, 0.125, SHINSEININ, fs=16, color=INK)
-    cell(fig, 0.74, 0.075, 0.83, 0.125, '縮尺', fs=15)
-    cell(fig, 0.83, 0.075, 0.94, 0.125, '1/500', fs=15)
-    fig.text(0.92, 0.140, '（単位：m）', ha='right', va='center', fontsize=13)
-    fig.text(0.5, 0.035, '1階の形を、21番の部分の外壁までの距離（境から4.40が2か所、道路から12.00）で置く。1階は21番の上が113.40㎡・'
-             '22番の上が80.64㎡なので所在は「21番地、22番地」。\n家屋番号は登記官が付けるので空欄、申請人の欄は（略）と印刷されていないので2人の氏名を書く。'
-             '敷地の辺長と東北東の3.85は書かない。方位記号は答案用紙に印刷済み', ha='center', va='center', fontsize=13,
-             linespacing=1.6)
-    ax = fig.add_axes([0.08, 0.16, 0.84, 0.66])
-    z = Zu(ax, fontsize=15)
-    fit(ax, LOT21 + LOT22, margin=0.1, extra=[xy(complex(-9, -8)), xy(complex(30, 38))], pad_aspect=True)
-    tilted_north(z, pos=(0.06, 0.72))
-    z.poly(LOT21, color=BLACK, lw=2.2)
-    z.poly(LOT22, color=BLACK, lw=2.2)
-    z.line(D, complex(D.real, D.imag - 6.0), color=BLACK, lw=1.6)
-    road(z)
-    z.poly(BLDG, color=BLACK, lw=2.4)
+    ax = fig.add_axes([0, 0, 1, 1])
+    z = Zu(ax, fontsize=10)
+    ax.set_xlim(SH_X0, SH_X1)
+    ax.set_ylim(SH_Y0, SH_Y1)
+    ax.set_aspect('equal')
+    ax.axis('off')
+    ax.text((SH_X0 + SH_X1) / 2, 272.0, title, ha='center', va='center', fontsize=21, weight='bold')
+    return fig, ax, z
+
+
+def sheet3(ax, z):
+    """答案用紙（その3）の印刷（試験の答案用紙どおり）と、建物の所在・申請人の記入。"""
+    def rect(x0, x1, y0, y1, lw=1.3):
+        ax.add_patch(Rectangle((x0, y0), x1 - x0, y1 - y0, fill=False, lw=lw, ec=BLACK, zorder=3))
+
+    def ln(x0, y0, x1, y1, lw=1.0):
+        ax.plot([x0, x1], [y0, y1], color=BLACK, lw=lw, zorder=3)
+
+    def txt(x, y, s, fs=12, ha='center', **kw):
+        ax.text(x, y, s, ha=ha, va='center', fontsize=fs, zorder=4, family='Noto Serif CJK JP', **kw)
+
+    S = SHEET_MM
+    txt(22.0, 264.6, '問２', fs=12, ha='left', weight='bold')
+    txt(22.0, 258.4, '(2)', fs=10, ha='left')
+    txt(106.5, 260.1, '各　階　平　面　図', fs=15)
+    txt(300.0, 260.4, '建　　物　　図　　面', fs=15)
+    rect(FR_L, FR_R, FR_B, FR_T, lw=1.6)                         # 図を描く枠
+    ln(MID, FR_T, MID, 249.9, lw=1.6)                            # 中央の仕切り（上下の短い線だけが印刷）
+    ln(MID, FR_B, MID, 65.8, lw=1.6)
+    rect(*S['kaoku'])                                            # 家屋番号の箱（枠の外の上）
+    ln(S['kaoku_div'], FR_T, S['kaoku_div'], 266.7)
+    txt(203.9, 260.3, '家屋番号', fs=11)                           # 合体後の建物の家屋番号は登記官が付けるので空欄
+    rect(*S['shozai'])                                           # 建物の所在の欄（枠の中の上端）
+    ln(S['kaoku_div'], 241.6, S['kaoku_div'], FR_T)
+    txt(203.9, 247.75, '建物の所在', fs=11)
+    ax.text(221.0, 247.75, SHOZAI, ha='left', va='center', fontsize=12, color=INK, zorder=4)
+    (tx, ty), (hx, hy) = S['north']                              # 方位記号（印刷）
+    ax.annotate('', xy=(hx, hy), xytext=(tx, ty), arrowprops=dict(arrowstyle='-|>', lw=1.8, color=BLACK, mutation_scale=16),
+                zorder=4)
+    ax.add_patch(plt.Circle((tx + (hx - tx) * 0.2, ty + (hy - ty) * 0.2), 2.6, fill=False, lw=1.0, ec=BLACK, zorder=4))
+    z.segments.append(((tx, ty), (hx, hy)))
+    x0, x1, y0, y1 = S['sakusei']                                # 作成者・縮尺 1/250（作成者は印刷済み）
+    rect(x0, x1, y0, y1)
+    for x in S['sakusei_div']:
+        ln(x, y0, x, y1)
+    txt(32.9, 53.2, '作　成　者', fs=11)
+    txt(48.0, 58.3, 'A市F町二丁目6番8号', fs=10, ha='left')
+    txt(48.0, 53.3, '土地家屋調査士　波臼良子', fs=10, ha='left')
+    txt(112.0, 53.3, '職印', fs=8.5, ha='left', bbox=dict(boxstyle='square,pad=0.15', fc='white', ec=BLACK, lw=0.8))
+    txt(132.5, 48.3, '（平成22年8月10日作成）', fs=10, ha='right')
+    txt(140.5, 53.2, '縮尺', fs=10)
+    ln(148.5, 46.4, 169.5, 59.9, lw=0.9)
+    txt(155.4, 57.0, '1', fs=10)
+    txt(162.5, 49.3, '250', fs=10)
+    x0, x1, y0, y1 = S['shinsei']                                # 申請人・縮尺 1/500
+    rect(x0, x1, y0, y1)
+    for x in S['shinsei_div']:
+        ln(x, y0, x, y1)
+    txt(204.4, 53.2, '申　請　人', fs=11)
+    ax.text(222.0, 53.2, SHINSEININ, ha='left', va='center', fontsize=12, color=INK, zorder=4)
+    txt(312.0, 53.2, '縮尺', fs=10)
+    ln(319.5, 47.1, 339.6, 59.9, lw=0.9)
+    txt(325.5, 57.0, '1', fs=10)
+    txt(333.0, 50.7, '500', fs=10)
+    txt(321.0, 65.0, '（単位：m）', fs=10)
+
+
+def zumen_content(z):
+    """右半分：建物図面（縮尺1/500、1m ＝ 2mm）。敷地（21番・22番）と1階の位置・形状、筆界から外壁までの距離、地番・道路。"""
+    z.poly([Z500(p) for p in LOT21], lw=1.4)
+    z.poly([Z500(p) for p in LOT22], lw=1.4)
+    z.line(Z500(D), Z500(complex(D.real, D.imag - 6.0)), lw=1.0)             # 12番と13番の境
+    z.line(Z500(complex(0.0, -6.0)), Z500(E), lw=1.0)                       # 道路との境の延長
+    z.line(Z500(G), Z500(complex(0.0, 36.0)), lw=1.0)
+    z.line(Z500(complex(-8.0, -6.0)), Z500(complex(-8.0, 36.0)), color=GRAY, lw=0.9)   # 道路の向こう側（幅員8m）
+    z.poly([Z500(S(*v)) for v in F1], lw=2.0)
     wu = U0 - 0.10                       # 西南西の外壁（境から4.40）
-    dist_arrow(z, complex(V0 - 4.50, wu), complex(V0 - 4.50, 0.0), '4.40', side=(0, 14))
-    dist_arrow(z, complex(12.00, wu), complex(12.00, 0.0), '4.40', side=(0, -14))
-    dist_arrow(z, complex(12.00, wu), complex(0.0, wu), '12.00', side=(-28, 0))
+    for p, q, t, dirs in [(complex(V0 - 4.50, wu), complex(V0 - 4.50, 0.0), '4.40', (100, 115, 85)),
+                          (complex(12.00, wu), complex(12.00, 0.0), '4.40', (-110, -125, -95)),
+                          (complex(12.00, wu), complex(0.0, wu), '12.00', (170, 155, 185))]:
+        z.dim_line(Z500(p), Z500(q), lw=1.1)
+        z.callout(Z500((p + q) / 2), t, dirs=dirs, fs=10, dists=(26, 36, 48, 60))
     for p, t in [(complex(4.5, 9.0), '21'), (complex(4.5, 24.0), '22')]:
-        z.free_text(p, t, fs=17, offsets=OFFS)
+        z.free_text(Z500(p), t, fs=11, offsets=((0, 0), (0, 8), (0, -8)))
     for p, t in NEIGHBORS:
-        z.free_text(p, t, fs=15, offsets=OFFS)
-    save(fig, [z], 'H22_dai22mon_zu06_tatemono_zumen')
+        z.free_text(Z500(p), t, fs=10, offsets=((0, 0), (0, 8), (0, -8), (10, 0), (-10, 0)))
+
+
+HX0, HY1, HY2 = 55.0, 228.0, 150.0                    # 各階平面図：1階・2階の原点を置く用紙の位置（mm）
+
+
+def heimen_content(z):
+    """左半分：各階平面図（縮尺1/250、1m ＝ 4mm）。柱の中心線の辺長、各階の別、2階には1階の位置を点線で。
+    問2(2)のなお書きで求積とその方法・床面積の表示は省略。方位は書かない（不動産登記規則第83条第1項）。"""
+    z.free_text(M(30.0, 238.0), '1階', fs=12, ha='left')
+    f1 = [H250(x, s, HX0, HY1) for x, s in F1]
+    z.poly(f1, lw=1.6)
+    c1 = H250(11.5, 4.5, HX0, HY1)
+    for i, t in enumerate(['21.20', '5.40', None, '3.60', '21.65', '4.50', '1.80', '4.50']):
+        if t:
+            z.edge_label(f1[i], f1[(i + 1) % len(f1)], t, c1, fs=10, dists=(7, 11, 15))
+    z.callout(H250(22.325, 5.40, HX0, HY1), '1.35', dirs=(-30, -15, -45), fs=10, dists=(24, 32, 42))
+    z.free_text(M(30.0, 160.0), '2階', fs=12, ha='left')
+    f2 = [H250(x, s, HX0, HY2) for x, s in F2]
+    rest = [H250(x, s, HX0, HY2) for x, s in [(9.00, 0), (23.00, 0), (23.00, 5.40), (21.65, 5.40), (21.65, 9.00), (0, 9.00),
+                                             (0, 4.50), (1.80, 4.50), (1.80, 7.20)]]
+    z.poly(rest, lw=1.0, ls=':', closed=False)
+    z.poly(f2, lw=1.6)
+    c2 = H250(5.4, 3.6, HX0, HY2)
+    for i in range(4):
+        z.edge_label(f2[i], f2[(i + 1) % 4], '7.20', c2, fs=10, dists=(7, 11, 15))
+    z.free_text(M(120.0, 106.0), '点線は1階の位置', fs=10, ha='left', color=GRAY)
 
 
 def zu07():
+    fig, ax, z = sheet_figure('建物図面の完成形（答案用紙（その3）の建物図面の側・縮尺1/500の実際の大きさ）')
+    sheet3(ax, z)
+    zumen_content(z)
+    assert round(area([S(*v) for v in F1]), 4) == 194.04
+    ax.text((SH_X0 + SH_X1) / 2, 38.0, '1階の形を、21番の部分の外壁までの距離（西南西の境から4.40が2か所、道路から12.00）で置く。'
+            '1階は21番の上が113.40㎡・22番の上が80.64㎡なので所在は「21番地、22番地」', ha='center', va='center', fontsize=13)
+    ax.text((SH_X0 + SH_X1) / 2, 31.5, '家屋番号は登記官が付けるので空欄、申請人の欄は（略）と印刷されていないので2人の氏名を書く。'
+            '敷地の辺長と東北東の3.85は書かない。方位記号は印刷済み。各階平面図の側（左半分）は第4章で描く',
+            ha='center', va='center', fontsize=12, color=GRAY)
+    save(fig, [z], 'H22_dai22mon_zu07_tatemono_zumen')
+
+
+def zu08():
     fig, axes = new_figure('1階の誤り比較図：22番の欠けの奥行きは3.60（5.40ではない）',
                            '全体の長方形23.00×9.00＝207.00から欠けを引くと、どの寸法が欠けの辺かを取り違えやすい。\n'
                            '誤り：207.00－8.10－1.35×5.40＝191.61　／　正解：欠けは東南東の角の1.35×3.60。\n'
@@ -314,10 +432,10 @@ def zu07():
     dims(z3, ok, ['21.20', '5.40', '1.35', '3.60', '21.65', '4.50', '1.80', '4.50'], fs=13)
     z3.free_text(P(11.0, 4.6), '194.04㎡', fs=16, color=GREEN)
     axes[1].set_title('正解：欠けは東南東の角の1.35×3.60', fontsize=16, weight='bold', color=GREEN, pad=12)
-    save(fig, [z, z3], 'H22_dai22mon_zu07_1kai_ayamari_hikaku')
+    save(fig, [z, z3], 'H22_dai22mon_zu08_1kai_ayamari_hikaku')
 
 
-def zu08():
+def zu09():
     fig, axes = new_figure('1階の床面積求積図（柱の中心線＝壁の中心線）',
                            '① 1.80×4.50＝8.1000 ＋ ② 19.85×9.00＝178.6500 ＋ ③ 1.35×5.40＝7.2900\n'
                            '＝ 194.0400 → 194.04㎡。'
@@ -340,10 +458,10 @@ def zu08():
     z.callout(P(0.9, 6.75), '①西南西の端\n1.80×4.50＝8.1000', dirs=(255, 265, 245, 235), dists=(90, 110, 130), fs=13)
     z.callout(P(22.3, 2.7), '③東北東の端\n1.35×5.40＝7.2900', dirs=(20, 30, 10, 40), dists=(110, 140, 170), fs=13)
     z.free_text(P(11.5, 12.2), '1階 床面積：194.04㎡', fs=18, weight='bold', offsets=OFFS)
-    save(fig, [z], 'H22_dai22mon_zu08_1kai_kyuuseki')
+    save(fig, [z], 'H22_dai22mon_zu09_1kai_kyuuseki')
 
 
-def zu10():
+def zu11():
     fig, axes = new_figure('2階の床面積求積図（1階の位置を点線で重ねる）',
                            '2階は元の21番の2階だけ：7.20×7.20＝51.84㎡。1階の北北西の辺にそろい、\n'
                            '西南西の辺は欠けの奥の壁の線（1.80）にそろう。元の21番の東北東の壁より0.90、道路側の壁より1.80内側',
@@ -360,47 +478,21 @@ def zu10():
     z.free_text(P(5.4, 3.6), '2階\n7.20×7.20\n＝51.8400', fs=15)
     z.free_text(P(16.0, 4.5), '点線＝1階の位置（2階はない）', fs=15, color=GRAY)
     z.free_text(P(11.5, 12.2), '2階 床面積：51.84㎡', fs=18, weight='bold', offsets=OFFS)
-    save(fig, [z], 'H22_dai22mon_zu10_2kai_kyuuseki')
+    save(fig, [z], 'H22_dai22mon_zu11_2kai_kyuuseki')
 
 
-def zu11():
-    setup_font()
-    fig = plt.figure(figsize=(18, 10.5), dpi=100)
-    fig.patch.set_facecolor('white')
-    fig.suptitle('各階平面図の完成形（答案用紙（その3）の欄・縮尺1/250で描く内容）', fontsize=22, weight='bold', y=0.975)
-    fig.text(0.5, 0.905, '各　階　平　面　図', ha='center', va='center', fontsize=20)
-    cell(fig, 0.04, 0.17, 0.96, 0.88, lw=1.8)
-    cell(fig, 0.04, 0.10, 0.14, 0.17, '作　成　者', fs=15)
-    cell(fig, 0.14, 0.10, 0.80, 0.17)
-    fig.text(0.16, 0.135, SAKUSEISHA, ha='left', va='center', fontsize=14)
-    fig.text(0.535, 0.135, '職印', ha='center', va='center', fontsize=13,
-             bbox=dict(boxstyle='square,pad=0.25', fc='white', ec=BLACK, lw=1.0))
-    fig.text(0.78, 0.135, '（平成22年8月10日作成）', ha='right', va='center', fontsize=14)
-    cell(fig, 0.80, 0.10, 0.87, 0.17, '縮尺', fs=15)
-    cell(fig, 0.87, 0.10, 0.96, 0.17, '1/250', fs=15)
-    fig.text(0.5, 0.045, '柱の中心線の寸法で「1階」「2階」を書き分け、2階には1階の位置を点線で重ねる。問2(2)のなお書きどおり、求積とその方法、'
-             '床面積の表示は書かない（作成者の欄は印刷済み）。\n形が閉じているかの検算：21.20＋1.80＝21.65＋1.35＝23.00、'
-             '4.50＋4.50＝5.40＋3.60＝9.00', ha='center', va='center', fontsize=14, linespacing=1.6)
-    # 1階と2階は同じ縮尺（1/250）で描くので、同じ大きさのパネルに同じ表示範囲で描く
-    axes = [fig.add_axes([0.05, 0.20, 0.44, 0.60]), fig.add_axes([0.51, 0.20, 0.44, 0.60])]
-    ext7 = [xy(P(23.0, -4.5))]
-    z = Zu(axes[0], fontsize=13)
-    f1 = [P(*v) for v in F1]
-    fit(axes[0], f1, margin=0.08, extra=ext7, pad_aspect=True)
-    z.poly(f1, color=BLACK, lw=2.4)
-    dims(z, f1, ['21.20', '5.40', ('1.35', (-30, -15, -45)), '3.60', '21.65', '4.50', '1.80', '4.50'], fs=13)
-    axes[0].set_title('1階', fontsize=18, weight='bold', pad=12)
-    z2 = Zu(axes[1], fontsize=13)
-    f2 = [P(*v) for v in F2]
-    fit(axes[1], f1, margin=0.08, extra=ext7, pad_aspect=True)
-    tilted_north(z2, pos=(0.86, 0.72), length=0.12)
-    z2.poly(f2, color=BLACK, lw=2.4)
-    rest = [P(9.00, 0), P(23.00, 0), P(23.00, 5.40), P(21.65, 5.40), P(21.65, 9.00), P(0, 9.00), P(0, 4.50), P(1.80, 4.50),
-            P(1.80, 7.20)]
-    z2.poly(rest, color=BLACK, lw=1.4, ls=':', closed=False)
-    dims(z2, f2, ['7.20', '7.20', '7.20', '7.20'], fs=13)
-    axes[1].set_title('2階', fontsize=18, weight='bold', pad=12)
-    save(fig, [z, z2], 'H22_dai22mon_zu11_kakai_heimenzu')
+def zu12():
+    fig, ax, z = sheet_figure('各階平面図の完成形（答案用紙（その3）の各階平面図の側・縮尺1/250の実際の大きさ）')
+    sheet3(ax, z)
+    heimen_content(z)
+    zumen_content(z)
+    assert round(area([P(*v) for v in F1]), 4) == 194.04 and round(area([P(*v) for v in F2]), 4) == 51.84
+    ax.text((SH_X0 + SH_X1) / 2, 38.0, '柱の中心線の寸法で「1階」「2階」を書き分け、2階の図には1階の位置を点線で示す。問2(2)のなお書きどおり、'
+            '求積とその方法、床面積の表示は書かない。形が閉じているかの検算：21.20＋1.80＝21.65＋1.35＝23.00、4.50＋4.50＝5.40＋3.60＝9.00',
+            ha='center', va='center', fontsize=12.5)
+    ax.text((SH_X0 + SH_X1) / 2, 31.5, '方位は建物図面だけに書く（不動産登記規則第82条第2項。各階平面図の第83条第1項には方位がない）。'
+            '作成者の欄と縮尺は印刷済み', ha='center', va='center', fontsize=12, color=GRAY)
+    save(fig, [z], 'H22_dai22mon_zu12_kakai_heimenzu')
 
 
 def box_fig(title, name, draw, note):
@@ -421,7 +513,7 @@ def box_fig(title, name, draw, note):
     print(f'[重なり検査] {name}（固定配置）\n  →', path)
 
 
-def zu15():
+def zu19():
     v21, v22, vext = 1200, 530, 45 * 6
     total = v21 + v22 + vext
     kazei = total * 6 // 10
@@ -454,12 +546,12 @@ def zu15():
         ax.annotate('', xy=(17.5, 43), xytext=(85.5, 57), arrowprops=dict(arrowstyle='-|>', lw=2, color=GRAY))
         ax.text(4, 96, '所有権の登記がなかったのは22番（健一郎さん）だけ。健一郎さんの所有権の登記（不動産登記法第49条第1項後段）に登録免許税がかかる',
                 fontsize=14, va='top')
-    box_fig('課税価格と登録免許税の組み立て（所有権の保存の登記）', 'H22_dai22mon_zu15_touroku_menkyozei', draw,
+    box_fig('課税価格と登録免許税の組み立て（所有権の保存の登記）', 'H22_dai22mon_zu19_touroku_menkyozei', draw,
             '工事費の370万円は建物の価額ではない（1,200＋530＋370＝2,100万円で計算しない）。\n'
             '課税価格 2,000万円×10分の6＝1,200万円、登録免許税 1,200万円×1000分の4＝4万8,000円（登録免許税法別表第一の一（一）・第10条）')
 
 
-def zu16():
+def zu20():
     memo = [('昭和51年2月17日', '21番 所有権保存\n抵当権（A銀行・B信用金庫）'), ('平成7年6月14日', '21番 賃借権'),
             ('平成22年7月30日', '工事完了（合体の日）'), ('8月10日', '図面の作成'), ('8月22日', '申請（1月以内）')]
     steps = [('①', '問を\n先に読む', '問1と問2の\n前提の違い', BLUE),
@@ -495,7 +587,7 @@ def zu16():
         ax.annotate('', xy=(1 + 7 * (w + gap) - gap, 58), xytext=(1 + 4 * (w + gap), 58),
                     arrowprops=dict(arrowstyle='<->', lw=1.5, color=RED))
         ax.text(1 + 5.5 * (w + gap) - gap / 2, 61, '時間を食う', ha='center', fontsize=15, color=RED, weight='bold')
-    box_fig('本番で解く順番　計算のいらない欄を先に', 'H22_dai22mon_zu16_toku_junban', draw,
+    box_fig('本番で解く順番　計算のいらない欄を先に', 'H22_dai22mon_zu20_toku_junban', draw,
             '問1は別紙の数字を読まずに書ける。問2も、登記の目的・申請人・所有権登記の表示・存続登記・添付情報は床面積なしで書ける。\n'
             'いちばん時間を食うのは⑦の作図（傾いた敷地を答案用紙の方位記号の向きで描く）。先に埋めておけば、作図で時間が足りなくなっても点は取れている。')
 
@@ -543,7 +635,7 @@ def zu01():
             '相手が申請しないときの代位は、不動産登記法が認めた代位（第52条第4項）')
 
 
-def zu04():
+def zu05():
     """東北東の境までの距離の検算（第3章、3.85と3.75の食い違い）。"""
     fig, axes = new_figure('東北東の境までの距離の検算：22番の古い図面の3.85は0.10合わない',
                            '西南西の境から外壁まで4.40、柱の中心まで0.10、1階の道路側の辺（西南西の端から22番の欠けの角まで）21.65、外壁まで0.10。\n'
@@ -574,10 +666,10 @@ def zu04():
     for p, t in [(complex(4.5, 9.0), '21'), (complex(4.5, 24.0), '22')]:
         z.free_text(p, t, fs=17, offsets=OFFS)
     assert round(4.40 + 0.10 + 21.65 + 0.10, 2) == 26.25 and round(30.00 - 26.25, 2) == 3.75 and xs[-1] == 30.00
-    save(fig, [z], 'H22_dai22mon_zu04_touhokutou_kenzan')
+    save(fig, [z], 'H22_dai22mon_zu05_touhokutou_kenzan')
 
 
-def zu05():
+def zu06():
     """所在の確認（第3章、境B－Fが増築部分の中を通る）。"""
     fig, axes = new_figure('所在の確認：21番と22番の境は増築部分の中を通る',
                            '境B－Fは西南西の境から18.00。柱の中心線は西南西の端4.50、元の21番の東北東の壁14.40、増築部分の東北東の端19.40。\n'
@@ -615,10 +707,10 @@ def zu05():
     z.free_text(complex(V0 - 3.0, 33.6), '2階51.84㎡は\n全部21番の上', fs=13, color=BLUE, offsets=OFFS)
     for p, t in [(complex(1.5, 9.0), '21'), (complex(1.5, 24.0), '22')]:
         z.free_text(p, t, fs=17, offsets=OFFS)
-    save(fig, [z], 'H22_dai22mon_zu05_shozai_kakunin')
+    save(fig, [z], 'H22_dai22mon_zu06_shozai_kakunin')
 
 
-def zu09():
+def zu10():
     """合体前の2つと増築部分の検算（第4章。申請書の合体前の行の床面積）。"""
     fig, axes = new_figure('合体前の2つと増築部分で検算（申請書の合体前の行の床面積）',
                            '元の21番 9.90×4.50＋8.10×4.50＝81.00（2階51.84）、増築部分 5.00×9.00＝45.00、元の22番 6.75×9.00＋1.35×5.40＝68.04。\n'
@@ -654,10 +746,10 @@ def zu09():
     z.free_text(P(12.40, 11.2), '45.00', fs=16, weight='bold', color=ORANGE, offsets=OFFS)
     z.free_text(P(18.95, 11.2), '元の22番　68.04', fs=16, weight='bold', color=GREEN, offsets=OFFS)
     assert round(36.45 + 44.55, 2) == 81.00 and round(60.75 + 7.29, 2) == 68.04 and round(81.00 + 45.00 + 68.04, 2) == 194.04
-    save(fig, [z], 'H22_dai22mon_zu09_gattaizen_kenzan')
+    save(fig, [z], 'H22_dai22mon_zu10_gattaizen_kenzan')
 
 
-def zu12():
+def zu13():
     """合体後の甲区（所有権の登記）の行き先（第5章、登記の目的の訂正の直後）。"""
     def draw(ax):
         ax.text(14, 97, '合体前（登記記録）', ha='center', va='top', fontsize=17, weight='bold')
@@ -678,36 +770,32 @@ def zu12():
             '誤り：「並びに所有権の保存の登記」を落とす（22番は表題登記だけで、健一郎さんの所有権の登記がないまま残ってしまう）\n'
             '答案用紙（その2）の「法第74条第1項第1号の規定による新築建物のためにする所有権保存の登記」の欄が合図',
             col=PURPLE, fs=13.5, ha='left')
-    box_fig('合体後の甲区（所有権の登記）の行き先：表題登記だけの22番がある', 'H22_dai22mon_zu12_kouku_yukisaki', draw,
+    box_fig('合体後の甲区（所有権の登記）の行き先：表題登記だけの22番がある', 'H22_dai22mon_zu13_kouku_yukisaki', draw,
             '所有権の登記がある21番の分は登記官が合体による所有権の登記として記録し、表題登記だけの22番の分は、\n'
             '健一郎さんを登記名義人とする所有権の保存の登記を併せて申請する（持分は合意どおり10分の4・10分の6）')
 
 
-def zu13():
-    """乙区の3件の振り分け（第5章、存続登記の表）。"""
+def zu16():
+    """存続登記に当たるか（第5章、永野さんの賃借権。A銀行は前の図で外した）。"""
     def draw(ax):
-        ax.text(1, 97, '21番の乙区（3件）', fontsize=17, weight='bold', va='top')
-        ax.text(42, 97, '合体後の建物では', fontsize=17, weight='bold', va='top')
-        ax.text(80, 97, '存続登記の表', fontsize=17, weight='bold', va='top')
-        rows = [('1番　抵当権設定\nA銀行', '消滅の承諾がある → 登記官が\n権利が消滅した旨を登記する\n（不動産登記法第50条、\n不動産登記規則第120条第5項）',
-                 '書かない\n（抵当権消滅承諾\n証明情報を付ける）', GRAY),
-                ('2番　抵当権設定\nB信用金庫', '存続登記（不動産登記令別表13の項\n申請情報欄ハ）→ 大面太郎の\n持分10分の4の上に移される\n（不動産登記規則第120条第4項）',
+        box(ax, 1, 74, 98, 20, '存続登記（不動産登記令別表13の項申請情報欄ハ）＝ 所有権の登記以外の所有権に関する登記、又は\n'
+            '先取特権・質権・抵当権に関する登記であって、合体後の建物について存続することとなるもの', col=PURPLE, fs=15)
+        rows = [('2番　抵当権設定\nB信用金庫', '抵当権に関する登記で、存続する\n→ 当たる。大面太郎の持分10分の4の上に移される\n（不動産登記規則第120条第4項）',
                  '書く（目的とする権利\n「大面太郎持分」。\n承諾証明情報を付ける）', RED),
-                ('3番　賃借権設定\n永野達也', '存続登記に当たらない（同欄ハは\n所有権の登記以外の所有権に関する登記\n又は先取特権・質権・抵当権に関する登記）',
-                 '書かない', GRAY)]
-        for i, (a, b, c, col) in enumerate(rows):
-            y = 64 - i * 28
-            box(ax, 1, y, 30, 22, a, col=BLUE, fs=14)
-            box(ax, 36, y, 38, 22, b, col=col, fs=12.5)
-            box(ax, 79, y, 20, 22, c, col=col, fs=13, tc=RED if col == RED else BLACK, weight='bold' if col == RED else 'normal')
-            arrow(ax, (31, y + 11), (35.5, y + 11))
-            arrow(ax, (74, y + 11), (78.5, y + 11))
-    box_fig('存続登記の表：乙区は3件、答案用紙の表も3行。でも書くのは1行', 'H22_dai22mon_zu13_otsuku_furiwake', draw,
-            '表の行数と乙区の件数が同じでも、全部は埋めない。A銀行は消滅の承諾、賃借権は存続登記の範囲の外。\n'
-            '書くのは「21番　乙区2番　抵当権設定　昭和51年2月17日第1113号　B信用金庫　大面太郎持分」の1行だけ')
+                ('3番　賃借権設定\n永野達也', '所有権に関する登記でも、先取特権・質権・\n抵当権に関する登記でもない\n→ 当たらない', '書かない', GRAY)]
+        for i, (a_, b_, c_, col) in enumerate(rows):
+            y = 40 - i * 32
+            box(ax, 1, y, 26, 26, a_, col=BLUE, fs=15)
+            box(ax, 31, y, 42, 26, b_, col=col, fs=13.5)
+            box(ax, 77, y, 22, 26, c_, col=col, fs=13.5, tc=RED if col == RED else BLACK, weight='bold' if col == RED else 'normal')
+            arrow(ax, (27, y + 13), (30.5, y + 13))
+            arrow(ax, (73, y + 13), (76.5, y + 13))
+    box_fig('存続登記に当たるか：賃借権は条文に入っていない', 'H22_dai22mon_zu16_sonzoku_hani', draw,
+            'A銀行の抵当権は消滅の承諾で外れ（前の図）、賃借権は存続登記の範囲の外。3行の表に書くのは\n'
+            '「21番　乙区2番　抵当権設定　昭和51年2月17日第1113号　B信用金庫　大面太郎持分」の1行だけ')
 
 
-def zu14():
+def zu18():
     """添付情報9つと根拠（第5章、藍子が9つを挙げた直後）。"""
     rows = [('建物図面', '合体後の建物', '不動産登記令別表13の項添付情報欄イ'),
             ('各階平面図', '合体後の建物', '同欄ロ'),
@@ -733,26 +821,88 @@ def zu14():
             box(ax, cols[2][0], y - h, cols[2][1], h, law, col=GRAY, fs=12, alpha=0.04, lw=1.2, ha='left')
             y -= h
         assert y > -2, y
-    box_fig('添付情報9つと根拠（答案用紙の欄の名前どおり「〜情報」で書く）', 'H22_dai22mon_zu14_tenpu_jouhou', draw,
+    box_fig('添付情報9つと根拠（答案用紙の欄の名前どおり「〜情報」で書く）', 'H22_dai22mon_zu18_tenpu_jouhou', draw,
             '印鑑証明書は、合体による登記等を申請する所有権の登記名義人（太郎さん）の分。表題部所有者で、所有権の保存の登記で\n'
             '登記識別情報の通知を受ける健一郎さんの分は要らない。登記済証は、登記識別情報の代わりに出す')
 
 
+def zu03():
+    """問1の添付情報（第2章、藍子が「住所証明情報と登記識別情報も要りますか？」と迷ったところ）。"""
+    def draw(ax):
+        ax.text(25, 97, '要る（4つ）', ha='center', va='top', fontsize=18, weight='bold', color=BLUE)
+        ax.text(76, 97, '要らない（藍子の迷い）', ha='center', va='top', fontsize=18, weight='bold', color=RED)
+        for i, t in enumerate(['建物図面・各階平面図\n床面積が変わる（不動産登記令別表14の項添付情報欄ロ（1））',
+                               '所有権証明情報\n床面積が増えた部分を健一郎さんが持っている（同欄ロ（2））',
+                               '代理権限証明情報\n波臼さんに頼む（不動産登記令第7条第1項第2号）']):
+            box(ax, 1, 66 - i * 25, 48, 21, t, col=BLUE, fs=14)
+        box(ax, 52, 54, 47, 33, '住所証明情報\n表題登記で新しく表題部所有者になる人の\n住所を示すもの。表題部の変更の登記では出てこない',
+            col=RED, fs=14)
+        box(ax, 52, 16, 47, 33, '登記識別情報\n22番は権利部が記録事項なしで、\nそもそも所有権の登記がない', col=RED, fs=14)
+    box_fig('問1の添付情報：表題部の変更の登記（不動産登記令別表14の項）で要るもの', 'H22_dai22mon_zu03_toi1_tenpu', draw,
+            '答案用紙の欄の名前が「添付情報」なので「〜情報」で書く：建物図面　各階平面図　所有権証明情報　代理権限証明情報。\n'
+            '住所証明情報は表題登記（合体後の建物の表題登記を含む問2）で出てくる情報')
+
+
+def zu14():
+    """原因及びその日付（第5章、「欄の番号は付けないのね？」）。"""
+    def draw(ax):
+        rows = [('合体前　21番の行', '平成22年7月30日22番と合体'), ('合体前　22番の行', '平成22年7月30日21番と合体'),
+                ('合体後の建物の行（家屋番号は空欄）', '平成22年7月30日21番、22番を合体')]
+        for i, (a, b) in enumerate(rows):
+            y = 72 - i * 20
+            box(ax, 1, y, 36, 15, a, col=GRAY, fs=15)
+            box(ax, 40, y, 59, 15, b, col=BLUE, fs=17, weight='bold', tc=BLUE)
+            arrow(ax, (37, y + 7.5), (39.5, y + 7.5))
+        box(ax, 1, 6, 47, 24, '欄の番号（①②③）を頭に付けるのは、\n表題部の変更の登記・更正の登記の書き方\n（不動産登記事務取扱手続準則第94条第2項\n「③令和何年何月何日増築」）',
+            col=GRAY, fs=13.5)
+        box(ax, 52, 6, 47, 24, '誤り：「①②③平成22年7月30日21番、22番を合体」\n→ 合体後の建物は新しく表題登記をする建物なので、\n変更した欄の番号は付けない',
+            col=RED, fs=13.5, tc=RED)
+    box_fig('原因及びその日付：合体の3行には欄の番号を付けない', 'H22_dai22mon_zu14_genin_ranbangou', draw,
+            '合体前の2行は「相手の家屋番号と合体」、合体後の行は「21番、22番を合体」。日付は工事が完了した合体の日の平成22年7月30日')
+
+
+def zu15():
+    """A銀行の抵当権（第5章、問2のなお書きを読み直したところ）。"""
+    def draw(ax):
+        box(ax, 1, 66, 30, 22, '21番の乙区1番\n抵当権設定\nA銀行', col=BLUE, fs=16)
+        box(ax, 35, 66, 30, 22, '問2のなお書き\n「抵当権を消滅させることに\n同意している」', col=GRAY, fs=15)
+        box(ax, 69, 66, 30, 22, '抵当権消滅承諾証明情報\nを申請情報と併せて提供\n（不動産登記規則第120条第5項）', col=GRAY, fs=14)
+        arrow(ax, (31, 77), (34.5, 77))
+        arrow(ax, (65, 77), (68.5, 77))
+        box(ax, 18, 33, 64, 22, '登記官が、合体後の建物について\nその抵当権が消滅した旨を登記する（不動産登記法第50条）\n→ 合体後の建物には残らない（存続しない）',
+            col=PURPLE, fs=15)
+        arrow(ax, (84, 66), (70, 55.5))
+        box(ax, 1, 4, 98, 20, '誤り：「表が3行、21番の乙区もちょうど3件。全部書く」\n'
+            '→ A銀行の抵当権は存続しないので、「二　抵当権等の登記で合体後の登記建物につき存続すべきものの表示」の表に書かない',
+            col=RED, fs=14, tc=RED)
+    box_fig('A銀行の抵当権：消滅の承諾があるので、存続登記の表に書かない', 'H22_dai22mon_zu15_a_ginkou_shoumetsu', draw,
+            '書かない代わりに、添付情報に「抵当権消滅承諾証明情報」を入れる。残りの2件（B信用金庫の抵当権・永野さんの賃借権）は、\n'
+            '存続登記に当たるかを次の図で確かめる')
+
+
+def zu17():
+    """印鑑証明書の要否（第5章、「印鑑証明書は？」）。"""
+    def draw(ax):
+        ax.text(25, 97, '大面太郎（21番）', ha='center', va='top', fontsize=18, weight='bold', color=BLUE)
+        ax.text(76, 97, '大面健一郎（22番）', ha='center', va='top', fontsize=18, weight='bold', color=GREEN)
+        box(ax, 1, 58, 48, 30, '21番の所有権の登記名義人で、\n合体による登記等を申請する人\n（不動産登記規則第47条第3号イ（6））', col=BLUE, fs=14.5)
+        box(ax, 52, 58, 47, 30, '22番の表題部所有者。所有権の保存の登記で\n登記識別情報の通知を受ける申請人\n（不動産登記規則第47条第3号ホ、不動産登記法第21条本文）',
+            col=GREEN, fs=14)
+        arrow(ax, (25, 58), (25, 51.5), col=BLUE)
+        arrow(ax, (75.5, 58), (75.5, 51.5), col=GREEN)
+        box(ax, 1, 22, 48, 29, '書面申請なら申請書・委任状に記名押印して\n印鑑証明書を付ける\n（不動産登記令第16条第2項・第18条第2項）\n→ 要る',
+            col=BLUE, fs=14.5, weight='bold')
+        box(ax, 52, 22, 47, 29, '印鑑証明書は要らない\n（不動産登記規則第48条第1項第4号・\n第49条第2項第4号）\n→ 要らない',
+            col=GREEN, fs=14.5, weight='bold')
+        box(ax, 1, 3, 98, 14, '申請書の添付情報には「印鑑証明書」を1つ書く（太郎さんの分）。登記識別情報は、太郎さんの登記済証で代える（不動産登記法附則第7条）',
+            col=GRAY, fs=14)
+    box_fig('印鑑証明書は太郎さんの分だけ（健一郎さんは要らない）', 'H22_dai22mon_zu17_inkan_shoumei', draw,
+            '同じ申請人でも、所有権の登記名義人として合体による登記等を申請する太郎さんと、\n'
+            '所有権の保存の登記で登記識別情報の通知を受ける健一郎さんとで、扱いが分かれる')
+
+
 if __name__ == '__main__':
-    zu01()
-    zu02()
-    zu03()
-    zu04()
-    zu05()
-    zu06()
-    zu07()
-    zu08()
-    zu09()
-    zu10()
-    zu11()
-    zu12()
-    zu13()
-    zu14()
-    zu15()
-    zu16()
+    for fn in (zu01, zu02, zu03, zu04, zu05, zu06, zu07, zu08, zu09, zu10, zu11, zu12, zu13, zu14, zu15, zu16, zu17, zu18,
+               zu19, zu20):
+        fn()
     print('重なり合計:', len(PROBLEMS))
