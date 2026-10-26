@@ -448,13 +448,27 @@ sh = open(os.path.join(ZU, 'make_H23_dai22mon_shinseisho_gazou.py'), encoding='u
 truth('申請書・添削のHTML生成に style="height: が残っていない（min-heightにする）', 'style="height' not in sh and "style='height" not in sh)
 truth('申請書・添削の画像の見出しに図番「図N」がない', not re.search(r'図\s*\d', ''.join(re.findall(r'class="ptitle[^"]*">([^<]*)<', sh))))
 
-# ---- 申請書の列の幅：試験の答案用紙（public/kijutsu/H23-tatemono/a1.webp）の罫線から測った比（表の幅618px：85・58・185・128・162px）----
-meas = [85, 58, 185, 128, 162]
+# ---- 申請書の列の幅：試験の答案用紙の原本（touan_youshi/）の罫線を画素から測り直す（checklist 6-3）----
+import numpy as np
+_p1 = os.path.join(HERE, 'touan_youshi', 'H23_dai22mon_touan_youshi_p1.png')
+truth('答案用紙の原本（touan_youshi/のPDFとPNG）がある', os.path.exists(_p1) and os.path.exists(os.path.join(HERE, 'touan_youshi', 'H23_dai22mon_touan_youshi.pdf')))
+_im = np.array(Image.open(_p1).convert('L')).astype(float)
+_band = _im[int(760 * 1.075):int(860 * 1.075), :].mean(axis=0)          # 記入行1の高さの帯（縦線は帯の全高で暗い）
+_xs = [x for x in range(150, 1150) if _band[x] < 200]
+_g = []
+for x in _xs:
+    if _g and x - _g[-1][-1] <= 2:
+        _g[-1].append(x)
+    else:
+        _g.append([x])
+_lines = [round(sum(a) / len(a)) for a in _g]
+meas = [b - a for a, b in zip(_lines, _lines[1:])]                      # 表の5列の幅（画素）
 ratio = [round(m * 100 / sum(meas), 1) for m in meas]
 cols = re.findall(r'<col style="width:([0-9.]+)%">', sh)
 got = [float(c) for c in cols]
-truth(f'申請書の列の幅 {got} が答案用紙から測った比 {ratio}（床面積は整数部と小数部の合計）と一致',
-      len(got) == 6 and got[:3] == ratio[:3] and abs(got[3] + got[4] - ratio[3]) < 0.1 and got[5] == ratio[4])
+truth(f'答案用紙の原本から測った罫線の数 {len(_lines)}（表の外枠を含む6本）、列の幅 {meas}px ＝ {ratio}％', len(_lines) == 6)
+truth(f'申請書の列の幅 {got} が原本から測った比 {ratio}（床面積は整数部と小数部の合計）と0.2％以内で一致',
+      len(got) == 6 and all(abs(a - b) <= 0.2 for a, b in zip(got[:3], ratio[:3])) and abs(got[3] + got[4] - ratio[3]) <= 0.2 and abs(got[5] - ratio[4]) <= 0.2)
 
 # ---- 本文の「a × b ＝ c」「a − b ＝ c」「a ＋ b ＝ c」を Decimal で計算し直す（下限つき。checklist 4）----
 from decimal import Decimal

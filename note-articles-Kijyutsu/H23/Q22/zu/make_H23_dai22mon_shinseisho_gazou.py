@@ -82,10 +82,10 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
              f'stroke="{GREEN}" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="{GREEN}" '
              f'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
-# 列（試験の答案用紙 public/kijutsu/H23-tatemono/a1.webp の罫線から測った比率。表の幅618px：85・58・185・128・162px
-# ＝13.8・9.4・29.9・20.7・26.2％。床面積の列は整数部12.4％・小数部8.3％に分ける。2026-10-26に測り直した）
-COLS = ('<colgroup><col style="width:13.8%"><col style="width:9.4%"><col style="width:29.9%">'
-        '<col style="width:12.4%"><col style="width:8.3%"><col style="width:26.2%"></colgroup>')
+# 列（試験の答案用紙の原本 touan_youshi/H23_dai22mon_touan_youshi_p1.png の罫線から測った比率。表の幅949px：131・88・286・195・249px
+# ＝13.8・9.3・30.1・20.5・26.2％。床面積の列は整数部12.3％・小数部8.2％に分ける。2026-10-26に原本を受け取って測り直した）
+COLS = ('<colgroup><col style="width:13.8%"><col style="width:9.3%"><col style="width:30.1%">'
+        '<col style="width:12.3%"><col style="width:8.2%"><col style="width:26.2%"></colgroup>')
 HEAD = ('<tr><td class="head lab2">主である建物<br>又は附属建物</td><td class="head">①種類</td>'
         '<td class="head">②構　造</td><td class="head" colspan="2">③床面積<br>（m²）</td>'
         '<td class="head">登記原因<br>及びその日付</td></tr>')
