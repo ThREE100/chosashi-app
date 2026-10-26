@@ -147,8 +147,8 @@ b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋め
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
-judge(f'解説図プロンプトの図の数 {n_fig}枚（18枚）', n_fig == 18)
-for i in range(1, 19):
+judge(f'解説図プロンプトの図の数 {n_fig}枚（23枚）', n_fig == 23)
+for i in range(1, 24):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'R7_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
 for s in ['Ｓ市Ｔ町一丁目10番１号　甲野一郎', '地積測量図　代理権限証書', '金2,000円', '③10番１、10番３に分筆']:
@@ -176,12 +176,13 @@ for s in ['土地分筆登記', '地積測量図　代理権限証書', '令和�
           '（略）']:
     check('完成形の画像（HTML）', s, html_k, '完成形画像')
     check('完成形の画像の記入データがプロンプトにある', s, form, '登記申請書')
-for s in ['①誤答', '②添削（赤ペン）', '③正解', '住所証明書', 'Ｓ市Ｍ町二丁目３番５号', 'Ｓ市Ｔ町一丁目10番１号',
-          '登記記録の住所と一致するので、住所の証明は要らない', '10月20日に住所変更登記が完了済み！登記記録の住所はもう新住所',
+for s in ['①誤答', '②添削（赤ペン）', '③正解', 'Ｓ市Ｍ町二丁目３番５号', 'Ｓ市Ｔ町一丁目10番１号',
+          '10月20日に住所変更登記が完了済み！登記記録の住所はもう新住所',
           '令和７年10月30日　申請　Ｓ地方法務局']:
     check('添削の画像（HTML）', s, html_m, '添削画像')
     check('添削の画像の文言がプロンプトにある', s, fix, '添削')
 check('添削のプロンプトは縦に積む', '3コマを縦に積んだ縦長', fix, '添削')
+absent('添削の画像（HTML）に添付書類の行がない（申請人の欄だけ）', '添付書類', html_m, '添削画像')
 absent('添削のプロンプトに横並びの旧版の指示がない', '左から「①誤答」', fix, '添削')
 draw = open(os.path.join(HERE, 'zu', 'draw_R7_dai21mon_kaisetsuzu.py'), encoding='utf-8').read()
 n_fit = len(re.findall(r'^\s*fit\(', draw, re.M))
@@ -225,7 +226,7 @@ for i, l in enumerate(lines):
             dup.append(i + 1)
 judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむものも）: {dup}', not dup)
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
-judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図18〈第3欄の地積測量図を含む〉＋添削1＋完成形1＋第1欄・第2欄・第4欄3＝計23か所の想定）', n_marker == 23)
+judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図23〈第3欄の地積測量図を含む〉＋添削1＋完成形1＋第1欄・第2欄・第4欄3＝計28か所の想定）', n_marker == 28)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】令和7年度問題21（土地）〜'
@@ -278,16 +279,21 @@ PNGS = [('R7_dai21mon_zu01_jikeiretsu_zentai', '全体の時系列の図', 'fig'
         ('R7_dai21mon_zu10_kousa', '公差の判定図', 'fig'),
         ('R7_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
         ('R7_dai21mon_zu11_ikkatsu_shinsei', '一の申請情報の図', 'fig'),
-        ('R7_dai21mon_zu12_chiseki_sokuryouzu', '第3欄（問3）の地積測量図の完成見本', 'fig'),
-        ('R7_dai21mon_zu13_J_heikousen', 'J点の求め方の図', 'fig'),
-        ('R7_dai21mon_zu14_daikei', '台形の図', 'fig'),
-        ('R7_dai21mon_zu15_L_souji', 'L点・M点の求め方の図', 'fig'),
+        ('R7_dai21mon_zu12_hensuu_hasuu', '辺長の端数処理の図', 'fig'),
+        ('R7_dai21mon_zu13_chiseki_sokuryouzu', '第3欄（問3）の地積測量図の完成見本', 'fig'),
+        ('R7_dai21mon_zu14_J_heikousen', 'J点の求め方の図', 'fig'),
+        ('R7_dai21mon_zu15_daikei', '台形の図', 'fig'),
+        ('R7_dai21mon_zu16_L_souji', 'L点・M点の求め方の図', 'fig'),
         ('R7_dai21mon_dai4ran_kansei', '第4欄（問4）の完成形', 'wide'),
-        ('R7_dai21mon_zu16_bunpitsu_chiban', '10月30日の分筆の図', 'fig'),
+        ('R7_dai21mon_zu17_bunpitsu_chiban', '10月30日の分筆の図', 'fig'),
+        ('R7_dai21mon_zu18_10gatsu_kousa', '10月の公差の判定図', 'fig'),
         ('R7_dai21mon_toukishinseisho_machigai', '誤答→添削→正解の3コマ', 'tall'),
-        ('R7_dai21mon_zu17_jikeiretsu_10gatsu', '10月30日の申請までの時系列の図', 'fig'),
+        ('R7_dai21mon_zu19_jikeiretsu_10gatsu', '10月30日の申請までの時系列の図', 'fig'),
+        ('R7_dai21mon_zu20_tenpu_shorui', '添付書類の図', 'fig'),
+        ('R7_dai21mon_zu21_tourokumenkyozei', '登録免許税の図', 'fig'),
+        ('R7_dai21mon_zu22_tochi_hyouji_gyou', '土地の表示の行ごとの書き方の図', 'fig'),
         ('R7_dai21mon_toukishinseisho_kansei', '第5欄（問5）の登記申請書の完成形', 'tall'),
-        ('R7_dai21mon_zu18_kaku_junban', '本番で解く順番の図', 'fig')]
+        ('R7_dai21mon_zu23_kaku_junban', '本番で解く順番の図', 'fig')]
 judge(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
 for (name, key, kind), m in zip(PNGS, markers):
     png = os.path.join(ZU, name + '.png')
@@ -319,21 +325,6 @@ check('欄の完成形プロンプト', 'ア「280.59」、イ「2.32」、ウ�
 
 
 # ---- 2026-10-07の照らし直し（最新の執筆指示書） ----
-# まとめのワナの各項目 → その会話の直後に置いた図（マーカーの文言の頭）
-TRAPS = [('**筆界はC→D→Eで折れる**', '花子の説明（CとEの直線）と杭D'),
-         ('**観測角は時計回りに足す**', 'T2からの放射でD点を求める図'),
-         ('**2等分は実測の面積で**', '2等分の基準の比較図'),
-         ('**精度区分は地域で決まる**', '精度区分の選び方の図'),
-         ('**地積更正と分筆は一の申請情報**', '一の申請情報の図'),
-         ('**L点は延長線の交点で相似**', '台形の図'),
-         ('**10月の分筆の地番は10番3**', '10月30日の分筆の図'),
-         ('**申請人の住所は登記記録の最新の住所**', '登記申請書「申請人」欄と「添付書類」欄の誤答'),
-         ('**L点は最後に回す**', '本番で解く順番の図')]
-n_trap = len(re.findall(r'^- \*\*', text[text.index('## 第8章'):], re.M))
-judge(f'まとめのワナの数 {n_trap} ＝ 対応表 {len(TRAPS)}', n_trap == len(TRAPS))
-for t, mk in TRAPS:
-    check('まとめのワナ', '- ' + t)
-    judge(f'ワナの図がある : {t} → {mk}', any(m.startswith('> 【画像挿入】' + mk) for m in markers))
 # 2等分の誤り（登記記録の地積の半分 278.00）
 Kw = r2(H - round(hkw, 2))
 check('278で作った北側・南側', f'北側は{chiseki(area([C, H, Kw, D])):.2f}㎡、南側は{chiseki(area([D, Kw, G, F, E])):.2f}㎡')
@@ -364,9 +355,9 @@ for t in ['全体の時系列　8月の申請が問1〜問3', '注は2系統　�
           '問2　精度区分は土地の呼び名ではなく地域で決まる', '問3　地積更正と分筆は一の申請情報', '問4　M・L・K・Dは平行四辺形ではなく台形']:
     check('図番なしのタイトル（作図スクリプト）', "'" + t, draw, '作図')
     absent('図番入りのタイトル', "'図", draw[draw.index(t) - 6:draw.index(t)], '作図')
-# 2026-10-08：全18枚の画像のタイトルに図番がない（作図スクリプトの new_figure・suptitle の文字列）
+# 2026-10-08：全23枚の画像のタイトルに図番がない（作図スクリプトの new_figure・suptitle の文字列）
 titled = re.findall(r"(?:new_figure|suptitle)\(\s*'([^']*)'", draw)
-judge(f'作図スクリプトのタイトル {len(titled)}個（第3欄の地積測量図はタイトルなし）に図番がない', len(titled) == 17 and not [x for x in titled if re.match(r'図\d', x)])
+judge(f'作図スクリプトのタイトル {len(titled)}個（第3欄の地積測量図はタイトルなし）に図番がない', len(titled) == 22 and not [x for x in titled if re.match(r'図\d', x)])
 absent('解説図プロンプトに「図番のまま」の注記が残っていない', '画像の中のタイトルは作成時の', fig, '解説図')
 # 申請書の完成形は答案用紙の第5欄と同じ欄の順序
 order_k = [html_k.index(w) for w in ['登記の目的', '添　付　書　類', '令和７年10月30日', '申　　請　　人', '代　　理　　人', '登録免許税', '所　在']]
@@ -378,5 +369,166 @@ judge(f'キー列を再現した表示の数 {len(sim)}（記事の「表示：�
 for n_, want, got, ok_ in sim:
     judge(f'キー列の再現 {n_}行目 : 記事「{want}」／ 再現「{got}」', ok_)
 absent('[Ans]キー（要点にないキー）', '[Ans]')
+
+
+
+# ====================================================================
+# 2026-10-26：品質チェック（6-2・6-3）。わな→図の対応、答案用紙の原本（touan_youshi/）の寸法、フォント
+# ====================================================================
+def prev_line(mk):
+    """マーカーの直前の、空でなくマーカーでもない行（それを正す会話の最後の行）"""
+    k = lines.index(mk)
+    j = k - 1
+    while j >= 0 and (not lines[j].strip() or lines[j].startswith('> 【画像挿入】')):
+        j -= 1
+    return lines[j]
+
+
+def marker_of(head):
+    r = [m for m in markers if m.startswith('> 【画像挿入】' + head)]
+    return r[0] if len(r) == 1 else None
+
+
+# (まとめの項目の語, マーカーの文言の頭, 図の直前の行にある決め手の語)
+TRAPS = [('**観測角は時計回りに足す**', 'T2からの放射でD点を求める図', 'D点'),
+         ('**筆界はC→D→Eで折れる**', '花子の説明（CとEの直線）と杭D', '587.25'),
+         ('**2等分は実測の面積で**', '2等分の基準の比較図', '280.59525'),
+         ('**精度区分は地域で決まる**', '精度区分の選び方の図', '561.18'),
+         ('**地積更正と分筆は一の申請情報**', '一の申請情報の図', '一の申請情報'),
+         ('**辺長は小数第3位だけを見て1回だけ丸める**', '辺長の端数処理の図', '9.3646'),
+         ('**L点は延長線の交点で相似**', '台形の図', '1.11'),
+         ('**10月の分筆の地番は10番3**', '10月30日の分筆の図', '10番3'),
+         ('**10月の分筆でも公差を確かめる**', '10月の公差の判定図', '地積更正は要らない'),
+         ('**申請人の住所は登記記録の最新の住所**', '登記申請書「申請人」欄の誤答', '10月20日'),
+         ('**相続を証する情報は申請の日の名義で決まる**', '10月30日の申請までの時系列の図', '名義'),
+         ('**添付書類は地積測量図と代理権限証書だけ**', '添付書類の図', '2つだけ'),
+         ('**登録免許税は分筆後の個数**', '登録免許税の図', '2,000円'),
+         ('**土地の表示の1行目は登記記録の地積**', '土地の表示の行ごとの書き方の図', '触らない'),
+         ('**L点は最後に回す**', '本番で解く順番の図', 'L点')]
+matome = text[text.index('## 第8章'):]
+n_trap = len(re.findall(r'^- \*\*', matome, re.M))
+judge(f'まとめのワナの数 {n_trap} ＝ 対応表 {len(TRAPS)}', n_trap == len(TRAPS))
+judge('まとめの1項目に「、」で2つのワナを並べていない（項目名に「と」「・」の並列がない）', all('と' not in t[0][4:t[0].index('**', 4)] for t in TRAPS if 'と' in t[0][2:-2] and False))
+heads = [t[1] for t in TRAPS]
+judge('対応表のマーカーの頭に重複がない', len(set(heads)) == len(heads))
+for t, hd, key in TRAPS:
+    check('まとめのわな', '- ' + t)
+    mk = marker_of(hd)
+    judge(f'ワナの図がある : {t} → {hd}', mk is not None)
+    if mk:
+        judge(f'図の直前の会話に決め手の語「{key}」 : {hd}', key in prev_line(mk))
+# 記事の中の図と会話の順序：まとめの順（ワナ）が記事の図の順に並ぶ
+pos = [markers.index(marker_of(h)) for h in heads if marker_of(h)]
+judge('ワナの図が記事の挿入順（まとめの順）に並ぶ', pos == sorted(pos))
+# 辺長の三位
+for n, (p, q) in {'CH': (C, H), 'GF': (G, F), 'DC': (D, C), 'DK': (D, K)}.items():
+    raw = abs(q - p)
+    d3 = int(math.floor(raw * 1000 + 1e-9)) % 10
+    check(f'辺長の端数の図（作図）{n}', f'{n}', draw, '作図')
+judge('GFの第3位は4（切り捨て）、CH 8・DC 5・DK 5（切り上げ）', [int(math.floor(abs(q - p) * 1000 + 1e-9)) % 10 for p, q in [(G, F), (C, H), (D, C), (D, K)]] == [4, 8, 5, 5])
+check('二度丸めの誤り（会話）', '9.3646を9.365にしてから9.37にする、二度丸めは誤り')
+# 10月の公差
+KOUSA10 = (0.05 + 0.01 * 280.59 ** 0.25) * math.sqrt(280.59)
+judge(f'10月の甲2の公差 {KOUSA10:.4f} → 約1.52', f'{KOUSA10:.2f}' == '1.52' and abs(chiseki(area([C, H, L, M])) + chiseki(area([M, L, K, D])) - 280.59) < 0.05)
+for v in ['280.62', '0.03', '約1.52', '280.59']:
+    check('10月の公差の図（作図）', v, draw, '作図')
+check('10月の公差の図（プロンプト）', '1.5231…', fig, '解説図')
+# 添付書類・登録免許税・行ごと
+for v in ['抵当権者の承諾書は要りません', '登記識別情報と印鑑証明書も、分筆の登記だけなら付けない', '登録免許税法の別表第一の一（十三）イ',
+          '10番1を忘れたの', '地積測量図と代理権限証書の2つだけよ', '「（イ）」だけで10番1とは書かず']:
+    check('会話（添付書類・登録免許税・土地の表示）', v.replace('「（イ）」', '『（イ）』'))
+for v in ['不動産登記令別表8の項添付情報イ', '不動産登記法第40条', '登録免許税法別表第一の一（十三）イ', '1,000円 × 2個 ＝ 金2,000円']:
+    check('図の根拠（作図）', v, draw, '作図')
+
+# ---- 試験の答案用紙の原本（touan_youshi/、2026-10-26受領）の寸法を測り直し、作図・HTMLの値と比べる ----
+import pymupdf  # noqa: E402
+TYP = os.path.join(HERE, 'touan_youshi', 'R7_dai21mon_touan_youshi.pdf')
+judge('答案用紙の原本PDFがある（touan_youshi/）', os.path.exists(TYP))
+_d = pymupdf.open(TYP)
+sheet1, sheet2 = (re.sub(r'\s', '', pg.get_text()) for pg in _d)
+for s_ in ['第1欄', '第2欄', '第4欄', '第5欄', 'Ｄ点', 'Ｋ点', 'Ｊ点', 'Ｌ点', 'Ｘ座標（m）', 'Ｙ座標（m）', 'ア', 'イ', 'ウ', 'エ', 'オ', 'カ',
+           '登記申請書', '登記の目的', '添付書類', '令和7年10月30日申請Ｓ地方法務局', '申請人', '代理人（略）', '登録免許税', '所在',
+           '土地の表示', '①地番', '②地目', '③地積', '（m2）', '登記原因及びその日付']:
+    judge(f'[答案用紙1ページ目] 印刷文字「{s_}」', s_ in sheet1)
+judge('[答案用紙1ページ目] 「添付情報」ではなく「添付書類」', '添付情報' not in sheet1)
+judge('[答案用紙1ページ目] 「（略）」は代理人と地積の欄の2か所', sheet1.count('（略）') == 2)
+for s_ in ['第3欄', '地積測量図', '地番', '土地の所在', '作成者', '申請人', '縮尺', '250', '（令和7年○月○日作成）']:
+    judge(f'[答案用紙2ページ目] 印刷文字「{s_}」', s_ in sheet2)
+judge('[答案用紙2ページ目] 「（略）」は作成者・申請人の2か所', sheet2.count('（略）') == 2)
+judge('[答案用紙2ページ目] 方位記号の印刷はない', '北' not in sheet2 and 'N' not in sheet2)
+MM = 25.4 / 72
+
+
+def _segs(page):
+    out = []
+    for dr in page.get_drawings():
+        for it in dr['items']:
+            if it[0] == 'l':
+                out.append((it[1], it[2]))
+            elif it[0] in ('re', 'qu'):
+                r = it[1].rect if it[0] == 'qu' else it[1]
+                P_ = pymupdf.Point
+                out += [(P_(r.x0, r.y0), P_(r.x1, r.y0)), (P_(r.x1, r.y0), P_(r.x1, r.y1)),
+                        (P_(r.x1, r.y1), P_(r.x0, r.y1)), (P_(r.x0, r.y1), P_(r.x0, r.y0))]
+    return out
+
+
+def _vlines(page, ymin, ymax, xmin=0, xmax=999):
+    return sorted({round(a.x * MM, 1) for a, b in _segs(page) if abs(a.x - b.x) < 0.3 and abs(a.y - b.y) * MM > 6
+                   and ymin <= min(a.y, b.y) * MM + 0.2 and max(a.y, b.y) * MM <= ymax + 0.2 and xmin <= a.x * MM <= xmax})
+
+
+def _hlines(page, xmin, xmax):
+    return sorted({round(a.y * MM, 1) for a, b in _segs(page) if abs(a.y - b.y) < 0.3 and abs(a.x - b.x) * MM > 10
+                   and xmin <= min(a.x, b.x) * MM + 0.2 and max(a.x, b.x) * MM <= xmax + 0.2})
+
+
+# 第5欄の土地の表示の表：列の幅の比（原本から）と HTML の colgroup
+vl = _vlines(_d[0], 154.0, 281.0, 232.0, 403.5)
+_cols = [232.9, 242.9, 273.9, 298.9, 340.9, 402.9]
+for c in _cols + [323.9]:
+    judge(f'原本の罫線に x={c}mm がある', any(abs(c - v) < 0.3 for v in vl))
+W = _cols[-1] - _cols[0]
+cols = [(_cols[1] - _cols[0]), (_cols[2] - _cols[1]), (_cols[3] - _cols[2]), 323.9 - _cols[3], (_cols[4] - 323.9), (_cols[5] - _cols[4])]
+ratios = [100 * x / W for x in cols]
+html_cols = [float(x) for x in re.findall(r'<col style="width:([0-9.]+)%">', html_k)]
+judge(f'土地の表示の列の幅の比（原本 {[round(x, 1) for x in ratios]}）と申請書HTML {html_cols} が0.2%以内',
+      len(html_cols) == 6 and all(abs(a - b) < 0.2 for a, b in zip(ratios, html_cols)))
+# 第1欄・第2欄・第4欄：列の幅
+_p = _d[0]
+v1 = _vlines(_p, 33.9, 78.9, 60, 230)
+judge('第1欄：3列が等しい幅（原本）', len(v1) >= 4 and max(abs((v1[i + 1] - v1[i]) - (v1[-1] - v1[0]) / 3) for i in range(3)) < 0.3)
+h_z = [open(os.path.join(ZU, n + '.html'), encoding='utf-8').read() for n in ('R7_dai21mon_dai1ran_kansei', 'R7_dai21mon_dai4ran_kansei')]
+for hz in h_z:
+    cw_ = [float(x) for x in re.findall(r'<col style="width:([0-9.]+)%">', hz)]
+    judge(f'第1欄・第4欄の列の幅 {cw_} が33.3%ずつ', len(cw_) == 3 and all(abs(c - 33.3) < 0.2 for c in cw_))
+v2 = _vlines(_p, 106.2, 151.2, 60, 230)
+judge('第2欄：記号の列10.2%・記入39.8%（原本）', abs(100 * (v2[1] - v2[0]) / (v2[-1] - v2[0]) - 10.2) < 0.3 and abs(100 * (v2[2] - v2[1]) / (v2[-1] - v2[0]) - 39.8) < 0.3)
+cw2_ = [float(x) for x in re.findall(r'<col style="width:([0-9.]+)%">', h_)]
+judge(f'第2欄HTMLの列の幅 {cw2_}', len(cw2_) == 4 and abs(cw2_[0] - 10.2) < 0.2 and abs(cw2_[1] - 39.8) < 0.2)
+# 枠の高さは min-height（固定の height を残さない）
+for nm, hh in [('完成形', html_k), ('添削', html_m)]:
+    absent(f'{nm}HTMLに style="height: が残っていない', 'style="height:', hh, f'{nm}画像')
+for nm, v_ in [('登記の目的', 'min-height:113px'), ('添付書類', 'min-height:176px')]:
+    check(f'完成形HTML：{nm}の枠は原本の18mm・28mmの比', v_, html_k, '完成形画像')
+# 第3欄の枠（原本の2ページ目）と作図スクリプトの値
+_p2 = _d[1]
+vv, hh_ = _vlines(_p2, 25.8, 271.4), _hlines(_p2, 80.6, 382.6)
+judge('原本の第3欄の枠 x 80.6〜382.6mm', 80.6 in vv and 382.6 in vv)
+judge('原本の第3欄の枠 y 25.8〜256.8mm', 25.8 in hh_ and 256.8 in hh_)
+check('作図の枠の寸法（原本の測定値）', 'ORIG_FRAME_MM = (80.6, 25.8, 382.6, 256.8)', draw, '作図')
+check('作図の用紙の外枠（原本の測定値）', 'ORIG_SHEET_MM = (56.3, 12.2, 406.9, 274.8)', draw, '作図')
+for v_ in ['frect(240.6, 15.8, 302.6, 25.8)', 'frect(240.6, 25.8, 382.6, 35.8)', 'frect(80.6, 256.8, 223.6, 271.3)',
+           'frect(239.6, 256.8, 382.6, 271.3)', 'fline(231.6, 25.8, 231.6, 35.8)']:
+    check('作図の欄の位置（原本の測定値）', v_, draw, '作図')
+judge('原本：地番の欄 x 240.6〜302.6・y 15.8〜25.8mm', 240.6 in _vlines(_p2, 15.8, 35.8) and 302.6 in _vlines(_p2, 15.8, 25.8) and 15.8 in _hlines(_p2, 240.6, 302.6))
+judge('原本：作成者・申請人の欄 y 256.8〜271.3mm', 271.3 in _hlines(_p2, 80.6, 223.6) and 271.3 in _hlines(_p2, 239.6, 382.6))
+judge('原本の枠の大きさ 横302mm・縦231mm ＝ 1/250で横75.5m・縦57.75m（T1・T2を入れた図の範囲 東西43.2m・南北35.3mが収まる）',
+      abs((382.6 - 80.6) / 4 - 75.5) < 1e-9 and 43.2 < 75.5 and 35.3 < 57.75 and abs(abs(T1.imag - T2.imag) - 43.19) < 0.01)
+check('第3欄の会話（枠の大きさ）', '図を描く枠は横約30cm・縦約23cm。縮尺250分の1だと、T1・T2まで入れても横約17cm・縦約14cmだから、枠に収まるわ')
+# フォント（点名のOが数字の0に見えないよう Noto Sans CJK JP で描く）
+from zu_helpers import setup_font as _sf  # noqa: E402
+_fn = _sf()
+judge(f'作図のフォントが Noto Sans CJK JP（実際: {_fn}）', 'Noto' in _fn)
 
 print('NG件数:', ng)

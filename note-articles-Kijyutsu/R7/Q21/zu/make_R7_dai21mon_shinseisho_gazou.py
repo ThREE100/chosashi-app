@@ -9,6 +9,10 @@
   （「ア｜イ」「ウ｜エ」「オ｜カ」の3行）で別の画像にする（横1200pxの横長。2026-10-02追加）
 
 見本は `R6/Q21/zu/make_R6_dai21mon_shinseisho_gazou.py`（CSSと部品を同じ形にしている）。
+2026-10-26：試験の答案用紙の原本（`../touan_youshi/R7_dai21mon_touan_youshi.pdf`）の罫線から測り直した。
+  第5欄：登記の目的・申請人・登録免許税の枠は高さ18mm、添付書類は28mm（幅142mm）、土地の表示の表は所在18mm・見出し8mm・記入行20mm、
+  列の幅の比は 縦書き5.9・地番18.2・地目14.7・地積14.7＋10.0（点線で整数部と小数部）・原因36.5（％。表の全幅170mm）。
+  第1欄・第4欄：3列が等しい幅（33.3％）で行の高さ15mm、第2欄：記号10.2％・記入39.8％の2組。枠は min-height にして高さを合わせる。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（IPA明朝・IPAゴシック。Noto があればそちらを優先）
 実行: python3 note-articles-Kijyutsu/R7/Q21/zu/make_R7_dai21mon_shinseisho_gazou.py [出力フォルダ]
 - 座標の欄（R5・R6は第2欄、R7は第1欄・第4欄）も、答案用紙の座標値の表の形で別の画像にする（横1200pxの横長。2026-10-02追加）
@@ -41,11 +45,11 @@ body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAM
 .dairi .lab {{ padding-top: 0; }}
 .dairi .ryaku {{ flex: 1; text-align: center; }}
 table.land {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
-table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; white-space: nowrap; }}
+table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 125px; vertical-align: middle; white-space: nowrap; }}
 table.land td.vert {{ white-space: normal; }}
 table.land td.head {{ height: 50px; text-align: center; font-size: 20px; }}
 table.land td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }}
-table.land td.shozai-lab {{ text-align: center; height: 76px; }}
+table.land td.shozai-lab {{ text-align: center; height: 112px; }}
 table.land td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }}
 table.land td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }}
 table.land td.ryaku {{ text-align: center; }}
@@ -54,7 +58,7 @@ table.land td .ink, .box .ink {{ font-size: 26px; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 30px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
-.panel {{ padding: 26px 70px 30px; border-bottom: 2px solid #bbb; }}
+.panel {{ padding: 56px 70px 60px; border-bottom: 2px solid #bbb; }}
 .panel:last-of-type {{ border-bottom: none; }}
 .ptitle {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
            margin-bottom: 20px; }}
@@ -91,8 +95,8 @@ def land_table(row1, rows_rest, shozai):
     """土地の表示の表（R7の答案用紙の形）。記入行1は地積を点線で整数部・小数部に分け、記入行2〜5の③地積は
     4行を結合したセルに印刷の「（略）」を入れる。row1: (地番, 地目, 整数部, 小数部, 登記原因)、
     rows_rest: [(地番, 地目, 登記原因)] × 4"""
-    h = ['<table class="land"><colgroup><col style="width:6%"><col style="width:20%"><col style="width:12%">'
-         '<col style="width:12%"><col style="width:7%"><col style="width:43%"></colgroup>',
+    h = ['<table class="land"><colgroup><col style="width:5.9%"><col style="width:18.2%"><col style="width:14.7%">'
+         '<col style="width:14.7%"><col style="width:10%"><col style="width:36.5%"></colgroup>',
          f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
          '<tr><td class="vert" rowspan="6">土地の表示</td><td class="head">①地　　番</td>'
          '<td class="head">②地　　目</td><td class="head" colspan="2">③地　積　（m²）</td>'
@@ -112,13 +116,13 @@ APPLICANT = 'Ｓ市Ｔ町一丁目10番１号　甲野一郎'
 ATTACH = '地積測量図　代理権限証書'
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('土地分筆登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:170px">{ink(ATTACH)}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:113px">{ink('土地分筆登記')}</div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:176px">{ink(ATTACH)}</div></div>
 <div class="plain">{DATE}</div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:62px">{ink(APPLICANT)}</div></div>
+<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="min-height:113px">{ink(APPLICANT)}</div></div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
-<div class="row"><div class="lab">登録免許税</div><div class="box" style="height:62px">{ink('金2,000円')}</div></div>
-<div style="height:14px"></div>
+<div class="row"><div class="lab">登録免許税</div><div class="box" style="min-height:113px">{ink('金2,000円')}</div></div>
+<div style="min-height:14px"></div>
 {land_table((ink('10番１'), ink('宅地'), ink('280'), ink('59'), ''),
             [(ink('（イ）'), '', ink('③10番１、10番３に分筆')),
              (ink('（ロ）10番３'), ink('宅地'), ink('10番１から分筆')),
@@ -129,27 +133,23 @@ kansei = page(f'''<div class="page">
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ） ----
 OLD_ADDR = 'Ｓ市Ｍ町二丁目３番５号'
 NEW_ADDR = 'Ｓ市Ｔ町一丁目10番１号'
-EXTRA = '住所証明書'   # 答案用紙の欄は「添付書類」なので、誤答も書面の名前で書く（2026-10-07、「住所証明情報」から直した）
 
 
-def snippet(attach_html, applicant_html, bubble1='', bubble2='', good=False):
-    """答案用紙の順序（添付書類 → 申請の日付と提出先 → 申請人）どおりに描く。"""
+def snippet(applicant_html, bubble='', good=False):
+    """答案用紙の順序（申請の日付と提出先 → 申請人）どおりに、申請人の欄だけを描く（2026-10-26：添付書類の誤答は
+    別の論点なので、この添削画像からは外し、添付書類の図〔zu20〕で扱う）。"""
     g = ' good' if good else ''
     chk = CHECK_SVG if good else ''
-    return f'''<div class="row okrow"><div class="lab">添　付　書　類</div><div class="box{g}" style="min-height:84px">{attach_html}</div>{chk}</div>
-{f'<div class="bubrow"><span class="bubble">{bubble1}</span></div>' if bubble1 else ''}
-<div class="plain">{DATE}</div>
-<div class="row okrow"><div class="lab">申　　請　　人</div><div class="box{g}" style="min-height:62px">{applicant_html}</div>{chk}</div>
-{f'<div class="bubrow"><span class="bubble">{bubble2}</span></div>' if bubble2 else ''}'''
+    return f'''<div class="plain">{DATE}</div>
+<div class="row okrow"><div class="lab">申　　請　　人</div><div class="box{g}" style="min-height:113px">{applicant_html}</div>{chk}</div>
+{f'<div class="bubrow"><span class="bubble">{bubble}</span></div>' if bubble else ''}'''
 
 
-ng_panel = snippet(ink(f'{ATTACH}　{EXTRA}'), ink(f'{OLD_ADDR}　甲野一郎'))
+ng_panel = snippet(ink(f'{OLD_ADDR}　甲野一郎'))
 fix_panel = snippet(
-    f'{ink(ATTACH)}<span class="ink">　</span><span class="ink strike">{EXTRA}</span>',
     f'<span class="ink strike">{OLD_ADDR}</span><span class="ink">　甲野一郎</span><br><span class="red">{NEW_ADDR}</span>',
-    bubble1='登記記録の住所と一致するので、住所の証明は要らない',
-    bubble2='10月20日に住所変更登記が完了済み！登記記録の住所はもう新住所')
-ok_panel = snippet(ink(ATTACH), ink(APPLICANT), good=True)
+    bubble='10月20日に住所変更登記が完了済み！登記記録の住所はもう新住所')
+ok_panel = snippet(ink(APPLICANT), good=True)
 machigai = page(f'''
 <div class="panel"><div class="ptitle ng">①誤答</div>{ng_panel}</div>
 <div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix_panel}</div>
@@ -161,7 +161,7 @@ RAN_CSS = '''
 .ranpage { padding: 50px 60px 34px; }
 .ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 14px; }
 table.ran { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }
-table.ran td { border: 1.5px solid #111; height: 84px; font-size: 22px; vertical-align: middle; }
+table.ran td { border: 1.5px solid #111; height: 100px; font-size: 22px; vertical-align: middle; }
 table.ran td.k { text-align: center; }
 table.ran td.v { padding-left: 22px; }
 table.ran td.v .ink { font-size: 28px; }
@@ -171,8 +171,8 @@ DAI2 = [('ア', '280.59'), ('イ', '2.32'), ('ウ', '超えています'), ('エ
 trs = ''.join('<tr>' + ''.join(f'<td class="k">{k}</td><td class="v">{ink(v)}</td>' for k, v in DAI2[i:i + 2]) + '</tr>'
               for i in range(0, len(DAI2), 2))
 dai2 = (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{RAN_CSS}</style></head><body>'
-        f'<div class="ranpage"><div class="ranhead">第2欄</div><table class="ran"><colgroup><col style="width:9%">'
-        f'<col style="width:41%"><col style="width:9%"><col style="width:41%"></colgroup>{trs}</table>'
+        f'<div class="ranpage"><div class="ranhead">第2欄</div><table class="ran"><colgroup><col style="width:10.2%">'
+        f'<col style="width:39.8%"><col style="width:10.2%"><col style="width:39.8%"></colgroup>{trs}</table>'
         f'<div class="caption">令和7年度 土地家屋調査士試験 第21問 第2欄（問2）解答例</div></div></body></html>')
 
 
@@ -181,7 +181,7 @@ Z_CSS = '''
 .ranpage { padding: 50px 60px 34px; }
 .ranhead { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 26px; font-weight: bold; margin: 0 0 14px; }
 table.zh { width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }
-table.zh td { border: 1.5px solid #111; height: 72px; font-size: 22px; text-align: center; vertical-align: middle; }
+table.zh td { border: 1.5px solid #111; height: 100px; font-size: 22px; text-align: center; vertical-align: middle; }
 table.zh td.diag { background: linear-gradient(to top right, transparent calc(50% - 1px), #111 50%, transparent calc(50% + 1px)); }
 table.zh td .ink { font-size: 28px; }
 '''
@@ -191,8 +191,8 @@ def zahyou(head, rows, caption):
     """rows: [(点名, X, Y)]"""
     trs = ''.join(f'<tr><td>{n}</td><td>{ink(x)}</td><td>{ink(y)}</td></tr>' for n, x, y in rows)
     return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>{CSS}{Z_CSS}</style></head><body>'
-            f'<div class="ranpage"><div class="ranhead">{head}</div><table class="zh"><colgroup><col style="width:32%">'
-            f'<col style="width:34%"><col style="width:34%"></colgroup>'
+            f'<div class="ranpage"><div class="ranhead">{head}</div><table class="zh"><colgroup><col style="width:33.4%">'
+            f'<col style="width:33.3%"><col style="width:33.3%"></colgroup>'
             f'<tr><td class="diag"></td><td>Ｘ座標（m）</td><td>Ｙ座標（m）</td></tr>{trs}</table>'
             f'<div class="caption">{caption}</div></div></body></html>')
 
@@ -202,7 +202,7 @@ dai1 = zahyou('第1欄', [('Ｄ点', '201.71', '114.41'), ('Ｋ点', '199.98', '
 dai4 = zahyou('第4欄', [('Ｊ点', '216.07', '116.94'), ('Ｌ点', '203.64', '131.88')],
                '令和7年度 土地家屋調査士試験 第21問 第4欄（問4）解答例')
 
-exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
     pg = browser.new_page(viewport={'width': 1200, 'height': 200})
