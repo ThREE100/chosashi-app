@@ -32,7 +32,7 @@ body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAM
 .page {{ padding: 60px 60px 40px; display: flex; flex-direction: column; }}
 .title {{ text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 40px 0.9em; }}
 .row {{ display: flex; align-items: flex-start; margin-bottom: 24px; }}
-.lab {{ width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }}
+.lab {{ width: 149px; font-size: 20px; padding-top: 10px; white-space: nowrap; }}
 .box {{ flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }}
 .ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 .dateline {{ font-size: 22px; margin: 2px 0 24px 20px; }}
@@ -42,9 +42,10 @@ table.t {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table
 table.t td {{ border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }}
 table.t td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 1.2em; padding: 0; font-size: 21px; }}
 table.t td.lab2 {{ text-align: center; font-size: 18px; }}
-table.t td.head {{ text-align: center; font-size: 17px; height: 76px; }}
-table.t td.val {{ height: 56px; }}
-table.t td.entry {{ height: 128px; }}
+table.t td.head {{ text-align: center; font-size: 17px; height: 117px; }}
+table.t td.val {{ height: 99px; }}
+table.t td.kaoku {{ height: 52px; }}
+table.t td.entry {{ height: 149px; }}
 table.t td.center {{ text-align: center; }}
 table.t td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }}
 table.t td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }}
@@ -52,7 +53,7 @@ table.t td.genin {{ font-size: 17px; }}
 table.t td .ink {{ font-size: 19px; }}
 table.t td.genin .ink {{ font-size: 18px; }}
 .sec {{ font-size: 24px; margin: 0 0 4px; }}
-table.r2 td {{ height: 72px; font-size: 21px; }}
+table.r2 td {{ height: 91px; font-size: 21px; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 34px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
@@ -101,24 +102,28 @@ def area(floors, cls='entry'):
 
 
 # ---- 建物の表示（答案用紙の形：所在1段、家屋番号、見出し、記入行5行） ----
-COLS = ('<colgroup><col style="width:5%"><col style="width:12%"><col style="width:10%"><col style="width:19%">'
-        '<col style="width:12%"><col style="width:6%"><col style="width:36%"></colgroup>')
-HEAD = ('<td class="head">主である<br>建物又は<br>附属建物</td><td class="head">①種　類</td><td class="head">②構　造</td>'
-        '<td class="head" colspan="2">③床面積<br>m²</td><td class="head">原因及びその日付</td>')
+# 列の幅は、試験の答案用紙の原本PDF（../touan_youshi/R4_dai22mon_touan_youshi.pdf）の罫線を pymupdf の get_drawings() で測った値（pt）。
+# 表の幅472.0pt（x＝177.0〜649.0）＝画像で1080px（2.288px/pt）。縦の罫線のx座標：177.0・203.1・242.2・257.0・281.3・322.2・
+# 428.5・492.2・534.8・649.0（所在の欄の境242.2と家屋番号の欄の境281.3は、ほかの列の境と合わないので9列に分ける）。
+COL_PT = (26.1, 39.1, 14.8, 24.3, 40.9, 106.3, 63.7, 42.6, 114.2)
+COLS = '<colgroup>' + ''.join(f'<col style="width:{w / 472.0 * 100:.2f}%">' for w in COL_PT) + '</colgroup>'
+# 行の高さ（pt → px）：所在43.2→99、家屋番号22.7→52、見出し51.0→117、記入行65.1→149（CSSの td.val・kaoku・head・entry）
+HEAD = ('<td class="head" colspan="2">主である<br>建物又は<br>附属建物</td><td class="head" colspan="2">①種　類</td>'
+        '<td class="head">②構　造</td><td class="head" colspan="2">③床面積<br>m²</td><td class="head">原因及びその日付</td>')
 
 
 def entry_row(shu, kind, struct, floors, genin):
-    return (f'<tr><td class="entry center">{shu}</td><td class="entry center">{kind}</td>'
+    return (f'<tr><td class="entry center" colspan="2">{shu}</td><td class="entry center" colspan="2">{kind}</td>'
             f'<td class="entry center">{struct}</td>{area(floors)}<td class="entry genin">{genin}</td></tr>')
 
 
-EMPTY_ROW = ('<tr><td class="entry"></td><td class="entry"></td><td class="entry"></td>'
+EMPTY_ROW = ('<tr><td class="entry" colspan="2"></td><td class="entry" colspan="2"></td><td class="entry"></td>'
              '<td class="entry int"></td><td class="entry dec"></td><td class="entry"></td></tr>')
 
 S_OLD = '木造スレー<br>トぶき平家<br>建'
 S_NEW = '木造スレー<br>トぶき２階<br>建'
 S_GAR = '鉄骨造亜鉛<br>メッキ鋼板<br>ぶき平家建'
-GENIN_OK = '①②③令和４年９月30日種類・<br>構造変更、増築、符号１の附属<br>建物合体'
+GENIN_OK = '①②③令和４年９月30日<br>種類・構造変更、増築、<br>符号１の附属建物合体'
 
 ROW1 = entry_row(ink('主'), ink('事務所'), ink(S_OLD), [('', '72', '00')], '')
 ROW2 = entry_row('', ink('居宅'), ink(S_NEW), [('1階', '113', '00'), ('2階', '25', '00')], ink(GENIN_OK))
@@ -127,18 +132,18 @@ ROW3 = entry_row(ink('符号１'), ink('倉庫'), ink(S_NEW), [('1階', '25', '0
 ROW4 = entry_row(ink('符号２'), ink('車庫'), ink(S_GAR), [('', '20', '00')], ink('令和４年９月30日新築'))
 
 TABLE = (f'<table class="t">{COLS}'
-         f'<tr><td class="lab2 val" colspan="2">所　在</td><td class="val" colspan="5">{ink("Ａ市Ｂ町一丁目５番地３")}</td></tr>'
-         f'<tr><td class="vert" rowspan="7">建物の表示</td><td class="lab2 val">家屋番号</td>'
-         f'<td class="val" colspan="5">{ink("５番３")}</td></tr>'
+         f'<tr><td class="lab2 val" colspan="2">所　在</td><td class="val" colspan="7">{ink("Ａ市Ｂ町一丁目５番地３")}</td></tr>'
+         f'<tr><td class="vert" rowspan="7">建物の表示</td><td class="lab2 kaoku" colspan="3">家屋番号</td>'
+         f'<td class="kaoku" colspan="5">{ink("５番３")}</td></tr>'
          f'<tr>{HEAD}</tr>{ROW1}{ROW2}{ROW3}{ROW4}{EMPTY_ROW}</table>')
 
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('建物表題部変更登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:100px">{ink(br('建物図面　各階平面図　所有権証明書　代理権限証書'))}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:84px">{ink('建物表題部変更登記')}</div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:117px">{ink(br('建物図面　各階平面図　所有権証明書　代理権限証書'))}</div></div>
 <div class="dateline">令和４年10月17日　申請　　Ｅ地方法務局</div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:96px">{ink('Ａ市Ｂ町一丁目５番３号　和田令子')}</div></div>
-<div class="plainrow"><div class="lab">代　　理　　人</div><div class="ryaku">（略）</div></div>
+<div class="row"><div class="lab">申　請　人</div><div class="box" style="min-height:130px">{ink('Ａ市Ｂ町一丁目５番３号　和田令子')}</div></div>
+<div class="plainrow"><div class="lab">代　理　人</div><div class="ryaku">（略）</div></div>
 {TABLE}
 <div class="caption">令和4年度 土地家屋調査士試験 第22問 登記申請書 解答例</div>
 </div>''')
@@ -146,7 +151,7 @@ kansei = page(f'''<div class="page">
 
 # ---- 第2欄（問2）・第3欄（問3）：答案用紙どおり、記号と記入欄を交互に並べた2行×4列 ----
 def ran(sec, cells, caption):
-    cols = '<colgroup><col style="width:9%"><col style="width:41%"><col style="width:9%"><col style="width:41%"></colgroup>'
+    cols = '<colgroup><col style="width:12%"><col style="width:38%"><col style="width:12%"><col style="width:38%"></colgroup>'
     rows = ''.join(f'<tr><td class="center">{a}</td><td class="center">{ink(b)}</td>'
                    f'<td class="center">{c}</td><td class="center">{ink(d)}</td></tr>' for a, b, c, d in cells)
     return page(f'<div class="page"><div class="sec">{sec}</div><table class="t r2">{cols}{rows}</table>'
@@ -168,9 +173,9 @@ def snippet(row2, row1=ROW1, good=False):
             f'{row1}{row2}</table>{chk}</div>')
 
 
-NG = '③令和４年９月30日増築、符号１<br>の附属建物合体'
-FIX = (f'<span class="caret">∨①②</span><span class="ink">③令和４年９月30日</span>'
-       f'<span class="caret">∨種類・構造変更、</span><br><span class="ink">増築、符号１の附属建物合体</span>')
+NG = '③令和４年９月30日増築、<br>符号１の附属建物合体'
+FIX = (f'<span class="caret">∨①②</span><span class="ink">③令和４年９月30日</span><br>'
+       f'<span class="caret">∨種類・構造変更、</span><span class="ink">増築、</span><br><span class="ink">符号１の附属建物合体</span>')
 S_OLD_FIX = ink('木造スレー<br>トぶき') + '<span class="circle">' + ink('平家') + '</span><br>' + ink('建')
 S_NEW_FIX = ink('木造スレー<br>トぶき') + '<span class="circle">' + ink('２階') + '</span><br>' + ink('建')
 ROW1_FIX = entry_row(ink('主'), f'<span class="circle">{ink("事務所")}</span>', S_OLD_FIX,
@@ -189,7 +194,7 @@ machigai = page(f'''
 <div class="caption" style="margin:10px 0 30px">令和4年度 第22問｜変わった欄の番号と原因は、全部書く</div>''')
 
 if __name__ == '__main__':
-    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
         pg = browser.new_page(viewport={'width': 1200, 'height': 100})   # 高さは内容に合わせる（full_page）
