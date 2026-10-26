@@ -56,7 +56,9 @@
 
 駅のホームの売店は「上屋を有する」と問題文にありますが、この上屋はホーム全体を覆うためのものであって、売店という工作物自体が独自に備えている屋根・周壁ではありません。
 
-外気分断性は、その工作物自体が独立して風雨をしのげる構造になっているかどうかで判断されるため、ホームの上屋に間借りしているだけの売店は、単独では外気分断性の要件を満たさないと評価されます。ただし、これは不動産登記規則111条の定義を売店にあてはめた整理であり、駅のホーム内の売店を直接取り上げた条文や準則77条の例示があるわけではありません。
+外気分断性は、その工作物自体が独立して風雨をしのげる構造になっているかどうかで判断されるため、ホームの上屋に間借りしているだけの売店は、単独では外気分断性の要件を満たさないと評価されます。
+
+ただし、これは不動産登記規則111条の定義を売店にあてはめた整理であり、駅のホーム内の売店を直接取り上げた条文や準則77条の例示があるわけではありません。
 
 基礎工事によって定着性があり、販売行為という用途性があっても、外気分断性を欠く以上、建物として認定することはできません。
 
@@ -155,6 +157,22 @@ kanji 建・物・登・記・気・着・強・固・途・断・根・庫 — 
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -180,46 +198,49 @@ Subtitle (smaller, centered, 1行):
 建物と認定できる
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 電車の車体も基礎工事で定着すれば建物
 Illustration: An isometric train car body placed on a small plot of
 land, with a concrete foundation drawn beneath it firmly anchoring it
-to the ground. Three small labels beside the car read "定着性",
-"外気分断性", "用途性", each with a small green checkmark.
+to the ground. Three small labels beside the car read「定着性」,
+「外気分断性」, 「用途性」, each with a small green checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「定着性」
+「外気分断性」「用途性」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 基礎工事で定着性あり
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 山門も上部が宝物庫なら建物
 Illustration: An isometric temple gate (山門). The ground floor is
 drawn as a simple pass-through gate, while the upper floor is drawn
 as a storeroom filled with scroll and ritual-implement icons, labeled
-"宝物庫". Small labels "外気分断性" and "用途性" sit beside the upper
+「宝物庫」. Small labels「外気分断性」and「用途性」sit beside the upper
 floor with green checkmarks.
+Words allowed inside this illustration (verbatim, nothing else): 「宝物庫」
+「外気分断性」「用途性」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 宝物庫で用途性あり
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 ガラス張り温室も強固なら建物
 Illustration: An isometric large greenhouse with a steel frame and
 glass panels for walls and roof, tomato plants visible inside. A
-label "外気分断性" sits on the glass wall with a green checkmark.
+label「外気分断性」sits on the glass wall with a green checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「外気分断性」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 ガラスでも外気分断性あり
 
 --- COLUMN A, CARD 4 ---
-Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 桟橋上の事務所も定着していれば建物
 Illustration: An isometric permanent pier extending over water, with
 a small office building fixed to it by a visible concrete foundation.
-Three small labels beside the office read "定着性", "外気分断性",
-"用途性", each with a small green checkmark.
+Three small labels beside the office read「定着性」,「外気分断性」,
+「用途性」, each with a small green checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「定着性」
+「外気分断性」「用途性」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 桟橋ごと定着している
 
@@ -227,13 +248,14 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 建物と認定できない
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 駅ホームの売店は独自の壁がなく建物じゃない
 Illustration: An isometric train platform with a large roof (上屋)
 covering the whole platform. A small kiosk stands underneath it with
-no walls or roof of its own. A label "独自の屋根・周壁なし" sits
+no walls or roof of its own. A label「独自の屋根・周壁なし」sits
 beside the kiosk with a red cross mark.
+Words allowed inside this illustration (verbatim, nothing else): 「独自の
+屋根・周壁なし」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 独立した壁・屋根なし
 
@@ -243,12 +265,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -273,7 +297,7 @@ checking multiple conditions in sequence before reaching a conclusion,
 draw the panel's diagram as an actual decision flowchart: diamond-shaped
 branch nodes with the condition written on them, Yes/No (or ○/✕) branch
 arrows, and a final conclusion node. Panels 1（肢1）, 2（肢2）, 3（肢
-ウ）, 4（肢5）and 5（肢4）all share the same underlying three-diamond
+3）, 4（肢5）and 5（肢4）all share the same underlying three-diamond
 AND decision tree (first diamond: 土地への定着性はあるか → reached only
 on はい, second diamond: 独立した屋根・周壁による外気分断性はあるか →
 reached only on はい, third diamond: 居住・作業・貯蔵等の用途性はある
@@ -328,6 +352,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
