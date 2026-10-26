@@ -143,6 +143,22 @@ summarize, or substitute any characters. Characters such as「登」「記」
 being confused with Simplified Chinese variants — render them only in
 standard Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -161,64 +177,69 @@ Subtitle (smaller, centered, 1行):
 不動産登記法(地図及び建物所在図) (平成18年度 第17問)
 
 --- CARD 1 ---
-Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 要件を満たせば地図に格上げされる
 Illustration: An isometric provisional-looking sketched map labeled
 「地図に準ずる図面」transforming via a glowing arrow into a clean, precise
 official map labeled「地図」, with a checkmark stamp「要件を充足」next to it.
+Words allowed inside this illustration (verbatim, nothing else): 「地図に準
+ずる図面」「地図」「要件を充足」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 そのまま地図に格上げ
 
 --- CARD 2 ---
-Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 地図を電子化したら旧地図は閉鎖
 Illustration: An isometric paper map labeled「従前の地図」being stamped with
 a red「閉鎖」seal, while next to it a glowing digital screen/tablet icon
 displays a new map labeled「電磁的記録」with a checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「従前の
+地図」「閉鎖」「電磁的記録」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 従前の地図は閉鎖
 
 --- CARD 3 ---
-Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 建物所在図は地図＋建物図面のみで作成
 Illustration: Two isometric documents labeled「地図」and「建物図面」merging
 with a checkmark into a folder labeled「建物所在図」, while a third sketched
 document labeled「地図に準ずる図面」sits to the side with a red ✕ mark and a
 crossed-out arrow pointing toward the folder.
+Words allowed inside this illustration (verbatim, nothing else): 「地図」
+「建物図面」「建物所在図」「地図に準ずる図面」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 準ずる図面では作成不可
 
 --- CARD 4 ---
-Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 地番の誤りは登記名義人が訂正申出
 Illustration: An isometric character labeled「所有権の登記名義人」pointing at
 a map with a red circled error mark on a plot labeled「地番」, handing a
 document labeled「訂正の申出」to a registry-office building icon.
+Words allowed inside this illustration (verbatim, nothing else): 「所有権
+の登記名義人」「地番」「訂正の申出」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 名義人・相続人が申出可
 
 --- CARD 5 ---
-Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 区分建物は一棟全体の位置を記録
 Illustration: An isometric multi-story apartment building with one unit
 highlighted labeled「区分建物」, and a dashed outline around the entire
 building labeled「一棟の建物」with an arrow pointing to a building-location
 map folder labeled「建物所在図」showing the whole building's position.
+Words allowed inside this illustration (verbatim, nothing else): 「区分
+建物」「一棟の建物」「建物所在図」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 blue, 5-15 Japanese characters):
 一棟全体の位置を記録
 
 --- FOOTER ---
-Final check before rendering: confirm the five cards are numbered 1 to 5 consecutively and that every card number, heading and conclusion tag is rendered exactly as written above (no duplicated, missing or reworded cards). Then scan every kanji glyph and confirm it is
+Final check before rendering: confirm no card carries a number, numbered circle or any numbering, and that every card's heading and conclusion tag is rendered exactly as written above (no duplicated, missing or reworded cards). Then scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not
 Traditional Chinese. If any character
 renders as a Simplified or Traditional Chinese
@@ -232,7 +253,10 @@ with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible — confirm
+nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -291,6 +315,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -430,7 +463,10 @@ nodes (not a bare illustration with no visible decision structure), that
 no 選択肢 with a genuinely hidden second condition has been flattened into
 a single check, that each 着眼点 callout states a checking order rather
 than only a conclusion and keeps every required element from the source
-article distinct (no merged or dropped requirements), confirm nothing is
+article distinct (no merged or dropped requirements), confirm that no
+diagram contains any text other than the specified 「」 words (no
+inscriptions, signs, or pseudo-writing) and that each allowed word is
+clearly legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 選択肢, and no
 additional text block of any kind), and confirm the entire canvas, edge
