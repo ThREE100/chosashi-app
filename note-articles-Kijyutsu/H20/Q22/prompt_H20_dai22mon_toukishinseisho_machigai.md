@@ -52,6 +52,9 @@ note記事「【土地家屋調査士受験生向け】平成20年度問題22（
 - PNG画像（1枚、3段構成）
 - 画像の元になったHTMLファイル
 
-## 生成済みの画像（2026-09-30）
+## 生成済みの画像（2026-10-26に最新の基準で作り直し）
 
-このプロンプトどおりに、このリポジトリで生成済み（`zu/make_H20_dai22mon_shinseisho_gazou.py`。HTML＋Playwright、3コマを縦に積む）：`zu/H20_dai22mon_toukishinseisho_machigai.png`（1200×1656px）と `.html`
+このプロンプトどおりに、このリポジトリで生成済み（`zu/make_H20_dai22mon_shinseisho_gazou.py`。HTML＋Playwright、3コマを縦に積む）：`zu/H20_dai22mon_toukishinseisho_machigai.png`（1200×1482px）と `.html`
+
+- 表の列の幅は、試験の答案用紙（その2）の原本（`touan_youshi/H20_dai22mon_touan_youshi_p2.png`）の罫線から測った比（境界のx：103・141・220・395・578・815）。枠の高さは `min-height`（`style="height:` は使わない）
+- 画像の中に「図1」などの図番は入れない（番号はPNG名と記事のマーカーの順だけ）

@@ -5,11 +5,17 @@ HTML＋ヘッドレスブラウザでPNGに書き出す。
   試験の答案用紙（その1）（A4縦。登記申請書・一棟の建物の表示・敷地権の目的たる土地の表示）の下に、
   （その2）の区分した建物の表示・敷地権の表示を続けて縦に積む。項目の順序は答案用紙の印刷どおり
   「登記の目的 → 添付書類 → 平成20年８月24日　申請　Ａ地方法務局 → 申請人 → 代理人（印刷済み） → 登録免許税」。
-  一棟の建物の表示の②床面積は、整数部｜小数部に分けたセルが左右に2つ（解答例と同じく左のセルに1階〜3階を書く）
+  一棟の建物の表示の②床面積は、整数部｜小数部に分けたセルが左右に2つ（解答例と同じく左のセルに1階〜3階を書く）。
+  「問1（登記申請書）」の見出し、「※欄には記載しないでください。」、表の右の※の枠、表の下の土地家屋調査士の名と職印も印刷どおりに入れる
 - 問3の欄：（その2）の下の問3の欄の完成形
 - 添削　：`../prompt_H20_dai22mon_toukishinseisho_machigai.md` どおり。①誤答・②添削・③正解の3コマを縦に積んだ縦長（横1200px）
+- 寸法：試験の答案用紙の原本（`../touan_youshi/H20_dai22mon_touan_youshi_p1.png`・`_p2.png`、1000×1417px）の罫線から測った比。
+  答案用紙の枠の幅712px＝この画像の940px（1.32倍）。列の幅は `verify_H20_dai22mon.py` が原本から測り直して比べる
+  （表の列の境界（原本のx）：一棟の建物 103・141・201・259・394・441・537・578・625・815、敷地権の目的たる土地 103・141・220・441・510・578・625・815、
+  区分した建物 103・141・200・297・356・434・480・578・680・718・815、敷地権の表示 103・141・220・395・578・815）
+- 枠の高さは min-height（記入が増えても枠が崩れない）
 
-CSSと部品の作りは `R3/Q22/zu/make_R3_dai22mon_shinseisho_gazou.py` と同じ形にしている。
+CSSと部品の作りは `H23/Q22/zu/make_H23_dai22mon_shinseisho_gazou.py` と同じ形にしている。
 必要なもの：Python の playwright、Chromium（/opt/pw-browsers）、日本語フォント（Noto Serif/Sans CJK JP、なければIPA明朝・IPAゴシック）
 実行: python3 note-articles-Kijyutsu/H20/Q22/zu/make_H20_dai22mon_shinseisho_gazou.py [出力フォルダ]
 """
@@ -25,33 +31,57 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else HERE
 INK = '#1a3a8f'      # 記入（濃い青）
 RED = '#d0021b'      # 添削（赤ペン）
 GREEN = '#2e9e44'    # 正解の枠
+K = 940 / 712        # 答案用紙の枠の幅712px → この画像の940px
 
-CSS = f'''
+
+def sx(x):
+    """答案用紙（1000px幅）の横の位置 x を、枠の左端（103）からのこの画像の位置（px）にする。"""
+    return round((x - 103) * K)
+
+
+def cols(*bounds):
+    """列の境界（原本のx）から colgroup を作る。"""
+    ws = [b - a for a, b in zip(bounds, bounds[1:])]
+    tot = sum(ws)
+    return '<colgroup>' + ''.join(f'<col style="width:{w / tot * 100:.2f}%">' for w in ws) + '</colgroup>'
+
+
+CSS = f"""
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAMincho", serif; color: #111; }}
-.page {{ padding: 60px 60px 40px; display: flex; flex-direction: column; }}
-.title {{ text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 40px 0.9em; }}
-.row {{ display: flex; align-items: flex-start; margin-bottom: 24px; }}
-.lab {{ width: 170px; font-size: 22px; padding-top: 10px; white-space: nowrap; }}
-.box {{ flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.6; }}
+.page {{ position: relative; padding: 36px 0 30px 72px; min-height: 1380px; }}
+.frame {{ position: relative; width: 940px; }}
+.qlab {{ font-size: 21px; margin: 0 0 6px 0; }}
+.qlab b {{ font-size: 22px; }}
+.attn {{ position: absolute; right: 0; top: -2px; font-size: 16px; }}
+.title {{ text-align: center; font-size: 34px; letter-spacing: 0.9em; margin: 14px 0 26px 0.9em; }}
+.row {{ position: relative; display: flex; align-items: flex-start; margin-bottom: 20px; }}
+.lab {{ width: {sx(285)}px; padding-left: {sx(135)}px; font-size: 22px; padding-top: 8px; white-space: nowrap; letter-spacing: 0.3em; }}
+.box {{ width: {sx(815) - sx(285)}px; border: 2px solid #111; padding: 8px 16px; font-size: 24px; line-height: 1.5; }}
 .ink {{ color: {INK}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
-.dateline {{ font-size: 22px; margin: 2px 0 22px 0; }}
-.plainrow {{ display: flex; font-size: 22px; margin-bottom: 6px; }}
-.plainrow .addr {{ flex: 1; padding-left: 120px; }}
-.renraku {{ font-size: 20px; margin: 0 0 24px 360px; }}
-.taxrow {{ display: flex; align-items: center; font-size: 22px; margin-bottom: 10px; }}
-.taxbox {{ width: 220px; border: 2px solid #111; padding: 8px 16px; font-size: 24px; margin: 0 12px; text-align: center; }}
-.sign {{ text-align: right; font-size: 21px; margin-top: 10px; }}
-.shokuin {{ border: 1.5px solid #111; padding: 0 6px; margin-left: 12px; }}
-.sec {{ font-size: 22px; margin: 40px 0 0; color: #555; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
-table.t {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; margin-top: 18px; }}
-table.t td {{ border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }}
+.dateline {{ position: relative; height: 40px; font-size: 22px; margin-bottom: 12px; }}
+.dateline span {{ position: absolute; top: 0; white-space: nowrap; }}
+.plainrow {{ position: relative; height: 34px; font-size: 22px; }}
+.plainrow span {{ position: absolute; top: 0; white-space: nowrap; }}
+.renraku {{ font-size: 20px; margin: 4px 0 26px {sx(405)}px; letter-spacing: 0.1em; }}
+.taxrow {{ position: relative; height: 62px; font-size: 22px; margin-bottom: 18px; }}
+.taxrow span {{ position: absolute; white-space: nowrap; top: 8px; }}
+.taxbox {{ position: absolute; left: {sx(285)}px; top: 0; width: {sx(434) - sx(285)}px; min-height: 61px; border: 2px solid #111;
+           padding: 10px 16px; font-size: 24px; text-align: center; }}
+.sign {{ text-align: right; font-size: 21px; margin: 12px 0 0 0; padding-right: 0; }}
+.shokuin {{ border: 1.5px solid #111; padding: 0 6px; margin-left: 12px; font-size: 18px; }}
+.stars {{ position: absolute; left: {sx(825) + 72}px; width: {sx(900) - sx(825)}px; border: 2px solid #111; font-size: 14px; }}
+.stars div {{ min-height: 118px; padding: 2px 6px; }}
+.stars div + div {{ border-top: 2px solid #111; }}
+.sec {{ font-size: 20px; margin: 26px 0 0; color: #555; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
+table.t {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
+table.t td {{ border: 1.5px solid #111; font-size: 19px; padding: 6px 8px; vertical-align: middle; line-height: 1.5; }}
 table.t td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 0.35em; padding: 0; font-size: 21px; }}
-table.t td.lab2 {{ text-align: center; font-size: 18px; }}
-table.t td.head {{ text-align: center; font-size: 17px; height: 76px; }}
-table.t td.val {{ height: 56px; }}
-table.t td.entry {{ height: 128px; }}
-table.t td.low {{ height: 90px; }}
+table.t td.lab2 {{ text-align: center; font-size: 19px; }}
+table.t td.head {{ text-align: center; font-size: 17px; min-height: 62px; height: 62px; }}
+table.t td.val {{ height: 61px; }}
+table.t td.entry {{ height: 119px; }}
+table.t td.low {{ height: 77px; }}
 table.t td.center {{ text-align: center; }}
 table.t td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }}
 table.t td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }}
@@ -59,12 +89,11 @@ table.t td.genin {{ font-size: 17px; }}
 table.t td .ink {{ font-size: 19px; }}
 table.t td.genin .ink {{ font-size: 18px; }}
 .toi3 {{ font-size: 22px; margin: 0 0 14px; }}
-.toi3box {{ border: 2px solid #111; padding: 20px 24px; min-height: 240px; font-size: 22px; line-height: 1.8; }}
+.toi3box {{ width: 940px; border: 2px solid #111; padding: 20px 24px; min-height: 306px; font-size: 22px; line-height: 1.8; }}
 .caption {{ text-align: center; font-size: 17px; color: #555; margin-top: 34px;
             font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
-.after {{ font-size: 17px; color: #555; margin-top: 14px; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 /* 添削画像 */
-.panel {{ padding: 26px 60px 30px; border-bottom: 2px solid #bbb; }}
+.panel {{ padding: 26px 60px 30px 72px; border-bottom: 2px solid #bbb; }}
 .ptitle {{ font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 28px; font-weight: bold;
            margin-bottom: 20px; }}
 .ptitle.ng {{ color: #555; }} .ptitle.fix {{ color: {RED}; }} .ptitle.ok {{ color: {GREEN}; }}
@@ -80,13 +109,15 @@ table.t td.genin .ink {{ font-size: 18px; }}
 .bubrow {{ margin: 16px 0 0; }}
 .note {{ margin-top: 12px; font-size: 19px; color: {RED}; font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; }}
 .good {{ outline: 3px solid {GREEN}; outline-offset: 4px; background: #f1faf2; }}
-.okwrap {{ position: relative; }}
+.okwrap {{ position: relative; width: 940px; }}
 .check {{ position: absolute; right: -14px; top: -22px; }}
-'''
+"""
 
 CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="#fff" '
              f'stroke="{GREEN}" stroke-width="3"/><path d="M11 23 L19 31 L33 14" fill="none" stroke="{GREEN}" '
              f'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+STARS = '<div class="stars" style="top:{top}px"><div>※</div><div>※</div></div>'
 
 
 def ink(s):
@@ -112,51 +143,51 @@ ITTOU_KOUZOU = '鉄筋コンクリー<br>ト造合金メッキ<br>鋼板ぶき�
 RO_KOUZOU = '鉄筋コンクリート<br>造２階建'
 DATE = '平成20年８月24日'
 
-# ---- 一棟の建物の表示（所在は2段、建物の名称は左右2つ、②床面積は左右2つのセル） ----
+# ---- 一棟の建物の表示（答案用紙（その1）の罫線：103・141・201・259・394・441・537・578・625・815） ----
+ITT_COLS = cols(103, 141, 201, 259, 394, 441, 537, 578, 625, 815)
 ITTOU = (
-    '<table class="t"><colgroup><col style="width:5%"><col style="width:9%"><col style="width:8%"><col style="width:18%">'
-    '<col style="width:7%"><col style="width:17%"><col style="width:7%"><col style="width:29%"></colgroup>'
+    f'<table class="t">{ITT_COLS}'
     '<tr><td class="vert" rowspan="5">一棟の建物の表示</td>'
-    f'<td class="lab2" rowspan="2">所在</td><td class="val" colspan="6">{ink("Ａ市Ｃ町六丁目５番地６")}</td></tr>'
-    '<tr><td class="val" colspan="5"></td><td class="val"></td></tr>'
-    '<tr><td class="lab2 val" colspan="2">建物の名称</td><td class="val" colspan="3"></td><td class="val" colspan="2"></td></tr>'
-    '<tr><td class="head" colspan="2">①構　造</td><td class="head" colspan="4">②床　面　積<br>'
-    '<span style="display:inline-block;width:48%">m²</span><span style="display:inline-block;width:48%">m²</span></td>'
+    f'<td class="lab2" rowspan="2">所在</td><td class="val" colspan="7">{ink("Ａ市Ｃ町六丁目５番地６")}</td></tr>'
+    '<tr><td class="val" colspan="6"></td><td class="val"></td></tr>'
+    '<tr><td class="lab2 val" colspan="2">建物の名称</td><td class="val" colspan="3"></td><td class="val" colspan="3"></td></tr>'
+    '<tr><td class="head" colspan="2">①構　造</td><td class="head" colspan="5">②床　面　積<br>'
+    '<span style="display:inline-block;width:46%">m²</span><span style="display:inline-block;width:46%">m²</span></td>'
     '<td class="head">原因及びその日付</td></tr>'
     f'<tr><td class="entry center" colspan="2">{ink(ITTOU_KOUZOU)}</td>'
     f'{area([("1階", "131", "00"), ("2階", "131", "00"), ("3階", "120", "00")])}'
-    '<td class="entry int"></td><td class="entry dec"></td><td class="entry genin"></td></tr></table>')
+    '<td class="entry int" colspan="2"></td><td class="entry dec"></td><td class="entry genin"></td></tr></table>')
 
+# ---- 敷地権の目的たる土地の表示（103・141・220・441・510・578・625・815） ----
+MOK_COLS = cols(103, 141, 220, 441, 510, 578, 625, 815)
 MOKUTEKI = (
-    '<table class="t" style="margin-top:0;border-top:none"><colgroup><col style="width:5%"><col style="width:11%">'
-    '<col style="width:24%"><col style="width:10%"><col style="width:12%"><col style="width:9%"><col style="width:29%"></colgroup>'
+    f'<table class="t" style="border-top:none">{MOK_COLS}'
     '<tr><td class="vert" rowspan="5" style="font-size:18px;letter-spacing:0.05em">敷地権の目的たる土地の表示</td>'
     '<td class="head">①土　地<br>の符号</td><td class="head">②所在及び地番</td><td class="head">③地目</td>'
     '<td class="head" colspan="2">④地積<br>m²</td><td class="head">原因及びその日付</td></tr>'
-    f'<tr><td class="low center">{ink("１")}</td><td class="low">{ink("Ａ市Ｃ町六丁目<br>５番６")}</td>'
+    f'<tr><td class="low center">{ink("１")}</td><td class="low">{ink("Ａ市Ｃ町六丁目５番６")}</td>'
     f'<td class="low center">{ink("宅地")}</td>{area([("", "320", "55")], "low")}<td class="low genin"></td></tr>'
     + ''.join('<tr><td class="low"></td><td class="low"></td><td class="low"></td><td class="low int"></td>'
               '<td class="low dec"></td><td class="low"></td></tr>' for _ in range(3))
     + '</table>')
 
-KUBUN_COLS = ('<colgroup><col style="width:5%"><col style="width:8%"><col style="width:13%"><col style="width:7%">'
-              '<col style="width:10%"><col style="width:7%"><col style="width:13%"><col style="width:14%"><col style="width:6%">'
-              '<col style="width:17%"></colgroup>')
+# ---- （その2）区分した建物の表示（103・141・200・297・356・434・480・578・680・718・815） ----
+KUBUN_COLS = cols(103, 141, 200, 297, 356, 434, 480, 578, 680, 718, 815)
 KUBUN_HEAD = ('<td class="head">不動産<br>番　号</td><td class="head">家屋番号</td><td class="head">建物の<br>名　称</td>'
-              '<td class="head" style="font-size:15px">主たる建物<br>又は附属建物</td>'
+              '<td class="head" style="font-size:14px">主たる建物<br>又は附属建物</td>'
               '<td class="head">①<br>種類</td><td class="head">②構造</td><td class="head" colspan="2">③床面積<br>m²</td>'
               '<td class="head">原因及び<br>その日付</td>')
-RO_ROW = (f'<tr><td class="entry center">（略）</td><td class="entry">{ink("（ロ）<br>Ｃ町六丁目<br>５番６の２")}</td>'
-          f'<td class="entry"></td><td class="entry"></td><td class="entry center">{ink("居宅")}</td>'
-          f'<td class="entry center">{ink(RO_KOUZOU)}</td>{area([("2階部分", "68", "07"), ("3階部分", "116", "14")])}'
-          f'<td class="entry genin">{ink("５番６から区分")}</td></tr>')
+RO_ROW = (f'<tr><td class="low center">（略）</td><td class="low">{ink("（ロ）<br>Ｃ町六丁目<br>５番６の２")}</td>'
+          f'<td class="low"></td><td class="low"></td><td class="low center">{ink("居宅")}</td>'
+          f'<td class="low center">{ink(RO_KOUZOU)}</td>{area([("2階部分", "68", "07"), ("3階部分", "116", "14")], "low")}'
+          f'<td class="low genin">{ink("５番６から区分")}</td></tr>')
 EMPTY_KUBUN = ('<tr><td class="low"></td><td class="low"></td><td class="low"></td><td class="low"></td><td class="low"></td>'
                '<td class="low"></td><td class="low int"></td><td class="low dec"></td><td class="low"></td></tr>')
 KUBUN = (f'<table class="t">{KUBUN_COLS}<tr><td class="vert" rowspan="5">区分した建物の表示</td>{KUBUN_HEAD}</tr>'
          f'{RO_ROW}{EMPTY_KUBUN * 3}</table>')
 
-SK_COLS = ('<colgroup><col style="width:5%"><col style="width:11%"><col style="width:22%"><col style="width:26%">'
-           '<col style="width:36%"></colgroup>')
+# ---- 敷地権の表示（103・141・220・395・578・815） ----
+SK_COLS = cols(103, 141, 220, 395, 578, 815)
 SK_HEAD = ('<td class="head">①土　地<br>の符号</td><td class="head">②敷地権の種類</td>'
            '<td class="head">③敷地権の割合</td><td class="head">原因及びその日付</td>')
 
@@ -164,7 +195,7 @@ SK_HEAD = ('<td class="head">①土　地<br>の符号</td><td class="head">②�
 def shikichiken(wariai, good=False, extra=''):
     g = ' good' if good else ''
     chk = CHECK_SVG if good else ''
-    return (f'<div class="okwrap"><table class="t{g}" style="margin-top:28px">{SK_COLS}'
+    return (f'<div class="okwrap"><table class="t{g}" style="margin-top:0">{SK_COLS}'
             f'<tr><td class="vert" rowspan="3">敷地権の表示</td>{SK_HEAD}</tr>'
             f'<tr><td class="low center">{ink("１")}</td><td class="low center">{ink("所有権")}</td>'
             f'<td class="low center">{wariai}</td><td class="low center">{ink(DATE + "敷地権")}</td></tr>'
@@ -172,33 +203,37 @@ def shikichiken(wariai, good=False, extra=''):
             f'<tr><td colspan="5" class="low"></td></tr></table>{chk}</div>{extra}')
 
 
-kansei = page(f'''<div class="page">
+kansei = page(f"""<div class="page"><div class="frame">
+<div class="qlab"><b>問１</b>　（登記申請書）</div><div class="attn">※欄には記載しないでください。</div>
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('建物区分登記')}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:100px">{ink('建物図面　各階平面図　代理権限証書')}</div></div>
-<div class="dateline">平成20年８月24日　　申請　　Ａ地方法務局</div>
-<div class="row"><div class="lab">申　　請　　人</div><div class="box" style="height:100px">{ink('Ａ市Ｃ町六丁目２番３号　平野大輔')}</div></div>
-<div class="plainrow"><div class="lab">代　　理　　人</div><div class="addr">Ｂ市Ｄ町五丁目７番４号　　　　山　本　紀　子　㊞</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:62px">{ink('建物区分登記')}</div></div>
+<div class="row"><div class="lab">添付書類</div><div class="box" style="min-height:102px">{ink('建物図面　各階平面図　代理権限証書')}</div></div>
+<div class="dateline"><span style="left:0">平成20年８月24日</span><span style="left:{sx(275)}px">申請</span><span style="left:{sx(338)}px">Ａ地方法務局</span></div>
+<div class="row"><div class="lab">申　請　人</div><div class="box" style="min-height:104px">{ink('Ａ市Ｃ町六丁目２番３号　平野大輔')}</div></div>
+<div class="plainrow"><span style="left:{sx(135)}px;letter-spacing:0.3em">代　理　人</span><span style="left:{sx(338)}px">Ｂ市Ｄ町五丁目７番４号</span><span style="left:{sx(632)}px;letter-spacing:0.3em">山　本　紀　子</span><span style="left:{sx(790)}px">㊞</span></div>
 <div class="renraku">（連絡先　＊＊－＊＊＊＊－＊＊＊＊）</div>
-<div class="taxrow"><div class="lab">登録免許税</div>金<div class="taxbox">{ink('2,000')}</div>円</div>
-<div style="height:24px"></div>
+<div class="taxrow"><span style="left:{sx(135)}px;letter-spacing:0.3em">登録免許税</span><span style="left:{sx(259)}px">金</span><div class="taxbox">{ink('2,000')}</div><span style="left:{sx(445)}px">円</span></div>
 {ITTOU}
 {MOKUTEKI}
 <div class="sign">土地家屋調査士　　山　本　紀　子<span class="shokuin">職印</span></div>
-<div class="sec">（ここから答案用紙（その2））</div>
+</div>{STARS.format(top=1215)}</div>
+<div class="page" style="min-height:1010px"><div class="frame">
+<div class="sec" style="margin-top:0">（ここから答案用紙（その2））</div>
+<div style="min-height:14px"></div>
 {KUBUN}
+<div style="min-height:24px"></div>
 {shikichiken(ink('８分の３'))}
-<div class="caption">平成20年度 土地家屋調査士試験 第22問 問1 登記申請書 解答例</div>
-</div>''')
+</div>{STARS.format(top=700)}
+<div class="caption" style="margin:60px 0 0 -72px">平成20年度 土地家屋調査士試験 第22問 問1 登記申請書 解答例</div></div>""")
 
 TOI3 = ('本件土地（５番６）の登記記録の権利部甲区に、平野大輔の持分４分の３が敷地権である旨の登記がされる。'
         'また、権利部乙区の平野大輔の持分についての抵当権の登記（平成19年５月４日受付第13239号）は、'
         '建物の抵当権の登記と登記の目的・受付年月日・受付番号・登記原因及びその日付が同一であるため、職権で抹消される。')
-toi3 = page(f'''<div class="page">
+toi3 = page(f"""<div class="page" style="min-height:560px"><div class="frame">
 <div class="toi3"><b>問３</b>　設問の登記がされると、土地の登記記録にはどのような記録がされるか簡潔に記載しなさい。</div>
 <div class="toi3box">{ink(TOI3)}</div>
-<div class="caption">平成20年度 土地家屋調査士試験 第22問 問3 解答例</div>
-</div>''')
+</div>{STARS.format(top=330)}
+<div class="caption" style="margin:60px 0 0 -72px">平成20年度 土地家屋調査士試験 第22問 問3 解答例</div></div>""")
 
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ）：敷地権の表示の③敷地権の割合 ----
 ng_panel = shikichiken(ink('２分の１'))
@@ -208,14 +243,14 @@ fix_panel = shikichiken(f'<span class="ink dstrike">２分の１</span><span cla
                                '<div class="note">（参考）（イ）部分と（ロ）部分の床面積はどちらも184.21㎡（同じ専有部分の中の壁は引かない）なので、'
                                '床面積の割合は２分の１ずつ</div>'))
 ok_panel = shikichiken(ink('８分の３'), good=True)
-machigai = page(f'''
+machigai = page(f"""
 <div class="panel"><div class="ptitle ng">①誤答</div>{ng_panel}</div>
 <div class="panel"><div class="ptitle fix">②添削（赤ペン）</div>{fix_panel}</div>
 <div class="panel" style="border-bottom:none"><div class="ptitle ok">③正解</div>{ok_panel}</div>
-<div class="caption" style="margin:10px 0 30px">平成20年度 第22問｜敷地権の割合は土地全体に対する割合</div>''')
+<div class="caption" style="margin:10px 0 30px">平成20年度 第22問｜敷地権の割合は土地全体に対する割合</div>""")
 
 if __name__ == '__main__':
-    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
         pg = browser.new_page(viewport={'width': 1200, 'height': 300})
