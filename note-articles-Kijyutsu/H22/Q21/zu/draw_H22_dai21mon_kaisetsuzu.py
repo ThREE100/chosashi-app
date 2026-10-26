@@ -1,4 +1,4 @@
-"""平成22年度 第21問（土地）会話形式note記事の解説図23枚を、座標値から作図する。
+"""平成22年度 第21問（土地）会話形式note記事の解説図26枚を、座標値から作図する。
 
 `../prompt_H22_dai21mon_kaiwa_kaisetsuzu.md`（基本フォーム `../../../prompt_kaisetsuzu-gazou_kihon-form_tochi.md` から作成）
 の指示を、そのままPythonにしたもの。図に書く数値はすべて座標から計算し直し、記事の数値と一致しなければ止まる。
@@ -119,9 +119,9 @@ PTS = {'A': A, 'B': B, 'C': C, 'D': D, 'E': E, 'F': F, 'G': G, 'H': H, 'I': I, '
 ALL_PROBLEMS = []
 
 # =====================================================================
-# 図1：全体像（北を上にして座標どおりに描き直した見取図）
+# 図3：全体像（北を上にして座標どおりに描き直した見取図）
 # =====================================================================
-fig, (ax,) = new_figure('図1　北を上にして描き直した全体像',
+fig, (ax,) = new_figure('北を上にして描き直した全体像',
                         '南の辺のA・N・G・L・J・Fは、どれもX座標が513.27（真東西の一直線）。H・I・J（灰色）はA市の道路拡幅の杭で、\n'
                         'H→E→F→J→Iの帯（斜線）が、拡幅で道路になる予定の部分。点線K→LとM→Nが遺産分割の分割線。')
 z = Zu(ax, fontsize=14)
@@ -157,12 +157,12 @@ z.free_text(P(511.9, 474.0), '道　路', fs=15, color=GRAY, offsets=((0, 0), (0
 z.free_text(P(524.0, 507.2), '道\n路', fs=15, color=GRAY, offsets=((0, 0), (12, 0), (-12, 0)))
 z.callout(A + (N - A) * 0.5, 'X＝513.27（真東西）', dirs=(-100, -80, -120), color=GRAY, dists=(40, 55, 70))
 z.callout((E + F) / 2 + P(0, -0.6), '帯H→E→F→J→I', dirs=(160, 180, 140), color=GRAY, dists=(60, 80, 100))
-ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu01_zentaizu.png')
+ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu03_zentaizu.png')
 
 # =====================================================================
-# 図3：問1 整理図（固定配置）
+# 図5：問1 整理図（固定配置）
 # =====================================================================
-fig, ax = fixed_figure('図3　問1　東の道路境界は地積測量図の線（筆界は登記された時の線）',
+fig, ax = fixed_figure('問1　東の道路境界は地積測量図の線（筆界は登記された時の線）',
                        '協議・埋標・道路境界承諾書・道路管理図は、どれも道路拡幅の予定線の話。分筆も所有権の移転もされていないので、筆界はD→E→Fのまま。')
 TL = [(7, '平成8年3月6日', '6番2の分筆\n地積測量図で\n筆界D→E→F', RED), (27, '平成20年12月15日', '拡幅の協議\n（計画・買収金額）', BLACK),
       (47, '平成21年3月10日', '市コンクリート杭\nH・I・Jを埋標\n道路境界承諾書', BLACK),
@@ -185,13 +185,13 @@ for x, y, w, hh, head, col, lines, red in BOX2:
     ax.text(x + 2, y + hh - 4, head, fontsize=19, weight='bold', va='center', color=col)
     for i, t in enumerate(lines):
         ax.text(x + 3, y + hh - 12 - i * 7.6, t, fontsize=16, va='center', color=RED if i in red else BLACK)
-path = os.path.join(OUT, 'H22_dai21mon_zu03_mon1_seiri.png')
+path = os.path.join(OUT, 'H22_dai21mon_zu05_mon1_seiri.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図3: 整理図（固定配置）\n  →', path)
+print('[重なり検査] 図5: 整理図（固定配置）\n  →', path)
 
 
 # =====================================================================
-# 図5〜図8：放射（点ごとに1枚）
+# 図7〜図10：放射（点ごとに1枚）
 # =====================================================================
 def housha_figure(title, caption, station, back, pt, wrong, dist, obs, st_name, bk_name, pt_name, r,
                   wrong_dirs, pt_dirs, back_txt, obs_txt, zoom, others=(), obs_dirs=(90, 120, 60, 150, 30)):
@@ -251,45 +251,45 @@ def housha_figure(title, caption, station, back, pt, wrong, dist, obs, st_name, 
 
 
 fig, z = housha_figure(
-    '図4　G点の求め方（T3からT2を後視して放射）',
+    'G点の求め方（T3からT2を後視して放射）',
     'T3→T2の方向角 −88°30′24.38″（360°を足して271°29′35.62″）に、時計回りの観測角 122°54′34″ を足して 394°24′09.62″ ＝ 34°24′09.62″\n'
     '（真数表の34°24′10″）。3.345m進んでG（513.27, 484.16）。反時計回りに引くと（507.66, 484.01）で、道路の向こうに出る。',
     T3, T2, G, GW, '3.345', 122 + 54 / 60 + 34 / 3600, 'T3', 'T2', 'G', 1.4,
     (-60, -30, -90, 0), (0, 30, -30, 60), '方向角 271°29′35.62″', '観測角 122°54′34″（時計回り）', (-4.6, -4.0, 4.4, 4.5),
     others=[(A, 'A')])
-ALL_PROBLEMS += save(fig, list(z), 'H22_dai21mon_zu04_G_housha.png')
+ALL_PROBLEMS += save(fig, list(z), 'H22_dai21mon_zu07_G_housha.png')
 
 fig, z = housha_figure(
-    '図5　L点の求め方（T3からT2を後視して放射）',
+    'L点の求め方（T3からT2を後視して放射）',
     'T3→T2の方向角 271°29′35.62″ ＋ 観測角 165°33′52″ ＝ 437°03′27.62″ ＝ 77°03′27.62″（真数表の77°03′28″）。\n'
     '12.323m進んでL（513.27, 494.28）。GもLも南の辺のX＝513.27に並ぶ。反時計回りだと（507.13, 494.12）で道路の向こう。',
     T3, T2, L, LW, '12.323', 165 + 33 / 60 + 52 / 3600, 'T3', 'T2', 'L', 2.2,
     (-60, -30, -90, 0), (60, 30, 90, 0), '方向角 271°29′35.62″', '観測角 165°33′52″（時計回り）', (-5.5, -4.5, 5.0, 14.0),
     others=[(A, 'A'), (G, 'G')])
-ALL_PROBLEMS += save(fig, list(z), 'H22_dai21mon_zu05_L_housha.png')
+ALL_PROBLEMS += save(fig, list(z), 'H22_dai21mon_zu08_L_housha.png')
 
 fig, z = housha_figure(
-    '図6　F点の求め方（T1からT3を後視して放射）',
+    'F点の求め方（T1からT3を後視して放射）',
     'T1→T3の方向角 −90°59′38.89″（269°00′21.11″）＋ 観測角 38°27′45″ ＝ 307°28′06.11″。真数表の127°28′06″は、その180°逆の角。\n'
     '3.830m進んでF（513.27, 504.01）。器械点が変わったら後視の向きは arg(T3 − T1) で取り直す。反時計回りだと（508.51, 504.09）。',
     T1, T3, F, FW, '3.830', 38 + 27 / 60 + 45 / 3600, 'T1', 'T3', 'F', 1.4,
     (-120, -150, -90, 180), (90, 120, 60, 150), '方向角 269°00′21.11″', '観測角 38°27′45″（時計回り）', (-4.4, -5.0, 4.4, 3.4),
     others=[(L, 'L'), (G, 'G')])
-ALL_PROBLEMS += save(fig, list(z), 'H22_dai21mon_zu06_F_housha.png')
+ALL_PROBLEMS += save(fig, list(z), 'H22_dai21mon_zu09_F_housha.png')
 
 fig, z = housha_figure(
-    '図7　J点の求め方（T1からT3を後視して放射。問1の裏付けに使う参考の点）',
+    'J点の求め方（T1からT3を後視して放射。問1の裏付けに使う参考の点）',
     'T1→T3の方向角 269°00′21.11″ ＋ 観測角 21°57′44″ ＝ 290°58′05.11″（真数表の110°58′05″はその180°逆）。\n'
     '6.511m進んでJ（513.27, 500.97）。LとFの間の南の辺に乗る。A市の杭なので、6番2の筆界点ではない（答えには要らない）。',
     T1, T3, J, JW, '6.511', 21 + 57 / 60 + 44 / 3600, 'T1', 'T3', 'J', 1.6,
     (-120, -150, -90, 180), (90, 120, 60, 150), '方向角 269°00′21.11″', '観測角 21°57′44″（時計回り）', (-4.4, -8.0, 4.4, 3.4),
     others=[(L, 'L'), (F, 'F')], obs_dirs=(-160, 180, -140, 160, -120))
-ALL_PROBLEMS += save(fig, list(z), 'H22_dai21mon_zu07_J_housha.png')
+ALL_PROBLEMS += save(fig, list(z), 'H22_dai21mon_zu10_J_housha.png')
 
 # =====================================================================
-# 図8：座標変換の確かめ（地積測量図のメモ ⇔ 今回の座標）
+# 図11：座標変換の確かめ（地積測量図のメモ ⇔ 今回の座標）
 # =====================================================================
-fig, (ax1, ax2) = new_figure('図8　座標変換の確かめ（共通点2つで比が1＝平行移動だけ）',
+fig, (ax1, ax2) = new_figure('座標変換の確かめ（共通点2つで比が1＝平行移動だけ）',
                              '左の地積測量図のメモ（任意座標）のA8→A3と、右の今回の座標のA→Eは、どちらも 18.24 ＋ 38.88i。比 (E − A) ÷ (A3 − A8) ＝ 1 なので、\n'
                              '回転も縮尺の違いもない。ずれは A − A8 ＝ 320.04 ＋ 320.04i。A10・A2・A6をずらすと、今回のG・F・Bと一致する。',
                              ncols=2)
@@ -313,14 +313,14 @@ for axx, pts62, pts61, lab, v0, v1, names, title in [
         zz.point_label(p, n, away=centroid(pts61 + pts62), weight='bold')
     zz.edge_label(v0, v1, '18.24 ＋ 38.88i', v0 + P(10, -5), color=RED, fs=15, ts=(0.5, 0.4, 0.6, 0.3), dists=(12, 20, 30))
     axx.set_title(title, fontsize=18, weight='bold', pad=6)
-    ALL_PROBLEMS += zz.check_overlaps(f'図8 {lab}')
-path = os.path.join(OUT, 'H22_dai21mon_zu08_zahyou_henkan.png')
+    ALL_PROBLEMS += zz.check_overlaps(f'図11 {lab}')
+path = os.path.join(OUT, 'H22_dai21mon_zu11_zahyou_henkan.png')
 fig.savefig(path, dpi=100, facecolor='white')
 print('  →', path)
 
 
 # =====================================================================
-# 図9・図10：C点・D点（A8から見た向きと長さはメモも今回も同じ）
+# 図12・図13：C点・D点（A8から見た向きと長さはメモも今回も同じ）
 # =====================================================================
 def heikou_figure(title, caption, pt, key, vec_txt, name, dirs, extra_checks=()):
     fig, (ax,) = new_figure(title, caption)
@@ -347,23 +347,23 @@ def heikou_figure(title, caption, pt, key, vec_txt, name, dirs, extra_checks=())
     return fig, z
 
 
-fig, z = heikou_figure('図9　問2　C点の求め方（A1を平行移動）',
+fig, z = heikou_figure('問2　C点の求め方（A1を平行移動）',
                        'C ＝ A1 ＋ (A − A8) ＝ 212.45 ＋ 161.82i ＋ 320.04 ＋ 320.04i ＝ 532.49 ＋ 481.86i。\n'
                        'A→Cの差（19.22 ＋ 16.09i）は、メモのA8→A1の差と同じ。Cは7－1と7－2の境の南の端（6番1と6番2の境の北の端）。',
                        C, 'A1', 'A1 − A8 ＝ 19.22 ＋ 16.09i', 'C', (150, 120, 170))
-ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu09_C_heikou.png')
+ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu12_C_heikou.png')
 
-fig, z = heikou_figure('図10　問2　D点の求め方（A4を平行移動）',
+fig, z = heikou_figure('問2　D点の求め方（A4を平行移動）',
                        'D ＝ A4 ＋ (A − A8) ＝ 214.63 ＋ 180.20i ＋ 320.04 ＋ 320.04i ＝ 534.67 ＋ 500.24i。\n'
                        '検算：A10・A2をずらすと（513.27, 484.16）（513.27, 504.01）で、放射のG・Fとぴったり一致する。',
                        D, 'A4', 'A4 − A8 ＝ 21.40 ＋ 34.47i', 'D', (60, 30, 90),
                        extra_checks=[(G, 'A10 ＋ ずれ ＝ G', (-110, -130, -90)), (F, 'A2 ＋ ずれ ＝ F', (-60, -80, -40))])
-ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu10_D_heikou.png')
+ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu13_D_heikou.png')
 
 # =====================================================================
-# 図11：問2 K点（CからDの向きに10.18m）。右は拡大
+# 図14：問2 K点（CからDの向きに10.18m）。右は拡大
 # =====================================================================
-fig, (ax1, ax2) = new_figure('図11　問2　K点の求め方（Cが出発点、D − C の向きに10.18m）',
+fig, (ax1, ax2) = new_figure('問2　K点の求め方（Cが出発点、D − C の向きに10.18m）',
                              'K ＝ C ＋ (D − C) ÷ Abs(D − C) × 10.18 ＝（533.69, 491.97）。D − C ＝ 2.18 ＋ 18.38i で、北の辺は真東ではない（方向角83°14′09.27″）。\n'
                              '南の辺につられてYだけ10.18足すと（532.49, 492.04）で、直線CDより1.20m南の6番2の中に落ちる。',
                              ncols=2, width_ratios=[1.1, 0.9])
@@ -396,12 +396,12 @@ zb.line(KW, foot, color=GRAY, lw=1.4, ls=':')
 zb.free_text((KW + foot) / 2, '1.20m', color=GRAY, fs=15, offsets=((34, 0), (-34, 0), (40, 16)))
 zb.free_text(K + u * 1.0, '直線CD', color=RED, fs=14, offsets=((0, 18), (0, -18), (20, 20)))
 ax2.set_title('Kのまわりの拡大', fontsize=17, weight='bold', pad=6)
-ALL_PROBLEMS += save(fig, [za, zb], 'H22_dai21mon_zu11_K_ten.png')
+ALL_PROBLEMS += save(fig, [za, zb], 'H22_dai21mon_zu14_K_ten.png')
 
 # =====================================================================
-# 図12：(B)(C)の面積の求め方（2パネル）
+# 図15：(B)(C)の面積の求め方（2パネル）
 # =====================================================================
-fig, (ax1, ax2) = new_figure('図12　問3　(B)部分と(C)部分の面積の求め方',
+fig, (ax1, ax2) = new_figure('問3　(B)部分と(C)部分の面積の求め方',
                              '左：(B)は四角形C→K→L→G。対角線どうしの Conjg(L − C) × (G − K) ＝ 295.4722 ＋ 403.7246i で、201.8623 → 201.86㎡。\n'
                              '右：(C)は五角形K→D→E→F→L。Lを原点にずらした3つの三角形の和 976.2617 − 461.82i で、230.91㎡。',
                              ncols=2)
@@ -430,12 +430,12 @@ for n in 'KDEFL':
     zb.point_label(PTS[n], n, away=centroid(PC))
 zb.callout(L, 'L（原点にずらす）', dirs=(-100, -80, -120), color=RED, dists=(40, 55, 70))
 zb.free_text(centroid([L, K, D]), '(C)\n230.91㎡', fs=16, color=BLACK, weight='bold', offsets=((0, 0), (0, -14), (-14, 0), (10, 10)))
-ALL_PROBLEMS += save(fig, [za, zb], 'H22_dai21mon_zu12_menseki.png')
+ALL_PROBLEMS += save(fig, [za, zb], 'H22_dai21mon_zu15_menseki.png')
 
 # =====================================================================
-# 図15：東の道路境界の比較（地積測量図の線 ⇔ 道路管理図の線）
+# 図18：東の道路境界の比較（地積測量図の線 ⇔ 道路管理図の線）
 # =====================================================================
-fig, (ax1, ax2) = new_figure('図15　問1の数字の裏付け（地積測量図の線 ⇔ 道路管理図の線）',
+fig, (ax1, ax2) = new_figure('問1の数字の裏付け（地積測量図の線 ⇔ 道路管理図の線）',
                              '左：D→E→Fで囲むと432.7642 → 432.76㎡で、平成8年の地積測量図（登記記録）と一致。\n'
                              '右：道路管理図のH→I→J（HE 1.56・HI 17.83・IJ 2.09は道路管理図の数字と一致）で囲むと405.48785 → 405.48㎡で、27.28㎡足りない（誤差の限度2.01㎡を大きく超える）。',
                              ncols=2)
@@ -460,15 +460,15 @@ for axx, poly, lab, col, ttl in [(ax1, P62, '432.7642㎡\n→ 432.76㎡', GREEN,
         zz.point_label(PTS[n], n, away=centroid(poly), color=GRAY if n in 'HIJ' else BLACK)
     zz.free_text(centroid(poly), lab, fs=17, weight='bold', color=BLACK, offsets=((0, 0), (-14, 0), (0, -16)))
     axx.set_title(ttl, fontsize=18, weight='bold', pad=6, color=RED if poly is P62 else GRAY)
-    ALL_PROBLEMS += zz.check_overlaps(f'図15 {ttl}')
-path = os.path.join(OUT, 'H22_dai21mon_zu15_kyoukai_hikaku.png')
+    ALL_PROBLEMS += zz.check_overlaps(f'図18 {ttl}')
+path = os.path.join(OUT, 'H22_dai21mon_zu18_kyoukai_hikaku.png')
 fig.savefig(path, dpi=100, facecolor='white')
 print('  →', path)
 
 # =====================================================================
-# 図14：誤差の限度の判定（数直線。固定配置）。0.01㎡の結論の直後に置く
+# 図17：誤差の限度の判定（数直線。固定配置）。0.01㎡の結論の直後に置く
 # =====================================================================
-fig, ax = fixed_figure('図14　問3　誤差の限度の判定（6番2は2.01㎡）',
+fig, ax = fixed_figure('問3　誤差の限度の判定（6番2は2.01㎡）',
                        '比べるのは、分筆前の地積（登記記録432.76）と分筆後の地積の合計（201.86 ＋ 230.91 ＝ 432.77）。\n'
                        '差0.01㎡は、問題文の注5の誤差の限度2.01㎡（範囲430.75〜434.77）の内側なので、地積の更正は要らない。', h=9)
 lo, hi, y0 = 430, 435.5, 46
@@ -487,14 +487,14 @@ ax.text(sx(434.77), y0 - 14, '432.76 ＋ 2.01 ＝ 434.77', ha='center', va='top'
 ax.text(50, 80, '誤差の限度の範囲（緑）の内側 → 地積の更正は要らない（不動産登記事務取扱手続準則第72条第1項）',
         ha='center', fontsize=17, weight='bold', color=GREEN)
 ax.text(50, 14, '合計が432.77で1つ多いのは、丸めたKとそれぞれの切り捨ての分', ha='center', fontsize=15, color=GRAY)
-path = os.path.join(OUT, 'H22_dai21mon_zu14_kousa.png')
+path = os.path.join(OUT, 'H22_dai21mon_zu17_kousa.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図14: 判定図（固定配置）\n  →', path)
+print('[重なり検査] 図17: 判定図（固定配置）\n  →', path)
 
 # =====================================================================
-# 図17：問3 分筆後の区画と地番
+# 図20：問3 分筆後の区画と地番
 # =====================================================================
-fig, (ax,) = new_figure('図17　問3　分筆後の区画と地番（(B)＝6番2、(C)＝6番4）',
+fig, (ax,) = new_figure('問3　分筆後の区画と地番（(B)＝6番2、(C)＝6番4）',
                         'どちらに元の6番2を残すかを決めた規定はない。(B)には敏夫さんの建物（6番1と6番2にまたがる建物）がかかるので、\n'
                         '(B)に6番2を残して(C)を6番4にすれば、建物の所在の地番とも食い違わない。(B)201.86 ＋ (C)230.91 ＝ 432.77。')
 z = Zu(ax, fontsize=14)
@@ -516,12 +516,12 @@ z.free_text(P(537.5, 490.5), '7－2', fs=14, color=GRAY, offsets=((0, 0), (0, 12
 z.free_text(P(522.0, 478.8), '6－1', fs=14, color=GRAY, offsets=((0, 0), (-14, 0), (0, 12)))
 z.free_text(P(511.6, 490.0), '道　路', fs=15, color=GRAY, offsets=((0, 0), (0, -12), (20, 0)))
 z.free_text(P(522.0, 507.0), '道\n路', fs=15, color=GRAY, offsets=((0, 0), (12, 0), (-12, 0)))
-ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu17_bunpitsu_chiban.png')
+ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu20_bunpitsu_chiban.png')
 
 # =====================================================================
-# 図19：問3 成年被後見人の良子は成年後見人が代表する（申請人の欄の書き方。固定配置）
+# 図22：問3 成年被後見人の良子は成年後見人が代表する（申請人の欄の書き方。固定配置）
 # =====================================================================
-fig, ax = fixed_figure('図19　問3　成年被後見人の良子は、成年後見人の木村光江が代表して申請する',
+fig, ax = fixed_figure('問3　成年被後見人の良子は、成年後見人の木村光江が代表して申請する',
                        '成年後見人は被後見人の財産に関する法律行為について被後見人を代表する（民法第859条第1項）。代理人によって申請するときは、\n'
                        '代理人の氏名・住所も申請情報になる（不動産登記令第3条第3号）。問題文が木村光江の住所まで書いているのが、書かせる合図。')
 ax.add_patch(FancyBboxPatch((6, 62), 30, 26, boxstyle='round,pad=0.6', fc='#fff5f5', ec=RED, lw=2.0))
@@ -540,18 +540,79 @@ ax.text(9, 45, '申請人の枠の書き方', fontsize=19, weight='bold', va='ce
 for i, (t_, c_) in enumerate([('申請人（被相続人　杉山太郎）', BLACK), ('　相続人　C市D町二丁目5番6号　杉山良子', BLACK),
                                ('　上記成年後見人　E市G町四丁目2番1号　木村光江', RED), ('　相続人　C市D町三丁目4番6号　杉山健二', BLACK)]):
     ax.text(11, 36 - i * 7.6, t_, fontsize=17, va='center', color=c_)
-path = os.path.join(OUT, 'H22_dai21mon_zu19_kouken.png')
+path = os.path.join(OUT, 'H22_dai21mon_zu22_kouken.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図19: 整理図（固定配置）\n  →', path)
+print('[重なり検査] 図22: 整理図（固定配置）\n  →', path)
 
 # =====================================================================
-# 図22：問4 地積測量図の完成見本（黒、塗りなし）
+# 図25：問4 地積測量図の完成見本（黒、塗りなし）　※2026-10-26に、試験の答案用紙（public/kijutsu/H22-tochi/a2.webp）の
+#   問4の枠で描き直した。印刷済み：「問4」「地積測量図」の表題、地番・土地の所在の欄の枠、折り目の印、
+#   作成者の（略）と「（平成22年8月10日作成）」、申請人の（略）、縮尺 1/250。縦横とも実際の縮尺（1m ＝ 4mm）で描く。
+#   答案用紙はA4横（1400px＝297mm）で、枠は約23cm × 14cm。画像の中に図番は入れない
 # =====================================================================
-fig, (ax,) = new_figure('図22　問4　地積測量図の完成見本（縮尺1／250）',
-                        '1／250で1m ＝ 4mm。辺長は小数第3位を四捨五入（DE 5.4252…→5.43、KD 8.3278…→8.33）。座標値・求積の方法・地積は書かない（問題文の注3）。\n'
-                        'T1・T3は位置・名称・座標値を書く（問題文の注4）。H・J（A市の杭）は筆界点ではないので描かない。')
+from matplotlib.patches import Rectangle  # noqa: E402
+setup_font()
+FW_, FH_ = 16, 13.0
+fig = plt.figure(figsize=(FW_, FH_), dpi=100)
+fig.patch.set_facecolor('white')
+SX0, SW, SY0 = 40.0, 1130.0, 90.0           # 答案用紙の画像（1400×989px）のうち、描く範囲の左端・幅・上端（px）
+K_ = FW_ * 100 / SW                          # 画像の1px → この図の何px
+fx = lambda x: (x - SX0) / SW                # noqa: E731
+fy = lambda y: 1 - (y - SY0) * K_ / (FH_ * 100)   # noqa: E731
+
+
+def frect(x0, y0, x1, y1, lw=1.6):
+    fig.add_artist(Rectangle((fx(x0), fy(y1)), fx(x1) - fx(x0), fy(y0) - fy(y1), transform=fig.transFigure, fill=False,
+                             edgecolor=BLACK, lw=lw))
+
+
+def fline(x0, y0, x1, y1, lw=1.4):
+    fig.add_artist(plt.Line2D([fx(x0), fx(x1)], [fy(y0), fy(y1)], transform=fig.transFigure, color=BLACK, lw=lw))
+
+
+def ftext(x, y, s_, **kw):
+    kw.setdefault('ha', 'center')
+    kw.setdefault('va', 'center')
+    fig.text(fx(x), fy(y), s_, **kw)
+
+
+frect(66, 143, 1140, 784, lw=1.8)                        # 図を描く枠
+fline(603, 143, 603, 160)                                # 折り目の印（上・下）
+fline(603, 767, 603, 784)
+ftext(80, 122, '問4', fontsize=17, weight='bold', ha='left')
+frect(631, 101, 846, 143)                                # 地番の欄
+fline(723, 101, 723, 143)
+ftext(677, 122, '地　　番', fontsize=14)
+ftext(784, 122, '6番2、6番4', fontsize=17, weight='bold')
+frect(631, 143, 1140, 185)                               # 土地の所在の欄
+fline(723, 143, 723, 185)
+ftext(677, 164, '土地の所在', fontsize=14)
+ftext(735, 164, 'A市B町二丁目', fontsize=17, weight='bold', ha='left')
+ftext(995, 121, '地　積　測　量　図', fontsize=20)
+frect(66, 784, 568, 841)                                 # 作成者の欄
+fline(152, 784, 152, 841)
+ftext(109, 813, '作 成 者', fontsize=14)
+ftext(360, 802, '（略）', fontsize=14)
+ftext(563, 826, '（平成22年8月10日作成）', fontsize=13, ha='right')
+frect(638, 784, 1140, 839)                               # 申請人・縮尺の欄
+fline(722, 784, 722, 839)
+ftext(680, 812, '申 請 人', fontsize=14)
+ftext(865, 812, '（略）', fontsize=15)
+fline(1010, 784, 1010, 839)
+fline(1065, 784, 1065, 839)
+ftext(1037, 812, '縮尺', fontsize=13)
+fline(1072, 828, 1130, 793, lw=1.0)
+ftext(1082, 800, '1', fontsize=13)
+ftext(1118, 826, '250', fontsize=13)
+# 図を描く範囲：枠の内側（地番・土地の所在の欄の下、折り目の印の間）。縦横とも 1m ＝ 4mm（1/250）
+AX0, AX1, AY0, AY1 = 70.0, 1136.0, 190.0, 780.0
+ax = fig.add_axes([fx(AX0), fy(AY1), fx(AX1) - fx(AX0), fy(AY0) - fy(AY1)])
+PPM = 4.0 / (297.0 / 1400.0) * K_             # 1m が図の何px（答案用紙A4横＝297mm）
+ax.set_xlim(494.45 - (AX1 - AX0) * K_ / PPM / 2, 494.45 + (AX1 - AX0) * K_ / PPM / 2)
+ax.set_ylim(522.6 - (AY1 - AY0) * K_ / PPM / 2, 522.6 + (AY1 - AY0) * K_ / PPM / 2)
+ax.set_aspect('equal', adjustable='datalim')
+ax.axis('off')
 z = Zu(ax, fontsize=13)
-fit(ax, P62 + [T1, T3, P(536.8, 479.0), P(508.2, 490.0)], margin=0.05, pad_aspect=True)
 z.poly(P62, lw=2.4)
 z.line(K, L, lw=2.0)
 z.line(C, C + (G - C) * -0.14, lw=1.4)
@@ -581,12 +642,18 @@ z.free_text(P(528.5, 510.3), 'C・D・E・G：コンクリート杭\nK・L：金
             offsets=((0, 0), (0, -12), (-12, 0), (-30, 0)))
 z.free_text(P(508.9, 494.0), '基本三角点等の名称及び座標値\nT1　A市基準点T1　X 510.94　Y 507.05\nT3　A市基準点T3　X 510.51　Y 482.27',
             fs=12, offsets=((0, 0), (0, -10), (10, 0), (-20, 0)))
-ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu22_sokuryouzu.png')
+fig.text(0.5, 0.085,
+         '印刷済み：「問4」「地積測量図」、地番・土地の所在の欄の枠、折り目の印、作成者の（略）と「（平成22年8月10日作成）」、申請人の（略）、縮尺 1/250\n'
+         '書くもの：地番（6番2、6番4）、土地の所在（A市B町二丁目）、図（縮尺1/250で 1m ＝ 4mm。基準点T1・T3まで入れても枠に楽に収まる）、辺長8本、\n'
+         '(B)(C)の符号と地番、境界標の記号と凡例、方位記号、隣接地の地番と道路、基準点T1・T3の位置・名称・座標値、単位（m）\n'
+         '書かないもの：各筆界点の座標値・求積の方法・地積（問題文の注3）、H・J（A市の杭で筆界点ではない）。辺長は小数第3位を四捨五入（DE 5.4252…→5.43、KD 8.3278…→8.33）',
+         ha='center', va='center', fontsize=14, linespacing=1.6)
+ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu25_sokuryouzu.png')
 
 # =====================================================================
-# 図23：本番で解く順番（固定配置）
+# 図26：本番で解く順番（固定配置）
 # =====================================================================
-fig, ax = fixed_figure('図23　本番で解く順番（いちばん重いのは(C)の面積と地積測量図）',
+fig, ax = fixed_figure('本番で解く順番（いちばん重いのは(C)の面積と地積測量図）',
                        '座標がなくても、問1の全部と申請書の多くの欄は書ける。1行目の432.76はメモの座標だけで出る。N・Jの放射は答えに要らない。')
 STEPS = [('①', '問1を書き切る', '計算なし。結論はD→E→F、理由は「筆界は登記された時の線」「予定線で分筆も移転もまだ」「境界標と整合」', BLACK),
          ('②', '申請書の(B)(C)の地積以外の欄', '土地分筆登記・申請人（良子〈成年後見人木村光江〉と健二）・6番4・原因。1行目の432.76はメモで', BLACK),
@@ -602,15 +669,15 @@ for k, (no, head, body, col) in enumerate(STEPS):
     ax.text(12, y - 2.7, body, fontsize=15, va='center', color=BLACK)
     if k < len(STEPS) - 1:
         ax.annotate('', xy=(50, y - 9.2), xytext=(50, y - 6.3), arrowprops=dict(arrowstyle='-|>', lw=2.0, color=GRAY))
-path = os.path.join(OUT, 'H22_dai21mon_zu23_toku_junban.png')
+path = os.path.join(OUT, 'H22_dai21mon_zu26_toku_junban.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図23: 整理図（固定配置）\n  →', path)
+print('[重なり検査] 図26: 整理図（固定配置）\n  →', path)
 
 
 # =====================================================================
-# 図2：問1 帯H→E→F→J→Iは宅地のまま（一部地目変更は要らない）
+# 図4：問1 帯H→E→F→J→Iは宅地のまま（一部地目変更は要らない）
 # =====================================================================
-fig, (ax1, ax2) = new_figure('図2　問1　帯H→E→F→J→Iは、工事の前なので宅地のまま',
+fig, (ax1, ax2) = new_figure('問1　帯H→E→F→J→Iは、工事の前なので宅地のまま',
                              '道路管理図の帯は、拡幅工事に着工しておらず、買収代金も未払い。道路用地の分筆も所有権の移転もされていないので、\n'
                              '今は6番2（杉山太郎の土地）の一部で、家の敷地のまま宅地。一部地目変更も要らない。', ncols=2, width_ratios=[1.0, 1.0])
 za = Zu(ax1, fontsize=14)
@@ -642,12 +709,12 @@ for x, y, w, hh, head, col, lines in [
     ax2.text(x + 3, y + hh - 5, head, fontsize=19, weight='bold', va='center', color=col)
     for i, s in enumerate(lines):
         ax2.text(x + 5, y + hh - 13 - i * 7.2, s, fontsize=16, va='center', color=RED if (col == RED and i >= 2) else BLACK)
-ALL_PROBLEMS += save(fig, [za], 'H22_dai21mon_zu02_obi_chimoku.png')
+ALL_PROBLEMS += save(fig, [za], 'H22_dai21mon_zu04_obi_chimoku.png')
 
 # =====================================================================
-# 図13：問3 伏せてある6番2の地積（平成8年の地積測量図のメモから）
+# 図16：問3 伏せてある6番2の地積（平成8年の地積測量図のメモから）
 # =====================================================================
-fig, (ax1, ax2) = new_figure('図13　問3　伏せてある6番2の地積は、平成8年の地積測量図から432.76㎡',
+fig, (ax1, ax2) = new_figure('問3　伏せてある6番2の地積は、平成8年の地積測量図から432.76㎡',
                              '登記記録の地積は「××.××」と伏せてある。分筆で登記された6番2の地積は、平成8年の地積測量図のメモ（左）で求積した値。\n'
                              'メモは今の座標を320.04 ＋ 320.04i ずらしただけ（平行移動では面積は変わらない）なので、今の座標でGを原点にした式（右）でも\n'
                              '1500.8657 − 865.5284i → 432.7642 → 432.76㎡。', ncols=2)
@@ -673,12 +740,12 @@ for n in 'CDEFG':
 zb.callout(G, 'G（原点にずらす）', dirs=(-100, -80, -120), color=RED, dists=(40, 55, 70))
 zb.free_text(centroid([G, C, D]) + P(1.5, 0), '432.7642㎡\n→ 432.76㎡', fs=16, weight='bold', offsets=((0, 0), (0, -16), (16, 0)))
 ax2.set_title('今回の測量の座標', fontsize=17, weight='bold', pad=6)
-ALL_PROBLEMS += save(fig, [za, zb], 'H22_dai21mon_zu13_bunpitsumae_chiseki.png')
+ALL_PROBLEMS += save(fig, [za, zb], 'H22_dai21mon_zu16_bunpitsumae_chiseki.png')
 
 # =====================================================================
-# 図16：問3 新しい地番は6番4（6番3は使用済み。固定配置）
+# 図19：問3 新しい地番は6番4（6番3は使用済み。固定配置）
 # =====================================================================
-fig, ax = fixed_figure('図16　問3　新しい地番は6番4（最終の支号6番3は使用済み）',
+fig, ax = fixed_figure('問3　新しい地番は6番4（最終の支号6番3は使用済み）',
                        '本番に支号のある土地を分筆するときは、1筆に従来の地番を残し、他の筆には本番の最終の支号を追って支号を付ける\n'
                        '（不動産登記事務取扱手続準則第67条第1項第4号ただし書）。「最終の支号は6番3」は、6番3がもう使われているという意味。')
 for k, (no, note_, col) in enumerate([('6番1', '使用中（6番1の土地）', GRAY), ('6番2', '使用中（本件土地）', BLACK), ('6番3', '使用済み（最終の支号）', GRAY)]):
@@ -696,14 +763,14 @@ for i, (s, c_) in enumerate([('1筆（(B)）には、従来の地番の「6番2�
                              ('もう1筆（(C)）には、最終の支号6番3の次の「6番4」を付ける', RED),
                              ('誤り：「6番3」（もう使われている地番。地番は重複しない。準則第67条第1項第1号）', GRAY)]):
     ax.text(11, 38 - i * 9.5, s, fontsize=17, va='center', color=c_)
-path = os.path.join(OUT, 'H22_dai21mon_zu16_chiban_6ban4.png')
+path = os.path.join(OUT, 'H22_dai21mon_zu19_chiban_6ban4.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図16: 整理図（固定配置）\n  →', path)
+print('[重なり検査] 図19: 整理図（固定配置）\n  →', path)
 
 # =====================================================================
-# 図18：問3 申請人は遺産分割で6番2を取得した相続人（固定配置）
+# 図21：問3 申請人は遺産分割で6番2を取得した相続人（固定配置）
 # =====================================================================
-fig, ax = fixed_figure('図18　問3　申請人は、遺産分割で6番2を取得した相続人だけ',
+fig, ax = fixed_figure('問3　申請人は、遺産分割で6番2を取得した相続人だけ',
                        '分筆の申請人は所有権の登記名義人（不動産登記法第39条第1項）→ 死亡したので相続人（同法第30条）。遺産分割は相続開始の時に\n'
                        'さかのぼって効力を生じる（民法第909条）ので、6番2は良子（(B)）と健二（(C)）が取得した。敏夫・文子は6番2の土地を取得していない。')
 ax.add_patch(FancyBboxPatch((30, 84), 40, 10, boxstyle='round,pad=0.6', fc='#f7f7f7', ec=BLACK, lw=2.0))
@@ -721,14 +788,14 @@ for x, name, get, col, role in HEIRS:
 ax.add_patch(FancyBboxPatch((6, 6), 88, 20, boxstyle='round,pad=0.6', fc='#fff5f5', ec=RED, lw=2.0))
 ax.text(50, 20, '申請人：杉山良子と杉山健二（6番2を取得した相続人）', ha='center', va='center', fontsize=19, weight='bold', color=RED)
 ax.text(50, 11, '誤り：相続人4人を全員並べる（敏夫・田中文子は6番2について何も取得していない）', ha='center', va='center', fontsize=15, color=GRAY)
-path = os.path.join(OUT, 'H22_dai21mon_zu18_souzokunin.png')
+path = os.path.join(OUT, 'H22_dai21mon_zu21_souzokunin.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図18: 整理図（固定配置）\n  →', path)
+print('[重なり検査] 図21: 整理図（固定配置）\n  →', path)
 
 # =====================================================================
-# 図20：問3 土地の表示の書き方（行ごとの原因。固定配置）
+# 図23：問3 土地の表示の書き方（行ごとの原因。固定配置）
 # =====================================================================
-fig, ax = fixed_figure('図20　問3　土地の表示は行ごとに書くものが違う（原因は「③6番2、6番4に分筆」）',
+fig, ax = fixed_figure('問3　土地の表示は行ごとに書くものが違う（原因は「③6番2、6番4に分筆」）',
                        '2行目の(B)は地番・地目が変わらないので空欄にし、原因は分筆後の地番を元の地番から並べる。3行目の(C)は新しい登記記録になるので\n'
                        '地番・地目・地積を全部書き、原因は元の地番から「6番2から分筆」。2行目を「③6番4を分筆」と書くのは誤り。')
 COLS = [(4, 14, '①地番'), (18, 12, '②地目'), (30, 14, '③地積 m²'), (44, 30, '登記原因及びその日付'), (74, 22, '何を書くか')]
@@ -750,14 +817,14 @@ for r, (c1, c2, c3, c4, c5, col) in enumerate(ROWS20):
 ax.add_patch(FancyBboxPatch((6, 6), 88, 22, boxstyle='round,pad=0.6', fc='#f7f7f7', ec=GRAY, lw=2.0))
 ax.text(10, 22, '誤り：2行目の原因「③6番4を分筆」', fontsize=17, va='center', color=GRAY)
 ax.text(10, 12, '正しくは：分筆後の地番を元の地番から並べて「③6番2、6番4に分筆」（③は地積が変わる印）', fontsize=17, va='center', color=RED)
-path = os.path.join(OUT, 'H22_dai21mon_zu20_genin.png')
+path = os.path.join(OUT, 'H22_dai21mon_zu23_genin.png')
 fig.savefig(path, dpi=100, facecolor='white')
-print('[重なり検査] 図20: 整理図（固定配置）\n  →', path)
+print('[重なり検査] 図23: 整理図（固定配置）\n  →', path)
 
 # =====================================================================
-# 図21：問4 H・Jは筆界点ではない（筆界D→E・F→Lの線の上の杭）
+# 図24：問4 H・Jは筆界点ではない（筆界D→E・F→Lの線の上の杭）
 # =====================================================================
-fig, (ax,) = new_figure('図21　問4　H・Jは6番2の筆界の線の上にあるだけで、筆界点ではない',
+fig, (ax,) = new_figure('問4　H・Jは6番2の筆界の線の上にあるだけで、筆界点ではない',
                         'HはD→Eの線の上、JはF→Lの線の上（X＝513.27の南の辺）にあるA市の杭で、筆界の折れ点ではない。地積測量図に描くのは、\n'
                         '筆界点C・D・E・F・Gと分割点K・Lだけ。H・Jは遺産分割協議書の図面にもない（見取図の（注））。')
 z = Zu(ax, fontsize=14)
@@ -777,6 +844,80 @@ z.callout(I, 'I：6番2の中（描かない）', dirs=(150, 180, 120), color=GR
 for n in 'CKDEFLG':
     z.point_label(PTS[n], n, away=INNER, color=RED)
 z.free_text(centroid(PB), '描く：筆界点と分割点\nC・K・D・E・F・L・G', fs=16, color=RED, weight='bold', offsets=((0, 0), (0, -16), (16, 0)))
-ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu21_HJ.png')
+ALL_PROBLEMS += save(fig, [z], 'H22_dai21mon_zu24_HJ.png')
+
+# =====================================================================
+# 図1：全体の時系列（第1章。固定配置）　※2026-10-26に追加（標準セットの時系列の整理図）
+# =====================================================================
+fig, ax = fixed_figure('全体の時系列　筆界は平成8年の分筆、申請人は平成22年の相続で決まる',
+                       '平成20〜21年の協議・埋標・承諾書・道路管理図は、どれも道路拡幅の予定線の話（工事は未着工、代金は工事の完成後）。\n'
+                       '平成8年の分筆で筆界D→E→Fが登記され、平成22年の死亡と遺産分割協議で、6番2を取得した良子と健二が申請人になる。\n'
+                       '（年月の間隔は縮尺どおりではない）', h=10)
+EV1 = [(5, '平成8年3月6日', '本件土地の分筆の登記\n（地積測量図）', RED, 1),
+       (16, '平成20年12月15日', 'A市職員が太郎を訪ね、\n拡幅の計画と買収金額を協議', GRAY, -1),
+       (27, '平成21年3月10日', '道路拡幅の位置に杭を埋標\n道路境界承諾書に署名・押印', GRAY, 1),
+       (38, '平成21年4月10日', '杭の実測成果で\nA市が道路管理図を作成', GRAY, -1),
+       (49, '今', '北側と交渉中・工事は未着工\n買収代金は工事の完成後', GRAY, 1),
+       (60, '平成22年6月12日', '杉山太郎が死亡', BLUE, -1),
+       (71, '平成22年7月4日', '相続人全員で\n遺産分割協議が成立', BLUE, 1),
+       (82, '平成22年8月10日', '地積測量図の作成\n（答案用紙に印刷済み）', GRAY, -1),
+       (93, '平成22年8月22日', '申請\n（A地方法務局）', RED, 1)]
+ax.annotate('', xy=(99.5, 52), xytext=(0.5, 52), arrowprops=dict(arrowstyle='-|>', lw=2.4, color=BLACK))
+for x, d, t, col, ud in EV1:
+    ax.plot([x], [52], 'o', ms=12, color=col, zorder=5)
+    ax.plot([x, x], [52, 52 + ud * 7], color=col, lw=1.4)
+    ax.text(x, 52 + ud * 8, d, ha='center', va='bottom' if ud > 0 else 'top', fontsize=13, color=col, weight='bold')
+    ax.text(x, 52 + ud * 15, t, ha='center', va='bottom' if ud > 0 else 'top', fontsize=12, color=BLACK, linespacing=1.4)
+for x0, x1, t, col in [(1, 14, '問1：筆界の根拠', RED), (16, 52, '道路拡幅の予定線の話（筆界は動かない）', GRAY),
+                       (56, 76, '申請人（問3）が決まる', BLUE)]:
+    ax.add_patch(plt.Rectangle((x0, 2), x1 - x0, 9, color=col, alpha=0.18, lw=0))
+    ax.text((x0 + x1) / 2, 6.5, t, ha='center', va='center', fontsize=14, color=col, weight='bold')
+path = os.path.join(OUT, 'H22_dai21mon_zu01_jikeiretsu.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図1: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図2：注の仕分け（第1章。固定配置）　※2026-10-26に追加
+# =====================================================================
+fig, ax = fixed_figure('注は2系統　問題文の注1〜6と、見取図の下の番号のない（注）',
+                       '記事では「問題文の注○」「見取図の（注）」と言い分ける。\n見取図の（注）の最後の一文（H・I・Jが遺産分割協議書の図面にない）が、問1と申請人の判断に効く。', h=10)
+BOX2 = [(1, 52, 31, 44, '毎年ほぼ同じ決まり文句', '問題文の注1　座標値は小数第3位を\n　　　　　　　四捨五入\n問題文の注2　訂正の方法\n問題文の注6　書面申請', GRAY),
+        (34, 52, 31, 44, '地積測量図に何を書くか', '問題文の注3　辺長は小数第3位を四捨五入\n　　　　　　　座標値・求積方法・地積は不要\n問題文の注4　T1・T3を描いて、\n　　　　　　　名称と座標値を書く', GREEN),
+        (67, 52, 32, 44, '地積の更正の要否の基準', '問題文の注5　誤差の限度の表\n　6番1は1.71㎡\n　6番2は2.01㎡\n→ 分筆前後の地積の差と比べる', RED),
+        (1, 4, 98, 42, '見取図の下の（注）　番号がない', 'A〜Nは境界標、K→LとM→Nの点線は分割線、T1〜T3はA市基準点\n(A)〜(D)は遺産分割協議書の添付図面の符号\n最後の一文：その図面には、H・I・Jの点と線が書かれていない\n→ 相続人が分けたのは、H・I・Jの線がない図面の上の(B)と(C)（問1・問3に効く）', ORANGE)]
+for x, y, w, h_, t, b, col in BOX2:
+    ax.add_patch(plt.Rectangle((x, y), w, h_, facecolor=col, alpha=0.10, edgecolor=col, lw=2))
+    ax.text(x + 1.5, y + h_ - 3, t, ha='left', va='top', fontsize=16, color=col, weight='bold')
+    ax.text(x + 1.5, y + h_ - 11, b, ha='left', va='top', fontsize=14, linespacing=1.7)
+path = os.path.join(OUT, 'H22_dai21mon_zu02_chuu_shiwake.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図2: 整理図（固定配置）\n  →', path)
+
+# =====================================================================
+# 図6：求める点の仕分け（第3章。固定配置）　※2026-10-26に追加
+# =====================================================================
+fig, ax = fixed_figure('どの点を求めるか　問題文に座標がない点と、答えに要らない点',
+                       'G・L・Fは放射、C・Dは地積測量図のメモの平行移動、KはC→Dの上の10.18m。\n'
+                       'NとJは6番2の区画の角ではないので答えに要らない（Jは問1の裏付けにだけ使う）。', h=10)
+COLS6 = [(2, 17, '点'), (19, 33, '座標'), (52, 28, '求め方'), (80, 18, '使う問')]
+ROWS6 = [('A・B・E・H・I・M', '問題文にある（測量によって得られた座標）', 'そのまま使う', '問1〜問3', BLACK),
+         ('G・L', '問題文にない', 'T3に器械・T2を後視して放射', '問3・問4', BLACK),
+         ('F', '問題文にない', 'T1に器械・T3を後視して放射', '問3・問4', BLACK),
+         ('C・D', '問題文にない（境界標が亡い）', '地積測量図のメモを平行移動', '問2', RED),
+         ('K', '問題文にない', 'C→Dの上、Cから10.18m', '問2', RED),
+         ('N', '問題文にない', 'T3から放射（6番1の分割点）', '答えに要らない', GRAY),
+         ('J', '問題文にない', 'T1から放射（A市の杭）', '問1の裏付けだけ', GRAY)]
+y_head = 84
+for x, w, head in COLS6:
+    ax.add_patch(plt.Rectangle((x, y_head), w, 8, fc='#eeeeee', ec=BLACK, lw=1.4))
+    ax.text(x + w / 2, y_head + 4, head, ha='center', va='center', fontsize=16, weight='bold')
+for r, (pt, kz, how, mon, col) in enumerate(ROWS6):
+    y = y_head - (r + 1) * 11
+    for (x, w, _), s_ in zip(COLS6, (pt, kz, how, mon)):
+        ax.add_patch(plt.Rectangle((x, y), w, 11, fc='#fff5f5' if col == RED else 'white', ec=BLACK, lw=1.2))
+        ax.text(x + w / 2, y + 5.5, s_, ha='center', va='center', fontsize=14, color=col, weight='bold' if x == 2 else 'normal')
+path = os.path.join(OUT, 'H22_dai21mon_zu06_ten_shiwake.png')
+fig.savefig(path, dpi=100, facecolor='white')
+print('[重なり検査] 図6: 整理図（固定配置）\n  →', path)
 
 print('重なりの合計:', len(ALL_PROBLEMS))

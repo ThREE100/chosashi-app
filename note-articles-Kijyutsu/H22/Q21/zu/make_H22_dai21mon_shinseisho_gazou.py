@@ -50,7 +50,7 @@ table.xy td.v .ink {{ font-size: 28px; }}
 .dairi .lab {{ padding-top: 0; }}
 .dairi .txt {{ flex: 1; line-height: 1.6; }}
 table.land {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
-table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; }}
+table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; white-space: nowrap; }}
 table.land.compact td.vert {{ letter-spacing: 0.02em; font-size: 15px; }}
 .box.fix {{ line-height: 1.75; }}
 table.land td.head {{ height: 50px; text-align: center; font-size: 20px; }}
@@ -99,10 +99,11 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
              f'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 
+# 土地の表示の列幅（2026-10-26）は試験の答案用紙（public/kijutsu/H22-tochi/a1.webp）の罫線から測った比：ラベル23／地番85／地目85／地積の整数部84.5・小数部58／原因166.5（計502px）
 def land_table(rows, n_rows=4, shozai='', compact=False):
     """土地の表示の表。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。各値は HTML（記入部分は呼び出し側で .ink を付ける）"""
-    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:18%"><col style="width:15%">'
-         '<col style="width:13%"><col style="width:7%"><col style="width:41%"></colgroup>',
+    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:5%"><col style="width:18%"><col style="width:16%">'
+         '<col style="width:17%"><col style="width:11%"><col style="width:33%"></colgroup>',
          f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
          f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地番</td>'
          '<td class="head">②地目</td><td class="head" colspan="2">③地積　　m²</td>'
@@ -145,7 +146,7 @@ ROWS = [('６番２', '宅地', '432', '76', ''),
         ('（Ｃ）６番４', '宅地', '230', '91', '６番２から分筆')]
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('土地分筆登記')}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:62px">{ink('土地分筆登記')}</div></div>
 <div class="plain">登録免許税　　略</div>
 <div class="plain">添　付　書　類　　略</div>
 <div class="plain">{DATE}</div>
@@ -218,7 +219,7 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成22年度 第21問｜申請人は6番2を取得した良子（成年後見人）と健二、新しい地番は6番4</div>''')
 
-exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
     pg = browser.new_page(viewport={'width': 1200, 'height': 100})  # 欄だけの画像が引き伸ばされないよう低くする
