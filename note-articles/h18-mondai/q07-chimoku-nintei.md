@@ -209,6 +209,22 @@ summarize, or substitute any characters. Characters such as 「宅」「雑」
 being rendered as Simplified Chinese variants — double-check each of these
 and redraw in standard Japanese Jōyō form if needed.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -233,8 +249,6 @@ Subtitle (smaller, centered, 1行):
 宅地になる
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled circle in soft green containing the number 1 (numbers run
-continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
 競馬場の永久設備の敷地は宅地
@@ -242,51 +256,57 @@ Illustration: An isometric racetrack oval. Inside the oval, a small
 grandstand building glows with a green checkmark and a tag「宅地」, while
 the empty racing track surface itself has a gray label「馬場＝雑種地」with
 a small X-free neutral marker (not the focus of this card).
+Words allowed inside this illustration (verbatim, nothing else):
+「宅地」「馬場＝雑種地」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft green, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
 NOT a legal citation):
 建物の敷地だけ宅地
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled circle in soft green containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 ガスタンクの敷地は宅地
 Illustration: An isometric cylindrical gas tank (not shaped like a
 building) sitting on a plot of land. A dashed outline shows the tank is
 NOT counted as a 建物, but the ground beneath it has a green stamp
 labeled「宅地」.
+Words allowed inside this illustration (verbatim, nothing else):
+「宅地」
 Conclusion tag (soft green, 5-15 Japanese characters):
 タンクは建物でなくても宅地
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 住居に接続する屋外プールは宅地
 Illustration: An isometric house with a garden, and a small outdoor
 swimming pool directly attached to the backyard with no gap or fence
 between them. A green checkmark and a label「接続」sit between the house
 and the pool.
+Words allowed inside this illustration (verbatim, nothing else):
+「接続」
 Conclusion tag (soft green, 5-15 Japanese characters):
 宅地に接続なら宅地
 
 --- COLUMN A, CARD 4 ---
-Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 建物があれば高圧線下も宅地
 Illustration: An isometric high-voltage transmission tower and power lines
 crossing above a small house below. The house has a green checkmark and a
 label「建物の敷地」under the wires.
+Words allowed inside this illustration (verbatim, nothing else):
+「建物の敷地」
 Conclusion tag (soft green, 5-15 Japanese characters):
 高圧線下でも建物なら宅地
 
 --- COLUMN A, CARD 5 ---
-Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 木場でも建物があれば宅地
 Illustration: An isometric lumber yard with stacks of logs, and in one
 corner a small shop building with a wooden signboard. The shop building
 has a green checkmark and a label「材木問屋」, while the open log-stacking
 area has a neutral gray label「木場＝原則雑種地」.
+Words allowed inside this illustration (verbatim, nothing else):
+「材木問屋」「木場＝原則雑種地」
 Conclusion tag (soft green, 5-15 Japanese characters):
 店舗の敷地だけ宅地
 
@@ -294,51 +314,54 @@ Conclusion tag (soft green, 5-15 Japanese characters):
 宅地・雑種地以外／雑種地
 
 --- COLUMN B, CARD 6 ---
-Badge: a filled circle in soft blue containing the number 6.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 寺院の庫裏の敷地は境内地
 Illustration: An isometric temple with a main hall (本堂) and an attached
 residential building (庫裏) behind it, both inside a single fenced
 compound. A blue tag labeled「境内地」covers the whole compound including
 the 庫裏.
+Words allowed inside this illustration (verbatim, nothing else):
+「境内地」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 宅地ではなく境内地
 
 --- COLUMN B, CARD 7 ---
-Badge: a filled circle in soft blue containing the number 7.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 発電用ダムの貯水池は池沼
 Illustration: An isometric dam with a reservoir of water behind it in a
 mountain valley, with a blue tag labeled「池沼」floating above the water
 surface, and a small crossed-out icon of a rice paddy labeled「かんがい用
 水ではない」nearby.
+Words allowed inside this illustration (verbatim, nothing else):
+「池沼」「かんがい用水ではない」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 池沼(宅地でも雑種地でもない)
 
 --- COLUMN B, CARD 8 ---
-Badge: a filled circle in soft blue containing the number 8.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 ガード下の店舗の敷地は鉄道用地
 Illustration: An isometric elevated railway line with a train running on
 top, and small shop storefronts built into the space underneath the
 tracks. A blue tag labeled「鉄道用地」covers the entire structure including
 the shops below.
+Words allowed inside this illustration (verbatim, nothing else):
+「鉄道用地」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 鉄道用地(宅地ではない)
 
 --- COLUMN B, CARD 9 ---
-Badge: a filled circle in soft blue containing the number 9.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 中学校の校舎と運動場は学校用地
 Illustration: An isometric school campus with a school building and an
 adjacent running track/schoolyard, both enclosed by the same fence line. A
 single blue tag labeled「学校用地」spans across both the building and the
 schoolyard.
+Words allowed inside this illustration (verbatim, nothing else):
+「学校用地」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 校舎も運動場も学校用地
 
 --- COLUMN B, CARD 10 ---
-Badge: a filled circle in soft blue containing the number 10.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 加工場と接続しない日干場は雑種地
 Illustration: An isometric road running between two plots. On the left, a
@@ -346,6 +369,8 @@ seafood processing plant (海産物加工場) building. On the right, across the
 road, an open drying area with fish laid out, labeled「日干場」and a gray
 tag「雑種地」. A dashed line marks the road separating the two plots,
 labeled「接続していない」.
+Words allowed inside this illustration (verbatim, nothing else):
+「日干場」「雑種地」「接続していない」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 接続なしで雑種地
 
@@ -360,10 +385,14 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals 10 exactly, with
-no duplicated or missing cards, confirm there is no intro illustration or
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+read as a short heading + a short conclusion tag, at a glance — confirm
+that no illustration contains any text other than its "Words allowed"
+words (no inscriptions on stones or signs, no pseudo-writing) and that
+each allowed word is clearly legible — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -433,6 +462,15 @@ Simplified or Traditional Chinese forms — always draw the standard
 Japanese (Jōyō) form. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

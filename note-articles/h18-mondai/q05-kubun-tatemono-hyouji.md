@@ -339,6 +339,15 @@ Japanese (Jōyō) form. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -534,6 +543,15 @@ different Simplified or Traditional Chinese forms — always draw the
 standard Japanese (Jōyō) form. Within this English prompt text, use
 half-width parentheses ( ) consistently — never open a parenthetical with
 a full-width （ and close it with a half-width ), or vice versa.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the illustrations and
+diagrams, render ONLY the words that are written in this prompt (the labels,
+flowchart conditions and callout text given below), each one large, clear
+and exactly as written. Do not add any other text, inscriptions, signs,
+numbers or pseudo-writing; leave other surfaces blank or use an icon or mark
+instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel

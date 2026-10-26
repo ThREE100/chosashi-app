@@ -288,7 +288,10 @@ duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance — confirm nothing is rendered below the last card (no summary
+glance — confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible — confirm
+nothing is rendered below the last card (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
 and no additional text block of any kind — the poster ends immediately
 after the last card), and confirm the entire canvas, edge to edge, is
@@ -502,7 +505,7 @@ characters):
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
 民法111条1項各号・653条各号（ア）、履行補助者の法理・民法104条・644条
-（イ、出題当時の民法105条は2020年改正で削除）、不動産登記法17条（ウ）、
+（イ）、不動産登記法17条（ウ）、
 民法105条（エ）、先例（オ、本文では番号を伏せています）に基づく整理
 です。
 
@@ -525,7 +528,11 @@ Panel 3's correct-rule-versus-common-mistake contrasts are not flattened
 into a flowchart where they do not belong, that each 着眼点 callout states a
 checking order rather than only a conclusion and keeps every required
 element from the source article distinct (no merged or dropped
-requirements), confirm nothing is rendered below the last panel's
+requirements), confirm that no diagram or illustration contains any text
+other than the words specified in its Diagram line, heading, 着眼点
+callout and conclusion tag (no inscriptions on stones or signs, no
+pseudo-writing) and that each word is clearly legible, confirm nothing is
+rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully

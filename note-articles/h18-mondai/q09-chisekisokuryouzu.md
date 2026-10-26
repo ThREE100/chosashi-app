@@ -271,7 +271,7 @@ with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -489,7 +489,11 @@ hidden second condition has been flattened into a single check, that
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no
 merged or dropped requirements, e.g. エ keeps 地積・求積方法・筆界点間
-の距離・筆界点の座標値 as four distinct items), confirm nothing is
+の距離・筆界点の座標値 as four distinct items), confirm that no diagram or
+illustration contains any text other than the words specified in its
+Diagram line, heading, 着眼点 callout and conclusion tag (no inscriptions
+on stones or signs, no pseudo-writing) and that each word is clearly
+legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel,
 no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
 additional text block of any kind), and confirm the entire canvas, edge
