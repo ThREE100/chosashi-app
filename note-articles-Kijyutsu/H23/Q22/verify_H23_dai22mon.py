@@ -234,7 +234,7 @@ truth(f'タイトル形式（見出し{len(sub)}文字）: {title}', title.start
 check('見出し画像のサブタイトル', '〜' + sub + '〜', thumb, '見出し画像')
 check('見出し画像のタイトル', '平成23年度問題22（建物）', thumb, '見出し画像')
 
-# ---- 画像：画像挿入マーカー21か所と zu/ のPNGの対応（2026-10-05、本文に対して足りなかった図10枚と所在の欄の添削を足し、図の番号を記事の挿入順に振り直した）----
+# ---- 画像：画像挿入マーカー26か所と zu/ のPNGの対応（2026-10-05に本文に対して足りなかった図10枚と所在の欄の添削を足し、2026-10-26に最新の「1項目1わな」の基準で足りなかった図5枚を足して、図の番号を記事の挿入順に振り直した）----
 from PIL import Image  # noqa: E402
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
@@ -247,20 +247,25 @@ PNGS = [('H23_dai22mon_zu01_hantei_nagare', '判定の流れ'),
         ('H23_dai22mon_zu07_shozai_kakunin', '筆の中に収まるかの確認図'),
         ('H23_dai22mon_zu08_tatemono_zumen', '建物図面の完成形'),
         ('H23_dai22mon_zu09_omoya_kyuuseki', '主である建物の求積図'),
-        ('H23_dai22mon_zu10_shako_ayamari_hikaku', '誤り比較図'),
-        ('H23_dai22mon_zu11_uchinori_kabeshin', '壁心と内法が混ざる'),
-        ('H23_dai22mon_zu12_touki_kiroku', '登記記録のどこに載るか'),
+        ('H23_dai22mon_zu10_uchinori_sen', '壁の内側線で測る'),
+        ('H23_dai22mon_zu11_shutter', 'シャッターの側は引かない'),
+        ('H23_dai22mon_zu12_uchinori_kabeshin', '壁心と内法が混ざる'),
+        ('H23_dai22mon_zu13_touki_kiroku', '登記記録のどこに載るか'),
         ('H23_dai22mon_toukishinseisho_machigai_shozai', '所在の欄の①誤答'),
-        ('H23_dai22mon_zu13_shikichiken', '敷地権が生じるまで'),
+        ('H23_dai22mon_zu14_henkougo_gyo', '変更前・変更後の2行'),
+        ('H23_dai22mon_zu15_shikichiken_wariai', '敷地権の割合'),
+        ('H23_dai22mon_zu16_shikichiken', '敷地権が生じるまで'),
         ('H23_dai22mon_toukishinseisho_machigai', '符号1の行の①誤答'),
-        ('H23_dai22mon_zu14_tenpu_shorui', '添付書類の要否の表'),
+        ('H23_dai22mon_zu17_tategiri', '屋根の種類を書くか'),
+        ('H23_dai22mon_zu18_tenpu_shorui', '添付書類の要否の表'),
+        ('H23_dai22mon_zu19_menkyozei', '登録免許税を書かない理由'),
         ('H23_dai22mon_toukishinseisho_kansei', '問1の完成した登記申請書'),
-        ('H23_dai22mon_zu15_kakai_heimenzu', '各階平面図の完成形'),
-        ('H23_dai22mon_zu16_fuzoku_hantei', '使い方で決まる'),
+        ('H23_dai22mon_zu20_kakai_heimenzu', '各階平面図の完成形'),
+        ('H23_dai22mon_zu21_fuzoku_hantei', '使い方で決まる'),
         ('H23_dai22mon_toukishinseisho_kansei_dai2ran', '答案用紙第2欄の完成形'),
-        ('H23_dai22mon_zu17_toku_junban', '本番で解く順番の図')]
-truth(f'画像挿入マーカーの数 {len(markers)}（解説図17・添削2・完成形2）', len(markers) == len(PNGS) == 21)
-truth('解説図の番号が記事の挿入順', [int(re.search(r'_zu(\d\d)_', n).group(1)) for n, _ in PNGS if '_zu' in n] == list(range(1, 18)))
+        ('H23_dai22mon_zu22_toku_junban', '本番で解く順番の図')]
+truth(f'画像挿入マーカーの数 {len(markers)}（解説図22・添削2・完成形2）', len(markers) == len(PNGS) == 26)
+truth('解説図の番号が記事の挿入順', [int(re.search(r'_zu(\d\d)_', n).group(1)) for n, _ in PNGS if '_zu' in n] == list(range(1, 23)))
 zu_files = sorted(f for f in os.listdir(ZU) if f.endswith('.png'))
 truth(f'zu/ のPNGはマーカーと1対1（{len(zu_files)}枚）', zu_files == sorted(n + '.png' for n, _ in PNGS))
 for (name, key), m in zip(PNGS, markers):
@@ -327,12 +332,12 @@ for s_ in ['答案用紙（その2）の建物図面の欄の枠', '答案用紙
            'public/kijutsu/H23-tatemono/a2.webp']:
     check('図のプロンプトに欄の枠', s_, fig, '解説図')
 # fit は文字より先（2026-09-30、H21/Q22）：各関数の中で fit が最初の文字の配置より前にあるか
-for fn in re.findall(r'def (zu02|zu05|zu06|zu07|zu08|zu09|zu15|garage_panel)\(.*?\):(.*?)(?=\ndef )', drw, re.S):
+for fn in re.findall(r'def (zu02|zu05|zu06|zu07|zu08|zu09|zu20|garage_panel)\(.*?\):(.*?)(?=\ndef )', drw, re.S):
     body = fn[1]
     i_fit = body.find('fit(')
     i_txt = min([body.find(k) for k in ['free_text(', 'edge_label(', 'callout(', 'dims(', 'point_label('] if body.find(k) >= 0]
                 or [10 ** 9])
-    if 'garage_panel(' in body and i_fit < 0:      # 図10は garage_panel の中で fit する
+    if 'garage_panel(' in body and i_fit < 0:      # 図10・図11は garage_panel の中で fit する
         continue
     truth(f'作図 {fn[0]}：fit が文字の配置より先', 0 <= i_fit < i_txt)
 for s_ in ['== 98.735', '== 66.24', '== 49.50', '== 23.8272', '== 23.5644', '== 24.75', '== 4.50', '== 352.9084', '== 792.72795']:
@@ -346,21 +351,173 @@ for s_ in ["'H23_dai22mon_zu01_hantei_nagare'", "'問い1　既存の車庫と�
            "'H23_dai22mon_zu04_chuu_shiwake'", "'H23_dai22mon_zu06_higashi_kyori'", "'7.0'", "'4.5'",
            "'H23_dai22mon_zu07_shozai_kakunin'", "'約6.3'", "'約5.0'", "'約20.7'", "'約4.2'", "'約18.7'",
            "== 6.25", "== 4.96", "== 20.7", "== 4.2", "== 18.7",
-           "'H23_dai22mon_zu11_uchinori_kabeshin'", "'9.00×5.50＝49.50㎡\\n（構造の欄に書く）'", "'4.38×5.44＝23.82㎡\\n（床面積の欄に書く）'",
-           "'H23_dai22mon_zu12_touki_kiroku'", "'所在　A市B町二丁目5番地2　　（ここは変わらない）'",
-           "'H23_dai22mon_zu13_shikichiken'", "第22条第1項本文", "（区分所有法第2条第5項）",
+           "'H23_dai22mon_zu12_uchinori_kabeshin'", "'9.00×5.50＝49.50㎡\\n（構造の欄に書く）'", "'4.38×5.44＝23.82㎡\\n（床面積の欄に書く）'",
+           "'H23_dai22mon_zu13_touki_kiroku'", "'所在　A市B町二丁目5番地2　　（ここは変わらない）'",
+           "'H23_dai22mon_zu16_shikichiken'", "第22条第1項本文", "（区分所有法第2条第5項）",
            "'原因：平成23年8月2日新築　平成23年8月4日敷地権　／　敷地権の表示：所有権6分の2'",
-           "'H23_dai22mon_zu14_tenpu_shorui'", "床面積の変更（不動産登記令別表14の項添付情報欄ロ（1））", "'代理人による申請（同令第7条第1項第2号）'",
-           "'H23_dai22mon_zu16_fuzoku_hantei'", "'藍子の誤答：「道路の向こうの別の町にあるときは、附属建物にできない」'"]:
+           "'H23_dai22mon_zu18_tenpu_shorui'", "床面積の変更（不動産登記令別表14の項添付情報欄ロ（1））", "'代理人による申請（同令第7条第1項第2号）'",
+           "'H23_dai22mon_zu21_fuzoku_hantei'", "'藍子の誤答：「道路の向こうの別の町にあるときは、附属建物にできない」'"]:
     check('追加の図（作図スクリプト）', s_, drw, '作図')
 # 記事の本文の数値が図にもある（本文にだけある数値を残さない）
 for s_ in ['約6.3', '約5.0', '約20.7', '約4.2', '7.0 − 2.5 ＝ 4.5', '6分の2', '8月4日']:
     check('本文の数値', s_)
 for s_ in ['## 図1：車庫の「増築」はどの登記になるかの判定の流れ', '## 図6：東の距離の比較図', '## 図7：建物が自分の筆の中に収まるかの確認図',
-           '## 図12：一棟の建物の所在が登記記録のどこに載るかの図', '## 図13：敷地権が生じるまでの図', '## 図14：添付書類の要否の表',
-           '## 図16：附属建物と認められるかの図', '西約6.3（170.10 − 0.06 − 163.79 ＝ 6.25）', '南約18.7（226.69 − 208.01）']:
+           '## 図13：一棟の建物の所在が登記記録のどこに載るかの図', '## 図16：敷地権が生じるまでの図', '## 図18：添付書類の要否の表',
+           '## 図21：附属建物と認められるかの図', '西約6.3（170.10 − 0.06 − 163.79 ＝ 6.25）', '南約18.7（226.69 − 208.01）']:
     check('解説図プロンプト', s_, fig, '解説図')
 check('添削2', '# 添削2：「所在」欄の誤答→添削→正解（2026-10-05追加）', fix, '添削')
 check('添削2の誤答', '所在の2段目の右の枠（原因）：「平成23年8月2日変更」', fix, '添削')
+
+# =====================================================================================
+# 2026-10-26：最新の品質チェック（qa-checklist-kijutsu.md 6-2・6-3・4/5・7）で足した検査
+# =====================================================================================
+# ---- 新しい図（藍子の誤答・質問のうち図がなかった5か所と、旧図10の分割、期限）----
+for s_ in ["'H23_dai22mon_zu10_uchinori_sen'", "'H23_dai22mon_zu11_shutter'", "'H23_dai22mon_zu14_henkougo_gyo'",
+           "'H23_dai22mon_zu15_shikichiken_wariai'", "'H23_dai22mon_zu17_tategiri'", "'H23_dai22mon_zu19_menkyozei'",
+           "'誤り：壁の中心で測る（普通の建物）'", "'区分建物：壁の内側線で測る'", "'誤り：4辺とも0.06引く'", "'正解：北はシャッターの中心のまま'",
+           "'主である建物の変更前・変更後の2行　変わったのは③床面積だけ'", "'欄番号は③だけ'", "'2階も書く'", "'構造は変更なし'",
+           "'敷地権の割合は、登記記録の持分のまま「6分の2」'", "'6分の2 → 3分の1'", "'登録免許税は書かない", "'縦割り（本問の車庫）'",
+           "'階層的な区分（本問ではない）'", "'申請の期限（不動産登記法第51条第1項）：8月2日の翌日から1月以内 → 9月2日まで",
+           "'H23_dai22mon_zu22_toku_junban'" if False else "'H23_dai22mon_zu19_menkyozei'"]:
+    check('新しい図（作図スクリプト）', s_, drw, '作図')
+for s_ in ['## 図10：区分建物の床面積は壁の内側線で測る', '## 図11：北のシャッターの側は引かない', '## 図14：主である建物の変更前・変更後の2行の書き方',
+           '## 図15：敷地権の割合は6分の2のまま', '## 図17：専有部分の構造に屋根の種類を書くか', '## 図19：登録免許税は書かない',
+           '8月2日の翌日から1月以内 → 9月2日まで', '## 図22：本番で解く順番', '解説用の図22枚']:
+    check('解説図プロンプト', s_, fig, '解説図')
+for s_ in ['9月2日', '初日の8月2日は数えないから、期限は9月2日']:
+    check('申請の期限', s_)
+truth('旧図10（3パネルの誤り比較図）のPNGは残っていない', not os.path.exists(os.path.join(ZU, 'H23_dai22mon_zu10_shako_ayamari_hikaku.png')))
+
+# ---- 申請の期限（1月以内）を日付で計算し直す：初日不算入、応当日の前日に満了（checklist 3-2「申請の期限」）----
+import datetime
+kijitsu = datetime.date(2011, 8, 2)
+start = kijitsu + datetime.timedelta(days=1)                     # 起算日（初日の8月2日は数えない）
+corresponding = datetime.date(start.year, start.month + 1, start.day)   # 翌月の応当日
+deadline = corresponding - datetime.timedelta(days=1)
+truth(f'申請の期限：8月2日の翌日（{start}）から1月以内は{deadline}', (deadline.month, deadline.day) == (9, 2))
+truth('申請日（8月21日）は期限内', datetime.date(2011, 8, 21) <= deadline)
+
+# ---- まとめのわな20項目 → 会話の直後の図（TRAPS。checklist 6-2：1項目1論点、図の重複なし、会話から離れていない）----
+TRAPS = [('問題文の『増築』の二文字をそのまま信じたわね', 'H23_dai22mon_zu01_hantei_nagare', 0),
+         ('平成23年8月21日：申請（答案用紙に印刷）', 'H23_dai22mon_zu03_jikeiretsu', 0),
+         ('最後に注の仕分けもしておきなさい', 'H23_dai22mon_zu04_chuu_shiwake', 1),
+         ('形は必ず座標で決めるの', 'H23_dai22mon_zu05_shikichi_kakunin', 1),
+         ('そのまま1.0と7.0を写します', 'H23_dai22mon_zu06_higashi_kyori', 0),
+         ('5.0はどの角から？', 'H23_dai22mon_zu07_shozai_kakunin', 0),
+         ('申請人』の欄は空欄よ', 'H23_dai22mon_zu08_tatemono_zumen', 0),
+         ('四捨五入して、98.74平方メートルです', 'H23_dai22mon_zu09_omoya_kyuuseki', 0),
+         ('同じになった時点で疑いなさい', 'H23_dai22mon_zu10_uchinori_sen', 0),
+         ('惜しい、北の辺を見なさい', 'H23_dai22mon_zu11_shutter', 0),
+         ('一棟は区分建物そのものじゃないから', 'H23_dai22mon_zu12_uchinori_kabeshin', 0),
+         ('附属建物の土地も入れます', 'H23_dai22mon_zu13_touki_kiroku', 0),
+         ('変わったのは③床面積だけなので、欄番号は③だけ', 'H23_dai22mon_zu14_henkougo_gyo', 0),
+         ('3分の1に約分しなくていいですか', 'H23_dai22mon_zu15_shikichiken_wariai', 0),
+         ('敷地権の日付は8月4日です', 'H23_dai22mon_zu16_shikichiken', 0),
+         ('原因は『平成23年8月2日新築』です！', 'H23_dai22mon_toukishinseisho_machigai', 2),
+         ('専有部分の構造に屋根の種類『陸屋根』を書いたのはなぜ', 'H23_dai22mon_zu17_tategiri', 0),
+         ('入れちゃいけないものは？', 'H23_dai22mon_zu18_tenpu_shorui', 0),
+         ('1,000円を書かないようにね', 'H23_dai22mon_zu19_menkyozei', 0),
+         ('道路の向こうの別の町にあるときです', 'H23_dai22mon_zu21_fuzoku_hantei', 0)]
+omatome = text[text.index('今日のまとめよ。'):text.index('**藍子**  \n「本番ではどの順番で解けばいいですか？」')]
+bullets = re.findall(r'(?m)^- \*\*(.+?)\*\*：', omatome)
+truth(f'まとめのわなは1項目1論点で{len(bullets)}項目（20項目）', len(bullets) == 20)
+truth('まとめの図の対応表の数がわなの数と一致（20項目のうち「日付は2つ」と「注の仕分け」などの重複なし）', len(TRAPS) == len(bullets))
+pngs_order = {n: i for i, (n, _) in enumerate(PNGS)}
+truth('TRAPSの図に重複がない', len({t[1] for t in TRAPS}) == len(TRAPS))
+mk_pos = [m.start() for m in re.finditer(r'(?m)^> 【画像挿入】', text)]
+for phrase, png, off in TRAPS:
+    pos = text.find(phrase)
+    k = len([q for q in mk_pos if q < pos])      # わなの会話より前のマーカーの数
+    ok = pos >= 0 and pngs_order.get(png) is not None and k <= pngs_order[png] <= k + off
+    # わなの会話から図のマーカーまでに、別の話題の会話が何ターンもはさまっていないか（決め手の語の直後の図）
+    truth(f'わなの直後の図 : {phrase[:22]}… → {png.replace("H23_dai22mon_", "")}', ok)
+
+# ---- 図のタイトルに図番が入っていない（checklist 6-3）。固定配置の図は board(title, …)、座標の図は new_figure(title, …) ----
+titles = re.findall(r"(?:new_figure|board)\(\s*'([^']*)'", drw)
+lit = []
+in_doc = False
+for ln in drw.splitlines():
+    if ln.count('"""') % 2:
+        in_doc = not in_doc
+        continue
+    if in_doc or ln.strip().startswith('#') or 'board_save(' in ln or 'print(' in ln or 'assert ' in ln:
+        continue
+    lit += [t for t in re.findall(r"'([^']*図\s*\d[^']*)'", ln)]
+truth(f'図のタイトルに図番「図N」がない（board・new_figureの{len(titles)}枚分と、画像に出る文字列全体）', len(titles) >= 19 and not lit and not [t for t in titles if re.search(r'図\s*\d', t)])
+sh = open(os.path.join(ZU, 'make_H23_dai22mon_shinseisho_gazou.py'), encoding='utf-8').read()
+truth('申請書・添削のHTML生成に style="height: が残っていない（min-heightにする）', 'style="height' not in sh and "style='height" not in sh)
+truth('申請書・添削の画像の見出しに図番「図N」がない', not re.search(r'図\s*\d', ''.join(re.findall(r'class="ptitle[^"]*">([^<]*)<', sh))))
+
+# ---- 申請書の列の幅：試験の答案用紙（public/kijutsu/H23-tatemono/a1.webp）の罫線から測った比（表の幅618px：85・58・185・128・162px）----
+meas = [85, 58, 185, 128, 162]
+ratio = [round(m * 100 / sum(meas), 1) for m in meas]
+cols = re.findall(r'<col style="width:([0-9.]+)%">', sh)
+got = [float(c) for c in cols]
+truth(f'申請書の列の幅 {got} が答案用紙から測った比 {ratio}（床面積は整数部と小数部の合計）と一致',
+      len(got) == 6 and got[:3] == ratio[:3] and abs(got[3] + got[4] - ratio[3]) < 0.1 and got[5] == ratio[4])
+
+# ---- 本文の「a × b ＝ c」「a − b ＝ c」「a ＋ b ＝ c」を Decimal で計算し直す（下限つき。checklist 4）----
+from decimal import Decimal
+pat = re.compile(r'([0-9]+(?:\.[0-9]+)?)\s*([×−＋])\s*([0-9]+(?:\.[0-9]+)?)\s*＝\s*([0-9]+(?:\.[0-9]+)?)')
+pat = re.compile(r'((?:[0-9]+(?:\.[0-9]+)?\s*[×−＋]\s*)+[0-9]+(?:\.[0-9]+)?)\s*＝\s*([0-9]+(?:\.[0-9]+)?)')
+cnt = bad = 0
+for m in pat.finditer(text):
+    toks = re.findall(r'[0-9]+(?:\.[0-9]+)?|[×−＋]', m.group(1))
+    v = Decimal(toks[0])
+    for op, num in zip(toks[1::2], toks[2::2]):
+        v = {'×': v * Decimal(num), '−': v - Decimal(num), '＋': v + Decimal(num)}[op]
+    c = Decimal(m.group(2))
+    ok = v == c or Decimal(str(trunc2(float(v)))) == c      # 床面積の表記は切り捨てた値も可
+    cnt += 1
+    bad += (not ok)
+    if not ok:
+        print(f'NG [計算] {m.group(0)} → {v}')
+truth(f'本文の「a 演算 b ＝ c」{cnt}か所を計算し直して一致（下限18か所）', cnt >= 18 and bad == 0)
+
+# ---- 電卓のキー列（F-789SG。[Abs] は開きかっこを兼ねる）を実行して、直後の表示と比べる ----
+Bz, Cz, Fz, Gz = complex(241.25, 187.17), complex(239.25, 185.17), complex(233.25, 193.63), complex(207.84, 190.15)
+memk = {'B': Bz, 'C': Cz, 'F': Fz, 'G': Gz}
+
+
+def run_keys(seq):
+    toks = re.findall(r'\[[^\]]+\]|[0-9]+(?:\.[0-9]+)?', seq)
+    out = []
+    i = 0
+    while i < len(toks):
+        t = toks[i]
+        if t == '[ALPHA]':
+            out.append(f"memk['{toks[i + 1][1:-1]}']")
+            i += 2
+            continue
+        m_ = {'[−]': '-', '[+]': '+', '[×]': '*', '[÷]': '/', '[Abs]': 'abs(', '[(]': '(', '[)]': ')'}
+        if t == '[=]':
+            return eval(''.join(out), {'memk': memk})
+        if t not in m_ and not re.match(r'^[0-9]', t):
+            raise ValueError('要点にないキー ' + t)
+        out.append(m_.get(t, t))
+        i += 1
+
+
+keylines = re.findall(r'`(\[Abs\][^`]*)`', text)
+truth(f'電卓のキー列は{len(keylines)}か所（BC・FG）', len(keylines) == 2)
+disps = ['2.8284', '25.6471']
+for kl, d in zip(keylines, disps):
+    v = run_keys(kl)
+    truth(f'キー列 {kl} → {v.real:.4f}（記事 {d}…）', f'{v.real:.4f}'.startswith(d) or f'{math.floor(v.real * 1e4) / 1e4:.4f}' == d)
+check('BCの表示', '表示：2.8284…')
+check('FGの表示', '表示が 25.6471…、25.65mです')
+
+# ---- 体裁：同じ話者が続かない（マーカーや箇条書きをはさんでも）、セリフは長すぎない（checklist 7）----
+spk = re.findall(r'(?m)^\*\*(トリ先生|藍子)\*\*  $', text)
+spk_pos = [(m.group(1), m.start()) for m in re.finditer(r'(?m)^\*\*(トリ先生|藍子)\*\*  $', text)]
+runs = [i for i in range(1, len(spk_pos)) if spk_pos[i][0] == spk_pos[i - 1][0] and '\n## ' not in text[spk_pos[i - 1][1]:spk_pos[i][1]]]
+truth(f'同じ話者の連続がない（{len(spk)}ターン）', not runs)
+longest = 0
+for blk in re.split(r'(?m)^\*\*(?:トリ先生|藍子)\*\*  $', text)[1:]:
+    for para in blk.strip().split('\n\n'):
+        if para.startswith(('>', '-', '1.', '---', '#')):
+            continue
+        longest = max(longest, len(para))
+truth(f'セリフの段落の最長{longest}字（260字以内）', longest <= 260)
 
 print('NG件数:', ng)

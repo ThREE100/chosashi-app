@@ -207,14 +207,18 @@ a0 = base.index('あなたは土地家屋調査士試験の教材デザイナー
 b0 = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a0:b0].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body.rstrip('\n') in fig)
-N_FIG = 23
+N_FIG = 26
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
 judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
 for i in range(1, N_FIG + 1):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'H22_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
-nums = sorted(set(int(m) for m in re.findall(r"'図(\d+)　", draw)))
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, N_FIG + 1)))
+# 2026-10-26：図の画像の中に図番を入れない（2026-10-07のルール）。作図スクリプトの new_figure・fixed_figure・heikou_figure・放射の図の
+# タイトル文字列に「図N」がない。番号はPNG名・プロンプトの「図N：」一覧・作図スクリプトのコメントにだけ使う
+titled = re.findall(r"(?:new_figure|fixed_figure|heikou_figure|suptitle)\(\s*'([^']*)'", draw) + re.findall(r"\n\s+'([^'\n]*の求め方（[^']*)'", draw)
+judge(f'作図スクリプトのタイトル {len(titled)}個に図番がない', len(titled) >= 24 and not [x for x in titled if re.match(r'図\d', x)])
+nums = sorted(set(int(m) for m in re.findall(r'H22_dai21mon_zu(\d\d)_', draw)))
+judge(f'作図スクリプトが書き出すPNGの番号が1から順（{len(nums)}枚）', nums == list(range(1, N_FIG + 1)))
 fits = re.findall(r'^\s*fit\((.*)', draw, re.M)
 judge(f'作図スクリプトのfitはすべて pad_aspect=True（{len(fits)}か所）', fits and all('pad_aspect=True' in f for f in fits))
 for s in ['（513.27, 484.16）', '（513.27, 494.28）', '（513.27, 504.01）', '（513.27, 500.97）', '（532.49, 481.86）', '（534.67, 500.24）',
@@ -233,6 +237,8 @@ for s in ['北を上にして描き直すと、こうなるわ', '数字の裏�
           '平成8年の地積測量図の線が今も筆界だという、数字の裏付けよ', '(B)が6番2のまま、(C)が新しい6番4ですね',
           '申請人の欄は、被相続人の杉山太郎さんを書いて、良子さん、その下に成年後見人の木村さん、それから健二さんの順ですね',
           '基準点まで入れても楽に収まります', '次の年度も、この調子でいくわよ！',
+          # 2026-10-26 追加（標準セットの時系列・注の仕分け、求める点の仕分け）
+          '日付の順に並べます', '問題文の注5（誤差の限度の表。6番1は1.71㎡、6番2は2.01㎡）です', 'ついでに出しておきます',
           # 2026-10-05 追加（藍子の誤答のわなごとに図をそろえた）
           '道路として使われるようになるのは、工事に着工して、完成してからの話なんですね。今の帯は、杉山太郎さんの家の敷地の一部のまま',
           '北へも東へも320.04。これをA1に足せばCです', '865.5284 ÷ 2 ＝ 432.7642。登記記録の6番2の地積は、切り捨てて432.76㎡です',
@@ -342,33 +348,36 @@ n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
 judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋申請書の完成形1＋問1・問2の欄2＝計{N_FIG + 4}か所の想定）',
       n_marker == N_FIG + 4)
 # 記事の画像挿入マーカーの順と zu/ のPNGの対応（マーカーの文言 → PNG）。2026-10-02 追加
-ORDER = [('北を上にして座標どおりに描き直した全体図', 'H22_dai21mon_zu01_zentaizu.png'),
-         ('帯H→E→F→J→Iの地目の図', 'H22_dai21mon_zu02_obi_chimoku.png'),
-         ('問1の整理図', 'H22_dai21mon_zu03_mon1_seiri.png'),
+ORDER = [('全体の時系列の図', 'H22_dai21mon_zu01_jikeiretsu.png'),
+         ('注の仕分けの図', 'H22_dai21mon_zu02_chuu_shiwake.png'),
+         ('北を上にして座標どおりに描き直した全体図', 'H22_dai21mon_zu03_zentaizu.png'),
+         ('帯H→E→F→J→Iの地目の図', 'H22_dai21mon_zu04_obi_chimoku.png'),
+         ('問1の整理図', 'H22_dai21mon_zu05_mon1_seiri.png'),
          ('答案用紙（その一）の問1の欄の完成形', 'H22_dai21mon_toukishinseisho_kansei_toi1.png'),
-         ('T3からの放射でG点を求める図', 'H22_dai21mon_zu04_G_housha.png'),
-         ('T3からの放射でL点を求める図', 'H22_dai21mon_zu05_L_housha.png'),
-         ('T1からの放射でF点を求める図', 'H22_dai21mon_zu06_F_housha.png'),
-         ('T1からの放射でJ点を求める図', 'H22_dai21mon_zu07_J_housha.png'),
-         ('座標変換の確かめの図', 'H22_dai21mon_zu08_zahyou_henkan.png'),
-         ('C点の求め方の図', 'H22_dai21mon_zu09_C_heikou.png'),
-         ('D点の求め方の図', 'H22_dai21mon_zu10_D_heikou.png'),
-         ('K点の求め方の図', 'H22_dai21mon_zu11_K_ten.png'),
+         ('求める点の仕分けの図', 'H22_dai21mon_zu06_ten_shiwake.png'),
+         ('T3からの放射でG点を求める図', 'H22_dai21mon_zu07_G_housha.png'),
+         ('T3からの放射でL点を求める図', 'H22_dai21mon_zu08_L_housha.png'),
+         ('T1からの放射でF点を求める図', 'H22_dai21mon_zu09_F_housha.png'),
+         ('T1からの放射でJ点を求める図', 'H22_dai21mon_zu10_J_housha.png'),
+         ('座標変換の確かめの図', 'H22_dai21mon_zu11_zahyou_henkan.png'),
+         ('C点の求め方の図', 'H22_dai21mon_zu12_C_heikou.png'),
+         ('D点の求め方の図', 'H22_dai21mon_zu13_D_heikou.png'),
+         ('K点の求め方の図', 'H22_dai21mon_zu14_K_ten.png'),
          ('答案用紙（その一）の問2の欄の完成形', 'H22_dai21mon_toukishinseisho_kansei_toi2.png'),
-         ('(B)(C)の面積の求め方の図', 'H22_dai21mon_zu12_menseki.png'),
-         ('伏せてある6番2の地積を出す図', 'H22_dai21mon_zu13_bunpitsumae_chiseki.png'),
-         ('誤差の限度の判定図', 'H22_dai21mon_zu14_kousa.png'),
-         ('東の道路境界の比較図', 'H22_dai21mon_zu15_kyoukai_hikaku.png'),
-         ('新しい地番の図', 'H22_dai21mon_zu16_chiban_6ban4.png'),
-         ('分筆後の区画と地番の図', 'H22_dai21mon_zu17_bunpitsu_chiban.png'),
-         ('申請人の整理図', 'H22_dai21mon_zu18_souzokunin.png'),
-         ('成年後見人の図', 'H22_dai21mon_zu19_kouken.png'),
+         ('(B)(C)の面積の求め方の図', 'H22_dai21mon_zu15_menseki.png'),
+         ('伏せてある6番2の地積を出す図', 'H22_dai21mon_zu16_bunpitsumae_chiseki.png'),
+         ('誤差の限度の判定図', 'H22_dai21mon_zu17_kousa.png'),
+         ('東の道路境界の比較図', 'H22_dai21mon_zu18_kyoukai_hikaku.png'),
+         ('新しい地番の図', 'H22_dai21mon_zu19_chiban_6ban4.png'),
+         ('分筆後の区画と地番の図', 'H22_dai21mon_zu20_bunpitsu_chiban.png'),
+         ('申請人の整理図', 'H22_dai21mon_zu21_souzokunin.png'),
+         ('成年後見人の図', 'H22_dai21mon_zu22_kouken.png'),
          ('誤答→添削→正解の3コマ', 'H22_dai21mon_toukishinseisho_machigai.png'),
-         ('土地の表示の行ごとの書き方の図', 'H22_dai21mon_zu20_genin.png'),
+         ('土地の表示の行ごとの書き方の図', 'H22_dai21mon_zu23_genin.png'),
          ('登記申請書（問3）の完成形', 'H22_dai21mon_toukishinseisho_kansei.png'),
-         ('H・Jは筆界点ではない図', 'H22_dai21mon_zu21_HJ.png'),
-         ('地積測量図の完成見本', 'H22_dai21mon_zu22_sokuryouzu.png'),
-         ('本番で解く順番の図', 'H22_dai21mon_zu23_toku_junban.png')]
+         ('H・Jは筆界点ではない図', 'H22_dai21mon_zu24_HJ.png'),
+         ('地積測量図の完成見本', 'H22_dai21mon_zu25_sokuryouzu.png'),
+         ('本番で解く順番の図', 'H22_dai21mon_zu26_toku_junban.png')]
 mk = [l for l in lines if l.startswith('> 【画像挿入】')]
 judge(f'マーカーの数とPNGの対応表の数が同じ（{len(mk)}・{len(ORDER)}）', len(mk) == len(ORDER))
 for n_, ((key, png_), m_) in enumerate(zip(ORDER, mk), 1):
@@ -392,6 +401,26 @@ judge(f'まとめのわなの数と対応表の数が同じ（{len(trap_lines)}�
 for (head, keys), l in zip(TRAPS, trap_lines):
     judge(f'わな「{head}」に図がある（{"・".join(keys)}）',
           l.startswith('- **' + head) and all(any(k in m_ for m_ in mk) for k in keys))
+# 2026-10-26 追加：図を、それが説明する会話の直後に置いているか（マーカーの直前のセリフに決め手の語があるか）
+PLACE = [('全体の時系列の図', '平成22年8月22日'), ('注の仕分けの図', '問題文の注5'), ('求める点の仕分けの図', 'ついでに出しておきます'),
+         ('帯H→E→F→J→Iの地目の図', '工事に着工して、完成してからの話'), ('伏せてある6番2の地積を出す図', '432.7642'),
+         ('誤差の限度の判定図', '問題ないわ'), ('新しい地番の図', '6番3の次で、6番4'), ('申請人の整理図', 'この2人よ'),
+         ('土地の表示の行ごとの書き方の図', '6番2から分筆』よ'), ('H・Jは筆界点ではない図', '折り曲げる点じゃない')]
+for key, want in PLACE:
+    i_ = next(i for i, l in enumerate(lines) if l.startswith('> 【画像挿入】') and key in l)
+    j_ = i_ - 1
+    while j_ > 0 and lines[j_].strip() == '':
+        j_ -= 1
+    judge(f'図「{key}」の直前に「{want}」がある', want in lines[j_])
+# 地積測量図の完成見本は、試験の答案用紙の問4の枠（public/kijutsu/H22-tochi/a2.webp）の書式で描いてある
+for v in ["'問4'", '地　積　測　量　図', '6番2、6番4', 'A市B町二丁目', '（平成22年8月10日作成）', "'申 請 人'", "'縮尺'", "'250'", "'作 成 者'"]:
+    check('問4の枠の書式（作図スクリプト）', v, draw, '作図')
+# 電卓操作のキー列をそのまま実行して、直後の「表示：」と一致するか（tools/keysim_note_article.py。2026-10-26 追加）
+from keysim_note_article import simulate  # noqa: E402
+sim = simulate(os.path.join(HERE, 'note_H22_dai21mon_tochi_kaiwa_kaisetsu.md'))
+judge(f'キー列を再現した表示の数 {len(sim)}（記事の「表示：」24個）', len(sim) == 24)
+for n_, want, got, ok_ in sim:
+    judge(f'キー列の再現 {n_}行目 : 記事「{want}」／ 再現「{got}」', ok_)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成22年度問題21（土地）〜'
