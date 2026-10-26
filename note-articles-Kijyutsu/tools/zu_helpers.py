@@ -427,6 +427,12 @@ def new_figure(title, caption, w=16, h=12, dpi=100, ncols=1, width_ratios=None):
     fig.patch.set_facecolor('white')
     fig.suptitle(title, fontsize=24, weight='bold', y=0.975)
     fig.text(0.5, 0.03, caption, ha='center', va='bottom', fontsize=16, wrap=True)
+    # 説明文は日本語だと wrap=True でも折り返されず、長いと画像の端で切れる（2026-10-26、R5/Q21。図4・13・15で発生）。
+    # 全角換算で1行あたり約62字を超える行があれば警告する（超えたら自分で改行する）。
+    for ln in caption.split('\n'):
+        zen = sum(1.0 if (ord(ch) > 0x2E80 or ch in '（）「」、。') else 0.55 for ch in ln)  # 全角換算の字数
+        if zen * 16 * dpi / 72 > w * dpi * 0.97:
+            print(f'[説明文が長い] 1行が画像の幅をこえそう（全角換算{zen:.0f}字）：{ln[:30]}…')
     fig.subplots_adjust(left=0.03, right=0.97, top=0.90, bottom=0.12, wspace=0.08)
     return fig, (axes if ncols > 1 else [axes])
 
