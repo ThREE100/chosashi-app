@@ -32,14 +32,14 @@ body {{ background: #fff; width: 1200px; font-family: "IPAMincho", "Noto Serif C
 .sheet {{ font-size: 22px; color: #333; margin-bottom: 6px; }}
 .q {{ font-size: 26px; font-weight: bold; margin: 26px 0 12px; font-family: {SANS}; }}
 table.xyrow {{ width: 100%; border-collapse: collapse; border: 2.5px solid #111; table-layout: fixed; }}
-table.xyrow td {{ border: 1.5px solid #111; font-size: 22px; height: 64px; text-align: center; vertical-align: middle; }}
-table.xyrow td.pt {{ width: 9%; }}
-table.xyrow td.ax {{ width: 13%; }}
+table.xyrow td {{ border: 1.5px solid #111; font-size: 22px; height: 74px; text-align: center; vertical-align: middle; }}
+table.xyrow td.pt {{ width: 5.9%; }}
+table.xyrow td.ax {{ width: 11.6%; }}
 table.xyrow td .ink {{ font-size: 28px; }}
 .page .caption {{ margin-top: auto; padding-top: 30px; }}
 .title {{ text-align: center; font-size: 40px; letter-spacing: 0.9em; margin: 0 0 50px 0.9em; }}
 .row {{ display: flex; align-items: flex-start; margin-bottom: 28px; position: relative; }}
-.lab {{ width: 200px; font-size: 22px; padding-top: 10px; white-space: nowrap; }}
+.lab {{ width: 273px; font-size: 22px; padding-top: 10px; white-space: nowrap; }}
 .box {{ flex: 1; border: 2px solid #111; padding: 10px 16px; font-size: 24px; line-height: 1.7; }}
 .ink {{ color: {INK}; font-family: {SANS}; }}
 .plain {{ font-size: 22px; margin: 4px 0 18px; }}
@@ -54,16 +54,17 @@ table.app td {{ padding: 0; vertical-align: top; white-space: nowrap; }}
 table.app td.k {{ width: 232px; }}
 table.app td.r {{ width: 96px; }}
 table.land {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
-table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; }}
-table.land td.head {{ height: 50px; text-align: center; font-size: 20px; }}
+table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 83px; vertical-align: middle; }}
+table.land td.head {{ height: 57px; text-align: center; font-size: 20px; }}
 table.land td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; white-space: nowrap; }}
 table.land td.shozai-lab {{ text-align: center; }}
-table.land td.shozai {{ height: 48px; }}
+table.land td.shozai {{ height: 64px; }}
+table.land td.shozai2 {{ height: 63px; }}
 table.land td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }}
 table.land td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }}
 table.land td.chimoku {{ text-align: center; }}
 table.land td.cause {{ white-space: normal; }}
-table.land tr.last td {{ height: 26px; }}
+table.land tr.last td {{ height: 24px; }}
 table.land td .ink {{ font-size: 24px; }}
 table.land td.cause .ink {{ font-size: 22px; line-height: 1.45; }}
 .shokuin {{ text-align: right; font-size: 22px; margin: 10px 0 0; letter-spacing: 0.3em; }}
@@ -129,7 +130,7 @@ def applicant_table(rows):
         if r[0] == 'line':
             h.append(f'<tr><td colspan="3">{r[1]}</td></tr>')
         elif r[0] == 'gap':
-            h.append('<tr><td colspan="3" style="height:10px"></td></tr>')
+            h.append('<tr><td colspan="3" style="min-height:10px;padding:5px"></td></tr>')
         else:
             h.append(f'<tr><td class="k">{r[0]}</td><td class="r">{r[1]}</td><td>{r[2]}</td></tr>')
     h.append('</table>')
@@ -137,11 +138,11 @@ def applicant_table(rows):
 
 
 def land_table(rows, n_rows=3):
-    h = ['<table class="land"><colgroup><col style="width:6%"><col style="width:12%"><col style="width:12%">'
-         '<col style="width:13%"><col style="width:14%"><col style="width:9%"><col style="width:34%"></colgroup>',
+    h = ['<table class="land"><colgroup><col style="width:5.4%"><col style="width:13.2%"><col style="width:3.3%">'
+         '<col style="width:16.5%"><col style="width:16.6%"><col style="width:6.4%"><col style="width:38.6%"></colgroup>',
          f'<tr><td class="vert" rowspan="{n_rows + 4}">土地の表示</td>'
          f'<td class="shozai-lab" rowspan="2">所　在</td><td class="shozai" colspan="5">{ink(SHOZAI)}</td></tr>',
-         '<tr><td class="shozai" colspan="5"></td></tr>',
+         '<tr><td class="shozai2" colspan="5"></td></tr>',
          '<tr><td class="head" colspan="2">①地　　番</td><td class="head">②地　　目</td>'
          '<td class="head" colspan="2">③地　　積　m²</td><td class="head">登記原因及びその日付</td></tr>']
     for i in range(n_rows):
@@ -163,10 +164,10 @@ OK_APPLICANT = [('line', ink(HISOZOKU)),
 
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink(PURPOSE)}</div></div>
-<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="height:112px">{ink(ATTACH)}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box" style="min-height:70px">{ink(PURPOSE)}</div></div>
+<div class="row"><div class="lab">添　付　書　類</div><div class="box" style="min-height:116px">{ink(ATTACH)}</div></div>
 <div class="plain">{DATE}</div>
-<div class="appbox" style="min-height:300px">{applicant_table(OK_APPLICANT)}</div>
+<div class="appbox" style="min-height:288px">{applicant_table(OK_APPLICANT)}</div>
 <div class="dairi"><div class="lab">代　　理　　人</div><div class="addr">Ａ市Ｂ町一丁目２番３号</div><div class="name">東田太郎　㊞</div></div>
 <div class="renraku">（連絡先　＊＊－＊＊＊＊－＊＊＊＊）</div>
 {land_table(ROWS)}
@@ -224,7 +225,7 @@ machigai = page(f'''
 <div class="panel"><div class="ptitle ok">③正解</div>{ok_panel}</div>
 <div class="caption" style="margin:10px 0 30px">平成20年度 第21問｜七郎は放棄、相続人は和子・二郎・八郎の3人</div>''')
 
-exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
     pg = browser.new_page(viewport={'width': 1200, 'height': 100})  # 欄だけの画像が引き伸ばされないよう低くする

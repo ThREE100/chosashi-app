@@ -171,7 +171,7 @@ for s in ['- **西川和子**：配偶者。常に相続人（民法第890条）
           '- **西川八郎**：平成15年に死亡した弟の五郎の子。代襲して相続人（民法第889条第2項・第887条第2項）。B市D町四丁目6番1号',
           '- **相続人にならない人**：西川七郎（相続の放棄）、西川六郎（欠格）、西川九郎（兄弟姉妹の相続は再代襲しない）',
           '- **登記の目的**：土地分筆登記', '- **添付書類**：地積測量図　相続証明書　代位原因証書　代理権限証書',
-          '- **大きな枠**：被代位者（被相続人　西川四郎）　相続人　C市A町二丁目5番2号　西川和子　B市D町三丁目1番7号　西川二郎　B市D町四丁目6番1号　西川八郎　申請人（代位者）　B市C町二丁目3番4号　南野二郎　代位原因　平成19年5月1日売買の所有権移転登記請求権　登録免許税　金2,000円',
+          '- **大きな枠**：被代位者（被相続人　西川四郎）　相続人　C市A町二丁目5番2号　西川和子　B市D町三丁目1番7号　西川二郎　B市D町四丁目6番1号　西川八郎　申請人（代位者）　B市C町二丁目3番4号　南野二郎　代位原因　平成19年5月1日売買の所有権移転登記請求権',
           '- **所在**：K市B町一丁目', '- **1行目**：①5番、②宅地、③512.66、登記原因及びその日付は空欄',
           '- **2行目**：①（イ）5番1、②空欄、③300.79、「①③5番1、5番2に分筆」',
           '- **3行目**：①（ロ）5番2、②宅地、③212.58、「5番から分筆」',
@@ -207,14 +207,15 @@ a0 = base.index('あなたは土地家屋調査士試験の教材デザイナー
 b0 = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a0:b0].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-N_FIG = 13
+N_FIG = 27
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))   # 2桁の図番号も数える
 judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
 for i in range(1, N_FIG + 1):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'H20_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
-nums = sorted(set(int(m) for m in re.findall(r"(?:new_figure|fixed_figure)\('図(\d+)　", draw)))
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, N_FIG + 1)))
+# 画像の中に図番を入れない（2026-10-07のルール。2026-10-26、旧版の照合が逆の向き〔図番があること〕を要求していたのを直した）
+judge('作図スクリプトの図のタイトルに「図N」がない（画像の中に図番を入れない）',
+      not re.search(r"(?:new_figure|fixed_figure)\('図\s*\d+", draw) and not re.search(r"set_title\('図\s*\d+", draw))
 fits = re.findall(r'^\s*fit\((.*)', draw, re.M)
 judge(f'作図スクリプトのfitはすべて pad_aspect=True（{len(fits)}か所）',
       fits and all('pad_aspect=True' in draw[draw.index(f):draw.index(f) + 300] for f in fits))
@@ -226,12 +227,30 @@ for s in ['（4.04, 6.43）', '（10.26, 6.37）', '（31.91, 19.25）', '（8.8
           '−435.1064 − 601.5853i', '212.58635', '300.79265', '513.379', '0.719', '9.4041…', '11.7552…']:
     check('解説図プロンプトの数値', s, fig, '解説図')
     check('作図スクリプトの数値', s, draw, '作図')
-for s in ['そのとおり。北を上にして描き直すと、こうなるわ', '変数XをT101に使い回しなさい', 'そう。配り方だけ正しくやればいいの。図にするとこうよ',
+for s in ['そのとおり。北を上にして描き直すと、こうなるわ', '変数XをT101に使い回しなさい', 'そう。配り方だけ正しくやればいいの',
           '真数表に25°17′52″があるのが、正しい向きの合図だったのよ', '9.4041… ÷ 11.7552… ＝ 0.8。4：5になっています',
           'そう。本番は、キーの少ない w の式でいいわ', '1026.758 ÷ 2 ＝ 513.379。（イ）と（ロ）の丸める前の和300.79265 ＋ 212.58635とも一致します',
           '一番厳しい列で比べる必要はないの', 'そこが出題者のねらいよ。まとめなさい', '相続人が申請する立場を証する情報（同項第4号。戸籍など、相続証明書）よ',
           '地積更正をしないんだから、登記記録のまま書くの', '基準点だけ描いてT101を忘れないこと', '次の年度も、この調子でいくわよ！']:
     check('図の挿入位置の文言', s)
+# 2026-10-26に足した図の挿入位置の文言（記事とプロンプトの両方にある）
+for s in ['そのとおり。北を上にして描き直すと、こうなるわ', '23.91のほうを掛けると（4.03, 6.44）で、これも誤りよ',
+          '真数表に25°17′52″があるのが、正しい向きの合図だったのよ', '9.4041… ÷ 11.7552… ＝ 0.8。4：5になっています',
+          'そう。本番は、キーの少ない w の式でいいわ', '1026.758 ÷ 2 ＝ 513.379。（イ）と（ロ）の丸める前の和300.79265 ＋ 212.58635とも一致します',
+          'そこが出題者のねらいよ。まとめなさい', '相続人が申請する立場を証する情報（同項第4号。戸籍など、相続証明書）よ',
+          '基準点だけ描いてT101を忘れないこと', '次の年度も、この調子でいくわよ！',
+          '調査結果の6の公差の表で、512.66㎡の甲2はいくら？', '兄弟を挙げなさい', '三郎さんの系統は誰も相続しないの', '相続人かどうかは関係あるの',
+          '正しい点から北西へ約2cmずれるわ', 'まず相続人を確定しなさい', '別の書類で示すの', '代理権限証書は同項第2号よ',
+          '代位の申請でも税はかかるわよ', '『5番から分筆』よ', '点線で分けて書くのよ', '9.4と書かないこと']:
+    check('図の挿入位置の文言（記事）', s)
+for s in ['そのとおり。北を上にして描き直すと、こうなるわ', '23.91のほうを掛けると（4.03, 6.44）で、これも誤りよ', '真数表に25°17′52″があるのが、正しい向きの合図だったのよ',
+          '9.4041… ÷ 11.7552… ＝ 0.8。4：5になっています', 'そう。本番は、キーの少ない w の式でいいわ',
+          '1026.758 ÷ 2 ＝ 513.379。（イ）と（ロ）の丸める前の和300.79265 ＋ 212.58635とも一致します',
+          'そこが出題者のねらいよ。まとめなさい', '相続人が申請する立場を証する情報（同項第4号。戸籍など、相続証明書）よ',
+          '基準点だけ描いてT101を忘れないこと', '次の年度も、この調子でいくわよ！', '調査結果の6の公差の表で、512.66㎡の甲2はいくら？',
+          '兄弟を挙げなさい', '三郎さんの系統は誰も相続しないの', '相続人かどうかは関係あるの', '正しい点から北西へ約2cmずれるわ',
+          'まず相続人を確定しなさい', '別の書類で示すの', '代理権限証書は同項第2号よ', '代位の申請でも税はかかるわよ', '『5番から分筆』よ',
+          '点線で分けて書くのよ', '9.4と書かないこと']:
     check('図の挿入位置の文言（プロンプト側）', s, fig, '解説図')
 for s in ['平成20年８月24日　　申請　　Ｋ地方法務局', '土地分筆登記', '地積測量図　相続証明書　代位原因証書　代理権限証書',
           '被代位者（被相続人　西川四郎）', '相続人　Ｃ市Ａ町二丁目５番２号　西川和子', 'Ｂ市Ｄ町三丁目１番７号　西川二郎',
@@ -304,7 +323,14 @@ for s in ['①誤答', '②添削（赤ペン）', '③正解', 'Ｃ市Ａ町二
 
 # ---- 注の書き分け（今年は、見取図の注・親族関係の注・測量成果の表の下の注1〜3・問題文の注1〜4。裸の「注N」を残さない） ----
 fig_data = fig[fig.index('## 差し替えデータ'):]
-for src, name in [(text, '記事'), (fig_data, '解説図（差し替えデータ）'), (draw, '作図')]:
+def strip_between(src, a_, b_):
+    i_ = src.index(a_)
+    return src[:i_] + src[src.index(b_, i_):]
+
+
+# 注の仕分けの図（図2）の中の「注1　…」は、枠の見出し（測量成果の表の下の注1〜3など）の下に並べた項目名なので除く
+for src, name in [(text, '記事'), (strip_between(fig_data, '- **図2：', '- **図3：'), '解説図（差し替えデータ）'),
+                  (strip_between(draw, 'NB = [', '\nfor '), '作図')]:
     bare = [m.group(0) for m in re.finditer(r'(.{0,9})注([1-9])', src)
             if not re.search(r'(問題文の|測量成果の表の下の)$', m.group(1))]
     judge(f'{name}の注の書き分け（裸の「注N」: {bare[:5]}）', not bare)
@@ -337,30 +363,157 @@ judge(f'同じ話者のセリフの連続（画像挿入マーカーをはさむ
 n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
 judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋添削1＋申請書の完成形1＋問1・問2の欄2＝計{N_FIG + 4}か所の想定）',
       n_marker == N_FIG + 4)
-# 記事の画像挿入マーカーの順と zu/ のPNGの対応（マーカーの文言 → PNG）。2026-10-02 追加
-ORDER = [('北を上にして座標どおりに描き直した全体図', 'H20_dai21mon_zu01_zentaizu.png'),
-         ('結合トラバースの図', 'H20_dai21mon_zu02_T101_ketsugou.png'),
-         ('コンパスの法則の配分の図', 'H20_dai21mon_zu03_compass.png'),
+# 記事の画像挿入マーカーの順と zu/ のPNGの対応（マーカーの文言 → PNG）。2026-10-02 追加、2026-10-26に13枚から27枚へ
+ORDER = [('全体の時系列の図', 'H20_dai21mon_zu01_jikeiretsu.png'),
+         ('注の仕分けの図', 'H20_dai21mon_zu02_chu_shiwake.png'),
+         ('北を上にして座標どおりに描き直した全体図', 'H20_dai21mon_zu03_zentaizu.png'),
+         ('T2→T101′→T3′の結合トラバースの図', 'H20_dai21mon_zu04_T101_ketsugou.png'),
+         ('補正量の向きの図', 'H20_dai21mon_zu05_hosei_muki.png'),
+         ('コンパスの法則の配分の図', 'H20_dai21mon_zu06_compass_wariai.png'),
          ('答案用紙（その1）の問1の欄の完成形', 'H20_dai21mon_toukishinseisho_kansei_toi1.png'),
-         ('B点の求め方の図', 'H20_dai21mon_zu04_B_housha.png'),
-         ('E点の求め方の図', 'H20_dai21mon_zu05_E_naibun.png'),
-         ('F点の求め方の図', 'H20_dai21mon_zu06_F_suisen.png'),
+         ('B点の求め方の図', 'H20_dai21mon_zu07_B_housha.png'),
+         ('E点の求め方の図', 'H20_dai21mon_zu08_E_naibun.png'),
+         ('F点の求め方の図', 'H20_dai21mon_zu09_F_suisen.png'),
          ('答案用紙（その1）の問2の欄の完成形', 'H20_dai21mon_toukishinseisho_kansei_toi2.png'),
-         ('（イ）E→F→C→Dと（ロ）A→B→F→Eの面積の図', 'H20_dai21mon_zu07_menseki.png'),
-         ('公差の数直線の図', 'H20_dai21mon_zu08_kousa.png'),
-         ('西川四郎の相続関係図', 'H20_dai21mon_zu09_souzoku.png'),
-         ('代位の関係図', 'H20_dai21mon_zu10_daii.png'),
+         ('（イ）E→F→C→Dと（ロ）A→B→F→Eの面積の図', 'H20_dai21mon_zu10_menseki.png'),
+         ('精度区分の図', 'H20_dai21mon_zu11_seido_kubun.png'),
+         ('公差の数直線の図', 'H20_dai21mon_zu12_kousa.png'),
+         ('分筆を申請できる人の図', 'H20_dai21mon_zu13_mibun_shinsei.png'),
+         ('相続人の順位の図', 'H20_dai21mon_zu14_soz_junni.png'),
+         ('兄弟姉妹の代襲相続の図', 'H20_dai21mon_zu15_daishuu.png'),
+         ('父だけが同じ兄の西川二郎の図', 'H20_dai21mon_zu16_hanketsu.png'),
+         ('西川四郎の相続関係図', 'H20_dai21mon_zu17_souzoku_kankei.png'),
+         ('代位原因の日付の図', 'H20_dai21mon_zu18_daii_hizuke.png'),
+         ('代位の関係図', 'H20_dai21mon_zu19_daii.png'),
          ('誤答→添削→正解の3コマ', 'H20_dai21mon_toukishinseisho_machigai.png'),
-         ('分筆後の区画と地番の図', 'H20_dai21mon_zu11_bunpitsu_chiban.png'),
+         ('添付書類の図', 'H20_dai21mon_zu20_tenpu.png'),
+         ('登録免許税の図', 'H20_dai21mon_zu21_tourokumenkyozei.png'),
+         ('分筆後の区画と地番の図', 'H20_dai21mon_zu22_chiban.png'),
+         ('土地の表示の3行の図', 'H20_dai21mon_zu23_tochi_hyouji_gyou.png'),
          ('登記申請書（問3）の完成形', 'H20_dai21mon_toukishinseisho_kansei.png'),
-         ('地積測量図（1／250）の完成見本', 'H20_dai21mon_zu12_chiseki_sokuryouzu.png'),
-         ('本番で解く順番の図', 'H20_dai21mon_zu13_toku_junban.png')]
+         ('辺長7本の端数処理の図', 'H20_dai21mon_zu24_hencho_hasuu.png'),
+         ('地積測量図に書くもの・書かないもの・書きようがないものの図', 'H20_dai21mon_zu25_kaku_kakanai.png'),
+         ('地積測量図（1／250）の完成見本', 'H20_dai21mon_zu26_sokuryouzu.png'),
+         ('本番で解く順番の図', 'H20_dai21mon_zu27_toku_junban.png')]
 mk = [l for l in lines if l.startswith('> 【画像挿入】')]
 judge(f'マーカーの数とPNGの対応表の数が同じ（{len(mk)}・{len(ORDER)}）', len(mk) == len(ORDER))
 for n_, ((key, png_), m_) in enumerate(zip(ORDER, mk), 1):
     judge(f'マーカー{n_}「{key}」→ {png_}（記事の順）', key in m_ and os.path.exists(os.path.join(HERE, 'zu', png_)))
 zu_png = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
 judge(f'zu/ のPNGが対応表と過不足なし（{len(zu_png)}枚）', zu_png == sorted(p_ for _, p_ in ORDER))
+zu_nums = [int(re.search(r'_zu(\d+)_', p_).group(1)) for _, p_ in ORDER if '_zu' in p_]
+judge('図番号（PNG名）が記事の順に1〜27で並ぶ', zu_nums == list(range(1, N_FIG + 1)))
+for _, p_ in ORDER:
+    w_, h_ = struct.unpack('>II', open(os.path.join(HERE, 'zu', p_), 'rb').read()[16:24])
+    if '_zu26_' in p_:
+        want_ = (w_, h_) == (1600, 1300)                       # 答案用紙の問4の枠の中に描く完成見本
+    elif '_zu' in p_:
+        want_ = (w_, h_) == (1600, 1200)
+    else:
+        want_ = w_ == 1200
+    judge(f'{p_} の大きさ（{w_}×{h_}px）', want_)
+
+# ---- まとめのわな（1項目1わな）→ 図の対応表（2026-10-26。わなの会話の直後に図があるか） ----
+TRAPS = [('T101の補正量の向きは T3 − T3′', '補正量の向きの図', '正しい点から北西へ約2cmずれるわ'),
+         ('T101の配る割合は10.71 ÷ 34.62', 'コンパスの法則の配分の図', 'これも誤りよ'),
+         ('B点は調整後のT101から後視の向きを取り直す', 'B点の求め方の図', '真数表に25°17′52″があるのが、正しい向きの合図だったのよ'),
+         ('E点はA→Dの9分の4', 'E点の求め方の図', '4：5になっています'),
+         ('F点は垂線の足', 'F点の求め方の図', 'キーの少ない w の式でいいわ'),
+         ('精度区分は地域で決まる', '精度区分の図', '512.66㎡の甲2はいくら？'),
+         ('地積更正は不要', '公差の数直線の図', '一番厳しい列で比べる必要はないの'),
+         ('分筆を申請できるのは登記名義人', '分筆を申請できる人の図', 'まず相続人を確定しなさい'),
+         ('相続の放棄をした七郎は、子がいないのと同じ', '相続人の順位の図', '兄弟を挙げなさい'),
+         ('九郎は再代襲しない', '兄弟姉妹の代襲相続の図', '三郎さんの系統は誰も相続しないの'),
+         ('二郎は父だけが同じでも兄弟姉妹', '父だけが同じ兄の西川二郎の図', '相続人かどうかは関係あるの'),
+         ('相続人は和子・二郎・八郎の3人', '西川四郎の相続関係図', '西川七郎（相続の放棄）'),
+         ('買主は相続人に代位して申請する', '代位の関係図', '相続証明書）よ'),
+         ('代位原因の日付は売買の日', '代位原因の日付の図', '別の書類で示すの'),
+         ('大きな枠の相続人の書き方', '誤答→添削→正解の3コマ', '赤で直すとこうよ'),
+         ('添付書類は4つ', '添付書類の図', '代理権限証書は同項第2号よ'),
+         ('登録免許税は金2,000円', '登録免許税の図', '代位の申請でも税はかかるわよ'),
+         ('本番の5番の分筆は支号を付ける', '分筆後の区画と地番の図', '『5番から分筆』よ'),
+         ('土地の表示の3行', '土地の表示の3行の図', '点線で分けて書くのよ'),
+         ('辺長は小数第3位を四捨五入', '辺長7本の端数処理の図', '9.4と書かないこと'),
+         ('地積測量図に書くもの・書かないもの', '地積測量図に書くもの・書かないもの・書きようがないものの図', '- **印刷済みの欄**'),
+         ('地積測量図は答案用紙の枠に実寸で収まる', '地積測量図（1／250）の完成見本', '実際の大きさで枠に入れると、こうなるわ')]
+summ = text[text.index('今日のわなをおさらいするわよ'):text.index('計算は4点と面積だけ')]
+items = [l for l in summ.splitlines() if l.startswith('- **')]
+judge(f'まとめのわな {len(items)}項目 ＝ 対応表 {len(TRAPS)}', len(items) == len(TRAPS))
+judge('対応表の図に重複がない', len({f for _, f, _ in TRAPS}) == len(TRAPS))
+for trap, figkey, key in TRAPS:
+    judge(f'わな「{trap}」がまとめにある', any(trap in l for l in items))
+    idx = [i_ for i_, l in enumerate(lines) if l.startswith('> 【画像挿入】') and figkey in l[:90]]
+    prev = ''
+    if idx:
+        j_ = idx[0] - 1
+        while j_ >= 0 and not lines[j_].strip():
+            j_ -= 1
+        prev = lines[j_]
+    judge(f'  図「{figkey}」は「{key}」の会話の直後', bool(idx) and key in prev)
+
+# ---- 電卓のキー列の再現（2026-10-26追加。keysim_note_article.py で記事のキー列を実行し、直後の「表示：」と照らす） ----
+sys.path.insert(0, os.path.join(HERE, '..', '..', 'tools'))
+from keysim_note_article import simulate  # noqa: E402
+res = simulate(os.path.join(HERE, 'note_H20_dai21mon_tochi_kaiwa_kaisetsu.md'))
+for n_, want_, got_, ok_ in res:
+    judge(f'キー列の再現 {n_}行目 記事「{want_}」＝ 再現「{got_}」', ok_)
+judge(f'キー列の再現の表示が25個ある（{len(res)}個）', len(res) == 25)
+
+# ---- 答案用紙から測った寸法（2026-10-26追加。touan_youshi/p1.png・p2.png は縮小されたA3、1px ＝ 0.3mm） ----
+from PIL import Image  # noqa: E402
+import numpy as np  # noqa: E402
+
+
+def _dark(png_):
+    im_ = np.array(Image.open(os.path.join(HERE, 'touan_youshi', png_)).convert('L')).astype(int)
+    return im_ < np.percentile(im_, 50) - 45
+
+
+def _clusters(idx_):
+    out_, cur_ = [], []
+    for v_ in idx_:
+        if cur_ and v_ - cur_[-1] > 3:
+            out_.append(sum(cur_) / len(cur_))
+            cur_ = []
+        cur_.append(v_)
+    if cur_:
+        out_.append(sum(cur_) / len(cur_))
+    return out_
+
+
+d1_ = _dark('p1.png')
+# 土地の表示の表（y 1075〜1280）の縦線：枠の左端と、各列の境（点線は除く）。縮小スキャンで線がわずかに傾くので、3画素の幅で数える
+cols_ = _clusters([x_ for x_ in range(90, 830) if (d1_[1075:1280, x_:x_ + 3].any(axis=1)).sum() > 120])
+left_ = cols_[0]
+frame_w = max(c_ for c_ in cols_ if c_ < 809) - left_
+want_cum = [5.4, 21.9, 38.4, 61.4]
+got_cum = [(c_ - left_) / frame_w * 100 for c_ in cols_[1:5]]
+judge(f'土地の表示の列の境（答案用紙から測った累計 {[round(g_, 1) for g_ in got_cum]}％）が colgroup の累計 {want_cum} と±0.8％で一致',
+      len(got_cum) == 4 and all(abs(g_ - w_) < 0.8 for g_, w_ in zip(got_cum, want_cum)))
+for s_ in ['<col style="width:5.4%"><col style="width:13.2%"><col style="width:3.3%">', '<col style="width:16.5%"><col style="width:16.6%"><col style="width:6.4%"><col style="width:38.6%">']:
+    check('土地の表示の列の幅（答案用紙から測った比）', s_, make, '申請書の画像')
+# 土地の表示の表の行の高さ（所在2行・見出し・3行・最後の細い行）：答案用紙のpx × 1.506 ＝ 画像のpx
+rows_ = _clusters([y_ for y_ in range(960, 1300) if (d1_[y_:y_ + 3, 150:790].any(axis=0)).sum() > 520])
+got_h = [round((b_ - a_) * 1.506) for a_, b_ in zip(rows_, rows_[1:])]
+judge(f'土地の表示の行の高さ（答案用紙から測った {got_h}px。所在の2行は合わせて）が 127・57・83・83・83・24 と±4pxで一致',
+      len(got_h) == 6 and all(abs(g_ - w_) <= 4 for g_, w_ in zip(got_h, [127, 57, 83, 83, 83, 24])))
+for s_ in ['td.shozai {{ height: 64px; }}', 'td.shozai2 {{ height: 63px; }}', 'td.head {{ height: 57px;', 'tr.last td {{ height: 24px; }}',
+           '.lab {{ width: 273px;', 'min-height:70px', 'min-height:116px', 'min-height:288px']:
+    check('申請書の画像の寸法（答案用紙から測った値）', s_, make, '申請書の画像')
+# 問4の枠（p2.png）：左端・右端・上端・下端
+d2_ = _dark('p2.png')
+vx_ = _clusters([x_ for x_ in range(60, 1180) if (d2_[300:700, x_:x_ + 3].any(axis=1)).sum() > 380])
+hy_ = _clusters([y_ for y_ in range(120, 820) if (d2_[y_:y_ + 3, 200:1000].any(axis=0)).sum() > 700])
+judge(f'問4の枠（答案用紙から測った 左{vx_[0]:.0f}・右{vx_[1]:.0f}・上{hy_[0]:.0f}・下{hy_[1]:.0f}）が作図の枠 87・1160・142・789 と±4pxで一致',
+      len(vx_) == 2 and len(hy_) == 2 and abs(vx_[0] - 87) < 4 and abs(vx_[1] - 1160) < 4 and abs(hy_[0] - 142) < 4 and abs(hy_[1] - 789) < 4)
+for s_ in ['frect(87, 142, 1160, 789', 'PPM = 4.0 / 0.3 * K_', 'FW_, FH_ = 16, 13.0', '縮小されたA3横（1400px ＝ 420mm、1px ＝ 0.3mm）']:
+    check('作図：答案用紙の枠の中に実寸で描く', s_, draw, '作図')
+check('枠の大きさ（答案用紙どおり）', '答案用紙の枠は横約32cm・縦約19cm')
+absent('古い枠の大きさ（横約28cm・縦約17cm）', '横約28cm・縦約17cm')
+for nm_, h_ in [('完成形', html_k), ('添削', html_m), ('問1', html_t1), ('問2', html_t2)]:
+    judge(f'{nm_}の画像のHTML：枠の高さは min-height（固定の height にしない）', 'min-height' in h_ and 'style="height:' not in h_)
+judge('申請書の画像に「第○欄」の見出しを入れない', '第１欄' not in html_k and '第1欄' not in html_k and '第３欄' not in html_k)
+judge('問1・問2の画像（解答欄）に答案用紙の見出し（問１・問２）がある', '問1' in html_t1 and '問2' in html_t2)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
 prefix = '# 【土地家屋調査士受験生向け】平成20年度問題21（土地）〜'

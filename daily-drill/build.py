@@ -320,9 +320,19 @@ def am_a(p):
 
 
 # ---------- 夜 ----------
+def q_title(p):
+    """問題ページに出す題：登記の種類（＝登記の目的の答え）を明かさない形。答えのページは元の題のまま"""
+    t = p['title']
+    src = re.search(r'（[^（）]*から記入する）$', t)
+    what = {'land': '土地', 'building': '建物'}.get(p.get('form_type'), '')
+    if '区分' in t or '一棟' in t:
+        what = '区分建物'
+    return f'{what}の登記の申請書' + (src.group(0) if src else '')
+
+
 def exam_body(p):
     ex = p['exam']
-    body = head(p['day'], '夜：記述式ドリル（問題）', p['title'], 15)
+    body = head(p['day'], '夜：記述式ドリル（問題）', q_title(p), 15)
     left = '<h2>事実関係</h2><ol>' + ''.join(f'<li>{E(x)}</li>' for x in ex['facts']) + '</ol>'
     left += '<h2>注</h2><ol class="notes">' + ''.join(f'<li>{E(x)}</li>' for x in ex['notes']) + '</ol>'
     right = '<h2>' + ex.get('register_title', '登記記録' if p['form_type'] == 'land' else '土地の登記記録') + '</h2>'
@@ -358,7 +368,7 @@ def exam_body(p):
 def form_body(p, answers=False):
     f = p['form']
     body = head(p['day'], '夜：記述式ドリル（答案用紙）' if not answers else '夜：解答（記入例）', '白紙の申請書に記入する' if not answers else p['title'], 15)
-    out = f'<div class="form"><div class="ttl">{E(f["title"])}</div>'
+    out = f'<div class="form"><div class="ttl">{E(f["title"] if answers else "登 記 申 請 書")}</div>'
     for it in f['items']:
         if it['kind'] == 'field':
             h = 9 + 7 * (it['lines'] - 1)
@@ -367,8 +377,11 @@ def form_body(p, answers=False):
         else:
             th = '<tr>' + ''.join(f'<th>{E(c)}</th>' for c in it['cols']) + '</tr>'
             trs = ''
-            for r in it['rows']:
-                rn = f'<td class="rn">{E(r["name"])}</td>' if it['cols'][0] == '' else ''
+            rows = it['rows']
+            if not answers:     # 答案用紙：行の名前（（イ）・地番・家屋番号・符号・合筆後など）は書かず、行の数も答えより多くして、何行・どんな行が要るかを明かさない
+                rows = [{'name': '', 'cells': [''] * len(rows[0]['cells'])} for _ in range(len(rows))]
+            for r in rows:
+                rn = f'<td class="rn">{E(r["name"]) if answers else ""}</td>' if it['cols'][0] == '' else ''
                 cells = ''.join(f'<td>{E(c) if answers else ""}</td>' for c in r['cells'])
                 trs += f'<tr>{rn}{cells}</tr>'
             if it['cols'][0] != '' and not any(r['name'] for r in it['rows']):
@@ -609,7 +622,7 @@ def main():
                 n = f'day{d:03d}-pm{suf}.html'
                 open(os.path.join(OUT, n), 'w', encoding='utf-8').write(fn(pm[d]))
                 links.append(f'<a href="{n}">{lab}</a>')
-        rows += f'<tr><td>第{d}日</td><td>{E(am[d]["theme"]) if d in am else ""}</td><td>{E(pm[d]["title"]) if d in pm else ""}</td><td>{" ／ ".join(links)}</td></tr>'
+        rows += f'<tr><td>第{d}日</td><td>{E(am[d]["theme"]) if d in am else ""}</td><td>{E(q_title(pm[d]) if d in pm and pm[d]["kind"] == "shinsei2" else (pm[d]["title"] if d in pm else ""))}</td><td>{" ／ ".join(links)}</td></tr>'
     extra = ''
     for pre, lab in (('sat', '土曜の20問模擬（択一式）'), ('sougou', '本番形式の統合問題（記述式・60分）')):
         fs = sorted(f for f in os.listdir(OUT) if f.startswith(pre) and f.endswith('.html') and not f.endswith('-ans.html'))
