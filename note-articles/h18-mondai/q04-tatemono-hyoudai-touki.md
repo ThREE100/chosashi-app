@@ -158,6 +158,22 @@ summarize, or substitute any characters. Characters such as 「登」「記」
 being rendered as Simplified Chinese variants — double-check each of these
 and redraw in standard Japanese Jōyō form if needed.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -182,8 +198,6 @@ Subtitle (smaller, centered, 1行):
 図面と申請義務の基本
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled circle in soft blue containing the number 1 (numbers run
-continuously across all columns — do not restart at 1 in column B).
 Heading (bold, ONE line, ~20 Japanese characters or fewer — a compressed
 takeaway phrase, not the original full sentence from the article):
 附属建物も合わせて1個、図面は1組
@@ -193,20 +207,23 @@ together inside one large dashed boundary box labeled「1個の建物」. Next
 to it, a single rolled blueprint icon labeled「1組」with a green checkmark,
 and beside it a stack of duplicate blueprint icons with a red X mark and a
 small label「×複数組」.
+Words allowed inside this illustration (verbatim, nothing else):
+「1個の建物」「1組」「×複数組」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters, a keyword phrase — NOT a sentence,
 NOT a legal citation):
 まとめて1個、図面は1組
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 新築主にも買主にも、それぞれ1か月の期限
-Illustration: Two isometric characters, one labeled「Aさん(新築主)」and
-one labeled「Bさん(買主)」, standing on either side of a small house icon
+Illustration: Two isometric characters, one labeled「Aさん（新築主）」and
+one labeled「Bさん（買主）」, standing on either side of a small house icon
 with a dashed arrow labeled「売買」between them. Each character has their
 own individual clock icon above their head counting down, both labeled
 「1か月」, with a small tag under each clock reading「申請義務あり」.
+Words allowed inside this illustration (verbatim, nothing else):
+「Aさん（新築主）」「Bさん（買主）」「売買」「1か月」「申請義務あり」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 2人とも申請義務あり
 
@@ -214,7 +231,6 @@ Conclusion tag (soft blue, 5-15 Japanese characters):
 所在・同一性・共有の特則
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 地目を問わず、さん橋の建物も登記できる
 Illustration: A row of three small isometric land-plot icons labeled
@@ -223,24 +239,28 @@ checkmark. Next to them, a separate isometric scene of a small building
 sitting on a permanent pier extending over water, labeled「さん橋」, with
 a dashed line pointing to the nearest shore plot and a small tag reading
 「◯番地先」.
+Words allowed inside this illustration (verbatim, nothing else):
+「宅地」「雑種地」「原野」「さん橋」「◯番地先」
 Conclusion tag (soft green, 5-15 Japanese characters):
 地目・所在は問わない
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 解体して別の敷地に建てれば同一性なし
 Illustration: A three-panel isometric sequence. Panel 1: an old house being
 dismantled into stacked wooden material bundles, labeled「解体」. Panel 2:
 the same material bundles being carried along a dashed path to a different
-land plot, labeled「別の敷地」. Panel 3: two stamps side by side — a red
-stamp labeled「滅失登記」over the now-empty original plot, and a green
-stamp labeled「表題登記」over the newly rebuilt house on the new plot.
+land plot, labeled「別の敷地」. Panel 3: two stamps side by side, both in
+the same neutral gray tone (not red — neither registration is a mistake,
+both are required steps) — one stamp labeled「滅失登記」over the now-empty
+original plot, and the other stamp labeled「表題登記」over the newly
+rebuilt house on the new plot.
+Words allowed inside this illustration (verbatim, nothing else):
+「解体」「別の敷地」「滅失登記」「表題登記」
 Conclusion tag (soft green, 5-15 Japanese characters):
 滅失登記＋新規の表題登記
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled circle in soft green containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 共有建物は持分を記録し1人から申請可
 Illustration: An isometric house with two owner characters standing beside
@@ -249,6 +269,8 @@ one of the two characters steps forward toward a registry counter icon
 holding an application document, while the other stays behind with a small
 label「同行不要」. A green checkmark stamp reads「単独申請可」near the
 counter.
+Words allowed inside this illustration (verbatim, nothing else):
+「持分2分の1」「同行不要」「単独申請可」
 Conclusion tag (soft green, 5-15 Japanese characters):
 持分は記録、申請は1人でOK
 
@@ -263,10 +285,14 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, confirm there is no intro illustration or
-paragraph block between the header and the cards, and confirm that no card
+no duplicated or missing cards, confirm that no card carries a number,
+numbered circle or any numbering, confirm there is no intro illustration or
+paragraph block between the header and the cards, confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+read as a short heading + a short conclusion tag, at a glance — confirm
+that no illustration contains any text other than its "Words allowed"
+words (no inscriptions on stones or signs, no pseudo-writing) and that
+each allowed word is clearly legible — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -340,6 +366,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -434,9 +469,10 @@ Step 1: an old house being dismantled into stacked wooden material
 bundles, labeled「解体」. Step 2: the same material bundles being carried
 along a dashed path to a different land plot, labeled「別の敷地へ運搬」,
 with a small caption「種類・構造が同一でも」. Step 3: two stamps side by
-side — a red stamp labeled「滅失登記」over the now-empty original plot, and
-a green stamp labeled「表題登記」over the newly rebuilt house standing on
-the new plot.
+side, both in the same neutral gray tone (not red — neither registration
+is a mistake, both are required steps) — one stamp labeled「滅失登記」over
+the now-empty original plot, and the other stamp labeled「表題登記」over
+the newly rebuilt house standing on the new plot.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物を解体してから別の敷地に建て直していることを確認します。次に、
 材料や種類・構造が従前と同一であっても、解体前の建物との同一性は認められ

@@ -34,7 +34,9 @@
 
 本肢では、Bは甲土地の「全部」をAから賃借しているため、Cへの転貸部分を分筆しなくても、Bの賃借権自体は何ら害されません。
 
-また、賃借権については、特約がなければ賃借人に賃貸人へ登記への協力を求める権利（登記請求権）はないと解されています。民法605条は賃借権の登記に対抗力を与えるだけで、登記請求権を定めてはいません（登記請求権を否定する点は、条文に明記があるのではなく、判例・通説の考え方によるものです）。そのため、賃借権を被保全債権として分筆登記を代位申請することもできません。したがって、CがA及びBに代位して分筆登記を申請することは認められません。
+また、賃借権については、特約がなければ賃借人に賃貸人へ登記への協力を求める権利（登記請求権）はないと解されています。民法605条は賃借権の登記に対抗力を与えるだけで、登記請求権を定めてはいません（登記請求権を否定する点は、条文に明記があるのではなく、判例・通説の考え方によるものです）。
+
+そのため、賃借権を被保全債権として分筆登記を代位申請することもできません。したがって、CがA及びBに代位して分筆登記を申請することは認められません。
 
 **たとえば**、ビルのワンフロア全体を借りているBが、その一角だけをCに又貸ししている場合、又借り人のCが「自分の使っている部分を独立させたいから」という理由で、大家Aや借主Bに代わって分筆登記を強制的に進めることはできません。
 
@@ -145,6 +147,19 @@ kanji 登・記・権・建・筆, which have simplified-Chinese lookalikes
 with different stroke forms — always draw the standard Japanese (Jōyō)
 form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -174,6 +189,7 @@ hard hat (土地区画整理事業の施行者) standing next to a land plot ico
 dividing line splits the plot in two, with a small arrow labeled「代位」
 pointing from the施行者 figure to a tiny owner figure (所有者) who is looking
 away. A checkmark stamp labeled「申請できる」overlays the scene.
+Words allowed inside this illustration (verbatim, nothing else): 「代位」「申請できる」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 施行者が代位して分筆
 
@@ -186,6 +202,7 @@ figure (B, labeled「全部賃借」) with a smaller sub-tenant figure (C) occup
 a corner, connected by a dashed arrow labeled「転貸」. A red crossed-out (✕)
 arrow runs from C toward the owner figure (A) and B, with a small torn
 label「登記請求権なし」nearby.
+Words allowed inside this illustration (verbatim, nothing else): 「全部賃借」「転貸」「登記請求権なし」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 代位申請できない
 
@@ -198,6 +215,7 @@ Illustration: A three-panel isometric timeline. Panel 1: land plots 甲 and
 registration. Panel 2: a gavel icon and a document labeled「判決」stamped
 「移転登記抹消」. Panel 3: the merged plot splitting back apart with an arrow
 labeled「代位」from figure A to figure B, and a checkmark on the split line.
+Words allowed inside this illustration (verbatim, nothing else): 「判決」「移転登記抹消」「代位」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 Aが代位して合筆抹消
 
@@ -210,6 +228,7 @@ next to a newly built condominium-style building (labeled B) that connects
 to it via a new wall section. A dashed arrow labeled「代位」runs from figure B
 to figure A, pointing at a document icon labeled「表題部変更登記」with a
 checkmark stamp.
+Words allowed inside this illustration (verbatim, nothing else): 「代位」「表題部変更登記」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 新築側が代位して変更登記
 
@@ -222,6 +241,7 @@ in the middle holding a small land-plot icon (a purchased portion of 甲土地)
 with a mortgage stamp icon labeled「抵当権」held by figure C on the right. Two
 stacked dashed arrows labeled「代位」run from C through B toward A, pointing
 at a dividing line on the land plot with a checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「抵当権」「代位」
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese characters):
 代位の代位で分筆できる
 
@@ -240,7 +260,10 @@ with no duplicated or missing cards, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible — confirm
+nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -309,6 +332,15 @@ Simplified or Traditional Chinese forms — always draw the standard
 Japanese (Jōyō) form. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -473,7 +505,11 @@ same shared two-step decision tree shape with its own relevant branch
 highlighted and the other branches faded rather than omitted, that each
 着眼点 callout states a checking order rather than only a conclusion and
 keeps every required element from the source article distinct (no merged
-or dropped requirements), confirm nothing is rendered below the last
+or dropped requirements), confirm that no diagram or illustration
+contains any text other than the words specified in its Diagram line,
+heading, 着眼点 callout and conclusion tag (no inscriptions on stones or
+signs, no pseudo-writing) and that each word is clearly legible, confirm
+nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
 kind), and confirm the entire canvas, edge to edge, is filled with a

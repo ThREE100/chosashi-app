@@ -160,6 +160,22 @@ kanji 確・認・職・証・録・登・記, which have simplified-Chinese
 lookalikes with different stroke forms — always draw the standard
 Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -181,49 +197,52 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled circle in soft blue containing the number 1.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 面識なしなら提示書類の内容と理由を明記
 Illustration: An isometric qualifying agent character (資格者代理人) receiving
 a driver's license (免許証) icon from an applicant character. A clipboard
 next to them shows two check-marked labels: 「書類の内容」and「本人と認めた理由」.
+Words allowed inside this illustration (verbatim, nothing else): 「書類の内容」
+「本人と認めた理由」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
 書類の内容+理由を明記
 
 --- CARD 2 ---
-Badge: a filled circle in soft blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 1か月前の代理だけでは面識にならない
-Illustration: A calendar icon showing "1か月前" with a red X mark next to a
+Illustration: A calendar icon showing 「1か月前」 with a red X mark next to a
 speech bubble labeled「面識あり？」. Beside it, a second calendar showing
-"3か月以上" and a separate icon showing two people with a continuous
-timeline labeled "1年以上" both with green checkmarks, labeled「これなら面識あり」.
+「3か月以上」 and a separate icon showing two people with a continuous
+timeline labeled「1年以上」 both with green checkmarks, labeled「これなら面識あり」.
+Words allowed inside this illustration (verbatim, nothing else): 「1か月前」
+「面識あり？」「3か月以上」「1年以上」「これなら面識あり」
 Conclusion tag (soft blue, 5-15 Japanese characters):
 3か月以上/1年以上が必要
 
 --- CARD 3 ---
-Badge: a filled circle in soft green containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 面談の日時・場所・状況を記録する
 Illustration: Two isometric characters meeting face to face at a table, with
 a notepad in front of them showing three labeled lines: 「日時」「場所」「状況」,
 each with a small checkmark icon.
+Words allowed inside this illustration (verbatim, nothing else): 「日時」「場所」
+「状況」
 Conclusion tag (soft green, 5-15 Japanese characters):
 面談記録が必須
 
 --- CARD 4 ---
-Badge: a filled circle in soft green containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 資格者であることを証する情報も添付
 Illustration: An isometric stamp/seal certificate icon labeled「職印証明書」
 being placed alongside the main document (本人確認情報) with a paperclip icon
 connecting them, plus a small badge icon labeled「調査士会発行」.
+Words allowed inside this illustration (verbatim, nothing else): 「職印証明書」
+「調査士会発行」
 Conclusion tag (soft green, 5-15 Japanese characters):
 職印証明書等を添付
 
 --- CARD 5 ---
-Badge: a filled circle in soft beige containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 本人確認情報は代理人自身が作成
 Illustration: Two isometric qualifying agent characters. The one on the
@@ -231,6 +250,8 @@ right (別の土地家屋調査士) hands over a document to the one on the left
 the document has a large red X mark and a torn-paper label「流用不可」. The
 character on the left instead has a checkmark icon next to their own pen,
 labeled「自ら作成」.
+Words allowed inside this illustration (verbatim, nothing else): 「流用不可」
+「自ら作成」
 Conclusion tag (soft beige, 5-15 Japanese characters):
 他人が作った書類はNG
 
@@ -245,11 +266,15 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals 5 exactly,
-with no duplicated or missing cards, confirm there is no intro
+with no duplicated or missing cards, confirm that no card carries a
+number, numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible — confirm
+nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -316,6 +341,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -344,16 +378,16 @@ Heading (bold, ONE line):
 Diagram: Draw an actual decision flowchart (this tree's root is shared
 with PANEL 2（イ）). A qualifying-agent figure（資格者代理人）facing an
 applicant figure（申請人）leads into a diamond-shaped branch node reading
-"申請人と面識があるか". A "いいえ"（本肢のケース、with a thick highlighted
-border and full color）arrow leads to a conclusion node reading "運転免
-許証等の提示を受け、書類の内容＋本人と認めた理由を明記する", illustrated
+「申請人と面識があるか」. A「いいえ」（本肢のケース、with a thick highlighted
+border and full color）arrow leads to a conclusion node reading「運転免
+許証等の提示を受け、書類の内容＋本人と認めた理由を明記する」, illustrated
 with the qualifying-agent figure receiving a driver's-license icon from
 the applicant, a clipboard beside them showing two checked labels「書類
-の内容」「本人と認めた理由」. A "はい"（faded and greyed-out — this
+の内容」「本人と認めた理由」. A「はい」（faded and greyed-out — this
 branch is the focus of PANEL 2）arrow leads to a small, faded diamond
-node reading "面識ありと認められる要件を満たすか",
-itself leading to a faded conclusion node reading "氏名を知り面識がある
-旨＋その経緯を明記する（免許証提示は不要）".
+node reading「面識ありと認められる要件を満たすか」,
+itself leading to a faded conclusion node reading「氏名を知り面識がある
+旨＋その経緯を明記する（免許証提示は不要）」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず資格者代理人が申請人と面識があるかを確認します。面識がなければ、運転
 免許証等の提示を受けて申請人が登記名義人本人であることを確認したうえで、
@@ -372,15 +406,15 @@ with PANEL 1（ア）). A small, faded, dotted-outline version of PANEL 1's
 diamond node「申請人と面識があるか」is redrawn at the top, with its
 「いいえ」branch faded and greyed-out and its「はい」branch now rendered
 with a thick highlighted border and full color, leading into a second
-diamond-shaped branch node reading "（1）当該登記の申請の3か月以上前に、
+diamond-shaped branch node reading「（1）当該登記の申請の3か月以上前に、
 その申請人について本人確認情報を提供して代理したことがあるか、または
 （2）依頼を受ける以前から氏名・住所を知り、親族関係か1年以上の継続的な
-関係があるか". A "はい（該当）" arrow leads to a conclusion node reading
-"面識ありとして扱われる", illustrated faintly since it is not this 肢の
-ケース. A "いいえ（該当なし）"（本肢のケース：1か月前に代理しただけ、with
-a thick highlighted border and full color, calendar icon showing "1か月
-前" with a red X）arrow leads to a separate, fresh conclusion node reading
-"面識なしとして扱われ、運転免許証等の提示が必要". This conclusion node is
+関係があるか」. A「はい（該当）」arrow leads to a conclusion node reading
+「面識ありとして扱われる」, illustrated faintly since it is not this 肢の
+ケース. A「いいえ（該当なし）」（本肢のケース：1か月前に代理しただけ、with
+a thick highlighted border and full color, calendar icon showing「1か月
+前」with a red X）arrow leads to a separate, fresh conclusion node reading
+「面識なしとして扱われ、運転免許証等の提示が必要」. This conclusion node is
 drawn as its own box with the same wording as PANEL 1's「いいえ」
 conclusion — do NOT draw an arrow looping back into PANEL 1's diamond.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -431,14 +465,14 @@ characters):
 Badge: a filled circle in beige containing the number 5.
 Heading (bold, ONE line):
 作成者が受任した代理人自身かを確認する
-Diagram: Draw an actual decision flowchart. A document icon labeled "本
-人確認情報" leads into a diamond-shaped branch node reading "作成したの
-は、当該登記の申請を受任した資格者代理人自身か、他の資格者代理人か". A
-"受任した代理人自身" arrow leads to a conclusion node reading "有効な本人
-確認情報として使える", illustrated with a green checkmark. A "他の資格者
-代理人"（本肢のケース、with a thick highlighted border and full color）
-arrow leads to a separate conclusion node reading "流用不可、申請に使えな
-い", illustrated with a second qualifying-agent figure handing over a
+Diagram: Draw an actual decision flowchart. A document icon labeled「本
+人確認情報」leads into a diamond-shaped branch node reading「作成したの
+は、当該登記の申請を受任した資格者代理人自身か、他の資格者代理人か」. A
+「受任した代理人自身」arrow leads to a conclusion node reading「有効な本人
+確認情報として使える」, illustrated with a green checkmark. A「他の資格者
+代理人」（本肢のケース、with a thick highlighted border and full color）
+arrow leads to a separate conclusion node reading「流用不可、申請に使えな
+い」, illustrated with a second qualifying-agent figure handing over a
 document stamped with a large red X and a torn-paper label「流用不可」.
 No arrow loops back to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -479,7 +513,10 @@ dropped requirements), that any panel sharing a decision tree with
 another panel clearly distinguishes its own highlighted branch from the
 other, faded branches, that every branch point where both outcomes are
 legally meaningful shows both destinations as explicit, separate
-conclusion nodes with no dangling or looping branch, confirm nothing is
+conclusion nodes with no dangling or looping branch, confirm that no
+diagram contains any text other than the specified 「」 words (no
+inscriptions, signs, or pseudo-writing) and that each allowed word is
+clearly legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
 text block of any kind), and confirm the entire canvas, edge to edge, is
