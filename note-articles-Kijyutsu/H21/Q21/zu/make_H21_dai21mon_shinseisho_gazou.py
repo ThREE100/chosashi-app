@@ -93,8 +93,8 @@ ROWS = [
 
 def t4(rows):
     """問4の表（登記の順番・登記の目的・登記の原因及び日付・添付情報）。rows の各セルは HTML 文字列。"""
-    head = ('<tr><td class="h" style="width:12%">登記の順番</td><td class="h" style="width:22%">登記の目的</td>'
-            '<td class="h" style="width:36%">登記の原因及び日付</td><td class="h" style="width:30%">添付情報</td></tr>')
+    head = ('<tr><td class="h" style="width:13%">登記の順番</td><td class="h" style="width:23%">登記の目的</td>'
+            '<td class="h" style="width:35%">登記の原因及び日付</td><td class="h" style="width:29%">添付情報</td></tr>')
     body = ''.join(f'<tr><td class="n">{n}</td><td class="cell">{a}</td><td class="cell">{b}</td><td class="cell">{c}</td></tr>'
                    for n, a, b, c in rows)
     return f'<table class="t4">{head}{body}</table>'
@@ -147,7 +147,7 @@ machigai = page(f'''
 <div class="good" style="position:relative">{t4(rows_ink(ROWS))}{CHK}</div></div>
 <div class="caption" style="margin:10px 0 30px">平成21年度 第21問｜地目変更は②③、分筆は3筆、抵当権消滅承諾証明情報</div>''')
 
-exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
     pg = browser.new_page(viewport={'width': 1200, 'height': 100})  # 欄だけの画像が800pxに引き伸ばされないよう低くする

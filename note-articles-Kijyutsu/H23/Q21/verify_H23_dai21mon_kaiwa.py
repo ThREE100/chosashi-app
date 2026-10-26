@@ -204,16 +204,16 @@ a0 = base.index('あなたは土地家屋調査士試験の教材デザイナー
 b0 = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a0:b0].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-N_FIG = 18
+N_FIG = 25
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))   # 2桁の図番号も数える
 judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
 for i in range(1, N_FIG + 1):
     judge(f'作図済みPNG 図{i}', any(f.startswith(f'H23_dai21mon_zu{i:02d}_') and f.endswith('.png')
                                   for f in os.listdir(os.path.join(HERE, 'zu'))))
-nums = [int(m) for m in re.findall(r"(?:new_figure\(|fixed_figure\(|housha_figure\(\n?\s*\d+, '\w+', )'図(\d+)　", draw)]
-nums += [int(m) for m in re.findall(r"^\s+\d+, '\w+', '図(\d+)　", draw, re.M)]
-nums = sorted(set(nums))
-judge(f'作図スクリプトの図のタイトル番号が1から順（{nums}）', nums == list(range(1, N_FIG + 1)))
+titles_with_no = re.findall(r"(?:new_figure\(|fixed_figure\(|housha_figure\(\n?\s*\d+, '\w+', )'図\d+", draw)
+titles_with_no += re.findall(r"^\s+\d+, '\w+', '図\d+", draw, re.M)
+judge(f'作図スクリプトの図のタイトルに図番がない（画像の中に図番を入れない。{len(titles_with_no)}件）', not titles_with_no)
+judge('作図スクリプトの画像の文字に「（図N）」の参照がない', not re.search(r"[（(]図\d+[）)]", draw))
 fits = re.findall(r'^\s*fit\((.*)', draw, re.M)
 judge(f'作図スクリプトのfitはすべて pad_aspect=True（{len(fits)}か所）',
       fits and all('pad_aspect=True' in f or 'pad_aspect=True' in draw[draw.index(f):draw.index(f) + 300] for f in fits))
@@ -255,10 +255,10 @@ html_k = open(os.path.join(HERE, 'zu', 'H23_dai21mon_toukishinseisho_kansei.html
 html_m = open(os.path.join(HERE, 'zu', 'H23_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
 for s in ['平成23年8月21日申請　Ａ地方法務局', '土地表題登記', '>土地所在図<', '>地積測量図<', '>所有権証明書<', '>会社法人等番号<', '>代理権限証書<',
           'Ａ市Ｂ町五丁目50番地１　宗教法人雨堤天満宮', '代表役員　荒牧英雄', 'Ａ市Ｂ町五丁目', '>境内地<', '>113<', '>不詳<',
-          'Ａ市Ｂ町三丁目１番２号　土地家屋調査士　中村　容子', '①地番', '②地目', '③地積　　m²',
+          'Ａ市Ｂ町三丁目１番２号　土地家屋調査士　中村　容子', '①地番', '②地目', '<div>③地　　積</div><div class="m2">m²</div>',
           '平成23年度 土地家屋調査士試験 第21問 登記申請書 解答例']:
     check('完成形の画像（HTML）', s, html_k, '完成形画像')
-judge('完成形の画像：記入行は3行（答案用紙どおり）', html_k.count('<td class="chimoku">') == 3)
+judge('完成形の画像：記入行は3行（答案用紙どおり）', html_k.count('<td class="chimoku row3">') == 3)
 judge('完成形の画像：登録免許税の欄がない（答案用紙どおり）', '登録免許税' not in html_k)
 judge('完成形の画像：添付書類は今の法令（会社法人等番号）で、出題当時の扱いは表の下の注', '>会社法人等番号<' in html_k and '>住所証明書<' not in html_k and '※添付書類は今の法令による。出題当時は会社法人等番号の制度がなく、住所証明書を付け、資格証明書は問題文の注5（登記所が同一）で不要だった' in html_k)
 judge('完成形の画像：申請の日付が添付書類の下・申請人の上（答案用紙の順）',
@@ -304,38 +304,52 @@ n_marker = len(re.findall(r'^> 【画像挿入】', text, re.M))
 judge(f'画像挿入マーカー（引用形式）: {n_marker}個（解説図{N_FIG}＋問1・問2の完成形2＋添削1＋完成形1＝計{N_FIG + 4}か所の想定）',
       n_marker == N_FIG + 4)
 # マーカーの順とPNGの対応（2026-10-02追加）。マーカーの文言の頭で、記事の順にPNGと1対1に対応させる
-ORDER = [('北を上にして座標どおりに描き直した全体図', 'zu01_zentaizu'), ('T1からの放射でA点', 'zu02_A_housha'),
-         ('T1からの放射でM点', 'zu03_M_housha'), ('T2からの放射でK点', 'zu04_K_housha'), ('C点の求め方の図', 'zu05_C_menseki_hi'),
-         ('C点の比較図', 'zu06_C_hikaku'), ('C点の別解の図', 'zu07_C_betsukai'), ('H点の求め方の図', 'zu08_H_kousa'),
-         ('問2の完成形', 'toi2_kansei'), ('民法第162条第1項と第2項の比較図', 'zu09_jikou_1kou_2kou'),
-         ('問1の完成形', 'toi1_kansei'), ('問1の整理図', 'zu10_jikou_youken'), ('申請する登記の図', 'zu11_hyoudai_touki'),
-         ('地目の比較図', 'zu12_chimoku_keidaichi'), ('本件土地の面積と地目の図', 'zu13_menseki_chimoku'),
-         ('登記原因の図', 'zu14_touki_genin'), ('登記申請書の「添付書類」欄', 'toukishinseisho_machigai'),
-         ('問3の整理図', 'zu15_shinseisho_seiri'), ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'),
-         ('縮尺の図', 'zu16_shukushaku'),
-         ('土地所在図（1／500）と地積測量図（1／250）の完成見本', 'zu17_shozaizu_sokuryouzu'), ('本番で解く順番の図', 'zu18_toku_junban')]
-# ---- 藍子が誤答する論点の図（2026-10-05追加、ユーザー指摘「記事本文に対して必要図が足りない」） ----
-WANA_FIG = [
-    ('図9　問1　民法第162条第1項の20年か、第2項の10年か', ['占有開始年月日　昭和26年8月19日', '時効完成年月日　昭和46年8月19日', '→ 第2項（10年）では書かない'],
-     '雨堤天満宮が所有の意思をもって占有を始めたのは'),
-    ('図11　問3　50番1の地積の更正ではなく、土地表題登記', ['50番1の筆界 D→H→J', '取得した者が申請（不動産登記法第36条）', '（同法第74条第1項第1号）'],
-     'これが依頼の『所有権の登記を行うために必要となる土地の表示に関する登記』の答えよ'),
-    ('図12　問3　地目は境内地（宅地・公衆用道路ではない）', ['宅地（第3号）', '公衆用道路（第21号）', '境内地（第13号）', '→ 地目は境内地（1筆の土地に地目は1つ）'],
-     '本件土地は、まさに神社の境内に属する土地よ'),
-    ('図14　問3　登記原因は「不詳」（取得原因の「時効取得」ではない）', ['＝ 土地が生じた原因とその日付', '→ 申請書の登記原因には書かない', '（不動産登記令別表4の項添付情報欄ハ）'],
-     '申請書では所有権証明書と書くの'),
-    ('図16　問4　縮尺が違うので兼用にしない（土地所在図1／500・地積測量図1／250）', ['（不動産登記規則第76条第2項）', '（不動産登記規則第77条第4項）',
-     '縮尺が同じなら兼用できる（準則第51条第4項）', '地積測量図の用紙の余白に土地所在図を描く（準則第51条第3項）'], '印刷の『1／250』は地積測量図の縮尺だからね'),
-]
-for title, words, before in WANA_FIG:
-    check('追加した図のタイトル（作図）', title, draw, '作図')
-    check('追加した図のタイトル（解説図プロンプト）', title.replace('　', '：', 1), fig, '解説図')
-    for w in words:
-        check('追加した図の文言（作図）', w, draw, '作図')
-        check('追加した図の文言（解説図プロンプト）', w, fig, '解説図')
-    i = text.index(before)
-    nxt = text[i:].split('\n\n')
-    judge(f'{title[:3]}のマーカーが該当の会話の直後', len(nxt) > 1 and nxt[1].startswith('> 【画像挿入】'))
+ORDER = [('全体の時系列の図', 'zu01_jikeiretsu'), ('注の仕分けの図', 'zu02_chuu_shiwake'),
+         ('北を上にして座標どおりに描き直した全体図', 'zu03_zentaizu'), ('T1からの放射でA点', 'zu04_A_housha'),
+         ('T1からの放射でM点', 'zu05_M_housha'), ('T2からの放射でK点', 'zu06_K_housha'), ('C点の求め方の図', 'zu07_C_menseki_hi'),
+         ('C点の比較図', 'zu08_C_hikaku'), ('C点の別解の図', 'zu09_C_betsukai'), ('H点の求め方の図', 'zu10_H_kousa'),
+         ('問2の完成形', 'toi2_kansei'), ('民法第162条第1項と第2項の比較図', 'zu11_jikou_1kou_2kou'),
+         ('占有の開始の図', 'zu12_senyu_kaishi'), ('要件と事実の図', 'zu13_jikou_youken'), ('問1の完成形', 'toi1_kansei'),
+         ('申請する登記の図', 'zu14_hyoudai_touki'), ('地目の比較図', 'zu15_chimoku_keidaichi'),
+         ('本件土地の面積と地目の図', 'zu16_menseki_chimoku'), ('登記原因の図', 'zu17_touki_genin'), ('添付書類の図', 'zu18_tenpu_shorui'),
+         ('登記申請書の「添付書類」欄', 'toukishinseisho_machigai'), ('申請書の残りの欄の図', 'zu19_shinseisho_seiri'),
+         ('登記申請書（問3）の完成形', 'toukishinseisho_kansei'), ('縮尺の図', 'zu20_shukushaku'), ('辺長の図', 'zu21_henchou_hasuu'),
+         ('書くもの・書かないものの図', 'zu22_kaku_kakanai'), ('地番の欄の図', 'zu23_chiban_ran'),
+         ('土地所在図（1／500）と地積測量図（1／250）の完成見本', 'zu24_shozaizu_sokuryouzu'), ('本番で解く順番の図', 'zu25_toku_junban')]
+# ---- まとめのわな → 図（1項目に1わな、図の重複なし、図は正す会話の直後。2026-10-26、最新の作成方法に合わせて追加） ----
+TRAPS = [('今年だけの問題文の注4〜6は答案のどこかに効く', '注の仕分けの図', '今年だけの3つは、どれも答案のどこかに効いてくる'),
+         ('向きの注がない放射は時計回り', 'T1からの放射でA点', '三角関数真数表の1°44′24″'),
+         ('地積測量図を今回の測量で確かめる', 'T1からの放射でM点', '今回の測量と合っていると確かめられた'),
+         ('KはG→Lの直線の上で確かめる', 'T2からの放射でK点', 'KはG→Lの直線の上に乗っているわ'),
+         ('C点はブロック塀の10.05mで置かない', 'C点の比較図', '塀の長さを優先する理由はないわ'),
+         ('H点は交点から6.836m', 'H点の求め方の図', 'それを使うのが素直よ'),
+         ('時効取得は第162条第1項の20年', '民法第162条第1項と第2項の比較図', '第1項の20年の時効で書くの'),
+         ('占有の開始は所有の意思をもった昭和26年8月19日', '占有の開始の図', '『所有の意思』がない'),
+         ('問1は要件の言葉と問題文の事実を4組そろえる', '要件と事実の図', '20年間占有を続けた'),
+         ('申請する登記は土地表題登記', '申請する登記の図', 'これが依頼の'),
+         ('地目は境内地', '地目の比較図', 'まさに神社の境内に属する土地よ'),
+         ('地積は1㎡未満切捨ての113㎡', '本件土地の面積と地目の図', '本件土地の地積　113㎡（113.875）'),
+         ('登記原因は不詳', '登記原因の図', '申請書では所有権証明書と書くの'),
+         ('添付書類は今の法令で会社法人等番号', '添付書類の図', 'だから今の法令の答えは'),
+         ('申請書の地番は空欄', '申請書の残りの欄の図', '無番地だから、地番は書かないわ'),
+         ('土地所在図は1／500、地積測量図は1／250', '縮尺の図', '地積測量図の縮尺だからね'),
+         ('辺長のICは8.6457…で8.65', '辺長の図', '8.64と切り捨てないこと'),
+         ('地積測量図に書くもの・書かないもの', '書くもの・書かないものの図', '平成23年8月21日作成」は印刷済み'),
+         ('地積測量図の地番の欄は空欄', '地番の欄の図', '『申請地』と書いておくの')]
+summ = text[text.index('今日のわなをおさらい'):text.index('計算は放射3点')]
+items = [l for l in summ.splitlines() if l.startswith('- **')]
+judge(f'まとめのわな {len(items)}項目 ＝ 対応表 {len(TRAPS)}', len(items) == len(TRAPS))
+judge('対応表の図に重複がない', len({f for _, f, _ in TRAPS}) == len(TRAPS))
+for trap, figkey, key in TRAPS:
+    judge(f'わな「{trap}」がまとめにある', any(trap in l for l in items))
+    idx = [i for i, l in enumerate(lines) if l.startswith('> 【画像挿入】') and l.startswith('> 【画像挿入】' + figkey)]
+    prev = ''
+    if idx:
+        j = idx[0] - 1
+        while j >= 0 and not lines[j].strip():
+            j -= 1
+        prev = lines[j]
+    judge(f'  図「{figkey}」は「{key}」の会話の直後', bool(idx) and key in prev)
 markers = [l[len('> 【画像挿入】'):] for l in lines if l.startswith('> 【画像挿入】')]
 judge('マーカーの順がPNGの対応表どおり', len(markers) == len(ORDER) and all(m.startswith(k) for m, (k, _) in zip(markers, ORDER)))
 pngs = sorted(f for f in os.listdir(os.path.join(HERE, 'zu')) if f.endswith('.png'))
@@ -344,7 +358,10 @@ for _, v in ORDER:
     png = os.path.join(HERE, 'zu', f'H23_dai21mon_{v}.png')
     if os.path.exists(png):
         w, h = struct.unpack('>II', open(png, 'rb').read()[16:24])
-        want = (w == 1600 and h == 1200) if v.startswith('zu') else (w == 1200 and (h > w or v.startswith('toi')))
+        if v.startswith('zu24'):   # 答案用紙の問4の枠の中に描く完成見本（横1600×縦1290）
+            want = (w == 1600 and h == 1290)
+        else:
+            want = (w == 1600 and h == 1200) if v.startswith('zu') else (w == 1200 and (h > w or v.startswith('toi')))
         judge(f'{v}.png の大きさ（{w}×{h}px）', want)
 # 問1・問2の完成形（申請書でない解答欄。2026-10-02追加）
 html_t1 = open(os.path.join(HERE, 'zu', 'H23_dai21mon_toi1_kansei.html'), encoding='utf-8').read()
@@ -359,8 +376,7 @@ for s_ in ['問２', 'C点の座標値', 'H点の座標値', 'Ｘ座標（m）',
 judge('問2の画像：C点の表がH点の表より先（答案用紙どおり）', html_t2.index('C点の座標値') < html_t2.index('H点の座標値'))
 for s_ in ['H23_dai21mon_toi1_kansei.png', 'H23_dai21mon_toi2_kansei.png', '「316.94」「305.93」', '「313.37」「321.26」']:
     check('完成形プロンプトの問1・問2', s_, form, '登記申請書')
-for s_ in ['答案用紙の問1の枠に書くと、こうなるわ', '時系列と、要件と事実の対応も、図で整理しておきます',
-           '答案用紙の問2の欄に書くと、こうなります']:
+for s_ in ['答案用紙の問1の枠に書くと、こうなるわ', '答案用紙の問2の欄に書くと、こうなります']:
     check('2026-10-02の画像の挿入位置の文言', s_)
 judge('記事の最後が区切り線', lines[-1] == '---')
 title = lines[0]
@@ -380,4 +396,25 @@ check('登場人物（藍子）', '**藍子（アイコ）**：ブルーの細�
 for s_ in ['（出題当時は会社法人等番号の制度〈平成27年11月施行〉がなく、住所証明書を付け、資格証明書は問題文の注5〈申請を受ける登記所と法人の登記を受けた登記所が同一〉で付けなくてよかった）',
            '- **添付書類は今の法令で会社法人等番号**', '不動産登記令第7条第1項第1号イ']:
     check('出題当時の注', s_)
+# ---- 電卓のキー列の再現（2026-10-26追加。keysim_note_article.py で記事のキー列を実行し、直後の「表示：」と照らす） ----
+sys.path.insert(0, os.path.join(HERE, '..', '..', 'tools'))
+from keysim_note_article import simulate  # noqa: E402
+res = simulate(os.path.join(HERE, 'note_H23_dai21mon_tochi_kaiwa_kaisetsu.md'))
+for n_, want_, got_, ok_ in res:
+    judge(f'キー列の再現 {n_}行目 記事「{want_}」＝ 再現「{got_}」', ok_)
+judge(f'キー列の再現の表示が19個ある（{len(res)}個）', len(res) == 19)
+
+# ---- 答案用紙の問4の枠（2026-10-26追加。A3横1400×988pxを0.3mm/pxとして測った。横約32cm・縦約19cm） ----
+check('枠の大きさ（答案用紙どおり）', '答案用紙の枠は横約32cm・縦約19cm')
+absent('古い枠の大きさ（横約28cm・縦約17cm）', '横約28cm・縦約17cm')
+for s_ in ['frect(78, 142, 1151, 782', 'M250 = 4 / 0.3 * S_IN', "exact_limits(ax2, P(310.5, 320.6), M250)", 'M500 = M250 / 2',
+           '1400×988pxを0.3mm/pxとして測った']:
+    check('作図：答案用紙の枠の中に実寸で描く', s_, draw, '作図')
+# ---- 申請書・解答欄の画像は答案用紙から測った比で作る（列の幅、min-height） ----
+for s_ in ['<col style="width:4.7%"><col style="width:13.9%"><col style="width:3.0%"><col style="width:16.9%"><col style="width:17.0%"><col style="width:11.4%"><col style="width:33.1%">']:
+    check('土地の表示の列の幅（答案用紙から測った比）', s_, html_k, '完成形画像')
+for nm_, h_ in [('完成形', html_k), ('添削', html_m), ('問1', html_t1), ('問2', html_t2)]:
+    judge(f'{nm_}の画像のHTML：枠の高さは min-height（固定の height にしない）', 'min-height' in h_ and 'style="height:' not in h_)
+judge('申請書の画像に「第○欄」の見出しを入れない', '第１欄' not in html_k and '第1欄' not in html_k and '第３欄' not in html_k)
+judge('問1・問2の画像（解答欄）に答案用紙の見出し（問１・問２）がある', '問１' in html_t1 and '問２' in html_t2)
 print('NG件数:', ng)
