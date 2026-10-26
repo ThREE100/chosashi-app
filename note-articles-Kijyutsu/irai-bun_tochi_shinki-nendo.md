@@ -172,7 +172,7 @@ PDFが画像でテキストを読み取れない場合や pdftoppm がない場�
 - 地目は、問題文の利用目的の書き方から主な目的で決める。一体で使っている隣の土地の登記記録の地目は、問題文が現況との一致を確かめていない限り根拠にしない（H28）
 
 ■ 完了前に行うこと
-0. 作図の前に日本語フォントを確かめる（fc-list | grep -c "Noto Sans CJK" が0なら apt-get install -y fonts-noto-cjk と rm -rf ~/.cache/matplotlib。入れずに描くと太字が細字になる）
+0. 作図の前に日本語フォントを確かめる（fc-list | grep -c "Noto Sans CJK" が0なら apt-get install -y fonts-noto-cjk と rm -rf ~/.cache/matplotlib。入れずに描くと太字が細字になる）（2026-10-26：新しいコンテナでは、先に `bash note-articles-Kijyutsu/tools/setup_env.sh` を流す。フォント・ライブラリ・PIL・Chromiumの `chrome-linux` のリンクをまとめて整える）
 1. verify_{フォルダ名}_dai21mon_kaiwa.py で NG 0件を確認する（記事の全表示値と答え、誤答の数値、解説図プロンプトの本文と図の数・数値、申請書・添削・見出し画像の文言、zu/ の登記申請書の完成形・添削画像の PNG が縦長であることと HTML の記入データ、note向けの体裁、禁止語）
 2. lint_note_article.py で表記ルール違反がないことを確認する（長すぎるセリフの「セリフが長すぎます」も0件にする）
    照合スクリプトには、まとめのワナ→図の対応表（1項目に1ワナ・図の重複なし）、ワナの図がそれを正す会話の直後にあること、解答欄の画像の見出しが「第N欄」だけ・申請書のHTMLに style="height: がないこと、キー列の再現（keysim_note_article.py）も入れる。tools/ の共通の道具を直したら、全年度の照合スクリプトを流す
