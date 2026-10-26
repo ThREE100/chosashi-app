@@ -158,6 +158,22 @@ kanji 号・権・建・物・登・記・所・併・続・属・共・用, whi
 have Simplified Chinese look-alike forms with visibly different stroke
 shapes — always draw the standard Japanese (Jōyō) form of these characters.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -177,60 +193,65 @@ Subtitle (smaller, centered, 1行):
 建物合併の登記、5つの制限事由を整理する (平成18年度 第12問)
 
 --- CARD 1 ---
-Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
 所有権登記の有無が違うと、合併できない
 Illustration: An isometric main house icon labeled 「甲建物」with a green
 「所有権登記あり」stamp, next to a smaller unfinished-looking building icon
 labeled「乙建物」with a gray「表題登記のみ」tag, a red X mark on the merge
 arrow between them.
+Words allowed inside this illustration (verbatim, nothing else): 「甲建物」
+「所有権登記あり」「乙建物」「表題登記のみ」
 Conclusion tag (colored banner below, blue, short phrase):
 所有権登記なし × 合併不可
 
 --- CARD 2 ---
-Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 区分建物でも、主従関係があれば接続してなくてもいい
-Illustration: Two isometric condominium unit icons ("101号室"主である建物,
+Illustration: Two isometric condominium unit icons (「101号室」主である建物,
 倉庫の区分建物「附属建物」) positioned apart with a dashed distance line
 between them, a green checkmark over the merge arrow, and a small
 「主従関係あり」tag between the two icons.
+Words allowed inside this illustration (verbatim, nothing else): 「101号室」
+「附属建物」「主従関係あり」
 Conclusion tag (colored banner below, blue, short phrase):
 主従関係があれば接続不要
 
 --- CARD 3 ---
-Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 抵当権者の承諾書があっても、合併できない
 Illustration: An isometric building icon labeled「乙建物」carrying a red
 「抵当権」tag, with a signed document icon labeled「承諾書」beside it, and a
 red X mark over the merge arrow toward a building icon labeled「甲建物」
 that has no such tag.
+Words allowed inside this illustration (verbatim, nothing else): 「乙建物」
+「抵当権」「承諾書」「甲建物」
 Conclusion tag (colored banner below, blue, short phrase):
 承諾書だけでは不可
 
 --- CARD 4 ---
-Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分が同じでも、1人では足りない
 Illustration: Three isometric person icons labeled「共有者Ａ」「共有者Ｂ」
-「共有者Ｃ」(each with a small "1/3" tag) in front of a merge-application
+「共有者Ｃ」(each with a small「1/3」tag) in front of a merge-application
 document: on the left (small label 「過半数に満たない」), person A alone
 reaching for the document with a red X mark; on the right (small label
 「過半数なら全員でなくても可」), A and B together (2/3) reaching for the
 document with a green checkmark, while a faint greyed-out silhouette of
 C stands off to the side, not required.
+Words allowed inside this illustration (verbatim, nothing else): 「共有者Ａ」
+「共有者Ｂ」「共有者Ｃ」「1/3」「過半数に満たない」「過半数なら全員でなくても可」
 Conclusion tag (colored banner below, blue, short phrase):
 持分の過半数で申請
 
 --- CARD 5 ---
-Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 共用部分の登記があると、同じ一棟でも合併できない
 Illustration: Two isometric room icons inside the same building outline,
 one labeled「集会室(共用部分)」and one labeled「管理人室(共用部分)」, both
 carrying a「共用部分である旨の登記」tag, a red X mark over the merge arrow
 between them despite being in the same building.
+Words allowed inside this illustration (verbatim, nothing else): 「集会室
+(共用部分)」「管理人室(共用部分)」「共用部分である旨の登記」
 Conclusion tag (colored banner below, blue, short phrase):
 同じ一棟でも不可
 
@@ -248,11 +269,15 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
 Korean Hangul, other non-Japanese script, or stray decorative glyph — and
 remove or redraw it so that only standard Japanese text appears anywhere
 in the image. Confirm the number of cards equals
-5 exactly, with no duplicated or missing cards, confirm there is no intro
+5 exactly, with no duplicated or missing cards, confirm that no card carries
+a number, numbered circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance — confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible — confirm
+nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the poster ends immediately after the last card), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -315,6 +340,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -413,7 +447,7 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 持分の過半数がなければ申請できない
 Diagram: Three isometric person icons labeled「共有者Ａ」「共有者Ｂ」
-「共有者Ｃ」(each with a small "1/3" tag) stand in front of a
+「共有者Ｃ」(each with a small「1/3」tag) stand in front of a
 merge-application document. One vignette shows person A alone reaching
 for the document with a red ✕ mark and a small label 「持分が過半数に満たない1人では不可」.
 A second vignette shows A and B together (2/3) reaching for the document
@@ -479,7 +513,10 @@ that Panels 1 and 4 remain simple labeled illustrative diagrams rather
 than being forced into a flowchart, that each 着眼点 callout states a
 checking order rather than only a conclusion and keeps every required
 element from the source article distinct (no merged or dropped
-requirements), confirm nothing is rendered below the last panel's
+requirements), confirm that no diagram contains any text other than the
+words written in 「」 in that panel's Diagram line, heading, 着眼点 callout
+or conclusion tag (no inscriptions on stones or signs, no pseudo-writing)
+and that each such word is clearly legible, confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully
