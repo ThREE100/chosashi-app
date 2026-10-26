@@ -478,8 +478,8 @@ characters):
 Small footnote text (bottom of panel, small font, verbatim):
 条文根拠：不動産登記法39条1項（ア）、不動産登記令別表8項添付情報ロ・不
 動産登記規則79条（イ）、不動産登記事務取扱手続準則72条1項（ウ）、不動
-産登記法・不動産登記令8条1項の表示登記と権利の登記の区別（エ）、民法
-423条（オ）
+産登記法2条3号・4号の表示に関する登記と権利に関する登記の区別（エ）、
+民法423条（オ）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
