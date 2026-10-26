@@ -163,7 +163,9 @@ def simulate(path):
                 got = ('−' if v.imag < 0 else '') + f'{fmt_num(abs(v.imag))}i'
             else:
                 got = disp(v)
-        out.append((n, want, got, want == got))
+        # 電卓は割り切れる整数を「1」のように小数なしで表示する（記事は「1」、再現は 1.00 になる。H22/Q21の比 (E − A) ÷ (A3 − A8) ＝ 1。2026-10-26追加）
+        ok = want == got or (re.fullmatch(r'−?\d+', want) is not None and got == want + '.00')
+        out.append((n, want, got, ok))
     return out
 
 
