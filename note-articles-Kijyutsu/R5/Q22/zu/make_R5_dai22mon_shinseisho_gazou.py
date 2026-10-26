@@ -44,9 +44,18 @@ table.t {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table
 table.t td {{ border: 1.5px solid #111; font-size: 19px; padding: 8px 8px; vertical-align: middle; line-height: 1.5; }}
 table.t td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 0.35em; padding: 0; font-size: 21px; }}
 table.t td.lab2 {{ text-align: center; font-size: 18px; }}
-table.t td.head {{ text-align: center; font-size: 17px; height: 76px; }}
-table.t td.val {{ height: 52px; }}
+table.t td.head {{ text-align: center; font-size: 17px; }}
 table.t td.entry {{ height: 128px; }}
+/* 行の高さは答案用紙（PDF）の罫線から測った値（表の幅472pt＝1080px、倍率2.288）。ittou：所在の2段65・名称52・見出し68・データ139、
+   mokuteki：見出し117・データ195、kubun：見出し123・データ156、shiki：見出し123・データ195 */
+table.ittou td.val {{ height: 65px; }} table.ittou td.nm {{ height: 52px; }} table.ittou td.head {{ height: 68px; }}
+table.ittou td.entry {{ height: 139px; }}
+table.mokuteki td.head {{ height: 117px; }} table.mokuteki td.entry {{ height: 195px; }}
+table.kubun td.head {{ height: 123px; }} table.kubun td.entry {{ height: 156px; }}
+table.shiki td.head {{ height: 123px; }} table.shiki td.entry {{ height: 195px; }}
+/* 申請書の記入欄の最低の高さ（答案用紙の枠の高さ57pt・79pt・57pt・44pt、左の列の枠408pt＝910px、倍率2.23） */
+.box.h-mokuteki {{ min-height: 126px; }} .box.h-tenpu {{ min-height: 177px; }} .box.h-shinsei {{ min-height: 126px; }}
+.box.h-menkyo {{ min-height: 97px; }}
 table.t td.center {{ text-align: center; }}
 table.t td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 4px; white-space: nowrap; }}
 table.t td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 4px; }}
@@ -59,7 +68,7 @@ table.t td.omitcell {{ position: relative; vertical-align: bottom; padding-botto
             background: #fff; font-size: 17px; line-height: 37px; padding-left: 10px; white-space: nowrap; z-index: 2; }}
 table.stack {{ margin-top: 0; border-top: none; }}
 table.g {{ border-collapse: collapse; table-layout: fixed; width: 100%; }}
-table.g td {{ border: 2px solid #111; height: 76px; font-size: 24px; }}
+table.g td {{ border: 2px solid #111; height: {{ROWH}}px; font-size: 24px; }}
 table.g td.k {{ text-align: center; }}
 table.g td.v {{ padding-left: 22px; }}
 table.g td.none {{ border-left: 2px solid #111; border-right: none; border-bottom: none; }}
@@ -130,12 +139,12 @@ def ittou_table(shozai, kouzou, floors1, floors2=(), genin=''):
     d1 = br(*[ink(b) for _, _, b in floors1])
     i2 = br(*[ink(f'{k}　{a}' if k else a) for k, a, _ in floors2])
     d2 = br(*[ink(b) for _, _, b in floors2])
-    return (f'<table class="t">{ITTOU_COLS}'
+    return (f'<table class="t ittou">{ITTOU_COLS}'
             f'<tr><td class="vert" rowspan="6">一棟の建物の表示</td>'
             f'<td class="lab2" rowspan="2">所　在</td><td class="val" colspan="7">{shozai}</td></tr>'
             f'<tr><td class="val" colspan="5"></td><td class="val genin" colspan="2"></td></tr>'
-            f'<tr><td class="lab2 val" colspan="2">建物の名称</td><td class="val" colspan="3"></td>'
-            f'<td class="val" colspan="3"></td></tr>'
+            f'<tr><td class="lab2 nm" colspan="2">建物の名称</td><td class="nm" colspan="3"></td>'
+            f'<td class="nm" colspan="3"></td></tr>'
             f'<tr><td class="head" colspan="2">①構　造</td><td class="head" colspan="5">②床　面　積<br>'
             f'<span style="display:inline-block;width:45%">m²</span><span style="display:inline-block;width:45%">m²</span></td>'
             f'<td class="head">原因及びその日付</td></tr>'
@@ -147,7 +156,7 @@ def ittou_table(shozai, kouzou, floors1, floors2=(), genin=''):
 
 
 SHIKICHI_MOKUTEKI = (
-    '<table class="t"><colgroup><col style="width:5.7%"><col style="width:10.7%"><col style="width:23.1%"><col style="width:13.9%">'
+    '<table class="t mokuteki"><colgroup><col style="width:5.7%"><col style="width:10.7%"><col style="width:23.1%"><col style="width:13.9%">'
     '<col style="width:14.4%"><col style="width:8.7%"><col style="width:23.5%"></colgroup>'
     '<tr><td class="vert" rowspan="2" style="font-size:16px;letter-spacing:0.05em">敷地権の目的である<br>土地の表示</td>'
     '<td class="head">①土　地<br>の符号</td><td class="head">②所在及び地番</td><td class="head">③地目</td>'
@@ -190,10 +199,10 @@ ROW2 = gappei_row(ink('居宅'), ink(S_NEW), [('1階', '83', '62'), ('2階', '88
 ROW3 = kubun_row(ink('Ｂ町一丁目<br>３番９の２'), ink('居宅'), ink(S_OLD2), [('1階部分', '74', '72')], ink('3番9の1に合併'))
 
 KUBUN_SHIKICHI = (
-    f'<table class="t">{KUBUN_COLS}'
+    f'<table class="t kubun">{KUBUN_COLS}'
     f'<tr><td class="vert" rowspan="4">区分した建物の表示</td>{KUBUN_HEAD}</tr>'
     f'{ROW1}{ROW2}{ROW3}</table>'
-    f'<table class="t stack"><colgroup><col style="width:5.7%"><col style="width:15.7%"><col style="width:17.9%">'
+    f'<table class="t stack shiki"><colgroup><col style="width:5.7%"><col style="width:15.7%"><col style="width:17.9%">'
     f'<col style="width:28.9%"><col style="width:31.8%"></colgroup>'
     f'<tr><td class="vert" rowspan="2">敷地権の表示</td><td class="head">①土地の符号</td>'
     f'<td class="head">②敷地権の種類</td><td class="head">③敷地権の割合</td>'
@@ -204,12 +213,12 @@ KUBUN_SHIKICHI = (
 
 kansei = page(f'''<div class="page">
 <div class="title">登記申請書</div>
-<div class="row"><div class="lab">登記の目的</div><div class="box" style="height:62px">{ink('区分建物表題部変更・合併登記')}</div></div>
-<div class="row"><div class="lab">添 付 書 類</div><div class="box" style="height:118px">{ink(br('建物図面　各階平面図　登記識別情報　印鑑証明書', '所有権証明書　代理権限証書'))}</div></div>
+<div class="row"><div class="lab">登記の目的</div><div class="box h-mokuteki">{ink('区分建物表題部変更・合併登記')}</div></div>
+<div class="row"><div class="lab">添 付 書 類</div><div class="box h-tenpu">{ink(br('建物図面　各階平面図　登記識別情報　印鑑証明書', '所有権証明書　代理権限証書'))}</div></div>
 <div class="dateline">令和5年10月12日　申請　Ａ地方法務局</div>
-<div class="row"><div class="lab">申　請　人</div><div class="box" style="height:110px">{ink('Ａ市Ｂ町一丁目３番地９　甲田栄一')}</div></div>
+<div class="row"><div class="lab">申　請　人</div><div class="box h-shinsei">{ink('Ａ市Ｂ町一丁目３番地９　甲田栄一')}</div></div>
 <div class="plainrow"><div class="lab">代　理　人</div><div class="ryaku">（略）</div></div>
-<div class="row"><div class="lab">登録免許税</div><div class="box" style="height:62px">{ink('金1,000円')}</div></div>
+<div class="row"><div class="lab">登録免許税</div><div class="box h-menkyo">{ink('金1,000円')}</div></div>
 {ittou_table(ink('Ａ市Ｂ町一丁目３番地９'), ink('軽量鉄骨造陸屋<br>根２階建'), [('1階', '83', '62'), ('2階', '73', '99')])}
 {SHIKICHI_MOKUTEKI.format(genin=ink('記載不要'))}
 {KUBUN_SHIKICHI}
@@ -219,7 +228,7 @@ kansei = page(f'''<div class="page">
 
 # ---- 添削（①誤答 → ②添削 → ③正解 を縦に3コマ）：区分した建物の表示の2行目（合併後の建物） ----
 def snippet(row, good=False):
-    g = ' class="t good"' if good else ' class="t"'
+    g = ' class="t kubun good"' if good else ' class="t kubun"'
     chk = CHECK_SVG if good else ''
     return (f'<div class="okwrap"><table{g}>{KUBUN_COLS}'
             f'<tr><td class="vert" rowspan="2" style="font-size:17px;letter-spacing:0.05em">区分した<br>建物の表示</td>'
@@ -247,23 +256,28 @@ DAI1 = [('ア', '合併'), ('イ', '構造上の独立性'), ('ウ', '合体'), 
 DAI4 = [('①', '規約証明書'), ('②', '敷地権'), ('③', '敷地利用権'), ('④', '分離'), ('⑤', '処分')]
 
 
-def anaume(title, rows, caption):
-    """答案用紙どおり、記号と記入欄を2組ずつ横に並べた3段の欄（3段目は左の1組だけで、右は欄なし）。"""
+def anaume(title, rows, caption, cols, rowh):
+    """答案用紙どおり、記号と記入欄を2組ずつ横に並べた3段の欄（3段目は左の1組だけで、右は欄なし）。
+    cols：4列の幅（%）、rowh：行の高さ（px）。どちらも答案用紙（PDF）の罫線から測った値"""
     cells = [f'<td class="k">{k}</td><td class="v">{ink(v)}</td>' for k, v in rows]
     trs = ''.join(f'<tr>{cells[i]}{cells[i + 1] if i + 1 < len(cells) else "<td class=none colspan=2></td>"}</tr>'
                   for i in range(0, len(cells), 2))
+    colg = ''.join(f'<col style="width:{c}%">' for c in cols)
     return page(f'''<div class="page">
 <div style="font-size:26px;font-weight:bold;font-family:'Noto Sans CJK JP',sans-serif;margin-bottom:10px">{title}</div>
-<table class="g"><colgroup><col style="width:12%"><col style="width:38%"><col style="width:12%"><col style="width:38%">
-</colgroup>{trs}</table>
-<div class="caption">{caption}</div></div>''')
+<table class="g"><colgroup>{colg}</colgroup>{trs}</table>
+<div class="caption">{caption}</div></div>''').replace('{ROWH}', str(rowh))
 
 
-dai1 = anaume('第1欄', DAI1, '令和5年度 土地家屋調査士試験 第22問 第1欄（問1）解答例')
-dai4 = anaume('第4欄', DAI4, '令和5年度 土地家屋調査士試験 第22問 第4欄（問4）解答例')
+# 第1欄（表の幅472pt＝1080px）：列 78・249・79・249（px、原本の画像）→ 11.9・38.0・12.1・38.0％、行の高さ 39.6pt → 91px
+# 第4欄（表の幅583px＝1080px換算）：列 63・230・62・228 → 10.8・39.5・10.6・39.1％、行の高さ 55px → 102px
+DAI1_COLS, DAI1_ROWH = (11.9, 38.0, 12.1, 38.0), 91
+DAI4_COLS, DAI4_ROWH = (10.8, 39.5, 10.6, 39.1), 102
+dai1 = anaume('第1欄', DAI1, '令和5年度 土地家屋調査士試験 第22問 第1欄（問1）解答例', DAI1_COLS, DAI1_ROWH)
+dai4 = anaume('第4欄', DAI4, '令和5年度 土地家屋調査士試験 第22問 第4欄（問4）解答例', DAI4_COLS, DAI4_ROWH)
 
 if __name__ == '__main__':
-    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux/chrome'))
+    exe = sorted(glob.glob('/opt/pw-browsers/chromium-*/chrome-linux*/chrome'))
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=exe[-1] if exe else None)
         pg = browser.new_page(viewport={'width': 1200, 'height': 200})

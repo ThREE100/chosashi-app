@@ -36,12 +36,19 @@ td.note2 { font-family: "Noto Sans CJK JP", "IPAGothic", sans-serif; font-size: 
 .bubrow { margin: 14px 0 0; text-align: right; }
 .bubrow .bubble { text-align: left; }
 .good { outline: 3px solid #2e9e44; outline-offset: 4px; background: #f1faf2; }
+/* 問1・問4の解答欄の行の高さ（表のセルの height は最小の高さとして働く。原本の行は問1が15mm・問4が14mm） */
+table.t td.q1 { height: 110px; font-size: 24px; }
+table.t td.q1a { font-size: 28px; padding-left: 40px; }
+.q1w { display: flex; justify-content: space-between; align-items: baseline; }
+.dok { font-size: 22px; }
+table.t td.q4 { height: 84px; font-size: 24px; }
+table.t td.q4a { font-size: 26px; padding-left: 28px; }
 .tall { min-height: 1300px; display: flex; flex-direction: column; justify-content: space-around; }
 </style></head><body><div class="page">
 <div class="ranlab">第4欄</div>
 <table class="t"><colgroup><col style="width:32%"><col style="width:68%"></colgroup>
-<tr><td class="c" style="height:84px;font-size:24px">（ア）</td><td style="font-size:26px;padding-left:28px"><span class="ink">床面積</span></td></tr>
-<tr><td class="c" style="height:84px;font-size:24px">（イ）</td><td style="font-size:26px;padding-left:28px"><span class="ink">議事録</span></td></tr>
-<tr><td class="c" style="height:84px;font-size:24px">（ウ）</td><td style="font-size:26px;padding-left:28px"><span class="ink">合意書</span></td></tr>
+<tr><td class="c q4">（ア）</td><td class="q4a"><span class="ink">床面積</span></td></tr>
+<tr><td class="c q4">（イ）</td><td class="q4a"><span class="ink">議事録</span></td></tr>
+<tr><td class="c q4">（ウ）</td><td class="q4a"><span class="ink">合意書</span></td></tr>
 </table>
 <div class="caption">令和8年度 土地家屋調査士試験 第22問 第4欄（問4）解答例</div></div></body></html>
