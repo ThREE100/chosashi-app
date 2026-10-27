@@ -7,7 +7,7 @@ body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans
 .hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
 .hd h1{font-size:13pt;margin:0;color:var(--g)}
 .hd .meta{font-size:9pt;color:var(--mute)}
-h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+h2{font-size:10.5pt;margin:3mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
 .theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
 ol.st{list-style:none;margin:0;padding:0}
 ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
@@ -24,7 +24,7 @@ ol.st .lb{flex:none;font-weight:700}
 .ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
 blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
 .src{font-size:9pt;color:var(--mute)}
-.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.full{white-space:pre-wrap;font-size:9pt;line-height:1.5;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
 .chk{margin:0;padding:0;list-style:none;columns:2}
 .foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
 .clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
@@ -77,16 +77,13 @@ pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3p
 code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 @page{size:A4;margin:0}
 @page flow{size:A4;margin:12mm 0 14mm;@bottom-right{content:"令和8年8月時点の法令による";font-size:8pt;color:#5d6b66;margin-right:14mm}}
-@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;min-height:0;overflow:visible;page:flow;padding-top:0;padding-bottom:10mm}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;min-height:0;overflow:visible;page:flow;padding-top:0;padding-bottom:0}
 .keep,.q,.ans,blockquote,.cl,li,tr,.full,.form .row,pre.keys,.ans-box,.clz p,.pt tr{break-inside:avoid;page-break-inside:avoid}
 h2,.q,.hd{break-after:avoid;page-break-after:avoid}
 p,.full,li{orphans:3;widows:3}
-.sheet.flow .foot{position:static;margin-top:4mm}.sheet.flow:not(:has(.amq)) .foot span:last-child{display:none}
+.sheet.flow .foot{position:static;margin-top:2mm}.sheet.flow:not(:has(.amq)) .foot span:last-child{display:none}
 .sheet.flow:has(.amq){page:auto;padding-top:12mm;padding-bottom:12mm;min-height:297mm}.sheet.flow:has(.amq) .foot{position:absolute}}
 </style></head><body><div class="sheet flow"><div class="hd"><h1>第105日　朝：解答</h1><span class="meta">日付：　　月　　日　／　目安 10分　／　時間：　　分</span></div><p class="theme">択一：代位による登記の完了の通知・代位の可否（保全の必要性）・相続人による申請の申請情報（民法第423条、令第3条・第7条、規則第183条、先例）　／　空欄補充：調査士会・調査士会連合会（土地家屋調査士法第47条・第49条・第52条・第54条・第57条）</p><div class="ans">正解：<b>②</b>（ア・ウ）　※問題は「正しいもの」を選ぶ</div><div class="keep"><div class="q"><b>ア</b>　<span class="ok">○ 正しい</span>　不動産登記規則第183条第1項第2号。代位による申請に基づく登記を完了したときは、登記官は、代位された「当該他人」（A）に登記が完了した旨を通知する（表示に関する登記なので同項第1号の所有権の登記名義人への通知にも当たる）。</div><blockquote>不動産登記規則第183条「民法第四百二十三条その他の法令の規定により他人に代わってする申請に基づく登記を完了した場合　当該他人」</blockquote></div><div class="keep"><div class="q"><b>イ</b>　<span class="ng">× 誤り</span>　地役権は一筆の土地の一部にも設定して登記できるので、分筆しなくても地役権の設定の登記を請求する権利は保全される。民法第423条第1項の「保全するため必要があるとき」に当たらず、代位による分筆の登記は申請できない（先例による取扱い。登記実務の整理）。</div><blockquote>民法第423条「債権者は、自己の債権を保全するため必要があるときは、債務者に属する権利（以下「被代位権利」という。）を行使することができる。」</blockquote><blockquote>先例「保全の必要性が欠ける以上、代位による分筆の登記を申請することはできません（民法423条）。」</blockquote></div><div class="keep"><div class="q"><b>ウ</b>　<span class="ok">○ 正しい</span>　一筆の土地の一部の仮処分の登記をするには、その部分を一筆にする分筆が必要なので、仮処分債権者は代位による分筆の登記を申請できる。代位原因を証する情報（不動産登記令第7条第1項第3号）は、仮処分命令の正本で足りる（先例。登記実務の整理）。</div><blockquote>不動産登記令第7条「民法第四百二十三条その他の法令の規定により他人に代わって登記を申請するときは、代位原因を証する情報」</blockquote><blockquote>先例「一部処分禁止の仮処分債権者の場合は、登記先例の取扱いにより、仮処分命令の正本を代位原因を証する情報として提供すれば足りるとされています」</blockquote></div><div class="keep"><div class="q"><b>エ</b>　<span class="ng">× 誤り</span>　不動産登記令第3条第10号。法第30条による申請では、申請人が表題部所有者の「相続人その他の一般承継人である旨」を申請情報の内容とする。「代位者である旨」は、民法第423条などで他人に代わって申請するときの事項（同条第4号）で、相続人による申請とは別の制度（用語の取り違え）。</div><blockquote>不動産登記令第3条「法第三十条の規定により表示に関する登記を申請するときは、申請人が表題部所有者又は所有権の登記名義人の相続人その他の一般承継人である旨」</blockquote><blockquote>不動産登記令第3条「民法（明治二十九年法律第八十九号）第四百二十三条その他の法令の規定により他人に代わって登記を申請するときは、申請人が代位者である旨」</blockquote></div><div class="keep"><div class="q"><b>オ</b>　<span class="ng">× 誤り</span>　合筆しなくても、甲土地・乙土地それぞれについてBへの所有権の移転の登記ができるので、保全の必要性（民法第423条第1項）がなく、代位による合筆の登記は申請できない（分筆しなければ移転の登記ができない一部の売買との違い。先例・実務の取扱い）。</div><blockquote>民法第423条「債権者は、自己の債権を保全するため必要があるときは、債務者に属する権利（以下「被代位権利」という。）を行使することができる。」</blockquote><blockquote>先例「合筆をしなくてもＢの所有権移転登記請求権は保全されます。合筆はあくまで登記記録を整理する手続にすぎず、これを経なければ債権が保全されないという関係にはないため、Ｂが代位して合筆登記を申請することはできません。」</blockquote></div><h2>条文の空欄補充：答え</h2><div class="clz"><p class="cl">【土地家屋調査士法第47条】</p><p class="cl">調査士は、その<b class="ok">事務所</b>の所在地を管轄する法務局又は地方法務局の管轄区域ごとに、会則を定めて、<b class="ok">一個</b>の調査士会を設立しなければならない。</p><p class="cl">２　調査士会は、会員の品位を保持し、その業務の改善進歩を図るため、会員の指導及び連絡に関する事務を行うことを目的とする。</p><p class="cl">３　調査士会は、<b class="ok">法人</b>とする。</p><p class="cl">４　一般社団法人及び一般財団法人に関する法律第四条及び第七十八条の規定は、調査士会について準用する。</p><p class="cl">【土地家屋調査士法第49条】</p><p class="cl">調査士会の会則を定め、又はこれを変更するには、<b class="ok">法務大臣</b>の認可を受けなければならない。ただし、前条第一号及び第七号から第十一号までに掲げる事項に係る会則の変更については、この限りでない。</p><p class="cl">２　前項の場合において、法務大臣は、<b class="ok">調査士会連合会</b>の意見を聴いて、認可し、又は認可しない旨の処分をしなければならない。</p><p class="cl">【土地家屋調査士法第52条】</p><p class="cl">第九条第一項の規定による登録の申請又は第十三条第一項の変更の登録の申請をする者は、その申請と同時に、申請を経由すべき調査士会に入会する手続をとらなければならない。</p><p class="cl">２　前項の規定により入会の手続をとつた者は、当該登録又は変更の登録の時に、当該調査士会の<b class="ok">会員</b>となる。</p><p class="cl">３　第十三条第一項の変更の登録の申請をした調査士は、当該申請に基づく変更の登録の時に、従前所属していた調査士会を退会する。</p><p class="cl">【土地家屋調査士法第54条】</p><p class="cl">調査士会は、所属の会員の業務に関する<b class="ok">紛議</b>につき、当該会員又は当事者その他関係人の請求により<b class="ok">調停</b>をすることができる。</p><p class="cl">【土地家屋調査士法第57条】</p><p class="cl">全国の調査士会は、会則を定めて、調査士会連合会を設立しなければならない。</p><p class="cl">２　調査士会連合会は、調査士会の会員の品位を保持し、その業務の改善進歩を図るため、調査士会及びその会員の指導及び連絡に関する事務を行い、並びに調査士の<b class="ok">登録</b>に関する事務を行うことを目的とする。</p></div><h2>原文（音読用）　<span class="src">土地家屋調査士法第47条</span></h2><div class="full">調査士は、その事務所の所在地を管轄する法務局又は地方法務局の管轄区域ごとに、会則を定めて、一個の調査士会を設立しなければならない。
-
 ２　調査士会は、会員の品位を保持し、その業務の改善進歩を図るため、会員の指導及び連絡に関する事務を行うことを目的とする。
-
 ３　調査士会は、法人とする。
-
 ４　一般社団法人及び一般財団法人に関する法律第四条及び第七十八条の規定は、調査士会について準用する。</div><div class="foot"><span>AM-105 解答</span><span>令和8年8月時点の法令による</span></div></div></body></html>

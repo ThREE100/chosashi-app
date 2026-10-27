@@ -32,7 +32,7 @@ body{margin:0;font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans
 .hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--g);padding-bottom:2mm;margin-bottom:3mm}
 .hd h1{font-size:13pt;margin:0;color:var(--g)}
 .hd .meta{font-size:9pt;color:var(--mute)}
-h2{font-size:10.5pt;margin:4mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
+h2{font-size:10.5pt;margin:3mm 0 1.5mm;padding-left:2mm;border-left:3px solid var(--g)}
 .theme{font-size:9.5pt;color:var(--mute);margin:0 0 2mm}
 ol.st{list-style:none;margin:0;padding:0}
 ol.st li{display:flex;gap:2mm;margin:1.2mm 0}
@@ -49,7 +49,7 @@ ol.st .lb{flex:none;font-weight:700}
 .ok{color:var(--g);font-weight:700}.ng{color:var(--warn);font-weight:700}
 blockquote{margin:1mm 0 1mm 0;padding:1mm 3mm;border-left:3px solid var(--line);color:var(--mute);font-size:9.5pt;background:var(--soft)}
 .src{font-size:9pt;color:var(--mute)}
-.full{white-space:pre-wrap;font-size:9.5pt;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
+.full{white-space:pre-wrap;font-size:9pt;line-height:1.5;border:1px solid var(--line);padding:2mm 3mm;background:var(--soft)}
 .chk{margin:0;padding:0;list-style:none;columns:2}
 .foot{position:absolute;left:14mm;right:14mm;bottom:7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
 .clz{border:1px solid var(--line);padding:3mm 4mm;margin:2mm 0}
@@ -102,11 +102,11 @@ pre.keys{margin:.5mm 0;padding:1.2mm 2.5mm;background:var(--soft);border-left:3p
 code{font-family:"Space Mono",Menlo,monospace;font-size:9.5pt}
 @page{size:A4;margin:0}
 @page flow{size:A4;margin:12mm 0 14mm;@bottom-right{content:"__LAW_BASE__";font-size:8pt;color:#5d6b66;margin-right:14mm}}
-@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;min-height:0;overflow:visible;page:flow;padding-top:0;padding-bottom:10mm}
+@media print{html{background:#fff}.sheet{margin:0;box-shadow:none;page-break-after:always;break-after:page;overflow:hidden;height:297mm}.sheet.flow{height:auto;min-height:0;overflow:visible;page:flow;padding-top:0;padding-bottom:0}
 .keep,.q,.ans,blockquote,.cl,li,tr,.full,.form .row,pre.keys,.ans-box,.clz p,.pt tr{break-inside:avoid;page-break-inside:avoid}
 h2,.q,.hd{break-after:avoid;page-break-after:avoid}
 p,.full,li{orphans:3;widows:3}
-.sheet.flow .foot{position:static;margin-top:4mm}.sheet.flow:not(:has(.amq)) .foot span:last-child{display:none}
+.sheet.flow .foot{position:static;margin-top:2mm}.sheet.flow:not(:has(.amq)) .foot span:last-child{display:none}
 .sheet.flow:has(.amq){page:auto;padding-top:12mm;padding-bottom:12mm;min-height:297mm}.sheet.flow:has(.amq) .foot{position:absolute}}
 """
 
@@ -169,7 +169,9 @@ def _pub_label(lab):
     return {'過去問の解説': '登記実務の取扱い', '登記実務': '登記実務の取扱い'}.get(lab, lab)
 
 
-def quote_block(b):
+def quote_block(b, short=False):
+    if short and 'doc' not in b:   # 択一の見出しに法令名と条を出しているので、引用の先頭の「法令名＋条」は省く
+        return f'<blockquote>「{E(b["quote"])}」</blockquote>'
     if 'doc' in b:          # 先例など：過去問の解説の記載
         return f'<blockquote>{E(_pub_label(b.get("label", "先例")))}「{E(b["quote"])}」</blockquote>'
     return f'<blockquote>{E(b["law"])}{E(_art(b["article"]))}「{E(b["quote"])}」</blockquote>'
@@ -306,7 +308,9 @@ def am_a(p):
     body += f'<div class="ans">正解：<b>{CIRC[idx]}</b>（{"・".join(ans)}）　※問題は「{'正しいもの' if p['mode'] == '正しい' else '誤っているもの'}」を選ぶ</div>'
     for s in p['statements']:
         mark = '<span class="ok">○ 正しい</span>' if s['truth'] else '<span class="ng">× 誤り</span>'
-        body += f'<div class="keep"><div class="q"><b>{s["label"]}</b>　{mark}　{E(s["note"])}</div>' + ''.join(quote_block(b) for b in s['basis']) + '</div>'
+        body += f'<div class="keep"><div class="q"><b>{s["label"]}</b>　{mark}　{E(s["note"])}</div>' + ''.join(quote_block(b, p.get('quote_short', False)) for b in s['basis']) + '</div>'
+    if p.get('example'):   # 具体例（最後の肢の解説の下）
+        body += '<div class="keep"><div class="q"><b>具体例</b></div><ul style="margin:0;padding-left:5mm;font-size:9.5pt;line-height:1.5">' + ''.join(f'<li>{E(x)}</li>' for x in p['example']) + '</ul></div>'
     w = p['write']
     if 'cloze' in w:
         body += '<h2>条文の空欄補充：答え</h2>' + cloze_html(w, answers=True)
@@ -315,6 +319,7 @@ def am_a(p):
     full = w['basis'][0]
     txt = article(full['law'], full['article']) or ''
     txt = '\n'.join(re.sub(r'^\s*- ', '', ln) for ln in txt.split('\n') if not ln.startswith('#')).strip()
+    txt = re.sub(r'\n{2,}', '\n', txt)   # 項と項の間の空行は詰める（A4に収めるため）
     body += f'<h2>原文（音読用）　<span class="src">{E(full["law"])}{E(_art(full["article"]))}</span></h2><div class="full">{E(txt)}</div>'
     return page(f'{daylab(p["day"])} 朝 解答', body, f'{p["id"]} 解答', flow=True)
 
