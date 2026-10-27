@@ -1,0 +1,87 @@
+"""ドリルの解説記事（kaisetsu/*.md）の形式チェック。使い方: python3 daily-drill/kaisetsu/check_kaisetsu.py"""
+import glob
+import os
+import re
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ng = 0
+
+
+def bad(f, m):
+    global ng
+    ng += 1
+    print(f'NG {os.path.basename(f)}: {m}')
+
+
+for f in sorted(glob.glob(os.path.join(HERE, 'day*-kaisetsu.md'))):
+    s = open(f, encoding='utf-8').read()
+    lines = s.split('\n')
+    t = lines[0]
+    m = re.fullmatch(r'## 【土地家屋調査士受験生向け】第\d+日 択一〜(.+)〜', t)
+    if not m:
+        bad(f, 'タイトル行の形')
+    elif len(m.group(1)) > 25:
+        bad(f, f'キャッチフレーズが25字超（{len(m.group(1))}字）')
+    if not re.search(r'^\*\*出題：毎日ドリル　第\d+日（朝）　択一\*\*$', s, re.M):
+        bad(f, '出題行')
+    body = s.split('\n## 見出し画像用フレーズ')[0]
+    prose = '\n'.join(l for l in body.split('\n') if not l.startswith('>'))
+    if re.search(r'\([^()`]*[ぁ-んァ-ヶ一-龥][^()`]*\)', prose):
+        bad(f, '半角括弧の日本語')
+    for w in ('決定木', '判定木', 'ツリー', '照合済み', '.md', '.py', 'note-articles'):
+        if w in body.replace('`note-articles/laws/`', ''):
+            bad(f, f'本文に禁止語「{w}」')
+    if re.search(r'昭和?\d+\.\d+\.\d+民|登記研究\d|最判', body):
+        bad(f, '判例・先例・専門誌の番号')
+    heads = re.findall(r'^### ([アイウエオ])：', body, re.M)
+    if heads != list('アイウエオ'):
+        bad(f, f'肢の見出し {heads}')
+    for h in re.split(r'^### ', body, flags=re.M)[1:6]:
+        if '**たとえば**、' not in h:
+            bad(f, f'「たとえば」がない肢: {h[:3]}')
+    mm = re.search(r'### まとめ\n\n((?:- \*\*[アイウエオ]（[正誤]）\*\* .+\n)+)', body)
+    if not mm or mm.group(1).count('\n') != 5:
+        bad(f, 'まとめの箇条書き（5項目）')
+    if not re.search(r'^\*\*正解：.+の組合せ（選択肢[1-5]番）\*\*$', body, re.M):
+        bad(f, '正解の行')
+    if body.find('**正解') < body.find('### まとめ'):
+        bad(f, '正解がまとめより前')
+    fr = s.split('## 見出し画像用フレーズ')[1].split('\n## ')[0]
+    if len(re.findall(r'^- ', fr, re.M)) != 5:
+        bad(f, '見出し画像用フレーズが5つでない')
+    blocks = re.findall(r'```text\n(.*?)\n```', s, re.S)
+    if len(blocks) < 3:
+        bad(f, 'プロンプトのコードブロックが足りない')
+    for i, b in enumerate(blocks):
+        for need in ('CRITICAL TEXT REQUIREMENT', 'BACKGROUND REQUIREMENT', 'Final check before rendering'):
+            if need not in b:
+                bad(f, f'プロンプト{i + 1}に {need} がない')
+        if 'transparent' not in b:
+            bad(f, f'プロンプト{i + 1}に透過禁止の語がない')
+        if i >= 1 and 'ILLUSTRATION TEXT RULE' not in b:
+            bad(f, f'プロンプト{i + 1}に ILLUSTRATION TEXT RULE がない')
+        # Final check の漢字リストが本文に実在するか
+        mk = re.search(r'paying special attention to ([^\s,]+(?:・[^\s,]+)+)', b.split('Final check')[-1])
+        if mk:
+            for ch in mk.group(1).split('・'):
+                if ch not in b.split('Final check')[0]:
+                    bad(f, f'プロンプト{i + 1}の注意漢字「{ch}」が本文にない')
+        lists = re.findall(r'[一-龥](?:・[一-龥])+', b)
+        rest = b
+        for l in lists:
+            rest = rest.replace(l, '')
+        for l in lists:
+            for ch in l.split('・'):
+                if ch not in rest:
+                    bad(f, f'プロンプト{i + 1}の注意漢字「{ch}」がプロンプトの本文にない')
+    ov = blocks[1] if len(blocks) > 1 else ''
+    if ov:
+        if 'NO NUMBERING' not in ov:
+            bad(f, '総論に NO NUMBERING がない')
+        if len(re.findall(r'^--- COLUMN [AB], CARD \d', ov, re.M)) != 5:
+            bad(f, '総論のカードが5枚でない')
+        if len(re.findall(r'^Words allowed inside this illustration', ov, re.M)) != 5:
+            bad(f, '総論の Words allowed が5つでない')
+print(f'NG {ng}件')
+sys.exit(1 if ng else 0)

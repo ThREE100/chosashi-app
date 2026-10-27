@@ -11,6 +11,7 @@ for s in ('check_registry.py', 'check_am.py', 'check_pm.py'):
 rc |= subprocess.call([sys.executable, os.path.join(HERE, 'saturday', 'check_sat.py')])   # 土曜の20問模擬
 rc |= subprocess.call([sys.executable, os.path.join(HERE, 'sougou', 'build_sougou.py')])   # 本番形式の統合問題（検査して出力）
 rc |= subprocess.call([sys.executable, os.path.join(HERE, 'kiroku.py'), 'check'])   # 誤答の記録の形（log/）
+rc |= subprocess.call([sys.executable, os.path.join(HERE, 'kaisetsu', 'check_kaisetsu.py')])   # 解説記事（note用）の形式
 if rc == 0:
     subprocess.call([sys.executable, os.path.join(HERE, 'coverage.py')])
     subprocess.call([sys.executable, os.path.join(HERE, 'build.py')])
