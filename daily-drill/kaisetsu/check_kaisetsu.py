@@ -1,5 +1,5 @@
 """ドリルの解説記事（kaisetsu/*.md）の形式チェック。使い方: python3 daily-drill/kaisetsu/check_kaisetsu.py"""
-import glob
+import json, glob
 import os
 import re
 import sys
@@ -18,11 +18,14 @@ for f in sorted(glob.glob(os.path.join(HERE, 'day*-kaisetsu.md'))):
     s = open(f, encoding='utf-8').read()
     lines = s.split('\n')
     t = lines[0]
-    m = re.fullmatch(r'## 【土地家屋調査士受験生向け】第\d+日 択一〜(.+)〜', t)
+    m = re.fullmatch(r'## 【土地家屋調査士受験生向け】毎朝ドリル_Day(\d{3})_択一解説～(.+)～', t)
     if not m:
         bad(f, 'タイトル行の形')
-    elif len(m.group(1)) > 25:
-        bad(f, f'キャッチフレーズが25字超（{len(m.group(1))}字）')
+    else:
+        if len(m.group(2)) > 25:
+            bad(f, f'キャッチフレーズが25字超（{len(m.group(2))}字）')
+        if m.group(1) != re.search(r'day(\d{3})-', os.path.basename(f)).group(1):
+            bad(f, 'タイトルのDay番号とファイル名が合わない')
     if not re.search(r'^\*\*出題：毎日ドリル　第\d+日（朝）　択一\*\*$', s, re.M):
         bad(f, '出題行')
     body = s.split('\n## 見出し画像用フレーズ')[0]
@@ -50,6 +53,28 @@ for f in sorted(glob.glob(os.path.join(HERE, 'day*-kaisetsu.md'))):
     fr = s.split('## 見出し画像用フレーズ')[1].split('\n## ')[0]
     if len(re.findall(r'^- ', fr, re.M)) != 5:
         bad(f, '見出し画像用フレーズが5つでない')
+    # PDCA追加（Day001-003作成時）: 問題データとの一致、補足説明があれば④が要る
+    jf = os.path.join(HERE, '..', 'morning', 'problems', f'AM-{m.group(1)}.json') if m else ''
+    if jf and os.path.exists(jf):
+        pj = json.load(open(jf, encoding='utf-8'))
+        qs = '\n'.join(l for l in lines if l.startswith('>'))
+        if pj['stem'] not in qs:
+            bad(f, '引用の問題文が問題データと一致しない')
+        for st in pj['statements']:
+            if f"{st['label']}　{st['text']}" not in qs:
+                bad(f, f'引用の肢{st["label"]}が問題データと一致しない')
+        wr = [st['label'] for st in pj['statements'] if not st['truth']]
+        ix = [i + 1 for i, c in enumerate(pj['choices']) if list(c) == wr]
+        if not re.search(rf'^\*\*正解：{"・".join(wr)}の組合せ（選択肢{ix[0] if ix else 0}番）\*\*$', body, re.M):
+            bad(f, '正解の行が問題データの正解と一致しない')
+        for st in pj['statements']:
+            mt = re.search(rf'- \*\*{st["label"]}（([正誤])）\*\*', body)
+            if not mt or (mt.group(1) == '正') != st['truth']:
+                bad(f, f'まとめの肢{st["label"]}の正誤が問題データと一致しない')
+    if '### 補足説明' in body and '・間違いノート）' not in s:
+        bad(f, '補足説明があるのに④（間違いノート）のプロンプトがない')
+    if re.search(r'^- .*[?!]', fr, re.M):
+        bad(f, '見出し画像用フレーズに半角の？！がある')
     blocks = re.findall(r'```text\n(.*?)\n```', s, re.S)
     if len(blocks) < 3:
         bad(f, 'プロンプトのコードブロックが足りない')
