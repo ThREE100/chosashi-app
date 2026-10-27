@@ -133,7 +133,7 @@ Fill the whole canvas with the pastel sky and soft clouds.
 
 CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent new accessories.
 
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind. Reproduce the exact text strings given below verbatim.
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and no Latin letters and no digits anywhere in the image, with one exception: the exact string Day004 in the subtitle band (capital D, lowercase a, y, then the digits 0, 0, 4) is allowed and required. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind. Reproduce the exact text strings given below verbatim.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
@@ -142,7 +142,7 @@ TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title i
 Line 2 is larger and red-orange:
 どっちがどっち？
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-毎日ドリル　第四日　不動産登記法　用語の意義
+毎朝ドリル　Day004　不動産登記法　用語の意義
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
 TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the character):
@@ -151,7 +151,7 @@ Right side: a deed document with a stamp, no text
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph, paying special attention to 権・利・義・務・登・記・毎, and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese; scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written (including Day004 spelled exactly D-a-y-0-0-4, with no other Latin letters or digits anywhere) (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph, paying special attention to 権・利・義・務・登・記・毎・朝, and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese; scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
