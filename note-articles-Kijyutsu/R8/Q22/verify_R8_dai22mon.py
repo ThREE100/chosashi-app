@@ -63,6 +63,28 @@ for s in ['5.18×9.88＝51.1784', '51.1784－0.7744－0.7304＝49.6736', '5.18×
 for s, v in [('51.1784', (5.30 - 0.12) * (10.00 - 0.12)), ('45.9984', 5.18 * 8.88), ('24.2424', 2.73 * 8.88),
              ('49.6736', wrong_ps)]:
     ok(abs(float(s) - v) < 0.00005, f'計算 {s}')
+# 記事の「a×b＝c」「a＋b＝c」「a－b－c＝d」の形の式を全部拾って計算し直す（qa-checklist 5. の建物の式の検証）
+from decimal import Decimal as _D
+NUM = r'\d+(?:\.\d+)?'
+eqs = re.findall(rf'({NUM}(?:\s*[×＋－]\s*{NUM})+)\s*＝\s*({NUM})', ART)
+for lhs, rhs in eqs:
+    toks = re.findall(rf'{NUM}|[×＋－]', lhs)
+    terms, val = [], _D(toks[0])
+    i = 1
+    acc = []
+    # 掛け算を先に
+    cur = _D(toks[0])
+    for op, v in zip(toks[1::2], toks[2::2]):
+        if op == '×':
+            cur *= _D(v)
+        else:
+            acc.append(cur); acc.append(op); cur = _D(v)
+    acc.append(cur)
+    res = acc[0]
+    for op, v in zip(acc[1::2], acc[2::2]):
+        res = res + v if op == '＋' else res - v
+    ok(res == _D(rhs), f'記事の式 {lhs}＝{rhs}（計算 {res}）')
+ok(len(eqs) >= 16, f'記事の式を{len(eqs)}個拾った（16個以上）')
 # 電卓のキー列（文中）の表示
 ok('[Abs] [ALPHA] [B] [－] [ALPHA] [A] [)] [＝] で表示17' in ART and abs(B - A) == 17, '電卓 Abs(B−A) 表示17')
 ok('[Abs] [ALPHA] [C] [－] [ALPHA] [B] [)] [＝] で表示13.75' in ART and abs(C - B) == 13.75, '電卓 Abs(C−B) 表示13.75')
@@ -106,40 +128,51 @@ ORDER = ['zu01_kubun_bunkatsu', 'zu02_jikeiretsu', 'zu03_chuu_shiwake', 'zu04_do
          'zu09_tatemono_zumen_kansei', 'zu10_ps_ayamari',
          'zu11_D_kyuuseki', 'zu12_E_kyuuseki', 'zu13_kensan', 'zu14_kakukai_heimenzu',
          'toukishinseisho_machigai_shinseinin', 'toukishinseisho_machigai_tenpu', 'zu15_teitouken',
-         'toukishinseisho_machigai_menkyo', 'toukishinseisho_machigai_genin', 'toukishinseisho_machigai_shikichiken',
-         'zu16_wariai', 'toukishinseisho_kansei', 'zu17_kiyaku_shoumei', 'dai4ran_kansei', 'zu18_toku_junban']
+         'toukishinseisho_machigai_menkyo', 'zu16_ittou_shouryaku', 'toukishinseisho_machigai_genin', 'toukishinseisho_machigai_shikichiken',
+         'zu17_wariai', 'toukishinseisho_kansei', 'zu18_kiyaku_shoumei', 'dai4ran_kansei', 'zu19_toku_junban']
 KEY = ['区分と分割', '時系列メモ', '注の仕分け', '二つの独立性', '第1欄（問1）', '本件土地（6番3）の辺長確認図', '一点鎖線の比較', '北の距離の図',
        '建物図面に書くもの・書かないものの説明図', '建物図面の記入の完成形', 'PSの欠けの誤り', 'Dタイプ（701）7階部分の求積図', 'Eタイプ（702）7階部分の求積図', '合計の検算',
-       '各階平面図の完成形', '申請人の欄の添削', '添付書類の欄の添削', '抵当権の行方', '登録免許税の欄の添削',
+       '各階平面図の完成形', '申請人の欄の添削', '添付書類の欄の添削', '抵当権の行方', '登録免許税の欄の添削', '一棟の建物の表示の図',
        '区分した建物の表示の原因の添削', '敷地権の表示の原因の添削', '敷地権の割合の図', '登記申請書の完成形', '規約証明書の図',
        '第4欄（問4）', '本番で解く順番']
 marks = re.findall(r'^> 【画像挿入】(.+)$', ART, flags=re.M)
 pngs = sorted(os.path.basename(p) for p in glob.glob(os.path.join(ZU, 'R8_dai22mon_*.png')))
-ok(len(marks) == len(ORDER) == len(KEY) == len(pngs) == 26, f'マーカー{len(marks)}か所・PNG{len(pngs)}枚・一覧26')
+ok(len(marks) == len(ORDER) == len(KEY) == len(pngs) == 27, f'マーカー{len(marks)}か所・PNG{len(pngs)}枚・一覧27')
 for i, (m, k, o) in enumerate(zip(marks, KEY, ORDER)):
     ok(m.startswith(k), f'マーカー{i + 1}「{k}」→ {o}')
     ok(f'R8_dai22mon_{o}.png' in pngs, f'PNG R8_dai22mon_{o}.png がある')
-# まとめのわな → 図（1項目1わな、図の重複なし）
-TRAPS = [('建物分割登記ではなく、区分建物区分登記', 'zu01_kubun_bunkatsu'),
-         ('行き来できないことは構造上の独立性の話', 'zu04_dokuritsusei'),
-         ('一棟の7階を一点鎖線で描く', 'zu06_ittensasen'),
-         ('0.6＋1.0＝1.6', 'zu07_kita_kyori'),
-         ('囲む壁ごと除く', 'zu10_ps_ayamari'),
-         ('引き算で出さず、自分で測る', 'zu13_kensan'),
-         ('安田結さんはまだ名義人ではない', 'toukishinseisho_machigai_shinseinin'),
-         ('登記識別情報・印鑑証明書は要らない', 'toukishinseisho_machigai_tenpu'),
-         ('抵当権消滅承諾書を付ける', 'zu15_teitouken'),
-         ('「不要」ではない', 'toukishinseisho_machigai_menkyo'),
-         ('702の行だけが', 'toukishinseisho_machigai_genin'),
-         ('『③令和8年10月18日変更』', 'toukishinseisho_machigai_shikichiken'),
-         ('規約で定めた70分の3・70分の2', 'zu16_wariai'),
-         ('公正証書は分譲前の分譲業者のもの', 'zu17_kiyaku_shoumei')]
+# 解説図の番号（PNG名の zuNN）が記事の挿入順に1から並ぶ
+zn = [int(o[2:4]) for o in ORDER if o.startswith('zu')]
+ok(zn == list(range(1, len(zn) + 1)), f'解説図のPNG名の番号が記事の挿入順（{len(zn)}枚）')
+# まとめのわな → 図（1項目1わな、図の重複なし）。3つ目は、その図のマーカーの直前の空でない行にある、
+# わなを正す会話の決め手の語（図が会話の直後に置かれていることを確かめる。qa-checklist 6-2 の4.(d)）
+TRAPS = [('建物分割登記ではなく、区分建物区分登記', 'zu01_kubun_bunkatsu', '区分建物区分登記'),
+         ('行き来できないことは構造上の独立性の話', 'zu04_dokuritsusei', '構造上の独立性'),
+         ('一棟の7階を一点鎖線で描く', 'zu06_ittensasen', '一点鎖線'),
+         ('0.6＋1.0＝1.6', 'zu07_kita_kyori', '1.6'),
+         ('囲む壁ごと除く', 'zu10_ps_ayamari', 'Dタイプ側の面'),
+         ('引き算で出さず、自分で測る', 'zu13_kensan', '検算'),
+         ('安田結さんはまだ名義人ではない', 'toukishinseisho_machigai_shinseinin', '白石恵さん1人'),
+         ('登記識別情報・印鑑証明書は要らない', 'toukishinseisho_machigai_tenpu', '抵当権消滅承諾書'),
+         ('抵当権消滅承諾書を付ける', 'zu15_teitouken', '第40条'),
+         ('「不要」ではない', 'toukishinseisho_machigai_menkyo', '金2,000円'),
+         ('名称を書くので構造・床面積を省略', 'zu16_ittou_shouryaku', '省略できる'),
+         ('702の行だけが', 'toukishinseisho_machigai_genin', '何番を区分'),
+         ('『③令和8年10月18日変更』', 'toukishinseisho_machigai_shikichiken', '変更の日'),
+         ('規約で定めた70分の3・70分の2', 'zu17_wariai', '規約証明書'),
+         ('公正証書は分譲前の分譲業者のもの', 'zu18_kiyaku_shoumei', '合意書')]
 matome = ART[ART.index('「最後にまとめます！'):]
 items = re.findall(r'^- (.+)$', matome, flags=re.M)
 ok(len(items) == len(TRAPS), f'まとめのわな{len(items)}項目＝対応表{len(TRAPS)}')
-ok(len({t for _, t in TRAPS}) == len(TRAPS), 'わな→図に重複なし')
-for s, fig in TRAPS:
-    ok(any(s in it for it in items) and fig in ORDER, f'わな「{s}」→ {fig}')
+ok(len({t for _, t, _ in TRAPS}) == len(TRAPS), 'わな→図に重複なし')
+alines = ART.splitlines()
+mark_idx = [i for i, ln in enumerate(alines) if ln.startswith('> 【画像挿入】')]
+for s_, fig, key in TRAPS:
+    ok(any(s_ in it for it in items) and fig in ORDER, f'わな「{s_}」→ {fig}')
+    if fig in ORDER:
+        i = mark_idx[ORDER.index(fig)]
+        prev = next(ln for ln in reversed(alines[:i]) if ln.strip())
+        ok(key in prev, f'{fig} のマーカーの直前の行に「{key}」（図が訂正の会話の直後にある）')
 
 # ---- 4. 付属プロンプト・HTML ----
 P = {n: open(os.path.join(HERE, f'prompt_R8_dai22mon_{n}.md'), encoding='utf-8').read()
@@ -157,6 +190,24 @@ for s in ['区分建物区分登記', '抵当権消滅承諾書', '金2,000円',
           '③6番3の<br>702を区分', '6番3の701<br>から区分', '③令和8年10月18日変更', '平成12年6月17日敷地権', '70分の3', '70分の2', '白石恵',
           '〇〇地方法務局〇〇支局', '（略）', '70分の5']:
     has(HT, s, '申請書HTML')
+import glob as _g
+for p in sorted(_g.glob(os.path.join(ZU, 'R8_dai22mon_toukishinseisho_*.html'))):
+    h = open(p, encoding='utf-8').read()
+    ok('第1欄' not in h and '第2欄' not in h, f'{os.path.basename(p)} に「第○欄」の見出しがない（申請書の画像）')
+for p in sorted(_g.glob(os.path.join(ZU, 'R8_dai22mon_*.html'))):
+    ok('style="height:' not in open(p, encoding='utf-8').read(), f'{os.path.basename(p)} に固定の style="height:" がない')
+# 列の幅：アガルートの解答例（答案用紙の再現、A3のベクターPDF）の縦の罫線のx座標（mm、get_drawings で読んだ値）
+MEAS = {'KUBUN_PCT': (235.7, 243.0, 267.2, 280.9, 295.7, 315.7, 348.2, 368.2, 378.2, 402.0),
+        'SHIKI_PCT': (235.7, 243.0, 267.2, 303.4, 345.3, 402.0),
+        'ITTOU_PCT': (62.2, 74.8, 90.9, 105.3, 138.8, 154.4, 184.0, 198.9, 223.2),
+        'TOCHI_PCT': (62.2, 74.8, 96.4, 134.4, 154.4, 184.0, 198.9, 223.2)}
+MK = open(os.path.join(ZU, 'make_R8_dai22mon_shinseisho_gazou.py'), encoding='utf-8').read()
+for name, xs in MEAS.items():
+    m_ = re.search(name + r' = \(([^)]*)\)', MK)
+    pct = [float(v) for v in m_.group(1).split(',')] if m_ else []
+    want = [(xs[i + 1] - xs[i]) / (xs[-1] - xs[0]) * 100 for i in range(len(xs) - 1)]
+    ok(len(pct) == len(want) and all(abs(p - w) < 0.3 for p, w in zip(pct, want)) and abs(sum(pct) - 100) < 0.3,
+       f'{name} が原本の罫線の比と一致（{[round(w, 1) for w in want]}）')
 for n in ['dai1ran_kansei', 'dai4ran_kansei']:
     h = open(os.path.join(ZU, f'R8_dai22mon_{n}.html'), encoding='utf-8').read()
     ok('第1欄' in h or '第4欄' in h, f'{n} の見出し')

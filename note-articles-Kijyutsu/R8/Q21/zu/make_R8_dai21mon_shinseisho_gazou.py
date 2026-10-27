@@ -43,12 +43,12 @@ body {{ background: #fff; width: 1200px; font-family: "Noto Serif CJK JP", "IPAM
 .dairi .lab {{ padding-top: 0; }}
 .dairi .ryaku {{ flex: 1; text-align: center; }}
 table.land {{ width: 100%; border-collapse: collapse; border: 3px solid #111; table-layout: fixed; }}
-table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 92px; vertical-align: middle; }}
+table.land td {{ border: 1.5px solid #111; font-size: 22px; padding: 0 12px; height: 132px; vertical-align: middle; }}
 table.land.compact td.vert {{ letter-spacing: 0.05em; font-size: 18px; }}
 .box.fix {{ line-height: 1.75; }}
-table.land td.head {{ height: 50px; text-align: center; font-size: 20px; }}
+table.land td.head {{ height: 46px; text-align: center; font-size: 20px; }}
 table.land td.vert {{ writing-mode: vertical-rl; text-align: center; letter-spacing: 0.9em; padding: 0; font-size: 22px; }}
-table.land td.shozai-lab {{ text-align: center; height: 76px; }}
+table.land td.shozai-lab {{ text-align: center; height: 100px; }}
 table.land td.int {{ text-align: right; border-right: 1.5px dashed #555; padding-right: 6px; }}
 table.land td.dec {{ text-align: left; border-left: 1.5px dashed #555; padding-left: 6px; }}
 table.land td.chimoku {{ text-align: center; }}
@@ -83,17 +83,23 @@ CHECK_SVG = (f'<svg class="check" width="44" height="44" viewBox="0 0 44 44"><ci
              f'stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 
+LAND_COLS_PCT = [5.88, 12.96, 2.96, 15.88, 14.17, 7.06, 41.09]   # 合計100（原本の罫線から）
+
+
 def land_table(rows, n_rows=6, shozai='Ｍ市Ａ町二丁目', compact=False):
     """土地の表示の表。rows: [(地番, 地目, 整数部, 小数部, 登記原因)]。各値は HTML（記入部分は呼び出し側で .ink を付ける）"""
-    h = [f'<table class="land{" compact" if compact else ""}"><colgroup><col style="width:6%"><col style="width:16%"><col style="width:16%">'
-         '<col style="width:14%"><col style="width:7%"><col style="width:41%"></colgroup>',
-         f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="4">{shozai}</td></tr>',
-         f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head">①地　　番</td>'
+    # 列の幅と行の高さは、解答例のPDF（ベクター）の罫線を pymupdf の get_drawings で測った値（2026-10-26）。
+    # 表の外枠 x 684.6〜1140.6pt、縦の罫線 711.4・770.5（所在の欄だけ）・784.0・856.4・921.0（点線）・953.2。
+    # 行の高さは 所在 43.1pt・見出し 19.8pt・記入行 56.7pt × 6。画像の表の幅 1060px ÷ 456pt ＝ 2.325px/pt
+    cols = ''.join(f'<col style="width:{w}%">' for w in LAND_COLS_PCT)
+    h = [f'<table class="land{" compact" if compact else ""}"><colgroup>{cols}</colgroup>',
+         f'<tr><td class="shozai-lab" colspan="2">所　在</td><td colspan="5">{shozai}</td></tr>',
+         f'<tr><td class="vert" rowspan="{n_rows + 1}">土地の表示</td><td class="head" colspan="2">①地　　番</td>'
          '<td class="head">②地　　目</td><td class="head" colspan="2">③地　　積（㎡）</td>'
          '<td class="head">登記原因及びその日付</td></tr>']
     for i in range(n_rows):
         c, m, a, b, g = rows[i] if i < len(rows) else ('', '', '', '', '')
-        h.append(f'<tr><td>{c}</td><td class="chimoku">{m}</td><td class="int">{a}</td><td class="dec">{b}</td>'
+        h.append(f'<tr><td colspan="2">{c}</td><td class="chimoku">{m}</td><td class="int">{a}</td><td class="dec">{b}</td>'
                  f'<td>{g}</td></tr>')
     h.append('</table>')
     return ''.join(h)

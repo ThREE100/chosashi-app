@@ -156,7 +156,7 @@ a = base.index('あなたは土地家屋調査士試験の教材デザイナー�
 b = base.index('---\n\n## 差し替えデータ（問題ごとにここを埋める）')
 body = base[a:b].replace('note記事【記事のタイトル】', 'note記事「' + text.splitlines()[0][2:] + '」', 1)
 judge('解説図プロンプトの本文が基本フォームと一致', body in fig)
-N_FIG = 10
+N_FIG = 21
 n_fig = len(re.findall(r'^- \*\*図\d+：', fig, re.M))
 judge(f'解説図プロンプトの図の数 {n_fig}枚（{N_FIG}枚）', n_fig == N_FIG)
 for i in range(1, N_FIG + 1):
@@ -170,9 +170,11 @@ for s in ['土地地目変更・分合筆登記', '地積測量図　登記識�
           '金2,000円', '令和５年10月16日　申請　Ａ地方法務局', '「25｜61」', '「3｜52」', '「22｜09」', '「335｜」', '「357｜59」',
           '③１番１に一部合併', '１番４から分筆して１番１に合併する部分', '②③令和５年９月20日地目変更', '③１番４から一部合併']:
     check('登記申請書', s, form, '登記申請書')
-for s in ['地積測量図　登記識別情報　代理権限証書', '地積測量図　登記識別情報　印鑑証明書　代理権限証書', '「357｜09」', '「357｜59」',
-          '335.5096500＋22.09＝357.59965', '②令和５年９月20日地目変更', '②③令和５年９月20日地目変更']:
+for s in ['地積測量図　登記識別情報　代理権限証書', '地積測量図　登記識別情報　印鑑証明書　代理権限証書', '不動産登記令第18条',
+          '添削する欄は1つだけ', '`min-height`']:
     check('添削', s, fix, '添削')
+for s in ['357｜09', '357｜59', '335.5096500', '土地の表示の1行']:
+    absent('添削（添付書類だけ）', s, fix, '添削')
 
 # ---- 追加作業（最新の指示書との照らし合わせ） ----
 # 誤った筆界（G・I）の面積が合わないこと、甲土地の裏付け
@@ -184,7 +186,7 @@ judge('甲土地と地積測量図の差 0.10', f'{area([C, D, E, F]) - 335.5096
 check('甲土地の差', '335.5096500 との差 0.10')
 # 分筆後の地積の合計と公差
 s_after = chiseki(area(N2)) + chiseki(area(N4))
-check('分筆後の合計', f'211.34 ＋ 25.61 ＝ {s_after:.2f}（登記記録 236.81 との差 {s_after - 236.81:.2f}）')
+check('分筆後の合計', f'分筆後の合計211.34 ＋ 25.61 ＝ {s_after:.2f}㎡との差は{s_after - 236.81:.2f}㎡')
 # 別解（CGから1.00m西の点と交点）
 M = C - 1j
 check('別解の点', f'C − 1i ＝（{M.real:.2f}, {M.imag:.2f}）')
@@ -219,9 +221,10 @@ for s in ['土地地目変更・分合筆登記', '地積測量図　登記識�
           '雑種地', '>335<', '>357<', '>59<', '②③令和５年９月20日地目変更<br>③１番４から一部合併']:
     check('完成形のHTML', s, kh, '完成形HTML')
 mh = open(os.path.join(HERE, 'zu', 'R5_dai21mon_toukishinseisho_machigai.html'), encoding='utf-8').read()
-for s in ['①誤答', '②添削（赤ペン）', '③正解', '地積測量図　登記識別情報　代理権限証書', '>09<', '>59<', '印鑑証明書',
-          '335.5096500＋22.09＝357.59965', '②令和５年９月20日地目変更']:
+for s in ['①誤答', '②添削（赤ペン）', '③正解', '地積測量図　登記識別情報　代理権限証書', '印鑑証明書', '不動産登記令第18条']:
     check('添削のHTML', s, mh, '添削HTML')
+for s in ['>09<', '>59<', '335.5096500', '土　地　の　表　示']:
+    absent('添削のHTML（添付書類だけ）', s, mh, '添削HTML')
 check('添削プロンプトは縦に積む版', '縦に3コマ積む', fix, '添削')
 absent('添削プロンプトに横並びの旧指示', '横1800px', fix, '添削')
 
@@ -262,21 +265,32 @@ check('登場人物（藍子）', '**藍子（アイコ）**：ブルーの細�
 from PIL import Image  # noqa: E402
 ZU = os.path.join(HERE, 'zu')
 markers = [l for l in lines if l.startswith('> 【画像挿入】')]
-PNGS = [('R5_dai21mon_zu01_zentaizu', '全体図', 'fig'),
-        ('R5_dai21mon_zu02_hikkaiten_FJ', '筆界点の判断の比較図', 'fig'),
+PNGS = [('R5_dai21mon_zu01_jikeiretsu_zentai', '全体の時系列の図', 'fig'),
+        ('R5_dai21mon_zu02_zentaizu', '全体図', 'fig'),
+        ('R5_dai21mon_zu03_chuu_shiwake', '注の仕分けの表', 'fig'),
+        ('R5_dai21mon_zu04_gappitsu_tashizan', '合筆で消えた中間の点を足して比べる図', 'fig'),
+        ('R5_dai21mon_zu05_hikkaiten_FJ', '筆界点の判断の比較図', 'fig'),
         ('R5_dai21mon_dai1ran_kansei', '第1欄（問1）の完成形', 'wide'),
-        ('R5_dai21mon_zu03_B_heikou', 'B点の求め方の図', 'fig'),
-        ('R5_dai21mon_zu09_B_betsukai', 'B点の別解の図', 'fig'),
-        ('R5_dai21mon_zu04_H_kousa', 'H点の求め方の図', 'fig'),
+        ('R5_dai21mon_zu06_B_heikou', 'B点の求め方の図', 'fig'),
+        ('R5_dai21mon_zu07_B_betsukai', 'B点の別解の図', 'fig'),
+        ('R5_dai21mon_zu08_H_kousa', 'H点の求め方の図', 'fig'),
         ('R5_dai21mon_dai2ran_kansei', '第2欄（問2）の完成形', 'wide'),
-        ('R5_dai21mon_zu05_bunpitsu_kukaku', '8月の分筆の区画の比較図', 'fig'),
-        ('R5_dai21mon_zu06_chiseki_sokuryouzu', '地積測量図（1番2・1番4）の完成見本', 'fig'),
-        ('R5_dai21mon_zu07_bungouhitsu', '10月16日の分合筆の図', 'fig'),
+        ('R5_dai21mon_zu09_bunpitsu_kukaku', '8月の分筆の区画の比較図', 'fig'),
+        ('R5_dai21mon_zu10_daikei_menseki', '分筆後の面積を台形で出す図', 'fig'),
+        ('R5_dai21mon_zu11_kousa', '地積更正の判断の数直線', 'fig'),
+        ('R5_dai21mon_zu12_kaku_kakanai', '地積測量図に書くもの・書かないもの', 'fig'),
+        ('R5_dai21mon_zu13_G_kakanai', 'G点の扱いの図', 'fig'),
+        ('R5_dai21mon_zu14_chiseki_sokuryouzu', '地積測量図（1番2・1番4）の完成見本', 'fig'),
+        ('R5_dai21mon_zu15_bungouhitsu_shikumi', '丸ごと合筆（誤り）と分合筆（正しい）の比較図', 'fig'),
+        ('R5_dai21mon_zu16_jikeiretsu_10gatsu', '10月16日の申請までの時系列の図', 'fig'),
+        ('R5_dai21mon_zu17_chiseki_hasuu', '1番1の地積の誤り2つと正しい求め方', 'fig'),
+        ('R5_dai21mon_zu18_tourokumenkyozei', '登録免許税の数え方の図', 'fig'),
         ('R5_dai21mon_toukishinseisho_machigai', '誤答→添削→正解の3コマ', 'tall'),
+        ('R5_dai21mon_zu19_tochi_hyouji_gyou', '土地の表示5行の整理図', 'fig'),
         ('R5_dai21mon_toukishinseisho_kansei', '登記申請書（問4）の完成形', 'tall'),
-        ('R5_dai21mon_zu08_shokken_bungouhitsu', '問5の図', 'fig'),
+        ('R5_dai21mon_zu20_shokken_bungouhitsu', '問5の図', 'fig'),
         ('R5_dai21mon_dai5ran_kansei', '第5欄（問5）の完成形', 'wide'),
-        ('R5_dai21mon_zu10_toku_junban', '本番で解く順番の図', 'fig')]
+        ('R5_dai21mon_zu21_toku_junban', '本番で解く順番の図', 'fig')]
 judge(f'画像挿入マーカーの数とPNGの数 : {len(markers)}／{len(PNGS)}', len(markers) == len(PNGS))
 for (name, key, kind), m in zip(PNGS, markers):
     path = os.path.join(ZU, name + '.png')
@@ -325,8 +339,7 @@ judge('[答案用紙2ページ目] 方位記号の印刷はない（「北」「
 for s_ in ['>②地　　目<', '>③地　　積　m²<', '>所　在<', '>土地の表示<', '>登記原因及びその日付<', '>添　付　書　類<',
            '>代　　理　　人<', '>（略）<', '>登録免許税<']:
     check('答案用紙どおりの印刷文字', s_, kh, '完成形HTML')
-for s_ in ['>②地　　目<', '>③地　　積　m²<', '>添　付　書　類<']:
-    check('答案用紙どおりの印刷文字', s_, mh, '添削HTML')
+check('答案用紙どおりの印刷文字', '>添　付　書　類<', mh, '添削HTML')
 absent('旧の見出し（かっこ付きの単位）', '（m²）', kh, '完成形HTML')
 d1h = open(os.path.join(ZU, 'R5_dai21mon_dai1ran_kansei.html'), encoding='utf-8').read()
 d2h = open(os.path.join(ZU, 'R5_dai21mon_dai2ran_kansei.html'), encoding='utf-8').read()
@@ -335,8 +348,8 @@ judge('第2欄：見出し行（斜線の欄）＋Ｂ点・Ｈ点の2行、3列'
 for s_ in ['作成者・申請人（どちらも「（略）」と印刷）、縮尺（1／250）。方位記号は印刷されていないので、自分で描く',
            '答案用紙の第3欄の枠は横約30cm・縦約23cm']:
     check('記事の第3欄の印刷の説明', s_)
-check('図6の説明文（第3欄の印刷）', '作成者・申請人が「（略）」、縮尺1/250が印刷済み', fig, '解説図')
-check('図6の説明文（第3欄の印刷）', '作成者・申請人が「（略）」、縮尺1/250が印刷済み', draw, '作図')
+check('図14の説明文（第3欄の印刷）', '作成者・申請人が「（略）」、縮尺1/250が印刷済み', fig, '解説図')
+check('図14の作図（第3欄の印刷）', '作成者・申請人の「（略）」、作成日の欄、縮尺 1／250）', draw, '作図')
 for s_ in ['touan_youshi/R5_dai21mon_touan_youshi.pdf', '「②地　　目」「③地　　積　m²」']:
     check('申請書プロンプトの出典', s_, form, '登記申請書')
 # 「仮」の形・答案用紙がリポジトリにない旨の記述が残っていない
@@ -345,11 +358,145 @@ for nm, src in [('登記申請書', form), ('添削', fix), ('解説図', fig), 
     for bad in ['仮の形', '仮の', 'リポジトリにない', 'リポジトリになく', 'ならった仮']:
         absent('仮の欄の形の記述', bad, src, nm)
 
-# ---- 図9（B点の別解）・図10（解く順番）の文言（2026-10-02追加）----
+# ---- 図7（B点の別解）・図21（解く順番）の文言 ----
 for s_ in ['C − 1i ＝（702.79, 702.62）', '本番で解く順番（問3の作図は最後に回す）', '地積測量図がなくても書ける']:
-    check('図9・図10のプロンプト', s_, fig, '解説図')
+    check('図7・図21のプロンプト', s_, fig, '解説図')
 draw_src = open(os.path.join(ZU, 'draw_R5_dai21mon_kaisetsuzu.py'), encoding='utf-8').read()
-for s_ in ["'C − 1i ＝（702.79, 702.62）\\nCGから西へ直角に1.00m'", "'図10　本番で解く順番　問3の作図は最後に回す'"]:
+for s_ in ["'C − 1i ＝（702.79, 702.62）\\nCGから西へ直角に1.00m'", "'本番で解く順番　問3の作図は最後に回す'"]:
     check('作図スクリプト', s_, draw_src, '作図')
+
+
+# ====================================================================
+# 2026-10-26：品質チェック（6-2・6-3）。わな→図の対応、図番なし、答案用紙の原本の寸法、キー列の再現
+# ====================================================================
+def prev_line(mk):
+    """マーカーの直前の発言（話者の行からマーカーまで。コードや箇条書きを含む）"""
+    k = lines.index(mk)
+    j = k - 1
+    while j >= 0 and not lines[j].startswith(('**トリ先生**', '**藍子**')):
+        j -= 1
+    return ' '.join(x for x in lines[j:k] if not x.startswith('> 【画像挿入】'))
+
+
+def marker_of(head):
+    r = [m for m in markers if m.startswith('> 【画像挿入】' + head)]
+    return r[0] if len(r) == 1 else None
+
+
+# (まとめの項目の語, マーカーの文言の頭, 図の直前の行にある決め手の語)
+TRAPS = [('**注は番号が別**', '注の仕分けの表', '調査図素図の注1〜3'),
+         ('**合筆で消えた中間の点は足して比べる**', '合筆で消えた中間の点を足して比べる図', '10.33 ＋ 10.66 ＝ 20.99'),
+         ('**筆界点は金属標のGとIじゃない**', '筆界点の判断の比較図', '- **エ**：J点'),
+         ('**BHは「CGから直角に1.00m」**', 'B点の求め方の図', '0.99m'),
+         ('**8月の1番2は西側部分そのもの**', '8月の分筆の区画の比較図', '8月に斜線部分を甲土地に入れることはできない'),
+         ('**面積は台形で**', '分筆後の面積を台形で出す図', '25.61㎡です'),
+         ('**地積更正は要らない**', '地積更正の判断の数直線', '響くの'),
+         ('**書くものと書かないもの**', '地積測量図に書くもの・書かないもの', '印刷済みなので書かない'),
+         ('**G点は8月の地積測量図に描かない**', 'G点の扱いの図', '10月の分合筆のときなの'),
+         ('**1番4を丸ごと合筆しない**', '丸ごと合筆（誤り）と分合筆（正しい）の比較図', '分合筆よ'),
+         ('**10月は地目変更も入れる**', '10月16日の申請までの時系列の図', '土地地目変更・分合筆登記'),
+         ('**地積の端数は問題文の注9で援用**', '1番1の地積の誤り2つと正しい求め方', '335.5096500'),
+         ('**登録免許税は分合筆後の2個**', '登録免許税の数え方の図', '地目変更にはかかりません'),
+         ('**合筆の添付書類**', '登記申請書「添付書類」欄の誤答→添削→正解', '印鑑証明書！'),
+         ('**土地の表示は5行**', '土地の表示5行の整理図', '準則第76条'),
+         ('**職権の分合筆は「異議がないとき」**', '問5の図', '区別しておきなさい'),
+         ]
+matome = text[text.index('## 第8章'):]
+n_trap = len(re.findall(r'^- \*\*', matome, re.M))
+# まとめの項目のうち、図で示すものは TRAPS（このほかに時間配分の箇条書き5つが同じ章にある）
+trap_items = [l for l in matome.splitlines() if l.startswith('- **') and '：' in l and not l.startswith('- **1**') and not re.match(r'- \*\*[1-5]\*\*', l)]
+judge(f'まとめのワナの数 {len(trap_items)} ＝ 対応表 {len(TRAPS)}', len(trap_items) == len(TRAPS))
+heads = [t[1] for t in TRAPS]
+judge('対応表のマーカーの頭に重複がない', len(set(heads)) == len(heads))
+for t, hd, key in TRAPS:
+    check('まとめのわな', '- ' + t)
+    mk = marker_of(hd)
+    judge(f'ワナの図がある : {t} → {hd}', mk is not None)
+    if mk:
+        judge(f'図の直前の会話に決め手の語「{key}」 : {hd}', key in prev_line(mk))
+pos = [markers.index(marker_of(h)) for h in heads if marker_of(h)]
+judge('ワナの図が記事の挿入順（まとめの順）に並ぶ', pos == sorted(pos))
+
+# 画像の中に図番がない（作図スクリプトの new_figure・suptitle の文字列）
+titled = re.findall(r"(?:new_figure|suptitle)\(\s*'([^']*)'", draw)
+judge(f'作図スクリプトのタイトル {len(titled)}個に図番がない（第3欄の地積測量図はタイトルなし）',
+      len(titled) == 20 and not [x for x in titled if re.match(r'図\d', x)])
+absent('解説図プロンプトに「図番のまま」の注記', '画像の中のタイトルは作成時の', fig, '解説図')
+
+# 会話の長さ：1段落260字以内
+long_ = [i + 1 for i, l in enumerate(lines) if l.startswith('「') and len(l) > 260]
+judge(f'セリフが260字以内 : 超えた行 {long_}', not long_)
+
+# 電卓操作のキー列を実行して直後の「表示：」と一致するか
+from keysim_note_article import simulate  # noqa: E402
+sim = simulate(os.path.join(HERE, 'note_R5_dai21mon_tochi_kaiwa_kaisetsu.md'))
+judge(f'キー列を再現した表示の数 {len(sim)}（記事の「表示：」5個）', len(sim) == 5)
+for n_, want, got, ok_ in sim:
+    judge(f'キー列の再現 {n_}行目 : 記事「{want}」／ 再現「{got}」', ok_)
+
+# ---- 試験の答案用紙の原本（touan_youshi/）の寸法を測り直し、作図・HTMLの値と比べる ----
+MM = 25.4 / 72
+
+
+def _segs(page):
+    out = []
+    for dr in page.get_drawings():
+        for it in dr['items']:
+            if it[0] == 'l':
+                out.append((it[1], it[2]))
+            elif it[0] in ('re', 'qu'):
+                r = it[1].rect if it[0] == 'qu' else it[1]
+                P_ = pymupdf.Point
+                out += [(P_(r.x0, r.y0), P_(r.x1, r.y0)), (P_(r.x1, r.y0), P_(r.x1, r.y1)),
+                        (P_(r.x1, r.y1), P_(r.x0, r.y1)), (P_(r.x0, r.y1), P_(r.x0, r.y0))]
+    return out
+
+
+def _vl(page, xmin, xmax):
+    return sorted({round(a.x * MM, 1) for a, b in _segs(page) if abs(a.x - b.x) < 0.3 and abs(a.y - b.y) * MM > 6
+                   and xmin <= a.x * MM <= xmax})
+
+
+def _hl(page, xmin, xmax):
+    return sorted({round(a.y * MM, 1) for a, b in _segs(page) if abs(a.y - b.y) < 0.3 and abs(a.x - b.x) * MM > 10
+                   and xmin <= min(a.x, b.x) * MM + 0.2 and max(a.x, b.x) * MM <= xmax + 0.2})
+
+
+vl0 = _vl(_doc[0], 230, 404)
+for c in [232.6, 242.6, 273.6, 298.6, 323.6, 340.6, 402.6]:
+    judge(f'原本の罫線に x={c}mm がある（土地の表示の表）', any(abs(c - v) < 0.3 for v in vl0))
+W = 402.6 - 232.6
+ratios = [100 * x / W for x in (242.6 - 232.6, 273.6 - 242.6, 298.6 - 273.6, 323.6 - 298.6, 340.6 - 323.6, 402.6 - 340.6)]
+html_cols = [float(x) for x in re.findall(r'<col style="width:([0-9.]+)%">', kh)]
+judge(f'土地の表示の列の幅の比（原本 {[round(x, 1) for x in ratios]}）と申請書HTML {html_cols} が0.2%以内',
+      len(html_cols) == 6 and all(abs(a_ - b_) < 0.2 for a_, b_ in zip(ratios, html_cols)))
+# 第1欄・第5欄の記号の列10.2%、第2欄の3列
+for nm in ('R5_dai21mon_dai1ran_kansei', 'R5_dai21mon_dai5ran_kansei'):
+    hh_ = open(os.path.join(ZU, nm + '.html'), encoding='utf-8').read()
+    cw_ = [float(x) for x in re.findall(r'<col style="width:([0-9.]+)%">', hh_)]
+    judge(f'{nm} の列の幅 {cw_}（記号の列と記入の列が交互）', len(cw_) == 4 and cw_[0] < 11 and cw_[1] > 38)
+cw2 = [float(x) for x in re.findall(r'<col style="width:([0-9.]+)%">', d2h)]
+judge(f'第2欄HTMLの列の幅 {cw2}（3列が等幅）', len(cw2) == 3 and all(abs(c - 33.3) < 0.2 for c in cw2))
+# 枠の高さは min-height（固定の height を残さない）
+for nm, hh_ in [('完成形', kh), ('添削', mh)]:
+    absent(f'{nm}HTMLに style="height: が残っていない', 'style="height:', hh_, f'{nm}画像')
+    absent(f'{nm}HTMLに「第○欄」の見出しがない', '第4欄', hh_, f'{nm}画像')
+for nm, v_ in [('登記の目的・申請人・登録免許税', 'min-height:125px'), ('添付書類', 'min-height:178px')]:
+    check(f'完成形HTML：{nm}の枠は原本の18mm・28mmの比', v_, kh, '完成形画像')
+check('添削HTML：添付書類の枠は原本の28mmの比', 'min-height:178px', mh, '添削画像')
+# 第3欄の枠（原本の2ページ目）と作図スクリプトの値
+vv, hh2 = _vl(_doc[1], 80, 383), _hl(_doc[1], 80.6, 382.6)
+judge('原本の第3欄の枠 x 80.6〜382.6mm', any(abs(80.6 - v) < 0.3 for v in vv) and any(abs(382.6 - v) < 0.3 for v in vv))
+judge('原本の第3欄の枠 y 25.8〜256.8mm', any(abs(25.8 - v) < 0.3 for v in hh2) and any(abs(256.8 - v) < 0.3 for v in hh2))
+check('作図の枠の寸法（原本の測定値）', 'ORIG_FRAME_MM=(80.6,25.8,382.6,256.8)', re.sub(r'\s', '', draw), '作図')
+check('作図の用紙の外枠（原本の測定値）', 'ORIG_SHEET_MM=(56.3,12.2,406.9,274.8)', re.sub(r'\s', '', draw), '作図')
+judge('枠 横302mm・縦231mm（1/250で横75.5m・縦57.75m）にT1・T2を入れた図（東西23.26m・南北12.65m）が収まる',
+      abs((382.6 - 80.6) / 4 - 75.5) < 1e-9 and 23.26 < 75.5 and 12.65 < 57.75)
+# 解説図の固定配置は目視確認（自動検査の対象外）したか
+check('整理図は目視確認の対象', '整理図（固定配置）', open(os.path.join(ZU, 'draw_R5_dai21mon_kaisetsuzu.py'), encoding='utf-8').read(), '作図')
+# フォント
+from zu_helpers import setup_font as _sf  # noqa: E402
+_fn = _sf()
+judge(f'作図のフォントが Noto Sans CJK JP（実際: {_fn}）', 'Noto' in _fn)
 
 print('NG件数:', ng)

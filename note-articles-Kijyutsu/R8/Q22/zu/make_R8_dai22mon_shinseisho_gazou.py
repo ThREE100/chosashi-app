@@ -63,6 +63,13 @@ td.note2 {{ font-family: {SANS}; font-size: 14px !important; color: #555; }}
 .bubrow {{ margin: 14px 0 0; text-align: right; }}
 .bubrow .bubble {{ text-align: left; }}
 .good {{ outline: 3px solid {GREEN}; outline-offset: 4px; background: #f1faf2; }}
+/* 問1・問4の解答欄の行の高さ（表のセルの height は最小の高さとして働く。原本の行は問1が15mm・問4が14mm） */
+table.t td.q1 {{ height: 110px; font-size: 24px; }}
+table.t td.q1a {{ font-size: 28px; padding-left: 40px; }}
+.q1w {{ display: flex; justify-content: space-between; align-items: baseline; }}
+.dok {{ font-size: 22px; }}
+table.t td.q4 {{ height: 84px; font-size: 24px; }}
+table.t td.q4a {{ font-size: 26px; padding-left: 28px; }}
 .tall {{ min-height: 1300px; display: flex; flex-direction: column; justify-content: space-around; }}
 '''
 
@@ -114,8 +121,22 @@ def r(s_):   # 答案用紙に（略）と印刷された欄に書いた自力�
     return f'{RYAKU}<br>{ink(s_)}' if s_ else RYAKU
 
 
-KUBUN_COLS = ('<colgroup><col style="width:4%"><col style="width:13%"><col style="width:8%"><col style="width:8%">'
-              '<col style="width:11%"><col style="width:17%"><col style="width:12%"><col style="width:7%"><col style="width:20%"></colgroup>')
+# 列の幅は、アガルートの解答例（答案用紙の再現、A3のベクターPDF）の縦の罫線のx座標（mm）から測った比（2026-10-26）。
+# 区分した建物の表示：235.7・243.0・267.2・280.9・295.7・315.7・348.2・368.2・378.2・402.0
+KUBUN_PCT = (4.4, 14.6, 8.2, 8.9, 12.0, 19.5, 12.0, 6.0, 14.4)
+# 敷地権の表示：235.7・243.0・267.2・303.4・345.3・402.0
+SHIKI_PCT = (4.4, 14.6, 21.8, 25.2, 34.0)
+# 一棟の建物の表示：62.2・74.8・90.9（所在の見出し）・105.3・138.8・154.4・184.0・198.9・223.2
+ITTOU_PCT = (7.8, 10.0, 8.9, 20.8, 9.7, 18.4, 9.3, 15.1)
+# 敷地権の目的である土地の表示：62.2・74.8・96.4・134.4・154.4・184.0・198.9・223.2
+TOCHI_PCT = (7.8, 13.4, 23.6, 12.4, 18.4, 9.3, 15.1)
+
+
+def cols(pct):
+    return '<colgroup>' + ''.join(f'<col style="width:{p}%">' for p in pct) + '</colgroup>'
+
+
+KUBUN_COLS = cols(KUBUN_PCT)
 KUBUN_HEAD = ('<tr><td class="vert" rowspan="{n}">区分した建物の表示</td><td class="head">家屋<br>番号</td>'
               '<td class="head">建物の<br>名称</td><td class="head" style="font-size:12px">主たる<br>建物又は<br>附属建物</td>'
               '<td class="head">①種類</td><td class="head">②構　造</td><td class="head" colspan="2">③床面積<br>㎡</td>'
@@ -135,8 +156,7 @@ def kubun_table(r0g, r1g, r2g, good=False):
     return f'<table class="t{g}">{KUBUN_COLS}{KUBUN_HEAD.format(n=4)}{rows}</table>'
 
 
-SHIKI_COLS = ('<colgroup><col style="width:4%"><col style="width:15%"><col style="width:22%"><col style="width:25%">'
-              '<col style="width:34%"></colgroup>')
+SHIKI_COLS = cols(SHIKI_PCT)
 
 
 def shiki_table(g1, g2, good=False):
@@ -150,16 +170,14 @@ def shiki_table(g1, g2, good=False):
             f'<td class="head">②敷地権の種類</td><td class="head">③敷地権の割合</td><td class="head">原因及びその日付</td></tr>{rows}</table>')
 
 
-ITTOU = ('<table class="t"><colgroup><col style="width:6%"><col style="width:13%"><col style="width:17%"><col style="width:20%">'
-         '<col style="width:5%"><col style="width:19%"><col style="width:5%"><col style="width:15%"></colgroup>'
+ITTOU = (f'<table class="t">{cols(ITTOU_PCT)}'
          f'<tr><td class="vert" rowspan="5">一棟の建物の表示</td><td class="head">所　在</td><td class="e" colspan="6">{r(SHOZAI)}</td></tr>'
          f'<tr><td class="head" colspan="2">建物の名称</td><td class="e" colspan="5">{ink(MEISHOU)}</td></tr>'
          '<tr><td class="head" colspan="2">①構　造</td><td class="head" colspan="4">②床　面　積　㎡</td><td class="head">原因及び<br>その日付</td></tr>'
          f'<tr><td class="e c" colspan="2">{RYAKU}</td><td class="e c">{RYAKU}</td><td class="e"></td><td class="e c">{RYAKU}</td>'
          '<td class="e"></td><td class="e"></td></tr>'
          '<tr><td class="note2" colspan="7">①構造・②床面積は、建物の名称を書くので記載を省略できる（不動産登記令第3条第8号ヘ）。登記記録の抜粋も「床面積（省略）」</td></tr></table>')
-TOCHI = ('<table class="t"><colgroup><col style="width:6%"><col style="width:12%"><col style="width:30%"><col style="width:11%">'
-         '<col style="width:14%"><col style="width:7%"><col style="width:20%"></colgroup>'
+TOCHI = (f'<table class="t">{cols(TOCHI_PCT)}'
          '<tr><td class="vert" rowspan="2" style="font-size:14px">敷地権の目的である土地の表示</td><td class="head">①土地の符号</td>'
          '<td class="head">②所在及び地番</td><td class="head">③地目</td><td class="head" colspan="2">④地積　㎡</td>'
          '<td class="head">原因及び<br>その日付</td></tr>'
@@ -167,7 +185,6 @@ TOCHI = ('<table class="t"><colgroup><col style="width:6%"><col style="width:12%
          f'<td class="e int">{r("233")}</td><td class="e dec">{ink("75")}</td><td class="e"></td></tr></table>')
 
 kansei = page(f"""<div class="page">
-<div class="ranlab">第2欄</div>
 <div class="title">登記申請書</div>
 {field('登記の目的', ink(MOKUTEKI))}
 {field('添　付　書　類', ink(TENPU), h=96)}
@@ -181,7 +198,7 @@ kansei = page(f"""<div class="page">
 {kubun_table('', ink(G701), ink(G702))}
 {shiki_table(ink(G_HEN), ink(G_SHIKI))}
 <div class="caption">令和8年度 土地家屋調査士試験 第22問 問2 登記申請書（区分建物区分登記）完成形<br>
-A3横の答案用紙の左の列（第2欄）の下に、右の列（区分した建物の表示・敷地権の表示）を積んだ形。
+A3横の答案用紙の左の列（登記申請書）の下に、右の列（区分した建物の表示・敷地権の表示）を積んだ形。
 灰色の（略）は答案用紙の印刷で、その欄にも自力で解いた答えを記入した</div>
 </div>""")
 
@@ -222,8 +239,8 @@ m_menkyo = three(
 # ---- 添削4：区分した建物の表示の原因 ----
 m_genin = three(
     '区分した建物の表示',
-    kubun_table(ink('6番3の701、<br>6番3の702に区分'), ink(G702), ink(G702)),
-    kubun_table('<span class="ink strike">6番3の701、<br>6番3の702に区分</span>',
+    kubun_table(ink('6番3の701、<br>6番3の702<br>に区分'), ink(G702), ink(G702)),
+    kubun_table('<span class="ink strike">6番3の701、<br>6番3の702<br>に区分</span>',
                 '<span class="ink strike">6番3の701<br>から区分</span><br><span class="red">' + G701 + '</span>', ink(G702))
     + '<div class="bubrow"><span class="bubble">区分建物を区分すると、701の登記記録は残る（不動産登記規則第129条第3項・第4項）。<br>'
       '残る（イ）の行は「③702を区分」、新しくできる（ロ）の行だけが「701から区分」</span></div>',
@@ -244,9 +261,9 @@ m_shikichiken = three(
 # ---- 第1欄（問1） ----
 dai1 = page(f"""<div class="page">
 <div class="ranlab">第1欄</div>
-<table class="t"><colgroup><col style="width:9%"><col style="width:20%"><col style="width:16%"><col style="width:9%"><col style="width:30%"><col style="width:16%"></colgroup>
-<tr><td class="c" style="height:110px;font-size:24px">①</td><td class="c" style="font-size:28px">{ink('利用上')}</td><td style="font-size:22px">の独立性</td>
-<td class="c" style="font-size:24px">②</td><td class="c" style="font-size:28px">{ink('構造上')}</td><td style="font-size:22px">の独立性</td></tr>
+<table class="t">{cols((10.4, 39.6, 10.4, 39.6))}
+<tr><td class="c q1">①</td><td class="q1a"><div class="q1w">{ink('利用上')}<span class="dok">の独立性</span></div></td>
+<td class="c q1">②</td><td class="q1a"><div class="q1w">{ink('構造上')}<span class="dok">の独立性</span></div></td></tr>
 </table>
 <div class="caption">令和8年度 土地家屋調査士試験 第22問 第1欄（問1）解答例</div></div>""")
 
@@ -254,9 +271,9 @@ dai1 = page(f"""<div class="page">
 dai4 = page(f"""<div class="page">
 <div class="ranlab">第4欄</div>
 <table class="t"><colgroup><col style="width:32%"><col style="width:68%"></colgroup>
-<tr><td class="c" style="height:84px;font-size:24px">（ア）</td><td style="font-size:26px;padding-left:28px">{ink('床面積')}</td></tr>
-<tr><td class="c" style="height:84px;font-size:24px">（イ）</td><td style="font-size:26px;padding-left:28px">{ink('議事録')}</td></tr>
-<tr><td class="c" style="height:84px;font-size:24px">（ウ）</td><td style="font-size:26px;padding-left:28px">{ink('合意書')}</td></tr>
+<tr><td class="c q4">（ア）</td><td class="q4a">{ink('床面積')}</td></tr>
+<tr><td class="c q4">（イ）</td><td class="q4a">{ink('議事録')}</td></tr>
+<tr><td class="c q4">（ウ）</td><td class="q4a">{ink('合意書')}</td></tr>
 </table>
 <div class="caption">令和8年度 土地家屋調査士試験 第22問 第4欄（問4）解答例</div></div>""")
 

@@ -11,8 +11,8 @@
 保存先の階層構造、`qa-checklist-kijutsu.md` によるダブルチェック、`main` へのコミットという運用は両方共通です。
 
 **全年度の照らし直し（2026-10-02）**：会話形式の全36記事（第21問・第22問の H20〜R7）を、その時点の最新の執筆プロンプト・チェックリストに照らして更新した。どの年度も、記事の画像挿入マーカー（note見出し画像を除く）と `zu/` のPNGが記事の順に1対1で対応し、照合スクリプトがそれを確かめる。下のフォルダ構成の各年度の「解説図○枚」などの枚数はこの照らし直しの前の記述のことがあるので、今の枚数（マーカー＝PNGの数）はこちらを正とする。
-- 第21問：H20 31、H21 31、H22 30、H23 29、H24 21、H25 25、H26 22、H27 15、H28 15、H29 24、H30 15、R1 17、R2 22、R3 16、R4 17、R5 15、R6 17、R7 28、R8 33
-- 第22問：H20 12、H21 24、H22 28、H23 26、H24 21、H25 27、H26 19、H27 12、H28 12、H29 20、H30 12、R1 11、R2 22、R3 12、R4 12、R5 12、R6 12、R7 27、R8 26（R8は2026-10-18に自力で解いて作成し、2026-10-20にアガルートの解答例〈答案用紙の再現つき〉と照合。2026-10-21に建物図面を説明図と記入の完成形の2枚に分けた）（2026-10-08の照らし直しで、R7は解説図4枚・添削3枚〈2026-10-26にさらに解説図9枚〉、H29は解説図7枚・添削2枚を足した。2026-10-16にH25は解説図3枚・添削3枚を足した）
+- 第21問：H20 31、H21 31、H22 30、H23 29、H24 21、H25 25、H26 22、H27 15、H28 15、H29 24、H30 15、R1 17、R2 30、R3 33、R4 41、R5 26、R6 34、R7 28、R8 39
+- 第22問：H20 37、H21 24、H22 28、H23 26、H24 21、H25 27、H26 19、H27 12、H28 12、H29 20、H30 12、R1 11、R2 25、R3 33、R4 26、R5 32、R6 31、R7 27、R8 27（R8は2026-10-18に自力で解いて作成し、2026-10-20にアガルートの解答例〈答案用紙の再現つき〉と照合。2026-10-21に建物図面を説明図と記入の完成形の2枚に分けた）（2026-10-08の照らし直しで、R7は解説図4枚・添削3枚〈2026-10-26にさらに解説図9枚〉、H29は解説図7枚・添削2枚を足した。2026-10-16にH25は解説図3枚・添削3枚を足した）
 
 ## フォルダ構成
 
@@ -33,7 +33,10 @@ note-articles-Kijyutsu/
 │   ├── calc_helpers.py                                 F-789SGの計算を再現し、記事の表示値を生成・照合するヘルパー
 │   ├── zu_helpers.py                                   土地の解説図の作図ヘルパー（座標どおりの作図、境界標の記号〈コンクリート杭・金属標・石杭・鉄鋲・基準点〉、辺長・点名・座標の吹き出しの自動配置、寸法線〈dim_line〉、重なりの自動検査）
 │   ├── keysim_note_article.py                          会話形式の記事の電卓操作のキー列をそのまま実行し、「表示：」と一致するかを確かめる（変数の記憶・使い回しも再現）
-│   └── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
+│   ├── lint_note_article.py                            note表記ルールの機械チェックと「表示：」行の一覧
+│   ├── zu_cards.py                                     固定配置の整理図（比較カード・表・時系列）の共通部品 Cards（文字の重なり・はみ出しの自動検査つき。R3/Q22で共通化）
+│   ├── audit_traps.py                                  会話形式の記事で、藍子の誤答・質問の近くに画像挿入マーカーがない箇所を洗い出す（品質チェック6-2の機械化）
+│   └── setup_env.sh                                    新しいコンテナの環境準備（日本語フォント・matplotlib・pymupdf・playwright・PILの影響・Chromiumの chrome-linux のリンク）を1本で整える（2026-10-26）
 ├── H20/
 │   ├── Q21/
 │   │   ├── note_H20_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例〈日付を平成30年などに置き換えた改題版〉と照合済み。結合トラバースのコンパスの法則によるT101・調整後のT101から後視を取り直すB点・4：5の内分点E・BCへの垂線の足F・相続人の確定〈放棄・欠格・再代襲なし・半血〉と買主の代位による土地分筆登記）
@@ -45,12 +48,12 @@ note-articles-Kijyutsu/
 │   │   └── zu/                                          解説図27枚のPNGと作図スクリプト draw_H20_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（縦長）・問1問2の欄のPNG・HTMLと生成スクリプト make_H20_dai21mon_shinseisho_gazou.py。`touan_youshi/` に答案用紙の原本（PDFとp1・p2のPNG。照合スクリプトが列の境・行の高さ・問4の枠を測って比べる）
 │   └── Q22/
 │       ├── note_H20_dai22mon_tatemono_kaisetsu.md             note記事本文（会話形式。アガルート解答例と照合済み。2階から始まる居宅部分と共同住宅部分に区分する建物区分登記、同じ専有部分の中の壁、土地の共有持分の敷地権8分の3、同一の抵当権の抹消）
-│       ├── prompt_H20_dai22mon_kaisetsuzu.md                  解説図9枚（区分の全体像・敷地の辺長確認図・建物図面・3階部分の誤り比較図・3階部分と2階部分の求積図・各階平面図の完成形・（イ）部分の求積図・本番で解く順番）作成プロンプト
+│       ├── prompt_H20_dai22mon_kaisetsuzu.md                  解説図34枚（わなごとの図。区分か分割か・注の仕分け・床面積の検算・PS・時系列・敷地の辺長確認・所在・建物図面・各階平面図は答案用紙の実寸・壁心から内法・PSの欠け・求積図・申請書の各欄・敷地権・問3・本番で解く順番）作成プロンプト（記事のマーカーは37か所）
 │       ├── prompt_H20_dai22mon_toukishinseisho_gazou.md       登記申請書（その1・その2を縦に積む）と問3の欄の画像プロンプト
 │       ├── prompt_H20_dai22mon_toukishinseisho_machigai.md    「敷地権の表示」の敷地権の割合の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
 │       ├── prompt_H20_dai22mon_miidashi_gazou.md               note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       ├── verify_H20_dai22mon.py                             記事・付属プロンプト・生成画像の数値・求積・地積の検算・解答例との一致・体裁の照合スクリプト
-│       └── zu/                                                解説図9枚のPNGと作図スクリプト draw_H20_dai22mon_kaisetsuzu.py、登記申請書の完成形（縦長1200px）・問3の欄・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_H20_dai22mon_shinseisho_gazou.py
+│       └── zu/                                                解説図34枚のPNGと作図スクリプト draw_H20_dai22mon_kaisetsuzu.py、登記申請書の完成形（縦長1200px）・問3の欄・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_H20_dai22mon_shinseisho_gazou.py。`touan_youshi/` に試験の答案用紙の原本（PDFとPNG3枚）
 ├── H21/
 │   ├── Q21/
 │   │   ├── note_H21_dai21mon_tochi_kaiwa_kaisetsu.md    note記事本文（会話形式。アガルート解答例と照合済み。幅員2.50mのH点・比例で出すI点・交換後の乙土地の面積と延長線の交点の相似で出すJ点とL点・（ロ）（ハ）の面積・地目変更（②③）と3筆の分筆・抵当権消滅承諾証明情報・地積測量図）
@@ -241,63 +244,63 @@ note-articles-Kijyutsu/
 ├── R2/
 │   ├── Q21/
 │   │   ├── note_R2_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み）
-│   │   ├── prompt_R2_dai21mon_kaiwa_kaisetsuzu.md       解説図18枚（時系列・全体図・注の仕分け・B点の座標変換・対角線で面積を出す別解・差し引く面積・G点H点の長方形・公差の判定・申請件数と登録免許税・地目・合筆の制限・申請人・（イ）の地積・分合筆の流れ・登記識別情報の整理・地積測量図に描く範囲・第4欄の地積測量図〈答案用紙の枠ごと〉・本番で解く順番）作成プロンプト（土地の基本フォームの記入済み）
+│   │   ├── prompt_R2_dai21mon_kaiwa_kaisetsuzu.md       解説図26枚（座標法の計算過程の図4枚・辺長・添付書類・分合筆の原因・土地の表示5行を2026-10-26に追加。時系列・全体図・注の仕分け・B点の座標変換・対角線で面積を出す別解・差し引く面積・G点H点の長方形・公差の判定・申請件数と登録免許税・地目・合筆の制限・申請人・（イ）の地積・分合筆の流れ・登記識別情報の整理・地積測量図に描く範囲・第4欄の地積測量図〈答案用紙の枠ごと〉・本番で解く順番）作成プロンプト（土地の基本フォームの記入済み）
 │   │   ├── prompt_R2_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。土地分合筆登記）
 │   │   ├── prompt_R2_dai21mon_toukishinseisho_machigai.md  登記申請書「土地の表示」欄（（イ）107.68→107.73、合筆後156.53→156.12）の誤答→添削→正解の画像プロンプト（3コマを縦に積んだ縦長）
 │   │   ├── prompt_R2_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_R2_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト
-│   │   └── zu/                                          解説図18枚のPNG（画像の中に図番なし）と作図スクリプト draw_R2_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像・第1欄・第3欄の完成形のPNGとHTML（R2_dai21mon_toukishinseisho_kansei／_machigai、R2_dai21mon_dai1ran_kansei／dai3ran_kansei）と生成スクリプト make_R2_dai21mon_shinseisho_gazou.py
+│   │   └── zu/                                          解説図26枚のPNG（画像の中に図番なし）と作図スクリプト draw_R2_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像・第1欄・第3欄の完成形のPNGとHTML（R2_dai21mon_toukishinseisho_kansei／_machigai、R2_dai21mon_dai1ran_kansei／dai3ran_kansei）と生成スクリプト make_R2_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_R2_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
-│       ├── prompt_R2_dai22mon_kaisetsuzu.md                   解説図15枚（家屋番号の特定・注の仕分け・住所変更の前提と義務化・解体移転とえい行移転・敷地と建物の位置・建物図面・1階2階の求積・3階の誤り比較・3階の求積・問4の完成形・所在の順序・種類・増築の併記・本番で解く順番）作成プロンプト
+│       ├── prompt_R2_dai22mon_kaisetsuzu.md                   解説図18枚（家屋番号の特定・注の仕分け・変更証明書の位置づけ・住所変更の前提と義務化・解体移転とえい行移転・座標で建物の位置を出す計算・敷地と建物の位置・建物図面・床面積に入る・入らない・1階2階の求積・3階の誤り比較・3階の求積・問4の完成形・所在の順序・種類・増築の併記・本番で解く順番）作成プロンプト
 │       ├── prompt_R2_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形。第1欄の滅失登記・第3欄の表題登記、第2欄の完成形）
 │       ├── prompt_R2_dai22mon_toukishinseisho_machigai.md     登記申請書の誤答→添削→正解の画像プロンプト（第3欄の原因、第1欄の申請人・添付書類・建物の表示の欄ごとに4枚。3コマを縦に積んだ縦長）
 │       ├── prompt_R2_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       ├── verify_R2_dai22mon.py                              記事・付属プロンプト・画像の数値・求積・体裁の照合スクリプト
-│       └── zu/                                                解説図15枚のPNGと作図スクリプト draw_R2_dai22mon_kaisetsuzu.py（fit(..., pad_aspect=True)。建物図面・問4の完成形は試験の答案用紙と同じ寸法の第4欄に縮尺どおりの実際の大きさで）。登記申請書の完成形2枚（第1欄・第3欄、縦長1200px）・第2欄の完成形・添削画像4枚（縦3コマ）のPNG・HTMLと生成スクリプト make_R2_dai22mon_shinseisho_gazou.py
+│       └── zu/                                                解説図18枚のPNGと作図スクリプト draw_R2_dai22mon_kaisetsuzu.py（fit(..., pad_aspect=True)。建物図面・問4の完成形は試験の答案用紙と同じ寸法の第4欄に縮尺どおりの実際の大きさで）。登記申請書の完成形2枚（第1欄・第3欄、縦長1200px）・第2欄の完成形・添削画像4枚（縦3コマ）のPNG・HTMLと生成スクリプト make_R2_dai22mon_shinseisho_gazou.py
 ├── R3/
 │   ├── Q21/
 │   │   ├── note_R3_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み。相続人の1人が他の相続人に代位する分筆）
-│   │   ├── prompt_R3_dai21mon_kaiwa_kaisetsuzu.md       解説図11枚（全体図・A点・C点・H点・L点・地図に準ずる図面・公差・分筆の地番・代位の関係図・地積測量図・解く順番）作成プロンプト
+│   │   ├── prompt_R3_dai21mon_kaiwa_kaisetsuzu.md       解説図26枚（時系列・注の仕分け・A点・C点・H点の判断と交点の比・L点・地図に準ずる図面・閉鎖と保存期間・3区画の面積・精度区分・公差・代位の関係図・相続の要否・分筆前の行の地積・辺長・書くもの・作図の範囲・地積測量図・解く順番）作成プロンプト
 │   │   ├── prompt_R3_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。答案用紙どおり登録免許税が申請人の枠より前）
-│   │   ├── prompt_R3_dai21mon_toukishinseisho_machigai.md  登記申請書「添付書類」欄と申請人の枠（代位）の誤答→添削→正解の画像プロンプト
+│   │   ├── prompt_R3_dai21mon_toukishinseisho_machigai.md  登記申請書の申請人・添付書類・登録免許税・土地の表示（登記原因）の欄ごとの誤答→添削→正解の画像プロンプト（4枚）
 │   │   ├── prompt_R3_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_R3_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト
 │   │   └── zu/                                          解説図11枚のPNGと作図スクリプト draw_R3_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像（縦長）のPNG・HTMLと生成スクリプト make_R3_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_R3_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
-│       ├── prompt_R3_dai22mon_kaisetsuzu.md                   解説図7枚（区分の全体像・敷地辺長図・建物図面・壁心/内法の誤り比較図・1階/2階求積図・問2の求積図）作成プロンプト
+│       ├── prompt_R3_dai22mon_kaisetsuzu.md                   解説図30枚（時系列・区分か分割か・申請人・種類・全体像・注の仕分け・敷地辺長図・建物図面・所在・検算の罠・内法の拾い直し・求積図・各階平面図・敷地権・添付書類・登録免許税・構造・Ⓐの扱い・問2の求積図など）作成プロンプト
 │       ├── prompt_R3_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形。第1欄をA3横の答案用紙の左の列→右の列の順に縦に積む。第2欄の完成形も）
 │       ├── prompt_R3_dai22mon_toukishinseisho_machigai.md     登記申請書「区分した建物の表示」の原因欄の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
 │       ├── prompt_R3_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       ├── verify_R3_dai22mon.py                              記事・付属プロンプト・画像・HTMLの数値・求積・体裁の照合スクリプト
-│       └── zu/                                                解説図7枚のPNGと作図スクリプト draw_R3_dai22mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形（第1欄、縦長1200px）・第2欄の完成形・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_R3_dai22mon_shinseisho_gazou.py
+│       └── zu/                                                解説図30枚のPNGと作図スクリプト draw_R3_dai22mon_kaisetsuzu.py（tools/zu_helpers.py・tools/zu_cards.py を使用。建物図面・各階平面図は答案用紙の原本の寸法で実寸）。登記申請書の完成形（第1欄、縦長1200px）・第2欄の完成形・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_R3_dai22mon_shinseisho_gazou.py
 ├── R4/
 │   ├── Q21/
 │   │   ├── note_R4_dai21mon_tochi_kaiwa_kaisetsu.md      note記事本文（会話形式。アガルート解答例と照合済み）
-│   │   ├── prompt_R4_dai21mon_kaiwa_kaisetsuzu.md        解説図10枚（全体図・AB線とEFGの比較・合成図の裏付け・P点・I点J点・筆界特定・公差・分筆と地番・地積測量図・本人確認情報）作成プロンプト
+│   │   ├── prompt_R4_dai21mon_kaiwa_kaisetsuzu.md        解説図32枚（時系列・注の仕分け・全体図・座標法の計算過程・AB線とEFGの比較・合成図の裏付け・筆界と所有権界・P点・J点・I点・筆界特定・部分ごとの地目・登記の目的・地番・（イ）（ロ）の面積・端数・精度区分・公差・分筆前の行・（イ）の行・（ロ）の行・登録免許税・添付書類・辺長・分筆線AH・書くもの書かないもの・地積測量図・本人確認情報・解く順番）作成プロンプト
 │   │   ├── prompt_R4_dai21mon_toukishinseisho_gazou.md   登記申請書画像プロンプト（完成形。土地一部地目変更・分筆登記）
-│   │   ├── prompt_R4_dai21mon_toukishinseisho_machigai.md  登記申請書「登記の目的」と（イ）（ロ）の行の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
+│   │   ├── prompt_R4_dai21mon_toukishinseisho_machigai.md  登記申請書の欄ごとの誤答→添削→正解の画像プロンプト（登記の目的・1行目の地積・（イ）の行の原因・（ロ）の行の地目・登録免許税の5枚。3コマを縦に積む）
 │   │   ├── prompt_R4_dai21mon_miidashi_gazou.md           note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_R4_dai21mon_kaiwa.py                   記事・付属プロンプトの数値・体裁の照合スクリプト
-│   │   └── zu/                                           解説図10枚のPNGと、作図スクリプト draw_R4_dai21mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形・添削画像（R4_dai21mon_toukishinseisho_kansei／machigai の PNG・HTML、縦長1200px）と生成スクリプト make_R4_dai21mon_shinseisho_gazou.py
+│   │   └── zu/                                           解説図32枚のPNG（タイトルに図番なし。地積測量図は答案用紙の第4欄の枠の実寸）と、作図スクリプト draw_R4_dai21mon_kaisetsuzu.py（fit(..., pad_aspect=True)）。登記申請書の完成形・添削画像5枚・第1欄・第2欄・第5欄（R4_dai21mon_toukishinseisho_kansei／machigai_* ／dai*ran_kansei の PNG・HTML。列の幅と行の高さは原本の答案用紙から測った値）と生成スクリプト make_R4_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_R4_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
-│       ├── prompt_R4_dai22mon_kaisetsuzu.md                   解説図6枚（工事前後比較図・敷地辺長図・建物図面・1階/2階求積図・車庫の誤り比較図）作成プロンプト
+│       ├── prompt_R4_dai22mon_kaisetsuzu.md                   解説図22枚（時系列・工事前後比較図・問2・敷地辺長図・斜めの辺BCまでの距離・所在の確認・建物図面・注の仕分け・壁心・1階/2階求積図・点線・車庫の誤り比較図・3本の線・各階平面図・添付書類・住所と所在・登録免許税・符号・権原・付合・解く順番）作成プロンプト
 │       ├── prompt_R4_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形）
 │       ├── prompt_R4_dai22mon_toukishinseisho_machigai.md     登記申請書「原因及びその日付」欄の誤答→添削→正解の画像プロンプト
 │       ├── prompt_R4_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │       ├── verify_R4_dai22mon.py                              記事・付属プロンプト・画像の数値・求積・体裁の照合スクリプト
-│       └── zu/                                                画像（解説図6枚・登記申請書の完成形・添削・第2欄・第3欄のPNGとHTML、作図・書き出しスクリプト）
+│       └── zu/                                                画像（解説図22枚・登記申請書の完成形・添削・第2欄・第3欄のPNGとHTML、作図・書き出しスクリプト。申請書の列の幅は答案用紙の罫線から測った9列）
 ├── R5/
 │   ├── Q21/
 │   │   ├── note_R5_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み）
-│   │   ├── prompt_R5_dai21mon_kaiwa_kaisetsuzu.md       解説図8枚（全体図・筆界点F/Jの比較・B点・H点・分筆の区画の比較・地積測量図・分合筆・職権の分合筆）作成プロンプト（土地の基本フォームの記入済み）
+│   │   ├── prompt_R5_dai21mon_kaiwa_kaisetsuzu.md       解説図21枚（時系列・全体図・注の仕分け・足して比べる・筆界点F/Jの比較・B点とその別解・H点・分筆の区画の比較・台形の面積・公差・書く書かない・G点・地積測量図〈答案用紙の第3欄の枠〉・分合筆・10月の時系列・地積の端数・登録免許税・土地の表示5行・職権の分合筆・解く順番）作成プロンプト（土地の基本フォームの記入済み）
 │   │   ├── prompt_R5_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（完成形。地目変更・分合筆）
-│   │   ├── prompt_R5_dai21mon_toukishinseisho_machigai.md  登記申請書「添付書類」欄と分合筆後の1番1の行の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
+│   │   ├── prompt_R5_dai21mon_toukishinseisho_machigai.md  登記申請書「添付書類」欄の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
 │   │   ├── prompt_R5_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（1280×670px）
 │   │   ├── verify_R5_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト
-│   │   └── zu/                                          解説図8枚のPNGと作図スクリプト draw_R5_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像（縦3コマ）のPNG・HTMLと生成スクリプト make_R5_dai21mon_shinseisho_gazou.py
+│   │   └── zu/                                          解説図21枚のPNGと作図スクリプト draw_R5_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削画像（縦3コマ）・第1欄・第2欄・第5欄のPNG・HTMLと生成スクリプト make_R5_dai21mon_shinseisho_gazou.py、答案用紙の原本 touan_youshi/
 │   └── Q22/
 │       ├── note_R5_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
 │       ├── prompt_R5_dai22mon_kaisetsuzu.md                   解説図8枚（解く順番・敷地辺長図・建物図面の完成形〈答案用紙の第3欄の枠〉・誤り比較図・1階/2階求積図・各階平面図の完成形〈同〉・工事前後比較図）作成プロンプト
@@ -311,25 +314,27 @@ note-articles-Kijyutsu/
 │   │   ├── note_R6_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文（プロース形式。アガルート解答例と照合済み）
 │   │   ├── note_R6_dai21mon_tochi_kaiwa_kaisetsu.md     note記事本文（会話形式。アガルート解答例と照合済み。筆界の判断・P点・乙土地の分筆・地図に準ずる図面の訂正）
 │   │   ├── prompt_R6_dai21mon_toukishinseisho_gazou.md  登記申請書画像プロンプト（R6第21問の記入データ済み。プロース版・会話形式で共用）
-│   │   ├── prompt_R6_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」欄と「土地の表示」1行目の誤答→添削→正解の画像プロンプト（会話形式用）
+│   │   ├── prompt_R6_dai21mon_toukishinseisho_machigai.md  登記申請書「申請人」欄・「土地の表示」1行目の地積の欄ごとの誤答→添削→正解の画像プロンプト（会話形式用。欄ごとに2枚）
 │   │   ├── prompt_R6_dai21mon_miidashi_gazou.md          note見出し画像（サムネイル）作成プロンプト（会話形式用、1280×670px）
 │   │   ├── prompt_R6_dai21mon_kaisetsuzu.md             解説図（筆界のずれ・B点D点・P点・地積測量図）作成プロンプト（プロース版用）
-│   │   ├── prompt_R6_dai21mon_kaiwa_kaisetsuzu.md       解説図9枚（全体図・B点・D点・筆界の判断・P点・必要な登記・分筆の地番・地積測量図・地図訂正の申出）作成プロンプト（会話形式用。土地の基本フォームの記入済み）
+│   │   ├── prompt_R6_dai21mon_kaiwa_kaisetsuzu.md       解説図28枚（全体の時系列・注の仕分け・全体図・観測角の向き・B点・D点・合意は根拠にならない・残地・一直線・筆界の判断・Cのまま・P点・分筆するのは乙土地・地図訂正不要・分筆の流れ・対角線・地番・添付書類・登録免許税・土地の表示の行・辺長・書く書かない・C点は描かない・地積測量図〈第4欄の枠の中〉・地図の区画・申出権者と職権・第5項・解く順番）作成プロンプト（会話形式用。土地の基本フォームの記入済み）
 │   │   ├── verify_R6_dai21mon.py                        記事の数値・電卓表示の照合スクリプト（プロース版）
 │   │   ├── verify_R6_dai21mon_kaiwa.py                  記事・付属プロンプトの数値・体裁の照合スクリプト（会話形式）
-│   │   └── zu/                                          解説図9枚のPNGと作図スクリプト draw_R6_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削（3コマを縦に積んだ縦長）のPNG・HTMLと生成スクリプト make_R6_dai21mon_shinseisho_gazou.py
+│   │   ├── touan_youshi/                                試験の答案用紙の原本PDF（2026-10-26受領。罫線を get_drawings で測り、作図・HTMLの寸法と照合）
+│   │   └── zu/                                          解説図28枚のPNG（画像の中に図番なし）と作図スクリプト draw_R6_dai21mon_kaisetsuzu.py、第1欄・第2欄・第5欄・登記申請書の完成形・添削2枚（3コマを縦に積んだ縦長）のPNG・HTMLと生成スクリプト make_R6_dai21mon_shinseisho_gazou.py
 │   └── Q22/
 │       ├── note_R6_dai22mon_tatemono_kaisetsu.md              note記事本文（会話形式。アガルート解答例と照合済み）
-│       ├── prompt_R6_dai22mon_kaisetsuzu.md                   解説図6枚（出入り経路図・敷地辺長図・建物図面・1階誤り比較図・1階/2階求積図）作成プロンプト
+│       ├── prompt_R6_dai22mon_kaisetsuzu.md                   解説図24枚（申請の期限・注の仕分け・判定の流れ・建物図面・各階平面図の実寸の完成形ほか）作成プロンプト
 │       ├── prompt_R6_dai22mon_toukishinseisho_gazou.md        登記申請書画像プロンプト（完成形）
-│       ├── prompt_R6_dai22mon_toukishinseisho_machigai.md     登記申請書「共有者」欄の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
+│       ├── prompt_R6_dai22mon_toukishinseisho_machigai.md     登記申請書の欄ごとの誤答→添削→正解の画像プロンプト（共有者・所在・構造・原因の4枚。3コマを縦に積む）
 │       ├── prompt_R6_dai22mon_miidashi_gazou.md                note見出し画像（サムネイル）作成プロンプト（1280×670px）
+│       ├── touan_youshi/                                      試験の答案用紙の原本PDF（2026-10-26。ベクター）
 │       ├── verify_R6_dai22mon.py                              記事・付属プロンプト・生成画像（PNG・HTML）の数値・体裁の照合スクリプト
 │       └── zu/                                                生成済みの画像
-│           ├── draw_R6_dai22mon_kaisetsuzu.py                 解説図6枚の作図スクリプト（tools/zu_helpers.py を使用）
-│           ├── make_R6_dai22mon_shinseisho_gazou.py           申請書の完成形1枚・添削1枚の生成スクリプト（HTML＋Playwright）
-│           ├── R6_dai22mon_zu01〜zu06_*.png                   解説図6枚
-│           └── R6_dai22mon_toukishinseisho_*.png / .html      申請書の完成形と「共有者」欄の添削
+│           ├── draw_R6_dai22mon_kaisetsuzu.py                 解説図24枚の作図スクリプト（tools/zu_helpers.py を使用）
+│           ├── make_R6_dai22mon_shinseisho_gazou.py           申請書の完成形・第1欄・第4欄・添削4枚の生成スクリプト（HTML＋Playwright）
+│           ├── R6_dai22mon_zu01〜zu24_*.png                   解説図24枚
+│           └── R6_dai22mon_toukishinseisho_*.png / .html      申請書の完成形・第1欄・第4欄・添削4枚（共有者・所在・構造・原因）
 ├── R7/
 │   ├── Q21/
 │   │   ├── note_R7_dai21mon_tochi_kijutsu_kaisetsu.md   note記事本文（プロース形式。アガルート解答例と照合済み）
@@ -358,21 +363,21 @@ note-articles-Kijyutsu/
 └── R8/
     ├── Q21/
     │   ├── note_R8_dai21mon_tochi_kaiwa_kaisetsu.md       note記事本文（会話形式。問題本文だけで自分で解いて作成し、2026-10-20にアガルートの解答例と照合済み）
-    │   ├── prompt_R8_dai21mon_kaiwa_kaisetsuzu.md         解説図28枚（記事の挿入順に、時系列・全体図・注の仕分け・規則第72条第1項・確認の書類・L点・K点・K点の条件の数え方・補助線（高さの比）・座標が省略された点の5つの型・手が止まったときの手順・申請件数・合筆の制限・8月と11月の地積測量図の範囲・公差・（イ）の地積・合筆後の地積・（ロ）の原因の「分割して」・分合筆で変わる欄と地目・申請人の住所・甲区の持分と記号欄・C点・3筆の分筆・新しい地番・I点を描かない・隣接地の地番・第5欄の地積測量図・解く順番）作成プロンプト
+    │   ├── prompt_R8_dai21mon_kaiwa_kaisetsuzu.md         解説図34枚（記事の挿入順に、時系列・全体図・注の仕分け・規則第72条第1項・確認の書類・L点・K点・K点の条件の数え方・補助線（高さの比）・座標が省略された点の5つの型・線を延ばして描く・手が止まったときの手順・申請件数・合筆の制限・8月と11月の地積測量図の範囲・公差・甲土地の面積の計算（座標法5項）・（ロ）三角形の面積・（イ）の地積・合筆後の地積・（ロ）の原因の「分割して」・分合筆で変わる欄と地目・申請人の住所・合筆の登記識別情報は1筆分・甲区の持分と記号欄・C点・3筆の分筆・新しい地番・11月の分筆後の合計と公差・辺長10本の求め方・I点を描かない・隣接地の地番・第5欄の地積測量図・解く順番）作成プロンプト
     │   ├── prompt_R8_dai21mon_toukishinseisho_gazou.md    登記申請書（問3）と第1欄・第2欄・第4欄の完成形の画像プロンプト（解答例に再現された答案用紙の形）
     │   ├── prompt_R8_dai21mon_toukishinseisho_machigai.md 登記申請書「添付書類」欄の誤答→添削→正解の画像プロンプト（3コマを縦に積む）
     │   ├── prompt_R8_dai21mon_miidashi_gazou.md            note見出し画像（サムネイル）作成プロンプト（1280×670px）
     │   ├── verify_R8_dai21mon_kaiwa.py                    記事・付属プロンプト・生成画像の照合スクリプト（答えを問題文の座標から計算し直し、解答例と欄ごとに照らす）
     │   ├── douga/                                         計算過程の動画化の準備：10本の計算（C点・L点・K点・甲土地・（ロ）・（イ）・合筆後・11月の3筆・辺長10本・K点の別解〈補助線で高さの比〉）のステップごとのコマ（D0N_*/stepNN.png、1280×720）、絵コンテ kontei_R8_dai21mon_douga.md（画面の文字・ナレーション案・秒数）、試作の動画 D0N_*.mp4、生成スクリプト make_R8_dai21mon_douga.py
-    │   └── zu/                                            解説図28枚（zu01〜zu28、画像の中に図番なし）と作図スクリプト draw_R8_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削・第1欄・第2欄・第4欄のPNGとHTMLと生成スクリプト make_R8_dai21mon_shinseisho_gazou.py
+    │   └── zu/                                            解説図34枚（zu01〜zu34、画像の中に図番なし）と作図スクリプト draw_R8_dai21mon_kaisetsuzu.py、登記申請書の完成形・添削・第1欄・第2欄・第4欄のPNGとHTMLと生成スクリプト make_R8_dai21mon_shinseisho_gazou.py
     └── Q22/
         ├── note_R8_dai22mon_tatemono_kaisetsu.md           note記事本文（会話形式。自力で解いた後、アガルートの解答例と照合済み）
-        ├── prompt_R8_dai22mon_kaisetsuzu.md                解説図18枚の内容と座標（各階平面図は答案用紙の第3欄の枠の中、建物図面は拡大した説明図と、答案用紙の右半分＝A4を実寸で描いた記入の完成形）
+        ├── prompt_R8_dai22mon_kaisetsuzu.md                解説図19枚の内容と座標（各階平面図は答案用紙の第3欄の枠の中、建物図面は拡大した説明図と、答案用紙の右半分＝A4を実寸で描いた記入の完成形）
         ├── prompt_R8_dai22mon_toukishinseisho_gazou.md     登記申請書・第1欄・第4欄の記入データ（欄の形は解答例の答案用紙どおり、（略）の欄にも記入）
         ├── prompt_R8_dai22mon_toukishinseisho_machigai.md  欄ごとの添削5枚（申請人・添付書類・登録免許税・区分した建物の表示の原因・敷地権の原因）
         ├── prompt_R8_dai22mon_miidashi_gazou.md            note見出し画像（サムネイル）作成プロンプト（1280×670px）
         ├── verify_R8_dai22mon.py                           解答例の答え・自分の計算・記事・付属プロンプト・生成画像の照合スクリプト
-        └── zu/                                             生成済みの画像（解説図18枚、第1欄・第4欄・申請書の完成形、添削5枚のPNG・HTML）
+        └── zu/                                             生成済みの画像（解説図19枚、第1欄・第4欄・申請書の完成形、添削5枚のPNG・HTML）
 ```
 
 ## 使い方
