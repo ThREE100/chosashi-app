@@ -129,7 +129,7 @@ STYLE: soft Japanese watercolor-like illustration of a peaceful morning room. A 
 
 CHARACTERS (critical): Show ONE character only: the main character (MC) from the attached character-specification sheets (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Follow the sheets closely for her face, hairstyle, hair color, and proportions. OUTFIT OVERRIDE (for this series of headers only): ignore the outfit drawn on the sheets and dress her in relaxed at-home clothing: a loose, soft long-sleeve white top with evenly spaced horizontal navy-blue stripes and NO collar (a plain round crew neckline), worn the same way in every image of the series. Show her from about the waist up so the top is clearly visible; if the lower body is visible, keep it plain and simple. Her face and hairstyle must stay exactly the same in every image. Do not include トリ先生, 藍子, any other person, or any animal, and do not invent new accessories.
 
-POSE AND EXPRESSION (changes every time): The pose and facial expression change in each image of the series; do not copy the pose of another header. Only the pose and expression change, never her design. For this image: One hand on her chin in a thinking pose, the other hand holding a small blank calendar page; a focused, slightly puzzled expression with raised eyebrows.
+POSE AND EXPRESSION (changes every time): The pose and facial expression change in each image of the series; do not copy the pose of another header. Only the pose and expression change, never her design. For this image: Holding a plain coffee mug in both hands near her chest, eyes softly closed in a content smile.
 
 BACKGROUND (critical): The entire canvas must be fully opaque edge to edge. Do not generate a transparent or alpha-channel background, and do not leave blank white areas, checkerboard patterns, partially transparent areas, or unpainted edges.
 
@@ -147,8 +147,8 @@ Below the title, place a light blue rounded pill-shaped subtitle band with navy 
 The exact string Day002 is required as shown (capital D, lowercase a, y, then the digits 0, 0, 2). It is the only Latin text and the only digits allowed anywhere in the image. Preserve the punctuation and spacing exactly.
 
 TOPIC SCENES (illustration only, no text on objects):
-Left side: a small blank calendar page on the desk, beside a steaming cup of coffee
-Right side: a land plot sheet and a pencil on the desk
+Left side: a small stack of study notes on the desk.
+Right side: a small land plot model on the desk.
 Keep these details soft and slightly faded so they do not compete with the title or character.
 
 LAYOUT: Keep the title and subtitle over a clear, softly glowing area near the top center. Keep the character and all important content away from the extreme edges so the image remains readable when center-cropped. Do not add flowcharts, diamonds, arrows, check marks, or cross marks.

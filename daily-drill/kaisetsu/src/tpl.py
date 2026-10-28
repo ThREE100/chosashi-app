@@ -28,7 +28,43 @@ transparent area, and no unpainted canvas edge anywhere in the final
 image."""
 
 
+POSES = [
+    "Leaning one elbow on the desk and resting her cheek on her hand, with a gentle, relaxed smile.",
+    "Holding a plain coffee mug in both hands near her chest, eyes softly closed in a content smile.",
+    "Raising one hand in a small friendly wave toward the viewer, with a bright smile.",
+    "Pointing one finger up as if she just had a good idea, eyes wide and cheerful.",
+    "Stretching both arms up over her head, with a refreshed, happy smile.",
+    "Reading a plain blank notebook held in both hands, with a calm, focused expression.",
+    "Sitting back with her arms crossed, with a confident grin.",
+    "Tilting her head with one hand on her cheek, with a curious, slightly puzzled look.",
+    "Giving a thumbs-up with one hand, with an encouraging smile.",
+    "Holding a pen near her chin in a thinking pose, with a small smile.",
+]
+LEFT_PROPS = [
+    "a steaming cup of coffee on the desk.",
+    "a small stack of study notes on the desk.",
+    "a small potted plant on the window sill.",
+    "a pen and a plain notebook on the desk.",
+]
+MOTIFS = [  # (主題に含まれる語, 右側に置く小物1つ)
+    ("調査士", "a small surveying tripod model on the desk."),
+    ("図面", "a rolled plain drawing sheet on the desk."),
+    ("表題部", "a small land plot model on the desk."),
+    ("土地", "a small land plot model on the desk."),
+]
+
+
+def auto_scene(n, topic):
+    """ポーズ・左右の絵を番号と主題から自動で決める。ポーズは10種を順に回し、左右の絵は小物1つずつだけにする（詰め込まない）。"""
+    pose = POSES[(n - 1) % len(POSES)]
+    left = LEFT_PROPS[(n - 1) % len(LEFT_PROPS)]
+    right = next((m for k, m in MOTIFS if k in topic), "a small house model on the desk.")
+    return left, right, pose
+
+
 def header(n, t1, t2, topic, left, right, kanji, pose):
+    _l, _r, _p = auto_scene(n, topic)
+    left, right, pose = left or _l, right or _r, pose or _p
     """見出し画像（1280x670）。背景は朝日の差し込む部屋で固定。ポーズ・表情は記事ごとに変える（pose）。"""
     kanji = list(kanji) + [c for c in '朝' if c not in kanji]
     k = '・'.join(kanji)

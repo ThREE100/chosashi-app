@@ -34,9 +34,6 @@ D = dict(
     ],
     phrases=['変更は、変更の日から一月以内です', '土地がなくなったら滅失の登記です', '買主の一月は自分の登記の日から', '地積の更正は所有者しかできません', '地目の更正も所有者だけの申請です'],
     header=dict(t1='一月はいつから？', t2='だれが申請する？', topic='不動産登記法　土地の表題部',
-                left='a small blank calendar page on the desk, beside a steaming cup of coffee',
-                right='a land plot sheet and a pencil on the desk',
-                pose="One hand on her chin in a thinking pose, the other hand holding a small blank calendar page; a focused, slightly puzzled expression with raised eyebrows.",
                 kanji='登・記・毎・表・題・部'),
     poster_intro='土地の表題部の登記を、「一月以内の申請」（グループA：ア・イ・ウ）と「更正の登記の申請人」（グループB：エ・オ）の2グループに分け、短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成です。カードに番号は付けません。',
     poster=dict(
