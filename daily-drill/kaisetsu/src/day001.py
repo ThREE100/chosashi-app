@@ -33,8 +33,9 @@ D = dict(
     ],
     phrases=['地図と建物所在図が備え付けられます', '地図は区画をはっきり示す図面です', '準ずる図面は、位置と形を示します', '地図ができるまでの代わりの図面です', 'データの形でも記録できるんです'],
     header=dict(t1='地図と準ずる図面、', t2='何が違う？', topic='不動産登記法　登記所の図面',
-                left='a town map sheet with land plots lying next to a cup of coffee on the wooden counter, no text',
-                right='a building location sheet with a house mark on a plot, beside a plate with a croissant, no text',
+                left='a town map sheet with land plots on the desk, beside a steaming cup of coffee',
+                right='a building location sheet with a house mark on a plot, on the desk',
+                pose="Standing slightly turned, holding up a rolled map sheet (a plain prop with no text) with one hand and pointing at it with the other; a curious, bright smile with wide eyes.",
                 kanji='図・面・準・登・記・毎'),
     poster_intro='登記所の図面を、「地図と建物所在図」（グループA：ア・イ）と「地図に準ずる図面」（グループB：ウ・エ・オ）の2グループに分け、短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成です。カードに番号は付けません。',
     poster=dict(

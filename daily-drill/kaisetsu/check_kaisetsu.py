@@ -79,15 +79,18 @@ for f in sorted(glob.glob(os.path.join(HERE, 'day*-kaisetsu.md'))):
         dn = f'Day{m.group(1)}'
         if f'毎朝ドリル　{dn}　' not in s:
             bad(f, f'見出し画像のサブタイトルに「毎朝ドリル　{dn}　」がない')
-        if 'cozy morning cafe' not in s:
-            bad(f, '見出し画像の背景（朝のカフェ）の指定がない')
+        if 'peaceful morning room' not in s:
+            bad(f, '見出し画像の背景（朝日の差し込む部屋）の指定がない')
+        if 'POSE AND EXPRESSION (changes every time)' not in s:
+            bad(f, '見出し画像にポーズ・表情の指定がない')
         if re.search(r'第[一二三四五六七八九十]+日　', s):
             bad(f, '見出し画像に漢数字の「第○日」が残っている')
     blocks = re.findall(r'```text\n(.*?)\n```', s, re.S)
     if len(blocks) < 3:
         bad(f, 'プロンプトのコードブロックが足りない')
     for i, b in enumerate(blocks):
-        for need in ('CRITICAL TEXT REQUIREMENT', 'BACKGROUND REQUIREMENT', 'Final check before rendering'):
+        needs = ('TEXT (critical)', 'BACKGROUND (critical)', 'Final check before rendering') if i == 0 else ('CRITICAL TEXT REQUIREMENT', 'BACKGROUND REQUIREMENT', 'Final check before rendering')
+        for need in needs:
             if need not in b:
                 bad(f, f'プロンプト{i + 1}に {need} がない')
         if 'transparent' not in b:

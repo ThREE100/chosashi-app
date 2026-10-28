@@ -49,7 +49,7 @@ def build(n):
     h = d['header']
     o += ['', '---', '', '## 見出し画像プロンプト', '',
           'noteの見出し画像（アイキャッチ、1280x670px）用です。見出し画像は、女性のMCキャラクター1人だけを使います（トリ先生・藍子は入れません）。ChatGPTに、基準画像（キャラクターシート_MC-01〜MC-04の4枚）を添付し、下のコードブロックを貼ります。画像は生成していません。',
-          '', '```text', tpl.header(n, h['t1'], h['t2'], h['topic'], h['left'], h['right'], h['kanji'].split('・')), '```', '',
+          '', '```text', tpl.header(n, h['t1'], h['t2'], h['topic'], h['left'], h['right'], h['kanji'].split('・'), h['pose']), '```', '',
           '---', '', '## インフォグラフィック プロンプト（問題全体）', '', d['poster_intro'], '', '```text']
     q = d['poster']
     o += [tpl.poster(q['title'], q['sub'], q['col_a'], q['col_b'], q['cards'], q['kanji'], q['n_a']), '```', '']

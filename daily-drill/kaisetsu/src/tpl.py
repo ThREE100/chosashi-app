@@ -28,39 +28,46 @@ transparent area, and no unpainted canvas edge anywhere in the final
 image."""
 
 
-def header(n, t1, t2, topic, left, right, kanji):
+def header(n, t1, t2, topic, left, right, kanji, pose):
+    """見出し画像（1280x670）。背景は朝日の差し込む部屋で固定。ポーズ・表情は記事ごとに変える（pose）。"""
     kanji = list(kanji) + [c for c in '朝' if c not in kanji]
     k = '・'.join(kanji)
     sub = f'毎朝ドリル　Day{n:03d}　{topic}'
     day = f'Day{n:03d}'
     dspell = '-'.join(day)
+    digits = ', '.join(day[3:])
     return f"""Create a note.com article header image (eyecatch thumbnail), 1280x670px
 (1.91:1 landscape aspect ratio).
 
-STYLE: soft Japanese watercolor-like illustration of a cozy morning cafe: a large window with a bright blue sky and warm sunlight, a wooden counter, a croissant and a cup of coffee with rising steam, in cream, warm brown and soft yellow tones. Clean outlines, warm and relaxed, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
-Fill the whole canvas with the morning cafe interior and window light.
+STYLE: soft Japanese watercolor-like illustration of a peaceful morning room. A large window lets in warm early-morning sunlight; white curtains sway gently, and long golden rays fall across a wooden desk. Use cream, warm yellow, pale green, and light blue tones, with clean outlines and a calm, fresh mood. Keep the same overall layout as the other headers in this series: title block at the top center, one character at the bottom center, and soft topic scenes fading toward the left and right edges. Fill the entire canvas with the morning room, including the window, walls, and desk.
 
-CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent new accessories.
+CHARACTERS (critical): Show ONE character only: the main character (MC) from the attached character-specification sheets (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Follow the sheets closely for her face, hairstyle, hair color, outfit, and proportions; the outfit and hairstyle must stay exactly the same in every image of the series. Do not include トリ先生, 藍子, any other person, or any animal, and do not invent new accessories.
 
-{TEXT_REQ_SHORT.replace('and no digits anywhere in the image.', 'and no digits anywhere in the image, with one exception: the exact string ' + day + ' in the subtitle band (capital D, lowercase a, y, then the digits ' + ', '.join(day[3:]) + ') is allowed and required.')}
+POSE AND EXPRESSION (changes every time): The pose and facial expression change in each image of the series; do not copy the pose of another header. Only the pose and expression change, never her design. For this image: {pose}
 
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
+BACKGROUND (critical): The entire canvas must be fully opaque edge to edge. Do not generate a transparent or alpha-channel background, and do not leave blank white areas, checkerboard patterns, partially transparent areas, or unpainted edges.
 
-TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
+TEXT (critical): Render only the following text, exactly as written, in standard Japanese glyph forms: hiragana, katakana, and Jōyō kanji. Do NOT use Simplified Chinese or Traditional Chinese character forms, and render no other script, no stray or decorative glyphs, no other words, no numbers, no labels, no signs, and no watermark.
+
+Line 1, large bold rounded Japanese type in dark navy, with a pale yellow marker stroke behind it:
 {t1}
-Line 2 is larger and red-orange:
-{t2}
-Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-{sub}
-Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
-TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the character):
+Line 2, larger bold rounded Japanese type in red-orange:
+{t2}
+
+Below the title, place a light blue rounded pill-shaped subtitle band with navy text:
+{sub}
+
+The exact string {day} is required as shown (capital D, lowercase a, y, then the digits {digits}). It is the only Latin text and the only digits allowed anywhere in the image. Preserve the punctuation and spacing exactly.
+
+TOPIC SCENES (illustration only, no text on objects):
 Left side: {left}
 Right side: {right}
+Keep these details soft and slightly faded so they do not compete with the title or character.
 
-LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
+LAYOUT: Keep the title and subtitle over a clear, softly glowing area near the top center. Keep the character and all important content away from the extreme edges so the image remains readable when center-cropped. Do not add flowcharts, diamonds, arrows, check marks, or cross marks.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written, including {day} spelled exactly {dspell} with no other Latin letters or digits anywhere (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph, paying special attention to {k}, and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese; scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere."""
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, with {day} spelled exactly {dspell} and no other Latin letters or digits anywhere (cartoon expression marks such as ！ and ？ beside the character's face are decoration and are allowed); scan every kanji glyph, paying special attention to {k}, and confirm each is the standard Japanese (Jōyō) form; scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it; confirm the pose and expression follow the POSE AND EXPRESSION line while her face, hairstyle, and outfit match the character sheets; and confirm the entire canvas is filled with a fully opaque background."""
 
 
 def poster(title, sub, col_a, col_b, cards, kanji, n_a):
