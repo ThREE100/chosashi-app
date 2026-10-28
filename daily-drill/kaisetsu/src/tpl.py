@@ -28,17 +28,21 @@ transparent area, and no unpainted canvas edge anywhere in the final
 image."""
 
 
-def header(t1, t2, sub, left, right, kanji):
+def header(n, t1, t2, topic, left, right, kanji):
+    kanji = list(kanji) + [c for c in '朝' if c not in kanji]
     k = '・'.join(kanji)
+    sub = f'毎朝ドリル　Day{n:03d}　{topic}'
+    day = f'Day{n:03d}'
+    dspell = '-'.join(day)
     return f"""Create a note.com article header image (eyecatch thumbnail), 1280x670px
 (1.91:1 landscape aspect ratio).
 
-STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
-Fill the whole canvas with the pastel sky and soft clouds.
+STYLE: soft Japanese watercolor-like illustration of a cozy morning cafe: a large window with a bright blue sky and warm sunlight, a wooden counter, a croissant and a cup of coffee with rising steam, in cream, warm brown and soft yellow tones. Clean outlines, warm and relaxed, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
+Fill the whole canvas with the morning cafe interior and window light.
 
 CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent new accessories.
 
-{TEXT_REQ_SHORT}
+{TEXT_REQ_SHORT.replace('and no digits anywhere in the image.', 'and no digits anywhere in the image, with one exception: the exact string ' + day + ' in the subtitle band (capital D, lowercase a, y, then the digits ' + ', '.join(day[3:]) + ') is allowed and required.')}
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
@@ -56,7 +60,7 @@ Right side: {right}
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph, paying special attention to {k}, and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese; scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere."""
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written, including {day} spelled exactly {dspell} with no other Latin letters or digits anywhere (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph, paying special attention to {k}, and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese; scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere."""
 
 
 def poster(title, sub, col_a, col_b, cards, kanji, n_a):

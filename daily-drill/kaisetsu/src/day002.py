@@ -33,9 +33,9 @@ D = dict(
         '更正の登記を申請できない人の例（隣地の所有者、土地を借りている人）は、38条の「表題部所有者又は所有権の登記名義人以外の者」の具体例として挙げたものです。',
     ],
     phrases=['変更は、変更の日から一月以内です', '土地がなくなったら滅失の登記です', '買主の一月は自分の登記の日から', '地積の更正は所有者しかできません', '地目の更正も所有者だけの申請です'],
-    header=dict(t1='一月はいつから？', t2='だれが申請する？', sub='毎日ドリル　第二日　不動産登記法　土地の表題部',
-                left='a farm field turning into a parking lot, with a small calendar page, no text',
-                right='a surveyor tripod and a land sheet with a pencil, no text',
+    header=dict(t1='一月はいつから？', t2='だれが申請する？', topic='不動産登記法　土地の表題部',
+                left='a small calendar page and a cup of coffee on the wooden counter, no text',
+                right='a land plot sheet with a pencil, beside a plate with a croissant, no text',
                 kanji='登・記・毎・表・題・部'),
     poster_intro='土地の表題部の登記を、「一月以内の申請」（グループA：ア・イ・ウ）と「更正の登記の申請人」（グループB：エ・オ）の2グループに分け、短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成です。カードに番号は付けません。',
     poster=dict(

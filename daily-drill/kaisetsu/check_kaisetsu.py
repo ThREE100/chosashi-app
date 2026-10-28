@@ -75,6 +75,14 @@ for f in sorted(glob.glob(os.path.join(HERE, 'day*-kaisetsu.md'))):
         bad(f, '補足説明があるのに④（間違いノート）のプロンプトがない')
     if re.search(r'^- .*[?!]', fr, re.M):
         bad(f, '見出し画像用フレーズに半角の？！がある')
+    if m:
+        dn = f'Day{m.group(1)}'
+        if f'毎朝ドリル　{dn}　' not in s:
+            bad(f, f'見出し画像のサブタイトルに「毎朝ドリル　{dn}　」がない')
+        if 'cozy morning cafe' not in s:
+            bad(f, '見出し画像の背景（朝のカフェ）の指定がない')
+        if re.search(r'第[一二三四五六七八九十]+日　', s):
+            bad(f, '見出し画像に漢数字の「第○日」が残っている')
     blocks = re.findall(r'```text\n(.*?)\n```', s, re.S)
     if len(blocks) < 3:
         bad(f, 'プロンプトのコードブロックが足りない')

@@ -33,9 +33,9 @@ D = dict(
         '民間紛争解決手続の代理の例（弁護士が同一の依頼者から受任している場合）は、3条2項後段の文言をかみ砕いた説明で、個別の運用・先例の確認はしていません。',
     ],
     phrases=['表示に関する登記が調査士の仕事です', '権利に関する登記は司法書士の仕事です', '筆界特定の代理も調査士ができます', '三つの条件がそろって初めて代理できます', '弁護士が受けた事件に限られるんです'],
-    header=dict(t1='調査士の仕事って、', t2='どこまで？', sub='毎日ドリル　第三日　土地家屋調査士法　業務の範囲',
-                left='a newly built small house with a surveying tripod beside it, no text',
-                right='a boundary stake between two land plots, no text',
+    header=dict(t1='調査士の仕事って、', t2='どこまで？', topic='土地家屋調査士法　業務の範囲',
+                left='a small surveyor tripod model and a cup of coffee on the wooden counter, no text',
+                right='a boundary stake model between two small land plots, beside a plate with a croissant, no text',
                 kanji='調・査・士・業・務・毎'),
     poster_intro='調査士の業務を、「表示に関する登記・筆界の手続」（グループA：ア・イ・ウ）と「民間紛争解決手続の代理」（グループB：エ・オ）の2グループに分け、短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成です。カードに番号は付けません。',
     poster=dict(

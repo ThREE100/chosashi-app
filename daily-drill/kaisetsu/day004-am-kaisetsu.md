@@ -128,8 +128,8 @@ noteの見出し画像（アイキャッチ、1280x670px）用です。見出し
 Create a note.com article header image (eyecatch thumbnail), 1280x670px
 (1.91:1 landscape aspect ratio).
 
-STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
-Fill the whole canvas with the pastel sky and soft clouds.
+STYLE: soft Japanese watercolor-like illustration of a cozy morning cafe: a large window with a bright blue sky and warm sunlight, a wooden counter, a croissant and a cup of coffee with rising steam, in cream, warm brown and soft yellow tones. Clean outlines, warm and relaxed, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
+Fill the whole canvas with the morning cafe interior and window light.
 
 CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent new accessories.
 
@@ -146,12 +146,12 @@ Below the title, a light blue rounded pill-shaped subtitle band with navy text:
 Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
 
 TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the character):
-Left side: a small house and a key being handed over, no text
-Right side: a deed document with a stamp, no text
+Left side: a cup of coffee and a croissant on the counter, no text
+Right side: a small house model and a key beside a deed document with a stamp, no text
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written (including Day004 spelled exactly D-a-y-0-0-4, with no other Latin letters or digits anywhere) (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph, paying special attention to 権・利・義・務・登・記・毎・朝, and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese; scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written, including Day004 spelled exactly D-a-y-0-0-4 with no other Latin letters or digits anywhere (cartoon expression marks such as ！ and ？ beside the character's face are decoration, are allowed, and are not extra text); scan every kanji glyph, paying special attention to 権・利・義・務・登・記・毎・朝, and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese; scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
