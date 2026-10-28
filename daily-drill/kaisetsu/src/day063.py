@@ -35,14 +35,14 @@ D = dict(
     phrases=['1室の一部が低くても、全体を数えます', 'ダストシュートは、建物の内部なら入れます', '吹抜の部分は、上の階に入れません', '出窓は、高さと位置の両方が必要です', '区分建物は、壁の内側で測ります'],
     header=dict(t1='床面積に入る？', t2='入らない？', topic='不動産登記法　建物の床面積',
                 kanji='登・記・毎・建・物・床・面・積'),
-    poster_intro='建物の床面積を、「床面積に入る部分・入らない部分」（グループA：ア・イ・ウ・エ）と「測り方」（グループB：オ）の2グループに分け、短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成です。カードに番号は付けません。',
+    poster_intro='建物の床面積を、「入る部分、入らない部分」（グループA：ア・イ・ウ）と「出窓と測り方」（グループB：エ・オ）の2グループに分け、短い見出し・図解・短い結論タグだけで構成する2列・5枚のポスター型カードで俯瞰する構成です。カードに番号は付けません。',
     poster=dict(
-        title='建物の床面積を整理', sub='不動産登記規則 第115条・準則 第82条（毎日ドリル 第63日）',
-        col_a='入る部分、入らない部分', col_b='測り方', n_a=4,
+        title='建物の床面積を整理', sub='不動産登記規則 第115条と準則 第82条（毎日ドリル 第63日）',
+        col_a='入る部分、入らない部分', col_b='出窓と測り方', n_a=3,
         cards=[
-            dict(h='1室の一部が低くても全体を入れる',
+            dict(h='一室の一部が低くても全体を入れる',
                  ill='an attic room with a sloped ceiling, the entire floor of the room highlighted with a green glow, including the low corner near the wall, which has a small ruler icon beside it. A green check mark sits beside the room.',
-                 words=[], tag='1室は全体'),
+                 words=[], tag='一室は全体'),
             dict(h='内部のダストシュートは入れる',
                  ill='a cutaway of a building with a vertical chute running through it, a small part of the chute sticking out slightly through the outer wall. The whole chute is highlighted with a green glow labeled 「内部」. A green check mark sits beside the chute.',
                  words=['内部'], tag='各階に算入'),
@@ -50,8 +50,8 @@ D = dict(
                  ill='a two-story building in cross-section, the entry hall open through both floors. The open space on the upper floor is drawn as an empty square with a dotted outline. The lower floor of the hall is filled with a green tint. A green check mark sits beside the empty square.',
                  words=[], tag='上階は不算入'),
             dict(h='出窓は高さと位置の両方がそろえば入る',
-                 ill='a bay window protruding from a wall, with a vertical ruler beside it labeled 「一・五メートル」 and a small level marker where the window bottom meets the floor. A green check mark sits beside the level marker.',
-                 words=['一・五メートル'], tag='二条件の両方'),
+                 ill='a bay window protruding from a wall, with a vertical ruler beside it labeled 「一点五メートル」 and a small level marker where the window bottom meets the floor. A green check mark sits beside the level marker.',
+                 words=['一点五メートル'], tag='二条件の両方'),
             dict(h='区分建物は壁の内側線で測る',
                  ill='a top view of an apartment room, with a dotted line drawn on the inner face of the walls labeled 「内側線」. A green check mark sits beside the dotted line.',
                  words=['内側線'], tag='内法で測る'),
@@ -60,37 +60,37 @@ D = dict(
     nb_label='ア・エ肢', nb_intro='ア・エの補足説明に合わせた2枚です。1枚目は、天井の低い部分の扱いを左右の対比で示します。2枚目は、出窓の二つの条件を示します。',
     notebooks=[
         dict(name='天井が低い部分の扱い', args=dict(
-            title='天井が低いと、どうなる？', sub='天井の高さ1.5メートル未満の扱い（毎日ドリル 第63日 ア）',
+            title='天井が低いと、どうなる？', sub='天井の高さ一点五メートル未満の扱い（毎日ドリル 第63日 ア）',
             req='a side-by-side comparison',
-            layout="""IMPORTANT: the two sides must show OPPOSITE marks, not the same mark. The left side shows a red cross; the right side shows a green check mark. The two panel headers are different strings: 「地階・屋階の全体が低い」 on the left and 「1室の一部だけが低い」 on the right; draw them in different accent colors (gray and green).
+            layout="""IMPORTANT: the two sides must show OPPOSITE marks, not the same mark. The left side shows a red cross; the right side shows a green check mark. The two panel headers are different strings: 「地階か屋階の全体が低い」 on the left and 「一室の一部だけが低い」 on the right; draw them in different accent colors (gray and green).
 
 --- COMPARISON ---
 Two panels side by side (left and right), same height.
 
 LEFT PANEL (gray accent):
-Panel header: 地階・屋階の全体が低い
+Panel header: 地階か屋階の全体が低い
 Scene: an isometric scene of an attic floor whose whole ceiling is low, drawn as a flat, squat box.
 Result badge with a red cross: 床面積に算入しない
 
 RIGHT PANEL (green accent):
-Panel header: 1室の一部だけが低い
+Panel header: 一室の一部だけが低い
 Scene: an isometric scene of one attic room with a sloped ceiling, only the corner by the wall being low, the whole floor of the room highlighted with a green tint.
 Result badge with a green check mark: 低い部分も算入する""",
-            callout='天井の高さ1.5メートル未満の地階や屋階（特殊階）は、床面積に算入しません。\nただし、1室の一部だけが1.5メートル未満のときは、その部分も当該1室の面積に算入します。',
+            callout='天井の高さが一点五メートル未満の地階や屋階（特殊階）は、床面積に算入しません。\nただし、一室の一部だけが一点五メートル未満のときは、その部分も当該一室の面積に算入します。',
             footer='不動産登記事務取扱手続準則八十二条一号',
             kanji='地・階・屋・天・井・低・床・面・積・算・入・部・分'.split('・'), what='panels',
-            check='confirm the two panel headers are different strings (地階・屋階の全体が低い on the left and 1室の一部だけが低い on the right), that the left panel shows a red cross and the right panel shows a green check mark, ')),
+            check='confirm the two panel headers are different strings (地階か屋階の全体が低い on the left and 一室の一部だけが低い on the right), that the left panel shows a red cross and the right panel shows a green check mark, ')),
         dict(name='出窓が床面積に入る条件', args=dict(
             title='出窓は、いつ床面積に入る？', sub='出窓の算入の条件（毎日ドリル 第63日 エ）',
             req='a checklist diagram',
             layout="""--- CHECKLIST ---
 Render as a clean flat-design vertical layout in two blocks.
-Block 1 (blue accent), block header: 次の二つを両方満たす出窓だけ. Below it, two checklist rows stacked vertically, each with an empty box that carries a green check mark, with these exact labels: 高さが1.5メートル以上 | 下部が床面と同一の高さ
+Block 1 (blue accent), block header: 次の二つを両方満たす出窓だけ. Below it, two checklist rows stacked vertically, each with an empty box that carries a green check mark, with these exact labels: 高さが一点五メートル以上 | 下部が床面と同一の高さ
 Block 2 (orange accent), block header: 一つでも欠けると算入しない. Below it, two small side-by-side panels:
-Panel left, label: 高さ1.6メートルでも 下部が床面より0.4メートル高い. A red cross.
-Panel right, label: 下部が床面と同じでも 高さが1.5メートルに足りない. A red cross.
+Panel left, label: 高さは足りていても 下部が床面より高い. A red cross.
+Panel right, label: 下部が床面と同じでも 高さが足りない. A red cross.
 Use exactly these strings, and no others.""",
-            callout='出窓は、高さが1.5メートル以上で、かつ、下部が床面と同一の高さにあるものに限り、床面積に算入します。\nどちらか一方だけでは、算入しません。',
+            callout='出窓は、高さが一点五メートル以上で、かつ、下部が床面と同一の高さにあるものに限り、床面積に算入します。\nどちらか一方だけでは、算入しません。',
             footer='不動産登記事務取扱手続準則八十二条十一号',
             kanji='出・窓・床・面・積・高・下・部・同・一・両・方・欠・算・入'.split('・'), what='blocks',
             check='confirm Block 1 has exactly two checklist rows, each with a green check mark, and Block 2 has exactly two panels, each with a red cross, ')),
