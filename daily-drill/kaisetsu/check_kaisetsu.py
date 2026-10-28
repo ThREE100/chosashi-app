@@ -88,6 +88,18 @@ for f in sorted(glob.glob(os.path.join(HERE, 'day*-kaisetsu.md'))):
             bad(f, '見出し画像にポーズ・表情の指定がない')
         if re.search(r'第[一二三四五六七八九十]+日　', s):
             bad(f, '見出し画像に漢数字の「第○日」が残っている')
+    # PDCA追加（Day005-120作成時）: 段落の長さ、絵に入れる語のラテン文字
+    for para in body.split('\n\n'):
+        if para.startswith(('>', '- ', '###', '**', '---', '#', '1. ')) or para.lstrip().startswith('|'):
+            continue
+        if len(para) > 140:
+            bad(f, f'1段落が140字超（{len(para)}字）: {para[:20]}')
+    for pb in re.findall(r'```text\n(.*?)\n```', s, re.S)[1:]:
+        for wm in re.finditer(r'「([^」]*)」', pb):
+            if re.search(r'[A-Za-z]', wm.group(1)) and 'Day' not in wm.group(1):
+                bad(f, f'絵に入れる語にラテン文字: 「{wm.group(1)}」')
+    if re.search(r'^\s*\|.*\|\s*$', re.sub(r'```.*?```', '', s, flags=re.S), re.M):
+        bad(f, 'Markdownの表がある（noteでは表示できない。箇条書きにする）')
     blocks = re.findall(r'```text\n(.*?)\n```', s, re.S)
     if len(blocks) < 3:
         bad(f, 'プロンプトのコードブロックが足りない')
@@ -106,7 +118,7 @@ for f in sorted(glob.glob(os.path.join(HERE, 'day*-kaisetsu.md'))):
             for ch in mk.group(1).split('・'):
                 if ch not in b.split('Final check')[0]:
                     bad(f, f'プロンプト{i + 1}の注意漢字「{ch}」が本文にない')
-        lists = re.findall(r'[一-龥](?:・[一-龥])+', b)
+        lists = re.findall(r'[一-龥](?:・[一-龥]){2,}', b)  # 3字以上の並び（「条・準」のような2字の語は注意漢字リストとみなさない）
         rest = b
         for l in lists:
             rest = rest.replace(l, '')

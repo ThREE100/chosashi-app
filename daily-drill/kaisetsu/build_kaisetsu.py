@@ -29,6 +29,36 @@ def answer(p):
     return '・'.join(sel), idx[0] + 1
 
 
+def tables_to_bullets(text):
+    """noteはMarkdownの表を表示できないので、コードブロックの外の表を箇条書きに直す。
+    行頭の列を見出しにして「- 行名：列名は…、列名は…。」の形にする。"""
+    out, block, table = [], False, []
+
+    def flush():
+        if not table:
+            return
+        rows = [[c.strip() for c in r.strip().strip('|').split('|')] for r in table]
+        rows = [r for r in rows if not all(set(c) <= set('-: ') for c in r)]
+        head, body = rows[0], rows[1:]
+        for r in body:
+            parts = [f'（{head[i]}）{r[i].rstrip("。")}。' for i in range(1, len(r)) if r[i]]
+            out.append(f'- {r[0]}：' + ''.join(parts))
+        table.clear()
+
+    for line in text.split('\n'):
+        if line.startswith('```'):
+            flush()
+            block = not block
+            out.append(line)
+        elif not block and line.lstrip().startswith('|'):
+            table.append(line)
+        else:
+            flush()
+            out.append(line)
+    flush()
+    return '\n'.join(out)
+
+
 def build(n):
     d = importlib.import_module(f'day{n:03d}').D
     p = json.load(open(os.path.join(HERE, '..', 'morning', 'problems', f'AM-{n:03d}.json'), encoding='utf-8'))
@@ -60,7 +90,7 @@ def build(n):
         for i, nb in enumerate(d['notebooks'], 1):
             o += [f"### 画像{i}：{nb['name']}", '', '```text', tpl.notebook(**nb['args']), '```', '']
     out_dir = HERE
-    open(os.path.join(out_dir, f'day{n:03d}-am-kaisetsu.md'), 'w', encoding='utf-8').write('\n'.join(o).rstrip('\n') + '\n')
+    open(os.path.join(out_dir, f'day{n:03d}-am-kaisetsu.md'), 'w', encoding='utf-8').write(tables_to_bullets('\n'.join(o)).rstrip('\n') + '\n')
     print('wrote', n)
 
 
