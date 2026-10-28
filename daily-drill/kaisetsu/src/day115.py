@@ -49,7 +49,7 @@ D = dict(
             dict(h='自宅につながるプールの敷地は宅地',
                  ill='an isometric house with a garden and a small swimming pool directly next to it, both inside one shared outline. A small signpost beside the pool is labeled 「宅地」. A green check mark sits beside the signpost.',
                  words=['宅地'], tag='接続すれば宅地'),
-            dict(h='雑種地は使えない区域だけ',
+            dict(h='高圧線の下は使えない区域だけ雑種地',
                  ill='an isometric land plot crossed by overhead high-voltage power lines on a tower. The empty strip directly under the lines is outlined and carries a small signpost labeled 「雑種地」. A house sits on the other part of the plot, with a small signpost labeled 「宅地」. A green check mark sits beside the house.',
                  words=['雑種地', '宅地'], tag='使えない区域だけ雑種地'),
             dict(h='地目変更の日は現況が変わった日',

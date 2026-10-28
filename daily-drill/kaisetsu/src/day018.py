@@ -85,14 +85,14 @@ Result badge with a red cross: 登記できない""",
             req='a timeline diagram',
             layout="""--- TIMELINE ---
 Render as a clean flat-design horizontal timeline in the upper half, with a common axis running left to right with two flags: the left flag labeled 4月1日 with an icon of a person figure buying a house, and the right flag labeled 5月1日 with an icon of a second person figure buying the same house.
-Under the left flag, a blue label: Cの売買. Under the right flag, a green label: Bの売買.
+Under the left flag, a blue label: 先の売買. Under the right flag, a green label: 後の売買.
 A bracket under the axis connects the two flags and is labeled 相手の原因が後.
 --- RESULT BOX ---
-Below the timeline, one result box with a green check mark: Cは登記がないことを主張できる.
-Use exactly these strings, and no others, for the labels. The two flag labels Cの売買 and Bの売買 are different strings; draw them in different accent colors (blue and green).""",
+Below the timeline, one result box with a green check mark: 先に買った人は登記がないことを主張できる.
+Use exactly these strings, and no others, for the labels. The two flag labels 先の売買 and 後の売買 are different strings; draw them in different accent colors (blue and green).""",
             callout='他人のために登記を申請する義務を負う者は、原則として、その登記がないことを主張できません。\nただし、相手方の登記原因が自分の登記原因の後に生じたときは、主張できます。',
             footer='不動産登記法5条2項',
-            kanji='売・買・相・手・原・因・後・登・記・主・張'.split('・'), what='timeline',
+            kanji='売・買・先・後・登・記・主・張・相・手・原・因'.split('・'), what='timeline',
             check='confirm the two flag labels are different strings drawn in different accent colors, ')),
     ],
 )

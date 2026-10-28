@@ -407,7 +407,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 売・買・相・手・原・因・後・登・記・主・張 — always
+any characters. Pay special attention to the kanji 売・買・先・後・登・記・主・張・相・手・原・因 — always
 draw the standard Japanese (Jōyō) form.
 
 ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
@@ -436,11 +436,11 @@ Subtitle (smaller, centered):
 
 --- TIMELINE ---
 Render as a clean flat-design horizontal timeline in the upper half, with a common axis running left to right with two flags: the left flag labeled 4月1日 with an icon of a person figure buying a house, and the right flag labeled 5月1日 with an icon of a second person figure buying the same house.
-Under the left flag, a blue label: Cの売買. Under the right flag, a green label: Bの売買.
+Under the left flag, a blue label: 先の売買. Under the right flag, a green label: 後の売買.
 A bracket under the axis connects the two flags and is labeled 相手の原因が後.
 --- RESULT BOX ---
-Below the timeline, one result box with a green check mark: Cは登記がないことを主張できる.
-Use exactly these strings, and no others, for the labels. The two flag labels Cの売買 and Bの売買 are different strings; draw them in different accent colors (blue and green).
+Below the timeline, one result box with a green check mark: 先に買った人は登記がないことを主張できる.
+Use exactly these strings, and no others, for the labels. The two flag labels 先の売買 and 後の売買 are different strings; draw them in different accent colors (blue and green).
 
 --- CALLOUT: 誤りやすいポイント ---
 誤りやすいポイント
@@ -450,5 +450,5 @@ Use exactly these strings, and no others, for the labels. The two flag labels C�
 --- FOOTER ---
 不動産登記法5条2項
 
-Final check before rendering: scan every kanji glyph, paying special attention to 売・買・相・手・原・因・後・登・記・主・張, and confirm each is in standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji, and remove or redraw it. Confirm every heading, label and callout text matches the Japanese text given above verbatim, with no paraphrasing and no substituted characters, confirm the two flag labels are different strings drawn in different accent colors, confirm nothing is rendered below the FOOTER's small footnote text (no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: scan every kanji glyph, paying special attention to 売・買・先・後・登・記・主・張・相・手・原・因, and confirm each is in standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji, and remove or redraw it. Confirm every heading, label and callout text matches the Japanese text given above verbatim, with no paraphrasing and no substituted characters, confirm the two flag labels are different strings drawn in different accent colors, confirm nothing is rendered below the FOOTER's small footnote text (no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
