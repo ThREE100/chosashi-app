@@ -15,6 +15,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lawtext import article, normalize  # noqa: E402
+import theme_refs  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 LABELS = ['ア', 'イ', 'ウ', 'エ', 'オ']
@@ -45,6 +46,9 @@ def check(p):
         err(pid, '肢はアイウエオの5つ')
     if p['mode'] not in ('正しい', '誤り'):
         err(pid, 'mode は「正しい」か「誤り」')
+    miss = theme_refs.missing_refs(p)
+    if miss:   # 解答ページは引用の先頭に法令名＋条を付けず、題（theme）にまとめて載せる
+        err(pid, f'根拠の条が theme に載っていない（{theme_refs.format_refs(miss)}）。python3 daily-drill/theme_refs.py --fix で足せる')
     ans = answer_set(p)
     ch = [tuple(c) for c in p['choices']]
     if len(ch) != 5 or len(set(map(frozenset, ch))) != 5:

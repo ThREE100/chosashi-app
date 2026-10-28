@@ -308,7 +308,7 @@ def am_a(p):
     body += f'<div class="ans">正解：<b>{CIRC[idx]}</b>（{"・".join(ans)}）　※問題は「{'正しいもの' if p['mode'] == '正しい' else '誤っているもの'}」を選ぶ</div>'
     for s in p['statements']:
         mark = '<span class="ok">○ 正しい</span>' if s['truth'] else '<span class="ng">× 誤り</span>'
-        body += f'<div class="keep"><div class="q"><b>{s["label"]}</b>　{mark}　{E(s["note"])}</div>' + ''.join(quote_block(b, p.get('quote_short', False)) for b in s['basis']) + '</div>'
+        body += f'<div class="keep"><div class="q"><b>{s["label"]}</b>　{mark}　{E(s["note"])}</div>' + ''.join(quote_block(b, True) for b in s['basis']) + '</div>'
     if p.get('example'):   # 具体例（最後の肢の解説の下）
         body += '<div class="keep"><div class="q"><b>具体例</b></div><ul style="margin:0;padding-left:5mm;font-size:9.5pt;line-height:1.5">' + ''.join(f'<li>{E(x)}</li>' for x in p['example']) + '</ul></div>'
     w = p['write']
