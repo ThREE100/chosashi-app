@@ -63,7 +63,8 @@ for f in sorted(glob.glob(os.path.join(HERE, 'day*-kaisetsu.md'))):
         for st in pj['statements']:
             if f"{st['label']}　{st['text']}" not in qs:
                 bad(f, f'引用の肢{st["label"]}が問題データと一致しない')
-        wr = [st['label'] for st in pj['statements'] if not st['truth']]
+        want = pj.get('mode') != '正しい'
+        wr = [st['label'] for st in pj['statements'] if st['truth'] != want]
         ix = [i + 1 for i, c in enumerate(pj['choices']) if list(c) == wr]
         if not re.search(rf'^\*\*正解：{"・".join(wr)}の組合せ（選択肢{ix[0] if ix else 0}番）\*\*$', body, re.M):
             bad(f, '正解の行が問題データの正解と一致しない')

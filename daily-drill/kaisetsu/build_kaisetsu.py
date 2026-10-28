@@ -21,10 +21,12 @@ def quote(p):
 
 
 def answer(p):
-    wrong = [s['label'] for s in p['statements'] if not s['truth']]
-    idx = [i for i, c in enumerate(p['choices']) if list(c) == wrong]
-    assert len(idx) == 1, (wrong, p['choices'])
-    return '・'.join(wrong), idx[0] + 1
+    # mode が「誤り」なら誤っている肢、「正しい」なら正しい肢の組合せが正解
+    want = p.get('mode') != '正しい'
+    sel = [s['label'] for s in p['statements'] if s['truth'] != want]
+    idx = [i for i, c in enumerate(p['choices']) if list(c) == sel]
+    assert len(idx) == 1, (sel, p['choices'])
+    return '・'.join(sel), idx[0] + 1
 
 
 def build(n):
@@ -57,7 +59,8 @@ def build(n):
         o += ['---', '', f"## インフォグラフィック プロンプト（{d['nb_label']}・間違いノート）", '', d['nb_intro'], '']
         for i, nb in enumerate(d['notebooks'], 1):
             o += [f"### 画像{i}：{nb['name']}", '', '```text', tpl.notebook(**nb['args']), '```', '']
-    open(os.path.join(HERE, f'day{n:03d}-am-kaisetsu.md'), 'w', encoding='utf-8').write('\n'.join(o).rstrip('\n') + '\n')
+    out_dir = HERE
+    open(os.path.join(out_dir, f'day{n:03d}-am-kaisetsu.md'), 'w', encoding='utf-8').write('\n'.join(o).rstrip('\n') + '\n')
     print('wrote', n)
 
 
