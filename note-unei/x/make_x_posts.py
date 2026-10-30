@@ -5,6 +5,8 @@
     python3 note-unei/x/make_x_posts.py 1 7        # 第1日〜第7日だけ画面に出す
 
 朝：問題のテーマと「答えと解説はnoteで」。問題文は長いので画像（daily-drill/out/dayNNN-am.html の画面写し）を添える。
+夜（記述式ドリル）：問題のテーマと「解答・解説はnoteで」、その日のnoteの記事のURL。返信はしない。
+    問題の画像（daily-drill/out/dayNNN-pm.html の画面写し）を添える。
 返信（朝の投稿への返信として投稿）：正解の番号と、解説記事のタイトルの「～～」の部分（ひとことの要点）、noteの解説記事のURL（{URL} を貼りかえる）。
 
 正解は問題データ（daily-drill/morning/problems/AM-NNN.json）の各肢の正誤から計算し、
@@ -20,6 +22,7 @@ import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PROB = os.path.join(ROOT, 'daily-drill', 'morning', 'problems')
+PM_PROB = os.path.join(ROOT, 'daily-drill', 'evening', 'problems')
 KAI = os.path.join(ROOT, 'daily-drill', 'kaisetsu')
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'posts.md')
 
@@ -68,6 +71,25 @@ def short_theme(theme, limit=40):
     return t + 'など'
 
 
+def evening_post(day):
+    probs = [json.load(open(p, encoding='utf-8')) for p in glob.glob(os.path.join(PM_PROB, 'PM-*.json'))]
+    hit = [d for d in probs if int(d['day']) == day]
+    if len(hit) != 1:
+        raise ValueError(f'第{day}日の記述式ドリルが{len(hit)}件ある')
+    d = hit[0]
+    title = re.sub(r'（[^（）]*）\s*$', '', d['title']).strip()
+    t = (
+        f'【毎日これだけ 記述式 Day{day:03d}】\n'
+        f'テーマ：{title}\n'
+        f'解答・解説はnoteで。\n'
+        '{URL}\n'
+        f'{TAGS}'
+    )
+    if x_len(t) > 280:
+        raise ValueError(f'第{day}日の夜の投稿が長すぎる（{x_len(t)}）')
+    return t
+
+
 def posts_for(day):
     prob = json.load(open(os.path.join(PROB, f'AM-{day:03d}.json'), encoding='utf-8'))
     no, picked = answer_of(prob)
@@ -102,15 +124,19 @@ def main():
         for d in days:
             if a <= d <= b:
                 m, n = posts_for(d)
-                print(f'===== 第{d}日 朝 ({x_len(m)}/280)\n{m}\n===== 第{d}日 返信 ({x_len(n)}/280)\n{n}\n')
+                e = evening_post(d)
+                print(f'===== 第{d}日 朝 ({x_len(m)}/280)\n{m}\n===== 第{d}日 返信 ({x_len(n)}/280)\n{n}\n'
+                      f'===== 第{d}日 夜・記述式 ({x_len(e)}/280)\n{e}\n')
         return
     lines = ['# Xの投稿文（毎日ドリル・朝の択一）', '',
              '`make_x_posts.py` で作る（手で直さない）。返信の `{URL}` は、その日のnoteの解説記事のURLに貼りかえる。',
-             '朝の投稿には、問題の画像（`daily-drill/out/dayNNN-am.html` の問題部分の画面写し）を添える。', '']
+             '朝の投稿には問題の画像（`daily-drill/out/dayNNN-am.html` の問題部分の画面写し）、夜の記述式の投稿には `daily-drill/out/dayNNN-pm.html` の画面写しを添える。夜の `{URL}` は、その日の記述式ドリルのnoteの記事のURL。', '']
     for d in days:
         m, n = posts_for(d)
         lines += [f'## Day{d:03d}', '', f'朝（{x_len(m)}/280）', '', '```', m, '```', '',
                   f'返信（朝の投稿への返信として投稿。{x_len(n)}/280）', '', '```', n, '```', '']
+        e = evening_post(d)
+        lines += [f'夜・記述式（問題の画像を添える。返信はしない。{x_len(e)}/280）', '', '```', e, '```', '']
     open(OUT, 'w', encoding='utf-8').write('\n'.join(lines))
     print(f'{len(days)}日分を書き出した：{OUT}')
 
