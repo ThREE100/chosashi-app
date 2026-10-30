@@ -124,7 +124,7 @@
 
 ## 見出し画像プロンプト
 
-noteの見出し画像（アイキャッチ、1280x670px）用です。見出し画像は、女性のMCキャラクター1人だけを使います（トリ先生・藍子は入れません）。ChatGPTに、基準画像（キャラクターシート_MC-01〜MC-04の4枚）を添付し、下のコードブロックを貼ります。画像は生成していません。
+noteの見出し画像（アイキャッチ、1280x670px）用です。見出し画像は、女性のMCキャラクター1人だけを使います（トリ先生・藍子は入れません）。ChatGPTに、基準画像（キャラクターシート_MK-01〜MK-06の6枚）を添付し、下のコードブロックを貼ります。画像は生成していません。
 
 ```text
 Create a note.com article header image (eyecatch thumbnail), 1280x670px
@@ -132,9 +132,9 @@ Create a note.com article header image (eyecatch thumbnail), 1280x670px
 
 STYLE: soft Japanese watercolor-like illustration of a peaceful morning room. A large window lets in warm early-morning sunlight; white curtains sway gently, and long golden rays fall across a wooden desk. Use cream, warm yellow, pale green, and light blue tones, with clean outlines and a calm, fresh mood. Keep the same overall layout as the other headers in this series: title block at the top center, one character at the bottom center, and soft topic scenes fading toward the left and right edges. Fill the entire canvas with the morning room, including the window, walls, and desk.
 
-CHARACTERS (critical): Show ONE character only: the main character (MC) from the attached character-specification sheets (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Follow the sheets closely for her face, hairstyle, hair color, and proportions. OUTFIT OVERRIDE (for this series of headers only): ignore the outfit drawn on the sheets and dress her in relaxed at-home clothing: a loose, soft long-sleeve white top with evenly spaced horizontal navy-blue stripes and NO collar (a plain round crew neckline), worn the same way in every image of the series. Show her from about the waist up so the top is clearly visible; if the lower body is visible, keep it plain and simple. Her face and hairstyle must stay exactly the same in every image. Do not include トリ先生, 藍子, any other person, or any animal, and do not invent new accessories.
+CHARACTERS (critical): Show ONE character only: the main character (MC) from the attached character-specification sheets (キャラクターシート_MK-01, MK-02, MK-03, MK-04, MK-05, MK-06). Follow the sheets closely for her face, hairstyle, hair color, and proportions. OUTFIT OVERRIDE (for this series of headers only): ignore the outfit drawn on the sheets and dress her in relaxed at-home clothing: a loose, soft long-sleeve white top with evenly spaced horizontal navy-blue stripes and NO collar (a plain round crew neckline), worn the same way in every image of the series. Show her from about the waist up so the top is clearly visible; if the lower body is visible, keep it plain and simple. Her face and hairstyle must stay exactly the same in every image. Do not include トリ先生, 藍子, any other person, or any animal, and do not invent new accessories.
 
-POSE AND EXPRESSION (changes every time): The pose and facial expression change in each image of the series; do not copy the pose of another header. Only the pose and expression change, never her design. For this image: Giving a thumbs-up with one hand, with an encouraging smile.
+POSE AND EXPRESSION (changes every time): The pose and facial expression change in each image of the series; do not copy the pose of another header. Use the character sheets (MK-01 to MK-06) as the base for her pose and expression, and vary them from that base in every image. Only the pose and expression change, never her design. For this image: Giving a thumbs-up with one hand, with an encouraging smile.
 
 BACKGROUND (critical): The entire canvas must be fully opaque edge to edge. Do not generate a transparent or alpha-channel background, and do not leave blank white areas, checkerboard patterns, partially transparent areas, or unpainted edges.
 
