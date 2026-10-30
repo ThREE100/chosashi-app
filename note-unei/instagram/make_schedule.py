@@ -39,7 +39,7 @@ def load_prompt_index():
     if not os.path.exists(path):
         return {}
     with open(path, encoding='utf-8-sig', newline='') as fh:
-        return {(r['year'], r['item']): r['status'] for r in csv.DictReader(fh)}
+        return {(r['year'], r['item']): (r['status'], int(r['slides'])) for r in csv.DictReader(fh)}
 
 
 
@@ -91,14 +91,17 @@ def main():
             for slot, col in enumerate((3, 2, 1), start=1):
                 seq += 1
                 it = three[col - 1]
+                st, slides = pidx.get((code, it['item']), ('', 1)) if it['kind'] == '過去問の図解' else ('', 1)
                 rows.append({
                     'seq': seq, 'date': date.isoformat(), 'weekday': '月火水木金土日'[date.weekday()],
                     'day': day, 'slot': slot, 'grid_col': COLS[col],
                     'block': f'{code}（{year_label(k, n)}）', 'day_in_block': d + 1,
                     'item': it['item'], 'kind': it['kind'], 'title': it['title'], 'source': it['source'],
-                    'feed_image': f'ig{seq:03d}_{code}_{it["item"]}.png',
+                    'slides': slides,
+                    'feed_image': (f'ig{seq:03d}_{code}_{it["item"]}.png' if slides == 1 else
+                                   ';'.join(f'ig{seq:03d}_{code}_{it["item"]}_{x}.png' for x in range(1, slides + 1))),
                     'prompt': f'note-unei/instagram/prompts/{code}.md' if it['kind'] == '過去問の図解' else '',
-                    'prompt_status': pidx.get((code, it['item']), '') if it['kind'] == '過去問の図解' else '',
+                    'prompt_status': st,
                     'story_image': '', 'status': '未作成',
                 })
     out = os.path.join(HERE, 'schedule.csv')
