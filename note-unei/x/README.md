@@ -51,7 +51,7 @@ TEXT (Japanese only, reproduce verbatim, nothing else), centered in the upper mi
 毎朝1問　土地家屋調査士試験
 Below it, smaller, red-orange:
 条文から作るオリジナルの択一
-Do not render any other text, letters, digits, or decorative glyphs. Use standard Japanese Jōyō kanji only (no Simplified or Traditional Chinese forms).
+The only digit allowed is the half-width Arabic digit 1 in 毎朝1問, written exactly as given. Do not render any other text, letters, digits, or decorative glyphs. Use standard Japanese Jōyō kanji only (no Simplified or Traditional Chinese forms).
 BACKGROUND: fully opaque from edge to edge; no transparency, no checkerboard.
 DECOR: faint land-survey motifs in the sky (a surveyor's tripod, a boundary stake, a folded map) drawn small and soft, without any writing on them.
 ```
