@@ -1,11 +1,11 @@
-"""毎日ドリル（朝の択一）から、Xの朝・夜の投稿文を作る。
+"""毎日ドリル（朝の択一）から、Xの朝の投稿と、その返信の投稿文を作る。
 
 使い方：
     python3 note-unei/x/make_x_posts.py            # 全日を posts.md に書き出す
     python3 note-unei/x/make_x_posts.py 1 7        # 第1日〜第7日だけ画面に出す
 
-朝：問題のテーマと「答えは夜に」。問題文は長いので画像（daily-drill/out/dayNNN-am.html の画面写し）を添える。
-夜：正解の番号と、解説記事のタイトルの「～～」の部分（ひとことの要点）、noteの解説記事のURL（{URL} を貼りかえる）。
+朝：問題のテーマと「答えと解説はnoteで」。問題文は長いので画像（daily-drill/out/dayNNN-am.html の画面写し）を添える。
+返信（朝の投稿への返信として投稿）：正解の番号と、解説記事のタイトルの「～～」の部分（ひとことの要点）、noteの解説記事のURL（{URL} を貼りかえる）。
 
 正解は問題データ（daily-drill/morning/problems/AM-NNN.json）の各肢の正誤から計算し、
 解説記事（daily-drill/kaisetsu/dayNNN-am-kaisetsu.md）の「正解：…（選択肢N番）」と一致することを確かめる。
@@ -79,7 +79,7 @@ def posts_for(day):
         f'【毎朝ドリル Day{day:03d}】\n'
         f'テーマ：{short_theme(prob["theme"])}\n'
         f'{kind}の組合せは①〜⑤のどれ？\n'
-        f'答えと解説は今夜。\n'
+        f'答えと解説はnoteで。\n'
         f'{TAGS}'
     )
     night = (
@@ -89,7 +89,7 @@ def posts_for(day):
         + '各肢の解説はnoteで。\n{URL}\n'
         f'{TAGS}'
     )
-    for label, t in (('朝', morning), ('夜', night)):
+    for label, t in (('朝', morning), ('返信', night)):
         if x_len(t) > 280:
             raise ValueError(f'第{day}日の{label}の投稿が長すぎる（{x_len(t)}）')
     return morning, night
@@ -102,15 +102,15 @@ def main():
         for d in days:
             if a <= d <= b:
                 m, n = posts_for(d)
-                print(f'===== 第{d}日 朝 ({x_len(m)}/280)\n{m}\n===== 第{d}日 夜 ({x_len(n)}/280)\n{n}\n')
+                print(f'===== 第{d}日 朝 ({x_len(m)}/280)\n{m}\n===== 第{d}日 返信 ({x_len(n)}/280)\n{n}\n')
         return
     lines = ['# Xの投稿文（毎日ドリル・朝の択一）', '',
-             '`make_x_posts.py` で作る（手で直さない）。夜の `{URL}` は、その日のnoteの解説記事のURLに貼りかえる。',
+             '`make_x_posts.py` で作る（手で直さない）。返信の `{URL}` は、その日のnoteの解説記事のURLに貼りかえる。',
              '朝の投稿には、問題の画像（`daily-drill/out/dayNNN-am.html` の問題部分の画面写し）を添える。', '']
     for d in days:
         m, n = posts_for(d)
         lines += [f'## Day{d:03d}', '', f'朝（{x_len(m)}/280）', '', '```', m, '```', '',
-                  f'夜（{x_len(n)}/280）', '', '```', n, '```', '']
+                  f'返信（朝の投稿への返信として投稿。{x_len(n)}/280）', '', '```', n, '```', '']
     open(OUT, 'w', encoding='utf-8').write('\n'.join(lines))
     print(f'{len(days)}日分を書き出した：{OUT}')
 
