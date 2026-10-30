@@ -54,16 +54,14 @@ BACKGROUND: fully opaque from edge to edge; no transparency, no checkerboard.
 DECOR: faint land-survey motifs in the sky (a surveyor's tripod, a boundary stake, a folded map) drawn small and soft, without any writing on them.
 ```
 
-## 固定する投稿（最初に1本。2026-10-30 文面を統一）
+## 固定する投稿（最初に1本。2026-10-30 文面を統一、280字に収まるよう短縮）
 
 ```
 はじめまして。土地家屋調査士試験の受験生です。
-令和8年度は太刀打ちできず、令和9年度の合格に向けて再スタートしました。
-
-毎朝、条文から作ったオリジナルの択一ドリルを1問、夜は記述式ドリルを投稿します。
-一緒に毎日1問、続けましょう。
-
-過去問の全肢解説はnoteにまとめています。
+令和8年度は太刀打ちできず、令和9年度合格へ再スタート。
+朝は条文から作ったオリジナルの択一ドリル、夜は記述式ドリルを投稿します。
+毎日一緒に続けましょう。
+過去問の全肢解説はnoteで。
 {noteのURL}
 #土地家屋調査士 #調査士試験
 ```
