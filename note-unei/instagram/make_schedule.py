@@ -34,6 +34,15 @@ FILLER_ROLE = {
 COLS = {1: '左', 2: '中', 3: '右'}
 
 
+def load_prompt_index():
+    path = os.path.join(HERE, 'prompts', 'index.csv')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8-sig', newline='') as fh:
+        return {(r['year'], r['item']): r['status'] for r in csv.DictReader(fh)}
+
+
+
 def year_label(k, n):
     return f'令和{n}年度' if k == 'R' else f'平成{n}年度'
 
@@ -61,6 +70,7 @@ def main():
     args = ap.parse_args()
     start = dt.date.fromisoformat(args.start)
 
+    pidx = load_prompt_index()
     rows = []
     seq = 0
     day = 0
@@ -87,6 +97,8 @@ def main():
                     'block': f'{code}（{year_label(k, n)}）', 'day_in_block': d + 1,
                     'item': it['item'], 'kind': it['kind'], 'title': it['title'], 'source': it['source'],
                     'feed_image': f'ig{seq:03d}_{code}_{it["item"]}.png',
+                    'prompt': f'note-unei/instagram/prompts/{code}.md' if it['kind'] == '過去問の図解' else '',
+                    'prompt_status': pidx.get((code, it['item']), '') if it['kind'] == '過去問の図解' else '',
                     'story_image': '', 'status': '未作成',
                 })
     out = os.path.join(HERE, 'schedule.csv')
