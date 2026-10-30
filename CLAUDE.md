@@ -595,3 +595,6 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 読者を増やし購読につなげるための運営方針は、記事とは分けて`note-unei/`に置く。今の戦略は`senryaku.md`（版番号つき）、改訂履歴は`kaitei-rireki.md`、ダッシュボードの数字は`kpi-log.csv`（週1回）。
 戦略を変えるときは`note-unei/README.md`の手順で、前の版を`archive/`に写し、版を上げ、履歴に「変えたこと・理由・そのときの数字」を足し、`senryaku.md`の「方針を反映しているファイル」（マガジン説明文など）も合わせて直す。作業ブランチは`main`。
 年度別マガジン説明文（`note-articles/magazine-descriptions.md`）は、2026-10-29に「教材としてまとめたものではなく…」の結びを外し、確かめ方（現行法令・条文の原文）と更新の約束を書く形に改めた。
+
+### Instagramの運用（`note-unei/instagram/`、2026-10-30追加）
+年度別の過去問の図解（令和8年度の問1から平成17年度までさかのぼる）をInstagramに毎日3枚載せる計画は`note-unei/instagram/README.md`にある。1年度＝問1〜20＋つなぎ4枚の24枚（3列のグリッドの行にそろえる）、フィードは3:4（1080×1440）で作り直し、ストーリーは作成済みの縦長図解（1080×1920）を使う。予定表`schedule.csv`は`make_schedule.py --start 開始日`で、つなぎの素材一覧`filler-pool.csv`は`make_filler_pool.py`で作る。画像はリポジトリに入れず手元に置き、予定表の`status`だけを更新する。計画を変えたら`note-unei/senryaku.md`（版を上げる）・`kaitei-rireki.md`も直す。作業は`main`。
