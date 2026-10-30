@@ -589,3 +589,9 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 問題の作成ルールの正本は`daily-drill/RULES.md`（型・難度・ひっかけの分類は`taxonomy.json`、各問の分類は`registry.json`、網羅の状況は`coverage/coverage.md`。新しい問題は`daily-drill/new_problem.py`で雛形を作る。夜の計算の解答にはF-789SGのキー列を付け、`evening/calc_keys.py`で再現して答えと突き合わせる）。
 朝の択一の解説記事（note用。初学者向けの具体例と図解プロンプトつき）は`daily-drill/kaisetsu/`に保存する（作り方は同フォルダの`README.md`、第4日が最初の1本。第1〜3日と第5〜120日は2026-10-28までに作成済みで、全120本が`daily-drill/kaisetsu/`にある）。**執筆ルールの正本は`daily-drill/kaisetsu/PROMPT_解説記事の作成.md`**で、記事を作るたびにその「PDCAの手順」を回して、プロンプトとチェッカー（`check_kaisetsu.py`）を自動的に改良し「改善記録」に残す。タイトルは`【土地家屋調査士受験生向け】毎朝ドリル_Day004_択一解説～キャッチ～`の形（2026-10-27決定）。見出し画像は朝日の差し込む部屋の背景・服装は白の長袖に紺の横ライン（襟なし）・ポーズと表情は記事ごとに変える・サブタイトルに`毎朝ドリル　DayNNN　主題`（2026-10-28採用。雛形は`kaisetsu/src/tpl.py`の`header()`）。記事は`kaisetsu/src/dayNNN.py`のデータから`build_kaisetsu.py`で組み立てる。
 作ったら`python3 daily-drill/check_all.py`でNG 0件にする（朝の独立照合は`morning/review/`、問題文を直したらやり直す）。個人の演習結果は問題・解説に入れない。
+
+## note運営の戦略（`note-unei/`）について(2026-10-29追加)
+
+読者を増やし購読につなげるための運営方針は、記事とは分けて`note-unei/`に置く。今の戦略は`senryaku.md`（版番号つき）、改訂履歴は`kaitei-rireki.md`、ダッシュボードの数字は`kpi-log.csv`（週1回）。
+戦略を変えるときは`note-unei/README.md`の手順で、前の版を`archive/`に写し、版を上げ、履歴に「変えたこと・理由・そのときの数字」を足し、`senryaku.md`の「方針を反映しているファイル」（マガジン説明文など）も合わせて直す。作業ブランチは`main`。
+年度別マガジン説明文（`note-articles/magazine-descriptions.md`）は、2026-10-29に「教材としてまとめたものではなく…」の結びを外し、確かめ方（現行法令・条文の原文）と更新の約束を書く形に改めた。
