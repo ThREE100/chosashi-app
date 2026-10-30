@@ -4,6 +4,8 @@
 
 ## 表示名（名前）
 
+決定：`みもっさん@土地家屋調査士試験対策`（2026-10-30）。
+
 表示名（太字で出る名前）は自由に書ける文字列で、`@` 以降も含めて無料のアカウントで設定できる。
 「名前＠肩書き」の形は、表示名の中に `＠〜` を書いているだけで、ユーザー名（`@xxxx` のID）とは別物。
 表示名は50文字まで。
@@ -14,14 +16,45 @@
 - `みもっさん＠毎朝の調査士ドリル`
 - `みもっさん｜土地家屋調査士試験の受験生`
 
-## プロフィール（自己紹介。160文字まで）
+## プロフィールの各欄（2026-10-30 表示名は「みもっさん@土地家屋調査士試験対策」に決定。アイコンはトリ先生）
+
+### 自己紹介（160文字まで。119文字）
 
 ```
-土地家屋調査士試験の受験生。令和8年度は夏前から挑戦するも太刀打ちできず、令和9年度の合格へ再スタート。毎朝、条文から作ったオリジナルの択一を1問出題し、夜に答えを投稿します。過去問の全肢解説はnoteで（現行法令と条文の原文で確認）。
+土地家屋調査士試験の受験生。令和8年度は夏前から挑戦するも太刀打ちできず、令和9年度の合格へ再スタート。
+毎朝、条文から作ったオリジナルの択一を1問出題、夜に答えを投稿します。
+過去問の全肢解説はnoteで（現行法令と条文の原文で確認）。
 ```
 
-- ウェブサイトの欄：noteのトップページのURL。
-- 書かないこと：`note-unei/senryaku.md` の「書かないこと」に従う（予備校の解答例との照合、「合格するまで更新」など）。
+### 場所（30文字まで）
+
+住んでいる場所は書かず、投稿の時刻を書いて「いつ見に来ればいいか」を伝える。
+
+```
+毎朝7時に1問、夜21時に答え
+```
+
+### ウェブサイト
+
+noteのトップページのURL（`https://note.com/` の後ろにnoteのID）。
+
+### ヘッダー画像（1500×500px）
+
+ChatGPTに、アイコンのトリ先生の画像を添付して貼る。
+
+```
+Create a Twitter/X profile header image, EXACTLY 1500x500 pixels (3:1 landscape).
+STYLE: soft Japanese watercolor-like illustration, bright pastel morning sky (light blue, cream, pale yellow), gentle clouds, clean outlines.
+CHARACTER: draw only the owl teacher shown in the attached image (brown owl with round glasses and a blue shirt). Copy his look exactly; do not add any other person or animal. Place him on the right third, pointing up cheerfully.
+SAFE ZONE (critical): the profile icon covers the bottom-left corner (about 400x400px from the left edge) and the right edge may be cropped on phones, so keep the left 30% and the bottom 25% free of text and the character's face.
+TEXT (Japanese only, reproduce verbatim, nothing else), centered in the upper middle area, bold rounded font, dark navy over a soft white cloud glow:
+毎朝1問　土地家屋調査士試験
+Below it, smaller, red-orange:
+条文から作るオリジナルの択一
+Do not render any other text, letters, digits, or decorative glyphs. Use standard Japanese Jōyō kanji only (no Simplified or Traditional Chinese forms).
+BACKGROUND: fully opaque from edge to edge; no transparency, no checkerboard.
+DECOR: faint land-survey motifs in the sky (a surveyor's tripod, a boundary stake, a folded map) drawn small and soft, without any writing on them.
+```
 
 ## 固定する投稿（最初に1本）
 
