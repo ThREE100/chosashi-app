@@ -125,20 +125,30 @@ def main():
             if a <= d <= b:
                 m, n = posts_for(d)
                 e = evening_post(d)
-                print(f'===== 第{d}日 朝 ({x_len(m)}/280)\n{m}\n===== 第{d}日 返信 ({x_len(n)}/280)\n{n}\n'
-                      f'===== 第{d}日 夜・記述式 ({x_len(e)}/280)\n{e}\n')
+                print(f'===== 第{d}日 午前 ({x_len(m)}/280)\n{m}\n===== 第{d}日 午前の返信 ({x_len(n)}/280)\n{n}\n'
+                      f'===== 第{d}日 午後 ({x_len(e)}/280)\n{e}\n')
         return
     lines = ['# Xの投稿文（毎日ドリル・朝の択一）', '',
              '`make_x_posts.py` で作る（手で直さない）。返信の `{URL}` は、その日のnoteの解説記事のURLに貼りかえる。',
              '朝の投稿には問題の画像（`daily-drill/out/dayNNN-am.html` の問題部分の画面写し）、夜の記述式の投稿には `daily-drill/out/dayNNN-pm.html` の画面写しを添える。夜の `{URL}` は、その日の記述式ドリルのnoteの記事のURL。', '']
     for d in days:
         m, n = posts_for(d)
-        lines += [f'## Day{d:03d}', '', f'朝（{x_len(m)}/280）', '', '```', m, '```', '',
-                  f'返信（朝の投稿への返信として投稿。{x_len(n)}/280）', '', '```', n, '```', '']
+        lines += [f'## Day{d:03d}', '', f'午前（択一ドリル。問題の画像を添える。{x_len(m)}/280）', '', '```', m, '```', '',
+                  f'午前の返信（午前の投稿への返信として投稿。{x_len(n)}/280）', '', '```', n, '```', '']
         e = evening_post(d)
-        lines += [f'夜・記述式（問題の画像を添える。返信はしない。{x_len(e)}/280）', '', '```', e, '```', '']
+        lines += [f'午後（記述式ドリル。問題の画像を添える。返信はしない。{x_len(e)}/280）', '', '```', e, '```', '']
     open(OUT, 'w', encoding='utf-8').write('\n'.join(lines))
-    print(f'{len(days)}日分を書き出した：{OUT}')
+    daydir = os.path.join(os.path.dirname(OUT), 'posts')
+    os.makedirs(daydir, exist_ok=True)
+    for d in days:
+        m, n = posts_for(d)
+        e = evening_post(d)
+        body = [f'# Day{d:03d} のXの投稿文', '', '`make_x_posts.py` で作る（手で直さない）。`{URL}` はその日のnoteの記事のURLに貼りかえる。', '',
+                f'## 午前（択一ドリル。問題の画像 `daily-drill/out/day{d:03d}-am.html` を添える。{x_len(m)}/280）', '', '```', m, '```', '',
+                f'## 午前の返信（午前の投稿への返信として投稿。{x_len(n)}/280）', '', '```', n, '```', '',
+                f'## 午後（記述式ドリル。問題の画像 `daily-drill/out/day{d:03d}-pm.html` を添える。返信はしない。{x_len(e)}/280）', '', '```', e, '```', '']
+        open(os.path.join(daydir, f'day{d:03d}.md'), 'w', encoding='utf-8').write('\n'.join(body))
+    print(f'{len(days)}日分を書き出した：{OUT} と posts/dayNNN.md')
 
 
 if __name__ == '__main__':
