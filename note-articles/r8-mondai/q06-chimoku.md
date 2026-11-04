@@ -182,7 +182,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・目・認・定・設・敷・用・業・付・貯・体・農・建・物・決・有 — these
+kanji 地・目・認・定・設・敷・用・業・分・図・建・付・貯・体・農・物・決・有 — these
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
@@ -233,7 +233,7 @@ Subtitle (smaller, centered, 1行):
 --- COLUMN A, CARD 1 ---
 Heading (bold, ONE line, ~20 characters or fewer):
 工場の敷地は宅地になる
-Illustration: 工業専用地域の看板のない工場の模型と、地目の札「宅地」が土地に刺さり、「工場用地」の札には赤い×が付く様子。
+Illustration: 工業専用地域を示す色分けの地図の上に建つ工場の模型と、地目の札「宅地」が土地に刺さり、「工場用地」の札には赤い×が付く様子。
 Words allowed inside this illustration (verbatim, nothing else): 「宅地」 「工場用地」
 Conclusion tag (green banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
@@ -282,7 +282,7 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 地・目・認・定・設・敷・用・業・付・貯・体・農・建・物・決・有. Also scan the entire canvas for any character that is not standard Japanese
+attention to 地・目・認・定・設・敷・用・業・分・図・建・付・貯・体・農・物・決・有. Also scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other
 non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. If any character renders as a Simplified or

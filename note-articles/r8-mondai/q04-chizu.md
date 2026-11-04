@@ -44,7 +44,9 @@
 
 ### ウ：地図作成事業による職権の地積更正の原因は「錯誤、地図作成」
 
-法務局が行う地図作成事業では、登記官が、事業の対象になった土地について、職権で地積に関する更正の登記をすることがあります。このとき、登記原因及びその日付の欄には、「錯誤、地図作成」と日付が記録されます（原因の欄番号は③）。
+法務局が行う地図作成事業では、登記官が、事業の対象になった土地について、職権で地積に関する更正の登記をすることがあります。
+
+このとき、登記原因及びその日付の欄には、「錯誤、地図作成」と記録されます（原因の欄番号は③。錯誤には日付がないので、日付は記録されません）。
 
 申請に基づく登記ではなく、登記官が職権でするため、申請人が原因を書くことはありません。本肢は正しいといえます。
 
@@ -394,7 +396,7 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 地図に準ずる図面は位置・形状・地番を表示
-Diagram: A side-by-side comparison frame with two boxes. LEFT box (faded, grey, dotted outline, because it is the definition of the other drawing) labeled 「地図(不動産登記法14条2項)」: a precise map sheet with sharp boundary lines and the tag 「各土地の区画を明確にし、地番を表示」. RIGHT box (thick border, full color) labeled 「地図に準ずる図面(同条5項)」: an old rough map with the tag 「土地の位置、形状及び地番を表示」. Between the two boxes, a small note 「区画を明確にするのは地図」. A red cross is drawn on the phrase 「区画を明確にし」 in the right box to show it does not belong to the drawing that is only equivalent to a map.
+Diagram: A side-by-side comparison frame with two boxes. LEFT box (faded, grey, dotted outline, because it is the definition of the other drawing) labeled 「地図(不動産登記法14条2項)」: a precise map sheet with sharp boundary lines and the tag 「各土地の区画を明確にし、地番を表示」. RIGHT box (thick border, full color) labeled 「地図に準ずる図面(同条5項)」: an old rough map with the tag 「土地の位置、形状及び地番を表示」. Between the two boxes, a small note 「区画を明確にするのは地図」. Below the RIGHT box, a separate small tag 「問題文：各土地の区画を明確にし、地番を表示」 with a red cross, and a thin arrow from that tag to the LEFT box, showing that this wording is the definition of 地図, not of the drawing equivalent to a map.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、問われているのが地図か、地図に準ずる図面かを確認します。次に、区画を明確にするのは地図の定義で、準ずる図面は位置・形状・地番を表示するものだと対応させます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
@@ -416,7 +418,7 @@ characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 職権の地積更正の原因は「錯誤、地図作成」
-Diagram: An illustrative step diagram read from left to right with three numbered steps. Step 1: a registry-office staff member with a surveying tool and a district map, labeled 「法務局地図作成事業の対象土地を測量」. Step 2: an arrow to a registry book where the area is corrected by a stamp, labeled 「登記官が職権で地積に関する更正の登記」, with a small blank application form crossed out in red to show that no application is filed. Step 3: the registry entry showing 「錯誤、地図作成」 in the cause column with a date and the column number 「③」, labeled 「登記原因及びその日付」.
+Diagram: An illustrative step diagram read from left to right with three numbered steps. Step 1: a registry-office staff member with a surveying tool and a district map, labeled 「法務局地図作成事業の対象土地を測量」. Step 2: an arrow to a registry book where the area is corrected by a stamp, labeled 「登記官が職権で地積に関する更正の登記」, with a small blank application form crossed out in red to show that no application is filed. Step 3: the registry entry showing 「錯誤、地図作成」 in the cause column with no date written and the column number 「③」, labeled 「登記原因及びその日付」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、地図作成事業の対象土地で登記官が職権で地積を更正することを確認します。次に、申請ではないので申請人は原因を書かず、原因及びその日付は「錯誤、地図作成」と記録されると判定します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese

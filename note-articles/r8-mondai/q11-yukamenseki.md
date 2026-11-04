@@ -86,7 +86,7 @@
 - **イ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
 - **ウ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
 - **エ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`
-- **オ**　関連する過去の記事：`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`
+- **オ**　関連する過去の記事：`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`
 
 **このまま使える点／使う前に確認したい点**
 

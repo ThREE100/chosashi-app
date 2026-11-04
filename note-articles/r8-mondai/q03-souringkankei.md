@@ -424,7 +424,7 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 分割で袋地になったら分割者の土地だけ通れる
-Diagram: A staged panel in two parts, read from top to bottom. PART 1 (top strip): a sequence of three small top-down mini-maps joined by right-pointing arrows, each with a public road along its bottom edge labelled 「公道」 and a short caption above it. MINI-MAP 1, caption 「分割前」: one plot 「甲」 owned by 「A」 touching the road, with a dashed line across its back part showing where it will be divided, and a neighbouring plot 「丙」 owned by 「C」 touching the road beside it. MINI-MAP 2, caption 「分筆して乙をBに譲渡」: the back part is now a separate plot 「乙」 owned by 「B」, located behind 甲 and next to 丙, so 乙 is surrounded by 甲 and 丙 and has no road frontage; a green arrow runs from 乙 through 甲 down to the road with a check mark, and a red cross sits on the route toward 丙. MINI-MAP 3, caption 「甲をDに譲渡」: the owner tag of 甲 changes from 「A」 to 「D」 (a small key-handover icon on 甲), 乙 is still owned by 「B」, the green arrow still runs from 乙 through 甲 to the road, and the red cross toward 丙 is still there. All three mini-maps use the same plot positions so the viewer sees the same land changing owners step by step. PART 2 (below): a short flowchart. Start node 「乙土地が甲と丙に囲まれて公道に通じなくなった」, then a diamond node 「袋地になった原因は土地の分割か」. Branch 「はい」 (thick border, full color) goes to a conclusion node 「分割した相手の甲土地だけ通行できる(民法213条1項・2項)」 with a side note 「甲土地がDに渡っても、通行できるのは甲土地のまま」. Branch 「いいえ」 (faded, grey) goes to its own node 「囲んでいる土地を通行できる(民法210条)」. No arrow returns to an earlier node.
+Diagram: A staged panel in two parts, read from top to bottom. PART 1 (top strip): a sequence of three small top-down mini-maps joined by right-pointing arrows, each with a public road along its bottom edge labelled 「公道」 and a short caption above it. MINI-MAP 1, caption 「分割前」: one plot 「甲」 owned by 「A」 touching the road, with a dashed line across its back part showing where it will be divided, and a neighbouring plot 「丙」 owned by 「C」 touching the road beside it. MINI-MAP 2, caption 「分筆して乙をBに譲渡」: the back part is now a separate plot 「乙」 owned by 「B」, located behind 甲 and next to 丙, so 乙 is surrounded by 甲 and 丙 and has no road frontage; a green arrow runs from 乙 through 甲 down to the road with a check mark, and a red cross sits on the route toward 丙. MINI-MAP 3, caption 「甲をDに譲渡」: the owner tag of 甲 changes from 「A」 to 「D」 (a small key-handover icon on 甲), 乙 is still owned by 「B」, the green arrow still runs from 乙 through 甲 to the road, and the red cross toward 丙 is still there. All three mini-maps use the same plot positions so the viewer sees the same land changing owners step by step. PART 2 (below): a short flowchart. Start node 「乙土地が甲と丙に囲まれて公道に通じなくなった」, then a diamond node 「袋地になった原因は土地の分割又は一部の譲渡か」. Branch 「はい」 (thick border, full color) goes to a conclusion node 「分割した相手の甲土地だけ通行できる(民法213条1項・2項)」 with a side note 「甲土地がDに渡っても、通行できるのは甲土地のまま」. Branch 「いいえ」 (faded, grey) goes to its own node 「囲んでいる土地を通行できる(民法210条)」. No arrow returns to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、袋地になった原因が土地の分割かどうかを確認します。次に、分割であれば通れるのは分割の相手方の甲土地だけで、甲土地がDに譲渡されても変わらず、Cの丙土地は通れないと判定します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
@@ -637,7 +637,7 @@ Branch (diamond): 次のどれかに当たるか。 Three chips: 「催告して
 Arrow YES (green): 土地の所有者が、自分で枝を切り取れる。
 Arrow NO (red): 勝手に切らず、所有者に切除を求める。
 Side box with a separate small icon: 竹木の根は、境界線を越えていれば、いつでも自分で切り取れる。
-Side box: 竹木が数人の共有のときは、各共有者が枝を切り取れる。
+Side box: 竹木が数人の共有のときは、竹木の各共有者が、ほかの共有者の同意なしに、その枝を切り取れる。
 
 --- CALLOUT: 誤りやすいポイント ---
 「急迫の事情があるときは、枝を自分で切り取れる」は、3つの場合の1つとして条文に書かれています。急迫の事情は、催告をしている余裕がないほど差し迫った場合です。
@@ -789,7 +789,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 分・袋・地・通・関・係・部・譲・渡・図・変・償・金・理・囲・所・有・行・当・定・法・条 — always
+any characters. Pay special attention to the kanji 分・袋・地・通・関・係・部・譲・渡・図・面・囲・代・償・金・理・所・有・行・前・規・定・合・用・当・法 — always
 draw the standard Japanese (Jōyō) form.
 
 ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
@@ -817,10 +817,10 @@ Subtitle (smaller, centered):
 令和8年度 第3問 エ－関係のない土地は通れない
 
 --- COMPARISON ---
-Left panel (green header 「分割・一部譲渡による袋地」): 小さな図。甲の土地から乙を分けて譲渡し、乙が袋地になる。乙の持ち主が通れるのは「甲」だけ（緑の矢印）。甲の持ち主が変わっても、通れる土地は甲のまま。償金は不要。
+Left panel (green header 「分割・一部譲渡による袋地」): 小さな図。公道に面して甲（Aの土地）と丙（Cの土地）が並び、甲から奥の乙を分けてBに譲渡したため、乙が甲と丙に囲まれた袋地になる。乙の持ち主Bが通れるのは「甲」だけ（緑の矢印）。甲の持ち主がAからDに代わっても（鍵を渡す手のアイコン）、通れる土地は甲のまま。償金は不要。
 Right panel (blue header 「それ以外の理由の袋地」): 小さな図。もともと他の土地に囲まれた袋地は、囲んでいる土地のうち、損害が最も少ない場所を通る。償金を支払う。
 Bottom row: 図の丙の土地に赤い×（分割と関係のないC所有の土地は、分割による袋地では通れない）。
-Quoted article text strip: 「分割によって公道に通じない土地が生じたときは、その土地の所有者は、公道に至るため、他の分割者の所有地のみを通行することができる。」
+Quoted article text strip: 「分割によって公道に通じない土地が生じたときは、その土地の所有者は、公道に至るため、他の分割者の所有地のみを通行することができる。」「前項の規定は、土地の所有者がその土地の一部を譲り渡した場合について準用する。」
 
 --- CALLOUT: 誤りやすいポイント ---
 甲土地をDに譲渡したら通れる土地が増える、とは考えないでください。通行できる土地は、分割の当事者だった側の土地に固定されます。
