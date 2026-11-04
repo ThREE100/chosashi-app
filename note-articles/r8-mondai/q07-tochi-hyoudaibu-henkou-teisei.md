@@ -36,7 +36,7 @@
 
 敷地権である旨の登記がされている土地でも、この義務は変わりません。敷地権である旨の登記を抹消した後でなければ申請できない、という定めはなく、本肢は誤りです。
 
-**たとえば**、敷地権付きマンションの敷地の一筆全体が駐車場（雑種地）に変わったときも、敷地権の登記を消すことなく、地目の変更の登記を申請します。
+**たとえば**、マンションの規約敷地になっている別の一筆の土地が、全体として駐車場（雑種地）に変わったときも、敷地権である旨の登記を消すことなく、地目の変更の登記を申請します。
 
 ### ウ：地積更正では、増加部分の所有権の証明は要らない
 
@@ -398,7 +398,7 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 敷地権の登記があっても地目変更できる
-Diagram: A decision flowchart. Top: a condominium site land plot with a small 「敷地権」 mark, part of which has become a parking lot. Step 1: a box 「地目に変更があった」 leads to a box 「所有権の登記名義人は1か月以内に地目変更の登記を申請する(37条1項)」. Step 2: Diamond reads 「敷地権の登記を先に抹消する定めがあるか」. Yes arrow leads to a faded node with a red cross 「定めはない」. No arrow leads to the conclusion node 「敷地権の登記を残したまま地目変更を申請できる」 (thick border, full color). No loop arrows.
+Diagram: A decision flowchart. Top: a separate land plot next to a condominium that is a by-agreement condominium site (規約敷地) with a small 「敷地権」 mark, the whole of which has become a parking lot. Step 1: a box 「地目に変更があった」 leads to a box 「所有権の登記名義人は1か月以内に地目変更の登記を申請する(37条1項)」. Step 2: Diamond reads 「敷地権の登記を先に抹消しなければならないか」. Branch 「しなければならない」 is drawn faded with a red cross and the note 「そのような定めはない」. Branch 「その必要はない」 leads to the conclusion node 「敷地権の登記を残したまま地目変更を申請できる」 (thick border, full color). No loop arrows.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、地目が変わったら1か月以内に申請する義務があること（不動産登記法37条1項）を確認し、次に敷地権の登記を先に抹消する定めがあるかを確認します。そのような定めはありません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese

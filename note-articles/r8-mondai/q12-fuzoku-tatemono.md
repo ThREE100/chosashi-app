@@ -50,7 +50,9 @@
 
 効用上一体として利用される状態にある数棟の建物は、所有者の意思に反しない限り、1個の建物として取り扱います（準則78条1項）。
 
-主である建物に抵当権の設定の登記がされていても、これは制限になりません（準則78条1項は抵当権に触れていませんが、附属建物の新築を制限する定めはありません）。
+附属建物の新築による登記は、建物の表題部の変更の登記（不動産登記法51条1項）であって、建物の合併の登記ではありません。
+
+抵当権などの権利の登記があると原則としてできないという制限（同法56条5号）は建物の合併の登記についての定めで、附属建物の新築による変更の登記には、主である建物に抵当権の登記があることを理由とする制限はありません。
 
 新築した建物を附属建物とする建物の表題部の変更の登記は申請できます。「申請することができない」とする本肢は誤りです。
 
@@ -62,7 +64,7 @@
 
 本肢は正しいといえます。
 
-**たとえば**、一戸建ての敷地の端にある小さなマンションの一室を、一戸建ての附属建物にするときは、附属建物の欄の構造欄に、その一室の敷地権の内容が記録されます。
+**たとえば**、一戸建ての近くのマンションの一室を、一戸建てと一体で物置として使うためにその一戸建ての附属建物とするときは、一戸建ての登記記録の附属建物の表示欄の構造欄に、そのマンション（一棟の建物）の所在などと、その一室の敷地権の内容が記録されます。
 
 ---
 
@@ -94,7 +96,7 @@
 
 - 文章としては、タイトルから「正解」の行までを、このままnoteに貼り付けて投稿できる内容です（「※欄外メモ」は、この区切り以降にまとめています）。
 - 出題番号は、受験者が持ち帰った令和8年度の問題用紙の写真から転記して確認しました。正解番号（4番＝イ・オ）は、予備校の解答速報（2026年10月18日公開）で確認した暫定のものです。法務省の公式の正答が公表されたら、照合してください。
-- 根拠の不動産登記事務取扱手続準則78条1項・92条・94条1項は、`note-articles/laws/`配下の原文で確認しました。
+- 根拠の不動産登記法51条1項・56条5号、不動産登記事務取扱手続準則78条1項・92条・94条1項は、`note-articles/laws/`配下の原文で確認しました。
 - アの図面の提供を省略できる点は、不動産登記令別表十四の項の添付情報欄（建物図面が必要な場合の列挙に附属建物の取壊しがない）で確認しました。オの附属建物が区分建物の場合の記録は、不動産登記規則別表二（附属建物の表示欄・構造欄）で確認しました。過去問の一問一答バンクにも、アは同旨の出題（省略できる旨の肢と、省略できないとする誤りの肢）があり、結論は一致しています。
 - エは、過去問の一問一答バンクに同型の誤りの肢があり、結論は一致しています。
 - 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
@@ -388,7 +390,7 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 附属建物の取壊しは建物図面を省略できる
-Diagram: A decision flowchart. Top node: an icon of a main house and a storage shed labeled「附属建物を取り壊した」. A diamond node asks:「変更の内容は、所在の地番の変更・更正、床面積の変更・更正、附属建物の新築のどれかか」. The Yes arrow goes to a red conclusion node:「建物図面を添付する」 (shown faded because it is not this panel's case). The No arrow goes to a green conclusion node:「建物図面の提供を省略できる」, with a small note「残る建物の位置や形状は変わらない」 and a main house drawing that stays the same. No loop arrows; every branch ends in its own conclusion node.
+Diagram: A decision flowchart. Top node: an icon of a main house and a storage shed labeled「附属建物を取り壊した」. A diamond node asks:「変更の内容は、所在の地番の変更・更正、床面積の変更・更正、附属建物の新築のどれかか」. The Yes arrow goes to a neutral grey conclusion node:「建物図面を添付する」 (shown faded because it is not this panel's case). The No arrow goes to a green conclusion node:「建物図面の提供を省略できる」, with a small note「残る建物の位置や形状は変わらない」 and a main house drawing that stays the same. No loop arrows; every branch ends in its own conclusion node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、申請する変更が所在の地番の変更・更正、床面積の変更・更正、附属建物の新築のどれかにあたるかを確認します。附属建物の取壊しはどれにもあたらないので、建物図面の提供を省略できます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese

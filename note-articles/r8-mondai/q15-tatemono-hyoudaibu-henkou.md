@@ -431,7 +431,7 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 床面積が減る変更の登記に抵当権者の承諾は要らない
-Diagram: A building with a mortgage tag labeled「抵当権の登記」, part of it demolished (dotted outline, floor area decreases). Beside it, a checklist of the attached information for a 表題部's change of registration (令別表の十四の項), with items such as 図面 and 所有権を証する情報 ticked. A slot labeled「抵当権者の承諾を証する情報」 is drawn faded and empty with a red ✕, to show that this item is not in the list.
+Diagram: A building with a mortgage tag labeled「抵当権の登記」, part of it demolished (dotted outline, floor area decreases). Beside it, a checklist of the attached information for a 表題部's change of registration (令別表の十四の項), with only「変更後の建物図面」 and「変更後の各階平面図」 ticked (a small grey note:「所有権を証する情報は床面積が増加するときだけ」). A slot labeled「抵当権者の承諾を証する情報」 is drawn faded and empty with a red ✕, to show that this item is not in the list.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物の表題部の変更の登記の添付情報を定める令別表の十四の項に、抵当権者の承諾を証する情報が含まれているかを確認します。含まれていないので、床面積が減少しても承諾は要りません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese

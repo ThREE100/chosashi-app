@@ -52,7 +52,9 @@
 
 表題部所有者又は所有権の登記名義人が申請できる表示に関する登記は、その人に相続があったときは、相続人が申請できます（不動産登記法30条）。
 
-一部地目変更分筆登記は、土地の一部の現況が変わったことを登記に反映させるもので、共同相続人の1人だけでも申請できます。他の相続人の同意や、共同での申請は要りません。本肢は正しいといえます。
+一部地目変更分筆登記は、地目の変更の登記の申請義務（不動産登記法37条1項）を果たすためのもので、申請がなくても登記官が職権で分筆しなければならない性質の登記です（同法39条2項）。
+
+現況を登記に反映させる報告的な登記なので、共同相続人の1人だけでも申請でき、他の相続人の同意や共同での申請は要りません。持分の価格の過半数を要する通常の分筆とは扱いが違います。本肢は正しいといえます。
 
 **たとえば**、亡くなった父の土地の一部が駐車場になったとき、子のうち1人が単独で、その部分を分筆して地目を変える登記を申請できます。
 
@@ -60,7 +62,11 @@
 
 分筆の登記は、表題部所有者又は所有権の登記名義人以外の者は、申請できません（不動産登記法39条1項）。
 
-敷地権である旨の登記がされている土地でも、「区分建物の所有権の登記名義人の全員が申請人とならなければならない」という定めはありません。本肢は誤りです。
+所有権が敷地権である土地は、区分建物の所有者（敷地権の登記名義人）の共有です。
+
+共有の土地の分筆は、共有物の管理として持分の価格の過半数で決することができ（民法251条1項かっこ書き・252条1項。令和5年4月1日施行の改正後の登記実務の取扱い）。
+
+区分建物の所有権の登記名義人の全員が申請人とならなければならない、という定めもありません。本肢は誤りです。
 
 **たとえば**、分譲マンションの敷地を分筆するときに、住戸の所有者全員が申請書に名前を並べなければならない、という決まりはありません。
 
@@ -97,7 +103,7 @@
 - 根拠の不動産登記法21条・30条・39条・40条、不動産登記規則16条・104条は、`note-articles/laws/`配下の原文で確認しました。
 - アの「分筆の錯誤を原因とする登記で是正し、改めて分筆するなど別の手続が必要」という部分は、先例に基づく実務の扱いで、先例の原文と是正の具体的な形（錯誤による抹消のうえ再分筆か、合筆か）は確認できていません。過去問の一問一答バンクにも、分筆線の誤りを地図訂正や地積更正で直せるとする誤りの肢があり、結論は一致しています。
 - ウは、条文（法40条・規則104条）の文言が一方の土地についての消滅を想定した書き方であること、過去問に同型の誤りの肢があることから誤りと整理しました。双方の土地について消滅させることを承諾しても、登記官が双方に消滅の記録をすることはできないという整理は、過去の出題（令和5年度の同旨の肢）とも一致しています。
-- エは、過去問に同旨の出題があり、結論は一致しています。オは、法39条1項の申請人の定めから整理しました。
+- エは、過去問に同旨の出題があり、結論は一致しています（法37条1項・39条2項も原文で確認）。オの、共有地の分筆を持分の価格の過半数を有する者から申請できるという整理は、民法の規定と登記実務の取扱いによるもので、申請人をこの形で定めた条文は`laws/`では確認できていません（平成17年度第6問の記事と同じ扱い）。
 - 「※欄外メモ」（論点別・各肢別）は、過去に作成した記事のうち、同じ論点の肢を扱ったものを一問一答バンクの出典から拾った参考情報です。
 
 ---
@@ -412,7 +418,7 @@ characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 消滅させる抵当権は一方の土地だけ
-Diagram: A decision flowchart. Top: a plot with a mortgage tag split into 甲 and 乙, with a mortgagee's consent document attached. Diamond reads 「承諾は分筆後のどちらの土地についての消滅か」. Branch 「一方の土地(例：乙)」 leads to the conclusion node 「承諾した土地だけ消滅の登記がされ、もう一方に抵当権が残る」 (thick border, full color, 乙 without a tag and 甲 still with a tag; basis tag 「40条、規則104条」). Branch 「甲と乙の双方」 leads to a faded node with a red cross 「そのような消滅の定めはない」. No loop arrows.
+Diagram: A decision flowchart. Top: a plot with a mortgage tag split into 甲 and 乙, with a mortgagee's consent document attached. Diamond reads 「承諾は分筆後のどちらの土地についての消滅か」. Branch 「一方の土地(例：乙)」 leads to the conclusion node 「承諾した土地だけ消滅の登記がされ、もう一方に抵当権が残る」 (thick border, full color, 乙 without a tag and 甲 still with a tag; basis tag 「40条、規則104条」). Branch 「甲と乙の双方」 leads to a faded node with a red cross 「法40条の消滅の登記の対象外（双方から消すなら抵当権の抹消の登記による）」. No loop arrows.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、抵当権者が分筆後のどの土地について消滅を承諾したかを確認し、次に消滅の登記がどの土地についてされるかを確認します。承諾した一方の土地についてだけされます。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
@@ -423,9 +429,9 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 相続人の1人で一部地目変更分筆を申請できる
-Diagram: A decision flowchart. Top: a deceased owner silhouette above a plot of which one part has become a parking lot, with three heirs below. Step 1: a box 「名義人に相続があった → 相続人が申請できる(30条)」. Diamond reads 「ほかの相続人の同意や共同での申請が要るか」. Yes arrow leads to a faded node with a red cross 「定めはない」. No arrow leads to the conclusion node 「相続人の1人が単独で申請できる」 (thick border, full color, one heir highlighted). No loop arrows.
+Diagram: A decision flowchart. Top: a deceased owner silhouette above a plot of which one part has become a parking lot, with three heirs below. Step 1: a box 「名義人に相続があった → 相続人が申請できる(30条)」. Diamond reads 「一部が別の地目になったことによる分筆か（地目変更の申請義務・37条1項、職権分筆もある・39条2項）」. Branch 「はい」 leads to the conclusion node 「相続人の1人が単独で申請できる」 (thick border, full color, one heir highlighted). Branch 「いいえ（通常の分筆）」 leads to a faded node 「持分の価格の過半数が必要（1人の持分2分の1では足りない）」. No loop arrows.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、名義人に相続があり相続人が申請できること（不動産登記法30条）を確認し、次にほかの相続人の同意や共同申請が要るかを確認します。要らず、1人で申請できます。
+まず、名義人に相続があり相続人が申請できること（不動産登記法30条）を確認し、次に一部地目変更に伴う分筆かを確認します。地目変更の申請義務を果たす登記なので、1人で申請できます。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 単独で申請できる
@@ -434,9 +440,9 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 敷地権のある土地の分筆は全員の申請ではない
-Diagram: A decision flowchart. Top: a condominium building on a site plot marked with 「敷地権」. Step 1: a box 「分筆を申請できるのは、表題部所有者又は所有権の登記名義人(39条1項)」. Diamond reads 「区分建物の所有者の全員が申請人になる定めがあるか」. Yes arrow leads to a faded node with a red cross showing all the unit owners' names in a row. No arrow leads to the conclusion node 「全員の申請は要らない」 (thick border, full color). No loop arrows.
+Diagram: A decision flowchart. Top: a condominium building on a site plot marked with 「敷地権」. Step 1: a box 「土地の所有権の登記名義人は、区分建物の所有者の共有」. Diamond reads 「分筆に共有者全員の申請が要るか」. Branch 「全員が必要」 is drawn faded with a red cross, showing all the unit owners' names in a row. Branch 「持分の価格の過半数でよい（共有物の管理）」 leads to the conclusion node 「全員の申請は要らない」 (thick border, full color). No loop arrows.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、分筆の登記を申請できる人が名義人であること（不動産登記法39条1項）を確認し、次に区分建物の所有者全員が申請人になる定めがあるかを確認します。そのような定めはありません。
+まず、敷地権である土地の名義人が区分建物の所有者の共有であることを確認し、次に共有の土地の分筆が全員でなければできないかを確認します。全員の申請は要りません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 全員の申請は不要
