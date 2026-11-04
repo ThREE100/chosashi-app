@@ -533,7 +533,7 @@ I点はBCとY＝485.26の交点で I ＝ B ＋ (C − B) × 0.57 ÷ 10.57 ＝（
 ## 「建て付け」マップ（`note-articles/tatekata-map/`）について(2026-11-04追加)
 
 不動産登記法の本則（第1条〜第164条）を、土台・担い手・記録・共通手続・表示・権利・確かめる・周辺の8つの棚に分けた「条文の地図」のnote記事と図解（7枚＋Instagram用の3:4版＋見出し画像2種〈note用・Instagram用〉）。目的は条文探しではなく、構成と押さえるべきポイントをつかませ、初学者の学習のハードルを下げること。ドリルのねらい（条文に立ち返って建て付けをつかむ）の図解版。
-構成案`00-kousei.md`、記事`01-fudousan-touki-hou-tatekata-map.md`、図解プロンプト`01-zukai-prompts.md`、原文との機械チェック`check_article.py`（NG 0件）。画像の生成・目視確認は未実施。表示＝青、権利＝薄い橙を全図で統一する。
+構成案`00-kousei.md`、記事`01-fudousan-touki-hou-tatekata-map.md`、図解プロンプト`01-zukai-prompts.md`、Instagramキャプション案`03-instagram-captions.md`、原文との機械チェック`check_article.py`（NG 0件）。画像の生成・目視確認は未実施。表示＝青、権利＝薄い橙を全図で統一する。
 
 ## 「数字の図鑑」（`note-articles/kigen-suuji-zukan/`）について(2026-11-04追加)
 

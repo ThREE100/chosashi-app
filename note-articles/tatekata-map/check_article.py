@@ -146,6 +146,23 @@ check(len(words_lines) == 8, f'Words allowedの行が8本（図7＋IG）でな�
 for name, _, _ in SHELVES:
     check(name in article, f'記事に棚名{name}がない')
 
+
+# 6. Instagramのキャプション案
+CAP = os.path.join(HERE, '03-instagram-captions.md')
+cap = open(CAP, encoding='utf-8').read()
+blocks = re.findall(r'```\n(.*?)```', cap, flags=re.S)
+check(len(blocks) == 9, f'キャプションが9本（A＋B-0〜B-7）でない: {len(blocks)}')
+for i, b in enumerate(blocks):
+    check(len(b) <= 2200, f'キャプション{i}が2200字を超える')
+    check(3 <= len(re.findall(r'#\S+', b)) <= 5, f'キャプション{i}のハッシュタグが3〜5個でない')
+    check('http' not in b, f'キャプション{i}にURLがある（押せないのでプロフィールのリンクに誘導する）')
+    for m in re.finditer(r'第(\d+)条(の\d+)?', b):
+        n = m.group(1) + (m.group(2) or '')
+        check(n in arts, f'キャプション{i}: 第{n}条が本則にない')
+    for w in BAN + ['誤答', '間違えた回数']:
+        check(w not in b, f'キャプション{i}に「{w}」がある')
+check(cap.count('プロフィールのリンク') >= 8, 'キャプションからプロフィールのリンクへの誘導が足りない')
+
 if ng:
     print('NG', len(ng))
     for m in ng:
