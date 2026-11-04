@@ -203,7 +203,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R6 第12問 建物の認定](../r6-mondai/q12-tatemono-nintei.md) | サイロ・石油タンク・廃車車両の建物該当性 |
 | ★ | [H21 第4問 建物の認定](../h21-mondai/q04-tatemono-nintei.md) | 温室・タンク・コンテナ倉庫 |
 
-**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../column/tatemono-nintei-3youken.md) ★★★
+**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../topics/tatemono-nintei-3youken.md) ★★★
 
 ---
 

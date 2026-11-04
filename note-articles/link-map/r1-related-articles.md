@@ -136,7 +136,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R6 第10問 地役権図面](../r6-mondai/q10-chiekiken-zumen.md) | 地役権図面との縮尺の関係 |
 | ★ | [R3 第6問 却下](../r3-mondai/q06-kyakka.md) | 基本三角点等を利用しない図面は却下 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../column/hozon-kikan-matome.md) ★★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★★
 
 ---
 
@@ -256,7 +256,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 
 **個別テーマ記事**
 - [売ってしまったら、誰が登記する？（表題登記の申請資格）](../topics/shinseishikaku-tochi-tatemono.md) ★★（相続人による表題登記の扱い）
-- [「表題登記のない建物」はなぜ存在するのか](../column/hyoudai-touki-gimu-to-genjitsu.md) ★★
+- [「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★★
 
 ---
 
@@ -317,7 +317,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 
 **個別テーマ記事**
 - [売ってしまったら、誰が登記する？（表題登記の申請資格）](../topics/shinseishikaku-tochi-tatemono.md) ★★★（相続人による表題登記の扱い）
-- [「表題登記のない建物」はなぜ存在するのか](../column/hyoudai-touki-gimu-to-genjitsu.md) ★★★
+- [「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★★★
 
 ---
 

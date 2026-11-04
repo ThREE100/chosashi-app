@@ -104,7 +104,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H26 第4問 表題部所有者の沿革](../h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md) | 土地台帳・家屋台帳からの歴史 |
 | ★ | [H28 第16問 区分建物の表題部](../h28-mondai/q16-kubuntatemono-hyoudaibu.md) | 吸収合併・原始取得者 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../column/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 
@@ -159,7 +159,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 
 **個別テーマ記事**
 
-- [「表題部所有者」と「所有権の登記名義人」、何がどう違う？](../column/hyoudaibu-shoyuusha-vs-toukimeigijin.md)（肢イ：表題部所有者と所有権の登記名義人が同一人物の呼び方の違いに過ぎないこと）
+- [「表題部所有者」と「所有権の登記名義人」、何がどう違う？](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md)（肢イ：表題部所有者と所有権の登記名義人が同一人物の呼び方の違いに過ぎないこと）
 - [建物図面・各階平面図の提供要否 早見表](../topics/tatemonozumen-teikyou-yohi.md)（肢ウ：図面の訂正の申出のルール、規則88条1項ただし書・2項）
 
 ---
@@ -251,7 +251,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H21 第4問 建物の登記](../h21-mondai/q04-tatemono-nintei.md) | 温室・コンテナ倉庫・石油タンク・観覧席 |
 | ★★ | [R4 第10問 建物の認定](../r4-mondai/q10-tatemono-nintei.md) ／ [H30 第10問](../h30-mondai/q10-tatemono-nintei.md) ／ [H24 第16問](../h24-mondai/q16-tatemono-nintei.md) | 3要件（定着性・外気分断性・用途性）の当てはめ |
 
-**個別テーマ記事**：[建物認定3要件、覚えるべき「○」と「×」を全部並べてみた](../column/tatemono-nintei-3youken.md) ★★★（本問（H27第13問）が関連過去問として名指しで挙げられている）
+**個別テーマ記事**：[建物認定3要件、覚えるべき「○」と「×」を全部並べてみた](../topics/tatemono-nintei-3youken.md) ★★★（本問（H27第13問）が関連過去問として名指しで挙げられている）
 
 ---
 
@@ -274,7 +274,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 
 **個別テーマ記事**
 - [表題登記の申請資格（土地・建物・区分建物）](../topics/shinseishikaku-tochi-tatemono.md) ★★★
-- [「表題登記のない建物」はなぜ存在するのか](../column/hyoudai-touki-gimu-to-genjitsu.md) ★
+- [「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★
 
 ---
 
@@ -353,7 +353,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R1 第7問 地積測量図](../r1-mondai/q07-chiseki-sokuryouzu.md) | 図面の保存期間 |
 | ★ | [H28 第11問 地積測量図・地役権図面](../h28-mondai/q11-chisekisokuryouzu-chiekikenzumen.md) | 保存期間 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../column/hozon-kikan-matome.md) ★★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★★
 
 ---
 

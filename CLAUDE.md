@@ -608,3 +608,7 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 
 ### Instagramの運用（`note-unei/instagram/`、2026-10-30追加）
 年度別の過去問の図解（令和8年度の問1から平成17年度までさかのぼる）をInstagramに毎日3枚載せる計画は`note-unei/instagram/README.md`にある。1年度＝問1〜20＋つなぎ4枚の24枚（3列のグリッドの行にそろえる）、フィードは3:4（1080×1440）で作り直し、ストーリーは作成済みの縦長図解（1080×1920）を使う。予定表`schedule.csv`は`make_schedule.py --start 開始日`で、つなぎの素材一覧`filler-pool.csv`は`make_filler_pool.py`で作る。画像はリポジトリに入れず手元に置き、予定表の`status`だけを更新する。計画を変えたら`note-unei/senryaku.md`（版を上げる）・`kaitei-rireki.md`も直す。作業は`main`。
+
+## 個別テーマ記事の置き場所(2026-11-04追加)
+
+1本で完結する個別テーマの解説記事は`note-articles/topics/`に置く。`note-articles/column/`は連載シリーズ（苦手分析`nigate-NN-*`、総合記事`sokatsu-0N-*`）専用で、個別テーマ記事は置かない（`column/`にあった8本を`topics/`へ移し、参照パスも更新済み）。

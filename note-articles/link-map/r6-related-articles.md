@@ -241,7 +241,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R5 第11問 建物の認定](../r5-mondai/q11-tatemono-nintei.md) | 膜構造テントの建物該当性 |
 | ★ | [H24 第16問 建物の認定](../h24-mondai/q16-tatemono-nintei.md) | アーケード街路の建物該当性 |
 
-**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../column/tatemono-nintei-3youken.md) ★★★
+**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../topics/tatemono-nintei-3youken.md) ★★★
 
 ---
 
@@ -293,7 +293,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H23 第12問 表題部の更正](../h23-mondai/q12-hyoudaibu-kousei.md) | 添付情報と申請人 |
 | ★ | [R1 第16問 表示に関する登記の申請](../r1-mondai/q16-hyouji-touki-shinsei.md) | 表題部所有者更正の共同申請の要否 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../column/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 

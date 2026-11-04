@@ -88,7 +88,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R1 第7問 地積測量図](../r1-mondai/q07-chiseki-sokuryouzu.md) | 図面の保存期間 |
 | ★ | [H28 第11問 地積測量図・地役権図面](../h28-mondai/q11-chisekisokuryouzu-chiekikenzumen.md) | 保存期間 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../column/hozon-kikan-matome.md) ★★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★★
 
 ---
 
@@ -202,7 +202,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R5 第11問 建物の認定](../r5-mondai/q11-tatemono-nintei.md) | 膜構造テント・移動可能建造物 |
 | ★ | [H24 第16問 建物の認定](../h24-mondai/q16-tatemono-nintei.md) | アーケード街路の建物該当性 |
 
-**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../column/tatemono-nintei-3youken.md) ★★★
+**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../topics/tatemono-nintei-3youken.md) ★★★
 
 ---
 

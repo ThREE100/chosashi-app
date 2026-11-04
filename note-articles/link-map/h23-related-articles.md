@@ -217,7 +217,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R4 第7問 表題部所有者の変更・更正](../r4-mondai/q07-hyoudaibu-hensei-kousei.md) | 持分の更正の添付情報 |
 | ★★ | [R7 第8問 表題部所有者](../r7-mondai/q08-hyoudaibu-shoyuusha.md) | 更正登記の添付情報全般 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../column/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 

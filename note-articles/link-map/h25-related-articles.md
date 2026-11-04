@@ -259,7 +259,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H27 第14問 建物の表題登記](../h27-mondai/q14-tatemono-hyoudai.md) | 相続人・表題登記の申請適格 |
 | ★ | [R6 第4問 表題登記の添付情報](../r6-mondai/q04-hyoudai-touki-tenpu.md) ／ [H29 第7問](../h29-mondai/q07-shoyuuken-shoumei-jouhou.md) | 相続証明情報の要否 |
 
-**個別テーマ記事**：[「表題登記のない建物」はなぜ存在するのか](../column/hyoudai-touki-gimu-to-genjitsu.md) ★★
+**個別テーマ記事**：[「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★★
 
 ---
 
@@ -306,7 +306,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H17 第13問 保存期間](../h17-mondai/q13-hozon-kikan.md) ／ [H27 第18問 保存期間](../h27-mondai/q18-hozon-kikan.md) ／ [R7 第5問 保存期間](../r7-mondai/q05-hozonkikan.md) | 保存期間の総整理（永久・50年・30年など） |
 | ★★ | [H26 第19問 筆界特定](../h26-mondai/q19-hikkaitokutei.md) ／ [R6 第19問](../r6-mondai/q19-hikkai-tokutei.md) ／ [R3 第19問](../r3-mondai/q19-hikkai-tokutei.md) ／ [H28 第18問](../h28-mondai/q18-hikkaitokutei.md) | 筆界特定手続の通知・公告・記録管理 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../column/hozon-kikan-matome.md) ★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★
 
 ---
 

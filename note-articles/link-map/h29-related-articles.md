@@ -82,7 +82,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H30 第11問 区分建物と敷地権の定義（穴埋め）](../h30-mondai/q11-kubun-tatemono-shikichiken.md) | 条文の定義規定を穴埋めで問う同形式 |
 | ★★ | [R2 第15問 登記記録（穴埋め）](../r2-mondai/q15-touki-kiroku-anaume.md) | 登記記録の構造を穴埋めで読み解く |
 
-**個別テーマ記事**：[建物認定3要件、覚えるべき「○」と「×」を全部並べてみた](../column/tatemono-nintei-3youken.md) ★★（建物の定義そのものを扱う点で接続）
+**個別テーマ記事**：[建物認定3要件、覚えるべき「○」と「×」を全部並べてみた](../topics/tatemono-nintei-3youken.md) ★★（建物の定義そのものを扱う点で接続）
 
 ---
 
@@ -203,7 +203,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H26 第4問 表題部所有者の沿革](../h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md) | 土地台帳・家屋台帳からの歴史 |
 | ★ | [H30 第12問 建物の表題部の登記](../h30-mondai/q12-tatemono-hyoudaibu.md) | 更正登記の申請人・共有の扱い（建物版） |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../column/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 

@@ -42,7 +42,7 @@
 
 **確認事項**
 
-- 分筆・合筆・合併・合体の対比は、`note-articles/h19-mondai/q12`、`note-articles/r3-mondai/q11`、`note-articles/r5-mondai/q09`、`note-articles/r7-mondai/q11`（分筆）、`note-articles/h27-mondai/q09`、`note-articles/r2-mondai/q10`、`note-articles/r4-mondai/q09`（合筆）、`note-articles/h28-mondai/q14`、`note-articles/r3-mondai/q16`（合併）、`note-articles/h28-mondai/q15`、`note-articles/r4-mondai/q15`、`note-articles/r5-mondai/q16`（合体）、`note-articles/column/bunpitsu-ikkatsu-gappitsu-chimoku.md`、`note-articles/topics/gappitsu-gappei-seigen.md`の内容に基づいています。
+- 分筆・合筆・合併・合体の対比は、`note-articles/h19-mondai/q12`、`note-articles/r3-mondai/q11`、`note-articles/r5-mondai/q09`、`note-articles/r7-mondai/q11`（分筆）、`note-articles/h27-mondai/q09`、`note-articles/r2-mondai/q10`、`note-articles/r4-mondai/q09`（合筆）、`note-articles/h28-mondai/q14`、`note-articles/r3-mondai/q16`（合併）、`note-articles/h28-mondai/q15`、`note-articles/r4-mondai/q15`、`note-articles/r5-mondai/q16`（合体）、`note-articles/topics/bunpitsu-ikkatsu-gappitsu-chimoku.md`、`note-articles/topics/gappitsu-gappei-seigen.md`の内容に基づいています。
 - ユーザーからの指摘を受け、「分筆・合筆の登記に登記原因及びその日付の記載を要するか」という点を、既存記事の解説だけでなく`note-articles/laws/fudousan-touki-jimu-junsoku.md`（不動産登記事務取扱手続準則）の条文原文で直接再検証しました。準則74条（分筆の登記の記録方法）・75条（合筆の登記の記録方法）は、原因及びその日付欄への記録例をそれぞれ「何番何、何番何に分筆」「何番から分筆」「何番に合筆」「何番を合筆」と定めており、いずれも実際の年月日を含みません。これに対し、準則73条（地目・地積の変更・更正登記の記録方法）は「令和何年何月何日地目変更」のように実際の年月日を含む記録例を定めています。建物の合併についても、準則98条（附属合併の登記の記録方法）が「何番に合併」「何番を合併」という、年月日を含まない同様の記録例を定めている一方、準則95条（合体による変更の登記の記録方法）は「令和何年何月何日附属建物合体」のように実際の年月日を含む記録例を定めています。この条文原文の突き合わせにより、「分筆・合筆・合併には実際の年月日は記録されず、合体だけは実際の年月日が記録される」という本文の記述は、既存記事の一般原則からの説明にとどまらず、準則の条文原文で確認済みの内容であることが確定しました。当初の`note-articles/h27-mondai/q06-tochi-hyouji-tenpu.md`の記述（分筆の登記は形成的登記であり登記原因が存在しない）とも整合しています。
 - `gappitsu-gappei-seigen.md`は当初「41条2号の地目は登記記録上の地目を基準とする」という誤った記述でしたが、令和6年度第9問イの公式正答と照合し、現況の地目を基準とする内容に訂正済みです。本記事の記述はこの訂正後の内容と整合しています。
 - 【2026-10-05 条文再チェックで訂正】①共有地の分筆の申請人を「保存行為として共有者の一人から」としていた記述を、令和5年4月施行の民法改正後の整理（持分の価格の過半数。民法251条1項かっこ書き・252条1項、令和3年度第11問オ・令和5年度第9問・平成19年度第12問の記事と一致）に直しました。②合体の登記原因の記録例の出典を、準則95条（主である建物と附属建物の合体による表題部の変更の登記）から、表題登記がない建物どうしの合体の場合の「新築、新築、合体」（令和4年度第15問オ）に改め、準則95条は主と附属の合体の記録例として併記しました。③合体前の権利の存続は、存続登記の申請（規則120条4項、令別表13の項ハ）をしたものに限る旨を明記しました。なお、合体の登記が保存行為として共有者・相続人の一人から単独で申請できる点は、令和5年度第16問・平成28年度第15問の記事の整理に従っており、条文だけでは裏付けられない先例レベルの扱いです。
@@ -1203,7 +1203,7 @@ the image.  Confirm the image contains one scene only, that no flowchart, diamon
 ## 参考記事（この記事のもとになった過去問・既存記事）
 
 - [合筆の登記の制限と建物の合併の登記の制限](../topics/gappitsu-gappei-seigen.md)
-- [分筆の一括申請と合筆の地目制限](bunpitsu-ikkatsu-gappitsu-chimoku.md)
+- [分筆の一括申請と合筆の地目制限](../topics/bunpitsu-ikkatsu-gappitsu-chimoku.md)
 - [平成19年度午後の部第12問(分筆は保存行為)](../h19-mondai/q12-bunpitsu.md)
 - [平成19年度午後の部第10問(承役地の合筆の例外)](../h19-mondai/q10-gappitsu.md)
 - [平成26年度午後の部第10問(分筆と抵当権)](../h26-mondai/q10-bunpitsu.md)

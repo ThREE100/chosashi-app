@@ -112,7 +112,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H28 第11問 地積測量図・地役権図面](../h28-mondai/q11-chisekisokuryouzu-chiekikenzumen.md) | 保存期間 |
 | ★ | [H30 第6問 地図](../h30-mondai/q06-chizu.md) | 地図の保存年数 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../column/hozon-kikan-matome.md) ★★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★★
 
 ---
 
@@ -175,7 +175,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H26 第4問 表題部所有者の沿革](../h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md) | 土地台帳・家屋台帳からの歴史 |
 | ★ | [H28 第16問 区分建物の表題部](../h28-mondai/q16-kubuntatemono-hyoudaibu.md) | 吸収合併・原始取得者 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../column/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 
@@ -306,7 +306,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 
 **個別テーマ記事**
 - [表題登記の申請資格（土地・建物・区分建物）](../topics/shinseishikaku-tochi-tatemono.md) ★★★
-- [「表題登記のない建物」はなぜ存在するのか](../column/hyoudai-touki-gimu-to-genjitsu.md) ★
+- [「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★
 
 ---
 

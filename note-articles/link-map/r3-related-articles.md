@@ -168,7 +168,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H26 第4問 表題部所有者の沿革](../h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md) | 土地台帳・家屋台帳からの歴史 |
 | ★ | [H28 第16問 区分建物の表題部](../h28-mondai/q16-kubuntatemono-hyoudaibu.md) | 吸収合併・原始取得者 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../column/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 
