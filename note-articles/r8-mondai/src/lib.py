@@ -223,11 +223,14 @@ def infographic(n, d):
 def header_prompt(n, d):
     l1, l2, hl = d["h_l1"], d["h_l2"], d["h_hl"]
     assert hl in l2, (n, hl, l2)
-    sub = "令和八年度　午後の部　第{}問　{}".format(kansuji(n), d["h_sub_topic"])
-    for s in (l1, l2, sub):
+    # 年度と問の番号は算用数字（半角）で書く（2026-11-05 ユーザー指示。共通ルール）。それ以外は数字・英字なし。
+    sub = "令和8年度　午後の部　第{}問　{}".format(n, d["h_sub_topic"])
+    for s in (l1, l2, d["h_sub_topic"]):
         assert not re.search(r"[0-9A-Za-z０-９]", s), (n, s)
+    assert re.fullmatch(r"令和8年度　午後の部　第(?:[1-9]|1[0-9]|20)問　[^0-9A-Za-z０-９]+", sub), (n, sub)
     rest = l2.replace(hl, "")
     kj = "、".join(kanji_in(l1 + l2 + sub))
+    # 副題の「令和8年度」「第N問」は算用数字のまま（漢数字にしない）
     if rest:
         line2 = "Line 2 is larger; the phrase {} is red-orange and the rest is dark navy:".format(hl)
     else:
@@ -240,7 +243,7 @@ Fill the whole canvas with the pastel sky and soft clouds.
 
 CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent or change any of them. Place her at the bottom center. POSE IS NOT FIXED: do not copy any pose from the attached images or from earlier header images; let her take a free, natural pose of your own choosing that fits the topic and suits her (for example standing, sitting, leaning, gesturing, or holding a small prop), and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text, and keep her hairstyle exactly as in the attached images. Keep her human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
 
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and no Latin letters anywhere in the image. The only digits allowed are the half-width Arabic digits that appear inside the subtitle string (the year and the question number), written exactly as given; no other digit anywhere. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
 
@@ -260,6 +263,20 @@ LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the c
 
 Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the characters' faces are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji {kj}; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is.""".format(
         l1=l1, line2=line2, l2=l2, sub=sub, left=d["h_left"], right=d["h_right"], kj=kj)
+
+
+def header_prompt_ig(n, d):
+    """Instagram用の見出し画像（3:4・1080x1440）。note用と同じ文字・同じ構成で、余白とレイアウトだけ変える。"""
+    p = header_prompt(n, d)
+    p = p.replace("Create a note.com article header image (eyecatch thumbnail), 1280x670px\n(1.91:1 landscape aspect ratio).",
+                  "Create an Instagram feed image, portrait layout, EXACTLY 1080x1440 pixels (3:4).")
+    p = p.replace("Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.",
+                  "Layout: the title block in the upper part (between y=120px and y=620px), the single character at the bottom center (about y=760px to y=1360px), and the topic scenes fading softly into the left and right edges.")
+    p = p.replace("LAYOUT: keep a clear, uncluttered zone behind the title and subtitle.",
+                  "INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text. Make the title letters slightly larger than in the note version.\n\nLAYOUT: keep a clear, uncluttered zone behind the title and subtitle.")
+    p = p.replace("confirm the image is exactly 1280x670 landscape", "confirm the image is exactly 1080x1440 portrait (3:4)")
+    assert "1280x670" not in p and "1080x1440" in p, n
+    return p
 
 
 def guide_prompt(n, d):

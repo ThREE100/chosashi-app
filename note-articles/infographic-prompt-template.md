@@ -704,3 +704,8 @@ grid of all 肢, and no additional text block of any kind), and confirm the
 entire canvas, edge to edge, is filled with a fully opaque background
 with no transparency or alpha channel anywhere.
 ```
+
+## 共通ルール：年度・問の表記と、note用／Instagram用の2種類（2026-11-05追加）
+
+- タイトル・副題の年度と問題番号は**算用数字**で書く（例：令和8年度　午後の部　第3問）。漢数字（令和八年度・第三問）にしない。画像に入れてよい数字は、この年度・問の数字だけ（プロンプトの `CRITICAL TEXT REQUIREMENT` に「年度と問の半角算用数字だけ許可」と書く）。
+- 見出し画像と図解のプロンプトは、**note用とInstagram用の2種類**を用意して保存する（大きさと余白だけ違う。詳しくは `CLAUDE.md` の同名の節）。

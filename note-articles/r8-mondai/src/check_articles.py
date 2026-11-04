@@ -193,8 +193,17 @@ for path in files:
         tl = re.search(r"dark navy with a pale yellow marker stroke behind it:\n(.*?)\nLine 2 is larger[^\n]*:\n(.*?)\nBelow the title[^\n]*:\n(.*?)\nDo not write", hp, flags=re.S)
         if not tl:
             bad(f, "見出し画像のタイトル行が見つからない")
-        elif re.search(r"[0-9A-Za-z０-９]", "".join(tl.groups())):
-            bad(f, "見出し画像の文字に数字・英字")
+        elif re.search(r"[A-Za-z０-９]", "".join(tl.groups())):
+            bad(f, "見出し画像の文字に英字・全角数字")
+        else:
+            l1, l2, sub = tl.groups()
+            if re.search(r"[0-9]", l1 + l2):
+                bad(f, "見出し画像のタイトル行に数字")
+            # 副題の年度と問は算用数字（漢数字にしない。2026-11-05 共通ルール）
+            if not re.fullmatch(r"令和8年度　午後の部　第(?:[1-9]|1[0-9]|20)問　[^0-9]+", sub.strip()):
+                bad(f, "見出し画像の副題の年度・問が算用数字の形でない: " + sub.strip())
+            if re.search(r"令和[〇一二三四五六七八九十]+年度|第[〇一二三四五六七八九十]+問", sub):
+                bad(f, "見出し画像の副題に漢数字の年度・問")
     if re.search(r"決定木|判定木|ツリー|木に当て|木では", text):
         bad(f, "禁止語（樹形図）")
     # 12 リンク先
