@@ -1334,4 +1334,4 @@ the image.  Confirm the image contains one scene only, that no flowchart, diamon
 - [令和6年度 第2問（対抗要件）](../r6-mondai/q02-taikouyouken.md)
 - [苦手分析シリーズ⑩ 対抗要件](nigate-10-taikouyouken-177-toikake-flow.md)
 - [苦手分析シリーズ⑯ 時効・条件](nigate-16-jikou-joken-toikake-flow.md)
-- [第三者5類型の早見記事](../topics/KA_02_taikouyouken-daisansha-5ruikei.md)
+- [第三者5類型の早見記事](../topics/KM_01_taikouyouken-daisansha-5ruikei.md)

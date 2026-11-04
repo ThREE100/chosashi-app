@@ -1,15 +1,15 @@
-## 【KB_06】【土地家屋調査士受験生向け】調査士法人の業務制限（第4回）〜常駐・競業・社員資格の3つの縛り〜
+## 【KT_06】【土地家屋調査士受験生向け】調査士法人の業務制限（第4回）〜常駐・競業・社員資格の3つの縛り〜
 
 **対象条文：土地家屋調査士法第28条(社員の資格)、第35条(業務の執行)、第35条の2(法人の代表)、第36条(社員の常駐)、第36条の2(民間紛争解決手続代理関係業務の取扱い)、第37条(社員の競業の禁止)、第38条(法定脱退)**
 
 **このシリーズについて**：土地家屋調査士法人の業務制限を、全6回に分けて解説します。本記事は第4回「第4層：組織としての制限」です。
 
-- [総論：5つの層に切り分けると迷わない](KB_02_chousashi-houjin-gyoumu-seigen-00-souron.md)
-- [第1回：業務の範囲〜定款に書いて初めてできる仕事がある〜](KB_03_chousashi-houjin-gyoumu-seigen-01-gyoumu-hani.md)
-- [第2回：依頼に応ずる義務〜断れる依頼と、断れない依頼がある〜](KB_04_chousashi-houjin-gyoumu-seigen-02-irai-oujiru-gimu.md)
-- [第3回：利益相反〜同意で外れる制限は、たった1つ〜](KB_05_chousashi-houjin-gyoumu-seigen-03-rieki-souhan.md)
+- [総論：5つの層に切り分けると迷わない](KT_02_chousashi-houjin-gyoumu-seigen-00-souron.md)
+- [第1回：業務の範囲〜定款に書いて初めてできる仕事がある〜](KT_03_chousashi-houjin-gyoumu-seigen-01-gyoumu-hani.md)
+- [第2回：依頼に応ずる義務〜断れる依頼と、断れない依頼がある〜](KT_04_chousashi-houjin-gyoumu-seigen-02-irai-oujiru-gimu.md)
+- [第3回：利益相反〜同意で外れる制限は、たった1つ〜](KT_05_chousashi-houjin-gyoumu-seigen-03-rieki-souhan.md)
 - **第4回：組織としての制限〜常駐・競業・社員資格の3つの縛り〜**(この記事)
-- [第5回：懲戒〜法人にだけある「解散」という処分〜](KB_07_chousashi-houjin-gyoumu-seigen-05-choukai.md)
+- [第5回：懲戒〜法人にだけある「解散」という処分〜](KT_07_chousashi-houjin-gyoumu-seigen-05-choukai.md)
 
 ---
 

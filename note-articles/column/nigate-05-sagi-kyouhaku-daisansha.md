@@ -37,7 +37,7 @@
 **確認事項**
 
 - 詐欺・強迫の第三者保護の違いは、`note-articles/h27-mondai/q01-sagi-kyouhaku.md`、`note-articles/r4-mondai/q02-ishi-hyouji.md`の内容に基づいています。平成27年度の記事は旧民法下の出題であるため「善意の第三者」という表現ですが、現行法では善意無過失が要件となる点を踏まえ、本記事は現行法（善意無過失）で統一しています。
-- 無効と取消しの違いは、`note-articles/r5-mondai/q01-mukou-torikeshi.md`、`note-articles/topics/KA_10_torikeshiken-jikou.md`の内容に基づいています。
+- 無効と取消しの違いは、`note-articles/r5-mondai/q01-mukou-torikeshi.md`、`note-articles/topics/KM_09_torikeshiken-jikou.md`の内容に基づいています。
 - 強迫が詐欺より手厚く保護される理由づけは、既存記事自身が条文の明文根拠ではなく反対解釈・一般原則からの説明であると明記しているため、本記事でも断定的な条文根拠としては書いていません。
 - 平成25年度第1問は、当初この論点の一部として想定していましたが、調査の結果、実際の内容は未成年者の詐術（民法21条）が中心であり、詐欺・強迫の第三者保護とは別論点であることが判明したため、本記事の主要な出典からは除外しています。
 
@@ -1003,7 +1003,7 @@ the image.  Confirm the image contains one scene only, that no flowchart, diamon
 
 ## 参考記事（この記事のもとになった過去問・既存記事）
 
-- [取消権、いつまで待ってくれる？](../topics/KA_10_torikeshiken-jikou.md)
+- [取消権、いつまで待ってくれる？](../topics/KM_09_torikeshiken-jikou.md)
 - [平成27年度午後の部第1問(詐欺・強迫と第三者保護)](../h27-mondai/q01-sagi-kyouhaku.md)
 - [令和4年度午後の部第2問(強迫の取消しと第三者保護)](../r4-mondai/q02-ishi-hyouji.md)
 - [令和5年度午後の部第1問(無効と取消しの違い)](../r5-mondai/q01-mukou-torikeshi.md)

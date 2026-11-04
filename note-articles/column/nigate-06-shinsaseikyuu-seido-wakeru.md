@@ -43,7 +43,7 @@
 - この記事は、当初「審査請求・監督処分」という1つの分野として整理する予定でしたが、調査の過程で平成19年度第14問・平成30年度第19問・令和3年度第19問は筆界特定手続（制度B）、平成30年度第20問・令和3年度第20問は土地家屋調査士法上の監督・登録（制度C）であり、登記官の処分に対する審査請求（制度A）を正面から扱っているのは平成30年度第18問のみであることが判明しました。この点を踏まえ、本記事は3制度を切り分けて整理する構成に変更しています。
 - 制度Aの内容は`note-articles/h30-mondai/q18-shinsa-seikyuu.md`の内容、および不動産登記法158条による行政不服審査法の適用除外条文（13条・18条等）は`note-articles/laws/fudousan-touki-hou.md`の条文原文で確認済みです。同じ論点は`note-articles/r7-mondai/q17-shinsaseikyuu.md`でも扱われています。
 - 制度Bの内容は`note-articles/h19-mondai/q14-hikkai-tetsuzuki.md`、`note-articles/h30-mondai/q19-hikkai-tokutei.md`、`note-articles/r3-mondai/q19-hikkai-tokutei.md`、`note-articles/topics/KG_03_hikkaitokutei-seido.md`の内容に基づいています。
-- 制度Cの内容は`note-articles/h30-mondai/q20-chousashi-touroku.md`、`note-articles/r3-mondai/q20-chousashihou.md`、`note-articles/h19-mondai/q20-chosashi-gimu.md`、`note-articles/topics/KB_07_chousashi-houjin-gyoumu-seigen-05-choukai.md`、`note-articles/topics/KB_01_chousashi-todokede-matrix.md`の内容に基づいています。
+- 制度Cの内容は`note-articles/h30-mondai/q20-chousashi-touroku.md`、`note-articles/r3-mondai/q20-chousashihou.md`、`note-articles/h19-mondai/q20-chosashi-gimu.md`、`note-articles/topics/KT_07_chousashi-houjin-gyoumu-seigen-05-choukai.md`、`note-articles/topics/KT_01_chousashi-todokede-matrix.md`の内容に基づいています。
 
 - 会話式解説の項は、`note-articles/laws/fudousan-touki-hou.md`（123条・132条2項・140条・156条・157条・158条）、`fudousan-touki-jimu-junsoku.md`（145条1項）、`chousashi-hou.md`（12条2項・16条1項1号・39条の3・42条・43条1項）の原文で確かめました。調査士法人の懲戒は、原文では戒告・2年以内の業務の全部又は一部の停止・解散の3つです。
 - 行政不服審査法の原文は`note-articles/laws/`になく、e-Gov法令検索も今回の環境から取得できなかったため、13条（参加人）・18条（審査請求期間）・53条（証拠書類等の返還）の内容は原文では未確認です（見立てでは本文の記述どおり）。157条5項は、原文では「審査請求に係る不作為に係る処分についての申請を却下すべきもの」と認めるときの規定のため、本文・会話式を不作為の場合に直しました。調査士法人の懲戒は原文（43条1項）どおり、戒告・2年以内の業務の全部又は一部の停止・解散の3つに直しました。会話式の項では、158条の適用除外の列挙に18条があり53条がないこと（原文で確認）と、本文の記述にとどめています。また、筆界特定の結果そのものに審査請求ができない点は、本文の記述に従っており、原文での個別の確認はしていません。
@@ -915,8 +915,8 @@ the image.  Confirm the image contains one scene only, that no flowchart, diamon
 ## 参考記事（この記事のもとになった過去問・既存記事）
 
 - [筆界特定制度 完全整理](../topics/KG_03_hikkaitokutei-seido.md)
-- [調査士法人の業務制限シリーズ⑤懲戒](../topics/KB_07_chousashi-houjin-gyoumu-seigen-05-choukai.md)
-- [調査士の届出先マトリクス](../topics/KB_01_chousashi-todokede-matrix.md)
+- [調査士法人の業務制限シリーズ⑤懲戒](../topics/KT_07_chousashi-houjin-gyoumu-seigen-05-choukai.md)
+- [調査士の届出先マトリクス](../topics/KT_01_chousashi-todokede-matrix.md)
 - [平成19年度午後の部第14問(筆界特定手続の流れ)](../h19-mondai/q14-hikkai-tetsuzuki.md)
 - [平成19年度午後の部第20問(調査士の届出義務)](../h19-mondai/q20-chosashi-gimu.md)
 - [平成30年度午後の部第18問(登記官の処分への審査請求)](../h30-mondai/q18-shinsa-seikyuu.md)

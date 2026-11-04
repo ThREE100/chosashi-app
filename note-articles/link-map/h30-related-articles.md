@@ -30,11 +30,11 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H26 第1問 成年後見・保佐・補助](../h26-mondai/q01-seinenkouken.md) | 3制度の審判要件・取消し・代理権の違い |
 
 **個別テーマ記事**
-- [4類型の「同意・取消し・代理」を1枚で整理する（制限行為能力者総整理）](../topics/KA_08_seigen-koui-nouryoku-sougou.md) ★★★
-- [制限行為能力者シリーズ：未成年者](../topics/KA_04_mikoseinensha.md) ★★
-- [制限行為能力者シリーズ：成年被後見人](../topics/KA_05_seinen-hikouken-nin.md) ★★★
-- [制限行為能力者シリーズ：被保佐人](../topics/KA_06_hihosanin.md) ★★★
-- [制限行為能力者シリーズ：被補助人](../topics/KA_07_hihojonin.md) ★★★
+- [4類型の「同意・取消し・代理」を1枚で整理する（制限行為能力者総整理）](../topics/KM_07_seigen-koui-nouryoku-sougou.md) ★★★
+- [制限行為能力者シリーズ：未成年者](../topics/KM_03_mikoseinensha.md) ★★
+- [制限行為能力者シリーズ：成年被後見人](../topics/KM_04_seinen-hikouken-nin.md) ★★★
+- [制限行為能力者シリーズ：被保佐人](../topics/KM_05_hihosanin.md) ★★★
+- [制限行為能力者シリーズ：被補助人](../topics/KM_06_hihojonin.md) ★★★
 
 ---
 

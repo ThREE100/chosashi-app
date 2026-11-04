@@ -31,8 +31,8 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H25 第1問 未成年者の詐術](../h25-mondai/q01-miseinensha-sajutsu.md) | 詐術による取消し制限 |
 
 **個別テーマ記事**
-- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../topics/KA_08_seigen-koui-nouryoku-sougou.md) ★★★
-- [制限行為能力者シリーズ：被保佐人を解説](../topics/KA_06_hihosanin.md) ★★★
+- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../topics/KM_07_seigen-koui-nouryoku-sougou.md) ★★★
+- [制限行為能力者シリーズ：被保佐人を解説](../topics/KM_05_hihosanin.md) ★★★
 
 ---
 

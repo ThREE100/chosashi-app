@@ -312,7 +312,7 @@ D0419は「？」3回で、地代の発生を、賃貸借の「賃料は当然�
 
 **関連記事**
 
-- note-articles/topics/KA_02_taikouyouken-daisansha-5ruikei.md
+- note-articles/topics/KM_01_taikouyouken-daisansha-5ruikei.md
 - note-articles/column/nigate-10-taikouyouken-177-toikake-flow.md
 - note-articles/column/nigate-15-shitsuken-chijouken-toikake-flow.md
 
