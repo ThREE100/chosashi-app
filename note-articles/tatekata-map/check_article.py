@@ -110,6 +110,7 @@ check(marks == [str(i) for i in range(1, 8)], f'画像挿入マーカーが図1�
 heads = re.findall(r'^## 図(\d)：', prompts, flags=re.M)
 check(heads == [str(i) for i in range(1, 8)], f'プロンプトの図が図1〜図7の順でない: {heads}')
 check('Instagram用：図1の3:4版' in prompts and '1080x1440' in prompts, 'Instagram用の3:4版がない')
+check('Instagram用：図1の4:5版' in prompts and 'EXACTLY 1080x1350 pixels (4:5)' in prompts, 'Instagram用の4:5版がない')
 check(prompts.count('NO NUMBERING') >= 8, 'NO NUMBERINGの指示が各プロンプトにない')
 check(prompts.count('ILLUSTRATION TEXT RULE') >= 8, 'ILLUSTRATION TEXT RULEが各プロンプトにない')
 
@@ -140,7 +141,7 @@ for w in ('誤答', '間違えた回数', '自分の回答', '復習中', '要�
 words_lines = re.findall(r'Words allowed on this poster[^\n]*', prompts)
 for w in words_lines:
     check(not re.search(r'「図\d', w), f'画像の語に図番がある: {w[:40]}')
-check(len(words_lines) == 8, f'Words allowedの行が8本（図7＋IG）でない: {len(words_lines)}')
+check(len(words_lines) == 9, f'Words allowedの行が9本（図7＋IG 3:4＋IG 4:5）でない: {len(words_lines)}')
 
 # 画像の語が、記事にも出ているか（棚名・款名）
 for name, _, _ in SHELVES:
