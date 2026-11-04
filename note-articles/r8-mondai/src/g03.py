@@ -170,9 +170,9 @@ GUIDE[14] = dict(
             color="blue",
         ),
         dict(
-            h="主である建物と附属建物がつながっても合体ではない",
-            diag="A main house with its attached shed, both enclosed in one bracket labeled「すでに1個の建物」, then joined by a newly built connecting corridor. Next to the corridor, a faded「合体」 stamp with a red ✕. A bold arrow leads to a green conclusion node:「建物の表題部の変更の登記」 (a registry-book page where the floor area is rewritten).",
-            callout="まず、つながった建物がすでに主である建物と附属建物として1個の建物かを確認します。1個の建物なら合体にはならず、増築した床面積などは表題部の変更の登記として申請します。",
+            h="主である建物と附属建物の合体は表題部の変更の登記",
+            diag="A main house with its attached shed, both enclosed in one bracket labeled「すでに1個の建物」, then joined by a newly built connecting corridor. Next to the corridor, a faded「合体による登記等」 stamp with a red ✕. A bold arrow leads to a green conclusion node:「建物の表題部の変更の登記」 (a registry-book page where the floor area is rewritten).",
+            callout="まず、つながった建物がすでに主である建物と附属建物として1個の建物かを確認します。1個の建物なら合体による登記等ではなく、床面積などを表題部の変更の登記として申請します。",
             tag="変更の登記で足りる",
             color="blue",
         ),
@@ -224,7 +224,7 @@ GUIDE[15] = dict(
         ),
         dict(
             h="床面積が減る変更の登記に抵当権者の承諾は要らない",
-            diag="A building with a mortgage tag labeled「抵当権の登記」, part of it demolished (dotted outline, floor area decreases). Beside it, a checklist of the attached information for a 表題部's change of registration (令別表の十四の項), with items such as 図面 and 所有権を証する情報 ticked. A slot labeled「抵当権者の承諾を証する情報」 is drawn faded and empty with a red ✕, to show that this item is not in the list.",
+            diag="A building with a mortgage tag labeled「抵当権の登記」, part of it demolished (dotted outline, floor area decreases). Beside it, a checklist of the attached information for a 表題部's change of registration (令別表の十四の項), with only「変更後の建物図面」 and「変更後の各階平面図」 ticked (a small grey note:「所有権を証する情報は床面積が増加するときだけ」). A slot labeled「抵当権者の承諾を証する情報」 is drawn faded and empty with a red ✕, to show that this item is not in the list.",
             callout="まず、建物の表題部の変更の登記の添付情報を定める令別表の十四の項に、抵当権者の承諾を証する情報が含まれているかを確認します。含まれていないので、床面積が減少しても承諾は要りません。",
             tag="承諾は要らない",
             color="blue",

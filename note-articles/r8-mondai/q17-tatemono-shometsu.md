@@ -30,7 +30,7 @@
 
 このとき提供するのは、代位原因を証する情報で、建物所有者の承諾を証する情報ではありません（不動産登記令3条4号・7条1項3号）。「承諾を証する情報」とする本肢は誤りです。
 
-**たとえば**、借地人が取り壊した建物の登記が残っているとき、地主は、借地人の承諾をもらえなくても、建物収去土地明渡請求権を保全するためなどの代位原因を示す情報（代位原因を証する情報）を付けて、代位して滅失の登記を申請できます。
+**たとえば**、借地人が取り壊した建物の登記が残っているとき、地主は、借地人の承諾をもらえなくても、土地の所有権に基づく妨害排除請求権（残った建物の登記の抹消を求める権利）などの代位原因を示す情報（代位原因を証する情報）を付けて、代位して滅失の登記を申請できます。
 
 ### イ：共用部分の建物の滅失の登記には、所有者を証する情報を提供する
 
@@ -62,11 +62,13 @@
 
 滅失した建物の登記は、その建物の所有者（表題部所有者又は所有権の登記名義人）が申請します（不動産登記法57条）。甲区分建物の滅失の登記は、所有者Aの申請義務です。
 
-滅失の登記を申請すべき者は、その建物の所有者に限られます。他の区分建物の所有者に代位申請を認める特則（新築や区分建物化の場面にある法48条・52条のようなもの）は、滅失の登記にはありません。
+滅失の登記の申請義務を負うのは、その建物の所有者です。他の区分建物の所有者に代位申請を認める特則（新築や区分建物化の場面にある法48条・52条のようなもの）は、滅失の登記にはありません。
+
+また、Bが乙区分建物の表題部の変更の登記をする義務は、Aに対する請求権ではないので、それを理由に民法423条でAに代位することもできません。
 
 他の区分建物の所有者Bが、自分の建物の表題部の変更の登記と併せて、Aに代位して甲区分建物の滅失の登記を申請できる、という扱いは認められていません。本肢は誤りです。
 
-**たとえば**、マンションの最上階の1室が取り壊されたとき、その滅失の登記は、取り壊された部屋の所有者が申請します。階下の住人が、自分の登記の変更と一緒に代わって申請することはできません。
+**たとえば**、2戸の区分建物からなる一棟の建物で、Aの住戸が取り壊されたときは、その滅失の登記はAが申請します。隣のBが、自分の住戸の表題部の変更の登記と一緒に、Aに代わって申請することはできません。
 
 ---
 
@@ -268,7 +270,7 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 
 --- COLUMN B, CARD 4 ---
 Heading (bold, ONE line, ~20 characters or fewer):
-敷地権付きの抵当権は承諾で消滅を記録
+滅失時の土地の抵当権は承諾で消滅を記録
 Illustration: 区分建物の滅失の登記簿に、土地の抵当権が消滅した旨の付記が書き込まれ、抵当権者の承諾書が添えられている様子。
 Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
@@ -335,7 +337,7 @@ sufficient - do not force a flowchart. Never draw a loop arrow that
 returns from a branch node to an earlier node; every branch must end in
 its own conclusion node.
 
-Panels 1 and 5 share one 'who files' frame: a row of three figures, the 建物の所有者, the 土地の所有者, and 別の区分建物の所有者. Each of these two panels highlights only its own figure with a thick border and full color, and draws the other figures faded, greyed out, and with dotted outlines rather than omitting them. Do not draw any loop arrow in the flowcharts.
+Panels 1 and 5 share one 'who files' frame: a row of three figures, the 建物の所有者, the 土地の所有者, and 別の区分建物の所有者. Panel 1 highlights 土地の所有者 (who may file by subrogation); Panel 5 highlights 建物の所有者 (A, owner of the demolished unit). Each highlighted figure has a thick border and full color; the other figures, including 別の区分建物の所有者 (B) in Panel 5, are drawn faded, greyed out, and with dotted outlines rather than omitting them. Do not draw any loop arrow in the flowcharts.
 Unlike a glanceable summary poster, each panel MAY include a short
 「着眼点」callout box with 1-2 sentences that state the checking ORDER in
 words (e.g. "まず〜を確認し、次に〜を確認します"), not just the conclusion. Do not
@@ -511,7 +513,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 借・地・建・物・滅・失・所・有・代・位・申・請・承・取・登・記・義・務・部・権・法・条・証・理・産・号 — always
+any characters. Pay special attention to the kanji 借・地・建・物・滅・失・所・有・代・位・申・請・承・取・登・記・義・務・部・権・法・条・証・定・理・産 — always
 draw the standard Japanese (Jōyō) form.
 
 ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
@@ -544,7 +546,7 @@ Step 2 box: 滅失の登記を申請する義務を負うのは、建物の表�
 Branch (diamond): 建物の所有者が、滅失の登記を申請しないとき、土地の所有者は申請できるか。
 Arrow YES (green): 土地の所有者が、建物の所有者に代わって（代位して）申請できる。（民法423条）
 Info box (green): 提供する情報は、代位原因を証する情報。申請人は代位者である旨を申請情報にする。
-Warning box (red): 建物の所有者の承諾を証する情報は、提供する必要がない。
+Warning box (red): 建物の所有者の承諾を証する情報を提供しても、それによって土地の所有者が申請できるようになるわけではない（承諾で申請できるとする定めはない）。
 
 --- CALLOUT: 誤りやすいポイント ---
 「承諾をもらわないと申請できない」と考えがちですが、代位は、本人の承諾がなくてもできる制度です。必要なのは、代位して申請する理由を示す情報です。
@@ -695,7 +697,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 敷・地・権・付・区・分・建・物・滅・失・抵・当・消・記・録・登・効・特・定・申・請・併・目・的・承・産 — always
+any characters. Pay special attention to the kanji 敷・地・権・付・区・分・建・物・滅・失・抵・当・消・記・録・登・効・特・定・申・請・併・目・的・承・転 — always
 draw the standard Japanese (Jōyō) form.
 
 ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
@@ -727,13 +729,13 @@ Step 1 box: 敷地権の登記がされた後に、区分建物に抵当権の�
 Step 2 box: その区分建物が滅失し、滅失の登記を申請する。
 Branch (diamond): 申請情報と併せて、抵当権者が、敷地権の目的であった土地について抵当権を消滅させることを承諾した情報を提供したか。
 Arrow YES (green): 土地について抵当権が消滅した旨が、付記登記として、区分建物の登記記録に記録される。
-Arrow NO (gray): 土地について消滅した旨の登記はされない。（抵当権は土地の登記記録に残る）
+Arrow NO (gray): 土地について消滅した旨の登記はされない。（抵当権の登記は土地の登記記録に転写され、土地の抵当権として残る）
 
 --- CALLOUT: 誤りやすいポイント ---
 建物がなくなっても、敷地権（土地）に及んでいた抵当権は、それだけでは消えません。抵当権者が土地について消滅させることを承諾したときに、その旨が記録されます。
 
 --- FOOTER ---
-不動産登記法55条4項・不動産登記規則125条
+不動産登記法55条4項・不動産登記規則125条・145条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
@@ -877,7 +879,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 区・分・建・物・滅・失・所・有・申・請・併・代・位・認・取・登・記・法・条・部・変・更・定・産・確 — always
+any characters. Pay special attention to the kanji 区・分・建・物・滅・失・所・有・申・請・併・代・位・認・取・登・記・法・条・部・変・更・定・産 — always
 draw the standard Japanese (Jōyō) form.
 
 ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
@@ -915,7 +917,7 @@ Arrow NO (red): 認められていない。滅失の登記は、滅失した建�
 「乙の変更の登記と併せて、代わりに申請できる」と考えがちですが、そのような代位申請を認める定めはありません。滅失の登記は、滅失した建物の所有者が申請します。
 
 --- FOOTER ---
-不動産登記法57条（他の区分建物の所有者の代位申請を認める定めは未確認）
+不動産登記法57条（他の区分建物の所有者が代位して申請できるとする定めはない）
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional

@@ -46,15 +46,15 @@
 
 **たとえば**、同じ所有者の2棟に、同じ受付年月日・受付番号で登記された共同抵当（登記の目的・原因・名義人も同じ）が付いているときは、合体後の建物について持分を分けて書く必要はありません。
 
-### エ：主である建物と附属建物がつながっても、合体ではない
+### エ：主である建物と附属建物が合体しても、合体による登記等ではない
 
 合体は、二以上の建物が合体して一個の建物になる場合のことです（不動産登記法49条1項）。
 
-主である建物と附属建物は、もともと1個の建物として登記されています。附属建物とつながっても、合体にはなりません。
+主である建物と附属建物は、もともと1個の建物として登記されています。
 
-床面積などの変更を、建物の表題部の変更の登記（同法51条）として申請します（準則95条も、主たる建物と附属建物の合体を表題部の変更の登記として扱います）。本肢は誤りです。
+附属建物と合体しても、合体による登記等（同法49条）はせず、床面積などの変更を、建物の表題部の変更の登記（同法51条）として申請します（準則95条は、原因を「③何年何月何日附属建物合体」と記録します）。本肢は誤りです。
 
-**たとえば**、母屋と、その附属建物の物置を、増築で渡り廊下につないだときは、「合体」ではなく、母屋の登記の床面積などを直す変更の登記になります。
+**たとえば**、母屋と、その附属建物の物置を、増築でつないで1棟にしたときは、合体による登記等ではなく、母屋の登記の床面積などを直す表題部の変更の登記になります。
 
 ### オ：住所に変更があっても、変更を証する情報で合体の申請ができる
 
@@ -71,7 +71,7 @@
 - **ア（誤）** 合体による登記等の申請人は、表題部所有者又は登記名義人のどちらかで足り、共同申請ではない
 - **イ（誤）** 登記識別情報が1個で足りるのは、合体前の建物の登記名義人が同一のときだけ
 - **ウ（正）** 存続する抵当権の登記が全て同一なら、同一でないとみなした場合の持分は申請情報に不要
-- **エ（誤）** 主である建物と附属建物がつながっても、合体ではなく、表題部の変更の登記
+- **エ（誤）** 主である建物と附属建物が合体しても、合体による登記等ではなく、表題部の変更の登記
 - **オ（正）** 住所に変更があっても、変更を証する情報の提供で、住所変更登記なしに申請できる
 
 合体による登記等は、「誰が申請するか」「識別情報は何個か」「持分を書くか」を、合体前の建物の登記の状態ごとに整理しておきましょう。
@@ -88,7 +88,7 @@
 - **イ**　関連する過去の記事：`note-articles/r2-mondai/q16-gattai-touki.md`、`note-articles/h25-mondai/q14-tenpu-jouhou.md`、`note-articles/h20-mondai/q15-gattai-touki.md`
 - **ウ**　関連する過去の記事：`note-articles/r2-mondai/q16-gattai-touki.md`、`note-articles/h28-mondai/q15-gattai.md`、`note-articles/h21-mondai/q18-gattai-touki.md`、`note-articles/h20-mondai/q15-gattai-touki.md`
 - **エ**　関連する過去の記事：`note-articles/r5-mondai/q16-gattai.md`、`note-articles/r1-mondai/q13-tatemono-hyoudaibu.md`、`note-articles/h28-mondai/q15-gattai.md`、`note-articles/h26-mondai/q17-gattai-touki.md`
-- **オ**　関連する過去の記事：`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/r5-mondai/q16-gattai.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`
+- **オ**　関連する過去の記事：`note-articles/r5-mondai/q16-gattai.md`、`note-articles/r5-mondai/q14-tenpujouhou.md`、`note-articles/h26-mondai/q17-gattai-touki.md`、`note-articles/h18-mondai/q18-gattai-touki.md`
 
 **このまま使える点／使う前に確認したい点**
 
@@ -106,7 +106,7 @@
 - 合体の申請は、どちらか1人でいいんです
 - 識別情報が1個でいいのは、同じ名義人のときだけ
 - 抵当権が同じなら、持分は書かなくていいんです
-- 附属建物とつながっても、合体じゃないんです
+- 附属建物との合体は、変更の登記なんです
 - 住所が違っても、合体は申請できます
 
 ---
@@ -264,12 +264,12 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 
 --- COLUMN B, CARD 4 ---
 Heading (bold, ONE line, ~20 characters or fewer):
-附属建物とつながっても合体ではない
-Illustration: 母屋と物置が渡り廊下でつながり、「合体」の札に赤い×、「変更」の付箋が緑で貼られる様子。
-Words allowed inside this illustration (verbatim, nothing else): 「合体」 「変更」
+附属建物との合体は合体による登記等ではない
+Illustration: 母屋と物置が渡り廊下でつながり、「合体による登記等」の札に赤い×、「表題部の変更の登記」の付箋が緑で貼られる様子。
+Words allowed inside this illustration (verbatim, nothing else): 「合体による登記等」 「表題部の変更の登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):
-合体ではなく変更
+表題部の変更の登記
 
 --- COLUMN B, CARD 5 ---
 Heading (bold, ONE line, ~20 characters or fewer):
@@ -420,10 +420,10 @@ characters):
 --- PANEL 4（エ） ---
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
-主である建物と附属建物がつながっても合体ではない
-Diagram: A main house with its attached shed, both enclosed in one bracket labeled「すでに1個の建物」, then joined by a newly built connecting corridor. Next to the corridor, a faded「合体」 stamp with a red ✕. A bold arrow leads to a green conclusion node:「建物の表題部の変更の登記」 (a registry-book page where the floor area is rewritten).
+主である建物と附属建物の合体は表題部の変更の登記
+Diagram: A main house with its attached shed, both enclosed in one bracket labeled「すでに1個の建物」, then joined by a newly built connecting corridor. Next to the corridor, a faded「合体による登記等」 stamp with a red ✕. A bold arrow leads to a green conclusion node:「建物の表題部の変更の登記」 (a registry-book page where the floor area is rewritten).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、つながった建物がすでに主である建物と附属建物として1個の建物かを確認します。1個の建物なら合体にはならず、増築した床面積などは表題部の変更の登記として申請します。
+まず、つながった建物がすでに主である建物と附属建物として1個の建物かを確認します。1個の建物なら合体による登記等ではなく、床面積などを表題部の変更の登記として申請します。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
 変更の登記で足りる
@@ -780,7 +780,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 建・物・附・属・合・体・登・記・図・法・条・部・変・更・産 — always
+any characters. Pay special attention to the kanji 建・物・附・属・合・体・登・記・図・法・条・部・変・更・申・請・産 — always
 draw the standard Japanese (Jōyō) form.
 
 ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
@@ -802,21 +802,21 @@ final image.
 
 --- HEADER ---
 Title (large, bold):
-主である建物と附属建物は、合体ではない
+主である建物と附属建物の合体は、合体による登記等ではない
 
 Subtitle (smaller, centered):
 令和8年度 第14問 エ－もともと1個の建物
 
 --- COMPARISON ---
 Left panel (green header 「合体になる」): 別々に登記された甲建物と乙建物が、くっついて1個の建物になる図。合体による登記等（法49条）。
-Right panel (blue header 「合体にならない」): 主である甲建物と、その附属建物の乙建物（もともと1個の建物）が、くっつく図。表題部の変更の登記（法51条）。
+Right panel (blue header 「表題部の変更の登記になる」): 主である甲建物と、その附属建物の乙建物（もともと1個の建物）が、くっつく図。表題部の変更の登記（法51条）。
 Bottom note: 附属建物は、主である建物と合わせて1個の建物として登記されている。
 
 --- CALLOUT: 誤りやすいポイント ---
-合体は、別々に登記されている建物がつながる場合です。主である建物と附属建物は、もともと1個の建物なので、つながっても合体にはなりません。
+合体による登記等は、別々の建物が合体する場合です。主である建物と附属建物は、もともと1個の建物なので、合体しても表題部の変更の登記（原因「③附属建物合体」）で申請します。
 
 --- FOOTER ---
-不動産登記法49条1項・51条1項
+不動産登記法49条1項・51条1項、準則95条
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
@@ -870,7 +870,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 所・変・更・登・記・合・体・申・請・証・付・前・建・物・有・権・義・録・取・認・確 — always
+any characters. Pay special attention to the kanji 所・変・更・登・記・合・体・申・請・証・付・前・建・物・有・権・義・録・地・筆・併・取・認・確 — always
 draw the standard Japanese (Jōyō) form.
 
 ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
@@ -902,7 +902,7 @@ Top node: 合体前の建物の所有権の登記名義人の住所が、登記�
 Branch (diamond): 先に、住所の変更の登記をしなければならないか。
 Arrow NO (green): 先にしなくてよい。
 Result box: 住所の変更があったことを証する情報（住民票の写しなど）を、添付情報として提供して、合体による登記等を申請できる。
-Side note box (compare): 他の多くの登記でも、住所が違えば、まず住所変更の登記が必要になる。合体による登記等は、その例外。
+Side note box (compare): 土地の合筆の登記や建物の合併の登記では、登記名義人の住所が違えば、先に住所の変更の登記が必要になる。合体による登記等は、変更を証する情報の提供で足りる。
 
 --- CALLOUT: 誤りやすいポイント ---
 合体による登記等では、先に住所変更の登記をする必要はないとする取扱いが認められています。

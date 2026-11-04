@@ -28,7 +28,7 @@
 
 所有権等の登記以外の権利に関する登記がある建物は、原則として合併できません（不動産登記法56条5号）。例外は、担保権の登記で一定の項目が同一のものと、信託の登記で登記事項が同一のものだけです（不動産登記規則131条）。
 
-所有権の移転の仮登記は、この例外に含まれません。仮登記の内容が両方で同一でも、合併できないので、本肢は誤りです。
+所有権の移転の仮登記は、所有権の本登記ではないので、「所有権等の登記以外の権利に関する登記」として扱われ、この例外にも含まれません。仮登記の内容が両方で同一でも、合併できないので、本肢は誤りです。
 
 **たとえば**、隣り合う2つの区分建物に、同じ内容の所有権の移転の仮登記が付いていても、仮登記がある限り、合併の登記は申請できません。
 
@@ -391,9 +391,9 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 所有権の仮登記があると合併できない
-Diagram: A vertical decision flowchart on an isometric scene of two adjacent condominium units labeled 「甲区分建物」 and 「乙区分建物」, each with a small tag 「所有権の移転の仮登記 (内容は同じ)」. Start with a diamond node (thick highlighted border): 「所有権の登記以外の権利に関する登記があるか」. The はい branch goes down to a second diamond node: 「担保権で一定の項目が同一、または信託で登記事項が同一か」. Its はい branch leads to a green node 「例外として合併できる」. Its いいえ branch (thick highlighted red arrow, the branch this panel is about) leads to a red cross conclusion node 「所有権の移転の仮登記はここに当たる。合併できない」. The first diamond's いいえ branch (drawn small and greyed out) leads to a grey conclusion node 「この制限には当たらない」.
+Diagram: A vertical decision flowchart on an isometric scene of two adjacent condominium units labeled 「甲区分建物」 and 「乙区分建物」, each with a small tag 「所有権の移転の仮登記 (内容は同じ)」. Start with a diamond node (thick highlighted border): 「所有権等（所有権・地上権・永小作権・地役権・採石権）の登記以外の権利に関する登記（所有権の仮登記を含む）があるか」. The はい branch goes down to a second diamond node: 「担保権で一定の項目が同一、または信託で登記事項が同一か」. Its はい branch leads to a green node 「例外として合併できる」. Its いいえ branch (thick highlighted red arrow, the branch this panel is about) leads to a red cross conclusion node 「所有権の移転の仮登記はここに当たる。合併できない」. The first diamond's いいえ branch (drawn small and greyed out) leads to a grey conclusion node 「この制限には当たらない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、所有権の登記以外の権利に関する登記があるかを確認し、次にそれが担保権や信託の登記で、一定の項目が同一かを確認します。所有権の移転の仮登記は例外に入らないので、内容が同一でも合併できません。
+まず、所有権等の登記以外の権利に関する登記（所有権の移転の仮登記を含む）があるかを確認し、次にそれが担保権や信託の登記で、一定の項目が同一かを確認します。所有権の移転の仮登記は例外に入らないので、内容が同一でも合併できません。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 仮登記は例外に入らない
@@ -413,7 +413,7 @@ characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 相続登記をしなくても合併を申請できる
-Diagram: A short vertical flowchart on an isometric scene of two buildings (甲建物 and 乙建物) whose shared registered owner is shown as a faded figure with a small tag 「亡 (所有権の登記名義人)」. Step 1 (a plain rounded rectangle): 「合併の登記は表示に関する登記」. Step 2 (a diamond node with thick highlighted border): 「登記名義人が死亡しているとき、相続人が申請できるか (法30条)」, with the はい branch leading to a green checkmark conclusion node 「相続登記なしで合併を申請できる」. The いいえ branch is drawn small and greyed out, leading to a grey node 「(この肢の結論ではない)」. Beside the flow, a faded box 「相続による所有権の移転の登記」 carries a red cross and the label 「前提ではない」.
+Diagram: A short vertical flowchart on an isometric scene of two buildings (甲建物 and 乙建物) whose shared registered owner is shown as a faded figure with a small tag 「亡 (所有権の登記名義人)」. Step 1 (a plain rounded rectangle): 「合併の登記は表示に関する登記」. Step 2 (a rounded rectangle with thick highlighted border): 「登記名義人が死亡しているときは、相続人が申請できる (法30条)」, leading to a green checkmark conclusion node 「相続登記なしで合併を申請できる」. Beside the flow, a faded box 「相続による所有権の移転の登記」 carries a red cross and the label 「前提ではない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、合併の登記が表示に関する登記であることを確認し、次に登記名義人が死亡していても相続人が申請できること（法30条）を確認します。相続による所有権の移転の登記を先にする必要はありません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
@@ -448,7 +448,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 建、物、合、併、産、登、記、法、条、号、規、務、取、続、所、有、権、仮、関、確、認、保、信、託、定、目. If any character
+Chinese, paying special attention to 建、物、合、併、産、登、記、法、条、号、規、務、取、続、所、有、権、仮、関、移、転、確、認、保、信、託. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

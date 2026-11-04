@@ -18,7 +18,7 @@
 
 ---
 
-筆界特定は、筆界特定登記官が、土地の筆界の位置を特定する制度です。申請の費用の負担、複数の申請、筆界特定書への境界標の記載の有無、申請情報の内容、取下げをしたときの扱いを整理します。本問は「誤っているもの」を選びます。
+筆界特定は、筆界特定登記官が、土地の筆界の位置を特定する制度です。申請の費用の負担、複数の申請、筆界特定後の境界標の設置の有無、申請情報の内容、取下げをしたときの扱いを整理します。本問は「誤っているもの」を選びます。
 
 手続の細かい規定が並ぶ分野です。肢ごとに、記述が正しいのか誤りなのかを確認していきましょう。
 
@@ -779,7 +779,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 隣・所・有・申・請・書・関・係・地・規・条・号・図・間・相・権・登・記・義・定・法・区・産 — always
+any characters. Pay special attention to the kanji 隣・所・有・申・請・書・関・係・地・規・条・号・図・間・相・筆・界・特・定・法・記・権・登・義・通・知 — always
 draw the standard Japanese (Jōyō) form.
 
 ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
@@ -808,7 +808,7 @@ Subtitle (smaller, centered):
 
 --- COMPARISON ---
 Left panel (green header 「対象土地の所有者（申請人以外）が主張する線」): 申請情報の内容にする。（規則207条3項6号）緑のチェック。小さな図で、甲土地と乙土地（対象土地）の間に、申請人の線と、相手の所有者の線の2本が引かれる。
-Right panel (blue header 「関係土地の所有者が主張する線」): 規則207条3項6号は、対象土地の所有権登記名義人等が主張する線を定めている。関係土地（対象土地に隣接する他の土地）の所有者は、関係人として扱われる。（法133条・規則207条3項3号）
+Right panel (blue header 「関係土地の所有者が主張する線」): 関係土地（対象土地以外の土地で、筆界特定の対象となる筆界上の点を含む他の筆界で対象土地と接するもの。法123条4号）の所有者が主張する線は、規則207条3項6号の記載事項ではない。関係土地の所有権登記名義人等は、申請人以外の対象土地の所有者と同じく、関係人として通知を受ける。（法133条1項）
 Bottom strip: 申請人が主張する線とその根拠も、申請情報の内容にする。（同項5号）
 
 --- CALLOUT: 誤りやすいポイント ---
