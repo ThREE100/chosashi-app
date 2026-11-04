@@ -164,7 +164,7 @@ for path in files:
         bad(f, "セクションの順序: {}".format(order))
     # 11 プロンプト
     codes = re.findall(r"```[a-z]*\n(.*?)```", text, flags=re.S)
-    expect = 3 + len({3: "オ", 4: "アウエオ", 13: "エ", 14: "イオ", 17: "エオ", 18: "アエ"}.get(n, ""))
+    expect = 3 + (5 if n in (3, 4, 13, 14, 17, 18) else 0)
     if len(codes) != expect:
         bad(f, "コードブロックが{}個でない: {}".format(expect, len(codes)))
     else:
@@ -215,7 +215,7 @@ for path in files:
         if not os.path.exists(pf):
             bad(f, "個人用の分析ファイルがない")
     # 13b 作図ガイド（全問）と間違いノート（本番で間違えた肢だけ）
-    MISTAKE = {3: "オ", 4: "アウエオ", 13: "エ", 14: "イオ", 17: "エオ", 18: "アエ"}
+    MISTAKE = {n: "アイウエオ" for n in (3, 4, 13, 14, 17, 18)}
     if text.count("## インフォグラフィック プロンプト（作図ガイド）") != 1:
         bad(f, "作図ガイドの見出しが1つでない")
     else:

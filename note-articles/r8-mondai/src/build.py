@@ -228,10 +228,8 @@ def build_article(n, d):
         a("```")
         a("")
     if d.get("mistakes"):
-        wrong = [x for x in LET if d["personal"]["items"][x]["verdict"] == "相違"]
+        # 本番で解答を誤った問は、ア〜オのすべての肢に個別の図解を付ける（2026-11-04 ユーザー指示）
         for i, letter in enumerate(LET):
-            if letter not in wrong:
-                continue
             m = d["mistakes"][letter]
             a("---")
             a("")

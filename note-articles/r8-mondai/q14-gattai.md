@@ -471,6 +471,98 @@ with no transparency or alpha channel anywhere.
 
 ---
 
+## インフォグラフィック プロンプト（ア肢・間違いノート）
+
+アの記述を、正しいルールの側から理解するための解説図解です。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity. Use a green check mark for the correct rule
+and a red cross mark for the wrong rule; never write any person's study
+record, answer history, or past question numbers in the image.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 合・体・申・請・前・建・物・登・記・決・法・条・号・所・有・部・権・義・共・産 — always
+draw the standard Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the illustrations and diagrams, render ONLY the words that are
+written in this prompt (the labels, flowchart conditions and callout text
+given below), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing; leave other
+surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
+--- HEADER ---
+Title (large, bold):
+合体の申請人は、どちらか一方で足りる
+
+Subtitle (smaller, centered):
+令和8年度 第14問 ア－合体前の建物の登記の状態で決まる
+
+--- COMPARISON ---
+A small table with three rows, each row is a pair of buildings before the merge, with the applicant column on the right (each row is drawn as a card, not a table):
+Card 1: 表題登記がない建物と、表題登記がある建物のみ。（法49条1項1号） 申請人は、「表題登記がない建物の所有者」又は「表題登記がある建物の表題部所有者」。
+Card 2 (highlighted with a yellow marker): 表題登記がある建物と、所有権の登記がある建物のみ。（同項4号） 申請人は、「表題登記がある建物の表題部所有者」又は「所有権の登記がある建物の所有権の登記名義人」。
+Card 3: いずれも所有権の登記がある建物。（同項5号） 申請人は、「所有権の登記名義人」。
+Bottom compare strip: 問題文の「AとBが、共同して申請しなければならない」に赤い×。条文は「又は」で、一方で足りる。
+
+--- CALLOUT: 誤りやすいポイント ---
+条文は、申請人を「又は」でつないでいます。どちらかが申請すれば足りるので、2人が共同して申請する必要はありません。合体から1か月以内に申請します。
+
+--- FOOTER ---
+不動産登記法49条1項
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters,
+confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+---
+
 ## インフォグラフィック プロンプト（イ肢・間違いノート）
 
 イの記述を、正しいルールの側から理解するための解説図解です。
@@ -543,6 +635,188 @@ Bottom note: 登記識別情報を提供する登記は、所有権の登記が�
 
 --- FOOTER ---
 不動産登記令8条1項2号・2項2号
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters,
+confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（ウ肢・間違いノート）
+
+ウの記述を、正しいルールの側から理解するための解説図解です。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity. Use a green check mark for the correct rule
+and a red cross mark for the wrong rule; never write any person's study
+record, answer history, or past question numbers in the image.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 抵・当・権・分・書・合・登・記・義・建・物・体・前・存・続・申・請・目・的・付・号・部・囲・変・産 — always
+draw the standard Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the illustrations and diagrams, render ONLY the words that are
+written in this prompt (the labels, flowchart conditions and callout text
+given below), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing; leave other
+surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
+--- HEADER ---
+Title (large, bold):
+抵当権が全て同一なら、みなし持分は不要
+
+Subtitle (smaller, centered):
+令和8年度 第14問 ウ－持分を書く場合と書かない場合
+
+--- FLOWCHART ---
+Top node: 登記名義人が同一の建物が合体し、合体前の建物の抵当権の登記を、合体後も存続させたい。
+Step 1 box: 原則は、登記名義人が同一でないとみなした場合の持分を、申請情報の内容にする。（令別表の十三の項ニ）
+Branch (diamond): 存続する複数の抵当権の登記について、登記の目的・受付の年月日及び受付番号・登記原因及びその日付・登記名義人が、いずれも同一か。
+Arrow YES (green): みなした持分は、申請情報の内容にしなくてよい。（かっこ書の除外）
+Arrow NO (gray): 原則どおり、みなした持分を申請情報の内容にする。
+
+--- CALLOUT: 誤りやすいポイント ---
+同一の人が持つ建物の合体なのに、持分を書くのは不思議に見えますが、一部の建物にだけ抵当権があると、持分ごとに権利の範囲が変わるためです。全部の建物で同じ抵当権のときは、そうした違いが生じないので、書く必要がありません。
+
+--- FOOTER ---
+不動産登記令別表の十三の項ニ
+
+Final check before rendering: scan every kanji glyph and confirm it is
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese. Also scan the entire canvas for any character that is not
+standard Japanese hiragana, katakana, or Jōyō kanji — including any
+Chinese-only character, Korean Hangul, other non-Japanese script, or
+stray decorative glyph — and remove or redraw it. Confirm every
+heading, node label, and callout text matches the Japanese text given
+above verbatim, with no paraphrasing and no substituted characters,
+confirm nothing is rendered below the FOOTER's small footnote text (no
+summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
+```
+
+---
+
+## インフォグラフィック プロンプト（エ肢・間違いノート）
+
+エの記述を、正しいルールの側から理解するための解説図解です。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+clean flat-design isometric illustration style with soft pastel colors
+(blue, green, beige, gray), rounded panel sections, consistent with the
+same visual language as the whole-problem poster for this article, but
+built as a single detailed explainer panel rather than a multi-card
+poster.
+
+MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
+specific point of confusion, not to be a glanceable summary. Unlike a
+quick-reference poster, this image MAY include flowchart branches with
+written conditions, side-by-side comparisons with quoted article text,
+and short explanatory sentences (1-3 sentences per callout box) labeled
+「誤りやすいポイント」or similar. Prioritize clarity and completeness of
+the reasoning over brevity. Use a green check mark for the correct rule
+and a red cross mark for the wrong rule; never write any person's study
+record, answer history, or past question numbers in the image.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
+only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
+Simplified Chinese characters (simplified hanzi) under any circumstances,
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
+below verbatim — do not paraphrase, translate, summarize, or substitute
+any characters. Pay special attention to the kanji 建・物・附・属・合・体・登・記・図・法・条・部・変・更・産 — always
+draw the standard Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside the illustrations and diagrams, render ONLY the words that are
+written in this prompt (the labels, flowchart conditions and callout text
+given below), each one large, clear and exactly as written. Do not add any
+other text, inscriptions, signs, numbers or pseudo-writing; leave other
+surfaces blank or use an icon or mark instead.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panel/flowchart/comparison — with a solid or
+illustrated opaque background. There must be no checkerboard pattern, no
+partially transparent area, and no unpainted canvas edge anywhere in the
+final image.
+
+--- HEADER ---
+Title (large, bold):
+主である建物と附属建物は、合体ではない
+
+Subtitle (smaller, centered):
+令和8年度 第14問 エ－もともと1個の建物
+
+--- COMPARISON ---
+Left panel (green header 「合体になる」): 別々に登記された甲建物と乙建物が、くっついて1個の建物になる図。合体による登記等（法49条）。
+Right panel (blue header 「合体にならない」): 主である甲建物と、その附属建物の乙建物（もともと1個の建物）が、くっつく図。表題部の変更の登記（法51条）。
+Bottom note: 附属建物は、主である建物と合わせて1個の建物として登記されている。
+
+--- CALLOUT: 誤りやすいポイント ---
+合体は、別々に登記されている建物がつながる場合です。主である建物と附属建物は、もともと1個の建物なので、つながっても合体にはなりません。
+
+--- FOOTER ---
+不動産登記法49条1項・51条1項
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
