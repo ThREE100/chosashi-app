@@ -618,3 +618,4 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 ## 個別テーマ記事の置き場所(2026-11-04追加)
 
 1本で完結する個別テーマの解説記事は`note-articles/topics/`に置く。`note-articles/column/`は連載シリーズ（苦手分析`nigate-NN-*`、総合記事`sokatsu-0N-*`）専用で、個別テーマ記事は置かない（`column/`にあった8本を`topics/`へ移し、参照パスも更新済み）。
+個別テーマ記事ごとのInstagram用の見出し画像プロンプト（3:4の1080×1440と4:5の1080×1350、MC1人）とキャプション案は`note-articles/topics/instagram/`にある（`K??_NN.md`が記事と同じ番号、入口は`README.md`）。原稿データ`data.json`を直して`gen_instagram.py`で作り直し、`check.py`でNG 0件にする（生成物は手で直さない）。画像の生成・目視確認は未実施。

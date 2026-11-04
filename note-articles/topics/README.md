@@ -85,3 +85,5 @@
 - `KT_05` [## 【KT_05】【土地家屋調査士受験生向け】調査士法人の業務制限（第3回）〜同意で外れる制限は、たった1つ〜](KT_05_chousashi-houjin-gyoumu-seigen-03-rieki-souhan.md)
 - `KT_06` [## 【KT_06】【土地家屋調査士受験生向け】調査士法人の業務制限（第4回）〜常駐・競業・社員資格の3つの縛り〜](KT_06_chousashi-houjin-gyoumu-seigen-04-soshiki-seigen.md)
 - `KT_07` [## 【KT_07】【土地家屋調査士受験生向け】調査士法人の業務制限（第5回）〜法人にだけある「解散」という処分〜](KT_07_chousashi-houjin-gyoumu-seigen-05-choukai.md)
+
+Instagram用の見出し画像プロンプトとキャプション案は `instagram/` にある（入口は `instagram/README.md`）。
