@@ -9,7 +9,7 @@ TOPICS = os.path.dirname(HERE)
 D = json.load(open(os.path.join(HERE, 'data.json'), encoding='utf-8'))
 SHELF = {'KA':'土台','KB':'担い手','KC':'記録','KD':'共通手続','KE':'表示','KF':'権利','KG':'確かめる','KH':'周辺','KM':'民法','KT':'土地家屋調査士法'}
 
-PROMPT = '''Create an Instagram feed cover image, portrait layout, EXACTLY 1080x1440 pixels (3:4).
+PROMPT = '''Create an Instagram feed cover image, portrait layout, EXACTLY {size} pixels ({ratio}).
 
 STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com header images of the same series. Fill the whole canvas with the pastel sky and soft clouds.
 
@@ -21,7 +21,7 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, 
 
 BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.
 
-TEXT (reproduce verbatim, nothing else), centered in the upper part of the canvas between y=120px and y=620px, over a soft white cloud-shaped glow, bold rounded font. Line 1, large, dark navy with a pale yellow marker stroke behind it:
+TEXT (reproduce verbatim, nothing else), centered in the upper part of the canvas between y={ty0}px and y={ty1}px, over a soft white cloud-shaped glow, bold rounded font. Line 1, large, dark navy with a pale yellow marker stroke behind it:
 {l1}
 Line 2, very large; the phrase {emph} is red-orange and the rest is dark navy:
 {l2}
@@ -29,11 +29,11 @@ Line 3, in a light blue rounded pill-shaped band with navy text:
 {band}
 {sub_block}Do not write any other text anywhere in the image.
 
-SCENE: the MC character stands at the bottom center (about y=760px to y=1360px). Behind and beside her, drawn simply and softly: {scene} No text on any object; props stay soft so they never compete with the title or the character.
+SCENE: the MC character stands at the bottom center (about y={cy0}px to y={cy1}px). Behind and beside her, drawn simply and softly: {scene} No text on any object; props stay soft so they never compete with the title or the character.
 
 LAYOUT: keep a clear, uncluttered zone behind the title block. Do not draw any flowchart, arrow between boxes, check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1080x1440 portrait; confirm the only text is the {n} title lines, exactly as written; scan every kanji ({kanji}) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm nothing important lies within the outer safe margin; confirm the canvas is fully opaque.'''
+Final check before rendering: confirm the image is exactly {size} portrait; confirm the only text is the {n} title lines, exactly as written; scan every kanji ({kanji}) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm nothing important lies within the outer safe margin; confirm the canvas is fully opaque.'''
 
 def kanji_of(*ts):
     seen = []
@@ -41,23 +41,27 @@ def kanji_of(*ts):
         if '一' <= c <= '鿿' and c not in seen: seen.append(c)
     return '・'.join(seen)
 
+VAR = {'34': dict(size='1080x1440', ratio='3:4', ty0=120, ty1=620, cy0=760, cy1=1360),
+       '45': dict(size='1080x1350', ratio='4:5', ty0=100, ty1=570, cy0=700, cy1=1280)}
+
 def build(i, d, fname):
     title = open(os.path.join(TOPICS, fname + '.md'), encoding='utf-8').readline().strip().lstrip('# ')
     sub = d.get('sub', '')
     sub_block = ('Line 4, smaller, dark navy, below the band:\n' + sub + '\n') if sub else ''
     n = 4 if sub else 3
-    pr = PROMPT.format(l1=d['l1'], l2=d['l2'], emph=d['emph'], band=d['band'], sub_block=sub_block,
-                       scene=d['scene'].strip(), n=n, kanji=kanji_of(d['l1'], d['l2'], d['band'], sub))
+    def mk(v): return PROMPT.format(l1=d['l1'], l2=d['l2'], emph=d['emph'], band=d['band'], sub_block=sub_block,
+                       scene=d['scene'].strip().rstrip('.。')+'.', n=n, kanji=kanji_of(d['l1'], d['l2'], d['band'], sub), **VAR[v])
+    pr, pr45 = mk('34'), mk('45')
     cap = [d['hook'], '', d['lead'], '']
     cap += ['・' + p for p in d['points']]
     cap += ['', d['close'], '', ' '.join(d['tags'])]
     cap = '\n'.join(cap)
     out = f'''# {i} Instagram用 見出し画像のプロンプトとキャプション
 
+- 画像は3:4と4:5の2種類（どちらもキャラクターシートMC-01〜MC-04を添付して貼る）。
 - 対象の記事：`note-articles/topics/{fname}.md`
 - 記事の見出し：{title}
 - 分類：{i[:2]} {SHELF[i[:2]]}
-- 画像の保存名：`topics_{i}_cover.png`（1080×1440）
 - 画像の生成と目視確認はChatGPTで行う（未実施）。キャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚を添付してから貼る。
 
 ## 画像の文字（1字ずつ確かめる）
@@ -69,10 +73,18 @@ def build(i, d, fname):
 | 帯 | {d['band']} |
 | 4行目 | {sub or '（なし）'} |
 
-## 見出し画像プロンプト（ChatGPTに貼る）
+## 見出し画像プロンプト 3:4（1080×1440・ChatGPTに貼る）
 
 ```
 {pr}
+```
+
+## 見出し画像プロンプト 4:5（1080×1350・Instagram投稿用）
+
+3:4版と同じ文字・同じ絵柄で、縦横比だけを4:5にしたもの。キャラクターは、キャラクターシート（MC-01〜MC-04）を添付して参照させる。
+
+```
+{pr45}
 ```
 
 文字が崩れるときは、「TEXT」の部分を「No text」に書き換えて文字なしで作らせ、文字はCanvaなどで重ねる。直すときは、最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。
