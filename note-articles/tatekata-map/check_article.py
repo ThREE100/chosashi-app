@@ -5,7 +5,7 @@
   1. 記事・プロンプトに出てくる「第N条」「第N条のM」が、本則に実在する。
   2. 8つの棚・款の条文範囲が、目次の章立てと一致する。
   3. 記事で述べた文言（一月以内、十万円以下の過料、職権、共同申請、登記の前後、三年以内、二年以内など）が、該当条文にある。
-  4. 画像挿入マーカーが図1〜図8の順に並び、プロンプトの図の順と一致する。
+  4. 画像挿入マーカーが図1〜図7の順に並び、プロンプトの図の順と一致する。
   5. 書かないことの語、個人の演習結果、図番の焼き込み、「決定木」などの禁止語が入っていない。
 NG が0件なら終了コード0。
 """
@@ -106,12 +106,14 @@ check('登記権利者及び登記義務者が共同して' in art('60'), '第60
 
 # 4. マーカー
 marks = re.findall(r'画像挿入：図(\d)', article)
-check(marks == [str(i) for i in range(1, 9)], f'画像挿入マーカーが図1〜図8の順でない: {marks}')
+check(marks == [str(i) for i in range(1, 8)], f'画像挿入マーカーが図1〜図7の順でない: {marks}')
 heads = re.findall(r'^## 図(\d)：', prompts, flags=re.M)
-check(heads == [str(i) for i in range(1, 9)], f'プロンプトの図が図1〜図8の順でない: {heads}')
+check(heads == [str(i) for i in range(1, 8)], f'プロンプトの図が図1〜図7の順でない: {heads}')
 check('Instagram用：図1の3:4版' in prompts and '1080x1440' in prompts, 'Instagram用の3:4版がない')
-check(prompts.count('NO NUMBERING') >= 9, 'NO NUMBERINGの指示が各プロンプトにない')
-check(prompts.count('ILLUSTRATION TEXT RULE') >= 9, 'ILLUSTRATION TEXT RULEが各プロンプトにない')
+check(prompts.count('NO NUMBERING') >= 8, 'NO NUMBERINGの指示が各プロンプトにない')
+check(prompts.count('ILLUSTRATION TEXT RULE') >= 8, 'ILLUSTRATION TEXT RULEが各プロンプトにない')
+
+check('条文の探し方' not in article and '図8' not in article, '削除したはずの条文の探し方・図8が残っている')
 
 # 5. 禁止語・個人情報
 BAN = ['教材としてまとめたもの', '合格するまで更新', '予備校の解答例と照合', '決定木', '判定木', 'ツリー']
@@ -123,7 +125,7 @@ for w in ('誤答', '間違えた回数', '自分の回答', '復習中', '要�
 words_lines = re.findall(r'Words allowed on this poster[^\n]*', prompts)
 for w in words_lines:
     check(not re.search(r'「図\d', w), f'画像の語に図番がある: {w[:40]}')
-check(len(words_lines) == 9, f'Words allowedの行が9本（図8＋IG）でない: {len(words_lines)}')
+check(len(words_lines) == 8, f'Words allowedの行が8本（図7＋IG）でない: {len(words_lines)}')
 
 # 画像の語が、記事にも出ているか（棚名・款名）
 for name, _, _ in SHELVES:
@@ -134,4 +136,4 @@ if ng:
     for m in ng:
         print(' -', m)
     sys.exit(1)
-print('NG 0件（条文%d条、図8枚、マーカー8か所）' % len(arts))
+print('NG 0件（条文%d条、図7枚、マーカー7か所）' % len(arts))

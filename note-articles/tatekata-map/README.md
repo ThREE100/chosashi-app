@@ -5,8 +5,8 @@
 | ファイル | 中身 |
 |---|---|
 | `00-kousei.md` | 構成案（8つの棚、記事の構成、図の一覧） |
-| `01-fudousan-touki-hou-tatekata-map.md` | note記事の本文（画像挿入マーカー8か所） |
-| `01-zukai-prompts.md` | 図解8枚・Instagram用（図1の3:4版）・note見出し画像のChatGPT用プロンプト |
+| `01-fudousan-touki-hou-tatekata-map.md` | note記事の本文（画像挿入マーカー7か所） |
+| `01-zukai-prompts.md` | 図解7枚・Instagram用（図1の3:4版）・note見出し画像のChatGPT用プロンプト |
 | `check_article.py` | 原文（`../laws/fudousan-touki-hou.md`）との機械チェック。`python3 note-articles/tatekata-map/check_article.py` で NG 0件にする |
 
 - 画像の生成・目視確認は未実施（ユーザーがChatGPTで行う）。画像の中には図番を入れない。

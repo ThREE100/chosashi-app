@@ -1,13 +1,13 @@
 # 「建て付け」マップ 図解画像のプロンプト（ChatGPT用）
 
-2026-11-04 作成。記事 `01-fudousan-touki-hou-tatekata-map.md` に差し込む図8枚＋Instagram用（図1の3:4版）＋note見出し画像。画像の生成はChatGPTで行う。
+2026-11-04 作成。記事 `01-fudousan-touki-hou-tatekata-map.md` に差し込む図7枚＋Instagram用（図1の3:4版）＋note見出し画像。画像の生成はChatGPTで行う。
 
 ## 使い方
 
 1. 図ごとに、コードブロックをそのままChatGPTに貼る。画像の中に図番は入れない（管理番号は、PNG名と記事のマーカーだけ）。
-2. 色の約束：**表示＝青、権利＝薄い橙**を全図で統一する。8枚を並べたとき色がそろっているか確かめる。
+2. 色の約束：**表示＝青、権利＝薄い橙**を全図で統一する。7枚を並べたとき色がそろっているか確かめる。
 3. 仕上がりを確かめる（下の「確かめること」）。直すときは、プロンプトの最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。
-4. ファイル名は `tatekata_zu01.png` 〜 `tatekata_zu08.png`、Instagram用は `tatekata_ig01.png`。
+4. ファイル名は `tatekata_zu01.png` 〜 `tatekata_zu07.png`、Instagram用は `tatekata_ig01.png`。
 
 ## 確かめること
 
@@ -31,7 +31,6 @@
 | zu05 | 権利の棚の8つの款 | 1080x1800 | 記事の「画像挿入」マーカー |
 | zu06 | 表示と権利の対比 | 1080x1500 | 記事の「画像挿入」マーカー |
 | zu07 | 確かめる棚と周辺の棚 | 1080x1500 | 記事の「画像挿入」マーカー |
-| zu08 | 条文の探し方クイズ | 1080x1800 | 記事の「画像挿入」マーカー |
 
 ## 図1：8つの棚の全体マップ（zu01・1080x1800）
 
@@ -65,11 +64,11 @@ Bottom row, two cards side by side (beige-gray):
  - 「確かめる」 with 「第119条〜第150条」 and 「証明書・筆界特定」
  - 「周辺」 with 「第151条〜第164条」 and 「雑則・罰則」
 
---- FOOTER --- a conclusion band: 「まず、どの棚の話かを考える」
+--- FOOTER --- a conclusion band: 「全体像は、8つの棚で見る」
 
-Words allowed on this poster (exactly these strings, nothing else): 「不動産登記法の建て付けマップ」 / 「第1条〜第164条を8つの棚に分ける」 / 「土台」 / 「第1条〜第5条」 / 「目的・定義・権利・順位」 / 「担い手」 / 「第6条〜第10条」 / 「登記所と登記官」 / 「記録」 / 「第11条〜第15条」 / 「登記簿と登記記録」 / 「共通手続」 / 「第16条〜第26条」 / 「申請・受付・却下」 / 「表示」 / 「第27条〜第58条」 / 「土地と建物の状況」 / 「権利」 / 「第59条〜第118条」 / 「所有権・抵当権など」 / 「確かめる」 / 「第119条〜第150条」 / 「証明書・筆界特定」 / 「周辺」 / 「第151条〜第164条」 / 「雑則・罰則」 / 「まず、どの棚の話かを考える」
+Words allowed on this poster (exactly these strings, nothing else): 「不動産登記法の建て付けマップ」 / 「第1条〜第164条を8つの棚に分ける」 / 「土台」 / 「第1条〜第5条」 / 「目的・定義・権利・順位」 / 「担い手」 / 「第6条〜第10条」 / 「登記所と登記官」 / 「記録」 / 「第11条〜第15条」 / 「登記簿と登記記録」 / 「共通手続」 / 「第16条〜第26条」 / 「申請・受付・却下」 / 「表示」 / 「第27条〜第58条」 / 「土地と建物の状況」 / 「権利」 / 「第59条〜第118条」 / 「所有権・抵当権など」 / 「確かめる」 / 「第119条〜第150条」 / 「証明書・筆界特定」 / 「周辺」 / 「第151条〜第164条」 / 「雑則・罰則」 / 「全体像は、8つの棚で見る」
 
-Final check before rendering: confirm the canvas is exactly 1080x1800 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 不、動、産、登、記、法、建、付、第、条、棚、分、土、台、目、的、定、義、権、利、順、位、担、手、所、官、録、簿、共、通、続、申、請、受、却、下、表、示、地、物、状、況、有、抵、当、確、証、明、書、筆、界、特、周、辺、雑、則、罰、話、考.
+Final check before rendering: confirm the canvas is exactly 1080x1800 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 不、動、産、登、記、法、建、付、第、条、棚、分、土、台、目、的、定、義、権、利、順、位、担、手、所、官、録、簿、共、通、続、申、請、受、却、下、表、示、地、物、状、況、有、抵、当、確、証、明、書、筆、界、特、周、辺、雑、則、罰、全、体、像、見.
 ```
 
 ## 図2：登記簿・登記記録・表題部と権利部（zu02・1080x1500）
@@ -279,40 +278,6 @@ Words allowed on this poster (exactly these strings, nothing else): 「確かめ
 Final check before rendering: confirm the canvas is exactly 1080x1500 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 確、棚、周、辺、第、条、証、明、図、面、交、付、何、人、請、求、筆、界、特、定、位、置、雑、則、罰、過、料、登、記、調、境、決、守.
 ```
 
-## 図8：条文の探し方クイズ（zu08・1080x1800）
-
-```
-Create a Japanese-language infographic, portrait layout, 1080x1800 pixels,
-clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use a library / bookshelf motif as the visual theme (shelves, books, drawers), drawn simply.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・の are allowed ONLY inside the given strings (for example 第1条〜第5条). No Latin letters anywhere.
-
-ILLUSTRATION TEXT RULE (critical): the only text allowed anywhere on the poster is the strings written in 「」 below (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw. Do not invent or add any other text, number, caption, pseudo-writing, inscription on props, logo, watermark or URL. A prop that is not given a word keeps a blank surface or shows its meaning with an icon.
-
-NO NUMBERING (critical): do not draw any number, numbered circle, badge or sequence mark that is not inside a given string. No figure number, no panel number, no page number.
-
-BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge. No transparent or alpha-channel background, no checkerboard, no unpainted edge. Fill every corner and margin with a pale warm-beige background.
-
-Keep generous margins (at least 48px), large readable type, and a clear uncluttered layout. Dark navy text on light cards. The two main colors for the law structure: blue for 表示 (physical state of land and buildings) and pale orange for 権利 (rights); use the same two colors in every poster of this set.
-
---- HEADER ---
-Title (large, bold): 「問われたら、どの棚か」 / subtitle band: 「棚を決めてから、条文を探す」
-
---- BODY (six rows; each row has a speech bubble on the left with a question, an arrow, and a colored shelf tag with an article on the right; blue tags for 表示, pale orange for 権利, purple-gray for 共通手続, beige-gray for 確かめる, gray for 周辺) ---
- - Bubble 「分筆・合筆を申請できる人は？」 -> blue tag 「表示（土地）」 and 「第39条」
- - Bubble 「建物の合併ができない場合は？」 -> blue tag 「表示（建物）」 and 「第56条」
- - Bubble 「所有権の保存の登記を申請できる人は？」 -> pale orange tag 「権利（所有権）」 and 「第74条」
- - Bubble 「申請が却下される場合は？」 -> purple-gray tag 「共通手続」 and 「第25条」
- - Bubble 「登記事項証明書を請求できる人は？」 -> beige-gray tag 「確かめる（証明）」 and 「第119条」
- - Bubble 「申請を怠ったときの過料は？」 -> gray tag 「周辺（罰則）」 and 「第164条」
-
---- FOOTER --- 「番号を覚える前に、棚を決める」
-
-Words allowed on this poster (exactly these strings, nothing else): 「問われたら、どの棚か」 / 「棚を決めてから、条文を探す」 / 「分筆・合筆を申請できる人は？」 / 「表示（土地）」 / 「第39条」 / 「建物の合併ができない場合は？」 / 「表示（建物）」 / 「第56条」 / 「所有権の保存の登記を申請できる人は？」 / 「権利（所有権）」 / 「第74条」 / 「申請が却下される場合は？」 / 「共通手続」 / 「第25条」 / 「登記事項証明書を請求できる人は？」 / 「確かめる（証明）」 / 「第119条」 / 「申請を怠ったときの過料は？」 / 「周辺（罰則）」 / 「第164条」 / 「番号を覚える前に、棚を決める」
-
-Final check before rendering: confirm the canvas is exactly 1080x1800 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 問、棚、決、条、文、探、分、筆、合、申、請、人、表、示、土、地、第、建、物、併、場、所、有、権、保、存、登、記、利、却、下、共、通、手、続、事、項、証、明、書、求、確、怠、過、料、周、辺、罰、則、番、号、覚、前.
-```
-
 ## Instagram用：図1の3:4版（tatekata_ig01・1080x1440）
 
 カードの並びは図1と同じ。縦が短いので余白を詰める。
@@ -347,11 +312,11 @@ Bottom row, two cards side by side (beige-gray):
  - 「確かめる」 with 「第119条〜第150条」 and 「証明書・筆界特定」
  - 「周辺」 with 「第151条〜第164条」 and 「雑則・罰則」
 
---- FOOTER --- a conclusion band: 「まず、どの棚の話かを考える」
+--- FOOTER --- a conclusion band: 「全体像は、8つの棚で見る」
 
-Words allowed on this poster (exactly these strings, nothing else): 「不動産登記法の建て付けマップ」 / 「第1条〜第164条を8つの棚に分ける」 / 「土台」 / 「第1条〜第5条」 / 「目的・定義・権利・順位」 / 「担い手」 / 「第6条〜第10条」 / 「登記所と登記官」 / 「記録」 / 「第11条〜第15条」 / 「登記簿と登記記録」 / 「共通手続」 / 「第16条〜第26条」 / 「申請・受付・却下」 / 「表示」 / 「第27条〜第58条」 / 「土地と建物の状況」 / 「権利」 / 「第59条〜第118条」 / 「所有権・抵当権など」 / 「確かめる」 / 「第119条〜第150条」 / 「証明書・筆界特定」 / 「周辺」 / 「第151条〜第164条」 / 「雑則・罰則」 / 「まず、どの棚の話かを考える」
+Words allowed on this poster (exactly these strings, nothing else): 「不動産登記法の建て付けマップ」 / 「第1条〜第164条を8つの棚に分ける」 / 「土台」 / 「第1条〜第5条」 / 「目的・定義・権利・順位」 / 「担い手」 / 「第6条〜第10条」 / 「登記所と登記官」 / 「記録」 / 「第11条〜第15条」 / 「登記簿と登記記録」 / 「共通手続」 / 「第16条〜第26条」 / 「申請・受付・却下」 / 「表示」 / 「第27条〜第58条」 / 「土地と建物の状況」 / 「権利」 / 「第59条〜第118条」 / 「所有権・抵当権など」 / 「確かめる」 / 「第119条〜第150条」 / 「証明書・筆界特定」 / 「周辺」 / 「第151条〜第164条」 / 「雑則・罰則」 / 「全体像は、8つの棚で見る」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 不、動、産、登、記、法、建、付、第、条、棚、分、土、台、目、的、定、義、権、利、順、位、担、手、所、官、録、簿、共、通、続、申、請、受、却、下、表、示、地、物、状、況、有、抵、当、確、証、明、書、筆、界、特、周、辺、雑、則、罰、話、考.
+Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 不、動、産、登、記、法、建、付、第、条、棚、分、土、台、目、的、定、義、権、利、順、位、担、手、所、官、録、簿、共、通、続、申、請、受、却、下、表、示、地、物、状、況、有、抵、当、確、証、明、書、筆、界、特、周、辺、雑、則、罰、全、体、像、見.
 
 INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version. Do not draw any account name, handle, URL or call-to-action text.
 ```
@@ -378,12 +343,12 @@ TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title i
 Line 2 is larger; the phrase 建て付け is red-orange and the rest is dark navy:
 建て付けマップ
 Below the title, a light blue rounded pill-shaped subtitle band with navy text:
-条文を八つの棚に分けると探せる
+八つの棚で全体像と押さえどころがつかめる
 Do not write any other text anywhere in the image.
 
 TOPIC SCENES (illustration only, no text on any object; soft and slightly faded): Left side: a tall wooden bookshelf with eight blank shelves holding plain colored books. Right side: a small land plot and a small house model on a desk, and a stack of thick books.
 
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges. Do not draw any flowchart, arrow between boxes, check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (不・動・産・登・記・法・建・付・条・文・八・棚・分・探) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm the canvas is fully opaque.
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (不・動・産・登・記・法・建・付・八・棚・全・体・像・押・今・分) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm the canvas is fully opaque.
 ```
