@@ -5,7 +5,7 @@ GUIDE = {}
 
 # ---------------------------------------------------------------- 第11問
 GUIDE[11] = dict(
-    desc="問題文を読んだ瞬間に、「何を床面積に入れるか」と「どの線で測るか」を見分ける5パネル構成。②の色分け（算入するかどうか＝緑、測り方と階の数え方＝青）を引き継いでいる。",
+    desc="問題文を読んだ瞬間に、「何を床面積に入れるか」と「どの線で測るか」を見分ける5パネル構成。②の色分け（算入するかどうか＝緑、測り方と算入する階＝青）を引き継いでいる。",
     field="建物の床面積",
     icons="isometric building floor-plan sheets with a ruler, a bay-window icon, a rooftop stair-tower icon, an elevator-shaft icon, and a two-story cross-section with a void (stairwell-like open space) - adapt the icon set to the topic of how floor area is counted.",
     shared=None,
@@ -58,7 +58,7 @@ GUIDE[12] = dict(
     panels=[
         dict(
             h="附属建物の取壊しは建物図面を省略できる",
-            diag="A decision flowchart. Top node: an icon of a main house and a storage shed labeled「附属建物を取り壊した」. A diamond node asks:「変更の内容は、所在の地番の変更・更正、床面積の変更・更正、附属建物の新築のどれかか」. The Yes arrow goes to a red conclusion node:「建物図面を添付する」 (shown faded because it is not this panel's case). The No arrow goes to a green conclusion node:「建物図面の提供を省略できる」, with a small note「残る建物の位置や形状は変わらない」 and a main house drawing that stays the same. No loop arrows; every branch ends in its own conclusion node.",
+            diag="A decision flowchart. Top node: an icon of a main house and a storage shed labeled「附属建物を取り壊した」. A diamond node asks:「変更の内容は、所在の地番の変更・更正、床面積の変更・更正、附属建物の新築のどれかか」. The Yes arrow goes to a neutral grey conclusion node:「建物図面を添付する」 (shown faded because it is not this panel's case). The No arrow goes to a green conclusion node:「建物図面の提供を省略できる」, with a small note「残る建物の位置や形状は変わらない」 and a main house drawing that stays the same. No loop arrows; every branch ends in its own conclusion node.",
             callout="まず、申請する変更が所在の地番の変更・更正、床面積の変更・更正、附属建物の新築のどれかにあたるかを確認します。附属建物の取壊しはどれにもあたらないので、建物図面の提供を省略できます。",
             tag="図面の提供は省略可",
             color="green",

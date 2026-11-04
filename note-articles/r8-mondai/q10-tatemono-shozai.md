@@ -274,7 +274,7 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 --- COLUMN B, CARD 5 ---
 Heading (bold, ONE line, ~20 characters or fewer):
 えい行移転は所在の変更になる
-Illustration: 建物をレールで引いて隣の土地へ移す様子。滅失と新築のスタンプには赤い×が付き、所在変更の付箋が貼られる。
+Illustration: 建物をレールで引いて、甲登記所と乙登記所の管轄の境界線（点線）を越えた隣の土地へ移す様子。滅失と新築のスタンプには赤い×が付き、乙登記所の側の登記簿に所在変更の付箋が貼られる。
 Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters,
 a keyword phrase — NOT a sentence, NOT a legal citation):

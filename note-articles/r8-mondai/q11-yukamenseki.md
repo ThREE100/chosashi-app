@@ -28,7 +28,7 @@
 
 どちらかの条件を欠くと、床面積には算入しません。本肢は正しいといえます。
 
-**たとえば**、床から立ち上がった腰高の出窓は、床面と同じ高さではないので床面積に入りません。床まで届く高さ1.5メートル以上の出窓は、床面積に入ります。
+**たとえば**、床から離れた腰の高さに張り出した出窓は、下部が床面と同じ高さではないので床面積に入りません。床まで届く高さ1.5メートル以上の出窓は、床面積に入ります。
 
 ### イ：屋上の出入口だけのための塔屋は、床面積に算入しない
 
@@ -86,7 +86,7 @@
 - **イ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
 - **ウ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`
 - **エ**　関連する過去の記事：`note-articles/r5-mondai/q12-yukamenseki.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h25-mondai/q13-yukamenseki.md`、`note-articles/h20-mondai/q17-yukamenseki.md`
-- **オ**　関連する過去の記事：`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`
+- **オ**　関連する過去の記事：`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/h26-mondai/q15-yukamenseki.md`、`note-articles/h24-mondai/q15-tatemono-kosuu.md`、`note-articles/h24-mondai/q16-tatemono-nintei.md`
 
 **このまま使える点／使う前に確認したい点**
 
@@ -249,7 +249,7 @@ a keyword phrase — NOT a sentence, NOT a legal citation):
 出入口だけなら不算入
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
-測り方と階の数え方
+測り方と算入する階
 
 --- COLUMN B, CARD 3 ---
 Heading (bold, ONE line, ~20 characters or fewer):
@@ -287,7 +287,7 @@ hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Ko
 non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard
 Japanese text appears anywhere in the image. If any character renders as a Simplified or
 Traditional Chinese variant, redraw that character in the correct Japanese form. Confirm the
-number of cards equals 5 exactly (2 cards under 「算入するかどうか」 and 3 cards under 「測り方と階の数え方」), with no duplicated or missing cards,
+number of cards equals 5 exactly (2 cards under 「算入するかどうか」 and 3 cards under 「測り方と算入する階」), with no duplicated or missing cards,
 that no card carries a number, numbered circle or any numbering,
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence of explanatory prose —
@@ -305,7 +305,7 @@ fully opaque background with no transparency or alpha channel anywhere.
 
 ## インフォグラフィック プロンプト（作図ガイド）
 
-問題文を読んだ瞬間に、「何を床面積に入れるか」と「どの線で測るか」を見分ける5パネル構成。②の色分け（算入するかどうか＝緑、測り方と階の数え方＝青）を引き継いでいる。
+問題文を読んだ瞬間に、「何を床面積に入れるか」と「どの線で測るか」を見分ける5パネル構成。②の色分け（算入するかどうか＝緑、測り方と算入する階＝青）を引き継いでいる。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
