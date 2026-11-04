@@ -718,8 +718,8 @@ A・B・Cが3分の1ずつ共有する母屋の離れを独立した建物にす
 **関連記事**
 
 - note-articles/column/nigate-03-yukamenseki-hanteiflow.md
-- note-articles/topics/yukamenseki-sannyu.md
-- note-articles/topics/tatemonozumen-teikyou-yohi.md
+- note-articles/topics/KE_10_yukamenseki-sannyu.md
+- note-articles/topics/KE_11_tatemonozumen-teikyou-yohi.md
 
 ---
 

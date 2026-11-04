@@ -30,10 +30,10 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H25 第1問 未成年者の詐術](../h25-mondai/q01-miseinensha-sajutsu.md) | 詐術による取消し制限の考え方 |
 
 **個別テーマ記事**
-- [4類型の「同意・取消し・代理」を1枚で整理する（制限行為能力者総整理）](../topics/seigen-koui-nouryoku-sougou.md) ★★★
-- [成年被後見人を解説](../topics/seinen-hikouken-nin.md) ★★
-- [被保佐人を解説](../topics/hihosanin.md) ★★
-- [被補助人を解説](../topics/hihojonin.md) ★★
+- [4類型の「同意・取消し・代理」を1枚で整理する（制限行為能力者総整理）](../topics/KA_08_seigen-koui-nouryoku-sougou.md) ★★★
+- [成年被後見人を解説](../topics/KA_05_seinen-hikouken-nin.md) ★★
+- [被保佐人を解説](../topics/KA_06_hihosanin.md) ★★
+- [被補助人を解説](../topics/KA_07_hihojonin.md) ★★
 
 ---
 
@@ -81,7 +81,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H21 第16問 公図の沿革](../h21-mondai/q16-kouzu-rekishi.md) | 地租改正・土地台帳・家屋台帳の歴史を穴埋め形式で問う同種の出題 |
 | ★ | [R7 第8問 表題部所有者](../r7-mondai/q08-hyoudaibu-shoyuusha.md) ／ [H27 第5問 表題部所有者](../h27-mondai/q05-hyoudaibu-shoyuusha.md) | 表題部所有者の更正・変更の考え方 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/KA_01_hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★
 
 ---
 
@@ -114,7 +114,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R7 第5問 保存期間](../r7-mondai/q05-hozonkikan.md) ／ [R4 第4問 保存期間](../r4-mondai/q04-hozon-kikan.md) ／ [H24 第11問 保存期間](../h24-mondai/q11-hozonkikan.md) | 閉鎖した地積測量図・土地所在図・建物所在図の保存期間 |
 | ★ | [H24 第9問 地積測量図の訂正の申出](../h24-mondai/q09-chisekisokuryouzu-teisei.md) ／ [H28 第11問 地積測量図・地役権図面](../h28-mondai/q11-chisekisokuryouzu-chiekikenzumen.md) | 地積測量図の取扱い全般 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/KC_01_hozon-kikan-matome.md) ★★
 
 ---
 

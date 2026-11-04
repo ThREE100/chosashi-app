@@ -6,7 +6,7 @@ SPEC = dict(
     truth="〇（正しい記述）",
     miscon="4回とも×と答えて誤解（2026-10-05・10-08・10-09・10-10）",
     article="note-articles/r4-mondai/q11-tatemono-shozai.md",
-    art_head="R04-Q11ア「区分建物である甲建物に区分建物でない附属建物があるときは、附属建物の所在は構造欄に記録される」。附属建物が区分建物の場合は、同じ分野の R04-Q14ウ（note-articles/r4-mondai/q14-fuzoku-tatemono.md）と、note-articles/topics/fuzoku-tatemono-shozai.md の整理を対比に使う",
+    art_head="R04-Q11ア「区分建物である甲建物に区分建物でない附属建物があるときは、附属建物の所在は構造欄に記録される」。附属建物が区分建物の場合は、同じ分野の R04-Q14ウ（note-articles/r4-mondai/q14-fuzoku-tatemono.md）と、note-articles/topics/KE_12_fuzoku-tatemono-shozai.md の整理を対比に使う",
     letters="",
     extra_refs=[
         "不動産登記規則別表二（区分建物でない建物の登記記録。note-articles/laws/fudousan-touki-kisoku-3.md）：主である建物の表示欄の所在欄に『所在（附属建物の所在を含む。）』と記録する。肢アの記事（R04-Q11）には別表二の記述がなく、法令DBで確認した対比の根拠（区分建物でない建物は、附属建物の所在も所在欄に書く）。",

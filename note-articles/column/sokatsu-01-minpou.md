@@ -549,7 +549,7 @@ D0207は、制度（既成条件）自体を知らず「？」になった知識
 - 時効完成前の承認は更新、完成後に承認すれば知らなくても援用不可。一部弁済は残債務の承認。
 - 解除条件は成就時に当然効力を失う。既成の停止条件は無条件で有効。
 
-関連記事：note-articles/column/nigate-07-ishihyouji-kashi-toikake-flow.md、note-articles/column/nigate-08-jikou-no-engyo-toikake-flow.md、note-articles/topics/seigen-koui-nouryoku-sougou.md
+関連記事：note-articles/column/nigate-07-ishihyouji-kashi-toikake-flow.md、note-articles/column/nigate-08-jikou-no-engyo-toikake-flow.md、note-articles/topics/KA_08_seigen-koui-nouryoku-sougou.md
 
 ---
 
@@ -1067,7 +1067,7 @@ D0419は「？」3回で、地代の発生を、賃貸借の「賃料は当然�
 - 地上権は承諾なしで譲渡・抵当権設定でき、地代は約束があって初めて生じる。賃借権は承諾が要る。
 - 不動産質は、全部弁済まで全体に及び、転質・使用収益とも承諾不要。利息は請求できない。
 
-関連記事：note-articles/topics/taikouyouken-daisansha-5ruikei.md、note-articles/column/nigate-10-taikouyouken-177-toikake-flow.md、note-articles/column/nigate-15-shitsuken-chijouken-toikake-flow.md
+関連記事：note-articles/topics/KA_02_taikouyouken-daisansha-5ruikei.md、note-articles/column/nigate-10-taikouyouken-177-toikake-flow.md、note-articles/column/nigate-15-shitsuken-chijouken-toikake-flow.md
 
 ---
 

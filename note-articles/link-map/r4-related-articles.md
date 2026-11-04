@@ -31,8 +31,8 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H25 第1問 未成年者の詐術](../h25-mondai/q01-miseinensha-sajutsu.md) | 詐術による取消し制限 |
 
 **個別テーマ記事**
-- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../topics/seigen-koui-nouryoku-sougou.md) ★★★
-- [制限行為能力者シリーズ：被保佐人を解説](../topics/hihosanin.md) ★★★
+- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../topics/KA_08_seigen-koui-nouryoku-sougou.md) ★★★
+- [制限行為能力者シリーズ：被保佐人を解説](../topics/KA_06_hihosanin.md) ★★★
 
 ---
 
@@ -88,7 +88,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R1 第7問 地積測量図](../r1-mondai/q07-chiseki-sokuryouzu.md) | 図面の保存期間 |
 | ★ | [H28 第11問 地積測量図・地役権図面](../h28-mondai/q11-chisekisokuryouzu-chiekikenzumen.md) | 保存期間 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/KC_01_hozon-kikan-matome.md) ★★★
 
 ---
 
@@ -106,7 +106,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H21 第6問 登記識別情報に関する証明](../h21-mondai/q06-shikibetsujoho-shomei.md) | 証明の請求権者・電子申請の可否 |
 | ★★ | [H28 第4問 登記識別情報](../h28-mondai/q04-toukishikibetsujouhou.md) | 提供できない場合の手続 |
 
-**個別テーマ記事**：[登記識別情報に関する証明の請求（代理請求に委任状は不要）](../topics/touki-shikibetsu-shoumei.md) ★★★
+**個別テーマ記事**：[登記識別情報に関する証明の請求（代理請求に委任状は不要）](../topics/KG_02_touki-shikibetsu-shoumei.md) ★★★
 
 ---
 
@@ -125,7 +125,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R2 第6問 地目](../r2-mondai/q06-chimoku-nintei.md) | ゴルフ場・駐車場の地目認定 |
 | ★★ | [R3 第10問 地目](../r3-mondai/q10-chimoku.md) | 堤・ため池・墓地の地目認定 |
 
-**個別テーマ記事**：[地目23種類](../topics/chimoku-23shurui.md) ★★★
+**個別テーマ記事**：[地目23種類](../topics/KE_03_chimoku-23shurui.md) ★★★
 
 ---
 
@@ -202,7 +202,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R5 第11問 建物の認定](../r5-mondai/q11-tatemono-nintei.md) | 膜構造テント・移動可能建造物 |
 | ★ | [H24 第16問 建物の認定](../h24-mondai/q16-tatemono-nintei.md) | アーケード街路の建物該当性 |
 
-**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../topics/tatemono-nintei-3youken.md) ★★★
+**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../topics/KE_08_tatemono-nintei-3youken.md) ★★★
 
 ---
 
@@ -220,7 +220,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H23 第14問 管轄](../h23-mondai/q14-kankatsu.md) | 管轄の決め手は主である建物 |
 | ★ | [R1 第4問 建物の管轄](../r1-mondai/q04-kankatsu-touki.md) | 管轄区域をまたぐ建物の変更登記 |
 
-**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../topics/fuzoku-tatemono-shozai.md) ★★★
+**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../topics/KE_12_fuzoku-tatemono-shozai.md) ★★★
 
 ---
 
@@ -256,7 +256,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H27 第14問 建物の表題登記](../h27-mondai/q14-tatemono-hyoudai.md) | 借地権証明情報の要否 |
 | ★★ | [R6 第4問 表題登記の添付情報](../r6-mondai/q04-hyoudai-touki-tenpu.md) | 敷地共有者の証明・住所証明の省略 |
 
-**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/shinseishikaku-tochi-tatemono.md) ★★★
+**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/KD_01_shinseishikaku-tochi-tatemono.md) ★★★
 
 ---
 

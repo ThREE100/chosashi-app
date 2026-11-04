@@ -117,7 +117,7 @@
 
 - 令和5年度午後第18問のウ（`note-articles/r5-mondai/q18-hikkaitokutei.md`）は、筆界特定の内容を表示した図面に地積が記載されるか、を扱っています（記録事項は規則第231条4項）。
 - 平成26年度午後第19問のア（`note-articles/h26-mondai/q19-hikkaitokutei.md`）は、筆界特定が「位置又は位置の範囲を特定すること」である点を扱っています。
-- 手続全体の整理は`note-articles/topics/hikkaitokutei-seido.md`の「5. 筆界特定書とその効力、登記記録への記録」にもあります。
+- 手続全体の整理は`note-articles/topics/KG_03_hikkaitokutei-seido.md`の「5. 筆界特定書とその効力、登記記録への記録」にもあります。
 
 **関連条文**：第123条2号、第125条、第142条、第144条、不動産登記規則第231条
 

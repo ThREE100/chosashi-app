@@ -405,7 +405,7 @@ D0720は、条件成就の効果が「知った時」ではなく「成就した
 
 - note-articles/column/nigate-07-ishihyouji-kashi-toikake-flow.md
 - note-articles/column/nigate-08-jikou-no-engyo-toikake-flow.md
-- note-articles/topics/seigen-koui-nouryoku-sougou.md
+- note-articles/topics/KA_08_seigen-koui-nouryoku-sougou.md
 
 ---
 

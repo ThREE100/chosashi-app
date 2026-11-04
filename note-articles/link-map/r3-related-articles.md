@@ -168,7 +168,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H26 第4問 表題部所有者の沿革](../h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md) | 土地台帳・家屋台帳からの歴史 |
 | ★ | [H28 第16問 区分建物の表題部](../h28-mondai/q16-kubuntatemono-hyoudaibu.md) | 吸収合併・原始取得者 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/KA_01_hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 
@@ -206,7 +206,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R2 第6問 地目認定](../r2-mondai/q06-chimoku-nintei.md) | 現況主義・雑種地の判断 |
 | ★ | [R4 第6問 地目](../r4-mondai/q06-chimoku.md) | 地目の認定基準 |
 
-**個別テーマ記事**：[地目23種類の一覧と判定基準](../topics/chimoku-23shurui.md) ★★★
+**個別テーマ記事**：[地目23種類の一覧と判定基準](../topics/KE_03_chimoku-23shurui.md) ★★★
 
 ---
 
@@ -248,7 +248,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R6 第13問 建物の所在](../r6-mondai/q13-tatemono-shozai.md) | 所在の記録方法 |
 | ★ | [R4 第13問 建物の表題登記](../r4-mondai/q13-tatemono-hyoudai-touki.md) | 登記事項の記録方法 |
 
-**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../topics/fuzoku-tatemono-shozai.md) ★★
+**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../topics/KE_12_fuzoku-tatemono-shozai.md) ★★
 
 ---
 

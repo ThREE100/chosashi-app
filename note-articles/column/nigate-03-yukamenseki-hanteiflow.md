@@ -2,7 +2,7 @@
 
 **対象条文：不動産登記規則115条、不動産登記事務取扱手続準則81条4項・82条1号・6号・7号・8号**
 
-この記事は、これまでの解答結果を分野別に振り返ったときに「一度ではなく複数の年度にわたって同じ論点で間違えている」と判明した分野を整理し直す苦手分析シリーズの第3回です。今回は、建物の床面積の算入・不算入の判定基準が定着しにくいという点を取り上げます。床面積の算定方法そのもの（不動産登記規則115条）は、`yukamenseki-sannyu.md`で算入する・しないの全ケースを号ごとに一覧化済みです。この記事では、過去に繰り返し間違えている4つの個別ケース（平成28年度第12問・天井高、平成29年度第16問・屋根裏部屋、平成30年度第13問・エレベーター室、令和5年度第12問・塔屋）を、実際に問題文を読んだときにたどる判定の順序として整理し直します。
+この記事は、これまでの解答結果を分野別に振り返ったときに「一度ではなく複数の年度にわたって同じ論点で間違えている」と判明した分野を整理し直す苦手分析シリーズの第3回です。今回は、建物の床面積の算入・不算入の判定基準が定着しにくいという点を取り上げます。床面積の算定方法そのもの（不動産登記規則115条）は、`KE_10_yukamenseki-sannyu.md`で算入する・しないの全ケースを号ごとに一覧化済みです。この記事では、過去に繰り返し間違えている4つの個別ケース（平成28年度第12問・天井高、平成29年度第16問・屋根裏部屋、平成30年度第13問・エレベーター室、令和5年度第12問・塔屋）を、実際に問題文を読んだときにたどる判定の順序として整理し直します。
 
 ---
 
@@ -36,7 +36,7 @@
 
 **確認事項**
 
-- 床面積算入の判定フローは、`note-articles/h28-mondai/q12-tatemono-kouzou-yukamenseki.md`、`note-articles/h29-mondai/q16-tatemono-kouzou.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/r5-mondai/q12-yukamenseki.md`、および既存の総合整理記事`note-articles/topics/yukamenseki-sannyu.md`の内容に基づいています。
+- 床面積算入の判定フローは、`note-articles/h28-mondai/q12-tatemono-kouzou-yukamenseki.md`、`note-articles/h29-mondai/q16-tatemono-kouzou.md`、`note-articles/h30-mondai/q13-yukamenseki.md`、`note-articles/r5-mondai/q12-yukamenseki.md`、および既存の総合整理記事`note-articles/topics/KE_10_yukamenseki-sannyu.md`の内容に基づいています。
 - 塔屋の例外は条文本体ではなく先例（昭38.10.22民甲2933号）を根拠とする実務上の取扱いである点は、既存記事の記載どおりです。
 
 - 【2026-10-05 条文再チェックで訂正】準則82条には項がないため、「82条1項○号」の表記を「82条○号」「同条8号」に統一しました。早見表の階段室・エレベーター室の行の「常に」「該当なし」を、屋上出入り専用の階段室（塔屋）は先例で不算入である旨に合わせました。
@@ -1183,7 +1183,7 @@ the image.  Confirm the image contains one scene only, that no flowchart, diamon
 
 ## 参考記事（この記事のもとになった過去問・既存記事）
 
-- [床面積に算入する・しない、全ケース整理](../topics/yukamenseki-sannyu.md)
+- [床面積に算入する・しない、全ケース整理](../topics/KE_10_yukamenseki-sannyu.md)
 - [平成28年度午後の部第12問(天井高1.5メートル)](../h28-mondai/q12-tatemono-kouzou-yukamenseki.md)
 - [平成29年度午後の部第16問(屋根裏部屋の階数算入)](../h29-mondai/q16-tatemono-kouzou.md)
 - [平成30年度午後の部第13問(エレベーター室の床面積)](../h30-mondai/q13-yukamenseki.md)

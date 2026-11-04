@@ -275,7 +275,7 @@
 
 **試験での押さえどころ**
 
-- 手続全体の整理は`note-articles/topics/hikkaitokutei-seido.md`にまとまっています。この条文を直接扱った過去問記事は、確認できていません。
+- 手続全体の整理は`note-articles/topics/KG_03_hikkaitokutei-seido.md`にまとまっています。この条文を直接扱った過去問記事は、確認できていません。
 
 **関連条文**：第135条1項
 

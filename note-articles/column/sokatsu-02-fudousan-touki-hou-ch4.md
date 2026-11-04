@@ -592,7 +592,7 @@ D0441は正しい記述を×とし、一部の所有権取得者という限定�
 **関連記事**
 
 - note-articles/column/nigate-02-bunpitsu-gappitsu-gappei-gattai.md
-- note-articles/topics/gappitsu-gappei-seigen.md
+- note-articles/topics/KE_05_gappitsu-gappei-seigen.md
 - note-articles/column/nigate-23-bunpitsu-bunkatsu-shoudaku-ikkatsu.md
 
 ---

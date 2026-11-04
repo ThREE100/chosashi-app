@@ -370,7 +370,7 @@ D1693は「？」で、どの建物の識別情報を使うのかという主体
 
 - `note-articles/column/nigate-02-bunpitsu-gappitsu-gappei-gattai.md`
 - `note-articles/column/nigate-23-bunpitsu-bunkatsu-shoudaku-ikkatsu.md`
-- `note-articles/topics/gappitsu-gappei-seigen.md`
+- `note-articles/topics/KE_05_gappitsu-gappei-seigen.md`
 
 ---
 

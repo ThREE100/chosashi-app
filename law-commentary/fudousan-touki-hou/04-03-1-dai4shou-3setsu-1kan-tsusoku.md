@@ -137,7 +137,7 @@ A所有の甲土地をBが買った場合、所有権の移転の登記では、
 
 **試験での押さえどころ**
 
-- 本条の各号は、穴埋めの対象になりうる語句を多く含みます。特に、7号の「代位者」と「代位原因」は、`note-articles/topics/daii-shinsei.md`で、第59条7号の原文を引いて説明されています（代位による申請の全体像を整理した記事です）。
+- 本条の各号は、穴埋めの対象になりうる語句を多く含みます。特に、7号の「代位者」と「代位原因」は、`note-articles/topics/KD_02_daii-shinsei.md`で、第59条7号の原文を引いて説明されています（代位による申請の全体像を整理した記事です）。
 - 「登記の目的」「登記原因及びその日付」「受付の年月日及び受付番号」「権利者の氏名又は名称及び住所」「持分」の語を、条文の順に押さえておくと、穴埋めに対応しやすくなります。
 
 **関連条文**：第3条、第4条2項、第5条2項、第19条、第20条、第65条、第69条、第76条1項、第78条〜第104条（権利ごとの追加事項）
@@ -984,7 +984,7 @@ A所有の甲土地を、Aが買戻しの特約付きでBに売った。売買�
 
 **試験での押さえどころに書いた関連記事**
 
-- `note-articles/topics/daii-shinsei.md`（第59条7号を引用している）、`note-articles/r7-mondai/q11-bunpitsu.md`（判決正本の位置づけ）、`note-articles/r4-mondai/q18-shikichiken.md`、`note-articles/h20-mondai/q13-bunpitsu-tenpu.md`、`note-articles/h18-mondai/q19-shikichiken.md`（第73条）は、実際に開いて、該当箇所の記述を確認しました。
+- `note-articles/topics/KD_02_daii-shinsei.md`（第59条7号を引用している）、`note-articles/r7-mondai/q11-bunpitsu.md`（判決正本の位置づけ）、`note-articles/r4-mondai/q18-shikichiken.md`、`note-articles/h20-mondai/q13-bunpitsu-tenpu.md`、`note-articles/h18-mondai/q19-shikichiken.md`（第73条）は、実際に開いて、該当箇所の記述を確認しました。
 - そのほかの条（第60条〜第72条の多く）は、該当する年度別記事を確認できなかったため、リンクを付けていません。
 
 **この款の範囲外**

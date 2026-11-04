@@ -311,7 +311,7 @@ B棟が半年後に完成予定の段階で、A棟の管理人室を団地共用
 **関連記事**
 
 - note-articles/column/nigate-22-kubun-ikkatsu-shinsei-jinin-kigen.md
-- note-articles/topics/kyouyoubu-touki-machigaiyasui-point.md
+- note-articles/topics/KE_14_kyouyoubu-touki-machigaiyasui-point.md
 
 ---
 

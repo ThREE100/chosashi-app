@@ -31,7 +31,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H27 第1問 詐欺又は強迫](../h27-mondai/q01-sagi-kyouhaku.md) | 詐欺・強迫の取消しの可否 |
 | ★ | [R4 第2問 意思表示](../r4-mondai/q02-ishi-hyouji.md) | 虚偽表示の無効と第三者保護 |
 
-**個別テーマ記事**：[取消権の期間制限（追認できる時から5年／行為の時から20年）](../topics/torikeshiken-jikou.md) ★★★
+**個別テーマ記事**：[取消権の期間制限（追認できる時から5年／行為の時から20年）](../topics/KA_10_torikeshiken-jikou.md) ★★★
 
 ---
 
@@ -128,7 +128,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [R7 第6問 嘱託登記](../r7-mondai/q06-shokutaku-touki.md) | 地方公共団体の嘱託と所有権証明情報の省略 |
 | ★★ | [H17 第11問 区画整理事業施行区域内の登記](../h17-mondai/q11-kukakuseiri.md) | 施行者による代位申請 |
 
-**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/shinseishikaku-tochi-tatemono.md) ★★
+**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/KD_01_shinseishikaku-tochi-tatemono.md) ★★
 
 ---
 
@@ -147,7 +147,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R3 第10問 地目](../r3-mondai/q10-chimoku.md) | 擁壁・ため池・ペットの墓地の地目 |
 | ★ | [H21 第5問 地目](../h21-mondai/q05-chimoku.md) | 地目認定の基本（現況主義） |
 
-**個別テーマ記事**：[地目23種類](../topics/chimoku-23shurui.md) ★★★
+**個別テーマ記事**：[地目23種類](../topics/KE_03_chimoku-23shurui.md) ★★★
 
 ---
 
@@ -203,7 +203,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R6 第12問 建物の認定](../r6-mondai/q12-tatemono-nintei.md) | サイロ・石油タンク・廃車車両の建物該当性 |
 | ★ | [H21 第4問 建物の認定](../h21-mondai/q04-tatemono-nintei.md) | 温室・タンク・コンテナ倉庫 |
 
-**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../topics/tatemono-nintei-3youken.md) ★★★
+**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../topics/KE_08_tatemono-nintei-3youken.md) ★★★
 
 ---
 

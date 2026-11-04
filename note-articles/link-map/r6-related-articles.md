@@ -31,9 +31,9 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H25 第1問 未成年者の詐術](../h25-mondai/q01-miseinensha-sajutsu.md) | 未成年者の追認・催告・取消しの相手方 |
 
 **個別テーマ記事**
-- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../topics/seigen-koui-nouryoku-sougou.md) ★★★
-- [制限行為能力者シリーズ：成年被後見人を解説（日用品以外は原則取消し可）](../topics/seinen-hikouken-nin.md) ★★★
-- [制限行為能力者シリーズ：被保佐人を解説](../topics/hihosanin.md) ★★
+- [制限行為能力者を総整理（4類型の同意・取消し・代理を1枚で）](../topics/KA_08_seigen-koui-nouryoku-sougou.md) ★★★
+- [制限行為能力者シリーズ：成年被後見人を解説（日用品以外は原則取消し可）](../topics/KA_05_seinen-hikouken-nin.md) ★★★
+- [制限行為能力者シリーズ：被保佐人を解説](../topics/KA_06_hihosanin.md) ★★
 
 ---
 
@@ -89,7 +89,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H29 第6問 申請情報](../h29-mondai/q06-shinsei-jouhou.md) | 会社法人等番号による代表者氏名の省略 |
 | ★ | [H27 第4問 申請情報](../h27-mondai/q04-shinsei-jouhou.md) | 代表取締役の記載省略 |
 
-**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/shinseishikaku-tochi-tatemono.md) ★★
+**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/KD_01_shinseishikaku-tochi-tatemono.md) ★★
 
 ---
 
@@ -241,7 +241,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R5 第11問 建物の認定](../r5-mondai/q11-tatemono-nintei.md) | 膜構造テントの建物該当性 |
 | ★ | [H24 第16問 建物の認定](../h24-mondai/q16-tatemono-nintei.md) | アーケード街路の建物該当性 |
 
-**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../topics/tatemono-nintei-3youken.md) ★★★
+**個別テーマ記事**：[建物認定の3要件（外気分断性・定着性・用途性）](../topics/KE_08_tatemono-nintei-3youken.md) ★★★
 
 ---
 
@@ -257,7 +257,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [R2 第11問 建物の所在](../r2-mondai/q11-tatemono-shozai.md) | 仮換地の建物の所在記録・分割による所在変更 |
 | ★★ | [R4 第11問 建物の所在又は家屋番号](../r4-mondai/q11-tatemono-shozai.md) | 附属建物の所在記録・一棟の所在欄 |
 
-**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../topics/fuzoku-tatemono-shozai.md) ★★★
+**個別テーマ記事**：[専有部分には「所在欄」がない（区分建物の附属建物の所在）](../topics/KE_12_fuzoku-tatemono-shozai.md) ★★★
 
 ---
 
@@ -293,7 +293,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H23 第12問 表題部の更正](../h23-mondai/q12-hyoudaibu-kousei.md) | 添付情報と申請人 |
 | ★ | [R1 第16問 表示に関する登記の申請](../r1-mondai/q16-hyouji-touki-shinsei.md) | 表題部所有者更正の共同申請の要否 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/KA_01_hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 

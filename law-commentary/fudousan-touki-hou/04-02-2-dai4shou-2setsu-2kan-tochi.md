@@ -166,7 +166,7 @@ AがBから、これまで登記されたことがない甲土地の所有権を
 **試験での押さえどころ**
 
 - 「所有権の取得の日から一月以内」と、義務を負う者が「所有権を取得した者」であることが、そのまま問われます。
-- 平成26年度午後第7問（`note-articles/h26-mondai/q07-shinsei-gimu.md`）は、台帳のない土地を買った人に申請義務があるかどうかを扱っています。平成27年度午後第7問（`note-articles/h27-mondai/q07-tochi-hyoudai.md`）は、土地の表題登記を扱っています。表示に関する登記の申請義務の全体像は、`note-articles/topics/hyouji-touki-gimu-ichiran.md`にまとめられています。
+- 平成26年度午後第7問（`note-articles/h26-mondai/q07-shinsei-gimu.md`）は、台帳のない土地を買った人に申請義務があるかどうかを扱っています。平成27年度午後第7問（`note-articles/h27-mondai/q07-tochi-hyoudai.md`）は、土地の表題登記を扱っています。表示に関する登記の申請義務の全体像は、`note-articles/topics/KE_01_hyouji-touki-gimu-ichiran.md`にまとめられています。
 
 **関連条文**：第2条20号（表題登記）、第30条（一般承継人による申請）、第164条1項（過料）、第47条1項（建物の表題登記）、不動産登記令3条7号・別表の四の項、不動産登記規則75条〜77条、準則71条
 
@@ -212,7 +212,7 @@ AがBから、これまで登記されたことがない甲土地の所有権を
 **試験での押さえどころ**
 
 - 1項（変更があった日）と2項（登記があった日）の起算点の違いは、毎年のように問われる論点です。
-- 平成23年度午後第16問（`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`）は、地目変更の登記の起算点を扱っています。表示に関する登記の申請義務の起算点は、`note-articles/topics/hyouji-touki-gimu-ichiran.md`に一覧があります。
+- 平成23年度午後第16問（`note-articles/h23-mondai/q16-hyouji-touki-gimu.md`）は、地目変更の登記の起算点を扱っています。表示に関する登記の申請義務の起算点は、`note-articles/topics/KE_01_hyouji-touki-gimu-ichiran.md`に一覧があります。
 
 **関連条文**：第2条15号（変更の登記）、第38条（更正）、第39条2項（職権による分筆）、第164条1項（過料）、不動産登記令別表の五の項・六の項、準則68条
 
@@ -408,7 +408,7 @@ AがBから、これまで登記されたことがない甲土地の所有権を
 **試験での押さえどころ**
 
 - 六号と規則105条の組合せ（担保権は4つの事項が同一であること、地役権は承役地のみ）は、特によく問われる点です。
-- 平成22年度午後第4問（`note-articles/h22-mondai/q04-gappitsu.md`）、平成29年度午後第14問（`note-articles/h29-mondai/q14-gappitsu.md`）、令和2年度午後第10問（`note-articles/r2-mondai/q10-gappitsu-seigen.md`）が、第41条を扱っています。土地の合筆と建物の合併の制限の対比は、`note-articles/topics/gappitsu-gappei-seigen.md`にまとめられています。
+- 平成22年度午後第4問（`note-articles/h22-mondai/q04-gappitsu.md`）、平成29年度午後第14問（`note-articles/h29-mondai/q14-gappitsu.md`）、令和2年度午後第10問（`note-articles/r2-mondai/q10-gappitsu-seigen.md`）が、第41条を扱っています。土地の合筆と建物の合併の制限の対比は、`note-articles/topics/KE_05_gappitsu-gappei-seigen.md`にまとめられています。
 
 **関連条文**：第37条（地目の変更）、第39条（分筆又は合筆の登記）、第40条（分筆に伴う権利の消滅）、第56条（建物の合併の登記の制限）、不動産登記規則105条〜107条
 
@@ -447,7 +447,7 @@ AがBから、これまで登記されたことがない甲土地の所有権を
 **試験での押さえどころ**
 
 - 「滅失の日から一月以内」という起算点は、基本の知識です。
-- 令和元年度午後第6問（`note-articles/r1-mondai/q06-tochi-messitsu.md`）は、土地の滅失の登記を扱っています。表示に関する登記の申請義務の起算点は、`note-articles/topics/hyouji-touki-gimu-ichiran.md`に一覧があります。
+- 令和元年度午後第6問（`note-articles/r1-mondai/q06-tochi-messitsu.md`）は、土地の滅失の登記を扱っています。表示に関する登記の申請義務の起算点は、`note-articles/topics/KE_01_hyouji-touki-gimu-ichiran.md`に一覧があります。
 
 **関連条文**：第30条（一般承継人による申請）、第37条（地積の変更）、第43条5項・6項（河川管理者の嘱託）、第57条（建物の滅失の登記）、第164条1項（過料）、不動産登記規則109条・110条
 

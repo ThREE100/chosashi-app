@@ -1,7 +1,7 @@
 # D1762 4コマ解説図解 プロンプト（ChatGPT貼付用・v01）
 
 - 肢：D1762（不動産登記法／建物の認定・個数・種類構造床面積、出典 R04-Q11ア）。正解＝〇（正しい記述）。誤解4回とも×と答えて誤解（2026-10-05・10-08・10-09・10-10）。
-- 記事：`note-articles/r4-mondai/q11-tatemono-shozai.md` R04-Q11ア「区分建物である甲建物に区分建物でない附属建物があるときは、附属建物の所在は構造欄に記録される」。附属建物が区分建物の場合は、同じ分野の R04-Q14ウ（note-articles/r4-mondai/q14-fuzoku-tatemono.md）と、note-articles/topics/fuzoku-tatemono-shozai.md の整理を対比に使う
+- 記事：`note-articles/r4-mondai/q11-tatemono-shozai.md` R04-Q11ア「区分建物である甲建物に区分建物でない附属建物があるときは、附属建物の所在は構造欄に記録される」。附属建物が区分建物の場合は、同じ分野の R04-Q14ウ（note-articles/r4-mondai/q14-fuzoku-tatemono.md）と、note-articles/topics/KE_12_fuzoku-tatemono-shozai.md の整理を対比に使う
 - ルール：`MANGA_RULES.md`（品質ゲート 工程A〜D）
 - 使い方：ChatGPTに **キャラ仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚。トリ先生・藍子の基準画像）** を添付し、どちらがトリ先生でどちらが藍子かを貼り付けの冒頭に一言添えて、下のコードブロックを貼る。サイズは 1080×1920（9:16）。
 

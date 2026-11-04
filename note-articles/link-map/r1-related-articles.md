@@ -98,7 +98,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R3 第10問 地目](../r3-mondai/q10-chimoku.md) | 堤・ため池・墓地・境内地の認定 |
 | ★ | [R4 第6問 地目](../r4-mondai/q06-chimoku.md) | 地目の認定基準 |
 
-**個別テーマ記事**：[地目23種類の一覧と判定基準](../topics/chimoku-23shurui.md) ★★★
+**個別テーマ記事**：[地目23種類の一覧と判定基準](../topics/KE_03_chimoku-23shurui.md) ★★★
 
 ---
 
@@ -136,7 +136,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R6 第10問 地役権図面](../r6-mondai/q10-chiekiken-zumen.md) | 地役権図面との縮尺の関係 |
 | ★ | [R3 第6問 却下](../r3-mondai/q06-kyakka.md) | 基本三角点等を利用しない図面は却下 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/KC_01_hozon-kikan-matome.md) ★★★
 
 ---
 
@@ -255,8 +255,8 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H23 第17問 附属建物](../h23-mondai/q17-fuzoku-tatemono.md) ／ [R6 第14問](../r6-mondai/q14-fuzoku-tatemono.md) | 附属建物の新築・変更登記 |
 
 **個別テーマ記事**
-- [売ってしまったら、誰が登記する？（表題登記の申請資格）](../topics/shinseishikaku-tochi-tatemono.md) ★★（相続人による表題登記の扱い）
-- [「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★★
+- [売ってしまったら、誰が登記する？（表題登記の申請資格）](../topics/KD_01_shinseishikaku-tochi-tatemono.md) ★★（相続人による表題登記の扱い）
+- [「表題登記のない建物」はなぜ存在するのか](../topics/KE_02_hyoudai-touki-gimu-to-genjitsu.md) ★★
 
 ---
 
@@ -316,8 +316,8 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R2 第7問 地目の変更の登記](../r2-mondai/q07-chimoku-henkou-touki.md) | 地目変更の申請義務者 |
 
 **個別テーマ記事**
-- [売ってしまったら、誰が登記する？（表題登記の申請資格）](../topics/shinseishikaku-tochi-tatemono.md) ★★★（相続人による表題登記の扱い）
-- [「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★★★
+- [売ってしまったら、誰が登記する？（表題登記の申請資格）](../topics/KD_01_shinseishikaku-tochi-tatemono.md) ★★★（相続人による表題登記の扱い）
+- [「表題登記のない建物」はなぜ存在するのか](../topics/KE_02_hyoudai-touki-gimu-to-genjitsu.md) ★★★
 
 ---
 

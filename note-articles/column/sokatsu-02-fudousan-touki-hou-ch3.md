@@ -606,9 +606,9 @@
 
 **関連記事**
 
-- note-articles/topics/chimoku-23shurui.md
-- note-articles/topics/zumen-heisa-teisei.md
-- note-articles/topics/hikkaitokutei-seido.md
+- note-articles/topics/KE_03_chimoku-23shurui.md
+- note-articles/topics/KC_03_zumen-heisa-teisei.md
+- note-articles/topics/KG_03_hikkaitokutei-seido.md
 
 ---
 

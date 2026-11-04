@@ -29,7 +29,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H30 第1問 行為能力](../h30-mondai/q01-koui-nouryoku.md) | 日用品購入と後見・補助開始の本人同意 |
 | ★★ | [H26 第1問 成年後見・保佐・補助](../h26-mondai/q01-seinenkouken.md) | 詐術・行為能力の回復・代理権の範囲 |
 
-**個別テーマ記事**：[18歳未満は「同意なし契約」がまるごと取り消せるんです（未成年者を解説）](../topics/mikoseinensha.md) ★★★
+**個別テーマ記事**：[18歳未満は「同意なし契約」がまるごと取り消せるんです（未成年者を解説）](../topics/KA_04_mikoseinensha.md) ★★★
 
 ---
 
@@ -145,7 +145,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [R1 第5問 地目](../r1-mondai/q05-chimoku.md) | ガソリンスタンド・雑種地・水道用地の当てはめ |
 | ★★★ | [H17 第16問 地目](../h17-mondai/q16-chimoku-nintei.md) | 宅地・墓地・雑種地・公衆用道路の当てはめ |
 
-**個別テーマ記事**：[地目、全23種類を一気に確認（規則99条・準則68条）](../topics/chimoku-23shurui.md) ★★★
+**個別テーマ記事**：[地目、全23種類を一気に確認（規則99条・準則68条）](../topics/KE_03_chimoku-23shurui.md) ★★★
 
 ---
 
@@ -259,7 +259,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H27 第14問 建物の表題登記](../h27-mondai/q14-tatemono-hyoudai.md) | 相続人・表題登記の申請適格 |
 | ★ | [R6 第4問 表題登記の添付情報](../r6-mondai/q04-hyoudai-touki-tenpu.md) ／ [H29 第7問](../h29-mondai/q07-shoyuuken-shoumei-jouhou.md) | 相続証明情報の要否 |
 
-**個別テーマ記事**：[「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★★
+**個別テーマ記事**：[「表題登記のない建物」はなぜ存在するのか](../topics/KE_02_hyoudai-touki-gimu-to-genjitsu.md) ★★
 
 ---
 
@@ -306,7 +306,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H17 第13問 保存期間](../h17-mondai/q13-hozon-kikan.md) ／ [H27 第18問 保存期間](../h27-mondai/q18-hozon-kikan.md) ／ [R7 第5問 保存期間](../r7-mondai/q05-hozonkikan.md) | 保存期間の総整理（永久・50年・30年など） |
 | ★★ | [H26 第19問 筆界特定](../h26-mondai/q19-hikkaitokutei.md) ／ [R6 第19問](../r6-mondai/q19-hikkai-tokutei.md) ／ [R3 第19問](../r3-mondai/q19-hikkai-tokutei.md) ／ [H28 第18問](../h28-mondai/q18-hikkaitokutei.md) | 筆界特定手続の通知・公告・記録管理 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/KC_01_hozon-kikan-matome.md) ★★
 
 ---
 

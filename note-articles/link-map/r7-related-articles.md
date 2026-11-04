@@ -33,7 +33,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R5 第1問 無効と取消し](../r5-mondai/q01-mukou-torikeshi.md) | 追認・取消権の時効 |
 | ★ | [H24 第3問 対抗要件](../h24-mondai/q03-taikouyouken.md) | 取消し**後**の第三者（177条処理） |
 
-**個別テーマ記事**：[取消権の期間制限（追認できる時から5年／行為の時から20年）](../topics/torikeshiken-jikou.md) ★★
+**個別テーマ記事**：[取消権の期間制限（追認できる時から5年／行為の時から20年）](../topics/KA_10_torikeshiken-jikou.md) ★★
 
 ---
 
@@ -112,7 +112,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H28 第11問 地積測量図・地役権図面](../h28-mondai/q11-chisekisokuryouzu-chiekikenzumen.md) | 保存期間 |
 | ★ | [H30 第6問 地図](../h30-mondai/q06-chizu.md) | 地図の保存年数 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/KC_01_hozon-kikan-matome.md) ★★★
 
 ---
 
@@ -133,7 +133,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H29 第5問 登記識別情報](../h29-mondai/q05-touki-shikibetsu-jouhou.md) | 通知される場合・されない場合 |
 | ★ | [H20 第9問 登記の申請適格](../h20-mondai/q09-touki-shinseinin.md) | 代位・清算人・表題部所有者 |
 
-**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/shinseishikaku-tochi-tatemono.md) ★★
+**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/KD_01_shinseishikaku-tochi-tatemono.md) ★★
 （→ 新規作成推奨：「嘱託登記まとめ」「代位申請できる場合・できない場合」）
 
 ---
@@ -175,7 +175,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H26 第4問 表題部所有者の沿革](../h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md) | 土地台帳・家屋台帳からの歴史 |
 | ★ | [H28 第16問 区分建物の表題部](../h28-mondai/q16-kubuntatemono-hyoudaibu.md) | 吸収合併・原始取得者 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/KA_01_hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 
@@ -305,8 +305,8 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R5 第16問 合体](../r5-mondai/q16-gattai.md) ／ [R4 第15問](../r4-mondai/q15-gattai-touki.md) ／ [H26 第17問](../h26-mondai/q17-gattai-touki.md) ／ [H28 第15問](../h28-mondai/q15-gattai.md) | 合体による登記等 |
 
 **個別テーマ記事**
-- [表題登記の申請資格（土地・建物・区分建物）](../topics/shinseishikaku-tochi-tatemono.md) ★★★
-- [「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★
+- [表題登記の申請資格（土地・建物・区分建物）](../topics/KD_01_shinseishikaku-tochi-tatemono.md) ★★★
+- [「表題登記のない建物」はなぜ存在するのか](../topics/KE_02_hyoudai-touki-gimu-to-genjitsu.md) ★
 
 ---
 

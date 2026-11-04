@@ -4,7 +4,7 @@
  "topic_label_in_bank": "民法／用益権・担保物権",
  "title_proposal": "何度も同じところで間違える人へ〜苦手分析シリーズ〜質権と地上権、「賃貸借のイメージ」で考えると間違える",
  "summary": "不動産質権（H20 第1問）と地上権（H21 第2問）の10肢。10肢すべてを解答済みで、定着は最新結果で10肢中4肢（40%）。誤答の多くは「？（わからない）」で、知識の空白が大きい。誤解（逆に覚えている）は、「地上権者は所有者の承諾なく譲渡・抵当権設定ができる」で2回連続、「不動産質権の順位は登記の前後」で1回。",
- "overlap_with_existing_articles": "苦手分析シリーズ⑬（占有権）・①〜⑭には質権・地上権の独立回がない。note-articles/topics/shitchiken-bunrishobun-kanou-kiyaku.md は質権の分離処分の別論点（テーマが異なる）。新規回として書ける。",
+ "overlap_with_existing_articles": "苦手分析シリーズ⑬（占有権）・①〜⑭には質権・地上権の独立回がない。note-articles/topics/KE_15_shitchiken-bunrishobun-kanou-kiyaku.md は質権の分離処分の別論点（テーマが異なる）。新規回として書ける。",
  "stats": {
   "bank_items": 10,
   "items_answered": 10,

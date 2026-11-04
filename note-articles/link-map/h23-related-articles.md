@@ -27,7 +27,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [H20 第3問 無効と取消し](../h20-mondai/q03-mukou-torikeshi.md) | 無効・取消しの区別、遡及効 |
 | ★ | [H24 第3問 対抗要件](../h24-mondai/q03-taikouyouken.md) | 取消し後の第三者（177条処理） |
 
-**個別テーマ記事**：[取消権の期間制限（追認できる時から5年／行為の時から20年）](../topics/torikeshiken-jikou.md) ★★
+**個別テーマ記事**：[取消権の期間制限（追認できる時から5年／行為の時から20年）](../topics/KA_10_torikeshiken-jikou.md) ★★
 
 ---
 
@@ -217,7 +217,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R4 第7問 表題部所有者の変更・更正](../r4-mondai/q07-hyoudaibu-hensei-kousei.md) | 持分の更正の添付情報 |
 | ★★ | [R7 第8問 表題部所有者](../r7-mondai/q08-hyoudaibu-shoyuusha.md) | 更正登記の添付情報全般 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/KA_01_hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 

@@ -126,7 +126,7 @@ Aが所有権の登記名義人である甲土地と、Bが所有権の登記名
 
 **試験での押さえどころ**
 
-- 筆界特定制度の全体は`note-articles/topics/hikkaitokutei-seido.md`にまとまっています（申請できる人・できない人、対象土地の要件など）。
+- 筆界特定制度の全体は`note-articles/topics/KG_03_hikkaitokutei-seido.md`にまとまっています（申請できる人・できない人、対象土地の要件など）。
 - 申請できる人については、平成19年度午前第9問（`note-articles/h19-mondai/q09-hikkai-tokutei.md`）、平成22年度午後第10問（`note-articles/h22-mondai/q10-hikkai-tokutei.md`）、平成24年度午後第10問（`note-articles/h24-mondai/q10-hikkaitokutei.md`）、平成26年度午後第19問（`note-articles/h26-mondai/q19-hikkaitokutei.md`）、令和3年度午後第19問（`note-articles/r3-mondai/q19-hikkai-tokutei.md`）、令和6年度午後第19問（`note-articles/r6-mondai/q19-hikkai-tokutei.md`）などが扱っています。
 - 申請の方法・申請情報については、平成20年度午後第12問（`note-articles/h20-mondai/q12-hikkai-tokutei.md`）が理由の書き方（具体的な事情）や、筆界確定訴訟が係属中の事件の表示を、平成28年度午後第18問（`note-articles/h28-mondai/q18-hikkaitokutei.md`）が複数の申請を一の申請情報でできること（規則第208条）などを扱っています。令和4年度午後第19問（`note-articles/r4-mondai/q19-hikkai-tokutei.md`）は、申請の趣旨を明らかにして申請しなければならないことなどを扱っています。
 

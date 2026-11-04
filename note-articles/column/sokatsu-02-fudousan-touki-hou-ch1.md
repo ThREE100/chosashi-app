@@ -689,7 +689,7 @@ D1491・D1325は正しいのに×、D0944は「？」でした。
 
 - note-articles/column/nigate-22-kubun-ikkatsu-shinsei-jinin-kigen.md
 - note-articles/column/nigate-23-bunpitsu-bunkatsu-shoudaku-ikkatsu.md
-- note-articles/topics/daii-shinsei.md
+- note-articles/topics/KD_02_daii-shinsei.md
 
 ---
 

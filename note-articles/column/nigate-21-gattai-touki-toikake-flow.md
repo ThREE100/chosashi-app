@@ -1157,4 +1157,4 @@ fully opaque background with no transparency or alpha channel anywhere.
 - [令和5年度 第16問（合体による登記等）](../r5-mondai/q16-gattai.md)
 - [平成29年度 第15問（建物の表題登記の申請義務）](../h29-mondai/q15-tatemono-shinsei-gimu.md)
 - [苦手分析シリーズ② 分筆・合筆・合併・合体](nigate-02-bunpitsu-gappitsu-gappei-gattai.md)
-- [表示に関する登記の申請義務の一覧](../topics/hyouji-touki-gimu-ichiran.md)
+- [表示に関する登記の申請義務の一覧](../topics/KE_01_hyouji-touki-gimu-ichiran.md)

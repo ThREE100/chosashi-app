@@ -6,7 +6,7 @@ SPEC = dict(
     truth="×（誤った記述）",
     miscon="悪意（知っていただけ）と背信的悪意の線引き",
     article="note-articles/r6-mondai/q02-taikouyouken.md",
-    art_head="R06-Q02ア「ＡＣ間の売買の時点でＡＢ間の売買についてＣが悪意であったときは、Ｂは登記なしでＣに対抗できる」は誤り。単純悪意者も177条の第三者に含まれる。除外される主な者（当事者本人・包括承継人・前主後主・不法占拠者・背信的悪意者）は、同じ記事と note-articles/topics/taikouyouken-daisansha-5ruikei.md の整理",
+    art_head="R06-Q02ア「ＡＣ間の売買の時点でＡＢ間の売買についてＣが悪意であったときは、Ｂは登記なしでＣに対抗できる」は誤り。単純悪意者も177条の第三者に含まれる。除外される主な者（当事者本人・包括承継人・前主後主・不法占拠者・背信的悪意者）は、同じ記事と note-articles/topics/KA_02_taikouyouken-daisansha-5ruikei.md の整理",
     letters="",
     extra_refs=[
         "民法第177条（法令DB note-articles/laws/minpou-1-soukyoku-bukken.md で原文を確認）：不動産に関する物権の得喪及び変更は、不動産登記法その他の登記に関する法律の定めるところに従いその登記をしなければ、第三者に対抗することができない。条文は『第三者』とだけ書き、善意などの限定は書いていない。図には条文番号を入れていない。",

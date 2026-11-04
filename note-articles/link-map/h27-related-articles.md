@@ -34,7 +34,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H24 第3問 対抗要件](../h24-mondai/q03-taikouyouken.md) | 取消し**後**の第三者（177条処理） |
 | ★ | [H24 第1問 任意代理](../h24-mondai/q01-ninidairi.md) | 代理行為の瑕疵は代理人基準（101条1項） |
 
-**個別テーマ記事**：[取消権の期間制限（追認できる時から5年／行為の時から20年）](../topics/torikeshiken-jikou.md) ★★（強迫の事例で解説）
+**個別テーマ記事**：[取消権の期間制限（追認できる時から5年／行為の時から20年）](../topics/KA_10_torikeshiken-jikou.md) ★★（強迫の事例で解説）
 
 ---
 
@@ -104,7 +104,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [H26 第4問 表題部所有者の沿革](../h26-mondai/q04-hyoudaibu-shoyuusha-enkaku.md) | 土地台帳・家屋台帳からの歴史 |
 | ★ | [H28 第16問 区分建物の表題部](../h28-mondai/q16-kubuntatemono-hyoudaibu.md) | 吸収合併・原始取得者 |
 
-**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
+**個別テーマ記事**：[「表題部所有者」と「所有権の登記名義人」の違い](../topics/KA_01_hyoudaibu-shoyuusha-vs-toukimeigijin.md) ★★★
 
 ---
 
@@ -140,7 +140,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R7 第9問 地積測量図](../r7-mondai/q09-chisekisokuryouzu.md) | 地積測量図と土地所在図の兼用可否 |
 | ★★ | [H29 第6問 申請情報](../h29-mondai/q06-shinsei-jouhou.md) | 持分が相等しいときの記載省略 |
 
-**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/shinseishikaku-tochi-tatemono.md) ★★（買主に申請義務がある理由＝土地は「今の所有者」が申請）
+**個別テーマ記事**：[表題登記の申請資格（土地・建物・区分建物）](../topics/KD_01_shinseishikaku-tochi-tatemono.md) ★★（買主に申請義務がある理由＝土地は「今の所有者」が申請）
 
 ---
 
@@ -159,8 +159,8 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 
 **個別テーマ記事**
 
-- [「表題部所有者」と「所有権の登記名義人」、何がどう違う？](../topics/hyoudaibu-shoyuusha-vs-toukimeigijin.md)（肢イ：表題部所有者と所有権の登記名義人が同一人物の呼び方の違いに過ぎないこと）
-- [建物図面・各階平面図の提供要否 早見表](../topics/tatemonozumen-teikyou-yohi.md)（肢ウ：図面の訂正の申出のルール、規則88条1項ただし書・2項）
+- [「表題部所有者」と「所有権の登記名義人」、何がどう違う？](../topics/KA_01_hyoudaibu-shoyuusha-vs-toukimeigijin.md)（肢イ：表題部所有者と所有権の登記名義人が同一人物の呼び方の違いに過ぎないこと）
+- [建物図面・各階平面図の提供要否 早見表](../topics/KE_11_tatemonozumen-teikyou-yohi.md)（肢ウ：図面の訂正の申出のルール、規則88条1項ただし書・2項）
 
 ---
 
@@ -179,7 +179,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 
 **個別テーマ記事**
 
-- [原本還付、できる書面とできない書面を全部整理](../topics/genpon-kanpu.md)（肢オ：記名押印を要する場面の印鑑証明書と、その申請のためだけに作成された書面という2つの例外の総整理）
+- [原本還付、できる書面とできない書面を全部整理](../topics/KD_04_genpon-kanpu.md)（肢オ：記名押印を要する場面の印鑑証明書と、その申請のためだけに作成された書面という2つの例外の総整理）
 
 ---
 
@@ -251,7 +251,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★★ | [H21 第4問 建物の登記](../h21-mondai/q04-tatemono-nintei.md) | 温室・コンテナ倉庫・石油タンク・観覧席 |
 | ★★ | [R4 第10問 建物の認定](../r4-mondai/q10-tatemono-nintei.md) ／ [H30 第10問](../h30-mondai/q10-tatemono-nintei.md) ／ [H24 第16問](../h24-mondai/q16-tatemono-nintei.md) | 3要件（定着性・外気分断性・用途性）の当てはめ |
 
-**個別テーマ記事**：[建物認定3要件、覚えるべき「○」と「×」を全部並べてみた](../topics/tatemono-nintei-3youken.md) ★★★（本問（H27第13問）が関連過去問として名指しで挙げられている）
+**個別テーマ記事**：[建物認定3要件、覚えるべき「○」と「×」を全部並べてみた](../topics/KE_08_tatemono-nintei-3youken.md) ★★★（本問（H27第13問）が関連過去問として名指しで挙げられている）
 
 ---
 
@@ -273,8 +273,8 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★ | [R5 第16問 合体](../r5-mondai/q16-gattai.md) ／ [R4 第15問](../r4-mondai/q15-gattai-touki.md) ／ [H26 第17問](../h26-mondai/q17-gattai-touki.md) ／ [H28 第15問](../h28-mondai/q15-gattai.md) | 合体による登記等 |
 
 **個別テーマ記事**
-- [表題登記の申請資格（土地・建物・区分建物）](../topics/shinseishikaku-tochi-tatemono.md) ★★★
-- [「表題登記のない建物」はなぜ存在するのか](../topics/hyoudai-touki-gimu-to-genjitsu.md) ★
+- [表題登記の申請資格（土地・建物・区分建物）](../topics/KD_01_shinseishikaku-tochi-tatemono.md) ★★★
+- [「表題登記のない建物」はなぜ存在するのか](../topics/KE_02_hyoudai-touki-gimu-to-genjitsu.md) ★
 
 ---
 
@@ -353,7 +353,7 @@ note記事に「埋め込み」でリンクを差し込む際の設計図とし�
 | ★★ | [R1 第7問 地積測量図](../r1-mondai/q07-chiseki-sokuryouzu.md) | 図面の保存期間 |
 | ★ | [H28 第11問 地積測量図・地役権図面](../h28-mondai/q11-chisekisokuryouzu-chiekikenzumen.md) | 保存期間 |
 
-**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/hozon-kikan-matome.md) ★★★
+**個別テーマ記事**：[保存期間は「永久・50年・30年・10年・5年」の5段階（規則28条総まとめ）](../topics/KC_01_hozon-kikan-matome.md) ★★★
 
 ---
 
