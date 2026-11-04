@@ -115,10 +115,25 @@ check(prompts.count('ILLUSTRATION TEXT RULE') >= 8, 'ILLUSTRATION TEXT RULEが�
 
 check('条文の探し方' not in article and '図8' not in article, '削除したはずの条文の探し方・図8が残っている')
 
+# 4b. 見出し画像のプロンプト（note用・Instagram用）
+HEADER = os.path.join(HERE, '02-header-image-prompts.md')
+hp = open(HEADER, encoding='utf-8').read()
+check('1280x670' in hp and '1080x1440' in hp, '見出し画像: note用1280x670とInstagram用1080x1440の両方がない')
+check(hp.count('```') == 4, '見出し画像: コードブロックが2つでない')
+for s in ('不動産登記法の', '建て付けマップ', '八つの棚で眺める'):
+    check(hp.count(s) >= 3, f'見出し画像: 「{s}」が2つのプロンプトに入っていない')
+check('全体像と押さえどころ' in hp, '見出し画像: 全体像と押さえどころの語がない')
+check('条文を八つの棚に分けると探せる' not in hp and '探せる' not in hp, '見出し画像: 古い副題が残っている')
+check('Do NOT draw トリ先生' in hp, '見出し画像: MC1人の指示がない')
+check('safe margin of 54px' in hp, 'Instagram用: 安全余白の指示がない')
+for line in re.findall(r'^(不動産登記法の|建て付けマップ|八つの棚で眺める[^\n]*|全体像と押さえどころが見えてくる)$', hp, flags=re.M):
+    check(not re.search(r'[0-9A-Za-z0-9]', line), f'見出し画像: 画像の文字に数字・英字がある: {line}')
+check('見出し画像' in prompts and '02-header-image-prompts.md' in prompts, '図解プロンプトから見出し画像の案内がない')
+
 # 5. 禁止語・個人情報
 BAN = ['教材としてまとめたもの', '合格するまで更新', '予備校の解答例と照合', '決定木', '判定木', 'ツリー']
 for w in BAN:
-    check(w not in article and w not in prompts, f'禁止語「{w}」がある')
+    check(w not in article and w not in prompts and w not in hp, f'禁止語「{w}」がある')
 for w in ('誤答', '間違えた回数', '自分の回答', '復習中', '要復習'):
     check(w not in article, f'個人の演習結果らしい語「{w}」が記事にある')
 # 画像の中に入れる語に図番がない
