@@ -136,6 +136,29 @@ for w in BAN:
 for w in ('誤答', '間違えた回数', '自分の回答', '復習中', '要復習', '出題頻度'):
     check(w not in article, f'確かめていない主張・個人の演習結果らしい語「{w}」が記事にある')
 
+
+# 6. Instagramのキャプション案
+CAP = os.path.join(HERE, '03-instagram-captions.md')
+cap = open(CAP, encoding='utf-8').read()
+blocks = re.findall(r'```\n(.*?)```', cap, flags=re.S)
+check(len(blocks) == 9, f'キャプションが9本（A＋B-0〜B-7）でない: {len(blocks)}')
+for i, b in enumerate(blocks):
+    check(len(b) <= 2200, f'キャプション{i}が2200字を超える')
+    check(3 <= len(re.findall(r'#\S+', b)) <= 5, f'キャプション{i}のハッシュタグが3〜5個でない')
+    check('http' not in b, f'キャプション{i}にURLがある')
+    if i:
+        check('プロフィールのリンク' in b or i == 1, f'キャプション{i}にプロフィールのリンクへの誘導がない')
+    for m in re.finditer(r'第(\d+)条(の\d+)?', b):
+        if '規則' in b.split(m.group(0))[0][-12:]:
+            continue
+        n = m.group(1) + (m.group(2) or '')
+        check(n in arts, f'キャプション{i}: 第{n}条が本則にない')
+    for w in BAN + ['誤答', '間違えた回数', '出題頻度']:
+        check(w not in b, f'キャプション{i}に「{w}」がある')
+# キャプションの数字が条文と合う
+for n, w in (('36', '一月以内'), ('76の2', '三年以内'), ('76の5', '二年以内'), ('164', '十万円以下'), ('164', '五万円以下'), ('69の2', '十年'), ('70の2', '三十年')):
+    check(w in art(n), f'第{n}条に「{w}」がない（キャプションの根拠）')
+
 if ng:
     print('NG', len(ng))
     for m in ng:

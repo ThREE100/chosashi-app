@@ -538,7 +538,7 @@ I点はBCとY＝485.26の交点で I ＝ B ＋ (C − B) × 0.57 ÷ 10.57 ＝（
 ## 「数字の図鑑」（`note-articles/kigen-suuji-zukan/`）について(2026-11-04追加)
 
 不動産登記法の期限・金額・年月・保存期間（一月以内、三年・二年、過料、罰則、十年・二十年・三十年、規則第28条の保存期間、その他）を、「何の登記か」「いつから数えるか」の2軸で7つの引き出しに整理したnote記事と図解（7枚。**note用とInstagram用の2種類**＝計14本＋見出し画像2種）。「建て付けマップ」（`note-articles/tatekata-map/`）の姉妹編。
-構成案`00-kousei.md`、記事`01-fudousan-touki-hou-kigen-suuji-zukan.md`、図解・見出し画像のプロンプトは`src/gen_prompts.py`で`01-zukai-prompts.md`・`02-header-image-prompts.md`を作る（手で直さない）、原文（法と規則第28条）との機械チェック`check_article.py`（NG 0件）。画像の生成・目視確認は未実施。色は 青＝表示、薄い橙＝権利、赤橙＝過料・罰則、灰緑＝保存期間、紫灰＝その他。
+構成案`00-kousei.md`、記事`01-fudousan-touki-hou-kigen-suuji-zukan.md`、図解・見出し画像のプロンプトは`src/gen_prompts.py`で`01-zukai-prompts.md`・`02-header-image-prompts.md`を作る（手で直さない）、Instagramキャプション案`03-instagram-captions.md`（A＝カルーセル、B-0〜B-7＝単発）、原文（法と規則第28条）との機械チェック`check_article.py`（NG 0件。キャプションも確認）。画像の生成・目視確認は未実施。色は 青＝表示、薄い橙＝権利、赤橙＝過料・罰則、灰緑＝保存期間、紫灰＝その他。
 
 ## 共通ルール：年度・問の表記は算用数字、見出し画像と図解の画像プロンプトはnote用とInstagram用の2種類（2026-11-05 ユーザー指示）
 
