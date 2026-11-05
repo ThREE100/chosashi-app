@@ -132,8 +132,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 積・窓・段・塔・乗・降 — these must be rendered in their standard
-Japanese forms, never as Simplified Chinese variants.
+kanji 積・窓・段・塔・乗・降・階・範・囲 — these must be rendered in their
+standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -163,10 +176,12 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 出窓は高さ1.5m以上かつ床と同高で算入
 Illustration: An isometric cutaway of a window bay (出窓) projecting from
-a wall, with a vertical ruler icon beside it labeled "1.5m以上" and a
+a wall, with a vertical ruler icon beside it labeled「1.5m以上」and a
 highlighted horizontal line where the bay's bottom edge meets the floor
-level labeled "下部が床面と同一高さ", with two check-mark icons showing
+level labeled「下部が床面と同一高さ」, with two check-mark icons showing
 both conditions must be satisfied together.
+Words allowed inside this illustration (verbatim, nothing else):
+「1.5m以上」「下部が床面と同一高さ」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 2条件そろって算入
 
@@ -175,10 +190,12 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 出入口だけの階段室は算入しない
 Illustration: An isometric rooftop of a building with a small tower-like
-structure labeled "階段室" used only as a stairwell exit, alongside similar
-small tower icons labeled "エレベーターの機械", "高置水槽", "冷却装置",
-each marked with a prohibition (no-entry) tag reading "算入しない", even
+structure labeled「階段室」used only as a stairwell exit, alongside similar
+small tower icons labeled「エレベーターの機械」「高置水槽」「冷却装置」,
+each marked with a prohibition (no-entry) tag reading「算入しない」, even
 though the towers are fully enclosed.
+Words allowed inside this illustration (verbatim, nothing else):
+「階段室」「エレベーターの機械」「高置水槽」「冷却装置」「算入しない」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 塔屋は算入外
 
@@ -187,10 +204,12 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 屋根・手すり付き屋外階段も算入外
 Illustration: An isometric outdoor steel staircase attached to a building,
-with a small roof icon labeled "屋根" and a handrail icon labeled
-"手すり" highlighted, but no surrounding walls, with dotted airflow lines
+with a small roof icon labeled「屋根」and a handrail icon labeled
+「手すり」highlighted, but no surrounding walls, with dotted airflow lines
 passing freely through the open sides, and a prohibition tag reading
-"算入しない".
+「算入しない」.
+Words allowed inside this illustration (verbatim, nothing else):
+「屋根」「手すり」「算入しない」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 外気分断なければ対象外
 
@@ -202,11 +221,13 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 内部のダストシュートは外側も含め算入
 Illustration: An isometric cutaway of a building showing a vertical shaft
-labeled "ダストシュート" running mostly inside the building, with a small
+labeled「ダストシュート」running mostly inside the building, with a small
 section of the same shaft protruding outside the exterior wall on one
 floor; the entire shaft, including the protruding outside section, is
 shaded in the same highlight color, with an arrow pointing to the outside
-portion labeled "外側部分も含める".
+portion labeled「外側部分も含める」.
+Words allowed inside this illustration (verbatim, nothing else):
+「ダストシュート」「外側部分も含める」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 はみ出た分も算入
 
@@ -214,11 +235,13 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 乗降場は上屋の範囲で計算
-Illustration: An isometric train station platform labeled "乗降場" with a
-canopy roof labeled "上屋" covering part of it; the area under the roof is
+Illustration: An isometric train station platform labeled「乗降場」with a
+canopy roof labeled「上屋」covering part of it; the area under the roof is
 shaded as the calculated floor area, while the open, uncovered section of
 the platform beyond the roof's edge is left unshaded to show it is
 excluded.
+Words allowed inside this illustration (verbatim, nothing else):
+「乗降場」「上屋」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 屋根の範囲で計算
 
@@ -233,7 +256,9 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -300,6 +325,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -433,7 +467,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 窓・段・塔・乗・降・積・号・建・物・確・認・断・気・関・続・
-登・記. If any character renders as a Simplified or Traditional Chinese variant, redraw
+登・記・階・範・囲. If any character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
@@ -445,6 +479,9 @@ order rather than only a conclusion and keeps every required element
 from the source article distinct (no merged or dropped requirements),
 that a factor the article treats as irrelevant (外気分断性 in イ,
 屋根・手すり in ウ) is shown crossed out rather than silently omitted,
+confirm that no diagram contains any text other than the words specified
+in its Diagram line (no stray inscriptions, labels, or pseudo-writing) and
+that each specified word is clearly legible,
 confirm nothing is rendered below the last panel's footnote text (no
 summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
 all 肢, and no additional text block of any kind), and confirm the entire

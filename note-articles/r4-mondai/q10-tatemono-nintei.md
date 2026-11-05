@@ -130,6 +130,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -161,8 +174,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric greenhouse with a visible steel skeleton
 frame and reinforced glass roof and walls, firmly anchored into the
 ground with foundation bolts. Three small checkmark badges labeled
-"外気分断性" "定着性" "用途性" float above it, with a green stamp icon
-reading "登記できる" beside it.
+「外気分断性」「定着性」「用途性」float above it, with a green stamp icon
+reading「登記できる」beside it.
+Words allowed inside this illustration (verbatim, nothing else):
+「外気分断性」「定着性」「用途性」「登記できる」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 3要件を満たす
 
@@ -174,7 +189,9 @@ Illustration: An isometric cross-section showing an elevated railway
 track running above, with solid walls built underneath enclosing the
 space into a shop storefront fully integrated with the elevated
 structure, a small train icon on the track above, and a green stamp icon
-reading "登記できる" beside the shop.
+reading「登記できる」beside the shop.
+Words allowed inside this illustration (verbatim, nothing else):
+「登記できる」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一体化で建物
 
@@ -185,8 +202,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric pier extending over water, supported by
 sturdy pillar legs rising from the seabed, with a building featuring a
 roof and walls (an aquarium) constructed on top, small fish icons in the
-water below, and a green stamp icon reading "登記できる" beside the
+water below, and a green stamp icon reading「登記できる」beside the
 building.
+Words allowed inside this illustration (verbatim, nothing else):
+「登記できる」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 永久構築物で建物
 
@@ -200,7 +219,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric cylindrical water tank standing on support
 legs, sealed with no doors or windows and no space for a person to enter,
 a person icon crossed out beside it, and a red X stamp icon reading
-"登記できない".
+「登記できない」.
+Words allowed inside this illustration (verbatim, nothing else):
+「登記できない」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 用途性を欠く
 
@@ -211,7 +232,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric prefabricated box-shaped office resting
 loosely on separate steel column bases that merely sit on the ground
 rather than being embedded in it, small motion arrows and a dolly/cart
-icon beside it, and a red X stamp icon reading "登記できない".
+icon beside it, and a red X stamp icon reading「登記できない」.
+Words allowed inside this illustration (verbatim, nothing else):
+「登記できない」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 定着性を欠く
 
@@ -226,7 +249,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -288,6 +311,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -315,18 +347,18 @@ Heading (bold, ONE line):
 鉄骨造で地面に固着した温室は建物になる
 Diagram: Draw the shared vertical 3-gate decision ladder used across this
 panel set: three diamond-shaped nodes stacked top to bottom, labeled from
-top to bottom ①外気分断性, ②定着性, ③用途性, connected by a downward
+top to bottom「①外気分断性」「②定着性」「③用途性」, connected by a downward
 arrow; each diamond has a ✕ branch arrow to the side leading to a
 terminal box labeled「建物として登記できない」, and an ○ arrow continuing
 down to the next diamond; after diamond③ the ○ arrow leads to a terminal
 box labeled「建物として登記できる」. For this panel, render diamond①
-(外気分断性) and diamond②(定着性) with a thick highlighted teal border and
+「外気分断性」and diamond②「定着性」with a thick highlighted teal border and
 full color: beside diamond① draw an isometric close-up of a greenhouse
 roof-and-wall panel made of thick reinforced glass fitted into a steel
 frame, labeled「強固なガラスの屋根・周壁」with a green ✓; beside diamond②
 draw a close-up of the steel frame's base bolted into the ground with
 visible foundation anchors, labeled「鉄材の骨組みが地面に固着」with a
-green ✓. Render diamond③(用途性) in a faded, greyed-out, dotted-outline
+green ✓. Render diamond③「用途性」in a faded, greyed-out, dotted-outline
 style with a small green ✓ (the article states all three requirements
 are met here, but this panel's focus is on the first two). Render the ✕
 branches beside diamonds①② in faded grey leading to a shared grey
@@ -345,11 +377,11 @@ characters):
 Badge: a filled circle in teal containing the number 2.
 Heading (bold, ONE line):
 給水タンクは人が使う空間がなく建物でない
-Diagram: Redraw the same 3-gate ladder (①外気分断性→②定着性→③用途性、各
+Diagram: Redraw the same 3-gate ladder (①「外気分断性」→②「定着性」→③「用途性」、各
 ✕は「建物として登記できない」の結論ボックスへ、③の○は「建物として登記
-できる」の結論ボックスへ). For this panel, render diamond①(外気分断性) and
-diamond②(定着性) in a faded, greyed-out, dotted-outline style (this fact
-pattern does not dispute these two), and render diamond③(用途性) with a
+できる」の結論ボックスへ). For this panel, render diamond①「外気分断性」and
+diamond②「定着性」in a faded, greyed-out, dotted-outline style (this fact
+pattern does not dispute these two), and render diamond③「用途性」with a
 thick highlighted teal border and full color. Beside diamond③, draw an
 isometric cylindrical water tank standing on support legs, its exterior
 sealed with no doors or windows and no space for a person to enter, a
@@ -370,9 +402,9 @@ Badge: a filled circle in teal containing the number 3.
 Heading (bold, ONE line):
 簡単に動かせる組立式事務所は建物でない
 Diagram: Redraw the same 3-gate ladder. For this panel, render diamond①
-(外気分断性) and diamond③(用途性) in a faded, greyed-out, dotted-outline
+「外気分断性」and diamond③「用途性」in a faded, greyed-out, dotted-outline
 style (this fact pattern does not dispute these two), and render diamond②
-(定着性) with a thick highlighted teal border and full color. Beside
+「定着性」with a thick highlighted teal border and full color. Beside
 diamond②, draw an isometric prefabricated box-shaped office resting
 loosely on separate steel column bases that merely sit on the ground
 rather than being embedded in it, with a small dolly/cart icon and
@@ -393,8 +425,8 @@ Badge: a filled circle in teal containing the number 4.
 Heading (bold, ONE line):
 周壁で高架下を囲った店舗は建物になる
 Diagram: Redraw the same 3-gate ladder. For this panel, render diamond①
-(外気分断性) and diamond②(定着性) with a thick highlighted teal border and
-full color, and render diamond③(用途性) in a faded, greyed-out,
+「外気分断性」and diamond②「定着性」with a thick highlighted teal border and
+full color, and render diamond③「用途性」in a faded, greyed-out,
 dotted-outline style with a small green ✓ (the article states all three
 requirements are met here, but this panel's focus is on the first two).
 Beside diamond①, draw an isometric cross-section of an elevated railway
@@ -417,8 +449,8 @@ Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 海上でも脚柱で支えられた水族館は建物になる
 Diagram: Redraw the same 3-gate ladder. For this panel, render diamond②
-(定着性) with a thick highlighted teal border and full color, and render
-diamond①(外気分断性) and diamond③(用途性) in a faded, greyed-out,
+「定着性」with a thick highlighted teal border and full color, and render
+diamond①「外気分断性」and diamond③「用途性」in a faded, greyed-out,
 dotted-outline style with a small green ✓ each (the article states all
 three requirements are met here, but this panel's focus is on the
 middle one). Beside diamond②, draw an isometric pier extending over
@@ -459,6 +491,9 @@ panel clearly distinguishes its own highlighted branch from the other,
 faded branches, confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
-and confirm the entire canvas, edge to edge, is filled with a fully
+confirm that no diagram contains any text other than the words specified
+in its Diagram line (no stray inscriptions, labels, or pseudo-writing)
+and that each specified word is clearly legible, and confirm the entire
+canvas, edge to edge, is filled with a fully
 opaque background with no transparency or alpha channel anywhere.
 ```

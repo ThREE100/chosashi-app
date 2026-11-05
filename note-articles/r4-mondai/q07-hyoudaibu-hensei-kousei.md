@@ -146,6 +146,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・積・登・記・図・宅・鉱・泉・誤 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -174,10 +187,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積更正に申請義務はない
-Illustration: An isometric land plot with a red "地積誤り" stamp on it,
-beside a calendar icon showing "1か月以内に申請" with a red X mark over
-it, and a small speech bubble reading "義務なし" next to a
+Illustration: An isometric land plot with a red 「地積誤り」 stamp on it,
+beside a calendar icon showing 「1か月以内に申請」 with a red X mark over
+it, and a small speech bubble reading 「義務なし」 next to a
 registered-owner character.
+Words allowed inside this illustration (verbatim, nothing else): 「地積誤り」「1か月以内に申請」「義務なし」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 申請義務なし
 
@@ -186,9 +200,10 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 公差内でも地積測量図は必須
 Illustration: An isometric land survey map (地積測量図) icon with a small
-gap bracket labeled "公差の範囲内", beside the same map icon with a red X
-mark over a "省略" label, and an arrow showing the map must still be
+gap bracket labeled 「公差の範囲内」, beside the same map icon with a red X
+mark over a 「省略」 label, and an arrow showing the map must still be
 submitted with the application.
+Words allowed inside this illustration (verbatim, nothing else): 「公差の範囲内」「省略」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 省略できない
 
@@ -198,8 +213,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 求積ミスは訂正の申出で直せない
 Illustration: An isometric desk scene showing a land survey map with a
 calculation error circled in red, a hand holding a document labeled
-"地積測量図の訂正の申出" with a red X mark over it, and an arrow pointing
-instead toward a stamped document labeled "地積更正の登記".
+「地積測量図の訂正の申出」 with a red X mark over it, and an arrow pointing
+instead toward a stamped document labeled 「地積更正の登記」.
+Words allowed inside this illustration (verbatim, nothing else): 「地積測量図の訂正の申出」「地積更正の登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 更正の登記で直す
 
@@ -210,10 +226,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 地目変更は1か月以内に申請義務
-Illustration: An isometric land plot changing its signpost from "雑種地"
-to "宅地", with a calendar icon highlighting "1か月以内" and a green
-checkmark stamp labeled "申請義務あり" attached to a registered-owner
+Illustration: An isometric land plot changing its signpost from 「雑種地」
+to 「宅地」, with a calendar icon highlighting 「1か月以内」 and a green
+checkmark stamp labeled 「申請義務あり」 attached to a registered-owner
 character.
+Words allowed inside this illustration (verbatim, nothing else): 「雑種地」「宅地」「1か月以内」「申請義務あり」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 1か月以内に申請
 
@@ -222,12 +239,13 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 宅地は面積問わず100分の1まで
 Illustration: An isometric branching flowchart from a decision node
-labeled "地目・面積", splitting into three paths: a land plot icon
-labeled "宅地・鉱泉地" with a green checkmark and the label "面積問わず
-100分の1"; a land plot icon labeled "それ以外／10平方メートル以下"
-labeled "100分の1"; and a land plot icon labeled "それ以外／10平方メート
-ル超" labeled "1平方メートルまで". A small worked-example tag beside it
-reads "30歩→99.17平方メートル".
+labeled 「地目・面積」, splitting into three paths: a land plot icon
+labeled 「宅地・鉱泉地」 with a green checkmark and the label 「面積問わず
+100分の1」; a land plot icon labeled 「それ以外／10平方メートル以下」
+labeled 「100分の1」; and a land plot icon labeled 「それ以外／10平方メート
+ル超」 labeled 「1平方メートルまで」. A small worked-example tag beside it
+reads 「30歩→99.17平方メートル」.
+Words allowed inside this illustration (verbatim, nothing else): 「地目・面積」「宅地・鉱泉地」「面積問わず100分の1」「それ以外／10平方メートル以下」「100分の1」「それ以外／10平方メートル超」「1平方メートルまで」「30歩→99.17平方メートル」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 100分の1まで記録
 
@@ -242,7 +260,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -300,6 +318,15 @@ below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -435,7 +462,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 記, 積, 誤, 変, 認, 図, 測, 請, 義, 務, 録, 訂, 鉱, 捨, 換, 動,
-産, 規, 項, 報, 囲, 種, 雑, 実, 読, 題, 設, 課, 場, 問, 範, and 計. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+産, 規, 項, 報, 囲, 種, 雑, 実, 読, 題, 設, 課, 場, 問, 範, 計, 確, and 後. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly
 (ア／イ／ウ／エ／オ), badge numbers run 1-5 continuously, there
@@ -448,7 +475,10 @@ unnecessary flowchart, that each 着眼点 callout states a checking order
 rather than only a conclusion and keeps every required element from the
 source article distinct (no merged or dropped requirements), that panel
 5's highlighted branch is clearly distinguished from its own faded,
-unrelated branch, confirm nothing is rendered below the last panel's
+unrelated branch, that each diagram contains no text other than the
+words specified in its Diagram line (no stray inscriptions, labels, or
+pseudo-writing) and that each specified word is clearly legible, confirm
+nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully

@@ -140,6 +140,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・番・登・記・所 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -168,11 +181,13 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 登記できない使用貸借は合筆OK
-Illustration: An isometric land plot labeled "乙土地" with a tag reading
-"使用貸借" crossed by a closed ledger-book icon bearing a red X (meaning
-it cannot be registered), beside a land plot labeled "甲土地", both
+Illustration: An isometric land plot labeled「乙土地」with a tag reading
+「使用貸借」crossed by a closed ledger-book icon bearing a red X (meaning
+it cannot be registered), beside a land plot labeled「甲土地」, both
 connected by a merge arrow into one combined plot stamped with a green
 checkmark.
+Words allowed inside this illustration (verbatim, nothing else):
+「乙土地」「使用貸借」「甲土地」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 合筆できる
 
@@ -180,9 +195,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権の登記があると合筆不可
-Illustration: Two isometric land plots labeled "甲土地" and "乙土地",
-each stamped with a tag reading "敷地権である旨の登記", connected by a
+Illustration: Two isometric land plots labeled「甲土地」and「乙土地」,
+each stamped with a tag reading「敷地権である旨の登記」, connected by a
 merge arrow blocked by a red X in the middle.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地」「乙土地」「敷地権である旨の登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 合筆できない
 
@@ -190,10 +207,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 消滅承諾書だけでは合筆不可
-Illustration: An isometric land plot labeled "乙土地" with a red 抵当権
-stamp on it, beside a torn-paper document labeled "消滅承諾書" with a
+Illustration: An isometric land plot labeled「乙土地」with a red「抵当権」
+stamp on it, beside a torn-paper document labeled「消滅承諾書」with a
 large red X over it, and a small separate icon showing a hand pulling
-the 抵当権 stamp off the plot to show the correct method instead.
+the「抵当権」stamp off the plot to show the correct method instead.
+Words allowed inside this illustration (verbatim, nothing else):
+「乙土地」「抵当権」「消滅承諾書」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 承諾書では不可
 
@@ -204,10 +223,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 字が同じなら別地図でも合筆OK
-Illustration: Two isometric land plots labeled "甲土地" and "乙土地",
-both tagged with the same "字" label, placed on two separate registry
+Illustration: Two isometric land plots labeled「甲土地」and「乙土地」,
+both tagged with the same「字」label, placed on two separate registry
 map-sheet icons side by side, connected by a merge arrow stamped with a
 green checkmark.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地」「乙土地」「字」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 合筆できる
 
@@ -215,10 +236,12 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 一部だけ順位変更あると合筆不可
-Illustration: Two isometric land plots labeled "甲土地" and "乙土地",
-each with an identical 抵当権 tag, but 甲土地 has one extra tag reading
-"順位変更の登記" attached, with a merge arrow between the two plots
+Illustration: Two isometric land plots labeled「甲土地」and「乙土地」,
+each with an identical「抵当権」tag, but「甲土地」has one extra tag reading
+「順位変更の登記」attached, with a merge arrow between the two plots
 blocked by a red X because of the mismatched extra tag.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地」「乙土地」「抵当権」「順位変更の登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 合筆できない
 
@@ -233,7 +256,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -293,6 +316,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -370,9 +402,9 @@ Heading (bold, ONE line):
 Diagram: Draw the same 3-tier decision tree as Panel 1, highlighting Node
 A's「はい」branch, Node B's「いいえ」branch, and Node C's leaf「消滅承諾書
 の提供」with a thick colored border and full color: an isometric land
-plot labeled「乙土地」with a red 抵当権 stamp on it, beside a torn-paper
+plot labeled「乙土地」with a red「抵当権」stamp on it, beside a torn-paper
 document labeled「消滅承諾書」with a large red ✕ over it, and a small
-separate icon showing a hand pulling the 抵当権 stamp off the plot to show
+separate icon showing a hand pulling the「抵当権」stamp off the plot to show
 the correct method instead, above a highlighted box reading「消滅承諾書は
 例外事由にあたらない」leading to a「合筆できない」box. Render Node A's
 「いいえ」branch and Node C's other two leaves(「敷地権である旨の登記」
@@ -414,8 +446,8 @@ Heading (bold, ONE line):
 Diagram: Draw the same 3-tier decision tree as Panel 1, highlighting Node
 A's「はい」branch, Node B's「いいえ」branch, and Node C's leaf「順位変更の
 み不一致」with a thick colored border and full color: two isometric land
-plots labeled「甲土地」「乙土地」, each with an identical 抵当権 tag, but
-甲土地 has one extra tag reading「順位変更の登記」attached, with a merge
+plots labeled「甲土地」「乙土地」, each with an identical「抵当権」tag, but
+「甲土地」has one extra tag reading「順位変更の登記」attached, with a merge
 arrow between the two plots blocked by a red ✕ because of the mismatched
 extra tag, above a highlighted box reading「登記の目的・受付の年月日及び受
 付番号並びに登記原因及びその日付が完全には一致しない」leading to a「合筆
@@ -438,7 +470,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 号, 権, 地, 番, 登, 記, 所, 敷, 担, 保, 図, 準, 順, 変, 滅, 規,
-則, 貸, 録. If any character renders as a Simplified or Traditional Chinese variant,
+則, 貸, 録, 筆, 認, 確, 書, 諾. If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel
 count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
@@ -453,7 +485,10 @@ decision tree with another panel clearly distinguishes its own
 highlighted branch from the other, faded branches, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
-text block of any kind), and confirm the entire canvas, edge to edge, is
+text block of any kind), confirm that no diagram contains any text other
+than the words specified in its Diagram line (no stray inscriptions,
+labels, or pseudo-writing) and that each specified word is clearly
+legible, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```

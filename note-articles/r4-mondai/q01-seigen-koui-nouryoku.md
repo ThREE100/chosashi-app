@@ -133,8 +133,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 後・見・佐・補・審・判・証・効・猶・予・家・庭・裁・所 — these must be rendered in
+kanji 後・見・佐・補・審・判・証・効・猶・予・家・庭・裁・所・為 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -167,8 +180,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric scene of a person (制限行為能力者) holding up
 a forged identification card to a shop clerk across a counter with a
 wristwatch display box on it, while a large red "✕" stamp reading
-"取消不可" is overlaid near the transaction to show the right to rescind
+「取消不可」is overlaid near the transaction to show the right to rescind
 is lost.
+Words allowed inside this illustration (verbatim, nothing else): 「取消不可」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 詐術なら取消し不可
 
@@ -176,11 +190,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 後見人不在は時効が猶予される
-Illustration: An isometric hourglass labeled "時効" nearly empty, next to
-an empty chair icon with a "成年後見人 不在" tag, a pause icon freezing
-the hourglass sand, and a new character arriving with a "就職" tag
-causing a "6か月" countdown badge to appear before the hourglass can
+Illustration: An isometric hourglass labeled「時効」nearly empty, next to
+an empty chair icon with a「成年後見人 不在」tag, a pause icon freezing
+the hourglass sand, and a new character arriving with a「就職」tag
+causing a「6か月」countdown badge to appear before the hourglass can
 finish running out.
+Words allowed inside this illustration (verbatim, nothing else):
+「時効」「成年後見人 不在」「就職」「6か月」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 時効の完成猶予
 
@@ -192,10 +208,12 @@ Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 被保佐人の保証は同意が必要
 Illustration: An isometric scene of a 被保佐人 character holding a pen
-over a "保証書" document for a friend's borrowing, with a 保佐人 character
-standing beside holding a round "同意" stamp that must be pressed onto
+over a「保証書」document for a friend's borrowing, with a 保佐人 character
+standing beside holding a round「同意」stamp that must be pressed onto
 the document before it can be signed, and a small warning triangle icon
-labeled "負債リスク" above the document.
+labeled「負債リスク」above the document.
+Words allowed inside this illustration (verbatim, nothing else):
+「保証書」「同意」「負債リスク」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 保佐人の同意が必要
 
@@ -204,11 +222,13 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 保佐開始の審判に同意不要
 Illustration: An isometric family courthouse (家庭裁判所) building with a
-family-member character submitting a "請求書" for "保佐開始の審判", the
-本人 character standing to the side unengaged with a small "同意不要" tag
+family-member character submitting a「請求書」for「保佐開始の審判」, the
+本人 character standing to the side unengaged with a small「同意不要」tag
 and a red "✕" over a stamp icon above them; a smaller inset panel shows
-a separate path for "補助開始の審判" where the same 本人 character must
-press a round "同意" stamp (a green "✓") before the request can proceed.
+a separate path for「補助開始の審判」where the same 本人 character must
+press a round「同意」stamp (a green "✓") before the request can proceed.
+Words allowed inside this illustration (verbatim, nothing else):
+「請求書」「保佐開始の審判」「同意不要」「補助開始の審判」「同意」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 本人の同意は不要
 
@@ -217,10 +237,12 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 後見開始で保佐審判は取消し
 Illustration: An isometric family courthouse issuing a new document
-stamped "後見開始の審判", with an arrow pointing to an older document
-labeled "保佐開始の審判" being simultaneously stamped with a large red
-"取消" cross mark, showing the old designation being invalidated at the
+stamped「後見開始の審判」, with an arrow pointing to an older document
+labeled「保佐開始の審判」being simultaneously stamped with a large red
+「取消」cross mark, showing the old designation being invalidated at the
 same moment the new one is issued.
+Words allowed inside this illustration (verbatim, nothing else):
+「後見開始の審判」「保佐開始の審判」「取消」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 旧審判は取り消される
 
@@ -228,7 +250,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 後・見・佐・補・審・判・証・効・猶・予・家・庭・裁・所. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+attention to 後・見・佐・補・審・判・証・効・猶・予・家・庭・裁・所・為. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
@@ -237,7 +259,10 @@ across both columns without resetting (2 cards under 制限行為能力者に
 confirm there is no intro illustration or paragraph block between the
 header and the cards, and confirm that no card contains a full sentence
 of explanatory prose — every card's takeaway must read as a short heading
-+ a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
++ a short conclusion tag, at a glance. Confirm that no illustration
+contains any text other than its "Words allowed" words (no inscriptions
+on stones or signs, no pseudo-writing) and that each allowed word is
+clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -286,6 +311,15 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -410,7 +444,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 詐・佐・補・審・判・猶・予・証・効・家・庭・裁・所. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+attention to 詐・佐・補・審・判・猶・予・証・効・家・庭・裁・所・為. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
@@ -418,6 +452,9 @@ block between the header and the panels, that every multi-condition 肢
 （イ・エ）is drawn as an actual flowchart with branch nodes (not a
 bare illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
+that no diagram contains any text other than the words specified in its
+Diagram line (no stray inscriptions, labels, or pseudo-writing) and that
+each specified word is clearly legible, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
 no additional text block of any kind), and confirm the entire canvas,
