@@ -190,6 +190,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 号・番・地・登・記・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -219,9 +232,11 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 会社法人等番号があれば、印鑑証明書は不要
 Illustration: An isometric office building icon connected by an arrow to
-an ID-card-like icon labeled "会社法人等番号", replacing a seal (inkan)
+an ID-card-like icon labeled「会社法人等番号」, replacing a seal (inkan)
 icon that has a large red X mark over it, and a small checkmark next to
 the ID-card icon.
+Words allowed inside this illustration (verbatim, nothing else):
+「会社法人等番号」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 印鑑証明書は不要
 
@@ -229,10 +244,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人である旨は記載必須
-Illustration: An isometric document icon labeled "法定相続情報一覧図"
+Illustration: An isometric document icon labeled「法定相続情報一覧図」
 with an arrow pointing to an application form icon that still shows a
-filled-in text line labeled "相続人である旨", with a small "省略不可"
+filled-in text line labeled「相続人である旨」, with a small「省略不可」
 label beside it to show this line is NOT omitted.
+Words allowed inside this illustration (verbatim, nothing else):
+「法定相続情報一覧図」「相続人である旨」「省略不可」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 記載は省略不可
 
@@ -243,10 +260,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 一の申請情報でまとめ可
-Illustration: Two isometric land plot icons labeled "甲土地" and
-"乙土地", both connected to a single document icon labeled "一の申請情報"
+Illustration: Two isometric land plot icons labeled「甲土地」and
+「乙土地」, both connected to a single document icon labeled「一の申請情報」
 via two arrows meeting at the same registry desk, with small labels
-"分筆の登記" on both plots.
+「分筆の登記」on both plots.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地」「乙土地」「一の申請情報」「分筆の登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 一括申請できる
 
@@ -257,6 +276,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric government building icon with an arrow
 pointing to an office building icon representing a company, with a coin
 icon at the end of the arrow that has a large red X mark over it.
+Words allowed inside this illustration (verbatim, nothing else):
+none (no text of any kind inside this illustration)
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 登録免許税なし
 
@@ -264,10 +285,12 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 持分3分の1ずつでも過半数で申請できる
-Illustration: Three isometric person figures labeled A・B・C standing
-around a land plot, each holding a small label "3分の1". Two of the three
+Illustration: Three isometric person figures labeled「A」「B」「C」standing
+around a land plot, each holding a small label「3分の1」. Two of the three
 figures are highlighted and connected to an application document icon,
 while the third figure stands slightly apart, outside the connection.
+Words allowed inside this illustration (verbatim, nothing else):
+「A」「B」「C」「3分の1」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 過半数で申請可
 
@@ -284,7 +307,9 @@ that no card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
 glance — and confirm no card reproduces a statement that was judged 誤 in
 the original article; every card must show the corrected, correct legal
-rule. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+rule — confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -329,6 +354,15 @@ any characters. Pay special attention to the kanji
 表・題・部・所・有・権・名・義・管・轄・原・因・誤 — always draw the standard
 Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the illustrations and
+diagrams, render ONLY the words that are written in this prompt (the
+labels and quoted article text given below), each one large, clear and
+exactly as written. Do not add any other text, inscriptions, signs,
+numbers or pseudo-writing; leave other surfaces blank or use an icon or
+mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -358,6 +392,8 @@ a small torn-paper label reading「表題部所有者のみ」。The right plot
 labeled「乙土地」has a stamped document icon reading「所有権登記名義人
 あり」。Between the two plots, a large red ✕ mark and a broken chain link
 icon, symbolizing the (incorrect) assumption that they cannot be combined.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地」「表題部所有者のみ」「乙土地」「所有権登記名義人あり」
 
 Panel conclusion (bold, red banner):
 登記状態が違うから、まとめられなさそう
@@ -371,6 +407,9 @@ The same two land plots（甲土地・乙土地）, this time connected by a sin
 green checkmark arrow into one shared document icon labeled「一の申請情
 報」。Two small check-marked labels float above the plots:「同一の登記所
 の管轄区域内」「登記の目的・原因・日付が同一（分筆の登記）」。
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地」「乙土地」「一の申請情報」「同一の登記所の管轄区域内」
+「登記の目的・原因・日付が同一（分筆の登記）」
 
 Quoted article text (rendered exactly, in a bordered box):
 「申請情報は…一の不動産ごとに作成して提供しなければならない。ただし、
@@ -403,7 +442,10 @@ Japanese form. Also scan the entire canvas for any character that is not standar
 感的な誤解 on the left, green 条文が定める本当の条件 on the right),
 confirm the quoted text box matches the Japanese text given above verbatim
 character-for-character, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+verbatim with no paraphrasing and no substituted characters, confirm that
+no illustration contains any text other than its "Words allowed" words
+(no inscriptions on stones or signs, no pseudo-writing) and that each
+allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -448,6 +490,15 @@ any characters. Pay special attention to the kanji
 添・付・情・報・申・請・相・続・一・覧・図・略・誤 — always draw the standard
 Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the illustrations and
+diagrams, render ONLY the words that are written in this prompt (the
+labels and quoted article text given below), each one large, clear and
+exactly as written. Do not add any other text, inscriptions, signs,
+numbers or pseudo-writing; leave other surfaces blank or use an icon or
+mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -474,8 +525,13 @@ Panel heading (bold):
 Illustration (isometric scene inside the panel):
 An isometric document icon labeled「法定相続情報一覧図の写し」being
 handed over at a registry counter, with a separate document icon
-labeled「相続を証する情報」crossed out with a green checkmark showing it
-is no longer needed.
+labeled「相続を証する情報」next to it with a green checkmark badge beside
+it (not overlapping the document itself) and a small「省略可」label,
+showing that providing the one document means the other is not needed.
+IMPORTANT: put only ONE mark (the green checkmark) on this illustration —
+do not also draw a red ✕ or a strikethrough on either document icon.
+Words allowed inside this illustration (verbatim, nothing else):
+「法定相続情報一覧図の写し」「相続を証する情報」「省略可」
 
 Quoted article text (rendered exactly, in a bordered box):
 法定相続情報一覧図の写しの提供をもって、相続を証する情報の提供に代える
@@ -493,6 +549,8 @@ An isometric application form document labeled「申請情報」with a
 highlighted text line reading「Ｂは、Ａの相続人である」still clearly
 visible and filled in, with a red ✕ mark over a hand trying to erase or
 skip that line, showing it cannot be omitted.
+Words allowed inside this illustration (verbatim, nothing else):
+「申請情報」「Ｂは、Ａの相続人である」
 
 Quoted article text (rendered exactly, in a bordered box):
 表示に関する登記を申請するときは、申請人が表題部所有者又は所有権の登記
@@ -522,7 +580,10 @@ Japanese form. Also scan the entire canvas for any character that is not standar
 付情報のレベル on the left, red 申請情報のレベル on the right), confirm
 both quoted text boxes match the Japanese text given above verbatim
 character-for-character, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+verbatim with no paraphrasing and no substituted characters, confirm that
+no illustration contains any text other than its "Words allowed" words
+(no inscriptions on stones or signs, no pseudo-writing) and that each
+allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -584,6 +645,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -713,7 +783,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 号・番・地・登・記・所・相・続・分・筆・過・半・数・嘱・託. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+attention to 号・番・地・登・記・所・相・続・分・筆・過・半・数・嘱・託・証. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
 any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
@@ -725,7 +795,10 @@ check, that each 着眼点 callout states a checking order rather than only
 a conclusion and keeps every required element from the source article
 distinct (no merged or dropped requirements), that any panel sharing a
 decision tree with another panel clearly distinguishes its own
-highlighted branch from the other, faded branches, confirm nothing is
+highlighted branch from the other, faded branches, confirm that no
+diagram or illustration contains any text other than the words written in
+「」 in that panel's Diagram line, and that each such word is clearly
+legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
 text block of any kind), and confirm the entire canvas, edge to edge, is
