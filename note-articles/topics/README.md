@@ -86,5 +86,5 @@
 - `KT_06` [## 【KT_06】【土地家屋調査士受験生向け】調査士法人の業務制限（第4回）〜常駐・競業・社員資格の3つの縛り〜](KT_06_chousashi-houjin-gyoumu-seigen-04-soshiki-seigen.md)
 - `KT_07` [## 【KT_07】【土地家屋調査士受験生向け】調査士法人の業務制限（第5回）〜法人にだけある「解散」という処分〜](KT_07_chousashi-houjin-gyoumu-seigen-05-choukai.md)
 
-個別テーマ記事の再チェックと note 見出し画像プロンプトの追加の手順は `RECHECK_GUIDE.md` にある。
+個別テーマ記事の再チェックと note 見出し画像プロンプトの追加の手順は `RECHECK_GUIDE.md` にある。note用の見出し画像プロンプト（背景は壮麗な図書館の館内。全記事の本文に入っている）は `gen_note_header.py` で作る。
 Instagram用の見出し画像プロンプトとキャプション案は `instagram/` にある（入口は `instagram/README.md`）。
