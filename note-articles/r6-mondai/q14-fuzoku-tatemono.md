@@ -130,8 +130,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・建・物・登・記・図 — these must be rendered in their
+kanji 権・建・物・登・記・図・実 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -165,6 +178,8 @@ but not connected — a house labeled "甲建物(住宅)" and, right next to
 it, a warehouse labeled "乙建物(倉庫)" with no shared roof or walkway; a
 red "✕" mark and a red torn-paper label "効用上一体でない" placed between
 them.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲建物(住宅)」「乙建物(倉庫)」「✕」「効用上一体でない」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 附属建物にできない
 
@@ -178,6 +193,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: Two isometric buildings merging into one outlined building
 with an arrow labeled "合併登記", next to a stack of floor-plan documents
 labeled "各階平面図" stamped with a red circle reading "提供必須".
+Words allowed inside this illustration (verbatim, nothing else):
+「合併登記」「各階平面図」「提供必須」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 省略できない
 
@@ -189,6 +206,8 @@ Illustration: An annex building under construction with scaffolding, next
 to a document icon labeled "先取特権 保存登記" already stamped, a clock
 icon, and a red torn-paper label "遅滞なく", with an arrow pointing to a
 document labeled "表題部変更登記".
+Words allowed inside this illustration (verbatim, nothing else):
+「先取特権 保存登記」「遅滞なく」「表題部変更登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 遅滞なく申請
 
@@ -200,6 +219,8 @@ Illustration: An isometric main house (母屋) and a small annex (離れ)
 being built side by side, both pointing to a single calendar with one
 circled date shared by both buildings; a document icon showing 申請情報
 with the 新築日 field for the annex marked with a small "記載不要" label.
+Words allowed inside this illustration (verbatim, nothing else):
+「記載不要」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 記載省略できる
 
@@ -210,6 +231,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: A house with a newly built annex (物置) beside it, and a
 hand placing a floor-plan document labeled "建物図面" onto a stamped
 folder, with a torn-paper label "提出必須".
+Words allowed inside this illustration (verbatim, nothing else):
+「建物図面」「提出必須」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 提供必須
 
@@ -224,7 +247,9 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no pseudo-writing)
+and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -293,6 +318,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
 full-width ( and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -308,7 +342,7 @@ Title (large, bold, 2行):
 どんな図を描けばいいか
 
 Subtitle (smaller, centered, 1行):
-令和6年度 午後第14問 作図ガイド（附属建物）
+令和6年度 午後の部 第14問 作図ガイド（附属建物）
 
 (タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。)
@@ -415,7 +449,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建・物・附・属・効・用・登・記・積・図・権・遅・滞・築・省・
-略. If any character renders as a Simplified or Traditional Chinese variant, redraw that
+略・実・条. If any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
@@ -426,7 +460,10 @@ single check, that each 着眼点 callout states a checking order rather than
 only a conclusion and keeps every required element from the source
 article distinct (no merged or dropped requirements), that any panel
 sharing a decision tree with another panel clearly distinguishes its own
-highlighted branch from the other, faded branches, confirm nothing is
+highlighted branch from the other, faded branches, confirm that no
+diagram or illustration contains any text other than the words written
+in 「」 in that panel's Diagram line, and that each such word is clearly
+legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed o/x grid of all 肢, and no additional
 text block of any kind), and confirm the entire canvas, edge to edge, is
