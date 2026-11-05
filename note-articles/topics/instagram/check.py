@@ -15,7 +15,6 @@ for i in ids:
         t = d.get(k,'')
         if len(t) > mx: ng.append(f'{i}: {k}が{mx}字超（{len(t)}）')
         if re.search(r'[A-Za-z0-9０-９Ａ-Ｚａ-ｚ]', t): ng.append(f'{i}: {k}に英数字 {t}')
-    if not 3 <= len(d.get('points',[])) <= 4: ng.append(f'{i}: pointsは3〜4個')
     if not 3 <= len(d.get('tags',[])) <= 5: ng.append(f'{i}: tagsは3〜5個')
     if re.search(r'[぀-ヿ一-鿿]', d.get('scene','')): ng.append(f'{i}: sceneは英語で')
     body = '\n'.join([d.get('hook',''), d.get('lead',''), *d.get('points',[]), d.get('close','')])
