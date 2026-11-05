@@ -196,6 +196,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -226,6 +239,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 甲土地の権利証を持たないBと、「AB間の売買を知っていた」だ
 けの単なる悪意者Cが向き合う構図。Bの手には×印のついた盾のアイコン（対抗
 不可を表す）。
+Words allowed inside this illustration (verbatim, nothing else): 「AB間の売買を知っていた」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 悪意でも対抗不可
 
@@ -236,6 +250,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 甲土地に設定された抵当権(isometric な鎖と錠前のアイコン)が
 実行され、競売のハンマー(gavel)アイコンとともに買受人Dが土地の鍵を受け取
 る構図。登記のないBは壁の外側に立ち、×印のついた盾を持つ。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 買受人にも対抗不可
 
@@ -249,6 +264,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: A→B→Cと一直線につながる矢印で甲土地の所有権が転々移転する
 様子を描く。Cが元の所有者Aに向かって、チェックマーク付きの盾のアイコン
 （対抗成功）を掲げる。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 前主後主は対抗可
 
@@ -259,6 +275,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: Aが亡くなり(星のような小さな追悼アイコン)、矢印でAの立場が
 そのまま唯一の相続人Cへ引き継がれる相続の図。BとCの間にチェックマーク付
 きの盾のアイコンを配置する。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 包括承継だから対抗可
 
@@ -269,6 +286,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 何の権原もないCが甲土地の上に勝手にテントを張って住み着い
 ている構図。Bがその前でチェックマーク付きの盾のアイコンと「明渡し請求」
 を表す矢印のアイコンを掲げる。
+Words allowed inside this illustration (verbatim, nothing else): 「明渡し請求」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 明渡し請求できる
 
@@ -283,7 +301,10 @@ cards, that badge numbers run 1-5 continuously across both columns
 without resetting, confirm there is no intro illustration or paragraph
 block between the header and the cards, and confirm that no card contains
 a full sentence of explanatory prose — every card's takeaway must read
-as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+as a short heading + a short conclusion tag, at a glance — confirm that no
+illustration contains any text other than its "Words allowed" words (no
+inscriptions on stones or signs, no pseudo-writing) and that each allowed
+word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -340,6 +361,15 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -463,6 +493,9 @@ block between the header and the panels, that all 5 panels visibly share
 the identical decision-tree shape and layout described above with only
 the diamond's label and highlighted branch differing, that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
+that no diagram or illustration contains any text other than the words
+written in 「」 in that panel's Diagram line, and that each such word is
+clearly legible, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
 no additional text block of any kind), and confirm the entire canvas,
@@ -510,6 +543,19 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 権・登・記・者・承・継・占・拠・背・信・欠・缺・誤・相・続 — always draw the standard
 Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that row's description (and
+the badge label), each one large, clear and exactly as written. Do not
+invent or add any other text inside an illustration: no inscriptions on
+boundary stones or markers, no extra signs, labels, captions, numbers or
+pseudo-writing. If a prop needs no specified word, leave its surface
+blank or show its meaning with an icon or a mark (check mark, red cross)
+instead. The title, subtitle, quoted definition box, table rows and
+callout box are the only other text on the image.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -573,7 +619,10 @@ Japanese form. Also scan the entire canvas for any character that is not standar
 no duplicated or missing rows, confirm the quoted definition text matches
 the Japanese text given above verbatim character-for-character, and
 confirm the callout box text matches verbatim with no paraphrasing and no
-substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+substituted characters, confirm that no illustration contains any text
+other than the words written in 「」 in that row's description (no
+inscriptions on stones or signs, no pseudo-writing) and that each such
+word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -619,6 +668,19 @@ any characters. Pay special attention to the kanji
 悪・意・背・信・登・記・欠・缺・者・誤 — always draw the standard Japanese
 (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that panel's Illustration
+line (and repeated on the "Words allowed" line under it), each one large,
+clear and exactly as written. Do not invent or add any other text inside
+an illustration: no inscriptions on boundary stones or markers, no extra
+signs, labels, captions, numbers or pseudo-writing. If a prop needs no
+specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, panel
+headings and conclusions are the only other text on the image.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -650,6 +712,8 @@ registration because Ｃ acted unfairly). IMPORTANT: this left panel shows
 the mistaken belief with a ✓, while the right panel shows the actual rule
 for Ｃ（単純悪意）with a ✕ — do not draw the same mark on both sides.
 
+Words allowed inside this illustration (verbatim, nothing else): 「知ってて買った」
+
 Panel conclusion (bold, red banner):
 ずるいから保護されないはず
 
@@ -665,6 +729,8 @@ other side (within a red circle labeled「信義則違反」). An arrow points
 from the「単純悪意」side to figure Ｂ holding a shield icon with a red ✕
 mark (対抗不可), and from the「背信的悪意」side to a shield icon with a
 green checkmark (対抗可能、除外される)。
+
+Words allowed inside this illustration (verbatim, nothing else): 「単純悪意（知っていただけ）」「自由競争の範囲内」「背信的悪意（もっぱら害する目的等）」「信義則違反」
 
 Quoted article text (rendered exactly, in a bordered box):
 「第三者」とは、当事者及びその包括承継人以外の者で、登記の欠缺を主張す
@@ -693,7 +759,10 @@ form. Also scan the entire canvas for any character that is not standard Japanes
 on the left, green 条文・判例が見ている条件 on the right), confirm the
 quoted text box matches the Japanese text given above verbatim
 character-for-character, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+verbatim with no paraphrasing and no substituted characters, confirm
+that no illustration contains any text other than its "Words allowed"
+words (no inscriptions on stones or signs, no pseudo-writing) and that
+each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -738,6 +807,19 @@ any characters. Pay special attention to the kanji
 抵・当・権・買・受・競・売・登・記・誤 — always draw the standard Japanese
 (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that panel's Illustration
+line (and repeated on the "Words allowed" line under it), each one large,
+clear and exactly as written. Do not invent or add any other text inside
+an illustration: no inscriptions on boundary stones or markers, no extra
+signs, labels, captions, numbers or pseudo-writing. If a prop needs no
+specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, panel
+headings and conclusions are the only other text on the image.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -764,6 +846,8 @@ An isometric figure Ｃ labeled「抵当権者（お金を貸しているだけ�
 next to a chain-link icon representing the mortgage, with a speech-bubble
 「単なる債権者だから関係ない」and a red question-mark icon.
 
+Words allowed inside this illustration (verbatim, nothing else): 「抵当権者（お金を貸しているだけ）」「単なる債権者だから関係ない」
+
 Panel conclusion (bold, red banner):
 対抗関係の話とは無関係のはず
 
@@ -777,6 +861,8 @@ The mortgage chain-link icon breaking apart (抵当権の実行) with a gavel
 「買受人（競売で新たに所有権を取得）」holding a land-plot key icon. Figure
 Ｂ stands opposite Ｄ holding a shield icon with a red ✕ mark (登記なしで
 は対抗不可)。
+
+Words allowed inside this illustration (verbatim, nothing else): 「買受人（競売で新たに所有権を取得）」
 
 Quoted article text (rendered exactly, in a bordered box):
 「第三者」とは、当事者及びその包括承継人以外の者で、登記の欠缺を主張す
@@ -807,7 +893,10 @@ form. Also scan the entire canvas for any character that is not standard Japanes
 on the left, green 実際に登場する人物 on the right), confirm the quoted
 text box matches the Japanese text given above verbatim
 character-for-character, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+verbatim with no paraphrasing and no substituted characters, confirm
+that no illustration contains any text other than its "Words allowed"
+words (no inscriptions on stones or signs, no pseudo-writing) and that
+each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -851,6 +940,19 @@ any characters. Pay special attention to the kanji
 前・主・後・承・継・登・記・者・誤 — always draw the standard Japanese
 (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that panel's Illustration
+line (and repeated on the "Words allowed" line under it), each one large,
+clear and exactly as written. Do not invent or add any other text inside
+an illustration: no inscriptions on boundary stones or markers, no extra
+signs, labels, captions, numbers or pseudo-writing. If a prop needs no
+specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, panel
+headings and conclusions are the only other text on the image.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -878,6 +980,8 @@ plot, facing each other with a red ✕ mark between them and a speech-bubble
 「直接契約してない別人どうしだから対抗関係のはず」。Figure Ｂ is drawn
 faded in the background, easy to overlook.
 
+Words allowed inside this illustration (verbatim, nothing else): 「直接契約してない別人どうしだから対抗関係のはず」
+
 Panel conclusion (bold, red banner):
 対抗関係になるはず
 
@@ -890,6 +994,8 @@ Three isometric figures Ａ→Ｂ→Ｃ connected by a single straight chain of
 solid arrows over the same land plot, labeled「一直線につながる承継」。
 A green checkmark badge sits over the whole chain, with a label「取り合
 う関係ではない」。
+
+Words allowed inside this illustration (verbatim, nothing else): 「一直線につながる承継」「取り合う関係ではない」
 
 Quoted article text (rendered exactly, in a bordered box):
 「第三者」とは、当事者及びその包括承継人以外の者で、登記の欠缺を主張す
@@ -919,7 +1025,9 @@ form. Also scan the entire canvas for any character that is not standard Japanes
 on the left, green 実際の関係 on the right), confirm the quoted text box
 matches the Japanese text given above verbatim character-for-character,
 and confirm the callout box text matches verbatim with no paraphrasing
-and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+and no substituted characters, confirm that no illustration contains any
+text other than its "Words allowed" words (no inscriptions on stones or
+signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -963,6 +1071,19 @@ any characters. Pay special attention to the kanji
 相・続・人・被・承・継・登・記・誤 — always draw the standard
 Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that panel's Illustration
+line (and repeated on the "Words allowed" line under it), each one large,
+clear and exactly as written. Do not invent or add any other text inside
+an illustration: no inscriptions on boundary stones or markers, no extra
+signs, labels, captions, numbers or pseudo-writing. If a prop needs no
+specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, panel
+headings and conclusions are the only other text on the image.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -989,6 +1110,8 @@ An isometric figure Ａ and a separate figure Ｃ（子）standing apart, with
 a speech-bubble「Ａとは別の人格だから第三者のはず」and a red question-mark
 icon between figure Ｂ and figure Ｃ.
 
+Words allowed inside this illustration (verbatim, nothing else): 「Ａとは別の人格だから第三者のはず」
+
 Panel conclusion (bold, red banner):
 第三者にあたるはず
 
@@ -1002,6 +1125,8 @@ arrow labeled「地位をそのまま引き継ぐ（包括承継）」pointing f
 figure Ｃ, merging their outlines into one silhouette to show they are
 treated as legally identical. A green checkmark badge sits between figure
 Ｂ and the merged Ａ・Ｃ silhouette.
+
+Words allowed inside this illustration (verbatim, nothing else): 「地位をそのまま引き継ぐ（包括承継）」
 
 Quoted article text (rendered exactly, in a bordered box):
 「相続人は、相続開始の時から、被相続人の財産に属した一切の権利義務を承
@@ -1031,7 +1156,9 @@ form. Also scan the entire canvas for any character that is not standard Japanes
 on the left, green 包括承継の実際 on the right), confirm the quoted text
 box matches the Japanese text given above verbatim character-for-character,
 and confirm the callout box text matches verbatim with no paraphrasing and
-no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+no substituted characters, confirm that no illustration contains any text
+other than its "Words allowed" words (no inscriptions on stones or signs,
+no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -1076,6 +1203,19 @@ any characters. Pay special attention to the kanji
 占・拠・権・原・登・記・者・欠・缺・誤 — always draw the standard Japanese
 (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that panel's Illustration
+line (and repeated on the "Words allowed" line under it), each one large,
+clear and exactly as written. Do not invent or add any other text inside
+an illustration: no inscriptions on boundary stones or markers, no extra
+signs, labels, captions, numbers or pseudo-writing. If a prop needs no
+specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, panel
+headings and conclusions are the only other text on the image.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -1103,6 +1243,8 @@ small unregistered-document icon crossed out in red, and a tent icon
 （不法占拠者Ｃ）standing on the land plot, with a red question-mark
 between them.
 
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+
 Panel conclusion (bold, red banner):
 登記がないとどんな相手にも負けそう
 
@@ -1115,6 +1257,8 @@ The same tent icon（不法占拠者Ｃ）now labeled「無権原」with a red �
 over a small scale icon（正当な利益なし）, next to figure Ｂ holding a
 shield icon with a green checkmark and an arrow labeled「明渡し請求」
 pointing at the tent.
+
+Words allowed inside this illustration (verbatim, nothing else): 「無権原」「明渡し請求」
 
 Quoted article text (rendered exactly, in a bordered box):
 「第三者」とは、当事者及びその包括承継人以外の者で、登記の欠缺を主張す
@@ -1144,5 +1288,8 @@ form. Also scan the entire canvas for any character that is not standard Japanes
 on the left, green 「正当な利益」の有無で判断する on the right), confirm
 the quoted text box matches the Japanese text given above verbatim
 character-for-character, and confirm the callout box text matches
-verbatim with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+verbatim with no paraphrasing and no substituted characters, confirm that
+no illustration contains any text other than its "Words allowed" words
+(no inscriptions on stones or signs, no pseudo-writing) and that each
+allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

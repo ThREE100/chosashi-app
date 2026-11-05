@@ -185,6 +185,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 号・権・地・番・登・記・所・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -217,6 +230,7 @@ Illustration: isometric icon of a person handing over a card labeled
 「住民票コード」to a registry clerk, with an arrow pointing to a green
 stamp reading「省略OK」; a crossed-out icon of a paper 住民票 in the
 background to show it is no longer needed.
+Words allowed inside this illustration (verbatim, nothing else): 「住民票コード」「省略OK」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 住所証明は省略
 
@@ -228,6 +242,7 @@ Illustration: isometric icon of a family-tree style document labeled
 「法定相続情報一覧図」with the word「住所」highlighted, an arrow pointing
 to a person icon labeled「相続人B」, and a green stamp reading「住所証明
 OK」next to it.
+Words allowed inside this illustration (verbatim, nothing else): 「法定相続情報一覧図」「住所」「相続人B」「住所証明OK」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 別途証明は不要
 
@@ -240,6 +255,7 @@ labeled「甲」「乙」「丙」standing on it; one of the three hands over a
 stamped certificate while the other two are shown without documents, with
 an arrow labeled「1人の証明でOK」pointing to a new building being
 registered.
+Words allowed inside this illustration (verbatim, nothing else): 「甲」「乙」「丙」「1人の証明でOK」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一部の証明でOK
 
@@ -254,6 +270,7 @@ Illustration: isometric icon of a laptop displaying an electronic seal
 labeled「電子署名」, connected by a plus symbol to a separate document
 icon labeled「会社法人等番号」, both leading into a folder labeled
 「代理権限証明情報」to show both are required together.
+Words allowed inside this illustration (verbatim, nothing else): 「電子署名」「会社法人等番号」「代理権限証明情報」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 番号は別途必要
 
@@ -265,6 +282,7 @@ Illustration: isometric icon of a building with a label「地上権」next to
 it, an arrow pointing to a document labeled「分離処分可能規約」with a red
 stamp reading「提供必要」(not crossed out), showing the document cannot
 be omitted.
+Words allowed inside this illustration (verbatim, nothing else): 「地上権」「分離処分可能規約」「提供必要」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 省略できない
 
@@ -279,7 +297,9 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -322,6 +342,19 @@ any characters. Pay special attention to the kanji
 共・有・持・分・過・半・数・証・明・決・誤 — always draw the standard
 Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that panel's Illustration
+line (and repeated on the "Words allowed" line under it), each one large,
+clear and exactly as written. Do not invent or add any other text inside
+an illustration: no inscriptions on boundary stones or markers, no extra
+signs, labels, captions, numbers or pseudo-writing. If a prop needs no
+specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, panel
+headings and conclusions are the only other text on the image.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -350,6 +383,8 @@ Three isometric co-owner figures labeled「甲」「乙」「丙」standing arou
 shared land plot, each raising a hand as if voting, with a ballot-box icon
 in the center showing持分の割合を示す円グラフ(pie chart)。
 
+Words allowed inside this illustration (verbatim, nothing else): 「甲」「乙」「丙」
+
 Quoted article text (rendered exactly, in a bordered box):
 「共有物の管理に関する事項は、各共有者の持分の価格に従い、その過半数で
 決する。」（民法252条1項の要旨）
@@ -368,6 +403,8 @@ labeled「敷地所有者による証明情報」, pointing at an isometric buil
 already built on the land, with a green checkmark stamp on the document.
 The other two figures（乙・丙）stand relaxed in the background, doing
 nothing, to show their participation is not required.
+
+Words allowed inside this illustration (verbatim, nothing else): 「甲」「乙」「丙」「敷地所有者による証明情報」
 
 Quoted article text (rendered exactly, in a bordered box):
 「この建物は、この土地の上に建っている」という事実を証明するだけの書面
@@ -397,7 +434,10 @@ form. Also scan the entire canvas for any character that is not standard Japanes
 場面 on the left, green 事実証明の場面 on the right), confirm both quoted
 text boxes match the Japanese text given above verbatim character-for-
 character, and confirm the callout box text matches verbatim with no
-paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+paraphrasing and no substituted characters, confirm that no illustration
+contains any text other than its "Words allowed" words (no inscriptions
+on stones or signs, no pseudo-writing) and that each allowed word is
+clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -440,6 +480,14 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 敷・地・権・規・約・名・義・逆・順・証・誤 — always draw the standard Japanese
 (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every flowchart node and
+illustration, render ONLY the words written in each NODE's own text (as
+given below) and the callout box text, each one large, clear and exactly
+as written. Do not add any other text, inscriptions, signs, numbers or
+pseudo-writing; leave other surfaces blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -516,7 +564,10 @@ path (no branching, since the conclusion is the same regardless of prior
 assumptions), confirm NODE 5 is visually highlighted in green as the
 answer to 本肢, and confirm every heading, node label, and callout
 sentence matches the Japanese text given above verbatim, with no
-paraphrasing and no substituted characters. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+paraphrasing and no substituted characters, confirm that no node or
+illustration contains any text other than the words given in that node's
+own text above (no inscriptions on stones or signs, no pseudo-writing)
+and that each such word is clearly legible. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -581,6 +632,15 @@ below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -720,7 +780,10 @@ check, that each 着眼点 callout states a checking order rather than only
 a conclusion and keeps every required element from the source article
 distinct(no merged or dropped requirements), that any panel sharing a
 decision tree with another panel clearly distinguishes its own
-highlighted branch from the other, faded branches, confirm nothing is
+highlighted branch from the other, faded branches, confirm that no
+diagram or illustration contains any text other than the words written
+in 「」 in that panel's Diagram line, and that each such word is clearly
+legible, confirm nothing is
 rendered below the last panel's footnote text(no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
 text block of any kind), and confirm the entire canvas, edge to edge, is
