@@ -113,6 +113,9 @@ def main():
            '`gen_instagram.py` が `data.json`（原稿データ）から作る。**生成物は手で直さず、`data.json` を直して作り直す**。つなぎ（F2：個別テーマ）の枠に、1日1枚ずつ出す使い方を想定している（`note-unei/instagram/README.md`）。', '',
            '| ID | 画像の文字 | キャプション字数 | ファイル |', '|---|---|---|---|']
     for i, f, t, n in rows: idx.append(f'| {i} | {t} | {n} | [{i}.md]({i}.md) |')
+    extra = sorted(os.path.basename(x) for x in glob.glob(os.path.join(HERE, 'K*_zukai_4x5.md')))
+    if extra:
+        idx += ['', '## 総論の図解インフォグラフィック（Instagram用・4:5）', '', '記事の総論にあたる図解を、1080×1350のプロンプトにしたもの（手書きのファイル。生成スクリプトでは作り直さない）。', ''] + [f'- [{x[:-3]}]({x})' for x in extra]
     open(os.path.join(HERE, 'README.md'), 'w', encoding='utf-8').write('\n'.join(idx) + '\n')
     print(len(rows), 'files')
 main()
