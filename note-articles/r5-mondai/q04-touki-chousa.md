@@ -132,8 +132,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 登・記・所 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants.
+kanji 登・記・所・調・査・認 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -150,7 +163,7 @@ Title (large, bold, 1行):
 登記官はどこまで調べられる？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第4問－調査の要否と実地調査のルール
+調査の要否と実地調査のルール（令和5年度 午後の部 第4問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -164,8 +177,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 所有者に関する事項も調査可
 Illustration: An isometric registry official figure holding a magnifying
 glass over a house icon, with a floating name-tag/ID-card icon labeled
-"所有者" being examined; a checklist/clipboard icon beside the official
-shows a checkmark next to "所有者に関する事項".
+「所有者」being examined; a checklist/clipboard icon beside the official
+shows a checkmark next to「所有者に関する事項」.
+Words allowed inside this illustration (verbatim, nothing else): 「所有者」
+「所有者に関する事項」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 所有者も調査対象
 
@@ -174,10 +189,12 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 却下すべき申請は本人確認不要
 Illustration: An isometric registry official figure at a desk holding
-two documents: one stamped "却下" in red, and one labeled "本人確認調査";
-an arrow shows the official setting aside the本人確認調査 document
-(crossed out) because the却下 stamp already applies, meaning the check is
+two documents: one stamped「却下」in red, and one labeled「本人確認調査」;
+an arrow shows the official setting aside the「本人確認調査」document
+(crossed out) because the「却下」stamp already applies, meaning the check is
 skipped.
+Words allowed inside this illustration (verbatim, nothing else): 「却下」
+「本人確認調査」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 本人確認調査は不要
 
@@ -193,6 +210,8 @@ land plot with a measuring tool, framed within a large sunrise-to-sunset
 arc icon in the sky above, with a crossed-out moon/night icon at both
 edges of the arc showing the official cannot be there before sunrise or
 after sunset.
+Words allowed inside this illustration (verbatim, nothing else): none
+(no text of any kind inside this illustration)
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 日出〜日没のみ
 
@@ -202,9 +221,11 @@ Heading (bold, ONE line, ~20 characters or fewer):
 職員に実地調査を代行させ可
 Illustration: An isometric registry-office scene where a registry
 official figure hands a clipboard with written instructions to a junior
-staff figure labeled "登記所の職員", who then walks off toward a land
+staff figure labeled「登記所の職員」, who then walks off toward a land
 plot with the magnifying glass instead of the official, with an arrow
-labeled "指示" showing the delegation clearly.
+labeled「指示」showing the delegation clearly.
+Words allowed inside this illustration (verbatim, nothing else):
+「登記所の職員」「指示」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 職員に代行可
 
@@ -214,9 +235,11 @@ Heading (bold, ONE line, ~20 characters or fewer):
 関係者に文書提示を求め可
 Illustration: An isometric scene of a registry official extending a hand
 toward a property owner figure, requesting a document; the owner figure
-holds out a folder/document icon labeled "文書"; a small separate warning
-icon showing a crossed-out fake document with a "罰金" tag nearby
+holds out a folder/document icon labeled「文書」; a small separate warning
+icon showing a crossed-out fake document with a「罰金」tag nearby
 represents the penalty for false documents.
+Words allowed inside this illustration (verbatim, nothing else): 「文書」
+「罰金」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 文書提示を要求可
 
@@ -231,7 +254,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -287,6 +310,15 @@ below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently throughout, including inside Japanese asides.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -312,7 +344,7 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 所有者に関する事項も調査対象に含む
 Diagram: An isometric building-registration document icon lying open,
-showing several labeled fields inside it ("構造", "床面積", "所有者") side
+showing several labeled fields inside it (「構造」, 「床面積」, 「所有者」) side
 by side; a large magnifying glass held by a registry official figure
 hovers over the entire document, covering all the fields equally, with no
 field left outside the magnifying glass's coverage.
@@ -328,13 +360,13 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 却下すべきときは本人確認調査を省略
-Diagram: A decision flowchart. Start node: 申請人以外の者が申請している
-と疑う相当な理由があるか？. A いいえ arrow leads to its own conclusion
-node reading そもそも本人確認調査は不要. A はい arrow leads to a second
-diamond node: その申請には、いずれにせよ却下すべき事由があるか？. From
+Diagram: A decision flowchart. Start node:「申請人以外の者が申請している
+と疑う相当な理由があるか？」. A いいえ arrow leads to its own conclusion
+node reading「そもそも本人確認調査は不要」. A はい arrow leads to a second
+diamond node:「その申請には、いずれにせよ却下すべき事由があるか？」. From
 this second diamond, a はい arrow leads to a conclusion node reading
-却下するため本人確認調査は不要, and a separate いいえ arrow leads to its
-own conclusion node reading 本人確認調査を行う. No arrow loops back to an
+「却下するため本人確認調査は不要」, and a separate いいえ arrow leads to its
+own conclusion node reading「本人確認調査を行う」. No arrow loops back to an
 earlier node anywhere in the diagram.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず申請人以外の者が申請していると疑う理由があるかを確認し、次にその
@@ -365,15 +397,15 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 具体的指示があれば職員に代行可
-Diagram: A decision flowchart. Start node: 登記官が実地調査を行わせる
-必要があると認めているか？. A いいえ arrow leads to its own conclusion
-node reading 登記官自身が実地調査を行う. A はい arrow leads to a second
-diamond node: 職員に細部の具体的な指示を与えているか？. From this second
+Diagram: A decision flowchart. Start node:「登記官が実地調査を行わせる
+必要があると認めているか？」. A いいえ arrow leads to its own conclusion
+node reading「登記官自身が実地調査を行う」. A はい arrow leads to a second
+diamond node:「職員に細部の具体的な指示を与えているか？」. From this second
 diamond, a はい arrow leads to a conclusion node showing a registry
-official handing a clipboard labeled 指示 to a junior staff figure
-labeled 登記所の職員 who walks toward a land plot, reading 職員が代行
-できる, and a separate いいえ arrow leads to its own conclusion node
-reading 指示なしに代行させることはできない. No arrow loops back to an
+official handing a clipboard labeled「指示」to a junior staff figure
+labeled「登記所の職員」who walks toward a land plot, reading「職員が代行
+できる」, and a separate いいえ arrow leads to its own conclusion node
+reading「指示なしに代行させることはできない」. No arrow loops back to an
 earlier node anywhere in the diagram.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず登記官が実地調査を職員に行わせる必要があると認めているかを確認し、
@@ -390,8 +422,8 @@ Heading (bold, ONE line):
 関係者に文書提示を求められる
 Diagram: An isometric registry official figure extending a hand toward a
 property owner figure, requesting a document; the owner figure holds out
-a folder icon labeled 文書. In a small corner of the panel, a separate
-warning icon shows a crossed-out fake document with a 罰金 tag beside it,
+a folder icon labeled「文書」. In a small corner of the panel, a separate
+warning icon shows a crossed-out fake document with a「罰金」tag beside it,
 kept visually secondary to the main handover scene.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず登記官が実地調査において、所有者その他の関係者に文書の提示を求めら
@@ -420,7 +452,11 @@ genuinely single check has been forced into an unnecessary flowchart, that
 each 着眼点 callout states a checking order rather than only a
 conclusion, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
-grid of all 肢, and no additional text block of any kind), and confirm the
+grid of all 肢, and no additional text block of any kind), confirm that no diagram contains any text other than
+the words quoted in「」on that panel's Diagram line (or that panel's
+heading, 着眼点 callout and conclusion tag) — no inscriptions on stones
+or signs, no pseudo-writing — and that each such word is clearly
+legible, and confirm the
 entire canvas, edge to edge, is filled with a fully opaque background with
 no transparency or alpha channel anywhere.
 ```

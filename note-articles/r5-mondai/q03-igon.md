@@ -137,8 +137,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 証・続・託・執・相 — these must be rendered in their standard Japanese
-forms, never as Simplified Chinese variants.
+kanji 証・続・託・執・相・遺 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -155,7 +168,7 @@ Title (large, bold, 1行):
 遺言はどこまで自由か？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第3問－方式・証人・執行・撤回のルール
+方式・証人・執行・撤回のルール（令和5年度 午後の部 第3問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -170,7 +183,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric close-up of a hand writing on paper with a
 carbon-copy sheet layered underneath, showing the duplicated text
 appearing on both sheets simultaneously; a green checkmark badge labeled
-"自書として有効" hovers above the papers.
+「自書として有効」hovers above the papers.
+Words allowed inside this illustration (verbatim, nothing else):
+「自書として有効」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 自書として有効
 
@@ -179,10 +194,12 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 推定相続人は証人になれない
 Illustration: An isometric notary desk with a testator figure and two
-witness chairs; one witness chair has a figure labeled "推定相続人" with
+witness chairs; one witness chair has a figure labeled「推定相続人」with
 a red prohibition (no-entry) icon over them, being turned away; a
 neutral outside figure sits in the other witness chair with a green
 checkmark above.
+Words allowed inside this illustration (verbatim, nothing else):
+「推定相続人」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 証人になれない
 
@@ -195,6 +212,8 @@ reaching to sign the same single scroll/document, with a large red
 prohibition (no-entry) icon overlaid on the shared scroll; beside it, two
 separate scrolls each being signed individually by one figure, marked
 with a green checkmark to show the correct way.
+Words allowed inside this illustration (verbatim, nothing else): none
+(no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 共同遺言は禁止
 
@@ -206,10 +225,12 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 執行者指定は第三者に委託可
 Illustration: An isometric scene of a testator figure writing a will,
-with an arrow labeled "指定を委託" pointing from the testator toward a
-third-party figure labeled "第三者" (e.g. a lawyer icon with a
+with an arrow labeled「指定を委託」pointing from the testator toward a
+third-party figure labeled「第三者」(e.g. a lawyer icon with a
 briefcase), who then holds a separate name-tag icon showing they will
 choose the executor.
+Words allowed inside this illustration (verbatim, nothing else):
+「指定を委託」「第三者」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 委託できる
 
@@ -218,11 +239,13 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 抵触する後の遺言で前が撤回
 Illustration: An isometric timeline with two scroll icons: an earlier
-scroll labeled "前の遺言" showing a clause icon "甲土地→長男", and a later
-scroll labeled "後の遺言" showing a conflicting clause icon "甲土地→次男";
+scroll labeled「前の遺言」showing a clause icon「甲土地→長男」, and a later
+scroll labeled「後の遺言」showing a conflicting clause icon「甲土地→次男」;
 an arrow from the later scroll strikes through the conflicting clause on
-the earlier scroll with a "撤回" stamp, while the non-conflicting parts
+the earlier scroll with a「撤回」stamp, while the non-conflicting parts
 of the earlier scroll remain untouched.
+Words allowed inside this illustration (verbatim, nothing else):
+「前の遺言」「甲土地→長男」「後の遺言」「甲土地→次男」「撤回」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 抵触部分は撤回
 
@@ -237,7 +260,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -286,6 +309,15 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -406,6 +438,10 @@ the header and the panels, that each 着眼点 callout states a checking
 order rather than only a conclusion, confirm nothing is rendered below
 the last panel's footnote text (no summary recap panel, no trophy or
 medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
-of any kind), and confirm the entire canvas, edge to edge, is filled with
+of any kind), confirm that no diagram contains any text other than the
+words quoted in「」on that panel's Diagram line (or that panel's heading,
+着眼点 callout and conclusion tag) — no inscriptions on stones or signs,
+no pseudo-writing — and that each such word is clearly legible, and
+confirm the entire canvas, edge to edge, is filled with
 a fully opaque background with no transparency or alpha channel anywhere.
 ```

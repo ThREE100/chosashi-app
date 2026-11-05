@@ -141,6 +141,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・電・発 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -156,7 +169,7 @@ Title (large, bold, 1行):
 その土地、地目はどれ？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第8問－幼稚園・高圧線下・排水路・牧草地・墓地の地目認定
+幼稚園・高圧線下・排水路・牧草地・墓地の地目認定（令和5年度 午後の部 第8問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -169,9 +182,10 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 幼稚園の敷地は学校用地
 Illustration: An isometric kindergarten building with a small playground,
-sitting on a land plot bearing a wooden label reading "学校用地", drawn
+sitting on a land plot bearing a wooden label reading 「学校用地」, drawn
 in a style visually matching a neighboring elementary school building to
 show they share the same地目.
+Words allowed inside this illustration (verbatim, nothing else): 「学校用地」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 学校用地になる
 
@@ -181,8 +195,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 高圧線下でも宅地は宅地のまま
 Illustration: An isometric house with high-voltage power lines and
 pylons passing overhead, the land plot beneath the house bearing a
-wooden label reading "宅地", with a crossed-out (prohibition) tag
-reading "雑種地" floating above to show that outcome is rejected.
+wooden label reading 「宅地」, with a crossed-out (prohibition) tag
+reading 「雑種地」 floating above to show that outcome is rejected.
+Words allowed inside this illustration (verbatim, nothing else): 「宅地」「雑種地」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 宅地のまま変わらず
 
@@ -195,8 +210,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 発電専用の排水路は雑種地
 Illustration: An isometric water channel flowing from a hydroelectric
 dam facility, the channel's land strip bearing a wooden label reading
-"雑種地", drawn beside a separate nearby irrigation channel labeled
-"用悪水路" to show the contrast in用途.
+「雑種地」, drawn beside a separate nearby irrigation channel labeled
+「用悪水路」 to show the contrast in用途.
+Words allowed inside this illustration (verbatim, nothing else): 「雑種地」「用悪水路」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 雑種地になる
 
@@ -206,9 +222,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 牧草栽培地は牧場と一体
 Illustration: An isometric pasture landscape with grazing livestock and
 a fenced patch of growing grass (牧草栽培地) within the same fenced
-boundary, the whole area sharing one single wooden label reading "牧場",
-with a crossed-out tag reading "畑" floating over the grass patch to show
+boundary, the whole area sharing one single wooden label reading 「牧場」,
+with a crossed-out tag reading 「畑」 floating over the grass patch to show
 it is not treated separately.
+Words allowed inside this illustration (verbatim, nothing else): 「牧場」「畑」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 畑ではなく牧場
 
@@ -217,9 +234,10 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 規模を問わず地目は墓地
 Illustration: An isometric large landscaped cemetery with rows of
-gravestones, the land plot bearing a wooden label reading "墓地", with a
-crossed-out tag reading "霊園" floating above to show that name is not
+gravestones, the land plot bearing a wooden label reading 「墓地」, with a
+crossed-out tag reading 「霊園」 floating above to show that name is not
 used as a formal地目, regardless of the large scale of the grounds.
+Words allowed inside this illustration (verbatim, nothing else): 「墓地」「霊園」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 地目は墓地
 
@@ -234,7 +252,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -291,6 +309,15 @@ below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently throughout, including inside Japanese asides.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -317,9 +344,9 @@ Heading (bold, ONE line):
 幼稚園も学校教育法上の学校に含まれる
 Diagram: An isometric kindergarten building with a small playground,
 drawn beside a neighboring elementary school building in a matching
-visual style, both sitting inside one large rounded frame labeled 学校
-教育法上の学校(幼稚園・小学校・中学校・高等学校・大学等). Both
-buildings' land plots bear the same wooden label reading 学校用地.
+visual style, both sitting inside one large rounded frame labeled 「学校
+教育法上の学校(幼稚園・小学校・中学校・高等学校・大学等)」. Both
+buildings' land plots bear the same wooden label reading 「学校用地」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずその施設が学校教育法上の「学校」にあたるかを確認します。幼稚園も
 学校教育法上の学校の一つである以上、その園舎の敷地の地目は学校用地に
@@ -332,13 +359,13 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 建物の敷地として使われていれば宅地
-Diagram: A decision flowchart. Start node: 高圧線の下にある土地が、建物
-の敷地として利用されているか？. A はい arrow leads to its own conclusion
+Diagram: A decision flowchart. Start node: 「高圧線の下にある土地が、建物
+の敷地として利用されているか？」. A はい arrow leads to its own conclusion
 node showing an isometric house with high-voltage power lines and pylons
 passing overhead, the land plot beneath the house bearing a wooden label
-reading 宅地. A separate いいえ arrow (他の目的に使用することができない
-区域) leads to its own conclusion node showing an empty land strip under
-the same pylons bearing a wooden label reading 雑種地. No arrow loops back
+reading 「宅地」. A separate いいえ arrow (「他の目的に使用することができない
+区域」) leads to its own conclusion node showing an empty land strip under
+the same pylons bearing a wooden label reading 「雑種地」. No arrow loops back
 to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず高圧線の下にある土地が、建物の敷地として利用されているかを確認しま
@@ -352,12 +379,12 @@ characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 発電専用の水路は用悪水路でなく雑種地
-Diagram: A left/right comparison panel. Left side, labeled かんがい・排
-水のための水路(highlighted in full color with a wooden label reading
-用悪水路): an isometric irrigation channel carrying water to a rice
-paddy. Right side, labeled 水力発電のためにのみ使用される水路
-(highlighted in its own full color with a wooden label reading 雑種
-地): an isometric water channel flowing from a hydroelectric dam
+Diagram: A left/right comparison panel. Left side, labeled 「かんがい・排
+水のための水路」(highlighted in full color with a wooden label reading
+「用悪水路」): an isometric irrigation channel carrying water to a rice
+paddy. Right side, labeled 「水力発電のためにのみ使用される水路」
+(highlighted in its own full color with a wooden label reading 「雑種
+地」): an isometric water channel flowing from a hydroelectric dam
 facility, drawn with no irrigation destination.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずその水路が何のために使われているかを確認します。かんがい用・排水
@@ -371,13 +398,13 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 牧場内の牧草栽培地は畑でなく牧場
-Diagram: A left/right comparison panel. Left side, labeled 正しい地目
+Diagram: A left/right comparison panel. Left side, labeled 「正しい地目」
 (highlighted in full color with a checkmark): an isometric pasture
 landscape with grazing livestock and a fenced patch of growing grass
 (牧草栽培地) inside the same fenced boundary, the whole area sharing one
-wooden label reading 牧場. Right side, labeled うっかり思い込みやすい地
-目(rendered faded/greyed-out with a red ✕ overlay): the same grass patch
-shown isolated with its own separate wooden label reading 畑.
+wooden label reading 「牧場」. Right side, labeled 「うっかり思い込みやすい地
+目」(rendered faded/greyed-out with a red ✕ overlay): the same grass patch
+shown isolated with its own separate wooden label reading 「畑」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずその牧草栽培地が牧場地域内にあるかを確認します。牧場のために使用
 する牧草栽培地は、農作物を育てる畑ではなく、牧場全体と一体の牧場として
@@ -390,12 +417,12 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 規模を問わず埋葬する土地は墓地
-Diagram: A left/right comparison panel. Left side, labeled 正しい地目
+Diagram: A left/right comparison panel. Left side, labeled 「正しい地目」
 (highlighted in full color with a checkmark): an isometric large
 landscaped cemetery with rows of gravestones, the land plot bearing a
-wooden label reading 墓地. Right side, labeled うっかり思い込みやすい地
-目(rendered faded/greyed-out with a red ✕ overlay): the same cemetery
-grounds with a wooden label reading 霊園.
+wooden label reading 「墓地」. Right side, labeled 「うっかり思い込みやすい地
+目」(rendered faded/greyed-out with a red ✕ overlay): the same cemetery
+grounds with a wooden label reading 「霊園」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずその土地が人の遺体又は遺骨を埋葬するための土地かを確認します。規模
 が大きいかどうかにかかわらず、遺体・遺骨を埋葬する土地の地目は墓地であ
@@ -422,7 +449,10 @@ and いいえ) each leading to its own separate conclusion node with no
 looping arrows, that Panels 3, 4 and 5 are each drawn as left/right
 comparison panels with the faded/×'d side clearly distinguished from the
 highlighted correct side, that each 着眼点 callout states a checking
-order rather than only a conclusion, confirm nothing is rendered below
+order rather than only a conclusion, confirm that no diagram contains
+any text other than the words quoted in 「」 on that panel's Diagram
+line (no inscriptions on stones or signs, no pseudo-writing) and that
+each such word is clearly legible, confirm nothing is rendered below
 the last panel's footnote text (no summary recap panel, no trophy or
 medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
 block of any kind), and confirm the entire canvas, edge to edge, is

@@ -155,8 +155,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 地・筆・登・記・錯・誤 — these must be rendered in their standard
+kanji 地・筆・登・記・錯・誤・図 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -186,10 +199,12 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 測量は基本三角点等が基礎
 Illustration: An isometric surveyor using a total station aimed at an
-official triangulation point marker (三角点) and electronic reference
-point. Beside it, a small crossed-out icon of a roadside stone Jizo
-statue and a concrete stake labeled "恒久的な地物", with a red X mark
+official triangulation point marker labeled「三角点」and electronic
+reference point. Beside it, a small crossed-out icon of a roadside stone
+Jizo statue and a concrete stake labeled「恒久的な地物」, with a red X mark
 over them.
+Words allowed inside this illustration (verbatim, nothing else):
+「三角点」「恒久的な地物」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 地物基準はNG
 
@@ -198,9 +213,11 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 閉鎖図面も保存期間は永久
 Illustration: An isometric registry archive shelf holding a new detailed
-map labeled "地図" next to an older map document stamped with a red
-"閉鎖" stamp, both stored inside a vault/safe icon with a small
-"永久保存" pill-shaped badge above them.
+map labeled「地図」next to an older map document stamped with a red
+「閉鎖」stamp, both stored inside a vault/safe icon with a small
+「永久保存」pill-shaped badge above them.
+Words allowed inside this illustration (verbatim, nothing else):
+「地図」「閉鎖」「永久保存」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 保存期間は永久
 
@@ -211,11 +228,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 隣接区画でも申出は1筆ごと
-Illustration: Two adjacent isometric land plots labeled "甲土地" and
-"乙土地", each with its own separate document icon labeled
-"地図訂正申出情報", connected by two separate arrows to the same registry
+Illustration: Two adjacent isometric land plots labeled「甲土地」and
+「乙土地」, each with its own separate document icon labeled
+「地図訂正申出情報」, connected by two separate arrows to the same registry
 desk, emphasizing two separate submissions rather than one combined
 document.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地」「乙土地」「地図訂正申出情報」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 申出は1筆ごとに
 
@@ -223,11 +242,13 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 閉鎖図面で確認できれば足りる
-Illustration: An isometric hand pointing at a closed ("閉鎖") old map
+Illustration: An isometric hand pointing at a closed (labeled「閉鎖」) old map
 document that clearly shows a discrepancy, with a document icon labeled
-"図面を特定する情報" highlighted, and a separate icon of a newly surveyed
-"地積測量図" crossed out with a red X mark to show it is not required in
+「図面を特定する情報」highlighted, and a separate icon of a newly surveyed
+「地積測量図」crossed out with a red X mark to show it is not required in
 this case.
+Words allowed inside this illustration (verbatim, nothing else):
+「閉鎖」「図面を特定する情報」「地積測量図」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 特定情報で足りる
 
@@ -236,9 +257,11 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 分筆線の誤りは更正登記で直す
 Illustration: An isometric land plot with an incorrect dividing line
-labeled "誤った分筆線", with a red X mark over a document icon labeled
-"地図訂正の申出", and an arrow pointing instead to a highlighted correct
-path document icon labeled "分筆錯誤による更正の登記".
+labeled「誤った分筆線」, with a red X mark over a document icon labeled
+「地図訂正の申出」, and an arrow pointing instead to a highlighted correct
+path document icon labeled「分筆錯誤による更正の登記」.
+Words allowed inside this illustration (verbatim, nothing else):
+「誤った分筆線」「地図訂正の申出」「分筆錯誤による更正の登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 更正登記で直す
 
@@ -253,7 +276,9 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance — confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -294,8 +319,17 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-基・点・恒・久・的・地・物・筆・界・同・誤 — always draw the standard
-Japanese (Jōyō) form.
+基・点・恒・久・的・地・物・筆・界・同・誤・測・量・規・則・図・記・録 —
+always draw the standard Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the illustrations and
+diagrams, render ONLY the words that are written in this prompt (the
+labels and quoted article text given below), each one large, clear and
+exactly as written. Do not add any other text, inscriptions, signs,
+numbers or pseudo-writing; leave other surfaces blank or use an icon or
+mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -327,6 +361,8 @@ region unrolled behind them labeled「地図（地域全体の公的な基礎デ
 Beside the surveyor, a small crossed-out icon of a roadside stone Jizo
 statue and a concrete stake labeled「恒久的な地物」, with a large red ✕
 mark over them.
+Words allowed inside this illustration (verbatim, nothing else):
+「基本三角点」「地図（地域全体の公的な基礎データ）」「恒久的な地物」
 
 Quoted article text (rendered exactly, in a bordered box):
 「地図を作成するための測量は…基本三角点等…を基礎として行うものとす
@@ -344,6 +380,8 @@ An isometric land surveyor kneeling at a single small land plot boundary
 point（筆界点）, with a small measuring tape stretching from the boundary
 point to a nearby permanent concrete stake and a building wall, both
 labeled「近傍の恒久的な地物」, with a green checkmark stamp.
+Words allowed inside this illustration (verbatim, nothing else):
+「筆界点」「近傍の恒久的な地物」
 
 Quoted article text (rendered exactly, in a bordered box):
 「近傍に基本三角点等が存しない場合…近傍の恒久的な地物に基づく測量の
@@ -374,7 +412,10 @@ Japanese form. Also scan the entire canvas for any character that is not standar
 の測量 on the left, green 地積測量図の測量 on the right), confirm both
 quoted text boxes match the Japanese text given above verbatim character-
 for-character, and confirm the callout box text matches verbatim with no
-paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+paraphrasing and no substituted characters, confirm that no illustration
+contains any text other than its "Words allowed" words (no inscriptions
+on stones or signs, no pseudo-writing) and that each allowed word is
+clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -439,6 +480,15 @@ below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently - never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -569,7 +619,7 @@ Small footnote text(bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese(Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 筆・界・登・記・錯・誤・恒・久・地・図. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+attention to 筆・界・登・記・錯・誤・恒・久・地・図・測・準. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
@@ -581,7 +631,10 @@ second condition has been flattened into a single check, that each 着眼
 keeps every required element from the source article distinct(no merged
 or dropped requirements), that any panel sharing a decision or comparison
 structure with another panel clearly distinguishes its own highlighted
-branch from the other, faded branches, confirm nothing is rendered below
+branch from the other, faded branches, confirm that no diagram or
+illustration contains any text other than the words written in 「」 in
+that panel's Diagram line, and that each such word is clearly legible,
+confirm nothing is rendered below
 the last panel's footnote text(no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
 any kind), and confirm the entire canvas, edge to edge, is filled with a

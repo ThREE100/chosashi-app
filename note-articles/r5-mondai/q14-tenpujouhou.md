@@ -165,8 +165,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・番・号・建・物・登・記・所・誤 — these must be rendered in
+kanji 権・地・番・号・建・物・登・記・所・証・誤 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -184,7 +197,7 @@ Title (large, bold, 2行):
 補助者の解答、どこが誤り？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第14問－正当な権原・印鑑証明・支配人・住所証明
+正当な権原・印鑑証明・支配人・住所証明（令和5年度 午後の部 第14問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -197,10 +210,11 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地の権原証明は必須ではない
 Illustration: An isometric building standing on a land plot, with a
-document icon labeled "所有権を証する情報" stamped with a confident
+document icon labeled「所有権を証する情報」stamped with a confident
 checkmark, and beside it a separate dashed-outline document icon labeled
-"敷地利用の正当な権原を証する情報" with a red X mark and a small
-"必須ではない" badge attached.
+「敷地利用の正当な権原を証する情報」with a red X mark and a small
+「必須ではない」badge attached.
+Words allowed inside this illustration (verbatim, nothing else): 「所有権を証する情報」「敷地利用の正当な権原を証する情報」「必須ではない」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 所有権証明で足りる
 
@@ -208,10 +222,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 印鑑証明に3か月制限なし
-Illustration: An isometric 工事完了引渡証明書 document with a company
-印鑑(はんこ) stamp and an attached 印鑑証明書, beside a calendar icon
-showing an old date with a checkmark, and a "3か月" ruler icon crossed
+Illustration: An isometric「工事完了引渡証明書」document with a company
+印鑑(はんこ) stamp and an attached「印鑑証明書」, beside a calendar icon
+showing an old date with a checkmark, and a「3か月」ruler icon crossed
 out to show the rule does not apply here.
+Words allowed inside this illustration (verbatim, nothing else): 「工事完了引渡証明書」「印鑑証明書」「3か月」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 期間制限なし
 
@@ -219,10 +234,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 会社法人等番号で支配人証明不要
-Illustration: An isometric company building labeled "Ａ株式会社支店" with
-a person figure labeled 支配人 beside it, a glowing number badge labeled
-"会社法人等番号" with a checkmark, and a separate document icon labeled
-"支配人の権限を証する情報" crossed out to show it is not needed.
+Illustration: An isometric company building labeled「Ａ株式会社支店」with
+a person figure labeled「支配人」beside it, a glowing number badge labeled
+「会社法人等番号」with a checkmark, and a separate document icon labeled
+「支配人の権限を証する情報」crossed out to show it is not needed.
+Words allowed inside this illustration (verbatim, nothing else): 「Ａ株式会社支店」「支配人」「会社法人等番号」「支配人の権限を証する情報」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 番号確認で足りる
 
@@ -233,10 +249,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 住所証明にも3か月制限なし
-Illustration: An isometric 住民票(住所を証する情報) document icon with
-an old calendar date and a checkmark, beside a "3か月" ruler icon
+Illustration: An isometric「住民票(住所を証する情報)」document icon with
+an old calendar date and a checkmark, beside a「3か月」ruler icon
 crossed out, drawn in the same visual style as the印鑑証明書 card to
 show the parallel rule.
+Words allowed inside this illustration (verbatim, nothing else): 「住民票(住所を証する情報)」「3か月」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 期間制限なし
 
@@ -244,11 +261,12 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 合体時は住所証明を省略できない
-Illustration: Two building icons labeled 合体前の甲建物・合体前の乙建物
-merging into one building labeled 合体後の建物, with two person figures
-(登記名義人) each holding a 住所を証する情報 document, and a crossed-out
-speech bubble reading "登記記録から明らか" to show that this reasoning
+Illustration: Two building icons labeled「合体前の甲建物」・「合体前の乙建物」
+merging into one building labeled「合体後の建物」, with two person figures
+labeled「登記名義人」each holding a「住所を証する情報」document, and a crossed-out
+speech bubble reading「登記記録から明らか」to show that this reasoning
 is rejected.
+Words allowed inside this illustration (verbatim, nothing else): 「合体前の甲建物」「合体前の乙建物」「合体後の建物」「登記名義人」「住所を証する情報」「登記記録から明らか」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 省略は認められない
 
@@ -263,7 +281,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 ---
 
@@ -326,6 +344,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -463,6 +490,9 @@ the correct rule, that each 着眼点 callout states a checking order rather
 than only a conclusion, confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
-kind), and confirm the entire canvas, edge to edge, is filled with a
+kind), confirm that no diagram contains any text other than the words
+quoted in 「」 on that panel's Diagram line (no inscriptions on stones or
+signs, no pseudo-writing) and that each quoted word is clearly legible,
+and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```

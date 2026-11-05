@@ -156,6 +156,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・所・証 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -171,7 +184,7 @@ Title (large, bold, 1行):
 土地が生まれたとき、誰が登記する？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第7問－表題登記の申請人・登記原因・添付情報
+表題登記の申請人・登記原因・添付情報（令和5年度 午後の部 第7問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -185,8 +198,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 竣功認可書は所有権証明に使える
 Illustration: An isometric reclaimed land plot (公有水面埋立) rising out
 of blue water with small construction cranes nearby, an official
-certificate icon labeled "竣功認可書" being placed into an open folder
-labeled "所有権を証する情報".
+certificate icon labeled 「竣功認可書」 being placed into an open folder
+labeled 「所有権を証する情報」.
+Words allowed inside this illustration (verbatim, nothing else): 「竣功認可書」「所有権を証する情報」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 竣功認可書で足りる
 
@@ -195,9 +209,10 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 登記原因日付は土地が生じた日
 Illustration: An isometric calendar icon with one date circled and
-labeled "土地が生じた日", beside a crossed-out (prohibition) tag over a
-document labeled "国有財産売払" to show that this is not used as the
+labeled 「土地が生じた日」, beside a crossed-out (prohibition) tag over a
+document labeled 「国有財産売払」 to show that this is not used as the
 登記原因.
+Words allowed inside this illustration (verbatim, nothing else): 「土地が生じた日」「国有財産売払」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 売払の日ではない
 
@@ -208,10 +223,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 売却後の申請人は新所有者
-Illustration: An isometric scene of person "A" handing a land plot key
-to person "B" (a house-key handover gesture), a document icon labeled
-"表題登記の申請" moving from A's hand to B's hand, with a crossed-out
+Illustration: An isometric scene of person A handing a land plot key
+to person B (a house-key handover gesture), a document icon labeled
+「表題登記の申請」 moving from A's hand to B's hand, with a crossed-out
 icon over A holding the document to show A can no longer file it.
+Words allowed inside this illustration (verbatim, nothing else): 「表題登記の申請」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 新所有者Bが申請
 
@@ -220,9 +236,10 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 施行者は所有者に代位申請できる
 Illustration: An isometric construction-project character (施行者)
-holding a document labeled "表題登記" standing beside a dotted-outline
-silhouette representing an absent landowner, with an arrow labeled "代位"
+holding a document labeled 「表題登記」 standing beside a dotted-outline
+silhouette representing an absent landowner, with an arrow labeled 「代位」
 connecting the施行者 directly to the land plot's ledger book.
+Words allowed inside this illustration (verbatim, nothing else): 「表題登記」「代位」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 代位で申請できる
 
@@ -231,9 +248,10 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 嘱託なら所有権証明は省略可
 Illustration: An isometric government building icon (地方公共団体)
-sending a document labeled "嘱託" directly to a登記所 building icon,
-with a crossed-out folder labeled "所有権を証する情報" beside the
+sending a document labeled 「嘱託」 directly to a登記所 building icon,
+with a crossed-out folder labeled 「所有権を証する情報」 beside the
 document to show it is omitted.
+Words allowed inside this illustration (verbatim, nothing else): 「嘱託」「所有権を証する情報」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 所有権証明は不要
 
@@ -248,7 +266,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -304,6 +322,15 @@ below verbatim - do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently throughout, including inside Japanese asides.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -330,8 +357,8 @@ Heading (bold, ONE line):
 竣功認可書は所有権証明に使える
 Diagram: An isometric reclaimed land plot (公有水面埋立) rising out of
 blue water with small construction cranes nearby. An official certificate
-icon labeled 竣功認可書 is being placed into an open folder labeled 所有
-権を証する情報.
+icon labeled 「竣功認可書」 is being placed into an open folder labeled 「所有
+権を証する情報」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずその土地がどのように生じたか(公有水面の埋立て)を確認します。埋立
 工事が竣工したことを公的に認めた竣功認可書は、所有権を証する情報として
@@ -344,12 +371,12 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 登記原因日付は土地が生じた日
-Diagram: A left/right comparison panel. Left side, labeled 実際の登記原
-因(highlighted in full color with a checkmark): a calendar icon with a
-circled date labeled 土地が生じた日(多くは不詳). Right side, labeled う
-っかり思い込みやすい登記原因(rendered faded/greyed-out with a red ✕
-overlay): a document icon labeled 国有財産売払 with a calendar date
-labeled 売払を受けた日.
+Diagram: A left/right comparison panel. Left side, labeled 「実際の登記原
+因」(highlighted in full color with a checkmark): a calendar icon with a
+circled date labeled 「土地が生じた日」(多くは不詳). Right side, labeled 「う
+っかり思い込みやすい登記原因」(rendered faded/greyed-out with a red ✕
+overlay): a document icon labeled 「国有財産売払」 with a calendar date
+labeled 「売払を受けた日」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず登記原因の日付として書くべきなのが「土地が生じた日」なのか「売払を
 受けた日」なのかを確認します。国から売払いを受けた場合でも、登記原因を
@@ -362,14 +389,14 @@ characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 登記前に売却したら申請人は新所有者
-Diagram: A decision flowchart. Start node: 表題登記を申請する前に、原始
-取得者Aがその土地をBに売却したか？. A いいえ arrow leads to its own
-conclusion node showing 原始取得者A holding a document labeled 表題登記
-の申請, reading Aが申請人のまま. A はい arrow leads to its own separate
+Diagram: A decision flowchart. Start node: 「表題登記を申請する前に、原始
+取得者Aがその土地をBに売却したか？」. A いいえ arrow leads to its own
+conclusion node showing 原始取得者A holding a document labeled 「表題登記
+の申請」, reading 「Aが申請人のまま」. A はい arrow leads to its own separate
 conclusion node showing an isometric scene of person A handing a land-plot
 key to person B (a house-key handover gesture), with a crossed-out icon
-over A holding the 表題登記の申請 document, reading 新所有者Bが申請人に
-なる. No arrow loops back to an earlier node.
+over A holding the 「表題登記の申請」 document, reading 「新所有者Bが申請人に
+なる」. No arrow loops back to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず表題登記を申請する前に土地が売却されているかを確認します。売却さ
 れていれば、申請するのは現に所有権を有する新所有者であり、すでに所有
@@ -383,8 +410,8 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 施行者は所有者に代位して申請できる
 Diagram: An isometric construction-project character (施行者) holding a
-document labeled 表題登記 standing beside a dotted-outline silhouette
-representing an absent landowner, with an arrow labeled 代位 connecting
+document labeled 「表題登記」 standing beside a dotted-outline silhouette
+representing an absent landowner, with an arrow labeled 「代位」 connecting
 the施行者 directly to the land plot's ledger book.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず土地区画整理事業の施行のために必要があるかを確認します。必要があ
@@ -399,8 +426,8 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 嘱託なら所有権証明は省略できる
 Diagram: An isometric government building icon (地方公共団体) sending a
-document labeled 嘱託 directly to a登記所 building icon, with a
-crossed-out folder labeled 所有権を証する情報 beside the document to show
+document labeled 「嘱託」 directly to a登記所 building icon, with a
+crossed-out folder labeled 「所有権を証する情報」 beside the document to show
 it is omitted.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずその表題登記が地方公共団体自身による嘱託であることを確認します。
@@ -427,7 +454,10 @@ the highlighted correct side, that Panel 3 is drawn as an actual
 flowchart whose diamond node has exactly two distinct exit arrows (はい
 and いいえ) each leading to its own separate conclusion node with no
 looping arrows, that each 着眼点 callout states a checking order rather
-than only a conclusion, confirm nothing is rendered below the last
+than only a conclusion, confirm that no diagram contains any text other
+than the words quoted in 「」 on that panel's Diagram line (no
+inscriptions on stones or signs, no pseudo-writing) and that each such
+word is clearly legible, confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
 kind), and confirm the entire canvas, edge to edge, is filled with a

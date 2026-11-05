@@ -157,6 +157,20 @@ orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the Japanese words and labels already written out in
+that card's Illustration description above, each one large, clear and
+exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra
+signs, labels, captions, numbers or pseudo-writing. If a prop needs no
+specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, column
+headers, card headings and conclusion tags are the only other text on the
+poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -168,7 +182,7 @@ transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
 Pay special attention to the following kanji, which are frequently
-rendered incorrectly as Simplified Chinese variants: 号, 録, 権, 地, 番,
+rendered incorrectly as Simplified Chinese variants: 録, 権, 地, 番,
 建, 物, 登, 記, 所. Every occurrence of these characters in the text
 below must be drawn in its correct standard Japanese (Jōyō) form — never
 the Simplified Chinese equivalent.
@@ -265,7 +279,7 @@ no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration or diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -341,6 +355,16 @@ full-width （ and close it with a half-width ), or vice versa. Pay special
 attention to the kanji 号, 録, 権, 地, 番, 建, 物, 登, 記, 所, 続, 敷,
 which have visibly different Simplified Chinese forms — always draw the
 standard Japanese (Jōyō) form.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the Japanese words already written in each
+panel's Diagram description above (plus that panel's heading, 着眼点
+callout and conclusion tag), each one large, clear and exactly as
+written. Do not add any other text, inscriptions, signs, numbers or
+pseudo-writing inside a diagram; leave other surfaces blank or use an
+icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -435,14 +459,20 @@ Conclusion tag (blue, 5-15 Japanese characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 使うべき登記識別情報が甲と乙のどちらかを見分ける
-Diagram: Draw a left-to-right timeline arrow with 3 time points. (1)甲建物
-のアイコンに「所有権の保存登記」のラベルと、その上に鍵アイコン「登記
-識別情報A（甲建物）」。(2)甲建物にくっついた小さな箱「新築した附属建物
-（表題部の変更登記）」。(3)その附属建物が分かれて乙建物へ向かう矢印
-「分割・合併の登記」の先に、ひし形の分岐ノード「提供する登記識別情報は
-どちらか」を置き、2つの結論ノードへ分岐させる：ノードA「登記識別情報A
-（甲建物の保存登記時）」に赤い✕と「提供できない」というラベル、ノードB「登記識別情報B（乙建物の所有権の登記名義人のもの）」に緑のチェックマークと「これを提供して
-申請できる」というラベル。両方の結論ノードを必ず描き、どちらのノードも
+Diagram: IMPORTANT: 「登記識別情報A」and「登記識別情報B」are two DIFFERENT
+pieces of information, not the same label repeated — the only difference
+is the trailing letter (A vs B); render each trailing letter extra-large
+and in a distinct color (A in orange, B in purple) so the two labels are
+clearly not identical at a glance. Draw a left-to-right timeline arrow
+with 3 time points. (1)甲建物のアイコンに「所有権の保存登記」のラベルと、
+その上に鍵アイコン「登記識別情報A（甲建物）」(letter A in orange)。(2)甲建物
+にくっついた小さな箱「新築した附属建物（表題部の変更登記）」。(3)その附属
+建物が分かれて乙建物へ向かう矢印「分割・合併の登記」の先に、ひし形の分岐
+ノード「提供する登記識別情報はどちらか」を置き、2つの結論ノードへ分岐さ
+せる：ノードA「登記識別情報A（甲建物の保存登記時）」(letter A in orange)
+に赤い✕と「提供できない」というラベル、ノードB「登記識別情報B（乙建物の
+所有権の登記名義人のもの）」(letter B in purple)に緑のチェックマークと
+「これを提供して申請できる」というラベル。両方の結論ノードを必ず描き、どちらのノードも
 図の途中に戻すループ矢印を使わない。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、甲建物の保存登記の際に通知された登記識別情報Aと、附属建物を分割・
@@ -493,10 +523,13 @@ that each 着眼点 callout states a checking order rather than only a
 conclusion and keeps every required element from the source article
 distinct (no merged or dropped requirements), that any panel sharing a
 decision tree with another panel clearly distinguishes its own
-highlighted branch from the other, faded branches, confirm nothing is
+highlighted branch from the other, faded branches, confirm that in Panel
+4 the two labels「登記識別情報A」and「登記識別情報B」are rendered as two
+distinct strings (not the same string repeated) — if both nodes show the
+same trailing letter, this is an error and must be corrected, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel, no
 trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional
-text block of any kind), and confirm the entire canvas, edge to edge, is
+text block of any kind), and Confirm that no illustration or diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```

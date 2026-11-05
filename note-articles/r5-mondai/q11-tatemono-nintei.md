@@ -139,6 +139,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -155,7 +168,7 @@ Title (large, bold, 2行):
 屋根と壁だけでは決まらない
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第11問－外気分断性・定着性・用途性の3要件で判断する
+外気分断性・定着性・用途性の3要件で判断する（令和5年度 午後の部 第11問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -170,7 +183,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric shopping street covered by an overhead arcade
 roof, flanked by rows of small shop icons on both sides. A red X mark
 sits over the arcade roof section, and a small torn-paper label reads
-"通行のための空間" beneath it.
+「通行のための空間」beneath it.
+Words allowed inside this illustration (verbatim, nothing else): 「通行のための空間」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 建物には当たらない
 
@@ -184,7 +198,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric traditional temple gate with an enclosed
 upper room surrounded by solid walls, storage boxes visible inside the
 upper room through a small window, a green checkmark badge above the
-gate, and a small embedded label reading "外気分断＋用途性".
+gate, and a small embedded label reading「外気分断＋用途性」.
+Words allowed inside this illustration (verbatim, nothing else): 「外気分断＋用途性」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 用途性ありで登記可
 
@@ -195,7 +210,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric structure with an exposed steel-frame
 skeleton covered by a taut tent-like PVC membrane roof and walls, a
 checkmark badge above it, and a small embedded label reading
-"永続性のある構造".
+「永続性のある構造」.
+Words allowed inside this illustration (verbatim, nothing else): 「永続性のある構造」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 永続性があれば登記可
 
@@ -206,7 +222,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric tall reinforced-concrete staircase tower
 supporting a single small enclosed room with a roof and walls at the
 very top, a checkmark badge, and a small embedded label reading
-"高床式平家建".
+「高床式平家建」.
+Words allowed inside this illustration (verbatim, nothing else): 「高床式平家建」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 高床式平家建で登記
 
@@ -217,6 +234,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric tall tower-shaped car park with a roof and
 exterior walls, a cutaway showing a rotating parking mechanism carrying
 a small car icon inside, and a checkmark badge above it.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 3要件満たせば登記可
 
@@ -231,7 +249,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -292,6 +310,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -443,6 +470,9 @@ earlier node, that each 着眼点 callout states a checking order rather
 than only a conclusion, confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
-kind), and confirm the entire canvas, edge to edge, is filled with a
+kind), confirm that no diagram contains any text other than the words
+quoted in 「」 on that panel's Diagram line (no inscriptions on stones or
+signs, no pseudo-writing) and that each quoted word is clearly legible,
+and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```
