@@ -169,6 +169,19 @@ kanji 錯・誤・過・失・迫・欺・裡・留・保・登・記・妨・�
 similar but structurally different Simplified Chinese counterparts —
 always draw the standard Japanese (Jōyō) form.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line,
+each one large, clear and exactly as written. Do not invent or add any other
+text inside an illustration: no inscriptions on boundary stones or markers,
+no extra signs, labels, captions, numbers or pseudo-writing. If a prop needs
+no specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, column
+headers, card headings and conclusion tags are the only other text on the
+poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -265,7 +278,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -322,6 +335,15 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -459,9 +481,7 @@ and highlighted branch differing, that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered
 below the last panel's footnote text (no summary recap panel, no trophy
 or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
-block of any kind), and confirm the entire canvas, edge to edge, is
-filled with a fully opaque background with no transparency or alpha
-channel anywhere.
+block of any kind). Confirm that no diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -503,6 +523,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 錯・誤・重・過・失・落 — always draw the standard
 Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the illustrations and
+diagrams, render ONLY the words that are written in this prompt (the labels,
+flowchart conditions and callout text given below), each one large, clear
+and exactly as written. Do not add any other text, inscriptions, signs,
+numbers or pseudo-writing; leave other surfaces blank or use an icon or mark
+instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -581,7 +610,7 @@ final outcome boxes on the main (はい／はい) path, confirm the grayed-out
 「いいえ」branch from NODE 1 is visually de-emphasized, confirm the
 green highlighted end box is clearly marked as matching 本肢, and confirm
 every heading, node label, and callout sentence matches the Japanese text
-given above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+given above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node). Confirm that no illustration contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -624,6 +653,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
 心・裡・留・保・詐・欺・善・悪・過・失・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the illustrations and
+diagrams, render ONLY the words that are written in this prompt (the labels,
+flowchart conditions and callout text given below), each one large, clear
+and exactly as written. Do not add any other text, inscriptions, signs,
+numbers or pseudo-writing; leave other surfaces blank or use an icon or mark
+instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -706,5 +744,5 @@ Japanese form. Also scan the entire canvas for any character that is not standar
 心裡留保 on the left, blue 詐欺 on the right), confirm both quoted article
 text boxes match the Japanese text given above verbatim character-for-
 character, and confirm the callout box text matches verbatim with no
-paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

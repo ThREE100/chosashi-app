@@ -143,6 +143,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・登・記・筆・界・積・請・裁・決・謄 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line,
+each one large, clear and exactly as written. Do not invent or add any other
+text inside an illustration: no inscriptions on boundary stones or markers,
+no extra signs, labels, captions, numbers or pseudo-writing. If a prop needs
+no specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, column
+headers, card headings and conclusion tags are the only other text on the
+poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -230,7 +243,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -283,6 +296,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -398,7 +420,5 @@ intro illustration or paragraph block between the header and the panels,
 that each 着眼点 callout states a checking order rather than only a
 conclusion, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
-grid of all 肢, and no additional text block of any kind), and confirm
-the entire canvas, edge to edge, is filled with a fully opaque
-background with no transparency or alpha channel anywhere.
+grid of all 肢, and no additional text block of any kind). Confirm that no diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

@@ -153,6 +153,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 録・税・課・範・囲・免・地・建・物・登・記・所・錯・誤・抹・個・区・筆・嘱・託 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line,
+each one large, clear and exactly as written. Do not invent or add any other
+text inside an illustration: no inscriptions on boundary stones or markers,
+no extra signs, labels, captions, numbers or pseudo-writing. If a prop needs
+no specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, column
+headers, card headings and conclusion tags are the only other text on the
+poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -247,7 +260,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -285,6 +298,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 建・物・分・割・合・併・
 登・記・個・数・附・属・登録・免・許・税・誤 — always draw the standard
 Japanese (Jōyō) form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the illustrations and
+diagrams, render ONLY the words that are written in this prompt (the labels,
+flowchart conditions and callout text given below), each one large, clear
+and exactly as written. Do not add any other text, inscriptions, signs,
+numbers or pseudo-writing; leave other surfaces blank or use an icon or mark
+instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -338,7 +360,7 @@ Panel takeaway (short line below the illustration):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm every
 heading, node label, and callout text matches the Japanese text given
-above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+above verbatim, with no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -394,6 +416,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -486,14 +517,21 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 数えるのは登記の種類でなく個数
-Diagram: A 正誤対比型(left/right contrast frame, NOT a flowchart)。LEFT
-box（faded, red border）labeled「誤った数え方（3個）」: 甲建物・切り離
-された附属建物・乙建物の3つの建物アイコンが並び、それぞれに「1,000円」
-のタグ、合計「3,000円」のsum bubble。RIGHT box（highlighted with a thick
-blue border; blue here marks the correct side, matching this panel's badge）labeled「正しい数え方（2個）」: 甲建物・乙建物の
-2つの建物アイコンのみ、それぞれ「1,000円」のタグ、合計「2,000円」の
-sum bubble。切り離された附属建物は乙建物にそのまま吸収される矢印で
-示す（独立した価格タグを付けない）。
+Diagram: A 正誤対比型(left/right contrast frame, NOT a flowchart)。
+IMPORTANT: the LEFT box's count「3個」and total「3,000円」and the RIGHT
+box's count「2個」and total「2,000円」are NOT the same number — render
+them clearly distinct, each digit large and in a different accent color
+(LEFT numbers in red, RIGHT numbers in blue), with no shared or
+interchangeable digit between the two boxes. LEFT box（faded, red
+border）labeled「誤った数え方（3個）」: 甲建物・切り離された附属建物・
+乙建物の3つの建物アイコンが並び、それぞれに「1,000円」のタグ、合計
+「3,000円」のsum bubble（the digit 3 rendered large in red in both the
+count and the total）。RIGHT box（highlighted with a thick blue border;
+blue here marks the correct side, matching this panel's badge）labeled
+「正しい数え方（2個）」: 甲建物・乙建物の2つの建物アイコンのみ、それぞれ
+「1,000円」のタグ、合計「2,000円」のsum bubble（the digit 2 rendered
+large in blue in both the count and the total）。切り離された附属建物は
+乙建物にそのまま吸収される矢印で示す（独立した価格タグを付けない）。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、数えるべきなのは「登記の種類の数」ではなく「分割後・合併後に残る
 不動産の個数」であることを確認します。切り離された附属建物は、合併の
@@ -518,10 +556,8 @@ paragraph block between the header and the panels, that Panel 2 is drawn
 as a flowchart with exactly one diamond node whose two branches
 lead to distinct conclusion nodes, that Panel 5 is drawn as a
 left/right contrast frame rather than a flowchart, that each 着眼点
-callout states a checking order rather than only a conclusion, confirm that the dashed gray-teal 課税範囲外 stamp appears only on panels 1 and 3 and the solid green 非課税 stamp only on panel 2, confirm
+callout states a checking order rather than only a conclusion, confirm that the dashed gray-teal 課税範囲外 stamp appears only on panels 1 and 3 and the solid green 非課税 stamp only on panel 2, confirm that Panel 5's LEFT count/total（3個／3,000円）and RIGHT count/total（2個／2,000円）are rendered as two genuinely different numbers in two different accent colors — if both boxes show the same digit, this is an error and must be corrected, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢,
-and no additional text block of any kind), and confirm the entire
-canvas, edge to edge, is filled with a fully opaque background with no
-transparency or alpha channel anywhere.
+and no additional text block of any kind). Confirm that no diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
