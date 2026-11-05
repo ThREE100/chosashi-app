@@ -159,6 +159,19 @@ kanji 建・物・登・記・保・存・錯・誤・抹・消・閉・鎖・�
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -190,6 +203,7 @@ Illustration: 表題部所有者Aのキャラクターの横に「所有権の�
 スタンプがあり、赤い✕（錯誤抹消）が重なる。登記記録のフォルダに「閉鎖」
 の大きなスタンプが押され、隣で新しい所有者Bのキャラクターが「表題登記」
 の新しい申請書を差し出す矢印。
+Words allowed inside this illustration (verbatim, nothing else): 「所有権の保存の登記」「閉鎖」「表題登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 改めて表題登記からやり直し
 
@@ -201,6 +215,7 @@ Illustration: 相続人のキャラクターが持つ「所有権の保存の登
 赤い✕（錯誤抹消）が重なるが、表題部所有者Aのキャラクターが登記記録
 フォルダの中で復活する矢印。フォルダの「閉鎖」スタンプには赤い✕（閉鎖
 されない）。
+Words allowed inside this illustration (verbatim, nothing else): 「所有権の保存の登記」「閉鎖」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 表題部所有者の記録を復活
 
@@ -215,6 +230,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 建設中の建物アイコンに「不動産工事の先取特権の保存の登記
 （設計書による）」のラベル。建物が完成したアイコンへ矢印が伸び、その先に
 「表題登記」の申請書フォルダと緑の✓マーク。
+Words allowed inside this illustration (verbatim, nothing else): 「表題登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 完成後は表題登記が必要
 
@@ -226,6 +242,7 @@ Illustration: 所有権登記済みの母屋アイコンに、先取特権の保
 が付いた小さな離れ（附属建物）アイコンがくっつく。時計アイコンに「遅滞
 なく」のラベル、その先に「建物の表題部の変更登記」の申請書フォルダと
 緑の✓マーク。
+Words allowed inside this illustration (verbatim, nothing else): 「建物の表題部の変更登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 遅滞なく変更登記を申請
 
@@ -236,6 +253,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 乙建物にくっついた丙建物（附属建物）アイコンに、丙を切り
 離す「分割の登記」の矢印と番号①。次に甲建物と丙建物が合体する矢印と
 番号②、その先に「合体の登記」の申請書フォルダ。
+Words allowed inside this illustration (verbatim, nothing else): 「分割の登記」「合体の登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 分割してから合体登記へ
 
@@ -258,7 +276,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -321,6 +339,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -463,7 +490,7 @@ states a checking order rather than only a conclusion and keeps every
 required element from the source article distinct (no merged or dropped
 requirements), that panels 1 and 2 sharing the same decision tree clearly
 distinguish their own highlighted branch from the other, faded branch,
-confirm nothing is rendered below the last panel's footnote text (no
+confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's footnote text (no
 summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
 all 肢, and no additional text block of any kind), and confirm the entire
 canvas, edge to edge, is filled with a fully opaque background with no

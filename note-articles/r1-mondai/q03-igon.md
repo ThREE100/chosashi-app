@@ -137,6 +137,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 遺・証・押 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -167,8 +180,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 15歳なら単独で有効な遺言可
 Illustration: An isometric scene of a young human figure in a school
 uniform writing a document alone at a desk, with a crossed-out speech
-bubble from a parent figure in the background reading "同意が必要", and
-a small age tag icon reading "満15歳".
+bubble from a parent figure in the background reading 「同意が必要」, and
+a small age tag icon reading 「満15歳」.
+Words allowed inside this illustration (verbatim, nothing else): 「同意が必要」「満15歳」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 法定代理人の同意不要
 
@@ -179,6 +193,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric close-up of a hand pressing a fingertip
 covered in red ink(朱肉)onto a will document, with a crossed-out
 seal/stamp(印鑑)icon beside it to show a formal seal is not required.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 指印でも有効
 
@@ -189,6 +204,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric scene at a notary office with a human figure
 communicating by sign language or writing on paper toward a notary
 figure seated at a desk, with two witness figures standing beside them.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 通訳・自書で対応
 
@@ -199,9 +215,10 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 「吉日」の日付は無効
-Illustration: An isometric calendar page showing "令和元年5月吉日" with
+Illustration: An isometric calendar page showing 「令和元年5月吉日」 with
 a large red question mark over the date, and the whole will document
-stamped with a red "無効" seal.
+stamped with a red 「無効」 seal.
+Words allowed inside this illustration (verbatim, nothing else): 「令和元年5月吉日」「無効」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 日付不特定で無効
 
@@ -210,9 +227,10 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 一枚の紙の共同遺言は問題あり
 Illustration: An isometric single sheet of paper split down the middle
-showing two different handwriting styles: one side labeled "A" with a
-seal stamp, the other side labeled "B" without any stamp, and a red
-prohibition icon over the whole sheet labeled "共同遺言禁止".
+showing two different handwriting styles: one side labeled 「A」 with a
+seal stamp, the other side labeled 「B」 without any stamp, and a red
+prohibition icon over the whole sheet labeled 「共同遺言禁止」.
+Words allowed inside this illustration (verbatim, nothing else): 「A」「B」「共同遺言禁止」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 単独遺言にならない
 
@@ -227,7 +245,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -273,6 +291,15 @@ background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -299,8 +326,8 @@ Heading (bold, ONE line):
 15歳なら単独で有効な遺言ができる
 Diagram: An isometric scene of a young human figure in a school uniform
 writing a document alone at a desk, with a crossed-out speech bubble from
-a parent figure in the background reading "同意が必要", and a small age
-tag icon reading "満15歳" pinned to the desk.
+a parent figure in the background reading 「同意が必要」, and a small age
+tag icon reading 「満15歳」 pinned to the desk.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、遺言をしようとする人の年齢が満15歳に達しているかを確認します。達し
 ていれば、行為能力の有無にかかわらず、法定代理人の同意を得ずに単独で有効
@@ -313,9 +340,9 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 「吉日」の日付は特定できず無効
-Diagram: An isometric calendar page showing "令和元年5月吉日" with a
+Diagram: An isometric calendar page showing 「令和元年5月吉日」 with a
 large red question mark over the date, and the whole will document
-stamped with a red "無効" seal.
+stamped with a red 「無効」 seal.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、自筆証書遺言に書かれた日付が、暦上の特定の日を指しているかを確認し
 ます。「吉日」のように特定の日を指し示さない記載は、日付の記載を欠くもの
@@ -363,9 +390,9 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 一枚の紙の共同遺言は単独遺言にならない
 Diagram: An isometric single sheet of paper split down the middle showing
-two different handwriting styles: one side labeled "A" with a seal stamp,
-the other side labeled "B" without any stamp, and a red prohibition icon
-over the whole sheet labeled "共同遺言禁止".
+two different handwriting styles: one side labeled 「A」 with a seal stamp,
+the other side labeled 「B」 without any stamp, and a red prohibition icon
+over the whole sheet labeled 「共同遺言禁止」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、同一の証書に2人以上の遺言が記載されているかを確認します。共同遺言
 にあたる場合は、一方に署名押印がなくても、その紙面がＡ単独の有効な遺言と
@@ -389,7 +416,7 @@ continuously, there is no intro illustration or paragraph block between
 the header and the panels, that the multi-condition 肢(エ) is drawn as
 an actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure), that each 着眼点 callout states a checking
-order rather than only a conclusion, confirm nothing is rendered below
+order rather than only a conclusion, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below
 the last panel's footnote text (no summary recap panel, no trophy or
 medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block
 of any kind), and confirm the entire canvas, edge to edge, is filled with

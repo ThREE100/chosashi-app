@@ -143,6 +143,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・権・登・記・録 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -172,10 +185,11 @@ Heading (bold, ONE line, ~20 characters or fewer):
 分筆後もみなし規約敷地のまま
 Illustration: An isometric land plot that is the site of a mansion,
 split by a dotted line into two sections (分筆); the section without the
-building has a tag reading "みなし規約敷地" attached, while a single
-encircling outline representing "敷地権" still wraps around both
+building has a tag reading 「みなし規約敷地」 attached, while a single
+encircling outline representing 「敷地権」 still wraps around both
 sections; a prohibition (no-entry) icon is overlaid on the words
-"変更登記".
+「変更登記」.
+Words allowed inside this illustration (verbatim, nothing else): 「みなし規約敷地」「敷地権」「変更登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 変更登記は不要
 
@@ -185,7 +199,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 地上権満了は「敷地権消滅」
 Illustration: An isometric ground-lease stake icon (地上権を表す杭)
 toppling over or fading out, next to a registration document where a
-stamp presses in the words "◯年◯月◯日敷地権消滅".
+stamp presses in the words 「◯年◯月◯日敷地権消滅」.
+Words allowed inside this illustration (verbatim, nothing else): 「◯年◯月◯日敷地権消滅」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 敷地権消滅と記録
 
@@ -194,9 +209,10 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 1戸だけ分離可、残りに敷地権
 Illustration: An isometric row of three apartment unit icons; one unit
-has a tag reading "分離処分可能規約" and its connecting line down to the
+has a tag reading 「分離処分可能規約」 and its connecting line down to the
 shared land plot (敷地) is cut, while the other two units keep a solid
 connecting line down to the land plot representing 敷地権.
+Words allowed inside this illustration (verbatim, nothing else): 「分離処分可能規約」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 残り2戸に敷地権
 
@@ -211,6 +227,7 @@ Illustration: An isometric apartment building with several unit icons;
 one person figure submits a single application document, while dotted
 arrows radiate out to the other unit icons whose registration records
 change automatically at the same time.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 共同申請は不要
 
@@ -220,9 +237,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 滅失と変更、併せなくてよい
 Illustration: An isometric building made of two attached unit icons
 (甲・乙); the 乙 unit crumbles and disappears (滅失) on one side, while
-the remaining 甲 unit is relabeled "区分建物でない建物" on the other side,
+the remaining 甲 unit is relabeled 「区分建物でない建物」 on the other side,
 with two separate document icons for each registration instead of one
 combined document.
+Words allowed inside this illustration (verbatim, nothing else): 「区分建物でない建物」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 一括申請は不要
 
@@ -237,7 +255,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -307,6 +325,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -426,7 +453,11 @@ the connecting line from unit① down to the shared land plot(敷地)below
 is drawn cut or dashed. For units②and③(no規約): the「いいえ」arrow from
 each leads to a conclusion node reading「敷地権に関する事項を申請情報に
 含める」, with a solid connecting line from each unit down to the shared
-land plot representing敷地権.
+land plot representing敷地権. IMPORTANT: 「敷地権に関する事項を申請情報
+に含めない」 and 「敷地権に関する事項を申請情報に含める」 are NOT the
+same string — they differ only in the final two characters (ない／る);
+render each exactly as given and do not let one node's text influence
+or duplicate onto the other.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず三個の区分建物のそれぞれについて、分離処分可能規約が設定されているか
 どうかを確認します。規約がある一個は敷地権に関する事項を申請情報に含めず、
@@ -452,7 +483,10 @@ units②and③'s branches(solid), that no 肢 with a genuinely hidden second
 condition has been flattened into a single check, that each 着眼点
 callout states a checking order rather than only a conclusion and keeps
 every required element from the source article distinct(no merged or
-dropped requirements), confirm nothing is rendered below the last
+dropped requirements), confirm that panel 5's two conclusion nodes 「敷
+地権に関する事項を申請情報に含めない」 and 「敷地権に関する事項を申請
+情報に含める」 are rendered as two distinct strings and have not
+collapsed into the same text, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
 kind), and confirm the entire canvas, edge to edge, is filled with a

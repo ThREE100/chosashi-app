@@ -144,6 +144,19 @@ kanji 地・建・物・登・記・所・筆・合・変・更・題・滅・�
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -175,6 +188,7 @@ Illustration: 一つの土地アイコン（甲土地）の前に表題部所有
 が立ち、右手に「氏名変更」のラベル付き書類、左手に「合筆」のラベル付き書類
 を持っている。二つの書類が矢印で一つの申請書フォルダにまとまり、フォルダに
 緑の✓マークが付く。
+Words allowed inside this illustration (verbatim, nothing else): 「氏名変更」「合筆」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 同一申請で一括可能
 
@@ -185,6 +199,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 一つの土地アイコンの上に「地目変更」のスタンプと「地積更正」
 のスタンプが重なって表示され、矢印で一つの申請書フォルダへまとまっていく。
 フォルダに緑の✓マーク。
+Words allowed inside this illustration (verbatim, nothing else): 「地目変更」「地積更正」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 表題部の変更更正は一括可
 
@@ -200,6 +215,7 @@ Illustration: 左に取り壊される甲建物アイコン（崩れるイメー
 右に新築された乙建物アイコン（＋マーク）。それぞれ別々の申請書フォルダに
 入っており、二つのフォルダを結ぶ線に赤い✕マークと「別々に申請」の小さな
 ラベル。
+Words allowed inside this illustration (verbatim, nothing else): 「別々に申請」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 対象建物が別なら不可
 
@@ -210,6 +226,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 隣接する甲土地・乙土地の二つのアイコンが、どちらも「雑種地
 →宅地」に変わる矢印を持ち、同じカレンダーアイコン（同一日付）を共有して
 いる。二つの申請が一つの申請書フォルダにまとまり、緑の✓マーク。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 目的原因日付が同一
 
@@ -220,6 +237,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 甲土地（表題部所有者Aのラベル）と乙土地（登記名義人Aの
 ラベル）が、それぞれ点線で二つに分かれる様子を描き、Aのキャラクターが
 一つの申請書フォルダにまとめて提出する。フォルダに緑の✓マーク。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 目的が同一なら可
 
@@ -242,7 +260,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -303,6 +321,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -449,7 +476,7 @@ present, that each panel's own path (and only that path) is highlighted
 in full color while every other branch is faded and greyed-out rather
 than omitted, that no panel renders a looping arrow back into an earlier
 node, that each 着眼点 callout states a checking order rather than only a
-conclusion, confirm nothing is rendered below the last panel's footnote
+conclusion, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
 grid of all 肢, and no additional text block of any kind), and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background

@@ -143,6 +143,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・登・記・所・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -171,9 +184,10 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続登記なしでも訂正申出できる
 Illustration: An isometric figure of a child (相続人) standing next to an
-inherited house-and-land icon labeled "相続" with no registration stamp on
-it, holding a petition document labeled "訂正の申出", with a small green
+inherited house-and-land icon labeled 「相続」 with no registration stamp on
+it, holding a petition document labeled 「訂正の申出」, with a small green
 checkmark icon showing the申出 is possible.
+Words allowed inside this illustration (verbatim, nothing else): 「相続」「訂正の申出」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 相続登記は不要
 
@@ -183,8 +197,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 他の土地に及ぶ訂正は却下
 Illustration: An isometric icon of two adjacent land plots on a map; one
 plot is being corrected with a pencil, but a dotted correction line
-crosses into the neighboring plot, with a red "却下" stamp overlaid on
+crosses into the neighboring plot, with a red 「却下」 stamp overlaid on
 the whole scene.
+Words allowed inside this illustration (verbatim, nothing else): 「却下」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 却下される
 
@@ -193,9 +208,10 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 地番の「交換」は合意してもムリ
 Illustration: An isometric icon of two neighboring land plots with number
-tags "地番A" and "地番B", two person figures reaching out to swap the
+tags 「地番A」 and 「地番B」, two person figures reaching out to swap the
 number tags between the plots, with a red prohibition (no-entry) icon
 overlaid on the swap.
+Words allowed inside this illustration (verbatim, nothing else): 「地番A」「地番B」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 地番は変更不可
 
@@ -207,12 +223,13 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 却下と取下げで還付の範囲が違う
 Illustration: Two side-by-side isometric scenes. Left scene labeled
-"却下": a document stamped "申出書" remains in an office in-tray at the
+「却下」: a document stamped 「申出書」 remains in an office in-tray at the
 registry office (not returned), next to a separate bundle of documents
-labeled "添付書面" with an arrow carrying it back into the hands of the
-applicant figure. Right scene labeled "取り下げ": both the "申出書"
-document and the "添付書面" bundle are carried by arrows back into the
+labeled 「添付書面」 with an arrow carrying it back into the hands of the
+applicant figure. Right scene labeled 「取り下げ」: both the 「申出書」
+document and the 「添付書面」 bundle are carried by arrows back into the
 hands of the applicant figure.
+Words allowed inside this illustration (verbatim, nothing else): 「却下」「申出書」「添付書面」「取り下げ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 取下げなら申出書も還付
 
@@ -220,10 +237,11 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 登記所の測量図で添付省略可
-Illustration: An isometric filing cabinet icon labeled "地積測量図
-(登記所保管)" with an arrow extending to a single small tag labeled
-"特定情報" held by an applicant figure, while other certificate document
+Illustration: An isometric filing cabinet icon labeled 「地積測量図
+(登記所保管)」 with an arrow extending to a single small tag labeled
+「特定情報」 held by an applicant figure, while other certificate document
 icons nearby have a prohibition (no-entry) icon over them.
+Words allowed inside this illustration (verbatim, nothing else): 「地積測量図(登記所保管)」「特定情報」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 添付情報を省略
 
@@ -238,7 +256,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -306,6 +324,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -452,7 +479,7 @@ node with no loop back to an earlier node, that no 肢 with a genuinely
 hidden second condition has been flattened into a single check, that
 each 着眼点 callout states a checking order rather than only a
 conclusion and keeps every required element from the source article
-distinct(no merged or dropped requirements), confirm nothing is
+distinct(no merged or dropped requirements), confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel,
 no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
 additional text block of any kind), and confirm the entire canvas, edge

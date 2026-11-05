@@ -141,6 +141,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 所 — it must be rendered in its standard Japanese form, never as a
 Simplified Chinese variant.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -170,8 +183,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 正当事由なきゃ依頼は断れない
 Illustration: An isometric icon of a client figure holding out a document
 to a土地家屋調査士 figure who receives it; beside them, a small tag reads
-"正当な事由" as a narrow exception gap, and a separate small box reads
-"筆界特定代理・ADR代理は除く".
+「正当な事由」 as a narrow exception gap, and a separate small box reads
+「筆界特定代理・ADR代理は除く」.
+Words allowed inside this illustration (verbatim, nothing else): 「正当な事由」「筆界特定代理・ADR代理は除く」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 依頼拒否は不可
 
@@ -183,6 +197,7 @@ Illustration: An isometric icon of a single office building with a green
 checkmark above it, next to a second office building icon with a red
 prohibition (no-entry) mark overlaid on it, showing that only one office
 is allowed.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 事務所は一つ
 
@@ -190,10 +205,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 会則遵守は「努力」でなく義務
-Illustration: An isometric icon of a rulebook labeled "会則" being stamped
-with the words "守らなければならない"; beside it, a light feather icon
+Illustration: An isometric icon of a rulebook labeled 「会則」 being stamped
+with the words 「守らなければならない」; beside it, a light feather icon
 (representing 努力義務) has a red prohibition (no-entry) mark overlaid on
 it, showing that this obligation is not a mere effort obligation.
+Words allowed inside this illustration (verbatim, nothing else): 「会則」「守らなければならない」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 会則は法的義務
 
@@ -201,10 +217,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 秘密保持、正当事由で例外あり
-Illustration: An isometric icon of a locked document labeled "秘密" held
-by a 土地家屋調査士 figure; a small keyhole gap labeled "正当な事由" shows
+Illustration: An isometric icon of a locked document labeled 「秘密」 held
+by a 土地家屋調査士 figure; a small keyhole gap labeled 「正当な事由」 shows
 a narrow opening through which a little information icon can pass,
 representing the permitted exception.
+Words allowed inside this illustration (verbatim, nothing else): 「秘密」「正当な事由」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 例外的に開示可
 
@@ -217,7 +234,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 研修受講は努力義務
 Illustration: An isometric icon of a 土地家屋調査士 figure walking toward
 a training-room icon (blackboard and screen), with a light feather icon
-labeled "努力義務" floating above the figure's head.
+labeled 「努力義務」 floating above the figure's head.
+Words allowed inside this illustration (verbatim, nothing else): 「努力義務」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 研修は努力義務
 
@@ -232,7 +250,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -291,6 +309,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -360,7 +387,11 @@ Diagram: A side-by-side comparison frame shared with Panel 5. LEFT box
 ＝守らなければならない」: a rulebook icon labeled 会則 stamped with
 「遵守」の判子、a chain-link icon around it showing binding force. RIGHT
 box（faded, greyed-out）labeled「努力義務＝努めなければならない」: a
-light feather icon, shown dimly.
+light feather icon, shown dimly. IMPORTANT: 「法的義務＝守らなければなら
+ない」 and 「努力義務＝努めなければならない」 are NOT the same string —
+they differ only in the two characters 守ら／努め; render each exactly
+as given and do not let one side's text influence or duplicate onto the
+other.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、条文の文言が「守らなければならない」なのか「努めなければならな
 い」なのかを確認します。会則の遵守は「守らなければならない」と規定さ
@@ -400,7 +431,11 @@ about this branch）labeled「努力義務＝努めなければならない」: 
 調査士 figure walking toward a training-room icon (blackboard and
 screen), with a light feather icon floating above the figure's head.
 LEFT box（faded, greyed-out）labeled「法的義務＝守らなければならない」:
-the 会則 rulebook icon from Panel 3, shown dimly.
+the 会則 rulebook icon from Panel 3, shown dimly. IMPORTANT: 「法的義務
+＝守らなければならない」 and 「努力義務＝努めなければならない」 are NOT
+the same string — they differ only in the two characters 守ら／努め;
+render each exactly as given and do not let one side's text influence
+or duplicate onto the other.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、条文の文言が「守らなければならない」なのか「努めなければならな
 い」なのかを確認します。研修の受講・資質向上は「努めなければならない」
@@ -427,7 +462,10 @@ same comparison-frame layout with only the highlighted box differing,
 that Panels 1 and 4 are drawn as actual flowcharts with branch nodes and
 both branches' conclusion nodes shown (no loop arrow back into any
 diamond), that each 着眼点 callout states a checking order rather than
-only a conclusion, confirm nothing is rendered below the last panel's
+only a conclusion, confirm that the two labels 「法的義務＝守らなければ
+ならない」 and 「努力義務＝努めなければならない」 shared by Panels 3 and
+5 are rendered as two distinct strings and have not collapsed into the
+same text, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any
 kind), and confirm the entire canvas, edge to edge, is filled with a

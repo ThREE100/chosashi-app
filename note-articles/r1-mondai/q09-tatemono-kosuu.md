@@ -144,6 +144,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・建・物・登・記・棟・附・属 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -175,6 +188,7 @@ Illustration: An isometric view of two closely built houses sharing a
 single external staircase leading to both second floors, a dotted line
 encircling both buildings together with a green checkmark stamp labeled
 「一個の建物」.
+Words allowed inside this illustration (verbatim, nothing else): 「一個の建物」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一個の建物
 
@@ -186,6 +200,7 @@ Illustration: An isometric view of three separate small houses on one
 plot, each with a different tenant figure standing in front holding a
 different-colored door key, three separate dotted outlines (not merged)
 around each house with a label 「別個の建物」.
+Words allowed inside this illustration (verbatim, nothing else): 「別個の建物」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 別個の建物
 
@@ -197,6 +212,7 @@ Illustration: An isometric main house (甲建物) with a red 「抵当権」 sea
 stamped on its wall, next to a small newly built shed (乙建物) beside it,
 connected by a checkmark arrow labeled 「主・附属」 showing the two are
 combined into one building despite the mortgage seal.
+Words allowed inside this illustration (verbatim, nothing else): 「抵当権」「主・附属」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 附属建物にできる
 
@@ -211,6 +227,7 @@ Illustration: An isometric apartment building cross-section showing a
 shared corridor connecting several unit doors, the corridor labeled
 「共用部分」 with a prohibition (no-entry) icon overlaid on an attempted
 registration stamp on just the corridor.
+Words allowed inside this illustration (verbatim, nothing else): 「共用部分」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 共用部分は不可
 
@@ -222,6 +239,7 @@ Illustration: An isometric small room icon (集会室) inside an apartment
 building, stamped 「共用部分である旨の登記」, still enclosed within its
 own dotted outline labeled 「一個の建物」 with a checkmark, showing it
 remains independently registered.
+Words allowed inside this illustration (verbatim, nothing else): 「共用部分である旨の登記」「一個の建物」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 一個の建物のまま
 
@@ -236,7 +254,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -295,6 +313,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -422,7 +449,7 @@ drawn as an actual flowchart with two diamond nodes and both a Yes-side
 and a No-side conclusion at each stage (not a bare illustration with no
 visible decision structure, and no looping arrow back into a diamond),
 that each 着眼点 callout states a checking order rather than only a
-conclusion, confirm nothing is rendered below the last panel's footnote
+conclusion, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
 grid of all 肢, and no additional text block of any kind), and confirm the
 entire canvas, edge to edge, is filled with a fully opaque background

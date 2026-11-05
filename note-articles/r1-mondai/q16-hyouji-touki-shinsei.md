@@ -153,6 +153,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・登・記・所・権・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -180,10 +193,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 地目変更放置、買主が1月以内申請
-Illustration: An isometric land plot icon labeled "雑種地" transforming
-into a plot with a small house icon labeled "宅地", with an arrow pointing
-to a new owner figure holding a document stamped "1月以内" and a small
+Illustration: An isometric land plot icon labeled 「雑種地」 transforming
+into a plot with a small house icon labeled 「宅地」, with an arrow pointing
+to a new owner figure holding a document stamped 「1月以内」 and a small
 calendar icon showing a one-month countdown.
+Words allowed inside this illustration (verbatim, nothing else): 「雑種地」「宅地」「1月以内」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 1月以内に申請
 
@@ -192,9 +206,10 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続を重ねても、義務は最後の人へ
 Illustration: An isometric family-tree icon: a grandfather figure next to
-a house icon labeled "表題登記未了", an arrow to a father figure, then an
-arrow to a grandchild figure holding a document stamped "申請義務", showing
+a house icon labeled 「表題登記未了」, an arrow to a father figure, then an
+arrow to a grandchild figure holding a document stamped 「申請義務」, showing
 the obligation passing down through generations.
+Words allowed inside this illustration (verbatim, nothing else): 「表題登記未了」「申請義務」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 義務は相続人へ承継
 
@@ -204,7 +219,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 分筆で地番変更、所在変更登記の義務
 Illustration: An isometric land plot being split by a dotted line into two
 plots (分筆), with a small house icon sitting on one plot, and an arrow
-from the house to a document stamped "所在変更 1月以内".
+from the house to a document stamped 「所在変更 1月以内」.
+Words allowed inside this illustration (verbatim, nothing else): 「所在変更 1月以内」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 所在変更、1月以内
 
@@ -216,11 +232,12 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 更正登記はBの承諾でAが単独申請
 Illustration: An isometric document icon with a name tag being corrected
-from "B" to "A"; a single person figure (真の所有者A) submits the
+from 「B」 to 「A」; a single person figure (真の所有者A) submits the
 application alone, while a second figure (B) hands over a small slip
-labeled "承諾書" to A, and a prohibition (no-entry) icon is overlaid on a
-pair of two figures labeled "共同申請" to show joint application is not
+labeled 「承諾書」 to A, and a prohibition (no-entry) icon is overlaid on a
+pair of two figures labeled 「共同申請」 to show joint application is not
 required.
+Words allowed inside this illustration (verbatim, nothing else): 「B」「A」「承諾書」「共同申請」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 承諾書でA単独申請
 
@@ -229,9 +246,10 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 行政区画変更は職権、申請不要
 Illustration: An isometric town/city icon with a name tag being swapped
-(行政区画変更), a stamp icon labeled "職権" placed over multiple building
+(行政区画変更), a stamp icon labeled 「職権」 placed over multiple building
 icons simultaneously, and a prohibition (no-entry) icon over a single
 figure holding a document, to show no individual application is required.
+Words allowed inside this illustration (verbatim, nothing else): 「職権」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 職権処理で完結
 
@@ -246,7 +264,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -317,6 +335,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -343,12 +370,12 @@ continuously through all panels).
 Heading (bold, ONE line):
 新所有者が登記から1月以内に申請
 Diagram: Draw a left-to-right timeline with three stages. Stage 1: an
-isometric land plot icon labeled "雑種地" with a small house being built
-on it, changing the plot's label to "宅地"(現況変化). Stage 2: an arrow
-to a document icon stamped "所有権の登記" held by a new owner figure, with
-a small flag marking this moment as "起算日"(the clock's starting point).
-Stage 3: a calendar icon counting down "1か月" leading to a final document
-icon labeled "地目変更登記 申請" being submitted by the same owner figure,
+isometric land plot icon labeled 「雑種地」 with a small house being built
+on it, changing the plot's label to 「宅地」(現況変化). Stage 2: an arrow
+to a document icon stamped 「所有権の登記」 held by a new owner figure, with
+a small flag marking this moment as 「起算日」(the clock's starting point).
+Stage 3: a calendar icon counting down 「1か月」 leading to a final document
+icon labeled 「地目変更登記 申請」 being submitted by the same owner figure,
 inside a rounded deadline frame.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず土地の現況が登記された地目と食い違っていないかを確認し、次にいつ所有権
@@ -364,10 +391,10 @@ continuously through all panels).
 Heading (bold, ONE line):
 更正登記はA単独、Bの承諾が条件
 Diagram: Draw a small decision tree. Start node: a registration document
-icon where the recorded 表題部所有者 name tag reads "B" while a caption
-notes the true owner is "A"(誤って記録). First diamond-shaped branch node
+icon where the recorded 表題部所有者 name tag reads 「B」 while a caption
+notes the true owner is 「A」(誤って記録). First diamond-shaped branch node
 labeled「更正登記を申請できるのは誰か」with an arrow pointing only to a
-figure labeled "真の所有者A"(the arrow toward a figure labeled "B" is
+figure labeled 「真の所有者A」(the arrow toward a figure labeled 「B」 is
 drawn faded, greyed-out, with a small ✕, since B cannot be the
 applicant). From figure A, draw a second diamond-shaped branch node
 labeled「Aが単独申請するにはBの承諾があるか」with two branch arrows: the
@@ -415,7 +442,7 @@ Diagram: Draw an isometric land plot being split by a dotted line into
 two plots(分筆), with a small house icon sitting on one of the new
 plots. The building's 所在 label shows the old地番 crossed out and
 replaced by a new地番. An arrow leads from the building to a calendar
-icon counting down "1か月" and a document icon labeled「所在 変更登記」
+icon counting down 「1か月」 and a document icon labeled「所在 変更登記」
 held by a figure labeled「所有権の登記名義人」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず分筆によって建物の所在地番が変わったことを確認し、次にその変更があった
@@ -437,7 +464,10 @@ building icon and a single figure submitting one document, labeled
 「申請義務あり」. RIGHT panel labeled「行政区画変更による所在変更(オ)」:
 a stamp icon labeled「職権」pressed simultaneously over many building
 icons at once, with a prohibition(no-entry)icon over a single figure
-holding a document, labeled「申請義務なし」.
+holding a document, labeled「申請義務なし」. IMPORTANT: 「申請義務あり」
+and 「申請義務なし」 are NOT the same string — they differ only in the
+last two characters (あり／なし); render each exactly as given and do not
+let one side's text influence or duplicate onto the other.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずその所在変更が分筆のような個々の変更か、行政区画の変更のように広範囲に
 及ぶ一斉の変更かを見分けます。広範囲に及ぶ一斉の変更であれば、登記官の職権
@@ -466,7 +496,9 @@ article distinct(no merged or dropped requirements), that panel 2's two
 branch outcomes(「はい」and「いいえ」)each lead to their own conclusion
 node with no loop back to an earlier node, that panel 3's lineage chain
 stacks A, B, and C vertically in generational order rather than side by
-side, confirm nothing is rendered below the last panel's footnote text
+side, confirm that panel 5's two labels 「申請義務あり」 and 「申請義務
+なし」 are rendered as two distinct strings and have not collapsed into
+the same text, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's footnote text
 (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid
 of all 肢, and no additional text block of any kind), and confirm the
 entire canvas, edge to edge, is filled with a fully opaque background

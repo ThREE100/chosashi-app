@@ -149,6 +149,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 号・権・地・番・登・記・所・証 — these must be rendered
 in their standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -180,6 +193,7 @@ Illustration: An isometric company building with a staff figure (支配人)
 holding a document. A glowing ID tag labeled 「会社法人等番号」 points
 via an arrow to a document labeled 「登記事項証明書」 with a large red X
 mark over it, showing the certificate becomes unnecessary.
+Words allowed inside this illustration (verbatim, nothing else): 「会社法人等番号」「登記事項証明書」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 権限証明書 省略可
 
@@ -191,6 +205,7 @@ Illustration: An isometric person holding a glowing card labeled
 「住民票コード」, an arrow pointing to a document labeled 「住民票の写
 し」 with a large red X mark over it, beside a land plot labeled
 「表題登記」.
+Words allowed inside this illustration (verbatim, nothing else): 「住民票コード」「表題登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 住所証明 不要
 
@@ -202,6 +217,7 @@ Illustration: An isometric government building (官公署) with an official
 stamp, sending a document labeled 「嘱託」 toward a land plot, with a
 document labeled 「所有権証明情報」 carrying a large red X mark beside
 it, showing it is omitted.
+Words allowed inside this illustration (verbatim, nothing else): 「嘱託」「所有権証明情報」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 所有権証明 省略可
 
@@ -216,6 +232,7 @@ Illustration: An isometric blank land plot with an empty number tag, next
 to a registrar figure (登記官) stamping a new number tag onto the plot.
 A crossed-out pencil icon sits over the empty tag on the applicant's
 side, showing the applicant does not fill it in.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 申請人は記載不要
 
@@ -226,6 +243,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric person scratching their head next to an empty
 document holder labeled 「登記識別情報」, with a note being written onto
 the申請情報 form reading 「失念（理由）」 and a checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「登記識別情報」「失念（理由）」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 理由を申請情報に記載
 
@@ -240,7 +258,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -295,6 +313,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -418,7 +445,7 @@ character renders as a Simplified or Traditional Chinese variant, redraw that ch
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that each 着眼点
-callout states a checking order rather than only a conclusion, confirm
+callout states a checking order rather than only a conclusion, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
 no additional text block of any kind), and confirm the entire canvas,

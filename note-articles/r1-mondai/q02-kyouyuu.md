@@ -135,6 +135,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 登・記 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -164,9 +177,10 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 不実登記は単独で抹消請求できる
 Illustration: An isometric land plot with a red official stamp reading
-"D単独所有(不実)" being crossed out by a large red X. A single human
-figure labeled "A" (without figures B or C nearby) points at the stamp
-with an arrow labeled "抹消請求(単独)".
+「D単独所有(不実)」 being crossed out by a large red X. A single human
+figure labeled 「A」 (without figures B or C nearby) points at the stamp
+with an arrow labeled 「抹消請求(単独)」.
+Words allowed inside this illustration (verbatim, nothing else): 「D単独所有(不実)」「A」「抹消請求(単独)」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 単独で抹消可
 
@@ -175,10 +189,11 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 不法占有者へ単独で明渡請求
 Illustration: An isometric land plot with a small intruding figure
-labeled "D" sitting inside a makeshift tent icon labeled "違法占拠". A
-single human figure labeled "A" points an arrow labeled "明渡し請求
-(単独)" toward D, while small grayed-out figures labeled "B" and "C"
+labeled 「D」 sitting inside a makeshift tent icon labeled 「違法占拠」. A
+single human figure labeled 「A」 points an arrow labeled 「明渡し請求
+(単独)」 toward D, while small grayed-out figures labeled 「B」 and 「C」
 stand inactive in the corner to emphasize consent is not needed.
+Words allowed inside this illustration (verbatim, nothing else): 「D」「違法占拠」「A」「明渡し請求(単独)」「B」「C」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 同意なしで請求可
 
@@ -186,10 +201,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 無断変更も単独で禁止・原状回復
-Illustration: An isometric land plot with a human figure labeled "A"
-digging into part of the land with a shovel icon, labeled "無断変更". A
-single human figure labeled "B" (not waiting for figure C) points an
-arrow labeled "禁止・原状回復請求(単独)" at A.
+Illustration: An isometric land plot with a human figure labeled 「A」
+digging into part of the land with a shovel icon, labeled 「無断変更」. A
+single human figure labeled 「B」 (not waiting for figure C) points an
+arrow labeled 「禁止・原状回復請求(単独)」 at A.
+Words allowed inside this illustration (verbatim, nothing else): 「A」「無断変更」「B」「禁止・原状回復請求(単独)」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 単独で請求可
 
@@ -201,10 +217,11 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 損害賠償は持分の割合分のみ
 Illustration: An isometric land plot with a cracked-ground damage icon
-and a human figure labeled "D(加害者)" standing over it. A human figure
-labeled "A" holds only a small pie-chart coin icon marked "3分の1", while
-two identical grayed-out pie-chart icons labeled "B" and "C" remain
+and a human figure labeled 「D(加害者)」 standing over it. A human figure
+labeled 「A」 holds only a small pie-chart coin icon marked 「3分の1」, while
+two identical grayed-out pie-chart icons labeled 「B」 and 「C」 remain
 untouched beside A.
+Words allowed inside this illustration (verbatim, nothing else): 「D(加害者)」「A」「3分の1」「B」「C」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 持分の範囲内のみ
 
@@ -213,11 +230,12 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 賃貸借解除は過半数の同意が必要
 Illustration: An isometric land plot with a document icon labeled
-"賃貸借契約" and a tenant figure labeled "D" beside a crossed-out tag
-reading "債務不履行". A human figure labeled "A" reaching for a
-"解除" stamp is blocked by a red prohibition icon, next to a balance-
+「賃貸借契約」 and a tenant figure labeled 「D」 beside a crossed-out tag
+reading 「債務不履行」. A human figure labeled 「A」 reaching for a
+「解除」 stamp is blocked by a red prohibition icon, next to a balance-
 scale icon showing more than half of three figures (A, B, C) needed to
 tip it.
+Words allowed inside this illustration (verbatim, nothing else): 「賃貸借契約」「D」「債務不履行」「A」「解除」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 過半数の同意が必要
 
@@ -232,7 +250,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -284,6 +302,15 @@ background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -314,10 +341,10 @@ paths labeled 保存行為（単独でできる）・管理行為（持分の過
 (a single green checkmark figure, a two-of-three-people majority icon, a
 three-people-together icon). The 保存行為 path is drawn with a thicker
 highlighted border and brighter color than the other two. Beside the
-signpost, show 甲土地 with a red official stamp reading "D単独所有(不実)"
+signpost, show 甲土地 with a red official stamp reading 「D単独所有(不実)」
 being crossed out by a large red X, and a single human figure labeled
-"A" (without figures B or C nearby) pointing at the stamp with an arrow
-labeled "抹消請求(単独)".
+「A」 (without figures B or C nearby) pointing at the stamp with an arrow
+labeled 「抹消請求(単独)」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Ａが行おうとしている行為が、共有物の保存行為・管理行為・変更行為の
 どれにあたるかを確認します。妨害を取り除いて元の状態に戻す行為は保存行為
@@ -332,10 +359,10 @@ Heading (bold, ONE line):
 不法占有者への明渡請求も保存行為
 Diagram: The same three-path signpost as Panel 1, with the 保存行為 path
 highlighted with a thicker border. Beside it, an isometric land plot with
-a small intruding figure labeled "D" sitting inside a makeshift tent icon
-labeled "違法占拠". A single human figure labeled "A" points an arrow
-labeled "明渡し請求(単独)" toward D, while small grayed-out figures
-labeled "B" and "C" stand inactive in the corner to emphasize consent is
+a small intruding figure labeled 「D」 sitting inside a makeshift tent icon
+labeled 「違法占拠」. A single human figure labeled 「A」 points an arrow
+labeled 「明渡し請求(単独)」 toward D, while small grayed-out figures
+labeled 「B」 and 「C」 stand inactive in the corner to emphasize consent is
 not needed.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この請求が共有物の保存行為にあたるかを確認します。第三者の不法占有
@@ -353,10 +380,10 @@ Diagram: The same three-path signpost as Panels 1-2, with the 保存行為
 path highlighted with a thicker border (distinct visually from the
 変更行為 path, which is shown faded to emphasize it is NOT the path being
 used here even though the underlying act being stopped is a 変更行為).
-Beside it, an isometric land plot with a human figure labeled "A" digging
-into part of the land with a shovel icon, labeled "無断変更". A single
-human figure labeled "B" (not waiting for figure C) points an arrow
-labeled "禁止・原状回復請求(単独)" at A.
+Beside it, an isometric land plot with a human figure labeled 「A」 digging
+into part of the land with a shovel icon, labeled 「無断変更」. A single
+human figure labeled 「B」 (not waiting for figure C) points an arrow
+labeled 「禁止・原状回復請求(単独)」 at A.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、Ｂが求めている行為(禁止・原状回復請求)が何行為にあたるかを確認しま
 す。無断の変更行為自体は全員の同意が必要な行為ですが、それを求める請求は
@@ -370,9 +397,9 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 損害賠償は持分の割合分のみ
 Diagram: An isometric land plot with a cracked-ground damage icon and a
-human figure labeled "D(加害者)" standing over it. A human figure labeled
-"A" holds only a small pie-chart coin icon marked "3分の1", while two
-identical grayed-out pie-chart icons labeled "B" and "C" remain untouched
+human figure labeled 「D(加害者)」 standing over it. A human figure labeled
+「A」 holds only a small pie-chart coin icon marked 「3分の1」, while two
+identical grayed-out pie-chart icons labeled 「B」 and 「C」 remain untouched
 beside A, showing A cannot reach for their slices.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、この請求が保存・管理・変更行為の分類とは別に、共有者それぞれが独立
@@ -388,9 +415,9 @@ Heading (bold, ONE line):
 賃貸借契約の解除は管理行為で過半数
 Diagram: The same three-path signpost as Panels 1-3, with the 管理行為
 path highlighted with a thicker border. Beside it, a document icon
-labeled "賃貸借契約" and a tenant figure labeled "D" beside a crossed-out
-tag reading "債務不履行". A human figure labeled "A" reaching for a
-"解除" stamp is blocked by a red prohibition icon, next to a balance-
+labeled 「賃貸借契約」 and a tenant figure labeled 「D」 beside a crossed-out
+tag reading 「債務不履行」. A human figure labeled 「A」 reaching for a
+「解除」 stamp is blocked by a red prohibition icon, next to a balance-
 scale icon showing more than half of three figures (A, B, C) needed to
 tip it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -417,7 +444,7 @@ between the header and the panels, that Panels 1・2・3・5(ア・イ・ウ・
 オ) all reuse the same three-path signpost diagram with only the relevant
 path highlighted (not a bare illustration with no visible decision
 structure), that each 着眼点 callout states a checking order rather than
-only a conclusion, confirm nothing is rendered below the last panel's
+only a conclusion, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully

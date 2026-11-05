@@ -152,6 +152,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 滅・積・没・地・登・記 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -184,6 +197,7 @@ a shovel, water filling the hole to form a small pond. A wooden signboard
 on the plot flips from 「畑」 to 「池沼」. A green checkmark stamp reads
 「地目変更」, while a separate red stamp reading 「滅失」 has a large red
 X mark over it to show this is NOT the correct classification.
+Words allowed inside this illustration (verbatim, nothing else): 「畑」「池沼」「地目変更」「滅失」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 地目変更（池沼）
 
@@ -195,6 +209,7 @@ Illustration: An isometric land plot showing a small boat passing through
 an artificial water channel dug into the land. A wooden signboard reads
 「運河用地」. A green checkmark stamp reads 「地目変更」, while a separate
 red stamp reading 「滅失」 has a large red X mark over it.
+Words allowed inside this illustration (verbatim, nothing else): 「運河用地」「地目変更」「滅失」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 地目変更（運河用地）
 
@@ -206,6 +221,7 @@ Illustration: An isometric coastal land plot fully submerged under ocean
 waves at high tide, a small marker labeled 「春分・秋分の満潮時」 beside
 it, and a red checkmark stamp reading 「滅失登記」 being pressed onto the
 submerged plot.
+Words allowed inside this illustration (verbatim, nothing else): 「春分・秋分の満潮時」「滅失登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 自然の滅失
 
@@ -218,6 +234,7 @@ crumbling into the sea from a cliff collapse, while most of the plot
 remains solid land. An arrow points to a checkmark stamp reading
 「地積変更登記」, and a separate red stamp reading 「滅失」 has a large
 red X mark over it.
+Words allowed inside this illustration (verbatim, nothing else): 「地積変更登記」「滅失」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 地積変更
 
@@ -233,6 +250,7 @@ sea marked on one date, with a 「1か月」 countdown arrow starting exactly
 from that date. A separate calendar page labeled 「知った日」 has a
 magnifying glass and a large red X mark over it, showing this later date
 is NOT the starting point.
+Words allowed inside this illustration (verbatim, nothing else): 「1か月」「知った日」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 滅失の日から1か月
 
@@ -247,7 +265,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -313,6 +331,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -464,7 +491,7 @@ callout states a checking order rather than only a conclusion and keeps
 every required element from the source article distinct (no merged or
 dropped requirements), that panels 2-5 sharing the decision tree each
 clearly distinguish their own highlighted branch from the other, faded
-branches, confirm nothing is rendered below the last panel's footnote
+branches, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
 grid of all 肢, and no additional text block of any kind), and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background

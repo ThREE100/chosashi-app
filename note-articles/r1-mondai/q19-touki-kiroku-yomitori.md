@@ -179,6 +179,19 @@ only the generic labels "土地A" and "土地B" given below, since this card
 set is a deliberately abstracted, generalized version of the underlying
 problem.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -203,11 +216,12 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 合筆後に未分筆なら丸ごと残存
-Illustration: An isometric icon of two land plots labeled "土地A" and
-"土地B" merging via an arrow into one combined plot (合筆); over the
+Illustration: An isometric icon of two land plots labeled 「土地A」 and
+「土地B」 merging via an arrow into one combined plot (合筆); over the
 combined plot, a prohibition (no-entry) icon is placed on a dotted
-"分筆" split-line to show no subsequent split has occurred, and the
+「分筆」 split-line to show no subsequent split has occurred, and the
 outline of the combined plot remains unchanged and intact.
+Words allowed inside this illustration (verbatim, nothing else): 「土地A」「土地B」「分筆」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 全部含まれる
 
@@ -217,9 +231,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 合筆後に分筆、全部残るとは限らない
 Illustration: An isometric icon of the same combined land plot from
 Card 1, now with a dotted line cutting off a portion of it (分筆); the
-cut-off portion has a large "?" mark on it, and two curved arrows point
+cut-off portion has a large 「?」 mark on it, and two curved arrows point
 from the original merged-in area toward both the remaining plot and the
 cut-off portion, showing the uncertainty of which side it ended up in.
+Words allowed inside this illustration (verbatim, nothing else): 「?」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 含むとは限らない
 
@@ -228,10 +243,11 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 分けた土地をくっつけた＝隣接の証拠
 Illustration: An isometric icon showing a small land plot piece cut away
-from "土地B" via a dotted split-line, then carried by an arrow over to
-merge into "土地A" (合筆); a green checkmark appears at the merge point,
+from 「土地B」 via a dotted split-line, then carried by an arrow over to
+merge into 「土地A」 (合筆); a green checkmark appears at the merge point,
 and a new solid connecting line is drawn directly between 土地A and 土地B
 to represent their adjacency.
+Words allowed inside this illustration (verbatim, nothing else): 「土地B」「土地A」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 隣接の証拠
 
@@ -241,9 +257,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 境界線は動かなければ存続
 Illustration: An isometric icon of a single land plot split by a dotted
 line into two plots (分筆); the resulting boundary line becomes a solid
-line labeled "筆界", with a small stopped-clock icon next to it to show
+line labeled 「筆界」, with a small stopped-clock icon next to it to show
 that no further change has occurred and the boundary remains fixed over
 time.
+Words allowed inside this illustration (verbatim, nothing else): 「筆界」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 筆界は存続
 
@@ -253,10 +270,11 @@ Heading (bold, ONE line, ~20 characters or fewer):
 地積の増減で旧土地の面積が判明
 Illustration: An isometric icon of a calculator next to two ledger
 cards showing a land plot's registered area before and after a merger,
-labeled generically "◯◯㎡ → ◯◯㎡" (no specific numeric values), with a
-"+" arrow pointing from the difference toward a faded outline of the
+labeled generically 「◯◯㎡ → ◯◯㎡」 (no specific numeric values), with a
+「+」 arrow pointing from the difference toward a faded outline of the
 absorbed, now-closed land plot to show its area being derived by
 calculation.
+Words allowed inside this illustration (verbatim, nothing else): 「◯◯㎡ → ◯◯㎡」「+」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 逆算で判明
 
@@ -272,7 +290,7 @@ without resetting, confirm that no specific chiban numbers (2番, 3番,
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -340,6 +358,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -391,7 +418,7 @@ Diagram: The same decision flowchart as Panel 1, sharing the diamond
 乙土地（5番を合筆で取り込み済み）. This time the はい branch is rendered
 with a thick highlighted border and full color, leading to a highlighted
 conclusion node:「5番の全部が含まれるとは限らない」, illustrated by a
-dotted split-line cutting off a portion labeled 3番3 with a large "?"
+dotted split-line cutting off a portion labeled 3番3 with a large 「?」
 mark straddling the boundary between the remaining 乙土地 and the
 cut-off 3番3. The いいえ branch and its conclusion node（「全部含まれ
 る」）are rendered in a faded, greyed-out style (not relevant to this
@@ -485,7 +512,7 @@ visibly share the same diamond-and-two-branch layout with only the
 highlighted branch differing, that every multi-condition 肢 is drawn as
 an actual flowchart with branch nodes (not a bare illustration with no
 visible decision structure), that each 着眼点 callout states a checking
-order rather than only a conclusion, confirm nothing is rendered below
+order rather than only a conclusion, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below
 the last panel's footnote text (no summary recap panel, no trophy or
 medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
 block of any kind), and confirm the entire canvas, edge to edge, is

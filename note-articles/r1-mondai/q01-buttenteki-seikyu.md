@@ -139,6 +139,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・物・登・記・所・援・撤 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -166,10 +179,11 @@ Heading (bold, ONE line, ~20 characters or fewer):
 登記名義人にも収去請求できる
 Illustration: An isometric building icon on a land plot, with an arrow
 pointing from the building to two separate human figures: one labeled
-"登記名義人 B" standing beside the building, and another labeled
-"新所有者 C" also connected to the building by a dotted line. A red
-arrow labeled "収去請求" points from a landowner figure toward both B
+「登記名義人 B」 standing beside the building, and another labeled
+「新所有者 C」 also connected to the building by a dotted line. A red
+arrow labeled 「収去請求」 points from a landowner figure toward both B
 and C to show both are valid respondents.
+Words allowed inside this illustration (verbatim, nothing else): 「登記名義人 B」「新所有者 C」「収去請求」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 両方に収去請求可
 
@@ -178,10 +192,11 @@ Badge: a filled blue circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 登記なくても不法占有者に請求可
 Illustration: An isometric land plot with a small house icon owned by
-figure B carrying a torn paper ribbon labeled "未登記", and an intruding
-figure C occupying a corner of the land labeled "違法占拠". A direct red
-arrow labeled "明渡し請求" points from B to C, passing over a crossed-out
+figure B carrying a torn paper ribbon labeled 「未登記」, and an intruding
+figure C occupying a corner of the land labeled 「違法占拠」. A direct red
+arrow labeled 「明渡し請求」 points from B to C, passing over a crossed-out
 registration document icon to show registration is unnecessary here.
+Words allowed inside this illustration (verbatim, nothing else): 「未登記」「違法占拠」「明渡し請求」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 登記不要で請求可
 
@@ -190,10 +205,11 @@ Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 所有者は撤去義務を免れない
 Illustration: An isometric land plot with an abandoned crate icon labeled
-"乙動産". A faint dotted-outline figure in the background is labeled
-"実際に放置したC", while a solid human figure in the foreground labeled
-"所有者B" receives a red arrow labeled "撤去請求" from a landowner figure,
-with a crossed-out speech bubble reading "私じゃない" above B.
+「乙動産」. A faint dotted-outline figure in the background is labeled
+「実際に放置したC」, while a solid human figure in the foreground labeled
+「所有者B」 receives a red arrow labeled 「撤去請求」 from a landowner figure,
+with a crossed-out speech bubble reading 「私じゃない」 above B.
+Words allowed inside this illustration (verbatim, nothing else): 「乙動産」「実際に放置したC」「所有者B」「撤去請求」「私じゃない」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 撤去義務は残る
 
@@ -202,10 +218,11 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 時効援用後は請求権が消滅
 Illustration: An isometric land plot with a human figure standing on it
-holding an official stamp icon labeled "時効援用". A faded, semi-
-transparent figure in the background labeled "元の所有者A" has a broken
+holding an official stamp icon labeled 「時効援用」. A faded, semi-
+transparent figure in the background labeled 「元の所有者A」 has a broken
 chain-link icon beside it and a crossed-out speech bubble reading
-"返して".
+「返して」.
+Words allowed inside this illustration (verbatim, nothing else): 「時効援用」「元の所有者A」「返して」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 請求権は消滅
 
@@ -214,10 +231,11 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 地役権侵害者本人にも請求可
 Illustration: An isometric land plot with a dotted pathway icon labeled
-"地役権(通行)". A car icon blocks the pathway, labeled "違法駐車C". A red
-arrow labeled "禁止請求" points directly from a human figure labeled
-"地役権者B" to the car, bypassing a separate figure labeled
-"承役地所有者A" standing off to the side.
+「地役権(通行)」. A car icon blocks the pathway, labeled 「違法駐車C」. A red
+arrow labeled 「禁止請求」 points directly from a human figure labeled
+「地役権者B」 to the car, bypassing a separate figure labeled
+「承役地所有者A」 standing off to the side.
+Words allowed inside this illustration (verbatim, nothing else): 「地役権(通行)」「違法駐車C」「禁止請求」「地役権者B」「承役地所有者A」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 本人へ直接請求可
 
@@ -231,7 +249,7 @@ no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -275,6 +293,15 @@ any characters. Pay special attention to the kanji 権・地・建・物・登�
 記・所・請・求・占・拠・援・用・撤・去・妨・害・駐, which have visibly
 different Simplified Chinese forms — always draw the standard Japanese
 (Jōyō) form.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -408,5 +435,5 @@ intro illustration or paragraph block between the header and the panels,
 each panel's takeaway is legible as heading + diagram + a short 着眼点
 callout + conclusion tag without turning into a wall of text, and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background
-with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last panel (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last panel).
+with no transparency or alpha channel anywhere. Confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible. Confirm nothing is rendered below the last panel (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last panel).
 ```

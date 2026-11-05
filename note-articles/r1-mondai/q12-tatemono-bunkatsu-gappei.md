@@ -153,6 +153,19 @@ kanji 部・分・登・記・合・併・種・類・敷・地・権・区・�
 must be rendered in their standard Japanese forms, never as Simplified
 Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -183,6 +196,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: マンションの集会室アイコンに「共用部分である旨の登記」の
 スタンプが押されている。その建物が隣の乙建物アイコンにくっつこうとする
 矢印に、大きな赤い✕マークが重なる。
+Words allowed inside this illustration (verbatim, nothing else): 「共用部分である旨の登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 権利登記なしで合併不可
 
@@ -193,6 +207,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 「居宅」ラベルの区分建物アイコンと「事務所」ラベルの区分
 建物アイコンが、共通の壁を挟んで隣り合い、一つの区分建物へと合体する矢印。
 矢印の先に緑の✓マーク。種類ラベルはそれぞれ異なるままでよいことを示す。
+Words allowed inside this illustration (verbatim, nothing else): 「居宅」「事務所」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 種類の同一性は不要
 
@@ -204,6 +219,7 @@ Illustration: 敷地権の小さなバッジが付いた甲区分建物アイコ
 敷地権バッジ付きの乙区分建物アイコンが合体する矢印に緑の✓マーク。横に
 小さく、「敷地権の登記があること」に赤い✕マークと「合併の制限に挙げられ
 ていない」の注記を添える。
+Words allowed inside this illustration (verbatim, nothing else): 「敷地権の登記があること」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 敷地権があっても合併可
 
@@ -218,6 +234,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 甲建物から附属建物（小さな建物アイコン）が切り離される
 「分割」の矢印と、それが乙建物にくっつく「合併」の矢印が、一つの申請書
 フォルダにまとまる。フォルダに緑の✓マーク。
+Words allowed inside this illustration (verbatim, nothing else): 「分割」「合併」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 分割と合併は一括可能
 
@@ -229,6 +246,7 @@ Illustration: 一棟の建物が中間で取り壊され、接続しない二棟
 分かれる。「表題部の変更登記」の書類アイコンと「建物の分割の登記」の書類
 アイコンが一つの申請書フォルダにまとまり、緑の✓マーク。「変更登記の完了
 を待つ」矢印には赤い✕マーク。
+Words allowed inside this illustration (verbatim, nothing else): 「表題部の変更登記」「建物の分割の登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 完了を待たず同時申請
 
@@ -251,7 +269,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -328,6 +346,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -352,7 +379,7 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 共用部分の登記がある建物は合併不可
-Diagram: The shared "合併できるかどうかのチェックリスト" chain. Diamond
+Diagram: The shared 「合併できるかどうかのチェックリスト」 chain. Diamond
 D1「共用部分である旨の登記があるか」（highlighted, full color）with the
 はい branch（highlighted, full color）leading to a conclusion node
 showing a マンションの集会室アイコンに「共用部分である旨の登記」の
@@ -410,7 +437,7 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 変更と分割は同時に申請できる
-Diagram: A side-by-side "myth vs. correct rule" comparison frame. LEFT
+Diagram: A side-by-side 「myth vs. correct rule」 comparison frame. LEFT
 box（faded, with a strikethrough mark over the whole box）labeled「誤り
 やすい思い込み」: 一棟の建物が中間で取り壊され接続しない二棟に分かれた
 図から、まず「表題部の変更登記」の書類アイコンへ矢印が伸び、時計のアイ
@@ -469,7 +496,7 @@ than omitted, that no panel renders a looping arrow back into an earlier
 node, that Panel 4's two comparison boxes are visibly distinguished by
 the strikethrough mark on the myth side and the checkmark on the correct
 side, that each 着眼点 callout states a checking order rather than only a
-conclusion, confirm nothing is rendered below the last panel's footnote
+conclusion, confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
 grid of all 肢, and no additional text block of any kind), and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background

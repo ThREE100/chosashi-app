@@ -156,6 +156,19 @@ kanji 地・権・証・明・情・報・登・記・識・別・電・子・�
 — these must be rendered in their standard Japanese forms, never as
 Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -186,6 +199,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: タブレット画面に委任状と電子署名マークが表示され、電子
 証明書のバッジがAさん本人であることを確認する矢印。紙の印鑑証明書
 アイコンに赤い✕マーク。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 電子証明書が確認を代替
 
@@ -196,6 +210,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 会社の代表者キャラクターが電子署名を行い、商業登記電子
 証明書のバッジが会社法人等番号のカードに置き換わる矢印。「別に提供は
 不要」のラベルを添える。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 番号提供に代えられる
 
@@ -205,6 +220,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 登記識別情報はスキャンでなく符号入力
 Illustration: 紙の通知書をスキャナに通そうとする矢印に赤い✕マーク。
 代わりにタブレット画面に「符号を直接入力」する入力欄と緑の✓マーク。
+Words allowed inside this illustration (verbatim, nothing else): 「符号を直接入力」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 符号を入力して提供
 
@@ -219,6 +235,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 敷地を共有するA・B・Cのキャラクターのうち、Aだけが「所有
 権を有することを証する情報」のはんこを押し、表題登記の申請書フォルダに
 添付される。フォルダに緑の✓マーク。
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 共有者全員でなくてよい
 
@@ -229,6 +246,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: 「法定相続情報一覧図の写し」の書類アイコンに住所欄が強調
 表示され、矢印が「所有権証明情報」の箱と「住所証明情報」の箱の両方に
 伸びる。両方の箱に緑の✓マーク。
+Words allowed inside this illustration (verbatim, nothing else): 「法定相続情報一覧図の写し」「所有権証明情報」「住所証明情報」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 所有権と住所の証明を兼ねる
 
@@ -251,7 +269,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -310,6 +328,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -446,7 +473,7 @@ decision structure), that no 肢 with a genuinely hidden second condition
 has been flattened into a single check, that each 着眼点 callout states a
 checking order rather than only a conclusion and keeps every required
 element from the source article distinct (no merged or dropped
-requirements), confirm nothing is rendered below the last panel's
+requirements), confirm that no diagram or illustration contains any text other than the words specified in that panel's Diagram line, heading, 着眼点 callout, or conclusion tag (no inscriptions on stones, signs, or pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's
 footnote text (no summary recap panel, no trophy or medal icon, no
 re-listed ○/✕ grid of all 肢, and no additional text block of any kind),
 and confirm the entire canvas, edge to edge, is filled with a fully
