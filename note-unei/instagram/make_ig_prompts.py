@@ -88,6 +88,25 @@ def year_code(k, n):
     return f'{k}{n:02d}'
 
 
+def short_code(k, n):
+    """ファイル名に使う年度コード（Instagram_R7_00等の表紙と同じ書き方。0埋めしない）。"""
+    return f'{k}{n}'
+
+
+_BAD_FILENAME_CHARS = re.compile(r'[\\/:*?"<>|]')
+
+
+def safe_title(title):
+    return _BAD_FILENAME_CHARS.sub('', title)
+
+
+def image_filenames(short, q, title, slides):
+    base = f'Instagram_{short}_{q:02d}_{safe_title(title)}'
+    if slides == 1:
+        return [base]
+    return [f'{base}_{i}' for i in range(1, slides + 1)]
+
+
 def extract(path):
     t = open(path, encoding='utf-8').read()
     head = t.split('\n', 1)[0]
@@ -216,6 +235,7 @@ def main():
     flagged = 0
     for k, n in YEARS:
         code = year_code(k, n)
+        short = short_code(k, n)
         label = year_label(k, n)
         folder = os.path.join(ROOT, 'note-articles', f'{k.lower()}{n}-mondai')
         out = [f'# {label}　Instagram用（3:4・1080×1440）のインフォグラフィック プロンプト', '',
@@ -235,8 +255,12 @@ def main():
             status = '要手作業' if notes else ('プロンプト作成済み（2枚に分割）' if slides > 1 else 'プロンプト作成済み')
             if notes:
                 flagged += 1
+            fnames = image_filenames(short, q, title, slides)
+            fname_line = ('・'.join(f'**{x}**' for x in fnames) +
+                          '（.png／.webp など。画像生成AIにはこの名前で保存するよう伝える）。')
             out += [f'## {label} 第{q}問｜{title}', '',
-                    f'- 出典の記事：`{src}`', f'- 元のカード数：{nc}', f'- 状態：{status}']
+                    f'- 出典の記事：`{src}`', f'- 元のカード数：{nc}', f'- 状態：{status}',
+                    f'- 画像のファイル名：{fname_line}']
             if slides > 1:
                 out.append(f'- **2枚に分けて作る**（1つの投稿に2枚。複数枚をめくる投稿）：{why}')
             for x in notes:
