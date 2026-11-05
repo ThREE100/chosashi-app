@@ -146,6 +146,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 登・記・所・地・証・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -162,7 +175,7 @@ Title (large, bold, 2行):
 どこに申出て誰が再交付を受けられる？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第19問－保管・写しの交付の申出の基本ルール
+保管・写しの交付の申出の基本ルール（令和5年度 午後の部 第19問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -176,9 +189,12 @@ Heading (bold, ONE line, ~20 characters or fewer):
 申出人の住所地の登記所でもOK
 Illustration: An isometric map showing four location pins labeled
 「被相続人の本籍地」「被相続人の最後の住所地」「申出人の住所地」
-「不動産の所在地」, each connected by a dotted line to a single 登記所
-building icon, with the「申出人の住所地」pin highlighted in a brighter
-color.
+「不動産の所在地」, each connected by a dotted line to a single building
+icon labeled「登記所」, with the「申出人の住所地」pin highlighted in a
+brighter color.
+Words allowed inside this illustration (verbatim, nothing else): 「被相続人
+の本籍地」「被相続人の最後の住所地」「申出人の住所地」「不動産の所在地」
+「登記所」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 選べる登記所は4つ
 
@@ -186,10 +202,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 不動産を持っていなくても申出可
-Illustration: An isometric elderly character icon (被相続人) with a
-faded, red crossed-out house/land icon beside them to show they own no
+Illustration: An isometric elderly character icon labeled「被相続人」with
+a faded, red crossed-out house/land icon beside them to show they own no
 registered real estate, yet still connected by an arrow to a document
-labeled「法定相続情報一覧図」being handed toward a 登記所 building icon.
+labeled「法定相続情報一覧図」being handed toward a building icon labeled
+「登記所」.
+Words allowed inside this illustration (verbatim, nothing else): 「被相続人」
+「法定相続情報一覧図」「登記所」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 登記名義人でなくてOK
 
@@ -197,10 +216,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 調査士は委任状だけでは足りない
-Illustration: An isometric 土地家屋調査士 character holding two separate
-documents — one labeled「委任状」and another labeled「身分証明書の
-写し」— both being submitted together to a 登記所 counter, with a plus
-(＋) icon placed between the two documents.
+Illustration: An isometric character labeled「土地家屋調査士」holding two
+separate documents — one labeled「委任状」and another labeled「身分証明書
+の写し」— both being submitted together to a counter labeled「登記所」,
+with a plus (＋) icon placed between the two documents.
+Words allowed inside this illustration (verbatim, nothing else): 「土地家屋
+調査士」「委任状」「身分証明書の写し」「登記所」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 身分証明書も必要
 
@@ -211,10 +232,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人の住所は記載必須でない
-Illustration: An isometric法定相続情報一覧図 document showing
+Illustration: An isometric document labeled「法定相続情報一覧図」showing
 「氏名・生年月日・続柄」written in solid, bold ink with a「記載事項」
 tag, next to「住所」written in a lighter, dotted style with a「任意」
 tag, contrasting the required entries and the optional one.
+Words allowed inside this illustration (verbatim, nothing else): 「法定相続
+情報一覧図」「氏名・生年月日・続柄」「記載事項」「住所」「任意」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 住所は書かなくてよい
 
@@ -223,9 +246,12 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 再交付は申出人本人だけ
 Illustration: An isometric scene of a character labeled「申出人Ａ」
-receiving a duplicate copy of the法定相続情報一覧図 from a 登記所
-counter window, while another character labeled「Ｂ」stands behind with
-a red prohibition mark over them to show they cannot make the request.
+receiving a duplicate copy of the document labeled「法定相続情報一覧図」
+from a counter window labeled「登記所」, while another character labeled
+「Ｂ」stands behind with a red prohibition mark over them to show they
+cannot make the request.
+Words allowed inside this illustration (verbatim, nothing else): 「申出人Ａ」
+「法定相続情報一覧図」「登記所」「Ｂ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 本人限定
 
@@ -240,7 +266,10 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its specified "Words allowed" words (no inscriptions on stones or
+signs, no pseudo-writing) and that each allowed word is clearly legible.
+Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 
@@ -304,6 +333,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -329,11 +367,11 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 資格者代理人は委任状だけでは足りない
 Diagram: A left/right comparison frame. Left side (よくある思い込み): a
-土地家屋調査士 character holding only a document labeled「委任状」and
-approaching a 登記所 counter, with a red ✕ overlaid. Right side (正しい
-ルール): the same character now holding two documents together —「委任
-状」and「身分証明書の写し」— with a plus (＋) icon between them, both
-being handed to the counter.
+character labeled「土地家屋調査士」holding only a document labeled
+「委任状」and approaching a counter labeled「登記所」, with a red ✕
+overlaid. Right side (正しいルール): the same character now holding two
+documents together —「委任状」and「身分証明書の写し」— with a plus (＋)
+icon between them, both being handed to the counter.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、代理人が土地家屋調査士のような資格者代理人であるかを確認します。
 資格者代理人が申出をする場合は、委任状だけでなく、資格者代理人団体所定
@@ -348,9 +386,9 @@ Heading (bold, ONE line):
 申出人の住所地の登記所でも申出できる
 Diagram: An isometric map showing four location pins labeled「被相続人の
 本籍地」「被相続人の最後の住所地」「申出人の住所地」「不動産の所在地」,
-each connected by a dotted line converging on a single 登記所 building
-icon, with the「申出人の住所地」pin highlighted in a brighter color and a
-thicker line.
+each connected by a dotted line converging on a single building icon
+labeled「登記所」, with the「申出人の住所地」pin highlighted in a brighter
+color and a thicker line.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、申出ができる登記所が1か所に限られていないかを確認します。被相続
 人の本籍地・最後の住所地・申出人の住所地・不動産の所在地のいずれかを管
@@ -363,14 +401,14 @@ characters):
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 相続人の住所は記載必須でない
-Diagram: A family-tree-style illustration of the 法定相続情報一覧図
-itself. At the top row (older generation), a single figure labeled
-「被相続人」. A single line descends from 被相続人 down to a horizontal
-bracket, which then branches into three separate lines leading to three
-same-generation figures placed side by side in a lower row：「Ａ」「Ｂ」
-「Ｃ」(同順位の相続人). Beside each name, the text「氏名・生年月日・続柄」
-is written in solid, bold ink, and the text「住所：任意」is written in a
-lighter, dotted style.
+Diagram: A family-tree-style illustration of the document labeled「法定
+相続情報一覧図」itself. At the top row (older generation), a single
+figure labeled「被相続人」. A single line descends from「被相続人」down to
+a horizontal bracket, which then branches into three separate lines
+leading to three same-generation figures placed side by side in a lower
+row, labeled「Ａ」「Ｂ」「Ｃ」and tagged「同順位の相続人」. Beside each
+name, the text「氏名・生年月日・続柄」is written in solid, bold ink, and
+the text「住所：任意」is written in a lighter, dotted style.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、一覧図に記載する法定相続情報に相続人の住所が含まれているかを確
 認します。住所は含まれておらず、書かなければならないわけではありませ
@@ -384,12 +422,12 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 被相続人が名義人でなくても申出できる
 Diagram: A left/right comparison frame. Left side (よくある思い込み): a
-被相続人 character beside a house/land icon with a red ✕ overlaid on it
-(不動産を持たない), and a red prohibition mark over an arrow toward a
-登記所 building icon. Right side (正しいルール): the same 被相続人
-character, still with no registered real estate, but now with a normal
-arrow connecting a document labeled「法定相続情報一覧図」to the 登記所
-building icon.
+character labeled「被相続人」beside a house/land icon with a red ✕
+overlaid on it (不動産を持たない), and a red prohibition mark over an
+arrow toward a building icon labeled「登記所」. Right side (正しいルール):
+the same「被相続人」character, still with no registered real estate, but
+now with a normal arrow connecting a document labeled「法定相続情報一覧
+図」to the「登記所」building icon.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、法定相続情報一覧図の保管の申出に、被相続人が不動産の名義人である
 ことが要件になっているかを確認します。被相続人が表題部所有者や所有権登
@@ -403,13 +441,14 @@ characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 再交付を頼めるのは申出人本人のみ
-Diagram: A decision flowchart. Start node: 写しの再交付を求める人が現れ
-る. Diamond node: 保管の申出をした申出人本人か？ A green branch with a
+Diagram: A decision flowchart. Start node:「写しの再交付を求める人が現れ
+る」. Diamond node:「保管の申出をした申出人本人か？」A green branch with a
 thick highlighted border (本オの対象) for はい leads to a conclusion
-node showing 申出人Ａ receiving a duplicate copy of the 一覧図 from a
-登記所 counter window. A plain blue いいえ branch leads to its own
-conclusion node showing another character labeled「Ｂ」standing behind
-the same counter with a red prohibition mark over them.
+node showing a character labeled「申出人Ａ」receiving a duplicate copy of
+the document labeled「一覧図」from a counter window labeled「登記所」. A
+plain blue いいえ branch leads to its own conclusion node showing another
+character labeled「Ｂ」standing behind the same counter with a red
+prohibition mark over them.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、再交付を求めているのが、もともと保管の申出をした申出人本人なのか
 を確認します。申出人本人であれば再交付を受けられますが、同じ相続人であ
@@ -437,7 +476,10 @@ running from 被相続人 downward to the 相続人 row, that Panel 5 shows both
 the はい and いいえ exit of its diamond node leading to their own
 separate conclusion node with no arrow looping back to an earlier node,
 that each 着眼点 callout states a checking order rather than only a
-conclusion, confirm nothing is rendered below the last panel's footnote
+conclusion, confirm that no diagram contains any text other than the
+words quoted in 「」 on that panel's Diagram line (no inscriptions on
+stones or signs, no pseudo-writing) and that each such word is clearly
+legible, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
 grid of all 肢, and no additional text block of any kind), and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background

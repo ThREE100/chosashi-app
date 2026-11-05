@@ -139,8 +139,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権 — this must be rendered in its standard Japanese form, never as
-a Simplified Chinese variant.
+kanji 権・効・認・消・遡 — these must be rendered in their standard
+Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -157,7 +170,7 @@ Title (large, bold, 1行):
 「無効」と「取消し」はどう違う？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第1問－遡及効と追認・時効消滅のルール
+遡及効と追認・時効消滅のルール（令和5年度 午後の部 第1問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -169,13 +182,15 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 意思無能力の契約は無効
-Illustration: An isometric figure labeled 買主 with a confused, blank
-expression (意思能力なし) signing a sales document at a desk across from a
-figure labeled 売主; the document is instantly
-stamped with a large red "無効" seal and shown cracking into pieces;
+Illustration: An isometric figure labeled「買主」with a confused, blank
+expression（「意思能力なし」）signing a sales document at a desk across from a
+figure labeled「売主」; the document is instantly
+stamped with a large red「無効」seal and shown cracking into pieces;
 beside it, a small house/land icon is linked by a crossed-out
 (prohibition) arrow to a delivery-box icon, showing no obligation to
 hand it over.
+Words allowed inside this illustration (verbatim, nothing else): 「買主」
+「意思能力なし」「売主」「無効」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 引渡義務も生じない
 
@@ -184,11 +199,13 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 追認しても遡って有効化しない
 Illustration: An isometric horizontal timeline. At the left end, a
-contract document icon stamped with a red "無効" seal. Partway along the
-timeline, a "追認" stamp icon appears, and a brand-new, intact contract
+contract document icon stamped with a red「無効」seal. Partway along the
+timeline, a「追認」stamp icon appears, and a brand-new, intact contract
 document icon begins exactly at that later point on the timeline — with
 no arrow connecting it back to the original left-end point — showing the
-effect starting fresh only from the追認 point.
+effect starting fresh only from the「追認」point.
+Words allowed inside this illustration (verbatim, nothing else): 「無効」
+「追認」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 追認時から新たな行為
 
@@ -200,11 +217,12 @@ Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 取消しは遡って無効になる
 Illustration: An isometric horizontal timeline. At the left end, an
-intact green contract document icon. Partway along, a "取消" stamp icon
+intact green contract document icon. Partway along, a「取消」stamp icon
 appears, and a curved arrow sweeps backward from that stamp all the way
 to the left-end starting point, turning the original document icon there
 into a crossed-out/void icon, showing the effect reaching back to the
 very beginning.
+Words allowed inside this illustration (verbatim, nothing else): 「取消」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 遡及して無効
 
@@ -212,12 +230,14 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 法定代理人の追認で本人も取消不可
-Illustration: An isometric scene with a young person figure (未成年者)
-beside a parent figure (法定代理人); the parent stamps a contract
-document with "追認", and the document is shown locked inside a glass
+Illustration: An isometric scene with a young person figure（「未成年者」）
+beside a parent figure（「法定代理人」）; the parent stamps a contract
+document with「追認」, and the document is shown locked inside a glass
 case with a padlock icon; a separate small icon shows the young person
-reaching toward the document with a "取消" stamp in hand, blocked by a
+reaching toward the document with a「取消」stamp in hand, blocked by a
 barrier/wall icon.
+Words allowed inside this illustration (verbatim, nothing else): 「未成年者」
+「法定代理人」「追認」「取消」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 確定的に有効
 
@@ -226,10 +246,12 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 取消権は行為時から20年で消滅
 Illustration: An isometric long hourglass spanning a timeline marked
-"20年", starting at a contract-signing icon and ending at a "時効消滅"
-stamp icon; below it, a shorter parallel timeline marked "5年" starting
-from a separate "追認できる時" flag icon, both timelines visually
-converging toward the same消滅 result.
+「20年」, starting at a contract-signing icon and ending at a「時効消滅」
+stamp icon; below it, a shorter parallel timeline marked「5年」starting
+from a separate「追認できる時」flag icon, both timelines visually
+converging toward the same 消滅 result.
+Words allowed inside this illustration (verbatim, nothing else): 「20年」
+「時効消滅」「5年」「追認できる時」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 20年で時効消滅
 
@@ -244,7 +266,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -302,6 +324,15 @@ background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -326,8 +357,8 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 意思能力の有無を最初に確認する
-Diagram: An isometric figure labeled 買主（意思能力なし）with a confused
-expression signing a sales document across from a figure labeled 売主; the document instantly cracks into pieces with a red「無効」
+Diagram: An isometric figure labeled「買主」（「意思能力なし」）with a confused
+expression signing a sales document across from a figure labeled「売主」; the document instantly cracks into pieces with a red「無効」
 seal. A crossed-out arrow connects the land icon to a delivery-box icon,
 showing no obligation to hand it over.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -343,7 +374,7 @@ Heading (bold, ONE line):
 追認しても遡って有効化しない
 Diagram: The shared horizontal-timeline shape described above. At the
 left end, a contract document icon stamped with a red「無効」seal
-（虚偽表示）. Partway along the timeline, a「追認」stamp icon appears, and
+（「虚偽表示」）. Partway along the timeline, a「追認」stamp icon appears, and
 a brand-new intact contract document icon begins exactly at that point,
 with NO arrow connecting it back to the left-end starting point.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -377,8 +408,8 @@ characters):
 Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 法定代理人の追認の有無を確認
-Diagram: An isometric scene with a young figure（未成年者）beside a parent
-figure（法定代理人）; the parent stamps a contract document with
+Diagram: An isometric scene with a young figure（「未成年者」）beside a parent
+figure（「法定代理人」）; the parent stamps a contract document with
 「追認」, and the document is shown locked inside a glass case with a
 padlock icon; a small icon shows the young figure reaching toward the
 document with a「取消」stamp in hand, blocked by a barrier icon.
@@ -399,23 +430,23 @@ exactly four horizontal levels stacked vertically. Every arrow in this
 diagram must point straight downward or diagonally downward — no arrow
 may ever point upward, sideways-and-back, or toward any node located
 above it; there must be no loop, no curve that returns toward an earlier
-node, and no arrowhead touching the 取消権の発生 node or either timer box
+node, and no arrowhead touching the「取消権の発生」node or either timer box
 once the diagram has moved past them. Level 1 (top, single node): a
-start node reading 取消権の発生, with two separate downward arrows
+start node reading「取消権の発生」, with two separate downward arrows
 leaving its bottom edge. Level 2 (two boxes side by side, left and
 right): left box — an hourglass icon on a short timeline labeled「追認で
 きる時から5年」；right box — a longer hourglass icon on a longer timeline
 labeled「行為の時から20年」。Level 3 (a single diamond node, centered
 below and between the two Level 2 boxes): both Level 2 boxes' downward
-arrows converge into one diamond node reading いずれかが先に経過したか？。
+arrows converge into one diamond node reading「いずれかが先に経過したか？」。
 Level 4 (two brand-new boxes side by side, directly below the diamond —
 these are NEW boxes that do not exist anywhere else in the panel, and
 neither one may reuse, touch, or point back to the Level 2 timer boxes):
 from the diamond's bottom-left, a はい arrow points straight down to a
-new red-stamped conclusion box reading 時効によって消滅する；from the
+new red-stamped conclusion box reading「時効によって消滅する」；from the
 diamond's bottom-right, a separate いいえ arrow points straight down to a
 new, differently-colored（灰色または青、赤色にしない）conclusion box
-reading まだ消滅していない（取消権は存続）。Both Level 4 boxes are the
+reading「まだ消滅していない（取消権は存続）」。Both Level 4 boxes are the
 lowest elements in the panel; nothing in this diagram sits below them or
 loops back above them.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -454,7 +485,11 @@ each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
-no additional text block of any kind), and confirm the entire canvas,
+no additional text block of any kind), confirm that no diagram contains
+any text other than the words quoted in「」on that panel's Diagram line
+(or that panel's heading, 着眼点 callout and conclusion tag) — no
+inscriptions on stones or signs, no pseudo-writing — and that each such
+word is clearly legible, and confirm the entire canvas,
 edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```

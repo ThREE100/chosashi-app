@@ -172,6 +172,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 建・物 — these must be rendered in their standard Japanese forms,
 never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -188,8 +201,8 @@ Title (large, bold, 2行):
 どこまで数える？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第12問－壁芯・内壁の原則と、吹抜け・シャッター・
-塔屋の例外
+壁芯・内壁の原則と、吹抜け・シャッター・塔屋の例外
+（令和5年度 午後の部 第12問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -206,6 +219,7 @@ building, each floor's wall shown with a different thickness, a dashed
 center line running through the middle of each floor's wall thickness,
 small measuring-tape arrows spanning each floor's dashed outline
 separately.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 階ごとに中心線で計算
 
@@ -216,7 +230,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric interior of a condominium unit with a
 protruding column near one wall, a dashed line showing the wall surface
 smoothed flat across the column's face (ignoring the bump), the floor
-area shaded up to that flattened line with a small "柱は無視" label.
+area shaded up to that flattened line with a small「柱は無視」label.
+Words allowed inside this illustration (verbatim, nothing else): 「柱は無視」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 除外せず柱は無視
 
@@ -229,8 +244,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 吹抜けは床がある階のみ算入
 Illustration: An isometric cutaway of a house with an atrium/void
 running from the 2nd floor to the top floor, the 1st floor's floor slab
-shaded and labeled "算入", the open void space in the upper floors left
-unshaded and labeled "不算入".
+shaded and labeled「算入」, the open void space in the upper floors left
+unshaded and labeled「不算入」.
+Words allowed inside this illustration (verbatim, nothing else): 「算入」「不算入」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 床のない階は不算入
 
@@ -240,8 +256,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 シャッター店舗も床面積に算入
 Illustration: An isometric underground shopping arcade storefront with a
 metal shutter partially lowered on three sides and a solid wall on the
-fourth side, the shaded floor area inside labeled "算入", with a small
-open corridor area just outside the shutter labeled "不算入".
+fourth side, the shaded floor area inside labeled「算入」, with a small
+open corridor area just outside the shutter labeled「不算入」.
+Words allowed inside this illustration (verbatim, nothing else): 「算入」「不算入」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 閉鎖区画は算入
 
@@ -250,9 +267,10 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 塔屋の一部使用で全体を算入
 Illustration: An isometric rooftop tower containing a machine room and a
-staircase, with one small section labeled "管理事務所" and another
-labeled "倉庫" inside the tower, the entire tower shaded and highlighted
+staircase, with one small section labeled「管理事務所」and another
+labeled「倉庫」inside the tower, the entire tower shaded and highlighted
 uniformly rather than just those two sections.
+Words allowed inside this illustration (verbatim, nothing else): 「管理事務所」「倉庫」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 塔屋全体が対象
 
@@ -267,7 +285,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -330,6 +348,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -477,7 +504,10 @@ checking order rather than only a conclusion and keeps every required
 element from the source article distinct, confirm nothing is rendered
 below the last panel's footnote text (no summary recap panel, no trophy
 or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
-block of any kind), and confirm the entire canvas, edge to edge, is
+block of any kind), confirm that no diagram contains any text other than
+the words quoted in 「」 on that panel's Diagram line (no inscriptions on
+stones or signs, no pseudo-writing) and that each quoted word is clearly
+legible, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```
