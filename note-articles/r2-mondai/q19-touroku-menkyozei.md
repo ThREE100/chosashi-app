@@ -150,8 +150,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 登・録・地・建・物・記・所・錯・誤 — these must be rendered in their
+kanji 登・録・地・建・物・記・所・錯・誤・課・範・囲・致・宗・教・団 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -163,12 +176,15 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 --- HEADER ---
 Title (large, bold, 1行):
 登録免許税、課税の有無を見分ける5つのポイント
 
 Subtitle (smaller, centered, 1行):
-令和2年度 午後の部 第19問－第3欄と一致するもの・しないもの
+第3欄と一致するもの・しないもの（令和2年度 午後の部 第19問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -177,39 +193,40 @@ Subtitle (smaller, centered, 1行):
 第3欄の記載と一致する
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 合筆は1,000円、分筆も1,000円
-Illustration: Two land-plot icons merging into one plot (合筆) with a
-price tag "1,000円" floating above; beside it, a separate land plot split
-by a dotted line into two parts — one small part labeled 墓地 with a
-torn-paper 非課税 tag, the other larger part labeled 分筆後の土地 with a
-price tag "1,000円".
+Illustration: Two land-plot icons merging into one plot labeled「合筆」with
+a price tag「1,000円」floating above; beside it, a separate land plot
+split by a dotted line into two parts — one small part labeled「墓地」with
+a torn-paper tag labeled「非課税」, the other larger part labeled「分筆後の
+土地」with a price tag「1,000円」.
+Words allowed inside this illustration (verbatim, nothing else): 「合筆」「1,000円」「墓地」「非課税」「分筆後の土地」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 第3欄と一致
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 再区分も共有地分筆も2,000円
-Illustration: An isometric区分建物(condo unit) splitting into two smaller
-units (再区分) each with a price tag "1,000円" stacked to total "2,000円";
-beside it, a land plot shared by two owner icons labeled 国 and 私人
-being split into two plots (分筆) each with a price tag "1,000円" stacked
-to total "2,000円".
+Illustration: An isometric condo unit labeled「区分建物」splitting into two
+smaller units (labeled「再区分」) each with a price tag「1,000円」stacked to
+total「2,000円」; beside it, a land plot shared by two owner icons labeled
+「国」and「私人」being split into two plots (labeled「分筆」) each with a
+price tag「1,000円」stacked to total「2,000円」.
+Words allowed inside this illustration (verbatim, nothing else): 「区分建物」「再区分」「1,000円」「2,000円」「国」「私人」「分筆」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 第3欄と一致
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 合筆の抹消は範囲外、代位分筆は非課税
-Illustration: A merged land plot with a red 錯誤 stamp being split back
-apart (合筆を抹消する登記), with a dashed gray-teal 課税範囲外 tag and "0円" stamp;
-beside it, a city-hall/government-building icon (地方公共団体) handing a
-document labeled 代位して行う分筆の嘱託 for a privately-owned land plot
-（私人名義）, marked with a solid green torn-paper 非課税 tag and "0円" stamp
-(a different tag style from the dashed gray-teal 課税範囲外 tag).
+Illustration: A merged land plot with a red stamp labeled「錯誤」being
+split back apart (labeled「合筆を抹消する登記」), with a dashed gray-teal
+tag labeled「課税範囲外」and a「0円」stamp; beside it, a city-hall/
+government-building icon labeled「地方公共団体」handing a document labeled
+「代位して行う分筆の嘱託」toward a privately-owned land plot labeled「私人名義」,
+marked with a solid green torn-paper tag labeled「非課税」and a「0円」stamp
+(a different tag style from the dashed gray-teal「課税範囲外」tag).
+Words allowed inside this illustration (verbatim, nothing else): 「錯誤」「合筆を抹消する登記」「課税範囲外」「0円」「地方公共団体」「代位して行う分筆の嘱託」「私人名義」「非課税」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 第3欄と一致
 
@@ -217,26 +234,27 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 第3欄の記載と不一致
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 区分建物の合併は1,000円で課税
 Illustration: Two isometric condo units merging into one non-divided
-unit (区分建物の合併) with a price tag "1,000円"; beside it, two separate
-small houses physically joining into one building (合体による登記等) with
-a dashed gray-teal 課税範囲外 tag and a "0円" stamp; a red "≠" symbol sits between
-the two scenes.
+unit (labeled「区分建物の合併」) with a price tag「1,000円」; beside it, two
+separate small houses physically joining into one building (labeled「合体
+による登記等」) with a dashed gray-teal tag labeled「課税範囲外」and a「0円」
+stamp; a red "≠" symbol sits between the two scenes.
+Words allowed inside this illustration (verbatim, nothing else): 「区分建物の合併」「1,000円」「合体による登記等」「課税範囲外」「0円」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 第3欄と不一致
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 宗教法人の土地分筆は2,000円で課税
-Illustration: A 表題部所有者 icon changing its address label (住所変更)
-with a dashed gray-teal 課税範囲外 tag and "0円" stamp; beside it, a shrine/temple-
-shaped icon (宗教法人) owning a land plot that is split into two plots
-(分筆) each with a price tag "1,000円" stacked to total "2,000円", with a
-red "×" over a 非課税 tag to show it is not tax-exempt.
+Illustration: A person icon labeled「表題部所有者」changing its address
+label (labeled「住所変更」) with a dashed gray-teal tag labeled「課税範囲外」
+and a「0円」stamp; beside it, a shrine/temple-shaped icon labeled「宗教法人」
+owning a land plot that is split into two plots (labeled「分筆」) each with
+a price tag「1,000円」stacked to total「2,000円」, with a red "×" over a tag
+labeled「非課税」to show it is not tax-exempt.
+Words allowed inside this illustration (verbatim, nothing else): 「表題部所有者」「住所変更」「課税範囲外」「0円」「宗教法人」「分筆」「1,000円」「2,000円」「非課税」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 第3欄と不一致
 
@@ -254,12 +272,12 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, that no card carries a number, numbered
+circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -318,6 +336,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -470,7 +497,11 @@ the 墓地 part in panel 1 and the 代位 branch in panel 4), that each 着眼�
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
-additional text block of any kind), and confirm the entire canvas, edge
+additional text block of any kind). Confirm that no diagram or
+illustration contains any text other than the words specified in its
+Diagram line (plus that panel's heading, 着眼点 callout and conclusion
+tag), with no inscriptions, signs, numbers or pseudo-writing, and that
+each word is clearly legible. Confirm the entire canvas, edge
 to edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```

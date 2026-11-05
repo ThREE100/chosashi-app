@@ -135,6 +135,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・図・権・登・記・嘱・託・筆 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -145,73 +158,78 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 --- HEADER ---
 Title (large, bold, 2行):
 分筆の登記、
 「誰が」申請できるか
 
 Subtitle (smaller, centered, 1行):
-令和2年度 午後の部 第9問／職権・嘱託・代位の5つの場面
+職権・嘱託・代位の5つの場面（令和2年度 午後の部 第9問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。5肢が別々の主体・場面を扱うため列分けはせず、単一列の
 カード群とする。）
 
 --- CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 異議なければ職権分筆可
-Illustration: An isometric flow chart: a registrar icon (登記官) holding
-a map (地図) faces a landowner icon. If the landowner shows a speech
-bubble saying 異議あり, an X mark appears over a 職権分筆 stamp icon; if
-the landowner shows 異議なし instead, a checkmark appears over the same
-stamp icon.
+Illustration: An isometric flow chart: a registrar icon labeled 「登記官」
+holding a map labeled 「地図」 faces a landowner icon. If the landowner
+shows a speech bubble saying 「異議あり」, an X mark appears over a
+「職権分筆」 stamp icon; if the landowner shows 「異議なし」 instead, a
+checkmark appears over the same stamp icon.
+Words allowed inside this illustration (verbatim, nothing else): 「登記官」「地図」「異議あり」「職権分筆」「異議なし」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 異議なしが条件
 
 --- CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 地目変更と一括なら日付を記載
 Illustration: An isometric single application document icon containing
-two split land plots — one labeled 宅地 (new land use) and one labeled
-元の地目 (original land use) — plus a calendar icon with the label
-年月日地目変更 attached to the document.
+two split land plots — one labeled 「宅地」 (new land use) and one labeled
+「元の地目」 (original land use) — plus a calendar icon with the label
+「年月日地目変更」 attached to the document.
+Words allowed inside this illustration (verbatim, nothing else): 「宅地」「元の地目」「年月日地目変更」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 登記原因・日付を記載
 
 --- CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 河川管理者は代位して嘱託できる
-Illustration: An isometric land plot with a blue winding river (河川)
-covering part of it. A river-administrator icon (河川管理者, a
-government-official figure) submits a 嘱託 document directly to a
-registry-office icon (登記所), with the landowner icon standing passively
-to the side.
+Illustration: An isometric land plot with a blue winding river labeled
+「河川」 covering part of it. A river-administrator icon labeled
+「河川管理者」 submits a document labeled 「嘱託」 directly to a
+registry-office icon labeled 「登記所」, with the landowner icon standing
+passively to the side.
+Words allowed inside this illustration (verbatim, nothing else): 「河川」「河川管理者」「嘱託」「登記所」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代位して嘱託可
 
 --- CARD 4 ---
-Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 持分買収では国は代位できない
 Illustration: An isometric single, undivided land plot shared by two
-co-owner icons A and B. A government icon (国) receives only A's持分
-via an arrow labeled 持分譲渡, while the land plot itself remains a
-single unsplit shape with a label 分筆×.
+co-owner icons A and B (visually distinct figures, do not write the
+letters "A"/"B" on them). A government icon labeled 「国」 receives only
+A's share via an arrow labeled 「持分譲渡」, while the land plot itself
+remains a single unsplit shape with a label 「分筆×」.
+Words allowed inside this illustration (verbatim, nothing else): 「国」「持分譲渡」「分筆×」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代位分筆はできない
 
 --- CARD 5 ---
-Badge: a filled green circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 分割判決確定後は代位して申請可
 Illustration: An isometric courthouse icon with a document labeled
-判決確定 above a land plot split by a dividing line. Co-owner A icon
-holds an application document, while co-owner B icon stands with arms
-crossed labeled 非協力; an arrow labeled 代位 runs from A to B's portion
-of the application.
+「判決確定」 above a land plot split by a dividing line. Co-owner A
+(visually distinct figure, do not write the letter "A" on it) holds an
+application document, while co-owner B (visually distinct figure, do not
+write the letter "B" on it) stands with arms crossed labeled 「非協力」; an
+arrow labeled 「代位」 runs from A to B's portion of the application.
+Words allowed inside this illustration (verbatim, nothing else): 「判決確定」「非協力」「代位」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 非協力でも代位可
 
@@ -229,11 +247,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards and badge numbers running 1-5 without
-resetting, confirm there is no intro illustration or paragraph block
+no duplicated or missing cards, that no card carries a number, numbered
+circle or any numbering, confirm there is no intro illustration or paragraph block
 between the header and the cards, and confirm that no card contains a
 full sentence of explanatory prose — every card's takeaway must read as a
-short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+short heading + a short conclusion tag, at a glance. Confirm that no illustration contains
+any text other than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing, no letters identifying a figure such as "A" or "B"), and that each allowed word
+is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -287,6 +308,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -431,7 +461,10 @@ order rather than only a conclusion, that Panel 4's comparison frame
 clearly distinguishes its own highlighted box from the faded, unrelated
 box, confirm nothing is rendered below the last panel's footnote text (no
 summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
-all 肢, and no additional text block of any kind), and confirm the entire
+all 肢, and no additional text block of any kind), confirm that no diagram
+or illustration contains any text other than the words specified for that
+panel (no inscriptions on stones, signs, or documents, no pseudo-writing),
+and that each specified word is clearly legible, and confirm the entire
 canvas, edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```

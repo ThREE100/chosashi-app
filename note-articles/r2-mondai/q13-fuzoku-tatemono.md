@@ -143,6 +143,19 @@ kanji 附・属・建・物・滅・失・変・更・分・割・共・有・�
 must be rendered in their standard Japanese (Jōyō) forms, never as
 Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -153,13 +166,16 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 --- HEADER ---
 Title (large, bold, 2行):
 「附属建物」の
 5つのルール
 
 Subtitle (smaller, centered, 1行):
-令和2年度　午後の部　第13問－附属建物の登記
+附属建物の登記（令和2年度　午後の部　第13問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -168,40 +184,40 @@ Subtitle (smaller, centered, 1行):
 登記の扱い方
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 母屋だけ滅失は抹消でなく変更
 Illustration: Isometric scene of a main house being demolished (a small
 wrecking-ball or crane icon over it), while a small shed beside it
 remains standing untouched. An arrow points from the shed to a label
-tag reading "新しい主である建物". Next to it, a stamp icon labeled
-"表題部の変更登記" has a checkmark, while a second stamp icon labeled
-"登記の抹消" is crossed out.
+tag reading 「新しい主である建物」. Next to it, a stamp icon labeled
+「表題部の変更登記」 has a checkmark, while a second stamp icon labeled
+「登記の抹消」 is crossed out.
+Words allowed inside this illustration (verbatim, nothing else): 「新しい主である建物」「表題部の変更登記」「登記の抹消」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 抹消でなく変更
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 主と附属の敷地権は区別表示
 Illustration: Isometric cross-section of an apartment building showing
 a main unit (主である建物、区分建物) and a small storage/trunk-room
 unit (附属建物、区分建物) stacked together. Two separate dashed lines
 run down from each unit to the land plot below, ending in two distinct
-labeled tags placed side by side: "主である建物に係る敷地権" and
-"附属建物に係る敷地権", clearly kept apart from each other.
+labeled tags placed side by side: 「主である建物に係る敷地権」 and
+「附属建物に係る敷地権」, clearly kept apart from each other.
+Words allowed inside this illustration (verbatim, nothing else): 「主である建物に係る敷地権」「附属建物に係る敷地権」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 敷地権は区別表示
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 基礎を残した建て直しも新築扱い
 Illustration: Isometric scene showing an old shed being torn down,
 leaving only its foundation/base (基礎) visible on the ground. Beside
 it, an identical new shed of the same size and shape is being built on
-that same foundation. A label tag reads "新築扱い" with a checkmark,
-next to a building-plan document icon labeled "建物図面が必要".
+that same foundation. A label tag reads 「新築扱い」 with a checkmark,
+next to a building-plan document icon labeled 「建物図面が必要」.
+Words allowed inside this illustration (verbatim, nothing else): 「新築扱い」「建物図面が必要」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 新築として扱う
 
@@ -209,27 +225,27 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 申請・添付の要件
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 承諾書だけでは一人で分割不可
 Illustration: Isometric shed (附属建物) with three person icons
 around it representing co-owners (共有者), each with a small tag
-"持分3分の1". LEFT: one person icon alone holding a paper labeled
-"他の共有者の承諾書" and a form labeled "建物の分割の登記", crossed out with
+「持分3分の1」. LEFT: one person icon alone holding a paper labeled
+「他の共有者の承諾書」 and a form labeled 「建物の分割の登記」, crossed out with
 a red ✕. RIGHT: two of the three person icons signing the same form
-together, with a small tag "持分の合計3分の2（過半数）" and a green
+together, with a small tag 「持分の合計3分の2（過半数）」 and a green
 checkmark; the third person stands aside, not signing.
+Words allowed inside this illustration (verbatim, nothing else): 「持分3分の1」「他の共有者の承諾書」「建物の分割の登記」「持分の合計3分の2（過半数）」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 持分の過半数で申請
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 附属建物の新築は所有権証明が要
 Illustration: Isometric main house with a newly built garage/shed
 (車庫) being added beside it, construction icons around it. A document
-icon labeled "所有権証明情報" is being handed toward a form icon
-labeled "建物の表題部の変更登記", with a checkmark.
+icon labeled 「所有権証明情報」 is being handed toward a form icon
+labeled 「建物の表題部の変更登記」, with a checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「所有権証明情報」「建物の表題部の変更登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 所有権証明が必要
 
@@ -239,12 +255,14 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, that no card carries a number, numbered
+circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing), and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -306,6 +324,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -444,7 +471,10 @@ with no visible decision structure), that no 肢 with a genuinely hidden
 second condition has been flattened into a single check, that each 着眼点
 callout states a checking order rather than only a conclusion, that
 Panels 1, 2, and 4 each clearly distinguish their red 誤りやすいイメージ
-side from their green 正しい仕組み side, confirm nothing is rendered
+side from their green 正しい仕組み side, confirm that no illustration
+contains any text other than the words specified in its Diagram line (no
+inscriptions on stones or signs, no pseudo-writing), and that each
+specified word is clearly legible, confirm nothing is rendered
 below the last panel's footnote text (no summary recap panel, no trophy
 or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
 block of any kind), and confirm the entire canvas, edge to edge, is

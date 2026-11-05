@@ -135,6 +135,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・権・登・記・積・務・況・変 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -145,13 +158,16 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 --- HEADER ---
 Title (large, bold, 2行):
 地目変更登記は
 「現況公示」がすべての軸
 
 Subtitle (smaller, centered, 1行):
-令和2年度 午後の部 第7問／申請義務者・日付・過去の変更の扱い
+申請義務者・日付・過去の変更の扱い（令和2年度 午後の部 第7問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -160,25 +176,25 @@ Subtitle (smaller, centered, 1行):
 申請人・前提条件のルール
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 敷地権登記の抹消は不要
-Illustration: An isometric mansion (集合住宅) building with a 敷地権 (敷地権
-である旨の登記) stamp icon still attached and intact — no cancellation
-mark or X — with an arrow pointing to a land-use-change application
-document icon labeled 地目変更登記.
+Illustration: An isometric mansion building labeled 「集合住宅」 with a
+「敷地権である旨の登記」 stamp icon still attached and intact — no
+cancellation mark or X — with an arrow pointing to a land-use-change
+application document icon labeled 「地目変更登記」.
+Words allowed inside this illustration (verbatim, nothing else): 「集合住宅」「敷地権である旨の登記」「地目変更登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 抹消不要で申請可
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 申請義務者は所有権登記名義人
-Illustration: An isometric scene with two people: person A (地上権者,
-holding a pickaxe, clearing a forested plot labeled 山林→宅地) and
-person B (所有権の登記名義人, in business attire, standing beside a
-registration document). An arrow labeled 申請義務 points from the
-document to person B only, not to person A.
+Illustration: An isometric scene with two people: person A labeled
+「地上権者」 (holding a pickaxe, clearing a forested plot labeled
+「山林→宅地」) and person B labeled 「所有権の登記名義人」 (in business
+attire, standing beside a registration document). An arrow labeled
+「申請義務」 points from the document to person B only, not to person A.
+Words allowed inside this illustration (verbatim, nothing else): 「地上権者」「山林→宅地」「所有権の登記名義人」「申請義務」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 義務者は所有者
 
@@ -186,35 +202,39 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 申請情報の書き方・添付のルール
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 最終の変更だけ登記すれば足りる
 Illustration: An isometric timeline showing a land plot's history as
-田→畑→宅地, with the first two transitions (田→畑) grayed out and
+「田→畑→宅地」, with the first two transitions (田→畑) grayed out and
 crossed through, and only the final transition to 宅地 highlighted with
 an arrow leading to a single registration document icon.
+Words allowed inside this illustration (verbatim, nothing else): 「田→畑→宅地」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 現況だけ登記
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 地積変更との併合は不要
 Illustration: Two separate isometric document icons side by side: one
-labeled 地目変更登記 with a checkmark standing alone and independent,
-the other labeled 地積変更登記 shown faded/optional with a label 併合不要
-and no connecting chain or link between the two documents.
+labeled 「地目変更登記」 with a checkmark standing alone and independent,
+the other labeled 「地積変更登記」 shown faded/optional with a label
+「併合不要」 and no connecting chain or link between the two documents.
+Words allowed inside this illustration (verbatim, nothing else): 「地目変更登記」「地積変更登記」「併合不要」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 併せて申請不要
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 日付は現況が変わった日
-Illustration: An isometric calendar with two marked dates: 3月1日 labeled
-農地法許可日 shown grayed out and unused, and 6月1日 labeled 現況が宅地に変わった日
-shown highlighted and connected by an arrow to a registration document
-icon.
+Illustration: An isometric calendar with two marked dates: 「3月1日」 labeled
+「農地法許可日」 shown grayed out and unused, and 「6月1日」 labeled
+「現況が宅地に変わった日」 shown highlighted and connected by an arrow to a
+registration document icon. IMPORTANT: 「3月1日」 and 「6月1日」 are two
+DIFFERENT date strings — they differ only in the first character (3 vs
+6) — render each exactly as given, with the differing digit drawn large
+and in a visually distinct color so the two dates cannot be confused or
+duplicated into the same date.
+Words allowed inside this illustration (verbatim, nothing else): 「3月1日」「農地法許可日」「6月1日」「現況が宅地に変わった日」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 現況変更日が基準
 
@@ -232,12 +252,16 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, that no card carries a number, numbered
+circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no pseudo-writing),
+and that each allowed word is clearly legible. Confirm that the two calendar
+dates 「3月1日」 and 「6月1日」 in Card 5 are rendered as two different
+strings, not duplicated into the same date. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -294,6 +318,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -399,6 +432,11 @@ the registration-cause date field blocked by a large red X. RIGHT box
 (highlighted with a thick colored border, full color, labeled 「正しい
 ルール」): a calendar marked 「6月1日」 labeled 「現況が宅地に変わった日」,
 with an arrow to the registration-cause date field and a checkmark.
+IMPORTANT: 「3月1日」 and 「6月1日」 are two DIFFERENT date strings — they
+differ only in the first character (3 vs 6) — render each exactly as
+given, with the differing digit drawn large and in a visually distinct
+color so the two dates cannot be confused or duplicated into the same
+date.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、その変更が農地法所定の許可を要する変更かどうかを確認します。次に、
 登記原因の日付として記載すべきは許可があった日ではなく、実際に土地の
@@ -420,11 +458,16 @@ in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
 paragraph block between the header and the panels, that Panels 1 and 5
 each clearly distinguish the mistaken assumption from the correct rule
-with a visible X or strikethrough on the mistaken side, that each 着眼点
+with a visible X or strikethrough on the mistaken side, that Panel 5's two
+dates 「3月1日」 and 「6月1日」 are rendered as two different strings and not
+duplicated into the same date, that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
-no additional text block of any kind), and confirm the entire canvas,
+no additional text block of any kind), confirm that no diagram or
+illustration contains any text other than the words specified for that
+panel (no inscriptions on stones, signs, or documents, no pseudo-writing),
+and that each specified word is clearly legible, and confirm the entire canvas,
 edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```

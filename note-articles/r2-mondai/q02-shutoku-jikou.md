@@ -138,6 +138,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・続・対・効・過・失・相 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -148,53 +161,56 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 --- HEADER ---
 Title (large, bold, 1行):
 取得時効の落とし穴
 
 Subtitle (smaller, centered, 1行):
-令和2年度 午後の部 第2問－相続・悪意・無過失・起算点
+相続・悪意・無過失・起算点（令和2年度 午後の部 第2問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人の自主占有で時効取得可
 Illustration: 家のアイソメトリックイラスト。左側に薄く描かれた親のシルエットに「他主占有（借りているだけ）」のラベル、右側に家の前に堂々と立つ子のシルエットに「自分の家だ」という吹き出しを描き、両者の間に「新たに占有を開始」の矢印を配置する。
+Words allowed inside this illustration (verbatim, nothing else): 「他主占有（借りているだけ）」「自分の家だ」「新たに占有を開始」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 自己の占有のみでOK
 
 --- CARD 2 ---
-Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 悪意でも20年で時効取得
 Illustration: 土地のアイソメトリックイラストの上に人物シルエットが立ち、頭上に「本当の所有者は別にいると知っていた（悪意）」の吹き出しを描く。足元に大きく「20年」の数字とカレンダーのアイコンを配置する。
+Words allowed inside this illustration (verbatim, nothing else): 「本当の所有者は別にいると知っていた（悪意）」「20年」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 悪意でも20年で時効
 
 --- CARD 3 ---
-Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 抵当権登記後の賃借権は対抗不可
 Illustration: 左から右へ続く時系列の矢印の上に、3つのアイコンを順番に並べる。①印鑑のアイコンに「抵当権設定登記」のラベル、②鍵のアイコンに「賃借権の時効取得」のラベル、③オークションの木づちアイコンに「競売・買受人」のラベル。②から③へ向かう矢印には大きなバツ印を重ねる。
+Words allowed inside this illustration (verbatim, nothing else): 「抵当権設定登記」「賃借権の時効取得」「競売・買受人」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 賃借権は対抗不可
 
 --- CARD 4 ---
-Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 無過失は推定されない
 Illustration: バランスの取れた天秤のアイソメトリックイラスト。片側の皿に「所有の意思・善意・平穏・公然」のラベルとチェックマークのアイコン（推定される）、もう片側の皿に「無過失」のラベルと虫眼鏡のアイコン（自分で証明する必要がある）を描く。
+Words allowed inside this illustration (verbatim, nothing else): 「所有の意思・善意・平穏・公然」「無過失」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 無過失は推定なし
 
 --- CARD 5 ---
-Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 起算点は勝手に選べない
 Illustration: カレンダーのアイソメトリックイラストに、占有開始日を示すピンのアイコンを固定して描く。そのピンを左右にずらそうとする手のアイコンに大きなバツ印を重ねる。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 起算点は固定
 
@@ -212,10 +228,11 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, confirm there is no intro illustration or
+no duplicated or missing cards, that no card carries a number, numbered
+circle or any numbering, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+read as a short heading + a short conclusion tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -267,6 +284,15 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -395,9 +421,12 @@ between the header and the panels, that every multi-condition 肢（ア・
 ウ）is drawn as an actual flowchart with branch nodes (not a bare
 illustration with no visible decision structure), that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
-nothing is rendered below the last panel's footnote text (no summary
-recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
-no additional text block of any kind), and confirm the entire canvas,
-edge to edge, is filled with a fully opaque background with no
+that no diagram or illustration contains any text other than the words
+written in 「」 on its own Diagram line (no inscriptions on signs or
+documents, no pseudo-writing), and that each such word is clearly
+legible, confirm nothing is rendered below the last panel's footnote text
+(no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of
+all 肢, and no additional text block of any kind), and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
 ```

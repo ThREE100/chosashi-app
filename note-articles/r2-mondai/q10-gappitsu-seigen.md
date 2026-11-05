@@ -139,6 +139,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・番・録・権・登・記・所・筆・役 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -149,13 +162,16 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 --- HEADER ---
 Title (large, bold, 2行):
 土地はいつでもくっつけられる？
 合筆の登記の制限
 
 Subtitle (smaller, centered, 1行):
-令和2年度 午後の部 第10問／権利関係が同一なら合筆できる例外
+権利関係が同一なら合筆できる例外（令和2年度 午後の部 第10問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -164,24 +180,25 @@ Subtitle (smaller, centered, 1行):
 合筆できる例外のルール
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 同一内容の抵当権なら合筆可
-Illustration: An isometric 甲土地 and 乙土地 side by side, each with an
-identical mortgage icon (抵当権) labeled with the same 受付年月日・受付番号,
-followed by identical change-registration icons (変更登記) on both
-plots. A green 合筆○ label sits between the two plots.
+Illustration: An isometric 「甲土地」 and 「乙土地」 side by side, each with
+an identical mortgage icon labeled 「抵当権」 bearing the same 「受付年月日・受付番号」,
+followed by identical change-registration icons labeled 「変更登記」 on
+both plots. A green label reading 「合筆○」 sits between the two plots.
+Words allowed inside this illustration (verbatim, nothing else): 「甲土地」「乙土地」「抵当権」「受付年月日・受付番号」「変更登記」「合筆○」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 内容同一なら合筆可
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 信託目録同一なら合筆可
-Illustration: An isometric 甲土地 and 乙土地, each with a trust
-registration icon (信託の登記) and an accompanying 信託目録 document. An
-equals sign (＝) connects the contents of both 信託目録 documents,
-showing they are identical, with a green 合筆○ label.
+Illustration: An isometric 「甲土地」 and 「乙土地」, each with a trust
+registration icon labeled 「信託の登記」 and an accompanying document
+labeled 「信託目録」. An equals sign (＝) connects the contents of both
+「信託目録」 documents, showing they are identical, with a green label
+reading 「合筆○」.
+Words allowed inside this illustration (verbatim, nothing else): 「甲土地」「乙土地」「信託の登記」「信託目録」「合筆○」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 信託目録が同一なら可
 
@@ -189,35 +206,41 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 合筆できない事由のルール
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 地番区域が違えば合筆不可
 Illustration: An isometric land plot with a street sign reading
-○○町一丁目 next to an adjacent land plot with a street sign reading
-○○町二丁目, with a red 合筆× label between them despite the plots being
-physically adjacent.
+「○○町一丁目」 next to an adjacent land plot with a street sign reading
+「○○町二丁目」, with a red label reading 「合筆×」 between them despite the
+plots being physically adjacent. IMPORTANT: 「○○町一丁目」 and 「○○町二丁目」
+are two DIFFERENT strings — they differ only in the middle character
+(一 vs 二) — render each exactly as given, with the differing kanji drawn
+large and in a visually distinct color so the two street signs cannot be
+confused or duplicated into the same name.
+Words allowed inside this illustration (verbatim, nothing else): 「○○町一丁目」「○○町二丁目」「合筆×」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 区域相違は合筆不可
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 要役地の地役権は合筆不可
-Illustration: An isometric 丙土地 (承役地, shown as a pathway/road strip)
-in the middle, with 甲土地 and 乙土地 (要役地) on either side, each
-connected to 丙土地 by an arrow labeled 地役権. A red X sits on a merge
-arrow between 甲土地 and 乙土地, with a small note 例外は承役地側の地役権のみ.
+Illustration: An isometric 「丙土地」 (this is the 承役地, shown as a
+pathway/road strip, but do not write 承役地 on it) in the middle, with
+「甲土地」 and 「乙土地」 (these are the 要役地, do not write 要役地 on them) on
+either side, each connected to 「丙土地」 by an arrow labeled 「地役権」. A
+red X sits on a merge arrow between 「甲土地」 and 「乙土地」, with a small
+note reading 「例外は承役地側の地役権のみ」.
+Words allowed inside this illustration (verbatim, nothing else): 「丙土地」「甲土地」「乙土地」「地役権」「例外は承役地側の地役権のみ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 例外は承役地側のみ
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 所有権移転の仮登記は合筆不可
-Illustration: An isometric 甲土地 and 乙土地, each stamped with an
-identical dashed-outline registration icon labeled 仮登記（所有権移転）,
-with a red 合筆× label between the two plots despite the identical
-content.
+Illustration: An isometric 「甲土地」 and 「乙土地」, each stamped with an
+identical dashed-outline registration icon labeled 「仮登記（所有権移転）」,
+with a red label reading 「合筆×」 between the two plots despite the
+identical content.
+Words allowed inside this illustration (verbatim, nothing else): 「甲土地」「乙土地」「仮登記（所有権移転）」「合筆×」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 仮登記があれば不可
 
@@ -235,12 +258,16 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, that no card carries a number, numbered
+circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its
+"Words allowed" words (no inscriptions on stones or signs, no pseudo-writing),
+and that each allowed word is clearly legible. Confirm that the two street signs
+「○○町一丁目」 and 「○○町二丁目」 in Card 3 are rendered as two different
+strings, not duplicated into the same town name. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -302,6 +329,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -442,7 +478,10 @@ a conclusion, that Panel 4's comparison frame clearly distinguishes its
 own highlighted box from the faded, unrelated box, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel,
 no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
-additional text block of any kind), and confirm the entire canvas, edge
-to edge, is filled with a fully opaque background with no transparency
-or alpha channel anywhere.
+additional text block of any kind), confirm that no diagram or
+illustration contains any text other than the words specified for that
+panel (no inscriptions on stones, signs, or documents, no pseudo-writing),
+and that each specified word is clearly legible, and confirm the entire
+canvas, edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```

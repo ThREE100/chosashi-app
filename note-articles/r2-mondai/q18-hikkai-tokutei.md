@@ -131,8 +131,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 登・記・権 — these must be rendered in their standard Japanese forms,
+kanji 登・記・権・筆・界・関・係・提・続 — these must be rendered in their standard Japanese forms,
 never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -144,12 +157,15 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 --- HEADER ---
 Title (large, bold, 1行):
 筆界特定、5つの重要ポイント
 
 Subtitle (smaller, centered, 1行):
-令和2年度 午後の部 第18問－意見提出の範囲と手続の性質
+意見提出の範囲と手続の性質（令和2年度 午後の部 第18問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -158,24 +174,24 @@ Subtitle (smaller, centered, 1行):
 意見・資料を提出できるのは誰か
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 非申請人の共有者も意見提出可
 Illustration: A land plot icon shared by two co-owner person icons
-labeled Ａ（申請人）and Ｂ（共有者・非申請人）; both icons have a speech
-bubble and a document icon pointing toward 筆界特定登記官, both marked
-with green checkmarks.
+labeled「Ａ（申請人）」and「Ｂ（共有者・非申請人）」; both icons have a speech
+bubble and a document icon pointing toward a figure labeled「筆界特定登記官」,
+both marked with green checkmarks.
+Words allowed inside this illustration (verbatim, nothing else): 「Ａ（申請人）」「Ｂ（共有者・非申請人）」「筆界特定登記官」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 関係人として提出可
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 抵当権者は意見を提出できない
-Illustration: A land plot icon; a bank/person icon labeled 抵当権者
-holding a document, blocked by a red "×" barrier before reaching
-筆界特定登記官; beside them, a person icon labeled 所有権の登記名義人
-passes through the same path with a green checkmark and a label 関係人.
+Illustration: A land plot icon; a bank/person icon labeled「抵当権者」
+holding a document, blocked by a red "×" barrier before reaching a figure
+labeled「筆界特定登記官」; beside them, a person icon labeled「所有権の登記名義人」
+passes through the same path with a green checkmark and a small tag labeled「関係人」.
+Words allowed inside this illustration (verbatim, nothing else): 「抵当権者」「筆界特定登記官」「所有権の登記名義人」「関係人」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 関係人にあたらない
 
@@ -183,36 +199,37 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 手続の進め方・制度の性質
 
 --- COLUMN B, CARD 3 ---
-Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 意見・資料の提出に書面は不要
-Illustration: A person icon (申請人) speaking with a speech-bubble icon
-toward 筆界特定登記官; next to them, a blank paper icon with a "必須"
-stamp is crossed out with an "×", showing that a written document is not
-required.
+Illustration: A person icon labeled「申請人」speaking with a speech-bubble
+icon toward a figure labeled「筆界特定登記官」; next to them, a blank paper
+icon with a「必須」stamp is crossed out with an "×", showing that a written
+document is not required.
+Words allowed inside this illustration (verbatim, nothing else): 「申請人」「筆界特定登記官」「必須」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 口頭でも可
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 申請人が資料を出さなくても特定可
-Illustration: A 申請人 icon standing with empty hands (no document icon);
-筆界特定登記官 icon nearby produces a completed 筆界特定 result document
-with a green checkmark, surrounded by independent survey icons (測量機器,
-巻尺) used on its own.
+Illustration: A person icon labeled「申請人」standing with empty hands (no
+document icon); a figure labeled「筆界特定登記官」nearby produces a
+completed document labeled「筆界特定」with a green checkmark, surrounded by
+independent survey icons (measuring equipment, tape measure) used on its
+own without any additional label.
+Words allowed inside this illustration (verbatim, nothing else): 「申請人」「筆界特定登記官」「筆界特定」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 不提出でも実施可
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 筆界特定は新たな筆界を作らない
 Illustration: A land plot with a faint pre-existing dotted boundary line
-being traced and highlighted by a spotlight from 筆界特定登記官, turning
-solid; beside it, a separate crossed-out icon shows a brand-new line
-being drawn from scratch on blank ground, labeled 新たな筆界の形成 with a
-red "×".
+being traced and highlighted by a spotlight from a figure labeled
+「筆界特定登記官」, turning solid; beside it, a separate crossed-out icon
+shows a brand-new line being drawn from scratch on blank ground, labeled
+「新たな筆界の形成」with a red "×".
+Words allowed inside this illustration (verbatim, nothing else): 「筆界特定登記官」「新たな筆界の形成」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 明らかにするだけ
 
@@ -230,12 +247,12 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, that no card carries a number, numbered
+circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -302,6 +319,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -440,6 +466,10 @@ back to an earlier node, that each 着眼点 callout states a checking order
 rather than only a conclusion, confirm nothing is rendered below the
 last panel's footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
-any kind), and confirm the entire canvas, edge to edge, is filled with a
+any kind). Confirm that no diagram or illustration contains any text
+other than the words specified in its Diagram line (plus that panel's
+heading, 着眼点 callout and conclusion tag), with no inscriptions, signs,
+numbers or pseudo-writing, and that each word is clearly legible. Confirm
+the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere.
 ```

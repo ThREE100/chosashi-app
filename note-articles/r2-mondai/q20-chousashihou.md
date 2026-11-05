@@ -138,7 +138,21 @@ exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 調・査・士・登・録 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants (録 must not become a
-simplified variant).
+simplified variant). Also pay special attention to 務・鑑・補・審・算・業,
+which must likewise stay in standard Japanese form.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -149,6 +163,9 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -161,58 +178,58 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled circle in a single accent color containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 公務員時代の事件は扱えない
 Illustration: A single person icon shown in two roles side by side —
-left half wearing a 公務員(government official) uniform handling a case
-file labeled 事件Ｘ, right half wearing a 土地家屋調査士バッジ reaching
-toward the same file 事件Ｘ but blocked by a red "×" barrier.
+left half wearing a uniform labeled「公務員」handling a case file labeled
+「事件Ｘ」, right half wearing a badge labeled「土地家屋調査士」reaching
+toward the same file「事件Ｘ」but blocked by a red "×" barrier.
+Words allowed inside this illustration (verbatim, nothing else): 「公務員」「事件Ｘ」「土地家屋調査士」
 Conclusion tag (colored banner below the illustration, 5-15 characters):
 業務を行えない
 
 --- CARD 2 ---
-Badge: a filled circle in a single accent color containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 調査士法人の清算人は調査士に限る
-Illustration: A corporate/法人 building icon labeled 土地家屋調査士法人
-undergoing 解散・清算(dissolution), with a person icon wearing a
-土地家屋調査士バッジ stepping in as 清算人 with a green checkmark, while a
-generic office-staff person icon (no badge) is blocked with a red "×"
-from becoming 清算人.
+Illustration: A corporate/法人 building icon labeled「土地家屋調査士法人」
+undergoing dissolution (labeled「解散・清算」), with a person icon wearing a
+badge labeled「土地家屋調査士」stepping in as「清算人」with a green
+checkmark, while a generic office-staff person icon (no badge, no label)
+is blocked with a red "×" from becoming「清算人」.
+Words allowed inside this illustration (verbatim, nothing else): 「土地家屋調査士法人」「解散・清算」「土地家屋調査士」「清算人」
 Conclusion tag (colored banner below the illustration, 5-15 characters):
 調査士でなければならない
 
 --- CARD 3 ---
-Badge: a filled circle in a single accent color containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 登録取消しの不服は法務大臣へ
-Illustration: A 土地家屋調査士 person icon receiving a torn-paper notice
-labeled 登録取消し; an arrow shows the person submitting a document
-labeled 審査請求 to a government-building icon labeled 法務大臣.
+Illustration: A person icon labeled「土地家屋調査士」receiving a torn-paper
+notice labeled「登録取消し」; an arrow shows the person submitting a
+document labeled「審査請求」to a government-building icon labeled「法務大臣」.
+Words allowed inside this illustration (verbatim, nothing else): 「土地家屋調査士」「登録取消し」「審査請求」「法務大臣」
 Conclusion tag (colored banner below the illustration, 5-15 characters):
 法務大臣へ審査請求
 
 --- CARD 4 ---
-Badge: a filled circle in a single accent color containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 調査士法人は筆界鑑定業務も可
-Illustration: A 土地家屋調査士法人 building icon with a document icon
-labeled 定款; beside it, a person icon（鑑定人）holding a magnifying glass
-over a land-boundary line (筆界) and producing a document labeled 鑑定書,
-with a green checkmark.
+Illustration: A building icon labeled「土地家屋調査士法人」with a document
+icon labeled「定款」; beside it, a person icon labeled「鑑定人」holding a
+magnifying glass over a land-boundary line labeled「筆界」and producing a
+document labeled「鑑定書」, with a green checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「土地家屋調査士法人」「定款」「鑑定人」「筆界」「鑑定書」
 Conclusion tag (colored banner below the illustration, 5-15 characters):
 鑑定業務ができる
 
 --- CARD 5 ---
-Badge: a filled circle in a single accent color containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 測量業務そのものは補助者に不可
-Illustration: A 土地家屋調査士 person icon holding surveying equipment
-（測量機器）standing at a land plot; a 補助者(assistant) person icon
-nearby reaching for the surveying equipment but blocked by a red "×",
-while a small separate icon shows the 補助者 doing only secondary
-desk/office tasks labeled 補助的な事務 with a green checkmark.
+Illustration: A person icon labeled「土地家屋調査士」holding surveying
+equipment labeled「測量機器」standing at a land plot; a person icon labeled
+「補助者」nearby reaching for the surveying equipment but blocked by a red
+"×", while a small separate icon shows the「補助者」doing only secondary
+desk/office tasks labeled「補助的な事務」with a green checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「土地家屋調査士」「測量機器」「補助者」「補助的な事務」
 Conclusion tag (colored banner below the illustration, 5-15 characters):
 補助者には不可
 
@@ -234,7 +251,8 @@ no duplicated or missing cards, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+glance. Confirm that no card carries a number, numbered circle or any
+numbering. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -265,7 +283,11 @@ illustrative diagram for a single check, a left-to-right timeline for a
 sequence of events, or — where a 肢's wording contains a condition that
 looks decisive but is actually a trap that does not change the real
 conclusion (Panel 5) — a side-by-side「正しいルール」対「誤りやすい思い
-込み」comparison, with the mistaken side crossed out by a large red X.
+込み」comparison, where the mistaken-belief side is marked with a green
+checkmark (depicting the mistaken belief's own content, as if it were
+true) and the correct-rule side is marked with a large red X (showing the
+act is in fact not allowed) — the two sides must never carry the same
+mark.
 Where a 肢 genuinely requires checking multiple conditions in sequence,
 draw the diagram as an actual decision flowchart with diamond-shaped
 branch nodes; where it is resolved by a single check, a labeled
@@ -293,6 +315,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -395,14 +426,19 @@ Badge: a filled circle in teal containing the number 5.
 Heading (bold, ONE line):
 正当な事由があっても補助者に業務は任せられない
 Diagram: A 正誤対比型(correct-rule-versus-mistaken-belief) comparison,
-two panels side by side. LEFT panel（red background, labeled 誤りやすい
-思い込み）: a 土地家屋調査士 figure unable to go to the field（正当な事由
-のイメージ）hands 測量機器 to a 補助者(assistant) figure, who proceeds to
-carry out the survey alone; a large red「×」overlays the scene. RIGHT
-panel（green background, labeled 正しいルール）: the same 土地家屋調査士
-figure, whether or not a 正当な事由 exists, keeps 測量機器 in hand while
-the 補助者 figure instead performs only 補助的な事務（デスクワークの書類
-整理）labeled 補助的な事務のみ可, with a green checkmark.
+two panels side by side. IMPORTANT: the two sides must show OPPOSITE
+marks, not the same mark — this is a case where the mistaken belief
+predicts success/necessity (✓) but the actual rule says otherwise (✕); do
+not draw the same mark on both sides. LEFT panel（green background,
+labeled「誤りやすい思い込み」）: a 土地家屋調査士 figure unable to go to the
+field（正当な事由のイメージ）hands 測量機器 to a 補助者(assistant) figure,
+who proceeds to carry out the survey alone, with a green checkmark (this
+depicts the mistaken belief's own content, as if it were allowed — do not
+judge it as wrong in this panel). RIGHT panel（red background, labeled
+「正しいルール」）: the same scene — the 補助者 figure attempting to carry
+out the survey alone with 測量機器, regardless of whether a 正当な事由
+exists — overlaid with a single large red「×」only, showing this is not
+allowed under the actual rule.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、「自ら業務を行うことができない正当な事由がある」という記述だけ
 を見て結論が変わるように思い込まないよう注意します。正当な事由の有無
@@ -426,11 +462,16 @@ correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously, there is no intro illustration or paragraph
 block between the header and the panels, that Panel 5 is drawn as a
 side-by-side correct-rule-versus-mistaken-belief comparison with the
-mistaken side clearly crossed out, that each 着眼点 callout states a
+mistaken-belief side marked by a green checkmark and the correct-rule
+side marked by a red X (not the same mark on both sides), that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel,
 no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
-additional text block of any kind), and confirm the entire canvas, edge
+additional text block of any kind). Confirm that no diagram or
+illustration contains any text other than the words specified in its
+Diagram line (plus that panel's heading, 着眼点 callout and conclusion
+tag), with no inscriptions, signs, numbers or pseudo-writing, and that
+each word is clearly legible. Confirm the entire canvas, edge
 to edge, is filled with a fully opaque background with no transparency
 or alpha channel anywhere.
 ```

@@ -144,6 +144,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 図・証・還・戸・請・廃・除・相・続 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -154,12 +167,15 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 --- HEADER ---
 Title (large, bold, 1行):
 法定相続情報一覧図、5つの使い方ルール
 
 Subtitle (smaller, centered, 1行):
-令和2年度 午後の部 第5問（改）－現行ルールを整理
+現行ルールを整理（令和2年度 午後の部 第5問・改）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -168,26 +184,26 @@ Subtitle (smaller, centered, 1行):
 写しの提出・返却に関するルール
 
 --- COLUMN A, CARD 1 ---
-Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 番号だけで戸籍の代わりになる
 Illustration: 登記所の「法定相続情報一覧図つづり込み帳」アイコンに、既につづり込まれた一覧図の書類アイコンを描く。その隣に、番号だけが書かれた小さなメモアイコン（「法定相続情報番号」ラベル付き）を描き、そこから申請情報の書類アイコンへ矢印でつなげる。メモアイコンと申請情報アイコンの両方に大きなチェックマークを重ね、一覧図の写しそのものを改めて添付しなくても番号の提供だけで足りることを示す。
+Words allowed inside this illustration (verbatim, nothing else): 「法定相続情報一覧図つづり込み帳」「法定相続情報番号」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 番号だけで代替できる
 
 --- COLUMN A, CARD 2 ---
-Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 一覧図の写しは還付請求できる
 Illustration: 一覧図の写しの書類アイコンが法務局の窓口アイコンに提出され、その後「還付」のラベルを付けた矢印で申請者のシルエットの手元に戻ってくる循環矢印を描く。
+Words allowed inside this illustration (verbatim, nothing else): 「還付」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 還付請求できる
 
 --- COLUMN A, CARD 3 ---
-Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 写しに有効期間の制限はない
 Illustration: 一覧図の写しの書類アイコンの隣にカレンダーのアイコンを描き、カレンダーに「3ヶ月」の期限マークと大きなバツ印を重ね、無期限であることを示す無限大マークを添える。
+Words allowed inside this illustration (verbatim, nothing else): 「3ヶ月」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 有効期間なし
 
@@ -195,18 +211,18 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 記載内容と利用場面の広がり
 
 --- COLUMN B, CARD 4 ---
-Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 廃除者の戸籍提出は省略できる
 Illustration: 家系図の形をした一覧図のアイコンを描き、廃除された人物のシルエットをグレーアウトさせて図から消えている様子を表現する。その脇に戸籍謄本の書類アイコンと大きなバツ印を重ね、省略できることを示す。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 戸籍提出を省略
 
 --- COLUMN B, CARD 5 ---
-Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 地図訂正でも一覧図で代用可
 Illustration: 区画線の入った地図のアイコンと、法定相続情報一覧図の写しの書類アイコンを並べて描き、両者の間に「相続を証する情報の提供に代える」のラベルを付けた矢印を描く。
+Words allowed inside this illustration (verbatim, nothing else): 「相続を証する情報の提供に代える」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 地図訂正にも使える
 
@@ -216,12 +232,12 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
+no duplicated or missing cards, that no card carries a number, numbered
+circle or any numbering, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -284,6 +300,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -403,7 +428,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 続, 図, 証, 還, 戸, 請, 廃, 除, 相, 号, 込, 帳, 訂 and any
+attention to 続, 図, 証, 還, 戸, 請, 廃, 除, 相, 号, 込, 帳, 訂, 効 and any
 character that has a visually similar Simplified Chinese variant. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
@@ -413,9 +438,12 @@ as an actual flowchart with a clearly labeled diamond node and two
 distinct conclusion nodes (no looping arrow), that Panel 4's excluded
 heir is rendered in a faded, dotted-outline style rather than a plain X
 mark, that each 着眼点 callout states a checking order rather than only a
-conclusion, confirm nothing is rendered below the last panel's footnote
-text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
-grid of all 肢, and no additional text block of any kind), and confirm
-the entire canvas, edge to edge, is filled with a fully opaque background
-with no transparency or alpha channel anywhere.
+conclusion, confirm that no diagram or illustration contains any text
+other than the words written in 「」 on its own Diagram line (no
+inscriptions on signs or documents, no pseudo-writing), and that each
+such word is clearly legible, confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a
+fully opaque background with no transparency or alpha channel anywhere.
 ```

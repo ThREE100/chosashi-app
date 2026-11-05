@@ -150,8 +150,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 社・団・権・登・記・続 — these must be rendered in their standard
+kanji 社・団・権・登・記・続・対・慣・習・図 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the
+specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw.
+Inside every illustration (on objects, signs, papers, documents, stones,
+buildings, stamps and any other prop), render ONLY the words written in 「」
+in that card's Illustration line (and repeated on the "Words allowed" line
+under it), each one large, clear and exactly as written. Do not invent or
+add any other text inside an illustration: no inscriptions on boundary
+stones or markers, no extra signs, labels, captions, numbers or pseudo-
+writing. If a prop needs no specified word, leave its surface blank or show
+its meaning with an icon or a mark (check mark, red cross) instead. The
+title, subtitle, column headers, card headings and conclusion tags are the
+only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -163,53 +176,56 @@ good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or
+sequence mark on or near any card. The cards are not numbered.
+
 --- HEADER ---
 Title (large, bold, 1行):
 権利能力なき社団の4つの顔
 
 Subtitle (smaller, centered, 1行):
-令和2年度 午後の部 第1問－成立要件・債務・登記・規約・入会権
+成立要件・債務・登記・規約・入会権（令和2年度 午後の部 第1問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
 
 --- CARD 1 ---
-Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 社団性は4要件で判断
 Illustration: 中央に町内会風の集会所の建物アイコンを置き、周囲四隅に番号付きの4つのアイコンを配置する。番号と内容は次の4つで、順番も文言も変えずに全て描くこと（重複禁止・欠落禁止・言い換え禁止）：①組織図のアイコンに「団体としての組織」のラベル、②挙手する複数人のアイコンに「多数決の原則」のラベル、③入れ替わる人物シルエットと矢印のアイコンに「構成員が変わっても団体は存続」のラベル、④規約帳・組織図・金庫のアイコンに「代表の方法・総会の運営・財産の管理など主要な点の確定」のラベル。
+Words allowed inside this illustration (verbatim, nothing else): 「団体としての組織」「多数決の原則」「構成員が変わっても団体は存続」「代表の方法・総会の運営・財産の管理など主要な点の確定」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 4要件で社団認定
 
 --- CARD 2 ---
-Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 社団の借金は社団財産だけが負う
 Illustration: 町内会の会費・積立金を象徴する貯金箱アイコンに、貸主からの矢印が向かう構図。その周囲に並ぶ構成員（複数の人物シルエット）の胸元には盾のアイコンを重ね、各人物の財布アイコンには大きなバツ印を描いて、個人の財布へは矢印が向かわないことを示す。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 責任は社団財産のみ
 
 --- CARD 3 ---
-Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 共有名義か代表者名義で登記可
 Illustration: 中央に登記簿・権利証を思わせる書類アイコンを置き、上部には社団の看板アイコンに大きなバツ印（社団名義での登記は不可）を描く。左側に複数の人物シルエットと「構成員全員の共有名義」のラベル、右側に代表者一人のアイコンと「代表者個人名義」のラベルを配置し、それぞれから書類アイコンへ矢印を伸ばす。
+Words allowed inside this illustration (verbatim, nothing else): 「構成員全員の共有名義」「代表者個人名義」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 社団名義は不可
 
 --- CARD 4 ---
-Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 規約改正は反対者にも及ぶ
 Illustration: 規約帳のアイコンにペンで書き換えを示す改正マークを重ねる。周囲に複数の人物シルエットを並べ、そのうち一人だけ「反対」の吹き出しを出しているが、点線の輪（改正後の規約の適用範囲）が反対した人物を含む全員を囲んでいる構図。
+Words allowed inside this illustration (verbatim, nothing else): 「反対」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 反対者にも適用
 
 --- CARD 5 ---
-Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 入会権は慣習が民法より優先
 Illustration: 山と入会地を思わせるアイソメトリックな地形イラストの上に、古い巻物のアイコン（地域の慣習）を、民法の書籍アイコンより手前かつ大きく描き、優先関係を視覚的に示す。
+Words allowed inside this illustration: none (no text of any kind inside this illustration).
 Conclusion tag (green banner below the illustration, 5-15 characters):
 慣習が民法に優先
 
@@ -227,10 +243,11 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
-no duplicated or missing cards, confirm there is no intro illustration or
+no duplicated or missing cards, that no card carries a number, numbered
+circle or any numbering, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no card
 contains a full sentence of explanatory prose — every card's takeaway must
-read as a short heading + a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+read as a short heading + a short conclusion tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing), and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -282,6 +299,15 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -400,17 +426,20 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 社・団・権・登・記・続・総・慣・習. If any character renders
+attention to 社・団・権・登・記・続・総・慣・習・対. If any character renders
 as a Simplified or Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that the multi-condition 肢（ア）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
-checking order rather than only a conclusion, confirm nothing is rendered
-below the last panel's footnote text (no summary recap panel, no trophy
-or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
-block of any kind), and confirm the entire canvas, edge to edge, is
-filled with a fully opaque background with no transparency or alpha
-channel anywhere.
+checking order rather than only a conclusion, confirm that no diagram or
+illustration contains any text other than the words written in 「」 on its
+own Diagram line (no inscriptions on signs or documents, no
+pseudo-writing), and that each such word is clearly legible, confirm
+nothing is rendered below the last panel's footnote text (no summary
+recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
+no additional text block of any kind), and confirm the entire canvas,
+edge to edge, is filled with a fully opaque background with no
+transparency or alpha channel anywhere.
 ```
