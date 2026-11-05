@@ -134,8 +134,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 偽・欺・迫・対・転・継・悪・過・失・権・相・続 — these must be rendered in
+kanji 偽・欺・迫・対・転・継・悪・過・失・権・相・続・詐・強・記・無 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -165,11 +178,13 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 虚偽表示の善意者は登記不要
-Illustration: An isometric scene showing land plot "甲土地" with a dashed
-line labeled "通謀虚偽表示（無効）" between figures A and B, an arrow from
-B to figure C wearing a "善意" badge and holding a "所有権" claim tag, and
-a small crossed-out "登記" document icon (a red "✕") beside C with a
+Illustration: An isometric scene showing land plot「甲土地」with a dashed
+line labeled「通謀虚偽表示（無効）」between figures A and B, an arrow from
+B to figure C wearing a「善意」badge and holding a「所有権」claim tag, and
+a small crossed-out「登記」document icon (a red "✕") beside C with a
 shield deflecting A's outstretched hand.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地」「通謀虚偽表示（無効）」「善意」「所有権」「登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 登記なくても対抗可
 
@@ -178,9 +193,11 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人は「第三者」に非ず
 Illustration: An isometric scene showing figure B with a small tombstone
-icon labeled "死亡", an arrow labeled "相続（包括承継）" pointing to figure
-C who visually resembles B, a "第三者" badge with a red "✕" crossed out
+icon labeled「死亡」, an arrow labeled「相続（包括承継）」pointing to figure
+C who visually resembles B, a「第三者」badge with a red "✕" crossed out
 on C, and figure A standing apart, reaching through to oppose C.
+Words allowed inside this illustration (verbatim, nothing else):
+「死亡」「相続（包括承継）」「第三者」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 承継人は保護外
 
@@ -188,11 +205,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 転得者も善意者から取得
-Illustration: An isometric chain of three figures B → C (wearing a "善意"
-badge with a green "✓") → D (wearing a "悪意" badge, but still receiving
+Illustration: An isometric chain of three figures B → C (wearing a「善意」
+badge with a green "✓") → D (wearing a「悪意」badge, but still receiving
 a glowing checkmark arrow inherited from C), with a floating label tag
-"絶対的構成" above the chain, and figure A on the far left blocked by a
+「絶対的構成」above the chain, and figure A on the far left blocked by a
 red "✕" from reaching D.
+Words allowed inside this illustration (verbatim, nothing else):
+「善意」「悪意」「絶対的構成」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 絶対的構成で有効
 
@@ -204,10 +223,12 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 詐欺取消しは過失者に対抗可
 Illustration: An isometric scene showing figure A being deceived by
-figure B wearing a mask icon labeled "詐欺", an arrow from B to figure C
-wearing a "善意" badge alongside a "過失" icon (a magnifying glass with a
-warning triangle), and A's hand holding a "取消し" stamp reaching past B
+figure B wearing a mask icon labeled「詐欺」, an arrow from B to figure C
+wearing a「善意」badge alongside a「過失」icon (a magnifying glass with a
+warning triangle), and A's hand holding a「取消し」stamp reaching past B
 directly to C, with a red "✕" over C's ownership tag.
+Words allowed inside this illustration (verbatim, nothing else):
+「詐欺」「善意」「過失」「取消し」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 過失ありは対抗可
 
@@ -216,10 +237,12 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 強迫取消しは無過失者にも対抗可
 Illustration: An isometric scene showing figure A being threatened by
-figure B wearing a raised-fist icon labeled "強迫", an arrow from B to
-figure C wearing both a "善意" badge and a "無過失" badge, yet A's hand
-holding a "取消し" stamp still reaching through to C, with a broken
-shield icon over C and a label "第三者保護規定なし" beside A.
+figure B wearing a raised-fist icon labeled「強迫」, an arrow from B to
+figure C wearing both a「善意」badge and a「無過失」badge, yet A's hand
+holding a「取消し」stamp still reaching through to C, with a broken
+shield icon over C and a label「第三者保護規定なし」beside A.
+Words allowed inside this illustration (verbatim, nothing else):
+「強迫」「善意」「無過失」「取消し」「第三者保護規定なし」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 無過失でも対抗可
 
@@ -227,7 +250,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 偽・欺・迫・対・転・継・悪・過・失・権・相・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+attention to 偽・欺・迫・対・転・継・悪・過・失・権・相・続・詐・強・記・無. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the number of cards equals 5 exactly, with
 no duplicated or missing cards, that badge numbers run 1-5 continuously
@@ -236,7 +259,9 @@ across both columns without resetting (3 cards under 虚偽表示に関する
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -280,9 +305,18 @@ background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
-special attention to the kanji 偽・欺・迫・対・継・悪・過・失・権・善・意・護・相・続, which have Simplified Chinese look-alike forms with visibly
+special attention to the kanji 偽・欺・迫・対・継・悪・過・失・権・善・意・護・相・続・詐・強・記・無, which have Simplified Chinese look-alike forms with visibly
 different stroke shapes — always draw the standard Japanese (Jōyō) form
 of these characters.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+diagram is the specified words (絵の中に入れる文字は、指定した語だけ). This
+is an instruction, never text to draw. Inside every node, lane header and
+badge, render ONLY the exact Japanese text written for that node below,
+each one large, clear and exactly as written. Do not invent or add any
+other text, inscription, label or pseudo-writing anywhere on the
+flowchart; a node or lane that needs no text should be left blank or
+shown with an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -378,7 +412,7 @@ Small credit text (2行):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 偽・欺・迫・対・継・悪・過・失・権・善・意・護・相・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+attention to 偽・欺・迫・対・継・悪・過・失・権・善・意・護・相・続・詐・強・記・無. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm every node label matches the
 Japanese text given above verbatim, with no paraphrasing and no
@@ -386,7 +420,10 @@ substituted characters, confirm that no node mentions the specific
 figures "A" "B" "C" "D" or the facts of this particular exam question
 (this flowchart must read as a general-purpose procedure), confirm the
 three lanes (虚偽表示・詐欺・強迫) are clearly color-coded and visually
-separated, and confirm the entire canvas, edge to edge, is filled with a
+separated, confirm that no node, lane header or badge contains any text
+other than the exact Japanese text specified for it (no stray
+inscriptions or pseudo-writing) and that every specified word is clearly
+legible, and confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node).
 ```
 
@@ -442,6 +479,15 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -573,7 +619,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 偽・欺・迫・対・継・悪・過・失・権・善・意・護・相・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+attention to 偽・欺・迫・対・継・悪・過・失・権・善・意・護・相・続・詐・強・記・無. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the panel count equals 5 exactly,
 badge numbers run 1-5 continuously, there is no intro illustration or
@@ -581,7 +627,10 @@ paragraph block between the header and the panels, that every
 multi-condition 肢（ア・イ・ウ・エ・オ）is drawn as an actual
 flowchart with branch nodes (not a bare illustration with no visible
 decision structure), that each 着眼点 callout states a checking order
-rather than only a conclusion, confirm nothing is rendered below the last
+rather than only a conclusion, confirm that no diagram contains any text
+other than the words specified in its Diagram line (no stray
+inscriptions, labels, or pseudo-writing) and that each specified word is
+clearly legible, confirm nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
 kind), and confirm the entire canvas, edge to edge, is filled with a

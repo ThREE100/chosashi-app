@@ -135,9 +135,22 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 録・登・記・所・地・建・物・鎖・筆・界・存・期・間・相・続 — these must be
+kanji 録・登・記・所・地・建・物・閉・鎖・筆・界・存・期・間・相・続・図・帳・書 — these must be
 rendered in their standard Japanese forms, never as Simplified Chinese
 variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -167,11 +180,15 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 土地の閉鎖登記記録は50年
-Illustration: An isometric registry ledger book labeled "登記記録" stamped
-with a red "閉鎖" seal and a large calendar tag reading "50年", positioned
-next to a smaller building-shaped ledger book labeled "建物" and tagged
-"30年" for comparison, with a thin dotted arrow contrasting the two
-durations.
+Illustration: An isometric registry ledger book labeled「登記記録」stamped
+with a red「閉鎖」seal and a large calendar tag reading「50年」, positioned
+next to a smaller building-shaped ledger book labeled「建物」and tagged
+「30年」for comparison, with a thin dotted arrow contrasting the two
+durations. IMPORTANT: the two numbers「50年」and「30年」differ by only one
+digit and must not be rendered as the same string — draw each large, in a
+clearly different color, so the two durations stay visually distinct.
+Words allowed inside this illustration (verbatim, nothing else): 「登記記録」
+「閉鎖」「50年」「建物」「30年」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 閉鎖から50年間
 
@@ -179,9 +196,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 つづり込み帳は翌年から5年
-Illustration: An isometric bound folder labeled "法定相続情報一覧図つづり
-込み帳" with a small calendar showing a "5年" tag and a curved arrow from
-a calendar page labeled "作成の翌年" pointing to the start of the count.
+Illustration: An isometric bound folder labeled「法定相続情報一覧図つづり
+込み帳」with a small calendar showing a「5年」tag and a curved arrow from
+a calendar page labeled「作成の翌年」pointing to the start of the count.
+Words allowed inside this illustration (verbatim, nothing else): 「法定相続
+情報一覧図つづり込み帳」「5年」「作成の翌年」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 翌年から5年間
 
@@ -193,10 +212,12 @@ Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 各階平面図は閉鎖から30年
 Illustration: An isometric split scene: on the left, a clean, actively-used
-rolled blueprint/floor-plan drawing labeled "各階平面図" with a small
-infinity symbol (∞) and a "永久" tag, representing the current (not yet
+rolled blueprint/floor-plan drawing labeled「各階平面図」with a small
+infinity symbol (∞) and a「永久」tag, representing the current (not yet
 closed) drawing; on the right, the same drawing now stamped with a red
-"閉鎖" seal and a calendar tag reading "30年".
+「閉鎖」seal and a calendar tag reading「30年」.
+Words allowed inside this illustration (verbatim, nothing else): 「各階平面図」
+「永久」「閉鎖」「30年」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 現用は永久、閉鎖から30年間
 
@@ -205,9 +226,11 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 特定書以外の記録は翌年30年
 Illustration: An isometric split scene: on the left, a golden sealed
-document labeled "筆界特定書" with an infinity symbol and a "永久" tag; on
-the right, a stack of related folders labeled "手続記録" with a "30年" tag
-and a curved arrow from a calendar page labeled "翌年から".
+document labeled「筆界特定書」with an infinity symbol and a「永久」tag; on
+the right, a stack of related folders labeled「手続記録」with a「30年」tag
+and a curved arrow from a calendar page labeled「翌年から」.
+Words allowed inside this illustration (verbatim, nothing else): 「筆界特定書」
+「永久」「手続記録」「30年」「翌年から」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 翌年から30年間
 
@@ -216,8 +239,10 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 申請書は受付日から30年
 Illustration: An isometric registry counter (登記所) where a paper
-application form is being stamped with a red "受付" stamp, with a
-calendar tag reading "30年" counting forward from the stamp date.
+application form is being stamped with a red「受付」stamp, with a
+calendar tag reading「30年」counting forward from the stamp date.
+Words allowed inside this illustration (verbatim, nothing else): 「受付」
+「30年」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 受付日から30年間
 
@@ -225,7 +250,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 録・登・記・所・地・建・物・鎖・筆・界・存・期・間・相・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+attention to 録・登・記・所・地・建・物・閉・鎖・筆・界・存・期・間・相・続・図・帳・書. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm the number of cards equals 5
 exactly, with no duplicated or missing cards, that badge numbers run 1-5
@@ -234,7 +259,12 @@ continuously across both columns without resetting (2 cards under 30年組
 is no intro illustration or paragraph block between the header and the
 cards, and confirm that no card contains a full sentence of explanatory
 prose — every card's takeaway must read as a short heading + a short
-conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+conclusion tag, at a glance. Confirm that no illustration contains any
+text other than its "Words allowed" words (no inscriptions on stones or
+signs, no pseudo-writing) and that each allowed word is clearly legible.
+Confirm that CARD 1's two numbers「50年」and「30年」are rendered as two
+different strings in two different colors (if they were rendered as the
+same string, that is an error and must be corrected). Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ### 画像2：永久保存と、閉鎖後の保存期間の切替え（規則28条の関連知識まとめ）
@@ -274,8 +304,21 @@ background or texture elements. Every kanji must match standard
 Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
-special attention to the kanji 永・久・閉・鎖・登・記・録・図・準・役・権・担・保・託・筆・界・特・定 — these must be rendered in their
+special attention to the kanji 永・久・閉・鎖・登・記・録・図・準・役・権・担・保・託・筆・界・特・定・後・則 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 and the short labels listed
+for each icon-card or box above, each one large, clear and exactly as
+written. Do not invent or add any other text inside an illustration: no
+inscriptions on boundary stones or markers, no extra signs, labels,
+captions, numbers or pseudo-writing. If a prop needs no specified word,
+leave its surface blank or show its meaning with an icon or a mark (check
+mark, red cross, infinity symbol) instead. The title, subtitle, section
+headings and footer notes are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -359,7 +402,7 @@ icon, white/pale-yellow bold text) ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 永・久・閉・鎖・登・記・録・図・準・役・権・担・保・託・筆・界・特・定. If any character renders as a Simplified or Traditional Chinese variant,
+attention to 永・久・閉・鎖・登・記・録・図・準・役・権・担・保・託・筆・界・特・定・後・則. If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm Section 3
 shows a specific number of years for all four items (50年・30年・30年・
 30年) with no item left as a vague label such as "有限保存". Confirm
@@ -367,6 +410,9 @@ Section 1's footer note states that only items ①・④ require a currently-
 active (non-closed) status for permanent retention, and that items ②・③
 remain permanently retained even after closure — do not render a single
 blanket statement implying all four items require an active status.
+Confirm that no icon-card or box contains any text other than the labels
+and callouts specified above (no inscriptions on stones or signs, no
+pseudo-writing) and that each specified word is clearly legible.
 Confirm there is no intro illustration or paragraph block between the
 header and the top row, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
@@ -425,6 +471,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -458,7 +513,10 @@ stamped with a red 「閉鎖」 seal, with a large calendar tag reading
 labeled 「登記記録（建物）」, also stamped with a red 「閉鎖」 seal, but
 with a calendar tag reading 「30年」. Add a thin dotted comparison line
 between the two boxes to emphasize that the same 閉鎖 event leads to two
-different numbers depending on the category.
+different numbers depending on the category. IMPORTANT: the two numbers
+「50年」and「30年」differ by only one digit and must not be rendered as
+the same string — draw each large, in a clearly different color, so the
+two periods stay visually distinct.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず対象が土地の登記記録か建物の登記記録かを確認します。土地なら閉鎖した
 日から50年、建物なら30年です。
@@ -553,7 +611,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 号・録・登・記・建・物・所・続・地・閉・鎖・筆・界・存・図・
-現・永・久・満・了・規・則・条・変・覧・帳・請・権・産. If any character renders as
+現・永・久・満・了・規・則・条・変・覧・帳・請・権・産・間・書・確・認・後・報. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers run
 1-5 continuously, there is no intro illustration or paragraph block
@@ -564,6 +622,12 @@ no panel with a genuinely single-check 肢 (ア・イ・エ・オ) has been forc
 into an unnecessary flowchart, that each 着眼点 callout states a checking
 order rather than only a conclusion and keeps every required element from
 the source article distinct (no merged or dropped requirements), confirm
+that no diagram contains any text other than the words specified in its
+Diagram line (no stray inscriptions, labels, or pseudo-writing) and that
+each specified word is clearly legible, confirm that panel 1's two
+numbers「50年」and「30年」are rendered as two different strings in two
+different colors (if they were rendered as the same string, that is an
+error and must be corrected), confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
 no additional text block of any kind), and confirm the entire canvas,

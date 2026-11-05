@@ -137,6 +137,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 権・地・登・記・担・保・転・写・仮・録・相・続 — these must be rendered in
 their standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -163,9 +176,10 @@ Badge: a filled circle in blue containing the number 1 (numbers run
 continuously through all 5 cards).
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 抵当権消滅承諾の印鑑証明に期限なし
-Illustration: An isometric hand holding a document labeled "承諾書"
-together with a small seal-certificate card labeled "印鑑証明書", beside
-a calendar icon crossed out with a red X next to the text "3か月".
+Illustration: An isometric hand holding a document labeled 「承諾書」
+together with a small seal-certificate card labeled 「印鑑証明書」, beside
+a calendar icon crossed out with a red X next to the text 「3か月」.
+Words allowed inside this illustration (verbatim, nothing else): 「承諾書」「印鑑証明書」「3か月」
 Conclusion tag (a short colored banner/pill directly below the
 illustration, blue, 5-15 Japanese characters, a keyword phrase — NOT a
 sentence):
@@ -175,10 +189,11 @@ sentence):
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 買戻特約は期間経過後も転写
-Illustration: An isometric land plot labeled "甲土地" tagged "買戻特約"
+Illustration: An isometric land plot labeled 「甲土地」 tagged 「買戻特約」
 with a faded, expired calendar icon, splitting into two plots labeled
-"甲土地" and "乙土地", with an arrow copying the "買戻特約" tag onto
-"乙土地" despite the expired calendar.
+「甲土地」 and 「乙土地」, with an arrow copying the 「買戻特約」 tag onto
+「乙土地」 despite the expired calendar.
+Words allowed inside this illustration (verbatim, nothing else): 「甲土地」「買戻特約」「乙土地」
 Conclusion tag (5-15 Japanese characters, a keyword phrase — NOT a
 sentence):
 期間経過でも転写
@@ -187,10 +202,11 @@ sentence):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 敷地権付き土地の分筆に承諾書不要
-Illustration: An isometric two-unit condominium building labeled "甲建物"
-and "乙建物" on a land plot labeled "丙土地" marked with a chain-link
-icon for "敷地権", the land plot splitting in two, with a document icon
-labeled "承諾書" crossed out by a red X.
+Illustration: An isometric two-unit condominium building labeled 「甲建物」
+and 「乙建物」 on a land plot labeled 「丙土地」 marked with a chain-link
+icon for 「敷地権」, the land plot splitting in two, with a document icon
+labeled 「承諾書」 crossed out by a red X.
+Words allowed inside this illustration (verbatim, nothing else): 「甲建物」「乙建物」「丙土地」「敷地権」「承諾書」
 Conclusion tag (5-15 Japanese characters, a keyword phrase — NOT a
 sentence):
 承諾書は不要
@@ -200,8 +216,9 @@ Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 根抵当権仮登記の分筆で目録作らず
 Illustration: An isometric land plot with a faded dashed-outline stamp
-labeled "根抵当権設定の仮登記" splitting into two plots, with a
-ledger-book icon labeled "共同担保目録" crossed out by a red X.
+labeled 「根抵当権設定の仮登記」 splitting into two plots, with a
+ledger-book icon labeled 「共同担保目録」 crossed out by a red X.
+Words allowed inside this illustration (verbatim, nothing else): 「根抵当権設定の仮登記」「共同担保目録」
 Conclusion tag (5-15 Japanese characters, a keyword phrase — NOT a
 sentence):
 目録は作成せず
@@ -211,9 +228,10 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
 相続人の一人でも単独申請できる
 Illustration: An isometric land plot with one portion changing icon from
-a house-shaped "宅地" symbol to a tree-shaped "山林" symbol, with two
+a house-shaped 「宅地」 symbol to a tree-shaped 「山林」 symbol, with two
 heir character icons labeled "C" and "D" beside it, only "D" stepping
 forward alone to submit an application document while "C" stands back.
+Words allowed inside this illustration (verbatim, nothing else): 「宅地」「山林」
 Conclusion tag (5-15 Japanese characters, a keyword phrase — NOT a
 sentence):
 単独申請できる
@@ -232,7 +250,7 @@ card headings are exactly: (1) 抵当権消滅承諾の印鑑証明に期限な�
 根抵当権仮登記の分筆で目録作らず／(5) 相続人の一人でも単独申請できる —
 do not merge, omit, duplicate, or reword any of these five headings, and
 confirm every card reads as a short heading + illustration + short
-conclusion tag at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+conclusion tag at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -294,6 +312,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -429,7 +456,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 権・地・登・記・担・保・転・写・仮・録・証・建・物・続. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
+attention to 権・地・登・記・担・保・転・写・仮・録・証・建・物・続・確・買・後. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If
 any character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Confirm the panel count equals 5
 exactly, badge numbers run 1-5 continuously, there is no intro
@@ -442,7 +469,10 @@ checking order rather than only a conclusion and keeps every required
 element from the source article distinct (no merged or dropped
 requirements), that PANEL 1 and PANEL 3 (which share one decision tree)
 each clearly distinguish their own highlighted branch from the other,
-faded branch, confirm nothing is rendered below the last panel's footnote
+faded branch, that each diagram contains no text other than the words
+specified in its Diagram line (no stray inscriptions, labels, or
+pseudo-writing) and that each specified word is clearly legible, confirm
+nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
 grid of all 肢, and no additional text block of any kind), and confirm the
 entire canvas, edge to edge, is filled with a fully opaque background

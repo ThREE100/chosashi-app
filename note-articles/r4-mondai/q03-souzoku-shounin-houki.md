@@ -130,8 +130,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・認・棄・欠・強・迫・単・裁・相・家・庭・判・所 — these must be rendered in their
+kanji 続・認・棄・欠・強・迫・単・純・裁・相・家・庭・判・所・関 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -161,11 +174,13 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 強迫で遺言させたら欠格者
-Illustration: An isometric scene showing a character labeled "Ｂ"
-menacingly holding a scroll toward a character labeled "Ａ" (被相続人) who is
-being forced to write on a document stamped "遺言", with a large red
-prohibition ("✕") icon and a torn "相続人" name-tag falling away from Ｂ
+Illustration: An isometric scene showing a character labeled「Ｂ」
+menacingly holding a scroll toward a character labeled「Ａ」(被相続人) who is
+being forced to write on a document stamped「遺言」, with a large red
+prohibition ("✕") icon and a torn「相続人」name-tag falling away from Ｂ
 to show Ｂ loses the heir status.
+Words allowed inside this illustration (verbatim, nothing else): 「Ｂ」「Ａ」
+「遺言」「相続人」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 相続欠格者になる
 
@@ -173,11 +188,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 熟慮期間の放置で単純承認
-Illustration: An isometric calendar icon showing "3か月" counting down to
+Illustration: An isometric calendar icon showing「3か月」counting down to
 zero with no action taken, next to a small scale balancing a money bag
 and a torn IOU-style paper, both being handed to a person icon labeled
-"Ｂ", with a stamp reading "単純承認" appearing automatically above the
+「Ｂ」, with a stamp reading「単純承認」appearing automatically above the
 scale.
+Words allowed inside this illustration (verbatim, nothing else): 「3か月」
+「Ｂ」「単純承認」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 単純承認とみなす
 
@@ -185,11 +202,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 限定承認は全員共同でのみ
-Illustration: An isometric family court building icon labeled "家庭裁判所"
-in front of which two person icons labeled "Ｂ" and "Ｃ" stand together
-holding a single joint document stamped "限定承認", while beside them a
+Illustration: An isometric family court building icon labeled「家庭裁判所」
+in front of which two person icons labeled「Ｂ」and「Ｃ」stand together
+holding a single joint document stamped「限定承認」, while beside them a
 large red prohibition ("✕") mark is overlaid on a single person icon
 holding the same document alone, to show it cannot be done individually.
+Words allowed inside this illustration (verbatim, nothing else): 「家庭裁判所」
+「Ｂ」「Ｃ」「限定承認」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 全員共同が必要
 
@@ -201,10 +220,11 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 放棄者は最初から相続人でない
 Illustration: An isometric family tree diagram where a person icon
-labeled "Ｂ" fades into a dotted outline and is erased from the family
+labeled「Ｂ」fades into a dotted outline and is erased from the family
 tree branch, with a clock icon showing an arrow curving backward to the
 very start of the tree, showing Ｂ is treated as never having been an
 heir from the beginning.
+Words allowed inside this illustration (verbatim, nothing else): 「Ｂ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 遡って相続人でない
 
@@ -212,11 +232,13 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 強迫による放棄は取消しできる
-Illustration: An isometric scene showing a person icon labeled "Ｃ"
-holding a torn "相続放棄" document while a menacing figure labeled "Ｂ"
-looms nearby; a large red "✕" crosses over an arrow icon labeled "撤回",
-while a separate green "✓" arrow labeled "取消し" leads toward a
+Illustration: An isometric scene showing a person icon labeled「Ｃ」
+holding a torn「相続放棄」document while a menacing figure labeled「Ｂ」
+looms nearby; a large red "✕" crosses over an arrow icon labeled「撤回」,
+while a separate green "✓" arrow labeled「取消し」leads toward a
 court/gavel icon, showing the different path that remains open.
+Words allowed inside this illustration (verbatim, nothing else): 「Ｃ」
+「相続放棄」「Ｂ」「撤回」「取消し」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 撤回不可でも取消し可
 
@@ -224,7 +246,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 続・認・棄・欠・強・迫・単・裁・相・家・庭・判・所. If any character renders as a
+attention to 続・認・棄・欠・強・迫・単・純・裁・相・家・庭・判・所・関. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, that badge numbers run 1-5 continuously across both
@@ -233,7 +255,9 @@ columns without resetting (3 cards under 相続人の資格と承認に関する
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than
+its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -281,6 +305,15 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -342,7 +375,7 @@ characters):
 Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
 限定承認は全員共同でのみ
-Diagram: An isometric 家庭裁判所 building in front of which two figure
+Diagram: An isometric「家庭裁判所」building in front of which two figure
 icons labeled「Ｂ」「Ｃ」stand together holding a single joint document
 stamped「限定承認」. Beside them, a separate small scene shows a single
 figure holding the same document alone, overlaid with a large red「✕」
@@ -400,14 +433,17 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 続・認・棄・欠・強・迫・単・裁・撤・相・家・庭・判・所. If any character renders
+attention to 続・認・棄・欠・強・迫・単・純・裁・撤・相・家・庭・判・所・確・詐・効. If any character renders
 as a Simplified or Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
 run 1-5 continuously, there is no intro illustration or paragraph block
 between the header and the panels, that the multi-condition 肢（オ）is
 drawn as an actual flowchart with branch nodes (not a bare illustration
 with no visible decision structure), that each 着眼点 callout states a
-checking order rather than only a conclusion, confirm nothing is rendered
+checking order rather than only a conclusion, confirm that no diagram
+contains any text other than the words specified in its Diagram line (no
+stray inscriptions, labels, or pseudo-writing) and that each specified
+word is clearly legible, confirm nothing is rendered
 below the last panel's footnote text (no summary recap panel, no trophy
 or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
 block of any kind), and confirm the entire canvas, edge to edge, is

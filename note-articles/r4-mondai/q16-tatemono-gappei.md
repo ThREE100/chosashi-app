@@ -138,6 +138,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・所・併・続・相 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -166,10 +179,11 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続登記なしでも合併登記を申請できる
 Illustration: An isometric registry counter. A person icon labeled
-"相続人Ｂ" stands between icons of "甲建物" and "乙建物", with a straight
-arrow going directly from Ｂ to a stamped "合併の登記" application
-document. A crossed-out (✕) document icon labeled "相続による所有権移転
-登記" sits off to the side, showing this step is not required first.
+「相続人Ｂ」stands between icons of「甲建物」and「乙建物」, with a straight
+arrow going directly from Ｂ to a stamped「合併の登記」application
+document. A crossed-out (✕) document icon labeled「相続による所有権移転
+登記」sits off to the side, showing this step is not required first.
+Words allowed inside this illustration (verbatim, nothing else): 「相続人Ｂ」「甲建物」「乙建物」「合併の登記」「相続による所有権移転登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 相続登記は不要
 
@@ -177,11 +191,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 異なる登記所の管轄でも申請できる
-Illustration: An isometric diagram showing "甲建物" sitting inside a
-dotted boundary region labeled "Ａ登記所" and "乙建物" sitting inside a
-separate dotted boundary region labeled "Ｂ登記所", with a bridge-like
+Illustration: An isometric diagram showing「甲建物」sitting inside a
+dotted boundary region labeled「Ａ登記所」and「乙建物」sitting inside a
+separate dotted boundary region labeled「Ｂ登記所」, with a bridge-like
 arrow connecting the two buildings into one combined building icon
-stamped with a ✓ checkmark and "合併登記 可能".
+stamped with a ✓ checkmark and「合併登記 可能」.
+Words allowed inside this illustration (verbatim, nothing else): 「甲建物」「Ａ登記所」「乙建物」「Ｂ登記所」「合併登記 可能」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 管轄が違っても可能
 
@@ -191,9 +206,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 種類変更登記と合併登記は一括申請できる
 Illustration: An isometric single envelope/application-form icon into
 which two smaller document icons are funneling: one showing a building
-icon with a "種類変更" label and a small change-arrow, the other showing
-a stamped "合併の登記" document, both merging into the single envelope
-labeled "一の申請情報" with a ✓ checkmark.
+icon with a「種類変更」label and a small change-arrow, the other showing
+a stamped「合併の登記」document, both merging into the single envelope
+labeled「一の申請情報」with a ✓ checkmark.
+Words allowed inside this illustration (verbatim, nothing else): 「種類変更」「合併の登記」「一の申請情報」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 一の申請情報で可
 
@@ -205,9 +221,10 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 共用部分がある建物は合併不可
 Illustration: An isometric slice of a condominium building (区分建物)
-with a red plaque/stamp reading "共用部分" attached to it, and two
-building icons labeled "甲建物" and "乙建物" with a large red prohibition
+with a red plaque/stamp reading「共用部分」attached to it, and two
+building icons labeled「甲建物」and「乙建物」with a large red prohibition
 (✕, no-entry) mark blocking the arrow between them, preventing the merge.
+Words allowed inside this illustration (verbatim, nothing else): 「共用部分」「甲建物」「乙建物」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 共用部分は合併不可
 
@@ -215,11 +232,12 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 住所不一致なら住所変更登記が先
-Illustration: An isometric person icon labeled "Ａ" holding two address
-tags — an old address tag crossed out (✕) and a new "住居表示" tag — with
-a prohibition mark blocking an arrow toward a stamped "合併の登記"
+Illustration: An isometric person icon labeled「Ａ」holding two address
+tags — an old address tag crossed out (✕) and a new「住居表示」tag — with
+a prohibition mark blocking an arrow toward a stamped「合併の登記」
 application document, and a separate highlighted document icon labeled
-"住所の変更の登記" marked with a ✓ as the required first step.
+「住所の変更の登記」marked with a ✓ as the required first step.
+Words allowed inside this illustration (verbatim, nothing else): 「Ａ」「住居表示」「合併の登記」「住所の変更の登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 住所変更登記が先
 
@@ -227,7 +245,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 建・物・登・記・所・併・続・相. If any character renders as a
+attention to 建・物・登・記・所・併・続・相・請・変. If any character renders as a
 Simplified or Traditional Chinese variant, redraw that character in the correct Japanese
 form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no duplicated or
 missing cards, that badge numbers run 1-5 continuously across both
@@ -235,7 +253,7 @@ columns without resetting, confirm there is no intro illustration or
 paragraph block between the header and the cards, and confirm that no
 card contains a full sentence of explanatory prose — every card's
 takeaway must read as a short heading + a short conclusion tag, at a
-glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -302,6 +320,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -434,7 +461,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 建・物・登・記・所・号・併・続・相・権・証・状・態・抹・消・
-住・変・更・請. If any character renders as a Simplified or Traditional Chinese
+住・変・更・請・確・認. If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the
 panel count equals 5 exactly, badge numbers run 1-5 continuously, there
 is no intro illustration or paragraph block between the header and the
@@ -445,7 +472,7 @@ flattened into a single check, that each 着眼点 callout states a checking
 order rather than only a conclusion and keeps every required element from
 the source article distinct (no merged or dropped requirements), that any
 panel sharing a decision tree with another panel clearly distinguishes
-its own highlighted branch from the other, faded branches, confirm
+its own highlighted branch from the other, faded branches, confirm that no diagram contains any text other than the words specified in its Diagram line (no stray inscriptions, labels, or pseudo-writing) and that each specified word is clearly legible, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
 no additional text block of any kind), and confirm the entire canvas,

@@ -142,8 +142,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 識・別・報・権・証・記・庁・処 — these must be rendered in their
+kanji 識・別・報・権・証・記・庁・処・請 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -174,11 +187,13 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 法定代理人申請は代理人へ通知
 Illustration: An isometric scene showing a legal-guardian character
-（成年後見人）receiving a sealed envelope tagged "登記識別情報" from a
+（成年後見人）receiving a sealed envelope tagged「登記識別情報」from a
 registry official character, while a separate person icon labeled
-"成年被後見人" stands to the side with a small arrow crossed out (a red
+「成年被後見人」stands to the side with a small arrow crossed out (a red
 "✕") pointing away from them, showing the notification goes to the
 representative, not to the person represented.
+Words allowed inside this illustration (verbatim, nothing else): 「登記識別
+情報」「成年被後見人」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代理人に通知される
 
@@ -187,10 +202,12 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 共有名義はＡ・Ｂ両方に通知
 Illustration: An isometric diagram showing two adjacent land plots
-labeled "甲土地" and "乙土地", each with small tags "Ａ" and "Ｂ" shown as
+labeled「甲土地」and「乙土地」, each with small tags「Ａ」and「Ｂ」shown as
 co-owners, merging into one plot, with two separate sealed envelopes
-tagged "登記識別情報" flying out toward two separate person icons labeled
-"Ａ" and "Ｂ", each receiving their own envelope.
+tagged「登記識別情報」flying out toward two separate person icons labeled
+「Ａ」and「Ｂ」, each receiving their own envelope.
+Words allowed inside this illustration (verbatim, nothing else): 「甲土地」
+「乙土地」「Ａ」「Ｂ」「登記識別情報」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 名義人ごとに通知
 
@@ -199,11 +216,13 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 官庁は申出なければ通知不要
 Illustration: An isometric government building icon（官庁・公署）with a
-sealed envelope tagged "登記識別情報" hovering above it crossed out by a
+sealed envelope tagged「登記識別情報」hovering above it crossed out by a
 red "✕" prohibition mark, and beside it a second scene showing the same
-government building holding up a small paper labeled "通知希望の申出"
+government building holding up a small paper labeled「通知希望の申出」
 with the envelope now arriving (a green "✓"), showing notification only
 happens after the request is made.
+Words allowed inside this illustration (verbatim, nothing else): 「登記識別
+情報」「通知希望の申出」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 申出なければ通知なし
 
@@ -215,10 +234,12 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 調査士の証明請求に委任状不要
 Illustration: An isometric scene showing a 土地家屋調査士 character at a
-registry counter holding up a small certificate labeled "職印証明書"
-toward a registry official, while a separate document labeled "委任状
-（代理人の権限を証する情報）" sits to the side crossed out with a red
+registry counter holding up a small certificate labeled「職印証明書」
+toward a registry official, while a separate document labeled「委任状
+（代理人の権限を証する情報）」sits to the side crossed out with a red
 "✕" prohibition mark, showing only the former is required.
+Words allowed inside this illustration (verbatim, nothing else): 「職印証明
+書」「委任状（代理人の権限を証する情報）」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 委任状は不要
 
@@ -227,11 +248,13 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 証明請求はオンラインでも可
 Illustration: An isometric split scene: on one side a paper document
-labeled "証明請求情報を記載した書面" being handed across a registry
-counter, and on the other side a computer/network icon labeled "電子情報
-処理組織" sending the same request online, both arrows converging on a
+labeled「証明請求情報を記載した書面」being handed across a registry
+counter, and on the other side a computer/network icon labeled「電子情報
+処理組織」sending the same request online, both arrows converging on a
 single registry building icon to show either method reaches the same
 registry.
+Words allowed inside this illustration (verbatim, nothing else): 「証明請求
+情報を記載した書面」「電子情報処理組織」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 オンライン請求も可
 
@@ -248,7 +271,7 @@ across both columns without resetting (3 cards under 登記識別情報の通知
 there is no intro illustration or paragraph block between the header and
 the cards, and confirm that no card contains a full sentence of
 explanatory prose — every card's takeaway must read as a short heading +
-a short conclusion tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+a short conclusion tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）
@@ -306,6 +329,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -444,7 +476,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 識・別・報・権・証・記・庁・処・請・筆・書・職. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
+attention to 識・別・報・権・証・記・庁・処・請・筆・書・職・認・確. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that character in the
 correct Japanese form. Confirm the panel count equals 5 exactly, badge
 numbers run 1-5 continuously (ア・イ・ウ・エ・オ in order), with
@@ -459,7 +491,11 @@ comparisons rather than being forced into unnecessary flowcharts, confirm
 each 着眼点 callout states a checking order rather than only a conclusion
 and keeps every required element from the source article distinct (no
 merged or dropped requirements, e.g. keep 職印証明書 and 委任状 as two
-separately evaluated items), confirm nothing is rendered below the last
+separately evaluated items), confirm that no diagram contains any text
+other than the words written in 「」 in that panel's Diagram line, heading,
+着眼点 callout or conclusion tag (no inscriptions on stones or signs, no
+pseudo-writing) and that each such word is clearly legible, confirm
+nothing is rendered below the last
 panel's footnote text (no summary recap panel, no trophy or medal icon,
 no re-listed ○/✕ grid of all 肢, and no additional text block of any
 kind), and confirm the entire canvas, edge to edge, is filled with a

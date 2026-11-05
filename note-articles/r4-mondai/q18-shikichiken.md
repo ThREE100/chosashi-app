@@ -144,8 +144,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・地・建・物・登・記・処・約 — these must be rendered in their
+kanji 権・地・建・物・登・記・処・約・離・規・設 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -174,11 +187,13 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 共有持分権も敷地権として登記できる
-Illustration: An isometric icon showing the "甲土地"・"乙土地" plots
+Illustration: An isometric icon showing the「甲土地」・「乙土地」plots
 with Ａの共有持分 (a highlighted slice of the jointly-owned plots tagged
-"Ａの共有持分権") connected by a solid chain-link icon to the "丁区分建物"
-section of the building, with a document icon labeled "表題登記" approved
+「Ａの共有持分権」) connected by a solid chain-link icon to the「丁区分建物」
+section of the building, with a document icon labeled「表題登記」approved
 by a green ✓ checkmark stamp.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地」「乙土地」「Ａの共有持分権」「丁区分建物」「表題登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 共有持分でも敷地権
 
@@ -186,10 +201,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 規約敷地になれば1か月以内に変更登記
-Illustration: An isometric arrow transforms the "丙土地" parking-lot
-plot (car icons fading out) into a plot tagged "規約敷地" attached to
-the "戊区分建物" section, with a small "Ｂ" figure holding a document,
-next to a calendar icon highlighting "1か月以内".
+Illustration: An isometric arrow transforms the「丙土地」parking-lot
+plot (car icons fading out) into a plot tagged「規約敷地」attached to
+the「戊区分建物」section, with a small「Ｂ」figure holding a document,
+next to a calendar icon highlighting「1か月以内」.
+Words allowed inside this illustration (verbatim, nothing else):
+「丙土地」「規約敷地」「戊区分建物」「Ｂ」「1か月以内」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 1か月以内に申請
 
@@ -203,10 +220,12 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric assembly (集会) scene with several small
 resident silhouette figures around a table, three-quarters of the
 attending figures highlighted green with ✓ checkmarks and a large
-"4分の3" fraction badge above, while a single lone "Ａ" figure holding a
-議事録-style document sits at an empty table (no "Ｂ" figure present) and
+「4分の3」fraction badge above, while a single lone「Ａ」figure holding a
+議事録-style document sits at an empty table (no「Ｂ」figure present) and
 is marked with a red ✕ to show that, without Ｂ attending or agreeing,
 neither the quorum nor the 4分の3 threshold is met.
+Words allowed inside this illustration (verbatim, nothing else):
+「4分の3」「Ａ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 出席者の4分の3必須
 
@@ -215,10 +234,12 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 一部の区分建物だけ分離処分規約も可
 Illustration: An isometric view of the building split into its two
-sections: "丁区分建物" has an open padlock icon and a badge labeled
-"分離処分可能規約" with a ✓ checkmark, while "戊区分建物" keeps a closed
+sections:「丁区分建物」has an open padlock icon and a badge labeled
+「分離処分可能規約」with a ✓ checkmark, while「戊区分建物」keeps a closed
 padlock icon, showing the regulation applies to only one section of the
 building.
+Words allowed inside this illustration (verbatim, nothing else):
+「丁区分建物」「分離処分可能規約」「戊区分建物」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 一部だけでも設定可
 
@@ -226,12 +247,14 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 分離処分には敷地権登記の抹消が前提
-Illustration: A two-step isometric sequence: Step 1 shows "甲土地のＡ
-の共有持分権" with a "敷地権" stamp being crossed out by a red "抹消"
-stamp on the "丁区分建物" registry page; Step 2, connected by an arrow,
-shows the共有持分権 now free to move with a "移転登記" arrow pointing to
+Illustration: A two-step isometric sequence: Step 1 shows「甲土地のＡ
+の共有持分権」with a「敷地権」stamp being crossed out by a red「抹消」
+stamp on the「丁区分建物」registry page; Step 2, connected by an arrow,
+shows the共有持分権 now free to move with a「移転登記」arrow pointing to
 a new owner icon and a ✓ checkmark, illustrating that the抹消 must
 happen first.
+Words allowed inside this illustration (verbatim, nothing else):
+「甲土地のＡの共有持分権」「敷地権」「抹消」「丁区分建物」「移転登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 先に抹消登記が必要
 
@@ -239,7 +262,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 権・地・建・物・登・記・処・約. If any character renders as
+attention to 権・地・建・物・登・記・処・約・離・規・設. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the number of cards equals 5 exactly, with no
 duplicated or missing cards, that badge numbers run 1-5 continuously
@@ -247,7 +270,9 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its "Words allowed" words (no inscriptions on stones or signs, no
+pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -295,9 +320,18 @@ Japanese orthography exactly as written below, stroke-for-stroke.
 Reproduce the exact text strings given below verbatim — do not
 paraphrase, translate, summarize, or substitute any characters. Pay
 special attention to the kanji 権・地・建・物・登・記・処・約・議・決・
-抹・消, which have Simplified Chinese look-alike forms with visibly
+抹・消・離・規・設, which have Simplified Chinese look-alike forms with visibly
 different stroke shapes — always draw the standard Japanese (Jōyō) form
 of these characters.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+diagram is the specified words (絵の中に入れる文字は、指定した語だけ). This
+is an instruction, never text to draw. Inside every node, lane header and
+badge, render ONLY the exact Japanese text written for that node below,
+each one large, clear and exactly as written. Do not invent or add any
+other text, inscription, label or pseudo-writing anywhere on the
+flowchart; a node or lane that needs no text should be left blank or
+shown with an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -379,7 +413,7 @@ Small credit text (2行):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 権・地・建・物・登・記・処・約・議・決・抹・消. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
+attention to 権・地・建・物・登・記・処・約・議・決・抹・消・離・規・設. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. If any
 character renders as a Simplified or Traditional Chinese variant, redraw that character
 in the correct Japanese form. Confirm every node label matches the
 Japanese text given above verbatim, with no paraphrasing and no
@@ -388,7 +422,10 @@ substituted characters, confirm that no node mentions "甲土地" "乙土地"
 question-specific label (this flowchart must read as a general-purpose
 procedure), confirm the three lanes (①〜③) are clearly color-coded and
 visually separated with their pill-badge headers at the top of each
-lane, and confirm the entire canvas, edge to edge, is filled with a
+lane, confirm that no node, lane header or badge contains any text other
+than the exact Japanese text specified for it (no stray inscriptions or
+pseudo-writing) and that every specified word is clearly legible, and
+confirm the entire canvas, edge to edge, is filled with a
 fully opaque background with no transparency or alpha channel anywhere. Confirm nothing is rendered below the last flowchart node (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last flowchart node).
 ```
 
@@ -450,6 +487,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -603,7 +649,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
 attention to 権・地・建・物・登・記・処・約・議・決・抹・消・所・共・敷・
-録・続. If any character renders as a Simplified or Traditional Chinese variant, redraw
+録・続・離・規・設・請. If any character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count
 equals 5 exactly, badge numbers run 1-5 continuously, there is no intro
 illustration or paragraph block between the header and the panels, that
@@ -615,7 +661,9 @@ order rather than only a conclusion and keeps every required element from
 the source article distinct (no merged or dropped requirements), that
 Panel 3's faded diamond node and Panel 4's faded 戊区分建物 section clearly
 distinguish the highlighted path from the faded, unreached or unaffected
-one, confirm nothing is rendered below the last panel's footnote text (no
+one, confirm that no diagram contains any text other than the words
+specified in its Diagram line (no stray inscriptions, labels, or
+pseudo-writing) and that each specified word is clearly legible, confirm nothing is rendered below the last panel's footnote text (no
 summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all
 肢, and no additional text block of any kind), and confirm the entire
 canvas, edge to edge, is filled with a fully opaque background with no
