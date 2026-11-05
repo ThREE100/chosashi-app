@@ -149,6 +149,20 @@ kanji 号・権・地・番・建・物・登・記・所, which have Simplified
 look-alike forms with visibly different stroke shapes — always draw the
 standard Japanese (Jōyō) form of these characters.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the Japanese words and labels already written out in
+that card's Illustration description above, each one large, clear and
+exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra
+signs, labels, captions, numbers or pseudo-writing. If a prop needs no
+specified word, leave its surface blank or show its meaning with an icon
+or a mark (check mark, red cross) instead. The title, subtitle, column
+headers, card headings and conclusion tags are the only other text on the
+poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -258,7 +272,7 @@ illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
 tag, at a glance, and matches the Japanese text given above verbatim with
-no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+no paraphrasing and no substituted characters. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration or diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -316,6 +330,16 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the Japanese words already written in each
+panel's Diagram description above (plus that panel's heading, 着眼点
+callout and conclusion tag), each one large, clear and exactly as
+written. Do not add any other text, inscriptions, signs, numbers or
+pseudo-writing inside a diagram; leave other surfaces blank or use an
+icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -431,14 +455,19 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 家屋番号は床面積でなく指定登記所の地番で決まる
 Diagram: A contrast-frame layout with a shared illustration on top and
-two frames below. Top: an isometric building straddling a dotted
-municipal boundary line between two land plots,「5番1」（Ａ登記所側、
+two frames below. IMPORTANT: 「5番1」and「6番1」are two DIFFERENT house
+numbers, not the same number repeated — the only difference is the
+leading digit (5 vs 6); render each leading digit extra-large and in a
+distinct color (5 in orange, 6 in purple) so the two tags are clearly
+not identical at a glance. Top: an isometric building straddling a
+dotted municipal boundary line between two land plots,「5番1」（Ａ登記所側、
 床面積の多い部分を強調表示）と「6番1」（Ｂ登記所側）. Left frame,
 labeled「誤りやすい思い込み」: an arrow from the「5番1」（Ａ登記所）plot
-toward a number tag「5番1」, with a red ✕ mark and a strike-through over
-this tag. Right frame, labeled「正しいルール」: a small「指定」badge
-attached to the「6番1」（Ｂ登記所）plot, with an arrow from this plot
-toward a number tag「6番1」marked with a ✓ checkmark.
+toward a number tag「5番1」(leading digit 5 in orange), with a red ✕ mark
+and a strike-through over this tag. Right frame, labeled「正しいルール」:
+a small「指定」badge attached to the「6番1」（Ｂ登記所）plot, with an arrow
+from this plot toward a number tag「6番1」(leading digit 6 in purple)
+marked with a ✓ checkmark.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず建物がまたがる各土地の地番と管轄登記所を確認し、次にどちらの
 登記所が登記事務の指定を受けたかを確認します。家屋番号は床面積が
@@ -466,10 +495,13 @@ conclusion node with no arrow looping back to an earlier node, that each
 着眼点 callout states a checking order rather than only a conclusion and
 keeps every required element from the source article distinct, that
 Panel 5's contrast frames clearly separate「誤りやすい思い込み」from
-「正しいルール」with the incorrect tag struck through, confirm nothing is
+「正しいルール」with the incorrect tag struck through, confirm that the
+two number tags「5番1」and「6番1」in Panel 5 are rendered as two distinct
+strings (not the same string repeated) — if both tags show the same
+leading digit, this is an error and must be corrected, confirm nothing is
 rendered below the last panel's footnote text (no summary recap panel,
 no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no
-additional text block of any kind), and confirm the entire canvas, edge
+additional text block of any kind), and Confirm that no illustration or diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. confirm the entire canvas, edge
 to edge, is filled with a fully opaque background with no transparency or
 alpha channel anywhere.
 ```
