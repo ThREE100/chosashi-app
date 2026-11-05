@@ -158,7 +158,7 @@ for t in TOPICS:
         zp = rd(HERE, 'zukai-prompts-%s.md' % n)
         check(zp.count('Words allowed on this poster') == 2 * len(t['figs']), '%s: Words allowedが図数×2でない' % t['id'])
         check(zp.count('NO NUMBERING') == 2 * len(t['figs']) and zp.count('ILLUSTRATION TEXT RULE') == 2 * len(t['figs']), '%s: NO NUMBERING / ILLUSTRATION TEXT RULE' % t['id'])
-        check('1080x1440' in zp and zp.count('INSTAGRAM FEED FORMAT') == len(t['figs']), '%s: Instagram用の指示' % t['id'])
+        check('1080x1350' in zp and zp.count('INSTAGRAM FEED FORMAT') == len(t['figs']), '%s: Instagram用の指示' % t['id'])
         for f in t['figs']:
             for w in re.findall(r'「([^」]+)」', f['body']):
                 check('「%s」' % w in zp, '%s %s: 語「%s」がプロンプトにない' % (t['id'], f['key'], w))

@@ -1,6 +1,6 @@
 # 「数字の図鑑」 図解画像のプロンプト（ChatGPT用・note用とInstagram用）
 
-2026-11-04 作成（`src/gen_prompts.py` で作る。手で直さない）。記事 `01-fudousan-touki-hou-kigen-suuji-zukan.md` に差し込む図7枚について、**note用（縦長・図ごとのサイズ）とInstagram用（1080×1440・3:4）の2種類**を用意した。画像の生成と目視確認はChatGPTで行う（未実施）。
+2026-11-04 作成（`src/gen_prompts.py` で作る。手で直さない）。記事 `01-fudousan-touki-hou-kigen-suuji-zukan.md` に差し込む図7枚について、**note用（縦長・図ごとのサイズ）とInstagram用（1080×1350・4:5）の2種類**を用意した。画像の生成と目視確認はChatGPTで行う（未実施）。
 
 ## 使い方
 
@@ -12,7 +12,7 @@
 
 ## 確かめること
 
-- 大きさが指定どおりか（note用は図ごとに違う、Instagram用は1080×1440）。
+- 大きさが指定どおりか（note用は図ごとに違う、Instagram用は1080×1350）。
 - 文字が、各プロンプトの「Words allowed」と**1字ずつ**一致しているか（簡体字・繁体字になっていないか、余計な文字・数字がないか）。
 - 条文番号が正しく出ているか（「第70条の2」の「の2」、「第164条第2項」など）。
 - 図番（図1など）が画像に入っていないか。
@@ -25,13 +25,13 @@
 
 | 管理番号 | 内容 | note用のサイズ | Instagram用のサイズ |
 |---|---|---|---|
-| zu01 | 数字の7つの引き出し | 1080x1800 | 1080x1440 |
-| zu02 | 一月以内の登記と起算点 | 1080x1800 | 1080x1440 |
-| zu03 | 相続の三年と氏名・住所の二年 | 1080x1600 | 1080x1440 |
-| zu04 | 過料と罰則の金額 | 1080x1700 | 1080x1440 |
-| zu05 | 十年・二十年・三十年 | 1080x1700 | 1080x1440 |
-| zu06 | 保存期間の階段 | 1080x1900 | 1080x1440 |
-| zu07 | その他の数字 | 1080x1500 | 1080x1440 |
+| zu01 | 数字の7つの引き出し | 1080x1800 | 1080x1350 |
+| zu02 | 一月以内の登記と起算点 | 1080x1800 | 1080x1350 |
+| zu03 | 相続の三年と氏名・住所の二年 | 1080x1600 | 1080x1350 |
+| zu04 | 過料と罰則の金額 | 1080x1700 | 1080x1350 |
+| zu05 | 十年・二十年・三十年 | 1080x1700 | 1080x1350 |
+| zu06 | 保存期間の階段 | 1080x1900 | 1080x1350 |
+| zu07 | その他の数字 | 1080x1500 | 1080x1350 |
 
 ## 図1：数字の7つの引き出し（zu01）
 
@@ -70,10 +70,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「不動産
 Final check before rendering: confirm the canvas is exactly 1080x1800 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 不、動、産、登、記、法、数、字、図、鑑、引、出、分、表、示、期、限、一、月、以、内、権、利、三、年、二、過、料、十、万、円、下、五、罰、則、拘、禁、刑、百、金、時、経、単、独、申、請、保、存、間、永、久、他、四、親、等、何.
 ```
 
-### Instagram用（1080x1440・3:4）
+### Instagram用（1080x1350・4:5）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use a "picture book / specimen drawer" motif (a cabinet of small labeled drawers, index tabs), drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -100,11 +100,11 @@ Title (large, bold): 「不動産登記法の数字の図鑑」 / subtitle band:
 
 --- FOOTER --- conclusion band: 「何の登記か、いつから数えるか」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「不動産登記法の数字の図鑑」 / 「数字は7つの引き出しに分ける」 / 「表示の登記の期限」 / 「一月以内」 / 「権利の登記の期限」 / 「三年以内」 / 「二年以内」 / 「過料」 / 「十万円以下」 / 「五万円以下」 / 「罰則」 / 「二年以下の拘禁刑」 / 「百万円以下の罰金」 / 「時の経過で単独申請」 / 「十年」 / 「二十年」 / 「三十年」 / 「保存期間」 / 「永久」 / 「一年」 / 「その他の数字」 / 「四親等内」 / 「何の登記か、いつから数えるか」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 不、動、産、登、記、法、数、字、図、鑑、引、出、分、表、示、期、限、一、月、以、内、権、利、三、年、二、過、料、十、万、円、下、五、罰、則、拘、禁、刑、百、金、時、経、単、独、申、請、保、存、間、永、久、他、四、親、等、何.
+Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 不、動、産、登、記、法、数、字、図、鑑、引、出、分、表、示、期、限、一、月、以、内、権、利、三、年、二、過、料、十、万、円、下、五、罰、則、拘、禁、刑、百、金、時、経、単、独、申、請、保、存、間、永、久、他、四、親、等、何.
 ```
 
 ## 図2：一月以内の登記と起算点（zu02）
@@ -143,10 +143,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「表示の
 Final check before rendering: confirm the canvas is exactly 1080x1800 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 表、示、登、記、一、月、以、内、起、算、点、違、土、地、建、物、題、第、条、所、有、権、取、得、日、変、更、滅、失、合、体、規、約、廃、止、怠、十、万、円、下、過、料、同、数、始.
 ```
 
-### Instagram用（1080x1440・3:4）
+### Instagram用（1080x1350・4:5）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use a "picture book / specimen drawer" motif (a cabinet of small labeled drawers, index tabs), drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -172,11 +172,11 @@ Below the table, one red-orange band: 「怠ると十万円以下の過料」
 
 --- FOOTER --- 「一月は同じ、数え始めが違う」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「表示の登記は一月以内」 / 「起算点が登記ごとに違う」 / 「土地」 / 「建物」 / 「表題登記」 / 「第36条　所有権の取得の日」 / 「第47条　所有権の取得の日」 / 「変更」 / 「第37条　変更があった日」 / 「第51条　変更があった日」 / 「滅失」 / 「第42条　滅失の日」 / 「第57条　滅失の日」 / 「合体」 / 「第49条　合体の日」 / 「規約の廃止」 / 「第58条　規約の廃止の日」 / 「怠ると十万円以下の過料」 / 「一月は同じ、数え始めが違う」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 表、示、登、記、一、月、以、内、起、算、点、違、土、地、建、物、題、第、条、所、有、権、取、得、日、変、更、滅、失、合、体、規、約、廃、止、怠、十、万、円、下、過、料、同、数、始.
+Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 表、示、登、記、一、月、以、内、起、算、点、違、土、地、建、物、題、第、条、所、有、権、取、得、日、変、更、滅、失、合、体、規、約、廃、止、怠、十、万、円、下、過、料、同、数、始.
 ```
 
 ## 図3：相続の三年と氏名・住所の二年（zu03）
@@ -211,10 +211,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「権利の
 Final check before rendering: confirm the canvas is exactly 1080x1600 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 権、利、登、記、期、限、相、続、三、年、氏、名、住、所、二、有、移、転、以、内、第、条、開、始、取、得、知、日、遺、産、分、割、変、更、除.
 ```
 
-### Instagram用（1080x1440・3:4）
+### Instagram用（1080x1350・4:5）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use a "picture book / specimen drawer" motif (a cabinet of small labeled drawers, index tabs), drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -236,11 +236,11 @@ Title (large, bold): 「権利の登記の期限は2つだけ」 / subtitle band
 
 --- FOOTER --- 「権利の登記に期限はない、この2つを除いて」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「権利の登記の期限は2つだけ」 / 「相続は三年、氏名・住所は二年」 / 「相続による所有権の移転」 / 「三年以内」 / 「第76条の2」 / 「相続の開始と取得を知った日から」 / 「遺産の分割の日から」 / 「氏名・住所の変更」 / 「二年以内」 / 「第76条の5」 / 「変更があった日から」 / 「権利の登記に期限はない、この2つを除いて」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 権、利、登、記、期、限、相、続、三、年、氏、名、住、所、二、有、移、転、以、内、第、条、開、始、取、得、知、日、遺、産、分、割、変、更、除.
+Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 権、利、登、記、期、限、相、続、三、年、氏、名、住、所、二、有、移、転、以、内、第、条、開、始、取、得、知、日、遺、産、分、割、変、更、除.
 ```
 
 ## 図4：過料と罰則の金額（zu04）
@@ -279,10 +279,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「怠った
 Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 怠、違、反、金、額、過、料、罰、則、別、条、文、五、万、円、以、下、第、項、申、請、十、義、務、登、記、三、検、査、拒、妨、二、年、拘、禁、刑、百、氏、名、住、所、変、更、半.
 ```
 
-### Instagram用（1080x1440・3:4）
+### Instagram用（1080x1350・4:5）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use a "picture book / specimen drawer" motif (a cabinet of small labeled drawers, index tabs), drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -308,11 +308,11 @@ A small label near the steps 1 and 2: 「過料」, and near the steps 3 to 5: �
 
 --- FOOTER --- 「氏名・住所の変更だけ半額」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「怠ったとき・違反したときの金額」 / 「過料と罰則は別の条文」 / 「五万円以下の過料」 / 「第164条第2項」 / 「第76条の5の申請を怠る」 / 「十万円以下の過料」 / 「第164条第1項」 / 「申請義務のある登記を怠る」 / 「三十万円以下の罰金」 / 「第162条」 / 「検査を拒み、妨げる」 / 「五十万円以下の罰金」 / 「第160条・第161条」 / 「二年以下の拘禁刑または」 / 「百万円以下の罰金」 / 「第159条」 / 「過料」 / 「罰則」 / 「氏名・住所の変更だけ半額」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 怠、違、反、金、額、過、料、罰、則、別、条、文、五、万、円、以、下、第、項、申、請、十、義、務、登、記、三、検、査、拒、妨、二、年、拘、禁、刑、百、氏、名、住、所、変、更、半.
+Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 怠、違、反、金、額、過、料、罰、則、別、条、文、五、万、円、以、下、第、項、申、請、十、義、務、登、記、三、検、査、拒、妨、二、年、拘、禁、刑、百、氏、名、住、所、変、更、半.
 ```
 
 ## 図5：十年・二十年・三十年（zu05）
@@ -349,10 +349,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「年月が
 Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 年、月、経、単、独、申、請、登、記、抹、消、特、則、十、第、条、買、戻、約、関、契、日、二、項、先、取、権、質、抵、当、弁、済、期、全、額、供、託、三、解、散、法、人、担、保、利、者、件、違.
 ```
 
-### Instagram用（1080x1440・3:4）
+### Instagram用（1080x1350・4:5）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use a "picture book / specimen drawer" motif (a cabinet of small labeled drawers, index tabs), drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -376,11 +376,11 @@ At the right of the timeline, a small icon of one person with a stamp and the la
 
 --- FOOTER --- 「条件はそれぞれ違う」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「年月が経つと単独で申請できる」 / 「登記の抹消の特則」 / 「十年」 / 「第69条の2」 / 「買戻しの特約に関する登記」 / 「契約の日から」 / 「二十年」 / 「第70条第4項」 / 「先取特権・質権・抵当権」 / 「弁済期から、そのあと全額を供託」 / 「三十年」 / 「第70条の2」 / 「解散した法人の担保権」 / 「弁済期から、解散の日からも」 / 「登記権利者が単独で申請」 / 「条件はそれぞれ違う」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 年、月、経、単、独、申、請、登、記、抹、消、特、則、十、第、条、買、戻、約、関、契、日、二、項、先、取、権、質、抵、当、弁、済、期、全、額、供、託、三、解、散、法、人、担、保、利、者、件、違.
+Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 年、月、経、単、独、申、請、登、記、抹、消、特、則、十、第、条、買、戻、約、関、契、日、二、項、先、取、権、質、抵、当、弁、済、期、全、額、供、託、三、解、散、法、人、担、保、利、者、件、違.
 ```
 
 ## 図6：保存期間の階段（zu06）
@@ -422,10 +422,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「登記所
 Final check before rendering: confirm the canvas is exactly 1080x1900 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 登、記、所、保、存、期、間、永、久、一、年、階、段、録、地、図、建、物、在、五、十、土、閉、鎖、三、申、請、情、報、添、付、面、二、信、託、目、共、同、担、受、帳、職、権、表、示、等、事、件、簿、法、定、相、続、覧、込、不、正、防、止、出、書、類、務、日.
 ```
 
-### Instagram用（1080x1440・3:4）
+### Instagram用（1080x1350・4:5）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use a "picture book / specimen drawer" motif (a cabinet of small labeled drawers, index tabs), drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -454,11 +454,11 @@ A callout pointing at the 「永久」 step and the 「三十年」 step: 「図
 
 --- FOOTER --- 「建物所在図だけは閉鎖しても永久」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「登記所の保存期間」 / 「永久から一年までの階段」 / 「永久」 / 「登記記録」 / 「地図」 / 「建物所在図」 / 「五十年」 / 「土地の閉鎖登記記録」 / 「三十年」 / 「建物の閉鎖登記記録」 / 「申請情報・添付情報」 / 「閉鎖した図面」 / 「二十年」 / 「信託目録」 / 「十年」 / 「共同担保目録」 / 「受付帳」 / 「五年」 / 「職権表示登記等事件簿」 / 「法定相続情報一覧図つづり込み帳」 / 「三年」 / 「不正登記防止申出書類つづり込み帳」 / 「一年」 / 「登記事務日記帳」 / 「図面は閉鎖すると三十年」 / 「建物所在図だけは閉鎖しても永久」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 登、記、所、保、存、期、間、永、久、一、年、階、段、録、地、図、建、物、在、五、十、土、閉、鎖、三、申、請、情、報、添、付、面、二、信、託、目、共、同、担、受、帳、職、権、表、示、等、事、件、簿、法、定、相、続、覧、込、不、正、防、止、出、書、類、務、日.
+Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 登、記、所、保、存、期、間、永、久、一、年、階、段、録、地、図、建、物、在、五、十、土、閉、鎖、三、申、請、情、報、添、付、面、二、信、託、目、共、同、担、受、帳、職、権、表、示、等、事、件、簿、法、定、相、続、覧、込、不、正、防、止、出、書、類、務、日.
 ```
 
 ## 図7：その他の数字（zu07）
@@ -496,10 +496,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「条文に
 Final check before rendering: confirm the canvas is exactly 1080x1500 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 条、文、散、数、字、確、認、十、個、第、登、記、権、利、四、親、等、内、官、族、申、請、不、可、一、月、以、期、間、項、異、議、述、三、日、審、査、求、事、件、送、付、二、年、筆、界、調、委、員、任、別.
 ```
 
-### Instagram用（1080x1440・3:4）
+### Instagram用（1080x1350・4:5）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use a "picture book / specimen drawer" motif (a cabinet of small labeled drawers, index tabs), drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -524,13 +524,13 @@ Title (large, bold): 「条文に散らばる数字」 / subtitle band: 「ほ�
 
 --- FOOTER --- 「一つずつ別の条文にある」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「条文に散らばる数字」 / 「ほかの数字もここで確認」 / 「十個」 / 「第3条」 / 「登記できる権利」 / 「四親等内」 / 「第10条」 / 「登記官の親族の申請は不可」 / 「一月以内の期間」 / 「第71条第1項」 / 「異議を述べる期間」 / 「三日以内」 / 「第157条第2項」 / 「審査請求の事件の送付」 / 「二年」 / 「第127条第3項」 / 「筆界調査委員の任期」 / 「一つずつ別の条文にある」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 条、文、散、数、字、確、認、十、個、第、登、記、権、利、四、親、等、内、官、族、申、請、不、可、一、月、以、期、間、項、異、議、述、三、日、審、査、求、事、件、送、付、二、年、筆、界、調、委、員、任、別.
+Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 条、文、散、数、字、確、認、十、個、第、登、記、権、利、四、親、等、内、官、族、申、請、不、可、一、月、以、期、間、項、異、議、述、三、日、審、査、求、事、件、送、付、二、年、筆、界、調、委、員、任、別.
 ```
 
 ## 見出し画像
 
-見出し画像（note用 1280x670・Instagram用 1080x1440）のプロンプトは `02-header-image-prompts.md` にある。
+見出し画像（note用 1280x670・Instagram用 1080x1350）のプロンプトは `02-header-image-prompts.md` にある。

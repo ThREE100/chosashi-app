@@ -4,8 +4,8 @@
 
 ## 画像のプロンプト（すでに用意済み）
 
-- 図解7枚の**Instagram用（3:4・1080×1440）**は `01-zukai-prompts.md` の各図の「Instagram用」のコードブロック（図1〜図7）。note用と文字は同じで、余白（左右54px・上下72px）だけ違う。
-- 表紙（見出し画像）の**Instagram用（3:4）**は `02-header-image-prompts.md`。
+- 図解7枚の**Instagram用（4:5・1080×1350）**は `01-zukai-prompts.md` の各図の「Instagram用」のコードブロック（図1〜図7）。note用と文字は同じで、余白（左右54px・上下68px）だけ違う。
+- 表紙（見出し画像）の**Instagram用（4:5）**は `02-header-image-prompts.md`。
 - 画像の生成と目視確認はChatGPTで行う（未実施）。画像の中には、図番・アカウント名・URL・案内の文字を入れない。
 
 ## 書き方の決まり（確認済み）

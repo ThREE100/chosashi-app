@@ -13,7 +13,7 @@ PROMPT = '''Create an Instagram feed cover image, portrait layout, EXACTLY {size
 
 STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com header images of the same series. Fill the whole canvas with the pastel sky and soft clouds.
 
-INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text, and no logo or watermark.
+INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text, and no logo or watermark.
 
 CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.
 
@@ -41,8 +41,7 @@ def kanji_of(*ts):
         if '一' <= c <= '鿿' and c not in seen: seen.append(c)
     return '・'.join(seen)
 
-VAR = {'34': dict(size='1080x1440', ratio='3:4', ty0=120, ty1=620, cy0=760, cy1=1360),
-       '45': dict(size='1080x1350', ratio='4:5', ty0=100, ty1=570, cy0=700, cy1=1280)}
+VAR = {'45': dict(size='1080x1350', ratio='4:5', ty0=100, ty1=570, cy0=700, cy1=1280)}   # Instagramの画像は4:5に固定（2026-11-05）
 
 def build(i, d, fname):
     title = open(os.path.join(TOPICS, fname + '.md'), encoding='utf-8').readline().strip().lstrip('# ')
@@ -51,14 +50,14 @@ def build(i, d, fname):
     n = 4 if sub else 3
     def mk(v): return PROMPT.format(l1=d['l1'], l2=d['l2'], emph=d['emph'], band=d['band'], sub_block=sub_block,
                        scene=d['scene'].strip().rstrip('.。')+'.', n=n, kanji=kanji_of(d['l1'], d['l2'], d['band'], sub), **VAR[v])
-    pr, pr45 = mk('34'), mk('45')
+    pr45 = mk('45')
     cap = [d['hook'], '', d['lead'], '']
     cap += ['・' + p for p in d['points']]
     cap += ['', d['close'], '', ' '.join(d['tags'])]
     cap = '\n'.join(cap)
     out = f'''# {i} Instagram用 見出し画像のプロンプトとキャプション
 
-- 画像は3:4と4:5の2種類（どちらもキャラクターシートMC-01〜MC-04を添付して貼る）。
+- 画像は4:5（1080×1350）に固定（キャラクターシートMC-01〜MC-04を添付して貼る）。
 - 対象の記事：`note-articles/topics/{fname}.md`
 - 記事の見出し：{title}
 - 分類：{i[:2]} {SHELF[i[:2]]}
@@ -73,15 +72,9 @@ def build(i, d, fname):
 | 帯 | {d['band']} |
 | 4行目 | {sub or '（なし）'} |
 
-## 見出し画像プロンプト 3:4（1080×1440・ChatGPTに貼る）
+## 見出し画像プロンプト 4:5（1080×1350・Instagram投稿用・ChatGPTに貼る）
 
-```
-{pr}
-```
-
-## 見出し画像プロンプト 4:5（1080×1350・Instagram投稿用）
-
-3:4版と同じ文字・同じ絵柄で、縦横比だけを4:5にしたもの。キャラクターは、キャラクターシート（MC-01〜MC-04）を添付して参照させる。
+キャラクターは、キャラクターシート（MC-01〜MC-04）を添付して参照させる。
 
 ```
 {pr45}
@@ -109,7 +102,7 @@ def main():
         open(os.path.join(HERE, f'{i}.md'), 'w', encoding='utf-8').write(out)
         rows.append((i, files[i], D[i]['l1'] + D[i]['l2'], n))
     idx = ['# 個別テーマ記事のInstagram用 見出し画像プロンプトとキャプション', '',
-           '2026-11-04 作成。`topics/` の個別テーマ記事（KA〜KT、' + str(len(rows)) + '本）ごとに、Instagram（1080×1440）の見出し画像（表紙）のプロンプトと、キャプション案を保存した。',
+           '2026-11-04 作成。`topics/` の個別テーマ記事（KA〜KT、' + str(len(rows)) + '本）ごとに、Instagram（1080×1350・4:5）の見出し画像（表紙）のプロンプトと、キャプション案を保存した。',
            '`gen_instagram.py` が `data.json`（原稿データ）から作る。**生成物は手で直さず、`data.json` を直して作り直す**。つなぎ（F2：個別テーマ）の枠に、1日1枚ずつ出す使い方を想定している（`note-unei/instagram/README.md`）。', '',
            '| ID | 画像の文字 | キャプション字数 | ファイル |', '|---|---|---|---|']
     for i, f, t, n in rows: idx.append(f'| {i} | {t} | {n} | [{i}.md]({i}.md) |')

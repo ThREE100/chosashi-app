@@ -1,8 +1,8 @@
 """図解プロンプト（zukai-prompts-0N.md）、見出し画像プロンプト（header-image-prompts.md）、
 Instagramキャプション案（instagram-captions.md）を作る。手で直さず、data.py を直して作り直す：
   python3 note-articles/zukai-kikaku/src/gen_prompts.py
-図解は、すべて note用（縦長・図ごとのサイズ）と Instagram用（1080x1440・3:4）の2種類を作る。
-見出し画像も note用（1280x670）と Instagram用（1080x1440・3:4）の2種類。
+図解は、すべて note用（縦長・図ごとのサイズ）と Instagram用（1080x1350・4:5）の2種類を作る。
+見出し画像も note用（1280x670）と Instagram用（1080x1350・4:5）の2種類。
 共通の英語の定型文は、既存の kigen-suuji-zukan/src/gen_prompts.py と topics/instagram/gen_instagram.py から読み込む（文面をそろえるため）。
 """
 import os
@@ -29,7 +29,7 @@ assert '{motif}' in COMMON and 'pale orange = 権利' in COMMON
 gi = open(os.path.join(NA, 'topics', 'instagram', 'gen_instagram.py'), encoding='utf-8').read()
 a = gi.index("PROMPT = '''") + len("PROMPT = '''")
 IGH = gi[a:gi.index("'''", a)]
-VAR34 = dict(size='1080x1440', ratio='3:4', ty0=120, ty1=620, cy0=760, cy1=1360)
+VAR34 = dict(size='1080x1350', ratio='4:5', ty0=100, ty1=570, cy0=700, cy1=1280)   # Instagramは4:5に固定（変数名は旧名のまま）
 
 
 def kanji_of(*ts):
@@ -50,7 +50,7 @@ def words_of(body):
 
 
 def build_fig(t, f, ig):
-    size = '1080x1440' if ig else f['size']
+    size = '1080x1350' if ig else f['size']
     ws = words_of(f['body'])
     kj = ''.join(dict.fromkeys(re.findall(r'[一-龥]', ''.join(ws))))
     p = COMMON.format(size=size, motif=t['motif']) + f['body']
@@ -67,7 +67,7 @@ def gen_zukai():
             continue
         n = t['id'][-2:]
         L = ['# %s 図解画像のプロンプト（ChatGPT用・note用とInstagram用）' % t['title'].split('〜')[0], '',
-             '作成 2026-11-05（`src/gen_prompts.py` で作る。手で直さない）。記事 `%s.md` に差し込む図%d枚について、**note用（縦長・図ごとのサイズ）とInstagram用（1080×1440・3:4）の2種類**を用意した。' % (t['slug'], len(t['figs'])),
+             '作成 2026-11-05（`src/gen_prompts.py` で作る。手で直さない）。記事 `%s.md` に差し込む図%d枚について、**note用（縦長・図ごとのサイズ）とInstagram用（1080×1350・4:5）の2種類**を用意した。' % (t['slug'], len(t['figs'])),
              '', '## 使い方', '',
              '1. 図ごとに、noteに使うなら「note用」、Instagramに使うなら「Instagram用」のコードブロックを、そのままChatGPTに貼る。文字は同じで、大きさと余白だけ違う。',
              '2. 画像の中に図番は入れない（管理番号は、PNG名と記事のマーカーだけ）。',
@@ -75,22 +75,22 @@ def gen_zukai():
              '4. ファイル名は、note用が `kz%s_zu01.png` から、Instagram用が `kz%s_ig01.png` から。' % (n, n),
              '5. 直すときは、プロンプトの最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。',
              '', '## 確かめること', '',
-             '- 大きさが指定どおりか（note用は図ごとに違う、Instagram用は1080×1440）。',
+             '- 大きさが指定どおりか（note用は図ごとに違う、Instagram用は1080×1350）。',
              '- 文字が、各プロンプトの「Words allowed」と**1字ずつ**一致しているか（簡体字・繁体字になっていないか、余計な文字・数字がないか）。',
              '- 条文番号・項番号が正しく出ているか。',
              '- 図番（図1など）が画像に入っていないか。',
-             '- Instagram用は、文字と主要な絵が外側の余白（左右54px・上下72px）の内側にあるか。アカウント名・URLが入っていないか。',
+             '- Instagram用は、文字と主要な絵が外側の余白（左右54px・上下68px）の内側にあるか。アカウント名・URLが入っていないか。',
              '- 背景が不透明か。', '',
              '文字が何度やっても崩れるときは、「Words allowed」の行を残したまま「No text」の版（文字なしの枠と絵だけ）を作らせて、文字はCanvaで入れる。', '',
              '## 図の一覧', '', '| 管理番号 | 内容 | note用のサイズ | Instagram用のサイズ |', '|---|---|---|---|']
         for f in t['figs']:
-            L.append('| %s | %s | %s | 1080x1440 |' % (f['key'], f['title'], f['size']))
+            L.append('| %s | %s | %s | 1080x1350 |' % (f['key'], f['title'], f['size']))
         L.append('')
         for j, f in enumerate(t['figs'], 1):
             L += ['## 図%d：%s（%s）' % (j, f['title'], f['key']), '',
                   '### note用（%s）' % f['size'], '', '```', build_fig(t, f, False), '```', '',
-                  '### Instagram用（1080x1440・3:4）', '', '```', build_fig(t, f, True), '```', '']
-        L += ['## 見出し画像', '', '見出し画像（note用 1280x670・Instagram用 1080x1440）は `header-image-prompts.md`、キャプションは `instagram-captions.md`。', '']
+                  '### Instagram用（1080x1350・4:5）', '', '```', build_fig(t, f, True), '```', '']
+        L += ['## 見出し画像', '', '見出し画像（note用 1280x670・Instagram用 1080x1350）は `header-image-prompts.md`、キャプションは `instagram-captions.md`。', '']
         open(os.path.join(ROOT, 'zukai-prompts-%s.md' % n), 'w', encoding='utf-8').write('\n'.join(L))
 
 
@@ -123,13 +123,13 @@ Final check before rendering: confirm the image is exactly 1280x670 landscape; c
 
 def gen_header():
     L = ['# 図解企画6本 見出し画像のプロンプト（note用・Instagram用）', '',
-         '作成 2026-11-05（`src/gen_prompts.py` で作る。手で直さない）。企画ごとに、**note用（1280×670）とInstagram用（1080×1440・3:4）の2種類**。',
+         '作成 2026-11-05（`src/gen_prompts.py` で作る。手で直さない）。企画ごとに、**note用（1280×670）とInstagram用（1080×1350・4:5）の2種類**。',
          '画像の生成と目視確認はChatGPTで行う（未実施）。キャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚を添付してから貼る。見出し画像のキャラクターはMC1人だけ（トリ先生・藍子は入れない）。', '',
          '## 確かめること', '',
-         '- 大きさが指定どおりか（note用 1280×670、Instagram用 1080×1440）。',
+         '- 大きさが指定どおりか（note用 1280×670、Instagram用 1080×1350）。',
          '- 文字が、各表の文面と**1字ずつ**一致しているか（簡体字・繁体字・余計な文字・数字・英字がないか）。',
          '- キャラクターがMC1人だけか。手や腕の数が合っているか。',
-         '- Instagram用は、文字と主要な絵が外側の余白（左右54px・上下72px）の内側にあるか。アカウント名・URLが入っていないか。',
+         '- Instagram用は、文字と主要な絵が外側の余白（左右54px・上下68px）の内側にあるか。アカウント名・URLが入っていないか。',
          '- 背景が不透明か。',
          '- 直すときは、プロンプトの最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。', '',
          '文字が崩れるときは、「TEXT」の部分を「No text」に書き換えて文字なしで作らせ、文字はCanvaなどで重ねる。', '']
@@ -138,13 +138,13 @@ def gen_header():
         L += ['## %s　%s' % (t['id'], t['title'].split('〜')[0]), '',
               '| 用途 | サイズ | 文字 |', '|---|---|---|',
               '| note用 | 1280×670 | 「%s」／「%s」／「%s」 |' % (h['l1'], h['l2'], h['band']),
-              '| Instagram用 | 1080×1440 | 「%s」／「%s」／「%s」／「%s」 |' % (h['l1'], h['l2'], h['band'], h['sub']), '']
+              '| Instagram用 | 1080×1350 | 「%s」／「%s」／「%s」／「%s」 |' % (h['l1'], h['l2'], h['band'], h['sub']), '']
         pn = NOTE_HEADER.format(l1=h['l1'], l2=h['l2'], emph=h['emph'], band=h['band'], scene=h['scene_note'],
                                 kanji=kanji_of(h['l1'], h['l2'], h['band']))
         pi = IGH.format(l1=h['l1'], l2=h['l2'], emph=h['emph'], band=h['band'],
                         sub_block='Line 4, smaller, dark navy, below the band:\n' + h['sub'] + '\n', n=4,
                         scene=h['scene_ig'].rstrip('.') + '.', kanji=kanji_of(h['l1'], h['l2'], h['band'], h['sub']), **VAR34)
-        L += ['### note用（1280×670）', '', '```', pn, '```', '', '### Instagram用（1080×1440・3:4）', '', '```', pi, '```', '']
+        L += ['### note用（1280×670）', '', '```', pn, '```', '', '### Instagram用（1080×1350・4:5）', '', '```', pi, '```', '']
     open(os.path.join(ROOT, 'header-image-prompts.md'), 'w', encoding='utf-8').write('\n'.join(L))
 
 

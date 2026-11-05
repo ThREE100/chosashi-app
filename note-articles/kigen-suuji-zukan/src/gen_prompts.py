@@ -1,6 +1,6 @@
 """図解プロンプト（01-zukai-prompts.md）と見出し画像プロンプト（02-header-image-prompts.md）を作る。
 手で直さず、このデータを直して作り直す：python3 note-articles/kigen-suuji-zukan/src/gen_prompts.py
-各図について、note用（縦長・図ごとのサイズ）とInstagram用（3:4・1080x1440）の2種類を作る。
+各図について、note用（縦長・図ごとのサイズ）とInstagram用（4:5・1080x1350）の2種類を作る。
 """
 import os
 import re
@@ -27,7 +27,7 @@ Keep generous margins (at least 48px), large readable type, and a clear unclutte
 FINAL = '''
 Final check before rendering: confirm the canvas is exactly {size} pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque.'''
 IG_EXTRA = '''
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.'''
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.'''
 
 FIGS = []
 
@@ -133,7 +133,7 @@ Title (large, bold): 「条文に散らばる数字」 / subtitle band: 「ほ�
 
 
 def build(f, ig):
-    size = '1080x1440' if ig else f['size']
+    size = '1080x1350' if ig else f['size']
     kj = ''.join(dict.fromkeys(re.findall(r'[一-龥]', ''.join(f['words']))))
     p = COMMON.format(size=size) + f['body']
     if ig:
@@ -144,7 +144,7 @@ def build(f, ig):
 
 
 L = ['# 「数字の図鑑」 図解画像のプロンプト（ChatGPT用・note用とInstagram用）', '',
-     '2026-11-04 作成（`src/gen_prompts.py` で作る。手で直さない）。記事 `01-fudousan-touki-hou-kigen-suuji-zukan.md` に差し込む図7枚について、**note用（縦長・図ごとのサイズ）とInstagram用（1080×1440・3:4）の2種類**を用意した。画像の生成と目視確認はChatGPTで行う（未実施）。',
+     '2026-11-04 作成（`src/gen_prompts.py` で作る。手で直さない）。記事 `01-fudousan-touki-hou-kigen-suuji-zukan.md` に差し込む図7枚について、**note用（縦長・図ごとのサイズ）とInstagram用（1080×1350・4:5）の2種類**を用意した。画像の生成と目視確認はChatGPTで行う（未実施）。',
      '', '## 使い方', '',
      '1. 図ごとに、noteに使うなら「note用」、Instagramに使うなら「Instagram用」のコードブロックを、そのままChatGPTに貼る。内容（文字）は同じで、大きさと余白だけ違う。',
      '2. 画像の中に図番は入れない（管理番号は、PNG名と記事のマーカーだけ）。',
@@ -152,7 +152,7 @@ L = ['# 「数字の図鑑」 図解画像のプロンプト（ChatGPT用・note
      '4. 仕上がりを確かめる（下の「確かめること」）。直すときは、プロンプトの最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。',
      '5. ファイル名は、note用が `kigen_zu01.png` 〜 `kigen_zu07.png`、Instagram用が `kigen_ig01.png` 〜 `kigen_ig07.png`。',
      '', '## 確かめること', '',
-     '- 大きさが指定どおりか（note用は図ごとに違う、Instagram用は1080×1440）。',
+     '- 大きさが指定どおりか（note用は図ごとに違う、Instagram用は1080×1350）。',
      '- 文字が、各プロンプトの「Words allowed」と**1字ずつ**一致しているか（簡体字・繁体字になっていないか、余計な文字・数字がないか）。',
      '- 条文番号が正しく出ているか（「第70条の2」の「の2」、「第164条第2項」など）。',
      '- 図番（図1など）が画像に入っていないか。',
@@ -161,13 +161,13 @@ L = ['# 「数字の図鑑」 図解画像のプロンプト（ChatGPT用・note
      '', '文字が何度やっても崩れるときは、「Words allowed」の行を残したまま「No text」の版（文字なしの引き出しや階段の絵だけ）を作らせて、文字はCanvaで入れる。', '',
      '## 図の一覧', '', '| 管理番号 | 内容 | note用のサイズ | Instagram用のサイズ |', '|---|---|---|---|']
 for f in FIGS:
-    L.append('| %s | %s | %s | 1080x1440 |' % (f['key'], f['title'], f['size']))
+    L.append('| %s | %s | %s | 1080x1350 |' % (f['key'], f['title'], f['size']))
 L.append('')
 for i, f in enumerate(FIGS, 1):
     L += ['## 図%d：%s（%s）' % (i, f['title'], f['key']), '',
           '### note用（%s）' % f['size'], '', '```', build(f, False), '```', '',
-          '### Instagram用（1080x1440・3:4）', '', '```', build(f, True), '```', '']
-L += ['## 見出し画像', '', '見出し画像（note用 1280x670・Instagram用 1080x1440）のプロンプトは `02-header-image-prompts.md` にある。', '']
+          '### Instagram用（1080x1350・4:5）', '', '```', build(f, True), '```', '']
+L += ['## 見出し画像', '', '見出し画像（note用 1280x670・Instagram用 1080x1350）のプロンプトは `02-header-image-prompts.md` にある。', '']
 open(OUT1, 'w', encoding='utf-8').write('\n'.join(L))
 
 CHAR = '''CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic (for example opening a small drawer of a big cabinet, holding a notebook, or pointing at a drawer label), and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.
@@ -196,15 +196,15 @@ TOPIC SCENES (illustration only, no text on any object; soft and slightly faded)
 LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, arrow between boxes, check mark or cross mark.
 
 Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (不・動・産・登・記・法・数・字・図・鑑・何・日・始) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm the canvas is fully opaque.'''
-IG = '''Create an Instagram feed cover image, portrait layout, EXACTLY 1080x1440 pixels (3:4).
+IG = '''Create an Instagram feed cover image, portrait layout, EXACTLY 1080x1350 pixels (4:5).
 
 STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com header images of the same series. Fill the whole canvas with the pastel sky and soft clouds.
 
-INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text, and no logo or watermark.
+INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text, and no logo or watermark.
 
 ''' + CHAR + '''
 
-TEXT (reproduce verbatim, nothing else), centered in the upper part of the canvas between y=120px and y=620px, over a soft white cloud-shaped glow, bold rounded font. Line 1, large, dark navy with a pale yellow marker stroke behind it:
+TEXT (reproduce verbatim, nothing else), centered in the upper part of the canvas between y=100px and y=570px, over a soft white cloud-shaped glow, bold rounded font. Line 1, large, dark navy with a pale yellow marker stroke behind it:
 不動産登記法の
 Line 2, very large; the phrase 数字 is red-orange and the rest is dark navy:
 数字の図鑑
@@ -214,11 +214,11 @@ Line 4, smaller, dark navy, below the band:
 何の登記か　いつから数えるか
 Do not write any other text anywhere in the image.
 
-SCENE: the MC character stands at the bottom center (about y=760px to y=1360px), with a big wooden specimen cabinet of seven blank drawers in different colors (blue, pale orange, red-orange, gray-green, purple-gray) behind her, drawn simply. A calendar page with no numbers on it and an hourglass sit on a desk at the lower right. No text on any object; props stay soft so they never compete with the title or the character.
+SCENE: the MC character stands at the bottom center (about y=700px to y=1280px), with a big wooden specimen cabinet of seven blank drawers in different colors (blue, pale orange, red-orange, gray-green, purple-gray) behind her, drawn simply. A calendar page with no numbers on it and an hourglass sit on a desk at the lower right. No text on any object; props stay soft so they never compete with the title or the character.
 
 LAYOUT: keep a clear, uncluttered zone behind the title block. Do not draw any flowchart, arrow between boxes, check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1080x1440 portrait; confirm the only text is the four title lines, exactly as written; scan every kanji (不・動・産・登・記・法・数・字・図・鑑・期・限・整・理・何・日・始) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm nothing important lies within the outer safe margin; confirm the canvas is fully opaque.'''
+Final check before rendering: confirm the image is exactly 1080x1350 portrait (4:5); confirm the only text is the four title lines, exactly as written; scan every kanji (不・動・産・登・記・法・数・字・図・鑑・期・限・整・理・何・日・始) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm nothing important lies within the outer safe margin; confirm the canvas is fully opaque.'''
 doc = '''# 「数字の図鑑」 見出し画像のプロンプト（note用・Instagram用）
 
 2026-11-04 作成（`src/gen_prompts.py` で作る）。記事のタイトル「【土地家屋調査士】不動産登記法の「数字の図鑑」〜一月・二年・三年・十年…期限と数字は、「何の登記か」と「いつから数えるか」で整理すると覚えやすい〜」に合わせて、2種類を用意した。どちらも女性のMCキャラクター1人だけを描く（トリ先生・藍子は入れない）。
@@ -227,11 +227,11 @@ doc = '''# 「数字の図鑑」 見出し画像のプロンプト（note用・I
 | 用途 | サイズ | 文字 |
 |---|---|---|
 | note用（記事の見出し画像） | 1280×670（横長） | 「不動産登記法の」／「数字の図鑑」／「何の登記か　いつから数えるか」 |
-| Instagram用（表紙・フィードの1枚） | 1080×1440（3:4） | 「不動産登記法の」／「数字の図鑑」／「期限と数字を整理する」／「何の登記か　いつから数えるか」 |
+| Instagram用（表紙・フィードの1枚） | 1080×1350（4:5） | 「不動産登記法の」／「数字の図鑑」／「期限と数字を整理する」／「何の登記か　いつから数えるか」 |
 
 ## 確かめること
 
-- 大きさが指定どおりか（note用 1280×670、Instagram用 1080×1440）。
+- 大きさが指定どおりか（note用 1280×670、Instagram用 1080×1350）。
 - 文字が、上の文面と**1字ずつ**一致しているか（簡体字・繁体字の字形になっていないか、余計な文字・数字・英字がないか）。
 - キャラクターがMC1人だけか。シートの髪型・服装と合っているか。手や腕の数が合っているか。
 - Instagram用は、文字と主要な絵が外側の余白（左右54px・上下72px）の内側にあるか。アカウント名・URLが入っていないか。
@@ -247,7 +247,7 @@ doc = '''# 「数字の図鑑」 見出し画像のプロンプト（note用・I
 ''' + NOTE + '''
 ```
 
-## Instagram用（1080×1440・3:4）
+## Instagram用（1080×1350・4:5）
 
 ```
 ''' + IG + '''

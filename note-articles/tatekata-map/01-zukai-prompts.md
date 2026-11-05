@@ -1,6 +1,6 @@
 # 「建て付け」マップ 図解画像のプロンプト（ChatGPT用）
 
-2026-11-04 作成。記事 `01-fudousan-touki-hou-tatekata-map.md` に差し込む図7枚＋Instagram用（図1の3:4版）＋見出し画像（別ファイル）。画像の生成はChatGPTで行う。
+2026-11-04 作成。記事 `01-fudousan-touki-hou-tatekata-map.md` に差し込む図7枚＋Instagram用（図1の4:5版）＋見出し画像（別ファイル）。画像の生成はChatGPTで行う。
 
 ## 使い方
 
@@ -278,52 +278,9 @@ Words allowed on this poster (exactly these strings, nothing else): 「確かめ
 Final check before rendering: confirm the canvas is exactly 1080x1500 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 確、棚、周、辺、第、条、証、明、図、面、交、付、何、人、請、求、筆、界、特、定、位、置、雑、則、罰、過、料、登、記、調、境、決、守.
 ```
 
-## Instagram用：図1の3:4版（tatekata_ig01・1080x1440）
+## Instagram用：図1の4:5版（tatekata_ig01_45・1080x1350。Instagramの画像は4:5に固定）
 
-カードの並びは図1と同じ。縦が短いので余白を詰める。
-
-```
-Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
-clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use a library / bookshelf motif as the visual theme (shelves, books, drawers), drawn simply.
-
-CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・の are allowed ONLY inside the given strings (for example 第1条〜第5条). No Latin letters anywhere.
-
-ILLUSTRATION TEXT RULE (critical): the only text allowed anywhere on the poster is the strings written in 「」 below (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw. Do not invent or add any other text, number, caption, pseudo-writing, inscription on props, logo, watermark or URL. A prop that is not given a word keeps a blank surface or shows its meaning with an icon.
-
-NO NUMBERING (critical): do not draw any number, numbered circle, badge or sequence mark that is not inside a given string. No figure number, no panel number, no page number.
-
-BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge. No transparent or alpha-channel background, no checkerboard, no unpainted edge. Fill every corner and margin with a pale warm-beige background.
-
-Keep generous margins (at least 48px), large readable type, and a clear uncluttered layout. Dark navy text on light cards. The two main colors for the law structure: blue for 表示 (physical state of land and buildings) and pale orange for 権利 (rights); use the same two colors in every poster of this set.
-
---- HEADER ---
-Title (large, bold, two lines): 「不動産登記法の建て付けマップ」 / subtitle in a pale-yellow band: 「第1条〜第164条を8つの棚に分ける」
-
---- BODY (a cutaway of a library with eight labeled areas; top to bottom) ---
-Top row, three small shelf cards side by side (gray-green):
- - 「土台」 with small text 「第1条〜第5条」 and 「目的・定義・権利・順位」
- - 「担い手」 with 「第6条〜第10条」 and 「登記所と登記官」
- - 「記録」 with 「第11条〜第15条」 and 「登記簿と登記記録」
-Below it, one wide purple-gray bar: 「共通手続」 with 「第16条〜第26条」 and 「申請・受付・却下」
-Middle, two LARGE cards side by side (the heart of the map, each taller than the others):
- - Left, blue: 「表示」 with 「第27条〜第58条」 and 「土地と建物の状況」 (icons: a land plot and a house)
- - Right, pale orange: 「権利」 with 「第59条〜第118条」 and 「所有権・抵当権など」 (icons: a key and a stamp)
-Bottom row, two cards side by side (beige-gray):
- - 「確かめる」 with 「第119条〜第150条」 and 「証明書・筆界特定」
- - 「周辺」 with 「第151条〜第164条」 and 「雑則・罰則」
-
---- FOOTER --- a conclusion band: 「全体像は、8つの棚で見る」
-
-Words allowed on this poster (exactly these strings, nothing else): 「不動産登記法の建て付けマップ」 / 「第1条〜第164条を8つの棚に分ける」 / 「土台」 / 「第1条〜第5条」 / 「目的・定義・権利・順位」 / 「担い手」 / 「第6条〜第10条」 / 「登記所と登記官」 / 「記録」 / 「第11条〜第15条」 / 「登記簿と登記記録」 / 「共通手続」 / 「第16条〜第26条」 / 「申請・受付・却下」 / 「表示」 / 「第27条〜第58条」 / 「土地と建物の状況」 / 「権利」 / 「第59条〜第118条」 / 「所有権・抵当権など」 / 「確かめる」 / 「第119条〜第150条」 / 「証明書・筆界特定」 / 「周辺」 / 「第151条〜第164条」 / 「雑則・罰則」 / 「全体像は、8つの棚で見る」
-
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 不、動、産、登、記、法、建、付、第、条、棚、分、土、台、目、的、定、義、権、利、順、位、担、手、所、官、録、簿、共、通、続、申、請、受、却、下、表、示、地、物、状、況、有、抵、当、確、証、明、書、筆、界、特、周、辺、雑、則、罰、全、体、像、見.
-
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version. Do not draw any account name, handle, URL or call-to-action text.
-```
-
-## Instagram用：図1の4:5版（tatekata_ig01_45・1080x1350）
-
-2026-11-04 追加（ユーザー指示。8つの棚のマップだけ、4:5でも作る）。カードの並びは図1と同じ。3:4版より縦が90px短いので、カードの間隔をさらに詰める。フィードの投稿は4:5（1080×1350）も使えるが、プロフィールのグリッドでは上下がわずかに切れる（`note-unei/instagram/image-spec.md`）。大事な要素は上下の余白（60px）の内側に置く。
+2026-11-04 追加（ユーザー指示。8つの棚のマップだけ、4:5でも作る）。カードの並びは図1と同じ。縦が短いので、カードの間隔を詰める。2026-11-05に、Instagramの画像は4:5に固定したため、以前の別の比率の版は削除した。フィードの投稿は4:5（1080×1350）も使えるが、プロフィールのグリッドでは上下がわずかに切れる（`note-unei/instagram/image-spec.md`）。大事な要素は上下の余白（60px）の内側に置く。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
@@ -361,9 +318,9 @@ Words allowed on this poster (exactly these strings, nothing else): 「不動産
 
 Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 不、動、産、登、記、法、建、付、第、条、棚、分、土、台、目、的、定、義、権、利、順、位、担、手、所、官、録、簿、共、通、続、申、請、受、却、下、表、示、地、物、状、況、有、抵、当、確、証、明、書、筆、界、特、周、辺、雑、則、罰、全、体、像、見.
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 60px at the top and bottom, because the feed and the profile grid crop the image. Make the type slightly larger than the note version. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the feed and the profile grid crop the image. BOTTOM ALIGNMENT (critical): the bottom edges of the cards line up: the two LARGE cards in the middle have the same height, the two cards of the bottom row have the same height, the bottom row's lower edges lie on one horizontal line, and the conclusion band sits flush on the bottom margin; the gaps between rows are equal, and any spare height is absorbed inside the cards (vertical centring, padding, larger icons), never as a ragged gap. Make the type slightly larger than the note version. Do not draw any account name, handle, URL or call-to-action text.
 ```
 
 ## 見出し画像
 
-見出し画像（note用 1280x670・Instagram用 1080x1440）のプロンプトは `02-header-image-prompts.md` にある。
+見出し画像（note用 1280x670・Instagram用 1080x1350）のプロンプトは `02-header-image-prompts.md` にある。

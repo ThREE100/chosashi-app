@@ -6,11 +6,11 @@
 | 用途 | サイズ | 文字 |
 |---|---|---|
 | note用（記事の見出し画像） | 1280×670（横長） | 「不動産登記法の」／「建て付けマップ」／「八つの棚で眺める　全体像と押さえどころ」 |
-| Instagram用（表紙・フィードの1枚） | 1080×1440（3:4） | 「不動産登記法の」／「建て付けマップ」／「八つの棚で眺める」／「全体像と押さえどころが見えてくる」 |
+| Instagram用（表紙・フィードの1枚） | 1080×1350（4:5） | 「不動産登記法の」／「建て付けマップ」／「八つの棚で眺める」／「全体像と押さえどころが見えてくる」 |
 
 ## 確かめること
 
-- 大きさが指定どおりか（note用 1280×670、Instagram用 1080×1440）。
+- 大きさが指定どおりか（note用 1280×670、Instagram用 1080×1350）。
 - 文字が、上の文面と**1字ずつ**一致しているか（簡体字・繁体字の字形になっていないか、余計な文字・数字・英字がないか）。
 - キャラクターがMC1人だけか。シートの髪型・服装と合っているか。手や腕の数が合っているか。
 - Instagram用は、文字と主要な絵が外側の余白（左右54px・上下72px）の内側にあるか。アカウント名・URLが入っていないか。
@@ -49,14 +49,14 @@ LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the c
 Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (不・動・産・登・記・法・建・付・八・棚・眺・全・体・像・押・分) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm the canvas is fully opaque.
 ```
 
-## Instagram用（1080×1440・3:4）
+## Instagram用（1080×1350・4:5）
 
 ```
-Create an Instagram feed cover image, portrait layout, EXACTLY 1080x1440 pixels (3:4).
+Create an Instagram feed cover image, portrait layout, EXACTLY 1080x1350 pixels (4:5).
 
 STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com header images of the same series. Fill the whole canvas with the pastel sky and soft clouds.
 
-INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text, and no logo or watermark.
+INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text, and no logo or watermark.
 
 CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic (for example standing next to a big bookshelf, pointing at one shelf, or holding a thick book), and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.
 
@@ -64,7 +64,7 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, 
 
 BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.
 
-TEXT (reproduce verbatim, nothing else), centered in the upper part of the canvas between y=120px and y=620px, over a soft white cloud-shaped glow, bold rounded font. Line 1, large, dark navy with a pale yellow marker stroke behind it:
+TEXT (reproduce verbatim, nothing else), centered in the upper part of the canvas between y=100px and y=570px, over a soft white cloud-shaped glow, bold rounded font. Line 1, large, dark navy with a pale yellow marker stroke behind it:
 不動産登記法の
 Line 2, very large; the phrase 建て付け is red-orange and the rest is dark navy:
 建て付けマップ
@@ -74,9 +74,9 @@ Line 4, smaller, dark navy, below the band:
 全体像と押さえどころが見えてくる
 Do not write any other text anywhere in the image.
 
-SCENE: the MC character stands at the bottom center (about y=760px to y=1360px), with a big wooden bookshelf of eight blank shelves behind her, drawn simply, the two middle shelves slightly larger and tinted blue and pale orange. A small land plot and a small house model sit on a desk at the lower right. No text on any object; props stay soft so they never compete with the title or the character.
+SCENE: the MC character stands at the bottom center (about y=700px to y=1280px), with a big wooden bookshelf of eight blank shelves behind her, drawn simply, the two middle shelves slightly larger and tinted blue and pale orange. A small land plot and a small house model sit on a desk at the lower right. No text on any object; props stay soft so they never compete with the title or the character.
 
 LAYOUT: keep a clear, uncluttered zone behind the title block. Do not draw any flowchart, arrow between boxes, check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1080x1440 portrait; confirm the only text is the four title lines, exactly as written; scan every kanji (不・動・産・登・記・法・建・付・八・棚・眺・全・体・像・押・見) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm nothing important lies within the outer safe margin; confirm the canvas is fully opaque.
+Final check before rendering: confirm the image is exactly 1080x1350 portrait (4:5); confirm the only text is the four title lines, exactly as written; scan every kanji (不・動・産・登・記・法・建・付・八・棚・眺・全・体・像・押・見) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm nothing important lies within the outer safe margin; confirm the canvas is fully opaque.
 ```
