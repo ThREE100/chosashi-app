@@ -158,6 +158,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・所・続・単・証・相 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -173,7 +186,7 @@ Title (large, bold, 1行):
 合体による登記等、申請すべきは何？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第16問－表題登記・分割・相続人申請のルール
+表題登記・分割・相続人申請のルール（令和5年度 午後の部 第16問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -186,10 +199,13 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 表題登記は合体後の建物だけ
 Illustration: An isometric scene showing two unregistered building icons
-labeled 甲建物・乙建物 merging via a converging arrow into one combined
-building. An arrow points only to a new ledger page labeled "合体後の建
-物の表題登記", while two torn ledger labels reading "合体前の甲建物" and
-"合体前の乙建物" are crossed out with red marks beside it.
+labeled 「甲建物」・「乙建物」 merging via a converging arrow into one
+combined building. An arrow points only to a new ledger page labeled
+「合体後の建物の表題登記」, while two torn ledger labels reading
+「合体前の甲建物」and「合体前の乙建物」are crossed out with red marks
+beside it.
+Words allowed inside this illustration (verbatim, nothing else): 「甲建物」
+「乙建物」「合体後の建物の表題登記」「合体前の甲建物」「合体前の乙建物」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 合体前は登記不要
 
@@ -197,11 +213,14 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 附属建物は先に分割登記
-Illustration: A main house (母屋) with an attached附属建物 labeled 離れ,
-and a separate 乙建物 icon nearby. A first-step arrow shows 離れ being
-separated from 母屋 labeled "分割の登記", followed by a second arrow
-showing 離れ and 乙建物 merging labeled "合体による登記等". A red
-prohibition mark blocks a direct arrow that would skip the分割 step.
+Illustration: A main house labeled 「母屋」 with an attached 附属建物
+labeled 「離れ」, and a separate building icon labeled 「乙建物」 nearby.
+A first-step arrow shows 「離れ」 being separated from 「母屋」 labeled
+「分割の登記」, followed by a second arrow showing 「離れ」 and 「乙建物」
+merging labeled 「合体による登記等」. A red prohibition mark blocks a
+direct arrow that would skip the 分割 step.
+Words allowed inside this illustration (verbatim, nothing else): 「母屋」
+「離れ」「乙建物」「分割の登記」「合体による登記等」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 分割登記が前提
 
@@ -209,11 +228,14 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 区分の意思なら変更登記
-Illustration: Two separate house icons labeled 甲建物(Ａ) and 乙建物(Ｂ)
-merging via a converging arrow into one combined building that then
-splits visually into two区分建物 units side by side labeled Ａ・Ｂ, with
-an arrow pointing to a document labeled "区分建物への変更登記" and a red
-crossed-out document labeled "合体による登記等" beside it.
+Illustration: Two separate house icons labeled 「甲建物」(「Ａ」) and
+「乙建物」(「Ｂ」) merging via a converging arrow into one combined
+building that then splits visually into two 区分建物 units side by side
+labeled 「Ａ」・「Ｂ」, with an arrow pointing to a document labeled
+「区分建物への変更登記」and a red crossed-out document labeled
+「合体による登記等」beside it.
+Words allowed inside this illustration (verbatim, nothing else): 「甲建物」
+「Ａ」「乙建物」「Ｂ」「区分建物への変更登記」「合体による登記等」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 合体ではなく変更登記
 
@@ -224,10 +246,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 相続人の一人でも単独申請OK
-Illustration: A grayed-out person figure labeled Ａ(故人) with a small
-headstone marker, and two heir figures labeled Ｂさん・Ｃさん. Ｂさん
-steps forward alone holding a document stamped "申請" with a small
-"相続人" badge attached, while Ｃさん stands calmly in the background.
+Illustration: A grayed-out person figure labeled 「Ａ」(「故人」) with a
+small headstone marker, and two heir figures labeled 「Ｂさん」・「Ｃさん」.
+「Ｂさん」steps forward alone holding a document stamped「申請」with a
+small「相続人」badge attached, while「Ｃさん」stands calmly in the
+background.
+Words allowed inside this illustration (verbatim, nothing else): 「Ａ」
+「故人」「Ｂさん」「Ｃさん」「申請」「相続人」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 相続人1人でOK
 
@@ -236,10 +261,12 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 住所変更登記は先にしなくてよい
 Illustration: A person figure with an old address tag crossed out and a
-new address tag attached, holding a document labeled "住所が変更された
-ことを証する情報", stepping directly to submit a "合体による登記等" 申請
-document, with a red crossed-out separate document labeled "住所の変更
-登記" beside it to show this step is not required first.
+new address tag attached, holding a document labeled「住所が変更された
+ことを証する情報」, stepping directly to submit a「合体による登記等」
+「申請」document, with a red crossed-out separate document labeled
+「住所の変更登記」beside it to show this step is not required first.
+Words allowed inside this illustration (verbatim, nothing else): 「住所が
+変更されたことを証する情報」「合体による登記等」「申請」「住所の変更登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 証する情報で足りる
 
@@ -254,7 +281,10 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its specified "Words allowed" words (no inscriptions on stones or
+signs, no pseudo-writing) and that each allowed word is clearly legible.
+Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 ---
 
@@ -318,6 +348,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -342,11 +381,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 表題登記は合体後の建物だけでよい
-Diagram: Two unregistered building icons labeled 甲建物・乙建物 merging
-via a converging arrow into one combined building. An arrow points only
-to a new ledger page labeled「合体後の建物の表題登記」, while two torn
-ledger labels reading「合体前の甲建物」and「合体前の乙建物」are crossed
-out with red marks beside it.
+Diagram: Two unregistered building icons labeled「甲建物」・「乙建物」
+merging via a converging arrow into one combined building. An arrow
+points only to a new ledger page labeled「合体後の建物の表題登記」, while
+two torn ledger labels reading「合体前の甲建物」and「合体前の乙建物」are
+crossed out with red marks beside it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず甲建物・乙建物がいずれも合体前の時点で表題登記のない建物である
 ことを確認します。次に、合体後にすべきなのは合体後の1個の建物に
@@ -362,13 +401,13 @@ Heading (bold, ONE line):
 附属建物は先に分割登記が必要
 Diagram: The decision flowchart described above. A diamond node reading
 「合体する建物の一方は附属建物か？」。The はい branch (highlighted, thick
-border, full color): a first-step arrow labeled「分割の登記」separates
-附属建物「離れ」from 母屋, followed by a second arrow labeled「合体による
-登記等」merging 離れ and 乙建物 into one conclusion node. The いいえ
-branch (faded, greyed-out): leads directly to its own conclusion node
-reading「直接、合体による登記等を申請できる」, with no分割ステップ. A red
-prohibition mark blocks any arrow that would skip the分割 step on the
-はい branch.
+border, full color): a first-step arrow labeled「分割の登記」separates the
+附属建物 labeled「離れ」from「母屋」, followed by a second arrow labeled
+「合体による登記等」merging「離れ」and「乙建物」into one conclusion node.
+The いいえ branch (faded, greyed-out): leads directly to its own
+conclusion node reading「直接、合体による登記等を申請できる」, with no
+分割ステップ. A red prohibition mark blocks any arrow that would skip the
+分割 step on the はい branch.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず合体する建物のいずれかが附属建物として登記されているかを確認
 します。附属建物のままでは合体の対象として扱えないため、附属建物で
@@ -382,12 +421,13 @@ characters):
 Badge: a filled circle in blue containing the number 3.
 Heading (bold, ONE line):
 相続人の一人でも単独申請できる
-Diagram: A grayed-out person figure labeled Ａ(故人)with a small headstone
-marker, and two heir figures labeled Ｂさん・Ｃさん standing beside a
-combined丙建物icon labeled「合体後の建物」。A small tag reading「相続
-人か？」with a green checkmark sits beside them, leading
-directly to Ｂさん stepping forward alone holding a document stamped
-「申請」, while Ｃさん stands calmly in the background without objecting.
+Diagram: A grayed-out person figure labeled「Ａ」(「故人」) with a small
+headstone marker, and two heir figures labeled「Ｂさん」・「Ｃさん」
+standing beside a combined building icon labeled「合体後の建物」。A small
+tag reading「相続人か？」with a green checkmark sits beside them, leading
+directly to「Ｂさん」stepping forward alone holding a document stamped
+「申請」, while「Ｃさん」stands calmly in the background without
+objecting.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずＡの死亡により相続人Ｂ・Ｃが登記名義人の地位を承継していること
 を確認します。次に、相続人は表示に関する登記を申請できるため、相続
@@ -401,13 +441,13 @@ Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 区分の意思を示せば変更登記になる
 Diagram: A two-frame contrast layout. Left frame labeled「区分所有の意思
-なし」: two house icons labeled 甲建物(Ａ)・乙建物(Ｂ)merging into one
-combined building, an arrow pointing to a document labeled「合体による
-登記等」。Right frame labeled「区分所有の意思あり（今回のケース）」: the
-same combined building splitting visually into two区分建物units side by
-side labeled Ａ・Ｂ, with an arrow pointing to a document labeled「区分
-建物への変更登記」and a crossed-out document labeled「合体による登記等」
-beside it.
+なし」: two house icons labeled「甲建物」(「Ａ」)・「乙建物」(「Ｂ」)
+merging into one combined building, an arrow pointing to a document
+labeled「合体による登記等」。Right frame labeled「区分所有の意思あり
+（今回のケース）」: the same combined building splitting visually into
+two 区分建物 units side by side labeled「Ａ」・「Ｂ」, with an arrow
+pointing to a document labeled「区分建物への変更登記」and a crossed-out
+document labeled「合体による登記等」beside it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず合体後の建物が一棟の建物に属する2個の区分建物としての要件を備え
 ているかを確認します。次に、ＡとＢが区分所有の意思を示したかを確認
@@ -424,7 +464,7 @@ Heading (bold, ONE line):
 Diagram: A person figure with an old address tag crossed out and a new
 address tag attached, holding a document labeled「住所が変更された
 ことを証する情報」, stepping directly toward submitting a「合体による
-登記等」申請document, with a crossed-out separate document labeled
+登記等」「申請」document, with a crossed-out separate document labeled
 「住所の変更登記」beside it to show this step is not required first.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず合体前の建物に記録された所有権登記名義人の住所が、現在の住所と
@@ -451,7 +491,10 @@ actual flowchart with a diamond node whose two branches (はい and いいえ)
 each lead to their own distinct conclusion node with no arrow looping
 back to an earlier node, that Panel 4 clearly contrasts the two frames
 (区分所有の意思なし／あり), that each 着眼点 callout states a checking
-order rather than only a conclusion, confirm nothing is rendered below
+order rather than only a conclusion, confirm that no diagram contains
+any text other than the words quoted in 「」 on that panel's Diagram line
+(no inscriptions on stones or signs, no pseudo-writing) and that each
+such word is clearly legible, confirm nothing is rendered below
 the last panel's footnote text (no summary recap panel, no trophy or
 medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
 block of any kind), and confirm the entire canvas, edge to edge, is

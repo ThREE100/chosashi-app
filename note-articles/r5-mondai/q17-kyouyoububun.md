@@ -147,6 +147,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・所・権・番・号・証 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -163,7 +176,7 @@ Title (large, bold, 2行):
 「申請義務」はある？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第17問－共用部分・団地共用部分である旨の登記のルール
+共用部分・団地共用部分である旨の登記のルール（令和5年度 午後の部 第17問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -176,9 +189,11 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 申請義務は課されていない
 Illustration: An isometric shared community room icon with a wooden tag
-reading "共用部分", connected to a stamp/seal icon labeled "対抗要件",
+reading「共用部分」, connected to a stamp/seal icon labeled「対抗要件」,
 with a red prohibition mark overlaid on a small speech-bubble text
-reading "1か月以内" to show there is no mandatory filing deadline.
+reading「1か月以内」to show there is no mandatory filing deadline.
+Words allowed inside this illustration (verbatim, nothing else): 「共用部分」
+「対抗要件」「1か月以内」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 義務ではなく対抗要件
 
@@ -187,10 +202,12 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 所有権なしなら表題部所有者を抹消
 Illustration: An isometric registry ledger page showing a building's
-表題部 entry with the text "表題部所有者Ａ" crossed out by a red 抹消
-stamp/line, beside a smaller separate ledger panel showing a building
-with a 所有権 entry instead being stamped 抹消 by a registrar character
-holding an official seal (職権).
+「表題部」entry with the text「表題部所有者Ａ」crossed out by a red
+「抹消」stamp/line, beside a smaller separate ledger panel showing a
+building with a「所有権」entry instead being stamped「抹消」by a registrar
+character holding an official seal labeled「職権」.
+Words allowed inside this illustration (verbatim, nothing else): 「表題部」
+「表題部所有者Ａ」「抹消」「所有権」「職権」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 表題部所有者は抹消
 
@@ -202,9 +219,11 @@ Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 変更登記は1か月以内
 Illustration: An isometric building icon changing its usage label from
-"倉庫" to "車庫" with an arrow, next to a calendar icon marked
-"1か月以内" and a character icon labeled "規約により定められた所有者"
+「倉庫」to「車庫」with an arrow, next to a calendar icon marked
+「1か月以内」and a character icon labeled「規約により定められた所有者」
 holding a document ready to submit.
+Words allowed inside this illustration (verbatim, nothing else): 「倉庫」
+「車庫」「1か月以内」「規約により定められた所有者」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 共用部分でも変更登記
 
@@ -213,9 +232,11 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 区分登記には所有者証明が必要
 Illustration: An isometric single building being split by a dotted line
-into multiple区分建物 units, with a document icon labeled
+into multiple 区分建物 units, with a document icon labeled
 「所有者を証する情報」being clipped onto an application folder next to
 the building.
+Words allowed inside this illustration (verbatim, nothing else): 「所有者を
+証する情報」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 所有者を証する情報
 
@@ -223,9 +244,11 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 不動産番号があれば家屋番号は省略可
-Illustration: An isometric application form with a "不動産番号" barcode
+Illustration: An isometric application form with a「不動産番号」barcode
 /ID-tag icon highlighted in the center, and a dotted, faded, red
-crossed-out "家屋番号" label beside it to show that entry can be omitted.
+crossed-out「家屋番号」label beside it to show that entry can be omitted.
+Words allowed inside this illustration (verbatim, nothing else): 「不動産
+番号」「家屋番号」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 家屋番号は省略可
 
@@ -240,7 +263,10 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its specified "Words allowed" words (no inscriptions on stones or
+signs, no pseudo-writing) and that each allowed word is clearly legible.
+Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 
@@ -298,6 +324,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -323,9 +358,9 @@ Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 申請義務ではなく対抗要件
 Diagram: A left/right comparison frame. Left side (よくある思い込み): a
-規約 document icon beside a calendar marked「1か月以内」with a red ✕
+「規約」document icon beside a calendar marked「1か月以内」with a red ✕
 overlaid on a small「申請義務」stamp icon. Right side (正しいルール): the
-same 規約 document icon connected to a shield/stamp icon labeled
+same「規約」document icon connected to a shield/stamp icon labeled
 「対抗要件」, with no calendar or deadline icon attached.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、共用部分である旨の登記が第三者に対抗するための登記なのか、それと
@@ -339,12 +374,12 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 所有権登記の有無で抹消先が変わる
-Diagram: A decision flowchart. Start node: 共用部分である旨の登記がされ
-る. Diamond node: 所有権の登記があるか？ A plain blue はい branch leads
-to a conclusion node reading「所有権その他の権利に関する登記を職権で抹
-消」. A green branch with a thick highlighted border (本イの対象) for
-いいえ leads to a conclusion node showing an isometric 登記記録 ledger
-page with「表題部所有者Ａ」crossed out by a red 抹消 stamp/line.
+Diagram: A decision flowchart. Start node:「共用部分である旨の登記がされ
+る」. Diamond node:「所有権の登記があるか？」A plain blue はい branch
+leads to a conclusion node reading「所有権その他の権利に関する登記を職権
+で抹消」. A green branch with a thick highlighted border (本イの対象) for
+いいえ leads to a conclusion node showing an isometric「登記記録」ledger
+page with「表題部所有者Ａ」crossed out by a red「抹消」stamp/line.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、共用部分にする建物に所有権の登記があるかを確認します。所有権の登
 記がなければ表題部所有者に関する登記事項が抹消され、所有権の登記があれ
@@ -360,8 +395,9 @@ Heading (bold, ONE line):
 Diagram: A left-to-right timeline. Left node: 建物の種類を示す看板が
 「倉庫」から「車庫」へ切り替わる icon (変更事由の発生). An arrow labeled
 「1か月以内」points to a calendar icon. At the right end, a character
-icon labeled「規約により共用部分の所有者と定められた者」holds a 変更登記
-の申請書, drawn distinctly from the usual 表題部所有者 character.
+icon labeled「規約により共用部分の所有者と定められた者」holds a
+「変更登記の申請書」, drawn distinctly from the usual「表題部所有者」
+character.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、共用部分になっている建物でも通常どおり表題部の変更登記のルールが
 及ぶことを確認します。次に、その申請義務を負うのは表題部所有者ではなく、
@@ -390,8 +426,8 @@ characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 不動産番号の記載で家屋番号を省略
-Diagram: A decision flowchart. Start node: 団地共用部分である旨の登記の
-申請. Diamond node: 申請情報の内容として不動産番号を記載したか？ A green
+Diagram: A decision flowchart. Start node:「団地共用部分である旨の登記の
+申請」. Diamond node:「申請情報の内容として不動産番号を記載したか？」A green
 branch with a thick highlighted border (本オの対象) for はい leads to a
 conclusion node showing an application form with a「不動産番号」
 barcode/tag icon highlighted and a dotted, crossed-out「家屋番号」label
@@ -424,7 +460,10 @@ a bare illustration with no visible decision structure), that Panels 2
 and 5 each show both the はい and いいえ exit of their diamond node
 leading to their own separate conclusion node with no arrow looping back
 to an earlier node, that each 着眼点 callout states a checking order
-rather than only a conclusion, confirm nothing is rendered below the
+rather than only a conclusion, confirm that no diagram contains any text
+other than the words quoted in 「」 on that panel's Diagram line (no
+inscriptions on stones or signs, no pseudo-writing) and that each such
+word is clearly legible, confirm nothing is rendered below the
 last panel's footnote text (no summary recap panel, no trophy or medal
 icon, no re-listed ○/✕ grid of all 肢, and no additional text block of
 any kind), and confirm the entire canvas, edge to edge, is filled with a

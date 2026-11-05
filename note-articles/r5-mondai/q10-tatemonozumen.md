@@ -155,6 +155,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 建・物・登・記・番・図・誤 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -170,7 +183,7 @@ Title (large, bold, 1行):
 建物図面と各階平面図、ここで差がつく
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第10問－住所・朱書き・訂正の申出・点線の作法
+住所・朱書き・訂正の申出・点線の作法（令和5年度 午後の部 第10問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -182,9 +195,10 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 図面に住所の記録は不要
-Illustration: An isometric building図面 sheet with an "作成者" name box
-containing only a name and a small seal, next to a "申請人" name box that
+Illustration: An isometric building図面 sheet with an 「作成者」 name box
+containing only a name and a small seal, next to a 「申請人」 name box that
 has only a name; each box has a crossed-out empty address line beside it.
+Words allowed inside this illustration (verbatim, nothing else): 「作成者」「申請人」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 住所は記録不要
 
@@ -195,6 +209,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric building floor plan with a main building
 outlined in black and a small underground-only 附属建物 box outlined and
 shaded in red ink (朱書き) beneath it.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 地下1階を朱書き
 
@@ -205,6 +220,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric two-story building's 各階平面図 for the 2nd
 floor, with the 2nd floor outline drawn in solid black lines and the 1st
 floor's footprint drawn beneath it in dotted lines to show the position.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
 Conclusion tag (green banner below the illustration, 5-15 characters):
 1階は点線表示
 
@@ -216,13 +232,14 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 床面積の誤りは更正登記で直す
 Illustration: An isometric 各階平面図 with an 出窓(bay window) shape
-mistakenly included inside the floor area shading, a red "✕" mark over a
-"訂正の申出" document icon, and an arrow pointing instead to a
-"更正登記" document icon with a checkmark. In a small corner inset,
+mistakenly included inside the floor area shading, a red ✕ mark over a
+「訂正の申出」 document icon, and an arrow pointing instead to a
+「更正登記」 document icon with a checkmark. In a small corner inset,
 contrast this with a separate 地積測量図 whose only mistake is a
-crossed-out and rewritten 地番 label, next to a small "訂正の申出" icon
+crossed-out and rewritten 地番 label, next to a small 「訂正の申出」 icon
 with a checkmark, to show that a display-only mistake (not affecting a
 registered figure) can still be fixed by 訂正の申出.
+Words allowed inside this illustration (verbatim, nothing else): 「訂正の申出」「更正登記」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 訂正の申出は不可
 
@@ -233,7 +250,8 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric main building with a small 附属建物 shown
 being demolished with a crossed-out mark, next to a stack of 建物図面・
 各階平面図 papers already filed at a registry office icon, with a
-"省略可" checkmark badge over a blank new-papers icon.
+「省略可」 checkmark badge over a blank new-papers icon.
+Words allowed inside this illustration (verbatim, nothing else): 「省略可」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 図面の提出不要
 
@@ -248,7 +266,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -310,6 +328,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -431,7 +458,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 建, 誤, 職, 朱, 訂, 更, 略, 積, 窓 and any character that has
+attention to 建, 誤, 録, 朱, 訂, 更, 略, 積, 窓 and any character that has
 a visually similar Simplified Chinese variant. If any character renders
 as a Simplified or Traditional Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
@@ -441,7 +468,10 @@ side-by-side contrast frame rather than a flowchart, that Panel 3 shows
 both exit arrows of its diamond node leading to their own separate
 conclusion node with no arrow looping back to any earlier node, that
 each 着眼点 callout states a checking order rather than only a
-conclusion, confirm nothing is rendered below the last panel's footnote
+conclusion, confirm that no diagram contains any text other than the
+words quoted in 「」 on that panel's Diagram line (no inscriptions on
+stones or signs, no pseudo-writing) and that each such word is clearly
+legible, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
 grid of all 肢, and no additional text block of any kind), and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background

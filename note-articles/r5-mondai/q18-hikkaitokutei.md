@@ -148,6 +148,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 地・登・記 — these must be rendered in their standard Japanese
 forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -164,7 +177,7 @@ Title (large, bold, 2行):
 誰が費用を払う？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第18問－筆界特定の手続の基本ルール
+筆界特定の手続の基本ルール（令和5年度 午後の部 第18問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -177,10 +190,12 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 立入りの通知先は占有者
 Illustration: An isometric land plot with a small house icon labeled
-"占有者", a 筆界調査委員 character stepping over a low boundary fence
-with a notification letter arrow pointing toward the 占有者 icon, and a
+「占有者」, a 筆界調査委員 character stepping over a low boundary fence
+with a notification letter arrow pointing toward the「占有者」icon, and a
 faded, red crossed-out character icon labeled「登記簿上の名義人」off to
 the side to show notification does not go there.
+Words allowed inside this illustration (verbatim, nothing else): 「占有者」
+「登記簿上の名義人」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 通知先は占有者
 
@@ -188,10 +203,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 意見の提出先は登記官
-Illustration: An isometric 筆界調査委員 character handing a document
-labeled "意見" across a desk to a 筆界特定登記官 character holding an
-official seal, with a dotted, red crossed-out arrow showing the document
-does NOT go to a separate 申請人 character standing off to the side.
+Illustration: An isometric character labeled「筆界調査委員」handing a
+document labeled「意見」across a desk to a character labeled「筆界特定
+登記官」holding an official seal, with a dotted, red crossed-out arrow
+showing the document does NOT go to a separate character labeled
+「申請人」standing off to the side.
+Words allowed inside this illustration (verbatim, nothing else): 「筆界調査
+委員」「意見」「筆界特定登記官」「申請人」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 申請人には出さない
 
@@ -199,10 +217,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 第三者からも事実を聴取できる
-Illustration: An isometric 筆界調査委員 character listening to a
+Illustration: An isometric character labeled「筆界調査委員」listening to a
 neighbor character labeled「その他の者」who is pointing at an old stone
-boundary marker, with a speech bubble and a small document icon labeled
-「資料」being handed over between the two characters.
+boundary marker (left blank, no inscription), with a speech bubble and a
+small document icon labeled「資料」being handed over between the two
+characters.
+Words allowed inside this illustration (verbatim, nothing else): 「筆界調査
+委員」「その他の者」「資料」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 当事者以外もOK
 
@@ -214,9 +235,12 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 筆界特定図面に地積は載らない
 Illustration: An isometric blueprint/drawing showing a boundary line with
-distance markers and small 境界標(boundary stake) icons, labeled
-「筆界特定図面」, with a faded, red crossed-out square-meter area symbol
-labeled「地積」placed beside it to show that value is not included.
+distance markers and small boundary-stake icons labeled「境界標」, the
+whole drawing labeled「筆界特定図面」, with a faded, red crossed-out
+square-meter area symbol labeled「地積」placed beside it to show that
+value is not included.
+Words allowed inside this illustration (verbatim, nothing else): 「境界標」
+「筆界特定図面」「地積」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 地積は記載なし
 
@@ -225,8 +249,10 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 測量費用は申請人が負担
 Illustration: An isometric scene of surveying equipment (tripod, tape
-measure) beside a 申請人 character handing a coin-purse icon labeled
-「予納」across a counter to a registry office building icon.
+measure) beside a character labeled「申請人」handing a coin-purse icon
+labeled「予納」across a counter to a registry office building icon.
+Words allowed inside this illustration (verbatim, nothing else): 「申請人」
+「予納」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 あらかじめ予納
 
@@ -241,7 +267,10 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its specified "Words allowed" words (no inscriptions on stones or
+signs, no pseudo-writing) and that each allowed word is clearly legible.
+Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 
@@ -298,6 +327,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -322,8 +360,8 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 占有者の有無を最初に確認する
-Diagram: A decision flowchart. Start node: 筆界調査委員が他人の土地に立
-ち入る. Diamond node: その土地に占有者がいるか？ A plain blue はい
+Diagram: A decision flowchart. Start node:「筆界調査委員が他人の土地に立
+ち入る」. Diamond node:「その土地に占有者がいるか？」A plain blue はい
 branch leads to a conclusion node「あらかじめ占有者に通知」. A green
 branch with a thick highlighted border (本アの対象) for いいえ leads to
 a conclusion node「通知は不要」with a faded, dotted, crossed-out
@@ -342,11 +380,11 @@ Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
 意見の提出先は登記官
 Diagram: A left/right comparison frame. Left side (よくある思い込み): a
-筆界調査委員 character handing a document labeled「意見」toward a 申請人
-character, with a red ✕ overlaid on the arrow between them. Right side
-(正しいルール): the same 筆界調査委員 character handing the「意見」
-document across a desk to a 筆界特定登記官 character holding an official
-seal.
+character labeled「筆界調査委員」handing a document labeled「意見」toward
+a character labeled「申請人」, with a red ✕ overlaid on the arrow between
+them. Right side (正しいルール): the same「筆界調査委員」character handing
+the「意見」document across a desk to a character labeled「筆界特定登記官」
+holding an official seal.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、調査を終えた筆界調査委員が意見を届ける相手が申請人なのか登記官な
 のかを確認します。意見の提出先は筆界特定登記官であり、申請人に直接提出
@@ -363,8 +401,8 @@ Diagram: A left/right comparison frame. Left side (よくある思い込み): a
 blueprint icon labeled「筆界特定図面」with a square-meter area symbol
 labeled「地積」written on it in bold, overlaid with a red ✕. Right side
 (正しいルール): the same blueprint icon showing only a boundary line,
-distance markers between 筆界点, and small 境界標 icons, with no 地積
-label anywhere on it.
+distance markers between points labeled「筆界点」, and small boundary-
+stake icons labeled「境界標」, with no「地積」label anywhere on it.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、地積が算出できることと、それが図面に記載されることは別の問題であ
 ると確認します。筆界特定図面に記録されるのは筆界の位置や筆界点間の距離、
@@ -377,11 +415,12 @@ characters):
 Badge: a filled circle in blue containing the number 4.
 Heading (bold, ONE line):
 聴取できる相手は当事者に限らない
-Diagram: An isometric 筆界調査委員 character at the center, connected by
-three separate arrows labeled「聴取」to a 申請人 character, a 関係人
-character, and a neighbor character labeled「その他の者」who is pointing
-at an old stone boundary marker; all three arrows are drawn the same
-solid style to show none of them is excluded.
+Diagram: An isometric character labeled「筆界調査委員」at the center,
+connected by three separate arrows labeled「聴取」to a character labeled
+「申請人」, a character labeled「関係人」, and a neighbor character
+labeled「その他の者」who is pointing at an old stone boundary marker
+(left blank, no inscription); all three arrows are drawn the same solid
+style to show none of them is excluded.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、事実の聴取や資料提出を求める相手が申請人・関係人に限られるのかを
 確認します。筆界調査委員は申請人・関係人以外のその他の者からも、知って
@@ -394,8 +433,8 @@ characters):
 Badge: a filled circle in green containing the number 5.
 Heading (bold, ONE line):
 費用は申請人負担、しかも先払い
-Diagram: A left-to-right timeline. Node 1: 申請人 character labeled
-「申請人」standing beside a 登記所 counter. Node 2: an arrow labeled
+Diagram: A left-to-right timeline. Node 1: a character labeled
+「申請人」standing beside a counter labeled「登記所」. Node 2: an arrow labeled
 「あらかじめ予納」pointing to a coin-purse icon being handed across the
 counter, before any measuring takes place. Node 3: surveying equipment
 (tripod, tape measure) icons actually being used in the field, drawn
@@ -425,7 +464,10 @@ paragraph block between the header and the panels, that Panel 1 shows
 both the はい and いいえ exit of its diamond node leading to their own
 separate conclusion node with no arrow looping back to an earlier node,
 that each 着眼点 callout states a checking order rather than only a
-conclusion, confirm nothing is rendered below the last panel's footnote
+conclusion, confirm that no diagram contains any text other than the
+words quoted in 「」 on that panel's Diagram line (no inscriptions on
+stones or signs, no pseudo-writing) and that each such word is clearly
+legible, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
 grid of all 肢, and no additional text block of any kind), and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background

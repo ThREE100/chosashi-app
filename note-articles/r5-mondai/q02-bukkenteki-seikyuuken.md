@@ -139,8 +139,21 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 権・建・物・登・記 — these must be rendered in their standard
+kanji 権・建・物・登・記・請 — these must be rendered in their standard
 Japanese forms, never as Simplified Chinese variants.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -157,7 +170,7 @@ Title (large, bold, 1行):
 物権的請求権は誰に主張できる？
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第2問－相手方・登記・時効のルール
+相手方・登記・時効のルール（令和5年度 午後の部 第2問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -170,9 +183,11 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 無権利者には登記なくても明渡し可
 Illustration: An isometric land plot with a buyer figure A standing on
-it without any registration certificate (a crossed-out 登記 badge above A), next to an unauthorized occupier figure C labeled "無権利者" being
-pointed at by an arrow labeled "明渡し請求" — no barrier is shown between
+it without any registration certificate (a crossed-out「登記」badge above A), next to an unauthorized occupier figure C labeled「無権利者」being
+pointed at by an arrow labeled「明渡し請求」— no barrier is shown between
 A and C despite A lacking registration.
+Words allowed inside this illustration (verbatim, nothing else): 「登記」
+「無権利者」「明渡し請求」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 登記なくても可
 
@@ -181,9 +196,11 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 占有補助者でなく本人に請求
 Illustration: An isometric house icon on a land plot, with a main
-occupier figure B (labeled "無権利者・建物所有者") and a smaller family figure C beside B labeled "占有補助者"; an arrow labeled "明渡し請求"
+occupier figure B (labeled「無権利者・建物所有者」) and a smaller family figure C beside B labeled「占有補助者」; an arrow labeled「明渡し請求」
 points only to figure B, while a dotted arrow shows C also being escorted
 out automatically once B is removed.
+Words allowed inside this illustration (verbatim, nothing else):
+「無権利者・建物所有者」「占有補助者」「明渡し請求」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 本人請求で足りる
 
@@ -192,10 +209,12 @@ Badge: a filled green circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 共有者は単独で妨害排除を請求
 Illustration: An isometric shared land plot with two owner figures A and
-B standing together labeled "共有"; a pile of industrial-waste icons
+B standing together labeled「共有」; a pile of industrial-waste icons
 dumped by a separate unauthorized figure C; figure A alone raises a hand
-with a "撤去請求" speech bubble while figure B remains passive in the
+with a「撤去請求」speech bubble while figure B remains passive in the
 background, showing A can act without B's involvement.
+Words allowed inside this illustration (verbatim, nothing else): 「共有」
+「撤去請求」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 単独で請求可
 
@@ -209,8 +228,10 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric handshake scene between buyer A and seller B
 over a land plot icon; at the exact moment of the handshake, the land
 plot's ownership name-tag instantly flips from "B" to "A" with no
-delay/timer icon, and an immediate arrow labeled "引渡し請求" points from
+delay/timer icon, and an immediate arrow labeled「引渡し請求」points from
 A to B.
+Words allowed inside this illustration (verbatim, nothing else):
+「引渡し請求」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 契約と同時に移転
 
@@ -219,9 +240,11 @@ Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 返還請求権は時効消滅しない
 Illustration: An isometric land plot icon owned by figure A, protected
-by a shield icon that a "時効" hourglass icon bounces off without effect;
-a small speech bubble from A reading "返してください" stays bright and
+by a shield icon that a「時効」hourglass icon bounces off without effect;
+a small speech bubble from A reading「返してください」stays bright and
 active (not fading), showing the request right stays alive indefinitely.
+Words allowed inside this illustration (verbatim, nothing else): 「時効」
+「返してください」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 時効消滅なし
 
@@ -236,7 +259,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -288,6 +311,15 @@ background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -329,7 +361,7 @@ Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 相手が無権利者かを先に見分ける
 Diagram: An isometric land plot with buyer figure Ａ standing on it
-without any registration certificate（crossed-out 登記バッジ）, next to an
+without any registration certificate（crossed-out「登記」バッジ）, next to an
 unauthorized occupier figure Ｃ labeled「無権利者」being pointed at by an
 arrow labeled「明渡し請求」— no barrier is shown between Ａ and Ｃ despite
 Ａ lacking registration。
@@ -396,7 +428,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special
-attention to 権, 建, 物, 登, 記 and any character that has a
+attention to 権, 建, 物, 登, 記, 請 and any character that has a
 visually similar Simplified Chinese variant. If any character renders as
 a Simplified Chinese variant, redraw that character in the correct
 Japanese form. Also scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji — including any Chinese-only character, Korean Hangul, other non-Japanese script, or stray decorative glyph — and remove or redraw it so that only standard Japanese text appears anywhere in the image. Confirm the panel count equals 5 exactly, badge numbers
@@ -405,7 +437,11 @@ between the header and the panels, that each 着眼点 callout states a
 checking order rather than only a conclusion, confirm nothing is rendered
 below the last panel's footnote text (no summary recap panel, no trophy
 or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text
-block of any kind), and confirm the entire canvas, edge to edge, is
+block of any kind), confirm that no diagram contains any text other than
+the words quoted in「」on that panel's Diagram line (or that panel's
+heading, 着眼点 callout and conclusion tag) — no inscriptions on stones
+or signs, no pseudo-writing — and that each such word is clearly
+legible, and confirm the entire canvas, edge to edge, is
 filled with a fully opaque background with no transparency or alpha
 channel anywhere.
 ```

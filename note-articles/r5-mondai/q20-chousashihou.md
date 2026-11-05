@@ -142,6 +142,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 登・録・相・続 — these must be rendered in their standard Japanese forms,
 never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -158,7 +171,7 @@ Title (large, bold, 2行):
 「しなければならない」か「できる」か
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第20問－土地家屋調査士・調査士法人のルール
+土地家屋調査士・調査士法人のルール（令和5年度 午後の部 第20問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -170,10 +183,13 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 死亡したら相続人が届出
-Illustration: An isometric family/相続人 character holding a document
-labeled「死亡の届出」and handing it to a 調査士会 building icon, with an
-arrow continuing onward to a larger 日本土地家屋調査士会連合会 building
-icon, and a small clock icon labeled「遅滞なく」beside the arrow.
+Illustration: An isometric family character labeled「相続人」holding a
+document labeled「死亡の届出」and handing it to a building icon labeled
+「調査士会」, with an arrow continuing onward to a larger building icon
+labeled「日本土地家屋調査士会連合会」, and a small clock icon labeled
+「遅滞なく」beside the arrow.
+Words allowed inside this illustration (verbatim, nothing else): 「相続人」
+「死亡の届出」「調査士会」「日本土地家屋調査士会連合会」「遅滞なく」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 遅滞なく届出
 
@@ -181,10 +197,13 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 2年不執行の取消しは「できる」
-Illustration: An isometric 調査士 character sitting idle at an empty
-desk beside a calendar showing「2年以上」, connected by a thin dotted
-(optional-style) arrow — not a solid mandatory arrow — to a 連合会
-building icon with a small「登録取消し？」question-mark badge above it.
+Illustration: An isometric character labeled「調査士」sitting idle at an
+empty desk beside a calendar showing「2年以上」, connected by a thin
+dotted (optional-style) arrow — not a solid mandatory arrow — to a
+building icon labeled「連合会」with a small「登録取消し？」question-mark
+badge above it.
+Words allowed inside this illustration (verbatim, nothing else): 「調査士」
+「2年以上」「連合会」「登録取消し？」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 義務ではなく裁量
 
@@ -197,9 +216,11 @@ Heading (bold, ONE line, ~20 characters or fewer):
 代表社員は総社員の同意でも可
 Illustration: An isometric diagram showing two separate paths converging
 on a single badge labeled「代表社員」— one path starting from a
-「定款」document icon, the other path starting from a group of 社員
-character icons with a speech bubble labeled「総社員の同意」— both
-arrows pointing to the same 代表社員 badge.
+「定款」document icon, the other path starting from a group of character
+icons labeled「社員」with a speech bubble labeled「総社員の同意」— both
+arrows pointing to the same「代表社員」badge.
+Words allowed inside this illustration (verbatim, nothing else): 「代表社員」
+「定款」「社員」「総社員の同意」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 定款以外でも可
 
@@ -208,9 +229,11 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 戒告でも官報で公告する
 Illustration: An isometric newspaper icon representing「官報」with a
-visible headline stamped「戒告」, connected by an arrow from a 法務大臣
-desk icon, with a small clock icon labeled「遅滞なく」placed near the
-arrow.
+visible headline stamped「戒告」, connected by an arrow from a desk icon
+labeled「法務大臣」, with a small clock icon labeled「遅滞なく」placed
+near the arrow.
+Words allowed inside this illustration (verbatim, nothing else): 「官報」
+「戒告」「法務大臣」「遅滞なく」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 軽い処分でも公告
 
@@ -218,10 +241,12 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 法人は業務の一部だけ停止も可
-Illustration: An isometric 調査士法人 office building divided into
-several department blocks; one block is highlighted and stamped
+Illustration: An isometric office building labeled「調査士法人」divided
+into several department blocks; one block is highlighted and stamped
 「業務停止」in red, while the other blocks remain bright and active,
 showing a partial rather than full-building stoppage.
+Words allowed inside this illustration (verbatim, nothing else): 「調査士
+法人」「業務停止」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 一部停止もできる
 
@@ -236,7 +261,10 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm that no illustration contains any text other
+than its specified "Words allowed" words (no inscriptions on stones or
+signs, no pseudo-writing) and that each allowed word is clearly legible.
+Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 
@@ -299,6 +327,15 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
 
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -323,15 +360,15 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the number 1.
 Heading (bold, ONE line):
 死亡時は相続人が遅滞なく届出する
-Diagram: A shared decision frame with Panel 2. Diamond node: 登録取消事
-由の種類は？ A green branch with a thick highlighted border for「死亡等
+Diagram: A shared decision frame with Panel 2. Diamond node:「登録取消事
+由の種類は？」A green branch with a thick highlighted border for「死亡等
 の事由（必要的取消事由）」leads to a conclusion node「連合会は登録を取り
-消さなければならない」, next to a small inset showing a 相続人 character
-handing a document labeled「死亡の届出」to a 調査士会 building icon, with
-an arrow continuing to a larger 日本土地家屋調査士会連合会 building icon
-and a clock icon labeled「遅滞なく」. A faded, greyed-out branch for
-「2年以上業務不執行（裁量的取消事由）」leads to its own faded conclusion
-node「取り消すことができる」.
+消さなければならない」, next to a small inset showing a character labeled
+「相続人」handing a document labeled「死亡の届出」to a building icon
+labeled「調査士会」, with an arrow continuing to a larger building icon
+labeled「日本土地家屋調査士会連合会」and a clock icon labeled「遅滞なく」.
+A faded, greyed-out branch for「2年以上業務不執行（裁量的取消事由）」leads
+to its own faded conclusion node「取り消すことができる」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、登録の取消事由が必要的なものか裁量的なものかを確認します。死亡は
 必要的取消事由にあたるため連合会は登録を取り消さなければならず、本人は
@@ -345,14 +382,15 @@ Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 2年不執行の取消しは裁量にとどまる
 Diagram: The same shared decision frame as Panel 1 (same diamond node
-登録取消事由の種類は？), but now the「2年以上業務不執行（裁量的取消
+「登録取消事由の種類は？」), but now the「2年以上業務不執行（裁量的取消
 事由）」branch is drawn with the thick highlighted border and full color,
-leading to a conclusion node showing an isometric 調査士 character
-sitting idle at an empty desk beside a calendar showing「2年以上」, with
-a「登録取消し？」question-mark badge above a 連合会 building icon and the
-label「取り消すことができる（取り消さないこともある）」. The「死亡等の
-事由（必要的取消事由）」branch is rendered faded and greyed-out, leading
-to its own faded conclusion node「取り消さなければならない」.
+leading to a conclusion node showing an isometric character labeled
+「調査士」sitting idle at an empty desk beside a calendar showing
+「2年以上」, with a「登録取消し？」question-mark badge above a building
+icon labeled「連合会」and the label「取り消すことができる（取り消さない
+こともある）」. The「死亡等の事由（必要的取消事由）」branch is rendered
+faded and greyed-out, leading to its own faded conclusion node「取り消さ
+なければならない」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、2年以上業務を行わないことが必要的取消事由なのか裁量的取消事由な
 のかを確認します。これは裁量的取消事由にあたるため、連合会は登録を取り
@@ -367,8 +405,9 @@ Heading (bold, ONE line):
 定款以外でも代表社員を定められる
 Diagram: A left/right comparison frame. Left side (よくある思い込み): a
 「定款」document icon with a single arrow leading to a badge labeled
-「代表社員」, while a separate path from a group of 社員 character icons
-with a speech bubble labeled「総社員の同意」is blocked by a red ✕. Right
+「代表社員」, while a separate path from a group of character icons
+labeled「社員」with a speech bubble labeled「総社員の同意」is blocked by
+a red ✕. Right
 side (正しいルール): both the「定款」path and the「総社員の同意」path
 have solid, unblocked arrows converging on the same「代表社員」badge.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
@@ -387,8 +426,8 @@ Diagram: A left/right comparison frame. Left side (よくある思い込み): a
 newspaper icon representing「官報」with a red ✕ overlaid, next to a small
 「戒告」stamp icon placed far away and disconnected from the newspaper.
 Right side (正しいルール): the newspaper icon「官報」showing a visible
-headline stamped「戒告」, connected by an arrow from a 法務大臣 desk
-icon, with a clock icon labeled「遅滞なく」placed near the arrow.
+headline stamped「戒告」, connected by an arrow from a desk icon labeled
+「法務大臣」, with a clock icon labeled「遅滞なく」placed near the arrow.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、処分の重さによって公告されるかどうかが変わるのかを確認します。懲
 戒処分は業務停止や業務禁止だけでなく、最も軽い戒告の処分をした場合でも、
@@ -402,8 +441,9 @@ Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 法人は業務の一部だけ停止も可能
 Diagram: A left/right comparison frame. Left side (よくある思い込み): an
-isometric 調査士法人 office building with a red ✕ stamped across the
-entire building labeled「業務停止」, showing an all-or-nothing image.
+isometric office building labeled「調査士法人」with a red ✕ stamped
+across the entire building labeled「業務停止」, showing an all-or-nothing
+image.
 Right side (正しいルール): the same office building divided into several
 department blocks; only one block is highlighted and stamped「業務停止」
 in red, while the other blocks remain bright and active.
@@ -431,6 +471,9 @@ paragraph block between the header and the panels, that Panels 1 and 2
 visibly share the same decision-tree layout with only the
 highlighted/faded branches reversed between them, that each 着眼点
 callout states a checking order rather than only a conclusion, confirm
+that no diagram contains any text other than the words quoted in 「」 on
+that panel's Diagram line (no inscriptions on stones or signs, no
+pseudo-writing) and that each such word is clearly legible, confirm
 nothing is rendered below the last panel's footnote text (no summary
 recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and
 no additional text block of any kind), and confirm the entire canvas,

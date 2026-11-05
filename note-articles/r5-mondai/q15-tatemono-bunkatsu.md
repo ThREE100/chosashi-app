@@ -157,6 +157,19 @@ summarize, or substitute any characters. Pay special attention to the
 kanji 号・録・番・建・物・登・記 — these must be rendered in their
 standard Japanese forms, never as Simplified Chinese variants.
 
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside every illustration (on
+objects, signs, papers, documents, stones, buildings, stamps and any other
+prop), render ONLY the words written in 「」 in that card's Illustration line
+(and repeated on the "Words allowed" line under it), each one large, clear
+and exactly as written. Do not invent or add any other text inside an
+illustration: no inscriptions on boundary stones or markers, no extra signs,
+labels, captions, numbers or pseudo-writing. If a prop needs no specified
+word, leave its surface blank or show its meaning with an icon or a mark
+(check mark, red cross) instead. The title, subtitle, column headers, card
+headings and conclusion tags are the only other text on the poster.
+
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
@@ -173,7 +186,7 @@ Title (large, bold, 2行):
 附属建物を切り離すルールを整理する
 
 Subtitle (smaller, centered, 1行):
-令和5年度 午後の部 第15問－代位申請・符号・登記記録の書き方
+代位申請・符号・登記記録の書き方（令和5年度 午後の部 第15問）
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -186,11 +199,12 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 主と附属への分割は1段階でできる
 Illustration: An isometric main house (母屋) with two attached small
-structures labeled 離れ and 倉庫 (附属建物), connected by dotted lines.
+structures labeled「離れ」and「倉庫」(附属建物), connected by dotted lines.
 A single arrow shows both being separated at once and rearranged into a
 new grouping: 離れ becomes a free-standing 主である建物 with 倉庫
 attached to it as its附属建物. A crossed-out second arrow labeled
-"合併の登記" shows that this extra step is not required.
+「合併の登記」shows that this extra step is not required.
+Words allowed inside this illustration (verbatim, nothing else): 「離れ」「倉庫」「合併の登記」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 合併登記は不要
 
@@ -198,10 +212,11 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 仮処分債権者は代位で申請できる
-Illustration: A person figure labeled Ｂ(債権者) holding a document
-labeled "仮処分命令の正本", an arrow labeled "代位" pointing toward a
+Illustration: A person figure labeled「Ｂ(債権者)」holding a document
+labeled「仮処分命令の正本」, an arrow labeled「代位」pointing toward a
 附属建物 icon being separated from 甲建物, with 所有者Ａ shown passively
 standing in the background.
+Words allowed inside this illustration (verbatim, nothing else): 「Ｂ(債権者)」「仮処分命令の正本」「代位」
 Conclusion tag (green banner below the illustration, 5-15 characters):
 代位申請が可能
 
@@ -213,8 +228,9 @@ Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 図面に分割後の建物と符号を表示
 Illustration: An isometric blueprint/floor-plan page showing two building
-outlines labeled "分割後の母屋" and "分割後の離れ", each tagged with a
+outlines labeled「分割後の母屋」and「分割後の離れ」, each tagged with a
 numbered symbol (符号).
+Words allowed inside this illustration (verbatim, nothing else): 「分割後の母屋」「分割後の離れ」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 符号を付して表示
 
@@ -223,10 +239,11 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 使った符号は繰り上がらない
 Illustration: An isometric main building with three附属建物 tags
-numbered 1・2・3 attached, with tag 2 being lifted away (分割 arrow),
+numbered 1・2・3 attached, with tag 2 being lifted away by a「分割」arrow,
 leaving an empty gap where 2 used to be, and a prohibition mark over a
 curved arrow that would have moved tag 3 into the 2 position, showing
 tag 3 stays labeled 3.
+Words allowed inside this illustration (verbatim, nothing else): 「分割」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 符号は再使用しない
 
@@ -234,10 +251,11 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 登記記録は「5番の2に分割」と記録
-Illustration: An isometric ledger page (甲建物の登記記録) with the
-"原因及びその日付欄" row highlighted, showing the text "5番の2に分割"
+Illustration: An isometric ledger page labeled「甲建物の登記記録」with the
+「原因及びその日付欄」row highlighted, showing the text「5番の2に分割」
 written inside it, beside a crossed-out alternative text bubble reading
-"5番の1、5番の2に分割" to show that wording is incorrect.
+「5番の1、5番の2に分割」to show that wording is incorrect.
+Words allowed inside this illustration (verbatim, nothing else): 「甲建物の登記記録」「原因及びその日付欄」「5番の2に分割」「5番の1、5番の2に分割」
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 予定家屋番号で記録
 
@@ -252,7 +270,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 ---
 
@@ -310,6 +328,15 @@ below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa.
+
+DIAGRAM TEXT RULE (critical): the only text allowed inside the
+illustrations is the specified words (絵の中に入れる文字は、指定した語だけ).
+This is an instruction, never text to draw. Inside the diagrams and
+illustrations, render ONLY the words written in 「」 in each panel's Diagram
+line (plus that panel's heading, 着眼点 callout and conclusion tag), each one
+large, clear and exactly as written. Do not add any other text, inscriptions,
+signs, numbers or pseudo-writing inside a diagram; leave other surfaces
+blank or use an icon or mark instead.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -442,7 +469,10 @@ a clear sequence even though it is not drawn as a branching flowchart,
 that each 着眼点 callout states a checking order rather than only a
 conclusion, confirm nothing is rendered below the last panel's footnote
 text (no summary recap panel, no trophy or medal icon, no re-listed ○/✕
-grid of all 肢, and no additional text block of any kind), and confirm
+grid of all 肢, and no additional text block of any kind), confirm that
+no diagram contains any text other than the words quoted in 「」 on that
+panel's Diagram line (no inscriptions on stones or signs, no
+pseudo-writing) and that each quoted word is clearly legible, and confirm
 the entire canvas, edge to edge, is filled with a fully opaque background
 with no transparency or alpha channel anywhere.
 ```
