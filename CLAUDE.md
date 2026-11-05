@@ -620,6 +620,7 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 ### Instagramの運用（`note-unei/instagram/`、2026-10-30追加）
 年度別の過去問の図解（令和8年度の問1から平成17年度までさかのぼる）をInstagramに毎日3枚載せる計画は`note-unei/instagram/README.md`にある。1年度＝問1〜20＋つなぎ4枚の24枚（3列のグリッドの行にそろえる）、フィードは3:4（1080×1440）で作り直し、ストーリーは作成済みの縦長図解（1080×1920）を使う。予定表`schedule.csv`は`make_schedule.py --start 開始日`で、つなぎの素材一覧`filler-pool.csv`は`make_filler_pool.py`で作る。画像はリポジトリに入れず手元に置き、予定表の`status`だけを更新する。計画を変えたら`note-unei/senryaku.md`（版を上げる）・`kaitei-rireki.md`も直す。作業は`main`。
 2026-11-05、`note-unei/instagram/prompts/{年度}.md`の問ごとに、画像の保存名の案（`Instagram_{年度の記号}_{問題番号2桁}_{記事のタイトル}`。年度の記号は表紙画像と同じ0埋めしないR1〜R8・H17〜H30の書き方で、`make_ig_prompts.py`の`year_code`が使う0埋めの`R07`等とは別）を追記した（`make_ig_prompts.py`に生成ロジックを追加。2枚に分けた3問は末尾に`_1`・`_2`）。画像生成AIからダウンロードした直後のファイル名は必ずこの名前にリネームしてから使う（リネームのルールは`note-unei/instagram/prompts/README.md`の「画像ファイルのリネームのルール」）。`schedule.csv`に載せて投稿する段になったら、その行の`feed_image`（`seq`に紐づく別の名前）にさらに合わせ直す2段階になる。
+2026-11-05、令和7年度で行った「①Q1〜Q20記事の品質チェック→②Instagram用プロンプトの再同期→③画像ファイルのリネームのルールの確認」の一連の作業を、年度の1行だけ書き換えて別チャットでも実行できる依頼文を`note-unei/instagram/irai-bun_nendo-koushin.md`に作った。
 
 ## 個別テーマ記事の置き場所(2026-11-04追加)
 
