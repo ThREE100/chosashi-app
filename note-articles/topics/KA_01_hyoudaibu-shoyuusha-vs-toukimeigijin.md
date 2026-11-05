@@ -61,6 +61,46 @@
 
 ---
 
+## 見出し画像プロンプト（note用・1280×670）
+
+noteの見出し画像（アイキャッチ）用です。キャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚を添付してから貼ります。キャラクターはMC1人だけです（トリ先生・藍子は描きません）。画像の生成と目視確認は未実施です。
+
+| 行 | 文字 |
+|---|---|
+| 1行目 | 登記簿の持ち主の |
+| 2行目 | 表題部所有者（強調：表題部） |
+| 帯 | 所有権の登記名義人との違い |
+
+確かめること：大きさが1280×670か／文字が上の表と1字ずつ一致しているか（簡体字・繁体字・余計な文字・数字・英字がないか）／キャラクターがMC1人だけか／手や腕の数が合っているか／背景が不透明か。
+
+```
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
+Fill the whole canvas with the pastel sky and soft clouds.
+
+CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese or Traditional Chinese characters; every glyph must match the standard Japanese form exactly. Reproduce the exact text strings given below verbatim; do not paraphrase or substitute any character. No stray or decorative glyphs of any kind.
+
+BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow. Line 1 is dark navy with a pale yellow marker stroke behind it:
+登記簿の持ち主の
+Line 2 is larger; the phrase 表題部 is red-orange and the rest is dark navy:
+表題部所有者
+Below the title, a light blue rounded pill-shaped subtitle band with navy text:
+所有権の登記名義人との違い
+Do not write any other text anywhere in the image.
+
+TOPIC SCENES (illustration only, no text on any object; soft and slightly faded): Left side: an old registry ledger book lying open on a small wooden desk. Right side: a small land-plot tile and a tiny house model.
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, arrow between boxes, check mark or cross mark.
+
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (登・記・簿・持・主・表・題・部・所・有・者・権・名・義・人・違) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm the canvas is fully opaque.
+```
+
 ## インフォグラフィック プロンプト
 
 ### 画像1（俯瞰カードポスター型：表題部所有者と所有権の登記名義人の違い）
