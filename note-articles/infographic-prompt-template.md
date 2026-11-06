@@ -74,9 +74,9 @@ short label (a few words) or drawn as an icon, leave it out rather than
 writing it as prose.
 
 LAYOUT LOCK (critical): the header, the bottom edge and a five-card set are fixed as follows.
-- HEADER: the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas, in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
-  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px.
-  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits, never wrap it to a second line; vertical centre at y = 148 px.
+- HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. If it would be wider than 990 px, reduce the font size until it fits (not below 50 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
   Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
   The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
 - BOTTOM ALIGNMENT: the cards fill the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line on that bottom margin line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, the card's own padding), never as an empty strip or a ragged bottom edge.
@@ -268,7 +268,7 @@ H24問5・問8・問9で、実際に生成した画像を確認したところ�
 
 令和3年度のInstagram用図解で、タイトルが大きすぎて上下が切れる・タイトルと副題の間が空く・カード5枚の2列で空きマスができる、という不具合が出た（画像生成AIは入りきらないと縮めずにはみ出す）。カードを並べる図解（②の俯瞰カードポスター型、③の俯瞰カードポスター型、毎日ドリルの②。サイズはnote用の縦長でもInstagram用の3:4でも同じ）には、プロンプト雛形の `GLANCEABLE-POSTER REQUIREMENT` の直後に、次の `LAYOUT LOCK` の段落を必ず入れる（雛形に入れてある。③で雛形を流用するときも消さない）。
 
-- **ヘッダー固定**：タイトル72px固定（1行、入らなければ同じ大きさで2行）、副題36pxをすぐ下に置き、ヘッダー全体を高さの約16%以内にする。上・タイトルと副題の間・カードとの間に空きを作らせない。タイトルを大きくして余白を埋めさせない。
+- **ヘッダー固定（3行・実測寸法。2026-11-06 ユーザー指示）**：幅1080pxの画面で、1行目＝問いのタイトル62px・幅約800px・中心y=80、2行目＝論点45px・1行・幅約990px・中心y=148（はみ出すときは36pxまで縮める）、3行目＝年度（または「実践答練 第N回」「直前予想模試」「毎日ドリル 第N日」）と問題番号だけ35px・中心y=204（「午後の部」「午前の部」は書かない）。行ピッチ68px・56px、見出し全体はy=48〜223（約175px）、最初のカードはy=245から。書体は太い丸ゴシック、黒に近い色、クリーム背景で帯や枠は付けない。文言の正本は `note-unei/instagram/header_lock_text.py`。記事の総論プロンプトは、HEADERブロックを「Title＝1行目・2行目／Subtitle＝年度と問題番号だけ」に書き、`python3 note-articles/tools/apply_header_lock.py` で本文に HEADER LOCK の段落を入れる。
 - **下端そろえ**：2列のカードの下端を、下の余白の線の同じ高さにそろえる。余った高さはカードの中（イラスト領域・余白）で吸収する。
 - **5カード**：列見出しがなければ、カード1〜4を2×2に並べ、5枚目を全幅の1枚にする（イラストが左45%、見出しと結論タグが右）。列見出しが2つのときは、少ない列のカードを高くして下端をそろえる。空きマスを作らせない。
 - 最後の確認（Final check）にも、ヘッダーが固定どおりか・下端がそろっているか・空きマスがないかの確認を入れる。

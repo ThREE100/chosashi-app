@@ -188,7 +188,11 @@ short label (a few words) or drawn as an icon, leave it out rather than
 writing it as prose.
 
 LAYOUT LOCK (critical): the header, the bottom edge and a five-card set are fixed as follows.
-- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group header (the cards start at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. If it would be wider than 990 px, reduce the font size until it fits (not below 50 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
 - BOTTOM ALIGNMENT: the cards fill the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line on that bottom margin line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, the card's own padding), never as an empty strip or a ragged bottom edge.
 - FIVE CARDS: if there are exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and conclusion tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
 
@@ -238,11 +242,12 @@ sits in. Draw only the legally correct rule on every card; never draw a
 sentence that states a wrong rule. This poster uses no cross marks.
 
 --- HEADER ---
-Title (large, bold, 1行):
+Title (large, bold, 2行):
 登記所と登記官を整理
+不動産登記法第6条と第10条ほか
 
 Subtitle (smaller, centered, 1行):
-不動産登記法第6条と第10条ほか（毎日ドリル 第23日）
+毎日ドリル 第23日
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文のブロックは置かない。）
 
@@ -294,7 +299,7 @@ Conclusion tag (a short colored banner/pill directly below the illustration, blu
 
 --- FOOTER ---
 
-Final check before rendering: scan every kanji glyph, paying special attention to 増・築・区・域・登・記・所・除・斥・配・偶・者・親・族・代・表・移・送・指・定・転, and confirm each is in standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, confirm that no card carries a number, numbered circle or any numbering, confirm there is no intro illustration or paragraph block between the header and the cards, confirm that no card contains a full sentence of explanatory prose — every card's takeaway must read as a short heading + a short conclusion tag, at a glance — confirm that no illustration contains any text other than its "Words allowed" words and that each allowed word is clearly legible, confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind — the poster ends immediately after the last card), confirm the header is the fixed block described in LAYOUT LOCK (72 px title, 36 px subtitle directly under it, no empty gap or band), confirm the bottom edges of the cards line up on one horizontal line with no empty strip, and that no grid slot is left empty (with five cards, follow the FIVE CARDS rule), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: scan every kanji glyph, paying special attention to 増・築・区・域・登・記・所・除・斥・配・偶・者・親・族・代・表・移・送・指・定・転, and confirm each is in standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, confirm that no card carries a number, numbered circle or any numbering, confirm there is no intro illustration or paragraph block between the header and the cards, confirm that no card contains a full sentence of explanatory prose — every card's takeaway must read as a short heading + a short conclusion tag, at a glance — confirm that no illustration contains any text other than its "Words allowed" words and that each allowed word is clearly legible, confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind — the poster ends immediately after the last card), Confirm the header is the fixed block described in HEADER LOCK (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no 午後の部 or 午前の部, no empty gap or band, first card at y = 245 px)., confirm the bottom edges of the cards line up on one horizontal line with no empty strip, and that no grid slot is left empty (with five cards, follow the FIVE CARDS rule), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---

@@ -1,4 +1,18 @@
 """解説記事の図解プロンプトの共通部分（雛形）。記事ごとの文言は dayNNN.py に書く。"""
+import os
+import re
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', 'note-unei', 'instagram'))
+from header_lock_text import HEADER_LOCK_BODY, FINAL_SENTENCE  # noqa: E402
+
+
+def three_line_header(title, sub):
+    """見出しを3行（タイトル／論点／毎日ドリル 第N日）にする。sub が「論点（毎日ドリル 第N日）」の形のとき。"""
+    m = re.fullmatch(r'(.+?)（(毎日ドリル 第\d+日)）', sub.strip())
+    if not m:
+        return [title], sub
+    return [title, m.group(1)], m.group(2)
 
 TEXT_REQ_SHORT = """CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind. Reproduce the exact text strings given below verbatim."""
 
@@ -108,6 +122,9 @@ Final check before rendering: confirm the image is exactly 1280x670 landscape; c
 
 def poster(title, sub, col_a, col_b, cards, kanji, n_a):
     k = '・'.join(kanji)
+    tl, sub = three_line_header(title, sub)
+    title = '\n'.join(tl)
+    hn = len(tl)
     out = f"""Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded card sections, consistent with a
@@ -126,7 +143,7 @@ short label (a few words) or drawn as an icon, leave it out rather than
 writing it as prose.
 
 LAYOUT LOCK (critical): the header, the bottom edge and a five-card set are fixed as follows.
-- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group header (the cards start at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- HEADER LOCK (critical): {HEADER_LOCK_BODY}
 - BOTTOM ALIGNMENT: the cards fill the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line on that bottom margin line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, the card's own padding), never as an empty strip or a ragged bottom edge.
 - FIVE CARDS: if there are exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and conclusion tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
 
@@ -155,7 +172,7 @@ sits in. Draw only the legally correct rule on every card; never draw a
 sentence that states a wrong rule. This poster uses no cross marks.
 
 --- HEADER ---
-Title (large, bold, 1行):
+Title (large, bold, {hn}行):
 {title}
 
 Subtitle (smaller, centered, 1行):
@@ -182,7 +199,7 @@ Conclusion tag (a short colored banner/pill directly below the illustration, {co
     out += f"""
 --- FOOTER ---
 
-Final check before rendering: scan every kanji glyph, paying special attention to {k}, and confirm each is in standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, confirm that no card carries a number, numbered circle or any numbering, confirm there is no intro illustration or paragraph block between the header and the cards, confirm that no card contains a full sentence of explanatory prose — every card's takeaway must read as a short heading + a short conclusion tag, at a glance — confirm that no illustration contains any text other than its "Words allowed" words and that each allowed word is clearly legible, confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind — the poster ends immediately after the last card), confirm the header is the fixed block described in LAYOUT LOCK (72 px title, 36 px subtitle directly under it, no empty gap or band), confirm the bottom edges of the cards line up on one horizontal line with no empty strip, and that no grid slot is left empty (with five cards, follow the FIVE CARDS rule), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere."""
+Final check before rendering: scan every kanji glyph, paying special attention to {k}, and confirm each is in standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese. Scan the entire canvas for any character that is not standard Japanese hiragana, katakana, or Jōyō kanji and remove it. Confirm the number of cards equals 5 exactly, with no duplicated or missing cards, confirm that no card carries a number, numbered circle or any numbering, confirm there is no intro illustration or paragraph block between the header and the cards, confirm that no card contains a full sentence of explanatory prose — every card's takeaway must read as a short heading + a short conclusion tag, at a glance — confirm that no illustration contains any text other than its "Words allowed" words and that each allowed word is clearly legible, confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind — the poster ends immediately after the last card), {FINAL_SENTENCE}, confirm the bottom edges of the cards line up on one horizontal line with no empty strip, and that no grid slot is left empty (with five cards, follow the FIVE CARDS rule), and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere."""
     return out
 
 

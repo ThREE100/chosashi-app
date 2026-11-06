@@ -118,6 +118,12 @@ modern explainer-graphic aesthetic (icons: isometric courthouse/scroll,
 scales of justice, timeline ribbons, handshake/relay batons, desks with
 name tags, etc. — adapt icon set to the topic).
 
+HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. If it would be wider than 990 px, reduce the font size until it fits (not below 50 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
+
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
 NOT a text-heavy explainer document. There is NO intro illustration and NO
 paragraph of prose anywhere on this poster — go straight from the header
@@ -178,7 +184,7 @@ Title (large, bold, 2行):
 占有訴権・承継・占有改定の急所
 
 Subtitle (smaller, centered, 1行):
-令和3年度 午後の部 第2問 ―正しいルールだけを1枚に整理
+令和3年度 第2問
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -269,7 +275,7 @@ this list verbatim with no omissions or substitutions:
 2. 占有の訴えに所有権は主張不可 ／ 本権の主張は不可
 3. 勝訴回復で空白期間も継続扱い ／ 占有の継続とみなす
 4. 承継人は自己の占有のみも主張可 ／ 選択は承継人の自由
-5. 占有改定で本人が占有権取得 ／ 占有改定で取得. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration or diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+5. 占有改定で本人が占有権取得 ／ 占有改定で取得. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration or diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the header is the fixed block described in HEADER LOCK (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no 午後の部 or 午前の部, no empty gap or band, first card at y = 245 px). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ## インフォグラフィック プロンプト（作図ガイド）

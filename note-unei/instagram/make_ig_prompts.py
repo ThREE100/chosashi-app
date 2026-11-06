@@ -26,6 +26,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUTDIR = os.path.join(HERE, 'prompts')
 
+from header_lock_text import HEADER_LOCK_BODY, HEADER_LOCK_PARA, FINAL_SENTENCE  # noqa: E402
+
 YEARS = [('R', n) for n in range(8, 0, -1)] + [('H', n) for n in range(30, 16, -1)]
 
 IG_HEAD = '''INSTAGRAM FEED FORMAT (critical — this overrides every other statement about size or layout in this prompt):
@@ -36,12 +38,7 @@ shown as a 3:4 thumbnail on the profile grid, so nothing important may touch the
   opaque background only.
 '''
 
-HEADER_LOCK = '''- HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas, in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
-  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px.
-  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits, never wrap it to a second line; vertical centre at y = 148 px.
-  Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
-  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
-'''
+HEADER_LOCK = '- HEADER LOCK (critical): ' + HEADER_LOCK_BODY + '\n'
 
 BOTTOM_ALIGN = '''- BOTTOM ALIGNMENT (critical): the cards fill the whole area from the bottom of the header to the bottom margin
   line (72 px above the canvas bottom). The last card of each column ends on exactly the same horizontal line
@@ -186,6 +183,9 @@ def ig_block(layout, badge_ignore, five=''):
 def finish(pre, head, body, foot, layout, badge_ignore, suffix=None, cards=None, badge_range=None, five=''):
     """前置きにInstagram用の指示を入れ、大きさと最後の確認を直して、1つのプロンプトにする。"""
     notes = []
+    # 記事の総論に入っている HEADER LOCK は、Instagram用の同じ指示と重なるので外す
+    pre = pre.replace(HEADER_LOCK_PARA + '\n\n', '')
+    foot = foot.replace(FINAL_SENTENCE + ' ', '')
     pre, k = re.subn(r'portrait layout, \d+[x×]\d+ pixels', 'portrait layout, 3:4 aspect ratio, 1080x1440 pixels', pre, count=1)
     if k != 1:
         notes.append('大きさの指定を読み取れない')

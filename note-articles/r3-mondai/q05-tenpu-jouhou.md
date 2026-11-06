@@ -130,6 +130,12 @@ counter, document stacks, corporate stamps, torn paper labels, electronic
 tablet/computer, percentage/pie-chart badges, etc. — adapt icon set to
 the topic).
 
+HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. If it would be wider than 990 px, reduce the font size until it fits (not below 50 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
+
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
 NOT a text-heavy explainer document. There is NO intro illustration and NO
 paragraph of prose anywhere on this poster — go straight from the header
@@ -191,7 +197,7 @@ Title (large, bold, 2行):
 「必要なのか」
 
 Subtitle (smaller, centered, 1行):
-令和3年度 午後の部 第5問／援用・持分割合・会社法人等番号・合体・電子申請
+令和3年度 第5問
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -268,7 +274,7 @@ card headings are exactly: (1) 共通添付情報は援用で省略可／(2) 合
 証明が必要になる／(3) 法人番号で資格証明を省略可／(4) 表題登記のみなら証明
 不要／(5) 登記事項証明書の代わりは照会番号 — do not merge, omit, duplicate, or
 reword any of these five headings, and confirm every card reads as a
-short heading + illustration + short conclusion tag at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration or diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+short heading + illustration + short conclusion tag at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm that no illustration or diagram contains any text other than its intended specified words (no inscriptions on stones, signs, labels or documents, and no pseudo-writing) and that each specified word is clearly legible. Confirm the header is the fixed block described in HEADER LOCK (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no 午後の部 or 午前の部, no empty gap or band, first card at y = 245 px). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---

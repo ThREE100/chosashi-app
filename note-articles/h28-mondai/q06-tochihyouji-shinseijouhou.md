@@ -117,6 +117,12 @@ modern explainer-graphic aesthetic (icons: isometric certificate stamps,
 application forms, calendars, corporate buildings, seals — adapt icon
 set to the topic).
 
+HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. If it would be wider than 990 px, reduce the font size until it fits (not below 50 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
+
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
 NOT a text-heavy explainer document. There is NO intro illustration and NO
 paragraph of prose anywhere on this poster — go straight from the header
@@ -163,7 +169,7 @@ Title (large, bold, 2行):
 万能ルールじゃない
 
 Subtitle (smaller, centered, 1行):
-土地の表示に関する登記の申請情報・添付情報を整理(平成28年度 午後の部 第6問)
+平成28年度 第6問
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -244,6 +250,7 @@ headings are exactly: (1) 住所証明書に3か月の期限なし／(2) 所在�
 地積は必須記載／(3) 本人確認情報にも期限なし／(4) 専用委任状は原本還付
 不可／(5) 地目変更でも法人番号必要 — do not merge, omit, duplicate, or
 reword any of these five headings.
+Confirm the header is the fixed block described in HEADER LOCK (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no 午後の部 or 午前の部, no empty gap or band, first card at y = 245 px).
 ```
 
 ---
@@ -259,6 +266,12 @@ clean flat-design isometric illustration style with soft pastel colors
 modern explainer-graphic aesthetic (icons: isometric certificate stamps,
 calendars, seals, corporate buildings, family register books — adapt icon
 set to each row's topic).
+
+HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. If it would be wider than 990 px, reduce the font size until it fits (not below 50 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
 comparison checklist poster, NOT a text-heavy explainer document. There is
@@ -304,7 +317,7 @@ Title (large, bold, 2行):
 3か月以内が必要？不要？
 
 Subtitle (smaller, centered, 1行):
-土地の表示に関する登記の添付書類を整理(平成28年度 午後の部 第6問・補足)
+平成28年度 第6問
 
 （タイトル・サブタイトルのすぐ下に左右2列を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -392,6 +405,7 @@ all 肢, and no additional text block of any kind — the poster ends
 immediately after the footer credit line), and confirm the entire canvas,
 edge to edge, is filled with a fully opaque background with no
 transparency or alpha channel anywhere.
+Confirm the header is the fixed block described in HEADER LOCK (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no 午後の部 or 午前の部, no empty gap or band, first card at y = 245 px).
 ```
 
 ---

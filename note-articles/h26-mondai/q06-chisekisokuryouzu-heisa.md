@@ -156,6 +156,12 @@ modern explainer-graphic aesthetic (icons: isometric land plots, registry
 shelves, document folders, stamps, measuring tools, envelope icons, etc.
 — adapt icon set to the topic).
 
+HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. If it would be wider than 990 px, reduce the font size until it fits (not below 50 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
+
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference poster,
 NOT a text-heavy explainer document. There is NO intro illustration and NO
 paragraph of prose anywhere on this poster — go straight from the header
@@ -196,11 +202,12 @@ transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
 --- HEADER ---
-Title (large, bold, 1行):
+Title (large, bold, 2行):
 地積測量図、閉じられるのはどんなとき？
+地積測量図の閉鎖と合筆・登記識別情報のルール
 
 Subtitle (smaller, centered, 1行):
-平成26年度 午後の部 第6問－地積測量図の閉鎖と合筆・登記識別情報のルール
+平成26年度 第6問
 
 （タイトル・サブタイトルのすぐ下にカード群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
@@ -283,7 +290,7 @@ across both columns without resetting, confirm there is no intro
 illustration or paragraph block between the header and the cards, and
 confirm that no card contains a full sentence of explanatory prose —
 every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+tag, at a glance. Confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any kind — the image ends immediately after the last card). Confirm the header is the fixed block described in HEADER LOCK (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no 午後の部 or 午前の部, no empty gap or band, first card at y = 245 px). Confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```
 
 ---
@@ -300,6 +307,12 @@ clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article, built
 as a single decision-flow panel.
+
+HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. If it would be wider than 990 px, reduce the font size until it fits (not below 50 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
 
 GLANCEABLE-POSTER REQUIREMENT (critical): This is a quick-reference
 decision-flow poster, NOT a text-heavy explainer document. There is NO
@@ -336,11 +349,12 @@ transparent area, and no unpainted canvas edge anywhere in the final
 image.
 
 --- HEADER ---
-Title (large, bold, 1行):
+Title (large, bold, 2行):
 地積測量図、保存期間はここで決まる
+不動産登記規則28条13号
 
 Subtitle (smaller, centered, 1行):
-不動産登記規則28条13号（平成26年度 午後の部 第6問）
+平成26年度 第6問
 
 （タイトル・サブタイトルのすぐ下にフローチャートを続ける。導入イラスト・
 導入文のブロックは置かない。）
@@ -373,6 +387,7 @@ FOOTER's small footnote text (no summary recap panel, no additional text
 block of any kind), and confirm the entire canvas, edge to edge, is filled
 with a fully opaque background with no transparency or alpha channel
 anywhere.
+Confirm the header is the fixed block described in HEADER LOCK (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no 午後の部 or 午前の部, no empty gap or band, first card at y = 245 px).
 ```
 
 ### 画像2：合筆の登記ができない6つのケース（不動産登記法41条）（早見表型）
