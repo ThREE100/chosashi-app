@@ -36,13 +36,11 @@ shown as a 3:4 thumbnail on the profile grid, so nothing important may touch the
   opaque background only.
 '''
 
-HEADER_LOCK = '''- HEADER LOCK (critical): the header (title + subtitle) is a fixed block at the top. The title is bold, EXACTLY
-  72 px tall (never larger), on ONE line if it fits within the safe width and otherwise on TWO lines of the same
-  size; the subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The whole header
-  block must not be taller than 16% of the canvas (about 230 px, starting at the top safe margin). There is NO
-  empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the
-  header and the first card or group header (the cards start at most 24 px below the subtitle). Do not
-  enlarge the title to fill space.
+HEADER_LOCK = '''- HEADER LOCK (critical): the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas, in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px.
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits, never wrap it to a second line; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the year and question number only, e.g. 令和3年度 第3問; never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
 '''
 
 BOTTOM_ALIGN = '''- BOTTOM ALIGNMENT (critical): the cards fill the whole area from the bottom of the header to the bottom margin
@@ -64,7 +62,7 @@ FIVE_COLS = '''- FIVE-CARD LAYOUT (critical): there are exactly 5 cards in two c
   with fewer cards are taller (larger illustration area) so that both columns end on the same bottom line.
 '''
 
-LAYOUT_TWO = '''- Layout: a header band at the top (title and subtitle, see HEADER LOCK), then the cards.
+LAYOUT_TWO = '''- Layout: a header band at the top (three header lines, see HEADER LOCK), then the cards.
   Arrange the cards in TWO columns, reading left column first, top to bottom, then the right column.
   If column or group headers are specified below, keep them as pill-shaped badges above their cards.
   If three groups are specified, place the first two groups side by side and the third group as a
@@ -74,7 +72,7 @@ LAYOUT_TWO = '''- Layout: a header band at the top (title and subtitle, see HEAD
   1440 px of height: shrink the illustrations, never the text.
 ''' + HEADER_LOCK + BOTTOM_ALIGN + '''{FIVE}'''
 
-LAYOUT_ONE = '''- Layout: a header band at the top (title and subtitle, see HEADER LOCK), then the group header
+LAYOUT_ONE = '''- Layout: a header band at the top (three header lines, see HEADER LOCK), then the group header
   (a full-width pill-shaped badge) and the cards as ONE column of wide, stacked, full-width cards: in each
   card the illustration is on the left (about 45% of the card width) and the heading and the conclusion
   tag are on the right. Use the extra space to make the illustrations larger. The layout must not need
@@ -84,7 +82,7 @@ LAYOUT_ONE = '''- Layout: a header band at the top (title and subtitle, see HEAD
   inside the cards, not as an empty strip under the last card.
 '''
 
-IG_TAIL = '''- Text size for a phone screen (1080 px wide): title 72 px (see HEADER LOCK), subtitle 36 px or larger, card
+IG_TAIL = '''- Text size for a phone screen (1080 px wide): header lines as given in HEADER LOCK (62 / 45 / 35 px), card
   heading 36 px or larger, conclusion tag 32 px or larger, any word inside an illustration 32 px or
   larger. If the text does not fit, shorten nothing: make the illustrations smaller.
 - Do NOT draw any footer, account name, URL, hashtag, logo, watermark or call-to-action text anywhere in
@@ -102,7 +100,7 @@ SPLITS = {
 
 FINAL_ADD = ('Confirm the canvas is exactly 1080x1440 pixels (3:4), that all essential elements are inside the '
              '54 px / 72 px safe margins, that the cards are in two columns as described, that the header is the fixed '
-             'block described (72 px title, 36 px subtitle directly under it, no empty gap or band), that the bottom edges '
+             'block described (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no 午後の部, no empty gap or band), that the bottom edges '
              'of the cards line up on one horizontal line at the bottom margin, that no grid slot is left empty (with five '
              'cards, follow the FIVE-CARD LAYOUT), and that there is no '
              'footer, account name, URL, hashtag or call-to-action text anywhere in the image.\n')
@@ -197,6 +195,7 @@ def finish(pre, head, body, foot, layout, badge_ignore, suffix=None, cards=None,
     else:
         x = pre.index(anchor)
         pre = pre[:x] + ig_block(layout, badge_ignore, five) + pre[x:]
+    head = re.sub(r'(午後|午前)の部[ \u3000]*', '', head)
     if suffix:
         head, k = re.subn(r'(Subtitle[^\n]*:\n)(.+)', lambda m: m.group(1) + m.group(2).rstrip() + suffix, head, count=1)
         if k != 1:
