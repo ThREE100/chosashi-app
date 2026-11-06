@@ -23,6 +23,10 @@ TOK = re.compile(r'((?:令和|平成)(?:元|\d+)年度)[ \u3000]*(?:午前の部
 HDR = re.compile(r'--- HEADER ---\n\s*Title \(large, bold, \d行\):\n(.+?)\n\s*Subtitle \(smaller, centered, \d行\):\n(.+?)(\n\n+（|\n\n+---|\n---)', re.S)
 
 
+def is_wrapped(T):
+    return len(T) == 2 and (T[0][-1] in '、はをがもにでとのかてへ' or T[0].endswith(('んです', 'して', 'しても', 'ても')))
+
+
 def label(t):
     if t.group(1):
         return f'{t.group(1)} 第{t.group(2)}問'
@@ -45,6 +49,9 @@ def fix_header(b):
     rest = re.sub(r'[（(]\s*[）)]', '', rest)
     rest = re.sub(r'^[－\-—／/（(\s\u3000]+|[）)－\-—／/\s\u3000]+$', '', rest).strip()
     lines = list(titles)
+    if is_wrapped(lines):
+        # 1つの文を2行に折ったタイトルは、1行目に1本にまとめる（入らなければ文字を小さくする）
+        lines = [lines[0] + lines[1]]
     if len(lines) == 1 and rest:
         lines.append(rest)
     new = ('--- HEADER ---\nTitle (large, bold, %d行):\n%s\n\nSubtitle (smaller, centered, 1行):\n%s%s'
