@@ -166,7 +166,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-出窓は「1.5メートル以上」じゃないと床面積に入らないんです
+出窓は「1.5メートル以上」でないと算入されない
 床面積の算入・不算入と計算ルール
 
 Subtitle (smaller, centered, 1行):

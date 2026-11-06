@@ -171,7 +171,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-区分建物の表題登記は「原始取得者」だけが申請人なんです
+区分建物の表題登記の申請人は「原始取得者」だけ
 建物の表題登記の申請人と添付情報
 
 Subtitle (smaller, centered, 1行):

@@ -172,7 +172,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-家屋番号は「登記所が決める」、申請人は変えられないんです
+家屋番号は「登記所が決める」、申請人は変えられない
 建物の所在欄と家屋番号の記録ルール
 
 Subtitle (smaller, centered, 1行):
