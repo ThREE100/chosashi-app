@@ -40,7 +40,7 @@ COLOR RULE (critical): affirmative (はい, あり, 満たす) = blue; negative
 BACKGROUND REQUIREMENT (critical): the entire canvas is fully opaque from
 edge to edge; no transparency, no checkerboard, no unpainted edge.
 
-INSTAGRAM FEED FORMAT (critical - overrides every other statement about size or layout): the canvas is EXACTLY 1080x1350 pixels, portrait 4:5. Keep every element inside a margin of 54 px left/right and 68 px top/bottom, filled with the opaque background only. Text size for a phone: title 72 px or larger, subtitle 36 px or larger, headings and table text 34 px or larger, tags 32 px or larger; if text does not fit, shrink the illustrations, never the text. BOTTOM ALIGNMENT: the bottom edges of the boxes, cards or table rows line up, with the last row or box ending on one horizontal line at the bottom margin, equal gaps between boxes, and spare height absorbed inside the boxes (vertical centring, padding), never as a ragged gap. Draw NO footer, account name, URL, hashtag, logo or call-to-action text.
+INSTAGRAM FEED FORMAT (critical - overrides every other statement about size or layout): the canvas is EXACTLY 1080x1350 pixels, portrait 4:5. Keep every element inside a margin of 54 px left/right and 72 px top/bottom, filled with the opaque background only. Text size for a phone: title 72 px or larger, subtitle 36 px or larger, headings and table text 34 px or larger, tags 32 px or larger; if text does not fit, shrink the illustrations, never the text. Draw NO footer, account name, URL, hashtag, logo or call-to-action text.
 
 --- HEADER ---
 Title (large, bold, up to 2 lines):
@@ -117,7 +117,7 @@ COLOR RULE (critical): affirmative (はい, あり, 満たす) = blue; negative
 BACKGROUND REQUIREMENT (critical): the entire canvas is fully opaque from
 edge to edge; no transparency, no checkerboard, no unpainted edge.
 
-INSTAGRAM FEED FORMAT (critical - overrides every other statement about size or layout): the canvas is EXACTLY 1080x1350 pixels, portrait 4:5. Keep every element inside a margin of 54 px left/right and 68 px top/bottom, filled with the opaque background only. Text size for a phone: title 72 px or larger, subtitle 36 px or larger, headings and table text 34 px or larger, tags 32 px or larger; if text does not fit, shrink the illustrations, never the text. BOTTOM ALIGNMENT: the bottom edges of the boxes, cards or table rows line up, with the last row or box ending on one horizontal line at the bottom margin, equal gaps between boxes, and spare height absorbed inside the boxes (vertical centring, padding), never as a ragged gap. Draw NO footer, account name, URL, hashtag, logo or call-to-action text.
+INSTAGRAM FEED FORMAT (critical - overrides every other statement about size or layout): the canvas is EXACTLY 1080x1350 pixels, portrait 4:5. Keep every element inside a margin of 54 px left/right and 72 px top/bottom, filled with the opaque background only. Text size for a phone: title 72 px or larger, subtitle 36 px or larger, headings and table text 34 px or larger, tags 32 px or larger; if text does not fit, shrink the illustrations, never the text. Draw NO footer, account name, URL, hashtag, logo or call-to-action text.
 
 --- HEADER ---
 Title (large, bold, 1 line):

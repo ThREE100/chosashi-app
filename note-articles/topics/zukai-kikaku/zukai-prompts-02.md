@@ -1,6 +1,6 @@
 # 似た用語の対比図鑑 図解画像のプロンプト（ChatGPT用・note用とInstagram用）
 
-作成 2026-11-05（`src/gen_prompts.py` で作る。手で直さない）。記事 `02-taihi-zukan.md` に差し込む図3枚について、**note用（縦長・図ごとのサイズ）とInstagram用（1080×1350・4:5）の2種類**を用意した。
+作成 2026-11-05（`src/gen_prompts.py` で作る。手で直さない）。記事 `02-taihi-zukan.md` に差し込む図3枚について、**note用（縦長・図ごとのサイズ）とInstagram用（1080×1440・3:4）の2種類**を用意した。
 
 ## 使い方
 
@@ -12,11 +12,11 @@
 
 ## 確かめること
 
-- 大きさが指定どおりか（note用は図ごとに違う、Instagram用は1080×1350）。
+- 大きさが指定どおりか（note用は図ごとに違う、Instagram用は1080×1440）。
 - 文字が、各プロンプトの「Words allowed」と**1字ずつ**一致しているか（簡体字・繁体字になっていないか、余計な文字・数字がないか）。
 - 条文番号・項番号が正しく出ているか。
 - 図番（図1など）が画像に入っていないか。
-- Instagram用は、文字と主要な絵が外側の余白（左右54px・上下68px）の内側にあるか。アカウント名・URLが入っていないか。
+- Instagram用は、文字と主要な絵が外側の余白（左右54px・上下72px）の内側にあるか。アカウント名・URLが入っていないか。
 - 背景が不透明か。
 
 文字が何度やっても崩れるときは、「Words allowed」の行を残したまま「No text」の版（文字なしの枠と絵だけ）を作らせて、文字はCanvaで入れる。
@@ -25,9 +25,9 @@
 
 | 管理番号 | 内容 | note用のサイズ | Instagram用のサイズ |
 |---|---|---|---|
-| zu01 | 分筆・合筆と分割・合併 | 1080x1700 | 1080x1350 |
-| zu02 | 区分と分割、合体と合併 | 1080x1700 | 1080x1350 |
-| zu03 | 変更と更正、表題登記と所有権の保存 | 1080x1700 | 1080x1350 |
+| zu01 | 分筆・合筆と分割・合併 | 1080x1700 | 1080x1440 |
+| zu02 | 区分と分割、合体と合併 | 1080x1700 | 1080x1440 |
+| zu03 | 変更と更正、表題登記と所有権の保存 | 1080x1700 | 1080x1440 |
 
 ## 図1：分筆・合筆と分割・合併（zu01）
 
@@ -65,10 +65,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「土地は
 Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 土、地、筆、建、物、個、数、分、合、割、併、一、二、以、上、第、条、附、属、別、他、登、記、録.
 ```
 
-### Instagram用（1080x1350・4:5）
+### Instagram用（1080x1440・3:4）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use the motif given at the end of this sentence: a pair of picture-book pages facing each other, drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -94,11 +94,11 @@ Title (large, bold): 「土地は筆、建物は個で数える」 / subtitle ba
 
 --- FOOTER --- conclusion band: 「土地は一筆、建物は一個で登記記録をつくる」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「土地は筆、建物は個で数える」 / 「分筆・合筆と分割・合併」 / 「土地」 / 「建物」 / 「分ける」 / 「分筆」 / 「一筆の土地を二筆以上に分ける」 / 「第39条」 / 「分割」 / 「附属建物を別の一個の建物にする」 / 「第54条」 / 「つなぐ」 / 「合筆」 / 「二筆以上の土地を一筆にする」 / 「第39条・第41条」 / 「合併」 / 「他の建物の附属建物にする、または一個にする」 / 「第54条・第56条」 / 「土地は一筆、建物は一個で登記記録をつくる」
 
-Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 土、地、筆、建、物、個、数、分、合、割、併、一、二、以、上、第、条、附、属、別、他、登、記、録.
+Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 土、地、筆、建、物、個、数、分、合、割、併、一、二、以、上、第、条、附、属、別、他、登、記、録.
 ```
 
 ## 図2：区分と分割、合体と合併（zu02）
@@ -138,10 +138,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「区分と
 Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 区、分、割、合、体、併、似、別、手、続、建、物、附、属、一、個、部、第、条、二、以、上、事、実、日、月、内、登、記、申、請、期、限、定.
 ```
 
-### Instagram用（1080x1350・4:5）
+### Instagram用（1080x1440・3:4）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use the motif given at the end of this sentence: a pair of picture-book pages facing each other, drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -168,11 +168,11 @@ Title (large, bold): 「区分と分割、合体と合併」 / subtitle band: �
 
 --- FOOTER --- conclusion band: 「合体は事実、合併は手続」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「区分と分割、合体と合併」 / 「似ているが別の手続」 / 「建物の分割」 / 「附属建物を、別の一個の建物にする」 / 「建物の区分」 / 「建物の部分を、区分建物にする」 / 「どちらも第54条」 / 「合体」 / 「二以上の建物が一個の建物になった事実」 / 「第49条　合体の日から一月以内」 / 「合併」 / 「登記の手続で、附属建物にする、または一個にする」 / 「第54条　申請の期限の定めなし」 / 「合体は事実、合併は手続」
 
-Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 区、分、割、合、体、併、似、別、手、続、建、物、附、属、一、個、部、第、条、二、以、上、事、実、日、月、内、登、記、申、請、期、限、定.
+Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 区、分、割、合、体、併、似、別、手、続、建、物、附、属、一、個、部、第、条、二、以、上、事、実、日、月、内、登、記、申、請、期、限、定.
 ```
 
 ## 図3：変更と更正、表題登記と所有権の保存（zu03）
@@ -211,10 +211,10 @@ Words allowed on this poster (exactly these strings, nothing else): 「変更と
 Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 変、更、正、表、題、保、存、誤、部、分、最、初、登、記、現、実、第、条、一、月、以、内、容、期、限、定、号、所、有、権、利、示.
 ```
 
-### Instagram用（1080x1350・4:5）
+### Instagram用（1080x1440・3:4）
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1350 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
 clean flat-design illustration style with soft pastel colors (blue, green, beige, gray, pale orange), rounded card sections, a friendly explainer-graphic feel. Use the motif given at the end of this sentence: a pair of picture-book pages facing each other, drawn simply.
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings (for example 第36条). No Latin letters anywhere.
@@ -240,13 +240,13 @@ Title (large, bold): 「変更と更正、表題と保存」 / subtitle band: �
 
 --- FOOTER --- conclusion band: 「表題部は表示、権利部は権利」
 
-INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1350 pixels (4:5). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1350px of height. BOTTOM ALIGNMENT (critical): the bottom edges of the cards or boxes must line up: the last card of every column (or the last row) ends on one and the same horizontal line at the bottom margin, cards in the same row have the same height, and the gaps between cards are equal; absorb any spare height inside the cards (larger illustration area, vertical centring, padding), never as a ragged gap under one column. Do not draw any account name, handle, URL or call-to-action text.
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
 
 Words allowed on this poster (exactly these strings, nothing else): 「変更と更正、表題と保存」 / 「いつの誤りか、どの部分の最初か」 / 「変更」 / 「登記したあとに、現実が変わった」 / 「第37条・第51条　一月以内」 / 「更正」 / 「登記したときから、内容が誤っていた」 / 「第38条・第53条　期限の定めなし」 / 「表題登記」 / 「表題部に最初にされる登記」 / 「第2条第20号」 / 「所有権の保存」 / 「権利部に最初にされる所有権の登記」 / 「第74条」 / 「表題部は表示、権利部は権利」
 
-Final check before rendering: confirm the canvas is exactly 1080x1350 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 変、更、正、表、題、保、存、誤、部、分、最、初、登、記、現、実、第、条、一、月、以、内、容、期、限、定、号、所、有、権、利、示.
+Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 変、更、正、表、題、保、存、誤、部、分、最、初、登、記、現、実、第、条、一、月、以、内、容、期、限、定、号、所、有、権、利、示.
 ```
 
 ## 見出し画像
 
-見出し画像（note用 1280x670・Instagram用 1080x1350）は `header-image-prompts.md`、キャプションは `instagram-captions.md`。
+見出し画像（note用 1280x670・Instagram用 1080x1440）は `header-image-prompts.md`、キャプションは `instagram-captions.md`。

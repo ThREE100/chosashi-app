@@ -127,4 +127,4 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 ## 見出し画像
 
-note用（1280×670）とInstagram用（1080×1350）のプロンプトは `header-image-prompts.md` のKZ_06にある（MC1人。トリ先生・藍子は入れない）。
+note用（1280×670）とInstagram用（1080×1440）のプロンプトは `header-image-prompts.md` のKZ_06にある（MC1人。トリ先生・藍子は入れない）。

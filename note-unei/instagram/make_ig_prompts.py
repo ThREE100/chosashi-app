@@ -1,5 +1,5 @@
 """各年度の記事の「インフォグラフィック プロンプト（問題全体）」から、
-Instagram用（4:5、1080×1350）のプロンプトとキャプション案を作る。
+Instagram用（3:4、1080×1440）のプロンプトとキャプション案を作る。
 
 使い方：
     python3 note-unei/instagram/make_ig_prompts.py
@@ -9,7 +9,7 @@ Instagram用（4:5、1080×1350）のプロンプトとキャプション案を�
     prompts/index.csv（年・問・タイトル・元のカード数・状態）
 
 記事は編集しない。記事の「問題全体」のプロンプトを読み取り、次の3つだけを変える：
-  1. 大きさの指定を 1080x1350（4:5）にする（Instagramの画像はすべて4:5に固定。2026-11-05）。
+  1. 大きさの指定を 1080x1440（3:4）にする。
   2. Instagram用の指示（INSTAGRAM FEED FORMAT）を、スタイルの段落の直後に差し込む。
   3. 最後の確認に、大きさ・余白・画像内に案内の文字を入れないことの確認を足す。
 カードの見出し・イラスト・許可する語・結論タグは、記事のまま変えない（結論は記事を正とする）。
@@ -29,44 +29,62 @@ OUTDIR = os.path.join(HERE, 'prompts')
 YEARS = [('R', n) for n in range(8, 0, -1)] + [('H', n) for n in range(30, 16, -1)]
 
 IG_HEAD = '''INSTAGRAM FEED FORMAT (critical — this overrides every other statement about size or layout in this prompt):
-the canvas is EXACTLY 1080x1350 pixels, portrait 4:5 (NOT 3:4, NOT 9:16). It is for an Instagram feed post and
-is cropped to a 3:4 thumbnail on the profile grid (the left and right edges are trimmed), so nothing important
-may touch the edges.
+the canvas is EXACTLY 1080x1440 pixels, portrait 3:4 (NOT 9:16). It is for an Instagram feed post and is
+shown as a 3:4 thumbnail on the profile grid, so nothing important may touch the edges.
 - Safe area: keep the title, subtitle, every card heading, every illustration and every conclusion tag inside
-  a margin of 54 px on the left and right and 68 px at the top and bottom. Fill the margin with the
+  a margin of 54 px on the left and right and 72 px at the top and bottom. Fill the margin with the
   opaque background only.
 '''
 
-LAYOUT_TWO = '''- Layout: a header band at the top (title and subtitle, about 16% of the height), then the cards.
+HEADER_LOCK = '''- HEADER LOCK (critical): the header (title + subtitle) is a fixed block at the top. The title is bold, EXACTLY
+  72 px tall (never larger), on ONE line if it fits within the safe width and otherwise on TWO lines of the same
+  size; the subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The whole header
+  block must not be taller than 16% of the canvas (about 230 px, starting at the top safe margin). There is NO
+  empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the
+  header and the first card or group header (the cards start at most 24 px below the subtitle). Do not
+  enlarge the title to fill space.
+'''
+
+BOTTOM_ALIGN = '''- BOTTOM ALIGNMENT (critical): the cards fill the whole area from the bottom of the header to the bottom margin
+  line (72 px above the canvas bottom). The last card of each column ends on exactly the same horizontal line
+  on that bottom margin line. Cards in the same row have the same height; if the two columns hold different
+  numbers of cards, make the cards of the shorter column taller so that both columns have the same total
+  height. Absorb spare height INSIDE the cards (larger illustration area, vertical centring, the card's own
+  padding), never as an empty strip or a ragged edge. Gaps between neighbouring cards are equal (about 24 px).
+'''
+
+FIVE_FULL = '''- FIVE-CARD LAYOUT (critical): there are exactly 5 cards, so do NOT leave an empty slot in the grid. Place cards
+  1 to 4 in a 2 x 2 grid (reading left column first) and place card 5 as ONE full-width card across both columns
+  at the bottom, with the illustration on the left (about 45% of the width) and the heading and the conclusion
+  tag on the right. All five cards keep their own heading, illustration and conclusion tag exactly as specified.
+'''
+
+FIVE_COLS = '''- FIVE-CARD LAYOUT (critical): there are exactly 5 cards in two column groups, so the columns hold unequal numbers
+  of cards. Keep every card under its own column header and do NOT leave an empty slot: the cards of the column
+  with fewer cards are taller (larger illustration area) so that both columns end on the same bottom line.
+'''
+
+LAYOUT_TWO = '''- Layout: a header band at the top (title and subtitle, see HEADER LOCK), then the cards.
   Arrange the cards in TWO columns, reading left column first, top to bottom, then the right column.
   If column or group headers are specified below, keep them as pill-shaped badges above their cards.
   If three groups are specified, place the first two groups side by side and the third group as a
   full-width row at the bottom. If only ONE group header is specified, make it a full-width pill-shaped
   badge above all the cards. The cards are compact: the illustration takes about 55% of the card
   height, the heading is ONE line and the conclusion tag is ONE line. The layout must not need more than
-  1350 px of height: shrink the illustrations, never the text.
-- BOTTOM ALIGNMENT (critical): the bottom edges of the cards must line up. The last card of the left column
-  and the last card of the right column end on exactly the same horizontal line, and that line sits at the
-  bottom margin (68 px above the canvas bottom). Cards in the same row have the same height. If the two
-  columns hold different numbers of cards, make the cards of the shorter column taller so that both columns
-  fill the same total height; never leave a ragged gap under one column or a different-looking bottom edge.
-  Absorb the spare height INSIDE the cards: give the illustration area more height, centre the illustration
-  and the text vertically, and use the card's own padding. Gaps between neighbouring cards stay equal
-  (about 24 px). The heading and the conclusion tag sit at the same relative positions in every card.
-'''
+  1440 px of height: shrink the illustrations, never the text.
+''' + HEADER_LOCK + BOTTOM_ALIGN + '''{FIVE}'''
 
-LAYOUT_ONE = '''- Layout: a header band at the top (title and subtitle, about 16% of the height), then the group header
+LAYOUT_ONE = '''- Layout: a header band at the top (title and subtitle, see HEADER LOCK), then the group header
   (a full-width pill-shaped badge) and the cards as ONE column of wide, stacked, full-width cards: in each
   card the illustration is on the left (about 45% of the card width) and the heading and the conclusion
   tag are on the right. Use the extra space to make the illustrations larger. The layout must not need
-  more than 1350 px of height.
-- BOTTOM ALIGNMENT (critical): the stacked cards have equal heights and equal gaps (about 24 px), and the
-  bottom edge of the last card sits exactly on the bottom margin line (68 px above the canvas bottom).
-  Absorb any spare height inside the cards (larger illustration area, vertical centring, card padding), not
-  as an empty strip under the last card.
+  more than 1440 px of height.
+''' + HEADER_LOCK + '''- BOTTOM ALIGNMENT (critical): the stacked cards have equal heights and equal gaps (about 24 px), and the bottom
+  edge of the last card sits exactly on the bottom margin line (72 px above the canvas bottom). Absorb spare height
+  inside the cards, not as an empty strip under the last card.
 '''
 
-IG_TAIL = '''- Text size for a phone screen (1080 px wide): title 72 px or larger, subtitle 36 px or larger, card
+IG_TAIL = '''- Text size for a phone screen (1080 px wide): title 72 px (see HEADER LOCK), subtitle 36 px or larger, card
   heading 36 px or larger, conclusion tag 32 px or larger, any word inside an illustration 32 px or
   larger. If the text does not fit, shorten nothing: make the illustrations smaller.
 - Do NOT draw any footer, account name, URL, hashtag, logo, watermark or call-to-action text anywhere in
@@ -82,9 +100,11 @@ SPLITS = {
     ('H18', 'Q07'): {'parts': [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]], 'why': '「宅地になる」（5）と「宅地・雑種地以外／雑種地」（5）に、種類で分ける'},
 }
 
-FINAL_ADD = ('Confirm the canvas is exactly 1080x1350 pixels (4:5), that all essential elements are inside the '
-             '54 px / 68 px safe margins, that the cards are in two columns as described, that the bottom edges of '
-             'the cards line up on one horizontal line at the bottom margin with the spare space absorbed inside the cards, and that there is no '
+FINAL_ADD = ('Confirm the canvas is exactly 1080x1440 pixels (3:4), that all essential elements are inside the '
+             '54 px / 72 px safe margins, that the cards are in two columns as described, that the header is the fixed '
+             'block described (72 px title, 36 px subtitle directly under it, no empty gap or band), that the bottom edges '
+             'of the cards line up on one horizontal line at the bottom margin, that no grid slot is left empty (with five '
+             'cards, follow the FIVE-CARD LAYOUT), and that there is no '
              'footer, account name, URL, hashtag or call-to-action text anywhere in the image.\n')
 
 
@@ -150,15 +170,25 @@ def parse(p):
     return p[:h], p[h:first], items, p[f:]
 
 
-def ig_block(layout, badge_ignore):
-    return (IG_HEAD + (LAYOUT_ONE if layout == 'one' else LAYOUT_TWO) + IG_TAIL
+def five_rule(items):
+    """カードがちょうど5枚のときの配置の指示を返す（それ以外は空）。"""
+    cards = [it for it in items if it['kind'] == 'card']
+    if len(cards) != 5:
+        return ''
+    groups = sum(1 for it in items if it['kind'] == 'group')
+    return FIVE_COLS if groups == 2 else FIVE_FULL
+
+
+def ig_block(layout, badge_ignore, five=''):
+    lay = LAYOUT_ONE if layout == 'one' else LAYOUT_TWO.replace('{FIVE}', five)
+    return (IG_HEAD + lay + IG_TAIL
             + (BADGE_ADD if badge_ignore else '') + '\n')
 
 
-def finish(pre, head, body, foot, layout, badge_ignore, suffix=None, cards=None, badge_range=None):
+def finish(pre, head, body, foot, layout, badge_ignore, suffix=None, cards=None, badge_range=None, five=''):
     """前置きにInstagram用の指示を入れ、大きさと最後の確認を直して、1つのプロンプトにする。"""
     notes = []
-    pre, k = re.subn(r'portrait layout, \d+[x×]\d+ pixels', 'portrait layout, 4:5 aspect ratio, 1080x1350 pixels', pre, count=1)
+    pre, k = re.subn(r'portrait layout, \d+[x×]\d+ pixels', 'portrait layout, 3:4 aspect ratio, 1080x1440 pixels', pre, count=1)
     if k != 1:
         notes.append('大きさの指定を読み取れない')
     anchor = next((a for a in ('GLANCEABLE-POSTER REQUIREMENT', 'CRITICAL TEXT REQUIREMENT') if a in pre), None)
@@ -166,7 +196,7 @@ def finish(pre, head, body, foot, layout, badge_ignore, suffix=None, cards=None,
         notes.append('差し込む位置を読み取れない')
     else:
         x = pre.index(anchor)
-        pre = pre[:x] + ig_block(layout, badge_ignore) + pre[x:]
+        pre = pre[:x] + ig_block(layout, badge_ignore, five) + pre[x:]
     if suffix:
         head, k = re.subn(r'(Subtitle[^\n]*:\n)(.+)', lambda m: m.group(1) + m.group(2).rstrip() + suffix, head, count=1)
         if k != 1:
@@ -221,10 +251,10 @@ def convert(p, code=None, item=None):
             notes += nt
             prompts.append(text)
         return prompts, n_cards, notes, split['why']
-    text, nt = finish(pre, head, ''.join(it['text'] for it in items), foot, 'two', has_badge)
+    text, nt = finish(pre, head, ''.join(it['text'] for it in items), foot, 'two', has_badge, five=five_rule(items))
     notes += nt
     if n_cards < 4 or n_cards > 6:
-        notes.append(f'カードが{n_cards}枚：4:5では4〜6枚に絞る必要がある（絞り方を決めてから使う）')
+        notes.append(f'カードが{n_cards}枚：3:4では4〜6枚に絞る必要がある（絞り方を決めてから使う）')
     if n_groups >= 3:
         notes.append('グループが3つ：配置を確かめる')
     return [text], n_cards, notes, ''
@@ -252,9 +282,9 @@ def main():
         short = short_code(k, n)
         label = year_label(k, n)
         folder = os.path.join(ROOT, 'note-articles', f'{k.lower()}{n}-mondai')
-        out = [f'# {label}　Instagram用（4:5・1080×1350）のインフォグラフィック プロンプト', '',
+        out = [f'# {label}　Instagram用（3:4・1080×1440）のインフォグラフィック プロンプト', '',
                '記事の「インフォグラフィック プロンプト（問題全体）」を元に、`make_ig_prompts.py` で作る（手で直さない。直すときは記事か`make_ig_prompts.py`を直して作り直す）。',
-               '使い方：ChatGPTなどに、下の「4:5画像プロンプト」のコードブロックをそのまま貼る。仕上がりは、文字を1字ずつ確かめ、記事の結論と食い違わないか確かめる。', '',
+               '使い方：ChatGPTなどに、下の「3:4画像プロンプト」のコードブロックをそのまま貼る。仕上がりは、文字を1字ずつ確かめ、記事の結論と食い違わないか確かめる。', '',
                '画像の保存名は `schedule.csv` の `feed_image`。本文は「キャプション案」を下書きにする（`caption-template.md`）。', '']
         for q in range(1, 21):
             hits = sorted(glob.glob(os.path.join(folder, f'q{q:02d}-*.md')))
@@ -280,7 +310,7 @@ def main():
             for x in notes:
                 out.append(f'- ⚠ {x}')
             for si, x in enumerate(prompts, start=1):
-                ttl = '4:5画像プロンプト（ChatGPTに貼る）' if slides == 1 else f'4:5画像プロンプト　{si}枚目／{slides}枚（ChatGPTに貼る）'
+                ttl = '3:4画像プロンプト（ChatGPTに貼る）' if slides == 1 else f'3:4画像プロンプト　{si}枚目／{slides}枚（ChatGPTに貼る）'
                 out += ['', f'### {ttl}', '', '```', x.rstrip('\n'), '```']
             out += ['', '### キャプション案', '', '```', captions(label, q, title, p, slides), '```', '', '---', '']
             index.append([code, item, title, nc, slides, status, '；'.join(notes), src])

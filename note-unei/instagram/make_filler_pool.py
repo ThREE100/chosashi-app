@@ -35,7 +35,7 @@ def main():
     for p in sorted(glob.glob(os.path.join(ROOT, 'note-articles', 'topics', '*.md'))):
         if os.path.basename(p) == 'README.md':
             continue
-        rows.append(('F2 個別テーマ解説', rel(p), first_title(p), '1080×1350（4:5）で図解を作り直す'))
+        rows.append(('F2 個別テーマ解説', rel(p), first_title(p), '1080×1440で図解を作り直す'))
     for p in sorted(glob.glob(os.path.join(ROOT, 'note-articles', 'column', 'nigate-*.md'))):
         rows.append(('F2 個別テーマ解説（苦手分析）', rel(p), first_title(p), '判定の流れ図を1枚にまとめる'))
     for p in sorted(glob.glob(os.path.join(ROOT, 'note-articles', 'fukushu-ronten-zukai', 'T*'))):
@@ -48,7 +48,7 @@ def main():
             if m:
                 t = f'{m.group(1)} {m.group(2)}'
                 break
-        rows.append(('F3 4コマ解説', rel(p), t, '縦1080×1920を4:5（1080×1350）に作り直すか、中央を切り出す'))
+        rows.append(('F3 4コマ解説', rel(p), t, '縦1080×1920を3:4（1080×1440）に作り直すか、中央を切り出す'))
     out = os.path.join(HERE, 'filler-pool.csv')
     with open(out, 'w', encoding='utf-8-sig', newline='') as fh:
         w = csv.writer(fh)

@@ -109,7 +109,7 @@ heads = re.findall(r'^## 図(\d)：', prompts, flags=re.M)
 check(heads == [str(i) for i in range(1, 8)], f'プロンプトの図が図1〜図7の順でない: {heads}')
 check(prompts.count('### note用') == 7 and prompts.count('### Instagram用') == 7, 'note用・Instagram用が各7本でない')
 check(prompts.count('INSTAGRAM FEED FORMAT') == 7, 'Instagram用の安全余白の指示が7本でない')
-check(prompts.count('1080x1350') >= 14, 'Instagram用のサイズ指定が足りない')
+check(prompts.count('1080x1440') >= 14, 'Instagram用のサイズ指定が足りない')
 check(prompts.count('NO NUMBERING') == 14 and prompts.count('ILLUSTRATION TEXT RULE') == 14, 'NO NUMBERING / ILLUSTRATION TEXT RULE が14本でない')
 words_lines = re.findall(r'Words allowed on this poster[^\n]*', prompts)
 check(len(words_lines) == 14, f'Words allowedの行が14本でない: {len(words_lines)}')
@@ -121,7 +121,7 @@ for w in words_lines:
 
 # 4. 見出し画像
 check(header.count('```') == 4, '見出し画像: コードブロックが2つでない')
-check('1280x670' in header and '1080x1350' in header, '見出し画像: 2つのサイズがない')
+check('1280x670' in header and '1080x1440' in header, '見出し画像: 2つのサイズがない')
 for s in ('不動産登記法の', '数字の図鑑', '何の登記か　いつから数えるか', '期限と数字を整理する'):
     check(s in header, f'見出し画像: 「{s}」がない')
 check(header.count('Do NOT draw トリ先生') == 2, '見出し画像: MC1人の指示が2本でない')

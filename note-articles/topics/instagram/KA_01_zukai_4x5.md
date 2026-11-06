@@ -5,7 +5,7 @@
 - note用は記事末尾の「インフォグラフィック プロンプト」の画像1。このファイルはInstagram用（1080×1350・縦4:5）。
 - 記事の画像2（令和6年度の場面のフローチャート）は、問題番号を画像に入れない決まりと、1枚で読める量に収める都合で、この4:5の総論には含めていない。
 - 画像の生成と目視確認はChatGPTで行う（未実施）。キャラクターは描かない（図解は人型アイコンのみ）。
-- 4:5はプロフィールのグリッド（3:4）では左右がわずかに切れる（`note-unei/instagram/image-spec.md`）。大事な要素は余白（左右54px・上下68px）の内側に置く。
+- 4:5はプロフィールのグリッドでは上下がわずかに切れる（`note-unei/instagram/image-spec.md`）。大事な要素は余白（左右54px・上下72px）の内側に置く。
 
 ## 画像の文字（1字ずつ確かめる）
 
@@ -34,20 +34,15 @@ tiles, a shield icon, check marks - adapt icon set to the topic).
 
 INSTAGRAM FEED FORMAT (critical - this overrides every other statement about size or layout in this prompt):
 the canvas is EXACTLY 1080x1350 pixels, portrait 4:5 (NOT 9:16, NOT 3:4). It is for an Instagram feed post, so
-nothing important may touch the edges, and the left and right edges may be slightly cropped in the profile grid.
+nothing important may touch the edges, and the top and bottom may be slightly cropped in the profile grid.
 - Safe area: keep the title, subtitle, every column header, every card heading, every illustration and every
-  conclusion tag inside a margin of 54 px on the left and right and 68 px at the top and bottom. Fill the
+  conclusion tag inside a margin of 54 px on the left and right and 72 px at the top and bottom. Fill the
   margin with the opaque background only.
 - Layout: a header band at the top (title in up to two lines, then the subtitle; about 22% of the height),
   then the cards. Arrange the cards in TWO columns, reading the left column first (top to bottom), then the
   right column. Each column has one pill-shaped header badge above its two cards. The cards are compact:
   the illustration takes about 55% of the card height, the heading is ONE line and the conclusion tag is
   ONE line. The layout must not need more than 1350 px of height: shrink the illustrations, never the text.
-- BOTTOM ALIGNMENT (critical): the bottom edges of the cards line up. The last card of the left column and
-  the last card of the right column end on exactly the same horizontal line at the bottom margin (68 px above
-  the canvas bottom), cards in the same row have the same height, and the gaps between cards are equal
-  (about 24 px). Absorb any spare height INSIDE the cards (larger illustration area, vertical centring, card
-  padding), never as a ragged gap under one column.
 - Text size for a phone screen (1080 px wide): title 72 px or larger, subtitle 36 px or larger, column
   header 36 px or larger, card heading 36 px or larger, conclusion tag 32 px or larger, any word inside an
   illustration 32 px or larger. If the text does not fit, shorten nothing: make the illustrations smaller.

@@ -1,13 +1,13 @@
-# 令和3年度 択一式の図解 表紙（Instagram・4:5）
+# 令和3年度 択一式の図解 表紙（Instagram・3:4）
 
 画像のファイル名：**Instagram_R3_00**（.png／.webp など。`schedule.csv` に載せるときはこの名前）。
-大きさは4:5（1080×1350px）。令和8年度の見本（上にタイトル、下中央にMC1人、左右に薄い話題の絵）の構成を踏襲している。
+大きさは3:4（1080×1440px）。令和8年度の見本（上にタイトル、下中央にMC1人、左右に薄い話題の絵）の構成を踏襲している。
 ChatGPTに `MK-01・MK-02・MK-03・MK-04・MK-05・MK-06` のキャラクターシートを添付してから、下のコードブロックを貼る。ポーズと表情はシートをベースに、年度ごとに変えてある。
 画像の中の数字は、タイトルの年度の数字だけ。アカウント名・URL・ハッシュタグ・「noteへ」などの案内は入れない。
 画像の生成と目視確認は未実施。
 
 ```
-Create an Instagram feed cover image, 4:5 portrait aspect ratio, 1080x1350 pixels.
+Create an Instagram feed cover image, 3:4 portrait aspect ratio, 1080x1440 pixels.
 
 STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Fill the whole canvas with the pastel sky and soft clouds. Layout from top to bottom: the title block in the upper part, the single character in the lower center, and soft, slightly faded topic scenes along the left and right edges.
 
@@ -30,7 +30,7 @@ TOPIC SCENES (illustration only, no text on any object; keep them soft and sligh
 Left side: a small stack of land registration documents, a rolled map, and a surveying tripod standing on a patch of green land with a boundary marker stone.
 Right side: a small apartment-building model and a house model, a magnifying glass, and a sheet of paper with simple line drawings (shapes only, no letters).
 
-LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep ALL text and the character inside a safe area: at least 54px from the left and right edges and at least 68px from the top and bottom edges, so the image survives the center cropping that Instagram applies on the profile grid. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep ALL text and the character inside a safe area: at least 54px from the left and right edges and at least 72px from the top and bottom edges, so the image survives the center cropping that Instagram applies on the profile grid. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1080x1350 (4:5 portrait); confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written, with the year written exactly as 令和3年度; scan every kanji glyph (令和年度択一式図解第問) and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached character sheets in face, hairstyle, and outfit, and that her pose and expression follow the POSE AND EXPRESSION line; confirm nothing important is within 54px of the left or right edge or within 68px of the top or bottom edge; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
+Final check before rendering: confirm the image is exactly 1080x1440 (3:4 portrait); confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written, with the year written exactly as 令和3年度; scan every kanji glyph (令和年度択一式図解第問) and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached character sheets in face, hairstyle, and outfit, and that her pose and expression follow the POSE AND EXPRESSION line; confirm nothing important is within 54px of the left or right edge or within 72px of the top or bottom edge; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere.
 ```

@@ -6,8 +6,8 @@
 |---|---|
 | `00-kousei.md` | 構成案（8つの棚、記事の構成、図の一覧） |
 | `01-fudousan-touki-hou-tatekata-map.md` | note記事の本文（画像挿入マーカー7か所） |
-| `01-zukai-prompts.md` | 図解7枚・Instagram用（図1の4:5版）のChatGPT用プロンプト |
-| `02-header-image-prompts.md` | note用（1280×670）とInstagram用（1080×1350）の見出し画像プロンプト（MC1人） |
+| `01-zukai-prompts.md` | 図解7枚・Instagram用（図1の3:4版・4:5版）のChatGPT用プロンプト |
+| `02-header-image-prompts.md` | note用（1280×670）とInstagram用（1080×1440）の見出し画像プロンプト（MC1人） |
 | `03-instagram-captions.md` | Instagramのキャプション案（カルーセル1投稿用A＋単独投稿用B-0〜B-7の9本） |
 | `check_article.py` | 原文（`../laws/fudousan-touki-hou.md`）との機械チェック。`python3 note-articles/tatekata-map/check_article.py` で NG 0件にする |
 

@@ -1,7 +1,7 @@
 # 「建て付け」マップ Instagramのキャプション案
 
 2026-11-04 作成。投稿に添える本文（キャプション）の案。Instagramは本文中のリンクを押せないので、noteへは**プロフィールのリンク**に誘導する（`note-unei/instagram/caption-template.md`）。
-画像（表紙・図1〜図7）は `01-zukai-prompts.md`・`02-header-image-prompts.md` のプロンプトでChatGPTで作る。**Instagram用の4:5版（1080×1350）があるのは、見出し画像（表紙）と図1だけ**。図2〜図7を投稿するときは、先に4:5版を作る（`01-zukai-prompts.md` の図1と同じ要領で、大きさと余白を変える）。
+画像（表紙・図1〜図7）は `01-zukai-prompts.md`・`02-header-image-prompts.md` のプロンプトでChatGPTで作る。**Instagram用の3:4版（1080×1440）があるのは、見出し画像（表紙）と図1だけ**。図2〜図7を投稿するときは、先に3:4版を作る（`01-zukai-prompts.md` の図1と同じ要領で、大きさと余白を変える）。
 
 ## 書き方の決まり（確認済み）
 

@@ -266,16 +266,16 @@ Final check before rendering: confirm the image is exactly 1280x670 landscape; c
 
 
 def header_prompt_ig(n, d):
-    """Instagram用の見出し画像（4:5・1080x1350）。note用と同じ文字・同じ構成で、余白とレイアウトだけ変える。"""
+    """Instagram用の見出し画像（3:4・1080x1440）。note用と同じ文字・同じ構成で、余白とレイアウトだけ変える。"""
     p = header_prompt(n, d)
     p = p.replace("Create a note.com article header image (eyecatch thumbnail), 1280x670px\n(1.91:1 landscape aspect ratio).",
-                  "Create an Instagram feed image, portrait layout, EXACTLY 1080x1350 pixels (4:5).")
+                  "Create an Instagram feed image, portrait layout, EXACTLY 1080x1440 pixels (3:4).")
     p = p.replace("Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.",
-                  "Layout: the title block in the upper part (between y=100px and y=560px), the single character at the bottom center (about y=700px to y=1280px), and the topic scenes fading softly into the left and right edges.")
+                  "Layout: the title block in the upper part (between y=120px and y=620px), the single character at the bottom center (about y=760px to y=1360px), and the topic scenes fading softly into the left and right edges.")
     p = p.replace("LAYOUT: keep a clear, uncluttered zone behind the title and subtitle.",
-                  "INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text. Make the title letters slightly larger than in the note version.\n\nLAYOUT: keep a clear, uncluttered zone behind the title and subtitle.")
-    p = p.replace("confirm the image is exactly 1280x670 landscape", "confirm the image is exactly 1080x1350 portrait (4:5)")
-    assert "1280x670" not in p and "1080x1350" in p, n
+                  "INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text. Make the title letters slightly larger than in the note version.\n\nLAYOUT: keep a clear, uncluttered zone behind the title and subtitle.")
+    p = p.replace("confirm the image is exactly 1280x670 landscape", "confirm the image is exactly 1080x1440 portrait (3:4)")
+    assert "1280x670" not in p and "1080x1440" in p, n
     return p
 
 

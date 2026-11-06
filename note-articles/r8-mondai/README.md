@@ -70,4 +70,4 @@
 ## 見出し画像の副題と、Instagram用（2026-11-05）
 
 - 副題の年度と問は**算用数字**（「令和8年度　午後の部　第3問　○○」）。漢数字にしない（共通ルール。`CLAUDE.md`）。`src/lib.py` の `header_prompt()` と `src/check_articles.py` が確かめる。
-- 見出し画像のInstagram用（4:5・1080×1350）は `note-unei/instagram/prompts/header-R08.md`（`src/make_ig_header.py` で作る）。note用は各記事の「見出し画像プロンプト」。
+- 見出し画像のInstagram用（3:4・1080×1440）は `note-unei/instagram/prompts/header-R08.md`（`src/make_ig_header.py` で作る）。note用は各記事の「見出し画像プロンプト」。
