@@ -159,7 +159,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-筆界特定は「所有権の境界」を決めるものじゃないんです
+筆界特定は「所有権の境界」を決めない
 筆界特定の調査ルールと関係人の権利
 
 Subtitle (smaller, centered, 1行):
