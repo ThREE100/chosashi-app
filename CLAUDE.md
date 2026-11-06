@@ -628,3 +628,5 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 個別テーマ記事ごとのInstagram用の見出し画像プロンプト（3:4の1080×1440と4:5の1080×1350、MC1人）とキャプション案は`note-articles/topics/instagram/`にある（`K??_NN.md`が記事と同じ番号、入口は`README.md`）。原稿データ`data.json`を直して`gen_instagram.py`で作り直し、`check.py`でNG 0件にする（生成物は手で直さない）。画像の生成・目視確認は未実施。
 
 **Instagramの図解・見出し画像は3:4（1080×1440）で作る**（2026-11-06。4:5固定は令和3年度で見切れが出たため戻した）。図解のプロンプト（`note-unei/instagram/make_ig_prompts.py`）には、ヘッダーの高さの固定（HEADER LOCK：タイトル72px・副題はすぐ下・余白を作らない）、カードの下端をそろえる指示、5カードのときの配置（FIVE-CARD LAYOUT：2×2＋最後の1枚を全幅／2列グループでは少ない列のカードを高くする）を入れてある。全年度（令和8年度〜平成17年度、`prompts/*.md`）に反映済み（2026-11-06）。画像の見切れ・空きの結果を見て、直すときは `make_ig_prompts.py` を直して作り直す。
+
+**カードを並べる図解の作成指示書にも、LAYOUT LOCK（ヘッダー固定・下端そろえ・5カード）を入れた**（2026-11-06）。`note-articles/infographic-prompt-template.md`（②・③の雛形と「レイアウトの固定ルール」の章）、`daily-drill/kaisetsu/PROMPT_解説記事の作成.md`と`src/tpl.py`（毎日ドリルの②）、個別テーマのInstagram用図解（`note-articles/topics/instagram/KA_01_zukai_4x5*.md`）。見出し画像・表紙のプロンプトは個別のまま変えない。毎日ドリルの解説記事120本は、`build_kaisetsu.py`で作り直すと反映される（未実施）。

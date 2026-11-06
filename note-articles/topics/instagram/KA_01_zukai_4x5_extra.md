@@ -19,6 +19,11 @@ text-heavy document. NO intro illustration and NO paragraph of prose. Every
 element is a short label (a few words) plus an icon. Do NOT render any
 full-sentence explanation or legal citation inside the picture area.
 
+LAYOUT LOCK (critical): the header, the bottom edge and a five-card set are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group header (the cards start at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the cards fill the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line on that bottom margin line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, the card's own padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if there are exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and conclusion tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 CRITICAL TEXT REQUIREMENT: All text must be standard Japanese only -
 hiragana, katakana and Jōyō kanji. Do NOT use Simplified or Traditional
 Chinese characters, Korean Hangul, Latin letters, digits or stray decorative
@@ -95,6 +100,11 @@ GLANCEABLE-POSTER REQUIREMENT (critical): quick-reference poster, NOT a
 text-heavy document. NO intro illustration and NO paragraph of prose. Every
 element is a short label (a few words) plus an icon. Do NOT render any
 full-sentence explanation or legal citation inside the picture area.
+
+LAYOUT LOCK (critical): the header, the bottom edge and a five-card set are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group header (the cards start at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the cards fill the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line on that bottom margin line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, the card's own padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if there are exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and conclusion tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
 
 CRITICAL TEXT REQUIREMENT: All text must be standard Japanese only -
 hiragana, katakana and Jōyō kanji. Do NOT use Simplified or Traditional

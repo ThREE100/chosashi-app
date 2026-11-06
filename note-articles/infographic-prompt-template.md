@@ -73,6 +73,11 @@ anywhere on the poster. If a piece of information cannot be expressed as a
 short label (a few words) or drawn as an icon, leave it out rather than
 writing it as prose.
 
+LAYOUT LOCK (critical): the header, the bottom edge and a five-card set are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group header (the cards start at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the cards fill the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line on that bottom margin line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, the card's own padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if there are exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and conclusion tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -255,6 +260,16 @@ H24問5・問8・問9で、実際に生成した画像を確認したところ�
 3. 上記は○×マーク・はい/いいえの分岐矢印・それに伴う結論ノードやタグの配色についてのルールであり、列・カテゴリを区別するための badge・見出しバッジの配色（例：列A＝緑、列B＝青のように対等な2グループを色分けする場合）とは別の話である。両方のルールが同じプロンプト内に登場する場合（例：列ごとに色分けしたカードの中に、さらに○×の分岐がある）は、○×・はい/いいえの配色（本ルール）を優先し、列の色分けと衝突する場合は○×側の配色をそのまま使ってよい（例：青列のカードの中の✕マークは、列の色にかかわらず赤で描く）。
 4. 新規にプロンプトを作成する際、または既存のプロンプトを編集する際は、ここを必ず確認し、肯定要素の色（青または緑のどちらかに統一）と否定要素の色（赤）が守られているかをチェックする。
 
+## レイアウトの固定ルール（LAYOUT LOCK：ヘッダー固定・下端そろえ・5カード。2026-11-06 ユーザー指示）
+
+令和3年度のInstagram用図解で、タイトルが大きすぎて上下が切れる・タイトルと副題の間が空く・カード5枚の2列で空きマスができる、という不具合が出た（画像生成AIは入りきらないと縮めずにはみ出す）。カードを並べる図解（②の俯瞰カードポスター型、③の俯瞰カードポスター型、毎日ドリルの②。サイズはnote用の縦長でもInstagram用の3:4でも同じ）には、プロンプト雛形の `GLANCEABLE-POSTER REQUIREMENT` の直後に、次の `LAYOUT LOCK` の段落を必ず入れる（雛形に入れてある。③で雛形を流用するときも消さない）。
+
+- **ヘッダー固定**：タイトル72px固定（1行、入らなければ同じ大きさで2行）、副題36pxをすぐ下に置き、ヘッダー全体を高さの約16%以内にする。上・タイトルと副題の間・カードとの間に空きを作らせない。タイトルを大きくして余白を埋めさせない。
+- **下端そろえ**：2列のカードの下端を、下の余白の線の同じ高さにそろえる。余った高さはカードの中（イラスト領域・余白）で吸収する。
+- **5カード**：列見出しがなければ、カード1〜4を2×2に並べ、5枚目を全幅の1枚にする（イラストが左45%、見出しと結論タグが右）。列見出しが2つのときは、少ない列のカードを高くして下端をそろえる。空きマスを作らせない。
+- 最後の確認（Final check）にも、ヘッダーが固定どおりか・下端がそろっているか・空きマスがないかの確認を入れる。
+- Instagram用（1080×1440・3:4）の図解は、`note-unei/instagram/make_ig_prompts.py` がこの指示を自動で入れる。note用の見出し画像・Instagramの表紙は別のプロンプトで、このルールの対象外。
+
 ## サイズ・アスペクト比
 
 - 問題全体のインフォグラフィック（このドキュメントの対象）は、カード数が多く情報量が多いため**縦長ポートレート**を基本とする。目安は `1080×1920px`（9:16）だが、カード数が多い／少ないなど内容量に応じて `{SIZE_PX}` は調整してよい。ユーザーから明示的な指定があればそれを優先する。この画像はnoteの「見出し画像」枠には設定せず、記事本文中に挿入する図解として使う（下記の理由により、見出し画像の推奨比率とは大きく異なるため）。
@@ -327,7 +342,7 @@ H23午後の第1問〜第3問の⑤作図ガイドを実際に画像化したと
 
 ### 画像の「型」（4種類。記事の内容に応じて使い分ける）
 
-1. **俯瞰カードポスター型**（②のスタイルをそのまま流用）：原則・ルールを4〜6枚のカードで並べる。②の「プロンプト雛形」をそのまま使う。テーマ全体の総論・まとめに向く。
+1. **俯瞰カードポスター型**（②のスタイルをそのまま流用）：原則・ルールを4〜6枚のカードで並べる。②の「プロンプト雛形」をそのまま使う（`LAYOUT LOCK`〔ヘッダー固定・下端そろえ・5カード〕もそのまま入れる。「レイアウトの固定ルール」の章）。テーマ全体の総論・まとめに向く。
 2. **対比表型**：2つの制度・概念を左右（または上下）に並べて違いを視覚化する（例：土地の合筆の制限 vs 建物の合併の制限）。
 3. **早見表型**：記事中のmarkdown表をそのまま画像化する（例：床面積の算入・不算入一覧、添付情報の要否一覧、届出先マトリクス）。行数が多い表は複数枚に分割してよい。
 4. **フローチャート／判定フロー型**：「できる／できない」「課税／非課税」等を分岐させる判断樹形図（例：代位申請の可否、登録免許税の課税範囲の判定、筆界特定の却下事由）。
