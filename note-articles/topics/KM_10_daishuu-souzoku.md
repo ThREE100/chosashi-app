@@ -218,6 +218,11 @@ generation apart, vertical), and Ｂ and Ｃ are also parent and child (one
 generation apart, vertical) — no same-generation pairs appear in this
 image.
 
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 --- HEADER ---
 Title (large, bold, 1行):
 代襲相続の基本形
@@ -316,6 +321,11 @@ generations (grandparent–parent–child direction, Ａ at top), so they are
 correctly stacked vertically. No same-generation pairs (spouses,
 siblings) appear in this image, so no horizontal side-by-side placement
 is needed here.
+
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -439,6 +449,11 @@ height, side by side, never stacked. Most cards in this image are pure
 parent-to-child vertical chains, but Card 3 contains a married couple
 (same generation) that must be drawn side by side, not stacked — see
 Card 3's own instructions below for the exact layout.
+
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
 
 --- HEADER ---
 Title (large, bold, 1行):
@@ -581,6 +596,11 @@ sibling pair (Ａ and Ｂ) that MUST be drawn side by side at the same
 height — see the RIGHT column's own instructions below for the exact
 layout; do not default to stacking Ｂ underneath Ａ.
 
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 --- HEADER ---
 Title (large, bold, 2行):
 代襲が続く範囲は
@@ -685,6 +705,11 @@ background (the pale beige/gray tone used elsewhere in this style is a
 good default). There must be no checkerboard pattern, no partially
 transparent area, and no unpainted canvas edge anywhere in the final
 image.
+
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
 
 --- HEADER ---
 Title (large, bold, 1行):

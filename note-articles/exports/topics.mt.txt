@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【KA_01】【土地家屋調査士受験生向け】「表題部所有者」と「所有権の登記名義人」、何がどう違う？〜登記簿の成り立ちから整理する〜
+TITLE: 【土地家屋調査士】KA_01_「表題部所有者」と「所有権の登記名義人」、何がどう違う？〜登記簿の成り立ちから整理する〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -14,37 +14,79 @@ BODY:
 <li><strong>表題部</strong>：土地・建物の物理的な現況（所在、地積、地目、構造、床面積など）を記録する部分</li>
 <li><strong>権利部</strong>：その不動産に対する権利関係（所有権・抵当権など）を記録する部分。さらに所有権を記録する「甲区」と、それ以外の権利を記録する「乙区」に分かれる</li>
 </ul>
-<p>新しく土地ができた、新しく建物を建てた、というときに最初に行う登記が「表題登記」です。この時点ではまだ権利部そのものが存在せず、表題部にだけ「所有者はこの人らしい」という情報が記録されます。この人を<strong>表題部所有者</strong>といいます（不動産登記法2条10号）。</p>
+<p>新しく土地ができた、新しく建物を建てた、というときに最初に行う登記が「表題登記」です。この時点ではまだ権利部そのものが存在せず、表題部にだけ「所有者はこの人らしい」という情報が記録されます。この人を<strong>表題部所有者</strong>といいます（不動産登記法2条10号：所有権の登記がない不動産の登記記録の表題部に、所有者として記録されている者）。</p>
 <p><strong>たとえば</strong>、Ａさんが自宅を新築した直後、土地家屋調査士に依頼して表題登記だけを済ませたとします。この時点でＡさんは、登記簿の表題部に「表題部所有者」として記載されますが、権利部（甲区・乙区）はまだ存在しません。</p>
 <h3>所有権の登記名義人になるには、もう一段階の手続きが必要</h3>
 <p>表題部所有者としての記載は、あくまで「表題登記を申請した人が、自分が所有者だと申告した」という事実上の記録にすぎません。表示に関する登記（表題部の登記）は不動産の物理的な現況を公示することが目的であり、権利を保護するための対抗力を持たないためです。</p>
-<p>権利を法的に第三者へ主張できる効力（対抗力）を得るには、あらためて<strong>所有権保存登記</strong>を申請する必要があります（不動産登記法74条1項）。この登記が完了すると、権利部甲区に「<strong>所有権の登記名義人</strong>」として記載されます。</p>
+<p>権利を法的に第三者へ主張できる効力（対抗力）を得るには、あらためて<strong>所有権保存登記</strong>を申請する必要があります（不動産登記法74条1項）。この登記が完了すると、権利部甲区に「<strong>所有権の登記名義人</strong>」として記載されます（登記名義人とは、権利部に権利者として記録されている者をいいます。不動産登記法2条11号）。</p>
+<p>所有権保存登記を申請できるのは、次の人に限られます（不動産登記法74条1項）。</p>
+<ul>
+<li>1号：表題部所有者、またはその相続人その他の一般承継人</li>
+<li>2号：所有権を有することが確定判決によって確認された者</li>
+<li>3号：収用によって所有権を取得した者</li>
+</ul>
+<p>また、保存登記がされると、表題部の「表題部所有者」の記録は抹消されます（不動産登記規則158条）。つまり、<strong>1つの不動産について、表題部所有者と所有権の登記名義人の両方に同時になることはありません</strong>。次の節の「両方の立場」とは、土地（建物）ごとに立場が分かれているという意味です。</p>
+<p>さらに、表題部所有者が変わる場合（売買など）に、表題部の所有者欄を直接書き換えることはできません。先に所有権保存登記をして、そのあとで所有権の移転の登記をする順序になります（不動産登記法32条）。</p>
 <p><strong>たとえば</strong>、先ほどのＡさんが、住宅ローンを組むために金融機関から「正式な所有権登記をしてください」と求められ、司法書士に依頼して所有権保存登記をしたとします。この登記が完了すると、Ａさんは権利部甲区に所有権の登記名義人として記載されるようになります。</p>
-<h3>実務では、同じ人が両方の立場を持つことがある</h3>
-<p>実務上よくあるのが、<strong>同じ所有者が持つ複数の土地のうち、一方は表題部所有者のまま、もう一方は所有権の登記名義人になっている</strong>、という状態です。特に相続で受け継いだ古い土地や、あまり活用されていない土地では、表題登記だけ済ませて所有権保存登記を後回しにしているケースが少なくありません。</p>
+<h3>同じ人でも、土地ごとに立場が分かれることがある</h3>
+<p>実務上よくあるのが、<strong>同じ所有者が持つ複数の土地のうち、一方は表題部所有者のまま、もう一方は所有権の登記名義人になっている</strong>、という状態です。たとえば、権利関係を動かす予定がなく所有権保存登記を後回しにしている土地は、表題部所有者のままになります。</p>
 <p><strong>たとえば</strong>、Ａさんが甲土地（先祖代々の土地で、表題登記だけ済ませており表題部所有者のまま）と、乙土地（自分の代で新たに取得し、所有権保存登記まで済ませていて所有権の登記名義人）を、それぞれ別の経緯で取得していたとします。この2筆をまとめて分筆の登記をしたいとき、法律上のステータスが異なる甲土地・乙土地を同時に扱うことになります。</p>
 <p>これはまさに、令和6年度午後の部第8問イで問われた場面です。同問イは「Ａが表題部所有者である甲土地とＡが所有権の登記名義人である乙土地とが同一の登記所の管轄区域内にある場合であっても、甲土地の分筆の登記と乙土地の分筆の登記とを、一の申請情報によって申請することはできない」という記述の正誤を問うものでした。同一の登記所の管轄区域内にある不動産については、登記の目的・登記原因及びその日付が同一であれば、一の申請情報によって登記を申請することができるため（不動産登記令4条ただし書）、表題部所有者の土地と所有権の登記名義人の土地が混在していても、まとめて申請することができます。</p>
 <h3>まとめ</h3>
 <ul>
-<li><strong>表題部所有者</strong>：表題登記の時点で「所有者らしい」と記録された人。まだ権利部が存在せず、対抗力もない</li>
-<li><strong>所有権の登記名義人</strong>：所有権保存登記（または移転登記）を経て、権利部甲区に正式に記録された人。対抗力がある</li>
-<li>同じ人物が、土地によって表題部所有者だったり所有権の登記名義人だったりする状態は、実務上よくある</li>
+<li><strong>表題部所有者</strong>：表題登記の時点で「所有者らしい」と記録された人（法2条10号）。まだ権利部が存在せず、対抗力もない</li>
+<li><strong>所有権の登記名義人</strong>：所有権保存登記（または移転登記）を経て、権利部甲区に正式に記録された人（法2条11号）。対抗力がある</li>
+<li>1つの不動産で両方になることはない（保存登記で表題部所有者の記録は抹消。規則158条）。ただし同じ人物が、土地ごとに表題部所有者だったり登記名義人だったりする状態はありうる</li>
+<li>表題部所有者が代わるときは、先に所有権保存登記、そのあとで移転登記（法32条）</li>
 <li>表題部所有者の土地と所有権の登記名義人の土地が混在していても、登記の目的・原因・日付が同一であれば、一の申請情報でまとめて申請できる（令4条ただし書）</li>
 </ul>
 <p>「持ち主として記載されている」という結果だけを見ると同じに思えますが、その裏にある手続きの段階が違う、という点を押さえておくと、分筆・合筆・変更登記など幅広い問題に応用できます。</p>
-<h3>見出し画像用フレーズ</h3>
+<p><strong>確認事項</strong></p>
+<ul>
+<li>条文の引用は、`note-articles/laws/` の原文と照合済みです（不動産登記法2条10号・11号、31条・32条、74条1項、不動産登記規則158条、不動産登記令4条ただし書）。</li>
+<li>「表題部の登記には対抗力がない」という説明は、民法177条（対抗要件は権利に関する登記であること）と表題登記制度の趣旨からの一般的な解釈で、これを直接明記した単一の条文はありません。</li>
+<li>令和6年度午後の部第8問イの結論は、同じ登記所の管轄区域内であれば、登記の目的・登記原因及びその日付が同一かどうかが基準であり、名義の段階（表題部所有者か登記名義人か）は基準ではない、というものです。分筆の登記のように登記原因を記録しない登記で「登記原因及びその日付が同一」をどう読むかは、過去問解説（`r6-mondai/q08-bunpitsu-touki.md`）の整理に従っています。</li>
+</ul>
+<p>## 見出し画像プロンプト（note用・1280×670）</p>
+<p>noteの見出し画像（アイキャッチ）用です。キャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚を添付してから貼ります。キャラクターはMC1人だけです（トリ先生・藍子は描きません）。背景は壮麗な図書館の館内（2026-11-05 ユーザー指示）で、左右には図書館の内装だけを描き、人物・動物・テーマを説明する小物・アイコンは入れません。画像の生成と目視確認は未実施です。</p>
+<ul>
+<li><strong>1行目</strong>　文字：登記簿の持ち主の</li>
+<li><strong>2行目</strong>　文字：表題部所有者（強調：表題部）</li>
+<li><strong>帯</strong>　文字：所有権の登記名義人との違い</li>
+</ul>
+<p>確かめること：大きさが1280×670か／文字が上の表と1字ずつ一致しているか（簡体字・繁体字・余計な文字・数字・英字がないか）／背景が明るい図書館の館内で、左右に人物・動物・小物がないか／キャラクターがMC1人だけか／手や腕の数が合っているか／タイトルの背後が明るくすっきりしているか／背景が不透明か。</p>
+<h3>A. 新規に生成する（ChatGPTに貼る）</h3>
+<p>``` Create a note.com article header image (eyecatch thumbnail), 1280x670px (1.91:1 landscape aspect ratio).</p>
+<p>STYLE: soft Japanese watercolor-like illustration with clean outlines, light and gentle brushwork, consistent with the note.com explainer-column header images of the same series.</p>
+<p>BACKGROUND (critical): the whole canvas is the interior of a magnificent, elegant library, drawn softly in the same pastel watercolor style. Show tall bookshelves filled with books, stone arched windows, heavy wooden interior, an ornamented ceiling, and soft warm lighting. Give the background depth (receding shelves and arches) and a bright, refined, calm atmosphere. Keep the colors pale and gentle (warm cream, light wood brown, soft gold, pale stone gray); never dark, heavy or dramatic. The library fills the canvas to every edge.</p>
+<p>LEFT AND RIGHT BACKGROUND: only library architecture and shelves on both sides. Do NOT add people, animals, props that explain the topic, items on a desk, icons or diagrams. The side shelves and windows must stay quiet and never stand out more than the title or the character.</p>
+<p>CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Place her at the bottom center, fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.</p>
+<p>CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese or Traditional Chinese characters; every glyph must match the standard Japanese form exactly. Reproduce the exact text strings given below verbatim; do not paraphrase or substitute any character. No stray or decorative glyphs of any kind. Draw no text on the books, signs or walls.</p>
+<p>BACKGROUND OPACITY (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.</p>
+<p>TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a bright, clean, soft white cloud-shaped glow so that the area behind the title is light and uncluttered. Line 1 is dark navy with a pale yellow marker stroke behind it: 登記簿の持ち主の Line 2 is larger; the phrase 表題部 is red-orange and the rest is dark navy: 表題部所有者 Below the title, a light blue rounded pill-shaped subtitle band with navy text: 所有権の登記名義人との違い Do not write any other text anywhere in the image.</p>
+<p>LAYOUT: title block at the top center, the single character at the bottom center, library on both sides and behind. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, arrow between boxes, check mark or cross mark.</p>
+<p>Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (登・記・簿・持・主・表・題・部・所・有・者・権・名・義・人・違) for Simplified or Traditional Chinese forms; confirm the background is a bright, elegant library interior with no people, animals or topic props on the sides; confirm the MC character is the only character; confirm the canvas is fully opaque. ```</p>
+<h3>B. すでにある見出し画像の背景だけを差し替える（元の見出し画像を添付して貼る）</h3>
+<p>``` 添付した見出し画像をもとに、note.comの記事用ヘッダー画像を編集してください。画像サイズは横長の1280×670ピクセルです。</p>
+<p>【変更する部分】 背景を、壮麗な図書館の館内にしてください。高い本棚、石造りのアーチ窓、木を使った重厚な内装、装飾のある天井、柔らかな暖色の照明を描きます。元画像の構図や落ち着いた雰囲気を生かしつつ、シリーズの水彩風イラストになじむ、淡く柔らかな描写にしてください。背景全体に奥行きを持たせ、明るく上品な印象にします。</p>
+<p>【そのまま維持する部分】 元画像のタイトル文字、書体、色、サイズ、配置を変えないでください。文字を追加・削除・言い換えたり、文字の形を変えたりしないでください。 元画像の女性キャラクターも、顔、髪型、髪色、服装、ポーズ、サイズ、配置を維持してください。キャラクターは一人だけにします。</p>
+<p>【左右の背景】 左右には、図書館の内装だけを描きます。人物、動物、テーマを説明する小物、机上の物、アイコン、図解は追加しないでください。左右の本棚や窓は背景として自然に配置し、タイトルやキャラクターより目立たせないでください。</p>
+<p>【仕上げ】 タイトルの背後は明るくすっきりさせ、文字を読みやすく保ちます。画像の端まで背景を描き、透明部分や未着色部分を残さないでください。元画像のタイトルとキャラクターの位置関係は変えず、背景だけを差し替えてください。 ```</p>
+<p>文字が崩れるときは、Aの「TEXT」を「No text」に書き換えて文字なしで作らせ、文字はCanvaなどで重ねる。直すときは、最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。</p>
+<p>## 見出し画像用フレーズ</p>
 <ul>
 <li>「表題部所有者」と「所有権の登記名義人」、違い分かりますか？</li>
 <li>同じ持ち主でも、登記の段階が違うんです</li>
 <li>表題部だけじゃ、対抗力はないんです</li>
 <li>所有権保存登記で、はじめて権利部に載るんです</li>
 <li>表題部所有者の土地でも、まとめて分筆申請できるんです</li>
+<li>同じ土地では、表題部所有者と登記名義人は同時にならないんです</li>
 </ul>
 -----
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KC_01】【土地家屋調査士受験生向け】登記所の書類、保存期間は「永久」「50年」「30年」「10年」「5年」の5段階〜不動産登記規則28条を総まとめ〜
+TITLE: 【土地家屋調査士】KC_01_登記所の書類、保存期間は「永久」「50年」「30年」「10年」「5年」の5段階〜不動産登記規則28条を総まとめ〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -121,7 +163,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KC_02】【土地家屋調査士受験生向け】地図の誤りは職権で訂正、申請義務のある登記は催告が先〜登記官が気づいたとき〜
+TITLE: 【土地家屋調査士】KC_02_地図の誤りは職権で訂正、申請義務のある登記は催告が先〜登記官が気づいたとき〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -188,7 +230,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KC_03】【土地家屋調査士受験生向け】地積測量図の「閉鎖」と「訂正」、何が違うのか
+TITLE: 【土地家屋調査士】KC_03_地積測量図の「閉鎖」と「訂正」、何が違うのか
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -247,6 +289,32 @@ BODY:
 <li><strong>訂正とは（規則16条・88条）</strong>：図面自体の単純な誤りを、新旧の入れ替えではなく直接書き直す手続。表題部所有者等の申出により行う。</li>
 <li><strong>訂正と更正登記の優先関係（規則88条1項ただし書）</strong>：更正の登記で対応できる誤りは、そちらが優先される。訂正の申出が使われるのは、更正の登記という形では対応できない誤りに限られる。</li>
 </ul>
+<p>## 見出し画像プロンプト（note用・1280×670）</p>
+<p>noteの見出し画像（アイキャッチ）用です。キャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚を添付してから貼ります。キャラクターはMC1人だけです（トリ先生・藍子は描きません）。背景は壮麗な図書館の館内（2026-11-05 ユーザー指示）で、左右には図書館の内装だけを描き、人物・動物・テーマを説明する小物・アイコンは入れません。画像の生成と目視確認は未実施です。</p>
+<ul>
+<li><strong>1行目</strong>　文字：地積測量図の</li>
+<li><strong>2行目</strong>　文字：閉鎖と訂正（強調：閉鎖）</li>
+<li><strong>帯</strong>　文字：似ているけれど別の制度</li>
+</ul>
+<p>確かめること：大きさが1280×670か／文字が上の表と1字ずつ一致しているか（簡体字・繁体字・余計な文字・数字・英字がないか）／背景が明るい図書館の館内で、左右に人物・動物・小物がないか／キャラクターがMC1人だけか／手や腕の数が合っているか／タイトルの背後が明るくすっきりしているか／背景が不透明か。</p>
+<h3>A. 新規に生成する（ChatGPTに貼る）</h3>
+<p>``` Create a note.com article header image (eyecatch thumbnail), 1280x670px (1.91:1 landscape aspect ratio).</p>
+<p>STYLE: soft Japanese watercolor-like illustration with clean outlines, light and gentle brushwork, consistent with the note.com explainer-column header images of the same series.</p>
+<p>BACKGROUND (critical): the whole canvas is the interior of a magnificent, elegant library, drawn softly in the same pastel watercolor style. Show tall bookshelves filled with books, stone arched windows, heavy wooden interior, an ornamented ceiling, and soft warm lighting. Give the background depth (receding shelves and arches) and a bright, refined, calm atmosphere. Keep the colors pale and gentle (warm cream, light wood brown, soft gold, pale stone gray); never dark, heavy or dramatic. The library fills the canvas to every edge.</p>
+<p>LEFT AND RIGHT BACKGROUND: only library architecture and shelves on both sides. Do NOT add people, animals, props that explain the topic, items on a desk, icons or diagrams. The side shelves and windows must stay quiet and never stand out more than the title or the character.</p>
+<p>CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Place her at the bottom center, fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.</p>
+<p>CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese or Traditional Chinese characters; every glyph must match the standard Japanese form exactly. Reproduce the exact text strings given below verbatim; do not paraphrase or substitute any character. No stray or decorative glyphs of any kind. Draw no text on the books, signs or walls.</p>
+<p>BACKGROUND OPACITY (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.</p>
+<p>TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a bright, clean, soft white cloud-shaped glow so that the area behind the title is light and uncluttered. Line 1 is dark navy with a pale yellow marker stroke behind it: 地積測量図の Line 2 is larger; the phrase 閉鎖 is red-orange and the rest is dark navy: 閉鎖と訂正 Below the title, a light blue rounded pill-shaped subtitle band with navy text: 似ているけれど別の制度 Do not write any other text anywhere in the image.</p>
+<p>LAYOUT: title block at the top center, the single character at the bottom center, library on both sides and behind. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, arrow between boxes, check mark or cross mark.</p>
+<p>Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (地・積・測・量・図・閉・鎖・訂・正・似・別・制・度) for Simplified or Traditional Chinese forms; confirm the background is a bright, elegant library interior with no people, animals or topic props on the sides; confirm the MC character is the only character; confirm the canvas is fully opaque. ```</p>
+<h3>B. すでにある見出し画像の背景だけを差し替える（元の見出し画像を添付して貼る）</h3>
+<p>``` 添付した見出し画像をもとに、note.comの記事用ヘッダー画像を編集してください。画像サイズは横長の1280×670ピクセルです。</p>
+<p>【変更する部分】 背景を、壮麗な図書館の館内にしてください。高い本棚、石造りのアーチ窓、木を使った重厚な内装、装飾のある天井、柔らかな暖色の照明を描きます。元画像の構図や落ち着いた雰囲気を生かしつつ、シリーズの水彩風イラストになじむ、淡く柔らかな描写にしてください。背景全体に奥行きを持たせ、明るく上品な印象にします。</p>
+<p>【そのまま維持する部分】 元画像のタイトル文字、書体、色、サイズ、配置を変えないでください。文字を追加・削除・言い換えたり、文字の形を変えたりしないでください。 元画像の女性キャラクターも、顔、髪型、髪色、服装、ポーズ、サイズ、配置を維持してください。キャラクターは一人だけにします。</p>
+<p>【左右の背景】 左右には、図書館の内装だけを描きます。人物、動物、テーマを説明する小物、机上の物、アイコン、図解は追加しないでください。左右の本棚や窓は背景として自然に配置し、タイトルやキャラクターより目立たせないでください。</p>
+<p>【仕上げ】 タイトルの背後は明るくすっきりさせ、文字を読みやすく保ちます。画像の端まで背景を描き、透明部分や未着色部分を残さないでください。元画像のタイトルとキャラクターの位置関係は変えず、背景だけを差し替えてください。 ```</p>
+<p>文字が崩れるときは、Aの「TEXT」を「No text」に書き換えて文字なしで作らせ、文字はCanvaなどで重ねる。直すときは、最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。</p>
 <p>## 見出し画像用フレーズ</p>
 <ul>
 <li>閉鎖は消しゴムじゃなくて、印を押すことなんです</li>
@@ -263,7 +331,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KD_01】【土地家屋調査士受験生向け】売ってしまったら、誰が登記する？〜土地・建物・区分建物で違う表題登記の申請資格〜
+TITLE: 【土地家屋調査士】KD_01_売ってしまったら、誰が登記する？〜土地・建物・区分建物で違う表題登記の申請資格〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -303,7 +371,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KD_02】【土地家屋調査士受験生向け】代位申請、できる場合とできない場合を全部整理する
+TITLE: 【土地家屋調査士】KD_02_代位申請、できる場合とできない場合を全部整理する
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -390,7 +458,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KD_03】【土地家屋調査士受験生向け】申請は不動産ごとに1件が原則、規則35条の例外10パターンを整理
+TITLE: 【土地家屋調査士】KD_03_申請は不動産ごとに1件が原則、規則35条の例外10パターンを整理
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -470,6 +538,32 @@ BODY:
 <li><strong>平成26年度午後の部第17問エ肢</strong>：「附属建物と他の建物が合体した場合、分割登記との一括申請が常に必要というわけではない」という肢について、実際には規則35条に明文の規定がなく、分割登記と合体による登記等はそもそも一の申請ですることができない（常に別々の申請になる）という点が問われています。</li>
 <li><strong>平成26年度午後の部第12問イ肢</strong>：「2件以上の同時申請では、共通する添付情報の提供状況を他の申請にも記載する」という肢は、規則35条（一の申請情報にまとめる制度）ではなく、規則37条（同時申請での添付情報の援用）を根拠とする論点です。両条文の違いを混同しないための比較対象として参考になります。</li>
 </ul>
+<p>## 見出し画像プロンプト（note用・1280×670）</p>
+<p>noteの見出し画像（アイキャッチ）用です。キャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚を添付してから貼ります。キャラクターはMC1人だけです（トリ先生・藍子は描きません）。背景は壮麗な図書館の館内（2026-11-05 ユーザー指示）で、左右には図書館の内装だけを描き、人物・動物・テーマを説明する小物・アイコンは入れません。画像の生成と目視確認は未実施です。</p>
+<ul>
+<li><strong>1行目</strong>　文字：申請は不動産ごとに</li>
+<li><strong>2行目</strong>　文字：一括申請の例外（強調：例外）</li>
+<li><strong>帯</strong>　文字：規則三十五条の十パターン</li>
+</ul>
+<p>確かめること：大きさが1280×670か／文字が上の表と1字ずつ一致しているか（簡体字・繁体字・余計な文字・数字・英字がないか）／背景が明るい図書館の館内で、左右に人物・動物・小物がないか／キャラクターがMC1人だけか／手や腕の数が合っているか／タイトルの背後が明るくすっきりしているか／背景が不透明か。</p>
+<h3>A. 新規に生成する（ChatGPTに貼る）</h3>
+<p>``` Create a note.com article header image (eyecatch thumbnail), 1280x670px (1.91:1 landscape aspect ratio).</p>
+<p>STYLE: soft Japanese watercolor-like illustration with clean outlines, light and gentle brushwork, consistent with the note.com explainer-column header images of the same series.</p>
+<p>BACKGROUND (critical): the whole canvas is the interior of a magnificent, elegant library, drawn softly in the same pastel watercolor style. Show tall bookshelves filled with books, stone arched windows, heavy wooden interior, an ornamented ceiling, and soft warm lighting. Give the background depth (receding shelves and arches) and a bright, refined, calm atmosphere. Keep the colors pale and gentle (warm cream, light wood brown, soft gold, pale stone gray); never dark, heavy or dramatic. The library fills the canvas to every edge.</p>
+<p>LEFT AND RIGHT BACKGROUND: only library architecture and shelves on both sides. Do NOT add people, animals, props that explain the topic, items on a desk, icons or diagrams. The side shelves and windows must stay quiet and never stand out more than the title or the character.</p>
+<p>CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Place her at the bottom center, fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.</p>
+<p>CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese or Traditional Chinese characters; every glyph must match the standard Japanese form exactly. Reproduce the exact text strings given below verbatim; do not paraphrase or substitute any character. No stray or decorative glyphs of any kind. Draw no text on the books, signs or walls.</p>
+<p>BACKGROUND OPACITY (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.</p>
+<p>TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a bright, clean, soft white cloud-shaped glow so that the area behind the title is light and uncluttered. Line 1 is dark navy with a pale yellow marker stroke behind it: 申請は不動産ごとに Line 2 is larger; the phrase 例外 is red-orange and the rest is dark navy: 一括申請の例外 Below the title, a light blue rounded pill-shaped subtitle band with navy text: 規則三十五条の十パターン Do not write any other text anywhere in the image.</p>
+<p>LAYOUT: title block at the top center, the single character at the bottom center, library on both sides and behind. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, arrow between boxes, check mark or cross mark.</p>
+<p>Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (申・請・不・動・産・一・括・例・外・規・則・三・十・五・条) for Simplified or Traditional Chinese forms; confirm the background is a bright, elegant library interior with no people, animals or topic props on the sides; confirm the MC character is the only character; confirm the canvas is fully opaque. ```</p>
+<h3>B. すでにある見出し画像の背景だけを差し替える（元の見出し画像を添付して貼る）</h3>
+<p>``` 添付した見出し画像をもとに、note.comの記事用ヘッダー画像を編集してください。画像サイズは横長の1280×670ピクセルです。</p>
+<p>【変更する部分】 背景を、壮麗な図書館の館内にしてください。高い本棚、石造りのアーチ窓、木を使った重厚な内装、装飾のある天井、柔らかな暖色の照明を描きます。元画像の構図や落ち着いた雰囲気を生かしつつ、シリーズの水彩風イラストになじむ、淡く柔らかな描写にしてください。背景全体に奥行きを持たせ、明るく上品な印象にします。</p>
+<p>【そのまま維持する部分】 元画像のタイトル文字、書体、色、サイズ、配置を変えないでください。文字を追加・削除・言い換えたり、文字の形を変えたりしないでください。 元画像の女性キャラクターも、顔、髪型、髪色、服装、ポーズ、サイズ、配置を維持してください。キャラクターは一人だけにします。</p>
+<p>【左右の背景】 左右には、図書館の内装だけを描きます。人物、動物、テーマを説明する小物、机上の物、アイコン、図解は追加しないでください。左右の本棚や窓は背景として自然に配置し、タイトルやキャラクターより目立たせないでください。</p>
+<p>【仕上げ】 タイトルの背後は明るくすっきりさせ、文字を読みやすく保ちます。画像の端まで背景を描き、透明部分や未着色部分を残さないでください。元画像のタイトルとキャラクターの位置関係は変えず、背景だけを差し替えてください。 ```</p>
+<p>文字が崩れるときは、Aの「TEXT」を「No text」に書き換えて文字なしで作らせ、文字はCanvaなどで重ねる。直すときは、最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。</p>
 <h3>覚えておくべきポイントのまとめ</h3>
 <ul>
 <li><strong>原則（不動産登記令4条）</strong>：申請情報は「一の不動産ごとに」作成するのが原則。複数の不動産をまとめて1件の申請情報で申請することは、原則としてできない。</li>
@@ -491,7 +585,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KD_04】【土地家屋調査士受験生向け】原本還付、できる書面とできない書面を全部整理
+TITLE: 【土地家屋調査士】KD_04_原本還付、できる書面とできない書面を全部整理
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -569,7 +663,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KD_05】【土地家屋調査士受験生向け】表示に関する登記の添付情報 早見表
+TITLE: 【土地家屋調査士】KD_05_表示に関する登記の添付情報 早見表
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -682,7 +776,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KD_06】【土地家屋調査士受験生向け】「印鑑証明書は全部3か月以内」は思い込みなんです〜添付書類の有効期限を横断整理〜
+TITLE: 【土地家屋調査士】KD_06_「印鑑証明書は全部3か月以内」は思い込みなんです〜添付書類の有効期限を横断整理〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -747,7 +841,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KD_07】【土地家屋調査士受験生向け】登記識別情報、総整理〜通知される場合・されない場合と、提供できないときの3つの手当て〜
+TITLE: 【土地家屋調査士】KD_07_登記識別情報、総整理〜通知される場合・されない場合と、提供できないときの3つの手当て〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -826,7 +920,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KD_08】【土地家屋調査士受験生向け】表示に関する登記の登録免許税、早見表で一気に整理
+TITLE: 【土地家屋調査士】KD_08_表示に関する登記の登録免許税、早見表で一気に整理
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -905,7 +999,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_01】【土地家屋調査士受験生向け】表示に関する登記の申請義務(1か月以内)一覧〜どの登記に義務があり、いつから数えるか〜
+TITLE: 【土地家屋調査士】KE_01_表示に関する登記の申請義務(1か月以内)一覧〜どの登記に義務があり、いつから数えるか〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1003,7 +1097,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_02】【土地家屋調査士受験生向け】「表題登記のない建物」はなぜ存在するのか〜義務と現実のズレを読み解く〜
+TITLE: 【土地家屋調査士】KE_02_「表題登記のない建物」はなぜ存在するのか〜義務と現実のズレを読み解く〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1046,7 +1140,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_03】【土地家屋調査士受験生向け】地目、全23種類を一気に確認〜不動産登記規則99条・不動産登記事務取扱準則68条〜
+TITLE: 【土地家屋調査士】KE_03_地目、全23種類を一気に確認〜不動産登記規則99条・不動産登記事務取扱準則68条〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1109,7 +1203,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_04】【土地家屋調査士受験生向け】「まとめて申請できるか」と「そもそも合筆できるか」は別次元〜分筆の一括申請と合筆の地目制限で整理する〜
+TITLE: 【土地家屋調査士】KE_04_「まとめて申請できるか」と「そもそも合筆できるか」は別次元〜分筆の一括申請と合筆の地目制限で整理する〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1172,7 +1266,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_05】【土地家屋調査士受験生向け】合筆の登記の制限（不登法41条）と建物の合併の登記の制限（不登法56条）、まとめて対比整理
+TITLE: 【土地家屋調査士】KE_05_合筆の登記の制限（不登法41条）と建物の合併の登記の制限（不登法56条）、まとめて対比整理
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1256,7 +1350,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_06】【土地家屋調査士受験生向け】共有地の分筆、実は全員一致でなくてもできるんです
+TITLE: 【土地家屋調査士】KE_06_共有地の分筆、実は全員一致でなくてもできるんです
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1299,7 +1393,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_07】【土地家屋調査士受験生向け】仮換地の「地番」、実はそこにあった別の土地の番号なんです〜従前地・底地・仮換地の関係を整理する〜
+TITLE: 【土地家屋調査士】KE_07_仮換地の「地番」、実はそこにあった別の土地の番号なんです〜従前地・底地・仮換地の関係を整理する〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1360,7 +1454,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_08】【土地家屋調査士受験生向け】建物認定3要件、覚えるべき「○」と「×」を全部並べてみた
+TITLE: 【土地家屋調査士】KE_08_建物認定3要件、覚えるべき「○」と「×」を全部並べてみた
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1425,7 +1519,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_09】【土地家屋調査士受験生向け】建物の種類、基本の37パターンを一気に確認〜不動産登記規則113条・不動産登記事務取扱準則80条〜
+TITLE: 【土地家屋調査士】KE_09_建物の種類、基本の37パターンを一気に確認〜不動産登記規則113条・不動産登記事務取扱準則80条〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1520,7 +1614,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_10】【土地家屋調査士受験生向け】床面積に算入する・しない、全ケースを一気に整理〜不動産登記規則115条・不動産登記事務取扱手続準則82条〜
+TITLE: 【土地家屋調査士】KE_10_床面積に算入する・しない、全ケースを一気に整理〜不動産登記規則115条・不動産登記事務取扱手続準則82条〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1595,7 +1689,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_11】【土地家屋調査士受験生向け】建物図面・各階平面図の提供要否 早見表〜不動産登記令別表で「必要」「不要」を一気に整理〜
+TITLE: 【土地家屋調査士】KE_11_建物図面・各階平面図の提供要否 早見表〜不動産登記令別表で「必要」「不要」を一気に整理〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1687,7 +1781,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_12】【土地家屋調査士受験生向け】専有部分には「所在欄」がないんです〜区分建物の附属建物の所在の記録を解説〜
+TITLE: 【土地家屋調査士】KE_12_専有部分には「所在欄」がないんです〜区分建物の附属建物の所在の記録を解説〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1725,6 +1819,32 @@ BODY:
 <li>区分建物に区分建物でない附属建物があるとき：その附属建物の所在は、構造欄に記録される（規則4条3項別表3）。</li>
 <li>附属建物が区分建物である場合：構造欄に、所在だけでなく、その附属建物が属する一棟の建物の所在地番・構造・床面積・名称・敷地権も加えて記録する（法44条1項5号・7号・8号・9号）。</li>
 </ul>
+<p>## 見出し画像プロンプト（note用・1280×670）</p>
+<p>noteの見出し画像（アイキャッチ）用です。キャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚を添付してから貼ります。キャラクターはMC1人だけです（トリ先生・藍子は描きません）。背景は壮麗な図書館の館内（2026-11-05 ユーザー指示）で、左右には図書館の内装だけを描き、人物・動物・テーマを説明する小物・アイコンは入れません。画像の生成と目視確認は未実施です。</p>
+<ul>
+<li><strong>1行目</strong>　文字：専有部分には</li>
+<li><strong>2行目</strong>　文字：所在欄がない（強調：所在欄）</li>
+<li><strong>帯</strong>　文字：付属建物の所在はどこ？</li>
+</ul>
+<p>確かめること：大きさが1280×670か／文字が上の表と1字ずつ一致しているか（簡体字・繁体字・余計な文字・数字・英字がないか）／背景が明るい図書館の館内で、左右に人物・動物・小物がないか／キャラクターがMC1人だけか／手や腕の数が合っているか／タイトルの背後が明るくすっきりしているか／背景が不透明か。</p>
+<h3>A. 新規に生成する（ChatGPTに貼る）</h3>
+<p>``` Create a note.com article header image (eyecatch thumbnail), 1280x670px (1.91:1 landscape aspect ratio).</p>
+<p>STYLE: soft Japanese watercolor-like illustration with clean outlines, light and gentle brushwork, consistent with the note.com explainer-column header images of the same series.</p>
+<p>BACKGROUND (critical): the whole canvas is the interior of a magnificent, elegant library, drawn softly in the same pastel watercolor style. Show tall bookshelves filled with books, stone arched windows, heavy wooden interior, an ornamented ceiling, and soft warm lighting. Give the background depth (receding shelves and arches) and a bright, refined, calm atmosphere. Keep the colors pale and gentle (warm cream, light wood brown, soft gold, pale stone gray); never dark, heavy or dramatic. The library fills the canvas to every edge.</p>
+<p>LEFT AND RIGHT BACKGROUND: only library architecture and shelves on both sides. Do NOT add people, animals, props that explain the topic, items on a desk, icons or diagrams. The side shelves and windows must stay quiet and never stand out more than the title or the character.</p>
+<p>CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Place her at the bottom center, fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.</p>
+<p>CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese or Traditional Chinese characters; every glyph must match the standard Japanese form exactly. Reproduce the exact text strings given below verbatim; do not paraphrase or substitute any character. No stray or decorative glyphs of any kind. Draw no text on the books, signs or walls.</p>
+<p>BACKGROUND OPACITY (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.</p>
+<p>TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a bright, clean, soft white cloud-shaped glow so that the area behind the title is light and uncluttered. Line 1 is dark navy with a pale yellow marker stroke behind it: 専有部分には Line 2 is larger; the phrase 所在欄 is red-orange and the rest is dark navy: 所在欄がない Below the title, a light blue rounded pill-shaped subtitle band with navy text: 付属建物の所在はどこ？ Do not write any other text anywhere in the image.</p>
+<p>LAYOUT: title block at the top center, the single character at the bottom center, library on both sides and behind. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, arrow between boxes, check mark or cross mark.</p>
+<p>Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (専・有・部・分・所・在・欄・付・属・建・物) for Simplified or Traditional Chinese forms; confirm the background is a bright, elegant library interior with no people, animals or topic props on the sides; confirm the MC character is the only character; confirm the canvas is fully opaque. ```</p>
+<h3>B. すでにある見出し画像の背景だけを差し替える（元の見出し画像を添付して貼る）</h3>
+<p>``` 添付した見出し画像をもとに、note.comの記事用ヘッダー画像を編集してください。画像サイズは横長の1280×670ピクセルです。</p>
+<p>【変更する部分】 背景を、壮麗な図書館の館内にしてください。高い本棚、石造りのアーチ窓、木を使った重厚な内装、装飾のある天井、柔らかな暖色の照明を描きます。元画像の構図や落ち着いた雰囲気を生かしつつ、シリーズの水彩風イラストになじむ、淡く柔らかな描写にしてください。背景全体に奥行きを持たせ、明るく上品な印象にします。</p>
+<p>【そのまま維持する部分】 元画像のタイトル文字、書体、色、サイズ、配置を変えないでください。文字を追加・削除・言い換えたり、文字の形を変えたりしないでください。 元画像の女性キャラクターも、顔、髪型、髪色、服装、ポーズ、サイズ、配置を維持してください。キャラクターは一人だけにします。</p>
+<p>【左右の背景】 左右には、図書館の内装だけを描きます。人物、動物、テーマを説明する小物、机上の物、アイコン、図解は追加しないでください。左右の本棚や窓は背景として自然に配置し、タイトルやキャラクターより目立たせないでください。</p>
+<p>【仕上げ】 タイトルの背後は明るくすっきりさせ、文字を読みやすく保ちます。画像の端まで背景を描き、透明部分や未着色部分を残さないでください。元画像のタイトルとキャラクターの位置関係は変えず、背景だけを差し替えてください。 ```</p>
+<p>文字が崩れるときは、Aの「TEXT」を「No text」に書き換えて文字なしで作らせ、文字はCanvaなどで重ねる。直すときは、最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。</p>
 <p>## 見出し画像用フレーズ</p>
 <ul>
 <li>専有部分には「所在欄」がないんです</li>
@@ -1739,7 +1859,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_13】【土地家屋調査士受験生向け】仮換地に建てた家、所在の記載が「ねじれて」見えるんです〜令和6年度午後の部第13問ウで整理する〜
+TITLE: 【土地家屋調査士】KE_13_仮換地に建てた家、所在の記載が「ねじれて」見えるんです〜令和6年度午後の部第13問ウで整理する〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1784,7 +1904,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_14】共用部分である旨の登記で間違えやすいポイント
+TITLE: 【土地家屋調査士】KE_14_共用部分である旨の登記で間違えやすいポイント
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1854,7 +1974,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KE_15】【土地家屋調査士受験生向け】名義人が一致していても、規約があれば敷地権にならないんです〜敷地権と分離処分可能規約〜
+TITLE: 【土地家屋調査士】KE_15_名義人が一致していても、規約があれば敷地権にならないんです〜敷地権と分離処分可能規約〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1898,7 +2018,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KF_01】【土地家屋調査士受験生向け】要役地・承役地、地役権の登記はなぜ2つの土地に現れるのか
+TITLE: 【土地家屋調査士】KF_01_要役地・承役地、地役権の登記はなぜ2つの土地に現れるのか
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1941,7 +2061,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KF_02】【土地家屋調査士受験生向け】登記官が共同担保目録を新たに作成する4つの場面〜分筆・追加設定・管轄をまたぐケースまで整理〜
+TITLE: 【土地家屋調査士】KF_02_登記官が共同担保目録を新たに作成する4つの場面〜分筆・追加設定・管轄をまたぐケースまで整理〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1978,7 +2098,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KG_01】【土地家屋調査士受験生向け】登記事項要約書と証明書の違い〜要約書は書面請求だけなんです〜
+TITLE: 【土地家屋調査士】KG_01_登記事項要約書と証明書の違い〜要約書は書面請求だけなんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2084,7 +2204,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KG_02】【土地家屋調査士受験生向け】調査士の代理請求、委任状はいらないんです〜登記識別情報に関する証明の請求を解説〜
+TITLE: 【土地家屋調査士】KG_02_調査士の代理請求、委任状はいらないんです〜登記識別情報に関する証明の請求を解説〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2138,6 +2258,32 @@ BODY:
 <li>この委任状不要の特例は「登記識別情報に関する証明の請求」に限られ、通常の登記申請の代理には適用されない。</li>
 <li>「本人確認情報の提供」（登記識別情報を提供できない場合に事前通知を省略する制度）とは別の制度である。</li>
 </ul>
+<p>## 見出し画像プロンプト（note用・1280×670）</p>
+<p>noteの見出し画像（アイキャッチ）用です。キャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚を添付してから貼ります。キャラクターはMC1人だけです（トリ先生・藍子は描きません）。背景は壮麗な図書館の館内（2026-11-05 ユーザー指示）で、左右には図書館の内装だけを描き、人物・動物・テーマを説明する小物・アイコンは入れません。画像の生成と目視確認は未実施です。</p>
+<ul>
+<li><strong>1行目</strong>　文字：調査士の代理請求は</li>
+<li><strong>2行目</strong>　文字：委任状いらない（強調：委任状）</li>
+<li><strong>帯</strong>　文字：登記識別情報に関する証明の請求</li>
+</ul>
+<p>確かめること：大きさが1280×670か／文字が上の表と1字ずつ一致しているか（簡体字・繁体字・余計な文字・数字・英字がないか）／背景が明るい図書館の館内で、左右に人物・動物・小物がないか／キャラクターがMC1人だけか／手や腕の数が合っているか／タイトルの背後が明るくすっきりしているか／背景が不透明か。</p>
+<h3>A. 新規に生成する（ChatGPTに貼る）</h3>
+<p>``` Create a note.com article header image (eyecatch thumbnail), 1280x670px (1.91:1 landscape aspect ratio).</p>
+<p>STYLE: soft Japanese watercolor-like illustration with clean outlines, light and gentle brushwork, consistent with the note.com explainer-column header images of the same series.</p>
+<p>BACKGROUND (critical): the whole canvas is the interior of a magnificent, elegant library, drawn softly in the same pastel watercolor style. Show tall bookshelves filled with books, stone arched windows, heavy wooden interior, an ornamented ceiling, and soft warm lighting. Give the background depth (receding shelves and arches) and a bright, refined, calm atmosphere. Keep the colors pale and gentle (warm cream, light wood brown, soft gold, pale stone gray); never dark, heavy or dramatic. The library fills the canvas to every edge.</p>
+<p>LEFT AND RIGHT BACKGROUND: only library architecture and shelves on both sides. Do NOT add people, animals, props that explain the topic, items on a desk, icons or diagrams. The side shelves and windows must stay quiet and never stand out more than the title or the character.</p>
+<p>CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Place her at the bottom center, fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.</p>
+<p>CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese or Traditional Chinese characters; every glyph must match the standard Japanese form exactly. Reproduce the exact text strings given below verbatim; do not paraphrase or substitute any character. No stray or decorative glyphs of any kind. Draw no text on the books, signs or walls.</p>
+<p>BACKGROUND OPACITY (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.</p>
+<p>TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a bright, clean, soft white cloud-shaped glow so that the area behind the title is light and uncluttered. Line 1 is dark navy with a pale yellow marker stroke behind it: 調査士の代理請求は Line 2 is larger; the phrase 委任状 is red-orange and the rest is dark navy: 委任状いらない Below the title, a light blue rounded pill-shaped subtitle band with navy text: 登記識別情報に関する証明の請求 Do not write any other text anywhere in the image.</p>
+<p>LAYOUT: title block at the top center, the single character at the bottom center, library on both sides and behind. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, arrow between boxes, check mark or cross mark.</p>
+<p>Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (調・査・士・代・理・請・求・委・任・状・登・記・識・別・情・報・関・証・明) for Simplified or Traditional Chinese forms; confirm the background is a bright, elegant library interior with no people, animals or topic props on the sides; confirm the MC character is the only character; confirm the canvas is fully opaque. ```</p>
+<h3>B. すでにある見出し画像の背景だけを差し替える（元の見出し画像を添付して貼る）</h3>
+<p>``` 添付した見出し画像をもとに、note.comの記事用ヘッダー画像を編集してください。画像サイズは横長の1280×670ピクセルです。</p>
+<p>【変更する部分】 背景を、壮麗な図書館の館内にしてください。高い本棚、石造りのアーチ窓、木を使った重厚な内装、装飾のある天井、柔らかな暖色の照明を描きます。元画像の構図や落ち着いた雰囲気を生かしつつ、シリーズの水彩風イラストになじむ、淡く柔らかな描写にしてください。背景全体に奥行きを持たせ、明るく上品な印象にします。</p>
+<p>【そのまま維持する部分】 元画像のタイトル文字、書体、色、サイズ、配置を変えないでください。文字を追加・削除・言い換えたり、文字の形を変えたりしないでください。 元画像の女性キャラクターも、顔、髪型、髪色、服装、ポーズ、サイズ、配置を維持してください。キャラクターは一人だけにします。</p>
+<p>【左右の背景】 左右には、図書館の内装だけを描きます。人物、動物、テーマを説明する小物、机上の物、アイコン、図解は追加しないでください。左右の本棚や窓は背景として自然に配置し、タイトルやキャラクターより目立たせないでください。</p>
+<p>【仕上げ】 タイトルの背後は明るくすっきりさせ、文字を読みやすく保ちます。画像の端まで背景を描き、透明部分や未着色部分を残さないでください。元画像のタイトルとキャラクターの位置関係は変えず、背景だけを差し替えてください。 ```</p>
+<p>文字が崩れるときは、Aの「TEXT」を「No text」に書き換えて文字なしで作らせ、文字はCanvaなどで重ねる。直すときは、最後に「次の点だけを直して、ほかは変えない：…」と1文足して再生成する。</p>
 <p>## 見出し画像用フレーズ</p>
 <ul>
 <li>調査士の代理請求、委任状はいらないんです</li>
@@ -2152,7 +2298,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KG_03】【土地家屋調査士受験生向け】筆界特定制度 完全整理
+TITLE: 【土地家屋調査士】KG_03_筆界特定制度 完全整理
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2260,7 +2406,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KG_04】「所有権の範囲」と「筆界」はなぜズレるのか、初学者向けに解説
+TITLE: 【土地家屋調査士】KG_04_「所有権の範囲」と「筆界」はなぜズレるのか、初学者向けに解説
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2295,7 +2441,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_01】【土地家屋調査士受験生向け】177条の「第三者」、①〜⑤の除外パターンで機械的に判定するんです
+TITLE: 【土地家屋調査士】KM_01_177条の「第三者」、①〜⑤の除外パターンで機械的に判定するんです
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2346,7 +2492,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_02】【土地家屋調査士受験生向け】任意代理でつまずく4つのポイントを全部整理する
+TITLE: 【土地家屋調査士】KM_02_任意代理でつまずく4つのポイントを全部整理する
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2408,7 +2554,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_03】【土地家屋調査士受験生向け】18歳未満は「同意なし契約」がまるごと取り消せるんです〜制限行為能力者シリーズ：未成年者を解説〜
+TITLE: 【土地家屋調査士】KM_03_18歳未満は「同意なし契約」がまるごと取り消せるんです〜制限行為能力者シリーズ：未成年者を解説〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2467,7 +2613,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_04】【土地家屋調査士受験生向け】日用品以外は「原則ぜんぶ取り消せる」んです〜制限行為能力者シリーズ：成年被後見人を解説〜
+TITLE: 【土地家屋調査士】KM_04_日用品以外は「原則ぜんぶ取り消せる」んです〜制限行為能力者シリーズ：成年被後見人を解説〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2516,7 +2662,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_05】【土地家屋調査士受験生向け】原則は一人でOK、リストの行為だけ同意がいるんです〜制限行為能力者シリーズ：被保佐人を解説〜
+TITLE: 【土地家屋調査士】KM_05_原則は一人でOK、リストの行為だけ同意がいるんです〜制限行為能力者シリーズ：被保佐人を解説〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2576,7 +2722,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_06】【土地家屋調査士受験生向け】補助だけは「本人の同意」がとことん必要なんです〜制限行為能力者シリーズ：被補助人を解説〜
+TITLE: 【土地家屋調査士】KM_06_補助だけは「本人の同意」がとことん必要なんです〜制限行為能力者シリーズ：被補助人を解説〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2630,7 +2776,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_07】【土地家屋調査士受験生向け】4類型の「同意・取消し・代理」を1枚で整理する〜制限行為能力者を総整理〜
+TITLE: 【土地家屋調査士】KM_07_4類型の「同意・取消し・代理」を1枚で整理する〜制限行為能力者を総整理〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2766,7 +2912,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_08】【土地家屋調査士受験生向け】制限行為能力者への催告、「追認」と「取消し」が逆転する4パターン
+TITLE: 【土地家屋調査士】KM_08_制限行為能力者への催告、「追認」と「取消し」が逆転する4パターン
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2821,7 +2967,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_09】【土地家屋調査士受験生向け】取消権、いつまで待ってくれる？〜「追認できる時から5年」と「行為の時から20年」の二重の時効〜
+TITLE: 【土地家屋調査士】KM_09_取消権、いつまで待ってくれる？〜「追認できる時から5年」と「行為の時から20年」の二重の時効〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2860,7 +3006,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_10】【土地家屋調査士受験生向け】代襲相続、家系図で正確に整理する〜「誰が」「なぜ」「どこまで」を一気に解説〜
+TITLE: 【土地家屋調査士】KM_10_代襲相続、家系図で正確に整理する〜「誰が」「なぜ」「どこまで」を一気に解説〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2934,7 +3080,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KM_11】【土地家屋調査士受験生向け】「保存行為」は単純承認になる？条文のひっかけを事例で解説
+TITLE: 【土地家屋調査士】KM_11_「保存行為」は単純承認になる？条文のひっかけを事例で解説
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -2976,7 +3122,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KT_01】【土地家屋調査士受験生向け】調査士の届出先マトリクス〜法務局じゃなくて調査士会経由、取消しは「義務」と「裁量」で分かれるんです〜
+TITLE: 【土地家屋調査士】KT_01_調査士の届出先マトリクス〜法務局じゃなくて調査士会経由、取消しは「義務」と「裁量」で分かれるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -3058,7 +3204,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KT_02】【土地家屋調査士受験生向け】調査士法人の業務制限（総論）〜5つの層に切り分けると迷わない〜
+TITLE: 【土地家屋調査士】KT_02_調査士法人の業務制限（総論）〜5つの層に切り分けると迷わない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -3132,7 +3278,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KT_03】【土地家屋調査士受験生向け】調査士法人の業務制限（第1回）〜定款に書いて初めてできる仕事がある〜
+TITLE: 【土地家屋調査士】KT_03_調査士法人の業務制限（第1回）〜定款に書いて初めてできる仕事がある〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -3213,7 +3359,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KT_04】【土地家屋調査士受験生向け】調査士法人の業務制限（第2回）〜断れる依頼と、断れない依頼がある〜
+TITLE: 【土地家屋調査士】KT_04_調査士法人の業務制限（第2回）〜断れる依頼と、断れない依頼がある〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -3299,7 +3445,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KT_05】【土地家屋調査士受験生向け】調査士法人の業務制限（第3回）〜同意で外れる制限は、たった1つ〜
+TITLE: 【土地家屋調査士】KT_05_調査士法人の業務制限（第3回）〜同意で外れる制限は、たった1つ〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -3395,7 +3541,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KT_06】【土地家屋調査士受験生向け】調査士法人の業務制限（第4回）〜常駐・競業・社員資格の3つの縛り〜
+TITLE: 【土地家屋調査士】KT_06_調査士法人の業務制限（第4回）〜常駐・競業・社員資格の3つの縛り〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -3498,7 +3644,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【KT_07】【土地家屋調査士受験生向け】調査士法人の業務制限（第5回）〜法人にだけある「解散」という処分〜
+TITLE: 【土地家屋調査士】KT_07_調査士法人の業務制限（第5回）〜法人にだけある「解散」という処分〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -3600,5 +3746,132 @@ BODY:
 <li>処分の30日前に社員だった人まで巻き込まれます</li>
 <li>一部停止なら、社員資格までは失わないんです</li>
 </ul>
+-----
+--------
+
+AUTHOR: chosashi-note
+TITLE: 守ること
+STATUS: Draft
+ALLOW COMMENTS: 1
+CONVERT BREAKS: 0
+DATE: 01/01/2026 10:51:00 AM
+-----
+BODY:
+<ul>
+<li>作業は `main` に直接コミット・push する（CLAUDE.md）。セッションで別の作業ブランチを指定されているときは、同じコミットをそのブランチにも push する。</li>
+<li>作業の前に `git pull origin main`。1記事ごとにコミットする。</li>
+<li>記事に書く法的内容は、必ず `note-articles/laws/` の原文で確かめる（記憶で書かない）。確かめきれない点は断定せず、確認事項に書く。</li>
+<li>作業中に新しい種類の誤りや手戻りを見つけたら、F の手順で改善記録に残し、有効なものを指示書に足す。</li>
+<li>画像は生成しない。生成と目視確認はユーザーがChatGPTで行うので、「未実施」と明記する。</li>
+<li>個人の演習結果（誤答の回数・自分の回答）と、分析の根拠にした問題番号の列記は、記事にも画像の文言にも入れない。</li>
+<li>年度・問は算用数字で書く。禁止語（決定木・ツリー・判定木）は使わない。</li>
+</ul>
+<p>## A. 記事本文のチェック</p>
+<p>1. <strong>条文の照合</strong>：記事中の条文番号・項・号・文言を `laws/` の原文と一つずつ照らす（法・令・規則・準則・区分所有法など）。引用が原文どおりか、号数のずれがないか。 2. <strong>関連する過去問記事との整合</strong>：記事が参照している過去問記事（`r?-mondai/` など）の結論と食い違わないか。 3. <strong>説明不足・誤解を招く表現</strong>：条文の誤りだけでなく、読者が誤って理解しやすい表現を探す。</p>
+<ul>
+<li>試験でよく問われる条文（申請適格、手続の順序、例外）が抜けていないか。</li>
+<li>「〜が多い」など、根拠のない一般論になっていないか（確認できる言い方にやわらげる）。</li>
+</ul>
+<p>4. <strong>本文内の整合</strong>：見出し・本文・具体例・まとめの箇条書きが互いに矛盾していないか。 5. <strong>体裁</strong>：次の順になっているか確認する。</p>
+<ul>
+<li>タイトルは `## 【土地家屋調査士】{ID}_{題名}` の形に統一する（2026-11-05 ユーザー指示。例：`## 【土地家屋調査士】KA_01_「表題部所有者」と…`）。</li>
+<li>タイトル、対象条文、導入文、見出しごとの解説、まとめ、確認事項、見出し画像用フレーズ、見出し画像プロンプト、インフォグラフィックのプロンプト、関連記事・参照した過去問。</li>
+<li>作業メモ（「このまま使える点…」など）が残っていれば「確認事項」に直す。</li>
+<li>「正解の先出し」は、過去問に紐づく記事だけで気にする。</li>
+</ul>
+<p>6. <strong>確認事項ブロック</strong>：条文で確かめた根拠と、確かめきれなかった根拠を分けて正直に書く。</p>
+<p>## B. 図解（インフォグラフィック）のチェックと追加</p>
+<p>`note-articles/infographic-prompt-template.md` の③と、同ファイルの「図解プロンプトと記事本文の整合チェック」に従う。</p>
+<p>1. <strong>既存プロンプトを本文と照合する</strong>：数字・割合・要件・当事者の役割・登記や手続の名称が本文どおりか。本文を直したら、図解も同じ内容に直す。 2. <strong>流れ図の作りを確かめる</strong></p>
+<ul>
+<li>実際に判断する流れになっているか（一直線に並べただけでないか）。</li>
+<li>「いいえ」側にも専用の行き先があるか。戻る矢印がないか。</li>
+<li>結論に影響しない事実を分岐にしていないか（点線の札で「問わない」と示す）。</li>
+<li>同じ意味の判断が重複していないか。</li>
+<li>配色は、はい＝青、いいえ＝赤で統一されているか。</li>
+</ul>
+<p>3. <strong>足りない図を足す</strong>：本文で説明しているのに図がない論点を洗い出し、型（俯瞰カード・対比表・早見表・判定フロー・段階フロー）を選んで追加する。枚数の上限はない。 4. <strong>必須文言の確認</strong>：簡体字・繁体字の禁止、絵の中の文字は指定した語だけ、番号を付けない、背景は不透明、Final check。 5. <strong>画像に入れてよい数字は、年度・問の数字だけ</strong>。条文番号は画像に入れず、記事に書く（フッターにも入れない）。 6. <strong>note用とInstagram用の2種類</strong>：Instagram用は4:5（1080×1350）か3:4（1080×1440）で、余白は左右54px・上下72px。アカウント名・URL・ハッシュタグ・「noteへ」などは入れない。問題番号は画像に入れない。</p>
+<ul>
+<li>総論の4:5は `instagram/&lt;ID&gt;_zukai_4x5.md`、追加分は `instagram/&lt;ID&gt;_zukai_4x5_extra.md` に置く。</li>
+</ul>
+<p>## C. note の見出し画像のプロンプトを追加する（全記事）</p>
+<p>すべての個別テーマ記事に、note用の見出し画像（アイキャッチ）のプロンプトを新しく作って追加する。すでにある場合は、この仕様で作り直す（古い「藍子だけ」の記述〈KC_02 など〉は置き換える）。</p>
+<h3>仕様</h3>
+<ul>
+<li><strong>サイズ</strong>：1280×670px（1.91:1・横長）。noteの一覧では上下が切れるので、タイトルとキャラクターは中央付近に置く。</li>
+<li><strong>キャラクター</strong>：MC（女性）1人だけ。トリ先生・藍子は描かない。基準はキャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚で、ChatGPTに添付してから貼る。ポーズは固定せず、毎回変えてよい。手と腕の数など、人体を正しく描くよう指示する。</li>
+<li><strong>画風</strong>：水彩風、淡くやわらかい描写。同じシリーズの見出し画像と揃える。</li>
+<li><strong>背景（2026-11-05 ユーザー指示で変更）</strong>：壮麗な図書館の館内。高い本棚、石造りのアーチ窓、木を使った重厚な内装、装飾のある天井、柔らかな暖色の照明。奥行きがあり、明るく上品な印象にする（暗く重くしない）。タイトルの背後は明るくすっきりさせる。</li>
+<li><strong>文字</strong>：タイトル2行＋サブタイトルの帯の、合計3行を基本とする。</li>
+<li>1行目：濃紺（淡黄色のマーカー風）。2行目：大きく、強調する語を赤橙、残りを濃紺。サブタイトルは水色の丸い帯に濃紺。</li>
+<li>文字は記事の見出しを短くしたもので、1字ずつ表にして確かめる。</li>
+<li>数字・英字・簡体字・繁体字は入れない。年度・問の数字を入れるのは過去問に紐づく記事だけで、個別テーマ記事では数字を入れない。</li>
+<li><strong>左右の背景</strong>：図書館の内装だけを描く。人物・動物・テーマを説明する小物・机上の物・アイコン・図解は入れない。左右の本棚や窓は、タイトルとキャラクターより目立たせない。物の上には文字を書かせない。フローチャート・矢印・○×は描かない。</li>
+<li><strong>背景</strong>：不透明（透明背景・市松模様の禁止）。</li>
+<li>書式の見本は `note-articles/topics/zukai-kikaku/header-image-prompts.md` の「note用（1280×670）」ブロック。</li>
+</ul>
+<h3>手順</h3>
+<p>1. 記事の主題から、画像の文字（1行目・2行目・強調語・サブタイトル）を決める。強調語は2行目の中の連続した語にする。絵（`scene`）は見出し画像には使わない（背景は図書館で固定）。 2. Instagram用の見出し画像（`instagram/data.json` の `l1`・`l2`・`emph`・`band`・`scene`）がある記事は、その文字を土台にしてよい。note用はサブタイトル（`band`）を記事の主題に合わせる。4行目（`sub`）は note用では入れない。 3. `## 見出し画像プロンプト（note用・1280×670）` の節を、`## インフォグラフィック プロンプト` の直前（図1の上）に置く（それがない記事は「見出し画像用フレーズ」の直前）。節には、文字の表、A（新規に生成）、B（元の見出し画像の背景だけを差し替える）の2つのコードブロックを入れる。</p>
+<ul>
+<li>全記事分は `python3 note-articles/topics/gen_note_header.py` で作り直す（`instagram/data.json` の `l1`・`l2`・`emph`・`band` から作る。何度実行しても同じ結果になる）。記事ごとに文字を変えるときは `data.json` を直す。生成物は手で直さない。</li>
+</ul>
+<p>4. 文字の表の下に、確かめることを書く：大きさ、1字ずつの一致、MC1人だけ、手や腕の数、背景が不透明。 5. 文字が崩れるときは、「TEXT」を「No text」に書き換えて文字なしで作らせ、文字はCanvaなどで重ねる。直すときは、最後に「次の点だけを直して、ほかは変えない：…」と1文足す。</p>
+<p>## D. Instagram用ファイルの更新</p>
+<ul>
+<li>本文の修正（結論・要件・用語）に合わせて `instagram/data.json` を直す。見出し画像の文字は、本文と矛盾しなければ変えない。</li>
+<li>`python3 note-articles/topics/instagram/gen_instagram.py` で `instagram/&lt;ID&gt;.md` と `README.md` を作り直す（生成物は手で直さない）。</li>
+<li>箇条書き（`points`）の個数に上限はない（2026-11-05 ユーザー指示で撤廃）。キャプションが2200字を超えるときは、個数を減らさず、各項目の文を短くして調整する。</li>
+<li>`python3 note-articles/topics/instagram/check.py` で NG 0 件にする。</li>
+</ul>
+<p>## E. 仕上げと報告</p>
+<p>1. 変更を1記事ごとにコミットし、`main` に push する（指定ブランチがあればそこにも）。 2. 報告に次を書く：</p>
+<ul>
+<li>見つけた誤り・不足と、直した点。</li>
+<li>未解決の点（条文だけでは言い切れない論点）。</li>
+<li>追加した図解の枚数と型。</li>
+<li>追加した見出し画像プロンプト。</li>
+<li>「画像の生成と目視確認は未実施」の一文。</li>
+<li>新しく見つけた種類の問題と、指示書に足した項目（F の改善記録の追記分）。</li>
+</ul>
+<p>## 一括で進めるとき</p>
+<ul>
+<li>全51本は一度にやらず、棚（KA、KC、KD…）ごと、または10本前後ずつに分け、1記事ずつコミットする。</li>
+<li>進み具合は `topics/README.md` に「再チェック済み／見出し画像プロンプト済み」の表で残す（未記入のIDは未実施）。</li>
+<li>並列に進めるとき（Agent）は、1エージェントに1記事を渡し、依頼にはこのファイルのパスと対象ID、`laws/` の場所を明記する。法令の照合は各エージェントが自分で行い、他の結果を信じて省略しない。</li>
+</ul>
+<p>## F. 修正作業のPDCA（新しい修正事例が見つかったとき）</p>
+<p>再チェックの途中で、この指示書のチェック項目に載っていない種類の誤り・不足・手戻りが見つかったら、その場で対処したうえで、次の順に回す。<strong>対処の履歴（下の改善記録）をもとに、有効なものだけをこの指示書の本文に足す。</strong></p>
+<h3>Plan（見つけたときに記録する）</h3>
+<ul>
+<li>何が見つかったか（記事ID・箇所・内容）を1行で書く。</li>
+<li>既存のチェック項目（A〜E）で拾えたはずのものか、新しい種類かを分ける。拾えたはずのものは、項目の書き方が弱いので、その項目を具体的に直す。</li>
+</ul>
+<h3>Do（対処する）</h3>
+<ul>
+<li>記事・図解・Instagram用ファイルを直す。同じ種類の問題が他の記事にもないかを、手元の別記事で1〜2本だけ見て確かめる（全部は調べない）。</li>
+<li>直した内容を、下の「改善記録」に追記する（日付・記事ID・見つけたこと・対処・原因）。</li>
+</ul>
+<h3>Check（有効かどうかを判定する）</h3>
+<p>次の3つのすべてに当てはまるものだけを「有効」とする。 1. <strong>再現性</strong>：別の記事でも起こりうる（その記事だけの個別の事情ではない）。 2. <strong>確認可能</strong>：チェック項目として「何を・どこで・どう確かめるか」を一文で書ける。 3. <strong>重複なし</strong>：A〜Eの既存項目に含まれていない（含まれるなら、その項目を具体化する）。</p>
+<p>個別の事情だけのものは、改善記録に残すだけにして、本文には足さない。2本以上の記事で同じ種類が見つかったものは、優先して本文に足す。</p>
+<h3>Act（指示書に反映する）</h3>
+<ul>
+<li>有効なものは、A〜Eの該当する節に、理由つきで一項目として足す（理由は「改善記録」の日付を添える）。</li>
+<li>反映したら、改善記録の該当行に「反映済み（節・項目）」と書く。</li>
+<li>指示書を直したときは、`topics/README.md` の「再チェック済み」の表の備考に、新しい項目を適用した記事とまだの記事が分かるようにしておく（まだの記事は、次に触れるときに新しい項目で見直す）。</li>
+<li>規則を足すときは、すでにある規則と矛盾しないか、他の指示書（`infographic-prompt-template.md`、`CLAUDE.md`）と食い違わないかを確かめる。食い違うときは、勝手に上書きせずユーザーに確認する。</li>
+</ul>
+<h3>改善記録</h3>
+<ul>
+<li><strong>2026-11-05</strong>　記事：KA_01／見つけたこと：見出し「同じ人が両方の立場を持つ」が、規則158条（保存登記で表題部所有者の記録は抹消）と読み違えやすかった。条文の引用は正しいのに、用語どうしが同じ不動産で併存するかの説明がなかった／対処：見出しを「土地ごとに立場が分かれる」に直し、規則158条を本文に追加／反映：反映済み（A-3：用語どうしの関係〈併存するか、入れ替わるか〉を説明しているか）</li>
+<li><strong>2026-11-05</strong>　記事：KA_01／見つけたこと：図解プロンプトで「数字は入れない」と書きながら、フッターに条文番号を入れる指示が混在し、自己矛盾していた／対処：フッターの条文番号を外し、数字は年度・問だけにした／反映：反映済み（B-5）</li>
+<li><strong>2026-11-05</strong>　記事：KA_01／見つけたこと：流れ図が一直線で、「いいえ」の行き先がなく、判断が重複していた／対処：3つの判断と共有の終端ノードに作り直し、「問わない」は点線の札にした／反映：反映済み（B-2）</li>
+<li><strong>2026-11-05</strong>　記事：KA_01／見つけたこと：記事末尾に作業メモ（「このまま使える点…」）が残り、他の記事の形式と違った／対処：「確認事項」に統合した／反映：反映済み（A-5）</li>
+<li><strong>2026-11-05</strong>　記事：全51本／見つけたこと：note見出し画像の背景を「明るい空」から「壮麗な図書館の館内」に変更（ユーザー指示）。左右の小物は入れない／対処：`gen_note_header.py` を作り、全記事に節を入れた。KC_02・KG_01の旧「藍子のみ」節は置き換え（タイトル文言は `data.json` のものに統一）／反映：反映済み（C）</li>
+<li><strong>2026-11-05</strong>　記事：KA_01／見つけたこと：Instagramの `points` を5個にして `check.py` がNG（上限4個）／対処：当初は4個に統合したが、ユーザー指示で上限を撤廃し、5個のまま文を短くした／反映：反映済み（D：個数の上限なし、字数は文を短くして調整）</li>
+<li><strong>2026-11-05</strong>　記事：KA_01／見つけたこと：条文の長い行を `grep` で出すと、改正附則の巨大な行が出力に流れ込んだ（作業効率の問題。内容の誤りではない）／対処：`cut -c1-300` で切って確認した／反映：反映せず（本指示書の対象外。作業の注意として残す）</li>
+<li><strong>2026-11-05</strong>　記事：KA_01／見つけたこと：指定の作業ブランチと `main` の両方への push が必要だったのに、`main` にだけ push して、stop hook で未push の指摘を受けた／対処：作業ブランチにも push した／反映：反映済み（「守ること」2行目で既に明記。コミット直後に両方へ push する順序を徹底）</li>
+</ul>
+<p>新しい行は、見つけたその場で上の表の末尾に足す（日付の新しい行を下に）。</p>
 -----
 --------

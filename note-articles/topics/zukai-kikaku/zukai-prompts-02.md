@@ -60,9 +60,14 @@ Title (large, bold): 「土地は筆、建物は個で数える」 / subtitle ba
 
 --- FOOTER --- conclusion band: 「土地は一筆、建物は一個で登記記録をつくる」
 
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 Words allowed on this poster (exactly these strings, nothing else): 「土地は筆、建物は個で数える」 / 「分筆・合筆と分割・合併」 / 「土地」 / 「建物」 / 「分ける」 / 「分筆」 / 「一筆の土地を二筆以上に分ける」 / 「第39条」 / 「分割」 / 「附属建物を別の一個の建物にする」 / 「第54条」 / 「つなぐ」 / 「合筆」 / 「二筆以上の土地を一筆にする」 / 「第39条・第41条」 / 「合併」 / 「他の建物の附属建物にする、または一個にする」 / 「第54条・第56条」 / 「土地は一筆、建物は一個で登記記録をつくる」
 
-Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 土、地、筆、建、物、個、数、分、合、割、併、一、二、以、上、第、条、附、属、別、他、登、記、録.
+Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Confirm the header and bottom edges follow LAYOUT LOCK (no empty band, edges aligned, no empty grid slot). Pay special attention to the kanji: 土、地、筆、建、物、個、数、分、合、割、併、一、二、以、上、第、条、附、属、別、他、登、記、録.
 ```
 
 ### Instagram用（1080x1440・3:4）
@@ -96,9 +101,14 @@ Title (large, bold): 「土地は筆、建物は個で数える」 / subtitle ba
 
 INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
 
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 Words allowed on this poster (exactly these strings, nothing else): 「土地は筆、建物は個で数える」 / 「分筆・合筆と分割・合併」 / 「土地」 / 「建物」 / 「分ける」 / 「分筆」 / 「一筆の土地を二筆以上に分ける」 / 「第39条」 / 「分割」 / 「附属建物を別の一個の建物にする」 / 「第54条」 / 「つなぐ」 / 「合筆」 / 「二筆以上の土地を一筆にする」 / 「第39条・第41条」 / 「合併」 / 「他の建物の附属建物にする、または一個にする」 / 「第54条・第56条」 / 「土地は一筆、建物は一個で登記記録をつくる」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 土、地、筆、建、物、個、数、分、合、割、併、一、二、以、上、第、条、附、属、別、他、登、記、録.
+Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Confirm the header and bottom edges follow LAYOUT LOCK (no empty band, edges aligned, no empty grid slot). Pay special attention to the kanji: 土、地、筆、建、物、個、数、分、合、割、併、一、二、以、上、第、条、附、属、別、他、登、記、録.
 ```
 
 ## 図2：区分と分割、合体と合併（zu02）
@@ -133,9 +143,14 @@ Title (large, bold): 「区分と分割、合体と合併」 / subtitle band: �
 
 --- FOOTER --- conclusion band: 「合体は事実、合併は手続」
 
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 Words allowed on this poster (exactly these strings, nothing else): 「区分と分割、合体と合併」 / 「似ているが別の手続」 / 「建物の分割」 / 「附属建物を、別の一個の建物にする」 / 「建物の区分」 / 「建物の部分を、区分建物にする」 / 「どちらも第54条」 / 「合体」 / 「二以上の建物が一個の建物になった事実」 / 「第49条　合体の日から一月以内」 / 「合併」 / 「登記の手続で、附属建物にする、または一個にする」 / 「第54条　申請の期限の定めなし」 / 「合体は事実、合併は手続」
 
-Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 区、分、割、合、体、併、似、別、手、続、建、物、附、属、一、個、部、第、条、二、以、上、事、実、日、月、内、登、記、申、請、期、限、定.
+Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Confirm the header and bottom edges follow LAYOUT LOCK (no empty band, edges aligned, no empty grid slot). Pay special attention to the kanji: 区、分、割、合、体、併、似、別、手、続、建、物、附、属、一、個、部、第、条、二、以、上、事、実、日、月、内、登、記、申、請、期、限、定.
 ```
 
 ### Instagram用（1080x1440・3:4）
@@ -170,9 +185,14 @@ Title (large, bold): 「区分と分割、合体と合併」 / subtitle band: �
 
 INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
 
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 Words allowed on this poster (exactly these strings, nothing else): 「区分と分割、合体と合併」 / 「似ているが別の手続」 / 「建物の分割」 / 「附属建物を、別の一個の建物にする」 / 「建物の区分」 / 「建物の部分を、区分建物にする」 / 「どちらも第54条」 / 「合体」 / 「二以上の建物が一個の建物になった事実」 / 「第49条　合体の日から一月以内」 / 「合併」 / 「登記の手続で、附属建物にする、または一個にする」 / 「第54条　申請の期限の定めなし」 / 「合体は事実、合併は手続」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 区、分、割、合、体、併、似、別、手、続、建、物、附、属、一、個、部、第、条、二、以、上、事、実、日、月、内、登、記、申、請、期、限、定.
+Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Confirm the header and bottom edges follow LAYOUT LOCK (no empty band, edges aligned, no empty grid slot). Pay special attention to the kanji: 区、分、割、合、体、併、似、別、手、続、建、物、附、属、一、個、部、第、条、二、以、上、事、実、日、月、内、登、記、申、請、期、限、定.
 ```
 
 ## 図3：変更と更正、表題登記と所有権の保存（zu03）
@@ -206,9 +226,14 @@ Title (large, bold): 「変更と更正、表題と保存」 / subtitle band: �
 
 --- FOOTER --- conclusion band: 「表題部は表示、権利部は権利」
 
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 Words allowed on this poster (exactly these strings, nothing else): 「変更と更正、表題と保存」 / 「いつの誤りか、どの部分の最初か」 / 「変更」 / 「登記したあとに、現実が変わった」 / 「第37条・第51条　一月以内」 / 「更正」 / 「登記したときから、内容が誤っていた」 / 「第38条・第53条　期限の定めなし」 / 「表題登記」 / 「表題部に最初にされる登記」 / 「第2条第20号」 / 「所有権の保存」 / 「権利部に最初にされる所有権の登記」 / 「第74条」 / 「表題部は表示、権利部は権利」
 
-Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 変、更、正、表、題、保、存、誤、部、分、最、初、登、記、現、実、第、条、一、月、以、内、容、期、限、定、号、所、有、権、利、示.
+Final check before rendering: confirm the canvas is exactly 1080x1700 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Confirm the header and bottom edges follow LAYOUT LOCK (no empty band, edges aligned, no empty grid slot). Pay special attention to the kanji: 変、更、正、表、題、保、存、誤、部、分、最、初、登、記、現、実、第、条、一、月、以、内、容、期、限、定、号、所、有、権、利、示.
 ```
 
 ### Instagram用（1080x1440・3:4）
@@ -242,9 +267,14 @@ Title (large, bold): 「変更と更正、表題と保存」 / subtitle band: �
 
 INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom, because the profile grid crops the image. Make the type slightly larger than the note version and compress the spacing so that everything fits in 1440px of height. Do not draw any account name, handle, URL or call-to-action text.
 
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+
 Words allowed on this poster (exactly these strings, nothing else): 「変更と更正、表題と保存」 / 「いつの誤りか、どの部分の最初か」 / 「変更」 / 「登記したあとに、現実が変わった」 / 「第37条・第51条　一月以内」 / 「更正」 / 「登記したときから、内容が誤っていた」 / 「第38条・第53条　期限の定めなし」 / 「表題登記」 / 「表題部に最初にされる登記」 / 「第2条第20号」 / 「所有権の保存」 / 「権利部に最初にされる所有権の登記」 / 「第74条」 / 「表題部は表示、権利部は権利」
 
-Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Pay special attention to the kanji: 変、更、正、表、題、保、存、誤、部、分、最、初、登、記、現、実、第、条、一、月、以、内、容、期、限、定、号、所、有、権、利、示.
+Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; confirm the only text is the strings given above, reproduced exactly (scan every kanji for Simplified or Traditional Chinese forms and redraw any that appear); confirm no figure number or extra number appears; confirm the whole canvas is opaque. Confirm the header and bottom edges follow LAYOUT LOCK (no empty band, edges aligned, no empty grid slot). Pay special attention to the kanji: 変、更、正、表、題、保、存、誤、部、分、最、初、登、記、現、実、第、条、一、月、以、内、容、期、限、定、号、所、有、権、利、示.
 ```
 
 ## 見出し画像

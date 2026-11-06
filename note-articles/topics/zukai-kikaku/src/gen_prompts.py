@@ -29,6 +29,14 @@ assert '{motif}' in COMMON and 'pale orange = 権利' in COMMON
 gi = open(os.path.join(NA, 'topics', 'instagram', 'gen_instagram.py'), encoding='utf-8').read()
 a = gi.index("PROMPT = '''") + len("PROMPT = '''")
 IGH = gi[a:gi.index("'''", a)]
+
+LAYOUT_LOCK = """
+LAYOUT LOCK (critical): the header and the bottom edge are fixed as follows.
+- HEADER: the header (title + subtitle) is a fixed block at the top, inside the safe margin. The title is bold and 72 px tall (never larger), on ONE line if it fits within the safe width, otherwise on TWO lines of the same size. The subtitle is 36 px, placed directly under the title with a gap of at most 16 px. The header block is at most 16% of the canvas height. There is NO empty band above the title, NO empty gap between the title and the subtitle, and NO empty band between the header and the first card or group (content starts at most 24 px below the subtitle). Do not enlarge the title to fill space.
+- BOTTOM ALIGNMENT: the content fills the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: if the poster has exactly five cards, do NOT leave an empty slot in the grid. With no column group headers, place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and tag on the right). With two column group headers, keep every card under its own header and make the cards of the column with fewer cards taller so that both columns end on the same bottom line.
+"""
+
 VAR34 = dict(size='1080x1440', ratio='3:4', ty0=120, ty1=620, cy0=760, cy1=1360)
 
 
@@ -56,8 +64,9 @@ def build_fig(t, f, ig):
     p = COMMON.format(size=size, motif=t['motif']) + f['body']
     if ig:
         p += '\n' + IG_EXTRA
-    p += '\n\nWords allowed on this poster (exactly these strings, nothing else): ' + ' / '.join('「%s」' % w for w in ws) + '\n'
-    p += FINAL.format(size=size) + ' Pay special attention to the kanji: ' + '、'.join(kj) + '.'
+    p += '\n' + LAYOUT_LOCK
+    p += '\nWords allowed on this poster (exactly these strings, nothing else): ' + ' / '.join('「%s」' % w for w in ws) + '\n'
+    p += FINAL.format(size=size) + ' Confirm the header and bottom edges follow LAYOUT LOCK (no empty band, edges aligned, no empty grid slot). Pay special attention to the kanji: ' + '、'.join(kj) + '.'
     return p
 
 
