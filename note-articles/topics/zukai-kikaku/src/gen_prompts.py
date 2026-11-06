@@ -1,6 +1,6 @@
 """図解プロンプト（zukai-prompts-0N.md）、見出し画像プロンプト（header-image-prompts.md）、
 Instagramキャプション案（instagram-captions.md）を作る。手で直さず、data.py を直して作り直す：
-  python3 note-articles/zukai-kikaku/src/gen_prompts.py
+  python3 note-articles/topics/zukai-kikaku/src/gen_prompts.py
 図解は、すべて note用（縦長・図ごとのサイズ）と Instagram用（1080x1350・4:5）の2種類を作る。
 見出し画像も note用（1280x670）と Instagram用（1080x1350・4:5）の2種類。
 共通の英語の定型文は、既存の kigen-suuji-zukan/src/gen_prompts.py と topics/instagram/gen_instagram.py から読み込む（文面をそろえるため）。
@@ -11,7 +11,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-NA = os.path.dirname(ROOT)
+NA = os.path.dirname(os.path.dirname(ROOT))
 sys.path.insert(0, HERE)
 from data import TOPICS  # noqa: E402
 

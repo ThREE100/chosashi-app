@@ -540,7 +540,7 @@ I点はBCとY＝485.26の交点で I ＝ B ＋ (C − B) × 0.57 ÷ 10.57 ＝（
 不動産登記法の期限・金額・年月・保存期間（一月以内、三年・二年、過料、罰則、十年・二十年・三十年、規則第28条の保存期間、その他）を、「何の登記か」「いつから数えるか」の2軸で7つの引き出しに整理したnote記事と図解（7枚。**note用とInstagram用の2種類**＝計14本＋見出し画像2種）。「建て付けマップ」（`note-articles/tatekata-map/`）の姉妹編。
 構成案`00-kousei.md`、記事`01-fudousan-touki-hou-kigen-suuji-zukan.md`、図解・見出し画像のプロンプトは`src/gen_prompts.py`で`01-zukai-prompts.md`・`02-header-image-prompts.md`を作る（手で直さない）、Instagramキャプション案`03-instagram-captions.md`（A＝カルーセル、B-0〜B-7＝単発）、原文（法と規則第28条）との機械チェック`check_article.py`（NG 0件。キャプションも確認）。画像の生成・目視確認は未実施。色は 青＝表示、薄い橙＝権利、赤橙＝過料・罰則、灰緑＝保存期間、紫灰＝その他。
 
-## 図解企画6本（`note-articles/zukai-kikaku/`）について(2026-11-05追加)
+## 図解企画6本（`note-articles/topics/zukai-kikaku/`）について(2026-11-05追加)
 
 「建て付けマップ」「数字の図鑑」に続く、新しい切り口の図解記事6本：①土地の一生・建物の一生（ライフサイクル図）、②似た用語の対比図鑑、③表示に関する登記の添付情報 早見図（令別表の項）、④条文の読み方図解（ただし書・除き・前項・準用・みなす）、⑤記述式の「解く順番」図（土地・建物）、⑥ある一日の登記ストーリー（トリ先生と藍子の四コマ＋リールの絵コンテ）。
 構成案`00-kousei.md`、記事`0N-*.md`、図解プロンプト`zukai-prompts-0N.md`（note用とInstagram用）、見出し画像`header-image-prompts.md`（note用・Instagram用、MC1人）、Instagramキャプション`instagram-captions.md`、四コマ`06-yonkoma-prompt.md`、原文（法・令別表・調査士法）との機械チェック`check_article.py`（NG 0件）。生成物は`src/data.py`を直して`src/gen_prompts.py`で作り直す（手で直さない）。画像の生成・目視確認は未実施。色は 表示＝青、権利＝薄い橙。

@@ -1,4 +1,4 @@
-"""図解企画6本（01〜06）の機械チェック。python3 note-articles/zukai-kikaku/check_article.py
+"""図解企画6本（01〜06）の機械チェック。python3 note-articles/topics/zukai-kikaku/check_article.py
   1. 記事・プロンプト・キャプションの「第N条」が、不動産登記法の本則に実在する。
   2. 記事の要点（一月以内、ただし書、準用、みなす、表題登記の定義など）が、原文の該当条にある。期限の定めがないと述べた条に「一月以内」がない。
   3. 添付情報の早見図（KZ_03）の○△－が、不動産登記令の別表の原文と合う。
@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, 'src'))
 from data import TOPICS  # noqa: E402
 
-LAWDIR = os.path.join(HERE, '..', 'laws')
+LAWDIR = os.path.join(HERE, '..', '..', 'laws')
 ng = []
 
 

@@ -18,9 +18,9 @@
 
 ## 作り方
 
-- 図・見出し・キャプションの生成物は手で直さず、`src/data.py` を直して `python3 note-articles/zukai-kikaku/src/gen_prompts.py` で作り直す。
-- 直したら `python3 note-articles/zukai-kikaku/check_article.py` でNG 0件にする。
-- 四コマ（第6回）だけは手書きのプロンプト。`python3 tools/drill/manga/check_prompt.py note-articles/zukai-kikaku/06-yonkoma-prompt.md --no-article` で確かめる。残る2件のNGは、ドリルの肢（D＋4けた）用の記事タイトルの形式と、トリ先生・藍子の見出し画像（この企画の見出し画像はMC1人）に関するもので、この企画には当てはまらない。
+- 図・見出し・キャプションの生成物は手で直さず、`src/data.py` を直して `python3 note-articles/topics/zukai-kikaku/src/gen_prompts.py` で作り直す。
+- 直したら `python3 note-articles/topics/zukai-kikaku/check_article.py` でNG 0件にする。
+- 四コマ（第6回）だけは手書きのプロンプト。`python3 tools/drill/manga/check_prompt.py note-articles/topics/zukai-kikaku/06-yonkoma-prompt.md --no-article` で確かめる。残る2件のNGは、ドリルの肢（D＋4けた）用の記事タイトルの形式と、トリ先生・藍子の見出し画像（この企画の見出し画像はMC1人）に関するもので、この企画には当てはまらない。
 
 ## 画像のファイル名
 
