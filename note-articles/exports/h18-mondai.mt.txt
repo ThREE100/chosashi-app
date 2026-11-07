@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第1問〜本人自身の詐欺は代理人の善意無過失でも取り消せる〜
+TITLE: 【土地家屋調査士試験】平成18年度 第1問〜本人自身の詐欺は代理人の善意無過失でも取り消せる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第2問〜建物の一部の時効取得、実は簡単にはできない〜
+TITLE: 【土地家屋調査士試験】平成18年度 第2問〜建物の一部の時効取得、実は簡単にはできない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -110,7 +110,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第3問〜相続人からの転売は、実は二重譲渡と同じ扱い〜
+TITLE: 【土地家屋調査士試験】平成18年度 第3問〜相続人からの転売は、実は二重譲渡と同じ扱い〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -163,7 +163,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第4問〜共有の建物、実は1人だけで表題登記できる〜
+TITLE: 【土地家屋調査士試験】平成18年度 第4問〜共有の建物、実は1人だけで表題登記できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -216,7 +216,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第5問〜消えた会社でも登記簿の名前は変わらない〜
+TITLE: 【土地家屋調査士試験】平成18年度 第5問〜消えた会社でも登記簿の名前は変わらない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -269,7 +269,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第6問〜国道を挟んでも一つの建物になるんです〜
+TITLE: 【土地家屋調査士試験】平成18年度 第6問〜国道を挟んでも一つの建物になるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -322,7 +322,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第7問〜宅地でも雑種地でもない「第三の地目」に要注意〜
+TITLE: 【土地家屋調査士試験】平成18年度 第7問〜宅地でも雑種地でもない「第三の地目」に要注意〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -405,7 +405,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第8問〜「代わりに申請」できる場面はどこまで?〜
+TITLE: 【土地家屋調査士試験】平成18年度 第8問〜「代わりに申請」できる場面はどこまで?〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -457,7 +457,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第9問〜近くの電柱基準じゃダメなんです〜
+TITLE: 【土地家屋調査士試験】平成18年度 第9問〜近くの電柱基準じゃダメなんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -515,7 +515,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第10問〜その代理権、本人が死んでも消えないんです〜
+TITLE: 【土地家屋調査士試験】平成18年度 第10問〜その代理権、本人が死んでも消えないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -571,7 +571,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第11問〜所有権証明情報、いつ必要でいつ不要？〜
+TITLE: 【土地家屋調査士試験】平成18年度 第11問〜所有権証明情報、いつ必要でいつ不要？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -624,7 +624,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第12問〜抵当権者の承諾書があっても合併できないんです〜
+TITLE: 【土地家屋調査士試験】平成18年度 第12問〜抵当権者の承諾書があっても合併できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -677,7 +677,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第13問〜要役地が別でも地役権なら合筆できる〜
+TITLE: 【土地家屋調査士試験】平成18年度 第13問〜要役地が別でも地役権なら合筆できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -729,7 +729,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第14問〜土地全部の買主は代位で分筆できない〜
+TITLE: 【土地家屋調査士試験】平成18年度 第14問〜土地全部の買主は代位で分筆できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -782,7 +782,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第15問〜合筆では出るのに、分筆では出ない？〜
+TITLE: 【土地家屋調査士試験】平成18年度 第15問〜合筆では出るのに、分筆では出ない？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -835,7 +835,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第16問〜その「知り合い」、法律上はまだ他人です〜
+TITLE: 【土地家屋調査士試験】平成18年度 第16問〜その「知り合い」、法律上はまだ他人です〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -893,7 +893,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第17問〜建物所在図は「地図」からしか生まれない〜
+TITLE: 【土地家屋調査士試験】平成18年度 第17問〜建物所在図は「地図」からしか生まれない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -945,7 +945,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第18問〜合体後も、賃借権だけは付いてこないんです〜
+TITLE: 【土地家屋調査士試験】平成18年度 第18問〜合体後も、賃借権だけは付いてこないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -998,7 +998,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第19問〜敷地権は建物の登記後に生まれることもあるんです〜
+TITLE: 【土地家屋調査士試験】平成18年度 第19問〜敷地権は建物の登記後に生まれることもあるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1051,7 +1051,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成18年度 第20問〜総社員が同意しても越えられない一線〜
+TITLE: 【土地家屋調査士試験】平成18年度 第20問〜総社員が同意しても越えられない一線〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

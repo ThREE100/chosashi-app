@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第1問〜時効完成後の承認は命取り〜
+TITLE: 【土地家屋調査士試験】平成28年度 第1問〜時効完成後の承認は命取り〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第2問〜袋地の通行権は当事者間に限られる〜
+TITLE: 【土地家屋調査士試験】平成28年度 第2問〜袋地の通行権は当事者間に限られる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -107,7 +107,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第3問〜遺産分割協議は不履行でも解除不可〜
+TITLE: 【土地家屋調査士試験】平成28年度 第3問〜遺産分割協議は不履行でも解除不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -160,7 +160,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第4問〜本人死亡後も相続人全員で申出可能〜
+TITLE: 【土地家屋調査士試験】平成28年度 第4問〜本人死亡後も相続人全員で申出可能〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -213,7 +213,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第5問〜特例方式でも原本還付は請求できる〜
+TITLE: 【土地家屋調査士試験】平成28年度 第5問〜特例方式でも原本還付は請求できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -266,7 +266,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第6問〜「3か月以内」は万能ルールじゃない〜
+TITLE: 【土地家屋調査士試験】平成28年度 第6問〜「3か月以内」は万能ルールじゃない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -319,7 +319,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第7問〜代理は「たぶんこう」で判断すると危ない〜
+TITLE: 【土地家屋調査士試験】平成28年度 第7問〜代理は「たぶんこう」で判断すると危ない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -385,7 +385,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第8問〜地目変更登記は「知ってるルール」ほど危ない〜
+TITLE: 【土地家屋調査士試験】平成28年度 第8問〜地目変更登記は「知ってるルール」ほど危ない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -450,7 +450,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第9問〜分筆登記は「目の前の数字」に釣られると危ない〜
+TITLE: 【土地家屋調査士試験】平成28年度 第9問〜分筆登記は「目の前の数字」に釣られると危ない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -517,7 +517,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第10問〜保安林でも合筆できる、その境界線〜
+TITLE: 【土地家屋調査士試験】平成28年度 第10問〜保安林でも合筆できる、その境界線〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -570,7 +570,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第11問〜地積測量図は、時々「一人二役」〜
+TITLE: 【土地家屋調査士試験】平成28年度 第11問〜地積測量図は、時々「一人二役」〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -626,7 +626,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第12問〜「算入する」「しない」は逆だと危ない〜
+TITLE: 【土地家屋調査士試験】平成28年度 第12問〜「算入する」「しない」は逆だと危ない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -679,7 +679,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第13問〜建物を分けても、抵当権は消えない〜
+TITLE: 【土地家屋調査士試験】平成28年度 第13問〜建物を分けても、抵当権は消えない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -734,7 +734,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第14問〜「所有者が死んだ」だけでは合併登記は止まらない〜
+TITLE: 【土地家屋調査士試験】平成28年度 第14問〜「所有者が死んだ」だけでは合併登記は止まらない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -799,7 +799,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第15問〜建物がくっついた日、起きること・起きないこと〜
+TITLE: 【土地家屋調査士試験】平成28年度 第15問〜建物がくっついた日、起きること・起きないこと〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -852,7 +852,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第16問〜表題登記を申請できるのは誰？〜
+TITLE: 【土地家屋調査士試験】平成28年度 第16問〜表題登記を申請できるのは誰？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -905,7 +905,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第17問〜申請人はハンコ不要って本当？〜
+TITLE: 【土地家屋調査士試験】平成28年度 第17問〜申請人はハンコ不要って本当？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -958,7 +958,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第18問〜判決が出ても、筆界特定は消えない〜
+TITLE: 【土地家屋調査士試験】平成28年度 第18問〜判決が出ても、筆界特定は消えない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1011,7 +1011,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第19問〜「非課税のはず」が実は課税対象？〜
+TITLE: 【土地家屋調査士試験】平成28年度 第19問〜「非課税のはず」が実は課税対象？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1064,7 +1064,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成28年度 第20問〜「みんなの同意」があっても、できないことがある〜
+TITLE: 【土地家屋調査士試験】平成28年度 第20問〜「みんなの同意」があっても、できないことがある〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

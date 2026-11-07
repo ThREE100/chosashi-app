@@ -48,7 +48,7 @@ def check_article(n):
     lines = head.split("\n")
 
     # 1 タイトル
-    m = re.match(r"^## 【土地家屋調査士受験生向け】実践答練第2回 第(\d+)問〜(.+)〜$", lines[0])
+    m = re.match(r"^## 【土地家屋調査士試験】実践答練第2回 第(\d+)問〜(.+)〜$", lines[0])
     if not m or int(m.group(1)) != n:
         ng(n, "タイトル行の形が違う: " + lines[0])
     else:
@@ -176,7 +176,7 @@ def check_article(n):
         cards = re.findall(r"^--- (?:COLUMN [AB], )?CARD (\d+) ---$", c, re.M)
         if len(cards) != len(s["info"]["cards"]) or not (4 <= len(cards) <= 6):
             ng(n, "カード枚数が合わない: %d" % len(cards))
-        if "第%d問" % n not in c.split("Subtitle")[1].split("\n")[1]:
+        if "第%d問" % n not in c.split("Subtitle (smaller")[1].split("\n")[1]:
             ng(n, "サブタイトルに問題番号がない")
         sub = c.split("Subtitle (smaller, centered, 1行):\n")[1].split("\n")[0]
         if re.search(r"正しい|誤っ|誤り", sub):

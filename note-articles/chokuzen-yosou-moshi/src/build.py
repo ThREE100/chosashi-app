@@ -207,7 +207,7 @@ def render(q):
     kaidai = q.get("kaidai")
     mark = "（改）" if kaidai else ""
     L = []
-    L.append(f"## 【土地家屋調査士受験生向け】直前予想模試 第{no}問{mark}〜{q['catch']}〜")
+    L.append(f"## 【土地家屋調査士試験】直前予想模試 第{no}問{mark}〜{q['catch']}〜")
     L.append("")
     L.append(f"**出題年度：直前予想模試　択一式　第{no}問{mark}**")
     L.append("")

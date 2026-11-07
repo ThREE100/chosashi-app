@@ -25,7 +25,7 @@ def first_title(path):
         m = re.match(r'#+\s*(.+)', line.strip())
         if m:
             t = m.group(1)
-            t = re.sub(r'^【土地家屋調査士受験生向け】', '', t)
+            t = re.sub(r'^【土地家屋調査士(?:試験|受験生向け)】', '', t)
             return t.strip()
     return ''
 

@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第1問〜その代理、誰の責任になる？〜
+TITLE: 【土地家屋調査士試験】令和3年度 第1問〜その代理、誰の責任になる？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第2問〜物を動かさなくても占有権は移るんです〜
+TITLE: 【土地家屋調査士試験】令和3年度 第2問〜物を動かさなくても占有権は移るんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -105,7 +105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第3問〜「相続させる」遺言は死亡と同時に効くんです〜
+TITLE: 【土地家屋調査士試験】令和3年度 第3問〜「相続させる」遺言は死亡と同時に効くんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -168,7 +168,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第4問〜電子申請、どこまでスキャンで通る？〜
+TITLE: 【土地家屋調査士試験】令和3年度 第4問〜電子申請、どこまでスキャンで通る？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -226,7 +226,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第5問〜添付情報は「省略できる」のか「必要なのか」〜
+TITLE: 【土地家屋調査士試験】令和3年度 第5問〜添付情報は「省略できる」のか「必要なのか」〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -279,7 +279,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第6問〜オンライン申請でも却下決定書は紙で届く〜
+TITLE: 【土地家屋調査士試験】令和3年度 第6問〜オンライン申請でも却下決定書は紙で届く〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -332,7 +332,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第7問〜放置期間は3か月でなく30日なんです〜
+TITLE: 【土地家屋調査士試験】令和3年度 第7問〜放置期間は3か月でなく30日なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -385,7 +385,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第8問〜住所変更登記に1か月の期限はない〜
+TITLE: 【土地家屋調査士試験】令和3年度 第8問〜住所変更登記に1か月の期限はない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -438,7 +438,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第9問〜地番錯雑なら登記官は変更できるんです〜
+TITLE: 【土地家屋調査士試験】令和3年度 第9問〜地番錯雑なら登記官は変更できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -491,7 +491,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第10問〜ペットのお墓は「墓地」にならないんです〜
+TITLE: 【土地家屋調査士試験】令和3年度 第10問〜ペットのお墓は「墓地」にならないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -544,7 +544,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第11問〜賃借権者の承諾はいらないんです〜
+TITLE: 【土地家屋調査士試験】令和3年度 第11問〜賃借権者の承諾はいらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -597,7 +597,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第12問〜一度使った符号はもう二度と使えないんです〜
+TITLE: 【土地家屋調査士試験】令和3年度 第12問〜一度使った符号はもう二度と使えないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -650,7 +650,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第13問〜その図面、出す？出さない？〜
+TITLE: 【土地家屋調査士試験】令和3年度 第13問〜その図面、出す？出さない？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -703,7 +703,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第14問〜規則にない「保育所」も登記できるんです〜
+TITLE: 【土地家屋調査士試験】令和3年度 第14問〜規則にない「保育所」も登記できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -761,7 +761,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第15問〜一棟の更正は職権で他の区分建物にも及ぶ〜
+TITLE: 【土地家屋調査士試験】令和3年度 第15問〜一棟の更正は職権で他の区分建物にも及ぶ〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -814,7 +814,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第16問〜建物の分割・合併、その登記できる？できない？〜
+TITLE: 【土地家屋調査士試験】令和3年度 第16問〜建物の分割・合併、その登記できる？できない？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -867,7 +867,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第17問〜建物が消えたら誰が・どう登記する？〜
+TITLE: 【土地家屋調査士試験】令和3年度 第17問〜建物が消えたら誰が・どう登記する？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -920,7 +920,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第18問〜その建物、誰が「共用部分」にできる？〜
+TITLE: 【土地家屋調査士試験】令和3年度 第18問〜その建物、誰が「共用部分」にできる？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -973,7 +973,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第19問〜境界を決めてもらう手続、誰が使える？〜
+TITLE: 【土地家屋調査士試験】令和3年度 第19問〜境界を決めてもらう手続、誰が使える？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1026,7 +1026,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和3年度 第20問〜その届出、どこに出す？監督は誰がする？〜
+TITLE: 【土地家屋調査士試験】令和3年度 第20問〜その届出、どこに出す？監督は誰がする？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

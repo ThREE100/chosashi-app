@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第1問〜日用品の買い物は悪意でも取消し不可〜
+TITLE: 【土地家屋調査士試験】令和6年度 第1問〜日用品の買い物は悪意でも取消し不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -63,7 +63,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第2問〜登記なしで対抗できる5つの除外類型〜
+TITLE: 【土地家屋調査士試験】令和6年度 第2問〜登記なしで対抗できる5つの除外類型〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -152,7 +152,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第3問〜祖父は代襲でなく自分の権利で相続〜
+TITLE: 【土地家屋調査士試験】令和6年度 第3問〜祖父は代襲でなく自分の権利で相続〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -210,7 +210,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第4問〜不要そうに見えて、実は省略できないんです〜
+TITLE: 【土地家屋調査士試験】令和6年度 第4問〜不要そうに見えて、実は省略できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -288,7 +288,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第5問〜調査士補国方式「申請人自身が作成した書面か、それとも第三者の意思確認を担保すべき書面か」〜
+TITLE: 【土地家屋調査士試験】令和6年度 第5問〜調査士補国方式「申請人自身が作成した書面か、それとも第三者の意思確認を担保すべき書面か」〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -347,7 +347,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第6問〜地図の訂正、実はどこでもできない〜
+TITLE: 【土地家屋調査士試験】令和6年度 第6問〜地図の訂正、実はどこでもできない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -417,7 +417,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第7問〜「登記当初からの誤り（更正）」なのか「登記後に生じた事情による変化（変更）」なのか～
+TITLE: 【土地家屋調査士試験】令和6年度 第7問〜「登記当初からの誤り（更正）」なのか「登記後に生じた事情による変化（変更）」なのか～
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -475,7 +475,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第8問〜一覧図があっても、書くべきことはあるんです〜
+TITLE: 【土地家屋調査士試験】令和6年度 第8問〜一覧図があっても、書くべきことはあるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -559,7 +559,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第9問〜地目が同じでも現況が違えば合筆不可〜
+TITLE: 【土地家屋調査士試験】令和6年度 第9問〜地目が同じでも現況が違えば合筆不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -618,7 +618,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第10問〜地役権図面、要役地の住所は不要〜
+TITLE: 【土地家屋調査士試験】令和6年度 第10問〜地役権図面、要役地の住所は不要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -675,7 +675,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第11問〜附属建物の買主は代位で分割登記できる〜
+TITLE: 【土地家屋調査士試験】令和6年度 第11問〜附属建物の買主は代位で分割登記できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -734,7 +734,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第12問〜サイロは建物、石油タンクは建物じゃない〜
+TITLE: 【土地家屋調査士試験】令和6年度 第12問〜サイロは建物、石油タンクは建物じゃない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -794,7 +794,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第13問〜桟橋の建物は「何番地先」と登記〜
+TITLE: 【土地家屋調査士試験】令和6年度 第13問〜桟橋の建物は「何番地先」と登記〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -851,7 +851,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第14問〜離れは、いつでも附属建物になれるわけじゃない〜
+TITLE: 【土地家屋調査士試験】令和6年度 第14問〜離れは、いつでも附属建物になれるわけじゃない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -911,7 +911,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第15問〜表題部所有者の更正、申請できるのは誰？〜
+TITLE: 【土地家屋調査士試験】令和6年度 第15問〜表題部所有者の更正、申請できるのは誰？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -969,7 +969,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第16問〜仮登記や共用部分があると合併できない〜
+TITLE: 【土地家屋調査士試験】令和6年度 第16問〜仮登記や共用部分があると合併できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1031,7 +1031,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第17問〜相続登記を経なくても滅失登記できる〜
+TITLE: 【土地家屋調査士試験】令和6年度 第17問〜相続登記を経なくても滅失登記できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1089,7 +1089,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第18問〜一棟の変更登記は一人の申請で足りる〜
+TITLE: 【土地家屋調査士試験】令和6年度 第18問〜一棟の変更登記は一人の申請で足りる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1148,7 +1148,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第19問〜筆界特定、訴訟が係属中でも申請できるんです〜
+TITLE: 【土地家屋調査士試験】令和6年度 第19問〜筆界特定、訴訟が係属中でも申請できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1207,7 +1207,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和6年度 第20問〜登録申請は法務局でなく調査士会経由〜
+TITLE: 【土地家屋調査士試験】令和6年度 第20問〜登録申請は法務局でなく調査士会経由〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

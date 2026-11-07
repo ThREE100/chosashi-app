@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第1問〜建物を売っても名義人はまだ責任あり〜
+TITLE: 【土地家屋調査士試験】令和元年度 第1問〜建物を売っても名義人はまだ責任あり〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第2問〜単独でできることとできないことの境目〜
+TITLE: 【土地家屋調査士試験】令和元年度 第2問〜単独でできることとできないことの境目〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -105,7 +105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第3問〜日付を「吉日」と書くと遺言は無効になる〜
+TITLE: 【土地家屋調査士試験】令和元年度 第3問〜日付を「吉日」と書くと遺言は無効になる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -158,7 +158,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第4問〜建物の管轄は主である建物が基準になる〜
+TITLE: 【土地家屋調査士試験】令和元年度 第4問〜建物の管轄は主である建物が基準になる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -211,7 +211,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第5問〜竹木が生える土地は原野でなく山林〜
+TITLE: 【土地家屋調査士試験】令和元年度 第5問〜竹木が生える土地は原野でなく山林〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -265,7 +265,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第6問〜滅失登記の起算点は「知った日」でない〜
+TITLE: 【土地家屋調査士試験】令和元年度 第6問〜滅失登記の起算点は「知った日」でない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -323,7 +323,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第7問〜閉鎖された地積測量図は永久保存じゃない〜
+TITLE: 【土地家屋調査士試験】令和元年度 第7問〜閉鎖された地積測量図は永久保存じゃない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -376,7 +376,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第8問〜住民票コードがあれば住所証明は不要〜
+TITLE: 【土地家屋調査士試験】令和元年度 第8問〜住民票コードがあれば住所証明は不要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -429,7 +429,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第9問〜屋外階段を共用する二棟は一個の建物〜
+TITLE: 【土地家屋調査士試験】令和元年度 第9問〜屋外階段を共用する二棟は一個の建物〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -482,7 +482,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第10問〜図面の訂正の申出は義務ではなく任意〜
+TITLE: 【土地家屋調査士試験】令和元年度 第10問〜図面の訂正の申出は義務ではなく任意〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -535,7 +535,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第11問〜一の申請情報、まとめられるのはどこまで？〜
+TITLE: 【土地家屋調査士試験】令和元年度 第11問〜一の申請情報、まとめられるのはどこまで？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -588,7 +588,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第12問〜建物の分割・合併、その申請できる？〜
+TITLE: 【土地家屋調査士試験】令和元年度 第12問〜建物の分割・合併、その申請できる？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -641,7 +641,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第13問〜保存登記が消えたその後、登記記録はどうなる？〜
+TITLE: 【土地家屋調査士試験】令和元年度 第13問〜保存登記が消えたその後、登記記録はどうなる？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -694,7 +694,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第14問〜代わりに申請できる？代位申請の見極めライン〜
+TITLE: 【土地家屋調査士試験】令和元年度 第14問〜代わりに申請できる？代位申請の見極めライン〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -747,7 +747,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第15問〜その添付情報、電子申請でほんとに要る？〜
+TITLE: 【土地家屋調査士試験】令和元年度 第15問〜その添付情報、電子申請でほんとに要る？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -800,7 +800,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第16問〜その登記、申請義務ある？ない？〜
+TITLE: 【土地家屋調査士試験】令和元年度 第16問〜その登記、申請義務ある？ない？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -853,7 +853,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第17問〜地図の間違いは「誰が」「どこまで」直せる？〜
+TITLE: 【土地家屋調査士試験】令和元年度 第17問〜地図の間違いは「誰が」「どこまで」直せる？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -906,7 +906,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第18問〜区分建物の登記、敷地権が絡むと難しい？〜
+TITLE: 【土地家屋調査士試験】令和元年度 第18問〜区分建物の登記、敷地権が絡むと難しい？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -959,7 +959,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第19問〜登記記録から「土地の履歴」を読み解く〜
+TITLE: 【土地家屋調査士試験】令和元年度 第19問〜登記記録から「土地の履歴」を読み解く〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1023,7 +1023,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和元年度 第20問〜その義務、「努力」か「絶対」か？〜
+TITLE: 【土地家屋調査士試験】令和元年度 第20問〜その義務、「努力」か「絶対」か？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

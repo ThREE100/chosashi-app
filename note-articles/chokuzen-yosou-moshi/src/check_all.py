@@ -76,7 +76,7 @@ def main():
         if re.search(r"(ない|する|なる|ある|いる|できる|れる|ぎる|った)$", q["catch"]):
             warn(n, "キャッチフレーズの語尾が常体の言い切りに見える: " + q["catch"])
         title = md.split("\n")[0]
-        exp = f"## 【土地家屋調査士受験生向け】直前予想模試 第{n}問{'（改）' if q.get('kaidai') else ''}〜{q['catch']}〜"
+        exp = f"## 【土地家屋調査士試験】直前予想模試 第{n}問{'（改）' if q.get('kaidai') else ''}〜{q['catch']}〜"
         if title != exp:
             ng(n, "タイトル行の形式が違う")
 

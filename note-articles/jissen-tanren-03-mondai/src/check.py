@@ -40,7 +40,7 @@ def check_article(n, d):
     lines = s.split("\n")
 
     # --- タイトル
-    m = re.match(r"^## 【土地家屋調査士受験生向け】実践答練 第3回 第%d問〜(.+)〜$" % n, lines[0])
+    m = re.match(r"^## 【土地家屋調査士試験】実践答練 第3回 第%d問〜(.+)〜$" % n, lines[0])
     if not m:
         bad(f, "タイトル行の形が違う")
     else:
@@ -216,7 +216,7 @@ def check_article(n, d):
     if ncards != len(d["cards"]):
         bad(f, "カード数が合わない")
     msub = re.search(r"Subtitle \(smaller, centered, 1行\):\n(.+)\n", info)
-    if not msub or not re.search(r"第3回 第%d問\)$" % n, msub.group(1)):
+    if not msub or not re.search(r"第3回 第%d問$" % n, msub.group(1)):
         bad(f, "サブタイトルに問題番号がない")
     if msub and re.search(r"正しい|誤っ|誤り", msub.group(1)):
         bad(f, "サブタイトルに正誤の結論")

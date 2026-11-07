@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第1問〜未成年者も双方代理も、実は認められるんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第1問〜未成年者も双方代理も、実は認められるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -62,7 +62,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第2問〜「結婚したら贈与」でも仮登記できるって知ってた？〜
+TITLE: 【土地家屋調査士試験】平成24年度 第2問〜「結婚したら贈与」でも仮登記できるって知ってた？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -127,7 +127,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第3問〜取消し後に現れた買主には登記が必要なんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第3問〜取消し後に現れた買主には登記が必要なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -199,7 +199,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第4問〜地番、実は申請情報に書かなくていいんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第4問〜地番、実は申請情報に書かなくていいんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -262,7 +262,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第5問〜市街地の精度、「甲三まで」じゃ甘いんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第5問〜市街地の精度、「甲三まで」じゃ甘いんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -321,7 +321,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第6問〜地目変更の登記原因日は、許可日じゃないんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第6問〜地目変更の登記原因日は、許可日じゃないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -383,7 +383,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第7問〜分筆しただけじゃ、共有はまだ解消されないんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第7問〜分筆しただけじゃ、共有はまだ解消されないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -448,7 +448,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第8問〜抵当権が1つ残れば、合筆できないんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第8問〜抵当権が1つ残れば、合筆できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -518,7 +518,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第9問〜地積が変わるなら、訂正じゃなく更正登記なんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第9問〜地積が変わるなら、訂正じゃなく更正登記なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -580,7 +580,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第10問〜所有権の裁判確定後も、筆界特定は申請できるんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第10問〜所有権の裁判確定後も、筆界特定は申請できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -649,7 +649,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第11問〜筆界特定書、実は永久保存なんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第11問〜筆界特定書、実は永久保存なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -710,7 +710,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第12問〜規約廃止後も、所有権証明は省略できないんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第12問〜規約廃止後も、所有権証明は省略できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -771,7 +771,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第13問〜床面積の誤り、更正登記に申請義務はないんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第13問〜床面積の誤り、更正登記に申請義務はないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -834,7 +834,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第14問〜買主は売主に代わって、分割登記を申請できるんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第14問〜買主は売主に代わって、分割登記を申請できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -899,7 +899,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第15問〜現況が同じでも、登記で個数は増減するんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第15問〜現況が同じでも、登記で個数は増減するんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -960,7 +960,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第16問〜アーケード街路、実は建物にはなれないんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第16問〜アーケード街路、実は建物にはなれないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1025,7 +1025,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第17問〜各階平面図、500分の1縛りじゃないんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第17問〜各階平面図、500分の1縛りじゃないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1086,7 +1086,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第18問〜法定共用部分の持分、公正証書じゃ変えられない〜
+TITLE: 【土地家屋調査士試験】平成24年度 第18問〜法定共用部分の持分、公正証書じゃ変えられない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1144,7 +1144,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第19問〜分筆＋合筆の一括申請は、2000円なんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第19問〜分筆＋合筆の一括申請は、2000円なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1209,7 +1209,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成24年度 第20問（改）〜報酬額、今は調査士会が決めてないんです〜
+TITLE: 【土地家屋調査士試験】平成24年度 第20問（改）〜報酬額、今は調査士会が決めてないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

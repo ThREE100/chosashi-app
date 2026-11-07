@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第1問〜同意も撤回も補助開始も本人次第〜
+TITLE: 【土地家屋調査士試験】平成30年度 第1問〜同意も撤回も補助開始も本人次第〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第2問〜くっついたら相手のもの、でも償金請求できる〜
+TITLE: 【土地家屋調査士試験】平成30年度 第2問〜くっついたら相手のもの、でも償金請求できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -105,7 +105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第3問〜放棄は代襲不可、廃除・欠格は子が代襲〜
+TITLE: 【土地家屋調査士試験】平成30年度 第3問〜放棄は代襲不可、廃除・欠格は子が代襲〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -158,7 +158,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第4問〜登記識別情報だけは電子申請でも書面不可〜
+TITLE: 【土地家屋調査士試験】平成30年度 第4問〜登記識別情報だけは電子申請でも書面不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -211,7 +211,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第5問〜催告が先、調査は日の出から日没まで〜
+TITLE: 【土地家屋調査士試験】平成30年度 第5問〜催告が先、調査は日の出から日没まで〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -269,7 +269,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第6問〜閉鎖地図は永久保存、職権訂正もできる〜
+TITLE: 【土地家屋調査士試験】平成30年度 第6問〜閉鎖地図は永久保存、職権訂正もできる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -322,7 +322,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第7問〜却下でなく事前通知、代表者面談も不要〜
+TITLE: 【土地家屋調査士試験】平成30年度 第7問〜却下でなく事前通知、代表者面談も不要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -375,7 +375,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第8問〜分筆しても新しい登記識別情報は出ない〜
+TITLE: 【土地家屋調査士試験】平成30年度 第8問〜分筆しても新しい登記識別情報は出ない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -428,7 +428,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第9問〜石油タンクの下も、宅地なんです〜
+TITLE: 【土地家屋調査士試験】平成30年度 第9問〜石油タンクの下も、宅地なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -486,7 +486,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第10問〜屋根のない観覧席は建物として登記できない〜
+TITLE: 【土地家屋調査士試験】平成30年度 第10問〜屋根のない観覧席は建物として登記できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -539,7 +539,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第11問〜区分建物と敷地権の定義を穴埋めで丸暗記〜
+TITLE: 【土地家屋調査士試験】平成30年度 第11問〜区分建物と敷地権の定義を穴埋めで丸暗記〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -618,7 +618,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第12問〜建物表題部の更正登記、実は申請義務なし〜
+TITLE: 【土地家屋調査士試験】平成30年度 第12問〜建物表題部の更正登記、実は申請義務なし〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -671,7 +671,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第13問〜エレベーター室は各階で床面積に算入〜
+TITLE: 【土地家屋調査士試験】平成30年度 第13問〜エレベーター室は各階で床面積に算入〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -724,7 +724,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第14問〜附属建物、符号は残して中身だけ書き換え〜
+TITLE: 【土地家屋調査士試験】平成30年度 第14問〜附属建物、符号は残して中身だけ書き換え〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -777,7 +777,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第15問〜分割は職権じゃなく所有者の意思でするんです〜
+TITLE: 【土地家屋調査士試験】平成30年度 第15問〜分割は職権じゃなく所有者の意思でするんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -830,7 +830,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第16問〜共用部分の登記、実は職権でできないんです〜
+TITLE: 【土地家屋調査士試験】平成30年度 第16問〜共用部分の登記、実は職権でできないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -883,7 +883,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第17問〜「表題部のみ」の証明書は実は存在しないんです〜
+TITLE: 【土地家屋調査士試験】平成30年度 第17問〜「表題部のみ」の証明書は実は存在しないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -936,7 +936,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第18問〜登記官への審査請求、実は期限がないんです〜
+TITLE: 【土地家屋調査士試験】平成30年度 第18問〜登記官への審査請求、実は期限がないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -989,7 +989,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第19問〜意見聴取、現地開催も同席もできるんです〜
+TITLE: 【土地家屋調査士試験】平成30年度 第19問〜意見聴取、現地開催も同席もできるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1042,7 +1042,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成30年度 第20問〜2年業務なしの取消しは義務でなく裁量です〜
+TITLE: 【土地家屋調査士試験】平成30年度 第20問〜2年業務なしの取消しは義務でなく裁量です〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

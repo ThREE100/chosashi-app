@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第1問〜代理人が悪意でも契約不適合は追及できるんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第1問〜代理人が悪意でも契約不適合は追及できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -105,7 +105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第2問〜所有権が移るのは登記でなく取得の瞬間〜
+TITLE: 【土地家屋調査士試験】平成29年度 第2問〜所有権が移るのは登記でなく取得の瞬間〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -187,7 +187,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第3問〜承認は熟慮期間中でも撤回できない〜
+TITLE: 【土地家屋調査士試験】平成29年度 第3問〜承認は熟慮期間中でも撤回できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -262,7 +262,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第4問〜建物と認められるには用途性が必要〜
+TITLE: 【土地家屋調査士試験】平成29年度 第4問〜建物と認められるには用途性が必要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -325,7 +325,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第5問〜官庁も希望すれば登記識別情報が通知される〜
+TITLE: 【土地家屋調査士試験】平成29年度 第5問〜官庁も希望すれば登記識別情報が通知される〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -389,7 +389,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第6問〜法人番号を出しても代表者名は省略不可〜
+TITLE: 【土地家屋調査士試験】平成29年度 第6問〜法人番号を出しても代表者名は省略不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -450,7 +450,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第7問〜古材で建て直しても登記上は新築扱い〜
+TITLE: 【土地家屋調査士試験】平成29年度 第7問〜古材で建て直しても登記上は新築扱い〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -518,7 +518,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第8問〜スキャンしても原本提示は省略不可〜
+TITLE: 【土地家屋調査士試験】平成29年度 第8問〜スキャンしても原本提示は省略不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -583,7 +583,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第9問〜登記識別情報の書面は還付されず廃棄〜
+TITLE: 【土地家屋調査士試験】平成29年度 第9問〜登記識別情報の書面は還付されず廃棄〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -648,7 +648,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第10問〜登記完了後はもう取り下げられない〜
+TITLE: 【土地家屋調査士試験】平成29年度 第10問〜登記完了後はもう取り下げられない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -710,7 +710,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第11問〜相続は「変更登記」じゃないんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第11問〜相続は「変更登記」じゃないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -784,7 +784,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第12問〜地番の誤りと形状の誤りで変わるんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第12問〜地番の誤りと形状の誤りで変わるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -846,7 +846,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第13問〜全部沈んでも「一時的」なら所有権は消えないんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第13問〜全部沈んでも「一時的」なら所有権は消えないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -907,7 +907,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第14問〜片方だけ抵当権、承諾があっても合筆できないんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第14問〜片方だけ抵当権、承諾があっても合筆できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -972,7 +972,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第15問〜1人が申請すれば他の区分所有者は免れるんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第15問〜1人が申請すれば他の区分所有者は免れるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1035,7 +1035,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第16問〜屋根裏部屋は「階」に入る？入らない？〜
+TITLE: 【土地家屋調査士試験】平成29年度 第16問〜屋根裏部屋は「階」に入る？入らない？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1105,7 +1105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第17問〜敷地権の抹消、実は職権でやってくれるんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第17問〜敷地権の抹消、実は職権でやってくれるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1197,7 +1197,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第18問〜建物の滅失登記、印鑑証明書も承諾書もいらないんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第18問〜建物の滅失登記、印鑑証明書も承諾書もいらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1266,7 +1266,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第19問〜筆界特定は所有権の境界を決めないんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第19問〜筆界特定は所有権の境界を決めないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1328,7 +1328,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成29年度 第20問〜調査士法人、実は1人でも設立できるんです〜
+TITLE: 【土地家屋調査士試験】平成29年度 第20問〜調査士法人、実は1人でも設立できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第1問〜詐術を使うと、あとから取り消せなくなる〜
+TITLE: 【土地家屋調査士試験】平成26年度 第1問〜詐術を使うと、あとから取り消せなくなる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第2問〜所有権があれば、時効では消えない〜
+TITLE: 【土地家屋調査士試験】平成26年度 第2問〜所有権があれば、時効では消えない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -109,7 +109,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第3問〜離婚しても、子どもの相続権は消えないんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第3問〜離婚しても、子どもの相続権は消えないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -161,7 +161,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第4問〜表題部所有者のルーツは「台帳」にあった〜
+TITLE: 【土地家屋調査士試験】平成26年度 第4問〜表題部所有者のルーツは「台帳」にあった〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -219,7 +219,7 @@ G　用益物権の設定　H　所有権の保存　I　所有権の移転　J�
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第5問〜地図の閲覧、実は誰でもできるんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第5問〜地図の閲覧、実は誰でもできるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -272,7 +272,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第6問〜更正登記があっても、前の図面は残るんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第6問〜更正登記があっても、前の図面は残るんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -346,7 +346,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第7問（改）〜台帳のない土地、買った人にも申請義務があるんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第7問（改）〜台帳のない土地、買った人にも申請義務があるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -403,7 +403,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第8問〜印鑑証明書がいらない場面、意外とあるんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第8問〜印鑑証明書がいらない場面、意外とあるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -460,7 +460,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第9問〜地積が減っても、抵当権者の承諾はいらないんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第9問〜地積が減っても、抵当権者の承諾はいらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -513,7 +513,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第10問〜判決があれば、非協力の共有者に代位できるんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第10問〜判決があれば、非協力の共有者に代位できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -566,7 +566,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第11問〜増築が何度あっても、最後の日付だけでいいんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第11問〜増築が何度あっても、最後の日付だけでいいんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -619,7 +619,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第12問〜同時に2件申請、添付情報は使い回せるんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第12問〜同時に2件申請、添付情報は使い回せるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -686,7 +686,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第13問〜2棟分、まとめて訂正申出はできないんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第13問〜2棟分、まとめて訂正申出はできないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -739,7 +739,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第14問〜附属建物の新築、住所証明書はいらないんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第14問〜附属建物の新築、住所証明書はいらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -794,7 +794,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第15問〜一棟の建物なのに、計り方が違うんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第15問〜一棟の建物なのに、計り方が違うんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -849,7 +849,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第16問〜規約敷地は、複数のマンションで共有できるんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第16問〜規約敷地は、複数のマンションで共有できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -919,7 +919,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第17問〜印鑑証明書が持分証明書を兼ねるんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第17問〜印鑑証明書が持分証明書を兼ねるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -984,7 +984,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第18問〜地役権図面はオンラインで請求できるんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第18問〜地役権図面はオンラインで請求できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1049,7 +1049,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第19問〜相続登記なしでも、筆界特定は申請できるんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第19問〜相続登記なしでも、筆界特定は申請できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1102,7 +1102,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成26年度 第20問〜業務廃止の届出は、連合会に直接じゃないんです〜
+TITLE: 【土地家屋調査士試験】平成26年度 第20問〜業務廃止の届出は、連合会に直接じゃないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

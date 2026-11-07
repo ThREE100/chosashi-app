@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第1問〜社団の借金、会員は自腹を切らずに済むんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第1問〜社団の借金、会員は自腹を切らずに済むんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -57,7 +57,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第2問〜悪意の占有でも20年で時効取得できるんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第2問〜悪意の占有でも20年で時効取得できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -110,7 +110,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第3問〜袋地を買ったら、登記がなくても通れるんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第3問〜袋地を買ったら、登記がなくても通れるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -163,7 +163,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第4問〜「一切の権限」でも、取下げは別委任がいるんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第4問〜「一切の権限」でも、取下げは別委任がいるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -216,7 +216,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第5問（改）〜法改正で「番号だけ」が使えるようになったんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第5問（改）〜法改正で「番号だけ」が使えるようになったんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -272,7 +272,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第6問〜ゴルフ場は、クラブハウスごと「雑種地」なんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第6問〜ゴルフ場は、クラブハウスごと「雑種地」なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -325,7 +325,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第7問〜登記原因の日付は許可日でなく変更日なんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第7問〜登記原因の日付は許可日でなく変更日なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -378,7 +378,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第8問〜抵当権者は、地積更正を申請できないんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第8問〜抵当権者は、地積更正を申請できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -431,7 +431,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第9問〜非協力の共有者にも、代位して分筆できるんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第9問〜非協力の共有者にも、代位して分筆できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -484,7 +484,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第10問〜地役権の例外は承役地側だけ、要役地はダメなんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第10問〜地役権の例外は承役地側だけ、要役地はダメなんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -537,7 +537,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第11問〜仮換地の建物、所在は仮換地の地番で書くんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第11問〜仮換地の建物、所在は仮換地の地番で書くんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -589,7 +589,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第12問〜地下があるなら、地下を先に書くんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第12問〜地下があるなら、地下を先に書くんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -642,7 +642,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第13問〜基礎を残した建て直しも「新築」扱いなんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第13問〜基礎を残した建て直しも「新築」扱いなんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -695,7 +695,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第14問〜割合が合算で出せるなら、規約証明はいらないんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第14問〜割合が合算で出せるなら、規約証明はいらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -748,7 +748,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第15問〜マンションの1階は「平家建」じゃないんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第15問〜マンションの1階は「平家建」じゃないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -808,7 +808,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第16問〜合体後の所有権の登記は「職権」でされるんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第16問〜合体後の所有権の登記は「職権」でされるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -861,7 +861,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第17問〜相続人は相続登記なしで滅失登記できるんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第17問〜相続人は相続登記なしで滅失登記できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -914,7 +914,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第18問〜筆界特定は境界を「明らかにする」ものなんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第18問〜筆界特定は境界を「明らかにする」ものなんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -967,7 +967,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第19問〜区分建物の合併は課税、でも合体は非課税なんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第19問〜区分建物の合併は課税、でも合体は非課税なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1020,7 +1020,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和2年度 第20問〜測量業務は、補助者に任せられないんです〜
+TITLE: 【土地家屋調査士試験】令和2年度 第20問〜測量業務は、補助者に任せられないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

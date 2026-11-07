@@ -18,7 +18,7 @@ for f in sorted(glob.glob(os.path.join(HERE, 'day*-kaisetsu.md'))):
     s = open(f, encoding='utf-8').read()
     lines = s.split('\n')
     t = lines[0]
-    m = re.fullmatch(r'## 【土地家屋調査士受験生向け】毎朝ドリル_Day(\d{3})_択一解説～(.+)～', t)
+    m = re.fullmatch(r'## 【土地家屋調査士試験】毎朝ドリル_Day(\d{3})_択一解説～(.+)～', t)
     if not m:
         bad(f, 'タイトル行の形')
     else:

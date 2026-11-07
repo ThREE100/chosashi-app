@@ -27,7 +27,7 @@ def build(n):
         # 個数問題でも、見出し行は同じ形にする
         pass
     out = []
-    out.append("## 【土地家屋調査士受験生向け】実践答練第2回 第%d問〜%s〜" % (n, s["title"]))
+    out.append("## 【土地家屋調査士試験】実践答練第2回 第%d問〜%s〜" % (n, s["title"]))
     out.append("")
     out.append("**出題年度：実践答練　第2回　択一式　第%d問**" % n)
     out.append("")

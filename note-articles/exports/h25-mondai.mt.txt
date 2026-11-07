@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第1問〜「知っていたのに騙された」は通用しない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第1問〜「知っていたのに騙された」は通用しない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -63,7 +63,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第2問〜時効の判断基準は「最初の占有者」で決まる〜
+TITLE: 【土地家屋調査士試験】平成25年度 第2問〜時効の判断基準は「最初の占有者」で決まる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -116,7 +116,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第3問〜承諾するのは代理人ではなく第三者〜
+TITLE: 【土地家屋調査士試験】平成25年度 第3問〜承諾するのは代理人ではなく第三者〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -169,7 +169,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第4問〜バラバラの登記もまとめて一括申請できる〜
+TITLE: 【土地家屋調査士試験】平成25年度 第4問〜バラバラの登記もまとめて一括申請できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -222,7 +222,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第5問〜承諾書の印鑑証明書は原本還付できない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第5問〜承諾書の印鑑証明書は原本還付できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -270,7 +270,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第6問〜内容が怪しくても即却下にはならない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第6問〜内容が怪しくても即却下にはならない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -323,7 +323,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第7問〜名義人が別人なら単独更正はできない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第7問〜名義人が別人なら単独更正はできない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -376,7 +376,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第8問〜牧場内の牧畜用建物は宅地にならない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第8問〜牧場内の牧畜用建物は宅地にならない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -429,7 +429,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第9問〜河川管理者は本人に代わり分筆できる〜
+TITLE: 【土地家屋調査士試験】平成25年度 第9問〜河川管理者は本人に代わり分筆できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -482,7 +482,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第10問〜仮換地上の建物は仮換地の地番で登記〜
+TITLE: 【土地家屋調査士試験】平成25年度 第10問〜仮換地上の建物は仮換地の地番で登記〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -535,7 +535,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第11問〜家屋番号の更正登記という制度はない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第11問〜家屋番号の更正登記という制度はない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -588,7 +588,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第12問〜「多目的ビル」という種類は存在しない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第12問〜「多目的ビル」という種類は存在しない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -641,7 +641,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第13問〜吹抜け部分はどの階の床面積にもならない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第13問〜吹抜け部分はどの階の床面積にもならない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -694,7 +694,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第14問〜代位申請の原因は他の書類の援用だけでは不足〜
+TITLE: 【土地家屋調査士試験】平成25年度 第14問〜代位申請の原因は他の書類の援用だけでは不足〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -747,7 +747,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第15問〜遺産分割協議書だけは原本還付の簡略化対象外〜
+TITLE: 【土地家屋調査士試験】平成25年度 第15問〜遺産分割協議書だけは原本還付の簡略化対象外〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -804,7 +804,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第16問〜一人が申請すれば他の区分所有者は不要〜
+TITLE: 【土地家屋調査士試験】平成25年度 第16問〜一人が申請すれば他の区分所有者は不要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -857,7 +857,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第17問〜賃借権があると建物の合併はできない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第17問〜賃借権があると建物の合併はできない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -910,7 +910,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第18問〜永久保存なのは筆界特定書だけ〜
+TITLE: 【土地家屋調査士試験】平成25年度 第18問〜永久保存なのは筆界特定書だけ〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -964,7 +964,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第19問〜登記官への審査請求に期限も参加人もない〜
+TITLE: 【土地家屋調査士試験】平成25年度 第19問〜登記官への審査請求に期限も参加人もない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1017,7 +1017,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成25年度 第20問〜筆界特定の相談も、実は断れるんです〜
+TITLE: 【土地家屋調査士試験】平成25年度 第20問〜筆界特定の相談も、実は断れるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

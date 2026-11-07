@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第1問〜時効取得、完成の前後で登記の要否が逆転〜
+TITLE: 【土地家屋調査士試験】平成21年度 第1問〜時効取得、完成の前後で登記の要否が逆転〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第2問〜工作物が滅失しても地上権は消えないんです〜
+TITLE: 【土地家屋調査士試験】平成21年度 第2問〜工作物が滅失しても地上権は消えないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -105,7 +105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第3問〜遺産分割、合意ならやり直せても不履行では解除不可〜
+TITLE: 【土地家屋調査士試験】平成21年度 第3問〜遺産分割、合意ならやり直せても不履行では解除不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -158,7 +158,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第4問〜温室やタンクはダメでもコンテナ倉庫は建物になる〜
+TITLE: 【土地家屋調査士試験】平成21年度 第4問〜温室やタンクはダメでもコンテナ倉庫は建物になる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -211,7 +211,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第5問〜地目は所有者の主観でなく現況で決まるんです〜
+TITLE: 【土地家屋調査士試験】平成21年度 第5問〜地目は所有者の主観でなく現況で決まるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -264,7 +264,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第6問〜証明を請求できるのは名義人だけなんです〜
+TITLE: 【土地家屋調査士試験】平成21年度 第6問〜証明を請求できるのは名義人だけなんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -317,7 +317,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第7問〜分筆線の位置ズレは地積更正では直せない〜
+TITLE: 【土地家屋調査士試験】平成21年度 第7問〜分筆線の位置ズレは地積更正では直せない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -372,7 +372,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第8問〜表題部所有者の相続は変更でなく保存登記〜
+TITLE: 【土地家屋調査士試験】平成21年度 第8問〜表題部所有者の相続は変更でなく保存登記〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -425,7 +425,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第9問〜同じ印鑑証明書でも3月以内とは限らない〜
+TITLE: 【土地家屋調査士試験】平成21年度 第9問〜同じ印鑑証明書でも3月以内とは限らない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -478,7 +478,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第10問〜曳家しても建物は滅失していないんです〜
+TITLE: 【土地家屋調査士試験】平成21年度 第10問〜曳家しても建物は滅失していないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -531,7 +531,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第11問〜表題部所有者の合併登記に印鑑証明書は不要〜
+TITLE: 【土地家屋調査士試験】平成21年度 第11問〜表題部所有者の合併登記に印鑑証明書は不要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -583,7 +583,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第12問〜専用の承諾書は還付できないが印鑑証明書はできる〜
+TITLE: 【土地家屋調査士試験】平成21年度 第12問〜専用の承諾書は還付できないが印鑑証明書はできる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -636,7 +636,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第13問〜地積更正と図面訂正はセット義務ではない〜
+TITLE: 【土地家屋調査士試験】平成21年度 第13問〜地積更正と図面訂正はセット義務ではない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -689,7 +689,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第14問〜住所変更直後でも本人確認調査は義務ではない〜
+TITLE: 【土地家屋調査士試験】平成21年度 第14問〜住所変更直後でも本人確認調査は義務ではない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -743,7 +743,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第15問〜抵当権者と無表題地同士の境は筆界特定できない〜
+TITLE: 【土地家屋調査士試験】平成21年度 第15問〜抵当権者と無表題地同士の境は筆界特定できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -796,7 +796,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第16問〜公図の前身は市町村役場でなく税務署にあった〜
+TITLE: 【土地家屋調査士試験】平成21年度 第16問〜公図の前身は市町村役場でなく税務署にあった〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -846,7 +846,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第17問〜三方壁の車庫は床面積に入るが屋外階段は入らない〜
+TITLE: 【土地家屋調査士試験】平成21年度 第17問〜三方壁の車庫は床面積に入るが屋外階段は入らない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -899,7 +899,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第18問〜隔壁を壊して一室にすれば、それが合体になる〜
+TITLE: 【土地家屋調査士試験】平成21年度 第18問〜隔壁を壊して一室にすれば、それが合体になる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -952,7 +952,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第19問〜区分建物の表題登記は最初に所有した者が申請人〜
+TITLE: 【土地家屋調査士試験】平成21年度 第19問〜区分建物の表題登記は最初に所有した者が申請人〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1005,7 +1005,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成21年度 第20問〜実は今なら誰も欠格に当たらないんです〜
+TITLE: 【土地家屋調査士試験】平成21年度 第20問〜実は今なら誰も欠格に当たらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

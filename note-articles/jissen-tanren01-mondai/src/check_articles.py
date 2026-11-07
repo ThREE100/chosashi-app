@@ -57,7 +57,7 @@ for path in sorted(glob.glob(os.path.join(ROOT, "q*.md"))):
     lines = body.split("\n")
 
     # 1 タイトル
-    m = re.match(r"## 【土地家屋調査士受験生向け】実践答練 第1回 第{}問〜(.+)〜$".format(n), lines[0])
+    m = re.match(r"## 【土地家屋調査士試験】実践答練 第1回 第{}問〜(.+)〜$".format(n), lines[0])
     if not m:
         bad(f, "タイトル行の形式")
     else:

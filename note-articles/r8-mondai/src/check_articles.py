@@ -41,7 +41,7 @@ for path in files:
     cb = combo(n)
 
     # 1 タイトル
-    m = re.match(r"## 【土地家屋調査士受験生向け】令和8年度 第{}問〜(.+)〜$".format(n), lines[0])
+    m = re.match(r"## 【土地家屋調査士試験】令和8年度 第{}問〜(.+)〜$".format(n), lines[0])
     if not m:
         bad(f, "タイトル行の形式")
     else:

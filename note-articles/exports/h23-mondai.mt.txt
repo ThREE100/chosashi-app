@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第1問（改）〜強迫の取消しは、善意の第三者にも勝てる〜
+TITLE: 【土地家屋調査士試験】平成23年度 第1問（改）〜強迫の取消しは、善意の第三者にも勝てる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -66,7 +66,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第2問〜反射的利益だけでは時効は援用できない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第2問〜反射的利益だけでは時効は援用できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -132,7 +132,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第3問〜多数派でも、使う共有者は当然には追い出せない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第3問〜多数派でも、使う共有者は当然には追い出せない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -199,7 +199,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第4問〜登記識別情報、なくしても再発行はない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第4問〜登記識別情報、なくしても再発行はない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -261,7 +261,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第5問〜地図訂正、共有者の一人でも申出できる〜
+TITLE: 【土地家屋調査士試験】平成23年度 第5問〜地図訂正、共有者の一人でも申出できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -321,7 +321,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第6問〜「3分の2以上で分筆」というルールはない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第6問〜「3分の2以上で分筆」というルールはない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -383,7 +383,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第7問〜いったん消えた地番、勝手には使い回せない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第7問〜いったん消えた地番、勝手には使い回せない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -444,7 +444,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第8問〜抵当権を消す分筆、錯誤では戻せない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第8問〜抵当権を消す分筆、錯誤では戻せない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -511,7 +511,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第9問〜合意や時効で動くのは所有権界だけ〜
+TITLE: 【土地家屋調査士試験】平成23年度 第9問〜合意や時効で動くのは所有権界だけ〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -574,7 +574,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第10問〜別々の建物は名義人が同じでもまとめられない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第10問〜別々の建物は名義人が同じでもまとめられない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -638,7 +638,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第11問〜地役権者は、承役地の分筆を代位できない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第11問〜地役権者は、承役地の分筆を代位できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -698,7 +698,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第12問〜持分更正に持分権の証明書はいらない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第12問〜持分更正に持分権の証明書はいらない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -758,7 +758,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第13問〜材料を使い回しても元の建物は消える〜
+TITLE: 【土地家屋調査士試験】平成23年度 第13問〜材料を使い回しても元の建物は消える〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -816,7 +816,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第14問〜管轄の決め手は主である建物、附属は無関係〜
+TITLE: 【土地家屋調査士試験】平成23年度 第14問〜管轄の決め手は主である建物、附属は無関係〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -880,7 +880,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第15問〜規約敷地の追加だけなら建物図面は不要〜
+TITLE: 【土地家屋調査士試験】平成23年度 第15問〜規約敷地の追加だけなら建物図面は不要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -940,7 +940,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第16問〜地目変更登記、起算点は取得日じゃない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第16問〜地目変更登記、起算点は取得日じゃない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -997,7 +997,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第17問〜基礎を残して建て直しても図面は必要〜
+TITLE: 【土地家屋調査士試験】平成23年度 第17問〜基礎を残して建て直しても図面は必要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1058,7 +1058,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第18問〜母屋と物置の合体は「合体登記」の対象外〜
+TITLE: 【土地家屋調査士試験】平成23年度 第18問〜母屋と物置の合体は「合体登記」の対象外〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1119,7 +1119,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第19問〜相続人は「自己」を表題部所有者にできない〜
+TITLE: 【土地家屋調査士試験】平成23年度 第19問〜相続人は「自己」を表題部所有者にできない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1180,7 +1180,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成23年度 第20問〜書類作成の受任は、同意があっても引き受け不可〜
+TITLE: 【土地家屋調査士試験】平成23年度 第20問〜書類作成の受任は、同意があっても引き受け不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

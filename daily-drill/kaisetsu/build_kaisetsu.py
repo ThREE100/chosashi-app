@@ -63,7 +63,7 @@ def build(n):
     d = importlib.import_module(f'day{n:03d}').D
     p = json.load(open(os.path.join(HERE, '..', 'morning', 'problems', f'AM-{n:03d}.json'), encoding='utf-8'))
     w, num = answer(p)
-    o = [f"## 【土地家屋調査士受験生向け】毎朝ドリル_Day{n:03d}_択一解説～{d['catch']}～", '',
+    o = [f"## 【土地家屋調査士試験】毎朝ドリル_Day{n:03d}_択一解説～{d['catch']}～", '',
          f'**出題：毎日ドリル　第{n}日（朝）　択一**', '', quote(p), '', '---', '', d['intro'], '']
     for lab in 'アイウエオ':
         h, body = d['sections'][lab]

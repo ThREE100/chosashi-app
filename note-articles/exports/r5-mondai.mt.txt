@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第1問〜取消しは遡って無効になる〜
+TITLE: 【土地家屋調査士試験】令和5年度 第1問〜取消しは遡って無効になる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第2問〜無権利者には登記なしでも勝てる〜
+TITLE: 【土地家屋調査士試験】令和5年度 第2問〜無権利者には登記なしでも勝てる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -105,7 +105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第3問〜後の遺言が前の遺言を上書きする〜
+TITLE: 【土地家屋調査士試験】令和5年度 第3問〜後の遺言が前の遺言を上書きする〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -158,7 +158,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第4問〜実地調査は日の出から日没までだけ〜
+TITLE: 【土地家屋調査士試験】令和5年度 第4問〜実地調査は日の出から日没までだけ〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -211,7 +211,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第5問〜区分建物が非区分になると記録は新規作成〜
+TITLE: 【土地家屋調査士試験】令和5年度 第5問〜区分建物が非区分になると記録は新規作成〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -264,7 +264,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第6問〜調査士の実測図も地図になり得る〜
+TITLE: 【土地家屋調査士試験】令和5年度 第6問〜調査士の実測図も地図になり得る〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -323,7 +323,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第7問〜登記前に売れば申請は買主がする〜
+TITLE: 【土地家屋調査士試験】令和5年度 第7問〜登記前に売れば申請は買主がする〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -376,7 +376,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第8問〜霊園ではなく地目は墓地〜
+TITLE: 【土地家屋調査士試験】令和5年度 第8問〜霊園ではなく地目は墓地〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -429,7 +429,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第9問〜抵当権は分筆後の全部から消せない〜
+TITLE: 【土地家屋調査士試験】令和5年度 第9問〜抵当権は分筆後の全部から消せない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -482,7 +482,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第10問〜図面の住所は作成者のものだけ〜
+TITLE: 【土地家屋調査士試験】令和5年度 第10問〜図面の住所は作成者のものだけ〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -537,7 +537,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第11問〜膜構造のテントも建物として登記できる〜
+TITLE: 【土地家屋調査士試験】令和5年度 第11問〜膜構造のテントも建物として登記できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -590,7 +590,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第12問〜塔屋は一部使うと全体を床面積に算入〜
+TITLE: 【土地家屋調査士試験】令和5年度 第12問〜塔屋は一部使うと全体を床面積に算入〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -656,7 +656,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第13問〜共有のマンションも一人で表題登記できる〜
+TITLE: 【土地家屋調査士試験】令和5年度 第13問〜共有のマンションも一人で表題登記できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -709,7 +709,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第14問〜合体の登記に住所証明は省略不可〜
+TITLE: 【土地家屋調査士試験】令和5年度 第14問〜合体の登記に住所証明は省略不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -767,7 +767,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第15問〜仮処分の債権者も代位で分割登記できる〜
+TITLE: 【土地家屋調査士試験】令和5年度 第15問〜仮処分の債権者も代位で分割登記できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -820,7 +820,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第16問〜相続人の一人だけで合体登記を申請できる〜
+TITLE: 【土地家屋調査士試験】令和5年度 第16問〜相続人の一人だけで合体登記を申請できる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -873,7 +873,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第17問〜共用部分の登記に申請義務はない〜
+TITLE: 【土地家屋調査士試験】令和5年度 第17問〜共用部分の登記に申請義務はない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -926,7 +926,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第18問〜測量費用は申請人が前払いする〜
+TITLE: 【土地家屋調査士試験】令和5年度 第18問〜測量費用は申請人が前払いする〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -979,7 +979,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第19問〜再交付は申出人本人しか頼めない〜
+TITLE: 【土地家屋調査士試験】令和5年度 第19問〜再交付は申出人本人しか頼めない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1032,7 +1032,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和5年度 第20問〜戒告でも懲戒は官報で公告される〜
+TITLE: 【土地家屋調査士試験】令和5年度 第20問〜戒告でも懲戒は官報で公告される〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

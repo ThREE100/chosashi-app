@@ -125,7 +125,7 @@ def build_article(n, d):
     q = QS[n]
     L = []
     a = L.append
-    a("## 【土地家屋調査士受験生向け】令和8年度 第{}問〜{}〜".format(n, d["catch"]))
+    a("## 【土地家屋調査士試験】令和8年度 第{}問〜{}〜".format(n, d["catch"]))
     a("")
     a("**出題年度：令和8年度　午後の部　第{}問**".format(n))
     a("")

@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第1問〜転質、実は設定者に承諾いらないんです〜
+TITLE: 【土地家屋調査士試験】平成20年度 第1問〜転質、実は設定者に承諾いらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -57,7 +57,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第2問〜共有者仲間も、実は「第三者」なんです〜
+TITLE: 【土地家屋調査士試験】平成20年度 第2問〜共有者仲間も、実は「第三者」なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -128,7 +128,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第3問〜成年被後見人の契約は「無効」じゃなく「取消し」〜
+TITLE: 【土地家屋調査士試験】平成20年度 第3問〜成年被後見人の契約は「無効」じゃなく「取消し」〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -186,7 +186,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第4問〜仮処分があっても、滅失登記に承諾はいらない〜
+TITLE: 【土地家屋調査士試験】平成20年度 第4問〜仮処分があっても、滅失登記に承諾はいらない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -249,7 +249,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第5問〜同一でも建て替えなら滅失＋表題登記が必要〜
+TITLE: 【土地家屋調査士試験】平成20年度 第5問〜同一でも建て替えなら滅失＋表題登記が必要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -309,7 +309,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第6問〜温泉の湧出口でも、地目は保安林のまま〜
+TITLE: 【土地家屋調査士試験】平成20年度 第6問〜温泉の湧出口でも、地目は保安林のまま〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -369,7 +369,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第7問〜地積更正では、筆界そのものは動かない〜
+TITLE: 【土地家屋調査士試験】平成20年度 第7問〜地積更正では、筆界そのものは動かない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -429,7 +429,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第8問〜期間切れの地上権でも、抹消しないと合筆不可〜
+TITLE: 【土地家屋調査士試験】平成20年度 第8問〜期間切れの地上権でも、抹消しないと合筆不可〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -496,7 +496,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第9問〜持分変更登記、実は存在しないんです〜
+TITLE: 【土地家屋調査士試験】平成20年度 第9問〜持分変更登記、実は存在しないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -559,7 +559,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第10問〜登記識別情報は、スキャンでは代用できない〜
+TITLE: 【土地家屋調査士試験】平成20年度 第10問〜登記識別情報は、スキャンでは代用できない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -617,7 +617,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第11問〜地役権図面に、実は「面積」は書かないんです〜
+TITLE: 【土地家屋調査士試験】平成20年度 第11問〜地役権図面に、実は「面積」は書かないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -678,7 +678,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第12問〜却下処分にも、実は審査請求ができるんです〜
+TITLE: 【土地家屋調査士試験】平成20年度 第12問〜却下処分にも、実は審査請求ができるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -738,7 +738,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第13問〜地役権部分の分筆でも、図面の出し直しは不要〜
+TITLE: 【土地家屋調査士試験】平成20年度 第13問〜地役権部分の分筆でも、図面の出し直しは不要〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -799,7 +799,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第14問〜柱の出っ張りは、実は「なかったこと」にする〜
+TITLE: 【土地家屋調査士試験】平成20年度 第14問〜柱の出っ張りは、実は「なかったこと」にする〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -862,7 +862,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第15問〜建物の合体、実は登録免許税がかからない〜
+TITLE: 【土地家屋調査士試験】平成20年度 第15問〜建物の合体、実は登録免許税がかからない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -926,7 +926,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第16問〜桟橋の上の店舗も、定着性があれば建物になる〜
+TITLE: 【土地家屋調査士試験】平成20年度 第16問〜桟橋の上の店舗も、定着性があれば建物になる〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -990,7 +990,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第17問〜2棟をつなぐ渡り廊下は、床面積に入らない〜
+TITLE: 【土地家屋調査士試験】平成20年度 第17問〜2棟をつなぐ渡り廊下は、床面積に入らない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1053,7 +1053,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第18問〜抵当権の移転仮登記は、実は合併の邪魔にならない〜
+TITLE: 【土地家屋調査士試験】平成20年度 第18問〜抵当権の移転仮登記は、実は合併の邪魔にならない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1119,7 +1119,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第19問〜「絶対に必要」と言い切る肢ほど、実は怪しい〜
+TITLE: 【土地家屋調査士試験】平成20年度 第19問〜「絶対に必要」と言い切る肢ほど、実は怪しい〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1184,7 +1184,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成20年度 第20問〜戒告でも、官報公告は省略できないんです〜
+TITLE: 【土地家屋調査士試験】平成20年度 第20問〜戒告でも、官報公告は省略できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

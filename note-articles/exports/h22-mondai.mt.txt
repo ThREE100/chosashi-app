@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第1問〜無権代理人と本人、どっちがどっちを相続した？〜
+TITLE: 【土地家屋調査士試験】平成22年度 第1問〜無権代理人と本人、どっちがどっちを相続した？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第2問〜その相手、登記なしで勝てる？負ける？〜
+TITLE: 【土地家屋調査士試験】平成22年度 第2問〜その相手、登記なしで勝てる？負ける？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -105,7 +105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第3問〜袋地の通行権、通れるのは「分けた相手の土地」〜
+TITLE: 【土地家屋調査士試験】平成22年度 第3問〜袋地の通行権、通れるのは「分けた相手の土地」〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -158,7 +158,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第4問〜くっつけられる土地、くっつけられない土地〜
+TITLE: 【土地家屋調査士試験】平成22年度 第4問〜くっつけられる土地、くっつけられない土地〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -212,7 +212,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第5問〜建物の合併、単独申請できる？住所が違うままで平気？〜
+TITLE: 【土地家屋調査士試験】平成22年度 第5問〜建物の合併、単独申請できる？住所が違うままで平気？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -265,7 +265,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第6問〜共用部分の登記、抵当権者の承諾は必要？〜
+TITLE: 【土地家屋調査士試験】平成22年度 第6問〜共用部分の登記、抵当権者の承諾は必要？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -318,7 +318,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第7問〜登記完了の通知、誰に届く？1人でいいの？〜
+TITLE: 【土地家屋調査士試験】平成22年度 第7問〜登記完了の通知、誰に届く？1人でいいの？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -371,7 +371,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第8問〜申請の取下げ、電子申請は紙で出せない〜
+TITLE: 【土地家屋調査士試験】平成22年度 第8問〜申請の取下げ、電子申請は紙で出せない〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -424,7 +424,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第9問〜依頼人が亡くなっても、代理人は登記できるんです〜
+TITLE: 【土地家屋調査士試験】平成22年度 第9問〜依頼人が亡くなっても、代理人は登記できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -477,7 +477,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第10問〜筆界特定、誰が申請できて、いつ蒸し返せる？〜
+TITLE: 【土地家屋調査士試験】平成22年度 第10問〜筆界特定、誰が申請できて、いつ蒸し返せる？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -530,7 +530,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第11問〜地積の更正、抵当権者の承諾は本当に不要？〜
+TITLE: 【土地家屋調査士試験】平成22年度 第11問〜地積の更正、抵当権者の承諾は本当に不要？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -583,7 +583,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第12問〜「工場用地」なんて地目、実はないんです〜
+TITLE: 【土地家屋調査士試験】平成22年度 第12問〜「工場用地」なんて地目、実はないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -636,7 +636,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第13問〜1棟を2棟に分ける「分棟」、登録免許税はかかる？〜
+TITLE: 【土地家屋調査士試験】平成22年度 第13問〜1棟を2棟に分ける「分棟」、登録免許税はかかる？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -689,7 +689,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第14問〜住民票コードで住所証明を省略できるんです〜
+TITLE: 【土地家屋調査士試験】平成22年度 第14問〜住民票コードで住所証明を省略できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -742,7 +742,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第15問〜区分建物の登記、抵当権と所在地番のあつかいに注意〜
+TITLE: 【土地家屋調査士試験】平成22年度 第15問〜区分建物の登記、抵当権と所在地番のあつかいに注意〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -795,7 +795,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第16問〜書面をスキャンして電子署名、どの添付情報ならOK？〜
+TITLE: 【土地家屋調査士試験】平成22年度 第16問〜書面をスキャンして電子署名、どの添付情報ならOK？〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -849,7 +849,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第17問〜「未登記であることの証明書」なんて、実はないんです〜
+TITLE: 【土地家屋調査士試験】平成22年度 第17問〜「未登記であることの証明書」なんて、実はないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -902,7 +902,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第18問〜分筆で権利はどう移る？「消滅した旨の記録」に注意〜
+TITLE: 【土地家屋調査士試験】平成22年度 第18問〜分筆で権利はどう移る？「消滅した旨の記録」に注意〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -955,7 +955,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第19問〜識別情報を失念しても、道はあるんです〜
+TITLE: 【土地家屋調査士試験】平成22年度 第19問〜識別情報を失念しても、道はあるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1008,7 +1008,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成22年度 第20問〜登録は調査士会経由、法務局じゃないんです〜
+TITLE: 【土地家屋調査士試験】平成22年度 第20問〜登録は調査士会経由、法務局じゃないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

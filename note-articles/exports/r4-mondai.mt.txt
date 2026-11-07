@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第1問〜保佐開始の審判に、本人の同意はいらないんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第1問〜保佐開始の審判に、本人の同意はいらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第2問〜強迫の取消しは無過失の第三者にも勝てるんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第2問〜強迫の取消しは無過失の第三者にも勝てるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -105,7 +105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第3問〜放棄の撤回はできないが取消しはできるんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第3問〜放棄の撤回はできないが取消しはできるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -158,7 +158,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第4問〜土地の閉鎖登記記録は50年、つづり込み帳は5年〜
+TITLE: 【土地家屋調査士試験】令和4年度 第4問〜土地の閉鎖登記記録は50年、つづり込み帳は5年〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -211,7 +211,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第5問〜共有の合筆、識別情報は「二人ぶん」出るんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第5問〜共有の合筆、識別情報は「二人ぶん」出るんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -269,7 +269,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第6問〜石油タンクも温泉宿も、地目は宅地なんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第6問〜石油タンクも温泉宿も、地目は宅地なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -322,7 +322,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第7問〜地目変更は「義務あり」、地積更正は「義務なし」〜
+TITLE: 【土地家屋調査士試験】令和4年度 第7問〜地目変更は「義務あり」、地積更正は「義務なし」〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -378,7 +378,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第8問〜買戻特約は期間が過ぎても「転写」されるんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第8問〜買戻特約は期間が過ぎても「転写」されるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -431,7 +431,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第9問〜合筆できる？できない？「所有権以外の登記」がカギ〜
+TITLE: 【土地家屋調査士試験】令和4年度 第9問〜合筆できる？できない？「所有権以外の登記」がカギ〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -484,7 +484,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第10問〜「簡単に動かせる」建物は、登記できないんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第10問〜「簡単に動かせる」建物は、登記できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -537,7 +537,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第11問〜家屋番号は登記所が決める、変えられないんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第11問〜家屋番号は登記所が決める、変えられないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -590,7 +590,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第12問〜出窓は1.5メートル以上で床面積に算入なんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第12問〜出窓は1.5メートル以上で床面積に算入なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -643,7 +643,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第13問〜区分建物の表題登記は原始取得者だけが申請人なんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第13問〜区分建物の表題登記は原始取得者だけが申請人なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -696,7 +696,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第14問〜取り壊して建て替えたら、それは「別の建物」なんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第14問〜取り壊して建て替えたら、それは「別の建物」なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -749,7 +749,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第15問〜合体の登記原因は「新築、新築、合体」って書くんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第15問〜合体の登記原因は「新築、新築、合体」って書くんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -802,7 +802,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第16問〜表示の登記なら、相続登記なしで申請できるんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第16問〜表示の登記なら、相続登記なしで申請できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -855,7 +855,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第17問〜区分建物の表題登記は一棟まるごと一括が基本なんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第17問〜区分建物の表題登記は一棟まるごと一括が基本なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -908,7 +908,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第18問〜敷地権を切り離すには「規約」がいるんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第18問〜敷地権を切り離すには「規約」がいるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -962,7 +962,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第19問〜筆界特定の費用、払うのは「申請した人」だけなんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第19問〜筆界特定の費用、払うのは「申請した人」だけなんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1015,7 +1015,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】令和4年度 第20問〜事件簿は「閉鎖後7年」、代表社員は「任意」なんです〜
+TITLE: 【土地家屋調査士試験】令和4年度 第20問〜事件簿は「閉鎖後7年」、代表社員は「任意」なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

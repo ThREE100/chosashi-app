@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第1問〜明渡しも抵当権設定も、一人でできるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第1問〜明渡しも抵当権設定も、一人でできるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -52,7 +52,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第2問〜だまされたより脅された方が守られるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第2問〜だまされたより脅された方が守られるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -105,7 +105,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第3問〜同意より独立性、増築の所有権が決まるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第3問〜同意より独立性、増築の所有権が決まるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -158,7 +158,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第4問〜屋根が開いても階段室も、実は算入されるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第4問〜屋根が開いても階段室も、実は算入されるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -211,7 +211,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第5問〜請負に出しても、所有者は免許を受けた人なんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第5問〜請負に出しても、所有者は免許を受けた人なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -264,7 +264,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第6問〜和解が成立したら、代位して分筆できるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第6問〜和解が成立したら、代位して分筆できるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -316,7 +316,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第7問〜抵当権者は地図の訂正を求められないんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第7問〜抵当権者は地図の訂正を求められないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -369,7 +369,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第8問〜登記所の管轄が違っても、附属建物にできるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第8問〜登記所の管轄が違っても、附属建物にできるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -422,7 +422,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第9問〜分筆登記に登記識別情報は不要なんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第9問〜分筆登記に登記識別情報は不要なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -473,7 +473,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第10問〜未登記建物の合体は、合併登記じゃないんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第10問〜未登記建物の合体は、合併登記じゃないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -526,7 +526,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第11問〜換地で分かれても、所有者に分筆義務はないんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第11問〜換地で分かれても、所有者に分筆義務はないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -579,7 +579,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第12問〜敷地の所有者が違っても、合併登記はできるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第12問〜敷地の所有者が違っても、合併登記はできるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -632,7 +632,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第13問〜合筆で消えた登記簿、実は永久保存じゃないんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第13問〜合筆で消えた登記簿、実は永久保存じゃないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -685,7 +685,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第14問〜電車も山門も建物、売店だけは違うんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第14問〜電車も山門も建物、売店だけは違うんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -738,7 +738,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第15問〜共有者の1人でも、地積更正登記はできるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第15問〜共有者の1人でも、地積更正登記はできるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -791,7 +791,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第16問〜建物設備があれば、火葬場も宅地になるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第16問〜建物設備があれば、火葬場も宅地になるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -869,7 +869,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第17問〜訂正できるのは「何人も」じゃないんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第17問〜訂正できるのは「何人も」じゃないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -922,7 +922,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第18問〜不正の疑いがあっても、申請は取り下げられるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第18問〜不正の疑いがあっても、申請は取り下げられるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -975,7 +975,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第19問〜共用部分にすると、前の登記は職権で消えるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第19問〜共用部分にすると、前の登記は職権で消えるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1028,7 +1028,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成17年度 第20問〜常駐すべき調査士会は事務所ごとに決まるんです〜
+TITLE: 【土地家屋調査士試験】平成17年度 第20問〜常駐すべき調査士会は事務所ごとに決まるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0

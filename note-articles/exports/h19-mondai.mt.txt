@@ -1,5 +1,5 @@
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第1問〜遡及効を合意すれば最初から有効になるんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第1問〜遡及効を合意すれば最初から有効になるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -57,7 +57,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第2問〜対抗できないは実は理由が全部違うんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第2問〜対抗できないは実は理由が全部違うんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -110,7 +110,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第3問〜不法占拠者にも占有権はあるんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第3問〜不法占拠者にも占有権はあるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -163,7 +163,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第4問〜屋外階段は床面積に入らないんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第4問〜屋外階段は床面積に入らないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -216,7 +216,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第5問〜団地共用部分の滅失は所有者が申請するんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第5問〜団地共用部分の滅失は所有者が申請するんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -269,7 +269,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第6問〜合体前の建物は滅失じゃなく抹消なんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第6問〜合体前の建物は滅失じゃなく抹消なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -322,7 +322,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第7問〜附属建物だけ新築でも図面は主たる建物も必要なんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第7問〜附属建物だけ新築でも図面は主たる建物も必要なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -375,7 +375,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第8問〜表題部変更、1か月義務があるのは一部だけなんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第8問〜表題部変更、1か月義務があるのは一部だけなんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -428,7 +428,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第9問〜仮登記名義人は筆界特定を申請できないんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第9問〜仮登記名義人は筆界特定を申請できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -486,7 +486,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第10問〜承役地側だけ合筆できる例外なんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第10問〜承役地側だけ合筆できる例外なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -544,7 +544,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第11問〜埋立地は行政区画確定までどこにも申請できないんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第11問〜埋立地は行政区画確定までどこにも申請できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -597,7 +597,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第12問〜分筆は保存行為だから許可はいらないんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第12問〜分筆は保存行為だから許可はいらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -651,7 +651,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第13問〜学校用地内の畑は一団で観察されるんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第13問〜学校用地内の畑は一団で観察されるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -704,7 +704,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第14問〜意見提出は聴取期日のあとなんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第14問〜意見提出は聴取期日のあとなんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -769,7 +769,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第15問〜署名すれば押印はいらないんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第15問〜署名すれば押印はいらないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -822,7 +822,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第16問〜取り壊しと新築はまとめて申請できないんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第16問〜取り壊しと新築はまとめて申請できないんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -875,7 +875,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第17問〜面識なくても本人確認情報は作れるんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第17問〜面識なくても本人確認情報は作れるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -928,7 +928,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第18問〜抵当権があっても滅失登記に承諾書は不要なんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第18問〜抵当権があっても滅失登記に承諾書は不要なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -981,7 +981,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第19問〜固定されている浮船は建物になるんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第19問〜固定されている浮船は建物になるんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
@@ -1064,7 +1064,7 @@ BODY:
 --------
 
 AUTHOR: chosashi-note
-TITLE: 【土地家屋調査士受験生向け】平成19年度 第20問〜補助者の届出先は調査士会なんです〜
+TITLE: 【土地家屋調査士試験】平成19年度 第20問〜補助者の届出先は調査士会なんです〜
 STATUS: Draft
 ALLOW COMMENTS: 1
 CONVERT BREAKS: 0
