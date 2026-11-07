@@ -12,7 +12,7 @@
 | 6 | `06-ichinichi-no-touki-story.md` | `06-yonkoma-prompt.md`（四コマ。1080×1920）、`06-reel-storyboard.md`（リールの絵コンテ） |
 
 共通：
-- 見出し画像のプロンプト（note用1280×670・Instagram用1080×1350（4:5）。MC1人）：各記事の末尾の「見出し画像プロンプト」の節（`gen_prompts.py` が書き込む。noteに投稿するときは削除）と、全企画をまとめた `header-image-prompts.md`
+- 見出し画像のプロンプト（note用1280×670・Instagram用1080×1440（3:4）。MC1人）：各記事の末尾の「見出し画像プロンプト」の節（`gen_prompts.py` が書き込む。noteに投稿するときは削除）と、全企画をまとめた `header-image-prompts.md`
 - Instagramのキャプション案（企画ごとにカルーセル用と単発用）：`instagram-captions.md`
 - 原文との機械チェック：`check_article.py`（NG 0件）
 

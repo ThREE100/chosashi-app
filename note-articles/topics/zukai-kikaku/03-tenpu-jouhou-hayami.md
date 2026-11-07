@@ -53,7 +53,7 @@
 | 用途 | サイズ | 文字 |
 |---|---|---|
 | note用 | 1280×670 | 「表示の登記の」／「添付情報早見図」／「何の登記に何を付けるか」 |
-| Instagram用 | 1080×1350（4:5） | 「表示の登記の」／「添付情報早見図」／「何の登記に何を付けるか」／「令別表の項で決まる」 |
+| Instagram用 | 1080×1440（3:4） | 「表示の登記の」／「添付情報早見図」／「何の登記に何を付けるか」／「令別表の項で決まる」 |
 
 ### note用（1280×670）
 
@@ -85,14 +85,14 @@ LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the c
 Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (表・示・登・記・添・付・情・報・早・見・図・何) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm the canvas is fully opaque.
 ```
 
-### Instagram用（1080×1350・4:5）
+### Instagram用（1080×1440・3:4）
 
 ```
-Create an Instagram feed cover image, portrait layout, EXACTLY 1080x1350 pixels (4:5).
+Create an Instagram feed cover image, portrait layout, EXACTLY 1080x1440 pixels (3:4).
 
 STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com header images of the same series. Fill the whole canvas with the pastel sky and soft clouds.
 
-INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text, and no logo or watermark.
+INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text, and no logo or watermark.
 
 CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.
 
@@ -100,7 +100,7 @@ CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, 
 
 BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.
 
-TEXT (reproduce verbatim, nothing else), centered in the upper part of the canvas between y=100px and y=570px, over a soft white cloud-shaped glow, bold rounded font. Line 1, large, dark navy with a pale yellow marker stroke behind it:
+TEXT (reproduce verbatim, nothing else), centered in the upper part of the canvas between y=120px and y=620px, over a soft white cloud-shaped glow, bold rounded font. Line 1, large, dark navy with a pale yellow marker stroke behind it:
 表示の登記の
 Line 2, very large; the phrase 早見図 is red-orange and the rest is dark navy:
 添付情報早見図
@@ -110,11 +110,11 @@ Line 4, smaller, dark navy, below the band:
 令別表の項で決まる
 Do not write any other text anywhere in the image.
 
-SCENE: the MC character stands at the bottom center (about y=700px to y=1280px). Behind and beside her, drawn simply and softly: a clipboard with blank sheets, paper clips, and a small stack of blank documents. No text on any object; props stay soft so they never compete with the title or the character.
+SCENE: the MC character stands at the bottom center (about y=760px to y=1360px). Behind and beside her, drawn simply and softly: a clipboard with blank sheets, paper clips, and a small stack of blank documents. No text on any object; props stay soft so they never compete with the title or the character.
 
 LAYOUT: keep a clear, uncluttered zone behind the title block. Do not draw any flowchart, arrow between boxes, check mark or cross mark.
 
-Final check before rendering: confirm the image is exactly 1080x1350 portrait; confirm the only text is the 4 title lines, exactly as written; scan every kanji (表・示・登・記・添・付・情・報・早・見・図・何・令・別・項・決) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm nothing important lies within the outer safe margin; confirm the canvas is fully opaque.
+Final check before rendering: confirm the image is exactly 1080x1440 portrait; confirm the only text is the 4 title lines, exactly as written; scan every kanji (表・示・登・記・添・付・情・報・早・見・図・何・令・別・項・決) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm nothing important lies within the outer safe margin; confirm the canvas is fully opaque.
 ```
 
 キャプション案は `instagram-captions.md` の KZ_03、全企画をまとめた見出し画像プロンプトは `header-image-prompts.md`。
