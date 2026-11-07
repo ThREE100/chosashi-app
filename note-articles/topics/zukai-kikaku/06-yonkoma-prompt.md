@@ -1,6 +1,6 @@
 # 第6回「ある一日の登記ストーリー」 四コマのプロンプト（ChatGPT貼付用・初版）
 
-作成 2026-11-05。トリ先生と藍子の四コマ（1080×1920・9:16）。Instagramの投稿画像・ストーリー・リールの元素材、およびnote記事 `06-ichinichi-no-touki-story.md` の挿入画像に使う。
+作成 2026-11-05。トリ先生と藍子の四コマ（**9:16版**。1080×1920）。Instagramのストーリー・リールの元素材、およびnote記事 `06-ichinichi-no-touki-story.md` の挿入画像に使う。**フィード投稿には3:4版（1080×1440）の `06-yonkoma-prompt-feed34.md` を使う**（文言・構成は同じ）。
 作り方は `tools/drill/manga/MANGA_RULES.md` に従った（レイアウト、キャラクター、吹き出し、配色、禁止語）。画像の生成と目視確認はChatGPTで行う（未実施）。
 
 **使い方**：トリ先生・藍子のキャラクター仕様書の参照画像（`CHATGPT_MANGA_WORKFLOW.md` §3の6枚）を添付してから、下のコードブロックを貼る。
@@ -127,4 +127,4 @@ Final check before rendering: confirm there are exactly four panels in one verti
 
 ## 見出し画像
 
-note用（1280×670）とInstagram用（1080×1440（3:4））のプロンプトは `header-image-prompts.md` のKZ_06にある（MC1人。トリ先生・藍子は入れない）。
+note用（1280×670）とInstagram用（1080×1440・3:4）のプロンプトは `header-image-prompts.md` のKZ_06にある（MC1人。トリ先生・藍子は入れない）。

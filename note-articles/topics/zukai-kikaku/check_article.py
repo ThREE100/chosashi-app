@@ -203,7 +203,10 @@ for fn in sorted(os.listdir(HERE)):
 
 # 四コマ
 y = others['yonkoma']
-check('1080x1920' in y and y.count('PANEL ') >= 4, '四コマの大きさ・コマ数')
+check('1080x1920' in y and y.count('PANEL ') >= 4, '四コマ（9:16版）の大きさ・コマ数')
+y34 = rd(HERE, '06-yonkoma-prompt-feed34.md')
+check('1080x1440' in y34 and '1080x1920' not in y34 and y34.count('PANEL ') >= 4 and 'safe margin of 54 px' in y34, '四コマ（3:4版）の大きさ・コマ数・安全余白')
+check(re.findall(r'「[^」]+」', y.split('## プロンプト本体')[1].split('## 画像ファイル名')[0]).__len__() - 0 == re.findall(r'「[^」]+」', y34.split('## プロンプト本体')[1].split('## 画像ファイル名')[0]).__len__(), '四コマ：9:16版と3:4版の「」の文言の数が違う')
 for w in ('第47条', '令別表十二の項', '第19条', '第29条', '第11条', '第74条'):
     check(w in y, '四コマに「%s」がない' % w)
 check(y.count('「藍子」') + y.count('藍子') > 0 and 'トリ先生' in y, '四コマの登場人物')

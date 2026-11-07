@@ -396,7 +396,7 @@ topic(
                 scene_note='Left side: a newly built small house with a blank signboard. Right side: a small government office building and a surveying tripod.',
                 scene_ig='a newly built small house, a small government office building and a surveying tripod'),
     captions=[
-        ('A　四コマ（1080×1920）の投稿', '''【ある一日の登記ストーリー】新築した家は、いつ・誰が・どうやって登記される？
+        ('A　四コマ（フィードは3:4版、ストーリー・リールは9:16版）の投稿', '''【ある一日の登記ストーリー】新築した家は、いつ・誰が・どうやって登記される？
 
 建物を新築したら、所有権を取得した日から一月以内に、建物の表題登記を申請します（第47条）。
 

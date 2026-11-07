@@ -9,7 +9,7 @@
 | 3 | `03-tenpu-jouhou-hayami.md` | `zukai-prompts-03.md`（2枚） |
 | 4 | `04-joubun-no-yomikata.md` | `zukai-prompts-04.md`（3枚） |
 | 5 | `05-kijutsu-tokujunban.md` | `zukai-prompts-05.md`（2枚） |
-| 6 | `06-ichinichi-no-touki-story.md` | `06-yonkoma-prompt.md`（四コマ。1080×1920）、`06-reel-storyboard.md`（リールの絵コンテ） |
+| 6 | `06-ichinichi-no-touki-story.md` | `06-yonkoma-prompt.md`（四コマ・9:16版。1080×1920。ストーリー・リール・note用）、`06-yonkoma-prompt-feed34.md`（四コマ・3:4版。1080×1440。Instagramのフィード用）、`06-reel-storyboard.md`（リールの絵コンテ） |
 
 共通：
 - 見出し画像のプロンプト（note用1280×670・Instagram用1080×1440（3:4）。MC1人）：各記事の末尾の「見出し画像プロンプト」の節（`gen_prompts.py` が書き込む。noteに投稿するときは削除）と、全企画をまとめた `header-image-prompts.md`
@@ -20,12 +20,12 @@
 
 - 図・見出し・キャプションの生成物は手で直さず、`src/data.py` を直して `python3 note-articles/topics/zukai-kikaku/src/gen_prompts.py` で作り直す。
 - 直したら `python3 note-articles/topics/zukai-kikaku/check_article.py` でNG 0件にする。
-- 四コマ（第6回）だけは手書きのプロンプト。`python3 tools/drill/manga/check_prompt.py note-articles/topics/zukai-kikaku/06-yonkoma-prompt.md --no-article` で確かめる。残る2件のNGは、ドリルの肢（D＋4けた）用の記事タイトルの形式と、トリ先生・藍子の見出し画像（この企画の見出し画像はMC1人）に関するもので、この企画には当てはまらない。
+- 四コマ（第6回）だけは手書きのプロンプト（9:16版と3:4版の2本。文言は同じ）。`python3 tools/drill/manga/check_prompt.py note-articles/topics/zukai-kikaku/06-yonkoma-prompt.md --no-article`（3:4版も同様） で確かめる。残る2件のNGは、ドリルの肢（D＋4けた）用の記事タイトルの形式と、トリ先生・藍子の見出し画像（この企画の見出し画像はMC1人）に関するもので、この企画には当てはまらない。
 
 ## 画像のファイル名
 
 - 図解：note用 `kzNN_zu01.png` から、Instagram用 `kzNN_ig01.png` から（NNは回の番号）。
-- 四コマ：`四コマ図解～ある一日の登記ストーリー～.png`。
+- 四コマ：9:16版は `四コマ図解～ある一日の登記ストーリー～.png`、3:4版は `四コマ図解～ある一日の登記ストーリー～_3-4.png`。
 - 見出し：`kzNN_header_note.png`、`kzNN_header_ig.png`。
 
 ## 使い方の目安
