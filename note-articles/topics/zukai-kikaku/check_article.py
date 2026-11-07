@@ -158,7 +158,7 @@ for t in TOPICS:
         zp = rd(HERE, 'zukai-prompts-%s.md' % n)
         check(zp.count('Words allowed on this poster') == 2 * len(t['figs']), '%s: Words allowedが図数×2でない' % t['id'])
         check(zp.count('NO NUMBERING') == 2 * len(t['figs']) and zp.count('ILLUSTRATION TEXT RULE') == 2 * len(t['figs']), '%s: NO NUMBERING / ILLUSTRATION TEXT RULE' % t['id'])
-        check('1080x1440' in zp and zp.count('INSTAGRAM FEED FORMAT') == len(t['figs']), '%s: Instagram用の指示' % t['id'])
+        check('1080x1350' in zp and zp.count('INSTAGRAM FEED FORMAT') == len(t['figs']), '%s: Instagram用の指示' % t['id'])
         for f in t['figs']:
             for w in re.findall(r'「([^」]+)」', f['body']):
                 check('「%s」' % w in zp, '%s %s: 語「%s」がプロンプトにない' % (t['id'], f['key'], w))
@@ -184,6 +184,22 @@ for t in TOPICS:
 check(hd.count('Do NOT draw トリ先生') == 12, '見出し画像: MC1人の指示が12本（6企画×2）でない: %d' % hd.count('Do NOT draw トリ先生'))
 check(hd.count('safe margin of 54px') == 6, '見出し画像: Instagram用の安全余白が6本でない')
 check(others['captions'].count('```') == 2 * sum(len(t['captions']) for t in TOPICS), 'キャプションのコードブロック数')
+
+# 各記事に保存した見出し画像プロンプト（note用・Instagram用）
+for t in TOPICS:
+    a = files[t['id']]['article']
+    check(a.count('<!-- header-prompts:start -->') == 1 and a.count('<!-- header-prompts:end -->') == 1, '%s: 見出し画像プロンプトの節が1つでない' % t['id'])
+    if '<!-- header-prompts:start -->' in a:
+        blk = a[a.index('<!-- header-prompts:start -->'):]
+        check('1280x670' in blk and '1080x1350' in blk and blk.count('```') == 4, '%s: 記事内の見出し画像プロンプト（note用・Instagram用の2本）' % t['id'])
+        check(blk.count('Do NOT draw トリ先生') == 2 and 'safe margin of 54px' in blk and '68px' in blk, '%s: MC1人・安全余白の指示' % t['id'])
+        for k in ('l1', 'l2', 'band'):
+            check(t['header'][k] in blk, '%s: 見出し文字「%s」が記事内にない' % (t['id'], t['header'][k]))
+        check(t['header']['sub'] in blk, '%s: Instagram用の副題が記事内にない' % t['id'])
+        check('1440' not in blk and '3:4' not in blk, '%s: 記事内に旧サイズ（1440・3:4）が残っている' % t['id'])
+for fn in sorted(os.listdir(HERE)):
+    if fn.endswith('.md') and fn != '00-kousei.md':
+        check('1440' not in rd(HERE, fn), '%s: 旧サイズ（1440）が残っている' % fn)
 
 # 四コマ
 y = others['yonkoma']

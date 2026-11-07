@@ -53,3 +53,80 @@
 - 本記事の条文は、不動産登記法（平成16年法律第123号）の令和8年6月24日施行分の原文で確認しました。
 - 本記事は、条文を読む**合図**の整理です。「又は」「若しくは」「及び」「並びに」の使い分けなど、ほかの読み方のルールは、別の機会に扱います。
 - 各条の要件や例外の細部は、原文または各条の解説で確かめてください。
+
+<!-- header-prompts:start -->
+
+## 見出し画像プロンプト（保存用。noteに投稿するときは、この節を削除する）
+
+`src/gen_prompts.py` で作る（手で直さない）。キャラクターシート `キャラクターシート_MC-01〜MC-04` の4枚を添付してからChatGPTに貼る。見出し画像のキャラクターはMC1人だけ。画像の生成と目視確認は未実施。
+
+| 用途 | サイズ | 文字 |
+|---|---|---|
+| note用 | 1280×670 | 「条文の読み方」／「図解で読み解く」／「ただし書・準用・前項・みなす」 |
+| Instagram用 | 1080×1350（4:5） | 「条文の読み方」／「図解で読み解く」／「ただし書・準用・前項・みなす」／「実際の条文を例にして」 |
+
+### note用（1280×670）
+
+```
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
+Fill the whole canvas with the pastel sky and soft clouds.
+
+CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese or Traditional Chinese characters; every glyph must match the standard Japanese form exactly. Reproduce the exact text strings given below verbatim; do not paraphrase or substitute any character. No stray or decorative glyphs of any kind.
+
+BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow. Line 1 is dark navy with a pale yellow marker stroke behind it:
+条文の読み方
+Line 2 is larger; the phrase 読み解く is red-orange and the rest is dark navy:
+図解で読み解く
+Below the title, a light blue rounded pill-shaped subtitle band with navy text:
+ただし書・準用・前項・みなす
+Do not write any other text anywhere in the image.
+
+TOPIC SCENES (illustration only, no text on any object; soft and slightly faded): Left side: a large open statute book and a magnifying glass. Right side: a small stack of books and a pen.
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, arrow between boxes, check mark or cross mark.
+
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text is the two title lines and the subtitle, exactly as written; scan every kanji (条・文・読・方・図・解・書・準・用・前・項) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm the canvas is fully opaque.
+```
+
+### Instagram用（1080×1350・4:5）
+
+```
+Create an Instagram feed cover image, portrait layout, EXACTLY 1080x1350 pixels (4:5).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com header images of the same series. Fill the whole canvas with the pastel sky and soft clouds.
+
+INSTAGRAM FEED FORMAT (critical): the profile grid crops the image, so keep every text and every important drawing inside a safe margin of 54px on the left and right and 68px at the top and bottom. Do not draw any account name, handle, URL, hashtag or call-to-action text, and no logo or watermark.
+
+CHARACTERS (critical): this image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets. POSE IS NOT FIXED: let her take a free, natural pose of your own choosing that fits the topic, and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text. Keep her human anatomy strictly correct: exactly one head, one torso, two arms and two hands in total, each hand with exactly five fingers; no extra or floating hands or arms.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō kanji, and no Latin letters and no digits anywhere in the image. Do NOT use Simplified Chinese or Traditional Chinese characters; every glyph must match the standard Japanese form exactly. Reproduce the exact text strings given below verbatim; do not paraphrase or substitute any character. No stray or decorative glyphs of any kind.
+
+BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge; no transparency, no checkerboard, no unpainted edge.
+
+TEXT (reproduce verbatim, nothing else), centered in the upper part of the canvas between y=100px and y=570px, over a soft white cloud-shaped glow, bold rounded font. Line 1, large, dark navy with a pale yellow marker stroke behind it:
+条文の読み方
+Line 2, very large; the phrase 読み解く is red-orange and the rest is dark navy:
+図解で読み解く
+Line 3, in a light blue rounded pill-shaped band with navy text:
+ただし書・準用・前項・みなす
+Line 4, smaller, dark navy, below the band:
+実際の条文を例にして
+Do not write any other text anywhere in the image.
+
+SCENE: the MC character stands at the bottom center (about y=700px to y=1280px). Behind and beside her, drawn simply and softly: a large open statute book with a magnifying glass, and a small stack of books. No text on any object; props stay soft so they never compete with the title or the character.
+
+LAYOUT: keep a clear, uncluttered zone behind the title block. Do not draw any flowchart, arrow between boxes, check mark or cross mark.
+
+Final check before rendering: confirm the image is exactly 1080x1350 portrait; confirm the only text is the 4 title lines, exactly as written; scan every kanji (条・文・読・方・図・解・書・準・用・前・項・実・際・例) for Simplified or Traditional Chinese forms; confirm the MC character is the only character; confirm nothing important lies within the outer safe margin; confirm the canvas is fully opaque.
+```
+
+キャプション案は `instagram-captions.md` の KZ_04、全企画をまとめた見出し画像プロンプトは `header-image-prompts.md`。
+
+<!-- header-prompts:end -->
