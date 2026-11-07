@@ -608,7 +608,7 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 
 令和9年の試験に向けた、毎朝10分・毎晩15分のA4アウトプットドリルは`daily-drill/`にある（入口は`README.md`）。朝はオリジナル択一1問（過去問は使わず、`note-articles/laws/`の条文から作成。引用の原文照合と、正誤を伏せた独立照合つき）と、条文・定義を自分で書いて説明する問題、夜は記述式（境界点の計算の類題、登記申請書の欄を完成させる練習）。
 問題の作成ルールの正本は`daily-drill/RULES.md`（型・難度・ひっかけの分類は`taxonomy.json`、各問の分類は`registry.json`、網羅の状況は`coverage/coverage.md`。新しい問題は`daily-drill/new_problem.py`で雛形を作る。夜の計算の解答にはF-789SGのキー列を付け、`evening/calc_keys.py`で再現して答えと突き合わせる）。
-朝の択一の解説記事（note用。初学者向けの具体例と図解プロンプトつき）は`daily-drill/kaisetsu/`に保存する（作り方は同フォルダの`README.md`、第4日が最初の1本。第1〜3日と第5〜120日は2026-10-28までに作成済みで、全120本が`daily-drill/kaisetsu/`にある）。**執筆ルールの正本は`daily-drill/kaisetsu/PROMPT_解説記事の作成.md`**で、記事を作るたびにその「PDCAの手順」を回して、プロンプトとチェッカー（`check_kaisetsu.py`）を自動的に改良し「改善記録」に残す。タイトルは`【土地家屋調査士受験生向け】毎朝ドリル_Day004_択一解説～キャッチ～`の形（2026-10-27決定）。見出し画像は朝日の差し込む部屋の背景・服装は白の長袖に紺の横ライン（襟なし）・ポーズと表情は記事ごとに変える・サブタイトルに`毎朝ドリル　DayNNN　主題`（2026-10-28採用。雛形は`kaisetsu/src/tpl.py`の`header()`）。記事は`kaisetsu/src/dayNNN.py`のデータから`build_kaisetsu.py`で組み立てる。
+朝の択一の解説記事（note用。初学者向けの具体例と図解プロンプトつき）は`daily-drill/kaisetsu/`に保存する（作り方は同フォルダの`README.md`、第4日が最初の1本。第1〜3日と第5〜120日は2026-10-28までに作成済みで、全120本が`daily-drill/kaisetsu/`にある）。**執筆ルールの正本は`daily-drill/kaisetsu/PROMPT_解説記事の作成.md`**で、記事を作るたびにその「PDCAの手順」を回して、プロンプトとチェッカー（`check_kaisetsu.py`）を自動的に改良し「改善記録」に残す。タイトルは`【土地家屋調査士試験】毎朝ドリル_Day004_択一解説～キャッチ～`の形（2026-10-27決定）。見出し画像は朝日の差し込む部屋の背景・服装は白の長袖に紺の横ライン（襟なし）・ポーズと表情は記事ごとに変える・サブタイトルに`毎朝ドリル　DayNNN　主題`（2026-10-28採用。雛形は`kaisetsu/src/tpl.py`の`header()`）。記事は`kaisetsu/src/dayNNN.py`のデータから`build_kaisetsu.py`で組み立てる。
 作ったら`python3 daily-drill/check_all.py`でNG 0件にする（朝の独立照合は`morning/review/`、問題文を直したらやり直す）。個人の演習結果は問題・解説に入れない。
 
 ## note運営の戦略（`note-unei/`）について(2026-10-29追加)
@@ -634,3 +634,5 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 **択一の解説画像（過去問の図解）の見出しは3行・実測の寸法で固定する**（2026-11-06 ユーザー指示。令和3年度 第3問の見本画像から計測）：1行目＝問いのタイトル（62px・幅約800px・中心y=80）、2行目＝論点の列挙（45px・1行・幅約990px・中心y=148）、3行目＝年度と問題番号だけ（35px・中心y=204。「午後の部」は書かない。例：令和3年度 第3問）。行ピッチ68px・56px、見出し全体は約175px（y=48〜223）、最初のカードはy=245から。`note-unei/instagram/make_ig_prompts.py` の `HEADER_LOCK`（全年度の `prompts/*.md` に反映済み）と `note-articles/infographic-prompt-template.md` の LAYOUT LOCK に入れてある。
 
 **3行の見出し（HEADER LOCK）は、総論の図解（②）にも適用する**（2026-11-06 ユーザー指示）。文言の正本は`note-unei/instagram/header_lock_text.py`（Instagram用生成器・毎日ドリルの雛形`daily-drill/kaisetsu/src/tpl.py`・`note-articles/tools/apply_header_lock.py`が読む）。各年度・実践答練・予想模試の記事（`note-articles/*-mondai`等）の総論プロンプト490か所は`apply_header_lock.py`で直した（1行目＝タイトル／2行目＝論点／3行目＝年度（または「実践答練 第N回」「直前予想模試」「毎日ドリル 第N日」）と問題番号だけ。何度実行しても同じ結果）。新しい記事の総論プロンプトを書いたら、`python3 note-articles/tools/apply_header_lock.py`を実行して見出しをそろえる。指示書は`note-articles/infographic-prompt-template.md`と`daily-drill/kaisetsu/PROMPT_解説記事の作成.md`。
+
+**択一（年度別・実践答練・直前予想模試）と毎日ドリルのnote記事のタイトルの先頭は【土地家屋調査士試験】**（2026-11-07 ユーザー指示。それまでは【土地家屋調査士受験生向け】）。記事・生成器・チェック・書式の指示書（`note-articles/format-template.md`・`README.md`・`mistake-note-prompt.md`、`daily-drill/kaisetsu/`）を直した。4コマ・苦手分析・総合記事・条文別・記述式のタイトルは対象外で、従来のまま。
