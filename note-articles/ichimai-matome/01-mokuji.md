@@ -50,13 +50,13 @@
 - B-03　[新築・増築と、床面積・構造の変更](sheets/B/B-03_shinchiku-zochiku-henko.md)
 - B-04　[滅失・取壊しの登記と附属建物](sheets/B/B-04_metsushitsu-fuzoku.md)
 - B-05　[区分建物の表題登記と、建物の区分](sheets/B/B-05_kubun-tatemono-hyodai.md)
-- B-06　建物の合併の制限
+- B-06　[建物の合併の制限](sheets/B/B-06_tatemono-gappei-seigen.md)
 
 #### C　区分建物・敷地権（5枚）
 
 - C-01　**[敷地権の割合の計算例](sheets/C/C-01_shikichiken-keisan.md)**
 - C-02　**[敷地権になる条件と権利別の早見](sheets/C/C-02_shikichiken-yoken.md)**
-- C-03　敷地権の移記と、変動の登記
+- C-03　[敷地権の移記と、変動の登記](sheets/C/C-03_shikichiken-ikki-hendo.md)
 - C-04　共用部分・団地共用部分の登記
 - C-05　規約の設定・廃止と登記
 
@@ -88,15 +88,15 @@
 
 - G-01　[代理](sheets/G/G-01_minpo-dairi.md)
 - G-02　[物権変動と対抗要件](sheets/G/G-02_bukken-henko-taikoyoken.md)
-- G-03　相続
-- G-04　共有
-- G-05　時効取得
+- G-03　[相続](sheets/G/G-03_souzoku.md)
+- G-04　[共有](sheets/G/G-04_kyoyu.md)
+- G-05　[時効取得](sheets/G/G-05_jiko-shutoku.md)
 
 #### H　記述式の型（3枚）
 
 - H-01　**[記述式の解く順番とやらないこと](sheets/H/H-01_kijutsu-tokujunban.md)**
 - H-02　[土地の申請書の欄の書き方](sheets/H/H-02_kijutsu-tochi-ran.md)
-- H-03　建物の申請書の欄の書き方
+- H-03　[建物の申請書の欄の書き方](sheets/H/H-03_kijutsu-tatemono-ran.md)
 
 ### ご要望をお寄せください
 
