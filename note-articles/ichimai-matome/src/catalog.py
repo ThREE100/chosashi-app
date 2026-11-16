@@ -51,10 +51,30 @@ S = [
     ('H-01', 'kijutsu-tokujunban', '記述式の解く順番とやらないこと', '時間配分と手順', '手順', True),
     ('H-02', 'kijutsu-tochi-ran', '土地の申請書の欄の書き方', '登記の目的・原因・土地の表示', '記載事項チェックリスト', False),
     ('H-03', 'kijutsu-tatemono-ran', '建物の申請書の欄の書き方', '建物の表示・原因・添付情報', '記載事項チェックリスト', False),
+    # ---- その2（第1弾の12枚・全40枚で高さの都合で外した論点。2026-11-16追加）----
+    ('A-07', 'ichi-shinsei-joho-2', '一の申請情報にできる組合せ（その2：建物・権利の登記）', '規則第35条の第2号〜第5号・第8号〜第10号', '場合分け表', False),
+    ('A-08', 'chimoku-ninnteii-2', '地目の認定の早見（その2）', '準則第69条の残りの例', '比較表', False),
+    ('B-07', 'gattai', '合体による登記等', '法第49条・第50条', '場合分け表', False),
+    ('B-08', 'kubun-tatemono-shikichiken-kisai', '区分建物の表題登記・敷地権の書き方', '申請情報と添付情報', '記載事項チェックリスト', False),
+    ('C-06', 'tokutei-touki', '敷地権付き区分建物の特定登記の扱い', '転写・共同担保目録・承諾', '場合分け表', False),
+    ('C-07', 'danchi-kyoyobu-shinsei', '団地共用部分の登記の申請情報', '令別表18の項・19の項', '記載事項チェックリスト', False),
+    ('C-08', 'kiyaku-tsukurikata', '規約のつくり方', '集会の決議と公正証書', '場合分け表', False),
+    ('D-07', 'tenpu-joho-kenri', '権利の登記の添付情報', '登記原因証明情報ほか', '場合分け表', False),
+    ('E-06', 'yuka-sannyu-fusannyu', '床面積に入るもの・入らないもの', '準則第82条の各号', '場合分け表', False),
+    ('F-05', 'hikkai-kyakka-hiyo', '筆界特定の却下と費用', '却下事由と費用の負担', '場合分け表', False),
+    ('F-06', 'chousashi-houjin-datsutai', '調査士法人の脱退・合併・清算', '社員の脱退から解散まで', '用語・定義カード', False),
+    ('F-07', 'chousashi-bassoku', '調査士の義務違反と罰則', '秘密保持・業務を行い得ない事件・研修', '場合分け表', False),
+    ('G-06', 'hyoken-dairi', '表見代理', '3つの型と第三者の要件', '場合分け表', False),
+    ('G-07', 'souzoku-shounin-hoki', '相続の承認と放棄', '熟慮期間と単純承認', '場合分け表', False),
+    ('G-08', 'kyoyubutsu-shiyo-bunkatsu', '共有物の使用・負担・分割', '裁判による分割まで', '場合分け表', False),
+    ('G-09', 'jiko-enyo-kosei', '時効の援用・完成猶予・更新', '時効の効力と中断', '用語・定義カード', False),
+    ('H-04', 'kijutsu-tatemono-ran-2', '建物の申請書の欄の書き方（その2：区分建物・合体）', '一棟の建物・敷地権・合体の原因', '記載事項チェックリスト', False),
+    ('H-05', 'kijutsu-tochi-ran-2', '土地の申請書の欄の書き方（その2：相続人・地役権）', '申請人と地役権の欄', '記載事項チェックリスト', False),
 ]
 CAT = [dict(id=i, slug=s, title=t, catch=c, kind=k, first=f, field=i[0]) for i, s, t, c, k, f in S]
 BY_ID = {c['id']: c for c in CAT}
-assert len(CAT) == 40 and sum(c['first'] for c in CAT) == 12
+CAT.sort(key=lambda c: (c['field'], c['id']))
+assert len(CAT) == 58 and sum(c['first'] for c in CAT) == 12
 
 
 def path(c, ext):

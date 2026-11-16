@@ -119,7 +119,7 @@ def mokuji():
         st = '公開可' if cid in built else '準備中'
         link = '[%s](sheets/%s/%s_%s.md)' % (c['title'], c['field'], cid, c['slug']) if cid in built else c['title']
         L.append('| %d | %s | %s | %s | %s |' % (i, cid, link, c['kind'], st))
-    L += ['', '### 全体の分野（全40枚）', '']
+    L += ['', '### 全体の分野（全%d枚。「その2」を含む）' % len(CAT), '']
     for f, (fname, _, _) in FIELDS.items():
         cs = [c for c in CAT if c['field'] == f]
         L += ['#### %s　%s（%d枚）' % (f, fname, len(cs)), '']
