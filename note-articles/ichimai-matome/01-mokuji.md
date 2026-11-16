@@ -29,7 +29,7 @@
 | 8 | A-03 | [合筆の制限と例外](sheets/A/A-03_gappitsu-seigen.md) | 場合分け表 | 公開可 |
 | 9 | B-01 | [合併と合体、分割と区分の比較](sheets/B/B-01_gappei-gattai-bunkatsu-kubun.md) | 比較表 | 公開可 |
 | 10 | D-01 | [表示に関する登記の期限](sheets/D/D-01_kigen-kisanten.md) | 場合分け表 | 公開可 |
-| 11 | D-02 | 添付情報の早見 | 場合分け表 | 準備中 |
+| 11 | D-02 | [添付情報の早見](sheets/D/D-02_tenpu-joho.md) | 場合分け表 | 公開可 |
 | 12 | H-01 | [記述式の解く順番とやらないこと](sheets/H/H-01_kijutsu-tokujunban.md) | 手順 | 公開可 |
 
 ### 全体の分野（全40枚）
@@ -63,7 +63,7 @@
 #### D　申請手続の共通ルール（6枚）
 
 - D-01　**[表示に関する登記の期限](sheets/D/D-01_kigen-kisanten.md)**
-- D-02　**添付情報の早見**
+- D-02　**[添付情報の早見](sheets/D/D-02_tenpu-joho.md)**
 - D-03　申請人と代位申請の早見
 - D-04　登記識別情報・印鑑証明書が必要な場合
 - D-05　原本還付と電子申請
@@ -82,7 +82,7 @@
 - F-01　[筆界特定のしくみ](sheets/F/F-01_hikkai-tokutei.md)
 - F-02　[土地家屋調査士の業務の範囲](sheets/F/F-02_chousashi-gyomu.md)
 - F-03　[土地家屋調査士法人](sheets/F/F-03_chousashi-houjin.md)
-- F-04　調査士の義務と懲戒
+- F-04　[調査士の義務と懲戒](sheets/F/F-04_chousashi-gimu-chokai.md)
 
 #### G　民法（5枚）
 
