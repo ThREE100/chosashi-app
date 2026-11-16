@@ -67,7 +67,7 @@
 - D-03　[申請人と代位申請の早見](sheets/D/D-03_shinseinin-daii.md)
 - D-04　[登記識別情報・印鑑証明書が必要な場合](sheets/D/D-04_shikibetsu-inkan.md)
 - D-05　[原本還付と電子申請](sheets/D/D-05_genpon-kanpu-denshi.md)
-- D-06　登録免許税の早見
+- D-06　[登録免許税の早見](sheets/D/D-06_toroku-menkyozei.md)
 
 #### E　図面の記載事項（5枚）
 
