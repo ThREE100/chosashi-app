@@ -54,7 +54,7 @@
 - B-05　[区分建物の表題登記と、建物の区分](sheets/B/B-05_kubun-tatemono-hyodai.md)
 - B-06　[建物の合併の制限](sheets/B/B-06_tatemono-gappei-seigen.md)
 - B-07　[合体による登記等](sheets/B/B-07_gattai.md)
-- B-08　区分建物の表題登記・敷地権の書き方
+- B-08　[区分建物の表題登記・敷地権の書き方](sheets/B/B-08_kubun-tatemono-shikichiken-kisai.md)
 
 #### C　区分建物・敷地権（8枚）
 
@@ -63,7 +63,7 @@
 - C-03　[敷地権の移記と、変動の登記](sheets/C/C-03_shikichiken-ikki-hendo.md)
 - C-04　[共用部分・団地共用部分の登記](sheets/C/C-04_kyoyobu-touki.md)
 - C-05　[規約の設定・廃止と登記](sheets/C/C-05_kiyaku-settei-haishi.md)
-- C-06　敷地権付き区分建物の特定登記の扱い
+- C-06　[敷地権付き区分建物の特定登記の扱い](sheets/C/C-06_tokutei-touki.md)
 - C-07　団地共用部分の登記の申請情報
 - C-08　規約のつくり方
 
