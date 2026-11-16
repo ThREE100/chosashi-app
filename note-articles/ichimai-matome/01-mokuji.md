@@ -32,9 +32,9 @@
 | 11 | D-02 | [添付情報の早見](sheets/D/D-02_tenpu-joho.md) | 場合分け表 | 公開可 |
 | 12 | H-01 | [記述式の解く順番とやらないこと](sheets/H/H-01_kijutsu-tokujunban.md) | 手順 | 公開可 |
 
-### 全体の分野（全40枚）
+### 全体の分野（全58枚。「その2」を含む）
 
-#### A　土地の表示の登記（6枚）
+#### A　土地の表示の登記（8枚）
 
 - A-01　**[分筆・合筆・地積更正：一の申請情報にできる組合せ](sheets/A/A-01_ichi-shinsei-joho.md)**
 - A-02　**[地積の端数処理と公差](sheets/A/A-02_chiseki-hasu-kosa.md)**
@@ -42,8 +42,10 @@
 - A-04　[地目の認定の早見](sheets/A/A-04_chimoku-ninnteii.md)
 - A-05　[地積更正が必要になる場合の見分け方](sheets/A/A-05_chiseki-teisei-hantei.md)
 - A-06　[分筆・合筆のあとの地番の付け方](sheets/A/A-06_chiban-tsukekata.md)
+- A-07　[一の申請情報にできる組合せ（その2：建物・権利の登記）](sheets/A/A-07_ichi-shinsei-joho-2.md)
+- A-08　[地目の認定の早見（その2）](sheets/A/A-08_chimoku-ninnteii-2.md)
 
-#### B　建物の表示の登記（6枚）
+#### B　建物の表示の登記（8枚）
 
 - B-01　**[合併と合体、分割と区分の比較](sheets/B/B-01_gappei-gattai-bunkatsu-kubun.md)**
 - B-02　[建物と認められる3つの要件と、種類・構造の書き方](sheets/B/B-02_tatemono-3youken.md)
@@ -51,16 +53,21 @@
 - B-04　[滅失・取壊しの登記と附属建物](sheets/B/B-04_metsushitsu-fuzoku.md)
 - B-05　[区分建物の表題登記と、建物の区分](sheets/B/B-05_kubun-tatemono-hyodai.md)
 - B-06　[建物の合併の制限](sheets/B/B-06_tatemono-gappei-seigen.md)
+- B-07　[合体による登記等](sheets/B/B-07_gattai.md)
+- B-08　区分建物の表題登記・敷地権の書き方
 
-#### C　区分建物・敷地権（5枚）
+#### C　区分建物・敷地権（8枚）
 
 - C-01　**[敷地権の割合の計算例](sheets/C/C-01_shikichiken-keisan.md)**
 - C-02　**[敷地権になる条件と権利別の早見](sheets/C/C-02_shikichiken-yoken.md)**
 - C-03　[敷地権の移記と、変動の登記](sheets/C/C-03_shikichiken-ikki-hendo.md)
 - C-04　[共用部分・団地共用部分の登記](sheets/C/C-04_kyoyobu-touki.md)
 - C-05　[規約の設定・廃止と登記](sheets/C/C-05_kiyaku-settei-haishi.md)
+- C-06　敷地権付き区分建物の特定登記の扱い
+- C-07　団地共用部分の登記の申請情報
+- C-08　規約のつくり方
 
-#### D　申請手続の共通ルール（6枚）
+#### D　申請手続の共通ルール（7枚）
 
 - D-01　**[表示に関する登記の期限](sheets/D/D-01_kigen-kisanten.md)**
 - D-02　**[添付情報の早見](sheets/D/D-02_tenpu-joho.md)**
@@ -68,35 +75,46 @@
 - D-04　[登記識別情報・印鑑証明書が必要な場合](sheets/D/D-04_shikibetsu-inkan.md)
 - D-05　[原本還付と電子申請](sheets/D/D-05_genpon-kanpu-denshi.md)
 - D-06　[登録免許税の早見](sheets/D/D-06_toroku-menkyozei.md)
+- D-07　権利の登記の添付情報
 
-#### E　図面の記載事項（5枚）
+#### E　図面の記載事項（6枚）
 
 - E-01　**[地積測量図の記載事項](sheets/E/E-01_chiseki-sokuryozu.md)**
 - E-02　**[建物図面・各階平面図の記載事項](sheets/E/E-02_tatemono-zumen.md)**
 - E-03　**[床面積の求積と端数処理](sheets/E/E-03_yuka-menseki.md)**
 - E-04　[土地所在図の記載事項](sheets/E/E-04_tochi-shozaizu.md)
 - E-05　[図面の縮尺・用紙・作成者の署名](sheets/E/E-05_zumen-shukushaku-sakuseisha.md)
+- E-06　[床面積に入るもの・入らないもの](sheets/E/E-06_yuka-sannyu-fusannyu.md)
 
-#### F　筆界・調査士法（4枚）
+#### F　筆界・調査士法（7枚）
 
 - F-01　[筆界特定のしくみ](sheets/F/F-01_hikkai-tokutei.md)
 - F-02　[土地家屋調査士の業務の範囲](sheets/F/F-02_chousashi-gyomu.md)
 - F-03　[土地家屋調査士法人](sheets/F/F-03_chousashi-houjin.md)
 - F-04　[調査士の義務と懲戒](sheets/F/F-04_chousashi-gimu-chokai.md)
+- F-05　[筆界特定の却下と費用](sheets/F/F-05_hikkai-kyakka-hiyo.md)
+- F-06　調査士法人の脱退・合併・清算
+- F-07　調査士の義務違反と罰則
 
-#### G　民法（5枚）
+#### G　民法（9枚）
 
 - G-01　[代理](sheets/G/G-01_minpo-dairi.md)
 - G-02　[物権変動と対抗要件](sheets/G/G-02_bukken-henko-taikoyoken.md)
 - G-03　[相続](sheets/G/G-03_souzoku.md)
 - G-04　[共有](sheets/G/G-04_kyoyu.md)
 - G-05　[時効取得](sheets/G/G-05_jiko-shutoku.md)
+- G-06　[表見代理](sheets/G/G-06_hyoken-dairi.md)
+- G-07　[相続の承認と放棄](sheets/G/G-07_souzoku-shounin-hoki.md)
+- G-08　[共有物の使用・負担・分割](sheets/G/G-08_kyoyubutsu-shiyo-bunkatsu.md)
+- G-09　[時効の援用・完成猶予・更新](sheets/G/G-09_jiko-enyo-kosei.md)
 
-#### H　記述式の型（3枚）
+#### H　記述式の型（5枚）
 
 - H-01　**[記述式の解く順番とやらないこと](sheets/H/H-01_kijutsu-tokujunban.md)**
 - H-02　[土地の申請書の欄の書き方](sheets/H/H-02_kijutsu-tochi-ran.md)
 - H-03　[建物の申請書の欄の書き方](sheets/H/H-03_kijutsu-tatemono-ran.md)
+- H-04　[建物の申請書の欄の書き方（その2：区分建物・合体）](sheets/H/H-04_kijutsu-tatemono-ran-2.md)
+- H-05　[土地の申請書の欄の書き方（その2：相続人・地役権）](sheets/H/H-05_kijutsu-tochi-ran-2.md)
 
 ### ご要望をお寄せください
 
