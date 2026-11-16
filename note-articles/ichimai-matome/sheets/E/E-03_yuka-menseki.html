@@ -1,0 +1,62 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;background:#F7F3EE;font-family:"Noto Sans CJK JP","Noto Sans JP",sans-serif;color:#1A1A1A;line-height:1.55;font-size:34px}
+.head{background:#3E8A5A;color:#fff;padding:36px 44px 32px}
+.tag{font-size:28px;font-weight:700;letter-spacing:.05em;opacity:.95}
+.tag span{background:#fff;color:#3E8A5A;border-radius:999px;padding:2px 18px;margin-left:12px}
+h1{font-size:58px;line-height:1.28;margin-top:14px;font-weight:900}
+.catch{font-size:36px;margin-top:10px;font-weight:700;opacity:.96}
+.wrap{padding:28px 36px 30px}
+.lab2{display:inline-block;background:#3E8A5A;color:#fff;font-weight:700;font-size:28px;border-radius:8px;padding:2px 16px;margin-bottom:10px}
+.concl{background:#E8F4EC;border:3px solid #3E8A5A;border-radius:18px;padding:22px 28px 20px;margin-bottom:26px}
+.concl ul{list-style:none}.concl li{font-size:36px;font-weight:700;line-height:1.5;padding-left:1.1em;text-indent:-1.1em;margin-top:6px}
+.concl li:before{content:"\25A0";color:#3E8A5A;margin-right:.35em;font-size:.8em}
+.blk{background:#fff;border-radius:18px;padding:22px 26px;margin-bottom:22px;box-shadow:0 2px 0 rgba(0,0,0,.07)}
+h3{font-size:36px;font-weight:900;border-left:10px solid #3E8A5A;padding-left:14px;margin-bottom:14px;line-height:1.35}
+table{width:100%;border-collapse:collapse;font-size:30px;line-height:1.45}
+th{background:#3E8A5A;color:#fff;font-weight:700;padding:10px 12px;text-align:left;border:2px solid #fff}
+td{padding:10px 12px;border:2px solid #E8F4EC;vertical-align:top}
+tbody tr:nth-child(even) td{background:#FAFAF8}
+td:first-child{font-weight:700;background:#E8F4EC !important}
+.chk{border-radius:14px;padding:14px 20px 12px;margin-top:12px}
+.chk .lab{font-weight:900;font-size:34px;margin-bottom:4px}
+.chk ul{list-style:none}.chk ul.c2{column-count:2;column-gap:20px}.chk ul.c2 li{break-inside:avoid}.chk li{font-size:34px;padding-left:1.1em;text-indent:-1.1em;margin-top:4px}
+.chk.yes{background:#E8F4EC;border:3px solid #3E8A5A}.chk.yes .lab{color:#2B6E45}.chk.yes li:before{content:"\25CB";margin-right:.3em;color:#2B6E45;font-weight:900}
+.chk.no{background:#FBECE6;border:3px solid #C65A3A}.chk.no .lab{color:#B0431F}.chk.no li:before{content:"\00D7";margin-right:.3em;color:#B0431F;font-weight:900}
+ol.steps{list-style:none;counter-reset:s}ol.steps li{counter-increment:s;font-size:34px;padding-left:2.4em;position:relative;margin-top:10px}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:2px;width:1.7em;height:1.7em;border-radius:50%;background:#3E8A5A;color:#fff;text-align:center;font-weight:700;font-size:.85em;line-height:1.7em}
+dl{font-size:34px}dt{font-weight:900;color:#3E8A5A;margin-top:10px}dd{margin-left:.4em}
+p{font-size:34px}.bnote{font-size:28px;margin-top:10px;color:#444}
+.ex{background:#E9F0EC;border:3px solid #6B8F7B;border-radius:18px;padding:20px 26px;margin-bottom:22px}
+.ex h3{border-left-color:#6B8F7B}.exl{font-size:34px;margin-top:6px;word-break:break-all}
+.trap{background:#FBECE6;border:3px solid #C65A3A;border-radius:18px;padding:20px 26px 16px;margin-bottom:22px}
+.trap h3{border-left-color:#C65A3A}.trap ul{list-style:none}.trap li{display:flex;gap:12px;font-size:34px;margin-top:8px}
+.trap .n{font-weight:900;color:#B0431F;flex:none}
+.foot{font-size:28px;color:#444;border-top:3px solid #3E8A5A;padding-top:14px;margin-top:6px;line-height:1.5}
+b{font-weight:900;background:linear-gradient(transparent 62%,#FFE9A8 62%)}
+</style></head><body>
+<div class="head"><div class="tag">すきま時間の一枚まとめ<span>図面の記載事項</span></div><h1>床面積の求積と端数処理</h1><div class="catch">壁心・内法と切り捨て</div></div>
+<div class="wrap">
+<div class="lab2">この一枚で言えること</div>
+<div class="concl"><ul><li>床面積は<b>各階ごと</b>に、壁その他の区画の<b>中心線</b>（区分建物は<b>内側線</b>）で囲まれた部分の水平投影面積で求める。</li><li>単位は平方メートル。<b>100分の1未満は切り捨て</b>る（四捨五入しない）。</li><li>地積と違い、端数の扱いは建物の種類や広さで変わらない。算入の可否は準則第82条。</li></ul></div>
+<section class="blk">
+<h3>どの線で測るか</h3>
+<table><thead><tr><th>建物</th><th>測る線</th><th>根拠</th></tr></thead><tbody>
+<tr><td>区分建物でない建物</td><td>壁その他の区画の中心線（壁心）</td><td>規則第115条</td></tr>
+<tr><td>区分建物</td><td>壁その他の区画の内側線（内法）</td><td>規則第115条かっこ書</td></tr>
+<tr><td>柱や壁が傾いている</td><td>各階の床面の接着する壁その他の区画の中心線</td><td>準則第82条第9号</td></tr>
+</tbody></table>
+</section>
+<section class="blk">
+<h3>計算の型</h3>
+<ol class="steps"><li>区分建物かどうかを決め、壁心か内法かを選ぶ。</li><li>内法なら、壁の中心線から壁の厚さの半分ずつ内側へ寄せた寸法にする（両側で厚さ1枚分短くなる）。</li><li>各階ごとに長方形に分けて面積を出し、準則第82条で入れない部分を除く。</li><li>各階の合計を100分の1未満切り捨てで書く。</li></ol>
+</section>
+<section class="blk">
+<h3>床面積に入れるか（準則第82条）</h3>
+<div class="chk yes"><div class="lab">算入する</div><ul class=""><li>階段室・エレベーター室（床があるとみなす。第6号）</li><li>1室の一部が天井高1.5メートル未満でも、その室の面積に入れる（第1号ただし書）</li><li>建物の内部の煙突・ダストシュート（第10号）</li><li>高さ1.5メートル以上で下部が床面と同じ高さの出窓（第11号）</li></ul></div>
+<div class="chk no"><div class="lab">算入しない</div><ul class=""><li>天井高1.5メートル未満の地階・屋階（特殊階。第1号）</li><li>建物に附属する屋外の階段（第7号）</li><li>上階まで吹抜になっている部分（上階の床面積に入れない。第8号）</li><li>外側にある煙突・ダストシュート（第10号）</li></ul></div>
+</section>
+<div class="ex"><h3>計算例：同じ平家建を壁心と内法で比べる（壁の厚さ0.12メートル）</h3><div class="exl">壁心：9.10 × 7.28 ＝ 66.2480 → 切り捨てて 66.24㎡（四捨五入なら 66.25 で誤り）</div><div class="exl">内法：(9.10 − 0.12) × (7.28 − 0.12) ＝ 8.98 × 7.16 ＝ 64.2968 → 切り捨てて 64.29㎡（四捨五入なら 64.30 で誤り）</div><div class="exl">区分建物でなければ 66.24㎡、区分建物の専有部分なら 64.29㎡ になる。</div></div>
+<div class="trap"><h3>間違えやすい点</h3><ul><li><span class="n">①</span><span>端数は<b>切り捨て</b>。四捨五入すると、第3位が5以上のときに0.01ずれる。</span></li><li><span class="n">②</span><span>地積は宅地・鉱泉地以外で10㎡を超えると1㎡未満を切り捨てる（規則第100条）。<b>床面積はいつも100分の1未満</b>の切り捨てで、地積の扱いと混ぜない。</span></li><li><span class="n">③</span><span>内法にするとき、壁の厚さの<b>半分を両側から</b>引く。片側だけ引いたり、厚さ1枚分を片側ずつ引いたりしない。</span></li></ul></div>
+<div class="foot">根拠：不動産登記規則第100条・第115条　準則第82条</div>
+</div></body></html>
