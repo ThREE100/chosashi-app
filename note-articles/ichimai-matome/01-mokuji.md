@@ -58,15 +58,15 @@
 - C-02　**[敷地権になる条件と権利別の早見](sheets/C/C-02_shikichiken-yoken.md)**
 - C-03　[敷地権の移記と、変動の登記](sheets/C/C-03_shikichiken-ikki-hendo.md)
 - C-04　[共用部分・団地共用部分の登記](sheets/C/C-04_kyoyobu-touki.md)
-- C-05　規約の設定・廃止と登記
+- C-05　[規約の設定・廃止と登記](sheets/C/C-05_kiyaku-settei-haishi.md)
 
 #### D　申請手続の共通ルール（6枚）
 
 - D-01　**[表示に関する登記の期限](sheets/D/D-01_kigen-kisanten.md)**
 - D-02　**[添付情報の早見](sheets/D/D-02_tenpu-joho.md)**
 - D-03　[申請人と代位申請の早見](sheets/D/D-03_shinseinin-daii.md)
-- D-04　登記識別情報・印鑑証明書が必要な場合
-- D-05　原本還付と電子申請
+- D-04　[登記識別情報・印鑑証明書が必要な場合](sheets/D/D-04_shikibetsu-inkan.md)
+- D-05　[原本還付と電子申請](sheets/D/D-05_genpon-kanpu-denshi.md)
 - D-06　登録免許税の早見
 
 #### E　図面の記載事項（5枚）
