@@ -1,0 +1,61 @@
+"""シリーズの一覧（01-mokuji.md と同じ40枚）。first=True が第1弾（12枚）。"""
+FIELDS = {
+    'A': ('土地の表示の登記', '#2F6DB5', '#E8F0FB'),
+    'B': ('建物の表示の登記', '#1F8A8A', '#E5F4F4'),
+    'C': ('区分建物・敷地権', '#6B55B0', '#EFEBF8'),
+    'D': ('申請手続の共通ルール', '#C9731C', '#FBF0E2'),
+    'E': ('図面の記載事項', '#3E8A5A', '#E8F4EC'),
+    'F': ('筆界・調査士法', '#9A6B3C', '#F6EFE6'),
+    'G': ('民法', '#5B6F8A', '#ECF0F5'),
+    'H': ('記述式の型', '#B84A4A', '#FAEAEA'),
+}
+# id, slug, 題名, 副題（noteタイトルの「～…～」）, 形, 第1弾か
+S = [
+    ('A-01', 'ichi-shinsei-joho', '分筆・合筆・地積更正：一の申請情報にできる組合せ', '規則第35条の列挙で決まる', '場合分け表', True),
+    ('A-02', 'chiseki-hasu-kosa', '地積の端数処理と公差', '切り捨てと、精度区分の見分け方', '計算の型', True),
+    ('A-03', 'gappitsu-seigen', '合筆の制限と例外', '法第41条の6つの禁止', '場合分け表', True),
+    ('A-04', 'chimoku-ninnteii', '地目の認定の早見', '主な用途で決まる', '比較表', False),
+    ('A-05', 'chiseki-teisei-hantei', '地積更正が必要になる場合の見分け方', '分筆の前に確かめること', '手順', False),
+    ('A-06', 'chiban-tsukekata', '分筆・合筆のあとの地番の付け方', '支号と最終の地番', '場合分け表', False),
+    ('B-01', 'gappei-gattai-bunkatsu-kubun', '合併と合体、分割と区分の比較', '4つを並べて違いをつかむ', '比較表', True),
+    ('B-02', 'tatemono-3youken', '建物と認められる3つの要件と、種類・構造の書き方', '外気分断性・定着性・用途性', '用語・定義カード', False),
+    ('B-03', 'shinchiku-zochiku-henko', '新築・増築と、床面積・構造の変更', '表題部の変更の書き方', '場合分け表', False),
+    ('B-04', 'metsushitsu-fuzoku', '滅失・取壊しの登記と附属建物', '主である建物が滅失したとき', '場合分け表', False),
+    ('B-05', 'kubun-tatemono-hyodai', '区分建物の表題登記と、建物の区分', '誰が申請し、何を書くか', '場合分け表', False),
+    ('B-06', 'tatemono-gappei-seigen', '建物の合併の制限', '合併できない組合せ', '場合分け表', False),
+    ('C-01', 'shikichiken-keisan', '敷地権の割合の計算例', '床面積の割合と持分の割合', '計算の型', True),
+    ('C-02', 'shikichiken-yoken', '敷地権になる条件と権利別の早見', '4つの要件と分離処分可能規約', '場合分け表', True),
+    ('C-03', 'shikichiken-ikki-hendo', '敷地権の移記と、変動の登記', '建物と土地のどちらに記録されるか', '場合分け表', False),
+    ('C-04', 'kyoyobu-touki', '共用部分・団地共用部分の登記', '申請の義務と期限', '場合分け表', False),
+    ('C-05', 'kiyaku-settei-haishi', '規約の設定・廃止と登記', '登記が要るもの、要らないもの', '場合分け表', False),
+    ('D-01', 'kigen-kisanten', '表示に関する登記の期限', '起算点で整理する', '場合分け表', True),
+    ('D-02', 'tenpu-joho', '添付情報の早見', '土地・建物・区分建物', '場合分け表', True),
+    ('D-03', 'shinseinin-daii', '申請人と代位申請の早見', '誰が申請できるか', '場合分け表', False),
+    ('D-04', 'shikibetsu-inkan', '登記識別情報・印鑑証明書が必要な場合', '要るもの、要らないもの', '場合分け表', False),
+    ('D-05', 'genpon-kanpu-denshi', '原本還付と電子申請', '書面と電子の使い分け', '場合分け表', False),
+    ('D-06', 'toroku-menkyozei', '登録免許税の早見', '課税、非課税、金額', '場合分け表', False),
+    ('E-01', 'chiseki-sokuryozu', '地積測量図の記載事項', '10項目と省略できる場合', '記載事項チェックリスト', True),
+    ('E-02', 'tatemono-zumen', '建物図面・各階平面図の記載事項', '線の種類と縮尺', '記載事項チェックリスト', True),
+    ('E-03', 'yuka-menseki', '床面積の求積と端数処理', '壁心・内法と切り捨て', '計算の型', True),
+    ('E-04', 'tochi-shozaizu', '土地所在図の記載事項', '地積測量図との違い', '記載事項チェックリスト', False),
+    ('E-05', 'zumen-shukushaku-sakuseisha', '図面の縮尺・用紙・作成者の署名', '共通のきまり', '記載事項チェックリスト', False),
+    ('F-01', 'hikkai-tokutei', '筆界特定のしくみ', '申請から結果まで', '手順', False),
+    ('F-02', 'chousashi-gyomu', '土地家屋調査士の業務の範囲', 'できること、できないこと', '場合分け表', False),
+    ('F-03', 'chousashi-houjin', '土地家屋調査士法人', '設立・社員・業務', '用語・定義カード', False),
+    ('F-04', 'chousashi-gimu-chokai', '調査士の義務と懲戒', '義務と懲戒の種類', '用語・定義カード', False),
+    ('G-01', 'minpo-dairi', '代理', '有権代理と無権代理', '場合分け表', False),
+    ('G-02', 'bukken-henko-taikoyoken', '物権変動と対抗要件', '登記がなければ対抗できない場合', '場合分け表', False),
+    ('G-03', 'souzoku', '相続', '相続人と相続分', '場合分け表', False),
+    ('G-04', 'kyoyu', '共有', '持分と共有物の管理', '場合分け表', False),
+    ('G-05', 'jiko-shutoku', '時効取得', '要件と期間', '用語・定義カード', False),
+    ('H-01', 'kijutsu-tokujunban', '記述式の解く順番とやらないこと', '時間配分と手順', '手順', True),
+    ('H-02', 'kijutsu-tochi-ran', '土地の申請書の欄の書き方', '登記の目的・原因・土地の表示', '記載事項チェックリスト', False),
+    ('H-03', 'kijutsu-tatemono-ran', '建物の申請書の欄の書き方', '建物の表示・原因・添付情報', '記載事項チェックリスト', False),
+]
+CAT = [dict(id=i, slug=s, title=t, catch=c, kind=k, first=f, field=i[0]) for i, s, t, c, k, f in S]
+BY_ID = {c['id']: c for c in CAT}
+assert len(CAT) == 40 and sum(c['first'] for c in CAT) == 12
+
+
+def path(c, ext):
+    return 'sheets/%s/%s_%s.%s' % (c['field'], c['id'], c['slug'], ext)
