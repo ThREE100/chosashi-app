@@ -64,7 +64,7 @@
 
 - D-01　**[表示に関する登記の期限](sheets/D/D-01_kigen-kisanten.md)**
 - D-02　**[添付情報の早見](sheets/D/D-02_tenpu-joho.md)**
-- D-03　申請人と代位申請の早見
+- D-03　[申請人と代位申請の早見](sheets/D/D-03_shinseinin-daii.md)
 - D-04　登記識別情報・印鑑証明書が必要な場合
 - D-05　原本還付と電子申請
 - D-06　登録免許税の早見
