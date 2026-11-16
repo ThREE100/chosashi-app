@@ -64,8 +64,8 @@
 - C-04　[共用部分・団地共用部分の登記](sheets/C/C-04_kyoyobu-touki.md)
 - C-05　[規約の設定・廃止と登記](sheets/C/C-05_kiyaku-settei-haishi.md)
 - C-06　[敷地権付き区分建物の特定登記の扱い](sheets/C/C-06_tokutei-touki.md)
-- C-07　団地共用部分の登記の申請情報
-- C-08　規約のつくり方
+- C-07　[団地共用部分の登記の申請情報](sheets/C/C-07_danchi-kyoyobu-shinsei.md)
+- C-08　[規約のつくり方](sheets/C/C-08_kiyaku-tsukurikata.md)
 
 #### D　申請手続の共通ルール（7枚）
 
@@ -75,7 +75,7 @@
 - D-04　[登記識別情報・印鑑証明書が必要な場合](sheets/D/D-04_shikibetsu-inkan.md)
 - D-05　[原本還付と電子申請](sheets/D/D-05_genpon-kanpu-denshi.md)
 - D-06　[登録免許税の早見](sheets/D/D-06_toroku-menkyozei.md)
-- D-07　権利の登記の添付情報
+- D-07　[権利の登記の添付情報](sheets/D/D-07_tenpu-joho-kenri.md)
 
 #### E　図面の記載事項（6枚）
 
@@ -93,8 +93,8 @@
 - F-03　[土地家屋調査士法人](sheets/F/F-03_chousashi-houjin.md)
 - F-04　[調査士の義務と懲戒](sheets/F/F-04_chousashi-gimu-chokai.md)
 - F-05　[筆界特定の却下と費用](sheets/F/F-05_hikkai-kyakka-hiyo.md)
-- F-06　調査士法人の脱退・合併・清算
-- F-07　調査士の義務違反と罰則
+- F-06　[調査士法人の脱退・合併・清算](sheets/F/F-06_chousashi-houjin-datsutai.md)
+- F-07　[調査士の義務違反と罰則](sheets/F/F-07_chousashi-bassoku.md)
 
 #### G　民法（9枚）
 
