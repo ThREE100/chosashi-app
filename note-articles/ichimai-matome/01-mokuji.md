@@ -57,7 +57,7 @@
 - C-01　**[敷地権の割合の計算例](sheets/C/C-01_shikichiken-keisan.md)**
 - C-02　**[敷地権になる条件と権利別の早見](sheets/C/C-02_shikichiken-yoken.md)**
 - C-03　[敷地権の移記と、変動の登記](sheets/C/C-03_shikichiken-ikki-hendo.md)
-- C-04　共用部分・団地共用部分の登記
+- C-04　[共用部分・団地共用部分の登記](sheets/C/C-04_kyoyobu-touki.md)
 - C-05　規約の設定・廃止と登記
 
 #### D　申請手続の共通ルール（6枚）
