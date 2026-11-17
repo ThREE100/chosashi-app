@@ -132,6 +132,42 @@
 
 ---
 
+## 見出し画像プロンプト
+
+noteの見出し画像（アイキャッチ、1280x670px）用です。年度別の解説記事の見出し画像は、女性のMCキャラクター1人だけを使います（トリ先生・藍子は入れません）。ChatGPTに、基準画像（キャラクターシート_MC-01〜MC-04の4枚）を添付し、下のコードブロックを貼ります。画像は生成していません。タイトルの文字は結論を書かず、問いかけにしています。
+
+```text
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
+Fill the whole canvas with the pastel sky and soft clouds.
+
+CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent or change any of them. Place her at the bottom center. POSE IS NOT FIXED: do not copy any pose from the attached images or from earlier header images; let her take a free, natural pose of your own choosing that fits the topic and suits her (for example standing, sitting, leaning, gesturing, or holding a small prop), and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text, and keep her hairstyle exactly as in the attached images. Keep her human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and no Latin letters anywhere in the image. The only digits allowed are the half-width Arabic digits that appear inside the subtitle string (the year and the question number), written exactly as given; no other digit anywhere. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
+附属建物だけ新築でも、
+Line 2 is larger and red-orange:
+図面は主たる建物も必要？
+Below the title, a light blue rounded pill-shaped subtitle band with navy text:
+平成19年度　第7問　建物図面
+Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
+
+TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the character):
+Left side: a small shed built beside a main house, both drawn on a blueprint, no text
+Right side: a drafting ruler and pencil resting on a floor plan drawing, no text
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
+
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the characters' faces are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 附、属、建、物、新、築、図、面、主、必、要、平、成、年、度、第、問; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is.
+```
+
+---
+
 ## インフォグラフィック プロンプト（問題全体）
 
 「図面を添付するかどうかの見分け方」（ア・イ・ウ）と「図面そのものの記載ルール」（エ・オ）で2系統に分け、通し番号バッジ・短い見出し・図解・短い結論タグだけで構成する計5枚のポスター型カードで俯瞰する構成。
