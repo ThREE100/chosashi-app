@@ -121,6 +121,42 @@ Cの借金の債権者Dが、代位でBC共同相続の登記をしてC名義の
 
 ---
 
+## 見出し画像プロンプト
+
+noteの見出し画像（アイキャッチ、1280x670px）用です。年度別の解説記事の見出し画像は、女性のMCキャラクター1人だけを使います（トリ先生・藍子は入れません）。ChatGPTに、基準画像（キャラクターシート_MC-01〜MC-04の4枚）を添付し、下のコードブロックを貼ります。画像は生成していません。タイトルの文字は結論を書かず、問いかけにしています。
+
+```text
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
+Fill the whole canvas with the pastel sky and soft clouds.
+
+CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent or change any of them. Place her at the bottom center. POSE IS NOT FIXED: do not copy any pose from the attached images or from earlier header images; let her take a free, natural pose of your own choosing that fits the topic and suits her (for example standing, sitting, leaning, gesturing, or holding a small prop), and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text, and keep her hairstyle exactly as in the attached images. Keep her human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and no Latin letters anywhere in the image. The only digits allowed are the half-width Arabic digits that appear inside the subtitle string (the year and the question number), written exactly as given; no other digit anywhere. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
+相続した土地を転売、
+Line 2 is larger and red-orange:
+先に登記した人が勝つ？
+Below the title, a light blue rounded pill-shaped subtitle band with navy text:
+平成18年度　第3問　相続と登記
+Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
+
+TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the character):
+Left side: a land plot model beside a family tree sheet, no text
+Right side: two hands reaching for the same key above a registry book, no text
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
+
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the characters' faces are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 相、続、土、地、転、売、先、登、記、人、勝、平、成、年、度、第、問; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is.
+```
+
+---
+
 ## インフォグラフィック プロンプト（問題全体）
 
 **2026-09-27三訂**：前版はA・B・C・Dの物語を捨てて「ひっかけポイント」重視に転換したこと自体は正しかったが、各カードを「LEFT box: 短い文」「RIGHT box: 短い文」という独立フィールドとして指定してしまい、結果として絵ではなく色分けされた文字ラベルの羅列になってしまった（インフォグラフィックとして描く意味がないとの指摘）。この版では、`infographic-prompt-template.md`が定める正規の骨格（Badge／Heading／**Illustration（1つの具体的な絵の描写段落）**／Conclusion tag）に戻し、この記事自身の⑤作図ガイド型セクションのPANEL 3（正誤対比型）と同じ書き方で、「誤りやすい思い込み」と「正しい理由」の両方を、具体的なアイソメトリックのモノ・記号・比喩で描き分ける。抽象的な「箱に短文」ではなく、各肢ごとに異なる具体的な視覚比喩（登記レースの旗、中身の空っぽな箱、そっくりな2枚の書類、分裂する傘、鍵のかかった土地の半分など）を用いる。5肢が3つの法的構造（二重譲渡型・無権利型・絶対効型）に分かれることを示す色分け・LEGENDは維持する。
