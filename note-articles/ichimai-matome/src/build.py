@@ -61,7 +61,7 @@ def article(c, s, size):
     fname = FIELDS[c['field']][0]
     img = os.path.basename(catalog.path(c, 'png'))
     h = s['header']
-    L = ['## 【土地家屋調査士試験】一枚まとめ_%s～%s～' % (c['title'], c['catch']), '',
+    L = ['## 【土地家屋調査士試験】%s_一枚まとめ_%s～%s～' % (c['id'].replace('-', '_'), c['title'], c['catch']), '',
          '**一枚まとめ　%s　｜　対象条文：%s**' % (fname, s['articles']), '',
          '> 【画像挿入】%s　（この一枚の画像。保存しておけば、通信なしで見返せます）' % img, '',
          '### この一枚で言えること', '']

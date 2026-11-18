@@ -158,6 +158,9 @@ def main(ids):
         md = os.path.join(ROOT, catalog.path(c, 'md'))
         if os.path.exists(md):
             t = open(md, encoding='utf-8').read()
+            want = '## 【土地家屋調査士試験】%s_一枚まとめ_%s～%s～' % (cid.replace('-', '_'), c['title'], c['catch'])
+            if t.splitlines()[0] != want:
+                bad(cid, '記事タイトルの形が違う（【土地家屋調査士試験】ID_一枚まとめ_題名～副題～）: %s' % t.splitlines()[0])
             for key in ('> 【画像挿入】', '## 見出し画像プロンプト（note用', '## 見出し画像プロンプト（Instagram用', '### 間違えやすい点'):
                 if key not in t:
                     bad(cid, '記事に「%s」がない' % key)
