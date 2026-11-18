@@ -6,7 +6,7 @@
 - 手で直すのは `src/sheets/<ID>.py`（データ）だけ。`python3 note-articles/ichimai-matome/src/build.py [ID...]` が、`sheets/<分野>/` に記事（.md）・画像（.png）・画像のHTMLを作り、`01-mokuji.md` も作り直す。**生成物は手で直さない**。
 - 画像は文字の図なので、画像生成AIは使わず、HTMLを組んでChromiumで書き出す（誤字ゼロ・再生成が速い）。環境の準備は `bash note-articles-Kijyutsu/tools/setup_env.sh`。
 - 記事の末尾に、ChatGPT用のプロンプトを入れてある：①見出し画像（note用 1280×670・Instagram用 1080×1440。女性のMCキャラクター1人だけ）、②イラスト図解（絵にすると分かりやすい論点だけ。note用・Instagram用）。画像の生成と目視確認はユーザーがChatGPTで行う（未実施）。
-- マガジン用の見出し画像のプロンプトは `02-magazine-header-prompt.md`（1280×670。タイトルは帯 y=227〜443 の中）。
+- マガジンの説明文は `note-articles/magazine-descriptions.md` の末尾。マガジン用の見出し画像のプロンプトは `02-magazine-header-prompt.md`（1280×670。タイトルは帯 y=227〜443 の中）。
 - 機械チェック：`python3 note-articles/ichimai-matome/src/check_all.py`（NG 0件にする）。確かめるのは、スロットと字数、法令名つきの「第N条」が原文にあること、`claims`（原文の文言）、計算例の検算、禁止語、画像の大きさ。
 - 書き方の約束は `src/SHEET_SPEC.md`。
 
