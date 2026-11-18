@@ -2,7 +2,7 @@
 
 **出題年度：平成18年度　第6問（改）**
 
-> 附属建物に関する次のアからオまでの記述のうち、正しいものの組合せは、後記１から５までのうちどれか。  
+> 附属建物に関する次のアからオまでの記述のうち、誤ったものの組合せは、後記１から５までのうちどれか。  
 >　  
 > ア　既登記の甲建物が、所有権の登記名義人が同一である既登記の乙建物に附属して一体として利用されているときは、甲建物と乙建物が国道を隔てている場合であっても、外に合併の登記の制限事由がない限り、甲建物を乙建物の附属建物とする建物の合併の登記をすることができる。  
 >　  
@@ -12,9 +12,9 @@
 >　  
 > エ　既登記の甲建物に附属して一体として利用されている未登記の乙建物が甲建物の建築日より前に建築されたものであるときは、附属建物を新築したことを原因とする甲建物の表題部の変更の登記をすることによって乙建物を甲建物の附属建物とすることはできない。  
 >　  
-> オ　甲登記所の管轄区域内にある主である建物と附属建物から成る１個の建物のうち主である建物のみを乙登記所の管轄区域内にえい行移転した場合の当該１個の建物の管轄登記所は、乙登記所である。  
+> オ　甲登記所の管轄区域内にある主である建物と附属建物から成る１個の建物のうち主である建物のみを乙登記所の管轄区域内にえい行移転した場合の当該１個の建物の管轄登記所は、甲登記所である。  
 >　  
-> １　アイ　　　２　アオ　　　３　イウ　　　４　ウエ　　　５　エオ
+> １　アウ　　　２　イエ　　　３　ウエ　　　４　ウオ　　　５　エオ
 
 ---
 
@@ -78,7 +78,7 @@
 
 これに対し、本肢のように主である建物だけが移り、附属建物は甲登記所の管轄区域に残ると、1個の建物が甲・乙両方の管轄区域にまたがることになります。この場合は準則5条後段が、甲登記所で登記されている建物がえい行移転により乙登記所の管轄区域にまたがることとなったときも、管轄登記所は甲登記所のままとしています。
 
-したがって、「管轄登記所は、乙登記所である」とするオは誤りです。
+したがって、「管轄登記所は、甲登記所である」とするオは正しい記述です。
 
 **たとえば**、甲登記所の管轄区域内にあった母屋（主である建物）と物置（附属建物）のうち、母屋だけが工事によって乙登記所の管轄区域内までえい行移転したとします。
 
@@ -92,15 +92,15 @@
 - **イ（正）**　附属建物新築時の各階平面図は新設分のみでよいが、建物図面には主である建物・他の附属建物も表示する
 - **ウ（誤）**　附属建物の取壊しによる表題部変更登記に、抵当権者の承諾を証する情報の提供は不要
 - **エ（誤）**　附属建物が主である建物より先に建築されていても、附属建物とする表題部変更登記はできる
-- **オ（誤）**　主である建物のみ移転しても、1個の建物の管轄登記所は移転前の甲登記所のまま
+- **オ（正）**　主である建物のみ移転しても、1個の建物の管轄登記所は移転前の甲登記所のまま
 
 附属建物は「所有者が同じで、効用上一体として利用されているか」という実質面が判断の軸になる一方、申請情報・添付情報として何をどこまで書くべきか（イ・ウ）、管轄がどちらの登記所になるか（オ）といった手続面の細かいルールも問われる分野です。地理的な近さや建築時期の前後関係といった、一見関係がありそうな事情に惑わされないようにしましょう。
 
-**正解：アイの組合せ（選択肢1番）**
+**正解：ウエの組合せ（選択肢3番）**
 
 ---
 
-※本記事は改題です（2026-10-08）。出題当時のオは「…当該１個の建物の管轄登記所は、甲登記所である。」で、正解はアイ（１番）でした。現行の準則5条後段では、主である建物のみをえい行移転して1個の建物が両登記所の管轄区域にまたがるときも管轄登記所は甲登記所のままとされ、この記述が正しくなって、正しいものがア・イ・オの3つとなり、選択肢のどれにも一致しなくなります。そこで、オの末尾を「乙登記所である」に改め、オを誤りとして、正解をアイ（１番）のままにしています。
+※本記事は改題です（2026-11-18）。出題当時の設問は「正しいものの組合せは、後記１から５までのうちどれか。」、選択肢は「１　アイ　２　アオ　３　イウ　４　ウエ　５　エオ」で、正解はアイ（１番）でした。現行の準則5条後段では、主である建物のみをえい行移転して1個の建物が両登記所の管轄区域にまたがるときも管轄登記所は甲登記所のままとされ、出題当時の原文のオ（管轄登記所は、甲登記所である）が正しい記述になります。その結果、正しいものがア・イ・オの3つとなり、原文の選択肢のどれにも一致しなくなるため、ア〜オの記述は原文のまま変えず、設問を「誤ったものの組合せ」に改め、選択肢を「１　アウ　２　イエ　３　ウエ　４　ウオ　５　エオ」に差し替えて、正解をウエ（３番）としています。
 
 ---
 
@@ -108,17 +108,17 @@
 
 - **問題文の差し替えと誤記の訂正（2026-10-02）**：問題文は提供された原文テキスト（出典サイトの表記）に置き換えました。ただし、明らかな誤記は次のとおり訂正しています：「合併の登記を制限事由がない」→「合併の登記の制限事由がない」。
 - 文章としてはこのままnoteに貼り付けて投稿できる内容です。
-- 出題年度・問題番号（平成18年度第6問）・正解番号（1番＝ア・イ）は、ユーザーから提供された確認済み情報として本文に採用しており、社内データベース（takuitsu.json、id: chosashi_H18_q06）のcorrectAnswerフィールド（値:1）とも一致することを確認しています。
+- 出題年度・問題番号（平成18年度第6問）・正解番号（改題後は3番＝ウ・エ。出題当時は1番＝ア・イ）は、ユーザーから提供された確認済み情報として本文に採用しており、社内データベース（takuitsu.json、id: chosashi_H18_q06）のcorrectAnswerフィールド（値:1。出題当時の正解番号）は、改題後の正解〔選択肢3番〕とは対応しません。
 - 条文レベルで`note-articles/laws/`の原文により確認できたもの：
   - ア・エ（不動産登記事務取扱手続準則78条1項）：「効用上一体として利用される状態にある数棟の建物は、所有者の意思に反しない限り、１個の建物として取り扱うものとする。」という条文原文と一致することを確認しました。同項は建物同士の地理的な近接性や建築時期の前後関係を要件としておらず、ア（国道を挟んでいても合併できる）・エ（附属建物が主である建物より先に建築されていても附属建物にできる）は、いずれもこの条文構造から導けます。
   - オ（不動産登記事務取扱手続準則4条1項・5条後段）：4条1項は、表題登記がある建物がえい行移転により甲登記所の管轄区域から乙登記所の管轄区域に移動した場合は乙登記所が管轄登記所となる、という定めです。一方、5条後段は「甲登記所において登記されている建物が、えい行移転又は管轄区域の変更により乙登記所の管轄区域にまたがることとなった場合についても、同様とする」（同条前段の「当該建物の管轄登記所は、甲登記所とする」）と定めており、いずれも`note-articles/laws/fudousan-touki-jimu-junsoku.md`の原文と一致することを確認しました。主である建物のみが移転し附属建物が残る本肢は5条後段にあたり、現行準則では管轄は甲登記所のままです。
   - ウ（不動産登記令別表14項添付情報）：建物の表題部の変更の登記（附属建物の取壊しによる変更登記を含む）の添付情報を定める同項の添付情報欄（イ〜ニ）には、抵当権者など所有権以外の権利の登記名義人の承諾を証する情報を求める規定がないことを条文原文で確認しました。
 - 一方、イの「各階平面図は新築に係る附属建物のみでよいが、建物図面には主である建物・他の附属建物も表示する」という取扱いは、`laws/`収録の不動産登記令・同規則・準則の条文本文には同旨の明文規定を見つけられず、先例（昭和37年10月1日民事甲第2802号とみられるもの）による取扱いとして複数の実務解説サイトの記述で内容を確認しました。先例番号そのものは、官報等の一次資料原文までは確認できておらず、二次情報源の一致による裏付けにとどまります（本文・まとめからは先例番号を除いています）。
 - アガルート等のローカル教材PDFは本実行環境に存在せず、参照していません。ユーザーから提供された市販教材の解説文（STEP3参考情報）は、正誤判定・条文根拠の突合にのみ使用し、本文の文章はすべて独自に執筆しています。
-- **2026-10-08の改善（オの現行準則による再判定・「改」の理由）**：一問一答ドリルの条文照合で、オの本文が準則4条1項（建物全体が移動した場合）を本肢に当てはめて「乙登記所が管轄」としていたのは誤りで、本肢には準則5条後段が当たるとの指摘を受け、原文で確認しました。指摘は正しく、現行準則では、出題当時の原文のオ「管轄登記所は、甲登記所である」が正しくなります。結論を保つため、オの末尾を「乙登記所である」に改め、タイトル・出典行・図解プロンプト（問題全体のカード5・作図ガイドのパネル5・脚注）に（改）を反映しました。出題当時の準則5条が後段を含んでいたかどうかは、本環境では確認できていません。なお、同日いったんオを出題時の原文に戻しましたが、原文のままでは現行法でア・イ・オの3つが正しくなり、選択肢1〜5のどれにも一致せず問題として成立しないうえ、本文が「乙登記所になる」と準則5条後段に反する説明になっていたため、2026-10-08のドリルの条文照合タグ（D0131）への対処として、この「乙登記所である」への改題を再び適用しました（本文・まとめ・図解プロンプトも準則4条1項と5条後段に沿った整理に戻しています）。
+- **オの現行準則による再判定と改題方法の変更（2026-10-08・2026-11-18）**：一問一答ドリルの条文照合で、オの管轄登記所は、現行準則では準則5条後段により甲登記所のまま（準則4条1項は建物の全部が移った場合の規定）であり、出題当時の原文のオ「管轄登記所は、甲登記所である」が正しいとの指摘を受け、原文で確認しました。当初（2026-10-08）は、正解を1番のまま保つためオの末尾を「乙登記所である」に改めていましたが、2026-11-18に方法を変更し、ア〜オの記述は原文どおりに戻したうえで、設問を「誤ったものの組合せ」に改め、選択肢を差し替えて正解をウエ（3番）としました。タイトル・出典行・図解プロンプトの（改）は、問題文・選択肢を書き換えているので維持しています。出題当時の準則5条が後段を含んでいたかどうかは、本環境では確認できていません。
 - **法改正の影響チェック（2026-09-19実施）**：本問が根拠とする不動産登記事務取扱手続準則78条1項（建物の個数の基準）・4条1項（えい行移転による管轄登記所）、不動産登記令別表14項（建物の表題部の変更の登記の添付情報）は、いずれも`laws/`収録時点（2026-08-04取得）で現行のまま存続しており、直近の改正はありません。相続登記の申請義務化・住所等変更登記の申請義務化は、いずれも附属建物の合併・新築・取壊し・管轄という本問の論点（所有権や氏名・住所の異動を直接の登記原因としない表示に関する登記の手続的な取扱い）とは関係がなく、本問の正解（選択肢1番）に影響する法改正はありません。
 - **重複出題チェック（2026-09-19実施）**：`src/data/takuitsu.json`および他年度の`note-articles/`記事を「えい行移転」「効用上一体」「附属建物」「各階平面図」等のキーワードで確認しました。附属建物そのものを主題とする記事は平成17年度第8問・令和4年度第14問・令和6年度第14問に存在し、えい行移転による管轄登記所の論点は平成19年度第7問・平成21年度第10問・平成23年度第14問など複数年度で出題されていますが、本問（平成18年度第6問）のア〜オの組合せ（合併の制限事由・図面の作成範囲・抵当権者の承諾要否・附属建物の建築時期・えい行移転後の管轄）と完全に一致する問題は見当たりませんでした。附属建物の実務ルールは頻出分野であるため、今後の年度でも類似論点が再出題される可能性がある点を申し添えます。
-- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（準則78条1項・4条1項、不動産登記令別表14項を`fudousan-touki-jimu-junsoku.md`・`fudousan-touki-rei-betsuhyou.md`原文で再照合し、いずれも本文の記載と一致することを確認。イの根拠とした先例番号〔昭和37年10月1日民事甲第2802号とみられるもの〕は本文になく確認事項ブロックのみに記載されていることを確認）、B（正解＝選択肢1番〔ア・イが正しい〕と各肢の判定の整合性を再確認）、C（見出し・敬体・正解の先出し禁止・条文解釈プロセスの説明禁止・全角括弧を確認）、D（Markdown表の不使用を確認）、E（記事末尾の「問題全体」用インフォグラフィックプロンプトがコードフェンス（バッククォート3つ）で囲まれていなかったため追加。カードの内容自体は本文・まとめと一致していることを確認）、F（テンプレート構造・タイトル文字数・確認事項ブロックの記載を確認。タイトルのキャッチフレーズは「〜になるんです」で語尾ルールに適合していることを確認）、G（法改正の影響チェック・重複出題チェックを今回新規に実施しました）を行いました。インフォグラフィックのコードフェンス追加以外に、本文・まとめ・正解の記載に修正すべき誤りは見つかりませんでした。
+- **QAチェックリスト再検証（2026-09-19実施）**：`note-articles/qa-checklist.md`の全19項目（A〜G）に基づき再検証しました。A（準則78条1項・4条1項、不動産登記令別表14項を`fudousan-touki-jimu-junsoku.md`・`fudousan-touki-rei-betsuhyou.md`原文で再照合し、いずれも本文の記載と一致することを確認。イの根拠とした先例番号〔昭和37年10月1日民事甲第2802号とみられるもの〕は本文になく確認事項ブロックのみに記載されていることを確認）、B（改題後の正解＝選択肢3番〔ウ・エが誤り〕と各肢の判定の整合性を再確認）、C（見出し・敬体・正解の先出し禁止・条文解釈プロセスの説明禁止・全角括弧を確認）、D（Markdown表の不使用を確認）、E（記事末尾の「問題全体」用インフォグラフィックプロンプトがコードフェンス（バッククォート3つ）で囲まれていなかったため追加。カードの内容自体は本文・まとめと一致していることを確認）、F（テンプレート構造・タイトル文字数・確認事項ブロックの記載を確認。タイトルのキャッチフレーズは「〜になるんです」で語尾ルールに適合していることを確認）、G（法改正の影響チェック・重複出題チェックを今回新規に実施しました）を行いました。インフォグラフィックのコードフェンス追加以外に、本文・まとめ・正解の記載に修正すべき誤りは見つかりませんでした。
 
 ---
 
@@ -129,6 +129,42 @@
 - 附属建物を壊すとき、抵当権者の承諾はいらないんです
 - 蔵の方が古くても、附属建物にできるって知ってた？
 - 母屋だけ引っ越しても、管轄は元の登記所なんです
+
+---
+
+## 見出し画像プロンプト
+
+noteの見出し画像（アイキャッチ、1280x670px）用です。年度別の解説記事の見出し画像は、女性のMCキャラクター1人だけを使います（トリ先生・藍子は入れません）。ChatGPTに、基準画像（キャラクターシート_MC-01〜MC-04の4枚）を添付し、下のコードブロックを貼ります。画像は生成していません。タイトルの文字は結論を書かず、問いかけにしています。
+
+```text
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
+Fill the whole canvas with the pastel sky and soft clouds.
+
+CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent or change any of them. Place her at the bottom center. POSE IS NOT FIXED: do not copy any pose from the attached images or from earlier header images; let her take a free, natural pose of your own choosing that fits the topic and suits her (for example standing, sitting, leaning, gesturing, or holding a small prop), and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text, and keep her hairstyle exactly as in the attached images. Keep her human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and no Latin letters anywhere in the image. The only digits allowed are the half-width Arabic digits that appear inside the subtitle string (the year and the question number), written exactly as given; no other digit anywhere. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
+国道を挟んだ建物、
+Line 2 is larger and red-orange:
+一つの建物になる？
+Below the title, a light blue rounded pill-shaped subtitle band with navy text:
+平成18年度　第6問　附属建物
+Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
+
+TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the character):
+Left side: two small house models on either side of a road, no text
+Right side: a main house and a small storehouse side by side, no text
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
+
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the characters' faces are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 国、道、挟、建、物、一、平、成、年、度、第、問、附、属; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is.
+```
 
 ---
 

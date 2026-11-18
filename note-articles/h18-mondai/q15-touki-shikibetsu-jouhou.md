@@ -34,7 +34,7 @@
 
 次にその不動産について登記を申請するときは、登記識別情報の提供に代えて、登記官からの事前通知を受けるか、土地家屋調査士などの資格者代理人による本人確認を経る方法によることになります。
 
-### イ：合筆する土地の登記名義人が2人以上いるときは、その全員の登記識別情報の提供が必要
+### イ：提供する一筆の登記名義人が2人以上いるときは、その一筆の名義人全員の登記識別情報の提供が必要
 
 登記名義人が政令で定める登記を申請する場合には、申請人はその登記名義人の登記識別情報を提供しなければならないのが原則です（不動産登記法22条本文）。
 
@@ -85,7 +85,7 @@
 ### まとめ
 
 - **ア（誤）**　登記識別情報を亡失しても再通知の手続きはない。事前通知・本人確認情報等で代替する
-- **イ（誤）**　合筆する一筆の土地の登記名義人が2人以上のときは、その全員の登記識別情報の提供が必要
+- **イ（誤）**　提供する一筆の登記名義人が2人以上のときは、その一筆の名義人全員の登記識別情報の提供が必要
 - **ウ（正）**　合筆に係る数筆の土地のうち、いずれか一筆分の登記識別情報を提供すれば足りる
 - **エ（正）**　登記識別情報を提供できない正当な理由があるときは、登記官から事前通知がされる
 - **オ（誤）**　土地の分筆登記では、登記識別情報は通知されない
@@ -120,6 +120,42 @@
 - 合筆はどれか一筆の分だけでいいんです
 - 出せない理由があれば、ちゃんと通知が来るんです
 - 分筆したら、登記識別情報は増えないんです
+
+---
+
+## 見出し画像プロンプト
+
+noteの見出し画像（アイキャッチ、1280x670px）用です。年度別の解説記事の見出し画像は、女性のMCキャラクター1人だけを使います（トリ先生・藍子は入れません）。ChatGPTに、基準画像（キャラクターシート_MC-01〜MC-04の4枚）を添付し、下のコードブロックを貼ります。画像は生成していません。タイトルの文字は結論を書かず、問いかけにしています。
+
+```text
+Create a note.com article header image (eyecatch thumbnail), 1280x670px
+(1.91:1 landscape aspect ratio).
+
+STYLE: soft Japanese watercolor-like illustration with a bright pastel sky (light blue, cream, and pale yellow), gentle clouds, clean outlines, consistent with the note.com explainer-column header images of the same series. Keep exactly the same overall layout: the title block at the top center, the single character at the bottom center, and topic scenes fading softly into the left and right edges.
+Fill the whole canvas with the pastel sky and soft clouds.
+
+CHARACTERS (critical): this header image features ONE character only: the main character (MC) shown in the attached character-specification images (キャラクターシート_MC-01, MC-02, MC-03, MC-04). Do NOT draw トリ先生 (the bird teacher), 藍子, or any other character, person, or animal besides this one MC character. Follow the attached MC character sheets exactly and do not redesign her: copy her face, hairstyle, hair color, outfit, and proportions from the sheets, and do not invent or change any of them. Place her at the bottom center. POSE IS NOT FIXED: do not copy any pose from the attached images or from earlier header images; let her take a free, natural pose of your own choosing that fits the topic and suits her (for example standing, sitting, leaning, gesturing, or holding a small prop), and choose a different pose each time this image is generated. Keep her fully visible, with her face clear of the title text, and keep her hairstyle exactly as in the attached images. Keep her human anatomy strictly correct: exactly one head, one torso, two arms (one left, one right) and two hands in total, each hand with exactly five fingers; never draw extra arms, hands, or fingers, floating or duplicated hands, arms not growing from the shoulders, or fused hands; check that every shoulder, elbow, and wrist connects naturally.
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only, using hiragana, katakana, Jōyō (regular Japanese) kanji, and no Latin letters anywhere in the image. The only digits allowed are the half-width Arabic digits that appear inside the subtitle string (the year and the question number), written exactly as given; no other digit anywhere. Do NOT use Simplified Chinese characters or Traditional Chinese characters; every glyph must match the standard Japanese Jōyō form exactly. Do NOT render any other non-Japanese script, and no stray or decorative glyphs of any kind, even as small background or texture elements. Reproduce the exact text strings given below verbatim; do not paraphrase, translate, summarize, or substitute any characters. Within this English prompt text, use half-width parentheses ( ) consistently.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background under any circumstances, even if the output file format supports transparency. Fill the full canvas, including every corner and margin, with the opaque background described above. There must be no checkerboard pattern, no partially transparent area, and no unpainted canvas edge anywhere in the final image.
+
+TEXT (reproduce verbatim, nothing else): a large, bold, rounded Japanese title in two lines at the top center, over a soft white cloud-shaped glow so it reads clearly. Line 1 is dark navy with a pale yellow marker stroke behind it:
+登記識別情報、
+Line 2 is larger and red-orange:
+提供と通知の違いは？
+Below the title, a light blue rounded pill-shaped subtitle band with navy text:
+平成18年度　第15問　登記識別情報
+Do not write any other text anywhere in the image: no captions, no labels, no signs with letters, no watermark, no panel numbers.
+
+TOPIC SCENES (illustration only, no text on any object; keep them soft and slightly faded so they never compete with the title or the character):
+Left side: a document with a covered scratch panel, no text
+Right side: an envelope beside a small key, no text
+
+LAYOUT: keep a clear, uncluttered zone behind the title and subtitle. Keep the character and the title away from the extreme edges so the image survives center cropping. Do not draw any flowchart, diamond, arrow between boxes, or check mark or cross mark.
+
+Final check before rendering: confirm the image is exactly 1280x670 landscape; confirm the only text in the whole image is the two title lines and the subtitle, reproduced exactly as written (cartoon expression marks such as ！ and ？ beside the characters' faces are decoration, are allowed, and are not extra text); scan every kanji glyph and confirm it is the standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional Chinese, paying special attention to the kanji 登、記、識、別、情、報、提、供、通、知、違、平、成、年、度、第、問; if any character renders as a Chinese variant, redraw it in the correct Japanese form; confirm the MC character is the only character in the image (no トリ先生, no 藍子), that she matches the attached MC character sheets, and that she keeps the same hairstyle; and confirm the entire canvas, edge to edge, is filled with a fully opaque background with no transparency or alpha channel anywhere. Never delete, redo, or regenerate anything because of an expression mark or a symbol beside a character; deliver the first image as it is.
+```
 
 ---
 
@@ -224,17 +260,18 @@ soft blue, 5-15 Japanese characters):
 
 --- CARD 2 ---
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-共有なら全員分の提供が必要
-Illustration: Two isometric characters labeled「共有者A」「共有者B」each
-holding an ID-card icon labeled「登記識別情報」, both handing their cards
+選んだ一筆が共有なら全員分
+Illustration: One isometric land-plot icon labeled「乙土地」owned by two
+isometric characters labeled「共有者A」「共有者B」, each holding an
+ID-card icon labeled「登記識別情報」, both handing their cards
 toward a document icon labeled「合筆申請書」. A red X overlays a single
 lone ID-card icon held up by only one character, showing that one card
 alone is not enough.
-Words allowed inside this illustration (verbatim, nothing else): 「共有者A」
-「共有者B」「登記識別情報」「合筆申請書」
+Words allowed inside this illustration (verbatim, nothing else): 「乙土地」
+「共有者A」「共有者B」「登記識別情報」「合筆申請書」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
-共有者全員分が必要
+その一筆の共有者全員分
 
 --- CARD 3 ---
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
@@ -409,8 +446,8 @@ characters):
 --- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
-名義人が1人か2人以上かを見る
-Diagram: Draw an actual decision flowchart. A land plot icon labeled「乙
+提供する一筆の名義人が何人かを見る
+Diagram: Draw an actual decision flowchart. Two small land plot icons labeled「甲土地」「乙土地」 sit at the start; a note beside them reads「いずれか一筆を選ぶ」and 乙土地 is the highlighted chosen plot. The chosen「乙
 土地」leads into a diamond-shaped branch node reading「その一筆の所有権登
 記名義人は何人か」. A「1人」arrow leads to a conclusion node reading「その
 1人の登記識別情報でよい」, illustrated with a single character holding an
@@ -422,13 +459,13 @@ holding their own ID-card icon, with a red X overlaying a single lone
 ID-card icon to show that one card alone is not enough. No arrow loops
 back to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、合筆に係る一筆のうち提供する登記識別情報の対象となる土地の所有権登
-記名義人が1人か2人以上かを確認します。1人であればその1人の登記識別情報を
-提供すれば足りますが、2人以上（共有）であれば、共有者全員の登記識別情報
-を提供しなければなりません。
+まず、合筆に係る土地のうち登記識別情報を提供する一筆を選び、その一筆の所有
+権登記名義人が1人か2人以上かを確認します。1人であればその1人の登記識別情
+報を提供すれば足りますが、2人以上（共有）であれば、その一筆の共有者全員の
+登記識別情報を提供しなければなりません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-共有なら全員分必要
+選んだ一筆が共有なら全員分
 
 --- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
