@@ -34,7 +34,7 @@
 
 次にその不動産について登記を申請するときは、登記識別情報の提供に代えて、登記官からの事前通知を受けるか、土地家屋調査士などの資格者代理人による本人確認を経る方法によることになります。
 
-### イ：合筆する土地の登記名義人が2人以上いるときは、その全員の登記識別情報の提供が必要
+### イ：提供する一筆の登記名義人が2人以上いるときは、その一筆の名義人全員の登記識別情報の提供が必要
 
 登記名義人が政令で定める登記を申請する場合には、申請人はその登記名義人の登記識別情報を提供しなければならないのが原則です（不動産登記法22条本文）。
 
@@ -85,7 +85,7 @@
 ### まとめ
 
 - **ア（誤）**　登記識別情報を亡失しても再通知の手続きはない。事前通知・本人確認情報等で代替する
-- **イ（誤）**　合筆する一筆の土地の登記名義人が2人以上のときは、その全員の登記識別情報の提供が必要
+- **イ（誤）**　提供する一筆の登記名義人が2人以上のときは、その一筆の名義人全員の登記識別情報の提供が必要
 - **ウ（正）**　合筆に係る数筆の土地のうち、いずれか一筆分の登記識別情報を提供すれば足りる
 - **エ（正）**　登記識別情報を提供できない正当な理由があるときは、登記官から事前通知がされる
 - **オ（誤）**　土地の分筆登記では、登記識別情報は通知されない
@@ -260,17 +260,18 @@ soft blue, 5-15 Japanese characters):
 
 --- CARD 2 ---
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
-共有なら全員分の提供が必要
-Illustration: Two isometric characters labeled「共有者A」「共有者B」each
-holding an ID-card icon labeled「登記識別情報」, both handing their cards
+選んだ一筆が共有なら全員分
+Illustration: One isometric land-plot icon labeled「乙土地」owned by two
+isometric characters labeled「共有者A」「共有者B」, each holding an
+ID-card icon labeled「登記識別情報」, both handing their cards
 toward a document icon labeled「合筆申請書」. A red X overlays a single
 lone ID-card icon held up by only one character, showing that one card
 alone is not enough.
-Words allowed inside this illustration (verbatim, nothing else): 「共有者A」
-「共有者B」「登記識別情報」「合筆申請書」
+Words allowed inside this illustration (verbatim, nothing else): 「乙土地」
+「共有者A」「共有者B」「登記識別情報」「合筆申請書」
 Conclusion tag (a short colored banner/pill directly below the illustration,
 soft blue, 5-15 Japanese characters):
-共有者全員分が必要
+その一筆の共有者全員分
 
 --- CARD 3 ---
 Heading (bold, ONE line, ~20 Japanese characters or fewer):
@@ -445,8 +446,8 @@ characters):
 --- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
 Heading (bold, ONE line):
-名義人が1人か2人以上かを見る
-Diagram: Draw an actual decision flowchart. A land plot icon labeled「乙
+提供する一筆の名義人が何人かを見る
+Diagram: Draw an actual decision flowchart. Two small land plot icons labeled「甲土地」「乙土地」 sit at the start; a note beside them reads「いずれか一筆を選ぶ」and 乙土地 is the highlighted chosen plot. The chosen「乙
 土地」leads into a diamond-shaped branch node reading「その一筆の所有権登
 記名義人は何人か」. A「1人」arrow leads to a conclusion node reading「その
 1人の登記識別情報でよい」, illustrated with a single character holding an
@@ -458,13 +459,13 @@ holding their own ID-card icon, with a red X overlaying a single lone
 ID-card icon to show that one card alone is not enough. No arrow loops
 back to an earlier node.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず、合筆に係る一筆のうち提供する登記識別情報の対象となる土地の所有権登
-記名義人が1人か2人以上かを確認します。1人であればその1人の登記識別情報を
-提供すれば足りますが、2人以上（共有）であれば、共有者全員の登記識別情報
-を提供しなければなりません。
+まず、合筆に係る土地のうち登記識別情報を提供する一筆を選び、その一筆の所有
+権登記名義人が1人か2人以上かを確認します。1人であればその1人の登記識別情
+報を提供すれば足りますが、2人以上（共有）であれば、その一筆の共有者全員の
+登記識別情報を提供しなければなりません。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-共有なら全員分必要
+選んだ一筆が共有なら全員分
 
 --- PANEL 3（ウ） ---
 Badge: a filled circle in green containing the number 3.
