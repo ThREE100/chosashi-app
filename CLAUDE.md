@@ -636,3 +636,7 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 **3行の見出し（HEADER LOCK）は、総論の図解（②）にも適用する**（2026-11-06 ユーザー指示）。文言の正本は`note-unei/instagram/header_lock_text.py`（Instagram用生成器・毎日ドリルの雛形`daily-drill/kaisetsu/src/tpl.py`・`note-articles/tools/apply_header_lock.py`が読む）。各年度・実践答練・予想模試の記事（`note-articles/*-mondai`等）の総論プロンプト490か所は`apply_header_lock.py`で直した（1行目＝タイトル／2行目＝論点／3行目＝年度（または「実践答練 第N回」「直前予想模試」「毎日ドリル 第N日」）と問題番号だけ。何度実行しても同じ結果）。新しい記事の総論プロンプトを書いたら、`python3 note-articles/tools/apply_header_lock.py`を実行して見出しをそろえる。指示書は`note-articles/infographic-prompt-template.md`と`daily-drill/kaisetsu/PROMPT_解説記事の作成.md`。
 
 **択一（年度別・実践答練・直前予想模試）と毎日ドリルのnote記事のタイトルの先頭は【土地家屋調査士試験】**（2026-11-07 ユーザー指示。それまでは【土地家屋調査士受験生向け】）。記事・生成器・チェック・書式の指示書（`note-articles/format-template.md`・`README.md`・`mistake-note-prompt.md`、`daily-drill/kaisetsu/`）を直した。4コマ・苦手分析・総合記事・条文別・記述式のタイトルは対象外で、従来のまま。
+
+## 条文の逆引き図鑑・ひっかけの型の診断（`note-unei/jobun-gyakubiki/`・`note-unei/hikkake-shindan/`、2026-11-25追加）
+
+`senryaku.md` v6 の 4-9・4-10。条文の逆引き図鑑は、択一の全肢解説から条文ごとに「いつ・どの肢で出たか」を引ける静的なWebページ（`src/extract.py`→`src/build.py`→`src/check.py`、出力は`site/`。**未公開**で、公開は`site/`を`public/jobun/`に写して push する。手順と公開前の確認・4週間見る数字は同フォルダの`README.md`）。ひっかけの型の診断は、本試験の10肢で間違え方の型（5つ）を見る紙版のnote記事（`src/data.py`を直して`src/build.py`、`src/check.py`でNG 0件）。どちらも肢の文・正誤は一問一答バンクから取り、手で書き写さない。年度別記事やバンクを直したら作り直す。

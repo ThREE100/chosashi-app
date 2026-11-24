@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{SITE}}｜土地家屋調査士試験 択一の過去問を条文から引く</title>
+<meta name="description" content="土地家屋調査士試験の択一式（{{PERIOD}}）の全肢の解説から、条文ごとに「いつ・どの肢で出たか」を引ける一覧です。条文の原文と正誤つき。">
+<link rel="stylesheet" href="style.css"></head>
+<body><main>
+<h1>{{SITE}}</h1>
+<p class="lead">土地家屋調査士試験の択一式（{{PERIOD}}、{{N_Q}}問・{{N_SHI}}肢）の解説から、<b>条文ごとに「いつ・どの肢で出たか」</b>を引けるようにしました。{{N_JOBUN}}の条文があります。</p>
+<div class="how">使い方：条文の番号（例：58、第105条の2）か、論点の言葉（例：共用部分、地目、代位）で探します。帯の青いマスが、その条文が出た年度です。条文を開くと、原文と、出題された肢・正誤・解説記事へのリンクが並びます。</div>
+<div class="controls">
+<input id="q" type="search" placeholder="条文の番号・論点の言葉で探す" aria-label="検索">
+<select id="law" aria-label="法令"><option value="">すべての法令</option></select>
+<select id="sort" aria-label="並べ方"><option value="freq">出た年度の多い順</option><option value="num">条文の番号順</option></select>
+</div>
+<p id="count" class="lead"></p>
+<div class="list" id="list"></div>
+<button class="more" id="more" type="button">もっと見る</button>
+</main>
+<footer><p>解説の本文で法令名つきで引いている条文を数えています（{{N_SHI}}肢のうち{{N_CITED}}肢）。法令名のない「法第○条」は数えていないので、実際の出題より少なめです。</p>
+<p>正誤は現行の法令で確かめた結果です（出題当時の公式の正答と違うことがあります）。</p></footer>
+<script>
+const D=/*DATA*/null;
+const $=s=>document.querySelector(s);
+const law=$('#law');D.laws.forEach(l=>{const o=document.createElement('option');o.value=l;o.textContent=l;law.appendChild(o)});
+const Z=s=>s.replace(/[０-９]/g,c=>String.fromCharCode(c.charCodeAt(0)-0xFEE0));
+const KN='〇一二三四五六七八九';
+function num(a){const m=a.split('の');return parseInt(m[0])*1000+(m[1]?parseInt(m[1]):0)}
+let shown=40;
+function strip(ys){let h='<div class="strip">';for(let i=0;i<D.years.length;i++)h+=`<span class="cell${ys.includes(i)?' on':''}" title="${D.years[i]}"></span>`;return h+'</div>'}
+function render(){
+  let q=Z($('#q').value.trim()).replace(/^第/,'').replace(/条/,'');
+  let rows=D.rows.filter(r=>!law.value||r.law===law.value);
+  if(q){const isNum=/^\d+(の\d+)?$/.test(q);rows=rows.filter(r=>isNum?(r.a===q||r.a.startsWith(q+'の')):(r.kw.includes(q)||r.law.includes(q)))}
+  if($('#sort').value==='num')rows=rows.slice().sort((a,b)=>D.laws.indexOf(a.law)-D.laws.indexOf(b.law)||num(a.a)-num(b.a));
+  $('#count').textContent=`${rows.length}の条文`;
+  $('#list').innerHTML=rows.slice(0,shown).map(r=>`<a class="item" href="${r.href}"><span class="name">${r.s} ${r.j}</span><span class="cnt">${r.ny}年度・${r.ns}肢</span>${strip(r.ys)}</a>`).join('');
+  $('#more').style.display=rows.length>shown?'block':'none';
+}
+['#q','#law','#sort'].forEach(s=>$(s).addEventListener('input',()=>{shown=40;render()}));
+$('#more').addEventListener('click',()=>{shown+=60;render()});
+render();
+</script></body></html>
