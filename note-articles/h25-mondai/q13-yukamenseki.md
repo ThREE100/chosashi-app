@@ -1,4 +1,4 @@
-## 【土地家屋調査士試験】平成25年度 第13問〜吹抜け部分はどの階の床面積にもならない〜
+## 【土地家屋調査士試験】平成25年度 第13問〜吹抜け部分は上階の床面積にならない〜
 
 **出題年度：平成25年度　午後の部　第13問**
 
@@ -20,9 +20,9 @@
 
 床面積の算定は、不動産登記規則115条の「壁その他の区画の中心線で囲まれた部分の水平投影面積」という原則を出発点に、吹抜け・ダストシュート・出窓といった個別の建築要素ごとの取扱いを覚えていく分野です。数値基準の正確な暗記がカギになります。
 
-### ア：吹抜け部分は、どの階の床面積にも算入しない
+### ア：吹抜け部分は、上階の床面積に算入しない
 
-建物の一部が上階まで吹抜になっている場合、その吹抜部分にはそもそも床が存在しないため、上階の床面積にも算入されません（不動産登記事務取扱手続準則82条8号）。「上階の床面積に算入する」とするのは誤りです。
+建物の一部が上階まで吹抜になっている場合、上階のその部分には床がないため、吹抜部分は上階の床面積に算入されません（不動産登記事務取扱手続準則82条8号）。床のある下の階は、ふつうどおり床面積に算入します。「上階の床面積に算入する」とするのは誤りです。
 
 **たとえば**、1階の玄関ホールが2階の天井まで吹き抜けになっている住宅の場合、その吹抜部分は2階の床面積としてカウントされることはありません。
 
@@ -58,7 +58,7 @@
 
 ### まとめ
 
-- **ア（誤）**　吹抜け部分は、上階を含めどの階の床面積にも算入しない
+- **ア（誤）**　吹抜け部分は、上階の床面積に算入しない（床のある下の階には算入する）
 - **イ（正）**　地下街の床面積は、通路・階段部分を除いた区画部分で定める
 - **ウ（誤）**　内部から連続するダストシュートは、外にはみ出した部分も床面積に算入する
 - **エ（正）**　柱・壁が傾斜している場合は、床面が接する部分の中心線で床面積を定める
@@ -78,14 +78,14 @@
 - イ・エ・オは、いずれも準則82条4号・9号・11号の文言と一致（エ・オは一言一句完全一致）するため**正しいです**。
 - 誤っている肢はアとウの2個で、正解は選択肢2番（takuitsu.jsonデータベースの正解フィールドと一致）です。
 - 各肢の法的根拠は、不動産登記規則115条（床面積の算定方法：壁その他の区画の中心線で囲まれた部分の水平投影面積）及び不動産登記事務取扱手続準則82条（4号：地下街、8号：吹抜け、9号：傾斜壁、10号：煙突・ダストシュート、11号：出窓）の条文原文（`note-articles/laws/fudousan-touki-jimu-junsoku.md`）で確認済みです。
-- **重複出題チェック（2026-07-21実施、重要）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。**本問ア「建物の一部が上階まで吹抜になっている場合、その吹抜部分は上階の床面積に算入する」（誤り）と同じ論点が、H30年度第13問エ「建物の一部が上階まで吹抜になっている場合には、その吹抜の部分は、上階の床面積に算入されない」（正しい記述）、及びR05年度第12問ア（同旨、正しい記述）で繰り返し出題されています**。「吹抜け部分はどの階の床面積にも算入しない」という結論が3つの年度で使い回されている定番論点です。また、本問ウ（ダストシュートが内部・外部にまたがる場合の扱い）と同様の題材が、R04年度第12問エでも図付きの問題として出題されています。H30年度・R04年度・R05年度分の記事の内容は、本問ウの結論（内部から連続して外側にはみ出した部分も算入する。算入しないのは独立して屋外にある煙突・ダストシュートのみ）と整合しているか、念のため確認することをお勧めします。
+- **重複出題チェック（2026-07-21実施、重要）**：takuitsu.jsonを検索し、平成25年度より後（H26〜R07）に実施された試験で、本問と同一・類似の論点が再出題されていないかを確認しました。**本問ア「建物の一部が上階まで吹抜になっている場合、その吹抜部分は上階の床面積に算入する」（誤り）と同じ論点が、H30年度第13問エ「建物の一部が上階まで吹抜になっている場合には、その吹抜の部分は、上階の床面積に算入されない」（正しい記述）、及びR05年度第12問ア（同旨、正しい記述）で繰り返し出題されています**。「吹抜け部分は上階の床面積に算入しない」という結論が3つの年度で使い回されている定番論点です。また、本問ウ（ダストシュートが内部・外部にまたがる場合の扱い）と同様の題材が、R04年度第12問エでも図付きの問題として出題されています。H30年度・R04年度・R05年度分の記事の内容は、本問ウの結論（内部から連続して外側にはみ出した部分も算入する。算入しないのは独立して屋外にある煙突・ダストシュートのみ）と整合しているか、念のため確認することをお勧めします。
 - **最新法令チェック**：相続登記義務化（不動産登記法76条の2、令和6年4月1日施行）及び住所変更登記義務化（同法76条の5、令和8年4月1日施行・施行済み）による影響を確認しました。本問が扱う各肢（吹抜け・地下街・ダストシュート・傾斜壁・出窓の床面積算定基準）は、いずれも準則82条に基づく建物の表示に関する登記の技術的な算定ルールであり、相続や住所変更に伴う所有権（権利部）の登記義務とは無関係です。これらの改正による影響はありません。
 
 ---
 
 ## 見出し画像用フレーズ
 
-- 吹抜けは、どの階の床面積にもならないんです
+- 吹抜けは、上の階の床面積にはならないんです
 - 地下街の通路は、面積にカウントされないんです
 - ダストシュート、外にはみ出た部分も算入されるんです
 - 傾いた壁の面積、床に接する位置で決まるんです
@@ -152,7 +152,7 @@ image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-吹抜けはどの階の床面積にもならない
+吹抜けは上階の床面積にならない
 床面積算定の細かいルールを整理
 
 Subtitle (smaller, centered, 1行):
@@ -164,12 +164,14 @@ Subtitle (smaller, centered, 1行):
 --- CARD 1 ---
 Badge: a filled blue circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
-吹抜けはどの階にも算入しない
+吹抜けは上階に算入しない
 Illustration: An isometric cutaway building with an open two-story
-atrium (吹抜け) shown as empty space with no floor slab at any level. A
-red X sits over a floor-area calculation attached to that empty column.
+atrium (吹抜け): the 1階 floor slab exists under it, but the 2階 level has
+no floor slab there (empty space). A red X sits over a 2階 floor-area
+calculation attached to that empty space, and a blue check sits on the
+1階 floor below it.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-どの階にも算入しない
+上階に算入しない
 
 --- CARD 2 ---
 Badge: a filled blue circle containing the number 2.
@@ -312,18 +314,19 @@ Subtitle (smaller, centered, 1行):
 --- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the number 1.
 Heading (bold, ONE line):
-吹抜けはどの階にも算入しない
+吹抜けは上階に算入しない
 Diagram: An isometric cutaway building with an open two-story atrium
-（吹抜け）shown as empty space with no floor slab at any level. A red X
-sits over a floor-area calculation attached to that empty column at both
-the 1階 and 2階 levels.
+（吹抜け）: the 1階 floor slab exists under it, but the 2階 level has no
+floor slab there (empty space). A red X sits over the 2階 floor-area
+calculation for that empty space, and a blue check sits on the 1階 floor
+below it (the 1階 floor is counted as usual).
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず、建物の一部が上階まで吹抜になっているかを確認します。吹抜になってい
-る部分にはそもそも床が存在しないため、上階を含めどの階の床面積にも算入し
-ません。
+る上の階の部分には床がないため、上階の床面積に算入しません（床のある下の
+階には算入します）。
 Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-どの階にも算入しない
+上階に算入しない
 
 --- PANEL 2（イ） ---
 Badge: a filled circle in blue containing the number 2.
