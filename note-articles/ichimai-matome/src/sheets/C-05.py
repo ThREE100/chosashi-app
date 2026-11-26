@@ -44,4 +44,12 @@ SHEET = dict(
     header=dict(l1='規約の設定・廃止と', l2='登記の要否', hl='要否',
                 left='a meeting table with raised hands and a rule book with a seal, all without any text',
                 right='an apartment building with a garden and a shared hall, next to a notary document with a ribbon seal, all without any text'),
+    zukai=dict(title='規約と登記の関係', topics='登記する規約・しない規約・廃止・公正証書',
+               cards=[
+                   dict(h='登記に結びつく規約は5つ', illust='Five rule books in a row, each marked with a different small icon: a shared hall, a building group, a plot of land, a cut chain, and a fraction bar.', words=[], tag='5つの規約'),
+                   dict(h='管理・使用のきまりは登記しない', illust='A house-rules booklet showing a swimming pool, a parking space and a bicycle stand, with a registry book crossed out beside it.', words=[], tag='登記しない規約'),
+                   dict(h='共用部分の規約は設定に期限なし', illust='A shared hall with a rule book; the calendar beside it is blank, and a calendar with one month circled is shown only next to a cancel mark on the rule book.', words=[], tag='期限があるのは廃止'),
+                   dict(h='分離処分可能なら敷地権が消える', illust='Scissors cutting the chain between an apartment unit and its plot of land, with a small notice card moving to the building registry book.', words=[], tag='表題部の変更'),
+                   dict(h='公正証書は最初の所有者だけ', illust='A single developer standing in front of an apartment building holding a notary document with a ribbon seal; residents wait outside.', words=[], tag='最初に全部を所有する人'),
+               ]),
 )

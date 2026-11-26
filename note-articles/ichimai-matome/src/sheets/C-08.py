@@ -82,4 +82,12 @@ SHEET = dict(
     header=dict(l1='規約の', l2='つくり方', hl='つくり方',
                 left='a meeting room with residents raising hands around a table and a rule book on it, all without any text',
                 right='a notary office desk with a document tied with a ribbon and a round seal, next to a small apartment building model, all without any text'),
+    zukai=dict(title='規約のつくり方', topics='定足数・4分の3・特別の影響・公正証書・通知',
+               cards=[
+                   dict(h='まず過半数が出席する', illust='A meeting room where more than half of the seats around the table are filled, a ballot box in the center.', words=[], tag='定足数が先'),
+                   dict(h='出席者の各4分の3以上で決める', illust='Two balance scales side by side, one weighing people and one weighing voting power, each tilting toward the agreeing side with three quarters filled.', words=[], tag='人数と議決権の両方'),
+                   dict(h='特別の影響があれば承諾も要る', illust='One resident whose room is highlighted under a spotlight, signing a consent paper at the meeting table while others watch.', words=[], tag='その人の承諾'),
+                   dict(h='公正証書でつくれる人は限られる', illust='A single owner at a notary office desk signing a document tied with a ribbon and a round seal, an apartment building model beside him.', words=[], tag='最初の所有者など'),
+                   dict(h='通知した事項だけ決議できる', illust='A notice sheet with a few checked agenda items pinned on a board, and a separate unlisted item left outside the meeting room door.', words=[], tag='通知が前提'),
+               ]),
 )

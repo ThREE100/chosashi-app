@@ -124,4 +124,168 @@ Final check before rendering: confirm the image is exactly 1080x1440 portrait (3
 
 ---
 
+## インフォグラフィック プロンプト（イラスト図解・note用）
+
+文字の一枚（画像`C-04_kyoyobu-touki.png`）とは別に、仕組みを絵で見せたいときに使う。画像の生成と目視確認はChatGPTで行う。
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1800 pixels,
+clean flat-design isometric illustration style with soft pastel colors (blue, green, beige, gray), rounded card sections, a modern explainer-graphic aesthetic. The accent color of this poster is purple. Draw only simple, friendly icons that suit the topic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): this is a quick-reference poster, NOT a text-heavy explainer document. There is NO intro illustration and NO paragraph of prose anywhere on this poster. Go straight from the header to the cards. Every card communicates its point almost entirely through the illustration plus one short heading and one short conclusion tag. Do NOT render any full-sentence explanation, legal citation or paragraph of body text. If a piece of information cannot be expressed as a short label or drawn as an icon, leave it out.
+
+LAYOUT LOCK (critical): the header, the bottom edge and a five-card set are fixed as follows.
+- the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. The title must stay on ONE line (never wrap it into two lines): if it would be wider than 990 px, reduce the font size until it fits on that one line (not below 36 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the series tag and the field name only, written exactly as given; no year, no question number, never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
+- BOTTOM ALIGNMENT: the cards fill the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line on that bottom margin line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, the card's own padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: do NOT leave an empty slot in the grid. Place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and conclusion tag on the right).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. No Latin letters anywhere. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw. Inside every illustration (on objects, signs, papers, documents, stones, buildings, stamps and any other prop), render ONLY the words written in 「」 in that card's Illustration line (and repeated on the "Words allowed" line under it), each one large, clear and exactly as written. Do not invent or add any other text inside an illustration: no inscriptions on boundary stones or markers, no extra signs, labels, captions, numbers or pseudo-writing. If a prop needs no specified word, leave its surface blank or show its meaning with an icon or a mark instead. The title, subtitle, card headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or sequence mark on or near any card. The cards are not numbered. No figure number, no panel number, no page number.
+
+BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background. Fill every corner and margin with a plain cream background (#F7F3EE). No checkerboard, no partially transparent area, no unpainted edge.
+
+--- HEADER ---
+Title line 1 (the question title, ONE line):
+共用部分の登記と期限
+Title line 2 (the topic list, ONE line):
+対抗要件・申請人・承諾・職権抹消・廃止
+Subtitle (line 3):
+一枚まとめ　区分建物・敷地権
+
+--- CARD 1 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+その旨の登記が対抗要件
+Illustration: A shared meeting room inside an apartment building with a rule book beside it; a round registry stamp is pressed on the room.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+登記が対抗要件
+
+--- CARD 2 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+申請できるのは名義人だけ
+Illustration: A building owner holding an application form at a registry counter while two bystanders are held back by a small barrier.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+申請人は限られる
+
+--- CARD 3 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+権利者の承諾が要る
+Illustration: A bank representative signing a consent paper next to a small building model with a mortgage document on it.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+承諾を証する情報
+
+--- CARD 4 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+登記すると権利部は抹消
+Illustration: A registrar erasing the rights page of a building registry book with a large eraser, the title page stays untouched.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+職権で抹消
+
+--- CARD 5 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+規約の廃止は1月以内に表題登記
+Illustration: A calendar page with one month circled beside a brand-new building record card being filed.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+廃止は1月以内
+
+--- FOOTER ---
+
+Final check before rendering: confirm the canvas is exactly 1080x1800 pixels; Confirm the header is the fixed block described in HEADER LOCK (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no year or question number, no 午後の部 or 午前の部, no empty gap or band, first card at y = 245 px). Confirm the number of cards equals 5 exactly, with no duplicated or missing cards; confirm that no card carries a number, numbered circle or any numbering; confirm there is no intro illustration or paragraph block between the header and the cards; confirm that no card contains a full sentence of explanatory prose; confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible; confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind); scan every kanji glyph, paying special attention to 共、用、部、分、登、記、期、限、対、抗、要、件、申、請、人、承、諾、職、権、抹、消、廃、止、一、枚、区、建、物、敷、地、旨、名、義、利、者、証、情、報、規、約, and confirm each is the standard Japanese (Jōyō) form, not Simplified or Traditional Chinese, and remove any character that is not standard Japanese; confirm the entire canvas, edge to edge, is filled with a fully opaque background.
+```
+
+---
+
+## インフォグラフィック プロンプト（イラスト図解・Instagram用・1080×1440）
+
+```
+Create a Japanese-language infographic, portrait layout, 1080x1440 pixels,
+clean flat-design isometric illustration style with soft pastel colors (blue, green, beige, gray), rounded card sections, a modern explainer-graphic aesthetic. The accent color of this poster is purple. Draw only simple, friendly icons that suit the topic.
+
+GLANCEABLE-POSTER REQUIREMENT (critical): this is a quick-reference poster, NOT a text-heavy explainer document. There is NO intro illustration and NO paragraph of prose anywhere on this poster. Go straight from the header to the cards. Every card communicates its point almost entirely through the illustration plus one short heading and one short conclusion tag. Do NOT render any full-sentence explanation, legal citation or paragraph of body text. If a piece of information cannot be expressed as a short label or drawn as an icon, leave it out.
+
+LAYOUT LOCK (critical): the header, the bottom edge and a five-card set are fixed as follows.
+- the header is a fixed block of exactly THREE centred lines at the top, measured on a 1080 px wide canvas (the pixel values are the same for every canvas height), in a heavy rounded Japanese gothic (Noto Sans JP Black / ExtraBold style), near-black (#1A1A1A) on the plain cream background (#F7F3EE). Do not draw a band, frame or box behind the header.
+  Line 1 = the first Title line (the question title): font size 62 px, about 800 px wide (about 74% of the canvas width), vertical centre at y = 80 px. The title must stay on ONE line (never wrap it into two lines): if it would be wider than 990 px, reduce the font size until it fits on that one line (not below 36 px).
+  Line 2 = the second Title line (the topic list): font size 45 px, one line only, about 990 px wide (about 92% of the canvas width, left and right ends about 45 px from the edges); if the text would be wider than 990 px, reduce the font size until it fits (not below 36 px), never wrap it; vertical centre at y = 148 px.
+  Line 3 = the Subtitle (the series tag and the field name only, written exactly as given; no year, no question number, never write 午後の部 or 午前の部): font size 35 px, about 330 px wide, vertical centre at y = 204 px.
+  The line pitch is 68 px (line 1 to line 2) and 56 px (line 2 to line 3); the three lines are tightly stacked with no empty gap between them. The whole header block runs from y = 48 px (top of line 1) to y = 223 px (bottom of line 3), i.e. about 175 px tall, and the first group header or card starts at y = 245 px. There is NO empty band above line 1 and NO empty band between line 3 and the first group header or card. Do not enlarge any header line to fill space.
+- BOTTOM ALIGNMENT: the cards fill the whole area from the header to the bottom margin line. The last card of each column ends on exactly the same horizontal line on that bottom margin line; cards in the same row have the same height; gaps between neighbouring cards are equal (about 24 px). Absorb spare height INSIDE the cards (larger illustration area, vertical centring, the card's own padding), never as an empty strip or a ragged bottom edge.
+- FIVE CARDS: do NOT leave an empty slot in the grid. Place cards 1 to 4 in a 2 x 2 grid and card 5 as ONE full-width card across both columns at the bottom (illustration on the left, about 45% of the width; heading and conclusion tag on the right).
+
+CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese only (hiragana, katakana, Jōyō kanji). Do NOT use Simplified Chinese or Traditional Chinese character forms; every glyph must match the standard Japanese form exactly, stroke-for-stroke. No Korean Hangul, no other script, no stray or decorative glyphs, even as small background elements. Reproduce the exact strings given below verbatim; do not paraphrase, translate, summarize or substitute any character. No Latin letters anywhere. Half-width Arabic digits and the characters 第・条・項・の are allowed ONLY inside the given strings.
+
+ILLUSTRATION TEXT RULE (critical): the only text allowed inside the illustrations is the specified words (絵の中に入れる文字は、指定した語だけ). This is an instruction, never text to draw. Inside every illustration (on objects, signs, papers, documents, stones, buildings, stamps and any other prop), render ONLY the words written in 「」 in that card's Illustration line (and repeated on the "Words allowed" line under it), each one large, clear and exactly as written. Do not invent or add any other text inside an illustration: no inscriptions on boundary stones or markers, no extra signs, labels, captions, numbers or pseudo-writing. If a prop needs no specified word, leave its surface blank or show its meaning with an icon or a mark instead. The title, subtitle, card headings and conclusion tags are the only other text on the poster.
+
+NO NUMBERING (critical): do not draw any number, numbered circle, badge or sequence mark on or near any card. The cards are not numbered. No figure number, no panel number, no page number.
+
+BACKGROUND REQUIREMENT (critical): the entire canvas must be fully opaque from edge to edge. Do NOT generate a transparent or alpha-channel background. Fill every corner and margin with a plain cream background (#F7F3EE). No checkerboard, no partially transparent area, no unpainted edge.
+
+INSTAGRAM FEED FORMAT (critical): the canvas is EXACTLY 1080x1440 pixels (3:4). Keep every text and every important drawing inside a safe margin of 54px on the left and right and 72px at the bottom, because the profile grid crops the image (the header block is measured from the top edge as in HEADER LOCK). Do not draw any account name, handle, URL, hashtag or call-to-action text.
+
+--- HEADER ---
+Title line 1 (the question title, ONE line):
+共用部分の登記と期限
+Title line 2 (the topic list, ONE line):
+対抗要件・申請人・承諾・職権抹消・廃止
+Subtitle (line 3):
+一枚まとめ　区分建物・敷地権
+
+--- CARD 1 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+その旨の登記が対抗要件
+Illustration: A shared meeting room inside an apartment building with a rule book beside it; a round registry stamp is pressed on the room.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+登記が対抗要件
+
+--- CARD 2 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+申請できるのは名義人だけ
+Illustration: A building owner holding an application form at a registry counter while two bystanders are held back by a small barrier.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+申請人は限られる
+
+--- CARD 3 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+権利者の承諾が要る
+Illustration: A bank representative signing a consent paper next to a small building model with a mortgage document on it.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+承諾を証する情報
+
+--- CARD 4 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+登記すると権利部は抹消
+Illustration: A registrar erasing the rights page of a building registry book with a large eraser, the title page stays untouched.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+職権で抹消
+
+--- CARD 5 ---
+Heading (bold, ONE line, about 20 Japanese characters or fewer):
+規約の廃止は1月以内に表題登記
+Illustration: A calendar page with one month circled beside a brand-new building record card being filed.
+Words allowed inside this illustration (verbatim, nothing else): none (no text of any kind inside this illustration)
+Conclusion tag (a short colored banner directly below the illustration, purple, a keyword phrase, NOT a sentence):
+廃止は1月以内
+
+--- FOOTER ---
+
+Final check before rendering: confirm the canvas is exactly 1080x1440 pixels; Confirm the header is the fixed block described in HEADER LOCK (three centred lines of 62 / 45 / 35 px at y = 80 / 148 / 204 px, no year or question number, no 午後の部 or 午前の部, no empty gap or band, first card at y = 245 px). Confirm the number of cards equals 5 exactly, with no duplicated or missing cards; confirm that no card carries a number, numbered circle or any numbering; confirm there is no intro illustration or paragraph block between the header and the cards; confirm that no card contains a full sentence of explanatory prose; confirm that no illustration contains any text other than its "Words allowed" words (no inscriptions on stones or signs, no pseudo-writing) and that each allowed word is clearly legible; confirm nothing is rendered below the last card (no summary recap panel, no trophy or medal icon, no re-listed grid, and no additional text block of any kind); scan every kanji glyph, paying special attention to 共、用、部、分、登、記、期、限、対、抗、要、件、申、請、人、承、諾、職、権、抹、消、廃、止、一、枚、区、建、物、敷、地、旨、名、義、利、者、証、情、報、規、約, and confirm each is the standard Japanese (Jōyō) form, not Simplified or Traditional Chinese, and remove any character that is not standard Japanese; confirm the entire canvas, edge to edge, is filled with a fully opaque background.
+```
+
+---
+
 *画像（C-04_kyoyobu-touki.png）のサイズ：1080×3435。HTMLで組んで書き出した文字の図。*

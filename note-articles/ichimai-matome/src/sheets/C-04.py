@@ -44,4 +44,12 @@ SHEET = dict(
     header=dict(l1='共用部分の登記と', l2='申請の期限', hl='期限',
                 left='an apartment building with a shared meeting room highlighted, and a rule book with a seal, all without any text',
                 right='a calendar page with one month circled and a small registry book, all without any text'),
+    zukai=dict(title='共用部分の登記と期限', topics='対抗要件・申請人・承諾・職権抹消・廃止',
+               cards=[
+                   dict(h='その旨の登記が対抗要件', illust='A shared meeting room inside an apartment building with a rule book beside it; a round registry stamp is pressed on the room.', words=[], tag='登記が対抗要件'),
+                   dict(h='申請できるのは名義人だけ', illust='A building owner holding an application form at a registry counter while two bystanders are held back by a small barrier.', words=[], tag='申請人は限られる'),
+                   dict(h='権利者の承諾が要る', illust='A bank representative signing a consent paper next to a small building model with a mortgage document on it.', words=[], tag='承諾を証する情報'),
+                   dict(h='登記すると権利部は抹消', illust='A registrar erasing the rights page of a building registry book with a large eraser, the title page stays untouched.', words=[], tag='職権で抹消'),
+                   dict(h='規約の廃止は1月以内に表題登記', illust='A calendar page with one month circled beside a brand-new building record card being filed.', words=[], tag='廃止は1月以内'),
+               ]),
 )
