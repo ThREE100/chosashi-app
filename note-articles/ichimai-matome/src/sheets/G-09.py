@@ -50,4 +50,13 @@ SHEET = dict(
     header=dict(l1='時効の援用と', l2='完成猶予・更新', hl='完成猶予',
                 left='an hourglass on a desk with a hand pressing a pause button beside it, all without any text',
                 right='a clock with its hands sweeping back to the start next to a plain letter envelope, all without any text'),
+    zukai=dict(title='時効の完成猶予と更新', topics='援用・猶予と更新の違い・各事由',
+               cards=[
+                   dict(h='援用しなければ時効にならない', illust='A person who has not raised a hand while the clock keeps ticking in court.', words=[], tag='民法第145条'),
+                   dict(h='完成猶予は止める', illust='A running timeline paused by a pause button.', words=[], tag='時効が完成しない'),
+                   dict(h='更新は数え直す', illust='A timeline reset to a new start flag.', words=[], tag='新たに進行を始める'),
+                   dict(h='裁判上の請求・強制執行', illust='A court gavel and an enforcement officer each touching a running clock.', words=[], tag='確定すれば更新'),
+                   dict(h='催告・仮差押えは猶予だけ', illust='A letter and a freeze seal pausing a clock for six months without resetting it.', words=[], tag='更新の効果なし'),
+                   dict(h='承認で更新', illust='A debtor nodding to acknowledge a debt while the clock resets.', words=[], tag='権利の承認'),
+               ]),
 )

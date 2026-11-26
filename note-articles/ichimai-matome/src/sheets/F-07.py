@@ -52,4 +52,12 @@ SHEET = dict(
     header=dict(l1='調査士の義務違反と', l2='罰則', hl='罰則',
                 left='a locked file cabinet with a padlock and a closed folder, next to a surveyor tripod, all without any text',
                 right='a balance scale, a gavel and a stack of training textbooks on a desk, all without any text'),
+    zukai=dict(title='調査士法の罰則', topics='罰金・拘禁刑・告訴・懲戒',
+               cards=[
+                   dict(h='依頼に応じない違反は罰金のみ', illust='A surveyor with a fine coin only, no prison bars.', words=[], tag='百万円以下の罰金'),
+                   dict(h='虚偽の調査・測量', illust='A measured drawing with a false-looking stamp held by a surveyor.', words=[], tag='拘禁刑又は罰金'),
+                   dict(h='秘密の漏示は告訴が必要', illust='A leaked file page and a complaint slip being handed to a prosecutor.', words=[], tag='告訴がなければ起訴できない'),
+                   dict(h='行い得ない事件は懲戒', illust='A surveyor facing a disciplinary board with a banned case file.', words=[], tag='罰則の条文なし'),
+                   dict(h='研修は努力義務', illust='A surveyor reading a training booklet with a gentle encouraging arrow.', words=[], tag='罰則なし'),
+               ]),
 )

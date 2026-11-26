@@ -48,4 +48,13 @@ SHEET = dict(
     header=dict(l1='土地家屋調査士法人', l2='設立・社員・業務', hl='社員',
                 left='a small office building with a nameplate shape (blank), and a group of three surveyors standing together, all without any text',
                 right='a thick bound charter document with a ribbon, a company seal shape and a handshake, all without any text'),
+    zukai=dict(title='調査士法人', topics='設立・社員・責任・解散',
+               cards=[
+                   dict(h='調査士が設立する', illust='Several surveyors signing one shared charter document together.', words=[], tag='定款を定める'),
+                   dict(h='設立の登記で成立', illust='A corporation registry stamp pressed on a charter beside a small building.', words=[], tag='主たる事務所の所在地'),
+                   dict(h='社員は調査士だけ', illust='A row of seats at a corporate table, only people wearing surveyor badges sitting there.', words=[], tag='社員の資格'),
+                   dict(h='社員は各自が代表', illust='Each seated member holding a corporate seal of the company.', words=[], tag='各自が法人を代表'),
+                   dict(h='債務は社員が連帯して責任', illust='Several members together holding up a heavy debt bag.', words=[], tag='連帯責任'),
+                   dict(h='民間紛争解決代理は特定社員がいる法人だけ', illust='A corporation counter with one member wearing a special certified badge handling a dispute file.', words=[], tag='定款と特定社員'),
+               ]),
 )

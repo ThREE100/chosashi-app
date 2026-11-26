@@ -45,4 +45,13 @@ SHEET = dict(
     header=dict(l1='調査士の業務の範囲', l2='できること、できないこと', hl='できないこと',
                 left='a surveyor with a tripod measuring a small plot of land with gray boundary posts, all without any text',
                 right='a desk with a folder of documents, a balance scale and a small handshake icon, all without any text'),
+    zukai=dict(title='調査士の業務の範囲', topics='8つの事務・筆界特定と民間紛争解決・会員要件',
+               cards=[
+                   dict(h='調査士の8つの事務', illust='A surveyor with a tripod, a drawing board and a stack of eight folders arranged in a row.', words=[], tag='法第3条第1項'),
+                   dict(h='権利の登記は代理できない', illust='A surveyor at a registry counter, a barrier blocking a rights-page application form.', words=[], tag='表示の登記だけ'),
+                   dict(h='筆界特定の代理は認定不要', illust='A surveyor accompanying a client to a boundary-identification desk with no certificate needed.', words=[], tag='全ての調査士ができる'),
+                   dict(h='民間紛争解決代理は3つの要件', illust='A surveyor holding three badges: training, certification and a society membership pin.', words=[], tag='研修・認定・会員'),
+                   dict(h='民間紛争解決は弁護士の受任事件に限る', illust='A lawyer and a surveyor sitting together at one client table.', words=[], tag='同一の依頼者の事件'),
+                   dict(h='会員でなければ業とできない', illust='A surveyor without a membership pin stopped at a gate with a survey instrument.', words=[], tag='法第68条第1項'),
+               ]),
 )

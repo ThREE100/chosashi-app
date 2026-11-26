@@ -51,4 +51,13 @@ SHEET = dict(
     header=dict(l1='調査士の義務と懲戒', l2='義務と懲戒の種類', hl='懲戒の種類',
                 left='a closed file folder with a padlock and a surveyor tripod beside it, all without any text',
                 right='a balance scale and a judge-like gavel on a desk next to an official envelope, all without any text'),
+    zukai=dict(title='義務と懲戒', topics='義務・秘密保持・処分の種類・七年',
+               cards=[
+                   dict(h='依頼に応ずる義務', illust='A surveyor receiving a client request at the desk and not turning the client away.', words=[], tag='正当な事由なく拒めない'),
+                   dict(h='筆界特定と民間紛争解決は除く', illust='A surveyor at the desk with a small exception sign for two special request files.', words=[], tag='義務の除外'),
+                   dict(h='秘密は辞めた後も守る', illust='A retired surveyor locking a file cabinet with a key.', words=[], tag='調査士であった者も'),
+                   dict(h='調査士の懲戒は3種類', illust='Three cards in a row: a warning card, a suspended work tool and a cancelled badge.', words=[], tag='戒告・停止・禁止'),
+                   dict(h='法人には解散がある', illust='A corporation building with a dissolve stamp coming down on it.', words=[], tag='業務停止と解散'),
+                   dict(h='七年で手続を開始できない', illust='A calendar with seven marked years and a closed file folder.', words=[], tag='除斥期間'),
+               ]),
 )

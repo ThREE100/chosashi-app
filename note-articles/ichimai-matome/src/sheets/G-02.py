@@ -47,4 +47,13 @@ SHEET = dict(
     header=dict(l1='物権変動と', l2='登記と対抗要件', hl='対抗要件',
                 left='a house with two buyers standing in front of it, each holding a plain contract sheet, all without any text',
                 right='a registry book lying open next to a rubber stamp and a key, all without any text'),
+    zukai=dict(title='対抗要件と第三者', topics='物権変動・無効取消し解除・相続',
+               cards=[
+                   dict(h='意思表示で効力が生ずる', illust='Two people agreeing on a house transfer, with a key moving between them.', words=[], tag='民法第176条'),
+                   dict(h='登記しないと第三者に対抗できず', illust='A house with a registry stamp beside a second buyer being refused at the door.', words=[], tag='民法第177条'),
+                   dict(h='虚偽表示は善意の第三者', illust='A fake sale paper with a good-faith third party being protected by a shield.', words=[], tag='民法第94条第2項'),
+                   dict(h='詐欺は善意無過失の第三者', illust='A tricked seller cancelling a deal while a careful third buyer is shielded.', words=[], tag='民法第96条第3項'),
+                   dict(h='強迫には保護規定なし', illust='A cancelled deal under threat with no shield for the third party.', words=[], tag='詐欺と別'),
+                   dict(h='相続は法定相続分を超える部分', illust='A pie chart of inheritance with the extra slice needing a registry stamp.', words=[], tag='民法第899条の2'),
+               ]),
 )

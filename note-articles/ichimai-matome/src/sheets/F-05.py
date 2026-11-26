@@ -82,6 +82,15 @@ SHEET = dict(
     header=dict(l1='筆界特定の', l2='却下と費用の負担', hl='費用の負担',
                 left='a returned application folder with a blank stamp mark beside a land boundary map with gray boundary stones, all without any text',
                 right='a balance scale with coins split into two piles on either side of a boundary line, and a surveyor tripod, all without any text'),
+    zukai=dict(title='筆界特定の手続', topics='申請から却下・費用・調査',
+               cards=[
+                   dict(h='管轄外・権限なしは却下', illust='An application form stopped at a gate by a registrar, with a map of a different region beside it.', words=[], tag='却下事由'),
+                   dict(h='補正できる不備は期間内に補正', illust='A person correcting a form with a pencil while an hourglass runs.', words=[], tag='補正すれば却下されない'),
+                   dict(h='筆界特定済みでも更に必要なら', illust='A boundary map already stamped, with another magnifying glass checking it once more.', words=[], tag='特段の必要'),
+                   dict(h='費用は申請人の負担', illust='Two neighbours sharing a pile of cost coins.', words=[], tag='手続費用の負担'),
+                   dict(h='3人以上は側ごとに2分の1', illust='Two sides of a boundary each holding half of the pile, with several people on one side sharing their half.', words=[], tag='頭数で割らない'),
+                   dict(h='立入調査は拒めない', illust='A field investigator at a gate with a notice slip in hand.', words=[], tag='拒むと罰金'),
+               ]),
 )
 
 

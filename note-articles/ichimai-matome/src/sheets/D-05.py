@@ -52,4 +52,12 @@ SHEET = dict(
     header=dict(l1='原本還付と', l2='電子申請', hl='電子申請',
                 left='a paper document with a copy on top and an arrow returning the original to a person, all without any text',
                 right='a laptop sending a document icon to a building through a dotted line, with a small padlock, all without any text'),
+    zukai=dict(title='書面申請と電子申請', topics='原本の還付・調査完了後・電子署名・スキャン',
+               cards=[
+                   dict(h='原本は調査完了後に還付', illust='A registry officer handing back an original document across a counter while a stamp shows the check is finished.', words=[], tag='原本還付は調査完了後'),
+                   dict(h='還付できないものがある', illust='A copy of a seal certificate and a power-of-attorney letter stuck on an application with a small lock on them.', words=[], tag='印鑑証明書など'),
+                   dict(h='電子申請は送信と電子署名', illust='A laptop sending a data packet to a registry building, with an electronic signature badge on the packet.', words=[], tag='署名と電子証明書'),
+                   dict(h='書面をスキャンして添付', illust='A scanner turning a paper into a data file, a cut-out survey drawing kept apart and not scanned.', words=[], tag='図面はスキャン不可'),
+                   dict(h='書面申請は記名押印', illust='A paper application form on a desk with an ink seal stamp and a seal certificate.', words=[], tag='印鑑証明書で確認'),
+               ]),
 )

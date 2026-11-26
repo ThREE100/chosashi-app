@@ -47,4 +47,12 @@ SHEET = dict(
     header=dict(l1='権利の登記の', l2='添付情報', hl='添付情報',
                 left='a sale contract and a house key on a desk with a round seal stamp, all without any text',
                 right='a neat stack of blank documents with a sealed envelope and a small apartment building beside them, all without any text'),
+    zukai=dict(title='権利の登記の添付情報', topics='原因証明・識別情報・印鑑証明書・表示の登記との違い',
+               cards=[
+                   dict(h='原因を証する情報を付ける', illust='Two people shaking hands over a signed contract that is attached to an application form.', words=[], tag='登記原因証明情報'),
+                   dict(h='義務者は登記識別情報を出す', illust='A person on the giving side holding a key card out toward a registry counter while the receiving side holds nothing.', words=[], tag='登記義務者'),
+                   dict(h='所有権の義務者は印鑑証明書', illust='An owner with a seal certificate and a three-month calendar mark beside the application.', words=[], tag='作成後3月以内'),
+                   dict(h='権利者は印鑑証明書が要らない', illust='The receiving side signing an application with an ink seal, the seal certificate tray empty.', words=[], tag='登記権利者'),
+                   dict(h='敷地権の発生・消滅は表示の登記', illust='A building sitting on its land with a rule booklet stamped as the reason document, not a contract.', words=[], tag='事由を証する情報'),
+               ]),
 )

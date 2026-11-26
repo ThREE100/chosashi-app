@@ -58,4 +58,13 @@ SHEET = dict(
     header=dict(l1='建物の申請書', l2='欄の書き方', hl='欄の書き方',
                 left='a blank application form on a clipboard with a pen and a small seal stamp, all without any text',
                 right='a small two-story house with a gable roof and a small garage beside it, all without any text'),
+    zukai=dict(title='建物の申請書の書き方', topics='建物の表示・床面積・原因・添付',
+               cards=[
+                   dict(h='建物の表示の5つ', illust='A house with five labelled tabs on its side.', words=[], tag='所在から床面積まで'),
+                   dict(h='所在は床面積の多い地番が先', illust='A building straddling two lots with the bigger floor area on one of them highlighted.', words=[], tag='準則第88条第2項'),
+                   dict(h='床面積は壁心、区分は内法', illust='Two floor plans: one measured at the wall centre line and one at the inner wall face.', words=[], tag='壁心と内法'),
+                   dict(h='天井が低い階は算入しない', illust='A low attic with a measuring stick, only a part of the room being low.', words=[], tag='1室の一部なら算入'),
+                   dict(h='原因の書き方', illust='A building record card with changed fields circled by number.', words=[], tag='増築・分割・合併'),
+                   dict(h='登録免許税は分割・区分・合併だけ', illust='A building being split into two and two being merged, with coins beside each.', words=[], tag='後の個数×千円'),
+               ]),
 )

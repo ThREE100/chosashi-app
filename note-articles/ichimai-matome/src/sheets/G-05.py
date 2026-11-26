@@ -45,4 +45,13 @@ SHEET = dict(
     header=dict(l1='時効取得の', l2='要件と期間', hl='期間',
                 left='an hourglass standing beside a small fenced plot of land, all without any text',
                 right='a wall calendar with pages flying away above a small house, all without any text'),
+    zukai=dict(title='取得時効', topics='要件・10年と20年・推定・援用',
+               cards=[
+                   dict(h='所有の意思で平穏・公然に占有', illust='A person fencing and tending a plot as an owner in broad daylight.', words=[], tag='民法第162条'),
+                   dict(h='20年か10年か', illust='A calendar showing twenty years normally and ten years when in good faith with no fault.', words=[], tag='善意無過失は10年'),
+                   dict(h='善意無過失は占有の開始の時', illust='A start flag at the beginning of a timeline with a good-faith marker on it.', words=[], tag='開始の時で判断'),
+                   dict(h='無過失は推定されない', illust='A presumption stamp covering four marks and leaving the no-fault mark empty.', words=[], tag='民法第186条第1項'),
+                   dict(h='他主占有は性質が変わらない限り', illust='A tenant at a house door needing a new agreement or declaration before owning.', words=[], tag='民法第185条'),
+                   dict(h='援用して起算日にさかのぼる', illust='A person raising a hand to invoke the period, the effect jumping back to the start date.', words=[], tag='民法第144条・第145条'),
+               ]),
 )

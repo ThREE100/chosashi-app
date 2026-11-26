@@ -50,4 +50,13 @@ SHEET = dict(
     header=dict(l1='添付情報の', l2='早見', hl='早見',
                 left='a neat stack of blank documents with a paper clip, a land survey drawing and a building floor plan sheet, all without any text',
                 right='a small house and an apartment building next to a plot of land with boundary posts, all without any text'),
+    zukai=dict(title='添付情報の決まり方', topics='2段の決まり・図面・共通の情報・区分建物',
+               cards=[
+                   dict(h='共通と項ごとの2段', illust='Two stacked trays of papers: a small shared tray on top and a larger tray of file tabs underneath, with a hand sorting a paper between them.', words=[], tag='令第7条と令別表'),
+                   dict(h='土地の図面は地積測量図', illust='A land parcel being divided by a line, with a drawing sheet of the parcel and a measuring tape beside it.', words=[], tag='分筆は分筆後の図面'),
+                   dict(h='地目変更と合筆に図面なし', illust='A field changing its colour tag on a signpost, next to two merged parcels with an empty drawing tray crossed by a small barrier.', words=[], tag='図面が要らない登記'),
+                   dict(h='建物は建物図面と各階平面図', illust='A small house model next to a site plan sheet and a floor plan sheet laid side by side.', words=[], tag='建物図面・各階平面図'),
+                   dict(h='表題登記は所有と住所の証明', illust='A new building receiving a certificate stamp, with an ID card and a house-key tag beside it.', words=[], tag='所有権・住所証明情報'),
+                   dict(h='区分建物は規約の証明が加わる', illust='An apartment building with a rule booklet and a consent stamp attached on the side.', words=[], tag='規約を証する情報'),
+               ]),
 )

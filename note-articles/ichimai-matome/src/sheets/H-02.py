@@ -53,4 +53,13 @@ SHEET = dict(
     header=dict(l1='土地の申請書', l2='欄の書き方', hl='欄の書き方',
                 left='a blank application form on a clipboard with a pen and a small seal stamp, all without any text',
                 right='a small plot of land divided by a bold line into two parts, with gray boundary posts, all without any text'),
+    zukai=dict(title='土地の申請書の書き方', topics='原因欄・添付・登録免許税・端数',
+               cards=[
+                   dict(h='原因は番号を冠記', illust='A land application with circled numbers marking which items change.', words=[], tag='変わる欄の番号'),
+                   dict(h='分筆の書き方', illust='One parcel being split into two, with the new parcels marked on a plan.', words=[], tag='①③分筆と分筆から'),
+                   dict(h='合筆は識別情報と印鑑証明書', illust='Two parcels being joined with a key card and a seal certificate.', words=[], tag='いずれか一筆分で足りる'),
+                   dict(h='地積更正も要るとき', illust='A land parcel with a measured area slightly off the recorded one, a correction pen beside it.', words=[], tag='誤差の限度'),
+                   dict(h='地積の端数処理', illust='A scale cutting off the decimals of an area figure.', words=[], tag='宅地は百分の一未満'),
+                   dict(h='登録免許税は後の個数×千円', illust='Coins stacked under a row of parcels after splitting or joining.', words=[], tag='分筆・合筆の後'),
+               ]),
 )

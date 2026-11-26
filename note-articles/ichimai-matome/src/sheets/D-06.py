@@ -64,6 +64,15 @@ SHEET = dict(
     header=dict(l1='登録免許税の', l2='早見', hl='早見',
                 left='a small stack of coins next to a blank revenue stamp sheet and a calculator without visible digits, all without any text',
                 right='a plot of land divided into three parts by dashed lines, with one coin placed on each part, all without any text'),
+    zukai=dict(title='登録免許税の仕分け', topics='かからない登記・かかる登記・個数の数え方',
+               cards=[
+                   dict(h='表示の登記はかからない', illust='A new building record card, a land category change tag and a demolished-building card each marked with a no-charge coin crossed out.', words=[], tag='原則かからない'),
+                   dict(h='分筆・合筆はかかる', illust='A land parcel being cut into three and another set of parcels being joined, each with a coin beside it.', words=[], tag='所有権の登記がある不動産'),
+                   dict(h='金額は後の個数×千円', illust='Three small parcels in a row with three thousand-yen coins stacked under each, after splitting.', words=[], tag='分筆後の個数で数える'),
+                   dict(h='所有権の登記がなければかからない', illust='A land parcel with only a title card and no ownership page, a coin crossed out beside it.', words=[], tag='表題登記だけなら課税なし'),
+                   dict(h='分筆と地目変更を同時に', illust='One application form with two stamped boxes; only one box has a coin on it.', words=[], tag='課税は分筆の部分だけ'),
+                   dict(h='課税されない特例もある', illust='A street sign being renamed on a map with a small no-charge coin and a certificate attached.', words=[], tag='住居表示・行政区画の変更'),
+               ]),
 )
 
 
