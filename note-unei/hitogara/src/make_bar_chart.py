@@ -1,5 +1,6 @@
 """ranking.json から「何年度で出たか」の横棒グラフをHTMLで組み、Chromiumで書き出す（画像生成AIは使わない＝誤字ゼロ）。
-使い方：python3 note-unei/hitogara/src/make_bar_chart.py <ranking.json> <出力PNG> [--top 10] [--ig]
+使い方：python3 note-unei/hitogara/src/make_bar_chart.py <ranking.json> <出力PNG> [--top 10] [--start 1] [--ig]
+--start 11 --top 22 なら、11位から22本（11〜32位）を描く。
 --ig を付けると Instagram 用 3:4（1080×1440）、付けないと note 用（1280×可変）。
 """
 import json, sys, argparse, html, os, glob
@@ -8,14 +9,14 @@ SHORT = {"不動産登記法":"不登法","不動産登記令":"令","不動産�
          "民法":"民法","区分所有法":"区分所有法","土地家屋調査士法":"調査士法"}
 COLOR = {"民法":"#e8a05c"}  # 権利・民法＝薄い橙、それ以外（不動産登記の法令（法・令・規則・準則））＝青
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("src"); ap.add_argument("out"); ap.add_argument("--top", type=int, default=10)
+    ap = argparse.ArgumentParser(); ap.add_argument("src"); ap.add_argument("out"); ap.add_argument("--top", type=int, default=10); ap.add_argument("--start", type=int, default=1)
     ap.add_argument("--ig", action="store_true"); ap.add_argument("--title", default="440問の解説で、根拠に引いた条文")
     ap.add_argument("--sub", default="H17〜R8の22年度のうち、何年度で出てきたか")
     a = ap.parse_args()
-    d = json.load(open(a.src, encoding="utf-8")); rows = d["ranking"][:a.top]; Y = d["years_total"]
+    d = json.load(open(a.src, encoding="utf-8")); rows = d["ranking"][a.start-1:a.start-1+a.top]; Y = d["years_total"]
     W, H = (1080, 1440) if a.ig else (1280, None)
     bars = ""
-    for i, r in enumerate(rows, 1):
+    for i, r in enumerate(rows, a.start):
         pct = r["years"] / Y * 100; c = COLOR.get(r["law"], "#3b78c2")
         name = f'{SHORT.get(r["law"], r["law"])} 第{r["article"]}条'
         bars += f'''<div class="row"><div class="rk">{i}</div><div class="nm">{html.escape(name)}</div>

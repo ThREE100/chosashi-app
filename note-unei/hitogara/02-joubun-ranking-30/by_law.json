@@ -1,0 +1,371 @@
+{
+ "years_total": 22,
+ "half": 11,
+ "by_law": [
+  {
+   "law": "不動産登記法",
+   "kinds": 90,
+   "half_or_more": 15,
+   "max_years": 18,
+   "top": [
+    {
+     "article": "58",
+     "years": 18
+    },
+    {
+     "article": "51",
+     "years": 17
+    },
+    {
+     "article": "39",
+     "years": 16
+    }
+   ],
+   "half_rows": [
+    {
+     "article": "58",
+     "years": 18,
+     "questions": 24,
+     "outside_q01_03": 24
+    },
+    {
+     "article": "51",
+     "years": 17,
+     "questions": 24,
+     "outside_q01_03": 24
+    },
+    {
+     "article": "39",
+     "years": 16,
+     "questions": 20,
+     "outside_q01_03": 20
+    },
+    {
+     "article": "41",
+     "years": 16,
+     "questions": 18,
+     "outside_q01_03": 18
+    },
+    {
+     "article": "44",
+     "years": 15,
+     "questions": 26,
+     "outside_q01_03": 26
+    },
+    {
+     "article": "49",
+     "years": 15,
+     "questions": 17,
+     "outside_q01_03": 17
+    },
+    {
+     "article": "56",
+     "years": 13,
+     "questions": 14,
+     "outside_q01_03": 14
+    },
+    {
+     "article": "47",
+     "years": 12,
+     "questions": 18,
+     "outside_q01_03": 18
+    },
+    {
+     "article": "30",
+     "years": 11,
+     "questions": 19,
+     "outside_q01_03": 19
+    },
+    {
+     "article": "54",
+     "years": 11,
+     "questions": 14,
+     "outside_q01_03": 14
+    },
+    {
+     "article": "37",
+     "years": 11,
+     "questions": 13,
+     "outside_q01_03": 13
+    },
+    {
+     "article": "48",
+     "years": 11,
+     "questions": 13,
+     "outside_q01_03": 13
+    },
+    {
+     "article": "57",
+     "years": 11,
+     "questions": 12,
+     "outside_q01_03": 12
+    },
+    {
+     "article": "33",
+     "years": 11,
+     "questions": 11,
+     "outside_q01_03": 11
+    },
+    {
+     "article": "40",
+     "years": 11,
+     "questions": 11,
+     "outside_q01_03": 11
+    }
+   ]
+  },
+  {
+   "law": "不動産登記令",
+   "kinds": 17,
+   "half_or_more": 4,
+   "max_years": 16,
+   "top": [
+    {
+     "article": "3",
+     "years": 16
+    },
+    {
+     "article": "7",
+     "years": 14
+    },
+    {
+     "article": "4",
+     "years": 11
+    }
+   ],
+   "half_rows": [
+    {
+     "article": "3",
+     "years": 16,
+     "questions": 34,
+     "outside_q01_03": 34
+    },
+    {
+     "article": "7",
+     "years": 14,
+     "questions": 20,
+     "outside_q01_03": 20
+    },
+    {
+     "article": "4",
+     "years": 11,
+     "questions": 15,
+     "outside_q01_03": 15
+    },
+    {
+     "article": "8",
+     "years": 11,
+     "questions": 15,
+     "outside_q01_03": 15
+    }
+   ]
+  },
+  {
+   "law": "不動産登記規則",
+   "kinds": 110,
+   "half_or_more": 5,
+   "max_years": 16,
+   "top": [
+    {
+     "article": "35",
+     "years": 16
+    },
+    {
+     "article": "16",
+     "years": 13
+    },
+    {
+     "article": "88",
+     "years": 12
+    }
+   ],
+   "half_rows": [
+    {
+     "article": "35",
+     "years": 16,
+     "questions": 21,
+     "outside_q01_03": 21
+    },
+    {
+     "article": "16",
+     "years": 13,
+     "questions": 15,
+     "outside_q01_03": 15
+    },
+    {
+     "article": "88",
+     "years": 12,
+     "questions": 12,
+     "outside_q01_03": 12
+    },
+    {
+     "article": "105",
+     "years": 11,
+     "questions": 11,
+     "outside_q01_03": 11
+    },
+    {
+     "article": "28",
+     "years": 11,
+     "questions": 11,
+     "outside_q01_03": 11
+    }
+   ]
+  },
+  {
+   "law": "不動産登記事務取扱手続準則",
+   "kinds": 51,
+   "half_or_more": 4,
+   "max_years": 16,
+   "top": [
+    {
+     "article": "68",
+     "years": 16
+    },
+    {
+     "article": "77",
+     "years": 12
+    },
+    {
+     "article": "69",
+     "years": 12
+    }
+   ],
+   "half_rows": [
+    {
+     "article": "68",
+     "years": 16,
+     "questions": 18,
+     "outside_q01_03": 18
+    },
+    {
+     "article": "77",
+     "years": 12,
+     "questions": 13,
+     "outside_q01_03": 13
+    },
+    {
+     "article": "69",
+     "years": 12,
+     "questions": 12,
+     "outside_q01_03": 12
+    },
+    {
+     "article": "82",
+     "years": 12,
+     "questions": 12,
+     "outside_q01_03": 12
+    }
+   ]
+  },
+  {
+   "law": "民法",
+   "kinds": 166,
+   "half_or_more": 4,
+   "max_years": 17,
+   "top": [
+    {
+     "article": "252",
+     "years": 17
+    },
+    {
+     "article": "423",
+     "years": 17
+    },
+    {
+     "article": "251",
+     "years": 13
+    }
+   ],
+   "half_rows": [
+    {
+     "article": "252",
+     "years": 17,
+     "questions": 28,
+     "outside_q01_03": 24
+    },
+    {
+     "article": "423",
+     "years": 17,
+     "questions": 20,
+     "outside_q01_03": 19
+    },
+    {
+     "article": "251",
+     "years": 13,
+     "questions": 14,
+     "outside_q01_03": 13
+    },
+    {
+     "article": "177",
+     "years": 13,
+     "questions": 13,
+     "outside_q01_03": 0
+    }
+   ]
+  },
+  {
+   "law": "区分所有法",
+   "kinds": 10,
+   "half_or_more": 0,
+   "max_years": 10,
+   "top": [
+    {
+     "article": "5",
+     "years": 10
+    },
+    {
+     "article": "22",
+     "years": 8
+    },
+    {
+     "article": "4",
+     "years": 7
+    }
+   ],
+   "half_rows": []
+  },
+  {
+   "law": "土地家屋調査士法",
+   "kinds": 41,
+   "half_or_more": 0,
+   "max_years": 6,
+   "top": [
+    {
+     "article": "22",
+     "years": 6
+    },
+    {
+     "article": "16",
+     "years": 5
+    },
+    {
+     "article": "3",
+     "years": 4
+    }
+   ],
+   "half_rows": []
+  },
+  {
+   "law": "土地家屋調査士法施行規則",
+   "kinds": 9,
+   "half_or_more": 0,
+   "max_years": 4,
+   "top": [
+    {
+     "article": "23",
+     "years": 4
+    },
+    {
+     "article": "21",
+     "years": 3
+    },
+    {
+     "article": "22",
+     "years": 3
+    }
+   ],
+   "half_rows": []
+  }
+ ]
+}

@@ -1,7 +1,8 @@
 """人柄が見える無料記事の機械チェック。使い方：python3 note-unei/hitogara/src/check.py [記事フォルダ ...]
 フォルダを省くと、hitogara/ の下の NN-* をすべて確かめる。NG があれば終了コード1。
 確かめること：
- 1. 本文のランキングの数字が ranking.json（あれば）と一致する
+ 1. 本文のランキングの行（N. 法令 第N条（見出し）…N年度）が ranking.json（あれば）のN位と一致し、順位が連番
+ 1b. 法令ごとの表の行と「第N条はM問のうちK問」が by_law.json（あれば）と一致する
  2. 「書かないこと」（senryaku.md 3.）と、個人の演習結果を思わせる語が本文にない
  3. 図のPNGがあり、Instagram用は 1080×1440
  4. 【要確認】が残っていれば警告（投稿前にユーザーが自分の言葉に直す印）
@@ -39,9 +40,25 @@ def check(d):
     rj = f"{d}/ranking.json"
     if os.path.exists(rj):
         r = json.load(open(rj, encoding="utf-8"))["ranking"]
-        for i, row in enumerate(r[:10], 1):
-            pat = rf"^{i}\. {re.escape(row['law'])} 第{re.escape(row['article'])}条（.*?）…{row['years']}年度$"
-            if not re.search(pat, body, re.M): ng.append(f"ランキング{i}位の行が ranking.json（{row['law']}第{row['article']}条・{row['years']}年度）と合わない")
+        lines = re.findall(r"^(\d+)\. (\S+) 第(\S+?)条（.*?）…(\d+)年度$", body, re.M)
+        if not lines: ng.append("ranking.json があるのに、本文に「N. 法令 第N条（見出し）…N年度」の行がない")
+        for no, law, a_, y in lines:
+            i = int(no)
+            row = r[i-1] if 0 < i <= len(r) else None
+            if not row or (row["law"], row["article"], row["years"]) != (law, a_, int(y)):
+                ng.append(f"ランキング{i}位の行（{law}第{a_}条・{y}年度）が ranking.json と合わない")
+        nums = [int(x[0]) for x in lines]
+        if nums and nums != list(range(nums[0], nums[0] + len(nums))): ng.append(f"ランキングの順位が連番でない：{nums}")
+    bj = f"{d}/by_law.json"
+    if os.path.exists(bj):
+        for o in json.load(open(bj, encoding="utf-8"))["by_law"]:
+            top = "・".join(f'第{t["article"]}条' for t in o["top"])
+            if f'| {o["law"]} | {o["kinds"]} | {o["half_or_more"]} | {top} |' not in body:
+                ng.append(f'法令ごとの表の「{o["law"]}」の行が by_law.json（{o["kinds"]}・{o["half_or_more"]}・{top}）と合わない')
+            for h in o.get("half_rows", []):
+                m = re.search(rf'第{h["article"]}条は(\d+)問のうち(\d+)問', body)
+                if m and (int(m.group(1)), int(m.group(2))) != (h["questions"], h["outside_q01_03"]):
+                    ng.append(f'{o["law"]}第{h["article"]}条の「{m.group(0)}」が by_law.json（{h["questions"]}問のうち{h["outside_q01_03"]}問）と合わない')
     for m in re.finditer(r"(不動産登記事務取扱手続準則|不動産登記法|不動産登記令|不動産登記規則|区分所有法|民法) 第([0-9]+)条", body):
         if not law_has(m.group(1), int(m.group(2))): ng.append(f"{m.group(1)}第{m.group(2)}条が laws/ の見出しに見つからない")
     for p in glob.glob(f"{d}/*.png"):
