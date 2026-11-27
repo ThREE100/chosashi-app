@@ -9,7 +9,7 @@ sys.path.insert(0, HERE)
 from data import TYPES, QUESTIONS  # noqa: E402
 
 TITLE = '【土地家屋調査士試験】ひっかけの型がわかる10問チェック～点数より「間違え方」を見る～'
-GYAKUBIKI_URL = '【公開後に条文の逆引き図鑑のURLを入れる】'
+GYAKUBIKI_URL = 'https://three100.github.io/chosashi-app/jobun/'
 YJ = {**{f'H{n}': f'平成{n}年度' for n in range(17, 31)}, 'R01': '令和元年度', **{f'R0{n}': f'令和{n}年度' for n in range(2, 9)}}
 TAG = re.compile(r'^(?:〔[^〕]*〕|【[^】]*】)+')
 LAWJ = {'不動産登記事務取扱手続準則': '準則'}
