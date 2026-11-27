@@ -1,35 +1,39 @@
 # Codexに貼る一括指示文（第1回 見出し画像）
 
-使い方：下の「ここから」〜「ここまで」をそのまま OpenAI Codex に貼る。あわせて、MCのキャラクターシート4枚（キャラクターシート_MC-01〜MC-04）を Codex のチャットに添付する（リポジトリには入っていない）。
-生成が終わったら、リポジトリの直下で `bash note-unei/hitogara/make_zip.sh note-unei/hitogara/01-joubun-best10` を実行すると、`note-unei/hitogara/zip/01-joubun-best10.zip` ができる。
+使い方：下の「ここから」〜「ここまで」をそのまま OpenAI Codex に貼り、MCのキャラクターシート4枚（キャラクターシート_MC-01〜MC-04）をチャットに添付する（シートはリポジトリに入っていない）。Codex が GitHub から記事とプロンプトを読み、画像の生成・ファイル名の付け直し・zip化まで行う。
 
 ---ここから---
 
-リポジトリ ThREE100/chosashi-app の `note-unei/hitogara/01-joubun-best10/` にある記事「毎年のように出る条文ベスト10」の見出し画像を2枚生成して保存してください。
+GitHub のリポジトリ ThREE100/chosashi-app（https://github.com/ThREE100/chosashi-app 、ブランチ main）の記事「毎年のように出る条文ベスト10」の見出し画像を2枚作り、本文の図と一緒に zip にまとめてください。
 
-## 作る画像
+## 対象（GitHub上のファイル。ここから読む）
 
-| # | プロンプトの場所 | 保存先（このファイル名で保存） | 寸法 |
-|---|---|---|---|
-| 1 | `note-unei/hitogara/01-joubun-best10/header-prompts.md` の「## note用（1280×670）」のコードブロック | `note-unei/hitogara/01-joubun-best10/hitogara01_header_note.png` | 1280×670 |
-| 2 | 同じファイルの「## Instagram用（1080×1440）」のコードブロック | `note-unei/hitogara/01-joubun-best10/hitogara01_header_ig.png` | 1080×1440 |
+- 記事フォルダ：https://github.com/ThREE100/chosashi-app/blob/main/note-unei/hitogara/01-joubun-best10/
+- 見出し画像のプロンプト：https://github.com/ThREE100/chosashi-app/blob/main/note-unei/hitogara/01-joubun-best10/header-prompts.md
+- 記事本文（画像のファイル名の確認用）：https://github.com/ThREE100/chosashi-app/blob/main/note-unei/hitogara/01-joubun-best10/article.md
+- zip化スクリプト：https://github.com/ThREE100/chosashi-app/blob/main/note-unei/hitogara/make_zip.sh
 
 ## 手順
 
-1. `header-prompts.md` を開き、上の2つの見出しの下にある ``` で囲まれたコードブロックの中身を、**1文字も変えずに**画像生成のプロンプトとして使う（要約・翻訳・言い換えをしない。コードブロックの外の説明文はプロンプトに入れない）。
-2. このチャットに添付したキャラクターシート4枚（MC-01〜MC-04）を、2枚とも参照画像として渡す。MC以外の人物・動物は描かせない。
-3. できた画像を上の表のファイル名で、PNG として保存する。寸法がちょうど上の表のとおりでなければ、縦横比を保ったまま拡大・縮小して全体を覆い、中央で切り取って、ぴったりの寸法にする（引き伸ばして歪ませない。余白を足さない。透明の部分を残さず RGB で保存する）。
-4. 保存したら、2枚それぞれについて次を確かめて結果を報告する。
-   - 寸法が表のとおり
+1. リポジトリを clone する（すでに手元にあれば `git pull origin main` で最新にする）。
+   `git clone https://github.com/ThREE100/chosashi-app.git && cd chosashi-app`
+2. `note-unei/hitogara/01-joubun-best10/header-prompts.md` を読む。見出し「## note用（1280×670）」と「## Instagram用（1080×1440）」の下に、それぞれ「ファイル名：`…png`」と、``` で囲まれたプロンプトがある。プロンプトはコードブロックの中身を**1文字も変えずに**使う（要約・翻訳・言い換えをしない。コードブロックの外の説明文は入れない）。
+3. 2つのプロンプトで画像を1枚ずつ生成する。添付したキャラクターシート4枚（MC-01〜MC-04）を、2枚とも参照画像として渡す。
+4. 生成した画像を、その見出しの「ファイル名：」の名前（`hitogara01_header_note.png`・`hitogara01_header_ig.png`）に付け直して、`note-unei/hitogara/01-joubun-best10/` に PNG で保存する。寸法が見出しの（W×H）とちょうど同じでなければ、縦横比を保ったまま拡大・縮小して全体を覆い、中央で切り取ってぴったりにする（歪ませない。余白を足さない。透明の部分を残さず RGB で保存する）。
+5. 2枚それぞれを確かめ、問題があればその画像だけ同じプロンプトで作り直す。
+   - 寸法が見出しのとおり
    - 画像の中の文字が、プロンプトで指定したタイトル2行とサブタイトルだけで、一字一句同じ（数字・英字が入っていない。漢字が中国の字体になっていない）
    - 人物はMC1人だけで、キャラクターシートと同じ髪型・服装
    - 背景が端まで塗られていて、透明の部分がない
-   問題があれば、その画像だけ同じプロンプトで作り直す。
+6. リポジトリの直下で次を実行して zip を作る。
+   `bash note-unei/hitogara/make_zip.sh note-unei/hitogara/01-joubun-best10`
+   足りない画像・寸法の違う画像があると、その名前が表示されて zip はできない。表示された画像を直して、もう一度実行する。
+7. できた `note-unei/hitogara/zip/01-joubun-best10.zip` を渡し、手順5の確認結果と、zip に入ったファイルの一覧を報告する。
 
 ## してはいけないこと
 
-- `article.md`・`header-prompts.md` など既存のファイルを書き換えない。
+- `article.md`・`header-prompts.md`・`make_zip.sh` など既存のファイルを書き換えない。
 - 本文の図（`zu01_best10_note.png`・`zu01_best10_ig.png`）は作成済みなので、作り直さない・上書きしない。
-- 上の2つ以外のファイルを作らない。git の commit・push はしない（保存だけ）。
+- 見出し画像2枚と zip のほかにファイルを作らない。git の commit・push はしない。
 
 ---ここまで---
