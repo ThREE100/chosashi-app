@@ -1,0 +1,295 @@
+{
+ "source": "不動産登記法 第164条・各条の原文（note-articles/laws/fudousan-touki-hou.md）、年度数は01-joubun-best10/ranking.json",
+ "duties": [
+  {
+   "article": "36",
+   "para": 1,
+   "period": "一月",
+   "group": "所有権の取得の日",
+   "who": "新たに生じた土地・表題登記がない土地の所有権を取得した者",
+   "what": "土地の表題登記",
+   "fine": "十万円以下",
+   "years": 4,
+   "questions": 4
+  },
+  {
+   "article": "37",
+   "para": 1,
+   "period": "一月",
+   "group": "変更があった日",
+   "who": "表題部所有者・所有権の登記名義人",
+   "what": "地目・地積の変更の登記",
+   "fine": "十万円以下",
+   "years": 11,
+   "questions": 13
+  },
+  {
+   "article": "37",
+   "para": 2,
+   "period": "一月",
+   "group": "後から名義人になった日",
+   "who": "変更の後に表題部所有者・所有権の登記名義人になった者",
+   "what": "地目・地積の変更の登記",
+   "fine": "十万円以下",
+   "years": 11,
+   "questions": 13
+  },
+  {
+   "article": "42",
+   "para": 1,
+   "period": "一月",
+   "group": "滅失の日",
+   "who": "表題部所有者・所有権の登記名義人",
+   "what": "土地の滅失の登記",
+   "fine": "十万円以下",
+   "years": 1,
+   "questions": 1
+  },
+  {
+   "article": "47",
+   "para": 1,
+   "period": "一月",
+   "group": "所有権の取得の日",
+   "who": "新築した建物・区分建物以外の表題登記がない建物の所有権を取得した者",
+   "what": "建物の表題登記",
+   "fine": "十万円以下",
+   "years": 12,
+   "questions": 18
+  },
+  {
+   "article": "49",
+   "para": 1,
+   "period": "一月",
+   "group": "合体の日",
+   "who": "第1項各号に定める者",
+   "what": "合体による登記等",
+   "fine": "十万円以下",
+   "years": 15,
+   "questions": 17
+  },
+  {
+   "article": "49",
+   "para": 2,
+   "period": "一月",
+   "group": "所有権の取得の日",
+   "who": "いずれも表題登記がない建物が合体したときの所有者など（第47条第1項を準用）",
+   "what": "合体後の建物の表題登記",
+   "fine": "十万円以下",
+   "years": 15,
+   "questions": 17
+  },
+  {
+   "article": "49",
+   "para": 3,
+   "period": "一月",
+   "group": "持分の取得の日",
+   "who": "合体の後に、表題登記がない建物の所有権に相当する持分を取得した者",
+   "what": "合体による登記等",
+   "fine": "十万円以下",
+   "years": 15,
+   "questions": 17
+  },
+  {
+   "article": "49",
+   "para": 4,
+   "period": "一月",
+   "group": "後から名義人になった日",
+   "who": "合体の後に表題部所有者・所有権の登記名義人になった者",
+   "what": "合体による登記等",
+   "fine": "十万円以下",
+   "years": 15,
+   "questions": 17
+  },
+  {
+   "article": "51",
+   "para": 1,
+   "period": "一月",
+   "group": "変更があった日",
+   "who": "表題部所有者・所有権の登記名義人（共用部分である旨の登記がある建物は所有者）",
+   "what": "建物の表題部の変更の登記",
+   "fine": "十万円以下",
+   "years": 17,
+   "questions": 24
+  },
+  {
+   "article": "51",
+   "para": 2,
+   "period": "一月",
+   "group": "後から名義人になった日",
+   "who": "変更の後に表題部所有者・所有権の登記名義人になった者",
+   "what": "建物の表題部の変更の登記",
+   "fine": "十万円以下",
+   "years": 17,
+   "questions": 24
+  },
+  {
+   "article": "51",
+   "para": 3,
+   "period": "一月",
+   "group": "共用部分である旨の登記がされた日",
+   "who": "変更の後に共用部分である旨の登記があった建物の所有者",
+   "what": "建物の表題部の変更の登記",
+   "fine": "十万円以下",
+   "years": 17,
+   "questions": 24
+  },
+  {
+   "article": "51",
+   "para": 4,
+   "period": "一月",
+   "group": "所有権の取得の日",
+   "who": "共用部分である旨の登記がある建物を、変更の後に取得した者",
+   "what": "建物の表題部の変更の登記",
+   "fine": "十万円以下",
+   "years": 17,
+   "questions": 24
+  },
+  {
+   "article": "57",
+   "para": 1,
+   "period": "一月",
+   "group": "滅失の日",
+   "who": "表題部所有者・所有権の登記名義人（共用部分である旨の登記がある建物は所有者）",
+   "what": "建物の滅失の登記",
+   "fine": "十万円以下",
+   "years": 11,
+   "questions": 12
+  },
+  {
+   "article": "58",
+   "para": 6,
+   "period": "一月",
+   "group": "規約の廃止の日",
+   "who": "共用部分である旨の登記がある建物の所有者",
+   "what": "建物の表題登記",
+   "fine": "十万円以下",
+   "years": 18,
+   "questions": 24
+  },
+  {
+   "article": "58",
+   "para": 7,
+   "period": "一月",
+   "group": "所有権の取得の日",
+   "who": "規約の廃止の後に所有権を取得した者",
+   "what": "建物の表題登記",
+   "fine": "十万円以下",
+   "years": 18,
+   "questions": 24
+  },
+  {
+   "article": "76の2",
+   "para": 1,
+   "period": "三年",
+   "group": "知った日",
+   "who": "相続（相続人への遺贈を含む）で所有権を取得した者",
+   "what": "相続による所有権の移転の登記",
+   "fine": "十万円以下",
+   "years": 5,
+   "questions": 15
+  },
+  {
+   "article": "76の2",
+   "para": 2,
+   "period": "三年",
+   "group": "遺産の分割の日",
+   "who": "法定相続分での登記の後、遺産の分割で相続分を超えて取得した者",
+   "what": "所有権の移転の登記",
+   "fine": "十万円以下",
+   "years": 5,
+   "questions": 15
+  },
+  {
+   "article": "76の3",
+   "para": 4,
+   "period": "三年",
+   "group": "遺産の分割の日",
+   "who": "相続人である旨の申出をした後、遺産の分割で取得した者",
+   "what": "所有権の移転の登記",
+   "fine": "十万円以下",
+   "years": 0,
+   "questions": 0
+  },
+  {
+   "article": "76の5",
+   "para": 1,
+   "period": "二年",
+   "group": "変更があった日",
+   "who": "所有権の登記名義人",
+   "what": "氏名・名称・住所の変更の登記",
+   "fine": "五万円以下",
+   "years": 3,
+   "questions": 3
+  }
+ ],
+ "by_article": [
+  {
+   "article": "36",
+   "years": 4
+  },
+  {
+   "article": "37",
+   "years": 11
+  },
+  {
+   "article": "42",
+   "years": 1
+  },
+  {
+   "article": "47",
+   "years": 12
+  },
+  {
+   "article": "49",
+   "years": 15
+  },
+  {
+   "article": "51",
+   "years": 17
+  },
+  {
+   "article": "57",
+   "years": 11
+  },
+  {
+   "article": "58",
+   "years": 18
+  },
+  {
+   "article": "76の2",
+   "years": 5
+  },
+  {
+   "article": "76の3",
+   "years": 0
+  },
+  {
+   "article": "76の5",
+   "years": 3
+  }
+ ],
+ "no_duty": [
+  {
+   "article": "38",
+   "name": "土地の表題部の更正の登記",
+   "years": 7
+  },
+  {
+   "article": "39",
+   "name": "分筆・合筆の登記",
+   "years": 16
+  },
+  {
+   "article": "53",
+   "name": "建物の表題部の更正の登記",
+   "years": 3
+  },
+  {
+   "article": "54",
+   "name": "建物の分割・区分・合併の登記",
+   "years": 11
+  }
+ ],
+ "count_total": 20,
+ "count_ikkagetsu": 16
+}
