@@ -33,7 +33,7 @@
 | `src/count_by_law.py` | `ranking.json` を法令ごとにまとめる（条文の種類・半分以上の年度で出た数・民法の条文を問4以降で引いた数） |
 | `src/make_law_chart.py` | 法令ごとの「広く浅い／狭く深い」の図を書き出す |
 | `src/check.py` | 機械チェック（NG 0件にする） |
-| `NN-*/codex-instructions.md` | 見出し画像2枚を OpenAI Codex で作るための一括指示文。Codex が GitHub の main から記事とプロンプトを読み、生成・ファイル名の付け直し・zip化まで行う（「ここから」〜「ここまで」を貼り、キャラクターシートMC-01〜04を添付） |
+| `NN-*/codex-instructions.md` | 見出し画像2枚を OpenAI Codex で作るための一括指示文。Codex が GitHub の main から記事とプロンプトを読み、生成・ファイル名の付け直し・zip化まで行う（「ここから」〜「ここまで」を貼り、キャラクターシート_MK-01〜04を添付） |
 | `make_zip.sh` | 記事フォルダの画像（見出し画像＋本文の図）を `zip/<フォルダ名>.zip` にまとめる。足りない画像・寸法の違う画像があれば一覧を出して zip を作らない（`zip/` は git に入れない） |
 | `src/list_images.py` | `make_zip.sh` が使う、要る画像の一覧（`header-prompts.md` の「ファイル名：」と `article.md` に出てくるPNG） |
 
