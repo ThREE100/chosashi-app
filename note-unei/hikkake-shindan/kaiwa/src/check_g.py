@@ -2,7 +2,7 @@
 import glob, importlib, os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from common import bank, TYPES
-from gakushu import build
+from gakushu import build, art_labels
 B = bank(); ng = []
 import re
 def nendo_label(it):
@@ -28,6 +28,9 @@ for f in sorted(glob.glob(os.path.join(os.path.dirname(__file__), 'g[0-9][0-9].p
             for sp, t in pa.get('talk', []):
                 if len(t) > 30: ng.append(f"{tag}: {k}p-{j}の吹き出しが30字超：{t}")
             if pa.get('narration') and len(pa['narration']) > 28: ng.append(f"{tag}: {k}p-{j}のナレーションが28字超")
+            allow = '｜'.join(pa.get('words', []) + ([pa['narration']] if pa.get('narration') else []))
+            for run in art_labels(pa['art']):
+                if run not in allow: ng.append(f"{tag}: {k}p-{j}の絵の指示に、文字の指定にない語：{run}")
             sps = [s for s, _ in pa.get('talk', [])]
             if any(a == b for a, b in zip(sps, sps[1:])): ng.append(f"{tag}: {k}p-{j}で同じ話し手が続く")
         n = sum(len(t) for pa in p['panels'] for t in ([t for _, t in pa.get('talk', [])] + pa.get('words', []) + ([pa['narration']] if pa.get('narration') else [])))

@@ -16,6 +16,26 @@ STUDENT = ("THE STUDENT: the young woman in the attached sheets キャラクタ�
            "(confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, "
            "two hands with five fingers each.")
 
+import re as _re
+_JP = _re.compile(r'[0-9０-９,，]*[一-龥ぁ-んァ-ヶーＡ-Ｚ０-９々][一-龥ぁ-んァ-ヶーＡ-Ｚ０-９0-9,，・（）「」々㎡]*')
+
+def art_labels(art):
+    out = []
+    for r in _JP.findall(art):
+        r = r.strip('、。,，・')
+        if r.count('（') != r.count('）'): r = r.strip('（）')
+        if r.count('「') != r.count('」'): r = r.replace('「', '').replace('」', '')
+        if r and r not in out: out.append(r)
+    return out
+
+def normalize(it):
+    """絵の指示に出てくる日本語の札・ラベルを、そのコマの「文字の指定」に足す（文字の決まりと食い違わないように）。"""
+    for page in it['pages']:
+        for p in page['panels']:
+            have = '｜'.join(p.get('words', []) + ([p['narration']] if p.get('narration') else []))
+            add = [w for w in art_labels(p['art']) if w not in have]
+            if add: p['words'] = p.get('words', []) + add
+
 def _bubble(sp, t):
     who = 'STUDENT' if sp == 'S' else 'TEACHER'
     return f"      - speech bubble from the {who} (tail points at the {who.lower()}): 「{t}」"
@@ -73,6 +93,7 @@ def header_prompt(it, w, h, kind):
         "Final check: only the three strings; standard Japanese kanji; exactly two characters; fully opaque. Deliver the first image as it is."])
 
 def build(it, B):
+    normalize(it)
     x = B[it['id']]
     stem = strip_tags(x['statement'])
     ans = '○（正しい）' if x['truth'] else '×（誤り）'
