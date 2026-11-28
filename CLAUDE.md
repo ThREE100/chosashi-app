@@ -650,5 +650,5 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 ## 学習まんがの型を一枚まとめ・毎日ドリルに広げる(2026-11-28追加)
 
 ひっかけ診断ノートで検証済みの学習まんが（`note-unei/hikkake-shindan/kaiwa/02-gakushu-manga-no-kata.md`）の書き方を、共通部品 `tools/gakushu_manga/`（プロンプトの5段・定番ページ・貼り付け文・共通チェック・図の貼り直し）に切り出した（kaiwa/ は書き換えていない）。
-一枚まとめは `note-articles/ichimai-matome/manga/`（型 `KATA.md`、台本 `src/<ID>.py` → `build_manga.py` → `check_manga.py`。試作 B-01）、毎日ドリルは `daily-drill/manga/`（型 `KATA.md`、朝 `am/src/dayNNN.py`、夜 `pm/src/dayNNN.py`。試作は第5日朝・第1日夜）。
+一枚まとめは `note-articles/ichimai-matome/manga/`（型 `KATA.md`、台本 `src/<ID>.py` → `build_manga.py` → `check_manga.py`。試作 B-01。第1回の試作は目次の1枚目の E-01）、毎日ドリルは `daily-drill/manga/`（型 `KATA.md`、朝 `am/src/dayNNN.py`、夜 `pm/src/dayNNN.py`。試作は第5日朝・第1日夜。第1回の試作は第1日朝・第1日夜）。
 夜の図は Claude が問題データから `pm/src/figs.py` で正確に作り（`pm/fig/<問題ID>_<種類>.svg/.png`、枠944×661の2倍）、プロンプトの FIGURE SLOT で URL・枠の位置を指定して「描き直さない」とさせる。崩れたら `tools/gakushu_manga/paste_fig.py` で枠に貼り直す。正誤・答え・条・数は各チェックが元データと照合する（NG 0件にする）。生成物は手で直さない。
