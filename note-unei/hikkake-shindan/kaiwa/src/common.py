@@ -87,7 +87,7 @@ def header_prompt(it, w, h, kind):
 
 def build(it, B):
     x = B[it['id']]
-    src = next(s for s in x['sources'] if s['q'] == it['q'] and s['label'] == it['label'])
+    src = next(s for s in x['sources'] if s['q'] == it['q'] and s['label'].startswith(it['label']))
     stem = strip_tags(x['statement'])
     ans = '○（正しい）' if x['truth'] else '×（誤り）'
     no = f"{it['no']:02d}"
