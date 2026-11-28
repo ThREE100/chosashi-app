@@ -646,3 +646,9 @@ R7〜H17の択一式420問を肢ごとに分解した一問一答（2,095肢）�
 
 ### 条文の逆引き図鑑のnote記事シリーズ（`note-unei/jobun-gyakubiki/note-series/`、2026-11-25追加）
 図鑑を題材に、本試験でくり返し出る条文を回ごとに取り上げる全14回（第0回〜第13回）の記事。目次`00-mokuji.md`、入口`README.md`。各回に記事・総論/各論/間違いノートの図解・見出し画像（女性のMC1人、背景は世界の有名な書店のオマージュ、ポーズ・表情は回ごとに変える）のプロンプトを note用・Instagram用でそろえる。データは`src/dNN.py`、生成は`src/build.py`、機械チェックは`src/check.py`（NG 0件。条文の原文照合・肢の引用条文・正誤・禁止語・個人の演習結果の語）。肢の説明は一問一答の見出しを写さず問題文を読んで書く。演習の記録は論点と間違いノートの題材選びにだけ使い、記事・画像に回数などを出さない。画像は未生成。
+
+## 学習まんがの型を一枚まとめ・毎日ドリルに広げる(2026-11-28追加)
+
+ひっかけ診断ノートで検証済みの学習まんが（`note-unei/hikkake-shindan/kaiwa/02-gakushu-manga-no-kata.md`）の書き方を、共通部品 `tools/gakushu_manga/`（プロンプトの5段・定番ページ・貼り付け文・共通チェック・図の貼り直し）に切り出した（kaiwa/ は書き換えていない）。
+一枚まとめは `note-articles/ichimai-matome/manga/`（型 `KATA.md`、台本 `src/<ID>.py` → `build_manga.py` → `check_manga.py`。試作 B-01）、毎日ドリルは `daily-drill/manga/`（型 `KATA.md`、朝 `am/src/dayNNN.py`、夜 `pm/src/dayNNN.py`。試作は第5日朝・第1日夜）。
+夜の図は Claude が問題データから `pm/src/figs.py` で正確に作り（`pm/fig/<問題ID>_<種類>.svg/.png`、枠944×661の2倍）、プロンプトの FIGURE SLOT で URL・枠の位置を指定して「描き直さない」とさせる。崩れたら `tools/gakushu_manga/paste_fig.py` で枠に貼り直す。正誤・答え・条・数は各チェックが元データと照合する（NG 0件にする）。生成物は手で直さない。
