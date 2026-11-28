@@ -1,0 +1,58 @@
+"""毎日ドリル 第5日（朝）択一（AM-005：分筆・合筆の申請人と職権、分筆に伴う権利の消滅）の学習まんがの台本。
+肢の文・正誤・根拠は morning/problems/AM-005.json から（ここに書き写さない）。解説は kaisetsu/day005-am-kaisetsu.md と同じ結論。"""
+from manga_kata import S, T, tobira, tsumazuki, zukai, quiz, matome
+
+MANGA = dict(
+    day=5, problem='AM-005', catch='職権の分筆は、異議がないときに限る',
+    intro='分筆の登記を、だれが申請でき、登記官はどんなときに職権でできるのか。5つの肢を、漫画の順に追えば答えまでたどり着けるようにしました。',
+    header=('毎朝ドリル　漫画で解説', '職権の分筆はいつできる？', '分筆の申請人・職権・抵当権の消滅'),
+    header_scene='a land plot split by a dotted line, a registry office building, and a signed consent sheet',
+    pages=[
+        tobira('職権の分筆はいつできる？', '分筆の登記について、誤っているものの組合せは？',
+               '分筆は登記官もできる。全部○かも！', '……2つ、罠があるわよ'),
+        tsumazuki('地図を作るためなら、異議があってもできる！', '待ちなさい！', '条文は「異議がないときに限り」よ', 'あっ、ウは誤りなんだ……',
+                  ['ウ', '異議がないときに限り'],
+                  'On the card, a land plot with a map sheet; an owner pictogram Ａ raises a hand to object, and a big red cross is shown over the officer splitting the plot.',
+                  'ウ「異議の有無にかかわらず」'),
+        zukai('不動産登記法第39条の3つの項', '第39条の3つの項を1枚の地図で見せ、職権の2つの場面を区別する。',
+              'A big clean diagram with three horizontal lanes. Lane 1 header 第1項: an owner pictogram Ａ at a desk with a form, label 申請できるのは所有者と名義人. Lane 2 header 第2項: a plot crossed by a district boundary, an officer splits it, label しなければならない. Lane 3 header 第3項: a plot with a map sheet and an owner pictogram Ａ giving a friendly okay sign, label 異議がないときに限り. Lane 3 is highlighted with a yellow band.',
+              ['第1項', '第2項', '第3項', '申請できるのは所有者と名義人', 'しなければならない', '異議がないときに限り', 'Ａ'],
+              [(S, '職権でも、2項と3項で違うんだ'), (T, '2項は義務、3項は異議なしが条件よ')]),
+        dict(caption='アとイは正しい', aim='第39条第1項・第2項の肢を、場面の絵で確かめる。',
+             layout='Three panels: a wide panel on top, a wide panel in the middle, and a short strip at the bottom.',
+             panels=[
+                 dict(size='wide, top', art='An owner pictogram Ａ fills in a form at a desk; a faded neighbor pictogram Ｂ stands aside without a form. A blue circle stamp in the corner.',
+                      narration='ア：申請できるのは所有者と名義人だけ', words=['ア', '○', 'Ａ', 'Ｂ']),
+                 dict(size='wide, middle', art='A plot crossed by a thick district boundary line; a registry officer pictogram splits the plot along the line. A blue circle stamp in the corner.',
+                      narration='イ：地番区域をまたいだら職権で分筆', words=['イ', '○']),
+                 dict(size='short strip, bottom', art='The student checks two boxes in her notebook; the teacher nods.', chars='student left, teacher right',
+                      talk=[(S, 'イは申請がなくても、しなければならない'), (T, 'そう。第39条第2項よ')]),
+             ]),
+        dict(caption='ウは誤り：異議がないときに限る', aim='罠の肢を、所有者の反対の場面で腹落ちさせる。',
+             layout='Three panels: one wide panel on top, one wide panel in the middle, and one wide panel with a narration box at the bottom.',
+             panels=[
+                 dict(size='wide, top', art='A registry officer pictogram with a map sheet wants to split a plot; owner pictogram Ａ holds a placard 反対. A red cross over the scissors.',
+                      words=['Ａ', '反対']),
+                 dict(size='wide, middle', art='The teacher raises one wing firmly; the student writes in her notebook.', chars='student left, teacher right',
+                      talk=[(T, '地図づくりの職権は、異議がないときだけ'), (S, '反対されたら、分筆できないんですね')]),
+                 dict(size='wide, bottom', art='The same plot, now owner pictogram Ａ gives an okay sign and the officer splits it calmly; a blue check mark.',
+                      narration='ウは×。不動産登記法第39条第3項', words=['ウ', '×']),
+             ]),
+        dict(caption='エは正しい、オは誤り：承諾は順番に', aim='第40条の承諾のつながりを、2人の承諾の絵で見せる。',
+             layout='Three panels: a wide panel on top, a wide panel in the middle, and a short strip at the bottom.',
+             panels=[
+                 dict(size='wide, top', art='A plot split in two. A bank pictogram Ｂ with a tag 抵当権者 hands a signed consent sheet to an officer; a lock-shaped stamp lifts off one part. A blue circle stamp.',
+                      narration='エ：承諾があれば、消滅した旨を登記', words=['エ', '○', 'Ｂ', '抵当権者', '承諾']),
+                 dict(size='wide, middle', art='Two pictograms side by side: Ｂ with a tag 抵当権者 and Ｃ with a tag 第三者, each holding a signed sheet. Only Ｂ has signed; Ｃ\'s sheet is blank and a red cross is shown.',
+                      narration='オ：第三者の承諾も併せて必要', words=['オ', '×', 'Ｂ', 'Ｃ', '抵当権者', '第三者']),
+                 dict(size='short strip, bottom', art='The student counts two fingers; the teacher nods.', chars='student left, teacher right',
+                      talk=[(S, '抵当権者だけじゃ足りない時がある'), (T, 'その権利に第三者の登記があればね')]),
+             ]),
+        quiz([('地図を作るための職権の分筆の条件は？', '異議がないときに限る', 'a plot and a map sheet.', []),
+              ('地番区域をまたいだら？', '登記官が職権で分筆する', 'a plot crossed by a boundary line.', []),
+              ('抵当権に第三者の登記があるときは？', 'その第三者の承諾も必要', 'two consent sheets in a row.', [])]),
+        matome('答え：選択肢5（ウ・オ）',
+               ['ア ○ 申請は所有者と名義人だけ', 'イ ○ 地番区域をまたいだら職権で', 'ウ × 異議がないときに限る', 'エ ○ 承諾で消滅した旨を登記', 'オ × 第三者の承諾も必要'],
+               '条件と例外を外した肢が罠でした！', 'その2つを探せば、すぐ解けるわ', mark=None),
+    ],
+)
