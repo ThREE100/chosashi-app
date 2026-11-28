@@ -1,0 +1,312 @@
+# ひっかけ診断ノート_32（D1058・H27-Q10エ）学習まんが版の画像プロンプト
+
+記事：`32-chizu-teisei-hitotsu-no-moushide.md`。全8ページ、1ページ＝1枚（1024×1536）。
+ChatGPTでは、キャラクターシート_トリ先生_01〜03 と キャラクターシート_I-01〜03 の6枚を添付し、「鳥が先生、女性が生徒です。名前は画像に書かないでください」と添えてから、1ページずつ貼る。2ページ目からは同じチャットで続ける。
+
+ファイル名：`ひっかけ診断ノート_32_p01.png`〜`_p08.png`、見出し画像 `ひっかけ診断ノート_32_見出し_note.png`／`_見出し_IG.png`。
+
+## 1ページ目：扉：「同じ土地だから1枚でOK。○」
+
+ねらい：問いを1枚の絵で見せ、生徒が自信満々で罠に向かう姿で興味を引く。
+
+```
+Draw page 1 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
+
+## 1. Art style and characters
+Clean, warm, friendly flat digital illustration in the same style as the bird teacher's character sheets: simple outlines, soft pastel colors, expressive manga reactions (sweat drops, sparkle eyes, speed lines) used lightly. Do not imitate any existing manga series, its characters, gadgets, or logos.
+THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions.
+THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each.
+Only these two characters appear. Legal parties written as full-width letters (Ａ, Ｂ, Ｃ) are NOT characters: draw them as small faceless flat pictograms in one light gray-blue, each with a small round tag holding its letter. They never speak in speech bubbles.
+NO NAMES: never write any character's name or role word anywhere (no トリ先生, no 先生, no 生徒, no 藍子, no name tags). Who speaks is shown only by the character and the tail of the bubble.
+
+## 2. Page layout
+Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Two panels: one very large title panel filling the top three quarters of the page, and one wide short strip panel across the bottom.
+
+## 3. Panels
+PANEL 1 (very large, top three quarters): Title page. The student sits at a study desk holding a big question card, smiling confidently. The bird teacher peeks in from the right edge with narrowed eyes. Large title lettering at the top in dark navy with the key word on a yellow highlighter band; the question is written on the card.
+      characters: student at center-left (large), teacher peeking from the right edge
+      words inside the drawing (exactly these, nothing else): 「区画と地番の訂正は別々に申し出る」、「一筆の土地の、地図の区画の訂正と地番の訂正の申出は、一の申出情報でできる？」
+PANEL 2 (wide short strip across the bottom): The student gives a confident thumbs-up; the teacher crosses his wings, unimpressed.
+      characters: student left, teacher right
+      - speech bubble from the STUDENT (tail points at the student): 「同じ土地だから1枚でOK。○！」
+      - speech bubble from the TEACHER (tail points at the teacher): 「……それ、登記の申請じゃないわよ」
+
+## 4. Text rules
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+
+## 5. Quality check (apply silently while drawing)
+Exactly 2 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+```
+
+## 2ページ目：事例を絵で：地図の区画も地番も違っていた
+
+ねらい：長い問題文を、場面の絵に置きかえる。
+
+```
+Draw page 2 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
+
+## 1. Art style and characters
+Clean, warm, friendly flat digital illustration in the same style as the bird teacher's character sheets: simple outlines, soft pastel colors, expressive manga reactions (sweat drops, sparkle eyes, speed lines) used lightly. Do not imitate any existing manga series, its characters, gadgets, or logos.
+THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions.
+THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each.
+Only these two characters appear. Legal parties written as full-width letters (Ａ, Ｂ, Ｃ) are NOT characters: draw them as small faceless flat pictograms in one light gray-blue, each with a small round tag holding its letter. They never speak in speech bubbles.
+NO NAMES: never write any character's name or role word anywhere (no トリ先生, no 先生, no 生徒, no 藍子, no name tags). Who speaks is shown only by the character and the tail of the bubble.
+
+## 2. Page layout
+Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. 3 panels: one wide panel across the top, 1 medium panels side by side in the middle, and one wide strip across the bottom.
+
+## 3. Panels
+PANEL 1 (wide, top): A map sheet labeled 地図 with one plot whose outline is drawn slightly off and whose number tag is wrong; pictogram Ａ points at it.
+      narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「Ａの土地の地図が、区画も地番も違う」
+      words inside the drawing (exactly these, nothing else): 「地図」、「Ａ」
+PANEL 2 (medium, middle): Two sticky notes on the map: 区画の訂正 and 地番の訂正.
+      narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「直したいことが2つある」
+      words inside the drawing (exactly these, nothing else): 「区画の訂正」、「地番の訂正」
+PANEL 3 (wide strip, bottom): The teacher points at the scene; the student looks closely.
+      characters: student left, teacher right
+      - speech bubble from the TEACHER (tail points at the teacher): 「申出は1枚にまとめられる？」
+      - speech bubble from the STUDENT (tail points at the student): 「同じ土地だから、1枚で…」
+
+## 4. Text rules
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+
+## 5. Quality check (apply silently while drawing)
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+```
+
+## 3ページ目：つまずき：「同じ土地なら1枚？」
+
+ねらい：生徒が誤答し、先生が止める。読者も一緒に立ち止まる。
+
+```
+Draw page 3 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
+
+## 1. Art style and characters
+Clean, warm, friendly flat digital illustration in the same style as the bird teacher's character sheets: simple outlines, soft pastel colors, expressive manga reactions (sweat drops, sparkle eyes, speed lines) used lightly. Do not imitate any existing manga series, its characters, gadgets, or logos.
+THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions.
+THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each.
+Only these two characters appear. Legal parties written as full-width letters (Ａ, Ｂ, Ｃ) are NOT characters: draw them as small faceless flat pictograms in one light gray-blue, each with a small round tag holding its letter. They never speak in speech bubbles.
+NO NAMES: never write any character's name or role word anywhere (no トリ先生, no 先生, no 生徒, no 藍子, no name tags). Who speaks is shown only by the character and the tail of the bubble.
+
+## 2. Page layout
+Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Three panels: two small panels side by side on top, and one very large panel filling the bottom two thirds.
+
+## 3. Panels
+PANEL 1 (small, top left): The student points at the question card confidently.
+      characters: student only
+      - speech bubble from the STUDENT (tail points at the student): 「1枚にまとめて出します！」
+PANEL 2 (small, top right): The bird teacher flaps both wings in a dramatic STOP gesture, with speed lines.
+      characters: teacher only
+      - speech bubble from the TEACHER (tail points at the teacher): 「待ちなさい！」
+PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card toward the reader; the student, on the left, sweats and leans back in surprise. The card shows two different forms: 申請情報 and 地図訂正申出情報, with a not-equal sign between them.
+      characters: student left, teacher right, both medium size
+      - speech bubble from the TEACHER (tail points at the teacher): 「地図の訂正は、登記の申請と同じ？」
+      - speech bubble from the STUDENT (tail points at the student): 「……「申出」でした」
+      words inside the drawing (exactly these, nothing else): 「登記の申請」、「地図の訂正の申出」、「申請情報」、「地図訂正申出情報」
+
+## 4. Text rules
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+
+## 5. Quality check (apply silently while drawing)
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+```
+
+## 4ページ目：図解の大ゴマ：申請と申出で、まとめ方が違う
+
+ねらい：1ページ全部を使って、この論点の地図を1枚で見せる。
+
+```
+Draw page 4 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
+
+## 1. Art style and characters
+Clean, warm, friendly flat digital illustration in the same style as the bird teacher's character sheets: simple outlines, soft pastel colors, expressive manga reactions (sweat drops, sparkle eyes, speed lines) used lightly. Do not imitate any existing manga series, its characters, gadgets, or logos.
+THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions.
+THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each.
+Only these two characters appear. Legal parties written as full-width letters (Ａ, Ｂ, Ｃ) are NOT characters: draw them as small faceless flat pictograms in one light gray-blue, each with a small round tag holding its letter. They never speak in speech bubbles.
+NO NAMES: never write any character's name or role word anywhere (no トリ先生, no 先生, no 生徒, no 藍子, no name tags). Who speaks is shown only by the character and the tail of the bubble.
+
+## 2. Page layout
+Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Two panels: one huge diagram panel filling about 80 percent of the page, and one short strip across the bottom.
+
+## 3. Panels
+PANEL 1 (huge, top 80 percent): A big clean diagram with a title band across the top. Two columns. LEFT column: 通常の登記の申請 → blue box 表題部の変更・更正が2つ以上なら一の申請情報でできる（規則第35条第6号）. RIGHT column, highlighted with a yellow band because it is this question: 地図の訂正の申出 → two separate forms 区画の訂正 and 地番の訂正 → orange box 一の申出情報にまとめられない.
+      words inside the drawing (exactly these, nothing else): 「申請と申出で、まとめ方が違う」、「通常の登記の申請」、「表題部の変更・更正が2つ以上なら一の申請情報でできる（規則第35条第6号）」、「地図の訂正の申出」、「区画の訂正」、「地番の訂正」、「一の申出情報にまとめられない」、「この問題」
+PANEL 2 (short strip, bottom): Both characters small, pointing up at the diagram.
+      characters: student left, teacher right, small
+      - speech bubble from the STUDENT (tail points at the student): 「申出は、1つずつ！」
+      - speech bubble from the TEACHER (tail points at the teacher): 「そう。申請の例外を持ち込まないの」
+
+## 4. Text rules
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+
+## 5. Quality check (apply silently while drawing)
+Exactly 2 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+```
+
+## 5ページ目：区画の訂正には図面もいる
+
+ねらい：区画の訂正の申出には、土地所在図または地積測量図を添えることを並べて覚える。
+
+```
+Draw page 5 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
+
+## 1. Art style and characters
+Clean, warm, friendly flat digital illustration in the same style as the bird teacher's character sheets: simple outlines, soft pastel colors, expressive manga reactions (sweat drops, sparkle eyes, speed lines) used lightly. Do not imitate any existing manga series, its characters, gadgets, or logos.
+THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions.
+THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each.
+Only these two characters appear. Legal parties written as full-width letters (Ａ, Ｂ, Ｃ) are NOT characters: draw them as small faceless flat pictograms in one light gray-blue, each with a small round tag holding its letter. They never speak in speech bubbles.
+NO NAMES: never write any character's name or role word anywhere (no トリ先生, no 先生, no 生徒, no 藍子, no name tags). Who speaks is shown only by the character and the tail of the bubble.
+
+## 2. Page layout
+Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Three panels: one wide panel on top, one wide panel in the middle, and one wide panel with a narration box at the bottom.
+
+## 3. Panels
+PANEL 1 (wide, top): A form 区画の訂正 with a drawing 地積測量図 clipped to it; a form 地番の訂正 without a drawing.
+      words inside the drawing (exactly these, nothing else): 「区画の訂正」、「地積測量図」、「地番の訂正」
+PANEL 2 (wide, middle): The teacher explains with one wing raised; the student listens with a notebook.
+      characters: student left, teacher right
+      - speech bubble from the TEACHER (tail points at the teacher): 「区画を直すなら、図面を一緒に出すの」
+      - speech bubble from the STUDENT (tail points at the student): 「地番だけなら、図面はいらない！」
+PANEL 3 (wide, bottom): A law book tag 規則第16条第5項第2号.
+      narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「区画の誤りには土地所在図か地積測量図」
+      words inside the drawing (exactly these, nothing else): 「規則第16条第5項第2号」
+
+## 4. Text rules
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+
+## 5. Quality check (apply silently while drawing)
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+```
+
+## 6ページ目：似た場面：同じ土地の地目変更と地積更正なら？
+
+ねらい：通常の登記の申請ならまとめられる場面と並べる。
+
+```
+Draw page 6 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
+
+## 1. Art style and characters
+Clean, warm, friendly flat digital illustration in the same style as the bird teacher's character sheets: simple outlines, soft pastel colors, expressive manga reactions (sweat drops, sparkle eyes, speed lines) used lightly. Do not imitate any existing manga series, its characters, gadgets, or logos.
+THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions.
+THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each.
+Only these two characters appear. Legal parties written as full-width letters (Ａ, Ｂ, Ｃ) are NOT characters: draw them as small faceless flat pictograms in one light gray-blue, each with a small round tag holding its letter. They never speak in speech bubbles.
+NO NAMES: never write any character's name or role word anywhere (no トリ先生, no 先生, no 生徒, no 藍子, no name tags). Who speaks is shown only by the character and the tail of the bubble.
+
+## 2. Page layout
+Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Three panels: a wide panel on top, a wide panel in the middle, and a short strip at the bottom.
+
+## 3. Panels
+PANEL 1 (wide, top): One application form with two ticks 地目の変更 and 地積の更正; blue result box.
+      words inside the drawing (exactly these, nothing else): 「登記の申請」、「地目の変更」、「地積の更正」、「一の申請情報でできる」
+PANEL 2 (wide, middle): Two separate forms 区画の訂正 and 地番の訂正; orange result box.
+      words inside the drawing (exactly these, nothing else): 「地図の訂正の申出」、「区画の訂正」、「地番の訂正」、「別々に申し出る」
+PANEL 3 (short strip, bottom): The student counts on her fingers; the teacher nods.
+      characters: student left, teacher right
+      - speech bubble from the STUDENT (tail points at the student): 「申請はまとめて、申出は別々」
+      - speech bubble from the TEACHER (tail points at the teacher): 「そう。似た手続と混ぜないの」
+
+## 4. Text rules
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+
+## 5. Quality check (apply silently while drawing)
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+```
+
+## 7ページ目：確かめクイズ
+
+ねらい：読んだことを3問で確かめる。正解の印は青。
+
+```
+Draw page 7 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
+
+## 1. Art style and characters
+Clean, warm, friendly flat digital illustration in the same style as the bird teacher's character sheets: simple outlines, soft pastel colors, expressive manga reactions (sweat drops, sparkle eyes, speed lines) used lightly. Do not imitate any existing manga series, its characters, gadgets, or logos.
+THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions.
+THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each.
+Only these two characters appear. Legal parties written as full-width letters (Ａ, Ｂ, Ｃ) are NOT characters: draw them as small faceless flat pictograms in one light gray-blue, each with a small round tag holding its letter. They never speak in speech bubbles.
+NO NAMES: never write any character's name or role word anywhere (no トリ先生, no 先生, no 生徒, no 藍子, no name tags). Who speaks is shown only by the character and the tail of the bubble.
+
+## 2. Page layout
+Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Three panels of equal height stacked vertically, each a quiz card.
+
+## 3. Panels
+PANEL 1 (equal, top): Quiz card on the left half: two sticky notes on a map. The student answers on the right half; a blue circle stamp appears.
+      characters: student only, right half
+      - speech bubble from the STUDENT (tail points at the student): 「できません」
+      words inside the drawing (exactly these, nothing else): 「第1問」、「区画と地番の訂正。一の申出情報で？」
+PANEL 2 (equal, middle): Quiz card on the left half: one application form with two ticks. The student answers on the right half; a blue circle stamp appears.
+      characters: student only, right half
+      - speech bubble from the STUDENT (tail points at the student): 「一の申請情報でできる」
+      words inside the drawing (exactly these, nothing else): 「第2問」、「同じ土地の地目変更と地積更正は？」
+PANEL 3 (equal, bottom): Quiz card on the left half: a drawing sheet. The student answers on the right half; a blue circle stamp appears. The teacher gives a small wing thumbs-up at the far right.
+      characters: student center-right, teacher small at far right
+      - speech bubble from the STUDENT (tail points at the student): 「土地所在図か地積測量図」
+      - speech bubble from the TEACHER (tail points at the teacher): 「全部正解よ」
+      words inside the drawing (exactly these, nothing else): 「第3問」、「区画の訂正に添えるのは？」
+
+## 4. Text rules
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+
+## 5. Quality check (apply silently while drawing)
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+```
+
+## 8ページ目：まとめ：この肢は×
+
+ねらい：結論・覚え方・ひっかけの型を1ページにまとめ、生徒が自分の言葉で言い直す。
+
+```
+Draw page 8 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
+
+## 1. Art style and characters
+Clean, warm, friendly flat digital illustration in the same style as the bird teacher's character sheets: simple outlines, soft pastel colors, expressive manga reactions (sweat drops, sparkle eyes, speed lines) used lightly. Do not imitate any existing manga series, its characters, gadgets, or logos.
+THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions.
+THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each.
+Only these two characters appear. Legal parties written as full-width letters (Ａ, Ｂ, Ｃ) are NOT characters: draw them as small faceless flat pictograms in one light gray-blue, each with a small round tag holding its letter. They never speak in speech bubbles.
+NO NAMES: never write any character's name or role word anywhere (no トリ先生, no 先生, no 生徒, no 藍子, no name tags). Who speaks is shown only by the character and the tail of the bubble.
+
+## 2. Page layout
+Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Two panels: one large panel filling the top two thirds, and one wide panel at the bottom.
+
+## 3. Panels
+PANEL 1 (large, top two thirds): A large summary board. At the top a big red stamp-like mark beside the words この肢は×. Below, a checklist with blue check marks, one line each. At the bottom of the board, a rounded label for the trap type.
+      words inside the drawing (exactly these, nothing else): 「この肢は×」、「区画の訂正と地番の訂正は、一の申出情報にまとめられない」、「通常の登記の申請とは扱いが違う」、「区画の訂正には図面を添える」、「ひっかけの型：似た手続の取り違え」
+PANEL 2 (wide, bottom): The student, relieved and determined, holds her pencil up; the teacher smiles warmly with wings on hips.
+      characters: student left, teacher right
+      - speech bubble from the STUDENT (tail points at the student): 「申請か申出かを、まず見ます！」
+      - speech bubble from the TEACHER (tail points at the teacher): 「それで似た手続を混ぜないわよ」
+
+## 4. Text rules
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+
+## 5. Quality check (apply silently while drawing)
+Exactly 2 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+```
+
+## 見出し画像（note用 1280×670）
+
+```
+Create a landscape note.com header image for a Japanese educational comic article, exactly 1280x670 pixels, fully opaque.
+
+TEXT (only these three strings, exactly): line 1 on a pale yellow marker band 「ひっかけ診断ノート」; line 2 large, the key word in reddish orange 「区画と地番の訂正は別々に申し出る」; subtitle in a light-blue rounded band 「漫画で読む　地図の訂正の申出」. No other words, digits, or Latin letters.
+
+CHARACTERS: exactly two. THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions. Place him lower right of center. THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each. Place her lower left of center. Free, natural poses that fit the topic, different each time; both fully visible, faces clear of the title. No names or role words anywhere.
+
+STYLE: the bird teacher's flat pastel style; the topic scene (a large map sheet spread on a desk with a magnifying glass) fades softly into the left and right edges with no text in it. Do not imitate any existing manga series.
+
+Final check: only the three strings; standard Japanese kanji; exactly two characters; fully opaque. Deliver the first image as it is.
+```
+
+## 見出し画像（Instagram用 1080×1440）
+
+```
+Create a portrait Instagram (3:4) header image for a Japanese educational comic article, exactly 1080x1440 pixels, fully opaque.
+
+TEXT (only these three strings, exactly): line 1 on a pale yellow marker band 「ひっかけ診断ノート」; line 2 large, the key word in reddish orange 「区画と地番の訂正は別々に申し出る」; subtitle in a light-blue rounded band 「漫画で読む　地図の訂正の申出」. No other words, digits, or Latin letters.
+
+CHARACTERS: exactly two. THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions. Place him lower right of center. THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each. Place her lower left of center. Free, natural poses that fit the topic, different each time; both fully visible, faces clear of the title. No names or role words anywhere.
+
+STYLE: the bird teacher's flat pastel style; the topic scene (a large map sheet spread on a desk with a magnifying glass) fades softly into the left and right edges with no text in it. Do not imitate any existing manga series.
+
+Final check: only the three strings; standard Japanese kanji; exactly two characters; fully opaque. Deliver the first image as it is.
+```
