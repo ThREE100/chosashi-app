@@ -1,0 +1,213 @@
+{
+ "title": "ひっかけ診断ノート_01（試作）",
+ "unitName": "取得時効と登記",
+ "struggleSummary": "主張の相手が元の所有者Ｂ（時効の当事者）か、第三者かを先に見る。",
+ "targetAudience": "土地家屋調査士の受験生",
+ "testKeywords": [
+  "取得時効",
+  "当事者",
+  "第三者",
+  "対抗関係"
+ ],
+ "characterDesign": {
+  "teacher": {
+   "name": "（名前なし・右の鳥）",
+   "appearance": "plump round bird, round red glasses, blue shirt, red neckerchief",
+   "personality": "sharp-tongued but caring"
+  },
+  "student": {
+   "name": "（名前なし・左の女性）",
+   "appearance": "as in attached sheets I-01..03",
+   "personality": "earnest, falls into traps"
+  }
+ },
+ "pages": [
+  {
+   "pageNumber": 1,
+   "title": "「登記がないと主張できない」と答えてしまう",
+   "summary": "占有を始めたのは平成2年1月1日。過失なく自分の土地だと信じていたので、10年たった平成12年1月1日に時効が完成します。肢が主張する相手は、元の所有者Ｂです。",
+   "panels": [
+    {
+     "panelNumber": 1,
+     "size": "中ゴマ",
+     "composition": "the student confidently raises her pencil; the teacher squints at her",
+     "dialogue": [
+      {
+       "speaker": "the young woman on the LEFT",
+       "text": "時効で取った土地も、登記がないと主張できない。だから正しい！",
+       "type": "speech"
+      },
+      {
+       "speaker": "the round bird teacher on the RIGHT",
+       "text": "待ちなさい。その主張の相手は誰？",
+       "type": "speech"
+      }
+     ],
+     "narration": ""
+    },
+    {
+     "panelNumber": 2,
+     "size": "中ゴマ",
+     "composition": "the student looks at the timeline and answers; the teacher points a wing at pictogram Ｂ",
+     "dialogue": [
+      {
+       "speaker": "the young woman on the LEFT",
+       "text": "元の持ち主のＢです",
+       "type": "speech"
+      },
+      {
+       "speaker": "the round bird teacher on the RIGHT",
+       "text": "Ｂは時効の相手方本人。「当事者」で、対抗関係に立たないの",
+       "type": "speech"
+      }
+     ],
+     "narration": ""
+    },
+    {
+     "panelNumber": 3,
+     "size": "中ゴマ",
+     "composition": "the student is startled; the teacher nods firmly",
+     "dialogue": [
+      {
+       "speaker": "the young woman on the LEFT",
+       "text": "じゃあ、登記がなくても…",
+       "type": "speech"
+      },
+      {
+       "speaker": "the round bird teacher on the RIGHT",
+       "text": "Ｂには主張できる。この肢は誤りよ",
+       "type": "speech"
+      }
+     ],
+     "narration": ""
+    }
+   ],
+   "imageGenerationPrompt": "Vertical Japanese study-comic page, 1080x1920 (9:16), exactly 3 panels stacked top to bottom. Clean flat pastel illustration. Two characters only. THE TEACHER: the plump round bird teacher from the attached sheets (round red glasses, blue shirt, red neckerchief, wings as hands), always on the RIGHT. THE STUDENT: the young woman from the attached sheets I-01 to I-03, redrawn in the same art style as the bird teacher, always on the LEFT. Never write any name or role word in the image; the speaker is shown only by position and the bubble tail. Panel 1: the student confidently raises her pencil; the teacher squints at her. Center diagram: a horizontal timeline with three dots: 平成2年 占有開始, 平成12年 時効完成, 平成15年 Ｂに主張; pictogram Ａ at the start, pictogram Ｂ at the end. Words allowed in the diagram: 平成2年、占有開始、平成12年、時効完成、平成15年、Ｂに主張、Ａ、Ｂ. Panel 2: the student looks at the timeline and answers; the teacher points a wing at pictogram Ｂ. Center diagram: pictogram Ａ and pictogram Ｂ face each other, connected by a thick navy line labeled 当事者. Words allowed in the diagram: Ａ、Ｂ、当事者. Panel 3: the student is startled; the teacher nods firmly. Center diagram: a pale yellow banner with dark navy text. Words allowed in the diagram: Ｂには登記なしで主張できる."
+  },
+  {
+   "pageNumber": 2,
+   "title": "登記が要る相手を、元の所有者にまで広げていた",
+   "summary": "登記が問題になるのは、第三者との関係です。時効が完成した後に現れた第三者だけが、登記の早い者勝ちの相手になります。",
+   "panels": [
+    {
+     "panelNumber": 1,
+     "size": "中ゴマ",
+     "composition": "the teacher holds up a label card; the student tilts her head",
+     "dialogue": [
+      {
+       "speaker": "the round bird teacher on the RIGHT",
+       "text": "この罠の型は「範囲のすり替え」",
+       "type": "speech"
+      },
+      {
+       "speaker": "the young woman on the LEFT",
+       "text": "範囲、ですか？",
+       "type": "speech"
+      }
+     ],
+     "narration": ""
+    },
+    {
+     "panelNumber": 2,
+     "size": "中ゴマ",
+     "composition": "both look at three cards side by side; only the third card is highlighted in yellow",
+     "dialogue": [
+      {
+       "speaker": "the round bird teacher on the RIGHT",
+       "text": "登記が要るのは、完成の後の第三者だけ。それをＢにまで広げたのよ",
+       "type": "speech"
+      },
+      {
+       "speaker": "the young woman on the LEFT",
+       "text": "第三者のルールを、Ｂに当てはめていました",
+       "type": "speech"
+      }
+     ],
+     "narration": ""
+    },
+    {
+     "panelNumber": 3,
+     "size": "中ゴマ",
+     "composition": "the student draws a line under a word on her paper; the teacher smiles",
+     "dialogue": [
+      {
+       "speaker": "the young woman on the LEFT",
+       "text": "先に「誰に対して」を見ればいいんですね",
+       "type": "speech"
+      },
+      {
+       "speaker": "the round bird teacher on the RIGHT",
+       "text": "そう。相手に線を引いてから読むのよ",
+       "type": "speech"
+      }
+     ],
+     "narration": ""
+    }
+   ],
+   "imageGenerationPrompt": "Vertical Japanese study-comic page, 1080x1920 (9:16), exactly 3 panels stacked top to bottom. Clean flat pastel illustration. Two characters only. THE TEACHER: the plump round bird teacher from the attached sheets (round red glasses, blue shirt, red neckerchief, wings as hands), always on the RIGHT. THE STUDENT: the young woman from the attached sheets I-01 to I-03, redrawn in the same art style as the bird teacher, always on the LEFT. Never write any name or role word in the image; the speaker is shown only by position and the bubble tail. Panel 1: the teacher holds up a label card; the student tilts her head. Center diagram: a rounded label card in dark navy outline. Words allowed in the diagram: 範囲のすり替え. Panel 2: both look at three cards side by side; only the third card is highlighted in yellow. Center diagram: three cards left to right: 元の所有者Ｂ / 完成の前に現れた第三者 / 完成の後に現れた第三者; under the first two the words 登記なしで主張できる, under the third the words 登記が必要. Words allowed in the diagram: 元の所有者Ｂ、完成の前に現れた第三者、完成の後に現れた第三者、登記なしで主張できる、登記が必要. Panel 3: the student draws a line under a word on her paper; the teacher smiles. Center diagram: a sheet of paper with the words 誰に対して underlined in blue. Words allowed in the diagram: 誰に対して."
+  },
+  {
+   "pageNumber": 3,
+   "title": "相手が第三者なら、現れた時期で分かれる",
+   "summary": "同じ占有者でも、相手が第三者に変わると答えが変わります。時効の完成の前に現れたか、後に現れたかで分けて確かめます。",
+   "panels": [
+    {
+     "panelNumber": 1,
+     "size": "中ゴマ",
+     "composition": "the teacher quizzes; the student answers with growing confidence",
+     "dialogue": [
+      {
+       "speaker": "the round bird teacher on the RIGHT",
+       "text": "完成の前に、Ｂから買ったＣには？",
+       "type": "speech"
+      },
+      {
+       "speaker": "the young woman on the LEFT",
+       "text": "当事者と同じ扱い。登記なしで主張できます",
+       "type": "speech"
+      }
+     ],
+     "narration": ""
+    },
+    {
+     "panelNumber": 2,
+     "size": "中ゴマ",
+     "composition": "the teacher moves pictogram Ｃ after the completion; the student answers carefully",
+     "dialogue": [
+      {
+       "speaker": "the round bird teacher on the RIGHT",
+       "text": "じゃあ、完成の後に買ったＣには？",
+       "type": "speech"
+      },
+      {
+       "speaker": "the young woman on the LEFT",
+       "text": "対抗関係。登記がないと主張できません",
+       "type": "speech"
+      }
+     ],
+     "narration": ""
+    },
+    {
+     "panelNumber": 3,
+     "size": "中ゴマ",
+     "composition": "the student holds a checklist proudly; the teacher gives a caring nod",
+     "dialogue": [
+      {
+       "speaker": "the young woman on the LEFT",
+       "text": "相手を見て、それから時期。もう広げません！",
+       "type": "speech"
+      },
+      {
+       "speaker": "the round bird teacher on the RIGHT",
+       "text": "その順番なら迷わないわよ",
+       "type": "speech"
+      }
+     ],
+     "narration": ""
+    }
+   ],
+   "imageGenerationPrompt": "Vertical Japanese study-comic page, 1080x1920 (9:16), exactly 3 panels stacked top to bottom. Clean flat pastel illustration. Two characters only. THE TEACHER: the plump round bird teacher from the attached sheets (round red glasses, blue shirt, red neckerchief, wings as hands), always on the RIGHT. THE STUDENT: the young woman from the attached sheets I-01 to I-03, redrawn in the same art style as the bird teacher, always on the LEFT. Never write any name or role word in the image; the speaker is shown only by position and the bubble tail. Panel 1: the teacher quizzes; the student answers with growing confidence. Center diagram: a timeline with 時効完成 in the middle; pictogram Ｃ placed before it, with an arrow from Ｂ to Ｃ labeled 売買. Words allowed in the diagram: 時効完成、Ｂ、Ｃ、売買. Panel 2: the teacher moves pictogram Ｃ after the completion; the student answers carefully. Center diagram: the same timeline with pictogram Ｃ placed after 時効完成, and a scale icon labeled 対抗関係. Words allowed in the diagram: 時効完成、Ｂ、Ｃ、売買、対抗関係. Panel 3: the student holds a checklist proudly; the teacher gives a caring nod. Center diagram: a checklist with three blue check marks. Words allowed in the diagram: 相手は誰か、第三者なら、完成の前か後か、後なら登記が必要."
+  }
+ ],
+ "createdAt": "2026-11-28T00:00:00Z"
+}
