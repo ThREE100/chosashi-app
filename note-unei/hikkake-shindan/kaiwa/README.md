@@ -7,7 +7,7 @@
 - **学習まんが版の構成の型：`02-gakushu-manga-no-kata.md`（2026-11-28〜。4コマ風の3ページ×3コマから切り替え）**
 - 記事：`NN-<slug>.md`、画像プロンプト：`NN-<slug>_prompts.md`（漫画は必要なページ数、1ページ＝1枚 1024×1536＋見出し画像 note用1280×670・Instagram用1080×1440）、貼り付け文：`NN-codex-instructions.md`（Codex用）・`NN-chatgpt-github-instructions.md`（GitHub接続のChatGPT用）
 - 作り方：`src/gNN.py`（台本。定番ページは `src/kata.py`）を書く → `python3 src/build_g.py` → `python3 src/check_g.py`（NG 0件）。生成物は手で直さない。
-- 監査（各回）：肢の文・正誤がバンクと一致／解説・条文が年度別記事の結論と一致（`note-articles/` の該当肢と条文の原文 `note-articles/laws/` で確かめる）／名前・役割名・個人の結果の語がない／文字数の上限／まとめの○×と型が一致（`check_g.py` が機械で確かめる部分あり）。
+- 監査（各回）：肢の文・正誤がバンクと一致／解説・条文が年度別記事の結論と一致（`note-articles/` の該当肢と条文の原文 `note-articles/laws/` で確かめる）／名前・役割名・個人の結果の語がない／文字数の上限／まとめの○×と型が一致／絵の指示に出てくる札・ラベルの語がそのコマの文字の指定に入っている（`build_g.py` が自動で足し、`check_g.py` が確かめる）。
 
 ## 決まり
 

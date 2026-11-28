@@ -61,7 +61,7 @@ PANEL 1 (wide, top): A plot of land split by light dotted lines into three equal
       words inside the drawing (exactly these, nothing else): 「甲土地」、「Ａ」、「Ｂ」、「Ｃ」、「各3分の1」
 PANEL 2 (medium, middle left): Pictogram Ｅ has parked a truck in the middle of the plot; Ａ, Ｂ, Ｃ stand outside the fence.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「Ｅが不法に占有して、使えなくなった」
-      words inside the drawing (exactly these, nothing else): 「Ｅ」
+      words inside the drawing (exactly these, nothing else): 「Ｅ」、「Ａ」、「Ｂ」、「Ｃ」
 PANEL 3 (medium, middle right): A stack of coins labeled 損害 split into three piles.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「損害が出た」
       words inside the drawing (exactly these, nothing else): 「損害」
@@ -105,7 +105,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「その損害賠償の権利は、だれのもの？」
       - speech bubble from the STUDENT (tail points at the student): 「……3人のもの？」
-      words inside the drawing (exactly these, nothing else): 「損害賠償の権利は3つに分かれる」
+      words inside the drawing (exactly these, nothing else): 「損害賠償の権利は3つに分かれる」、「Ａ」、「Ｂ」、「Ｃ」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.

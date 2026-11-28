@@ -61,7 +61,7 @@ PANEL 1 (wide, top): Two registry record cards side by side: one for the room �
       words inside the drawing (exactly these, nothing else): 「建物の登記記録」、「土地の登記記録」、「Ａ」
 PANEL 2 (medium, middle): Pictogram Ａ holds a certificate labeled 同一性を証する情報.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「「同じ人です」という書類はある」
-      words inside the drawing (exactly these, nothing else): 「同一性を証する情報」
+      words inside the drawing (exactly these, nothing else): 「同一性を証する情報」、「Ａ」
 PANEL 3 (wide strip, bottom): The teacher points at the scene; the student looks closely.
       characters: student left, teacher right
       - speech bubble from the TEACHER (tail points at the teacher): 「敷地権の登記をするとき、記録はそろう？」
@@ -162,7 +162,7 @@ Reading order: left to right, top to bottom (horizontal Japanese text). Panel bo
 
 ## 3. Panels
 PANEL 1 (wide, top): A magnifying glass over pictogram Ａ labeled 人の確認, and a pen over a record card labeled 記録を直す, separated by a wall.
-      words inside the drawing (exactly these, nothing else): 「人の確認」、「記録を直す」
+      words inside the drawing (exactly these, nothing else): 「人の確認」、「記録を直す」、「Ａ」
 PANEL 2 (wide, middle): The teacher explains with one wing raised; the student listens with a notebook.
       characters: student left, teacher right
       - speech bubble from the TEACHER (tail points at the teacher): 「証明書は「同じ人」を示すだけ」

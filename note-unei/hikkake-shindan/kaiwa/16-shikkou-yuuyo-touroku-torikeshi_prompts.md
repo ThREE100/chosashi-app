@@ -102,7 +102,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「欠格事由は「刑に処せられ」でしょ？」
       - speech bubble from the STUDENT (tail points at the student): 「……猶予でも、処せられてる」
-      words inside the drawing (exactly these, nothing else): 「拘禁刑以上の刑に処せられ」
+      words inside the drawing (exactly these, nothing else): 「拘禁刑以上の刑に処せられ」、「第5条第1号」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.

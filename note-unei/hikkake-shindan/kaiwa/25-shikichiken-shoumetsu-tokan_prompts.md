@@ -101,7 +101,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「その決まり、どの場面に書いてある？」
       - speech bubble from the STUDENT (tail points at the student): 「……敷地権が生じたとき」
-      words inside the drawing (exactly these, nothing else): 「敷地権が生じたとき」
+      words inside the drawing (exactly these, nothing else): 「敷地権が生じたとき」、「令別表15の項」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
@@ -161,7 +161,7 @@ Reading order: left to right, top to bottom (horizontal Japanese text). Panel bo
 
 ## 3. Panels
 PANEL 1 (wide, top): A law book page 令別表15の項 with the line 敷地権が生じたとき highlighted and an arrow to 登記事項証明書.
-      words inside the drawing (exactly these, nothing else): 「敷地権」
+      words inside the drawing (exactly these, nothing else): 「敷地権」、「令別表15の項」、「敷地権が生じたとき」、「登記事項証明書」
 PANEL 2 (wide, middle): The teacher explains with one wing raised; the student listens with a notebook.
       characters: student left, teacher right
       - speech bubble from the TEACHER (tail points at the teacher): 「証明書の決まりは、生まれる場面の欄だけ」

@@ -101,7 +101,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「合筆してよい権利の一覧、言ってみて」
       - speech bubble from the STUDENT (tail points at the student): 「地役権と、同じ抵当権と……」
-      words inside the drawing (exactly these, nothing else): 「規則第105条」
+      words inside the drawing (exactly these, nothing else): 「規則第105条」、「承役地の地役権」、「同一の担保権」、「敷地権である旨」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.

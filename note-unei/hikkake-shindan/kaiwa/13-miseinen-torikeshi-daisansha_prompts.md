@@ -105,7 +105,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「その「善意の第三者を守る」条文は、どの取消しの？」
       - speech bubble from the STUDENT (tail points at the student): 「……詐欺の取消しの条文」
-      words inside the drawing (exactly these, nothing else): 「第96条第3項」、「詐欺」
+      words inside the drawing (exactly these, nothing else): 「第96条第3項」、「詐欺」、「未成年の取消し」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
@@ -172,7 +172,7 @@ PANEL 2 (wide, middle): The teacher explains with one wing raised; the student l
       - speech bubble from the STUDENT (tail points at the student): 「だから、Ｂも土地をもらえない！」
 PANEL 3 (wide, bottom): A shield icon over pictogram Ａ labeled 未成年者を守る.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「判断の未熟な未成年者を守るのが先」
-      words inside the drawing (exactly these, nothing else): 「未成年者を守る」
+      words inside the drawing (exactly these, nothing else): 「未成年者を守る」、「Ａ」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.

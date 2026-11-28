@@ -102,7 +102,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「同じ建物についての登記でしょ？」
       - speech bubble from the STUDENT (tail points at the student): 「どっちも甲建物の登記だ……」
-      words inside the drawing (exactly these, nothing else): 「同じ建物」、「変更の登記＋分割の登記」
+      words inside the drawing (exactly these, nothing else): 「同じ建物」、「変更の登記＋分割の登記」、「甲建物」、「増築の変更」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
@@ -197,9 +197,9 @@ Reading order: left to right, top to bottom (horizontal Japanese text). Panel bo
 
 ## 3. Panels
 PANEL 1 (wide, top): The shed moving from 甲建物 to become an annex of a different house 乙建物; a blue result box.
-      words inside the drawing (exactly these, nothing else): 「分割＋合併」、「一の申請情報でできる（第2号）」
+      words inside the drawing (exactly these, nothing else): 「分割＋合併」、「一の申請情報でできる（第2号）」、「甲建物」、「乙建物」
 PANEL 2 (wide, middle): The house 甲建物 with two arrows 増築の変更 and 分割; a blue result box.
-      words inside the drawing (exactly these, nothing else): 「変更＋分割」、「一の申請情報でできる（第7号）」
+      words inside the drawing (exactly these, nothing else): 「変更＋分割」、「一の申請情報でできる（第7号）」、「甲建物」、「増築の変更」
 PANEL 3 (short strip, bottom): The student counts on her fingers; the teacher nods.
       characters: student left, teacher right
       - speech bubble from the STUDENT (tail points at the student): 「まとめてよい組み合わせが決まってる」

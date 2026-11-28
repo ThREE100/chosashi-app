@@ -61,7 +61,7 @@ PANEL 1 (wide, top): An apartment building with one room shaded light blue label
       words inside the drawing (exactly these, nothing else): 「甲建物」、「附属建物（区分建物でない）」
 PANEL 2 (medium, middle): A registry record card for the room with rows 家屋番号・種類・構造・床面積 and no row labeled 所在.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「専有部分の記録には、所在の欄がない」
-      words inside the drawing (exactly these, nothing else): 「家屋番号」、「種類」、「構造」、「床面積」
+      words inside the drawing (exactly these, nothing else): 「家屋番号」、「種類」、「構造」、「床面積」、「家屋番号・種類・構造・床面積」
 PANEL 3 (wide strip, bottom): The teacher points at the scene; the student looks closely.
       characters: student left, teacher right
       - speech bubble from the TEACHER (tail points at the teacher): 「物置がどこにあるか、どこに書く？」

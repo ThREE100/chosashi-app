@@ -61,7 +61,7 @@ PANEL 1 (wide, top): A computer screen showing an online application form, with 
       words inside the drawing (exactly these, nothing else): 「委任状」、「Ａ」、「調査士」
 PANEL 2 (medium, middle left): Pictogram Ａ scans the paper 委任状 with a scanner; a small electronic signature icon appears on the file.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「原本を確かめ、スキャンして電子署名」
-      words inside the drawing (exactly these, nothing else): 「委任状」
+      words inside the drawing (exactly these, nothing else): 「委任状」、「Ａ」
 PANEL 3 (medium, middle right): A document labeled 不動産の調査に関する報告 with a pen icon.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「作った過程を報告に記録して一緒に出す」
       words inside the drawing (exactly these, nothing else): 「不動産の調査に関する報告」
@@ -105,7 +105,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「だれが原本を確かめたの？」
       - speech bubble from the STUDENT (tail points at the student): 「……調査士が、自分の目で」
-      words inside the drawing (exactly these, nothing else): 「調査士が原本を確認」
+      words inside the drawing (exactly these, nothing else): 「調査士が原本を確認」、「Ａ」、「委任状」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
@@ -200,9 +200,9 @@ Reading order: left to right, top to bottom (horizontal Japanese text). Panel bo
 
 ## 3. Panels
 PANEL 1 (wide, top): An online application with only a scanned 委任状 and no report; an orange result box.
-      words inside the drawing (exactly these, nothing else): 「報告なし」、「原則どおり原本を提示」
+      words inside the drawing (exactly these, nothing else): 「報告なし」、「原則どおり原本を提示」、「委任状」
 PANEL 2 (wide, middle): An online application with the scanned 委任状, electronic signature, and the report; a blue result box.
-      words inside the drawing (exactly these, nothing else): 「調査士報告方式」、「提示を省略できる」
+      words inside the drawing (exactly these, nothing else): 「調査士報告方式」、「提示を省略できる」、「委任状」
 PANEL 3 (short strip, bottom): The student counts on her fingers; the teacher nods.
       characters: student left, teacher right
       - speech bubble from the STUDENT (tail points at the student): 「報告がそろって、はじめて省略」

@@ -102,7 +102,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「墓地になった土地にも、税金がかかるの？」
       - speech bubble from the STUDENT (tail points at the student): 「……墓地は、非課税？」
-      words inside the drawing (exactly these, nothing else): 「墓地＝非課税」
+      words inside the drawing (exactly these, nothing else): 「墓地＝非課税」、「1,000円」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
@@ -197,7 +197,7 @@ Reading order: left to right, top to bottom (horizontal Japanese text). Panel bo
 
 ## 3. Panels
 PANEL 1 (wide, top): One plot split into two 宅地 plots, each with a coin 1,000円; result box.
-      words inside the drawing (exactly these, nothing else): 「宅地を2筆に分筆」、「2,000円」
+      words inside the drawing (exactly these, nothing else): 「宅地を2筆に分筆」、「2,000円」、「1,000円」
 PANEL 2 (wide, middle): One plot split into 宅地 and 墓地; result box.
       words inside the drawing (exactly these, nothing else): 「宅地と墓地に分筆」、「1,000円」
 PANEL 3 (short strip, bottom): The student counts on her fingers; the teacher nods.

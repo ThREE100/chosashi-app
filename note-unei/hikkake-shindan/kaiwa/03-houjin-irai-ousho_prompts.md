@@ -242,7 +242,7 @@ PANEL 3 (equal, bottom): Quiz card on the left half: a document labeled 筆界�
       characters: student center-right, teacher small at far right
       - speech bubble from the STUDENT (tail points at the student): 「速やかに依頼者に通知します」
       - speech bubble from the TEACHER (tail points at the teacher): 「全部正解よ」
-      words inside the drawing (exactly these, nothing else): 「第3問」、「筆界特定の代理を断るときは？」
+      words inside the drawing (exactly these, nothing else): 「第3問」、「筆界特定の代理を断るときは？」、「筆界特定の手続の代理」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.

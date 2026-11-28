@@ -61,6 +61,7 @@ PANEL 1 (wide, top): Plot 甲土地 with a narrow footpath strip shaded light or
       words inside the drawing (exactly these, nothing else): 「甲土地」、「乙土地」、「地役権」
 PANEL 2 (medium, middle): The two plots merging into one large plot; the footpath strip stays only on the former 甲 part.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「2筆を合筆して1筆にする」
+      words inside the drawing (exactly these, nothing else): 「甲」
 PANEL 3 (wide strip, bottom): The teacher points at the scene; the student looks closely.
       characters: student left, teacher right
       - speech bubble from the TEACHER (tail points at the teacher): 「合筆したあと、地役権はどこにかかる？」
@@ -196,7 +197,7 @@ Reading order: left to right, top to bottom (horizontal Japanese text). Panel bo
 
 ## 3. Panels
 PANEL 1 (wide, top): Plot 甲土地 split into two; the footpath strip on only one of them; result box.
-      words inside the drawing (exactly these, nothing else): 「承役地を分筆」、「範囲が一部なら範囲を書く」
+      words inside the drawing (exactly these, nothing else): 「承役地を分筆」、「範囲が一部なら範囲を書く」、「甲土地」
 PANEL 2 (wide, middle): Two plots merged; the footpath strip on only part; result box.
       words inside the drawing (exactly these, nothing else): 「承役地に合筆」、「範囲が一部なら範囲を書く」
 PANEL 3 (short strip, bottom): The student counts on her fingers; the teacher nods.

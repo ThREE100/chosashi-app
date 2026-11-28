@@ -102,7 +102,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「抹消したら、消えた抵当権は戻るの？」
       - speech bubble from the STUDENT (tail points at the student): 「……勝手には戻らない」
-      words inside the drawing (exactly these, nothing else): 「抵当権は戻る？」
+      words inside the drawing (exactly these, nothing else): 「抵当権は戻る？」、「乙土地」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
@@ -162,14 +162,14 @@ Reading order: left to right, top to bottom (horizontal Japanese text). Panel bo
 
 ## 3. Panels
 PANEL 1 (wide, top): A before-after: left, the tag 抵当権 on both plots; right, the tag gone from 乙土地, with a navy label 権利の変動.
-      words inside the drawing (exactly these, nothing else): 「抵当権」、「権利の変動」
+      words inside the drawing (exactly these, nothing else): 「抵当権」、「権利の変動」、「乙土地」
 PANEL 2 (wide, middle): The teacher explains with one wing raised; the student listens with a notebook.
       characters: student left, teacher right
       - speech bubble from the TEACHER (tail points at the teacher): 「この分筆は、抵当権を消す変動つき」
       - speech bubble from the STUDENT (tail points at the student): 「線を消すだけでは、元に戻らない！」
 PANEL 3 (wide, bottom): A new pictogram Ｃ holding a new mortgage tag on 乙土地.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「回復には、利害関係のある第三者の承諾も要る」
-      words inside the drawing (exactly these, nothing else): 「Ｃ」
+      words inside the drawing (exactly these, nothing else): 「Ｃ」、「乙土地」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
@@ -197,7 +197,7 @@ Reading order: left to right, top to bottom (horizontal Japanese text). Panel bo
 
 ## 3. Panels
 PANEL 1 (wide, top): Two plots both still with the tag 抵当権; a blue result box.
-      words inside the drawing (exactly these, nothing else): 「ただの分筆」、「分筆錯誤で抹消できる」
+      words inside the drawing (exactly these, nothing else): 「ただの分筆」、「分筆錯誤で抹消できる」、「抵当権」
 PANEL 2 (wide, middle): Two plots with the tag gone from one; an orange result box.
       words inside the drawing (exactly these, nothing else): 「抵当権を消した分筆」、「まず抵当権の回復」
 PANEL 3 (short strip, bottom): The student counts on her fingers; the teacher nods.

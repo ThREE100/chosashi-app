@@ -104,7 +104,7 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       characters: student left, teacher right, both medium size
       - speech bubble from the TEACHER (tail points at the teacher): 「表示の登記に、共同申請の決まりはある？」
       - speech bubble from the STUDENT (tail points at the student): 「……権利の登記の決まりでした」
-      words inside the drawing (exactly these, nothing else): 「表示に関する登記」、「共同申請？」
+      words inside the drawing (exactly these, nothing else): 「表示に関する登記」、「共同申請？」、「権利に関する登記」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
@@ -170,7 +170,7 @@ PANEL 2 (wide, middle): The teacher explains with one wing raised; the student l
       - speech bubble from the STUDENT (tail points at the student): 「申請できる人の、だれか一人でいい！」
 PANEL 3 (wide, bottom): A small note card: 第49条第1項の各号の「又は」 with the word 又は highlighted.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「条文も「Ａ又はＢ」の形」
-      words inside the drawing (exactly these, nothing else): 「第49条第1項」、「又は」
+      words inside the drawing (exactly these, nothing else): 「第49条第1項」、「又は」、「第49条第1項の各号の「又は」」
 
 ## 4. Text rules
 The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
