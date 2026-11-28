@@ -1,0 +1,174 @@
+{
+ "picks": [
+  {
+   "rank": 1,
+   "law": "不動産登記法",
+   "article": "58",
+   "years": 18,
+   "q": "H27-Q17",
+   "cites": 12,
+   "title": "【土地家屋調査士試験】平成27年度 第17問〜「共用部分にする」登記は義務じゃない〜",
+   "file": "note-articles/h27-mondai/q17-kyouyoububun.md"
+  },
+  {
+   "rank": 2,
+   "law": "民法",
+   "article": "252",
+   "years": 17,
+   "q": "H17-Q01",
+   "cites": 11,
+   "title": "【土地家屋調査士試験】平成17年度 第1問〜明渡しも抵当権設定も、一人でできるんです〜",
+   "file": "note-articles/h17-mondai/q01-kyoyu-hozon-kanri.md"
+  },
+  {
+   "rank": 3,
+   "law": "不動産登記法",
+   "article": "51",
+   "years": 17,
+   "q": "H29-Q15",
+   "cites": 7,
+   "title": "【土地家屋調査士試験】平成29年度 第15問〜1人が申請すれば他の区分所有者は免れるんです〜",
+   "file": "note-articles/h29-mondai/q15-tatemono-shinsei-gimu.md"
+  },
+  {
+   "rank": 4,
+   "law": "民法",
+   "article": "423",
+   "years": 17,
+   "q": "R6-Q11",
+   "cites": 7,
+   "title": "【土地家屋調査士試験】令和6年度 第11問〜附属建物の買主は代位で分割登記できる〜",
+   "file": "note-articles/r6-mondai/q11-daii-ni-yoru-touki.md"
+  },
+  {
+   "rank": 5,
+   "law": "不動産登記令",
+   "article": "3",
+   "years": 16,
+   "q": "H24-Q04",
+   "cites": 6,
+   "title": "【土地家屋調査士試験】平成24年度 第4問〜地番、実は申請情報に書かなくていいんです〜",
+   "file": "note-articles/h24-mondai/q04-shinseijouhou.md"
+  },
+  {
+   "rank": 6,
+   "law": "不動産登記規則",
+   "article": "35",
+   "years": 16,
+   "q": "H19-Q16",
+   "cites": 11,
+   "title": "【土地家屋調査士試験】平成19年度 第16問〜取り壊しと新築はまとめて申請できないんです〜",
+   "file": "note-articles/h19-mondai/q16-ichi-no-shinsei-joho.md"
+  },
+  {
+   "rank": 7,
+   "law": "不動産登記法",
+   "article": "39",
+   "years": 16,
+   "q": "R3-Q11",
+   "cites": 6,
+   "title": "【土地家屋調査士試験】令和3年度 第11問〜賃借権者の承諾はいらないんです〜",
+   "file": "note-articles/r3-mondai/q11-bunpitsu.md"
+  },
+  {
+   "rank": 8,
+   "law": "不動産登記事務取扱手続準則",
+   "article": "68",
+   "years": 16,
+   "q": "H30-Q09",
+   "cites": 14,
+   "title": "【土地家屋調査士試験】平成30年度 第9問〜石油タンクの下も、宅地なんです〜",
+   "file": "note-articles/h30-mondai/q09-chimoku.md"
+  },
+  {
+   "rank": 9,
+   "law": "不動産登記法",
+   "article": "41",
+   "years": 16,
+   "q": "H28-Q10",
+   "cites": 9,
+   "title": "【土地家屋調査士試験】平成28年度 第10問〜保安林でも合筆できる、その境界線〜",
+   "file": "note-articles/h28-mondai/q10-gappitsu.md"
+  },
+  {
+   "rank": 10,
+   "law": "不動産登記法",
+   "article": "44",
+   "years": 15,
+   "q": "H17-Q08",
+   "cites": 4,
+   "title": "【土地家屋調査士試験】平成17年度 第8問〜登記所の管轄が違っても、附属建物にできるんです〜",
+   "file": "note-articles/h17-mondai/q08-fuzoku-tatemono.md"
+  }
+ ],
+ "rule": "その条文を法令名つきで引いた回数がいちばん多い問（同じなら令和の問、さらに同じなら新しい年度）。一問一答で根拠が弱いとして要確認にしている問（tools/drill/REVIEW_HOLD.md）は除く",
+ "excluded": [
+  "H17-Q02",
+  "H17-Q07",
+  "H17-Q09",
+  "H17-Q16",
+  "H19-Q12",
+  "H19-Q14",
+  "H19-Q19",
+  "H20-Q11",
+  "H20-Q20",
+  "H21-Q20",
+  "H22-Q07",
+  "H22-Q14",
+  "H23-Q17",
+  "H25-Q18",
+  "H26-Q14",
+  "H28-Q03",
+  "H28-Q04",
+  "H28-Q05",
+  "H28-Q06",
+  "H28-Q07",
+  "H28-Q08",
+  "H28-Q09",
+  "H29-Q01",
+  "R2-Q05",
+  "R6-Q05"
+ ],
+ "sources": [
+  {
+   "file": "note-articles/h27-mondai/q17-kyouyoububun.md",
+   "text": "【土地家屋調査士試験】平成27年度 第17問〜「共用部分にする」登記は義務じゃない〜"
+  },
+  {
+   "file": "note-articles/h17-mondai/q01-kyoyu-hozon-kanri.md",
+   "text": "【土地家屋調査士試験】平成17年度 第1問〜明渡しも抵当権設定も、一人でできるんです〜"
+  },
+  {
+   "file": "note-articles/h29-mondai/q15-tatemono-shinsei-gimu.md",
+   "text": "【土地家屋調査士試験】平成29年度 第15問〜1人が申請すれば他の区分所有者は免れるんです〜"
+  },
+  {
+   "file": "note-articles/r6-mondai/q11-daii-ni-yoru-touki.md",
+   "text": "【土地家屋調査士試験】令和6年度 第11問〜附属建物の買主は代位で分割登記できる〜"
+  },
+  {
+   "file": "note-articles/h24-mondai/q04-shinseijouhou.md",
+   "text": "【土地家屋調査士試験】平成24年度 第4問〜地番、実は申請情報に書かなくていいんです〜"
+  },
+  {
+   "file": "note-articles/h19-mondai/q16-ichi-no-shinsei-joho.md",
+   "text": "【土地家屋調査士試験】平成19年度 第16問〜取り壊しと新築はまとめて申請できないんです〜"
+  },
+  {
+   "file": "note-articles/r3-mondai/q11-bunpitsu.md",
+   "text": "【土地家屋調査士試験】令和3年度 第11問〜賃借権者の承諾はいらないんです〜"
+  },
+  {
+   "file": "note-articles/h30-mondai/q09-chimoku.md",
+   "text": "【土地家屋調査士試験】平成30年度 第9問〜石油タンクの下も、宅地なんです〜"
+  },
+  {
+   "file": "note-articles/h28-mondai/q10-gappitsu.md",
+   "text": "【土地家屋調査士試験】平成28年度 第10問〜保安林でも合筆できる、その境界線〜"
+  },
+  {
+   "file": "note-articles/h17-mondai/q08-fuzoku-tatemono.md",
+   "text": "【土地家屋調査士試験】平成17年度 第8問〜登記所の管轄が違っても、附属建物にできるんです〜"
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "questions_total": 440,
+ "pairs": [
+  {
+   "a": "表題部所有者",
+   "b": "所有権の登記名義人",
+   "questions": 151,
+   "years": 22
+  },
+  {
+   "a": "分筆",
+   "b": "合筆",
+   "questions": 66,
+   "years": 22
+  },
+  {
+   "a": "変更",
+   "b": "更正",
+   "questions": 64,
+   "years": 22
+  },
+  {
+   "a": "滅失",
+   "b": "取壊し",
+   "questions": 38,
+   "years": 17
+  },
+  {
+   "a": "地積測量図",
+   "b": "土地所在図",
+   "questions": 34,
+   "years": 18
+  },
+  {
+   "a": "敷地権",
+   "b": "敷地利用権",
+   "questions": 25,
+   "years": 16
+  },
+  {
+   "a": "合体",
+   "b": "合併",
+   "questions": 23,
+   "years": 14
+  },
+  {
+   "a": "表題登記",
+   "b": "所有権の保存の登記",
+   "questions": 22,
+   "years": 13
+  },
+  {
+   "a": "地図",
+   "b": "地図に準ずる図面",
+   "questions": 21,
+   "years": 15
+  },
+  {
+   "a": "建物の分割",
+   "b": "建物の区分",
+   "questions": 10,
+   "years": 8
+  },
+  {
+   "a": "法定敷地",
+   "b": "規約敷地",
+   "questions": 9,
+   "years": 8
+  },
+  {
+   "a": "筆界",
+   "b": "所有権の境",
+   "questions": 6,
+   "years": 6
+  },
+  {
+   "a": "壁心",
+   "b": "内法",
+   "questions": 6,
+   "years": 6
+  },
+  {
+   "a": "法定共用部分",
+   "b": "規約共用部分",
+   "questions": 4,
+   "years": 4
+  },
+  {
+   "a": "登記識別情報",
+   "b": "登記済証",
+   "questions": 4,
+   "years": 4
+  },
+  {
+   "a": "代位",
+   "b": "代理",
+   "questions": 4,
+   "years": 4
+  }
+ ],
+ "top10": [
+  {
+   "a": "表題部所有者",
+   "b": "所有権の登記名義人",
+   "questions": 151,
+   "years": 22
+  },
+  {
+   "a": "分筆",
+   "b": "合筆",
+   "questions": 66,
+   "years": 22
+  },
+  {
+   "a": "変更",
+   "b": "更正",
+   "questions": 64,
+   "years": 22
+  },
+  {
+   "a": "滅失",
+   "b": "取壊し",
+   "questions": 38,
+   "years": 17
+  },
+  {
+   "a": "地積測量図",
+   "b": "土地所在図",
+   "questions": 34,
+   "years": 18
+  },
+  {
+   "a": "敷地権",
+   "b": "敷地利用権",
+   "questions": 25,
+   "years": 16
+  },
+  {
+   "a": "合体",
+   "b": "合併",
+   "questions": 23,
+   "years": 14
+  },
+  {
+   "a": "表題登記",
+   "b": "所有権の保存の登記",
+   "questions": 22,
+   "years": 13
+  },
+  {
+   "a": "地図",
+   "b": "地図に準ずる図面",
+   "questions": 21,
+   "years": 15
+  },
+  {
+   "a": "建物の分割",
+   "b": "建物の区分",
+   "questions": 10,
+   "years": 8
+  }
+ ],
+ "rule": "同じ問の解説の本文に、AとBの両方の語が出てくる問の数（1問で何度出ても1）",
+ "sources": [
+  {
+   "file": "note-articles/topics/zukai-kikaku/02-taihi-zukan.md",
+   "text": "合体は事実、合併は手続"
+  }
+ ]
+}

@@ -1,0 +1,454 @@
+{
+ "years": 19,
+ "rows": [
+  {
+   "year": "H20",
+   "nendo": "平成20年度",
+   "mokuteki": [
+    "建物区分登記"
+   ],
+   "kubun": true,
+   "uchinori": true,
+   "subtitle": "2階から始まる専有部分、敷地権は8分の3"
+  },
+  {
+   "year": "H21",
+   "nendo": "平成21年度",
+   "mokuteki": [
+    "建物表題登記"
+   ],
+   "kubun": false,
+   "uchinori": false,
+   "subtitle": "天井2.00mのロフトは3階に数える"
+  },
+  {
+   "year": "H22",
+   "nendo": "平成22年度",
+   "mokuteki": [
+    "建物表題部変更登記",
+    "合体による登記等"
+   ],
+   "kubun": true,
+   "uchinori": false,
+   "subtitle": "障壁を残せば区分、除けば合体"
+  },
+  {
+   "year": "H23",
+   "nendo": "平成23年度",
+   "mokuteki": [
+    "建物表題部変更登記"
+   ],
+   "kubun": true,
+   "uchinori": true,
+   "subtitle": "道路の向こうの車庫は区分建物の附属建物"
+  },
+  {
+   "year": "H24",
+   "nendo": "平成24年度",
+   "mokuteki": [
+    "区分建物表題登記"
+   ],
+   "kubun": true,
+   "uchinori": true,
+   "subtitle": "妹の専有部分は代位で、分有なら敷地権なし"
+  },
+  {
+   "year": "H25",
+   "nendo": "平成25年度",
+   "mokuteki": [
+    "建物表題部変更登記",
+    "建物表題登記"
+   ],
+   "kubun": false,
+   "uchinori": false,
+   "subtitle": "概略図にない筆界、倉庫は10番地にもかかる"
+  },
+  {
+   "year": "H26",
+   "nendo": "平成26年度",
+   "mokuteki": [
+    "区分建物表題部変更登記",
+    "建物表題登記",
+    "建物表題部変更・合併登記"
+   ],
+   "kubun": true,
+   "uchinori": false,
+   "subtitle": "共用部分の規約廃止は変更じゃなく表題登記"
+  },
+  {
+   "year": "H27",
+   "nendo": "平成27年度",
+   "mokuteki": [
+    "建物区分登記"
+   ],
+   "kubun": true,
+   "uchinori": true,
+   "subtitle": "土地を手放さないなら、区分の前に規約を"
+  },
+  {
+   "year": "H28",
+   "nendo": "平成28年度",
+   "mokuteki": [
+    "建物表題部変更登記"
+   ],
+   "kubun": false,
+   "uchinori": false,
+   "subtitle": "新館は区分建物じゃない、しかも3階"
+  },
+  {
+   "year": "H29",
+   "nendo": "平成29年度",
+   "mokuteki": [
+    "建物分割登記",
+    "建物表題部変更登記"
+   ],
+   "kubun": false,
+   "uchinori": false,
+   "subtitle": "主だけ売るなら分割、かまぼこ倉庫は端まで床面積"
+  },
+  {
+   "year": "H30",
+   "nendo": "平成30年度",
+   "mokuteki": [
+    "合体による登記等"
+   ],
+   "kubun": false,
+   "uchinori": false,
+   "subtitle": "増築じゃなく合体、同じ人を別人とみなす"
+  },
+  {
+   "year": "R1",
+   "nendo": "令和元年度",
+   "mokuteki": [
+    "区分建物表題登記",
+    "区分建物表題部変更登記"
+   ],
+   "kubun": true,
+   "uchinori": true,
+   "subtitle": "区分は内法、一棟と附属の駐車場は壁心"
+  },
+  {
+   "year": "R2",
+   "nendo": "令和2年度",
+   "mokuteki": [
+    "建物滅失登記",
+    "建物表題登記"
+   ],
+   "kubun": false,
+   "uchinori": false,
+   "subtitle": "表題登記前の増築は「新築」と「増築」を併記"
+  },
+  {
+   "year": "R3",
+   "nendo": "令和3年度",
+   "mokuteki": [
+    "建物区分登記",
+    "区分建物区分登記"
+   ],
+   "kubun": true,
+   "uchinori": true,
+   "subtitle": "区分した瞬間、床面積は壁心から内法へ"
+  },
+  {
+   "year": "R4",
+   "nendo": "令和4年度",
+   "mokuteki": [
+    "建物表題部変更登記"
+   ],
+   "kubun": false,
+   "uchinori": false,
+   "subtitle": "主と附属がつながっても合体登記じゃない"
+  },
+  {
+   "year": "R5",
+   "nendo": "令和5年度",
+   "mokuteki": [
+    "区分建物表題部変更・合併登記"
+   ],
+   "kubun": true,
+   "uchinori": true,
+   "subtitle": "区分合併と床面積の恐怖"
+  },
+  {
+   "year": "R6",
+   "nendo": "令和6年度",
+   "mokuteki": [
+    "建物表題登記"
+   ],
+   "kubun": false,
+   "uchinori": false,
+   "subtitle": "車庫の上の洋室は別の建物じゃない"
+  },
+  {
+   "year": "R7",
+   "nendo": "令和7年度",
+   "mokuteki": [
+    "建物表題部変更登記"
+   ],
+   "kubun": false,
+   "uchinori": false,
+   "subtitle": "「主」が消えても滅失登記じゃない"
+  },
+  {
+   "year": "R8",
+   "nendo": "令和8年度",
+   "mokuteki": [
+    "区分建物区分登記"
+   ],
+   "kubun": true,
+   "uchinori": true,
+   "subtitle": "1つの専有部分を2つに戻す区分"
+  }
+ ],
+ "kinds": [
+  [
+   "建物表題部変更登記",
+   7
+  ],
+  [
+   "建物表題登記",
+   5
+  ],
+  [
+   "建物区分登記",
+   3
+  ],
+  [
+   "合体による登記等",
+   2
+  ],
+  [
+   "区分建物表題登記",
+   2
+  ],
+  [
+   "区分建物表題部変更登記",
+   2
+  ],
+  [
+   "区分建物区分登記",
+   2
+  ],
+  [
+   "建物表題部変更・合併登記",
+   1
+  ],
+  [
+   "建物分割登記",
+   1
+  ],
+  [
+   "建物滅失登記",
+   1
+  ],
+  [
+   "区分建物表題部変更・合併登記",
+   1
+  ]
+ ],
+ "kubun_years": 10,
+ "uchinori_years": 8,
+ "multi_years": [
+  "H22",
+  "H25",
+  "H26",
+  "H29",
+  "R1",
+  "R2",
+  "R3"
+ ],
+ "janai_years": [
+  "H26",
+  "H28",
+  "H30",
+  "R4",
+  "R6",
+  "R7"
+ ],
+ "sources": [
+  {
+   "file": "note-articles-Kijyutsu/H20/Q22/note_H20_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物区分登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H20/Q22/note_H20_dai22mon_tatemono_kaisetsu.md",
+   "text": "2階から始まる専有部分、敷地権は8分の3"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H21/Q22/note_H21_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H21/Q22/note_H21_dai22mon_tatemono_kaisetsu.md",
+   "text": "天井2.00mのロフトは3階に数える"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H22/Q22/note_H22_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題部変更登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H22/Q22/note_H22_dai22mon_tatemono_kaisetsu.md",
+   "text": "合体による登記等"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H22/Q22/note_H22_dai22mon_tatemono_kaisetsu.md",
+   "text": "障壁を残せば区分、除けば合体"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H23/Q22/note_H23_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題部変更登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H23/Q22/note_H23_dai22mon_tatemono_kaisetsu.md",
+   "text": "道路の向こうの車庫は区分建物の附属建物"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H24/Q22/note_H24_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分建物表題登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H24/Q22/note_H24_dai22mon_tatemono_kaisetsu.md",
+   "text": "妹の専有部分は代位で、分有なら敷地権なし"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題部変更登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H25/Q22/note_H25_dai22mon_tatemono_kaisetsu.md",
+   "text": "概略図にない筆界、倉庫は10番地にもかかる"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H26/Q22/note_H26_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分建物表題部変更登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H26/Q22/note_H26_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H26/Q22/note_H26_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題部変更・合併登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H26/Q22/note_H26_dai22mon_tatemono_kaisetsu.md",
+   "text": "共用部分の規約廃止は変更じゃなく表題登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H27/Q22/note_H27_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物区分登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H27/Q22/note_H27_dai22mon_tatemono_kaisetsu.md",
+   "text": "土地を手放さないなら、区分の前に規約を"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H28/Q22/note_H28_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題部変更登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H28/Q22/note_H28_dai22mon_tatemono_kaisetsu.md",
+   "text": "新館は区分建物じゃない、しかも3階"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H29/Q22/note_H29_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物分割登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H29/Q22/note_H29_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題部変更登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H29/Q22/note_H29_dai22mon_tatemono_kaisetsu.md",
+   "text": "主だけ売るなら分割、かまぼこ倉庫は端まで床面積"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H30/Q22/note_H30_dai22mon_tatemono_kaisetsu.md",
+   "text": "合体による登記等"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H30/Q22/note_H30_dai22mon_tatemono_kaisetsu.md",
+   "text": "増築じゃなく合体、同じ人を別人とみなす"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R1/Q22/note_R1_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分建物表題登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R1/Q22/note_R1_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分建物表題部変更登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R1/Q22/note_R1_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分は内法、一棟と附属の駐車場は壁心"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R2/Q22/note_R2_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物滅失登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R2/Q22/note_R2_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R2/Q22/note_R2_dai22mon_tatemono_kaisetsu.md",
+   "text": "表題登記前の増築は「新築」と「増築」を併記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R3/Q22/note_R3_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物区分登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R3/Q22/note_R3_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分建物区分登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R3/Q22/note_R3_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分した瞬間、床面積は壁心から内法へ"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R4/Q22/note_R4_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題部変更登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R4/Q22/note_R4_dai22mon_tatemono_kaisetsu.md",
+   "text": "主と附属がつながっても合体登記じゃない"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R5/Q22/note_R5_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分建物表題部変更・合併登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R5/Q22/note_R5_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分合併と床面積の恐怖"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R6/Q22/note_R6_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R6/Q22/note_R6_dai22mon_tatemono_kaisetsu.md",
+   "text": "車庫の上の洋室は別の建物じゃない"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R7/Q22/note_R7_dai22mon_tatemono_kaisetsu.md",
+   "text": "建物表題部変更登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R7/Q22/note_R7_dai22mon_tatemono_kaisetsu.md",
+   "text": "「主」が消えても滅失登記じゃない"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q22/note_R8_dai22mon_tatemono_kaisetsu.md",
+   "text": "区分建物区分登記"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q22/note_R8_dai22mon_tatemono_kaisetsu.md",
+   "text": "1つの専有部分を2つに戻す区分"
+  }
+ ]
+}

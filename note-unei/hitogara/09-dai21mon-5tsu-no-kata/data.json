@@ -1,0 +1,98 @@
+{
+ "types": [
+  {
+   "name": "2直線の交点",
+   "examples": [
+    "令和8年度のK点",
+    "令和3年度のH点（直線ABと直線FEの延長の交点）",
+    "平成30年度のI点（HからEへの延長線と直線ABの交点）",
+    "平成28年度のJ点（ABと平行でGを通る直線と直線AIの交点）"
+   ]
+  },
+  {
+   "name": "直線上で決まった距離",
+   "examples": [
+    "平成24年度のK点（JIの延長線上でJから0.65m）",
+    "平成22年度のK点（CからDの向きに10.18m）",
+    "令和8年度のL点（ただし軸方向に6.05m）"
+   ]
+  },
+  {
+   "name": "平行で決まった幅だけ離れた直線",
+   "examples": [
+    "令和5年度のB点・H点（CGに平行で西へ1.00m）",
+    "平成29年度のH点・I点（FGに平行で西へ1.00m）"
+   ]
+  },
+  {
+   "name": "垂線の足",
+   "examples": [
+    "令和元年度のG点（EからFHへの垂線）",
+    "平成20年度のF点（Eから直線BCへの垂線）"
+   ]
+  },
+  {
+   "name": "面積の条件",
+   "examples": [
+    "平成24年度のL点（アの面積をイの1.087倍に）",
+    "平成21年度のJ点（交換しても乙土地の面積が変わらない）",
+    "令和7年度の2等分"
+   ]
+  }
+ ],
+ "examples": 14,
+ "sources": [
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "2直線の交点"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "直線上で決まった距離"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "平行で決まった幅だけ離れた直線"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "垂線の足"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "面積の条件"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "ほとんどがこの5つの型か、その組み合わせ"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "①その点について書いた文を全部抜き出す、②図形の言葉に訳す、③条件を2つそろえる（足りなければ芋づるで先の点を出す）、④図を大きく描いて線を延ばし、補助線を引く、⑤5つの型のどれか、その組み合わせかを当てる、⑥見当をつけてから計算して、検算する"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "ひねりがわなになる"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "K ＝ J ＋ (L − J) × t"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H24/Q21/note_H24_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "K ＝ J ＋ (J − I) ÷ Abs(J − I) × 0.65"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H29/Q21/note_H29_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "1.00∠( arg(G − F) ＋ 90° )"
+  },
+  {
+   "file": "note-articles-Kijyutsu/R1/Q21/note_R1_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "G ＝ F ＋ (H − F) × ( w ＋ Conjg(w) ) ÷ 2"
+  },
+  {
+   "file": "note-articles-Kijyutsu/H21/Q21/note_H21_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "相似比"
+  }
+ ]
+}

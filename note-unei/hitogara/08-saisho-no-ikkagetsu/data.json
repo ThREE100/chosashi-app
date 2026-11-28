@@ -1,0 +1,18 @@
+{
+ "takuitsu_q": 440,
+ "q21": 19,
+ "q22": 19,
+ "ichimon": 2100,
+ "asa": 120,
+ "yoru": 120,
+ "sources": [
+  {
+   "file": "note-articles/laws/chousashi-hou.md",
+   "text": "筆記試験に合格した者次回の第一項の試験の筆記試験"
+  },
+  {
+   "file": "note-articles/laws/chousashi-hou.md",
+   "text": "口述試験は、筆記試験に合格した者につき"
+  }
+ ]
+}

@@ -1,0 +1,268 @@
+{
+ "rows": [
+  {
+   "year": "H20",
+   "nendo": "平成20年度",
+   "blocks": 22,
+   "keys": 511,
+   "disp": 25
+  },
+  {
+   "year": "H21",
+   "nendo": "平成21年度",
+   "blocks": 19,
+   "keys": 514,
+   "disp": 16
+  },
+  {
+   "year": "H22",
+   "nendo": "平成22年度",
+   "blocks": 27,
+   "keys": 854,
+   "disp": 24
+  },
+  {
+   "year": "H23",
+   "nendo": "平成23年度",
+   "blocks": 23,
+   "keys": 593,
+   "disp": 19
+  },
+  {
+   "year": "H24",
+   "nendo": "平成24年度",
+   "blocks": 16,
+   "keys": 461,
+   "disp": 12
+  },
+  {
+   "year": "H25",
+   "nendo": "平成25年度",
+   "blocks": 15,
+   "keys": 569,
+   "disp": 23
+  },
+  {
+   "year": "H26",
+   "nendo": "平成26年度",
+   "blocks": 16,
+   "keys": 421,
+   "disp": 10
+  },
+  {
+   "year": "H27",
+   "nendo": "平成27年度",
+   "blocks": 17,
+   "keys": 708,
+   "disp": 15
+  },
+  {
+   "year": "H28",
+   "nendo": "平成28年度",
+   "blocks": 14,
+   "keys": 416,
+   "disp": 14
+  },
+  {
+   "year": "H29",
+   "nendo": "平成29年度",
+   "blocks": 20,
+   "keys": 848,
+   "disp": 26
+  },
+  {
+   "year": "H30",
+   "nendo": "平成30年度",
+   "blocks": 15,
+   "keys": 639,
+   "disp": 10
+  },
+  {
+   "year": "R1",
+   "nendo": "令和元年度",
+   "blocks": 15,
+   "keys": 470,
+   "disp": 14
+  },
+  {
+   "year": "R2",
+   "nendo": "令和2年度",
+   "blocks": 15,
+   "keys": 516,
+   "disp": 18
+  },
+  {
+   "year": "R3",
+   "nendo": "令和3年度",
+   "blocks": 19,
+   "keys": 569,
+   "disp": 16
+  },
+  {
+   "year": "R4",
+   "nendo": "令和4年度",
+   "blocks": 13,
+   "keys": 592,
+   "disp": 19
+  },
+  {
+   "year": "R5",
+   "nendo": "令和5年度",
+   "blocks": 5,
+   "keys": 163,
+   "disp": 5
+  },
+  {
+   "year": "R6",
+   "nendo": "令和6年度",
+   "blocks": 16,
+   "keys": 528,
+   "disp": 14
+  },
+  {
+   "year": "R7",
+   "nendo": "令和7年度",
+   "blocks": 16,
+   "keys": 572,
+   "disp": 16
+  },
+  {
+   "year": "R8",
+   "nendo": "令和8年度",
+   "blocks": 14,
+   "keys": 648,
+   "disp": 19
+  }
+ ],
+ "total_keys": 10592,
+ "total_blocks": 317,
+ "avg_per_block": 33.4,
+ "top_keys": [
+  [
+   "数字・小数点",
+   3992
+  ],
+  [
+   "[ALPHA]",
+   1176
+  ],
+  [
+   "[)]",
+   669
+  ],
+  [
+   "[+]",
+   539
+  ],
+  [
+   "[−]",
+   467
+  ],
+  [
+   "[Apps]",
+   330
+  ],
+  [
+   "[=]",
+   315
+  ],
+  [
+   "[4]",
+   302
+  ],
+  [
+   "[i]",
+   290
+  ],
+  [
+   "[(]",
+   234
+  ],
+  [
+   "[SHIFT]",
+   208
+  ],
+  [
+   "[STO]",
+   208
+  ]
+ ],
+ "sources": [
+  {
+   "file": "note-articles-Kijyutsu/H20/Q21/note_H20_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H21/Q21/note_H21_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H22/Q21/note_H22_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H23/Q21/note_H23_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H24/Q21/note_H24_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H25/Q21/note_H25_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H26/Q21/note_H26_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H27/Q21/note_H27_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H28/Q21/note_H28_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H29/Q21/note_H29_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/H30/Q21/note_H30_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/R1/Q21/note_R1_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/R2/Q21/note_R2_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/R3/Q21/note_R3_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/R4/Q21/note_R4_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/R5/Q21/note_R5_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/R6/Q21/note_R6_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/R7/Q21/note_R7_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  },
+  {
+   "file": "note-articles-Kijyutsu/R8/Q21/note_R8_dai21mon_tochi_kaiwa_kaisetsu.md",
+   "text": "表示："
+  }
+ ]
+}

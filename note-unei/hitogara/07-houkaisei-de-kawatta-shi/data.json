@@ -1,0 +1,121 @@
+{
+ "kawatta": [
+  {
+   "q": "平成17年度 第20問 ウ",
+   "what": "事件簿の保存期間",
+   "law": "土地家屋調査士法施行規則 第28条第2項（今は閉鎖後七年間）",
+   "change": "正しい → 誤り",
+   "file": "note-articles/h17-mondai/q20-chousashi-houjin.md"
+  },
+  {
+   "q": "平成19年度 第12問 オ",
+   "what": "共有地の分筆を申請できる共有者",
+   "law": "令和5年4月1日施行の民法改正（共有物の変更・管理は持分の価格の過半数）",
+   "change": "誤り → 正しい",
+   "file": "note-articles/h19-mondai/q12-bunpitsu.md"
+  },
+  {
+   "q": "平成21年度 第20問",
+   "what": "未成年者は調査士になれない（成年の年齢）",
+   "law": "令和4年4月1日施行の民法改正（成年は十八歳）",
+   "change": "改題（判定の日を移した）",
+   "file": "note-articles/h21-mondai/q20-kekkaku-jiyuu.md"
+  },
+  {
+   "q": "平成29年度 第20問 オ",
+   "what": "調査士法人を1人で設立できるか",
+   "law": "令和2年の土地家屋調査士法改正",
+   "change": "誤り → 正しい",
+   "file": "note-articles/h29-mondai/q20-chousashi-houjin.md"
+  },
+  {
+   "q": "令和2年度 第5問 ア",
+   "what": "法定相続情報番号だけで、相続を証する情報に代えられるか",
+   "law": "令和6年4月1日施行の不動産登記規則の改正（第37条の3第1項）",
+   "change": "誤り → 正しい",
+   "file": "note-articles/r2-mondai/q05-houtei-souzoku-jouhou.md"
+  }
+ ],
+ "onaji": [
+  {
+   "q": "平成22年度 第20問",
+   "what": "「身体又は精神の衰弱」→「心身の故障」",
+   "file": "note-articles/h22-mondai/q20-chousashi-touroku.md"
+  },
+  {
+   "q": "平成23年度 第3問",
+   "what": "保存行為の根拠が民法第252条ただし書→同条第5項",
+   "file": "note-articles/h23-mondai/q03-kyouyu.md"
+  },
+  {
+   "q": "平成25年度 第20問",
+   "what": "「懲役」→「拘禁刑」",
+   "file": "note-articles/h25-mondai/q20-chousashihou.md"
+  },
+  {
+   "q": "平成28年度 第1問",
+   "what": "時効の「中断」→「更新」「完成猶予」（問題文を改めた）",
+   "file": "note-articles/h28-mondai/q01-shoumetsujikou.md"
+  },
+  {
+   "q": "令和3年度 第11問",
+   "what": "「相続財産管理人」→「相続財産清算人」",
+   "file": "note-articles/r3-mondai/q11-bunpitsu.md"
+  }
+ ],
+ "hold_count": 25,
+ "sources": [
+  {
+   "file": "note-articles/h17-mondai/q20-chousashi-houjin.md",
+   "text": "事件簿は、閉鎖後5年間ではなく7年間保存しなければならない"
+  },
+  {
+   "file": "note-articles/h19-mondai/q12-bunpitsu.md",
+   "text": "（出題当時は誤り）"
+  },
+  {
+   "file": "note-articles/h21-mondai/q20-kekkaku-jiyuu.md",
+   "text": "判定の日を令和8年4月1日に移したため"
+  },
+  {
+   "file": "note-articles/h29-mondai/q20-chousashi-houjin.md",
+   "text": "出題当時は誤り・現行法では正しいという形で結論が反転します"
+  },
+  {
+   "file": "note-articles/r2-mondai/q05-houtei-souzoku-jouhou.md",
+   "text": "出題当時と結論が変わっています"
+  },
+  {
+   "file": "note-articles/h22-mondai/q20-chousashi-touroku.md",
+   "text": "結論自体は変わりません"
+  },
+  {
+   "file": "note-articles/h23-mondai/q03-kyouyu.md",
+   "text": "同条5項に移っています"
+  },
+  {
+   "file": "note-articles/h25-mondai/q20-chousashihou.md",
+   "text": "正誤判定・正解番号自体は変わらない"
+  },
+  {
+   "file": "note-articles/h28-mondai/q01-shoumetsujikou.md",
+   "text": "改題（エ）"
+  },
+  {
+   "file": "note-articles/r3-mondai/q11-bunpitsu.md",
+   "text": "結論自体には影響しません"
+  },
+  {
+   "file": "note-articles/laws/chousashi-hou-sekourule.md",
+   "text": "閉鎖後七年間"
+  },
+  {
+   "file": "note-articles/laws/minpou-1-soukyoku-bukken.md",
+   "text": "年齢十八歳をもって、成年とする。"
+  },
+  {
+   "file": "note-articles/laws/chousashi-hou.md",
+   "text": "心身の故障により業務を行うことができないとき"
+  }
+ ]
+}

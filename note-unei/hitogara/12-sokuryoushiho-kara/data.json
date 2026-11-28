@@ -1,0 +1,60 @@
+{
+ "picks": [
+  {
+   "law": "不動産登記事務取扱手続準則",
+   "article": "82",
+   "name": "建物の床面積の定め方",
+   "rank": 20,
+   "years": 12
+  },
+  {
+   "law": "不動産登記法",
+   "article": "123",
+   "name": "定義（筆界など）",
+   "rank": 36,
+   "years": 9
+  },
+  {
+   "law": "不動産登記法",
+   "article": "14",
+   "name": "地図等",
+   "rank": 38,
+   "years": 9
+  },
+  {
+   "law": "不動産登記規則",
+   "article": "10",
+   "name": "地図（縮尺・精度区分）",
+   "rank": 39,
+   "years": 9
+  },
+  {
+   "law": "不動産登記規則",
+   "article": "77",
+   "name": "地積測量図の内容",
+   "rank": 44,
+   "years": 8
+  },
+  {
+   "law": "不動産登記事務取扱手続準則",
+   "article": "72",
+   "name": "分筆の登記の申請（地積の誤差）",
+   "rank": 73,
+   "years": 5
+  }
+ ],
+ "sources": [
+  {
+   "file": "note-articles/laws/chousashi-hou.md",
+   "text": "測量士若しくは測量士補又は一級建築士若しくは二級建築士となる資格を有する者"
+  },
+  {
+   "file": "note-articles/laws/chousashi-hou.md",
+   "text": "一　土地及び家屋の調査及び測量"
+  },
+  {
+   "file": "note-articles/laws/fudousan-touki-kisoku-1.md",
+   "text": "精度区分"
+  }
+ ]
+}

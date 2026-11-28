@@ -7,7 +7,11 @@
  2. 「書かないこと」（senryaku.md 3.）と、個人の演習結果を思わせる語が本文にない
  3. 図のPNGがあり、Instagram用は 1080×1440
  4. 【要確認】が残っていれば警告（投稿前にユーザーが自分の言葉に直す印）
- 5. 本文に出てくる「（法令名）第N条」が note-articles/laws/ の見出しにある
+ 5. 本文に出てくる「（法令名）第N条」（「規則 第N条」「準則 第N条」の略称を含む）が note-articles/laws/ の見出しにある
+ 6. data.json の sources に書いた文が、そのファイルにそのままある（記事の数字・式・文の出どころ）
+ 7. 本文の引用（「> 」の行）が、note-articles/laws/ の原文にそのままある
+ 8. 投稿メモの「【要確認】の付いたNか所」と本文の【要確認】の数が一致する
+ 9. header-prompts.md と codex-instructions.md があり、見出し画像の文字に数字・英字がない（第4回以降）
 """
 import sys, os, re, json, glob
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -16,7 +20,9 @@ NG_WORDS = ["合格するまで更新", "合格するまで追記", "予備校�
             "誤答", "正答率", "回間違え", "回まちがえ", "回目で正解", "自己採点", "点数は"]
 LAWFILES = {"不動産登記法":["fudousan-touki-hou.md"], "民法":["minpou-1-soukyoku-bukken.md","minpou-2-saiken.md","minpou-3-shinzoku-souzoku.md"],
             "不動産登記令":["fudousan-touki-rei.md"], "不動産登記規則":["fudousan-touki-kisoku-1.md","fudousan-touki-kisoku-2.md","fudousan-touki-kisoku-3.md"],
-            "不動産登記事務取扱手続準則":["fudousan-touki-jimu-junsoku.md"], "区分所有法":["kubunshoyuu-hou.md"], "土地家屋調査士法":["chousashi-hou.md"]}
+            "不動産登記事務取扱手続準則":["fudousan-touki-jimu-junsoku.md"], "区分所有法":["kubunshoyuu-hou.md"], "土地家屋調査士法":["chousashi-hou.md"],
+            "土地家屋調査士法施行規則":["chousashi-hou-sekourule.md"]}
+SHORT = {"規則": "不動産登記規則", "準則": "不動産登記事務取扱手続準則"}
 KAN = dict(zip("〇一二三四五六七八九", range(10)))
 def kan2int(s):
     n, cur = 0, 0
@@ -68,8 +74,33 @@ def check(d):
         for a, y in g.items():
             if a not in rows: ng.append(f"gimu.json の第{a}条が本文の表にない")
             elif rows[a] != y: ng.append(f"第{a}条の年度数が本文{rows[a]}・gimu.json{y}で合わない")
-    for m in re.finditer(r"(不動産登記事務取扱手続準則|不動産登記法|不動産登記令|不動産登記規則|区分所有法|民法) 第([0-9]+)条", body):
+    for m in re.finditer(r"(土地家屋調査士法施行規則|土地家屋調査士法|不動産登記事務取扱手続準則|不動産登記法|不動産登記令|不動産登記規則|区分所有法|民法) 第([0-9]+)条", body):
         if not law_has(m.group(1), int(m.group(2))): ng.append(f"{m.group(1)}第{m.group(2)}条が laws/ の見出しに見つからない")
+    for m in re.finditer(r"(?:^|(?<=[\s（、。「]))(規則|準則) 第([0-9]+)条", body, re.M):
+        if not law_has(SHORT[m.group(1)], int(m.group(2))): ng.append(f"{m.group(1)}第{m.group(2)}条が laws/ の見出しに見つからない")
+    dj = f"{d}/data.json"
+    if os.path.exists(dj):
+        for x in json.load(open(dj, encoding="utf-8")).get("sources", []):
+            fp = f"{ROOT}/{x['file']}"
+            if not os.path.exists(fp): ng.append(f"出どころのファイル {x['file']} がない")
+            elif x["text"] not in open(fp, encoding="utf-8").read(): ng.append(f"出どころの文「{x['text'][:30]}」が {x['file']} にない")
+    laws_all = "".join(open(f, encoding="utf-8").read() for f in glob.glob(f"{ROOT}/note-articles/laws/*.md"))
+    for l in re.findall(r"^> (.+)$", body.split("（本文ここまで）")[0], re.M):
+        q = re.sub(r"^[0-9０-９]+[.．　 ]+", "", l.strip())  # 項の番号（「２　」と「2.」）の書き方の違いは見ない
+        if q not in laws_all: ng.append(f"引用「{l[:30]}」が laws/ の原文にない")
+    mm = re.search(r"【要確認】の付いた(\d+)か所", art)
+    if mm and int(mm.group(1)) != body.count("【要確認】"):
+        ng.append(f"投稿メモの【要確認】{mm.group(1)}か所と本文の{body.count('【要確認】')}か所が合わない")
+    no = int(os.path.basename(d)[:2])
+    if no >= 4:
+        for f in ("header-prompts.md", "codex-instructions.md"):
+            if not os.path.exists(f"{d}/{f}"): ng.append(f"{f} がない")
+        hp = f"{d}/header-prompts.md"
+        if os.path.exists(hp):
+            h = open(hp, encoding="utf-8").read()
+            for t in re.findall(r"(?:dark navy[^:\n]*:|navy text:)\n(.+)\n", h):
+                if re.search(r"[0-9０-９A-Za-z]", t): ng.append(f"見出し画像の文字「{t}」に数字・英字がある")
+            if h.count(f"hitogara{no:02d}_header_") != 2: ng.append("見出し画像のファイル名が2つ（note用・Instagram用）でない")
     for p in glob.glob(f"{d}/*.png"):
         from PIL import Image
         w, h = Image.open(p).size

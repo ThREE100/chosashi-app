@@ -1,0 +1,166 @@
+{
+ "morning": 120,
+ "evening": 120,
+ "traps": [
+  {
+   "id": "M7",
+   "name": "規則・準則・先例の知識",
+   "count": 72
+  },
+  {
+   "id": "M4",
+   "name": "事例の当てはめ",
+   "count": 71
+  },
+  {
+   "id": "M8",
+   "name": "似た制度・用語の取り違え",
+   "count": 67
+  },
+  {
+   "id": "M3",
+   "name": "例外・但書の見落とし",
+   "count": 65
+  },
+  {
+   "id": "M6",
+   "name": "範囲のすり替え（全部／一部、直接／間接）",
+   "count": 64
+  },
+  {
+   "id": "M2",
+   "name": "主体のすり替え（誰が申請・誰の義務）",
+   "count": 37
+  },
+  {
+   "id": "M5",
+   "name": "手続の期間・起算日・順序",
+   "count": 33
+  },
+  {
+   "id": "M1",
+   "name": "数字のすり替え（期間・割合）",
+   "count": 23
+  },
+  {
+   "id": "M10",
+   "name": "義務と努力義務",
+   "count": 3
+  }
+ ],
+ "fields": [
+  [
+   "不登法",
+   97
+  ],
+  [
+   "民法",
+   17
+  ],
+  [
+   "調査士法",
+   6
+  ]
+ ],
+ "styles": [
+  [
+   "事例",
+   44
+  ],
+  [
+   "条文",
+   39
+  ],
+  [
+   "規則準則",
+   36
+  ],
+  [
+   "先例",
+   1
+  ]
+ ],
+ "levels": [
+  [
+   "L3",
+   62
+  ],
+  [
+   "L2",
+   56
+  ],
+  [
+   "L1",
+   2
+  ]
+ ],
+ "traps_per_q": [
+  [
+   2,
+   7
+  ],
+  [
+   3,
+   39
+  ],
+  [
+   4,
+   66
+  ],
+  [
+   5,
+   8
+  ]
+ ],
+ "articles_distinct": 247,
+ "sources": [
+  {
+   "file": "daily-drill/RULES.md",
+   "text": "誤り肢は、**条文の言葉を1か所だけ変える**"
+  },
+  {
+   "file": "daily-drill/RULES.md",
+   "text": "**条文は原文で確認**"
+  },
+  {
+   "file": "daily-drill/RULES.md",
+   "text": "過去問の出典・年度は問題・解説に入れない"
+  },
+  {
+   "file": "daily-drill/taxonomy.json",
+   "text": "規則・準則・先例の知識"
+  },
+  {
+   "file": "daily-drill/taxonomy.json",
+   "text": "事例の当てはめ"
+  },
+  {
+   "file": "daily-drill/taxonomy.json",
+   "text": "似た制度・用語の取り違え"
+  },
+  {
+   "file": "daily-drill/taxonomy.json",
+   "text": "例外・但書の見落とし"
+  },
+  {
+   "file": "daily-drill/taxonomy.json",
+   "text": "範囲のすり替え（全部／一部、直接／間接）"
+  },
+  {
+   "file": "daily-drill/taxonomy.json",
+   "text": "主体のすり替え（誰が申請・誰の義務）"
+  },
+  {
+   "file": "daily-drill/taxonomy.json",
+   "text": "手続の期間・起算日・順序"
+  },
+  {
+   "file": "daily-drill/taxonomy.json",
+   "text": "数字のすり替え（期間・割合）"
+  },
+  {
+   "file": "daily-drill/taxonomy.json",
+   "text": "義務と努力義務"
+  }
+ ]
+}
