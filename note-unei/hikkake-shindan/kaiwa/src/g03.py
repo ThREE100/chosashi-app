@@ -5,7 +5,7 @@ ITEM = dict(
     intro='依頼を拒めないのは、一人ひとりの土地家屋調査士の義務。そう思い込むと、法人について問われたときに引っかかります。文字を読まなくても、漫画を追うだけで答えまでたどり着けるようにしました。',
     pages=[
         tobira('法人も依頼を断れない', '調査士法人は、正当な事由がなければ登記の代理の依頼を拒めない？',
-               '拒めないのは調査士本人。だから×！', '……条文を最後まで見たの？'),
+               '拒めないのは調査士本人。だから間違い！', '……条文を最後まで見たの？'),
         dict(caption='事例を絵で：調査士法人に依頼が来る', aim='肢の場面を絵にして、誰が依頼を受けたのかをはっきりさせる。',
              layout='Three panels: one wide panel across the top, two medium panels side by side at the bottom.',
              panels=[
@@ -35,7 +35,7 @@ ITEM = dict(
                       words=['調査士', '法人', '表示の登記の代理']),
                  dict(size='wide, middle', art='The teacher explains with one wing raised; the student listens with a notebook.', chars='student left, teacher right',
                       talk=[(T, '頼む人から見れば、個人も法人も同じ窓口よ'), (S, 'だから法人だけ断れたら困る')]),
-                 dict(size='wide, bottom', art='Two cards: left card with a tired face icon and a red cross labeled 気が進まない; right card with a full calendar icon and a blue check labeled 正当な事由.',
+                 dict(size='wide, bottom', art='Two cards: left card with a tired face icon labeled 気が進まない; right card with a full calendar icon labeled 正当な事由.',
                       narration='断れるのは、正当な事由があるときだけ', words=['気が進まない', '正当な事由']),
              ]),
         dict(caption='似た場面：筆界特定の代理なら？', aim='同じ問題のエ（筆界特定の代理は断れるが、速やかに通知）と並べて、違いで覚える。',
@@ -51,7 +51,7 @@ ITEM = dict(
         quiz([('調査士は表示の登記の代理を拒める？', '正当な事由がなければ拒めない', 'a person pictogram with tag 調査士.', ['調査士']),
               ('調査士法人なら？', '準用されて、同じく拒めない', 'an office building with tag 法人.', ['法人']),
               ('筆界特定の代理を断るときは？', '速やかに依頼者に通知します', 'a document labeled 筆界特定の手続の代理 and an envelope icon.', [])]),
-        matome('○', ['調査士は正当な事由がなければ依頼を拒めない', '第41条第1項で調査士法人にも準用', '主語が法人でも、準用を思い出す'], '主語のすり替え',
+        matome(['調査士は正当な事由がなければ依頼を拒めない', '第41条第1項で調査士法人にも準用', '主語が法人でも、準用を思い出す'], '主語のすり替え',
                '法人と書いてあっても、準用を確かめます！', 'それで主語にだまされないわよ'),
     ],
     key='主語が「法人」に変わっても、準用で同じ義務がかかるかを確かめる。',

@@ -29,6 +29,6 @@ for k, l in enumerate(L):
 open(jl, 'w', encoding='utf-8').write('\n'.join(L))
 rp = os.path.join(OUT, 'README.md'); R = open(rp, encoding='utf-8').read()
 head = '## 進み具合\n\n| 回 | 順位 | ID | 出典 | ページ | 状態 |\n|---|---|---|---|---|---|\n'
-rows = ''.join(f"| {it['no']:02d} | {rank.get(i, '')} | {i} | {it['q']}{it['label']} | {len(it['pages'])} | {'画像はユーザーが生成済み・良好' if it['no'] == 1 else '画像は未生成'} |\n" for i, it in sorted(done.items(), key=lambda x: x[1]['no']))
+rows = ''.join(f"| {it['no']:02d} | {rank.get(i, '')} | {i} | {it['q']}{it['label']} | {len(it['pages'])} | {'生成済み。○×の直しで1・2・3・7・8ページ目を作り直す（4〜6ページ目はそのまま）' if it['no'] == 1 else '画像は未生成'} |\n" for i, it in sorted(done.items(), key=lambda x: x[1]['no']))
 R = re.sub(r'## 進み具合\n.*\Z', head + rows, R, flags=re.S)
 open(rp, 'w', encoding='utf-8').write(R)

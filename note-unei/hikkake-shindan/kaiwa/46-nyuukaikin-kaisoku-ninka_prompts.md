@@ -32,10 +32,11 @@ PANEL 2 (wide short strip across the bottom): The student gives a confident thum
       - speech bubble from the TEACHER (tail points at the teacher): 「……例外のリストに入ってる？」
 
 ## 4. Text rules
-The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order.
+NO JUDGEMENT MARKS ON THIS PAGE (critical): do not draw any circle mark ○, cross mark ×, check mark, tick, X, stamp, seal, thumbs-up icon, or red/blue judgement symbol anywhere, not even as decoration; whether an option is right or wrong is shown only on the last page. Color meaning: emphasis = yellow highlighter, neutral = dark navy, the key word may be reddish orange.
 
 ## 5. Quality check (apply silently while drawing)
-Exactly 2 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+Exactly 2 panels in the described layout; every string exactly as written and nothing else; no name or role word; no ○, ×, check mark, cross mark, or stamp anywhere on the page; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
 ```
 
 ## 2ページ目：事例を絵で：調査士会が入会金を改定したい
@@ -67,10 +68,11 @@ PANEL 3 (wide strip, bottom): The teacher points at the scene; the student looks
       - speech bubble from the STUDENT (tail points at the student): 「……決議したから有効？」
 
 ## 4. Text rules
-The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order.
+NO JUDGEMENT MARKS ON THIS PAGE (critical): do not draw any circle mark ○, cross mark ×, check mark, tick, X, stamp, seal, thumbs-up icon, or red/blue judgement symbol anywhere, not even as decoration; whether an option is right or wrong is shown only on the last page. Color meaning: emphasis = yellow highlighter, neutral = dark navy, the key word may be reddish orange.
 
 ## 5. Quality check (apply silently while drawing)
-Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; no ○, ×, check mark, cross mark, or stamp anywhere on the page; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
 ```
 
 ## 3ページ目：つまずき：「入会金」は第何号？
@@ -104,10 +106,11 @@ PANEL 3 (very large, bottom two thirds): The teacher holds up a giant card towar
       words inside the drawing (exactly these, nothing else): 「第6号は入っていない」
 
 ## 4. Text rules
-The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order.
+NO JUDGEMENT MARKS ON THIS PAGE (critical): do not draw any circle mark ○, cross mark ×, check mark, tick, X, stamp, seal, thumbs-up icon, or red/blue judgement symbol anywhere, not even as decoration; whether an option is right or wrong is shown only on the last page. Color meaning: emphasis = yellow highlighter, neutral = dark navy, the key word may be reddish orange.
 
 ## 5. Quality check (apply silently while drawing)
-Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; no ○, ×, check mark, cross mark, or stamp anywhere on the page; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
 ```
 
 ## 4ページ目：図解の大ゴマ：入会金は第6号で認可がいる
@@ -136,10 +139,11 @@ PANEL 2 (short strip, bottom): Both characters small, pointing up at the diagram
       - speech bubble from the TEACHER (tail points at the teacher): 「そう。だから認可がいるの」
 
 ## 4. Text rules
-The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order.
+NO JUDGEMENT MARKS ON THIS PAGE (critical): do not draw any circle mark ○, cross mark ×, check mark, tick, X, stamp, seal, thumbs-up icon, or red/blue judgement symbol anywhere, not even as decoration; whether an option is right or wrong is shown only on the last page. Color meaning: emphasis = yellow highlighter, neutral = dark navy, the key word may be reddish orange.
 
 ## 5. Quality check (apply silently while drawing)
-Exactly 2 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+Exactly 2 panels in the described layout; every string exactly as written and nothing else; no name or role word; no ○, ×, check mark, cross mark, or stamp anywhere on the page; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
 ```
 
 ## 5ページ目：会費と入会金は別の号
@@ -166,15 +170,16 @@ PANEL 2 (wide, middle): The teacher explains with one wing raised; the student l
       characters: student left, teacher right
       - speech bubble from the TEACHER (tail points at the teacher): 「会費は例外、入会金は原則どおり」
       - speech bubble from the STUDENT (tail points at the student): 「お金の話でも号が違う！」
-PANEL 3 (wide, bottom): A stamp labeled 法務大臣の認可 on a document.
+PANEL 3 (wide, bottom): A label 法務大臣の認可 on a document.
       narration box (rectangular, cream fill, dark navy text, top-left corner of the panel): 「認可を受けて初めて変更できる」
       words inside the drawing (exactly these, nothing else): 「法務大臣の認可」
 
 ## 4. Text rules
-The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order.
+NO JUDGEMENT MARKS ON THIS PAGE (critical): do not draw any circle mark ○, cross mark ×, check mark, tick, X, stamp, seal, thumbs-up icon, or red/blue judgement symbol anywhere, not even as decoration; whether an option is right or wrong is shown only on the last page. Color meaning: emphasis = yellow highlighter, neutral = dark navy, the key word may be reddish orange.
 
 ## 5. Quality check (apply silently while drawing)
-Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; no ○, ×, check mark, cross mark, or stamp anywhere on the page; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
 ```
 
 ## 6ページ目：似た場面：事務所の所在地を変えるなら？
@@ -195,9 +200,9 @@ NO NAMES: never write any character's name or role word anywhere (no トリ先�
 Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Three panels: a wide panel on top, a wide panel in the middle, and a short strip at the bottom.
 
 ## 3. Panels
-PANEL 1 (wide, top): A document about the entry fee with a blue stamp.
+PANEL 1 (wide, top): A document about the entry fee .
       words inside the drawing (exactly these, nothing else): 「入会金（第6号）」、「認可がいる」
-PANEL 2 (wide, middle): A map pin moving to a new office with no stamp.
+PANEL 2 (wide, middle): A map pin moving to a new office .
       words inside the drawing (exactly these, nothing else): 「事務所の所在地（第1号）」、「変更は認可不要」
 PANEL 3 (short strip, bottom): The student counts on her fingers; the teacher nods.
       characters: student left, teacher right
@@ -205,15 +210,16 @@ PANEL 3 (short strip, bottom): The student counts on her fingers; the teacher no
       - speech bubble from the TEACHER (tail points at the teacher): 「そう。例外の号を覚えるの」
 
 ## 4. Text rules
-The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order.
+NO JUDGEMENT MARKS ON THIS PAGE (critical): do not draw any circle mark ○, cross mark ×, check mark, tick, X, stamp, seal, thumbs-up icon, or red/blue judgement symbol anywhere, not even as decoration; whether an option is right or wrong is shown only on the last page. Color meaning: emphasis = yellow highlighter, neutral = dark navy, the key word may be reddish orange.
 
 ## 5. Quality check (apply silently while drawing)
-Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; no ○, ×, check mark, cross mark, or stamp anywhere on the page; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
 ```
 
 ## 7ページ目：確かめクイズ
 
-ねらい：読んだことを3問で確かめる。正解の印は青。
+ねらい：読んだことを3問で確かめる。正誤の印は付けない。
 
 ```
 Draw page 7 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
@@ -229,30 +235,31 @@ NO NAMES: never write any character's name or role word anywhere (no トリ先�
 Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Three panels of equal height stacked vertically, each a quiz card.
 
 ## 3. Panels
-PANEL 1 (equal, top): Quiz card on the left half: a stamped document. The student answers on the right half; a blue circle stamp appears.
+PANEL 1 (equal, top): Quiz card on the left half: a with a label document. The student answers on the right half.
       characters: student only, right half
       - speech bubble from the STUDENT (tail points at the student): 「いります」
       words inside the drawing (exactly these, nothing else): 「第1問」、「入会金の規定の変更に認可はいる？」
-PANEL 2 (equal, middle): Quiz card on the left half: a list board. The student answers on the right half; a blue circle stamp appears.
+PANEL 2 (equal, middle): Quiz card on the left half: a list board. The student answers on the right half.
       characters: student only, right half
       - speech bubble from the STUDENT (tail points at the student): 「第6号」
       words inside the drawing (exactly these, nothing else): 「第2問」、「入会金は第48条の第何号？」
-PANEL 3 (equal, bottom): Quiz card on the left half: a list board. The student answers on the right half; a blue circle stamp appears. The teacher gives a small wing thumbs-up at the far right.
+PANEL 3 (equal, bottom): Quiz card on the left half: a list board. The student answers on the right half. The teacher gives a small wing thumbs-up at the far right.
       characters: student center-right, teacher small at far right
       - speech bubble from the STUDENT (tail points at the student): 「第1号と第7号〜第11号」
-      - speech bubble from the TEACHER (tail points at the teacher): 「全部正解よ」
+      - speech bubble from the TEACHER (tail points at the teacher): 「よく言えたわね」
       words inside the drawing (exactly these, nothing else): 「第3問」、「認可が要らない号は？」
 
 ## 4. Text rules
-The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order.
+NO JUDGEMENT MARKS ON THIS PAGE (critical): do not draw any circle mark ○, cross mark ×, check mark, tick, X, stamp, seal, thumbs-up icon, or red/blue judgement symbol anywhere, not even as decoration; whether an option is right or wrong is shown only on the last page. Color meaning: emphasis = yellow highlighter, neutral = dark navy, the key word may be reddish orange.
 
 ## 5. Quality check (apply silently while drawing)
-Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+Exactly 3 panels in the described layout; every string exactly as written and nothing else; no name or role word; no ○, ×, check mark, cross mark, or stamp anywhere on the page; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
 ```
 
 ## 8ページ目：まとめ：この肢は○
 
-ねらい：結論・覚え方・ひっかけの型を1ページにまとめ、生徒が自分の言葉で言い直す。
+ねらい：○×はこのページだけ。凡例を添え、肢の記述の横に印、正しい内容は分けて書く。生徒が自分の言葉で言い直す。
 
 ```
 Draw page 8 of 8 of a Japanese educational comic (gakushu manga) for adult exam learners. One page only, exactly 1024x1536 pixels (2:3 portrait), full color, fully opaque background.
@@ -268,18 +275,19 @@ NO NAMES: never write any character's name or role word anywhere (no トリ先�
 Reading order: left to right, top to bottom (horizontal Japanese text). Panel borders are dark navy, with clear white gutters. Two panels: one large panel filling the top two thirds, and one wide panel at the bottom.
 
 ## 3. Panels
-PANEL 1 (large, top two thirds): A large summary board. At the top a big blue stamp-like mark beside the words この肢は○. Below, a checklist with blue check marks, one line each. At the bottom of the board, a rounded label for the trap type.
-      words inside the drawing (exactly these, nothing else): 「この肢は○」、「入会金の規定は第48条第6号」、「会則の制定・変更は法務大臣の認可が原則」、「例外は第1号と第7号〜第11号の変更」、「ひっかけの型：ないルールを足す」
+PANEL 1 (large, top two thirds): A large summary board. At the very top, a small legend line in dark navy. Below it, a row labeled この肢の記述 with the limb's claim, and in front of the claim one large BLUE ○ mark (the only judgement mark on the page). A thin divider, then a section headed ポイント with a plain bulleted list using small navy dots (no check marks). At the bottom of the board, a rounded label for the trap type.
+      words inside the drawing (exactly these, nothing else): 「○＝肢の記述が正しい　×＝肢の記述が誤り」、「この肢の記述」、「○　入会金の会則を定め・変えるには法務大臣の認可がいる」、「ポイント」、「入会金の規定は第48条第6号」、「会則の制定・変更は法務大臣の認可が原則」、「例外は第1号と第7号〜第11号の変更」、「ひっかけの型：ないルールを足す」
 PANEL 2 (wide, bottom): The student, relieved and determined, holds her pencil up; the teacher smiles warmly with wings on hips.
       characters: student left, teacher right
       - speech bubble from the STUDENT (tail points at the student): 「例外の号に入っているか見ます！」
       - speech bubble from the TEACHER (tail points at the teacher): 「それで迷わないわよ」
 
 ## 4. Text rules
-The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.
+The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional Chinese variants. Bubbles in one panel are read top to bottom in the listed order.
+Color meaning on this last page only: the ○ mark is BLUE, the × mark is RED, emphasis = yellow highlighter, neutral = dark navy. Use ○ or × exactly once, only in the row 「この肢の記述」; the legend line explains the marks. No other check marks or stamps.
 
 ## 5. Quality check (apply silently while drawing)
-Exactly 2 panels in the described layout; every string exactly as written and nothing else; no name or role word; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
+Exactly 2 panels in the described layout; every string exactly as written and nothing else; no name or role word; ○ or × appears only once, in the row この肢の記述; every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is.
 ```
 
 ## 見出し画像（note用 1280×670）
@@ -291,7 +299,7 @@ TEXT (only these three strings, exactly): line 1 on a pale yellow marker band �
 
 CHARACTERS: exactly two. THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions. Place him lower right of center. THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each. Place her lower left of center. Free, natural poses that fit the topic, different each time; both fully visible, faces clear of the title. No names or role words anywhere.
 
-STYLE: the bird teacher's flat pastel style; the topic scene (a meeting room with a board and a large official stamp) fades softly into the left and right edges with no text in it. Do not imitate any existing manga series.
+STYLE: the bird teacher's flat pastel style; the topic scene (a meeting room with a board and a document folder) fades softly into the left and right edges with no text in it. Do not imitate any existing manga series.
 
 Final check: only the three strings; standard Japanese kanji; exactly two characters; fully opaque. Deliver the first image as it is.
 ```
@@ -305,7 +313,7 @@ TEXT (only these three strings, exactly): line 1 on a pale yellow marker band �
 
 CHARACTERS: exactly two. THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, blue shirt, red neckerchief, wings used as hands). Sharp-tongued but caring: exasperated, scolding-yet-warm expressions. Place him lower right of center. THE STUDENT: the young woman in the attached sheets キャラクターシート_I-01, I-02, I-03. Copy her face, hairstyle, hair color, outfit, and proportions from those three sheets exactly; never use the look of any other student character. Redraw her in exactly the same art style as the bird teacher's sheets (same line weight, same flat pastel coloring, same head-to-body ratio) so both look like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big (confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, two hands with five fingers each. Place her lower left of center. Free, natural poses that fit the topic, different each time; both fully visible, faces clear of the title. No names or role words anywhere.
 
-STYLE: the bird teacher's flat pastel style; the topic scene (a meeting room with a board and a large official stamp) fades softly into the left and right edges with no text in it. Do not imitate any existing manga series.
+STYLE: the bird teacher's flat pastel style; the topic scene (a meeting room with a board and a document folder) fades softly into the left and right edges with no text in it. Do not imitate any existing manga series.
 
 Final check: only the three strings; standard Japanese kanji; exactly two characters; fully opaque. Deliver the first image as it is.
 ```

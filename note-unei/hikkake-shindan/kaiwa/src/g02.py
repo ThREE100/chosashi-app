@@ -5,7 +5,7 @@ ITEM = dict(
     intro='1つの階しかない建物は「平家建」。一戸建ての感覚のまま区分建物の登記記録を読むと、ここで引っかかります。文字を読まなくても、漫画を追うだけで答えまでたどり着けるようにしました。',
     pages=[
         tobira('マンションの1階は平家建じゃない', '3階建の1階にある専有部分の構造は「1階建」？',
-               '1つの階だけなら平家建。だから×！', '……一戸建てならね'),
+               '1つの階だけなら平家建。だから間違い！', '……一戸建てならね'),
         dict(caption='事例を絵で：3階建の一棟と、1階の一室', aim='登記記録の穴埋めを、建物の断面図に置きかえる。',
              layout='Three panels: one wide panel across the top, one large panel in the middle, and one wide strip across the bottom.',
              panels=[
@@ -52,7 +52,7 @@ ITEM = dict(
         quiz([('1つの階だけの一戸建ての構造は？', '「平家建」です', 'a small one-story detached house.', []),
               ('3階建の1階の専有部分の構造は？', '「1階建」です', 'the apartment cross-section with one first-floor room shaded.', []),
               ('その部屋の床面積の書き方は？', '「1階部分」と添えます', 'a registration record card with a blank in the floor-area line.', [])]),
-        matome('○', ['区分建物の1階の部屋は「1階建」', '床面積は「1階部分」と添える', '「平家建」は一戸建ての書き方'], '似た手続の取り違え',
+        matome(['区分建物の1階の部屋は「1階建」', '床面積は「1階部分」と添える', '「平家建」は一戸建ての書き方'], '似た手続の取り違え',
                'まず、どっちの建物かを見ます！', 'それで取り違えないわよ'),
     ],
     key='その建物が一戸建てか、一棟の中の区分建物かを先に見る。',

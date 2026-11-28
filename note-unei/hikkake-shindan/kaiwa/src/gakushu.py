@@ -5,6 +5,16 @@
 """
 import os
 from common import bank, strip_tags, nendo, TYPES, OUT
+from claims import CLAIM
+
+# ○×の決まり（2026-11-28 ユーザー指示。毎日ドリル朝と同じ）：○×・はんこ・チェックは最後のまとめのページだけ。
+# ○＝肢の記述が正しい、×＝肢の記述が誤り。印は肢の記述（claims.py）の横に付け、正しい内容は「正しくは」に分けて書く。
+LEGEND = '○＝肢の記述が正しい　×＝肢の記述が誤り'
+NOMARK = ("NO JUDGEMENT MARKS ON THIS PAGE (critical): do not draw any circle mark ○, cross mark ×, check mark, tick, X, stamp, seal, "
+          "thumbs-up icon, or red/blue judgement symbol anywhere, not even as decoration; whether an option is right or wrong is shown only "
+          "on the last page. Color meaning: emphasis = yellow highlighter, neutral = dark navy, the key word may be reddish orange.")
+MARKCOLOR = ("Color meaning on this last page only: the ○ mark is BLUE, the × mark is RED, emphasis = yellow highlighter, neutral = dark navy. "
+             "Use ○ or × exactly once, only in the row 「この肢の記述」; the legend line explains the marks. No other check marks or stamps.")
 
 W, H = 1024, 1536
 TEACHER = ("THE TEACHER: the plump, round bird teacher in the attached sheets キャラクターシート_トリ先生_01, _02, _03 (round red glasses, "
@@ -35,6 +45,23 @@ def normalize(it):
             have = '｜'.join(p.get('words', []) + ([p['narration']] if p.get('narration') else []))
             add = [w for w in art_labels(p['art']) if w not in have]
             if add: p['words'] = p.get('words', []) + add
+
+def finalize(it, B):
+    """最後のページ（kata.matome の印）を、バンクの truth から○×を付けたまとめのページに作る。ほかのページには nomark を付ける。"""
+    last = it['pages'][-1]
+    if last.get('kind') != 'matome': raise ValueError(f"{it['id']}: 最後のページが matome ではない")
+    truth = B[it['id']]['truth']; mark = '○' if truth else '×'
+    head = 'ポイント' if truth else '正しくは'
+    words = [LEGEND, 'この肢の記述', f"{mark}　{CLAIM[it['id']]}", head, *last['lines'], f"ひっかけの型：{last['typ']}"]
+    art = ("A large summary board. At the very top, a small legend line in dark navy. Below it, a row labeled この肢の記述 with the limb's claim, "
+           f"and in front of the claim one large {'BLUE ○ mark' if truth else 'RED × mark'} (the only judgement mark on the page). A thin divider, then a "
+           f"section headed {head} with a plain bulleted list using small navy dots (no check marks). At the bottom of the board, a rounded label for the trap type.")
+    for p in it['pages'][:-1]: p['nomark'] = True
+    it['pages'][-1] = dict(caption=f'まとめ：この肢は{mark}', aim='○×はこのページだけ。凡例を添え、肢の記述の横に印、正しい内容は分けて書く。生徒が自分の言葉で言い直す。',
+        layout='Two panels: one large panel filling the top two thirds, and one wide panel at the bottom.',
+        panels=[dict(size='large, top two thirds', art=art, words=words),
+                dict(size='wide, bottom', art='The student, relieved and determined, holds her pencil up; the teacher smiles warmly with wings on hips.',
+                     chars='student left, teacher right', talk=[('S', last['s_end']), ('T', last['t_end'])])])
 
 def _bubble(sp, t):
     who = 'STUDENT' if sp == 'S' else 'TEACHER'
@@ -71,10 +98,11 @@ def page_prompt(it, k, page):
           "The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal "
           "Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or "
           "signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional "
-          "Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, "
-          "crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.", "",
+          "Chinese variants. Bubbles in one panel are read top to bottom in the listed order.",
+          NOMARK if page.get('nomark') else MARKCOLOR, "",
           "## 5. Quality check (apply silently while drawing)",
           f"Exactly {len(page['panels'])} panels in the described layout; every string exactly as written and nothing else; no name or role word; "
+          + ("no ○, ×, check mark, cross mark, or stamp anywhere on the page; " if page.get('nomark') else "○ or × appears only once, in the row この肢の記述; ") +
           "every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; "
           "she has exactly two arms and two hands; pictograms have no faces; fully opaque. Deliver the first image as it is."]
     return "\n".join(L)
@@ -93,6 +121,7 @@ def header_prompt(it, w, h, kind):
         "Final check: only the three strings; standard Japanese kanji; exactly two characters; fully opaque. Deliver the first image as it is."])
 
 def build(it, B):
+    if it['pages'][-1].get('kind') == 'matome': finalize(it, B)
     normalize(it)
     x = B[it['id']]
     stem = strip_tags(x['statement'])
