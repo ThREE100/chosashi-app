@@ -1,7 +1,8 @@
 """毎日ドリル（夜）の学習まんがの機械チェック（NG 0件にする）。
 共通のチェックに加えて、問題データ（PM-NN.json）との照合：
  1. 答え（answers）の値が全部、漫画のどこかに出てくる（落としていない）
- 2. 漫画の数（3桁以上・小数・角度の数）が問題データの中にある。例外は wrong_values（わざと見せる誤り）だけで、答えと同じ数は入れない
+ 2. 漫画の数（3桁以上・小数・角度の数）が問題データの中にある。例外は wrong_values（わざと見せる誤り。答えと同じ数は入れない）と、
+    calc（計算の途中の数。calc.py が問題データから計算し直して、漫画の文字と最後の桁まで合うものだけ）
  3. refs（漫画が名指しする【条件】【注】の番号）の文に、その語がある
  4. 問題の図の求める点の座標が答えと同じ（図とデータの食い違いがない）
  5. 図：fig/ の SVG が問題データから作り直したものと同じ、PNG があり枠と縦横比が同じ、URL がリポジトリの中を指す
@@ -15,6 +16,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import OUT, FIG, problem, scripts  # noqa: E402
 import build_manga_pm as BLD  # noqa: E402
 import figs  # noqa: E402
+import calc as CALC  # noqa: E402
 from manga_core import figs_of  # noqa: E402
 from manga_check import common, all_texts, numbers_from  # noqa: E402
 
@@ -27,7 +29,7 @@ for M in scripts():
     base = f"day{M['day']:03d}-pm-manga"
     md = open(os.path.join(OUT, base + '.md'), encoding='utf-8').read()
     pr = open(os.path.join(OUT, base + '_prompts.md'), encoding='utf-8').read()
-    ng += common(tag, M['pages'], md, pr, fig_dir=FIG)
+    ng += common(tag, M['pages'], md, pr, fig_dir=FIG, max_pages=24)
     txt = '\n'.join(all_texts(M['pages']))
     vals = []
     for a in P['answers']:
@@ -39,7 +41,12 @@ for M in scripts():
     for v in wrong:
         if v in vals:
             ng.append(f"{tag}: wrong_values に答えと同じ数「{v}」")
-    ng += [f"{tag}: {x}" for x in numbers_from(M['pages'], json.dumps(P, ensure_ascii=False), allow=wrong)]
+    c_ng, c_ok = CALC.check(P, M.get('calc', []))
+    ng += [f"{tag}: {x}" for x in c_ng]
+    for _, shown in M.get('calc', []):
+        if shown not in txt:
+            ng.append(f"{tag}: calc の「{shown}」が漫画にない（使わない計算は消す）")
+    ng += [f"{tag}: {x}" for x in numbers_from(M['pages'], json.dumps(P, ensure_ascii=False), allow=list(wrong) + sorted(c_ok))]
     for sec, i, w in M.get('refs', []):
         if w not in P['text'][sec][i - 1]:
             ng.append(f"{tag}: 【{sec}】の{i}に「{w}」がない")

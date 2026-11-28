@@ -15,10 +15,11 @@ def all_texts(pages):
     return [t for pg in pages for p in pg['panels'] for t in texts_of(p)]
 
 
-def common(tag, pages, md=None, prompts=None, fig_dir=None):
+def common(tag, pages, md=None, prompts=None, fig_dir=None, max_pages=14):
+    """max_pages：計算の過程を1段ずつ見せる回（毎日ドリル夜）は多くしてよい。"""
     ng = []
-    if not 4 <= len(pages) <= 14:
-        ng.append(f"{tag}: ページ数が{len(pages)}（4〜14にする）")
+    if not 4 <= len(pages) <= max_pages:
+        ng.append(f"{tag}: ページ数が{len(pages)}（4〜{max_pages}にする）")
     for k, pg in enumerate(pages, 1):
         for key in ('caption', 'aim', 'layout', 'panels'):
             if not pg.get(key):

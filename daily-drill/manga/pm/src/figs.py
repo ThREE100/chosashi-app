@@ -40,7 +40,8 @@ def _coord_labels(fig, pts_xy, pos):
 
 
 def make_svg(spec, P):
-    """spec: 台本の fig（name, kind, rect, …）。kind：mondai＝問題の図、kotae＝答えの図（座標つき）、sub＝問題の図の一部（points・lines を絞る）"""
+    """spec: 台本の fig（name, kind, rect, …）。kind：mondai＝問題の図、kotae＝答えの図（座標つき）、sub＝問題の図の一部（points・lines を絞る）。
+    sub の texts を渡すと、問題の図の文字（市道・地番）の代わりにその文字を置く（例：ベクトルの名前）。road=False で道路を描かない。"""
     fig = P['fig']
     kind = spec['kind']
     if kind == 'mondai':
@@ -53,8 +54,8 @@ def make_svg(spec, P):
         keep = spec['points']
         sub = dict(points={k: dict(fig['points'][k], kind=spec.get('kinds', {}).get(k, fig['points'][k]['kind'])) for k in keep},
                    polys=[pg for pg in fig.get('polys', []) if all(n in keep for n in pg['pts'])],
-                   lines=spec['lines'], texts=fig.get('texts', []))
-        if 'road' in fig:
+                   lines=spec['lines'], texts=spec.get('texts', fig.get('texts', [])))
+        if 'road' in fig and spec.get('road', True):
             sub['road'] = fig['road']
         return figure.svg_generic(sub, reveal=True, vh=VH)
     raise ValueError(kind)
