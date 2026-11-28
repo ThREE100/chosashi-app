@@ -3,7 +3,8 @@
 使えるように切り出したもの。kaiwa/ のファイルは書き換えない（向こうはそのまま。こちらは図の差し込み枠などを足した版）。
 
 台本の形（各仕組みの src/<ID>.py が作る）：
-  page = dict(caption, aim, layout, panels=[panel, …])
+  page = dict(caption, aim, layout, panels=[panel, …], nomark=True?)
+nomark=True のページには、○×・チェック・はんこなどの正誤の印を一切描かせない（毎日ドリル朝の肢ごとのページ。2026-11-28 ユーザー指示）。
   panel = dict(size, art, chars?, narration?, talk=[('S'|'T', 文), …]?, words=[…]?, fig=dict(name, rect=(x, y, w, h))?)
 fig は「Claude が作った図の画像をそのまま置く枠」。rect はページ（1024×1536）の中の位置と大きさ（px）。
 """
@@ -17,6 +18,9 @@ STUDENT = ("THE STUDENT: the young woman in the attached sheets キャラクタ�
            "like they come from one comic. Earnest, straightforward, and lively; she falls into the exam writer's traps and reacts big "
            "(confident, startled, sweating, realizing, relieved). Correct anatomy: one head, one torso, exactly one left arm and one right arm, "
            "two hands with five fingers each.")
+NOMARK = ("NO JUDGEMENT MARKS ON THIS PAGE (critical): do not draw any circle mark ○, cross mark ×, check mark, tick, X, stamp, seal, "
+          "thumbs-up icon, or red/blue judgement symbol anywhere, not even as decoration; whether an option is right or wrong is shown only on "
+          "the last page. Color meaning: emphasis = yellow highlighter, neutral = dark navy, the key word may be reddish orange.")
 SHEETS_NOTE = "ChatGPT・Codexには、キャラクターシート_トリ先生_01〜03 と キャラクターシート_I-01〜03 の6枚を添付する（シートはリポジトリにない）。"
 
 
@@ -81,13 +85,14 @@ def page_prompt(pages, k, page, url_of=None):
           "The only text on the page is the strings in section 3, each reproduced exactly, character for character, in clear horizontal "
           "Japanese lettering large enough to read on a smartphone. No other words, numbers, letters, sound effects written as text, or "
           "signs. Cartoon marks ！ and ？ beside faces are decoration. Standard Japanese (Jōyō) kanji forms only, never Simplified or Traditional "
-          "Chinese variants. Bubbles in one panel are read top to bottom in the listed order. Color meaning: check marks and correct = BLUE, "
-          "crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy."
+          "Chinese variants. Bubbles in one panel are read top to bottom in the listed order. "
+          + (NOMARK if page.get('nomark') else "Color meaning: check marks and correct = BLUE, crosses and wrong = RED, emphasis = yellow highlighter, neutral = dark navy.")
           + (" The text inside an attached figure image is part of that image: keep it exactly as it is and do not add to it." if figs else ""), "",
           "## 5. Quality check (apply silently while drawing)",
           f"Exactly {len(page['panels'])} panels in the described layout; every string exactly as written and nothing else; no name or role word; "
           "every bubble tail points at its own speaker; the student matches sheets I-01, I-02, I-03 and is drawn in the bird teacher's style; "
           "she has exactly two arms and two hands; pictograms have no faces; "
+          + ("no ○, ×, check mark, cross, or stamp anywhere on the page; " if page.get('nomark') else "")
           + ("each attached figure sits unchanged in its rectangle with nothing drawn over it; " if figs else "")
           + "fully opaque. Deliver the first image as it is."]
     return "\n".join(L)

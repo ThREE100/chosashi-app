@@ -34,17 +34,17 @@ def zukai(caption, aim, art, words, talk, fig=None):
                                   chars='student left, teacher right, small', talk=talk)])
 
 
-def quiz(qs, t_end='全部正解よ'):
-    """qs: [(問いの文, 答え, 絵, 追加の語のリスト)] を3つ。"""
+def quiz(qs, t_end='全部正解よ', stamp=True):
+    """qs: [(問いの文, 答え, 絵, 追加の語のリスト)] を3つ。stamp=False なら正解の印を描かせない（毎日ドリル朝）。"""
     panels = []
     pos = ['top', 'middle', 'bottom']
     for k, (q, a, art, extra) in enumerate(qs):
         last = k == len(qs) - 1
-        panels.append(dict(size=f'equal, {pos[k]}', art=f'Quiz card on the left half: {art} The student answers on the right half; a blue circle stamp appears.'
+        panels.append(dict(size=f'equal, {pos[k]}', art=f'Quiz card on the left half: {art} The student answers on the right half' + ('; a blue circle stamp appears.' if stamp else '.')
                            + (' The teacher gives a small wing thumbs-up at the far right.' if last else ''),
                            chars='student center-right, teacher small at far right' if last else 'student only, right half',
                            talk=[(S, a)] + ([(T, t_end)] if last else []), words=[f'第{k+1}問', q] + extra))
-    return dict(caption='確かめクイズ', aim='読んだことを3問で確かめる。正解の印は青。',
+    return dict(caption='確かめクイズ', aim='読んだことを3問で確かめる。' + ('正解の印は青。' if stamp else '正誤の印は付けない。'),
                 layout='Three panels of equal height stacked vertically, each a quiz card.', panels=panels)
 
 

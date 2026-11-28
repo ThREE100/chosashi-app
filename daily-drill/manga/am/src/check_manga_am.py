@@ -5,7 +5,8 @@
  3. コマの中で肢の記号と○×を並べたとき（words に記号1つ・○×1つ）、truth と同じ
  4. 漫画の「第N条」が、問題の根拠（basis の article・note）に挙がった条だけ
  5. 漫画の数（3桁以上・小数）が問題データの中にある
- 6. 生成物が台本から作り直したものと同じ"""
+ 6. 生成物が台本から作り直したものと同じ
+ 7. 最後のページのほかには○×を出さない（文字にも、絵の指示にも。プロンプトに NO JUDGEMENT MARKS）。最後のページに問いの向きと凡例がある（2026-11-28 ユーザー指示）"""
 import contextlib
 import io
 import json
@@ -13,9 +14,12 @@ import os
 import re
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import OUT, problem, scripts, answer  # noqa: E402
+from common import OUT, problem, scripts, answer, ASK  # noqa: E402
 import build_manga_am as BLD  # noqa: E402
 from manga_check import common, numbers_from, articles_in  # noqa: E402
+from manga_core import texts_of  # noqa: E402
+
+MARK_ART = ['stamp', 'check', 'red cross', 'big cross', 'circle mark', '○', '×', '✓', '✔']
 
 ng = []
 for M in scripts():
@@ -40,6 +44,22 @@ for M in scripts():
     n, pick = answer(P)
     if last[0] != f"答え：選択肢{n}（{'・'.join(pick)}）":
         ng.append(f"{tag}: まとめの答え「{last[0]}」がデータの正解（選択肢{n}・{'・'.join(pick)}）と違う")
+    if last[1] != ASK[P['mode']] or not last[2].startswith('○＝'):
+        ng.append(f"{tag}: まとめに問いの向き「{ASK[P['mode']]}」と凡例がない（common.kotae で作る）")
+    for k, pg in enumerate(M['pages'][:-1], 1):
+        for j, p in enumerate(pg['panels'], 1):
+            for t in texts_of(p):
+                if any(c in t for c in '○×✓✔'):
+                    ng.append(f"{tag}: {k}p-{j}の文字「{t}」に○×がある（○×は最後のページだけ）")
+            low = p['art'].lower()
+            for w in MARK_ART:
+                if w in low:
+                    ng.append(f"{tag}: {k}p-{j}の絵の指示に正誤の印「{w}」がある（最後のページだけ）")
+    for k in range(1, len(M['pages'])):
+        m = re.search(rf'\n## {k}ページ目.*?(?=\n## \d+ページ目|\n## 見出し画像|\Z)', pr, re.S)
+        b = m.group(0) if m else ''
+        if 'NO JUDGEMENT MARKS' not in b:
+            ng.append(f"{tag}: {k}ページ目のプロンプトに NO JUDGEMENT MARKS がない")
     for k, pg in enumerate(M['pages'], 1):
         for j, p in enumerate(pg['panels'], 1):
             ws = p.get('words', [])

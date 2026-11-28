@@ -31,8 +31,14 @@ def article(M, P):
     return '\n'.join(L)
 
 
+def with_nomark(pages):
+    """最後のページ（答え）のほかは、正誤の印を描かせない（2026-11-28 ユーザー指示）。"""
+    return [dict(p, nomark=True) if k < len(pages) - 1 else p for k, p in enumerate(pages)]
+
+
 def build(M):
     P = problem(M['problem'])
+    M = dict(M, pages=with_nomark(M['pages']))
     d = M['day']
     fp = f"毎朝ドリル漫画_Day{d:03d}"
     base = f"day{d:03d}-am-manga"
